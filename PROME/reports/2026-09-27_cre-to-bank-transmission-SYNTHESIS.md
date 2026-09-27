@@ -219,3 +219,56 @@ The CPC ventures (C/D) went to a mission-driven bidder **below its cover bids** 
 **The decisive unknown — NOT in the filings:** where the $101.5M of late multifamily loans and the $108M of deferrals sit (NYC rent-regulated? Florida? one or two credits?), and whether they are the same loans. The two desks frame it on two axes: **whether the cohort rolls** into nonaccrual at Q3 (REGINALD: roll + another reserve cut → bank-specific; cure → neither confirmed), and **where it sits** (CREED: spread across the NYC rent-regulated or Florida multifamily book → a weak corroborant of the national multifamily cash-flow channel, still small; concentrated in one or two credits → bank-specific). No further desk work can place it before VLY discloses.
 
 **Effect on the breadth question (§1, §6):** VLY does not move the synthesis off "concentrated at named banks". It is one of the mid-pack names in REGINALD's Q3 breadth test (≥3 of WAL · VLY · SSB · BKU · SBCF with CRE bad loans up >50% QoQ or a foreclosure build → broader); its Q3 multifamily roll is now the most specific single item in that test. Next: VLY Q3 release + deck (est. 10/22) · Q3 10-Q modifications and re-defaults (~early Nov) · Q3 Call Report (REGINALD run 11/07) · deferral end ~Q1-27.
+
+---
+
+## 14. How each bank handles troubled CRE — and what counts as recovery (19:4x ET, synthesis from existing desk work only)
+
+**Asked by:** Will 19:34 ET: compare how each bank handles troubled loans (repayment, renewal, payment deferral, sale, write-down, foreclosure); distinguish demonstrated borrower recovery from a change in classification or timing; give the strongest evidence that workouts succeed; name the single unresolved distinction that matters most and an answerable investigation. **No new data collected** — every figure below is from a desk file already read today, cited by commit. ⚠️ The "bounded qualifications" in the same instruction are **NOT applied**: their source text is not in PROME's context; asked of Will.
+
+### 14.1 Each bank's dominant workout route (6/30/26 filings as read by the desks)
+
+| Bank | Repayment | Renewal / extension | Payment deferral / modification | Sale | Write-down | Foreclosure | Dominant route |
+|---|---|---|---|---|---|---|---|
+| **FLG** | CRE par payoffs $1.1B/qtr, 39% from substandard (issuer series); NYC RR payoffs $2.0B since 2024, 56% from substandard (FLG leg A1) | not disclosed as a series | ~40% of nonaccrual loans are **current** on contractual terms (O6) | Pinnacle: $451.3M vs >$564M debt, **FLG financed 75% of the price** (press; §10) | annual re-appraisal → partial charge-offs; MF NCO 1.0–1.2%; 20.45% recognised on RR nonaccrual | not prominent | **Payoff + appraisal write-down.** Cures are **1.6%** of nonaccrual outflow (from 59.5% in 2023H1) — the book is handed off, not healed (FLG leg) |
+| **OZK** | RESG commitments −$2.1B in one quarter, mostly repayments; San Carlos paid off **with** a $14.8M charge-off | RaDD extension/recap in negotiation | Boston forbearance expired → nonaccrual | Wauwatosa hard-deposit sale and The Jack new-equity LOI slated for Q3 | $49.3M of Q2 partial charge-offs on 4 loans; 86% of nonaccrual carries $0 reserve (collateral method) | **Foreclosed assets $61M → $293M in H1; sales $6.9M** | **Foreclosure and hold.** Sullivan ($156.4M nonaccrual) **recapitalised into a pass loan** with new sponsor equity (OZK leg O1–O8, A2) |
+| **EGBN** | office paydowns $156M over three years | Prince George's apartments ($56.0M) **extended** 4/21 → 8/21 | — | **Held-for-sale then sale:** office bridge 6/23→6/26 = $976M − charge-offs $205M − HFS $82M − paydowns $156M = $533M; 2026 non-office transfers FV $238.5M after a $36.7M write-down (**13.3%**), sales then cleared at **101–103% of carrying** | the write-down is taken **at transfer**, before the sale | Fairfax $18.5M matured 2/28/26 → nonaccrual | **Write down, move to held-for-sale, sell** (REGINALD q2_EGBN.md L40–46, L85) |
+| **VLY** | Q2 maturities $1,457M: **$341M (23%) paid off and left** | **$1,082M (74%) retained by VLY** — its own renewal, not a third-party refinancing | **$108M payment-delay modifications** (8-month deferral; 16× a year earlier) | none in H1 (one $9.1M sale in Q1) | partial charge-offs; NCO 0.17% | OREO $4.1M | **Retain and modify** (REGINALD VLY §2–3) |
+| **WAL** | — | — | $99M life-science credit: borrower **brought current** end-June, still nonaccrual, appraisal pending | — | fraud leg: Q1 $152.5M charge-off | OREO count 15 → 22, "primarily office" | **Charge-off on the fraud leg; buying senior liens** ($64M protective liens) (WAL leg §C–D) |
+| PFBC (news sweep, f97e56783) | — | — | — | **$68.4M of note sales largely at par**, one −$0.95M | — | — | **Sale near par** (fraud-linked single relationship) |
+
+### 14.2 Demonstrated recovery vs a change in classification or timing
+
+| Evidence of… | Examples | Why it belongs here |
+|---|---|---|
+| **Demonstrated recovery** (cash from outside the bank, or new sponsor equity) | OZK Sullivan recap into pass with new equity · OZK RESG repayments · EGBN office paydowns · VLY's $341M paid off and left · PFBC notes sold near par · EGBN sales at 101–103% of written-down carrying | The risk left the bank, or someone put new money in below it |
+| **Loss recognised, then exit** (resolution, not recovery) | EGBN 13.3% write-down then sale at carrying · OZK San Carlos payoff after a $14.8M charge-off · FLG appraisal charge-offs · WAL's fraud charge-off | The problem is resolved; the lender took the loss |
+| **Classification or timing change** (no outside cash yet) | **VLY's 74% "retained" maturities** (its own renewal proves willingness, not the borrower's market access) · **VLY's $108M 8-month deferrals** (keep loans current) · EGBN's Prince George's extension · OZK's Boston forbearance and RaDD extension talks · **WAL's $99M borrower "brought current"** (appraisal pending) · FLG's 40% of nonaccrual loans still current · criticized-book declines described as "upgrades" (VLY, the split between upgrades and payoffs undisclosed) | Status or date moved; whether the borrower can pay or refinance is untested |
+| **Exit with the risk retained** | **FLG's Pinnacle sale, 75% financed by FLG** (press) | The nonaccrual loan left the schedule; a new FLG loan to the buyer took its place |
+| **Ambiguous — the funding source is undisclosed** | **FLG's $1.1B/qtr CRE par payoffs, 39% from substandard** · OZK's $2.1B RESG runoff | Par cash is recovery **if** a third party refinanced it; it is re-underwriting **if** the bank or an affiliate funded it. The filings read by the desks do not say which |
+
+### 14.3 The strongest evidence that workouts are succeeding
+1. **EGBN** cut criticized office from $287M to $77M, and its 2026 sales cleared at 101–103% of written-down carrying — marks taken at transfer were **sufficient**, the cleanest demonstrated success on file (after a 13.3% loss, not without one).
+2. **FLG's** par payoffs: $1.1B a quarter, 39% from substandard, and classified loans fell $9.7B → $8.5B in H1-26 — the largest volume of problem-loan exits at face value in the fleet's evidence, **if** third-party funded.
+3. **OZK's** Sullivan recap into a pass loan with new equity, and $2.1B of RESG repayments in a quarter; **PFBC's** fraud book sold near par; **VLY's** criticized CRE down $0.6B in dollars.
+4. Outside banks: ARI's ~$9B performing book cleared at 99.7% of par (CREED).
+
+**What limits it:** the strongest successes are EITHER after a write-down (EGBN) OR of undisclosed funding source (FLG, OZK runoff); FLG's own largest disclosed exit was lender-financed below the debt; FLG cures are 1.6% of nonaccrual outflow; VLY's retention and deferrals are untested by an outside lender.
+
+### 14.4 The single unresolved distinction that matters most
+
+**When a troubled CRE loan leaves a bank at or near par, did an outside lender or new equity take the risk — or did the bank (or its affiliate) re-lend, renew or finance the buyer?**
+
+Why this one:
+- **It is the same hinge as §8, seen from the exit side.** The appraisal question asks whether marks are too high; this asks whether the prices that *appear* to confirm the marks are market prices. Par payoffs are the fleet's strongest evidence against stress (FLG case-against A1, §3), and the one FLG exit with a disclosed structure was 75% FLG-financed below the debt.
+- **It decides isolated vs broader.** If exits are third-party funded, the market is absorbing problem CRE near par and the named-bank losses stay isolated. If they are lender-funded, the risk is being re-originated inside the same banks, losses are deferred rather than avoided, and the 2027–29 maturity walls (VLY $3.7B/yr in 2028–29; FLG $8.5B of multifamily repricing in 2027) test it everywhere at once.
+- **Every bank shows a version of it:** FLG payoffs, VLY 74% retained, OZK extension talks, EGBN extensions, WAL "brought current".
+
+### 14.5 Recommended investigation (answerable; bounded; existing filings first)
+
+**An "exit-source ledger" for the five banks' problem-CRE exits, Q2-26 as the base quarter, Q3-26 as the test.** For each bank, classify every disclosed exit from nonaccrual or criticized into: **(a) third-party payoff · (b) own-bank renewal or refinance · (c) lender-financed sale · (d) modification or deferral · (e) sale at a discount · (f) charge-off · (g) foreclosure · (h) undisclosed.**
+
+- **Answerable now from filings the desks already hold:** VLY's maturity-outcome table (retained / paid off / modified) · EGBN's office bridge and held-for-sale sale results · OZK's repayment, foreclosure and OREO roll-forward · FLG's nonaccrual roll-forward (cures, payoffs, charge-offs, sales).
+- **The cell most likely to stay UNKNOWN, and why that is itself the finding:** the funding source of FLG's $1.1B/qtr par payoffs. If no filing discloses it, the fleet's strongest evidence against stress rests on an unverified premise — record it as such.
+- **What would answer it in the Q3 prints (10/20–11/10):** the same tables one quarter later, plus the VLY deferral cohort, and whether FLG's call or 10-Q discloses Pinnacle-style lender financing.
+- **Owners:** REGINALD holds the ledger (cross-bank); each bank desk fills its own row from its own filings; CREED checks whether any third-party refinancing source is market-observable. **No new tools, scores or trades; Will's word needed before it starts** — this section recommends, it does not dispatch.
