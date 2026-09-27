@@ -36,7 +36,7 @@ BANKS = {
     cet1=7937, rwa=60312, ppnr=143, payout=50, buyback=250, floors=((10.5, "FLG's own CET1 target"), (7.0, "4.5% min + 2.5% buffer")),
     pools=[
       ("MF nonaccrual, NYC >=50% rent-regulated", 1737, 76, 0, .08, .20, "ACL",
-       "already ~17.5% of original balance recognised (CREED fix); +8%/+20% takes total to ~24%/~34%; BCB NJ/NY problem pool sold <=79% of face"),
+       "already ~20.5% of original balance recognised ((351+76)/2088; the 9/26 '17.5%' fix double-counted, withdrawn 9/27); charge-offs + 8%/20% of book = ~24%/~34% of original; BCB NJ/NY problem pool sold <=79% of face"),
       ("MF nonaccrual, other", 395, 7, 0, .08, .20, "ACL", "same as above; specific ~$7M DERIVED (83 - 76)"),
       ("CRE nonaccrual", 471, 30, 0, .10, .25, "ACL", "ASSUMPTION ONLY - no market anchor (parent CRE mix 40% industrial / 22% office)"),
       ("MF SM+SS accruing, NYC >=50% RR", 2665, 0, 134, .05, .15, "ACL",

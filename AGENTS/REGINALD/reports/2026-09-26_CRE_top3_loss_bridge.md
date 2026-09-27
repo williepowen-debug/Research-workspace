@@ -39,7 +39,7 @@
 | **Fix 1:** OZK RaDD stress 20% vs the OZK desk's **65–70%** | Adopted: the stress uses **65%**; 70% adds ~$28M. | **Accepted** |
 | **Fix 2:** FLG office comps were sale-vs-2017-purchase, not vs peak, and not loss rates | FLG CRE pools are now labelled **ASSUMPTION ONLY**, with no market anchor. | **Accepted** |
 | **Fix 3:** EGBN 39.6% haircut "probably office", applied to a MF-heavy pool | Adopted the split by type. ⚠️ The EGBN evidence pack found **no office loan went to held-for-sale after 9/30/25**; office was ≤41% of FY-25 transfer value. **So "office-driven" is not established either.** The non-office anchor is EGBN's **13.3%** H1-26 haircut, which is now the base. | **Accepted, with a qualification sent back to CREED** |
-| FLG's "~20.5% already recognised" should be **~17.5%** on the original balance | Adopted. | **Accepted** |
+| FLG's "~20.5% already recognised" should be **~17.5%** on the original balance | ~~Adopted.~~ ⛔ **WITHDRAWN 9/27: the fix double-counted.** $2,088M is already pre-charge-off (2,088 − 351 = 1,737); (351+76)/2,088 = **20.45%**, confirmed by FLG at deck s16. | ~~Accepted~~ **Rejected on re-check** |
 
 ---
 
@@ -65,7 +65,7 @@
 
 | Pool (carrying value, net of prior charge-offs) | Balance | Reserve held | Base / stress rate | Anchor |
 |---|---:|---:|---|---|
-| MF nonaccrual, NYC ≥50% rent-regulated | 1,737 | 76 specific | 8% / 20% | ~17.5% of original already recognised; the rates take the total to ~24% / ~34%. BCB's NJ/NY problem pool sold at ≤79% of face |
+| MF nonaccrual, NYC ≥50% rent-regulated | 1,737 | 76 specific | 8% / 20% | **~20.5%** of original already recognised (charge-offs + specific reserve; corrected 9/27 from a double-counted ~17.5%); the rates take cumulative loss (charge-offs + rate × book) to ~24% / ~34% of original — those totals were already on the right basis. BCB's NJ/NY problem pool sold at ≤79% of face |
 | MF nonaccrual, other | 395 | ~7 specific | 8% / 20% | same |
 | CRE nonaccrual | 471 | 30 specific | 10% / 25% | **Assumption only**, no market anchor (parent CRE mix is 40% industrial, 22% office) |
 | MF special mention + substandard, NYC RR | 2,665 | 134 general | 5% / 15% | 78% LTV, DSCR 1.01×; 49% reset within 18 months; 2027 coupons ~3.9% vs ~8% at reset |
@@ -156,12 +156,12 @@
 
 ## 4. The three priority uncertainties
 
-### ① FLG's "$133M" charge-off difference: **explained as presentation, not hidden loss (high confidence on the mechanism, the split undisclosed)**
+### ① FLG's "$133M" charge-off difference: ~~**explained as presentation, not hidden loss (high confidence on the mechanism, the split undisclosed)**~~ ⛔ **NARROWED 2026-09-27 after the FLG desk's answer (`inbox/processed/2026-09-27_from-FLG_ANSWER-…md`, a2df32296): NOT DETERMINABLE FROM DISCLOSURE.** Still true: no loss is hidden from the ACL, so the bridge's dollars are unaffected. **No longer supported: "high confidence" and "no evidence any payoff was below par".** FLG's leading reading is **loss taken at exit** (the charge-off is booked while the loan leaves the nonaccrual schedule through "payoffs, including dispositions"). Evidence: the Q2 deck's $352M NCO figure is explicitly "for loans **remaining** in the portfolio", and one refinanced-out performing loan took a ~6.0% discount (Bisnow 4/27/26, n=1). The alternative is appraisal write-downs on accruing substandard loans. The gap runs **50–73% of gross charge-offs in every period FY2023 → Q2-26** (FY24 $682M). ⚠️ **My counter-point stands and is unanswered:** the gap does not scale with payoff volume (Q1 payoffs $646M vs Q2 $190M; gap $73M vs $60M). That argues against a pure exit-discount reading, so neither reading is established. **What this changes:** the FLG dossier's "deliberate reduction" reading carries less weight, because some "par payoffs" may not have been at par.
 - **Both schedules cover the same scope:** six-month, held-for-investment, all loan types. That rules out a scope, period or basis mismatch.
 - **The gap is structural:** **$40–81M in every one of the last six quarters, $264M in FY25.**
 - **At least $93M of it is MF/CRE charge-offs that never pass through the nonaccrual schedule's "charge-offs" line.** Either loans were written down as they entered nonaccrual (so they are recorded net), or a Q1 bankruptcy note sale's loss sits inside "payoffs, including dispositions". **FLG does not disclose which.** Up to ~$40M may be non-CRE.
 - **Refuted:** transfers to held-for-sale (none in 2026) and material charge-offs on accruing MF (only $2M cumulative on the NYC rent-regulated special-mention/substandard pool).
-- **"Par payoffs":** no evidence that any were below par. The gap does not move with payoff volume.
+- ~~**"Par payoffs":** no evidence that any were below par.~~ *(withdrawn 9/27, see heading)* The gap does not move with payoff volume.
 - **What it changes:** nothing in the bridge. Losses already charged off are excluded by construction, whichever route they took. What stays open is only the precise split. The FLG desk has the question (packet `b7269b2b7`).
 
 ### ② EGBN remaining office risk and multifamily loss assumptions

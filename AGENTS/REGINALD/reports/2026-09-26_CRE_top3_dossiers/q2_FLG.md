@@ -164,7 +164,7 @@ The deck's **$4,401M "Criticized + Classified"** pool is a **subset** of the 10-
 ---
 
 ## BOTTOM LINE
-1. The $133M gap is structural, not a one-off: it runs $40–81M every quarter for 6 quarters and was $264M in FY25. It comes from how the nonaccrual roll-forward is presented, **not** from hidden losses in another pool.
+1. The $133M gap is structural, not a one-off: it runs $40–81M every quarter for 6 quarters and was $264M in FY25. It comes from how the nonaccrual roll-forward is presented, **not** from hidden losses in another pool. ⛔ *(9/27: the FLG desk grades the location NOT DETERMINABLE; its leading reading is loss taken at exit, so "par payoffs" may not have been par. See `reports/2026-09-26_CRE_top3_loss_bridge.md` §4 ①.)*
 2. At least **$93M** (193 − 100) is MF/CRE charge-offs on nonaccrual or collateral-dependent loans that bypass the roll-forward's "Charge-offs" line. The likely routes are write-downs netted into "New non-accrual" and the Q1 bankruptcy sale booked inside "dispositions"; the split between them is NOT DISCLOSED. Up to $40M may be non-CRE.
 3. Refuted: held-for-sale transfers (zero in 2026), a period or basis mismatch, a scope mismatch, and material charge-offs on accruing MF loans ($2M cumulative).
 4. There is no evidence that "par payoffs" were below par: the gap does not track payoff volume.
