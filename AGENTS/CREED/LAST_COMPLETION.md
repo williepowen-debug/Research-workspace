@@ -1,6 +1,6 @@
 # CREED — LAST_COMPLETION
 
-**STATUS:** DONE — **2026-09-26 (Will-launched catch-up; dark 9/02→9/26).** `CREED-T-08a` FIRED (rate fire, S8a score awaiting Will) · Aug SS graded, `T-01b` not fired · `T-08b` not fired · gates positive-controlled, count 1 · WQ-215 + WQ-100 encoded · `PRED-004`/`007` met their Kernel rules → PROME · 18-item inbox drained · STATUS hot/cold split. Detail: `catchups/2026-09-26.md`. Stamped contemporaneously at closeout.
+**STATUS:** DONE — **2026-09-26 (Will-launched catch-up; dark 9/02→9/26).** `CREED-T-08a` FIRED (rate fire, S8a score awaiting Will) · Aug SS graded, `T-01b` not fired · `T-08b` not fired · gates positive-controlled, count 1 · WQ-215 + WQ-100 encoded · `PRED-004`/`007` met their Kernel rules → PROME · 18-item inbox drained · STATUS hot/cold split · **evening:** CRE vulnerability map + property test of REGINALD's top-3 (3 fixes adopted; CREED self-corrected 3 claims after REGINALD/CATO review). Detail: `catchups/2026-09-26.md`. Stamped contemporaneously at closeout.
 
 **PRIOR:** DONE — **2026-08-27 (THIRD block: a real trigger fire, a band re-base, SEC access, and a live Kernel submission).** ⛔ **A GATE C SITTING WAS IN PROGRESS AT CLOSEOUT** — `PREDICTIONS.tsv` is pin-locked, see `SCRATCH.md` §STANDING HAZARD. *(§⑪ below.)*
 

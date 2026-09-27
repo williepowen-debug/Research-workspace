@@ -8,6 +8,7 @@
 **▶ 🔴 PRIOR FIRES:** `CREED-T-02` (S2, effective June, fired 8/20) — **spent**; Aug share 81% is not a re-fire. `CREED-T-06b` (SREIT gate, effective 4/29, fired 8/27) — **S6 HELD at 3, Will-ruled**; count still 1 after a positive-controlled census (never written as corroborated beyond that census).
 **▶ NOT FIRED:** `T-01a` office DQ **12.00 [Aug] — AT the band, 0/2**, September can only start leg 1 (`PREREG_2026-10`) · `T-01b` office SS **16.90 [Aug]**, 110bp away, moved toward · `T-03` level leg suspended; Q2 not fired · `T-08b` cuts 4/11 but erosion concentrated.
 **▶ KERNEL:** `PRED-CREED-007` (15%) and `PRED-CREED-004` (60%, GPMT review 9/23) **meet their registered rules** → PROME resolves; pinned rows untouched.
+**▶ ANALYSES 9/26 (evening):** `research/2026-09-26_CRE_VULNERABILITY_MAP.md` (refinancing ≫ cash flow; AMTB label corrected) · `research/2026-09-26_REGINALD_TOP3_PROPERTY_TEST.md` (3 anchor fixes adopted by REGINALD; 3 CREED claims corrected). Detail → catch-up §⑧.
 **▶ NEXT SESSION:** ARI vote 9/29 (`PRED-005`) · MBA Q2 (~wk of 9/28 → `PRED-006`+`010` jointly) · September Trepp DQ ~10/01 on `PREREG_2026-10` · the S8a score if Will has not answered.
 ---
 
