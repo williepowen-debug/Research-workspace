@@ -305,3 +305,9 @@ HENRY's `evals/README.md` draws a distinction no other agent states: **a princip
 ⚠️ **What this does NOT fix.** No guard detects it. `creed_selfcheck` was green across all three instances; `threshold_scan` cannot see it; the failure is a **sentence a session writes about its own reach**, and nothing in CREED's tooling reads those. **The trap is a behavioural fix in the always-loaded surface, which is the only place it could go — and instance ③ proves an always-loaded trap can still be walked past when its trigger phrase does not match the sentence being written.**
 
 **Files touched:** `CLAUDE.md` (trap #7), `SCRATCH.md` (trap #12 mirror), `MAINTENANCE.md`. **Routed:** DAEDALUS (8/28 sweep, sibling to PROME's item 9 on the pointer/instrument axis — adjacent, not merged).
+
+---
+
+## 2026-09-27 — `analysis/` folder created (commissioned reads)
+
+**Structural change:** new folder `AGENTS/CREED/analysis/`, first file `2026-09-27_nano-banc-collateral-read.md`, at the path PROME's commissioning packet named (`17a205519`). **Why a new folder rather than `research/`:** `research/` holds CREED's own source packs and trails (REFRESH_*, news sweeps, the 9/26 maps). A commissioned read answers another desk's asks, cites that desk's shared figure, and is graded by the commissioner's consumer read, so it is a different object. Indexed in `README.md` §Commissioned analyses. Also: a research-agent notes file committed verbatim under `research/` for provenance (read in full before commit). **Pointers moved in the same edit:** `CLAUDE.md` step 6.1's catch-up example and `README.md` 2b now name `catchups/2026-09-27.md`.
