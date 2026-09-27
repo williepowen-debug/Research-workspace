@@ -3,27 +3,91 @@
 **Written:** 2026-09-27 (Sun), CREED `creed-ad`, on PROME packet `AGENTS/CREED/inbox/2026-09-27_from-PROME_nano-banc-collateral-read-and-forced-sale-comp.md` (commit `17a205519`, Will-directed session `prome-09`).
 **Shared fact base:** `PROME/plans/2026-09-27_nano-banc-failure-investigation-PLAN.md` §1. It is consumed here, not re-derived.
 **Research only. No card, no trade.** No bank in Will's book perimeter is named by CREED here.
-**State:** ⏳ DRAFT, in progress.
+**State:** ✅ DELIVERED 2026-09-27 (12:4x ET). Inputs consumed at their artifacts: REGINALD §3 and DEWEY's possession-order read (both **uncommitted** at read time), WAL §1–§2 (`75ae6f693`, WAL-local).
 
 ---
 
-## §1. What is in the ≈$260M the FDIC kept
+## §0. Bottom line
 
-*(pending)*
+1. **What the FDIC kept is undisclosed.** On the bank's 9/22 books the kept pool is **≈ $215M** (not the $260M first estimated), most likely **≈ $190M of loans**: the nonaccrual commercial real estate book and a construction book that was 88% delinquent at 6/30. **INFERRED.** The purchase-and-assumption agreement will settle it.
+2. **The loans that can be named are litigated fraud-web credits**, several of them **second liens**, on Inland Empire and LA County **neighbourhood retail, medical office and a small 1964 apartment building**. They are not Laguna Beach hotels (a stale premise, now corrected) and not office towers. **None is confirmed to be in the retained pool.**
+3. **The loss:** REGINALD's figure, cited: **≈ $120M beyond the bank's own 9/22 books, ≈ 17% of assets.** On the retained pool that is a **ceiling of ≤ ~56%**, not a haircut. It sits inside the 2026 distressed-CRE range (CMBS dispositions 35% all types / ~49% office YTD). But the property types, lien positions and fraud origin do not match any comp, so **it is consistent with the 2026 severity distribution, not confirmation of it.**
+4. **The thing to wait for** is the FDIC's sale of the pool, typically 3–9 months out: an actual clearing price on California bank-held CRE. It will be recorded **by lien position**, because a second lien's price is not a property mark. **Draft DOCKET row and WATCH_FOR terms: §3.**
+5. **Refinancing at 10Y 5.18%:** at least **27%** of September's maturing CMBS loans fall below 1.0× coverage on any spread assumption, and **~36–51%** do on an amortizing loan. 2027 is not answerable from what is held. A Nano-style sale does not move this read (§4).
+6. **No CREED letter, score, band or trigger moves** (§5).
+
+## §1. What is in the assets the FDIC kept (≈$215M on the 9/22 base; ≈$260M on 6/30)
+
+**Bottom line:** the FDIC has not said what it kept. From what is public, the kept pool is **most likely about $190M of loans**, weighted to the **nonaccrual commercial real estate book** and a **stalled construction book**. The loans that can be named are **fraud-web and litigated credits, several of them second liens**, on **Inland Empire and LA County neighbourhood retail and medical-office centres and one small older apartment building**, not office towers. **No named loan is confirmed to be in the retained pool.**
+
+**Tiers:** PRIMARY-READ = CREED or its research agent opened the regulator's or issuer's own document. SECONDARY = news or aggregator. INFERRED = arithmetic or reasoning, not a filing. Research agent notes (Opus, 2026-09-27, read in full by CREED): `research/2026-09-27_nano-banc-retained-pool-research-notes.md`. ⚠️ An unrelated "$260M" (collateral in the Zions/WAL dispute) circulates in 2025 coverage; it is not the FDIC figure.
+
+### 1a. What the FDIC says: nothing about composition (PRIMARY-READ)
+- FDIC press release, failed-bank page and FAQ (all 2026-09-25): *"It will also purchase approximately $476 million of the failed bank's assets. The FDIC will retain the remaining assets for later disposition."* **No breakdown, no loss-share, no purchase-and-assumption (P&A) agreement posted yet.**
+- The only clue: the FAQ's *"If you received notice that the FDIC retained your loan…"* ⇒ the retained pool **includes loans** (PRIMARY-READ, by implication).
+
+### 1b. By loan class — INFERRED
+
+| Step | Figure | Basis / tier |
+|---|---:|---|
+| Loans on the bank's last books, 9/22/2026 | **$419.2M** = held-for-investment $322.1M + held-for-sale $97.1M | DFPI possession order Exh. A (DEWEY, uncommitted draft; research agent also read it) · PRIMARY-READ |
+| Loans Sunwest says it assumed | **$227M** | Sunwest release 9/25 19:45 ET. **Not an FDIC figure; date and valuation basis unknown** |
+| ⇒ Loans NOT taken by Sunwest | **≈ $192M gross** (≈ $183M net of the $9.2M allowance) | **INFERRED**, subtraction across a 3-day date gap and two sources. Consistent with most of the ≈ $215M retained pool being loans |
+| ⚠️ The $97.1M held-for-sale pool | **FDIC or Sunwest? UNKNOWN** | Held-for-sale loans are carried at the lower of cost or market, so this pool was **already partly marked down** before the FDIC arrived. The P&A agreement settles which side it went to |
+
+**What the bad book looked like at the last Call Report (6/30/26)**. It is the best guide to what an acquirer would decline, but it is an inference, not a list:
+
+| Class (6/30) | Balance | Nonaccrual | Nonaccrual % of class | Source |
+|---|---:|---:|---:|---|
+| Nonfarm nonresidential CRE | $128.7M | **$74.3M** | **~59%** (non-owner-occupied, REGINALD) | FDIC BankFind API (PRIMARY-READ) · REGINALD §2b |
+| "All other loans" (CRE finance not secured by real estate) | $87.9M | **$32.7M** | 37% | REGINALD §2b |
+| Multifamily | $70.8M | $7.3M | 10% | API · REGINALD |
+| Construction & land | $46.9M | $4.0M, **plus $41.4M 30–89 days past due = 88% of the book** | — | REGINALD §2b |
+| 1–4 family | $116.2M | ~0 | — | API |
+| C&I | $28.3M | $4.9M | 17% | REGINALD §2b |
+| **Total noncurrent** | | **$123.2M** (all nonaccrual; 90+ days still accruing = 0; OREO = 0) | | API |
+
+⇒ **INFERRED:** if Sunwest took mostly current loans, the retained pool holds most of the **$123M nonaccrual book** (60% of it nonresidential CRE, 27% CRE-finance) and likely the **delinquent construction book**. That is roughly **$165M of visibly troubled loans at 6/30** (REGINALD's cross-check), before Q3 charge-offs and the move to held-for-sale shrank it.
+⚠️ **Counterweight (REGINALD §2b):** multifamily nonaccrual fell $30.7M → $7.3M in Q2 with **no charge-off and a $23.3M OREO-sale receivable**, consistent with one ~$23M multifamily loan foreclosed and **sold near carrying value**. Not every loan on this book cleared at a fire-sale price.
+
+### 1c. By named loan — KNOWN that Nano made or held it, UNKNOWN whether it is in the retained pool
+
+| Credit | Property / type | Nano lien, original face | Status (latest found) | Tier |
+|---|---|---|---|---|
+| 23750 Alessandro Blvd, **Moreno Valley** | Alessandro Plaza, **~119K sf strip centre** (retail, restaurants, dental/professional office) | **$9.72M, 1st** | Nano notice of default 5/20/2025. **Owner filed Ch.11 2026-08-18** (C.D. Cal. 26-12516) | lien: WAL verified complaint 8/18/2025 (A2, via WAL §2) · property/status: SECONDARY |
+| 3700 Inland Empire Blvd, **Ontario** | Plaza Continental, **~120K sf office/medical + retail**, ~24% available | **$4.33M, 2nd** behind Preferred Bank $25.9M | Nano NOD 5/20/2025. **Owner filed single-asset Ch.11 2026-03-30** (8:26-bk-10986-MH) | same |
+| 12233 Central Ave, **Chino** | Part of Chino Towne Center (CVS / 24 Hour Fitness anchored); this address = dental offices | **$5.99M, 2nd** behind Preferred $22.4M | No distress event found | same |
+| 9826 Cedar St, **Bellflower** (LA County) | Cedar Group Apartments, **30 units, built 1964** | **$8.0M, 2nd** behind Umpqua $6.47M | No sale since 1999. Liens total $14.47M ≈ **$482K/unit** ⇒ Nano's 2nd is **probably badly under-secured (INFERRED)** | same |
+| Blackhawk Plaza, **Danville** (Contra Costa) | retail centre | $5M, 2nd | receivership ordered 2026-02-03, stayed by owner's Ch.11 2026-03-18 | SECONDARY |
+| Gerald Marcil (guarantor-side loan) | — | $19.18M (2024-12-09) | Nano declared default; **Marcil sued Nano** (C.D. Cal. 8:26-cv-01143, 5/11/2026) | SECONDARY (WAL §3 also) |
+| Sand City (Monterey County), Makhijani-linked entity | — | $37M | Nano won a defense verdict 2025-12-18 in the related suit; **loan status not found** | SECONDARY |
+| Honarkar / MOM joint venture, **Laguna Beach** | collateral parcel **not identified** | ~$20M (per the arbitrator, it replaced promised equity) | ⚠️ The joint-venture debtors' own motions list six real-property lenders and **Nano is not among them** (PRIMARY-READ). MOM Ch.11 **dismissed 2025** | SECONDARY / PRIMARY-READ (the lender list) |
+
+⚠️ **Do not sum this table.** The amounts are original face at different dates, not current balances. Some of these loans may have been paid down, charged off or sold before 9/25, and the list is what litigation happened to name, not the loan tape.
+
+**What the named book tells the comp work (§2–§3):**
+1. **It is neighbourhood retail, medical office and small multifamily in the Inland Empire and LA County.** It is not the Orange County/Laguna hospitality-retail book the packet's premise named (PROME corrected it at 12:3x ET), and it is not office towers.
+2. **Several named Nano liens are SECOND liens.** A second lien's sale price measures the lien, not the property. It can clear near zero while the building is worth close to the first mortgage. **An FDIC sale of these liens will overstate any property-value loss** unless lien position is recorded (the §3 rule).
+3. **Most named borrowers are already in bankruptcy.** A buyer prices bankruptcy delay and litigation cost, which push a sale price further below property value.
+
+**Not reached (not evidence of absence):** the P&A agreement (not yet posted) · Stupin/Marcil court schedules (PACER/Justia blocked) · the arbitration award text (Jus Mundi 403) · assessor and LoopNet pages (403). DEWEY O1 (were the four deeds of trust still Nano's at 9/25?) is the open item that decides whether §1c is IN the pool.
 
 ## §2. The implied CRE mark
 
 ### 2a. The shared figure is REGINALD's, and CREED consumes it
 
-*(REGINALD's figure and citation go here when its report lands: `AGENTS/REGINALD/reports/2026-09-27_nano-banc-failure-forensics.md` §3.)*
+> **CITED, REGINALD's figure (9/22 base), not a CREED number:** the FDIC expects to lose **≈ $120M (range $110–120M) beyond what the bank itself had booked by 9/22/2026, ≈ 17% of its $690.9M of assets**, net of allowance (≈ $129M gross, adding the $9.2M ACL). Basis: tangible equity $5.66M (DFPI possession order Exh. A, via DEWEY) + the FDIC's $114M DIF estimate. **Retained pool ≈ $215M. Haircut on that pool: a CEILING of ≤ ~56%, unallocable without the FDIC's bid terms.** Source: `AGENTS/REGINALD/reports/2026-09-27_nano-banc-failure-forensics.md` §3 (read at the artifact 2026-09-27 ~12:4x ET, **uncommitted at read time**; REGINALD doorbelled the re-base). The 6/30 base (≈ $153M, ≈ 21%) is REGINALD's trajectory figure and is **not used here for a collateral mark**.
+>
+> **How CREED uses it:** *"≤ ~56% (ceiling, 9/22 base, unallocable)"*, **never as "a 56% haircut."** Any discount the FDIC gave Sunwest on the assets it bought lowers the ceiling.
 
-**What CREED needs that figure to state, because the DIF cost is not a haircut by itself** (sent to REGINALD as questions, not as a second number):
+**The basis questions CREED sent before the figure was published** (read by REGINALD at `0eac3ffcd` and adopted in its §3):
 - The **~$114M DIF cost is an FDIC estimate** of the fund's shortfall **after** shareholders' equity is gone. It nets several things together: any **discount** the FDIC gave Sunwest on the ~$476M of assets it bought, any **deposit premium** Sunwest paid, projected losses on the **retained** pool, and receivership costs. Unless the FDIC discloses the bid terms, the DIF cost **cannot be allocated** between the purchased and retained assets.
-- **Dividing the DIF cost by the ≈$260M retained pool therefore overstates the retained-pool haircut** if Sunwest bought at a discount, and **understates** the total asset loss, because the equity left at failure (≤ 3% of assets per DFPI; $39M at 6/30) absorbed losses first.
-- **Vintage mix:** $736M total assets and the loan classes are **6/30/26 Call Report** figures. The $476M purchased is the FDIC's figure at **closing (9/25)**. "$260M retained" is PROME's subtraction across those two dates (plan §1, correction pass 1). The **$227M of loans assumed is Sunwest's own release** (9/25 19:45 ET), not an FDIC figure.
-- **Basis:** CREED can compare a haircut **vs gross UPB** or **vs book net of allowance** ($19.9M allowance at 6/30). Those two differ, and the comps below are vs balance.
+- **Dividing the DIF cost by the retained pool therefore overstates the retained-pool haircut** if Sunwest bought at a discount, and **understates** the total asset loss, because the equity left at failure absorbed losses first. That equity was $5.66M on 9/22 (0.82% of assets, DFPI order Exh. A via DEWEY), down from $39M at 6/30, so the Q3 loss of roughly $33M is already behind it.
+- **Vintage — SUPERSEDED BASE (PROME, 12:4x ET, on DEWEY):** the "$260M retained" was $736M (6/30 Call Report) − $476M (FDIC, closing). DEWEY's read of the **DFPI possession order, Exhibit A, gives a 9/22/2026 balance sheet: total assets $690.9M** ⇒ ~$215M left after the $476M purchase. **CREED consumes REGINALD's 9/22-based figure**, with the 6/30 base beside it. The **$227M of loans assumed is Sunwest's own release** (9/25 19:45 ET), not an FDIC figure.
+- **Allowance basis moved too:** the ACL was **$19.9M at 6/30 and $9.2M at 9/22** (2.85% of held-for-investment loans), so "book net of allowance" means different things on the two dates.
+- **Basis:** a haircut can be stated **vs gross UPB** or **vs book net of allowance**. Those two differ, and the comps below are vs loan balance.
 
-### 2b. What a 30–50% mark on SoCal small-balance CRE means against CREED's comps
+### 2b. What a mark up to the ≤ ~56% ceiling means against CREED's comps
 
 **Comparable basis only:** loss as a percentage of **loan balance** (CMBS "severity on balance before disposition") or of loan cost. Appraisal-based and purchase-price-based comps are listed separately below and are **not** on the same basis.
 
@@ -43,17 +107,17 @@
 **Not on the same basis, listed so they are not mixed in:** OZK Seattle vacant office sold at **58% of appraisal** (appraisal basis) · 205 W Randolph **−72%** and Glendale Plaza **−61%** (sale price vs a **2017 purchase price**) · Aon **−58%** (an appraisal mark, not a sale).
 
 **What CREED reads from the table (it moves no letter):**
-1. **A 30–50% loss on a bank's worst loans is in the normal range for 2026 distressed CRE dispositions, not an outlier.** CMBS dispositions run **35% across all property types YTD and ~49% for office** (JPM, secondary). The two monthly prints CREED read at primary are 48.8% and 72.6%.
-2. **SoCal's three 2026 CMBS office comps span 31% to 100%.** Location is not the variable. Asset quality, vacancy and how long the workout ran are. **All three are office.** Nano's real-estate book is only partly commercial: $129M nonresidential CRE, $71M multifamily, $47M construction (6/30). The Call Report does not split office out of the nonresidential class, so **CREED does not know Nano's office share** and holds **no SoCal disposition comp on this basis for multifamily, construction or hospitality.**
-3. **So the comparison is weaker than it looks.** A 30–50% mark would sit inside the CMBS office range but **above** the 35% all-types average. Nano's property mix is unknown beyond Call Report classes. Its losses began with a governance failure, and these are loans a bank made, not loans a CMBS conduit underwrote. **Read the Nano mark as consistent with, not confirming, the 2026 severity distribution.**
+1. **A loss up to the ≤ ~56% ceiling on a bank's worst loans is inside the 2026 range for distressed CRE dispositions, not an outlier.** The true figure is lower by any discount Sunwest received. CMBS dispositions run **35% across all property types YTD and ~49% for office** (JPM, secondary). The two monthly prints CREED read at primary are 48.8% and 72.6%. A pool loss at the ceiling would sit **above the 35% all-types and ~49% office YTD averages and below August's 72.6%**.
+2. **SoCal's three 2026 CMBS comps span 31% to 100%, and all three are OFFICE.** Location is not the variable. Asset quality, vacancy and how long the workout ran are. **Nano's named collateral (§1c) is neighbourhood retail, medical office and a small 1964 apartment building**, and CREED holds **no SoCal disposition comp on this basis for any of those types.**
+3. **So the comparison is weaker than it looks, for three reasons:** the property types do not match; several Nano liens are **second liens**, which clear far below the property's own loss; and the credits are **fraud-web and litigated, most borrowers in bankruptcy**. **Read the Nano mark as consistent with, not confirming, the 2026 severity distribution.** REGINALD's fence says the same from the bank side: *"not a clean read-through to SoCal CRE marks generally."*
 4. **The appraisal-lag finding matters more than the level.** If 2026 distressed sales clear ~20% below the latest appraisal (Deutsche Bank, secondary), then any bank still carrying problem CRE at appraisal carries a mark the market would not pay. That is REGINALD's reserve question, and it is why the FDIC's eventual clearing price (§3) is worth waiting for: it will be a **sale**, not an estimate.
 
 ## §3. The forced-sale comp: DOCKET row and WATCH_FOR terms (CREED authors, PROME registers)
 
-**Why it is worth registering.** When the FDIC sells what it kept, it will print a clearing price for Southern-California bank-held CRE loans, and on a pool the FDIC has already marked (the DIF cost). Clearing prices on bank-held small-balance CRE are the scarcest data on CREED's board: every realized comp CREED holds is either CMBS (Trepp liquidations, §2) or a one-off property sale. No comp is a bank loan pool.
+**Why it is worth registering.** When the FDIC sells what it kept, it will print a clearing price for California bank-held CRE loans (mostly Inland Empire / LA County by the named book), and on a pool the FDIC has already marked (the DIF cost). Clearing prices on bank-held small-balance CRE are the scarcest data on CREED's board: every realized comp CREED holds is either CMBS (Trepp liquidations, §2) or a one-off property sale. No comp is a bank loan pool.
 
 **What it will and will not be evidence of (fixed now, before the print):**
-- ✅ **S6 evidence** (forced sale / recognition), a `VX-CREED-5.01` comp row, recorded **vs unpaid principal balance (UPB)** and, separately, vs book value if the FDIC discloses it. **Never vs appraisal**, and never mixed with the purchase-price comps (205 W Randolph −72% is vs a 2017 purchase price, a different object).
+- ✅ **S6 evidence** (forced sale / recognition), a `VX-CREED-5.01` comp row, recorded **vs unpaid principal balance (UPB)** and, separately, vs book value if the FDIC discloses it. **Never vs appraisal**, and never mixed with the purchase-price comps (205 W Randolph −72% is vs a 2017 purchase price, a different object). 🔴 **Record LIEN POSITION on every loan or pool.** A second lien's price measures the lien, not the building (§1c: four of the named Nano liens are seconds: Ontario, Chino, Bellflower, Danville), so **second-lien prices are excluded from any property-value read** and reported on their own line.
 - ⚠️ **Most likely NOT a `CREED-T-06` member.** T-06 (`> 30%` discount to basis) counts a cluster in **PERFORMING** collateral only. The retained pool is **INFERRED** to be mostly the nonperforming book (§1), so a non-performing-loan (NPL) pool sale below 70% of UPB would be the expected outcome, not a T-06 datum. It qualifies **only** if the FDIC sells a performing pool separately and that pool clears below 70% of UPB.
 - ⚠️ **n=1, fraud-origin bank.** One pool from a bank whose losses began with insider self-dealing does not generalise to SoCal CRE. Record it; do not extrapolate.
 
@@ -61,7 +125,7 @@
 
 | date | catalyst | owners | state | artifacts_citing | notes |
 |---|---|---|---|---|---|
-| `on-FDIC-publishing-the-Nano-Banc-asset-sale` *(check-by 2027-06-25)* | FDIC disposition of the ≈$260M of Nano Banc (Irvine CA, failed 2026-09-25) assets retained by the receiver: a loan sale, structured transaction or asset sale prints a clearing price for SoCal bank-held CRE | CREED (S6 comp) · REGINALD info (severity reconcile) | PENDING | `AGENTS/CREED/analysis/2026-09-27_nano-banc-collateral-read.md` §3 | Record price as % of UPB by pool, performing vs NPL separately, by property type. S6 comp, NOT a T-06 member unless a PERFORMING pool clears < 70% of UPB. Typical FDIC disposition 3–9 months (PROME plan §2B); check-by = closing + 9 months |
+| `on-FDIC-publishing-the-Nano-Banc-asset-sale` *(check-by 2027-06-25)* | FDIC disposition of the Nano Banc (Irvine CA, failed 2026-09-25) assets retained by the receiver (≈$215M on the 9/22 base): a loan sale, structured transaction or asset sale prints a clearing price for SoCal bank-held CRE | CREED (S6 comp) · REGINALD info (severity reconcile) · WAL consumes (O7: the four Inland Empire / LA County liens sit ahead of WAL's collateral) | PENDING | `AGENTS/CREED/analysis/2026-09-27_nano-banc-collateral-read.md` §3 | Record price as % of UPB by pool, performing vs NPL separately, by property type and LIEN POSITION (second-lien prices never read as property marks). S6 comp, NOT a T-06 member unless a PERFORMING pool clears < 70% of UPB. Typical FDIC disposition 3–9 months (PROME plan §2B); check-by = closing + 9 months |
 
 ⚠️ **Why a check-by date on an undated row:** DOCKET's header says it carries *dated* catalysts. An event-keyed row with no date never goes overdue, so it can rot silently. The check-by date (closing + 9 months, the plan's outer bound) makes it go overdue if the FDIC has not sold by then, which is itself information. PROME's call whether to use it.
 
@@ -70,9 +134,10 @@
 Nano Banc | Nano Banc receivership | FDIC as receiver for Nano Banc | CREED S6 comp (retained-asset disposition) — DOCKET row on-FDIC-publishing-the-Nano-Banc-asset-sale
 FDIC loan sale | FDIC structured transaction | failed bank loan sale | CREED S6 comp — record price vs UPB, performing vs NPL separately
 Sunwest Bank | CREED info (acquirer; loss-share or put-back of Nano loans would change what the FDIC kept)
-MOM CA Investco | Honarkar | Laguna Beach hotel (named assets per §1) | CREED S6 + REGINALD — collateral disposition of the named Laguna Beach assets
+23750 Alessandro Blvd Moreno Valley | 3700 Inland Empire Blvd Ontario | 12233 Central Ave Chino | 9826 Cedar St Bellflower | CREED S6 comp + WAL consumes (WAL O7) — an FDIC sale of Nano's liens prints a mark on WAL's own collateral properties
+Honarkar | Laguna Beach (Nano's ~$20M loan, B3) | CREED info + REGINALD (ZION lien collision is REGINALD's lane)
 ```
-*(The last line's property names are filled from §1's KNOWN rows.)*
+⚠️ **`MOM CA Investco` is DROPPED from the terms.** PROME named it, but the MOM Investcos Chapter 11 was dismissed in 2025 (WAL §1, B2, DEWEY to confirm), so it is no longer a live venue for a disposition to print in. The four addresses replace it (PROME premise correction, 2026-09-27, verified at WAL's file §2).
 
 ## §4. Rates to refinancing, at the curve on file
 
