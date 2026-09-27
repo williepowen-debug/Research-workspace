@@ -18,3 +18,22 @@
 - ⚠️ **Search coverage is thin for small banks.** No news is not the same as no event. EDGAR is the stronger check here.
 
 **Sources:** EDGAR (accessions above) · https://www.globenewswire.com/news-release/2026/07/22/3331275/0/en/preferred-bank-reports-second-quarter-results.html · https://www.investing.com/news/company-news/preferred-bank-moves-1176-million-in-loans-to-nonaccrual-status-93CH-4519931 · https://www.bankingdive.com/news/valley-acquires-providence-bank-chicago-lender-247-million/828724/ · https://www.bankingdive.com/news/eagle-bank-stephen-curley-next-ceo-western-alliance-susan-riel-diligence-activist-investor-cre/820130/ · https://www.dailypolitical.com/2026/07/23/preferred-bank-q2-earnings-call-highlights.html
+
+---
+
+## Addendum: executive and director departures (Will-asked, 2026-09-27 ~18:0x ET)
+
+**Method:** every 8-K carrying item 5.02 from 6/1/2025 to 9/27/2026 on EDGAR for EGBN and VLY, plus web search for all three. ⚠️ **Item 5.02 only covers named executive officers and directors.** A chief credit officer who is not a named executive officer can leave without an 8-K, so that row rests on press coverage (S).
+
+| Bank | Who | What | Date | Tier |
+|---|---|---|---|---|
+| **EGBN** | Susan Riel, CEO since 2019 | Announced her retirement 10/31/25 (gave up the chair 11/4/25, stayed a director); retired **7/5/26**; stays a director and a 12-month consultant | 8-K 11/3/25 (acc 0001050441-25-000128) | P |
+| EGBN | **Kevin Geoghegan, chief credit officer** | **Stepped down effective 12/31/2025**; the bank was searching for a replacement. **Whether one has been named is NOT FOUND** (not in any 8-K, not found by search). | S&P Global MI 11/2025; Banking Dive (S) | S |
+| EGBN | Stephen Curley (ex-WAL) | Named CEO 5/12/26, effective 7/6/26; Risk Committee 9/14/26 | 8-Ks 5/12, 7/6, 9/14 | P |
+| EGBN | Senior team (Eric Newell, CFO; Evelyn Lee; Ryan Riel) | **Retention ("continuity") awards granted 3/16/26** to keep them through the CEO transition | 8-K 3/18/26 (acc -26-000029) | P |
+| EGBN | Board | 2 directors added 9/8/25 (Pederson, Wilm). Chair moved to Soltesz 11/4/25. Activist Diligence Capital sought to replace 3 directors (S). | 8-Ks 9/8/25, 11/26/25 | P / S |
+| **VLY** | Directors | Carlos Vazquez (ex-CFO of Popular) added 1/27/26. Eric Edelstein did not stand for re-election (age policy). Avner Mendelson resigned 1/2025. | 8-K 1/28/26 (acc 0000714310-26-000003); proxy (S) | P / S |
+| VLY | Executives | President Thomas Iadanza retired 6/30/25. Travis Lan CFO since 3/2025. "Gary Michael retired after 19+ years": **role and date NOT VERIFIED** (search snippet only). **No executive 8-K item 5.02 since 6/2025.** | S; EDGAR (absence) | S |
+| **PFBC** | — | **None found.** Nick Pi moved from chief credit officer to chief risk officer in 5/2025, still overseeing credit. No 2026 departure found. PFBC files with the FDIC, so there is no EDGAR check. | GlobeNewswire 5/9/25 (S) | S |
+
+**Read:** EGBN turned over its **CEO, chief credit officer and chair inside ~9 months**, during its office-loan losses and under activist pressure. The new CEO comes from WAL and has a de-risking mandate. **A new CEO plus a vacant or new chief credit officer is the classic set-up for a "kitchen-sink" quarter** (taking all remaining losses at once). That is a **hypothesis for the Q3 print (~10/21, estimate), not an observation.** VLY and PFBC show only routine turnover.
