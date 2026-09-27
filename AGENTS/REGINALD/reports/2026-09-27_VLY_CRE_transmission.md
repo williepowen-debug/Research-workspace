@@ -84,7 +84,7 @@
 
 | Effect | Present? | Evidence |
 |---|---|---|
-| **Loan sales / transfers to held-for-sale** | **Negligible.** None in H1-26. | "There were no transfers of loans from held for investment to held for sale during the six months ended June 30, 2026." One $9.1M non-performing CRE relationship (moved to HFS in Q4-25) sold in Q1 at a $767K gain [10Q, Loan Portfolio Sales]. ⇒ **no sale-driven cleanup is flattering 2026 figures.** |
+| **Loan sales / transfers to held-for-sale** | ~~**Negligible.** None in H1-26.~~ **One disclosed sale, immaterial:** no HFI→HFS transfers in H1-26, but one $9.1M non-performing CRE relationship moved to HFS in Q4-25 and sold in Q1-26 at a $767K gain. It left CRE nonaccrual at the **Q4-25 transfer**, so it had **zero effect on H1-26 moves** and lowered the **YoY** CRE nonaccrual change by **at most $9.1M**, ≈1.5% of the $0.6B YoY criticized decline. It **slightly understates** deterioration, it does not flatter it. *(CATO review via Will/PROME, 9/27)* | "There were no transfers of loans from held for investment to held for sale during the six months ended June 30, 2026." One $9.1M non-performing CRE relationship (moved to HFS in Q4-25) sold in Q1 at a $767K gain [10Q, Loan Portfolio Sales]. ⇒ ~~no sale-driven cleanup is flattering 2026 figures~~ see the correction at left. |
 | **Charge-offs removing balances** | **Small, and they understate inflows.** | Q2 gross charge-offs **$27.6M**, "largely partial charge-offs of non-performing CRE and C&I" [ER]. Q2 CRE net charge-offs ≈ **$11.7M** (DERIVED from Call Report YTD: MF 9.4−4.3 + OO 1.5−0.2 + NOO 14.2−8.9 = 5.1+1.3+5.3). ⇒ gross new CRE nonaccrual inflow was **≈ $42M+**, not the net +$30.7M (payoffs and upgrades out of nonaccrual are not disclosed). |
 | **Denominator** | **Material for RATIOS, not for DOLLARS.** | CRE ex-construction **+$649.1M in Q2 (+2.4%)**: owner-occupied +$560.6M, multifamily +$445.7M, NOO −$357.2M [10Q MD&A]. Total loans +$1.6B (12.9% annualised). ⇒ **every CRE ratio is flattered by growth.** |
 
@@ -92,7 +92,7 @@
 
 | Bucket | 6/25 | 9/25 | 12/25 | 3/26 | **6/26** | Read |
 |---|---:|---:|---:|---:|---:|---|
-| CRE nonaccrual (ex-construction) [ER] | 193.6 | 235.8 | 236.2 | 225.4 | **256.1** | **+$30.7M (+13.6%) in Q2 — genuine** (sales nil; charge-offs would have *lowered* it) |
+| CRE nonaccrual (ex-construction) [ER] | 193.6 | 235.8 | 236.2 | 225.4 | **256.1** | **+$30.7M (+13.6%) in Q2 — genuine** (~~sales nil~~ no sale in Q2; the Q4-25 HFS transfer predates it; charge-offs would have *lowered* it) |
 | ↳ non-owner-occupied [CR] | 116.9 | 151.6 | 145.4 | 149.0 | **169.8** | **+$20.8M** — the main Q2 nonaccrual mover |
 | ↳ owner-occupied [CR] | 14.4 | 13.9 | 14.6 | 13.8 | **24.7** | +$10.9M (the fastest-growing book) |
 | ↳ multifamily [CR] | 62.3 | 70.2 | 76.2 | 62.6 | **61.5** | flat |
@@ -116,16 +116,16 @@
 | Signal | Level / move | Story it tells |
 |---|---|---|
 | ACL on CRE [ER allocation] | **$268.4M = 0.96%** of CRE; = **105%** of CRE nonaccrual; **15%** of classified CRE | Adequate on recognised problems, thin against the classified pipeline |
-| **Q2 provision composition** [ER] | Specific reserves ↑ (collateral-dependent) + economic forecast ↑ + growth ↑, **"partially offset by a decline in quantitative reserves largely within certain CRE loan categories"** | ⛔ **MISMATCH 1: VLY cut the general CRE reserve in the same quarter that CRE nonaccrual rose 13.6%, multifamily past-dues rose ~$92M, and CRE payment-delay modifications rose to $108M.** The model reads the falling criticized book; the leading indicators point the other way. |
+| **Q2 provision composition** [ER] | Specific reserves ↑ (collateral-dependent) + economic forecast ↑ + growth ↑, **"partially offset by a decline in quantitative reserves largely within certain CRE loan categories"** | ⛔ **MISMATCH 1 (narrowed *(CATO review via Will/PROME, 9/27)*):** the disclosed fact is **"a decline in quantitative reserves largely within certain CRE loan categories"** in the same quarter that CRE nonaccrual rose 13.6%, multifamily past-dues rose ~$92M and CRE payment-delay modifications reached $108M. ~~VLY cut the general CRE reserve … The model reads the falling criticized book~~ **The categories and model inputs are NOT DISCLOSED**, so this shows a **timing mismatch in direction only**. It does **not** establish that the model ignored the deterioration: specific reserves on collateral-dependent loans and the economic-forecast component both **rose** in the same quarter. |
 | ACL / total nonaccrual [ER] | **163.5% [6/25] → 127.7% [6/26]** | Coverage eroding: the reserve is ~flat (~$590M) while nonaccrual rose +$108M YoY |
 | Net charge-offs [ER] | **0.17%** annualised Q2 (Q1 0.14%); CRE H1 ≈ $25M on $27.9B ≈ 0.18% | Low recognised loss |
 | OREO [ER] | **$4.1M**; a foreclosure pipeline barely exists | VLY resolves through **retention, modification and partial charge-off, not foreclosure** (opposite of OZK's $288M OREO) |
 | ⛔ **MISMATCH 2** | **$108M of 8-month payment deferrals** vs NCO 0.17% and OREO $4M | **A payment-delay modification keeps a loan current and accruing with no charge-off**, so nonaccrual, NCO and OREO can all understate stress **by construction** while deferrals run. The test comes when the deferrals end (~Q1-27 for Q2-26 grants). |
 | Contrary to both mismatches | 12-month modified stock down 44%; criticized CRE −$0.6B YoY; classified −$131M in H1 | The *pipeline* is shrinking even as a few large loans deteriorate |
 
-⇒ **The measures do not tell one story. The stock measures (criticized, classified, concentration) say improving. The flow measures (new nonaccrual, multifamily past-due, distress modifications) say a Q2 cluster of larger loans went bad. And the reserve followed the stock measures.**
+⇒ **The measures do not tell one story. The stock measures (criticized, classified, concentration) say improving. The flow measures (new nonaccrual, multifamily past-due, distress modifications) say a Q2 cluster of larger loans went bad. ~~And the reserve followed the stock measures.~~** *INFERENCE, not disclosed:* the quantitative CRE reserve moved with the stock measures, which is consistent with, but not proof of, a model driven by them. *(CATO review via Will/PROME, 9/27)*
 
-## (4) JUDGMENT — **NEITHER (not broader transmission; not yet a bank-specific problem at the loss level), with ONE bank-specific early flag worth a single print**
+## (4) JUDGMENT — **NEITHER (not broader transmission; not yet a bank-specific problem at the loss level), with ONE bank-specific early flag** ~~worth a single print~~ **to watch at Q3 (checkpoint) and at the deferral end (~Q1-27)**
 
 **Why not "broader":**
 - VLY's CRE is **diversified by type and region** (Florida/Alabama 28%, national 21%, NJ 19%, NYC 25%). LTV 59%, DSCR 1.67×.
@@ -139,11 +139,11 @@
 - Capital CET1 10.71% [ER]. Concentration is falling (474% → 317%).
 - Management is acquiring, not defending (Providence, 8/25).
 
-**The flag:** in Q2, **multifamily past-dues ($9.4M → $101.5M), NOO nonaccrual (+$20.8M) and CRE payment-delay modifications ($108M) all jumped in one quarter, while VLY RELEASED general CRE reserve.** That combination is the early form of a bank-specific problem. It is not yet one.
+**The flag:** in Q2, **multifamily past-dues ($9.4M → $101.5M), NOO nonaccrual (+$20.8M) and CRE payment-delay modifications ($108M) all jumped in one quarter, while VLY reported ~~RELEASED general CRE reserve~~ **"a decline in quantitative reserves largely within certain CRE loan categories"** (categories undisclosed).** That combination is the early form of a bank-specific problem. It is not yet one.
 
 **Strongest contrary evidence, each way:**
-- **Against "neither" (i.e. for stress):** the +$92M multifamily past-due and the $108M of 8-month deferrals appeared in the **same quarter** that the general CRE reserve fell. NYC multifamily carries VLY's weakest DSCR (1.24×). ACL/nonaccrual fell 164% → 128% in a year.
-- **Against stress:** criticized CRE **−$0.6B YoY** in dollars (not only ratio). Concentration 474% → 317%. The modification stock is down 44% YoY. H1 had no loan sales dressing the numbers. Low LTV. ~$1B/yr PPNR.
+- **Against "neither" (i.e. for stress):** the +$92M multifamily past-due and the $108M of 8-month deferrals appeared in the **same quarter** as a disclosed decline in quantitative CRE reserves (categories undisclosed). NYC multifamily carries VLY's weakest DSCR (1.24×). ACL/nonaccrual fell 164% → 128% in a year.
+- **Against stress:** criticized CRE **−$0.6B YoY** in dollars (not only ratio). Concentration 474% → 317%. The modification stock is down 44% YoY. ~~H1 had no loan sales dressing the numbers~~ H1 had no loan sales moving the numbers (the one $9.1M sale left nonaccrual in Q4-25; immaterial). Low LTV. ~$1B/yr PPNR.
 
 ## SCENARIO ASSUMPTIONS
 - The deck's rent-regulated band values ($ per band) are **read off a pie chart** (percentages × $3.1B). The >50% sum reconciles to the 10-Q's $559M, which validates the read.
@@ -160,9 +160,11 @@
 6. Q3 is not yet reported.
 
 ## NEXT OBSERVATION — and which way it moves
+
+⚠️ **Q3 is a CHECKPOINT, not a resolution** *(CATO review via Will/PROME, 9/27)*. The Q2-26 payment deferrals run ~8 months, so they end **after** Q3 (≈ Q1-27). A Q3 cure of the 30–89 cohort would **not** clear the deferred loans. Their test is the first print after the deferrals end.
 | Observation | When | Moves toward |
 |---|---|---|
-| **VLY Q3 release + deck** — does the Q2 multifamily 30–59 cohort **cure** or **roll** to 60–89 / nonaccrual? CRE nonaccrual vs $256.1M; CRE ACL direction | **Est. Thu Oct 22, 2026** (Q3-25 was Thu 10/23/25; Q2-26 Thu 7/23/26; ⚠️ not announced) | Roll + further general-reserve cut → **BANK-SPECIFIC**. Cure → **NEITHER** confirmed. |
+| **VLY Q3 release + deck** — does the Q2 multifamily 30–59 cohort **cure** or **roll** to 60–89 / nonaccrual? CRE nonaccrual vs $256.1M; CRE ACL direction | **Est. Thu Oct 22, 2026** (Q3-25 was Thu 10/23/25; Q2-26 Thu 7/23/26; ⚠️ not announced) | Roll + a further quantitative CRE reserve decline → **evidence toward BANK-SPECIFIC**. Cure → **supports NEITHER, provisionally**; ~~NEITHER confirmed~~ the deferral cohort stays untested until ~Q1-27. |
 | Q3 10-Q: CRE modifications in-quarter and the 12-month stock; any re-default of Q2 payment-delay loans | ~early Nov | Another >$100M quarter → a **pattern**, not a spike |
 | Q3 Call Report: multifamily 30–89 / nonaccrual split | ~late Oct–Nov (my run 11/07) | Same |
 | Deferral end on the Q2 grants | ~Q1-27 | Re-default → recognition catches up |
