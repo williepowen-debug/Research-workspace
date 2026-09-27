@@ -164,3 +164,9 @@ The scope's expectation (relevance concentrates in the NYC rent-regulated pools)
 - It fits the synthesis's central finding (§1, §8): the one observed exit from this book did not clear at the loan's face, and the price that exists is financed by the lender.
 
 **What would settle it:** Flagstar's carrying value and realized charge-off on the relationship (Q3 10-Q ~11/9 or the call ~10/23, if disclosed) — the "FLG's own disposition pricing" observation named in §9. No score, rate or grade changed.
+
+---
+
+## 11. EGBN follow-up — can the Fairfax maturity be observed? (18:00 ET, REGINALD a4fab14b6)
+
+**Not observable now; definitively observable at EGBN's Q3 deck (~10/21, estimate).** EGBN names the loan only "Office, CRE, Fairfax" ($22.1M, 96% LTV, appraised $23.0M 4/2/26, DSCR 0.74, matured 9/25/26); every public record channel is keyed on property or party. The Q3 deck's own ">$10M criticized" table flags post-quarter payoffs (footnote 5), so it will show payoff, extension, downgrade or nonaccrual. Fairfax land records (CPAN, $150/quarter, or the courthouse in person) could identify it earlier — Will's hands and a spend: **WQ-310, PROME and REGINALD recommend waiting for the deck.** New context: a second Fairfax office loan ($18.5M, matured 2/28/26) is already nonaccrual — one Fairfax office loan has already failed at maturity; context for this one, not evidence about it. The other three criticized >$10M loans due 8/10–9/30 (Montgomery storage $56.2M · Prince George's apartments $56.0M, already extended once · Anne Arundel storage $15.0M) share the identification gate; silence is consistent with extension, not proof of payoff.
