@@ -32,6 +32,7 @@
 - finding_truncated_read_is_not_a_verification — truncation drops the TAIL, where the exculpatory half lives
 
 ## Rare infra findings (Tier-3 COLD)
+- finding_parallel_agents_sharing_one_scratchpad_overwrite_each_others_files — parallel agents in one scratchpad clobber q.txt; prefix per agent
 - finding_never_infer_a_documents_subject_from_token_presence — name-in-body is not about; reports all FRESH, goes quiet forever
 - finding_gh_run_watch_exit_status_unreliable — gh run watch --exit-status can lie; confirm via gh run view --json conclusion
 - finding_injection_claim_is_openclaw_vestige — verify a file is actually boot-loaded before calling it load-bearing
