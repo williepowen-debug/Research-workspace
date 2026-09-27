@@ -1,6 +1,6 @@
 # FLG STATUS
 
-**Last Updated:** 2026-09-24 00:2x ET Thursday — **catch-up session (desk dark 8/28 → 9/24; no new filings in the gap).** Prior full session 2026-08-28 (first live session).
+**Last Updated:** 2026-09-27 16:5x ET Sunday — **catch-up session (no new filings since 8/14; re-read of Q2 primaries + 8-K exhibits).** Prior: 2026-09-24 catch-up; 2026-08-28 first live session.
 
 ✅ **FIRST-LIVE-SESSION BANNER STRUCK.** The build banner said every figure here was MIRROR-grade — extracted from REGINALD, never pulled by FLG. **That is no longer true.** FLG pulled its own EDGAR primary this session (10-Q Q2-2026, Flagstar Bank N.A., acc `0000910073-26-000068`, filed 2026-08-06) and re-verified the load-bearing figures first-hand. `CLAUDE.md § FIRST LIVE SESSION` is **SPENT 2026-08-28**. ⚠️ **One residual, named not hidden:** the MDRM-level MI3 cells were **not** re-pulled at FFIEC CDR and stay MIRROR-grade — `MI3_FLG.tsv` marks this per row.
 
@@ -8,23 +8,20 @@
 
 ---
 
-## 🟠 SESSION 2026-09-24 — CATCH-UP: no new filings; the rent freeze is in court; price band 1 broke unseen
+## 🟠 SESSION 2026-09-27 — CATCH-UP: no new filings; freeze starts 10/1 (no stay); the "payoff" leg is not par; a $250M buyback went unlogged
 
-**Nothing fundamental printed.** EDGAR (CIK 0000910073) shows no filing after the 2026-08-14 13F-NT, so every credit figure below is still the Q2-2026 10-Q. Two things moved outside the filings:
+**Still no new filing.** EDGAR (CIK 0000910073) newest = 2026-08-14 13F-NT, so every credit figure is still the Q2-2026 10-Q. The session re-read older primaries and found three things the desk had wrong or missing.
 
 | What | Fact | So what | KB |
 |---|---|---|---|
-| ⚠️ **Rent freeze in court** | 7 landlords suing to annul RGB Order #58; Justice Lantry (NY Sup. Ct., Manhattan) ordered Mayor's Office↔RGB communications ~9/16, citing "significant concern" over procedure. **No stay as of 9/17**; appeal expected either way | The mechanism's 2026 leg **could be removed by a court**. Annulment is **thesis-NEGATIVE** (bear case) / credit-positive for FLG. Experts expect landlords to lose. **Re-sourced at the primary:** *Kenilworth Holdings v. NYC RGB*, Art. 78, Richmond Index 85199/2026 → NY County 8/21; prayer (f) asks to enjoin the freeze and is **unruled** (reported 9/17). Docket itself unreachable (NYSCEF Cloudflare 403) | 059 (053 superseded) |
-| 🔴 **VX-REG-6.03 band 1 BROKEN 9/16, unseen 8 days** | Close $12.58 on 9/16 < $12.82; **$12.30 on 9/23 = −13.6%** vs frozen $14.24; band 2 ($12.10) 1.6% below | **No script implements the ladder** (PROME census 9/23), and my T-07 checked a daily instrument quarterly. Routed to REGINALD + PROME | 054 |
-| Why it moved | 8/28→9/23: FLG −8.5% · VLY −6.8% · KRE −4.7% · EGBN +1.8% | **Mostly an NYC-regional move**; FLG residual vs VLY ~−1.7pp. Steepest leg spans the 9/15 Barclays fireside — content not recovered; **attribution UNKNOWN** | 054 |
-| Management's freeze model (May) | Stress assumes a **3-year** freeze; NOI −7–8% over 3 yrs on >70%-regulated buildings; $8.8B regulated = $4.6B pass @~1.5x DSCR + **$4.2B criticized/classified** | Their reserve assumption is harsher than the 1-year order. The $4.2B is the pool T-11 reprices | 055 |
-| Sell-side | MS → Overweight, PT $17 (9/8); Barclays Buy (9/16). NIM guide cut to 2.20–2.30% on **higher payoffs** (date unverified, likely July) | The payoff channel that cleans the book (87.5% of non-accrual outflow) also shrinks earning assets | 056 |
+| **Rent freeze: no stay** | 9/24 hearing: Lantry issued no stay; freeze "will for now stay in place" for leases from **10/01**. City produces screenshots **9/29**, full docs ~**10/24**; merits ruling "before the end of the year" | T-08 fires 10/1 as registered. The live legal question moves to the **merits**, which would land **after** frozen leases are signed. Retroactivity is an unread known-unknown. ⚠️ WALTER's "declined a stay" overstates the source (no ruled denial reported); the practical effect is identical. Told WALTER | 060 |
+| 🔴 **"Payoff" ≠ par exit** | Reserve-table gross charge-offs exceed the nonaccrual schedule's charge-off line by **50–73% every period** since FY2023 (H1-26 **$233M vs $100M**). Location not determinable; leading reading = loss taken at exit | The 87.5% payoff share is right on the schedule's own lines but is **not** evidence of clean exits. The exit channel is at least partly loss-bearing. Answered REGINALD's 9/26 ASK | 061, 065 |
+| **5.8% is the REMAINING reserve** | NYC ≥50% rent-regulated NALs: **$351M (16.8%) already charged off** since Jan-2024, plus ACL 4.38% ⇒ **~20.5% loss recognised** (deck) | The cushion is thinner than 31% coverage suggests, but **less thin than "5.8%" alone implies**. REGINALD's point, verified | 062 |
+| **One borrower drove H1** | 10-Q: H1 NAL decline "primarily" = one bankrupt relationship resolved Q1 (payoffs Q1 $646M vs Q2 $190M) | The 87.5% is weighted by one relationship. It is not a steady-state rate | 063 |
+| 🟠 **$250M buyback, unlogged 65 days** | Authorised 7/24 (8-K EX-99.3). $250M = 2.5% of the $10,003M capital denominator ⇒ SR 07-1 **~335.9%** if fully executed (ESTIMATE, +8.4pp) | Works **against** the path below 300%. Execution unknown until the Q3 10-Q. Missed because FLG is **not in the intake 8-K fetcher** (peers are). Flagged to PROME with the fix | 064 |
+| Price | Last close **$12.37** (9/25) = −13.1% vs FROZEN $14.24; low since 9/16 = $12.22 (9/24) | **Band 2 ($12.10) NOT touched**, 2.2% below. VX-REG-6.03 stays YELLOW | — |
 
-**T-12 read path (written down):** the only guaranteed reads before 10/1 are PROME's 9/25 pre-fire check and my own 9/30 check. WALTER has been asked to watch for the case as best-effort only. **A court stay issued 9/26–9/29 is an accepted blind spot of up to one business day.**
-
-**Housekeeping done:** 5 inbox packets processed; 3 ledgers carry `# Cadence: SCHEDULED` (boot staleness leg now quiet); T-07 re-dated, T-08 carries the legality leg, **T-12 registered** (litigation watch); CALENDAR's stale "watch the SHARE" row corrected to KB-FLG-049; WQ-176 confirmed `cut as drafted` (13 days late).
-
----
+**THESIS → v1.0.1** (amendment only, direction unchanged): caveats (1) payoff ≠ par exit and (2) 5.8% = remaining reserve are written under the one-paragraph thesis. **T-03 re-dated 10/27 → 10/16**: Flagstar reported on the 4th Friday three quarters running, so Q3 is most likely **Fri 10/23** [EST]. The old check sat after the likely event. **Inbox:** 4 processed. Cadence declared `EVENT-DRIVEN`; watch list sent to WALTER (8 keep, 3 add for merits/appeal).
 
 ## 🔴 START HERE — the thesis moved, and the headline number is still not the actionable one
 
@@ -36,7 +33,7 @@
 | Nonaccrual **level** | 4.59% *(10-Q basis)* | 4.90% → 4.59% over H1 | ⬇️ improving |
 | Nonaccrual **flow** | **$780M gross formation in H1** | replaced **81.7%** of outflow | 🔴 **churning, not draining** |
 | ACL / nonaccrual coverage | **31.04%** *(10-Q basis)* | 34.62% → 31.04%, −3.58pp | 🔴 deteriorating |
-| **Specific reserve vs nonaccrual** | 🔴 **$163M = 5.8%** | $1,571M carries **no allowance at all** | 🔴 **THE LIVE SIGNAL** |
+| **Specific reserve vs nonaccrual** | 🔴 **$163M = 5.8%** *(REMAINING reserve — ~20.5% loss already recognised on the rent-regulated NAL subset, KB-FLG-062)* | $1,571M carries **no allowance at all** | 🔴 **THE LIVE SIGNAL** |
 | Capital | $10,003M / **16.58%** | up from 16.23%, on falling RWA | ⬆️ strengthening |
 
 **Start from the specific reserve, not from coverage and not from the composite 6/6.** The 31.04% coverage ratio is *total* ACL over nonaccrual; $706M of that reserve sits against the **performing** book. Management's position is that **$1,571M of nonaccrual needs no reserve because collateral covers it** — an appraisal claim, re-run annually at downgrade.
@@ -159,7 +156,7 @@ The 87.5%-payoff / 1.6%-cure split was a single observation at v1.0. It is the e
 
 ⚠️ **FLG-01's confidence is amended on the record, pre-print, threshold untouched.** I registered it on a Q2-seasonality rationale and then base-rated that rationale hours later — the wrong order, and my charter says so. The mechanism is real and issuer-disclosed but does not produce a dependable Q2 spike (KB-FLG-045). H2<H1 held 2 of 2 years, but at ratios 1.00× and 0.50×, and <$600M from an H1 of $780M needs <0.77× — so 1 of 2. **The $600M threshold is NOT moved and both confidences grade.** Voiding a live prediction because I improved my own prior is how a bad call gets laundered.
 
-**Price:** FLG **$13.48** (live, `fetch.py`, 2026-08-28) = **−5.34%** vs REGINALD's FROZEN $14.24 baseline. Band 1 ($12.82) sits 4.9% below spot — 53% of the way. **Essentially unchanged from the $13.49 build read eight days ago: the tape has not moved on any of this.** `VX-REG-6.03` is dual-action; FLG acts on a fire, REGINALD owns the row.
+**Price:** FLG **$12.37** (last close 2026-09-25, `fetch.py`, pulled 2026-09-27) = **−13.1%** vs REGINALD's FROZEN $14.24 baseline. **Band 1 ($12.82) BROKEN 9/16**; band 2 ($12.10) sits **2.2% below**, not touched (low $12.22 on 9/24). 9/23→9/25 FLG +0.6% vs KRE +1.7%, VLY +1.6%. `VX-REG-6.03` is dual-action; REGINALD owns the row and its detector; FLG's T-07 is the backup.
 
 ---
 
@@ -167,24 +164,27 @@ The 87.5%-payoff / 1.6%-cure split was a single observation at v1.0. It is the e
 
 | When | What | Why |
 |---|---|---|
-| **2026-09-25** | PROME pre-fire check on GATE-FLG-T08 | Asked to confirm Order #58 still in force (no stay) |
-| **2026-09-30** | **T-12 litigation watch** + T-07 price re-check | A stay/annulment before 10/1 changes what T-08 grades; band 2 = $12.10 |
-| **2026-10-01** | **T-08 — NYC rent freeze takes effect** *(if the order survives)* | The mechanism, live and dated. Expect provision commentary, **not** formation |
-| ~2026-10-27 | T-03 — Q3 earnings *(EVENT, slips)* | Reserve-build commentary moves the coverage read before the Call Report |
+| **2026-09-30** | **T-12 litigation watch** + T-07 price re-check | 9/29 city production lands; a stay before 10/1 is now unlikely (none issued 9/24). Band 2 = $12.10 |
+| **2026-10-01** | **T-08 — NYC rent freeze takes effect** *(no stay as of 9/24; grade both legs on the day)* | The mechanism, live and dated. Expect provision commentary, **not** formation |
+| **2026-10-16** | T-03 — look for the Q3 earnings date *(likely Fri 10/23, 4th-Friday pattern [EST])* | Reserve-build commentary + **buyback execution** + read the 8-K exhibit list (KB-FLG-064) |
 | ~2026-11-06 | T-02 — Q3-2026 10-Q | **Grades FLG-02 and FLG-03.** Observed lag: quarter-end +37d, twice |
 | ~2026-11-14 | T-01 — Q3-2026 Call Report | Ingest to `MI3_FLG.tsv`; recompute SR 07-1 |
-| **2027-08-06** | **T-09 — Q2-2027 DSCR review** | Where the freeze's fuse burns. Highest-value scheduled observation this desk has |
+| ~2026-10-24 | T-12 — city's full document production due | Precedes the merits ruling promised "before the end of the year" |
+| 2027-08-06 | T-09 — Q2-2027 DSCR review *(early watch only)* | Near-zero freeze content expected; a quiet read is NOT disconfirmation |
+| **2028-08-04** | **T-11 — Q2-2028 DSCR review** | **Where the freeze's fuse actually burns** (first financials carrying most of a freeze year, KB-FLG-052) |
 
-**Owed by me:** ① FFIEC CDR pull to close the MI3 MDRM residual · ② a numeric comparator for K-4's "materially above" leg (DAEDALUS 8/23 §3, carried) · ③ primary for the freeze litigation (docket/order text) if it rules. *(Stage 2 maturity schedule — DONE 8/28, `MATURITY_WALL.tsv`; line removed 9/24.)*
+**Owed by me:** ① FFIEC CDR pull to close the MI3 MDRM residual · ② a numeric comparator for K-4's "materially above" leg (DAEDALUS 8/23 §3, carried) · ③ primary for the freeze litigation (docket/order text); NYSCEF still 403 · ④ **split the charge-off gap** (KB-FLG-061) if the Q3 10-Q or a call answer discloses loss-at-exit. *(Stage 2 maturity schedule — DONE 8/28, `MATURITY_WALL.tsv`; line removed 9/24.)*
 
-**Owed to me:** nothing. ✅ REGINALD closed all three 9/24 (`cdc52d872`, verified at artifact): VX-REG-6.03 **YELLOW dated 9/16**; matrix score unchanged at 6; detector `AGENTS/REGINALD/scripts/vx_ladder_check.py` wired into its boot. **At or below $12.10 (ORANGE), REGINALD packets PROME + FLG the same session.** One exit-code defect flagged back (an import failure exits 1, which reads as a breach). *(Cure-share cohort base rate — CLOSED 8/28, NOT PARSEABLE, `180ca0157`.)*
+**Owed to me:** ① WALTER harness verdict on watch phrases 9–11 (sent 9/27) · ② PROME/intake: add FLG (CIK 910073) to `fetch_edgar_8k.py` (asked 9/27). *Prior:* ✅ REGINALD closed all three 9/24 (`cdc52d872`, verified at artifact): VX-REG-6.03 **YELLOW dated 9/16**; matrix score unchanged at 6; detector `AGENTS/REGINALD/scripts/vx_ladder_check.py` wired into its boot. **At or below $12.10 (ORANGE), REGINALD packets PROME + FLG the same session.** One exit-code defect flagged back (an import failure exits 1, which reads as a breach). *(Cure-share cohort base rate — CLOSED 8/28, NOT PARSEABLE, `180ca0157`.)*
 
 ---
 
 ## CLOSEOUT — 2026-08-28 → rotated verbatim to `archive/STATUS_ARCHIVE_2026-09-24.md` (crc32 `39534108`)
 
+## SESSION 2026-09-24 → rotated verbatim to `archive/STATUS_ARCHIVE_2026-09-27.md` (crc32 `4ccff32b`)
+
 ---
 
 ## BOTTOM LINE
 
-**No new filings since 8/28, so the credit picture is unchanged:** the problem book is being cleared by payoffs (87.5% of non-accrual outflow) rather than cures (1.6%), against a $163M specific reserve on $2.8B and a 31.04% coverage low. **Two things moved outside the filings.** First, the rent freeze that is this desk's mechanism is in court: a judge has signalled "significant concern" and ordered discovery, with no stay as of 9/17. If it is annulled, the bear case loses its 2026 leg (good for FLG's credit). Second, the stock broke REGINALD's first price band on 9/16 and nobody saw it, because no script watches that ladder. It closed at $12.30 on 9/23 (−13.6%), mostly alongside NYC peers, cause of the residual unknown. **I wake on 9/30 (court + price) and 10/1 (the freeze, if it survives); the Q3 10-Q ~11/6 grades FLG-02/03.**
+**No new filings since mid-August, so FLG's credit numbers are unchanged, but three of them now read differently:** the bank's own reserve table shows charge-offs 50–73% above what its nonaccrual schedule records every year since 2023, so the "payoffs" clearing the problem book (87.5%) very likely carry losses, while the rent-regulated problem loans are ~20.5% written down or reserved rather than the 5.8% "remaining reserve" headline. **The desk also missed a $250M buyback authorised in July** that, if executed, pushes the CRE-concentration ratio *up* (~+8pp), against its path below the 300% line. **The rent freeze starts 10/1** (no stay; merits ruling due by year-end), and the stock sits at $12.37, 2.2% above REGINALD's next price band. **Next wakes: 9/30 (court + price), 10/1 (freeze), 10/16 (earnings date).**
