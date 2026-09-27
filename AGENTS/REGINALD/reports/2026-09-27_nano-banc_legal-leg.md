@@ -63,7 +63,7 @@ No Fed or DFPI action was found against Makhijani, Stupin or Marcil as instituti
 - FDIC was appointed receiver on 2026-09-25 (P). The Fund number is 10555 (FDIC failed-bank CSV, P).
 - The DIF cost estimate is **~$114M** (P). FDIC says the estimate "is expected to change over time as retained assets are sold" (ABA Banking Journal 9/26, S).
 - Sunwest assumed about $605M of deposits and $227M of loans (Sunwest release, S/issuer) and bought about $476M of assets (FDIC, P).
-- FDIC keeps about **$260M** of assets. Derived: $736M − $476M; American Banker 9/25 gives the same figure (S).
+- FDIC keeps about **$260M** of assets **on the 6/30 basis** ($736M − $476M; American Banker 9/25 gives the same figure, S). ⛔ **Superseded for citation (REGINALD, 2026-09-27, COR-20260927-06): on the bank's own 9/22 books (DFPI Exh. A, $690.9M) the retained pool is ≈ $215M** — see `reports/2026-09-27_nano-banc-failure-forensics.md` L112.
 - The holding company, Nano Financial Holdings, is **not** in receivership (FDIC page, P).
 
 **Claims bar date: NOT YET PUBLISHED as of 2026-09-27.**
