@@ -1,0 +1,16 @@
+# MEMORY rotation 2026-09-27 — verbatim, contiguous
+
+Source: `MEMORY.md` §Session Notes, the `### LAST SESSION — 2026-09-26` block, rotated at the 9/27 closeout.
+crc32 of the block between the markers (UTF-8, exact bytes): `c67bd938` · 3005 B. **Recompute before trusting.**
+
+<!--BEGIN-BLOCK-->
+### LAST SESSION — 2026-09-26 Sat, ~18:15 → ~18:4x ET (Will: "catch up our data under REGINALD up to current")
+**1. `REG-T-02`: 9/24 $76.26 and 9/25 $77.61 graded NOT QUALIFYING; run `0-of-3`, FIRED, 18 rows.** The missing 9/22 daily bar is now present at $77.75, confirming the substitute. TERRY clause (d) CONCURRED.
+**2. ★ `VX-REG-18.04-ESC` re-arm MET on the 9/24 close** (CCC 1,093/1,112 + HY 273/280, FRED). Escalation packet → WALTER for LIQUID/BROCK, CCC level first, both baselines (+142bp vs 7/16, +78bp vs 7/31). Tier test changed: B +15, BB +8 (9/22→9/24). It does not lift the 8/13 stand-down or X1, and WQ-251 was withdrawn by Will 9/26.
+**3. Threshold rows re-pulled:** HY 280 · CCC 1,112 · B 286 · BB 164 [9/24] · 10Y 5.18 · 30Y 5.47 [9/24] · claims 197K [w/e 9/19] · SOFR−IORB −2bp · RRP $0.576B · STLFSI4 −0.908 / NFCI −0.555 [9/18] · VIX 14.87 · KRE $71.55 · FLG $12.37 (YELLOW; ORANGE −2.2%).
+**4. Corrections:** Barr cause dropped (the 9/23 move was real-yield-led with a weak 5Y auction, per BOND at primary). **The Brent cell was basis-mixed: `BZ=F`'s live quote is DEC, its history is NOV;** my 9/23 $97.21 matched neither contract and is withdrawn. GSE MF clause refreshed off HOMER (Freddie 0.64% Aug, 4th rise). Receipts: 1 APPLIED, 3 NO-OP.
+**5. Inbox 7 + 13 → 0** (13 BOARD_LOG rows). Cadence **WEEKLY** declared to PROME; WATCH_FOR list stands; flagged a possible WQ-192 mislabel in WILL_QUEUE row 251. CREED told its REG-T-07 ask was already done. Cadence lines added to ACL/NDFI/RUNWAY (staleness rc=0).
+**6. `boot.py` sweep:** no 8-K at WAL/OZK/EGBN in 7 days; insider activity routine; KRE shares +4.2% since 9/14 (creations). ⚠️ **Defect found, not fixed:** `boot.py` appends to `SHORT_INTEREST.tsv` even though that file is FROZEN-bannered, and its WAL/CFG rows are garbage (4,233 sh / 0.00%; the days-to-cover column holds volume).
+**7a. Later the same session (Will-asked, ~19:00→21:4x ET): CRE top-3 + loss bridge.** New cohort ledger `workbook/CRE_RCN_COHORT.tsv` (Call Report CRE by property type + OREO, 14 banks × 5 qtrs, `scripts/cre_rcn_cohort.py`). Selection **FLG · EGBN · OZK** (AMTB = non-CRE credit; WAL 4th, VLY 5th). Loss bridge `scripts/cre_loss_bridge.py` (reserve-netted, one basis per bank, OREO via expense). CREED's property test corrected 3 anchors (OZK RaDD 65%, FLG CRE assumption-only, EGBN split by type); CATO narrowed 4 statements. FLG $133M explained as presentation. **Metric proposals M1–M5 NOT applied — need Will's own word, after Q3.** 7 read-only research agents (Opus); evidence packs in `reports/2026-09-26_CRE_top3_dossiers/`. ⚠️ Two agents collided on a shared scratch filename (`q.txt`); the EGBN agent re-verified 48 figures. **Next time give each agent its own prefix in the prompt.**
+**7. NOT done (carried):** carry-premise audit (0a-ter), EGBN runway (6f), FHLB Atlanta/SF 10-Qs, DAEDALUS VX re-cuts (due 9/30), 9/7 as-made packet disposition (was due 9/25, now overdue).
+<!--END-BLOCK-->
