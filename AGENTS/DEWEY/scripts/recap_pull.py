@@ -26,8 +26,13 @@ Scope (deliberately narrow, not a research platform):
   * Cache: search JSON and PDFs persist on disk across restarts. Identical
     requests are served from the cache, and concurrent identical requests
     wait on a per-key lock, so one retrieval serves both.
+  STATUS (2026-09-27): built and AUTHOR-tested (12/12 acceptance checks,
+  each mutation-verified, a real-document check, one live call). NOT
+  independently reviewed, and NOT yet proven across research runs. Pilot it.
+
   * Throttle: rolling windows shared by every process via a locked budget
-    file. Defaults are CourtListener's DOCUMENTED AUTHENTICATED limits (5/min,
+    file. The defaults are LOCAL PACING, not a verified anonymous allowance;
+    the server's own throttling always governs. Defaults are CourtListener's DOCUMENTED AUTHENTICATED limits (5/min,
     50/hr, 125/day). ⚠ Anonymous calls have no documented allowance (the
     anonymous Nano run was throttled at "50/hour"), so the defaults are a
     ceiling, not a promise. Honors `Retry-After` on 429. Falls back to parsing
