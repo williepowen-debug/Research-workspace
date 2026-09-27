@@ -38,7 +38,7 @@
 
 | Check | Status | Why it matters |
 |---|---|---|
-| **Campus at Horton post-foreclosure leasing** (downtown SD, 770K SF; lender AllianceBernstein; window was late Jul) | 🔴 **OWED — UNRUN.** 9/24 window search found nothing, which does **not** discharge it | Leasing → RaDD severity lower; still empty → the 65-70% severity band holds. An unrun check moves nothing |
+| **Campus at Horton post-foreclosure leasing** (downtown SD, 770K SF; lender AllianceBernstein; window was late Jul) | 🔴 **OWED — UNRUN.** 9/24 window search found nothing, which does **not** discharge it | Leasing → RaDD severity lower; still empty → the D-severity band **50–65% ($275–360M)** holds (label corrected 9/27 from "65-70%"). An unrun check moves nothing |
 | **SD County Recorder — RaDD assignments / notices** | ⚪ UNKNOWN since the 8/31 sweep | The one leg of the Aug-window sweep never run |
 | **Aimco v. IQHQ** (Del. Chancery, $50M) — motion-to-dismiss ruling | 🟡 No ruling found (as of 9/24 search); needs a direct docket pull (courts.delaware.gov) | Sponsor-pressure context |
 

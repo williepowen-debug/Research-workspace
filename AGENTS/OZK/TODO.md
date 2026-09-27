@@ -1,6 +1,6 @@
 # OZK — Research TODO / Backlog
 
-**Last updated:** 2026-09-24 (full rebuild: every open item from the old sections — Aug-23 queue, 8/28 sweep S1-S9, 8/7 proposals, 7/18 carry-forwards, April priorities — de-duplicated into ONE queue; ~25 done/obsolete items retired to git history). Older versions → `git log -p -- AGENTS/OZK/TODO.md`.
+**Last updated:** 2026-09-27 (C1/C3/R5 status notes from the 9/27 sweep; +R6 playbook severity-band conflict; +R7 PROME CRE-transmission leg delivered) · prior 2026-09-24 (full rebuild: every open item from the old sections — Aug-23 queue, 8/28 sweep S1-S9, 8/7 proposals, 7/18 carry-forwards, April priorities — de-duplicated into ONE queue; ~25 done/obsolete items retired to git history). Older versions → `git log -p -- AGENTS/OZK/TODO.md`.
 **Dated items also live in `CALENDAR.md`; this file is the research queue.**
 **▶ WORK ORDER (set 2026-09-24, CATO: evidence before restructuring): C1 Horton → R1 reserve re-derivation → D2/D3 Q3 date + card → D1 10/2 read.**
 
@@ -23,9 +23,9 @@
 
 | # | Item | Status | Note |
 |---|---|---|---|
-| C1 | **Campus at Horton leasing** (downtown SD, 770K SF, lender AllianceBernstein) | 🔴 owed since late Jul | 9/24 window search empty ≠ discharged — needs a leasing/broker source. Holds the RaDD 65-70% severity band |
+| C1 | **Campus at Horton leasing** (downtown SD, 770K SF, lender AllianceBernstein) | 🔴 owed since late Jul | 9/24 + 9/27 web searches empty ≠ discharged. 9/27: the only listing (Cushman, Bldg 200, 204,842 SF "Available") is undated and names pre-foreclosure owner Stockdale → stale page, proves nothing. Needs SD Business Journal / Bisnow SD / CoStar (browser) or an AB/owner release. Holds the RaDD severity band (see R6) |
 | C2 | **SD County Recorder — RaDD assignments / notices** | ⚪ never run | The one UNKNOWN leg of the 8/31 sweep |
-| C3 | **Aimco v. IQHQ** motion-to-dismiss ruling | 🟡 none found (as of 9/24) | Direct docket pull (courts.delaware.gov) |
+| C3 | **Aimco v. IQHQ** motion-to-dismiss ruling | 🟡 none found (as of 9/27, web only) | Direct docket pull (courts.delaware.gov) |
 | C4 | **Severity comp refresh** (KB-OZK-177 bands) | 🟠 stale since 7/31 | Q2-Q3 distressed CRE transactions; Spur deed-in-lieu (9/17) is a new data point |
 | C5 | **Affinius $2.7B bond maturity — verify or remove** (Oct 2026) | 🟠 open since Apr 22 | Possible Affinius / USAA Capital conflation; CREED asked 4/22, no reply found. CUSIP search or drop from CALENDAR |
 
@@ -37,7 +37,7 @@
 | R2 | **Refresh the 4 subdomain STATUS files** — LIFE_SCI · GEOGRAPHY · INSIDERS · PRIVATE_CREDIT (was S2) | 🟠 | All pre-Q2-print; INSIDERS/SELLING got the 9/24 pull only. Largest body of work |
 | R3 | **Reconcile the $87M IQHQ injection date** (KB-OZK-086; up to 3 dates in TIMELINE) (was S3) | 🟡 | Needs a primary re-check |
 | R4 | **Does OZK populate MI3 from the debt-on-debt book only?** | 🟡 | MI3 ≡ PV09 every quarter ⇒ zero CRE-purpose ever reported from item 4 |
-| R5 | **Bluerock BPRE / IQHQ marks** | 🟡 | Last marks H2'25 vintage; BPRE webinar 10/6. A Bluerock trade idea is a **TERRY/BROCK** question, not this desk's |
+| R5 | **Bluerock BPRE / IQHQ marks** | 🟡 | Last marks H2'25 vintage; BPRE webinar 10/6. **BPRE ~47% below NAV @9/3 (derived, KB-239), widened from ~38% at the Dec-25 listing.** A Bluerock trade idea is a **TERRY/BROCK** question, not this desk's |
 | R6 | **OZK-04 roster freshness** — its numerator is our own SEVEN_CREDIT roster | 🟡 before Q4 print | Gradeable at the Q4'26 print only if the roster is current |
 | R7 | MI3 path (a): Q3'25 transcript | ⚪ optional | Only an explicit statement on the Q3'25 debt-on-debt change would move "reclassification not excluded" |
 | R8 | Consumer RV/Marine NCO tracking (0.42%, super-prime) → PREDICTIONS row? | ⚪ low | Inflection = consumer-channel leading indicator |

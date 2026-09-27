@@ -39,7 +39,7 @@ Full detail + severity math → `../SEVEN_CREDIT_DEEP_DIVE.md`.
 | Bluerock TI+ NAV mark | **No fresh Q1'26 mark found (checked 7/4)** — all documented IQHQ marks are H2-2025 vintage (TI+ −4.4% → $6.28). Fresh mark = leading indicator for RaDD credit + re-arms the Bluerock trade gate. | Watch via COUNTERPARTY_WATCH |
 | **Aug 2026 bullet maturity** | Gleason Q1 26 call: "August is an eternity," framing possible sponsor support. 4-scenario tree in IQHQ_PLAYBOOK: **A-extend 30% / B-substandard 45% / C-takeout 8% / D-foreclose 17%** [re-weighted 7/23, Will-approved]. Weighted EL **~$129M**; pre-registered reads OZK-08/09. | ✅ **Q2 26 earnings RESOLVED Jul 21-22** — OZK-08 **FALSE** (no IQHQ reserve); mgmt: multi-year extension + recap in negotiation, "remain pass-rated", interest from interest reserves, "~92d" → **Q3 call (~Oct 21)** is the next test |
 | OZK impairment | No specific reserve Q1 26 **or Q2 26**. | ✅ **OZK-08 resolved FALSE 7/22** (Brier 0.0784 — the low-prob read verified). Next: **Q3 call ~Oct 21** |
-| Campus at Horton (comp) | AllianceBernstein credit bid Sep 2025 (per KB). Leasing activity since would be demand signal; still-empty holds RaDD severity 65-70%. | Late Jul |
+| Campus at Horton (comp) | AllianceBernstein credit bid Sep 2025 (per KB). Leasing activity since would be demand signal; still-empty holds RaDD D-severity **50–65% ($275–360M)** (label corrected 2026-09-27 from "65-70%" to match `IQHQ_PLAYBOOK.md` §3). | Late Jul |
 
 ## SD Market Context
 

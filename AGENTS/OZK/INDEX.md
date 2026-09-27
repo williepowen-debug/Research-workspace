@@ -1,7 +1,7 @@
 # OZK — Agent Index
 **Start here on cold boot.**
 
-**Last updated:** 2026-09-24 (full pass — snapshot, file map and counts re-based to STATUS; mirror tokens: thesis **v1.5**, KB **235 / 37**). Header history → `git log -p -- AGENTS/OZK/INDEX.md`.
+**Last updated:** 2026-09-24 (full pass — snapshot, file map and counts re-based to STATUS; mirror tokens: thesis **v1.5**, KB **240 / 37** — KB tokens re-synced 2026-09-27). Header history → `git log -p -- AGENTS/OZK/INDEX.md`.
 
 **State snapshot** *(numbers live in `STATUS.md` — this is orientation only)*:
 - **Thesis v1.5 RESERVOIR — Q2 DIRECTIONALLY CONFIRMED, conviction 🔴🔴 HIGH.** Stress accumulates in the portfolio until recognition; v1.5 = recognition is appraisal-gated and back-loaded. Q2 fired the adverse-selection tell (classified up while RESG shrank). → `THESIS.md`, `CHANGELOG.md`
@@ -10,7 +10,7 @@
 - **⚠️ Two facts cold spawns get wrong:** (1) **OZK files Form 10-Q with the FDIC (cert #110), not the SEC** — there is no *SEC* 10-Q, and the FDIC 10-Qs (`raw/Q*_10Q.pdf`) are this desk's best primary. (2) **The 37.6% MI3 "worst in screen" figure is dead** (live 9.35%, rank 5th/14) — never cite it.
 - **Positions: zero** — book closed 8/21 (both puts expired worthless under Will's RIDE ruling). ⛔ D1/OZK-salvage ruled closed. → `POSITIONS.md`
 - **Next dates:** Oct 1 sub-notes reprice (watch `scripts/flng_watch.py`; read Fri 10/2) · ~Sep 30 Q3 date · ~mid/late Oct Q3 earnings + call · ~Nov Q3 Call Report. → `CALENDAR.md`
-- **KB.tsv: 235 rows / 37 groups** (9/24).
+- **KB.tsv: 240 rows / 37 groups** (9/27).
 
 ---
 
@@ -65,7 +65,7 @@ For deeper cold-boot orientation after that:
 | `POSITIONS.md` / `TRADE.md` | Option positions (book closed 8/21, zero contracts) / trade ideas (separately frozen) |
 | `scripts/boot.py` | Boot kit v0.2 — prices, FDIC filings watch, catalysts, standing watch, inbox, staleness |
 | `scripts/flng_watch.py` | FDIC filings watch (cert 110) — rc 0 quiet / 1 new / 2 unknown; `--selftest` |
-| `workbook/KB.tsv` | Evidence database (230 rows / 37 groups as of 2026-09-24) |
+| `workbook/KB.tsv` | Evidence database (240 rows / 37 groups as of 2026-09-27) |
 | `workbook/CALL_REPORT_SERIES.tsv` | **FFIEC Call Report series, 18 quarters** (RSSD 107244) — MI3 both bases, past-due decomposition, NCO, CRE NCO, OREO/NPA. LOG-ONLY source (Z6 never re-grades off it). |
 | `MI3_2025Q3_ADJUDICATION.md` | **L181 verdict** (2025Q3 MI3 step = debt-on-debt book decline; §6.5 layers OBSERVED / INFERRED / NOT EXCLUDED) |
 | `SWEEP_2026-08-28.md` | Will-directed data-integrity sweep (22 findings) |
@@ -153,7 +153,7 @@ For deeper cold-boot orientation after that:
 ### Workbook
 | File | Content |
 |------|---------|
-| `workbook/KB.tsv` | Evidence database — 230 rows / 37 groups (as of 2026-09-24) |
+| `workbook/KB.tsv` | Evidence database — 240 rows / 37 groups (as of 2026-09-27) |
 | `workbook/KB_INDEX.md` | Cluster navigator (all 37 groups indexed; verified 9/24) |
 | `workbook/CALL_REPORT_SERIES.tsv` | FFIEC 18-quarter series (see Core) |
 | `workbook/Q2_2026_SCORING_CARD.md` | Q2'26 Stage-1/Stage-2 grades |

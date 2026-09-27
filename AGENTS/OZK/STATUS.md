@@ -2,7 +2,7 @@
 
 **Updated:** 2026-09-27 (Sun catch-up 9/24→9/27: quiet — price/SI/tape refreshed, **nothing moved** → `research/threads/2026-09-27_CATCHUP_SWEEP.md`) · prior 2026-09-24 (catch-up + PROME tasks + STATUS rebuild + CATO fixes + **Q2 10-Q full read** → `research/threads/Q2_2026_10Q_READ.md`; **zero grades/thresholds/weights/conviction moved**) — session detail → `MEMORY.md` · evidence → `research/threads/2026-09-24_CATCHUP_SWEEP.md` · older header history → `git log -p -- AGENTS/OZK/STATUS.md`
 **Price:** **$46.89** [**Fri 2026-09-25 close** — FORGE fetch.py asof 2026-09-25; +0.62%; read Sun 9/27, not live] · <$45 band **4.0% away, NOT fired** · −4.5% since 8/31 ($49.08) vs KRE ≈−2.2% ($71.55) | **TBV:** **$48.41** [Q2'26, 8-K bundle] | **P/TBV:** **~0.97×** (on $46.89)
-**Thesis:** RESERVOIR v1.5 — **Q2 DIRECTIONALLY CONFIRMED** (adverse selection: classified $1,215M→$1,282M UP while RESG $27.8B→$25.7B DOWN; NCO 0.69% above kill; NPA 1.42%) | **Conviction:** 🔴🔴 HIGH | **OZK-09** 45% · A30/B45/C8/D17 · Option-2 window FROZEN | **KB:** 235 rows / 37 groups
+**Thesis:** RESERVOIR v1.5 — **Q2 DIRECTIONALLY CONFIRMED** (adverse selection: classified $1,215M→$1,282M UP while RESG $27.8B→$25.7B DOWN; NCO 0.69% above kill; NPA 1.42%) | **Conviction:** 🔴🔴 HIGH | **OZK-09** 45% · A30/B45/C8/D17 · Option-2 window FROZEN | **KB:** 240 rows / 37 groups
 **Short interest:** **~16.3% of float** (16.51M sh, **9/15/26** FINRA via Nasdaq API; float % derived on the 6/30 basis), **DTC 17.6** — up from 16.21M / 16.0 (8/31) and 14.7% / 11.7 (6/30); 12-mo peak 18.3%. Crowded into Q3 (C8). [refresh at each settlement]
 **Next:** **Oct 1** sub-notes reprice (watch armed; read **Fri 10/2**) · **~Sep 30** Q3 date announcement · **Oct 6** Bluerock BPRE webinar · **~mid/late Oct** Q3 earnings + call = mgmt's "~92-day" RaDD report-back · **~Nov 1-10** Q3 Call Report (FFIEC JWT expires **11/5**)
 
@@ -114,7 +114,7 @@ Q2 partial charge-offs on 4 RESG loans = **$49.3M** (Seattle $22.3M + $3.7M, Atl
 
 ## Open Items (live queue → `TODO.md`)
 
-1. 🔴 **Campus at Horton leasing check** — owed since late July; web searches on 9/24 and 9/27 found no lease, which does **not** discharge it (the only listing — Cushman, Bldg 200, 204,842 SF "Available" — is undated and still names pre-foreclosure owner Stockdale; needs SD trade press). The still-empty branch is what holds RaDD severity at 65-70%.
+1. 🔴 **Campus at Horton leasing check** — owed since late July; web searches on 9/24 and 9/27 found no lease, which does **not** discharge it (the only listing — Cushman, Bldg 200, 204,842 SF "Available" — is undated and still names pre-foreclosure owner Stockdale; needs SD trade press). The still-empty branch is what holds RaDD's D-severity band at **50–65% ($275–360M)** (label corrected 9/27 from "65-70%", which contradicted the playbook's own dollars).
 2. 🟠 **Full read of the Q2'26 10-Q** (`raw/Q2_2026_10Q.pdf`) before the Q3 print.
 3. 🟡 **Does OZK populate MI3 from the debt-on-debt book only?** MI3 ≡ PV09 every quarter ⇒ zero CRE-purpose balance ever reported from item 4.
 4. 🟡 **Bluerock/IQHQ marks** — last documented marks are H2'25 vintage; BPRE webinar 10/6. **Aimco v. IQHQ** — no ruling found (as of 9/27 web search; docket pull owed). BPRE traded **~47% below NAV** on 9/3 (derived from its 9/3 distribution release: 7.3% on NAV vs 13.8% on $11.91 → NAV ≈ $22.5; the "38%" is Bisnow's **Dec-2025** listing-day figure — corrected 9/27 PM).
