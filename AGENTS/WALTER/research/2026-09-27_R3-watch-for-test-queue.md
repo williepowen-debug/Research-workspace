@@ -1,0 +1,14 @@
+# WQ-295 R3 — WATCH_FOR live-test queue (opened 2026-09-27, WALTER)
+
+**Process (R3):** owner proposes → WALTER tests each phrase with `tools/watch_for_harness.py --live` (the real `match_watch_for()` matcher, against lane history AND a live subject query; a 0-hit lane-only result is uninformative, MEMORY #31) → reject by name at >0 FALSE hits → landed/rejected list to `PROME/inbox/` → PROME lands in `~/Research-Intake/scripts/newsweep_config.py`. **Nothing below is landed.** Due: **2026-10-02** (WQ-295 re-test deadline) unless noted.
+
+| # | Set | Source (verified) | Terms | Status |
+|---|---|---|---|---|
+| 1 | LIQUID re-test (2 keep · 4 re-word) | `inbox/2026-09-26_from-LIQUID_WATCH_FOR-R3-retest-list.md` (e574bff38) | 6 current + 4 proposed; `--live` query given in the packet | QUEUED |
+| 2 | CREED standing candidates (~30) | `inbox/2026-09-26_from-PROME_CREED-watch-for-candidates-R3-live-test.md` (1d43d158f) | per packet; PROME pre-read: bare tickers / generic macro words (`VNQ`, `FOMC`, `10-year Treasury`, `gated`) look like the rejected outlet-word class | QUEUED |
+| 3 | **CREED Nano Banc block — keyed to DOCKET L515** (FDIC disposition of Nano Banc retained assets; CREED S6 comp; check-by 2027-06-25) | `AGENTS/CREED/analysis/2026-09-27_nano-banc-collateral-read.md` §3 (ae1b68938); PROME pointer 9/27 | `Nano Banc` · `Nano Banc receivership` · `FDIC as receiver for Nano Banc` · `FDIC loan sale` · `FDIC structured transaction` · `failed bank loan sale` · `Sunwest Bank` · `23750 Alessandro Blvd Moreno Valley` · `3700 Inland Empire Blvd Ontario` · `12233 Central Ave Chino` · `9826 Cedar St Bellflower` · `Honarkar` · `Laguna Beach` | QUEUED. **SUPERSEDES PROME's first five** (`MOM CA Investco` DROPPED: Ch.11 dismissed 2025). Pre-test notes (not verdicts): street addresses will rarely appear in headlines, so a 0 is expected and uninformative; `Laguna Beach` is likely noisy (local news) |
+| 4 | WAL Nano Banc terms | PROME pointer 9/27 (from WAL's delivery) | `Nano Banc loan sale` · `Makhijani` · `Cantor Group V` · `Preferred Bank nonaccrual` | QUEUED |
+
+**Routing of L515's eventual print (PROME 9/27, from CREED §3):** **CREED action** (S6 comp: record price vs UPB, performing vs NPL separately, LIEN POSITION on every loan) · **REGINALD info** (severity reconcile; the ZION/Laguna lien collision is REGINALD's lane) · **WAL info/consumes** (WAL O7: an FDIC sale of Nano's liens prints a mark on WAL's own collateral properties).
+
+Related BOARD: `SIG-W-20260927-004` (Nano Banc failure) · `SIG-W-20260927-005` (CORRECTION: Nano liens senior to WAL on 5 of 10 pleaded loans).
