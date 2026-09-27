@@ -1,5 +1,7 @@
 # CRE top-3 loss bridge: FLG · EGBN · OZK (2026-09-26, evening)
 
+> ⚠️ **Narrowed 2026-09-26 late evening after CATO's review** (`runs/2026-09-25_2050_wq299-session-direction.md`, b93837935; CATO reproduced the stress totals from the stated assumptions, which verifies the arithmetic, not the filings or the loss rates). Four statements were corrected in place: ① Seattle comparable evidence narrowed; ② no yes/no earnings verdicts, multiples with a time horizon instead; ③ EGBN office also shows a scenario reserve shortfall; ④ the mislabelled "retained earnings" output removed. §5 now carries CATO's recommended direction beside each metric proposal. **All five stay unapplied pending Will's own word.**
+
 **Asked by:** Will, 2026-09-26: reconcile the shortlist with CREED, bridge each bank from exposed loans to additional loss, reserves, earnings and capital, and prioritise three uncertainties.
 **Supersedes the loss scenarios in** `reports/2026-09-26_CRE_vulnerability_top3.md` (bannered). The selection there stands.
 **Machinery:** `scripts/cre_loss_bridge.py`. Every pool, reserve credit, loss rate and anchor is in the script; re-run it with other rates. The old `cre_loss_scenarios.py` is superseded.
@@ -13,14 +15,14 @@
 - **Each bridge is conditional on the pools it covers and the loss rates assumed.** The capital figures are what happens *if* those loans lose what the scenario says. They are **not** statements that the banks are safe.
 - **What the scenarios show:**
 
-| | Stress loss on covered pools | Reserves already held against them | New hit to earnings | Covered by earnings? | CET1 if the hit lands with no earnings offset |
+| | Stress loss on covered pools | Reserves already held against them | New hit to earnings | ÷ one year of pre-provision revenue (trailing 4Q) | CET1 if the hit lands with no earnings offset |
 |---|---:|---:|---:|---|---|
-| **FLG** | $1,618M | $113–420M | **$1.2–1.5B** | **No: 8–11 years of pre-provision revenue** | 13.16% → **11.3–11.7%**; **10.9–11.3% if the $250M buyback is also executed** (target 10.5%) |
-| **EGBN** | $226M | $6–69M | $156–219M | Mostly: 1.6–2.3 years | 14.58% → 12.6–13.1% |
-| **OZK** | $656M | $19–35M | $620–636M | **Yes: ~0.6 years** | 11.80% → 10.7–10.8%; **~10.3% if the $200M buyback is also executed** |
+| **FLG** | $1,618M | $113–420M | **$1.2–1.5B** | **8.4–10.5×** | 13.16% → **11.3–11.7%**; **10.9–11.3% if the $250M buyback is also executed** (target 10.5%) |
+| **EGBN** | $226M | $6–69M | $156–219M | **1.6–2.3×** | 14.58% → 12.6–13.1% |
+| **OZK** | $656M | $19–35M | $620–636M | **0.6×** | 11.80% → 10.7–10.8%; **~10.3% if the $200M buyback is also executed** |
 
 - **Reading the reserve ranges:** the low end credits only loan-specific reserves. The high end also credits each pool's pro-rata share of the general reserve, which banks do not disclose by grade, so that share is my assumption.
-- **The single most important caveat:** **FLG is the only bank where the stress loss cannot be absorbed by earnings.** In that case its capital does the absorbing, and the cushion to its own 10.5% target falls to **~0.4–1.2pp**. How tight it gets depends on reserve credit and on whether the buyback is executed. That is a *conditional* margin, not a solvency finding.
+- **The single most important caveat:** read the earnings column as **multiples of one year's pre-provision revenue, not a yes/no.** Two banks exceed one year: **FLG by far (8–11×)** and **EGBN (1.6–2.3×)**. OZK's is 0.6×. At FLG's multiple, capital rather than earnings takes most of the scenario loss, and the cushion to its own 10.5% target falls to **~0.4–1.2pp**. How tight it gets depends on reserve credit and on whether the buyback is executed. That is a *conditional* margin, not a solvency finding.
 
 ---
 
@@ -30,7 +32,7 @@
 |---|---|---|
 | 2026 CRE distress is mostly **refinancing failure (B), not weak cash flow (A)**; **multifamily is the one type where cash-flow stress is rising** (Freddie MF DQ 0.64%, 4th rise) | FLG: rent-regulated MF is **A+B** (DSCR 1.01×, 2027 resets). EGBN: MF is **A+B** (DSCR 1.0×; $405M maturing H2-26). OZK: failures are **B→C** (Boston lab matured unpaid; foreclosures). | **Agrees** |
 | **DC/NoVA office is the densest new CMBS cluster** (Project James $377.6M) | EGBN office is mostly cleaned up (criticized $287M → $77M). But ~89% of its remaining office LTVs rest on pre-6/30/25 appraisals, and its own re-appraisals ran −14% to −29%. **The market cluster argues the remaining $456M of pass office is under-appraised, not that it is failing.** | **Agrees; that is the office stress leg** |
-| **Seattle, Chicago, LA, Boston lab** stress; realized comps −61%/−72% | OZK's foreclosed Seattle, Santa Monica and Atlanta office are carried at **89–100% of appraisal**; OZK's *own* vacant Seattle office sale cleared at **58% of appraisal**. **This is the evidence that OZK's marks are high.** | **Agrees; drives the OZK OREO stress** |
+| **Seattle, Chicago, LA, Boston lab** stress; realized comps −61%/−72% | OZK's foreclosed Seattle, Santa Monica and Atlanta office are carried at **89–100% of appraisal**; OZK's *own* vacant Seattle office sale cleared at **58% of appraisal**. **That is serious adverse comparable evidence. It does NOT establish that every remaining foreclosed office is overvalued:** property characteristics and appraisal dates differ (e.g. Atlanta carries a fresh Jun-26 appraisal; Santa Monica's is 11 months old). The stress applies it as a scenario, not a finding. | **Agrees; drives the OZK OREO stress** |
 | **ARI's ~$9B book cleared at 99.7% of par**: strongest contrary fact | Performing books *can* clear at par. It bears on FLG's par payoffs (still ~40% from substandard) and caps how harsh a pass-book stress should be. | **Adopted as the reason pass books are stressed lightly or not at all** |
 | **Hotels: 30% of 2026 balances mature**, the most under-watched refinancing book | EGBN holds **$373M of hotel loans**, which my first report missed. It is included in "other income-producing CRE" with a 1% stress on the pass book. | **Gap closed partly** (no hotel-specific grade split is disclosed) |
 | CREED's lender table lists **AMTB** among concentrated CRE names | That label came from my matrix. AMTB's score is mostly **non-CRE** credit. | **Disagree → correction packet to CREED** |
@@ -79,7 +81,6 @@
 | − reserves held (specific only → + general) | $113M → $309M | $113M → $420M |
 | **= new hit to earnings** | **$211–407M** | **$1,198–1,505M** |
 | ÷ pre-provision revenue ($143M, trailing 4Q) | 1.5–2.8 years | **8.4–10.5 years** |
-| ÷ retained revenue after dividends ($93M) | 2.3–4.4 years | 12.9–16.2 years |
 | CET1 13.16% → (no earnings offset) | 12.65–12.90% | **11.29–11.67%** |
 | … if the $250M buyback is also executed | 12.24–12.48% | **10.87–11.26%** |
 | Margin to FLG's 10.5% target | +1.7 to +2.4pp | **+0.4 to +1.2pp** |
@@ -91,7 +92,7 @@
   - loans that migrate beyond the stated rates;
   - securities losses.
 
-**Conditional conclusion:** *if* problem MF/CRE loans lose 20–25% more and weak-but-accruing ones 10–15%, earnings cannot absorb it and capital ends within ~0.4–1.2pp of FLG's own target, the low end if the buyback proceeds. Worse loss rates, or losses outside MF/CRE, are not covered by this statement.
+**Conditional conclusion:** *if* problem MF/CRE loans lose 20–25% more and weak-but-accruing ones 10–15%, the hit is 8–11× one year's pre-provision revenue and capital ends within ~0.4–1.2pp of FLG's own target, the low end if the buyback proceeds. Worse loss rates, or losses outside MF/CRE, are not covered by this statement.
 
 ### EGBN, holding-company basis, 6/30/26 ($M)
 
@@ -118,9 +119,9 @@
 | Office | $64M | $39M |
 | Multifamily | $76M | $6.7M |
 
-**Multifamily is where the reserve is thinnest relative to the stressed loss: about 11× short.** Coverage: all income-producing CRE, construction, and criticized owner-occupied CRE. **Not covered:** owner-occupied pass ($1.6B), business loans ($1.5B, including **$153M of CRE booked as business loans**), and post-6/30 migrations.
+**Both have a scenario reserve shortfall.** Multifamily's is the larger (stress loss ~11× its reserve); office's is ~1.6×. Coverage: all income-producing CRE, construction, and criticized owner-occupied CRE. **Not covered:** owner-occupied pass ($1.6B), business loans ($1.5B, including **$153M of CRE booked as business loans**), and post-6/30 migrations.
 
-**Conditional conclusion:** *if* the office book re-appraises 20–35% lower and weak MF loses 13–30%, EGBN takes ~2 years of earnings, and capital stays near 12.6–13.1% on this coverage.
+**Conditional conclusion:** *if* the office book re-appraises 20–35% lower and weak MF loses 13–30%, the hit is ~1.6–2.3× one year's pre-provision revenue, and capital stays near 12.6–13.1% on this coverage.
 
 ### OZK, Bank OZK basis, 6/30/26 ($M)
 
@@ -149,7 +150,7 @@
 - the pass RESG book (~$14.7B of construction and non-owner-occupied CRE, less named credits);
 - the $430M loans-to-CRE-lenders book (first charge-offs $42.4M YTD), except where already nonaccrual.
 
-**Conditional conclusion:** *if* RaDD fails at the OZK desk's severity and the foreclosed marks fall to where OZK's own sales have cleared, the loss is about 7 months of earnings. What happens to capital then depends on whether OZK keeps paying out ~57% of net income and executes the buyback.
+**Conditional conclusion:** *if* RaDD fails at the OZK desk's severity and the foreclosed marks fall to where OZK's own sales have cleared, the hit is ~0.6× one year's pre-provision revenue (before provisions on the rest of the book and taxes). What happens to capital then depends on whether OZK keeps paying out ~57% of net income and executes the buyback.
 
 ---
 
@@ -169,7 +170,7 @@
   - **~89% of those LTVs rest on appraisals older than 6/30/25.** EGBN's own recent re-appraisals fell **−14% to −29%**.
   - At 61% LTV, values must fall ~34% before the average loan loses, so the loss sits in the high-LTV tail: a $60M Montgomery loan at 80%, and Fairfax at 96% maturing 9/25.
   - **Stress $64M vs the $39M office reserve: 1.6×.**
-  - **Office is not the reserve gap. It is the appraisal-vintage risk.**
+  - **Office also shows a scenario reserve shortfall:** ~$64M stress loss against $39M of allocated office reserve. The driver is appraisal vintage. **Multifamily's shortfall is larger** ($76M vs $6.7M), but it is not the only one.
 - **Multifamily:**
   - The loss rates now use **EGBN's own non-office exit haircut (13.3%)** as the base, not the office-era 39.6%.
   - The MF charge-offs I had read as ~5% a year of the book (~$41M over four quarters) are **at least $15M sale-linked**, and probably mostly so. **So they are not a clean retained-book MF loss rate.**
@@ -191,13 +192,15 @@
 
 ## 5. Metric changes — RECOMMENDED, NOT APPLIED (each needs a decision; none changes a score today)
 
-| # | Recommendation | Why | Cost / risk |
-|---|---|---|---|
-| M1 | **Matrix credit leg: coverage on nonaccrual + OREO**, not nonaccrual alone | OZK's coverage falls from 154% to 78% when its $288M OREO is counted; WAL's $126M OREO is also invisible | Data is already in `workbook/CRE_RCN_COHORT.tsv`. Would move OZK's score (+1). Needs a re-score, not a patch |
-| M2 | **Add a CRE-specific credit leg** (RC-N nonaccrual by property type), or state in the matrix header that its credit leg is bank-wide | AMTB's 3 points are mostly non-CRE; the matrix is being read as a CRE ranking | Changes what the matrix *is*; a Will-level choice |
-| M3 | **Replace EGBN's "runway" (reserve ÷ trailing charge-offs)** with (a) runway on retained-book charge-offs and (b) reserve ÷ (substandard × the bank's own realised exit haircut) | ≥67% of EGBN's trailing charge-offs were sale marks | Needs per-bank disposition splits, which not every bank discloses |
-| M4 | **Adopt the loss bridge as a quarterly instrument** for the top names, re-run at each Q3/Q4 print with actual marks | It is the only surface that nets reserves and routes OREO correctly | Loss rates stay assumptions; it must never be quoted without its coverage line |
-| M5 | **Track "OREO carrying ÷ latest appraisal" and "realised exit ÷ appraisal"** per bank | This is the only direct test of untested marks (OZK 86–100% vs 58–80%) | Hand-collected from bank disclosures |
+*CATO's directions are a reviewer's recommendations relayed to me. They are **not** Will's approval, so nothing here is applied. The one change made is the M2 **wording** clarification in the matrix header, which describes the existing measure's scope and moves no score. **None of these needs deciding tonight** (CATO); the Q3 prints come first.*
+
+| # | Recommendation | Why | Cost / risk | CATO's recommended direction (9/26) |
+|---|---|---|---|---|
+| M1 | **Matrix credit leg: coverage on nonaccrual + OREO**, not nonaccrual alone | OZK's coverage falls from 154% to 78% when its $288M OREO is counted; WAL's $126M OREO is also invisible | Data is already in `workbook/CRE_RCN_COHORT.tsv`. Would move OZK's score (+1). Needs a re-score, not a patch | Make OREO visible, but **hold the automatic score change**; distinguish loan-reserve coverage from total problem assets and property losses. OREO valuation losses do **not** run through the loan-loss allowance, so a combined ratio is a screen only (FDIC reporting guidance) |
+| M2 | **Add a CRE-specific credit leg** (RC-N nonaccrual by property type), or state in the matrix header that its credit leg is bank-wide | AMTB's 3 points are mostly non-CRE; the matrix is being read as a CRE ranking | Changes what the matrix *is*; a Will-level choice | **Clarify the existing measure's bank-wide scope now; defer a new scoring component** |
+| M3 | **Replace EGBN's "runway" (reserve ÷ trailing charge-offs)** with (a) runway on retained-book charge-offs and (b) reserve ÷ (substandard × the bank's own realised exit haircut) | ≥67% of EGBN's trailing charge-offs were sale marks | Needs per-bank disposition splits, which not every bank discloses | Use the sale-adjusted measures **for EGBN**, with their disclosure limits explicit |
+| M4 | **Adopt the loss bridge as a quarterly instrument** for the top names, re-run at each Q3/Q4 print with actual marks | It is the only surface that nets reserves and routes OREO correctly | Loss rates stay assumptions; it must never be quoted without its coverage line | **Update this analysis at Q3** before adopting a permanent recurring instrument |
+| M5 | **Track "OREO carrying ÷ latest appraisal" and "realised exit ÷ appraisal"** per bank | This is the only direct test of untested marks (OZK 86–100% vs 58–80%) | Hand-collected from bank disclosures | Focus on **OZK's named assets** rather than a fleet-wide series now |
 
 ---
 

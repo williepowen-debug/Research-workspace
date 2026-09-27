@@ -15,6 +15,8 @@
 >
 > **Why FLG inverted:** it holds the cohort's **highest CRE concentration (327.5%, above the SR 07-1 300% supervisory line)**, the **highest nonaccrual rate (4.88% — 5.5× the cohort median)**, and the **thinnest reserve coverage (ACL/nonaccrual 29%)**. ⚠️ **v1 already knew this** — its own FLG note read *"NYC MF rent-reg"* — **and still scored it last.** A score that contradicts its own notes is the signature of a score nobody could recompute.
 
+> ⚠️ **SCOPE (clarified 2026-09-26, wording only, no score moved):** the credit-quality channel (§1 channel 2) is **BANK-WIDE**: nonaccrual on ALL loans ÷ total loans, and ACL ÷ all nonaccrual. It is **not a CRE-specific measure** and excludes foreclosed property (OREO). A high credit score can therefore come from non-CRE loans (AMTB, 9/26). For CRE vulnerability, read `reports/2026-09-26_CRE_top3_loss_bridge.md`.
+
 **Owner:** REGINALD · **Vintage:** all figures **FFIEC Call Report 2026-06-30**, pulled at the primary 2026-08-20 · **Cohort:** the 14 named MI3-cohort filers (bank-level RSSDs)
 **Reproduce:** `AGENTS/REGINALD/scripts/mi3_cohort_screen.py` machinery (FFIEC CDR REST/JWT, `RetrieveFacsimile`/SDF). ⚠️ **JWT expires 2026-11-05.**
 

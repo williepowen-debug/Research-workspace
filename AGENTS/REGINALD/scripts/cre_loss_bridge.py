@@ -20,8 +20,9 @@ RULES (each is a double-count guard):
      SPECIFIC ONLY.
   4. OREO (foreclosed property) has NO allowance: write-downs run through non-interest EXPENSE, so they get no
      reserve credit.
-  5. Capital: incremental after-tax hit on CET1, RWA unchanged, NO earnings offset (conservative), then shown
-     against retained earnings (PPNR less dividends) in years. Tax 25% (assumption).
+  5. Capital: incremental after-tax hit on CET1, RWA unchanged, NO earnings offset (conservative). Earnings are shown
+     ONLY as the hit's multiple of trailing-4Q PPNR. (A "PPNR less dividends" output was removed 9/26 after CATO's
+     review: it omitted provisions and taxes, so labelling it retained earnings was wrong.) Tax 25% (assumption).
   6. Every CAPITAL CONCLUSION IS CONDITIONAL ON COVERAGE (the pools included) AND THE RATES. Losses outside the
      pools listed under EXCLUDED are not in the numbers.
 Loss rates are ASSUMPTIONS with the anchor written beside each. Change them and re-run; nothing here is a forecast.
@@ -116,9 +117,8 @@ def run():
         for case, i in (("BASE", 4), ("STRESS", 5)):
             for coll in (True, False):
                 loss, res, hit, c1 = bridge(b, i, coll)
-                retained = b["ppnr"] - b["payout"]
                 print(f"   {case:6} {'spec+coll' if coll else 'spec only'}: loss ${loss:,.0f}M − reserves credited ${res:,.0f}M = "
-                      f"new P&L hit ${hit:,.0f}M = {hit/b['ppnr']:.1f}y PPNR / {hit/retained:.1f}y retained · CET1 → {100*c1/b['rwa']:.2f}% "
+                      f"new P&L hit ${hit:,.0f}M = {hit/b['ppnr']:.1f}x trailing-4Q PPNR · CET1 → {100*c1/b['rwa']:.2f}% "
                       + " · ".join(f"{100*c1/b['rwa']-f:+.2f}pp vs {f}%" for f, _ in b["floors"])
                       + (f" · if the ${b['buyback']}M authorised buyback is also executed: {100*(c1-b['buyback'])/b['rwa']:.2f}%" if b['buyback'] else ""))
         for p in b["pools"]:
