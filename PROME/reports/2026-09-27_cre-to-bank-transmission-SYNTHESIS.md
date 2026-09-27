@@ -170,3 +170,23 @@ The scope's expectation (relevance concentrates in the NYC rent-regulated pools)
 ## 11. EGBN follow-up — can the Fairfax maturity be observed? (18:00 ET, REGINALD a4fab14b6)
 
 **Not observable now; definitively observable at EGBN's Q3 deck (~10/21, estimate).** EGBN names the loan only "Office, CRE, Fairfax" ($22.1M, 96% LTV, appraised $23.0M 4/2/26, DSCR 0.74, matured 9/25/26); every public record channel is keyed on property or party. The Q3 deck's own ">$10M criticized" table flags post-quarter payoffs (footnote 5), so it will show payoff, extension, downgrade or nonaccrual. Fairfax land records (CPAN, $150/quarter, or the courthouse in person) could identify it earlier — Will's hands and a spend: **WQ-310, PROME and REGINALD recommend waiting for the deck.** New context: a second Fairfax office loan ($18.5M, matured 2/28/26) is already nonaccrual — one Fairfax office loan has already failed at maturity; context for this one, not evidence about it. The other three criticized >$10M loans due 8/10–9/30 (Montgomery storage $56.2M · Prince George's apartments $56.0M, already extended once · Anne Arundel storage $15.0M) share the identification gate; silence is consistent with extension, not proof of payoff.
+
+---
+
+## 12. WQ-309 completion check — the Santander bid summary (18:0x ET; CREED c0461e5b5, FLG 9e3dcdf5a)
+
+**Will's catch (17:57) was right: §9's "no value is computable for the rent-stabilized ventures" is WITHDRAWN. "Not a loss rate" STANDS.** CREED had inferred the absence of leverage information from the press releases without opening the FDIC's separate bid summaries (CREED's own named trap). PROME re-read the SIG RCRS A/B bid summary at fdic.gov 18:0x ET: winning bid SBNA Investor LLC (Santander) **$1,086,445,000, "LLC, 20% equity", leverage "N/A"**; every other bid 20% equity at **"1:1"**; **no legend defines "N/A"**.
+
+| Quantity | Santander A/B ($9.0B rent-stabilized, Dec-2023) | Supported? |
+|---|---|---|
+| Implied equity value | $1.086B ÷ 20% = **$5.43B** | Yes, on a pari-passu equity assumption |
+| Implied portfolio value | **≈60% of the $9.0B balance (~40% implied discount)** | Conditionally: only if "N/A" = no venture debt (strongly supported by the column's N/A-vs-1:1 contrast; not FDIC-labelled; the venture LLC agreements would confirm and were not opened) |
+| Realized credit loss | — | No: not in any 2023 document (the recovery-history question Will did not authorize) |
+
+The CPC ventures (C/D) went to a mission-driven bidder **below its cover bids** — a floor, not a market value.
+
+**FLG's grades (9e3dcdf5a §F):** the three NYC rent-regulated pools stay **PARTIAL — as a valuation cross-check only**, never a rate, with five caveats (N/A unconfirmed · Dec-2023 pre-freeze · minority stake, so part of the ~40% is rate and illiquidity, not credit · blended performing/NPL mix · not a loss). Against FLG's own carrying basis: **row 1 (nonaccrual, $1,737M) carries at ~79.6% of original after 20.45% recognised — ~20pp above the one external bid valuation**, and for a 100%-nonaccrual pool a blended 60% is if anything an upper reference; the credit-only gap is not determinable · row 2 (criticized) carries ~95%, a weaker cross-check · row 3 (pass) ~99%, borderline does-not-inform. Rows 4–7 unchanged: DOES NOT INFORM.
+
+**Pinnacle vs Signature (FLG):** biased in opposite directions — Pinnacle (≤80% of debt, 75% seller-financed by FLG) likely **inflated**; Signature A/B (unlevered minority stake) likely **deflated**. They bracket the collateral in direction only, on different bases; no range is quoted.
+
+**Net for the synthesis:** the one external valuation of NYC rent-stabilized loans (Dec-2023) and FLG's own largest exit (3/2026) both sit **below** FLG's carrying basis on its nonaccrual rent-regulated pool, each with a bias that prevents a number. That is directional support for §8's hinge — marks above clearing prices — for this one pool, not a finding and not a rate. WQ-309 is complete.
