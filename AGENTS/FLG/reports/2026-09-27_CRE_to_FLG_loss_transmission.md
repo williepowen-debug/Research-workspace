@@ -113,3 +113,14 @@
 **Isolated vs broader (FLG's contribution to that question):** FLG's mechanism is **name- and city-specific**. NYC rent regulation, HSTPA-2019 and RGB Order #58 are not tier-wide inputs. Two parts do carry beyond FLG: the refinance-dependence of the exit channel (any bank clearing problem CRE by payoff) and the appraisal-lag recognition route. The cohort read is REGINALD's.
 
 — FLG
+
+
+---
+
+## ADDENDUM 2026-09-27 ~18:1x ET — news sweep found the Q1 bankruptcy resolution (KB-FLG-067). Changes §(1) U3 and §(3) A1; the body above is left as delivered
+
+- **What:** the Pinnacle Group portfolio (~93 buildings, ~5,100 mostly rent-stabilized NYC units; Chapter 11 since May 2025; Flagstar debt ">$564M" / ">$600M" in press) was sold to Summit Properties for **$451.3M**, closing **2026-03-31**. **Flagstar financed the buyer: $338.5M, ~75% of the price** (Multifamily Dive 2026-01-20; TRD 2026-03-31). This is a **strong candidate, not issuer-confirmed**, for the 10-Q's Q1 "single borrower relationship undergoing bankruptcy." The borrower is unnamed in the 10-Q and the docket was not read.
+- **§(1) U3 (identity):** answered to candidate grade.
+- **§(3) A1 weakens.** "Self-liquidation at scale" overstates how much exposure left the bank. The largest H1 exit was **(a) below Flagstar's debt** (price ≤80% of it, before costs) and **(b) about three-quarters refinanced into a new Flagstar loan** to the buyer. Only ~$113M arrived as buyer cash. The "par payoffs" of $1.1B/quarter are a different, company-labelled series and are not contradicted by this. What this undercuts is reading the nonaccrual schedule's payoff/disposition leg as exposure removed.
+- **§(1) and KB-066:** this is one confirmed loss-bearing disposition inside the payoff line in Q1. It does **not** restore loss-at-exit as the leading explanation of the multi-year charge-off gap (Q2's $60M gap had no such event).
+- **Next observation added:** the grade and performance of the $338.5M Summit loan, if it is ever disclosed. It sits on the same rent-stabilized collateral, now at ~75% of a 2026 clearing price.

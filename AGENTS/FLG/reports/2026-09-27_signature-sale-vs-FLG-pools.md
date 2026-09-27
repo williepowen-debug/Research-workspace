@@ -75,3 +75,13 @@ Grades use PROME's vocabulary. **"Loss rate" is DOES NOT INFORM for all seven**,
 | FLG discloses the remaining Signature-acquired CRE by grade | 10-K FY2026 (~3/2027) | Would upgrade the CRE rows from DOES NOT INFORM to a **direct**, same-loan link (from the fair-value mark, not par) |
 
 — FLG
+
+
+---
+
+## ADDENDUM 2026-09-27 ~18:1x ET — a closer comparator than Signature exists: FLG's own Pinnacle disposition (KB-FLG-067). Grades above unchanged
+
+- **What:** Flagstar's own rent-stabilized problem relationship (Pinnacle, ~5,100 NYC units) cleared in bankruptcy at **$451.3M (~$88K/unit)** on **2026-03-31**, against Flagstar debt of **>$564M** (press). **Flagstar financed the buyer at ~75% of the price ($338.5M).** This partly answers §E row 2 ("FLG discloses the loss on its own RR dispositions"). It comes from the press, not the issuer, and is one relationship.
+- **How it compares:** same lender, same collateral class, 2026 regime (after HSTPA, before the freeze took effect), a defaulted relationship. That beats Signature on type, market, vintage **and** performing status. It shares Signature's defect: **seller financing** (here ~75% from Flagstar) likely **inflates** the clearing price, so "price ≤80% of debt" is, if anything, a **flattering** recovery.
+- **Grade for the MF nonaccrual NYC ≥50% RR pool:** still **no loss rate**. Flagstar's carrying value before the sale, prior charge-offs and costs are undisclosed, so no Flagstar loss can be computed. Directionally it is a same-book, same-year data point that a defaulted rent-stabilized portfolio cleared **below** the lender's debt, even with the lender funding three-quarters of the price.
+- **Not converted into any bridge rate** (Will's WQ-309 bound).
