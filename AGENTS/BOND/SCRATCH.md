@@ -1,4 +1,4 @@
-# BOND SCRATCH — 2026-09-28 (Mon) ~10:34→12:2x ET (two passes): live-event boot (Will: "yields appear to be blowing out across many countries"). *Prior:* 9/26 `prome-1d` spawn (WQ-291 letter + WQ-246 rec + L0 drain) · 9/25 FR2004 timing/FORUM-7/WQ-290 · 9/24 three sessions.
+# BOND SCRATCH — 2026-09-28 (Mon) 10:34→11:3x ET (two passes; commits 10:43 and 11:11, stamp fix after): live-event boot (Will: "yields appear to be blowing out across many countries"). *Prior:* 9/26 `prome-1d` spawn (WQ-291 letter + WQ-246 rec + L0 drain) · 9/25 FR2004 timing/FORUM-7/WQ-290 · 9/24 three sessions.
 
 **Purpose:** ephemeral handoff. Read at boot, rewritten at closeout. Durable → `MEMORY.md`; evidence → `workbook/`. Previous SCRATCH text is in git history (`git show HEAD~1:AGENTS/BOND/SCRATCH.md`).
 
@@ -7,7 +7,9 @@
 > 🔴 **Rates:** official 30Y 5.49 [9/25] = 3rd straight fresh 2026 high; 9/28 intraday vendor 30Y 5.55 / 10Y 5.23 / 5Y 5.06 (+5bp); global DM 10Y +1 to +7bp (Anglo-sphere-led) — `KB-BND-340`.
 > 🔴 **Credit:** CCC 1112 [9/24] ≥ 1100 ⇒ `BND-27` FALSE; 1128 [9/25]; HY 293 (+25bp/3 sessions, ~97th pct), **7bp from 300** — `KB-BND-341`.
 
-## WHAT I DID — 2026-09-28 pass 2 (~11:5x→12:2x, Will: "finish this live-event read with one short assessment")
+## ⚠️ STAMP CORRECTION 11:36 ET: PROME flagged clock stamps ahead of commits (pass 1 = 10:34→10:43, pass 2 = 10:43→11:11). Fixed on BOND surfaces + KB-BND-340..343. NOT edited (other desks' dirs): the LIQUID packet (now in LIQUID processed/, stamps "~11:5x"/"~12:1x") and both PROME memos ("~11:4x", "~12:1x") — true times = their commits 10:43 / 11:11. Figures unaffected.
+
+## WHAT I DID — 2026-09-28 pass 2 (10:43→11:11, Will: "finish this live-event read with one short assessment")
 1. `analysis/2026-09-28_live-event-assessment.md` (+ `KB-BND-343`): rates decomposition (10Y +21 = real +20 / BE +1; TP from 9/24 = INFERENCE) · credit tiers CCC/B/BB/BBB/IG (**B and BBB = the only new pulls, disclosed**) · thesis supported/weakened/unchanged-score · evidence ≠ authorization · one new research need (cross-market attribution → PROME to scope).
 2. PROME memo `PROME/inbox/2026-09-28_from-BOND_live-event-assessment-and-10-1-dealer-test.md` (assessment + WQ-291 10/1 conditions; **explicit: test lands AFTER the 9/30 expiry**; Will's hold/NO-ADD unchanged). LIQUID facts packet `AGENTS/LIQUID/inbox/2026-09-28_from-BOND_credit-tier-facts-for-Q4-grade.md` (their grade; B crossed p75 9/24, D1 not met).
 3. NEXUS_BRIEF T5YIFR distance fixed (history kept as "was 14bp", current 16bp [9/25], caveat that breakevens stay flat); boot_recompute derived-distance + FR2004 drift now clean.

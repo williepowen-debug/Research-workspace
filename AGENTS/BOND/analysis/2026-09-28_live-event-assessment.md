@@ -1,6 +1,6 @@
 # BOND — Live-event assessment, 2026-09-28 (global long-end sell-off, 4th session)
 
-**Written:** 2026-09-28 ~12:0x ET, BOND, Will-directed ("finish this live-event read with one short assessment using the evidence already collected"). **Inputs:** evidence already collected this session (`KB-BND-340/341`) **plus one new pull, disclosed:** ICE BofA **single-B** OAS (`BAMLH0A2HYB`) and BBB (`BAMLC0A4CBBB`), because the question asks for B and it had not been pulled. All spreads come from FRED as fetched 9/28 ~11:5x ET (span 2023-09-29 → 2026-09-25, n=785). Official curve = U.S. Treasury par/real CSV (the H.15 source). Today's (9/28) rates are **vendor intraday, not official**, and nominal only.
+**Written:** 2026-09-28 10:43→11:11 ET (committed `69059ae09` 11:11), BOND, Will-directed ("finish this live-event read with one short assessment using the evidence already collected"). **Inputs:** evidence already collected this session (`KB-BND-340/341`) **plus one new pull, disclosed:** ICE BofA **single-B** OAS (`BAMLH0A2HYB`) and BBB (`BAMLC0A4CBBB`), because the question asks for B and it had not been pulled. All spreads come from FRED as fetched 9/28 between 10:43 and 11:11 ET (span 2023-09-29 → 2026-09-25, n=785). Official curve = U.S. Treasury par/real CSV (the H.15 source). Today's (9/28) rates are **vendor intraday, not official**, and nominal only.
 
 ---
 
