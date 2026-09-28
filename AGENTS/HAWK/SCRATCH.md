@@ -3,6 +3,9 @@
 **Written:** 2026-09-28 15:31 ET (from `date`; the earlier ~15:4x stamps were typed ahead of the clock) · **Session:** Will-launched boot + news catch-up; PROME `prome-7f` doorbell mid-session (Iran 7-day plan read + DOCKET L491). Live coordination with `brent-d2`, `walter-f8`, `prome-7f` via SendMessage.
 **$0. No trade view. No mark, band, threshold or confidence moved** (IRAQ-01 held pending Will).
 
+
+**WIND-DOWN ADDENDUM 2026-09-28 15:35 ET (from `date`):** after the rulings: BRENT consumer-confirmed Iraq exports (KB-425, secondary only); KB-424's "BRENT sentinel ⑤" claim corrected; ahead-of-clock stamps fixed (e4330145a). Core-file pass: FALSIFICATION FININFRA row carries the WQ-320 definition; **FLOW-HAWK-19 gains a dated 9/28 evidence line** (Yanbu premium repricing with capacity interrupted, not destroyed = the willingness mechanism operating; no re-cut); VX IRAQ/FININFRA Watch_Source name the SOMO report and bank/AWS status primaries; fleet memories extended (stamp n+8, weekday n+1; weekday is COLD, so a promotion flag goes to PROME). NEXT SESSION list below is unchanged: item 1 (10/01 HAW-19 residual + HAW-22 window) governs.
+
 ---
 
 ## CURRENT MARKS (one line)
