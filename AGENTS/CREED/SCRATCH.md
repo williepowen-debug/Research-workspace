@@ -1,7 +1,7 @@
 # CREED SCRATCH.md — Ephemeral Session State
 
 **Rewritten:** 2026-09-27 (Sun) — FULL SESSION: boot + Nano Banc read (`prome-09`) + **6 PROME CRE→bank-transmission legs** (WQ-309 Signature economics +completion-check, WQ-311 VLY, WQ-312 workout-funding observability, the property-comparable transfer test, 3 peer corrections). **Will CLOSED the assignment 21:16 ET — no further research.** Closed out on PROME's ask. New surface: `CALENDAR.md` (Q3 touchpoints). **Record: `catchups/2026-09-27.md`** (prior: `catchups/2026-09-26.md`).
-**🆕 2026-09-28 (Mon) session — Will-launched boot:** Will RULED WQ-303 (S8a → 4, **27/45**) + WQ-304 B (004 HIT / 007 MISS on own ledger; Kernel still OPEN) — encoded `dcffd6599`, PROME verified. Wording fixes (PROME 9/27c clearing-price; CATO NB1/NB6 Nano) applied. PRED-003 column shift repaired at closeout. DAEDALUS profile FYI sent (25/45 → 27/45). **Open offer to Will, unanswered:** a KB row for 3000 Post Oak (Trepp Rundown 9/28: $80M senior CMBS → $11.4M net proceeds; reconcile vs the SECONDARY $64.8M trust loss) + route the MF building-age split to HOMER via WALTER. Record: `catchups/2026-09-28.md`.
+**🆕 2026-09-28 (Mon) session — Will-launched boot:** Will RULED WQ-303 (S8a → 4, **27/45**) + WQ-304 B (004 HIT / 007 MISS on own ledger; Kernel still OPEN) — encoded `dcffd6599`, PROME verified. Wording fixes (PROME 9/27c clearing-price; CATO NB1/NB6 Nano) applied. PRED-003 column shift repaired at closeout. DAEDALUS profile FYI sent (25/45 → 27/45). **Will said yes (9/28):** ✅ `KB-CREED-046` 3000 Post Oak logged ($64.8M SECONDARY figure still UNRECONCILED — read a remittance report before citing either as 'the loss') · ✅ MF building-age split routed to HOMER via WALTER (`AGENTS/WALTER/inbox/2026-09-28_from-CREED_*`). Record: `catchups/2026-09-28.md`.
 
 **Purpose:** the *handoff* surface. Overwritten every session. **Durable analysis → STATUS / catchups / KB; structural → `MAINTENANCE.md`; nothing here is canonical.**
 
@@ -36,7 +36,7 @@ Sitting 2 closed and revoked 2026-09-02 (CONTINUE). **Pins are ROW-scoped:** `PR
 - **Base case HOLDS; 🟠 ELEVATED; 27/45 (S8a ruled 4, 9/28); pre-bank-transmission.**
 - **Rates are now the live driver:** 10y 5.18% (9/24), FOMC hike 9/16. The desk's synthesis (*the asset against the coupon*) predicted exactly this channel; say so without claiming the tape confirms tenant stress.
 - **Trigger board:** `T-01a` 12.00 AT band 0/2 · `T-01b` 16.90 · `T-02` spent · `T-03` not fired · `T-06b` fired, 1 · **`T-08a` FIRED 9/24** · `T-08b` not fired.
-- **Counts:** VX 34 · KB **45** · PRED 11 (8 open) · registry 11 rows. `creed_selfcheck` CLEAN at closeout.
+- **Counts:** VX 34 · KB **46** (+046 Post Oak 9/28) · PRED 11 (8 open) · registry 11 rows. `creed_selfcheck` CLEAN at closeout.
 - 🆕 **2026 CMBS realized-loss severity is now held at primary** (`KB-041`, CREFC monthlies via `assets.informz.net/cmbs/data/images/CREFC%20Update%20on%20CMBS%20Loan%20Performance_<Month>%202026.pdf` — August worked, September 403 on 9/27). The first same-basis (loss vs loan balance) comps; they feed `research/` deferred item 3 (realized-loss ledger, DEFERRED by Will — do not start unasked).
 
 ## ⚫ STANDING TRAPS — re-read before writing any number

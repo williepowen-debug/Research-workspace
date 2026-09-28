@@ -102,7 +102,7 @@ Current thesis:
 
 **④ TRIGGER BOARD:** `T-01a` 12.00 AT band, 0/2 · `T-01b` 16.90, not fired · `T-02` FIRED/spent · `T-03` not fired · `T-04` qualitative · `T-06` by hand · `T-06b` FIRED, count 1 · **`T-08a` 🔴 FIRED 9/24** · `T-08b` not fired.
 
-**⑤ COUNTS:** VX 34 · KB **45** (+043 Signature-sale structure, +044 no-bank-clearing-price/observability, +045 VLY composition) · PRED 11 (**6 open**; 004 HIT + 007 MISS graded 9/28 under option B, Kernel records still OPEN; graded n=4, mean Brier 0.374) · workbook files 9 · registry 11 CREED-T rows. Read cap: all CREED boot reads under budget (VX.tsv split 9/26).
+**⑤ COUNTS:** VX 34 · KB **46** (+043 Signature-sale structure, +044 no clearing price matching the stressed pools / observability *(narrowed 9/28)*, +045 VLY composition, **+046 3000 Post Oak CMBS REO sale, 9/28**) · PRED 11 (**6 open**; 004 HIT + 007 MISS graded 9/28 under option B, Kernel records still OPEN; graded n=4, mean Brier 0.374) · workbook files 9 · registry 11 CREED-T rows. Read cap: all CREED boot reads under budget (VX.tsv split 9/26).
 
 **⑥ SOURCE TIER:** Trepp **PRIMARY-READ Apr–Aug** (Aug full PDFs are public at trepp.com/hubfs) · FRED + FOMC primary · GPMT release primary · MBA Q2 unpublished · Z.1 Q2 primary (via research agent).
 
