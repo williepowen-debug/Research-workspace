@@ -1,6 +1,6 @@
 # CREED STATUS
 
-**Updated:** 2026-09-27 (Sun) — boot + one PROME-commissioned task (Nano Banc failure, Will-directed session `prome-09`). Detail: **`catchups/2026-09-27.md`**. Prior: 2026-09-26 Will-launched catch-up (dark 9/02 → 9/26), `catchups/2026-09-26.md`.
+**Updated:** 2026-09-27 (Sun) — boot + Nano Banc (WQ, `prome-09`) + **6 PROME CRE→bank-transmission legs** (WQ-309 Signature economics, WQ-311 VLY, WQ-312 workout-funding observability, the property-comparable transfer test, and 3 peer corrections adopted — REGINALD ×2, OZK ×1). Detail: **`catchups/2026-09-27.md`**. Prior: 2026-09-26 Will-launched catch-up (dark 9/02 → 9/26), `catchups/2026-09-26.md`.
 **Status:** 🟠 **ELEVATED** — base case *selective CRE recognition accelerating* **HOLDS.** Convergence **25/45 (55.6%) HELD pending Will's S8a score** (CREED rec → 27/45). ⚠️ **Still PRE-BANK-TRANSMISSION** (`T-03` not fired; next test FDIC Q3 QBP ~late Nov).
 **Tier:** 2 (spawned-as-needed). **Cadence declared EVENT-DRIVEN 2026-09-26** (PROME packet). Do not spawn without explicit Will permission.
 **Owner:** CREED after boot; PROME owns future topology/migration decisions only with Will approval.
@@ -10,7 +10,7 @@
 **▶ KERNEL:** `PRED-CREED-007` (15%) and `PRED-CREED-004` (60%, GPMT review 9/23) **meet their registered rules** → PROME resolves; pinned rows untouched.
 **▶ ANALYSES 9/26 (evening):** `research/2026-09-26_CRE_VULNERABILITY_MAP.md` (refinancing ≫ cash flow; AMTB label corrected) · `research/2026-09-26_REGINALD_TOP3_PROPERTY_TEST.md` (3 anchor fixes adopted by REGINALD; 3 CREED claims corrected). Detail → catch-up §⑧.
 **▶ 🆕 NANO BANC (failed 9/25) — DELIVERED 9/27, NO LETTER MOVES:** `analysis/2026-09-27_nano-banc-collateral-read.md`. Retained ≈ $215M (9/22 base), likely ≈ $190M of loans (INFERRED); named credits are litigated, several SECOND liens, Inland Empire/LA County retail + medical office + small MF. Cites REGINALD's ≈ $120M ≈ 17% (pool ceiling ≤ ~56%, unallocable). FDIC sale comp registered as **DOCKET L515** (check-by 2027-06-25); **record lien position**; most likely NOT a T-06 member. `KB-CREED-041` (CMBS severity comps) / `042`.
-**▶ NEXT SESSION:** ARI vote 9/29 (`PRED-005`) · MBA Q2 (~wk of 9/28 → `PRED-006`+`010` jointly) · September Trepp DQ ~10/01 on `PREREG_2026-10` · the S8a score if Will has not answered.
+**▶ NEXT SESSION:** ARI vote 9/29 (`PRED-005`) · MBA Q2 (~wk of 9/28 → `PRED-006`+`010` jointly) · September Trepp DQ ~10/01 on `PREREG_2026-10` · the S8a score if Will has not answered · **REGINALD VLY parts 2-4** (place the $101.5M MF 30-89 DPD → refine the WQ-311 grade) · Q3 touchpoints now in `CALENDAR.md` (L514 QBP/T-03, L515 Nano sale, L516 Nano P&A ~10/09).
 ---
 
 ## Catch-ups → `catchups/INDEX.md` (hot/cold split 2026-09-26)
@@ -102,7 +102,7 @@ Current thesis:
 
 **④ TRIGGER BOARD:** `T-01a` 12.00 AT band, 0/2 · `T-01b` 16.90, not fired · `T-02` FIRED/spent · `T-03` not fired · `T-04` qualitative · `T-06` by hand · `T-06b` FIRED, count 1 · **`T-08a` 🔴 FIRED 9/24** · `T-08b` not fired.
 
-**⑤ COUNTS:** VX 34 · KB **42** · PRED 11 (8 open, of which 004 + 007 await Kernel resolution) · workbook files 9 · registry 11 CREED-T rows. Read cap: all CREED boot reads under budget (VX.tsv split 9/26).
+**⑤ COUNTS:** VX 34 · KB **45** (+043 Signature-sale structure, +044 no-bank-clearing-price/observability, +045 VLY composition) · PRED 11 (8 open, of which 004 + 007 await Kernel resolution) · workbook files 9 · registry 11 CREED-T rows. Read cap: all CREED boot reads under budget (VX.tsv split 9/26).
 
 **⑥ SOURCE TIER:** Trepp **PRIMARY-READ Apr–Aug** (Aug full PDFs are public at trepp.com/hubfs) · FRED + FOMC primary · GPMT release primary · MBA Q2 unpublished · Z.1 Q2 primary (via research agent).
 

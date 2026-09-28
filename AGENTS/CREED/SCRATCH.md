@@ -1,6 +1,6 @@
 # CREED SCRATCH.md — Ephemeral Session State
 
-**Rewritten:** 2026-09-27 (Sun) — boot + PROME-commissioned Nano Banc read (Will-directed `prome-09`), DELIVERED and accepted; closed out on PROME's WQ-249 ask. **Record: `catchups/2026-09-27.md`** (prior: `catchups/2026-09-26.md`).
+**Rewritten:** 2026-09-27 (Sun) — FULL SESSION: boot + Nano Banc read (`prome-09`) + **6 PROME CRE→bank-transmission legs** (WQ-309 Signature economics +completion-check, WQ-311 VLY, WQ-312 workout-funding observability, the property-comparable transfer test, 3 peer corrections). **Will CLOSED the assignment 21:16 ET — no further research.** Closed out on PROME's ask. New surface: `CALENDAR.md` (Q3 touchpoints). **Record: `catchups/2026-09-27.md`** (prior: `catchups/2026-09-26.md`).
 **Purpose:** the *handoff* surface. Overwritten every session. **Durable analysis → STATUS / catchups / KB; structural → `MAINTENANCE.md`; nothing here is canonical.**
 
 > **Canonical-truth ordering, and this file is at the BOTTOM:** `STATUS.md` > `thesis/THESIS.md` > `research/REFRESH_*.md` > `workbook/` > `SCRATCH.md`. ⚠️ A crash lands here first — diff the commit log against this file before trusting it.
@@ -21,6 +21,9 @@ Sitting 2 closed and revoked 2026-09-02 (CONTINUE). **Pins are ROW-scoped:** `PR
 8. Check the **Kernel resolution** of 004/007 landed at PROME (**WQ-304 still OPEN at 9/27 close; PROME rec B = Will releases CREED to grade both on its own ledger**); then update the scoreboard (n=2 → 4) in the same session as the ledger rows.
 9. ✅ **Re-check DISCHARGED 9/27 (analysis §6: both committed files match).** Still live: **9/29 Plaza Continental hearing (8:26-bk-10986)**: FDIC-as-receiver appearing ⇒ Ontario lien RETAINED; Sunwest ⇒ sold. P&A ~10/05–10/09. *(Original item follows.)* **Nano Banc re-check (STATUS obl. 27):** if REGINALD's `reports/2026-09-27_nano-banc-failure-forensics.md` §3 or DEWEY's `output/2026-09-27_nano-banc-primary-documents.md` changed at commit (both uncommitted when read), re-check `analysis/2026-09-27_nano-banc-collateral-read.md` §1b/§2a. **When the FDIC P&A agreement posts (~1–2 wks), it supersedes §1's INFERRED composition.** FDIC sale → DOCKET **L515**: grade as an S6 comp **by lien position**; most likely NOT a T-06 member.
 
+## ✅ CLOSED 9/27 — do not re-raise
+6 PROME transmission legs delivered + committed (all research-only, no CREED band/score/trigger/prediction moved): transfer test `cd4674c5e` · WQ-309 Signature `515d18483` + completion-check `c0461e5b5` · WQ-311 VLY `7415801fb` · WQ-312 observability `38f5e3c7a` · peer corrections REGINALD `f0c937f13` + OZK `a0caad140`. KB 42→45 (043 Signature-structure, 044 no-bank-clearing-price/observability, 045 VLY). `CALENDAR.md` created (L514/L515/L516 + grading window). Will closed the assignment 21:16 ET. **Still LIVE (not part of the closed assignment):** REGINALD VLY parts 2-4 (place the $101.5M MF 30-89 DPD → refine WQ-311); the S8a score (AWAITING WILL); the 9/29–10/01 grading window.
+
 ## ✅ CLOSED 9/26 — do not re-raise
 `T-08a` FIRED (rate fire) · Aug SS graded, `T-01b` not fired · full Aug PDFs PUBLIC (9/02 "gated" was a retrieval-shape error; WALTER request withdrawn) · Office DQ history corrected (Feb 11.20) · `T-08b` graded not fired · gate census positive-controlled (obligation 1) · WQ-215 + WQ-100 encoded · HOMER named item landed (MF maturity-adj = not in source) · Athene column period resolved (PARTIAL stands) · DC CMBS disposition to WALTER · WALTER mirror clauses fixed (VX-2.01 sustain, VX-5.03 state) · cadence declared EVENT-DRIVEN · CalculatedRisk: not run, told PROME · COR-20260925-05 receipted NO-OP · STATUS hot/cold split · inbox 18/18 drained.
 
@@ -31,7 +34,7 @@ Sitting 2 closed and revoked 2026-09-02 (CONTINUE). **Pins are ROW-scoped:** `PR
 - **Base case HOLDS; 🟠 ELEVATED; 25/45 held pending Will; pre-bank-transmission.**
 - **Rates are now the live driver:** 10y 5.18% (9/24), FOMC hike 9/16. The desk's synthesis (*the asset against the coupon*) predicted exactly this channel; say so without claiming the tape confirms tenant stress.
 - **Trigger board:** `T-01a` 12.00 AT band 0/2 · `T-01b` 16.90 · `T-02` spent · `T-03` not fired · `T-06b` fired, 1 · **`T-08a` FIRED 9/24** · `T-08b` not fired.
-- **Counts:** VX 34 · KB **42** · PRED 11 (8 open) · registry 11 rows. `creed_selfcheck` CLEAN at closeout.
+- **Counts:** VX 34 · KB **45** · PRED 11 (8 open) · registry 11 rows. `creed_selfcheck` CLEAN at closeout.
 - 🆕 **2026 CMBS realized-loss severity is now held at primary** (`KB-041`, CREFC monthlies via `assets.informz.net/cmbs/data/images/CREFC%20Update%20on%20CMBS%20Loan%20Performance_<Month>%202026.pdf` — August worked, September 403 on 9/27). The first same-basis (loss vs loan balance) comps; they feed `research/` deferred item 3 (realized-loss ledger, DEFERRED by Will — do not start unasked).
 
 ## ⚫ STANDING TRAPS — re-read before writing any number
@@ -91,9 +94,10 @@ Sitting 2 closed and revoked 2026-09-02 (CONTINUE). **Pins are ROW-scoped:** `PR
 | 26 | 🆕 **Render the Trepp PDF charts** | The one unchecked shape for the August newly-delinquent $ total (`VX-3.05`). |
 
 ## 📬 MAIL STATE
-- 9/27: **3 read, logged at READ time** — PROME Nano packet (acted) · WALTER `SIG-W-20260927-004` (dup) · `-005` (correction, already applied) · `-006` (correction 2, already consistent; arrived after the first push). All filed to `processed/` at 9/27 closeout after a fresh re-list (trap #21).
+- 9/27 (morning): 3 read (PROME Nano packet; WALTER `-004/-005/-006`), filed `processed/`.
+- 9/27 (evening): **3 inbox packets read + logged + filed `processed/`** — REGINALD FLG-17.5%/EGBN-D5 (2 packets, adopted `f0c937f13`) · OZK RaDD-band (adopted `a0caad140`). Coordination via `SendMessage` (not inbox): PROME task packets WQ-309/311/312 + 2 completion-checks; REGINALD VLY breakdown; all logged to board_log at read.
 - 9/26: 18 read and filed.
-- **Out 9/27:** PROME ×1 (Nano DELIVERED, `ae1b68938`) · doorbells to REGINALD (§2a basis questions, adopted) and prome-09.
+- **Out 9/27 (evening) — SendMessage:** PROME ×6 (each leg's delivery/receipt) · REGINALD ×2 (corrections confirmed; WQ-312 handoff) · FLG ×1 (WQ-309 handoff) · OZK ×1 (band adopted). Nano: PROME ×1 earlier (`ae1b68938`).
 - **Out 9/26 — 9 packets:** PROME ×2 (cadence + WATCH_FOR; Kernel resolutions + T-08a + Will decision) · WALTER (mirror evidence, DC CMBS, public PDFs, T-08a) · DAEDALUS (WQ-100 encoded) · HOMER (MF SS back-fill) · SHADE (Athene column period, Z.1 lean) · CORAL (FL zeros cycle 3) · REGINALD (T-08a info, BCB note sale, 100 Summer) · LIQUID (lender census, gates, T-08a).
 
 ## 🔵 OWED OUT, NOT YET DONE
