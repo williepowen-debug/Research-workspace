@@ -4,7 +4,7 @@ Session: **2026-09-28 Mon, Claude Opus 5.5 as WALTER (`walter-f8`)**, booted 18:
 
 ## EVENING RE-BOOT (same session name, 17:25 ET 9/28, Will: "please boot up")
 
-Boot run 0–9b (doctor 0 HIGH / 4 MED; reads whole; 6b RED sha == canon, HANS now 17 rows, CREED rotated; 6c closes unchanged + official Treasury curve; 7g WAL packet consumed → H8/H9 rows in `design/ROUTING_CARVEOUTS.md`; 7e lane BM-20260928-10 13/13 + `--mark`; 7e(f)/7f empty; 9a rc 0; 9b live: PROME, CORAL, BOND, BRENT, CREED, WAL). **Dispatched `-017` (supersedes `-016`), `-018` (30Y official 5.56 → HENRY), `-019` (Yanbu exports reported resumed → FALCON).** 9 handoffs, all delivered (e8183ddaa, reconciled). PROME concurred on H8/H9. ⚠️ Not run: FILTER_SPEC Boot Context scoped reads; HANS T-07/T-08/T-13 re-pull; SKEW (stale 9/25); `boot_basis_check` REVIEW ×13 / `reads_check` UNKNOWN (attestation stale since 9/15). ⚠️ The earlier sitting's text below is the 9/28 afternoon record.
+Boot run 0–9b (doctor 0 HIGH / 4 MED; reads whole; 6b RED sha == canon, HANS now 17 rows, CREED rotated; 6c closes unchanged + official Treasury curve; 7g WAL packet consumed → H8/H9 rows in `design/ROUTING_CARVEOUTS.md`; 7e lane BM-20260928-10 13/13 + `--mark`; 7e(f)/7f empty; 9a rc 0; 9b live: PROME, CORAL, BOND, BRENT, CREED, WAL). **Dispatched `-017` (supersedes `-016`), `-018` (30Y official 5.56 → HENRY), `-019` (Yanbu exports reported resumed → FALCON).** 9 handoffs, all delivered (e8183ddaa, reconciled); `-020` +4 pending push. PROME concurred on H8/H9. **Gap-fill pass (Will: "pull what you can to address gaps"):** ✅ SKEW: CBOE publisher-of-record 144.91 [9/25] is the latest published; Yahoo mirror 146.25 [9/28] provisional; FT-10 `≥150` 3.75 away, count 0 · ✅ HANS: T-08 storage −15.44pp [AGSI gas day 9/28, 71.44% vs 86.88% norm] orange still OPEN (0.44pp inside −15; exit needs >−12 ×5) · T-07 TTF Oct (TTFV26, expires 9/29) 72.11 / Nov (TTFX26) 71.11 [9/28; `TTF=F` now = Nov] L2 open, L3 100 far · T-06 UK 10Y 5.40 / T-13 UK 30Y 5.90 [TE 9/28], both 10bp under orange; the watch `-0925-010` already in HANS's inbox holds, no new dispatch · ✅ FILTER_SPEC Boot Context: FORGE mirror, RED catalysts, 48h logs read; no FLASH bypass. Wed 9/30 expiries (exposure only, TERRY's cards): TLT $77P ×15 (TLT $78.62 [9/28]), QQQ $730P ×9 (QQQ $736.53), USO $159C ×2 (USO $150.01) · ✅ READS re-attestation filed → `PROME/inbox/2026-09-28_from-WALTER_READS-re-attestation.md` (manifest complete + 1 scoped row); rc stays UNKNOWN until PROME transcribes · ✅ Bloomberg original read via Rigzone → **`-020` corrects `-019`: flow ~3.5 mb/d (one source)**. ⚠️ **Push DEFERRED** (BOND uncommitted `monitors/rates_context.py` in tree): `-020`'s 4 handoffs + the PROME packet are committed locally, pending push. ⚠️ The earlier sitting's text below is the 9/28 afternoon record.
 
 ## STATUS
 
@@ -78,7 +78,7 @@ Boot run 0–9b (doctor 0 HIGH / 4 MED; reads whole; 6b RED sha == canon, HANS n
 
 **Issued at the 9/28 Tier-1 before the closeout commit.** Publication state is verified after the push by `git merge-base --is-ancestor`; this block is re-issued in the same session if a commit is not on origin.
 - **9/28 handoffs: 43 written** (4+3+4+3+1+2+4+15+7). Delivered = committed AND on origin, reconciled by `reconcile_delivery_log.py` after push. Delivered is not consumed.
-- **All 54 9/28 handoffs are on origin** (45 from the afternoon + 9 from the evening re-boot, `e8183ddaa`; `reconcile_delivery_log.py --apply` after a fresh fetch). ✅ **Evening re-boot pushed `e8183ddaa` (safe-push CONFIRMED); the afternoon's deferred commits rode it.** *(Was: PUSH DEFERRED at the Tier-2 (step 9b(d)/16: BRENT live and consuming handoffs, uncommitted). The closeout commits are local; PROME's closeout push or the next clean-tree session carries them. The next WALTER boot verifies by subject.)*
+- **54 of 58 9/28 handoffs are on origin; the 4 `-020` handoffs are committed locally, push deferred (BOND dirty tree)**. The first 54 (45 from the afternoon + 9 from the evening re-boot, `e8183ddaa`; `reconcile_delivery_log.py --apply` after a fresh fetch). ✅ **Evening re-boot pushed `e8183ddaa` (safe-push CONFIRMED); the afternoon's deferred commits rode it.** *(Was: PUSH DEFERRED at the Tier-2 (step 9b(d)/16: BRENT live and consuming handoffs, uncommitted). The closeout commits are local; PROME's closeout push or the next clean-tree session carries them. The next WALTER boot verifies by subject.)*
 - ⚠️ **This receipt does NOT claim:** that any recipient consumed `-001`…`-005` (BRENT answered `-001` by message); that R3 sets 1–7 were started; that the CORAL/OTTO recall notes are adopted.
 
 <!-- CLOSEOUT_RECEIPT_JSON
@@ -94,7 +94,7 @@ Boot run 0–9b (doctor 0 HIGH / 4 MED; reads whole; 6b RED sha == canon, HANS n
   ],
   "delivery": {
     "signal_date": "20260928",
-    "total": 54,
+    "total": 58,
     "delivered": 54
   },
   "owner_review": {
