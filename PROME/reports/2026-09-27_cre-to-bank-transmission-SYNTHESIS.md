@@ -264,3 +264,48 @@ The CPC ventures (C/D) went to a mission-driven bidder **below its cover bids** 
 ### 14.5 Recommended investigation — SUPERSEDED by CATO's narrower scope (see WQ-312)
 
 ~~An "exit-source ledger" … categories (a)–(h) … Q3-26 as the test.~~ **Withdrawn as framed:** its categories overlapped (one loan can be written down, sold, and financed by the original lender), and it assumed the causal claim withdrawn in §14.4. CATO's narrower proposal, awaiting Will's own word (WQ-312): a **one-time Q2 diagnostic** from existing filings, in an existing report, covering the material disclosed problem-loan resolutions at the five banks and stating how much of total activity the evidence covers; **four separate fields per resolution** — what happened to the loan · where the cash came from · what exposure the bank retained · what loss was already recognised — plus later repayment performance where available; no double-counting; successes and failures tested symmetrically; a Q3 update only if the Q2 pass proves useful.
+
+---
+
+## 15. WQ-312 — the one-time Q2 workout check: integrated assessment (20:3x ET)
+
+**Authorization:** Will 20:25 ET (WQ-312, his own word). **Integration:** REGINALD cross-bank report §F (c89788148), built from OZK 68fd0f4d5 · FLG 485507d09 · WAL 171338055 · REGINALD's own EGBN and VLY rows · CREED observability 38f5e3c7a. Each resolution carries four separate fields — F1 what happened · F2 where the cash came from · F3 exposure retained · F4 loss already recognised. Existing filings only; no recurring ledger.
+
+**The answer: the check shows what happened to problem loans, but for most of the money it cannot show whether the resolutions succeeded.** The clean successes are few and small; the strongest evidence in the set is a failure signal inside retained, modified loans at Flagstar; and banks recognise the same kind of loss in different quarters.
+
+### Successful resolutions
+- **Clean, primary-sourced successes: two.** OZK's Sullivan loan ($156.4M) recapitalised to a pass loan with **new sponsor equity** (equity amount undisclosed) · EGBN's held-for-sale pipeline: 10 loans sold at ~101–103% of their post-write-down value, after 13.3–16.5% write-downs — the marks were sufficient, **after** a loss.
+- **The funding source is undisclosed for most exit dollars** (FLG $190M of Q2 nonaccrual exits + ~$1.1B of par payoffs · OZK $2.92B of repayments · EGBN $161.5M sold · VLY $341M paid off · WAL's closings). **CREED: not observable in aggregate** — banks disclose the payoff, not the loan or its takeout. "Par payoffs prove the refinancing market is open" is an inference, not an observation. Per the rules, this is a limit on the conclusion, not a signal of hidden deterioration.
+- Named outside-cash exits are press-grade: one third-party refinancing (FLG, $80.5M performing loan, 6% discount) and Pinnacle (75% financed by Flagstar).
+
+### Retained risk
+- ★ **The strongest single signal in the set is a failure signal, and it is primary-sourced:** of Flagstar's multifamily loans modified in the prior 12 months ($375M at 6/30/26), **~47% were past due**, and **$286M of modified multifamily loans re-defaulted within 12 months in H1-26**; 20% of its 12-month CRE modifications are past due (FLG 10-Q modification tables, KB-FLG-069). Flagstar made $382M of new CRE/MF modifications in Q2 (rate cuts 7.68% → 5.17% on MF, +1.2 years).
+- **Untested retained risk:** VLY's $108M of 8-month payment deferrals · OZK's $141M of new foreclosed property carried at 95–100% of appraisal, unsold · WAL's $99M life-science loan at $0 loss and +7 foreclosed properties, plus **+$51M of senior liens WAL bought in Q2 — exposure added as a workout tactic, not resolved** · EGBN's $56M apartment loan extended to 8/21/26 and matured again, outcome undisclosed.
+- ⚠️ **The modification tables are not comparable across banks:** OZK reported $0 of CRE hardship modifications against 37 construction-loan extensions. A low number can mean few problems or a narrow reporting definition.
+
+### Recognised losses
+- **Where severity is measurable, problem exits cost ~13–28% of balance** (OZK foreclosures 19.6%, range 7–28%; OZK San Carlos payoff 23.3%; EGBN transfers 13.3–16.5%); the one performing exit was 6% (press-grade). These sit inside the range of the bridge's cumulative assumptions; they do not calibrate any specific pool (different banks, property types and dates).
+- **Recognition timing differs by bank, so the same economic loss lands in different quarters.** EGBN writes down at transfer and proves the mark by selling; OZK recognises little at foreclosure and carries foreclosed property near appraisal; WAL has recognised $0 on its named CRE. **Low loss rates at OZK and WAL are partly a timing choice, not yet evidence of low economic loss** — and cross-bank charge-off comparisons mislead for that reason.
+
+### Coverage — how much activity the evidence sees
+| Bank | Denominator | Funding source + retained exposure known | Loan-level |
+|---|---|---|---|
+| FLG | Q2 nonaccrual outflow $258M | 26% | $0 |
+| OZK | Q2 construction-loan repayments $2.92B | 14% at credit level ($402M) | ~33% of its 3/31 classified + criticized book |
+| EGBN | nonaccrual outflow $53.7M + $161.5M sold | 0% of cash exits | ~$122M |
+| VLY | CRE maturities $1,457M | 0% of cash exits (renewals and modifications are its own) | $41.7M |
+| WAL | none disclosed in dollars | — | 58% of H1 charge-offs were fraud/C&I, not CRE |
+
+⚠️ **The named rows over-represent failures** (failures get named, successes get aggregated). Do not read the named sample as a failure rate.
+
+### What it changes about our judgment
+1. **The case against stress is weaker at Flagstar, and the modification route is now the one to watch.** Flagstar's par payoffs remain unverified, and its modifications are measurably failing. Of the two routes a bank uses to keep a troubled loan (modify it, or let it be refinanced out), only one can be tested from filings — and it is failing at Flagstar.
+2. **VLY's $108M deferral cohort now has a relevant warning, not a verdict:** Flagstar shows modified CRE loans can re-default at scale within 12 months. Whether VLY's do is a different bank's loans — a HYPOTHESIS to test at VLY's Q3 and 10-Q, not an inference.
+3. **Low recognised losses at OZK and WAL should be read as timing until their foreclosed property sells or is re-appraised.** This sharpens §8's hinge: the appraisal question now has a concrete test in OZK's OREO sales and WAL's $99M appraisal.
+4. **Nothing here changes "concentrated at named banks, not tier-wide" at 6/30.** It changes how much weight the fleet can put on "the banks are working their problems out": that claim is observable for a small share of the activity.
+
+### What remains unknown
+Takeout funding for most exits (not observable in aggregate) · other buyer-financing beyond Pinnacle · exit prices vs par · OZK's foreclosed-property sale marks · the VLY deferral and FLG modification cohorts' Q3 performance · the route by which EGBN's $48.7M Fairfax apartment loan left the criticized list · whether modification reporting is comparable across banks.
+
+### Would a Q3 update justify its maintenance cost?
+**Not as a full re-run** — loan-level coverage is too low for a second pass to change the picture. **Yes as a targeted read of five items, folded into each desk's normal Q3 print work, no ledger:** ① FLG's modification past-due and re-default tables · ② VLY's Q2 deferral cohort and Q3 modifications · ③ OZK's foreclosed-property sales vs carrying value · ④ WAL's $99M appraisal and OREO valuation · ⑤ EGBN's held-for-sale sales vs marks and the Prince George's loan. Registered for Will's word as WQ-313.
