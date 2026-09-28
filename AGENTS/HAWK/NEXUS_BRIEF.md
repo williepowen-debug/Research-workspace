@@ -2,7 +2,7 @@
 
 **Status:** 🟠 — **2026-09-28: HAW-19 closed DEFECTIVE-INSTRUMENT (no score); HAW-22 window opens 10/01. Iran 7-day plan rejected by Trump 9/26, talks "this week" per Trump 9/27: no HAWK line moves. First dated Gulf war-risk quotes since July (Yanbu ~3% of hull). IRAQ-01 → YELLOW (WQ-319 RULED); FININFRA cloud definition encoded (WQ-320), March AWS event not graded ORANGE.** *(9/19 YURI-boundary status and the killed-phrasings note: see git history / archive.)*
 **Domain:** cross-war synthesis (OSPREY ⊕ FALCON reconciliation) + the dormant geopolitical book, now **11 rows**.
-**As of:** 2026-09-28 15:35 ET (wind-down; Will-launched boot + PROME `prome-7f` doorbell). **STATUS commit:** see `git log -1 -- AGENTS/HAWK/STATUS.md`. Detail: STATUS header + KB-HAWK-415..421.
+**As of:** 2026-09-28 15:35 ET (wind-down; Will-launched boot + PROME `prome-7f` doorbell). **STATUS commit:** `e8676bb17`. Detail: STATUS header + KB-HAWK-415..421.
 
 ---
 

@@ -78,7 +78,7 @@ Moved from `CLAUDE.md` on 2026-09-08 to keep boot instructions within the whole-
 
 ## September16 synthesis inventory
 
-Actual additions: `research/2026-09-16_cross-war-oil-review.md` is the dated commissioned synthesis; `domain/sources/2026-09-16_cross-war-route-source.md` records the bounded EIA topology check. `archive/2026-09-16_before-cross-war-review_*` preserves prior STATUS, SCRATCH and NEXUS_BRIEF verbatim. Inbox handoffs and processed mail remain under existing class rules. No new monitor or standing research mandate.
+Actual additions: `research/2026-09-16_cross-war-oil-review.md` is the dated commissioned synthesis; `domain/sources/2026-09-16_cross-war-route-source.md` records the bounded EIA topology check. `archive/2026-09-16_before-cross-war-review_*` preserves prior STATUS, SCRATCH and NEXUS_BRIEF verbatim. Inbox handoffs and processed mail remain under existing class rules. No new monitor or standing research mandate. **2026-09-28 addition:** `archive/2026-09-28_STATUS_prior-headers_0918-0922.md` holds the STATUS prior-header blocks 2026-09-18 → 2026-09-26 verbatim, moved out by two same-day read-cap rotations (budget rule 5, <70%). It is historical: never cite it as current, and the 9/19 Channel-3 limb-2 block in it is superseded.
 
 ## September18 Europe-rearmament inventory
 
