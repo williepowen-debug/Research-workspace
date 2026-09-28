@@ -8,13 +8,13 @@
 
 ---
 
-**⚠️ Open question #1 — margin of safety ~nil; every move since 8/20 is PRICE.** Spot $77.61 [Fri 9/25 close] = **+2.17%** vs v2.4 EV $75.96 (−0.47% at 9/23). 9/28 intraday $76.71 (−1.16% vs KRE −1.00%) — first tape after Nano; no WAL-specific read. EV unmoved since 8/20; no score moved. Resolution trade on the Q3 print (~10/20–10/28, unannounced) + the $99M appraisal.
+**⚠️ Open question #1 — margin of safety ~nil; every move since 8/20 is PRICE.** Spot **$76.55 [Mon 9/28 close] = +0.78%** vs v2.4 EV $75.96 (+2.17% at 9/25; −0.47% at 9/23). First post-Nano session: WAL −1.37% vs KRE −1.40% — no WAL-specific read. Since the 8/4 peak WAL −9.2% vs KRE −9.4% as the 10Y rose 61bp (KB-215); lower highs, ~$77 support broke 9/23-24 (low $74.60). EV unmoved since 8/20; no score moved. Resolution trade on the Q3 print (~10/20–10/28, unannounced) + the $99M appraisal.
 
 **⚠️ Open question #1b — Nano's four liens: branches OPEN (research Nano file §9).** A = WAL senior · B1 = FDIC-retained (disposition seller) · B2 = Sunwest (not a forced seller) · U = unresolved (**all four today**) · C = extinguished pre-failure. Ontario senior stack per debtor 9/8: Preferred ~$23.13M + Nano ~$5.13M. **Same discipline now applies to Nano's ~$27.7M Marcil loans** (holder after 9/25 unproven; Sunwest assumed ~$227M of Nano loans, Banking Dive 9/28, NEWS). Perimeter unchanged: $72.4M gross Cantor residual + $64M liens; $173.0M Stupin claim ≠ booked exposure.
 
 **⚠️ Open question #2 — CEO pre-guided Q3 credit BETTER (Barclays 9/16, B2, unverified at a primary).** NPL $567M → ~$500M, NCO < Q2, ACL "well over 100%" (nonaccrual basis). Silent on the $99M. RETIRE denominator pinned 9/24. Benchmark, not data.
 
-**⚠️ Open question #3 — PT convention strained** ([Bear-fast low, EV] anchors $52 on a 2% scenario; spot $77.61 is ABOVE the $76 top). Needs its own dated edit.
+**⚠️ Open question #3 — PT convention strained** ([Bear-fast low, EV] anchors $52 on a 2% scenario; spot $76.55 [9/28] is just ABOVE the $76 top). Needs its own dated edit.
 
 ---
 

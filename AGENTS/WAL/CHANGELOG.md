@@ -11,6 +11,12 @@ Tracks all changes to `WAL/THESIS.md`. Reverse chronological. Mirrors format of 
 
 ---
 
+## 2026-09-28 (evening) — PRICE RE-BASE ONLY (no version bump; nothing moved)
+
+THESIS.md header's spot-vs-EV pointer re-based to the **Mon 9/28 close $76.55 (+0.78% vs EV $75.96)** on Will's word ("re-base STATUS to the 9/28 close"). A valuation fact, not a thesis motion: EV, weights, PT and scores unchanged. Tape evidence → KB-WAL-215 (two-month decline −9.2% vs KRE −9.4% as the 10Y rose 61bp; first post-Nano session moved with the index).
+
+---
+
 ## 2026-09-28 (later) — V3 RE-SCORE 1/5 → 3/5 (WQ-324; no version bump; ZERO weights, probabilities, EV or PT moved — rider R3)
 
 **Authority:** Will, in-session 9/28, verbatim: *"WQ-324: re-score V3 now on the Q2 filing evidence already in your KB (the A1 rows), as a dated change that names KB-121 as the superseded basis. Use your own letter and scale; do not carry the old basis."*

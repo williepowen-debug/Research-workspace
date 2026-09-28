@@ -1,6 +1,6 @@
 # WAL — Compounder with Concentrated CRE Tail Risk
 
-**Last Updated:** **2026-08-20** | **Version:** **v2.4** | **EV $75.96 · PT $52-76** · spot vs EV → `STATUS.md` (live; at the Fri 9/25 close $77.61: **+2.17% vs EV**, after −0.47% at the 9/23 close; the 5.4% @ $80.05 was the 8/20 mark) | **Prior:** v2.3 (Jul 25) | v2.2.1 (Jun 8) | v2.2 (May 21) | v2.1 (May 11) | v2.0 (May 1) | v1.0 (Mar 25)
+**Last Updated:** **2026-08-20** | **Version:** **v2.4** | **EV $75.96 · PT $52-76** · spot vs EV → `STATUS.md` (live; at the Mon 9/28 close $76.55: **+0.78% vs EV** — +2.17% at 9/25, −0.47% at 9/23; the 5.4% @ $80.05 was the 8/20 mark) | **Prior:** v2.3 (Jul 25) | v2.2.1 (Jun 8) | v2.2 (May 21) | v2.1 (May 11) | v2.0 (May 1) | v1.0 (Mar 25)
 
 ---
 
