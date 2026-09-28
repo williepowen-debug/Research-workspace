@@ -1,16 +1,13 @@
 {
   "seen": {
+    "fred:UMCSENT:orange": "2026-09-28T18:49:34Z",
     "fred:PSAVERT:orange": "2026-07-02T23:30:01Z",
     "fred:MORTGAGE30US:red": "2026-09-24T20:44:28Z",
-    "fred:BAMLH0A0HYM2:orange": "2026-09-24T20:44:28Z",
-    "news:NEW_ALERT:data/2026-09-24/news.json": "2026-09-24T20:44:28Z",
-    "news:NEW_WATCH:data/2026-09-24/news.json": "2026-09-24T20:44:28Z",
-    "news:WATCH_HIT:892cdadb81ca": "2026-09-25T17:03:00Z",
-    "news:WATCH_HIT:0981709d5d0a": "2026-09-25T17:03:00Z",
-    "news:DEVELOPMENT:3d1f7c8ec3ec": "2026-09-25T17:03:00Z",
-    "news:WATCH_HIT:1482c60828ab": "2026-09-25T17:03:00Z",
-    "news:WATCH_HIT:88060f7d1a25": "2026-09-25T17:03:00Z",
-    "news:DEVELOPMENT:c7beac6f76e9": "2026-09-25T17:03:00Z"
+    "fred:BAMLH0A0HYM2:red": "2026-09-28T18:49:34Z",
+    "news:NEW_ALERT:data/2026-09-27/news.json": "2026-09-28T18:49:34Z",
+    "news:NEW_WATCH:data/2026-09-27/news.json": "2026-09-28T18:49:34Z",
+    "news:WATCH_HIT:858af76acce1": "2026-09-28T18:49:34Z",
+    "news:WATCH_HIT:0515662c3331": "2026-09-28T18:49:34Z"
   },
-  "updated": "2026-09-25T17:03:00Z"
+  "updated": "2026-09-28T18:49:34Z"
 }
