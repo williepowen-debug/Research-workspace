@@ -1,4 +1,4 @@
-# BOND RECEIPT — 2026-09-28 (Mon) ~11:3x ET
+# BOND RECEIPT — 2026-09-28 (Mon) ~12:2x ET (pass 1 + pass 2)
 
 | Item | Disposition |
 |---|---|
@@ -8,5 +8,6 @@
 | Catalysts | CUSIPs added to 10/6–10/8 refunding rows; 9/30 row annotated (BND-27 resolved) |
 | KB / VX | `KB-BND-340/341/342`; VX-01 (write-back), VX-02, VX-05, VX-11 (3→4) |
 | Files written | STATUS.md · SCRATCH.md · RECEIPT.md · TRADE.md · thesis/THESIS.md · thesis/CHANGELOG.md · thesis/PREDICTIONS.tsv · docket/CATALYSTS.tsv · workbook/KB.tsv · workbook/VX.tsv · domain/sources/2026-09-28_STATUS_full-snapshot_pre-9-28-rewrite.md |
-| Outbox | none |
+| Pass 2 | assessment `analysis/2026-09-28_live-event-assessment.md` · `KB-BND-343` · NEXUS_BRIEF T5YIFR fix · STATUS pointers |
+| Packets out | PROME ×2 (hashes; assessment + 10/1 test) · LIQUID ×1 (Q4 facts) — carve-out ① |
 | Git | see commit; push via safe-push.sh |
