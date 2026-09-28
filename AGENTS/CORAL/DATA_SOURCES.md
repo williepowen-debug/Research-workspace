@@ -71,6 +71,16 @@
 
 ---
 
+## FL School Enrollment (added 2026-09-28 — VX-CORAL-ENRL-01, ledger `workbook/FL_ENROLLMENT.tsv`)
+
+| Source | What | Pull method / cadence | Caveat |
+|--------|------|-----|------------------|
+| FLDOE PK-12 Membership Survey 2 | Statewide + 67-district October membership, charters included | Annual (Oct count, posted ~Nov–Dec); **fldoe.org 403s to curl/WebFetch — use the Wayback Machine copy** | The canonical same-basis series |
+| EDR Education Estimating Conference (edr.state.fl.us) | District FTE, scholarship (FES) FTE, English-learner FTE, forecast vs actual | ~2–3 conferences/yr (Jan, Aug); PDFs | FTE ≠ headcount; forecasts |
+| District memos | Broward benchmark/10th-day, Palm Beach 11th-day, Osceola weekly, St. Johns 20-day, OCPS 9/15 summary | August–September, PRIMARY PDFs | Each district's count date differs — compare only same-point YoY |
+| Step Up For Students | Scholarship counts by program (FES-EO/FTC, FES-UA, PEP) | Annual | Not all recipients are switchers (universal eligibility) |
+| FL DOH / FL CHARTS | Resident births by year (cohort sizes) | Annual | 2008 cohort graduates ~2026; 2020-21 cohorts enter K |
+
 ## Key Reports to Track
 
 ### Monthly

@@ -4,6 +4,8 @@
 
 | Date | Event | What to check | Who cares |
 |------|-------|---------------|-----------|
+| **~Nov–Dec 2026** | **FLDOE PK-12 membership Survey 2 (October 2026 count)** — first same-basis statewide 2026-27 enrollment read | Update `workbook/FL_ENROLLMENT.tsv` + VX-CORAL-ENRL-01: statewide and 67-district YoY on ONE basis; read the three discriminators (scholarship FTE, English-learner FTE, K vs birth cohort) before any migration inference. fldoe.org 403 → Wayback. | CORAL, MARCO |
+| **~Jan 2027** | EDR Education Estimating Conference (K-12 FTE + scholarship forecast) | District FTE vs forecast (2025-26 came in 55,549 below); FES FTE; any restatement of the 'atypically contracting' immigration language | CORAL, MARCO |
 | **Tue Sep 29, 2026 11:00 ET** | Brightline Ch.11 first-day hearing (In re FIHPNP LLC, 26-20876, D.N.J.) | ⚪ info: read the Flagler real-estate debtors' schedules when filed (station-area parcels). No FL-bank transmission found 9/28. | CORAL (info) |
 | **Wed Sep 30, 2026** | Citizens 09.30.26 month-end (pub ~early Oct) | Carries the **9/15 personal round (10,210)** — read EX-ROUND; commercial had a Sep round (40). | CORAL |
 | **Fri Oct 16, 2026** | FL Realtors **September** release | Four legs (level · volume · realization · velocity). Does condo sales stay negative YoY after −1.8% Aug? | CORAL, MARCO, HOMER |

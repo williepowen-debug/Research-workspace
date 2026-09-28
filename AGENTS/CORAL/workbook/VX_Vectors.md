@@ -300,6 +300,22 @@
 
 *Source: AOUSC F-2 / WALTER SIG-W-20260619-008, delivered 2026-06-19; instrument `tools/bkcy/` from 2026-09-28. Last updated: 2026-09-28 (level trigger retired, WQ-322).*
 
+### VX-CORAL-ENRL-01 — FL Public-School Enrollment (confounded demand proxy) — NEW 2026-09-28 (Will: "something I would want to continue tracking")
+
+*Monitored vector, **no trigger** — the desk does not register an enrollment threshold without a documented basis (see the 9/28 WQ-322 retirement). Ledger: **`workbook/FL_ENROLLMENT.tsv`** (one row per geography × year × measure, every row carrying count type, count date, comparison basis, charter coverage and tier). **Last real data refresh: 2026-09-28.** Full sweep: `sources/enrollment/FL_ENROLLMENT_SWEEP_2026-09-28*.md`.*
+
+| Leg | Current (dated) | Why it is watched | Status |
+|--------|---------|-----------|--------|
+| Statewide public membership (FLDOE Survey 2, Oct) | **2,792,954 (Oct-25), −66,701 / −2.33% YoY; 61 of 67 districts down** | Breadth of the decline | 🟠 |
+| 2026-27 early district counts (same-basis only) | **9 of 11 down** (Broward −12,343 · Miami-Dade ~−15,100 · Orange −7,672 · Palm Beach −7,204 · Pinellas ~−3,840 …); state forecast being undershot | Whether 2026-27 repeats 2025-26 | 🟠 |
+| **Discriminator 1 — scholarship FTE** | FES +72,305 (2025-26) vs district −67,906 | Substitution, not people leaving (⚠️ not all switchers) | watch |
+| **Discriminator 2 — English-learner FTE** | −22,084 (2025-26), ~⅓ of the district drop | International arrivals / immigration enforcement | watch |
+| **Discriminator 3 — kindergarten vs birth cohort** | K −11,337 (−5.9%); 2020/21 births 7–9% below 2008 | Cohort size, not migration | watch |
+| District-cited causes (25 largest) | vouchers 19 · birth rates 12 · immigration 8 · homeschool 7 · charters 7 · cost of living 6 · out-migration 3 | What the owners of the data say | — |
+
+⛔ **Reading rule (inference audit, standing):** a public-enrollment decline is **NOT evidence of DOMESTIC out-migration** unless it persists **after** netting scholarship growth, English-learner decline and cohort size — all three rival mechanisms move the count the same way. **Never difference across bases** (first-day vs 10/20-day vs benchmark vs FLDOE October vs projection; district and FLDOE counts disagree for the same year). **Where it DOES bite:** school-district budgets (state funding follows FTE), closures/consolidations, and the local-fiscal stack with Amendment 3. MARCO co-owns migration (`MIGRATION_PROXIES.tsv` bound leg).
+**Next reads:** FLDOE Survey 2 Oct-2026 (results ~Nov–Dec; fldoe.org 403 → Wayback route) · EDR Education Estimating Conference (next ~Jan 2027) · district benchmark/20-day memos (Broward, Palm Beach, Osceola, St. Johns publish primaries).
+
 ### VX-CORAL-INS-03 — Commercial / Condo Insurance Layer
 
 *Correction to prior blanket "insurance easing" mark: personal/reinsurance is easing, while the commercial/condo-association master-policy layer still rises and remains in the assessment/HOA cash-flow stack.*

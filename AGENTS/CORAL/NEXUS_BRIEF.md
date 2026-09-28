@@ -72,6 +72,7 @@
 | Fri 10/16 | FL Realtors September | Four legs; does condo sales stay negative YoY |
 | ~late Oct | Q3 FL-bank prints · AOUSC F-2 to 9/30 | Bank rail; bankruptcy level/growth reported (level trigger retired 9/28, WQ-322) |
 | Nov 3 / Nov 15 | Ballot No. 3 / falsify grade | 60% threshold; pre-registered decision rule |
+| ~Nov–Dec | FLDOE Survey 2 (Oct-26 enrollment) | Same-basis statewide read; VX-CORAL-ENRL-01 — confounded proxy, not domestic out-migration |
 | Dec 11 | NFIP authorization | Lapse = FEMA stops writing |
 
 ---

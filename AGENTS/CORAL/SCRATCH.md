@@ -37,7 +37,7 @@
 - **10/16 FL Realtors September** — four legs.
 - **~late Oct:** Q3 FL-bank prints (bank-rail re-test) · AOUSC 9/30 F-2 table → re-run `tools/bkcy/build_bkcy.py`.
 - **H2:** bankruptcy spec defects (basis label, "fades" number) → Will via PROME **between grades, before 11/15**. Packeted in the 9/28 closeout memo to PROME — watch for the ruling; do not pick a basis myself.
-- **FLDOE Survey 2 (Oct-26 membership)** — the first same-basis statewide 2026-27 enrollment read; fldoe.org 403s, use the Wayback route (ML-089).
+- **FL enrollment is now a STANDING SERIES (Will 9/28):** VX-CORAL-ENRL-01 + `workbook/FL_ENROLLMENT.tsv` (62 basis-tagged rows) + `sources/enrollment/`. Next: **FLDOE Survey 2 (Oct-26) ~Nov–Dec** (fldoe.org 403 → Wayback) · EEC ~Jan. Sweep routed to MARCO via WALTER (`3010fea3e`).
 - ⚠️ **STATUS is at 70% of budget (22,742 B)** — rotate the 9/28 READ-FIRST table to STATUS_DETAIL at the next append.
 - 11/4 Ballot No. 3 result (criterion 6 instrument) → 11/15 grade.
 

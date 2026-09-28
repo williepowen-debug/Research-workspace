@@ -476,7 +476,7 @@ In re **FIHPNP LLC, No. 26-20876 (MEH), Bankr. D.N.J.** (Judge Hall), filed 9/24
 ## H. Bankruptcy instrument BUILT (OQ H) — see `tools/bkcy/README.md`
 12 mo to 6/30/26, M.D.+S.D. all chapters **217.1/100k, +21.2% YoY**; nonbusiness 205.5; Ch.7 151.5; statewide nonbusiness 199.0 (the carried "~190" = statewide nonbusiness 189.6 @3/31/26, exact); S.D. alone 230.0. US 176.3 (+12.3%). FL/US 1.205× → **1.231×**. Tripwire >~230 not crossed on the M+S basis; reachable at 12/31/26 if Jul–Dec growth ≥12.6% (every quarter since early 2025 has cleared that). **Spec defects flagged for between-grade amendment:** (1) the "Ch.7" label vs the "~190" anchor are different bases; (2) "fades" carries no number. **Direction is basis-robust: acceleration has NOT faded on any basis.**
 
-## I. Statewide FL enrollment sweep (2026-09-28, Will's ask; KB ML-CORAL-089)
+## I. Statewide FL enrollment sweep (2026-09-28, Will's ask; KB ML-CORAL-089) — ⭐ now a TRACKED SERIES: VX-CORAL-ENRL-01 · ledger `workbook/FL_ENROLLMENT.tsv` · full reports `sources/enrollment/`
 | Measure | Value | Basis / tier |
 |---|---|---|
 | FLDOE Oct membership PK-12 incl. charters | 2,859,655 → **2,792,954 (−66,701, −2.33%)**, Oct-24 → Oct-25 | Survey 2, PRIMARY via Wayback (fldoe.org 403) |
