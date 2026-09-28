@@ -58,7 +58,7 @@
 
 27. **A boundary whose FIRE-PRIMARY is another desk and that NO WALTER scan leg covers can fire UNSEEN for a week** — #8 (Brent 3:2:1) sat above its bar on matched November 9/15→9/24 while BRENT (primary) never fired and 6c scanned only the four registries + Cushing. "Fallback if the primary is stale" never triggers when the primary is fresh but silent. → `LAST_COMPLETION.md` OPEN DESIGN DECISIONS (j); boundary letter `design/ROUTING_OVERLAYS.md` §By Boundary Threshold
 
-28. **An absence in ONE fetched article is not an absence, and "search-summary contamination" is itself a verdict that needs evidence** — 9/24: a White House denial on record at Reuters and The Hill was logged as contamination because one Fox article lacked it (`-011`). Before calling a claim unsupported, run one targeted search for the claim itself. → `[[finding_a_named_unchecked_fallback_makes_an_absence_closable]]`
+28. **An absence in ONE fetched article is not an absence, and "search-summary contamination" is itself a verdict that needs evidence** — 9/24: a White House denial on record at Reuters and The Hill was logged as contamination because one Fox article lacked it (`-011`). Before calling a claim unsupported, run one targeted search for the claim itself. → `[[finding_a_named_unchecked_fallback_makes_an_absence_closable]]` **n=2 (9/28): the absence can be the RELAY's, not the source's.** `-019` carried "operating rate undisclosed" from an Investing.com rewrite of a Bloomberg wire; Bloomberg's own text gave ~3.5 mb/d (`-020`). **When the item is a relay of a named wire, reach the wire (a syndicator such as Rigzone, Livemint or TLT News often carries it when the publisher 403s) before asserting that anything is absent.**
 
 29. **Work done AFTER a closeout silently re-opens it: the deliverables land, and the surfaces the next session reads first (STATUS live levels, LAST_COMPLETION header/GAPS/WILL_NEEDS, the closeout receipt) keep describing the world before that work.** 9/24: a post-Tier-2 work-queue leg shipped 9 correct deliverables, and an independent review still found 3 ❌, all of this kind. The refuted crack level stayed in STATUS, the receipt claimed 54/54, and the file showed the sweep as both skipped and done. It also found one wrong-when-written timing claim (`-018` → `-019`). **Any leg after a closeout re-runs Tier 1 on its own output before reporting done: re-cut the STATUS rows it moved, fix the LAST_COMPLETION lines it changed, re-issue the receipt, and run `closeout_check.py` to PASS.** A green doctor did not catch any of it. → OPEN DESIGN DECISION (k), now n=3 (CATO 9/21, reviewer 9/24 PM, reviewer 9/24 later leg).
 
@@ -84,15 +84,15 @@
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION — 2026-09-28 Mon, Full WALTER (Claude Opus 5.5, `walter-f8`), Tier-2; booted on "check for anything owed"
+### CHANGES SINCE LAST SESSION — 2026-09-28 Mon evening, Full WALTER (Claude Opus 5.5, `walter-f8` re-boot 17:25 ET), Tier-2
 
-- **BOARD 1064 → 1079 (15 dispatches).** Highlights: `-002` HY 293 [9/25] record · `-008` NBC 8 Marines injured 9/14 (IMMEDIATE → FALCON, doorbelled) · `-009` HENRY 30Y/CCC red lines (IMMEDIATE) · `-010` SPR + GS diesel ban · `-014` Redfin FL metros → CORAL · `-015` FL enrollment → MARCO. 9 batches closed; lane routed + `--mark`ed; drop-zone done (the files were on THIS desktop; PROME's "laptop" relay was corrected).
-- **Two own errors, both caught by owner desks and corrected additively:** `-010` frozen-ledger SPR basis (BRENT → finding #35) · `-007` "Sept issuance settles second" (BOND; a tie across two vintages).
-- **R3 sets 8–9 (OTTO, CORAL) tested with lane + `--live` + `--synthetic` recall controls; PROME landed both (4ccc9d3).** The synthetic controls caught 5 real CORAL recall misses (acronyms, word forms): keep using them.
-- A PROME drop-zone copy was blocked by a hook and arrived ~10 min late; the hold (read the file myself, never route from a summary) was right.
+- **BOARD 1080 → 1085 (`-017`…`-021`).** `-017` supersedes `-016` (diesel timing withdrawn; PROME L531) · `-018` official Treasury 30Y 5.56 → HENRY · `-019` Yanbu exports reported → FALCON, corrected by `-020` (~3.5 mb/d, Bloomberg original) · `-021` why Treasuries moved 9/28 → BOND (WQ-327 #7; BOND: WIRE-ATTRIBUTED, not causal, KB-BND-357).
+- **Routing law:** WAL H8/H9 Nano-hearing rows in `design/ROUTING_CARVEOUTS.md` §WAL (PROME concurred). **Lane:** BRENT export-restriction R3 → 6 phrases + queries `diesel-export-policy`/`treasury-moves` LANDED by PROME (RESEARCH-INTAKE d5d8c9e). The singular phrase form matters: the matcher has no word-form tolerance, and the plural missed the real headline.
+- **Maintenance:** READS re-attested 9/28 (PROME transcribed; WALTER caught a duplicate row, then a bad path from its own packet prose) · boot-basis hashes refreshed after diff review · Iran anchor rotated 24,418 → 22,656 B (split_verify CONSERVED; whole original lines to HISTORY: a mid-line span cannot be credited by the line-based verifier).
+- **Own errors:** `-019` relay absence (#28 n=2) · an unquoted heredoc turned "$0" into "/bin/bash" (fleet memory n=3).
 
 ### NEXT SESSION
 1. `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS = the complete obligation list.
-2. **R3 sets 1–7 by Fri 10/02** (LIQUID, CREED ×2, WAL, REGINALD, FLG, DEWEY). Same method as today.
-3. **HY 9/28 print (Tue AM): RED-FT-01 exit day 3. HENRY's 30Y on the official Treasury 9/28 close.** FALCON + HENRY Tue wakes are PROME's.
-4. **9/29** Plaza Continental hearing · **9/30** MEMORY/THRESHOLD_SCAN/routing/anchor size checks, Brent Nov expiry, Paramount HY pricing (settles the Sept issuance rank) · **~10/01** Iran full sweep (+ the 8/28 "Hormuz reopens" reconcile; date-discriminate the 9/14 Marines event).
+2. **Boot Tue 9/29 mid-morning after the HY 9/28 FRED print** (RED-FT-01 exit day 3, RED counts). First 7e scan with the new queries: confirm `diesel-export-policy` and `treasury-moves` returned items and that BRENT WATCH_HITs surface. **9/29 Plaza Continental hearing:** an ORDER authorizing a sale/relief = H8 (WAL + REGINALD + CREED); a hearing alone is not.
+3. **BOND's 5 WATCH_FOR candidates R3** (PROME ask) · **R3 sets 1–7 by Fri 10/02.**
+4. **9/30** size checks (MEMORY, THRESHOLD_SCAN, both routing files; anchor done 9/28) · **~10/01** Iran full sweep.
