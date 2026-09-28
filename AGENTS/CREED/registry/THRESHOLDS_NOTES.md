@@ -1,0 +1,137 @@
+# CREED THRESHOLDS — COLD NOTES (verbatim history of `registry/THRESHOLDS.tsv`)
+
+**Created:** 2026-09-28 by CREED — read-cap hot/cold split (PROME packet `6ab20bd24`; THRESHOLDS.tsv was 27,247 B = 84% of the 32,550 B read budget).
+**Source:** `registry/THRESHOLDS.tsv` at commit `72303435c`, sha256 `95e1269e42726280faa2f7e286c9dd74e80877abf9a836e7aef576b113d8927f`. Everything below is copied **byte-for-byte** from that file: the header block (lines 10–67) and every row's `band_status` cell. Recover the whole file with `git show 72303435c:AGENTS/CREED/registry/THRESHOLDS.tsv`.
+**Authority:** on-demand history, not a boot read. **The hot file `registry/THRESHOLDS.tsv` is canonical for current state**; `CREED_T_FIRED_LOG.tsv` is canonical for fire state. Bands never lived here and never will. Where an entry below says AWAITING / PROPOSED / 'next spawn's first duty', read the hot row for its current state before acting on it.
+**New history goes here**, appended under the trigger's section (newest at the top of the section), with a dated lead-in.
+
+---
+
+## Header block (pre-rotation lines 10–67, verbatim)
+
+```text
+# !! KNOWN CROSS-AGENT COLLISION (found 2026-07-27; CREED's position ANSWERED to REGINALD 2026-08-20, commit 597ef3c03):
+#    REGINALD/registry/THRESHOLDS.tsv REG-T-07 = OFFICE-CMBS-DQ > 15, sustain 3, chain "REGINALD action / BROCK SHADE info".
+#    Same series as CREED-T-01a but a DIFFERENT level (15 vs 12) and DIFFERENT sustain (3 vs 2) -- and CREED, who owns the
+#    series, is NOT in its recipient chain.
+#    *** CREED'S RULING (2026-08-20): KEEP BOTH BARS. *** The divergent levels are legitimate design answering different
+#    questions (>12/sustain-2 = "office CMBS stress confirmed"; >15/sustain-3 = a deeper bank-relevant bar), and both are
+#    Will-frozen. The unreviewed part was never the levels -- it is the NOTIFICATION GAP. Two asks routed to REGINALD:
+#    (1) add CREED to REG-T-07's recipient_chain as "info"; (2) note in that row that two registered bars exist on this
+#    series. AWAITING REGINALD (dark since 8/13). Not a CREED-side action item; do not re-raise as unreconciled.
+#    !! Also flagged in the same packet: the circulating 16.58% is OFFICE SPECIAL SERVICING and CANNOT grade REG-T-07,
+#    which is a DELINQUENCY bar. Different series. Current standing: office DQ 11.91% [Trepp Jul, PRIMARY-READ] = 9bp
+#    below CREED-T-01a and 309bp below REG-T-07. NEITHER HAS FIRED.
+#
+# !! FIRE STATE lives in registry/CREED_T_FIRED_LOG.tsv, and is MIRRORED into the band_status column of any fired row so
+#    that a reader of THIS FILE ALONE can see it. Column count is deliberately UNCHANGED (10) -- WALTER scans this file
+#    and counts rows matching ^CREED-T; adding a column would break that scanner.
+#
+# !! OPEN BAND-AUTHORITY OBLIGATIONS -- THIS IS THE DURABLE HOME. SCRATCH.md is overwritten every closeout; PROME/DOCKET.tsv
+#    is another desk's surface. An obligation tracked ONLY there is one CREED can boot clean and never see -- which is
+#    exactly what happened (see (B)). Clear an entry only when it is genuinely closed, and say where the ruling lives.
+#
+#    (A) AWAITING WILL -- CREED-T-03 / VX-CREED-4.01 BASELINE BASIS DEFECT (KB-CREED-024, raised 2026-08-27).
+#        The >3.40 band and the 'FDIC Q1 2026 QBP' source pointer DISAGREE; that cell reads 2.73%. The LEVEL leg is
+#        UNGRADEABLE on the registered basis until ruled. Fixes: (a) name the true source and re-point -- TRY FIRST,
+#        likely one line from REGINALD, who owns this shared vector -- or (b) re-base as a dated declared re-anchor.
+#        *** NEVER move the band to fit 2.48. *** No deadline pressure: next QBP ~late Nov.
+#
+#    (B) *** RULED 2026-09-10 20:16 ET (WQ-215; Will, Decision Deck tap APPROVE on PROME's rec) -- CREED-T-08a is graded
+#        on TOTAL-RETURN (dividends reinvested), PROSPECTIVE from 2026-09-10 20:16 ET; NO historical re-grade of any prior
+#        reading, of PRED-CREED-007, or of VX-CREED-7.01. Like-for-like re-anchor rider ADOPTED: a basis change is a dated,
+#        declared re-anchor of the reference -- NEVER a band move; header (A) untouched. Packet:
+#        inbox/processed/2026-09-10_from-PROME_WQ-215-RULED-CREED-T-08a-graded-on-TOTAL-RETURN-prospective-re-anchor-rider-as-written.md
+#        Encoded 2026-09-26 by CREED (dark 9/02->9/26). CREED does NOT supersede: TR is the basis CREED grades on, and it is
+#        the basis PRED-CREED-007's Kernel-registered resolution_rule already names (EVT-...0115). [WAS: PROPOSED, NOT RULED;
+#        the band '< -10' did not say TR or price-only; they differed 0.65pp = ~6.5% of the band.]
+#
+#    (D) *** RULED 2026-08-27 -- BAND BASE-RATING IS RE-KEYED FROM A DATE TO n=12 OBSERVATIONS. *** Will: "Approve all three asks - go ahead".
+#        Record: PROME/proposals/2026-08-27_creed-band-asks-RULED.md. THE CALENDAR-KEYED MONTH-N REVISIT IS RETIRED -- a date-keyed obligation on a sample-size-limited
+#        question is a scheduled null result (1 of 7 numeric bands had ever been base-rated, and only T-08a, because its
+#        instrument is DAILY; the CMBS series run n=4..6 monthly and began 2026-07-27).
+#        TRIGGER: a band's series reaching n=12 monthly observations. COUNTER: scripts/threshold_scan.py. ARTIFACT OWED:
+#        a per-band base-rating memo in this registry -- NOT a spawn occasion. Est. VX-1.01 ~2027-01; VX-2.01/3.04 ~2027-04.
+#        Coordination copy: PROME/DOCKET.tsv row 33 -> RESOLVED(RULED) + successor row (last, est-2027-01-31).
+#        *** DELIBERATELY REGISTERED HERE TOO: the month-1 revisit was missed BECAUSE it lived only on another desk's docket. ***
+#
+#    (C) *** EXECUTED 2026-08-27 -- registry/BAND_REVISIT_2026-08-27.md. *** 3 ASKS NOW WITH WILL (T-01b sustain 1->2;
+#        whether a matured-balloon DOLLAR vector carries a band -- CREED proposes NO LEVEL at n=4; re-key band
+#        base-rating from a DATE to n=12 observations). 4 owner-lane items DONE (T-04/T-06/T-06b pointers wired,
+#        threshold_scan hardened). NO level, op, value or sustain changed by CREED. Entry stays open until Will rules.
+#        *** ALL THREE ASKS RULED APPROVED 2026-08-27, Will verbatim "Approve all three asks - go ahead" (PROME/proposals/2026-08-27_creed-band-asks-RULED.md).
+#        EXECUTED: T-01b sustain 1->2 (below); VX-CREED-3.05 dollar vector REGISTERED with NO BAND (deferred, n=4 refusal ruled); base-rating re-keyed -> (D) above.
+#        VERDICT: no band found mis-levelled. Every defect was a defect of CONNECTION -- and the wiring fix itself
+#        manufactured a false TRIPPED on its first run (see the [QUALITATIVE-VALUE] notes on T-06/T-06b).
+#        [historical] APPROVED AND OVERDUE -- VX BAND MONTH-1 REVISIT. Will-approved 2026-07-21 at band-freeze, DUE 2026-08-21.
+#        NOT a decision Will owes; work CREED owes, with Will holding band authority over the output.
+#        DOCKET row 33 / AGENTS/DAEDALUS/upgrades/CREED_REVIEW_2026-08-20.md. Execution was 'folded into CREED's next
+#        spawn'; that spawn (2026-08-27 QBP) neither did it nor carried it forward, because no CREED surface held it.
+#        *** 'Folded into the next spawn' is not tracking unless the spawn's OWN surface carries the item. ***
+```
+
+## CREED-T-01a
+
+```text
+*** STATE 2026-09-26: unchanged since the 9/02 grade (Aug 12.00, NOT FIRED, 0 of 2 legs). History check: Jan-26 12.34 now PRIMARY-READ (Trepp lookback) -- a fire would be a RETURN; Feb-26 was 11.20 not 11.40 (KB-CREED-035). Next deciding print ~2026-10-01. || FROZEN 2026-07-21
+```
+
+## CREED-T-01b
+
+```text
+*** GRADED 2026-09-26 on the AUGUST print (Trepp SS PDF pub 2026-09-14, PRIMARY-READ): office SS 16.90% (+32bp) vs >18, sustain 2 -- NOT FIRED, 0 of 2 legs, 110bp away; moved TOWARD the band this month (Jul moved away). Band/op/value/sustain UNTOUCHED. Next print ~mid-Oct. || FROZEN 2026-07-21 || *** POINTER CORRECTED 2026-08-20 PM (Will-ruled pointer pass, DAEDALUS packet fe1530a8d; NON-BAND FIELD ONLY -- band/op/value/sustain UNTOUCHED). *** source_of_truth cited VX-CREED-1.02, which is OVERALL CMBS DELINQUENCY -- a DQ vector on an SS bar. Now VX-CREED-2.01 (Office Special Servicing), the vector that actually carries this metric. *** NOTE THE IRONY, RECORDED SO IT IS NOT REPEATED: this is the SAME error class CREED flagged to REGINALD on 8/20 -- 'the 16.58% is special servicing and cannot grade REG-T-07, a DQ bar.' CREED was right about REGINALD's series and carried the mirror-image defect in its own registry. *** || *** SUSTAIN 1 -> 2 CONSECUTIVE MONTHLY PRINTS, WILL-APPROVED 2026-08-27. *** Operator word verbatim: "Approve all three asks - go ahead". Ruling record (canonical): PROME/proposals/2026-08-27_creed-band-asks-RULED.md. Routed via PROME packet AGENTS/CREED/inbox/2026-08-27_from-PROME_RULED-all-three-band-asks-APPROVED-*. Proposal + evidence: registry/BAND_REVISIT_2026-08-27.md S5. *** THE LEVEL >18 DID NOT MOVE AND WAS NOT IN QUESTION. metric/op/threshold_value verified UNTOUCHED; sustain_window is the SOLE changed field on the SOLE changed row. *** WHY: office SS is the NOISIER of the two S1 series by CREED's own ledger (mean |MoM| 44bp vs 37bp for office DQ; VX-2.01 2026-05 documents a 91bp single-loan reversal and calls it "why SS is the noisier series") yet carried the WEAKER sustain. The risk graded was not a 142bp leap but a DRIFT-THEN-BLIP: the series has printed 17.11 twice, 17.9 is an ordinary two-month drift, and from there a single +30bp transfer fired a one-print bar that the documented -91bp reversal would unwind next month. ***
+```
+
+## CREED-T-02
+
+```text
+FROZEN 2026-07-21 *** FIRED 2026-08-20 @ 66%, EFFECTIVE 2026-06 @ 65% (Apr 42 / May 70 / Jun 65 <-sustain met / Jul 66; PRIMARY-READ) -- band UNCHANGED and still frozen; routed REGINALD+LIQUID. Fire record: registry/CREED_T_FIRED_LOG.tsv *** || *** METRIC VECTOR WIRED IN 2026-08-20 PM (Will-ruled pointer pass; NON-BAND FIELD ONLY). *** VX-CREED-3.04 was created THIS MORNING as the K5 root-cause fix -- 'the only banded trigger with no VX vector carrying its metric' -- and was never wired back into the row that produced K5. *** THE FIX HAD NOT ACTUALLY CLOSED THE LOOP: a reader coming from this row still could not find the metric surface. K5 is closed only now. ***
+```
+
+## CREED-T-03
+
+```text
+FROZEN 2026-07-21 *** GRADED 2026-08-27 vs FDIC Q2-2026 QBP (published 2026-08-25): NOT FIRED. Band, op, value and sustain UNCHANGED and still frozen -- this is a GRADE ANNOTATION, not a band edit. *** ALL THREE CONJUNCTIVE LEGS FAIL. (c) RESERVE COVERAGE: 166.8% [Q1] -> 172.7% [Q2], IMPROVED +5.9pp -- *** THIS LEG DECIDES THE GRADE AND IS BASIS-INDEPENDENT *** (one industry-wide figure, stated in the QBP narrative both quarters, no perimeter ambiguity); the spec is an AND, so this alone blocks the fire. (b) DIRECTION: NOT re-rising -- falling on every measurable basis (>$250B nonfarm-nonres PDNA 2.73 -> 2.48, -25bp; all-institutions 1.66 -> 1.52, the largest quarterly PDNA decline of any portfolio per the QBP). (a) LEVEL: 2.48% on the QBP combined cell vs a >3.40 band -- *** BUT SEE THE DEFECT BELOW; THE LEVEL LEG WAS NOT GRADEABLE ON THE REGISTERED BASIS. *** || *** 🔴 BASIS DEFECT ON THIS ROW'S OWN BASELINE -- PROPOSED TO WILL, NOT SELF-FIXED (KB-CREED-024). *** The 3.40 threshold_value and VX-CREED-4.01's "3.40% [FDIC Q1 2026 QBP]" CANNOT BE REPRODUCED FROM THAT DOCUMENT: its >$250B nonfarm-nonresidential PDNA cell reads 2.73%. Four QBP editions PRIMARY-READ: Q3-25 3.20 / Q4-25 3.23 / Q1-26 2.73 / Q2-26 2.48. Stale-vintage hypothesis TESTED AND REFUTED (no quarter prints 3.40). Different-series hypothesis SUPPORTED: the QBP publishes nonfarm-nonresidential COMBINED and publishes no non-owner-occupied-only PDNA anywhere, and non-owner-occupied is the worse-credit subset. *** CONSEQUENCE: THIS TRIGGER'S BAND AND ITS SOURCE POINTER DISAGREE. IT GRADED CORRECTLY THIS QUARTER ONLY BECAUSE THE OTHER TWO LEGS WERE DECISIVE -- i.e. BY LUCK. *** Fix is Will's: name the true source and re-point, OR re-base the band. DO NOT reconcile by moving the band to fit 2.48. Routed REGINALD (shared vector). || SCOPE LIMIT APPLIED AS PRE-REGISTERED 2026-08-20 (ahead of the print, not back-fitted): unsecured CRE booked as C&I is INVISIBLE to this trigger and the bias is ONE-SIDED TOWARD NO-FIRE. *** A CLEAN PRINT IS NOT "NO CRE STRESS AT BANKS." *** || S3 HELD AT 2 on the evidence. STILL PRE-BANK-TRANSMISSION. Composition tells moved toward RECOGNITION though the level improved -- KB-CREED-023. || *** RE-BASED 2026-08-27, WILL-RULED IN-SESSION (his own word, on CREED's road (ii)). BAND, OP AND VALUE UNTOUCHED -- 3.40 IS NOT MOVED, IT IS SUSPENDED. *** DECLARED CANONICAL BASIS: the FDIC QBP >$250B NONFARM-NONRESIDENTIAL COMBINED cell (Table V-A), which is a STANDING TABLE CELL published EVERY quarter. History restated on that basis, four editions PRIMARY-READ: Q3-25 3.20 / Q4-25 3.23 / Q1-26 2.73 / Q2-26 2.48. *** THE LEVEL LEG (a) IS SUSPENDED, NOT DELETED, AND NO REPLACEMENT LEVEL IS SET. *** CREED cannot derive one from n=4 without encoding the most recent print -- standing trap #4, and the identical refusal Will ruled correct for VX-CREED-3.05 the same day. UNTIL A LEVEL IS SET, T-03 GRADES ON ITS OTHER TWO LEGS ONLY: (b) direction re-rising vs the prior quarter on the declared combined basis, AND (c) reserve-coverage deterioration. The spec stays CONJUNCTIVE across (b) and (c). ⚠️ THIS IS A WEAKER TRIGGER AND THAT IS STATED, NOT HIDDEN: a two-leg T-03 can no longer require an absolute stress LEVEL, so it can fire on direction+coverage at a low absolute level. It is kept live because the 2026-08-27 grade was DECIDED by leg (c) alone, so the two-leg form is what actually did the work this quarter. WHY THE ORIGINAL POINTER COULD NOT SIMPLY BE RE-POINTED: REGINALD confirmed the non-owner-occupied series EXISTS (FDIC QBP Q4-2025 Chart 11 names 4.99 verbatim), but CREED PRIMARY-READ the Q1-2026 QBP and the figure is ABSENT IN ANY SHAPE -- 4.06 and 4.99 appear zero times, the only non-owner mention is numberless, and that edition has only EIGHT charts with no Chart 11. The series is published EPISODICALLY in whichever edition features the chart, not as a standing cell, so a trigger keyed to it CANNOT BE RELIABLY GRADED QUARTERLY. Re-pointing there would have produced a pointer to a source not containing the value -- the original defect, recreated. KB-CREED-024, KB-CREED-026. LEVEL REVISIT: propose a level on the declared combined basis at n=12 observations, per header entry (D). ***
+```
+
+## CREED-T-04
+
+```text
+QUALITATIVE -- no numeric band. Candidate for a Will-gated band proposal. || *** VECTOR WIRED IN 2026-08-27 (month-1 band revisit; NON-BAND FIELD ONLY -- metric/op/value/sustain verified UNTOUCHED). *** This row cited NO vector for 31 days while VX-CREED-8.01 "CRE Modification Exhaustion" carried its metric verbatim (bands: 2nd-mod rise / re-default rise / mod volume falls). Pointer-defect shape 3: ABSENT pointer, EXISTING referent. Registry BAND_REVISIT_2026-08-27.md S3.
+```
+
+## CREED-T-05
+
+```text
+NOT A CREED BAND. See the 2026-07-27 sourcing caveat in CLAUDE.md.
+```
+
+## CREED-T-06
+
+```text
+FROZEN 2026-07-21 || *** VECTOR WIRED IN 2026-08-27 (month-1 band revisit; NON-BAND FIELD ONLY -- metric/op/value/sustain verified UNTOUCHED). *** VX-CREED-5.01's value cell reads "CLUSTER of realized comps >30% below basis" -- this row's metric verbatim -- and was uncited for 31 days. threshold_scan.py called this UNTRIPPABLE BY CONSTRUCTION; it was UNWIRED, not uninstrumented. *** 🔴 QUALIFYING-SET CONFLICT, RECORDED NOT RESOLVED: this row excludes "Galveston-class vacant/obsolete" BY NAME; VX-5.01's comp set INCLUDES Galveston ($8.79/SF) BY NAME. The vector is BROADER than the trigger. DO NOT grade this bar off VX-5.01's comp list without first filtering to PERFORMING collateral -- wiring these two carelessly manufactures a fire. The disagreement was invisible while the pointer was missing. *** Registry BAND_REVISIT_2026-08-27.md S3b. *** [QUALITATIVE-VALUE] ADDED 2026-08-27, SAME HOUR AS THE WIRING: VX-5.01's value cell is PROSE that quotes this very threshold ("CLUSTER of realized comps >30% below basis"). Wiring it made threshold_scan compare the band to a copy of itself (T-06: "30 > 30, 0 away") and read a DISCOUNT PERCENT as a COUNT OF FUND GATES (T-06b: "30 >= 1, TRIPPED"). A FALSE FIRE, created by the fix, caught by running it. The pointer is kept for EVIDENCE NAVIGATION; this marker stops any machine grading. GRADE BY HAND. ***
+```
+
+## CREED-T-06b
+
+```text
+*** STATE 2026-09-26: FIRED (8/27) and still count 1 after a POSITIVE-CONTROLLED census (VX-5.03): method proven to find SREIT (the control exposed a 'suspend'-keyword blind spot), no new US gate in perimeter; Trez Capital (CA, 5 funds, 8/17) and CFIT held as OPEN adjudications under the 9/26 definition, NOT counted. || FROZEN 2026-07-21 || *** VECTOR WIRED IN 2026-08-27 (month-1 band revisit; NON-BAND FIELD ONLY -- metric/op/value/sustain verified UNTOUCHED). *** VX-CREED-5.01's RED band reads "fund gates" -- this row's trigger condition verbatim. Uncited for 31 days. NOTE: "major fund" is UNDEFINED in this row; VX-5.01 does not define it either. Flagged, NOT self-resolved (a definition that positions a >=1 bar is band-adjacent). Registry BAND_REVISIT_2026-08-27.md S3. *** [QUALITATIVE-VALUE] ADDED 2026-08-27, SAME HOUR AS THE WIRING: VX-5.01's value cell is PROSE that quotes this very threshold ("CLUSTER of realized comps >30% below basis"). Wiring it made threshold_scan compare the band to a copy of itself (T-06: "30 > 30, 0 away") and read a DISCOUNT PERCENT as a COUNT OF FUND GATES (T-06b: "30 >= 1, TRIPPED"). A FALSE FIRE, created by the fix, caught by running it. The pointer is kept for EVIDENCE NAVIGATION; this marker stops any machine grading. GRADE BY HAND. *** || *** METRIC SURFACE BUILT AND WIRED 2026-08-27, WILL-APPROVED ("1+2+3+5 approved"); NON-BAND FIELD ONLY -- metric/op/value/sustain verified UNTOUCHED. *** VX-CREED-5.03 emits a COUNT, so this row is NOW GENUINELY MACHINE-GRADEABLE and the [QUALITATIVE-VALUE] opt-out is REMOVED -- it moved from state 3 (wired but not measured) to properly instrumented. "Major" is now DEFINED at 5.03 (NCREIF ODCE membership OR >=$1B NAV open-end/perpetual-life vehicle) -- the definitional gap this row flagged on 8/27 is closed, and the definition is flagged band-adjacent and reversible on Will's word. ⚠️ THE VECTOR IS BORN STALE (0 on a 7/27 vintage, not re-verified): a CLEAR here is only as good as 5.03's Last_Updated, and verifying it is the next spawn's first duty on this row. *** || *** FIRED 2026-08-27 @ 1 gate (SREIT), EFFECTIVE 2026-04-29, detection lag ~4 months -- band UNCHANGED and still frozen. *** Adjudicated on VX-5.01's 7/27 "fund gates" language (pre-dates CREED's same-session definition; no size test). Fire record: registry/CREED_T_FIRED_LOG.tsv. 🔴 S6 SCORE HELD AT 3 BY RULING -- the fire does not escalate the signal, because a gate is the REFUSAL to recognize and S6 measures RECOGNITION. Routed LIQUID (action), BROCK (info). *** || *** 'MAJOR FUND' DEFINITION ENCODED 2026-09-26 (WQ-100, Will 9/1 'approve all of those with your recs'; encode-on-clean-read condition MET by DAEDALUS's 9/3 review, which returned NOT CLEAN x4 defects + a rewrite -- CREED adopts THEIR text verbatim; D2 floor RULED by CREED 9/26 as DAEDALUS drafted it). NON-BAND FIELD ONLY -- metric/op/value/sustain UNTOUCHED. *** FORWARD-ONLY from 2026-09-01; does not re-open, re-grade or re-count any prior adjudication (SREIT count 1 stands and satisfies this definition under the size leg). MAJOR FUND = a pooled real-estate vehicle offering periodic redemption or repurchase at NAV (open-end fund, interval fund, or perpetual-life NAV REIT) whose reported Gross Asset Value (GAV) is >= $1.0B in its most recent public filing or fund report (where no GAV is published, total assets per the latest balance sheet; NAV is NEVER the basis). NFI-ODCE constituency is sufficient EVIDENCE of the size leg (not a selector). The $1.0B bar is PROVISIONAL AND UNSIZED -- census owed (a one-time ~10-row table of open-end CRE vehicles that have ever gated, GAV at gate date). GATE = a manager-imposed restriction on redemption or repurchase, disclosed in a public filing or fund report, that is a SUSPENSION, a QUEUE, or a CAP BELOW the vehicle's stated periodic limit. PRORATION AT OR ABOVE THE STATED LIMIT IS THE PLAN OPERATING AS DESIGNED AND IS NOT A GATE (D2, CREED's domain ruling: e.g. a 2%/mo-5%/qtr plan prorating in an oversubscribed quarter is not a gate). COUNTING: one vehicle contributes at most 1 while any restriction is in force; a restriction lifted and re-imposed counts anew only if the vehicle traded unrestricted for one full DISCLOSED redemption period in between; if the period is undisclosed, the re-imposition does NOT count (fail closed). CONSUMERS: no registered CREED threshold reads a count above 1; this note governs the ledger count only until one does. Source: inbox/processed/2026-09-03_from-DAEDALUS_WQ-100-major-fund-definition-NOT-CLEAN-4-defects-1-perimeter-excludes-the-fired-instance-rewritten-text-attached.md. SUPERSEDES the 8/27 '>=$1B NAV' clause earlier in this cell and in VX-CREED-5.03 (D3: NAV basis retired). ***
+```
+
+## CREED-T-07
+
+```text
+QUALITATIVE two-leg. Note the AND: a selloff ALONE does not fire it.
+```
+
+## CREED-T-08a
+
+```text
+*** 🔴 FIRED 2026-09-26, EFFECTIVE 2026-09-24 -- band/op/value/sustain UNTOUCHED. *** BASIS RULED 2026-09-10 (WQ-215): TOTAL-RETURN, prospective; re-anchor rider adopted (header B). TR 9/24 -10.12pp, 9/25 -13.06pp (price-only -13.59; XLRE -13.43, IYR -13.04 -- sector-wide). Confirming leg met on BOTH THESIS branches: rates/refi (DGS10 +80bp over the window to 5.18, FOMC hike 9/16) and property (Trepp Aug SS 11.42 highest since Feb 2013; mat-adj DQ 9.81). ⚠️ Depth partly MECHANICAL (window-start roll-off); may print back above -10 by ~9/30 -- NO SUSTAIN on this row, so that is not an un-fire. ⚠️ S8a SCORE AWAITING WILL (CREED rec 2->4). Fire record: registry/CREED_T_FIRED_LOG.tsv. || FROZEN 2026-07-21 -- BAND UNTOUCHED. [7/27 STATE, SUPERSEDED:] 'CURRENTLY +2.04pp = 12pp AWAY AND RECEDING -- the counter-signal CREED honors.' *** DATE-STAMPED IN PLACE 2026-08-20 per Will ruling (verbatim 'Approve HEARTBEAT correction and all three CREED recs', ~11:5x ET; PROME packet 49c123881). DO NOT CONSUME THE 7/27 DIRECTION AS CURRENT. *** LIVE 2026-08-20 (close basis, scripts/s8a_relative.py): +0.07pp total-return / -0.58pp price-only -- NOT FIRED. *** BOTH the 7/27 'RECEDING' AND the 8/20-morning 'DECAYING/direction reversed' framings are WITHDRAWN AS TREND CLAIMS: *** this series' 10-session stdev is 2.01pp and its full-sample stdev 4.70pp, so the -1.55pp like-for-like 7/27->8/20 move is inside one stdev and conceals a round trip (8/10 low -4.30pp, then 8 consecutive sessions UP). Sign is unstable to basis (0.65pp spread) AND to window start (-0.78 to +2.80pp across +/-9 sessions). *** '12pp AWAY' ALSO MISLEADS: *** the band was BREACHED 2026-06-01/02/03 (low -11.84pp), 7 weeks BEFORE this row was frozen -- no fire missed, none claimed -- and base rate below -10pp is 1.2% of 252 sessions. Current reading is ~2.1 sigma from the band. READ S8a AS A NEAR-ZERO LEVEL IN A NOISY SERIES, NOT AS A COMFORTABLE MARGIN. S8a HELD at 2. *** POINTER DEFECT FIXED 2026-08-20 PM -- WAS: VX-CREED-8.01, which EXISTS and is 'CRE Modification Exhaustion' (S4), the WRONG VECTOR. NOW: VX-CREED-7.01, which carries the S8a metric. CREED self-caught this, PROPOSED rather than self-authorised it (non-band field of a Will-frozen row), and Will RULED the pointer pass APPROVED same day (DAEDALUS packet fe1530a8d). Band/op/value/sustain UNTOUCHED. ***
+```
+
+## CREED-T-08b
+
+```text
+*** GRADED 2026-09-26 on a fresh 11-name census (7/27->9/26): NOT FIRED. Leg 1 (multi-name cuts): 4 of 11 incl. GPMT $0.05->$0.01 (declared 9/15, SECONDARY) + GPMT formal review 9/23 (PRIMARY-READ). Leg 2 (realized book erosion ACROSS the cohort): NOT MET -- Q2 BVPS erosion is concentrated in 4 names (GPMT -19.1, KREF -13.7, RC -8.1, BXMT -4.4%) with the other 7 at -3.4% to +0.4%. Selective, not a cascade. Band UNTOUCHED. This supersedes the '8 of 11 INTACT / partial 8/27 audit' state WALTER flagged 9/15. || FROZEN 2026-07-27 (new root) -- BAND UNTOUCHED. [7/27 STATE:] '3 of 11 have cut/wound down; 8 of 11 dividends INTACT = NOT a cascade.' *** DATE-STAMPED IN PLACE 2026-08-20 per the same Will ruling. THIS IS A 7/27 COHORT STATE AND HAS NOT BEEN RE-VERIFIED SINCE. *** The 8/20 sessions did NOT re-pull the 11-name cohort (COVERAGE lane 10 records the cohort tape at its 2026-07-27 vintage -- re-dated 2026-08-27 from a rotting '~3.5 weeks stale' phrasing; state the VINTAGE, never an age). *** NO NEW STATE IS ASSERTED HERE -- the correction is that the reader must not treat '8 of 11 INTACT' as a CURRENT count. *** It was true on 2026-07-27 and is UNGRADED as of 2026-08-20. NOT FIRED on the last verified read. Refresh the cohort (earnings/8-K driven; PRED-CREED-004 grades off it) before citing this row as current.
+```

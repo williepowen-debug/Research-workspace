@@ -11,9 +11,13 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 
 ---
 
+## 2026-09-28 — `registry/THRESHOLDS.tsv` hot/cold split (read-cap rotation)
 
-
-
+- **Why:** 27,247 B = 84% of the 32,550 B read budget (WALTER's closeout flag → PROME packet `6ab20bd24`). It IS a read-whole surface: CREED `CLAUDE.md` boot step 6.1 names it, and `PROME/registry/READS.tsv` declares WALTER reads it whole (boot 6b). `read_cap_check` missed it because step 6.1 lists several paths on one line (a perimeter gap; PROME DOCKET L530 → DAEDALUS). Will approved doing it in-session.
+- **What moved:** the pre-rotation header block (lines 10–67) and every row's `band_status` cell, **verbatim**, to `registry/THRESHOLDS_NOTES.md` (source sha256 `95e1269e…927f` @ `72303435c`, recorded in that file's header). Hot cells now carry current state + ruled amendments + a `§<trigger>` pointer. **Result: 13,725 B = 42%.**
+- **What did NOT move:** columns 1–9 of all 11 rows are byte-identical (diffed); 10 columns kept (WALTER's scanner); fire markers kept on `T-02`/`T-06b`/`T-08a`. `threshold_scan` gives the same verdicts before and after; `creed_selfcheck` CLEAN.
+- **Stale-unit repairs made during the rewrite (trap #8):** header **(A)** still read AWAITING WILL although the `T-03` row had recorded the 8/27 Will re-base → moved to CLOSED; `T-08a` still read "S8a SCORE AWAITING WILL" → now "SCORED 4, Will-ruled 9/28 (WQ-303)"; the REG-T-07 collision entry still read "AWAITING REGINALD" and "office DQ 11.91% [Jul]" → CLOSED (REGINALD `fc59d7973` added CREED to the chain and documents both bars).
+- **Rule going forward:** write new trigger history into `THRESHOLDS_NOTES.md` under the trigger's section; keep hot cells to current state.
 
 ## 2026-09-26 — STATUS hot/cold split (obligation 21), a new pre-registration, and the pin hazard resolved
 
