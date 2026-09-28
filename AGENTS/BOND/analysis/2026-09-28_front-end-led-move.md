@@ -5,6 +5,8 @@
 ## Bottom line
 The repricing **grew with the horizon**. The Oct/Nov meeting odds barely moved; the 2027 path moved most. So today was about **how high the Fed ends up** (the terminal rate), not whether it hikes on 10/28. It was also **real-rate-led**: 5Y real +9bp, 5Y breakeven −1bp. So the market is pricing tighter policy, not higher inflation. **The cause is a GAP**: no US data were released today, no Fed speaker was found, and the reachable news names only global bond pressure and hike expectations (CNBC/Babypips full text 403).
 
+> ⚠️ **DATED EDIT 18:18 ET 9/28 — driver GAP → WIRE-ATTRIBUTED, not causal** (WALTER `SIG-W-20260928-021`, answering WQ-327 item 7): Reuters TREASURIES wire (body read by WALTER via syndication) — October 25bp-hike odds **68% from 64%** (CME FedWatch), oil/Middle East; Bloomberg/Energy Connects headlines tie the sell-off to oil after Trump spurned Iran's offer (**the rejection was Sat 9/26**, not a new Monday event); WSJ/FT: a global US+EU sell-off. **Two limits:** FedWatch and BOND's read both price off CBOT ZQ, so their agreement validates the fetch, not an independent cause; and **the oil channel does not show in breakevens** (10Y BE flat, 5Y −1bp on 9/28) — so oil worked through the hike path, or is not the driver; the tape cannot say which. Reuters' intraday levels are a different basis from the par cells here. Carried to the WQ-317 page (10/2) as SHARED-branch evidence.
+
 ## 1 · The gradient (9/25 → 9/28, bp)
 | Horizon | Instrument | Implied / yield 9/28 | Δ |
 |---|---|---:|---:|

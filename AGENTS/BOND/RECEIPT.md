@@ -18,3 +18,4 @@
 | WQ-317 | APPROVED (Will 17:16 ET, verified) — packet left in inbox for the 10/1 session |
 | Will "source check swap spreads + CFTC" | ✅ `analysis/2026-09-28_source-check_swap-spreads-CFTC.md`, `KB-BND-355`: swap spreads buildable (DTCC); CFTC = LIQUID tool already (gap review corrected) |
 | WQ-327 v2 corrections (PROME DIRECTED 18:09) | ✅ BR1–BR4 + #5 fixed · CATO suite 4/12 → 12/12 · selftest 53/53 · Dec 9 + Jan 27 FOMC docketed · FOMC_CALENDAR.tsv recorded · HENRY packet + PROME receipt (see commits) · DIRECTED packet → `inbox/processed/` |
+| WALTER -021 (item 7 answer) | ✅ KB-BND-357; KB-BND-353 GAP → WIRE-ATTRIBUTED; for the WQ-317 page; → `inbox/WALTER/processed/` · bd_age now stdlib (PROME residue) |

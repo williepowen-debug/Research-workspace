@@ -104,9 +104,13 @@ CAL_RECHECK_DAYS = 90            # re-record the issuer calendar at least this o
 # ---------------------------------------------------------------------------
 
 def bd_age(d_from: dt.date, d_to: dt.date) -> int:
-    """Business days from d_from to d_to (Mon-Fri; holidays not modelled — tolerances carry margin)."""
-    import numpy as np
-    return int(np.busday_count(d_from, d_to)) if d_to >= d_from else -int(np.busday_count(d_to, d_from))
+    """Business days in [d_from, d_to) (Mon-Fri; holidays not modelled — tolerances carry margin).
+    STDLIB on purpose (2026-09-28, PROME): numpy.busday_count made the standalone --selftest crash under
+    the system python3, which has no numpy. Verified equal to np.busday_count on 40,000 date pairs."""
+    if d_to < d_from:
+        return -bd_age(d_to, d_from)
+    full, rem = divmod((d_to - d_from).days, 7)
+    return full * 5 + sum(1 for i in range(rem) if (d_from.weekday() + i) % 7 < 5)
 
 
 def _d(x) -> dt.date:
