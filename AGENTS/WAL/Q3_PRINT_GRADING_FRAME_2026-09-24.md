@@ -128,10 +128,10 @@ Adds one letter to §5's table. It does not change A, A′, B, C or PENDING-10-Q
 
 | Q3 disclosure (release, deck or call) | Letter | Read |
 |---|---|---|
-| The appraisal is **disclosed BELOW carrying value** — an as-is or appraised value stated below the loan's recorded balance, or management saying the appraisal came in below / short of the balance — **with $0 charged off and NO specific reserve disclosed** (reserve stated as zero, or not mentioned) | **B′** | **Bear-lean, recognition DEFERRED.** Bear-medium KILL leg (b) is **NOT satisfied** (the appraisal is not benign). WAL-02's ledger is unaffected (no NCO). The reserve question is carried to the 10-Q frame §4. *"Carrying" = $99M unless the filing states a different recorded balance.* |
+| The appraisal is **disclosed BELOW carrying value** — an as-is or appraised value stated below the loan's recorded balance, or management saying the appraisal came in below / short of the balance — **with $0 charged off and NO specific reserve disclosed** (reserve stated as zero, or not mentioned) | **B′** | **Bear-lean, recognition DEFERRED.** Bear-medium KILL leg (b) is **NOT satisfied** (the appraisal is not benign). WAL-02's ledger is unaffected (no NCO). The reserve question is carried to the 10-Q frame §4. *"Carrying" = $99M unless the filing states a different recorded balance.* *[⤵ read cell superseded by §10.4(b): an UNDISCLOSED reserve is not a zero reserve]* |
 | **⛔ NO-VERDICT band:** (a) an appraisal is said to be **received** but **no value or direction relative to carrying** is disclosed; (b) the release, deck and call **conflict** on the appraisal's direction | **NO-VERDICT** | No letter is assigned; KILL leg (b) stays **open**; carried to the 10-Q frame §4. Never graded benign (same rule as PENDING-10-Q). |
 
-**Precedence (fixed now):** any charge-off or specific reserve ⇒ A or A′, never B′. B′ is only the zero-loss, zero-reserve case. The print letter is final for the print; whatever the 10-Q adds is graded in the 10-Q frame, never back-edited here.
+**Precedence (fixed now):** any charge-off or specific reserve ⇒ A or A′, never B′. B′ is only the zero-loss, zero-reserve case. The print letter is final for the print; whatever the 10-Q adds is graded in the 10-Q frame, never back-edited here. *[⤵ superseded in part by §10.4(b)]*
 
 ### 10.2 — §8 addition: the non-credit falsifier, with thresholds
 
@@ -144,16 +144,16 @@ Adds one letter to §5's table. It does not change A, A′, B, C or PENDING-10-Q
 | **N1 NIM** | Q3 NIM **≤ 3.47%** (≥ 6bp below Q2's 3.53%; the guide was "stable" / "down maybe about a basis point") | EX-99.1 |
 | **N2 Deposit cost** | Q3 total cost of deposits **≥ 1.88%** (≥ 10bp above Q2's 1.78% average, which was trending down) | EX-99.1 / deck |
 | **N3 TBV/share** (the AOCI + capital-return hit) | Q3 TBV/share **< $63.24** (a QoQ decline) | EX-99.1 |
-| **N4 Guidance** | Any 2026 guide line (NII, NIM, fees, deposits, loans, expenses) **lowered** against the Q2 revision (KB-117), or the NII guide withdrawn | Release / deck / call |
+| **N4 Guidance** | Any 2026 guide line (NII, NIM, fees, deposits, loans, expenses) **lowered** against the Q2 revision (KB-117), or the NII guide withdrawn | Release / deck / call *[⤵ superseded by §10.4(a): direction-specific]* |
 | **C Credit** (any one) | §4 **GUIDE BROKEN** · §6 row 1 **MISSED** · §5 letter **A, A′ or B′** · §3 count **≥ 1** | the existing legs' own grades |
 
 | Verdict | Condition |
 |---|---|
-| **NON-CREDIT CONFIRMED** ("credit-only sufficiency" FAILS) | SELL-OFF **and** ≥ 1 of N1–N4 BREACH **and** no C breach |
+| **NON-CREDIT CONFIRMED** ("credit-only sufficiency" FAILS) | SELL-OFF **and** ≥ 1 of N1–N4 BREACH **and** no C breach *[⤵ label superseded by §10.4(a): "CONSISTENT WITH A NON-CREDIT EXPLANATION"]* |
 | **CREDIT-CONSISTENT** | SELL-OFF **and** ≥ 1 C breach **and** no N breach |
 | **⛔ NO-VERDICT** | SELL-OFF with **both** an N breach and a C breach · SELL-OFF with **neither** (unexplained — logged) · **any** of N1–N4 or the C legs **not printed** by the end of Stage 2 (name which) |
 
-**Consequence:** recorded only. A NON-CREDIT CONFIRMED is an input to the next re-weight proposal (a separate dated edit); it moves nothing here.
+**Consequence:** recorded only. A NON-CREDIT CONFIRMED is an input to the next re-weight proposal (a separate dated edit); it moves nothing here. *[⤵ label per §10.4(a)]*
 
 ### 10.3 — §6 addition: a figure not printed on management's basis
 
@@ -165,3 +165,29 @@ Adds one letter to §5's table. It does not change A, A′, B, C or PENDING-10-Q
 | **⛔ NO-VERDICT band, all rows:** the figure can be rebuilt on management's basis **only by inference** from this desk's lines (e.g. $562M nonaccrual + an assumed adjustment) | **UNRESOLVED** — never inferred | Record this desk's basis alongside (non-gating), as §6 already says. |
 
 **Non-gating record added:** row 3 ("≥ 4 cumulative") was already met by the 9/16 claim, so at Q3 it cannot discriminate. **Log the outcome of credits 5 and 6** — resolved at par · resolved with a charge-down · still open · not mentioned (uninformative).
+
+### 10.4 — Amendments registered 2026-09-28 ~16:3x ET (Will-directed corrections to §10.1 and §10.2 before first use; everything else in §10 stands)
+
+**Authority:** Will, 9/28, verbatim: *"Lower expenses are incorrectly treated as bad guidance. The new rule flags any lowered guidance—including expenses—as adverse. Lower planned expenses can be favorable. WAL needs direction-specific conditions. It should also label the result 'consistent with a non-credit explanation,' unless evidence establishes causation."* · *"An undisclosed reserve is treated as zero. The new B′ grade accepts 'reserve not mentioned,' then calls the loan unreserved and recognition deferred. Those facts are unknown. Keep the below-book appraisal as adverse evidence, but distinguish explicit zero reserve from reserve undisclosed/pending the 10-Q."* The §10.1–§10.3 text is kept verbatim; the marked clauses are superseded by this section.
+
+**(a) §10.2 — N4 is direction-specific, and the verdict label claims co-occurrence, not cause.**
+
+| N4 guide line (vs the Q2 revision, KB-117) | ADVERSE (BREACH) if | Not a breach |
+|---|---|---|
+| NII growth | **lowered**, or the NII guide **withdrawn** | held or raised |
+| NIM | guided **lower** than "stable" / "down about a basis point" | held or raised |
+| Non-interest income (fees) | **lowered** below +13-17% | held or raised |
+| Deposit growth | **lowered** below +$6B | held or raised |
+| Non-interest **expense** | **RAISED** | held or **lowered** (lower planned expense can be favourable — never a breach) |
+| Loan growth | — | **any change is LOGGED only**: WAL cut it in Q2 to fund buybacks, so its direction does not map to adverse |
+
+**Verdict label:** SELL-OFF + ≥ 1 N breach + no C breach ⇒ **"CONSISTENT WITH A NON-CREDIT EXPLANATION"**. The frame names **no instrument that can establish that the non-credit leg CAUSED the move** (co-occurrence on one session is not causation), so no stronger label is available at the print; "credit-only sufficiency" is recorded as **NOT ESTABLISHED to have failed**, only as challenged. The CREDIT-CONSISTENT label and the NO-VERDICT band stand as registered. Consequence unchanged: a record only, an input to the next re-weight proposal, and nothing moves here.
+
+**(b) §10.1 — B′ splits by what is actually disclosed about the reserve.** Both variants require the appraisal to be disclosed below carrying with **$0 charged off**, and both keep the below-book appraisal as **adverse evidence**: KILL leg (b) is **not satisfied**, and each counts as a **C (credit) breach** in §10.2.
+
+| Reserve disclosure | Letter | Read |
+|---|---|---|
+| A specific reserve **explicitly stated as zero** | **B′₀** | Below-book appraisal, **explicitly unreserved: recognition deferred** (the §10.1 read, now limited to this case) |
+| Reserve **not mentioned / not disclosed** in release, deck or call | **B′ᵤ** | Below-book appraisal, **reserve UNDISCLOSED — status unknown, PENDING the 10-Q** (10-Q frame §4). ⛔ **Never read as "unreserved" or "recognition deferred"**: those facts are unknown at the print |
+
+**Precedence, restated:** any charge-off, or a **disclosed** specific reserve > $0 ⇒ A or A′ (unchanged); disclosed zero ⇒ B′₀; undisclosed ⇒ B′ᵤ. The §10.1 NO-VERDICT band (no value or direction relative to carrying; conflicting statements) stands.
