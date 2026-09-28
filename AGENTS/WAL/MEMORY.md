@@ -33,6 +33,7 @@
 
 **NEXT SESSION — ranked 2026-09-28 (session #10):**
 
+**★N-WQ328. Hotel exposure read (Will-approved 9/28 17:43 ET; packet in `inbox/2026-09-28_from-PROME_WQ-328-hotel-exposure-read.md`; DOCKET L534, by 10/09).** One page → a dated 10-Q frame §8 note, no cell changed; CREED context by packet only (GAP if none arrives); the DEWEY building search stays deferred. ⚠️ **The packet calls $2.97B a "2027 HOTEL wall" — WRONG: KB-163's $2,972M is TOTAL CRE-NOO 2027 maturities** (WAL's own ambiguous gap-list wording started it; correction sent to PROME 9/28 ~17:5x). Held: hotel $4,958M = 48.1% of CRE-NOO, LTV 54.0% (Q2 10-Q, `Q2_10Q_READ` :127) vs office $2,139M / 20.8%. **No hotel-specific maturity figure is held — find it in the filings or mark GAP.**
 **★N-1. Consume the 9/29 Plaza Continental hearing per research §10 (H1-H11) — mechanical. Docket may lag: re-check through Fri 10/2, then NO-VERDICT.** Only Ontario moves. KB-205 Stale_By is 9/30 for exactly this.
 **★N-2. ⏱ From Fri 10/2: WAL IR feed + EDGAR for the Q3 date every business day;** on announcement pin print frame §9 and re-pin WAL-01/02 `Resolve_By` (check it still clears the 11/9 10-Q deadline).
 **★N-3. Nano P&A posting ~10/5–10/9** → narrows B1/B2 by category only (research §9a).
