@@ -1,0 +1,10 @@
+{
+  "TRADE.md": {
+    "bytes": 26511,
+    "sha256": "29b0b63f18404c9d74233c0a26e547e762f29369d3d52b9df5571ca0ae108371",
+    "crc32": "7cb1efe4",
+    "rule": "whole file, UTF-8 bytes",
+    "source_commit_path": "AGENTS/BRENT/TRADE.md at HEAD before the 2026-09-28 cleanup",
+    "authority": "Will 2026-09-28 ~18:10 EDT in BRENT session, scope item 5 (verbatim in PROME/inbox/2026-09-28_from-BRENT_WILL-SCOPE-record-assignments-TERRY-VLO-proposal-WALTER-watch-terms.md)"
+  }
+}

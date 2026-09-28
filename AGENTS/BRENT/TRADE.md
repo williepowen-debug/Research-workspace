@@ -1,90 +1,62 @@
 # BRENT TRADE.md — domain trade surface
 
-**Updated: 2026-09-17 (recovery closeout; no new broker data) — Last real data refresh: 2026-09-16 (PROME's 13:57 ET transcription of Will's broker captures).** Screenshot records **USO37 shares and USO Sep16 165C ×1**; capture timestamps not displayed, subsequent sale/order status UNKNOWN. Exact public option rechecked at 18:28:55 UTC; indicative quote is not broker status. [Evidence](research/2026-09-16_cross-war-oil/MARKET.md). No management recommendation or order. Prior closed legs remain closed. WQ-192/BG-02 unchanged.
+**Updated: 2026-09-28 ~18:3x ET (Will-approved cleanup, scope item 5; before-image preserved). Last real data refresh: 2026-09-28**, from the canonical mirror, not a broker view: `FORGE/STATUS.md` (ANVIL's 9/27 reconcile to the **Fri 9/25 CLOSE** plus ANVIL's **9/28 fills pass** from PROME's transcription of Will's pasted receipt, `PROME/reports/2026-09-28_will-fills-receipt.md`). **Broker truth stays off-repo. FORGE marks are 9/25-close vintage; never cite them as live (root rule #4).** No order, no recommendation, no rule change is made here.
 
-**WQ-213:** refiner-margin evidence improves, but existing condition2 requires Will's reaffirmation; TERRY owns fresh card/day-colour checks. Indicative refiner-green/USO-red tape does not supply the entry condition. No approval withdrawn, renewed or executed.
+> ⚖️ **WITH WILL NOW:**
+> - **USO Sep-30 $159C ×2 expires Wed 9/30.** Sell or hold is **WQ-316, Will's hand**. TERRY's card recommends SELL ([`QQQ730P-USO159C_sep30-disposition_2026-09-28.md`](../TERRY/setups/QQQ730P-USO159C_sep30-disposition_2026-09-28.md), `f2964be4e`, a recommendation, not a rule; the card's hard stop is **Wed 9/30 15:00 ET**). BRENT did not carry this leg until this cleanup.
+> - **Held VLO share:** Will (9/28 ~18:10) asked PROME to commission ONE bounded TERRY management proposal (price-based rule vs policy/event response). **Preparation only; Will approves any rule separately.** No management rule is live today.
 
 ## CURRENT STANCE (v5.9 refinement; prior calibration retained)
 
-Thesis and calibration: `thesis/THESIS.md`. **WQ-189/192 STAND DOWN; no live deploy gate or discretionary arm.** Existing confirmed-destroyed-capacity frame-breaker handling remains binding; a quote or source failure does not meet it. No new proposal or capital action. Market evidence: `setups/2026-09-08_market-docket-owner-read.md`.
+Thesis and calibration: `thesis/THESIS.md`. **WQ-189/192 STAND DOWN; no live deploy gate or discretionary arm.** Confirmed-destroyed-capacity frame-breaker handling (BG-02) stays binding; a quote or source failure does not meet it. Market evidence: `setups/2026-09-08_market-docket-owner-read.md`. Current policy risk to the refiner leg (US diesel export restriction, live talk, no order): [`research/2026-09-28_us-diesel-export-ban-risk.md`](research/2026-09-28_us-diesel-export-ban-risk.md). §3 there is sensitivities only; grade nothing from it.
 
-### 🔓 FRAME-BREAKER STATE — 2026-09-11 (letter: [BG-02](setups/SPECS_GATES.md#bg-02--frame-breaker-prospective-capacity-floor-and-constraints))
-> **2026-09-18 pointer (no rule change):** successor-resolver PROPOSAL filed to Will via PROME — `setups/2026-09-18_saudi-restart-resolver-PROPOSAL.md` (two-of-three evidence classes; tracker class confirm-only; recommends the 9/25 window LAPSE per the letter). Dual-tracker rules 1–6 and `R-CURVE-VETO` below are UNCHANGED and remain the binding form through 9/25 17:00 ET. Tanker `Trend` struck/detained in Hormuz 9/18: cargo state UNKNOWN ⇒ carve-out NOT MET on available facts, not graded.
+### FRAME-BREAKER STATE (letter: [BG-02](setups/SPECS_GATES.md#bg-02--frame-breaker-prospective-capacity-floor-and-constraints))
 
-**⛔ NOT MET.** Reported Petroline strike 2026-09-10 ~17:56 UTC: six FIRMS hotspots, FRP >70 MW, ~8 h [VERIFIED as thermal data]. **Historical September 11 assessment; the statement-absence assertion was RETRACTED September 12. Current grounds are in BG-02 RE-GRADE 2026-09-12 below; the September 11 paragraph is not a current evidence assessment.** FIRMS shows fire, not barrels. Adjudication: [2026-09-11 note](setups/2026-09-11_petroline-frame-breaker-adjudication.md).
+- **Instance (4), the Petroline strike 9/10: LAPSED 2026-09-25 17:0x ET ⇒ NOT MET** (premium, not destroyed capacity). Closed; **not re-opened on a later relay of the same satellite data.** A lapse is not evidence the outage was small. Grade: [PREP + grade](setups/2026-09-25_BG-02-grade-PREP.md).
+  - The 9/28 Yanbu restart report (Bloomberg, anonymous) binds nothing.
+  - Historical grades: [9/11](setups/2026-09-11_petroline-frame-breaker-adjudication.md) (its "verified absence" of a state statement was RETRACTED 9/12) · [9/12 four quantities + resolver defect](setups/2026-09-12_petroline-four-quantities-and-resolver-defect.md).
+- **WQ-234 RULED C** (Will, 9/22 19:20, verbatim *"C"*), encoded 9/23 as **BG-02 C1–C6**: AIS-derived instruments **corroborate, never fire**; a fire needs **R1** (Aramco/MoE/SPA statement) or **R4** (a clean FAL-01 with an output figure).
+- **Owner reading standard, retained (strictly restrictive; it can only refuse):** for any tracker read offered as corroboration:
+  1. Kpler AND Vortexa must both show the fall.
+  2. The conservative figure governs.
+  3. A sign disagreement ⇒ NO-VERDICT.
+  4. No AIS-dark-share disclosure ⇒ NO-VERDICT.
+  5. R1 and R4 are unaffected.
+  6. `R-CURVE-VETO`: a throughput print alone does not fire if Brent M1−M3 has not widened versus the pre-event settle basis (never falsified; kept because it can only refuse).
+  - Reasons (the vendor baseline spread of 0.8 mb/d exceeds the 0.7 floor; AIS-dark error is correlated with the trigger) are in the [before-image](archive/2026-09-28_cleanup/TRADE.md) § FRAME-BREAKER.
+- **Successor Saudi-restart resolver:** PROPOSAL `setups/2026-09-18_saudi-restart-resolver-PROPOSAL.md`. It registers only **after the WQ-264 shadow run ends 10/24**. Nothing is armed.
+- **Staged leg-(b) structure (USO Nov-20 165/180, 9/10 pricing) and its `$4.95` breach-branch refusal: VOID as priced.** The Nov-20 eligibility window closed 9/21, and every figure was keyed to USO 158.38. Any future leg (b) is re-cut from scratch under BG-03/BG-04. **Two principles carry forward:**
+  - a refusal debit is pre-registered BEFORE the fire;
+  - the fire-time debit comes from the **broker chain, never `chain_fetch.py`** (it read ~10% optimistic on the transacting side, n=1).
+  - Verbatim text: before-image.
+- **Three gates, all required at any fire:** (i) BG-02 head clause met on the letter · (ii) **WQ-192 lifted in Will's own words** (a relayed recommendation is not an approval) · (iii) **Will's [Approve] at the fill.**
 
-> ⚑ **2026-09-23 — WQ-234 RULED C (Will 2026-09-22 19:20 ET, verbatim *"C"*), ENCODED ON THE LETTER: [BG-02 § AIS-derived instruments corroborate, never fire](setups/SPECS_GATES.md#bg-02--frame-breaker-prospective-capacity-floor-and-constraints) (C1–C6).** **R2/R3 below are now CORROBORATING-ONLY — they can never meet the head clause alone; a fire needs R1 or R4.** Dual-tracker rules 1–4 below now govern whether a tracker read carries ANY corroborating weight (fail ⇒ zero weight, `NO-CORROBORATION`); rule 6 `R-CURVE-VETO` applies to any R1+tracker pair whose throughput quantity comes from the tracker. The table and rules below are kept as written (dated record) — where they say R2/R3 can meet the floor, the letter now overrides them. Prospective; no level, floor, MA or window moved; $0.
+## POSITIONS (refreshed 2026-09-28 from FORGE; broker truth off-repo)
 
-**📌 PRE-REGISTERED RESOLVER — an owner READING STANDARD, not an amendment. No registered level moved; BG-02's text is unchanged and remains Will's.** *(2026-09-23: R2/R3 firing role superseded by BG-02 C1–C6 — banner above.)*
-
-| | |
-|---|---|
-| **What meets it** | **R1** Aramco/MoE/SPA naming export or production capacity offline, or Petroline throughput reduced · **R2** Yanbu crude+condensate loadings vs the **~3.7 mb/d** early-September baseline (**Kpler/Vortexa**, FALCON leg-3) · **R3** Saudi seaborne crude exports (Yanbu = 92%, FALCON) · **R4** FALCON grades a clean FAL-01 with an output-loss figure |
-| **FLOOR** | **≥0.7 mb/d of THROUGHPUT**, 7-day moving average (≈ −19% off 3.7). The desk's only dated Petroline precedent (April 2026, Saudi MoE) applied to the variable the head clause measures — **stricter in effect than April**, which cost 0.7 mb/d of *capacity* and ≈0 barrels of *export* against a 7.0 mb/d line carrying ~3.7. |
-| **WINDOW** | opens 2026-09-11 00:0x ET · **closes Fri 2026-09-25 17:00 ET** ⇒ lapse = NOT MET, **premium not destroyed capacity**; closed, not re-opened on a later relay of the same satellite data |
-| **NO-VERDICT branch** | a confirmed fall **>0 and <0.7 mb/d** returns to Will **as a NO-VERDICT with the figure** — never a fire, never a silent dismissal |
-| ⛔ **NOT resolvers** | FIRMS/FRP · **the 9/16 WPSR (a US instrument, not a Saudi one)** · price (`$100` fired 7/23; `$120` needs a new class) · a claim of responsibility · any capacity figure with no stated export effect |
-| **Three gates, all required at a fire** | **(i)** BG-02 head clause met on the letter · **(ii)** **WQ-192 STAND DOWN lifted in Will's own words** (a relayed rec is not an approval) · **(iii)** **Will's [Approve] at the fill** (BG-02, unchanged by every re-spec) |
-
-**⛔ R2/R3 DUAL-TRACKER RULE — PRE-REGISTERED 2026-09-12. STRICTLY RESTRICTIVE: it pre-commits a REFUSAL, moves no gate, arms nothing, proposes nothing, and can only ever refuse a fire the un-tightened form would have allowed. BG-02's text is Will's and is UNCHANGED; this tightens only my own owner reading standard.**
-
-**THE DEFECT.** R2's floor is a **≥0.7 mb/d** fall in Yanbu loadings. **The two trackers disagree on the BASELINE by more than the entire floor:** **Vortexa 3.7 vs Kpler 2.9 mb/d** (September MTD) = **0.8 mb/d**; w/c 2026-07-20 they disagreed by **0.8–1.4 mb/d in OPPOSITE DIRECTIONS** (Vortexa "broadly stable" 3.8, Kpler "fell" to 2.4–3.0). **My `~3.7` baseline is the VORTEXA number** ⇒ **the resolver can be satisfied or refuted by CHOICE OF VENDOR ALONE.**
-
-🔑 **AND THE BIAS IS DIRECTIONAL AND CORRELATED WITH THE TRIGGER — worse than noise.** AIS-based trackers under-count: **Vortexa recorded ~⅓ of one week's Yanbu volumes loaded with transponders switched OFF** (4 VLCC + 1 Suezmax + 1 Aframax), and AXSMarine concedes it "may not capture all loadings by vessels operating with their transponders switched off." ⇒ **a tracker prints a FALL whenever AIS-dark share RISES, with ZERO change in actual barrels — and dark share rises exactly when the theater worsens, i.e. on the event class BG-02 is written to gate.** `[[finding_crosscheck_with_free_parameter_validates_nothing]]`
-
-⚠️ **Second resolver in 48h to fail this test** — Boundary #8 was retracted 9/11 for $0.01 of margin inside a ~$0.80 vendor spread. **That one was symmetric noise; this one is directional and cuts toward FIRING.** ⚠️ **And the spread was measured by this desk on 2026-08-17** (Kpler 1.78 / Vortexa 2.38 / AXSMarine 0.85, logged "disagreeing in SIGN") **before the floor was written smaller than it.** `[[finding_an_amendment_read_for_one_item_leaves_the_others_derived_from_the_original_live]]`
-
-**THE RULE, binding on every future R2/R3 read:**
-1. **BOTH Kpler AND Vortexa must show a fall of ≥0.7 mb/d on the 7-day MA.** One tracker alone NEVER satisfies R2 or R3.
-2. **Where they disagree, the CONSERVATIVE (smaller-fall) figure governs.**
-3. **If they disagree in SIGN, R2/R3 return NO-VERDICT** — never a fire.
-4. **An AIS-dark-share disclosure covering the measured week must accompany any qualifying print.** Absent it the print is **NO-VERDICT**, because the measurement's dominant error term is undisclosed.
-5. **R1 (operator/state statement) and R4 (clean FAL-01) are UNAFFECTED** — statement-based, no AIS basis. **2 of 4 resolvers are exposed; 2 are clean.**
-6. 🆕 **`R-CURVE-VETO` — ADDED 2026-09-14, VETO-ONLY. If Brent M1−M3 has NOT widened versus the pre-shut settle basis (`+$9.27`, the 2026-09-10 settle), a qualifying THROUGHPUT print ALONE does not fire BG-02.** **Rationale:** a genuine ≥0.7 mb/d loss of near-term export barrels that the curve cannot see is plausible **for a day**; one it cannot see **for a week while backwardation EASES** is far more likely an AIS artifact — **which is the precise failure mode rules 1–4 exist to catch. The curve is the CONTROL for the tracker, and it is VENDOR-FREE (a cleared price: no AIS, no tracker, no vendor choice).** ⛔ **IT CAN ONLY EVER REFUSE. A price leg that could SATISFY BG-02 is REFUSED outright — price is not throughput, BG-02's letter reads throughput, and a satisfying price leg would LAUNDER the throughput gap** (PROME raised exactly this risk on 9/13; this is the answer to it). ⚠️ **Honest limit: `R-CURVE-VETO` has NEVER been falsified** `[[finding_test_the_guard_not_just_the_guarded]]` — **it is adopted BECAUSE it can only refuse.** Its own failure mode is a real barrels loss the curve misses (front-end squeezes can lag physical) — **which is why it is a VETO on a throughput print and NOT a standalone leg, and why R1 outranks it.**
-
-**⛔⛔ PRE-REGISTERED 2026-09-14, BEFORE THE WINDOW OPENS — IS THE 9/17→9/25 MEASUREMENT READABLE AT ALL? ANSWER: NO, NOT ON THE THROUGHPUT LEG ALONE.** *(PROME ASK ①, due before 9/17. Written now, deliberately, because a pre-registered "this window is ungradeable and here is why" is worth more than a verdict later produced from an instrument I have already impeached.)*
-
-**THE REASON, in one line: the floor (`≥0.7 mb/d`) is SMALLER than the instrument's inter-vendor spread (`0.8 mb/d`), AND the error is DIRECTIONAL AND CORRELATED WITH THE TRIGGER — so during a genuine multi-week outage the instrument's error and the event it is meant to detect are CONFOUNDED BY CONSTRUCTION.** A real extended outage raises AIS-dark share; raised dark share prints as a fall in loadings **with zero change in actual barrels.** ⚠️ **This is no longer hypothetical — a 3–5 week repair estimate puts the ENTIRE 9/17→9/25 window INSIDE the outage.**
-
-**⇒ ALL FOUR REQUIRED, and each can only ever REFUSE a fire:** ① both trackers clear the floor, conservative figure governs, sign disagreement ⇒ NO-VERDICT (rules 1–3) · ② AIS-dark-share disclosure or NO-VERDICT (rule 4) · ③ **`R-CURVE-VETO` (rule 6)** · ④ **R1 (operator statement) is PREFERRED — cheapest, cleanest, statement-based, wholly unaffected by this defect. Watch Aramco/SPA/MoE FIRST.**
-
-⚠️ **AND THE LAPSE CASE IS NOW THE MODAL ONE, not the fallback.** Both export-side instruments are the impeached ones; the window sits inside the outage; **lapse = NOT MET = premium, not destroyed capacity — closed, and ⛔ NOT re-opened on a later relay of the same satellite data.** ⛔ **BG-02's letter is Will's and is UNCHANGED throughout. `WQ-234` remains open with Will, needed-by 9/18.** *(Closed 2026-09-22: Will ruled C; the letter was amended 2026-09-23 — BG-02 C1–C6.)*
-
-⇒ **Practical consequence, stated plainly: R2/R3 can no longer fire BG-02 on their own in a contested week.** Given the floor is smaller than the routine inter-vendor spread, that is the only honest form. **Earliest gradeable date on the 7-day MA is ~2026-09-17/18** (the shut began 9/11) — **which is exactly where FALCON's independently-written FAL-05 7-consecutive-day bar lands.** Window closes **2026-09-25 17:00 ET** ⇒ **BG-02 is more likely to LAPSE than to resolve on a number, and lapse = NOT MET = premium, not destroyed capacity.**
-
-**⛔ BG-02 RE-GRADE 2026-09-12 — STANDS NOT MET.** The Saudi MoE shut the line 9/11 *"as a precautionary measure."* **A shutdown STATEMENT is not a THROUGHPUT MEASUREMENT.** Four independent grounds: **(i)** the head clause reads *confirmed DESTROYED capacity* and a precautionary shut is a **state CHOICE** — MoFA concedes only *"some damage,"* unquantified and unlocated, and the operator is still there to *"assess its safety"*; **(ii)** R1 produced a statement with **no quantity**; **(iii)** the 7-day MA cannot exist on a 2-day-old shut; **(iv)** the only Yanbu figures are September MTD, overwhelmingly **PRE**-shutdown. ⛔ **RETRACTED from the 9/11 record: "VERIFIED ABSENCE of any Aramco/MoE/SPA statement" — the state spoke 9/11. The grade is unchanged; the REASON is not.** ⛔ **Attribution · damage location · barrels all remain UNESTABLISHED** (MoFA's "drones from Iraq" is ORIGIN, not attribution — no actor is named). Full: [2026-09-12 adjudication](setups/2026-09-12_petroline-four-quantities-and-resolver-defect.md).
-
-
-**Staged, NOT proposed and NOT an order** — leg-(b) structure delivered to TERRY as a card INPUT: USO **Nov-20 165/180** call spread, 70 DTE, touch debit **4.80 = 32.0% of width** (BG-03 ≤33.0%), max loss **$480**, off USO **158.38** (9/10 close). ⛔ **RE-PRICE AT THE OPEN — USO gaps on any confirmation and every figure is void.** **Root rule #6 benchmark pre-registered at 32.0% of width** so the break test is falsifiable: legitimate only if the live chain at the fire shows the band-compliant vertical **cheaper than 32.0%**; *"the window is closing"* is a chase. Packet: [TERRY inbox 2026-09-11](../TERRY/inbox/2026-09-11_from-BRENT_staged-leg-b-structure-petroline-frame-breaker-NOT-A-CARD.md).
-
-**⛔ BREACH BRANCH — PRE-REGISTERED 2026-09-11 ~11:0x ET on TERRY's finding (packet `b00cbbad0`). This STRICTLY TIGHTENS: it pre-commits a REFUSAL, moves no gate, arms nothing, proposes nothing.**
-
-**If the live chain at the fire puts the band-compliant Nov-20 165/180 vertical above a touch debit of `$4.95`, the answer is NO TRADE.** No re-cut, no strike moved, no width changed, no tenor shortened, no rounding, no "it's only $10 over." The structure is refused and the session says so in writing.
-
-**Why `$4.95` and not `$5.00` — TERRY's finding, verified independently and it is STRONGER than stated.** Width 15 pts: BG-03 (≤33.0% of width) binds at **`$4.95`**; the ~$500 max-loss cap binds at **`$5.00`**. They do not merely coincide — **BG-03 is the TIGHTER of the two, so the cap is STRICTLY DOMINATED and can never refuse anything BG-03 has not already refused.** There is no debit at which the cap binds independently ⇒ **the `$500` cap contributes ZERO refusals in this structure; it is not a redundant second guard, it is an INOPERATIVE one.** ⚠️ **The protection here is SINGLE, not double**, and from the staged `$4.80` the headroom is **`$0.15` = 3.13%, once** — inside the noise of the gap-day chain this is designed to fire on. (RISK_SCORING 2b applied to gates rather than signals.) `[[finding_crosscheck_with_free_parameter_validates_nothing]]`
-
-⚠️ **TAKE THE FIRE-TIME DEBIT FROM THE BROKER CHAIN, NOT `chain_fetch.py`** — TERRY measured the tool reading XLE 65C bid `1.66` against a broker `1.51` today, **~10% optimistic on the side you transact**. Working hypothesis: yfinance option bid/ask run ~15 min delayed while the tool prints them as live, and the freshness guard reads `lastTradeDate` — genuine, and therefore **blind to a stale QUOTE by construction**. **n=1, carried as n=1.** On a gapping strip the error will be larger than today's 10%, and it biases toward making a breaching debit look compliant — i.e. toward firing. `[[finding_freshness_check_cannot_catch_a_fresh_lie]]`
-
-**Unchanged:** the three gates all still required at any fire (BG-02 head clause on the letter · WQ-192 lifted in Will's own words · Will's [Approve] at the fill). This branch adds a fourth REFUSAL, never a permission.
-
-**Eligible monthly rolls (compute DTE at the fire):** Nov-20 eligible **through 9/21** · Dec-18 eligible **from 9/19** · both 9/19–9/21 · Dec-18 only from 9/22. Oct-16 is out and stays out (BG-04: a shorter tenor lowers debit-as-%-of-width and would loosen the only economic gate).
-
-## POSITIONS (live)
-
-Broker truth remains off-repo. **September16 screenshot reconciliation supersedes the prior “one leg” description:** USO37 plus Sep16 165C ×1 were visible at capture; no current broker session or later disposition is known. [PROME capture addendum](../../PROME/reports/2026-09-16_prefed-sell-review.md). September11 159C is a different closed contract. XLE, October135C and September18 spread remain closed per receipts below. Unknown prior sale prices are not reopened. STNG is tracked, never held. [Prior prose preserved](research/2026-09-16_cross-war-oil/before/TRADE.md).
-
-| Position | Type | Status | Existing rule / source |
+| Position | Account | Status (source) | Existing rule / owner |
 |---|---|---|---|
-| USO 37 shares | Shares | Confirmed in September16 screenshot transcription; subsequent broker state not rechecked | Corrects stale 35 from PROME September 3 transcription and September 9 screenshot review; not a new purchase. See evidence report. Share risk scaffold remains UNRATIFIED. |
-| USO Sep-16 165C ×1 | Call; expiry=2026-09-16 | SCREENSHOT-REPORTED 9/16; **expiry date passed 2026-09-16** — disposition (sold / expired / assigned) UNKNOWN and NOT inferred; in Will's hands, PROME **WQ-169** | PROME September16 13:57 capture addendum. Public contract USO260916C00165000 verified, not a broker check. 2026-09-17 recovery: fact of expiry date carried from PROME's brief; outcome awaits Will's word. |
-| USO Oct-16 135C ×0 | CLOSED September 9 | Remaining ×1 sold by Will at $17.55; net $1,754.30; settlement September 10 | [PROME receipt](../../PROME/reports/2026-09-09_USO135C-sale-receipt.md). B/C discharged because no contract remains; neither trigger claimed fired. First September 2 sale price permanently UNKNOWN/no re-ask. No roll or replacement; resting-order cancellation unverified. |
-| USO Sep-18 150/165 ×0 | CLOSED 2026-09-10 ~15:1x ET — Will's hand | **CLOSED EARLY.** Activity row 'USO Call Debit Spread $630.00' ~1h before the 16:10 capture; spread absent from the Options list ⇒ closed (PROME inference from absence + activity row; the row prints no legs or per-contract price). Proceeds **$630.00** vs **$300.00** debit (7/24) ⇒ **+$330.00 realized (+110%)**. USO official close 158.38. | [PROME transcription of Will's 16:10 ET Robinhood capture](../../PROME/data/2026-09-10_robinhood-capture-1610-TRANSCRIPTION.md). **WQ-207 (Will 9/10 12:35: close 9/17 open / overrides ≥165 / <153) DISCHARGED by early execution — neither override fired, the 9/17 rail never reached.** TERRY card `TRY-MGMT-USORH150165` ⇒ EXECUTED. No roll. |
-| USO Sep-11 159C ×0 | CLOSED — sold before expiry | Will confirmed 2026-09-15 in this session. expiry=2026-09-11. Exact sale date, price and proceeds UNKNOWN; no P/L inferred. | Original purchase $1.52 on September 10 remains historical; no card or BRENT instruction. See EXECUTION LOG. |
-| ~~XLE Sep-30 65C~~ **×0 — CLOSED** | Calls | ⛔ **FLAT. SOLD TO CLOSE 2026-09-11 ~10:07 ET @ `$1.51` ×1** — net `$150.34`, lot basis `$227.67`, **realized −$77.33 / −33.97%**. Confirmed absent from Will's 2026-09-14 broker screenshot. | Fidelity activity row verbatim via TERRY `bcc962bbd` (9/11 12:22 ET), WQ-210 DISCHARGED; `FORGE/STATUS.md` line 37 carried it from 9/11. ⛔ **The FIRST contract's date/price remain UNKNOWN (FORGE `D-49`) — do NOT infer them.** |
+| **USO 37 sh** | Fidelity | Held at the 9/25 close; cost $122.28/sh `[FORGE 9/25c]` | **WQ-200 DECLINED by Will 9/10: no harvest/give-back rule live; Will manages by hand.** The share risk scaffold remains UNRATIFIED. |
+| **VLO 1 sh** | Fidelity | **Bought 9/18 @ $412.00** (ledger row 7; fill TIME unknown, D-55) `[FORGE 9/25c]` | WQ-213: 1 of 3. The entry condition was a refiners-red-vs-oil day; **there was no crack filter at entry**. TERRY card [`BRENT_refiner-distillate-strong-leg_2026-08-27.md`](../TERRY/setups/BRENT_refiner-distillate-strong-leg_2026-08-27.md). **No exit rule live**; a management proposal was commissioned 9/28 (banner above). |
+| **VLO 2 sh STAGED** | — | Not bought. `GATE-TERRY-VLO-SCALE`: (A OR B) AND NOT F1; 9/25 NOT MET; review_by 10/14 | TERRY grades → Will. **F1 stays on the matched NOVEMBER basis (HOX26×42 − CLX26) until the 10/06 sitting (L471/WQ-252)**, independent of the 9/30 Brent pin switch (Will 9/28, scope item 1). |
+| **USO Sep-30 $159C ×2** | Fidelity | **OPEN** per the 9/28 fills receipt (not sold 9/28); **bought 9/18 for −$921.33** (row 8) `[FORGE; 9/28 fills pass]` | **WQ-316, Will's hand.** TERRY card recommends SELL; hard stop Wed 9/30 15:00 ET. ⚠️ FORGE D-60: Fidelity's expiry-day "OPTION LIQUIDATION" mechanism is UNKNOWN. ⚠️ This is not the Robinhood Sep-11 $159C (closed, below). |
+| USO Sep-16 $165C ×1 (RH) | Robinhood | **Not held**: past expiry and absent from the 9/27 RH card. Disposition (sold / expired / misread) **UNKNOWN, not inferred** | FORGE D-57 · PROME WQ-169. |
+| STNG | — | **Tracked, never held** (Stage-A tanker-liveness composite). FORGE D-17: absent from every capture since 8/2 | — |
 
-Implementation sources: `../TERRY/setups/XLE65C_approved-exit-tracking_2026-09-08.md` and `../TERRY/setups/USO-135C_rule20-management_2026-09-01.md`. September 9 USO closure is established by the PROME receipt; other owner-card history retains its date. Refiners fill status remains UNKNOWN; no re-ask.
+**Closed legs (receipts in EXECUTION LOG):** USO Oct-16 135C (last ×1 sold 9/9 @ $17.55) · USO Sep-18 150/165 spread (closed 9/10 by Will's hand, +$330.00) · USO Sep-11 $159C RH (sold before expiry, Will 9/15; FORGE D-58 still UNBOOKED) · XLE Sep-30 65C (sold 9/11 @ $1.51, −$77.33).
 
-Current execution receipts are in §EXECUTION LOG below.
+### ⚠️ UNRESOLVED BROKER FACTS: explicit, never inferred
+
+| ID | Fact | Owner / route |
+|---|---|---|
+| — | **Current state of every line since the 9/25 close.** Marks, cash and account totals were NOT refreshed at the 9/28 fills pass | Will's next broker view → PROME/ANVIL |
+| WQ-316 | USO Sep-30 $159C ×2: sold / held / liquidated on 9/29–9/30 | Will |
+| D-60 | Fidelity expiry-day "OPTION LIQUIDATION" rows: mechanism | Will / Fidelity |
+| D-55 | VLO fill time (date 9/18 known) | Will, low priority |
+| D-57 · WQ-169 | RH USO Sep-16 $165C disposition | Will |
+| D-58 | RH USO Sep-11 $159C: sale date, price, proceeds (Will confirmed "sold before expiry") | Will, low priority |
+| D-49 | XLE: the FIRST contract's date and price | FORGE |
+| WQ-167 | First USO Oct 135C sale price (9/2): **permanently UNKNOWN, no re-ask** | closed |
+| — | Resting-order cancellation after the 9/9 USO 135C sale: unverified | Will, low priority |
 
 ## Decision read paths
 
@@ -95,51 +67,55 @@ Supersedes: the former whole-TRADE conditional read and mixed historical rule co
 | Position review / exit / pending receipt | This file, then [SPECS_TRADE_RULES.md](setups/SPECS_TRADE_RULES.md) and the relevant TERRY owner card |
 | Structural proposal / frame-breaker | This file, [SPECS_GATES.md](setups/SPECS_GATES.md), then [SPECS_TRADE_RULES.md](setups/SPECS_TRADE_RULES.md) |
 | Off-ramp proposal / entry / second tranche | This file, [SPECS_OFFRAMP_ENTRY.md](setups/SPECS_OFFRAMP_ENTRY.md), then [SPECS_TRADE_RULES.md](setups/SPECS_TRADE_RULES.md), including unresolved persistence applicability |
-| Initially unrelated session becomes trade-relevant | Stop the decision work and take the applicable read path above; boot’s earlier conditional read does not cover this transition |
+| Initially unrelated session becomes trade-relevant | Stop the decision work and take the applicable read path above; boot's earlier conditional read does not cover this transition |
 
-Read the COMPLETE named spec, including caveats and unresolved clauses. A healthy feed or a reconciliation stamp does not establish that the deciding agent read the rule. Any proposal remains subject to Will’s explicit approval.
+Read the COMPLETE named spec, including caveats and unresolved clauses. A healthy feed or a reconciliation stamp does not establish that the deciding agent read the rule. Any proposal remains subject to Will's explicit approval.
 
 ## EXECUTION LOG
 
 | Date | Action | Detail |
 |---|---|---|
-| 2026-09-10 ~15:1x | **USO Sep-18 150/165 spread CLOSED — Will's hand, early** | 'USO Call Debit Spread $630.00' (Robinhood activity, ~1h before the 16:10 capture); spread absent from positions. $630.00 proceeds vs $300.00 debit ⇒ **+$330.00 (+110%)**. Seven sessions before the WQ-207 9/17 rail; neither override fired (USO close 158.38). Receipt: [PROME transcription of Will's 16:10 ET Robinhood capture](../../PROME/data/2026-09-10_robinhood-capture-1610-TRANSCRIPTION.md). ⏳ RESOLVED — no further receipt owed on this leg. |
-| 2026-09-15 confirmation | USO Sep-11 159C SOLD before expiry — Will's hand | receipt_status=RESOLVED. Will explicitly confirmed 'Sold before expiry' in this session. Exact sale date, price and proceeds UNKNOWN; no P/L inferred. Purchase September 10 at $1.52 is historical. |
-| 2026-09-10 12:35 | **USO Sep-18 150/165 spread — management rule RULED (WQ-207)** | Will, BRENT session: "Approve option 1" on TERRY `TRY-MGMT-USORH150165` ⇒ dated close 9/17 open · harvest override close ≥165 · BE defence close <153 · OR-joined · no roll. Rec'd by TERRY, concurred by BRENT. **Discharged ~15:1x the same day by Will's early close (row above).** |
-| 2026-09-10 | USO Sep-18 150/165 spread — broker mark receipt | Will's Robinhood screenshot ~12:3x ET: HELD ×1, mark 6.11 ($611), avg cost 3.00, total return shown +$311 (+103.67%), today +$265. Screenshot is a position mirror, not a fill; no action taken. ~~HOLD through expiry stands~~ **SUPERSEDED 12:35 ET the same day by WQ-207 (Will 9/10 12:35 ET): close at the 9/17 open, or at the next open after a USO close ≥165 / <153; never 9/18 — see the ruling row above.** |
-| 2026-09-09 | Final USO October 135C sold | Will’s receipt via [PROME](../../PROME/reports/2026-09-09_USO135C-sale-receipt.md): ×1 at $17.55, net $1,754.30 after $0.70 costs, settles September 10; zero remains. Execution time/account field absent from receipt; no order-cancellation inference. B/C discharged. |
-| 2026-09-08 → **RESOLVED 2026-09-11** | XLE exit selected for the 9/9 open → **FILLED 9/11** | ✅ **RECEIPT IN HAND: Sell to Close 1 XLE Sep-30-2026 65 Call, Limit `$1.51`, FILLED 2026-09-11 ~10:07 ET.** Net `$150.34`; realized **−$77.33 / −33.97%**. Source: Will's Fidelity activity row, verbatim, via TERRY `bcc962bbd` 9/11 12:22 ET. **WQ-210 DISCHARGED.** ⚠️ **BRENT did not record this until 2026-09-14, when WILL supplied a broker screenshot** — the row sat `PENDING` for three days while the receipt existed at TERRY and in FORGE. **Boot step 6c (the PENDING-row guard) was run as a re-assertion rather than a resolution: I confirmed the row still SAID pending instead of checking whether it still WAS.** ⛔ **The FIRST contract's date/price stay UNKNOWN (FORGE `D-49`).** |
-| 2026-09-02 | First USO October 135C sold | One remained after this sale; final contract closed September 9 above. First-sale price permanently UNKNOWN under WQ-167; no re-ask. |
-| 2026-07-24 | USO September 150/165 spread filled | Recorded ~$300 net debit; historical fill basis, not a live quote. ~~Current holding instruction is HOLD through expiry~~ **DISCHARGED by early closure September 10; see the closure receipt above. No live holding or sale instruction remains on this closed spread.** |
-| 2026-06-18 | CF June 130C expired worthless | Historical closed leg. |
+| 2026-09-28 | **USO Sep-30 $159C ×2: NOT sold** (fills receipt) | PROME transcription of Will's pasted receipt (`PROME/reports/2026-09-28_will-fills-receipt.md`); ANVIL fills pass (FORGE). Three other lines were sold in part that day (QQQ/TLT; not BRENT's domain). WQ-316 open. |
+| 2026-09-18 | **VLO 1 sh BOUGHT @ $412.00** (Fidelity) | Fidelity Activity row 7 via the 9/27 transcription (`PROME/data/2026-09-27_broker-capture-TRANSCRIPTION.md`); WQ-213 condition (refiners red vs oil). Fill time not shown (D-55). ⏳ First recorded in BRENT TRADE 2026-09-28; it lived only in FORGE/TERRY until then. |
+| 2026-09-18 | **USO Sep-30 $159C ×2 BOUGHT, −$921.33** (Fidelity) | Activity row 8, same transcription. ⏳ First recorded in BRENT TRADE 2026-09-28. |
+| 2026-09-15 confirmation | USO Sep-11 159C SOLD before expiry, by Will's hand | receipt_status=RESOLVED. Will explicitly confirmed "Sold before expiry". Exact sale date, price and proceeds UNKNOWN; no P/L inferred. Bought 9/10 at $1.52 (historical). |
+| 2026-09-10 ~15:1x | **USO Sep-18 150/165 spread CLOSED early, by Will's hand** | "USO Call Debit Spread $630.00" (Robinhood activity, ~1h before the 16:10 capture); spread absent from positions. $630.00 proceeds vs $300.00 debit ⇒ **+$330.00 (+110%)**. Seven sessions before the WQ-207 9/17 rail; neither override fired (USO close 158.38). [Receipt](../../PROME/data/2026-09-10_robinhood-capture-1610-TRANSCRIPTION.md). RESOLVED. |
+| 2026-09-10 12:35 | **USO Sep-18 150/165: management rule RULED (WQ-207)** | Will: "Approve option 1" on TERRY `TRY-MGMT-USORH150165` ⇒ close at the 9/17 open · harvest override close ≥165 · defence close <153 · OR-joined · no roll. **Discharged the same day by Will's early close.** |
+| 2026-09-10 | USO Sep-18 150/165: broker mark receipt | Robinhood ~12:3x: ×1, mark 6.11, avg cost 3.00. A position mirror, not a fill. The HOLD-through-expiry instruction was superseded at 12:35 by WQ-207. |
+| 2026-09-09 | Final USO October 135C sold | Will's receipt via [PROME](../../PROME/reports/2026-09-09_USO135C-sale-receipt.md): ×1 at $17.55, net $1,754.30 after $0.70 costs, settled 9/10; zero remains. B/C discharged. |
+| 2026-09-08 → **RESOLVED 2026-09-11** | XLE exit selected for the 9/9 open → **FILLED 9/11** | **Sell to Close 1 XLE Sep-30-2026 65 Call, Limit $1.51, FILLED 2026-09-11 ~10:07 ET.** Net $150.34; realized **−$77.33 / −33.97%**. Will's Fidelity row via TERRY `bcc962bbd`. **WQ-210 DISCHARGED.** ⚠️ BRENT recorded it only on 9/14; the row sat PENDING for three days while the receipt existed (boot step 6c was run as a re-assertion, not a resolution). The FIRST contract stays UNKNOWN (D-49). |
 | 2026-09-08 | Convex-arm stand down | WQ-189/192 unchanged; no deployment. |
+| 2026-09-02 | First USO October 135C sold | One remained; first-sale price permanently UNKNOWN (WQ-167). |
+| 2026-07-24 | USO September 150/165 spread filled | ~$300 net debit (historical fill basis). Discharged by the 9/10 close. |
+| 2026-06-18 | CF June 130C expired worthless | Historical closed leg. |
 
 ## BINDING WILL RULINGS
 
-Current scope/tenor and approval clauses: [BG-01 through BG-08](setups/SPECS_GATES.md). **2026-09-10 12:35 ET — Will approved TERRY option 1 on the Robinhood USO 150/165 Sep-18 spread: mandatory close 9/17 open, overrides close ≥165 / <153, OR-joined, no roll (letter in TERRY's card; mirrored in POSITIONS above). DISCHARGED ~15:1x ET the same day — Will closed the spread by hand for $630.00 before any rail or override fired; PROME rail WQ-207.** Current holding-specific instructions stay in POSITIONS above. Dated reasons remain in [RULINGS.md](RULINGS.md).
+- **Current scope/tenor and approval clauses:** [BG-01 through BG-08](setups/SPECS_GATES.md).
+- **WQ-234 (9/22):** "C" ⇒ BG-02 C1–C6.
+- **WQ-207 (9/10 12:35):** the 150/165 management rule; discharged the same day.
+- **WQ-200 (9/10):** USO shares have NO harvest/give-back rule; Will manages by hand.
+- **WQ-213:** VLO entry condition; 1 of 3 filled.
+- **2026-09-28 ~18:10 (Will, in the BRENT session; verbatim in the PROME packet `c3e185152`):**
+  - keep the scheduled grades, the Wed Brent switch and the separate November F1 basis to 10/06;
+  - commission one TERRY VLO management proposal (Will approves separately);
+  - bounded measurement and phase map;
+  - **this TRADE cleanup**;
+  - paid data deferred.
+- Dated reasons: [RULINGS.md](RULINGS.md).
 
-## DEPLOY GATE v3 HARD RULES
+## DEPLOY GATE v3 · STAGE-A · OFF-RAMP · HARVEST
 
-The gate is RETIRED. Its surviving frame-breaker and unchanged economics/vehicle/approval constraints are [BG-02 and BG-03](setups/SPECS_GATES.md#bg-02--frame-breaker-prospective-capacity-floor-and-constraints). No OVX re-arm condition is registered.
-
-## STAGE-A v5
-
-Canonical entry, v6 measurement, paired tightenings, calibration caveat and tranche conditions: [SPECS_OFFRAMP_ENTRY.md](setups/SPECS_OFFRAMP_ENTRY.md). Do not grade from old v4 narrative.
-
-## OFF-RAMP ROUND-TRIP PLAYBOOK
-
-Entry: [SPECS_OFFRAMP_ENTRY.md](setups/SPECS_OFFRAMP_ENTRY.md). Harvest, persistence and sizing: [SPECS_TRADE_RULES.md](setups/SPECS_TRADE_RULES.md). H1 is announcement-anchored; the old per-tranche question is superseded. Persistence applicability still requires reconciliation as explicitly described there.
-
-## HARVEST RULE
-
-Complete H1/H2/H3 and calibration limitation: [BH-01 through BH-05](setups/SPECS_TRADE_RULES.md).
+- **Deploy gate v3 is RETIRED.** Surviving frame-breaker and economics/vehicle/approval constraints: [BG-02, BG-03](setups/SPECS_GATES.md#bg-02--frame-breaker-prospective-capacity-floor-and-constraints). No OVX re-arm is registered.
+- **Stage-A entry, v6 measurement, tranche conditions:** [SPECS_OFFRAMP_ENTRY.md](setups/SPECS_OFFRAMP_ENTRY.md). Do not grade from old v4 narrative.
+- **Harvest (H1/H2/H3), persistence and sizing:** [BH-01…BH-05, SPECS_TRADE_RULES.md](setups/SPECS_TRADE_RULES.md). H1 is announcement-anchored.
 
 ## CATALYSTS bearing on the arm
 
-[docket/CATALYSTS.tsv](docket/CATALYSTS.tsv) is the only dated-event record. [STATUS calendar](STATUS.md) is generated from it. This pointer supersedes the obsolete second hand-maintained calendar; no second render is needed.
+[docket/CATALYSTS.tsv](docket/CATALYSTS.tsv) is the only dated-event record; the [STATUS calendar](STATUS.md) is generated from it.
 
 ## RESOLVED / HISTORY
 
-Full pre-migration file, unchanged: [TRADE before-image](archive/2026-09-08_cleanup/TRADE.md). Byte count and SHA-256/CRC32: [manifest](archive/2026-09-08_cleanup/manifest.json). This archive contains outdated holdings, retired instructions and corrected assertions; it supplies provenance only. Current rules are reached by the paths above. Existing older archive links remain in the before-image.
-
-The [obligation inventory](workbook/TRADE_OBLIGATIONS.md) records live, superseded and unresolved dispositions. Ordinary closeout updates current holdings, action state and receipts here; dated analysis goes to an evidence note. It must not append a new historical block to this file.
+- **2026-09-28 before-image** (26,511 B, whole file, SHA-256 `29b0b63f…ae108371`, crc32 `7cb1efe4`): [archive/2026-09-28_cleanup/TRADE.md](archive/2026-09-28_cleanup/TRADE.md) + [manifest](archive/2026-09-28_cleanup/manifest.json). It holds the full frame-breaker reasoning (dual-tracker defect, readability pre-registration, 9/12 re-grade) and the staged leg-(b) and breach-branch text verbatim. What moved: [TRADE_OBLIGATIONS § 2026-09-28](workbook/TRADE_OBLIGATIONS.md).
+- **2026-09-08 before-image:** [archive/2026-09-08_cleanup/TRADE.md](archive/2026-09-08_cleanup/TRADE.md) · [manifest](archive/2026-09-08_cleanup/manifest.json).
+- Archives supply provenance only; current rules are reached by the read paths above. Ordinary closeout updates holdings, action state and receipts here; dated analysis goes to an evidence note.
