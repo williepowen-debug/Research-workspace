@@ -37,6 +37,8 @@ Four deliverables, all in `reports/`, committed; every figure verified at the pr
 
 ⚠️ **Modifications (KB-069/070, relabelled per Will 20:49 ET):** the 12-month MF modified stock was **47% past due at 6/30** ($176M of $375M; 11% at 3/31). That is a **changing aggregate population, NOT a cohort failure rate.** The subsequent-default figures ($29M three months · $286M six months) are **UNRECONCILED issuer disclosures**; an earlier cohort failure is not excluded. The question goes to **T-13 / PROME DOCKET L522** (Q3 FDM read).
 
+✅ **Folded into the core files 2026-09-27 23:49 ET:** THESIS **v1.0.2** amendment (Pinnacle, modifications, buyback) · NONACCRUAL_FLOW header caveat · EXIT_PROTOCOL dated caveats on **K-1** (possible false fire from buyer-financed exits) and **K-2** (buyback reopens the denominator channel). **No kill condition, threshold or prediction changed** (predictions are frozen cards).
+
 ## 🔴 START HERE — the thesis moved, and the headline number is still not the actionable one
 
 **The bear case on FLG is not concentration and not the nonaccrual level. Both are improving.** It is that a **$2.8B nonaccrual book with a $163M specific reserve (5.8%)** is being cleared **87.5% by payoff and disposition**, while genuine cures run at **1.6%** — and that exit channel is **exogenous**, requiring a functioning refinance market for NYC rent-regulated multifamily. **NYC just froze the rents on the collateral behind $8.9B of it, effective October 2026.**
