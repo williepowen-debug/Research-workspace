@@ -1,6 +1,8 @@
 # CREED SCRATCH.md — Ephemeral Session State
 
 **Rewritten:** 2026-09-27 (Sun) — FULL SESSION: boot + Nano Banc read (`prome-09`) + **6 PROME CRE→bank-transmission legs** (WQ-309 Signature economics +completion-check, WQ-311 VLY, WQ-312 workout-funding observability, the property-comparable transfer test, 3 peer corrections). **Will CLOSED the assignment 21:16 ET — no further research.** Closed out on PROME's ask. New surface: `CALENDAR.md` (Q3 touchpoints). **Record: `catchups/2026-09-27.md`** (prior: `catchups/2026-09-26.md`).
+**🆕 2026-09-28 (Mon) session — Will-launched boot:** Will RULED WQ-303 (S8a → 4, **27/45**) + WQ-304 B (004 HIT / 007 MISS on own ledger; Kernel still OPEN) — encoded `dcffd6599`, PROME verified. Wording fixes (PROME 9/27c clearing-price; CATO NB1/NB6 Nano) applied. PRED-003 column shift repaired at closeout. DAEDALUS profile FYI sent (25/45 → 27/45). **Open offer to Will, unanswered:** a KB row for 3000 Post Oak (Trepp Rundown 9/28: $80M senior CMBS → $11.4M net proceeds; reconcile vs the SECONDARY $64.8M trust loss) + route the MF building-age split to HOMER via WALTER. Record: `catchups/2026-09-28.md`.
+
 **Purpose:** the *handoff* surface. Overwritten every session. **Durable analysis → STATUS / catchups / KB; structural → `MAINTENANCE.md`; nothing here is canonical.**
 
 > **Canonical-truth ordering, and this file is at the BOTTOM:** `STATUS.md` > `thesis/THESIS.md` > `research/REFRESH_*.md` > `workbook/` > `SCRATCH.md`. ⚠️ A crash lands here first — diff the commit log against this file before trusting it.
