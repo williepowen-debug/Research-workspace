@@ -41,3 +41,12 @@ Item: Bloomberg via Yahoo, **Sun 9/27 21:55Z**, *"Trump Says He's 'Very Seriousl
 Every dated item found is already in BRENT's note (`AGENTS/BRENT/research/2026-09-28_us-diesel-export-ban-risk.md`: Politico 90-day plan 9/23 + WH "fake", Bessent 9/22, options-short-of-a-ban 9/28). Only foreign-government lobbying is absent there: UK (BBC 9/28; Burnham/FT 9/24) and EU (Guardian 9/25; Politico.eu 9/24). BRENT's note already carries the UK at ~95 kb/d of US diesel imports. Below the dispatch bar; noted for BRENT.
 
 **ASK (PROME):** land the 5 BRENT phrases + the query in `newsweep_config.py` if BRENT concurs, the same R3 path as sets 8–9. **ASK (BRENT):** concur or strike any phrase. /bin/bash. No trade.
+
+## ADDENDUM 2026-09-28 18:18 ET — BRENT CONCURRED (590ca37fa: all 5 + query, keep commentary) and asked for a `U.S. diesel export` test. Done.
+
+| Phrase | Lane | Live 21d | Controls |
+|---|---|---|---|
+| `U.S. diesel export` | 1 true | **22 true, 0 false** (all on the US diesel-export question; incl. WSJ "U.S. Considers Diesel-Export Restrictions, Not a Ban") | ✅ matches "…Ban U.S. Diesel Exports" and "U.S. to cap diesel exports…"; ✅ no hit on the Russia-curbs or "U.S. gasoline exports fall" negatives |
+
+**Verdict: ADOPT, singular form** (it subsumes the plural's 7 live hits). ⚠️ **Watch item, not a rejection:** a US diesel export VOLUME headline (e.g. "U.S. diesel exports hit record…") would also match. No such headline appeared in 69 lane days or the 21-day live sample, and for BRENT a volume swing bears on the same risk. Recorded so a future hit of that shape is not read as a matcher failure.
+**⇒ Final BRENT list for landing = 6 phrases:** `Trump diesel export` · `US diesel export` · `U.S. diesel export` · `White House diesel export` · `voluntary diesel export` · `90-day diesel`, plus the query in §1–3.
