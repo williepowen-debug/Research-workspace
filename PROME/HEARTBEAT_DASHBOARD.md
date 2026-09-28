@@ -36,7 +36,7 @@ This companion keeps render metadata outside the boot-read byte budget.
     "channels": {
       "Credit": {
         "headline": "🟠 HY 293 / CCC 1,128 [9/25] — RED-FT-01 2 of 3; the 9/28 cell decides",
-        "body": "FRED 9/25 (published Mon AM): HY OAS 293 · CCC 1,128. RED-FT-01 (≥280 ×3) 2 of 3 — the 9/28 cell (Tue AM) completes or resets; RED rules. X1 >280 strict 1 of 3, CLOSED regardless (8/28). Re-kill 0 of 2, 33bp. LIQUID's 283 estimate missed high; Q4 'isolated CCC' lean withdrawn. IG/BBB not joined (BOND). STAND DOWN holds; no capital path."
+        "body": "FRED 9/25 (published Mon AM): HY OAS 293 · CCC 1,128. RED-FT-01 (≥280 ×3) 2 of 3 — the 9/28 cell (Tue AM) completes or resets; RED rules. X1 >280 strict 1 of 3, CLOSED regardless (8/28). Re-kill 0 of 2, 33bp. LIQUID under-called by 10bp (293 vs ≈283); Q4 'isolated CCC' lean withdrawn. IG/BBB not joined (BOND). STAND DOWN holds; no capital path."
       }
     }
   }
