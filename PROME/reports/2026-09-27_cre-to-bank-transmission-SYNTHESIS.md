@@ -1,4 +1,20 @@
-# CRE → regional-bank losses: first synthesis (2026-09-27, Sun evening)
+# CRE → regional-bank losses (2026-09-27)
+
+## CURRENT ASSESSMENT — as of 2026-09-27 23:1x ET (Will 23:13: one current assessment on top; evidence and correction history below. **Where anything below conflicts with this section, this section is current.**)
+
+- **Where the losses are (6/30/26 filings):** concentrated at a few named banks, each by its own route — Flagstar (re-appraisal write-downs on NYC rent-regulated multifamily), OZK (2022 construction loans failing at maturity, then foreclosure), EGBN (DC office and multifamily maturities), WAL (losses so far fraud-driven; its office/life-science CRE unresolved). In REGINALD's 14-bank sample — chosen banks, not the population — CRE bad loans fell 2.46% → 2.23% and H1 CRE charge-offs $528M → $452M year on year. VLY: neither broader stress nor a bank-specific problem yet, with one early flag (Q2 multifamily past-dues, $108M of payment deferrals, and a disclosed decline in quantitative CRE reserves whose model inputs are undisclosed).
+- **How big — partly measured, partly assumed:** where exits can be measured, problem loans left at 13–28% loss (OZK foreclosures and a payoff, EGBN's held-for-sale write-downs); each bank's recognised charge-offs are reported. The stress scenarios' loss rates are mostly assumptions: no clearing price on file matches the stressed pools, and the FDIC's 2023 Signature sale gives only a conditional December-2023 valuation (~60% of book if the undefined "N/A" leverage means unlevered), not a loss rate.
+- **Recognition timing differs:** EGBN writes down early and its sales cleared at those marks; OZK and WAL recognise little at foreclosure. Possible delayed losses at OZK and WAL are a hypothesis, held beside the losses already recognised.
+- **Resolutions:** two clean, primary-sourced successes (OZK's Sullivan recapitalisation; EGBN's sales at written-down value). For most exit dollars the funding source is undisclosed and not observable in aggregate — a limit on the conclusion, not a signal. Flagstar's stock of multifamily loans modified in the prior 12 months was ~47% past due at 6/30/26: a high delinquency level in a changing population, not a failure rate; its $29M (Q2) and $286M (six-month) subsequent-default figures do not reconcile and are kept as reported.
+- **Not established:** how broadly stress is spreading; the modelled loss rates; whether banks are systematically postponing losses.
+- **What could change it — checkpoints, not guaranteed answers:** Nano Banc P&A terms (~10/5–10/9) · Q3 releases and filings for OZK, WAL, EGBN, VLY and FLG (~10/13–11/13) · REGINALD's mid-pack breadth test on Q3 Call Reports (11/07) · FDIC Q3 QBP (~11/25). Scheduled on DOCKET L516 · L170 · L171 · L35 · L180 · L514 · L520–L522.
+- **Positions:** no change proposed; nothing today fired a trigger or a gate.
+
+---
+
+*Everything below is supporting evidence and correction history, kept as written with its corrections in place. Section numbers are cited elsewhere and are unchanged.*
+
+## Original record — first synthesis (2026-09-27, Sun evening)
 
 **Asked by:** Will, 2026-09-27 17:24 ET: *"determine how CRE distress is reaching regional-bank losses, whether the evidence supports isolated bank problems or broader exposure, and what would change that assessment."* **Status: FIRST SYNTHESIS, 5 of 5 desk legs in, 17:3x ET.** First synthesis from EXISTING evidence, before any new research. Research only: no score, threshold, tool or trade change is proposed here.
 **Plan:** `PROME/plans/2026-09-27_cre-to-bank-loss-transmission-PLAN.md` (e614dee5e).
