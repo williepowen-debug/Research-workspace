@@ -1,9 +1,25 @@
 # BOND Monitor — Credit Primary Market Function
 
 **Owner:** BOND
-**Last Updated:** **2026-09-17 ~10:0x ET by BOND — full refresh to the 9/15 close, whole table on ONE date, all levels cache-busted at write time.** 🔴 **AND THIS FILE JUST REPEATED ITS OWN RECORDED DEFECT, 21 DAYS THIS TIME INSTEAD OF FOUR — n+1 on the class named in the paragraph below, found again by an audit (Will-requested stale sweep) and again by no instrument.** `boot_recompute` and `closeout_check` both returned clean on this directory today, correctly: the numbers were internally consistent *with each other*, and neither check has a shape for *"this whole surface is three weeks behind its siblings."* **The fix that would actually bite is an age check on boot-unread surfaces, not another resolution to remember.** *(Prior header, 2026-08-27 ~12:2x ET, retained:)* **full refresh to the 8/26 close; the whole table sits on ONE date.** 🔴 **Found by a Will-directed inward audit, not by any instrument: this file sat on the 8/20 vintage for FOUR sessions while `STATUS` and `VX.tsv` were refreshed twice each.** ⚠️ **The reason is structural and worth naming — `monitors/` is NOT read at boot.** `boot_recompute` scans this directory for numeric drift and **passed clean**, because a drift check compares latest-on-surface to latest-at-source and this file's numbers were internally consistent *with each other*; it has no shape for *"this whole surface is four days behind its siblings."* **The boot-unread tier is where staleness lives, and the instruments confirm it is clean.**
+**Last Updated:** **2026-09-28 13:14 ET by BOND — levels refreshed to the 9/25 close (FRED, cache-busted 9/28, one date); the 9/17 read below is SUPERSEDED (its "15bp from the 1100 escalation" line became false on 9/24).** · *prior:* **2026-09-17 ~10:0x ET by BOND — full refresh to the 9/15 close, whole table on ONE date, all levels cache-busted at write time.** 🔴 **AND THIS FILE JUST REPEATED ITS OWN RECORDED DEFECT, 21 DAYS THIS TIME INSTEAD OF FOUR — n+1 on the class named in the paragraph below, found again by an audit (Will-requested stale sweep) and again by no instrument.** `boot_recompute` and `closeout_check` both returned clean on this directory today, correctly: the numbers were internally consistent *with each other*, and neither check has a shape for *"this whole surface is three weeks behind its siblings."* **The fix that would actually bite is an age check on boot-unread surfaces, not another resolution to remember.** *(Prior header, 2026-08-27 ~12:2x ET, retained:)* **full refresh to the 8/26 close; the whole table sits on ONE date.** 🔴 **Found by a Will-directed inward audit, not by any instrument: this file sat on the 8/20 vintage for FOUR sessions while `STATUS` and `VX.tsv` were refreshed twice each.** ⚠️ **The reason is structural and worth naming — `monitors/` is NOT read at boot.** `boot_recompute` scans this directory for numeric drift and **passed clean**, because a drift check compares latest-on-surface to latest-at-source and this file's numbers were internally consistent *with each other*; it has no shape for *"this whole surface is four days behind its siblings."* **The boot-unread tier is where staleness lives, and the instruments confirm it is clean.**
 
-## Current Read — 2026-09-17 ~10:0x ET (all credit levels **9/15**, one date, cache-busted at write time)
+## Current Read — 2026-09-28 13:14 ET (all credit levels **9/25**, one date, FRED cache-busted; `KB-BND-341/343`)
+
+| Metric | Level | Date | vs threshold |
+|---|--:|---|---|
+| **HY OAS** | **293bp** | FRED **9/25** | **7bp** below the 300 watch · 57bp below the 350 freeze. **+25bp in 3 sessions** (268 [9/22] → 273 → 280 → 293) — a 3-session change met or beaten in 23 of 782 windows (2.9%). 2026 max 346 [3/30] |
+| **CCC OAS** | **1128bp** | FRED **9/25** | 🔴 **1100 escalation FIRED 9/24 (1112, first-published)** ⇒ `BND-27` FALSE. 2026 high; 9bp under span max 1137 [2025-04-07] |
+| **B OAS** | **300bp** | FRED **9/25** | +29bp in 3 sessions (271 → 300); 15-session Δ +23 (crossed its +9 p75 on 9/24) — the middle of HY joined |
+| **BB OAS** | **176bp** | FRED **9/25** | +20bp in 3 sessions (+12.8%, the fastest tier proportionally) |
+| **IG OAS · BBB** | **81 · 99bp** | FRED **9/25** | +4bp each in 3 sessions; 15-session Δ 0 — **IG has NOT joined**. 39bp below the 120 trigger |
+| **CCC−BB tail gap** | **952bp** | FRED **9/25** | new span max; but CCC/BB RATIO compressed 6.89 → 6.41 — BB/B widened faster in % terms |
+| **Pulled deals** | ⚠️ **NOT RE-CHECKED since 9/17** | — | **GAP, disclosed — do not read the 9/17 "ZERO" as current.** The access test is exactly what a 25bp/3-session HY move could break; re-check next session (L477 Q4 D8, before 10/14) |
+
+**Verdict: TAIL ESCALATION FIRED AND THE WIDENING SPREAD THROUGH HY IN SPEED (not level); IG untouched; primary-market access UNVERIFIED since 9/17.** Formal L477 Q4 grade = LIQUID's. Expression if anything: single-name/CCC, never HYG (`BND-27` rider).
+
+## Prior read — 2026-09-17 (SUPERSEDED 2026-09-28; retained as history)
+
+*(was headed: Current Read — 2026-09-17 ~10:0x ET, levels 9/15)*
 
 | Metric | Level | Date | vs threshold |
 |---|--:|---|---|

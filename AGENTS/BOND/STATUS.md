@@ -1,7 +1,7 @@
 # BOND — Status
 
 **Agent:** BOND · **Domain:** US bond-market structure (+ MBS/FHLB + EU rates per the 6/27 extension; + the sovereign-credibility instrument set per the 8/10 forum — scope in `CLAUDE.md`)
-**Last session:** 2026-09-28 Mon **~10:34→ ET (live-event boot: global long-end sell-off, 4th session)** · 2026-09-26 Sat ~15:08 (`prome-1d` spawn: WQ-291/246 letters) · 2026-09-25 Fri ~01:03→03:xx ET · 2026-09-24 (three sessions; first after the 9/18–9/23 dark gap)
+**Last session:** 2026-09-28 Mon **10:34→13:15 ET (live-event boot + assessment + CRE/bank Q&A + closeout; commits 10:43 · 11:11 · closeout)** · 2026-09-26 Sat ~15:08 (`prome-1d` spawn: WQ-291/246 letters) · 2026-09-25 Fri ~01:03→03:xx ET · 2026-09-24 (three sessions; first after the 9/18–9/23 dark gap)
 
 > 📕 **HOT/COLD SPLIT — NOTHING DELETED.** Full pre-rewrite snapshot of the 9/26 file: `domain/sources/2026-09-28_STATUS_full-snapshot_pre-9-28-rewrite.md` (28,401 B, crc32 `111184409`) — holds the full 9/24–9/26 top items this rewrite condensed. Older: `domain/sources/2026-09-24_STATUS_full-snapshot_pre-9-24-rewrite.md`, `archive/2026-09-01_STATUS_cold_pre-split-full-snapshot.md`. **Budget 32,550 B — rotate, never raise.**
 
@@ -34,8 +34,8 @@
 
 | Metric | Current | Status | Source / Date |
 |---|---:|---|---|
-| 30Y (DGS30) | **5.49%** | 🔴🔴 | [CONF **U.S. Treasury par curve 9/25** = H.15 source; FRED 5.47 [9/24]] — **3rd straight fresh 2026 high**; run ≥5.00 = 58 on the Treasury cell. 20Y 5.54. **Intraday vendor `^TYX` 5.551 [9/28 ~10:20 ET, +4.7bp]** |
-| 10Y (DGS10) | **5.17%** | 🔴 | [CONF Treasury **9/25**; FRED 5.18 [9/24]] — **intraday vendor `^TNX` 5.234 [9/28, +5.0bp]** = above 5.2, new highs since mid-2007 (TE) |
+| 30Y (DGS30) | **5.49%** | 🔴🔴 | [CONF **U.S. Treasury par curve 9/25** = H.15 source; FRED 5.47 [9/24]] — **3rd straight fresh 2026 high**; run ≥5.00 = 58 on the Treasury cell. 20Y 5.54. **Intraday vendor `^TYX` 5.551 [9/28 ~10:20 ET, +4.7bp] → 5.57 [13:15 ET]** |
+| 10Y (DGS10) | **5.17%** | 🔴 | [CONF Treasury **9/25**; FRED 5.18 [9/24]] — **intraday vendor `^TNX` 5.234 [9/28 ~10:20, +5.0bp] → 5.25 [13:15 ET]** = above 5.2, new highs since mid-2007 (TE) |
 | 5Y (DGS5) | **4.98%** | 🔴 | [CONF Treasury **9/25**, −5] — intraday vendor `^FVX` 5.063 [9/28, +5.6bp] |
 | 2Y · 1Y | **4.81% · 4.50%** | 🔴 | [CONF Treasury **9/25**] — 2Y −6 on Friday; 1y1y ≈ **5.12** (2×2Y−1Y par approx; 5.23 [9/24]). 2s10s +36, **2s30s +68** (steepening, long-end-led) |
 | **10Y real (DFII10)** | **2.83%** | 🔴🔴 **GATE THROUGH · SUSTAIN MET** | [CONF **Treasury real curve 9/25**; FRED 2.85 [9/24]] — 30Y real 3.22, 5Y real 2.64. **WQ-246 count: 11 consecutive FRED closes ≥2.50 (9/10–9/24), 12 on the Treasury cell** — met, authorises no add |
@@ -76,7 +76,7 @@
 | 3 | Dealer absorption | **2** = | 🟡 | `VX-BND-04` · `VX-BND-16` | FR2004 9/16 long-end $144.4B (−$1.8B; 11–21Y +1.7, >21Y −2.6) — **ADMISSIBLE as absorption evidence: settlement question resolved 9/25, the 9/15 award is in the print (trade-date, `KB-BND-332`)**; next: 9/23 as-of ~10/1 = the 5Y's POST; 5Y dealer 15.77 is the trailing-12 max but ordinary vs 2023–24. **9/24 20–30Y buyback: $4.078B of $6B, F2 0.02% ⇒ OFF-THE-RUN (2 of 2 ops)** | Two consecutive builds on TOTAL with weak composition, or SOFR−IORB positive; F2 ON-THE-RUN fire |
 | 4 | HY market function | **2** = | 🟡 | `VX-BND-02` · `VX-BND-11` | **HY 293 [9/25], +25bp in 3 sessions (~97th pct) — the index joined; CCC 1100 FIRED 9/24 (1128 [9/25], `VX-BND-11` 3→4); CCC−BB 952 span max** (`KB-BND-341`) | HY >300 with velocity (**7bp short; velocity leg present**), or a pulled-deal cluster |
 | 5 | IG market function | **1** = | 🟢 | `VX-BND-03` · `VX-BND-10` | IG 81 [9/25] (+4 in 3 sessions) | IG >120 or a failed syndication |
-| 6 | CDX-cash basis | **1** = | 🟢 | `VX-BND-06` | HYG/IEF z20 +1.28 [9/8, STALE] | Synthetic leading cash, sustained |
+| 6 | CDX-cash basis | **1** = | 🟢 | `VX-BND-06` | HYG/IEF z20 +1.01 [9/25] — **rate-confounded in this tape; cash OAS is the leg to read** (`KB-BND-345`) | Synthetic leading cash, sustained |
 | 7 | Credit-equity lead | **1** = | 🟢 | `VX-BND-07` | Inactive — HY +30 from the 263 trough; 45–70bp headroom | HY +75–100bp from 263 while VIX <20 |
 
 **Composite: 14/35 — UNCHANGED since 9/24** (▲2 on 9/23–9/24: row 1 3→4 on its registered letter, row 2 2→3 on the pre-registered cover-marker rule). **9/28: no row moves.** Row 4 is the one to watch — its letter needs HY >300 with velocity and the velocity is already there (293, +25bp/3 sessions); the CCC escalation (`VX-BND-11` 3→4) lives beneath the row and does not move it by itself. Distribution: 🔴 1 · 🟠 1 · 🟡 2 · 🟢 3. **Re-summed: 4+3+2+2+1+1+1 = 14 ✅.** `VX-BND-01` write-back done 9/28.
@@ -142,4 +142,6 @@
 
 **[by 11:11 ET] Assessment finished (`analysis/2026-09-28_live-event-assessment.md`):** the rise is in real yields, not inflation pricing. Credit stress has spread through junk bonds in speed but not into investment grade, and LIQUID grades whether that counts as "broad." The auction-weakness mechanism is still unconfirmed, so the score stays 14/35. The 10/1 dealer test lands after the 9/30 option expiry; your hold-to-expiry and no-add rulings stand.
 
-**Position: TLT 77P ×20 HOLD, no add, `$0`, expiry 9/30 (TLT 78.61 intraday, strike 2.0% below — TERRY's rail). Composite 14/35 (unchanged). Counter 0. OPEN predictions 0.**
+**[Closeout 13:15 ET] Will asked how significant the move is and what it means for CRE and regional banks (`KB-BND-344`).** By speed, the 4-day rise is notable, not extreme (~5% of 4-day windows since 2010). By level and duration it is big: 10Y +100bp in a year, and the real 10Y at its highest since 2008. For CRE and banks the damage is slow. Loans reprice at maturity, and the Treasury base for a 2016–21 loan is ~3–4.5 points higher now. Bank losses show in Q3 reports ~10/20–28. Those reads are REGINALD's and CREED's, cited, not owned.
+
+**Position: TLT 77P ×20 HOLD, no add, `$0`, expiry 9/30 (TLT 78.60 intraday 13:15 ET, strike 2.0% below — TERRY's rail). Composite 14/35 (unchanged). Counter 0. OPEN predictions 0.**

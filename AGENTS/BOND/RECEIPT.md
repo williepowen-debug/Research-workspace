@@ -1,4 +1,4 @@
-# BOND RECEIPT — 2026-09-28 (Mon) commits 10:43 + 11:11 ET (pass 1 + pass 2); stamps corrected 11:36
+# BOND RECEIPT — 2026-09-28 (Mon), final at closeout 13:15 ET (commits 10:43 + 11:11 + 11:37 + closeout)
 
 | Item | Disposition |
 |---|---|
@@ -11,3 +11,4 @@
 | Pass 2 | assessment `analysis/2026-09-28_live-event-assessment.md` · `KB-BND-343` · NEXUS_BRIEF T5YIFR fix · STATUS pointers |
 | Packets out | PROME ×2 (hashes; assessment + 10/1 test) · LIQUID ×1 (Q4 facts) — carve-out ① |
 | Git | see commit; push via safe-push.sh |
+| Pass 3 + closeout | `KB-BND-344/345` · VX-06 · `monitors/CREDIT_PRIMARY_MARKET.md` + `monitors/CDX_CASH_BASIS.md` refreshed · STATUS marks/pointer · SCRATCH |

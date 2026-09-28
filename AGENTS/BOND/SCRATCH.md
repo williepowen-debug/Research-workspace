@@ -1,4 +1,4 @@
-# BOND SCRATCH — 2026-09-28 (Mon) 10:34→11:3x ET (two passes; commits 10:43 and 11:11, stamp fix after): live-event boot (Will: "yields appear to be blowing out across many countries"). *Prior:* 9/26 `prome-1d` spawn (WQ-291 letter + WQ-246 rec + L0 drain) · 9/25 FR2004 timing/FORUM-7/WQ-290 · 9/24 three sessions.
+# BOND SCRATCH — 2026-09-28 (Mon) 10:34→13:15 ET (three passes + closeout; commits 10:43 · 11:11 · 11:37 stamp fix · closeout 13:15): live-event boot (Will: "yields appear to be blowing out across many countries"). *Prior:* 9/26 `prome-1d` spawn (WQ-291 letter + WQ-246 rec + L0 drain) · 9/25 FR2004 timing/FORUM-7/WQ-290 · 9/24 three sessions.
 
 **Purpose:** ephemeral handoff. Read at boot, rewritten at closeout. Durable → `MEMORY.md`; evidence → `workbook/`. Previous SCRATCH text is in git history (`git show HEAD~1:AGENTS/BOND/SCRATCH.md`).
 
@@ -8,6 +8,11 @@
 > 🔴 **Credit:** CCC 1112 [9/24] ≥ 1100 ⇒ `BND-27` FALSE; 1128 [9/25]; HY 293 (+25bp/3 sessions, ~97th pct), **7bp from 300** — `KB-BND-341`.
 
 ## ⚠️ STAMP CORRECTION 11:36 ET: PROME flagged clock stamps ahead of commits (pass 1 = 10:34→10:43, pass 2 = 10:43→11:11). Fixed on BOND surfaces + KB-BND-340..343. NOT edited (other desks' dirs): the LIQUID packet (now in LIQUID processed/, stamps "~11:5x"/"~12:1x") and both PROME memos ("~11:4x", "~12:1x") — true times = their commits 10:43 / 11:11. Figures unaffected.
+
+## WHAT I DID — 2026-09-28 pass 3 + closeout (after the 11:37 commit →13:15 ET; stamp from `date`)
+1. Will Q&A, "how significant are these moves / CRE + regional banks": answered in chat from BOND stats (4-session DGS10 +17bp = ~5% of windows post-2010, notable not extreme; 10Y +100bp/yr; DFII10 99.6th pct; 2016–21 loan-vintage 5Y avg 0.53–1.95 vs ~5.0 now) + CITED REGINALD/CREED 9/24–9/27 reads → `KB-BND-344` (bank/CRE figures are theirs, not BOND's; no joint read run).
+2. Closeout pass found two stale monitors: `CREDIT_PRIMARY_MARKET.md` (said CCC "15bp below 1100", which fired 9/24) → refreshed to 9/25 levels, **pulled-deal check marked NOT RE-CHECKED since 9/17 (GAP)**; `CDX_CASH_BASIS.md` → proxy re-run (`KB-BND-345`, VX-06): HYG/IEF stayed rich while cash HY widened = rate confound, proxy uninformative here.
+3. STATUS: last-session line, live marks (13:15 ET: 10Y 5.25 / 30Y 5.57 / TLT 78.60, vendor), matrix row 6, bottom-line pointer.
 
 ## WHAT I DID — 2026-09-28 pass 2 (10:43→11:11, Will: "finish this live-event read with one short assessment")
 1. `analysis/2026-09-28_live-event-assessment.md` (+ `KB-BND-343`): rates decomposition (10Y +21 = real +20 / BE +1; TP from 9/24 = INFERENCE) · credit tiers CCC/B/BB/BBB/IG (**B and BBB = the only new pulls, disclosed**) · thesis supported/weakened/unchanged-score · evidence ≠ authorization · one new research need (cross-market attribution → PROME to scope).
@@ -29,6 +34,8 @@
 4. 🟠 **10/1 announcement → freeze bars for 10/6 3Y / 10/7 10Y-R / 10/8 30Y-R** (the 10/7–10/8 long-end legs can fire row 1's ⇒5 letter). Blind span 10/9→10/19 UNVERIFIED by tool — hand-check against the QRA tentative schedule.
 5. 🟠 **By 9/30: `READS.tsv` declaration** (BOND has 0 rows in `PROME/registry/READS.tsv`; DAEDALUS ask) — carried, not done.
 6. 🟠 **By 10/21:** register the 10/28 FOMC curve-shape prediction with a base rate (OPEN count is now 0).
+6b. 🔴 **Pulled-HY-deal / primary-access check** — not done since 9/17 (L477 Q4 D8, due before 10/14); do it next session given HY +25bp/3 sessions.
+6c. 🟡 `monitors/AUCTION_HEALTH.md` header still 9/17 (9/22–24 grades live in STATUS/KB-312/313) — refresh at the 10/1 bar-freeze.
 7. 🟡 `check_fr2004` pattern gap (bare "FR2004 m/d:" form) · `DEALER_CAPACITY.md` body refresh · `KB-BND-307` cadence correction · NEXUS_BRIEF:16 T5YIFR distance (14→16bp) — all carried.
 
 ## OPEN THREADS / KNOWN GAPS
