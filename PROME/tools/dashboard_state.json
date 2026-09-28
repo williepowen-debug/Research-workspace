@@ -1,6 +1,6 @@
 {
  "attention_errors": [],
- "built": "2026-09-27 14:34",
+ "built": "2026-09-27 21:33",
  "channels": {
   "AI capex": "elev",
   "Credit": "elev",
@@ -95,6 +95,7 @@
   "2026-10-13 WAL Q3 print + deck slide 12 \u2014 \u26a0\ufe0f FRAME-BEFORE-FILING: pre-r",
   "2026-10-15 BRK-30 credit-fund re-cap/new-gate escalation resolves",
   "2026-10-15 GATE-LIQ-069 L5 (ORCL fallen-angel ladder) \u2014 DECIDE: re-regi",
+  "2026-10-15 OZK Q3-2026 print + call (the '~92-day' RaDD report-back) \u2014 ",
   "2026-10-16 August TIC (Treasury, Fri 10/16 ~16:00 ET) = ZHA-18 third-mo"
  ],
  "fleet": {
@@ -107,7 +108,7 @@
   "CRUISE": "watch",
   "FALCON": "watch",
   "FERT": "watch",
-  "FLG": "watch",
+  "FLG": "ok",
   "HAWK": "ok",
   "HENRY": "ok",
   "HOMER": "ok",
@@ -174,6 +175,7 @@
   "WQ-187 (9/12)",
   "WQ-204 (9/19)",
   "WQ-295 (9/29)",
+  "WQ-307 (9/30)",
   "WQ-279 (9/30)",
   "WQ-304 (10/1)",
   "WQ-303 (10/1)",

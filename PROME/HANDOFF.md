@@ -1,6 +1,14 @@
 # PROME HANDOFF
 
-**Resume:** [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here). This is continuity, not a fresh market, broker, fleet-presence or publication check. Read the whole file. Four entries after the 9/27 prome-09 closeout (9/25 prome-2e → `archive/HANDOFF_ROTATED_2026-09-27_prome-09.md`, crc in its header; earlier rotations: `ls PROME/archive/HANDOFF_ROTATED_*` — each carries its crc); re-check size at any append or on 2026-10-02, whichever comes first (`scripts/read_cap_check.py --agent PROME --require-manifest`).
+**Resume:** [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here). This is continuity, not a fresh market, broker, fleet-presence or publication check. Read the whole file. Five entries after the 9/27 prome-9b evening closeout (four after prome-09) (9/25 prome-2e → `archive/HANDOFF_ROTATED_2026-09-27_prome-09.md`, crc in its header; earlier rotations: `ls PROME/archive/HANDOFF_ROTATED_*` — each carries its crc); re-check size at any append or on 2026-10-02, whichever comes first (`scripts/read_cap_check.py --agent PROME --require-manifest`).
+
+## September 27 evening — `prome-9b` (desktop, Sun 16:27 boot → 21:1x ET Standard closeout): the regional-bank / CRE transmission investigation, five live desks
+
+- **Will's words:** *"I want us to work on regional bank angle specifically"* (16:27) · the 17:24 objective · rulings 17:44 · 17:57 · 19:04 · 20:25 · 20:38 · 20:49 · 20:56 · 21:16 (verbatim in `memory/2026-09-27.md` § Evening and the WQ-309–313 DONE rows). CATO reviews relayed three times; every CATO recommendation was applied only on Will's own word.
+- **The record:** `PROME/reports/2026-09-27_cre-to-bank-transmission-SYNTHESIS.md` §1–§17; §17 is the end-of-day judgment (no new task). Will's private doc mirrors it.
+- **Scheduled (reuse-first):** DOCKET L516 · L170 · L171 · L35 · L180 · L514 annotated; **L520 OZK · L521 VLY · L522 FLG** appended — each names source · desk · question · what to record if disclosure is insufficient; dates labelled ESTIMATE / CHECK-BY.
+- 🔑 **PROME slips (all caught by others except the last):** see `memory/2026-09-27.md` § Evening — the class is *integration widening a desk's narrower claim*.
+- **Carried:** OZK's WQ-295 cadence packet awaits Will's OK (OZK's words) · Mon 9/28 domain rows · L517 Tue · Wed 9/30 expiries (Will's hand).
 
 ## September 27 — `prome-09` (desktop, Sun 11:22 boot → ~14:2x–14:5x ET closeout): Will's Nano Banc investigation — five desks, one synthesis, six docket rows
 
