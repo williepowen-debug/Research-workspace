@@ -251,7 +251,7 @@ Sources:
 - The only clean primary successes are **OZK Sullivan** (new sponsor equity, cured to pass; loan retained) and **EGBN's sales at or above their post-write-down marks** (so the marks held; the price as a share of par is UNDISCLOSED).
 
 **2. Retained risk is large, and it is where the failure evidence is.**
-- **FLG:** modifications $382M in Q2. **47% of MF loans modified in the prior 12 months were past due at 6/30, and $286M of MF modifications re-defaulted in H1** (primary, KB-FLG-069). **That is the strongest failure signal in the set.**
+- **FLG:** modifications $382M in Q2. **47% of MF loans modified in the prior 12 months were past due at 6/30, up from 11% at 3/31** (primary, KB-FLG-070). All of that stock is H1-26 vintage; FLG made no MF modifications in 2025. ~~and $286M of MF modifications re-defaulted in H1~~ ~~That is the strongest failure signal in the set.~~ *(amended 9/27 per FLG 767015a65: the issuer's "subsequently defaulted" columns are not additive across filings, since Q1 reported none. Whether past-due status resets at modification is undisclosed, so **failure after modification cannot be separated from delinquency carried over from before it.**)* **The rise in past-dues is still the largest adverse retained-risk figure in the set, but it is not proof that modifications failed.**
 - **VLY:** $108M of 8-month payment deferrals. Untested until ~Q1-27.
 - **OZK:** $141M of new OREO, carried at 95–100% of appraisal and not yet sold. Its one vacant-office comparable sold at 58% of appraisal (OZK desk).
 - **EGBN:** extended a substandard 88%-LTV loan, and it matured again 8/21 with an undisclosed outcome.
