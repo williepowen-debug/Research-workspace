@@ -1,4 +1,4 @@
-# BRENT SCRATCH — September 28, 2026 (Monday; live session brent-d2, Will-launched 14:34 ET, PROME-doorbelled 14:4x; closeout ~15:2x ET)
+# BRENT SCRATCH — September 28, 2026 (Monday; live session brent-d2, Will-launched 14:34 ET, PROME-doorbelled 14:3x; closeout commit 14:49 ET `ebc3fb7c7`; follow-ups pushed 15:20 / 15:29 / 15:31 ET, times from the commits)
 
 ## CHANGES SINCE LAST SESSION (9/25 17:2x → 9/28 14:34)
 - **Iran 7-day Hormuz plan.** Timeline agreed with HAWK: private remarks Thu 9/24, public confirmation Fri 9/25 07:14 EDT, Trump rejects Sat 9/26, Araghchi says nothing has come via the mediators Sun 9/27. Also Sun 9/27 14:37 EDT: Trump tells Axios he expects talks this week.
@@ -18,7 +18,7 @@
 - **Registered line missed for 11 days:** the physical $120 line crossed 9/14–9/17. The desk saw $130.80 on 9/16 and filed it as a mirror figure. A NEAR THRESHOLDS/BREACH row on the boot board is not a recorded crossing unless someone writes it.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. ✅ **DONE 9/28 ~15:4x:** the COT probe "stale 9/06" was a false alarm. The `http:` probe carries no date, so the check fell back to the row's hand stamp (`last_verified` 2026-09-06) and printed it as a datapoint. Fixed: a new `cftc:` probe reads the report date live (now 2026-09-22, 6d, within the 10d budget). The fallback message now names the hand stamp. Falsified with stale, fresh, disagreeing-date, missing-market and duplicate cases; 66 tests pass; the boot Instrument Check is FINDINGS → WARNINGS. Still open: `last_verified` on COT-FUEL-35B stays 2026-09-06 (a human stamp, not re-stamped, since the probe no longer depends on it).
+1. ✅ **DONE 9/28 15:20 ET (`b5ef00d45`):** the COT probe "stale 9/06" was a false alarm. The `http:` probe carries no date, so the check fell back to the row's hand stamp (`last_verified` 2026-09-06) and printed it as a datapoint. Fixed: a new `cftc:` probe reads the report date live (now 2026-09-22, 6d, within the 10d budget). The fallback message now names the hand stamp. Falsified with stale, fresh, disagreeing-date, missing-market and duplicate cases; 66 tests pass; the boot Instrument Check is FINDINGS → WARNINGS. Still open: `last_verified` on COT-FUEL-35B stays 2026-09-06 (a human stamp, not re-stamped, since the probe no longer depends on it).
 2. **Tue 9/29:** last BZX26 settle; HENRY's blind BRT-12 verdict due. **Wed 9/30:** BZZ26 becomes the graded month (the rule). PROME re-pins FORGE (L461).
 3. **Wed 9/30 ~10:30:** grade **BRT-29** at the WPSR wk-9/25 (T needs ≤7,555 kb/d) and **BRT-12** under the 8/13 rule. PREP: `setups/2026-09-25_Q3-predictions-grade-PREP.md`.
 4. **Fri 10/2:** COT #8 (as-of 9/29), graded the same day. **Sun 10/4:** OPEC+. **~Mon 10/5:** Aramco Nov OSP plus European term allocations: the first test of the Yanbu-resumption report. **10/06:** L471 sitting. **10/24:** WQ-264 shadow run ends.
