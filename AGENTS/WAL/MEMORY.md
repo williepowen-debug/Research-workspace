@@ -20,7 +20,15 @@
 
 ---
 
-**LAST SESSION (2026-09-27 Sun — WAL session #8, Will-launched boot, then a PROME commission `17a205519`, ~12:14–14:xx ET, LAPTOP):**
+**LAST SESSION (2026-09-27 Sun — WAL session #9, Will-launched boot → 3 PROME CRE-transmission legs, LAPTOP):**
+
+- **Boot:** pull BLOCKED (OZK then FLG uncommitted trees on the box — concurrent agents; did NOT pull, booted from HEAD). Corrections check rc=1 → cleared: COR-05 + COR-06 receipted APPLIED. Inbox drained (CATO NB6/NB3 + 3× DEWEY → processed).
+- **Fold `577ae167e`:** softened Nano lien-ownership to CONDITIONAL per DEWEY 27b (supersedes O1-O3) + CATO — ownership AT FAILURE (9/25) NOT established for any of the 4 DOTs; dual perimeter preserved ($72.4M gross + $64M liens; $173.0M claim ≠ booked). KB-205 Notes corrected; KB-209 added (life-sci CRE); mirrors synced to KB 209.
+- **PROME legs (Will 17:24 → CRE→bank-loss transmission, 5 desks, REGINALD integrates):** (1) transmission leg `56390ca84` — Nano/fraud = V2 EXCLUDED (~0% forward EV, recovery-only); broader CRE (office/$99M life-sci) = the entire live bear (~16% bear-medium). (2) WQ-312 Q2 workout rows `171338055` → REGINALD — H1 losses 58% fraud/C&I, CRE legs $0 loss/OPEN, disposition coverage UNDISCLOSED. (3) life-sci appraisal base rate `db9a46e7b` (KB-209) — lab vacancy ~23.5% record, cap 4.4→6.6%; raises appraisal downside, HOLDS bear-medium.
+- **Will asked:** (a) Riverside recorder steps GIVEN (not yet run — his hands); (b) life-sci base rate DELIVERED. Assignment CLOSED by Will 21:16 ET.
+- No thesis move; no score/threshold/gate/trade touched all session.
+
+**PRIOR SESSION (2026-09-27 Sun — WAL session #8, Will-launched boot, then a PROME commission `17a205519`, ~12:14–14:xx ET, LAPTOP):**
 
 - **Boot:** no pull needed (origin == HEAD). Checks clean except PREDICTIONS header +35d (sweep clock refreshed, no row changed) and one fleet ALL-row correction warning (COR-20260925-13, HY 280 arbiter, not WAL). Nothing Will-gated.
 - ★ **Nano Banc (closed 9/25, FDIC receiver) — the Stupin recovery leg, delivered COMPLETE, accepted by PROME.** Record `research/2026-09-27_nano-banc-receivership-stupin-recovery.md`; KB-WAL-201…204.
@@ -31,7 +39,13 @@
   - WAL-01/02 + ROLL70-EXIT **no change**; 10-Q frame §8 has one non-gating annotation (no grading cell touched).
 - **STATUS re-based** on the 9/25 close; INDEX mirror-synced; inbox drained (WALTER -004/-005 rowed; PROME WQ-295 → **cadence declared EVENT-DRIVEN** + 5 watch terms; DAEDALUS market.py note filed).
 
-**NEXT SESSION — re-ranked 2026-09-24 closeout (session #7):**
+**NEXT SESSION — re-ranked 2026-09-27 closeout (session #9):**
+
+**★N-NEW-1. PROME CRE→bank-loss transmission SYNTHESIS is pending** (`PROME/reports/2026-09-27_cre-to-bank-transmission-SYNTHESIS.md`) — watch for any WAL follow-up it raises; my 3 legs (56390ca84 / 171338055→REGINALD / db9a46e7b) are delivered.
+**★N-NEW-2. Locate the $99M building + verify life-sci lab vacancy at a PRIMARY** (CBRE/Cushman/JLL for the actual submarket) — the highest-value unknown for the appraisal base rate (research/2026-09-27_life-science-appraisal-base-rate.md; KB-209 is B2 secondary). Route: LEED × gateway-market press + Q3 deck/10-Q credit detail; origination LTV sets the loss buffer.
+**★N-NEW-3. Riverside recorder search — WILL AGREED, steps given, NOT yet run** (Moreno Valley, `webselfservice.rivcoacr.org`, "NANO BANC", 1/1/2025–9/25/2026). Ask at boot; fold to KB-205 + recovery §8. Tue 9/29 13:30 PT Ontario hearing (L517) may clarify Ontario only.
+
+*(prior ranking, still live below):*
 
 **★N-0. ✅ DEWEY O1–O3 FOLDED 9/27 (+ own RECAP read, KB-208). ⚠️ NEXUS_BRIEF is 32,455 B, 95 B under the read cap: TRIM before adding anything.** (research §8, KB-205…207). **Follow-ups:** (a) **Tue 9/29 1:30pm** Plaza Continental hearing (8:26-bk-10986): does the FDIC-as-receiver or Sunwest appear for Nano's Ontario lien? (b) WAL's remand motion in adversary 8:26-ap-01076-SC — search THAT docket, not LA Superior. (c) Bridge WAL's $173.0M Stupin claim to the $98.6M balance (read Claim No. 5 if accessible; never infer). Stupin's own schedules (Doc 57, 5/15/2026, free on CourtListener): assets $92.2M, secured $38.6M, scheduled unsecured $39.2M EXCLUDING WAL (listed "Unknown", disputed) => KB-WAL-208. (d) ★ **WILL AGREED (9/27) to run the Riverside recorder search NEXT SESSION. Ask him for it at boot.** Give him the steps: `webselfservice.rivcoacr.org` → Name Search "NANO BANC", 01/01/2025–09/25/2026 → look for Assignment of DOT / Substitution of Trustee / Notice of Trustee Sale / Reconveyance / Trustee's Deed; he pastes or screenshots; fold into KB-205 + research §8. Riverside = Moreno Valley. Bellflower needs an in-person LA RR/CC search. WAL does NOT attempt the CAPTCHA itself. Alessandro schedules (8:26-bk-12516) are not on RECAP; re-check there first. (e) Any avoidance action filed against the Cantor V liens.
 **★N-1. ⏱ From ~Fri 10/2: check the WAL IR feed for the Q3 date EVERY business day; on announcement pin it in `Q3_PRINT_GRADING_FRAME_2026-09-24.md` §9 and re-pin WAL-01/02 `Resolve_By`.** (Checked 9/24 08:49 ET: not announced.) Then watch EDGAR from ~10/24 for the 10-Q and pin it in the 10-Q frame §8.
