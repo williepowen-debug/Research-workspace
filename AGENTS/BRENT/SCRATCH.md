@@ -1,47 +1,66 @@
-# BRENT SCRATCH — September 28, 2026 (Monday; live session brent-d2, Will-launched 14:34 ET, PROME-doorbelled 14:3x; first closeout commit 14:49 ET `ebc3fb7c7`; final closeout written 15:54 ET by `date`)
+# BRENT SCRATCH — September 28, 2026 (Monday; brent-d2 PM leg, Will-directed 16:22 ET; closeout written 17:12 ET by `date`)
 
-## CHANGES SINCE LAST SESSION (9/25 17:2x → 9/28 14:34)
-- **Iran 7-day Hormuz plan.** Timeline agreed with HAWK: private remarks Thu 9/24, public confirmation Fri 9/25 07:14 EDT, Trump rejects Sat 9/26, Araghchi says nothing has come via the mediators Sun 9/27. Also Sun 9/27 14:37 EDT: Trump tells Axios he expects talks this week.
-- **Monday routine** ran ~09:5x (`66eefde69`) and flagged the Nov/Dec split to PROME. Its errors are now corrected in-file: the "Fri 9/26" weekday, the "first sub-$100" claim, and "Dec is front".
-- **Bloomberg 9/28:** Yanbu exports resumed after a 17-day halt. One anonymous source; Aramco did not comment.
+*Two sessions ran today. The earlier leg (14:34–15:54 ET) is recorded in STATUS § September 28 (live, 14:34) and in commits `ebc3fb7c7` … `2c13f086c`. Its still-open items are carried below.*
+
+## CHANGES SINCE LAST SESSION (15:54 → 16:22 ET, plus what the earlier leg missed)
+- **Trump on record Sun 9/27 17:55 EDT** (Fox, Presidents Cup; Bloomberg/Yahoo, read at the page): a US diesel export ban is under consideration, *"we're looking at it very seriously — we may do it."* The earlier leg didn't have this.
+- **White House (anonymous official), Mon 9/28 15:53 (Yahoo):** "No policy decision has been made."
+- **Wright (UN):** "avoid a blunt hammer"; voluntary curbs.
+- **WALTER -008** (Marines injured 9/14; IRGC's 19-ship claim) and **-010** (SPR; Goldman's ban scenario) landed. WALTER withdrew -010 (A) itself at 20:09Z.
 
 ## WHAT I DID THIS SESSION
-- **Boot:** rc=2, the standing set (TRADE.md and INCIDENTS 9d stale). The COT instrument probe reads STALE, "newest 9/06" — not investigated (see next-session item 1). Inbox: WALTER -007 acted, WALTER -001 acted (no gate consequence, answered by message). Corrections check rc=0.
-- **Settles published** (settle-window proxy, yfinance VWAP 14:28–14:29; CME blocks this box): BZX26 105.29 · BZZ26 97.83 · BZF27 94.35 · CLX26 92.58 · CLZ26 89.00 · HOX26 4.4955 · HOZ26 4.3691 · RBX26 3.1581. Nov ULSD crack $96.23 vs Dec $94.50: they straddle F1's $95.
-- **RULE:** BRENT GRADED-CONTRACT RULE in the `workbook/REGISTRY.tsv` header, answering PROME's doorbell. It points to TRACKER. Sized: the 9/30 switch changes no Brent line's state.
-- **Found and recorded late:** Dated Brent was above the $120 line on 9/14–9/17 (peak $130.80), and the desk never logged it as a crossing. Now in STATUS, CHANGELOG and TRACKER.
-- **L471 position packet** sent to PROME/inbox. Timeline aligned with HAWK by message.
-- **After the first closeout (Will-directed):**
-  - **COT probe fixed:** the `cftc:` probe reads the report date live (15:20, `b5ef00d45`).
-  - **News sweep** (15:26–15:29, `f43f0aea2`): settles validated within 2¢ (Brent 105.28 / WTI 92.60); Petroline ~3.5 mb/d reported (Bloomberg, unnamed sources); Russia producer diesel ban 9/30 row added to CATALYSTS; WALTER -003 deferred.
-  - **WQ-319 Iraq export confirm** sent to HAWK (15:31, `3b5a9b80d`).
-  - **Stamp fix:** 12 typed stamps corrected to commit times; the memory now has n+7 (`2c13f086c` parent).
+- **Boot** rc=2, the standing set: TRADE.md, INCIDENTS and COT_VINTAGES stamps stale; ledger nudge. Corrections rc=0.
+- **Post-settle tape 16:12:**
+  - BZX26 105.72 · HOX26 +1.5% · RBX26 −0.8% · NG −2.7%.
+  - Matched cracks: Nov ULSD $97.33 / Dec $95.91 · Nov gasoline $39.93 · BZ Nov−Dec +$7.51.
+  - EIA retail wk-9/28 was NOT published at 16:25.
+- **Export-ban risk read:** [note](research/2026-09-28_us-diesel-export-ban-risk.md) plus [source file](research/2026-09-28_us-diesel-export-ban_source-research.md), written by an Opus subagent; I re-read the key quotes at the page.
+  - Exports ≈ 30% of distillate output.
+  - [EST] Gulf Coast storage full ~2–5 weeks after a ban.
+  - F1's $1.23 cushion disappears in under a week of Goldman's stage 1.
+  - Boundary #6's ≥$50 leg is hit ~1 week into stage 2.
+- **Packets (committed):**
+  - WALTER `6691e5661`: answer to -010 (B); doorbelled, since walter-f8 is live.
+  - TERRY `4f92f6a15`: card input. TERRY is DARK and the packet carries no ASK, so rule 6b doesn't fire; TERRY reads it at next boot.
+- **Rotations (verbatim, crc checked):**
+  - STATUS 9/25 PM block → `archive/STATUS_dated_2026-09-25_PM.md` (1,927 B, `349f7392`).
+  - NEXUS 11 rows → `archive/NEXUS_BRIEF_rows_2026-09-10_to_09-23.md` (4,196 B, `e785caa2`).
+- **Inbox:** -008 noted, -010 acted; both are in board_log and `git mv`'d.
 - **$0. No trade, band, grade or thesis change.**
 
 ## ⚠️ MY ERRORS / NEAR-MISSES
-- **The routine's weekday slip propagated:** my file said "Fri 9/26", PROME copied it into its doorbells, and PROME's own correction then said "Sun 9/28". HAWK had one too ("Thu 9/25"). L24 would have caught all three. Weekday-check every date in a timeline.
-- **Registered line missed for 11 days:** the physical $120 line crossed 9/14–9/17. The desk saw $130.80 on 9/16 and filed it as a mirror figure. A NEAR THRESHOLDS/BREACH row on the boot board is not a recorded crossing unless someone writes it.
+- **The earlier leg's 15:26 news sweep missed Trump's Sunday on-record remark.** Its SUMMARY said nothing about a ban. The ban was already in my own L477 note (9/25) as decoupling mechanism #2, so the sweep never re-searched it. A known risk named in a note is not a monitored risk.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. ✅ **DONE 9/28 15:20 ET (`b5ef00d45`):** the COT probe "stale 9/06" was a false alarm. The `http:` probe carries no date, so the check fell back to the row's hand stamp (`last_verified` 2026-09-06) and printed it as a datapoint. Fixed: a new `cftc:` probe reads the report date live (now 2026-09-22, 6d, within the 10d budget). The fallback message now names the hand stamp. Falsified with stale, fresh, disagreeing-date, missing-market and duplicate cases; 66 tests pass; the boot Instrument Check is FINDINGS → WARNINGS. Still open: `last_verified` on COT-FUEL-35B stays 2026-09-06 (a human stamp, not re-stamped, since the probe no longer depends on it).
-2. **Tue 9/29:** last BZX26 settle; HENRY's blind BRT-12 verdict due. **Wed 9/30:** BZZ26 becomes the graded month (the rule). PROME re-pins FORGE (L461).
-3. **Wed 9/30 ~10:30:** grade **BRT-29** at the WPSR wk-9/25 (T needs ≤7,555 kb/d) and **BRT-12** under the 8/13 rule. PREP: `setups/2026-09-25_Q3-predictions-grade-PREP.md`.
-4. **Fri 10/2:** COT #8 (as-of 9/29), graded the same day. **Sun 10/4:** OPEC+. **~Mon 10/5:** Aramco Nov OSP plus European term allocations: the first test of the Yanbu-resumption report. **10/06:** L471 sitting. **10/24:** WQ-264 shadow run ends.
-5. **Rotate:** STATUS at 84% (rotate the 9/25 PM block). NEXUS_BRIEF at ~32.1 KB against the 32,550 B cap: compress it first next session.
-6. **Today's EIA retail print** (out this afternoon): regular was $4.478 on 9/21 against the $4.50 line. Read it next session.
+1. **Tue 9/29:** last BZX26 settle. HENRY's blind BRT-12 verdict is due.
+2. **Wed 9/30 ~10:30:**
+   - Grade **BRT-29** (T ≤7,555 kb/d) and **BRT-12** (8/13 rule). PREP: `setups/2026-09-25_Q3-predictions-grade-PREP.md`.
+   - **Also read distillate exports wk-9/25** against 1,331 kb/d (4-wk 1,559). A sharp drop means the voluntary curb is biting.
+   - BZZ26 becomes the graded month.
+   - Russia's producer diesel ban expires; read the decree.
+3. **Any day:** an export-ban executive order. That is an IMMEDIATE read of F1, HEN-46 and boundary #6, with packets to TERRY, HENRY and WALTER.
+4. **Read the EIA retail print wk-9/28** (it wasn't out at 16:25 9/28). Regular was $4.478 against the $4.50 line.
+5. **Fri 10/2:** COT #8. **Sun 10/4:** OPEC+. **~Mon 10/5:** Aramco Nov OSP. **Tue 10/6:** L471 sitting. **Sat 10/24:** WQ-264 shadow run ends.
+6. **Rotate:**
+   - STATUS is still at **91%** (29,589 B). The rule-5 stop is <70%, so rotate the 9/28 14:34 block's detail once 9/30 supersedes it.
+   - NEXUS is at 29,966 B (92%). Its VIEW section is 9/10 vintage and stale: rewrite it.
+   - TRADE.md is at 81% and 12 days stale.
 
 ## OPEN THREADS / WATCHES
-- 🔴 **Yanbu:** resumption REPORTED (Bloomberg, anonymous). No operator figure. Tracker class is confirm-only. The successor resolver registers after 10/24.
-- 🟠 **INCIDENTS:** owed after a primary check and HAWK STRIKES.tsv: OSPREY tape (Kuibyshev/Ufa 9/22), **Novoshakhtinsk 9/25 (new row) and Ilsky 9/26 (update RF-050)** (WALTER -003, deferred). 11 ACTIVE rows past 60d.
-- 🟠 **Wed 9/30 Russia producer diesel ban expiry:** read the decree (CATALYSTS row added 9/28). **Energy credit:** HY OAS 293 (9/25) is LIQUID's; check the energy-specific leg.
-- 🟠 **TRADE.md** 9d stale at 81%: pre-9/12 history rotation offered to Will twice, no answer. USO Sep-16 165C disposition is still Will's (WQ-169).
-- 🟡 Data gap: CME settlements block automated access; the paid EOD feed vs manual glance question is still undecided with Will.
-
-- 🟡 **Reopening copy (Will via HAWK KB-HAWK-424, 9/28, verified at `86e7572d9`):** verify the ORIGINAL publication date + EVENT date. A pre-acceptance reopening is NOT automatically recycled (a partial or unilateral reopening can happen without a deal). My sentinel ⑤ (US-authority 'open' = legal, not throughput) is unchanged. WQ-319 Iraq export consumer-confirm DONE 9/28 (secondary sources; SOMO primary and the production leg not read) → packet in HAWK's inbox.
+- 🔴 **US diesel export ban:** policy unset.
+  - Refiners' response to voluntary curbs is the biggest unknown.
+  - Legal route: IEEPA plus an executive order, per the researcher; not counsel-verified.
+- 🔴 **Yanbu:** restart REPORTED (Bloomberg, anonymous; ~3.5 mb/d Petroline). No operator figure.
+- 🟠 **INCIDENTS owed:** Novoshakhtinsk 9/25 (new row), Ilsky 9/26 (update RF-050), OSPREY's Kuibyshev/Ufa. 11 ACTIVE rows past 60 days.
+- 🟠 **Energy credit leg:** HY OAS 293 (9/25) belongs to LIQUID.
+- 🟠 **USO Sep-16 165C disposition:** Will's (WQ-169). TRADE.md rotation offer is unanswered.
+- 🟡 **Data gaps:** CME settlements are blocked on this box. ICE gasoil is not in the kit, so the HO−gasoil spread can't be measured.
+- 🟡 **COT-FUEL-35B `last_verified`:** hand stamp 9/06, left deliberately.
 
 ## POSITION DECISIONS PENDING
-- None new. USO 37 sh (USO $148.70 at 14:35 ET, yfinance). VLO 1 held + 2 staged (TERRY/Will). WQ-192 stand-down holds.
+- **None new.** USO 37 sh (USO $150.01 at the 9/28 close, yfinance). VLO 1 held (fill $412.00; $389.57 on 9/28, −5.4%) + 2 staged (TERRY/Will). WQ-192 stand-down holds.
+- The ban risk goes to TERRY as card input only.
 
 ## MAIL STATE
-- Inbox: **empty** (3 consumed = 3 board_log rows, all git mv'd; -003 deferred with row).
-- Sent: PROME (L471 position packet, closeout memo, stamp-correction message) · HAWK (timeline ×2, WQ-319 packet) · WALTER (-001 answer). Outbox: no open packets.
+- **Inbox:** clear. 5 consumed today = 5 board_log rows. -003 remains deferred, with its row.
+- **Sent:** WALTER (-010 B answer, doorbelled) · TERRY (card input). Outbox: no open packets.
