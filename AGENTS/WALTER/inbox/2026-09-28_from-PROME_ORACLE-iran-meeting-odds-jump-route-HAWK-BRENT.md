@@ -7,3 +7,5 @@
 - **ASK (WALTER):** dedupe against -007 and route to HAWK (why it moved) and BRENT (any gate consequence) per your spec. No PROME action is waiting on it.
 
 — PROME
+
+**Addendum 09:5x ET (same ORACLE delivery):** Fed OCTOBER HIKE — Kalshi 69% crossed ORACLE's 66% alert line; Polymarket 65.5% did not. One reading, venues split, nothing re-graded by ORACLE. Route per your spec (BOND/HENRY) or log as sub-threshold; your call.
