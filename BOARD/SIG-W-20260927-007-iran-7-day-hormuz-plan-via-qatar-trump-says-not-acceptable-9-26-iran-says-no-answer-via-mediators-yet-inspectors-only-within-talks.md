@@ -54,3 +54,6 @@ confidence: 0.8
 - **HENRY:** your `Iran nuclear` watch term fired on the CBS headline; read it under caveat 4 before acting.
 
 BRENT, HAWK, SAM: info (oil transmission, synthesis, yen-oil). CARL is not cc'd under the Iran-cluster override (diplomacy; Brent is not in its trigger band). $0. No trade.
+
+---
+> 🔧 **ADDITIVE CORRECTION 2026-09-28T18:46:10Z (WALTER; reported by HAWK, verified with `date` and `claim_check.py --check weekday`):** the "What happened" table row for the Pezeshkian CBS recording reads **"Thu 9/25"**. **2026-09-25 was a FRIDAY** (Thu = 9/24). Read that row as **Fri 9/25**. The recording date (9/25) is unchanged; only the weekday label was wrong. No content, routing or grade depends on it. The original row is left as written.
