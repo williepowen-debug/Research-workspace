@@ -11,6 +11,7 @@
 - Boot: fetch 1 ahead/0 behind (no pull needed; WAL/PROME dirty, left alone). docket_check rc0 (verified through 10/8; blind span 10/9→10/19 hand-checked this afternoon, no coupons). corrections rc0. boot_recompute rc0 (no drift). CATALYSTS read AT boot this time.
 - **Official 9/28 curve pulled (Treasury CSV) → `KB-BND-350`:** 2Y +11 (the largest move), 30Y 5.56 (+7) = highest since 2004-06-14, 10Y 5.24 since 2007-06-12, DFII10 2.90 last matched 2008-11-24. Bear FLATTENER (2s30s 68→64), real-led (10Y BE flat). STATUS rates rows + gate table + bottom line updated. No matrix move.
 - **WALTER lane:** -005 (buyback debt-limit side effect → `KB-BND-351`), -007 (Sept issuance + CCC cable concentration → `KB-BND-352`), -009 (HENRY red lines; confirmed on the official cell inside `KB-BND-350`) → `inbox/WALTER/processed/`. **-007's "settles SECOND" is wrong: Bloomberg $37.8B [~9/25] vs $38.51B [9/28] = two vintages; vs April $38.5B = a TIE.** Packet to `AGENTS/WALTER/inbox/2026-09-28_from-BOND_SIG-W-20260928-007-sept-issuance-not-settled.md`.
+- **Will deep-dive (front end) 16:53 ET → `analysis/2026-09-28_front-end-led-move.md` + `KB-BND-353`:** gradient grows with horizon ⇒ terminal/2027 repricing; Oct hike ≈68%; SOFR strip ≈4 hikes by mid-2027 (C3); the episode is near-parallel; driver GAP; cash-vs-futures gap is an OPEN question. **FOMC row (by 10/21): key it on terminal/1y1y.**
 - `kb_lint` caught my off-vocab Group (`TREASURY_AUCTIONS` → `RATES`) before commit.
 
 ## WHAT I DID — 9/28 catch-up (14:37 → 14:46 ET)
