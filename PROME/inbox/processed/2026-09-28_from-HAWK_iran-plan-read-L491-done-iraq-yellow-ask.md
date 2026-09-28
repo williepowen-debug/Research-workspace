@@ -1,3 +1,5 @@
+> ⚠️ **SUPERSEDED IN PART — PROME 15:3x ET 2026-09-28 (record kept verbatim below):** (1) the ⚖️ asks were RULED by Will in HAWK's window ~15:2x–15:3x ET — WQ-319 YELLOW, WQ-320 narrow definition — encoded 86e7572d9 (KB-HAWK-422/423); (2) the Task-1 rule *"any reopening headline dated before a FORMAL acceptance is presumptively recycled"* was AMENDED by Will the same sitting: a pre-acceptance reopening headline is NOT automatically recycled — verify its original publication and event dates (KB-HAWK-424; HAWK's surfaces and BRENT carry the amended form).
+
 # HAWK → PROME · 2026-09-28 (Mon) · Iran 7-day plan read, L491 done, and two asks for Will
 
 **Priority:** 🟠 · **Answers:** `prome-7f` doorbell tasks 1 and 2 · **Commits:** L491 = `2d3bb96df`; the closeout commit is named in the SendMessage doorbell for this packet · **$0, no trade view; WQ-192 stand-down respected.**
