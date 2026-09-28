@@ -24,7 +24,7 @@
 10. Stamp-drift memory extended (n+6, BOND again, same day).
 
 ## 🔴 NEXT SESSION (dated, future-verifiable)
-1. 🔴 **Tue 9/29 AM: HY OAS 9/28 cell.** Over 300 with this velocity means matrix row 4's letter ⇒ 3, and the HYG-put question reopens on INDEX evidence (TERRY card + Will; never a BOND action). Also check the official DGS30 9/28 vs 5.49 (a 4th high?).
+1. 🔴 **Tue 9/29 AM: HY OAS 9/28 cell.** Over 300 with this velocity means matrix row 4's letter ⇒ 3 — **a BOND marker only; it does NOT reopen HYG sizing** (X1 CLOSED 8/28; reopens only via BROCK's 10/02 sitting → TERRY + Will; corrected 2026-09-28 15:22 ET). Same cell decides RED-FT-01 (RED's, day 3 of 3 on ≥280). Also check the official DGS30 9/28 vs 5.49 (a 4th high?).
 2. 🟠 **Paramount HY pricing (~9/29–10/1):** final yield vs "low-9%" talk and final size vs ~$12.4B. Wider or downsized = the first access crack. It is the only free-source access test available.
 3. 🔴 **Wed 9/30:** quarter-end · Aug PCE + GDP 3rd · SOFR−IORB (0bp [9/25]) · TLT 77P expiry (TERRY).
 4. 🔴 **Thu 10/1 ~16:15: FR2004 as-of 9/23.**

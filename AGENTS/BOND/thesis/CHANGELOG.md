@@ -4,6 +4,10 @@ Version history for `thesis/THESIS.md`. Newest first. Bump rules: **major (X.0)*
 
 ---
 
+### v1.2.9 dated note — 2026-09-28 15:22 ET (wording correction, no version bump)
+
+**HYG puts / HY 300:** the position-rationale line said HY reclaiming 300 with velocity would "reopen" HYG puts. **Corrected:** that re-arms BOND's *analytical* watch (matrix row 4) only. The capital/sizing question sits behind LIQUID's X1 gate, CLOSED 2026-08-28 (BROCK `KB-BRK-219`), and reopens only via BROCK's 10/02 re-adjudication sitting, then TERRY + Will. No conviction change, no threshold moved, no position, `$0`. `KB-BND-348`.
+
 ## v1.2.9 — 2026-09-28 (**two Will rulings encoded; `BND-27` FALSE — credit joins the rates sell-off**)
 
 **Old view → new view:** the DFII10 add-gate's "sustained" had no count (unfireable as written) and the Sept-4 kill's dealer leg named no FR2004 bucket for a 5Y fire. **Both now ruled (Will 2026-09-26 15:54 ET, encoded 9/28 — ~43h late, BOND dark):** sustained = 5 consecutive published H.15 closes ≥2.50 (reset on any close below; no back-scoring; NO-ADD unchanged); 5Y dealer leg = FR2004 3–6Y, trade-date window, MET iff Δ ≥ +$8.6B, with riders — net inventory is not proof of warehousing, the funding window stays UNGRADED, and the rule makes no predictive claim (`KB-BND-342`).

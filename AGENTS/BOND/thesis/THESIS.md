@@ -109,7 +109,7 @@ BOND owns the **market-structure transmission layer** — how the bond market's 
 
 **2. Position-specific:**
 - **TLT puts:** kill if 10Y <4.15 AND 30Y <5.0 for 3 sessions AND a clean refunding. **Re-arm conditional-add only on a composition failure at a coupon auction — indirect below that tenor's trailing-12 min AND dealer above its trailing-12 max** *(per-tenor, re-specified 8/18 with the thesis kill above — it had inherited the same hardcoded 7Y numbers)* *(was: "a fresh real tail >1.5bp + weak indirect <60%" — the tail leg was unscoreable and the 60% indirect leg was mis-calibrated, since 59.24% printed on 7/27 with demand plainly intact)*.
-- **HYG puts:** June leg expired; stay closed — reopen only on HY OAS reclaiming 300 with velocity.
+- **HYG puts:** June leg expired; stay closed. HY reclaiming 300 with velocity re-arms BOND's **analytical** watch only — ⛔ *(dated note 2026-09-28 15:22 ET)* the capital question is gated by LIQUID's X1, CLOSED 8/28 (`KB-BRK-219`), and reopens only via BROCK's 10/02 re-adjudication sitting, then TERRY + Will.
 
 **3. Convergence downgrade (trim/de-escalate):**
 - Long-end vector → 2 when 10Y <4.5 **AND** 30Y <5.0. ⚠️ **NOT currently met** — the "✅ met 6/15" stamp that sat here read as though the condition were live; both legs have been decisively breached since. Live → STATUS.
@@ -141,7 +141,7 @@ Five spec changes were pre-committed on 2026-07-28 "for next session" and went *
 | Metric | Threshold | Implication |
 |---|---|---|
 | HY OAS | >350 / >500 | Issuance freeze / forced selling |
-| HY OAS | >300 ×3 sess | Credit watch reopens |
+| HY OAS | >300 ×3 sess | Credit watch reopens (analysis; NOT a sizing reopen — X1 gate) |
 | 5Y BTC | <2.3x | **Cover marker — NOT by itself a demand hole.** *(Empirically corrected 7/28: this line used to read "demand hole — mechanism stressed." The 7/27 5Y printed **2.28 and the mechanism did not fail** — indirect rose with duration, dealers were not stuffed. A cover breach escalates the vector; only a composition failure kills the thesis.)* NB: secular BTC decline ~3.0→2.5 per GAO, so 2.3x sits just under the new norm. |
 | **Auction composition** | **indirect below the tenor's trailing-12 MIN _and_ dealer above its trailing-12 MAX** (of competitive accepted) | **End-demand weakness — THE demand-hole test.** ⚠️ **Stated as the RULE since 8/18; it previously read "indirect <56.4% AND dealer >13.2%" — the *7Y* instance — directly beside its own instruction not to reuse the 7Y numbers.** Current per-tenor mins/maxes (trailing-12, n=12): **3Y** 53.99 / 19.50 · **10Y** 63.95 / 16.16 · **20Y** 55.17 / 17.59 · **30Y** 59.52 / 17.46 · **7Y** 56.42 / 13.14. **Re-derive at each grade — these drift.** |
 | ~~Auction tail~~ | ~~>2bp + dealer spike~~ | ❌ **RETIRED 7/28 — UNSCOREABLE.** No when-issued published by TreasuryDirect; a tail cannot be graded from primaries. Wire-reported tails are `[med-conf]`, recordable in notes, and **may never fire a gate.** |
