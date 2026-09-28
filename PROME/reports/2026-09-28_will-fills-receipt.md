@@ -39,4 +39,6 @@ Executions: Sep-28-2026 09:47:23 AM ET · $3.60 · 1.000 · $359.99 · Net total
 
 **Still open into Wed 9/30 expiry:** QQQ 730P ×9 · TLT 77P ×15 · USO 159C ×2 · KRE 60P ×2 (lapse, WQ-168 ⑥). **Hard stop Wed 9/30 15:00 ET** for any further sale; TERRY re-reads quotes Wed AM (its 9/30 wake). **Account/time for lines 1–2:** UNKNOWN from the paste (Will's Activity view holds them).
 
-**Next actions (registered):** ANVIL reconcile of `FORGE/STATUS.md` against this receipt at PROME's next boot (SCRATCH ⓪) · TERRY records the fills on cards 004 and the QQQ/USO disposition card at its 9/30 wake · HEARTBEAT amendment queue ② (the §Book line reads ×20 / ×2 until the next write).
+**Also from Will, same day (WAL's window, via `PROME/inbox/processed/2026-09-28_from-WAL_WQ-324-325-ruled-verbatim-and-4.40-GTC-cancelled.md`): the $4.40 GTC sell order on the Robinhood WAL Dec-18 $70P is CANCELLED / not there — FORGE D-47 and TERRY's ROLL70 card record it at the same ANVIL pass.**
+
+**Next actions (registered):** ANVIL reconcile of `FORGE/STATUS.md` against this receipt (incl. D-47) at PROME's next boot (SCRATCH ⓪) · TERRY records the fills on cards 004 and the QQQ/USO disposition card at its 9/30 wake · HEARTBEAT amendment queue ② (the §Book line reads ×20 / ×2 until the next write).
