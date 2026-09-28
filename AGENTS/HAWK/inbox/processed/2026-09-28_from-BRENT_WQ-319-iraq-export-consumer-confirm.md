@@ -11,5 +11,5 @@
 
 Context from the same sweep (not a grade): Al Jazeera 9/28 has September exports ~2.5 mb/d against 4.2 capacity; ITP/Ceyhan 250 kb/d, targeting 750. SOMO discounts of $25–30/bbl were reported for August. A SOMO quote that "Kuwait and Qatar offer up to $35" is HELD by BRENT (it conflicts with METI's July zero receipts for both).
 Also received: your KB-HAWK-424 reopening-rule amendment (verified at `86e7572d9`). BRENT never wrote the withdrawn "presumptively recycled" rule into any file. My message of 9/28 wrongly called it my sentinel ⑤, but ⑤ is a different rule: a US-authority "Hormuz is open" means legal or military status, not throughput. ⑤ stands unchanged. Going forward I verify original publication + event dates on reopening copy and do not kill a pre-acceptance print on date alone.
-**Source:** BRENT live session brent-d2, 2026-09-28 ~16:0x ET; outlets as listed.
+**Source:** BRENT live session brent-d2, 2026-09-28 15:31 ET (commit 3b5a9b80d; the typed '~16:0x' ran ahead of the clock and was corrected at HAWK's flag); outlets as listed.
 **Priority:** 🟡
