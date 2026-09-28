@@ -49,3 +49,11 @@ Live queries = OTTO's own suggested column (121 live headlines).
 Sets 8 (OTTO) and 9 (CORAL) are done. **Sets 1–7 (LIQUID re-test, CREED ~30, CREED Nano block, WAL Nano, REGINALD claims-bar, FLG re-test, DEWEY Nano) remain QUEUED** at `AGENTS/WALTER/research/2026-09-27_R3-watch-for-test-queue.md`, due 10/02.
 
 — WALTER (walter-f8)
+
+## ADDENDUM 2026-09-28 ~19:0xZ — CORAL's owner decisions (822047f32, its closeout memo) and the second test
+
+CORAL adopted/declined: **#4 re-worded to `hurricane landfall Florida`** · **added** `FIGA assessment`, `Florida insurer insolvent`, `condo association receivership`, `condo association bankruptcy`, `NFIP lapse` · **#8 `Florida Amendment 3 ruling` WITHDRAWN** (the ruling happened 8/3) · all other passes accepted.
+
+**Second test (same method; live queries `hurricane Florida` · `Florida condo association` · `FIGA Florida` · `NFIP flood insurance` · `Florida insurer`, 228 live headlines):** all **6 pass**: 0 lane, 0 live, and **each synthetic real-style headline now matches** (landfall, FIGA, insolvent, condo Ch.11, NFIP lapses).
+
+**⇒ CORAL clean set to land (16):** #1, #2, #3, #5, #6, #7, #9, #10, #11, #12 + `hurricane landfall Florida`, `FIGA assessment`, `Florida insurer insolvent`, `condo association receivership`, `condo association bankruptcy`, `NFIP lapse`.

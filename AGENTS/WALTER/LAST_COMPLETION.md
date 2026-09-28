@@ -1,116 +1,102 @@
 # WALTER — LAST COMPLETION
 
-Session: **2026-09-27/28 Sun→Mon, Claude Opus 5.5 as WALTER (`walter-d5`)**, booted 2026-09-27 22:03Z on Will's terminal "please boot up" (**focus: regional banks + CRE**); **TIER-2 CLOSEOUT 2026-09-28T04:23:06+00:00 (written from `date`) on Will's "lets close out here"**. It supersedes the 9/27 `walter-42` record (in git history).
+Session: **2026-09-28 Mon, Claude Opus 5.5 as WALTER (`walter-f8`)**, booted 18:38Z on Will's terminal "please boot up … check for anything owed" (DESKTOP-BC6EF81). **TIER-1 LIGHT CLOSEOUT ~19:0xZ — full Tier-2 deferred.** It supersedes the 9/27–28 `walter-d5` record (in git history; its FOLLOW-UP is carried below).
 
 ## STATUS
 
 **Boot: PARTIAL, gaps named.**
-- **Run:** 0 (ahead 4 / behind 0, no pull needed) · 0.5 doctor (0 HIGH / 6 MED) · 1–4 · 6 (both routing files whole) · 6b (RED scan sha == canon; 12/8/11/17; registries unchanged since 9/26) · 6c (equities + FRED re-pulled 22:0xZ, unchanged; HANS carried at TE 9/25 closes, not re-pulled, markets closed) · 7 (BOARD 1063, no new signals since the last WALTER) · 7b CLOSED · 7d DEWEY Nano handoff (stubs verified, processed) · 7g (FLG packet read whole; wording note integrated; its R3 list queued) · 7e scan (7 NEW) · 7e(f) no phone inbox · 7f empty on this machine · 8 (OZK, FLG) · 9 (liaisons dormant; 0 REQ) · 9a rc 0 · 9b.
-- **Not run / not finished:** 7e routing (lane NOT `--mark`ed) · HANS T-08 storage · the FILTER_SPEC Boot Context scoped reads · `boot_basis_check` REVIEW ×13 and `reads_check` UNKNOWN (attestation stale since 9/15), both still unresolved.
+- **Run:** 0 (0/0 vs origin, no pull) · 0.5 doctor (0 HIGH / 9 MED) · 1–4 · 6 (both routing files whole) · 6b (RED scan sha == canon; 12/8/11/17 rows, unchanged since 9/26) · 6c (equities/futures intraday 9/28 14:40 ET; FRED to 9/25; UK 10Y + Bund TE 9/28) · 7 (no new BOARD since 9/27) · 7b CLOSED · 7d clear · 7g (2 new packets read whole and consumed) · 7e scan → routed → `--mark` · 7e(f) no phone inbox · 7f 2 items processed · 8 (4 rows) · 9 (no REQ; liaisons dormant) · 9a rc 0 · 9b (`ListAgents`: PROME, HAWK, BRENT, CORAL, BOND, WAL live; ORCH_INFLIGHT stale 9/21).
+- **Not run:** HANS T-07/T-08/T-13 re-pull · SKEW (stale 9/25) · CREED rows re-grade (read from its fire log) · FILTER_SPEC Boot Context scoped reads · `boot_basis_check` REVIEW ×13 and `reads_check` UNKNOWN (attestation stale since 9/15; still unresolved).
 
-**Closeout:** Tier 2.
-- Done: 13 REGISTRY (OZK/FLG at boot; PROME/REGINALD/WAL/CREED) · 12(a)/(b)/(d)/(e) STATUS regenerated (the 9/27 17:11Z header, bottom line and network-awareness block rotated VERBATIM to SESSION_LOG) · 12(f) read-cap 0 over budget (STATUS 11,054 B = 34%) · 14 MEMORY session notes (no new durable finding; 15,919 B) · 15 this file · 16 commit/push/reconcile.
-- ⚠️ **SKIPPED, reported as skipped:** the independent end-of-session review (OPEN DESIGN DECISION (k), not adopted).
+**Closeout:** Tier 1. ⚠️ **PUSH DEFERRED** (step 9b(d)/16: foreign uncommitted work live in BOND, BRENT, HAWK, CORAL and others); the next clean-tree session pushes the train. Only the closeout commit itself (STATUS/SESSION_LOG/REGISTRY/this file) waits. STATUS live levels + header + bottom line re-cut (old block rotated VERBATIM to SESSION_LOG) · REGISTRY 4 rows · this file · commit/push/reconcile. **DEFERRED to Tier 2:** MEMORY session notes · NETWORK-AWARENESS regen · full registry refresh · version-drift sweep.
 
 ## CHANGED
 
-- **BOARD 1063 → 1064:** `SIG-W-20260927-008` (UBS). 4 kills (Will batch). 3 handoffs, all on origin.
-- **`SIG-W-20260924-023`:** additive PARTIALLY-CORRECTED banner + `status:` line. **CORRECTIONS.tsv:** `COR-20260927-07` (targets FLG, REGINALD, HOMER; direction HOLD).
-- **Batch manifest BM-20260927-01:** 8/8 closed.
-- **DOORBELL_LOG:** +1 (HANS, not doorbelled).
-- **R3 queue:** rows 6 (FLG re-test, 3 adds) and 7 (DEWEY Nano candidates; overlaps rows 3–5).
-- **REGISTRY:** 6 rows refreshed to 9/27.
+- **BOARD 1064 → 1069:** `-001` … `-005` (below). 18 handoffs. `-0927-007` got an additive weekday note ("Thu 9/25" was a Friday; HAWK-reported, `claim_check` confirmed).
+- **Batches:** BM-20260928-01 (lane, 20/20: 2 DISPATCH, 1 NO-ACTION, 17 KILL) · BM-20260928-02 (drop-zone, 2/2 DISPATCH). Drop-zone files moved to `inbox/WILL/processed/`.
+- **kill_log +12 rows** (incl. the Fed Oct-hike odds: already ours, BOND carries ~70% priced; the Misbar fake-Yanbu-video forward guard).
+- **DOORBELL_LOG +2** (OSPREY `-003`, REGINALD `-004`; neither doorbelled; both L3 fail, cadence computed).
+- **Inbox:** PROME ORACLE-route packet and OTTO R3 packet consumed. **R3 results** for sets 8–9 → `PROME/inbox/2026-09-28_from-WALTER_R3-results-CORAL-OTTO-sets-8-9.md` + OTTO inbox pointer + CORAL by SendMessage.
+- **REGISTRY:** OTTO, BOND, LIQUID, TERRY → 9/28.
 
 ## RESULT
 
-1. **`-008` UBS reportedly weighing a merger to leave Switzerland** (Semafor 9/24, via Seeking Alpha; Morgan Stanley named, StanChart/DB cheaper options; trigger = the upper house backing 90% CET1 on foreign units, ~$20B). **UBS has not confirmed; no talks reported.** → HANS action; LIQUID, REGINALD info; CARL via BOARD pull.
-2. **Will's 8-image batch:** 1 dispatch (UBS) · KILL Maxfield's Nano split (FDIC release: Sunwest bought ~$476M, not $427M; his 25.7% NPL and $114M DIF cost are right and already ours) · KILL CRE opinion essay · KILL NJ flood video · KILL "mortgage demand crashed" (level since 2023; at HOMER) · DUP Nostra (= `-004`) · DUP Elliott Wave CCC chart (= `-002`; different Bloomberg series) · DUP 3000 Post Oak 81% loss (CREED 9/26 map, secondary).
-3. **Rent-freeze wording corrected:** Lantry "did not commit to deciding"; freeze in place for now; no ruled stay denial (THE CITY/Brownstoner, Crain's, Gothamist). Practical effect unchanged.
+1. **`-002` HY OAS 293 bp [FRED 9/25]**, the first print over 280 (+13 on the day). LIQUID (owner, graded 11:3x ET) calls the widening broad and BB-led; X1 stays CLOSED; **RED-FT-01 exit 2 of 3, the 9/28 print decides.** CCC 1,128 (9 bp under its series record). REG-T-03 27 bp away.
+2. **`-001` Polymarket US–Iran meeting by 10/31: 50 → 75.5** → HAWK (why) / BRENT (gate). **BRENT answered: no gate or boundary consequence.** Timing matches Trump telling Axios 9/27 he expects talks this week (via HAWK); cause not established.
+3. **`-003` Novoshakhtinsk (9/25, ~100 kb/d) and Ilsky (9/26) refineries halted** → OSPREY (dark).
+4. **`-004` Apollo/Slok "agentic bank run" frame** → REGINALD for WQ-318 · **`-005` buyback debt-limit mechanism** (pictured $14.29T limit stale; ~$3B headroom per max-$6B op) → BOND.
+5. **R3:** OTTO 9/10 pass (`CVNA earnings` rejected) · CORAL 11/12 pass (`hurricane warning Florida` rejected; 5 recall notes).
 
 ⛔ **No WALTER-scanned registered trigger crossed. $0.**
 
 ## GAPS
 
-- **7e lane not routed** (see FOLLOW-UP #1); deliberately not `--mark`ed.
-- **Doctor MED at close:** 49 handoffs >2d across 14 desks (10 ACTION, oldest 14d; the 9/25 batch crossed the grace period) · the delivery_log NOTE/AMENDMENT rows · CARL-DR-1 10d past deadline.
-- `boot_basis_check` REVIEW ×13 · `reads_check` UNKNOWN (attestation stale since 9/15).
+- Boot gaps above (HANS partial, SKEW stale, CREED not re-graded, basis attestation stale since 9/15).
+- **Doctor MED at boot:** 47 handoffs >2d across 13 desks (8 ACTION, oldest 14d; CORAL was live today and draining its two FL items) · delivery_log NOTE/AMENDMENT rows · CARL-DR-1 10d past deadline.
+- **Closeout commit push deferred** (foreign uncommitted work). All four earlier session commits (e9925bba8, 8dbd4355e, 04a53b85f, 144e099ca) were carried to origin by other sessions' ff-pushes (verified `merge-base --is-ancestor` after a fresh fetch); **15/15 handoffs delivered** (reconcile_delivery_log.py).
+- Handoff consumption not checked for today's dispatches (delivered ≠ consumed).
 
 ## WILL_NEEDS
 
-1. **WQ-295** (the dark-desk class; R3 running without a ruling; queue due 10/02).
-2. **#6/#8 contract-month basis:** interim WQ-252; permanent choice at the 10/06 sitting. BZX26 expires ~9/30.
+1. **WQ-252** (#6/#8 contract-month basis): sitting 10/06; **BZX26 (Nov Brent) expires ~9/30**, so the interim rule carries the gap.
+2. **WQ-295** (dark-desk class; R2 held to 10/02).
 3. CATO registration (WQ-255) · WQ-275 FALCON doorbell · HAWK F1/F2 CHECKLIST proposal (owed by WALTER, RULE 8, not drafted).
-4. **CREED's S8a score** is awaiting Will (CREED's item, noted for visibility).
+4. CREED S8a = WQ-303 (CREED's; visibility only).
 
 ## FOLLOW-UP
 
-1. **Next boot, 7e (lane NOT `--mark`ed):**
-   - Route: Novoshakhtinsk + Ilsky refinery strikes (OSPREY action; HENRY `refinery attack` hit) · UMich 51.7 (HENRY info) · FT 9/27 "private credit turmoil eases as withdrawals slow" + American Banker 9/23 "proposed bank capital rules could deepen private credit ties" (BROCK; REGINALD info on the capital rules) — "already ours?" grep first.
-   - Kill: sofrep "next bank failure" opinion · Cardone "CRE crash" · ACRE price target · the stale 9/26 items (Tlaib 6/26 · SVB-review · CMBS Apr · Novorossiysk Jul · TrendForce Jun · layoffs settlement).
-   - Then `intake_scan.py --mark`.
-2. **7f drop-zone — ON THE LAPTOP** (drop-zone is gitignored and machine-local; Will 9/27 22:16Z: "I think they are on lap top"): `BESSENT bond buying context.JPG` (triaged 9/27: face-value debt-limit mechanism sound; pictured $14.29T limit stale; → BOND with RED-FT-11 context after an "already ours?" grep) and **`AI Agent bank run.jfif` (unread)**. Declare a batch manifest first.
-3. **R3 queue** (`research/2026-09-27_R3-watch-for-test-queue.md`, **7 sets**) by **10/02**. The three R3 packets (LIQUID, PROME/CREED, FLG) stay in `inbox/` until done.
-4. **HY:** the 9/25 FRED print lands Mon 9/28 (FT-01 exit count; X1 needs >280 STRICT AND BROCK's conjunct).
-5. **Nano Banc watch:** 9/29 Plaza Continental hearing (FDIC substitution) · FDIC P&A posting (~10/05–10/09; DOCKET L516, check-by 10/09) · claims bar date · Fed OIG MLR · L515 sale (CREED action / REGINALD info / WAL consumes).
-6. **Rent freeze:** 9/29 screenshot production; 10/01 effective (FLG grades `GATE-FLG-T08`); merits ruling by year-end.
-7. **Iran:** full sweep ~10/01 (+ the 8/28 "Hormuz reopens" date trap).
-8. **Carried (still open):** CORAL dark since 9/13 with two FL ACTION items (`-0925-009`, `-014`) · the YURI routing row (FORMAT_SPEC first) · the WQ-286 ④ CORRECTIONS header line · a doctor step reading recipients' `consumed_at` · the P2 false-positive-rate proposal · HENRY's deferred items · `fetch.py` contract identity (`BZ*.NYM` UNKNOWN).
-9. **Watch:** 9/29 CCL Q3 · **9/30** size checks, Russia diesel-ban expiry, Brent Nov expiry, Iraq pullout · **10/01** NYC rent freeze, CRMT bridge-4, CREED T-01a Trepp print · 10/02 WQ-295 + GATE-BRK-R2 · 10/06 WQ-252 sitting.
+1. **R3 sets 1–7 by Fri 10/02** (`research/2026-09-27_R3-watch-for-test-queue.md`): LIQUID re-test · CREED ~30 · CREED Nano block · WAL Nano · REGINALD claims-bar · FLG re-test (`--live "rent freeze court"`; check `TRO`) · DEWEY Nano (dedup vs 3–5). Method that worked today: lane + `--live` subject queries + `--synthetic` recall controls. The three R3 packets (LIQUID, PROME/CREED, FLG) stay in `inbox/` until done.
+2. **HY 9/28 print (likely Tue 9/29 AM):** RED-FT-01 exit day 3 (RED counts). X1 stays closed per LIQUID.
+3. **Nano Banc watch:** 9/29 Plaza Continental hearing (FDIC substitution) · FDIC P&A posting (~10/05–10/09; DOCKET L516) · claims bar date · Fed OIG MLR · L515 sale (CREED action / REGINALD info / WAL consumes).
+4. **Rent freeze:** 9/29 screenshot production; 10/01 effective (FLG grades `GATE-FLG-T08`).
+5. **Iran full sweep ~10/01:** reconcile the 8/28 "Hormuz reopens" / "US forces clear Iranian sea mines; shipping reopens" headlines (FOX 10, Economic Times; defined at `dff492367` FOLLOW-UP #1, HAWK asked 9/28). Write a guard if real-then-reversed. Also: any "Yanbu hit" video is unauthenticated (Misbar 9/27).
+6. **9/30 size checks:** MEMORY (`stat`, rotate >24,412 B) · THRESHOLD_SCAN · both routing files · Iran anchor.
+7. **Carried (still open):** CORAL's two FL ACTION items (`-0925-009`, `-014`; CORAL live and draining 9/28, verify at its `processed/`) · the YURI routing row (FORMAT_SPEC first) · the WQ-286 ④ CORRECTIONS header line · a doctor step reading recipients' `consumed_at` · the P2 false-positive-rate proposal · HENRY's deferred items · `fetch.py` contract identity (`BZ*.NYM` UNKNOWN, name-cut) · CARL-DR-1 (run or drop).
+8. **Watch:** 9/29 CCL Q3 · **9/30** Russia diesel-ban expiry, Brent Nov expiry, Iraq pullout, Cushing · **10/01** NYC rent freeze, CRMT bridge-4, CREED T-01a Trepp, claims · 10/02 WQ-295 + GATE-BRK-R2 · 10/06 WQ-252 sitting.
 
 ## OPEN DESIGN DECISIONS
 
-- **(k) Independent end-of-session review as a standard step:** proposal to Will (none run again this session).
-- **(n) Mechanize dispatch timestamps** (one `date -u` value written to signal, route_log and delivery_log together). This session did it by hand in one command and it held; the proposal stands.
-- **(j) Scanner coverage for BRENT boundary rows** · **(l) the `board_log` `source` enum** · **(m) a suffix-aware lane matcher** (PROME's).
+- **(k) Independent end-of-session review as a standard step:** proposal to Will (not run this session).
+- **(n) Mechanize dispatch timestamps:** done by hand again today (placeholder + one `date -u` in the committing command) and it held.
+- **(j) Scanner coverage for BRENT boundary rows** · **(l) the `board_log` `source` enum** · **(m) a suffix-aware lane matcher** (PROME's). 🆕 **The lane matcher has no word-form or acronym tolerance** ("insolvent"≠"insolvency", "FIGA", "NFIP", "condo", plural/singular); R3 exposes it per phrase. Recorded, not proposed.
 - **Carried:** seasonal threshold form for #6/#8 · non-uniform inbox addresses · receiving-readiness automation · (a) WALTER on every data day · (b) version_drift prose lines · (c) the delivery_log AMENDMENT row type · (d) the "secret" claims standard · (e) SPR registerability · (g) timestamp discipline · (h) intake retention · (i) source links / CATO lead format.
 
 ## CLOSEOUT RECEIPT
 
-**Issued 2026-09-28T04:23:06+00:00 before the final closeout commit; the listed commits were verified on origin/master by `git merge-base --is-ancestor` after a fresh fetch.** The closeout commit itself (STATUS/MEMORY/SESSION_LOG/REGISTRY/this file) is pushed by `safe-push.sh` in the same step; the next WALTER boot verifies it is on origin by subject.
-- **9/27 handoffs: 32 of 32 DELIVERED** (29 from `walter-42` + 3 for `-008`). Delivered is not consumed.
-- ⚠️ **This receipt does NOT claim:**
-  - that HANS, LIQUID or REGINALD consumed `-008`;
-  - that FLG, REGINALD or HOMER have receipted `COR-20260927-07`;
-  - that the Swiss parliamentary record was read (it was not).
+**Issued at the 9/28 Tier-1 before the closeout commit.** Publication state is verified after the push by `git merge-base --is-ancestor`; this block is re-issued in the same session if a commit is not on origin.
+- **9/28 handoffs: 15 written** (4+3+4+3+1). Delivered = committed AND on origin, reconciled by `reconcile_delivery_log.py` after push. Delivered is not consumed.
+- ⚠️ **This receipt does NOT claim:** that any recipient consumed `-001`…`-005` (BRENT answered `-001` by message); that R3 sets 1–7 were started; that the CORAL/OTTO recall notes are adopted.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-09-28T04:23:06+00:00",
+  "as_of": "2026-09-28T18:55:21+00:00",
   "publication": [
-    {
-      "commit": "2f21cab31",
-      "state": "published"
-    },
-    {
-      "commit": "bba88731b",
-      "state": "published"
-    },
-    {
-      "commit": "fdf45987e",
-      "state": "published"
-    }
+    {"commit": "e9925bba8", "state": "published"},
+    {"commit": "8dbd4355e", "state": "published"},
+    {"commit": "04a53b85f", "state": "published"},
+    {"commit": "144e099ca", "state": "published"}
   ],
   "delivery": {
-    "signal_date": "20260927",
-    "total": 32,
-    "delivered": 32
+    "signal_date": "20260928",
+    "total": 15,
+    "delivered": 15
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {
-            "path": "AGENTS/WALTER/inbox/2026-09-27_from-FLG_WATCH_FOR-R3-retest-list.md",
-            "sha256": "b8378819cdf84563f1bf0d6f109f032e0c9eb52813137412c541e74f8ca77864",
-            "note": "FLG-authored basis for COR-20260927-07 (the -0924-023 wording note) and R3 queue row 6; read WHOLE by WALTER; the wording itself re-verified at THE CITY/Crain's/Gothamist."
+            "path": "AGENTS/LIQUID/STATUS.md",
+            "sha256": "afa54b7b4cbdb2be95035578c1f55d19cc316abadc37014f01c9c883c1ebb585",
+            "note": "LIQUID owner grade of the 9/25 HY cell (L8, commit c637aa7a2): basis for SIG-W-20260928-002's rule counts and BROADENS read; read by WALTER at that line, not re-derived."
       },
       {
-            "path": "AGENTS/DEWEY/output/2026-09-27_nano-banc-primary-documents.md",
-            "sha256": "2b0dac3b963dd4eea97f6d8b7a1912702702b946a9bdd097867ff90060276d14",
-            "note": "DEWEY report behind the processed Nano handoff and R3 queue row 7; WALTER read the HANDOFF whole, NOT this report."
+            "path": "PROME/inbox/2026-09-28_from-CORAL_closeout-memo-15-day-catch-up.md",
+            "sha256": "5bebc9ce24bd5a033d2f2042666dbd60840eb5fbecabd2461c6fa9f7f8fdf883",
+            "note": "CORAL owner decisions on R3 (822047f32): #4 re-word, 5 additions, #8 withdrawn; basis for the results-packet addendum. WALTER read CORAL's SendMessage summary; the memo itself was NOT read whole."
       }
-    ]
+]
   },
-  "next_review": "2026-09-28"
+  "next_review": "2026-09-29"
 }
 END_CLOSEOUT_RECEIPT -->

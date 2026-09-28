@@ -1,3 +1,37 @@
+## 2026-09-28 Mon — `walter-f8` **light-closeout — full deferred** (Tier 1, ~19:0xZ). Booted 18:38Z on Will's terminal "please boot up … check for anything owed". BOARD 1064 → 1069: `-001` Iran meeting odds → HAWK/BRENT · `-002` HY 293 [9/25] record · `-003` Novoshakhtinsk+Ilsky → OSPREY · `-004` Slok agentic-deposit frame → REGINALD (WQ-318) · `-005` buyback debt-limit → BOND. Lane BM-20260928-01 20/20 (17 kills) + `--mark`; drop-zone BM-20260928-02 2/2 (files were on the DESKTOP). R3 sets 8–9 (OTTO 9/10, CORAL 11/12) → PROME. -007 weekday note (HAWK). Fed Oct-hike odds logged as already ours. REGISTRY OTTO/BOND/LIQUID/TERRY.
+
+> **Rotated VERBATIM from STATUS at the 9/28 Tier-1 (the 9/28 00:2x header, bottom line and live-levels table):**
+>
+> **Updated 2026-09-28T04:22:10Z (00:2x ET Mon 9/28, from `date`), TIER-2 CLOSEOUT of `walter-d5` (Claude Opus 5.5; booted 2026-09-27 22:03Z on Will's terminal "please boot up" — focus: REGIONAL BANKS + CRE).** 🔴 **MARKETS: US equities closed since the Fri 9/25 close; FRED rows = latest print (HY/CCC 9/24; the 9/25 print publishes Mon 9/28). Live rows re-pulled 9/27 22:0xZ and UNCHANGED from the 17:11Z cut. EACH CELL SAYS ITS BASIS.** Current obligations: [LAST_COMPLETION.md](LAST_COMPLETION.md).
+>
+> ## BOTTOM LINE
+>
+> **Sunday evening 2026-09-27 (bank/CRE session): BOARD 1063 → 1064, 1 dispatch, 4 kills, 1 correction, no WALTER-scanned fire.** `-008`: **UBS reportedly weighing a merger to leave Switzerland** (Semafor 9/24, unconfirmed by UBS; after the upper house backed 90% CET1 on foreign units, ~$20B) → HANS action (dark, not doorbelled), LIQUID/REGINALD info. 🔴 **`SIG-W-20260924-023` PARTIALLY-CORRECTED (`COR-20260927-07`): Lantry did NOT rule a stay denial — he did not commit to deciding; the freeze stays in place for now; injunction formally unruled** (FLG's note, verified at THE CITY/Crain's/Gothamist). Will's 8-image batch closed 8/8 (Maxfield's Nano $427M/$309M split KILLED against the FDIC's $476M; 3000 Post Oak 81% loss already in CREED's 9/26 map).
+>
+> 🔑 **Fleet context (not WALTER-routed):** PROME's 9/27 CRE→bank synthesis (5 desks): losses CONCENTRATED at named banks (FLG/OZK/EGBN/WAL, each its own mechanism) **as of the 6/30 filings**; the hinge to 'broader' is APPRAISALS (no bank-loan clearing price anywhere). ⚠️ **Lane NOT `--mark`ed** (refinery strikes, UMich, 2 private-credit items for BROCK carried). Two drop-zone items are on the LAPTOP.
+> ## DATED MARKET OBSERVATIONS — re-cut 2026-09-27 (markets closed since 9/25); **EVERY CELL CARRIES ITS OWN BASIS AND DATE**
+>
+> | Row | Dated result and limit |
+> |---|---|
+> | RED-FT-01 / -12 (HY OAS) | 🔴 **280 bp [FRED 9/24]** (API + fredgraph CSV agree 9/27; **9/25 print due Mon 9/28**). AT the line: FT-01 exit `≥280 s3` day 1 of 3 (RED counts) · LIQUID X1 CLOSED (`-0925-013`). FT-12 `<260` 20 bp · FT-02/REG-T-03 `>320` 40 bp · REG-T-04 `>350` 70 bp |
+> | RED-FT-07 (CCC OAS) | **1,112 bp [FRED 9/24]** (2026 high; series max 1,137 [2025-04-07]); FIRING-BANKED; exit `<930 s3` not started. REGINALD `VX-REG-18.04-ESC` re-arm MET 9/24 (`-002`) |
+> | RED-FT-06 (VIX) | **`^VIX` 14.87 [9/25 close, Yahoo]**; VIXCLS latest FRED 14.21 [9/22] (lagging). FIRED-BANKED, exit `≥18 s5` at 0 |
+> | RED-FT-10 (SKEW) | **144.91 [9/25, Yahoo mirror, PROVISIONAL]**. 🟡 5.09 under `≥150`; CBOE is publisher of record; RED owns the count |
+> | RED-FT-11 (UST 30Y) | DGS30 **5.47 [FRED 9/24]** (5.29 [9/22]) = a SELL-OFF, wrong sign for the `≤ −10.2 bp` rally precondition. NOT MET |
+> | RED-FT-08 / -09 | core CPI 3-mo ann. **1.97% [Aug, BLS 9/11]**. **T5YIFR 2.34 [FRED 9/25]**; bar `>2.55 s5` ≈ 21 bp away |
+> | RED-FT-05 / REG-T-05 (claims) | **197K [w/e 9/19]**; bars `>250` / `>300` — no |
+> | 🔴 **Boundary #8** (Brent 3:2:1, matched) | **9/25 close Nov ~49.27** (BRENT's standard: inside the ~$0.80 vendor spread → NOT MEASURABLE); **9/15–9/23 Nov crossing STANDS** (`-0925-002`). **BZX26 expires ~9/30–10/01** (Nov loses its Brent leg); WQ-252 interim to 10/14 |
+> | RED-FT-03 / -04 · #1 / #2 (Brent) | **`BZX26` $104.37 · `BZZ26` $97.47 [9/25 close; 9/27 re-pull 104.32/97.44, vendor]** — both BEFORE Trump's 9/26 rejection of Iran's plan (`-007`). FT-03 `>130` no · FT-04 `<75` no · ⚠️ **9/27 22:0xZ: continuous `BZ=F` now reads $97.44 / −8.59% = the ROLL to Dec (`BZZ26`), NOT a move (ADD#23)** |
+> | Contract identity | **`CLX26` $92.44 [9/25 close]**. Continuous-ticker deltas across a roll are artifacts (ADD#23) |
+> | REG-T-01 / -02 (KRE / WAL) | **KRE $71.55 · WAL $77.61 [9/25 closes]**; REG-T-02 cycle 2 fired 9/1, exit `≥81.90 ×3` 0-of-3 → sub-78 closes are RE-ENTRIES. **Nano Banc failed after the 9/25 close** (`-004`/`-005`) |
+> | REG-T-08 (SOFR−IORB) | **3.88 − 3.90 = −2 bp [FRED 9/24, matched]**; bar `>+15` — no |
+> | Boundary #3 (Cushing) | **23.748M bbl [EIA w/e 9/18]**; next print Wed 9/30; `<20M` 18.7% above |
+> | USD/JPY (SAM ladder) | **157.18 [9/25 close, Yahoo]**; below the 9/18 158.054 high |
+> | CREED-T-08a | 🔴 **FIRED 9/26 eff 9/24 (owner-graded):** VNQ−SPY 3-mo TR −10.12 [9/24] / −13.06 [9/25]; a RATE fire first; may print back above −10 ~9/30 = not an un-fire (`-003`) |
+> | HANS-T (6 scannable-daily of **17**) | **TE 9/25 closes:** `T-06` UK 10Y **5.35** (orange >5.50, 15bp) · `T-13` UK 30Y **5.87** (orange >6.00, 13bp) · `T-05` Bund **3.61** (watch open; orange >3.75, 14bp) · `T-10` France OAT **4.73**, spread ~112bp = re-entry inside the 9/24 fire · `T-09` Italy **4.50** / ~89bp (far) · `T-11` EURUSD **1.1387** · `T-07` TTF **€71.89** (L1+L2 open). ⛔ `T-08` storage NOT pulled · T-12 UNINSTRUMENTED |
+> | Iran anchor | FULL SWEEP 9/24; **9/27 diplomacy-limb re-verify (`-007`)**; next FULL ~10/01. Anchor 22,763 B after a verbatim rotation (ADD#27 lifted to GUARDS). Petroline restart still NOT operator-confirmed |
+> | Position / calendar | FORGE mirror per its header · **Sun 18:00 ET futures open (PROME: no pre-open touch)** · Mon 9/28 HY 9/25 print · LIQUID ISDA benchmark (DOCKET L510) · **9/30** Russia diesel-ban expiry, Brent Nov expiry, Iraq pullout, size-check block · **10/01** NYC rent freeze, CRMT bridge-4, CREED T-01a Trepp print, Iran full sweep · 10/02 WQ-295 R3 deadline · 10/06 WQ-252 sitting · Nano Banc DOCKET L513–L516 |
+
 ## 2026-09-27/28 Sun→Mon — `walter-d5` **TIER-2 CLOSEOUT** (2026-09-28T04:22:10Z from `date`, Will: "lets close out here"). Booted 22:03Z on Will's terminal "please boot up", focus regional banks + CRE. BOARD 1063 → 1064 (`-008` UBS/Semafor → HANS). Will-Telegram batch BM-20260927-01 8/8 (1 DISPATCH, 4 KILL, 3 DUP). `COR-20260927-07` (the `-0924-023` 'declined to stay' wording). DEWEY Nano handoff processed; R3 queue rows 6–7. REGISTRY: OZK/FLG/PROME/REGINALD/WAL/CREED.
 
 > **Rotated VERBATIM from STATUS at the 9/28 Tier-2 (the 9/27 17:11Z header, bottom line and network-awareness blocks):**
