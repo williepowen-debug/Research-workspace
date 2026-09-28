@@ -26,7 +26,7 @@
 | Metric | Current | Prior | Δ | Threshold | Status |
 |--------|---------|-------|---|-----------|--------|
 | CTMH Complaints (FY) | 3,863 | 2,678 | +44% | YoY acceleration | 🟠 |
-| Association Bankruptcies | 1 | 0 | +1 | 🟡 3 / 🟠 5 / 🔴 10 | 🟡 |
+| Association Bankruptcies | **≥9** strict-name "Condominium Association" Ch.11 filings, Bankr. SDFL+MDFL, 1/2025–6/2026 (court-verified 2026-09-28; 7 residential buildings · 1 timeshare condo · 1 recreation assn; floor from a lead list, not exhaustive) | *(prior row value 1, DBPR-sourced, 2026-02-05 — different source and perimeter)* | — | ⚠️ ~~🟡 3 / 🟠 5 / 🔴 10~~ **UNGRADED — the row has no written window or basis; not applied (Will 2026-09-28). Any grading spec comes separately.** | **descriptive** |
 | Receiverships (pipeline) | ~1,500 at-risk | — | — | By 2027 projection | 🟠 |
 
 *Source: DBPR, FL Policy Project*
