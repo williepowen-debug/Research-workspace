@@ -34,7 +34,7 @@ History → [9/26 boot-review rotation](archive/SCRATCH_ROTATED_2026-09-26_boot-
 ## Operator card
 - **As of this document update:** 2026-09-26 21:3x ET (boot-review closeout, Saturday). **Market data: NO refresh today — 9/25 CLOSES in HEARTBEAT (22nd base, post-close)** — equities/ETFs/vol complex [9/25c], FRED [9/24 cells]; futures settles owner-owed. ⛔ NOT refreshed: the broker book (WQ-274). **STAND DOWN on new energy capital (WQ-192) holds; concentration ACCEPTED (WQ-297 A); X1 CLOSED.**
 <!-- WILLQ-VIEW BEGIN -->
-- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-09-28 · 16 open, 4 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-187 (9/12) · WQ-204 (9/19) · WQ-279 (9/30) · WQ-304 (10/1) · WQ-303 (10/1) · WQ-305 (10/2) · WQ-295 (10/3) · WQ-302 (10/14) · WQ-31 (11/1) · WQ-306 (undated) · WQ-274 (before trading…) · WQ-273 (undated) · ⛔ WQ-314 (10/2) · ⛔ WQ-301 (10/2) · ⛔ WQ-242 (10/9) · ⛔ WQ-241 (10/9)
+- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-09-28 · 17 open, 4 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-187 (9/12) · WQ-204 (9/19) · WQ-316 (9/28) · WQ-279 (9/30) · WQ-304 (10/1) · WQ-303 (10/1) · WQ-305 (10/2) · WQ-295 (10/3) · WQ-302 (10/14) · WQ-31 (11/1) · WQ-306 (undated) · WQ-274 (before trading…) · WQ-273 (undated) · ⛔ WQ-314 (10/2) · ⛔ WQ-301 (10/2) · ⛔ WQ-242 (10/9) · ⛔ WQ-241 (10/9)
 <!-- WILLQ-VIEW END -->
 
 ## Continuity and undated work
