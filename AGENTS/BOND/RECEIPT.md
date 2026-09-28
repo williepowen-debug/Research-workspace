@@ -17,3 +17,4 @@
 | Will "go ahead with 1+2+3" | ✅ `monitors/rates_context.py` (selftest 14/14) wired into `boot_recompute.py` (rc=0) · `KB-BND-354` · VX-BND-17 notes · CLAUDE.md FILES row · STATUS Fed-path + ACM/KW rows · T5YIFR 16→15bp fixed (both lines) · STATUS rotated (snapshot `2026-09-28c`, crc32 1800580424) |
 | WQ-317 | APPROVED (Will 17:16 ET, verified) — packet left in inbox for the 10/1 session |
 | Will "source check swap spreads + CFTC" | ✅ `analysis/2026-09-28_source-check_swap-spreads-CFTC.md`, `KB-BND-355`: swap spreads buildable (DTCC); CFTC = LIQUID tool already (gap review corrected) |
+| WQ-327 v2 corrections (PROME DIRECTED 18:09) | ✅ BR1–BR4 + #5 fixed · CATO suite 4/12 → 12/12 · selftest 53/53 · Dec 9 + Jan 27 FOMC docketed · FOMC_CALENDAR.tsv recorded · HENRY packet + PROME receipt (see commits) · DIRECTED packet → `inbox/processed/` |
