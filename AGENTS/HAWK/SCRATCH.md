@@ -26,8 +26,8 @@
 
 ## NEXT SESSION (dated, future-verifiable)
 1. 🔴 **On/after 10/01 — HAW-19 LEG-B residual (9/29–30):** check FALCON `VESSELS.tsv` + WALTER lane for named corridor hulls disabled/boarded 9/29–30. Append a recorded failure only if EVIDENCED; B.5 still vendor-blocked ⇒ UNDETERMINED. **HAW-22 window opens 10/01**; carry its warning verbatim on any grade.
-2. 🟠 **IRAQ-01 and FININFRA definition question**: await Will's word via PROME memo `PROME/inbox/2026-09-28_from-HAWK_*`. If RED→YELLOW is ruled, encode the VX row + FALSIFICATION row in the same commit.
-3. 🟠 **Iran formal reply (~10/05):** test the falsifier set in KB-HAWK-416. Date-check any "Hormuz reopens" copy (the 8/28 trap; WALTER reconciles at its ~10/01 sweep).
+2. ✅ **RULED + ENCODED 9/28 (Will, in-session):** WQ-319 IRAQ-01 → YELLOW (KB-422); WQ-320 cloud definition on FININFRA-01, March AWS event NOT graded (causal leg undocumented, KB-423). 🟡 Re-grade FININFRA only if a bank/regulator attributes an outage to the struck facilities (would be a HISTORICAL, restored event).
+3. 🟠 **Iran formal reply (~10/05):** test the falsifier set in KB-HAWK-416. For any "Hormuz reopens" copy verify ORIGINAL publication + EVENT dates (8/28 trap; WALTER reconciles ~10/01). A pre-acceptance reopening is NOT automatically recycled (Will 9/28, KB-424).
 4. 🟡 **HAW-20 by 10/31:** legs (a)–(d) unchanged 9/28. Reconcile the Section 338 effective date (8/19 registered vs 8/22 reported) at the primary (Federal Register was blocked).
 5. 🟡 **SULPHUR:** Ivanhoe Q3 (~early Oct). **EURMIL-01** first cadence checkpoint 10/03 (CATALYSTS row 24). **VX-EURMIL Musterung datum** (KB-408) still not in the evidence cell.
 6. 🟡 WATCH: OSPREY C3 limb-1 10/03 · L434 (YURI) 10/02 · Bloomberg Russia print 9/29 · H.R. 5334 deadlines ~10/18 · 11/10 two clocks · MOFCOM No. 46 11/27.
@@ -41,7 +41,7 @@
 
 ## PREDICTIONS DUE / DECISIONS PENDING
 - HAW-19 residual 10/01 (above). HAW-20 10/31. HAW-22 12/22.
-- ⚖️ Will: IRAQ-01 RED→YELLOW; FININFRA "does bank-serving cloud count" definition. Kpler/Vortexa inquiry forms (Will's hands, from 9/26).
+- Will: WQ-319/320 RULED 9/28 (encoded). Open: Kpler/Vortexa inquiry forms (Will's hands, from 9/26).
 
 ## MAIL STATE
 - **Inbox 0 top-level · 0 WALTER** (2 processed today). BOARD info-lane: no unmatched IDs 9/20+.
