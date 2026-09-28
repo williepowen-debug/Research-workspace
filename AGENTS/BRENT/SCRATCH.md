@@ -53,5 +53,5 @@
 - USO 37 sh: no rule (WQ-200 declined).
 
 ## MAIL STATE
-- **Inbox:** clear. Today: 7 consumed = 7 board_log rows (WALTER -007/-001/-003(deferred)/-008/-010, the WALTER R3 pointer, PROME's WQ-331 ruling), all `git mv`'d.
+- **Inbox:** clear at 19:01 ET. Today: 9 consumed = 9 board_log rows (WALTER -007/-001/-003(deferred)/-008/-010/-019/-020, the WALTER R3 pointer, PROME's WQ-331 ruling), all `git mv`'d. -019/-020 (Yanbu ~3.5 mb/d, one source) are record-only under P4.
 - **Sent in legs 2–3 (all committed):** PROME ×2 (`c3e185152` scope, `590ca37fa` concur) · WALTER ×3 (`6691e5661`, `2d508e43c`, `537ca0e16`) · TERRY ×2 (`4f92f6a15`, `376385da6`). Leg 1's sends are in its archived block. No open outbox.
