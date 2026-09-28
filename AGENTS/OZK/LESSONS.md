@@ -21,6 +21,14 @@
 **Mistake (Apr → caught 2026-09-24):** pdfminer's plain-text extraction of the Q1 Management Comments put the paragraph "This loan matured December 18, 2025" next to the **Boston life-science** row. It belonged to **Baltimore land**; Boston matured **Feb 13, 2026**. The misattribution spread to seven surfaces, and a later "fix" built a lien-date fit and a "post-maturity UCC-1 workout" reading on top of it.
 **Rule:** for tables with per-row commentary (MC Fig. 23-style credit rosters, 10-Q tables), extract with **pdfplumber `extract_text(layout=True)`** and read the row and its paragraph together. Treat any fact pulled from a plain-text dump of a table as unattributed until checked against a layout view. When a new explanation "cleanly fits" a date, recheck the date's source first.
 
+### A secondary's figure carries the article's date, not the date you read it
+**Mistake (2026-09-27, caught the same day):** the catch-up sweep wrote "Bluerock BPRE trades ~38% below NAV" as current. The 38% was Bisnow's **Dec 18 2025** listing-day figure. The fund's own 9/3/26 release implies **~47%** (7.3% distribution on NAV vs 13.8% on the market price). This is the same failure as the RaDD "extended to 2028" trap, now seen **5×**.
+**Rule:** when a search summary returns a number, open the article and write its **publication date** next to the figure. If a primary (issuer release, filing) can derive the figure for today, derive it and label it DERIVED.
+
+### A label must be checked against its own numbers, especially before it leaves the desk
+**Mistake (found 2026-09-27):** STATUS, CALENDAR, LIFE_SCI and `IQHQ_PLAYBOOK.md` l.16 called the RaDD D-severity band "65-70%". The playbook's own calculation is **50–65% → $275–360M**; 65–70% of $555M would be $361–389M. The label had travelled to REGINALD's loss bridge and CREED's property test as "the OZK desk's figure." The dollars happened to be right (65% = top of band), so no number moved, but two desks carried a wrong attribution.
+**Rule:** quote a band **with its dollars** ("50–65%, $275–360M"). When copying a figure into a summary or another desk's packet, recompute it from the owner section. A label and its dollars that disagree means one of them is wrong; find out which before anything is sent. [[finding_summary_section_merges_what_the_body_separates]]
+
 ### Resolve dates must be anchored to the event and checked against its history
 **Mistake (found 2026-09-24):** PREDICTIONS carried OZK-02/03/04 as resolving at the "Feb 27 2027 earnings" — a **Saturday**, while OZK's Q4 prints landed **Jan 16-20** in 2023-26 (FDIC FLNG). It sat there for months because the weekday checker was never pointed at PREDICTIONS.
 **Rule:** write resolve dates as the **event** ("the Q4'26 print") plus an estimate grounded in the filer's own history ("~mid/late Jan; Q4 prints Jan 16-20, 2023-26"). Include `workbook/PREDICTIONS.tsv` in every `claim_check.py --check weekday` run.
@@ -99,4 +107,4 @@ All three can coexist. On the live evidence OZK's primary vectors are **(1) mark
 
 ---
 
-*Last reviewed: 2026-09-24 — restructured into A-D; MI3 + masking-level sections rewritten as clean rules (retraction history → git); +2 rules (resolve dates; queues hold only live state); STATUS rule re-based to the charter (the old "10KB" figure conflicted with ≤250 lines). Prior: 2026-08-07 · 2026-04-24 (seeded from REGINALD).*
+*Last reviewed: 2026-09-27 — +2 rules in §A (secondary figure carries its article date; check a label against its own numbers). Prior: 2026-09-24 — restructured into A-D; MI3 + masking-level sections rewritten as clean rules (retraction history → git); +2 rules (resolve dates; queues hold only live state); STATUS rule re-based to the charter (the old "10KB" figure conflicted with ≤250 lines). Prior: 2026-08-07 · 2026-04-24 (seeded from REGINALD).*

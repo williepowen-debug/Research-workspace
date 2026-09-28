@@ -60,6 +60,8 @@
 
 - **Evening (PROME-orchestrated, 5 desks; Will closed it 21:16 ET):** (1) CRE→bank transmission leg → `research/threads/2026-09-27_CRE_LOSS_TRANSMISSION_OZK_LEG.md` (a7c8e5792): mechanism = maturity failure → foreclosure → OREO (2022 vintage); REGINALD's $656M stress reproduces, desk reading ≈$424M prob-weighted, earnings not capital. (2) **RaDD severity LABEL fixed: 50–65% ($275–360M), not "65-70%"** — the old label contradicted the playbook's own dollars and had spread to REGINALD + CREED; both relabelled (89a7b0a4e, a0caad140), verified at the artifact. (3) WQ-312 Q2 workout rows → `research/threads/2026-09-27_Q2_WORKOUT_CHECK_OZK.md` (68fd0f4d5); follow-through = DOCKET L520, CHECK-BY 10/31. (4) KB +236–240 (240/37); BPRE discount fixed 38%→~47% (vintage error). Will got a plain-language stance: real, slow bad-loan problem; bank can absorb it; the market already expects it.
 
+- **Post-closeout (Will-directed):** key-file audit → WEAKNESSES (C3 Q2 refresh banner, C7 Q2 meter, **new C9 case-against**), LESSONS +2 (§A: secondary figure carries article date; check label vs own numbers), STATUS bottom line (capacity + resolutions), research/README threads indexed. Subdomain STATUS refresh (LIFE_SCI/INSIDERS/PRIVATE_CREDIT/GEOGRAPHY) still owed — TODO R2.
+
 ### PRIOR SESSION (2026-09-24 — Will's catch-up, PROME's 5 tasks, CATO fixes, AM re-check, save-state)
 
 - **Catch-up (dark 8/31→9/24):** FDIC filings none since 8/5 10-Q · Hicks (CFO) + Wolfe sold ≈$574K 8/12-13, zero buys · SI 16.2M / ~16% float @8/31 · $49.08→$46.09 (−6.1% vs KRE −3.8%) · MS→UW 9/8 · Fed +25bp 9/16 · IQHQ Spur deed-in-lieu [single-source] · RaDD nothing. AM re-check 9/24: nothing new. → `research/threads/2026-09-24_CATCHUP_SWEEP.md`.

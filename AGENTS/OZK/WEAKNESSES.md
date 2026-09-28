@@ -1,5 +1,5 @@
 # OZK Thesis — Weaknesses & Rebuttals
-**Created:** 2026-03-24 | **Last updated:** 2026-07-18 (added C8 — beta/range behavior + NDFI-contagion regime risk) | **Status:** All thesis-breakers addressed; C5 retracted/corrected; C7 is the live 2026 bull case (meter quarterly); C8 is a timing/regime caution surfaced from the price/SI/regime pull
+**Created:** 2026-03-24 | **Last updated:** 2026-09-27 (C3 capital inputs refreshed to Q2'26; C7 updated with the Q2 resolution record; **added C9 — the Q2 case against, stated at full strength**) · prior 2026-07-18 (added C8 — beta/range behavior + NDFI-contagion regime risk) | **Status:** All thesis-breakers addressed; C5 retracted/corrected; C7 is the live 2026 bull case (meter quarterly); C8 is a timing/regime caution surfaced from the price/SI/regime pull
 
 ---
 
@@ -69,6 +69,15 @@ If the Fed cuts materially (75-150bps by mid-2026), cap rates compress, property
 ---
 
 ## C3: Capital Buys Time / Thin EV Edge
+
+> **⚠️ Q2'26 REFRESH (2026-09-27) — read this before the March-vintage body below.** The body's inputs are **stale**: CET1 11.70%, "$680M/yr earnings", EPS $6.18, and a $43 stock. Its put math refers to the Aug-21 book, **CLOSED 8/21** (both puts expired worthless; see `POSITIONS.md`). Current inputs:
+> - **CET1 11.80%** ($5,300.5M ÷ RWA $44,916.2M, 6/30/26, Call Report RC-R).
+> - **Pre-provision revenue (PPNR) $1,082.6M trailing 4Q.** It is falling: Q3-25 $290.6M → Q2-26 $259.4M (−10.7%). Q2 run-rate ≈$1,037M/yr, less ≈$11.2M/yr from the 10/1 sub-notes reset.
+> - **Common dividends ≈32% of net income.** Payout including the $176.6M of buybacks = 57%. A new **$200M buyback** was authorized 6/29.
+>
+> **Stress:** REGINALD's 9/26 bridge puts a **$656M** stress at **0.6× a year of PPNR**, with CET1 11.80% → 10.74–10.76% (~10.3% if the buyback also runs). This desk's probability-weighted reading is ≈$424M (≈0.4×). → `research/threads/2026-09-27_CRE_LOSS_TRANSMISSION_OZK_LEG.md`
+>
+> **The Key Reframe below is confirmed, not weakened: capital is not the vulnerability. Earnings, and the timing of recognition, are.** [KB-OZK-237, KB-OZK-240]
 
 ### The Bull Argument
 CET1 at 11.70% gives OZK ~$2.3B in loss absorption before hitting regulatory minimums. The probability-weighted EV of $38.75 implies only 10% downside — thin margin for a 14-15% SI crowded short.
@@ -160,6 +169,15 @@ Detail → `IQHQ_PLAYBOOK.md`. Invalidation triggers for this channel listed in 
 
 **Discriminator to watch (Q2, Jul 21):** classified+criticized trajectory vs RESG balance. If **classified+criticized keeps rising while RESG balance falls**, that is the adverse-selection tell — a build on a shrinking base [[finding_composition_mask_unmask_discriminator]]. If both fall together, the bull case gains real ground and conviction should step down. The aggregate print, not the two-transaction anecdote, is what settles this.
 
+**Q2'26 meter (2026-09-27, `research/threads/2026-09-27_Q2_WORKOUT_CHECK_OZK.md`):**
+- **The discriminator fired as pre-registered:** classified + criticized $1,215M → $1,282M while RESG commitments fell $27.8B → $25.7B.
+- **The bulls also got real evidence:** RESG repayments and other activity were **$2.92B in Q2** ($9.95B trailing 4Q). The largest nonaccrual loan, **Sullivan Courthouse ($156.4M), was recapitalized by the sponsor plus a new capital partner into a new pass-rated loan** with no Q2 charge-off. That is a cure with new money, the case this rebuttal said would be rare.
+- **Scoring the ~$396M of completed Q2 problem resolutions the same way:**
+  - ~39% cured to pass;
+  - ~16% exited at a 23% loss (San Carlos);
+  - ~44% became foreclosed property after 7–28% charge-offs (Seattle ×2, Atlanta).
+- **Both sides are live. The mechanism stands; the "rare cure" framing is weakened.**
+
 **Confidence: MEDIUM on the transaction anecdote (post-correction), MEDIUM-HIGH on the mechanism — this is the live bull case; meter it quarterly.**
 
 ---
@@ -177,6 +195,31 @@ Detail → `IQHQ_PLAYBOOK.md`. Invalidation triggers for this channel listed in 
 **Cross-agent:** the NDFI/private-credit contagion regime is **REGINALD** (bank-system) + **BROCK** (private credit) scope — consume their regime read, cross-reference OZK's NDFI concentration as the transmission surface. Flagged to both 2026-07-18. Do NOT maintain an independent OZK regime copy (one-source-of-truth rule).
 
 **Confidence: HIGH on the empirical (tape + verified Oct-2025 event). The NDFI-contagion channel is a real, monitorable regime risk we were not previously tracking — this is the honest gap the price/SI/regime pull exposed.**
+
+---
+
+## C9: The Q2'26 Case Against — Stated at Full Strength (added 2026-09-27)
+
+*Written for PROME's CRE-transmission task (9/27, Will-directed), as strongly as the evidence allows. Source: `research/threads/2026-09-27_CRE_LOSS_TRANSMISSION_OZK_LEG.md` §3.*
+
+| # | Argument | Evidence (dated) |
+|---|---|---|
+| 1 | **The collateral cushion is large.** RESG weighted LTC **49%**, LTV **46%** (fully funded, 243 credits). A 50% value fall still leaves the average loan whole | Q2 MC text above Fig. 24 (6/30/26) |
+| 2 | **Repayments are cash, not marks.** $2.92B in Q2; Sullivan cured with new equity; The Jack (new-equity LOI) and Wauwatosa (hard-deposit sale at ≥ carrying) slated to close in Q3 | MC pp.12, 22-23 |
+| 3 | **Earnings dwarf the losses.** Q2 NCO $56.3M vs PPNR $259.4M = **4.6× coverage** in the worst quarter so far. TBV/share **+$1.26** to $48.41 | Q2 8-K bundle |
+| 4 | **The central event missed its date.** The August RaDD maturity passed swept-and-empty. No specific reserve, no downgrade. A mezz lender is negotiating a recap, which means new money going in | 7/22 call; 8/31 sweep |
+| 5 | **Leading indicators improved.** Past-due $465M → $298M; 30-89 day bucket −88% | Q2 bundle; Call Report |
+| 6 | **A stress pillar already died.** The 37.6% MI3 ratio was retracted. The debt-on-debt book it pointed to shrank 64% | `MI3_2025Q3_ADJUDICATION.md` |
+| 7 | **Sponsors keep paying in.** $1.4B of additional equity over 16 quarters ($923M reserve deposits + $522M unscheduled paydowns) across 661 modifications/extensions, 37 of them in Q2 | MC p.26 Fig. 25 |
+| 8 | **The market already prices it.** 0.97× TBV; short interest ~16.3% of float, 17.6 days to cover (9/15); Citi Sell $40, MS Underweight | fetch.py 9/25; FINRA; ratings 9/27 |
+
+**Our rebuttal: this proves capacity, not clean marks.**
+- #1 averages LTVs against **appraisals**, which are exactly what lags: 86% of nonaccrual carries $0 reserve, and foreclosed property is held at 86–100% of appraisal with only $6.9M sold in H1. The loss sits in the tail: a $147M condo at 105.6% LTV, and Boston 10 Prospect at 91% on a Nov-25 appraisal.
+- #2's repayments are the healthy loans leaving (C7).
+- #7's extensions are the deferral engine v1.5 describes. The Q2 10-Q hardship-modification table lists **$0 of CRE** despite the 37 extensions: a classification fact, not a finding about the loans.
+- #8 is the real problem for a **trade**, not for the thesis. Being right about credit is consensus, not an edge.
+
+**Confidence: HIGH that capital is not at risk. MEDIUM that marks are overstated** (the direction is supported; the level rests on ~$16M of OZK's own exit evidence). **The Q3 print (PROME DOCKET L520, check-by 10/31) is the first test:** foreclosed-property sale prices vs carrying, and the Boston outcome.
 
 ---
 
