@@ -279,7 +279,7 @@ The CPC ventures (C/D) went to a mission-driven bidder **below its cover bids** 
 - Named outside-cash exits are press-grade: one third-party refinancing (FLG, $80.5M performing loan, 6% discount) and Pinnacle (75% financed by Flagstar).
 
 ### Retained risk
-- ★ **The strongest single signal in the set is a failure signal, and it is primary-sourced:** of Flagstar's multifamily loans modified in the prior 12 months ($375M at 6/30/26), **~47% were past due**, and **$286M of modified multifamily loans re-defaulted within 12 months in H1-26**; 20% of its 12-month CRE modifications are past due (FLG 10-Q modification tables, KB-FLG-069). Flagstar made $382M of new CRE/MF modifications in Q2 (rate cuts 7.68% → 5.17% on MF, +1.2 years).
+- ~~★ The strongest single signal in the set is a failure signal … $286M of modified multifamily loans re-defaulted within 12 months in H1-26~~ **CORRECTED 20:4x ET (§16; FLG 767015a65 / KB-FLG-070, REGINALD 43072e99e):** the $286M "subsequently defaulted" figure is NOT usable — the issuer's columns are not additive and Q1 reported no multifamily defaults. **What stands:** Flagstar's multifamily modifications (a 2026 program; none in 2025) — the 12-month stock of $375M at 6/30/26 was **~47% past due ($176M), up from 11% ($14M of $123M) at 3/31**; 20% of its 12-month CRE modifications are past due. It is the largest adverse retained-risk figure in the set, **not proof that the modifications failed**: whether past-due status resets at modification is undisclosed. Flagstar made $382M of new CRE/MF modifications in Q2 (MF rate 7.68% → 5.17%, +1.2 years).
 - **Untested retained risk:** VLY's $108M of 8-month payment deferrals · OZK's $141M of new foreclosed property carried at 95–100% of appraisal, unsold · WAL's $99M life-science loan at $0 loss and +7 foreclosed properties, plus **+$51M of senior liens WAL bought in Q2 — exposure added as a workout tactic, not resolved** · EGBN's $56M apartment loan extended to 8/21/26 and matured again, outcome undisclosed.
 - ⚠️ **The modification tables are not comparable across banks:** OZK reported $0 of CRE hardship modifications against 37 construction-loan extensions. A low number can mean few problems or a narrow reporting definition.
 
@@ -299,8 +299,8 @@ The CPC ventures (C/D) went to a mission-driven bidder **below its cover bids** 
 ⚠️ **The named rows over-represent failures** (failures get named, successes get aggregated). Do not read the named sample as a failure rate.
 
 ### What it changes about our judgment
-1. **The case against stress is weaker at Flagstar, and the modification route is now the one to watch.** Flagstar's par payoffs remain unverified, and its modifications are measurably failing. Of the two routes a bank uses to keep a troubled loan (modify it, or let it be refinanced out), only one can be tested from filings — and it is failing at Flagstar.
-2. **VLY's $108M deferral cohort now has a relevant warning, not a verdict:** Flagstar shows modified CRE loans can re-default at scale within 12 months. Whether VLY's do is a different bank's loans — a HYPOTHESIS to test at VLY's Q3 and 10-Q, not an inference.
+1. **The case against stress is weaker at Flagstar, and the modification route is now the one to watch.** Flagstar's par payoffs remain unverified, and nearly half of its 2026 multifamily modifications were past due at 6/30 — whether because they failed after modification or were delinquent when modified is not separable from disclosure (§16).
+2. **VLY's $108M deferral cohort now has a relevant warning, not a verdict:** Flagstar's 2026 modification stock went from 11% to 47% past due in one quarter (cause not separable, §16). Whether VLY's do is a different bank's loans — a HYPOTHESIS to test at VLY's Q3 and 10-Q, not an inference.
 3. **Possible delayed losses at OZK and WAL are a HYPOTHESIS, kept alongside the losses already recognised, until their foreclosed property sells or is re-appraised.** This sharpens §8's hinge: the appraisal question now has a concrete test in OZK's OREO sales and WAL's $99M appraisal.
 4. **Nothing here changes "concentrated at named banks, not tier-wide" at 6/30.** It changes how much weight the fleet can put on "the banks are working their problems out": that claim is observable for a small share of the activity.
 
@@ -309,3 +309,35 @@ Takeout funding for most exits (not observable in aggregate) · other buyer-fina
 
 ### Would a Q3 update justify its maintenance cost?
 **Not as a full re-run** — loan-level coverage is too low for a second pass to change the picture. **Yes as a targeted read of five items, folded into each desk's normal Q3 print work, no ledger:** ① FLG's modification past-due and re-default tables · ② VLY's Q2 deferral cohort and Q3 modifications · ③ OZK's foreclosed-property sales vs carrying value · ④ WAL's $99M appraisal and OREO valuation · ⑤ EGBN's held-for-sale sales vs marks and the Prince George's loan. Registered for Will's word as WQ-313.
+
+
+---
+
+## 16. Flagstar's modification finding, explained from evidence already held (20:4x ET)
+
+**Asked by:** Will 20:38 ET — distinguish the twelve-month modified-loan stock from Q1 and Q2 re-default flows; say whether the evidence suggests a concentrated earlier failure, continuing deterioration, or insufficient cohort detail; say what can and cannot be linked to the newly modified loans. **Evidence:** FLG's reading of Flagstar's own 10-Qs (Q3-25, Q1-26, Q2-26) and FY25 10-K modification tables (FLG 767015a65, KB-FLG-069/070; REGINALD 43072e99e). No new sources.
+
+**Answer: insufficient cohort detail to distinguish post-modification failure from delinquency carried through the modification — and not a concentrated earlier failure.** The one thing the evidence does establish is that the past-due share of Flagstar's 2026 multifamily modifications rose sharply in Q2.
+
+**The stock (loans modified in the prior 12 months, still on the books):**
+| Date | MF 12-month stock | Current | 30–89 DPD | 90+ DPD | Past due |
+|---|---:|---:|---:|---:|---:|
+| 12/31/25 | none (no MF modifications in 2025) | | | | |
+| 3/31/26 | $123M | $109M | $0 | $14M | **11%** |
+| 6/30/26 | $375M | $199M | $23M | $153M | **47%** |
+
+MF modifications made: Q1-26 ≈ $105M (derived: $364M H1 − $259M Q2; Q1 rate 9.63% → 3.87%) · Q2-26 $259M (7.68% → 5.17%, +1.2 years). The 6/30 stock (~$375M) ≈ H1-26 modifications ($364M), so **essentially every past-due dollar sits in a loan Flagstar modified in 2026.**
+
+**The flows ("subsequently defaulted" = 30+ days past due, per the issuer):** Q1-26 as reported — **no multifamily row**; Q2-26 three months — **$29M**; Q2-26 six months — **$286M**. **These do not reconcile** (the six-month figure cannot be Q1 + Q2 when Q1 reported none), and the basis is undisclosed. ⛔ **PROME's earlier derivation of "~$257M in Q1" is withdrawn** — it assumed the columns were additive. **The $286M is not used as evidence of anything until Flagstar's own tables reconcile.**
+
+**Why not a concentrated earlier failure:** there were no multifamily modifications in 2025 (FY25 10-K and Q3-25 10-Q stocks carry no multifamily row), so there is no earlier cohort to have failed.
+
+**Why continuing deterioration cannot be established:** the stock's past-due share rose from 11% to 47% while the stock tripled, and Flagstar does not disclose whether a loan's past-due status resets at modification. Two readings fit the same figures:
+- **(a) failure after modification** — loans modified in Q1 and Q2 stopped paying on the new terms;
+- **(b) delinquency carried through modification** — loans already delinquent were modified (rate and term changes) without being brought current.
+
+**An arithmetic pointer toward (b), not proof:** 90+ days past due at 6/30 is $153M, but only ~$105M was modified in Q1, and a loan modified in Q2 can reach 90 days past due on its new terms by 6/30 only if it was modified in the first days of April and never paid. So **at least ~$48M of the 90+ bucket is very likely delinquency that predates the modification** — an INFERENCE (FLG's and PROME's), since the reset policy is undisclosed.
+
+**What can be linked to the newly modified loans:** that the past-due dollars sit in 2026 modifications; that the stock's past-due share rose 36 points in one quarter; that at least ~$48M of the 90+ bucket is very likely not post-modification failure. **What cannot:** which quarter's modifications are delinquent; whether any modified loan failed after its new terms took effect; the $286M flow figure; whether the Q2 $259M cohort is performing.
+
+**What it means for the thesis:** under either reading the modifications are not yet evidence of **borrower recovery** — reading (a) is failure, reading (b) is a change of terms that did not cure the delinquency. It is not yet evidence of accelerating loss either. **Next read:** Flagstar's Q3-26 modification tables (10-Q ~11/9; WQ-313 item ①): if the Q2 cohort's past-due share rises as it ages, reading (a) gains; if the past-due dollars are charged off or foreclosed while newer modifications stay current, reading (b) gains.
