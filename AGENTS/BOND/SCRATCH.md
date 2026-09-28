@@ -43,7 +43,7 @@
 5. 🟠 **10/1 announcement → freeze bars** for 10/6 3Y / 10/7 10Y-R / 10/8 30Y-R. The 10/7–10/8 legs can fire row 1's ⇒5 letter. Refresh the `AUCTION_HEALTH.md` header then.
 6. 🟠 **By 10/21:** register the 10/28 FOMC curve-shape prediction with a base rate (OPEN = 0).
 7. 🟡 **WQ-317** (cross-market attribution): APPROVE rec is pending Will's word. **Do NOT start without it.** If ruled, the letter is in `PROME/WILL_QUEUE.md`; it's one bounded read inside the 10/1 refresh.
-7b. ✅ **CCC 2027–28 refinancing wall — DONE 2026-09-28 15:32 ET (Will "go on the refinancing wall" ~15:2x ET; PROME notified to register):** `analysis/2026-09-28_CCC-refi-wall-2027-28.md` + `KB-BND-349`. Mechanism confirmed and narrow (PIMCO: CCC 2027–28 coupons could double; CCC yield +157bp since PIMCO's 8/26 basis); pressure is 2028–29 and loan-heavy; CCC sector split = GAP.
+7b. ✅ **CCC 2027–28 refinancing wall — DONE 2026-09-28 15:32 ET (Will "go on the refinancing wall" ~15:2x ET; PROME notified to register):** `analysis/2026-09-28_CCC-refi-wall-2027-28.md` + `KB-BND-349`. Mechanism confirmed and narrow (PIMCO: CCC 2027–28 coupons could double; CCC yield +157bp since PIMCO's 8/26 basis); in AGGREGATE the pressure is 2028–29 and loan-heavy; CCC sector split = GAP. ⚠️ **Narrowed 16:27 ET (CATO via PROME, Will-directed):** the aggregate shape does NOT clear the CCC/single-name 2026–27 tail (CCC-only 2027 = GAP ⇒ tail UNMEASURED, not small), and the 75%-B--or-better A&E share does NOT show concentration in the weakest (tier mix + extension rates = GAP).
 8. 🟡 Carried: `check_fr2004` bare "FR2004 m/d:" pattern gap · charter step-7 verb vs kb_lint practice (disclosed in READS): align the verb in BOND's own `CLAUDE.md` in a quiet session.
 
 ## OPEN THREADS / KNOWN GAPS

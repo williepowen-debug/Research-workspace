@@ -11,3 +11,4 @@
 | Position | TLT Sep-30 77P ×20 HOLD, no add, `$0`; TLT $78.62 [16:19 ET] — TERRY's rail |
 | Files written | STATUS · SCRATCH · RECEIPT · KB (+350/351/352) · WALTER inbox packet |
 | Git | see commit following this receipt |
+| PROME/CATO correction (16:25 packet) | ✅ refi-wall note: two conclusions narrowed in place (A&E-share "concentration" → GAP; aggregate timing → index-level only, CCC/single-name 2026–27 tail UNMEASURED) + mirrors KB-BND-349 / SCRATCH 7b / STATUS 0000②; packet → `inbox/processed/` |
