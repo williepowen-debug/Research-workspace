@@ -17,8 +17,8 @@
 - **Export-ban risk read:** [note](research/2026-09-28_us-diesel-export-ban-risk.md) plus [source file](research/2026-09-28_us-diesel-export-ban_source-research.md), written by an Opus subagent; I re-read the key quotes at the page.
   - Exports ≈ 30% of distillate output.
   - [EST] Gulf Coast storage full ~2–5 weeks after a ban.
-  - F1's $1.23 cushion disappears in under a week of Goldman's stage 1.
-  - Boundary #6's ≥$50 leg is hit ~1 week into stage 2.
+  - Direction: a ban weakens US diesel against crude (F1 cushion $1.23) and later strengthens gasoline (#6).
+  - **Breach timings WITHDRAWN ~17:3x after CATO MR19** (relayed by PROME): they came from ×42 on Goldman's retail scenario. They're recast as sensitivities in note §3. Corrections are appended to both packets.
 - **Packets (committed):**
   - WALTER `6691e5661`: answer to -010 (B); doorbelled, since walter-f8 is live.
   - TERRY `4f92f6a15`: card input. TERRY is DARK and the packet carries no ASK, so rule 6b doesn't fire; TERRY reads it at next boot.
@@ -30,12 +30,13 @@
 
 ## ⚠️ MY ERRORS / NEAR-MISSES
 - **The earlier leg's 15:26 news sweep missed Trump's Sunday on-record remark.** Its SUMMARY said nothing about a ban. The ban was already in my own L477 note (9/25) as decoupling mechanism #2, so the sweep never re-searched it. A known risk named in a note is not a monitored risk.
+- **I multiplied a RETAIL scenario by 42 and published breach timings for FUTURES cracks** (note §3, both packets, STATUS, NEXUS; CATO MR19 caught it). ×42 converts units, not instruments; retail carries crude, distribution and taxes. Same class as [[finding_instrument_measures_a_superset_of_the_thesis_subject]]: the named series is real but isn't the subject. Before deriving a date against a registered line, name the instrument the source's number is ON.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **Tue 9/29:** last BZX26 settle. HENRY's blind BRT-12 verdict is due.
+1. **Tue 9/29:** last BZX26 GRADED settle (the REGISTRY rule grades Nov through the session before last trade; ICE Nov last trade is Wed 9/30). HENRY's blind BRT-12 verdict is due.
 2. **Wed 9/30 ~10:30:**
    - Grade **BRT-29** (T ≤7,555 kb/d) and **BRT-12** (8/13 rule). PREP: `setups/2026-09-25_Q3-predictions-grade-PREP.md`.
-   - **Also read distillate exports wk-9/25** against 1,331 kb/d (4-wk 1,559). A sharp drop means the voluntary curb is biting.
+   - **Also read distillate exports wk-9/25** against 1,331 kb/d (4-wk 1,559). A sharp drop is consistent with a voluntary curb but doesn't prove one: look for a multi-week pattern plus refiner statements. DOCKET L531 points here.
    - BZZ26 becomes the graded month.
    - Russia's producer diesel ban expires; read the decree.
 3. **Any day:** an export-ban executive order. That is an IMMEDIATE read of F1, HEN-46 and boundary #6, with packets to TERRY, HENRY and WALTER.

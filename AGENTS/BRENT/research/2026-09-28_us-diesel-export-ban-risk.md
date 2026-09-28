@@ -2,7 +2,7 @@
 
 **Written 2026-09-28 16:57 EDT (Mon), BRENT live session, Will-directed. $0: no trade, no line moved, no grade.**
 **Sources:** policy, legal and precedent sourcing is in [`2026-09-28_us-diesel-export-ban_source-research.md`](2026-09-28_us-diesel-export-ban_source-research.md). Tags there are [PAGE] (read at the page) or [SNIP] (search snippet only). An Opus research subagent wrote it; I re-read Trump's 9/27 quote and the 9/28 Yahoo article at the page. The balances come from my own EIA v2 API pull (primary). The tape is my own yfinance pull (single vendor; daily closes are not official settles).
-**Answers:** WALTER SIG-W-20260928-010 ask (B). Ask (A) was withdrawn by WALTER's own correction at 20:09Z.
+**Answers:** WALTER SIG-W-20260928-010 ask (B). **§3 CORRECTED ~17:3x ET after CATO MR19: breach timings withdrawn, recast as conditional sensitivities.** Ask (A) was withdrawn by WALTER's own correction at 20:09Z.
 
 ## 1 · Policy state: FACT
 
@@ -60,35 +60,28 @@
   - demand and imports respond.
 - **A voluntary 25% curb ≈ 0.4 mb/d ≈ 2.7 M bbl per week: about a quarter of a ban's force, in the same direction.**
 
-## 3 · Transmission to OUR lines: ASSESSMENT on Goldman's scenario numbers
+## 3 · Transmission to OUR lines: CONDITIONAL SENSITIVITIES, not forecasts
 
-Goldman (9/26) frames this as a **scenario, explicitly not its base case**. I converted its figures to $/bbl myself (×42).
+> 🔧 **CORRECTED 2026-09-28 ~17:3x ET (CATO MR19, relayed by PROME; verified at `88da0c1fe`).** The first draft of this section multiplied Goldman's **retail** ¢/gal figures by 42 and read them as **futures-crack** moves, then derived **breach timings**: "F1's cushion gone ~8× in one week", "HEN-46 inside one week", "#6 ≥$50 ~1 week into stage 2; ~3–6 weeks after a ban". **×42 changes units; it does not establish transmission.** Retail diesel carries crude, refining margin, distribution/retail margin and taxes. A crack is wholesale/futures product minus crude, at a named hub and month. Counterexample: a 25¢ retail fall that comes with an equal fall in crude leaves the crack unchanged. **The breach timings are WITHDRAWN as findings.** They survive only as the labelled sensitivities below. Nothing here grades a gate. The same timings were in the WALTER/TERRY packets, STATUS and NEXUS as first committed (`6691e5661`, `4f92f6a15`, `6f6a12c40`); each carries this correction.
 
-**Stage 1, while storage lasts: US retail diesel −25¢/gal per week ≈ −$10.50/bbl per week.**
-- **VLO scale filter F1** (TERRY's gate; $95 on the matched November ULSD crack, HOX26×42 − CLX26):
-  - 9/28 settle-proxy reading is **$96.23 (cushion $1.23)**.
-  - Post-settle at 16:12 it reads $97.33. That is not a grade.
-  - **One week of stage 1 takes out the cushion about 8 times over.**
-- **HEN-46 "thesis dead" tier ($90.16, HENRY's):** inside one week.
-- ⚠️ **The instrument understates the harm:**
-  - NYMEX HO delivers in New York Harbor, and the East Coast is short (PADD 1 imports 85 kb/d; pipeline-constrained).
-  - The stranded barrels sit on the **Gulf Coast**, where the export-heavy refiners run: VLO Q2 throughput was 3.0 mb/d, and it is called "most export-levered" by a secondary source.
-  - ⇒ Gulf Coast realized margins could fall **more** than the HO crack shows.
-  - The graded instrument would lag the P&L it stands for.
+**What IS established:**
+- **Direction.** NYMEX HO delivers in New York Harbor, a US location. A ban or voluntary retention adds US supply, so US diesel should weaken relative to crude and to ICE gasoil. If refiners then cut runs, US gasoline supply falls, so gasoline should strengthen. WTI should weaken relative to Brent.
+- **The one observed reading (float day 9/23, yfinance closes):** HOX26 4.762 → 4.634 (**−$5.38/bbl** on product); Nov ULSD crack **109.49 → 102.45 (−$7.04)**; RBX26 +3.7%; Nov gasoline crack 44.81 → **48.14**. ⚠️ Brent rose ~$3.83 the same day on Iran, so the cause is **not established**. It is a proxy for how fast the futures crack can move on ban news, not a pass-through estimate.
 
-**Stage 2, once storage fills and runs are cut: US gasoline +30¢/gal per week ≈ +$12.60/bbl per week.**
-- **Boundary #6** is WALTER's letter: a gasoline crack spike ≥$50, or a re-cross of $30 from below.
-  - Matched crack at 16:12: **Nov $39.93** (RBX26×42 − CLX26) · **Dec $35.67**.
-  - It needs +$10.07 on November and +$14.33 on December.
-  - ⇒ **it plausibly crosses ≥$50 about one week into stage 2, i.e. roughly 3–6 weeks after a ban starts.**
-  - The re-cross leg is not in play: the crack has not been below $30.
-  - Name the month when grading (overlay #6: month-dependent).
-- **9/23 (the float day):** Nov crack **$48.14**, $1.86 short of the spike leg. RBX26 rose 3.7% while HOX26 fell 2.7%: gasoline up and diesel down, the ban-shaped move. The timing matches; **the cause has not been established** (Brent was also up on Iran).
+**Sensitivities (IF-THEN; the assumptions are the claim):**
 
-**Crude:** lower US runs ⇒ a weaker WTI relative to Brent.
-- 9/25: −$12.02, the widest since 5/6, which Reuters read as ban pricing.
-- 9/28 Nov-matched, 16:12: **−$12.83** (BZX26 105.72 − CLX26 92.89).
-- This is a mild negative for USO (a WTI product), not a thesis change.
+| Assumption set | Nov ULSD crack (9/28 settle-proxy $96.23; F1 $95; HEN-46 $90.16) | Nov gasoline crack ($39.93 at 16:12; #6 spike leg ≥$50) |
+|---|---|---|
+| **A. Full pass-through, crude flat:** Goldman's retail move shows up 1:1 in NYH futures, WTI unchanged | −$10.50/bbl per week ⇒ below $95 and $90.16 in week 1 | +$12.60/bbl per week once runs are cut ⇒ ≥$50 in week 1 of stage 2 |
+| **B. Half pass-through, crude flat** | −$5.25 per week ⇒ below $95 in week 1, below $90.16 in week 2 | +$6.30 per week ⇒ ≥$50 in week 2 of stage 2 |
+| **C. Crude falls with product** (WTI weakens on lower US runs, as 9/25's −$12.02 WTI−Brent suggests) | Crack falls LESS than product; may not cross | Crack rises MORE than product |
+| **D. Voluntary curb only** (e.g. 25% ≈ 0.4 mb/d) | Direction the same, magnitude unknown | Stage 2 may never come if storage never fills |
+
+- **Stage-2 start** also depends on the storage-fill [EST] in §2 (Gulf Coast 2–5 weeks), which carries its own caveats.
+- **Goldman's $0.25 and $0.30 are unverified here:** the source file has them as a snippet via BOE plus WALTER's first-page read.
+- ⚠️ **The instrument-vs-P&L point stands on its own logic, not on the sensitivities.** HO is NYH-delivered and the stranded barrels are on the Gulf Coast, so VLO's realized Gulf margins could fall more than the graded crack shows. That is direction only; magnitude unmeasured.
+- **Crude:** 9/28 Nov-matched WTI−Brent is −$12.83 (BZX26 105.72 − CLX26 92.89). A mild negative for USO; not a thesis change.
+- **#6:** the re-cross leg is not in play (the crack has not been below $30). Name the month on any fire (overlay #6).
 
 ## 4 · What the tape says: FACT (yfinance closes; not settles)
 
@@ -107,7 +100,7 @@ Goldman (9/26) frames this as a **scenario, explicitly not its base case**. I co
 | When | What | What it tells us |
 |---|---|---|
 | Any day | Executive order / IEEPA emergency declaration | A ban. No rulemaking lag; stage 1 starts within days |
-| **Wed 9/30 10:30** | EIA weekly exports (week ending 9/25) | A sharp drop from ~1.3–1.6 mb/d ⇒ voluntary curbs are biting (same direction, smaller) |
+| **Wed 9/30 10:30** | EIA weekly exports (week ending 9/25) | A sharp drop from ~1.3–1.6 mb/d is **consistent with** voluntary curbs but does not prove them: weekly exports are noisy (1,331–1,935 kb/d over the last 8 weeks; 851 in one Sep-2025 week). Look for a multi-week pattern plus refiner statements |
 | **Wed 9/30** | Russia's producer diesel-export ban expires or is extended | An extension keeps global diesel tight ⇒ more political pressure on US exports |
 | Weekly | AAA/EIA retail diesel ($6.45 AAA 9/28; $6.529 EIA wk-9/21) | Staying ≥$6.50 is the political trigger |
 | Refiner statements | VLO/MPC/PSX on voluntary curbs | Unknown today: the biggest open fact |
