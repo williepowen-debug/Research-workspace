@@ -44,5 +44,5 @@
 - Will: WQ-319/320 RULED 9/28 (encoded). Open: Kpler/Vortexa inquiry forms (Will's hands, from 9/26).
 
 ## MAIL STATE
-- **Inbox 0 top-level · 0 WALTER** (2 processed today). BOARD info-lane: no unmatched IDs 9/20+.
+- **Inbox 0 top-level · 0 WALTER** (2 WALTER + 1 BRENT processed today; BRENT WQ-319 confirm = KB-425). BOARD info-lane: no unmatched IDs 9/20+.
 - Sent: PROME memo (this closeout, `PROME/inbox/`). SendMessage: BRENT ×3 (timeline, alt causes, T0 split), WALTER ×2 (8/28 question, weekday fix), PROME ×1 (spawn disclosure + L491 approach).
