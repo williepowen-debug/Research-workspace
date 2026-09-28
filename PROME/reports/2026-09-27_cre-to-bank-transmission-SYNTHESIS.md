@@ -334,3 +334,25 @@ MF modifications made: Q1-26 ≈ $105M (derived: $364M H1 − $259M Q2; Q1 rate 
 **What it means for the thesis:** the modifications are **not yet evidence of borrower recovery**, and the delinquency level is a live warning at Flagstar; they are not evidence of a cohort failure rate or of accelerating loss.
 
 **Carried to WQ-313 item ① (Flagstar's Q3 modification tables) — the exact unresolved question:** *In the Q2-26 10-Q, the MF "subsequently defaulted" figure is $29M for the three months ended 6/30/26 and $286M for the six months ended 6/30/26, while the Q1-26 10-Q reports no MF row for the three months ended 3/31/26. What population and period does each figure measure, and does the Q3-26 10-Q (three- and nine-month columns) reconcile them — including whether any of the $286M relates to loans modified before 2026?* Q3 may add evidence but is **not guaranteed** to identify the Q2 cohort. **No further interpretive round on the Q2 tables.**
+
+---
+
+## 17. End-of-day judgment (20:5x ET, Will 20:56 — no new research starts here)
+
+**1. What materially changed.** The *direction* of the thesis did not change: at 6/30/26 regional-bank CRE losses are concentrated at named banks, each by its own route, not tier-wide (§1–§2; VLY §13 adds a mid-pack "neither"). What changed is **how much of it we can measure**:
+- **Severity is mostly assumption.** No bank-held-loan clearing price exists on any fleet surface; ~$6.1B of FLG's pools have no comparable at all; the Signature sale gives only a conditional Dec-2023 valuation, not a loss rate (§7, §9, §12).
+- **Recognition timing differs by bank.** EGBN writes down and proves the mark by sale; OZK and WAL recognise little at foreclosure. Their low recognised losses and possible delayed losses are held side by side as hypotheses (§15).
+- **"The banks are working their problems out" is observable for only a small share of activity.** Funding for most exits is undisclosed and not observable in aggregate (§15, CREED).
+- **Flagstar's counter-case weakened:** its largest known exit sold below the debt and was 75% Flagstar-financed (press-grade, §10), and its stock of recently modified multifamily loans was ~47% past due at 6/30 — a high delinquency level, not a cohort failure rate (§16).
+
+**2. Strongest evidence against the stress thesis (established, primary):** the 14-bank cohort's CRE bad-loan rate fell 2.46% → 2.23% and H1 CRE charge-offs fell $528M → $452M year on year · criticized/classified books fell in **dollars**, not only ratios (FLG classified $9.7B → $8.5B in H1; VLY criticized CRE −$0.6B; EGBN troubled office $287M → $77M) · EGBN's sales cleared at 101–103% of written-down marks · OZK's construction book at 46% LTV with $2.9B repaid in Q2 and Sullivan recapitalised with new equity · every stressed bank stays above its capital target in the bridge's stress · no bank nationally matched Nano's profile. *(Pulling the other way, also established: the FLG modification stock, VLY's Q2 flow jump, OZK's $293M of largely unsold foreclosed property.)*
+
+**3. The uncertainty that matters most:** **whether carrying values — appraisal marks on problem loans and foreclosed property, and the status of modified or deferred loans — hold when tested by a sale, a payoff or a re-appraisal.** It decides both severity and whether losses stay with the named banks. **Not answerable now:** it is a disclosure limit, and the tests arrive with events already scheduled — the Nano P&A terms (~10/5–10/9, DOCKET L516), the Q3 prints (OZK OREO sales · WAL's $99M appraisal · EGBN held-for-sale sales and its extended loan · VLY's deferral cohort · FLG's modification tables incl. the §16 reconciliation question) under WQ-313, the mid-pack breadth test (REGINALD §D), and the FDIC's Nano pool sale (+3–9 months, L515).
+
+| Class | Items |
+|---|---|
+| **Established (filings)** | concentration at 6/30; cohort CRE credit improved in aggregate; each bank's loss route; EGBN marks sufficient on its sales; FLG modification stock 47% past due; VLY Q2 flow jump; OZK OREO build; no Nano lookalike |
+| **Scenario** | every bridge loss rate and CET1 outcome; OZK's probability-weighted RaDD; the conditional Signature ~60% valuation; possible delayed losses at OZK/WAL |
+| **Disclosure limit** | exit funding sources; Signature realised recoveries; modification default-table reconciliation and reset policy; location of VLY's late/deferred loans; EGBN Fairfax outcome; payoff prices vs par |
+
+**Recommended next substantive task: none.** No candidate beats the Q3 work already scheduled: the tests that matter arrive between 10/9 and 11/10 regardless, and the one pre-Q3 item (the Nano P&A) is already registered. The only pre-Q3 action worth taking is registrar work, not research — making sure each Q3 read above sits on a dated DOCKET row so it fires (proposed for the closeout).
