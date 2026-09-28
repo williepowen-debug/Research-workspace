@@ -21,7 +21,9 @@
 
 FL/US ratio (M.D.+S.D. all chapters): 1.205× (3/31/26) → **1.231×** (6/30/26). FL growth ~9pp above US.
 
-## ⚠️ Spec defects — flagged for amendment BETWEEN grades (THESIS rule), not resolved here
+## ✅ RULED 2026-09-28 (Will): WQ-321 — criterion 5 = leg A absolute (≥5pp below prior-four-table max, two consecutive tables), leg B relative reported only; basis = all chapters M.D.+S.D. · WQ-322 — the ~230/260 LEVEL trigger RETIRED (not replaced); growth-warning rule kept unchanged and unvalidated. The defects below are the history that led there.
+
+## Spec defects as found (history)
 1. **Basis is internally inconsistent.** The carried spec says "Ch.7 per capita M.D.+S.D., tripwire >~230/100k", but the "~190" it was anchored on is **statewide NONBUSINESS all-chapter**, and Ch.7 M.D.+S.D. is only 151.5. The basis choice moves the tripwire date by ~1 year.
 2. **"Fades" has no number.** Candidate readings: FL YoY ≤ US YoY; or the per-capita YoY increase shrinking two quarters running.
 

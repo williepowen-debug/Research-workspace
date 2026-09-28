@@ -7,7 +7,7 @@
 | **Tue Sep 29, 2026 11:00 ET** | Brightline Ch.11 first-day hearing (In re FIHPNP LLC, 26-20876, D.N.J.) | ⚪ info: read the Flagler real-estate debtors' schedules when filed (station-area parcels). No FL-bank transmission found 9/28. | CORAL (info) |
 | **Wed Sep 30, 2026** | Citizens 09.30.26 month-end (pub ~early Oct) | Carries the **9/15 personal round (10,210)** — read EX-ROUND; commercial had a Sep round (40). | CORAL |
 | **Fri Oct 16, 2026** | FL Realtors **September** release | Four legs (level · volume · realization · velocity). Does condo sales stay negative YoY after −1.8% Aug? | CORAL, MARCO, HOMER |
-| **~late Oct–Nov 2026** | AOUSC F-2, 12 mo to 9/30/26 (watch `/2026/09/30/bankruptcy-filings/f-2` from ~10/20) | Re-run `tools/bkcy/build_bkcy.py`. M.D.+S.D. crosses ~230 at 9/30 only if Jul–Sep growth ≥24.7%. | CORAL, CARL |
+| **~late Oct–Nov 2026** | AOUSC F-2, 12 mo to 9/30/26 (watch `/2026/09/30/bankruptcy-filings/f-2` from ~10/20) | Re-run `tools/bkcy/build_bkcy.py`. Report level, growth and US comparison (M.D.+S.D. all chapters); score criterion-5 leg A on the 11/15 grade. Level trigger retired 9/28 (WQ-322). | CORAL, CARL |
 | **~late Oct 2026** | **Q3 FL-bank prints** (SSB · SBCF · BKU · VLY · USCB · AMTB · CCBG) | Bank-rail re-test — ≥2 synchronized or USCB condo-assoc deterioration. Currently NOT met, NOT armed. | CORAL → REGINALD |
 | **Wed Nov 4, 2026** | Criterion-6 instrument: FL Division of Elections certified result, **Ballot No. 3** | Yes % vs 60% threshold; if it passes, EDR revenue-impact estimate. Feeds the 11/15 grade. | CORAL |
 | ✅ Jul 17, 2026 | ATTOM Mid-Year (H1) foreclosure | **DONE 7/17:** FL #1 rate 0.27% (1-in-373); Punta Gorda/Lakeland = US #1/#2 metros; Jax/Ocala new entrants. Grid built. | CORAL → REGINALD |

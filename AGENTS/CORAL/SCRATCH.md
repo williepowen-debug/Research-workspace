@@ -30,7 +30,7 @@
 ## NEXT SESSION
 
 - **9/30 FIGA 1% ends + FL minimum wage $14→$15** (dated, nothing to pull).
-- ✅ **WQ-241 + WQ-321 RULED by Will 9/28 and INSTALLED same day** (STATUS OQ §A amended letter; THESIS criterion-5 scoring; CHANGELOG). **Next Parcl reading is graded on the AMENDED letter** — persistence clock from the first qualifying reading. **WQ-322 (tripwire basis) is Will's, open.**
+- ✅ **WQ-241 + WQ-321 RULED by Will 9/28 and INSTALLED same day** (STATUS OQ §A amended letter; THESIS criterion-5 scoring; CHANGELOG). **Next Parcl reading is graded on the AMENDED letter** — persistence clock from the first qualifying reading. **WQ-322 RULED 9/28 (option E): ~230/260 level trigger retired, not replaced; growth rule kept unchanged and unvalidated; report level/growth/US on the all-chapter M.D.+S.D. basis.**
 - **~early Oct: Citizens 9/30 month-end** — carries the 9/15 round (10,210); read ex-round.
 - **OQ L residual:** was `seo.totalCount` on the 9/13 page? (Wayback 429'd today.) If yes, correct ML-CORAL-079 as a keyed-search error (append-correction, don't delete).
 - **10/16 FL Realtors September** — four legs.

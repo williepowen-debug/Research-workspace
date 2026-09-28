@@ -70,7 +70,7 @@
 | Fri 10/2 | Will's WQ-241 sitting | MSI re-fire + level guard (prospective) |
 | ~early Oct | Citizens 9/30 month-end | Read EX-ROUND (9/15 round 10,210) |
 | Fri 10/16 | FL Realtors September | Four legs; does condo sales stay negative YoY |
-| ~late Oct | Q3 FL-bank prints · AOUSC F-2 to 9/30 | Bank rail; bankruptcy tripwire (~230) |
+| ~late Oct | Q3 FL-bank prints · AOUSC F-2 to 9/30 | Bank rail; bankruptcy level/growth reported (level trigger retired 9/28, WQ-322) |
 | Nov 3 / Nov 15 | Ballot No. 3 / falsify grade | 60% threshold; pre-registered decision rule |
 | Dec 11 | NFIP authorization | Lapse = FEMA stops writing |
 

@@ -51,7 +51,7 @@ Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo st
 | FIGA / insolvency | 1% assessment **ends 9/30**; **no new FL insurer failure Aug–Sep** (FIGA/OIR/DFS lists 9/28) | 🟡 |
 | NFIP | **Authorized to 2026-12-11** (H.R. 6500, 9/2) | 🟡 dated |
 | Recent-vintage neg. equity | Cape Coral **11.1%** #1 US; Lakeland 10.8%; 2024 vintage **35.4%** underwater | 🟠 |
-| **Bankruptcy (instrument built 9/28)** | M.D.+S.D. **217.1/100k, +21.2% YoY** (12 mo to 6/30/26); FL/US **1.231×** widening. Criterion-5 leg A (Will-ruled 9/28): 2.7pp below prior-four peak ⇒ not fading. ⚠️ Confirm-side tripwire >~230 **basis unresolved (WQ-322)** | 🟠 canary |
+| **Bankruptcy (instrument built 9/28)** | M.D.+S.D. **217.1/100k, +21.2% YoY** (12 mo to 6/30/26); FL/US **1.231×** widening. Criterion-5 leg A (Will-ruled 9/28): 2.7pp below prior-four peak ⇒ not fading. Growth-warning rule (>20% YoY 🟠) unchanged, not validated; **level trigger ~230/260 RETIRED 9/28 (WQ-322)** | 🟠 canary |
 | Hurricane season 2026 | **8 named / 0 hurricanes; no FL landfall**; NHC 9/28: no formation 7d | 🟡 |
 | Sargassum (SE FL) | ~**38M MT** Jul, record tier — ⚠️ NOAA SIR band unretrievable since 7/21 | 🟠 |
 
@@ -110,7 +110,7 @@ Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo st
 | D2 | SEL-2026-05 loosening — effective dates UNKNOWN | open | flagged, not adopted |
 | D3 | GSE reserve funding **10% → 15%** | **2027-01-04** | dated |
 | F | Ocala June-2026 metro UR — next route FloridaCommerce LMS; normal June shape +0.6pp | owed | 3 routes dead |
-| H2 | ✅ **Criterion 5 operationalized 2026-09-28 (Will-ruled WQ-321):** leg A ABSOLUTE scored (M.D.+S.D. all-chapter per-capita 12-mo YoY ≥5pp below its preceding four-table max, on two consecutive tables); leg B relative reported only — a prospective policy choice, not a validated threshold. ⏳ **WQ-322 (Will, separate): the confirm-side ~230/260 tripwire basis** — label and anchor disagree; NOT rebased | WQ-322 ruling; next F-2 table ~late Oct–Nov | leg A installed; tripwire open |
+| H2 | ✅ **Criterion 5 operationalized (WQ-321) + level trigger RETIRED (WQ-322), both Will-ruled 2026-09-28:** leg A absolute scored (M.D.+S.D. all-chapter per-capita 12-mo YoY ≥5pp below its preceding four-table max, two consecutive tables); leg B relative reported only — prospective policy choices. The ~230/260 level trigger is retired, not replaced; the growth-warning rule is retained unchanged and unvalidated | next F-2 table ~late Oct–Nov | ✅ closed |
 | I | Receivership/termination count — Two Roads "economic waste" suit | unresolved | 🟡 |
 | J | **Condo price-band test — UNITS, never SHARE** | separate report | not run |
 | K | No constant-quality statewide FL **condo** index — every condo composition argument rests on a mix statistic | open | named gap |

@@ -5,6 +5,18 @@
 
 ---
 
+## 2026-09-28 (latest) — Will RULED WQ-322 (option E): the ~230/260 bankruptcy LEVEL trigger is retired, not replaced
+
+**Trigger:** confirm-side rail change, ruled by Will directly in the CORAL session.
+
+| Item | Old | New |
+|---|---|---|
+| Bankruptcy level trigger (THESIS bridge signal L80; VX-CORAL-BKCY-01) | 🟠 >~230 / 🔴 >260 per 100k, labelled "Ch.7 M.D.+S.D." | **RETIRED, prospectively.** History kept (struck through): the label and the June ~190 anchor were different bases; the derivation is undocumented (`51475a00c`). **No 250/283 substitute, no replacement ratio threshold.** |
+| Reporting | mixed bases | All chapters, M.D.+S.D., 44-county Census denominator (WQ-321 basis): per-capita level, growth and US comparison, each with coverage stated |
+| Growth-warning rule (VX: 🟠 >20% YoY sustained / 🔴 >30% + bank NCO move) | — | **Retained, thresholds unchanged, NOT validated by this ruling.** A growth warning alone is not proof of broad household stress or of bank-loss transmission. |
+
+**Unchanged:** criterion-5 slowing test (WQ-321 leg A/B), the 11/15 grade date and rule, overall 🟠, bank rail NOT met, NOT armed. **No retrospective regrading.**
+
 ## 2026-09-28 (later) — Will RULED WQ-241 and WQ-321: MSI re-fire + level guard installed; criterion 5 operationalized; tripwire rebase NOT approved
 
 **Trigger:** confirm/falsify rail change (Will-ruled ~15:1x ET; verbatim record `PROME/WILL_QUEUE.md`, PROME commit `c0cfe7ba6`).
