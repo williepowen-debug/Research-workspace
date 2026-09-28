@@ -1,0 +1,19 @@
+# BOND coverage-gap review (Will: "Do you see any gaps in our coverage of bonds that we should work on?")
+
+**Written:** 2026-09-28 17:18 ET by BOND · **Method:** keyword sweep of BOND's own files (excluding `domain/sources/`) + a check of what `boot_recompute.py` / STATUS pull live, then a fleet-wide STATUS/CLAUDE.md sweep, so that a topic another desk covers is not called absent. **Scope limit:** the sweep finds topics that are absent or not pulled live. It cannot judge whether a covered topic is covered WELL.
+
+| # | Gap | Evidence (this sweep) | Why it matters now | Fix · cost |
+|---|---|---|---|---|
+| 1 | **Market-implied Fed path not in the live pull** | 0 hits in boot_recompute/STATUS; the 9/28 deep-dive used ad hoc yfinance futures (last trade, not settlement; SOFR strip = one print, no history). HENRY/SAM carry FedWatch-type figures. | BOND owns curve shape; the FOMC row owed by 10/21 should key on the terminal/1y1y (`KB-BND-353`) | Add FF + SOFR strip (history, settlement where reachable) to boot_recompute, **consume, not own** (HENRY). Cheap. |
+| 2 | **Term premium (ACM/KW) refreshed by hand** | ACM/KW in 41 files, but 0 in boot_recompute; STATUS row marked STALE since the 9/24 pull | A Will-ruled scope claim (8/10 sovereign-credibility set): the instrument that separates "Fed path" from "term premium" during the year's biggest long-end move | Wire ACM Daily xls + FRED THREEFYTP10 into boot_recompute. Cheap (both reached before). |
+| 3 | **MBS relay: dormant, and its re-arm trigger is unwatched** | VX-BND-17 DORMANT since 8/18 (Will-authorised); re-arm = primary spread outside ~180–230bp; **nothing measures it.** Measured now: **185bp [9/24]** (MORTGAGE30US 7.03 − DGS10 5.18), 181 [9/10] ⇒ **inside the band, near its low edge; NOT fired** | Self-sealing dormancy: an unmeasured exit can never fire. Mortgage rate 7.03% is a live housing-finance number. | One watcher line in boot_recompute (weekly FRED). Very cheap. |
+| 4 | **Swap spreads: zero coverage** | 0 BOND files; 1 fleet STATUS mention (VULCAN) | The most direct market price of dealer balance-sheet strain and supply indigestion, i.e. the "expensive vs demand hole" question, updated daily. The dealer vector today relies on weekly FR2004 with an ~8-day lag. | **Source check first: free daily swap-rate availability NOT checked** (re-test: at build). Moderate. |
+| 5 | **Basis trade / leveraged-fund Treasury futures positioning** | 22 BOND files, nothing live; a prior method error mislabelled a CFTC futures proxy as the structural stock (MEMORY L1) | FL-BND-13 names basis-trade withdrawal as a third cause of thin auctions, which the demand-hole test can mistake for foreign stepping away | CFTC TFF weekly (free) as a labelled PROXY, never the stock. Moderate. |
+| 6 | **HY primary: pulled/flexed deals + weekly volumes** | 7 "paywalled" + 4 "403" markers in September KB rows; `KB-BND-346` access read rests on large deals only | Row 4's other trigger (pulled-deal cluster) cannot fire on evidence | No free fix found. **Will's call:** accept as a standing GAP, or a paid source. |
+| 7 | **Daily move attribution (news)** | 9/28 driver = GAP (CNBC/Babypips 403) | "Why did it move" goes unanswered on the days it matters | WALTER owns news intake: route through WALTER, don't build a side channel. |
+
+**Outside BOND's lane (flag only):** no desk owns **municipal-bond market structure**. AEOLUS routes muni *credit* to REGINALD/CREED, and Florida is a top-priority geography. That is a scope question for Will/PROME, not a BOND build. Leveraged-loan prices are BROCK's lane.
+
+**Deliberately NOT gaps (do not reopen):** auction tail (unscoreable by construction, retired 7/28) · US sovereign CDS (declined 9/2, re-test 12/1) · foreign demand/TIC (ZHAO) · repo/SOFR plumbing (LIQUID).
+
+**Recommendation:** do **1 + 2 + 3 as one wiring job** (all free sources already reached; one tool, one selftest), then 4 and 5 after a source check. 6 is Will's decision.
