@@ -40,6 +40,7 @@
 7. 🟡 `check_fr2004` pattern gap (bare "FR2004 m/d:" form) · `DEALER_CAPACITY.md` body refresh · `KB-BND-307` cadence correction · NEXUS_BRIEF:16 T5YIFR distance (14→16bp) — all carried.
 
 ## OPEN THREADS / KNOWN GAPS
+- ✅ **[13:30 ET] OUTBOX AUDIT DONE (Will-directed)** → `analysis/2026-09-28_outbox-delivery-audit.md`: 47 packets = 33 verified → `outbox/delivered/` (2 were identical duplicates, outbox copies trashed) · 8 unverified & >60d → `archive/outbox_unverified/` (NOT a delivery claim) · 6 unverified & <60d kept in `outbox/`. 🔴 **One may be live: `outbox/2026-08-27_to-PROME_kill-scope-ENCODED-plus-three-uses-the-ruling-does-not-reach.md`** — the TLT-put ADD re-arm + LIQUID routing trigger still run on the OLD composition definition, and no PROME record of the flag exists. Re-send or ask Will — not done.
 - 🔴 **LIQUID owns the Q4 grade on the 9/25+ cells** (BOND sent facts only). Next BOND-side: D6 FR2004 below-IG 10/1; D8 pulled-HY-deal check STALE since 9/17 (gap). Watch B 15-session ≥ +28 on 9/28–9/30 cells, IG ≥ +6 / BBB ≥ +7.
 - 🟡 **New research need named, not started:** cross-market attribution of the 9/22→9/28 move (BOND/HANS/SAM) — PROME scopes.
 - ACM/KW TP not re-pulled 9/28 (STATUS marks STALE); FORUM-7 P2 KW grade is HENRY's (~9/28–29).

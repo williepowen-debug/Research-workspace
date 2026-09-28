@@ -13,3 +13,4 @@
 | Git | see commit; push via safe-push.sh |
 | Pass 3 + closeout | `KB-BND-344/345` · VX-06 · `monitors/CREDIT_PRIMARY_MARKET.md` + `monitors/CDX_CASH_BASIS.md` refreshed · STATUS marks/pointer · SCRATCH |
 | Post-closeout audit (13:22) | `workbook/FLOW.tsv`: FL-02/12/15 evidence + new FL-BND-16 (WATCH) |
+| Outbox audit (13:30) | 47 packets: 33 → delivered/ · 8 → archive/outbox_unverified/ · 6 kept · 2 identical duplicates trashed · record `analysis/2026-09-28_outbox-delivery-audit.md` |
