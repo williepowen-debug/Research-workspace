@@ -190,7 +190,9 @@ def main():
                                 (row.get("replacement") or "")[:80]))
 
     if a.quiet:
-        BASE_DRIFT, BASE_REVIVED = 16, 69      # RE-MEASURED 2026-09-28 (session #10 audit repair, research/AUDIT_2026-09-28.md), verified hit-by-hit:
+        BASE_DRIFT, BASE_REVIVED = 16, 67      # TIGHTENED 2026-09-28 late (housekeeping): check-2 69 -> 67 as KB-126 and KB-055/056 went SUPERSEDED
+                                               # and the dead NEXUS 8/7 paragraph was trimmed; tightening can only false-alarm, never hide rot.
+                                               # Prior: 16, 69 RE-MEASURED 2026-09-28 (session #10 audit repair, research/AUDIT_2026-09-28.md), verified hit-by-hit:
                                                # check-1 13 -> 16 = the audit's own ledger research/audit_2026-09-28/B_thesis.md quoting dead version tokens (:26, :35 x2),
                                                # a record by design; the pre-existing +1 (LIVE_SURFACE_SWEEP:46 '200 rows') is KEPT in the count, not excused.
                                                # check-2 61 -> 69 after 8 NEW RETIRED_CLAIMS rows (the whole point: they now catch variant wording). The +8 are

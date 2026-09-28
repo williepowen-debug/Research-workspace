@@ -29,7 +29,7 @@ Drop files into this directory (`AGENTS/REGINALD/WAL/sources/q1_2026/`) using th
 
 | File | Contents |
 |---|---|
-| `WAL Q1 2026 - 8-K Extract.md` | Press release content summary + exhibit list |
+| `WAL Q1 2026 - 8-K Extract.md` *(retired 9/28 → `../../archive/sources/`)* | Press release content summary + exhibit list |
 | `WAL Q1 2026 - Transcript Excerpts.md` | Speaker quotes from Benzinga + Fool + Yahoo + Investing.com |
 | `WAL Q1 2026 - Step 1 Fetch Status.md` | What was secured / what's pending / net-new findings |
 

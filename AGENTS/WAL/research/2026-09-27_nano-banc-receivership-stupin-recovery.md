@@ -47,6 +47,8 @@ The complaint pleads 10 "Fraudulent Title Report" collateral loans. For each, Ca
 | **44** | 12233 Central Ave, Chino | Preferred $22.4M (8/4/2016) 1st; **Nano $5,990,000 (1/26/2023)** 2nd | ✅ |
 | **45** | 9826 Cedar St, Bellflower | Umpqua $6.47M (11/6/2018) 1st; **Nano $8,000,000 (9/16/2024)** 2nd | ✅ |
 
+*Housekeeping note 9/28: the dates in this table are the DOTs' **dated** dates per the complaint. DEWEY's **recording** dates (§4x): Moreno Valley rec. 9/9/2019 · Ontario rec. 1/13/2023 · Chino rec. 6/30/2023 · Bellflower rec. 9/27/2024. Chino's five-month dated-to-recorded gap is unusual — inference: it may be a different instrument, which feeds §9b's unresolved property match (12125 vs 12233).*
+
 **Nano count: 4 distinct DOTs ($9.72M + $4.33M + $5.99M + $8.00M = $28.04M ORIGINAL FACE) ahead of WAL on 5 of the 10 pleaded collateral loans.** ⚠️ These are face amounts at origination, not current balances, and the pleaded list is the complaint's examples, not necessarily the whole collateral pool. The other senior holder is **Preferred Bank** (a public bank: PFBC). Per American Banker 6/11/2026 it carries **$115M of nonaccrual loans** tied to Makhijani entities. That is REGINALD's lane, flagged in §6.
 
 **Does WAL still sit behind Nano on 9/25/2026? UNKNOWN, and nothing public says who sold WAL its liens.** WAL bought a **$13M non-performing senior-lien loan in Q1-26** and "plans to acquire additional non-performing senior lien loans" (Q1 10-Q, KB-WAL-143). Senior protective liens reached **$64M by Q2** (Q2 deck fn, KB-WAL-123). **The filings name no seller.** Three states are possible, and nothing distinguishes them today:
