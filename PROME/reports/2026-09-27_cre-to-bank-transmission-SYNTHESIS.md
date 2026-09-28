@@ -285,7 +285,7 @@ The CPC ventures (C/D) went to a mission-driven bidder **below its cover bids** 
 
 ### Recognised losses
 - **Where severity is measurable, problem exits cost ~13–28% of balance** (OZK foreclosures 19.6%, range 7–28%; OZK San Carlos payoff 23.3%; EGBN transfers 13.3–16.5%); the one performing exit was 6% (press-grade). These sit inside the range of the bridge's cumulative assumptions; they do not calibrate any specific pool (different banks, property types and dates).
-- **Recognition timing differs by bank, so the same economic loss lands in different quarters.** EGBN writes down at transfer and proves the mark by selling; OZK recognises little at foreclosure and carries foreclosed property near appraisal; WAL has recognised $0 on its named CRE. **Low loss rates at OZK and WAL are partly a timing choice, not yet evidence of low economic loss** — and cross-bank charge-off comparisons mislead for that reason.
+- **Recognition timing differs by bank, so the same economic loss lands in different quarters.** EGBN writes down at transfer and proves the mark by selling; OZK recognises little at foreclosure and carries foreclosed property near appraisal; WAL has recognised $0 on its named CRE. **Two readings are carried side by side (Will 20:38 ET):** RECOGNISED — OZK $49.3M of Q2 charge-offs on named loans (foreclosures at 19.6% severity), WAL $0 on its named CRE; and a HYPOTHESIS of **delayed loss** — OZK's $141M of new foreclosed property carried at 95–100% of appraisal and unsold, and WAL's $99M loan and seven new foreclosed properties at no recognised loss, may carry losses that land when they sell or are re-appraised. Neither reading is established; cross-bank charge-off comparisons mislead until they are tested.
 
 ### Coverage — how much activity the evidence sees
 | Bank | Denominator | Funding source + retained exposure known | Loan-level |
@@ -301,7 +301,7 @@ The CPC ventures (C/D) went to a mission-driven bidder **below its cover bids** 
 ### What it changes about our judgment
 1. **The case against stress is weaker at Flagstar, and the modification route is now the one to watch.** Flagstar's par payoffs remain unverified, and its modifications are measurably failing. Of the two routes a bank uses to keep a troubled loan (modify it, or let it be refinanced out), only one can be tested from filings — and it is failing at Flagstar.
 2. **VLY's $108M deferral cohort now has a relevant warning, not a verdict:** Flagstar shows modified CRE loans can re-default at scale within 12 months. Whether VLY's do is a different bank's loans — a HYPOTHESIS to test at VLY's Q3 and 10-Q, not an inference.
-3. **Low recognised losses at OZK and WAL should be read as timing until their foreclosed property sells or is re-appraised.** This sharpens §8's hinge: the appraisal question now has a concrete test in OZK's OREO sales and WAL's $99M appraisal.
+3. **Possible delayed losses at OZK and WAL are a HYPOTHESIS, kept alongside the losses already recognised, until their foreclosed property sells or is re-appraised.** This sharpens §8's hinge: the appraisal question now has a concrete test in OZK's OREO sales and WAL's $99M appraisal.
 4. **Nothing here changes "concentrated at named banks, not tier-wide" at 6/30.** It changes how much weight the fleet can put on "the banks are working their problems out": that claim is observable for a small share of the activity.
 
 ### What remains unknown
