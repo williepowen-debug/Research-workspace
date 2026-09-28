@@ -71,13 +71,13 @@ Session: **2026-09-28 Mon, Claude Opus 5.5 as WALTER (`walter-f8`)**, booted 18:
 
 **Issued at the 9/28 Tier-1 before the closeout commit.** Publication state is verified after the push by `git merge-base --is-ancestor`; this block is re-issued in the same session if a commit is not on origin.
 - **9/28 handoffs: 36 written** (4+3+4+3+1+2+4+15). Delivered = committed AND on origin, reconciled by `reconcile_delivery_log.py` after push. Delivered is not consumed.
-- **The first 21 handoffs are on origin; `-008`…`-012`'s 15 are committed locally, pending push** (carried by other sessions' pushes; reconcile_delivery_log.py). Only the last receipt-fix commits are local; WALTER deferred its push per 9b(d) and PROME's closeout push carries them.
+- **All 36 handoffs are on origin** (carried by other sessions' pushes, last BOND e7066cadf; reconcile_delivery_log.py) (carried by other sessions' pushes; reconcile_delivery_log.py). Only the last receipt-fix commits are local; WALTER deferred its push per 9b(d) and PROME's closeout push carries them.
 - ⚠️ **This receipt does NOT claim:** that any recipient consumed `-001`…`-005` (BRENT answered `-001` by message); that R3 sets 1–7 were started; that the CORAL/OTTO recall notes are adopted.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-09-28T20:08:37+00:00",
+  "as_of": "2026-09-28T20:24:09+00:00",
   "publication": [
     {"commit": "e9925bba8", "state": "published"},
     {"commit": "8dbd4355e", "state": "published"},
@@ -87,7 +87,7 @@ Session: **2026-09-28 Mon, Claude Opus 5.5 as WALTER (`walter-f8`)**, booted 18:
   "delivery": {
     "signal_date": "20260928",
     "total": 36,
-    "delivered": 21
+    "delivered": 36
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
