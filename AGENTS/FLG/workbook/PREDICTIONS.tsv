@@ -1,4 +1,5 @@
 # LIVE — Last real data refresh: 2026-08-28 (FLG-01/02/03 registered at FLG's first live session) | Staleness sweep: 2026-08-28 | Next: FLG-02/FLG-03 grade at the Q3-2026 10-Q ~2026-11-06
+# Cadence: SCHEDULED next_due=2026-11-20  (frozen pre-registration cards; earliest Resolve_By (FLG-02/03); declared 2026-09-28 00:11 ET, WQ-147)
 # Status enum (STATE_VOCABULARY Class 3): OPEN | HIT | MISS | VOID | STUCK — nuance in parentheticals, narrative in Outcome/Notes.
 # Resolve_By = hard YYYY-MM-DD; boot.py flags OPEN rows past it. ⚠️ PAT-115: do NOT anchor Resolve_By to a bare expected event (a filing date slips, and the row then LOOKS dated while it is not). Use a hard calendar date, or carry the slip rule on the row.
 # Confidence tiers (blueprint §5): EMPIRICAL / PROVISIONAL / ASSUMPTION — never load-bear on n=1. If_Falsified_Action is REQUIRED: a prediction without a position/stance consequence is an opinion.
