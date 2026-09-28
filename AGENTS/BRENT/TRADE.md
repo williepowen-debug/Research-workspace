@@ -24,7 +24,7 @@ Thesis and calibration: `thesis/THESIS.md`. **WQ-189/192 STAND DOWN; no live dep
   5. R1 and R4 are unaffected.
   6. `R-CURVE-VETO`: a throughput print alone does not fire if Brent M1−M3 has not widened versus the pre-event settle basis (never falsified; kept because it can only refuse).
   - Reasons (the vendor baseline spread of 0.8 mb/d exceeds the 0.7 floor; AIS-dark error is correlated with the trigger) are in the [before-image](archive/2026-09-28_cleanup/TRADE.md) § FRAME-BREAKER.
-- **Successor Saudi-restart resolver:** PROPOSAL `setups/2026-09-18_saudi-restart-resolver-PROPOSAL.md`. It registers only **after the WQ-264 shadow run ends 10/24**. Nothing is armed.
+- **Successor Saudi-restart resolver:** PROPOSAL `setups/2026-09-18_saudi-restart-resolver-PROPOSAL.md`. It registers only **after the WQ-264 shadow run ends 10/24**. Nothing is armed. **WQ-331 P4 (Will 9/28 18:36):** it is the ONLY Saudi-relief grader; Yanbu reports before it registers are record-only ([THESIS § TWO PHASES](thesis/THESIS.md)).
 - **Staged leg-(b) structure (USO Nov-20 165/180, 9/10 pricing) and its `$4.95` breach-branch refusal: VOID as priced.** The Nov-20 eligibility window closed 9/21, and every figure was keyed to USO 158.38. Any future leg (b) is re-cut from scratch under BG-03/BG-04. **Two principles carry forward:**
   - a refusal debit is pre-registered BEFORE the fire;
   - the fire-time debit comes from the **broker chain, never `chain_fetch.py`** (it read ~10% optimistic on the transacting side, n=1).

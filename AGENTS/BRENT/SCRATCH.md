@@ -32,9 +32,9 @@
    - Grade **BRT-29** + **BRT-12** (PREP `setups/2026-09-25_Q3-predictions-grade-PREP.md`).
    - **Cushing:** F-b's second week, graded only on the 9/2 CHANGELOG letter.
    - **Distillate exports** (DOCKET L531): consistent-with, not proof.
-   - **Switch to BZZ26:** report M1−M3 as a CALENDAR STEP (phase-map P1 pending Will).
+   - **Switch to BZZ26:** F-a now grades under **WQ-331 P1 (RULED 18:36, THESIS v5.10)**: pinned month + roll-step decomposition (old pair last / new pair first / residual). **A calendar step is never a signal.**
    - Russia diesel-ban decree.
-   - After the grade, draft a **Path-B successor** (P3) before the next print.
+   - After the grade, draft the **Path-B successor letter** (WQ-331 P3: named series, window, base rate, no-verdict band) → packet to `PROME/inbox/` for Will's separate word **before the next WPSR (Wed 10/7)**. DRAFT ONLY; do not register.
 3. **Wed 9/30 15:00:** USO 159C ×2 hard stop per TERRY's card. Will's hand (WQ-316). Record the outcome in TRADE when a receipt arrives.
 4. Read EIA retail wk-9/28. Watch for an export-ban order (IMMEDIATE ⇒ VLO table rows #1–#4 + packets to TERRY/HENRY/WALTER).
 5. **Fri 10/2** COT #8 · **Sun 10/4** OPEC+ · **~Mon 10/5** Aramco OSP (Yanbu record-only) · **Tue 10/6** L471 sitting (F1 month) · **Sat 10/24** WQ-264 run ends.
@@ -44,7 +44,7 @@
 - 🔴 **US diesel export ban:** policy unset; refiner response unknown.
 - 🔴 **Yanbu restart:** REPORTED only.
 - 🟠 **TERRY's VLO proposal (L535):** returns to Will; BRENT input = the observables table.
-- 🟠 **Phase-map P1–P4:** with Will via this session's brief; not filed as WQ rows (PROME's call).
+- ✅ **Phase-map WQ-331 RULED 18:36:** P1/P2/P4 encoded (THESIS v5.10); P3 = draft owed after 9/30. **WQ-330 ruled BOTH:** `GATE-TERRY-VLO-HELD-01` registered on TERRY's card (A: $90.16 on the Nov basis; B1: signed text). It's TERRY's gate; BRENT's observables table is cited in its source cell.
 - 🟡 **Data:** ICE gasoil is unavailable (entitlements memo); CME settles are blocked.
 
 ## POSITION DECISIONS PENDING
@@ -53,5 +53,5 @@
 - USO 37 sh: no rule (WQ-200 declined).
 
 ## MAIL STATE
-- **Inbox:** clear. Today: 6 consumed = 6 board_log rows (WALTER -007/-001/-003(deferred)/-008/-010 + the WALTER R3 pointer), all `git mv`'d.
+- **Inbox:** clear. Today: 7 consumed = 7 board_log rows (WALTER -007/-001/-003(deferred)/-008/-010, the WALTER R3 pointer, PROME's WQ-331 ruling), all `git mv`'d.
 - **Sent in legs 2–3 (all committed):** PROME ×2 (`c3e185152` scope, `590ca37fa` concur) · WALTER ×3 (`6691e5661`, `2d508e43c`, `537ca0e16`) · TERRY ×2 (`4f92f6a15`, `376385da6`). Leg 1's sends are in its archived block. No open outbox.
