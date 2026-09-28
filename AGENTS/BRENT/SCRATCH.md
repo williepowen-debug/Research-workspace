@@ -32,6 +32,8 @@
 - 🟠 **TRADE.md** 9d stale at 81%: pre-9/12 history rotation offered to Will twice, no answer. USO Sep-16 165C disposition is still Will's (WQ-169).
 - 🟡 Data gap: CME settlements block automated access; the paid EOD feed vs manual glance question is still undecided with Will.
 
+- 🟡 **Reopening copy (Will via HAWK KB-HAWK-424, 9/28, verified at `86e7572d9`):** verify the ORIGINAL publication date + EVENT date. A pre-acceptance reopening is NOT automatically recycled (a partial or unilateral reopening can happen without a deal). My sentinel ⑤ (US-authority 'open' = legal, not throughput) is unchanged. WQ-319 Iraq export consumer-confirm DONE 9/28 (secondary sources; SOMO primary and the production leg not read) → packet in HAWK's inbox.
+
 ## POSITION DECISIONS PENDING
 - None new. USO 37 sh (USO $148.70 at 14:35 ET, yfinance). VLO 1 held + 2 staged (TERRY/Will). WQ-192 stand-down holds.
 
