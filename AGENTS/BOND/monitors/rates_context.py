@@ -35,7 +35,8 @@ fixtures.py`) is the acceptance test, alongside this module's --selftest.
 
 SOURCES, TOLERANCES AND THEIR BASIS (owner-chosen, documented here)
   · Fed path = CBOT 30-day fed funds futures via yfinance (ZQ<m><yy>.CBT).
-    VENDOR bars, NOT settlement (CME settlements HTTP 403 on 2026-09-28).
+    VENDOR bars, NOT settlement (CME settlements HTTP 403 on 2026-09-28; re-test: at the swap-spread
+    build and every quarterly calendar re-record).
     Bar label comes from the returned BAR DATE, never the clock alone.
     Newest bar must be ≤ FUT_MAX_BD business days old (they trade every
     business day; +1 for a holiday). ≥ MIN_LIVE live contracts after the

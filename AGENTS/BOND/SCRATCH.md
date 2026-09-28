@@ -1,4 +1,4 @@
-# BOND SCRATCH — 2026-09-28 (Mon) **16:18 ET boot** (WALTER lane ×3 + official 9/28 curve) · catch-up session 14:37 → 16:00 ET (incl. deep-dive + HY-300 correction + refi wall; closeout 16:00 ET) (Will: "boot up, catch up on owed work"). *Prior same day:* 10:34→13:15 ET live-event session (+ outbox audit to ~14:05). *Earlier:* 9/26 `prome-1d` · 9/25 · 9/24.
+# BOND SCRATCH — 2026-09-28 (Mon) — third session 16:18 → 19:15 ET (boot · official 9/28 curve · deep-dive · gap review · `rates_context.py` + v2 · source checks · positions · closeout). Earlier today: 14:37→16:00 catch-up · 10:34→13:15 live event.
 
 **Purpose:** ephemeral handoff. Read at boot, rewritten at closeout. Durable → `MEMORY.md`; evidence → `workbook/`. The previous SCRATCH text is in git history (`git show HEAD~1:AGENTS/BOND/SCRATCH.md`).
 
@@ -33,6 +33,9 @@
 12. **CORRECTION (PROME relay via Will, verified): a HY close >300 is BOND's row-4 marker ONLY — NOT a capital/HYG reopen.** X1 CLOSED 8/28 (`KB-BRK-219`); reopens only via BROCK's 10/02 sitting (DOCKET L494) → TERRY + Will. Fixed STATUS/TRADE/THESIS(dated note)/CHANGELOG/SCRATCH; `KB-BND-348`; COR-20260925-13 receipted APPLIED (late — **I dismissed it at boot as not-BOND's without reading it; read every ALL-warn at boot**).
 
 ## 🔴 NEXT SESSION (dated, future-verifiable)
+0. 🔴 **BUILD `monitors/swap_spreads.py` (Will 9/28 19:1x: "build swap-spread monitor next session").** Method + caveats → `analysis/2026-09-28_source-check_swap-spreads-CFTC.md` (DTCC PPD cumulative file, median spot-start SOFR OIS, 14:30–15:30 ET trade window, n + p10/p90, own ledger, wire into boot_recompute like `rates_context`; map the 2025 file layout for history). Selftest first, CATO-style failure fixtures (stale file, thin n, 404 same-day). 9/25 reference: 10Y −38 / 30Y −67bp.
+0b. ⚠️ **STATUS sits at 24,409 B = just under the 75% rotate line — ROTATE FIRST** before adding (snapshot pattern `domain/sources/2026-09-28d_…`).
+0c. 🟡 Open for Will: HY pulled-deal options (`KB-BND-358`: WALTER lane query / EDGAR launch→2.03 build / SIFMA·FINRA·paid). Calendar record re-record due by **12/27**.
 1. 🔴 **Tue 9/29 AM: HY OAS 9/28 cell.** Over 300 with this velocity means matrix row 4's letter ⇒ 3 — **a BOND marker only; it does NOT reopen HYG sizing** (X1 CLOSED 8/28; reopens only via BROCK's 10/02 sitting → TERRY + Will; corrected 2026-09-28 15:22 ET). Same cell decides RED-FT-01 (RED's, day 3 of 3 on ≥280). ✅ DGS30 9/28 official = 5.56 (4th high) — DONE 16:19 ET; FRED will show it ~9/29, paste-check it vs the Treasury cell.
 2. 🟠 **Paramount HY pricing (~9/29–10/1):** final yield vs "low-9%" talk and final size vs ~$12.4B. Wider or downsized = the first access crack. It is the only free-source access test available.
 3. 🔴 **Wed 9/30:** quarter-end · Aug PCE + GDP 3rd · SOFR−IORB (0bp [9/25]) · TLT 77P expiry (TERRY).

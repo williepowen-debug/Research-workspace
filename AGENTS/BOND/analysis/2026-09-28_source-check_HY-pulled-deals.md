@@ -22,3 +22,10 @@
 3. **Needs your word:** SIFMA sign-up (monthly totals), FINRA account (coverage unverified), or a paid tracker (the only complete list).
 
 **Row 4's pulled-deal trigger stays unfireable on evidence until one of these lands.** The GAP label on `KB-BND-346` stands, now with a documented reason. Ownership: private-credit CFOs are BROCK's; EU real estate is HANS/LIQUID's.
+
+## Re-test triggers (unavailability claims decay; dated 2026-09-28)
+- **FINRA API (401):** re-test if Will opens an account, or at the next HY source check.
+- **PitchBook (Cloudflare 403):** re-test when a browser tool is used this desk, or at the next HY source check (it's possible the teaser is readable in a real browser).
+- **SIFMA (sign-up gate):** re-test if Will approves the sign-up; the page itself was reachable.
+- **Bloomberg/Reuters (paywall/403):** covered via WALTER's syndication reads; no BOND re-test.
+- **Next scheduled HY source check: 2026-12-28** (quarterly), or sooner if row 4's pulled-deal trigger becomes load-bearing.

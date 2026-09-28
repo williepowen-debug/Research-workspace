@@ -33,7 +33,7 @@
 2. **Timing noise:** trades span the day while the Treasury par is a ~3:30 PM snapshot. The 9/24→9/25 30Y −73→−67 (+6bp) may be partly this. **Refinement for the build:** restrict to trades executed ~14:30–15:30 ET and report n.
 3. **Off-market tails:** p10 sits far below the median (legacy/restructured trades), so **use the median, never the mean**, and print p10/p90.
 4. **History:** ~1 year kept, **and the 2025 files return no matches under this filter (schema/field change, not parsed)**, so the usable base rate starts in 2026 until the older layout is mapped.
-5. **No free published swap-spread series exists to cross-check against**; the plausibility check is internal stability only.
+5. **No free published swap-spread series exists to cross-check against** *(as found 2026-09-28; re-test: at the swap-spread build, next session)*; the plausibility check is internal stability only.
 6. **Lag:** the file is out ~20:00 ET same day, so it's a next-boot read, not intraday.
 
 ## Recommendation
