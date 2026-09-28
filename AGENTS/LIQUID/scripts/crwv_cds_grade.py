@@ -14,9 +14,13 @@ spread on the flat-hazard curve that reprices the clean upfront.
 'Other payment amount' (type UFRO) is read as the CLEAN upfront; the 'dirty' column treats it as
 cash net of accrued premium and is the clean/dirty half of the error band.
 Band measured 2026-09-26: r 3.5-4.5% moves the 9/23-24 prints about +/-5bp; clean-vs-dirty is
-+1-2bp there (accrual only since 9/21), +6bp at 7/06, +42bp at 12/17. The structural gap to the full
-ISDA model is UNMEASURED; INFERRED bound ~+/-15bp (agreement with the cruder dtcc_cds_probe.py
-within ~10bp).
++1-2bp there (accrual only since 9/21), +6bp at 7/06, +42bp at 12/17.
+MEASURED 2026-09-28 (L510, analysis/2026-09-28_L510-isda-benchmark.md) against QuantLib IsdaCdsEngine:
+model conventions agree <=0.4bp on identical curves; vs ISDA on a Treasury-proxy curve this script is
+LOW 7-8bp at 9/23-24, ~0 at 7/06, HIGH 4bp at 12/17 (discount curve only). The UFRO field is the CASH
+amount NET OF ACCRUED (majority convention, measured) -> the 'dirty' column is the right reading.
+The field is UNSIGNED: a print with |upfront| < ~1.5pt (spread within ~35bp of the coupon) has an
+unknowable sign and must not be graded alone; this script always assumes the buyer pays.
 Rows: NEWT, replaced by any CORR/MODI naming it, dropped if CANC/ERRO/TERM names it.
 Flags: CAPPED (notional '5,000,000+' — upfront scaled to the capped notional; spreads agree with
 uncapped neighbours), NONSTD (non-standardized term indicator), PKG (package), NONIMM (maturity not
