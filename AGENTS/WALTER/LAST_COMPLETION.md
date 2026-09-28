@@ -1,6 +1,6 @@
 # WALTER — LAST COMPLETION
 
-Session: **2026-09-28 Mon, Claude Opus 5.5 as WALTER (`walter-f8`)**, booted 18:38Z on Will's terminal "please boot up … check for anything owed" (DESKTOP-BC6EF81). **TIER-1 LIGHT CLOSEOUT ~19:0xZ — full Tier-2 deferred.** It supersedes the 9/27–28 `walter-d5` record (in git history; its FOLLOW-UP is carried below).
+Session: **2026-09-28 Mon, Claude Opus 5.5 as WALTER (`walter-f8`)**, booted 18:38Z on Will's terminal "please boot up … check for anything owed" (DESKTOP-BC6EF81). **TIER-2 CLOSEOUT 2026-09-28 ~20:5xZ on Will's "okay lets close out here"** (a Tier-1 ran ~19:0xZ; work after it re-ran Tier 1 each time). It supersedes the 9/27–28 `walter-d5` record (in git history; its FOLLOW-UP is carried below).
 
 ## STATUS
 
@@ -8,16 +8,16 @@ Session: **2026-09-28 Mon, Claude Opus 5.5 as WALTER (`walter-f8`)**, booted 18:
 - **Run:** 0 (0/0 vs origin, no pull) · 0.5 doctor (0 HIGH / 9 MED) · 1–4 · 6 (both routing files whole) · 6b (RED scan sha == canon; 12/8/11/17 rows, unchanged since 9/26) · 6c (equities/futures intraday 9/28 14:40 ET; FRED to 9/25; UK 10Y + Bund TE 9/28) · 7 (no new BOARD since 9/27) · 7b CLOSED · 7d clear · 7g (2 new packets read whole and consumed) · 7e scan → routed → `--mark` · 7e(f) no phone inbox · 7f 2 items processed · 8 (4 rows) · 9 (no REQ; liaisons dormant) · 9a rc 0 · 9b (`ListAgents`: PROME, HAWK, BRENT, CORAL, BOND, WAL live; ORCH_INFLIGHT stale 9/21).
 - **Not run:** HANS T-07/T-08/T-13 re-pull · SKEW (stale 9/25) · CREED rows re-grade (read from its fire log) · FILTER_SPEC Boot Context scoped reads · `boot_basis_check` REVIEW ×13 and `reads_check` UNKNOWN (attestation stale since 9/15; still unresolved).
 
-**Closeout:** Tier 1. ⚠️ **PUSH DEFERRED** (step 9b(d)/16: foreign uncommitted work live in BOND, BRENT, HAWK, CORAL and others); the next clean-tree session pushes the train. Only the closeout commit itself (STATUS/SESSION_LOG/REGISTRY/this file) waits. STATUS live levels + header + bottom line re-cut (old block rotated VERBATIM to SESSION_LOG) · REGISTRY 4 rows · this file · commit/push/reconcile. **DEFERRED to Tier 2:** MEMORY session notes · NETWORK-AWARENESS regen · full registry refresh · version-drift sweep.
+**Closeout: Tier 2.** 13 REGISTRY: 14 rows refreshed header-only today (doctor `registry_lag` clean) · 12(a)/(b)/(d)/(e) STATUS regenerated: header, bottom line, live levels re-cut to 9/28 CLOSES (Brent/WTI on BRENT's settle-window proxies), NETWORK AWARENESS regenerated; the Tier-1 blocks rotated VERBATIM to SESSION_LOG · 12(c) filter posture unchanged · 12(f) read-cap rc 0 (STATUS 10,341 B) · 14 MEMORY: session notes + finding #35 (16,747 B) · 15 this file · 16 commit + push decision (see GAPS). ⚠️ **SKIPPED, reported as skipped:** the independent end-of-session review (OPEN DESIGN DECISION (k)); the version-drift sweep (no spec edited today).
 
 ## CHANGED
 
 - **BOARD 1064 → 1079:** `-001` … `-015` (below). 43 handoffs (15 + 2 + 4 + 15 + 7 for `-013`…`-015`). `-0927-007` got an additive weekday note ("Thu 9/25" was a Friday; HAWK-reported, `claim_check` confirmed).
-- **Batches:** BM-20260928-01 (lane, 20/20: 2 DISPATCH, 1 NO-ACTION, 17 KILL) · BM-20260928-02 (drop-zone, 2/2 DISPATCH). Drop-zone files moved to `inbox/WILL/processed/`.
+- **Batches (9, all closed):** BM-01 lane 20/20 · BM-02 drop-zone 2/2 · BM-03 drop-zone PDF 1/1 · BM-04→05 Will-Telegram 8/8 · BM-06→07 Will-Telegram 9/9 · BM-08→09 Will-Telegram 4/4 DUP. Drop-zone files moved to `inbox/WILL/processed/`.
 - **kill_log +12 rows** (incl. the Fed Oct-hike odds: already ours, BOND carries ~70% priced; the Misbar fake-Yanbu-video forward guard).
-- **DOORBELL_LOG +7** (OSPREY `-003`, REGINALD `-004`, HOMER `-006`, LIQUID `-007`, **FALCON `-008` DOORBELLED**, HENRY `-009`, AEOLUS `-011`; neither doorbelled; both L3 fail, cadence computed).
+- **DOORBELL_LOG +9** (OSPREY `-003`, REGINALD `-004`, HOMER `-006`, LIQUID `-007`, **FALCON `-008` DOORBELLED** (L3b p75=5d/dark=6d), HENRY `-009`, AEOLUS `-011`, VULCAN `-013`, MARCO `-015`; the other 8 failed L3, cadence computed per row).
 - **Inbox:** PROME ORACLE-route packet and OTTO R3 packet consumed. **R3 results** for sets 8–9 → `PROME/inbox/2026-09-28_from-WALTER_R3-results-CORAL-OTTO-sets-8-9.md` + OTTO inbox pointer + CORAL by SendMessage.
-- **REGISTRY:** OTTO, BOND, LIQUID, TERRY → 9/28.
+- **REGISTRY:** 14 rows → 9/26–9/28 (OTTO, BOND, LIQUID, TERRY, CORAL, BRENT, HAWK, PROME, WAL, ORACLE, CREED, YURI + OZK/FLG from 9/27).
 
 ## RESULT
 
@@ -35,10 +35,10 @@ Session: **2026-09-28 Mon, Claude Opus 5.5 as WALTER (`walter-f8`)**, booted 18:
 
 ## GAPS
 
-- Boot gaps above (HANS partial, SKEW stale, CREED not re-graded, basis attestation stale since 9/15).
-- **Doctor MED at boot:** 47 handoffs >2d across 13 desks (8 ACTION, oldest 14d; CORAL was live today and draining its two FL items) · delivery_log NOTE/AMENDMENT rows · CARL-DR-1 10d past deadline.
-- **Closeout commit push deferred** (foreign uncommitted work). All four earlier session commits (e9925bba8, 8dbd4355e, 04a53b85f, 144e099ca) were carried to origin by other sessions' ff-pushes (verified `merge-base --is-ancestor` after a fresh fetch); **15/15 handoffs delivered** (reconcile_delivery_log.py).
-- Handoff consumption not checked for today's dispatches (delivered ≠ consumed).
+- **Boot gaps (unchanged through the session):** HANS T-07/T-08/T-13 not re-pulled; SKEW stale 9/25; CREED rows not re-graded; FILTER_SPEC Boot Context scoped reads not run; `boot_basis_check` REVIEW ×13 and `reads_check` UNKNOWN (attestation stale since 9/15).
+- **Doctor MED at closeout:** 43 handoffs >2d across 12 desks (6 ACTION, oldest 14d: FALCON 3A, SHADE, HANS, RED) · delivery_log NOTE/AMENDMENT rows · CARL-DR-1 10d past deadline (run or drop).
+- **Delivered ≠ consumed:** of today's 9 dark-desk ACTION items, only FALCON's was doorbelled. FALCON and HENRY are on PROME's Tue wakes.
+- **Push:** see the CLOSEOUT RECEIPT.
 
 ## WILL_NEEDS
 
@@ -57,7 +57,7 @@ Session: **2026-09-28 Mon, Claude Opus 5.5 as WALTER (`walter-f8`)**, booted 18:
 4. **Rent freeze:** 9/29 screenshot production; 10/01 effective (FLG grades `GATE-FLG-T08`).
 5. **Iran full sweep ~10/01:** reconcile the 8/28 "Hormuz reopens" / "US forces clear Iranian sea mines; shipping reopens" headlines (FOX 10, Economic Times; defined at `dff492367` FOLLOW-UP #1, HAWK asked 9/28). Write a guard if real-then-reversed. Also: any "Yanbu hit" video is unauthenticated (Misbar 9/27).
 6. **9/30 size checks:** MEMORY (`stat`, rotate >24,412 B) · THRESHOLD_SCAN · both routing files · Iran anchor.
-6b. **Tier-2 MEMORY finding owed (9/28):** before routing an ask at an owner's ROW, check the FILE's header for a FROZEN banner. A grep hit in a frozen ledger reads exactly like a live row (`-010`, BRENT KB/VX FROZEN 7/1). Candidate link: `[[finding_plausible_stale_value_evades_review]]`.
+6b. ✅ **DONE at the Tier-2:** the frozen-ledger lesson is MEMORY finding #35. **Flag (owner files, WALTER does not edit):** CREED `registry/THRESHOLDS.tsv` 27,247 B (84%) and HANS `registry/THRESHOLDS.tsv` 26,639 B (82%) are in the read-cap rotate tier (WALTER boot 6b whole reads). Tell the owners at their next wake; PROME can route it.
 7. **Carried (still open):** CORAL's two FL ACTION items (`-0925-009`, `-014`; CORAL live and draining 9/28, verify at its `processed/`) · the YURI routing row (FORMAT_SPEC first) · the WQ-286 ④ CORRECTIONS header line · a doctor step reading recipients' `consumed_at` · the P2 false-positive-rate proposal · HENRY's deferred items · `fetch.py` contract identity (`BZ*.NYM` UNKNOWN, name-cut) · CARL-DR-1 (run or drop).
 8. **Watch:** 9/29 CCL Q3 · **9/30** Russia diesel-ban expiry, Brent Nov expiry, Iraq pullout, Cushing · **10/01** NYC rent freeze, CRMT bridge-4, CREED T-01a Trepp, claims · 10/02 WQ-295 + GATE-BRK-R2 · 10/06 WQ-252 sitting.
 

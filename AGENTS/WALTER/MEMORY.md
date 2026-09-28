@@ -70,6 +70,8 @@
 
 33. **When a signal characterizes a SINGLE-NAME desk's exposure, read THAT desk's own record before stating the link, not the hub's KB row about it.** 9/27: `-004` framed WAL↔Nano Banc as "fraud exposure, NOT a loan to Nano, no new loss by itself" off REGINALD's secondhand Feb-2026 KB row; WAL's own verified complaint (on WAL's surfaces since 2025) showed Nano liens SENIOR to WAL on 5 of 10 pleaded loans. Two corrections in 40 minutes (`-005`, `-006`). Same class as #7 (grep the owners), one level finer: the RIGHT owner is the one whose exposure is being described. → `[[finding_verify_reader_before_source]]`
 34. **Never type a dispatch time into a Write-tool signal.** 9/27: all 7 dispatches stamped +8 to +73 min AHEAD of their own commits; the doctor caught it at closeout, and only because some were still in the future. → `[[finding_a_stamp_written_from_narrative_drifts_from_the_wall_clock]]` (n+1 appended 9/27)
+35. **Before routing an ask at an owner's ROW, read that FILE's header for a FROZEN banner. A grep hit in a frozen ledger reads exactly like a live row.** 9/28: `-010` told BRENT its SPR basis was ~411M and 125M stale, citing KB-BRT-152/VX-BRT-13. Both files are bannered "FROZEN 2026-07-01, do NOT cite rows here as current", and BRENT's live 284.552M was already in TRACKER. BRENT caught it the same hour; the claim reached Will on Telegram and was corrected. Root CLAUDE.md § Data Hygiene already says ledgers can be FROZEN; the trip that was skipped is `head -2` on the file before quoting a row as the owner's current basis. → `[[finding_plausible_stale_value_evades_review]]`
+
 
 **✅ RETIRED 2026-09-01 — the two-branch-test-sharing-a-premise finding (2026-08-03) is PLACED:** PROME landed it as the n=5 extension of `[[finding_enumerated_mechanism_test_hides_a_completeness_claim]]` (8/31 night, packet filed to WALTER 9/1) and the test now sits in bold in `FORGE/PREDICTION_DISCIPLINE.md` § Registration. *(Was: "owed, not placed — WALTER cannot file to a PROME-owned surface." The obligation discharged the way it was supposed to: a packet, then the owner's write.)*
 
@@ -82,16 +84,15 @@
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION — 2026-09-27/28 Sun→Mon, Full WALTER (Claude Opus 5.5, `walter-d5`), Tier-2; focus REGIONAL BANKS + CRE
+### CHANGES SINCE LAST SESSION — 2026-09-28 Mon, Full WALTER (Claude Opus 5.5, `walter-f8`), Tier-2; booted on "check for anything owed"
 
-- **BOARD 1063 → 1064 (1 dispatch, 4 kills).** `-008` UBS/Semafor merger report → HANS (dark, not doorbelled). Will's 8-image batch BM-20260927-01 closed 8/8.
-- **`COR-20260927-07`:** `-0924-023` "declined to stay" was stronger than the sources (FLG's note, verified); additive banner, targets FLG/REGINALD/HOMER.
-- DEWEY Nano handoff processed (stubs verified). R3 queue +2 rows (FLG, DEWEY Nano). The previous session (9/27 `walter-42`) is in `SESSION_LOG.md`.
-- **No self-caught error this session; every stamp was taken from `date` in the committing command (#34 held).**
+- **BOARD 1064 → 1079 (15 dispatches).** Highlights: `-002` HY 293 [9/25] record · `-008` NBC 8 Marines injured 9/14 (IMMEDIATE → FALCON, doorbelled) · `-009` HENRY 30Y/CCC red lines (IMMEDIATE) · `-010` SPR + GS diesel ban · `-014` Redfin FL metros → CORAL · `-015` FL enrollment → MARCO. 9 batches closed; lane routed + `--mark`ed; drop-zone done (the files were on THIS desktop; PROME's "laptop" relay was corrected).
+- **Two own errors, both caught by owner desks and corrected additively:** `-010` frozen-ledger SPR basis (BRENT → finding #35) · `-007` "Sept issuance settles second" (BOND; a tie across two vintages).
+- **R3 sets 8–9 (OTTO, CORAL) tested with lane + `--live` + `--synthetic` recall controls; PROME landed both (4ccc9d3).** The synthetic controls caught 5 real CORAL recall misses (acronyms, word forms): keep using them.
+- A PROME drop-zone copy was blocked by a hook and arrived ~10 min late; the hold (read the file myself, never route from a summary) was right.
 
 ### NEXT SESSION
 1. `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS = the complete obligation list.
-2. **7e: the lane is still NOT `--mark`ed.** Route/kill: refinery strikes (Novoshakhtinsk, Ilsky → OSPREY action / HENRY), UMich 51.7 (HENRY info), FT "private credit withdrawals slow" + American Banker "capital rules deepen PC ties" (BROCK; REGINALD info on the capital rules), bank-noise kills (sofrep, Cardone, ACRE). Then `--mark`.
-3. **HY OAS 9/25 print lands Mon 9/28** — grade FT-01 exit day / X1 (`>280` STRICT + BROCK conjunct). **R3 queue (7 sets) due 10/02.**
-4. **7f: two drop-zone items are on the LAPTOP** (Bessent JPG; `AI Agent bank run.jfif`, unread).
-5. **9/29:** Plaza Continental hearing (FDIC as Nano receiver, first docket test) · rent-freeze screenshot production. **9/30:** size checks (MEMORY / THRESHOLD_SCAN / routing files / anchor), Brent Nov expiry. **Iran full sweep ~10/01.**
+2. **R3 sets 1–7 by Fri 10/02** (LIQUID, CREED ×2, WAL, REGINALD, FLG, DEWEY). Same method as today.
+3. **HY 9/28 print (Tue AM): RED-FT-01 exit day 3. HENRY's 30Y on the official Treasury 9/28 close.** FALCON + HENRY Tue wakes are PROME's.
+4. **9/29** Plaza Continental hearing · **9/30** MEMORY/THRESHOLD_SCAN/routing/anchor size checks, Brent Nov expiry, Paramount HY pricing (settles the Sept issuance rank) · **~10/01** Iran full sweep (+ the 8/28 "Hormuz reopens" reconcile; date-discriminate the 9/14 Marines event).
