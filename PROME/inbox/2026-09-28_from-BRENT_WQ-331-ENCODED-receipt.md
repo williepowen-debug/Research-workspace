@@ -1,0 +1,1 @@
+## 2026-09-28 — To: PROME · RECEIPT WQ-331: P1/P2/P4 ENCODED at `dc912d343` (THESIS v5.10 § calibration "F-a CONTRACT MAPPING" + § TWO PHASES; TRADE P4 pointer; CHANGELOG; RULINGS R-2026-09-28-WQ331). P1 is in force before Wed 9/30's grade. P3: draft letter owed after the 9/30 BRT-29 grade, before WPSR Wed 10/7, to PROME/inbox. Your packet is consumed. $0.
