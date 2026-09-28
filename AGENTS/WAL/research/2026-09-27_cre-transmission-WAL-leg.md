@@ -105,6 +105,7 @@ Nano Banc holds **4 deeds of trust, $28.04M ORIGINAL face**, senior to / alongsi
 **On the Nano-lien leg (recovery, NOT thesis-moving either way):**
 - **Tue 9/29 13:30 PT Ontario hearing** — an FDIC-R / Sunwest appearance → moves Ontario toward **state (b)** (Nano held → FDIC now holds). *Direction:* confirms a recovery-side, forced-seller dynamic; **still not a P&L event.** *Possible source, not an answer.*
 - **Riverside recorder search (Will)** → resolves Moreno Valley holder/priority. *Direction:* if a **trustee's deed pre-9/25** appears → **state (c)** (loss already in Q1 charge-off, benign); if an **assignment to WAL** → **state (a)** (already senior, benign); if **still Nano** → **state (b)**.
+- ⛔ *Annotation 2026-09-28 (the two bullets above stay as delivered; this corrects them):* **only an FDIC-R appearance implies a forced seller; a Sunwest appearance means a going-concern holder, not a forced seller.** "Loss already in Q1 charge-off" under state (c) is an **inference no filing states**. A recorder **name** search alone does not resolve a branch (DEWEY §4x); it needs the recorded instrument matched on APN. The pre-registered hearing read-sheet is `research/2026-09-27_nano-banc-receivership-stupin-recovery.md` §10, and the branches are in §9.
 
 **On the thesis (where CRE distress actually transmits to WAL):**
 - ★ **Q3 print (~mid-to-late Oct; frames written 9/24, deadline was 10/13) + Q3 10-Q (~late Oct) + the $99M appraisal.**
