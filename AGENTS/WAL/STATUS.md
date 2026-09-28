@@ -14,6 +14,7 @@
 > 1. **Riverside recorder search (Moreno Valley DOT)** — Will agreed 9/27, NOT yet run; Will's hands only (reCAPTCHA). Name search = a first sweep only; a branch closes only on the recorded instrument matched on APN (research §9, DEWEY §4x). Ontario/Chino are **San Bernardino**, not Riverside.
 > 2. **The $4.40 GTC sell order on the Dec-18 $70P — live or not?** Status UNKNOWN in FORGE (D-47 row, WQ-167). Only Will can see it in Robinhood; it decides the gap-down outcome on the one live leg.
 > 3. **V3 (NDFI) score vs its corrected evidence** — see the V3 row: the evidence was corrected 9/28, the score was deliberately NOT moved; re-score now, or hold to the Q3 10-Q (proposal P1)?
+> 4. **Print-frame rule gaps — decide before the print:** §5 has no letter for an appraisal below carrying with NO reserve; §8's non-credit falsifier has no threshold / no-verdict band; §6 has no band for an absent figure. Register rules pre-print, or accept that each grades UNRESOLVED (audit §REPAIR RECEIPT).
 > ⏱ **FFIEC PWS JWT expires 2026-11-05** (`PROME/WILL_QUEUE.md` row 31) — lands inside the Q3 10-Q window, so a lapse re-darks MI3 exactly when the Q3 re-test is due. **Raise from ~mid-October (≈10/13, with the print-date pin), not before.** Creds are on the **DESKTOP** only.
 
 **KB:** **211 rows / 20 distinct Group values** (+2 on 9/28 session #10: KB-210 the Jefferies 3/9 letter read at the SEC primary, KB-211 tape back above EV; audit repair: 12 rows SUPERSEDED, 20 AWAITS:Q3-10Q; +1 on 9/27 session #9: KB-209 life-science CRE base rate; +8 earlier 9/27: 201-208, Nano Banc + DEWEY fold — see §NANO BANC; +13 on 9/24: 188-200). **Q2 13F aggregate RUN 9/24** (KB-199: institutional ownership 84.7% → 90.0%, AQR-led; `research/Q2_13F_AGGREGATE_2026-09-24.md`). **Expiry backlog 61 → 0 past `Stale_By`** (all judged row-by-row 9/24: 37 SUPERSEDED with successor named, 24 extended with reasons; 41 rows still have a BLANK `Stale_By`; ⚠️ **KB-WAL-048 'loans pledged 74%' has a BASIS DEFECT — do not cite**). **Standing:** cohort RANK UNVERIFIED until REGINALD's 11/07 refresh · **KB-WAL-002/-003/-007 SUPERSEDED, incl. CRE/Tier-1 474% — NOT re-derived, do not cite** · ⚠️ `KB-WAL-180`'s "$79.89 close 8/20" is corrected by `KB-WAL-190` (settled close **$79.15**). | **Consensus:** Mod Buy | **Assets:** **$98.7B** (6/30/26 10-Q)
@@ -37,7 +38,7 @@
 | ~Oct-Nov | **Q3 FFIEC Call Report** | MI3 standing quarterly pull (desktop) + NDFI nonaccrual `RCONPV25` 2nd quarter |
 | **Tue 9/29 1:30pm PT** (re-check the docket through Fri 10/2) | Plaza Continental hearing, 8:26-bk-10986 | Ontario lien branch only — read-sheet `research/2026-09-27_nano-banc-receivership-stupin-recovery.md` §10 |
 | ~10/5–10/9 | Nano Banc P&A posting (FDIC) | Narrows FDIC-retained vs Sunwest **by category only** (research §9a); Sunwest assumed ~$227M of loans (Banking Dive 9/28, NEWS) |
-| **Mon 11/30** · **Tue 1/12/2027** | Makhijani (Cantor V) status conference · criminal trial (8:26-cr-00087-DOC) | Two-way, slow: a conviction supports WAL's fraud/title claims + restitution (KB-203) |
+| **Mon 2026-11-30** · **Tue 2027-01-12** | Makhijani (Cantor V) status conference · criminal trial (8:26-cr-00087-DOC) | Two-way, slow: a conviction supports WAL's fraud/title claims + restitution (KB-203) |
 | **Fri Dec 04** | Dec-18 $70P **time stop** | TERRY/Will lane |
 
 ---
