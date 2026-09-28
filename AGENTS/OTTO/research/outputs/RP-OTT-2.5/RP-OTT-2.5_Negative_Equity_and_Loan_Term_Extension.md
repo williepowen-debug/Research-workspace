@@ -93,6 +93,8 @@ Experian's release carries a subprime-share series `[CONF Experian Q1 2026 pub 2
 | *New vehicles only* | 5.74% (Q4-24) | **6.61%** (Q4-25) |
 | *Used vehicles only* | 22.11% (Q4-24) | **22.47%** (Q4-25) |
 
+> ⛔ **IMPEACHED 2026-09-28 (OTTO s024, ML-OTTO-278), flagged not edited:** the "Equifax UNIT share 16.5 → 15.2 → 14.7%" below is not an Equifax series. At primary, subprime share is RISING on both bases (accounts 19.1%, balances 15.9%, Q1-2026 YTD). The new/used perimeter question below was settled 2026-09-28: Equifax's native perimeter is new + used combined.
+
 **OTTO-10's instrument is the Equifax subprime UNIT share: 16.5% → 15.2% → 14.7%, decelerating — and OTTO cut the row 65% → 20% on that deceleration (2026-08-14).**
 
 **⚠️ Experian points the OTHER WAY: rising, on both the Q4 and Q1 comparisons.**

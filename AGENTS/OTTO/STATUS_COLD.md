@@ -257,3 +257,97 @@ split, not an archive. Archives are frozen; this file is maintained alongside `S
 > - **📥 INBOX DRAINED 10 → 0** (then 2 more arrived from BROCK mid-session, also drained: **12 → 0** total). **DAEDALUS as-made audit worked:** of 6 MISMATCH candidates, **4 REAL** (OTTO-04 as-made 75 not 62 · **OTTO-30 as-made 65 not 12 — a FALSIFIED row, 29× worse Brier** · OTTO-31 as-made 60 not 12 · OTTO-32 as-made 85 not 97, the only one walked **UP**) and **2 FALSE POSITIVES** (OTTO-10's "14%" is its invalidation threshold; OTTO-27's "108%" is FSK's coverage ratio). Re-marks written in the WQ-112 machine form.
 > - **🩹 DAEDALUS F-2/F-3/F-4 closed:** version stamp reconciled to **v2.7**; `STALE_PUNCHLIST` (b) + the (c) stamp leg discharged; the s021 pointer and the swept 9/7 timeline cluster rotated verbatim to `STATUS_COLD.md` §7/§3 to get back under the read-cap budget.
 > - **⛔ CRMT IS STILL NOT A FRAUD CASE. Confirmed-fraud-case count stays 4.** No trade. No position change. No thesis movement.
+
+---
+
+## 9. Session 023 boot pointer (Sep 24) — verbatim, rotated out of hot STATUS 2026-09-28 (s024)
+
+> ⚠️ **SUPERSEDED IN PART, FLAGGED NOT EDITED:** its "⛔ NOT DONE" list was discharged 2026-09-28 (s024), and CRMT was bridged again to 10/1.
+
+> **📌 Session 023 (Sep 24, Thu — PROME Tier-1 spawn under WQ-206: a CARL ruling sat 7 days at a dark desk; OTTO was dark 9/12 → 9/24). L0 INBOX DRAIN ONLY — 5 → 0.** The s022 pointer is verbatim in `STATUS_COLD.md` §8.
+> - **✅ CARL RULED (9/17) and it is on OTTO's docket now: the clock is ISSUER-STATED** (the exhibit's "Months Seasoned"). The labels carry, with a caveat on CARL's THESIS.md L291, until OTTO's repair relabels 28/29/30 → 29/30/31. **Repair = CATALYSTS row 2026-10-01 with five acceptance conditions**, including a positive control at ≥3 rows per shelf that covers both double-filing dates, plus the 43·43 / 46·46 fix and the 10-D/A upsert fix. **Not done in s023; it is not a trivial fix.** No value moves.
+> - **✅ DAEDALUS PR#6 ASK 1: the WALTER rule is CONFIRMED.** One sentence was added to `CLAUDE.md` § How to Signal: when an ASK-answer also carries a firing, the same commit cc's WALTER. ⛔ **DAEDALUS's "0 WALTER drops all-time" is REFUTED at git: there have been 17 `SIG-OTTO-WALTER-*` drops, the latest 9/2.** The 9/12 miss is real but narrower: the new CRMT date went out direct with no WALTER drop.
+> - **✅ ASK 2: OTTO-12 now has a named search instrument and a dated attempt (9/24: NO EXIT FOUND).** Counter-evidence: CACC's $500M warehouse was extended to 2028 at a tighter spread (8-K 9/15). Watch VRM/UACC's warehouse, which short-rolled to 9/30. Next attempt is 10/1. Confidence stays 55%.
+> - **📥 WALTER ×3 logged in the NEW `board_log.tsv`** (OTTO had never kept one). CACC 41-state AG settlement **$694M**, read with its correction -013: a civil affordability settlement, **not a fraud case — the count stays 4.** JOLTS is info-only.
+> - **⛔ NOT DONE (outside drain scope, owed by a full session before 9/30):** the 9/18 CRMT STD row (BROCK L420 grades it 9/25; the third bridge extended it to 9/24) · the 9/19 Tricolor Counts 7–8 list · **the 9/20 OTTO-10 perimeter hard gate, MISSED by 4 days** · the read-cap rotation to <70% (STATUS is still ≥75%, under budget).
+
+---
+
+## 10. Session 021 BOTTOM LINE (Sep 2) — verbatim, rotated out of hot STATUS 2026-09-28 (s024)
+
+> ⚠️ **SUPERSEDED IN PART, FLAGGED NOT EDITED:** "CRMT 9/7" and "entry of the First Brands conversion order UNVERIFIED" are both overtaken (4 bridges to 10/1; entry reported 9/1, Dkt 3748).
+
+## BOTTOM LINE
+
+**Fraud-leg 🔴🔴 / both systemic legs 🟠 DISCONFIRMED. This session moved no thesis. It shipped a consumer's blocking dependency seven days early, and every one of the four findings underneath it is about an instrument, not about the world.** *(s020's BOTTOM LINE is verbatim in [`STATUS_COLD.md`](STATUS_COLD.md) §6.)*
+
+**🔴 The 30-of-30 is now measured on the month the documents disclose, and it did not move.** That is the result worth having. A leg table registered on an inferred collection month is the seasonality-mislabel class OTTO's own spec exists to kill, so the column was owed before CARL could grade — and the honest risk was that the corrected basis would re-grade the finding. It does not. **Both tier series reproduce to the decimal, and the four EART July figures match CARL's independent pull to the cent.** The inference was wrong on 8 rows, but **zero of them land in the months the table uses** — so the claim that stood on 8/27 is now VERIFIED at the artifact rather than asserted, which is a different epistemic object from the same sentence written a week ago.
+
+**⚠️ The narrowing YoY gap is the thing to watch and the thing most likely to be misread.** BROAD +1.92pp → +1.63pp → +1.00pp and DEEP +2.29pp → +1.85pp → +1.21pp is **deceleration of deterioration**. No tier has crossed zero; 30 of 30 deal-months are still worse than a year ago. If a reader turns "the gap is narrowing" into "subprime is improving," they have inverted the sign of a series that has not changed direction once. **It is also the only series that would eventually satisfy CARL's L1**, so it will get read that way before it deserves to be.
+
+**🔴 Two of tonight's four findings cut against OTTO's own instruments, and that is the pattern this desk keeps reproducing.** `months_seasoned` disagrees with the issuer's own disclosed field by exactly one, uniformly, on every deal that publishes it — a labelled quantity a consumer was eight days from grading on. And the backfill's first pass reported **2 of 133 rows as a missing issuer disclosure** when the truth was a reader that could not survive a date split across two HTML cells. **A reader defect was one commit away from being recorded as an issuer non-disclosure.** `[[finding_instrument_reports_clean_against_the_wrong_reference]]`
+
+**🔴 The 9/4 Tricolor row was stale on the day it was written, and the calendar could not tell OTTO that.** The privilege chain's first observable output landed **8/7 and 8/14** — a privilege log ordered, 20 exemplars selected for in camera review, and a motion to dismiss DENIED — all inside a window OTTO had re-keyed forward to 9/4 precisely because it believed nothing had landed. **The catalyst row was not wrong about the mechanism; it was wrong about whether the mechanism had already fired, and a date-keyed sweep cannot detect that.** `[[finding_dated_carry_item_has_no_expiry_check]]`
+
+**⚠️ CRMT is the live one, and the instrument everyone will reach for does not work.** The tape has taken the stock to **$2.23, −27.6% in two weeks**, while the filing record has been **completely silent since 8/14**. The temptation is to read the silence as a missed milestone — but the Milestone Schedule is **redacted**, the weekly liquidity reports go privately to the Agent, and the first public data covering the waiver period is a 10-Q that lands **two days after the decision**. "Watch the covenant" is untrippable by construction. **Both readings of the silence stand and must not be collapsed.** Letters for 9/4 and 9/7 are pre-registered with numeric bands in `research/outputs/RP-OTT-5.1_CRMT_TRICOLOR_PREREGISTERED_LETTERS.md`.
+
+**📐 And a boot that had been reading fragments now reads the file.** `STATUS.md` stood at **214% of the read cap**, which means every boot since the file crossed it returned a partial read with no error and no failing guard. The split is verbatim, both directions are pointered, and the cold half is explicitly not a boot read.
+
+**Nearest resolvers:** **CRMT 9/7** (three levers, decision precedes its own evidence) · **CARL's V2 grade ≤ 9/10** (unblocked; one ASK open) · **entry of the First Brands conversion order** (proposed order Dkt 3722 filed 8/27 for 108 debtors; **entry still UNVERIFIED at a primary docket artifact**, no Ch.7 trustee named — OTTO-32's resolver) · **~Oct 1 10-D cycle**, the August collection month and the first two-tier read after the CRMT decision.
+
+---
+
+## 11. Rows rotated out of hot STATUS 2026-09-28 (s024) — verbatim, as they stood before replacement
+
+> ⚠️ **Every row below is SUPERSEDED by its s024 replacement in hot STATUS (or swept — timeline 9/18 · 9/19 · 9/20, see `docket/CATALYSTS.tsv`); kept as the record.** The OTTO-10 row's "Equifax unit share" instrument is IMPEACHED (ML-OTTO-278).
+
+### Timeline
+
+| Col 1 | Col 2 | Col 3 |
+|---|---|---|
+| **Sep 18 (Fri)** | 🔴 **CRMT — SECOND EXTENSION termination date (the LIVE Scheduled Termination Date)** | 🔴 `confirmed` **REGISTERED 9/12 off 8-K `0001171843-26-005989`.** Extended twice: 9/7 → 9/11 → **9/18**. Neither §2.1 path taken (9/21 needs a *binding unconditional* financing commitment; 11/6 *signed definitive* sale docs). ⚠️ **Silence on 9/18 discriminates between nothing** — the Milestone Schedule is REDACTED and liquidity reports go privately to the Agent (DEWEY). Observable = an issuer 8-K only |
+| **Sep 19** | Tricolor **Counts 7–8 exhaustive securitization list** — due ~8/28, **22d past and UNVERIFIED** | 🟠 `modeled` **OWNER: OTTO, checked EVERY session until resolved.** Names the securitizations the government is charging ⇒ a direct read on the double-pledging perimeter. ⚠️ Track evidence is **PRESS ONLY** (Inner City Press); no case number, no ECF, PACER unchecked ⇒ SEARCH-NOT-FOUND, not a negative |
+| **Sep 20** | 🔴 **OTTO-10 PERIMETER DECISION — hard gate, 10 days before its own resolve date** | 🔴 `confirmed` State the new/used perimeter, refresh Equifax on it, or resolve UNOBSERVABLE |
+| **Sep 30** | **OTTO-04 / OTTO-29 / OTTO-32 resolve (triple)** | 🔴 **OTTO-32 at 97%**, expected to resolve EARLY on ENTRY of the conversion order — **entry still UNVERIFIED at 9/2** |
+| **Dec 31** | OTTO-07 / OTTO-11 / OTTO-12 / OTTO-31 / **OTTO-33** resolve (year-end cluster) | 🟠 |
+
+### Signal dashboard
+
+| Col 1 | Col 2 | Col 3 |
+|---|---|---|
+| **✅ `collection_period` — panel month labels are DISCLOSED, not inferred** `[CONF SEC 10-D ×137]` | **137/137 rows**, `YYYY-MM-DD/YYYY-MM-DD`, read at each row's own `source_url`, label-anchored (never a `{tag}` number). Retired inference was wrong on **8 rows** → **8 collisions + 9 gaps** vs **0/0/1** disclosed; **zero land in the months the YoY table uses.** ⚠️ **`months_seasoned` = issuer-stated MINUS ONE (7 of 7 disclosing deals)** — uniform, named, not silently shifted; basis is CARL's to pick | 🟢 |
+| **🔴 CRMT — the tape is pricing a LAPSE while the filing record is silent** ⚠ NEW `[VERIFIED SEC EDGAR CIK 0000799850 + quote, 2026-09-02]` | **$2.23, −27.6% in two weeks** (8/19 $3.08 → 8/24 $2.22, flat since). **ZERO filings of any type after 2026-08-14** — no 8-K, no waiver extension, no binding financing or sale commitment, no going-concern update, no NASDAQ notice, no ACM-trust servicer-termination event. ⚠️ **Silence is NOT evidence of a missed milestone: the Milestone Schedule is REDACTED (Item 601(a)(5)), so "not yet due" and "missed" both remain live.** ⚠️ **Never trade off this cell — fetch live** (root rule #4) | 🔴 |
+| **⛔ First Brands $237M / "15 BDCs" — perimeter PERMANENTLY UNQUALIFIABLE, and a derived dollar figure has been RETIRED on both desks** `[PRESS 2026-02-04][STALE 2026-02]` | BROCK measured **SIX** BDCs at the Q2-10-Q perimeter and asked OTTO to state its own. **OTTO cannot — it was never recorded**, so the denominator **can never arrive**. 🔴 **BROCK has consequently RETIRED his `$237M × 7.4–9.5¢ ≈ $17.5–22.5M` remaining-markdown figure rather than re-caveating it** — it multiplied a MEASURED mark by an UNQUALIFIABLE par, and better marks cannot repair a denominator defect. ⛔ **Do NOT quote a dollar remaining-capacity number for First Brands from either desk.** What survives is the measurement: **six BDCs at a named perimeter**, marks **Steele Creek 9.55¢ · Saratoga 7.38¢**. 🟠 **Rule 2004 counting stays OPEN as an INSTRUMENT gap** — needs a PACER appearance/2004-notice sweep; neither desk has PACER; EDGAR FTS cannot see a court filing. Recorded so it does not age into "checked, nothing found" | 🟠 |
+
+### Case table / active vectors / triggers
+
+| Col 1 | Col 2 | Col 3 |
+|---|---|---|
+| First Brands | Invoice fab + Ponzi | 🔴🔴 **CONFIRMATION DENIED + ALL DEBTORS ORDERED TO CH.7 — Aug 24 (Dkts 3701/3710)**. 4-day trial Jul 28-30 + Aug 7; 17 days under advisement. Proposed conversion order filed 8/26 (Dkt 3722), **UST agreed to form**, effective **upon entry** — not yet entered. Recovery mechanic now operative: admin expenses > estate value. **PSEC Rule 2004 discovery opened Aug 7** |
+| **CRMT / Silver Point standstill** ⚠ NEW | 🔴 | Scheduled Termination **Mon 9/7** (Labor Day). §2.1 arms **three levers at once**; §8.1(p) cross-defaults the term loan to any ACM-trust servicer-termination while §8.1(b) ring-fences that debt. **Untrippable by construction** — Milestone Schedule redacted, first filed observable is the ~9/9 10-Q, TWO DAYS LATE |
+| First Brands | 🔴🔴 | Confirmation DENIED + all debtors ordered to Ch.7 (8/24). **Proposed order Dkt 3722 filed 8/27 (108 debtors); ENTRY still not VERIFIED at a primary docket artifact as of 9/2; no Ch.7 trustee named** |
+| First Brands converts to Ch. 7 | 🔴🔴 **FIRED Aug 24 — ORDERED IN FULL, AWAITING ENTRY.** Confirmation **DENIED** (Dkt 3710) and **every** debtor ordered converted to Ch.7 (Dkt 3722). The 4 Evolution SPV debtors were already Ch.7 (Apr 9). **The UST's conversion demand, rejected in June, is what the court has now effectively granted.** Trigger closes on entry of the conversion order |
+
+### Case table — Carvana row (price-bearing; rotated s024)
+
+| Col 1 | Col 2 | Col 3 |
+|---|---|---|
+| *Carvana (alleged)* | Related-party | **CVNA $74.09 (Aug 27)** — holding the round-trip (was $75.92 on 8/14); no new short report; collateral read **UNFROZEN Aug 27: BLAST 2024-1 60+ DQ 15.30 (−0.27), CNL 25.41; the July break gave back, extensions still LOW ⇒ not-masking holds** |
+
+### Predictions
+
+| Col 1 | Col 2 | Col 3 |
+|---|---|---|
+| OTTO-29 | Tricolor ABS trustee distribution <15¢ | 🟢 Substance tracking CONFIRMED (auction ~3%, ABS <10¢); **resolution at Sep 30 RISK** — $113M dispute may push past resolve date |
+| **OTTO-32** | First Brands majority Ch.7 by Sep 30 | 🟢 **OPEN 85→97% (Aug 27) — ORDERED, NOT YET ENTERED.** `[CONF Dkt 3710 Order Denying Plan Confirmation, entered 8/24/2026; Dkt 3701 minutes]` Lopez **denied confirmation** at the 8/24 hearing and, per the debtors' own Dkt 3722 (8/26), *"ordered that **each** of the Debtors' Chapter 11 Cases be converted to cases under chapter 7."* Proposed conversion order filed (Dkt 3722-1, 14pp), **UST agreed to form**, amended version due 8/27 5pm CT. ⚠️ **NOT graded CONFIRMED: the order converts *"effective upon entry"* and is not yet entered.** Substance settled, formal event pending — **resolver re-keyed from "a written ruling" to "ENTRY of the conversion order."** 📐 **Calibration: branch right and held at 85% since May; DATE wrong — landed day 17 of advisement vs a published ~Sep 15 midpoint. The window was right, the midpoint was the error (2nd consecutive session).** |
+| OTTO-10 | Subprime origination share <13% | 🔴 OPEN **20% — NOT CURRENTLY FALSIFIABLE (s020), which is worse than being wrong.** Experian's subprime share **RISES** (14.40→15.75% Q1 YoY) while this row's Equifax unit-share instrument **FALLS** (16.5→15.2→14.7) — the whole basis of the 8/14 65→20% cut. **Not scored off Experian** (different bureau, undisclosed basis — the 8/14 NY Fed near-miss class). **But the defect is DEFINITIONAL:** Experian **new-only 6.61%** would make `<13%` **already CONFIRMED**; **used-only 22.47%** is unreachable. **A claim resolving either way on an unstated new/used mix has no truth value.** ⇒ **Before Sep 30, in order: (1) state the perimeter, (2) refresh Equifax on it, (3) else resolve UNOBSERVABLE on perimeter grounds** ⛔ **IMPEACHED 2026-09-02 (DEWEY via WALTER `SIG-W-20260828-011`): the 15.75% Q1-2026 figure is NOT PRIMARY-CONFIRMABLE — Experian's Q1 deck locks its figures in CHART IMAGES. Only the Q4-2025 press release (15.31% vs 14.54%) is primary-verified.** The DIRECTION of the peer-bureau disagreement survives on Q4-2025 alone, but **the 14.40 → 15.75 pair must not be quoted as a filed figure.** ⇒ **This is now the FIRST item at the Sep 20 perimeter gate**: OTTO cannot settle a perimeter against a number it cannot read at source. `[[finding_level_published_in_narrative_can_vanish_from_an_edition]]` |
+| OTTO-06 | Monoline 60+ DPD >18% | 🟠 OPEN 70% — resolve Sep 30 |
+
+### KEY DOCS block (rotated s024, verbatim)
+
+## KEY DOCS
+- **TRADE.md** — Position ideas (CVNA, ALLY, monolines)
+- workbook/ — VX.tsv (83+), ML.tsv (130+), FL.tsv (35+)
+- research/outputs/ — RP-OTT-1.1–4.1 (15 reports)
+
+*Mar 20 check-ins (FOMC, CVNA, fraud, ABS, CFPB) and prior condensed check-ins archived to `workbook/STATUS_archive_20260325.md`*

@@ -16,6 +16,12 @@ pre-Jun-9 layout, in which neither `thesis/THESIS.md` nor `MAINTENANCE.md` exist
 
 **Format:** reverse-chronological. Each entry: `### YYYY-MM-DD — headline`, then **Was → Is**, **Trigger**, **Touches**, and any calibration note. *(Un-fused from the first entry heading 2026-08-14 — the sentence had been concatenated onto an entry title since the v1.2 pass, so the newest entry always inherited the words "Format: reverse-chronological. Each entry:" as part of its heading.)*
 
+### 2026-09-28 — OTTO-10: the 8/14 cut keeps its direction and loses its reason (the instrument series is not an Equifax series)
+
+**Was → Is.** *Was:* OTTO-10 cut 65% → 20% on 8/14 because "the Equifax subprime UNIT share" was decelerating downward (16.5 → 15.2 → 14.7%). *Is:* that series appears in no Equifax table. At primary (Equifax Credit Trends, "Auto: Total", VantageScore 3.0 <620, new + used combined) the subprime share of originations is **RISING** on both bases: accounts 15.4 / 15.7 / 16.8% (2023–25) → 19.1% (Q1-2026 YTD), and balances 12.4 / 12.8 / 13.8% → 15.9%. The claim moves toward FALSIFIED for the opposite reason. **Also refuted:** the 8/14 near-miss mechanism (unit share falling while dollar share rises), and s020's "the bureaus move in opposite directions". Both are artifacts of the phantom series.
+**Trigger:** the 9/20 perimeter hard gate, graded 8 days late (DOCKET L469), which forced a primary read the row had never had.
+**Touches:** `thesis/PREDICTIONS.tsv` OTTO-10 (staged FALSIFIED for 9/30, scored at the as-made 65%; confidence cell not walked) · ML-OTTO-278 · `STATUS.md` · impeachment banners on RP-OTT-1.6 and RP-OTT-2.5 · the 2026-08-14 OTTO-10 entry below stands as the record, and its reason is superseded here. **No thesis-conviction change**: OTTO-10 is a credit-access sub-claim, not a Cockroach or Invisible-Exit leg.
+
 ### 2026-08-27 — First Brands: the recovery-magnitude leg goes from forecast to court order (confirmation DENIED, all debtors ordered into Ch.7)
 
 **Was →** *"First Brands plan confirmation is under advisement since Aug 7; the plan routes 111 of 112 debtors to Ch.7 and both live outcomes deliver majority-Ch.7; a written ruling is OTTO-32's resolver, modeled ~Sep 15. OTTO-32 85%."* Admin-insolvency (recoveries grind toward zero because administrative expenses exceed estate value) was carried as a **forecast mechanism**.

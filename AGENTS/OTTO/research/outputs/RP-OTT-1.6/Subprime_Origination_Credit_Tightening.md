@@ -12,6 +12,9 @@ The subprime segment, specifically encompassing borrowers with a VantageScore® 
 
 ### **Subprime Origination Volume and Balance Trends (2023-2025)**
 
+> ⛔ **IMPEACHED 2026-09-28 (OTTO s024, ML-OTTO-278):** the subprime-share row below matches NEITHER Equifax primary series (Credit Trends "Auto: Total", VantageScore <620: accounts 15.4 / 15.7 / 16.8%, balances 12.4 / 12.8 / 13.8% for 2023 / 2024 / 2025; Q1-2026 YTD 19.1% / 15.9%), and its 2023 subprime units (4.9M) disagree with Equifax (3,900.2K). Do not cite this table's share or unit rows. Subprime share is RISING at primary.
+
+
 | Metric | 2023 (Annual) | 2024 (Annual) | 2025 (H1 Actuals) | 2025 (Full Year Est.) |
 | :---- | :---- | :---- | :---- | :---- |
 | Total Origination Units | 25.1M | 26.1M | 12.7M | 25.8M |
