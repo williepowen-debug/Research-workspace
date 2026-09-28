@@ -307,7 +307,7 @@ Pattern flag, tracked — not promoted to standalone bear-trigger without a seco
 
 > ⚠️ **9/28 audit: KB-121 ("the NDFI/warehouse book is SHRINKING"), the row V3's 1/5 was held on, is SUPERSEDED by the A1 rows KB-146/-168. The score was deliberately NOT moved (no silent score change): the evidence/score inconsistency is reported for a decision (STATUS RAISE block; proposal P1).**
 >
-> ⚠️ **Q1-vintage read (5/1). Since challenged:** Q2 10-Q NDFI $15.81B = 25.9% of HFI, a record (KB-146), FFIEC item 9a up 11 of 12 quarters (KB-168), Crestline SPV lender role 9/18 (KB-195) — vs mgmt's plan that warehouse 'won't be as active' (KB-196). **Live state = STATUS §CONVERGENCE: V3 1/5, UNDER CHALLENGE (proposal P1).**
+> ⚠️ **Q1-vintage read (5/1). Since challenged:** Q2 10-Q NDFI $15.81B = 25.9% of HFI, a record (KB-146), FFIEC item 9a up 11 of 12 quarters (KB-168), Crestline SPV lender role 9/18 (KB-195) — vs mgmt's plan that warehouse 'won't be as active' (KB-196). **Live state = STATUS §CONVERGENCE: ~~V3 1/5, UNDER CHALLENGE (proposal P1)~~ → V3 3/5 (mixed/untested), RE-SCORED 2026-09-28 under WQ-324 on the A1 rows KB-146/-147/-168; KB-121 named as the superseded basis (CHANGELOG 9/28). No weight moved.**
 
 The original V3 thesis ($17.2B SSFA at 20% RW = $1.1B capital savings; "Other On-Balance Sheet" $10.8B = NDFI hidden in SPVs) was **directionally disconfirmed** by Round 2 deck (Slide 24).
 

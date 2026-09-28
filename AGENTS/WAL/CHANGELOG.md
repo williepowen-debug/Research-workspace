@@ -11,6 +11,24 @@ Tracks all changes to `WAL/THESIS.md`. Reverse chronological. Mirrors format of 
 
 ---
 
+## 2026-09-28 (later) — V3 RE-SCORE 1/5 → 3/5 (WQ-324; no version bump; ZERO weights, probabilities, EV or PT moved — rider R3)
+
+**Authority:** Will, in-session 9/28, verbatim: *"WQ-324: re-score V3 now on the Q2 filing evidence already in your KB (the A1 rows), as a dated change that names KB-121 as the superseded basis. Use your own letter and scale; do not carry the old basis."*
+
+| | Before | After |
+|---|---|---|
+| V3 (NDFI/warehouse) score | 1/5 (7/25; held on KB-121) | **3/5 — mixed/untested** |
+| Live-bear composite | 11/25 | **13/25** |
+| Scenario weights / EV / PT | 2/16/45/30/7 · $75.96 · $52-76 | **unchanged** (the matrix is a triage overlay; THESIS owns the probability surface) |
+
+**Scale (the matrix's own):** 1 = disconfirmed · 3 = mixed/untested · 5 = confirmed. **Basis — A1, Q2 filings only:** KB-146/-147 (Q2 10-Q: NDFI $15,812M = 25.9% of HFI, a record; all three sub-lines up QoQ) and KB-168 (FFIEC RC-C 9a ties to the dollar; NDFI share of total loans up in 11 of 12 quarters). The vector's **exposure** half is confirmed at A1; its **stress** half has no A1 row either way (the only NDFI-nonaccrual figure, KB-175, is A2 and one quarter). Confirmed exposure + untested stress = **3**, not higher: a bear vector is confirmed by losses, not by growth.
+
+**Superseded basis, named:** **KB-121** ("the NDFI/warehouse book is SHRINKING", an A2 call paraphrase) — SUPERSEDED 9/28 and **not carried**. Management's plan (KB-196, B2) and the non-filing items (KB-175 A2, KB-178 B2, KB-195 8-K) are context, not basis.
+
+**Registered cells unchanged:** the Q3 10-Q frame §5 V3 row still grades exactly as registered (share > 25.9% / share < 25.9% and $ down / otherwise MIXED); its action text was written against the 1/5 and is annotated in the frame's §8 (9/28), not edited. No retrospective regrading.
+
+---
+
 ## 2026-09-28 — AUDIT REPAIR (no version bump; ZERO weights, probabilities, EV, PT, scores, thresholds or trades moved — rider R3)
 
 **Authority:** Will, in-session 9/28, verbatim: *"Apply the eight verified corrections and the bounded medium-item repairs within WAL's files … No silent score, weight, valuation or trade changes."* Record: `research/AUDIT_2026-09-28.md` §REPAIR RECEIPT (four read-only Opus reviewers; every HIGH re-checked by WAL at its cited file or primary).

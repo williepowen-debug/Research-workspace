@@ -114,3 +114,54 @@ The RETIRE rule (`STATUS.md` §EXIT RULES, written 2026-07-25) requires "ACL/NPL
   - ***Rates context to RECORD at the print (non-gating, for the §8 read):** 10Y ~5.24% intraday 9/28 (5.11% on 9/23); the Fed's +25bp on 9/16 (to 3.75-4.00%) is the Sept hike the Q2 NII guide assumed — delivered. At the print, record the named 6/30 and 9/30 10Y closes (the AOCI move runs between them).*
   - ***Non-gating records (log only, uninformative if absent):** (a) the second $60M substandard credit / LOI (KB-WAL-142): closed at ~carrying · closed at a loss · still held · not mentioned. (b) Office CRITICIZED $ and the CLD/lease-up criticized % (Q2 deck slide 24 analogue, KB-WAL-110) plus office maturities remaining/extended — the upstream bucket for WAL-01's classified line.*
   - ***Gaps ACKNOWLEDGED, deliberately NOT filled by annotation (writing them here would create grading rules after registration; routed to Will/PROME as a decision, audit M2):** (1) §5 has no letter for an appraisal disclosed **below** carrying with **no** specific reserve, or disclosed with no value relative to carrying. (2) §8's non-credit falsifier has no pre-set threshold for "sell-off" or "explains better", and no NO-VERDICT band. (3) §6 has no band for an absent NPL/coverage figure on management's basis; and §6 row 3 ("≥4 cumulative") is already satisfied by the 9/16 claim, so it cannot discriminate at Q3 (the informative read is whether credits 5-6 resolve at par or with charge-downs). If no rule is registered before the print, each of these grades UNRESOLVED and is recorded as such — never improvised.*
+- *2026-09-28 ~15:5x ET (WQ-325, Will-ruled): the three rule gaps acknowledged in the 9/28 note above are now **REGISTERED as §10 below**, dated, 15 days before the earliest plausible print date (L170: 10/13). None of the three is left to grade UNRESOLVED by default. §1–§9 are unedited.*
+
+---
+
+## 10. Rules registered 2026-09-28 under WQ-325 (dated additions; nothing registered in §1–§9 is edited)
+
+**Authority:** Will, 9/28, verbatim: *"WQ-325: register the three missing print-frame rules by 10/09 as dated additions to the frame, each with an explicit no-verdict band. Edit nothing already registered. If a rule cannot be written before 10/13, that leg grades UNRESOLVED and the frame says so now."* All three are written here, so **no leg defaults to UNRESOLVED**. W5 (letter governs the thesis grade, band governs the ledger), W7 (half-open bands, printed precision) and W9 (explicit-only counting) apply. **Consequences are records only: no score, weight or confidence moves inside a grade (R3).**
+
+### 10.1 — §5 addition: letter **B′** (appraisal in, below carrying, UNRESERVED)
+
+Adds one letter to §5's table. It does not change A, A′, B, C or PENDING-10-Q.
+
+| Q3 disclosure (release, deck or call) | Letter | Read |
+|---|---|---|
+| The appraisal is **disclosed BELOW carrying value** — an as-is or appraised value stated below the loan's recorded balance, or management saying the appraisal came in below / short of the balance — **with $0 charged off and NO specific reserve disclosed** (reserve stated as zero, or not mentioned) | **B′** | **Bear-lean, recognition DEFERRED.** Bear-medium KILL leg (b) is **NOT satisfied** (the appraisal is not benign). WAL-02's ledger is unaffected (no NCO). The reserve question is carried to the 10-Q frame §4. *"Carrying" = $99M unless the filing states a different recorded balance.* |
+| **⛔ NO-VERDICT band:** (a) an appraisal is said to be **received** but **no value or direction relative to carrying** is disclosed; (b) the release, deck and call **conflict** on the appraisal's direction | **NO-VERDICT** | No letter is assigned; KILL leg (b) stays **open**; carried to the 10-Q frame §4. Never graded benign (same rule as PENDING-10-Q). |
+
+**Precedence (fixed now):** any charge-off or specific reserve ⇒ A or A′, never B′. B′ is only the zero-loss, zero-reserve case. The print letter is final for the print; whatever the 10-Q adds is graded in the 10-Q frame, never back-edited here.
+
+### 10.2 — §8 addition: the non-credit falsifier, with thresholds
+
+**Step 1 — was there a sell-off?** The **reaction session** is the first regular session whose close follows the EX-99.1 release (an after-close release ⇒ the next day). **SELL-OFF** ⇔ WAL's close-to-close change **≤ −3.00%** **AND** WAL minus KRE, same session, **≤ −2.00pp**. Named closes (yfinance via `scripts/market.py`), cross-checked against REGINALD's exit log where it has the row. No sell-off ⇒ the falsifier is **NOT TRIGGERED** (recorded, and nothing further is graded).
+
+**Step 2 — only on a SELL-OFF — classify each leg from the release, deck or call:**
+
+| Leg | BREACH if (Q2 benchmark) | Carrier |
+|---|---|---|
+| **N1 NIM** | Q3 NIM **≤ 3.47%** (≥ 6bp below Q2's 3.53%; the guide was "stable" / "down maybe about a basis point") | EX-99.1 |
+| **N2 Deposit cost** | Q3 total cost of deposits **≥ 1.88%** (≥ 10bp above Q2's 1.78% average, which was trending down) | EX-99.1 / deck |
+| **N3 TBV/share** (the AOCI + capital-return hit) | Q3 TBV/share **< $63.24** (a QoQ decline) | EX-99.1 |
+| **N4 Guidance** | Any 2026 guide line (NII, NIM, fees, deposits, loans, expenses) **lowered** against the Q2 revision (KB-117), or the NII guide withdrawn | Release / deck / call |
+| **C Credit** (any one) | §4 **GUIDE BROKEN** · §6 row 1 **MISSED** · §5 letter **A, A′ or B′** · §3 count **≥ 1** | the existing legs' own grades |
+
+| Verdict | Condition |
+|---|---|
+| **NON-CREDIT CONFIRMED** ("credit-only sufficiency" FAILS) | SELL-OFF **and** ≥ 1 of N1–N4 BREACH **and** no C breach |
+| **CREDIT-CONSISTENT** | SELL-OFF **and** ≥ 1 C breach **and** no N breach |
+| **⛔ NO-VERDICT** | SELL-OFF with **both** an N breach and a C breach · SELL-OFF with **neither** (unexplained — logged) · **any** of N1–N4 or the C legs **not printed** by the end of Stage 2 (name which) |
+
+**Consequence:** recorded only. A NON-CREDIT CONFIRMED is an input to the next re-weight proposal (a separate dated edit); it moves nothing here.
+
+### 10.3 — §6 addition: a figure not printed on management's basis
+
+| Case | Grade | Where it goes |
+|---|---|---|
+| **Row 1 (NPLs):** no NPL figure printed on the same basis as management's $567M (release, deck or call) | **NOT-PRINTED ⇒ PENDING-10-Q** | 10-Q frame §5, row "Mgmt's $567M NPL basis": graded there **only if** the 10-Q states management's definition. |
+| **Row 2 (coverage):** no coverage ratio stated, **or** a ratio stated **without its denominator** | **NOT-PRINTED ⇒ PENDING-10-Q** (none stated) · **NO-VERDICT** (stated, denominator unstated — record the figure) | The §7 pin and the 10-Q frame §5 RETIRE leg are unaffected. |
+| **Row 3 (six-credit count):** no count of "the six" stated | **NOT-PRINTED ⇒ UNRESOLVED** (no 10-Q carries this count) | — |
+| **⛔ NO-VERDICT band, all rows:** the figure can be rebuilt on management's basis **only by inference** from this desk's lines (e.g. $562M nonaccrual + an assumed adjustment) | **UNRESOLVED** — never inferred | Record this desk's basis alongside (non-gating), as §6 already says. |
+
+**Non-gating record added:** row 3 ("≥ 4 cumulative") was already met by the 9/16 claim, so at Q3 it cannot discriminate. **Log the outcome of credits 5 and 6** — resolved at par · resolved with a charge-down · still open · not mentioned (uninformative).
