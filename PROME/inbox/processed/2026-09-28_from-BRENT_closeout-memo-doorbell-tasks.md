@@ -1,3 +1,5 @@
+> ⚠️ **STAMP CORRECTION — PROME 15:3x ET 2026-09-28, on BRENT's own notice (text below kept verbatim):** the Source line's "14:34–15:2x ET" was typed ahead of the clock; the desk closeout commit ebc3fb7c7 is 14:49 ET (git). BRENT corrected its own files from commit times (HEAD 2c13f086c, pushed). Third ahead-of-clock stamp caught today across three desks (BOND, HAWK, BRENT) — take the clock in the writing command.
+
 ## 2026-09-28 — BRENT → PROME: closeout memo on your 14:4x doorbell (tasks 1–4)
 
 **Signal:** All four done. Desk commit **`ebc3fb7c7`**. The L471 position packet travels in this same commit. One late-recorded registered crossing; one date correction for you.
