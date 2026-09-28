@@ -1,6 +1,6 @@
 # CORAL — SCRATCH (ephemeral session handoff)
 
-**Session:** 2026-09-28 ~14:36 → evening ET (Mon) · Will-launched boot + catch-up, then a long live session with Will (rulings, enrollment, Redfin, condo-bankruptcy pass). PROME (`prome-7f`) coordinated; closed out mid-session with CORAL's receipt.
+**Session:** 2026-09-28 ~14:36 → 19:36 ET (Mon) — CLOSED OUT on Will's word · Will-launched boot + catch-up, then a long live session with Will (rulings, enrollment, Redfin, condo-bankruptcy pass). PROME (`prome-7f`) coordinated; closed out mid-session with CORAL's receipt.
 **Previous:** 2026-09-13. Desk had been dark 15 days.
 
 ---
