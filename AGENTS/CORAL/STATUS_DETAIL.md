@@ -531,3 +531,26 @@ In re **FIHPNP LLC, No. 26-20876 (MEH), Bankr. D.N.J.** (Judge Hall), filed 9/24
 **(3) Statewide pattern:** every FL metro is a "buyer's market" on Redfin's ≥10% definition, the **condo gap exceeds the single-family gap in every FL metro** (117–270% vs 35–101%), and **every FL metro except Orlando narrowed YoY.**
 **(4) Divergence logged for the MSI gate (not interpreted):** Tampa's Parcl MSI printed a series high 7.18 (9/28) while Redfin's Tampa gap narrowed (94.6 → 86.4) and Realtor.com Tampa listings fell 6.4% with price-reduced share down 2.0pp. Seller-motivation index up; listings-vs-demand improving.
 **Inference audit:** the gap is a listings-to-modelled-demand ratio (a months-supply cousin), so it inherits the four-leg rule — here VOLUME was the discriminator, and on Orlando it cut against the headline. **Read: no colour moves; condo remains where FL excess supply sits; the trend outside Orlando is easing; bank rail untouched.**
+
+## K. Fannie bankruptcy/receivership channel · OPPAGA 26-04 · Biscayne 21 (Will's bounded pass, 2026-09-28; KB ML-CORAL-092)
+**Fannie Mae (PRIMARY, Selling Guide B4-2.1-03 v.08/05/2026, Guide pub. 9/2/2026), verbatim:** *"a project must not be the subject of a voluntary or involuntary bankruptcy, insolvency, liquidation, or receivership proceeding, or any substantially similar action under state or federal law. This includes any project that has voted or is in the process of voting on any of the actions or proceedings described above."* Also covers termination/deconversion/dissolution. **No carve-out** for a confirmed plan, a non-debtor HOA, or a litigation-only receivership; only relief = case-by-case PERS exception.
+| Review path | Rule applies? |
+|---|---|
+| Full Review · PERS · FHA-approved (B4-2.2-03) | Yes |
+| **Waiver of Project Review** (detached, 2–10 unit, PUD, Fannie-to-Fannie refi ≤80% LTV) | **Yes** — B4-2.1-02: "the project is not terminating and is not involved in insolvency proceedings" |
+| High-LTV Refinance (B5-7-01) | Carve-out — ⚠️ **but Fannie's acquisitions under that program are currently PAUSED** (B5-7-01 note + product page; CATO `a0fb85230`) ⇒ no live exception |
+Other: Limited Review retired (PRIMARY: no longer listed; 8/3/26 date SECONDARY) · **15% reserve from 1/4/2027 = PRIMARY, LL-2026-03 p.3 (CATO)** · reserve-study "baseline funding" may not be used to **waive the 10% test** (B4-2.2-01, PRIMARY — narrower than press's "banned") · Condo Status Finder: HOAs/managers/authorized advisors only, one of four statuses, no reason given (SECONDARY). **Freddie Mac:** near-identical text in Condo Project Advisor (PRIMARY 12/8/2025) citing Guide 5701.3(j)(2)/(p); Guide itself 401-blocked; reach into its exempt categories unverified.
+⇒ **Channel:** an association filing (or a vote to file) cuts conventional GSE financing for every unit in the building — a **financing constraint on owners**, independent of any bank credit loss.
+
+**OPPAGA Report 26-04, "Milestone Inspection Reporting Data 2024 and 2025" (July 2026, PRIMARY — a statutory data report, not an audit; data received by DBPR through 3/31/2026):**
+| Figure | What it counts | Split | Page |
+|---|---|---|---|
+| 8,736 Phase I | completed inspections | 6,952 of 8,777 required (2024) · 1,784 of 2,880 (2025) | 2, 8 |
+| 1,575 Phase II | completed | 1,301 of 1,899 · 274 of 636 | 2, 8 |
+| 1,587 extensions (94% coastal) | extensions of the initial deadline | 818 · 769 | 2, 9 |
+| **903 repair permits** | permit **APPLICATIONS**, not issued or completed | 671 · 232 | 2, 12 |
+| **<$1K – $30M** | **estimated values on applications, not costs**; avg $337,229 (2024), $496,236 (2025), single-permit submissions only | — | 12 |
+| **54 unsafe/uninhabitable** | officials' lists; statute defines neither term | 30 (2024, 6 counties, 5 vacated) · 24 (2025: 23 Miami-Dade incl. 19 Aventura, 1 Orange) | 13–15 |
+⚠️ **Coverage limits on every figure:** 71% (2024) / 64% (2025) of 389 jurisdictions reported; self-reported, unverified; some non-condo buildings included; 44% of Palm Beach municipal officials did not report for 2025; Broward/Miami-Dade/Palm Beach report Phase II only when repairs are needed (Phase II not comparable across jurisdictions). Press "~2,900 never completed" is DERIVED (11,657 − 8,736 = 2,921), not stated, and includes buildings on extension. **No SIRS or special-assessment data in the report.**
+
+**Biscayne 21 (all SECONDARY; court dockets SEARCH-BLOCKED):** settlement reached AND funded Mon 8/31/2026 (TRD 9/3; holdout counsel Glen Waldman: "closed"); court sign-off pending as of 8/31; deeds unrecorded 9/3. ~$50M = one anonymous source (Two Roads' Collins declined); "~$6.3M/owner" assumes 8 ownership units, not 10 owners. 3rd DCA (Mar-2024; revised 7/10/2025) reversed a denied temporary injunction — interlocutory; FL Supreme Court **denied the petition for review 10/14/2025** (not a merits affirmance). Economic-waste/partition suit filed ~Feb 2026; its dismissal is UNVERIFIED. Edition buyers' deposit suit (~$2.5M) still live.

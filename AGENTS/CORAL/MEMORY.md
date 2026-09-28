@@ -8,7 +8,7 @@
 
 | Date | Feedback |
 |------|----------|
-| 2026-09-28 | Will asked that **FL public-school enrollment be tracked as a standing CORAL series** ("something I would want to continue tracking"). Home: VX-CORAL-ENRL-01 + `workbook/FL_ENROLLMENT.tsv`. He also ruled that undocumented triggers are retired rather than re-derived (WQ-322) — so the series carries **no threshold** until one has a written basis. |
+| 2026-09-28 | Will asked that **FL public-school enrollment be tracked as a standing CORAL series** ("something I would want to continue tracking"). Home: VX-CORAL-ENRL-01 + `workbook/FL_ENROLLMENT.tsv`. He also ruled that undocumented triggers are retired rather than re-derived (WQ-322) — so the series carries **no threshold** until one has a written basis. **Same evening, standing instructions:** a count with no written window stays DESCRIPTIVE and UNGRADED — never retrofit a window to produce a colour; "no bank creditor found in reviewed documents" must never become "no bank exposure"; spend approvals are conditional on access and actual charges within the cap, and paid documents are never a prerequisite for delivery. |
 | 2026-06-19 | Will promoted CORAL from a REGINALD sub-agent to a **top-level peer agent** (parallel to OZK). Florida is to be a first-class agent again. Same path OZK took 2026-04-24. |
 
 ## Findings

@@ -1,54 +1,34 @@
 # CORAL — SCRATCH (ephemeral session handoff)
 
-**Session:** 2026-09-28 ~14:36–16:xx ET (Mon) · **Will-launched boot + "catch up on new relevant data"**; PROME (`prome-7f`) doorbelled mid-session with the same drain order.
-**Previous:** 2026-09-13 (PROME L0 owner spawn). **Desk dark 15 days.**
+**Session:** 2026-09-28 ~14:36 → evening ET (Mon) · Will-launched boot + catch-up, then a long live session with Will (rulings, enrollment, Redfin, condo-bankruptcy pass). PROME (`prome-7f`) coordinated; closed out mid-session with CORAL's receipt.
+**Previous:** 2026-09-13. Desk had been dark 15 days.
 
 ---
 
-## CHANGES SINCE LAST SESSION
+## WHAT I DID (all committed + pushed unless marked)
 
-- 14 mail items (10 legacy, 4 WALTER) — MARCO ×5, DAEDALUS ×2, LABOR, CREED, PROME WQ-295; WALTER Miami-Dade, Brightline, 2 mortgage info items.
-- Dated releases that landed dark: FL Realtors Aug (9/16), Citizens 8/31 (run 9/8), AOUSC F-2 to 6/30 (7/28), MIAMI REALTORS Aug (9/16), Brightline Ch.11 (9/24).
-- STATUS sat at 100% of read-cap budget; MEMORY at 80%.
-- DOCKET L501 (10/02) asked CORAL for the WQ-241 re-fire/level-guard proposal.
+1. **Catch-up (15 days):** MSI #7 (4-of-5, Cape 5.96) · FL Realtors Aug (counter-evidence) · Citizens 8/31 (takeout-driven) · Amendment 3 ruling found (Branch A → "leaning FAIL") · NFIP → 12/11 · season 8 named / 0 hurricanes · Brightline (no FL-bank transmission) · mail 14/14.
+2. **Rulings installed (Will):** WQ-241 MSI-01 amended letter (re-fire, same-metro stand-down, 5.90–6.00 policy buffer, first-reading persistence clock) · WQ-321 criterion 5 (leg A absolute scored, leg B relative reported) · WQ-322 option E (~230/260 bankruptcy LEVEL trigger RETIRED, not replaced).
+3. **Instruments built:** `tools/bkcy/` (AOUSC F-2 bankruptcy per-capita) · `workbook/FL_ENROLLMENT.tsv` + VX-CORAL-ENRL-01 (standing enrollment series, no threshold) · `TRADE.md` declared flat.
+4. **Enrollment:** statewide −2.33% (61/67 districts) — vouchers, cohort size, immigration; NOT domestic out-migration (ML-088/-089/-090; external report reviewed). Routed to MARCO via WALTER (SIG-W-20260928-015, ACTION).
+5. **Redfin (SIG-W-20260928-014):** Miami gap condo-led and narrowing; Orlando +62pp NOT corroborated by actual sales (ML-091).
+6. **Condo bounded pass (Will, evening) — PARTIAL at this write:** Fannie HOA-bankruptcy ineligibility scope · 15% reserve now PRIMARY (LL-2026-03 via CATO; CORAL's 8/23 "caveat withdrawn" was an overclaim, corrected) · OPPAGA 26-04 with coverage limits · Biscayne 21 settled 8/31 (ML-092, STATUS_DETAIL § K). **Cases 6–9 verified** (scratchpad `bk_cases_B.md`); **cases 1–5 verifier still running** → the nine-case table (§ L) is OWED.
+7. Rotations: STATUS 32.5 KB → ~21.7 KB (67%); MEMORY → 71%.
 
-## WHAT I DID
+## NEXT SESSION / OWED
 
-1. **Five read-only Opus research pulls** (scratchpad only) + my own primary re-checks of MARCO's corrections (Census V2025 csv; OCPS 9/15/26 PDF md5-matched).
-2. **MSI reading #7 (9/28): 4-of-5 > 6.00, Cape Coral 5.96 — no rule applies, leg 🟠.** Parcl listing counts are in `__NEXT_DATA__ seo.totalCount/nCutting` — ⚠️ my 9/13 "no backing field" (ML-079) may be a keyed-search error; unresolved.
-3. **FL Realtors Aug:** condo $298K +2.8%, sales −1.8%, realization/velocity firmer ⇒ counter-evidence. Months-supply streak is 7, I'd miscounted.
-4. **Citizens 8/31: 266,231 — takeout-driven** (8/18 round 11,723 ⇒ ex-round personal ≈ −93).
-5. **Amendment 3 ruling FOUND (8/3, no appeal, Ballot No. 3). ML-CORAL-042 Branch A graded ⇒ "leaning FAIL"** (mechanism unconfirmed — recorded).
-6. **Bankruptcy instrument BUILT** → `tools/bkcy/` (217.1/100k, +21.2%, FL/US 1.231×). Criterion 5 NOT MET on every basis; 2 spec defects flagged for Will between grades.
-7. **NFIP: extended to 12/11 on 9/2** — my 9/30 cliff was stale 26 days. FIGA ends 9/30; no new insolvency. Season 8 named / 0 hurricanes.
-8. Brightline graded (no FL-bank/state-credit transmission; Flagler RE schedules pending). Miami-Dade Aug −1.1% YoY (−47% is vs 2021).
-9. **Governance:** WQ-241 PROPOSAL (hysteresis 5.90–6.00 + symmetric re-fire; 🟠 under both rules today) + cadence WEEKLY + 12 watch terms → PROME (`df4e9f1a6`); walter-f8 doorbelled. `TRADE.md` DECLARED FLAT (DAEDALUS L4 closed).
-10. **Read-cap:** STATUS 32,493 → ~19.8 KB (61%); MEMORY 26,171 → 21,845 (67%). Rotations verbatim + crc (`STATUS_DETAIL` 9/13 blocks `5ff2d9aa`; `archive/MEMORY_ROTATED_20260928.md`). Obligation audit both directions caught the dropped 9/30 min-wage duty.
-11. Corrections applied in place: −56.5% → −37.0% (STATUS_DETAIL, COVERAGE); enrollment composition third term; COVERAGE P3 stale "clearing by cutting price" struck; THESIS state line (MSI leg 🟠).
-13. **Later same session (Will in-session):** WQ-241 + WQ-321 ruled and installed (`8ce8ecb83`, verified at `c0cfe7ba6` first); WQ-322 ruled option E — ~230/260 level trigger RETIRED (`4661cb048`). Sun Sentinel tri-county −35,000 enrollment logged press-tier (ML-088). **Statewide enrollment sweep:** membership −2.33% 2025-26, 61 of 67 districts down; scholarship FTE +72K vs district −68K; state blames immigration (EL −22K) ⇒ not domestic out-migration (ML-089, STATUS_DETAIL § I).
-14. **Redfin (SIG-W-20260928-014, Will: 'work it now'):** Miami gap condo-led and narrowing; Orlando's +62pp NOT corroborated by actual sales (ORRA, Realtor.com) — ML-CORAL-091, STATUS_DETAIL § J. READ-FIRST table rotated to STATUS_DETAIL (crc `fc809d76`); STATUS 62%.
-12. Mail drained 14/14 (`git mv` → processed/, board_log rows). Packets: MARCO (Citizens mechanism, Aug months-supply, A3, NFIP), DAEDALUS (PR#6 done).
-
-## NEXT SESSION
-
-- **9/30 FIGA 1% ends + FL minimum wage $14→$15** (dated, nothing to pull).
-- ✅ **WQ-241 + WQ-321 RULED by Will 9/28 and INSTALLED same day** (STATUS OQ §A amended letter; THESIS criterion-5 scoring; CHANGELOG). **Next Parcl reading is graded on the AMENDED letter** — persistence clock from the first qualifying reading. **WQ-322 RULED 9/28 (option E): ~230/260 level trigger retired, not replaced; growth rule kept unchanged and unvalidated; report level/growth/US on the all-chapter M.D.+S.D. basis.**
-- **~early Oct: Citizens 9/30 month-end** — carries the 9/15 round (10,210); read ex-round.
-- **OQ L residual:** was `seo.totalCount` on the 9/13 page? (Wayback 429'd today.) If yes, correct ML-CORAL-079 as a keyed-search error (append-correction, don't delete).
-- **10/16 FL Realtors September** — four legs.
-- **~late Oct:** Q3 FL-bank prints (bank-rail re-test) · AOUSC 9/30 F-2 table → re-run `tools/bkcy/build_bkcy.py`.
-- **H2:** bankruptcy spec defects (basis label, "fades" number) → Will via PROME **between grades, before 11/15**. Packeted in the 9/28 closeout memo to PROME — watch for the ruling; do not pick a basis myself.
-- **FL enrollment is now a STANDING SERIES (Will 9/28):** VX-CORAL-ENRL-01 + `workbook/FL_ENROLLMENT.tsv` (62 basis-tagged rows) + `sources/enrollment/`. Next: **FLDOE Survey 2 (Oct-26) ~Nov–Dec** (fldoe.org 403 → Wayback) · EEC ~Jan. Sweep routed to MARCO via WALTER (`3010fea3e`).
-- ⚠️ **STATUS is at 70% of budget (22,742 B)** — rotate the 9/28 READ-FIRST table to STATUS_DETAIL at the next append.
-- 11/4 Ballot No. 3 result (criterion 6 instrument) → 11/15 grade.
+- ⏳ **FINISH THE NINE-CASE TABLE** (Will's instruction) when the cases 1–5 report exists: debtor · property · filed · case no. · status · documented cause (court vs press vs allegation) · creditors/amounts/collateral · bank vs private · secured vs unsecured · association borrowing vs unit-owner mortgages. **Count stays DESCRIPTIVE and UNGRADED — no window retrofitted.** Grande Isle lender/security/funding = UNRESOLVED where documents don't establish it. "No bank creditor found in reviewed documents" ≠ "no bank exposure." Short conclusion: what establishes association stress / financing constraints / lender exposure / actual losses, and what is unknown. **No scenario-weight or trade changes.** Then update the stale VX "Association Bankruptcies | 1" row descriptively (count + basis), without grading.
+- **Grande Isle PACER request saved** at `sources/condo/PENDING_PACER_REQUEST_GrandeIsle_2026-09-28.md` — Will's $9 approval is CONDITIONAL on him having access; not a prerequisite for anything.
+- ⚠️ MEMORY 71% — rotate the oldest findings rows at next append.
+- Dated: **9/30 FIGA 1% ends + FL min wage $15** · ~early Oct Citizens 9/30 month-end (read ex-round; 9/15 round 10,210) · **10/16 FL Realtors Sept** · FLDOE Survey 2 count week **Oct 5–9** (results ~Nov–Dec) · **late Oct Q3 FL-bank prints** + AOUSC 9/30 F-2 (re-run `tools/bkcy`) · 11/4 Ballot No. 3 result · **11/15 falsify grade** · 12/11 NFIP.
+- Next Parcl reading is graded on the **amended** MSI-01 letter. Log the Tampa MSI-vs-Redfin divergence at it.
+- OQ L residual: did Parcl's `seo.totalCount` exist on the 9/13 page? (underlying API metric existed since Feb-2025 — page rendering unresolved).
 
 ## OPEN THREADS
 
-- **WQ-241** with Will (proposal delivered). Live 8/23 letter untouched.
-- **MARCO:** agreed on every level; differ on Citizens mechanism wording (packet sent).
-- Stale rows still marked: SE-FL vintage $/sf (7/13) · blacklist (Apr-2025) · NOAA SIR sargassum (7/21) · ATTOM foreclosure (7/17) · VLY CRE/RBC (Q1).
-- PB condo 8.2 (Apr) → 6.7 (Aug, MIAMI REALTORS): prior compiler basis unverified — no trend asserted.
+- MARCO dark; has CORAL's Citizens-mechanism packet and the enrollment route (ACTION).
+- Stale rows still marked: SE-FL vintage $/sf (7/13) · blacklist 1,438/696 (**March-2025** Allcock Marcus snapshot; current value unknown) · NOAA SIR sargassum · ATTOM foreclosure (7/17) · VLY CRE/RBC (Q1).
 
 ## MAIL STATE
 
-**Inbox EMPTY — drained 14/14.** `inbox/processed/` +10, `inbox/WALTER/processed/` +4. Outbound: MARCO + DAEDALUS packets (carve-out ①), PROME ×2 (`df4e9f1a6`), PROME closeout memo.
+Legacy inbox empty. `inbox/WALTER/` empty (all consumed, board_log rows). Outbound this session: PROME ×6, MARCO, DAEDALUS, WALTER (route) — all committed.

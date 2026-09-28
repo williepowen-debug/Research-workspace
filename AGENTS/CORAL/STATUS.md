@@ -32,9 +32,9 @@ Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo st
 | Condo inventory (metro) | Miami-Dade **12.1 mo** · Broward **9.9** · Palm Beach **6.7** (Aug, MIAMI REALTORS) — ⚠️ PB's prior 8.2 (Apr) basis unverified, no trend asserted | 🟠 |
 | **Redfin sellers-vs-buyers (Aug, modelled buyers)** | Miami (Miami-Dade) **138% — #2 US but NARROWING** (152% Aug-25); **condo 232% vs single-family 69%** ⇒ condo-led. Orlando **122% (+62pp YoY)** — ⚠️ **NOT corroborated**: actual closings +7.5% (ORRA), Realtor.com pendings +11.5%. All other FL metros narrowing YoY | 🟠 |
 | SE-FL vintage (30+yr) pending $/sf | **$313, −9%** — ⚠️ STALE since 7/13 | 🟠 |
-| Special assessments | **$25K–$100K/unit typical, to $400K**; SIRS tail ≤12/31/26, funding-pause ≤12/31/28 | 🔴 |
-| GSE warrantability | **PRIMARY-TIER.** Full Review live 8/3; binding FL constraint = pass/fail inspection + **>$50K/unit master deductible**. First honest read ~Oct–Nov | 🟠 |
-| Termination / receivership | *Biscayne 21* 100%-consent STANDS; Two Roads suit **unresolved** | 🟡 |
+| Special assessments | **$25K–$100K/unit typical, to $400K**; SIRS tail ≤12/31/26, funding-pause ≤12/31/28 · **OPPAGA 26-04 (Jul-26, PRIMARY): 903 repair-permit APPLICATIONS from Phase II inspections (2024–25), estimated values <$1K–$30M; 54 buildings listed unsafe/uninhabitable** — ⚠️ 64–71% of jurisdictions reported; self-reported; estimates not costs | 🔴 |
+| GSE warrantability | **PRIMARY-TIER.** Full Review live 8/3; binding FL constraint = pass/fail inspection + **>$50K/unit master deductible**. ⭐ **9/28: an HOA in bankruptcy/insolvency/receivership (or VOTING on one) makes the project ineligible (B4-2.1-03, v.08/05/2026) — incl. Waiver of Project Review; only carve-out is High-LTV Refi, whose acquisitions are PAUSED.** First honest read ~Oct–Nov | 🟠 |
+| Termination / receivership | *Biscayne 21* **SETTLED 8/31/26 (press):** Two Roads paid the holdouts ~$50M (single anonymous source); court sign-off pending as of 8/31. Makes forced terminations **dearer/slower**, not faster. *Biscayne 21* 100%-consent reading stands (FL Sup. Ct. **declined review** 10/14/25 — not a merits affirmance) | 🟡 |
 | FL property-cat reinsurance | 6/1 **−15/−20%** risk-adj; Citizens net ROL **8.46% vs 11.95%** | 🟢 easing |
 | Citizens policies in force | **266,231 (8/31)**, −4.3% — **takeout-driven** (8/18 round 11,723); ex-round personal ≈ −93; commercial **−149** real. Next month-end ~early Oct | 🟠 |
 | Citizens commercial / condo-assoc | Commercial **+10.4% capped** eff 7/1/26 | 🟠 amplifier |
@@ -98,10 +98,10 @@ Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo st
 | C | FL hotel portfolio identity — only path = CMBS deal-level remittance. Silence ≠ cure. CREED Aug: **zero FL named** | open | fate UNKNOWN |
 | D | Warrantability spread — earliest honest read; + count FL associations with >$50K/unit master deductible | **~Oct–Nov** | not yet measurable |
 | D2 | SEL-2026-05 loosening — effective dates UNKNOWN | open | flagged, not adopted |
-| D3 | GSE reserve funding **10% → 15%** | **2027-01-04** | dated |
+| D3 | GSE reserve funding **10% → 15%** (Full Review, applications on/after) — **PRIMARY: Fannie LL-2026-03 (3/18/26) p.3, retrieved by CATO `a0fb85230`**; the current Guide still reads 10% | **2027-01-04** | dated |
 | F | Ocala June-2026 metro UR — next route FloridaCommerce LMS; normal June shape +0.6pp | owed | 3 routes dead |
 | H2 | ✅ **Criterion 5 operationalized (WQ-321) + level trigger RETIRED (WQ-322), both Will-ruled 2026-09-28:** leg A absolute scored (M.D.+S.D. all-chapter per-capita 12-mo YoY ≥5pp below its preceding four-table max, two consecutive tables); leg B relative reported only — prospective policy choices. The ~230/260 level trigger is retired, not replaced; the growth-warning rule is retained unchanged and unvalidated | next F-2 table ~late Oct–Nov | ✅ closed |
-| I | Receivership/termination count — Two Roads "economic waste" suit | unresolved | 🟡 |
+| I | ✅ **Biscayne 21 / Two Roads — SETTLED 8/31/26** (press; ~$50M one anonymous source; court sign-off pending). ⚠️ Whether the Feb-2026 "economic waste" suit was dismissed is **unverified** (inference only) | watch for dismissal filing | closed-pending |
 | J | **Condo price-band test — UNITS, never SHARE** | separate report | not run |
 | K | No constant-quality statewide FL **condo** index — every condo composition argument rests on a mix statistic | open | named gap |
 | L | ⭐ **Parcl listings: route FOUND** (`seo.totalCount`/`nCutting`). Open residual: **did the fields exist on 9/13?** If yes, ML-CORAL-079 was a keyed-search error and gets corrected, not deleted | next session (Wayback) | route ✅, record ⚠️ |
