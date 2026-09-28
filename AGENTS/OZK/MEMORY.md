@@ -58,6 +58,8 @@
 - Sweep 9/24→9/27: **quiet.** FLNG rc 0 (none after 11981) · no insider forms after 8/14 · OZK $46.89 / KRE $71.55 (9/25 close) · SI 16.51M @9/15, DTC 17.6 (rising) · no analyst action after 9/8 · Q3 date unannounced · Spur→Apollo still TRD-only · BPRE ~47% below NAV @9/3 (derived; "38%" was Dec-25 vintage, corrected same day) · Horton still UNKNOWN (only listing is stale). → `research/threads/2026-09-27_CATCHUP_SWEEP.md`. STATUS tokens refreshed; **nothing moved.**
 - **PM re-sweep (Will, 17:56 ET):** nothing new — FLNG rc 0, no insider forms, no Q3 date (aggregators still say 10/15, estimate), no IQHQ/Bisnow items after 6/22. Only change: the BPRE discount vintage fix.
 
+- **Evening (PROME-orchestrated, 5 desks; Will closed it 21:16 ET):** (1) CRE→bank transmission leg → `research/threads/2026-09-27_CRE_LOSS_TRANSMISSION_OZK_LEG.md` (a7c8e5792): mechanism = maturity failure → foreclosure → OREO (2022 vintage); REGINALD's $656M stress reproduces, desk reading ≈$424M prob-weighted, earnings not capital. (2) **RaDD severity LABEL fixed: 50–65% ($275–360M), not "65-70%"** — the old label contradicted the playbook's own dollars and had spread to REGINALD + CREED; both relabelled (89a7b0a4e, a0caad140), verified at the artifact. (3) WQ-312 Q2 workout rows → `research/threads/2026-09-27_Q2_WORKOUT_CHECK_OZK.md` (68fd0f4d5); follow-through = DOCKET L520, CHECK-BY 10/31. (4) KB +236–240 (240/37); BPRE discount fixed 38%→~47% (vintage error). Will got a plain-language stance: real, slow bad-loan problem; bank can absorb it; the market already expects it.
+
 ### PRIOR SESSION (2026-09-24 — Will's catch-up, PROME's 5 tasks, CATO fixes, AM re-check, save-state)
 
 - **Catch-up (dark 8/31→9/24):** FDIC filings none since 8/5 10-Q · Hicks (CFO) + Wolfe sold ≈$574K 8/12-13, zero buys · SI 16.2M / ~16% float @8/31 · $49.08→$46.09 (−6.1% vs KRE −3.8%) · MS→UW 9/8 · Fed +25bp 9/16 · IQHQ Spur deed-in-lieu [single-source] · RaDD nothing. AM re-check 9/24: nothing new. → `research/threads/2026-09-24_CATCHUP_SWEEP.md`.
@@ -67,6 +69,11 @@
 - **CATO review (Will-relayed, afternoon): OZ1-OZ4 applied.** ⚠️ **Kill-§1 narrowed to FIRED-LITERAL · mechanism UNDETERMINED** — the "migration-through" dismissal was an inference (a zero-migration flow fits every endpoint). Sub-note redemption now = recalculate (redeem removes ~$280M Tier 2, not just the haircut). Affinius maturity = UNVERIFIED EVENT. OZK-09 attribution guard added (clean searches + no RaDD attribution → STUCK). CATO's next-step advice: **evidence work (Q2 10-Q read, Horton) before more restructuring.**
 - **Q2'26 10-Q FULL READ (Will-directed, evening).** Roster turned over (Sullivan cured; Chapter I/II + Atlanta foreclosed; Boston LS → nonaccrual); **"Dec 18 2025" is Baltimore, not Boston** (Boston = Feb 13 2026; misattributed since April, 7+ surfaces fixed; my morning answer to PROME was wrong); RIAD5409 ≈ The Jack + San Carlos (INFERRED); SM = 5 credits $529M; RaDD pass at 6/30 (elimination); sub-notes capital effect ~−0.16pp retain / ~−0.8pp redeem. KB 231-235.
 - **Zero grades/thresholds/weights/conviction moved.**
+
+### NEXT SESSION — carried from 9/27 (Will offered, not yet approved)
+- **PROME WQ-295 cadence packet** (inbox 9/25): declare `EVENT-DRIVEN` → `PROME/inbox/` — offered to Will 9/27, awaiting his OK. Then process the 2 inbox items to `processed/`.
+- **TODO R2 subdomain refresh**, one file at a time with a checkpoint (LIFE_SCI → GEOGRAPHY → INSIDERS → PRIVATE_CREDIT).
+- **Q3 workout follow-through = DOCKET L520** (TODO D3b).
 
 ### NEXT SESSION (priority order — CATO 9/24: evidence before restructuring)
 
