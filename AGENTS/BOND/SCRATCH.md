@@ -33,9 +33,9 @@
 12. **CORRECTION (PROME relay via Will, verified): a HY close >300 is BOND's row-4 marker ONLY — NOT a capital/HYG reopen.** X1 CLOSED 8/28 (`KB-BRK-219`); reopens only via BROCK's 10/02 sitting (DOCKET L494) → TERRY + Will. Fixed STATUS/TRADE/THESIS(dated note)/CHANGELOG/SCRATCH; `KB-BND-348`; COR-20260925-13 receipted APPLIED (late — **I dismissed it at boot as not-BOND's without reading it; read every ALL-warn at boot**).
 
 ## 🔴 NEXT SESSION (dated, future-verifiable)
-0. 🔴 **BUILD `monitors/swap_spreads.py` (Will 9/28 19:1x: "build swap-spread monitor next session").** Method + caveats → `analysis/2026-09-28_source-check_swap-spreads-CFTC.md` (DTCC PPD cumulative file, median spot-start SOFR OIS, 14:30–15:30 ET trade window, n + p10/p90, own ledger, wire into boot_recompute like `rates_context`; map the 2025 file layout for history). Selftest first, CATO-style failure fixtures (stale file, thin n, 404 same-day). 9/25 reference: 10Y −38 / 30Y −67bp.
+0. ⛔ **SUPERSEDED — do NOT build `swap_spreads.py`.** Will's 19:2x ruling (`analysis/2026-09-28_WILL-RULING_pulled-deals-EDGAR-swap-spreads.md`) DEFERS the full build behind a **small reproducible validation**: a handful of dates with DTCC trades restricted to the Treasury snapshot window, the OIS-vs-par convention made explicit, and **credible agreement with an independent benchmark** (none free found yet: that is the open question). Do it only AFTER items 1–5 below (scheduled observations, 10/1 refresh, 10/2 WQ-317). Method notes → `analysis/2026-09-28_source-check_swap-spreads-CFTC.md`.
 0b. ⚠️ **STATUS sits at 24,409 B = just under the 75% rotate line — ROTATE FIRST** before adding (snapshot pattern `domain/sources/2026-09-28d_…`).
-0c. 🟡 Open for Will: HY pulled-deal options (`KB-BND-358`: WALTER lane query / EDGAR launch→2.03 build / SIFMA·FINRA·paid). Calendar record re-record due by **12/27**.
+0c. ✅ **HY pulled-deal options RULED 19:28 ET** (`analysis/2026-09-28_WILL-RULING_pulled-deals-EDGAR-swap-spreads.md`): news search proposed to WALTER (packet); verified withdrawals can support row 4, zero can't be shown; EDGAR monitor deferred behind a manual matching sample; no SIFMA/FINRA/paid. **Owed to Will: a ruling on the prospective 'pulled-deal cluster' definition (in the record); no automated grading before it.** Calendar re-record due by **12/27**.
 1. 🔴 **Tue 9/29 AM: HY OAS 9/28 cell.** Over 300 with this velocity means matrix row 4's letter ⇒ 3 — **a BOND marker only; it does NOT reopen HYG sizing** (X1 CLOSED 8/28; reopens only via BROCK's 10/02 sitting → TERRY + Will; corrected 2026-09-28 15:22 ET). Same cell decides RED-FT-01 (RED's, day 3 of 3 on ≥280). ✅ DGS30 9/28 official = 5.56 (4th high) — DONE 16:19 ET; FRED will show it ~9/29, paste-check it vs the Treasury cell.
 2. 🟠 **Paramount HY pricing (~9/29–10/1):** final yield vs "low-9%" talk and final size vs ~$12.4B. Wider or downsized = the first access crack. It is the only free-source access test available.
 3. 🔴 **Wed 9/30:** quarter-end · Aug PCE + GDP 3rd · SOFR−IORB (0bp [9/25]) · TLT 77P expiry (TERRY).
@@ -57,7 +57,7 @@
 
 ## OPEN THREADS / KNOWN GAPS
 - LIQUID owns the Q4 grade on the 9/25+ cells (BOND sent facts only). Watch B 15-session ≥ +28 · IG ≥ +6 / BBB ≥ +7.
-- ACM/KW TP not re-pulled since 9/24 (STATUS marks STALE). The FORUM-7 P2 KW grade is HENRY's.
+- ACM/KW term premium now pulled every boot by `monitors/rates_context.py` (since 9/28 evening). The FORUM-7 P2 KW grade is HENRY's.
 - Replies owed TO BOND: ZHAO (custody/TIC).
 - TRAPS (carried):
   - `csv.writer` re-quotes TSV fields; use raw split/join.

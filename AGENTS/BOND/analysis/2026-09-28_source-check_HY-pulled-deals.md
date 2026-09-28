@@ -2,6 +2,8 @@
 
 **Written:** 2026-09-28 19:03 ET by BOND · follows item 6 of `analysis/2026-09-28_coverage-gap-review.md` · **KB:** `KB-BND-358` · no build, no spend, no sign-up done.
 
+> ⚠️ **RULED + CORRECTED 19:28 ET 9/28 (Will, adopting CATO `648f81720`; record `analysis/2026-09-28_WILL-RULING_pulled-deals-EDGAR-swap-spreads.md`):** (1) the claim below that row 4's pulled-deal trigger "stays unfireable on evidence" was **wrong** — incomplete coverage prevents a *zero-withdrawal* conclusion, but **verified in-scope withdrawals can support the existing trigger**; (2) the EDGAR **"item 2.03 = deal closed" resolver is WITHDRAWN** — item 2.03 covers any direct financial obligation (and can be reported on a conditional agreement), not a bond settlement, so a launch followed by an unrelated 2.03 is not a matched close and an absent 2.03 does not prove a withdrawal; (3) EDGAR monitor **DEFERRED** until a small manual sample shows launch/pricing/closing/withdrawal records match reliably, with missing filings left UNRESOLVED; (4) **no SIFMA/FINRA sign-up for this gap, no paid tracker yet** — a purchase proposal must show cost, coverage, delay and sample withdrawal records unavailable from current sources; (5) the narrow news search is **proposed to WALTER** via the intake process. "7 launch 8-Ks vs ~\$38B" is a keyword-hit count, **not a measured coverage rate** (CATO).
+
 ## Verdict
 **No free source gives a complete pulled-deal list.** The gap can be narrowed from "none" to **"partial and secondhand"** with two free routes. A complete list still needs a paid tracker (LCD/Debtwire/IFR), which is Will's call.
 
@@ -21,7 +23,7 @@
 2. **Optional BOND build (about half a session):** an EDGAR launch→item-2.03 monitor. Primary and free, but it only covers public issuers. Worth it only as a second, independent leg.
 3. **Needs your word:** SIFMA sign-up (monthly totals), FINRA account (coverage unverified), or a paid tracker (the only complete list).
 
-**Row 4's pulled-deal trigger stays unfireable on evidence until one of these lands.** The GAP label on `KB-BND-346` stands, now with a documented reason. Ownership: private-credit CFOs are BROCK's; EU real estate is HANS/LIQUID's.
+~~Row 4's pulled-deal trigger stays unfireable on evidence until one of these lands.~~ *(Withdrawn 19:28 ET: verified in-scope withdrawals can support the trigger; partial coverage only rules out a zero — see the ruling note above.)* The GAP label on `KB-BND-346` stands, now with a documented reason. Ownership: private-credit CFOs are BROCK's; EU real estate is HANS/LIQUID's.
 
 ## Re-test triggers (unavailability claims decay; dated 2026-09-28)
 - **FINRA API (401):** re-test if Will opens an account, or at the next HY source check.

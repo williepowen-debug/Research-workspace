@@ -73,6 +73,8 @@
 | IG OAS weekly move | stable | +10bps/wk | +20bps/wk | IG repricing / broad funding stress |
 | Pulled deals | isolated | multiple lower-quality | blue-chip or clustered HY pulls | Primary market dysfunction |
 
+> ⚠️ **Pulled-deals row — how it may be graded (Will ruling 19:28 ET 9/28, `analysis/2026-09-28_WILL-RULING_pulled-deals-EDGAR-swap-spreads.md`):** this row is the GOVERNING DEFINITION for matrix row 4's "pulled-deal cluster", and it has **no count and no window**. Verified in-scope withdrawals CAN support it; incomplete coverage prevents a zero-withdrawal conclusion (no hits = GAP, never zero, never "market open"). **No automated grading** until Will rules on the prospective definition in the ruling record; hand-grade with a written rationale meanwhile.
+
 ## Current Read (7/28) — **ACCESS intact, but "credit is inert" is RETIRED**
 
 **🟡 The primary market is still open — but spreads have re-activated after a month flat, and this file carried the flat read for 26 days.** HY OAS **268 [7/22] → 277 [7/23] → 279 [7/24] = +11bp in two sessions**, out of a nine-session range (7/10–7/22) that never moved more than 5bp. CCC **996** (4bp from 1000), IG **80**.

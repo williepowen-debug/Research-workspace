@@ -5,6 +5,7 @@
 ## Verdict
 | Item | Free source? | Verdict |
 |---|---|---|
+| ⚠️ *DEFERRED 19:28 ET 9/28 (Will, `analysis/2026-09-28_WILL-RULING_pulled-deals-EDGAR-swap-spreads.md`): the full daily build waits for a small reproducible validation — comparable timestamps, conventions and credible benchmark agreement. Also corrected: 6 dates were TESTED, 5 produced rows (the 2025 file matched nothing), and the method is a promising feasibility lead, not a validated series (CATO).* | | |
 | **Swap spreads** | ✅ **DTCC public swap-trade reports** (CFTC Part 43 public dissemination), daily cumulative file, ~1 year kept | **BUILDABLE.** Method validated on 6 dates, stable and plausible. Moderate build. |
 | **CFTC positioning** | ✅ CFTC TFF raw files | **ALREADY COVERED by LIQUID**: `AGENTS/LIQUID/scripts/cftc_tff_rates.py` (built 2026-08-23 to answer BOND's own KB-BND-092 basis-trade question; UST 2Y/5Y/10Y/Ultra-10Y/Bond/Ultra-Bond + SOFR-3M; runs clean 9/28, latest as-of Tue 9/22). **Correction to the gap review: this was not a missing source.** BOND's gap is CONSUMPTION: cite LIQUID's read, do not build a second copy. |
 
