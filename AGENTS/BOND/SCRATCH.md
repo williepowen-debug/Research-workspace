@@ -1,4 +1,4 @@
-# BOND SCRATCH — 2026-09-28 (Mon) catch-up session 14:37 → 14:46 ET (Will: "boot up, catch up on owed work"). *Prior same day:* 10:34→13:15 ET live-event session (+ outbox audit to ~14:05). *Earlier:* 9/26 `prome-1d` · 9/25 · 9/24.
+# BOND SCRATCH — 2026-09-28 (Mon) catch-up session 14:37 → 16:00 ET (incl. deep-dive + HY-300 correction + refi wall; closeout 16:00 ET) (Will: "boot up, catch up on owed work"). *Prior same day:* 10:34→13:15 ET live-event session (+ outbox audit to ~14:05). *Earlier:* 9/26 `prome-1d` · 9/25 · 9/24.
 
 **Purpose:** ephemeral handoff. Read at boot, rewritten at closeout. Durable → `MEMORY.md`; evidence → `workbook/`. The previous SCRATCH text is in git history (`git show HEAD~1:AGENTS/BOND/SCRATCH.md`).
 
@@ -22,6 +22,8 @@
 8. **`KB-BND-307` CORRECTED:** the cadence half (">=15-day lag, pairable early October") was wrong; the lag is ~8 days and the fire was graded 9/24.
 9. **WQ-291 grader built + dry-run:** `analysis/2026-10-01_wq291_grade.py`. It reproduces PRE $47.986B and returns rc=3 GAP (as-of 9/23 unpublished). rc 0 = graded · 2 = fetch/PRE mismatch · 3 = GAP.
 10. Stamp-drift memory extended (n+6, BOND again, same day).
+11. **Will deep-dive on junk → `KB-BND-347`:** FRED ICE = 3y window only; HY index 43rd pct but CCC 99.9th and HY yield 7.87% (2026 high). 9 episodes of +25bp/3 sessions: 7/8 retraced within 60 obs, 1/8 went +100bp (Mar-2025 → April tariff shock).
+12. **CORRECTION (PROME relay via Will, verified): a HY close >300 is BOND's row-4 marker ONLY — NOT a capital/HYG reopen.** X1 CLOSED 8/28 (`KB-BRK-219`); reopens only via BROCK's 10/02 sitting (DOCKET L494) → TERRY + Will. Fixed STATUS/TRADE/THESIS(dated note)/CHANGELOG/SCRATCH; `KB-BND-348`; COR-20260925-13 receipted APPLIED (late — **I dismissed it at boot as not-BOND's without reading it; read every ALL-warn at boot**).
 
 ## 🔴 NEXT SESSION (dated, future-verifiable)
 1. 🔴 **Tue 9/29 AM: HY OAS 9/28 cell.** Over 300 with this velocity means matrix row 4's letter ⇒ 3 — **a BOND marker only; it does NOT reopen HYG sizing** (X1 CLOSED 8/28; reopens only via BROCK's 10/02 sitting → TERRY + Will; corrected 2026-09-28 15:22 ET). Same cell decides RED-FT-01 (RED's, day 3 of 3 on ≥280). Also check the official DGS30 9/28 vs 5.49 (a 4th high?).

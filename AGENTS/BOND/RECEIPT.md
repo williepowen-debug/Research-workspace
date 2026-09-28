@@ -14,4 +14,7 @@
 | Carried (dated) | DEALER_CAPACITY body → 10/1 print · FOMC curve-shape row by 10/21 · check_fr2004 pattern gap |
 | Files written | STATUS · SCRATCH · RECEIPT · KB (+346, 307 corrected) · CREDIT_PRIMARY_MARKET.md · kb_lint.py · analysis/2026-10-01_wq291_grade.py · outbox audit · 2 archives · 1 snapshot |
 | Outbox | 5 unverified packets remain (<60d, superseded FYIs per the 9/28 audit) |
-| Git | see commit after closeout_check |
+| Will deep-dive (junk) | ✅ `KB-BND-347` (3y ranks + speed-episode base rate) |
+| PROME correction: HY-300 ≠ capital reopen | ✅ applied on 5 surfaces, `KB-BND-348`, COR-20260925-13 receipted APPLIED (late) |
+| Will-approved CCC refi wall 2027–28 | ✅ `analysis/2026-09-28_CCC-refi-wall-2027-28.md`, `KB-BND-349`; stop rule held (CCC sector split = GAP) |
+| Git | commits b4926f8b8 · 40ebf94b2 · 4a0d79528 · cfcc7a80b · 0fcd3d955 + final closeout (16:00 ET); all pushed via safe-push |
