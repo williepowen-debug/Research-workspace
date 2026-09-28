@@ -458,6 +458,17 @@ def main() -> int:
         print(f"\n[boot_recompute] WARNING: buyback_f2 did not run ({e}). That is a GAP, not a pass.")
         drift += 1
 
+    # RATES CONTEXT (2026-09-28, Will "go ahead with 1 + 2 + 3"): market-implied Fed path, ACM/KW
+    # term premium, and the VX-BND-17 re-arm watcher. Wired in HERE for the same reason as the
+    # carriers above: each was hand-pulled or watched by nobody, and an unmeasured re-arm can
+    # never fire. A fetch failure, stale source, fired band or undocketed FOMC counts as a finding.
+    try:
+        import rates_context
+        drift += rates_context.run()
+    except Exception as e:                      # never let the context block break the boot pull
+        print(f"\n[boot_recompute] WARNING: rates_context did not run ({e}). That is a GAP, not a pass.")
+        drift += 1
+
     print("\n⚠️  Paste-check these against STATUS. Any figure on a BOND surface that is NOT")
     print("    in this block, or disagrees with it, is a CARRIED figure — recompute or drop it.")
     if drift:

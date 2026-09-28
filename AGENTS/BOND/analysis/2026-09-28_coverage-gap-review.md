@@ -16,4 +16,6 @@
 
 **Deliberately NOT gaps (do not reopen):** auction tail (unscoreable by construction, retired 7/28) · US sovereign CDS (declined 9/2, re-test 12/1) · foreign demand/TIC (ZHAO) · repo/SOFR plumbing (LIQUID).
 
+> ✅ **1 + 2 + 3 DONE 17:38 ET 9/28 (Will "go ahead"): `monitors/rates_context.py`, wired into `boot_recompute.py`, `KB-BND-354`.**
+
 **Recommendation:** do **1 + 2 + 3 as one wiring job** (all free sources already reached; one tool, one selftest), then 4 and 5 after a source check. 6 is Will's decision.

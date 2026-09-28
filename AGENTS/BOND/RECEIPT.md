@@ -12,3 +12,7 @@
 | Files written | STATUS · SCRATCH · RECEIPT · KB (+350/351/352) · WALTER inbox packet |
 | Git | see commit following this receipt |
 | PROME/CATO correction (16:25 packet) | ✅ refi-wall note: two conclusions narrowed in place (A&E-share "concentration" → GAP; aggregate timing → index-level only, CCC/single-name 2026–27 tail UNMEASURED) + mirrors KB-BND-349 / SCRATCH 7b / STATUS 0000②; packet → `inbox/processed/` |
+| Will deep-dive: front end | ✅ `analysis/2026-09-28_front-end-led-move.md`, `KB-BND-353` (`e99a4c350`) |
+| Will ask: coverage gaps | ✅ `analysis/2026-09-28_coverage-gap-review.md` (`31ed20c42`) |
+| Will "go ahead with 1+2+3" | ✅ `monitors/rates_context.py` (selftest 14/14) wired into `boot_recompute.py` (rc=0) · `KB-BND-354` · VX-BND-17 notes · CLAUDE.md FILES row · STATUS Fed-path + ACM/KW rows · T5YIFR 16→15bp fixed (both lines) · STATUS rotated (snapshot `2026-09-28c`, crc32 1800580424) |
+| WQ-317 | APPROVED (Will 17:16 ET, verified) — packet left in inbox for the 10/1 session |
