@@ -1,6 +1,6 @@
 # Regional banks — where to look next across the fleet
 
-**Disposition:** directional brainstorm delivered; proposed work is not assigned. Will asked to look across his agents for channels affecting, or affected by, regional banks. Recommendation: connect existing bank funding and nonbank-lending evidence first, then test local borrower deterioration. No launches, packets, owner edits, trade changes or new recurring instruments authorized or performed.
+**Current disposition:** WQ-318 approved and encoded per PROME's receipt relayed by Will; bounded REGINALD/BROCK work is now assigned as detailed below. CATO's brainstorming delivery is complete; no further approval needed for that approved scope. No CATO launches, packets, owner edits or trade changes performed. The original proposal and evidence below retain their September 28 vintage.
 
 **Snapshot:** local master `fbdd40314`; working tree and index initially clean. PROME/BOND activity is known; clean Git does not establish owner inactivity. This is a new directional assignment, separate from the closed morning correction round. No further audit of that round is owed.
 
@@ -54,3 +54,11 @@ No live quote refresh, issuer-by-issuer primary verification, causal test or por
 Only this CATO report and the resume paragraph in CONTINUITY are changed. No new owners, triggers or tasks registered. Checks and push receipt are delivered in-session; no hosted publication requested. Resume: discuss Will's preferred channel and, if directed, bound the receiving desk's assignment; otherwise orient and await Will.
 
 Author checks: `git diff --check` passed; staged paths were empty before staging; orphan advisory clean outside CATO; weekday claim check passed for DOCKET, GATES, WILL_QUEUE and this report. No code tests needed for directional documentation. Consumer/ledger/memory checks are inapplicable: no canonical figure, STATUS, ledger or auto-memory changed. No independent review claimed.
+
+## September 28 — approval and commissioning receipt
+
+Will relayed PROME's WQ-318 implementation receipt: approval text recorded verbatim in the done row; DOCKET L527 schedules REGINALD on October 5 (first PROME boot on/after), delivery by October 9, its skipped September 27 write-backs first. Packet scope: six-bank June baseline; later disclosures separately dated; sensitivity assumptions and horizons; unavailable/incomparable fields explicit; August negative result retained; pre-committed Q3 observations naming exact disclosure lines; Q3 may remain inconclusive. BROCK's L494 October 2 wake receives one named-facility section from existing work; NONE FOUND is acceptable. No other desk assignment, trade change or recurring study. This supersedes the original unassigned-proposal disposition above.
+
+CATO recommended approval with these limits before this receipt. Rate sensitivity informs rather than settles the funding question; June is a common baseline rather than the only observable evidence; unavailable or differently specified issuer disclosures must not be forced into comparability. The Fed mechanism was checked, not these banks' current condition. PROME's receipt reports those limits encoded.
+
+PROME identifies four commits 661519bf9→fbf0aabbe; CATO observed local HEAD fbf0aabbe and a clean tree/index before this continuity update. This verifies local metadata only: packet/docket contents, recipient consumption and PROME's push execution were not independently audited. No further review assigned or needed to acknowledge the receipt. The commissioning step is complete as reported; research delivery and usefulness remain future outcomes. Resume: orient and await Will; scheduled owner work proceeds without another ask. WQ-316 remains a separate unresolved position decision according to the receipt.
