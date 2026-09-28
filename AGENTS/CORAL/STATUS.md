@@ -115,6 +115,7 @@ Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo st
 | U | Citizens **9/30 month-end** — will carry the **9/15 round (10,210)**; read ex-round | **~early Oct** | dated |
 | W | ⭐ **FL school enrollment, tracked** (Will 9/28): VX-CORAL-ENRL-01 + `workbook/FL_ENROLLMENT.tsv` — read the discriminators before any migration claim | **FLDOE Survey 2 ~Nov–Dec**; EEC ~Jan | tracking |
 | V | Brightline Flagler real-estate debtors — read schedules when filed (station-area parcels, TOD) | when filed | ⚪ info |
+| X | ⭐ **Association→lender bridge follow-ups (Will, 9/28 closeout)** — ① Dockside's 2023 Ian-repair loan vs its 9/8/26 DIP · ② Palm Greens premium finance = BANK financing (reword § L) · ③ Avidia $494.3M association loans (verify, baseline) + USCB dating · ④ DBPR/UCC small-sample test → narrow DBPR request. Full text → `SCRATCH.md`. Count UNGRADED; no PACER expansion | **next session**; Dockside hearing 9/29 | owed |
 
 *Closed 9/28 (evidence → `STATUS_DETAIL.md` § 2026-09-28): **E** Amendment 3 ruling located, Branch A graded · **G** Citizens 8/31 · **H** bankruptcy instrument built · **Q** FL Realtors Aug · **T** enrollment reconciled to ONE figure (193,656, verified at primary by CORAL) · **R** Canadian tariffs 9/8 passed, nothing fired (MARCO/HAWK own) · **P**'s 9/30 date superseded by 12/11. **DAEDALUS L4: `TRADE.md` declared flat.***
 
