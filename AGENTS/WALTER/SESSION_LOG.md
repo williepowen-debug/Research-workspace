@@ -1,3 +1,29 @@
+## 2026-09-27/28 Sun→Mon — `walter-d5` **TIER-2 CLOSEOUT** (2026-09-28T04:22:10Z from `date`, Will: "lets close out here"). Booted 22:03Z on Will's terminal "please boot up", focus regional banks + CRE. BOARD 1063 → 1064 (`-008` UBS/Semafor → HANS). Will-Telegram batch BM-20260927-01 8/8 (1 DISPATCH, 4 KILL, 3 DUP). `COR-20260927-07` (the `-0924-023` 'declined to stay' wording). DEWEY Nano handoff processed; R3 queue rows 6–7. REGISTRY: OZK/FLG/PROME/REGINALD/WAL/CREED.
+
+> **Rotated VERBATIM from STATUS at the 9/28 Tier-2 (the 9/27 17:11Z header, bottom line and network-awareness blocks):**
+>
+> **Updated 2026-09-27 17:11Z (13:11 ET Sun, from `date`), TIER-2 CLOSEOUT of `walter-42` (Claude Opus 5.5; booted 15:50Z on Will's terminal "please boot up").** 🔴 **MARKETS CLOSED (Sun; futures reopen 18:00 ET). Live rows = 9/25 CLOSES (Yahoo daily, vendor, not settlements) re-confirmed 9/27; FRED rows = latest print (HY/CCC 9/24; the 9/25 print publishes Mon 9/28); HANS rows = TradingEconomics 9/25 closes. EACH CELL SAYS ITS BASIS.** Current obligations: [LAST_COMPLETION.md](LAST_COMPLETION.md).
+>
+> ## BOTTOM LINE
+>
+> **Sunday 2026-09-27: BOARD 1056 → 1063, 7 dispatches, no new WALTER-scanned fire.** 🔴 **Iran offered a 7-day Hormuz plan via Qatar (Araghchi 9/24); Trump said 9/26 it is "not acceptable" (POTUS channel; Iran: nothing via mediators yet; the plan's SEQUENCE conflicts across sources) → `-007`, FALCON/HENRY; Friday's oil close predates the rejection.** 🔴 **Nano Banc (Irvine CA, $736M) failed Fri 9/25 → `-004`, corrected twice (`-005`: Nano holds 4 deeds of trust senior to WAL on 5 of 10 pleaded Cantor loans; `-006`: cite ~$120M ≈ 17% on 9/22 books; "$108M BANC+EFSC" is 3 lenders).** Owner fires BOARDed: GATE-LIQ-069 2-of-2 (`-001`, with Will's WQ-301 ruling), REGINALD's CCC/HY re-arm (`-002`, B-tier widening "started, not established"), CREED-T-08a (`-003`, a rate fire). 🟡 Near-trigger: UK 10Y 5.35 / 30Y 5.87 / Bund 3.61 [9/25], each 13–15bp under HANS orange; SKEW 144.91.
+>
+> 🔑 **Process:** every dispatch timestamp today was typed ahead of its own commit (up to +73 min), caught by the doctor at closeout and re-stamped to commit time. ⚠️ **Lane items NOT routed (carried, lane NOT `--mark`ed): Perm/Ukraine refinery strikes (OSPREY), UMich 51.7 (HENRY), stale kills, HY 280 (covered); drop-zone: Bessent screenshot + a NEW `AI Agent bank run.jfif`.**
+>
+>
+> ## NETWORK AWARENESS
+>
+> ### Today's routing + stale agents (REGENERATED 2026-09-27 closeout; REGISTRY rows refreshed header-only: CREED, PROME, REGINALD, BROCK at boot; WAL, ORACLE at closeout)
+>
+> **Liveness at closeout (`ListAgents` ~17:1xZ):** live = `prome-09` (busy), `dewey-6c` (busy), `reginald-ec`, `creed-ad`, `wal-f5`, `oracle-c4` (Will-commissioned Nano Banc investigation). `ORCH_INFLIGHT.md` generated 9/21 = stale instrument. **Liveness is re-read at every boot; it is never carried.**
+>
+> **Dark and carrying ACTION (doctor, basis `delivery_log.timestamp_routed`):** 28 handoffs >2d across 6 desks, **5 ACTION, oldest 13d**: FALCON 4 (3A), SHADE 18 (1A), FLG 1 (1A), CORAL 2, OSPREY 2, LABOR 1. ⚠️ **CORAL (dark since 9/13) still holds two Florida ACTION items (`-0925-009`, `-014`).** Today's ACTION handoffs went to dark desks NEXUS/VULCAN/VIOLET (`-001`), LIQUID/BROCK (`-002`), FALCON/HENRY (`-007`).
+>
+> **DOORBELL_LOG today:** +7 rows, 0 doorbelled (no dated referent; all desks wrote STATUS within 3 days). The `-007` market-open leg was pointed to PROME (live), which ruled NO pre-open touch.
+>
+> **Unregistered dirs:** `CATO` (manual-only, WQ-255), `_archive` (not an agent).
+>
+
 ## 2026-09-27 Sun — `walter-42` **TIER-2 CLOSEOUT** (17:11Z from `date`, Will: "Lets close out here"). Booted 15:50Z on Will's terminal "please boot up". BOARD 1056 → 1063 (7 dispatches: -001 GATE-LIQ-069 CoreWeave with Will's WQ-301 block; -002 CCC/HY re-arm; -003 CREED-T-08a record; -004 Nano Banc failure; -005 + -006 CORRECTIONS of -004 (WAL lien link; $108M/retained/loss basis); -007 Iran 7-day Hormuz plan / Trump "not acceptable"). 4 packets consumed; Iran anchor diplomacy limb + verbatim rotation (ADD#27 lifted); 7 self-typed FUTURE timestamps re-stamped to commit times at closeout (doctor HIGH).
 
 > **Rotated VERBATIM from STATUS at the 9/27 Tier-2 (the 9/25 header, bottom line, live-observation table and network-awareness blocks):**

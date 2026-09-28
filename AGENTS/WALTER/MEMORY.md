@@ -82,16 +82,16 @@
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION — 2026-09-27 Sun, Full WALTER (Claude Opus 5.5, `walter-42`), Tier-2
+### CHANGES SINCE LAST SESSION — 2026-09-27/28 Sun→Mon, Full WALTER (Claude Opus 5.5, `walter-d5`), Tier-2; focus REGIONAL BANKS + CRE
 
-- **BOARD 1056 → 1063 (7 dispatches, 0 kills).** `-001` GATE-LIQ-069 (with Will's WQ-301 block) · `-002` CCC/HY re-arm · `-003` CREED-T-08a · `-004` Nano Banc failure, **corrected twice** (`-005` WAL liens, `-006` $108M/retained/loss basis) · `-007` Iran 7-day plan / Trump "not acceptable".
-- Iran anchor: diplomacy-limb re-verify + verbatim size rotation (ADD#27 lifted first). R3 queue opened (`research/2026-09-27_R3-watch-for-test-queue.md`, 5 sets).
-- **Self-caught errors:** the -004 WAL framing (#33); 7 future timestamps (#34). The previous session (9/25) is in `SESSION_LOG.md`.
+- **BOARD 1063 → 1064 (1 dispatch, 4 kills).** `-008` UBS/Semafor merger report → HANS (dark, not doorbelled). Will's 8-image batch BM-20260927-01 closed 8/8.
+- **`COR-20260927-07`:** `-0924-023` "declined to stay" was stronger than the sources (FLG's note, verified); additive banner, targets FLG/REGINALD/HOMER.
+- DEWEY Nano handoff processed (stubs verified). R3 queue +2 rows (FLG, DEWEY Nano). The previous session (9/27 `walter-42`) is in `SESSION_LOG.md`.
+- **No self-caught error this session; every stamp was taken from `date` in the committing command (#34 held).**
 
 ### NEXT SESSION
 1. `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS = the complete obligation list.
-2. **7e: the 9/26 lane worklist was NOT routed and NOT `--mark`ed.** Route/kill: Perm + Ukraine refinery strikes (OSPREY action, HENRY watch hit), UMich 51.7 (HENRY info), stale kills (Tlaib Jun, SVB review, CMBS Apr, Novorossiysk Jul, TrendForce Jun, layoffs settlement). The Iran/Yanbu items went in `-007`. HY 280 is covered by `-0925-011/-013`. Then `--mark`.
-3. **7f: TWO drop-zone items** — `BESSENT bond buying context.JPG` (triaged: the face-value debt-limit mechanism is sound; the statute image's $14.29T is stale; RED-FT-11 buyback lane → BOND) and a NEW `AI Agent bank run.jfif` (unread).
-4. **R3 queue due 10/02** (5 sets). **HY 9/25 print Mon 9/28** (FT-01 exit day 2?). **Stamp from `date` in the same command.**
-5. **6c: pull all six HANS rows** (done 9/27 via TE page descriptions — works with a browser UA; storage T-08 still unpulled). Compute the matched Nov 3:2:1 until BZX26 expires ~9/30.
-6. **9/30:** size checks (MEMORY / THRESHOLD_SCAN / routing files / anchor), Russia diesel-ban expiry, Brent Nov expiry. **Iran full sweep ~10/01.**
+2. **7e: the lane is still NOT `--mark`ed.** Route/kill: refinery strikes (Novoshakhtinsk, Ilsky → OSPREY action / HENRY), UMich 51.7 (HENRY info), FT "private credit withdrawals slow" + American Banker "capital rules deepen PC ties" (BROCK; REGINALD info on the capital rules), bank-noise kills (sofrep, Cardone, ACRE). Then `--mark`.
+3. **HY OAS 9/25 print lands Mon 9/28** — grade FT-01 exit day / X1 (`>280` STRICT + BROCK conjunct). **R3 queue (7 sets) due 10/02.**
+4. **7f: two drop-zone items are on the LAPTOP** (Bessent JPG; `AI Agent bank run.jfif`, unread).
+5. **9/29:** Plaza Continental hearing (FDIC as Nano receiver, first docket test) · rent-freeze screenshot production. **9/30:** size checks (MEMORY / THRESHOLD_SCAN / routing files / anchor), Brent Nov expiry. **Iran full sweep ~10/01.**
