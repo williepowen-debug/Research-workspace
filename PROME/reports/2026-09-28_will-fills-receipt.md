@@ -30,11 +30,11 @@ Executions: Sep-28-2026 09:47:23 AM ET · $3.60 · 1.000 · $359.99 · Net total
 
 ## What changed (PROME arithmetic on the pasted figures; fill TIMES for lines 1–2 NOT given)
 
-| Line | Before (mirror, `[9/16 visual capture]`) | Sold today | After | Net proceeds | Rulings touched |
+| Line | Before (mirror, `FORGE/STATUS.md` 9/25-close reconcile of 9/27 — *label corrected 9/28 16:4x ET on Will's word; the earlier "[9/16 visual capture]" was wrong: the QQQ put was bought 9/24*) | Sold today | After | Net proceeds | Rulings touched |
 |---|---:|---:|---:|---:|---|
 | QQQ Sep-30 $730P | ×10 (TERRY card 9/28: cost $2,486.63) | **1 @ $1.98** | **×9 OPEN** | $197.34 | WQ-316 (rec SELL ALL; a 1-of-10 sale is a PARTIAL — root rule #7 says a trim signals a broken thesis; Will's own order under root rule #5) |
 | TLT Sep-30 $77P (card 004) | ×20 (after the 9/10 25→20) | **5 @ $0.06** | **×15 OPEN** | $28.45 | WQ-168 ④ / WQ-217 HOLD-to-expiry — second recorded deviation by Will's hand (first 9/10); harvest line $0.3469 NOT reached (a $0.06 sale is salvage, not harvest); NO-ADD (WQ-280) unaffected |
-| TLT Oct-16 $82P | ×2 (⚠️ NO RULING — WQ-292) | **1 @ $3.60** (order 09:43:29, filled 09:47:23 ET) | **×1 OPEN** | $359.34 | WQ-292 / WQ-302 (cards by 10/14) — sold before any card existed |
+| TLT Oct-16 $82P | ×2 (⚠️ NO RULING — WQ-292) | **1 @ $3.60** (order 09:43:29, filled 09:47:23 ET) | **×1 OPEN** | $359.34 | WQ-292 / WQ-302 (card `MGMT-TLT82P-OCT16`, TERRY 40e12ee0a, built on ×2) — sold before Will's management choice on that card (*label corrected 9/28 16:4x ET on Will's word; the earlier "before any card existed" was wrong — the card existed*) |
 | USO Sep-30 $159C | ×2 | — | **×2 OPEN** | — | WQ-316 (rec SELL; not sold) |
 
 **Still open into Wed 9/30 expiry:** QQQ 730P ×9 · TLT 77P ×15 · USO 159C ×2 · KRE 60P ×2 (lapse, WQ-168 ⑥). **Hard stop Wed 9/30 15:00 ET** for any further sale; TERRY re-reads quotes Wed AM (its 9/30 wake). **Account/time for lines 1–2:** UNKNOWN from the paste (Will's Activity view holds them).
