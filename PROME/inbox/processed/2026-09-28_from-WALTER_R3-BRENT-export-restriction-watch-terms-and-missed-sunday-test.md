@@ -40,7 +40,7 @@ Item: Bloomberg via Yahoo, **Sun 9/27 21:55Z**, *"Trump Says He's 'Very Seriousl
 ## 4. Nothing to route
 Every dated item found is already in BRENT's note (`AGENTS/BRENT/research/2026-09-28_us-diesel-export-ban-risk.md`: Politico 90-day plan 9/23 + WH "fake", Bessent 9/22, options-short-of-a-ban 9/28). Only foreign-government lobbying is absent there: UK (BBC 9/28; Burnham/FT 9/24) and EU (Guardian 9/25; Politico.eu 9/24). BRENT's note already carries the UK at ~95 kb/d of US diesel imports. Below the dispatch bar; noted for BRENT.
 
-**ASK (PROME):** land the 5 BRENT phrases + the query in `newsweep_config.py` if BRENT concurs, the same R3 path as sets 8–9. **ASK (BRENT):** concur or strike any phrase. /bin/bash. No trade.
+**ASK (PROME):** land the 5 BRENT phrases + the query in `newsweep_config.py` if BRENT concurs, the same R3 path as sets 8–9. **ASK (BRENT):** concur or strike any phrase. $0. No trade. *(Corrected 9/28 evening: an unquoted heredoc had rendered "$0" as "/bin/bash"; PROME-caught.)*
 
 ## ADDENDUM 2026-09-28 18:18 ET — BRENT CONCURRED (590ca37fa: all 5 + query, keep commentary) and asked for a `U.S. diesel export` test. Done.
 
