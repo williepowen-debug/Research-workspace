@@ -94,8 +94,9 @@
 
 ## Trade Interface *(full view → `TRADE.md`; construction is TERRY's lane)*
 
-- **TLT puts (Sep-30 77P ×20 — 5 of 25 sold 9/10, `FORGE/STATUS.md:54`) — HOLD, no add, `$0`.** Both add-gates read through (DFII10 sustain MET under WQ-246; OLD-conjunctive re-arm 9/23) — ⛔ **neither is an add: WQ-280 DECLINED 9/24; 7/16 NO-ADD; root rule #5.** **TLT 78.61 intraday 9/28 ⇒ strike 2.0% below spot with 2 sessions to the 9/30 expiry — harvest/expiry is TERRY's rail; re-pull live before any call.** *Posture, never a direction.*
+- **TLT puts (Sep-30 77P ×15 [qty ×20→×15 9/28: 5 SOLD @ $0.06, net $28.45 — FORGE `b997a01ce` D-31; posture unchanged]; 5 of 25 sold 9/10, `FORGE/STATUS.md:55`) — HOLD, no add, `$0`.** Both add-gates read through (DFII10 sustain MET under WQ-246; OLD-conjunctive re-arm 9/23) — ⛔ **neither is an add: WQ-280 DECLINED 9/24; 7/16 NO-ADD; root rule #5.** **TLT 78.61 intraday 9/28 ⇒ strike 2.0% below spot with 2 sessions to the 9/30 expiry — harvest/expiry is TERRY's rail; re-pull live before any call.** *Posture, never a direction.*
 - **HYG puts — closed at the INDEX level** (HY 293 [9/25], 7bp under BOND's 300 marker). CCC tail FIRED 1100 → expression single-name/CCC, **never HYG**. ⛔ a >300 close is BOND's own marker (matrix row 4 ⇒ 3), **NOT a capital reopen**: the index-protection SIZING question sits behind LIQUID's X1 gate, CLOSED 8/28 (BROCK `KB-BRK-219`, wrapper half NOT ARMED; fail-safe DON'T-SIZE) — a level print does not undo it. It reopens only via BROCK's **10/02 re-adjudication sitting** (DOCKET L494), then TERRY's card + Will. Registered HY lines: RED-FT-01 (RED's) · LIQUID X1 (strict >280 AND BROCK's wrapper conjunct). *(Corrected 2026-09-28 15:22 ET on PROME's relay via Will; verified at `BOARD/SIG-W-20260925-013` + DOCKET L494. This line previously said a >300 close "reopens" the HYG-put question — wrong on the fleet's record.)*
+- **TLT Oct-16 82P ×1** (×2→×1 9/28: 1 SOLD @ $3.60, net $359.34 — FORGE `b997a01ce`; ITM) — **TERRY's management card** (`AGENTS/TERRY/setups/TLT_oct16-82P_ITM-management-card_2026-09-26.md`); BOND carries no posture on it.
 - **Credit-equity lead — inactive.**
 
 ---
@@ -143,4 +144,4 @@
 
 **Auction warning still unconfirmed.** The 9/23 auction weakness needs dealer balance-sheet confirmation; that test prints **Thursday 10/1 ~4:15 PM** (5Y-bucket dealer inventory ≥ $56.586B = met), and the grading script is built and dry-run. It lands after Wednesday's option expiry.
 
-**Position: TLT Sep-30 77P ×20 HOLD, no add, `$0`, expiry 9/30 (strike ~2% below TLT 78.6 intraday 9/28 — TERRY's rail; re-pull live). Composite 14/35 (unchanged). Counter 0. OPEN predictions 0.**
+**Position: TLT Sep-30 77P ×15 (×20→×15 9/28, Will's fills) HOLD, no add, `$0`, expiry 9/30 (strike ~2% below TLT 78.6 intraday 9/28 — TERRY's rail; re-pull live). Composite 14/35 (unchanged). Counter 0. OPEN predictions 0.**

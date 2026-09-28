@@ -3,7 +3,7 @@
 **Purpose:** ephemeral handoff. Read at boot, rewritten at closeout. Durable → `MEMORY.md`; evidence → `workbook/`. The previous SCRATCH text is in git history (`git show HEAD~1:AGENTS/BOND/SCRATCH.md`).
 
 > ## ⚠️ STATE AT WRITING
-> ⛔ **POSITION: TLT Sep-30 77P ×20 — HOLD to expiry, no add (WQ-280), `$0`.** Expiry Wed 9/30 (TERRY's rail).
+> ⛔ **POSITION: TLT Sep-30 77P ×15 (×20→×15 9/28: 5 sold @ $0.06, FORGE D-31) — HOLD to expiry, no add (WQ-280), `$0`.** Expiry Wed 9/30 (TERRY's rail).
 > Composite **14/35** (unchanged) · Counter **0** · OPEN predictions **0** (live file = header only).
 > **Official Treasury 9/28 (published by 16:19 ET): 30Y 5.56 · 10Y 5.24 · 2Y 4.92 · real 10Y 2.90** (`KB-BND-350`). FRED frontier still 9/25: HY 293 · CCC 1128 · DFII10 2.83 · DGS30 5.49.
 
@@ -45,6 +45,7 @@
 6. 🟠 **By 10/21:** register the 10/28 FOMC curve-shape prediction with a base rate (OPEN = 0).
 7. 🟠 **WQ-317 APPROVED (Will 17:16 ET 9/28, verified at WQ row + packet; DOCKET L532):** ONE page inside the 10/1 refresh, delivered **10/2**; HANS/SAM existing material only (if dark, use their committed surfaces + mark the gap); verdict IMPORTING/EXPORTING/SHARED/UNDETERMINED; no launches, no trade authority. **Consume packet `inbox/2026-09-28_from-PROME_WQ-317-cross-market-attribution-read.md` on 10/1** (left in inbox deliberately).
 7c. ✅ **WQ-327 v2 (18:13 ET, Will-directed via PROME 18:08):** `rates_context.py` BR1–BR4 + #5 fixed (CATO suite 4/12→12/12; selftest 53/53); **Dec 9 + Jan 27 FOMC docketed** (the first issuer-calendar check found Dec missing); calendar record `monitors/FOMC_CALENDAR.tsv` (re-record ≤90d, i.e. by **12/27**); HENRY info packet + PROME receipt (L533). ⚠️ The CATO qualification stands: FF strip vs ACM = different windows/horizons, no causal split.
+7f. 🟡 **HY pulled-deal source check DONE 19:03 ET** (`KB-BND-358`): no free complete source; rec = WALTER lane query (cheapest) + optional EDGAR launch→item-2.03 monitor; SIFMA sign-up / FINRA account / paid tracker = Will's word. **Awaiting Will.** · Positions corrected to TLT 77P ×15 / Oct-16 82P ×1 (FORGE `b997a01ce`, CATO BR5).
 7e. 🟡 **Rates-attribution lane:** `treasury-moves` query LANDED in RESEARCH-INTAKE `d5d8c9e` (agents BOND/HENRY). BOND's 5 WATCH_FOR phrases (term premium · real yields · basis trade · swap spreads · Treasury auction) are **NOT live yet**, pending WALTER's R3 test (0 false hits on history + 21d live) → WALTER packets PROME. Until then plain NEW hits aren't surfaced; BOND does not read raw lane items.
 7d. 🟠 **For the WQ-317 page (10/1–10/2):** carry WALTER -021 (`KB-BND-357`) as SHARED-branch evidence: wire-attributed oil/Iran + hike odds + a global US+EU sell-off, NOT causal; oil is not in breakevens.
 7a. 🟡 **Coverage-gap review (Will ask 9/28 evening) → `analysis/2026-09-28_coverage-gap-review.md`:** rec = wire (1) FF/SOFR strip + (2) ACM/KW + (3) VX-17 mortgage-spread watcher into boot_recompute; then swap spreads + CFTC TFF after a source check; HY pulled-deal paywall = Will's call. ✅ **1+2+3 DONE 17:38 ET (Will "go ahead"): `monitors/rates_context.py` in boot_recompute, `KB-BND-354`; selftest 14/14.** Source check done 18:04 ET (`analysis/2026-09-28_source-check_swap-spreads-CFTC.md`, `KB-BND-355`): **swap spreads BUILDABLE from DTCC public swap reports** (10Y −38 / 30Y −67bp [9/25]; build `monitors/swap_spreads.py` = next, awaiting Will); **CFTC = LIQUID's `cftc_tff_rates.py` already** (gap review item 5 corrected). HY paywall = Will's call.
@@ -64,7 +65,7 @@
   - **Never type a clock — `date` in the same command.**
 
 ## POSITION
-**TLT Sep-30 77P ×20 — HOLD to expiry, `$0`.** No add (WQ-280). Harvest/expiry = TERRY.
+**TLT Sep-30 77P ×15 (was ×20; 5 sold 9/28 @ $0.06) — HOLD to expiry, `$0`.** Also TLT Oct-16 82P ×1 (1 of 2 sold 9/28) = TERRY's card. No add (WQ-280). Harvest/expiry = TERRY.
 
 ## MAIL
 **In:** PROME doorbells ×2 (READS transcribed `8c7bf0614`; WQ-317 pending Will) · WALTER -005/-007/-009 (processed 16:2x). **Out:** PROME READS packet (processed) + SendMessage · WALTER correction packet (-007 issuance tie, 🟡, optional annotation).
