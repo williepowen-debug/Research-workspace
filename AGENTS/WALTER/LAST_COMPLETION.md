@@ -55,7 +55,7 @@ Boot run 0–9b (doctor 0 HIGH / 4 MED; reads whole; 6b RED sha == canon, HANS n
 
 ## FOLLOW-UP
 
-0b. 🆕 **Later on 9/28:** BRENT's Will-ask (export-restriction watch terms + the missed Sun 9/27 item) → R3 results in `PROME/inbox/2026-09-28_from-WALTER_R3-BRENT-export-restriction-watch-terms-and-missed-sunday-test.md` (5 ADOPT, 11 rejected; the lane would NOT have caught it) — **awaiting BRENT concurrence, then PROME lands** · BOND WQ-327 item 7 → `-021` (lane has no Treasury query; 9/28 wires named oil/Iran-rejection + Fed-hike odds 68%; query proposed to PROME) — **awaiting BOND's GAP decision**.
+0b. 🆕 **Later on 9/28:** BRENT's Will-ask (export-restriction watch terms + the missed Sun 9/27 item) → R3 results in `PROME/inbox/2026-09-28_from-WALTER_R3-BRENT-export-restriction-watch-terms-and-missed-sunday-test.md` (5 ADOPT, 11 rejected; the lane would NOT have caught it) — **awaiting BRENT concurrence, then PROME lands** · BOND WQ-327 item 7 → `-021` (lane has no Treasury query; 9/28 wires named oil/Iran-rejection + Fed-hike odds 68%; query proposed to PROME) — ✅ **BOND consumed (f52b39e28): KB-BND-353 GAP → WIRE-ATTRIBUTED, not causal (KB-BND-357; FedWatch shares BOND's own CBOT basis, oil not in breakevens 9/28); goes on the WQ-317 page as SHARED-branch evidence; BOND asked PROME for WATCH_FOR phrases (expect an R3 test request).** BRENT R3: BRENT concurred + `U.S. diesel export` tested ADOPT → 6-phrase list with PROME to land.
 0. 🆕 **WAL H8/H9** (Nano/Stupin hearing triggers) now live at dispatch; PROME CONCURRED 21:4xZ (msg, verified e8183ddaa). WATCH_FOR terms (`Plaza Continental`, `Chino Central Group`, `Alessandro Group`, `Cantor Group V`+avoidance, `Nano Banc`+relief from stay) join the R3 WAL Nano set. **9/29 Plaza Continental hearing: an ORDER authorizing a sale/relief = H8; a hearing alone is not.**
 1. **R3 sets 1–7 by Fri 10/02** (`research/2026-09-27_R3-watch-for-test-queue.md`): LIQUID re-test · CREED ~30 · CREED Nano block · WAL Nano · REGINALD claims-bar · FLG re-test (`--live "rent freeze court"`; check `TRO`) · DEWEY Nano (dedup vs 3–5). Method that worked today: lane + `--live` subject queries + `--synthetic` recall controls. The three R3 packets (LIQUID, PROME/CREED, FLG) stay in `inbox/` until done.
 2. ✅ **HENRY 30Y official Treasury 9/28 close = 5.56: CONFIRMS** the `-009` crossing → `-018` (HENRY action, rides PROME's Tue wake). **FALCON wake is PROME's call** (doorbell sent); `-019` Yanbu rides it.
@@ -79,7 +79,7 @@ Boot run 0–9b (doctor 0 HIGH / 4 MED; reads whole; 6b RED sha == canon, HANS n
 
 **Issued at the 9/28 Tier-1 before the closeout commit.** Publication state is verified after the push by `git merge-base --is-ancestor`; this block is re-issued in the same session if a commit is not on origin.
 - **9/28 handoffs: 43 written** (4+3+4+3+1+2+4+15+7). Delivered = committed AND on origin, reconciled by `reconcile_delivery_log.py` after push. Delivered is not consumed.
-- **58 of 60 9/28 handoffs are on origin** (the `-020` four went out on another session's push). **The 2 `-021` handoffs (BOND, HENRY) are committed locally; push deferred (BRENT dirty tree; a 22:2xZ fetch also failed: DNS).** The first 54 (45 from the afternoon + 9 from the evening re-boot, `e8183ddaa`; `reconcile_delivery_log.py --apply` after a fresh fetch). ✅ **Evening re-boot pushed `e8183ddaa` (safe-push CONFIRMED); the afternoon's deferred commits rode it.** *(Was: PUSH DEFERRED at the Tier-2 (step 9b(d)/16: BRENT live and consuming handoffs, uncommitted). The closeout commits are local; PROME's closeout push or the next clean-tree session carries them. The next WALTER boot verifies by subject.)*
+- **All 60 9/28 handoffs are on origin** (the `-020` and `-021` sets went out on other sessions' pushes, BOND f52b39e28 last; reconciled after a fresh fetch). The first 54 (45 from the afternoon + 9 from the evening re-boot, `e8183ddaa`; `reconcile_delivery_log.py --apply` after a fresh fetch). ✅ **Evening re-boot pushed `e8183ddaa` (safe-push CONFIRMED); the afternoon's deferred commits rode it.** *(Was: PUSH DEFERRED at the Tier-2 (step 9b(d)/16: BRENT live and consuming handoffs, uncommitted). The closeout commits are local; PROME's closeout push or the next clean-tree session carries them. The next WALTER boot verifies by subject.)*
 - ⚠️ **This receipt does NOT claim:** that any recipient consumed `-001`…`-005` (BRENT answered `-001` by message); that R3 sets 1–7 were started; that the CORAL/OTTO recall notes are adopted.
 
 <!-- CLOSEOUT_RECEIPT_JSON
@@ -96,7 +96,7 @@ Boot run 0–9b (doctor 0 HIGH / 4 MED; reads whole; 6b RED sha == canon, HANS n
   "delivery": {
     "signal_date": "20260928",
     "total": 60,
-    "delivered": 58
+    "delivered": 60
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
