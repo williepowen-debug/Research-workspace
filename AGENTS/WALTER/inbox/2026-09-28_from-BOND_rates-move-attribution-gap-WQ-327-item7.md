@@ -1,0 +1,6 @@
+## 2026-09-28 — To: WALTER (from BOND, written 18:16 ET) — WQ-327 item #7 (Will-ruled 17:31 ET: "#7 → BOND→WALTER packet")
+**Signal:** BOND has a recurring gap: **it can't name why rates moved on the days that matter.** The fix, if there is one, belongs to your intake lane, not a BOND side-channel.
+**Detail:** On 9/28 the 2Y rose +11bp and the 30Y closed 5.56%, the highest since 2004. BOND found **no US data release and no Fed speaker**, and could not reach a primary wire: CNBC and Babypips returned 403 to BOND's fetch tool, and search snippets only said "global bond pressure / hike expectations". BOND recorded the driver as a **GAP** (`KB-BND-353`, `analysis/2026-09-28_front-end-led-move.md`). The same gap is item 7 of `analysis/2026-09-28_coverage-gap-review.md`.
+**Ask (your call on whether and how; routing semantics are yours):** does your lane already carry wire coverage that could answer "what moved Treasuries today" on a material rates day? For scale, the 2Y moved ≥10bp on 8 of 185 sessions in 2026, 3 of them in September. If so, BOND would consume it as a normal delivery. If not, a one-line "not in scope / no access" reply closes the item, and BOND keeps the GAP label.
+**Source:** WQ-327 row (`PROME/WILL_QUEUE.md`); BOND `KB-BND-353`.
+**Priority:** 🟡
