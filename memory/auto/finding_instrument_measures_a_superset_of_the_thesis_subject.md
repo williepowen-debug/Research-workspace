@@ -1,7 +1,7 @@
 ---
 name: finding_instrument_measures_a_superset_of_the_thesis_subject
 description: "A kill/threshold whose named instrument measures a SUPERSET of the thing the thesis is about passes every structural audit — the series is real, the count is real, the anchor is real — and fires on movement in the part you never cared about. Only a composition pull sees it."
-symptoms: "kill leg looks gradeable but fires on the wrong thing; total-vs-component; the metric moved but not the part my thesis is about; falsifier nearly fired and I could not say why it felt wrong; aggregate improved while the component was flat; mix shift read as a trend"
+symptoms: "kill leg looks gradeable but fires on the wrong thing; total-vs-component; the metric moved but not the part my thesis is about; falsifier nearly fired and I could not say why it felt wrong; aggregate improved while the component was flat; mix shift read as a trend; converted a retail/pump forecast into a futures-crack move; multiplied by 42 and got a breach date; a sell-side scenario number applied to our threshold"
 metadata:
   type: feedback
 ---
@@ -68,3 +68,18 @@ BOND STATUS carried *"Sept HIKE ~65–68% priced"* — bracketing the **by-Octob
 - **The contrast case in the same session shows what this defect is NOT.** A separately relayed figure — *"Fed 50bp CUT, CME ~74.5% for September"* — sat `KL = 6.619 bits` from the instrument, **~108× further**, with the sign inverted (both venues priced any-cut at ≤1%). **A superset mislabel is a small-KL error that survives review precisely because it is nearly right; a transcription/direction error is a large-KL error that anyone checking would catch.** Ranking the two in bits is what separated "wrong contract, right story" from "not this universe" — and they need opposite remedies: relabel vs re-verify at source.
 
 > ★ **Extension to the rule: when the instrument is a by-date or cumulative contract, read the PREPOSITION before the number.** "by" ⇒ superset over time ⇒ biased high. State the horizon in the same breath as the figure — *"52.5% at the September meeting"*, never a bare *"52.5% Fed hike"* — because a bare figure has no horizon attached and the next reader will supply the wrong one.
+
+
+**Instance (BRENT, 2026-09-28, n+3): the superset is a PRICE STACK, and the error was in TRANSFERRING a delta from the whole to one layer.**
+
+Goldman's diesel-export-ban scenario gave **US RETAIL** moves: diesel −25¢/gal per week, then gasoline +30¢/gal per week. I multiplied by 42 (≈ −$10.50 / +$12.60 per bbl per week), read the results as **FUTURES-CRACK** moves (NYMEX HO/RB × 42 − WTI, a named month), and published **breach dates** against three registered lines: "F1's $1.23 cushion gone ~8× in a week", "HEN-46 inside one week", "boundary #6 ≥$50 ~1 week into stage 2". The dates went into a research note, two packets, STATUS and NEXUS.
+- **Retail = crude + refining margin + distribution/retail margin + taxes.** The crack is ONE layer of that stack, net of crude, at one hub (NY Harbor) and one contract month.
+- A retail Δ says nothing about the crack Δ until you state pass-through and what crude does. Counterexample: a 25¢ retail fall with an equal crude fall leaves the crack flat.
+- **Every check I ran passed.** ×42 is the correct unit conversion, the source was real and attributed, and I even tagged it "scenario, not base case". **The noun mismatch was the whole defect:** the source said *retail*; my cell said *crack*.
+- **Caught by a cross-reader** (CATO MR19, relayed via PROME) ~30 minutes after writing. By then WALTER had consumed the answer and put the withdrawn "#6 could fire ~3–6 weeks after a ban" in a BOARD headline (SIG-W-20260928-016) routed to three desks. **Propagation beat review.** The fix cost four corrections: the note, two packets, and an ask to WALTER to correct -016.
+- **Error direction:** it made the gates look MORE fragile, i.e. it biased toward alarm and exit on a live position (VLO). The loud direction here, but it would have pushed a trade decision had anyone graded from it.
+
+> ★ **Extension to the rule: a SOURCE's forecast is an instrument too. Before converting any external number into a move on one of our lines, name the instrument the SOURCE's number is on (retail / wholesale / futures; hub; month; level vs spread) and compare it to the instrument the LINE is on.** If they differ, the transfer needs a stated pass-through and a stated path for every other layer of the stack. Otherwise publish direction only, or IF-THEN sensitivities with the assumptions as the claim. **Never a date.** A unit conversion is not an instrument conversion.
+
+Related: `[[finding_level_and_rate_look_like_agreement_until_you_name_which]]` (name the unit) · `[[finding_a_spread_needs_a_basis_neutral_to_what_its_legs_do_not_share]]` (a crack is a spread; one leg's move is not the spread's) · `[[finding_exact_level_authenticates_a_wrong_direction]]` (a precise "$10.50/bbl" authenticated a claim it never measured).
+
