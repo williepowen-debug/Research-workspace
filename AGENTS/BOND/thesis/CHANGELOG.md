@@ -4,6 +4,15 @@ Version history for `thesis/THESIS.md`. Newest first. Bump rules: **major (X.0)*
 
 ---
 
+## v1.2.9 — 2026-09-28 (**two Will rulings encoded; `BND-27` FALSE — credit joins the rates sell-off**)
+
+**Old view → new view:** the DFII10 add-gate's "sustained" had no count (unfireable as written) and the Sept-4 kill's dealer leg named no FR2004 bucket for a 5Y fire. **Both now ruled (Will 2026-09-26 15:54 ET, encoded 9/28 — ~43h late, BOND dark):** sustained = 5 consecutive published H.15 closes ≥2.50 (reset on any close below; no back-scoring; NO-ADD unchanged); 5Y dealer leg = FR2004 3–6Y, trade-date window, MET iff Δ ≥ +$8.6B, with riders — net inventory is not proof of warehousing, the funding window stays UNGRADED, and the rule makes no predictive claim (`KB-BND-342`).
+**Credit:** `BND-27` (65%, CCC stays <1100 through 9/30) **FALSE** — CCC 1112 [9/24], 1128 [9/25]; the HY index, which the registration called inert, went 268 → 293 in three sessions (~97th-pct velocity). The tail-only dispersion read of 9/14 is now a tail **plus** index move; the index is still 7bp under the 300 line (`KB-BND-341`).
+**Rates:** official 30Y 5.49 [9/25] = third straight fresh 2026 high; 9/28 intraday the sell-off is global (US/UK/Canada/Australia +5–7bp, core euro/Japan +1–4bp) (`KB-BND-340`). No score change on row 1 (its ⇒5 letter is a long-end auction composition failure; next tests 10/7–10/8).
+**What would change the view:** HY >300 with this velocity ⇒ matrix row 4 letter; the 10/1 FR2004 3–6Y print ≥ $56.586B ⇒ the kill's dealer leg (a recommendation, not an exit).
+
+---
+
 ## v1.2.8 — 2026-09-24 (**first live-graded OLD-conjunctive composition failure (9/23 5Y) — add re-arm met, kill NOT fired; `BND-26` FALSE withdraws the "hawkish path fully paid" half of `KB-BND-283`**)
 
 **Old view → new view:** v1.2.7 held that the priced path was a market view (right) and — from the 9/14 read — that a hawkish SEP had *little room to surprise* because ~115–130bp was already paid for (a 4.75–4.95 terminal). **`BND-26` (70%) resolved FALSE: the 1y1y printed 5.03 on the FOMC session itself and 5.08 [9/18], a new high of the 2023-forward sample.** ⇒ **The hawkish half of `KB-BND-283` §4 is WITHDRAWN, not re-banded; the 4.75–4.95 terminal band is retired for downstream reuse until re-derived.** The "market view, not guidance view" reading survives and is strengthened — the curve moved AWAY from a lower SEP median. `BND-25` (55%) TRUE: the FOMC session was belly-led (2Y +7bp), consistent with a terminal/path repricing — but in the hawkish direction.
