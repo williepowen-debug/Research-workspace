@@ -1,3 +1,5 @@
+FROZEN 2026-07-12 — not maintained; STATUS is canonical, do not cite rows as current. (Pre-split historical per FILES.md; banner added 2026-09-28.)
+
 # HAWK — Thesis Deck Evidence Assembly
 **Filed:** 2026-03-13 | **Audience:** Finance-literate, not deep-macro
 **Purpose:** Ranked evidence for shareable slide deck defending portfolio thesis

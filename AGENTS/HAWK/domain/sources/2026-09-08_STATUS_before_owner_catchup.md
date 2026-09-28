@@ -1,3 +1,5 @@
+SUPERSEDED 2026-09-08 — historical snapshot; STATUS is canonical, do not cite rows as current. (Banner added 2026-09-28; content verbatim.)
+
 # Historical snapshot — superseded by September 8 owner closeout
 
 # HAWK STATUS
