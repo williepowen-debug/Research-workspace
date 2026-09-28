@@ -1,0 +1,14 @@
+# STATUS / ROADMAP rotation 2026-09-27 (closeout) — VERBATIM, contiguous per block; crc32 of each block's exact bytes (UTF-8) given in its header. Recompute before trusting.
+
+## BLOCK S1 (STATUS 9/26 headline) — from `STATUS.md`, 1040 B, crc32 `f2bcb456`
+
+<<<BEGIN-VERBATIM
+**🔴 9/26 SAT — CATCH-UP THROUGH FRI 9/25. ★ CCC/HY ESCALATION RE-ARM `VX-REG-18.04-ESC` MET ON THE 9/24 CLOSE** (CCC ≥1050 AND HY ≥272 on 2 consecutive closes: 9/23 1,093/273 · 9/24 1,112/280, FRED) → escalation packet to LIQUID/BROCK via WALTER, CCC level first. **For the first time this run, B (+15bp) and BB (+8bp) widened WITH CCC (+37bp) over two sessions**; that is the migration tell starting, not established (B 286 still under its 2026 mean). WAL **$77.61 [9/25]** → `REG-T-02` exit run `0-of-3`, FIRED, 18 rows · KRE **$71.55 [9/25]**, two up days off the 70.38 low · FLG **$12.37** YELLOW, ORANGE $12.10 is 2.2% away · 10Y **5.18%** [9/24 DGS10, 9/25 ^TNX] · 30Y **5.47%** [9/24] · HY **280** [9/24] · claims **197K** [w/e 9/19]. Corrections applied: the 9/23 rate jump was REAL-yield-led with a weak 5Y auction; **Gov. Barr as a cause is UNVERIFIED and dropped** (WALTER -009/BOND). The Brent cell was basis-mixed and is now on named contracts. Prior headline → `archive/STATUS_rotation_2026-09-26.md`.
+END-VERBATIM>>>
+
+## BLOCK R1 (ROADMAP 9/14 + 9/02 stamps) — from `ROADMAP.md`, 1589 B, crc32 `cb6c187f`
+
+<<<BEGIN-VERBATIM
+**Updated:** **2026-09-14 (Mon — catch-up session: boot → both inbox lanes drained 13/13 → `REG-T-02` exit graded for the 9/11 close (NOT QUALIFYING, `0-of-3`, state FIRED) → THREE threshold rows upgraded to 🔴 (Brent / 10Y / 30Y) → §THESIS Stagflation Trap 🟠→🔴 both-legs-standing (`thesis/CHANGELOG.md` entry) → **`VX-REG-18.04` benign read INVERTED and deliberately NOT escalated** (re-arm one leg short) → RED's 3 flip conditions answered → STATUS taken back under the read-cap CAP in-session by two crc-stamped rotations. ⚠️ **9/14 close left UNGRADED on purpose — bar still in progress; it is next session's first action.** No Will-gated item is blocked; one DECISION sits with Will (the CCC/HY stand-down premise).)**
+**Updated:** **2026-09-02 (Wed — boot → both inbox lanes drained 2/2 → READ-CAP P1 REMEDIATED (3 boot-reads over the 54,250 B cap → **0**; two cold splits + 9 crc-stamped rotations + 4 de-duplications) → `GATE-TERRY-ROLL70` FILLED 14:21 → `REG-T-02` EXIT GRADED at the settled close: **NOT QUALIFYING, run 0-of-3, state stays FIRED** (WAL $79.12, +3.51% short of leg 1). New append-only `registry/REG_T02_EXIT_LOG.tsv` so the run count is counted, not remembered. WQ-143 (B) ruled+filled — no Will-gated item pending.)** *Prior stamps 8/28 and earlier (15,814 B) ROTATED VERBATIM 2026-09-02 → `archive/ROADMAP_rotation_2026-09-02.md` BLOCK A, crc32 `680278e7` (read-cap P1). **Re-check this file's size at any append, or on 2026-10-02, whichever is first** — `python3 scripts/read_cap_check.py --agent REGINALD`.*
+END-VERBATIM>>>
