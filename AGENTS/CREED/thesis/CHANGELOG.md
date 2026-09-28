@@ -6,6 +6,9 @@
 2. **Independent roots unchanged at ~4–5** — the fire confirms the maturity/coupon root, it does not add one. **S3 still 2: still PRE-BANK-TRANSMISSION.**
 3. **Predictions (WQ-304 option B):** `PRED-004` HIT (60%, Brier 0.16), `PRED-007` MISS (15%, Brier 0.7225), graded on CREED's own ledger; mean Brier **0.30625 → 0.37375** (n=4). ⚠️ **The Kernel ledger keeps both OPEN until a Gate C sitting settles them** — a stated divergence.
 
+4. **New S6 comp (`KB-CREED-046`):** 3000 Post Oak (Houston, vacant 1979 office): CMBS REO sale 9/28 — trusts netted $11.4M on an $80M senior (~86% implied loss before advances; 45% of an Oct-25 appraisal), Trepp Rundown 9/28, `KB-CREED-046`; an obsolescence-tail comp, S6 not moved; a SECONDARY $64.8M loss figure is unreconciled. **MF build-year split** (Trepp: pre-1980 DQ 14.55% vs <26y 1.44%) routed to HOMER via WALTER — HOMER-owned; build year ≠ loan vintage.
+5. **Wording narrowed, no score moved:** "no bank-held-loan clearing price" → *no clearing price on file matches the stressed banks' pools* (Will 9/27 via PROME); Nano "≤56% ceiling" → *≈51–56% zero-adjustment scenario, not a bound* (CATO NB1).
+
 **⚠️ What did NOT change:** no band/op/sustain/trigger; base case unchanged; no capital path.
 
 ## 2026-09-26 · **SECOND TRIGGER FIRE.** `CREED-T-08a` (S8a) FIRED — a RATE fire; composite HELD at 25/45 pending Will
