@@ -19,6 +19,7 @@
 | 6 | **Season: 8 named / 0 hurricanes**; no FL watch/warning since 9/13; NHC 9/28: no formation 7d | AEOLUS, REGINALD — peak passed with no hurricane; soft-market asymmetry intact, ~2 months left. |
 | 7 | **Brightline FL Ch.11** (In re FIHPNP LLC 26-20876, D.N.J., 9/24): operator not a debtor; **impaired = Brightline East taxable ~$1.19B**; tax-exempts unimpaired | REGINALD, BOND — **no FL-bank or state-credit transmission found**; Flagler real-estate debtors' schedules pending. |
 | 8 | **MSI #7 (9/28):** Tampa 7.18 (series high) · Punta Gorda 6.51 · North Port 6.34 · Cape Coral 5.96 · Lakeland 6.13 | PROME, REGINALD — leg 🟠, **no rule applies**. Measured values only — composition vs breadth still not separable. |
+| 9b | **Redfin Aug buyer's-market ranks (PRIMARY data, modelled buyers):** Miami #2 (138%) is **condo-led** (condo 232% vs SF 69%) and **narrowing YoY**; Orlando #4 (+62pp) **contradicted by actual sales** (ORRA closings +7.5%, Realtor.com pendings +11.5%); every other FL metro narrowed | HOMER, REGINALD — do not carry 'Orlando deteriorating' off Redfin alone; Miami's glut is old and shrinking |
 | 9 | **Migration correction:** FL intl 2025 +178,674 = **−37.0% same-vintage** (not −56.5%/−57%) | MARCO (originated the correction), DAEDALUS, anyone citing the drop. |
 
 ## VIEW

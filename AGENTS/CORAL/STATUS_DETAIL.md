@@ -487,3 +487,47 @@ In re **FIHPNP LLC, No. 26-20876 (MEH), Bankr. D.N.J.** (Judge Hall), filed 9/24
 | English-learner FTE | **−22,084 YoY** (~33% of district drop); private-school enrollment +1.5% | EEC 8/2026 |
 | Kindergarten | −11,337 (−5.9%); K cohort births (2020/21) 7–9% below the 2008 graduating cohort | FLDOE; FL DOH |
 ⛔ District counts vs FLDOE Survey 2 disagree for the same year (Broward −10,834 vs −7,289; Lee −2,315 vs −1,167; Manatee +300 vs −324) — cite each on its own basis, never difference across. **Inference audit:** rival mechanisms (scholarship substitution, cohort size, international arrivals) all move the count the same way as domestic out-migration and are the ones the state and districts name ⇒ **not evidence of domestic out-migration; consistent with the Census intl −37%.** Pillar 7 unchanged. Next same-basis read: FLDOE Survey 2 (Oct-26).
+
+---
+
+# 2026-09-28 READ-FIRST table — ROTATED out of `STATUS.md` 2026-09-28 (evening, read-cap)
+
+**Verbatim; receipt 3118 B · crc32 `fc809d76`.**
+
+## 9/28 (Mon) — WHAT CHANGED WHILE THE DESK WAS DARK — READ FIRST
+
+| # | Item | Level (dated, tiered) | So what |
+|---|---|---|---|
+| 1 | **MSI reading #7** | **2026-09-28**, stamp `Updated: 9/28/2026` ×5: Tampa **7.18** (series high) · Punta Gorda 6.51 · North Port 6.34 · **Cape Coral 5.96** · Lakeland 6.13 ⇒ **4-of-5 > 6.00** | ⛔ **No rule applies** — the 8/23 letter has no re-fire condition. Leg stays 🟠. Re-fire + level-guard proposal delivered to PROME for Will (WQ-241). |
+| 2 | **Parcl listings recoverable** | `__NEXT_DATA__ seo.totalCount` / `nCutting`: Tampa **26,894** listings, **51.7%** cutting (≈ 8/23's 26,801 / 51%) | OQ L route found. ⚠️ **The 9/13 "no backing field" finding may be a keyed-search artifact** (searched for `*listing*` keys) — unresolved, do NOT say "restored". |
+| 3 | **FL Realtors Aug** (PRIMARY, pub 9/16) | Condo median **$298K +2.8%** · sales **−1.8%** · orig-list **93.3% vs 91.8%** · contract **69d vs 72d** · months **7.7**; SF $415K +1.2%, 4.3 mo, pendings −2.8% | **Counter-evidence to statewide distress.** Months-supply is on a trailing-12 denominator — the tick is not demand. ⚠️ CORAL undercounted the streak: it is the **7th** straight decline, not 5th. |
+| 4 | **Citizens 8/31** (PRIMARY) | **266,231 (−11,965, −4.3%)**; personal −11,816 of which **8/18 takeout round 11,723** ⇒ ex-round ≈ **−93**; commercial **−149** (no Aug round ⇒ real attrition); exposure **$74.8B** | Takeout engine working; **organic personal depopulation still stalled**. 9/15 round 10,210 more; snapshot 255,099 @9/18 (different series). |
+| 5 | **Amendment 3** | Frank SJ order **8/3**: title/summary "clearly and conclusively defective"; AG rewrite 8/13; **no appeal**; **Ballot No. 3**. St. Pete Polls 9/15–17: **45 yes / 30 no / 25 undecided** (needs 60%) | ML-CORAL-042 **Branch A graded as written ⇒ "leaning FAIL"**. ⚠️ Branch A's *mechanism* (rewrite injects fiscal language) is **unconfirmed** — Sachs ~8/18 had the new wording at 65%. |
+| 6 | **Bankruptcy** (AOUSC F-2 PRIMARY, 12 mo to 6/30/26) | M.D.+S.D. **217.1/100k, +21.2% YoY**; FL/US **1.205× → 1.231×**; S.D. alone 230.0 | Instrument built. Criterion 5 **NOT MET on every basis** — the basis question moves the tripwire date, not the direction. |
+| 7 | **NFIP** | **Extended to 2026-12-11** (H.R. 6500, signed 9/2, P1) | No 9/30 cliff. **FIGA 1% still ends 9/30**; no new FL insurer failure Aug–Sep. |
+| 8 | **Season** | **8 named / 0 hurricanes**; no FL watch/warning since 9/13; NHC 9/28 2PM: no formation 7d | Soft-market asymmetry intact; ~2 months left. |
+| 9 | **Brightline FL Ch.11** (9/24, D.N.J. 26-20876) | Operator **not** a debtor; impaired = **Brightline East taxable ~$1.19B**; tax-exempt series unimpaired (senior accepts interest deferral) | **No FL bank or state-credit transmission found.** Watch: Flagler real-estate debtors' schedules (station-area parcels). ⚪ info. |
+| 10 | **Miami-Dade Aug** (MIAMI REALTORS) | sales **−1.1% YoY** (the "−47%" is vs Aug-2021); condo 12.1 mo; Broward 9.9; PB 6.7 | Not a new break. |
+
+
+## J. Redfin buyers-vs-sellers, August 2026 (SIG-W-20260928-014, Will's Telegram via WALTER; KB ML-CORAL-091)
+**Instrument (PRIMARY, Redfin data center `top_50_metros.csv`, last updated 2026-09-03; FL extract at `sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv`):** sellers = MLS active listings; **buyers = MODELLED** (seller/buyer hazard ratio from pending sales + Redfin tour-to-close search time), seasonally adjusted. Redfin uses metro DIVISIONS: "Miami" = Miami-Dade; Fort Lauderdale all-residential suppressed ("insufficient data").
+
+| Metro · type | Aug-24 | Aug-25 | **Aug-26** | YoY pp |
+|---|---:|---:|---:|---:|
+| **Miami · all** | 140.6% | 151.7% | **138.3%** (18,916 sellers / 7,939 buyers) | **−13.5** |
+| Miami · condo/co-op | 235.4% | 259.0% | **231.8%** (10,214 / 3,078) | −27.2 |
+| Miami · single-family | 76.5% | 82.4% | **69.0%** (6,298 / 3,728) | −13.5 |
+| Miami · townhouse | 74.4% | 104.4% | 102.3% | −2.1 |
+| **Orlando · all** | 64.7% | 59.7% | **121.5%** (19,868 / 8,968) | **+61.9** |
+| Orlando · condo / SF / TH | 189.7 / 50.4 / 70.1 | 178.6 / 42.9 / 83.7 | **270.1 / 101.4 / 158.4** | +91.5 / +58.4 / +74.7 |
+| Tampa · all (condo) | 99.6% | 94.6% | **86.4%** (172.1%) | −8.2 |
+| Jacksonville · all (condo) | 88.2% | 109.2% | **66.9%** (142.8%) | −42.3 |
+| West Palm Beach · all (condo) | 111.3% | 121.7% | **64.9%** (117.4%) | −56.8 |
+| Fort Lauderdale · condo / SF | 206.2 / 71.0 | 243.8 / 92.1 | **166.6 / 41.2** | −77.1 / −50.8 |
+
+**(1) Is Miami condo-led? YES.** Condos are 54% of Miami's sellers but 39% of its modelled buyers; the condo gap (232%) is 3.4× the single-family gap (69%). Independent same-month corroboration: MIAMI REALTORS Aug condo 12.1 months supply vs SF 4.9; Realtor.com Miami–FLL–WPB MSA active listings **−15.0% YoY**, pendings **+5.0%**; Parcl Miami MSI 4.79 ("stubborn" — sellers not cutting). ⇒ **A large, old, condo-concentrated overhang with sellers holding price, SHRINKING year over year** (Miami has sat at ~140–150% since at least Aug-24). "#2 nationally" is a LEVEL rank, not a new break.
+**(2) Orlando: the headline deterioration is NOT corroborated.** Redfin's jump is driven by modelled buyers **−25% YoY** (12,014 → 8,968) with sellers +3.6%. Two measures of ACTUAL activity say the opposite: **ORRA (Orange+Seminole) Aug closings 2,478 vs 2,306 (+7.5% YoY), inventory 12,144 vs 13,306 (−8.7%)**; **Realtor.com Orlando–Kissimmee–Sanford MSA (Redfin's own perimeter) active listings −2.5% YoY, pending listings +11.5%**. ⇒ Treated as a probable modelled-buyer artefact until a volume measure confirms it. ⚠️ ORRA's Aug-25 median conflicts across its own pages ($403,222 vs $382,950) — median not used. Parcl Orlando MSI 6.21 (>6) is the one instrument pointing the same way as Redfin.
+**(3) Statewide pattern:** every FL metro is a "buyer's market" on Redfin's ≥10% definition, the **condo gap exceeds the single-family gap in every FL metro** (117–270% vs 35–101%), and **every FL metro except Orlando narrowed YoY.**
+**(4) Divergence logged for the MSI gate (not interpreted):** Tampa's Parcl MSI printed a series high 7.18 (9/28) while Redfin's Tampa gap narrowed (94.6 → 86.4) and Realtor.com Tampa listings fell 6.4% with price-reduced share down 2.0pp. Seller-motivation index up; listings-vs-demand improving.
+**Inference audit:** the gap is a listings-to-modelled-demand ratio (a months-supply cousin), so it inherits the four-leg rule — here VOLUME was the discriminator, and on Orlando it cut against the headline. **Read: no colour moves; condo remains where FL excess supply sits; the trend outside Orlando is easing; bank rail untouched.**

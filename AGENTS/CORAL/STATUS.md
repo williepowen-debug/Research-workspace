@@ -7,20 +7,9 @@
 
 ---
 
-## 9/28 (Mon) — WHAT CHANGED WHILE THE DESK WAS DARK — READ FIRST
+## 9/28 (Mon) — READ FIRST: the catch-up table is ROTATED → `STATUS_DETAIL.md` § "2026-09-28 READ-FIRST table — ROTATED" (verbatim, crc `fc809d76`)
 
-| # | Item | Level (dated, tiered) | So what |
-|---|---|---|---|
-| 1 | **MSI reading #7** | **2026-09-28**, stamp `Updated: 9/28/2026` ×5: Tampa **7.18** (series high) · Punta Gorda 6.51 · North Port 6.34 · **Cape Coral 5.96** · Lakeland 6.13 ⇒ **4-of-5 > 6.00** | ⛔ **No rule applies** — the 8/23 letter has no re-fire condition. Leg stays 🟠. Re-fire + level-guard proposal delivered to PROME for Will (WQ-241). |
-| 2 | **Parcl listings recoverable** | `__NEXT_DATA__ seo.totalCount` / `nCutting`: Tampa **26,894** listings, **51.7%** cutting (≈ 8/23's 26,801 / 51%) | OQ L route found. ⚠️ **The 9/13 "no backing field" finding may be a keyed-search artifact** (searched for `*listing*` keys) — unresolved, do NOT say "restored". |
-| 3 | **FL Realtors Aug** (PRIMARY, pub 9/16) | Condo median **$298K +2.8%** · sales **−1.8%** · orig-list **93.3% vs 91.8%** · contract **69d vs 72d** · months **7.7**; SF $415K +1.2%, 4.3 mo, pendings −2.8% | **Counter-evidence to statewide distress.** Months-supply is on a trailing-12 denominator — the tick is not demand. ⚠️ CORAL undercounted the streak: it is the **7th** straight decline, not 5th. |
-| 4 | **Citizens 8/31** (PRIMARY) | **266,231 (−11,965, −4.3%)**; personal −11,816 of which **8/18 takeout round 11,723** ⇒ ex-round ≈ **−93**; commercial **−149** (no Aug round ⇒ real attrition); exposure **$74.8B** | Takeout engine working; **organic personal depopulation still stalled**. 9/15 round 10,210 more; snapshot 255,099 @9/18 (different series). |
-| 5 | **Amendment 3** | Frank SJ order **8/3**: title/summary "clearly and conclusively defective"; AG rewrite 8/13; **no appeal**; **Ballot No. 3**. St. Pete Polls 9/15–17: **45 yes / 30 no / 25 undecided** (needs 60%) | ML-CORAL-042 **Branch A graded as written ⇒ "leaning FAIL"**. ⚠️ Branch A's *mechanism* (rewrite injects fiscal language) is **unconfirmed** — Sachs ~8/18 had the new wording at 65%. |
-| 6 | **Bankruptcy** (AOUSC F-2 PRIMARY, 12 mo to 6/30/26) | M.D.+S.D. **217.1/100k, +21.2% YoY**; FL/US **1.205× → 1.231×**; S.D. alone 230.0 | Instrument built. Criterion 5 **NOT MET on every basis** — the basis question moves the tripwire date, not the direction. |
-| 7 | **NFIP** | **Extended to 2026-12-11** (H.R. 6500, signed 9/2, P1) | No 9/30 cliff. **FIGA 1% still ends 9/30**; no new FL insurer failure Aug–Sep. |
-| 8 | **Season** | **8 named / 0 hurricanes**; no FL watch/warning since 9/13; NHC 9/28 2PM: no formation 7d | Soft-market asymmetry intact; ~2 months left. |
-| 9 | **Brightline FL Ch.11** (9/24, D.N.J. 26-20876) | Operator **not** a debtor; impaired = **Brightline East taxable ~$1.19B**; tax-exempt series unimpaired (senior accepts interest deferral) | **No FL bank or state-credit transmission found.** Watch: Flagler real-estate debtors' schedules (station-area parcels). ⚪ info. |
-| 10 | **Miami-Dade Aug** (MIAMI REALTORS) | sales **−1.1% YoY** (the "−47%" is vs Aug-2021); condo 12.1 mo; Broward 9.9; PB 6.7 | Not a new break. |
+**One-line state:** Aug statewide condo market firmed (counter-evidence) · Citizens drop = takeout round · Amendment 3 on ballot, Branch A "leaning FAIL" · bankruptcy +21% YoY, 1.23× US (level trigger retired, WQ-322) · NFIP to 12/11 · 8 named / 0 hurricanes · MSI #7 4-of-5 in the policy buffer (amended letter, WQ-241) · enrollment now tracked (VX-CORAL-ENRL-01) · **Redfin: Miami's buyer's-market gap is condo-led and NARROWING; Orlando's jump is NOT corroborated by actual sales (ML-CORAL-091).**
 
 ## THESIS RAILS — "The Coral Bleaching"
 
@@ -41,6 +30,7 @@ Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo st
 | SF median (**mix**) | **$415K, +1.2% YoY (Aug)**; 4.3 mo; new pendings **−2.8%** (12-mo run ended) | 🟡 |
 | Condo inventory (statewide) | **7.7 mo (Aug)** — 7th straight decline; ⚠️ trailing-12 sales denominator | 🟡 |
 | Condo inventory (metro) | Miami-Dade **12.1 mo** · Broward **9.9** · Palm Beach **6.7** (Aug, MIAMI REALTORS) — ⚠️ PB's prior 8.2 (Apr) basis unverified, no trend asserted | 🟠 |
+| **Redfin sellers-vs-buyers (Aug, modelled buyers)** | Miami (Miami-Dade) **138% — #2 US but NARROWING** (152% Aug-25); **condo 232% vs single-family 69%** ⇒ condo-led. Orlando **122% (+62pp YoY)** — ⚠️ **NOT corroborated**: actual closings +7.5% (ORRA), Realtor.com pendings +11.5%. All other FL metros narrowing YoY | 🟠 |
 | SE-FL vintage (30+yr) pending $/sf | **$313, −9%** — ⚠️ STALE since 7/13 | 🟠 |
 | Special assessments | **$25K–$100K/unit typical, to $400K**; SIRS tail ≤12/31/26, funding-pause ≤12/31/28 | 🔴 |
 | GSE warrantability | **PRIMARY-TIER.** Full Review live 8/3; binding FL constraint = pass/fail inspection + **>$50K/unit master deductible**. First honest read ~Oct–Nov | 🟠 |
