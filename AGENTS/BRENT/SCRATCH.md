@@ -18,7 +18,7 @@
 - **Registered line missed for 11 days:** the physical $120 line crossed 9/14–9/17. The desk saw $130.80 on 9/16 and filed it as a mirror figure. A NEAR THRESHOLDS/BREACH row on the boot board is not a recorded crossing unless someone writes it.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **COT instrument probe says the newest datapoint is 9/06**, but vintage #7 (as-of 9/22) was graded at the raw file. Find out why the probe reads older (the Socrata lag class?) before the 10/2 grade.
+1. ✅ **DONE 9/28 ~15:4x:** the COT probe "stale 9/06" was a false alarm. The `http:` probe carries no date, so the check fell back to the row's hand stamp (`last_verified` 2026-09-06) and printed it as a datapoint. Fixed: a new `cftc:` probe reads the report date live (now 2026-09-22, 6d, within the 10d budget). The fallback message now names the hand stamp. Falsified with stale, fresh, disagreeing-date, missing-market and duplicate cases; 66 tests pass; the boot Instrument Check is FINDINGS → WARNINGS. Still open: `last_verified` on COT-FUEL-35B stays 2026-09-06 (a human stamp, not re-stamped, since the probe no longer depends on it).
 2. **Tue 9/29:** last BZX26 settle; HENRY's blind BRT-12 verdict due. **Wed 9/30:** BZZ26 becomes the graded month (the rule). PROME re-pins FORGE (L461).
 3. **Wed 9/30 ~10:30:** grade **BRT-29** at the WPSR wk-9/25 (T needs ≤7,555 kb/d) and **BRT-12** under the 8/13 rule. PREP: `setups/2026-09-25_Q3-predictions-grade-PREP.md`.
 4. **Fri 10/2:** COT #8 (as-of 9/29), graded the same day. **Sun 10/4:** OPEC+. **~Mon 10/5:** Aramco Nov OSP plus European term allocations: the first test of the Yanbu-resumption report. **10/06:** L471 sitting. **10/24:** WQ-264 shadow run ends.

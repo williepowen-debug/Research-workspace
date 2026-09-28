@@ -414,6 +414,48 @@ def probe_http(url):
         return False, None, f"unreachable: {type(e).__name__}: {e}"
 
 
+def probe_cftc(spec):
+    """CFTC COT raw-file probe — returns the REAL report date of the named market's row.
+
+    Grammar: cftc:<raw-url>|<market name>   e.g. cftc:https://www.cftc.gov/dea/newcot/f_disagg.txt|WTI-PHYSICAL - NEW YORK MERCANTILE EXCHANGE
+
+    ⚑ ADDED 2026-09-28 (live session brent-d2, Will-directed "look into the COT probe").
+    supersedes: the `http:` probe on COT-FUEL-35B. That probe proved only that cftc.gov
+    answered, carried no datapoint date, and so the freshness check fell back to the row's
+    HUMAN `last_verified` stamp (2026-09-06) and printed it as "newest datapoint 2026-09-06 is
+    22d old": BLOCKING at boot while the live file held the 9/22 report, graded 9/25. The
+    probe_arcgis lesson again: freshness from the SERIES, never from a stamp or a 200.
+    Matching by MARKET NAME, not code (cot_grade.py: code 067651 spans a 2022 rename).
+    L27: the two report-date fields (YYMMDD, YYYY-MM-DD) must agree, and exactly one row
+    must match — any disagreement fails explicitly rather than returning a plausible date.
+    """
+    parts = spec.split("|")
+    if len(parts) != 2:
+        return False, None, f"bad cftc grammar (want raw-url|market): {spec!r}"
+    url, market = parts[0].strip(), parts[1].strip()
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": BROWSER_UA})
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            if resp.status != 200:
+                return False, None, f"HTTP {resp.status}"
+            text = resp.read().decode("utf-8", errors="replace")
+    except Exception as e:
+        return False, None, f"unreachable: {type(e).__name__}: {e}; publisher status unestablished"
+    hits = [[c.strip() for c in rec] for rec in csv.reader(io.StringIO(text))
+            if rec and rec[0].strip().strip('"') == market]
+    if len(hits) != 1:
+        return False, None, f"{len(hits)} rows for market {market!r} (want exactly 1)"
+    rec = hits[0]
+    try:
+        iso = datetime.strptime(rec[2], "%Y-%m-%d")
+        yymmdd = datetime.strptime(rec[1], "%y%m%d")
+    except (IndexError, ValueError):
+        return False, None, f"unparseable report-date fields {rec[1:3]!r}"
+    if iso.date() != yymmdd.date():
+        return False, None, f"report-date fields disagree: {rec[1]!r} vs {rec[2]!r}"
+    return True, iso, f"newest datapoint {iso.date()} (report date read live from the raw file, not last_verified)"
+
+
 def probe_arcgis(spec):
     """ArcGIS FeatureServer probe — returns the REAL newest datapoint date.
 
@@ -879,6 +921,8 @@ def evaluate(row, quick=False):
             ok, last_dt, detail = _cached(probe, lambda: probe_fred(probe[5:]))
         elif probe.startswith("http:"):
             ok, last_dt, detail = _cached(probe, lambda: probe_http(probe[5:]))
+        elif probe.startswith("cftc:"):
+            ok, last_dt, detail = _cached(probe, lambda: probe_cftc(probe[5:]))
         elif probe.startswith("arcgis:"):
             ok, last_dt, detail = _cached(probe, lambda: probe_arcgis(probe[7:]))
         elif probe.startswith("eia:"):
@@ -917,6 +961,10 @@ def evaluate(row, quick=False):
         budget = -1
     if budget >= 0:
         newest = None
+        # ⚑ 2026-09-28: say WHICH clock the age came from. The fallback is a HUMAN stamp, and
+        # printing it as "newest datapoint" made COT-FUEL-35B read 22d stale (BLOCKING) while
+        # the live file was 6d old. supersedes: the unlabelled fallback message.
+        vintage_src = "newest datapoint"
         if last_dt is not None:
             newest = last_dt.date()
         else:
@@ -924,6 +972,7 @@ def evaluate(row, quick=False):
             if lv and lv != "NEVER":
                 try:
                     newest = datetime.fromisoformat(lv).date()
+                    vintage_src = "last_verified HUMAN STAMP (probe returned no datapoint date)"
                 except ValueError:
                     newest = None
         if newest is None:
@@ -938,7 +987,7 @@ def evaluate(row, quick=False):
                 # falsifier — the one currently blocking my thesis — as merely 🟠.
                 hard = row.get("kind") in ("gate", "falsifier")
                 add(RED if (hard or age > budget * 2) else AMBER, "STALE",
-                    f"newest datapoint {newest} is {age}d old vs a {budget}d budget"
+                    f"{vintage_src} {newest} is {age}d old vs a {budget}d budget"
                     + ("  [gate/falsifier ⇒ blocking, not advisory]" if hard else ""))
 
     # 4. FEASIBLE — the window check
