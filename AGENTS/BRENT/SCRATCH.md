@@ -1,4 +1,4 @@
-# BRENT SCRATCH — September 28, 2026 (Monday; live session brent-d2, Will-launched 14:34 ET, PROME-doorbelled 14:3x; closeout commit 14:49 ET `ebc3fb7c7`; follow-ups pushed 15:20 / 15:29 / 15:31 ET, times from the commits)
+# BRENT SCRATCH — September 28, 2026 (Monday; live session brent-d2, Will-launched 14:34 ET, PROME-doorbelled 14:3x; first closeout commit 14:49 ET `ebc3fb7c7`; final closeout written 15:54 ET by `date`)
 
 ## CHANGES SINCE LAST SESSION (9/25 17:2x → 9/28 14:34)
 - **Iran 7-day Hormuz plan.** Timeline agreed with HAWK: private remarks Thu 9/24, public confirmation Fri 9/25 07:14 EDT, Trump rejects Sat 9/26, Araghchi says nothing has come via the mediators Sun 9/27. Also Sun 9/27 14:37 EDT: Trump tells Axios he expects talks this week.
@@ -11,6 +11,11 @@
 - **RULE:** BRENT GRADED-CONTRACT RULE in the `workbook/REGISTRY.tsv` header, answering PROME's doorbell. It points to TRACKER. Sized: the 9/30 switch changes no Brent line's state.
 - **Found and recorded late:** Dated Brent was above the $120 line on 9/14–9/17 (peak $130.80), and the desk never logged it as a crossing. Now in STATUS, CHANGELOG and TRACKER.
 - **L471 position packet** sent to PROME/inbox. Timeline aligned with HAWK by message.
+- **After the first closeout (Will-directed):**
+  - **COT probe fixed:** the `cftc:` probe reads the report date live (15:20, `b5ef00d45`).
+  - **News sweep** (15:26–15:29, `f43f0aea2`): settles validated within 2¢ (Brent 105.28 / WTI 92.60); Petroline ~3.5 mb/d reported (Bloomberg, unnamed sources); Russia producer diesel ban 9/30 row added to CATALYSTS; WALTER -003 deferred.
+  - **WQ-319 Iraq export confirm** sent to HAWK (15:31, `3b5a9b80d`).
+  - **Stamp fix:** 12 typed stamps corrected to commit times; the memory now has n+7 (`2c13f086c` parent).
 - **$0. No trade, band, grade or thesis change.**
 
 ## ⚠️ MY ERRORS / NEAR-MISSES
@@ -39,4 +44,4 @@
 
 ## MAIL STATE
 - Inbox: **empty** (3 consumed = 3 board_log rows, all git mv'd; -003 deferred with row).
-- Sent: PROME (L471 position packet, closeout memo) · HAWK ×2 (timeline) · WALTER (-001 answer). Outbox: clear.
+- Sent: PROME (L471 position packet, closeout memo, stamp-correction message) · HAWK (timeline ×2, WQ-319 packet) · WALTER (-001 answer). Outbox: no open packets.
