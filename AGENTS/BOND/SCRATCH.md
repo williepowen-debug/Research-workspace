@@ -12,6 +12,7 @@
 ## WHAT I DID — 2026-09-28 pass 3 + closeout (after the 11:37 commit →13:15 ET; stamp from `date`)
 1. Will Q&A, "how significant are these moves / CRE + regional banks": answered in chat from BOND stats (4-session DGS10 +17bp = ~5% of windows post-2010, notable not extreme; 10Y +100bp/yr; DFII10 99.6th pct; 2016–21 loan-vintage 5Y avg 0.53–1.95 vs ~5.0 now) + CITED REGINALD/CREED 9/24–9/27 reads → `KB-BND-344` (bank/CRE figures are theirs, not BOND's; no joint read run).
 2. Closeout pass found two stale monitors: `CREDIT_PRIMARY_MARKET.md` (said CCC "15bp below 1100", which fired 9/24) → refreshed to 9/25 levels, **pulled-deal check marked NOT RE-CHECKED since 9/17 (GAP)**; `CDX_CASH_BASIS.md` → proxy re-run (`KB-BND-345`, VX-06): HYG/IEF stayed rich while cash HY widened = rate confound, proxy uninformative here.
+4. [13:22 ET, found by a post-closeout file audit Will asked for] `workbook/FLOW.tsv` had been MISSED: FL-02/12/15 evidence updated; **FL-BND-16 Real-Yield Shock → HY Spreads registered as WATCH** (confirmation = LIQUID Q4 D1 + BOND D7 through 10/14 CPI).
 3. STATUS: last-session line, live marks (13:15 ET: 10Y 5.25 / 30Y 5.57 / TLT 78.60, vendor), matrix row 6, bottom-line pointer.
 
 ## WHAT I DID — 2026-09-28 pass 2 (10:43→11:11, Will: "finish this live-event read with one short assessment")

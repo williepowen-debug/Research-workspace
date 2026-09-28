@@ -12,3 +12,4 @@
 | Packets out | PROME ×2 (hashes; assessment + 10/1 test) · LIQUID ×1 (Q4 facts) — carve-out ① |
 | Git | see commit; push via safe-push.sh |
 | Pass 3 + closeout | `KB-BND-344/345` · VX-06 · `monitors/CREDIT_PRIMARY_MARKET.md` + `monitors/CDX_CASH_BASIS.md` refreshed · STATUS marks/pointer · SCRATCH |
+| Post-closeout audit (13:22) | `workbook/FLOW.tsv`: FL-02/12/15 evidence + new FL-BND-16 (WATCH) |
