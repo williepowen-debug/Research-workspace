@@ -4,6 +4,8 @@
 
 ## BOTTOM LINE
 
+🆕 **Evening re-boot 17:25 ET (`walter-f8`): BOARD 1080 → 1083. `-017` supersedes `-016` (diesel timing withdrawn, PROME L531 discharged) · `-018` official Treasury 30Y 5.56 [9/28] CONFIRMS HENRY's red >5.50 · `-019` Yanbu exports REPORTED resumed (1 source) → FALCON. WAL H8/H9 hearing rows encoded in ROUTING_CARVEOUTS. Lane 13/13.**
+
 **Monday 2026-09-28: BOARD 1064 → 1080, 16 dispatches, 9 intake batches closed (lane 20/20; drop-zone 2/2 + 1/1; Will-Telegram 8/8, 9/9, 4/4 DUP), no WALTER-scanned registered-trigger fire; two own errors corrected on the record (BRENT caught the frozen-ledger SPR claim in `-010`; BOND caught the "issuance settles second" line in `-007`).** 🔴 **Credit: HY OAS 293 [FRED 9/25], the first print over 280 (`-002`; LIQUID: broad, BB-led; X1 CLOSED; RED-FT-01 exit 2 of 3, the 9/28 print decides Tue).** 🔴 **Rates: 30Y ^TYX 5.56 [9/28 close] over HENRY's 5.50 red on a PROXY (official Treasury close tonight); CCC 1,112/1,128 over HENRY's 1,100 red (`-009`, HENRY dark).** 🔴 **Diesel (`-016`, after the Tier-2): a US export ban is LIVE POLICY TALK (Trump 9/27), no order.** ⚠️ Its "#6 could fire ~3–6 weeks after a ban" timing is **WITHDRAWN** (BRENT correction 2d508e43c: retail ¢×42 is not a crack move). 🔴 **Iran: NBC, 8 US Marines injured 9/14 by an Iranian cruise missile on a non-Navy vessel, undisclosed (`-008`; FALCON rung (d) needs a death, NOT met); the IRGC 19-ship claim is unsubstantiated. FALCON doorbelled → PROME wakes it Tue (GATE-FALCON-001).**
 
 🔑 **Fleet context:** live at closeout: PROME, HAWK, BRENT, CORAL, BOND, CREED, WAL. R3 sets 8–9 (OTTO 9, CORAL 16) LANDED by PROME (4ccc9d3); **sets 1–7 still owed by Fri 10/02.**
@@ -15,7 +17,7 @@
 | RED-FT-07 (CCC OAS) | **1,128 bp [FRED 9/25]** (2026 high; series max 1,137 [2025-04-07]); FIRING-BANKED. ⚠️ Bloomberg CCC 968 is a DIFFERENT series (`-007`) |
 | RED-FT-06 (VIX) | **`^VIX` 16.07 [9/28 close, +8.1%]**; VIXCLS latest FRED 14.21 [9/22]. FIRED-BANKED, exit `≥18 s5` at 0 |
 | RED-FT-10 (SKEW) | **144.91 [9/25, Yahoo mirror, stale]**. 5.09 under `≥150`; RED owns the count |
-| RED-FT-11 (UST 30Y) | **^TYX 5.56 [9/28 close, CBOE proxy]**; Treasury **5.49 [9/25]** = a SELL-OFF, wrong sign for the rally precondition. NOT MET. HENRY 30Y red >5.50 likely crossed on the proxy (`-009`) |
+| RED-FT-11 (UST 30Y) | **Treasury OFFICIAL 30Y 5.56 [9/28]** (9/25 5.49) = a SELL-OFF, wrong sign for the rally precondition. NOT MET. **HENRY 30Y red >5.50 CONFIRMED on the official close (`-018`)**; 20Y 5.60 · 10Y 5.24 · 5Y 5.06 · 2Y 4.92 [Treasury 9/28] |
 | RED-FT-08 / -09 | core CPI 3-mo ann. **1.97% [Aug, BLS 9/11]** · **T5YIFR 2.34 [FRED 9/25]**; `>2.55 s5` ≈ 21 bp |
 | RED-FT-05 / REG-T-05 (claims) | **197K [w/e 9/19]**; next Thu 10/01 |
 | 🔴 **Boundary #8** (Brent 3:2:1) | **NOT re-pulled.** 9/15–9/23 Nov crossing STANDS (`-0925-002`); **BZX26 expires ~9/30–10/01**; WQ-252 sitting 10/06 |
@@ -27,7 +29,7 @@
 | CREED-T-08a | 🔴 FIRED 9/26 eff 9/24 (owner-graded); VNQ $90.59 [9/28 close] |
 | HANS-T (6 scannable-daily of 17) | **TE 9/28:** UK 10Y **5.40** (orange >5.50, 10 bp) · Bund **3.63** (orange >3.75, 12 bp). Carried TE 9/25: UK 30Y 5.87 · OAT 4.73 · BTP 4.50 · TTF €71.89. ⛔ T-08 storage not pulled · T-12 UNINSTRUMENTED |
 | Niño 3.4 (AEOLUS) | **+3.1°C [NOAA CPC, week 9/23]**, rising weekly (`-011`) |
-| Iran anchor | FULL SWEEP 9/24; 9/28 kinetic line (`-008`); **next FULL ~10/01** (+ reconcile the 8/28 "Hormuz reopens"/"US clears mines" headlines) |
+| Iran anchor | FULL SWEEP 9/24; 9/28 kinetic line (`-008`) + **9/28 Petroline export leg: Yanbu exports REPORTED resumed (Bloomberg, 1 source, Aramco silent; `-019`)**; **next FULL ~10/01** (+ reconcile the 8/28 "Hormuz reopens"/"US clears mines" headlines) |
 | Calendar | **9/29** Plaza Continental hearing (FDIC/Nano), rent-freeze screenshots, CCL Q3, HY 9/28 print, FALCON + HENRY Tue wakes (PROME) · **9/30** size checks, Russia diesel-ban expiry, Brent Nov expiry, Iraq pullout, EIA/Cushing, Paramount HY pricing · **10/01** NYC rent freeze, CRMT bridge-4, Trepp, Iran full sweep, claims · **10/02** WQ-295 R3 deadline · 10/05 REGINALD WQ-318 wake · 10/06 WQ-252 sitting |
 
 ## MISSION

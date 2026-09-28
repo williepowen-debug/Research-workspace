@@ -1,3 +1,5 @@
+## 2026-09-28 Mon ~17:25–17:45 ET — `walter-f8` evening re-boot **light-closeout — full deferred** (Will: "please boot up"). BOARD 1080→1083: `-017` supersedes `-016` (diesel timing withdrawn; PROME L531) · `-018` official Treasury 30Y 5.56 [9/28] → HENRY action · `-019` Yanbu exports REPORTED resumed (Bloomberg, 1 source) → FALCON action. WAL H8/H9 hearing rows → ROUTING_CARVEOUTS. Lane BM-20260928-10 13/13 + `--mark`. Pushed e8183ddaa; 9 handoffs delivered.
+
 ## 2026-09-28 Mon — `walter-f8` **TIER-2 CLOSEOUT** (2026-09-28T20:58:07Z from `date`, Will: "okay lets close out here"). Booted 18:38Z. BOARD 1064 → 1079 (15 dispatches `-001`…`-015`); 9 batches closed; lane routed + `--mark`ed; R3 sets 8–9 landed by PROME; two own errors corrected additively (`-010` frozen-ledger SPR basis, BRENT-caught; `-007` issuance rank, BOND-caught); FALCON doorbelled. Clears the earlier 9/28 `light-closeout — full deferred` breadcrumb.
 
 > **Rotated VERBATIM from STATUS at the 9/28 Tier-2 (the Tier-1 header, bottom line, live-levels table and network-awareness block):**
@@ -43,6 +45,7 @@
 > **DOORBELL_LOG tonight:** +1 row (HANS), 0 doorbelled (no dated referent).
 >
 > **Unregistered dirs:** `CATO` (manual-only, WQ-255), `_archive` (not an agent).
+
 
 ## 2026-09-28 Mon — `walter-f8` **light-closeout — full deferred** (Tier 1, ~19:0xZ). Booted 18:38Z on Will's terminal "please boot up … check for anything owed". BOARD 1064 → 1069: `-001` Iran meeting odds → HAWK/BRENT · `-002` HY 293 [9/25] record · `-003` Novoshakhtinsk+Ilsky → OSPREY · `-004` Slok agentic-deposit frame → REGINALD (WQ-318) · `-005` buyback debt-limit → BOND. Lane BM-20260928-01 20/20 (17 kills) + `--mark`; drop-zone BM-20260928-02 2/2 (files were on the DESKTOP). R3 sets 8–9 (OTTO 9/10, CORAL 11/12) → PROME. -007 weekday note (HAWK). Fed Oct-hike odds logged as already ours. REGISTRY OTTO/BOND/LIQUID/TERRY.
 

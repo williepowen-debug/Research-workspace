@@ -2,6 +2,10 @@
 
 Session: **2026-09-28 Mon, Claude Opus 5.5 as WALTER (`walter-f8`)**, booted 18:38Z on Will's terminal "please boot up … check for anything owed" (DESKTOP-BC6EF81). **TIER-2 CLOSEOUT 2026-09-28 ~20:5xZ on Will's "okay lets close out here"** (a Tier-1 ran ~19:0xZ; work after it re-ran Tier 1 each time). It supersedes the 9/27–28 `walter-d5` record (in git history; its FOLLOW-UP is carried below).
 
+## EVENING RE-BOOT (same session name, 17:25 ET 9/28, Will: "please boot up")
+
+Boot run 0–9b (doctor 0 HIGH / 4 MED; reads whole; 6b RED sha == canon, HANS now 17 rows, CREED rotated; 6c closes unchanged + official Treasury curve; 7g WAL packet consumed → H8/H9 rows in `design/ROUTING_CARVEOUTS.md`; 7e lane BM-20260928-10 13/13 + `--mark`; 7e(f)/7f empty; 9a rc 0; 9b live: PROME, CORAL, BOND, BRENT, CREED, WAL). **Dispatched `-017` (supersedes `-016`), `-018` (30Y official 5.56 → HENRY), `-019` (Yanbu exports reported resumed → FALCON).** 9 handoffs, all delivered (e8183ddaa, reconciled). PROME concurred on H8/H9. ⚠️ Not run: FILTER_SPEC Boot Context scoped reads; HANS T-07/T-08/T-13 re-pull; SKEW (stale 9/25); `boot_basis_check` REVIEW ×13 / `reads_check` UNKNOWN (attestation stale since 9/15). ⚠️ The earlier sitting's text below is the 9/28 afternoon record.
+
 ## STATUS
 
 **Boot: PARTIAL, gaps named.**
@@ -51,14 +55,15 @@ Session: **2026-09-28 Mon, Claude Opus 5.5 as WALTER (`walter-f8`)**, booted 18:
 
 ## FOLLOW-UP
 
+0. 🆕 **WAL H8/H9** (Nano/Stupin hearing triggers) now live at dispatch; PROME CONCURRED 21:4xZ (msg, verified e8183ddaa). WATCH_FOR terms (`Plaza Continental`, `Chino Central Group`, `Alessandro Group`, `Cantor Group V`+avoidance, `Nano Banc`+relief from stay) join the R3 WAL Nano set. **9/29 Plaza Continental hearing: an ORDER authorizing a sale/relief = H8; a hearing alone is not.**
 1. **R3 sets 1–7 by Fri 10/02** (`research/2026-09-27_R3-watch-for-test-queue.md`): LIQUID re-test · CREED ~30 · CREED Nano block · WAL Nano · REGINALD claims-bar · FLG re-test (`--live "rent freeze court"`; check `TRO`) · DEWEY Nano (dedup vs 3–5). Method that worked today: lane + `--live` subject queries + `--synthetic` recall controls. The three R3 packets (LIQUID, PROME/CREED, FLG) stay in `inbox/` until done.
-2. **HENRY 30Y official Treasury 9/28 close (tonight):** confirms or refutes the proxy crossing in `-009`. **FALCON wake is PROME's call** (doorbell sent).
+2. ✅ **HENRY 30Y official Treasury 9/28 close = 5.56: CONFIRMS** the `-009` crossing → `-018` (HENRY action, rides PROME's Tue wake). **FALCON wake is PROME's call** (doorbell sent); `-019` Yanbu rides it.
 2b. **HY 9/28 print (likely Tue 9/29 AM):** RED-FT-01 exit day 3 (RED counts). X1 stays closed per LIQUID.
 3. **Nano Banc watch:** 9/29 Plaza Continental hearing (FDIC substitution) · FDIC P&A posting (~10/05–10/09; DOCKET L516) · claims bar date · Fed OIG MLR · L515 sale (CREED action / REGINALD info / WAL consumes).
 4. **Rent freeze:** 9/29 screenshot production; 10/01 effective (FLG grades `GATE-FLG-T08`).
 5. **Iran full sweep ~10/01:** reconcile the 8/28 "Hormuz reopens" / "US forces clear Iranian sea mines; shipping reopens" headlines (FOX 10, Economic Times; defined at `dff492367` FOLLOW-UP #1, HAWK asked 9/28). Write a guard if real-then-reversed. Also: any "Yanbu hit" video is unauthenticated (Misbar 9/27).
 6. **9/30 size checks:** MEMORY (`stat`, rotate >24,412 B) · THRESHOLD_SCAN · both routing files · Iran anchor.
-6b. ✅ **DONE at the Tier-2:** the frozen-ledger lesson is MEMORY finding #35. **Flag (owner files, WALTER does not edit):** CREED `registry/THRESHOLDS.tsv` 27,247 B (84%) and HANS `registry/THRESHOLDS.tsv` 26,639 B (82%) are in the read-cap rotate tier (WALTER boot 6b whole reads). Tell the owners at their next wake; PROME can route it.
+6b. ✅ **DONE at the Tier-2:** the frozen-ledger lesson is MEMORY finding #35. **CREED half DONE** (CREED rotated 0683e8400 → 13,725 B, 42%). **Still open:** HANS `registry/THRESHOLDS.tsv` 26,639 B (82%) are in the read-cap rotate tier (WALTER boot 6b whole reads). Tell the owners at their next wake; PROME can route it.
 7. **Carried (still open):** CORAL's two FL ACTION items (`-0925-009`, `-014`; CORAL live and draining 9/28, verify at its `processed/`) · the YURI routing row (FORMAT_SPEC first) · the WQ-286 ④ CORRECTIONS header line · a doctor step reading recipients' `consumed_at` · the P2 false-positive-rate proposal · HENRY's deferred items · `fetch.py` contract identity (`BZ*.NYM` UNKNOWN, name-cut) · CARL-DR-1 (run or drop).
 8. **Watch:** 9/29 CCL Q3 · **9/30** Russia diesel-ban expiry, Brent Nov expiry, Iraq pullout, Cushing · **10/01** NYC rent freeze, CRMT bridge-4, CREED T-01a Trepp, claims · 10/02 WQ-295 + GATE-BRK-R2 · 10/06 WQ-252 sitting.
 
@@ -73,23 +78,24 @@ Session: **2026-09-28 Mon, Claude Opus 5.5 as WALTER (`walter-f8`)**, booted 18:
 
 **Issued at the 9/28 Tier-1 before the closeout commit.** Publication state is verified after the push by `git merge-base --is-ancestor`; this block is re-issued in the same session if a commit is not on origin.
 - **9/28 handoffs: 43 written** (4+3+4+3+1+2+4+15+7). Delivered = committed AND on origin, reconciled by `reconcile_delivery_log.py` after push. Delivered is not consumed.
-- **All 45 handoffs are on origin** (reconciled after a fresh fetch) (reconcile_delivery_log.py after a fresh fetch). ⚠️ **PUSH DEFERRED at the Tier-2** (step 9b(d)/16: BRENT live and consuming handoffs, uncommitted). The closeout commits are local; PROME's closeout push or the next clean-tree session carries them. The next WALTER boot verifies by subject.
+- **All 54 9/28 handoffs are on origin** (45 from the afternoon + 9 from the evening re-boot, `e8183ddaa`; `reconcile_delivery_log.py --apply` after a fresh fetch). ✅ **Evening re-boot pushed `e8183ddaa` (safe-push CONFIRMED); the afternoon's deferred commits rode it.** *(Was: PUSH DEFERRED at the Tier-2 (step 9b(d)/16: BRENT live and consuming handoffs, uncommitted). The closeout commits are local; PROME's closeout push or the next clean-tree session carries them. The next WALTER boot verifies by subject.)*
 - ⚠️ **This receipt does NOT claim:** that any recipient consumed `-001`…`-005` (BRENT answered `-001` by message); that R3 sets 1–7 were started; that the CORAL/OTTO recall notes are adopted.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-09-28T21:16:32+00:00",
+  "as_of": "2026-09-28T21:33:38+00:00",
   "publication": [
     {"commit": "e9925bba8", "state": "published"},
     {"commit": "8dbd4355e", "state": "published"},
     {"commit": "04a53b85f", "state": "published"},
-    {"commit": "144e099ca", "state": "published"}
+    {"commit": "144e099ca", "state": "published"},
+    {"commit": "e8183ddaa", "state": "published"}
   ],
   "delivery": {
     "signal_date": "20260928",
-    "total": 45,
-    "delivered": 45
+    "total": 54,
+    "delivered": 54
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
