@@ -24,6 +24,19 @@
 
 **THESIS → v1.0.1** (amendment only, direction unchanged): caveats (1) payoff ≠ par exit and (2) 5.8% = remaining reserve are written under the one-paragraph thesis. **T-03 re-dated 10/27 → 10/16**: Flagstar reported on the 4th Friday three quarters running, so Q3 is most likely **Fri 10/23** [EST]. The old check sat after the likely event. **Inbox:** 4 processed. Cadence declared `EVENT-DRIVEN`; watch list sent to WALTER (8 keep, 3 add for merits/appeal).
 
+## 🟠 EVENING 2026-09-27 — PROME-orchestrated research on Will's CRE→bank-loss objective (closed by Will 21:16 ET)
+
+Four deliverables, all in `reports/`, committed; every figure verified at the primary unless marked PRESS-GRADE.
+
+| Deliverable | Result | KB |
+|---|---|---|
+| `2026-09-27_CRE_to_FLG_loss_transmission.md` | Mechanism = **appraisal-driven write-downs** on classified RR MF. Capacity: agree with REGINALD's bridge dollars and CET1; differ on the earnings yardstick (trailing 8.4–10.5× · Q2 run-rate 4.5–5.7× · 2027 guidance 0.8–1.3×). Management's 2026+27 provision guidance ($190–290M) ≈ the bridge's BASE case | 066 |
+| `2026-09-27_signature-sale-vs-FLG-pools.md` (WQ-309) | The Signature sale gives **no loss rate**. RR pools PARTIAL, valuation cross-check only (≈60% of balance, Santander A/B, unconfirmed "N/A" reading); other pools DO NOT INFORM. Bias and bracketing claims **withdrawn** (CATO via Will) | — |
+| `2026-09-27_WQ312_Q2_workout_rows.md` (WQ-312) | Q2 nonaccrual outflow $258M; cash source and retained exposure known for only 26%; the $190M payoff leg is UNDISCLOSED | 069, 070 |
+| News sweep | **Pinnacle** (PRESS-GRADE, not issuer-named) = the Q1 bankruptcy exit: $451.3M sale vs >$564M debt, **Flagstar financed $338.5M** | 067 |
+
+⚠️ **Modifications (KB-069/070, relabelled per Will 20:49 ET):** the 12-month MF modified stock was **47% past due at 6/30** ($176M of $375M; 11% at 3/31). That is a **changing aggregate population, NOT a cohort failure rate.** The subsequent-default figures ($29M three months · $286M six months) are **UNRECONCILED issuer disclosures**; an earlier cohort failure is not excluded. The question goes to **T-13 / PROME DOCKET L522** (Q3 FDM read).
+
 ## 🔴 START HERE — the thesis moved, and the headline number is still not the actionable one
 
 **The bear case on FLG is not concentration and not the nonaccrual level. Both are improving.** It is that a **$2.8B nonaccrual book with a $163M specific reserve (5.8%)** is being cleared **87.5% by payoff and disposition**, while genuine cures run at **1.6%** — and that exit channel is **exogenous**, requiring a functioning refinance market for NYC rent-regulated multifamily. **NYC just froze the rents on the collateral behind $8.9B of it, effective October 2026.**
@@ -38,62 +51,6 @@
 | Capital | $10,003M / **16.58%** | up from 16.23%, on falling RWA | ⬆️ strengthening |
 
 **Start from the specific reserve, not from coverage and not from the composite 6/6.** The 31.04% coverage ratio is *total* ACL over nonaccrual; $706M of that reserve sits against the **performing** book. Management's position is that **$1,571M of nonaccrual needs no reserve because collateral covers it** — an appraisal claim, re-run annually at downgrade.
-
----
-
-## What this session established at the primary
-
-**13 new KB rows, all `A1` PRIMARY (KB-FLG-028 → 040).** Everything below was pulled and computed by FLG, not inherited.
-
-### ✅ Reconciliation to REGINALD — the seed holds
-
-| Figure | REGINALD (MIRROR) | FLG at the primary | Verdict |
-|---|---|---|---|
-| Total risk-based capital (SR 07-1 **denominator**) | $10.00B | **$10,003M** | ✅ **EXACT** |
-| ACL roll-forward identity | begin $1,029,999K … end $869,000K | 10-Q Note 6 ties to the dollar | ✅ **CONFIRMED** |
-| Net charge-offs H1-2026 | $176.9M implied | $178M stated | ✅ ties |
-| SR 07-1 ratio | 327.5% | 327.5% *(≤351.6% if owner-occupied wrongly included)* | ✅ **REPRODUCES** |
-| Total loans | $61,195M *(Call Report)* | $60,987M *(10-Q HFI)* | ✅ within 0.34% — leases/other |
-| Coverage | 29% | **31.04%** | ⚠️ **denominator, see below** |
-
-**REGINALD's Q2b work is independently confirmed.** The one delta is a perimeter difference, not an error: the seed used the Call Report's $2,988M nonaccrual denominator; the 10-Q reads $2,800M (HFI, excluding $5M held-for-sale). **The level moves, the direction does not** — coverage still fell 3.58pp over H1, ACL −15.6% against nonaccrual −5.9%.
-
-### 🔴 Q2c ANSWERED — the nonaccrual decline is neither charge-off nor cure
-
-Nonaccrual roll-forward, six months ended 2026-06-30: begin $2,975M **+ $780M formation** − $100M charge-offs − $4M transfers − **$836M payoffs/dispositions** − **$15M cures** = $2,800M.
-
-**Payoff 87.5% · charge-off 10.5% · cure 1.6%.** ⇒ DAEDALUS's nonaccrual-leg suspension on K-3 is **LIFTED**. **Twice now the binary was wrong and the truth was a third cell** (Q2b: neither release nor disposition; Q2c: neither charge-off nor cure). The pattern: **this book is not healing, it is being handed off.**
-
-### 🔴 THE MECHANISM FIRED — and the wake register had it as pending
-
-NYC RGB **approved a rent freeze in June 2026, effective October 2026**. FLG's Q2 provision rose $18M QoQ explicitly for it. Exposure: **$8.9B** with ≥50% rent-regulated units, inside **$13.4B** of NYC multifamily and **$26,931M** of total multifamily.
-
-⚠️ **`TRIGGERS.tsv` T-06 carried this as `[EST] 2027-05-03`** — a fired event rendering as pending, with nothing able to tell the two apart. **The desk was ~10 weeks blind to its own defining mechanism while holding a correctly-formatted, in-date wake row aimed at it.** Corrected: T-06 re-scoped to 2027; **T-08** (freeze effective, 2026-10-01, HARD) and **T-09** (Q2-2027 DSCR cycle, RULE) registered.
-
-⏱️ 🔴 **FUSE CORRECTED — I HAD IT A YEAR TOO SHORT AND HAD ALREADY SHIPPED IT (KB-FLG-052).** RGB Order #58 governs leases **commencing 2026-10-01 → 2027-09-30**, so it phases in as leases renew. FY2026 financials (reviewed **Q2-2027**) hold at most Oct–Dec 2026 of partial exposure; **FY2027 financials, reviewed Q2-2028, are the first carrying most of a freeze year.** ⇒ **the bite is Q2-2028** (new trigger T-11); T-09 is demoted to an early watch point. I stated "~12-month fuse" in THESIS v1.0, STATUS, CALENDAR, T-08/T-09 and in packets to REGINALD and PROME — all corrected, both desks told. ⚠️ **And a 0% guideline CAPS revenue rather than cutting it** — DSCR degrades by costs outrunning frozen rents, grinding and compounding, not a step down.
-
-### 🔴 K-1 had a construct-validity defect — it would have fired on the wrong book
-
-| Book | 2025-12-31 | 2026-06-30 | H1 |
-|---|---:|---:|---|
-| **Multi-family** *(the thesis's subject)* | $28,983M | **$26,931M** | 🔴 **−7.08%** |
-| Commercial & industrial | $15,217M | $18,563M | **+21.99%** |
-| **Total loans HFI** | $60,732M | $60,987M | **+0.42%** |
-
-**`loans_qoq_pct +0.9%` is a MIX SHIFT, not the end of the run-off.** K-1 as written would have declared a NYC-rent-regulated-multifamily thesis dead on the strength of **C&I growth**. Leg 1 re-cut onto multifamily dollars, where it is not satisfied and not close. ⚠️ **The error made the kill EASIER — the rail was biased toward retiring a live thesis.**
-
-✅ **DAEDALUS's 2026-08-23 sweep ASK is answered in the same edit:** K-1's leg 2 had no registered instrument (rendering `NOT FIRED` when the honest state was `UNGRADEABLE`). The nonaccrual-rate instrument was in the 10-Q all along and is now in the cell. **No leg dropped.**
-
-### Other primary reads
-
-- **Multifamily net charge-off rate is FLAT YoY at 1.17%** annualised (Q2-2026 = Q2-2025). The aggregate NCO improvement (0.66% vs 0.72%) is CRE and composition, **not multifamily healing**.
-- **30–89 day delinquencies −63%** ($986M → $368M) — genuine early-stage improvement, but $780M migrated into nonaccrual over the same window, so much of the drain is **migration, not cure**.
-- **$51M of 90+ days past due AND STILL ACCRUING**, against zero at 12/31/2025. Small, negative, and a classification choice.
-- **40% of nonaccrual loans are current on contractual terms** — the rent-regulated signature: the loan pays, but the collateral math fails.
-
-### ⚠️ CHARTER CORRECTION — there is no longer a holding company
-
-**Flagstar Financial, Inc. merged INTO Flagstar Bank, N.A. in October 2025** (plan of merger 2025-09-22, 10-Q exhibit 2.1). The SEC registrant and NYSE issuer for FLG is now **FLAGSTAR BANK, N.A.** (CIK 0000910073). `CLAUDE.md` § IDENTITY and DENOMINATOR DISCIPLINE rule (b) both assume a live holdco/bank split; for quarters from 2025Q4 that split **does not exist**, and a 10-Q figure is directly comparable to the RSSD 694904 Call Report series. For 2023Q3–2025Q3 it still holds. **The perimeter break falls INSIDE the 12-quarter seed series.** Routed to PROME — a charter edit is not FLG's to make. Local ledgers corrected.
 
 ---
 
@@ -169,6 +126,7 @@ The 87.5%-payoff / 1.6%-cure split was a single observation at v1.0. It is the e
 | **2026-10-01** | **T-08 — NYC rent freeze takes effect** *(no stay as of 9/24; grade both legs on the day)* | The mechanism, live and dated. Expect provision commentary, **not** formation |
 | **2026-10-16** | T-03 — look for the Q3 earnings date *(likely Fri 10/23, 4th-Friday pattern [EST])* | Reserve-build commentary + **buyback execution** + read the 8-K exhibit list (KB-FLG-064) |
 | ~2026-11-06 | T-02 — Q3-2026 10-Q | **Grades FLG-02 and FLG-03.** Observed lag: quarter-end +37d, twice |
+| **~11/9 → CHECK-BY 2026-11-13** | **T-13 — Q3 FDM + payoff read (WQ-313 ①, PROME DOCKET L522)** | Will's $29M/$286M reconciliation question; if the data is insufficient, record the figures as reported, "unreconciled / not cohort-identifiable", with no interpretive round |
 | ~2026-11-14 | T-01 — Q3-2026 Call Report | Ingest to `MI3_FLG.tsv`; recompute SR 07-1 |
 | ~2026-10-24 | T-12 — city's full document production due | Precedes the merits ruling promised "before the end of the year" |
 | 2027-08-06 | T-09 — Q2-2027 DSCR review *(early watch only)* | Near-zero freeze content expected; a quiet read is NOT disconfirmation |
@@ -184,8 +142,10 @@ The 87.5%-payoff / 1.6%-cure split was a single observation at v1.0. It is the e
 
 ## SESSION 2026-09-24 → rotated verbatim to `archive/STATUS_ARCHIVE_2026-09-27.md` (crc32 `4ccff32b`)
 
+## "What this session established at the primary" (8/28) → rotated verbatim to the same file, 2026-09-27 21:19 ET (crc32 `1ce1f18a`)
+
 ---
 
 ## BOTTOM LINE
 
-**No new filings since mid-August, so FLG's credit numbers are unchanged, but three of them now read differently:** the bank's own reserve table shows charge-offs 50–73% above what its nonaccrual schedule records every year since 2023, so the "payoffs" clearing the problem book (87.5%) can't be read as clean exits (where the extra losses sit is undetermined), while the rent-regulated problem loans are ~20.5% written down or reserved rather than the 5.8% "remaining reserve" headline. **The desk also missed a $250M buyback authorised in July** that, if executed, pushes the CRE-concentration ratio *up* (~+8pp), against its path below the 300% line. **A news sweep also found the Q1 bankruptcy exit (very likely Pinnacle): sold below Flagstar's >$564M debt at $451M, with Flagstar lending the buyer $338.5M, so the biggest "payoff" mostly stayed on the books.** **The rent freeze starts 10/1** (no stay; merits ruling due by year-end), and the stock sits at $12.37, 2.2% above REGINALD's next price band. **Next wakes: 9/30 (court + price), 10/1 (freeze), 10/16 (earnings date).**
+**No new Flagstar filings since mid-August, but today's re-reading changed four reads.** ① The "payoffs" clearing the problem book can't be read as clean exits. The biggest one (very likely Pinnacle, press-grade) sold below Flagstar's debt, with Flagstar lending the buyer 75%. ② About 20.5% of the rent-regulated problem loans is already written off or reserved, not the 5.8% "remaining reserve" headline. ③ A $250M buyback authorised in July, if executed, pushes the CRE ratio *up* (~+8pp). ④ 47% of this year's modified multifamily loans were past due at 6/30, a changing population, not a measured failure rate. **The rent freeze starts 10/1** (no stay; merits ruling by year-end), and the stock is $12.37, 2.2% above REGINALD's next price band. **Next wakes: 9/30 (court + price), 10/1 (freeze), 10/16 (earnings date), Q3 10-Q ~11/9 (T-13 check by 11/13).**

@@ -10,10 +10,11 @@
 
 | Date | Anchor | Event | Instrument / wake row |
 |---|---|---|---|
-| **2026-10-01** | **HARD** *(date)* · ⚠️ **CONTESTED** *(legality)* | 🔴 **NYC rent freeze takes EFFECT** on rent-regulated NYC multi-family. ⚠️ **Landlord suit (7 owners) pending before Justice Lantry (NY Sup. Ct., Manhattan); discovery ordered ~9/16; no stay reported as of 9/17 (KB-FLG-053)** | `TRIGGERS.tsv` T-08 · `PROME/GATES.tsv` GATE-FLG-T08 (PROME spawns FLG — this desk is idle that day) |
+| **2026-10-01** | **HARD** *(date)* · ⚠️ **CONTESTED** *(legality)* | 🔴 **NYC rent freeze takes EFFECT** on rent-regulated NYC multi-family. ⚠️ **Landlord suit (7 owners) pending before Justice Lantry (NY Sup. Ct., Manhattan); discovery ordered ~9/16; no stay reported as of 9/17 (KB-FLG-053); 9/24 hearing: no stay issued, merits ruling by year-end (KB-FLG-060)** | `TRIGGERS.tsv` T-08 · `PROME/GATES.tsv` GATE-FLG-T08 (PROME spawns FLG — this desk is idle that day) |
 | **2026-09-30** | EVENT *(check date)* | ⚠️ **T-12 — rent-freeze litigation check** (Kenilworth Holdings v. NYC RGB; Richmond 85199/2026 → NY County 8/21; Justice Lantry) + T-07 price backup | Instrument: NYSCEF docket (browser) / Fordham NY County listing / court reporting; VX-REG-6.03 closes vs $12.10. Read path in T-12 Notes |
-| ~2026-10-27 | EVENT | Q3-2026 earnings release + call | T-03. ⚠️ slips; confirm at IR, then re-date and set HARD |
+| ~2026-10-23 | EVENT | Q3-2026 earnings release + call *(4th-Friday pattern; not announced as of 9/27)* | T-03, check 10/16. ⚠️ slips; confirm at IR, then re-date and set HARD. Read the 8-K exhibit list (KB-FLG-064) |
 | ~2026-11-06 | RULE | Q3-2026 10-Q | T-02. Lag = quarter-end +37d, observed twice (2026-05-07, 2026-08-06). **Grades FLG-02 and FLG-03** |
+| **CHECK-BY 2026-11-13** | RULE | Q3 FDM + payoff read, WQ-313 ① (PROME DOCKET L522) | T-13. Will's $29M/$286M question; if insufficient, record as reported, "unreconciled / not cohort-identifiable" |
 | ~2026-11-14 | RULE | Q3-2026 Call Report (FFIEC, RSSD 694904) | T-01. Quarter-end +45d |
 | ~2027-03-01 | RULE | FY2026 10-K | **Grades FLG-01.** FY2025 10-K filed 2026-02-27. `Resolve_By` carries a 2027-03-15 buffer — a slip is STUCK, never MISS |
 | **2027-05-xx** | EVENT | NYC RGB 2027 preliminary vote | T-06. **Last occurrence VERIFIED: June 2026 (rent freeze approved, effective Oct 2026).** Re-verify occurrence before treating this row as pending |
