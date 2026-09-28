@@ -12,10 +12,10 @@ Session: **2026-09-28 Mon, Claude Opus 5.5 as WALTER (`walter-f8`)**, booted 18:
 
 ## CHANGED
 
-- **BOARD 1064 → 1071:** `-001` … `-007` (below). 21 handoffs (15 + 2 for `-006` + 4 for `-007`). `-0927-007` got an additive weekday note ("Thu 9/25" was a Friday; HAWK-reported, `claim_check` confirmed).
+- **BOARD 1064 → 1076:** `-001` … `-012` (below). 36 handoffs (15 + 2 + 4 + 15 for `-008`…`-012`). `-0927-007` got an additive weekday note ("Thu 9/25" was a Friday; HAWK-reported, `claim_check` confirmed).
 - **Batches:** BM-20260928-01 (lane, 20/20: 2 DISPATCH, 1 NO-ACTION, 17 KILL) · BM-20260928-02 (drop-zone, 2/2 DISPATCH). Drop-zone files moved to `inbox/WILL/processed/`.
 - **kill_log +12 rows** (incl. the Fed Oct-hike odds: already ours, BOND carries ~70% priced; the Misbar fake-Yanbu-video forward guard).
-- **DOORBELL_LOG +4** (OSPREY `-003`, REGINALD `-004`, HOMER `-006`, LIQUID `-007`; neither doorbelled; both L3 fail, cadence computed).
+- **DOORBELL_LOG +7** (OSPREY `-003`, REGINALD `-004`, HOMER `-006`, LIQUID `-007`, **FALCON `-008` DOORBELLED**, HENRY `-009`, AEOLUS `-011`; neither doorbelled; both L3 fail, cadence computed).
 - **Inbox:** PROME ORACLE-route packet and OTTO R3 packet consumed. **R3 results** for sets 8–9 → `PROME/inbox/2026-09-28_from-WALTER_R3-results-CORAL-OTTO-sets-8-9.md` + OTTO inbox pointer + CORAL by SendMessage.
 - **REGISTRY:** OTTO, BOND, LIQUID, TERRY → 9/28.
 
@@ -27,7 +27,8 @@ Session: **2026-09-28 Mon, Claude Opus 5.5 as WALTER (`walter-f8`)**, booted 18:
 4. **`-004` Apollo/Slok "agentic bank run" frame** → REGINALD for WQ-318 · **`-005` buyback debt-limit mechanism** (pictured $14.29T limit stale; ~$3B headroom per max-$6B op) → BOND.
 5. **`-006` (after the Tier-1, CREED route request, Will-directed): Trepp MF CMBS DQ by building age** (pre-1980 14.55% vs 1.44% under 26 yrs; build year ≠ loan vintage) → **HOMER ACTION, dark, not doorbelled** (p75=8d/dark=4d); REGINALD info; CARL via BOARD; CORAL not added (no FL named).
 6. **`-007` (after the Tier-1): Will drop-zone PDF, junkbondinvestor Credit Weekly 9/27** (read whole; BM-20260928-03 1/1): CCC damage concentrated in cable (Optimum; Meta Muse AI-agent cancellation lens on Charter/Comcast/SiriusXM) → **LIQUID ACTION** (dark, not doorbelled, p75=5d/dark=0d); HENRY/VULCAN/BOND info. ⚠️ **Bloomberg basis ≠ ICE** (CCC 968 vs 1,128; B 281 vs 300). PROME's first "it is in your drop-zone" was premature (copy blocked by a hook), and the hold was correct.
-7. **R3:** OTTO 9/10 pass (`CVNA earnings` rejected) · CORAL 11/12 pass (`hurricane warning Florida` rejected; 5 recall notes).
+7. **Will-Telegram 8-image batch (BM-20260928-05, 8/8, 20:02Z):** `-008` **IMMEDIATE → FALCON**: NBC, 8 US Marines injured 9/14 by an Iranian cruise missile on a non-Navy vessel, undisclosed; FALCON rung D trigger (d) needs a death, NOT met. IRGC 19-ship claim unsubstantiated (UKMTO none since 9/23). **FALCON DOORBELLED to PROME** (L3b p75=5d/dark=6d). Anchor 9/28 line. · `-009` **IMMEDIATE → HENRY**: 30Y ^TYX 5.56 [9/28 close, proxy] over red >5.50, **official Treasury close tonight decides**; CCC 1,112/1,128 over red >1,100 · `-010` → BRENT: SPR 284.6M [EIA 9/18] vs its ~411M basis; GS diesel-ban scenario · `-011` → AEOLUS: Niño 3.4 +3.1 [CPC 9/23] · `-012` WSJ AI context. Will answered on Telegram (msg 4704).
+8. **R3:** OTTO 9/10 pass (`CVNA earnings` rejected) · CORAL 11/12 pass (`hurricane warning Florida` rejected; 5 recall notes).
 
 ⛔ **No WALTER-scanned registered trigger crossed. $0.**
 
@@ -49,7 +50,8 @@ Session: **2026-09-28 Mon, Claude Opus 5.5 as WALTER (`walter-f8`)**, booted 18:
 ## FOLLOW-UP
 
 1. **R3 sets 1–7 by Fri 10/02** (`research/2026-09-27_R3-watch-for-test-queue.md`): LIQUID re-test · CREED ~30 · CREED Nano block · WAL Nano · REGINALD claims-bar · FLG re-test (`--live "rent freeze court"`; check `TRO`) · DEWEY Nano (dedup vs 3–5). Method that worked today: lane + `--live` subject queries + `--synthetic` recall controls. The three R3 packets (LIQUID, PROME/CREED, FLG) stay in `inbox/` until done.
-2. **HY 9/28 print (likely Tue 9/29 AM):** RED-FT-01 exit day 3 (RED counts). X1 stays closed per LIQUID.
+2. **HENRY 30Y official Treasury 9/28 close (tonight):** confirms or refutes the proxy crossing in `-009`. **FALCON wake is PROME's call** (doorbell sent).
+2b. **HY 9/28 print (likely Tue 9/29 AM):** RED-FT-01 exit day 3 (RED counts). X1 stays closed per LIQUID.
 3. **Nano Banc watch:** 9/29 Plaza Continental hearing (FDIC substitution) · FDIC P&A posting (~10/05–10/09; DOCKET L516) · claims bar date · Fed OIG MLR · L515 sale (CREED action / REGINALD info / WAL consumes).
 4. **Rent freeze:** 9/29 screenshot production; 10/01 effective (FLG grades `GATE-FLG-T08`).
 5. **Iran full sweep ~10/01:** reconcile the 8/28 "Hormuz reopens" / "US forces clear Iranian sea mines; shipping reopens" headlines (FOX 10, Economic Times; defined at `dff492367` FOLLOW-UP #1, HAWK asked 9/28). Write a guard if real-then-reversed. Also: any "Yanbu hit" video is unauthenticated (Misbar 9/27).
@@ -67,14 +69,14 @@ Session: **2026-09-28 Mon, Claude Opus 5.5 as WALTER (`walter-f8`)**, booted 18:
 ## CLOSEOUT RECEIPT
 
 **Issued at the 9/28 Tier-1 before the closeout commit.** Publication state is verified after the push by `git merge-base --is-ancestor`; this block is re-issued in the same session if a commit is not on origin.
-- **9/28 handoffs: 21 written** (4+3+4+3+1+2+4). Delivered = committed AND on origin, reconciled by `reconcile_delivery_log.py` after push. Delivered is not consumed.
-- **All 21 handoffs are on origin** (carried by other sessions' pushes; reconcile_delivery_log.py). Only the last receipt-fix commits are local; WALTER deferred its push per 9b(d) and PROME's closeout push carries them.
+- **9/28 handoffs: 36 written** (4+3+4+3+1+2+4+15). Delivered = committed AND on origin, reconciled by `reconcile_delivery_log.py` after push. Delivered is not consumed.
+- **The first 21 handoffs are on origin; `-008`…`-012`'s 15 are committed locally, pending push** (carried by other sessions' pushes; reconcile_delivery_log.py). Only the last receipt-fix commits are local; WALTER deferred its push per 9b(d) and PROME's closeout push carries them.
 - ⚠️ **This receipt does NOT claim:** that any recipient consumed `-001`…`-005` (BRENT answered `-001` by message); that R3 sets 1–7 were started; that the CORAL/OTTO recall notes are adopted.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-09-28T19:46:28+00:00",
+  "as_of": "2026-09-28T20:08:37+00:00",
   "publication": [
     {"commit": "e9925bba8", "state": "published"},
     {"commit": "8dbd4355e", "state": "published"},
@@ -83,7 +85,7 @@ Session: **2026-09-28 Mon, Claude Opus 5.5 as WALTER (`walter-f8`)**, booted 18:
   ],
   "delivery": {
     "signal_date": "20260928",
-    "total": 21,
+    "total": 36,
     "delivered": 21
   },
   "owner_review": {
