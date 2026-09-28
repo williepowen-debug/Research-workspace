@@ -326,14 +326,18 @@ def lint_predictions(report) -> int:
     if not p.exists():
         return 0
     n = 0
-    rows = list(csv.DictReader(p.open(encoding="utf-8"), delimiter="\t"))
+    rdr = csv.DictReader(p.open(encoding="utf-8"), delimiter="\t")
+    rows = list(rdr)
     # FAIL LOUD on a wrong header rather than reporting clean. Learned the hard
     # way 2026-08-21: a "# Status ENUM ..." comment was added to the top of this
     # TSV as documentation, csv.DictReader took THAT line as the header, every
     # r.get("Status") came back empty -- and this very function reported ZERO
     # findings. A check reading the wrong referent has no error to notice.
     # (finding_instrument_reports_clean_against_the_wrong_reference)
-    if not rows or "Status" not in rows[0]:
+    # 2026-09-28: the header is judged from fieldnames, NOT rows[0]. A header-only
+    # file (0 OPEN predictions, every resolved row archived) is VALID and was failing
+    # as "wrong header"; a leading comment line or a 0-byte file still fails closed.
+    if "Status" not in (rdr.fieldnames or []):
         report("PREDICTIONS.tsv: no 'Status' column — header row is wrong "
                "(a leading comment line?). NOT a pass; the enum check could not run.")
         return 1

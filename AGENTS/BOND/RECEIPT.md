@@ -1,16 +1,17 @@
-# BOND RECEIPT — 2026-09-28 (Mon), final at closeout 13:15 ET (commits 10:43 + 11:11 + 11:37 + closeout)
+# BOND RECEIPT — 2026-09-28 14:46 ET (catch-up session)
 
 | Item | Disposition |
 |---|---|
-| Inbox | PROME `2026-09-26_..._WQ-291-and-WQ-246-RULED-encode-with-riders.md` → encoded (THESIS v1.2.9, TRADE, STATUS, `KB-BND-342`) → `inbox/processed/` |
-| WALTER lane | empty |
-| Predictions | `BND-27` RESOLVED FALSE (CCC 1112 [9/24] ≥ 1100); OPEN now 0 |
-| Catalysts | CUSIPs added to 10/6–10/8 refunding rows; 9/30 row annotated (BND-27 resolved) |
-| KB / VX | `KB-BND-340/341/342`; VX-01 (write-back), VX-02, VX-05, VX-11 (3→4) |
-| Files written | STATUS.md · SCRATCH.md · RECEIPT.md · TRADE.md · thesis/THESIS.md · thesis/CHANGELOG.md · thesis/PREDICTIONS.tsv · docket/CATALYSTS.tsv · workbook/KB.tsv · workbook/VX.tsv · domain/sources/2026-09-28_STATUS_full-snapshot_pre-9-28-rewrite.md |
-| Pass 2 | assessment `analysis/2026-09-28_live-event-assessment.md` · `KB-BND-343` · NEXUS_BRIEF T5YIFR fix · STATUS pointers |
-| Packets out | PROME ×2 (hashes; assessment + 10/1 test) · LIQUID ×1 (Q4 facts) — carve-out ① |
-| Git | see commit; push via safe-push.sh |
-| Pass 3 + closeout | `KB-BND-344/345` · VX-06 · `monitors/CREDIT_PRIMARY_MARKET.md` + `monitors/CDX_CASH_BASIS.md` refreshed · STATUS marks/pointer · SCRATCH |
-| Post-closeout audit (13:22) | `workbook/FLOW.tsv`: FL-02/12/15 evidence + new FL-BND-16 (WATCH) |
-| Outbox audit (13:30) | 47 packets: 33 → delivered/ · 8 → archive/outbox_unverified/ · 6 kept · 2 identical duplicates trashed · record `analysis/2026-09-28_outbox-delivery-audit.md` |
+| Inbox (WALTER lane) | 0 deliveries |
+| Inbox (general) | empty |
+| PROME doorbells | ×2 read (WQ-317 pending Will, do not start; READS transcribed `8c7bf0614`) |
+| Owed: READS.tsv declaration (DAEDALUS 9/17, due 9/30) | ✅ DONE — packet `1b78da2d8`, transcribed by PROME |
+| Owed: 8/27 kill-scope flag | ✅ RESOLVED — was WQ-99, ruled 9/1; audit corrected; packet → `outbox/delivered/` |
+| Owed: pulled-HY-deal check (L477 Q4 D8) | ✅ DONE as far as free sources reach — `KB-BND-346` (C3); pulled leg = GAP, not zero |
+| Owed: blind span 10/9→10/19 | ✅ hand-checked vs Treasury tentative schedule — no coupon auctions |
+| Owed: `KB-BND-307` cadence correction | ✅ Status CORRECTED |
+| Owed: READ_CAP rotations | ✅ PREDICTIONS · CATALYSTS · STATUS below the rule-5 stop line |
+| Carried (dated) | DEALER_CAPACITY body → 10/1 print · FOMC curve-shape row by 10/21 · check_fr2004 pattern gap |
+| Files written | STATUS · SCRATCH · RECEIPT · KB (+346, 307 corrected) · CREDIT_PRIMARY_MARKET.md · kb_lint.py · analysis/2026-10-01_wq291_grade.py · outbox audit · 2 archives · 1 snapshot |
+| Outbox | 5 unverified packets remain (<60d, superseded FYIs per the 9/28 audit) |
+| Git | see commit after closeout_check |

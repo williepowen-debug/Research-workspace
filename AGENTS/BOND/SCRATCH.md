@@ -1,56 +1,56 @@
-# BOND SCRATCH — 2026-09-28 (Mon) 10:34→13:15 ET (three passes + closeout; commits 10:43 · 11:11 · 11:37 stamp fix · closeout 13:15): live-event boot (Will: "yields appear to be blowing out across many countries"). *Prior:* 9/26 `prome-1d` spawn (WQ-291 letter + WQ-246 rec + L0 drain) · 9/25 FR2004 timing/FORUM-7/WQ-290 · 9/24 three sessions.
+# BOND SCRATCH — 2026-09-28 (Mon) catch-up session 14:37 → 14:46 ET (Will: "boot up, catch up on owed work"). *Prior same day:* 10:34→13:15 ET live-event session (+ outbox audit to ~14:05). *Earlier:* 9/26 `prome-1d` · 9/25 · 9/24.
 
-**Purpose:** ephemeral handoff. Read at boot, rewritten at closeout. Durable → `MEMORY.md`; evidence → `workbook/`. Previous SCRATCH text is in git history (`git show HEAD~1:AGENTS/BOND/SCRATCH.md`).
+**Purpose:** ephemeral handoff. Read at boot, rewritten at closeout. Durable → `MEMORY.md`; evidence → `workbook/`. The previous SCRATCH text is in git history (`git show HEAD~1:AGENTS/BOND/SCRATCH.md`).
 
 > ## ⚠️ STATE AT WRITING
-> ⛔ **POSITION: TLT Sep-30 77P ×20 — HOLD to expiry, no add (WQ-280), `$0`.** TLT 78.61 intraday 9/28 ⇒ strike 2.0% below spot, 2 sessions left (TERRY's rail). Composite **14/35** (unchanged). Counter **0**. OPEN predictions **0**.
-> 🔴 **Rates:** official 30Y 5.49 [9/25] = 3rd straight fresh 2026 high; 9/28 intraday vendor 30Y 5.55 / 10Y 5.23 / 5Y 5.06 (+5bp); global DM 10Y +1 to +7bp (Anglo-sphere-led) — `KB-BND-340`.
-> 🔴 **Credit:** CCC 1112 [9/24] ≥ 1100 ⇒ `BND-27` FALSE; 1128 [9/25]; HY 293 (+25bp/3 sessions, ~97th pct), **7bp from 300** — `KB-BND-341`.
+> ⛔ **POSITION: TLT Sep-30 77P ×20 — HOLD to expiry, no add (WQ-280), `$0`.** Expiry Wed 9/30 (TERRY's rail).
+> Composite **14/35** (unchanged) · Counter **0** · OPEN predictions **0** (live file = header only).
+> Last FRED print (unchanged since the morning): HY 293 · CCC 1128 [9/25] · DFII10 2.85 [9/24] · DGS30 5.47 [9/24]; the official Treasury 30Y is 5.49 [9/25].
 
-## ⚠️ STAMP CORRECTION 11:36 ET: PROME flagged clock stamps ahead of commits (pass 1 = 10:34→10:43, pass 2 = 10:43→11:11). Fixed on BOND surfaces + KB-BND-340..343. NOT edited (other desks' dirs): the LIQUID packet (now in LIQUID processed/, stamps "~11:5x"/"~12:1x") and both PROME memos ("~11:4x", "~12:1x") — true times = their commits 10:43 / 11:11. Figures unaffected.
-
-## WHAT I DID — 2026-09-28 pass 3 + closeout (after the 11:37 commit →13:15 ET; stamp from `date`)
-1. Will Q&A, "how significant are these moves / CRE + regional banks": answered in chat from BOND stats (4-session DGS10 +17bp = ~5% of windows post-2010, notable not extreme; 10Y +100bp/yr; DFII10 99.6th pct; 2016–21 loan-vintage 5Y avg 0.53–1.95 vs ~5.0 now) + CITED REGINALD/CREED 9/24–9/27 reads → `KB-BND-344` (bank/CRE figures are theirs, not BOND's; no joint read run).
-2. Closeout pass found two stale monitors: `CREDIT_PRIMARY_MARKET.md` (said CCC "15bp below 1100", which fired 9/24) → refreshed to 9/25 levels, **pulled-deal check marked NOT RE-CHECKED since 9/17 (GAP)**; `CDX_CASH_BASIS.md` → proxy re-run (`KB-BND-345`, VX-06): HYG/IEF stayed rich while cash HY widened = rate confound, proxy uninformative here.
-4. [13:22 ET, found by a post-closeout file audit Will asked for] `workbook/FLOW.tsv` had been MISSED: FL-02/12/15 evidence updated; **FL-BND-16 Real-Yield Shock → HY Spreads registered as WATCH** (confirmation = LIQUID Q4 D1 + BOND D7 through 10/14 CPI).
-3. STATUS: last-session line, live marks (13:15 ET: 10Y 5.25 / 30Y 5.57 / TLT 78.60, vendor), matrix row 6, bottom-line pointer.
-
-## WHAT I DID — 2026-09-28 pass 2 (10:43→11:11, Will: "finish this live-event read with one short assessment")
-1. `analysis/2026-09-28_live-event-assessment.md` (+ `KB-BND-343`): rates decomposition (10Y +21 = real +20 / BE +1; TP from 9/24 = INFERENCE) · credit tiers CCC/B/BB/BBB/IG (**B and BBB = the only new pulls, disclosed**) · thesis supported/weakened/unchanged-score · evidence ≠ authorization · one new research need (cross-market attribution → PROME to scope).
-2. PROME memo `PROME/inbox/2026-09-28_from-BOND_live-event-assessment-and-10-1-dealer-test.md` (assessment + WQ-291 10/1 conditions; **explicit: test lands AFTER the 9/30 expiry**; Will's hold/NO-ADD unchanged). LIQUID facts packet `AGENTS/LIQUID/inbox/2026-09-28_from-BOND_credit-tier-facts-for-Q4-grade.md` (their grade; B crossed p75 9/24, D1 not met).
-3. NEXUS_BRIEF T5YIFR distance fixed (history kept as "was 14bp", current 16bp [9/25], caveat that breakevens stay flat); boot_recompute derived-distance + FR2004 drift now clean.
-4. prome-7f SendMessage'd 11:07 asking for exactly this memo; PROME + LIQUID doorbelled after commit.
-
-## WHAT I DID — 2026-09-28
-1. Boot: pull clean (0 behind) · boot_recompute rc1 = 3 findings (STATUS:28 + SCRATCH:17 FR2004 teaching/history lines; NEXUS_BRIEF:16 T5YIFR "14bp" vs 16) — STATUS/SCRATCH lines rewritten away this session; NEXUS_BRIEF NOT fixed (see threads) · docket_check rc1: 10/6 3Y `91282CRQ6`, 10/7 10Y-R `91282CRF0`, 10/8 30Y-R `912810UW6` — rows EXISTED with CUSIP "TBA"; CUSIPs added · corrections rc0 (COR-20260925-13 ALL-warn, not BOND's).
-2. Live read (Treasury official 9/25 + yfinance intraday + TE global + FRED credit/funding) → `KB-BND-340`, `KB-BND-341`; VX-02/05/11 refreshed (VX-11 3→4 on the registered 1100 escalation); VX-01 write-back (owed since 9/24) done.
-3. `BND-27` RESOLVED FALSE (first-published vintage verified). Knowledge check: LIQUID + BROCK STATUS already carry CCC 1112 [9/24] ⇒ no packet (disclosed in KB-341).
-4. **WQ-291 + WQ-246 ENCODED** (PROME packet 9/26 15:57, ~43h late): THESIS v1.2.9 (DFII10 row replaced; WQ-291 bullet + three riders in the kill section) · CHANGELOG · TRADE gate (a) · STATUS gate table · `KB-BND-342`. Packet git-mv'd to `inbox/processed/`. **Reply with hashes → PROME owed (this commit).**
-5. STATUS rewritten (top block condensed; full 9/26 file → `domain/sources/2026-09-28_STATUS_full-snapshot_pre-9-28-rewrite.md`).
+## WHAT I DID — 9/28 catch-up (14:37 → 14:46 ET)
+1. **Boot:** fetch 0/0 (no pull needed; HAWK had uncommitted changes, left alone). docket_check rc0 (verified through 10/8). corrections rc0. WALTER inbox empty. boot_recompute rc0 (no drift). ⚠️ The step-5 CATALYSTS read was **SKIPPED until ~40 min in**; it was done late and disclosed in the READS packet.
+2. **Blind span 10/9→10/19 hand-checked** against the Treasury Tentative Auction Schedule PDF (created 2026-08-04, covers through Dec): **no coupon auction in the span**. Columbus Day is **Mon 10/12**. Every October coupon auction is docketed (3Y 10/6, 10Y-R 10/7, 30Y-R 10/8, 20Y-R 10/21, 5Y TIPS 10/22, 2Y/5Y/FRN/7Y 10/26–29).
+3. **8/27 kill-scope flag RESOLVED:** it reached PROME as **WQ-99**, RULED 9/1 (the OLD definition governs the ADD re-arm; recorded exception). The morning audit's "no PROME record" was a naming-keyed false absence. The audit was corrected and the packet `git mv`'d to `outbox/delivered/`. Residual: (b) the LIQUID routing trigger and (c) the grader dual-print have no explicit ruling; both run OLD, consistent with WQ-99. Not live.
+4. **READS.tsv declaration** (DAEDALUS ask, due 9/30): 19 rows packeted (`1b78da2d8`); **PROME transcribed at `8c7bf0614`** (reads_check rc0). ⚠️ The packet header stamp "~15:1x" was typed ahead of the clock (committed before 14:42). PROME noted it. The packet is now in PROME's processed/ and is NOT edited there.
+5. **Rotations (READ_CAP rule 5):** PREDICTIONS 27,320→120 B (BND-25..29 → `thesis/archive/PREDICTIONS_resolved_BND-25_to_BND-29.tsv`). CATALYSTS 26,539→22,176 B (4 fired rows → `docket/archive/CATALYSTS_fired_2026-09.tsv`). Rows were cmp-conserved in both. STATUS 25,265→~22,0xx B (snapshot `domain/sources/2026-09-28b_STATUS_full-snapshot_pre-rotation.md`, crc32 2552442073).
+6. **`kb_lint` fix:** the PREDICTIONS header guard read `rows[0]`, so a header-only file (0 OPEN) FAILED as "wrong header". It now reads `fieldnames`. Tested: header-only rc0 · comment-first rc1 · 0-byte rc1 · real rows rc0. Selftest 14/14.
+7. **HY primary access (L477 Q4 D8; subagent web sweep) → `KB-BND-346` (C3), `CREDIT_PRIMARY_MARKET.md` refreshed:**
+   - OPEN for large credits: SoftBank $11.1B record HY 9/23–24, book >$30B at 8.6–9.75%. Paramount ~$12.4B HY launched 9/28, **UNPRICED**.
+   - **Pulled-deal leg UNVERIFIABLE (LCD/Debtwire/IFR paywalled) — a gap, not a zero.**
+   - Sep HY volume: "busiest month" (Bloomberg) vs "2nd-busiest" (junkbondinvestor). **CONFLICT unresolved.**
+   - The Bloomberg CCC index (968) ≠ ICE CCC (1128). Don't mix them.
+8. **`KB-BND-307` CORRECTED:** the cadence half (">=15-day lag, pairable early October") was wrong; the lag is ~8 days and the fire was graded 9/24.
+9. **WQ-291 grader built + dry-run:** `analysis/2026-10-01_wq291_grade.py`. It reproduces PRE $47.986B and returns rc=3 GAP (as-of 9/23 unpublished). rc 0 = graded · 2 = fetch/PRE mismatch · 3 = GAP.
+10. Stamp-drift memory extended (n+6, BOND again, same day).
 
 ## 🔴 NEXT SESSION (dated, future-verifiable)
-1. 🔴 **Tue 9/29 AM: HY OAS 9/28 cell** — >300 with this velocity = matrix row 4 letter ⇒ 3, and the HYG-put question reopens on INDEX evidence (TERRY card + Will; never a BOND action). Also DGS30 9/28 official vs 5.49 (4th high?).
-2. 🔴 **Wed 9/30:** quarter-end; Aug PCE + GDP 3rd; SOFR−IORB (0bp [9/25]); TLT 77P expiry (TERRY).
-3. 🔴 **Thu 10/1 ~16:15: FR2004 as-of 9/23 — WQ-291 grade: 3–6Y ≥ $56.586B ⇒ MET** (report MET / NOT MET / GAP with margin by the 10/2 boot; riders: not proof of warehousing; funding window UNGRADED; a MET = recommendation via TERRY + Will). Same print = FORUM-7 FINAL D3a/D3b (HENRY letter `bc540e071`) + L477 Q4 below-IG inventory (`KB-BND-336`). `fr2004_fetch.py` pulls 7Y+ only — pull `PDPOSGSC-G3L6` explicitly (`analysis/2026-09-25_FORUM-7_fr2004_series.py`). Also H.4.1 week-9/30 (ZHAO reader), F2 10Y–20Y op, quarterly `I'` refresh + corpus re-run, `VX-19` definition, TIPS-`I'` question (DOCKET L410).
-4. 🟠 **10/1 announcement → freeze bars for 10/6 3Y / 10/7 10Y-R / 10/8 30Y-R** (the 10/7–10/8 long-end legs can fire row 1's ⇒5 letter). Blind span 10/9→10/19 UNVERIFIED by tool — hand-check against the QRA tentative schedule.
-5. 🟠 **By 9/30: `READS.tsv` declaration** (BOND has 0 rows in `PROME/registry/READS.tsv`; DAEDALUS ask) — carried, not done.
-6. 🟠 **By 10/21:** register the 10/28 FOMC curve-shape prediction with a base rate (OPEN count is now 0).
-6b. 🔴 **Pulled-HY-deal / primary-access check** — not done since 9/17 (L477 Q4 D8, due before 10/14); do it next session given HY +25bp/3 sessions.
-6c. 🟡 `monitors/AUCTION_HEALTH.md` header still 9/17 (9/22–24 grades live in STATUS/KB-312/313) — refresh at the 10/1 bar-freeze.
-7. 🟡 `check_fr2004` pattern gap (bare "FR2004 m/d:" form) · `DEALER_CAPACITY.md` body refresh · `KB-BND-307` cadence correction · NEXUS_BRIEF:16 T5YIFR distance (14→16bp) — all carried.
+1. 🔴 **Tue 9/29 AM: HY OAS 9/28 cell.** Over 300 with this velocity means matrix row 4's letter ⇒ 3, and the HYG-put question reopens on INDEX evidence (TERRY card + Will; never a BOND action). Also check the official DGS30 9/28 vs 5.49 (a 4th high?).
+2. 🟠 **Paramount HY pricing (~9/29–10/1):** final yield vs "low-9%" talk and final size vs ~$12.4B. Wider or downsized = the first access crack. It is the only free-source access test available.
+3. 🔴 **Wed 9/30:** quarter-end · Aug PCE + GDP 3rd · SOFR−IORB (0bp [9/25]) · TLT 77P expiry (TERRY).
+4. 🔴 **Thu 10/1 ~16:15: FR2004 as-of 9/23.**
+   - Run `../../.venv/bin/python analysis/2026-10-01_wq291_grade.py`.
+   - Report MET / NOT MET / GAP with margin by the 10/2 boot. The riders travel with the verdict; a MET is a rec via TERRY + Will.
+   - The same print feeds the FORUM-7 FINAL D3a/D3b (HENRY `bc540e071`) and L477 Q4 below-IG inventory (D6).
+   - Also: H.4.1 · F2 10Y–20Y op (carrier) · quarterly `I'` refresh + corpus re-run · `VX-19` definition · TIPS-`I'` question (DOCKET L410) · `DEALER_CAPACITY.md` body refresh (deferred to this print).
+5. 🟠 **10/1 announcement → freeze bars** for 10/6 3Y / 10/7 10Y-R / 10/8 30Y-R. The 10/7–10/8 legs can fire row 1's ⇒5 letter. Refresh the `AUCTION_HEALTH.md` header then.
+6. 🟠 **By 10/21:** register the 10/28 FOMC curve-shape prediction with a base rate (OPEN = 0).
+7. 🟡 **WQ-317** (cross-market attribution): APPROVE rec is pending Will's word. **Do NOT start without it.** If ruled, the letter is in `PROME/WILL_QUEUE.md`; it's one bounded read inside the 10/1 refresh.
+8. 🟡 Carried: `check_fr2004` bare "FR2004 m/d:" pattern gap · charter step-7 verb vs kb_lint practice (disclosed in READS): align the verb in BOND's own `CLAUDE.md` in a quiet session.
 
 ## OPEN THREADS / KNOWN GAPS
-- ✅ **[13:30 ET] OUTBOX AUDIT DONE (Will-directed)** → `analysis/2026-09-28_outbox-delivery-audit.md`: 47 packets = 33 verified → `outbox/delivered/` (2 were identical duplicates, outbox copies trashed) · 8 unverified & >60d → `archive/outbox_unverified/` (NOT a delivery claim) · 6 unverified & <60d kept in `outbox/`. 🔴 **One may be live: `outbox/2026-08-27_to-PROME_kill-scope-ENCODED-plus-three-uses-the-ruling-does-not-reach.md`** — the TLT-put ADD re-arm + LIQUID routing trigger still run on the OLD composition definition, and no PROME record of the flag exists. Re-send or ask Will — not done. **Asked Will at 14:05 ET; he closed the session without choosing ⇒ CARRIED to next session, not dropped.**
-- 🔴 **LIQUID owns the Q4 grade on the 9/25+ cells** (BOND sent facts only). Next BOND-side: D6 FR2004 below-IG 10/1; D8 pulled-HY-deal check STALE since 9/17 (gap). Watch B 15-session ≥ +28 on 9/28–9/30 cells, IG ≥ +6 / BBB ≥ +7.
-- 🟡 **New research need named, not started:** cross-market attribution of the 9/22→9/28 move (BOND/HANS/SAM) — PROME scopes.
-- ACM/KW TP not re-pulled 9/28 (STATUS marks STALE); FORUM-7 P2 KW grade is HENRY's (~9/28–29).
-- Intraday Brent front quote looked like a roll artifact (−5.2%, contract UNKNOWN) — oil is BRENT's; not cited.
-- No global-sell-off packet sent: EU/JGB/FX legs belong to HANS/LIQUID/SAM and WALTER routes news. If the OAT>BTP inversion is new to LIQUID, that is LIQUID's lane.
+- LIQUID owns the Q4 grade on the 9/25+ cells (BOND sent facts only). Watch B 15-session ≥ +28 · IG ≥ +6 / BBB ≥ +7.
+- ACM/KW TP not re-pulled since 9/24 (STATUS marks STALE). The FORUM-7 P2 KW grade is HENRY's.
 - Replies owed TO BOND: ZHAO (custody/TIC).
-- TRAPS (carried): `csv.writer` re-quotes TSV fields — use raw split/join · `python3 -c` fails in this shell wrapper (use a script file) · `fetch.fred_fetch` default limit=5 · ACM xls "ACM Daily" sheet · venv for `grade_auction`/`cdx_proxy`/xlrd.
+- TRAPS (carried):
+  - `csv.writer` re-quotes TSV fields; use raw split/join.
+  - `python3 -c` fails in this shell wrapper; use a script file or heredoc.
+  - `fetch.fred_fetch` default limit=5.
+  - The ACM xls is the "ACM Daily" sheet.
+  - Use the venv for `grade_auction`/`cdx_proxy`/`fr2004_fetch`/xlrd.
+  - **Never type a clock — `date` in the same command.**
 
 ## POSITION
 **TLT Sep-30 77P ×20 — HOLD to expiry, `$0`.** No add (WQ-280). Harvest/expiry = TERRY.
 
 ## MAIL
-**In:** PROME WQ-291/246 RULED packet — encoded, processed. **Out:** PROME ×2 (WQ-291/246 hashes `5a4c81bfa`; live-event assessment + 10/1 test) · LIQUID ×1 (credit-tier facts for Q4 grade).
+**In:** PROME doorbells ×2 (READS transcribed `8c7bf0614`; WQ-317 pending Will). **Out:** PROME READS packet (processed) + SendMessage.
