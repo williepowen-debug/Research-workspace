@@ -1,7 +1,7 @@
 # BOND — Status
 
 **Agent:** BOND · **Domain:** US bond-market structure (+ MBS/FHLB + EU rates per the 6/27 extension; + the sovereign-credibility instrument set per the 8/10 forum — scope in `CLAUDE.md`)
-**Last session:** 2026-09-28 Mon **14:37→15:59 ET (catch-up: owed-work sweep, READS, rotations, HY access, HY-300 correction, CCC refi wall)** · 2026-09-28 10:34→13:15 ET (live-event boot + assessment + CRE/bank Q&A) · 2026-09-26 Sat (`prome-1d`: WQ-291/246) · 2026-09-25 · 2026-09-24
+**Last session:** 2026-09-28 Mon **16:18 ET boot (WALTER lane ×3 + official 9/28 curve)** · 2026-09-28 **14:37→15:59 ET (catch-up: owed-work sweep, READS, rotations, HY access, HY-300 correction, CCC refi wall)** · 2026-09-28 10:34→13:15 ET (live-event boot + assessment + CRE/bank Q&A) · 2026-09-26 Sat (`prome-1d`: WQ-291/246) · 2026-09-25 · 2026-09-24
 
 > 📕 **HOT/COLD SPLIT — NOTHING DELETED.** Pre-rotation snapshot of THIS file (9/28 14:45 ET): `domain/sources/2026-09-28b_STATUS_full-snapshot_pre-rotation.md` (25,265 B, crc32 `2552442073`) — holds the full 9/28 top items, the long Exit §1 history and the 9/28 bottom-line paragraphs this rotation condensed. Older: `domain/sources/2026-09-28_STATUS_full-snapshot_pre-9-28-rewrite.md`, `…2026-09-24…`. **Budget 32,550 B; rotate-tier ≥75% — rotate, never raise.**
 
@@ -11,6 +11,7 @@
 
 ## 🔴 TOP OF FILE — what changed since 9/24
 
+00000. 🔴 **[9/28 16:2x ET] OFFICIAL 9/28 CURVE (`KB-BND-350`) — 4th session, now FRONT-END-LED:** 2Y **4.92 (+11)** · 5Y 5.06 (+8) · 10Y **5.24 (+7)** · 20Y 5.60 · 30Y **5.56 (+7)**; 2s30s 68→**64** (bear flattener); 1y1y ≈5.25. Real 10Y **2.90 (+7)**, 10Y BE flat 2.34 ⇒ real-led. **30Y = 4th straight 2026 high, highest close since 2004-06-14; 10Y highest since 2007-06-12; 2Y since 2024-05-30; DFII10 2.90 last matched 2008-11-24.** Policy-path repricing hawkish, not a term-premium-only day. No matrix row moves (fresh highs ≠ row 1's ⇒5 letter). WALTER -005/-007/-009 processed; -007's "Sept issuance settled SECOND" corrected to a vintage TIE (`KB-BND-352`, packet to WALTER).
 000. 🟢 **[9/28 14:37→15:59 ET] CATCH-UP SESSION.** **HY primary access OPEN for large credits** (SoftBank $11.1B record HY 9/23–24; Paramount ~$12.4B HY launched 9/28, unpriced = next access test); **pulled-deal leg a GAP, not a zero** (`KB-BND-346`). READS declared (PROME `8c7bf0614`); PREDICTIONS/CATALYSTS/STATUS rotated. Blind span 10/9→10/19: no coupon auctions. 8/27 flag = WQ-99, ruled 9/1. WQ-291 grader dry-run: `analysis/2026-10-01_wq291_grade.py` (PRE $47.986B, GAP until Thu).
 0000. 🟠 **[9/28 15:2x–15:3x ET] Two later items.** ① **HY >300 is BOND's row-4 marker, NOT a capital reopen** — X1 CLOSED 8/28 (`KB-BRK-219`), reopens only via BROCK's **10/02** sitting → TERRY + Will (PROME correction, verified; `KB-BND-348`; COR-20260925-13 receipted late). ② **CCC refi wall 2027–28 (Will-approved):** mechanism confirmed and NARROW — PIMCO (8/26 data): CCC 2027–28 coupons could double; index-level negligible; CCC yield 14.57→**16.14%** since. Pressure 2028–29, loan-heavy; CCC sector split = GAP (`KB-BND-349`, `analysis/2026-09-28_CCC-refi-wall-2027-28.md`).
 00. 🟠 **[9/28 10:43→11:11 ET, `69059ae09`] LIVE-EVENT ASSESSMENT → `analysis/2026-09-28_live-event-assessment.md`** (`KB-BND-343`): 10Y +21bp 9/22→9/25 = **real +20 / BE +1** ⇒ real-led; TP from 9/24 = INFERENCE. Credit: spread from CCC into **all HY in speed, not level** (CCC +53 · B +29 · BB +20 · IG +4, 3 sessions); IG not joined. Grades = LIQUID's. Score unchanged; the 10/1 dealer test lands AFTER the 9/30 expiry.
@@ -32,17 +33,17 @@
 
 ## Current Dashboard
 
-*Pulled live **2026-09-28 10:34–10:43 ET (intraday; B/BBB tiers 10:43–11:11)** via `monitors/boot_recompute.py` + `fetch.py` (cache-busted) + the U.S. Treasury par/real curve CSV for the **9/25 official cells** (FRED frontier is 9/24 for H.15; credit 9/25). Intraday vendor marks are labelled and are NOT official closes. No naked numbers.*
+*Rates rows updated **2026-09-28 16:19 ET to the OFFICIAL 9/28 Treasury par/real cells** (FRED frontier still 9/25). Credit rows pulled live **2026-09-28 10:34–10:43 ET (intraday; B/BBB tiers 10:43–11:11)** via `monitors/boot_recompute.py` + `fetch.py` (cache-busted) + the U.S. Treasury par/real curve CSV for the **9/25 official cells** (FRED frontier is 9/24 for H.15; credit 9/25). Intraday vendor marks are labelled and are NOT official closes. No naked numbers.*
 
 | Metric | Current | Status | Source / Date |
 |---|---:|---|---|
-| 30Y (DGS30) | **5.49%** | 🔴🔴 | [CONF **U.S. Treasury par curve 9/25** = H.15 source; FRED 5.47 [9/24]] — **3rd straight fresh 2026 high**; run ≥5.00 = 58 on the Treasury cell. 20Y 5.54. **Intraday vendor `^TYX` 5.551 [9/28 ~10:20 ET, +4.7bp] → 5.57 [13:15 ET]** |
-| 10Y (DGS10) | **5.17%** | 🔴 | [CONF Treasury **9/25**; FRED 5.18 [9/24]] — **intraday vendor `^TNX` 5.234 [9/28 ~10:20, +5.0bp] → 5.25 [13:15 ET]** = above 5.2, new highs since mid-2007 (TE) |
-| 5Y (DGS5) | **4.98%** | 🔴 | [CONF Treasury **9/25**, −5] — intraday vendor `^FVX` 5.063 [9/28, +5.6bp] |
-| 2Y · 1Y | **4.81% · 4.50%** | 🔴 | [CONF Treasury **9/25**] — 2Y −6 on Friday; 1y1y ≈ **5.12** (2×2Y−1Y par approx; 5.23 [9/24]). 2s10s +36, **2s30s +68** (steepening, long-end-led) |
-| **10Y real (DFII10)** | **2.83%** | 🔴🔴 **GATE THROUGH · SUSTAIN MET** | [CONF **Treasury real curve 9/25**; FRED 2.85 [9/24]] — 30Y real 3.22, 5Y real 2.64. **WQ-246 count: 11 consecutive FRED closes ≥2.50 (9/10–9/24), 12 on the Treasury cell** — met, authorises no add |
+| 30Y (DGS30) | **5.56%** | 🔴🔴 | [CONF **U.S. Treasury par curve 9/28** = H.15 source; FRED 5.49 [9/25]] — **+7bp; 4th straight fresh 2026 high; highest close since 2004-06-14 (5.58)**; run ≥5.00 = 59 on the Treasury cell. 20Y 5.60 |
+| 10Y (DGS10) | **5.24%** | 🔴 | [CONF Treasury **9/28**; FRED 5.17 [9/25]] — **+7bp; highest close since 2007-06-12 (5.26)** (BOND computation, FRED full series) |
+| 5Y (DGS5) | **5.06%** | 🔴 | [CONF Treasury **9/28**, +8] |
+| 2Y · 1Y | **4.92% · 4.59%** | 🔴 | [CONF Treasury **9/28**] — **2Y +11 = the day's largest mover; highest since 2024-05-30**; 1y1y ≈ **5.25** (2×2Y−1Y par approx; 5.12 [9/25]). 2s10s +32, **2s30s +64** (was 68: **bear FLATTENER on 9/28**, front-end-led) |
+| **10Y real (DFII10)** | **2.90%** | 🔴🔴 **GATE THROUGH · SUSTAIN MET** | [CONF **Treasury real curve 9/28**, +7; FRED 2.83 [9/25]] — **last matched 2008-11-24; 99.7th pct since 2003**. 30Y real 3.28, 5Y real 2.73. **WQ-246 count: 11 consecutive FRED closes ≥2.50 (9/10–9/24), 12 on the Treasury cell** — met, authorises no add |
 | 5Y5Y fwd (T5YIFR) | **2.34%** | 🟡 | [CONF FRED **9/25**] — **16bp from 2.50** |
-| 10Y BE (T10YIE) | **2.34%** | 🟡 | [CONF FRED **9/25**] — +1 on 9/25 while real −2: Friday was NOT real-led (9/23–9/24 were) |
+| 10Y BE (T10YIE) | **2.34%** | 🟡 | [CONF FRED **9/25**; Treasury par−real 9/28 = 2.34, flat] — **9/28 was real-led again** (real +7, BE 0); Friday 9/25 was not |
 | ACM 10Y TP · KW TP | **0.6454** [9/23] · **0.9595** [9/18] | 🟠 [STALE — 9/24 pull] | [NY Fed ACM Daily · FRED `THREEFYTP10`] — not re-pulled 9/28; FORUM-7 P2 (KW 9/21–9/24) grades ~9/28–29, HENRY's lead. **Name the model in any TP claim** |
 | **HY OAS** | **293bps** | 🟠 ↑ | [CONF FRED **9/25**] — **+25bp in 3 sessions (~97th-pct velocity)**; 7bp from 300; 2026 max 346 |
 | **CCC OAS** | **1128bps** | 🔴 ↑ | [CONF FRED **9/25**; 1112 [9/24] first-published] — **1100 escalation FIRED 9/24**; 9bp under span max 1137 [2025-04-07] |
@@ -50,7 +51,7 @@
 | CCC−BB tail gap | **952bp** | 🔴 ↑ | [CONF FRED, BOND computation **9/25**] — new span max (948 [9/24]) |
 | **FR2004 long-end** | **$144.4B** [as-of 9/16] | 🟡 | [NY Fed, published 9/24 16:16 ET] — −$1.8B w/w; 11-21Y $68.5B (+1.7), >21Y $40.8B (−2.6). **Next: as-of 9/23 Thu 10/1 ~16:15 = the WQ-291 3–6Y grade (≥ $56.586B)** |
 | **SOFR − IORB** | **0bp** | 🟡 ↑ | [CONF FRED SOFR 3.90 · IORB 3.90, **9/25**] — up from −3 [9/23] into quarter-end; not positive. LIQUID owns |
-| TLT · MOVE | **$78.61 −0.90%** [9/28 intraday] · **96.00** [vendor ^MOVE 9/25] / 104.58 [VIOLET 9/24] | 🟠 · 🔴 | [yfinance — a MOMENT property, re-pull at any decision, root rule #4] 77P strike **2.0% below spot**, expiry 9/30. MOVE: two sources, VIOLET owns |
+| TLT · MOVE | **$78.62 −0.88%** [9/28 close-area, yfinance 16:19 ET] · **96.00** [vendor ^MOVE 9/25] / 104.58 [VIOLET 9/24] | 🟠 · 🔴 | [yfinance — a MOMENT property, re-pull at any decision, root rule #4] 77P strike **2.0% below spot**, expiry 9/30. MOVE: two sources, VIOLET owns |
 | Global 10Y (9/28 intraday) | UK 5.41 · DE 3.63 · FR 4.76 · IT 4.59 · JP 3.10 · CA 3.99 · AU 5.43 | 🟠 `[HANS/SAM own]` | [TE bonds page, fetched 9/28 before 10:43 ET, secondary] — JGB 30Y 4.18, 40Y 4.23. **Name the basis** (UK: BoE IADB par vs TE, `KB-BND-319`) |
 | USD/JPY · oil · VIX | **cite SAM · BRENT · VIOLET** | — | this desk keeps no copy (vendor Brent front quote on 9/28 looks like a roll artifact — do not use) |
 
@@ -58,11 +59,11 @@
 
 | Gate | Distance | State |
 |---|---:|---|
-| **DFII10 ≥2.50 — TLT-put add-gate (a)** | 🔴 **THROUGH by 33bp** [2.83, Treasury 9/25] · 35bp [2.85, FRED 9/24] | **Sustain leg MET under WQ-246 (5 consecutive; 11 FRED closes)** — authorises NO add (NO-ADD 7/16 + WQ-280) |
+| **DFII10 ≥2.50 — TLT-put add-gate (a)** | 🔴 **THROUGH by 40bp** [2.90, Treasury 9/28] · 33bp [2.83, FRED 9/25] | **Sustain leg MET under WQ-246 (5 consecutive; 11 FRED closes)** — authorises NO add (NO-ADD 7/16 + WQ-280) |
 | **Auction re-arm (OLD conjunctive) — TLT-put add-gate** | 🔴 **MET 9/23 (5Y)** | ✅ **ADD DECLINED — WQ-280 RULED 9/24 13:17 ET.** Spent on 004 |
 | **Kill dealer leg, 9/23 5Y (WQ-291)** | as-of 9/23 must be ≥ **$56.586B** (PRE $47.986B) | ⏳ prints **Thu 10/1 ~16:15**; funding window for this fire **UNGRADED** by ruling |
 | T5YIFR >2.50 | 16bp [9/25] | 🟡 |
-| DGS30 >5.00 · DGS10 >4.50 | — | 🔴 BREACHED (run 58, Treasury cell) · 🔴 BREACHED |
+| DGS30 >5.00 · DGS10 >4.50 | — | 🔴 BREACHED (run 59, Treasury cell 9/28) · 🔴 BREACHED |
 | HY OAS >300 (BOND row-4 marker — **not** a capital reopen; X1 CLOSED 8/28) | **7bp** [9/25] | 🟠 closing fast |
 | CCC >1100 escalation | **FIRED 9/24** (+12; +28 on 9/25) | 🔴 `BND-27` FALSE |
 | Credit-equity lead (HY +75–100 from the 263 trough, VIX <20) | 45–70bp | 🟡 moving (HY 293; VIX 15.87 intraday 9/28, vendor) |
@@ -135,7 +136,7 @@
 
 ## BOTTOM LINE
 
-**[2026-09-28 Mon, catch-up session 14:37→14:46 ET.]** **The bond sell-off is in its fourth day and global; what is extreme is how high yields are and how long it has lasted, not any single day.** Official 30-year 5.49% Friday (third record-for-the-year close in a row, highest since 2004); ~5.55% on vendor quotes today. The rise is in real (after-inflation) yields, not inflation pricing.
+**[2026-09-28 Mon, updated 16:2x ET on the official close.]** **The bond sell-off is in its fourth day and global; what is extreme is how high yields are and how long it has lasted, not any single day.** The official 30-year closed **5.56% today** (+7bp; the fourth record-for-the-year close in a row and the highest since June 2004); the 10-year closed 5.24%, its highest since June 2007. **Today's twist: short-term yields led** (2-year +11bp to 4.92%), which means markets are pricing more Fed hikes, not just demanding extra pay for long bonds. The rise is in real (after-inflation) yields, not inflation pricing.
 
 **Credit joined, but the door is still open.** Junk spreads widened 25bp in three days to 293bp (7bp from 300bp — BOND's own warning marker; it does **not** reopen index hedging, which stays shut by the 8/28 X1 ruling until BROCK's 10/02 sitting says otherwise, then TERRY's card and your approval), and the lowest-rated tier crossed this desk's 1,100bp alarm line — my 65% call that it wouldn't was wrong. **But big borrowers are still getting deals done:** SoftBank sold a record $11.1B junk deal last week with over $30B of orders, and Paramount launched ~$12.4B today. **Caveat that matters:** I could not check whether smaller deals were pulled — the trackers that record that are paywalled — so "open" is shown for large issuers only, not proven for the weak ones.
 
