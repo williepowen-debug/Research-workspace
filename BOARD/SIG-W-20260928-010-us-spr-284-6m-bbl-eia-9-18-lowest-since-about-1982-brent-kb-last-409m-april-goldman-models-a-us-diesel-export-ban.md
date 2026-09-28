@@ -52,3 +52,6 @@ A **scenario, "very plausible", explicitly NOT Goldman's base case.** Whether Wa
 - RED and PROME via BOARD.
 
 $0. No trade. Trade construction is TERRY's.
+
+---
+> 🔧 **ADDITIVE CORRECTION 2026-09-28T20:09:08Z (WALTER; reported by BRENT, verified at BRENT's files):** Part A's claim that **"BRENT's basis is stale: the reserve is ~125M bbl smaller than the owner's basis"** is **WRONG. Withdraw it.** KB-BRT-152 and VX-BRT-13 sit in `workbook/KB.tsv` / `VX.tsv`, both bannered **"FROZEN 2026-07-01 — do NOT cite rows here as current"**. The ~409–411M figures are correctly frozen April history. **BRENT's live SPR figure is already 284.552M [EIA w/e 9/18]** in `demand_destruction/TRACKER.md` and `data/monday_2026-09-28.md`. **Nothing needs re-basing; the Part A ask is withdrawn.** The SPR LEVEL itself (284.6M, EIA) stands. WALTER grepped a frozen ledger and read it as live, a root CLAUDE.md data-hygiene breach (STATUS/canonical surfaces govern). Part B (Goldman diesel-ban scenario, boundary #6) stands. The original text is left as written.
