@@ -25,6 +25,7 @@
 9. **Governance:** WQ-241 PROPOSAL (hysteresis 5.90–6.00 + symmetric re-fire; 🟠 under both rules today) + cadence WEEKLY + 12 watch terms → PROME (`df4e9f1a6`); walter-f8 doorbelled. `TRADE.md` DECLARED FLAT (DAEDALUS L4 closed).
 10. **Read-cap:** STATUS 32,493 → ~19.8 KB (61%); MEMORY 26,171 → 21,845 (67%). Rotations verbatim + crc (`STATUS_DETAIL` 9/13 blocks `5ff2d9aa`; `archive/MEMORY_ROTATED_20260928.md`). Obligation audit both directions caught the dropped 9/30 min-wage duty.
 11. Corrections applied in place: −56.5% → −37.0% (STATUS_DETAIL, COVERAGE); enrollment composition third term; COVERAGE P3 stale "clearing by cutting price" struck; THESIS state line (MSI leg 🟠).
+13. **Later same session (Will in-session):** WQ-241 + WQ-321 ruled and installed (`8ce8ecb83`, verified at `c0cfe7ba6` first); WQ-322 ruled option E — ~230/260 level trigger RETIRED (`4661cb048`). Sun Sentinel tri-county −35,000 enrollment logged press-tier (ML-088). **Statewide enrollment sweep:** membership −2.33% 2025-26, 61 of 67 districts down; scholarship FTE +72K vs district −68K; state blames immigration (EL −22K) ⇒ not domestic out-migration (ML-089, STATUS_DETAIL § I).
 12. Mail drained 14/14 (`git mv` → processed/, board_log rows). Packets: MARCO (Citizens mechanism, Aug months-supply, A3, NFIP), DAEDALUS (PR#6 done).
 
 ## NEXT SESSION
@@ -36,6 +37,8 @@
 - **10/16 FL Realtors September** — four legs.
 - **~late Oct:** Q3 FL-bank prints (bank-rail re-test) · AOUSC 9/30 F-2 table → re-run `tools/bkcy/build_bkcy.py`.
 - **H2:** bankruptcy spec defects (basis label, "fades" number) → Will via PROME **between grades, before 11/15**. Packeted in the 9/28 closeout memo to PROME — watch for the ruling; do not pick a basis myself.
+- **FLDOE Survey 2 (Oct-26 membership)** — the first same-basis statewide 2026-27 enrollment read; fldoe.org 403s, use the Wayback route (ML-089).
+- ⚠️ **STATUS is at 70% of budget (22,742 B)** — rotate the 9/28 READ-FIRST table to STATUS_DETAIL at the next append.
 - 11/4 Ballot No. 3 result (criterion 6 instrument) → 11/15 grade.
 
 ## OPEN THREADS

@@ -475,3 +475,15 @@ In re **FIHPNP LLC, No. 26-20876 (MEH), Bankr. D.N.J.** (Judge Hall), filed 9/24
 
 ## H. Bankruptcy instrument BUILT (OQ H) — see `tools/bkcy/README.md`
 12 mo to 6/30/26, M.D.+S.D. all chapters **217.1/100k, +21.2% YoY**; nonbusiness 205.5; Ch.7 151.5; statewide nonbusiness 199.0 (the carried "~190" = statewide nonbusiness 189.6 @3/31/26, exact); S.D. alone 230.0. US 176.3 (+12.3%). FL/US 1.205× → **1.231×**. Tripwire >~230 not crossed on the M+S basis; reachable at 12/31/26 if Jul–Dec growth ≥12.6% (every quarter since early 2025 has cleared that). **Spec defects flagged for between-grade amendment:** (1) the "Ch.7" label vs the "~190" anchor are different bases; (2) "fades" carries no number. **Direction is basis-robust: acceleration has NOT faded on any basis.**
+
+## I. Statewide FL enrollment sweep (2026-09-28, Will's ask; KB ML-CORAL-089)
+| Measure | Value | Basis / tier |
+|---|---|---|
+| FLDOE Oct membership PK-12 incl. charters | 2,859,655 → **2,792,954 (−66,701, −2.33%)**, Oct-24 → Oct-25 | Survey 2, PRIMARY via Wayback (fldoe.org 403) |
+| Districts down, 2025-26 | **61 of 67** (gains: Dixie, Sumter, Hendry, St. Johns, Charlotte, Walton; all <500) | same |
+| 2026-27 early, same-basis YoY | **9 of 11 down** (Broward −12,343 · Miami-Dade ~−15,100 first day · Orange −7,672 · Palm Beach −7,204 · Pinellas ~−3,840 · Seminole −1,473 · Volusia −1,400 · Osceola −816 · Lake −396); St. Johns flat; Lee slightly up | district PRIMARY (Broward, PB, Osceola, St. Johns) / press others |
+| District FTE (EEC) | 2,817,655 → 2,749,749 est (−67,906) → 2,722,531 fcst 26-27; 25-26 came in 55,549 below budget forecast | EDR EEC 8/11/26, PRIMARY |
+| Scholarship (FES) FTE | 361,748 → **434,053 (+72,305)** → 482,528 fcst | EEC, PRIMARY — ⚠️ not all switchers (universal eligibility) |
+| English-learner FTE | **−22,084 YoY** (~33% of district drop); private-school enrollment +1.5% | EEC 8/2026 |
+| Kindergarten | −11,337 (−5.9%); K cohort births (2020/21) 7–9% below the 2008 graduating cohort | FLDOE; FL DOH |
+⛔ District counts vs FLDOE Survey 2 disagree for the same year (Broward −10,834 vs −7,289; Lee −2,315 vs −1,167; Manatee +300 vs −324) — cite each on its own basis, never difference across. **Inference audit:** rival mechanisms (scholarship substitution, cohort size, international arrivals) all move the count the same way as domestic out-migration and are the ones the state and districts name ⇒ **not evidence of domestic out-migration; consistent with the Census intl −37%.** Pillar 7 unchanged. Next same-basis read: FLDOE Survey 2 (Oct-26).

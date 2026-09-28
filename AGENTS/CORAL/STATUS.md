@@ -59,7 +59,7 @@ Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo st
 
 | Pillar | Read | Signal |
 |---|---|---|
-| **Migration (7)** | Net domestic **+22,517** (2025, −93% from 2022 peak); intl **+178,674, −37.0% same-vintage** (V2025; the −57% carried until 9/28 was cross-vintage); natural change negative. OCPS enrollment **193,656 (9/15/26), −3.97%** — ⛔ **disqualified as a migration proxy** (MARCO: 72% of the drop is pipeline turnover; ≤2,032 upper bound on migration-consistent loss) | 🔴 |
+| **Migration (7)** | Net domestic **+22,517** (2025, −93% from 2022 peak); intl **+178,674, −37.0% same-vintage** (V2025; the −57% carried until 9/28 was cross-vintage); natural change negative. OCPS enrollment **193,656 (9/15/26), −3.97%** — ⛔ **disqualified as a migration proxy** (MARCO: 72% of the drop is pipeline turnover; ≤2,032 upper bound on migration-consistent loss). **Statewide: membership −2.33% (2025-26), 61 of 67 districts down** — scholarship FTE +72K vs district −68K; state blames immigration (EL −22K). Not domestic out-migration (ML-CORAL-089) | 🔴 |
 | **Tourism/snowbird (8)** | MARCO-owned. June FL airport print **uninformative** (Spirit liquidation confounds it); **MIA −5.48%** is the clean tell. Canadian Aug return trips 2-yr **−26.63%**, shallowest since Nov-25 | 🟠 |
 | **Single-family (2)** | $415K +1.2% (Aug), 4.3 mo, pendings turned negative | 🟡 |
 | **CRE (4)** | CREED cycle 3: **Aug special-servicing names NO FL asset**; 110 Tower Ft Lauderdale sold **$89M, −21% vs 2016 — performing sale, not distress**. Feed live but structurally thin — ⛔ do not revert to 🟢 on "the feed landed" | 🟡 |
