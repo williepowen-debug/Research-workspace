@@ -1,6 +1,6 @@
 # ORACLE — NEXUS Brief
 
-**As of:** market levels **2026-09-27T16:20Z (Sun 12:20 ET)**, both venues, plus event drill-ins to 16:4xZ | **STATUS commit:** `c1d4b4a98` | **Box:** DESKTOP, authed Kalshi lane LIVE (rc=0).
+**As of:** oil/v5 + 9/28 movers **2026-09-28T13:49Z (Mon 09:49 ET)**; all other levels **2026-09-27T16:20Z** | **STATUS commit:** `279b7aec1` | **Box:** DESKTOP, authed Kalshi lane LIVE (rc=0).
 **Status:** 🟠. The bank-failure axis has **no instrument left**; the Fed and CPI repricing eased a notch; the Iran deadline is priced as leverage.
 **Domain:** Prediction-market monitoring (Polymarket + Kalshi): crowd-implied probabilities and crowd-vs-thesis divergence. Inbound routed by WALTER.
 **Constraint honored:** no trade implied, no P&L, no position language. No new gate registered.

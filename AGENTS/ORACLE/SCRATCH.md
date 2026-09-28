@@ -1,6 +1,6 @@
 # ORACLE — SCRATCH (canonical session handoff)
 
-**Last updated:** 2026-09-28 (Mon) ~10:0x ET · **Box:** DESKTOP, authed Kalshi lane LIVE (`kalshi.py status` rc=0) · Session: PROME-spawned (`prome-7f`, Tier-1 follow-up), DOCKET L299 October roll + whole-inbox drain. Market open.
+**Last updated:** 2026-09-28 (Mon) 09:5x ET · **Box:** DESKTOP, authed Kalshi lane LIVE (`kalshi.py status` rc=0) · Session: PROME-spawned (`prome-7f`, Tier-1 follow-up), DOCKET L299 October roll + whole-inbox drain. Market open.
 
 ## CHANGES SINCE LAST SESSION (9/27 12:3x ET → 9/28 09:45 ET)
 
