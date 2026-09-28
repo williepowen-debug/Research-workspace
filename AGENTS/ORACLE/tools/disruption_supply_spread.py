@@ -122,7 +122,9 @@ RESOLVED_PROB = 0.99
 # Below this, a single small bet moves the print; ORACLE's standing thin-liq bar.
 THIN_LIQ = 5000.0
 
-REGIME = "v5-wti110-vintage-break"  # 2026-09-24 WQ-260: strike $100 -> $110, NEVER spliced to v4. v4 (below) is history.
+REGIME = "v5-oct26-icewti110"  # 2026-09-28 DOCKET L299: v5 OCTOBER SEGMENT (Sep->Oct month roll; stays v5 per WQ-260 record row 260). Resolution venue ICE WTI (CLL), not CME. Never differenced against the Sept segment.
+# v5 Sept-segment note: "v5-wti110-vintage-break" 2026-09-24..09-28 (5 rows, last +75.1pp @ 2026-09-28T13:48Z, supply 1.4% = time decay). 2026-09-24 WQ-260: strike $100 -> $110, NEVER spliced to v4. v4 (below) is history.
+# MONTH-ROLL RULE (named 2026-09-28): a month roll inside a ruled version opens a new REGIME SEGMENT (this string changes) — never a new version; a new VERSION is opened only by a change of meaning (strike, leg, resolution basis), which is Will's. The Sep->Oct roll ALSO changed the resolution VENUE (CME CL -> ICE WTI CLL; ICE cash-settles on NYMEX, so the price question is the same, the session window and roll date are not). Whether a venue change is a change of meaning is WILL'S call, put to him via PROME 2026-09-28 (ORACLE rec: stays v5, disclosed). Either answer is a relabel only: this segment string already keeps the rows non-comparable.
 # v4 note: "v4-sep-wti-supply-leg" bumped 2026-08-27 on August→September WTI-$100 roll. The August leg exited at 0.8% (5 days-to-touch left); September entered at 22.5% (full month). ⚠️ THAT 21.7pp STEP IS THE ROLL, NOT A REPRICING — the spread mechanically narrows ~+66.7 → ~+45 on the swap alone. NEVER chart v4 against v3. Prior bump 2026-07-31 (July→August, same structural reason: a fresh month-start contract has more days-to-touch and is structurally higher).
 
 OUT_HEADER = ["ts", "regime",

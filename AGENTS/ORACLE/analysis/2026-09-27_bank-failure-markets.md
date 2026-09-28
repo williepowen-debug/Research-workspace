@@ -43,7 +43,7 @@ Each any-bank "by Dec 31, 2026" instance has **resolved YES at the next failure*
 | `-20260720…` | 2026-07-20 | 69.5–73.0 (ORACLE ODDS_LOG 7/22–8/18) | Tioga-Franklin (8/21) | 08-21 22:34Z | $8.0K |
 | `-20260824` | 2026-08-24 | 55.5–66.0 (ODDS_LOG 8/27–9/25); **57.5** @18:25 ET 9/25 | **Nano Banc (9/25)** | 09-26 01:12Z | $4.1K |
 
-Also closed in 2026: monthly/"another" contracts for Jan (**$693K**, the deepest), Feb ($77.6K + "another" $102.6K), Mar ("another" $114.4K), Apr ($25.6K), May ($20.0K), Jun ($26.5K / $22.7K). I found **no August or September 2026 monthly contract**. **Depth has been falling all year:** the Jan contract carried ~170× the lifetime volume of the one Nano resolved.
+Also closed in 2026: monthly/"another" contracts for Jan (**$693K** lifetime volume, the largest), Feb ($77.6K + "another" $102.6K), Mar ("another" $114.4K), Apr ($25.6K), May ($20.0K), Jun ($26.5K / $22.7K). I found **no August or September 2026 monthly contract**. **Lifetime volume per contract instance has fallen across 2026:** the Jan contract carried ~170× the lifetime volume of the one Nano resolved. *(Relabelled 2026-09-28 per CATO NB5 via PROME: this was headed "Depth has been falling all year". Lifetime volume per instance is NOT depth — instances differ in window length and listing life — and it does not measure an interest or liquidity trend. No re-pull; figures unchanged.)*
 
 ⛔ **Self-correction:** ORACLE's watchlist notes (7/02, 7/22, 8/27) called the repeated `PINNED BUT NOT FOUND` on this family "delisted/relisted". **At least the 7/10, 8/21 and 9/25 disappearances were resolutions, not delistings.** Each failure resolved the pinned instance YES. Consistent with the standing flag that `PINNED BUT NOT FOUND` cannot tell resolved from a bad slug.
 

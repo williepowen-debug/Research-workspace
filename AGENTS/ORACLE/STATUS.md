@@ -1,7 +1,7 @@
 # ORACLE STATUS
 
 **Live dashboard: prediction-market probabilities, divergences, alerts.**
-**Last pull:** 2026-09-27T16:20Z (Sun 12:20 ET). Polymarket `pull --log` 52 rows · Kalshi `pull --log` 14/14 (**authed lane LIVE, rc=0**) · `disruption_supply_spread.py` (v5 row 3). Event drill-ins (Iran ×3, Fed count, CPI, 10Y, 30Y, end-2026 rate, named banks) 16:2x–16:4xZ. **Box:** DESKTOP. Lane state is per-box, never a fleet fact.
+**9/28 PARTIAL UPDATE (Mon, PROME-spawned L299 roll + inbox drain):** pulls 2026-09-28T13:48Z/13:49Z (PM 52+53 rows, Kalshi 14/14, rc=0). **Re-read and rewritten this session: alert 0, alert 5, the oil rows, the derived series.** Every other alert/table row below is the **9/27 read** and says so. **9/27 basis — Last pull:** 2026-09-27T16:20Z (Sun 12:20 ET). Polymarket `pull --log` 52 rows · Kalshi `pull --log` 14/14 (**authed lane LIVE, rc=0**) · `disruption_supply_spread.py` (v5 row 3). Event drill-ins (Iran ×3, Fed count, CPI, 10Y, 30Y, end-2026 rate, named banks) 16:2x–16:4xZ. **Box:** DESKTOP. Lane state is per-box, never a fleet fact.
 **Session:** 2026-09-27 (Sun) boot + pull + **PROME-commissioned bank-failure-markets read** (Nano Banc, `prome-09`) → `analysis/2026-09-27_bank-failure-markets.md`. `history --write`, `movers` and `coverage` were **not** run this session (coverage next due ~10/01).
 
 > **Prices here are a LOG, not a live quote.** Never cite this file as the current price; re-pull. Every figure carries platform/date/volume. Thin books (<$5K liq) are flagged ⚠️ and never marked on one print.
@@ -10,6 +10,8 @@
 ---
 
 ## 🔴 Alerts (read first)
+
+**0. 🟠 9/28 13:48Z MOVERS (one read each, NOT re-graded; → PROME triage per the >10pp/48h rule).** ① **US–Iran next senior meeting:** by 9/30 **66.5** (9/27: 38.0; ⚠️ $4.2K liq) · by **10/31 75.5** (9/27: 50.0; $52.5K vol / $27.1K liq) · by 12/31 84.5 (77.5) — a **>20pp shift on the deeper 10/31 leg in ~45h** (charter route HAWK/BRENT; HAWK owns why). ② **Fed Oct hike:** Kalshi `KXFED-26OCT >4.00` **69.0** (9/27: 63.0; OI 33.6K) vs PM **65.5** (Δ7d +16.0; $3.9M / $391.7K liq) ⇒ VX-ORC-08 Alert (>66%) crossed on Kalshi only, **split venues, one read**. PM Dec-specific hike **79.0** (Δ1d +10.5; $130.4K liq). ③ Ceasefire thru 9/30 96.7 · Hormuz 0-ships ctx 37.0 (+8.5) · BOJ Oct top leg PM 66.5 (−11.5, ⚠️ $1.3K liq) / Kalshi 70.0 (−9) → SAM · FL Cat-4 6.5 (−14.5, ⚠️ $1.0K liq, one print).
 
 **1. 🔴 THE ONLY "NEXT US BANK FAILURE" MARKET RESOLVED YES ON NANO BANC. NOTHING PRICES THE 2026 FAILURE COUNT, ON EITHER VENUE.**
 PM `us-bank-failure-by-december-31-2026-20260824` (**lifetime vol $4.1K**, liq ~$0.9K) **resolved YES**, closed 2026-09-26T01:12Z. Nano Banc (Irvine CA, FDIC cert 58590) closed 9/25, the only failure on the FDIC list since the market opened 8/24. **Reactive, not leading:** 50.5–57.5 midpoint noise 12:00–18:25 ET 9/25 (2 trades, $15); first repricing trade **19:08 ET** → 99.5 by 19:15 ET. That precedes Sunwest's release (19:45 ET, per PROME) and American Banker (21:17 ET). **The FDIC/DFPI release time is unverified.** It priced **~55%** vs the 2026 pace **≈94%** / 2024-25 pace ≈51%, so **less than the base rate, on a thin book: not a crowd view.** **No successor listed** as of 16:20Z (Kalshi CERTIFIED 0 over 13,018 events; PM active+closed searched). Only open bank market: PM named-bank EOY event ($76.1K; KeyBank 4.4% ⚠️$560 liq, US Bank 4.3%, rest 0.9–3.2%), **no move outside noise.** ⛔ Self-correction: the 7/02, 7/22, 8/27 watchlist "delisted/relisted" notes were **resolutions**; the family resolved YES at every failure since April (5/1, 7/10, 8/21, 9/25). → PROME (delivered, consumed) · **KB-ORC-101**
@@ -23,8 +25,8 @@ Kalshi `KXCPIYOY-26SEP`: `>3.5%` **78.0** (was 82.0 mid) · `>3.6%` **35.0 last 
 **4. 🟠 IRAN: THE ~9/29 DEADLINE IS PRICED AS LEVERAGE, AND TALKS ODDS ROSE.**
 Ceasefire holds thru 9/30 **94.5%** (was 85.5; $1.8M vol / $147.5K liq) · 10/31 55.5 · 11/30 38.5 · 12/31 34.5. US announces end of blockade by 9/30 **4.2** (was 8.5) · 10/15 16.5 · 10/31 29.5 · 11/30 45.5 · **12/31 59.1** ($2.5M) · 3/31/27 74.0 ($32.6M event). Next senior meeting by 9/30 **38.0** (was 29.0) · 10/31 **50.0** (45.5) · 12/31 **77.5** (69.0) (⚠️ $15–40K books; ⚠️ the 9/30 leg's slug says "march-31-2027", so read the question). Hormuz-normal-by-Dec **20.5%** (was 22.5; $13.3M / $451.6K liq; ⚠️ resolves on the IMF PortWatch PRINT, KB-ORC-079). US invade Iran <2027 15.5 ($69.8M). Daily tempo legs for 9/27 (Hormuz targeted 62.5, Saudi-vs-Yemen 86.5) are on **$117–$129 books**, not marked. **HAWK owns the reality.** → HAWK, BRENT, FALCON · KB-ORC-095/098
 
-**5. 🟠 OIL: OCTOBER WTI $110 IS LISTED, BUT NOT PINNED ON PURPOSE.**
-PM `what-price-will-wti-hit-in-october-2026` (**$9.1K event, thin**): $100 **64.5** · **$110 24.5** · $120 7.5. The Sept $110 v5 leg is **1.4%** ($973.4K vol / $66.7K liq, closes 10/01T03:59Z) ⇒ v5 row 3 **+78.2pp** (79.5 − 1.4) is **decay, not signal.** ⚠️ **Pinning `will-wti-reach-110-in-october-2026` auto-rolls the supply leg (prefix match) WITHOUT a REGIME bump.** The pin and the REGIME bump must be one edit → DOCKET L299 (Mon 9/28). CL=F **$92.41** (CLX26, Fri 9/25 close, −2.33%). ⚠️ `BZ=F` $97.44 (−8.59%), contract **UNKNOWN**: probably a roll artifact, not verified; BRENT owns. Kalshi Brent Sep-30 `>$91.99` 87.0 last. → BRENT, HAWK, FALCON, TERRY · VX-ORC-04
+**5. 🟠 OIL: v5 ROLLED TO THE OCTOBER $110 LEG (DOCKET L299, 2026-09-28T13:49Z) — THIN, AND ON A DIFFERENT VENUE.**
+First October-segment row **+51.0pp** = PortWatch-basis 76.5 − Oct $110 **25.5** (id 4936102; bid 25/ask 26; **vol $224, liq $3.3K ⚠️ THIN** — no mark on one print). Last Sept-segment row +75.1 @ 13:48Z (Sept leg 1.4%, decay). ⛔ **The +75.1 → +51.0 step is days-to-touch, not a repricing — REGIME segment `v5-oct26-icewti110`, never differenced.** Stays **v5** per WQ-260 record row 260 (*"L299's 9/28 October-roll … runs on v5"*). ⛔ **NEW: the October market resolves on ICE WTI (Pyth CLL), not CME CL** (Sept did CME) — 8 PM ET sessions, ICE LTD one day earlier. Put to Will via PROME (ORACLE rec: stays v5, disclosed). **Active Month Nov26→Dec26 at 8:00 PM ET Wed 10/14** (ICE Nov26 LTD 10/19, VERIFIED at ice.com; the prior "~10/16" used the CME rule) = a **~$3.95 downward level step** at today's curve (CLX26 $94.19 / CLZ26 $90.24, fetch.py 9/28). October ladder: $100 78.5 · $110 25.5 · $120 7.0 ($19.9K event). v5 thresholds **UNSET**; proposal to PROME. → BRENT, HAWK, FALCON, TERRY · VX-ORC-04
 
 **6. 🟡 RATES AND RECESSION: SMALL DRIFT, NOTHING NEW.**
 10Y before 2027: **5.2% 88.7** (was 91.6; ⚠️ $3.9K liq, **do not mark a touch**); 5.1% settled. `^TNX` **5.18** (Fri close; proxy, resolves on the Treasury par curve; par==DGS10 unconfirmed, BOND/TERRY). 30Y Sept 5.50% **61.2** (Δ1d +20.0, ⚠️ $1.1K liq) · 5.55% 38.6 (⚠️ $239). Recession: PM **8.5** (was 10.5; $2.2M / $112.5K liq) vs Kalshi `KXRECSSNBER-26` **5.0** (OI 957.9K). **Different definitions; the gap is structural** (KB-ORC-099).
@@ -64,8 +66,8 @@ PM `what-price-will-wti-hit-in-october-2026` (**$9.1K event, thin**): $100 **64.
 ### Tier 2 — catalyst / theater
 | Market | Plat | Now | Δ7d | Vol | Note |
 |---|---|---|---|---|---|
-| WTI $110 Sept (v5 supply leg) | PM | 1.4 | −13.7 | $973.4K | ⏳ 10/01 · decaying |
-| WTI $110 / $100 **October** | PM | 24.5 / 64.5 | — | $9.1K event | **not pinned: roll + REGIME bump 9/28** |
+| WTI $110 **Oct (v5 supply leg, ICE CLL)** 9/28 | PM | 25.5 | — | $224 vol / $3.3K liq ⚠️ | pinned 9/28 · Active-Month step 10/14 20:00 ET |
+| WTI $110 Sept (rolled out; context) 9/28 | PM | 1.4 | −6.1 | $1.0M | ⏳ 10/01 03:59Z · decay |
 | Brent `>$91.99` / `>$85.99` @Sep30 | Kalshi | 87.0 / 92.0 | — | 6.2K / 2.4K OI | ⏳ 9/30 · wide books |
 | Next US–Iran senior meeting by 12/31 | PM | 77.5 | — | $15.1K | 10/31 50.0 · 9/30 38.0 |
 | US invade Iran <2027 | PM | 15.5 | −1.5 | $69.8M | deepest on the board |
@@ -98,7 +100,7 @@ PM `what-price-will-wti-hit-in-october-2026` (**$9.1K event, thin**): $100 **64.
 | Mamdani freezes NYC rents | PM | 85.8 | −0.8 | ⚠️ $9.0K liq |
 | FL Cat-4 / Cat-5 by 2027 | PM | 24.0 / 3.0 | +15.5 / −0.5 | ⚠️ Cat-4 **$961 liq**; Δ1d +17.5 is one print. **No Atlantic system threatens FL** (NHC 2026-09-27T15:00Z: TD Fay 29.3N 43.8W moving SSE). Not marked → CORAL/AEOLUS |
 
-**Derived series:** v5 **+78.2pp @ 2026-09-27T16:20Z** (Sept leg decaying) · +74.10 @ 9/25T01:35Z · +74.65 @ 9/24T19:07Z · v4 last valid +36.0 @ 9/07 (**not comparable**).
+**Derived series:** v5 **Oct segment +51.0pp @ 2026-09-28T13:49Z** (⚠️ thin supply leg) ‖ v5 Sept segment: +75.1 @ 9/28T13:48Z · +78.2pp @ 2026-09-27T16:20Z (Sept leg decaying) · +74.10 @ 9/25T01:35Z · +74.65 @ 9/24T19:07Z · v4 last valid +36.0 @ 9/07 (**not comparable**).
 
 ---
 
@@ -112,7 +114,7 @@ PM `what-price-will-wti-hit-in-october-2026` (**$9.1K event, thin**): $100 **64.
 | Rates (10Y) | 5.2% 88.7 (thin) | BOND/TERRY own | par==DGS10 unconfirmed | 🟠 |
 | Inflation (Sept CPI) | modal 3.6%; `>3.6` down to 36.5 | HENRY owns the print | — | 🟠 |
 | Recession 2026 | PM 8.5 / Kalshi 5.0 | RED 4–12% (NBER-dated) | structural definitional gap | 🟡 |
-| Oil: premium vs shortage | v5 +78.2 (decaying Sept leg) | premium ≠ shortage | meaningful only from the Oct leg | 🟠 |
+| Oil: premium vs shortage | v5 Oct segment +51.0 (9/28, thin) | premium ≠ shortage | Oct leg thin; ≥3 reads before any mark | 🟠 |
 | Iran: talks vs tempo | deadline priced as leverage; talks up; Dec-normal 20.5 | HAWK owns the reality | three axes | 🟠 |
 | Tail complacency | NEH 82.5 | — | resolution text unread | 🟠 standing |
 
@@ -123,7 +125,7 @@ PM `what-price-will-wti-hit-in-october-2026` (**$9.1K event, thin**): $100 **64.
 *Structural detail → `MAINTENANCE.md`; findings → `workbook/KB.tsv`.*
 
 - ✅ **9/27:** any-bank Dec-31 pin **retired** (resolved YES), watchlist history notes corrected · Hormuz weekly → **wk-of-9/28**.
-- ⏳ **Rolls due:** **WTI $110 Oct + REGIME bump in ONE edit (L299, Mon 9/28)** · re-search a relisted any-bank successor **every pull** (past relist gaps 58d / 10d / 3d) · 9/30–10/01 resolutions: 10Y/30Y Sept ladders, Houthi, Hormuz Sept ladders, ceasefire-9/30 leg, Saudi on-date, Kalshi Brent Sep-30, Sept U3 (10/02).
+- ⏳ **Rolls due:** ✅ WTI $110 Oct pinned + REGIME segment (9/28) · re-search a relisted any-bank successor **every pull** (past relist gaps 58d / 10d / 3d) · 9/30–10/01 resolutions: 10Y/30Y Sept ladders, Houthi, Hormuz Sept ladders, ceasefire-9/30 leg, Saudi on-date, Kalshi Brent Sep-30, Sept U3 (10/02).
 - ⚠️ **`PINNED BUT NOT FOUND` cannot tell resolved from a bad slug** (unfixed). **Query `closed=true` before calling a pin delisted**: the bank-failure family proved every not-found was a resolution.
 - ⚠️ **Kalshi mid rule:** mid only when `result` is empty AND OI > 0 (KB-ORC-086).
 - ⚠️ **Polymarket slug ≠ question** on the Hormuz any-day ladder and on the US–Iran-meeting 9/30 leg; read the question text.
@@ -134,4 +136,4 @@ PM `what-price-will-wti-hit-in-october-2026` (**$9.1K event, thin**): $100 **64.
 
 **A US bank failed and the prediction markets had nothing to say about it in advance.** Polymarket's only "any US bank fails by year-end" contract paid out on Nano Banc Friday night. It moved at 19:08 ET on the release, not before, and it had priced a failure at about a coin flip despite six failures this year. It traded $4.1K in total, so this is a thin market's miss, not the crowd's. **No market on either venue now prices another failure or the 2026 count.**
 
-**Elsewhere the crowd eased a notch since Thursday.** An October hike is ~64% on both venues, just under the alert line; September CPI expectations softened (3.7%+ down from 46% to ~37%). On Iran, the crowd prices the ~9/29 deadline as leverage (ceasefire through 9/30 at 94.5%) and gave talks better odds. **Next owed:** the October WTI $110 roll with its REGIME bump on Mon 9/28.
+**Elsewhere the crowd eased a notch since Thursday.** An October hike is ~64% on both venues, just under the alert line; September CPI expectations softened (3.7%+ down from 46% to ~37%). On Iran, the crowd prices the ~9/29 deadline as leverage (ceasefire through 9/30 at 94.5%) and gave talks better odds. **9/28:** the oil gauge rolled to October's $110 leg (+51.0pp, thin book, resolves on ICE WTI not CME — Will's call whether that venue change matters; ORACLE says it doesn't). US–Iran talks odds jumped again (meeting by 10/31: 50 → 75.5).

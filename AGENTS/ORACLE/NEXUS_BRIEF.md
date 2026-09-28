@@ -14,7 +14,7 @@
 >
 > **★ IRAN ~9/29 DEADLINE PRICED AS LEVERAGE:** ceasefire thru 9/30 **94.5%** ($1.8M; was 85.5) · blockade-end by 9/30 4.2 / 12/31 59.1 · next senior meeting by 12/31 **77.5** (was 69.0). Hormuz-normal-by-Dec 20.5 (PortWatch PRINT basis). HAWK owns the reality.
 >
-> **★ OIL v5:** Sept $110 leg 1.4% ⇒ +78.2pp is **decay**. The October $110 market is listed (24.5%, $9.1K, thin) but **deliberately not pinned**: pinning auto-rolls the supply leg without a REGIME bump, so both go in one edit on Mon 9/28 (L299).
+> **★ OIL v5 (9/28):** rolled to the **October $110 leg** (DOCKET L299): first row **+51.0pp** @ 2026-09-28T13:49Z, supply leg **25.5% on $3.3K liq ⚠️ thin**; REGIME segment `v5-oct26-icewti110`, **never differenced vs Sept** (+75.1 → +51.0 is days-to-touch). ⛔ October resolves on **ICE WTI (CLL), not CME** — disclosed, Will's call via PROME. Active Month Nov→Dec **8:00 PM ET 10/14** (ICE LTD 10/19, verified) = ~$3.95 downward level step. Talks: US–Iran meeting by 10/31 **75.5** (9/27 50.0).
 
 ---
 
@@ -31,7 +31,8 @@
 
 | Date | Event | Instrument | Note |
 |---|---|---|---|
-| **Mon 9/28** | **DOCKET L299: pin WTI $110 Oct + bump REGIME, one edit** | `will-wti-reach-110-in-october-2026` (24.5%) | → BRENT, HAWK, FALCON |
+| ✅ Mon 9/28 | DOCKET L299 roll DONE: Oct $110 pinned, REGIME segment | 25.5% thin | → BRENT, HAWK, FALCON |
+| **Wed 10/14 20:00 ET** | **v5 Active Month Nov26→Dec26 (ICE)** — level step, not signal | Oct $110 leg | → BRENT |
 | Mon 9/28 | Monday open: named-bank legs, any-bank successor re-search | PM | → REGINALD, PROME |
 | **~Tue 9/29** | **Iran's deadline for the US to accept its road map** | ceasefire thru 9/30 94.5 · blockade-end 9/30 4.2 | → HAWK, BRENT, FALCON |
 | Wed 9/30 | Sept Hormuz ladders · 10Y/30Y Sept ladders · Houthi · Saudi on-date · ceasefire-9/30 · Kalshi Brent Sep-30 resolve | | roll or retire each |
