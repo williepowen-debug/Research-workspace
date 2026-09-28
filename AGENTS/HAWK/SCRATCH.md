@@ -49,5 +49,5 @@
 - Will: WQ-319/320 RULED 9/28 (encoded). Open: Kpler/Vortexa inquiry forms (Will's hands, from 9/26).
 
 ## MAIL STATE
-- **Inbox 0 top-level · 0 WALTER** (2 WALTER + 1 BRENT processed today; BRENT WQ-319 confirm = KB-425). BOARD info-lane: no unmatched IDs 9/20+.
+- **Inbox 0 top-level · 0 WALTER** (17:16 ET: 6 WALTER + 1 BRENT processed today; late drain -003/-008/-010/-016 after closeout). ⛔ **-016 (US diesel export ban): its headline breach timing is WITHDRAWN by BRENT (CATO MR19, unit error). Cite BRENT `c52771afd`, never the signal headline; WALTER's correction is not yet issued.** Risk read: a formal ban is unlikely but not dead (Trump 9/22, 9/27). BOARD info-lane: no unmatched IDs 9/20+.
 - Sent: PROME memo (this closeout, `PROME/inbox/`). SendMessage: BRENT ×3 (timeline, alt causes, T0 split), WALTER ×2 (8/28 question, weekday fix), PROME ×1 (spawn disclosure + L491 approach).
