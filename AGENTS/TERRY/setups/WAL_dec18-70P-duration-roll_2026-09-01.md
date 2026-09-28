@@ -246,3 +246,10 @@ The card was written for the Fidelity IRA — same account as the Sep-18 $67.5P/
 - **Context, not a gate event:** WAL `$75.60` on 9/23 was the lowest close of the window, `$6.30` / 7.7% below the exit line and `$5.60` above the strike. CARL 9/24: the consumer stress is in **bottom-tier credit** (CCC−BB `934bp` on 9/23, widest since at least 2025-01-01), **not broad spending**. That sits on this card's credit falsifier without moving it.
 
 **Unchanged and still binding:** harvest MANUAL at ≥`$4.40` · time stop 12/4 · the exit proposal is mine to build and Will's to approve when and only when the count reaches 3. **APPROVAL REQUIRED for any action — nothing above is a proposal.**
+
+---
+
+### RECORD — 2026-09-28: the $4.40 GTC is NOT resting (recorded 18:2x ET; PROME packet `inbox/processed/2026-09-28_from-PROME_will-fills-9-28-record-on-cards.md`)
+- **Will to WAL, 9/28, verbatim: *"Cancelled / not there"*** (`PROME/inbox/processed/2026-09-28_from-WAL_WQ-324-325-ruled-verbatim-and-4.40-GTC-cancelled.md`). The GTC status that WQ-167 left **permanently UNKNOWN** is now **RESOLVED: there is no resting exit order** on the RH Dec-18 $70P ×1. No fill.
+- **Consequence:** any harvest at ≥**$4.40** is **Will's manual act**. This card has said so since 9/3; the difference is that no broker order backs it. Nothing fires on its own.
+- **Unchanged:** the harvest line ($4.40), the REGINALD `REG-T-02` exit letter (≥$81.90 × 3 consecutive closes; REGINALD grades), the time stop Fri 12/4, and no further roll. **No gate letter moved. `$0` moved.**

@@ -80,3 +80,16 @@
 ## Decision
 
 **RECOMMENDATION ONLY — orders remain Will's.** SELL QQQ 730P ×10 and USO 159C ×2 today (Mon 9/28) before 15:45 ET, at or near Fidelity's live bid; if either is held, hard sell deadline Wed 9/30 15:00 ET. **APPROVAL REQUIRED — Will must approve/reject before execution.**
+
+---
+
+## ⑦ FILL RECORD — Will's 9/28 sales (recorded 2026-09-28 18:2x ET, PROME packet `inbox/processed/2026-09-28_from-PROME_will-fills-9-28-record-on-cards.md`; source `PROME/reports/2026-09-28_will-fills-receipt.md`, Will's pasted Fidelity text 16:18 ET)
+
+| line | fill (Will's hand, root rule #5) | now open | realized (average basis; broker lot method UNKNOWN) |
+|---|---|---|---|
+| QQQ Sep-30 $730P | **1 of 10 SOLD @ $1.98** limit Day · net **$197.34** · time and account not in the paste | **×9** | $197.34 − $248.66 (1/10 of $2,486.63) = **−$51.32** |
+| USO Sep-30 $159C | not sold | **×2** | — |
+
+- **This card's rec was SELL all 10 before 15:45 ET today. A 1-of-10 sale is a partial.** Root rule #7 reads a trim as a broken thesis, and this line never had a thesis on file (§1). **Recorded, not graded:** Will's book, Will's hand.
+- **Unchanged:** WQ-316 still awaits Will's sell/hold on the ×9 and the ×2. **Hard deadline if held: Wed 9/30 15:00 ET** (§4). The quotes are re-read Wed AM at TERRY's 9/30 wake, **not tonight**. Every §4 expiry mechanic scales to ×9: exercise at ≥$0.01 ITM ⇒ −900 QQQ short, which an IRA cannot hold. What Fidelity does = UNKNOWN (D-60).
+- For reference only, not a re-read: QQQ closed **$736.53 (−1.07%)** 9/28 (`fetch.py`, 18:1x ET), ~$6.5 above the strike.

@@ -9,6 +9,8 @@
 
 > ## ⤵️ **2026-09-19 Sat cruise block ROTATED 2026-09-24 → `archive/STATUS_ARCHIVE_2026-09-24.md`** (pre-rotation lines 9–42, crc32 `5ad593d1`, 22,547 B — verbatim, contiguous, body only). Forced: STATUS opened 9/24 at 32,535 B, 15 B under the READ-CAP. ⛔ No live state moved — legs verified on other live surfaces first, listed in the archive header.
 
+> ## ★ 2026-09-28 18:1x–18:2x ET · PROME spawn (WQ-329 / L535): **`MGMT-VLO-SHARE` proposal to Will** (`setups/VLO-SHARE_management-proposal_2026-09-28.md`): A = Nov crack settle <$90.16 · B = signed export-ban text; desk read both. 9/28 fills recorded: 004 ×15 · QQQ ×9 / USO ×2 · TLT 82P ×1 · ROLL70 GTC gone. `$0` moved.
+
 > ## ★ CURRENT STATE — 2026-09-28 Mon 10:51–10:5x ET · PROME spawn (`prome-7f`, Tier 1, **WQ-315** — Will: *"give me a hold/sell recommendation and decision deadline for each … Recommendations only; orders remain mine. Keep my TLT hold-to-expiry ruling unchanged."*). **`$0` MOVED · NO ORDER · NO NEW TRADE PROPOSED · NO GATE OR THRESHOLD MOVED.**
 > - **Carded:** `setups/QQQ730P-USO159C_sep30-disposition_2026-09-28.md` (`MGMT-QQQ730P-USO159C-SEP30`). Verdict **SELL both today, before 15:45 ET**; if held, **hard sell deadline Wed 9/30 15:00 ET**. Both lines open at the 9/25 close only (ANVIL); **UNVERIFIED since**.
 > - Live (yfinance, screening, ~15-min option lag — `DIRINC` fired 10:53): QQQ $732.18 (−1.65%), 730P bid 2.18–2.23 ⇒ ×10 ≈$2,180–2,230 vs cost $2,486.63. USO $152.96 (+3.12%), 159C bid 0.55–0.58 (12–14% wide) ⇒ ×2 ≈$110–116 vs $921.33. Root rule #6: SELL is on the right side for both (a put on a red day, a call on a green day); HOLD would be the implicit re-buy. No break claimed.

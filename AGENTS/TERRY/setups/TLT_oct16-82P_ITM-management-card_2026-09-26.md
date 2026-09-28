@@ -151,3 +151,21 @@
 **APPROVAL REQUIRED — Will must approve/reject before execution.** This card proposes no trade. It lays out the management choices on a held leg, per WQ-292 (*"this authorizes preparation, not trades"*). `$0` moved · no order · no gate or threshold moved anywhere. — TERRY
 
 *Card-ID note: `MGMT-` is deliberately not a `TRY-` id. A `TRY-` id would enroll the leg in `SETUPS.tsv`, and that ledger is at its rotate tier with a rotation owed first (STATUS 2026-09-25). The registry row lives in `setups/INDEX.md`.*
+
+---
+
+## ⑦ FILL RECORD + RE-READ AT ×1 — 2026-09-28 (recorded 18:2x ET; PROME packet `inbox/processed/2026-09-28_from-PROME_will-fills-9-28-record-on-cards.md`; source `PROME/reports/2026-09-28_will-fills-receipt.md`)
+
+**Fill (Will's hand, root rule #5):** **1 of 2 SOLD @ $3.60** limit Day. Order 09:43:29 ET, filled 09:47:23 ET, **net $359.34**; the account is not named in the paste (FORGE D-61). ⇒ **×1 OPEN.** ANVIL's derivation (FORGE row, broker lot method UNKNOWN): **≈ +$191.67** vs a $167.68/ct average basis; remaining ×1 basis ≈ $167.68.
+**Sold before any A/B/C choice** (WQ-292 / WQ-302, due Wed 10/14). In effect it was choice A applied to half the line. **Recorded, not graded.**
+
+**Does the choice set change at ×1? The members do not. Their weights do.**
+| | at ×2 (card as built) | at ×1 (now) |
+|---|---|---|
+| choices | A harvest · B hold to expiry · C hold then sell by 10/14 · D dominated | **same four.** The one option ×2 had and ×1 lacks is a **split** (sell one, hold one), and Will has just used it. ×1 is indivisible. |
+| B's broker-cost drag if Fidelity acts (Rep-Assisted $32.95 + $0.65/ct, §4) | ~5.5% of the ~$600 screening value | **~11%** of ~$300 (9/25 screening bid 3.00 × 100) — **doubles in relative terms** |
+| exercise if ITM and unsold | −200 TLT (~$16,400) in an account that cannot be short | **−100 TLT (~$8,200)** — the same §4 unknown, at half the size |
+| forward max loss | the full screening value, ~$600 | **~$300** (screening; TLT closed $78.62 on 9/28 per `fetch.py`, so ~$3.38 ITM, for scale only; no quote re-read) |
+
+⇒ **The desk read strengthens and does not change:** B is still the only branch that runs through the unknown, and at ×1 its cost share doubles. **A vs C remains Will's thesis call.** Decision point unchanged: **Wed 10/14 close**, backstop Fri 10/16 before 16:00 ET.
+**§4's Fidelity question:** read **"1 long TLT Oct-16-2026 $82 put"** in place of "2". The HBAN half stays ×2. WQ-302 stays OPEN (PROME's row).
