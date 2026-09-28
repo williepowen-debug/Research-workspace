@@ -12,10 +12,10 @@ Session: **2026-09-28 Mon, Claude Opus 5.5 as WALTER (`walter-f8`)**, booted 18:
 
 ## CHANGED
 
-- **BOARD 1064 → 1070:** `-001` … `-006` (below). 17 handoffs (15 + 2 for `-006`). `-0927-007` got an additive weekday note ("Thu 9/25" was a Friday; HAWK-reported, `claim_check` confirmed).
+- **BOARD 1064 → 1071:** `-001` … `-007` (below). 21 handoffs (15 + 2 for `-006` + 4 for `-007`). `-0927-007` got an additive weekday note ("Thu 9/25" was a Friday; HAWK-reported, `claim_check` confirmed).
 - **Batches:** BM-20260928-01 (lane, 20/20: 2 DISPATCH, 1 NO-ACTION, 17 KILL) · BM-20260928-02 (drop-zone, 2/2 DISPATCH). Drop-zone files moved to `inbox/WILL/processed/`.
 - **kill_log +12 rows** (incl. the Fed Oct-hike odds: already ours, BOND carries ~70% priced; the Misbar fake-Yanbu-video forward guard).
-- **DOORBELL_LOG +3** (OSPREY `-003`, REGINALD `-004`, HOMER `-006`; neither doorbelled; both L3 fail, cadence computed).
+- **DOORBELL_LOG +4** (OSPREY `-003`, REGINALD `-004`, HOMER `-006`, LIQUID `-007`; neither doorbelled; both L3 fail, cadence computed).
 - **Inbox:** PROME ORACLE-route packet and OTTO R3 packet consumed. **R3 results** for sets 8–9 → `PROME/inbox/2026-09-28_from-WALTER_R3-results-CORAL-OTTO-sets-8-9.md` + OTTO inbox pointer + CORAL by SendMessage.
 - **REGISTRY:** OTTO, BOND, LIQUID, TERRY → 9/28.
 
@@ -26,7 +26,8 @@ Session: **2026-09-28 Mon, Claude Opus 5.5 as WALTER (`walter-f8`)**, booted 18:
 3. **`-003` Novoshakhtinsk (9/25, ~100 kb/d) and Ilsky (9/26) refineries halted** → OSPREY (dark).
 4. **`-004` Apollo/Slok "agentic bank run" frame** → REGINALD for WQ-318 · **`-005` buyback debt-limit mechanism** (pictured $14.29T limit stale; ~$3B headroom per max-$6B op) → BOND.
 5. **`-006` (after the Tier-1, CREED route request, Will-directed): Trepp MF CMBS DQ by building age** (pre-1980 14.55% vs 1.44% under 26 yrs; build year ≠ loan vintage) → **HOMER ACTION, dark, not doorbelled** (p75=8d/dark=4d); REGINALD info; CARL via BOARD; CORAL not added (no FL named).
-6. **R3:** OTTO 9/10 pass (`CVNA earnings` rejected) · CORAL 11/12 pass (`hurricane warning Florida` rejected; 5 recall notes).
+6. **`-007` (after the Tier-1): Will drop-zone PDF, junkbondinvestor Credit Weekly 9/27** (read whole; BM-20260928-03 1/1): CCC damage concentrated in cable (Optimum; Meta Muse AI-agent cancellation lens on Charter/Comcast/SiriusXM) → **LIQUID ACTION** (dark, not doorbelled, p75=5d/dark=0d); HENRY/VULCAN/BOND info. ⚠️ **Bloomberg basis ≠ ICE** (CCC 968 vs 1,128; B 281 vs 300). PROME's first "it is in your drop-zone" was premature (copy blocked by a hook), and the hold was correct.
+7. **R3:** OTTO 9/10 pass (`CVNA earnings` rejected) · CORAL 11/12 pass (`hurricane warning Florida` rejected; 5 recall notes).
 
 ⛔ **No WALTER-scanned registered trigger crossed. $0.**
 
@@ -66,14 +67,14 @@ Session: **2026-09-28 Mon, Claude Opus 5.5 as WALTER (`walter-f8`)**, booted 18:
 ## CLOSEOUT RECEIPT
 
 **Issued at the 9/28 Tier-1 before the closeout commit.** Publication state is verified after the push by `git merge-base --is-ancestor`; this block is re-issued in the same session if a commit is not on origin.
-- **9/28 handoffs: 17 written** (4+3+4+3+1+2). Delivered = committed AND on origin, reconciled by `reconcile_delivery_log.py` after push. Delivered is not consumed.
-- **`-006`'s 2 handoffs (HOMER, REGINALD) are committed locally and NOT yet on origin** (push deferred per 9b(d)); they become delivered when the next push carries them.
+- **9/28 handoffs: 21 written** (4+3+4+3+1+2+4). Delivered = committed AND on origin, reconciled by `reconcile_delivery_log.py` after push. Delivered is not consumed.
+- **`-006`'s 2 and `-007`'s 4 handoffs are committed locally and NOT yet on origin** (push deferred per 9b(d)); they become delivered when the next push carries them.
 - ⚠️ **This receipt does NOT claim:** that any recipient consumed `-001`…`-005` (BRENT answered `-001` by message); that R3 sets 1–7 were started; that the CORAL/OTTO recall notes are adopted.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-09-28T19:38:55+00:00",
+  "as_of": "2026-09-28T19:46:28+00:00",
   "publication": [
     {"commit": "e9925bba8", "state": "published"},
     {"commit": "8dbd4355e", "state": "published"},
@@ -82,8 +83,8 @@ Session: **2026-09-28 Mon, Claude Opus 5.5 as WALTER (`walter-f8`)**, booted 18:
   ],
   "delivery": {
     "signal_date": "20260928",
-    "total": 17,
-    "delivered": 15
+    "total": 21,
+    "delivered": 17
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
