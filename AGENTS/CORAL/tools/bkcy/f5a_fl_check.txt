@@ -1,0 +1,12 @@
+district header ('FL,N', None, 2827, 2173)
+district header ('FL,M', None, 29567, 22851)
+district header ('FL,S', None, 16944, 9610)
+district header ('GA,N', None, 22619, 12604)
+('FL,M', 'FLres') total 29413 nonbus 27969 rows 35
+('FL,M', 'nonFL_or_flagged') total 154 nonbus 121 rows 59
+('FL,N', 'FLres') total 2819 nonbus 2669 rows 23
+('FL,N', 'nonFL_or_flagged') total 8 nonbus 7 rows 7
+('FL,S', 'FLres') total 16923 nonbus 15930 rows 9
+('FL,S', 'nonFL_or_flagged') total 21 nonbus 5 rows 6
+flagged/nonFL rows sample: [('FL,N', 'CITRUS', '12017*', 1, 1), ('FL,N', 'CLAY', '12019*', 1, 1), ('FL,N', 'COLUMBIA', '12023*', 1, 1), ('FL,N', 'MARION', '12083*', 2, 2), ('FL,N', 'OSCEOLA', '12097*', 1, 1), ('FL,N', 'COLQUITT', '13071*', 1, '0'), ('FL,N', 'BOSSIER', '22015*', 1, 1), ('FL,M', 'PICKENS', '01107*', 1, 1), ('FL,M', 'WALKER', '01127*', 1, 1), ('FL,M', 'BENTON', '05007*', 1, 1), ('FL,M', 'LOS ANGELES', '06037*', 2, 2), ('FL,M', 'SAN DIEGO', '06073*', 1, 1), ('FL,M', 'YOLO', '06113*', 1, 1), ('FL,M', 'DOUGLAS', '08035*', 1, 1), ('FL,M', 'HARTFORD', '09003*', 1, '0')]
+n FL-coded rows 90

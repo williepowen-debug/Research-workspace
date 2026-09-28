@@ -5,6 +5,19 @@
 
 ---
 
+## 2026-09-28 — Two falsify criteria instrumented; one pre-registration graded; no rail moved
+
+**Trigger:** rail-adjacent changes under the write-back rule — an UNGRADED criterion got a live instrument, and a pre-registered branch read resolved.
+
+| Item | Old view | New view | Why | Implication |
+|---|---|---|---|---|
+| **Criterion 5 (bankruptcy fades per-capita)** | UNGRADED (0), no instrument since June | **Instrumented** (`tools/bkcy/`, AOUSC F-2 + Census V2025): M.D.+S.D. 217.1/100k, +21.2% YoY, FL/US 1.205×→1.231× | OQ H; DAEDALUS PR#6 neg-res ask | Points NOT MET on every candidate basis. **Two spec defects (basis label vs its ~190 anchor; "fades" has no number) go to Will BETWEEN grades — not resolved here, and not re-fit at 11/15.** |
+| **Criterion 6 (property-tax relief)** | pending, ruling unlocated | Instrument named: Division of Elections certified Ballot No. 3 result, dated 2026-11-04 | DAEDALUS neg-res ask | Resolves at 11/4, feeds 11/15. |
+| **ML-CORAL-042 (Amendment 3 branch read)** | UNRESOLVED since 7/29 | **Branch A (rewrite ordered 8/3, no appeal) ⇒ pillar-9 row "leaning FAIL"** | Ruling located 9/28 via AG letter (P1) | Prior re-weight only — **not a rail or thesis move** (per its own letter). ⚠️ Graded on the letter; the rationale (rewrite injects fiscal language) is **not visibly what happened** — recorded, not re-fit. |
+| **MSI leg** | 🟠 since 9/13 | 🟠 — reading #7 (9/28) 4-of-5; no rule applies | 8/23 letter has no re-fire | Re-fire + level-guard proposal to Will (WQ-241), prospective. |
+
+**Unchanged:** overall 🟠; bank-transmission rail NOT met, NOT armed; core mechanism; the 11/15 decision rule.
+
 ## 2026-09-13 — The falsify rail installed on 8/23 RESOLVED on its first live test, and firing it exposed a defect in its own construction
 
 **Trigger:** rail change under the write-back rule — a registered confirm/falsify rail **resolved**, and the resolution moved a leg's colour.

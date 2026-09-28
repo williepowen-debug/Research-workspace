@@ -2,7 +2,7 @@
 
 **Version:** **v1.1** *(bumped 2026-08-23 — two rail changes: a new falsify rail for the 🔴 supply-side leg, and a pre-registered grading rule + first-ever grade for the falsify criteria. Core mechanism UNCHANGED from v1.0.)*  
 **Installed:** 2026-06-20 · **Rails last reviewed:** 2026-08-23 (Will-approved) · **Next falsify grade: 2026-11-15**  
-**State:** 🟠 ELEVATED / thesis split — household + condo stress confirmed; bank-loss transmission not confirmed. **Supply-side price-discovery leg 🔴 (Will-ratified 7/23) — collateral repricing via cash capitulation-clearing; scoped to that leg, bank-transmission rail untouched (0-of-≥2).** **⭐ STAND-DOWN RAIL ADDED 2026-08-23 (Will-ruled): breadth <5-of-5 FL metros with Parcl MSI >6.0 on TWO CONSECUTIVE readings ≥10 DAYS APART ⇒ 🔴→🟠, this leg only. Canonical letter → `STATUS.md` OQ §A. Until 8/23 this leg had a trigger and NO falsifier.**
+**State:** 🟠 ELEVATED / thesis split — household + condo stress confirmed; bank-loss transmission not confirmed. **Supply-side price-discovery leg 🟠 — fired 🔴 7/23 (Will-ratified), STOOD DOWN 🔴→🟠 2026-09-13 on its own 8/23 rail; no re-fire condition registered (proposal with Will, WQ-241, 9/28). Scoped to that leg; bank-transmission rail untouched (0-of-≥2).** **⭐ STAND-DOWN RAIL ADDED 2026-08-23 (Will-ruled): breadth <5-of-5 FL metros with Parcl MSI >6.0 on TWO CONSECUTIVE readings ≥10 DAYS APART ⇒ 🔴→🟠, this leg only. Canonical letter → `STATUS.md` OQ §A. Until 8/23 this leg had a trigger and NO falsifier.**
 **Changelog:** `thesis/CHANGELOG.md`
 
 ---
