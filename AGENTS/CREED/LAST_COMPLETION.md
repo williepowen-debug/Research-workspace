@@ -1,6 +1,8 @@
 # CREED — LAST_COMPLETION
 
-**STATUS:** DONE — **2026-09-28 (Mon, Will-launched boot).** Will RULED WQ-303 (S8a 2 → 4, **27/45**) + WQ-304 option B (`PRED-004` HIT 0.16 / `PRED-007` MISS 0.7225 on CREED's ledger; mean Brier 0.374, n=4; Kernel records still OPEN) — encoded `dcffd6599`, PROME-verified · PROME 9/27c + CATO NB1/NB6 wording corrections applied · `PRED-003` column shift repaired · `KB-CREED-046` 3000 Post Oak · Trepp MF build-year split → WALTER → HOMER. Pushed; `creed_selfcheck` clean. Record `catchups/2026-09-28.md`.
+**STATUS:** DONE — **2026-09-28 (Mon, SECOND Will-launched session).** `registry/THRESHOLDS.tsv` read-cap rotation 84% → 42% (Will-approved; verbatim history → `registry/THRESHOLDS_NOTES.md`; 3 stale units repaired) · WQ-328 hotel CMBS supply packet to WAL (`49f552e17`) · S8a 9/28 close −10.48pp TR (`VX-7.01`). No score/band/trigger/prediction moved. Record `catchups/2026-09-28.md` §⑥.
+
+**PRIOR:** DONE — **2026-09-28 (Mon, Will-launched boot).** Will RULED WQ-303 (S8a 2 → 4, **27/45**) + WQ-304 option B (`PRED-004` HIT 0.16 / `PRED-007` MISS 0.7225 on CREED's ledger; mean Brier 0.374, n=4; Kernel records still OPEN) — encoded `dcffd6599`, PROME-verified · PROME 9/27c + CATO NB1/NB6 wording corrections applied · `PRED-003` column shift repaired · `KB-CREED-046` 3000 Post Oak · Trepp MF build-year split → WALTER → HOMER. Pushed; `creed_selfcheck` clean. Record `catchups/2026-09-28.md`.
 
 **PRIOR:** DONE — **2026-09-27 (Sun, Nano Banc + six PROME CRE→bank-transmission legs; Will closed the assignment 21:16 ET).** Record `catchups/2026-09-27.md`.
 
