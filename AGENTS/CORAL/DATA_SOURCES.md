@@ -80,6 +80,8 @@
 | District memos | Broward benchmark/10th-day, Palm Beach 11th-day, Osceola weekly, St. Johns 20-day, OCPS 9/15 summary | August–September, PRIMARY PDFs | Each district's count date differs — compare only same-point YoY |
 | Step Up For Students | Scholarship counts by program (FES-EO/FTC, FES-UA, PEP) | Annual | Not all recipients are switchers (universal eligibility) |
 | FL DOH / FL CHARTS | Resident births by year (cohort sizes) | Annual | 2008 cohort graduates ~2026; 2020-21 cohorts enter K |
+| FLDOE Private School Annual Report (`fldoe.org/core/fileparse.php/7562/urlt/PS-AnnualReport2025.pdf`) | Private-school enrollment + school count | Annual; fldoe.org 403 → Wayback | Added 9/28 from Will's external report; not yet pulled |
+| FLDOE Home Education Annual Report (`fldoe.org/file/5606/Home-Ed-Annual-Report-2023-24.pdf`) | Registered home-ed students | Annual | Same |
 
 ## Key Reports to Track
 

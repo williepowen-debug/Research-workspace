@@ -302,13 +302,13 @@
 
 ### VX-CORAL-ENRL-01 — FL Public-School Enrollment (confounded demand proxy) — NEW 2026-09-28 (Will: "something I would want to continue tracking")
 
-*Monitored vector, **no trigger** — the desk does not register an enrollment threshold without a documented basis (see the 9/28 WQ-322 retirement). Ledger: **`workbook/FL_ENROLLMENT.tsv`** (one row per geography × year × measure, every row carrying count type, count date, comparison basis, charter coverage and tier). **Last real data refresh: 2026-09-28.** Full sweep: `sources/enrollment/FL_ENROLLMENT_SWEEP_2026-09-28*.md`.*
+*Monitored vector, **no trigger** — the desk does not register an enrollment threshold without a documented basis (see the 9/28 WQ-322 retirement). Ledger: **`workbook/FL_ENROLLMENT.tsv`** (one row per geography × year × measure, every row carrying count type, count date, comparison basis, charter coverage and tier). **Last real data refresh: 2026-09-28.** Full sweep: `sources/enrollment/FL_ENROLLMENT_SWEEP_2026-09-28*.md`; external report (Will 9/28) with CORAL review header: `sources/enrollment/EXTERNAL_FL_School_Enrollment_Decline_report_via-Will_2026-09-28.md` — ⚠️ its growth-county list is wrong and it omits immigration.*
 
 | Leg | Current (dated) | Why it is watched | Status |
 |--------|---------|-----------|--------|
 | Statewide public membership (FLDOE Survey 2, Oct) | **2,792,954 (Oct-25), −66,701 / −2.33% YoY; 61 of 67 districts down** | Breadth of the decline | 🟠 |
 | 2026-27 early district counts (same-basis only) | **9 of 11 down** (Broward −12,343 · Miami-Dade ~−15,100 · Orange −7,672 · Palm Beach −7,204 · Pinellas ~−3,840 …); state forecast being undershot | Whether 2026-27 repeats 2025-26 | 🟠 |
-| **Discriminator 1 — scholarship FTE** | FES +72,305 (2025-26) vs district −67,906 | Substitution, not people leaving (⚠️ not all switchers) | watch |
+| **Discriminator 1 — scholarship FTE** | FES +72,305 (2025-26) vs district −67,906; **~69% of NEW recipients in the HB 1 expansion year were already private/home (FPI/Step Up, SECONDARY)** | Substitution, not people leaving (⚠️ not all switchers) | watch |
 | **Discriminator 2 — English-learner FTE** | −22,084 (2025-26), ~⅓ of the district drop | International arrivals / immigration enforcement | watch |
 | **Discriminator 3 — kindergarten vs birth cohort** | K −11,337 (−5.9%); 2020/21 births 7–9% below 2008 | Cohort size, not migration | watch |
 | District-cited causes (25 largest) | vouchers 19 · birth rates 12 · immigration 8 · homeschool 7 · charters 7 · cost of living 6 · out-migration 3 | What the owners of the data say | — |
