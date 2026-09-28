@@ -41,6 +41,7 @@
 **★N-8. Weekly EDGAR 8-K sweep for the $99M appraisal** (clean to 9/28: latest WAL filings = the 9/17 Form 4s). Silence grades nothing.
 **★N-9. ~10/13: raise the FFIEC JWT with Will.** DESKTOP session before 11/02 (KB-008..013 Stale_By): Q3 RC-R + MI3 + NDFI nonaccrual; re-derive KB-048/049.
 **★N-10. Litigation dockets never watched:** NYSCEF index numbers (WAL v. Jefferies + countersuit) · adversary 8:26-ap-01076 remand outcome · a claim objection to WAL's $173.0M · Cantor V receiver (Trigild) sales · First Brands estate recovery route (OTTO lane). Jefferies FQ3 results likely imminent (inference).
+**★N-0. ⚠️ NEXUS_BRIEF is 32,453 B — 97 B under the 32,550 read cap: TRIM (e.g. the dead 8/7 'Recent pivot' paragraph) before adding anything.** Consumer check on the composite 11/25→13/25 was all date false-positives (bare needle) — no packets owed. PROME 9/28: Will's fills today were TLT/QQQ only, nothing on WAL.
 **★N-11. Read the 2026 DEF 14A — it is ON DISK: `sources/q1_2026/14A.pdf`** (gitignored, this box).
 
 **Known residual:** `derived_drift_check.py` baseline **16/69** (re-measured 9/28; hit-by-hit reasoning in the script). **Carried / lower:** 23 blank `Stale_By` rows (timeless/borderline, left blank on purpose) · SCENARIOS v2.4 narratives + strike rebuild + multiples on Q2 TBV $63.24 · retire 8 eligible `sources/` files · tier notes on mixed rows 111/117/119 · Q2 hotel figure · KB-017 ring reconciliation · the second $60M credit (Q3 deck) · Form 4 + 144 monthly (always both) · `boot.py`.
