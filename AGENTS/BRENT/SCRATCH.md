@@ -27,7 +27,8 @@
 
 ## OPEN THREADS / WATCHES
 - 🔴 **Yanbu:** resumption REPORTED (Bloomberg, anonymous). No operator figure. Tracker class is confirm-only. The successor resolver registers after 10/24.
-- 🟠 **INCIDENTS:** OSPREY refinery tape (Kuibyshev/Ufa 9/22) still owed after a primary check; 11 ACTIVE rows past 60d.
+- 🟠 **INCIDENTS:** owed after a primary check and HAWK STRIKES.tsv: OSPREY tape (Kuibyshev/Ufa 9/22), **Novoshakhtinsk 9/25 (new row) and Ilsky 9/26 (update RF-050)** (WALTER -003, deferred). 11 ACTIVE rows past 60d.
+- 🟠 **Wed 9/30 Russia producer diesel ban expiry:** read the decree (CATALYSTS row added 9/28). **Energy credit:** HY OAS 293 (9/25) is LIQUID's; check the energy-specific leg.
 - 🟠 **TRADE.md** 9d stale at 81%: pre-9/12 history rotation offered to Will twice, no answer. USO Sep-16 165C disposition is still Will's (WQ-169).
 - 🟡 Data gap: CME settlements block automated access; the paid EOD feed vs manual glance question is still undecided with Will.
 
@@ -35,5 +36,5 @@
 - None new. USO 37 sh (USO $148.70 at 14:35 ET, yfinance). VLO 1 held + 2 staged (TERRY/Will). WQ-192 stand-down holds.
 
 ## MAIL STATE
-- Inbox: **empty** (2 consumed = 2 board_log rows, both git mv'd).
+- Inbox: **empty** (3 consumed = 3 board_log rows, all git mv'd; -003 deferred with row).
 - Sent: PROME (L471 position packet, closeout memo) · HAWK ×2 (timeline) · WALTER (-001 answer). Outbox: clear.
