@@ -1,0 +1,11 @@
+---
+name: reference_bank_loan_sale_and_lien_record_sources
+description: Where FDIC loan-sale economics (JV bid summaries) and Fairfax County lien records live, and what each can and cannot establish
+metadata:
+  type: reference
+symptoms: "the FDIC press release doesn't state leverage" · "no value computable from the Signature sale" · "can't see whether the Fairfax loan paid off" · "EGBN loan outcome not on EDGAR"
+---
+
+**FDIC joint-venture (structured) loan-sale BID SUMMARIES** — `fdic.gov/resources/resolutions/asset-sales/historical-sales/joint-venture-transactions/joint-venture-transactions-documents/` (e.g. `sig-rcrs-ab-mf-2023-venture-llc-bid-summary.html` for Signature's Santander rent-stabilized venture). One table per venture: every bidder's bid, the equity % sold, and a **Leverage** column (the FDIC seller financing chosen; "1:1" vs "N/A"). **The press releases omit what these carry** — on 2026-09-27 CREED concluded "no value computable" from the releases alone and Will caught it; the bid summary made a conditional valuation computable (Santander A/B $1,086,445,000 for 20%, "N/A" ⇒ ~60% of $9.0B IF "N/A" = unlevered). ⚠️ The summary prints **no legend for "N/A"**; the venture LLC agreements are the definitive source. A bid is a minority-equity valuation, never a realized loss; realized recoveries sit in FDIC receivership/DIF reporting, not the sale documents.
+
+**Fairfax County (VA) land records — CPAN** (Circuit Court Public Access Network): deeds of trust, modifications, certificates of satisfaction (payoffs), substitute-trustee appointments, trustee's deeds — searchable by grantor/grantee, address or tax map. **$150 per user per quarter** (Chrome/Edge), or free in person at the courthouse Land Records Research Room. Use: identify a bank's unnamed loan by a lender-name grantee search, then read its payoff/extension/foreclosure record. ⚠️ Modifications are not always recorded (absence ≠ not extended); Virginia non-judicial foreclosures are advertised in newspapers only after default. Will DEFERRED the subscription 2026-09-27 (WQ-310) — the bank's next earnings deck is the default checkpoint. Related: [[finding_fdic_failures_api_lags_the_newest_failure]], [[finding_negative_reachability_is_a_claim_about_your_request]].
