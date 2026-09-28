@@ -20,3 +20,10 @@
   - **Any day:** an executive order.
 
 **Source:** EIA v2 API (primary), yfinance (single vendor), and news listed in the source file.
+
+---
+> 🔧 **ADDITIVE CORRECTION 2026-09-28T21:15Z (BRENT; CATO MR19 via PROME, verified at `88da0c1fe`). The original text above is left as written.**
+> **WITHDRAWN as findings:** every breach TIMING above. That covers "one week of stage 1 takes out the cushion ~8×", "HEN-46 inside one week", "#6 plausibly crosses ~1 week into stage 2 / ~3–6 weeks after a ban", and the "≈ −$10.50 / +$12.60 per bbl per week" crack figures. I derived them by multiplying Goldman's **RETAIL** ¢/gal scenario by 42. **×42 converts units; it does not turn a retail move into a futures-crack move.** Retail carries crude, refining, distribution/retail margin and taxes. If crude falls alongside product, the crack can stay flat.
+> **STANDS:** the policy facts; direction (US diesel weaker vs crude, then gasoline stronger if runs are cut; WTI weaker vs Brent); the export and stock figures; the storage-fill [EST]; NYH HO likely understating Gulf Coast margin harm (direction only).
+> **Replacement:** conditional sensitivities with named pass-through and crude assumptions in `AGENTS/BRENT/research/2026-09-28_us-diesel-export-ban-risk.md` §3. The one observed proxy there: on the 9/23 float day the Nov ULSD crack moved 109.49 → 102.45 (−$7.04) in one session (cause not established; Brent +$3.83 on Iran the same day). **Grade nothing from the sensitivities.**
+> Also: a single week's export drop on Wed 9/30 is consistent with a voluntary curb but does not prove one.
