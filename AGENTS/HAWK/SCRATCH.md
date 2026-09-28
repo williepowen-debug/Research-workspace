@@ -1,6 +1,6 @@
 # HAWK SCRATCH — 2026-09-28 (Mon)
 
-**Written:** 2026-09-28 ~15:4x ET · **Session:** Will-launched boot + news catch-up; PROME `prome-7f` doorbell mid-session (Iran 7-day plan read + DOCKET L491). Live coordination with `brent-d2`, `walter-f8`, `prome-7f` via SendMessage.
+**Written:** 2026-09-28 15:31 ET (from `date`; the earlier ~15:4x stamps were typed ahead of the clock) · **Session:** Will-launched boot + news catch-up; PROME `prome-7f` doorbell mid-session (Iran 7-day plan read + DOCKET L491). Live coordination with `brent-d2`, `walter-f8`, `prome-7f` via SendMessage.
 **$0. No trade view. No mark, band, threshold or confidence moved** (IRAQ-01 held pending Will).
 
 ---
