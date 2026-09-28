@@ -25,3 +25,20 @@ This companion keeps render metadata outside the boot-read byte budget.
   }
 }
 ```
+
+*Amendment #2 (2026-09-28 12:5x ET, PROME, first market-session write since the 9/25 post-close base): projection below.*
+
+```dashboard-amendment
+{
+  "amendment": 2,
+  "source_sha256": "c5fd67a54cc020464d11b7a270d8a020b8ec87554da2d4a42372fe0cde2fdc57",
+  "set": {
+    "channels": {
+      "Credit": {
+        "headline": "🟠 HY 293 / CCC 1,128 [9/25] — RED-FT-01 2 of 3; the 9/28 cell decides",
+        "body": "FRED 9/25 (published Mon AM): HY OAS 293 · CCC 1,128. RED-FT-01 (≥280 ×3) 2 of 3 — the 9/28 cell (Tue AM) completes or resets; RED rules. X1 >280 strict 1 of 3, CLOSED regardless (8/28). Re-kill 0 of 2, 33bp. LIQUID's 283 estimate missed high; Q4 'isolated CCC' lean withdrawn. IG/BBB not joined (BOND). STAND DOWN holds; no capital path."
+      }
+    }
+  }
+}
+```
