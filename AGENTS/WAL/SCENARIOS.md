@@ -9,7 +9,7 @@
 
 **Created:** 2026-03-25 (v1.0) | **Last Updated:** **2026-08-20 (v2.4 — MI3-disconfirmation re-mark: bear-fast 10%→2%, probabilities only, no range moved)**; prior **2026-07-25 (v2.3 — Q2 print re-mark: probabilities + ranges + EV off Q2 actuals)**; prior 2026-06-08 PM (v2.2.1 — macro-NIM tailwind softening + cohort RESOLVED → Hyp A); date-fix 7/10; audit banner 7/17
 **Price:** → `STATUS.md` (last: **$77.61 [Fri 9/25 close]**; $75.60 [Wed 9/23]; $80.05 [8/20 14:4x ET] was the v2.4 mark, $83.11 the 7/24 close) | **TBV:** **$63.24 [Q2 10-Q, 6/30/26]** (Q1 $61.14; corrected 9/28 — it said "Q2 TBV not re-pulled", but the Q2 read carried it since 8/7). ⚠️ The scenario multiples below still run on the Q1 $61.14 — at $63.24, Base $74-82 = 1.17-1.30× TBV. | **CET1:** 11.0% [Q2 confirmed]
-**Short Interest:** 4.91% float [FINRA 6/30] — never refresh from yfinance (its SI fields are defective, KB-192)
+**Short Interest:** **5.97M shares short [FINRA 9/15] = 5.48% of shares outstanding** (~5.62% on the old float basis), days to cover **6.4**, the series high (KB-214; was 4.91% float at 6/30) [9/28 pull; 6/30 figure was 4.91% float] — never refresh from yfinance (its SI fields are defective, KB-192)
 **Q2 2026 EPS:** $2.36 GAAP = adjusted (10-Q, KB-149) · Q1 $1.65 GAAP / $2.22 adjusted | **FY2025 NI:** $991M
 
 > **📐 OVERVALUATION CONVENTION (pinned 2026-06-08 v2.2.1):** Overvaluation = **(Price − EV) / EV**. All historical figures herein normalized to this denominator. Prior sessions used inconsistent denominators (sometimes ÷EV, sometimes ÷Price) — corrected below.

@@ -36,8 +36,8 @@
 **★N-1. Consume the 9/29 Plaza Continental hearing per research §10 (H1-H11) — mechanical. Docket may lag: re-check through Fri 10/2, then NO-VERDICT.** Only Ontario moves. KB-205 Stale_By is 9/30 for exactly this.
 **★N-2. ⏱ From Fri 10/2: WAL IR feed + EDGAR for the Q3 date every business day;** on announcement pin print frame §9 and re-pin WAL-01/02 `Resolve_By` (check it still clears the 11/9 10-Q deadline).
 **★N-3. Nano P&A posting ~10/5–10/9** → narrows B1/B2 by category only (research §9a).
-**★N-4. Refresh short interest from the FINRA file before 10/09** (KB-126 Stale_By shortened to 10/09; never yfinance).
-**★N-5. Before the print:** dated consensus snapshot (EPS/NCO/NPL/NIM) — the frames grade only vs mgmt guidance; re-verify the Barclays 9/16 quotes at a primary if one appears.
+~~**★N-4. Refresh short interest**~~ ✅ **DONE 9/28 (KB-214):** FINRA 9/15 5.97M short, 5.48% of shares out, days to cover 6.4 (series high). **Next: the 9/30 settlement ~10/9** (KB-214 Stale_By 10/12; FINRA API `consolidatedShortInterest`, date-range filter).
+✅ **N-5 partly DONE 9/28 (KB-213):** consensus EPS $2.43 (Nasdaq) / $2.44 (Yahoo), revenue $989.0M; NCO/NPL/NIM consensus UNAVAILABLE. **★N-5 now: RE-SNAPSHOT the day before the print** (Nasdaq API `api.nasdaq.com/api/analyst/WAL/earnings-forecast` + yfinance `earnings_estimate`), and re-verify the Barclays 9/16 quotes at a primary if one appears. **WAL's own rate-sensitivity table pulled (KB-212) and handed to REGINALD for WQ-318.**
 **★N-6. Identify the $99M building** (LEED × gateway-market press; county assessor) — sets the appraisal prior. Highest-value research gap.
 **★N-7. Consume REGINALD's WQ-318 baseline (due 10/09)** for the funding side; do not duplicate it.
 **★N-8. Weekly EDGAR 8-K sweep for the $99M appraisal** (clean to 9/28: latest WAL filings = the 9/17 Form 4s). Silence grades nothing.
