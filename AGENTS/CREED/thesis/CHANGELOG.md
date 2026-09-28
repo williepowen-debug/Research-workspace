@@ -1,5 +1,13 @@
 # CREED Thesis Changelog
 
+## 2026-09-28 · **S8a 2 → 4, WILL-RULED — composite 25/45 → 27/45 (60.0%)**
+
+1. **Will ruled WQ-303 at 4** (verbatim *"Approve WQ-303 at 4 and WQ-304 option B"*, in PROME's session 15:23 ET; committed `PROME/WILL_QUEUE.md` @`47623f8b1`, verified at the artifact before encoding). S8a moves 2 → 4 on the `CREED-T-08a` fire (effective 9/24). ⚠️ **The caveat travels with the score:** a **rate-led** fire (10y 4.38 → 5.18% official [9/24]; 5.24% live 9/28), and ~2.2pp of the −13.06pp [9/25 TR] depth came from the 3-month window roll — **it argues against 5, it does not lower the 4.** Live 9/28 intraday: −10.67pp TR (10-session σ 3.40pp) — still past the band.
+2. **Independent roots unchanged at ~4–5** — the fire confirms the maturity/coupon root, it does not add one. **S3 still 2: still PRE-BANK-TRANSMISSION.**
+3. **Predictions (WQ-304 option B):** `PRED-004` HIT (60%, Brier 0.16), `PRED-007` MISS (15%, Brier 0.7225), graded on CREED's own ledger; mean Brier **0.30625 → 0.37375** (n=4). ⚠️ **The Kernel ledger keeps both OPEN until a Gate C sitting settles them** — a stated divergence.
+
+**⚠️ What did NOT change:** no band/op/sustain/trigger; base case unchanged; no capital path.
+
 ## 2026-09-26 · **SECOND TRIGGER FIRE.** `CREED-T-08a` (S8a) FIRED — a RATE fire; composite HELD at 25/45 pending Will
 
 1. **`CREED-T-08a` FIRED, effective 2026-09-24.** VNQ vs SPY 3-mo **total-return −10.12pp (9/24) / −13.06pp (9/25)** on the basis Will ruled 9/10. Sector-wide (XLRE/IYR). Confirming leg met on both Signal-8a branches: **rates/refi** (10y 4.38 → 5.18%; **FOMC +25bp 9/16**) and **property** (Trepp Aug SS **11.42%, highest since Feb 2013**). **Score not moved by CREED — Will's call; rec 2 → 4, not 5.** A rate fire confirms the maturity/coupon root; it is **not** a tenant-demand read (S7 was improving), so the independent-root count stays ~4–5.

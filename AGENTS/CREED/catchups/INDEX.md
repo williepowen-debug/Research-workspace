@@ -4,7 +4,8 @@
 
 | Catch-up | File | State |
 |---|---|---|
-| **2026-09-27** | `catchups/2026-09-27.md` | **CURRENT** |
+| **2026-09-28** | `catchups/2026-09-28.md` | **CURRENT** |
+| 2026-09-27 | `catchups/2026-09-27.md` | superseded |
 | 2026-09-26 | `catchups/2026-09-26.md` | superseded |
 | 2026-09-02 | `catchups/2026-09-02.md` | superseded |
 | 2026-08-27 (+8/28 header) | `archive/STATUS_ROTATION_2026-09-02.md` | superseded |

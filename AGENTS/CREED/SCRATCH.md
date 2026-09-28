@@ -11,14 +11,14 @@
 Sitting 2 closed and revoked 2026-09-02 (CONTINUE). **Pins are ROW-scoped:** `PRED-CREED-001/004/007` at `e390ccbb28` (sha256 of the row bytes). ⇒ **Other rows are editable. Never edit those three. Re-verify their sha256 after any write to `workbook/PREDICTIONS.tsv`** (the recipe is in the 9/26 session: parse `raw_record_sha256` from `KERNEL/shadow/events/2026/09/EVT-…011[1-6].json`). **004 and 007 have MET their rules — resolution is PROME's Kernel act (packeted 9/26); do not grade them in the scoreboard until it lands.**
 
 ## 🔴 NEXT-BOOT FIRST MOVES
-1. ⚖️ **Did Will rule the S8a score?** (CREED rec 2 → 4; composite 27/45.) If yes, encode at the THESIS row 8a + composite + STATUS header, and close obligation 23. If not, it stays AWAITING — do not self-score.
+1. ✅ **DONE 9/28 — Will ruled 4; encoded (27/45).** ~~⚖️ **Did Will rule the S8a score?** (CREED rec 2 → 4; composite 27/45.) If yes, encode at the THESIS row 8a + composite + STATUS header, and close obligation 23. If not, it stays AWAITING — do not self-score.
 2. 🔴 **ARI liquidation vote 2026-09-29 → `PRED-CREED-005`** (8-K Item 5.07). ⚠️ The first distribution ($3.70–4.00) prints as a ~60% ex-date drop — return of capital, not a market move *[⚠️ EXPECTATION, not a known outcome (Will, 9/26): the proxy's $3.70–4.00 range and ~30-day timing are PROJECTIONS. Verify the declared amount, record date and ex-date at the 8-K, and when grading returns separate the mechanical ex-date adjustment (declared amount ÷ prior close) from same-day market movement.]*.
 3. 🔴 **MBA Q2 CM/MF debt (~week of 9/28) → grade `PRED-006` + `010` JOINTLY.** Z.1 leans 006 FALSE (+$7.8B vs +$10.0B), but grade only on MBA's printed QoQ. 010 = PARTIAL (+$6.9B QoQ). Both writes (ledger + scoreboard) or neither.
 4. 🔴 **September Trepp DQ (~10/01) — grade on `registry/PREREG_2026-10_TREPP_PRINT.md`, appending below §6.** September **cannot fire `T-01a`**; 12.01+ = leg 1 only. PDFs: try `trepp.com/hubfs/Trepp%20CMBS%20Delinquency%20Report%20September%202026.pdf` with a browser UA (WebFetch is blocked). **CORAL cycle 4: send the zeros if no FL asset is named.**
 5. **Recompute S8a** (`scripts/s8a_relative.py`) — expect it to lift ~+4pp mechanically by ~9/30 as 6/29–6/30 roll off. **Not an un-fire** (no sustain); never write "the fire reversed".
 6. ✅ `VX.tsv` split DONE 9/26 — **write new vector notes to `notes/VX_NOTES.md` (top of the vector's section), keep the cell ≤ ~190 chars.**
 7. **Q3 bank prints (mid/late Oct): read REGINALD's bridge re-grade against CREED's property test** — the three gaps: FLG post-freeze RR clearing prices · EGBN MF exit severity · OZK RaDD leasing/extension (Q3 call). ⚠️ **(Will, 9/26) These are research TARGETS, not questions the releases are guaranteed to answer.** Q3 releases, calls and 10-Qs may disclose them only partly. **Where disclosure is missing, record the gap as UNRESOLVED**, never as an answer by inference (trap #12). ⛔ The refinancing-gap model and the realized-loss ledger are **DEFERRED by Will** (9/26) — do not start them unasked.
-8. Check the **Kernel resolution** of 004/007 landed at PROME (**WQ-304 still OPEN at 9/27 close; PROME rec B = Will releases CREED to grade both on its own ledger**); then update the scoreboard (n=2 → 4) in the same session as the ledger rows.
+8. ✅ **DONE 9/28 — WQ-304 option B: 004 HIT / 007 MISS graded on CREED's ledger + scoreboard (n=4, mean Brier 0.374); Kernel records stay OPEN until a Gate C sitting.** ~~Check the **Kernel resolution** of 004/007 landed at PROME (**WQ-304 still OPEN at 9/27 close; PROME rec B = Will releases CREED to grade both on its own ledger**); then update the scoreboard (n=2 → 4) in the same session as the ledger rows.
 9. ✅ **Re-check DISCHARGED 9/27 (analysis §6: both committed files match).** Still live: **9/29 Plaza Continental hearing (8:26-bk-10986)**: FDIC-as-receiver appearing ⇒ Ontario lien RETAINED; Sunwest ⇒ sold. P&A ~10/05–10/09. *(Original item follows.)* **Nano Banc re-check (STATUS obl. 27):** if REGINALD's `reports/2026-09-27_nano-banc-failure-forensics.md` §3 or DEWEY's `output/2026-09-27_nano-banc-primary-documents.md` changed at commit (both uncommitted when read), re-check `analysis/2026-09-27_nano-banc-collateral-read.md` §1b/§2a. **When the FDIC P&A agreement posts (~1–2 wks), it supersedes §1's INFERRED composition.** FDIC sale → DOCKET **L515**: grade as an S6 comp **by lien position**; most likely NOT a T-06 member.
 
 ## ✅ CLOSED 9/27 — do not re-raise
@@ -27,11 +27,11 @@ Sitting 2 closed and revoked 2026-09-02 (CONTINUE). **Pins are ROW-scoped:** `PR
 ## ✅ CLOSED 9/26 — do not re-raise
 `T-08a` FIRED (rate fire) · Aug SS graded, `T-01b` not fired · full Aug PDFs PUBLIC (9/02 "gated" was a retrieval-shape error; WALTER request withdrawn) · Office DQ history corrected (Feb 11.20) · `T-08b` graded not fired · gate census positive-controlled (obligation 1) · WQ-215 + WQ-100 encoded · HOMER named item landed (MF maturity-adj = not in source) · Athene column period resolved (PARTIAL stands) · DC CMBS disposition to WALTER · WALTER mirror clauses fixed (VX-2.01 sustain, VX-5.03 state) · cadence declared EVENT-DRIVEN · CalculatedRisk: not run, told PROME · COR-20260925-05 receipted NO-OP · STATUS hot/cold split · inbox 18/18 drained.
 
-## ⚖️ AWAITING WILL — 1
-1. **S8a score after the `T-08a` fire** (rec 2 → 4).
+## ⚖️ AWAITING WILL — 0
+1. ~~**S8a score after the `T-08a` fire** (rec 2 → 4).~~ ✅ Ruled 4, 2026-09-28.
 
 ## 🟡 STATE AT HANDOFF
-- **Base case HOLDS; 🟠 ELEVATED; 25/45 held pending Will; pre-bank-transmission.**
+- **Base case HOLDS; 🟠 ELEVATED; 27/45 (S8a ruled 4, 9/28); pre-bank-transmission.**
 - **Rates are now the live driver:** 10y 5.18% (9/24), FOMC hike 9/16. The desk's synthesis (*the asset against the coupon*) predicted exactly this channel; say so without claiming the tape confirms tenant stress.
 - **Trigger board:** `T-01a` 12.00 AT band 0/2 · `T-01b` 16.90 · `T-02` spent · `T-03` not fired · `T-06b` fired, 1 · **`T-08a` FIRED 9/24** · `T-08b` not fired.
 - **Counts:** VX 34 · KB **45** · PRED 11 (8 open) · registry 11 rows. `creed_selfcheck` CLEAN at closeout.
