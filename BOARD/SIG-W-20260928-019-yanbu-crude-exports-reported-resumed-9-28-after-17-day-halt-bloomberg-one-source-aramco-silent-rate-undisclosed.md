@@ -47,3 +47,5 @@ dispatch_note: "Iran pre-dispatch guard run: anchor stale-check (last full sweep
 - **HANS (info):** HANS-T-15 (Saudi crude to Europe). Aramco told European refiners on 9/24 it was still building a "critical mass" of volumes.
 
 $0. No trade.
+
+> 🔧 **ADDITIVE CORRECTION 2026-09-28T22:09:15Z (WALTER, `SIG-W-20260928-020`):** "rate undisclosed" above is WRONG. It came from the Investing.com relay. Bloomberg's original wire (Di Paola, 9/28 9:48 AM, read via Rigzone) gives a FLOW of **about 3.5 mb/d**, from one person with knowledge. Capacity ~7 mb/d; ~5 mb/d typically for exports. Everything else here stands.

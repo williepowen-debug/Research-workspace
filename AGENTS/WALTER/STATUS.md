@@ -4,7 +4,7 @@
 
 ## BOTTOM LINE
 
-🆕 **Evening re-boot 17:25 ET (`walter-f8`): BOARD 1080 → 1083. `-017` supersedes `-016` (diesel timing withdrawn, PROME L531 discharged) · `-018` official Treasury 30Y 5.56 [9/28] CONFIRMS HENRY's red >5.50 · `-019` Yanbu exports REPORTED resumed (1 source) → FALCON. WAL H8/H9 hearing rows encoded in ROUTING_CARVEOUTS. Lane 13/13.**
+🆕 **Evening re-boot 17:25 ET (`walter-f8`): BOARD 1080 → 1083. `-017` supersedes `-016` (diesel timing withdrawn, PROME L531 discharged) · `-018` official Treasury 30Y 5.56 [9/28] CONFIRMS HENRY's red >5.50 · `-019` Yanbu exports REPORTED resumed (1 source) → FALCON; `-020` corrects its "rate undisclosed": ~3.5 mb/d flow per Bloomberg's original. WAL H8/H9 hearing rows encoded in ROUTING_CARVEOUTS. Lane 13/13.**
 
 **Monday 2026-09-28: BOARD 1064 → 1080, 16 dispatches, 9 intake batches closed (lane 20/20; drop-zone 2/2 + 1/1; Will-Telegram 8/8, 9/9, 4/4 DUP), no WALTER-scanned registered-trigger fire; two own errors corrected on the record (BRENT caught the frozen-ledger SPR claim in `-010`; BOND caught the "issuance settles second" line in `-007`).** 🔴 **Credit: HY OAS 293 [FRED 9/25], the first print over 280 (`-002`; LIQUID: broad, BB-led; X1 CLOSED; RED-FT-01 exit 2 of 3, the 9/28 print decides Tue).** 🔴 **Rates: 30Y ^TYX 5.56 [9/28 close] over HENRY's 5.50 red on a PROXY (official Treasury close tonight); CCC 1,112/1,128 over HENRY's 1,100 red (`-009`, HENRY dark).** 🔴 **Diesel (`-016`, after the Tier-2): a US export ban is LIVE POLICY TALK (Trump 9/27), no order.** ⚠️ Its "#6 could fire ~3–6 weeks after a ban" timing is **WITHDRAWN** (BRENT correction 2d508e43c: retail ¢×42 is not a crack move). 🔴 **Iran: NBC, 8 US Marines injured 9/14 by an Iranian cruise missile on a non-Navy vessel, undisclosed (`-008`; FALCON rung (d) needs a death, NOT met); the IRGC 19-ship claim is unsubstantiated. FALCON doorbelled → PROME wakes it Tue (GATE-FALCON-001).**
 
@@ -29,7 +29,7 @@
 | CREED-T-08a | 🔴 FIRED 9/26 eff 9/24 (owner-graded); VNQ $90.59 [9/28 close] |
 | HANS-T (6 scannable-daily of 17) | **TE 9/28:** UK 10Y **5.40** (orange >5.50, 10 bp) · Bund **3.63** (orange >3.75, 12 bp). Carried TE 9/25: UK 30Y 5.87 · OAT 4.73 · BTP 4.50 · TTF €71.89. ⛔ T-08 storage not pulled · T-12 UNINSTRUMENTED |
 | Niño 3.4 (AEOLUS) | **+3.1°C [NOAA CPC, week 9/23]**, rising weekly (`-011`) |
-| Iran anchor | FULL SWEEP 9/24; 9/28 kinetic line (`-008`) + **9/28 Petroline export leg: Yanbu exports REPORTED resumed (Bloomberg, 1 source, Aramco silent; `-019`)**; **next FULL ~10/01** (+ reconcile the 8/28 "Hormuz reopens"/"US clears mines" headlines) |
+| Iran anchor | FULL SWEEP 9/24; 9/28 kinetic line (`-008`) + **9/28 Petroline export leg: Yanbu exports REPORTED resumed, flow ~3.5 mb/d vs ~7 capacity (Bloomberg, 1 source, Aramco silent; `-019`/`-020`)**; **next FULL ~10/01** (+ reconcile the 8/28 "Hormuz reopens"/"US clears mines" headlines) |
 | Calendar | **9/29** Plaza Continental hearing (FDIC/Nano), rent-freeze screenshots, CCL Q3, HY 9/28 print, FALCON + HENRY Tue wakes (PROME) · **9/30** size checks, Russia diesel-ban expiry, Brent Nov expiry, Iraq pullout, EIA/Cushing, Paramount HY pricing · **10/01** NYC rent freeze, CRMT bridge-4, Trepp, Iran full sweep, claims · **10/02** WQ-295 R3 deadline · 10/05 REGINALD WQ-318 wake · 10/06 WQ-252 sitting |
 
 ## MISSION
