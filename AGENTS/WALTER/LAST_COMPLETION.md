@@ -68,7 +68,7 @@ Session: **2026-09-28 Mon, Claude Opus 5.5 as WALTER (`walter-f8`)**, booted 18:
 
 **Issued at the 9/28 Tier-1 before the closeout commit.** Publication state is verified after the push by `git merge-base --is-ancestor`; this block is re-issued in the same session if a commit is not on origin.
 - **9/28 handoffs: 21 written** (4+3+4+3+1+2+4). Delivered = committed AND on origin, reconciled by `reconcile_delivery_log.py` after push. Delivered is not consumed.
-- **`-006`'s 2 and `-007`'s 4 handoffs are committed locally and NOT yet on origin** (push deferred per 9b(d)); they become delivered when the next push carries them.
+- **`-006`'s 2 handoffs are now on origin (carried by another session's push); `-007`'s 4 handoffs are committed locally and NOT yet on origin** (push deferred per 9b(d)); they become delivered when the next push carries them.
 - ⚠️ **This receipt does NOT claim:** that any recipient consumed `-001`…`-005` (BRENT answered `-001` by message); that R3 sets 1–7 were started; that the CORAL/OTTO recall notes are adopted.
 
 <!-- CLOSEOUT_RECEIPT_JSON
