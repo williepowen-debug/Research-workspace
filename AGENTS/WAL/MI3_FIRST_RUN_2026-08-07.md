@@ -162,6 +162,8 @@ The window did **not** pass unintegrated. The falsifier ran, on the named instru
 
 ## 6. WHAT WAS **NOT** DONE — the re-weight is a proposal, not a grade
 
+> **Rider 2026-09-28:** P7 **EXECUTED** 8/20 (v2.4: bear-fast 10%→2%); P8/P9 self-ruled 8/20. THESIS line references in this file are 8/7 vintage — the calibration table now sits in THESIS §"EXECUTED V1 PRIMARY TEST"; anchor on the section name, not a line number.
+
 **The 10% bear-fast weight was NOT moved, and no thesis version was bumped.** Reasons, stated so the restraint is auditable:
 
 1. **The pre-registered grade is the band verdict plus the KILL rule's firing.** Both are recorded above. **Where the freed 10% goes is nowhere in any frozen spec.**

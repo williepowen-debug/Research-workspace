@@ -10,7 +10,7 @@
 ## PART 1 SUMMARY — corrections status + the one-line net
 
 - **All four received corrections are RECONCILED and folded** (`577ae167e`, s#9). See OBSERVED §A.
-- **Net exposure, branches open:** the Nano Banc failure creates **NO new WAL exposure.** WAL's Cantor-fraud exposure is bounded by two *already-booked, dated* components — the **$72.4M gross Cantor residual** ($3.5M specific allowance left, Q1 10-Q, KB-143) and the **$64M purchased protective senior liens** (Q2 deck, KB-123). The failure changes **recovery dynamics** (mixed/worse), not exposure. The **$173.0M Stupin bankruptcy claim (Claim No. 5)** is a *filed claim amount*, unreconciled against the **$98.6M** facility balance — **not booked exposure** (KB-208; CATO NB3).
+- **Net exposure, branches open:** the Nano Banc failure creates **NO new WAL exposure.** WAL's Cantor-fraud exposure is bounded by two *already-booked, dated* components — the **$72.4M gross Cantor residual** ($3.5M specific allowance left, Q1 10-Q, KB-143) and the **$64M purchased protective senior liens** (Q2 deck, KB-123). The failure changes **recovery dynamics** (mixed/worse) ⤵ *(9/28: OPEN on the senior-lien leg across branches A/B1/B2/U; WORSE on the guaranty leg — Nano file §9c)*, not exposure. The **$173.0M Stupin bankruptcy claim (Claim No. 5)** is a *filed claim amount*, unreconciled against the **$98.6M** facility balance — **not booked exposure** (KB-208; CATO NB3).
 
 ## PART 2 SUMMARY — how much of the thesis each risk carries
 
@@ -51,7 +51,7 @@ Nano Banc holds **4 deeds of trust, $28.04M ORIGINAL face**, senior to / alongsi
 ### §C — the recovery-side facts the failure DID move (KB-206/207)
 
 - WAL's **GUARANTY** claims vs Stupin + Marcil were removed to bankruptcy court (adversary 8:26-ap-01076-SC, 6/25/2026); WAL moved to remand 7/27. Guarantor **Andrew Stupin in Ch.11 since 4/17/2026** (8:26-bk-11202-SC); WAL filed **Claim No. 5 ≈ $173.0M** (KB-206/208). Collection **stayed**.
-- The **FDIC-R now holds ~$27.7M** (face) of accelerated **Marcil** loans → a well-funded **competing creditor** against the same guarantors (KB-207). **Guaranty leg WORSE.**
+- ⤵ *(9/28: holder after 9/25 unproven — FDIC-R or Sunwest; KB-207)* The **FDIC-R now holds ~$27.7M** (face) of accelerated **Marcil** loans → a well-funded **competing creditor** against the same guarantors (KB-207). **Guaranty leg WORSE.**
 - Two debtors (Ontario, Chino) are **investigating avoidance** of the Cantor V liens WAL holds as pledgee → a **NEW two-way collateral risk** (KB-206).
 - **Makhijani** (ran Cantor V) arrested ~June 2026, ~$100M bank fraud, "Bank #1" = WAL; trial continued to **1/12/2027** (KB-203). Detained.
 
@@ -69,10 +69,10 @@ Nano Banc holds **4 deeds of trust, $28.04M ORIGINAL face**, senior to / alongsi
 
 1. **Three lien-ownership states, ALL still open** (research §2; none established for any of the 4 DOTs):
    - **(a)** WAL already bought Nano's liens (would fit inside the $64M; $28.04M face < $64M). *Basis: magnitudes allow it; INFERENCE only, never promoted.*
-   - **(b)** Nano still held at failure → liens pass to **FDIC-R or Sunwest** → forced disposition typically **3–9 months**. *Basis: NODs on Nano DOTs 5/20/2025 = Nano was enforcing, not selling, mid-2025.*
-   - **(c)** Nano foreclosed **pre-failure** → a senior trustee's sale extinguishes WAL's junior interest unless WAL bid; loss would **already be inside** the Q1 $26.1M Cantor charge-off. *Basis: NODs recorded 5/20/2025 made a trustee's sale legally possible from ~late 2025.*
+   - **(b)** Nano still held at failure → liens pass to **FDIC-R or Sunwest** → forced disposition typically **3–9 months** ⤵ *(B1 only — FDIC-retained; under B2 Sunwest is not a forced seller)*. *Basis: NODs on Nano DOTs 5/20/2025 = Nano was enforcing, not selling, mid-2025.*
+   - **(c)** Nano foreclosed **pre-failure** → a senior trustee's sale extinguishes WAL's junior interest unless WAL bid; loss would **already be inside** the Q1 $26.1M Cantor charge-off ⤵ *(inference — no filing states it)*. *Basis: NODs recorded 5/20/2025 made a trustee's sale legally possible from ~late 2025.*
 2. **"WAL is senior on Chino"** — INFERENCE only: $19.1M reported lien − Nano ~$6M ≈ $13M = WAL's Q1-26 "$13M non-performing senior lien loan" (KB-143). The 10-Q names **no property or seller**; never promoted to a tie.
-3. **Recovery-leg net (if state b):** senior-lien leg **MIXED** (an FDIC forced sale could set an outside price on liens against WAL's own collateral, a *possible* positive); guaranty leg **WORSE** (competing FDIC creditor); **NEW** avoidance risk. **All inside the two booked components; no P&L event expected from the failure itself.**
+3. ⤵ *(9/28: superseded — senior-lien leg OPEN across branches; a forced sale only under B1; Nano file §9)* **Recovery-leg net (if state b):** senior-lien leg **MIXED** (an FDIC forced sale could set an outside price on liens against WAL's own collateral, a *possible* positive); guaranty leg **WORSE** (competing FDIC creditor); **NEW** avoidance risk. **All inside the two booked components; no P&L event expected from the failure itself.**
 4. **Stupin guaranty recovery ceiling (illustrative, debtors' OWN scheduled values only, KB-208):** assets $92.2M − secured $38.6M ≈ $53.6M for unsecured, diluted by Zions/Preferred/FDIC claims + admin; **cannot pay near face.** Never quote a cents-on-the-dollar figure as a finding.
 
 ---
@@ -84,7 +84,7 @@ Nano Banc holds **4 deeds of trust, $28.04M ORIGINAL face**, senior to / alongsi
 | Property | Latest DATED observation | Unknown | What would settle it |
 |---|---|---|---|
 | **Ontario** (loan 43) | Debtor lists Nano lien ~$5.13M owed (Doc 88, **9/8/2026**); Nano appears as creditor **9/11/2026** (Doc 90) | Ownership at 9/25 (a transfer after 9/11 is not ruled out) | **Tue 9/29 13:30 PT Plaza Continental hearing** (8:26-bk-10986) — an **FDIC-R or Sunwest appearance** = evidence, *not guaranteed*; FDIC **P&A ~10/5–10/9** (category-level); a recorded **assignment / FRBP 3001(e) transfer notice** |
-| **Chino** (loan 44) | Debtor reports WAB + Nano liens ~$19.1M (Doc 122, **8/26/2026**), property **12125** Central (not 12233), **65.91% TIC** | (a) ownership at 9/25; (b) whether the $19.1M lien **IS** the $5.99M DOT; (c) current WAL-vs-Nano **priority**; (d) 12125/12233 + TIC reconciliation | **Parcel/APN records** reconciling 12125/12233 + TIC to the DOT legal description; a **title report**; a proof of claim attaching note + DOT |
+| **Chino** (loan 44) | Debtor reports WAB + Nano liens ~$19.1M (Doc 122, **8/26/2026**), debtor's filing says property **12125** Central — match to the 12233 DOT UNRESOLVED (corrected 9/28), **65.91% TIC** | (a) ownership at 9/25; (b) whether the $19.1M lien **IS** the $5.99M DOT; (c) current WAL-vs-Nano **priority**; (d) 12125/12233 + TIC reconciliation | **Parcel/APN records** reconciling 12125/12233 + TIC to the DOT legal description; a **title report**; a proof of claim attaching note + DOT |
 | **Moreno Valley** (loans 32/33) | Nothing on holder since the 2025 complaint; owner Alessandro Group Ch.11 **8/18/2026** (schedules **NOT on RECAP**) | Everything — holder, priority, ownership at failure | **Riverside County recorder search — WILL'S HANDS** (`webselfservice.rivcoacr.org`, "NANO BANC", 1/1/2025–9/25/2026 → Assignment/Substitution/NOD/Reconveyance/Trustee's Deed); or Alessandro schedules if purchased on RECAP |
 | **Bellflower** (loan 45) | Nothing either way | Everything | **In-person LA County Registrar-Recorder search** (no online index) — Will's hands |
 

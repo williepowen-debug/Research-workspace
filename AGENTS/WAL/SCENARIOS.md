@@ -1,6 +1,6 @@
 # WAL — Scenario Analysis & Target Prices
-> **✅ v2.4 RE-MARK LANDED 2026-08-20 — the MI3 disconfirmation is now IN the numbers.** Bear-fast **10% → 2%** (its falsifier ran and returned a negative); freed weight to **Base 45% / Bull 30%**; **bear-medium HELD at 16%**. EV **$73.92 → $75.96**; **overvaluation 12.4% → 5.4%** at spot $80.05 [8/20]; PT **$52-76**. ⛔ **Anti-ratchet verified: total bear 26% → 18%.** See §EV SUMMARY (v2.4) immediately below. → **−0.47% at $75.60 [Wed 9/23 close]** (spot BELOW EV — a price move, not a re-mark; `STATUS.md` owns the live figure).
-> **⚠️ (8/20 record)** ~~The Sep-18 cores ($67.5P/$70P) now sit $8.46 and $5.96 BELOW EV~~ — **the Sep-18 pair finished OTM 9/18 (tape; booking unrecorded). Live book = Dec-18 $70P ×1, $5.96 below EV and $5.60 below spot [9/23] → `POSITIONS.md`.** Original: — on the central estimate they expire worthless. Routed to TERRY/Will, not actioned here.
+> **✅ v2.4 RE-MARK LANDED 2026-08-20 — the MI3 disconfirmation is now IN the numbers.** Bear-fast **10% → 2%** (its falsifier ran and returned a negative); freed weight to **Base 45% / Bull 30%**; **bear-medium HELD at 16%**. EV **$73.92 → $75.96**; **overvaluation 12.4% → 5.4%** at spot $80.05 [8/20]; PT **$52-76**. ⛔ **Anti-ratchet verified: total bear 26% → 18%.** See §EV SUMMARY (v2.4) immediately below. → **−0.47% at $75.60 [Wed 9/23 close]** (spot BELOW EV — a price move, not a re-mark) **→ +2.17% at $77.61 [Fri 9/25 close]** (back above; `STATUS.md` owns the live figure).
+> **⚠️ (8/20 record)** ~~The Sep-18 cores ($67.5P/$70P) now sit $8.46 and $5.96 BELOW EV~~ — **the Sep-18 pair finished OTM 9/18 (tape; booking unrecorded). Live book = Dec-18 $70P ×1, $5.96 below EV and $7.61 below spot [Fri 9/25 close $77.61] ($5.60 at the 9/23 close) → `POSITIONS.md`. Sep-18 pair broker-booked 9/27 (FORGE §RESOLVED, `f39c70073`).** Original: — on the central estimate they expire worthless. Routed to TERRY/Will, not actioned here.
 >
 > **✅ v2.3 RE-MARK LANDED 2026-07-25 — the Q2 second-data-point test is now IN the numbers.** EV **$68.93 → $73.92**; overvaluation **12.4%** at spot $83.11 [7/24 close, market.py]; PT **$52-74**. See §EV SUMMARY (v2.3) immediately below — the v2.2.1 table is preserved beneath it as the audit trail. **The bear weakened: EV rose $4.99 while price rose only $1.23, so the margin of safety COMPRESSED ~6.4pp.**
 > **⚠️ RESIDUAL CORRECTION (2026-07-17 audit — still applies):**
@@ -8,7 +8,7 @@
 > *Rider 2026-09-24: neither is live now — the Aug-21 $77.5P was SOLD 8/18 and the Sep-18 pair finished OTM 9/18. Live book = Dec-18 $70P ×1 → `POSITIONS.md`.*
 
 **Created:** 2026-03-25 (v1.0) | **Last Updated:** **2026-08-20 (v2.4 — MI3-disconfirmation re-mark: bear-fast 10%→2%, probabilities only, no range moved)**; prior **2026-07-25 (v2.3 — Q2 print re-mark: probabilities + ranges + EV off Q2 actuals)**; prior 2026-06-08 PM (v2.2.1 — macro-NIM tailwind softening + cohort RESOLVED → Hyp A); date-fix 7/10; audit banner 7/17
-**Price:** → `STATUS.md` (last: **$75.60 [Wed 9/23 close]**; $80.05 [8/20 14:4x ET] was the v2.4 mark, $83.11 the 7/24 close) | **TBV:** $61.14 [Q1 — Q2 TBV not re-pulled] | **CET1:** 11.0% [Q2 confirmed]
+**Price:** → `STATUS.md` (last: **$77.61 [Fri 9/25 close]**; $75.60 [Wed 9/23]; $80.05 [8/20 14:4x ET] was the v2.4 mark, $83.11 the 7/24 close) | **TBV:** **$63.24 [Q2 10-Q, 6/30/26]** (Q1 $61.14; corrected 9/28 — it said "Q2 TBV not re-pulled", but the Q2 read carried it since 8/7). ⚠️ The scenario multiples below still run on the Q1 $61.14 — at $63.24, Base $74-82 = 1.17-1.30× TBV. | **CET1:** 11.0% [Q2 confirmed]
 **Short Interest:** 4.91% float [FINRA 6/30] — never refresh from yfinance (its SI fields are defective, KB-192)
 **Q2 2026 EPS:** $2.36 GAAP = adjusted (10-Q, KB-149) · Q1 $1.65 GAAP / $2.22 adjusted | **FY2025 NI:** $991M
 
@@ -38,7 +38,7 @@
 
 **Overvaluation (÷EV convention, pinned):** (80.05 − 75.96) / 75.96 = **5.4%** at spot **$80.05** [2026-08-20 14:4x ET, market.py].
 
-**Re-derived 2026-09-24:** (75.60 − 75.96) / 75.96 = **−0.47%** at the Wed 9/23 close — spot is **BELOW EV for the first time this cycle** (`STATUS.md` owns the live figure). The 5.4% here and below is the 8/20 mark.
+**Re-derived 2026-09-24:** (75.60 − 75.96) / 75.96 = **−0.47%** at the Wed 9/23 close — spot was **BELOW EV for the first time this cycle** — and back **above** at the Fri 9/25 close, (77.61 − 75.96)/75.96 = **+2.17%** (`STATUS.md` owns the live figure). The 5.4% here and below is the 8/20 mark.
 
 ### ★★ THE HONEST HEADLINE: the margin of safety has NEARLY CLOSED — 18.8% (7/17) → 12.4% (7/25) → **5.4% (8/20)**
 
@@ -61,8 +61,8 @@
 MI3 measures CRE-purpose lending **NOT SECURED by real estate**. **The office book, the $99M life-science credit, the classified balance and the pending appraisal are a DIFFERENT OBJECT and are untouched by this disconfirmation.** This is the single most likely mis-consumption of v2.4 — **the bear did not get smaller because the office risk got smaller; it got smaller because a *different, adjacent* mechanism was measured and found absent.** Bear-medium sitting unchanged at 16% is that fence expressed as a number.
 
 ### The offsets I am NOT dropping (they cut against this re-mark)
-1. **MI3 DOLLARS are rising, +14% YoY ($2,246M → $2,555M).** The ratio fell only because item 4 grew faster. A ratio plateau is not a shrinking hidden-CRE book.
-2. **NEW 2026-08-20 — the NDFI book is $15.81B (24.1% of loans) and carries $122.5M of NONACCRUAL** [REGINALD, FFIEC CDR primary, RSSD 3138146, `RCONPV25`, 6/30/26]. In a 26-bank sample including JPM/BAC/WFC, **only WFC carries more NDFI nonaccrual in absolute dollars**, on a book ~14× larger. **Deliberately NOT weight-moving**, on the publisher's own four caveats: one quarter (no trajectory), no peer baseline, the tape does not sort on it (ρ −0.255 / −0.063 at n=26, inside noise), and 68.9% of the book is mortgage warehouse where losses run near zero. **Logged as a datum, and as the highest-value next pull** (≥4 quarters before any direction is read).
+1. **MI3 DOLLARS — name the window:** **+13.7% YoY** ($2,246M → $2,555M, Q2-25→Q2-26) but **−6.4% over the last two quarters** ($2,730M → $2,555M, Q4-25→Q2-26; `MI3_SERIES.tsv`). *(Corrected 9/28: "rising … fell only because item 4 grew faster" named no window.)*
+2. **NEW 2026-08-20 — the NDFI book is $15.81B (24.1% of loans) and carries $122.5M of NONACCRUAL** [REGINALD, FFIEC CDR primary, RSSD 3138146, `RCONPV25`, 6/30/26]. In a 26-bank sample including JPM/BAC/WFC, **only WFC carries more NDFI nonaccrual in absolute dollars**, on a book ~14× larger. **Deliberately NOT weight-moving**, on the publisher's own four caveats: one quarter (no trajectory), no peer baseline, the tape does not sort on it (ρ −0.255 / −0.063 at n=26, inside noise), and 68.9% of the book is "mortgage credit intermediaries" (a 10-Q line, $10,896M — **not** the deck's "Mortgage Warehouse & MSR" $7.155B; corrected 9/28) where losses run near zero. *(24.1% is FFIEC RCONJ454 ÷ total loans; the 10-Q basis is 25.9% of HFI.)* **Logged as a datum, and as the highest-value next pull** (≥4 quarters before any direction is read).
 3. **A 60% prediction (REG-15) just resolved FAILED** on this same series. The instrument that killed bear-fast also says my predecessor's confidence on this vector was badly calibrated — in the *same* direction I am now moving. That is consistent, not corroborating.
 
 ### PT range — convention held, and its tension flagged rather than quietly fixed
@@ -285,6 +285,8 @@ Sep 18 captures Q2 print (Jul 21 AMC — corrected 2026-07-09; was ~Jul 30 est) 
 
 ---
 
+> 🧊 **v2.0 (5/1) branch narratives, bannered 2026-09-28 — weights (30/38/25/7) and ranges ($58-68 / $70-78 / $85-95) below are SUPERSEDED.** Live weights & ranges = §EV SUMMARY (v2.4). v2.4 branch narratives (incl. Bear-fast) are NOT yet written — audit gap, carried.
+
 ## SCENARIO A: BEAR CASE (30%, was 45%)
 
 **v2.0 thesis:** Tail actualizes through one or more of three slow-grind paths. No single binary catalyst — instead, multi-quarter migration forces market re-rating.
@@ -391,7 +393,7 @@ Sep 18 captures Q2 print (Jul 21 AMC — corrected 2026-07-09; was ~Jul 30 est) 
 
 ---
 
-## EPS SENSITIVITY (Refreshed)
+## EPS SENSITIVITY (Q1-vintage — 6M-26 EPS $3.99 GAAP / $4.57 adjusted per the Q2 10-Q; guide now absorbs the delivered 9/16 hike)
 
 WAL Q1 26 GAAP EPS $1.65 / Adjusted $2.22. FY 2025 EPS ~$8.73. Mgmt 2026 outlook held even sans rate cuts.
 

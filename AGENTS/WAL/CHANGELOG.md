@@ -11,6 +11,18 @@ Tracks all changes to `WAL/THESIS.md`. Reverse chronological. Mirrors format of 
 
 ---
 
+## 2026-09-28 — AUDIT REPAIR (no version bump; ZERO weights, probabilities, EV, PT, scores, thresholds or trades moved — rider R3)
+
+**Authority:** Will, in-session 9/28, verbatim: *"Apply the eight verified corrections and the bounded medium-item repairs within WAL's files … No silent score, weight, valuation or trade changes."* Record: `research/AUDIT_2026-09-28.md` §REPAIR RECEIPT (four read-only Opus reviewers; every HIGH re-checked by WAL at its cited file or primary).
+
+**THESIS.md edits (all corrections or banners, none a thesis motion):** header spot-vs-EV re-pointed to the 9/25 close (+2.17%) · §CAPITAL & DEPOSIT banner: the "cohort-leading deposit growth / de-levering" table is Q1-vintage — at Q2, deposits $81,874M (−$0.83B QoQ), HFI÷deposits 74.4% (up from 71.5%), TBV $63.24 · §VECTOR 1 banner (Q1-vintage forecasts; Q2 outcomes named) · §REVISED MGMT OUTLOOK banner (live guide = Q2 revision + 9/16 pre-guide) · MI3 dollar claim now names its window (+13.7% YoY, −6.4% over two quarters) · V3 section notes KB-121's supersession · riders on the "relabeling window", "Q2 has no buffer", $946M maturities and the dead Sep-18 book.
+
+**Provenance finding, correcting this file's own 9/24 entry:** the 9/24 CORRECTION says the "~$46M" Cantor residual has "no traceable source" and entered at v2.0 on 5/1. The audit found an earlier probable origin: `Q1_2026_ANALYSIS.md` §1b (committed 2026-04-22, `4bf5f8cee`) writes "~$72M original principal minus $26.1M" and "Residual $46-72M" — the $26.1M charge-off subtracted a second time from a figure that had already netted it. *Inference from matching arithmetic and dates, not a confession in any file.* The 9/24 entry is left as written (a record); the Q1 analysis is now bannered and the RETIRED_CLAIMS pattern widened to catch "$46-70M"/"$46-72M".
+
+**The one inconsistency deliberately NOT resolved here:** V3 (NDFI) stays at 1/5, but the row it was held on (KB-121, "the NDFI/warehouse book is SHRINKING") is now SUPERSEDED by the A1 rows KB-146/-168. The score rests only on management's plan (KB-196, B2). Reported for decision (STATUS RAISE block; proposal P1) — changing it here would be the silent score move Will ruled out.
+
+---
+
 ## 2026-09-24 — CORRECTION (no version bump; ZERO weights, probabilities, EV or PT moved — rider R3)
 
 **What:** the **"~$46M Cantor residual"** carried in `THESIS.md` (Q1-2026 V2 table + "still open" list), `WEAKNESSES.md` and the desk `CLAUDE.md` has **no traceable source**. `git log -S` shows it entered at **v2.0 on 2026-05-01** (`97f3682b8`, REGINALD). The primary-derived figures are: facility **$98.5M** − Q1 charge-off **$26.1M** = **$72.4M gross**, with **$3.5M** of the **$29.6M** specific allowance left at 3/31/26 (Q1 10-Q, `KB-WAL-143`; the Q2 10-Q did not restate either). THESIS also carried the reserve as **$29.4M** (the filing says $29.6M). Both corrected in place with an inline marker.

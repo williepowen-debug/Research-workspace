@@ -1,5 +1,5 @@
 # WAL — Leadership & Board Profile
-> ⚠️ **STALE-VINTAGE 2026-03-31 (bannered 2026-07-25 at promotion).** Pre-dates the Q1 print, the May-12 Investor Day, the Curley resignation (May, B3 FIRED), and the Q2 cycle. Cite only with vintage; refresh-or-keep = owner call at first firming touch. **Since (9/24 pointer):** CEO Vecchione took the board CHAIR 6/10 (KB-WAL-134); V4 = 3/5 RATIFIED (STATUS §CONVERGENCE); zero open-market buys through the 9/17 Form 4s (KB-WAL-193).
+> ⚠️ **STALE-VINTAGE 2026-03-31 (bannered 2026-07-25 at promotion).** Pre-dates the Q1 print, the May-12 Investor Day, the Curley resignation (May, B3 FIRED), and the Q2 cycle. Cite only with vintage; refresh-or-keep = owner call at first firming touch. **Since (9/24 pointer):** CEO Vecchione took the board CHAIR 6/10 (KB-WAL-134); V4 = 3/5 RATIFIED (STATUS §CONVERGENCE); zero open-market buys through the 9/17 Form 4s (KB-WAL-193). **Rider 2026-09-28 (audit):** the MI3 "reclassification" premise (:41, :54) is unsupported since the 8/7 MI3 run (THESIS §V1 primary test); Gibbons' title per the Form 4 is **Vice Chair & CBO Deposits** (KB-130), not "VP"; Cat-IV timing → KB-WAL-198 (4Q-average over $100B ~Q3-2027).
 **Last Updated:** 2026-03-31
 
 ---

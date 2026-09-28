@@ -17,7 +17,7 @@
 
 ## W-2 — Cantor Group V fraud credit  **[FRAUD/C&I — not CRE]**
 - **id:** WAL-Q2-02 · **balance:** facility $98.5M (Q1 10-Q primary; $98.6M secondary); ~$70M residual carrying value post-Q1 charge · **quarter:** charge Q1-26; residual carried into Q2, **NOT restated at Q2**
-- **F1 WHAT HAPPENED:** nonaccrual 9/30/2025 → specific allowance $29.6M → Q1-26 reevaluated collateral on updated "as-is" appraisals → **$26.1M partial charge-off (89% of reserve)** → **$3.5M specific allowance REMAINS (3/31/26)** → not restated Q2. Ongoing workout: litigation (WAB v. Cantor V / Marcil / Stupin, LA Sup 25STCV24263) + senior-lien purchases (W-3).
+- **F1 WHAT HAPPENED:** nonaccrual 9/30/2025 → specific allowance $29.6M → Q1-26 reevaluated collateral on updated "as-is" appraisals → **$26.1M partial charge-off (89% of reserve)** → **$3.5M specific allowance REMAINS (3/31/26)** → not restated Q2. Ongoing workout: litigation (WAB v. Cantor V / Marcil / Stupin, LA Sup 25STCV24263 ⤵ *9/28: the guaranty claims vs Stupin/Marcil were removed to bankruptcy court 6/25/2026 (8:26-ap-01076-SC, remand motion 7/27); WAL's Claim No. 5 ≈ $173.0M in the Stupin Ch.11; the Cantor V claims stay in LA Superior — KB-206/208*) + senior-lien purchases (W-3).
 - **F2 CASH SOURCE:** none in Q2; recovery sources = senior liens + UHNW limited+full guaranties + mortgage-fraud policy + litigation. **No cash resolution H1.**
 - **F3 EXPOSURE RETAINED:** **$72.4M gross residual / $3.5M specific allowance** (Q1 10-Q, not restated Q2) + the $64M senior liens (W-3).
 - **F4 LOSS RECOGNISED:** **$26.1M charge-off Q1-26** (from the $29.6M reserve; original $30M reserve Q3-25).
@@ -37,7 +37,7 @@
 - **F2 CASH SOURCE:** **partial repayment $42.1M** received through 1/15/26 under forbearance (last payment); remainder NONE → charged off. Recovery pursued via litigation.
 - **F3 EXPOSURE RETAINED:** **$0 on balance sheet** (fully charged off); litigation claim for recovery + damages.
 - **F4 LOSS RECOGNISED:** **$126.4M charge-off Q1-26** — largest single-quarter fraud charge this cycle.
-- **later:** WAL v. Jefferies ongoing (complaint Mar 2026, amended May 2026). **cite:** KB-084, KB-144.
+- **later:** WAL v. Jefferies ongoing (complaint Mar 2026, amended May 2026). **cite:** KB-084, KB-144. ⤵ *(9/28: two-way — Jefferies' ~$25M countersuit, KB-135; Jefferies' letter: WAL asked for guarantees and was refused, KB-210.)*
 
 ## W-5 — OREO transfers (foreclosed → OREO)  **[CRE, "primarily office"]**
 - **id:** WAL-Q2-05 · **balance:** OREO **count 15 → 22 (+7), "primarily office"**; **$ balance not separately disclosed in the Q2 deck/call read** (in the 10-Q OREO table — REGINALD/10-Q) · **quarter:** Q2-26

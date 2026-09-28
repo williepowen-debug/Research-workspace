@@ -13,9 +13,20 @@ This does NOT re-date anything and MUST NOT. An expired row needs a judgment —
 re-verify, mark SUPERSEDED, or extend with a reason — and bulk-re-dating would
 launder exactly the signal this prints. Advisory, read-only, exit 0 always.
 
+AWAITING-DISCLOSURE bucket (added 2026-09-28, Will's audit-repair ruling: "Do not
+bulk extend evidence-expiry dates. Distinguish stale evidence from evidence awaiting
+its next scheduled disclosure."). A row whose Notes carry the token
+    AWAITS:<carrier>@<YYYY-MM-DD>
+(e.g. AWAITS:Q3-10Q@2026-11-09 = the statutory deadline of the filing that is the
+row's ONLY refresh source) is reported, once past its Stale_By, as AWAITING rather
+than STALE — but ONLY until that carrier date. After it, the row is STALE like any
+other. The token is set row by row with the carrier named; it never moves Stale_By,
+so the expiry signal is not laundered, only classified. Carrier dates must be a
+SCHEDULED-FILING deadline, never an expected event (slip risk).
 Usage:  python3 scripts/kb_expiry_check.py [--kb PATH] [--quiet] [--top N]
 """
-import csv, datetime, argparse, sys, os
+import csv, datetime, argparse, sys, os, re
+AWAITS = re.compile(r"AWAITS:([A-Za-z0-9_.-]+)@(\d{4}-\d{2}-\d{2})")
 
 def main():
     ap = argparse.ArgumentParser()
@@ -30,12 +41,12 @@ def main():
     if len(rows) < 2:
         print("kb_expiry_check: KB has no data rows"); return 0
     idx = {k: j for j, k in enumerate(rows[0])}
-    for col in ("ID", "Status", "Stale_By", "Entity"):
+    for col in ("ID", "Status", "Stale_By", "Entity", "Notes"):
         if col not in idx:
             print(f"kb_expiry_check: KB is missing the {col!r} column — schema changed, check me"); return 0
 
     today = datetime.date.today()
-    expired, blank, live, bad = [], 0, 0, 0
+    expired, awaiting, blank, live, bad = [], [], 0, 0, 0
     for r in rows[1:]:
         if len(r) <= max(idx.values()):        # short row: count, never crash
             bad += 1; continue
@@ -49,17 +60,30 @@ def main():
         except ValueError:
             bad += 1; continue
         if d < today:
+            m = AWAITS.search(r[idx["Notes"]])
+            if m:
+                try:
+                    cd = datetime.date.fromisoformat(m.group(2))
+                except ValueError:
+                    bad += 1; continue
+                if cd >= today:
+                    awaiting.append((cd, m.group(1), r[idx["ID"]], r[idx["Entity"]]))
+                    continue
             expired.append((d, r[idx["ID"]], r[idx["Entity"]]))
         else:
             live += 1
     expired.sort()
 
-    total = len(expired) + blank + live
+    total = len(expired) + len(awaiting) + blank + live
     if a.quiet:
         if expired:
             oldest = (today - expired[0][0]).days
             print(f"⚠️  KB expiry: {len(expired)}/{total} ACTIVE rows past their own Stale_By "
                   f"(oldest {oldest}d) — re-verify, mark SUPERSEDED, or extend WITH A REASON")
+        if awaiting:
+            nxt = min(awaiting)[0]
+            print(f"⏳ KB expiry: {len(awaiting)} ACTIVE row(s) past Stale_By but AWAITING a scheduled "
+                  f"filing (earliest carrier deadline {nxt}) — NOT stale until then; refresh when it lands")
         return 0
 
     print("KB EXPIRY CHECK — the Stale_By column, actually read")
@@ -67,6 +91,7 @@ def main():
     print(f"  ACTIVE rows:            {total}")
     pct = f"   ({len(expired) / total * 100:.0f}%)" if total else ""
     print(f"  past their own expiry:  {len(expired)}{'  ⚠️' if expired else '  ✓'}{pct}")
+    print(f"  awaiting a filing:      {len(awaiting)}   (past Stale_By, carrier deadline not yet passed)")
     print(f"  Stale_By blank:         {blank}   (never given an expiry at all)")
     print(f"  still in date:          {live}")
     if bad:
@@ -78,6 +103,10 @@ def main():
         print("\n  ⚠️  Do NOT bulk re-date these. Each needs a judgment — re-verify,")
         print("      mark SUPERSEDED, or extend WITH A REASON. Bulk re-dating destroys")
         print("      the only signal this column carries.")
+    if awaiting:
+        print(f"\n  awaiting a scheduled filing (carrier deadline · carrier · id · entity):")
+        for cd, c, i_, e in sorted(awaiting):
+            print(f"    {cd}  {c:<10} {i_:<12} {e}")
     return 0
 
 if __name__ == "__main__":

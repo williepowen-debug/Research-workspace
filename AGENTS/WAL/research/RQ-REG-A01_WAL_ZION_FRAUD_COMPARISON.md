@@ -1,5 +1,7 @@
 # RQ-REG-A01: WAL vs ZION Fraud Provision Comparison
 
+> 🧊 **Feb-2026 record, bannered 2026-09-28 (audit). Its under-reserving thesis and shortfall math are RETIRED — do not cite:** the Q1 primary replaced them (Q1 10-Q, KB-WAL-143): $26.1M charged off, **$3.5M** specific allowance left, residual **$72.4M gross**, recognised loss **26.5%** of exposure. "30% reserved vs ZION 83%" compares a reserve rate with a loss rate (retired 9/24). Kept because `FRAUD/STUPIN_CRE.md` still points to it as the pre-fold deep dive.
+
 **Date:** 2026-02-02
 **Researcher:** Prome
 **Status:** COMPLETE

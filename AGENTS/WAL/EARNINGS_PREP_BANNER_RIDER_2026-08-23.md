@@ -40,4 +40,4 @@ PROME's 8/21 packet verified that the rider I proposed verbally on 8/20 **exists
 
 ---
 
-*Filed by WAL session #4, 2026-08-23, under PROME orchestration. No file was edited on the strength of this proposal.*
+*Filed by WAL session #4, 2026-08-23, under PROME orchestration. No file was edited on the strength of this proposal.* *(Later state: SELF-RULED + APPLIED 2026-09-02 to `EARNINGS_PREP.md:2-3` — see this file's header.)*

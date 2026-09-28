@@ -190,7 +190,15 @@ def main():
                                 (row.get("replacement") or "")[:80]))
 
     if a.quiet:
-        BASE_DRIFT, BASE_REVIVED = 13, 61      # 2026-09-24 live-surface sweep (research/LIVE_SURFACE_SWEEP_2026-09-24.md, 76 findings applied): check-2 FELL
+        BASE_DRIFT, BASE_REVIVED = 16, 69      # RE-MEASURED 2026-09-28 (session #10 audit repair, research/AUDIT_2026-09-28.md), verified hit-by-hit:
+                                               # check-1 13 -> 16 = the audit's own ledger research/audit_2026-09-28/B_thesis.md quoting dead version tokens (:26, :35 x2),
+                                               # a record by design; the pre-existing +1 (LIVE_SURFACE_SWEEP:46 '200 rows') is KEPT in the count, not excused.
+                                               # check-2 61 -> 69 after 8 NEW RETIRED_CLAIMS rows (the whole point: they now catch variant wording). The +8 are
+                                               # ALL records or rows corrected in-row: audit ledgers A_dashboard.md x5 + C_workbook.md x1 (quoting what they found),
+                                               # LIVE_SURFACE_SWEEP_2026-09-24.md:19 (dated sweep record), KB-121 (now SUPERSEDED; its Fact is the dead claim) and
+                                               # KB-136 (Fact prefixed 'THREE ERRORS, corrected' -- marker outside the 220-char window). Every LIVE surface hit the new
+                                               # patterns found (POSITIONS:3, THESIS:19, Nano file :13, 10-Q frame :94, KB-153, STATUS, INDEX) was FIXED, not baselined.
+                                               # Prior baseline: 13, 61 -- 2026-09-24 live-surface sweep (research/LIVE_SURFACE_SWEEP_2026-09-24.md, 76 findings applied): check-2 FELL
                                                # 63 -> 61 (two live assertions removed); check-1 12 -> 13, the +1 being that sweep report's own line 21 quoting
                                                # 'v2.2' as its SUBJECT (a record). Verified hit-by-hit. ⚠️ The sweep found 15 HIGH items this check NEVER saw --
                                                # it only matches version/EV/PT/KB-count tokens + RETIRED_CLAIMS patterns; stale POSITION and DATE claims are invisible to it.

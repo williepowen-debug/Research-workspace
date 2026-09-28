@@ -1,5 +1,7 @@
 # WAL Q1 2026 — REGINALD ANALYSIS
 
+> 🧊 **Round-1 record (4/22, 8-K only) — bannered 2026-09-28 (audit).** ⛔ **The Cantor lines in §1b are WRONG — do not cite:** the specific allowance was **$29.6M** (not ~$29.4M); the residual is **$72.4M gross** ($98.5M facility − $26.1M charge-off) with **$3.5M** of allowance left (Q1 10-Q, KB-WAL-143). **"~$72M … minus $26.1M" and "Residual $46-72M" subtract the charge-off twice** — this is the probable origin of the retired "~$46M" figure (inference from matching arithmetic and dates; CHANGELOG 2026-09-28). The "30% reserved vs ZION 83%" pairing compares a reserve rate to a loss rate (retired 9/24). Held from retirement because THESIS travels this file.
+
 **Source:** WAL 8-K / press release (stocktitan pickup), GuruFocus consensus detail. **Supplement + transcript + deck PENDING — this is the round-1 analysis, will improve as materials arrive.**
 **Mined:** Apr 22 ~09:30 ET session.
 **Ticker:** WAL | **Last:** $77.83 (-2.04% Apr 22 AM) — **🔴 BACK BELOW $78 THRESHOLD** post-print.

@@ -1,5 +1,7 @@
 # WAL News Sweep + Source-Coverage Audit — 2026-07-25
 
+> 🧊 **Dated record (7/25), bannered 2026-09-28 (audit). Three claims below are WRONG or overtaken — do not cite them:** (1) "WAL declined Jefferies' offer of guarantees" is **inverted** — Jefferies' own SEC-filed letter says WAL *asked* and was refused (KB-WAL-210). (2) "recovered more than half" misquotes the letter's **"repaid"** (pre-default repayments, not a recovery). (3) "Judge Terry A. Green" / LA Superior as the sole venue — the guaranty claims were removed to bankruptcy court 6/25/2026 (adversary 8:26-ap-01076-SC) and the 6/25 notice names Hon. Cherol J. Nellon (KB-WAL-208). Held from retirement: it is the "detail →" source for KB-134..137.
+
 **Run:** WAL session #1, Sat 2026-07-25. **Window swept:** post-Q2-print (7/21) back through the last real ingest, with targeted digs on the litigation arc, governance, and analyst coverage.
 **Instruments used:** SEC EDGAR submissions index (complete filing-type scan, CIK 0001212545) + web search across the litigation / governance / analyst threads.
 **Discipline:** nearly everything below is **secondary**. Per the A1/A2 convention (KB_INDEX §Format), secondary items are logged **A2 with an explicit primary tie-out instruction** — they are leads to confirm at the Q2 10-Q legal-proceedings footnote, not facts to elevate. [[feedback_single_source_liveevent_is_a_lead]]

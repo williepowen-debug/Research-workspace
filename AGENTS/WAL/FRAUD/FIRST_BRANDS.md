@@ -1,6 +1,6 @@
 # First Brands / Point Bonita — WAL Fraud Vector 1
 > ⤵ **This file's credit IS the LAM charge-off** (KB-WAL-135/-186). Content above `§FOLD 2026-09-24` is pre-print (3/26-4/5) — `:49` guarantee direction is contested, `:137` "$84.3M" is wrong ($126.4M was the remaining balance). Current state → §FOLD 2026-09-24 at the end.
-**Last Updated:** 2026-04-05
+**Last Updated:** pre-fold body 2026-04-05; §FOLD last edited **2026-09-28** (guarantee direction + 'repaid' corrected at the SEC primary, KB-WAL-210)
 
 ---
 
@@ -47,7 +47,7 @@ WAL (lender, non-recourse)
 **Key structural failures:**
 1. **UCC filings lapsed Sept 2025** — collateral perfection broken at critical moment
 2. **Cash dominion misrepresentation** — First Brands retained control over collections despite contractual transfer to Point Bonita (per investor lawsuit Feb 25)
-3. **No parent guarantee obtained** — WAL asked Jefferies + Point Bonita for guarantees during Oct 2025 forbearance, both refused
+3. **No parent guarantee obtained** — WAL asked Jefferies + Point Bonita for guarantees, both refused *(confirmed 9/28 at Jefferies' own SEC-filed letter, KB-WAL-210: the ask came "shortly before First Brands' bankruptcy filing in September 2025, when Western Alliance was discussing a forbearance" — not "during Oct 2025 forbearance")*
 4. **Forbearance dispute** — WAL alleges Oct 2025 agreement required full repayment by **Mar 31, 2026** (THIS MONDAY). JEF says non-recourse, no obligation.
 5. **Jefferies economic stake** — $43M (5.9% of Point Bonita's First Brands position) + ~$2M via Apex lending. Not merely a manager — skin in the game.
 
@@ -175,11 +175,12 @@ Point Bonita investors sued Jefferies + Point Bonita alleging misrepresentation 
 | Default mechanism | "servicing failures, including lapses in UCC filings" → Oct-25 forbearance (repay by 3/31/26) → payments Oct-25…1/15/26 ($42.1M last received) → 2/27 payment missed → charge-off | KB-WAL-144 (Q1 10-Q) | A1 |
 | WAL's claim | NY Supreme Court, Bank + collateral agent v. Jefferies Financial Group, LAM LLC & affiliates. Mar-26: breach + fraudulent inducement. **Amended May-26:** breach, fraud, negligence, promissory estoppel, unjust enrichment | KB-WAL-144, -152 (Q2 10-Q) | A1 |
 | Jefferies countersuit | ~2026-07-01, NY state court, alleges WAL unlawfully froze a **$25M** Point Bonita deposit. Not in the Q2 10-Q; absence is uninformative (Note 15 blanket) | KB-WAL-135, -153, -177 | B (secondary) |
-| Jefferies' defense | Non-recourse to SPV; affiliates excluded; "WAL already recovered more than half" | KB-WAL-136 | Counterparty assertion, UNVERIFIED |
-| Guarantee direction | Conflicting secondary renderings (WAL asked/refused vs WAL declined an offer) | `:49` vs KB-WAL-136 | UNVERIFIED — read Jefferies' 3/8 release |
+| Jefferies' defense | Non-recourse to SPV; affiliates excluded; *"Western Alliance has been **repaid** more than half the amount it has loaned"* — cumulative repayments BEFORE default, **not** a post-charge-off recovery (it does not shrink the $126.4M charged-off remainder). *Corrected 9/28: this row said "recovered".* | KB-WAL-210 (primary), -136 (corrected) | A1 as Jefferies' own statement |
+| Guarantee direction | ✅ **RESOLVED 9/28: WAL ASKED, Jefferies and Point Bonita REFUSED.** *"Western Alliance asked to have the Point Bonita master fund and Jefferies itself guarantee the loan. Those requests were denied."* KB-136 / NEWS_SWEEP ("WAL declined Jefferies' offer") had it inverted | Jefferies 8-K EX-99.1, acc 0001140361-26-008339 (letter 3/9/2026) · KB-WAL-210 | A1 (counterparty primary) |
 | Recovery to date | Not disclosed: "Any future recoveries will be recognized when realized or realizable" | KB-WAL-153 | A1 (negative) |
 | Mgmt label 9/16 | "the Lam for us is a breach of contract"; "favorable outcome … over the next year or so" (said of both) — narrower than the amended pleading | `research/CATALYST_SWEEP_2026-09-24.md:80` | T2, re-verify |
 | Docket/news 8/20→9/24 | No development found; EDGAR FTS 0 hits "Point Bonita" | CATALYST_SWEEP:118 | search-negative |
+| ⚠️ Open gaps (audit 9/28) | **No NY index number is held for WAL v. Jefferies or the Jefferies countersuit** (NYSCEF never read). **WAL's recovery route through the First Brands estate / litigation trust** (the LAM SPV's collateral = First Brands receivables) is untracked here — OTTO owns the First Brands docket. Jefferies' FQ3 results (quarter ended 8/31) are likely imminent (inference from last year's timing) and are the one issuer-side filing that could disclose the countersuit's status | — | OPEN |
 | Next test | Q3 10-Q "Legal Disputes…" paragraphs: countersuit disclosed? recovery figure? ruling/settlement/accrual? | `../Q3_10Q_GRADING_FRAME_2026-09-24.md` §3 | — |
 
 **P&L:** closed (loss realized). **Forward:** two-way — recovery upside vs a $25M counter-exposure. V2 remains historical and excluded from the composite (THESIS v2.4).

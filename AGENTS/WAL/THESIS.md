@@ -1,6 +1,6 @@
 # WAL — Compounder with Concentrated CRE Tail Risk
 
-**Last Updated:** **2026-08-20** | **Version:** **v2.4** | **EV $75.96 · PT $52-76** · spot vs EV → `STATUS.md` (at the Wed 9/23 close $75.60: **0.47% BELOW EV**; the 5.4% @ $80.05 was the 8/20 mark) | **Prior:** v2.3 (Jul 25) | v2.2.1 (Jun 8) | v2.2 (May 21) | v2.1 (May 11) | v2.0 (May 1) | v1.0 (Mar 25)
+**Last Updated:** **2026-08-20** | **Version:** **v2.4** | **EV $75.96 · PT $52-76** · spot vs EV → `STATUS.md` (live; at the Fri 9/25 close $77.61: **+2.17% vs EV**, after −0.47% at the 9/23 close; the 5.4% @ $80.05 was the 8/20 mark) | **Prior:** v2.3 (Jul 25) | v2.2.1 (Jun 8) | v2.2 (May 21) | v2.1 (May 11) | v2.0 (May 1) | v1.0 (Mar 25)
 
 ---
 
@@ -16,7 +16,7 @@
 
 **⚠️ Position consequence, routed not buried:** the live Sep-18 cores sit **below** the new EV ($67.5P by $8.46, $70P by $5.96). On my own central estimate both expire worthless. **No trade recommendation — TERRY + Will [Approve] + live chain (root #4/#5).**
 
-> *Rider 2026-09-24: the Sep-18 pair finished OTM 9/18 (tape read; booking unrecorded, FORGE D-58). Live book = Dec-18 $70P ×1 → `POSITIONS.md`. The line above is the 8/20 record.*
+> *Rider 2026-09-24: the Sep-18 pair finished OTM 9/18 (tape read then; ~~booking unrecorded~~ — broker-booked 9/27 at −$1,519.34 realized, FORGE §RESOLVED `f39c70073`, corrected 9/28). Live book = Dec-18 $70P ×1 → `POSITIONS.md`. The line above is the 8/20 record.*
 
 **⚠️ The fence that governs how v2.4 may be consumed — V1a ≠ V1.** MI3 measures CRE-purpose lending **not secured by real estate**. **The bear did not shrink because office risk shrank.** The office book, the $99M life-science credit, the classified balance and the pending appraisal are a *different object*, untouched by this result — which is precisely why **bear-medium did not move.**
 
@@ -125,7 +125,7 @@ Honest tally: **3 informative names genuine (ZION/CFG/MTB) + 1 confounded (FITB)
 
 ### Implications (no weight change — framing resolution only)
 
-- **The "sharpen to WAL-specific" framing is now EARNED by data** (was held-open / unforced in v2.2.1). With regionals genuinely de-stressing on the loss line, the WAL bear loses its broad-cohort tailwind and must stand on idiosyncratic legs: Office 38% / $407M / 18.5% stress, $99M life-sci pass-grade walk (B1), hidden CRE (MI3 24.2% growing), V4 Curley.
+- **The "sharpen to WAL-specific" framing is now EARNED by data** (was held-open / unforced in v2.2.1). With regionals genuinely de-stressing on the loss line, the WAL bear loses its broad-cohort tailwind and must stand on idiosyncratic legs: Office 38% / $407M / 18.5% stress, $99M life-sci pass-grade walk (B1), hidden CRE (MI3 24.2% growing), V4 Curley. *(6/8 framing — since tested: MI3 ran 8/7, 21.20% at Q2-26, never ≥25% in 12 quarters, V1a DISCONFIRMED; office classified printed $316M at Q2. Rider 9/28.)*
 - **Bear-medium stays at 25 — NO revert toward 30.** The revert was the *Hyp B* path; Hyp A confirms the v2.2.1 trim. EV $68.93 / PT $50-68 / REG-24/25 all UNCHANGED. No reweight, positions untouched. (Intra-v2.2.1 evidence resolution — see CHANGELOG 6/8 PM; not a version bump.) **⟵ AS-OF 6/8 (v2.2.1). SUPERSEDED by v2.3 7/25: Bear-medium is now 16, EV $73.92, PT $52-74. Hyp A itself STANDS and has since been re-confirmed twice (WALTER SIG-723-016 Q2 mosaic; my 7/25 FL small-tier fill, 3-of-3 REVERT).**
 - **"Cohort fade 12/12 intact" is RETIRED** — now contradicted on the NCO line, not merely qualified.
 
@@ -163,6 +163,8 @@ The v2.0 framing rejected v1's "fast-transmission failure" binary — that rejec
 
 ## VECTOR 1 — HIDDEN CRE, NOW EXPRESSED THROUGH OFFICE SINGLE-POINT (STRENGTHENED)
 
+> 🧊 **Q1-vintage evidence (5/21), bannered 2026-09-28.** Q2 outcome: office classified **$316M** (Q2 deck slide 12), the $99M → nonaccrual with **$0** charged off, ex-fraud NCO **37bps** (KB-108/112/158); office still to mature in 2026 re-cut to **$686M** at the Q2 10-Q (KB-163; CRE-NOO 2027 wall $2,972M). The "$24M from REG-24 trigger" and "REG-25 near-locked" lines below are Q1 forecasts. **Live: WAL-01 25% / WAL-02 50% → `workbook/PREDICTIONS.tsv`.**
+
 ### Slide 12 — Classified Assets Mix ($1,070M total)
 
 | Category | $ Classified | % of Classified | % of HFI Book | Stress Rate | Disproportion |
@@ -178,7 +180,7 @@ The v2.0 framing rejected v1's "fast-transmission failure" binary — that rejec
 
 ### Slide 23 — Office Maturity Wall
 
-- **$946M of $2.2B Office book matures during 2026 (43%).** Bridge-loan structure means natural recognition pressure if refi fails.
+- **$946M of $2.2B Office book matures during 2026 (43%)** *(Q1 cut; re-cut at the Q2 10-Q: $686M still to mature in 2026, KB-163)*. Bridge-loan structure means natural recognition pressure if refi fails.
 - Geography: 90% Suburban / 10% Midtown / 0% CBD — defensive offset.
 - LTV distribution: 20% of book at LTV >70%, **12% at LTV >80% ($264M = equity-thin / underwater).**
 
@@ -252,7 +254,7 @@ Pattern flag, tracked — not promoted to standalone bear-trigger without a seco
 
 ⚠️ **WHY THE SPLIT IS NOT COSMETIC — the basis INVERTS THE CROSS-BANK RANK.** On ÷item 4, WAL is **#1 of 14** at 21.20%. On ÷(4+9), WAL is **#3 of 14** at **8.99%**, behind EGBN 10.77% and MTB 9.69%. The item-9 share of the base runs 5.5%-65.8% across the cohort and **WAL's is 57.6%** (a $16.4B item-9 book) against EGBN's 13.4%, so ÷item-4 inflates WAL ~2.4x *relative to EGBN specifically*. **Consequence, binding on every future WAL surface: no "highest/fastest/most in cohort" language on this metric without naming the basis** — and cross-bank claims use v1a only. On v1a the legacy `>20%` screen catches **nobody** in the cohort (max EGBN 10.77%) [REGINALD 8/13, 14 banks x 4 quarters, 56/56 OK; WAL's 24.24/23.88/21.20 reproduce to the basis point on his independent run].
 
-⚠️ **AND THE OFFSET I AM NOT DROPPING: the ratio falls while the DOLLARS RISE.** WAL's MI3 balance is **+14% YoY ($2,246M → $2,555M)**; the ratio declines only because item 4 grew faster. A plateau in the ratio is **not** a shrinking hidden-CRE book. Say which series a claim is about. *(Same-shape caution from REGINALD's OZK work: a bank whose C&I grows while its memo-3 disclosure falls is disclosing less about a larger book — that is not, on its face, de-risking.)*
+⚠️ **AND THE OFFSET I AM NOT DROPPING — name the window:** WAL's MI3 balance is **+13.7% YoY ($2,246M → $2,555M, Q2-25→Q2-26)**, where the ratio decline is mostly denominator growth; but it is **−6.4% over the last two quarters ($2,730M → $2,555M, Q4-25→Q2-26)**, where the decline is mostly the numerator (`MI3_FIRST_RUN_2026-08-07.md` §3.4). *(Corrected 9/28: this said "the ratio declines ONLY because item 4 grew faster" with no window named.)* A plateau in the ratio is **not** a shrinking hidden-CRE book. Say which series a claim is about. *(Same-shape caution from REGINALD's OZK work: a bank whose C&I grows while its memo-3 disclosure falls is disclosing less about a larger book — that is not, on its face, de-risking.)*
 
 ⚠️ **Step-candidates in this series, logged not laundered:** REGINALD's 12-quarter step detector (|ΔMI3|>25% while |Δloans|<5%) fires 17 times in 154 cohort transitions, and **the two largest are both WAL's** — 2024Q1 +64.8% ($899M→$1,482M) and 2024Q4 +27.2% ($1,610M→$2,048M), loans +1.8%/+0.5%. `RCON2746` is step-prone cohort-wide (11.0% of transitions, 9 up / 8 down), so **this is not evidence of relabeling and is not read as any.** It does bound what the series supports: **LEVEL claims are solid and reproduce; TRAJECTORY claims off this series must survive the steps.** The bear-fast grade is a level claim and is unaffected. *(REGINALD 8/13, `../REGINALD/reports/2026-08-13_OZK_MI3_adversarial_verification.md` §7.)*
 
@@ -297,12 +299,14 @@ Pattern flag, tracked — not promoted to standalone bear-trigger without a seco
 🟡 **Still open:**
 - Other Jefferies/Leucadia-era credits in WAL's book? Transcript and 8-K didn't enumerate. **DEF 14A pass + Q&A** still pending.
 - Cantor residual **$72.4M gross, $3.5M specific allowance left** (Q1 10-Q, KB-143; NOT restated in the Q2 10-Q) *(corrected 2026-09-24: the ~$46M entered at v2.0 on 5/1 with no traceable source; see CHANGELOG)* — plus senior liens bought to protect it ($13M in Q1; the $64M figure is a candidate tie, see the Q3 10-Q frame §3). Recovery posture aggressive (mgmt acquired the liens).
-- $50.5M Q1 securities-sales gain absorbed the LAM charge. **Q2 has no buffer left.**
+- $50.5M Q1 securities-sales gain absorbed the LAM charge. **Q2 has no buffer left.** *(Q1 forecast; Q2 printed $2.36 GAAP = adjusted — KB-149.)*
 
 ---
 
 ## VECTOR 3 — SSFA / NDFI / WAREHOUSE (REFINED, NEAR-DISCONFIRMED AT AGGREGATE)
 
+> ⚠️ **9/28 audit: KB-121 ("the NDFI/warehouse book is SHRINKING"), the row V3's 1/5 was held on, is SUPERSEDED by the A1 rows KB-146/-168. The score was deliberately NOT moved (no silent score change): the evidence/score inconsistency is reported for a decision (STATUS RAISE block; proposal P1).**
+>
 > ⚠️ **Q1-vintage read (5/1). Since challenged:** Q2 10-Q NDFI $15.81B = 25.9% of HFI, a record (KB-146), FFIEC item 9a up 11 of 12 quarters (KB-168), Crestline SPV lender role 9/18 (KB-195) — vs mgmt's plan that warehouse 'won't be as active' (KB-196). **Live state = STATUS §CONVERGENCE: V3 1/5, UNDER CHALLENGE (proposal P1).**
 
 The original V3 thesis ($17.2B SSFA at 20% RW = $1.1B capital savings; "Other On-Balance Sheet" $10.8B = NDFI hidden in SPVs) was **directionally disconfirmed** by Round 2 deck (Slide 24).
@@ -325,6 +329,8 @@ V3 is now a **quality-of-names question on the 2,000 underlying lender-finance o
 
 ## REVISED MGMT OUTLOOK — KEY TENSIONS (Slide 17)
 
+> 🧊 **Q1 (Slide 17) record, bannered 2026-09-28.** Live guide = the Q2 revision (KB-117: NII +12-14% incl. the Sept hike — delivered 9/16; fees **cut** to +13-17%; deposits +$6B; loans +$5B) + the CEO's 9/16 Q3 pre-guide (KB-194, B2: NCO below Q2). Q2 ex-fraud NCO printed 37bps. The Q3 benchmark → `Q3_PRINT_GRADING_FRAME_2026-09-24.md` §4/§6.
+
 | Metric | 2026 Guide | Q1 Actual | Read |
 |---|---|---|---|
 | NCO ex-LAM/Cantor | 25-35bps | **39bps** | 🔴 Above top of guide. Q2-Q4 must avg 22-33bps for full-year guide to hold. |
@@ -337,6 +343,8 @@ V3 is now a **quality-of-names question on the 2,000 underlying lender-finance o
 ---
 
 ## CAPITAL & DEPOSIT POSITION — STRUCTURAL BULL CASE
+
+> ⛔ **Q1-vintage table, corrected 2026-09-28 — do NOT cite "cohort-leading deposit growth" or "de-levering" as current.** At Q2 (10-Q, `Q2_10Q_READ_2026-08-07.md` :235): deposits **$81,874M, −$0.83B QoQ (−1.0%)** vs Q1 $82.7B; HFI loans ÷ deposits **74.4%** (60,949 ÷ 81,874), UP from 71.5% — the funding side **re-levered**; TBV **$63.24**; CET1 11.0%. Context, not exculpatory: the CEO said deposits were moved off-balance-sheet deliberately (KB-196, B2: $1.4B in Q2 + $2.5B in Q3 ≈ $4B vs a $3B FY goal), and the deposit guide was cut $8B→$6B (KB-117). **The funding side is now covered by REGINALD's WQ-318 baseline (due 10/09); WAL supplied its sources 9/28.**
 
 | Metric | Q1 26 | Q4 25 | Q1 25 | Read |
 |---|---|---|---|---|
@@ -356,7 +364,7 @@ V3 is now a **quality-of-names question on the 2,000 underlying lender-finance o
 | Thesis type | Reservoir (gradual past-due build) | **Compounder with concentrated tail risk** |
 | Pipeline signal | Past-due $207M → $465M QoQ (firing) | Leading buckets +24% to +45% QoQ; classified -9bps QoQ |
 | Loss pattern | Through delinquency funnel | **Episodic (V2) + concentrated tail (V1 Office)** |
-| Catalyst | IQHQ (maturity Aug 2026, **disclosure ~Oct at OZK's Q3 call**) + sub-notes Oct 1 reprice | **Office maturity wall $946M during 2026** |
+| Catalyst | IQHQ (maturity Aug 2026, **disclosure ~Oct at OZK's Q3 call**) + sub-notes Oct 1 reprice | **Office maturity wall $946M during 2026** (Q1 cut; $686M remaining at Q2, KB-163) |
 | Q1 print | EPS miss + reservoir thesis fires | **GAAP miss + V2 fraud labeled in 8-K** |
 | PT vs current | $42.5-45 strikes / $48 spot | **$55-70 range / $80-82 spot** *(May vintage; live: PT $52-76 (v2.4), spot → STATUS.md)* |
 
@@ -378,7 +386,7 @@ V3 is now a **quality-of-names question on the 2,000 underlying lender-finance o
 
 ## INSIDER ACTIVITY — UNCHANGED FROM v1.0 (still bearish setup)
 
-CFO swap remains the tell. Vishal Idnani (JPM FIG, 20yr MD, advised 50+ regional banks incl. WAL) replacing 22-yr CFO Gibbons during the relabeling window. Two risk specialists added to board Dec 2025 (incl. Clarke Starnes III, ex-Truist CRO). Zero insider buying. Detail unchanged → `LEADERSHIP.md`.
+CFO swap remains the tell. Vishal Idnani (JPM FIG, 20yr MD, advised 50+ regional banks incl. WAL) replacing 22-yr CFO Gibbons during the relabeling window *(9/28: the "relabeling window" reading is unsupported since MI3 ran 8/7 — THESIS §V1 primary test says the MI3 steps are not evidence of relabeling; V4 stands at 3/5 on insider behaviour alone, zero open-market buys through the 9/17 Form 4s, KB-193)*. Two risk specialists added to board Dec 2025 (incl. Clarke Starnes III, ex-Truist CRO). Zero insider buying. Detail unchanged → `LEADERSHIP.md`.
 
 ---
 
@@ -401,7 +409,7 @@ CFO swap remains the tell. Vishal Idnani (JPM FIG, 20yr MD, advised 50+ regional
 
 ## POSITIONS
 
-Current positions: **grep `POSITIONS.md` (canonical) — do not trust any strike list in this file.** *(**As of 9/24: 1 leg, Dec-18 $70P; the Sep-18 pair finished OTM 9/18.**) (The "$85P/$77.5P/$70P/$65P Jun/Sep" list formerly here was May-vintage; Jun-18 + Jul-17 tenors have since cleared — live Sep core is $67.5P+$70P per POSITIONS 6/19.)* Strike-by-strike thesis → `SCENARIOS.md` (see its 7/17 position-truth banner).
+Current positions: **grep `POSITIONS.md` (canonical) — do not trust any strike list in this file.** *(**As of 9/24: 1 leg, Dec-18 $70P; the Sep-18 pair finished OTM 9/18.**) (The "$85P/$77.5P/$70P/$65P Jun/Sep" list formerly here was May-vintage; Jun-18 + Jul-17 tenors have since cleared — ~~live Sep core is $67.5P+$70P per POSITIONS 6/19~~ (finished OTM 9/18, broker-booked 9/27).)* Strike-by-strike thesis → `SCENARIOS.md` (see its 7/17 position-truth banner).
 
 **Note:** ~~SCENARIOS.md still reflects pre-Q1 probability weights — needs refresh in Wave 1 chunk 2~~ *(9/24: SCENARIOS §EV SUMMARY is v2.4 (8/20); only its strike-by-strike sections are May-vintage — rebuild owed, one leg.)* Original note: (V2 resolved → reduces "raise/regulatory" branch; V3 disconfirmed → reduces "NDFI shock" branch; V1 sharpened to Office → tightens path-1 narrative).
 
@@ -431,7 +439,7 @@ Current positions: **grep `POSITIONS.md` (canonical) — do not trust any strike
 2. Other Jefferies/Leucadia-era credits inventory — DEF 14A pass + Q&A transcript review
 3. Hotel sub-portfolio NCO trajectory ($4.5B latent — Q2-Q3 migration watch)
 4. ~~Investor Day May 12 — mgmt response to thesis vectors~~ ✅ held 5/12 (archived findings: `archive/INVESTOR_DAY_FINDINGS_2026-05-12.md`) — (Office concentration + MI3 + ECR pressure)
-5. CRE Non-Owner Occupied charge-off composition ($27.7M Q1 = largest in 5 quarters; 5Q cumulative $66M = 64bps annualized TTM)
+5. CRE Non-Owner Occupied charge-off composition ($27.7M Q1 = largest in 5 quarters, since exceeded — Q2 $32.0M, a new 5-quarter high; 5Q cumulative $66M = 64bps annualized TTM)
 6. Lender Finance fund-level concentration — top 10 fund exposures, default rates (resolves remaining V3 quality-of-names question)
 
 ---

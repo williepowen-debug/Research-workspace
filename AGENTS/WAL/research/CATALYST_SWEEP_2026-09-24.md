@@ -167,3 +167,7 @@ Tape on 9/16 (yfinance closes):
 | 10 | WAL-specific credit headline, or explanation of the 9/16 or 9/22–23 moves | web "Western Alliance bank news August 2026"; "…news September 23 2026"; "…shares September 16 2026 Barclays…" |
 | 11 | Regional-bank-specific (non-Muse, non-rates) driver on 9/22–23 | web "regional bank stocks fall September 22 2026 KRE"; "bank stocks slide September 23 2026 regional lenders"; "regional banks stocks Wednesday September 23 2026…" |
 | 12 | Clean-source confirmation of the Citi 9/22 PT cut | web "Citi lowers Western Alliance price target $95 from $98"; GuruFocus page shows an Oct-2023 date |
+
+---
+
+*Annotation 2026-09-28 (audit, `research/AUDIT_2026-09-28.md`; the sweep above stays as the dated record):* the row at line 119 ("Cantor (LA Superior 25STCV24263, Judge Terry A. Green) | No ruling or new docket development found") covered **half the case**. WAL's guaranty and declaratory claims against Stupin and Marcil were removed to bankruptcy court as adversary **8:26-ap-01076-SC** on 6/25/2026, and WAL moved to remand on 7/27; only the claims against Cantor V stayed in LA Superior, before **Hon. Cherol J. Nellon** per the removal notice (KB-WAL-206/-208). The 9/24 search-negative applies to LA Superior only. Open item 12 (the Citi date): a 9/28 web search dates Citi's $98→$95 cut to **9/22/2026** (news tier).
