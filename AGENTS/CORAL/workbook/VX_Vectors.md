@@ -295,7 +295,7 @@
 | Metric | Current | Threshold | Status |
 |--------|---------|-----------|--------|
 | District volume rank | M.D. Fla #2 / S.D. Fla #6 (12mo ended 2026-03-31) | true but population-weighted | 🟡 |
-| Per-capita filing rate | FL ~190/100k vs national ~168-173 | 🟠 >230/100k Ch.7 in FLM/FLS / 🔴 >260 sustained | 🟡 |
+| Per-capita filing rate | FL ~190/100k vs national ~168-173 *(6/20; that 190 = statewide NONBUSINESS)* · **9/28: M.D.+S.D. all-chapter 217.1, Ch.7 151.5 (12 mo to 6/30/26, `tools/bkcy/`)** | 🟠 >230/100k Ch.7 in FLM/FLS / 🔴 >260 sustained — ⚠️ **FLAG 2026-09-28: basis unresolved — label (Ch.7 M.D.+S.D.) and June anchor (statewide nonbusiness ~190) disagree; derivation undocumented; rebase choice is WQ-322 (Will, separate). Kept as written.** | 🟡 |
 | YoY acceleration | +22.2% YoY; consumer-led, business ~5-6% of volume | 🟠 >20% sustained / 🔴 >30% + bank NCO move | 🟠 |
 
 *Source: AOUSC F-2 / WALTER SIG-W-20260619-008, delivered 2026-06-19. Last updated: 2026-06-20.*

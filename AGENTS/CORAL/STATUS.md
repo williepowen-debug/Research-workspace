@@ -51,7 +51,7 @@ Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo st
 | FIGA / insolvency | 1% assessment **ends 9/30**; **no new FL insurer failure Aug–Sep** (FIGA/OIR/DFS lists 9/28) | 🟡 |
 | NFIP | **Authorized to 2026-12-11** (H.R. 6500, 9/2) | 🟡 dated |
 | Recent-vintage neg. equity | Cape Coral **11.1%** #1 US; Lakeland 10.8%; 2024 vintage **35.4%** underwater | 🟠 |
-| **Bankruptcy (instrument built 9/28)** | M.D.+S.D. **217.1/100k, +21.2% YoY** (12 mo to 6/30/26); FL/US **1.231×** widening; tripwire >~230 not crossed | 🟠 canary |
+| **Bankruptcy (instrument built 9/28)** | M.D.+S.D. **217.1/100k, +21.2% YoY** (12 mo to 6/30/26); FL/US **1.231×** widening. Criterion-5 leg A (Will-ruled 9/28): 2.7pp below prior-four peak ⇒ not fading. ⚠️ Confirm-side tripwire >~230 **basis unresolved (WQ-322)** | 🟠 canary |
 | Hurricane season 2026 | **8 named / 0 hurricanes; no FL landfall**; NHC 9/28: no formation 7d | 🟡 |
 | Sargassum (SE FL) | ~**38M MT** Jul, record tier — ⚠️ NOAA SIR band unretrievable since 7/21 | 🟠 |
 
@@ -87,8 +87,18 @@ Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo st
 > ⭐ **The spacing is the ANTI-NOISE leg and it is the load-bearing one.**
 > **Scope, unchanged in both directions: the SUPPLY-SIDE PRICE-DISCOVERY LEG ONLY.** The bank-transmission rail and CORAL's overall 🟠 state are untouched whether this fires or stands down.
 > **Symmetry note (why this form):** the leg FIRED on persistence (breadth sustained ~15d), so it stands down on persistence too. Any future amendment should move the spacing **toward more**, never less.
+> ### 🟠 GATE-CORAL-MSI-01 — AMENDED LETTER (Will-ruled 2026-09-28, WQ-241 approved with two amendments; governs from 2026-09-28 forward — the 8/23 letter above stays verbatim as the record of what 9/13 was graded on)
+> **Instrument:** Parcl Labs Motivated Seller Index (0–10), five named FL metros: **Tampa · Punta Gorda · North Port · Cape Coral · Lakeland**, MSI to the hundredth as published.
+> **Reading.** One pull of all five metro pages that **all carry the same page stamp** (`Updated: M/D/YYYY`); the stamp is the reading's date and identity. If the five pages carry **different** stamps, the pull is **not a reading** — re-pull later. A pull whose stamp **equals an earlier reading's stamp is that same reading**, never a second one; if values differ between two pulls with one stamp, the first pull governs and the discrepancy is logged.
+> **"Above" is strict:** MSI > 6.00 (6.00 is not above).
+> **Persistence clock.** A condition's clock starts at the **FIRST qualifying reading's stamp**. Later qualifying readings **do not restart it** — intervening qualifying readings preserve the first reading's clock. The condition is **confirmed** when a qualifying reading's stamp is **≥10 days after the first qualifying reading's stamp**, with **every reading in between also qualifying** (≥10 days of observed persistence). **A failing reading resets the clock to zero.**
+> **🟠→🔴 RE-FIRE:** a qualifying reading = **all five metros > 6.00**. Confirmed per the persistence clock.
+> **🔴→🟠 STAND-DOWN:** a qualifying reading = **the SAME metro < 5.90** — the clock is specific to that metro; a reading on which that metro is ≥ 5.90 is a failing reading for its clock. Confirmed per the persistence clock.
+> **Band:** **5.90–6.00 is a policy buffer.** A metro inside it counts toward neither re-fire nor stand-down (for a re-fire clock, a metro in the band makes the reading fail).
+> **Scope:** the supply-side price-discovery leg ONLY. The bank-transmission rail and CORAL's overall colour are untouched whether it fires or stands down.
+> **Ruling:** Will, 2026-09-28 ~15:1x ET, verbatim record `PROME/WILL_QUEUE.md` WQ-241 (PROME commit `c0cfe7ba6`). Proposal history (incl. the measured-move table, not part of this letter): `PROME/inbox/processed/…WQ-241-and-WQ-321-tightened-letters.md` (`9655ceaf3`).
 
-**State:** sub-threshold readings 9/2 (3-of-5, stamp 9/3) and 9/13 (4-of-5, stamp 9/13) ⇒ condition MET ⇒ **🟠 since 2026-09-13, leg only.** **Reading #7, 2026-09-28: 4-of-5 > 6.00 (Cape Coral 5.96) — no rule applies; leg stays 🟠.** ⛔ The leg stood down on a count, not because Florida improved (9/13: 3 of 5 rose, Tampa series high). **Re-fire + level guard: proposal delivered 9/28 (PROME/inbox, commit `df4e9f1a6`) for Will — prospective; changes nothing today.** Full 9/13 resolution text → `STATUS_DETAIL.md` rotated blocks.
+**State:** sub-threshold readings 9/2 (3-of-5, stamp 9/3) and 9/13 (4-of-5, stamp 9/13) ⇒ condition MET ⇒ **🟠 since 2026-09-13, leg only.** **Reading #7, 2026-09-28: 4-of-5 > 6.00 (Cape Coral 5.96) — no rule applies; leg stays 🟠.** ⛔ The leg stood down on a count, not because Florida improved (9/13: 3 of 5 rose, Tampa series high). **Re-fire + level guard: INSTALLED 2026-09-28 (Will-ruled, amended letter above) — prospective; reading #7 is neither a re-fire nor a stand-down reading under it (Cape Coral 5.96 in the band), so the leg stays 🟠. Nothing re-graded.** Full 9/13 resolution text → `STATUS_DETAIL.md` rotated blocks.
 
 ### OWED TABLE — every live obligation (full reasoning / prior routes → `STATUS_DETAIL.md` § "OPEN QUESTIONS — full text" + § "2026-09-28 session evidence")
 
@@ -100,7 +110,7 @@ Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo st
 | D2 | SEL-2026-05 loosening — effective dates UNKNOWN | open | flagged, not adopted |
 | D3 | GSE reserve funding **10% → 15%** | **2027-01-04** | dated |
 | F | Ocala June-2026 metro UR — next route FloridaCommerce LMS; normal June shape +0.6pp | owed | 3 routes dead |
-| H2 | ⭐ **Bankruptcy spec defects → Will, BETWEEN grades** (THESIS rule): (1) carried basis says "Ch.7 M.D.+S.D." but the ~190 anchor is **statewide nonbusiness** — moves the tripwire date ~1 yr; (2) **"fades" has no number**. Direction is basis-robust (NOT MET on all). Next data 12 mo to 9/30/26, **~late Oct–Nov** | **before 11/15** | instrument BUILT; spec open |
+| H2 | ✅ **Criterion 5 operationalized 2026-09-28 (Will-ruled WQ-321):** leg A ABSOLUTE scored (M.D.+S.D. all-chapter per-capita 12-mo YoY ≥5pp below its preceding four-table max, on two consecutive tables); leg B relative reported only — a prospective policy choice, not a validated threshold. ⏳ **WQ-322 (Will, separate): the confirm-side ~230/260 tripwire basis** — label and anchor disagree; NOT rebased | WQ-322 ruling; next F-2 table ~late Oct–Nov | leg A installed; tripwire open |
 | I | Receivership/termination count — Two Roads "economic waste" suit | unresolved | 🟡 |
 | J | **Condo price-band test — UNITS, never SHARE** | separate report | not run |
 | K | No constant-quality statewide FL **condo** index — every condo composition argument rests on a mix statistic | open | named gap |
@@ -110,7 +120,7 @@ Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo st
 | O | Stale rows: **SE-FL vintage $/sf (7/13)** · **blacklist count (Apr-2025)** · **NOAA SIR sargassum (since 7/21)** · **ATTOM foreclosure (7/17)** · **VLY CRE/RBC 329% is Q1** | rolling | STALE-marked in place |
 | P | **NFIP authorization** — extended 9/2 | **2026-12-11** | dated cliff |
 | Q | FL Realtors **September** — four legs; watch whether condo sales stay negative YoY | **2026-10-16** | dated |
-| S | **MSI re-fire + level guard** — proposal with Will via PROME (WQ-241, DOCKET L501) | Will's ruling | proposal delivered 9/28 |
+| S | ✅ **MSI re-fire + level guard INSTALLED 2026-09-28** (WQ-241, Will-ruled with two amendments) — next reading is graded on the amended letter | next Parcl stamp | ✅ closed |
 | U | Citizens **9/30 month-end** — will carry the **9/15 round (10,210)**; read ex-round | **~early Oct** | dated |
 | V | Brightline Flagler real-estate debtors — read schedules when filed (station-area parcels, TOD) | when filed | ⚪ info |
 

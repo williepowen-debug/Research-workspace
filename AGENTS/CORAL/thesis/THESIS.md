@@ -2,7 +2,7 @@
 
 **Version:** **v1.1** *(bumped 2026-08-23 — two rail changes: a new falsify rail for the 🔴 supply-side leg, and a pre-registered grading rule + first-ever grade for the falsify criteria. Core mechanism UNCHANGED from v1.0.)*  
 **Installed:** 2026-06-20 · **Rails last reviewed:** 2026-08-23 (Will-approved) · **Next falsify grade: 2026-11-15**  
-**State:** 🟠 ELEVATED / thesis split — household + condo stress confirmed; bank-loss transmission not confirmed. **Supply-side price-discovery leg 🟠 — fired 🔴 7/23 (Will-ratified), STOOD DOWN 🔴→🟠 2026-09-13 on its own 8/23 rail; no re-fire condition registered (proposal with Will, WQ-241, 9/28). Scoped to that leg; bank-transmission rail untouched (0-of-≥2).** **⭐ STAND-DOWN RAIL ADDED 2026-08-23 (Will-ruled): breadth <5-of-5 FL metros with Parcl MSI >6.0 on TWO CONSECUTIVE readings ≥10 DAYS APART ⇒ 🔴→🟠, this leg only. Canonical letter → `STATUS.md` OQ §A. Until 8/23 this leg had a trigger and NO falsifier.**
+**State:** 🟠 ELEVATED / thesis split — household + condo stress confirmed; bank-loss transmission not confirmed. **Supply-side price-discovery leg 🟠 — fired 🔴 7/23 (Will-ratified), STOOD DOWN 🔴→🟠 2026-09-13 on its own 8/23 rail; **re-fire condition + level guard INSTALLED 2026-09-28 (Will-ruled, WQ-241; letter in STATUS OQ §A).** Scoped to that leg; bank-transmission rail untouched (0-of-≥2).** **⭐ STAND-DOWN RAIL ADDED 2026-08-23 (Will-ruled): breadth <5-of-5 FL metros with Parcl MSI >6.0 on TWO CONSECUTIVE readings ≥10 DAYS APART ⇒ 🔴→🟠, this leg only. Canonical letter → `STATUS.md` OQ §A. Until 8/23 this leg had a trigger and NO falsifier.**
 **Changelog:** `thesis/CHANGELOG.md`
 
 ---
@@ -77,7 +77,7 @@ Deterioration means one or more of:
 Bridge / corroborating signals that raise pressure but do **not** alone upgrade the bank leg:
 
 - Condo association bankruptcies / receiverships form a visible cluster beyond one-offs, especially if paired with bank credit movement.
-- Ch.7 filings in M.D./S.D. Fla exceed the tracked per-capita tripwire and keep accelerating.
+- Ch.7 filings in M.D./S.D. Fla exceed the tracked per-capita tripwire and keep accelerating. ⚠️ **[FLAG 2026-09-28 — basis unresolved: the tripwire's label (Ch.7, M.D.+S.D., >~230/100k 🟠 · >260 🔴) and its June anchor (statewide nonbusiness ~190) disagree; derivation undocumented (`26e98ce7f`, 6/20). Rebase choice is WQ-322 (Will, separate). Kept as written; nothing regraded.]**
 - Foreclosure + negative-equity clusters broaden from SW-FL into SE-FL condo collateral.
 - Hurricane landfall reverses insurance easing and shocks commercial/condo master-policy costs.
 
@@ -126,6 +126,11 @@ Bridge / corroborating signals that raise pressure but do **not** alone upgrade 
 - Condo inventory tightens and price declines stabilize without forced-sale acceleration.
 - Personal **and** commercial/condo master-policy layers ease materially.
 - Bankruptcy acceleration fades on a per-capita basis.
+  - ⭐ **How criterion 5 is scored (Will-ruled 2026-09-28, WQ-321) — a PROSPECTIVE POLICY CHOICE, not a statistically validated threshold. The criterion text above is unchanged.**
+    - **Basis (stated once):** AOUSC Table F-2 12-month rolling, **all chapters** (7, 11, 12, 13, 15), business + nonbusiness, cases commenced in the **Middle and Southern Districts of Florida**; denominator = Census July-1 population of the **44 counties** in those districts per 28 U.S.C. §89 (latest vintage). Per-capita YoY = (1 + filing YoY) / (1 + population growth over the latest vintage-year pair) − 1. Instrument: `tools/bkcy/`.
+    - **Leg A — ABSOLUTE, SCORED:** MET only if per-capita 12-month YoY is **≥5 percentage points below its maximum over the preceding four 12-month tables, on two consecutive tables.**
+    - **Leg B — RELATIVE, REPORTED ONLY:** FL M.D.+S.D. YoY vs US YoY, printed beside the grade; never flips criterion 5.
+    - The 11/15 grade date and the decision rule are unchanged.
 - Property-tax relief materially lowers household carrying-cost pressure without offsetting fiscal/service backlash.
 
 ---

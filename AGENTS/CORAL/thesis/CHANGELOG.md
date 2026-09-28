@@ -5,6 +5,18 @@
 
 ---
 
+## 2026-09-28 (later) — Will RULED WQ-241 and WQ-321: MSI re-fire + level guard installed; criterion 5 operationalized; tripwire rebase NOT approved
+
+**Trigger:** confirm/falsify rail change (Will-ruled ~15:1x ET; verbatim record `PROME/WILL_QUEUE.md`, PROME commit `c0cfe7ba6`).
+
+| Item | Old | New | Why |
+|---|---|---|---|
+| **GATE-CORAL-MSI-01** | 8/23 letter: stand-down only, no re-fire, count-based (fired 9/13 with Cape Coral 0.09 under) | **Amended letter (STATUS OQ §A):** re-fire = all five > 6.00; stand-down = the SAME metro < 5.90; **5.90–6.00 = policy buffer**; persistence clock from the FIRST qualifying reading's stamp, intervening qualifying readings preserve it, confirmation ≥10 days observed, a failing reading resets; reading identity by page stamp | CATO review `7522e6dcf` + Will's two amendments (no noise-probability claim for the band; first-reading clock) |
+| **Criterion 5 scoring** | UNGRADED, no operational definition | **Leg A absolute, scored** (per-capita YoY ≥5pp below prior-four-table max, two consecutive tables); **leg B relative, reported only** — *prospective policy choice, not a statistically validated threshold* | WQ-321 |
+| **Confirm-side ~230/260 tripwire** | "Ch.7 M.D./S.D. >~230" | **Unchanged, FLAGGED:** label and June anchor disagree; derivation undocumented → **WQ-322** (Will, separate) | Will declined the ≈250/283 rebase |
+
+**Unchanged:** MSI leg 🟠 (reading #7 is in the band — neither re-fire nor stand-down); overall 🟠; bank rail NOT met, NOT armed; criterion text, 11/15 date and decision rule; **no retrospective regrading of anything.**
+
 ## 2026-09-28 — Two falsify criteria instrumented; one pre-registration graded; no rail moved
 
 **Trigger:** rail-adjacent changes under the write-back rule — an UNGRADED criterion got a live instrument, and a pre-registered branch read resolved.
