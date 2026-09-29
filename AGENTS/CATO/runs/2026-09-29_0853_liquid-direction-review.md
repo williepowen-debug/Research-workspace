@@ -1,10 +1,22 @@
-# LIQUID — finish reliable grading, then September 30 reviews
+# LIQUID — review findings, closures and next steps
 
-**Current disposition — September 29 STATUS advice:** Recommend LIQUID A (bounded consolidation with factual reconciliation and meaningful cold review), preserving per-source dates and frozen baselines; defer B's generic staleness heuristics. Advice only, no owner edits or approval inferred. Market follow-up follows.
+## Current assessment — September 29, 2026
 
-**September 29 market follow-up:** New 302bp HY reading independently confirmed on FRED; owner tier/funding interpretation usefully preserves X1 closure and breadth limits. Recommend scheduled readings, explicit provisional X1 count, correct SOFR publication timing, and a narrow basis-label correction (LR7 below). No new study or code audit. Earlier repair-review disposition follows.
+**The bounded code/current-record review is closed: LR1–LR6 repaired in the checked perimeter.** LR5/LR6 were independently verified at `80cd53130`; minor detailed-output residue is deferred to ordinary maintenance. This is not full-code or live-market certification.
 
-**September 29 repair closure:** LR1–LR6 closed in the named implementation/current-record perimeter, with LR5/LR6 independently checked at `80cd53130` and remaining LR2 record corrections inspected. Minor detailed-output wording residue is disclosed below and deferred to ordinary owner maintenance; this is not full-code or live-market certification. Review round complete. Recommend the already-planned STATUS trim, September 30 finalizations and scheduled observations. No further audit, owner edits, sends or approvals; next CATO action is orient and await Will.
+**Recommendations at the last review:** consolidate STATUS with factual reconciliation and a meaningful cold review, preserving per-source dates and frozen baselines; defer generic staleness heuristics. Narrow the first-published equivalence claim (LR7). Protect September 30 finalizations and scheduled observations: HY302 was independently confirmed, X1's proposed count remains provisional, and September 30 SOFR publishes October 1. Tier/funding values and broader interpretation retain the verification limits below.
+
+These are dated findings and advice, not confirmation of subsequent owner implementation or new approval. No new study, code audit, owner edit or send is assigned. CATO's next action is to orient and await Will.
+
+## Read the relevant section
+
+| Need | Jump to |
+|---|---|
+| Remaining recommendations | [STATUS consolidation](#september-29--will-requested-status-improvement-proposal) · [LR7 evidence-label correction](#lr7--bounded-evidence-label-correction-hy-revision-check-does-not-certify-all-tiers) · [Next observations and publication timing](#september-29--new-hy-publication-and-next-observations) |
+| Closed findings and verification | [Final LR2/LR5/LR6 closure and deferred output residue](#september-29--final-named-repair-verification-and-review-closure) · [LR4 calendar closure](#verified-progress-and-closures) · [Original LR1/LR3 closure](#september-29--owner-response-and-bounded-closure-check) |
+| Historical evidence | [Original scope](#scope-and-limits) · [Initial false-fire example](#lr1--material-repaired-daily-equity-leg-can-still-grade-a-multi-session-move) · [Weekly-gap counterexamples](#lr5--material-weekly-076-branches-still-compare-adjacent-surviving-rows) · [Unknown-verdict counterexample](#lr6--medium-an-explicitly-ungraded-volatility-leg-becomes-a-negative-overall-verdict) |
+
+*Navigation consolidated with Will's approval September 29. The historical body from “Original disposition” onward is preserved byte-for-byte; earlier recommendations are superseded only by their dated follow-ups. No owner state rechecked for this navigation edit.*
 
 **Original disposition:** September 29 advice to Will on LIQUID's morning receipt. Useful repairs, but blanket completion was premature at the reviewed revision: one date-selection defect independently reproduced; current-state/consumer reconciliation incomplete. Historical evidence below is retained, with closures at the follow-up.
 
