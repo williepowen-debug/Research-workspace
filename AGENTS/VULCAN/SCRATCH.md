@@ -1,4 +1,23 @@
-> # ⛔ 2026-09-25 (Fri) — READ THIS BLOCK FIRST. Will-launched in-folder session, boot 09:07 → closeout 10:32 ET (`date`). **12 dark days before it (9/14 → 9/24).**
+> # ⛔ 2026-09-29 (Tue) — READ THIS BLOCK FIRST. Will-launched in-folder session, boot 08:47 ET (`date`), pre-market; Will asked for a data catch-up.
+>
+> ## ONE LINE: a **DEMAND strand** joined last week's FINANCING one — **OpenAI paused its frontier pipeline (report 9/25, no resume date)** and the 9/28 tape priced it (ORCL −3.3%, MU −2.6%, CRWV −2.9%, Hynix −5.05%). **No budget, contract or lease changed ⇒ no trigger moved; composite 15/25, thirteenth session.**
+>
+> ## ▶ START HERE NEXT SESSION
+> 1. 🔴 **Did anyone run `semi_watch.py` slot 8 (9/29 post-close)?** Check `S2_SERIES.tsv` for a 2026-09-29 row. None ⇒ mark the 9/29 CATALYSTS row MISSED (the 8th of 8 — the re-arm rule is UNGRADEABLE either way). **Never cure off-cadence** [L-21].
+> 2. 🔴 **10/01: grade VULCAN-02/-11/-12/-14 on MU FQ4 (9/30 16:30 ET)** — VULCAN-12 geometry pre-stated in STATUS (guide ~86% sits inside the 84.6–86.6 gap ⇒ the FQ1 guide decides). Consensus (secondary): EPS $31.45–31.59 on revenue $50.9–51.2B vs MU's guide $50.0B ± $1.0B / ~86% GM / $31.00 ± $1.00. **Rewrite `EXIT_PROTOCOL.md`: it must now answer TWO gaps — financing STRUCTURE (9/25) and lab-level DEMAND (9/29).**
+> 3. **10/02:** GPU reading 4 (now the FIRST row — and the LAST registered slot) + `mag7.py`. **10/05 re-decide must also decide whether to extend the GPU cadence** — registered before its first slot or not at all.
+> 4. **Watch (no clock):** OpenAI contract/take-or-pay deferral at ORCL/CRWV/MSFT (THAT would reach the S1 leading indicator; the pause does not) · SB Energy S-1 (no withdrawal as of 9/29) · ORCL $3.3B guarantee (no 8-K, SEARCHED NOT FOUND 9/29) · Jupiter post-notice loan price (none found) · Xcel/SPS Texas large-load tariff (PROPOSED; re-grade only on a rating-keyed clause + approval).
+>
+> ## WHAT THIS SESSION DID
+> - **Git:** did NOT pull (CRUISE + PROME had uncommitted work); `git fetch` failed on an **SSL timeout** to GitHub, so origin's state is unknown.
+> - **Boot:** 9/25 slot recorded **MISSED** at the artifacts (S2 7th miss, mag7 3rd, GPU reading 3). Caught myself naming GPU slot "reading 7 (10-23)", which does not exist — the cadence ends 10/02; corrected before commit.
+> - **WALTER lane 5 → 0** (`board_log.tsv`, reasons written). CRWV CDS ~855bp (LIQUID L510 ISDA benchmark) graded at the seam: secondary wide, primary open ⇒ single-name, no VULCAN band [KB-176]. Tenor split 29% vs 8% at 20y+ partly discharges KB-096 [KB-177]. Crusoe/MS shortfall = narrative only.
+> - **News sweep** (Opus subagent) → `reports/2026-09-29_news-catchup_0925-0929.md`; three load-bearing items re-checked at source by me (Ellison 413M in the DEF 14A text; Xcel = proposed/no rating threshold; OpenAI pause = Bloomberg + Fortune on the 9/25 report). KB-178..183.
+> - **Confirmed:** PROME landed my WEEKLY cadence + FINAL 11 WATCH_FOR phrases in `PROME/ROSTER.md`; WQ-295 R2 (cadence wake) held by Will through 10/02.
+>
+> ## ❌ STILL OPEN (carried): KB-096 issuer-level primary pull (now partly discharged) · QQQ sector variant (Invesco 406s) · PROME's disinflationary-productivity falsifier + the two rail gaps · `data.ornn.com/preview` as a source of record · `CLAUDE.md` auto-load ~79 KB · `edgar_watch.py` still derives MU on the refuted 52-week model — **it now also prints a MU 10-K window opening 10/02 off the wrong 8/27 period end; the true FY end is 9/03, so the real window opens ~a week later** (display defect, same root).
+
+> # 2026-09-25 (Fri) — *(previous session; the 9/29 block above supersedes its ▶ START HERE)*. Will-launched in-folder session, boot 09:07 → closeout 10:32 ET (`date`). **12 dark days before it (9/14 → 9/24).**
 >
 > ## ONE LINE: in the dark period, the AI buildout's stress **moved from prices into financing structure** (ORCL leases $260B → $288B; Jupiter force majeure; ORCL CDS record; SB Energy — NVDA's $105B guaranty counterparty — IPO postponed). **No band fired, no score moved.** The S2 re-arm rule is now **UNGRADEABLE** (6 of 8 slots lost). Today's post-close slot is **UNCOVERED** at closeout.
 >

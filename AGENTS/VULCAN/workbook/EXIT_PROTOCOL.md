@@ -273,3 +273,10 @@ Markets have been shut since the Friday 2026-09-11 close and **this session took
 
 - **S2 channel note:** the pre-specified 9/30 re-arm rule is **UNGRADEABLE by construction** (6 of 8 slots missed). This is not a channel kill and not a channel revival; S2's standing −25% QoQ rule is unaffected and far from firing.
 - **Dated rewrite trigger: NOT DUE — 2026-09-30, 5 calendar / 3 trading days out** (boot leg 6). MU prints AFTER that close ⇒ the rewrite is a **2026-10-01** action. Unchanged.
+
+### 🔴 THESIS-KILL RE-EVALUATION 2026-09-29 (Will-launched pre-market boot; closeout step 3): **STILL 1 of 3 — re-read leg by leg.**
+- **Leg 1 — FY27 aggregate capex guide ≥ +40% YoY: NOT satisfied.** No hyperscaler guided 9/25 → 9/29. OpenAI's frontier pause (report 9/25, no resume date) is a **workload** pause at a lab, not a guide; it would bear on this leg only through a later guide. [KB-178]
+- **Leg 2 — Mag-7 ≤28% held 3+ months: NO.** Last read **33.5528%** (holdings 2026-09-01), now **28 days stale** — `mag7.py` slot 3 (9/25) MISSED as well. NVDA, the largest weight, rose +1.68% on 9/28 on a $150B buyback. [KB-183]
+- **Leg 3 — memory stays healthy: TRUE.** TrendForce **raised** its 2027 HBM ASP forecast to +121% YoY (9/29, primary); KOSPI's −2.70% / SK Hynix −5.05% on the 9/28 re-open is a rates/OpenAI thermometer, not a memory-price datum. [KB-179/180]
+- **The structure-leg gap (9/25) got one more instance, and one more strand beside it:** CRWV 5Y CDS ~855bp (LIQUID's ISDA figure) with primary still open [KB-176]; AI issuers 29% of 2026 IG at 20y+ [KB-177]. **New: a DEMAND strand** (OpenAI pause) that the rail also has no leg for — a lab-level workload pause is neither a capex guide nor an index share. **Both go to the 10/01 rewrite.**
+- **Dated rewrite trigger: NOT DUE — 2026-09-30, 1 calendar / 1 trading day out** (boot leg 6). MU prints AFTER that close ⇒ the rewrite is a **2026-10-01** action. Unchanged.
