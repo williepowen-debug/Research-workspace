@@ -5,8 +5,8 @@ RED-FT-01	2025-09-15	RETRO (spec 2026-08-27)	resolved	KRE +0.7 pct @60obs	CORREC
 RED-FT-01	2026-01-08	RETRO (spec 2026-08-27)	resolved	KRE -2.0 pct @60obs	WRONG	2026-08-27	S35 demo row.
 RED-FT-01	2026-05-05	RETRO (spec 2026-08-27)	resolved	KRE +8.8 pct @60obs	CORRECT	2026-08-27	S35 demo row.
 RED-FT-01	2026-05-25	RETRO (spec 2026-08-27)	resolved	KRE +6.3 pct @60obs	CORRECT	2026-08-27	S35 demo row.
-RED-FT-01	2026-06-15	COMMITTED	~2026-09-09	pending	UNRESOLVED		First fire graded under the committed spec at its horizon.
-RED-FT-01	2026-07-02	COMMITTED	~2026-09-26	pending	UNRESOLVED		
+RED-FT-01	2026-06-15	COMMITTED	~2026-09-09	KRE +2.8 pct @60obs (71.40 [6/15] -> 73.39 [9/10], yfinance auto-adjusted closes)	CORRECT	2026-09-29	First fire graded under the committed spec at its horizon. GRADED S48 2026-09-29, 20 days past resolve_after (DUE-scan miss, owned). Sign robust at obs 58-61 (+3.5/+2.3/+2.8/+2.9). Apparatus data only - moves no weight.
+RED-FT-01	2026-07-02	COMMITTED	~2026-09-26	KRE -5.4 pct @60obs (74.60 [7/02] -> 70.55 [9/28], yfinance auto-adjusted closes)	WRONG	2026-09-29	GRADED S48 2026-09-29, 3 days past resolve_after. Sign robust at obs 58-61 (-4.9/-4.1/-5.4/-5.8). The horizon close (9/28) is the same session the HY exit completed - a calm-fire graded on the day calm ended; recorded, not adjusted. Apparatus data only - moves no weight.
 RED-FT-01	2026-08-05	COMMITTED	~2026-10-29	pending	UNRESOLVED		
 RED-FT-06	2026-08-11	RETRO (spec 2026-08-27, 12 obs elapsed at commitment)	~2026-09-09	VIXCLS max 16.01 through 2026-08-26 (12/20 obs)	UNRESOLVED-TRACKING-SUCCESS		Grade at 20 obs, never early (scored at exit, not at fire - CHG-051 SS6).
 RED-FT-07	2026-06-04	RETRO (spec 2026-08-27)	resolved 2026-08-27 (60 obs exactly)	HY max 287 [2026-07-29] vs >=300 criterion	WRONG	2026-08-27	The CCC tail never broadened to the index. NOTE: the fire-time Acute +1 is NOT reversed by this grade - outcome grades are APPARATUS data, not world data; this row feeds the 9/4-9/11 FT-07 re-spec, it does not move a weight (the CHG-051/FT-11 guard, applied symmetrically to a grade that runs AGAINST the bear).

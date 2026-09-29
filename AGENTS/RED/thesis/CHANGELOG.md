@@ -5,6 +5,21 @@
 ---
 
 
+## S48 — 2026-09-29 10:3x ET — **CONFIDENCE 68 → 70 (+2 MECHANICAL, pre-registered): `RED-FT-01` EXIT EXECUTED. Net-bear 58 unchanged. No weight re-derived.**
+
+**Old view → new view.** Confidence **68 → 70**. Net-bear stays at **58**. The hypothesis weights do not move (Managed 32 · Stag 32 · Acute 13 · War 13 · Soft 6 · Rescue 4), because FT-01's magnitude is CONF only.
+
+**Why (the letter, applied):** FT-01's exit leg is `HY-OAS >= 280, sustain 3, FRED observation dates`. It has carried `>=` since `ef574f91d` (2026-07-29, pre-data). The prints were **280.0 [9/24] · 293 [9/25] · 302 [9/28]**, so the count is 3 of 3 and the exit is met at the 9/28 observation. **The +2 is the registered symmetric half of the 8/7 −2** (HOLD 72→70 then). It is not a new judgement. The S36d adjudication (CHG-051) kept the ±2 and the WL-03 round trip "UNTOUCHED". It also pre-registered that once this round trip closes, FT-01 fires move nothing and the ±2 moves to FT-12. **That transfer happens now.**
+
+**What it means, and what it does not:** the exit ENDS a sustained-calm counter-signal. **It is not a bear confirm.** The registered confirm is FT-02 (>320 s=3, NET-BEAR +3 / CONF +2), which is 18bp away. Reading 302 as confirmation would double-count the move that FT-02 exists to grade.
+
+**Disagreements recorded after applying the letter (they govern interpretation, never the count):**
+1. **Tie atom.** 9/24 is exactly 280.0. Canon `>=` counts it. The display mirror WL-03 (`>`) and LIQUID's X1 owner letter (`>280`) read 2 of 3. The verdict rides the tie for exactly one observation date: any 9/29 obs >280 completes even the strict count. Mirror drift → ML-RED-268.
+2. **Composition: broad-tier, not a CCC tail.** From 9/23 to 9/25, with all tiers posted and VIOLET's OLS weights: BB +10.1 / B +6.6 / CCC +3.7bp of the +20. **BB+B = 82%.** The 8/7 composition guard is therefore not engaged. **Named unknown:** the 9/25 BB +12 came alongside CHTR −3.9% on a rates-flat day (LIQUID), and index data cannot separate one sector from breadth.
+3. **IG lagged**: 77 → 83 (+6) against HY +29, which is speed inside high yield rather than a systemic repricing (consistent with BOND 9/28).
+
+**Outcome axis (apparatus only; moves no weight):** two FT-01 rows past resolve_after were graded. **6/15 CORRECT (KRE +2.8% @60obs) · 7/02 WRONG (KRE −5.4% @60obs).** The 6/15 row was graded 20 days late, a DUE-scan miss that RED owns.
+
 ## S44 — 2026-09-12 ~13:5x ET — **NO WEIGHT MOVED (net-bear 58, confidence 68 stand). THREE registered-trigger grades, all non-fires; ONE new pre-data instrument ruling on `RED-FT-06`.**
 
 **Old view → new view.** Hypothesis weights **unchanged**: Managed 32 · Stagflation 32 · Acute 13 · War 13 · Soft 6 · Rescue 4. Sum 100. **Confidence 68. Net-bear 58.** Logged here because A4 makes a registered-trigger state change mandatory for W3 whether or not a weight moved — and three states were graded on one day.
