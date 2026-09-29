@@ -3,7 +3,7 @@
 **Domain:** US market structure + macro data (CPI/PPI/PCE/ISM/NFP) + vol regime (gamma/0DTE layer; **VIOLET owns the vol broadcast**) + equity positioning + AI-capex/semiconductor supply chain.
 **LIVE STATE — 9/28 close, per cell:** SPX **7,683.69** [close] · VIX **16.07** [^VIX 9/28 bar; CBOE publisher 9/25 = 14.87] · VIX9D **14.39** · VIX3M **18.23** · VVIX **91.02** · SKEW **146.25** [CBOE publisher 9/28] · KRE **70.55** [9/28 last] · USD/JPY **157.46** [live 20:35 ET] · Nov Brent settle **$105.28** [9/28, via BRENT] — ⛔ continuous `BZ=F` rolled 9/25; any "Brent −5%" read is an artefact.
 **SETTLED [FRED obs 2026-09-25]:** **HY 293 · CCC 1,128 · BB 176 → gap 952** (widest in FRED's window 2023-09-29→; CCC 2nd-highest behind 1,137 [2025-04-07]).
-**As of:** 2026-09-28 20:45 EDT (`date`) — FOLD (NEXUS Amendment 10): written after the final STATUS write, immediately before commit; exact time = this file's commit.
+**As of:** 2026-09-28 21:05 EDT (`date`) — FOLD (NEXUS Amendment 10): written after the final STATUS write, immediately before commit; exact time = this file's commit.
 **Recent thesis pivot:** 9/18 HEN-45 CONFIRM → 9/24 real-yield leg + gamma ≈ 0 → **9/28: red lines through on 30Y + CCC, gamma NEGATIVE, and ACM attributes the 9/23–9/24 burst to term premium (FORUM-7 P1, provisional).**
 
 > ## 🔴 PEER-CRITICAL — 2026-09-28 (HENRY was DARK 9/25 03:32 → 9/28 20:35 ET)
@@ -38,7 +38,9 @@
 
 ## CROSS-DOMAIN
 
-**SENDING (this session):** WALTER — gamma negative both horizons (🟠, for PROME) · BRENT — BRT-12 blind verdict NO · PROME — cadence WEEKLY + dark-gap disclosure.
+**SENDING (this session):** WALTER — gamma negative both horizons (🟠, for PROME) · WALTER — WATCH_FOR R3 list (6 phrases keyed to HEN-46) · BRENT — BRT-12 blind verdict NO · AEOLUS — Rhine: no direct F1 effect · PROME — cadence WEEKLY + dark-gap disclosure.
+
+**Credit deep dive (9/28):** `research/2026-09-28_credit-move-deep-dive.md` — the 9/25 widening (HY +13, BB +12) came on a day the 10Y fell and SPX rose ⇒ not rates-beta; BB/B moved more than CCC in % terms; IG calm (31st pct).
 
 **WAITING FOR:**
 

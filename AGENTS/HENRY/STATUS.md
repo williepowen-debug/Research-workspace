@@ -157,7 +157,7 @@
 | **RED** | ⛔ No counts mirrored — read `AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv`. `FT-01` exit count, `FT-10` SKEW, `FT-11` needs a rally (NOT MET), `FT-12` HY<260. |
 | **VIOLET** | Owns the vol broadcast; HENRY keeps gamma/0DTE/put-wall. |
 | **TERRY / BRENT** | F1 grader (TERRY); BRT-12 blind verdict sent (NO). `GATE-TERRY-VLO-HELD-01` registered 9/28 (Will). |
-| **VULCAN/WATT · HANS · DEWEY · FALCON** | Long rows → archive block 19. WATT: PJM 4th emergency 9/16–18 (maintenance-season), FCF power input UNCHANGED. AEOLUS: Rhine below record low (C5 fires 9/28) — the 2018 German-industry analogue; **no HENRY euro-area row exists to move**. ZHAO: US IEEPA 11/10 leg VOID (HENRY carried none). |
+| **VULCAN/WATT · HANS · DEWEY · FALCON** | Long rows → archive block 19. WATT: PJM 4th emergency 9/16–18 (maintenance-season), FCF power input UNCHANGED. AEOLUS: Rhine below record low (C5 fires 9/28) — the 2018 German-industry analogue; **no HENRY euro-area row exists to move**. **F1 basis: no direct effect** (NY Harbor contract); the only channel, the transatlantic diesel arb, would push the crack UP, away from firing; unmeasured → `AGENTS/AEOLUS/inbox/2026-09-28_from-HENRY_rhine-vs-F1-crack-basis.md`. ZHAO: US IEEPA 11/10 leg VOID (HENRY carried none). |
 
 ## BOTTOM LINE
 

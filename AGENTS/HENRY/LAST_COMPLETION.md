@@ -41,3 +41,9 @@ Rates at 2007 highs on real yields · credit tail through red, quality tier join
 ## WILL_NEEDS
 - ⚖️ **One small ask, no decision:** if you can, read the CME **9/25 settlement prices for HOX26 (Nov heating oil) and CLX26 (Nov WTI)**. If HO×42 − CL is under $95.00, TERRY's staged VLO shares stand down and HEN-46 F1 fires. It's a lookup, not a judgement call.
 - No decisions are pending with me.
+
+## ADDENDUM 2026-09-28 21:05 EDT (`date`) — credit deep dive + two follow-ups, then closeout (Will's word)
+- **Credit deep dive** → `research/2026-09-28_credit-move-deep-dive.md`: a slow CCC-only squeeze (3 months) with a fast broad selloff on top (9/22–9/25, 97th pct). The biggest widening day (9/25) came as yields fell and stocks rose. Investment grade is calm. Drivers not settled.
+- **WATCH_FOR R3 sent** → WALTER (cc PROME; WALTER dark, so PROME got the doorbell): drop all six old phrases, which were oil/geopolitics with no HENRY trigger; propose six tied to HEN-46 (Jazan restart, Russian diesel-ban extension, American/Southwest guidance, airline fuel cost). **WALTER tests them, PROME lands them.**
+- **Rhine (AEOLUS):** no direct effect on the F1 crack, which is a New York contract. The only channel would push the crack *up*, away from firing. Unmeasured.
+- Both follow-ups came from a relayed list Will pasted in; I treated the paste as his go-ahead.

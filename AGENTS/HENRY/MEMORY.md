@@ -62,7 +62,7 @@
 1. 🔴 **Wed 9/30 release-day log:** PCE + GDP 3rd 08:30 · Russian ban expiry (HEN-46 F3 leg 1) · EIA distillate exports · MU AMC · MOF total. Then **Thu 10/1 ISM** + **FORUM-7 FINAL** (FR2004 ~16:15 ET; BOND D3) and **P2 KW** whenever `THREEFYTP10` posts 9/22–9/24 (g > 18bp ⇒ UNANSWERABLE). **HEN-47 verdict by the 10/2 boot**; packet PROME. Fri 10/2 NFP reaction log.
 2. 🔴 **Gamma board at every close** (14d + 35d); walls only if horizons agree.
 3. 🟡 **HEN-46 F1 9/25 = UNKNOWN until someone reads the CME settles** (asked of Will tonight). F1 Nov basis runs to 10/14.
-4. 🟡 **Owed by 10/2: WATCH_FOR R3** (PROME 9/25 packet still in inbox/) · **by 10/5: WQ-252 per-candidate crack step measurements** → DAEDALUS.
+4. ✅ **WATCH_FOR R3 SENT 9/28** → WALTER (drop 6, propose 6 keyed to HEN-46; WALTER tests, PROME lands — adopt/decline its replacements) · 🟡 **by 10/5: WQ-252 per-candidate crack step measurements** → DAEDALUS.
 5. Carried: real-yield letter (must name BOTH TP models + the day-split) · KRE "Muse" deposit-flight candidate (REGINALD's) · breadth gap (Will's) · confidence backfill · archive block-numbering audit · `SIG-W-20260910-013` overlay · own `CLAUDE.md` KB count stale (now ML-HEN-175).
 
 ### Prior session (2026-09-24 22:41 → 09-25 03:32 EDT) — CHANGES / NEXT rotated verbatim → `status_archive/STATUS_ARCHIVE_2026-09.md` block 39.
