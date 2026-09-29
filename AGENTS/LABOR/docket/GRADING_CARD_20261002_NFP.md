@@ -173,3 +173,35 @@ NFP feeds v6/v8/v10/v12 and the exit rules, but the count itself has no score; a
 ## 8. GRADE (write 2026-10-02 off this frozen card — never re-read a band)
 
 *Blank until print. Order: ① read the revised J, A from the release; re-solve §2.2 (and §3a's top edge) and §3c's net revision **before** reading September · ② grade §3a–§3e as separate letters, CES and CPS named as two witnesses · ③ apply §3f's post-print values and §3g's watch · ④ write into STATUS (KEY THRESHOLDS, matrix, EXIT RULES LEG A/B, PREDICTIONS, calendar) · ⑤ `git mv` this card to `docket/graded/`.*
+
+---
+
+# 🔧 AMENDMENT 1 — 2026-09-29 10:28 EDT, PRE-PRINT (3 days before the print; no September data exists)
+
+> ⛔ **THIS AMENDMENT CHANGES NO BAND EDGE, NO BAR, AND NO CONFIDENCE.** §3a's four bands, §3b's 12 cells, §3c, §3d's three EPOP bands, §3f and §3g are **exactly as frozen on 2026-09-24.** It corrects ONE frozen INPUT that a release has since overtaken, and the ONE assignment that input fed. The struck text above stays as the record of what was first committed.
+
+**What overtook it.** §2.4 froze *"LEG C ✗ (−18K / −5K) … JOLTS August prints ~Oct 6, **after** this card ⇒ LEG C cannot be satisfied on 10/2."* **JOLTS August printed 2026-09-29 10:00 ET, three days BEFORE this card's print** — the `~Oct 6` date was a modeled date, never docketed in `CATALYSTS.tsv`, never re-verified. Figures at the issuer's own feed (BLS public API, pulled 2026-09-29; FRED agrees):
+
+| Month | Hires | Total separations | NET = H − S |
+|---|---|---|---|
+| **Aug (P)** | 5,192K | 5,070K | **`5,192 − 5,070 = +122K`** |
+| **Jul (revised)** | 5,146K (was 5,054K, **+92K**) | 5,128K (was 5,072K, **+56K**) | **`5,146 − 5,128 = +18K`** (was −18K) |
+| Jun (unchanged) | 5,332K | 5,337K | −5K |
+
+⇒ **LEG C = NET >0 in BOTH of the two most recent reference months = Jul +18K ∧ Aug +122K = ✅ SATISFIED on the current vintage.** No JOLTS release lands between now and 10/2 (JOLTS September ~early Nov), so it is the vintage the 10/2 grade reads.
+
+**The corrected assignment (the v2 spec in STATUS § EXIT RULES governs, and it never changed: `LEG A ∧ (LEG B ∨ LEG C)`):**
+
+| Frozen text | Amended |
+|---|---|
+| §2.4: "v2 can fire only as **LEG A ∧ LEG B**" | **LEG C is TRUE ⇒ v2 fires on LEG A alone.** LEG B (EPOP ≥59.0) is still graded and recorded, but **no longer gates the fire.** |
+| §3a-1: "EPOP ≥59.0 ⇒ v2 FIRES … **EPOP <59.0 ⇒ not fired**; log LEG A met" | **3a-1 (LEG A met on the re-solved §2.2 bar) ⇒ v2 FIRES regardless of EPOP** — stand down vectors 4/6/7 and re-grade the book. Record which disjunct carried it: **B ∧ C** (EPOP ≥59.0) or **C only** (EPOP <59.0). |
+| §6 routing: "v2 FIRES (3a-1 ∧ EPOP ≥59.0)" | **v2 FIRES (3a-1 ∧ (EPOP ≥59.0 ∨ LEG C))** — same recipients, same 🔴. |
+
+**Caveats that travel with a C-only fire (write them on the packet, not instead of it):** ① July's leg is **`+18K` — 18,000 from zero**, carried there by a +36K NET revision; ② August is **preliminary** and revises with JOLTS September (~early Nov) — a C-only fire can lose its C leg **after** it fires. The spec has no "provisional" state and I will not invent one on print day; if August revises to NET ≤0, that is recorded as a post-fire revision against the fire, graded then.
+
+**Why this is legitimate and not a re-write:** it is written pre-print, it moves the card toward the **bull-side falsifier of my own thesis firing more easily** (the direction a motivated reader would resist), and it restores the card to the spec it was written to execute. Precedent: `docket/graded/GRADING_CARD_20260803_to_0807.md` (pre-print amendment, originals preserved) and `docket/graded/GRADING_CARD_20260910_claims.md` Amendment 1.
+
+**What bought it:** the second modeled-date miss on JOLTS in a month (9/1: docket `~Sep 2`, landed 9/1; 9/29: STATUS `~Oct 6`, landed 9/29). The fix is mechanical — JOLTS is now a dated row in `docket/CATALYSTS.tsv`, so `card_required_check.py` can see it.
+
+*Amendment 1 written by LABOR, self-directed session, Will present. **Grade §3a–§3g off the frozen card; apply this amendment only to §2.4, §3a-1's EPOP clause, and the §6 v2 row.***
