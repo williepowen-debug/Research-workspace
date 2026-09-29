@@ -22,6 +22,8 @@
 
 **LATE 9/28 (Will-directed): tanker/heating-oil freight searched** — no free €/t exists (Insights Global/Spotbarge/Argus/Platts paywalled). Registered: CBS wet-bulk quarterly · Insights Global weekly blog (direction + deal counts) · fastenergy state heating-oil prices (daily, confounded). KB-162; HENRY replied (no F1 effect), processed.
 
+**LATE 9/28 (Will-directed): grain barge freight searched** — Rhine: no free grain €/t (Schuttevaer weekly, metered: agribulk tonnage; CBS dry-spot quarterly). **Mississippi: USDA `deqi-uken` weekly REGISTERED** (St. Louis $33.30/t, 87th same-week pct; compare SAME WEEK only — harvest seasonality). KB-163 qualifies KB-162. Next session: record the new USDA week (posted Thursdays).
+
 ### FIRST THINGS NEXT SESSION
 1. 🔴 **Rhine 3-day re-grade** (and 6c dark-window scan if the gap > 3 days). Check CARL/HENRY/BRENT replies in my inbox.
 2. 🔴 **10/01 cluster:** NIFC October outlook (AEO-09 checkpoint, KB-128 rule) · Colorado 2027-28 Guidelines take effect · CSU two-week 9/30.

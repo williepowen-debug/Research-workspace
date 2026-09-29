@@ -278,6 +278,11 @@ nat=re.search(r'Der Heizölpreis in Deutschland beträgt heute \| ([\d,]+ € / 
 ```
 ⚠️ **Confounded — do not read a state spread as a Rhine signal without a second leg.** Supply differs by region (north via ports, east via pipeline, south via Ingolstadt/Karlsruhe refineries + Rhine). 9/28: Rhine-served Hessen 174.98 · NRW 173.25 · RLP 172.99 are high — but pipeline-served Sachsen-Anhalt is highest (175.58) and Hamburg lowest (162.53). heizoel24's state table is JS-rendered (dashes via curl); tecson's regional note is undated prose.
 
+**④ DRY BULK / GRAIN on the Rhine — searched 2026-09-28 (Will-directed). NO free €/t grain-barge series exists.** Dry-bulk €/t assessors (inlandcargo.eu — dry bulk + container, daily, demo/login; Insights Global; brokers) are paywalled. What is free:
+- **CBS 85817NED `A042621` dry bulk SPOT** (quarterly; ② above) — the re-pullable dry-bulk PRICE instrument. Not grain-specific.
+- **Schuttevaer "Aan de reis" weekly column** (Dutch trade weekly; analysts Wouter van der Geest — dry cargo — and Lars van Wageningen, Insights Global — tanker). ⚠️ **METERED PAYWALL:** the newest week was fully readable on 9/28 (week 39, published 2026-09-23); weeks 37–38 were already paywalled beyond the lede. **The free LEDE carries total Dutch-fleet dry-cargo tonnage** (wk37 3.5 Mt +19% · wk38 3.2 Mt −8.4% · wk39 3.25 Mt +3%). The full text, when readable, adds **agribulk tonnage** (wk39 **370,000 t, +85,000 / +30%**), Ruhr-corridor and above-the-gorge tonnage (wk39 620,000 t; 75,000 t) and — in the TANKER section, not dry — Insights Global's Rhine **tanker €/t** (wk39: Rotterdam→Duisburg **€45**, Köln €75, Frankfurt €150, Karlsruhe €195, Strasbourg €230, Basel **CHF 220**; Kaub 26 cm at the time). **Log as SECONDARY (named analysts) to `LOG.tsv`; never an instrument row** — it cannot be re-pulled once the meter closes. A German search summary's "€165/t on 9/11" labelled as GRAIN is the ARA→Basel GASOIL figure — mislabelled; discarded.
+- **Grain freight is best measured on the MISSISSIPPI** — see the USDA entry in §MISSISSIPPI below.
+
 ⚠️ **Candidates NOT adopted:** CCNR market-observation freight indices (built on PJK/Insights Global liquid-bulk ARA-Rhine + the same CBS data; PDF-only, no download) · PJK/Insights Global, Argus, Platts barge freight (paywalled) · agrarheute-type press relays (a secondary claimed €1,350/20′ at Kaub — **NOT on the publisher's page; discarded**).
 **Benchmarks:** 2018 all-time low **25 cm** (October) · **≤40 cm** = uneconomical navigation.
 
@@ -357,6 +362,21 @@ for r in d['flood']['lowWaters']['historic'][:6]: print(' ', r['occurredTime'][:
 ⚠️ **PARTIAL CLOSURE — say so rather than implying full coverage.** **Only Memphis is referenced.** **St. Louis** (USGS `07010000`) returns stage — falling fast, **8.15 → 4.27 ft in 4 days to 8/27** — but **no reference plane was found, so carry that level with NO adjective attached.** **Vicksburg and Cairo AHPS IDs are unresolved** (guessed VICM6/VKBM6/VIKM6, CAIA2/CACT1 all 404; the AHPS `usgsId=` filter did not work as expected). USACE Rivergages + USGS NWIS (§3) remain the fallback routes.
 
 ⚠️ **Autumn (Sep–Nov) is the window** — an August "normal" is not evidence of a benign season. I retracted a "firing" read on 7/22 for exactly this.
+
+### ✅ MISSISSIPPI GRAIN BARGE FREIGHT — USDA AMS, registered 2026-09-28 (Will-directed; the issuing agency, free, weekly since 2004)
+USDA AMS "Downbound Grain Barge Rates" (Socrata `deqi-uken`), weekly, **percent of the 1976 Tariff No. 7 benchmark**, 7 origins. **$/ton = rate × benchmark / 100**; benchmarks ($/ton): Twin Cities 6.19 · Mid-Mississippi 5.32 · Illinois 4.64 · **St. Louis 3.99** · Cincinnati 4.69 · Lower Ohio 4.46 · Cairo-Memphis 3.14 (dataset description). ⚠️ The data label is **"Lower Illinois"**, the description says "Illinois" — same benchmark.
+```bash
+curl -s "https://agtransport.usda.gov/resource/deqi-uken.json?\$order=date%20DESC&\$limit=14" \
+ | python3 -c "
+import json,sys
+B={'Twin Cities':6.19,'Mid-Mississippi':5.32,'Lower Illinois':4.64,'Illinois River':4.64,'St. Louis':3.99,'Cincinnati':4.69,'Lower Ohio':4.46,'Cairo-Memphis':3.14}
+for r in json.load(sys.stdin):
+    if 'rate' in r: print(r['date'][:10], r['location'], r['rate'], '%% -> \$%.2f/ton' % (float(r['rate'])*B[r['location']]/100))
+"
+```
+Full history for one origin: `...deqi-uken.json?location=St.%20Louis&$limit=5000&$order=date` (some weeks have no `rate` key — skip, do not zero).
+**Base rate (St. Louis, computed 9/28 from 1,179 weekly rows 2004-01-07 → 2026-09-22):** 2022 peak **2,653% ($105.86/t, 10/11)** · 2023 peak **1,326% ($52.92, 9/26)** — the two low-water autumns · 2014 1,033% · 2021 846%. **Latest 2026-09-22: 834.7% = $33.30/t — 97.8th pct of ALL weeks, 87th pct of the SAME calendar week (n=23; median 512.5)**, up 4 straight weeks from 579.7 (8/25).
+⚠️ **SEASONALITY + DEMAND confound it:** Sep–Nov is harvest; rates rise every autumn on export demand, not only on low water — **always compare the SAME WEEK across years, never all-weeks.** And river stage does NOT map one-to-one: Memphis troughed 9/14 and rebounded 14 ft while St. Louis's rate kept rising. **No band registered** (low-water episodes n=2: 2022, 2023). Cadence: weekly, posted with the Thursday Grain Transportation Report.
 
 ### 🔴 Panama — INSTRUMENT GAP CLOSED 2026-08-13
 

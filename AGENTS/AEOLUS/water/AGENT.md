@@ -35,6 +35,7 @@
 | `cbs_iwt_dry_spot_idx` / `cbs_iwt_goods_idx` | index_2021=100 | `CBS-85817NED` | **quarterly** Dutch inland-shipping price index; includes fuel + low-water surcharges (approved 2026-09-28) |
 | `cbs_iwt_wet_bulk_idx` | index_2021=100 | `CBS-85817NED` | **quarterly** TANKER-barge (wet bulk) price index — heating oil's freight leg (approved 2026-09-28) |
 | `heating_oil_state_eur_100l` | EUR_per_100l | `FASTENERGY-BUNDESLAND` | **daily** consumer price by state, 3,000 L incl. delivery+VAT; put the state in `notes`. Confounded — no base rate (approved 2026-09-28) |
+| `usda_barge_rate_pct` | pct_of_1976_tariff | `USDA-AMS-deqi-uken` | **weekly** Mississippi-system downbound GRAIN barge rate; origin in `notes`; $/ton = rate × benchmark/100 (approved 2026-09-28) |
 | `rhine_freight_eur_t` | EUR_per_t | *(still no verified source — the two rows above are container surcharge and a price INDEX, not €/t)* | Rotterdam→S-of-Kaub barge rate |
 | `snowpack_upper_colorado` | pct_median | `NRCS-SNOTEL` | **seasonal — near-zero Jun–Sep, correctly empty** |
 | `yichang_stage` / `hankou_stage` / `datong_stage` | m | `CJH-<STATION>` | Yangtze; parse the `var sssq` JSON |
