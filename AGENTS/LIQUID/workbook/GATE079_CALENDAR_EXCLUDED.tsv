@@ -1,0 +1,55 @@
+# GATE-LIQ-079 calendar-EXCLUDED business days (DAEDALUS ask #5, owner-encoded 2026-09-29). Rule = the letter's own: ±2 business days (SOFR publication days) of each month-end (quarter-ends are month-ends) and of Apr-15 (next business day if Apr-15 is not one). Business day = a day the NY Fed publishes SOFR; holidays = Federal Reserve holidays (Sat holidays NOT moved to Fri, so 2027-06-18 is a business day). Every date NOT listed here in the window is NON-CALENDAR. Extend before 2027-06-30 (review_by carries it).
+date	weekday	anchor
+2026-09-28	Mon	month-end 2026-09-30
+2026-09-29	Tue	month-end 2026-09-30
+2026-09-30	Wed	month-end 2026-09-30
+2026-10-01	Thu	month-end 2026-09-30
+2026-10-02	Fri	month-end 2026-09-30
+2026-10-28	Wed	month-end 2026-10-30
+2026-10-29	Thu	month-end 2026-10-30
+2026-10-30	Fri	month-end 2026-10-30
+2026-11-02	Mon	month-end 2026-10-30
+2026-11-03	Tue	month-end 2026-10-30
+2026-11-25	Wed	month-end 2026-11-30
+2026-11-27	Fri	month-end 2026-11-30
+2026-11-30	Mon	month-end 2026-11-30
+2026-12-01	Tue	month-end 2026-11-30
+2026-12-02	Wed	month-end 2026-11-30
+2026-12-29	Tue	month-end 2026-12-31
+2026-12-30	Wed	month-end 2026-12-31
+2026-12-31	Thu	month-end 2026-12-31
+2027-01-04	Mon	month-end 2026-12-31
+2027-01-05	Tue	month-end 2026-12-31
+2027-01-27	Wed	month-end 2027-01-29
+2027-01-28	Thu	month-end 2027-01-29
+2027-01-29	Fri	month-end 2027-01-29
+2027-02-01	Mon	month-end 2027-01-29
+2027-02-02	Tue	month-end 2027-01-29
+2027-02-24	Wed	month-end 2027-02-26
+2027-02-25	Thu	month-end 2027-02-26
+2027-02-26	Fri	month-end 2027-02-26
+2027-03-01	Mon	month-end 2027-02-26
+2027-03-02	Tue	month-end 2027-02-26
+2027-03-29	Mon	month-end 2027-03-31
+2027-03-30	Tue	month-end 2027-03-31
+2027-03-31	Wed	month-end 2027-03-31
+2027-04-01	Thu	month-end 2027-03-31
+2027-04-02	Fri	month-end 2027-03-31
+2027-04-13	Tue	Apr-15 tax date 2027-04-15
+2027-04-14	Wed	Apr-15 tax date 2027-04-15
+2027-04-15	Thu	Apr-15 tax date 2027-04-15
+2027-04-16	Fri	Apr-15 tax date 2027-04-15
+2027-04-19	Mon	Apr-15 tax date 2027-04-15
+2027-04-28	Wed	month-end 2027-04-30
+2027-04-29	Thu	month-end 2027-04-30
+2027-04-30	Fri	month-end 2027-04-30
+2027-05-03	Mon	month-end 2027-04-30
+2027-05-04	Tue	month-end 2027-04-30
+2027-05-26	Wed	month-end 2027-05-28
+2027-05-27	Thu	month-end 2027-05-28
+2027-05-28	Fri	month-end 2027-05-28
+2027-06-01	Tue	month-end 2027-05-28
+2027-06-02	Wed	month-end 2027-05-28
+2027-06-28	Mon	month-end 2027-06-30
+2027-06-29	Tue	month-end 2027-06-30
+2027-06-30	Wed	month-end 2027-06-30

@@ -70,8 +70,8 @@ def qend(s):
     import calendar
     print("\n== QUARTER-END TURNS (excess over pre-window baseline, bp; SRF $B on Q-end date)")
     days = sorted(d for d in s["SOFR"] if d in s["IORB"] and d in s["SOFR99"])
-    sp = {d: (s["SOFR"][d] - s["IORB"][d]) * 100 for d in days}
-    s99 = {d: (s["SOFR99"][d] - s["IORB"][d]) * 100 for d in days}
+    sp = {d: round((s["SOFR"][d] - s["IORB"][d]) * 100) for d in days}   # whole bp: DAEDALUS #5 rounding order
+    s99 = {d: round((s["SOFR99"][d] - s["IORB"][d]) * 100) for d in days}
     print(f"{'Q-end':11}{'base':>6}{'QE-1':>6}{'QE':>6}{'QE+1':>6}{'QE+2':>6}{'QE+3':>6}{'QE+5':>6} | {'99base':>7}{'99QE':>6}{'99+1':>6}{'99+2':>6} | days>+2 after | SRF QE")
     for y in (2024, 2025, 2026):
         for m in (3, 6, 9, 12):

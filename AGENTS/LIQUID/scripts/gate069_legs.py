@@ -124,6 +124,15 @@ def selftest():
     check("L1: CCC latest date missing → FAULT, not a stale-date grade", grade_l1(bb, {d: v for d, v in ccc.items() if d != "2026-09-25"})["state"], "INSTRUMENT-FAULT")
     check("L1: CCC gap mid-window uses CCC's own 6th-latest obs",
           grade_l1(bb, ccc_gap)["ccc_from"], "2026-09-17")
+    # DAEDALUS #2 ties, on values as FRED publishes them (percent strings) — through bp(), the read path
+    check("tie: BB published 2.20 (=220bp) does NOT meet strict >220",
+          grade_l1({d: bp("2.20") for d in D}, {d: bp("8.00") for d in D})["state"], "NOT FIRED")
+    check("tie: BB published 2.21 meets >220",
+          grade_l1({d: bp("2.21") for d in D}, {d: bp("8.00") for d in D})["state"], "FIRED")
+    check("tie: CCC 5-session change of exactly 15bp IS flat (<=)",
+          grade_l1({d: bp("2.30") for d in D}, {**{d: bp("8.00") for d in D}, D[-1]: bp("8.15")})["flat"], True)
+    hy_tie = {d: bp("2.50") for d in D}; hy_tie[D[-1]] = bp("2.55")
+    check("tie: HY 2.50 → 2.55 (+5bp exactly) IS credit underperforming (>=)", grade_l4(hy_tie, eq_fire)["cr"], True)
     print(f"\n  SELFTEST: {'PASS' if ok else 'FAIL'}")
     return 0 if ok else 1
 
@@ -134,8 +143,16 @@ def ser(sid, n=30):
     for x in fred_fetch(sid, limit=n):
         v = x.get("value")
         if v in (".", "", None): continue
-        out[x["date"]] = float(v) * 100
+        # DAEDALUS #2 precision (2026-09-29): FRED publishes 0.01 pct, i.e. WHOLE bp. Round at read time, once.
+        # Unrounded, 2.20*100 = 220.00000000000003 > 220 (a FALSE L1 fire at exactly the line) and
+        # 2.55*100 - 2.50*100 = 4.999… < 5 (a MISSED L4 credit leg at exactly +5bp).
+        out[x["date"]] = bp(v)
     return out
+
+
+def bp(pct):
+    """FRED percent string/float → whole basis points (exact for 2-decimal published values)."""
+    return round(float(pct) * 100)
 
 
 def main():

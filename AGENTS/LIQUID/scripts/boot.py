@@ -162,7 +162,7 @@ def build_credit():
     if err:
         add("CREDIT", "HY OAS", "ERR", "🔴", f"fetch error: {err}", headline=True)
     else:
-        bps = v * 100
+        bps = round(v * 100)   # whole bp (FRED 0.01 pct) — DAEDALUS #2/#5 rounding rule, 9/29
         hy_bps = bps
         hy_d = d
         # crun HOISTED 2026-09-02 (blind cold read, finding B7). It was defined inside the
@@ -172,7 +172,7 @@ def build_credit():
         def crun(lim):
             c = 0
             for x in (tr or []):
-                if x * 100 < lim: c += 1
+                if round(x * 100) < lim: c += 1
                 else: break
             return c
         # Label corrected 2026-07-30 (stale-data sweep). THRESHOLD UNCHANGED at >=280 — string only.
@@ -242,7 +242,7 @@ def build_credit():
     # CCC OAS — >1000 trip
     v, d, tr, err = fred_series("BAMLH0A3HYC")
     if not err:
-        ccc = v * 100
+        ccc = round(v * 100)
         ccc_d = d
         # YELLOW FLOOR SOURCED FROM THE SHARED CONFIG 2026-08-28 (DAEDALUS wiring-sweep item 2).
         # Was hand-typed 960 while FORGE config.py carries CCC yellow (900, 1000) — a fork a
@@ -264,7 +264,7 @@ def build_credit():
     # BB OAS — feeds the CCC-BB tail-gap (NEXUS R3 pin)
     v, d, tr, err = fred_series("BAMLH0A1HYBB")
     if not err:
-        bb = v * 100
+        bb = round(v * 100)
         bb_d = d
         add("CREDIT", "BB OAS", f"{bb:.0f}bps", "🟢", "(feeds CCC-BB gap)", d, trend_str(tr, 100, 0))
     else:
@@ -282,7 +282,7 @@ def build_credit():
     ig_bps = None
     v, d, tr, err = fred_series("BAMLC0A0CM")
     if not err:
-        ig_bps = v * 100
+        ig_bps = round(v * 100)
         ig_d = d
         if ig_bps > 110:  m, n = "🔴", "REGIME (>110) — IG leads when transmission is balance-sheet, not credit"
         elif ig_bps > 94: m, n = "🟠", "2026-HIGH BREAK (>94) — leading-indicator inflection candidate"
@@ -301,7 +301,7 @@ def build_credit():
     # Euro HY (mandate ext. TERTIARY, coordinate BOND) — EU-led credit divergence watch
     v, d, tr, err = fred_series("BAMLHE00EHYIOAS")
     if not err:
-        eu = v * 100
+        eu = round(v * 100)
         # ⚠️ HIGHEST cross-date risk of any composite in this brief, and the reason the
         # diff_dated() rule is not an IORB story: Euro HY follows the EUROPEAN holiday
         # calendar and US HY the US one, so these two legs are GUARANTEED to disagree on
@@ -399,7 +399,7 @@ def build_domestic():
                 "no IORB observation on or before the SOFR print — NOT graded; "
                 "do not read the absence of a marker as clean", d)
         else:
-            spr = (sofr - i_al) * 100
+            spr = round((sofr - i_al) * 100)
             if spr > 0:  m, n = "🟠", "ABOVE ceiling (>0) — re-open KB-LIQ-051 (verify non-mechanical, 3+ sessions)"
             else:        m, n = "🟢", "negative/clean — no funding stress"
             n += f"  [date-matched: SOFR {sofr:.2f} − IORB {i_al:.2f}, both {d}]"
@@ -415,7 +415,7 @@ def build_domestic():
     p99, d99, _, e99 = fred_series("SOFR99")
     i75, i75_d, i75_exact = _iorb_aligned(d75)
     if not e75 and i75 is not None:
-        s75 = (p75 - i75) * 100
+        s75 = round((p75 - i75) * 100)
         # KB-LIQ-106 (2026-08-27): the old ">= 0 = broad pressure" line is DEAD — it was
         # cleared by the MEDIAN 2026 day (89.5% of sessions) and printed a false 🟠 here
         # every boot. It died of a five-year regime migration, not bad construction, so a
@@ -454,7 +454,9 @@ def build_domestic():
     # Both quantities now render; ONLY the IORB-based row is labelled as the gate leg.
     i99, i99_d, i99_exact = _iorb_aligned(d99)
     if not e99 and i99 is not None:
-        s99 = (p99 - i99) * 100
+        # DAEDALUS #5 rounding order (2026-09-29): legs AS PUBLISHED (2dp %), subtract, ×100, ROUND to whole bp,
+        # THEN compare. Unrounded, 118 plausible pairs (e.g. 3.00−2.70) compute 29.999999… and MISS an exact +30.
+        s99 = round((p99 - i99) * 100)
         if s99 >= 30:   m, n = "🔴", f"GATE-LIQ-079 ACUTE LEG AT/ABOVE +30bp — check non-calendar AND ≥2 consecutive before calling ARMED"
         elif s99 >= 20: m, n = "🟠", f"tail elevated — {30 - s99:.0f}bps under the +30 ARM line"
         else:           m, n = "🟢", f"tail contained — {30 - s99:.0f}bps under the +30 ARM line"
@@ -470,7 +472,7 @@ def build_domestic():
             "no IORB observation on or before the SOFR99 print — GATE-LIQ-079 ARM leg NOT "
             "graded; absence of a marker is not calm", d99)
     if not e99 and sofr is not None:
-        s99m = (p99 - sofr) * 100
+        s99m = round((p99 - sofr) * 100)
         add("DOMESTIC", "SOFR99−SOFR (dispersion)", f"{s99m:+.0f}bps", "⚪",
             "intra-distribution spread — NOT the 079 leg (that is SOFR99−IORB, above)", d99, ref=True)
 
@@ -626,8 +628,10 @@ def build_prices():
 # (analysis/2026-09-29_GATE-LIQ-076-conjunction-MET.md §2). Letter:
 # workbook/DEALER_POSITIONING_NEXUS_WATCH.md §Fire conditions; GATES L6 condition text.
 #   W1  CME SOFR-3M lev-fund NET <= -2,950,000 (GATES spelling; letter "beyond")  OR  one-week cover > 300,000
-#   W2  NY Fed PD G10 < -$12.0B OR G5L10 < -$800mm x2 wks — NOT INSTRUMENTED (keyids owed, DAEDALUS #4)
-#   W3  MOVE > 85 while VIX < 20, same session (VIOLET's figure governs; yfinance here is a WITNESS)
+#   W2  NY Fed PD PDPOSCSBND-G10 < -12,000 $mm OR PDPOSCSBND-G5L10 < -800 $mm on 2 consecutive weekly as-of dates
+#       (IG CORPORATE buckets, SBN2024 — keyids named 2026-09-29, DAEDALUS #4)
+#   W3  MOVE > 85 while VIX < 20, same session (VIOLET's figure governs; yfinance here is a WITNESS and may grade
+#       a session only when both are >1.00 point from their lines — nearer = EDGE, not graded; letter 9/29)
 #   CONJUNCTION  any 2 of 3 with a met observation inside a rolling 14-calendar-day window
 # The action on MET is a WRITE-UP, never a position. A window read is not a latch: whether a met
 # conjunction resets or latches is undefined in the letter (DAEDALUS #4) — this prints the window.
@@ -635,9 +639,11 @@ G076_CME = "SOFR-3M - CHICAGO MERCANTILE EXCHANGE"   # FULL name: KB-LIQ-116 ven
 G076_LEVEL, G076_COVER, G076_WINDOW = -2_950_000, 300_000, 14
 
 
-def grade_076(w1, w3, w2_measured=False):
-    """PURE. w1 = [(asof 'YYYY-MM-DD', net int)] oldest-first (CME only); w3 = [(date, move, vix)].
-    Returns dict: w1_hits [(date, why)], w3_hits [date], anchor, window_start, legs_met, state."""
+def grade_076(w1, w3, w2=None):
+    """PURE. w1 = [(asof 'YYYY-MM-DD', net int)] oldest-first (CME only); w3 = [(date, move, vix)];
+    w2 = [(asof, g10 $mm, g5l10 $mm)] oldest-first, or None when the PD pull failed (UNMEASURED).
+    Returns dict: w1_hits [(date, why)], w2_hits, w3_hits [date], w3_edge, anchor, window_start, legs_met, state."""
+    w2_measured = w2 is not None
     from datetime import date as _d, timedelta as _td
     w1_hits = []
     for i, (d, net) in enumerate(w1):
@@ -648,22 +654,30 @@ def grade_076(w1, w3, w2_measured=False):
             why.append(f"cover {net - w1[i - 1][1]:+,} > {G076_COVER:,}")
         if why:
             w1_hits.append((d, "; ".join(why)))
-    w3_hits = [d for d, mv, vx in w3 if mv is not None and vx is not None and mv > 85 and vx < 20]
-    dates = [d for d, _ in w1] + [d for d, _, _ in w3]
+    w3_edge = [d for d, mv, vx in w3 if abs(mv - 85) <= 1.0 or abs(vx - 20) <= 1.0]
+    w3_hits = [d for d, mv, vx in w3 if d not in w3_edge and mv > 85 and vx < 20]
+    w2_hits = []
+    for i, (d, g10, g5) in enumerate(w2 or []):
+        if g10 < -12_000:
+            w2_hits.append((d, f"G10 {g10:,} < -12,000"))
+        elif i > 0 and g5 < -800 and w2[i - 1][2] < -800:
+            w2_hits.append((d, f"G5L10 {w2[i - 1][2]:,} then {g5:,} < -800 x2"))
+    dates = [d for d, _ in w1] + [d for d, _, _ in w3] + [d for d, _, _ in (w2 or [])]
     if not dates:
-        return {"state": "UNGRADEABLE", "w1_hits": w1_hits, "w3_hits": w3_hits, "legs_met": 0,
-                "anchor": None, "window_start": None}
+        return {"state": "UNGRADEABLE", "w1_hits": w1_hits, "w2_hits": w2_hits, "w3_hits": w3_hits,
+                "w3_edge": w3_edge, "legs_met": 0, "anchor": None, "window_start": None}
     anchor = max(dates)
     start = (_d.fromisoformat(anchor) - _td(days=G076_WINDOW - 1)).isoformat()
-    legs = int(any(d >= start for d, _ in w1_hits)) + int(any(d >= start for d in w3_hits))
+    legs = (int(any(d >= start for d, _ in w1_hits)) + int(any(d >= start for d in w3_hits))
+            + int(any(d >= start for d, _ in w2_hits)))
     if legs >= 2:
         state = "MET"
     elif not w2_measured and legs == 1:
         state = "1-of-2-MEASURED (W2 unmeasured — cannot say 'not met' on 2 legs)"
     else:
         state = f"NOT MET ({legs} of {'3' if w2_measured else '2 measured'})"
-    return {"state": state, "w1_hits": w1_hits, "w3_hits": w3_hits, "legs_met": legs,
-            "anchor": anchor, "window_start": start}
+    return {"state": state, "w1_hits": w1_hits, "w2_hits": w2_hits, "w3_hits": w3_hits, "w3_edge": w3_edge,
+            "legs_met": legs, "anchor": anchor, "window_start": start}
 
 
 def build_gate076():
@@ -696,8 +710,25 @@ def build_gate076():
             faults.append("no same-session MOVE/VIX pairs")
     except Exception as e:
         faults.append(f"MOVE/VIX fetch {type(e).__name__}: {str(e)[:40]}")
+    w2, w2_err = None, None
+    try:
+        import json as _j, urllib.request as _u
+        got = {}
+        for key in ("PDPOSCSBND-G10", "PDPOSCSBND-G5L10"):
+            req = _u.Request(f"https://markets.newyorkfed.org/api/pd/get/{key}.json",
+                             headers={"User-Agent": "Mozilla/5.0 (LIQUID-Research)"})
+            with _u.urlopen(req, timeout=60) as r:
+                ts = _j.load(r)["pd"]["timeseries"]
+            got[key] = {t["asofdate"]: int(float(t["value"])) for t in ts
+                        if t.get("keyid") == key and t.get("value") not in ("", "*", None)}
+        common = sorted(set(got["PDPOSCSBND-G10"]) & set(got["PDPOSCSBND-G5L10"]))[-8:]
+        w2 = [(d, got["PDPOSCSBND-G10"][d], got["PDPOSCSBND-G5L10"][d]) for d in common] or None
+        if w2 is None:
+            w2_err = "no common PD as-of dates"
+    except Exception as e:
+        w2_err = f"PD fetch {type(e).__name__}: {str(e)[:40]}"
 
-    g = grade_076(w1, w3)
+    g = grade_076(w1, w3, w2)
     if w1:
         d, net = w1[-1]
         ww = f", w/w {net - w1[-2][1]:+,}" if len(w1) > 1 else ""
@@ -707,10 +738,20 @@ def build_gate076():
             + " · CME pinned; as-of TUESDAY, publishes Fri ~15:30 ET", d)
     if w3:
         d, mv, vx = w3[-1]
-        add("DOMESTIC", "076 W3 MOVE/VIX", f"{mv:.2f} / {vx:.2f}", "🔴" if d in g["w3_hits"] else "🟢",
-            ("MET" if d in g["w3_hits"] else "not met") + " (MOVE>85 while VIX<20) · yfinance WITNESS — VIOLET's figure governs", d)
-    add("DOMESTIC", "076 W2 NY Fed PD", "UNMEASURED", "⚪",
-        "not instrumented — keyids owed (DAEDALUS #4); never read as 'not met'", "n/a (no instrument)")
+        edge = d in g["w3_edge"]
+        add("DOMESTIC", "076 W3 MOVE/VIX", f"{mv:.2f} / {vx:.2f}",
+            "⚪" if edge else ("🔴" if d in g["w3_hits"] else "🟢"),
+            ("EDGE — within 1.00pt of a line: VIOLET's figure required, NOT graded off the witness" if edge
+             else ("MET" if d in g["w3_hits"] else "not met")) + " (MOVE>85 while VIX<20) · yfinance WITNESS — VIOLET's figure governs", d)
+    if w2:
+        d, g10, g5 = w2[-1]
+        hit = [h for h in g["w2_hits"] if h[0] == d]
+        add("DOMESTIC", "076 W2 NY Fed PD", f"G10 {g10:,} · G5L10 {g5:,} $mm", "🔴" if hit else "🟢",
+            (f"MET — {hit[0][1]}" if hit else "not met (G10 < -12,000 · G5L10 < -800 x2)")
+            + " · IG CORPORATE buckets PDPOSCSBND-G10/-G5L10 (SBN2024); as-of WEDNESDAY, ~8d lag", d)
+    else:
+        add("DOMESTIC", "076 W2 NY Fed PD", "UNMEASURED", "⚪",
+            f"{w2_err} — W2 not read this boot; never read as 'not met'", "n/a (fetch)")
     if faults:
         ERRORS += 1
         add("DOMESTIC", "GATE-LIQ-076", "INSTRUMENT-FAULT", "🔴",
@@ -718,10 +759,15 @@ def build_gate076():
         return
     w1s = ", ".join(d for d, _ in g["w1_hits"] if d >= g["window_start"]) or "—"
     w3s = ", ".join(d for d in g["w3_hits"] if d >= g["window_start"]) or "—"
+    w2s = ("UNMEASURED" if w2 is None else
+           ("met " + ", ".join(d for d, _ in g["w2_hits"] if d >= g["window_start"]) if any(d >= g["window_start"] for d, _ in g["w2_hits"]) else "not met"))
+    edg = [d for d in g["w3_edge"] if d >= g["window_start"]]
     mk = "🔴" if g["state"] == "MET" else ("🟠" if g["legs_met"] == 1 else "🟢")
     add("DOMESTIC", "GATE-LIQ-076", g["state"], mk,
-        f"window {g['window_start']}→{g['anchor']} · W1 met {w1s} · W3 met {w3s} · W2 UNMEASURED. "
-        "MET ⇒ WRITE-UP (PROME + NEXUS/HENRY via WALTER), NEVER a position. Window read, not a latch (reset rule owed)",
+        f"window {g['window_start']}→{g['anchor']} · W1 met {w1s} · W3 met {w3s} · W2 {w2s}"
+        + (f" · W3 EDGE (ungraded) {', '.join(edg)}" if edg else "") + ". "
+        "MET ⇒ WRITE-UP (PROME + NEXUS/HENRY via WALTER), NEVER a position. Window read, not a latch: a 2nd write-up needs "
+        "10 business days with no leg met (letter 9/29)",
         g["anchor"], headline=g["legs_met"] >= 1)
 
 
@@ -967,6 +1013,15 @@ def selftest():
                                                 [("2026-09-23", 95.0, 15.0)])["legs_met"], 2)
     g076("no data → UNGRADEABLE", grade_076([], [])["state"], "UNGRADEABLE")
     g076("first W1 row cannot be a cover (no prior week)", grade_076([("2026-09-22", -1_000_000)], [])["w1_hits"], [])
+    W2 = [("2026-09-09", -8_648, 703), ("2026-09-16", -9_286, 564)]
+    g076("real W2 [9/16] → not met; conjunction still MET on W1+W3", (grade_076(W1, W3, W2)["w2_hits"], grade_076(W1, W3, W2)["state"]), ([], "MET"))
+    g076("W2 G10 exactly -12,000 is NOT < -12,000", grade_076([], [], [("2026-09-16", -12_000, 0)])["w2_hits"], [])
+    g076("W2 G5L10 -801 ONE week only → not met", grade_076([], [], [("2026-09-09", 0, 500), ("2026-09-16", 0, -801)])["w2_hits"], [])
+    g076("W2 G5L10 -801 two consecutive → met", len(grade_076([], [], [("2026-09-09", 0, -801), ("2026-09-16", 0, -801)])["w2_hits"]), 1)
+    g076("W1 alone with W2 MEASURED and not met → 'NOT MET (1 of 3)'",
+         grade_076(W1, [(d, 70.0, 15.0) for d, *_ in W3], W2)["state"], "NOT MET (1 of 3)")
+    g076("W3 witness at MOVE 85.9 is EDGE, not a hit", (grade_076([], [("2026-09-23", 85.9, 15.0)])["w3_hits"],
+         grade_076([], [("2026-09-23", 85.9, 15.0)])["w3_edge"]), ([], ["2026-09-23"]))
 
     print(f"\n  SELFTEST: {'PASS' if ok else 'FAIL'}")
     return 0 if ok else 1
