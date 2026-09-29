@@ -9,11 +9,23 @@
 
 ## 2026-09-14 — three defects from the three-week catch-up, all instrument-integrity class
 
+## §44. [Instrument] — A Shared Date Label Is Not a Shared As-Of (the spread pairing that manufactured a 15bps move)
+*(heading added 2026-09-29 so the index pointer resolves; paragraph below unchanged)*
+
 **PAT — A SHARED DATE LABEL IS NOT A SHARED AS-OF.** I computed the 10Y-FRM spread as PMMS 6.76 [9/10] − DGS10 4.95 [9/10], got a clean 181bps, and **had written *"the spread narrowed 15bps, inverting the desk's standing read"* before checking the basis.** Both inputs were **issuer-primary and correctly dated.** The answer was still wrong: **PMMS is a weekly survey whose window closes before Thursday publication, and DGS10 moved +12bps ON 9/10 ITSELF** — the largest single day of the window. Survey-matched to the Wednesday close the spread is **~193bps, i.e. unchanged**. ⇒ **Pairing two series on a matching date label imports a move one of them could not have seen.** The failure is invisible on a quiet week and maximal on a moving one — *exactly* when anyone looks. ✅ **Rule: for any spread pairing a SURVEY against a DAILY series, match to the survey's window, or state the basis.** *(`finding_exact_level_authenticates_a_wrong_direction` — and here the authenticating detail was that both legs carried the SAME DATE.)*
+
+## §45. [Verification] — A False *DEAD* Flag Is More Destructive Than a False *LIVE* One, Because It Gets EXECUTED
+*(heading added 2026-09-29 so the index pointer resolves; paragraph below unchanged)*
 
 **PAT — A FALSE *DEAD* FLAG IS MORE DESTRUCTIVE THAN A FALSE *LIVE* ONE, BECAUSE IT GETS EXECUTED.** PROME's census reported CalculatedRisk dead since 2026-01-12 and asked 11 of my surfaces (23 fleet-wide, ~12 desks) to be annotated. **The publication had MOVED to Substack and publishes daily** — including the two posts I used that same session. ⇒ **"The domain is frozen" and "the publication has stopped" are different claims, and only the first was tested** (`finding_scan_keyed_on_naming_reads_local_form_as_absence`). ★ **The asymmetry is the lesson:** a false live flag leaves a stale citation someone eventually trips over — self-healing. A false dead flag produces **23 deliberate edits that read as settled work and will never be re-examined.** ✅ **Rule: before executing a source-RETIREMENT sweep, search for the source's CONTENT, not just its URL.**
 
+## §46. [Data] — Verify the Publication YEAR, Not Just the Month (n=3 — extends §1/§2 to RECURRING MONTHLY pulls)
+*(heading added 2026-09-29 so the index pointer resolves; paragraph below unchanged)*
+
 **PAT — ON A MONTHLY SERIES, VERIFY THE ARTICLE'S PUBLICATION *YEAR*, NOT JUST ITS MONTH.** Two year-old figures nearly entered my ledgers this session: a Trepp multifamily special-servicing rate of **8.61% "in August"** (August **2025**) and an NAHB HMI of **32 for "September"** (September **2025**, and the Sept-2026 print does not exist until ~9/16). **Both were plausible against my held series** — 8.61% sits a plausible distance above my 8.39% July, and 32 is a plausible drift from 35. ⇒ **Plausibility is not a check; it is what makes this one dangerous.** ✅ **Rule: on any recurring monthly pull, confirm the release date before the value, and treat "the September number" as unverified until the publisher's own calendar says September exists.**
+
+## §47. [Process] — I Wrote a Measurement Claim Before Making the Measurement
+*(heading added 2026-09-29 so the index pointer resolves; paragraph below unchanged)*
 
 **PROCESS — I WROTE A MEASUREMENT CLAIM BEFORE MAKING THE MEASUREMENT.** I drafted *"endpoint re-tested 2026-09-14: HTTP 429, FOURTH confirmation"* into a ledger row **before running the test**, caught it on re-read, and ran it (it returned 429, so the row is now true). ⚠️ **It being true is luck, not process.** `finding_write_timestamps_from_the_clock_not_the_narrative` applies to test results exactly as it does to timestamps: **the narrative wanted a fourth confirmation and supplied one.** ✅ **Rule: a claim of the form "I tested X and got Y" is written only AFTER Y is on screen.**
 

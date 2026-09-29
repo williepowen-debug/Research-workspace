@@ -1,5 +1,7 @@
 # RIDER DRAFT — non-funding debt/equity as a candidate class on the non-bank servicer watch
 
+> ✅ **RATIFIED AS OPTION (A), ENCODED 2026-09-29.** Authority: Will's 2026-08-23 "approved" (it named no option; read as (A), my stated recommendation, and recorded as an interpretation). Encoded in the servicer-watch docket row notes and `workbook/KB_LIVE.tsv` KB-HOMER-032. §5 is the live text; nothing else in this draft is live. One Will word for (B) or (C) reverses it at zero signal cost. The filename still says DRAFT; it was left unchanged so existing links keep working.
+
 **Status:** ⛔ **DRAFT. NOT LIVE. THE CANDIDATE CLASS MUST NOT BE SCORED, AND NOTHING HERE IS RETROACTIVE TO UWM 2026-08-06.**
 **Author:** HOMER · **Date:** 2026-08-23
 **Authority:** Will authorized this rider **2026-08-14** (row 50, item 5). It was **pre-registered to run AFTER the A–G number anchoring**, which Will ruled **2026-08-22** (*"approve both"*). That precondition is discharged, so the rider is now due. **It is 9 days late and that is recorded, not smoothed.**

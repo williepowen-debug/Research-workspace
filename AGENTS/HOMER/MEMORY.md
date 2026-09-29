@@ -19,8 +19,8 @@
 
 ## Cross-Agent Facts Worth Remembering
 
-- REGINALD independently sources the same monthly Trepp CMBS-MF print HOMER now owns — predates the promotion, not caused by it. See LESSONS.md + docket for the pending reconciliation.
-- CREED (Tier-2, spawned-as-needed) has no live workbook of its own as of its 2026-07-04 STATUS — an MF-absorb decision here is a scope decision (who owns the row going forward), not a file migration.
+- REGINALD cites the monthly Trepp CMBS-MF print in its own STATUS (its CRE row carried Apr-2026 7.71% when checked 2026-09-29). **Ownership is settled: HOMER primary (promotion ruling); REGINALD cites.** No reconciliation row exists on my docket — this line used to point at one that was never there (dangling pointer, found 2026-09-29). If REGINALD's cited value drifts from `workbook/MULTIFAMILY.tsv`, packet REGINALD's inbox; never edit their file.
+- CREED now keeps its own `workbook/` (KB, FLOW, PREDICTIONS; checked 2026-09-29 — the July note that it had none is superseded). The MF seam is unchanged: CREED pulls the whole Trepp print and owns non-MF property types; the MF row is mine (`CREED-T-05`). Check `PROME/ROSTER.md` for CREED's current tier; don't infer it from here.
 - **WALTER's RESEARCH-INTAKE lane does NOT fetch homebuilder earnings or the ATTOM monthly foreclosure report** (verified 2026-09-29 with WALTER's own read-only harness: 0 lane hits for Lennar/KB over 6/29–9/28 although both reported). ⇒ **HOMER pulls these itself off per-name / recurring docket rows; never assume "WALTER would have routed it."** Matcher fact: all-caps 2–5 char tokens (KB, NVR, LGI) ARE kept; other ≤3-char words drop.
 
 ## Infra — what this box can and cannot reach (as of 2026-09-29)
