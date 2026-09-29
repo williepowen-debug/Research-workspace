@@ -183,7 +183,22 @@ def build_credit():
         #   (2) "credit-recognition" is refuted by analysis/2026-07-30_hy-attribution.md —
         #       the +19bp to 287 is 68-84% broad DM HY beta, ~0% bank/CRE, and BB-led/flow-shaped,
         #       i.e. the opposite of a quality-recognition event.
-        if bps >= 280:   m, n = "🔴", "HY >=280 LEVEL LEG MET — X1 half ONLY, NOT 'X1 MET' (R1: wrapper-leads leg conjunctive + NOT MET; RED owns sustain) — 7/30 attribution says broad DM beta, NOT credit-recognition"
+        # ⛔ ONE SPELLING, 2026-09-29 (DOCKET L493 ②; CATO MEDIUM open since 9/22). The X1 letter
+        # (KILL_MEMO ladder + §B) is STRICT `>280`; this branch printed "HY >=280 LEVEL LEG MET",
+        # so 280.0 [9/24] rendered as X1-level-met when the letter says NOT met. Now: X1 rungs are
+        # strict `>` as lettered; exactly 280.0 gets its own line naming the THREE rules that read
+        # it differently (config zone >=280 red · RED-FT-01 >=280 counts · X1 >280 does NOT).
+        # The ladder's >300 / >320 rungs (absent here, CATO) are rendered as LEVEL labels only —
+        # "sustained" is a count this label does not make. No state is restated: the 7/30
+        # attribution and the arbiter answer were dated reads printed on EVERY boot; they now
+        # live at their surfaces (KILL_MEMO §B/§D, GATES), and this line points there.
+        # Compare at 0.1bp: FRED publishes 0.01 pct, so rounding removes any float residue.
+        b1 = round(bps, 1)
+        X1_TAIL = "X1 half ONLY, never 'X1 MET' (conjunctive with BROCK's wrapper-leads half; state → KILL_MEMO §B/§D + GATES; RED-FT-01 ≥280 is RED's count)"
+        if   b1 > 320: m, n = "🔴", f"HY >320 CONFIRMATION LEVEL (KILL_MEMO ladder; the 'sustained' count is separate) — also >280 X1 level leg: {X1_TAIL}"
+        elif b1 > 300: m, n = "🔴", f"HY >300 — approaching the 320 confirmation ({320 - bps:.0f}bp); >280 X1 level leg MET: {X1_TAIL}"
+        elif b1 > 280: m, n = "🔴", f"HY >280 X1 LEVEL LEG MET (strict >) — {X1_TAIL}"
+        elif b1 == 280: m, n = "🔴", "HY AT 280.0 — red zone (config ≥280) and RED-FT-01 counts it (≥280), but the X1 level leg is NOT met (letter is strict >280)"
         elif bps >= 265: m, n = "🟡", f"X1 APPROACH (265-280 band) — {280 - bps:.0f}bps to the 280 master trigger"
         elif bps < 260:
             # ---- CORRECTED 2026-09-02, BLIND COLD READ FINDING B7. NO THRESHOLD INVENTED OR MOVED. ----
