@@ -61,7 +61,7 @@
 
 1. 🔴 **Wed 9/30 release-day log:** PCE + GDP 3rd 08:30 · Russian ban expiry (HEN-46 F3 leg 1) · EIA distillate exports · MU AMC · MOF total. Then **Thu 10/1 ISM** + **FORUM-7 FINAL** (FR2004 ~16:15 ET; BOND D3) and **P2 KW** whenever `THREEFYTP10` posts 9/22–9/24 (g > 18bp ⇒ UNANSWERABLE). **HEN-47 verdict by the 10/2 boot**; packet PROME. Fri 10/2 NFP reaction log.
 2. 🔴 **Gamma board at every close** (14d + 35d); walls only if horizons agree.
-3. 🟡 **HEN-46 F1 9/25 = UNKNOWN until someone reads the CME settles** (asked of Will tonight). F1 Nov basis runs to 10/14.
+3. ✅ **HEN-46 F1 9/25 = FIRED (stand-down) on the INFERRED settle $94.998** (HOX26 4.4621 — Yahoo daily close = official settle, validated on CLX26 9/23–25 + BZX26 9/25 via wire changes; CME not read; < 1 tick). TERRY grades at its Wed wake (PROME-verified; no capital consequence — the staged shares had no A/B fire). **Method for future settles: Yahoo DAILY close, not the settle-window VWAP; DTN levels are intraday snapshots.** F1 Nov basis runs to 10/14.
 4. ✅ **WATCH_FOR R3 SENT 9/28** → WALTER (drop 6, propose 6 keyed to HEN-46; WALTER tests, PROME lands — adopt/decline its replacements) · 🟡 **by 10/5: WQ-252 per-candidate crack step measurements** → DAEDALUS.
 5. Carried: real-yield letter (must name BOTH TP models + the day-split) · KRE "Muse" deposit-flight candidate (REGINALD's) · breadth gap (Will's) · confidence backfill · archive block-numbering audit · `SIG-W-20260910-013` overlay · own `CLAUDE.md` KB count stale (now ML-HEN-175).
 

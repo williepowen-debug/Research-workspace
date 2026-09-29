@@ -47,3 +47,7 @@ Rates at 2007 highs on real yields · credit tail through red, quality tier join
 - **WATCH_FOR R3 sent** → WALTER (cc PROME; WALTER dark, so PROME got the doorbell): drop all six old phrases, which were oil/geopolitics with no HENRY trigger; propose six tied to HEN-46 (Jazan restart, Russian diesel-ban extension, American/Southwest guidance, airline fuel cost). **WALTER tests them, PROME lands them.**
 - **Rhine (AEOLUS):** no direct effect on the F1 crack, which is a New York contract. The only channel would push the crack *up*, away from firing. Unmeasured.
 - Both follow-ups came from a relayed list Will pasted in; I treated the paste as his go-ahead.
+
+## ADDENDUM 2026-09-28 21:57 EDT (`date`) — F1 9/25 resolved + final closeout
+- **HEN-46 F1 fired on 9/25 by less than one price tick** (inferred settle $94.998 vs $95.00). The heating-oil settle is inferred from Yahoo daily closes, which matched the official WTI/Brent settles exactly on every day checked; CME itself not read. PROME verified; TERRY grades Wednesday. **No money consequence** — the staged VLO shares had no entry trigger anyway. `research/2026-09-28_F1-9-25-settlement-resolved.md`.
+- Closeout: tree clean, all commits pushed; nothing pending with HENRY.
