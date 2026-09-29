@@ -4,7 +4,7 @@
 **Status:** 🟢 **PANEL FROZEN 2026-09-13 — `GPU-PANEL-01` is SEALED (§9). CADENCE PRE-COMMITTED · ZERO ROWS WRITTEN — still deliberately: the freeze is NOT a reading, and 2026-09-13 is not a cadence date. First row is reading 2, **2026-09-18 post-close**.**
 **2026-09-11:** 🔴 **`GPU-PANEL-01` NOT FROZEN at the 9/11 deadline — READING 1 IS RECORDED AS MISSED** (see §4 addendum). ✅ **PROME's 9/6 AMENDMENT to ruling para. 3 is ENCODED — §3 below and the ruling now AGREE** (①a index LIVE, ①b futures 10/05; `term_normalized` + segment accepted into the registry vocabulary; PROME concurs; cc reached WATT/DEWEY as files) [KB-VULCAN-159].
 **Ledger:** `workbook/GPU_SERIES.tsv` (11th ledger; schema declared in `workbook/SCHEMA.tsv`, enforced by `scripts/validate_workbook.py` boot leg 7)
-**Register:** `docket/CATALYSTS.tsv` — readings **2026-09-11 · 09-18 · 09-25 · 10-02**, re-decide **2026-10-05**
+**Register:** `docket/CATALYSTS.tsv` — readings ~~**2026-09-11 · 09-18 · 09-25**~~ (all MISSED) · **10-02** (now the FIRST row) · 🆕 **extension registered 2026-09-29: 10-09 · 10-16 · 10-23 · 10-30 · 11-06 · 11-13 · 11-20 · 11-27** · re-decide **2026-10-05** (rule pre-written in §7a)
 
 ---
 
@@ -111,6 +111,33 @@ A first row taken from an unspecified panel **silently becomes the series' basel
 ⚠️ This listing **supersedes KB-031's 2026-07-22 "NO regulated futures" finding** — correct when asked, overtaken, and **nothing here was watching for the flip.** A resolved binary is a standing bet that the world has not moved, and it expires silently.
 
 ---
+
+### 7a. 🔒 THE 10/05 BASIS DECISION — PRE-WRITTEN 2026-09-29 (DOCKET L250), BEFORE READING 4 AND BEFORE EITHER LISTING
+
+**Why now:** on 10/05 the rule must be applied, not chosen. Picking the primary after seeing reading 4 and the listing terms would be picking the answer; today both are unseen.
+
+**Inputs to read ON 10/05, at the primaries, and nothing else:**
+- **CME:** contract spec notice ser-9785. Is the contract TRADING (not "approved", not "pending regulatory review")? What is the final-settlement index, and does the spec state the reference contract's **service condition** (commitment term, on-demand vs reserved, segment, cluster scale)?
+- **ICE:** are futures settled on Ornn's compute price index (OCPI) trading? Does OCPI's methodology document state the same service condition?
+- ⚠️ `cmegroup.com` timed out from this box on 9/06. If it still does, the input is **UNFETCHED, not absent**, and R-A below reads "not established".
+
+| Rule | Letter |
+|---|---|
+| **R-A: listing changes CLASS only when trading.** | A source moves to `source_class=exchange_primary` only once its contract is **trading**. Announced, approved or pending does not count ⇒ no change, and the re-decide **re-dates to the announced first trade date**, registered only once that date is announced. |
+| **R-B: listing changes BASIS only on DISCLOSURE.** | Exchange settlement controls a figure's **vintage and manipulation surface**. It does **not** disclose its **composition** (§7). A construction leaves `price_basis=term_normalized` **only** if the exchange spec or index methodology names the reference contract's service condition ⇒ `spot` or a term (`1mo` … `36mo`). Without that, **R4 stands**: never differenced against a tier-A or tier-B row. |
+| **R-C: ranking constructions that pass A+B.** | ① a basis that **fills or matches a gradeable tier**: a disclosed **`12mo`** construction ranks FIRST, because it re-opens tier C and with it the on-demand-minus-contract spread §2 was built for; a disclosed `spot` construction is next, because it is comparable to tier A/B · ② **transacted** prices over **asks/quotes**, where the methodology states which (OCPI states transacted; SDH100RT's construction is **not established here — not assumed either way**) · ③ daily settlement readable at no cost (a paywall is a recorded COST blocker, not "unreachable"). |
+| **R-D: a tie gives no single primary.** | Both stay as tier-D cells; `dispersion_D` stays the diagnostic. **Never average the two into one figure.** |
+| **R-E: one passes.** | It becomes primary **for its declared basis only**; the other stays as the `dispersion_D` cross-check. |
+| **R-F: neither passes.** | **No primary.** Both stay tier-D `term_normalized`. A trading contract's **settlement price** may be ADDED as its own tier-D cell (`instrument=futures`, `source_class=exchange_primary`, `price_basis=term_normalized`). That adds a settlement guarantee, **not** a composition guarantee, and it is never differenced against a single-term row. |
+| **R-G: no threshold on 10/05, under any branch.** | §6 stands: ≥4 weekly rows AND a stated base rate. With 9/11 · 9/18 · 9/25 all MISSED, **reading 4 (10/02) is the FIRST row** ⇒ the earliest 4-row point is **10/23**, on the cadence extension registered today (below). |
+| **R-H: a panel change re-bases by NAME.** | Any change to tier-D membership or basis from this decision ships as **`GPU-PANEL-02`**, stamped on every row from its first reading. Never a silent edit to `GPU-PANEL-01`. |
+
+**Expected branch, written before the fact so it cannot be mistaken for news: R-F**, or R-A if CME's contract is not yet trading.
+- On 9/13 neither index published its reference contract (§9.3, §9.4).
+- CME's listing was "pending regulatory review" as of the 9/29 news sweep.
+- ⇒ The most likely 10/05 outcome is **no change of primary, possibly one added settlement cell.** That is a real decision, not a deferral: a listing that controls composition without disclosing it does not buy the composition guarantee the instrument needs.
+
+**🔴 CADENCE EXTENSION: REGISTERED TODAY, NOT ON 10/05.** The registered cadence ends at **10/02**, and that reading is now the first row. Renewing after seeing reading 4 would be selecting the series. By this desk's renewal rule (extend **before** the last committed slot fires; see `mag7.py` in `CLAUDE.md`), the extension is registered **2026-09-29**. **Eight post-close Fridays: 10/09 · 10/16 · 10/23 · 10/30 · 11/06 · 11/13 · 11/20 · 11/27**, sharing the `mag7.py` Friday slot. It is independent of the basis decision: R-H governs which panel the rows carry, not whether they are taken. *(This supersedes my own note an hour earlier in the 9/25 register row, which had "put the extension to the 10/05 re-decide". That would have placed the renewal after reading 4 and broken the renewal rule. Corrected before it was acted on.)*
 
 ## 8. Provenance
 
