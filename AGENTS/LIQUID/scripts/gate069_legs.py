@@ -19,8 +19,9 @@ the previous version took BOTH the L4 equity session and the HY session change f
 COMMON to BB, CCC and HY. One missing CCC observation (a series L4 never reads) therefore dropped
 a date from the intersection and silently stretched the "session" across TWO days: two -10% / +3bp
 days became one -19% / +6bp "session" and L4 printed FIRED. Each leg now reads ITS OWN series:
-L4's HY change comes from HY's own consecutive published obs, each stock's change from that stock's
-own previous bar, and the two "previous" dates MUST be equal or the leg fails CLOSED.
+L4's session is fixed by the NYSE CALENDAR (prev_session): HY and every stock must have observations on
+exactly that session and the one before it, or the leg fails CLOSED. (Round 2, CATO 9/29: "own previous bar"
+still stretched when HY and all four names omitted the same day.)
 Run `--selftest` (offline) before trusting a change here.
 """
 import sys, argparse
@@ -30,6 +31,36 @@ CRED_UNDER_BP = 5     # WQ-114 letter: HY OAS widened >= 5bp on the session == "
 BB_LINE = 220
 EQ_LINE = -15.0
 TICK = ["CRWV", "IREN", "APLD", "NBIS"]
+
+# NYSE full-day closures (the L4 SESSION calendar; CATO 9/29 round 2). The previous session is fixed by
+# THIS calendar, never by what the data happens to contain: if HY and all four names omit the same day,
+# matching their dates would still stretch the "session" across two days. Outside the covered range
+# the leg is UNGRADEABLE — extend the list before 2027-12-31.
+NYSE_CLOSED = {
+    "2025-01-01", "2025-01-09", "2025-01-20", "2025-02-17", "2025-04-18", "2025-05-26", "2025-06-19",
+    "2025-07-04", "2025-09-01", "2025-11-27", "2025-12-25",
+    "2026-01-01", "2026-01-19", "2026-02-16", "2026-04-03", "2026-05-25", "2026-06-19", "2026-07-03",
+    "2026-09-07", "2026-11-26", "2026-12-25",
+    "2027-01-01", "2027-01-18", "2027-02-15", "2027-03-26", "2027-05-31", "2027-06-18", "2027-07-05",
+    "2027-09-06", "2027-11-25", "2027-12-24"}
+CAL_FIRST, CAL_LAST = "2025-01-02", "2027-12-31"
+
+
+def is_session(d):
+    from datetime import date as _d
+    x = _d.fromisoformat(d)
+    return x.weekday() < 5 and d not in NYSE_CLOSED
+
+
+def prev_session(d):
+    """Previous NYSE trading day before d, or None outside the covered calendar."""
+    from datetime import date as _d, timedelta as _td
+    if not (CAL_FIRST <= d <= CAL_LAST):
+        return None
+    x = _d.fromisoformat(d) - _td(days=1)
+    while not is_session(x.isoformat()):
+        x -= _td(days=1)
+    return x.isoformat() if x.isoformat() >= CAL_FIRST else None
 
 
 def grade_l1(bb, ccc):
@@ -55,23 +86,25 @@ def grade_l4(hy, eq):
     and its OWN previous obs; every stock must have bars on exactly those two dates as ITS latest
     bar at-or-before the session and ITS previous bar. Any mismatch => INSTRUMENT-FAULT, never a grade."""
     hd = sorted(hy)
-    if len(hd) < 2:
-        return {"state": "INSTRUMENT-FAULT", "faults": ["fewer than 2 HY observations"], "rows": []}
-    last, hprev = hd[-1], hd[-2]
+    if not hd:
+        return {"state": "INSTRUMENT-FAULT", "faults": ["no HY observations"], "rows": []}
+    last = hd[-1]
+    hprev = prev_session(last)
+    base = {"state": "INSTRUMENT-FAULT", "rows": [], "last": last, "hprev": hprev}
+    if not is_session(last) or hprev is None:
+        return {**base, "faults": [f"{last} is not a covered NYSE session (calendar {CAL_FIRST}..{CAL_LAST})"]}
+    if hprev not in hy:
+        return {**base, "faults": [f"HY obs missing for the required previous session {hprev}"]}
     hy_chg = hy[last] - hy[hprev]
     faults, rows, worst = [], [], None
     for t in TICK:
         c = eq.get(t)
         if not c:
             faults.append(f"{t} no series"); continue
-        if last not in c:
-            faults.append(f"{t} bar missing for {last}"); continue
-        before = [d for d in c if d < last]
-        if not before:
-            faults.append(f"{t} no bar before {last}"); continue
-        ep = max(before)
-        if ep != hprev:
-            faults.append(f"{t} session mismatch: equity prev bar {ep} vs HY prev obs {hprev}"); continue
+        miss = [d for d in (hprev, last) if d not in c]
+        if miss:
+            faults.append(f"{t} bar missing for {', '.join(miss)}"); continue
+        ep = hprev
         chg = (c[last] / c[ep] - 1) * 100
         rows.append((t, c[last], chg, ep))
         if worst is None or chg < worst[1]:
@@ -103,11 +136,23 @@ def selftest():
     ccc_gap = {d: 800.0 for d in D if d != "2026-09-24"}
     r = grade_l4(hy, eq)
     check("CATO: CCC missing 9/24 cannot stretch the L4 session", (r["state"], r["hprev"]), ("NOT FIRED", "2026-09-24"))
-    # missing HY 9/24 itself: HY's own prev is 9/23; equity prev is 9/24 -> mismatch, fail closed
+    # missing HY 9/24 itself: the required previous session is fixed by the calendar -> fail closed
     hy_gap = {d: v for d, v in hy.items() if d != "2026-09-24"}
     r = grade_l4(hy_gap, eq)
-    check("HY obs missing → session mismatch → INSTRUMENT-FAULT (never a stretched grade)",
-          (r["state"], any("session mismatch" in f for f in r["faults"])), ("INSTRUMENT-FAULT", True))
+    check("HY obs missing on the required prev session → INSTRUMENT-FAULT (never a stretched grade)",
+          (r["state"], any("required previous session 2026-09-24" in f for f in r["faults"])), ("INSTRUMENT-FAULT", True))
+    # CATO round 2: HY AND all four names omit the SAME day — matching dates must not stretch the session
+    eq_all_gap = {t: {d: v for d, v in px.items() if d != "2026-09-24"} for t in TICK}
+    r = grade_l4(hy_gap, eq_all_gap)
+    check("CATO rd 2: HY + all equities omit 9/24 → INSTRUMENT-FAULT, not a -19%/+6bp fire", r["state"], "INSTRUMENT-FAULT")
+    # ordinary weekend and holiday: the calendar, not the data, supplies the previous session
+    check("weekend: prev session of Mon 2026-09-28 is Fri 2026-09-25", prev_session("2026-09-28"), "2026-09-25")
+    check("holiday: prev session of Tue 2026-09-08 is Fri 2026-09-04 (Labor Day 9/7)", prev_session("2026-09-08"), "2026-09-04")
+    check("Good Friday: prev session of Mon 2026-04-06 is Thu 2026-04-02", prev_session("2026-04-06"), "2026-04-02")
+    wk = ["2026-09-24", "2026-09-25", "2026-09-28"]
+    r = grade_l4({wk[1]: 270, wk[2]: 276}, {t: {wk[1]: 100.0, wk[2]: 90.0} for t in TICK})
+    check("weekend pair graded normally (Fri→Mon, -10%/+6bp → NOT FIRED)", (r["state"], r["hprev"]), ("NOT FIRED", "2026-09-25"))
+    check("outside the covered calendar → INSTRUMENT-FAULT", grade_l4({"2028-01-04": 270, "2028-01-03": 270}, eq)["state"], "INSTRUMENT-FAULT")
     # missing equity bar on the session
     eq_gap = {t: {d: v for d, v in px.items() if d != "2026-09-25"} for t in TICK}
     check("equity bar missing on the session → INSTRUMENT-FAULT", grade_l4(hy, eq_gap)["state"], "INSTRUMENT-FAULT")
@@ -198,7 +243,7 @@ def main():
     if g4.get("newer"):
         print(f"      ⏳ equity sessions after the latest HY obs {g4['newer']}: UNGRADEABLE-PENDING-PUBLICATION (not graded)")
     if "hy_chg" in g4:
-        print(f"      HY OAS session change {g4['hy_chg']:+.0f}bp [obs {g4['last']} vs {g4['hprev']}, HY's own obs] "
+        print(f"      HY OAS session change {g4['hy_chg']:+.0f}bp [obs {g4['last']} vs {g4['hprev']}, prev NYSE session] "
               f"-> credit underperforming? {'YES' if g4['cr'] else 'NO'}")
     if faults:
         # ⛔ NEVER report NOT FIRED off an unmeasured leg — that is the dead-quiet failure.
