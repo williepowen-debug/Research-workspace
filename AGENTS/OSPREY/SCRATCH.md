@@ -29,7 +29,11 @@ C1/C2/C3 **5 / 5 / 3** (C1 UPGRADED 4→5 today on Will's WQ-276 word of 9/24). 
 OSP-06 OPEN 45%, deadline 10/15 (3.53 to 9/20 does not fail it). No prediction due. **No Will-gated decision open.** Option ② (products terminals) still unruled — not worth Will's time.
 
 ## MAIL STATE
-Inbox EMPTY. Sent 9/29: PROME ×2 (WQ-276 receipt; cadence WEEKLY + 11 watch terms, cc WALTER) · BRENT (halts/decree/truce/Novorossiysk + ask for 9/27 print) · HAWK (Platts $2.9/bbl lead to grade; CREA; H.R. 5334).
+Inbox EMPTY. Sent 9/29:
+- **PROME ×2:** the WQ-276 receipt, and cadence WEEKLY + 11 watch terms cc WALTER. PROME confirmed both over SendMessage and registered DOCKET L543 + L544.
+- **BRENT:** asked for the Bloomberg 4-wk to 9/27. BRENT is dark and wakes 9/30.
+- **HAWK:** asked for a grade of the Platts lead. HAWK is dark and wakes 10/01.
+- **Closeout consumer refresh:** NEXUS (R9 row) and WALTER (REGISTRY focus line), marks 4/5/3 → 5/5/3. No ask.
 
 ## PENDING PUSH / GIT
-See commit log for this session; feed files gitignored (OWED-45).
+All session work committed path-scoped and pushed via safe-push. The final receipt is in the closeout commit. The feed file is gitignored (OWED-45).
