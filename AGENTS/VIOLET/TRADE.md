@@ -189,12 +189,12 @@ TERRY owns structure and sizing; Will approves execution. No sizing table or gen
 **Target:** VIX catches up to credit-implied level (HY OAS × 7.6 + 158 = implied VIX)
 **Stop:** HY OAS reverses >50bps, VIX >30, or curve inverts
 **Sizing:** 1% (medium) / 2% (all 5 checks)
-**Status:** DORMANT — **HY 2.79 [7/24 FRED]**, nowhere near the +100bps trigger. *(Was "HY 2.75 (6/8)" — a 7-week-stale naked number, refreshed in the 7/28 audit.)*
+**Status:** DORMANT (checked 2026-09-28: HY widened +25bp 9/22→9/25, ~¼ of the +100bp setup; watch only, KB-VIO-313). **Live HY and its distance to the trigger live in STATUS; this file no longer carries a copy** — the "HY 2.79 [7/24]" figure that sat here went 9 weeks stale, the second time this line aged out (6/8 before it).
 
 ### DIET / STRICT Coiled-Spring Trade (L1 population signal)
 
 Owned by `thesis/VIX_THESIS.md` § The DIET Coiled-Spring Trade — setup, tiers, and the **L1 canonical base-rate table (KB-VIO-079)** live there; this file does not duplicate them. Sizing rule of thumb: quote the base rate at the threshold the structure actually needs (≥+15%: 92-94% episode-level; ≥+50%: 56-60%) — far-OTM strikes price off the lower number.
-**Status:** 5/20-5/29 DIET fire paid forward 6/5 (+40% at td-4). No new fire since.
+**Status:** last fire 5/20-5/29 paid forward 6/5 (+40% at td-4). Current state: STATUS § GATE STATUS "Coiled spring (STRICT / DIET)" (NOT FIRING as of the 9/28 close).
 
 ### Term Structure Inversion (REVISED v3.1)
 
@@ -210,7 +210,6 @@ Inversion (VIX > VIX3M) **marks vol peaks, not onsets** (KB-VIO-034: 553 events,
 | 2026-05-03 | VIX May 19 25C | HOLD | — | — | — | — | Trade-thesis invalidated (4-td rule hit Apr 23-28); HOLD per Will = tail lottery. |
 | 2026-05-19 | VIX May 19 25C | **EXPIRED WORTHLESS** | — | — | 0 | −100% of premium | VIX 18.06 vs strike 25. Post-mortem: `research/2026-06-01_episode17_postmortem.md`. *(Log row added 6/9 — was missing.)* |
 | **2026-07-27** | **VIXW Aug-05 20C/25C spread** | BUY (historical) | 4 spreads | $0.70 debit | Closed July 30 | See closure row | Will-approved historical entry; no current open exposure. |
-
 | **2026-07-30** | **VIXW Aug-05 20C/25C spread** | **CLOSED** | 4 spreads | $287.70 all-in | $176.10 returned | **−$111.60** | FORGE September 10 mirror confirms historical closure. |
 
 *P/L figures are placeholders — cost basis per Will, not authoritative from state files. **Open-position marks are TERRY's**; this log records the fill, not the mark.*

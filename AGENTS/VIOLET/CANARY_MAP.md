@@ -77,7 +77,7 @@ A canary is **DARK** when its last pull exceeds 2× its stated cadence (EOD inst
 > | **Thu** | Tuesday, 9d prior | **9d** | 🟡 exactly on the line |
 > | **Fri, before 15:30** | Tuesday, **10d** prior | **10d** | 🔴 **DARK — every Friday morning, forever** |
 >
-> ⇒ **A fully up-to-date COT ledger is guaranteed to breach this contract once a week.** Today is Friday 9/4; the 9/1-data report releases **today at 15:30 ET**. **Nothing is dark and nothing was missed.**
+> ⇒ **A fully up-to-date COT ledger is guaranteed to breach this contract once a week.** Worked example (written Friday 2026-09-04): the 9/1-data report released that day at 15:30 ET. **Nothing is dark and nothing was missed.**
 >
 > 🔑 **WHY THIS MATTERS MORE THAN THE FALSE ALARM ITSELF: this is the fourth-plus RED on this file, and a guard that cries wolf on a fixed weekly schedule is training its reader to wave the red through** — which is precisely the *"boot printed it and the session did nothing"* failure `closeout_guard.py` was built to end. **A recurring false positive does not merely waste a look; it degrades the instrument's authority for the case where it is right.** `[[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]` cuts the other way here too: the remedy is **not** to relax the number until the noise stops, because that would silently raise the real-miss threshold as well.
 >

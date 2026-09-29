@@ -17,7 +17,7 @@
 - Full `boot.py`; `backfill.py --spot-only` (created 9/25, stamped 9/23–24); `cftc_cot.py` manual fetch; FRED direct pull of HY/B/BB/CCC/IG/DGS10/DGS2; yfinance history for 9/25 OVX/JPY/SPX.
 - **Graded the COR1M first-tell late: FIRED 9/2** (9/1 12.64 + 9/2 10.58 SETTLE). The 9/2 STATUS rewrite (`c6851727e`) dropped its gate row. → KB-VIO-314.
 - **WQ-259 executed:** both artifacts refreshed and republished to their standing URLs (version 7 each). Memory twins updated. **CLAUDE.md:194 "Last refreshed 2026-08-18" is now stale — Will-gated, flagged to PROME, NOT edited.**
-- WQ-295: declared **CADENCE WEEKLY**; proposed 9 WATCH_FOR phrases (`PROME/inbox/2026-09-28_from-VIOLET_cadence-and-watch-terms.md`).
+- WQ-295: declared **CADENCE WEEKLY**; proposed 9 WATCH_FOR phrases (`PROME/inbox/processed/2026-09-28_from-VIOLET_cadence-and-watch-terms.md`, consumed by PROME).
 - STATUS rewritten; convergence **28 → 29/50** (credit 3 → 4). CATALYSTS/CALENDAR +10/7 Q2 window close. KB-VIO-313..316.
 
 ## NEXT SESSION
