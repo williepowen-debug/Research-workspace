@@ -11,6 +11,7 @@
 | `inbox/WALTER/SIG-W-20260929-003.md` · `-012.md` | INTEGRATE → processed | credit tape; PM path −5bp | `KB-BND-365`, `KB-BND-366`; `KB-BND-346` → CORRECTED; `board_log.tsv` ×2 | top item PM line | SendMessage ack |
 | Will: TRADE.md condition | RE-BASE | view inverted vs live tape | — | — | `TRADE.md` (snapshot `archive/2026-09-29_TRADE_pre-view-rebase-snapshot.md`) |
 | Treasury par/real CSV 15:55 ET | INTEGRATE | official 9/29 close | `KB-BND-367`; `VX-BND-05` refreshed | dashboard, gates, top, bottom line | NEXUS_BRIEF pin line |
+| Will: closeout protocol upgrade | RESTRUCTURE | fleet survey → CLOSEOUT.md + closeout_run.py + PROTOCOL_PROVENANCE.md; mirror_check 3/4 | `KB-BND-368`, `KB-BND-369` | — | charter shrunk; brief folded last |
 | `inbox/2026-09-29_from-NEXUS_…` | READ (NEXUS committed it, `83e6fe366`) | flag-only | — | — | — |
 
 Catalysts: 10/6 row 'TBA' clause resolved (closeout_check finding). Predictions: OPEN 2 (BND-30/31), none DUE. Ledgers: VX refreshed (VX-BND-05); FLOW unchanged — no transmission channel confirmed or changed today (attribution PARTIAL/UNDETERMINED). Closeout checks: kb_lint rc0 · closeout_check rc1→fixed · claim_check clean · orphan [not yours] only · read_cap BOND rc0. Git: path-scoped commits ×13 + `scripts/safe-push.sh` at closeout.
