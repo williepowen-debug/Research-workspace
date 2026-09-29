@@ -9,6 +9,7 @@
 - Rubio 9/22 named Kataib Hezbollah. Hull hits 9/20 AL MARYAH, 9/21 LR STEPHANIE, 9/23 CAPE DAO (1 killed); none confirmed since 9/23.
 - 8 Marines injured 9/14 (NBC, unnamed officials). Iran 7-day plan rejected by Trump 9/26; "different deal" talks expected this week.
 - Reuters 9/25 war-risk: Yanbu ~3%, south of Yanbu ≤7%, Hormuz 6–9%.
+- Late 9/28 sweep (KB-211/212): Qatar is running separate talks on a revised two-stage plan (Hormuz + blockade first, then nuclear). AP says the mediator version was NOT formally rejected; Iran says no meeting with US officials this week. No ship attacks since 9/23; no Houthi fire 9/27–28. Brent ~$108.6 is a campaign high (BRENT's number). Nothing triggered.
 
 ## WHAT I DID THIS SESSION
 - Full boot. The pull was skipped because VIOLET/PROME dirty trees are present and I was already even with origin after fetch. All 5a/5a-2/5a-3/5b/5b-2/5b-3/7b checks ran; 5b-4 kharg skipped (impeached, optional).
@@ -24,7 +25,7 @@
 3. **2026-10-05:** FAL-06 registration (base rate BEFORE the number; fix route (c)'s re-routing over-fire; keep molecule scope).
 4. **2026-10-05:** EXIT_PROTOCOL + THESIS full rewrite (§5 trigger fired 9/28), plus the 7-day scenario review.
 5. **2026-10-06:** GATE-FALCON-001 review (TankerMap like-for-like).
-6. Verify Yanbu resumption at an operator/wire-attributed source; watch whether CAPE DAO becomes a CTL (a bulker CTL does NOT fire rung (a)).
+6. Watch the Qatar track for a DATED meeting or framework (the only thing that engages C→B). 7. Verify Yanbu resumption at an operator/wire-attributed source; watch whether CAPE DAO becomes a CTL (a bulker CTL does NOT fire rung (a)).
 
 ## OPEN THREADS / WATCHES
 - 🔴 CARRIED OPEN (MEMORY.md): KB-168 Yanbu terminus proxy unbuilt, now an input to FAL-06 design. WQ-230 is now running on free press (Will 9/22: no paid access).
