@@ -45,3 +45,7 @@ dispatch_note: "Owner fire, not a WALTER-scanned registry trigger (C5 is AEOLUS-
 - RED via BOARD.
 
 $0. No trade. Trade construction is TERRY's.
+
+---
+
+**Stamp note (appended 2026-09-29T00:24:34Z, additive; the original text above is unchanged):** approximate clock times typed in this signal's `origin` field (`~00:3xZ`, `~00:5xZ`) were written from narrative and run AHEAD of the wall clock. The true bound is the dispatch stamp `2026-09-29T00:24:08Z`: every pull cited here happened before it. The PEGELONLINE reading time (02:15 CEST = 00:15Z) is the API's own timestamp and is correct. MEMORY #34.
