@@ -1,34 +1,35 @@
 # WALTER STATUS
 
-**Updated 2026-09-28T22:47:07Z (18:47 ET Mon 9/28, from `date`), TIER-2 CLOSEOUT of `walter-f8` evening re-boot (Claude Opus 5.5; re-booted 17:25 ET on Will's "please boot up"; Will: "okay lets do a full close out per your recs").** 🔴 **MARKETS CLOSED: equity/yield rows are 9/28 CLOSES (Treasury rows = OFFICIAL par curve); Brent/WTI are BRENT's settle-window PROXIES; FRED rows = latest print (HY/CCC 9/25; the 9/28 print publishes ~Tue AM). EACH CELL SAYS ITS BASIS.** Current obligations: [LAST_COMPLETION.md](LAST_COMPLETION.md).
+**Updated 2026-09-29T19:35:10Z (15:35 ET Tue 9/29, from `date`), TIER-2 CLOSEOUT of `walter-7d` (Claude Opus 5.5; booted 13:18 ET on Will's "please boot up … lets catch up on current context"; Will: "Lets closeo ut now").** 🔴 **MARKETS OPEN AT CLOSEOUT: equity/vol/FX/oil rows are 9/29 ~15:33 ET INTRADAY (provisional, not closes); Brent/WTI also carry First Squawk's 9/29 settles; FRED rows = the 9/28 print (9/29 posts ~Wed AM); Treasury rows = 9/28 OFFICIAL par curve. EACH CELL SAYS ITS BASIS.** Current obligations: [LAST_COMPLETION.md](LAST_COMPLETION.md).
 
 ## BOTTOM LINE
 
-**Monday 2026-09-28 ends at BOARD 1085: 21 dispatches today (`-001`…`-021`), no WALTER-scanned registered-trigger fire, four own errors corrected on the record (`-010` SPR basis, `-007` issuance rank, `-016` diesel timing → `-017`, `-019` "rate undisclosed" → `-020`).** 🔴 **Rates: official Treasury 30Y 5.56 [9/28] over HENRY's 5.50 red (`-018`); 9/28 wires attribute the sell-off to oil after Trump's 9/26 rejection of Iran's offer + Oct-hike odds 68% (CME FedWatch) + a global US/EU sell-off: WIRE-ATTRIBUTED, not causal (`-021`, BOND KB-BND-357).** 🔴 **Credit: HY OAS 293 [FRED 9/25]; RED-FT-01 exit 2 of 3, the 9/28 print decides Tue.** 🔴 **Saudi: Yanbu crude exports REPORTED resumed, flow ~3.5 mb/d vs ~7 capacity (Bloomberg, ONE source, Aramco silent; `-019`/`-020` → FALCON, Tue wake).** 🔴 **Diesel: US export ban = live talk, no order; timings withdrawn (`-017`).** **Lane: PROME landed WATCH_FOR[BRENT] +6 and queries `diesel-export-policy` + `treasury-moves` (RESEARCH-INTAKE d5d8c9e); the once-a-day cadence is the binding latency (DOCKET L536, to Will).**
+**Tuesday 2026-09-29 ends at BOARD 1102: 13 dispatches (`-001`…`-013`), no WALTER-scanned registered-trigger fire, two own errors corrected on the record** (`-009` corrects `-004`: the WQ-316 Sep-30 card deadline is **Wed 9/30 15:00 ET**, misread from my own carry list; and my Telegram line "no Oracle layoff filing" was wrong, LABOR found CA WARN 441). 🔴 **Credit:** HY OAS **302 [FRED 9/28]**; RED-FT-01 exit EXECUTED (RED S48); the **>320 s3 bars (REG-T-03 / RED-FT-02) are 18bp away** (`-008`); CCC OAS 1,146 = the high of FRED's public window (since 2023-09-30, NOT all-time). 🔴 **Rates:** October-hike odds fell **~70% → ~50/50 around 14:55 ET** (two squawks; BOND corroborated on the CBOT strip; **cause UNKNOWN**, `-012`); the 30Y touched 5.613% intraday, a 2002 high (CNBC). 🔴 **Iran:** FALCON resolved **FAL-05 FAILED on route (c)**; marks **B1 / C14 / D85** (anchor corrected); an OSINT pump-station damage claim went to FALCON as a hypothesis (`-011`). 🔴 **Labor:** JOLTS July net revised −18K → +18K; **a September payroll ≥ +150K on Fri 10/02 fires LABOR's bull-side kill** (`-005`). Also routed: the Kansas ICE operation (slaughter −16% d/w, `-002`), the credit tape sorted (Oracle is NOT junk, `-003`), and Oracle layoffs (`-010`). **Last night's post-closeout dispatches `-0928-022`…`-025` are now in the record** (MEMORY #29, n=4).
 
-🔑 **Fleet context:** live at closeout: PROME, CORAL, BOND, BRENT. **Owed this week: BOND's 5 WATCH_FOR candidates (next pass) · R3 sets 1–7 by Fri 10/02.**
-## DATED MARKET OBSERVATIONS — re-cut 2026-09-28 16:57 ET (markets CLOSED); **EVERY CELL CARRIES ITS OWN BASIS AND DATE**
+🔑 **Fleet context:** live at closeout (`ListAgents` 19:3xZ): PROME (busy), BOND (busy), NEXUS (busy), LABOR, LIQUID, SAM, VULCAN, HOMER (shell). **Owed this week: R3 watch-phrase test Fri 10/02 (~17 desks' sets + BOND's pulled-deal query, 13 packets held in `inbox/`) · NFP Fri 10/02 · TERRY's 9/30 wake reads `-004`/`-009` first (PROME, L255).**
+## DATED MARKET OBSERVATIONS — re-cut 2026-09-29 ~15:33 ET (markets OPEN); **EVERY CELL CARRIES ITS OWN BASIS AND DATE**
 
 | Row | Dated result and limit |
 |---|---|
-| RED-FT-01 / -12 (HY OAS) | 🔴 **293 bp [FRED 9/25]** (9/22 268 · 9/23 273 · 9/24 280). FT-01 exit `≥280 s3` **2 of 3** (RED counts; 9/28 print ~Tue AM decides) · LIQUID X1 CLOSED. FT-12 `<260` 33 bp above · FT-02/REG-T-03 `>320` **27 bp** · REG-T-04 `>350` 57 bp |
-| RED-FT-07 (CCC OAS) | **1,128 bp [FRED 9/25]** (2026 high; series max 1,137 [2025-04-07]); FIRING-BANKED. ⚠️ Bloomberg CCC 968 is a DIFFERENT series (`-007`) |
-| RED-FT-06 (VIX) | **`^VIX` 16.07 [9/28 close, +8.1%]**; VIXCLS latest FRED 14.21 [9/22]. FIRED-BANKED, exit `≥18 s5` at 0 |
-| RED-FT-10 (SKEW) | **144.91 [9/25, CBOE SKEW_History.csv = publisher of record, latest published]** · Yahoo mirror 146.25 [9/28, provisional, cannot grade]. 5.09 under `≥150` on the record basis; RED owns the count |
-| RED-FT-11 (UST 30Y) | **Treasury OFFICIAL 30Y 5.56 [9/28]** (9/25 5.49) = a SELL-OFF, wrong sign for the rally precondition. NOT MET. **HENRY 30Y red >5.50 CONFIRMED on the official close (`-018`)**; 20Y 5.60 · 10Y 5.24 · 5Y 5.06 · 2Y 4.92 [Treasury 9/28] |
-| RED-FT-08 / -09 | core CPI 3-mo ann. **1.97% [Aug, BLS 9/11]** · **T5YIFR 2.34 [FRED 9/25]**; `>2.55 s5` ≈ 21 bp |
+| RED-FT-01 / -12 (HY OAS) | 🔴 **302 bp [FRED 9/28]** (9/24 280 · 9/25 293). **FT-01 exit EXECUTED by RED (S48, 9/29): CONF 68→70; re-ARMED 0-of-3** · FT-12 `<260` 42 bp above · **FT-02 / REG-T-03 `>320 s3` 18 bp** · REG-T-04 `>350` 48 bp. 9/29 print posts ~Wed AM |
+| RED-FT-07 (CCC OAS) | **1,146 bp [FRED 9/28]** = max of FRED's public window (starts 2023-09-30; NOT all-time); FIRING-BANKED. CCC effective yield 16.40% [9/28]: same index plus a rates leg, **not a second witness** (LIQUID) |
+| RED-FT-06 (VIX) | **`^VIX` 16.04 [9/29 ~15:33 ET intraday]**; VIXCLS latest FRED 14.21 [9/22]. FIRED-BANKED, exit `≥18 s5` at 0 |
+| RED-FT-10 (SKEW) | **146.25 [9/28, CBOE SKEW_History.csv, publisher of record]**; 3.75 under `≥150`; RED owns the count |
+| RED-FT-11 (UST 30Y) | **Treasury OFFICIAL 30Y 5.56 [9/28]**; intraday 9/29 ~5.61 (CNBC 5.613 high since 2002; intraday ≠ par curve). Sell-off, wrong sign for the rally precondition. HENRY 30Y red >5.50 (`-0928-018`) |
+| RED-FT-08 / -09 | core CPI 3-mo ann. **1.97% [Aug, BLS 9/11]** · **T5YIFR 2.35 [FRED 9/28]**; `>2.55 s5` 20 bp |
 | RED-FT-05 / REG-T-05 (claims) | **197K [w/e 9/19]**; next Thu 10/01 |
+| Oct FOMC odds | **~50/50 [9/29 ~14:55 ET, First Squawk + LiveSquawk; BOND CBOT strip ≈50% at 15:10]** vs >72% morning (CNBC). **Cause unknown** (`-012`) |
 | 🔴 **Boundary #8** (Brent 3:2:1) | **NOT re-pulled.** 9/15–9/23 Nov crossing STANDS (`-0925-002`); **BZX26 expires ~9/30–10/01**; WQ-252 sitting 10/06 |
-| RED-FT-03 / -04 · #1 / #2 (Brent) | **BZX26 $105.29 · BZZ26 $97.83 [9/28 BRENT settle-window proxies, not official settles]** · CLX26 $92.58. FT-03 `>130` no · FT-04 `<75` no |
-| REG-T-01 / -02 (KRE / WAL) | **KRE $70.55 (−1.4%) · WAL $76.55 (−1.4%) [9/28 closes]**; REG-T-02 cycle 2 fired 9/1, exit `≥81.90 ×3` 0-of-3 → re-entries. OZK $46.61 · FLG $12.04 |
-| REG-T-08 (SOFR−IORB) | **3.90 − 3.90 = 0 bp [FRED 9/25]**; bar `>+15` no |
-| Boundary #3 (Cushing) | **23.748M bbl [EIA w/e 9/18]**; next **Wed 9/30**. SPR 284.552M [EIA 9/18] |
-| USD/JPY (SAM ladder) | **157.39 [9/28]**; below the 9/18 158.054 high |
-| CREED-T-08a | 🔴 FIRED 9/26 eff 9/24 (owner-graded); VNQ $90.59 [9/28 close] |
-| HANS-T (6 scannable-daily of 17) | **TE 9/28:** UK 10Y **5.40** / UK 30Y **5.90** (both 10 bp under orange; watch `-0925-010` in HANS inbox holds) · Bund **3.63** (orange >3.75, 12 bp) · EURUSD ~1.14 [9/28] · **T-08 storage −15.44pp [AGSI gas day 9/28, 71.44% vs 86.88% norm] orange OPEN, 0.44pp inside** · **T-07 TTF Oct (TTFV26, exp 9/29) €72.11 / Nov (TTFX26) €71.11 [9/28]; `TTF=F` = Nov now**, L2 open. Carried TE 9/25: OAT 4.73 · BTP 4.50. ⛔ T-12 UNINSTRUMENTED |
-| Niño 3.4 (AEOLUS) | **+3.1°C [NOAA CPC, week 9/23]**, rising weekly (`-011`) |
-| Iran anchor | FULL SWEEP 9/24; 9/28 kinetic line (`-008`) + **9/28 Petroline export leg: Yanbu exports REPORTED resumed, flow ~3.5 mb/d vs ~7 capacity (Bloomberg, 1 source, Aramco silent; `-019`/`-020`)**; **next FULL ~10/01** (+ reconcile the 8/28 "Hormuz reopens"/"US clears mines" headlines) |
-| Calendar | **9/29** Plaza Continental hearing (FDIC/Nano), rent-freeze screenshots, CCL Q3, HY 9/28 print, FALCON + HENRY Tue wakes (PROME) · **9/30** size checks, Russia diesel-ban expiry, Brent Nov expiry, Iraq pullout, EIA/Cushing, Paramount HY pricing · **10/01** NYC rent freeze, CRMT bridge-4, Trepp, Iran full sweep, claims · **10/02** WQ-295 R3 deadline · 10/05 REGINALD WQ-318 wake · 10/06 WQ-252 sitting |
+| RED-FT-03 / -04 · #1 / #2 (Brent) | **Brent settle $102.59, −2.56% [First Squawk 9/29]**; BZX26 $102.61 · BZZ26 $96.16 · CLX26 $89.28 [9/29 ~15:33 ET, vendor bars, provisional]. FT-03 `>130` no · FT-04 `<75` no |
+| REG-T-01 / -02 (KRE / WAL) | **KRE $69.75 (−1.1%) · WAL $74.95 (−2.1%) [9/29 ~15:33 ET intraday]**; REG-T-02 cycle 2 fired 9/1, exit `≥81.90 ×3` 0-of-3 → re-entries |
+| REG-T-08 (SOFR−IORB) | **3.90 − 3.90 = 0 bp [FRED 9/28]**; bar `>+15` no |
+| Boundary #3 (Cushing) | **23.748M bbl [EIA w/e 9/18]**; next **Wed 9/30** |
+| USD/JPY (SAM ladder) | **157.25 [9/29 ~15:33 ET]** |
+| CREED-T-08a | 🔴 FIRED 9/26 eff 9/24 (owner-graded); VNQ $90.43 [9/29 intraday]. CREED-T-01a Sept Trepp print ~10/01 |
+| HANS-T (6 scannable-daily of 17) | **UK 30Y 5.93 [TE 9/29 intraday] = 7 bp under 6.00 orange** · UK 10Y 5.41 (9 bp under 5.50) · Bund 3.62 (13 bp under 3.75) [TE 9/29] · **T-08 storage −15.57pp [AGSI gas day 9/27] orange OPEN** · **T-07 TTF Nov (TTFX26) €68.14 −7.0% [9/29]**, L2 >66 open by ~2 · EURUSD ~1.13. ⛔ T-12 UNINSTRUMENTED |
+| Niño 3.4 (AEOLUS) | **+3.1°C [NOAA CPC, week 9/23]** |
+| Iran anchor | FULL SWEEP 9/24 · 9/28 kinetic + Petroline export legs · **9/29: FALCON marks B1/C14/D85, FAL-05 RESOLVED FAILED route (c)** · `-011` OSINT PS-8/PS-9 claim (DAMAGED per nobody) · **next FULL ~10/01** |
+| Calendar | **9/30** TERRY WQ-316 card (15:00 ET, Will's) · Brent Nov expiry · Russia diesel-ban expiry · EIA/Cushing · Paramount HY pricing · Iraq pullout · PCE · **10/01** NYC rent freeze · CREED-T-01a Trepp · ISM · claims · CARL L468 touch · Iran full sweep · **10/02** NFP (LABOR kill ≥+150K) · **R3 test** · WQ-295 · BOND WQ-317 page · 10/05 REGINALD WQ-318 · 10/06 WQ-252 · 10/13 LABOR KS WARN check |
 
 ## MISSION
 
@@ -40,13 +41,15 @@ Current work and next-owner actions: `LAST_COMPLETION.md`. Sweep evidence: `rese
 
 ## NETWORK AWARENESS
 
-### Today's routing + stale agents (REGENERATED 2026-09-28 evening Tier-2 from REGISTRY; 21 rows refreshed 9/28, header-only; evening: BOND · BRENT · CREED · TERRY · WAL · CORAL · WALTER)
+### Today's routing + stale agents (REGENERATED 2026-09-29 Tier-2 from REGISTRY; 11 rows refreshed 9/29 header-only: CRUISE FALCON SAM LABOR OSPREY HOMER RED VIOLET VULCAN HENRY + NEXUS)
 
-**Liveness at closeout (`ListAgents` 22:5xZ):** live = `prome-7f` (busy), `coral-c9` (busy), `bond-d6`, `brent-d2`. HAWK, CREED, WAL closed since 17:25 ET. `ORCH_INFLIGHT.md` generated 9/21 = stale instrument. **Re-read at every boot; never carried.**
+**Liveness at closeout (`ListAgents` 19:3xZ):** live = `prome-e6` (busy), `bond-1e` (busy), `nexus-46` (busy), `labor-1f`, `liquid-89`, `sam-fc`, `vulcan-d4`, `homer-44` (shell). `ORCH_INFLIGHT.md` generated 9/21 = stale instrument. **Re-read at every boot; never carried.**
 
-**Dark and carrying ACTION (doctor at closeout, basis `delivery_log.timestamp_routed`, >2d):** 43 handoffs across 12 desks, **6 ACTION, oldest 14d** (FALCON 3A; SHADE, HANS, RED 1A each); 97 in flight. **Today's ACTION to dark desks** (inside the 2-day grace): FALCON `-008` (DOORBELLED) + `-019` · HENRY `-009` + `-018` (both on PROME's Tue wakes, L489/L529) · OSPREY `-003` · REGINALD `-004` · HOMER `-006` (Will-directed) · LIQUID `-007` · AEOLUS `-011` · VULCAN `-013` · MARCO `-015`.
+**Consumed today (verified at the owner's commit):** BOND `-001` (7294b66eb), `-003` + `-012` (79987699d) · LABOR `-002` (256baa464), `-010` (765048645) · LIQUID `-003` (b89e9a65e) · NEXUS `-006` (319b391e2). **Delivered, not yet consumed:** MARCO `-002` · CARL `-002`/`-005`/`-008` · VULCAN `-003`/`-010` · VIOLET `-004` · HENRY `-005`/`-006`/`-012` · REGINALD `-005`/`-008` · CREED `-007` · FALCON `-011` · BRENT `-011` · CORAL `-013`; TERRY reads `-004`/`-009` by BOARD diff at its 9/30 wake.
 
-**DOORBELL_LOG today:** +11 rows, 1 doorbelled (FALCON); `-018`/`-019` ride existing wakes.
+**Dark and carrying ACTION (doctor at closeout, basis `delivery_log.timestamp_routed`, >2d):** 21 handoffs across 3 desks, **2 ACTION, oldest 15d** (SHADE 1A/18I, HANS 1A, MARCO 1). **Today's ACTION to dark desks:** MARCO `-002` · CARL `-005` (rides L468 10/01) · FALCON `-011` · CORAL `-013` (Will-directed) · TERRY `-004` (doorbelled; PROME triaged onto the 9/30 wake).
+
+**DOORBELL_LOG today:** +6 rows (MARCO, TERRY ×2 incl. a CORRECTED over-doorbell row, CARL, FALCON, CORAL); 1 doorbell sent (TERRY → PROME), later graded unnecessary on timing (`-009`).
 
 **Unregistered dirs:** `CATO` (manual-only, WQ-255), `_archive` (not an agent).
 
