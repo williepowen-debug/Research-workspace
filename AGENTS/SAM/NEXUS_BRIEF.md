@@ -1,6 +1,6 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-09-29T14:02Z (Tue 10:02 ET, from `date`) — refold after the sub-agent run (KOYOMI/METSUKE/KURA) and PROME's doorbell; views unchanged from the 12:59Z fold. **STATUS provenance:** `477b8064e`. Brief written last per schema Amendment 10. Prior fold (9/24) archived verbatim in `NEXUS_BRIEF_ARCHIVE.md`.
+**As of:** 2026-09-29T14:33Z (Tue 10:33 ET, from `date`) — SAM-42 registered (Will, WQ-336). **STATUS provenance:** `e60913bbf`. Brief written last per schema Amendment 10. Prior fold (9/24) archived verbatim in `NEXUS_BRIEF_ARCHIVE.md`.
 
 🟠 **FOR PEERS, THREE THINGS:** **(1)** The US and Japan ran a **joint verbal campaign for a stronger yen**. Katayama disclosed on 9/25 that Trump raised yen weakness with Takaichi. Bessent said *"the desirability of a strong yen"* (9/25), and Mimura told markets to take the message *"at face value"* (9/28). Both quotes were verified at source. USD/JPY fell from **159.036 [9/24 peak] to 156.498 [9/28 low]**, and **no rate check or intervention was found.** **(2)** Speculators **cut their long-yen book 40%** (CFTC Sep-22 net +71,982, from +120,359), and they did it **before** the verbal campaign. **(3)** The **40Y auction 9/29 cleared firm** (BTC 3.096×, the best of its n=3 series). MOF 10Y **3.082%** / 5Y 2.441% (9/28) set MOF-basis highs, and the **BOJ still did not cap**. ⛔ **Nothing re-arms: SAM is FLAT, v1.7 stands, no successor frame.**
 
@@ -18,8 +18,9 @@
 
 ## CALIBRATION
 
-**Scoreboard: 16 CONFIRMED / 15 FAILED / 1 special / 1 qualified / 1 OPEN**, re-derived from `thesis/PREDICTIONS.tsv` (34 rows).
-- **SAM-33** (the only OPEN row; 72%, to Dec-31): no BOJ emergency long-end capping of a gradual rise. **Ops record audited through 9/29** (`ope20260925/28/29.xlsx`): scheduled sizes, no 25Y+ op, no fixed-rate op. Falsifier un-fired. Next check: **Sep-30 17:00 JST** Oct–Dec schedule (a scheduled taper change does not count).
+**Scoreboard: 16 CONFIRMED / 15 FAILED / 1 special / 1 qualified / 2 OPEN**, re-derived from `thesis/PREDICTIONS.tsv` (35 rows).
+- 🆕 **SAM-42** (registered 9/29 on Will's word): the BOJ hikes above 1.25% by **Oct-31 JST** — SAM **25%** vs the market's ~36% (Totan, frozen 9/29). **For peers: SAM thinks October is overpriced;** the US strong-yen campaign is read as lowering the BOJ's FX urgency (ASSUMED, not observed). Grades on the BOJ statement; a meeting slip = no hike.
+- **SAM-33** (OPEN; 72%, to Dec-31): no BOJ emergency long-end capping of a gradual rise. **Ops record audited through 9/29** (`ope20260925/28/29.xlsx`): scheduled sizes, no 25Y+ op, no fixed-rate op. Falsifier un-fired. Next check: **Sep-30 17:00 JST** Oct–Dec schedule (a scheduled taper change does not count).
 - **SAM-28** `QUALIFIED / NO-VERDICT`: neither a hit nor a miss. **SAM-31** is FALSE; cite it **with** its qualifications. Ruling → `docket/2026-09-19_CATO-R4-RULING.md`.
 - **VECTOR-5** (PROME L328): leg (c) **lapsed 9/25**, when closes fell back below 158. Leg (b) is not met. **Answer stays NONE.**
 
