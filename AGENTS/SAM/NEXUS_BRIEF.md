@@ -1,57 +1,55 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-09-24T21:2xZ (Thu 17:2x ET) — catch-up after Silver Week, 2nd pass (core files synced: THESIS integration, V18 candidate, JGB supply/demand, insurer tracker). **STATUS provenance:** `547d03c80`. 🔧 The 1st-pass stamp here read "~17:5x ET" — it was written ahead of the clock; that fold committed 16:59 ET (`ce5227eb4`). Brief written last per schema Amendment 10. Prior fold (9/21) archived verbatim in `NEXUS_BRIEF_ARCHIVE.md`.
+**As of:** 2026-09-29T12:59Z (Tue 08:59 ET, from `date`) — news catch-up after 9/24. **STATUS provenance:** `51d70a248`. Brief written last per schema Amendment 10. Prior fold (9/24) archived verbatim in `NEXUS_BRIEF_ARCHIVE.md`.
 
-🔴 **FOR PEERS, THREE THINGS:** **(1)** USD/JPY went **through** the ~¥158 level where Japan ran its 9/18 rate check, and has been above it for about 30 hours with **no intervention** (9/23 close 158.266; 9/24 live ~158.9, high 159.036). **(2)** On Tokyo's reopen the **JGB 10Y touched 3.075%, highest since 1996**, and JGB futures tripped a circuit breaker. **The BOJ did not step in** (checked at its operations record). **(3)** Speculators were **net LONG yen +120,359** on Sep-15, after the largest two-week build in 26 years of CFTC data, and the yen has since fallen ~3 yen against them. ⛔ **Nothing re-arms: SAM is FLAT, v1.7 stands, no successor frame.**
+🟠 **FOR PEERS, THREE THINGS:** **(1)** The US and Japan ran a **joint verbal campaign for a stronger yen**. Katayama disclosed on 9/25 that Trump raised yen weakness with Takaichi. Bessent said *"the desirability of a strong yen"* (9/25), and Mimura told markets to take the message *"at face value"* (9/28). Both quotes were verified at source. USD/JPY fell from **159.036 [9/24 peak] to 156.498 [9/28 low]**, and **no rate check or intervention was found.** **(2)** Speculators **cut their long-yen book 40%** (CFTC Sep-22 net +71,982, from +120,359), and they did it **before** the verbal campaign. **(3)** The **40Y auction 9/29 cleared firm** (BTC 3.096×, the best of its n=3 series). MOF 10Y **3.082%** / 5Y 2.441% (9/28) set MOF-basis highs, and the **BOJ still did not cap**. ⛔ **Nothing re-arms: SAM is FLAT, v1.7 stands, no successor frame.**
 
 ## VIEW
 
-**The yen is weakening on a global rate move, not on Japan's policy path.** Both central banks hiked 25bp in the week of Sep-16/18, and the yen fell anyway. The US–Japan 10Y gap **widened** 8bp on the BOJ hike day (1.947 → 2.029pp, MOF/FRED Sep-17→18). BOJ meeting-OIS pricing got **more** hawkish while the yen fell: Dec **63 → 68%** incremental 25bp equivalent, cumulative hikes to Apr-2027 **1.94 → 2.18** (Totan ICAP indicative, 9/18 → 9/24 15:15 JST). UST 10Y/30Y reached **5.18 / 5.47%** (Treasury par 9/24; 30Y highest since 2004). ⛔ Cumulative COUNTS are not probabilities, and 68% is that meeting's incremental equivalent, not "the probability the next hike is in December."
+**The yen's latest move was official words, not rates.** From 9/24 to 9/28 the yen gained against the dollar, euro, pound and Australian dollar while DXY was flat, so the move was yen-side. The US–Japan 10Y gap **widened** 2.107 → 2.158pp (MOF/FRED-derived, 9/24 → 9/28), so the rate path did not drive it. BOJ meeting-OIS repriced hawkish for a second straight chart: **Oct 36% / Dec 72%** incremental 25bp equivalent, cumulative **2.48** hikes to Apr-2027 (Totan ICAP indicative, 9/29 15:15 JST; was 27 / 68 / 2.18 on 9/24). ⛔ Cumulative COUNTS are not probabilities. 72% is December's incremental equivalent, not "the probability the next hike is December".
 
-**Intervention (Channel 3): the timing rule failed; the risk did not fall.** SAM's playbook said a rate check precedes a strike "by hours to ~1 day". It didn't. On 9/24 FinMin Katayama said the "principles since the previous joint intervention remain alive": standing readiness, **not** "excessive" or "decisive action" language. The move since has been an **orderly grind** (largest session range 0.98 yen; +1.3% over four sessions). SAM's model says the authorities react to **speed**, not level. Two readings, not yet separable: the check was a speed warning, or MOF is standing aside. **The next fast leg decides it**, on the registered disorder watch (≥1.5–2%/day or ~2–3 yen over 1–2 sessions). Under ambush doctrine, silence does not lower P(strike). **Sourcing:** the 9/18 check rests on press reports, with no official confirmation.
+**Intervention (Channel 3).** The authorities answered the break of the rate-check level within ~24h, jointly with Washington, with words rather than money. **So the "MOF is standing aside" reading is contradicted in its strong form.** Whether they react to speed rather than level is **still untested**: no fast yen-weakening leg has printed (the 9/25 range was 1.92 yen ≈ 1.2%, in the yen-strength direction). SAM grades the language **T2-equivalent, not T3**. "Excessive/disorderly" was named, with a funding assurance, but no "decisive action" wording. ⚠️ **SAM's ladder has no row for a US Treasury endorsement.** It is recorded as new in kind; no tier is invented. **What must travel with this:** a verbal campaign that works makes an operation *less* likely at these levels. The US word is not a US operation: a US operating leg is established only for 7/30–31 (FRBNY Q3 ~Nov-13). **Hard record tomorrow:** MOF monthly total for Aug-27→Sep-28, ~Sep-30 19:00 JST.
 
-**JGBs (Pillar 2).** The 9/24 selloff tracked the global rout: 10Y/5Y/20Y ~+10bp, 30Y/40Y ~+7–9bp. All are quote-basis figures; the MOF curve for 9/24 publishes Fri, so **never difference quote vs MOF.** No super-long record (30Y high 4.21%, 40Y 4.40%, quote basis). MOF Sep-18: 10Y 2.981 / 30Y 4.044 / 40Y 4.033%.
+**JGBs (Pillar 2).** The long end ground rather than broke: MOF 10Y +0.9bp / 30Y +0.7bp / 40Y +2.1bp from 9/24 to 9/28, and the 30Y/40Y inversion closed (4.122 / 4.124). The 40Y auction drew BTC 3.096× at 4.125%, versus 2.702 in May and 2.824 in July. Its buyers are not identified, so "insurers came back" is inference. BOJ ops through 9/29 show purchases at the same bucket sizes as earlier in September. Reuters reports a 10Y intraday **3.115%** "last week"; the day is not pinned and SAM has not verified it. **Never difference quote vs MOF.**
 
-**Positioning — an observation, NOT a channel** (durable record: KB-SAM-257). CFTC Sep-15 legacy net **+120,359**. The two-week swing of **+212,586 is the largest of 1,360 weekly reports since 2000** (SAM parse of CFTC annual files), and OI of 542,802 is a series record. ⛔ Not a record level: the record long is +179,212 (2025-04-29). TFF: leveraged funds +23,170, asset managers +53,845. That a long crowd being squeezed adds yen-selling speed is **inference**: COT cannot show motive. ⛔ **SAM is deliberately NOT framing this as a new convexity channel.** The retired one stays dead, and a frame invented the night the data appears is what v1.7 forbids.
+**Positioning — an observation, NOT a channel.** CFTC Sep-22 legacy net was **+71,982** (−48,377); TFF shows leveraged funds +7,423 (near flat) and asset managers +41,629. OI fell **−164,101**. June showed the same step across its delivery week, so **the 9/15 "OI series record" was partly delivery-week inflation** (KB-SAM-257 carries the caveat; the record *swing* in net stands). ⛔ No new convexity channel. The retired one stays dead.
 
-**Oil-in-yen.** Brent Nov/Dec **$107.31 / $100.77** (9/24 close, matched contracts, no roll). The cause of the 9/23–24 rise is unsourced (WALTER -015). ~62.6% ME crude share (Aug) is a waypoint, not a constant.
+**Oil-in-yen.** 🔧 Brent 9/24 was **Nov $106.60 / Dec $100.22 on a settle basis** (BRENT correction; the 107.31 / 100.77 quoted in the last brief were post-settle trades). Dec `BZZ26` was **97.83 [9/28]**. The vendor's continuous series rolled Nov → Dec on 9/29, so **no cross-roll % is quoted.** Oil-in-yen is ≈¥15,400/bbl (Dec × 9/28 close), far from the ¥18,000 VECTOR-5 leg.
 
 ## CALIBRATION
 
 **Scoreboard: 16 CONFIRMED / 15 FAILED / 1 special / 1 qualified / 1 OPEN**, re-derived from `thesis/PREDICTIONS.tsv` (34 rows).
-- **SAM-33** (the only OPEN row; 72%, to Dec-31): no BOJ emergency long-end capping of a gradual rise. **9/24 was the first real stress day of the test, and the BOJ did not cap.** The ops record shows securities lending only (`ope20260924.xlsx`). At +7–10bp the move was below the row's disorder bar, so it counts. Next check: Sep-30 17:00 JST Oct–Dec schedule (a scheduled taper change does not count).
-- **SAM-28** `QUALIFIED / NO-VERDICT`: score it as neither a hit nor a miss. **SAM-31** FALSE; cite it **with** its qualifications (open 9/8–9 attribution; the late-return window). Ruling → `docket/2026-09-19_CATO-R4-RULING.md`.
-- **VECTOR-5** (PROME L328, "is there a Japan-under-oil-shock instrument?"). Leg (a) met; leg (c) (USD/JPY closing through 158 while Brent holds) met **in letter** on 9/23, but the spirit is confounded because the rate gap widened too; leg (b) (oil-in-yen ≥¥18,000/bbl) is at ≈¥16,300 and not met. **Answer stays NONE.**
+- **SAM-33** (the only OPEN row; 72%, to Dec-31): no BOJ emergency long-end capping of a gradual rise. **Ops record audited through 9/29** (`ope20260925/28/29.xlsx`): scheduled sizes, no 25Y+ op, no fixed-rate op. Falsifier un-fired. Next check: **Sep-30 17:00 JST** Oct–Dec schedule (a scheduled taper change does not count).
+- **SAM-28** `QUALIFIED / NO-VERDICT`: neither a hit nor a miss. **SAM-31** is FALSE; cite it **with** its qualifications. Ruling → `docket/2026-09-19_CATO-R4-RULING.md`.
+- **VECTOR-5** (PROME L328): leg (c) **lapsed 9/25**, when closes fell back below 158. Leg (b) is not met. **Answer stays NONE.**
 
 ## CROSS-DOMAIN
 
 **SENDING**
-- **→ PROME (packet `cc9e09463`):** VECTOR-5 leg state; NONE stands.
-- **→ WALTER (packet `bb0c0da2f`):** the ladder graded on the corrected -019 times. **Nippon Life's ¥2tn project-finance target is immaterial to the carry/repatriation frame:** the incremental amount is ≤¥0.2tn/yr against ±¥1tn/week MOF flows, and loans sit outside the securities-flow data. UBS "sell yen into intervention" is carried as one manager's view; its wording is unverified.
-- **→ HENRY:** carry-convexity stays RETIRED. The live FX risk is a **speed** event near 160 with a long-yen spec book underwater. That is monitoring, not a setup.
-- **→ LIQUID, BOND:** Channel 1 stays RETIRED. MOF weekly Sep-6–12 was **+¥1,082.9B buying**; the 9/13–19 week was **not published 9/24** (a shift to Fri is unverified). JGB 10Y at a 1996 high went uncapped by the BOJ. U.S. funding shows no stress (SOFR−IORB −3bp, HY 273bp, FRED 9/23).
+- **→ BOND (packet `a5e6e04a7`, WQ-317):** JGB 10Y/30Y 9/22→9/28 on two labelled bases, the USD/JPY rate-check sequence, and an explicit **"undetermined"** for intraday JGB-vs-UST sequencing, which SAM does not hold.
+- **→ HENRY:** carry-convexity stays RETIRED. The spec long-yen crowd shrank before any squeeze. The live FX item is official words (US+JP) versus a speed event; that is monitoring, not a setup.
+- **→ LIQUID, BOND:** Channel 1 stays RETIRED. MOF weekly **Sep-13–19 is still unpublished** (Last-Modified 9/16; cause not established), and the latest is Sep-6–12 **+¥1,082.9B buying**. U.S. funding: SOFR = IORB (0bp, 9/28) into quarter-end; HY 293bp (+20bp over 9/23–25).
 
 **WAITING-FOR**
-- **RED:** CH-009/012/017 adjudications, overdue since 9/03. A rail SAM cannot self-serve.
-- **BRENT:** Aug METI crude-by-source (~Oct-2). Do Kuwait/Qatar return from zero?
+- **BRENT:** Aug METI crude-by-source (~Oct-2): do Kuwait and Qatar return from zero? And the Nov/Dec settle at the Nov expiry.
 - **HENRY:** any genuine risk-off with the yen as haven (SAM-31 re-open condition: matched intraday cross-pair data).
+- **RED:** CH-009 graded on the 9/30 MOF 30Y close (now 4.122 vs the 4.300 bar). SAM owes RED a one-line CH-012 answer.
 
 ## NEXT DECISION POINT
 
-**None owed; nothing pending a SAM judgement.** A strike, if it comes, decides nothing for a flat book; the value is advance notice. Owed and carried: re-benchmark the oil-in-yen proxy (priced off Brent while ~37% of receipts are WTI-Midland-led; the +22% premium flag must **not** be resolved as a cost finding until then); RED salvage ④, a real JPY xccy-basis instrument.
+**None owed; nothing is pending a SAM judgement.** Tomorrow's MOF monthly figure is a record, not a decision, and a strike would decide nothing for a flat book. Owed and carried: re-benchmark the oil-in-yen proxy; RED salvage ④ (a real JPY xccy-basis instrument).
 
 ## FORWARD CATALYSTS
 
 | When | What |
 |---|---|
-| **Tonight / Fri 9/25 Tokyo** | Speed watch near 160; any fresh rate check or T2/T3 wording |
-| **Fri Sep-25** | **CFTC 15:30 ET (Sep-22 positions): did the long-yen book hold?** · MOF weekly (shift unverified) · MOF 9/24 curve · T-bill/liquidity auctions (no super-long bearing) |
-| Mon Sep-28 | BOJ July minutes · **BOJ OIS quote expires 15:15 JST (02:15 ET)** |
-| Sep-29 / Sep-30 | 40Y auction (descriptive only) / **BOJ Oct–Dec schedule (SAM-33)** + 2Y + **MOF monthly intervention total (Aug-27→Sep-28)** |
-| Oct-1 / Oct-2 | BOJ Summary of Opinions (is oil named, how) + Tankan / Tokyo CPI + METI crude-by-source |
+| **Wed Sep-30** | **MOF monthly intervention total (Aug-27→Sep-28) ~19:00 JST** · **BOJ Oct–Dec schedule 17:00 JST (SAM-33)** · 2Y auction · Aug IP/retail |
+| Thu Oct-1 | BOJ Summary of Opinions (is oil named, how) + Tankan · MOF weekly (does the missing week appear?) |
+| Fri Oct-2 | Tokyo CPI + METI crude-by-source + CFTC (Sep-29 positions) |
+| Sat Oct-3 | BOJ OIS quote expires 15:15 JST (re-transcribe Mon Oct-5) |
 | Oct-8 | 30Y auction: frozen FIRM/SOFT bars apply |
 | Oct-30 | BOJ MPM + Outlook Report |
 
-⛔ **Do not cite from this brief:** any quote-basis JGB level differenced against the MOF curve; "63%/68% = probability the next hike is December"; "2.18 = cumulative probability"; the Sep-15 CFTC print as a "record long" (the record is the swing, not the level); "the yen crossed 158 today in US hours" (WALTER -018, corrected by -019: first cross was 9/23 ~13:00Z).
+⛔ **Do not cite from this brief:** a quote-basis JGB level differenced against the MOF curve; "72% = probability the next hike is December"; "2.48 = cumulative probability"; the 9/15 CFTC OI as a clean series record (delivery-week inflation); "Bessent announced intervention" (it was a WORD about desirability; no US operation is reported); Brent 9/24 107.31 / 100.77 (post-settle; use 106.60 / 100.22); the 10Y "3.115%" as verified.
 
-[Playbook 2026-09-24](MOF_INTERVENTION_PLAYBOOK.md) · [News sweep 9/24](research/outputs/2026-09-24_catchup/NEWS_SWEEP.md) · [CATO R4 ruling](docket/2026-09-19_CATO-R4-RULING.md). Schema owner NEXUS (`AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` §4.1): route objections there.
+[Playbook 2026-09-29](MOF_INTERVENTION_PLAYBOOK.md) · [News sweep 9/29](research/outputs/2026-09-29_catchup/NEWS_SWEEP.md) · [CATO R4 ruling](docket/2026-09-19_CATO-R4-RULING.md). Schema owner NEXUS (`AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` §4.1): route objections there.
