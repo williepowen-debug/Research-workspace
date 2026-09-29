@@ -1,6 +1,39 @@
 # NEXUS — LAST COMPLETION
 
-## 2026-09-24 Thu ~17:36–17:5x ET — **CATO RC1 CORRECTION + L0 DRAIN** (PROME spawn `prome-f5`, Tier 1 inside WQ-261; bounded fix + drain, NOT a synthesis pass)
+## 2026-09-29 Tue ~13:2x–14:3x ET — **🔴 FULL REVIEW AFTER 5 DAYS DARK + WQ-340 ONE-ROOT READ** (Will boot: *"You may have been dark a few days. Lets catch up"*; WQ-340 approved 13:25 ET, PROME doorbell)
+
+**Box:** desktop · markets OPEN (intraday) — **no live price used by this desk**; every credit/rates cell = FRED first-published obs 9/28 or earlier (own pull 13:27–13:30 ET), Treasury official cells quoted from HENRY/BOND, 9/29 vendor reads labelled. $0 · no card · no threshold set, moved or fired by NEXUS. R1 corrections check rc=0 (1 broadcast ALL-row warn, COR-20260925-13: NO-OP — NEXUS never carried `GUARD-HELD-PENDING-ARBITER`). ⚠️ WALTER had uncommitted files outside my dir at boot (live session) ⇒ **no pull attempted beyond `--ff-only` (already up to date)**.
+
+### Files read
+`AGENTS/NEXUS/CLAUDE.md` + root · `STATUS.md` · `LAST_COMPLETION.md` · `PREDICTIONS_MONITOR.md` (whole) · `CONFIRMED.md` · 6 top-level + 3 WALTER inbox items · **fleet-freshness scan (all `AGENTS/*/STATUS.md` + `NEXUS_BRIEF.md`, `git log -1`): 37 STATUS + 25 briefs committed 9/24→9/29** · **27 briefs read in full by three fresh-context Opus digest readers (briefs-A/B/C; read-only; structured digests returned)** — a delegation, disclosed on STATUS and BRIEFS_MAP · own raw reads: HENRY STATUS + `research/2026-09-28_FORUM-7_P1-grade.md` + FORUM-7 PREREG §7 · BOND STATUS (top, matrix, BND-30/31) · LIQUID STATUS · RED STATUS · VIOLET STATUS · AEOLUS STATUS · SHADE/WALTER STATUS (via reader) · `PROME/WILL_QUEUE.md` (WQ-340/339/301/295) · `PROME/DOCKET.tsv` NEXUS rows · `PROME/GATES.tsv` rows 4/6/10/24/26 · `HEARTBEAT.md` am.#2 · `FORGE/STATUS.md` header · WALTER BOARD `SIG-W-20260927-001/-002`, `-0925-013` · `FORGE/tools/market-data/config.py` (KRE bands) · FRED: `DFII10 DGS10 DGS30 DGS2 T10YIE VIXCLS BAMLH0A0HYM2 BAMLH0A1HYBB BAMLH0A2HYB BAMLH0A3HYC BAMLC0A0CM BAMLC0A4CBBB SOFR IORB` · `scripts/read_cap_check.py`, `corrections_boot_check.py`.
+
+### Work units
+1. **🔴 WQ-340 DELIVERED — `analysis/2026-09-29_one-root-or-many.md`.** Seven fired lines on five desks = **TWO ROOTS + a control, effective-N ≈ 2:** Root A the price of money (real 10Y 2.63 → 2.90 [9/22→9/28 Treasury], BE +1; ACM P1 PREMIUM 0.685 PROVISIONAL, KW-unchecked) · **Root B an AI-disruption scare in incumbents no owner names as a root** (9/25: rates flat, SPY +0.5%, HY +13 / BB +12 / B +14, cable-led; LIQUID "cannot separate sector from breadth"; same narrative in HENRY's bank read) · control = Rhine. Per-line verdicts SAME-ROOT / INDEPENDENT / UNDETERMINED with mechanism + owner words; chain ordered by fire timestamps; blocked at funding 0 / IG 83 / VIX 16 / primary access open. **Next link: IG OAS >94 (`GATE-LIQ-072`, 11bp).** No owner line re-graded. Receipt → `PROME/inbox/`; doorbell prome-e6.
+2. **PRED-50 / L14 REGISTERED** — my own falsifier for the two-root claim: B OAS on rates-quiet sessions (|ΔDGS10| ≤3), FRED obs 9/29→10/8, ±5 symmetric, ⚪ once → re-window 10/20 then EXHAUSTED, ~55%. 9/25 (the generating print) excluded as in-sample.
+3. **FULL MATRIX REVIEW — 7 re-marked, each on a registered condition:** M-01 ↓3 (60: tape moved toward the bear on credit — a divergence row narrows) · M-03 ↑3 (78: T-26 arbiter resolved UP, 2.90) · M-04 ↑3 (26: HENRY board NEGATIVE both horizons 9/28; 9/18 + 9/25 UNMEASURED; owner fence caps) · **M-06 ↓5 (41: the registered counter — BRENT's ≥0.7 mb/d resolver — LAPSED NOT MET 9/25; FAL-05 FAILED; Yanbu restart REPORTED)** · M-07 ↓5 (79: credit + gamma legs of the counter-cluster turned; labor + funding did not) · **M-08 ↑5 (76: my 9/17 forcing condition "CCC + B TOGETHER" MET on 2 prints — B 300/309; construction defect disclosed: no magnitude was pre-registered ⇒ re-registered with one)** · M-09 ↑3 (69: `LIQ-069` 2-of-2 on its letter + PJM 4th emergency = a NEW instance of the armed power type). M-05 / M-10 / M-11 HELD, dates NOT bumped. **Split HELD 20/47/33 — L13 anchor 2.85 published, cell 1 (2.83) neither.**
+4. **Two new tensions:** **T-27 Root B is UNOWNED** (ask to PROME: assign or rule non-root) · **T-28 three fleet clocks disagree by a day** (MU Wed 9/30 · METI 9/30 JST vs ~10/2 · BOJ 10/30 vs 10/29). **R12 European rivers** added to the antecedent map (AEOLUS C5 fired 9/28, ONE root, the WQ-340 control). Panama "A-33" corrected to **A-36 (loosening)**.
+5. **L2 CLOSED as STALE-RESOLVED** — CARL's kill-rule re-spec was resolved at the owner 8/27 (L191); my ledger carried "~9/30" for 33 days. Chain link CARL→REGINALD rewritten (CRL-08 MISSED 9/30; CRL-27 ruled option A, WQ-287).
+6. **Inbox 9 → 0** (6 top-level + 3 WALTER; `board_log.tsv` 9 rows, ISO+ET). Dispositions: LIQ-069 → M-09 acted · REGINALD re-arm → M-08 acted · FORUM-7 ×2 DEFERRED to the FINAL (10/1; §7 NEXUS row = "letter untouched" in every verdict, provisionally CONCUR; formal packet to HENRY owed by 10/2) · WQ-295 → **CADENCE ON-DEMAND declared** (packet) · YURI → BRIEFS_MAP row · OSPREY 5/5/3 → R9 · WQ-340 → delivered.
+7. **Read-cap:** `BRIEFS_MAP.md` **32,630 (100%) → ~15 KB** — ★8/17→★7/17 layers rotated verbatim → `archive/BRIEFS_MAP_COLD_2026-09-29.md` (`crc32 a3de18d8`), live rules restated in the ★9/29 delta · STATUS 9/17 header-patch/BOTTOM LINE/LAST RUN → `STATUS_COLD.md` §H11 (`crc32 e050aecb`) · LAST_COMPLETION 9/11 + 9/07 blocks → `archive/LAST_COMPLETION_COLD_2026-09-29.md`. 🔴 **Class-row finding: BOND's brief 75,860 B = 140% of the CAP — cannot be read whole; packeted to BOND** (RED/ZHAO/BROCK over budget, readable).
+8. **9a ROLLUP #5 DONE (owed five passes) → `brief_health.md`:** 12 fallback rows this pass (7 `stale` · 5 `convergence` · 0 `brief-gap`); window since #4: `brief-gap` 1 (HENRY 9/11) — no fix-or-drop warranted; **LIQUID chronic-stale (37d, 2 passes)**; **rollup #6 DATED ≥10/27** so it stops losing to dated work.
+9. **Consumer corrections received in-session (PROME 13:4x):** BOND's brief STALE-MISLEADING (9/24 body; cold read 8 ❌) — **no BOND brief cell was used**; all BOND figures came from BOND STATUS (15/35, row 4 MET, BND-27 FALSE, ×15). BOND re-pinned `a317b2a95` same hour.
+
+### Closeout checks
+9 STATUS sanity: <200 lines · Δ/Last-upd consistent (held rows keep 09-02 / 09-17) · docket pruned (09-18→09-29 consumed) · threshold table BREACHED → PROXIMATE → NOT CONFIRMING · every new path cited exists (analysis page, cold files) · **9b from the change:** M-08/M-06 conf moves are not STATE; **L2 CLOSED is** — carried on PREDICTIONS_MONITOR (row + header) and STATUS chain link; C-35/C-36 pointer annotations only (P1 provisional) — no CONFIRMED row changed state · **9c closing re-scan run at commit** (see git log in the commit body) · 10: no past-trigger row moved mid-session (9/30 resolvers are tomorrow) · 11–13 done · 14 below.
+
+### ⚠️ NOT done and owed
+- **9/30 resolvers (PRED-45 · 43 · 24 · 37) + 10/1 PRED-48 — grade at the first boot ≥10/1**; PRED-45 needs a BROCK/DEWEY First Brands Ch.7 read (BROCK brief stale — raw STATUS).
+- **FORUM-7 FINAL (Thu 10/1 ~16:15) → §7 NEXUS-row CONCUR-or-disagree packet to HENRY (cc PROME) by the 10/2 boot.**
+- `PREDICTIONS_MONITOR` rotation (~88%).
+- **A CREDIT leg for the split** — the letter cannot see this week's move; flagged to PROME as a Will decision (frozen gate, 9/02), NOT registered by me.
+- `GATE-LIQ-076`'s consequent names a "joint PROME/NEXUS amplification write-up" — LIQUID delivered its half; NEXUS's half is the WQ-340 page's R7 row; confirm with PROME whether more is owed.
+
+### Promotion scan
+**Two extension candidates, no new file (dedup-before-create):** ① `finding_dated_carry_item_has_no_expiry_check` — L2 carried a resolved item 33 days (n+1, my own ledger); ② `finding_two_legs_with_independent_vintage_clocks_mix_dates_invisibly` — the `BZ=F` Nov→Dec roll (9/25) read as "Brent −5.6% / −8.6%" on ≥2 surfaces, the identity-keyed class recurring one contract later exactly as the 9/17 note predicted (n+1). Both flagged to PROME in the receipt; no auto-memory written this pass.
+
+---
+
+## PRIOR — ## 2026-09-24 Thu ~17:36–17:5x ET — **CATO RC1 CORRECTION + L0 DRAIN** (PROME spawn `prome-f5`, Tier 1 inside WQ-261; bounded fix + drain, NOT a synthesis pass)
 
 **Inbox 2 → 0** (2 top-level: PROME CATO-RC1, DAEDALUS rule-16; WALTER lane 0), both in `board_log.tsv`, `git mv`'d to `processed/`. R1 corrections check rc=0.
 
@@ -61,71 +94,4 @@ Closeout 9c fleet re-scan · 9a rollup #5 (now owed a FIFTH pass) · rule-5 rota
 
 ---
 
-## PRIOR — ## 2026-09-11 Fri ~10:3x–11:0x ET — **L289 GRADE DAY: T-12 C#2 + count-once evidence types** (PROME Tier-1 due-row spawn, WQ-184; `PROME/DOCKET.tsv` L289)
-
-**Box:** desktop · markets OPEN — every level written this pass is a FRED cell dated in-cell (live pull 10:37 ET) or an owner's dated settle quoted from the owner's fold; **no live equity/oil price was pulled by this desk and none is claimed.**
-
-### Files read
-`AGENTS/NEXUS/CLAUDE.md` (BOOT + closeout) · `STATUS.md` · `LAST_COMPLETION.md` · `PREDICTIONS_MONITOR.md` (whole) · `CONFIRMED.md` (header) · `SIGNALS.md` · `BRIEFS_MAP.md` (order-cell block) · 6 top-level inbox packets + 3 WALTER signals · `research/2026-09-02_t12_respec_admission_gate_prereg.md` · `research/2026-08-12_split_falsifier_RESOLUTION.md` §86 + ADDENDUM 2 · `research/2026-08-28_successor_falsifier_RESOLUTION.md` §7 · `research/2026-08-03_split_and_coverage_prereg.md` L58 · FRED `BAMLH0A0HYM2` + `BAMLH0A3HYC` (fetch.py + fredgraph.csv, 8/26→9/10) · `PROME/DOCKET.tsv` L249/L289/L291/L304/L319/L329 · `memory/2026-09-11.md` · `BOARD/SIG-W-20260908-001-ERRATUM…` · `BOARD/SIG-W-20260828-045…` (head) · `AGENTS/WALTER/registry/DEEP_RESEARCH_FLAGGED_LOG.tsv:34` · `AGENTS/WATT/reports/2026-09-10_DOCKET-L249_202c-lapse-grade.md` · folds: FALCON · BRENT · HAWK · HENRY (head) · VIOLET · MIDAS · SAM `NEXUS_BRIEF.md` (all committed 9/10 23:40 → 9/11 10:28) · `AGENTS/OSPREY/STATUS.md` ACTIVE + aggregates · PROME processed memos: HENRY VECTOR-4 · FALCON + BRENT Petroline.
-
-### Work units
-1. **🔒 T-12 C#2 GRADED — BRANCH C, NO-VERDICT, EARNED, FINAL; NON-RENEWABLE CLAUSE EXHAUSTED.** Window 8/28→9/10 as pinned: HY 260 · 263 · 265 · 266 · 265 · 268 · 268 · 267 · 271 · 270 (max 271, min 260.0 — not <260); CCC 1026 → 1070 (+44bp) vs HY +10bp. A and B both NOT MET. Record `research/2026-09-11_t12_c2_grade_and_gate_run.md`.
-2. **Re-spec FORCED ⇒ ADMISSION GATE run on what exists (WQ-163 ⑤ NO SPEND): 0 of 4 pre-named candidates admissible** — CCC flow share · issuance/refi · single-name CDS have **no feed at this desk** (SEARCH-NOT-FOUND, not base-rateable); the **319bp basket launched 7/23 ⇒ ~35 sessions vs the gate's ≥250** — inadmissible by construction until ~mid-2027. **NO successor registered; the split now carries "currently un-falsifiable" on its own line (Disc-J).** The CCC-relative 21s ±50bp spec passes the arithmetic and is EXCLUDED by the letter — offered to Will as an observable. Letter unamended ⇒ WQ-163 item 3 not triggered.
-3. **L1b premise CORRECTED** (WALTER `SIG-W-20260908-005`, VERIFIED at FRED): the 9/7 cell exists (268); the necessary condition was the 9/8 cell alone. Conclusion unchanged.
-4. **L7 PJM §202(c) GRADED on WATT's L249 record: QUIET LAPSE** — (a) NO · (b) NO [VERIFIED] · (c) UNKNOWN [para-E utilisation report unpublished — named open leg]. Type stays ARMED at 0pp; row CLOSED as evidence AGAINST the power-constraint leg. **M-09 HELD 66** (the type contributed 0 going in).
-5. **Six candidate evidence TYPES weighed count-once (20/47/33 — 0 counted):** Petroline **ARMED** (FALCON tell #2 NOT FIRED · BRENT BG-02 NOT MET ×4; counts on L329 throughput resolver ≥0.7 mb/d by 9/25) · PJM GRADED quiet (AGAINST, 0pp) · Panama **ARMED, owner-ungraded** (AEOLUS dark since 8/27; new unrooted candidate row in the antecedent map) · Russia refining = existing R9 type, ~30% confirmed at centre, R9 refreshed off `[STALE 8/17]` at the owner surface, 0pp · five vector reads = desk evidence inside existing roots (HAWK corrects the "3 of 4 chokepoints" framing — Red Sea RECOVERING; VIOLET vol NOT cheap + OVX/VIX p96.6 numerator-led fire; MIDAS 2022-type real-yield regime, DFII10 nowcast ~2.53; SAM NONE; HENRY AAL/LUV gate shut) · diesel crack $110.87 > 2022 peak = a level on the products leg, 0pp. **Disc-D now satisfiable and READ for M-06:** the 9/8–9/10 tape re-priced a PREMIUM (Brent `BZX26` 107.63 settle, +~11%/3 sessions; HY +2bp; XLE −0.6% on the up-day) — stands AGAINST counting. **Split UNCHANGED on the letter (a C scores NOTHING).**
-6. **Corrections:** `COR-20260908-01` **APPLIED** — the NVDA "procurement of memory" absence claim flipped at primary; live carriers corrected (STATUS M-09 · SIGNALS header); $119B→$279B and share-undisclosed HOLD. `COR-20260910-01` **NO-OP** — NEXUS carries no $29B figure (grep VERIFIED). `corrections_boot_check.py NEXUS` rc=0.
-7. **PRED-45 + PRED-43 re-marked** (queued 8/28 · missed 9/02 · missed 9/07): PRED-45 HELD 35 with the dead 8/4–8/7 venues struck and a dated 9/30 resolver (First Brands Ch.7 sale process at BROCK/DEWEY); PRED-43 ~30 → ~10 with the 7/22 premise struck and a 9/30 resolver (no verified Dimona strike ⇒ ❌F). **Why the queue lost three times:** undated re-marks lose to dated work; both now carry dates. Duplicate ledger ID fixed (second "L7" → L10).
-8. **Inbox 8/8 drained** (5 top-level + 3 WALTER; 9 `board_log.tsv` rows incl. the task packet). BRIEFS_MAP SAM `order` cell → A12 (VERIFIED on disk: CROSS-DOMAIN at byte 766 of 16,106 B).
-9. **Read-cap:** STATUS 32,491 → 33,835 after the grade landed → **32,268 B** after rotating 10 settled blocks verbatim (crc32 each) to `STATUS_COLD.md` §H7n; `read_cap_check.py --agent NEXUS` **rc=0**.
-
-### Fallback log
-**2 rows:** OSPREY `convergence` (R9 owner-surface chase via STATUS) · HENRY `brief-gap` (9/11 header over a July-vintage CROSS-DOMAIN table — the diesel fold had to be read from the PROME memo). **HENRY's is the quality signal.**
-
-### ⚠️ NOT done and owed
-- 🔴 **FULL MATRIX SWEEP — THIRD consecutive non-sweep** (9/03 · 9/07 · 9/11). 9/4 NFP + T-03 + MIDAS-08 owner grades still unconsumed. **First act next session, before any dated item.**
-- Fallback rollup #5 (#4 shipped 8/28).
-- Verify the 9/07 PROME GATES-header copy-kill packet was sent (WALTER's twin is receipted 9/08).
-- PROME's packet asked for a "NEXUS_BRIEF fold" — NEXUS maintains no `NEXUS_BRIEF.md` (it is the consumer); nothing to fold. Noted in the memo.
-
-### Next boot owes
-(a) 🔴 full matrix sweep · (b) 9/14 Yanbu loadings (L329 R2) + GATE-FALCON-001 review folds · (c) Will's word on the T-12 successor path — (i) feed/owner · (ii) CCC-relative observable · (iii) carry the line · (d) 9/16 cluster (FOMC + VIX SOQ + WPSR SPR + July TIC + MOF trade balance) · (e) rollup #5 · (f) 9/25 L329 window close · (g) 9/30 PRED-45/43 resolvers.
-
-### Promotion scan
-None new. One extension flag carried in the memo: `finding_dated_carry_item_has_no_expiry_check` gains the L1b instance (a holiday-calendar assumption about a series that publishes on holidays) — extension, not a new file; flag to PROME, no auto-memory written this pass.
-
----
-
-## PRIOR — ## 2026-09-07 Mon ~12:1x–13:4x ET — **FORUM FALSIFIER GRADE DAY ①** (PROME Tier-1 due-row spawn, WQ-184 L0; `PROME/DOCKET.tsv` L39)
-
-**Box:** desktop · **US Labor Day, markets CLOSED** — every level written this pass is a FRED cell (live pull 13:0x ET, series ends 9/3) or an explicitly dated prior close. No live price was available and none is claimed.
-
-### Files read
-`AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` §4.1/§4.6/§5.3 · all 26 `AGENTS/*/NEXUS_BRIEF.md` (byte offsets of `## CROSS-DOMAIN` / `## VIEW`) · `AGENTS/LABOR/NEXUS_BRIEF.md` at `8df8756d2` vs HEAD · Root `CLAUDE.md` (injected) · `AGENTS/NEXUS/CLAUDE.md` · `STATUS.md` · `PREDICTIONS_MONITOR.md` (L1–L6) · `CONFIRMED.md` (C-36 row) · `BRIEFS_MAP.md` (census block) · `brief_fallback_log.tsv` + `board_log.tsv` headers · 4 inbox items · `FORUM/2026-08-07_system-review/06_proposals/{03,05}` (the two falsifier letters) · `PROME/DOCKET.tsv` L39/L200/L249/L289 · `PROME/GATES.tsv` header + `PROME/tools/prome_gate.py` · `scripts/session_banner.sh` · `scripts/corrections_boot_check.py` · `AGENTS/VULCAN/NEXUS_BRIEF.md` (9/6 writeback, `501351e67`).
-
-### Work units
-1. **ABN falsifier — GRADED, branch 1 MET ⇒ REPLACE.** 30-day fire history reconstructed by replaying `scan_gates_rows` against every daily `GATES.tsv` commit 8/08→9/06 with `today` set to that day: **1 fire / 23 measured days**, plus **0** on today's live `prome_gate.py boot` ⇒ **≈0.23/week**, so the ~5/week nag branch is **refuted numerically**. ≥4 BOND-class waits ran in the same window (HENRY gamma flip · OSPREY Ch-3 · RED-FT-09 · this desk, dark twice) and ABN saw none. **Cause is SCOPE: 1 of 4 proposed surfaces, cadence clause never built, no every-agent-boot hook** (VERIFIED: `session_banner.sh` has zero ABN references). Successor `spawn_list.py` fired **3** on this same boot vs ABN's 0.
-2. **Copy-kill falsifier — GRADED, NOT ZERO ⇒ 2 of 3 classes need declared fields.** KILL-1: **1 new** (`AGENTS/WALTER/CLAUDE.md:64`, 9/03 — cwd-relative dead path inside its own staleness guard). KILL-3: named instance **CURED**; **1 new** (`PROME/GATES.tsv` header restating READ_CAP numbers, 9/03). KILL-2: **never executed, in my own file** — executed today. Third branch **UNRESOLVED-BY-CONSTRUCTION** (no recognition prose was ever deleted).
-3. **🔴 D-1 REPAIRED** — `CONFIRMED.md` C-36 had read `CONTESTED` for **33 days** after BOND ruled it a `SPLIT` on 9/1; the ruling reached STATUS 9/02 and never reached the trophy case. Closeout **9b's founding example, recurring in the row 9b was founded on**. Provenance kept in the row.
-4. **C#2 reachability pre-registered (`PREDICTIONS_MONITOR` L1b)** — the only possible sustained-3 runs are `{9/4,9/8,9/9}` and `{9/8,9/9,9/10}`, both containing 9/8 and 9/9 ⇒ **the C#2 verdict cannot depend on the 9/11 CPI print** (window ends 9/10). **C can lock on 9/9.**
-5. **9/8 PJM §202(c) check pre-registered (L7)** — extension / EEA-2-3 / issued large-load direction ⇒ ARMED→COUNTED; **a quiet lapse closes the row as evidence AGAINST, not neutral.**
-6. **9/05 US–Iran exchange — ARMED, NOT COUNTED, 0pp; split UNCHANGED 20/47/33.** New evidence TYPE for R2, but every R2 instrument is impeached, 3 hulls ≪ ~59 transits/day, single episode, and **Disc-D is unsatisfiable — first tradeable close is 9/8.** RELAYED, not verified at primary by me; BRENT/FALCON own it.
-7. **Consumer read — VULCAN 9/6 CONFIRMED, not disputed.** Pin `89493b76e` **is** VULCAN's STATUS HEAD (STATUS 16:23:57 → brief 16:24:53) ⇒ **trigger-(a) drift 0.** No VULCAN figure sits on any NEXUS surface.
-8. **Inbox 5/5 drained** (DAEDALUS D-1 · PROME WQ-176 leg ① confirmed `cut as drafted` · PROME WQ-163 ⑥ · WALTER `SIG-W-20260904-001` → `board_log.tsv` `noted`).
-9. **Read-cap:** STATUS rotated **32,508 → 32,491 B** across §H7a–m of `STATUS_COLD.md` (verbatim, crc32-stamped); `read_cap_check.py --agent NEXUS` **rc=0, all 5 surfaces under budget.**
-
-### Fallback log
-**No row.** Zero brief→STATUS fallbacks this pass — the only brief read was VULCAN's, as a consumer check, and its pin was current.
-
-### ⚠️ NOT done and owed
-- **9/4 NFP + T-03 + MIDAS-08 owner grades NOT consumed.** This was a falsifier-grade pass, **not a matrix sweep** — and it is the **2nd consecutive delta-annotation pass**. A full loop is owed at the ≥9/11 session (CLAUDE.md 9c: past ~2 patches a board stops being trustworthy).
-- **PRED-45 + PRED-43 re-marks — missed a THIRD time** (queued 8/28, missed 9/02, missed 9/07). ≤9/11. **This is now a pattern, not a slip; the next pass should ask why the queue keeps losing to whatever is dated.**
-- **R9 unswept at owner level** — `[STALE 8/17]`, not inherited.
-- **Fallback rollup #5** not run (#4 shipped 8/28).
-- ~~DEFERRED~~ ✅ **ANSWERED IN-SESSION at PROME's ask (DOCKET L298, due 9/12 — closed 9/07).** DAEDALUS's amendment-12 packet: rollout rule **RULED and encoded as schema `§4.1-R`** (owner **NEXUS**; trigger **each desk reorders at its next re-pin**, which adds no duty since the fold is already mandatory; standing consequence — no amendment ratifies without naming trigger + owner + conformance surface in the same word). **`order` conformance cell live in `BRIEFS_MAP.md`** (`A12`/`pre-A12`/`n/a` + the regenerating command). **ACTION ③ MODIFIED and the disagreement stated:** a 14-owner packet round is a SAMPLE (`[[finding_hand_fixing_named_rows_is_not_fixing_the_class]]`) — replaced by the map cell plus **escalation sorted by CONSEQUENCE, not conformance** (packet only where `## CROSS-DOMAIN`'s byte offset exceeds 54,250). 🔑 **6 files exceed the cap; exactly ONE puts CROSS-DOMAIN beyond it ⇒ 1 packet (SAM), not 14.** 🔴 **DAEDALUS's packet was OVERTAKEN:** LABOR reordered at `5ee78189c` (12:27 ET), CROSS-DOMAIN **55,629 → 2,952**, so the 🔴 set halved to one and LABOR needs nothing — `[[finding_directive_overtaken_between_authorship_and_delivery]]`, and re-measuring the target is what removed 13 of 14 packets **and** dissolved the LABOR fence. Packets: SAM + DAEDALUS. 🟡 **Open, not adjudicated:** VIOLET and OSPREY carry `## VIEW` with no `## CROSS-DOMAIN` — neither FULL nor COMPACT. ⭐ Same class as my own KILL-2 miss: an edit to canon with a surface list and no owner, **twice in one morning, in two different files.**
-
-### Next boot owes
-(a) 🔴 **a FULL matrix sweep** — the limit is reached; (b) **9/8** §202(c) + BCRED backstop + BRENT's Hormuz control folds; (c) **9/9** C#2 reachability check (L1b); (d) 🔒 **9/11** C#2 grade on the pinned window + the ADMISSION GATE against the flow/volume candidates, escalating the data-feed gap if none clears; (e) PRED-45/43; (g) R9 owner sweep; (h) fallback rollup #5.
-
-### Promotion scan
-**One cross-agent candidate, and it extends an existing memory rather than creating one** — `finding_a_correction_pass_is_unreviewed_work` gains a new instance class: **both new copy-kill instances were minted BY de-duplication passes**, i.e. the commit that moves rules to their proper home is exactly where a leftover copy gets created. Per the promotion rule this obligates a flag to PROME (carried in the delivery memo) rather than a unilateral edit; no auto-memory file written this pass.
+📦 **Older PRIOR blocks (9/11 · 9/07) → `archive/LAST_COMPLETION_COLD_2026-09-29.md` (verbatim, crc32 `5dd1c9e0`).**

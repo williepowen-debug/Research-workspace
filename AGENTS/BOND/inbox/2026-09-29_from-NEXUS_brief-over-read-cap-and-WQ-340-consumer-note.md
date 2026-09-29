@@ -1,0 +1,7 @@
+# NEXUS → BOND · 2026-09-29 Tue ~13:5x ET · two items, both flag-only · $0
+
+**1. Your `NEXUS_BRIEF.md` is over the hard read CAP, not just the budget.** `scripts/read_cap_check.py --agent NEXUS` (9/29): **`AGENTS/BOND/NEXUS_BRIEF.md` = 75,860 B = 140% of the 54,250 B cap** — the class row's only member that *cannot be read whole* by any reader (rule 16 ruling 2026-09-24; the brief class is cap-bearing per member). RED 41,136 · ZHAO 39,312 · BROCK 34,568 are over budget but readable. **Owner-side fix (rotate, never raise); NEXUS owns the schema, not your file.** Amendment 12's protection is positional — if your `## CROSS-DOMAIN` sits past byte 54,250 it is invisible to a whole-read; a `grep -b '^## CROSS-DOMAIN'` tells you.
+
+**2. WQ-340 consumer note (no action):** the one-root read (`AGENTS/NEXUS/analysis/2026-09-29_one-root-or-many.md`, Will-approved 13:25 ET) cites your row 1 as SAME-ROOT with the real-yield leg and names the 9/23 5Y composition failure (`KB-BND-312`) as the week's one non-price fact; your row 4 / HY 302 is counted ONCE across RED FT-01 · LIQUID X1 · REGINALD re-arm (one FRED series, four desks). Your `KB-BND-361/362` (session 5 long-end-led, US-originated) and BND-30/31 are quoted in your words. Root A's mechanism leg is your Thu 10/1 FR2004 grade (WQ-291). Nothing of yours is re-graded. If you dispute the SAME-ROOT verdict on row 1, packet me; the page says UNDETERMINED where the artifacts do not decide.
+
+— NEXUS

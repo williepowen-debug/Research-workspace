@@ -874,3 +874,25 @@ See **`LAST_COMPLETION.md`** — canonical for this pass. 📦 Pre-sweep board �
 ## §H10 — 2026-09-17: the resolved 09-11 → 09-17 catalyst-docket row (verbatim, rotated at the sweep)
 
 | ✅ **09-11 → 09-17** | **SWEPT AND CONSUMED:** 9/11 CPI (core 2.4%) · **9/15 20Y-R, the FIRST `I'` fire (ind 52.47 vs 61.72) — 🟠 MARKER, mechanism intact, bid substituted (direct 30.68 = modern-series high)** · **9/16 FOMC +25bp + SEP** · VIX SOQ 16.79 vs spot 17.71 · **July TIC** · WPSR (**SPR L305 Branch A**; Cushing 21.482M above alert) · MOF August trade · 9/11 Saudi MoE statement · 9/11–13 Perim/Mayyun · **9/14 Exxon Joliet/Channahon 275 kb/d shut on a Sunday power outage (~6% of Midwest refining, US utilization ~98%)** · 9/15 Syzran. | ✅ **RESOLVED** |
+
+
+## §H11 — 2026-09-29: the 9/17 header patch line, BOTTOM LINE and LAST RUN (verbatim, rotated at the 9/29 full pass; crc32 e050aecb)
+
+### §H11a — 9/17 header patch line P1–P3 (verbatim)
+⚠️ **DELTA-ANNOTATED AFTER THE SWEEP CLOSED, NOT RE-SWEPT (9c), and the board is now CLOSED to further patching tonight** — my own rule is that past ~2 patches a surface stops being trustworthy, and the next boot is owed a proper pass. **Three patches, all disclosed, all ONE obligation thread — the successor ask's registration and scope, not three re-reads:** **P1 (~22:0x)** the closing fleet re-scan caught **WALTER committing at 21:31, mid-boot** — three rows annotated (`RED-FT-10`'s run BROKE 9/15 ⇒ 0-of-4 · Petroline day 7, **force majeure NOT declared** · core CPI 3-mo ann 1.97%) · **P2 (~22:1x)** `WQ-224` registered · **P3 (~22:3x)** `WQ-224` (ruled, flow-feed) split from `WQ-261` (unruled, mine). *(Also consumed, not scored: **BoE held 3.75% and paused APF gilt sales 9/17** — no NEXUS root owns the UK.)*
+### §H11b — 9/17 BOTTOM LINE (verbatim)
+## BOTTOM LINE
+
+**The loudest macro week of the quarter produced a WIDER divergence, not a nearer break — and this board had no instrument that could say so in a number.** Both sides of that sentence are in figures in the split block above and are not restated here.
+
+**Three findings the sweep produced that no shorter pass would have.** ① **M-08's benign explanation died at its own owner's hand** — REGINALD inverted the denominator-artifact reading that Will's escalation stand-down rested on, then moderated itself the same session: **concentrating, not migrating**, and **the tell is the B tier, not CCC.** ② **REGINALD's re-arm conjunction moved by the leg I said would not** — HY printed **276 on 9/15**, the first qualifying close in the row's life, then fell back; my 9/11 *"the hard leg went nowhere"* is reversed in writing. ③ **Four claims on this board are dead and their owners killed them, not me:** the ULSD crack's 2022-peak superlative · Petroline's "verified absence of a sovereign statement" · the JGB series-high row · "AEOLUS is dark with A-33 unread" (Panama's escalation is **paused**, Gatún **rising**).
+
+**And the thing I did not do: move the split.** 20/47/33 for a fourth pass, openly un-falsifiable. **Holding a number through a week like this is uncomfortable, and it is the rule working.** The week handed the ask a concrete candidate — a **real-rate / terminal-path instrument** outside the impeached spread-level class — **and it is still not registered.** It is not pre-named in the frozen gate; I excluded the CCC-relative spec on that exact ground six days ago; and **`WQ-224`'s 9/17 tap approved the FLOW-feed path, not this one.** It waits for Will.
+### §H11c — 9/17 LAST RUN (verbatim)
+---
+
+## LAST RUN
+
+See **`LAST_COMPLETION.md`** — canonical for this pass, including the full owed-list. 📦 §H8 (`crc32 46c68326`) pre-sweep · §H9 (`crc32 74329414`) this sweep's long form.
+**9/17 FULL MATRIX SWEEP** (4×-owed, discharged). 11 rows re-read · **7 re-marked** (M-01 ↓3 · M-03 ↑3 · M-04 ↑3 · M-06 ↑3 · M-07 ↑3 · M-08 ↑3 · M-10 ↓5) · **2 new tensions** · **4 owner-corrections applied** · **17 inbox items drained** · **PRED-30 graded** · **`WQ-224` registered, needed_by 9/19.** **Split unchanged; $0; no threshold set, moved or fired by this desk.**
+**Next boot owes, in priority order:** (a) **9/18 BOJ + OPEX + HENRY's gamma board — M-04's arbiter** · (b) **9/25 Petroline resolver (L329)** · (c) **`WQ-224` — Will's word on the successor, and read its SCOPE** · (d) rule-5 rotation on both files · (e) **fallback rollup #5, with a date** · (f) 9/29–30 cluster · (g) 10/01 PRED-48 · (h) 10/16 August TIC.

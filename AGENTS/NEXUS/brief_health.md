@@ -4,6 +4,32 @@
 
 ---
 
+# ROLLUP #5 — 2026-09-29 (owed since ~9/03 — FIVE consecutive passes; #4 was 8/28). Window: rows dated after 2026-08-28 → 17 rows across 3 passes (2026-09-11, 2026-09-17, 2026-09-29).
+
+**Cause mix:** `brief-gap` 1 · `convergence` 7 · `stale` 9. **`brief-gap` rate = 1/17** — the quality signal.
+
+| Desk | stale | convergence | uncertainty | brief-gap | Read |
+|---|---:|---:|---:|---:|---|
+| HENRY | 0 | 1 | 0 | 1 | healthy Type-B chase |
+| LIQUID | 2 | 0 | 0 | 0 | 🔴 chronic freshness — 2 consecutive passes, 37d drift |
+| BROCK | 2 | 0 | 0 | 0 | freshness |
+| AEOLUS | 0 | 2 | 0 | 0 | healthy Type-B chase |
+| OSPREY | 0 | 1 | 0 | 0 | healthy Type-B chase |
+| SHADE | 1 | 0 | 0 | 0 | freshness |
+| WALTER | 1 | 0 | 0 | 0 | freshness |
+| REGINALD | 1 | 0 | 0 | 0 | freshness |
+| CARL | 1 | 0 | 0 | 0 | freshness |
+| YURI | 1 | 0 | 0 | 0 | freshness |
+| BOND | 0 | 1 | 0 | 0 | healthy Type-B chase |
+| RED | 0 | 1 | 0 | 0 | healthy Type-B chase |
+| VIOLET | 0 | 1 | 0 | 0 | healthy Type-B chase |
+
+**Decision rules applied (CLAUDE.md 9a):** ① `brief-gap` ≠ 0 only at HENRY (9/11, the July-vintage CROSS-DOMAIN table) — n=1, under every threshold, no fix-or-drop conversation warranted. ② **High `stale`: LIQUID (brief 8/23, 37 days — the widest drift in the fleet, flagged two passes running) and BROCK (header 9/02)** — a freshness-discipline flag to the owners, NOT a brief-quality verdict; PROME already has LIQUID's under WQ-229-class repair. ③ `convergence` rows (HENRY/BOND/RED/VIOLET/AEOLUS 9/29; OSPREY/AEOLUS earlier) = the WQ-340 root chase — healthy synthesis, not penalised. ④ **Structural rows** (WALTER brief-less by design; SHADE dark) are logged `stale` per legend and are not brief defects.
+
+⚠️ **Instrument caveat carried from #4:** trigger (a) is mechanical only where a resolvable pin exists; this pass's freshness was computed by commit DATE (`git log -1`) fleet-wide, plus the three digest readers' pin checks (CARL 1 behind; HOMER/WATT/BOND/MIDAS carry no pin line; YURI pin = its own commit). **Why #5 was late five times:** it is undated and loses to dated work every pass — the same failure the PRED-45/43 queue had. **Fix applied: rollup #6 is DATED — first boot ≥ 2026-10-27 (4 weeks), written into STATUS's docket.**
+
+---
+
 # ROLLUP #4 — 2026-08-28 (overdue since 8/3; #3 was 8/3, #2 7/28, #1 7/17)
 
 ## 🔴 0. RETRACTION, first because it governs everything below
