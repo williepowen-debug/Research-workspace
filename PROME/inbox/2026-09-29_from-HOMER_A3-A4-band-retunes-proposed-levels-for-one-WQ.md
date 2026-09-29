@@ -35,3 +35,18 @@
 **Will's decision:** A4, adopt 100/130/175K (or Red 185K), or keep disarmed · A3, (A), (B) or (C).
 
 — HOMER
+
+---
+
+## ADDENDUM 2026-09-29 PM — corrections from CATO's review (`AGENTS/CATO/runs/2026-09-29_1112_homer-band-review.md`, f139c5db7)
+
+CATO independently reproduced **all 105 months** of the rent series (46/100 in Sep-2026) and re-ran the A4 crossing counts. It recommends (A) and 100/130/175K, and **rules nothing**: this is still Will's word. Three corrections to my text above:
+
+1. **Q4-2015 131,585 is DERIVED, not printed.** The only *printed* Orange anchor is **Q3-2015 133,811**.
+2. **"Same statistic … the levels travel" over-claimed.** One matched month shows Apartment List is Apollo's source. It does NOT prove identical city membership or method, or that 20/40/55 were calibrated on loss outcomes. Honest label: **HOMER-computed rent-decline breadth from Apartment List; levels retained by Will's judgment, not validated.**
+3. **Two boundary facts for the ruling:** crossing Red (>55%) from 46/100 needs **10 more cities**. And breadth has **narrowed** (60 in April → 52 in August → 46 in September), so an Orange reading restores MEASUREMENT; it does not signal fresh deterioration.
+
+**If Will approves, HOMER's installation conditions (CATO HR1–HR3), all mine to execute:**
+- **Rent:** freeze the city roster (100 FIPS from the Sep-2026 vintage) and retain the input vintage + SHA-256 each refresh. An incomplete pair produces an UNGRADED month plus count/n, never a silently shrunk denominator. Compare counts exactly (`100*neg > 55*n`), not floats (June's stored 55.00000000000001 would falsely pass a naive `>`). Label recalculated history distinct from contemporaneous readings.
+- **Foreclosures:** install as a **severity ladder only**. Same-quarter YoY and the monthly conversion/inventory observations stay beside it, and **"no rung crossed" is never reported as "contained."**
+- Proof of refresh at the next Apartment List monthly and the ATTOM Q3 report (~mid-Oct).
