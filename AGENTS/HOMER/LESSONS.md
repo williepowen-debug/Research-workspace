@@ -138,7 +138,7 @@
 
 ---
 
-**Index integrity:** §1–43 ↔ `LESSONS_COLD.md` (43) · §44–52 ↔ `LESSONS_COLD_2.md` (9). Counts must match.
+**Index integrity:** §1–43 ↔ `LESSONS_COLD.md` (43) · §44–53 ↔ `LESSONS_COLD_2.md` (10). Counts must match.
 
 **44. [Instrument] — A Shared Date Label Is Not a Shared As-Of (the spread pairing that manufactured a 15bps move)**
 **Rule:** For any spread pairing a **SURVEY** series against a **DAILY** series, match the daily leg to … → `LESSONS_COLD_2.md` §44
@@ -166,3 +166,6 @@
 
 **52. [Verification] — I Described Another Desk's Tool From a Paraphrase, and the Paraphrase's Own Example Contradicted Me**
 **Rule:** Read the tool before stating its behaviour; check a paraphrase against its own examples … → `LESSONS_COLD_2.md` §52
+
+**53. [Verification] — I Validated a New Tool Only on the Input It Was Built From**
+**Rule:** Feed a new instrument malformed inputs (missing period, reordered fields) and confirm it fails CLOSED; matching on clean input is not a test … → `LESSONS_COLD_2.md` §53
