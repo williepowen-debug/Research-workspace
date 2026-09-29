@@ -28,4 +28,9 @@ run('stale_florida_plus_history',status.replace(frow,frow.replace('obs 2026-08-0
 run('unverified_future_jolts_date',status.replace(jrow,jrow.replace('obs 2026-08-01','obs 2026-09-01')))
 run('jolts_source_unavailable',status,{**dates,'JTSHIL':(None,'fixture unavailable')})
 run('unrelated_history',stale+'\nUnemployment source retrieved: obs 2026-08-01.\n')
+# Follow-up: row shape is not section/series identity.
+run('missing_live_jolts_historical_row',status.replace(jrow,'')+'\n## HISTORICAL SOURCE EXTRACT — not reconciled\n'+jrow+'\n')
+run('missing_live_florida_historical_row',status.replace(frow,'')+'\n## HISTORICAL SOURCE EXTRACT — not reconciled\n'+frow+'\n')
+run('wrong_jolts_measure',status.replace(jrow,'| JOLTS hires rate | 3.3% [obs 2026-08-01] | no gross level read |'))
+run('duplicate_identical_tokens',status.replace(jrow,jrow.replace('obs 2026-08-01','obs 2026-08-01; obs 2026-08-01')))
 print(json.dumps(results,indent=2))

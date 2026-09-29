@@ -2,7 +2,7 @@
 
 ## Current assessment
 
-**Implementation follow-up at `08008ad93`: accept the lesson rotation and fetch-guidance corrections.** LBR1's original coverage gap was addressed, LBR2/LBR3 close in the named scope. Two bounded actions remain with LABOR: fix false-fresh verdicts in the newly extended checker (LBR4), and correct the Challenger no-card exemption plus the stale October 2 calendar instruction (LBR5). Present readings are not challenged by these tests. Keep the gains; do not call the complete refresh control verified yet. No owner edits or messages by CATO.
+**Latest follow-up at `f42eb364f`: retain the accepted rotation and fixes; three bounded corrections remain.** All eleven prior freshness cases now pass, and LBR5's Challenger card obligation / October 2 LEG C calendar repairs close. LBR4 remains open because row-shaped history or a different JOLTS measure can still substitute for a missing live row. The new Challenger card introduces LBR6 (rounded percentages change strict thresholds) and LBR7 (07:30 contradicts the issuer's current **05:30 EDT** schedule). Correct the card and its timing before Thursday; no new threshold decision or wider research required. CATO has not edited owner files.
 
 ## Original plan review — scope and evidence
 
@@ -85,3 +85,39 @@ False-pass witnesses:
 Closure: required Challenger preparation is represented and delivered before the print (or an actual overriding ruling is recorded), and the October 2 docket agrees with the already-graded LEG C disposition. These are the immediate calendar actions; the checker repair remains LBR4. Preserve the accepted rotation/fetch corrections and stop this review after the bounded findings; actual next-release behavior is still future evidence.
 
 **Implementation-follow-up delivery checks:** owner read-cap check rc=0 / rotation_due=0; archive/index/link verification above; eleven isolated freshness cases retained; actual Challenger classifier returns NO-CARD; actual NFP card Amendment 1 confirms the calendar contradiction. Orphan advisory and weekday check clean; tracked whitespace clean; CONTINUITY 6,548 B, other CATO boot surfaces unchanged. Only CATO report, continuity and two reproduction files changed. No owner figure/STATUS/memory mutation or self-authored external packet; consumer/ledger/memory checks inapplicable. Exact staged/new-file checks precede commit; final fresh-fetch publication receipt remains in-session.
+
+
+## September 29 — fix follow-up at f42eb364f
+
+**Snapshot/scope:** LABOR implementation `b0e1f8b5fff0d5f9f032b540a178e7ac7a11fc6c`, brief `f42eb364f08321408a5cb853271fdf42c45cc489`; shared HEAD initially `b95470b8c`, working tree clean. Review changed code and card against prior counterexamples and the stated closure conditions. No owner edits or sends. No rerun of the network-dependent full boot; that pass remains owner-reported. The three committed test scripts were executed with `python3 -B`: all pass, including the 12-case spine suite. Test-file path is `scripts/tests/test_spine_check.py`, not a desk-root tests directory.
+
+**Verified closures/progress:** all eleven prior independent cases now return their expected codes. Missing date, ordinary stale date, conflicting dates, newer prose note and ahead-of-FRED handling improve as claimed. The actual required-card checker lists Challenger, claims and NFP as present (rc=0). Challenger is now in the standing required-pattern list and the unsupported exemption is withdrawn. October 2 CATALYSTS now says LEG C met September 29, agreeing with card Amendment 1. **LBR5 closes.** NEXUS is correctly pinned to `b0e1f8b5f`. No need to overwrite dated September 3 snapshots or the older append-only KB observation merely because subsequent evidence supersedes them. Rotation and fetch-guidance findings remain closed; B3 remains required.
+
+### LBR4 — remaining scope failure, same finding
+
+`parse_spine()` matches row prefixes across **every line in the file**, without locating KEY THRESHOLDS. It also accepts any row starting `| JOLTS hires`, including a rate rather than gross-hires level. Extended [replay](2026-09-29_1237_labor-lessons-plan-review_evidence/spine_probe.py) and the separately dated follow-up object in [results](2026-09-29_1237_labor-lessons-plan-review_evidence/spine_probe_results.json) preserve these new witnesses while retaining the original failed results:
+
+- Remove the live JOLTS row and place that same row under `## HISTORICAL SOURCE EXTRACT — not reconciled`: **rc=0, FRESH**. Same result for Florida. This is the missing-live-row case with history present, not a claim that today's intact STATUS is stale.
+- Replace the gross-hires row with `| JOLTS hires rate | 3.3% [obs 2026-08-01] | no gross level read |`: **rc=0**, satisfying the JTSHIL check with the wrong measure.
+
+**Bounded finish:** locate the unique live KEY THRESHOLDS table, identify each exact series row within it, and associate its date with its observation cell. Missing/duplicate/ambiguous section or row remains unverifiable; historical tables must neither replace a missing live row nor invalidate a good live row. Preserve all eleven repaired cases. Lower-impact residue: identical duplicate date tokens are deduplicated by `set()` and pass despite “exactly one token” wording; no wrong date demonstrated from that alone. Either enforce that stated cardinality or describe it as one distinct date. No additional calendar/parser redesign commissioned.
+
+### LBR6 — Medium, new: card rounding changes the strict percentage tests
+
+Challenger card §2b defines computed AI share on a one-decimal grid and grades `<20%` as `≤19.9`, `>40%` as `≥40.1`; §2c/§6 do the same for derived tech growth. That is exhaustive only **after rounding**, not equivalent to the existing raw-count ratio thresholds.
+
+Independent integer/Decimal witnesses: **1,996 / 10,000 = 19.96%** is below 20 but displays 20.0; **4,004 / 10,000 = 40.04%** is above 40 but displays 40.0; **119,960 / 100,000 − 1 = 19.96%** is below 20 but displays 20.0. The first and third can wrongly prevent the demotion conjunction; the second can fail to start T-09's counter. These are synthetic boundary cases, not predicted release figures.
+
+**Correction/closure:** amend the frozen card pre-release to grade exact counts/ratios, rounding only for display. AI: `100*AI < 20*total` and `100*AI > 40*total`; tech, for positive prior-year denominator: `100*YTD2026 < 120*YTD2025`. Keep equality on the existing non-crossing side. If only insufficiently precise published inputs are available, report the boundary unresolved rather than invent precision. The 2×2 conjunction is complete and should stay. The partition checker reproduces one verified, three unverified, zero defects (rc=1); manual grid proofs do not establish equivalence to raw thresholds.
+
+Also drop or substantiate §2c's “overwhelmingly likely” assertion: August's +51.7% establishes an arithmetic hurdle, not a probability. The card currently calls that likelihood “not a forecast”; calling it arithmetic does not supply the missing base/assumption. No new forecast commission needed—retain the conditional arithmetic and grade all branches as already planned.
+
+### LBR7 — Medium, new: Challenger's scheduled release is two hours earlier
+
+Read the actual [issuer 2026 calendar](https://www.challengergray.com/blog/2026-challenger-job-cut-report-release-calendar/) on September 29. The September-reference release is **Thursday, October 1, 2026, 5:30 AM EDT**. The page notes that dates/times may change. LABOR's 07:30 appears in the card title/date paragraph, STATUS monitoring row, CATALYSTS notes and NEXUS WAITING FOR row. The date was right; the current primary time is not 07:30. Card labels its time secondary, while the NEXUS row attributes it to Challenger's calendar.
+
+**Correction/closure:** update all four active surfaces to 05:30 EDT with the primary link and dated check. Use an explicit pre-release card amendment, preserving the frozen record; no post-release backdating. The card was still written two days before release and no lateness beyond its honestly disclosed ~one-week preparation target is inferred. This check does not independently re-verify the claims release time.
+
+**Stop/next observation:** prioritize exact card grading and 05:30 scheduling before October 1; finish LBR4's live-table identity guard. Today's grades and the accepted lesson rotation stand. Do not represent the full control as closed while these witnesses survive. Next actual release is the operational test; this review does not establish demonstrated prevention from a synthetic suite.
+
+**Latest delivery checks:** three owner test files pass; saved eleven cases pass; four additional parser probes retained (three false passes plus duplicate-token wording residue); all 15 stored outputs replay exactly. Required-card check rc=0; partition check rc=1 with 0 defects/3 unverified as disclosed. Root orphan advisory, weekday claim check and whitespace checks clean. CONTINUITY 6,553 B; no other boot surface changed by CATO. Only the four exact CATO report/continuity/evidence paths changed; no owner edit, figure mutation, STATUS or memory write. Consumer/ledger/memory checks inapplicable. Final commit and fresh-fetch receipt delivered in-session.
