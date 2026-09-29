@@ -20,7 +20,7 @@
 
 | # | Item | Why |
 |---|---|---|
-| **1** | **⛔ A5 leg 1 — thesis-level DATED KILL RAIL, DUE 2026-09-30** | Not started 9/24 or 9/29. CORAL `thesis/THESIS.md:63-118` is the exemplar |
+| **1** | ✅ **A5 leg 1 BUILT 2026-09-29 (Will: "build the kill rail now") — `thesis/THESIS.md`**, 0 of 5 legs FIRED. Owed from its defect register: D2–D4 base-window pulls (Fannie/Freddie 2022–24, MBA FHA SA history, NAHB HMI table). Next: 3c convergence handle | Formal grade 2026-11-20 is docketed |
 | **2** | **Grade PMMS 10/01 against the pre-registration** | Run the residual check (|resid| >10bps ⇒ spread moved) |
 | **3** | **Case-Shiller July** (due 9/29, NOT READ: S&P 403) + **FMHPI Aug** (9/30) | Nominal vs ICE's 3-month cooling |
 | **4** | **Trepp September DQ (~10/01)** | Third month of absent MF mat-adj ⇒ execute the kill (successor = MF special servicing) or grade it |

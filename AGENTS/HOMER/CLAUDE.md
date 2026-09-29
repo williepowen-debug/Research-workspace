@@ -261,6 +261,7 @@ The SV-to-CARL channel (`state_vectors/SV-HOMER-*.md`, harvested at CARL's `SPAW
 | `MEMORY.md` | Durable findings, Will's preferences, do-not-touch notes |
 | `board_log.tsv` | WALTER BOARD signal disposition log |
 | `thesis/PREDICTIONS.tsv` | HOM-xx prediction ledger (own, native — CRL-06/23 stay parent-CARL) |
+| `thesis/THESIS.md` | **Thesis + thesis-level KILL RAIL (built 2026-09-29, L3 3b).** 2 core legs (C1 residential conversion, C2 MF realization) + 3 amplifiers; FROZEN kill criteria; pre-registered decision rule; defect register. Not boot-read — its formal grade has a docket row (next **2026-11-20**). ⚠️ The per-prediction machinery in `PREDICTIONS.tsv` is NOT this rail |
 | `docket/CATALYSTS.tsv` | Forward catalyst calendar |
 | `workbook/SCHEMA.tsv` | Column definitions for all workbook TSVs |
 | `workbook/KB.tsv` | **FROZEN 2026-07-10** — parent-era canonical KB (~65 rows, CARL_ID provenance). Cite by row date, not as current. |

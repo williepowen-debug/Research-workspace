@@ -100,7 +100,8 @@
 | # | Item | State |
 |---|---|---|
 | **A1** | GSE MF band | ✅ **RULED 9/17 — WQ-248 C** (Will: *"248 - C is fine"*): letter frozen, grade each print against it; an ungraded leg above the top rung is CORRECT until I have a basis for a rung (mine to write) |
-| **A2–A5** | **Four Will-approved items (8/23), now 32 days deferred:** **A2** rider — owed is RATIFICATION (draft exists) · **A3** Rent Growth retune · **A4** National Foreclosures retune (basis = STARTS) — **A3/A4 WORK authorized, LEVELS Will-gated** · **A5** L3 builds (`thesis/THESIS.md` + kill rail, convergence handle) | ⛔ **OPEN. A5 leg 1 (thesis-level dated kill rail) DUE 2026-09-30** (DAEDALUS PR6 ask) — **first work next session** |
+| **A5 leg 1** | ✅ **BUILT 2026-09-29 — `thesis/THESIS.md`** (thesis + kill rail; first grade **0 of 5 legs FIRED ⇒ 🔴 holds**; formal grade **2026-11-20**). 3c convergence handle still open | ✅ |
+| **A2–A5** | **Four Will-approved items (8/23), now 37 days deferred:** **A2** rider — owed is RATIFICATION (draft exists) · **A3** Rent Growth retune · **A4** National Foreclosures retune (basis = STARTS) — **A3/A4 WORK authorized, LEVELS Will-gated** · **A5** remaining leg = the convergence handle (3c); the kill rail is BUILT (row above) | ⛔ **OPEN: A2, A3, A4, A5-3c** |
 | **A6** | Cure Rates band | ✅ **CLOSED 2026-09-24 — graded on its NATIVE basis (YoY cure rate, ICE Mortgage Monitor): YELLOW.** Feed = the Mortgage Monitor (docket row); the First Look MoM count is an OBSERVATION, not the band |
 | **A7–A11** | 5 sample-limited rungs (research) · FL Orange >1.50% the one bracketed level · MBA NDS primary 403-gated site-wide | open |
 
@@ -121,7 +122,6 @@
 | Date | Event | Watch |
 |---|---|---|
 | **9/29 · 9/30** | Case-Shiller (Jul) · FMHPI (Aug) | nominal still accelerating vs ICE's 3-mo cooling |
-| **9/30** | ⛔ **A5 kill-rail file DUE** (DAEDALUS) | mine — **tomorrow** |
 | **🔴 10/01** | **PMMS** | ★ **PRE-REGISTERED** (`reports/2026-09-29_PMMS-2026-10-01_PRE-REGISTRATION.md`): **HOLD ≥7.05 · SOFTEN 7.01–7.04 (still RED) · LIFT ≤7.00 (ORANGE)**. Treasury-implied ~7.16–7.18 (10Y 5.24 Mon 9/28) |
 | **~10/01 · ~10/14** | Trepp Sept DQ · Sept SS | MF level; ⛔ **mat-adj 3rd month — kill executes if absent** |
 | **~10/09–13** | **ICE Mortgage Monitor (Oct)** | cure rate YoY: −28% → does it cross −30% (Orange)? |
@@ -161,4 +161,4 @@
 
 **⑤ FLORIDA CONDO RECONCILED TO ONE FIGURE: CORAL's August +2.8% statewide median.** My weakness evidence is metro/segment only, and even the Miami-Dade price leg may have turned (August unread).
 
-⛔ **NOT DONE: A5 leg 1 (thesis-level kill-rail file) is DUE TOMORROW 9/30.** Case-Shiller July was not read.
+**⑥ THESIS KILL RAIL BUILT (Will: "build the kill rail now"):** `thesis/THESIS.md`, 2 core + 3 amplifier legs, frozen kill criteria, first grade **0 of 5 FIRED**; formal grade 11/20. Case-Shiller July was not read.
