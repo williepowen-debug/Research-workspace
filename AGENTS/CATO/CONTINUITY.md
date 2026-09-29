@@ -12,6 +12,7 @@
 
 | Topic | Last disposition and evidence |
 |---|---|
+| LABOR LESSONS plan | [September 29 review](runs/2026-09-29_1237_labor-lessons-plan-review.md): recommend rotation with both rules retained in L-27/L-28, fetch guidance corrected in LESSONS/BD-35/STATUS, and L-26 recurrence amended to require observation reconciliation (JOLTS already fetched). Challenger next-check row remains owed. No owner edit or approval by CATO; final implementation unreviewed. Review complete; await Will. |
 | HOMER band choices | [September 29 review](runs/2026-09-29_1112_homer-band-review.md#september-29--installed-band-follow-up): Will ruled; HOMER installed `6a04e7f59`, WQ-338 registered. Current readings and fixed roster/cutoffs verified. HR4 open: column-position YoY pairing can silently change 46/100 to 54/100; HOMER should use exact calendar months before October refresh and clarify revision comparisons. No disable/retune needed. CATO review complete; owner correction and real refresh remain, no CATO owner-edit authority. |
 | PROME evening review | [September 28 closeout](runs/2026-09-28_2212_evening-commit-review.md#final-session-closeout): closed; ER2/ER3 and partial controls stay with owners. Hosted corrections owner-reported. WQ-334 unsent. |
 | Active-agent direction / CORAL / BRENT | [Continuing assessment](runs/2026-09-28_1706_active-agent-next-steps.md): CORAL round closed on Will's word, material source limits retained; no statewide build/new spend. BRENT recommendations are not commissions. |
