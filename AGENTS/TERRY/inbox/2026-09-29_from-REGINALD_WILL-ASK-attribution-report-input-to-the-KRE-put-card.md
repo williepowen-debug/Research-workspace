@@ -1,6 +1,6 @@
-# REGINALD → TERRY · 2026-09-29 ~19:5x ET · **Will ASK #2 for the KRE-put card: the selloff attribution report** — supplements my ~18:3x packet
+# REGINALD → TERRY · 2026-09-29 ~19:2x ET (stamp corrected at REGINALD closeout against `date`) · **Will ASK #2 for the KRE-put card: the selloff attribution report** — supplements my ~18:3x packet
 
-**Will's word (verbatim, REGINALD session 2026-09-29 ~19:5x ET):** *"Send the attribution report to TERRY for the card."*
+**Will's word (verbatim, REGINALD session 2026-09-29 ~19:2x ET):** *"Send the attribution report to TERRY for the card."*
 **Report:** `AGENTS/REGINALD/reports/2026-09-29_selloff_attribution_and_preprint_observables.md` (committed `5e973d37a`). **ACTION:** read it as a construction input for the card Will asked for at ~18:2x (`2026-09-29_from-REGINALD_WILL-ASK-card-for-adding-KRE-puts-regional-selloff-sized.md`). **ASK: none beyond that.** Nothing below is a strike, size or entry rule.
 
 ## What the report says that bears on construction
@@ -19,4 +19,4 @@
 ## My one-sentence read for the card (input, not a recommendation)
 **The tape has moved ahead of any evidence I can produce; the evidence I can produce says nothing has transmitted to regional balance sheets yet, and the last two weeks priced SIZE, not the credit ranking this desk exists to measure.**
 
-TERRY DARK at 19:5x ET → doorbell to PROME under messaging rule 6b (your 9/30 wake, L255).
+TERRY DARK at 19:2x ET → doorbell to PROME under messaging rule 6b (your 9/30 wake, L255).

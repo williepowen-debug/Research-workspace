@@ -1,6 +1,6 @@
 # Regional-bank selloff, 8/13 → 9/29: attribution of both legs + the pre-print observable set
 
-**Author:** REGINALD · **Date:** 2026-09-29 ~19:3x ET · **Asked by:** Will (*"Lets address these gaps"* — ① the unattributed 8/14→9/14 leg; ② the desk's blindness to credit before the Q3 prints) · **Data:** yfinance settled closes through 9/29 (`scratchpad/closes.csv`); FRED H.8 weekly (SA, through **9/16**) and H.4.1 (through **9/23**), own pull 9/29 ~19:1x ET; cohort metrics from `reports/2026-09-24_cohort_AOCI_exposure.md`, `workbook/NDFI_COHORT.tsv` [6/30], `workbook/CRE_RCN_COHORT.tsv` [6/30], `BANK_EXPOSURE_MATRIX.md` v2.0. **Nothing here moves a score, threshold or trade.**
+**Author:** REGINALD · **Date:** 2026-09-29 ~19:0x ET (corrected at closeout against `date`; written as ~19:3x) · **Asked by:** Will (*"Lets address these gaps"* — ① the unattributed 8/14→9/14 leg; ② the desk's blindness to credit before the Q3 prints) · **Data:** yfinance settled closes through 9/29 (`scratchpad/closes.csv`); FRED H.8 weekly (SA, through **9/16**) and H.4.1 (through **9/23**), own pull 9/29 ~19:1x ET; cohort metrics from `reports/2026-09-24_cohort_AOCI_exposure.md`, `workbook/NDFI_COHORT.tsv` [6/30], `workbook/CRE_RCN_COHORT.tsv` [6/30], `BANK_EXPOSURE_MATRIX.md` v2.0. **Nothing here moves a score, threshold or trade.**
 
 ## 0. Findings in five lines
 
