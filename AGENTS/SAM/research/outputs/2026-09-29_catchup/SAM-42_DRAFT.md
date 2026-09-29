@@ -37,7 +37,7 @@
 BOJ hikes this cycle: **Mar-2024 · Jul-2024 (0.25%) · Jan-2025 (0.50%) · Dec-2025 (0.75%) · Jun-2026 (1.00%) · Sep-2026 (1.25%)** (web sources 9/29 for 2024–25; THESIS / KB-SAM-253 for 2026). Five intervals of **~4, 6, 11, 6 and 3 months: 0 of 5 back-to-back.** October would be the **first consecutive-meeting hike of the cycle**, six weeks after September. ⚠️ A cycle count of n=5 is a prior, not a rate: the BOJ is more hawkish now than at any point in it (July minutes: "anchoring", "double shock").
 
 ### Why 25%, not the market's ~36%
-From :
+From `US_ENDORSEMENT_AND_OCT_HIKE.md`:
 - the 3-month pace and the 0/5 base rate;
 - a board already split 7–2 with two dovish dissents;
 - a verbal campaign that is working (USD/JPY 159.04 → 156.50), lowering FX urgency;
