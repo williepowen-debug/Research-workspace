@@ -1,6 +1,6 @@
 # FALCON STATUS
 
-**Last updated:** 2026-09-28 ~21:xx ET (Will-booted catch-up after a 6-day gap, Opus; two Opus research sweeps; key quotes verified at the article). Report: [reports/2026-09-28_fal05-FAILED-route-c-and-d85-rung.md](reports/2026-09-28_fal05-FAILED-route-c-and-d85-rung.md). **Prior:** 2026-09-22.
+**Last updated:** 2026-09-28 ~22:3x ET (late news sweep appended, KB-211/212) (Will-booted catch-up after a 6-day gap, Opus; two Opus research sweeps; key quotes verified at the article). Report: [reports/2026-09-28_fal05-FAILED-route-c-and-d85-rung.md](reports/2026-09-28_fal05-FAILED-route-c-and-d85-rung.md). **Prior:** 2026-09-22.
 **Decision read:** 🔴 **FAL-05 RESOLVED FAILED on route (c)** — Yanbu crude loadings were suspended for more than 72h from 9/11 on two independent dark-fleet-capable vendors (Kpler blog 9/17; Vortexa via Argus, OilPrice 9/15). ⇒ the registered **D 75→85 rung FIRED on trigger (b)** ⇒ **B 1 / C 14 / D 85**. The row **failed in fact by 9/17**, and my 9/17 grade misread the article that held the Vortexa sentence (LESSONS FAL-14). ⚖️ **Composition disagreement, carried beside the fire:** aggregate Saudi crude still reached market by re-routing (Sept exports >5 mb/d, Bloomberg 9/28; Aramco CEO 9/24 *"We never stopped"*). This was a **route loss, not a demonstrated barrel loss**.
 
 ## Current marks and authority
@@ -28,7 +28,7 @@
 | 9/25–9/27 | Iran 7-day Hormuz plan via Qatar → **Trump 9/26 "would not be acceptable"** (POTUS channel; not conveyed formally) → 9/27 talks expected on "a different deal". IRGC claims 19 ships "targeted" (unnamed = claim only) | diplomacy 3, AMBIGUOUS |
 | 9/28 | Yanbu crude exports **reported resumed**; ~3.5 mb/d through the line (Bloomberg, one person; Aramco/MoE silent) | reversal not operator-confirmed |
 
-No US strike on Iranian territory or hulls since 9/8. The blockade continues (turn-backs 115→122, CENTCOM 9/23→9/25). No hostile US death since 7/17; the 19th US death was non-hostile. Iraq disarmament has slipped to 2027-06-30; **the US withdrawal deadline of 9/30 is not extended** (Rubio 9/23), which makes it a dated Iraq/PMF catalyst this week.
+**Late 9/28 sweep (KB-211/212), no trigger touched:** Qatar is running SEPARATE talks on a revised two-stage plan (Hormuz + blockade first, nuclear second). AP says Washington had NOT formally rejected the mediator version, but Iran's UN delegation says there is no meeting with US officials this week, so diplomacy stays at 3. No ship attacks since 9/23; no Houthi fire 9/27–28. Brent ~$108.6 is a campaign high on the day Yanbu reportedly reopened (BRENT's number, cited not owned). No US strike on Iranian territory or hulls since 9/8. The blockade continues (turn-backs 115→122, CENTCOM 9/23→9/25). No hostile US death since 7/17; the 19th US death was non-hostile. Iraq disarmament has slipped to 2027-06-30; **the US withdrawal deadline of 9/30 is not extended** (Rubio 9/23), which makes it a dated Iraq/PMF catalyst this week.
 
 ## Convergence Matrix
 
