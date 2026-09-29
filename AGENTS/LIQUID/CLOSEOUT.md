@@ -48,13 +48,14 @@ End-of-day always runs at least Standard so the audit trail catches up.
 
 ### `STATUS.md` — surgical update (not rewrite)
 
-- **Header:** `Last Updated:` stamp + status emoji (🟢/🟡/🟠/🔴) match current risk read
-- **Dashboards (3 separate):** Credit / Domestic Plumbing / Foreign Official — refresh any cells touched this session. Don't mix categories (per CLAUDE.md DASHBOARD STRUCTURE rule).
-- **Thresholds table:** current values vs trigger levels
-- **Cross-Domain Signals:** this session's findings, routed to target agents
-- **Active Proposals / Active Positions:** reflect any cuts, rolls, holds
-- **Danger Windows + Watch:** forward-only (drop resolved windows)
-- **Line count:** <250 (CLAUDE.md rule). If over: prune to `archive/` or `domain/sources/`.
+*(Aligned 2026-09-29 to the six-section STATUS layout; the old "3 dashboards / thresholds table / danger windows" list described the pre-restructure file. Full prior file → `archive/status_snapshots/STATUS_FULL_2026-09-29_pre-restructure.md`.)* **Each fact lives in ONE section; never add a second copy.**
+- **Header:** `Last Updated:` stamp taken from `date` in the same command, plus a one-line session summary.
+- **§1 NOW:** replace readings with newer ones, each keeping its OWN observation date. Keep the Credit / Funding / Duration / Foreign reads in their own paragraphs (do not mix categories).
+- **§2 GATES:** the current-state home. Update the touched gate cells (reading, count, next test, pointer); history goes to the analysis file or archive, not the cell. Verify `grep -c '^| \*\*GATE' STATUS.md` = 5.
+- **§3 OWED:** the ONLY owed list. Remove done items (the commit is the record); add new ones with a date and an owner.
+- **§4 CARRIED / §5 CAVEATS & COVERAGE:** edit only if a state closed or a coverage limit changed. Never drop a coverage limit in a re-cut.
+- **§6 POINTERS:** KB range, new playbooks.
+- **Size:** `scripts/read_cap_check.py --agent LIQUID`; rotate at the 75% trigger down to <70%, verbatim with crc32 (lossless check against the pre-rotation commit).
 
 ### `MEMORY.md` — session block rotation
 
