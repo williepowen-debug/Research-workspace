@@ -33,3 +33,24 @@ This companion keeps render metadata outside the boot-read byte budget.
   }
 }
 ```
+
+*Amendment #2 (2026-09-29 10:5x ET, PROME `prome-82` closeout; the 9/28 credit cells + LIQ-076 + HOMER gate): projection below.*
+
+```dashboard-amendment
+{
+  "amendment": 2,
+  "source_sha256": "cae9d5adc63ba8dad3c27ba496c1b604dc7b37cf13954f1d8ff43948a3b73dc1",
+  "set": {
+    "channels": {
+      "Credit": {
+        "headline": "🟠 HY 302 / B 309 / CCC 1,146 [9/28] — RED-FT-01 EXIT leg met (CONF 68→70, not a bear confirm); X1 CLOSED; nearest line HY >320 (18bp)",
+        "body": "FRED 9/28 (posted ~10:2x 9/29): HY 302 · BB 183 · B 309 · CCC 1,146 · IG 83 · BBB 102. RED: ≥280 ×3 is FT-01's EXIT leg — met at 280.0/293/302, CONF +2 mechanical, not a bear confirm; FT-02 >320 is the nearest line. LIQUID: X1 strict 2 in a row, CLOSED regardless; LIQ-07 1 of 3; BROADENS 3rd print. BOND: row 4 (HY >300 w/ velocity) MET → 15/35, a marker; IG/BBB legs NOT MET. GATE-LIQ-076 conjunction MET 9/25 (write-up, not a trigger). GATE-HOMER-THESIS-KILL registered (24 rows)."
+      },
+      "Energy": {
+        "headline": "🟠 Nov Brent's LAST GRADED SETTLE is today; live 10:11 ET $103.76 (−1.4%, vendor); Dec pin Wed (L461, a calendar step)",
+        "body": "Live 10:11 ET vendor reads, not settles: BZX26 $103.76 · USO 146.85 (−2.1%) · VLO 383.64 (−1.5%). BRENT publishes the settle. Wed: the Dec pin (headline drops ~$7.5 on the calendar, never a signal), WPSR (first dated diesel export-restriction read), Will's expiries. STAND DOWN (WQ-192) holds."
+      }
+    }
+  }
+}
+```
