@@ -42,7 +42,7 @@
 | Fri Sep 25 | MOF weekly (wk Sep-13→19) | **NOT published** — still absent 9/29 12:48Z. Carried forward to Thu Oct-01. |
 | Fri Sep 25 | CFTC (Sep-22 positions) | **Net +71,982 LONG, −48,377** (40% of the long cut); TFF lev +7,423 / AM +41,629. OI −164,101 — mostly Sep delivery (June showed the same step). |
 | Fri Sep 25 | T-bill + liquidity-enhancement auctions; BOJ BIS banking stats | Not graded (no super-long bearing; not the global GLI). |
-| Thu–Mon Sep 25–28 | **Joint US–Japan verbal campaign** (Katayama/Trump-summit disclosure 9/25, Bessent "desirability of a strong yen" 9/25, Mimura "face value" 9/28) | USD/JPY 159.036 peak → 156.498 low; completed closes 157.185 / 157.433. **No rate check or operation found.** Playbook 2026-09-29 entry. |
+| Fri–Mon Sep 25–28 | **Joint US–Japan verbal campaign** (Katayama/Trump-summit disclosure 9/25, Bessent "desirability of a strong yen" 9/25, Mimura "face value" 9/28) | USD/JPY 159.036 peak → 156.498 low; completed closes 157.185 / 157.433. **No rate check or operation found.** Playbook 2026-09-29 entry. |
 | Mon Sep 28 | BOJ July MPM minutes | Hawkish ("anchoring" underlying CPI at 2%; "double shock" warning) — per 2+ outlets, primary not read. |
 | Mon Sep 28 | BOJ OIS 4-day expiry (Sep-24 quote) | Expired; **new chart 9/29 15:15 JST transcribed same day** (Oct 36% / Dec 72% / cum 2.48). |
 | Tue Sep 29 | 40Y auction | **BTC 3.096× · highest accepted 4.125% · ¥299.7B** — firmest of the 40Y's n=3 series (May 2.702 / Jul 2.824). Descriptive only, no grade (ruling 9/11). |
