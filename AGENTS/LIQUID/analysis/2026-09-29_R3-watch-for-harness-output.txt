@@ -1,0 +1,45 @@
+WATCH_FOR harness — desk LIQUID · 10 phrase(s) · 10135 unique headlines over 69 lane days 2026-06-29 → 2026-09-28 · real matcher, in memory
+
+[   0] HY OAS above 350   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] junk bond spreads widen   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] repo rate spike   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] SRF usage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] standing repo facility   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] money market fund break   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] money market fund breaks buck   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Treasury auction failure   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] bank reserve crunch   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] reserve scarcity   ← 0 hits (zero noise; recall UNPROVEN)
+
+=== LIVE sample: 269 unique Google-News headlines, 6 query(ies), last 30d ===
+[   0] HY OAS above 350   ← 0 live hits
+[   0] junk bond spreads widen   ← 0 live hits
+[   0] repo rate spike   ← 0 live hits
+[   0] SRF usage   ← 0 live hits
+[   0] standing repo facility   ← 0 live hits
+[   2] money market fund break
+        | ICI: Money Market Fund Assets Continue Record-Breaking Growth - Yahoo Finance
+        | Breaking: Franklin Templeton Partners With Bybit to Offer Tokenized Money Market Funds - CoinGape
+[   0] money market fund breaks buck   ← 0 live hits
+[   0] Treasury auction failure   ← 0 live hits
+[   0] bank reserve crunch   ← 0 live hits
+[   0] reserve scarcity   ← 0 live hits
+
+SYNTHETIC control: Junk bond spreads widen to widest since April as defaults rise -> ['junk bond spreads widen']
+
+SYNTHETIC control: Fed standing repo facility usage jumps to record -> ['standing repo facility']
+
+SYNTHETIC control: Money market fund breaks the buck -> ['money market fund break', 'money market fund breaks buck']
+
+SYNTHETIC control: Fed officials warn of reserve scarcity -> ['reserve scarcity']
+
+Verdict rule (WQ-295 R3): reject by name any phrase with >0 FALSE hits; the reader classifies, not this tool.
