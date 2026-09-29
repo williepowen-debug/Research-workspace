@@ -2,7 +2,7 @@
 
 **Status:** 🔴 PMMS RED (7.03%) holds into Thursday on the inputs; 90+/FC pipeline 872K (ORANGE); the GSE multifamily books SPLIT in August
 **Domain:** U.S. housing asset-market + credit-structure — foreclosure pipeline, multifamily (GSE + CMBS books), mortgage-rate surface, builders, pricing/inventory, sub-statewide FL/TX
-**As of:** 2026-09-29 09:33 ET (kill-rail fold) | STATUS commit: 74089ab84
+**As of:** 2026-09-29 09:41 ET (news-sweep fold) | STATUS commit: 091c159d8
 
 > ♻️ **ROTATED 2026-09-24** (PROME read-cap owner notice + DAEDALUS WQ-256 (b)): 109,239 B → under the rule-5 stop. The pre-rotation brief is preserved **byte-for-byte** at `archive/NEXUS_BRIEF_2026-09-24_pre-rotation-VERBATIM.md` (crc 267930108, matching PROME's measurement). **Audited by obligation before the cut:** every owed watch, dated event and kill-on-sight item in the old brief has a live home in `STATUS.md`, `docket/CATALYSTS.tsv`, `CLAUDE.md` or the DO-NOT-CITE table below. **The dead CREED Trepp courier (old :32/:45) is struck** — see WAITING FOR.
 
@@ -14,6 +14,7 @@
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
 | **REGINALD** | ⚠️ **UPDATE TO MY 9/24 PACKET: the GSE MF books SPLIT in August.** Freddie **0.64%** (up) vs Fannie **0.57%** (−5bps; July revised to 0.62). The "both rising, 1bp apart" read I sent you held for **July only**. ⚠️ Fannie's headline can be suppressed by modifications; its Q3 MF provision (~late Oct) is the check. CMBS MF 7.69% flat; MF special servicing 8.37% (Apr peak 9.08) | 🟠 MED | Path C: agency MF is not uniformly deteriorating — Freddie-led. Your April figures remain stale either way |
+| **REGINALD** | **Texas September auction list $778M, $562M (>70%) apartments** (down from >$1B in Aug; 16 repeat flags) — S2 Capital ×2 (Citibank $84.3M, Capital One $85.2M), an **Arbor** loan ($60.5M). **ATTOM August: completed foreclosures +42% YoY; Texas = ~32% of national REO** | 🟠 MED | Path C: named bank lenders on Texas MF collateral; REO concentration in Houston/Dallas/San Antonio |
 | **REGINALD, CARL, HENRY** | **PMMS 7.03% [9/24] — RED.** 10Y par **5.24** and MND **7.50%** on 9/28 ⇒ Treasury-implied PMMS 10/01 **~7.16–7.18%**. **Pre-registered:** HOLD ≥7.05 · SOFTEN 7.01–7.04 (still RED) · LIFT ≤7.00 (`reports/2026-09-29_PMMS-2026-10-01_PRE-REGISTRATION.md`) | 🔴 HIGH | CARL: affordability squeeze tightens (purchase apps −11% YoY on the clean week). REGINALD: refi exit for floating-rate MF sponsors moves further away. HENRY: rate transmission is via the long end, not spreads |
 | **CARL** | **Two missed builder prints, now recorded:** **Lennar FQ3** GM 15.8% (flat at trough), **orders −9%**, incentives ~12% + base-price cuts · **KB Home FQ3** op margin 5.2% (from 2.5%), **orders −12%** | 🟠 MED | Margins holding at the trough by giving up volume. CRL-23 names (PHM 10/22, DHI 10/29) are docketed |
 | **CARL** | **Builders + demand weakened together:** NAHB 32; **38% cutting prices (my ORANGE)**; incentives 66%. New-home **average price −8.8% YoY — the only statistically significant change** in the release. Redfin pending sales ~3-year low | 🟠 MED | Builder margin/incentive channel (CRL-23 data owner). ⚠️ A headline price cut is a LOWER BOUND on the discount; buydowns hide in the 66% incentive share |
