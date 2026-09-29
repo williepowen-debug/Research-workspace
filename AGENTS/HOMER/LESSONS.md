@@ -138,7 +138,7 @@
 
 ---
 
-**Index integrity:** §1–43 ↔ `LESSONS_COLD.md` (43) · §44–50 ↔ `LESSONS_COLD_2.md` (7). Counts must match.
+**Index integrity:** §1–43 ↔ `LESSONS_COLD.md` (43) · §44–52 ↔ `LESSONS_COLD_2.md` (9). Counts must match.
 
 **44. [Instrument] — A Shared Date Label Is Not a Shared As-Of (the spread pairing that manufactured a 15bps move)**
 **Rule:** For any spread pairing a **SURVEY** series against a **DAILY** series, match the daily leg to … → `LESSONS_COLD_2.md` §44
@@ -160,3 +160,9 @@
 
 **50. [Process] — A NEXT Date Inside a RESOLVED Key Is Invisible to My Own Boot Sweep**
 **Rule:** Never embed a NEXT date in a RESOLVED key; a recurring source is ONE row whose date key ROLLS … → `LESSONS_COLD_2.md` §50
+
+**51. [Process] — Three Prints Missed at Once, and the Cause Was a Missing ROW, Not a Missed Headline**
+**Rule:** When a print is found late, fix the ROW CLASS; demoting a source's standing must never delete its row; test another desk's feed before relying on it … → `LESSONS_COLD_2.md` §51
+
+**52. [Verification] — I Described Another Desk's Tool From a Paraphrase, and the Paraphrase's Own Example Contradicted Me**
+**Rule:** Read the tool before stating its behaviour; check a paraphrase against its own examples … → `LESSONS_COLD_2.md` §52

@@ -14,7 +14,8 @@
    - **9 per-name builder docket rows** (PHM 10/22, MTH 10/28, DHI 10/29 issuer-stated; NVR, LGIH, DFH, TOL, LEN, KBH pattern-dated). The CRL-23 row is back to the CRL-23 checkpoint only.
    - **PMMS 10/01 pre-registered:** `reports/2026-09-29_PMMS-2026-10-01_PRE-REGISTRATION.md`. HOLD ≥7.05 · SOFTEN 7.01–7.04 (still RED) · LIFT ≤7.00. Treasury-implied ~7.16–7.18.
    - **FL condo reconciled to ONE figure:** CORAL's Aug statewide median $298K +2.8%. Packet in CORAL's inbox.
-4. **Signals:** 4 logged; SIG-006 (Trepp building-age) **answered** into WALTER's inbox. Correction COR-20260927-07 receipted APPLIED (my board_log "declined a stay" annotated).
+4. **Later the same session:** thesis kill rail BUILT (`thesis/THESIS.md`, 0 of 5 legs fired; PROME registered `GATE-HOMER-THESIS-KILL`, review 11/20). **News sweep** found ATTOM's August monthly (REO +42% YoY) and the TX September auction list ($778M, $562M MF), both missed on 9/24; flagged two circulating 2025 stories as recycled. **File audit** (Will-directed): charter de-dated (no live values), OBLIGATIONS B1 discharged + B8–B10, MEMORY (lane gap + box access), KB-HOMER-029/030/031, HOM-02 cross-ref to leg A1, LESSONS §51–52.
+5. **Signals:** 4 logged; SIG-006 (Trepp building-age) **answered** into WALTER's inbox. Correction COR-20260927-07 receipted APPLIED (my board_log "declined a stay" annotated).
 
 ## 🔴 FIRST WORK NEXT SESSION
 
@@ -22,6 +23,7 @@
 |---|---|---|
 | **1** | ✅ **A5 leg 1 BUILT 2026-09-29 (Will: "build the kill rail now") — `thesis/THESIS.md`**, 0 of 5 legs FIRED. Owed from its defect register: D2–D4 base-window pulls (Fannie/Freddie 2022–24, MBA FHA SA history, NAHB HMI table). Next: 3c convergence handle | Formal grade 2026-11-20 is docketed |
 | **2** | **Grade PMMS 10/01 against the pre-registration** | Run the residual check (|resid| >10bps ⇒ spread moved) |
+| **2b** | **Owed from the rail's defect register D2–D4:** Fannie/Freddie MF DQ 2022–24 at issuer · MBA FHA SA history · NAHB HMI history table | Turns three inferred base windows into verified ones before the 11/20 grade |
 | **3** | **Case-Shiller July** (due 9/29, NOT READ: S&P 403) + **FMHPI Aug** (9/30) | Nominal vs ICE's 3-month cooling |
 | **4** | **Trepp September DQ (~10/01)** | Third month of absent MF mat-adj ⇒ execute the kill (successor = MF special servicing) or grade it |
 | **5** | Miami-Dade Aug condo median (MIAMI REALTORS PDF) | My July "declining median" is stale; secondaries point up |

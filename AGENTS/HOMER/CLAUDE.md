@@ -169,7 +169,8 @@ Monitor U.S. housing market stress across the foreclosure pipeline, multifamily 
 | Source | Frequency | What It Covers |
 |--------|-----------|----------------|
 | MBA National Delinquency Survey | Quarterly | DQ by loan type, foreclosure inventory, state-level |
-| ATTOM Data Solutions | Quarterly | Foreclosure filings, starts, completions, REO |
+| ATTOM Data Solutions | Monthly (OBSERVATION) · Quarterly / H1 / year-end (BANDS) | Foreclosure filings, starts, completions, REO; state + metro rates. ⚠️ The monthly carries no band but is the fastest REO read — docketed as a recurring row 2026-09-29 after it was missed |
+| Builder earnings (8-K Ex 99.1 at SEC EDGAR) | Quarterly per name | GM, incentives/buydowns, orders, cancels, guidance. **One docket row per name** (added 2026-09-29 after LEN/KBH were missed) — WALTER's lane does not fetch these |
 | ICE/Black Knight (Intercontinental Exchange) | Monthly | DQ flows, roll rates, cure rates, prepayment |
 | Fannie Mae MF DQ | Monthly | Multifamily serious delinquency (GSE book) |
 | Freddie Mac MF DQ | Monthly | Multifamily serious delinquency (GSE book) |
@@ -193,11 +194,11 @@ Monitor U.S. housing market stress across the foreclosure pipeline, multifamily 
 - **FL triple squeeze:** Energy + HOA/SIRS + insurance converging on single geography → **CORAL/MARCO**
 - **Cure-rate collapse:** Fewer cures → pipeline grows → more REO → price pressure → negative-equity spiral
 - **FHA K-shape:** FHA DQ vs Conventional DQ = bottom-income borrowers structurally more stressed → **CARL**
-- **GSE-vs-CMBS divergence:** GSE book (Fannie/Freddie) improving while CMBS book (Trepp) deteriorating — the marquee open question, see `STATUS.md`
+- **GSE-vs-CMBS books:** the two MF books move on different mechanics (GSE: modification-suppressible serious-DQ headlines; CMBS: lumpy, cures in blocks). The original "GSE improving while CMBS deteriorates" framing INVERTED in July 2026 and the GSE books themselves SPLIT in August — **the live read is in `STATUS.md`; the kill criteria are thesis leg C2 in `thesis/THESIS.md`**
 
 ## Why This Domain Matters
 
-Housing is the largest asset and largest liability for most American households, and Path C (Housing → Banks) is the lead path of CARL's thesis of record (ACTIVE-RED, provisional). The current setup: foreclosure pipeline accumulating and converting (not just building); GSE MF book pulled back from the GFC-peak approach while the CMBS MF book resumed deteriorating to a new maturity-adjusted multi-year high; mortgage rates elevated into housing weakness; builder margins under the sharpest compression of the cycle; nominal HPI accelerating while real HPI stays negative for 11+ consecutive months. This is not passive monitoring — it is an active stress-transmission vector feeding CARL's consumer thesis and REGINALD's bank-exposure analysis.
+Housing is the largest asset and largest liability for most American households, and Path C (Housing → Banks) is the lead path of CARL's thesis of record (ACTIVE-RED, provisional). **The thesis, its five legs and their FROZEN kill criteria live in `thesis/THESIS.md` (built 2026-09-29); live values live in `STATUS.md`.** *(This paragraph carried a dated "current setup" until 2026-09-29; removed because a charter is boot-read and durable, and live values here go stale silently — the same anti-drift rule as the threshold table.)* This is not passive monitoring — it is an active stress-transmission vector feeding CARL's consumer thesis and REGINALD's bank-exposure analysis.
 
 ## BOOT (standalone — root `CLAUDE.md` owns the fleet-wide protocol; this is HOMER's sequence through it)
 
