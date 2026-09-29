@@ -601,6 +601,91 @@ def test_QUAL_four_part_scoreboard_is_incomplete_once_a_qualified_row_exists():
     assert any(x.startswith('D ') and 'qualified' in x for x in p), p
 
 
+# ---------------------------------------------------------------------------
+# I — ledger schema (added 2026-09-29, Will-approved "yes go ahead with 1-3").
+# The incident: 2026-09-18 SAM hand-added KB-SAM-253..256 with 7 fields where the
+# header has 9 (an agent list sat in the Confidence column) and closeout PASSED for
+# eleven days, until KURA Run 17 counted fields. Same class, older: CATALYSTS.tsv
+# carried a 5-field METI row that the countdown silently mis-rendered.
+# ---------------------------------------------------------------------------
+KB_HDR = 'ID\tDate\tCategory\tStatus\tTopic\tKey_Fact\tConfidence\tSource\tNotes\n'
+PRED_HDR = 'Pred_ID\tDate_Made\tPrediction\tConfidence\tTimeframe\tStatus\tDate_Resolved\tOutcome\tNotes\n'
+
+
+def _ledger_fixture(kb=None, cat=None, pred=None, arch=None):
+    d = pathlib.Path(tempfile.mkdtemp())
+    for sub in ('workbook', 'docket', 'thesis'):
+        (d / sub).mkdir()
+    ok_kb = KB_HDR + 'KB-SAM-001\t2026-01-01\tFramework\tLIVE\tt\tk\tA1\ts\tn\n'
+    ok_cat = CAT_HEAD + '2026-10-01\tev\tw\tt\t🟡\tSAM\tn\texternal\n'
+    ok_pred = '# preamble line\twith a tab that must NOT be counted\n' + PRED_HDR + 'SAM-01\td\tp\t50%\tt\tOPEN\t—\t—\tn\n'
+    files = {'workbook/KB.tsv': kb or ok_kb, 'workbook/KB_ARCHIVE.tsv': arch or KB_HDR,
+             'docket/CATALYSTS.tsv': cat or ok_cat, 'thesis/PREDICTIONS.tsv': pred or ok_pred}
+    for rel, text in files.items():
+        (d / rel).write_bytes(text.encode('utf-8'))
+    return d
+
+
+def _run_ledgers(d):
+    fn = getattr(cc, 'check_ledgers', None)
+    assert fn, 'check_ledgers() is not implemented — the check does not exist yet'
+    old, cc.SAM = cc.SAM, d
+    try:
+        p = []
+        fn(p)
+        return p
+    finally:
+        cc.SAM = old
+
+
+def test_I_silent_on_clean_ledgers():
+    p = _run_ledgers(_ledger_fixture())
+    assert not [x for x in p if x.startswith('I ')], p
+
+
+def test_I_fires_on_a_short_kb_row():
+    kb = KB_HDR + 'KB-SAM-253\t2026-09-18\tBOJ\tLIVE\ttopic\tfact\tSAM\n'
+    p = [x for x in _run_ledgers(_ledger_fixture(kb=kb)) if x.startswith('I ')]
+    assert p and 'KB-SAM-253' in p[0] and '7' in p[0] and '9' in p[0], p
+
+
+def test_I_fires_on_crlf():
+    kb = (KB_HDR + 'KB-SAM-001\t2026-01-01\tFramework\tLIVE\tt\tk\tA1\ts\tn\n').replace('\n', '\r\n')
+    p = [x for x in _run_ledgers(_ledger_fixture(kb=kb)) if x.startswith('I ')]
+    assert p and 'CRLF' in ' '.join(p), p
+
+
+def test_I_ignores_prediction_preamble_comment_lines():
+    pred = '# a\tb\tc\n# d\n' + PRED_HDR + 'SAM-01\td\tp\t50%\tt\tOPEN\t—\t—\tn\n'
+    p = [x for x in _run_ledgers(_ledger_fixture(pred=pred)) if x.startswith('I ')]
+    assert not p, p
+
+
+def _real(commit, rel):
+    r = subprocess.run(['git', 'show', '%s:AGENTS/SAM/%s' % (commit, rel)],
+                       cwd=_ROOT, capture_output=True, text=True)
+    if r.returncode:
+        raise Skipped('commit %s not reachable' % commit)
+    return r.stdout
+
+
+def test_I_catches_the_real_2026_09_18_kb_rows():
+    """End-to-end on the REAL commit that added the malformed rows (a837a3b05)."""
+    p = [x for x in _run_ledgers(_ledger_fixture(kb=_real('a837a3b05', 'workbook/KB.tsv')))
+         if x.startswith('I ')]
+    joined = ' '.join(p)
+    for rid in ('KB-SAM-253', 'KB-SAM-254', 'KB-SAM-255', 'KB-SAM-256'):
+        assert rid in joined, (rid, p)
+    assert 'KB-SAM-252' not in joined and 'KB-SAM-257' not in joined, p
+
+
+def test_I_catches_the_real_5_field_catalysts_row():
+    """End-to-end on the commit BEFORE KOYOMI Run 23 repaired it (c78f2d17e^)."""
+    p = [x for x in _run_ledgers(_ledger_fixture(cat=_real('c78f2d17e^', 'docket/CATALYSTS.tsv')))
+         if x.startswith('I ')]
+    assert p and 'CATALYSTS' in ' '.join(p) and '2026-10-02' in ' '.join(p), p
+
+
 if __name__ == '__main__':
     fails = skips = 0
     for name, fn in sorted(globals().items()):

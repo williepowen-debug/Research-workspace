@@ -77,6 +77,8 @@ STEPS = [
 
 # Also verified here because nothing else does, though not its own charter step:
 #   E  PREDICTION_SCHEDULE.json keys == the OPEN set, and its condition hashes still match.
+#   I  Ledger schema: every data row of KB / KB_ARCHIVE / CATALYSTS / PREDICTIONS has its
+#      header's field count, and no ledger carries CRLF (added 2026-09-29 — see check_ledgers).
 
 
 def git(*args):
@@ -448,6 +450,46 @@ def check_sam_memory(problems):
                         '("promote to thesis or auto-memory, never just accumulate")' % n)
 
 
+# I — ledger schema. Added 2026-09-29 (Will: "yes go ahead with 1-3").
+# ⛔ THE INCIDENT: on 2026-09-18 SAM hand-added KB-SAM-253..256 with 7 fields against a
+# 9-field header (an agent list landed in the Confidence column; Source and Notes did not
+# exist), and this checker PASSED every closeout for eleven days — nothing here counted
+# fields. KURA Run 17 found it. Same class, older and quieter: CATALYSTS.tsv carried a
+# 5-field METI row that catalyst_countdown.py rendered with blank cells, never an error.
+# A short row is not a local defect: every later column of that row shifts, so any
+# reader keyed on column position reads the wrong field and reports nothing.
+LEDGERS = ('workbook/KB.tsv', 'workbook/KB_ARCHIVE.tsv', 'docket/CATALYSTS.tsv', 'thesis/PREDICTIONS.tsv')
+
+
+def check_ledgers(problems):
+    """I [schema] — field count per data row == the header's; no CRLF. '#' lines are
+    preamble, not data (PREDICTIONS.tsv carries a dated preamble with tabs in it)."""
+    for rel in LEDGERS:
+        f = SAM / rel
+        if not f.exists():
+            problems.append('I [schema] %s missing — a ledger this check cannot read is not a clean one' % rel)
+            continue
+        raw = f.read_bytes()
+        n_cr = raw.count(b'\r')
+        if n_cr:
+            problems.append('I [schema] %s contains %d CRLF/CR byte(s) — a text-mode write flipped line '
+                            'endings; restore LF before any other edit' % (rel, n_cr))
+        lines = raw.decode('utf-8', errors='replace').replace('\r\n', '\n').split('\n')
+        body = [(i + 1, l) for i, l in enumerate(lines) if l.strip() and not l.startswith('#')]
+        if not body:
+            problems.append('I [schema] %s has no header row' % rel)
+            continue
+        want = len(body[0][1].split('\t'))
+        bad = [(ln, l.split('\t')[0][:28], len(l.split('\t'))) for ln, l in body[1:]
+               if len(l.split('\t')) != want]
+        if bad:
+            shown = ', '.join('L%d %s (%d fields)' % b for b in bad[:8])
+            more = ' …and %d more' % (len(bad) - 8) if len(bad) > 8 else ''
+            problems.append('I [schema] %s: %d row(s) do not have the header\'s %d fields: %s%s — a short '
+                            'row shifts every later column (the 2026-09-18 KB-SAM-253..256 class)'
+                            % (rel, len(bad), want, shown, more))
+
+
 def _row_hash(row):
     return hashlib.sha256(json.dumps({k: row[k] for k in ('Prediction', 'Timeframe', 'Notes')},
                                      ensure_ascii=False, sort_keys=True,
@@ -579,6 +621,7 @@ def main():
               '%d qualified / %d OPEN  (total %d; OPEN: %s)'
               % (derived + (sum(derived), ', '.join(open_ids) or 'none')))
     check_sam_memory(problems)
+    check_ledgers(problems)
     # ⚠️ CATO 2026-09-19: the charter said run this BEFORE committing, while G demands a
     # CLEAN tree and F reads COMMITTED history — so the documented invocation could never
     # pass. Resolved by making the mode explicit rather than by weakening either check.
@@ -619,7 +662,7 @@ def main():
         print('\n  A FAIL is structural. A PASS is scoped to these checks and says nothing')
         print('  about whether the session\'s judgement was right.')
         return 1
-    ran = 'docket sync, derived counts, sidecar, handoff cap'
+    ran = 'docket sync, derived counts, sidecar, handoff cap, ledger schema'
     ran += ', brief ordering, tree clean' if not pre_commit else '  [F and G SKIPPED: --pre-commit]'
     print('  ✅ CLOSEOUT-CHECK PASS — structural checks only: %s.' % ran)
     print('     This does NOT certify that the right events were added, that a thesis change')

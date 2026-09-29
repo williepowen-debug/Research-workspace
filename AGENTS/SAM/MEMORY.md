@@ -63,7 +63,7 @@ News catch-up, Will-directed. **No thesis change: v1.7 stands, book FLAT, nothin
 
 **TIER 2 — OWED (carried, none of it blocked):**
 - 🟠 **ONE scoped roller change, owed by three sub-agents:** `subagent_memory_roll.py`'s closure test matches "closed" anywhere in a run block (KOYOMI n=4 false positives, KURA esc 2) and rolls by age in practice; METSUKE Run-21 item 1 wants recency-rolling for hint blocks. Do it as its own session WITH tests; until then rolls stay report-only for KOYOMI/KURA. ⚠️ Its negation guard also REFUSES a heading containing "not" — cost me one failed roll 9/29.
-- 🟠 **`closeout_check.py` owes a 9-field check on `KB.tsv`** — SAM's 9/18 hand-add of four 7-field rows PASSED it.
+- ✅ **`closeout_check.py` check I (ledger schema) BUILT 9/29** — field count per row vs header + no CRLF on KB / KB_ARCHIVE / CATALYSTS / PREDICTIONS; 6 tests written FIRST and failing on the old code, two of them replay the real incidents (`a837a3b05` KB-253..256, `c78f2d17e^` METI 5-field). The same run showed a live-data test (docket name-similarity) already at its 0.60 bar — MY Oct-03 row had different names in the two files; aligned. **PROME asked for a SAM WAKE DOCKET row Oct-1 + the broken phrase dropped now** (`b6bbae58f`).
 - **KB-SAM-258 promote AFTER the MOF monthly (~Sep-30 19:00 JST)** — row is in `KURA.md` § Run 17; a non-zero print rewrites its "no operation" clause. **KB-169 Notes collapse** deferred (P5).
 - **KOYOMI:** October monthly baseline audit owed at the first October run (the November pre-fetch does NOT count); Run 22's seven spec proposals unruled. CALENDAR sits **11 B under** the read cap — the next added row needs a prune first.
 
