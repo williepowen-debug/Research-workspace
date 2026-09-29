@@ -1,6 +1,8 @@
 # LIQUID — finish reliable grading, then September 30 reviews
 
-**Disposition:** September 29 advice to Will on LIQUID's morning receipt. Useful repairs, but blanket completion is premature: one date-selection defect independently reproduced; current-state/consumer reconciliation incomplete. Recommend bounded owner completion and the already-dated definition/review work, protecting publication and quarter-end observations. No LIQUID edits, dispatch, new tooling project, threshold change or approval granted. No automatic CATO follow-up.
+**Current disposition — September 29 follow-up:** LR1's original CCC-gap false fire and LR3 labels independently checked CLOSED at `2f8d360b1`. LR2 SpaceX owner/registry rows closed; remaining current-record residue deferred to the existing owner closeout. New LR4 records a shared-missing-session limit, independently reproduced below. The 076 grade/write-up is already delivered and its registry review moved to October 9; do not recommission it from the earlier recommendation. Finish existing September 30 definitions/finalizations and protect publication/quarter-end observations. No owner edits, sends, new approvals or automatic CATO follow-up.
+
+**Original disposition:** September 29 advice to Will on LIQUID's morning receipt. Useful repairs, but blanket completion was premature at the reviewed revision: one date-selection defect independently reproduced; current-state/consumer reconciliation incomplete. Historical evidence below is retained, with closures at the follow-up.
 
 ## Scope and limits
 
@@ -53,3 +55,35 @@ The recurring problem in this sample is consistent operational meaning across co
 Only this report, the offline probe and CATO continuity are authored here. The probe produced the three results above. No owner code repaired. Routine checks and exact-path Git delivery follow; final receipt belongs in-session. Other owners' concurrent work is preserved.
 
 Validation: three offline probe cases completed as recorded; weekday claim check passed all five supplied files; continuity whitespace check passed. Orphan advisory identified only other-owner work outside CATO, including active LIQUID watcher edits; none authored by this review. Shared index contains other-owner inbox moves, preserved through exact-path CATO staging/commit. No numeric consumer migration, memory-index check or owner code suite applies: this review changes no canonical market figures, memory/auto files or operational implementation.
+
+## September 29 — owner response and bounded closure check
+
+Will supplied LIQUID's response citing `2f8d360b1` and PROME `b7568c9ba`. Follow-up entry HEAD `ac176febb`, with other-owner dirty/staged work; no pull or owner writes. LIQUID is correct that later work superseded the original snapshot. ALFRED and OBDC had already been credited as useful/completed at source in the original review; no disagreement on those. This follow-up checks actual changes rather than treating the reply as certification.
+
+**LR1 original counterexample CLOSED.** Ran all 11 built-in offline checks: PASS. Separately invoked the original CATO fixture against the new full script, changing only the expected third result: ordinary data NOT FIRED; missing equity INSTRUMENT-FAULT; unrelated CCC gap NOT FIRED, −10%/+3bp on September 25 versus 24. All three calls returned, so the reported early successful exit no longer truncates this harness. The historical probe's old assertion deliberately expects the defect and is retained as evidence, not called a failing acceptance test. No current-market grade independently rerun.
+
+**LR3 CLOSED in the inspected helper:** adopted WQ-114 labels and the separately evaluated CDS source are present. **LR2 SpaceX component CLOSED:** current owner STATUS row and PROME's current GATES cells agree on per-leg CANNOT-FIRE. Other LR2 residue remains: STATUS's older sweep paragraph/calendar/catalyst entries still imply completed asks are owed; the dealer-positioning letter retains its broad no-vintage-endpoint rationale. Defer these to existing owner closeout, not a fresh research round or a claim that the SpaceX correction remains undelivered.
+
+### LR4 — Medium: matching previous dates does not prove consecutive trading sessions
+
+The new `grade_l4` validates that each equity's previous available bar equals HY's previous available observation. It has no independent check that the date is the immediately preceding eligible session. With the same September 24 trading session missing in HY and all four equities, both select September 23 before September 25 and silently grade −19%/+6bp as one session again. This is a different missing-input case from LR1, whose unrelated-CCC cause is repaired. No evidence of a production occurrence.
+
+Reproduction against `2f8d360b1` (pure function, no network):
+
+```python
+import runpy
+g = runpy.run_path('AGENTS/LIQUID/scripts/gate069_legs.py')
+hy = {'2026-09-23': 270.0, '2026-09-25': 276.0}
+px = {'2026-09-23': 100.0, '2026-09-25': 81.0}
+result = g['grade_l4'](hy, {t: dict(px) for t in g['TICK']})
+# FIRED; last 2026-09-25; hprev 2026-09-23; HY +6bp; worst -19%.
+# Missing actual 9/24 fixture values are HY 273, equity 90: each daily move fails.
+```
+
+**Correction/closure:** establish the preceding eligible session independently of the surviving data rows, or decline to grade when consecutiveness cannot be established. Add this shared-gap case beside an ordinary weekend/holiday case so a fix does not assume calendar-day adjacency. This belongs with the already-due session/window definitions; no new threshold or broad redesign. Likewise, the new L1 selftest explicitly accepts the sixth surviving CCC observation as five sessions despite a mid-window gap: that is a definition still to settle under DAEDALUS #2, not evidence that the calendar-window question is closed. Eleven passing checks establish their covered cases, not that this failure class cannot recur.
+
+**Updated direction:** the 076 owner write-up already records the conjunction met, observed late, with W2 unmeasured and the systemic interpretation inconclusive; PROME mirrored it and set October 9. Wiring into boot is owner-reported in `7fe6dec89` and the report, not independently tested here. The pre-stage still calls September 30 its finalization, so reconcile that existing owner obligation with PROME's successor date; do not request the same write-up again. Keep #2/#4/#5 definitions, W2 identification, reset/calendar choices and remaining September 30 finalizations in scope. Treat the proposed reset as a proposal; no approval inferred. Preserve the actual publication and October persistence reads. The owner grade is not an independently verified market or position signal.
+
+Only this report and continuity changed in the follow-up; no new probe file or owner code. Verification is bounded to the named cases/copies. Routine weekday, orphan and whitespace checks accompany exact-file delivery; final receipt is in-session.
+
+Follow-up checks: weekday check passed five files; exact-file whitespace check passed; orphan advisory showed only CRUISE/PROME work outside CATO, preserved. CRUISE inbox moves remained staged; the CATO commit uses only the two exact modified paths.
