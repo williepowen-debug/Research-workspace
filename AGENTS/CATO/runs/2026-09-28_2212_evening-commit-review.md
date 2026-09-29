@@ -1,6 +1,6 @@
 # September 28 evening agent-change review
 
-**Disposition:** review delivered; five bounded findings/suggestions below, no owner repairs, dispatches, trades or new studies commissioned. Prior CORAL and BOND review closures remain closed. Next CATO session: orient and await Will; findings are advice, not automatic assignments.
+**Disposition:** PROME follow-up at `33a0dd6e5`: ER1/ER4/ER5 closed in the locally inspected consumer scope; ER2's PROME resolver wording corrected, HENRY/TERRY source acceptance and grade remain open; ER3 remains for FALCON. Hosted publication and broader control completion are owner-reported/partial as detailed in the follow-up below. No owner repairs, dispatches, trades or new studies commissioned by CATO. Prior CORAL and BOND review closures remain closed. Next CATO session: orient and await Will; findings are advice, not automatic assignments.
 
 ## Scope and limits
 
@@ -58,3 +58,17 @@ Residual in `WILL_QUEUE.md:28`: the closing broker checklist still asks whether 
 CATO changes only this report and its continuity resume entry. No owner files, approval rows, shared memory, code or publication changed; therefore no behavioral test suite, consumer-number migration or memory-index check applies. Required orphan advisory, weekday claim check and exact-file diff checks are recorded at closeout below. Git delivery receipt is returned in-session rather than generating another commit to record its own hash. Remaining owner work is advisory above, not certified repaired.
 
 Closeout checks: orphan advisory returned only other-owner PROME/root/memory work outside CATO; no self-authored orphan identified. Weekday claim check passed all five supplied files (shared DOCKET/GATES/WILL_QUEUE plus this report/continuity). Continuity diff whitespace check passed; staged paths were empty before adding this report. Exact-file staged/commit checks complete with the delivery receipt. Other-owner work remains untouched and will be disclosed to Will. CATO's continuity is about 21 KB; no rotation needed for this bounded addition.
+
+## September 28 — PROME closeout receipt and bounded disposition check
+
+Will supplied PROME's closeout receipt for `9a8e4cd9f` and `33a0dd6e5`: delivery complete, controls partial, Helm v41 / Fleet-Ops v43 / Decision Deck Owed v59 published; reference view intentionally not republished. Both commits are present locally; working tree clean at this follow-up's start. CATO did not fetch hosted pages or audit the entire closeout.
+
+Read current WQ-334, its explainer and local rendered card, plus active BRIEF wording: exclusivity and the claim that declining invalidates Q3 evidence are removed; planned financing is separated from funded lender exposure/losses. **ER1 closed in those local consumers.** “Nothing else gives whole” should be understood as the request's intended incremental sample, not a certified inventory of all sources or a promise of a complete response; no new review round proposed over that residual phrasing. BRIEF:44 now carries the operator's container surcharge/service evidence and retains the product-flow limit: **ER4 closed locally**. WQ-316 now says ×9/×2 in the broker checklist and separates the September 28 operator receipt from older broker verification: **ER5 closed in the reviewed queue scope**, without broker certification.
+
+BRIEF:60 now permits CME **or a finalized row TERRY accepts under its letter**. The PROME wording portion of **ER2 is corrected**; HENRY/TERRY still owe evidence acceptance/owner grading before terminal status. PROME reports that and **ER3** are for owner boots. No claim that those owner repairs occurred. No trade or gate action inferred.
+
+PROME explicitly disclosed post-final-read edits, an unreviewed HEARTBEAT amendment/withholding, rotation's missing second read, a skipped TLT ×20→×15 consumer-check invocation, and orchestration inventory UNKNOWN. The local DOCKET includes the next-session HEARTBEAT withholding/amendment obligation. This receipt is useful and candid, but disclosure does not complete those controls. CATO's narrow checks above certify only their named changes, not all unreviewed edits or overall control compliance.
+
+**Direction:** accept delivered work with those limits; preserve outstanding controls for the existing next-boot work, including the required quantity consumer check. Combine completion with the already-due HEARTBEAT re-base where the governing process permits, rather than initiating another whole-fleet review. Do not let another memo re-base displace the dated expiry decision or the substantive owner grade. WQ-316 remains Will's explicit sell/hold decision; WQ-334 remains unsent pending Will. No new approval, send, build or owner assignment from this follow-up. Hosted versions remain owner-reported.
+
+Follow-up checks: orphan advisory clean, weekday claim check passed five files, exact-file diff whitespace checks passed, index empty. Only this continuing report and continuity changed; no code tests or owner-surface edits. Commit/push receipt delivered in-session.
