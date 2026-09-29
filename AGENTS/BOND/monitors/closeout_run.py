@@ -1,51 +1,58 @@
 #!/usr/bin/env python3
-"""closeout_run.py -- BOND's closeout RUNNER: executes every MECHANICAL closeout
-step, prints RAN / FAILED / NOT-APPLICABLE per step with its rc, appends one row
-to registry/CLOSEOUT_LOG.tsv, and then NAMES the judgement steps it cannot verify.
+"""closeout_run.py -- BOND's closeout RUNNER (C12): executes every MECHANICAL step,
+prints RAN / FAILED / FINDINGS / NOT-APPLICABLE per step, records a working-tree
+digest at START and END, appends one row to registry/CLOSEOUT_LOG.tsv, and names
+the judgement steps it cannot verify. `--verify` (C12.3) says whether the tree is
+unchanged since the last PASSING run.
 
-Built 2026-09-29 (Will: "we should update our close out protocol") from the fleet
-survey: HANS scripts/closeout_check.py (RAN/FAILED per step -- an omitted step
-otherwise looks like a shorter checklist), DAEDALUS daedalus_gate.py (one log row
-per run), VIOLET scripts/writeback_order_check.py (handoff surfaces may not lag
-STATUS; dirty file = now, clean file = last commit time), TERRY ledger_sweep
-check I (advisory inbox re-scan, never blocking), PROME CLOSEOUT.md (the tier is
-passed explicitly; omitting it means "not enforced", and the runner says so).
+v1 2026-09-29 (fleet survey: HANS per-step RAN/FAILED, DAEDALUS one row per run,
+VIOLET handoff ordering, PROME explicit tier). v2 the same evening after a reviewer
+reproduced four defects in an isolated repo, none covered by v1's selftest:
+  1. the freeze digest missed untracked-file CONTENT (git status shows `??` either
+     way), missed outgoing packets outside AGENTS/BOND/, and was taken only at the
+     END of the run, so an edit made during the checks passed --verify;
+  2. --verify said "commit now" after a FAILED run; consumer_check findings were
+     discarded (it exits 0 unless --strict); crashed advisory tools (orphan_check
+     exits 0 unconditionally) were labelled RAN;
+  3. "commit optional" in the tier table contradicted root CLAUDE.md ("commit
+     locally at session end"); fixed in CLOSEOUT.md;
+  4. the handoff-ordering check forced a TRADE.md edit after any STATUS edit.
+     TRADE is now covered by the bond-state TOKEN (mirror_check), not by vintage;
+     NEXUS_BRIEF may be declared a stated no-op with a reason (--noop), logged.
 
   THIS SCRIPT DOES NOT CERTIFY THE CLOSEOUT. It certifies that the mechanical
-  steps EXECUTED and what they returned. Whether STATUS says something true is a
-  judgement step and is listed as UNVERIFIED BY DESIGN.
+  steps EXECUTED, what they returned, and that nothing moved between the run and
+  the commit. Whether STATUS says something true is judgement, listed as such.
 
-Exit: 0 = every mechanical step RAN and passed (NOT-APPLICABLE steps state why)
-      1 = a step FAILED or errored (LOOK; never "closeout invalid" by itself)
-  --verify: C12.3 — prints FREEZE MATCH (tree digest unchanged since the last run) or FREEZE MOVED.
-  Working directory: AGENTS/BOND/ (the commit and push steps run from the repo root).
-
-Usage:
-  python3 monitors/closeout_run.py --tier standard
-  python3 monitors/closeout_run.py --tier standard --superseded 14/35 15/35 --memory-slug <name>
-  python3 monitors/closeout_run.py --selftest
+Exit: 0 = every mechanical step RAN (or NOT-APPLICABLE with a stated reason)
+      1 = a step FAILED, FINDINGS were not acknowledged, or the tree moved during the run
+Working directory: AGENTS/BOND/. Commit and push run from the repo root.
 """
 from __future__ import annotations
-import argparse, datetime as dt, subprocess, sys, time
+import argparse, datetime as dt, hashlib, os, subprocess, sys, tempfile, time
 from pathlib import Path
 
 BOND = Path(__file__).resolve().parent.parent
 REPO = BOND.parent.parent
 LOG = BOND / "registry" / "CLOSEOUT_LOG.tsv"
 TIERS = ("bounce", "light", "standard", "heavy", "addendum")
-
-# handoff surfaces that another reader consumes INSTEAD of STATUS -> may not lag it
+LOG_EXCLUDE = ":(exclude)AGENTS/BOND/registry/CLOSEOUT_LOG.tsv"
+# what the freeze covers: this desk's directory + every self-authored outgoing packet
+DIGEST_PATHS = ["AGENTS/BOND", "PROME/inbox/*from-BOND*", "AGENTS/*/inbox/*from-BOND*",
+                "AGENTS/*/inbox/*/*from-BOND*", "AGENTS/SIGNALS.md"]
+# handoff surfaces another reader consumes INSTEAD of STATUS. TRADE.md is NOT here:
+# its sync is the bond-state token (mirror_check), and vintage forced pointless edits.
 TRACKED = {
     "NEXUS_BRIEF.md": "NEXUS reads this in place of STATUS (Amendment 10 ordering)",
     "SCRATCH.md": "my own next boot reads this as 'where are we'",
-    "TRADE.md": "TERRY/PROME read posture here; it inverted vs STATUS for 20 days (9/9->9/29)",
 }
+NOOP_ALLOWED = {"NEXUS_BRIEF.md"}          # SCRATCH is written at every ending; no no-op
 JUDGEMENT = [
     "STATUS.md write-back is TRUE (dashboard · matrix re-summed · gates · bottom line)",
     "SCRATCH.md carries a STATE AT WRITING block and a stated no-op per surface",
-    "THESIS/CHANGELOG written back for any thesis-level change (and the bond-state token moved WITH the prose)",
+    "THESIS/CHANGELOG written for any thesis-level change; the bond-state token moved WITH the prose",
     "CATALYSTS pruned/added and the STATUS twin has the same event SET",
-    "NEXUS_BRIEF.md re-pin REWRITTEN (not appended) and folded LAST",
+    "NEXUS_BRIEF.md re-pin REWRITTEN (not appended) and folded LAST — or a --noop reason that is true",
     "RECEIPT.md overwritten if signals or a tasked deliverable were processed",
     "Promotion scan done (auto-memory vs local MEMORY)",
 ]
@@ -61,14 +68,71 @@ def sh(cmd, cwd=REPO, timeout=600):
         return None, "TIMEOUT"
 
 
-# ---------------- handoff ordering (pure predicate + git-backed vintage) ------
+# ---------------- pure classifiers (selftested) --------------------------------
+def classify(rc, out, mode: str) -> str:
+    """mode 'strict': rc 0 = RAN, else FAILED.
+       mode 'advisory': the tool reports, never blocks; RAN iff it actually ran (rc 0/1,
+       produced output, no traceback). A crash is FAILED, never RAN."""
+    if rc is None:
+        return "FAILED"
+    text = out or ""
+    if "Traceback" in text or "Error:" in text and "error" in text.lower()[:200]:
+        return "FAILED"
+    if mode == "strict":
+        return "RAN" if rc == 0 else "FAILED"
+    if rc in (0, 1) and text.strip():
+        return "RAN"
+    return "FAILED"
+
+
+def classify_consumer(rc, out, acked: bool) -> str:
+    """consumer_check run with --strict: rc 1 = at least one 🔴 STALE consumer.
+       Findings are FINDINGS (blocking) until the operator acknowledges that packets went out."""
+    if rc is None or rc not in (0, 1) or "Traceback" in (out or ""):
+        return "FAILED"
+    if rc == 1:
+        return "RAN" if acked else "FINDINGS"
+    return "RAN"
+
+
+def verify_decision(last_row: list, now_digest: str) -> tuple[bool, str]:
+    """last_row = a CLOSEOUT_LOG row split on tabs (timestamp tier head overall steps digest)."""
+    if not last_row or len(last_row) < 6:
+        return False, "FREEZE UNKNOWN: no complete run logged — run the runner first"
+    ts, tier, head, overall, _steps, digest = last_row[:6]
+    if overall != "RAN":
+        return False, f"FREEZE REFUSED: last run ({ts}, tier={tier}) was {overall} — fix, then restart C12 at 1"
+    if digest != now_digest:
+        return False, f"FREEZE MOVED: tree digest now {now_digest}, last passing run logged {digest} ({ts}) — restart C12 at 1"
+    return True, f"FREEZE MATCH: tree digest {now_digest} unchanged since the last passing run ({ts}, tier={tier}) — commit now"
+
+
 def lags(status_v: float, surface_v: float) -> bool:
-    """True iff the surface is OLDER than STATUS. Equal = fine (same commit)."""
     return surface_v < status_v
 
 
+# ---------------- git-backed pieces ---------------------------------------------
+def tree_digest(repo: Path = REPO, paths=None) -> str:
+    """sha1 over: porcelain status (all untracked files listed), unstaged + staged diffs, HEAD,
+       and the CONTENT of every untracked file in scope. Same digest = nothing moved."""
+    paths = list(paths or DIGEST_PATHS)
+    h = hashlib.sha1()
+    rc, status = sh(["git", "status", "--porcelain", "--untracked-files=all", "--", *paths, LOG_EXCLUDE], cwd=repo)
+    h.update((status or "").encode("utf-8", "replace"))
+    for cmd in (["git", "diff", "--", *paths, LOG_EXCLUDE], ["git", "diff", "--cached", "--", *paths, LOG_EXCLUDE]):
+        rc, out = sh(cmd, cwd=repo)
+        h.update((out or "").encode("utf-8", "replace"))
+    for line in (status or "").splitlines():
+        if line.startswith("??"):
+            p = repo / line[3:].strip().strip('"')
+            if p.is_file():
+                h.update(p.read_bytes())
+    rc, head = sh(["git", "rev-parse", "HEAD"], cwd=repo)
+    h.update((head or "").encode())
+    return h.hexdigest()[:12]
+
+
 def vintage(rel: str) -> float:
-    """dirty in working tree -> now ; clean -> last commit time ; untracked/new -> now."""
     rc, out = sh(["git", "status", "--porcelain", "--", f"AGENTS/BOND/{rel}"])
     if out.strip():
         return time.time()
@@ -79,72 +143,51 @@ def vintage(rel: str) -> float:
         return 0.0
 
 
-def check_ordering() -> tuple[str, str]:
+def check_ordering(noops: dict) -> tuple[str, str]:
     sv = vintage("STATUS.md")
-    bad = []
+    bad, notes = [], []
     for rel, why in TRACKED.items():
+        if rel in noops:
+            notes.append(f"{rel}: stated no-op — {noops[rel]}")
+            continue
         v = vintage(rel)
         if lags(sv, v):
-            age = (sv - v) / 3600
-            bad.append(f"{rel} lags STATUS by {age:.1f}h ({why})")
+            bad.append(f"{rel} lags STATUS by {(sv - v) / 3600:.1f}h ({why}); write it, or declare --noop {rel} \"reason\"")
     if bad:
-        return "FAILED", "; ".join(bad)
-    return "RAN", f"STATUS + {len(TRACKED)} handoff surfaces in order (vintage, not content)"
-
-
-def tree_digest() -> str:
-    """sha1 over BOND's working-tree state (status + unstaged + staged diffs). Same digest = nothing moved."""
-    import hashlib
-    h = hashlib.sha1()
-    # the runner's own log is excluded: it is appended by every run and would make each --verify read MOVED
-    ex = ":(exclude)AGENTS/BOND/registry/CLOSEOUT_LOG.tsv"
-    for cmd in (["git", "status", "--porcelain", "--", "AGENTS/BOND", ex],
-                ["git", "diff", "--", "AGENTS/BOND", ex],
-                ["git", "diff", "--cached", "--", "AGENTS/BOND", ex]):
-        rc, out = sh(cmd)
-        h.update((out or "").encode("utf-8", "replace"))
-    rc, head = sh(["git", "rev-parse", "HEAD"])
-    h.update((head or "").encode())
-    return h.hexdigest()[:12]
-
-
-def verify() -> int:
-    if not LOG.exists():
-        print("FREEZE UNKNOWN: no CLOSEOUT_LOG.tsv yet — run the runner first"); return 1
-    rows = [l for l in LOG.read_text(encoding="utf-8").splitlines()[1:] if l.strip()]
-    if not rows:
-        print("FREEZE UNKNOWN: log empty — run the runner first"); return 1
-    last = rows[-1].split("\t")
-    logged = last[5] if len(last) > 5 else ""
-    now = tree_digest()
-    if logged and logged == now:
-        print(f"FREEZE MATCH: tree digest {now} unchanged since the last run ({last[0]}, tier={last[1]}, {last[3]}) — commit now")
-        return 0
-    print(f"FREEZE MOVED: tree digest now {now}, last run logged {logged or 'none'} ({last[0] if last else '?'}) — restart C12 at 1")
-    return 1
+        return "FAILED", "; ".join(bad + notes)
+    return "RAN", "; ".join([f"STATUS + {len(TRACKED)} handoff surfaces in order (vintage, not content)"] + notes)
 
 
 def inbox_scan() -> str:
     items = []
     for pat in ("inbox/*.md", "inbox/WALTER/*.md"):
-        for p in sorted((BOND).glob(pat)):
+        for p in sorted(BOND.glob(pat)):
             rc, ts = sh(["git", "log", "-1", "--format=%ct", "--", str(p.relative_to(REPO))])
             try:
-                age = (time.time() - float(ts.strip().splitlines()[-1])) / 3600
-                items.append(f"{p.relative_to(BOND)} ({age:.0f}h since commit)")
+                items.append(f"{p.relative_to(BOND)} ({(time.time() - float(ts.strip().splitlines()[-1])) / 3600:.0f}h since commit)")
             except Exception:                            # noqa: BLE001
                 items.append(f"{p.relative_to(BOND)} (uncommitted)")
     return "; ".join(items) if items else "inbox lanes empty"
 
 
+def verify() -> int:
+    rows = [l for l in LOG.read_text(encoding="utf-8").splitlines()[1:] if l.strip()] if LOG.exists() else []
+    ok, msg = verify_decision(rows[-1].split("\t") if rows else [], tree_digest())
+    print(msg)
+    return 0 if ok else 1
+
+
+# ---------------- main -------------------------------------------------------------
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--tier", choices=TIERS)
-    ap.add_argument("--superseded", nargs=2, action="append", metavar=("OLD", "NEW"),
-                    help="a figure this session superseded; runs consumer_check (cross + --self)")
-    ap.add_argument("--memory-slug", action="append", help="auto-memory slug written this session")
+    ap.add_argument("--superseded", nargs=2, action="append", metavar=("OLD", "NEW"))
+    ap.add_argument("--consumer-ack", metavar="NOTE", help="packets to every 🔴 STALE owner were sent: NOTE names them")
+    ap.add_argument("--memory-slug", action="append")
+    ap.add_argument("--noop", nargs=2, action="append", metavar=("SURFACE", "REASON"),
+                    help="declare a handoff surface unchanged on purpose (NEXUS_BRIEF.md only)")
     ap.add_argument("--selftest", action="store_true")
-    ap.add_argument("--verify", action="store_true", help="C12.3: is the tree unchanged since the last run?")
+    ap.add_argument("--verify", action="store_true")
     a = ap.parse_args()
     if a.selftest:
         return selftest()
@@ -152,87 +195,88 @@ def main() -> int:
         return verify()
 
     tier = a.tier or "standard"
+    noops = {}
+    for surf, reason in (a.noop or []):
+        if surf not in NOOP_ALLOWED:
+            print(f"  ⛔ --noop {surf} not allowed (only {sorted(NOOP_ALLOWED)}); SCRATCH is written at every ending")
+            return 1
+        noops[surf] = reason
+    d0 = tree_digest()
     now = dt.datetime.now()
     print("=" * 74)
-    print(f"  BOND CLOSEOUT RUNNER · {now:%Y-%m-%d %H:%M} local · tier={tier}"
+    print(f"  BOND CLOSEOUT RUNNER · {now:%Y-%m-%d %H:%M} local · tier={tier} · tree {d0}"
           + ("" if a.tier else "  ⚠️ --tier OMITTED: treated as standard, NOT enforced"))
     print("=" * 74)
     rows = []
 
     def step(name, outcome, detail):
         rows.append((name, outcome, detail))
-        mark = {"RAN": "✅", "FAILED": "🔴", "NOT-APPLICABLE": "▫️"}[outcome]
+        mark = {"RAN": "✅", "FAILED": "🔴", "FINDINGS": "🟠", "NOT-APPLICABLE": "▫️"}[outcome]
         print(f"  {mark} {outcome:<14} {name}")
-        if detail:
-            for ln in str(detail).splitlines()[-6:]:
-                print(f"        {ln[:160]}")
+        for ln in str(detail or "").splitlines()[-8:]:
+            print(f"        {ln[:170]}")
 
-    # 1. content pass (kb_lint · numeric drift · assertions · mirror sync)
     rc, out = sh([sys.executable, "monitors/closeout_check.py"], cwd=BOND, timeout=900)
-    tail = "\n".join(out.splitlines()[-3:])
-    step("closeout_check (0/4 lint · 1/4 numeric · 2/4 assertions · 3/4 mirror)",
-         "RAN" if rc == 0 else "FAILED", f"rc={rc}\n{tail}")
+    step("closeout_check (0/4 lint · 1/4 numeric · 2/4 assertions · 3/4 mirror)", classify(rc, out, "strict"),
+         f"rc={rc}\n" + "\n".join(out.splitlines()[-3:]))
 
-    # 2. handoff ordering
-    o, d = check_ordering()
     if tier == "bounce":
-        step("handoff ordering (STATUS vs NEXUS_BRIEF/SCRATCH/TRADE)", "NOT-APPLICABLE", "bounce tier: STATUS not rewritten")
+        step("handoff ordering (STATUS vs NEXUS_BRIEF/SCRATCH)", "NOT-APPLICABLE", "bounce tier: STATUS not rewritten")
     else:
-        step("handoff ordering (STATUS vs NEXUS_BRIEF/SCRATCH/TRADE)", o, d)
+        o, d = check_ordering(noops)
+        step("handoff ordering (STATUS vs NEXUS_BRIEF/SCRATCH)", o, d)
 
-    # 3. root 1b orphan (advisory)
     rc, out = sh(["bash", "scripts/orphan_check.sh", "BOND"])
     yours = [l for l in out.splitlines() if "likely YOURS" in l]
-    step("root 1b orphan_check", "RAN" if rc is not None else "FAILED",
-         f"[likely YOURS]={len(yours)} (commit them, carve-out ①)" + ("\n" + "\n".join(yours) if yours else ""))
+    step("root 1b orphan_check", classify(rc, out, "advisory"),
+         f"rc={rc} · [likely YOURS]={len(yours)} (commit them, carve-out ①)" + ("\n" + "\n".join(yours) if yours else ""))
 
-    # 4. root 1c consumer check
     if a.superseded:
-        fails = []
+        worst, detail = "RAN", []
         for old, new in a.superseded:
-            rc1, o1 = sh([sys.executable, "scripts/consumer_check.py", "--agent", "BOND", "--old", old, "--new", new])
-            rc2, o2 = sh([sys.executable, "scripts/consumer_check.py", "--agent", "BOND", "--self", "--old", old, "--new", new])
-            if rc1 not in (0, 1) or rc2 not in (0, 1):
-                fails.append(f"{old}->{new}: rc {rc1}/{rc2}")
-            print(f"        consumer_check {old}->{new}: cross rc={rc1} · self rc={rc2} (🔴 STALE owners get a packet; fix own by pattern)")
-        step("root 1c consumer_check (cross + --self)", "FAILED" if fails else "RAN", "; ".join(fails))
+            for form, extra in (("cross", []), ("self", ["--self"])):
+                rc, out = sh([sys.executable, "scripts/consumer_check.py", "--agent", "BOND", "--strict", *extra, "--old", old, "--new", new])
+                oc = classify_consumer(rc, out, bool(a.consumer_ack))
+                hits = [l for l in out.splitlines() if "🔴" in l]
+                detail.append(f"{form} {old}->{new}: rc={rc} {oc}" + (f" · {len(hits)} 🔴 line(s)" if hits else ""))
+                detail += ["   " + h[:150] for h in hits[:6]]
+                rank = {"RAN": 0, "FINDINGS": 1, "FAILED": 2}
+                worst = oc if rank[oc] > rank[worst] else worst
+        if a.consumer_ack:
+            detail.append(f"ACK: {a.consumer_ack}")
+        step("root 1c consumer_check --strict (cross + --self)", worst, "\n".join(detail))
     else:
         step("root 1c consumer_check (cross + --self)", "NOT-APPLICABLE",
-             "no superseded figure DECLARED (--superseded OLD NEW). ⚠️ This is a self-declaration: if a threshold, split, "
-             "score or band changed this session, re-run with it.")
+             "no superseded figure DECLARED (--superseded OLD NEW). Self-declaration: a changed threshold, score, split or band must be declared.")
 
-    # 5. root 1c-bis ledger nudge (advisory)
     rc, out = sh([sys.executable, "scripts/ledger_staleness.py", "--nudge", "BOND"])
-    step("root 1c-bis ledger_staleness --nudge", "RAN" if rc is not None else "FAILED",
-         out.splitlines()[-1] if out else "")
+    step("root 1c-bis ledger_staleness --nudge (advisory)", classify(rc, out, "advisory"), f"rc={rc} · " + (out.splitlines()[-1] if out else ""))
 
-    # 6. root 1d memory index
     if a.memory_slug:
         cmd = [sys.executable, "scripts/memory_index_check.py", "--strict"]
         for s in a.memory_slug:
             cmd += ["--slug", s]
-        rc1, o1 = sh(cmd)
-        rc2, o2 = sh(["bash", "scripts/check_memory_length.sh"])
-        step("root 1d memory_index_check + check_memory_length", "RAN" if rc1 == 0 and rc2 == 0 else "FAILED",
-             f"index rc={rc1} · length rc={rc2} (rc=1 approaching, 2 over: flag PROME, never compact)")
+        rc1, o1 = sh(cmd); rc2, o2 = sh(["bash", "scripts/check_memory_length.sh"])
+        oc = "RAN" if classify(rc1, o1, "strict") == "RAN" and classify(rc2, o2, "strict") == "RAN" else "FAILED"
+        step("root 1d memory_index_check + check_memory_length", oc, f"index rc={rc1} · length rc={rc2} (1 approaching, 2 over → flag PROME)")
     else:
         step("root 1d memory_index_check", "NOT-APPLICABLE", "no auto-memory slug declared (--memory-slug)")
 
-    # 7. root 1e claim check
-    paths = ["PROME/DOCKET.tsv", "PROME/GATES.tsv", "PROME/WILL_QUEUE.md",
-             "AGENTS/BOND/docket/CATALYSTS.tsv", "AGENTS/BOND/STATUS.md"]
+    paths = ["PROME/DOCKET.tsv", "PROME/GATES.tsv", "PROME/WILL_QUEUE.md", "AGENTS/BOND/docket/CATALYSTS.tsv", "AGENTS/BOND/STATUS.md"]
     rc, out = sh([sys.executable, "scripts/claim_check.py", "--check", "weekday"] + paths)
-    step("root 1e claim_check --check weekday", "RAN" if rc == 0 else "FAILED", out.splitlines()[-1] if out else "")
+    step("root 1e claim_check --check weekday", classify(rc, out, "strict"), f"rc={rc} · " + (out.splitlines()[-1] if out else ""))
 
-    # 8. read cap
     rc, out = sh([sys.executable, "scripts/read_cap_check.py", "--agent", "BOND"])
-    step("read_cap_check --agent BOND", "RAN" if rc == 0 else "FAILED",
-         [l for l in out.splitlines() if "READ-CAP" in l][-1:] and [l for l in out.splitlines() if "READ-CAP" in l][-1] or "")
+    res = [l for l in out.splitlines() if "READ-CAP-RESULT" in l]
+    step("read_cap_check --agent BOND", classify(rc, out, "strict"), f"rc={rc} · " + (res[-1] if res else "(no result line)"))
 
-    # 9. inbox re-scan (advisory, never blocks)
     step("inbox re-scan (advisory: what landed since boot)", "RAN", inbox_scan())
 
-    failed = [r for r in rows if r[1] == "FAILED"]
+    d1 = tree_digest()
+    step("freeze integrity (tree digest start == end)", "RAN" if d0 == d1 else "FAILED",
+         f"start {d0} · end {d1}" + ("" if d0 == d1 else " — the tree MOVED during the checks; restart C12 at 1"))
+
+    blocking = [r for r in rows if r[1] in ("FAILED", "FINDINGS")]
     print("\n" + "-" * 74)
     print("  JUDGEMENT STEPS — NOT VERIFIED BY THIS RUNNER (by design; name each outcome in SCRATCH):")
     for j in JUDGEMENT:
@@ -241,32 +285,71 @@ def main() -> int:
     rc, head = sh(["git", "rev-parse", "--short", "HEAD"])
     LOG.parent.mkdir(exist_ok=True)
     if not LOG.exists():
-        LOG.write_text("timestamp\ttier\thead\toverall\tsteps\tdigest\n", encoding="utf-8")
+        LOG.write_text("timestamp\ttier\thead\toverall\tsteps\tdigest\tnoops\n", encoding="utf-8")
+    overall = "FAILED" if blocking else "RAN"
     with LOG.open("a", encoding="utf-8") as f:
-        f.write("\t".join([now.strftime("%Y-%m-%dT%H:%M"), tier, head.strip(),
-                           "FAILED" if failed else "RAN",
-                           " | ".join(f"{n}={o}" for n, o, _ in rows), tree_digest()]) + "\n")
-    print(f"  {'🔴 ' + str(len(failed)) + ' step(s) FAILED — rc=1, LOOK' if failed else '✅ every mechanical step RAN and passed'}"
-          f" · logged to {LOG.relative_to(BOND)} · then: commit (pathspec) → safe-push (read its receipt line)")
+        f.write("\t".join([now.strftime("%Y-%m-%dT%H:%M"), tier, head.strip(), overall,
+                           " | ".join(f"{n}={o}" for n, o, _ in rows), d1,
+                           "; ".join(f"{k}: {v}" for k, v in noops.items())]) + "\n")
+    print(f"  {'🔴 ' + str(len(blocking)) + ' blocking step(s) — rc=1, no commit' if blocking else '✅ every mechanical step RAN'}"
+          f" · logged → {LOG.relative_to(BOND)} · next: `--verify` (from AGENTS/BOND) → commit by pathspec (repo root) → safe-push")
     print("=" * 74)
-    return 1 if failed else 0
+    return 1 if blocking else 0
+
+
+# ---------------- selftest ---------------------------------------------------------
+def _tmp_repo_digest_test() -> list:
+    """Isolated repo: the digest must change on (a) untracked-file CONTENT, (b) an outgoing
+       packet outside AGENTS/BOND, (c) a tracked-file edit; and must NOT change on a log append."""
+    out = []
+    with tempfile.TemporaryDirectory() as td:
+        repo = Path(td)
+        env = dict(os.environ, GIT_AUTHOR_NAME="t", GIT_AUTHOR_EMAIL="t@t", GIT_COMMITTER_NAME="t", GIT_COMMITTER_EMAIL="t@t")
+        def g(*args):
+            return subprocess.run(["git", *args], cwd=repo, capture_output=True, text=True, env=env)
+        g("init", "-q"); (repo / "AGENTS/BOND/registry").mkdir(parents=True); (repo / "PROME/inbox").mkdir(parents=True)
+        (repo / "AGENTS/BOND/STATUS.md").write_text("s\n"); (repo / "AGENTS/BOND/registry/CLOSEOUT_LOG.tsv").write_text("h\n")
+        g("add", "-A"); g("commit", "-qm", "init")
+        base = tree_digest(repo)
+        (repo / "AGENTS/BOND/new_untracked.md").write_text("v1\n"); d_a1 = tree_digest(repo)
+        (repo / "AGENTS/BOND/new_untracked.md").write_text("v2\n"); d_a2 = tree_digest(repo)
+        out.append(("REAL v1 defect: untracked-file CONTENT edit changes the digest", d_a1 != d_a2 and d_a1 != base))
+        (repo / "PROME/inbox/2026-09-29_from-BOND_x.md").write_text("p1\n"); d_b1 = tree_digest(repo)
+        (repo / "PROME/inbox/2026-09-29_from-BOND_x.md").write_text("p2\n"); d_b2 = tree_digest(repo)
+        out.append(("REAL v1 defect: outgoing packet outside AGENTS/BOND is in the freeze", d_b1 != d_a2 and d_b2 != d_b1))
+        (repo / "AGENTS/BOND/STATUS.md").write_text("s2\n"); d_c = tree_digest(repo)
+        out.append(("tracked-file edit changes the digest", d_c != d_b2))
+        with (repo / "AGENTS/BOND/registry/CLOSEOUT_LOG.tsv").open("a") as f:
+            f.write("row\n")
+        out.append(("appending the runner's own log does NOT change the digest", tree_digest(repo) == d_c))
+    return out
 
 
 FIXTURES = [
-    ("surface older than STATUS lags", 100.0, 50.0, True),
-    ("surface same commit as STATUS does not lag", 100.0, 100.0, False),
-    ("surface dirty (now) never lags", 100.0, 1e12, False),
-    ("REAL 2026-09-29 class: NEXUS_BRIEF 5 days behind STATUS", 1_759_100_000.0, 1_758_700_000.0, True),
+    ("classify: advisory tool crashed (rc None) → FAILED", classify(None, "", "advisory") == "FAILED"),
+    ("classify: advisory tool traceback with rc 0 → FAILED (orphan_check exits 0 unconditionally)", classify(0, "Traceback (most recent call last)...", "advisory") == "FAILED"),
+    ("classify: advisory tool rc 1 with output → RAN", classify(1, "nudge: behind", "advisory") == "RAN"),
+    ("classify: advisory tool rc 0 but NO output → FAILED (did it run?)", classify(0, "", "advisory") == "FAILED"),
+    ("classify: strict tool rc 1 → FAILED", classify(1, "x", "strict") == "FAILED"),
+    ("consumer: rc 1 unacked → FINDINGS (blocking)", classify_consumer(1, "🔴 STALE", False) == "FINDINGS"),
+    ("consumer: rc 1 acked → RAN", classify_consumer(1, "🔴 STALE", True) == "RAN"),
+    ("consumer: rc 2 → FAILED", classify_consumer(2, "", False) == "FAILED"),
+    ("verify: REAL v1 defect — last run FAILED must not say 'commit now'", verify_decision(["t", "standard", "h", "FAILED", "s", "abc"], "abc")[0] is False),
+    ("verify: last run RAN + same digest → commit", verify_decision(["t", "standard", "h", "RAN", "s", "abc"], "abc")[0] is True),
+    ("verify: last run RAN + different digest → MOVED", verify_decision(["t", "standard", "h", "RAN", "s", "abc"], "abd")[0] is False),
+    ("verify: no log → refuse", verify_decision([], "abc")[0] is False),
+    ("ordering: older surface lags", lags(100.0, 50.0) is True),
+    ("ordering: dirty surface (now) never lags", lags(100.0, 1e12) is False),
 ]
 
 
 def selftest() -> int:
     bad = 0
-    print(f"  closeout_run SELFTEST — {len(FIXTURES)} ordering fixtures")
-    for name, sv, v, exp in FIXTURES:
-        ok = lags(sv, v) == exp
-        bad += 0 if ok else 1
+    fx = list(FIXTURES) + _tmp_repo_digest_test()
+    print(f"  closeout_run SELFTEST — {len(fx)} fixtures (pure classifiers + isolated-repo digest)")
+    for name, ok in fx:
         print(f"  {'✅' if ok else '❌'} {name}")
+        bad += 0 if ok else 1
     print(f"  {'ALL PASS' if not bad else str(bad) + ' FAILURE(S)'}")
     return 1 if bad else 0
 

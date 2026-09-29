@@ -1,6 +1,6 @@
 # BOND CLOSEOUT
 
-**Owner:** BOND · **Created:** 2026-09-29 · **v2 after a blind cold read the same evening** (4 ❌ / 25 ⚠️ applied; ledger `analysis/2026-09-29_coldread_CLOSEOUT-v1_ledger.md`). **Rules only.** Reasons and history: `docs/PROTOCOL_PROVENANCE.md` (crc32 `4276224127`) and `git log -p -- AGENTS/BOND/CLAUDE.md`.
+**Owner:** BOND · **Created:** 2026-09-29 · **v2 after a blind cold read, v3 after a reviewer reproduced four runner defects in an isolated repo** (same evening; ledger `analysis/2026-09-29_coldread_CLOSEOUT-v1_ledger.md`; runner v2 selftest covers the four). **Rules only.** Reasons and history: `docs/PROTOCOL_PROVENANCE.md` (crc32 `4276224127`) and `git log -p -- AGENTS/BOND/CLAUDE.md`.
 Git mechanics are root `CLAUDE.md` § Git Protocol; not restated here. Tier names Bounce/Light/Standard/Heavy match `PROME/CLOSEOUT.md`, LIQUID, TERRY and HANS; **Addendum is BOND's own**, taken from RED's W-A.
 
 ## When to run
@@ -9,15 +9,15 @@ Before `/clear`, a machine switch, a long pause, or any session end. Run it at E
 
 ## Pick a tier — say it out loud; the runner takes it lowercase: `bounce` · `light` · `standard` · `heavy` · `addendum`
 
-| Tier | When | Touches | Runner? | Commit? |
+| Tier | When | Touches | Runner? | Commit + push? |
 |---|---|---|---|---|
-| **bounce** | Restart within the hour | SCRATCH: 3–5 lines (what happened · pending · entry point) | No | Optional checkpoint. **Machine switch ⇒ commit + push, mandatory.** |
-| **light** | Short session; no level moved, no packet sent | STATUS surgical + SCRATCH targeted + the ledger touched | Yes, `--tier light` | Optional; machine switch ⇒ mandatory |
+| **bounce** | Restart within the hour | SCRATCH: 3–5 lines (what happened · pending · entry point) | No | **Yes if any file changed** — a one-line checkpoint commit by pathspec + safe-push (root `CLAUDE.md`: commit locally at session end; push at closeout). Nothing changed ⇒ nothing to commit. |
+| **light** | Short session; no level moved, no packet sent | STATUS surgical + SCRATCH targeted + the ledger touched | Yes, `--tier light` | **Yes** |
 | **standard** *(default)* | End of thread or day; levels refreshed, mail drained, packets sent | **C1–C9, C11, C12** | Yes | Yes |
 | **heavy** | Tooling built, a durable lesson earned, a spec or charter changed | Standard **+ C10** | Yes | Yes |
 | **addendum** | Any ending after the first in the same day, **except end-of-day** | Floor A1–A3 + the conditionals below | Yes, `--tier addendum` | Yes |
 
-**Precedence:** end-of-day is always at least `standard`, even if it is the day's fourth ending. `addendum` is for mid-day re-endings only.
+**Precedence:** end-of-day is always at least `standard`, even if it is the day's fourth ending. `addendum` is for mid-day re-endings only. **No tier makes the commit optional** — the root protocol requires a local commit at every session end and the push at closeout; the tiers only size the write-back.
 
 ## Glossary — every term below is defined here or by pointer
 - **Read cap:** root `CLAUDE.md` § Data Hygiene: a whole-read surface stays under **32,550 B**; STATUS rotates at **≥75%** (24,412 B). Check: `python3 scripts/read_cap_check.py --agent BOND` (repo root).
@@ -48,9 +48,9 @@ Before `/clear`, a machine switch, a long pause, or any session end. Run it at E
 **C12. FREEZE → RUN → VERIFY → COMMIT → PUSH.**
    1. **Freeze:** stop editing files. Any edit after this line restarts C12 at 1.
    2. **Run (from `AGENTS/BOND/`):** `python3 monitors/closeout_run.py --tier <tier> [--superseded OLD NEW]… [--memory-slug S]…`
-      It runs `closeout_check` (lint · numeric drift · assertions · mirror sync) · handoff ordering · root 1b orphan · root 1c consumer (only when `--superseded` is declared) · root 1c-bis ledger nudge · root 1d memory (only when `--memory-slug` is declared) · root 1e claim · read cap · inbox re-scan. It prints RAN / FAILED / NOT-APPLICABLE per step, records the working-tree digest, and appends a row to `registry/CLOSEOUT_LOG.tsv`.
-      **rc ≠ 0 ⇒ no commit.** Fix, then restart C12 at 1. A NOT-APPLICABLE is a self-declaration: a changed threshold, score, split or band must be declared with `--superseded`.
-   3. **Verify (from `AGENTS/BOND/`):** `python3 monitors/closeout_run.py --verify` → prints `FREEZE MATCH` (tree unchanged since the last run) or `FREEZE MOVED` (restart at 1).
+      It runs `closeout_check` (lint · numeric drift · assertions · mirror sync) · handoff ordering (STATUS vs NEXUS_BRIEF and SCRATCH by vintage; TRADE is covered by the token, not by vintage) · root 1b orphan · root 1c consumer `--strict`, cross + `--self` (only when `--superseded` is declared) · root 1c-bis ledger nudge · root 1d memory (only when `--memory-slug` is declared) · root 1e claim · read cap · inbox re-scan · **freeze integrity** (the tree digest is taken at the START and the END of the run; a difference fails the run). The digest covers `AGENTS/BOND/` including untracked-file content, and every self-authored packet in other desks' inboxes. It prints RAN / FAILED / FINDINGS / NOT-APPLICABLE per step and appends a row to `registry/CLOSEOUT_LOG.tsv`.
+      **rc ≠ 0 ⇒ no commit.** Fix, then restart C12 at 1. **FINDINGS** (🔴 STALE consumers) block until every owner has a packet and you re-run with `--consumer-ack "<who was packeted>"`. A NOT-APPLICABLE is a self-declaration: a changed threshold, score, split or band must be declared with `--superseded`. A handoff surface left unchanged on purpose is declared, not forced: `--noop NEXUS_BRIEF.md "<reason>"` (SCRATCH is never a no-op).
+   3. **Verify (from `AGENTS/BOND/`):** `python3 monitors/closeout_run.py --verify` → `FREEZE MATCH` (tree unchanged since the last **passing** run) ⇒ commit; `FREEZE MOVED` or `FREEZE REFUSED` (last run FAILED) ⇒ restart at 1.
    4. **Commit (from the repo root, `cd "$(git rev-parse --show-toplevel)"`):** exact pathspecs `AGENTS/BOND/<file>`; self-authored packets in other inboxes under carve-out ①. Message via a quoted heredoc file; subject ≤ 100 chars.
    5. **Push (repo root):** `bash scripts/safe-push.sh`. Read the push receipt line itself; a tail is not a receipt. Non-ff ⇒ root step 3; never force.
 
@@ -60,7 +60,7 @@ Conditionals, each keyed to a fact: a score, gate state, position, regime label 
 One question, out loud: *did this ending change a number, date or state another desk consumes?* If yes, C11 is not optional.
 
 ## What the runner cannot see
-It checks vintage, tokens and a working-tree digest, never content. A fresh header over a stale body passes. A wrong banner with a correct token passes. Those are C1/C4/C11 judgement, named in SCRATCH, and a `coldreader` pass after any restructure.
+It checks vintage, tokens and a working-tree digest, never content. The digest covers this directory and self-authored packets; a file written somewhere else (a memory file, another desk's log row) is outside it and must be committed on its own rail. A fresh header over a stale body passes. A wrong banner with a correct token passes. Those are C1/C4/C11 judgement, named in SCRATCH, and a `coldreader` pass after any restructure.
 
 ## Surfaces boot reads ↔ closeout writes (the only pair list; the step text does not repeat it)
 | Boot reads | Closeout writes |
