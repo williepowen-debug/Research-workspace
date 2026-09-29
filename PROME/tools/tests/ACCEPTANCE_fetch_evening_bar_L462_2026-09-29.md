@@ -2,9 +2,9 @@
 
 **Written BEFORE any edit** (WQ-229 repair-completion discipline). **Author:** PROME `prome-e6`, 2026-09-29 12:2x ET (clock: the `NOW:` line). **Owner:** PROME (FORGE is PROME-standard). **Raiser:** BRENT, packet `PROME/inbox/processed/2026-09-23_from-BRENT_wq234-encoded-l0-drain.md` §2 (dashboard caveat). **Class:** WQ-229 consequential — a Will-facing surface (the dashboard's Brent line is the HEARTBEAT parser anchor) and a shared contract (`price_fetch` has fleet callers). **Process slot:** this is the session's ONE process change (WQ-299 R1); every 9/29 domain row was RESOLVED before it opened.
 
-reads: 1
+reads: 2
 - 2026-09-29 12:20 ET — PLAN read, coldreader `l462plancold` (Opus): NO · 20 ✅ / 18 ⚠️ / 3 ❌ (ledger: session scratchpad `l462_plan_read_v1.md`; the ❌ items and their fixes are in the residue block). All three ❌ fixed in this file before any code edit; the ⚠️ that changed the DETECTOR's design were taken into the implementation and are named below; the rest are declared residue.
-- 2026-09-29 12:30 ET — RESULT read, coldreader `l462resultcold` (Opus, own counterexamples): NO · 17 ✅ / 8 ⚠️ / 4 ❌ (ledger: session scratchpad `l462_result_read_v1.md`). The four ❌ fixed at 12:3x ET in ONE further edit (below); those fixes are UNREVIEWED. Episode CLOSED at two reads; a third read only on Will's named authorization.
+- 2026-09-29 12:30 ET — RESULT read, coldreader `l462resultcold` (Opus, own counterexamples): NO · 17 ✅ / 8 ⚠️ / 4 ❌ (ledger: session scratchpad `l462_result_read_v1.md`). The four ❌ fixed at 12:3x ET in ONE further edit (below); those fixes are UNREVIEWED. Episode CLOSED at two reads (the counter above was written `1` at the plan read and corrected to `2` at the 9/29 closeout on ARGUS ❌3); a third read only on Will's named authorization.
 
 ## The defect, in its own terms (BRENT 9/23 20:47 ET, at the vendor)
 

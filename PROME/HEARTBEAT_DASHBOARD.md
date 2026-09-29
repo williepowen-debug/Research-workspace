@@ -54,3 +54,24 @@ This companion keeps render metadata outside the boot-read byte budget.
   }
 }
 ```
+
+*Amendment #3 (2026-09-29 15:5x ET, PROME `prome-e6` closeout; session 5 long-end-led · NEXUS two roots · the 9/29 reconcile · KRE/WAL yellow · the gamma shelf-life KOS entry): projection below.*
+
+```dashboard-amendment
+{
+  "amendment": 3,
+  "source_sha256": "70d23ad1df83139cc1f2d998c24f1db2a3bbc5aa46a970a028145c0f87200071",
+  "set": {
+    "channels": {
+      "Rates": {
+        "headline": "🔴 SESSION 5 LONG-END-LED: 10Y ~5.28 · 30Y ~5.61 intraday 9/29 (vendor), front end flat, FF strip unmoved — term-premium SHAPE, US-ORIGINATED; the 9/29 official cells (~16:15) are the grade",
+        "body": "BOND KB-BND-361/362 (vendor intraday 12:3x–12:5x ET): bear steepener, Bund 10Y −3bp · gilt +1 · JGB flat · oil down; the 30Y rose ~2bp INTO the 10:00 consumer-confidence miss (81.9, weakest since Apr-2014). Pre-registered: BND-30 (70%, ACM term-premium share ≥0.50 on the 9/29 row, ceiling 10/9) · BND-31 (65%, Tokyo 9/30 JGB 30Y < +4bp = NOT exporting). If the close holds: 30Y ≥5.60 ⇒ since 2004-05-13, 10Y ≥5.28 ⇒ since 2002-05-15. NEXUS WQ-340: the week's fired lines are TWO ROOTS + a control (effective-N ≈ 2); next link IG OAS >94 (GATE-LIQ-072, 11bp). KOS: HENRY's negative-gamma read has a ONE-SESSION shelf life (expires at the 9/29 close)."
+      },
+      "Credit": {
+        "headline": "🟠 Root B is UNOWNED — NEXUS: the 9/25 tier widening was rates-flat, cable-led (an AI-disruption scare in incumbents); WQ-341 for Will; KRE/WAL zone green→yellow 12:08 9/29",
+        "body": "NEXUS 83e6fe366: RED FT-01 · BOND row 4 · LIQUID X1 · REGINALD re-arm = ONE FRED series read four ways; CCC 1,146 is a pre-existing R3; the credit leg's own discriminator is LIQ-07 SPREAD-B (B ≥304 [9/29] · ≥308 [9/30]); NEXUS PRED-50 tests the two-root claim on B OAS over rates-quiet sessions 9/29→10/8 (DOCKET L553). KRE 69.54 · WAL 74.24 (vendor 12:08 ET). Book RECONCILED 9/29 13:4x intraday (ANVIL b983d745a): quantities unchanged; D-60 narrowed (OTM expiry liquidation OBSERVED ×4; ITM unobserved). 24th re-base OWED."
+      }
+    }
+  }
+}
+```
