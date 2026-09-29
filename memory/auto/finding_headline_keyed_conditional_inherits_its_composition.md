@@ -7,6 +7,8 @@ symptoms:
   - "should I revise my pre-committed prior after seeing the data"
   - "headline beat / core and services decelerated"
   - "conditional update fired on the wrong reason"
+  - "the terminal went dark but the country's exports rose"
+  - "a proxy route fired on a loss the aggregate doesn't show"
 metadata:
   node_type: memory
   type: feedback
@@ -24,5 +26,7 @@ A pre-registered conditional of the form **"if headline X ≥ T, move the prior 
 **The forward fix — write branches with two legs:** a **trigger** (the aggregate, mechanically checkable) **and a composition test** (what the branch claims is happening underneath). Disagreement between them is not noise to resolve — **it is the finding**, and it is the only part of the exercise that teaches you anything.
 
 ⚠️ **The trap that makes this hard to catch:** the rule firing *toward your registered position* feels like confirmation, so nothing prompts the composition check. It is the same trigger gap as `[[finding_confounds_align_with_the_prior_you_brought]]` — a result that agrees with you does not feel like it needs auditing.
+
+**Second instance, the INVERSE shape (FALCON, 2026-09-28, n=2).** FAL-05 claimed *"no new loss of crude supply to market"* and operationalised it through a **component** route: (c) = crude loadings suspended ≥72h at a named terminal. Yanbu went dark 9/11–9/17+ (Kpler + Vortexa), so the route fired. **The aggregate refuted the headline:** Saudi exports ROSE, re-routed through Hormuz (Sept >5 mb/d; Aramco CEO: *"We never stopped"*). HANS's case was an aggregate trigger with a refuting composition; this one is a **component trigger with a refuting aggregate**. **Same rule, both directions: whenever the trigger and the claim sit at different aggregation levels, the rule can fire on data that refutes the claim.** Handled identically: graded FAILED on the letter (a net-loss requirement read in afterwards would be a post-hoc rescue), the disagreement recorded beside it, and the fix sent to the successor row's design, prospectively. ⚠️ Cost of the letter here: a registered ladder rung (D 75→85) fired on it, so the disagreement had to travel into the operator brief, not just the post-mortem.
 
 Related: `[[finding_composition_mask_unmask_discriminator]]` (adversarial version — an entity *managing* the denominator), `[[finding_level_and_rate_look_like_agreement_until_you_name_which]]`, `[[finding_output_shape_implies_more_than_the_measurement]]`.
