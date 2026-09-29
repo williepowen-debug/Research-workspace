@@ -13,7 +13,7 @@
 
 | # | Vector | Score | Δ | Live state · If-falsified → ACTION |
 |---|--------|-------|---|------------------------|
-| 1 | WARN pipeline | **3** 🟠 | ↓5 | ⚠️ **T-07 unmeasurable since 9/29** (no monthly source; BD-36). Drop to 2 if claims MA stays <225K (framework lag failed on the cohort) |
+| 1 | WARN pipeline | **3** 🟠 | ↓5 | ⚠️ **T-07 unmeasurable since 9/29** (no monthly source; BD-36). Newest cohort: **Oracle Sep round — CA 441 `[CONF EDD]` + WA 359 `[2ND]`, effective 11/13** (claims w/e Nov 14; `800 / 197,000 = 0.4%` of a week — state-level only, L-08). Drop to 2 if claims MA stays <225K (framework lag failed on the cohort) |
 | 2 | Sector cuts | **1** ⚪ | ↓1 | Challenger Aug **52,881** (<80K). Re-spike >80K/mo ×2 → restore 4 |
 | 3 | ISM/survey employment | **2** 🟡 | flat | Graded 9/3: Svs Emp **47.8** (2nd mo <50) vs Mfg **51.2** — split. Drop to 1 needs BOTH >50 same month |
 | 4 | JOLTS hire-rate freeze | **2** 🟡 | ↓1 | ✅ **Graded 9/29 on the 9/1 band: Aug NET +122K ⇒ 3 → 2.** Hires rate 3.3% · layoffs 1.0% · quits 1.9%. → 3 on NET ≤0 in a month; → 4 on NET ≤0 ×2 AND hires rate ≤3.2%. Hires >5.5M ×2 → thawed (`5,500 − 5,192 = 308K` away) |
