@@ -2,7 +2,19 @@
 
 ## Session Notes
 
-### CURRENT SESSION (2026-09-25 Fri 01:03–01:14 ET — PROME `prome-fa` Will-directed item 3, "does credit transmission persist?". STANDARD: 4 of 4 asks DONE · 1 new instrument · KB-LIQ-136 · 0 thresholds moved)
+### CURRENT SESSION (2026-09-29 Tue 08:43–11:32 ET — Will boot, then Will-directed DOCKET work. HEAVY: 1 gate fire graded (late) · 2 repairs through an independent reader · 6 tool defects fixed · DAEDALUS #1–#5 done · STATUS restructured · 0 thresholds moved)
+
+**Context:** Book FLAT, $0. Boot at 08:43 (FRED latest 9/25); the 9/28 ICE cell posted ~10:20 ET and was graded (L525).
+
+**Delivered:** 9/28 grade: HY 302 · X1 strict >280 2 in a row · `LIQ-07` 1 of 3 · §1c BROADENS · CCC 1,146 at the FRED-window max (memo + correction to PROME) · **GATE-LIQ-076 CONJUNCTION MET** (W1 +329,162 [9/22] + W3 9/23–9/28), graded 4 days late, write-up via WALTER, then wired into `boot.py` · L493 ① watcher stale-arbiter repair (ACs first, Opus reader: rd 1 NOT VERIFIED, rd 2 VERIFIED) · ② one spelling (strict >280, "sustained" TAGGED never MET) · ③ R3 harness pre-read (`money market fund break` rejected by name) · ④ rotations · L345 decided (L5 re-verification NO_INSTRUMENT) · L494 X1 position filed · DAEDALUS #1–#5 (ALFRED path VERIFIED, KB-LIQ-137; 072 SpaceX leg CANNOT-FIRE; W2 = `PDPOSCSBND-G10/-G5L10` IG corporate; 079 calendar list; precision/ties) · 9/30 pre-stages · STATUS restructured into six sections (cold reader rd 1 FAIL, rd 2 PASS) · ORACLE asked for the Fed path.
+
+**Found (defects in my own tools, all fixed):** ① `gate069_legs.py` stretched the L4 session across a missing day, twice (CATO rd 1 and rd 2); the previous session is now fixed by the NYSE calendar · ② `grade_076` built its calendar from surviving rows, and reported NOT MET on unknown legs (CATO LR5/LR6) · ③ **float ties: FRED % ×100 compared unrounded against whole-bp lines** (079 +30 missed; 069 L1 220 false fire; L4 +5 missed). Class → PROME DOCKET (FORGE `classify`) · ④ FRED `fredgraph.csv` is CDN-cached per exact URL (max-age ≤600s), so a fixed-URL poll lags ~10 min · ⑤ `sys.exit()` in a script silently passed a runpy harness.
+
+**Self-corrections:** "widest since 310 [2025-11-25]" was wrong (query window stopped at 12/2025; it is 312 [2026-04-07]); corrected to PROME and Will. A KB row said "17 checks" typed from memory (15). An append to a CONSUMED PROME packet made a stray file at the old path (trashed; replaced by a proper packet). Stale "owed" lines lived on for days after the work was done (OBDC 9/22; 072 SpaceX row). **Pattern (CATO): corrections don't propagate to every copy. The restructure puts each fact in one place.**
+
+**NEXT SESSION entry point:** `scripts/boot.py`, then **STATUS §3 OWED (the only list)**, starting with the 9/30 row.
+
+### PRIOR SESSION (2026-09-25 Fri 01:03–01:14 ET — PROME `prome-fa` Will-directed item 3, "does credit transmission persist?". STANDARD: 4 of 4 asks DONE · 1 new instrument · KB-LIQ-136 · 0 thresholds moved)
 
 **Context:** Book FLAT, $0. Continued the same session after the 9/24 closeout (`61f9c4323`). The PROME packet (`40915c8c0`) arrived at 01:03 ET; closeout requested by PROME (WQ-249).
 
@@ -307,6 +319,15 @@
 ---
 
 ### NEXT SESSION
+
+**RE-CUT 2026-09-29 11:32 ET (closeout). ⛔ The OWED list now lives ONCE, in STATUS §3. This block is only the entry sequence; it does not duplicate that list.**
+1. `scripts/boot.py` (the 076 legs now print; W2/W3 unknowns show INDETERMINATE, never NOT MET).
+2. **Wed 9/30:** read the 9/29 ICE cell (X1 "sustained" count under the L494 proposal; `LIQ-07` needs B ≥304) → finalize the 076/072/HY-REKILL reviews (`analysis/2026-09-29_9-30-reviews-prestage.md`). **The memo MUST carry 072's and HY-REKILL's `review_by` (12/31 if quiet).** Check `AGENTS/LIQUID/inbox/` for ORACLE's Fed-path reply; if there is none, cite ORACLE's 9/28 13:48Z read as dated.
+3. **Thu 10/1:** SOFR/SOFR99/SRF for 9/30 and H.4.1 as-of 9/30. The quarter-end spike is the NULL; the verdict is due 10/8.
+4. **Fri 10/2:** L494 X1 sitting; WALTER's R3 ruling.
+5. Everything else → STATUS §3.
+
+### NEXT SESSION — 9/24 RE-CUT (SUPERSEDED 2026-09-29; history only)
 
 **RE-CUT 2026-09-24 (Will boot + closeout); rows 7–10 updated 2026-09-25. This replaces the 8/27 table below, which is kept as history only. Do not work from it.**
 
