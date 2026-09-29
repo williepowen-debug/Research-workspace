@@ -31,7 +31,7 @@
 - **→ LIQUID, BOND:** Channel 1 stays RETIRED. MOF weekly **Sep-13–19 is still unpublished** (Last-Modified 9/16; cause not established), and the latest is Sep-6–12 **+¥1,082.9B buying**. U.S. funding: SOFR = IORB (0bp, 9/28) into quarter-end; HY 293bp (+20bp over 9/23–25).
 
 **WAITING-FOR**
-- **BRENT:** Aug METI crude-by-source (~Oct-2): do Kuwait and Qatar return from zero? And the Nov/Dec settle at the Nov expiry.
+- **BRENT:** Aug METI crude-by-source — **Wed Sep-30 13:30 JST** (corrected from ~Oct-2; observed at METI): do Kuwait and Qatar return from zero? And the Nov/Dec settle at the Nov expiry.
 - **HENRY:** any genuine risk-off with the yen as haven (SAM-31 re-open condition: matched intraday cross-pair data).
 - **RED:** CH-009 graded on the 9/30 MOF 30Y close (now 4.122 vs the 4.300 bar). SAM owes RED a one-line CH-012 answer.
 
@@ -43,9 +43,9 @@
 
 | When | What |
 |---|---|
-| **Wed Sep-30** | **MOF monthly intervention total (Aug-27→Sep-28) ~19:00 JST** · **BOJ Oct–Dec schedule 17:00 JST (SAM-33)** · 2Y auction · Aug IP/retail |
+| **Wed Sep-30** | **MOF monthly intervention total (Aug-27→Sep-28) ~19:00 JST** (date = estimate) · **BOJ Oct–Dec schedule 17:00 JST (SAM-33)** · METI Aug crude-by-source 13:30 JST · 2Y auction · Aug IP/retail |
 | Thu Oct-1 | BOJ Summary of Opinions (is oil named, how) + Tankan · MOF weekly (does the missing week appear?) |
-| Fri Oct-2 | Tokyo CPI + METI crude-by-source + CFTC (Sep-29 positions) |
+| Fri Oct-2 | Tokyo CPI + CFTC (Sep-29 positions) |
 | Sat Oct-3 | BOJ OIS quote expires 15:15 JST (re-transcribe Mon Oct-5) |
 | Oct-8 | 30Y auction: frozen FIRM/SOFT bars apply |
 | Oct-30 | BOJ MPM + Outlook Report |

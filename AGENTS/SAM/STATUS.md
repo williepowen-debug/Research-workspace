@@ -80,9 +80,9 @@ Retired entry triggers remain void; this is a research docket.
 
 | When | Event | Why it matters |
 |---|---|---|
-| 🟠 **Wed Sep-30** | **MOF monthly intervention total (Aug-27→Sep-28), ~19:00 JST** · BOJ Oct–Dec purchase schedule 17:00 JST · 2Y auction · Aug IP / retail 08:50 JST | MOF: ¥0 ⇒ the 9/18 check and the 9/25 move were words only; non-zero ⇒ an op in-window (dates only via ~Nov-9 quarterly). BOJ schedule = **next SAM-33 check** (scheduled taper change does NOT count). RED CH-009 graded on the 9/30 MOF 30Y close (≥4.300 ⇒ NO-VERDICT; now 4.122). |
+| 🟠 **Wed Sep-30** | **MOF monthly intervention total (Aug-27→Sep-28), ~19:00 JST (date = cadence estimate)** · BOJ Oct–Dec purchase schedule 17:00 JST · **METI Aug crude-by-source 13:30 JST** · 2Y auction · Aug IP / retail 08:50 JST | MOF: ¥0 ⇒ the 9/18 check and the 9/25 move were words only; non-zero ⇒ an op in-window (dates only via ~Nov-9 quarterly). BOJ schedule = **next SAM-33 check** (scheduled taper change does NOT count). RED CH-009 graded on the 9/30 MOF 30Y close (≥4.300 ⇒ NO-VERDICT; now 4.122). |
 | Thu Oct-1 | BOJ Summary of Opinions (Sep MPM) + Tankan · MOF weekly (Sep-13–19 still missing) | SoO: is oil named, and how. MOF weekly: does the missing week appear with the next one? |
-| Fri Oct-2 | Tokyo CPI (Sep) · METI Aug crude-by-source · **CFTC (Sep-29 positions)** | ⚠️ Tokyo CPI/Tankan day-of-week conflicts on one wire — CATALYSTS dates stand until checked. CFTC: does the long keep shrinking? |
+| Fri Oct-2 | Tokyo CPI (Sep) · **CFTC (Sep-29 positions)** | 🔧 METI crude-by-source moved to **Wed Sep-30 13:30 JST** (observed at METI, KOYOMI Run 23; Oct-2 was an unlabelled estimate). Tokyo CPI Fri Oct-2 / Tankan Thu Oct-1 **confirmed at the Stats Bureau and BOJ calendars** — the wire's weekday was a timezone rendering. CFTC: does the long keep shrinking? |
 | **Sat Oct-3 15:15 JST** | BOJ OIS quote expires (4-day rule) | Re-transcribe the chart — SAM's job. |
 | Oct-8 | 30Y auction | Next test the frozen FIRM/SOFT bars apply to. |
 | Standing | **A fast yen-WEAKENING leg** (≥1.5–2%/day or ~2–3 yen over 1–2 sessions) | The only thing that tests reading (1). Semi-confirm any spike via BOJ current-account projections vs broker forecasts ~2 business days later. |
