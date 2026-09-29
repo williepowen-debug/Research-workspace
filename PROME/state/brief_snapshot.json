@@ -44,16 +44,16 @@
   "GATE-TERRY-VLO-SCALE": "LIVE"
  },
  "money": {
-  "cash": "47.24",
-  "total": "37,074.34",
-  "vintage": "2026-09-27"
+  "cash": "49.16",
+  "total": "36,822.87",
+  "vintage": "2026-09-29"
  },
  "queue": {
   "187": "Will APPROVED 2026-09-10 11:18 ET (tap via Decision Deck 15:18Z) \u2014 ha\u2026",
   "204": "Phone-signal lane, Part A \u2014 your PAT + iOS Shortcut (WALTER; Part B s\u2026",
   "242": "CRU-05 graded FAILED at its window close \u2014 and the letter it was grad\u2026",
   "273": "\u2696\ufe0f EXTEND THE CLOSEOUT CONSUMER-CHECK TO RETIRED PROSE CLAIMS, COMPLE\u2026",
-  "274": "\ud83d\udd34 POSITION RECORD \u2014 NARROWED 2026-09-27 by WQ-308 (f39c70073): gaps \u2460\u2026",
+  "274": "\ud83d\udfe1 POSITION RECORD \u2014 NARROWED AGAIN 2026-09-29 14:0x ET by the 9/29 re\u2026",
   "279": "NYSCEF DOCKET PULL \u2014 *Kenilworth Holdings LLC et al. v. NYC Rent Guid\u2026",
   "295": "\u2696\ufe0f THE DARK-DESK CLASS \u2014 four rulings in one record (PROME/proposals/\u2026",
   "301": "\u2696\ufe0f GATE-LIQ-069 LEG 2 \u2014 (a) RULED 15:54: actual CoreWeave CDS trades\u2026",
@@ -66,6 +66,9 @@
   "332": "\u2696\ufe0f BOND \"PULLED-DEAL CLUSTER\" \u2014 a prospective definition for the HY-m\u2026",
   "334": "\u2696\ufe0f SEND CORAL's NARROWED DBPR RECORDS REQUEST? CORAL drafted a public\u2026",
   "335": "\u2696\ufe0f SCOPE A BUILD-YEAR \u00d7 LOAN-YEAR MULTIFAMILY DELINQUENCY CROSS-TAB?\u2026",
-  "337": "\u2696\ufe0f AI POLICY & REGULATION \u2014 a fleet coverage gap with NO OWNER (VULCA\u2026"
+  "337": "\u2696\ufe0f AI POLICY & REGULATION \u2014 a fleet coverage gap with NO OWNER (VULCA\u2026",
+  "339": "\u2696\ufe0f A DURATION-SHORT EXPRESSION AFTER TOMORROW'S EXPIRY \u2014 commission T\u2026",
+  "341": "\u2696\ufe0f ROOT B IS UNOWNED \u2014 an 'AI-disruption scare in incumbents' credit\u2026",
+  "342": "\u2696\ufe0f A CREDIT LEG FOR NEXUS's DURATION SPLIT? \u2014 the split's only regist\u2026"
  }
 }
