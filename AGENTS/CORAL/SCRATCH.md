@@ -1,6 +1,6 @@
 # CORAL — SCRATCH (ephemeral session handoff)
 
-**Session:** 2026-09-28 ~20:00 → ~20:34 ET (Mon, LATE) — Will-launched boot ("continue where we left off") → Will's directed run of the four association→lender bridge follow-ups. PROME not live. Two Opus researchers (Dockside trace; DBPR/UCC test) — every load-bearing claim re-read by CORAL at the source before it entered the record.
+**Session:** 2026-09-28 ~20:00 → ~21:32 ET (Mon, LATE) — CLOSED OUT on Will's word — Will-launched boot ("continue where we left off") → Will's directed run of the four association→lender bridge follow-ups. PROME not live. Two Opus researchers (Dockside trace; DBPR/UCC test) — every load-bearing claim re-read by CORAL at the source before it entered the record.
 **Previous:** 2026-09-28 ~14:36–19:36 ET (catch-up + rulings + nine-case table). Before that 9/13.
 
 ---
@@ -31,6 +31,7 @@
 
 - MARCO dark; holds CORAL's Citizens-mechanism packet + enrollment route (ACTION).
 - Stale rows still marked: SE-FL vintage $/sf (7/13) · blacklist 1,438/696 (Mar-2025) · NOAA SIR sargassum · ATTOM foreclosure (7/17) · VLY CRE/RBC (Q1).
+- ✅ PROME **verified the late-pass packet at the artifact and applied the correction** to `HEARTBEAT_COLD.md` L763 (commit `a5a99e967`; CORAL re-checked the line: corrected sentence, Dockside private lender, "NOT a plan confirmation", Avidia present; old phrase marked SUPERSEDED). Hot HEARTBEAT §7 phrase queued by PROME as amendment #1 material. Nothing further asked.
 - PROME: orphan check found two `[not yours]` uncommitted files on this box — `BOARD/SIG-W-20260928-024-…golden-gate-and-nassau….md` (WALTER-class) and `PROME/plans/2026-09-28_heartbeat-23rd-rebase-PLAN.md` — left untouched, flagged here. One unpushed PROME commit (DOCKET L525 rider) rode out with tonight's push; DOCKET L501 (WQ-241 "CORAL proposes", dated 10/02) may be stale now that 241 is ruled — PROME's row, flagged here, not edited.
 
 ## MAIL STATE
