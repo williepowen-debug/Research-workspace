@@ -11,6 +11,13 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 
 ---
 
+## 2026-09-29 — `cases/` created: the named-CRE-case ledger (Will-directed)
+
+- **Why:** Will, 9/29 (in WALTER's session, relayed in WALTER packet @`dffcb78e0`; built on the relayed word, with confirmation asked of Will in CREED's session. Low stakes: CREED-owned files, $0, no gated surface): *"start trying to track major cases ... search for patterns or other helpful connextions."* Named cases had been scattered across KB rows (`KB-046`), desk files (OZK, REGINALD) and BOARD signals, with nothing to join them.
+- **What:** `cases/CASES.tsv` (one row per case, current state) + `cases/CASE_EVENTS.tsv` (one row per dated event, so durations are computable; WALTER's seed carried the timeline in one cell) + `cases/README.md` (rules, vocab, intake, and the **selection-bias limit: a press/desk-sampled ledger measures what gets reported, not the market**). Seeded with CASE-CREED-001 (3000 Post Oak) and 002 (5400 Westheimer Ct, the -015 decision).
+- **Wiring:** `workbook/LEDGER_GLOB` += `cases/*.tsv`, so the ledger is under staleness enforcement from day one. Not a boot read. `creed_selfcheck` counts are unaffected (the workbook still has 9 files).
+- **Not changed:** no trigger, band or score. The ledger is not a trigger instrument (README rule 9). WALTER's routing change (`case:` tag, CREED copied) is WALTER-side, not CREED's to approve.
+
 ## 2026-09-28 — `registry/THRESHOLDS.tsv` hot/cold split (read-cap rotation)
 
 - **Why:** 27,247 B = 84% of the 32,550 B read budget (WALTER's closeout flag → PROME packet `6ab20bd24`). It IS a read-whole surface: CREED `CLAUDE.md` boot step 6.1 names it, and `PROME/registry/READS.tsv` declares WALTER reads it whole (boot 6b). `read_cap_check` missed it because step 6.1 lists several paths on one line (a perimeter gap; PROME DOCKET L530 → DAEDALUS). Will approved doing it in-session.

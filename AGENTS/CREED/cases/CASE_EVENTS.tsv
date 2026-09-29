@@ -1,0 +1,16 @@
+# CREED CASE EVENTS — one row per dated event per case. BUILT 2026-09-29. Durations use event_date ONLY, never 'reported'. event_date may be UNKNOWN, YYYY, YYYY-MM, or <=YYYY-MM-DD.
+# Last real data refresh: 2026-09-29 -- built; events for CASE-CREED-001/002.
+# (PAT-044 two-clock header: the line above is the CONTENT vintage ledger_staleness.py reads first.)
+case_id	event_date	event_type	detail	value_usd	value_basis	reported	source	source_quality
+CASE-CREED-001	2014	ACQUIRED	AIP Asset Mgmt (Seoul) buys	170000000	purchase price	2026-09-28	Trepp CRE Rundown	PRIMARY-READ
+CASE-CREED-001	2020	ORIGINATED	$100M financing: $80M senior CMBS (3 conduit trusts) + $20M mezz	100000000	total debt	2026-09-28	Trepp CRE Rundown	PRIMARY-READ
+CASE-CREED-001	2024-07	LEASE_EXPIRY	Bechtel triple-net lease expires; building vacant	UNKNOWN	n/a	2026-09-28	Trepp CRE Rundown	PRIMARY-READ
+CASE-CREED-001	2024	DEFAULT	borrower default (month UNKNOWN)	UNKNOWN	n/a	2026-09-28	Trepp CRE Rundown	PRIMARY-READ
+CASE-CREED-001	UNKNOWN	REO	trusts take title (between 2024 default and 2025-10 reappraisal)	UNKNOWN	n/a	2026-09-28	Trepp CRE Rundown	PRIMARY-READ
+CASE-CREED-001	2025-10	APPRAISAL	reappraisal	25200000	appraised value	2026-09-28	Trepp CRE Rundown	PRIMARY-READ
+CASE-CREED-001	<=2026-09-28	SALE	sold to 3000 Post Oak Realty LLC (Arnold & Itkin); price UNDISCLOSED	11400000	NET proceeds to the three trusts (not price)	2026-09-28	Trepp CRE Rundown (Harris County deed records)	PRIMARY-READ
+CASE-CREED-002	UNKNOWN	ORIGINATED	loan originated by Ladder Capital Finance	52500000	loan amount [SEARCH-SUMMARY]	2026-09-29	search summary via SIG-W-20260929-015	SEARCH-SUMMARY
+CASE-CREED-002	2026-01	TRANSFER_SS	transfer to special servicing (Rialto)	UNKNOWN	n/a	2026-09-29	search summary via SIG-W-20260929-015	SEARCH-SUMMARY
+CASE-CREED-002	<=2026-06-26	TENANT_VACATE	Enbridge paid rent 'until earlier this year'; lease term ran through 2026	UNKNOWN	n/a	2026-06-26	Connect CRE	SECONDARY
+CASE-CREED-002	<=2026-06-26	FORECLOSURE	owner defaulted; property foreclosed	UNKNOWN	n/a	2026-06-26	Connect CRE	SECONDARY
+CASE-CREED-002	2026-06-26	LISTED	JLL markets it; 'may offer a redevelopment opportunity'	UNKNOWN	n/a	2026-06-26	Connect CRE	SECONDARY

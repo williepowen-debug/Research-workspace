@@ -72,6 +72,10 @@ Use these before making current CRE / CMBS claims:
 - `AGENTS/CREED/research/REIT_EQUITY_TAPE_MODULE_2026-06-21.md` — public REIT equity-market tape module absorbed from dormant REITS
 - `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md` — durable mechanisms pulled from legacy CREED, with old values marked stale
 
+## Case ledger — `cases/` *(NEW 2026-09-29, Will-directed)*
+
+One row per named distressed CRE property/loan (`CASES.tsv`) plus dated events (`CASE_EVENTS.tsv`); rules in `cases/README.md`. **Not a boot read.** ⚠️ **It is a sample of reported cases, not of the market: pattern reads are hypotheses until tested against an aggregate.**
+
 ## Commissioned analyses — `analysis/` *(NEW 2026-09-27)*
 
 One dated file per PROME-commissioned read, at the path the commissioning packet names. **`analysis/2026-09-27_nano-banc-collateral-read.md`**: Nano Banc failure, retained-pool composition (INFERRED), REGINALD's severity figure consumed, the FDIC-sale comp rule (DOCKET L515). Distinct from `research/` (CREED's own source packs and trails).
