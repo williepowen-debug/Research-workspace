@@ -2,7 +2,7 @@
 
 **Status:** 🔴 FAL-05 FAILED (route c, Yanbu loading halt) ⇒ registered D 75→85 rung FIRED ⇒ **B 1 / C 14 / D 85**. Composition contests the headline: Saudi crude re-routed via Hormuz (route loss, not a demonstrated barrel loss).
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea, Iraq/PMF theater inputs.
-**As of:** 2026-09-28 ~21:xx EDT | **STATUS commit:** `0cab6ab47`
+**As of:** 2026-09-28 ~21:xx EDT | **STATUS commit:** `592823066`
 
 ## CROSS-DOMAIN
 
@@ -21,6 +21,7 @@
 - **US personnel:** 8 US Marines were injured 9/14 (NBC, unnamed officials). No US KIA.
 - **Houthi fire:** all shots at Saudi 9/19–26 were intercepted per the coalition. No Houthi enforcement against shipping; Bab tanker traffic is rising (TankerMap 7dma 5.4, +31% w/w).
 - **Diplomacy:** Iran's 7-day Hormuz plan was rejected by Trump 9/26 on the POTUS channel, not formally; talks on "a different deal" are expected this week. No dated framework.
+- **Late 9/28:** Qatar is running separate talks on a revised two-stage plan (Hormuz + blockade first, nuclear second). AP says the mediator version was not formally rejected; Iran says no meeting with US officials this week. No ship attacks since 9/23. Brent ~$108.6 is a campaign high on the day Yanbu reportedly reopened (BRENT to interpret).
 - **Iraq:** Rubio named Kataib Hezbollah for the Petroline attack. The US withdrawal deadline of 9/30 is not extended, which makes it the dated catalyst this week.
 
 ## CALIBRATION
