@@ -313,7 +313,7 @@
 | # | Item | Clock |
 |---|---|---|
 | 1 | 🔴 **Q3 quarter-end + ~$183B coupon settlement (2Y/5Y/7Y all settle 9/30).** Read SOFR / SOFR99−IORB / SRF for 9/30 (publishes **Thu 10/1**) **and the next two non-Q-end sessions**. A Q-end spike alone is the NULL (KB-LIQ-051). BOND carries this on its own 9/30 docket row. Reserves start $84B lower (TGA). | 9/30 → 10/1–10/5 |
-| 2 | 🔴 **GATE-HY-REKILL + GATE-LIQ-076 `review_by` 9/30.** HY 273 [9/23], 0-of-2. | 9/30 |
+| 2 | 🔴 **9/30 reviews PRE-STAGED 9/29** (`analysis/2026-09-29_9-30-reviews-prestage.md`): **076 CONJUNCTION MET** (W1 cover +329,162 [9/22] + W3 9/23–9/28; write-up delivered) · 072 QUIET · HY-REKILL 0-of-2. Finalize 9/30 on the cells published by then; PROME mirrors. Owed: 076 `boot.py` wiring · NY Fed PD W2 keyids (DAEDALUS #4) · L493 ③ R3 re-test (10/2) · L494 sitting 10/2 (X1 position filed). | 9/30 → 10/2 |
 | 3 | ✅ ~~DAEDALUS asks #1 + #3~~ **DONE 2026-09-29** (5d late): KILL_MEMO item 6 re-pointed to the verified ALFRED path, 0 revisions observed (KB-LIQ-137); LIQ-072 SpaceX leg declared `CANNOT-FIRE` (KB-LIQ-072 notes). Asks #2/#4/#5 still due **9/30**. | 9/30 |
 | 4 | 🟠 **CATO MEDIUM owed list** (STATUS "ROTATED 2026-09-24" block). ✅ The OBDC-vs-BIZD correction was DONE 9/22 in both KB-LIQ-129 and the BROCK packet; this row said owed until 9/29. Remaining: ladder wiring · ~~`>=280` vs `>280` classifier~~ ✅ 9/29 · overclaims · resume text · the SOFR >3.70 line. | open since 9/22 |
 | 5 | 🟡 Transmission check: on the next ≥+12bp 10Y day, did B/BB widen again? (9/23 = 2nd of 21 since 2023-09.) | next rate-up day |
