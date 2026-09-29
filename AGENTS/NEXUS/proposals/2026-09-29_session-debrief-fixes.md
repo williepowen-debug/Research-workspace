@@ -37,3 +37,19 @@
 | C3 | NEXUS cadence: ON-DEMAND (declared) vs a dated weekly floor | **Add a dated weekly wake (Tue) as a DOCKET row, keep ON-DEMAND as the token.** This week's five-day gap covered the largest credit move of the quarter. Cost: one Opus session/week when nothing has moved; the boot would be short. | needs your word; PROME registers |
 
 **Not proposed, deliberately:** any change to the split's letter (frozen), any re-tuning of a gate, any new threshold "because today's level is nearby."
+
+
+## D. Closeout fixes — proposed and ENCODED 2026-09-29 (Will: "Go ahead and encode all of them including D7")
+
+| # | Fix | Encoded at |
+|---|---|---|
+| D1 | Closeout TIERS (Light / Standard / Heavy) with a named checklist and a `skipped:` line in every receipt | CLOSEOUT framing block |
+| D2 | 9b perimeter = every surface touched this session carrying the changed claim, incl. pages/packets/PROME mirrors; claims and labels count; mechanized residue grep in the commit body | 9b |
+| D3 | Corrections are Standard tier, never Light; corrected letter re-runs BOOT 0b's four tests | TIERS block |
+| D4 | ≤2 late-mover ANNOTATIONS per session; CORRECTIONS uncapped but Standard-tier; header says which | 9c bullet |
+| D5 | 9a rollup DATED every 4 weeks on a DOCKET row (next ≥10/27); "every Nth pass" deleted | 9a |
+| D6 | LAST_COMPLETION session block ≤6 KB; long form → `research/<date>_pass_record.md` | 15 |
+| D7 | BOOT 5 + CLOSEOUT 12/13 RETIRED; `SIGNALS.md` FROZEN (banner); `outbox/` and `signals_archive/` historical | BOOT 5 · 12 · 13 · WHAT YOU OWN |
+| D8 | Root §session-end 1b–1e run inside step 16 at Standard+; skipped = reported skipped | 16 |
+
+**Measured basis:** 11 NEXUS commits 13:47→18:02 on 9/29; the closeout sequence ran whole once; STATUS touched six times (2 annotations, 4 corrections); two CATO rounds, the second being residue of the first; `outbox/` last touched 9/02, `signals_archive/` 8/28, `SIGNALS.md` 9/11; LAST_COMPLETION back at 82% the day it was rotated.

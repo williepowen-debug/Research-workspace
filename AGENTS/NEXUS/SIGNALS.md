@@ -1,3 +1,5 @@
+> **FROZEN 2026-09-29 — not maintained; STATUS is canonical, do not cite rows as current.** Retired by Will-directed closeout fix D7 (charter BOOT 5 / CLOSEOUT 13 retired the same day): signal intake is the WALTER lane (`inbox/WALTER/` → `board_log.tsv`) and direct inbox packets. Last live edit 2026-09-11. Historical only.
+
 # NEXUS SIGNALS — Live Unresolved Cross-Agent Signals
 
 **2026-09-11:** S-26082801 leg (a) source-absence claim corrected in place (below); row otherwise unchanged. No signal absorbed or added this pass.
