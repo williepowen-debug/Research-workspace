@@ -180,6 +180,42 @@ def fetch_all(series_list):
                 if (s["id"] in VOL_MARKS and entry["change"] is not None
                         and abs(entry["change"]) < VOL_ZERO_EPS):
                     entry["flags"].append("⚠Δ≈0 possible fill-forward")
+                # L462 (2026-09-29): a FUTURES bar's session travels from fetch.py. An
+                # evening bar is labelled as the NEXT session's, never [today]; its
+                # day-change spans two sessions and is WITHHELD (the price and its
+                # zone stand -- the trade is real; the LABEL and the Δ were the lie).
+                # A futures row with no session key is an entry cached before this
+                # field existed: marked loud, never rendered as a verified day bar.
+                sess = pd.get("session")
+
+                def _md(iso):
+                    try:
+                        o = datetime.date.fromisoformat(str(iso))
+                        return f"{o.month}/{o.day}"
+                    except (TypeError, ValueError):
+                        return str(iso)
+                if sess == "evening-next-session":
+                    entry["date_label"] = f"[{_md(entry['date'])} eve→{_md(pd.get('trade_date'))}]"
+                    entry["change"] = None
+                    entry["flags"] = [f for f in entry["flags"] if f != "⚠stale"]
+                    entry["flags"].append("⚠evening bar, Δ withheld")
+                elif sess == "non-session-date":
+                    entry["date_label"] = f"[{_md(entry['date'])} non-session]"
+                    entry["change"] = None
+                    entry["flags"].append("⚠non-session bar, Δ withheld")
+                elif sess == "unverified":
+                    entry["date_label"] = f"[{_md(entry['date']) if entry['date'] else '?'} unverified]"
+                    entry["change"] = None
+                    entry["flags"].append("⚠session unverified, Δ withheld")
+                elif sess == "day" and pd.get("change_pct") is None \
+                        and str(pd.get("change_basis", "")).startswith("withheld"):
+                    entry["change"] = None
+                    entry["flags"].append("⚠prior bar missing, Δ withheld")
+                elif sess is None and pd.get("is_future"):
+                    entry["flags"].append("⚠pre-L462 cache, re-pull --no-cache")
+                if sess is not None:
+                    entry["session"] = sess
+                    entry["change_basis"] = pd.get("change_basis")
             else:
                 entry["error"] = pd.get("error", "fetch failed")
 
