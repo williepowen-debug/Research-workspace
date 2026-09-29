@@ -20,7 +20,7 @@ You track credit spreads (HY OAS toward 320bps confirmation), repo/SOFR anomalie
 **Read+sweep phase (0-1b) → board intake (2) → execute (3) → write-back (4-6).** Drain the WALTER board lane *after* the read so `acted` items feed the work, not a retroactive edit to the STATUS you just read.
 
 0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
-1. **Read `STATUS.md`** — dashboards (credit, domestic, foreign), thresholds, transmission mechanisms. (On a cold boot, CALENDAR / MEMORY NEXT SESSION are touched here too.)
+1. **Read `STATUS.md`**: six sections (§1 Now · §2 Gates · §3 Owed · §4 Carried states · §5 Caveats & coverage · §6 Pointers). (On a cold boot, CALENDAR / MEMORY NEXT SESSION are touched here too.)
 1b. **Live sweep — `scripts/boot.py`** — run `(cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/LIQUID/scripts/boot.py)` *(cwd-proof form, 2026-07-01)* for the one-command boot brief: live 3-dashboard pull (FRED + yfinance via FORGE `fetch.py`, alert-collapsed vs LIQUID thresholds) + catalyst countdown (`workbook/CATALYSTS.tsv`) + predictions due-scan (`workbook/PREDICTIONS.tsv`). **This is the live-primary source** — replaces the manual `fetch.py` calls. `--verbose` (all series + 6-print trends) · `--quick` (FRED-only) · `--selftest` (validate the data files). Pull anything load-bearing that boot.py doesn't cover (TIC country tables, auction internals) from primary directly.
 2. **WALTER signal intake (`inbox/WALTER/` delivery lane)** — process WALTER-delivered handoffs *after* the read phase, so `acted` items inform steps 3-4 rather than a STATUS you already read:
    - List unconsumed items by **SEARCH, never by reading the log** (SIG-W-20260914-022, spec v0.28 §5.2 — fixed here 2026-09-17):
@@ -192,12 +192,14 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ## DASHBOARD STRUCTURE
 
-STATUS.md has **three separate signal dashboards**. When updating, put data in the correct one:
-1. **Credit Spreads** — HY OAS, IG OAS, CLO tranches, BDC dividends. Private credit events go here.
-2. **Domestic Plumbing** — SOFR, SRF, RRP, reserves, basis trade, auctions, TGA, Fed RMPs. Repo/funding goes here.
-3. **Foreign Official** — TIC, Belgium proxy, auction indirect bids, term premium, FOI demand hole. Sovereign flows go here.
+STATUS.md has **six sections, and each fact lives in ONE of them**: §1 **Now** (dated readings) · §2 **Gates** (the current-state home for the five registered gates) · §3 **Owed** (the only owed list) · §4 **Carried states** · §5 **Caveats & coverage limits** · §6 **Pointers** (restructured 2026-09-29, Will-approved).
 
-Don't mix categories. A CLO spread doesn't belong in the domestic plumbing dashboard.
+Inside §1 Now, keep the categories in separate paragraphs, and put data in the correct one:
+1. **Credit Spreads**: HY OAS, IG OAS, CLO tranches, BDC dividends. Private credit events go here.
+2. **Domestic Plumbing**: SOFR, SRF, RRP, reserves, basis trade, auctions, TGA, Fed RMPs. Repo/funding goes here.
+3. **Foreign Official**: TIC, Belgium proxy, auction indirect bids, term premium, FOI demand hole. Sovereign flows go here.
+
+Don't mix categories. A CLO spread doesn't belong in the domestic plumbing paragraph.
 
 ---
 
@@ -205,7 +207,7 @@ Don't mix categories. A CLO spread doesn't belong in the domestic plumbing dashb
 
 | File | Purpose |
 |------|---------|
-| `STATUS.md` | Live state — 3 dashboards (credit/domestic/foreign), thresholds, predictions. **Primary memory.** |
+| `STATUS.md` | Live state in six sections (Now · Gates · Owed · Carried · Caveats & coverage · Pointers); credit / domestic / foreign kept separate inside Now. **Primary memory.** |
 | `MEMORY.md` | Cross-session memory: current/next/prior session notes, durable findings, operating notes. |
 | `CLOSEOUT.md` | Session-end procedure: 4-tier model (Bounce/Light/Standard/Heavy), chunked steps, file-ownership reference. Run before `/clear` or session handoff. |
 | `CALENDAR.md` | Upcoming data releases, events, danger windows. **Human twin of `workbook/CATALYSTS.tsv` — must not diverge in event set.** |
