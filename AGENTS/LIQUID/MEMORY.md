@@ -323,7 +323,7 @@
 | 9 | 🔴 **Q3-end persistence verdict:** P1–P5 on the 10/1–10/8 prints (report §3b, KB-LIQ-136). The 9/30 spike is the NULL. | 10/8 |
 | 11 | 🔴 **`LIQ-07` SPREAD-B: grade every published obs 9/24→11/6** (report `2026-09-25_Q2_first-observation-of-spreading.md` §3; as-first-published; resolve by 11/10). The 9/24 cells are the first read (with row 8). | daily → 11/10 |
 | 12 | 🟠 **Q4 dated discriminators (BOND-owned, read at LIQUID):** FR2004 below-IG build Thu 10/1 and 10/8 · B-tier real-yield β by 10/28 · pulled HY deal before 10/14 (`reports/2026-09-25_Q4_ccc-isolated-vs-leading-edge.md` D6–D8). | 10/1 → 10/28 |
-| 10 | 🟠 **Repair `gate069_legs.py` cross-date pairing** (T+1 HY obs vs latest equity session; KB-LIQ-126 class). Date-match the cohort session to the HY obs date. | before the next L4 read |
+| 10 | ✅ ~~Repair `gate069_legs.py` cross-date pairing~~ **DONE 2026-09-29**: date-matched to the HY obs session, fails closed on a missing bar (negative-tested). | — |
 
 ### NEXT SESSION — 8/27 RE-CUT (SUPERSEDED 2026-09-24; history only)
 

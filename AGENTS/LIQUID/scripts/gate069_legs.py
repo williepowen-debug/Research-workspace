@@ -15,7 +15,7 @@ run so the reader can see what was assumed. They are PROPOSALS, not adopted spec
 """
 import sys, argparse
 sys.path.insert(0, "FORGE/tools/market-data")
-from fetch import fred_fetch, price_fetch
+from fetch import fred_fetch
 
 # PROPOSED definitions for the unnamed sub-thresholds (NOT adopted spec)
 CCC_FLAT_BP = 15      # |CCC 5-session change| <= 15bp  == "flat"
@@ -58,24 +58,36 @@ def main():
     # 2026-08-28 while writing this file, hours after the same class (KB-LIQ-116) nearly
     # fired GATE-LIQ-076 off a different exchange's contract. ALWAYS pass a list, and
     # ALWAYS verify the returned keys are the tickers you asked for.
+    # ⚠️ DATE-MATCH REPAIR 2026-09-29 (KB-LIQ-126 class; owed since the 9/25 L4 re-read).
+    # The prior version paired the latest HY obs (T+1, e.g. Fri) with the LATEST equity
+    # session (e.g. Mon): a cross-date pair that could fire or clear L4 on two different
+    # days. The letter is ONE session ("-15%/session w/ credit underperforming"), so the
+    # equity change is now taken on the HY obs date itself, raw unadjusted closes, and
+    # fails CLOSED if that bar (or the prior session's) is missing (the 9/22 dropped-bar case).
     worst = None; faults = []
+    prev = d[-2]
     try:
-        quotes = price_fetch(tick)
+        import yfinance as yf, warnings; warnings.filterwarnings("ignore")
+        px = yf.download(tick, start=prev, end=None, auto_adjust=False, progress=False)["Close"]
+        px.index = [i.strftime("%Y-%m-%d") for i in px.index]
     except Exception as e:
-        quotes = {}; faults.append(f"fetch failed: {type(e).__name__}")
-    missing = [t for t in tick if t not in quotes]
-    extra = [k for k in quotes if k not in tick]
-    if missing: faults.append(f"missing tickers {missing}")
-    if extra:   faults.append(f"UNREQUESTED tickers returned {extra} — identity mismatch")
-    for t in tick:
-        q = quotes.get(t)
-        if not q:
-            print(f"      {t:<6} 🔴 no quote"); continue
-        chg = q.get("change_pct")
-        if chg is None:
-            faults.append(f"{t} has no change_pct"); print(f"      {t:<6} {q.get('price')}  change UNAVAILABLE"); continue
-        print(f"      {t:<6} {q.get('price'):>10}  {float(chg):+.2f}%   [{q.get('asof')}]")
-        if worst is None or float(chg) < worst[1]: worst = (t, float(chg))
+        px = None; faults.append(f"fetch failed: {type(e).__name__}")
+    if px is not None:
+        extra = [k for k in px.columns if k not in tick]
+        if extra: faults.append(f"UNREQUESTED tickers returned {extra} — identity mismatch")
+        for t in tick:
+            if t not in px.columns:
+                faults.append(f"{t} missing"); print(f"      {t:<6} 🔴 no series"); continue
+            c = px[t].dropna()
+            if last not in c.index or prev not in c.index:
+                faults.append(f"{t} bar missing for {prev if prev not in c.index else last}")
+                print(f"      {t:<6} 🔴 bar missing (need {prev} and {last})"); continue
+            chg = (c[last] / c[prev] - 1) * 100
+            print(f"      {t:<6} {c[last]:>10.2f}  {chg:+.2f}%   [session {last} vs {prev}, raw close]")
+            if worst is None or chg < worst[1]: worst = (t, chg)
+        newer = sorted(i for i in px.index if i > last)
+        if newer:
+            print(f"      ⏳ equity sessions after the latest HY obs {newer}: UNGRADEABLE-PENDING-PUBLICATION (not graded)")
     hy_chg = hy[last] - hy[d[-2]]
     l4_cr = hy_chg >= CRED_UNDER_BP
     print(f"      HY OAS session change {hy_chg:+.0f}bp [obs {last}] -> credit underperforming? {'YES' if l4_cr else 'NO'}")
