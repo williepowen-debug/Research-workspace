@@ -1,4 +1,4 @@
-# HOMER SCRATCH — 2026-09-24 (Thu) catch-up session (Will-launched) → handoff
+# HOMER SCRATCH — 2026-09-29 (Tue) catch-up + four Will directives → handoff
 
 **Purpose:** Ephemeral session handoff. Read at boot; rewritten at closeout. Durable findings → `workbook/` + `LESSONS_COLD_2.md`; live state → `STATUS.md`.
 
@@ -6,27 +6,29 @@
 
 ## ✅ WHAT CHANGED TODAY
 
-1. **🔴🔴 PMMS 7.03% [9/24] — RED (>7.0%) CROSSED on the registered instrument, +3bps.** Graded under my letter (strict, no sustain), committed early (`1c9372bf6`) so PROME could carry it into the 9/25 HEARTBEAT. Spread flat (~192bps survey-matched) ⇒ all Treasury. **FOMC 9/16 HIKED 25bp** to 3.75–4.00%.
-2. **Freddie MF August 0.64%** (+4bps, fourth straight rise, 14bps over RED; letter frozen per WQ-248 C). Fannie August not out (404).
-3. **Trepp August at ISSUER PRIMARY** (trepp.com reachable today): MF DQ 7.69% flat, MF SS 8.37%. Closes the §C Trepp-SS item.
-4. **NAHB Sept 32; price cutters 38% = ORANGE.** NHS Aug 684K (July revised 607→643K); average price −8.8% YoY is the only significant change. NRC Aug: July starts revised +70K; completions −27% YoY significant. PHSI 71.2.
-5. **Four self-corrections:** Cure Rates band re-graded on its native YoY basis = **YELLOW** (9/14 used the MoM count) · Freddie "fifth consecutive" → third · Trepp "Feb 7.12" → Oct-2025 (Feb = 6.85) · **two 9/14 packets never left my outbox** — REGINALD + WALTER re-delivered into their inboxes; charter fixed (outbox = record, not delivery).
-6. **Docket:** 8 recurring rows added — the GSE monthlies, NAHB, FMHPI, EHS, PHSI, Trepp, MBA Q3 NDS and ICE Mortgage Monitor had existed only as RESOLVED one-offs, invisible to the boot sweep (LESSONS §50).
-7. **Hygiene:** `NEXUS_BRIEF.md` rotated 109,239 B → under the rule-5 stop (pre-rotation file byte-for-byte at `archive/NEXUS_BRIEF_2026-09-24_pre-rotation-VERBATIM.md`, crc 267930108 = PROME's measurement). LESSONS 24,803 → 22,721 B after adding §48–50. B1 re-cut (courier dead). KB-HOMER-026 captures marked UNDATED. Boot step 9 now uses a grep membership test (SIG-022).
+1. **Data (issuer primary):** Fannie MF Aug **0.57%** (−5bps; July revised 0.61→0.62) · ICE First Look Aug: DQ **3.53%**, 90+/FC **872K** (ORANGE +22K) · MND **7.50%** [9/28] · 10Y par **5.24** [9/28] · **LEN FQ3** (9/16) and **KBH FQ3** (9/22), both **missed by the 9/24 catch-up**.
+2. **CREED Trepp back-fill landed:** 9-point MF special-servicing series (Apr 9.08 peak). Maturity-adjusted is printed for the **overall** book only ⇒ MF mat-adj **absent at source** for Jul + Aug data. The **September print (~10/01) is the third month; the dated kill executes if it is absent.**
+3. **Will directives (all four done):**
+   - **Cadence WEEKLY + 12 WATCH_FOR phrases** → `AGENTS/WALTER/inbox/2026-09-29_from-HOMER_cadence-and-watch-terms.md` (canonical; matcher re-test 10/02). PROME copy points to it.
+   - **9 per-name builder docket rows** (PHM 10/22, MTH 10/28, DHI 10/29 issuer-stated; NVR, LGIH, DFH, TOL, LEN, KBH pattern-dated). The CRL-23 row is back to the CRL-23 checkpoint only.
+   - **PMMS 10/01 pre-registered:** `reports/2026-09-29_PMMS-2026-10-01_PRE-REGISTRATION.md`. HOLD ≥7.05 · SOFTEN 7.01–7.04 (still RED) · LIFT ≤7.00. Treasury-implied ~7.16–7.18.
+   - **FL condo reconciled to ONE figure:** CORAL's Aug statewide median $298K +2.8%. Packet in CORAL's inbox.
+4. **Signals:** 4 logged; SIG-006 (Trepp building-age) **answered** into WALTER's inbox. Correction COR-20260927-07 receipted APPLIED (my board_log "declined a stay" annotated).
 
 ## 🔴 FIRST WORK NEXT SESSION
 
 | # | Item | Why |
 |---|---|---|
-| **1** | **⛔ A5 leg 1 — thesis-level DATED KILL RAIL file, DUE 2026-09-30** (DAEDALUS PR6 ask) | 32 days deferred; CORAL's `thesis/THESIS.md:63-118` is the cohort exemplar (frozen criteria, scoring rule, first score, dated next grade) |
-| **2** | **PMMS 10/01** — first print after the cross | Treasury +7bps and MND +19bps on 9/24 AFTER the survey window |
-| **3** | **Fannie MF August** (~9/25–30) + **ICE First Look August** (~9/25–26) | Does Fannie follow Freddie? 4bps to Orange |
-| **4** | **Trepp maturity-adjusted MF — re-test at trepp.com** before the dated kill executes | The "unreachable" premise failed today |
-| **5** | A2–A4 (rider ratification, two retunes — LEVELS Will-gated) | 32 days deferred |
+| **1** | **⛔ A5 leg 1 — thesis-level DATED KILL RAIL, DUE 2026-09-30** | Not started 9/24 or 9/29. CORAL `thesis/THESIS.md:63-118` is the exemplar |
+| **2** | **Grade PMMS 10/01 against the pre-registration** | Run the residual check (|resid| >10bps ⇒ spread moved) |
+| **3** | **Case-Shiller July** (due 9/29, NOT READ: S&P 403) + **FMHPI Aug** (9/30) | Nominal vs ICE's 3-month cooling |
+| **4** | **Trepp September DQ (~10/01)** | Third month of absent MF mat-adj ⇒ execute the kill (successor = MF special servicing) or grade it |
+| **5** | Miami-Dade Aug condo median (MIAMI REALTORS PDF) | My July "declining median" is stale; secondaries point up |
+| 6 | A2–A4 (rider ratification; two retunes, LEVELS Will-gated) | ~37 days deferred |
 
 ## ⚠️ OPEN / UNSETTLED
-1. **HOM-02** — evidence cuts both ways: inflow improving vs FHA cure rate −39% YoY and HUD ML 2026-08 in force since 9/21. Q3 NDS (~mid-Nov) decides.
-2. **B7** — PROME's CalculatedRisk "dead source" sweep: my halt packet was consumed, no withdrawal found. Disposition unknown.
-3. **Existing-home sales 3.98M** — the LEVEL was seen at CalculatedRisk; NAR's own page confirmed only −2.0% and 4.9 months. Re-confirm at NAR with the September print.
-4. **Morgan Stanley 7.1%** — unresolved perimeter; needs the MS report.
-5. **Primaries gated at this box:** MBA 403 site-wide · ice.com First Look pages 404/403 (Mortgage Monitor PDF was 200 today) · Google Trends 429. trepp.com was **200** today.
+1. **HOM-02:** ICE August inflow ticked up (calendar) while FC starts +29% YoY. Q3 NDS (~mid-Nov) decides.
+2. **Fannie's −5bps** sits on a mod-suppressible headline; pair it with the Q3 10-Q MF provision (~late Oct) before reading it as improvement.
+3. **Building-age cross-tab:** the $0 EDGAR ABS-EE route is **unverified** (fields not opened). Offered to Will as a research task.
+4. **B7** (CalculatedRisk sweep disposition) still unknown. **Morgan Stanley 7.1%** perimeter still unresolved.
+5. **Gated at this box:** MBA 403 · miamirealtors.com empty to curl · S&P press 403 · FRED CSV failing (HTTP/2 error); Treasury and Freddie PMMS CSVs worked.

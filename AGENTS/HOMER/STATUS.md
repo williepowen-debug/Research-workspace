@@ -9,8 +9,9 @@
 
 ## ⚠️ DATA VINTAGE — READ BEFORE QUOTING ANY ROW
 
+⚪ **Case-Shiller JULY (due 9/29 09:00 ET) NOT READ** — S&P page 403, not indexed by 09:10. Re-pull next session.
+✅ **9/29 CATCH-UP:** Fannie MF Aug · ICE First Look Aug · MND 9/28 · **LEN FQ3 + KBH FQ3 (both MISSED 9/24, found late)** · CREED Trepp SS back-fill. **All ISSUER PRIMARY except the Trepp back-fill (CREED-read).**
 ✅ **9/14 → 9/24 GAP CLOSED (2026-09-24):** PMMS ×2 · FOMC · MBA apps ×2 · NAHB Sept · NRC Aug · NHS Aug · PHSI Aug · ICE Mortgage Monitor Sept · Freddie MF Aug · Trepp Aug DQ + SS. **Every figure has a dated `workbook/` row.**
-⚪ **NOT YET PUBLISHED (path-tested, so NOT gaps):** Fannie MF **August** (404) · ICE First Look **August** (404; July came 8/25).
 ⚠️ **YEAR TRAP, now n=4 on this desk:** NAHB Sept-2025 **and** Sept-2026 both printed **32**; Trepp MF SS **8.37%** was July-2025 **and** Aug-2026. ⇒ **On any monthly series, verify the page's publication YEAR, not just the month.**
 
 ---
@@ -23,12 +24,12 @@
 ### Foreclosure Pipeline
 | Metric | Value (as of) | Band |
 |---|---|---|
-| **★★ ICE national DQ** | **3.39%, −16bps MoM, improvement at EVERY stage**; +12bps YoY *(Jul)* | 🟢 **inflow** |
+| **★★ ICE national DQ** | **3.53% AUG, +14bps MoM (ICE: calendar effect, ~flat underlying)**, +10bps YoY; 30+ +81K MoM · Jul 3.39% | 🟡 **inflow — July's improvement did not extend** |
 | **⚠️⚠️ ICE CURE RATE (the band's NATIVE basis)** | **Serious-DQ cure rate −28% YoY (July)** — a 9-month high, still 28% below a year ago. **FHA −39%** (sub-book). Counts: 90+ cures 64,100 (+7% MoM), total 464,000 (+12%) | 🟡 **YELLOW (<−15%) — 2pts short of ORANGE (<−30%)**; RED (<−40%) uncrossed. ⛔ **My 9/14 "fires NOTHING" graded the MoM COUNT — wrong statistic (LESSONS §49)** |
 | **ATTOM H1-2026 (ledger `PIPELINE.tsv`)** | **Filings 227,548 (+21% YoY), starts 164,566 (+18%), REO 27,983 (+33%), timeline 563 days — lowest since 2013** | 🔴 |
-| **★ ICE active FC inventory** | **+43% YoY** *(Jul; Jun +39.3%)*; FC starts **+23% YoY**; FC sales +14% YoY, still **59% of pre-pandemic** | 🔴🔴 **conversion** |
+| **★ ICE active FC inventory** | **298K AUG, +41% YoY** (Jul +43%) but **+2K MoM = smallest build since Nov-25**; FC starts 37K, **−5.8% MoM, +29% YoY** (Jul +23%); FC sales 7.8K, 57% of Aug-19 pace | 🔴🔴 conversion / 🟡 **inventory build slowing** |
 | **★★ FHA total DQ (SA)** | **11.79% Q2** (−9bps QoQ, +122bps YoY) | 🔴 **ORANGE, 21bps below RED (>12%)** |
-| **★★ 90+/FC pipeline (ICE basis)** | **859K JULY** (563K 90+ + 296K FC; HOMER sum) — Jun 862K | 🔴🔴 **9K past ORANGE (>850K); RED (>1M) 141K away** |
+| **★★ 90+/FC pipeline (ICE basis)** | **872K AUGUST** (574K 90+ + 298K FC; HOMER sum) — Jul 859K · Jun 862K | 🔴🔴 **22K past ORANGE (>850K); RED (>1M) 128K away** |
 | **HUD ML 2026-08** | **Compliance date 9/21 PASSED; no extension found** (absence of notice, not HUD confirmation) | 🔴 accelerant in force — first visible in FHA FC starts, ~late Oct |
 | **★ Non-bank servicer watch** | ⚠️ **🔴 by a one-time SEEDING decision — no registered trigger has ever fired.** No rating/covenant/facility/liquidity event at the six names since 7/24 | 🔴 **SEEDED** / 🟠 credit |
 
@@ -38,13 +39,13 @@
 | Metric | Value (as of) | Band |
 |---|---|---|
 | **🔴🔴 ★★★ Freddie MF DQ** | **0.64% AUGUST (+4bps) — FOURTH consecutive rise.** Feb **0.42** (trough) · Mar 0.43 · Apr 0.43 · May 0.47 · Jun 0.51 · Jul 0.60 · **Aug 0.64** (issuer Table 6, pub 9/24) | 🔴🔴 ⛔ **NO uncrossed rung — 14bps ABOVE RED (>0.50%).** Letter frozen (WQ-248 C) |
-| **★★ Fannie MF serious DQ** | **0.61% JULY** — Mar 0.78 → Apr 0.64 → May **0.58** → Jun 0.60 → Jul 0.61. ⚪ **August not yet published** | 🔴 **4bps below Orange (>0.65%)**; RED untested |
-| **★★★ GSE CONVERGENCE** | **July: 1bp apart (from 35bp in March), BOTH RISING;** Freddie alone has since added 4bps | 🔴🔴 **marquee inverted.** ⚠️ Scale: the GSE books converge with EACH OTHER, never with CMBS |
+| **★★ Fannie MF serious DQ** | **0.57% AUGUST (−5bps)** — Mar 0.78 → Apr 0.64 → May 0.58 → Jun 0.60 → **Jul 0.62 (REVISED from 0.61)** → Aug 0.57 (Table 7, pub 9/25) | 🟡 **8bps below Orange (>0.65%)**; RED untested. ⚠️ mod-suppressible headline — no provision pairing until Q3 10-Q |
+| **★★ GSE BOOKS** | **AUGUST: DIVERGED — Freddie 0.64 ↑ vs Fannie 0.57 ↓, 7bps apart, Freddie now ABOVE.** July (revised) 2bps apart | 🟠 **the 9/24 'both rising' read held for July only.** One month; not a trend |
 | **Fannie MF credit provision** | **$259M Q2 vs $174M Q1 (+49% QoQ)** | 🔴 **this PAIRING held the Q2 signal; the DQ level did not** |
 | **Realized MF marks + rent (ledger `MULTIFAMILY.tsv`)** | **BANC $827.0M to HFS, 95.8% MF** · **Arbor REO (~$545M) > delinquencies (~$525M)** · **S2 Capital $400M fund $0-to-LPs** · rent $1,962 (+2.3% YoY), concessions 39.8% | 🔴🔴 **REALIZED marks, not ratios** |
 | **★★ CMBS MF DQ (Trepp)** | **7.69% AUGUST, flat — ISSUER PRIMARY** (TreppTalk 9/1). Oct-25 7.12 · **Feb 6.85** · Mar 7.15 · Apr 7.71 · May 6.95 · Jun 7.23 · Jul 7.69 · Aug 7.69 | 🔴🔴 **a LEVEL, not a trend — this series cures.** ⛔ **my "Feb 7.12" was Oct-2025; corrected** |
-| **★ CMBS MF special servicing** | **8.37% AUGUST** (Trepp: −3bps; levels give −2) · Jul 8.39 · Jun 8.23 | 🟠 ~68bps above MF DQ |
-| Trepp **maturity-adjusted** MF | June 9.53%, no counterpart since. ⚠️ trepp.com **reachable 9/24** — the "unreachable" premise is now time-varying | ⛔ §C — dated kill row still open |
+| **★ CMBS MF special servicing** | **8.37% AUGUST (−2bps all-vintage; the −3 is the 2.0+ table)** · Jul 8.39 · Jun 8.23 · May 8.51 · **Apr 9.08 (peak held)** · Feb 8.30 · Aug-25 8.61 *(CREED back-fill, Trepp PDFs)* | 🟠 ~68bps above MF DQ |
+| Trepp **maturity-adjusted** MF | June 9.53%, none since. **CREED 9/26: the Jul + Aug PDFs print mat-adj for the OVERALL book only (Aug 9.81%) — ABSENT for MF at source** | ⛔ §C — **the September print (~10/01) is the 3rd month; the kill executes if absent** |
 | ⛔ **MF maturity wall** | **`$160B+` / `$270B+` DEAD (9/2).** Replacement is a **SHARE: 13% of MF balances mature in 2026** [MBA]. ⚠️ Circulating WSJ "$2T" is NOT that figure; its **"$297B in 2026" = 13% × $2.3T — DERIVED, not an MBA print** | ⛔ kill-on-sight |
 | **Morgan Stanley "7.1%" (WSJ 9/21)** | **RULED: an MS series of UNRESOLVED perimeter** — not a stale Trepp vintage; do not join "1% → 7.1%" onto Trepp | ⚪ grades nothing |
 
@@ -54,7 +55,7 @@
 | **🔴🔴 ★★★ 30-Yr PMMS** | **7.03% [wk 9/24]** — 9/10 6.76 → 9/17 6.95 → **9/24 7.03**; 15Y 6.42%. **First ≥7% since 2025-01-16** (Freddie + FRED) | 🔴🔴 **RED (>7.0%) CROSSED, +3bps** ⛔ **no uncrossed rung.** ⚠️ 3bps < one week's move; next print 10/01 |
 | **CONTEXT — FOMC 9/16** *(BROCK/HENRY own direction)* | **HIKED 25bp → 3.75–4.00%, 12–0**; SEP 2026 median 4.1 ⇒ one more hike implied | context |
 | **★★ 10Y-FRM spread** | **~192bps [9/24]** (7.03 − DGS10 **5.11 [Wed 9/23]**) · ~194 [9/17] · ~193 [9/10] — survey-matched, Treasury par curve | 🔴 ~42bps structurally wide / 🟢 **FLAT four weeks ⇒ the +27bps is ALL TREASURY** |
-| **✅ BASIS TRAP — resolved for the band** | **PMMS 7.03 · MBA 7.12 [wk 9/18] · MND 7.45 [9/24, 52-wk high]** — all three >7.0% | ✅ **MND led PMMS through RED by ~10 days (n=1)** |
+| **✅ BASIS TRAP — resolved for the band** | **PMMS 7.03 · MBA 7.12 [wk 9/18] · MND 7.45 [9/24] → 7.50 [Mon 9/28], first 7.5% since 2024-04-30** | ✅ **MND led PMMS through RED by ~10 days (n=1)**; MND +5bps since the 9/24 PMMS window |
 | **★★ MBA weekly apps** | wk 9/18: **PURCHASE −1% WoW, −11% YoY**; refi −3%, −62% YoY (base effect); refi share 39.3% · wk 9/11 −19% YoY **holiday-contaminated** | 🟠 ⚠️ **9/14 "purchase is the resilient leg" WITHDRAWN** |
 | **🔴🔴 Existing home sales (SAAR)** | **3.98M AUGUST** (−2.0% MoM); **4.9 months, a decade high**; median $429,100. ⚠️ level seen at CalculatedRisk; NAR's page confirms −2.0% + 4.9 mo | 🔴🔴 **RED (<4.0M) CROSSED by 20K** ⛔ no uncrossed rung |
 | **Pending home sales (NAR)** | **71.2 AUGUST** (+0.3% MoM, −4.7% YoY) ⇒ July implicitly revised to ~71.0 | 🔴 ⛔ still ABOVE the 69.0 COVID trough |
@@ -65,7 +66,7 @@
 | Metric | Value (as of) | Band |
 |---|---|---|
 | **🔴 NAHB HMI** | **32 SEPT (−3)**; sales 35, **expectations 37 (−6)**, traffic 23. **Price cutters 38%**, avg cut 6%; **incentives 66%**, highest since Dec *(pub 9/16, year-verified)* | 🔴 **Price Cuts 38% = ORANGE, 7pts below RED (>45%)** |
-| **Builder earnings (Q2/FQ2) — `BUILDER.tsv`** | **DHI GM 20.7% (buydown 1.6ppts)** · **PHM 25.0% on ASP −3%** · **LGI like-for-like ASP −1.2% under +0.5% headline** · **KB op margin 8.6%→2.5%** · Lennar 15.6% | 🟠 DHI + PHM move AWAY from CRL-23 triggers |
+| **Builder earnings — `BUILDER.tsv`** | **NEW (Aug quarter-ends, found late 9/29): LEN FQ3 GM 15.8% (Q2 15.6, yr-ago 17.5), ORDERS −9% YoY, incentives ~12% + base-price cuts · KBH FQ3 op margin 5.2% (Q2 2.5, yr-ago 8.1), ORDERS −12%, cancels 18%.** Earlier: DHI GM 20.7% (buydown 1.6ppts) · PHM 25.0% on ASP −3% · LGI like-for-like −1.2% | 🟠 **margins stabilising at the trough while ORDERS fall** · DHI + PHM move AWAY from CRL-23 |
 | **★★ Residential construction employment** | **AUG: 18th month of YoY decline — but the deficit more than halved, −44,200 → −19,800** | 🔴 streak / 🟡 **easing — say both halves** |
 | Q2 GDP residential fixed investment | +1.3% SAAR (2nd est.) — first positive in five quarters | 🟡 |
 
@@ -83,8 +84,9 @@
 
 | State | Metric | Value | Band |
 |---|---|---|---|
+| FL | **Condo/TH median — ONE FIGURE (CORAL)** | **$298K, +2.8% YoY (Aug, FL Realtors)** — supersedes my July 0.0% cite. My FL condo figures are metro/segment only | 🟡 cuts AGAINST statewide price distress |
 | FL | H1 FC rate *(CORAL-canonical)* | **#1: 0.27% (1-in-373), +32.7% YoY** — ⚠️ rank ≠ level | 🔴 speed / 🟠 level |
-| FL | **METRO — HOMER-owned** | Punta Gorda 0.50% (#1 US metro) · Lakeland 0.48% · Miami-Dade condo 12.0mo, 86 DOM *(Jul)* · Tampa $/sqft −5.6% YoY · ★ **NEW: Cape Coral HPI −2.3% YoY (ICE, Aug)** | 🔴🔴 sub-statewide |
+| FL | **METRO — HOMER-owned** | Punta Gorda 0.50% (#1 US metro) · Lakeland 0.48% · Miami-Dade condo 12.0mo, 86 DOM *(Jul; ⚠️ Aug median UNREAD — secondaries +2–6%, my July 'declining' may have turned)* · Tampa $/sqft −5.6% YoY · ★ **NEW: Cape Coral HPI −2.3% YoY (ICE, Aug)** | 🔴🔴 sub-statewide |
 | **TX** | August CRE FC auction pipeline | **>$1.15B across 47 loans** | 🔴🔴 |
 | FL | Annual band | evaluable once a year (ATTOM year-end) — "no reading" is NORMAL | ✅ |
 
@@ -118,14 +120,14 @@
 
 | Date | Event | Watch |
 |---|---|---|
-| **~9/25–26** | **ICE First Look (Aug)** | cure counts; FC starts YoY |
-| **~9/25–30** | **Fannie MF (Aug)** | ★★ does Fannie follow Freddie (0.64)? 4bps to Orange |
 | **9/29 · 9/30** | Case-Shiller (Jul) · FMHPI (Aug) | nominal still accelerating vs ICE's 3-mo cooling |
-| **9/30** | ⛔ **A5 kill-rail file DUE** (DAEDALUS) | mine |
-| **🔴 10/01** | **PMMS** | ★ **first print after the RED cross** — DGS10 +7bps and MND +19bps on 9/24, both AFTER the survey window |
-| **~10/01 · ~10/14** | Trepp Sept DQ · Sept SS | MF level; mat-adj re-test |
+| **9/30** | ⛔ **A5 kill-rail file DUE** (DAEDALUS) | mine — **tomorrow** |
+| **🔴 10/01** | **PMMS** | ★ **PRE-REGISTERED** (`reports/2026-09-29_PMMS-2026-10-01_PRE-REGISTRATION.md`): **HOLD ≥7.05 · SOFTEN 7.01–7.04 (still RED) · LIFT ≤7.00 (ORANGE)**. Treasury-implied ~7.16–7.18 (10Y 5.24 Mon 9/28) |
+| **~10/01 · ~10/14** | Trepp Sept DQ · Sept SS | MF level; ⛔ **mat-adj 3rd month — kill executes if absent** |
 | **~10/09–13** | **ICE Mortgage Monitor (Oct)** | cure rate YoY: −28% → does it cross −30% (Orange)? |
+| **10/22 · 10/28 · 10/29** | **PHM Q3 · MTH Q3 (after close) · DHI FQ4** — issuer-stated; 9 per-name builder rows now on the docket | margins at the trough vs orders falling |
 | **~10/15–16** | NAHB Oct | price cutters 38% vs RED >45% |
+| **~10/23–30** | Fannie + Freddie MF (Sept) · ICE First Look (Sept) | do the GSE books keep diverging? 90+/FC 872K vs RED 1M |
 | **10/20 · 10/27** | NRC + PHSI (Sept) · NHS (Sept) | completions; avg-price mix |
 | **🔴 ~mid-Nov** | **MBA Q3 NDS** | ⛔ **HOM-02's decider** — FHA ≥12.00% confirms; a 2nd QoQ decline kills it early |
 | Weekly | PMMS (Thu) · MBA apps (Wed) | state the publisher |
@@ -147,12 +149,16 @@
 
 ## BOTTOM LINE
 
-**2026-09-24 (Thu) — catch-up session (Will-launched). The 9/14 → 9/24 gap is closed; 13 releases graded, 11 at issuer primary (the two MBA weeks secondary). Inbox 11 → 0.**
+**2026-09-29 (Tue) — catch-up session (Will-launched), then four Will directives. Earlier BOTTOM LINE (9/24) → `archive/STATUS_bottom_line_2026-09-24.md`.**
 
-**① THREE RED ROWS WITH NO RUNG LEFT.** **Freddie PMMS 7.03% [9/24] crossed my >7.0% RED** on the registered instrument (+3bps; first ≥7% since Jan-2025), joining **Freddie MF (0.64%, 14bps over)** and **existing-home sales (3.98M, 20K under)**. ★ **The rate move is all Treasury** (spread flat ~192bps survey-matched), after the **FOMC HIKED 25bp on 9/16**. PROME carries the grade into the 9/25 HEARTBEAT.
+**① THE FORECLOSURE PIPELINE KEPT GROWING, MORE SLOWLY.** ICE August: 90+/FC **872K** (from 859K), **22K past ORANGE, 128K short of RED**. Delinquency **3.53% (+14bps)**, which ICE puts down to the calendar. Foreclosure starts **+29% YoY** but foreclosure inventory added only **2K**, the smallest build since November.
 
-**② THE GSE MULTIFAMILY BOOK KEEPS RISING.** Freddie **0.64% in August, the fourth straight rise**; Fannie's August is not out. CMBS MF is flat at 7.69%, now confirmed at Trepp itself; MF special servicing 8.37%.
+**② THE TWO GSE MULTIFAMILY BOOKS SPLIT.** Fannie August **0.57% (−5bps)**; July revised up to 0.62. Freddie rose to 0.64. The 9/24 "both rising, 1bp apart" read held for July only. ⚠️ Fannie's headline can be suppressed by loan modifications; the Q3 credit provision (~late Oct) is the check.
 
-**③ BUILDERS AND DEMAND WEAKENED TOGETHER.** NAHB **32**; **38% of builders cutting prices = ORANGE**; incentives 66%. New-home **average price −8.8% YoY is the only significant change** in the release. Purchase applications **−11% YoY** on the clean week, and Redfin pending sales are at a ~3-year low.
+**③ TWO BUILDER PRINTS WERE MISSED AND ARE NOW RECORDED.** **Lennar** (9/16): margin 15.8%, flat at the trough, **orders −9%**. **KB Home** (9/22): operating margin 5.2%, up from 2.5%, **orders −12%**. The cause was structural: builders had no per-name docket row. **Nine rows now exist**, plus five lane terms with WALTER.
 
-**④ FOUR CORRECTIONS OF MY OWN, all on the record:** (a) **Cure Rates band** — graded on the wrong statistic 9/14; on its native YoY basis it is **YELLOW**, 2pts from Orange. (b) **Freddie "fifth consecutive rise"** was the third. (c) **Trepp "Feb 7.12%"** was October 2025; February was 6.85%. (d) ⛔ **Two 9/14 packets (REGINALD, WALTER) never left my outbox** — REGINALD was still carrying April GSE figures. Re-delivered to their inboxes; charter fixed; LESSONS §48–50.
+**④ RATES: RED HOLDS INTO THURSDAY ON THE INPUTS.** MND hit **7.50% on 9/28** and the 10-year hit **5.24%**. The Treasury-implied PMMS is ~7.16–7.18%. **Pre-registered: HOLD ≥7.05 · SOFTEN 7.01–7.04 · LIFT ≤7.00.** No threshold moved.
+
+**⑤ FLORIDA CONDO RECONCILED TO ONE FIGURE: CORAL's August +2.8% statewide median.** My weakness evidence is metro/segment only, and even the Miami-Dade price leg may have turned (August unread).
+
+⛔ **NOT DONE: A5 leg 1 (thesis-level kill-rail file) is DUE TOMORROW 9/30.** Case-Shiller July was not read.
