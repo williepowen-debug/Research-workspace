@@ -68,6 +68,7 @@ DASH_STALE_HOURS = 72       # dashboard self-declares red past this
 # keep the 8-col CATALYSTS schema (date/event/.../priority); add rows HERE.
 SUMMONS_LEDGERS = {
     "LABOR": "AGENTS/LABOR/docket/CATALYSTS.tsv",
+    "VULCAN": "AGENTS/VULCAN/docket/CATALYSTS.tsv",   # 2026-09-29 (prome-82): 5-of-5 Friday slots missed since 8/28 — same schema as LABOR; ACCEPTANCE_summons_ledger_VULCAN_2026-09-29.md
 }
 SUMMONS_WINDOW_DAYS = 2     # due within N days flags; past-due always flags
                             # (owners prune fired rows, so past-due-still-present
