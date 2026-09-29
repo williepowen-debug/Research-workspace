@@ -52,6 +52,7 @@ News catch-up, Will-directed. **No thesis change: v1.7 stands, book FLAT, nothin
 **TIER 0 — nothing overdue.** SAM-33 sole OPEN row.
 
 **TIER 1 — DATED, FORWARD:**
+0. 🆕 **SAM-42 OPEN (registered 9/29 on Will's "Approve WQ-336"):** the BOJ hikes above 1.25% by Oct-31 JST, **25%** vs Totan 36% frozen. ⛔ **Re-mark ONLY on (a)** Ueda/Himino/Uchida framing October as live → 50%, **or (b)** a reviewed Totan chart ≥60% → 45%. Grade the as-made 25% on the BOJ statement PDF. SoO/Tankan/Tokyo CPI move nothing.
 1. **Wed Sep-30** — **MOF monthly intervention total (Aug-27→Sep-28) ~19:00 JST** (¥0 ⇒ words only; non-zero ⇒ op in-window) · **BOJ Oct–Dec purchase schedule 17:00 JST = SAM-33 check** (scheduled taper change does NOT count) · 2Y auction · Aug IP/retail. RED grades CH-009 on the 9/30 MOF 30Y close (≥4.300 ⇒ NO-VERDICT).
 2. **Thu Oct-1** — SoO (oil named? how?) + Tankan · MOF weekly (does the MISSING Sep-13–19 week appear?). **Fri Oct-2** — Tokyo CPI + CFTC (Sep-29). 🔧 **METI crude-by-source is Wed Sep-30 13:30 JST** (KOYOMI Run 23, observed at METI). ✅ Tankan Thu / Tokyo CPI Fri CONFIRMED at the BOJ and Stats Bureau calendars (KOYOMI Run 23); the wire showed Japan-morning releases in US time.
 3. **Sat Oct-3 15:15 JST** OIS expiry → re-transcribe Mon Oct-5. **Oct-8** 30Y auction (frozen bars).

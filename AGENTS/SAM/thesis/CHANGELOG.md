@@ -8,6 +8,10 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-09-29 (2nd) — SAM-42 REGISTERED: the BOJ does not hike by Oct-31, P(hike) 25% vs the market's 36%. **THESIS v1.7 UNCHANGED.**
+
+Registered on Will's verbatim "Approve WQ-336" (10:31 ET, relayed by PROME and verified at `PROME/WILL_QUEUE.md` commit `4b7013204` before installing — messaging rule 3). Outcome-only letter with an immovable anchor, MECE branches, and a frozen market reference (Totan 9/29 15:15 JST, 36%). Base rate: 0/5 back-to-back hikes this cycle. Committed before the Oct-1 SoO/Tankan = time-fixed. Premise (the US endorsement lowers FX urgency) marked ASSUMED. The mechanism claim (an October hike strengthens the yen) is DEFERRED for want of a base rate. Old view: no registered BOJ-timing call. New view: SAM on record below the market. Analysis `research/outputs/2026-09-29_catchup/US_ENDORSEMENT_AND_OCT_HIKE.md`.
+
 ## 2026-09-29 — News catch-up: joint US–Japan verbal yen campaign took USD/JPY 159.04 → 156.50 with no operation found; spec long-yen cut 40%; 40Y auction firm. **THESIS v1.7 UNCHANGED.**
 
 **TIMELINE:** new 2026-09-29 block. **THESIS:** integration header Sep-24 → Sep-29; Channel 3 rider only. **PLAYBOOK:** 2026-09-29 entry.
