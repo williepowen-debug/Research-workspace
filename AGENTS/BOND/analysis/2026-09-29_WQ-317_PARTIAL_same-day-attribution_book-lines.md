@@ -64,3 +64,17 @@
 
 ## 5 · Gaps, stated
 HANS EU/UK rows (owed; secondary used, labelled) · Fed speaker names/content 9/29 · corporate supply figure for 9/29 · JGB 9/29 close at the primary (MOF posts next JST morning) · futures-vs-cash timing (not held) · Brent at a usable vendor quote (roll artifact; BRENT owns).
+
+## 6 · PRE-REGISTERED FALSIFIERS — written 13:1x ET 9/29, BEFORE tonight's data (PROME 13:0x ask on Will's follow-up)
+
+Both claims in §2 get their first test tonight. Rows filed in `thesis/PREDICTIONS.tsv` (`BND-30`, `BND-31`); this block is the human twin.
+
+| Row | Claim | HOLDS (TRUE) iff | FALSIFIED (FALSE) iff | VOID | Base rate | Grade when |
+|---|---|---|---|---|---|---|
+| **BND-30** (70%) | 9/29 leg = **term premium, not path** (ACM) | ΔACMTP10(9/29) / ΔACMY10(9/29) **≥ 0.50**, given ΔACMY10 ≥ +2.0bp | share **< 0.50** with the premise held | ΔACMY10 < +2.0bp (fitted yield did not reproduce the leg) or row unpublished by **10/9 17:00 ET** | P(share ≥ 0.5 \| ΔY ≥ 2bp) = **62% since 2023 (n=349) · 51% in 2026 (n=67)**; P(<0.25) = 21–22% | NY Fed **ACM Daily publishes the 9/29 row** (frontier 9/25 at 13:07 ET; lag 2–4 bd) |
+| **BND-31** (65%) | Tokyo 9/30 **does NOT confirm EXPORTING** | MOF 30Y(9/30) − 30Y(9/29) **< +4.0bp** | **≥ +4.0bp** | either MOF row absent by **10/2 12:00 ET** | after a US DGS30 up-day ≥ +4bp: P(JGB 30Y next ≥ +4) = **31%**, P(≤ +1) = 45%, median +1.8 (n=67, SAM's MOF series 2025-04→) | MOF `jgbcme.csv` 9/30 row (~9/30 evening ET) — **10/1 boot** |
+
+**Sub-bands (recorded, not branches):** BND-30 share ≥ 0.75 TP-dominant · 0.50–0.75 TP-led · 0.25–0.50 mixed · < 0.25 path. BND-31 d30 ≤ +1.0 NOT exporting · +1.0 < d30 < +4.0 UNDETERMINED · ≥ +4.0 exporting-consistent (rider: 10Y < +2.0bp ⇒ long-end-only).
+**Honesty about BND-30's bar:** 0.50 sits near the ACM median on up-days, so a TRUE is weak evidence by itself; the informative outcomes are the tails. The 9/21→9/25 leg graded **0.89** (ΔY +21.9bp, ΔTP +19.5, ΔRN +2.4) in ACM's own split — that is the strongest evidence on file that the WEEK was term premium; tonight tests the DAY. **Companions, not branches:** the 2-day 9/25→9/29 ACM share; the **Kim-Wright** 9/29 cell (FRED `THREEFYTP10` / `THREEFY10`, lag 11d at registration ⇒ ~10/9–10/13) — model disagreement is reported, never averaged (CATO 9/28).
+**Growth-miss base rate ("long-end yields UP on a growth-negative data miss", today's 10:00 signature): SEARCH-NOT-FOUND in this desk's record** (KB/THESIS/MEMORY/analysis grep 13:0x ET: the only hit is today's row). Not built today, per the ask.
+**Publication caveats:** both rows anchor on a data publication, not a calendar date (anchor-slip rule); ACM's cadence is irregular (a 4-day-old frontier on a Tuesday afternoon), which is why BND-30 carries a ceiling and a VOID. The 9/29 official Treasury cells (~16:15 ET) grade nothing here — they grade `KB-BND-361`.
