@@ -1,4 +1,8 @@
-# NEXUS — proposed fixes from the 9/29 debrief (DRAFT for Will; uncommitted until he reacts)
+# NEXUS — proposed fixes from the 9/29 debrief
+
+> **STATUS 2026-09-29 (Will: "Go ahead and encode the boot fixes now"): A1 · A2 · A3 · A4 · A5 · A6 · A8 ENCODED in `AGENTS/NEXUS/CLAUDE.md` (BOOT 0a/0b · BOOT 6 digest-readers bullet · OUTPUT RULES page cap · CLOSEOUT 15a/15b · stamp rule · WHEN TO RUN 5). A7 (self-test NEW letters and CORRECTIONS before commit) folded into 0b. C3 RULED → WQ-343 APPROVED, DOCKET L554. C1 = WQ-341 · C2 = WQ-342 (rider recorded). B1–B6 remain PROME/DAEDALUS/WALTER asks for PROME's closeout report.**
+
+**Two items added after the draft:** **A7** self-test new letters + corrections before commit (CATO PN1 class; two correction rounds on one afternoon) · **A8** every stamp from `date`/`git` in the writing command (PROME catch).
 
 **Context:** 9/29 session after 5 days dark — full review, WQ-340 read, three read-cap rotations, three self-defects found (stale L2 · wrong Panama notice ID · M-08 forcing condition with no magnitude), brief standard visibly degrading, split blind to credit. Each item: what it fixes · owner · cost · the decision needed. **$0 in all cases; nothing here touches a position, a gate letter or a threshold.**
 
