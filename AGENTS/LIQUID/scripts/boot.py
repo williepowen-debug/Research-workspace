@@ -641,43 +641,74 @@ G076_LEVEL, G076_COVER, G076_WINDOW = -2_950_000, 300_000, 14
 
 def grade_076(w1, w3, w2=None):
     """PURE. w1 = [(asof 'YYYY-MM-DD', net int)] oldest-first (CME only); w3 = [(date, move, vix)];
-    w2 = [(asof, g10 $mm, g5l10 $mm)] oldest-first, or None when the PD pull failed (UNMEASURED).
-    Returns dict: w1_hits [(date, why)], w2_hits, w3_hits [date], w3_edge, anchor, window_start, legs_met, state."""
-    w2_measured = w2 is not None
+    w2 = [(asof, g10 $mm, g5l10 $mm)] oldest-first, or None when the PD pull failed.
+    ⛔ CATO 9/29 (two findings, both fixed here): (1) a weekly change is taken ONLY against the row dated
+    EXACTLY 7 days earlier, and every weekly as-of date REQUIRED by the calendar inside the window must be
+    present — surviving rows never define the calendar (a missing middle week turned +200k,+200k into one
+    "+400k week"); (2) an UNKNOWN leg is carried through: MET needs 2 met legs; if met + unknown >= 2 the
+    verdict is INDETERMINATE, never NOT MET.
+    Returns dict: state, legs {W1,W2,W3: MET|UNKNOWN|NOT}, w1_hits, w2_hits, w3_hits, w3_edge, unknown, anchor, window_start."""
     from datetime import date as _d, timedelta as _td
-    w1_hits = []
+    D = _d.fromisoformat
+    wk = lambda a, b: (D(b) - D(a)).days == 7
+    w1d = {d: n for d, n in w1}
+    w1_hits, w1_unk = [], []
     for i, (d, net) in enumerate(w1):
         why = []
         if net <= G076_LEVEL:
             why.append(f"net {net:,} <= {G076_LEVEL:,}")
-        if i > 0 and net - w1[i - 1][1] > G076_COVER:
-            why.append(f"cover {net - w1[i - 1][1]:+,} > {G076_COVER:,}")
+        if i > 0 and wk(w1[i - 1][0], d):
+            if net - w1[i - 1][1] > G076_COVER:
+                why.append(f"cover {net - w1[i - 1][1]:+,} > {G076_COVER:,}")
+        elif not why:
+            w1_unk.append(d)            # cover UNGRADEABLE: the prior week's row is not exactly 7 days back
         if why:
             w1_hits.append((d, "; ".join(why)))
     w3_edge = [d for d, mv, vx in w3 if abs(mv - 85) <= 1.0 or abs(vx - 20) <= 1.0]
     w3_hits = [d for d, mv, vx in w3 if d not in w3_edge and mv > 85 and vx < 20]
-    w2_hits = []
+    w2_hits, w2_unk = [], []
     for i, (d, g10, g5) in enumerate(w2 or []):
         if g10 < -12_000:
             w2_hits.append((d, f"G10 {g10:,} < -12,000"))
-        elif i > 0 and g5 < -800 and w2[i - 1][2] < -800:
-            w2_hits.append((d, f"G5L10 {w2[i - 1][2]:,} then {g5:,} < -800 x2"))
+        elif g5 < -800:
+            if i > 0 and wk(w2[i - 1][0], d):
+                if w2[i - 1][2] < -800:
+                    w2_hits.append((d, f"G5L10 {w2[i - 1][2]:,} then {g5:,} < -800 x2"))
+            else:
+                w2_unk.append(d)        # x2 condition UNGRADEABLE: prior week missing
     dates = [d for d, _ in w1] + [d for d, _, _ in w3] + [d for d, _, _ in (w2 or [])]
+    base = {"w1_hits": w1_hits, "w2_hits": w2_hits, "w3_hits": w3_hits, "w3_edge": w3_edge}
     if not dates:
-        return {"state": "UNGRADEABLE", "w1_hits": w1_hits, "w2_hits": w2_hits, "w3_hits": w3_hits,
-                "w3_edge": w3_edge, "legs_met": 0, "anchor": None, "window_start": None}
+        return {**base, "state": "UNGRADEABLE", "legs": {}, "unknown": {}, "legs_met": 0,
+                "anchor": None, "window_start": None}
     anchor = max(dates)
-    start = (_d.fromisoformat(anchor) - _td(days=G076_WINDOW - 1)).isoformat()
-    legs = (int(any(d >= start for d, _ in w1_hits)) + int(any(d >= start for d in w3_hits))
-            + int(any(d >= start for d, _ in w2_hits)))
-    if legs >= 2:
+    start = (D(anchor) - _td(days=G076_WINDOW - 1)).isoformat()
+    # calendar-REQUIRED observation dates inside the window (published by the anchor date)
+    days = [(D(start) + _td(days=k)).isoformat() for k in range(G076_WINDOW)]
+    req_w1 = [x for x in days if D(x).weekday() == 1 and (D(x) + _td(days=3)).isoformat() <= anchor]   # Tue, pub Fri
+    req_w2 = [x for x in days if D(x).weekday() == 2 and (D(x) + _td(days=8)).isoformat() <= anchor]   # Wed, pub +8d
+    try:
+        from gate069_legs import is_session
+    except Exception:
+        is_session = lambda x: D(x).weekday() < 5
+    req_w3 = [x for x in days if is_session(x)]
+    w3d = {d for d, _, _ in w3}
+    unk = {"W1": sorted({x for x in req_w1 if x not in w1d} | {x for x in w1_unk if x >= start}),
+           "W2": (["no PD data"] if w2 is None else
+                  sorted({x for x in req_w2 if x not in {d for d, _, _ in w2}} | {x for x in w2_unk if x >= start})),
+           "W3": sorted({x for x in req_w3 if x not in w3d} | {x for x in w3_edge if x >= start})}
+    hit = {"W1": any(d >= start for d, _ in w1_hits), "W2": any(d >= start for d, _ in w2_hits),
+           "W3": any(d >= start for d in w3_hits)}
+    legs = {k: ("MET" if hit[k] else ("UNKNOWN" if unk[k] else "NOT")) for k in ("W1", "W2", "W3")}
+    met = sum(v == "MET" for v in legs.values()); un = sum(v == "UNKNOWN" for v in legs.values())
+    if met >= 2:
         state = "MET"
-    elif not w2_measured and legs == 1:
-        state = "1-of-2-MEASURED (W2 unmeasured — cannot say 'not met' on 2 legs)"
+    elif met + un >= 2:
+        state = f"INDETERMINATE ({met} met, {un} ungraded: " + ", ".join(k for k, v in legs.items() if v == "UNKNOWN") + ")"
     else:
-        state = f"NOT MET ({legs} of {'3' if w2_measured else '2 measured'})"
-    return {"state": state, "w1_hits": w1_hits, "w2_hits": w2_hits, "w3_hits": w3_hits, "w3_edge": w3_edge,
-            "legs_met": legs, "anchor": anchor, "window_start": start}
+        state = f"NOT MET ({met} of 3)"
+    return {**base, "state": state, "legs": legs, "unknown": unk, "legs_met": met,
+            "anchor": anchor, "window_start": start}
 
 
 def build_gate076():
@@ -762,10 +793,11 @@ def build_gate076():
     w2s = ("UNMEASURED" if w2 is None else
            ("met " + ", ".join(d for d, _ in g["w2_hits"] if d >= g["window_start"]) if any(d >= g["window_start"] for d, _ in g["w2_hits"]) else "not met"))
     edg = [d for d in g["w3_edge"] if d >= g["window_start"]]
-    mk = "🔴" if g["state"] == "MET" else ("🟠" if g["legs_met"] == 1 else "🟢")
+    mk = "🔴" if g["state"] == "MET" else ("⚪" if g["state"].startswith("INDETERMINATE") else ("🟠" if g["legs_met"] == 1 else "🟢"))
+    unk_s = "; ".join(f"{k} ungraded {', '.join(v)}" for k, v in g["unknown"].items() if v and g["legs"].get(k) != "MET")
     add("DOMESTIC", "GATE-LIQ-076", g["state"], mk,
         f"window {g['window_start']}→{g['anchor']} · W1 met {w1s} · W3 met {w3s} · W2 {w2s}"
-        + (f" · W3 EDGE (ungraded) {', '.join(edg)}" if edg else "") + ". "
+        + (f" · W3 EDGE (ungraded) {', '.join(edg)}" if edg else "") + (f" · {unk_s}" if unk_s else "") + ". "
         "MET ⇒ WRITE-UP (PROME + NEXUS/HENRY via WALTER), NEVER a position. Window read, not a latch: a 2nd write-up needs "
         "10 business days with no leg met (letter 9/29)",
         g["anchor"], headline=g["legs_met"] >= 1)
@@ -996,8 +1028,11 @@ def selftest():
             ok = False
         print(f"  {'✓' if got == want else '✗'} 076 {label}: got {got!r}, want {want!r}")
     g076("real 9/22 cover + 9/23-9/28 rates vol → MET", grade_076(W1, W3)["state"], "MET")
-    g076("W1 alone (W3 absent) → 1-of-2-measured, never 'NOT MET'",
-         grade_076(W1, [(d, 70.0, 15.0) for d, *_ in W3])["state"].startswith("1-of-2-MEASURED"), True)
+    SESS = ["2026-09-15", "2026-09-16", "2026-09-17", "2026-09-18", "2026-09-21", "2026-09-22", "2026-09-23",
+            "2026-09-24", "2026-09-25", "2026-09-28"]
+    W3Q = [(d, 70.0, 15.0) for d in SESS]                      # a full, quiet W3 window
+    g076("W1 met + W2 NO DATA + W3 quiet → INDETERMINATE, never 'NOT MET'",
+         grade_076(W1, W3Q)["state"].startswith("INDETERMINATE"), True)
     g076("cover of exactly +300,000 is NOT > 300,000",
          grade_076([("2026-09-15", -2_800_000), ("2026-09-22", -2_500_000)], [])["w1_hits"], [])
     g076("cover +300,001 is met",
@@ -1018,8 +1053,21 @@ def selftest():
     g076("W2 G10 exactly -12,000 is NOT < -12,000", grade_076([], [], [("2026-09-16", -12_000, 0)])["w2_hits"], [])
     g076("W2 G5L10 -801 ONE week only → not met", grade_076([], [], [("2026-09-09", 0, 500), ("2026-09-16", 0, -801)])["w2_hits"], [])
     g076("W2 G5L10 -801 two consecutive → met", len(grade_076([], [], [("2026-09-09", 0, -801), ("2026-09-16", 0, -801)])["w2_hits"]), 1)
-    g076("W1 alone with W2 MEASURED and not met → 'NOT MET (1 of 3)'",
-         grade_076(W1, [(d, 70.0, 15.0) for d, *_ in W3], W2)["state"], "NOT MET (1 of 3)")
+    g076("W1 met, W2 measured not met, W3 full & quiet → 'NOT MET (1 of 3)'",
+         grade_076(W1, W3Q, W2)["state"], "NOT MET (1 of 3)")
+    # CATO 9/29 finding 1: a missing MIDDLE week must not turn two +200k weeks into one "+400k week"
+    W1g = [("2026-09-08", -2_800_000), ("2026-09-22", -2_400_000)]          # 9/15 row missing
+    r = grade_076(W1g, W3Q, W2)
+    g076("CATO: missing middle W1 week → no cover hit; W1 UNKNOWN", (r["w1_hits"], r["legs"]["W1"]), ([], "UNKNOWN"))
+    W2g = [("2026-09-02", 0, -900), ("2026-09-16", 0, -900)]                 # 9/09 missing
+    r = grade_076(W1, W3Q, W2g)
+    g076("CATO: G5L10 x2 across a missing week → no hit; W2 UNKNOWN", (r["w2_hits"], r["legs"]["W2"]), ([], "UNKNOWN"))
+    # CATO 9/29 finding 2: W1 met + W2 quiet + W3 EDGE (ungraded) → INDETERMINATE, not NOT MET
+    W3e = [(d, 70.0, 15.0) for d in SESS[:-1]] + [("2026-09-28", 85.5, 15.0)]
+    g076("CATO: one met, one quiet, W3 at the edge → INDETERMINATE", grade_076(W1, W3e, W2)["state"].startswith("INDETERMINATE"), True)
+    g076("a missing W3 session in the window → W3 UNKNOWN", grade_076(W1, W3Q[:3] + W3Q[4:], W2)["legs"]["W3"], "UNKNOWN")
+    g076("a required W1 Tuesday absent (9/22 not in rows) → W1 UNKNOWN",
+         grade_076(W1[:2], W3Q, W2)["legs"]["W1"], "UNKNOWN")
     g076("W3 witness at MOVE 85.9 is EDGE, not a hit", (grade_076([], [("2026-09-23", 85.9, 15.0)])["w3_hits"],
          grade_076([], [("2026-09-23", 85.9, 15.0)])["w3_edge"]), ([], ["2026-09-23"]))
 
