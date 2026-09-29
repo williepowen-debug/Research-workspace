@@ -8,6 +8,7 @@
 - **HY OAS widened 29bp in three sessions:** 273 [9/23] → 280.0 [9/24] → 293 [9/25] → **302 [9/28]**. BB 159 → 183 · CCC 1,093 → 1,146 · IG 77 → 83. B was 300 [9/25] and had not posted for 9/28 at 10:24 ET. HY yield 8.03%.
 - **WALTER SIG-W-20260925-011** (ACTION RED): 280.0 is at the line, so this was FT-01 exit day 1 of 3. **LIQUID corrected the arbiter state**: X1 is CLOSED and DON'T-SIZE is DECIDED (BROCK KB-BRK-219, 8/28), so a 280 touch returns that answer. LIQUID's watcher text fix is owed on their side.
 - **SAM 9/29 (`0b5524b8d`):** there is no driver-attribution read before 12/30, so CH-012 closes NO-VERDICT at year-end under the pre-written rule. MOF 30Y was 4.122 on 9/28.
+- **Receipt 10:31 ET (own pull, cache-busted URL per PROME's tip — the fredgraph CSV is CDN-cached up to 600s per exact URL):** the full 9/28 ladder has posted. B **309**, BBB **102**, IG 83, BB 183. 9/23→9/28 full-tier attribution: BB +24×0.597 = +14.3 · B +31×0.301 = +9.3 · CCC +53×0.106 = +5.6 → +29.2 modelled vs HY +29 actual. **BB+B = 81%.** This confirms the 9/23→9/25 broad-tier reading and changes no claim or count. It closes the memo GAP "B/BBB 9/28 not posted".
 - **PROME 9/27:** the board_log gap packet for -011. **PROME 9/25:** WQ-295 asks for a cadence declaration and watch terms.
 
 ## WHAT I DID
