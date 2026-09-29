@@ -636,3 +636,12 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-06-30	cbs_iwt_dry_spot_idx	130.5	index_2021=100	CBS-85817NED	2026-09-28 20:59 ET	2026-KW02 (latest published); y/y +11.4%; base-rate refs 2018-KW04 163.3, 2022-KW03 191.7 (+104.1% y/y)
 2026-03-31	cbs_iwt_goods_idx	123.6	index_2021=100	CBS-85817NED	2026-09-28 20:59 ET	2026-KW01 all inland goods; y/y +5.0%
 2026-06-30	cbs_iwt_goods_idx	135.9	index_2021=100	CBS-85817NED	2026-09-28 20:59 ET	2026-KW02 all inland goods; y/y +6.5%
+2026-03-31	cbs_iwt_wet_bulk_idx	125.1	index_2021=100	CBS-85817NED	2026-09-28 21:06 ET	2026-KW01 wet bulk (tanker); y/y +5.6%
+2026-06-30	cbs_iwt_wet_bulk_idx	140.6	index_2021=100	CBS-85817NED	2026-09-28 21:06 ET	2026-KW02 (latest); y/y +1.1% -- LEVEL already at the 2022-KW03 peak 141.7 while y/y flat (2025-KW02 139.0); base-rate 2018-KW02 94.1 -> KW04 129.7 (+38%)
+2026-09-28	heating_oil_state_eur_100l	169.44	EUR_per_100l	FASTENERGY-BUNDESLAND	2026-09-28 21:06 ET	Baden-Württemberg; 3,000 L incl. delivery+VAT; Stand 28.09.2026 23:59; prior day 9/27 168.41; national 169.74; confounded (supply routes differ)
+2026-09-28	heating_oil_state_eur_100l	174.98	EUR_per_100l	FASTENERGY-BUNDESLAND	2026-09-28 21:06 ET	Hessen; 3,000 L incl. delivery+VAT; Stand 28.09.2026 23:59; prior day 9/27 174.55; national 169.74; confounded (supply routes differ)
+2026-09-28	heating_oil_state_eur_100l	172.99	EUR_per_100l	FASTENERGY-BUNDESLAND	2026-09-28 21:06 ET	Rheinland-Pfalz; 3,000 L incl. delivery+VAT; Stand 28.09.2026 23:59; prior day 9/27 173.33; national 169.74; confounded (supply routes differ)
+2026-09-28	heating_oil_state_eur_100l	173.25	EUR_per_100l	FASTENERGY-BUNDESLAND	2026-09-28 21:06 ET	Nordrhein-Westfalen; 3,000 L incl. delivery+VAT; Stand 28.09.2026 23:59; prior day 9/27 172.95; national 169.74; confounded (supply routes differ)
+2026-09-28	heating_oil_state_eur_100l	168.11	EUR_per_100l	FASTENERGY-BUNDESLAND	2026-09-28 21:06 ET	Bayern; 3,000 L incl. delivery+VAT; Stand 28.09.2026 23:59; prior day 9/27 168.17; national 169.74; confounded (supply routes differ)
+2026-09-28	heating_oil_state_eur_100l	162.53	EUR_per_100l	FASTENERGY-BUNDESLAND	2026-09-28 21:06 ET	Hamburg; 3,000 L incl. delivery+VAT; Stand 28.09.2026 23:59; prior day 9/27 164.32; national 169.74; confounded (supply routes differ)
+2026-09-28	heating_oil_state_eur_100l	175.58	EUR_per_100l	FASTENERGY-BUNDESLAND	2026-09-28 21:06 ET	Sachsen-Anhalt; 3,000 L incl. delivery+VAT; Stand 28.09.2026 23:59; prior day 9/27 175.42; national 169.74; confounded (supply routes differ)

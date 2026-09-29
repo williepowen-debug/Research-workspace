@@ -96,7 +96,7 @@
 | **Non-renewal rate** (C4) | 🟠 baseline only (FIO 1.04%; MCAS annual to 2024); CA censored by law (KB-130) |
 | **Mid-cycle reinsurance price** (C1/C4) | ✅ **search instrument adopted** (cat-bond spread, KB-121) — monthly, NOT ROL, no band |
 | **US crop condition** (C2) | 🔴 NASS path 404s; no key (KB-092) |
-| **Rhine freight** (C5 operational leg) | ✅ **INSTRUMENTED 9/28 (Will-directed), NOT ARMED.** Contargo daily surcharge (one operator, containers only) + CBS 85817NED quarterly IWT price index (includes fuel). **No band:** n=2 low-water episodes (2018 +87%, 2022 +104% y/y dry-spot) and fuel contaminates it. Tanker (heating oil) still has no feed. `water/SOURCES.md`, KB-161 |
+| **Rhine freight** (C5 operational leg) | ✅ **INSTRUMENTED 9/28 (Will-directed), NOT ARMED.** Contargo daily surcharge (one operator, containers only) + CBS 85817NED quarterly IWT price index (includes fuel). **No band:** n=2 low-water episodes (2018 +87%, 2022 +104% y/y dry-spot) and fuel contaminates it. **Tanker (heating oil), 9/28:** no free €/t series exists (all assessors paywalled) — re-pullable instrument = **CBS wet-bulk quarterly (2026-Q2 140.6, +1.1% y/y, LEVEL already = the 2022 peak)** + Insights Global weekly blog (direction/deal counts) + fastenergy state heating-oil prices (confounded); Platts/Spotbarge ARA→Basel **€215/t (~9/18–21) vs €35 (6/03)** logged as SECONDARY only. `water/SOURCES.md` ③, KB-161/162 |
 
 ---
 ## PREDICTIONS
@@ -130,7 +130,7 @@ Canonical: `workbook/PREDICTIONS.tsv` (full reasoning in each row). **OPEN (8):*
 | 10 | Danube LKV reset dates · Yangtze time basis + reference levels · Vicksburg/Cairo series (names approved) | — | OPEN |
 | 11 | Charter-vs-STATUS definition check (monthly) | ~10/01 | **done 9/28** — charter C5 state line pointed here |
 
-**CLOSED BY NAME 9/28:** Rhine freight source (KB-161) · matrix + exit triad rebuild (crash-owed) · 9/18 worker proposals (adjudicated into KB-119/128–131 on 9/18; confirmed) · NEXUS fold (this closeout) · WATT C3 asks ×2 (KB-157) · AEO-03 packet to DAEDALUS · PROME WQ-295 · WALTER -011 · stale worker-brief value tables (water/wildfire/regime re-cut) · invest-deck ACE double-count (hurricane/SOURCES.md).
+**CLOSED BY NAME 9/28:** Rhine freight source (KB-161) · tanker/heating-oil freight search (KB-162 — partial: no free €/t exists) · matrix + exit triad rebuild (crash-owed) · 9/18 worker proposals (adjudicated into KB-119/128–131 on 9/18; confirmed) · NEXUS fold (this closeout) · WATT C3 asks ×2 (KB-157) · AEO-03 packet to DAEDALUS · PROME WQ-295 · WALTER -011 · stale worker-brief value tables (water/wildfire/regime re-cut) · invest-deck ACE double-count (hurricane/SOURCES.md).
 
 ---
 ## BOTTOM LINE

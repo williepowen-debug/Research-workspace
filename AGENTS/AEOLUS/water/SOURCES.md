@@ -257,6 +257,27 @@ for x in json.load(sys.stdin)['value']:
 ```
 **Base rate (the two recorded low-water autumns):** dry-spot **87.4 (2018-Q2) → 163.3 (2018-Q4), +87%**; **2022-Q3 191.7, +104.1% y/y**. ⚠️ **Fuel contaminates it:** 2021-Q4 dry-spot +43.2% y/y is NOT attributed to low water here. **n=2 low-water episodes is not a band** — no threshold registered. Latest **2026-Q2: dry-spot 130.5 (+11.4% y/y), all-goods 135.9 (+6.5%)** — BEFORE this autumn's record; **2026-Q3 is the first print that can show it** (not yet published 9/28).
 
+**③ TANKER BARGE (heating oil / gasoil) — added 2026-09-28 (Will-directed). NO free €/t series exists; four partial surfaces, ranked.** The €/t assessors are all paywalled: **Insights Global / BargeINSIGHTS** (formerly PJK — the CCNR's own source), **Spotbarge** (JS app, login), **Argus**, **Platts**.
+- **(a) CBS 85817NED `A042619` wet bulk (natte bulk) — THE re-pullable tanker instrument.** Quarterly, 2021=100, Dutch tanker-barge operators, includes fuel + low-water surcharges. Same command as ② (the filter already includes `A042619`). **Base rate:** 2018-Q2 94.1 → 2018-Q4 129.7 (**+38%**); 2022-Q3 141.7 (**+51.5% y/y**). **2026-Q2 140.6 (+1.1% y/y)** — ⚠️ the LEVEL is already at the 2022 peak while y/y is flat (2025-Q2 was 139.0): a level read and a y/y read disagree; **quote both**. 2026-Q3 = first print covering this event.
+- **(b) Insights Global weekly "Rhine Freight Market" blog — FREE, dated, QUALITATIVE.** `https://www.insights-global.com/category/blogs/freight-rates/` → newest "Rhine Freight Market: …" post (`"datePublished"` in page JSON). Gives **daily direction + DEAL COUNTS** (e.g. week of 9/14: 3 · few · **20** · few · **2** deals) and route notes — **no €/t** (that is the paid product). Record direction + counts, never infer a level.
+- **(c) Named-source point quotes via the press — SECONDARY, log to `LOG.tsv` only, never `SERIES.tsv`.** Platts citing **Spotbarge**, ARA→Basel gasoil: **€35/t (6/03) · €69.30 (7/01) · €276.67 (8/14) · €165 (9/11) · €215 (≈9/18–21)** (Platts via hellenicshippingnews republication 9/21; Spotbarge told Platts *"actual freight rates vary widely, depending on the barge and owner"*). Argus free news 7/30: rates to Duisburg/Frankfurt/Karlsruhe at **records since its assessments began in 2012**; Cologne/Basel higher only in Aug 2022. A search summary's "ARA–Karlsruhe €215/t, five-fold from €45" was NOT traced to a page — not logged.
+- **(d) CONSUMER end — fastenergy.de heating-oil price by Bundesland, DAILY, free.** €/100 L, 3,000 L order, incl. delivery + VAT; today + yesterday only (build the series forward; **no history, no base rate**).
+```bash
+curl -sL -A 'Mozilla/5.0' "https://www.fastenergy.de/heizoelpreise.htm" \
+ | python3 -c "
+import re,html,sys
+s=re.sub(r'<script.*?</script>|<style.*?</style>','',sys.stdin.read(),flags=re.S)
+t=re.sub(r'(\s*\|\s*)+',' | ',re.sub(r'\s+',' ',html.unescape(re.sub(r'<[^>]+>',' | ',s))))
+m=re.search(r'Heizölpreise in den Bundesländern \| Bundesland \| (\S+) \| (\S+) \| Differenz \|(.*?)\| Heizölpreise in den Großstädten',t)
+print('dates',m.group(1),m.group(2)) if m else print('NO TABLE')
+if m:
+    for st,a,b in re.findall(r'([A-ZÄÖÜ][\w\-äöüß]+) \| ([\d.,]+) € \| ([\d.,]+) €',m.group(3)): print(st,a,b)
+st=re.search(r'Stand: [^|]+',t); print(st.group(0) if st else 'NO STAND')
+nat=re.search(r'Der Heizölpreis in Deutschland beträgt heute \| ([\d,]+ € / 100 l)',t); print('national',nat.group(1) if nat else '?')
+"
+```
+⚠️ **Confounded — do not read a state spread as a Rhine signal without a second leg.** Supply differs by region (north via ports, east via pipeline, south via Ingolstadt/Karlsruhe refineries + Rhine). 9/28: Rhine-served Hessen 174.98 · NRW 173.25 · RLP 172.99 are high — but pipeline-served Sachsen-Anhalt is highest (175.58) and Hamburg lowest (162.53). heizoel24's state table is JS-rendered (dashes via curl); tecson's regional note is undated prose.
+
 ⚠️ **Candidates NOT adopted:** CCNR market-observation freight indices (built on PJK/Insights Global liquid-bulk ARA-Rhine + the same CBS data; PDF-only, no download) · PJK/Insights Global, Argus, Platts barge freight (paywalled) · agrarheute-type press relays (a secondary claimed €1,350/20′ at Kaub — **NOT on the publisher's page; discarded**).
 **Benchmarks:** 2018 all-time low **25 cm** (October) · **≤40 cm** = uneconomical navigation.
 

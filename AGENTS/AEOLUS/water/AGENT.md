@@ -33,6 +33,8 @@
 | `kaub_q` / `duisburg_ruhrort_q` / `emmerich_q` / `maxau_q` / `worms_q` / `mainz_q` | m3_s | `WSV-PEGELONLINE-<ST>-Q` | **discharge — physically conserved and DATUM-INDEPENDENT**, unlike stage. Prefer it for cross-era comparison. |
 | `contargo_lws_kaub_20ft` / `contargo_lws_duisburg_20ft` | EUR_per_container | `CONTARGO-KWZ` | **daily** low-water surcharge per FULL 20′ container at that gauge's level (approved 2026-09-28). Record the €-row, never the tier number |
 | `cbs_iwt_dry_spot_idx` / `cbs_iwt_goods_idx` | index_2021=100 | `CBS-85817NED` | **quarterly** Dutch inland-shipping price index; includes fuel + low-water surcharges (approved 2026-09-28) |
+| `cbs_iwt_wet_bulk_idx` | index_2021=100 | `CBS-85817NED` | **quarterly** TANKER-barge (wet bulk) price index — heating oil's freight leg (approved 2026-09-28) |
+| `heating_oil_state_eur_100l` | EUR_per_100l | `FASTENERGY-BUNDESLAND` | **daily** consumer price by state, 3,000 L incl. delivery+VAT; put the state in `notes`. Confounded — no base rate (approved 2026-09-28) |
 | `rhine_freight_eur_t` | EUR_per_t | *(still no verified source — the two rows above are container surcharge and a price INDEX, not €/t)* | Rotterdam→S-of-Kaub barge rate |
 | `snowpack_upper_colorado` | pct_median | `NRCS-SNOTEL` | **seasonal — near-zero Jun–Sep, correctly empty** |
 | `yichang_stage` / `hankou_stage` / `datong_stage` | m | `CJH-<STATION>` | Yangtze; parse the `var sssq` JSON |

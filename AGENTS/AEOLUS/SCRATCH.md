@@ -20,6 +20,8 @@
 
 **LATE 9/28 (Will-directed): Rhine FREIGHT instrumented** — Contargo daily surcharge (Kaub ≤40 cm → €1,075/20′; obligation ended; suspension warned) + CBS 85817NED quarterly index (Q3-2026 is the first print covering the event). **Not armed — no band (n=2).** Record the Contargo €-row each session alongside the 3-day re-grade. KB-161; addenda to CARL/HENRY/BRENT.
 
+**LATE 9/28 (Will-directed): tanker/heating-oil freight searched** — no free €/t exists (Insights Global/Spotbarge/Argus/Platts paywalled). Registered: CBS wet-bulk quarterly · Insights Global weekly blog (direction + deal counts) · fastenergy state heating-oil prices (daily, confounded). KB-162; HENRY replied (no F1 effect), processed.
+
 ### FIRST THINGS NEXT SESSION
 1. 🔴 **Rhine 3-day re-grade** (and 6c dark-window scan if the gap > 3 days). Check CARL/HENRY/BRENT replies in my inbox.
 2. 🔴 **10/01 cluster:** NIFC October outlook (AEO-09 checkpoint, KB-128 rule) · Colorado 2027-28 Guidelines take effect · CSU two-week 9/30.
