@@ -1,6 +1,6 @@
 # LIQUID — finish reliable grading, then September 30 reviews
 
-**Current disposition — September 29 follow-up:** LR1's original CCC-gap false fire and LR3 labels independently checked CLOSED at `2f8d360b1`. LR2 SpaceX owner/registry rows closed; remaining current-record residue deferred to the existing owner closeout. New LR4 records a shared-missing-session limit, independently reproduced below. The 076 grade/write-up is already delivered and its registry review moved to October 9; do not recommission it from the earlier recommendation. Finish existing September 30 definitions/finalizations and protect publication/quarter-end observations. No owner edits, sends, new approvals or automatic CATO follow-up.
+**Current disposition — September 29 updated-files review:** LR1/LR3 remain closed; LR4 shared-session gap now independently CLOSED at `0ef2c3def`. DAEDALUS #2/#4/#5 definitions are delivered and mirrored; do not carry them as still unwritten. New LR5/LR6 independently reproduce missing-week false fires and an ungraded-input false negative in the newly instrumented 076 grader. Recommend those two bounded repairs before relying on its automatic verdict, then scheduled readings/finalizations. LR2 lower-impact current-record residue remains for existing closeout. No live-market verdict overturned, owner edits, sends, new approval or automatic CATO follow-up.
 
 **Original disposition:** September 29 advice to Will on LIQUID's morning receipt. Useful repairs, but blanket completion was premature at the reviewed revision: one date-selection defect independently reproduced; current-state/consumer reconciliation incomplete. Historical evidence below is retained, with closures at the follow-up.
 
@@ -87,3 +87,58 @@ result = g['grade_l4'](hy, {t: dict(px) for t in g['TICK']})
 Only this report and continuity changed in the follow-up; no new probe file or owner code. Verification is bounded to the named cases/copies. Routine weekday, orphan and whitespace checks accompany exact-file delivery; final receipt is in-session.
 
 Follow-up checks: weekday check passed five files; exact-file whitespace check passed; orphan advisory showed only CRUISE/PROME work outside CATO, preserved. CRUISE inbox moves remained staged; the CATO commit uses only the two exact modified paths.
+
+## September 29 — updated files after the calendar and definition work
+
+Will requested examination of LIQUID's updated files. Inspected changes since `2f8d360b1` through LIQUID `2499e6616`, notably `13636a55d` (definitions/W2/precision), `0ef2c3def` (equity calendar), `b3a5cc13b` (rotation) and `5f5921f97` (WALTER harness pre-read). Root revision captured during inventory: `58370bac5`; later concurrent root activity through `521e2f3f3`. Other-owner dirty/staged work preserved; no pull. Reads covered changed code, definition clauses, relevant current records, delivered packets and PROME's current condition mirrors. No broader fleet audit or live quote run.
+
+### Verified progress and closures
+
+- **LR4 CLOSED:** independent replay of the shared missing September 24 case now returns INSTRUMENT-FAULT naming the required previous session. The original three integration fixtures still return the correct ordinary/missing-equity/CCC-gap outcomes. The helper's 21 built-in checks pass, including weekend, Labor Day, Good Friday, outside-calendar and exact spread-boundary cases. Its 2026/2027 closure dates match the [official NYSE calendar](https://www.nyse.com/trade/hours-calendars) inspected today. The finite calendar is explicit; no claim that future unscheduled closures are already known. LR1 and LR3 stay closed. The stale L4 docstring is lower-impact documentation residue, not evidence the old implementation remains.
+- **Precision repairs are concrete:** FRED values now convert to whole basis points before the 220/15/5 comparisons; SOFR differences round after subtraction. Owner tests demonstrate the corrected spread ties. The owner's assertion that none occurred live was not independently established. No historical re-grade performed.
+- **DAEDALUS #2/#4/#5 answers delivered:** letters name CCC's own five prior published observations, equity calendar dates, exact corporate dealer-position IDs/units, frozen W1 threshold, volatility producer/witness margin, reset rules, and a 53-date funding-calendar list. PROME's current GATES conditions mirror these and include the later NYSE calendar fix. Original DAEDALUS/PROME packets describe the earlier L4 date rule, but the canonical condition points to the newer rule. The pure-grader/boot tests pass (18 gate-076 cases plus three data-file checks). Exact NY Fed historical-value reproduction remains owner-reported; no independent API/data replay.
+- **WALTER pre-read is useful and correctly scoped:** saved harness output contains the two false matches for `money market fund break` (record-breaking growth / breaking news). LIQUID explicitly leaves classification to WALTER and installation to PROME. Its own part is done; WALTER acceptance and production installation are not certified. Zero observed false hits on the small alternative samples do not prove recall or zero future noise; the packet carries the recall and sample-size limits.
+- **Current-state work improved:** STATUS is 22,694 bytes and the contradictory old sweep paragraph was rotated. No full lossless-archive reconstruction performed. Remaining LR2 residue includes the old #1/#3 calendar/catalyst entries, broad no-vintage-endpoint sentence, and 076 state cells retaining W2 UNMEASURED while their newer basis says measured. Handle in existing closeout; do not reopen delivered SpaceX/definition work.
+
+### LR5 — Material: weekly 076 branches still compare adjacent surviving rows
+
+`scripts/boot.py::grade_076` computes W1 cover from `w1[i] - w1[i-1]` without checking the as-of interval. W2's two-week condition similarly compares neighboring surviving entries. Its fetch layer takes the intersection of the two PD series, so a missing date in either can silently drop a week. The letter requires a **single-week** cover and **two consecutive weekly as-of dates**.
+
+Independent fixtures, same script, no network:
+
+- W1 September 8/15/22 net positions −2.8M/−2.6M/−2.4M: each weekly cover is +200K, below >300K. With W3 met and W2 quiet, output NOT MET. Drop only September 15: it calls the two-week +400K change a qualifying cover and outputs MET.
+- W2 September 2/9/16 G5L10 values −801/+500/−801: no consecutive pair below −800. With W3 met and W1 absent, output NOT MET. Drop September 9: the two surviving negative observations become a false two-consecutive-week hit and output MET.
+
+**Correction/closure:** establish the required prior weekly as-of date separately from available rows; missing required weekly evidence must not manufacture a cover/persistence hit. Preserve evaluable level branches and other legs. Demonstrate full-series versus removed-middle-week cases, as well as legitimate consecutive weeks. This is a new 076 implementation finding, not reopening repaired equity LR4. No evidence these missing-row cases occurred in production or changed the reported September 25 grade.
+
+### LR6 — Medium: an explicitly ungraded volatility leg becomes a negative overall verdict
+
+The new letter permits the yfinance witness to grade W3 only when both values are more than one index point from the trigger lines; otherwise VIOLET's value is required. `grade_076` records `w3_edge` but excludes those observations from hits and can still say NOT MET.
+
+Independent fixture: W1 genuinely met (+400K over September 15→22); W2 observed quiet; only W3 row September 23 MOVE 85.9 / VIX 15.0. The function reports **NOT MET (1 of 3)** while also recording that W3 is ungraded. W3 could supply the second leg under the authoritative source; absent that read, the conjunction is unresolved. `build_gate076` prints the same definitive state with an EDGE footnote; the footnote does not make that state correct.
+
+**Correction/closure:** carry per-leg unknown state through the 2-of-3 decision. Two confirmed legs can establish MET despite an unknown third; if unknown evidence could supply the missing second leg, return an ungradeable/partial verdict. NOT MET is justified only when unresolved evidence cannot complete the conjunction. Test all three cases. No change to threshold, source rule or registered write-up consequence requested.
+
+Minimal reproducer for LR5/LR6:
+
+```python
+import runpy
+grade = runpy.run_path('AGENTS/LIQUID/scripts/boot.py')['grade_076']
+vol = [('2026-09-23', 95.0, 15.0)]
+quiet = [('2026-09-16', 0, 0)]
+print(grade([('2026-09-08', -2800000), ('2026-09-22', -2400000)], vol, quiet)['state'])
+# MET: falsely treats the 14-day +400K change as a one-week cover.
+print(grade([], vol, [('2026-09-02', 0, -801), ('2026-09-16', 0, -801)])['state'])
+# MET: falsely treats nonconsecutive observations as two consecutive weeks.
+print(grade([('2026-09-15', -2800000), ('2026-09-22', -2400000)],
+            [('2026-09-23', 85.9, 15.0)], quiet)['state'])
+# NOT MET (1 of 3): W3 is explicitly ungraded and could complete the conjunction.
+```
+
+### Direction and limits
+
+Accept the delivered calendar, definition and source-identification work. Correct LR5/LR6 before relying on automated 076 verdicts; the separately reasoned owner write-up is not invalidated by synthetic failures. Complete September 30 finalizations from existing pre-stages and protect the actual HY/quarter-end readings. No further broad redesign or fresh audit is recommended. The 079 exclusion list and reset are definition work: boot still explicitly tells the operator to check calendar/persistence after a threshold reading; CATO does not certify an automated 079 state machine. L1 now explicitly uses published observations, a distinct basis from L4's calendar session; no silent switch of that declared rule recommended.
+
+No owner edits, packets, launches or approvals. This follow-up changes only the continuing report and CATO continuity. Findings and ordinary controls are recorded here; final Git receipt in-session. Broader reliability/productivity benefit remains unmeasured.
+
+Validation: 21 owner 069 checks and 18 owner 076 checks passed; boot's three data-file checks passed. Independent original integration cases and LR4 closure passed; LR5 full/missing-week controls and LR6 counterexample reproduced as above. Exact-file whitespace check passed. Orphan advisory found only CRUISE/PROME work outside CATO. Weekday check found one unrelated current mismatch at `PROME/DOCKET.tsv:547`: MU row says "Tue 9/30" although September 30, 2026 is Wednesday (the row also calls its 9/30 wake Wednesday). Inspected and left for PROME; this does not establish the issuer's actual release date, which was outside this review. No CATO weekday flags. Shared staged CRUISE moves preserved; exact-file CATO commit only.
