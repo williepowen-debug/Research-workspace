@@ -26,6 +26,7 @@
 |---|---|---|
 | **★★ ICE national DQ** | **3.53% AUG, +14bps MoM (ICE: calendar effect, ~flat underlying)**, +10bps YoY; 30+ +81K MoM · Jul 3.39% | 🟡 **inflow — July's improvement did not extend** |
 | **⚠️⚠️ ICE CURE RATE (the band's NATIVE basis)** | **Serious-DQ cure rate −28% YoY (July)** — a 9-month high, still 28% below a year ago. **FHA −39%** (sub-book). Counts: 90+ cures 64,100 (+7% MoM), total 464,000 (+12%) | 🟡 **YELLOW (<−15%) — 2pts short of ORANGE (<−30%)**; RED (<−40%) uncrossed. ⛔ **My 9/14 "fires NOTHING" graded the MoM COUNT — wrong statistic (LESSONS §49)** |
+| **ATTOM AUGUST monthly (pub 9/17, found 9/29)** | **REO +42% YoY (+22% MoM)**; filings +13%, starts +7% YoY — an observation, not the band basis; ATTOM: volumes 'well below historical norms' | 🔴 conversion |
 | **ATTOM H1-2026 (ledger `PIPELINE.tsv`)** | **Filings 227,548 (+21% YoY), starts 164,566 (+18%), REO 27,983 (+33%), timeline 563 days — lowest since 2013** | 🔴 |
 | **★ ICE active FC inventory** | **298K AUG, +41% YoY** (Jul +43%) but **+2K MoM = smallest build since Nov-25**; FC starts 37K, **−5.8% MoM, +29% YoY** (Jul +23%); FC sales 7.8K, 57% of Aug-19 pace | 🔴🔴 conversion / 🟡 **inventory build slowing** |
 | **★★ FHA total DQ (SA)** | **11.79% Q2** (−9bps QoQ, +122bps YoY) | 🔴 **ORANGE, 21bps below RED (>12%)** |
@@ -86,8 +87,8 @@
 |---|---|---|---|
 | FL | **Condo/TH median — ONE FIGURE (CORAL)** | **$298K, +2.8% YoY (Aug, FL Realtors)** — supersedes my July 0.0% cite. My FL condo figures are metro/segment only | 🟡 cuts AGAINST statewide price distress |
 | FL | H1 FC rate *(CORAL-canonical)* | **#1: 0.27% (1-in-373), +32.7% YoY** — ⚠️ rank ≠ level | 🔴 speed / 🟠 level |
-| FL | **METRO — HOMER-owned** | Punta Gorda 0.50% (#1 US metro) · Lakeland 0.48% · Miami-Dade condo 12.0mo, 86 DOM *(Jul; ⚠️ Aug median UNREAD — secondaries +2–6%, my July 'declining' may have turned)* · Tampa $/sqft −5.6% YoY · ★ **NEW: Cape Coral HPI −2.3% YoY (ICE, Aug)** | 🔴🔴 sub-statewide |
-| **TX** | August CRE FC auction pipeline | **>$1.15B across 47 loans** | 🔴🔴 |
+| FL | **METRO — HOMER-owned** | Punta Gorda 0.50% (#1 US metro, H1) · **#2 US metro in AUGUST (1 in 1,249)** · Lakeland 0.48% · Miami-Dade condo 12.0mo, 86 DOM *(Jul; ⚠️ Aug median UNREAD — secondaries +2–6%, my July 'declining' may have turned)* · Tampa $/sqft −5.6% YoY · ★ **NEW: Cape Coral HPI −2.3% YoY (ICE, Aug)** | 🔴🔴 sub-statewide |
+| **TX** | September CRE FC auction pipeline (Texas Triangle) | **$778M, $562M (>70%) MULTIFAMILY** — down from >$1B Aug; 16 repeat flags; S2 Capital ×2, an Arbor loan *(CRE Daily 9/4, secondary)* | 🔴🔴 |
 | FL | Annual band | evaluable once a year (ATTOM year-end) — "no reading" is NORMAL | ✅ |
 
 ### ⚠️ STANDING CAVEATS
