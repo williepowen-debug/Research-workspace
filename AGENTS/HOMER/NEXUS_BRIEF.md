@@ -2,7 +2,7 @@
 
 **Status:** 🔴 PMMS RED (7.03%) holds into Thursday on the inputs; 90+/FC pipeline 872K (ORANGE); the GSE multifamily books SPLIT in August
 **Domain:** U.S. housing asset-market + credit-structure — foreclosure pipeline, multifamily (GSE + CMBS books), mortgage-rate surface, builders, pricing/inventory, sub-statewide FL/TX
-**As of:** 2026-09-29 09:07 ET | STATUS commit: 0f5d28b76
+**As of:** 2026-09-29 09:33 ET (kill-rail fold) | STATUS commit: 74089ab84
 
 > ♻️ **ROTATED 2026-09-24** (PROME read-cap owner notice + DAEDALUS WQ-256 (b)): 109,239 B → under the rule-5 stop. The pre-rotation brief is preserved **byte-for-byte** at `archive/NEXUS_BRIEF_2026-09-24_pre-rotation-VERBATIM.md` (crc 267930108, matching PROME's measurement). **Audited by obligation before the cut:** every owed watch, dated event and kill-on-sight item in the old brief has a live home in `STATUS.md`, `docket/CATALYSTS.tsv`, `CLAUDE.md` or the DO-NOT-CITE table below. **The dead CREED Trepp courier (old :32/:45) is struck** — see WAITING FOR.
 
@@ -70,8 +70,8 @@
 
 ## NEXT DECISION POINT
 
-- **What:** grade the 10/01 PMMS against its pre-registration; build the thesis-level **dated kill rail** (A5, overdue from 9/30 if not done); execute or lapse the Trepp mat-adj kill on the September print.
-- **When:** PMMS Thu Oct 1; Trepp ~Oct 1; kill rail by **Wed Sep 30**.
+- **What:** grade the 10/01 PMMS against its pre-registration; execute or lapse the Trepp mat-adj kill on the September print. ★ **The thesis-level kill rail is BUILT** (`thesis/THESIS.md`, 2026-09-29): cores C1 residential conversion + C2 MF realization, 3 amplifiers; **first grade 0 of 5 legs FIRED ⇒ 🔴 holds**; formal grade **2026-11-20**. Thesis falsified only if BOTH cores are killed.
+- **When:** PMMS Thu Oct 1; Trepp ~Oct 1; rail grade Nov 20.
 - **What would change my view:** PMMS ≤7.00 with the spread flat (a Treasury retrace, not housing relief); Fannie's Q3 provision falling (its August drop would then be credit); ICE October cure rate YoY improving past −15%.
 
 ---
