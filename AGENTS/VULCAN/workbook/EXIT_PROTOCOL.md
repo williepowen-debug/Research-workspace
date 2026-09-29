@@ -1,6 +1,6 @@
 # VULCAN — Exit Protocol & Falsification Rail
 
-**Newest entry: 2026-09-25** (§7 thesis-kill re-evaluation, Will-launched boot after 12 dark days) — **this is the freshness claim; bump it whenever an entry lands** *(DAEDALUS PR#6 / Falsification #3, 2026-09-17: the provenance line below was standing where the freshness claim belongs, so the surface certified itself stale)*.
+**Newest entry: 2026-09-29** (§8 PRE-MU HALF-REWRITE: thesis-kill leg 4 added, S1 safety/demand sub-read, successor flip — Will-directed) — **this is the freshness claim; bump it whenever an entry lands** *(DAEDALUS PR#6 / Falsification #3, 2026-09-17: the provenance line below was standing where the freshness claim belongs, so the surface certified itself stale)*.
 **Kill rail first derived: 2026-08-13** *(provenance, not freshness — first authored — VULCAN carried no kill tree, no EXIT_PROTOCOL and no dated falsification surface across its 16-file inventory from build 2026-07-10 until today. Flagged by DAEDALUS at the 8/7 Production Review as the one genuine F5 gap in the fleet; Market-L3 requires one, blueprint §4 ★. Reference shape: FALCON `workbook/EXIT_PROTOCOL.md` 7/30.)*
 
 **This file holds kill/exit conditions and nothing else.** `STATUS.md` is canonical for scores and live reads; `workbook/PREDICTIONS.tsv` is canonical for registered prediction text. **Where a kill condition is also a registered prediction, this file REFERENCES it by ID and does NOT restate it** — a condition written in two places drifts in one of them.
@@ -21,6 +21,7 @@
 | **1** | **AI-capex re-accelerates** | FY26 aggregate 4-name guide **~$735-760B economic** (VULCAN-01 HIT 7/31), vs 2025's ~$410B | FY27 aggregate guide implies **≥ +40% YoY** off the FY26 base (i.e. **≥ ~$1.03T**), against a consensus that expects decel to ~+25% | **Governed by `VULCAN-10`'s registered text — read it in `PREDICTIONS.tsv`, do not restate here.** Jan-2027 company guides, not analyst estimates | resolves **2027-02-15** | ❌ |
 | **2** | **Concentration unwinds cleanly** | **Mag-7 32.98% of S&P 500 [SPY fund weight, 2026-08-20, issuer-primary]** — ⚠️ *from-state MEASURED 8/21, was an aggregator's ~32.5% until then* | Mag-7 share falls to **≤28%** and holds **3+ consecutive months**, with **no VIX print >30** and **no SPX drawdown >15%** anywhere in that window — "cleanly" means the risk leaves without the repricing | **`tools/mag7.py` → `workbook/MAG7_SERIES.tsv`** — SSGA's daily SPY holdings file (issuer-primary), append-only, content-vintage, fail-loud, validated each run with zero free parameters. ⚠️ **A FUND weight, not an S&P DJI INDEX weight** (the committee publishes no free constituent weights) — quote the basis. ⚠️ **Alphabet has TWO classes in the index (GOOGL + GOOG) and both count; dropping one understates by ~2.4pp.** *(Was aggregator-cited and flagged 'the weakest instrument on the rail' from 7/12 until 2026-08-21 — that gap is now closed.)* VIX/drawdown are **VIOLET's numbers; the owner's value governs** | continuous; re-read every closeout | ❌ |
 | **3** | **Memory stays healthy** | DRAM contract **rising** (3Q26 fcst +13-18% QoQ); spot **rising** (DDR5 **$52.70**, DDR4 **$87.72**, 8/13); MU FQ3 GM **84.6%** | DRAM contract price growth stays **≥ 0% QoQ for 4 consecutive quarters** (3Q26, 4Q26, 1Q27, 2Q27) — i.e. no roll through mid-2027 | TrendForce contract series + MU FQ4/FQ1 prints (SEC-primary) | through **2027-06-30** | ⚠️ **CURRENTLY TRUE** |
+| **4** 🆕 *(ADDED 2026-09-29, before the MU print — see §8)* | **Financing structure de-risks** | ORCL off-BS DC leases not yet commenced **$288B** [10-Q, period end 2026-08-31] · NVDA guarantee book **$108,529M** max gross (`VULCAN-17` baseline) · tenant force majeure **n=1** (Jupiter, 9/24) · AI-infra deals PULLED **0** (SB Energy POSTPONED ≠ pulled) | **ALL THREE, across the next TWO quarterly filings of each issuer:** (a) ORCL's not-yet-commenced DC lease commitments read **≤ $288B** at both its Q2 FY27 and Q3 FY27 10-Qs; (b) NVDA's guarantee book is **reduced through `VULCAN-17`'s BULL branches (i)/(ii)** at one or more readings and **never** through (iii)/(iv). ⚠️ Flat-with-no-successor is `VULCAN-17`'s STRESS signal, not a de-risk, so "stops growing" alone does NOT satisfy (b); (c) **zero** further tenant force-majeure notices and **zero** AI-infra deals PULLED (S5's letter) in the window | `tools/edgar_watch.py` + own reads of the commitments notes (ORCL CIK 0001341439; NVDA per `VULCAN-17`) · S5 band letter for PULLED | resolves **2027-03-31** (after ORCL's Q3 FY27 10-Q, ~mid-March; NVDA's Q3 FY27 10-Q ~11/19 and FY27 10-K ~late Feb are the two NVDA readings) | ❌ |
 
 ### 🔴 THESIS-KILL STATUS 2026-08-21 (re-evaluated at closeout): **1 of 3 legs currently satisfied — UNCHANGED, and re-checked rather than restated.**
 
@@ -198,6 +199,15 @@ The 8/3 S2 upgrade 2 → 3 rested on **two** stated legs. **One of them has fail
 
 **Governed by `VULCAN-12`'s registered text — read it in `PREDICTIONS.tsv`.** Explicit NO-VERDICT band and the GAAP-vs-non-GAAP basis discipline live there.
 
+### 🆕 4b. SUCCESSOR FLIP — PRE-REGISTERED 2026-09-29, effective the moment §4 resolves (grading 2026-10-01)
+**Why it is written before MU prints:** the 7/22 flip expired 7/31 and the rail ran **13 days with no flip at all** (§4 opening line). §4 expires on 10/01. **The successor is the late-October hyperscaler cluster** (MSFT · GOOGL · META · AMZN Q3 prints, dates TBC, registered in `docket/CATALYSTS.tsv` as estimated). **It introduces NO new threshold** — both directions are existing standing rules from `STATUS.md`'s triad:
+
+| Direction | What must be observed across the cluster | Standing rule it applies |
+|---|---|---|
+| **Confirms the fragility read** | the stock FALLS on a capex RAISE in **≥2** cluster prints, OR management cites inference-price / open-weight / ROI pressure, OR **any** name guides capex **CUT YoY** | S1 returns-case sub-read · S1 red trigger |
+| **Falsifies it (for this cluster)** | **≥2** names RAISE and are REWARDED after hours (the 7/31 pattern, §5), with no capex cut anywhere in the cluster | the returns-case sub-read's mirror; the §5 steelman repeating |
+| Neither | mixed or flat | NO-VERDICT, recorded as such |
+
 ---
 
 ## 5. STANDING COUNTER-EVIDENCE — the steelman, kept verbatim
@@ -231,6 +241,7 @@ The 8/3 S2 upgrade 2 → 3 rested on **two** stated legs. **One of them has fail
 - **Re-read this file at every closeout falsification check.** Boot↔closeout symmetry: what you read at boot, you write back.
 - **Thesis-kill leg count: re-evaluate every closeout.** It is `1 of 3` today; a count that never moves is a count nobody is checking.
 - **⚠️ DATED REWRITE TRIGGER** *(per `[[finding_banner_is_a_warning_not_a_fix]]` — a banner without a date is a deferral)*: **rewrite this rail when MU FQ4 prints (🔴 **CONFIRMED 2026-09-30 16:30 ET**, issuer press release 2026-08-26 — ~~*was ~2026-09-22 on my own wrong 52-week derivation; corrected 2026-09-02, see §4*~~), OR when VULCAN-02/-11/-12 resolve (2026-09-30), OR by 2026-11-15 — whichever is FIRST.** 🔴 **THE EARLIEST LEG MOVED A WEEK EARLIER ON 2026-08-27 AND THIS LINE DID NOT FOLLOW IT UNTIL THE PM CLOSEOUT.** The MU re-date was propagated to `CATALYSTS.tsv`, `PREDICTIONS.tsv`, `STATUS.md` and the NEXUS brief the same morning — **and not to the trigger that DEPENDS on it.** ⚠️ **A 'whichever is FIRST' trigger inherits every one of its legs' dates, so re-dating any leg silently re-dates the trigger; nothing announces it** [`finding_dated_carry_item_has_no_expiry_check`]. **This is a FORWARD COMMITMENT, not a from-state — moving it is required, and it is NOT the act the from-state rule forbids.** Three of five channel-kill rows and the entire §4 flip resolve inside that window, so a rail read after it without a rewrite is describing a phase that has passed.
+- 🆕 **2026-09-29: the rewrite was SPLIT, deliberately.** The half that does NOT depend on Micron was done **before** the print (§8): kill conditions are only honest when written before the event that could test them. **The Micron-dependent half — §4, and the S1/S2/S5 channel-kill rows in §2 that resolve inside the window — is still owed on 2026-10-01**, AFTER grading from `workbook/MU_FQ4_RESOLVER.md` and never rewritten before it. PROME's disinflationary-productivity falsifier (open since 8/21) is also still owed then.
 - **If a future reader finds this file asserting a live condition that has already resolved, that is the failure this rail exists to prevent** — and the §3 self-indictment is the model for how to record it.
 
 ---
@@ -280,3 +291,20 @@ Markets have been shut since the Friday 2026-09-11 close and **this session took
 - **Leg 3 — memory stays healthy: TRUE.** TrendForce **raised** its 2027 HBM ASP forecast to +121% YoY (9/29, primary); KOSPI's −2.70% / SK Hynix −5.05% on the 9/28 re-open is a rates/OpenAI thermometer, not a memory-price datum. [KB-179/180]
 - **The structure-leg gap (9/25) got one more instance, and one more strand beside it:** CRWV 5Y CDS ~855bp (LIQUID's ISDA figure) with primary still open [KB-176]; AI issuers 29% of 2026 IG at 20y+ [KB-177]. **New: a DEMAND strand** (OpenAI pause) that the rail also has no leg for — a lab-level workload pause is neither a capex guide nor an index share. **Both go to the 10/01 rewrite.**
 - **Dated rewrite trigger: NOT DUE — 2026-09-30, 1 calendar / 1 trading day out** (boot leg 6). MU prints AFTER that close ⇒ the rewrite is a **2026-10-01** action. Unchanged.
+
+---
+
+## 8. 🆕 PRE-MU HALF-REWRITE — 2026-09-29 (Will-directed, before the 9/30 print)
+
+**What was done, and why each piece is safe to write before the outcome:**
+
+1. **Thesis-kill leg 4 ADDED — financing structure (§1).** 🔴 **The count moves 1 of 3 → 1 of 4 BY ADDITION, not because anything moved. Read it that way.** This answers the 9/25 requirement ("at least one **structure** leg, or say in writing why the thesis cannot be killed on that axis"). The three original legs test SCALE, CONCENTRATION and PRICE. Every piece of stress that arrived from 9/13 to 9/29 was STRUCTURE: leases +$28B, a force-majeure risk transfer, a guaranty counterparty's IPO postponed, and CRWV CDS ~855bp against an open primary. Without leg 4 the thesis could be declared dead at the peak of its obligations.
+   - ⚠️ **Stated against myself: an added AND-leg makes the thesis HARDER to kill, which is the direction to distrust.** The guards: leg 4 has **levels, instruments and a date** (2027-03-31), so it can be met; and it cites `VULCAN-17`'s pre-registered branch classification instead of re-deciding what a smaller guarantee book means.
+2. **The "demand strand" (9/29 §7 entry) is answered as a FIRING route, not a kill leg.** A lab-level safety pause is a way the thesis could come TRUE (compute demand disappoints → deferred contracts → S1/S5), not a way it dies. It is registered as an **S1 sub-read** in `STATUS.md`'s triad, the home of firing state, beside the useful-life and returns-case sub-reads.
+   - **Rule:** a safety pause or safety law reaches a CONTRACT.
+   - **Base rate at registration:** three pauses at two labs — OpenAI July (~2 weeks); Anthropic late-July to August (several weeks, disclosed 9/2); OpenAI 9/25 (open-ended). **ZERO contract, lease or capex changes** [KB-166/178/185].
+   - **Promotion test:** fires on **2 distinct events** ⇒ propose channel **S6** to Will.
+3. **Successor flip pre-registered (§4b)** so the rail is never without a live flip after 10/01.
+
+**Still owed 2026-10-01 (Micron-dependent, NOT touched today):** grade §4 from the resolver sheet; rewrite the §2 channel-kill rows that resolve in the window; retire §4 into history and make §4b live; PROME's disinflationary-productivity falsifier. ⚠️ **This file is 50.9 KB and is re-read in full at every closeout.** The 10/01 pass should move the dated re-evaluation log (most of the bytes) to `archive/`, verbatim, and keep §1–§8 live.
+
