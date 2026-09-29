@@ -41,7 +41,7 @@ State file for the trade-doc staleness-flagger sub-agent. Spec is in [`METSUKE.m
 - CFTC Sep-15: legacy net +120,359 LONG; TFF lev +23,170 / AM +53,845.
 - BOJ OIS 9/24: Dec 68%, cum 2.18 to Apr-27.
 - JGB 10Y touched 3.075% (quote basis) on 9/24. BOJ did not cap, so SAM-33 is un-fired through 9/24.
-- MOF Sep-18: 10Y 2.981 / 30Y 4.044. Brent Nov $107.31 / Dec $100.77. US-JP 10Y gap 2.029pp [Sep-18].
+- MOF Sep-18: 10Y 2.981 / 30Y 4.044. Brent Nov $107.31 / Dec $100.77 (🔧 2026-09-29: post-settle vendor trades — settle basis **106.60 / 100.22**, BRENT 9/25 packet; STATUS corrected). US-JP 10Y gap 2.029pp [Sep-18].
 - THESIS stays v1.7. SAM-33 is the only OPEN row (`boot.py --predictions`: 1 OPEN of 34).
 
 ### Run 22 (September 21, 2026 ET — post-Sep-18-cluster full-sweep; watermark Run 20 for trade docs, Run 21 for own state)
