@@ -1,5 +1,5 @@
 # LABOR STATUS
-**Last Updated:** 2026-09-29 ~15:xx ET *(self-directed, Will present)* · ✅ **JOLTS Aug GRADED same day** (printed 9/29 vs a docketed `~Oct 6`): NET `5,192 − 5,070 = +122K` ⇒ **v4 3 → 2** on its pre-registered band; Jul NET revised −18K → +18K ⇒ **freeze-thaw LEG C MET. Score 29 → 28/75.** 10/2 card amended pre-print. Challenger Aug + FL UR caught up; parked items folded; news sweep (no 10/1 lapse). **READ-CAP TRIM executed 9/29** (see banner).
+**Last Updated:** 2026-09-29 13:50 ET *(self-directed, Will present — CLOSED OUT)* · ✅ **JOLTS Aug GRADED same day** (printed 9/29 vs a docketed `~Oct 6`): NET `5,192 − 5,070 = +122K` ⇒ **v4 3 → 2** on its pre-registered band; Jul NET revised −18K → +18K ⇒ **freeze-thaw LEG C MET. Score 29 → 28/75.** 10/2 card amended pre-print. Challenger Aug + FL UR caught up; parked items folded; news sweep (no 10/1 lapse). **READ-CAP TRIM executed 9/29** (see banner).
 **Status:** 🟠 **LOW-FIRE / LOW-HIRE — the flow side turned (JOLTS NET >0 two months).** Claims 197K / MA 202,250 · CC 1,719K · JOLTS hires 5,192K / 3.3% · layoffs rate 1.0% · NFP Aug +162K · U-3 4.1% on LFPR 61.6%. **Bull-side kill (freeze-thaw v2) is ONE leg from firing: Sep NFP ≥+150K on 10/2.**
 
 > 🔒 **HOT/COLD SPLIT** (2026-09-02): this file is **canonical for every live figure, band, score and open grade**; `STATUS_DETAIL.md` is the cold half — **on demand, NOT a boot read**. 🔒 **TRIMMED 2026-09-29 from 31,125 B:** the pre-trim file is preserved **byte-for-byte** at `STATUS_DETAIL.md` § `status-pretrim-20260929` (blob `d7a0f26`) — every shortened row is there word-for-word; no live figure was dropped. Older rotations: § `hotcold-split-inventory`.
@@ -73,7 +73,7 @@
 | LAB-18 | T-03 fires on ≥1 print Sep–Nov | **15%** | Sep–Nov | Bars Sep ≤58.7 · Oct ≤58.6 · Nov ≤58.8. Defeat: EPOP ≥58.9 through Nov |
 | LAB-19 | LF MoM >0 in ≥2 of 3 remaining 2026 prints | **60%** | Sep–Nov | Mechanism call against my own CORE TENSION; if TRUE, rewrite it |
 
-C2-0 sweep (9/24): zero rows trip. 10/2 card §3f pre-commits post-print values for LAB-18/19.
+C2-0 sweep re-run 2026-09-29: zero rows trip (only LAB-19 is ≥60%, registered 9/4 — under the 60-day leg). No confidence moved. 10/2 card §3f pre-commits post-print values for LAB-18/19.
 
 ---
 
