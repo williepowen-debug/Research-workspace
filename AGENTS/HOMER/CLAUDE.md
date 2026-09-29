@@ -52,7 +52,7 @@ Monitor U.S. housing market stress across the foreclosure pipeline, multifamily 
 - CMBS MF delinquency (Trepp, monthly) — **HOMER primary owner post-promotion**
 - MF maturity wall ⛔ **$160B+ 2026 / $270B+ 2026-27 — RETIRED 2026-09-02, DO NOT CITE EITHER FIGURE** (a sponsor quote mislabelled as Trepp's; CREED `KB-CREED-028`, re-verified by HOMER at MBA 2026-09-02). **Kill-on-sight: "the $160B MF wall is Trepp's."** The **"+50% YoY"** direction is dead too — MBA's 2026 all-CRE total is **$875B, −9% from $957B in 2025.**
   > ✅ **Replacement — a SHARE, not a dollar: 13% of multifamily-backed mortgage balances mature in 2026** [MBA *2025 CRE Survey of Loan Maturity Volumes*, 2026-02-09]. **Not convertible:** MBA publishes property type as PERCENT and lender type as DOLLARS; its only MF-labelled dollar, **$39B (4%) of GSE/FHA/Ginnie multifamily-AND-healthcare**, is a blended agency cut, not the property-type total. **Say which unit you quote.**
-- Rent growth by metro (Apollo/Slok — no live feed since Jan 2026; successor Zillow metro rent, retune Will-gated)
+- **Rent-decline breadth** — % of HOMER's frozen 100 cities with negative YoY rent, Apartment List (HOMER-computed, `tools/rent_breadth.py`); rent levels by metro (Zillow ZORI, context)
 - Rent late rates (NMHC, apartment list)
 - MF cap rate compression/expansion
 
@@ -91,7 +91,7 @@ Monitor U.S. housing market stress across the foreclosure pipeline, multifamily 
 | Fannie MF Serious DQ | >0.50% | >0.65% | >0.80% (GFC peak) | Fannie Mae |
 | Freddie MF Serious DQ | >0.30% | >0.40% | >0.50% | Freddie Mac |
 | 30-Yr Mortgage Rate | >5.5% | >6.5% | >7.0% | Freddie PMMS |
-| ~~National Foreclosures (Qtr)~~ **⛔ DISARMED 2026-08-22 — NOT A TRIGGER** | ~~>50K~~ | ~~>60K~~ | ~~>70K~~ | ATTOM |
+| **National Foreclosure STARTS (Qtr)** — severity ladder only (Will-ruled 2026-09-29) | **>100K** | **>130K** | **>175K** | ATTOM (STARTS basis; Q2/Q4 are DERIVED from H1/annual) |
 | ~~FL Foreclosures YoY~~ **⛔ RETIRED 2026-07-31 — NOT A TRIGGER (replaced by the FL ANNUAL rate + ratio bands below; nothing owed)** | ~~>+75%~~ | ~~>+150%~~ | ~~>+200%~~ | ATTOM |
 | **FL Foreclosure Rate — ANNUAL** (% of FL housing units, ATTOM year-end) | **>0.72%** | **>1.50%** | **>3.00%** | ATTOM |
 | **FL / National rate RATIO** ⚠️ **ANNUAL DATA ONLY** (both legs from one **year-end** report) | **>2.0×** | **>2.5×** | **>2.9×** | ATTOM |
@@ -99,7 +99,7 @@ Monitor U.S. housing market stress across the foreclosure pipeline, multifamily 
 | Cure Rates ⚠️ **comparator `<` — more negative = worse** (YoY **% change** in the cure rate) | **<-15%** | **<-30%** | **<-40%** | **ICE Mortgage Monitor** (native basis; MBA is NOT interchangeable, and ICE First Look's MoM cure COUNT is an observation, not this band) |
 | FHA DQ Rate | >8% | >10% | >12% | MBA |
 | Builder Price Cuts | >25% | >35% | >45% | NAHB |
-| Rent Growth (% Cities Negative) | >20% | >40% | >55% | Apollo/Slok (no feed since Jan-2026; row grades nothing) |
+| Rent-decline breadth (% of 100 cities negative YoY) — Will-ruled 2026-09-29 | >20% | >40% | >55% | **Apartment List, HOMER-computed** (`tools/rent_breadth.py`, frozen roster) |
 | Existing Home Sales (Ann.) | <5.0M | <4.5M | <4.0M | NAR |
 
 > Durable bands only — no live values here (anti-drift, per BLUEPRINTS §3 reconciliation). **Live values + as-of + which band live in `STATUS.md`'s dashboard, sourced and dated.**
@@ -107,17 +107,17 @@ Monitor U.S. housing market stress across the foreclosure pipeline, multifamily 
 > ⚠️ **RUNG CENSUS (2026-08-23, Will-directed; ZERO LEVELS MOVED — a labelling rule, not a retune).** Test every **RUNG**, not every row: ***has this level been crossed by EVERY observation I hold?*** If yes it is a label, not a signal (a whole-band audit passes over it). "Pinned" describes **MY SAMPLE** (≤13 months), not the metric:
 > - **Confidently structural** (metric has left the calibrated regime): 30-Yr Mortgage Yellow `>5.5%` · Existing Home Sales Yellow `<5.0M` and Orange `<4.5M` · FHA DQ Yellow `>8%`.
 > - **Sample-limited — cannot claim:** Fannie MF Yellow `>0.50%` · Freddie MF Yellow `>0.30%` and Orange `>0.40%` · Builder Price Cuts Yellow `>25%` · FHA DQ Orange `>10%`. Resolving these needs a longer series — research, not a ruling.
-> - **Clean:** 90+/FC Pipeline (all three rungs discriminate). FL ANNUAL + FL RATIO are clean but evaluable only **once a year** at the ATTOM year-end report (~January) — "no band reading" is their normal state, not a gap.
+> - **Clean:** 90+/FC Pipeline (all three rungs discriminate). National FC STARTS (re-armed 9/29): no rung pinned — each crossed 0 of 14 recent quarters and 22/16/6 of the 51 non-moratorium quarters since 2012. Rent-decline breadth (re-armed 9/29): Yellow and Orange crossed 13 of the last 13 months (pinned in this window; sample-limited, cannot claim). FL ANNUAL + FL RATIO are clean but evaluable only **once a year** at the ATTOM year-end report (~January) — "no band reading" is their normal state, not a gap.
 >
 > ✅ **REPORTING RULE (binding on every surface, packet and brief): report the highest UNCROSSED rung and the distance to it, not the highest crossed one** — *"Fannie MF 0.60% — 5bps below Orange (>0.65%), Red (>0.80%) untested,"* not *"Fannie MF is YELLOW."* ⛔ **Re-levelling any pinned rung is a RETUNE and is WILL-GATED** (rule the definition, escalate the retune).
 
-> ⛔ **RENT GROWTH (% CITIES NEGATIVE) HAS NO LIVE FEED — UNTIL RULED, THIS ROW GRADES NOTHING.** Last held reading: 56% of top-100 cities negative (Apollo/Slok, Jan-2026; Red is `>55%`). Apollo/Slok was superseded in practice by Zillow rent data (7/31), and Zillow does not publish this statistic. **Do not report it as Red on the January figure, nor its silence as "rents are fine."** A self-applied stale tag is not a refresh.
-> ✅ **Named successor:** % of tracked metros with negative rent YoY, from the Zillow metro rent series I already receive. ⚠️ **Adopting it is a RETUNE and WILL-GATED, not a swap** — Zillow's metro universe is not Apollo/Slok's top-100, so the 20/40/55 levels cannot carry over. **When a band's feed changes, the old levels do not travel with it.**
+> ✅ **RENT-DECLINE BREADTH — RE-ARMED 2026-09-29 (Will's own ruling, on CATO's review `AGENTS/CATO/runs/2026-09-29_1112_homer-band-review.md`). LEVELS UNCHANGED 20/40/55%; SOURCE = Apartment List city rent estimates, which is Apollo/Slok's own source.** ⚠️ **Label it HOMER-computed.** One matched month (Jan-2026, 57 vs Apollo's 56) shows the source; it does NOT prove Apollo's exact city list or method, and the levels are retained by Will's judgment, not calibrated on loss outcomes. **Rules (CATO HR1/HR3), enforced by `tools/rent_breadth.py`:** ① membership = `workbook/RENT_BREADTH_ROSTER.tsv` (100 cities frozen from the Sep-2026 file; a roster change is a re-spec and Will-gated) · ② every refresh records the input file's SHA-256 · ③ a month missing any valid pair is **UNGRADED** (report count/n; never shrink the denominator) · ④ compare integers, `100*neg > level*n`, never floats · ⑤ recalculated history is labelled as such, distinct from contemporaneous readings. **Reading it:** breadth is DESCRIPTIVE. Lower rents pressure landlord income and relieve tenants; breadth alone does not establish household or bank losses. Say whether breadth is widening or narrowing.
+> *(Zillow ZORI metro series is NOT this statistic — Jan-2026 top-100 metros 11% vs Apartment List 56% — and never grades this row.)*
 
 > ⚠️ **CURE RATES COMPARATOR IS `<`** (fixed 2026-08-22 from `>`; zero levels moved — a definition fix). Cure rate is a rate of CHANGE: more negative = worse. **The check for any band is "can it fire on the condition it names?", not "is there a band?"**
 
-> ⛔ **NATIONAL FORECLOSURES (Qtr) IS DISARMED (2026-08-22) — do not evaluate it, cite it as a trigger, or read its silence as "the pipeline is contained."** Disarmed, NOT recalibrated. Uninformative on every basis: FILINGS (Q1-2026 118,727; Q2 115,714) and STARTS (Q1-2026 82,631) sit permanently above Red; REO (Q1 14,020; H1 27,983) can never reach the 50K Yellow.
-> ✅ **Definition ruled: basis = STARTS** — HOMER's own choice, informed by (not inherited from) CARL's CRL-06 ruling of 2026-07-16, which only shares the 70K level. **Any future ladder grades STARTS, and any figure quoted against it must say so.** ⛔ **The LEVELS are a Will-gated retune** needing a sourced ATTOM quarterly-starts distribution spanning crisis → workout → normal. Until then state the foreclosure picture from the H1/quarterly rows in `STATUS.md` (own YoY and conversion figures) — not a band.
+> ✅ **NATIONAL FORECLOSURE STARTS — RE-ARMED 2026-09-29 (Will's own ruling, on CATO's review): >100K / >130K / >175K, basis = ATTOM quarterly STARTS.** Yellow = top of the 2017–19 and 2023–25 normal range · Orange = the 2015 range (Q3-2015 printed 133,811) · Red = the 2013 post-crisis workout (Q3-2013 printed 174,366). Red is a JUDGMENT informed by the workout, not an estimated crisis boundary (175K vs 185K grades all 58 quarters identically). The old 50/60/70K ladder sat inside the 2022–24 post-moratorium trough and read RED through the whole 2017–19 normal. Evidence: `reports/2026-09-29_A4-national-FC-starts-band-RETUNE-research.md`.
+> ⛔ **SEVERITY LADDER ONLY — not early warning.** Report it WITH same-quarter YoY and the monthly conversion/inventory observations (ICE First Look, ATTOM monthly). **"No rung crossed" is never "contained"** — Q2-2026 sat ~18K under Yellow while rising ~15% YoY. Q2 and Q4 starts are never printed by ATTOM: they are DERIVED (H1 − Q1; annual − Q1–Q3) and labelled so. Compare like quarters (NSA). The crisis era (2006–11) is a different basis (default notices only) and never joins this series.
 
 > ⛔ **FL Foreclosures YoY is RETIRED (2026-07-31, PROME audit item 5h) — do not evaluate it, cite it as a trigger, or treat its silence as "FL is fine."** It could not fire for the national leader (FL +32.7% YoY in ATTOM H1-2026 vs Yellow >+75%, while #1 state by rate): a rate-of-change band on a metric that became a level story.
 >
@@ -153,7 +153,7 @@ Monitor U.S. housing market stress across the foreclosure pipeline, multifamily 
 | Source | Frequency | What It Covers |
 |--------|-----------|----------------|
 | MBA National Delinquency Survey | Quarterly | DQ by loan type, foreclosure inventory, state-level |
-| ATTOM Data Solutions | Monthly · quarterly · H1 = OBSERVATION only · **YEAR-END = the only band input** (FL annual rate + ratio bands; the national quarterly band is DISARMED) | Foreclosure filings, starts, completions, REO; state + metro rates. ⚠️ The monthly carries no band but is the fastest REO read — docketed as a recurring row |
+| ATTOM Data Solutions | Monthly · H1 = OBSERVATION only · **QUARTERLY STARTS = the national starts band** (Q2/Q4 DERIVED) · **YEAR-END = the FL annual rate + ratio bands** | Foreclosure filings, starts, completions, REO; state + metro rates. ⚠️ The monthly carries no band but is the fastest REO read — docketed as a recurring row |
 | Builder earnings (8-K Ex 99.1 at SEC EDGAR) | Quarterly per name | GM, incentives/buydowns, orders, cancels, guidance. **One docket row per name** — WALTER's lane does not fetch these |
 | ICE/Black Knight (Intercontinental Exchange) | Monthly | DQ flows, roll rates, cure rates, prepayment |
 | Fannie Mae MF DQ | Monthly | Multifamily serious delinquency (GSE book) |
@@ -165,7 +165,7 @@ Monitor U.S. housing market stress across the foreclosure pipeline, multifamily 
 | Census New Home Sales | Monthly | New construction sales, supply |
 | NAHB/Wells Fargo HMI | Monthly | Builder confidence, traffic, expectations |
 | S&P Case-Shiller / FHFA HPI | Monthly (2mo lag) | Home price indices |
-| Apollo/Slok | ⛔ No live feed since Jan 2026 | Rent growth, institutional housing data — successor Zillow metro rent, retune Will-gated |
+| Apartment List | Monthly (~end of month) | City rent estimates — the Rent-decline breadth band's input (HOMER-computed; Apollo/Slok's published chart, last Jan-2026, is not a feed) |
 | Realtor.com / Redfin | Weekly/Monthly | Listing prices, supply, seller/buyer gap, DOM |
 | ~~Google Trends~~ | ⛔ RETIRED at CARL 2026-09-01 | "help with mortgage," "foreclosure," search demand |
 
@@ -273,5 +273,5 @@ The SV-to-CARL channel (`state_vectors/SV-HOMER-*.md`, harvested at CARL's `SPAW
 
 **Predictions (CARL `thesis/PREDICTIONS.tsv`, parent-retained per ★ ruling):**
 - CRL-03: Fannie MF DQ >0.80% (Q2 2026) — **RESOLVED MISSED 2026-07-02.** Fannie MF May 0.58% = 2nd consecutive month <0.65%; gap to 0.80% GFC peak widened to 22bps. Mechanism note survives (Trepp CMBS MF diverges — different book). V3 4→3.
-- CRL-06: Foreclosures >70K/qtr (78%, Q2 2026) — ✅ **RESOLVED CONFIRMED at CARL 2026-07-16** on HOMER's data package; **metric RULED = foreclosure STARTS** (Q1 82,631). KB-HOMER-005. Informs (does not set) the STARTS basis under the disarmed National Foreclosures band. HOMER remains data owner.
+- CRL-06: Foreclosures >70K/qtr (78%, Q2 2026) — ✅ **RESOLVED CONFIRMED at CARL 2026-07-16** on HOMER's data package; **metric RULED = foreclosure STARTS** (Q1 82,631). KB-HOMER-005. Informs (does not set) the STARTS basis under the National Foreclosure STARTS band (re-armed 2026-09-29 at 100K/130K/175K; CRL-06's 70K is a different instrument). HOMER remains data owner.
 - CRL-23: FY27 builder GM compression (DHI Q1 FY27 ≤17.5% OR PHM Q1 FY27 ≤22.0% AND tariff ≥10% sustained) — **OPEN at CARL**, resolution Jan/Apr 2027 (DHI Q1 FY27 / PHM Q1 FY27 prints). HOMER is data owner (builder-earnings feed).

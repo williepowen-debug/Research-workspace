@@ -27,7 +27,7 @@
 | **3** | **Case-Shiller July** (due 9/29, NOT READ: S&P 403) + **FMHPI Aug** (9/30) | Nominal vs ICE's 3-month cooling |
 | **4** | **Trepp September DQ (~10/01)** | Third month of absent MF mat-adj ⇒ execute the kill (successor = MF special servicing) or grade it |
 | **5** | Miami-Dade Aug condo median (MIAMI REALTORS PDF) | My July "declining median" is stale; secondaries point up |
-| 6 | A2–A4 (rider ratification; two retunes, LEVELS Will-gated) | ~37 days deferred |
+| 6 | ✅ A2 encoded · ✅ A3/A4 RULED by Will 9/29 PM and installed · A5-3c build 10/09 | CARL ack asked by 10/05 |
 
 ## ⚠️ OPEN / UNSETTLED
 1. **HOM-02:** ICE August inflow ticked up (calendar) while FC starts +29% YoY. Q3 NDS (~mid-Nov) decides.

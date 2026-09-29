@@ -28,6 +28,7 @@
 | **⚠️⚠️ ICE CURE RATE (the band's NATIVE basis)** | **Serious-DQ cure rate −28% YoY (July)** — a 9-month high, still 28% below a year ago. **FHA −39%** (sub-book). Counts: 90+ cures 64,100 (+7% MoM), total 464,000 (+12%) | 🟡 **YELLOW (<−15%) — 2pts short of ORANGE (<−30%)**; RED (<−40%) uncrossed. ⛔ **My 9/14 "fires NOTHING" graded the MoM COUNT — wrong statistic (LESSONS §49)** |
 | **ATTOM AUGUST monthly (pub 9/17, found 9/29)** | **REO +42% YoY (+22% MoM)**; filings +13%, starts +7% YoY — an observation, not the band basis; ATTOM: volumes 'well below historical norms' | 🔴 conversion |
 | **ATTOM H1-2026 (ledger `PIPELINE.tsv`)** | **Filings 227,548 (+21% YoY), starts 164,566 (+18%), REO 27,983 (+33%), timeline 563 days — lowest since 2013** | 🔴 |
+| **★ National FC STARTS band** *(re-armed 9/29, Will)* | **Q2-2026 81,935 (DERIVED: H1 − Q1)**, ~+15% YoY · Q1 82,631 | ⚪ **no rung crossed — Yellow (>100K) 18K away**; Orange >130K, Red >175K. ⛔ **Severity ladder only: below Yellow ≠ contained** |
 | **★ ICE active FC inventory** | **298K AUG, +41% YoY** (Jul +43%) but **+2K MoM = smallest build since Nov-25**; FC starts 37K, **−5.8% MoM, +29% YoY** (Jul +23%); FC sales 7.8K, 57% of Aug-19 pace | 🔴🔴 conversion / 🟡 **inventory build slowing** |
 | **★★ FHA total DQ (SA)** | **11.79% Q2** (−9bps QoQ, +122bps YoY) | 🔴 **ORANGE, 21bps below RED (>12%)** |
 | **★★ 90+/FC pipeline (ICE basis)** | **872K AUGUST** (574K 90+ + 298K FC; HOMER sum) — Jul 859K · Jun 862K | 🔴🔴 **22K past ORANGE (>850K); RED (>1M) 128K away** |
@@ -44,6 +45,7 @@
 | **★★ GSE BOOKS** | **AUGUST: DIVERGED — Freddie 0.64 ↑ vs Fannie 0.57 ↓, 7bps apart, Freddie now ABOVE.** July (revised) 2bps apart | 🟠 **the 9/24 'both rising' read held for July only.** One month; not a trend |
 | **Fannie MF credit provision** | **$259M Q2 vs $174M Q1 (+49% QoQ)** | 🔴 **this PAIRING held the Q2 signal; the DQ level did not** |
 | **Realized MF marks + rent (ledger `MULTIFAMILY.tsv`)** | **BANC $827.0M to HFS, 95.8% MF** · **Arbor REO (~$545M) > delinquencies (~$525M)** · **S2 Capital $400M fund $0-to-LPs** · rent $1,962 (+2.3% YoY), concessions 39.8% | 🔴🔴 **REALIZED marks, not ratios** |
+| **★★ Rent-decline breadth** *(re-armed 9/29, Will; HOMER-computed from Apartment List)* | **46 of 100 cities negative YoY, SEPT** — Aug 52 · Apr 60 (peak). RED crossed 7 of last 13 months (recalculated history) | 🟠 **ORANGE — RED (>55%) needs 10 more cities.** Breadth NARROWING: restored measurement, not fresh deterioration |
 | **★★ CMBS MF DQ (Trepp)** | **7.69% AUGUST, flat — ISSUER PRIMARY** (TreppTalk 9/1). Oct-25 7.12 · **Feb 6.85** · Mar 7.15 · Apr 7.71 · May 6.95 · Jun 7.23 · Jul 7.69 · Aug 7.69 | 🔴🔴 **a LEVEL, not a trend — this series cures.** ⛔ **my "Feb 7.12" was Oct-2025; corrected** |
 | **★ CMBS MF special servicing** | **8.37% AUGUST (−2bps all-vintage; the −3 is the 2.0+ table)** · Jul 8.39 · Jun 8.23 · May 8.51 · **Apr 9.08 (peak held)** · Feb 8.30 · Aug-25 8.61 *(CREED back-fill, Trepp PDFs)* | 🟠 ~68bps above MF DQ |
 | Trepp **maturity-adjusted** MF | June 9.53%, none since. **CREED 9/26: the Jul + Aug PDFs print mat-adj for the OVERALL book only (Aug 9.81%) — ABSENT for MF at source** | ⛔ §C — **the September print (~10/01) is the 3rd month; the kill executes if absent** |
@@ -102,7 +104,7 @@
 |---|---|---|
 | **A1** | GSE MF band | ✅ **RULED 9/17 — WQ-248 C** (Will: *"248 - C is fine"*): letter frozen, grade each print against it; an ungraded leg above the top rung is CORRECT until I have a basis for a rung (mine to write) |
 | **A5 leg 1** | ✅ **BUILT 2026-09-29 — `thesis/THESIS.md`** (thesis + kill rail; first grade **0 of 5 legs FIRED ⇒ 🔴 holds**; formal grade **2026-11-20**). **Registered by PROME as `GATE-HOMER-THESIS-KILL`** (GATES.tsv, JUDGEMENT class, review_by 11/20; PROME message 2026-09-29). 3c convergence handle still open | ✅ |
-| **A2–A5** | **All four DATED 2026-09-29** (were "next spawn" for 37 days). **A2** rider ✅ ENCODED (option A, no-verdict precursor; KB-HOMER-032) · **A3/A4** research DONE, levels + basis in `PROME/inbox/2026-09-29_from-HOMER_A3-A4-band-retunes-proposed-levels-for-one-WQ.md` — **A4 proposed 100K/130K/175K on STARTS (Q2 81,935, ~18K under Yellow); A3 feed FOUND (Apartment List, Apollo's own source): 46% Sep = Orange on UNCHANGED levels** — ⛔ **NOT installed, Will-gated, check ruling 10/06** · **A5-3c** link packeted to CARL (ack by 10/05), build by **10/09** | ⏳ A3/A4 with Will · A5-3c 10/09 |
+| **A2–A5** | ✅ **A2** rider ENCODED (KB-HOMER-032) · ✅ **A3 + A4 RULED BY WILL 2026-09-29 and INSTALLED** — rent: Apartment List, 20/40/55 (`tools/rent_breadth.py`, frozen roster); FC STARTS: 100K/130K/175K, severity ladder. CATO review f139c5db7 · **A5-3c** link packeted to CARL (ack by 10/05), build by **10/09** | ⏳ A5-3c only |
 | **A6** | Cure Rates band | ✅ **CLOSED 2026-09-24 — graded on its NATIVE basis (YoY cure rate, ICE Mortgage Monitor): YELLOW.** Feed = the Mortgage Monitor (docket row); the First Look MoM count is an OBSERVATION, not the band |
 | **A7–A11** | 5 sample-limited rungs (research) · FL Orange >1.50% the one bracketed level · MBA NDS primary 403-gated site-wide | open |
 
@@ -111,7 +113,7 @@
 
 ### C. Instruments that GRADE NOTHING — do not read silence as calm
 - ⛔ **Trepp maturity-adjusted MF** — no value since June; trepp.com reachable 9/24 ⇒ **re-test at issuer next session before the dated kill executes**
-- ⛔ **7 standing dead/ungraded instruments** (National Foreclosures DISARMED — retune proposed 9/29 · FL YoY RETIRED · **Rent growth: grades nothing until ruled — its source is found (Apartment List), latest rebuild 46% Sep-2026, NOT a band reading until Will rules**) + 2 annual-only FL bands + 3 measurement breaks → `OBLIGATIONS_OTHERS.md` §C-STANDING
+- ⛔ **5 standing dead/ungraded instruments** (FL YoY RETIRED · measurement breaks …; National FC STARTS and Rent breadth were RE-ARMED 9/29 and left this list) + 2 annual-only FL bands + 3 measurement breaks → `OBLIGATIONS_OTHERS.md` §C-STANDING
 - ⛔ **Google Trends** — RETIRED at CARL 9/1; **9/10 captures UNDATED / NOT GRADEABLE** (Will, WQ-225); my 9/14 "bounded ~9/06" WITHDRAWN
 - ⛔ **Morgan Stanley 7.1%** — unresolved perimeter; closing it needs the MS report
 

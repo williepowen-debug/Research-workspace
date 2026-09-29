@@ -223,3 +223,39 @@ The SV-to-CARL channel (`state_vectors/SV-HOMER-*.md`, harvested at CARL's `SPAW
 <!-- original line 297 -->
 - CRL-23: FY27 builder GM compression (DHI Q1 FY27 ≤17.5% OR PHM Q1 FY27 ≤22.0% AND tariff ≥10% sustained) — **OPEN at CARL**, resolution ~6-9mo out (Jan/Apr 2027). HOMER is data owner (builder-earnings feed).
 
+
+## Charter lines replaced 2026-09-29 PM by Will's ruling (rent band re-armed on Apartment List 20/40/55; National Foreclosure STARTS re-armed 100K/130K/175K) — verbatim, line numbers of the 36,976 B charter (d66ba9ce1)
+
+<!-- line 55 -->
+- Rent growth by metro (Apollo/Slok — no live feed since Jan 2026; successor Zillow metro rent, retune Will-gated)
+
+<!-- line 94 -->
+| ~~National Foreclosures (Qtr)~~ **⛔ DISARMED 2026-08-22 — NOT A TRIGGER** | ~~>50K~~ | ~~>60K~~ | ~~>70K~~ | ATTOM |
+
+<!-- line 102 -->
+| Rent Growth (% Cities Negative) | >20% | >40% | >55% | Apollo/Slok (no feed since Jan-2026; row grades nothing) |
+
+<!-- line 114 -->
+> ⛔ **RENT GROWTH (% CITIES NEGATIVE) HAS NO LIVE FEED — UNTIL RULED, THIS ROW GRADES NOTHING.** Last held reading: 56% of top-100 cities negative (Apollo/Slok, Jan-2026; Red is `>55%`). Apollo/Slok was superseded in practice by Zillow rent data (7/31), and Zillow does not publish this statistic. **Do not report it as Red on the January figure, nor its silence as "rents are fine."** A self-applied stale tag is not a refresh.
+
+<!-- line 115 -->
+> ✅ **Named successor:** % of tracked metros with negative rent YoY, from the Zillow metro rent series I already receive. ⚠️ **Adopting it is a RETUNE and WILL-GATED, not a swap** — Zillow's metro universe is not Apollo/Slok's top-100, so the 20/40/55 levels cannot carry over. **When a band's feed changes, the old levels do not travel with it.**
+
+<!-- line 119 -->
+> ⛔ **NATIONAL FORECLOSURES (Qtr) IS DISARMED (2026-08-22) — do not evaluate it, cite it as a trigger, or read its silence as "the pipeline is contained."** Disarmed, NOT recalibrated. Uninformative on every basis: FILINGS (Q1-2026 118,727; Q2 115,714) and STARTS (Q1-2026 82,631) sit permanently above Red; REO (Q1 14,020; H1 27,983) can never reach the 50K Yellow.
+
+<!-- line 120 -->
+> ✅ **Definition ruled: basis = STARTS** — HOMER's own choice, informed by (not inherited from) CARL's CRL-06 ruling of 2026-07-16, which only shares the 70K level. **Any future ladder grades STARTS, and any figure quoted against it must say so.** ⛔ **The LEVELS are a Will-gated retune** needing a sourced ATTOM quarterly-starts distribution spanning crisis → workout → normal. Until then state the foreclosure picture from the H1/quarterly rows in `STATUS.md` (own YoY and conversion figures) — not a band.
+
+<!-- line 168 -->
+| Apollo/Slok | ⛔ No live feed since Jan 2026 | Rent growth, institutional housing data — successor Zillow metro rent, retune Will-gated |
+
+<!-- line 276 -->
+- CRL-06: Foreclosures >70K/qtr (78%, Q2 2026) — ✅ **RESOLVED CONFIRMED at CARL 2026-07-16** on HOMER's data package; **metric RULED = foreclosure STARTS** (Q1 82,631). KB-HOMER-005. Informs (does not set) the STARTS basis under the disarmed National Foreclosures band. HOMER remains data owner.
+
+<!-- ATTOM sources row, pre-ruling -->
+| ATTOM Data Solutions | Monthly · quarterly · H1 = OBSERVATION only · **YEAR-END = the only band input** (FL annual rate + ratio bands; the national quarterly band is DISARMED) | Foreclosure filings, starts, completions, REO; state + metro rates. ⚠️ The monthly carries no band but is the fastest REO read — docketed as a recurring row |
+
+<!-- rung census Clean line, pre-ruling -->
+> - **Clean:** 90+/FC Pipeline (all three rungs discriminate). FL ANNUAL + FL RATIO are clean but evaluable only **once a year** at the ATTOM year-end report (~January) — "no band reading" is their normal state, not a gap.
+

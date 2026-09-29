@@ -24,9 +24,9 @@
 
 | Instrument | State | ⛔ What its silence does NOT mean |
 |---|---|---|
-| **National Foreclosures (Qtr)** | **DISARMED 2026-08-22.** Filings pinned ~1.65× above Red; starts also pinned; REO can never reach Yellow. Basis **ruled = STARTS**; **LEVELS are a retune and Will-gated** (A4) | ⛔ *"the pipeline is contained"* |
+| ~~National Foreclosures (Qtr)~~ | ✅ **RE-ARMED 2026-09-29 by Will** at >100K/>130K/>175K on STARTS (severity ladder only) — **no longer grades nothing; left this table.** Live reading in `STATUS.md` | ⛔ below Yellow is still never *"the pipeline is contained"* |
 | **FL Foreclosures YoY** | **RETIRED 2026-07-31.** A band that could not fire for the #1 state in the nation | ⛔ *"FL is fine"* |
-| **Rent growth (% cities negative)** | ⛔ **NO FEED, and the last reading was ABOVE RED** — 56% of top-100 cities negative, **Apollo/Slok JANUARY 2026**, against a Red of >55%. Successor named (% of Zillow metros negative YoY) but **adopting it is a RETUNE and is Will-gated** — a different denominator has a different distribution (A3) | ⛔ **neither "Red" nor "rents are fine."** Do not report the January figure as a live band reading |
+| ~~Rent growth (% cities negative)~~ | ✅ **RE-ARMED 2026-09-29 by Will** on Apartment List (HOMER-computed), levels unchanged 20/40/55 — **left this table.** Live reading in `STATUS.md` (Sep-2026 46/100, ORANGE) | — |
 | **FL ANNUAL rate + FL/national RATIO** | ✅ Calibrated, but **evaluable ONCE A YEAR** at the ATTOM year-end (~January), **annual basis only** — a monthly/quarterly/H1 ratio is an OBSERVATION wearing the band's units | ✅ **"no band reading" is their NORMAL state, not a gap** |
 | **Ginnie Mae APM 26-06** | **MEASUREMENT BREAK** from Mar-2026 reporting: headline Ginnie **issuer** DQ ratios UNDERSTATE stress | not a catalyst |
 | **NY Fed HHDC VantageScore 4.0** | **MEASUREMENT BREAK** at 2026:Q1 (measurement side) — any score-stratified series across the 2025Q4→2026Q1 seam measures two instruments, direction unsigned | not a catalyst |
