@@ -27,6 +27,9 @@ STATUS **32,433 → 22,138 B (68%)** and PREDICTIONS_MONITOR **30,259 → 10,553
 ### Closeout checks
 9 STATUS sanity: <200 lines · Δ/Last-upd consistent (held rows keep 09-02 / 09-17) · docket pruned (09-18→09-29 consumed) · threshold table BREACHED → PROXIMATE → NOT CONFIRMING · every new path cited exists (analysis page, cold files) · **9b from the change:** M-08/M-06 conf moves are not STATE; **L2 CLOSED is** — carried on PREDICTIONS_MONITOR (row + header) and STATUS chain link; C-35/C-36 pointer annotations only (P1 provisional) — no CONFIRMED row changed state · **9c closing re-scan run at commit** (see git log in the commit body) · 10: no past-trigger row moved mid-session (9/30 resolvers are tomorrow) · 11–13 done · 14 below.
 
+### Wake rows (registered by PROME on Will's word, 17:16 ET) — read at every boot
+**DOCKET L554 = recurring TUESDAY wake (WQ-343 APPROVED), first fire Tue 2026-10-06; re-dated +7d in place at each RESOLVED.** **DOCKET L553 = PRED-50 first grade (~10/9)**, its own row. ROSTER token stays ON-DEMAND; the wake runs on the WQ-184 driver. C2 rider recorded on WQ-342 Notes.
+
 ### ⚠️ NOT done and owed
 - **9/30 resolvers (PRED-45 · 43 · 24 · 37) + 10/1 PRED-48 — grade at the first boot ≥10/1**; PRED-45 needs a BROCK/DEWEY First Brands Ch.7 read (BROCK brief stale — raw STATUS).
 - **FORUM-7 FINAL (Thu 10/1 ~16:15) → §7 NEXUS-row CONCUR-or-disagree packet to HENRY (cc PROME) by the 10/2 boot.**
