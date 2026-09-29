@@ -83,13 +83,24 @@ SPINE = [
 
 
 def parse_spine(text):
-    """{series_id: (obs_date | None, reason)} from the series' LIVE row only.
+    """{series_id: (obs_date | None, reason)} from the series' LIVE row only —
+    a row INSIDE the single `## KEY THRESHOLDS` section.
 
     None + reason when the row is missing, duplicated, carries no obs token, or
     carries more than one distinct obs date — every one of those is CANNOT-VERIFY,
     never a pass. Dates elsewhere in the file are ignored by construction."""
     out = {}
-    lines = text.split("\n")
+    all_lines = text.split("\n")
+    # LIVE TABLE FIRST (2026-09-29, 2nd reviewer pass): a row anchor alone still matched a
+    # live-shaped row relocated under a historical heading. The live rows are the ones
+    # inside the ONE `## KEY THRESHOLDS` section, bounded by the next `#`/`##` heading.
+    heads = [i for i, l in enumerate(all_lines) if re.match(r"^##\s+KEY THRESHOLDS\b", l)]
+    if len(heads) != 1:
+        why = "no `## KEY THRESHOLDS` section" if not heads else f"{len(heads)} `## KEY THRESHOLDS` sections — ambiguous"
+        return {sid: (None, why) for sid, _, _ in SPINE}
+    start = heads[0] + 1
+    end = next((i for i in range(start, len(all_lines)) if re.match(r"^#{1,2}\s", all_lines[i])), len(all_lines))
+    lines = all_lines[start:end]
     for sid, _label, row_rx in SPINE:
         rows = [l for l in lines if re.search(row_rx, l)]
         if not rows:

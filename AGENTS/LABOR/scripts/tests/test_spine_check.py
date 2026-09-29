@@ -28,8 +28,13 @@ ROW_JO = "| JOLTS hires (gross) | **5,192K** [Aug P · obs {d} · BLS] | b | s |
 ROW_FL = "| FL UR | **4.5%** [Aug P · obs {d}] | b | s |"
 
 
-def doc(jolts="2026-08-01", fl="2026-08-01", extra=()):
-    return "\n".join([ROW_IC, ROW_CC, ROW_JO.format(d=jolts), ROW_FL.format(d=fl), *extra])
+HEAD = "## KEY THRESHOLDS (durable home)"
+NEXT = "## FED TRAP & THESIS"
+
+
+def doc(jolts="2026-08-01", fl="2026-08-01", extra=(), rows=None):
+    body = rows if rows is not None else [ROW_IC, ROW_CC, ROW_JO.format(d=jolts), ROW_FL.format(d=fl)]
+    return "\n".join([HEAD, *body, NEXT, *extra])
 
 
 FRED = {"ICSA": "2026-09-19", "CCSA": "2026-09-12", "JTSHIL": "2026-08-01", "FLUR": "2026-08-01"}
@@ -62,9 +67,24 @@ check("R2 JOLTS ahead of FRED", v(doc(jolts="2026-09-01"), "JTSHIL"), "AHEAD")
 # Ordinary stale
 check("plain stale JOLTS", v(doc(jolts="2026-07-01"), "JTSHIL"), "STALE")
 # Parser edges — every one must be CANNOT-VERIFY
-check("live row missing", v("\n".join([ROW_IC, ROW_CC, ROW_FL.format(d="2026-08-01")]), "JTSHIL"),
+check("live row missing", v(doc(rows=[ROW_IC, ROW_CC, ROW_FL.format(d="2026-08-01")]), "JTSHIL"),
       "CANNOT-VERIFY")
-check("duplicate live row", v(doc(extra=[ROW_JO.format(d="2026-08-01")]), "JTSHIL"), "CANNOT-VERIFY")
+check("duplicate live row",
+      v(doc(rows=[ROW_IC, ROW_CC, ROW_JO.format(d="2026-08-01"), ROW_JO.format(d="2026-08-01"),
+                  ROW_FL.format(d="2026-08-01")]), "JTSHIL"), "CANNOT-VERIFY")
+# 2nd reviewer pass: a live-shaped row RELOCATED under a historical heading is not live
+check("R3 JOLTS row moved under an ARCHIVE heading",
+      v(doc(rows=[ROW_IC, ROW_CC, ROW_FL.format(d="2026-08-01")],
+            extra=["## ARCHIVE — graded 2026-09-01", ROW_JO.format(d="2026-08-01")]), "JTSHIL"),
+      "CANNOT-VERIFY")
+check("R3 FL row moved under an ARCHIVE heading",
+      v(doc(rows=[ROW_IC, ROW_CC, ROW_JO.format(d="2026-08-01")],
+            extra=["## ARCHIVE", ROW_FL.format(d="2026-08-01")]), "FLUR"), "CANNOT-VERIFY")
+check("R3 stale live row + fresh copy under ARCHIVE stays STALE",
+      v(doc(jolts="2026-07-01", extra=["## ARCHIVE", ROW_JO.format(d="2026-08-01")]), "JTSHIL"), "STALE")
+check("no KEY THRESHOLDS heading", v(doc().replace(HEAD, "## THRESHOLDS"), "JTSHIL"), "CANNOT-VERIFY")
+check("two KEY THRESHOLDS headings", v(doc(extra=[HEAD, ROW_JO.format(d="2026-08-01")]), "JTSHIL"),
+      "CANNOT-VERIFY")
 check("live row without obs token",
       v(doc().replace("[Aug P · obs 2026-08-01 · BLS]", "[Aug P · BLS]"), "JTSHIL"), "CANNOT-VERIFY")
 check("live row with two different obs dates",

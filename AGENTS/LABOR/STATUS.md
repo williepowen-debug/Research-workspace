@@ -99,7 +99,7 @@ C2-0 sweep (9/24): zero rows trip. 10/2 card §3f pre-commits post-print values 
 | ✅ **Tue 9/29** | **JOLTS Aug** (undocketed; 2nd modeled-date miss) | v4 3 → 2 · LEG C met · score 28/75 · KB-LAB-193 |
 | 🔴 **Thu 10/1 08:30** | Claims w/e Sep 26 + CC w/e Sep 19 — **LAB-03 resolves** | Card `docket/GRADING_CARD_20261001_claims.md`. `(X − 207,000)/4`; T-01 bound `X > 398,000`; counters 2 of 4 on the revised-vintage run |
 | 🔴 **Fri 10/2 08:30** | **NFP Sep + household** (+ READ_CAP re-trigger) | Card `docket/GRADING_CARD_20261002_NFP.md` + Amendment 1: **v2 on LEG A alone (+150K)** · LEG B ≥59.0 recorded · **T-03 + T-04 at ≤58.7** · v8 leg 2 · 12-cell U-3 × LFPR · revision watch. No lapse (CR to 12/11). Consensus ~+90K `[2ND]` |
-| 🔴 **Thu 10/1 07:30** | **Challenger Sep report** | Card `docket/GRADING_CARD_20261001_Challenger.md` (frozen 9/29, late vs C2a): v2 re-spike counter · T-09 · v5 demote 2×2 cross-product. Primary PDF only, text-extracted |
+| 🔴 **Thu 10/1 05:30** | **Challenger Sep report** | Card `docket/GRADING_CARD_20261001_Challenger.md` (frozen 9/29, late vs C2a; **Amendment 1: exact-ratio grading, 5:30 EDT**): v2 re-spike counter · T-09 · v5 demote 2×2 cross-product. Primary PDF only, text-extracted |
 | 📅 Oct 8 · Oct 30 · ~Nov 3 · Dec 11 | Canada tariff exporter re-check · **ECI Q3** (card ~Oct 23) · JOLTS Sep (`~`, re-verify by Oct 20) · **CR expiry — a lapse halts BLS and weekly claims** | CATALYSTS rows carry the letters |
 
 ---
@@ -112,7 +112,7 @@ C2-0 sweep (9/24): zero rows trip. 10/2 card §3f pre-commits post-print values 
 4. ✅ **`LESSONS.md` rotated 9/29 (rotation 5): 32,285 → 22,125 B**; L-27/L-28/L-29 demoted with every rule retained, verbatim archive. The modeled-date miss was folded into **L-26 as n=2** (not a new lesson) and mechanized: `spine_check.py` now gates JOLTS + FL UR; JOLTS Sep and Challenger Sep are CATALYSTS rows.
 5. 🔧 **Owed, not urgent:** KELYA post-mortem question (`TRADE.md` §2, open since 8/21) · build debt BD-32/33/34/35/36 + BD-23/26/31 (register: `BUILD_DEBT.md`) · base-rate the CORRECTIVE (L-25/L-32).
 6. 🔒 **Reader guard (L-33 / L-24):** the DOL/BLS wall flips with request shape (re-probed 9/29 11:19: bare curl → DOL PDF; `research-bot` UA → BLS HTML; browser UA → 384 B Akamai stub). Save the binary, confirm it with `file`, **text-extract it, check the release-date line, grep each figure in the extracted text** — never quote or grade from a fetch-tool summary. BLS API for JOLTS/LAUS.
-7. 🔧 **Spine gate hardened 9/29 (reviewer-found false passes):** reads only each series' live KEY THRESHOLDS row; AHEAD-of-FRED fails; regression suite `scripts/tests/test_spine_check.py` 12/12. **Keep exactly one `obs` token on each live row** (claims, CC, JOLTS hires, FL UR) or the gate reports CANNOT-VERIFY.
+7. 🔧 **Spine gate hardened 9/29 (reviewer-found false passes):** reads only rows INSIDE the single `## KEY THRESHOLDS` section; AHEAD-of-FRED fails; regression suite `scripts/tests/test_spine_check.py` 17/17 (two reviewer passes). **Keep exactly one `obs` token on each live row** (claims, CC, JOLTS hires, FL UR) or the gate reports CANNOT-VERIFY.
 
 ## BOTTOM LINE
 
