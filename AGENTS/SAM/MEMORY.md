@@ -47,6 +47,9 @@ News catch-up, Will-directed. **No thesis change: v1.7 stands, book FLAT, nothin
 
 - **Sub-agent trio (Will: "run SAM sub-agents") — all Opus, parallel, every finding verified at source before applying.** METSUKE Run 24: 2 TRADE.md fixes + Run-21 backlog items 2/3/5/6 (spec no longer names 4 CLOSED predictions as OPEN). KOYOMI Run 23: METI crude-by-source is **Sep-30**, not Oct-2 (re-confirmed at a 2nd source); 14 forward rows added; SAM REMOVED its own CFTC/MOF-weekly rows (scope rulings). KURA Run 17: KB-253..256 were 7-field (SAM's 9/18 hand-add); Run-15 P1–P6 applied after 21 days; KB-259 promoted; **KB-051: KURA was right and SAM's 9/11 NOT-APPLIED note was wrong**; both 8/20 splices repaired; watermark SET 9/29. PROME doorbell answered: CH-009 readings + "levels unchanged" line on STATUS.
 
+- **Afternoon (Will-directed):** deep dive on the US endorsement vs an October hike → `research/outputs/2026-09-29_catchup/US_ENDORSEMENT_AND_OCT_HIKE.md`. **SAM-42 registered** on Will's "Approve WQ-336", relayed by PROME and **verified at `PROME/WILL_QUEUE.md` `4b7013204` BEFORE installing** (the first sidecar hash used the wrong JSON separators; re-stamped with `boot_context.row_hash`). Asked PROME for a SAM WAKE DOCKET row on Oct-1 + dropping the broken phrase now. Built closeout check I (ledger schema).
+- ⚠️ **Two self-inflicted defects today, both caught by instruments, not by me:** an unquoted heredoc blanked a backticked filename in the SAM-42 draft, and my own Oct-03 docket row carried different names in its two files (the similarity-margin test caught it). Quote heredocs; write each docket row once and copy it.
+
 ### NEXT SESSION
 
 **TIER 0 — nothing overdue.** SAM-33 sole OPEN row.
