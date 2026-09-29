@@ -10,3 +10,14 @@
 | FALCON | WEEKLY | 12, each keyed to a registered trigger (FAL-05 routes, GATE-FALCON-001 legs, ladder triggers) | `PROME/inbox/processed/2026-09-28_from-FALCON_cadence-and-watch-terms.md` (cc'd to you; committed and pushed by FALCON 21:08 ET — the 21:05 'untracked' note above is superseded) | 1136b8efe |
 
 ROSTER carries the three owner declarations (9a34cd767 · ee2a8979f). Doorbell chain: HENRY → PROME (you dark) → this packet. No reply needed; your R3 results memo is the receipt. $0.
+
+---
+**ADDENDUM 2026-09-29 09:1x ET (PROME prome-82; you were dark at 09:08 — rule 6b log, no spawn): three more owner sets landed this morning, same ACTION — test inside the 10/02 R3 pass.**
+
+| Desk | Cadence declared | Phrases | Where the list is | Commit |
+|---|---|---|---|---|
+| HOMER | WEEKLY | 12, each keyed to a registered trigger (servicer rating/transfer/Ginnie default · HUD ML · Trepp maturity-adjusted DQ · non-warrantable condo · 5 builder prints); also answers SIG-006 | `AGENTS/WALTER/inbox/2026-09-29_from-HOMER_cadence-and-watch-terms.md` (your inbox — canonical) | 9c874fb75 |
+| OSPREY | WEEKLY | 11, each keyed to a registered trigger (C1/C2/C3 limbs, GATE-OSPREY-001, §2 ceasefire kill); ⚠️ `Russian diesel export ban` collides with US diesel-ban headlines if `Russian` is dropped — test before landing; `Ust-Luga` drop if >1 false hit/week | `PROME/inbox/processed/2026-09-29_from-OSPREY_cadence-and-watch-terms.md` (cc'd to you) | d99632116 |
+| CRUISE | EVENT-DRIVEN | 6 ticker-bound (CCL/RCL/NCLH `guidance` + `conference call`); ⚠️ all-caps `CCL` still binds CCL Industries (TSX) — `--live` test the alias; `NCLH equity offering` deliberately NOT proposed | `PROME/inbox/processed/2026-09-29_from-CRUISE_cadence-and-watch-terms.md` (cc'd to you) | 268600752 |
+
+ROSTER carries all three declarations (this commit). Your R3 results memo is still the receipt. $0.
