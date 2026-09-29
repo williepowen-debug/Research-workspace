@@ -4,6 +4,14 @@ Version history for `thesis/THESIS.md`. Newest first. Bump rules: **major (X.0)*
 
 ---
 
+## v1.2.10 — 2026-09-29 (**header, regime banner and POSITION VIEW reconciled to the record — Will-directed; no thesis content changed**)
+
+**Old view → new view (the FILE, not the thesis):** the regime banner read **"CONTESTED (~50%), NOT CONFIRMED"** — the 8/10 forum state — from 8/18 until today, **28 days after the 9/1 TWO-PART ruling that this changelog recorded as v1.2.0.** Status read "🟡 WATCH, escalating … the August refunding cleared … 29 consecutive"; Conviction read "the add-gates are pre-registered and **none has fired**"; POSITION VIEW read "no pre-registered add-gate has fired, and the nearest (DFII10 >2.5) is single-digit bp away" plus "29 consecutive sessions". On the record: gate (a) fired 9/10 (sustain MET under WQ-246, 9/26); the auction re-arm fired at the 9/23 5Y; the add was DECLINED (WQ-280, 9/24); the 29 was retracted 8/15. **Now:** banner = C-36 TWO-PART (ruled 9/1) with the per-window discriminator and the 9/22→9/29 long-end/real-led read (ACM TP share 0.89; `BND-30` grades 9/29); Status = 🟠 ELEVATED, "expensive, not broken" UNDER TEST (9/23 fire; mechanism leg 10/1, WQ-291); Conviction = HOLD no add **because the add was declined, not because no gate fired**; POSITION VIEW rewritten; matrix row 4's "LABEL CONTESTED" pointer relabelled. HYG row: the 300 marker FIRED 9/28 as an analytical re-arm; capital behind X1.
+
+**Why minor, not major:** nothing about the standing argument, the channels, the kill or the position changed — the file caught up with rulings already made. **Why it is logged at all:** this is the second time this document lagged a regime ruling (8/10→8/18 = 8 days; 9/1→9/29 = 28 days), and the second lag is the longer one *despite* the first being written up as a lesson at the top of the file. Caught by PROME's cold read 13:2x ET, fixed on Will's instruction 16:1x ET. `MEMORY.md` bullet n+2. Pre-edit file verbatim: `thesis/archive/2026-09-29_THESIS_v1.2.9_pre-header-reconcile_snapshot.md` (crc32 `3226775222`).
+
+**Not changed:** the kill's letter (WQ-157 ① + WQ-291 dealer leg), every exit criterion, the position, the prediction scoreboard (OPEN `BND-30`/`BND-31`).
+
 ### v1.2.9 dated note — 2026-09-28 15:22 ET (wording correction, no version bump)
 
 **HYG puts / HY 300:** the position-rationale line said HY reclaiming 300 with velocity would "reopen" HYG puts. **Corrected:** that re-arms BOND's *analytical* watch (matrix row 4) only. The capital/sizing question sits behind LIQUID's X1 gate, CLOSED 2026-08-28 (BROCK `KB-BRK-219`), and reopens only via BROCK's 10/02 re-adjudication sitting, then TERRY + Will. No conviction change, no threshold moved, no position, `$0`. `KB-BND-348`.

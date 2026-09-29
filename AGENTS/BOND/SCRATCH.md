@@ -15,7 +15,7 @@
 
 ## CLOSEOUT — 9/29 ~15:5x ET (Will's session)
 - closeout_check rc0 after fixing the 10/6 row's 'TBA' clause · kb_lint rc0 · claim_check clean · orphan [not yours] only · read_cap BOND rc0 · STATUS 73.7% of budget · VX-BND-05 refreshed (FLOW unchanged: no channel change today) · RECEIPT.md overwritten · MEMORY n+1 (NEXUS_BRIEF lag) · 13 path-scoped commits · **safe-push at closeout (receipt in the final message; if it aborted, the note is here instead)**.
-- **THESIS header/POSITION VIEW/regime banner fixes STILL OWED** (PROME 13:2x) — first quiet session; TRADE.md is done.
+- ✅ **THESIS header/banner/Status/Conviction/POSITION VIEW reconciled 16:1x ET on Will's instruction → v1.2.10** (CHANGELOG entry; snapshot `thesis/archive/2026-09-29_THESIS_v1.2.9_pre-header-reconcile_snapshot.md`; MEMORY n+2). PROME's 13:2x list is now fully closed (TRADE.md done earlier).
 
 ## WHAT I DID — 9/29 13:0x→13:11 ET PROME follow-up (pre-registration) + PROME drift advice
 - **`BND-30` (70%) TP-not-path on the ACM 9/29 cell (share ≥0.50; VOID if ΔACMY10 <2bp; ceiling 10/9) · `BND-31` (65%) Tokyo 9/30 JGB 30Y <+4.0bp = no export (MOF primary; ceiling 10/2 12:00; grade at the 10/1 boot).** Base rates computed and written in the rows (ACM: P(share≥.5|ΔY≥2) 62%/2023, 51%/2026; JGB conditional P(≥+4)=31%, n=67). 9/21→9/25 ACM share = 0.89. Growth-miss base rate = SEARCH-NOT-FOUND (not built). Page §6 = human twin; STATUS scoreboard OPEN 0→2.
