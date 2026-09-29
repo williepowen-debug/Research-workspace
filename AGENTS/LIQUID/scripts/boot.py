@@ -191,15 +191,16 @@ def build_credit():
         # The ladder's >300 / >320 rungs (absent here, CATO) are rendered as LEVEL labels only —
         # "sustained" is a count this label does not make. No state is restated: the 7/30
         # attribution and the arbiter answer were dated reads printed on EVERY boot; they now
-        # live at their surfaces (KILL_MEMO §B/§D, GATES), and this line points there.
+        # live at their surfaces (KILL_MEMO header + §D), and this line points there. The letter is
+        # '>280 SUSTAINED' with no session count, so a label TAGS and never says MET (reader rd 2).
         # Compare at 0.1bp: FRED publishes 0.01 pct, so rounding removes any float residue.
         b1 = round(bps, 1)
-        X1_TAIL = "X1 half ONLY, never 'X1 MET' (conjunctive with BROCK's wrapper-leads half; state → KILL_MEMO §B/§D + GATES; RED-FT-01 ≥280 is RED's count)"
-        if   b1 > 320: m, n = "🔴", f"HY >320 CONFIRMATION LEVEL (KILL_MEMO ladder; the 'sustained' count is separate) — also >280 X1 level leg: {X1_TAIL}"
-        elif b1 > 300: m, n = "🔴", f"HY >300 — approaching the 320 confirmation ({320 - bps:.0f}bp); >280 X1 level leg MET: {X1_TAIL}"
-        elif b1 > 280: m, n = "🔴", f"HY >280 X1 LEVEL LEG MET (strict >) — {X1_TAIL}"
-        elif b1 == 280: m, n = "🔴", "HY AT 280.0 — red zone (config ≥280) and RED-FT-01 counts it (≥280), but the X1 level leg is NOT met (letter is strict >280)"
-        elif bps >= 265: m, n = "🟡", f"X1 APPROACH (265-280 band) — {280 - bps:.0f}bps to the 280 master trigger"
+        X1_TAIL = "X1 half ONLY, never 'X1 MET' (conjunctive with BROCK's wrapper-leads half; live state → KILL_MEMO header + §D; RED-FT-01 ≥280 is RED's count)"
+        if   b1 > 320: m, n = "🔴", f"HY >320 — CONFIRMATION rung TAGGED (letter: >320 SUSTAINED, counted on KILL_MEMO, not here); X1 level leg also tagged: {X1_TAIL}"
+        elif b1 > 300: m, n = "🔴", f"HY >300 — approaching the 320 confirmation ({320 - bps:.0f}bp); X1 level leg TAGGED (letter: >280 SUSTAINED): {X1_TAIL}"
+        elif b1 > 280: m, n = "🔴", f"HY >280 (strict) — X1 level leg TAGGED, not met: the letter is >280 SUSTAINED, counted on KILL_MEMO, not by this label — {X1_TAIL}"
+        elif b1 == 280: m, n = "🔴", "HY AT 280.0 — red zone (config ≥280) and RED-FT-01 counts it (≥280), but it never counts toward the X1 level leg (letter is strict >280 sustained)"
+        elif bps >= 265: m, n = "🟡", f"X1 APPROACH (265-280 band) — {280 - bps:.0f}bps to the 280 line (X1 level leg = >280 sustained)"
         elif bps < 260:
             # ---- CORRECTED 2026-09-02, BLIND COLD READ FINDING B7. NO THRESHOLD INVENTED OR MOVED. ----
             # This branch printed "BEAR-AXIS KILL (<260 x2 closes)" off a SINGLE sub-260 print.

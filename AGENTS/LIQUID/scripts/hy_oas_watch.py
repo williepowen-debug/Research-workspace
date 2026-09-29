@@ -3,7 +3,8 @@
 LIQUID HY OAS watcher — unattended credit-trigger guard (P1b, 2026-06-26).
 
 Pulls HY OAS live from FRED and classifies it against the SHARED config.py bands
-(SENTRY-retuned 2026-06-26: green <265 / yellow 265-280 / red >280; kill_below 260).
+(SENTRY-retuned 2026-06-26: green <265 / yellow 265-280 / red ≥280 per config.classify; kill_below 260).
+NB the X1 LETTER is ">280 SUSTAINED" (KILL_MEMO) — the red ZONE is not the X1 level leg.
 Fires a LOCAL file alert on a zone ESCALATION (severity increase into 🟡/🔴) and on
 the two-way bear-axis KILL (<260 on two consecutive closes). File-only surface — no
 Telegram, no network push. Source of truth = config.py (imported, not copied), so a
@@ -130,8 +131,8 @@ def decide(bps, obs_date, prev, hy_def, classify, recent=None, late_kill=None):
                      f"<{kill_below} on two consecutive published closes, the second dated {late_kill}; this box "
                      f"holds no record of alerting it (missed run, vintage-fetch failure, or lost state — may be a "
                      f"DUPLICATE of an alert another box sent). It is the SAME single terminal event dated {late_kill}, "
-                     f"never a second kill. KILL_MEMO tape-vs-substance guard APPLIES; escalate to BROCK/PROME, do NOT "
-                     f"retire the thesis.")
+                     f"never a second kill. KILL_MEMO tape-vs-substance guard APPLIES (live arbiter state: KILL_MEMO "
+                     f"§D, not restated here); escalate to BROCK/PROME, do NOT retire the thesis.")
     elif kill_met_on:
         # TERMINAL: the level condition was already met once; a recovery + a second sub-260 pair
         # must NOT re-fire (KILL_MEMO_HY_OAS_260.md §4, PROME-confirmed 2026-09-03). A successor
@@ -141,15 +142,18 @@ def decide(bps, obs_date, prev, hy_def, classify, recent=None, late_kill=None):
         kill_met_on = obs_date
         # ⚠️ The LEVEL is met — that is NOT the same as the thesis being killed.
         # KILL_MEMO's tape-vs-substance guard blocks an auto-kill on a tape-only
-        # compression, and as of 2026-08-23 its arbiter (BROCK's wrapper-leads half)
-        # is CONTESTED => GUARD-HELD-PENDING-ARBITER. An unattended alert that says
-        # "INVALIDATION" would contradict the guarded ladder it is watching, so it
-        # reports the LEVEL and names the guard instead of pre-empting it.
+        # compression. An unattended alert that says "INVALIDATION" would contradict
+        # the guarded ladder it is watching, so it reports the LEVEL and names the guard.
+        # ⛔ 2026-09-29 (L493 ①): this text used to RESTATE the arbiter's state ("contested
+        # as of 2026-08-23") — stale from 8/28, relayed onto the BOARD 9/25. An unattended
+        # script must state the RULE and POINT at the live state surface (KILL_MEMO §D),
+        # never restate a dated adjudication: every restatement goes stale at the next one.
         fired.append(f"🚨 KILL-LEVEL MET (NOT a kill) — HY OAS {bps:.0f}bps < {kill_below} on {sub260} "
                      f"consecutive closes (as-of {obs_date}). This is the LEVEL condition only. "
                      f"KILL_MEMO tape-vs-substance guard APPLIES: a tape-only compression while private-credit "
-                     f"substance worsens is NOT an invalidation. Arbiter contested as of 2026-08-23 "
-                     f"=> record GUARD-HELD-PENDING-ARBITER, escalate to BROCK/PROME, and do NOT retire the thesis.")
+                     f"substance worsens is NOT an invalidation. Live arbiter state: KILL_MEMO §D (not restated "
+                     f"here). If the arbiter is dark or under adjudication, record GUARD-HELD-PENDING-ARBITER. "
+                     f"Escalate to BROCK/PROME and do NOT retire the thesis.")
 
     state = {"zone": zone, "bps": round(bps), "sev": sev, "marker": mk,
              "sub260": sub260, "obs_date": obs_date, "checked": _ts(),
@@ -177,7 +181,7 @@ def selftest():
         print("  ✗ HY OAS series not found in config.py")
         return 1
     print(f"  ✓ config bands: green<{hy['yellow'][0]} / yellow {hy['yellow'][0]}-{hy['red'][0]} / "
-          f"red>{hy['red'][0]} · kill_below {hy.get('kill_below', 260)}")
+          f"red≥{hy['red'][0]} · kill_below {hy.get('kill_below', 260)}  (X1 letter: >280 sustained — not the zone)")
 
     ok = True
 
@@ -252,6 +256,33 @@ def selftest():
     r10 = decide(255, "2026-08-04", r9["state"], hy, classify, [("2026-08-04", 255), ("2026-08-03", 256)])
     check("after the late alert, a new sub-260 pair → NO re-fire (terminal)", K(r10), False)
 
+    # L493 ① (2026-09-29): emitted text restates NO dated arbiter state; each side carries its own note.
+    STALE = ("CONTESTED", "contested", "2026-08-23", "NOT ARMED", "ADJUDICATED", "X1 CLOSED")
+    esc = decide(281, "2026-04-01", {"zone": "yellow", "sev": 1, "obs_date": "2026-03-31"}, hy, classify)["fired"]
+    kil = r2["fired"]
+    late = [l for l in r9["fired"] if "LATE" in l]   # r9 also escalates green→yellow at 270 — isolate the LATE line
+    bodies = {"escalation": _packet_body(esc, 281, "2026-04-01")[3],
+              "kill": _packet_body(kil, 258, "2026-02-03")[3],
+              "late-kill": _packet_body(late, 270, "2026-07-08")[3],
+              "mixed": _packet_body(r9["fired"], 270, "2026-07-08")[3]}   # r9 = green→yellow escalation + LATE kill
+    alert_lines = esc + kil + late
+    check("AC1 no stale arbiter state in any alert line",
+          [s for s in STALE for l in alert_lines if s in l], [])
+    check("AC1 no stale arbiter state in any packet body",
+          sorted({(k, s) for k, b in bodies.items() for s in STALE if s in b}), [])
+    # reader round 1 (2026-09-29): the old kill marker matched "KILL_MEMO §D" from the kill ALERT line, so the
+    # escalation-only check could not see a leaked kill NOTE. Key each marker on its own note's text.
+    has = lambda b: ("Kill-level fire" in b and "KILL_MEMO_HY_OAS_260.md` §D" in b, "strict `>280` SUSTAINED" in b)
+    check("AC2 escalation packet: widen note only", has(bodies["escalation"]), (False, True))
+    check("AC2 kill packet: kill note only", has(bodies["kill"]), (True, False))
+    check("AC2 late-kill packet: kill note only", has(bodies["late-kill"]), (True, False))
+    check("AC2 mixed packet (escalation + LATE kill, the reachable pair): both notes", has(bodies["mixed"]), (True, True))
+    import re as _re   # reader round 2 (M7c): a reworded "a single >280 print MEETS the leg" passed every marker
+    check("AC2 widening note never says the X1 leg is MET/MEETS", _re.findall(r"\bMEETS?\b|\bMET\b", WIDEN_SIDE_NOTE), [])
+    check("AC2 GUARD-HELD appears only as the conditional rule",
+          all("If the arbiter is dark" in l or "GUARD-HELD" not in l for l in alert_lines)
+          and "the rule is to record" in bodies["kill"], True)
+
     print(f"\n  SELFTEST: {'PASS' if ok else 'FAIL'}")
     return 0 if ok else 1
 
@@ -274,6 +305,45 @@ PROME_INBOX = WORKSPACE / "PROME" / "inbox"      # repo ROOT, not AGENTS/PROME/
 SIGNALS = WORKSPACE / "AGENTS" / "SIGNALS.md"
 
 
+KILL_SIDE_NOTE = ("⚠️ **Kill-level fire: the LEVEL is not the kill.** KILL_MEMO's tape-vs-substance guard (§A) "
+                  "applies. The live arbiter state is at `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` §D and is "
+                  "deliberately NOT restated here, because a dated state written into an unattended script goes stale "
+                  "(L493 ①). If the arbiter is dark or under adjudication, the rule is to record "
+                  "`GUARD-HELD-PENDING-ARBITER`, never \"guard cleared\".")
+WIDEN_SIDE_NOTE = ("⚠️ **Zone escalation: a LEVEL print, not a trigger.** The zone band is `config.py`'s (red = ≥280). "
+                   "**X1's level leg is strict `>280` SUSTAINED** (KILL_MEMO letter): exactly 280 is red-zone but never "
+                   "counts, and a single >280 print only TAGS the leg — 'sustained' is counted on the KILL_MEMO surface, "
+                   "not by this script. X1 is conjunctive with BROCK's wrapper-leads half, and sizing is Will's. The live "
+                   "X1 and arbiter state is in the KILL_MEMO header block and §D, not restated here. "
+                   "Do not size off this packet.")
+
+
+def _packet_body(fresh, bps, obs_date):
+    """PURE: the PROME packet text for a list of fresh alert lines. Each side carries ONLY its own
+    side's note (L493 ① AC2); a mixed fire carries both. No dated arbiter state is ever restated."""
+    is_kill = any("KILL-LEVEL" in l for l in fresh)
+    is_esc = any("ESCALATION" in l for l in fresh)
+    pri = "🔴" if is_kill else "🟠"
+    kind = "kill-level-met" if is_kill else "zone-escalation"
+    body = [f"## {obs_date} — To: PROME (unattended watcher, no human in the loop)",
+            f"**Signal:** HY OAS {bps:.0f}bps — {kind.replace('-', ' ')}",
+            f"**Priority:** {pri}", "",
+            "**Generated by `AGENTS/LIQUID/scripts/hy_oas_watch.py` on a systemd timer — "
+            "LIQUID was NOT in session when this fired.** Nobody has judged it.", ""]
+    body += [f"- {l}" for l in fresh]
+    body += ["", "**What PROME should do:** surface it. Do NOT trade or retire a thesis off this — "
+             "it is a mechanical level read with no analyst attached."]
+    if is_kill:
+        body += ["", KILL_SIDE_NOTE]
+    if is_esc:
+        body += ["", WIDEN_SIDE_NOTE]
+    body += ["", f"**Basis:** FRED `{HY_ID}`, end-of-day, T+1 — `{obs_date}` is the OBSERVATION date, "
+             f"not the wall-clock date this fired.", "",
+             "*This packet is written to disk by an unattended process and is NOT committed by it. "
+             "If you are reading it, it survived to a session — commit it.*"]
+    return pri, kind, is_kill, "\n".join(body) + "\n"
+
+
 def _deliver(fired, bps, obs_date, state, prev):
     """Route a fire off this box's local log. Idempotent per (kind, obs_date) so a
     persisting condition does not re-file a packet every single day. Never raises:
@@ -283,28 +353,11 @@ def _deliver(fired, bps, obs_date, state, prev):
     if not fresh:
         state["delivered"] = sorted(delivered)
         return
-    is_kill = any("KILL-LEVEL" in l for l in fresh)
-    pri = "🔴" if is_kill else "🟠"
-    kind = "kill-level-met" if is_kill else "zone-escalation"
+    pri, kind, is_kill, text = _packet_body(fresh, bps, obs_date)
     try:
         PROME_INBOX.mkdir(parents=True, exist_ok=True)
         pkt = PROME_INBOX / f"{obs_date}_from-LIQUID_UNATTENDED-hy-oas-{kind}-{bps:.0f}bps.md"
-        body = [f"## {obs_date} — To: PROME (unattended watcher, no human in the loop)",
-                f"**Signal:** HY OAS {bps:.0f}bps — {kind.replace('-', ' ')}",
-                f"**Priority:** {pri}", "",
-                "**Generated by `AGENTS/LIQUID/scripts/hy_oas_watch.py` on a systemd timer — "
-                "LIQUID was NOT in session when this fired.** Nobody has judged it.", ""]
-        body += [f"- {l}" for l in fresh]
-        body += ["", "**What PROME should do:** surface it. Do NOT trade or retire a thesis off this — "
-                 "it is a mechanical level read with no analyst attached.",
-                 "", "⚠️ **On a kill-level fire specifically: the LEVEL is not the kill.** KILL_MEMO's "
-                 "tape-vs-substance guard applies and its arbiter was CONTESTED as of 2026-08-23, so the "
-                 "correct state is `GUARD-HELD-PENDING-ARBITER`, not an invalidated thesis.",
-                 "", f"**Basis:** FRED `{HY_ID}`, end-of-day, T+1 — `{obs_date}` is the OBSERVATION date, "
-                 f"not the wall-clock date this fired.", "",
-                 "*This packet is written to disk by an unattended process and is NOT committed by it. "
-                 "If you are reading it, it survived to a session — commit it.*"]
-        pkt.write_text("\n".join(body) + "\n", encoding="utf-8")
+        pkt.write_text(text, encoding="utf-8")
         _log(RLOG, f"{_ts()}  DELIVERED packet -> {pkt.relative_to(WORKSPACE)}")
     except Exception as e:
         _log(RLOG, f"{_ts()}  DELIVER-FAIL packet — {type(e).__name__}: {e}")

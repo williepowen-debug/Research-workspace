@@ -28,3 +28,18 @@
 
 ## Reader verdict
 *(filled after the independent reader; nothing below this line is written before the reader returns)*
+
+**Independent reader (Opus, fresh context, no repo edits, mutation tests on copies outside the repo). Full ledger kept in the session scratchpad; summary here.**
+
+| Round | Verdict | What it found |
+|---|---|---|
+| 1 | **NOT VERIFIED** | AC3 FAIL: the "escalation packet: widen note only" check could not fail on its named defect. Its kill marker matched `KILL_MEMO §D` from the kill ALERT line, not the kill NOTE, so a leaked kill note (M4) stayed green. **Substantive:** the widening note dropped **"sustained"**, since the letter is `>280 SUSTAINED`, so a single 281 print read as meeting the leg. The same defect was in the L493 ② boot labels (`a781f1e98`). The acceptance record's own wording left it out too, so **the ACs were narrower than the rule.** Also: the pointer to `GATES.tsv` went nowhere (no X1 row there); the mixed test used an unreachable input (an ordinary kill is <260, so it cannot escalate); the docstring and selftest header said `red >280` while config is `≥280`. |
+| 2 | **VERIFIED** | All fixed. 25/25, then 26/26 with the M7c check added after round 2. M1–M9 all go red; the 18 original checks are unchanged. boot labels checked at 279 / 280.0 / 280.00000001 / 281 / 300 / 301 / 320 / 321: **no label says MET off one print.** Round-2 notes closed: M7c (a reworded "a single >280 print MEETS the leg" passed) now has a regex check, and a stale boot comment and the yellow label were fixed. |
+
+**Owner self-check:** the new test first went red on MY fixture, not the code (r9 also escalates green→yellow at 270). It was fixed by isolating the LATE line, then re-fixed to the reachable pair on the reader's note.
+
+**Owed, out of scope (pre-existing, not introduced here):** ① the SIGNALS.md row truncates at 240 chars, which cuts the kill line mid-word and drops "do NOT retire the thesis" · ② a mixed fire's SIGNALS row carries the escalation text while going 🔴 to ALL · ③ the late-kill packet headline puts today's level next to "kill level met" · ④ AC1 is a banned-word list, so a novel rewording of a state claim can pass (named limit; the M7c class is closed only for MET/MEETS) · ⑤ `config.py`'s `"X1 >280 master"` note is FORGE's, flagged to PROME.
+
+**⚠️ LETTER DEFECT FOUND (routed to the L494 sitting, not fixed here):** KILL_MEMO's X1 level leg is `>280 sustained` and **names no session count.** Practice has counted 3 consecutive (7/27–7/29), but the letter never says so. No tool may invent it.
+
+**L493 ① status: DONE and VERIFIED 2026-09-29.**
