@@ -4,6 +4,8 @@
 
 ## Resume point
 
+**September 29 CATO workflow debrief delivered.** [Assessment](runs/2026-09-26_1215_cato-direction-and-productivity.md#september-29--liquid-session-workflow-debrief-recommendations-only): recommend narrower follow-ups, grouped failure-class checks, shorter continuity/current assessments and brief advice for ordinary updates. Existing charter already covers most; no instruction changes or implementation approval. Orient and await Will.
+
 **September 29 LIQUID advice delivered; code review stays closed.** [STATUS proposal](runs/2026-09-29_0853_liquid-direction-review.md#september-29--will-requested-status-improvement-proposal): recommend A with per-source observation dates, frozen quarter-end baseline, meaningful before/after cold review; defer B's generic age/newest-date/OWED-DONE heuristics. Advice only, no approval inferred or owner edits. [Market assessment](runs/2026-09-29_0853_liquid-direction-review.md#september-29--new-hy-publication-and-next-observations): HY302 confirmed; X1 proposed count unadopted; Sept30 SOFR publishes Oct1. LR7 basis-label correction recommended: HY-only revision evidence does not certify all tiers/new date; permitted latest-revised fallback suffices, no new study. Prior LR1–LR6 closure and deferred display residue preserved. No sends, new approvals or remaining CATO assignment. Orient and await Will.
 
 **September 28 evening session remains closed.** PROME reported verifying published DBPR/position corrections and preserving source acceptance; hosted checks are owner-reported. ER2/ER3 and disclosed controls remain with their owners. [Final closeout](runs/2026-09-28_2212_evening-commit-review.md#final-session-closeout); do not restart automatically.
