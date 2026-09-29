@@ -22,7 +22,7 @@
 | 7 | UI exhaustion / CC grind | **3** 🟠 | flat | CC <1,750K ×4 → drop to 2: **count 2 of 4** (9/24, revised-vintage run). 4th week = 10/8 earliest |
 | 8 | BLS data degradation | **2** 🟡 | flat | Restore-to-3 counter **1 of 2** (Jun+Jul net rev +55,000); **leg 2 = 10/2** (net Jul+Aug rev ≥0) |
 | 10 | Healthcare | **1** ⚪ | flat | Aug **+13K** (12-mo avg +32K) — decelerating, no band for that. Net-negative aggregate → T-08, restore 4 |
-| 11 | ICE worksite → layoffs | **1** ⚪ | ↓1 | Floor. → 2 only on a raid-linked WARN/layoff filing or negative TX/FL construction |
+| 11 | ICE worksite → layoffs | **1** ⚪ | ↓1 | Floor. → 2 only on a raid-linked WARN/layoff filing or negative TX/FL construction. **9/29: SW-Kansas packer raid (slaughter −16% one day, `[2ND]`) is absence, not a filing — holds 1; KS WARN check 10/13** (KB-LAB-198) |
 | 12 | Public-sector employment | **1** ⚪ | flat | Federal Aug **−5K** (ex-USPS −3.3K) vs ≤−25K T-13 bar — no fire; BD-17: payroll line alone never moves it |
 | 13 | Claims / shadow gap | **2** 🟡 | flat | <200K ×4 → drop to 1: **count 2 of 4** (margins `2,000`/`3,000`; +3,000 rev to w/e 9/19 resets). >250K sustained → T-01. State breadth 9/51 up YoY (diagnostic) |
 | 14 | Staffing canaries | **1** ⚪ | ↓1 | Floor. Re-arm on a guide-down from RHI/KFRC/MAN + TEMPHELPS −20K ×2 → 3, T-12 to PROME |
@@ -100,7 +100,7 @@ C2-0 sweep re-run 2026-09-29: zero rows trip (only LAB-19 is ≥60%, registered 
 | 🔴 **Thu 10/1 08:30** | Claims w/e Sep 26 + CC w/e Sep 19 — **LAB-03 resolves** | Card `docket/GRADING_CARD_20261001_claims.md`. `(X − 207,000)/4`; T-01 bound `X > 398,000`; counters 2 of 4 on the revised-vintage run |
 | 🔴 **Fri 10/2 08:30** | **NFP Sep + household** (+ READ_CAP re-trigger) | Card `docket/GRADING_CARD_20261002_NFP.md` + Amendment 1: **v2 on LEG A alone (+150K)** · LEG B ≥59.0 recorded · **T-03 + T-04 at ≤58.7** · v8 leg 2 · 12-cell U-3 × LFPR · revision watch. No lapse (CR to 12/11). Consensus ~+90K `[2ND]` |
 | 🔴 **Thu 10/1 05:30** | **Challenger Sep report** | Card `docket/GRADING_CARD_20261001_Challenger.md` (frozen 9/29, late vs C2a; **Amendment 1: exact-ratio grading, 5:30 EDT**): v2 re-spike counter · T-09 · v5 demote 2×2 cross-product. Primary PDF only, text-extracted |
-| 📅 Oct 8 · Oct 30 · ~Nov 3 · Dec 11 | Canada tariff exporter re-check · **ECI Q3** (card ~Oct 23) · JOLTS Sep (`~`, re-verify by Oct 20) · **CR expiry — a lapse halts BLS and weekly claims** | CATALYSTS rows carry the letters |
+| 📅 Oct 8 · Oct 13 · Oct 30 · ~Nov 3 · Dec 11 | Canada tariff exporter re-check · **KS WARN check (v11, SW-KS packers)** · **ECI Q3** (card ~Oct 23) · JOLTS Sep (`~`, re-verify by Oct 20) · **CR expiry — a lapse halts BLS and weekly claims** | CATALYSTS rows carry the letters |
 
 ---
 
@@ -113,6 +113,7 @@ C2-0 sweep re-run 2026-09-29: zero rows trip (only LAB-19 is ≥60%, registered 
 5. 🔧 **Owed, not urgent:** KELYA post-mortem question (`TRADE.md` §2, open since 8/21) · build debt BD-32/33/34/35/36 + BD-23/26/31 (register: `BUILD_DEBT.md`) · base-rate the CORRECTIVE (L-25/L-32).
 6. 🔒 **Reader guard (L-33 / L-24):** the DOL/BLS wall flips with request shape (re-probed 9/29 11:19: bare curl → DOL PDF; `research-bot` UA → BLS HTML; browser UA → 384 B Akamai stub). Save the binary, confirm it with `file`, **text-extract it, check the release-date line, grep each figure in the extracted text** — never quote or grade from a fetch-tool summary. BLS API for JOLTS/LAUS.
 7. 🔧 **Spine gate hardened 9/29 (reviewer-found false passes):** reads only rows INSIDE the single `## KEY THRESHOLDS` section; AHEAD-of-FRED fails; regression suite `scripts/tests/test_spine_check.py` 19/19 (three reviewer passes; JOLTS matched on its exact gross-hires label). **Keep exactly one `obs` token on each live row** (claims, CC, JOLTS hires, FL UR) or the gate reports CANNOT-VERIFY.
+8. 🅿️ **PARKED 2026-09-29, fold-by next C2:** v11's re-escalation letter names only TX/FL *construction*; the first live raid case (WALTER SIG-W-20260929-002) is KS *meatpacking*. Whether to widen the letter is a C2 decision made on the letter's merits — **not** re-scoped on this event (L-18/L-27: no bands improvised after the evidence).
 
 ## BOTTOM LINE
 
