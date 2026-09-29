@@ -10,6 +10,7 @@ C1/C2/C3 **5 / 5 / 3** (C1 UPGRADED 4→5 today on Will's WQ-276 word of 9/24). 
 - 🕊️ **Truce talk only:** Trump 9/27 "take it easy on the refineries"; Kyiv: only if mutual. KB-161.
 - H.R. 5334 signed 9/18 (closes the "Sanctions from Hell" item), nothing imposed (KB-164). CREA false-flag data (KB-163). Manpower +15,500, no mobilisation (KB-168).
 - Novorossiysk: Kommersant says owners avoided the port on safety — candidate halt cause (KB-165).
+- **Afternoon (Will-asked):** overnight 28→29 + 9/29 quiet, no restarts; Black Sea target ≈ AROYAT (bulk, not C3). Upstream Sept sweep INCOMPLETE (search cap) but found a CLASS HOLE: ~12 pump-station strikes Apr-Jul not on ledger → **OWED-51**. IEA cut RU crude 125 kb/d on weak refining (KB-170).
 - Inbox 7/7 drained. Mark stays **9/20** (Palaemon 21-27 unpublished; militarnyi EMPTY).
 
 ## ⛔ THE THING NEXT SESSION MUST NOT FORGET
@@ -20,8 +21,9 @@ C1/C2/C3 **5 / 5 / 3** (C1 UPGRADED 4→5 today on Will's WQ-276 word of 9/24). 
 2. Palaemon 21-27 + Black Sea target (above). Then certify and advance the mark.
 3. Bloomberg 4-wk to 9/27 (asked BRENT) + settle whether the Novorossiysk halt is a shut-in — gates the **10/9** C2 kill.
 4. Watch whether refinery strikes resume (truce-talk signal) — 3 depot-only days is not a shift.
-5. ~10/8 decree product list; 10/15 C1 successor eval + OSP-06.
-6. Carried: OWED-30 write-up · 34/45 feed residuals · 42/50 basis pair + Sept aggregate · 43 Moscow barrels · 44 Ust-Luga condensate · 48 AWRP · 10/6 L309 feed test.
+5. **OWED-51 midstream backfill** + finish the unrun Sept upstream queries (fresh session = fresh search budget).
+6. ~10/8 decree product list; 10/15 C1 successor eval + OSP-06.
+7. Carried: OWED-30 write-up · 34/45 feed residuals · 42/50 basis pair + Sept aggregate · 43 Moscow barrels · 44 Ust-Luga condensate · 48 AWRP · 10/6 L309 feed test.
 
 ## PREDICTIONS / DECISIONS
 OSP-06 OPEN 45%, deadline 10/15 (3.53 to 9/20 does not fail it). No prediction due. **No Will-gated decision open.** Option ② (products terminals) still unruled — not worth Will's time.
