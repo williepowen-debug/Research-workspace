@@ -3275,5 +3275,6 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-09-29T19:04:18Z	SIG-W-20260929-010	VULCAN	INFO	CLAUDE_CODE	PRIORITY	AGENTS/VULCAN/inbox/WALTER/SIG-W-20260929-010.md	delivered	Oracle layoffs: a fresh round from ~9/14 (some teams >10%) while it borrows for AI capex (
 2026-09-29T19:04:18Z	SIG-W-20260929-011	FALCON	ACTION	CLAUDE_CODE	ROUTINE	AGENTS/FALCON/inbox/WALTER/SIG-W-20260929-011.md	delivered	OSINT imagery claims Petroline Pump Stations 8 and 9 damaged in the 9/10 attack (PS-8 'a t
 2026-09-29T19:04:18Z	SIG-W-20260929-011	BRENT	INFO	CLAUDE_CODE	ROUTINE	AGENTS/BRENT/inbox/WALTER/SIG-W-20260929-011.md	delivered	OSINT imagery claims Petroline Pump Stations 8 and 9 damaged (9/10 attack): an unconfirmed
-2026-09-29T19:09:43Z	SIG-W-20260929-012	BOND	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/BOND/inbox/WALTER/SIG-W-20260929-012.md	written_not_delivered_pending_push	addendum -001: Oct odds 70->50, cause unknown
-2026-09-29T19:09:43Z	SIG-W-20260929-012	HENRY	INFO	CLAUDE_CODE	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260929-012.md	written_not_delivered_pending_push	Oct odds 70->50, cause unknown
+2026-09-29T19:09:43Z	SIG-W-20260929-012	BOND	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/BOND/inbox/WALTER/SIG-W-20260929-012.md	delivered	addendum -001: Oct odds 70->50, cause unknown
+2026-09-29T19:09:43Z	SIG-W-20260929-012	HENRY	INFO	CLAUDE_CODE	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260929-012.md	delivered	Oct odds 70->50, cause unknown
+2026-09-29T19:16:08Z	SIG-W-20260929-013	CORAL	ACTION	CLAUDE_CODE	ROUTINE	AGENTS/CORAL/inbox/WALTER/SIG-W-20260929-013.md	written_not_delivered_pending_push	Will-directed Ft Lauderdale MF lead (anecdote)
