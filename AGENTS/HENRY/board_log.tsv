@@ -419,3 +419,23 @@ timestamp_read	signal_id	disposition	source	notes
 2026-09-24T16:4x	SIG-W-20260924-017	info-only	INBOX_WALTER	Grocery nominal not falling; HENRY never carried the -0813-019 claim (CARL/LABOR lane).
 2026-09-24T16:4x	SIG-W-20260924-021	info-only	INBOX_WALTER	ARRIVED MID-SESSION (moved by my glob before I read it; read after and logged here, the order recorded honestly). Yanbu: Petroline restarted but crude tanker loadings not resumed as of 9/24 (Reuters via Baird; Kpler: two 9/23 liftings missed). BRENT/FALCON lane; context for the crude leg of the ULSD crack. No HENRY row.
 2026-09-24T16:4x	SIG-W-20260924-024	info-only	INBOX_WALTER	ARRIVED MID-SESSION (same note). HY OAS 273 [FRED 9/23], +7bp in two prints; no HENRY credit line crossed; matches the HY 273 already logged under -006. CoreWeave-linked DC $1.1B junk deal = headline, AI-financing context only.
+2026-09-28T20:40	SIG-W-20260925-002	acted	INBOX_WALTER	CORRECTION receipted (COR-20260925-02 APPLIED). My 9/24 row for -016 said Nov Brent 3:2:1 'fell below $50 into the 9/24 settle window' - that came from post-settle bars; settle proxy $50.12, NOT MEASURABLE. The 9/15-9/23 Nov crossing stands (BRENT's grade). Only board_log carried it; no STATUS/brief surface.
+2026-09-28T20:40	SIG-W-20260925-003	noted	INBOX_WALTER	10Y first close >5% = 9/16 (my own correction, relayed). Already applied in STATUS 9/24.
+2026-09-28T20:40	SIG-W-20260925-006	noted	INBOX_WALTER	Breadth: S5TH 45.12 [9/24, Barchart] 6-month low with SPX 1.22% off record. Context for the carried breadth gap; not a HENRY threshold.
+2026-09-28T20:40	SIG-W-20260925-007	info-only	INBOX_WALTER	ORCL -7.6% 9/22->9/25, financing-loop narrative; HENRY bar ORCL 137.10 [9/25]. AI-financing context; no HENRY row.
+2026-09-28T20:40	SIG-W-20260925-008	noted	INBOX_WALTER	BZ=F/RB=F rolled overnight 9/25; continuous-ticker -7.8%/-9.8% are artefacts. HENRY reads dated contracts only (HOX26/CLX26/BZX26).
+2026-09-28T20:40	SIG-W-20260925-011	acted	INBOX_WALTER	HY 280 [FRED 9/24], CCC 1112 -> CCC through my >1100 red on 9/24. Graded in STATUS 9/28.
+2026-09-28T20:40	SIG-W-20260925-013	noted	INBOX_WALTER	Correction: LIQUID X1 CLOSED since 8/28, not pending. HENRY never carried X1 state.
+2026-09-28T20:40	SIG-W-20260927-007	noted	INBOX_WALTER	Iran 7-day Hormuz plan via Qatar; Trump 'not acceptable' 9/26; no formal answer via mediators. Unilateral != bilateral (LESSONS). Context for oil/rates 9/28.
+2026-09-28T20:40	SIG-W-20260928-002	acted	INBOX_WALTER	HY 293 [FRED 9/25], +13 d/d, BB-led (BB +12). Verified at FRED: highest HY since 2026-04-13; largest 1d HY move since 2026-03-27 (+21). Leg 1 of twin kill 33bp away. Graded in STATUS.
+2026-09-28T20:40	SIG-W-20260928-003	info-only	INBOX_WALTER	Novoshakhtinsk (9/25) + Ilsky (9/26) refinery halts after drones; OSPREY lane. Product-supply context for HEN-46 crack leg.
+2026-09-28T20:40	SIG-W-20260928-007	noted	INBOX_WALTER	Newsletter on Bloomberg basis (CCC 968) - never graded against ICE lines. Cable concentration of CCC damage = author's claim, not verified.
+2026-09-28T20:40	SIG-W-20260928-009	acted	INBOX_WALTER	30Y + CCC red rungs - graded in STATUS 9/28 on official Treasury + FRED.
+2026-09-28T20:40	SIG-W-20260928-010	info-only	INBOX_WALTER	SPR 284.6M [EIA w/e 9/18]; Goldman diesel-ban SCENARIO. HEN-46 DENY-side risk already disclosed.
+2026-09-28T20:40	SIG-W-20260928-012	info-only	INBOX_WALTER	WSJ AI build-out 3.63% of GDP forward estimate, 'boosting inflation'. Axis-2 context; no row.
+2026-09-28T20:40	SIG-W-20260928-013	info-only	INBOX_WALTER	Crusoe/Boom vendor swap; MS DC power shortfall 5/12/33GW (Yahoo summary). WATT/VULCAN lane.
+2026-09-28T20:40	SIG-W-20260928-016	noted	INBOX_WALTER	US diesel export ban live talk (Trump 9/27), no order. Superseded headline by -017. HEN-46 DENY-side risk (a ban lowers the US crack).
+2026-09-28T20:40	SIG-W-20260928-017	noted	INBOX_WALTER	Correction to -016: boundary #6 timings withdrawn; policy facts stand. Next read EIA distillate exports Wed 9/30.
+2026-09-28T20:40	SIG-W-20260928-018	acted	INBOX_WALTER	30Y 5.56 [Treasury 9/28] official, over my 5.50 red -> FIRST close through red. Verified at treasury.gov CSV. Graded in STATUS.
+2026-09-28T20:40	SIG-W-20260928-021	noted	INBOX_WALTER	Wire attribution for 9/28 Treasuries: oil after Iran rejection, Fed-hike odds, global selloff. Attribution, not causation; HENRY's own 9/28 decomposition: 2Y +11 front-led, real 10Y +7, BE flat.
+2026-09-28T20:40	SIG-W-20260928-022	info-only	INBOX_WALTER	Backfill: Situational Awareness forced sale of public book to Citadel 7/30. AI-name positioning context, 2 months old; no row.

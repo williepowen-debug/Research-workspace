@@ -1,55 +1,43 @@
 # HENRY — LAST_COMPLETION
 
-**Session:** 2026-09-24 Thu 22:41 ET → 2026-09-25 Fri 01:15 ET (`date`, at closeout write), launched in-folder. **Will-directed:** boot, a peer read of VIOLET/LIQUID/BOND, correction packets, a cross-desk synthesis, the October-hike odds, then PROME's bounded follow-up (Will's items 2 + 4, 01:01 ET) with BOND and ORACLE.
-**Status:** ✅ **COMPLETE.** PROME confirmed it received the follow-up; nothing more is owed on it. No threshold moved, no prediction registered, no trade view, $0.
+**Session:** 2026-09-28 Mon 20:35 → 2026-09-28 20:45 EDT (`date`, at this write), launched in-folder. **Will-directed:** boot, then catch up on the news and data missed while HENRY was dark (9/25 03:32 → 9/28 20:35 ET).
+**Status:** ✅ **Catch-up COMPLETE.** Three of my red lines are through and dealer gamma turned negative; no threshold moved, no prediction registered, no trade view, $0.
 
 ## CHANGED (files)
-- `research/2026-09-24_peer-read_VIOLET-LIQUID-BOND.md` (new): the three desks' reads, where they bear on HENRY, 4 peer-surface defects, and a cross-desk synthesis.
-- `research/2026-09-24_fedwatch-method-october-odds.md` (new): October hike odds computed with the FedWatch method.
-- `research/2026-09-25_rates-move-and-hike-alignment.md` (new): the deliverable for PROME items 2 + 4.
-- `STATUS.md`: hike-odds cells re-based from "unverified" to measured; 9/24 SESSION row 11 added; the catalyst row is aligned with ORACLE. `NEXUS_BRIEF.md`: conviction line and FOMC row.
-- Packets: `AGENTS/VIOLET/inbox/…correction-STATUS-87…` · `AGENTS/LIQUID/inbox/…correction-stale-BOTTOM-LINE…` · `PROME/inbox/2026-09-25_from-HENRY_items-2-4-…-COMPLETION.md`.
+- `STATUS.md` rewritten whole; the prior version rotated verbatim → `status_archive/STATUS_ARCHIVE_2026-09.md` block 38 (crc32 `0e0a50e5`). MEMORY handoff → block 39.
+- `research/2026-09-28_FORUM-7_P1-grade.md` (new) · `research/2026-09-28_news_sweep.md` (new, subagent) · `workbook/PREDICTIONS.tsv` HEN-47 notes · `workbook/KB.tsv` ML-HEN-174/175 · `workbook/PUBLISHED.tsv` 9/28 gamma · `workbook/MARKET_DATA.tsv` 9/28 row · `board_log.tsv` +20 rows · `registry/corrections_receipts.tsv`.
+- Packets: `AGENTS/BRENT/inbox/…BRT-12-blind-verdict.md` · `PROME/inbox/…cadence-and-watch-terms.md` · `AGENTS/WALTER/inbox/…gamma-negative-both-horizons….md`.
 
 ## RESULT (one line)
-**This week's rate jump is the market pricing rates staying higher in 2027–28, not the October meeting. Expected rates after October and after December each rose 4bp, while late-2027 and late-2028 rose 19 and 22.5bp, as much as the 10-year (+22bp). Two days are contested: on 9/23 about half the move was term premium in the NY Fed's model, and on 9/24 the futures path barely moved at all.**
+**While I was dark, long-term rates hit 2007 highs on real yields, the junk-bond tail went through red and pulled the better-quality tier with it, and dealers went short gamma — while the VIX is still only 16.**
 
 ## Session Work
 | Item | Outcome |
 |---|---|
-| Peer read (VIOLET · LIQUID · BOND) | All three agree with HENRY: the move was in real yields, funding is calm, and the CCC tail is wide. Four defects found in their files; **both desks applied the fixes within the hour** (LIQUID `e903519d2`, VIOLET `a16aa90f1`). |
-| October hike odds | **~72% at 15:00 ET 9/24**, up from 56% on 9/22. This is my own FedWatch-method calculation on November fed-funds futures. CME blocks automated reads, and I did not get around that. Year-end: about +38bp, roughly 1.5 hikes. |
-| Rates move, with BOND | Matched-date table 9/15→9/24. My preferred reading: the policy path was repriced for 2027–28. **The strongest evidence against it:** 9/23 split roughly +8.2bp path and +7.0bp term premium on BOND's ACM figures, on the day of the failed 5-year auction; and on 9/24 the 10-year rose 7bp while the futures path moved 1–2bp. BOND reached the same split on its own. |
-| October odds vs betting markets, with ORACLE | **Only expected basis points can be compared, not probabilities.** At 15:00 ET: futures +18.0bp, Polymarket +16.5, Kalshi +16.1–16.6. The gap is the same size as the differences in what the two sides measure, so it is **not a disagreement.** ORACLE withdrew its earlier "venues 11–12 points below futures." |
+| Rates [Treasury 9/28] | 10Y **5.24%** (highest since June 2007) · 30Y **5.56%**, through my 5.50 red for the first time · 2Y **4.92%**. Since 9/22 the 10Y is up 28bp and 27 of it is real yield; inflation expectations barely moved |
+| Credit [FRED 9/25] | HY **293bp** (+13 in one day, highest since April) · CCC **1,128**, through my 1,100 red since 9/24 · the CCC-minus-BB gap **952** is the widest in FRED's 3-year window. The better-quality BB tier widened +12 the same day |
+| Gamma [9/28 close] | **Negative at both horizons.** SPX 7,683.69 sits ~20pt under the flip (7,704–7,707). Dealers now add to moves. No wall published |
+| Fed odds | October +25bp **~68%** (my futures calculation, not CME's published number; BOND gets the same). Gov. Cook 9/28: the labor market "appears to be well positioned to handle an increase in rates" |
+| FORUM-7 P1 (4 days late) | The ACM model puts **~69% of the 9/23–9/24 10Y jump in term premium ⇒ provisional PREMIUM.** My 9/25 "it's all the 2027–28 Fed path" call was too broad |
+| Data 9/25 | Durables 0.0% (beat) · core capex **+1.6%** (strong) · UMich 48.1 · 1-yr inflation expectations **4.6%** (up from 4.0%) |
+| BRT-12 (BRENT's blind ask) | **NO** — last week's diesel-crack drop is not a Phase-2 credit warning |
 
 ## HONEST SCOPE
-- **My own errors tonight, both caught before PROME acted on them:** (1) my first draft said neither term-premium model showed a rise. That was true for the whole window but false for 9/23, the day that mattered. (2) I typed a clock time in the PROME packet header (~01:4x) that was 30 minutes late. Both were corrected in follow-up commits.
-- Futures prices are vendor last trades, **not CME settlements.** The risk premium inside futures is unmeasured.
-- **The model reading that decides the question is unpublished:** ACM for 9/24 (about a day's lag) and Kim-Wright for 9/21 onward (weekly). If ACM shows term premium up again on 9/24, the two-day burst was premium-led.
-
-## ADDENDUM 2026-09-25 02:30 EDT — FORUM-7 (Will 02:20 ET "proceed with #1")
-- **Pre-registered, frozen and pushed before the deciding data:** the rule for whether 9/23–9/24 was Fed path or term premium. Governing commit `c1e9a7e5a`, BOND co-sign `f7efb8f76`, convener note `bc540e071`, PROME packet `1f1c63baf`. Neither desk read ACM 9/24 first (its daily file ended 9/23).
-- **Caveat you'd want:** a PREMIUM verdict is ACM's ordinary answer on a big sell-off (73%); a PATH verdict would be the surprise.
-- **My errors, caught before commit:** base rates first drawn from the wrong (monthly) sheet; a compromise rewrite that would have replaced BOND's co-signed rule — discarded unpublished.
-- **Grades:** ACM 9/24 (~9/25) · Kim-Wright (~9/28–29) · final after dealer data 10/1 → verdict by 10/2.
-
-## ADDENDUM 2026-09-25 03:09 EDT — Will's six questions (L477): HENRY led Q3, contributed Q2 and Q5
-- **Q3:** no FORUM-7 verdict changes any registered forecast, gate or position rule. It tells us which calendar can reverse the 10-year: Fed data, or Treasury supply. **The final verdict (10/1) lands after your TLT 77P expire (9/30).** BOND co-signed. **BOND's caveat, now DOCKET L478:** the 10/1 dealer-inventory print, not the verdict, is what could trigger BOND's duration exit rule. That rule does not say which maturity bucket counts, so if the buckets disagree it becomes your call.
-- **Q2:** 9/22–9/24 looks mostly like ordinary repricing. 9/24 was loop-shaped, and regional banks falling as yields rose is the one loop-like signal from another market.
-- **Q5:** Brent rose 7% while inflation expectations stayed flat, so the duration shorts are not an oil bet this week. The diesel trigger fits a refining-margin thesis better than the airline prediction.
-
-## GAPS / Still pending
-- Nothing is owed on PROME's follow-up. The 9/25 items below were deliberately not displaced by it.
+- **Missed while dark and not recoverable:** the 9/25 gamma board. I did not backfill it.
+- **The 9/25 diesel-crack test (HEN-46 F1 / TERRY's VLO gate) is still UNKNOWN.** Every proxy reads $95.00, exactly on the line, and CME blocks automated reads. **Reading the official CME 9/25 settlements for HOX26 and CLX26 resolves it.**
+- The term-premium verdict rests on **one model**; the second (Kim-Wright) has not posted since 9/18 and could make it "unanswerable."
+- The news sweep was a subagent; its "CCC 968, widest since 2023" is a **Bloomberg** index, not the ICE series I grade (ICE 1,128). Its bank / "Muse" AI-agent and Oracle CDS items are secondary-sourced.
+- Near-miss: my boot tape showed "Brent −5.6%"; that was a contract-roll artefact (November Brent settled $105.28). It did not reach any file.
 
 ## COMMITS
-- `0b0390563` peer read · `9892f14ad` → VIOLET · `55fd8c077` → LIQUID · `a23b974e9` synthesis · `2eab069f7` October odds · `bf74fea99` rates-move draft · `e8aa8cda0` → PROME items 2+4 · `2d0f508e9` clock fix · (this commit) closeout.
+See `git log --author` for this session's HENRY commits (path-scoped; hashes in the closeout reply).
 
 ## NEXT SESSION FOLLOW-UP
-- 🔴 **Fri 9/25 after ~16:00 ET, before 18:00:** the HEN-46 F1 diesel-crack grade at the CME settlement (below $95.00 fires it; TERRY grades), then **re-measure the gamma board at the close.**
-- Read ACM for 9/24 when it posts; it decides the 9/23–9/24 split.
-- **Wed 9/30:** PCE + GDP, quarter-end settlement of ~$183B of notes (LIQUID/BOND's funding test), the Russian diesel-ban expiry, Japan's monthly intervention total, your TLT 77P expiry (TERRY's card). **Thu 10/1** ISM · **Fri 10/2** jobs.
+**Wed 9/30** PCE + GDP 08:30 · Russian diesel-ban expiry · Micron after close · **Thu 10/1** ISM + FORUM-7 FINAL (dealer data ~16:15) · **Fri 10/2** September payrolls + FORUM-7 verdict · 10/6–10/8 3Y/10Y/30Y auctions · **10/14 CPI** · **10/27–28 FOMC**.
 
 ## THESIS SNAPSHOT (frozen at close)
-Rates are carrying the stress and have not passed it on: the 10-year is +22bp in two days, stock volatility only +10%, the junk index +5bp, funding unchanged. Markets are pricing a longer hiking path, not only October. The CCC tail is at a 3-year wide (CCC−BB 934bp). Dealer gamma is about zero, so there is no cushion either way. HEN-46 active at 0.35/0.30, F1 at its line.
+Rates at 2007 highs on real yields · credit tail through red, quality tier joining · dealers short gamma · VIX 16. The twin soft-kill is further away than at any point this month (HY 33bp from 260 and widening).
 
 ## WILL_NEEDS
-- **No decision tonight.** One caveat you'd want: **don't use "72%" or "the betting markets lag futures" without the basis attached.** The fair statement is: *"About +16–17bp on the betting markets versus about +18bp in futures at 3pm ET 9/24, before basis adjustments."*
+- ⚖️ **One small ask, no decision:** if you can, read the CME **9/25 settlement prices for HOX26 (Nov heating oil) and CLX26 (Nov WTI)**. If HO×42 − CL is under $95.00, TERRY's staged VLO shares stand down and HEN-46 F1 fires. It's a lookup, not a judgement call.
+- No decisions are pending with me.

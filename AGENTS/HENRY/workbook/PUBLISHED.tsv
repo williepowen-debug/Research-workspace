@@ -81,3 +81,7 @@ gamma_flip_35d	7702	2026-09-24	cboe 7404 contracts
 net_gex_35d_Bn	1.6	2026-09-24	$B per 1%
 gamma_flip_14d	7707	2026-09-24	cboe 3603 contracts; spot 7704.13 = -3pt, sign NEG but indeterminate (35d POS); walls withheld
 net_gex_14d_Bn	-2.0	2026-09-24	$B per 1%
+gamma_flip_35d	7704	2026-09-28	cboe 7663 contracts
+net_gex_35d_Bn	-17.0	2026-09-28	$B per 1%
+gamma_flip_14d	7707	2026-09-28	cboe 3540 contracts; spot 7683.69 = -23pt, sign NEG at BOTH horizons (35d flip 7704, -20pt); walls withheld (14d put==call==7700; call 7700 band vs 35d 8000)
+net_gex_14d_Bn	-15.6	2026-09-28	$B per 1%

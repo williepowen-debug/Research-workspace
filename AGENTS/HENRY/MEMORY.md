@@ -48,24 +48,24 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (2026-09-24 Thu 22:41 ET → 9/25 Fri 01:15 ET (`date`) — Will-directed, then PROME items 2+4; launched in-folder)
+### CHANGES SINCE LAST SESSION (2026-09-28 Mon 20:35 → 20:44 EDT (`date`) — Will-directed boot + dark-gap catch-up; launched in-folder)
 
-- **Peer read VIOLET/LIQUID/BOND** → `research/2026-09-24_peer-read_VIOLET-LIQUID-BOND.md`. 4 peer defects packeted; **both desks applied within the hour** (LIQUID `e903519d2`, VIOLET `a16aa90f1`).
-- **October odds MEASURED: ~72% [ZQX26 15:00 ET 9/24], FedWatch method** (CME blocks automated reads — 403, not circumvented). Replaced every "UNVERIFIED" cell. ⚠️ Futures give **expected bp only** (+18.0) — P exists only under 25-or-hold.
-- **PROME item 2 (with BOND):** move is **2027–28 "higher for longer"** — 9/22→9/24 post-Oct/post-Dec EFFR +4.0 vs SR3Z27 +19.0 / SR3Z28 +22.5. **Contested days:** 9/23 ACM path +8.2 / TP +7.0 [BOND]; 9/24 10Y +7 vs futures path +1–2. FR2004 timing RESOLVED by BOND (award IN the print, trade-date). ⛔ Don't cite BOND's WQ-157 p=0.009 (window defect, BOND).
-- **PROME item 4 (with ORACLE `c3695ad88`):** aligned in expected bp at 15:00 ET — futures +18.0 vs PM +16.5 / Kalshi +16.1–16.6; residual inside basis ⇒ no disagreement.
-- 🔴 **OWN DEFECTS (2), caught before consequence:** (1) "both TP models show no rise" — true of the WINDOW NET, false on 9/23 (a net hides the day); (2) **typed a clock** (~01:4x) into a packet header at 01:10 — `date` was in the same command and I didn't copy it. **It RECURRED at closeout: I wrote a guessed END time ("~01:2x") into 5 files at 01:15.** A closeout stamp is written BEFORE the session ends, so it is always a forecast — stamp the `date` of the write, never the expected finish. Both fixed.
+- **DARK GAP 9/25 03:32 → 9/28 20:35 ET.** Missed: FORUM-7 P1 slot (graded tonight, 4 days late), the **9/25 gamma board (UNMEASURED — do not backfill)**, the 9/25 F1 read (TERRY held UNKNOWN, $0.00 from line).
+- **Red rungs:** 30Y 5.56 [Treasury 9/28] FIRST close >5.50 · CCC 1,112 [9/24] / 1,128 [9/25] >1,100 · 10Y 5.24 = highest since 2007-06-12 · HY 293 [9/25] +13 BB-led. Superlatives series-checked (DGS30 has a 2002–06 gap ⇒ say "since at least 2007").
+- **FORUM-7 P1 = PROVISIONAL PREMIUM, KW-UNCHECKED** (s 0.685; 9/24 alone TP > yield). My 9/25 "whole move = 2027–28 higher for longer" was too broad → attribution split by day. `research/2026-09-28_FORUM-7_P1-grade.md`.
+- **Gamma NEGATIVE both horizons** (flip 7,704–7,707; −$16–17B/1%); signal → WALTER (`AGENTS/WALTER/inbox/2026-09-28_from-HENRY_gamma-negative-…`).
+- BRT-12 blind verdict **NO** → BRENT · cadence **WEEKLY** → PROME · COR-20260925-02 receipted APPLIED · 20 WALTER signals + 9 packets consumed · news sweep (opus subagent) `research/2026-09-28_news_sweep.md` — ⚠️ its "CCC 968 widest since 2023" is **Bloomberg basis**, not ICE; its "30Y highest since 2004" rests on the DGS30 gap.
+- **Own near-miss:** boot tape showed "Brent 98.51 −5.57%" — a continuous-ticker ROLL artefact (BZ=F rolled 9/25; Nov settled $105.28). Caught before it reached STATUS.
 
 ### NEXT SESSION — in this order
 
-0. ✅ **STATUS rotation DONE 2026-09-25 03:32 EDT** — 31,152 → 22,741 B (69.9%), settled blocks → archive block 37 verbatim (crc32 per block; lossless-checked vs a pre-rotation copy); 17/17 threshold rows kept. Stay <75% when adding the 9/25 close. Lessons: window-net line → LESSONS (now 74.8%, at its trip line — rotate LESSONS before the next addition); typed-clock n=2 → fleet memory `finding_a_stamp_written_from_narrative…`.
+1. 🔴 **Wed 9/30 release-day log:** PCE + GDP 3rd 08:30 · Russian ban expiry (HEN-46 F3 leg 1) · EIA distillate exports · MU AMC · MOF total. Then **Thu 10/1 ISM** + **FORUM-7 FINAL** (FR2004 ~16:15 ET; BOND D3) and **P2 KW** whenever `THREEFYTP10` posts 9/22–9/24 (g > 18bp ⇒ UNANSWERABLE). **HEN-47 verdict by the 10/2 boot**; packet PROME. Fri 10/2 NFP reaction log.
+2. 🔴 **Gamma board at every close** (14d + 35d); walls only if horizons agree.
+3. 🟡 **HEN-46 F1 9/25 = UNKNOWN until someone reads the CME settles** (asked of Will tonight). F1 Nov basis runs to 10/14.
+4. 🟡 **Owed by 10/2: WATCH_FOR R3** (PROME 9/25 packet still in inbox/) · **by 10/5: WQ-252 per-candidate crack step measurements** → DAEDALUS.
+5. Carried: real-yield letter (must name BOTH TP models + the day-split) · KRE "Muse" deposit-flight candidate (REGINALD's) · breadth gap (Will's) · confidence backfill · archive block-numbering audit · `SIG-W-20260910-013` overlay · own `CLAUDE.md` KB count stale (now ML-HEN-175).
 
-1. 🔴 **Fri 9/25 after ~16:00 ET (before 18:00): HEN-46 F1 at the CME settlement** (HOX26×42 − CLX26, matched Nov; <$95.00 fires; TERRY grades). Also read the finalized 9/24 row. `date` before every stamp.
-2. 🔴 **Re-measure the gamma board on the 9/25 close** (14d + 35d).
-3. 🔴 **FORUM-7 P1 — ACM 9/24 when posted (~9/25):** grade s per the FROZEN letter `research/2026-09-25_FORUM-7_path-vs-premium-PREREG.md` (c1e9a7e5a + BOND f7efb8f76) — NO re-spec; report s's ACM percentile + BOND's 0.47/0.87 beside it (A1); tag KW-UNCHECKED. P2 KW ~9/28–29 (g > 18bp ⇒ UNANSWERABLE). FINAL 10/1 FR2004 → verdict by 10/2 boot; packet PROME. ⚠️ Lesson from drafting it: pulled the MONTHLY ACM sheet first (8/31 frontier, 2-month 'sessions') — check the sheet/frequency before any base rate.
-3b. **L477 done [2026-09-25 03:09 EDT]** (Will's six questions): FORUM-7 §7 = no verdict changes any rail (co-signed BOND fb9a9299a); Q2/Q5 legs `research/2026-09-25_L477_Q2-Q5-HENRY-legs.md`. **DOCKET L478 (BOND grades 10/1): the Sept-4 kill names no FR2004 bucket; the 5Y award books in 3–6Y** — watch it, it is the only action-gating unknown. ⚠️ I sent BRENT a loose crack range ('±$0.5 of $95') and corrected it minutes later ($95.36–95.79, above the line) — quote a range from the arithmetic, not from feel.
-4. **Wed 9/30 release-day log:** PCE + GDP 3rd · Q-end $183B settle (LIQUID/BOND funding test) · Russian ban lapse (F3) · MOF total · MU AMC. Thu 10/1 ISM · Fri 10/2 NFP.
-5. Carried: 30Y 5.50 (3bp) / T10YIE >2.40 watch · real-yield letter ONLY with outcome space enumerated — **now must name BOTH TP models (ACM vs KW split) and the SR3 premium caveat** · archive block-numbering audit · `SIG-W-20260910-013` overlay · confidence backfill · breadth gap (Will's) · own `CLAUDE.md` KB count stale (last ML-HEN-172).
+### Prior session (2026-09-24 22:41 → 09-25 03:32 EDT) — CHANGES / NEXT rotated verbatim → `status_archive/STATUS_ARCHIVE_2026-09.md` block 39.
 
 ### Prior session (2026-09-24 21:19 ET catch-up) — CHANGES / NEXT rotated verbatim → `status_archive/STATUS_ARCHIVE_2026-09.md` block 36. NEXT #1–#2 carried as #1–#2 above; #3–#5 carried.
 

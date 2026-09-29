@@ -6,3 +6,4 @@ receipt_date	correction_id	action	note
 2026-09-25T01:21Z	COR-20260915-01	NO-OP	HENRY never consumed the nat-gas comparison; no 'natural gas'/'Gas (wkly)' carrier; GASREGW use in PREDICTIONS is correctly gasoline (CPI inputs)
 2026-09-25T01:21Z	COR-20260915-02	NO-OP	No REG-T-02 / new-cycle / $78 carrier on HENRY surfaces (grep 2026-09-24); REGINALD owns state
 2026-09-25T01:21Z	COR-20260924-14	NO-OP	Adopted 2026-09-24 16:4x (board_log L417): chart treated unsourced, Evercore not cited; HENRY cites neither
+2026-09-29T00:39Z	COR-20260925-02	APPLIED	
