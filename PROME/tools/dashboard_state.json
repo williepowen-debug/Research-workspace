@@ -1,6 +1,6 @@
 {
  "attention_errors": [],
- "built": "2026-09-29 16:11",
+ "built": "2026-09-29 16:24",
  "channels": {
   "AI capex": "elev",
   "Credit": "elev",
@@ -68,7 +68,7 @@
   "2026-10-02 September NFP \u2014 BLS Employment Situation, ~08:30 ET (DATE pe",
   "2026-10-02 UNATTENDED-INSTRUMENT REGISTER (Will 9/25 \"proceed in order\"",
   "2026-10-02 WQ-317 CROSS-MARKET ATTRIBUTION READ \u2014 is the US long end IM",
-  "2026-10-02 WQ-339 SITTING \u2014 post-expiry duration-short expression: comm",
+  "2026-10-02 WQ-339 SITTING \u2014 ADD a new duration-short card after the Sep",
   "2026-10-02 X1 WRAPPER-HALF RE-ADJUDICATION SITTING on the GATE-BRK-R2 l",
   "2026-10-02 \ud83d\udd34 A DESK CANNOT DETECT ITS OWN ABSENCE \u2014 PJM's 4th emergency",
   "2026-10-02 \ud83d\udfe0 DOES THE NESTL\u00c9 / AUCHAN SEIZURE CONVERT FROM \"EXTERNAL MA",
@@ -90,7 +90,7 @@
   "2026-10-09 BESSENT '2027-01-10' EXTENSION \u2014 INSTRUMENT RE-CHECK: has AN",
   "2026-10-09 CANON ENCODE of the WQ-298 STANDING RULE (Will 9/25): \"a des",
   "2026-10-09 FDIC POSTS THE NANO BANC PURCHASE-AND-ASSUMPTION AGREEMENT (",
-  "2026-10-09 NEXUS PRED-50 / L14 FIRST GRADE \u2014 the WQ-340 two-root claim ",
+  "2026-10-09 NEXUS PRED-50 / L14 FIRST GRADE \u2014 the WQ-340 CANDIDATE-secon",
   "2026-10-09 WQ-328 WAL HOTEL EXPOSURE READ (Will APPROVE 17:43 ET 9/28):",
   "2026-10-12 FERC order on PJM IRAS petition (filed ~8/13, acceptance req",
   "2026-10-12 \ud83d\udfe0 CRUISE PRE-COMMITTED A FALSIFIER ON ITS OWN LANE AND IT HA",
