@@ -162,4 +162,6 @@
 
 **⑤ FLORIDA CONDO RECONCILED TO ONE FIGURE: CORAL's August +2.8% statewide median.** My weakness evidence is metro/segment only, and even the Miami-Dade price leg may have turned (August unread).
 
+**⑦ NEWS SWEEP (Will: "have we caught up on all recent news?") — not fully, now yes.** Found two items missed on 9/24: **ATTOM August (completed foreclosures +42% YoY; Punta Gorda #2 US metro)** and the **Texas September auction list ($778M, $562M apartments)**. Flagged as RECYCLED: the "builder layoffs in TX/FL" story (Sept **2025**) and 2025 unsold-inventory counts. No public-builder failure. Cause of the misses: no recurring rows + WALTER's feed does not carry these ⇒ rows added. **File audit** closed the rest (charter de-dated, KB 029–031, LESSONS §51–52).
+
 **⑥ THESIS KILL RAIL BUILT (Will: "build the kill rail now"):** `thesis/THESIS.md`, 2 core + 3 amplifier legs, frozen kill criteria, first grade **0 of 5 FIRED**; formal grade 11/20. Case-Shiller July was not read.
