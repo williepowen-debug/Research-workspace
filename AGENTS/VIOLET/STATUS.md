@@ -101,7 +101,8 @@ Last recorded VIOLET book: **FLAT**. FORGE's September 10 mirror confirms. **No 
 
 - **Session:** post-close 9/28, Will's ask "catch up on missed data while dark." Full boot + Cboe backfill + CFTC + FRED.
 - **Inbox:** 3 WALTER (003 info-only, 006 noted, 001 ACTION acted → KB-VIO-315) logged and moved; PROME WQ-295 answered by packet (cadence + watch terms).
-- **WQ-259 CLOSED on my side:** both artifacts republished to their standing URLs (version 7 each).
+- **WQ-259 CLOSED** (PROME verified): both artifacts republished to their standing URLs (version 7 each). **WQ-333 done:** CLAUDE.md:194 now points at the memory twins, no date.
+- **Hygiene (Will-directed, late session):** stale-intel sweep fixed 7 live-doc items; KB sweep 71 → STALE, KB-VIO-308 → CONFIRMED, 40 durable rows kept ACTIVE (still past Stale_By — review dates owed, SCRATCH 5a). No market figure on this page changed.
 - ⛔ **$0 moved.** No trade, card, order, proposal. No threshold set, moved or fired by me.
 - Gaps: OVX / JPY_VOL / IMPLIED_CORR have **no 9/25 ledger row** (scripts cannot backfill a date; values cited from yfinance/prev_close above). VX_DAILY 9/25 m1m2 blank.
 

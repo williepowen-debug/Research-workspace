@@ -19,6 +19,7 @@
 - **WQ-259 executed:** both artifacts refreshed and republished to their standing URLs (version 7 each). Memory twins updated. **CLAUDE.md:194 "Last refreshed 2026-08-18" is now stale — Will-gated, flagged to PROME, NOT edited.**
 - WQ-295: declared **CADENCE WEEKLY**; proposed 9 WATCH_FOR phrases (`PROME/inbox/processed/2026-09-28_from-VIOLET_cadence-and-watch-terms.md`, consumed by PROME).
 - STATUS rewritten; convergence **28 → 29/50** (credit 3 → 4). CATALYSTS/CALENDAR +10/7 Q2 window close. KB-VIO-313..316.
+- **Later same session (Will-directed):** WQ-333 done — `CLAUDE.md:194` now points at the memory twins (no date); CLAUDE.md FILES-table MEMORY row fixed. **Stale-intel sweep** fixed 7 items (TRADE.md HY copy + DIET status + broken log table, CALENDAR L411, CANARY_MAP "today", SIGNAL_INTAKE MOVE cell levels, MEMORY dead pointer). **KB sweep:** 71 → STALE, KB-VIO-308 → CONFIRMED, 40 durable rows kept ACTIVE. MAINTENANCE entry written.
 
 ## NEXT SESSION
 
@@ -28,6 +29,7 @@
 3. **Wed 9/30 MU earnings** after close — cheap-tail catalyst; read the 10/1 surface.
 4. **Fri 10/2 CFTC** (report 9/29) — run `cftc_cot.py` manually if `--boot` again skips it; then diagnose why `--boot` skipped a released report.
 5. Thesis-currency advisory (47 rows since v4.1) — overdue; read the headline against KB-VIO-313.
+5a. **40 durable KB rows still past Stale_By** (their date was a review reminder, not an expiry): give each a real review date or a reasoned blank — offered to Will 9/28, not yet asked for.
 6. Next pre-registered letter against conditions ①–⑤ (FOMC-date base rate first).
 
 ## CARRY-FORWARD

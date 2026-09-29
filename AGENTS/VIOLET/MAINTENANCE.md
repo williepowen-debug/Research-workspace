@@ -9,6 +9,23 @@ Reverse-chronological log of **structural** changes to VIOLET's docs, folders, s
 Log material structural changes only — not routine content edits. Template adopted from OTTO (2026-06-10), incl. the cap: **archive to `archive/` if this grows past ~300 lines** (SAM cautionary tale: 636).
 
 
+## 2026-09-28 (post-close) — Charter line 194 goes pointer-form; KB staleness sweep (71 STALE); stale-intel sweep of live docs
+
+**Trigger:** Dark-day catch-up session (Will: "catch up on any missed data"), then Will's in-session asks: WQ-333 ("Approve WQ-333 pointer form", confirmed in this session), "do a sweep for any dated/stale/broken intel", "yes mark the stale KB rows and fix the CLAUDE.md table".
+
+**What changed:**
+1. **`CLAUDE.md:194` no longer restates an artifact refresh date** — it points at the memory twins (`reference_violet_vol_cheatsheet` / `reference_violet_operating_picture`), which carry date, version and next trigger. The restated date went stale twice (9/14 edited-unpublished; 9/28 WQ-259 republish).
+2. **`CLAUDE.md` FILES table:** MEMORY.md row no longer claims the session-note trajectory (moved 9/2 to `archive/MEMORY_SESSION_NOTES_COLD.md`).
+3. **`workbook/KB.tsv` status sweep:** 112 ACTIVE rows past Stale_By → **71 STALE** (dated readings / episode states / event reads, closing-disposition note per the 8/4 convention), **KB-VIO-308 → CONFIRMED**, **40 kept ACTIVE** (instrument builds, registered rules, studies, defect classes, rows cited as anchors). Verified: only Status changed and Notes only appended; CRLF preserved.
+4. **Live-doc sweep:** TRADE.md stale HY copy → pointer, DIET status → pointer, trade-log table rejoined; CALENDAR L411 "still owed" corrected; CANARY_MAP frozen "Today is 9/4" dated; SIGNAL_INTAKE MOVE pause/resume cell stripped of live levels its header forbids; MEMORY dead "SCRATCH 7f" pointer.
+5. Both Will-facing artifacts republished to standing URLs (v7) under WQ-259.
+
+**Files touched:** `CLAUDE.md` · `workbook/KB.tsv` · `TRADE.md` · `CALENDAR.md` · `CANARY_MAP.md` · `SIGNAL_INTAKE.md` · `MEMORY.md` · `artifacts/*.html`.
+
+**Boot-impact:** `validate_workbook` past-Stale_By warning drops 112 → 40 (the 40 are durable rows whose Stale_By was a review reminder; not re-dated — carried to SCRATCH). No script changed.
+
+**Lessons:** (a) a charter line that restates a date another surface owns is a second clock — point, don't copy. (b) A registered line (COR1M first-tell) fired 9/2 the same day a STATUS rewrite dropped its gate row; nothing re-surfaced it for 26 days (KB-VIO-314). Grading registered mechanical lines belongs in boot code — PROME DOCKET row keyed next-VIOLET-session.
+
 ## September 17, 2026 (post-close) — MEMORY.md hot/cold split; two research files retired; board_log repair
 
 **Trigger.** Catch-up session (Will: *"a pass searching for stale data we need to update or owed tasks we need to do"*). Three structural items surfaced and were closed in the same session.
