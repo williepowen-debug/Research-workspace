@@ -1,4 +1,4 @@
-> # ⛔ 2026-09-29 (Tue) — READ THIS BLOCK FIRST. Will-launched in-folder session, boot 08:47 ET (`date`), pre-market; Will asked for a data catch-up.
+> # ⛔ 2026-09-29 (Tue) — READ THIS BLOCK FIRST. Will-launched in-folder session, boot 08:47 ET → closeout 11:19 ET (`date`); Will asked for a data catch-up, then five PM deliverables. **Tonight's 16:00–20:00 ET memory slot is UNCOVERED at this closeout** (PROME spawns a VULCAN session if it is live; otherwise Wednesday's boot records it MISSED, never back-dated).
 >
 > ## ONE LINE: a **DEMAND strand** joined last week's FINANCING one — **OpenAI paused its frontier pipeline (report 9/25, no resume date)** and the 9/28 tape priced it (ORCL −3.3%, MU −2.6%, CRWV −2.9%, Hynix −5.05%). **No budget, contract or lease changed ⇒ no trigger moved; composite 15/25, thirteenth session.**
 >
