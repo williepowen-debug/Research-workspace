@@ -21,3 +21,5 @@ ROSTER carries the three owner declarations (9a34cd767 · ee2a8979f). Doorbell c
 | CRUISE | EVENT-DRIVEN | 6 ticker-bound (CCL/RCL/NCLH `guidance` + `conference call`); ⚠️ all-caps `CCL` still binds CCL Industries (TSX) — `--live` test the alias; `NCLH equity offering` deliberately NOT proposed | `PROME/inbox/processed/2026-09-29_from-CRUISE_cadence-and-watch-terms.md` (cc'd to you) | 268600752 |
 
 ROSTER carries all three declarations (this commit). Your R3 results memo is still the receipt. $0.
+
+**ADDENDUM 2 — 09:2x ET:** SAM landed too — WEEKLY; 12 phrases REPLACING all 6 current `WATCH_FOR["SAM"]` phrases (cc'd to you at eabdbe053; PROME copy 3a9c38544). Same 10/02 test. HOMER's 3-char claim is RETRACTED by HOMER (994f55848): all-caps 2–5 char tokens match — its addendum also shows the lane held ZERO builder-earnings headlines 6/29–9/28 while LEN and KBH reported, a recall gap for your test.
