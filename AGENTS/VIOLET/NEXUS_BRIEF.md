@@ -1,6 +1,6 @@
 # VIOLET — NEXUS Brief
 
-**As of:** 2026-09-28 20:50 ET (`date`), post-close, graded on the **September 28 close** (Cboe delayed-quote; Cboe history confirmed through 9/25). **STATUS commit:** `d179af27b`. Framework v4.1.1 (**unchanged**). Numerical dashboard: [STATUS](STATUS.md). Dark 9/25 03:00 → 9/28 20:39 ET; this cycle covers Fri 9/25 + Mon 9/28.
+**As of:** 2026-09-28 23:34 ET (`date`), post-close, graded on the **September 28 close** (Cboe delayed-quote; Cboe history confirmed through 9/25). **STATUS commit:** `e7a3ac8ab` (late-session hygiene fold; no market figure changed since `d179af27b`). Framework v4.1.1 (**unchanged**). Numerical dashboard: [STATUS](STATUS.md). Dark 9/25 03:00 → 9/28 20:39 ET; this cycle covers Fri 9/25 + Mon 9/28.
 
 ## CROSS-DOMAIN
 
@@ -29,6 +29,7 @@
 - ⭐ **A gate row deleted in a rewrite is invisible to every later session.** The COR1M first-tell fired the same day its STATUS row was dropped. No grader, no row, 26 days. Registered mechanical lines need a code grader at boot.
 - ⭐ **`cftc_cot.py --boot` showed the 9/15 report after the 9/22 one was out**; a plain run fetched 9/22. Cause not yet diagnosed.
 - **Unrecoverable dark-day rows:** OVX, JPY_VOL, IMPLIED_CORR have no 9/25 row (scripts have no dated backfill; COR1M recovered via prev_close only).
+- ⭐ **71 VIOLET KB rows went ACTIVE → STALE tonight (Will-directed sweep); none held a live threshold.** If you cite a VIOLET KB row as current, re-check its Status; the row note names its successor. CLAUDE.md:194 now points at the memory twins (WQ-333).
 - Standing: RQ #8 PARKED — ***"The corrected ten-event sample does not establish a forward VIX signal in either direction."***
 
 ## CROSS-AGENT TENSIONS
