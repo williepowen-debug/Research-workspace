@@ -1,17 +1,18 @@
 # VIOLET CALENDAR
 
-Updated September 24, 2026 (leg 2 graded on the 9/23 close and moved to RESOLVED; Dec 16 M1:M2 re-check added). Dated events: `workbook/CATALYSTS.tsv`; countdowns are computed by `scripts/catalyst_countdown.py`.
+Updated September 28, 2026 (Q2 transmission-test window close 10/7 added; Cboe confirmed the 9/23 leg-2 close). Dated events: `workbook/CATALYSTS.tsv`; countdowns are computed by `scripts/catalyst_countdown.py`.
 
 ## ACTIVE FORWARD CATALYSTS
 
 | Date | Event | Impact | VIOLET checkpoint |
 |---|---|---|---|
 | **Sep 30 (Wed)** | **Micron (MU) FQ4 earnings** | MEDIUM | Confirmed after close 16:30 ET; VULCAN owner. Outside frozen letter's leg 2 window. |
+| Oct 7 (Wed) | Q2 transmission-test window closes (DOCKET L477) | LOW | Last of 10 sessions off the 9/23 MOVE spike: VIX3M/VIX ≤1.00 AND VVIX >120 on two consecutive closes, else ordinary repricing. |
 | Dec 16 (Wed) | M1:M2 historical-average re-check (KB-VIO-310, PROME L441) | LOW | December VIX expiry: re-measure; replace 5.6 if the full-history median differs by >0.5pp |
 
 ## RESOLVED — fired catalysts and their grades
 
-- **September 23 close — VIO-FOMC-0916 leg 2:** **KILL.** VIX 17.71 [9/16 CBOE] → 15.18 [9/23 yfinance; CBOE unposted at grade] = **−14.29%** vs kill < −1.41%. Whole letter FAILED: 0 CONFIRM · 2 KILL · 1 MISS · 1 VOID · 1 HELD-with-defect. Record: `research/2026-09-24_VIO-FOMC-0916_GRADE_part3.md`.
+- **September 23 close — VIO-FOMC-0916 leg 2:** **KILL.** VIX 17.71 [9/16 CBOE] → 15.18 [9/23; yfinance at grade, **Cboe SETTLE confirmed 9/28, no correction**] = **−14.29%** vs kill < −1.41%. Whole letter FAILED: 0 CONFIRM · 2 KILL · 1 MISS · 1 VOID · 1 HELD-with-defect. Record: `research/2026-09-24_VIO-FOMC-0916_GRADE_part3.md`.
 
 - **September 18 BOJ decision:** fired 23:00 ET Sep 17 — **HIKED +25bp to 1.25%, vote 7–2** (Asada, Sato dissenting for HOLD); USD/JPY 156.75. SAM owns policy substance. ⭐ **VIOLET's JPY carry-vol canary STOOD DOWN on the print** — RV10 15.15% (p94.8, WATCH) → **11.1% (p72.6, CALM)**. The event-conditioned watch **resolved without firing**; one observation against a naive reading of H-carry.
 - **September 18 SPX quarterly OPEX (triple witching):** fired. **The vol crush ran straight through it** — VIX 15.44 → **14.83** (−3.95%), VIX9D 13.39 → **12.28** (−8.29%), term structure re-steepening a 3rd session to **1.2299**. HENRY's post-opex gamma board (**L411**) had **not landed** as of 16:2x ET and is still owed; his 9/17 pre-opex board (negative a 3rd session, deeper, no wall publishable) carries a one-session shelf life by his own statement and ⛔ must not be read as current for 9/18. **LEG 3 GRADED on this close: CONFIRM branch B / MISS OF THE MAP** — the Fed hiked and the surface printed the HOLD-branch signature; branch A failed 0/3. Grade record: `research/2026-09-18_VIO-FOMC-0916_GRADE_part2.md`.
