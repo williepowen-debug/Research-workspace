@@ -1,7 +1,7 @@
 # CREED Case Ledger — named CRE distress cases
 
 **Created:** 2026-09-29 · **Owner:** CREED · **Directed by:** Will, 2026-09-29, in WALTER's session, relayed in `inbox/2026-09-29_from-WALTER_cre-case-ledger-will-directed.md` @`dffcb78e0`: *"start trying to track major cases ... search for patterns or other helpful connextions."*
-**Not a boot read.** Open it on demand. The read-cap budget doesn't bind it, but keep each file under 32,550 B anyway so it can be read whole in one call.
+**Not a boot read.** Open it on demand and grep by `case_id`. The read-cap budget doesn't bind it (it binds only surfaces a boot reads whole). *(This line said "keep each file under 32,550 B anyway" until the 2026-09-29 seed adoption took `CASES.tsv` to ~50 KB; the aim was dropped rather than cutting verified content.)*
 
 ## What it's for
 
@@ -35,6 +35,7 @@ It holds one row per named distressed property or loan, so connections *across* 
 |---|---|---|
 | `CASES.tsv` | one row per case | current state, identity, loan/holder, marks, fleet links |
 | `CASE_EVENTS.tsv` | one row per dated event | the timeline, structured so durations are computable |
+| `CASE_NOTES.md` | one section per case | **value marks, sources, and every verifier finding, verbatim** (the seed row beside the verifier's reading). `CASES.tsv` points here: **read a case's section before citing any mark or loss.** Also lists the HELD candidates and why |
 
 **Controlled vocabularies** (extend by editing this list in the same commit):
 - `property_type`: OFFICE · MULTIFAMILY · RETAIL · LODGING · INDUSTRIAL · MIXED_USE · LIFE_SCIENCE · DATA_CENTER · LAND · OTHER
@@ -45,7 +46,7 @@ It holds one row per named distressed property or loan, so connections *across* 
 
 ## Intake
 
-- **Feed:** WALTER proposes tagging every signal that names a specific distressed property or loan with `case:` and copying CREED. The routing change is WALTER's to make under its own spec and `AGENTS/_NETWORK.md`. CREED is only the recipient.
+- **Feed: LIVE from 2026-09-29, forward-only.** WALTER codified it with Will's approval (`bc76a72d7`: `AGENTS/WALTER/design/ROUTING_CARVEOUTS.md` § "Named-case feed — CREED" v0.39; `SIGNAL_FORMAT_SPEC.md` v0.23 owns the `case:` field and the distress-event definition). Every signal reporting a distress event on a named CRE property or loan carries `case:` and puts CREED on action (CREED-owned) or info (another desk's case, whose ownership is unchanged). **Sweep:** `grep -l "^case:" BOARD/SIG-W-*.md`. Signals from before 9/29 come via the seed. Verified at the artifact 2026-09-29.
 - **Cadence: NONE PROMISED.** CREED is Tier-2 and event-driven. Rows are added when CREED is live, and case signals wait in `inbox/WALTER/` until then. *(The multifamily courier died in 2026-08 precisely because a spawn-on-need desk had promised a cadence. Don't repeat it.)*
 - **At intake:** check the event year (rule 11), set the source tier honestly (rule 7), state `trigger_eligibility`, and add the events.
 - **The WALTER seed** (`AGENTS/WALTER/research/2026-09-29_cre-case-seed.tsv` + `-NOTES.md`) is a DRAFT built from fleet files only. **Adopt row by row after verification.** Its IDs (`CASE-0001`…) are drafts, and CREED assigns `CASE-CREED-NNN` on adoption.
@@ -61,3 +62,13 @@ Each answer is a hypothesis until tested against the aggregate named beside it.
 | Time from special servicing to resolution, by type | Trepp SS resolution commentary; CREFC |
 | Loss severity by type/vintage | `KB-CREED-041` CREFC severity distribution |
 | Building vintage (pre-2000 office) vs outcome | CBRE/Avison Young class-split vacancy |
+
+## Seed adoption record (2026-09-29)
+
+WALTER's draft seed (58 rows, `0751bca40`) was checked by three read-only Opus verifiers (repo files only, no web; Will-approved in-session) and adopted by script:
+- **53 added** as `CASE-CREED-003`…`055`, in the seed's order (by first distress date). The `seed_id` column is the crosswalk back to WALTER's `CASE-NNNN`.
+- **2 duplicates:** seed 0005 = `001` (3000 Post Oak), seed 0023 = `002` (5400 Westheimer).
+- **3 held, not adopted:** 0021 Portal 405 (no distress event), 0034 One Moody Plaza (no loan identified), 0057 Four Penn Center (appraisal cut only). Reasons are in `CASE_NOTES.md`.
+- **What was applied vs. carried:** the vocab fields (`property_type`, `trigger`, `holder_type`, `latest_status`, `status_as_of`) and the holder rule (6) come from the verifier. Every other seed field is carried as written, with `[⚠️ verifier flag -> CASE_NOTES]` wherever a verifier found a mismatch. Loss figures the verifiers impeached read `UNRECONCILED`. **Row-level corrections are owed case by case:** `verification` names the flagged fields.
+- ⚠️ **Composition is itself a selection artifact:** Bank OZK is the lender on ~15 of the seed's cases because the OZK desk files its own book in detail. Read any per-lender count as *what the fleet saw*.
+

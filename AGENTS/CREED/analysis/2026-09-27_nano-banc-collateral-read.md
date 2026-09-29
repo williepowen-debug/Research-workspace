@@ -56,7 +56,7 @@
 |---|---|---|---|---|
 | 23750 Alessandro Blvd, **Moreno Valley** | Alessandro Plaza, **~119K sf strip centre** (retail, restaurants, dental/professional office) | **$9.72M, 1st** | Nano notice of default 5/20/2025. **Owner filed Ch.11 2026-08-18** (C.D. Cal. 26-12516) | lien: WAL verified complaint 8/18/2025 (A2, via WAL §2) · property/status: SECONDARY |
 | 3700 Inland Empire Blvd, **Ontario** | Plaza Continental, **~120K sf office/medical + retail**, ~24% available | **$4.33M, 2nd** behind Preferred Bank $25.9M | Nano NOD 5/20/2025. **Owner filed single-asset Ch.11 2026-03-30** (8:26-bk-10986-MH) | same |
-| 12233 Central Ave, **Chino** | Part of Chino Towne Center (CVS / 24 Hour Fitness anchored); this address = dental offices | **$5.99M, 2nd** behind Preferred $22.4M | No distress event found | same |
+| 12233 Central Ave, **Chino** | Part of Chino Towne Center (CVS / 24 Hour Fitness anchored); this address = dental offices | **$5.99M, 2nd** behind Preferred $22.4M | ~~No distress event found~~ **Owner in Ch.11 (8:26-bk-10925-SC; see §6). Corrected 2026-09-29** | same |
 | 9826 Cedar St, **Bellflower** (LA County) | Cedar Group Apartments, **30 units, built 1964** | **$8.0M, 2nd** behind Umpqua $6.47M | No sale since 1999. Liens total $14.47M ≈ **$482K/unit** ⇒ Nano's 2nd is **probably badly under-secured (INFERRED)** | same |
 | Blackhawk Plaza, **Danville** (Contra Costa) | retail centre | $5M, 2nd | receivership ordered 2026-02-03, stayed by owner's Ch.11 2026-03-18 | SECONDARY |
 | Gerald Marcil (guarantor-side loan) | — | $19.18M (2024-12-09) | Nano declared default; **Marcil sued Nano** (C.D. Cal. 8:26-cv-01143, 5/11/2026) | SECONDARY (WAL §3 also) |
