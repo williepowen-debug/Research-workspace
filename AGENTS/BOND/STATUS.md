@@ -115,7 +115,7 @@
 |---|---|---|
 | **Wed 9/30** | 🔴 **Quarter-end · Aug PCE + Q2 GDP 3rd (8:30) · TLT 77P expiry** (`BND-27` already resolved FALSE 9/28) | PCE vs the PMI input-price shock; SOFR−IORB across quarter-end (0bp [9/25]); ~$183B settlement on the turn (LIQUID reads) |
 | **Thu 10/1** | 🔴 **FR2004 as-of 9/23 (~16:15) = WQ-291 5Y dealer-leg grade (≥ $56.586B) + FORUM-7 FINAL** · H.4.1 week-9/30 · quarterly `I'` refresh · `VX-19` "disorderly" · **10Y–20Y buyback op (F2)** · Oct refunding sizes | MET / NOT MET / GAP with margin by the 10/2 boot; `AUCTION_HEALTH.md` §3d |
-| **Fri 10/2** | Sept Employment Situation (8:30) | 2Y / 1y1y reaction |
+| **Fri 10/2** | Sept Employment Situation (8:30) · **WQ-317 cross-market page DUE** (PARTIAL delivered 9/29; HANS legs owed) · BROCK's X1 re-adjudication sitting (index-hedge sizing — not BOND's) | 2Y / 1y1y reaction; IMPORTING / EXPORTING / SHARED / UNDETERMINED |
 | **10/6 · 10/7 · 10/8** | 3Y `91282CRQ6` · 10Y-R `91282CRF0` · 30Y-R `912810UW6` + 20–30Y op (F2) · `VX-20` review | bars frozen at the 10/1 announcement; **10/7–10/8 are the long-end auctions that can fire row 1's ⇒5 letter** |
 | **Wed 10/14 · 10/15** | Sept CPI (8:30) · 10–20Y op (F2) | breakevens on input-supported cells only |
 | **10/21 · 10/22 · 10/26–29** | 20Y-R · 5Y TIPS · month-end cluster | bars at each announcement |
