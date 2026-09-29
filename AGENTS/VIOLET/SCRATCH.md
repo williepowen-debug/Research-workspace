@@ -22,6 +22,7 @@
 
 ## NEXT SESSION
 
+0. **BUILD: boot-time grading of registered mechanical lines** (COR1M first-tell KB-VIO-188, MOVE pause/resume KB-VIO-190) — PROME DOCKET row keyed `next-VIOLET-session` (seen in PROME's working tree 9/28 ~21:0x, per prome-64 doorbell: "your build, your authority"). Wire into `boot.py`; test the grader against the 9/1–9/2 fire before trusting it. Also: WQ-259 CLOSED by PROME on my receipt; CLAUDE.md:194 ask → WQ-333 for Will (PROME rec: pointer form).
 1. **Post-close boot Tue 9/29:** Cboe stamps 9/28; FRED 9/28 credit — **does the broadening continue past 9/25?** Re-run cheap-tail on Cboe 9/28 basis (expect 2/4: VVIX 91.02 >90, VIX 16.07 >16).
 2. **Q2 transmission test:** grade each close through **Wed 10/7** (`VIX3M/VIX ≤1.00 AND VVIX >120` × 2 closes). 3 of 10 sessions elapsed at 9/28.
 3. **Wed 9/30 MU earnings** after close — cheap-tail catalyst; read the 10/1 surface.
