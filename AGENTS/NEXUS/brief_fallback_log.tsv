@@ -1,6 +1,6 @@
 # Fallback-rate instrumentation added 2026-06-07 via BRENT-orchestrated proxy at Will's direction; spec at AGENTS/BRENT/outbox/delivered/2026-06-07_to-NEXUS_fallback_rate_instrumentation.md — ADOPTED, rollups running (#1 7/17, #2 7/28); stale review-directive + pre-delivery path cleared 7/31 closeout-doc audit (3rd copy of the same rot — the CLAUDE.md fix that morning missed this header).
 # Append-only. One row per brief→STATUS fallback event per boot pass.
-# cause ∈ {stale, convergence, uncertainty, brief-gap}
+# cause ∈ {stale, convergence, uncertainty, brief-gap, digest}  — `digest` (added 2026-09-29, charter BOOT 6 A3): one row per pass recording the reader delegation (count + any brief a reader flagged stale/over-cap); NOT a fallback, EXCLUDED from every 9a rate.
 #   stale       = trigger (a): brief hash >1 commit behind STATUS HEAD (freshness, agent didn't refresh)
 #   convergence = trigger (b): drilled raw STATUS to chase a thread two+ briefs hint at (healthy synthesis)
 #   uncertainty = trigger (c): a CALIBRATION "uncertain about X" named another domain → drilled there (healthy hand-off)
@@ -62,3 +62,4 @@ date	agent	cause	note
 2026-09-29	RED	convergence	Trigger (b) — WQ-340: FT-01 exit leg (280.0/293/302), FT-02/FT-12 distances, S48 header.
 2026-09-29	VIOLET	convergence	Trigger (b) — WQ-340: MOVE 104.58/96.00/101.82, VIX complex 9/28, Path-B read on LIQ-069.
 2026-09-29	AEOLUS	convergence	Trigger (b) — WQ-340 control: C5 Rhine letter + fire table (Kaub/Duisburg 9/26-28), A-36 Panama.
+2026-09-29	FLEET	digest	3 Opus digest readers over the 27-brief census (ls); readers flagged stale: LIQUID (8/23), BROCK (9/02 header), REGINALD (mixed vintage), CARL (pin 1 behind), YURI (trigger a); over-cap: BOND (fixed same hour), over-budget: RED, ZHAO, BROCK. Instrumentation row, not a fallback.
