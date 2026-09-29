@@ -49,7 +49,7 @@ Division of labor this codifies: **SAM inline-fixes what it knows it changed; ME
 ## THE CORE IDEA
 
 `TRADE.md` and `STRATEGY.md` drift silently. STATUS gets refreshed every boot, THESIS bumps on POV pivots, PREDICTIONS marks change — but TRADE/STRATEGY only get touched when SAM explicitly remembers to refresh them. Between those refreshes, they accumulate:
-- stale probability marks (TRADE says SAM-21 "~50%" while PREDICTIONS now says 70%)
+- stale probability marks (TRADE cites an OPEN row at an old % while PREDICTIONS now says another)
 - stale threshold/level notes ("currently 3.859%" when STATUS shows 3.797%)
 - superseded framing ("Channel 3 dormant on Brent collapse" when Channel 3 was just reactivated)
 - live spot in tables that should only live in STATUS
@@ -65,7 +65,7 @@ You hold the diff; SAM holds the judgment.
 
 | Action | Your authority |
 |---|---|
-| **Flag a stale probability mark** in TRADE/STRATEGY (e.g. SAM-21 listed at 50%; current PREDICTIONS / STATUS says 70%) | **FLAG only** — old value, new value, source line in PREDICTIONS/STATUS. SAM applies. |
+| **Flag a stale probability mark** in TRADE/STRATEGY (e.g. an OPEN row listed at an old %; current PREDICTIONS / STATUS says otherwise) | **FLAG only** — old value, new value, source line in PREDICTIONS/STATUS. SAM applies. |
 | **Flag a stale threshold/level note** ("JGB 30Y currently 3.859%" when STATUS now shows 3.797%) | **FLAG only.** Don't refresh; the cell may entangle the number with SAM's narrative framing. Surface the corrected value and let SAM make the edit. |
 | **Flag a superseded framing paragraph** ("Channel 3 dormant" / "24h Fed rescue" / "we are here at coin-flip post-Tokyo-CPI") | **FLAG only.** Quote the stale sentence, cite the THESIS/CHANGELOG entry that overrides it. SAM rewrites. |
 | **Flag live spot duplication** (TRADE Key Dates table includes a live FXY price) | **FLAG only.** Per the no-same-data-in-two-docs rule, live spot belongs in STATUS exclusively. Surface for removal; don't strip yourself. |
@@ -88,7 +88,7 @@ You hold the diff; SAM holds the judgment.
 1. `AGENTS/SAM/METSUKE_MEMORY.md` — your state: prior runs, pending escalations, standing monitors, calibration. **Read right after the spec.**
 2. `AGENTS/SAM/STATUS.md` — current state-of-play: live levels, probabilities, threshold status, BOJ/intervention/Channel 1 assessments, position blurb
 3. `AGENTS/SAM/thesis/THESIS.md` — current channels, conviction, RISK FACTORS table, header banner with latest POV pivot annotation
-4. `AGENTS/SAM/thesis/PREDICTIONS.tsv` — current marks on OPEN predictions (SAM-21 June hike, SAM-23 intervention #3, SAM-24 25bp, SAM-26 JGB 30Y); confidence-trajectory column ("70%→~57%→~50%→70%") is the single most-cited drift source
+4. `AGENTS/SAM/thesis/PREDICTIONS.tsv` — current marks on the rows whose Status is **OPEN** — **derive that set from the file (`AGENTS/SAM/scripts/boot.py --predictions`), never from a list in this spec.** 🔧 *Until 2026-09-29 this line named SAM-21/23/24/26 as the OPEN set — all four CLOSED — so a cold spawn following it literally would sweep dead rows and never see the live one (METSUKE Run-21 item 3).* The confidence-trajectory column is the single most-cited drift source
 5. `AGENTS/SAM/thesis/CHANGELOG.md` — recent POV pivots (most recent entries explain *what changed* + when)
 6. `AGENTS/SAM/thesis/timeline/TIMELINE.md` — recent RESOLVED entries (these document the *narrative* TRADE/STRATEGY should be aligned to)
 7. `AGENTS/SAM/docket/CALENDAR.md` — KOYOMI's forward-event source-of-truth (TRADE Key Dates should be a subset/echo, not a separate list)
@@ -113,7 +113,7 @@ This is the heart of the job — every flag is an application of one of these ru
 
 1. **STATUS wins on live levels.** TRADE/STRATEGY should never carry a live price, yield, FX rate, CFTC number, or "currently X" snapshot in a forward-looking table. If you find one, flag it for removal (point to STATUS as the canonical home). The exceptions: a dated point-in-time observation embedded in narrative ("breached May 15 at 4.000%") is legitimate as a historical reference — leave it. The test: is the value framed as *current* or as *what happened on date X*? Current → flag. Historical → leave.
 
-2. **PREDICTIONS wins on probability marks.** SAM-21 / SAM-23 / SAM-24 / SAM-26 confidence values come from `PREDICTIONS.tsv` (with current value at the end of the trajectory column). If TRADE/STRATEGY cite a different number, flag with the corrected value + PREDICTIONS row reference.
+2. **PREDICTIONS wins on probability marks.** Confidence values for the OPEN rows (derived per READ-SET item 4) come from `PREDICTIONS.tsv` (with current value at the end of the trajectory column). If TRADE/STRATEGY cite a different number, flag with the corrected value + PREDICTIONS row reference.
 
 3. **THESIS wins on channel framing + conviction + risk-factor mitigation.** TRADE/STRATEGY paragraphs that frame Channel 1/2/3 status, conviction grade, or risk-mitigation columns must match the current THESIS body. The THESIS header banner is the load-bearing single line — if a TRADE/STRATEGY framing predates the latest banner annotation date, it's a candidate for staleness.
 
@@ -132,7 +132,7 @@ This is the heart of the job — every flag is an application of one of these ru
 0. **Read `METSUKE_MEMORY.md`** — load `## LAST RUN` (what was diffed last time + what got applied), `## PENDING` (open SAM-side decisions to keep in mind), `## STANDING MONITORS` (recurring drift watches), `## CALIBRATION` (SAM's pattern of which flags SAM accepted vs declined — bias your reporting toward what SAM treats as drift). Then write `## CHANGES SINCE LAST RUN` based on what's moved in the state-of-truth layer since the previous run.
 
 1. **Load state-of-truth (read-set items 2-7).** Build a working note of:
-   - Current SAM-21/23/24/26 marks + trajectory
+   - Current marks + trajectory of the OPEN rows (`boot.py --predictions`)
    - Current THESIS header-banner date + most recent POV pivot annotations
    - Most recent CHANGELOG entries + their dates
    - Most recent TIMELINE RESOLVED entries
@@ -155,7 +155,7 @@ This is the heart of the job — every flag is an application of one of these ru
 
 | Category | What it covers | Format |
 |---|---|---|
-| **STALE-MARK** | A probability / threshold / level number in TRADE/STRATEGY that disagrees with PREDICTIONS/STATUS | `<file>:<approx line/section> — "<quoted phrase>" → current: <new value> (source: PREDICTIONS SAM-21 / STATUS dashboard / etc.)` |
+| **STALE-MARK** | A probability / threshold / level number in TRADE/STRATEGY that disagrees with PREDICTIONS/STATUS | `<file>:<approx line/section> — "<quoted phrase>" → current: <new value> (source: PREDICTIONS SAM-NN / STATUS dashboard / etc.)` |
 | **STALE-FRAMING** | A paragraph or sentence whose framing has been superseded by a thesis edit, POV pivot, or RESOLVED event | `<file>:<section> — "<quoted phrase>" superseded by <THESIS L?? / CHANGELOG YYYY-MM-DD / TIMELINE RESOLVED entry>` |
 | **DUP-LIVE-SPOT** | A live price/yield/level sitting in TRADE/STRATEGY (forward-looking content) that should only be in STATUS | `<file>:<section> — "<quoted phrase>" carries live spot; STATUS canon → strip and point to STATUS` |
 | **TRIGGER-STATUS-DRIFT** | A hard-trigger row's *status note* (`PENDING` / `✅ FIRED` / `NEAR-MISS`) that doesn't match current STATUS | `<file>:<section> — trigger "<name>" listed as <X>; STATUS reads <Y>` |
@@ -211,7 +211,7 @@ METSUKE trade-doc sweep — [date]
 
 *This brief seeds the rubric; SAM's CALIBRATION section in MEMORY refines it run-over-run.*
 
-- The single most common drift type is **STALE-MARK on SAM-21 / SAM-23** — those marks move on POV pivots that SAM cascades into STATUS / PREDICTIONS / CHANGELOG / TIMELINE but routinely skips into TRADE/STRATEGY body. Check trajectory column of PREDICTIONS first, then sweep both files for the older numbers.
+- The single most common drift type is **STALE-MARK on OPEN prediction rows** (historically SAM-21 / SAM-23, both since CLOSED) — those marks move on POV pivots that SAM cascades into STATUS / PREDICTIONS / CHANGELOG / TIMELINE but routinely skips into TRADE/STRATEGY body. Check trajectory column of PREDICTIONS first, then sweep both files for the older numbers.
 - The second most common is **STALE-FRAMING on RISK FACTORS mitigation columns** — THESIS gets the surgical edit; TRADE's parallel Risk Factors table lags by 1-2 POV pivots.
 - **STRATEGY's "WHERE WE ARE IN THE TRADE" stage-table top-row** is a high-signal drift watch — its prose summary captures the live framing in one paragraph and goes stale fastest.
 - **TRADE Hard-Trigger Status notes** (PENDING / ✅ FIRED / NEAR-MISS) drift on intervention zones and channel-status transitions.
@@ -225,7 +225,7 @@ METSUKE trade-doc sweep — [date]
 **Your closeout has always had a WRITE step. It now has a PRUNE step, because the write step alone was never enough.**
 
 ### Why this exists — measured, not theoretical
-SAM's own surfaces are capped (`STATUS.md` **250 lines**, `MEMORY.md` **100**) because unbounded accumulation drowns signal. **Your state file had no such rule and nobody noticed until it was measured on 2026-08-20:**
+SAM's own surfaces are capped (`STATUS.md` **250 lines**, `MEMORY.md` **100**) because unbounded accumulation drowns signal. **Your state file had no such rule and nobody noticed until it was measured on 2026-08-20.** ⚠️ *The table below is that **2026-08-20 measurement — a dated record, not current sizes** (by 9/11 it was off by up to 2.7×, METSUKE Run-21 item 5). For live sizes run `.venv/bin/python3 AGENTS/SAM/scripts/subagent_memory_roll.py --all`; never quote this table as current.*
 
 | | spec | state | total a spawn reads first | |
 |---|---|---|---|---|
