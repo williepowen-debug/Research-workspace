@@ -168,7 +168,7 @@ The pages and fields below are quoted verbatim from what the site returned.
 | Collateral | **Available where a UCC exists**, in the filing image only (assessment assignments seen at 7 filings across 7 associations) | UCC |
 | Default status | **Unavailable** | Neither system |
 | Maturity | **Unavailable.** The UCC lapse date is the 5-year filing life, not the loan maturity | Neither system |
-| Loan paid off or released | **Partial.** A UCC-3 termination shows the filing was released, not why | UCC |
+| Loan paid off or released | **Not established.** A UCC-3 termination ends the financing statement; it does not state whether the loan was repaid, refinanced or remains outstanding *(corrected 9/28 late, CATO review; previously read "shows the filing was released, not why")* | UCC |
 | Depository banks | Collected on the Building and Assessment form; **no public dataset found** | DBPR (not published) |
 
 ---
