@@ -4,14 +4,14 @@
   "Credit": "elev",
   "Energy": "elev",
   "Equity-vol": "watch",
-  "Japan / carry": "elev",
+  "Japan / carry": "watch",
   "Metals": "elev",
   "Rates": "crit",
-  "War theaters + tariffs + housing": "crit"
+  "War theaters + tariffs + rivers + housing": "crit"
  },
  "docket": {
   "2026-09-28": "\ud83d\udfe0 **CLASSIFY `PROME/state/ORCH_LOG.tsv` SPAWNS AS CAP-BEARING vs CAP-EXEM\u2026",
-  "2026-09-29": "HENRY BLIND VERDICT on BRT-12",
+  "2026-09-29": "PLAZA CONTINENTAL (3700 Inland Empire Blvd, Ontario CA)",
   "2026-09-30": "\ud83d\udd34 **L409 SCOPE WIDENED",
   "2026-10-01": "OZK $350M sub-notes reprice (2.75% \u2192 SOFR+209)",
   "2026-10-02": "L126 10/2 READ",
@@ -61,6 +61,7 @@
   "306": "\u2696\ufe0f DEWEY COURT-RECORDS HELPER \u2014 OVERTAKEN: DEWEY BUILT IT at cbac3972\u2026",
   "31": "SCHEDULE RATIFIED 2026-08-21 \u2014 ROW STAYS OPEN (dated Will-action; the\u2026",
   "314": "\u2696\ufe0f ORACLE's OCTOBER OIL LEG \u2014 (a) RULED 10:51 ET 9/28 (Will: *\"Approv\u2026",
-  "316": "\u2696\ufe0f SELL OR HOLD THE TWO WEDNESDAY EXPIRIES \u2014 your order, TERRY's reco\u2026"
+  "316": "\u2696\ufe0f SELL OR HOLD THE TWO WEDNESDAY EXPIRIES \u2014 your order, TERRY's reco\u2026",
+  "332": "\u2696\ufe0f BOND \"PULLED-DEAL CLUSTER\" \u2014 a prospective definition for the HY-m\u2026"
  }
 }
