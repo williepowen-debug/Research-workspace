@@ -1,6 +1,6 @@
 # REGINALD — Thesis Positions
 
-**Updated:** **2026-08-23 Sun (OPEX write-back — `KRE $60P Aug-21 ×3` marked LAPSED off the 8/21 close; the pre-registered outcome landed exactly as written and the derived `10×` line is corrected to `7×`).** ⚠️ **Structural data still current to the 7/20 FORGE broker export — this write-back is a REGISTERED EXPIRY, not a new export.** The absence-confirm at the next broker export is still owed. Prior: 2026-07-20 (FOLDED the fresh `FORGE/STATUS.md` **7/20 broker export** — PROME reconcile 7/16→7/20, commit `b7c26f21`: added the NEW Robinhood **WAL $77.5P Aug-21 ×1** [nearest-money print exposure], confirmed the Jul-17 dust expired off + cash flat = NO-ADD held + core Fidelity book position-for-position unchanged). Prior: 2026-07-18 (reconciled to the 7/16 export — strikes/expiries/**quantities** absorbed, Jun-30 cluster cleared, Jul-17 legs → LAPSED); 2026-06-19, 2026-05-21, 2026-05-08.
+**Updated:** **2026-09-29 Tue ~20:1x ET — brought current to the `FORGE/STATUS.md` 2026-09-29 reconcile (ANVIL, from Will's intraday broker screenshots via PROME's transcription; a broker VIEW, not a raw export).** Structural book UNCHANGED since 8/23 (KRE Dec-18 ×5 · Sep-30 ×2 · HBAN Oct-16 ×2 · APO Dec-18 ×1). Three state changes: ① **the `KRE $60P Aug-21 ×3` absence-confirm is CLOSED** — FORGE 9/29 carries the five Aug-21 rows as EXPIRED, broker-confirmed (realized −$2,816.72 book-wide; rotation record); ② **`HBAN $16P Oct-16 ×2` is ITM** (HBAN $15.27 [9/29 close]) — the 7/18 "exit-thesis dust, rides to expiry" premise FAILED; card `MGMT-HBAN16P-OCT16` on file, **Will rules by Wed 10/14 (WQ-302)**; ③ **`KRE $60P Sep-30 ×2` expires TOMORROW — LAPSE ruled (WQ-168 ⑥)**, KRE $69.83 [9/29] = −14.1% OTM; write back 10/1 from the broker export. ⚠️ Marks are never cited from here. Prior: **2026-08-23 Sun (OPEX write-back — `KRE $60P Aug-21 ×3` marked LAPSED off the 8/21 close; the pre-registered outcome landed exactly as written and the derived `10×` line is corrected to `7×`).** ⚠️ **Structural data still current to the 7/20 FORGE broker export — this write-back is a REGISTERED EXPIRY, not a new export.** The absence-confirm at the next broker export is still owed. Prior: 2026-07-20 (FOLDED the fresh `FORGE/STATUS.md` **7/20 broker export** — PROME reconcile 7/16→7/20, commit `b7c26f21`: added the NEW Robinhood **WAL $77.5P Aug-21 ×1** [nearest-money print exposure], confirmed the Jul-17 dust expired off + cash flat = NO-ADD held + core Fidelity book position-for-position unchanged). Prior: 2026-07-18 (reconciled to the 7/16 export — strikes/expiries/**quantities** absorbed, Jun-30 cluster cleared, Jul-17 legs → LAPSED); 2026-06-19, 2026-05-21, 2026-05-08.
 
 > ⚠️ **Broker-truth caveat (rule #4):** the structural data below (strikes/expiries/quantities) is now current to the **7/20 FORGE broker export** — the freshest real export, which resolves both items formerly owed: (a) the **7/17 expiry** dust confirmed expired off (Fidelity WAL $65P / ZION $57.5P / FLG ×3 + Robinhood WAL $75P etc.); (b) the **intra-week (7/16→7/20) delta** — one net change: RH WAL $77.5P Aug-21 ×1 added; cash ~flat (+$7.59) = no other fills; core book unchanged. Marks/P&L go stale immediately — do NOT cite from here; strikes/expiries/quantities are structural and hold until a trade fires.
 >
@@ -22,22 +22,22 @@
 
 ---
 
-## Bank Puts (LIVE) — reconciled to FORGE 7/16 broker export
+## Bank Puts (LIVE) — reconciled to the FORGE 2026-09-29 reconcile (structure unchanged since the 7/16 export)
 
 > ⚠️ **CORRECTION 2026-08-13 (book-vs-thesis reconciliation, Will-ruled slate item #1).** Two rows below carried **false "trimmed" notes** for four weeks. **Neither trim happened.** Both were unit-mismatch artifacts of the 7/16 reconcile — a count of **rows** written into a sentence about a count of **contracts** and labelled as a size decision. **Root rule #7 ("trimming = thesis broken") was NEVER triggered on KRE or HBAN**, and the missing rationale was missing because there was no decision to record. Root cause: the 6/19-vintage ledger self-declared CANONICAL while recording **zero quantities**, so a row-count stood in for a contract-count. **Quantities below are unchanged and broker-sourced; only the false notes are corrected.** Full trace → `reports/2026-08-13_book-vs-thesis-reconciliation.md` §5.
 
 
 | Ticker | Strike | Expiry | Qty | Notes |
 |---|---|---|---|---|
-| KRE | $60P | Sep-30-2026 | 2 | |
+| KRE | $60P | Sep-30-2026 | 2 | **Expires Wed 9/30 — LAPSE ruled (WQ-168 ⑥); −14.1% OTM at the 9/29 close.** Write back 10/1 from the export, not the tape. |
 | KRE | $60P | Dec-18-2026 | 5 | (2 + 3 margin) — ⚠️ **CORRECTED 2026-08-13: NO TRIM EVER HAPPENED.** Superseded text read *"Dec-18 trimmed 7→5 per 7/16 reconcile"* — that compared **7 KRE ROWS across ALL FOUR expiries** (three of them already expired) in the pre-reconcile file `f74117049`, which had **no quantity column at all**, against **5 CONTRACTS on ONE expiry**. Rows vs contracts. **Root rule #7 was never triggered; there was no size decision to record.** |
-| HBAN | $16P | Oct-16-2026 | 2 | ⚡ **EXIT-thesis dust** (Will ruled 7/18) — $20 residual, rides to expiry, do NOT re-enter. ⚠️ **CORRECTED 2026-08-13: NO TRIM.** Superseded text read *"trimmed 4→2 per 7/16 reconcile"*; the **"4" appears nowhere in this ledger at any vintage**, and the recorded quantity went **1 un-quantified row → 2 contracts**, i.e. UP. Same unit-mismatch class as the KRE row above. |
+| HBAN | $16P | Oct-16-2026 | 2 | 🟠 **ITM as of 9/26 (TERRY); HBAN $15.27 [9/29 close].** The 7/18 *"exit-thesis dust, rides to expiry"* ruling stands as written but its premise failed — card `MGMT-HBAN16P-OCT16`, **Will rules by Wed 10/14 (WQ-302)**. Do NOT re-enter; do not pre-decide. *(Prior text:)* ⚡ **EXIT-thesis dust** (Will ruled 7/18) — $20 residual, rides to expiry, do NOT re-enter. ⚠️ **CORRECTED 2026-08-13: NO TRIM.** Superseded text read *"trimmed 4→2 per 7/16 reconcile"*; the **"4" appears nowhere in this ledger at any vintage**, and the recorded quantity went **1 un-quantified row → 2 contracts**, i.e. UP. Same unit-mismatch class as the KRE row above. |
 
 ## Credit / Convergence (LIVE)
 
 | Ticker | Strike | Expiry | Qty | Notes |
 |---|---|---|---|---|
-| APO | $95P | Dec-18-2026 | 1 | longer-dated PC short (BROCK thesis vehicle) |
+| APO | $95P | Dec-18-2026 | 1 | longer-dated PC short (BROCK thesis vehicle); **Will ruled HOLD 8/13**; vehicle-mismatch flag live (BROCK owns) |
 
 *OZK puts are peer-owned → `../OZK/POSITIONS.md` (FORGE 7/16 shows OZK Aug-21 $45P ×4 + $42.5P ×1 as the live 7/21-print-catchers; the Jul-17 $42.5P ×2 lapsed). IWM/macro options (IWM $292P Jul-17 lapsed, KRE $25P Jan-2027 lottery) live in `FORGE/STATUS.md`, not thesis-scope.*
 
@@ -45,7 +45,7 @@
 
 | Ticker | Strike | Expiry | Qty | 8/21 close | Note |
 |---|---|---|---|---|---|
-| KRE | $60P | Aug-21-2026 | 3 | **$74.86** | lapsed worthless, **−19.9% OTM**. Outcome pre-registered 8/20 12:02 ET at $74.62 / −19.6% and matched. Decision-free; no rule-#7 read. ⚠️ **Broker-export absence-confirm still owed** (rule #4 — graded off the tape, not off an export). |
+| KRE | $60P | Aug-21-2026 | 3 | **$74.86** | lapsed worthless, **−19.9% OTM**. Outcome pre-registered 8/20 12:02 ET at $74.62 / −19.6% and matched. Decision-free; no rule-#7 read. ✅ **Absence-confirm CLOSED 2026-09-29: FORGE's 9/29 reconcile carries the Aug-21 rows as EXPIRED, broker-confirmed** (rule #4 satisfied at the mirror of a broker view; a raw export would be stronger and is PROME's to obtain). |
 
 *(Peer legs same expiry — **OZK $45P ×4 + $42.5P ×1**, OZK closed $49.42 — are `../OZK/`-owned and deliberately NOT graded here.)*
 
