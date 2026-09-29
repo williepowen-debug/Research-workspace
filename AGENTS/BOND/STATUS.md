@@ -19,6 +19,7 @@
 1. **L477 Q3/Q4 contributions (9/25)** → `KB-BND-336` + snapshot `2026-09-29b` · **Carried 9/24–9/26** → snapshot `2026-09-28d` (BND-27 FALSE · WQ-291/246 encoded · WQ-280 ADD DECLINED · BND-26 FALSE · FR2004 trade-date basis `KB-BND-332`).
 
 ## Regime (one-line)
+<!-- bond-state: thesis=v1.2.10; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=NOT-FIRED; posture=HOLD-NO-ADD -->
 
 **Real-rate / higher-for-longer — and the policy path is still repricing HAWKISHLY.** C-36 TWO-PART (ruled 9/1): policy-path channel ALIVE · term premium drove the July delta. **9/16 FOMC +25bp to 3.75–4.00 (12–0); the curve priced ABOVE the SEP median (4.125) and then kept going (`BND-26`).** **Auctions: "expensive, not broken" is UNDER TEST — first OLD-conjunctive fire on the live-graded record (9/23 5Y), calm funding; dealer leg prints 10/1.** Full ruling → `thesis/THESIS.md` **v1.2.10** (banner reconciled 9/29).
 

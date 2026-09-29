@@ -15,6 +15,7 @@
 
 ## CLOSEOUT — 9/29 ~15:5x ET (Will's session)
 - closeout_check rc0 after fixing the 10/6 row's 'TBA' clause · kb_lint rc0 · claim_check clean · orphan [not yours] only · read_cap BOND rc0 · STATUS 73.7% of budget · VX-BND-05 refreshed (FLOW unchanged: no channel change today) · RECEIPT.md overwritten · MEMORY n+1 (NEXUS_BRIEF lag) · 13 path-scoped commits · **safe-push at closeout (receipt in the final message; if it aborted, the note is here instead)**.
+- ✅ **`monitors/mirror_check.py` BUILT 16:3x ET (Will: 'do we not check that at closeout?') → closeout check 3/4 MIRROR SYNC: bond-state TOKEN on STATUS/THESIS/TRADE + version cites + retired phrases; 9 fixtures; combined selftest 63; first live run caught TRADE citing v1.2.9 vs THESIS v1.2.10 (fixed). RULE FROM NOW: when state changes, update the `<!-- bond-state: … -->` token on all three surfaces in the SAME edit as the prose.** `KB-BND-368`.
 - ✅ **THESIS header/banner/Status/Conviction/POSITION VIEW reconciled 16:1x ET on Will's instruction → v1.2.10** (CHANGELOG entry; snapshot `thesis/archive/2026-09-29_THESIS_v1.2.9_pre-header-reconcile_snapshot.md`; MEMORY n+2). PROME's 13:2x list is now fully closed (TRADE.md done earlier).
 
 ## WHAT I DID — 9/29 13:0x→13:11 ET PROME follow-up (pre-registration) + PROME drift advice

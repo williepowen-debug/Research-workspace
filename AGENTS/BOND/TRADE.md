@@ -1,7 +1,8 @@
 # BOND — Trade Recommendations
 
 **Last Updated:** 2026-09-29 ~15:5x ET by BOND — **VIEW RE-BASED** (Will's question *"what is the condition of BOND's TRADE.md"*, after PROME's 13:2x cold read flagged the header and §1; a whole-file read then found §2 describing the OPPOSITE of the live tape). **This file carries POSTURE and GATES only. No marks. Every live level, distance, run and score → `STATUS.md`, recomputed each boot.** The 9/9 view and this morning's dated notes are preserved VERBATIM at `archive/2026-09-29_TRADE_pre-view-rebase-snapshot.md` (crc32 `2244352390`); the 8/19 pre-rebase file is at `archive/2026-09-09_TRADE_pre-rebase-full-snapshot.md` (crc32 `2213891460`). Nothing deleted.
-**Regime:** 🟠 ELEVATED — `thesis/THESIS.md` **v1.2.9** (C-36 TWO-PART, ruled 9/1: policy-path channel alive · term premium drove the July delta) · STATUS carries the same. *(This line read "🟡 WATCH escalating · v1.2.3" until 9/29 — a stale header, not a disagreement.)*
+**Regime:** 🟠 ELEVATED — `thesis/THESIS.md` **v1.2.10** (C-36 TWO-PART, ruled 9/1: policy-path channel alive · term premium drove the July delta) · STATUS carries the same. *(This line read "🟡 WATCH escalating · v1.2.3" until 9/29 — a stale header, not a disagreement.)*
+<!-- bond-state: thesis=v1.2.10; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=NOT-FIRED; posture=HOLD-NO-ADD -->
 **Registered predictions covering this book:** **OPEN `BND-30`** (70%: the 9/29 leg was term premium, ACM 9/29 TP-share ≥0.50) · **`BND-31`** (65%: Tokyo 9/30 JGB 30Y <+4.0bp = the US move did not export). Resolved: `BND-29` TRUE 9/17 · `BND-25` TRUE 9/24 · `BND-26` FALSE 9/24 · `BND-27` FALSE 9/28. Tally 14 TRUE · 13 FALSE · 1 VOID; the last two misses under-called the stress. Canonical → `thesis/PREDICTIONS.tsv`.
 
 ---

@@ -51,6 +51,7 @@ def _load(name: str):
 def main() -> int:
     br = _load("boot_recompute")
     ac = _load("assertion_check")
+    mc = _load("mirror_check")
 
     if "--selftest" in sys.argv:
         print("=" * 74)
@@ -66,28 +67,30 @@ def main() -> int:
         rc_lint = _load("kb_lint").selftest()
         print()
         rc_ass = ac.selftest()
+        print()
+        rc_mir = mc.selftest()
         print("\n" + "=" * 74)
         # counts read from the modules, never hardcoded -- a literal here goes
         # stale the moment a fixture is added, which is the same class of defect
         # the fixtures exist to catch. The "6" that used to sit here was already
         # wrong by 8 within an hour of kb_lint gaining VX/FLOW coverage.
         nlint = len(_load("kb_lint").FIXTURES_ALL())
-        total = len(br.DRIFT_FIXTURES) + nlint + len(ac.FIXTURES)
+        total = len(br.DRIFT_FIXTURES) + nlint + len(ac.FIXTURES) + len(mc.FIXTURES)
         print(f"  COMBINED: {len(br.DRIFT_FIXTURES)} numeric + {nlint} workbook-lint + "
-              f"{len(ac.FIXTURES)} assertion = {total} fixtures")
-        bad = rc_num or rc_ass or rc_lint
+              f"{len(ac.FIXTURES)} assertion + {len(mc.FIXTURES)} mirror = {total} fixtures")
+        bad = rc_num or rc_ass or rc_lint or rc_mir
         print(f"  {'ALL PASS' if not bad else 'FAILURES PRESENT'}")
         print("=" * 74)
         return 1 if bad else 0
 
     print("=" * 74)
     print(f"  BOND CLOSEOUT PASS · {dt.datetime.now():%Y-%m-%d %H:%M} local")
-    print("  workbook conformance + numeric drift + stale assertions · one fetch · one verdict")
+    print("  workbook conformance + numeric drift + stale assertions + mirror sync · one fetch · one verdict")
     print("=" * 74)
 
     # ---- ONE cache-busted fetch, shared by both checkers -------------------
     print("\n" + "-" * 74)
-    print("  0/3  WORKBOOK CONFORMANCE  (enums · vocabulary · dates · IDs)")
+    print("  0/4  WORKBOOK CONFORMANCE  (enums · vocabulary · dates · IDs)")
     print("-" * 74)
     rc_lint = _load("kb_lint").main()
 
@@ -116,13 +119,13 @@ def main() -> int:
 
     # ---- 1. NUMERIC drift on the boot-unread surfaces ---------------------
     print("\n" + "-" * 74)
-    print("  1/3  NUMERIC DRIFT  (gate table + boot-unread surfaces)")
+    print("  1/4  NUMERIC DRIFT  (gate table + boot-unread surfaces)")
     print("-" * 74)
     findings += br.check_unread_surfaces(series)
 
     # ---- 2. STALE ASSERTIONS ---------------------------------------------
     print("\n" + "-" * 74)
-    print("  2/3  STALE ASSERTIONS  (directional · file-state · expired · capability)")
+    print("  2/4  STALE ASSERTIONS  (directional · file-state · expired · capability)")
     print("-" * 74)
     a = 0
     a += ac.check_directional(series)
@@ -133,15 +136,22 @@ def main() -> int:
         print("\n   ✅ no stale assertion of a CHECKED SHAPE fired")
     findings += a
 
+    # ---- 3. MIRROR SYNC (the decidable part of charter step 17) -----------
+    print("\n" + "-" * 74)
+    print("  3/4  MIRROR SYNC  (THESIS version cites · bond-state token · retired phrases)")
+    print("-" * 74)
+    findings += mc.check_files()
+
     # ---- verdict ----------------------------------------------------------
     print("\n" + "=" * 74)
     if findings == 0:
-        print("  ✅ CLOSEOUT PASS CLEAN — 0 findings across all three checks.")
+        print("  ✅ CLOSEOUT PASS CLEAN — 0 findings across all four checks.")
         print()
         print("  Scope of that statement, so it is not over-read:")
         print("   · workbook conformance covers KB/PREDICTIONS enums, vocab, dates, IDs")
         print("   · numeric drift is checked on TRADE.md / monitors/ / NEXUS_BRIEF + FR2004 vintage")
         print("   · assertions are checked for FOUR shapes only")
+        print("   · mirror sync compares the bond-state TOKEN and version strings, not the prose beside them")
         print("   · neither check can judge whether ANALYSIS is still true, and")
         print("     assertions phrased in unknown words are outside scope entirely")
         print("  A clean pass means 'nothing of these shapes fired', never 'the files")
