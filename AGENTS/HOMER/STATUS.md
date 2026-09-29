@@ -102,7 +102,7 @@
 |---|---|---|
 | **A1** | GSE MF band | ✅ **RULED 9/17 — WQ-248 C** (Will: *"248 - C is fine"*): letter frozen, grade each print against it; an ungraded leg above the top rung is CORRECT until I have a basis for a rung (mine to write) |
 | **A5 leg 1** | ✅ **BUILT 2026-09-29 — `thesis/THESIS.md`** (thesis + kill rail; first grade **0 of 5 legs FIRED ⇒ 🔴 holds**; formal grade **2026-11-20**). **Registered by PROME as `GATE-HOMER-THESIS-KILL`** (GATES.tsv, JUDGEMENT class, review_by 11/20; PROME message 2026-09-29). 3c convergence handle still open | ✅ |
-| **A2–A5** | **Four Will-approved items (8/23), now 37 days deferred:** **A2** rider — owed is RATIFICATION (draft exists) · **A3** Rent Growth retune · **A4** National Foreclosures retune (basis = STARTS) — **A3/A4 WORK authorized, LEVELS Will-gated** · **A5** remaining leg = the convergence handle (3c); the kill rail is BUILT (row above) | ⛔ **OPEN: A2, A3, A4, A5-3c** |
+| **A2–A5** | **All four DATED 2026-09-29** (were "next spawn" for 37 days). **A2** rider ✅ ENCODED (option A, no-verdict precursor; KB-HOMER-032) · **A3/A4** research DONE, levels + basis in `PROME/inbox/2026-09-29_from-HOMER_A3-A4-band-retunes-proposed-levels-for-one-WQ.md` — **A4 proposed 100K/130K/175K on STARTS (Q2 81,935, ~18K under Yellow); A3 feed FOUND (Apartment List, Apollo's own source): 46% Sep = Orange on UNCHANGED levels** — ⛔ **NOT installed, Will-gated, check ruling 10/06** · **A5-3c** link packeted to CARL (ack by 10/05), build by **10/09** | ⏳ A3/A4 with Will · A5-3c 10/09 |
 | **A6** | Cure Rates band | ✅ **CLOSED 2026-09-24 — graded on its NATIVE basis (YoY cure rate, ICE Mortgage Monitor): YELLOW.** Feed = the Mortgage Monitor (docket row); the First Look MoM count is an OBSERVATION, not the band |
 | **A7–A11** | 5 sample-limited rungs (research) · FL Orange >1.50% the one bracketed level · MBA NDS primary 403-gated site-wide | open |
 
@@ -111,7 +111,7 @@
 
 ### C. Instruments that GRADE NOTHING — do not read silence as calm
 - ⛔ **Trepp maturity-adjusted MF** — no value since June; trepp.com reachable 9/24 ⇒ **re-test at issuer next session before the dated kill executes**
-- ⛔ **7 standing dead/ungraded instruments** (National Foreclosures DISARMED · FL YoY RETIRED · **Rent growth: no feed, last reading ABOVE RED**) + 2 annual-only FL bands + 3 measurement breaks → `OBLIGATIONS_OTHERS.md` §C-STANDING
+- ⛔ **7 standing dead/ungraded instruments** (National Foreclosures DISARMED — retune proposed 9/29 · FL YoY RETIRED · **Rent growth: grades nothing until ruled — its source is found (Apartment List), latest rebuild 46% Sep-2026, NOT a band reading until Will rules**) + 2 annual-only FL bands + 3 measurement breaks → `OBLIGATIONS_OTHERS.md` §C-STANDING
 - ⛔ **Google Trends** — RETIRED at CARL 9/1; **9/10 captures UNDATED / NOT GRADEABLE** (Will, WQ-225); my 9/14 "bounded ~9/06" WITHDRAWN
 - ⛔ **Morgan Stanley 7.1%** — unresolved perimeter; closing it needs the MS report
 
