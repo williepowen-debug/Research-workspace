@@ -74,7 +74,7 @@ curl -sL "https://ftp.nhc.noaa.gov/atcf/btk/bal012026.dat"
 ```
 Parse `tau == 0` rows, dedupe by timestamp, apply the same status/≥34 kt filter.
 **2026 season to date = `3.09`** — Arthur 0.40 · Bertha 2.24 · Cristobal 0.44 · three INVEST decks at 0.00.
-⚠️ **b-decks include INVEST (AL9x) entries that contribute 0** — keep them in the loop, they are not errors.
+🔴 **CORRECTED 2026-09-28 — SUM `bal01`–`bal49` ONLY; EXCLUDE INVEST decks (`bal90`–`bal99`).** This line used to read *"b-decks include INVEST (AL9x) entries that contribute 0 — keep them in the loop, they are not errors."* **False on 9/28:** `bal90` and `bal91` each repeated a **40-kt row at the naming hour** (the invest's last fix duplicates the named storm's first), so summing every deck gave **9.9000 vs the correct 9.5800 — +0.32 double-count**. An invest that never becomes a named storm contributes 0 anyway (it rarely reaches 35 kt as an invest); one that does is already counted in its AL01–49 deck. **Excluding invests is correct in both cases.** *(KB-AEO-153.)*
 
 #### The bands, now anchored to a real number
 | | % of normal | **ACE units** |

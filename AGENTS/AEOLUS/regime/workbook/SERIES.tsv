@@ -63,3 +63,17 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-09-17	djf_temp_northeast_corridor	40	pct	CPC-GIS-lead3DJF	2026-09-18	PJM footprint above-normal temp prob. Fcst_Date 20260917. UNCHANGED from the 8/20 issuance at every PJM point tested
 2026-09-17	djf_temp_abovenormal_max	50	pct	CPC-GIS-lead3DJF	2026-09-18	max above-normal prob over the PJM footprint = Cleveland OH 50%; CONUS-wide 50% contour also PNW/upper Midwest. Unchanged vs 8/20
 2026-09-17	djf_temp_florida_category	33	pct	CPC-GIS-lead3DJF	2026-09-18	NEAR-NORMAL remains the favored temp category for Miami/Orlando/Tampa. Unchanged vs 8/20
+2026-09-16	nino34_weekly	3.0	degC	CPC-wksst9120.for	2026-09-28 20:00 ET	week centered 16SEP2026; SST 29.6; col3. Ties the prior series record (18NOV2015 +3.0)
+2026-09-23	nino34_weekly	3.1	degC	CPC-wksst9120.for	2026-09-28 20:00 ET	week centered 23SEP2026; SST 29.7; col3. LATEST WEEK AVAILABLE. HIGHEST Nino-3.4 weekly anomaly in the file (2352 weeks, 02SEP1981-23SEP2026); prior max 18NOV2015 +3.0. Traj 19AUG 2.6 -> 26AUG 2.6 -> 02SEP 2.8 -> 09SEP 2.9 -> 16SEP 3.0 -> 23SEP 3.1 = 4 consecutive weekly rises. ABSOLUTE OISST 1991-2020 basis - NOT RONI, not comparable to the +2.5 RONI historic bar. WALTER 23SEP 29.7/+3.1 VERIFIED at primary
+2026-09-16	nino3_weekly	3.8	degC	CPC-wksst9120.for	2026-09-28 20:00 ET	week centered 16SEP2026
+2026-09-23	nino3_weekly	3.9	degC	CPC-wksst9120.for	2026-09-28 20:00 ET	week centered 23SEP2026. Highest Nino-3 weekly anomaly in file; highest pre-2026 = 3.3 (12NOV1997/26NOV1997)
+2026-09-16	nino12_weekly	4.6	degC	CPC-wksst9120.for	2026-09-28 20:00 ET	week centered 16SEP2026
+2026-09-23	nino12_weekly	4.7	degC	CPC-wksst9120.for	2026-09-28 20:00 ET	week centered 23SEP2026. Highest Nino-1+2 weekly anomaly in file; highest pre-2026 = 4.5 (29JUN1983). THE +4 FIGURE IS NINO-1+2, NOT 3.4
+2026-09-16	nino4_weekly	1.0	degC	CPC-wksst9120.for	2026-09-28 20:00 ET	week centered 16SEP2026
+2026-09-23	nino4_weekly	1.1	degC	CPC-wksst9120.for	2026-09-28 20:00 ET	week centered 23SEP2026. Nino-4 still the weakest region; file max 1.7 (Nov 2015 / 29NOV2023)
+2026-08-12	nino12_weekly	4.1	degC	CPC-wksst9120.for	2026-09-28 20:00 ET	REVISED from 4.0 (recorded 2026-08-21). OISSTv2.1 near-real-time revision
+2026-08-19	nino3_weekly	3.2	degC	CPC-wksst9120.for	2026-09-28 20:00 ET	REVISED from 3.3 (recorded 2026-08-27). OISSTv2.1 near-real-time revision
+2026-08-26	nino3_weekly	3.3	degC	CPC-wksst9120.for	2026-09-28 20:00 ET	REVISED from 3.4 (recorded 2026-09-18). OISSTv2.1 near-real-time revision
+2026-08-26	nino4_weekly	0.9	degC	CPC-wksst9120.for	2026-09-28 20:00 ET	REVISED from 1.0 (recorded 2026-09-18). OISSTv2.1 near-real-time revision
+2026-09-02	nino12_weekly	4.4	degC	CPC-wksst9120.for	2026-09-28 20:00 ET	REVISED from 4.6 (recorded 2026-09-18). OISSTv2.1 near-real-time revision
+2026-09-02	nino34_weekly	2.8	degC	CPC-wksst9120.for	2026-09-28 20:00 ET	REVISED from 2.7 (recorded 2026-09-18). OISSTv2.1 near-real-time revision

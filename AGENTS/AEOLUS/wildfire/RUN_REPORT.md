@@ -1,167 +1,115 @@
 # AEOLUS · WILDFIRE — RUN REPORT
 
-**run_date: 2026-09-18** (Friday) · folder last refreshed 2026-08-27 — **22-day gap closed**
-**Worker run. Nothing here is graded. AEOLUS scores C4, fires triggers and resolves AEO-09.**
+**run_date: 2026-09-28** (Monday; written 20:04 EDT) · covers the AEOLUS dark window 9/18 → 9/28
+**This is a worker run and nothing in it is graded. AEOLUS scores C4, fires triggers and resolves AEO-09.** The 9/18 proposals P1–P10 are still open. This run adds evidence under P1, P3 and P7 and adds P11–P14.
 
 ---
 
 ## observations_added
 
-**5 rows → `workbook/SERIES.tsv`** (all dated 2026-09-18, all approved instrument names, 7-field check passes on all 22 rows)
-**11 rows → `workbook/LOG.tsv`** (6-field check passes on all 24 rows)
-Also updated: `DOSSIER.md` (full rewrite, two-clock header → `Last real data refresh: 2026-09-18`) and `SOURCES.md` (three new verified-command blocks).
+**8 rows went to `workbook/SERIES.tsv`** (30 rows total, 7 fields on every row) and **8 rows to `workbook/LOG.tsv`** (33 rows total, 6 fields on every row). `DOSSIER.md` got a new two-clock header reading `Last real data refresh: 2026-09-28` and a "2026-09-28 WORKER REFRESH" block. The §3, §4 and §5 summary lines that were still carrying 9/18 figures were also updated. Every `pulled_at` value is `2026-09-28`, and `date` was run before each write.
 
-### The instrument table
+| instrument | value | data date | source | Δ vs 9/18 |
+|---|---|---|---|---|
+| `nifc_preparedness_level` | **2** ("as of September 22, 2026 at 7:30 a.m. MDT") | 9/28 fetch | NIFC-NFN | 🔽 **3 → 2 on 9/22.** PL3 held from 9/9 to 9/22 (14 days counting both ends). |
+| `nifc_acres_ytd` | **8,559,888** | 9/25 | NIFC-NFN | +36,675 |
+| `nifc_fires_ytd` | **57,087** | 9/25 | NIFC-NFN | +798 |
+| `nifc_acres_pct_10yr_avg` | **145** (from the narrative) | 9/25 | NIFC-NFN | 146 → 145. ⚠️ Cannot be reproduced (P12) |
+| `nifc_large_fires_uncontained` | **26** (from the narrative) | 9/25 | NIFC-NFN | 50 → 26. ⚠️ **The basis changed** (P11) |
+| `nifc_acres_ytd` | **8,563,287** | 9/28 07:55 | NIFC-statistics | +3,399 vs 9/25 |
+| `nifc_fires_ytd` | **57,339** | 9/28 07:55 | NIFC-statistics | +252 vs 9/25 |
+| `nifc_large_fires_uncontained` | **17** ("Being Suppressed") | 9/28 07:55 | NIFC-statistics | — |
+| personnel (not in the vocabulary, so not in SERIES) | **6,824** (NFN, 9/25) · **5,697** (statistics page, 9/28) | — | — | 9/18: 12,315 |
+| `h1_us_insured_natcat` | unchanged at ~$36B US / $46bn global, 28% below average | H1 2026 | — | **No new row. The data is now about 3 months old.** |
 
-| instrument | value | unit | as-of | source | Δ vs prior (8/27) |
-|---|---|---|---|---|---|
-| `nifc_preparedness_level` | **3** | level | 9/18 *(set 9/9 07:30 MDT)* | NIFC-NFN | 🔽 **5 → 3.** PL5 run **ENDED 9/9** after **54 days inclusive / 53 elapsed** (7/18→9/9) |
-| `nifc_acres_ytd` | **8,523,213** | acres | 9/18 | NIFC-NFN | ⬆️ **+551,814** |
-| `nifc_acres_pct_10yr_avg` | **146** | pct | 9/18 | NIFC-NFN | 🔽 **164 → 146 (−18 pts)** |
-| `nifc_fires_ytd` | **56,289** | count | 9/18 | NIFC-NFN | ⬆️ **+4,855** (pct 127 → 126) |
-| `nifc_large_fires_uncontained` | **50** | count | 9/18 | NIFC-NFN | 🔽 **−44** (from 94) |
-| personnel assigned *(not a vocabulary instrument — not logged to SERIES)* | **12,315** | count | 9/18 | NIFC-statistics | 🔽 **−9,539** (from 21,854) |
-| 10-yr avg YTD, **published** *(context)* | **44,745 fires · 5,823,577 acres** | — | 9/18 | NIFC-NFN | 🔑 **fields render again** — blank 8/21 & 8/27 |
-| `h1_us_insured_natcat` | **~$36B US / $46bn global**, 28% below avg | USD_bn | **H1 2026** | Gallagher Re / Munich Re / Aon | **UNCHANGED — no new row appended.** Vintage now **~2.5 months** old |
-| Spokane single-event insured loss | **$1.0–1.3B** | USD_bn | **8/18** | **Cotality — NOT in SOURCES.md** | 🔴 **NEW to the record; MISSED by the 8/27 run** |
-| NAIC company-initiated nonrenewal rate, Western Zone | **25.1** | per 1,000 PIF | **2024** | NAIC CIPR 2026-07-31 | 🔑 vintage **2022 → 2024** |
-| USDM CONUS D1–D4 *(**cited from `water/`, not pulled**)* | **56.61** | pct | **8/25** | water/workbook/SERIES.tsv | ⚠️ unchanged — **water/'s own series is 24 days stale** |
-
-### ⚠️ Read the acreage pair together, never the ratio alone
-
-**Absolute acres ROSE +551,814 while the ratio FELL 18 points.** Third consecutive read with that signature — and this run it is **measured, not inferred**: the published 10-yr comparator grew from an implied ~4,860,609 ac (8/27) to **5,823,577 ac** (9/18), **+962,968 acres of denominator in 22 days** against +551,814 of numerator. **The comparator is accreting faster than this year's fires. The falling percentage is not a deceleration signal on its own.**
-
-✅ **Reproducibility:** `8,523,213 / 5,823,577 = 146.36%` and `56,289 / 44,745 = 125.80%` — both narrative percentages reproduce from the newly-rendering published averages. **DOSSIER open question #6 (derived-vs-published averages, open since 8/21) is CLOSED.**
+⚠️ **Source label:** the three 9/28 rows use `source = NIFC-statistics`, which is the SOURCES.md "NIFC statistics" page. The AGENT.md vocabulary lists only `NIFC-NFN`. AEOLUS may reject the label. If so, only these three rows are affected.
 
 ---
 
 ## threshold_state
 
-*Values and margins only. **NOT-FIRED / FIRED language below is a statement about the arithmetic, not a grade.***
+*This section gives values and margins only. "NOT-FIRED" here describes the arithmetic. It is not a grade.*
 
-| Band (AEOLUS's, cited from `../CLAUDE.md`) | Instrument value | Margin | State |
+| Band / trigger | Value | Margin | State |
 |---|---|---|---|
-| **Reinsurer cat-loss tally vs 10-yr avg** — Y ≥110% · O ≥130% · **R ≥150%** | **~72%** (H1 2026, "28% below the 10-year average") | **~38 pts below YELLOW; ~78 pts below RED** | **NOT-FIRED — and pointing the opposite way.** ⚠️ **Measured on a window that CLOSED 2026-06-30** |
-| **C4 upgrade 3 → 4:** carrier insolvency **OR** single **>$10B** insured cat | Spokane **$1.0–1.3B** (Cotality 8/18) / "hundreds of millions… plausibly $1B" (Gallagher Re 8/6). No insolvency reported | **~$8.7–9.0B short** | **NOT-FIRED.** The higher estimate narrows the gap but **does not change the order of magnitude** |
-| **C4 channel-kill:** H1 cat <110% **AND** non-renewals stable 2+ quarters | loss leg ~72% **satisfies**; non-renewal leg **cannot be evaluated** (annual series, ends 2024) | conjunction unsatisfied on leg 2 | **NOT-FIRED** |
-| **Property non-renewal rate** — Y +10% YoY · O +25% · R +40%/carrier exit | NAIC Western Zone **8.0 → 25.1 per 1,000 (2022→2024)**; all zones **+96% to +216% since 2018** | see caveats — **wrong periodicity, wrong vintage, unknown zone membership** | ⚠️ **NOT GRADEABLE. See the three blockers below.** |
+| Reinsurer cat-loss tally ≥110/130/**150%** of the 10-yr average | **~72%** (H1 2026). The measurement window closed 6/30. | ~38 pts below Yellow, ~78 pts below Red | **NOT-FIRED.** The data covers a window that ended before the fire season. |
+| C4 upgrade: carrier insolvency OR a single insured cat above **$10B** | Spokane: **$1.0–1.3B** (Cotality, estimate dated 8/18; page last updated 8/24; unchanged). No insolvency found. | ~$8.7–9.0B short | **NOT-FIRED** |
+| C4 channel-kill: H1 cat below 110% AND non-renewals stable for 2+ quarters | Loss leg ~72% (meets it). Non-renewal leg cannot be evaluated because the series is annual and ends in 2024. | Leg 2 unevaluable | **NOT-FIRED** |
+| Non-renewal rate +10/+25/+40% YoY | No new data. NAIC Western Zone 2024 = 25.1 per 1,000 is still the latest. | — | **Not gradeable** (the P4 blockers are unchanged) |
 
-🔴 **146% IS AN ACREAGE PERCENTAGE. THE CAT-LOSS BAND READS ~72%.** Different rows of the threshold table, different units. This run the temptation runs the *other* way from usual — the peril leg cooled on five of six fields, which invites reading convergence. **It is not convergence:** one leg is decaying (and partly for denominator reasons), the other is **frozen on a window that ended before the fires**. A real convergence read waits for the **Q3 tally (~Oct)**.
+🔴 **145% is an acreage percentage. The cat-loss band reads ~72%.** Both legs are now low, but they are not converging. The peril leg is cooling. The loss leg is frozen on a window that ended before the fires started. **The first loss data that can cover this fire season is a Q3 tally, expected about mid-October.**
 
 ---
 
 ## changes
 
-**1. 🔽 The peril leg cooled on every field except absolute acres.** PL **5 → 3** (9/9, ending a 54-day-inclusive PL5 run); uncontained large fires **94 → 50**; personnel **21,854 → 12,315**; acreage ratio **164% → 146%**. Absolute acres **+551,814** and absolute fires **+4,855**.
+1. **The Preparedness Level fell from 3 to 2 on 9/22 at 07:30 MDT.** This is the only change the NFN page shows. It displays only the current level, so it cannot rule out a brief move away and back between 9/18 and 9/22.
+2. **The peril leg kept cooling:**
+   - acreage ratio 146% → 145%, and fire-count ratio 126% → 125%
+   - personnel 12,315 → 6,824 (9/25) → 5,697 (9/28)
+   - NFN "Acres from all active fires" 1,292,408 → 7,616
+   - the NFN narrative now reads *"Most fires report minimal to moderate fire behavior."*
+   - Absolute acres grew only **+36,675 in 7 days**, compared with +551,814 over the 22 days before 9/18.
+3. **Southern Plains:** on the 9/25 NFN table, TX and OK have **1 large fire each out of 4 listed**. On 9/18 they had 10 of 50. New TX fires between 9/26 and 9/27 are all 2,125 acres or smaller.
+4. **NFN is now a weekly page.** It states *"This report is currently updated on Fridays."* The next report is expected 10/2. The statistics page updates daily from the IMSR (NIFC's daily Incident Management Situation Report).
+5. **Outlook: not re-issued.** It is still the 9/01 issue. The HTTP Last-Modified date is 2026-09-01 18:29:32 GMT, and the PDF ModDate is D:20260901122327-06'00'. The October issue is due 10/01.
+6. **Loss leg: nothing moved.** No Q3 or 9-month 2026 tally exists, and none can, because Q3 has not ended. The Cotality Spokane estimate is unchanged. I also found **Swiss Re's H1 2026 figure of $42bn** ("lowest first-half since 2020", Artemis 2026-08-11), which this folder did not previously record.
 
-**2. 🔑 The September outlook is ISSUED (9/01) — the 9/01 AEO-09 checkpoint the last two runs were waiting on is now live.** Full grading inputs below. *(It was the #2 open question on 8/27.)*
+### New large incidents in the gap (item 2)
 
-**3. ➡️ The southern Plains converted from forecast to fire.** TX **6** and OK **4** large fires — **10 of the nation's 50**, where the Southern Area had no entry in the 8/27 geographic read.
+| Incident | Origin | Size / containment | WUI / structures | Source |
+|---|---|---|---|---|
+| **Hydra Fire**, Bosque Co. TX | **9/14** 16:10, just before the window, and missing from the 9/18 record | 933 ac, 100% | **The city of Meridian was evacuated** (9/15 update), and the order was later lifted. *"The nursing home in Meridian remains evacuated."* 9/23 update: ***"Structures lost: Undetermined at this time"*** | InciWeb |
+| Rafter 4B, Schleicher Co. TX | 9/26 12:28 | 2,125 ac (NFN 9/25 table: 2,100), 75%; cause: human | *"A pipeline and structures were threatened"*. No losses reported | InciWeb / NFN |
+| Grover Bend, Knox Co. TX | 9/26 | 321 ac, 100% | none reported | InciWeb |
+| Seven Oaks, Crockett Co. TX | 9/27 | 250 ac, 50% | none reported | InciWeb |
+| Stone Bridge, near Wilburton OK | not stated | 130 ac, 60% | none reported | NFN 9/25 |
+| Dome Fire, Yosemite CA | 9/15 | 5,215 ac, 30%; cause: abandoned campfire | *"There are no imminent threats to infrastructure"* | InciWeb |
 
-**4. 🔴 The loss leg did not move at all.** No Q3/post-H1 aggregate from Gallagher Re, Munich Re, Aon or Swiss Re. **The RED-band instrument still reads a window that closed 2026-06-30 — before Spokane and before the entire August peak.**
+**No new large incident with a published count of destroyed structures turned up in the InciWeb incidents I checked (20 recently updated pages, fetched 9/28).** This is a statement about that set only. CAL FIRE could not be reached (see gaps).
 
-**5. 🔴 A second, higher Spokane loss estimate exists and the 8/27 run missed it** (Cotality, **$1–1.3B**, issued **8/18**).
+### AEO-09 input (item 3). Not a verdict.
 
-**6. 🔑 The non-renewal vintage advanced 2022 → 2024** (NAIC CIPR MCAS report, 2026-07-31).
-
-**7. 🔴 Spokane structure counts are now THREE irreconcilable objects** — Gallagher Re ">700 homes" (8/6), **NIFC "over 800 structures" (9/01)**, Cotality "**42** classified as destroyed" out of 5,256 damaged (8/24).
+The outlook is still the **9/01 issue**. I re-read the text, and it matches the 9/18 record word for word:
+- **September, Southern Area section (the governing surface):** *"An expansive area of above-normal significant fire potential is expected across Texas, Oklahoma, Arkansas, Louisiana, Mississippi, and southwestern Alabama for the month ahead. These conditions may very well continue into October and November in portions of the region, but confidence is low as to where conditions will remain driest."*
+- **October, Executive Summary:** *"For October, significant fire potential will be normal for most of the country except for northern Minnesota, northern Wisconsin, western Upper Michigan, Puerto Rico, and the U.S. Virgin Islands, which will remain above normal."*
+- **Map:** I did **not re-extract** the panels this run because `pdfimages` is not installed (see gaps). The file has not changed since 9/01, so the 9/18 map reading still applies: September has TX two-thirds red with the far west normal, and OK entirely red. October has TX and OK normal.
+- **Map versus text is unchanged:** for October, the map shows TX/OK normal while the Southern Area text only hedges ("may very well continue ... confidence is low"). Whether that counts as a disagreement is AEOLUS's call. **The October issue (due 10/01) will be the first one where October is the current-month panel.**
 
 ---
 
-## 🔴 AEO-09 — GRADING INPUT ONLY. NO VERDICT. AEOLUS RESOLVES.
+## proposed_findings *(proposals only; AEOLUS adjudicates)*
 
-**Outlook issue date, verbatim header:** *"Issued: September 1, 2026 / Next Issuance: October 1, 2026 / Outlook Period – September through December 2026."* **The October issue does not yet exist.**
-**Rule applied as handed over, not re-adjudicated:** read the **current-month** panel; where map and regional narrative disagree, **the regional section governs.**
+**New evidence under earlier proposals**
+- **P1 (the loss leg is blind):** there is still no post-H1 tally. The first possible Q3 2026 aggregate is expected about mid-October. A fourth H1 issuer figure (Swiss Re $42bn) is consistent with the others.
+- **P3 (Spokane structure counts):** the Cotality page was last updated 8/24 and still shows "5,256 properties with damage; 42 classified as destroyed" alongside $1.0–1.3B. I found no WA EOC final tally, which makes this the fourth run in a row without one.
+- **P7 (publish the pair, not the ratio):** see P12. The ratio cannot be reproduced this run, which is a stronger reason to always publish the absolute figures.
 
-### Current-month panel = SEPTEMBER
+**P11. The large-fire instrument has no stable basis.** On 9/25 the NFN narrative says **26**, but the NFN table field "Total number of large fires" says **4** on the same page. On 9/28 the statistics page's "Being Suppressed" field says **17**. The historical series already mixes fields: the 8/21 row used the statistics field, while the 8/27 and 9/18 rows used the NFN table field. **Proposal:** AEOLUS fixes one field for `nifc_large_fires_uncontained`. The statistics page's "Total Number of Large Fires Being Suppressed" is the only one that updates daily. Until then, the 50 → 26 → 17 path should not be read as a clean trend. *Why the table shows 4 is not evidenced. My hypothesis is that it lists a subset of the IMSR large fires.*
 
-**Southern Area regional narrative — the GOVERNING surface, verbatim:**
-> *"Confidence is higher in drought continuing to worsen over most of the southern Plains and Lower Mississippi Valley during September. Some areas received beneficial rainfall in late August, but the return of dry and unusually hot weather will likely mean any relief is temporary.* **An expansive area of above-normal significant fire potential is expected across Texas, Oklahoma, Arkansas, Louisiana, Mississippi, and southwestern Alabama for the month ahead.** *These conditions may very well continue into October and November in portions of the region, but confidence is low as to where conditions will remain driest. Fuel concerns are abundant, ranging from the recent curing of fine fuels to drought and beetle kill, along with tornado, ice storm, and hurricane damage."*
+**P12. The 9/18 closure of open question #6 did not hold.** The 10-yr-average fields are **blank again** on 9/25, and the narrative **145% / 125% cannot be reproduced** from the ten year-rows on the page:
+- The mean of those rows gives **142.67% / 124.47%**.
+- The 9/18 published average gives 146.99%.
+- 145% implies a denominator of about 5.90M acres, and I do not know NIFC's averaging method.
 
-**Executive Summary, verbatim:**
-> *"From the current and past weather, as well as forecast conditions, September significant fire potential will remain above normal in most of the Northwest, far northern California, central and southern Idaho, northern Nevada, and northern Utah.* **Above normal potential is also forecast for much of the southern Plains into the Lower Mississippi Valley**, *South Florida, northern Minnesota, northern Wisconsin, western Upper Michigan, Puerto Rico, and the U.S. Virgin Islands."*
+**Proposal:** treat NFN acreage percentages as narrative-only (not reproducible) unless the average fields render on that day. The absolute acreage is the reliable figure.
 
-**MAP panel (September 2026), read from the page-1 image extracted with `pdfimages`:**
-- **Oklahoma: ENTIRELY red / Above**, Panhandle included.
-- **Texas: red across the central and eastern ~two-thirds**, south to the Rio Grande Valley — **far-west TX (Trans-Pecos/El Paso) and part of the western Panhandle are WHITE / Normal.**
-- Also red: Pacific Northwest block, N Minnesota / N Wisconsin, South Florida, Puerto Rico.
+**P13. A search-engine summary attached the wrong year to 2025 loss figures.** WebSearch stated *"Aon reported ... $12 billion for Q3 2026 ... nine-month $114 billion ... Gallagher Re $105 billion."* I fetched the underlying Artemis article. It is dated **16 October 2025** and covers **Q3 and nine months of 2025**. **Q3 2026 has not closed yet, so no such 2026 figure can exist.** None of it was logged. **Proposal:** a loss figure found only through search must be checked against the publisher's own dated page before it enters the record. This is the loss-leg version of the `fused_true_facts_false_premise` failure mode.
 
-| | TX above-normal? | OK above-normal? |
-|---|---|---|
-| **Regional narrative (governs)** | **YES** — named explicitly | **YES** — named explicitly |
-| **Executive Summary** | YES ("southern Plains") | YES ("southern Plains") |
-| **Map panel** | **PARTIALLY** — two-thirds red, far west normal | **YES — entirely** |
+**P14. The WUI risk in the southern Plains has shown up in this dataset as an evacuation, with no confirmed structure loss.** Hydra (Meridian, TX) evacuated a whole town on 9/15, and the issuing authority still reported "Structures lost: Undetermined" on 9/23. **Proposal:** record it as an evacuation event only. **Do not treat it as a loss** until Texas A&M Forest Service publishes a count.
 
-✅ **NO map/text disagreement in the current-month panel.** Map and regional section both designate TX and OK above-normal for September. **The governing rule is not load-bearing this month.**
+---
 
-⚠️ **One nuance only the map carries, and it is a definitional question for AEOLUS, not a data question:** **Texas is only PARTLY above-normal.** If "removed for TEXAS" means *any part of TX*, September fails removal; if it means *whole-state*, far-west TX was already normal on 9/01.
+## gaps *(required output: failures are reported, not worked around)*
 
-### Out-month panels — here the disagreement IS real
-
-| Panel | Map | Exec Summary | Southern Area section |
+| # | Item | Attempt | Exact result |
 |---|---|---|---|
-| **October** | **TX/OK NORMAL** (red only N Minnesota, N Wisconsin, W Upper Michigan, PR/USVI) | **agrees**: *"For October, significant fire potential will be normal for most of the country except for northern Minnesota, northern Wisconsin, western Upper Michigan, Puerto Rico, and the U.S. Virgin Islands."* | 🔴 **hedges the other way**: *"These conditions may very well continue into October and November in portions of the region, but confidence is low as to where conditions will remain driest."* |
-| **November** | CONUS normal; PR/USVI above | **agrees** | as above |
-| **December** | CONUS normal; PR/USVI above | *"Significant fire potential will be normal for the contiguous U.S. and Alaska for November and December but will remain above normal for Puerto Rico and the U.S. Virgin Islands."* | — |
-
-🔴 **The OCTOBER panel is a genuine map/text disagreement — the exact case the governing rule was written for.** Flagged, **not adjudicated.** Note its character: the regional section offers a **low-confidence hedge** ("may very well… but confidence is low"), **not a competing designation.** Whether a hedge counts as the regional section "disagreeing" is **AEOLUS's call**, and it decides whether an October read is *removal* or *not-yet-removal*.
-
-### The ENSO tension is NOT resolved — it is stronger *(`regime/` owns ENSO; cited, not adopted)*
-
-> *"El Niño continues to rapidly strengthen in the equatorial Pacific Ocean. Central Tropical Pacific sea surface temperature anomalies are more than 1.5 C above average, the threshold for a strong El Niño, and are nearing the 2 C threshold for a very strong El Niño… The CPC forecasts El Niño to persist through the fall and winter, with 100% confidence, with a greater than 95% chance of a very strong El Niño by November… most of the models used by the CPC and internationally show this El Niño to be the strongest on record."*
-
-⚠️ **The 8/13 load-bearing tension persists and has grown: the outlook uses El Niño to EXPLAIN above-normal fire potential in the very region where AEO-09 expects El Niño to REMOVE it.** The counter-mechanism AEO-09 needs is in the same section — *"El Niño's influence… setting the stage for what will likely be a very wet end to the year over much of the Southern Area"* — but it arrives with its own hedge: *"confidence is low in whether heightened late summer fire activity will bleed into the more traditional fall fire season in October and November."*
-
-### Physical state has moved AGAINST removal since 8/27
-**TX 6 + OK 4 = 10 of 50 national large fires.** Outlook, verbatim: *"Much of Texas and Oklahoma received less than 20% of normal rainfall for August"*; *"Rapid drought onset was observed in the southern Plains and Lower Mississippi Valley"*; extreme-to-exceptional drought *"most widespread across central Oregon, the eastern Great Basin, central Rockies, Texas Panhandle, and western Oklahoma."*
-
----
-
-## proposed_findings *(PROPOSALS — AEOLUS adjudicates every one)*
-
-**P1 — The loss leg's problem is no longer "soft", it is "blind."** H1 2026 measures a window that **closed 2026-06-30**. It contains no Spokane, no August peak, no part of the PL5 run. **It is not evidence that this fire season was cheap; it is not evidence about this fire season at all.** Every prior read framed the divergence as *peril high / losses low*. The honest 9/18 framing is *peril cooling / losses unmeasured*. **The Q3 tally (~Oct) is the first vintage that can speak to it** and is this folder's highest-value pending item.
-
-**P2 — The 8/27 "only insured-loss figure" claim was false when written, and the failure is scope, not diligence.** Cotality published **$1–1.3B on 8/18**, nine days before the 8/27 check concluded none existed. The check searched **Artemis only**; the conclusion was **stated at world scope**. *(`finding_scan_keyed_on_naming_reads_local_form_as_absence`.)* **Proposed guard: a negative finding states the set that was searched, in the finding itself.**
-
-**P3 — Spokane structure counts do not reconcile and must not be averaged.** ">700 homes" (Gallagher Re 8/6) vs **"over 800 structures" (NIFC 9/01)** vs **"42 classified as destroyed"** of 5,256 damaged (Cotality 8/24) — a **~17–19×** spread on "destroyed." Different objects, methods and possibly perimeters. ⚠️ **Note the counter-intuitive direction: Cotality is the LOW outlier on destroyed structures yet carries the HIGHEST loss estimate** — so the loss estimate is **not a simple function of its own destroyed-count**, which matters before either number is cited. **NIFC's "over 800" is the upward revision `SOURCES.md` warned about, and it comes from a source this folder already owns.**
-
-**P4 — The non-renewal leg has a better instrument and is still not gradeable. Three blockers, all structural:** ① **MCAS is ANNUAL and ends 2024** — a *"stable 2+ quarters"* test **cannot be run on it at any vintage**; ② **no state cut exists** (zone-level only — "state-level" in the title describes the data *source*, not the granularity); ③ **zone membership is not stated in the report**, so **the Western 25.1 cannot be mapped onto the fire geography** until AEOLUS confirms it from an NAIC primary. **Proposal: log the definition and the series, but do NOT retire the non-renewal gap.**
-
-**P5 — 🔴 California's non-renewal rate is CENSORED BY LAW, which makes a benign print uninformative.** A Governor's emergency declaration freezes non-renewals for one year in named ZIP codes (CA DOI primary, verified live 9/18; most recent **2026-08-06 Gann Fire**, active to **2027-08-06**). **The suppression is strongest exactly where fires are worst.** AEOLUS's band is a **CHANGE** band, so a moratorium mechanically holds the measured change down. **A reading at-or-below band in CA is consistent with BOTH a calm market AND a suppressed one — the instrument cannot separate them, and a benign print must not be counted as the channel-kill leg satisfied.**
-
-**P6 — Never delta the FIO figure against the NAIC figure.** FIO/PCMI (80% of HO-3/HO-5 by premium, 2018-2022) and NAIC/MCAS (state-reported, 2018-2024, excl. PR/ND/NY) are **different collections over different universes.** `1.04%` vs a worker-computed `1.955%` would **measure the instrument change, not the market.** **The MCAS 2022→2024 series is internally consistent and is the only usable trend.**
-
-**P7 — Always publish the acreage pair, never the ratio.** Third consecutive read where **absolute acres rose while the ratio fell**. With the published comparator now visible, the mechanism is confirmed arithmetically: **+962,968 acres of denominator vs +551,814 of numerator in 22 days.**
-
-**P8 — Secondary coverage of the NAIC report is inverted; quote the report.** Press summaries render the trend as *"96% in the Southeast to 216% in the West."* The report says: *"The most significant increases have occurred in the **Northeast and Southeast** Zones during this period at **147% and 216%**, respectively."*
-
-**P9 — Source-admission request (AEOLUS-only decision): Cotality.** It produced the **only quantified Spokane loss range** and an independent structure analysis, and it is **not in `SOURCES.md`.** Reported as a proposal; **no Cotality figure has been logged as fact.** AEOLUS decides admission.
-
-**P10 — Owner-side gap, flagged not fixed: `water/`'s USDM series is 24 days stale** (newest observation **8/25**). The shared-input rule was observed — **no USDM pull, no USDM row written here.** But the fuel-state context for this fire read is stale **at the owner**. *(Independent corroboration from a source wildfire/ does own: the NIFC 9/01 outlook states "nearly 57% of the country in drought as of August 25", consistent with water/'s 56.61%.)*
-
----
-
-## gaps *(a required output — a reported gap beats a worked-around one)*
-
-| # | Item | Exact command / attempt | Exact result |
-|---|---|---|---|
-| 1 | **NAIC report via curl** | `curl -sL -A "Mozilla/5.0" -o naic_ho.pdf "https://content.naic.org/sites/default/files/mcas-homeowners-property-insurance-market-dynamics-report.pdf"` | **`HTTP=403 SIZE=5735 TYPE=text/html`** — served an HTML block page named `.pdf`. Same 403 on `content.naic.org/industry/mcas/homeowners-insurance-report`. **Recovered via WebFetch**, which saved the real 9.2 MB PDF to disk; extracted locally with pdfminer (93,040 chars, clean). **Not a substitution — same document, same publisher, different transport.** Recorded in `SOURCES.md`. |
-| 2 | **NAIC zone → state membership** | `grep -n -E "Texas\|California\|Washington\|Oregon\|Colorado" naic_ho.txt` | **ZERO matches. No US state name appears anywhere in the report text.** Zone membership is **not recoverable from this source** and the worker **does not supply it from memory**. **Blocks any geographic mapping of the 25.1 figure.** |
-| 3 | **Q3 / post-H1 2026 aggregate cat tally** | Artemis.bm + Reinsurance News searched for Gallagher Re / Munich Re / Aon / Swiss Re Q3 2026 | **None exists.** Latest published remains H1 2026. **Not a pull failure — a genuine absence, and the central finding of the loss leg (P1).** |
-| 4 | **Artemis wildfire-tag listing** | WebFetch `https://www.artemis.bm/news/tag/wildfires/` | Returned a page whose lead article was dated **2018-11-14**; **no 2026 Spokane item surfaced.** ⚠️ **This is how the 8/18 Cotality estimate stayed invisible on 8/27 — the tag listing is an unreliable recency surface.** Do not treat an empty Artemis tag page as a negative. |
-| 5 | **WA state EOC FINAL Spokane structure tally** | not located | ❌ **Third consecutive run with no final EOC tally.** The three published counts still do not reconcile (P3). |
-| 6 | **CA-specific non-renewal RATE with a denominator** | CA DOI moratorium page fetched successfully | Page is live but **publishes no rate or policy-count statistic with a denominator.** A *"2.8 million policies non-renewed 2020-2025 in fire-prone ZIP codes"* figure appeared in **secondary search summary only, with no denominator and no primary fetch — NOT logged as fact.** |
-| 7 | **NIFC preparedness-level STEP history** | — | The NFN page shows **only the current level.** Whether PL went 5→4→3 or 5→3 is **not answerable** from any source in `SOURCES.md`. **Not worked around.** |
-| 8 | **`water/` USDM currency** | cited, not pulled (shared-input rule) | Newest water/ observation **2026-08-25 — 24 days stale.** Owner-side; flagged, not fixed. |
-
----
-
-## contradictions with DOSSIER.md — flagged loudly, not silently overwritten
-
-**① `DOSSIER.md` §3 and §4 were carrying `171%` as the live acreage figure.** 171% was the **8/21** value, superseded by **164% on 8/27**. The 8/27 run updated the **§1 table** and left **both summary sections** on the old number — so a reader of the summary got a figure two vintages behind the body. **Now 146% throughout.** *(`finding_summary_section_merges_what_the_body_separates` — the abstract is where a correction lands last.)*
-
-**② `DOSSIER.md` §2 + the 8/27 LOG row asserted the Gallagher Re estimate "remains the only insured-loss figure for this event."** **False when written** — Cotality had published **$1–1.3B on 8/18** (P2). Both surfaces corrected; the old claim is preserved in the new LOG row so the error stays visible rather than being erased.
-
-**③ `DOSSIER.md` §1 recorded the 10-yr-average fields as rendering BLANK** *(noted 8/21 and confirmed 8/27)*. **They render this run.** Not a contradiction in the data — a **change in the source's behaviour** — but it retires standing open question #6, and any future blank should now be read as **intermittent**, not permanent.
-
-**④ Framing carried forward from 8/13–8/27 — "physical peril elevated, insured losses below average" — no longer describes the peril side.** PL is **3**, uncontained large fires halved, personnel down 44%. The *insurance* half of the divergence claim stands; the *peril* half has cooled. **AEOLUS owns whether the C4 score moves. The worker only reports that the inputs behind the 8/13 score of 3 🟠 ↗ have changed on both legs since it was set.**
+| 1 | **CAL FIRE incidents** | `curl -sSL -A "Mozilla/5.0" "https://www.fire.ca.gov/incidents"` | **`HTTP=403 SIZE=380`**, body *"Access Denied … You don't have permission to access "http://www.fire.ca.gov/incidents" on this server. Reference #18.569cc17.1790640096.40ef3091"* (Akamai edge block). Not worked around. |
+| 2 | **Outlook map panels** | `pdfimages -f 1 -l 1 -png outlook.pdf panel` (from SOURCES.md) | `which pdfimages` returns nothing, so **poppler-utils is not installed on this box**. The 9/18 map reading stands because the file is unchanged (Last-Modified is 9/01). |
+| 3 | pdfminer on system python | `python3 -c "from pdfminer.high_level import extract_text; …"` | `ModuleNotFoundError: No module named 'pdfminer'`. **It works under `/home/willi/Research-workspace/.venv/bin/python3`.** SOURCES.md should name the venv interpreter. |
+| 4 | **Preparedness Level step history, 9/18–9/22** | — | NFN shows only the current level. The PL page and IMSR archive are not in SOURCES.md and were not used. |
+| 5 | **NFN 10-yr-average fields** | NFN fetch, HTTP 200 | The "10-year average Year-to-Date 2016-2025 / Fires: / Acres:" fields are blank. The narrative percentages cannot be reproduced (P12). |
+| 6 | **Q3 / 9-month 2026 cat tally** | Artemis insured-losses listing (newest item 9/24) and wildfire listing (newest item 8/06) | **Nothing appears in those two listings as of 9/28.** Q3 has not ended, so this is expected. |
+| 7 | **WA state EOC final Spokane tally** | No SOURCES.md command exists | Not located. This is the fourth run in a row. |
+| 8 | **Non-renewal data outside CA (open question #3)** | Not attempted this run | The item 1–5 scope took priority. It is still open. |
+| 9 | **Drought** | Cited, not pulled (shared-input rule) | From `water/workbook/SERIES.tsv`: CONUS D1–D4 **59.37%**, mapDate **2026-09-15**, pulled by water/ on 9/18. The data is 13 days old at water/, which owns it. |

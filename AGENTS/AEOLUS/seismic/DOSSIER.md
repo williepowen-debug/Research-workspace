@@ -2,9 +2,25 @@
 
 **First read: 2026-08-13** (folder created same day). **Status: 🟡 event-triggered watch — no trigger currently fired.**
 
-> **Last real data refresh: 2026-08-27**  ·  **Source + trigger audit run 2026-08-27**
+> **Last real data refresh: 2026-09-28**  ·  **Dark-window scan 8/27→9/28 run 2026-09-28 (worker; full report `RUN_REPORT.md`)**
 
 ---
+
+## 🟠 DARK-WINDOW SCAN 2026-08-27 → 2026-09-28 — one trigger's LETTER met in the gap (worker observation; AEOLUS grades)
+
+| Trigger | Gap result | Letter |
+|---|---|---|
+| **S-5** | **Kilauea ADVISORY/YELLOW → WATCH/ORANGE on 2026-09-07 23:00:41Z, NVEWS "Very High Threat"; still WATCH/ORANGE at 9/28 18:21Z notice** (USGS volcanoApi/elevated `codeChangeDate`). Summit-confined per HVO synopsis. | **BOTH LEGS MET — not fired by worker** |
+| S-2 | USGS FDSN 8/27–9/28: **M7.0+ = 0**; M6+ = 6, all PAGER green. Only yellow+ PAGER: M5.5 Jiangyou, China 9/03, **ECONOMIC** orange (point est. $393M total, not insured) | not met |
+| S-1 | GVP week 9/10–9/16: max plume 2.5 km above crater (Aira); no stratospheric-injection report | not met (partial coverage) |
+| S-3 | no closure reported in GVP; **no registered VAAC command** | not evidenced (gap) |
+| S-4 | no named energy asset in pulled sources; **no registered instrument** | not evidenced (gap) |
+
+⚠️ **Coverage caveat:** GVP RSS carries ONE edition (pubDate 9/17, week 9/10–9/16); weeks 8/27–9/9 and 9/17–9/28 are not visible through the registered command.
+
+---
+
+> *(superseded header) **Last real data refresh: 2026-08-27**  ·  **Source + trigger audit run 2026-08-27***
 
 ## 🔴 AUDIT 2026-08-27 — sources verified, and TWO M7+ EVENTS WERE SITTING UNASSESSED
 

@@ -1,9 +1,43 @@
 # AEOLUS · WATER — live dossier
 
-**As-of: 2026-09-18** *(FULL worker pass 9/18 — every instrument in this folder re-pulled at its primary except snowpack (seasonally empty) and the Yangtze (not tasked). Section blocks below dated 8/27 or 9/11 are SUPERSEDED by the 9/18 block unless they say otherwise — read the section dates).* All figures primary (USBR 24-Month Study / USBR hydrodata / USGS NWIS / WSV-PEGELONLINE / NOAA-NWPS / ACP / OVF / UNL-FICH / USDM API).
+**As-of: 2026-09-28** *(DARK-WINDOW worker pass 9/28 — every instrument re-pulled at its primary except snowpack (seasonally empty); Mississippi Vicksburg (VCKM6) / Cairo (CIRI2) NWPS IDs RESOLVED from the NWPS listing, not yet registered. The 9/28 block below SUPERSEDES the 9/18 block where they overlap; older blocks are history — read the section dates.)* *(Prior as-of line, kept: As-of 2026-09-18 *(FULL worker pass 9/18 — every instrument in this folder re-pulled at its primary except snowpack (seasonally empty) and the Yangtze (not tasked). Section blocks below dated 8/27 or 9/11 are SUPERSEDED by the 9/18 block unless they say otherwise — read the section dates).* All figures primary (USBR 24-Month Study / USBR hydrodata / USGS NWIS / WSV-PEGELONLINE / NOAA-NWPS / ACP / OVF / UNL-FICH / USDM API).)*
 
-> **Last real data refresh: 2026-09-18**  ·  **Dossier written: 2026-09-18**
+> **Last real data refresh: 2026-09-28**  ·  **Dossier written: 2026-09-28**
 > *Two-clock header (PAT-044) — `scripts/ledger_staleness.py` reads the first line. **The data date, not the edit date**: a hygiene edit must NOT bump it.*
+
+### 🔴🔴 9/28 DARK-WINDOW WORKER PASS (AEOLUS dark 9/18 → 9/28) — the Rhine sat jointly below both frozen NNW levels for 11 straight complete days, and Panama loosened
+
+> **Worker run, PROPOSAL-ONLY. Nothing is scored, fired or resolved here.** Full detail + every failed command: `RUN_REPORT.md` (9/28). Observations: `workbook/SERIES.tsv` +120 rows, `workbook/LOG.tsv` +12 rows.
+
+**① RHINE C5 dark-window scan** — unrounded daily means, local CEST day, complete = n ≥ 90/96; frozen NNW Kaub **25** / Duisburg **153** (live API re-read: still 25.0 [occ 2018-10-22] / 153.0 [occ 2018-10-23], **not republished**).
+
+| Date | Kaub mean (n) | Duisburg mean (n) | both ≤? |
+|---|---|---|---|
+| 9/13 | 25.292 (96) | 147.729 (96) | no (Kaub +0.292) |
+| 9/14 | 31.083 (96) | 160.823 (96) | no |
+| 9/15 | 30.723 (94) | 159.292 (96) *(revised from 159.312)* | no |
+| 9/16 | 27.448 (96) | 160.438 (96) | no |
+| 9/17 | 24.302 (96) | 157.781 (96) | no (Kaub only) |
+| **9/18** | **23.000** (96) | **151.594** (96) | **YES** |
+| **9/19** | **21.719** | **147.531** | **YES** |
+| **9/20** | **18.427** | **146.490** | **YES** |
+| **9/21** | **15.625** | **147.896** | **YES** |
+| **9/22** | **12.625** | **142.875** | **YES** |
+| **9/23** | **11.344** | **138.625** | **YES** |
+| **9/24** | **5.760** | **135.531** | **YES** |
+| **9/25** | **2.427** | **134.073** | **YES** |
+| **9/26** | **−0.844** | **130.344** | **YES** |
+| **9/27** | **−0.604** | **126.104** | **YES** |
+| **9/28** | **1.537** (95) | **123.031** (96) | **YES** — complete: the German day closed at 18:00 EDT |
+
+**Nine 3-day joint-below windows in 9/13–9/28** (9/18-20 … 9/26-28); **the 3 most recent complete days (9/26–9/28) are all joint-below.** Plus the already-recorded 9/10-12 window. WSV forecast (horizon to 9/30 07:00): Kaub → **−2**, Duisburg → **121**. Discharge falling at both (Kaub 534 → 434 m³/s; Duisburg 665 → 553) — ⚠️ Q is rating-derived from stage, **not an independent sensor check**. ⚠️ Kaub datum caveat (gaugeZero validFrom 2019-11-01) still open.
+
+**② Colorado** — Mead **1,037.79 ft** [9/27, window low] +2.79 vs 1,035; 14-d OLS **−0.068 ft/day** (steepened from −0.035). Powell **3,517.64** [9/27] +7.64 vs 3,510; rose 3,516.62 (9/15) → 3,517.77 (9/24) then turned down. **No instantaneous leg touched; no exit level (1,045 / 3,520) reached.** Lees Ferry 9/18–27 mean 7,940 cfs = **−20.65%** vs 2018-25 same window (n=80); USGS revised 9/01–17 down 60–70 cfs (second revision in a month). October 24-Month Study **not published** (all OCT26 names 404; `24Month_10.pdf` on the UC index is **October 2025**). No FR ROD notice found; no USBR post-2026 page change since 8/21.
+
+**③ Panama** — **A-36-2026 (9/28): Neopanamax draft RAISED to 49.0 ft effective immediately** (from 48.0, A-33); **SLOTS** 32 → **33/day** from booking date 10/15. Gatún **84.74 ft** [9/27] (+0.27 vs 9/17); same-date 2023 **79.99** / 2024 86.16 / 2025 86.80.
+
+**④ Everything else** — Memphis daily-mean (UTC day) trough still **−4.678 [9/14]**, secondary dip −2.028 [9/23], then **+9.553 [9/28]** (inst. 10.32 @ 23Z). ⚠️ The stored Memphis series uses **UTC days**; local-day means differ by up to 0.6 ft and would put the trough on 9/13 (−4.587) — basis choice is AEOLUS's. St. Louis 08:00 obs 3.22 → 16.15 [9/27] (no adjective). USDM CONUS D1–D4 **59.24%** [9/22] (−0.13), D4 **2.11%** (+0.09); TN D1–D4 17.37 → **48.07%**, MS 67.67 → 76.02, TX 81.01 → 84.20, OK D4 16.59 → 20.79; IA 6.79 → 2.10. Danube below-LKV flag **5 → 23 of 44** (19 excl. documented sentinels) — Hungarian reach below its 1992/2018 LKVs. Rosario **2.81 m** [9/28], 88th pctile (P10 1.44). **Vicksburg VCKM6 10.91 ft** (lowThreshold 0.8) · **Cairo CIRI2 27 ft** (Ohio River; lowThreshold 10.3) [23:00Z 9/28, instantaneous — proposed names `vicksburg_stage` / `cairo_stage`, no SERIES rows]. Yangtze [07:00 CST 9/29]: Yichang 41.31 m / 9,970 m³/s · Hankou 16.28 / 15,500 · Datong 7.08 / 19,800 · Three Gorges 166.46 m (no reference plane — no adjective).
+
 
 ### 🔴 9/11 DRAIN-SESSION REFRESH — Panama paused, Mead flattened (partial refresh; no worker spawned)
 

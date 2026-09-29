@@ -1,12 +1,47 @@
 # AEOLUS · HURRICANE — live dossier
 
-**As-of: 2026-09-18.** Basin state, ACE, both seasonal outlooks and the loss leg re-pulled from primaries this date. **C1 score: 1 as last held by AEOLUS 2026-09-11 (drain session) — a worker does not score; nothing below re-grades it.**
+**As-of: 2026-09-28 for §00 below; §0–§6 are 2026-09-18 vintage and are SUPERSEDED wherever §00 gives a newer figure.** **C1 score: 1 as last held by AEOLUS 2026-09-11 (drain session) — a worker does not score; nothing below re-grades it.**
 
-> **Last real data refresh: 2026-09-18**  ·  **Dossier written: 2026-09-18**
+> **Last real data refresh: 2026-09-28**  ·  **Dossier written: 2026-09-28**
 > *Two-clock header (PAT-044) — `scripts/ledger_staleness.py` reads the first line. **The data date, not the edit date**: a hygiene edit must NOT bump it.*
 > **Observations → `hurricane/workbook/SERIES.tsv`** · findings → central `workbook/KB.tsv` · synthesis → `STATUS.md`. **Flow is one-way.**
 > **Feeds:** C1
 **The climatological peak (~Sep 10) has PASSED.** *(CSU's own 9/16 words: "This period immediately follows the climatological peak of the season.")* Peak season runs to mid-Oct.
+
+---
+
+## 00. 2026-09-28 UPDATE (worker run; AEOLUS dark 9/18 → 9/28) — supersedes §0–§6 where they conflict
+
+**Dark-window scan:** all **45** archived TWOAT issuances 9/18 0000Z → 9/28 1800Z read (IEM AFOS). **No system or disturbance was placed in the Gulf, Caribbean, Bahamas or near Florida at any issuance** — the only Gulf/Caribbean text in all 45 is the boilerplate header. **Gulf/FL escalation line not met at any point in the window; no historical fire.**
+
+| System | Genesis (first DB) | TC life | Peak (b-deck) | Fate / NHC prose | Gulf/FL |
+|---|---|---|---|---|---|
+| **AL06 Fay** (ex-AL99) | 9/17 12Z, 32.1N **34.0W** | TD 9/19 12Z; TS 9/20; remnant low 9/22 21Z; **regenerated** TD 9/23 21Z, TS 9/24–26; TD since 9/26 | **60 kt** 9/21 00Z, 34.2N 32.1W — *"just shy of hurricane intensity"* | **Live TD 30 kt, 26.6N 45.3W (21Z 9/28)**, SW 220/8; forecast post-tropical ~9/30, dissipated by 10/01 06Z near 52W | no (~2,160 mi from Miami) |
+| **AL07 Gonzalo** (ex-AL90) | 9/22 18Z, 8.0N **13.5W** | TS 9/25 00Z → post-tropical 9/26 21Z (final advisory) | **45 kt** 9/25 12–18Z near Cabo Verde | *"strong southwesterly vertical wind shear, diagnosed at nearly 50 kt… very dry air"*; pre-formation TWO: *"strong upper-level winds should end the opportunity for development by the weekend"* | no |
+| **AL08 Hanna** (ex-AL91) | 9/26 18Z, 27.5N **58.3W** (1.7° E of 60W) | TS 9/28 12Z at 36.7N 51.3W | 40 kt (live) | **Live TS 40 kt, 36.5N 48.7W**, ESE 115/15 away from US; *"20-25 kt of westerly vertical wind shear… importing very dry tropospheric air"*; forecast 45 kt peak, post-tropical ~10/01, dissipated ~10/02 | no |
+
+**Western-basin genesis (open Q2):** none west of 60W this window (34.0W / 13.5W / 58.3W). Edouard (87.3W) remains the only 2026 western genesis.
+**Current NHC TWO (200 PM EDT Mon 9/28, Papin):** *"Tropical cyclone formation is not expected over the next 7 days."* Active: TD Fay, TS Hanna.
+
+**ACE through b-deck 2026092818 = 9.5800** (numbered decks AL01–AL08: +Fay 3.5750 · Gonzalo 1.2900 · Hanna 0.3200). **Fay + Hanna (3.8950) ONGOING – provisional.**
+| | value |
+|---|---:|
+| To-date normal Sep 28, **exclusive** (declared) | **90.3012** → 2026 = **10.61%** |
+| To-date normal Sep 28, inclusive (like-for-like) | 91.7490 → 2026 = 10.44% |
+| Seasonal accrual by Sep 28 | 73.66% of 122.58 |
+| Rank at this date | **lowest of 30 (1991-2020), both conventions**; next 1994 12.7625. Lowest of 59 (1966-2024) |
+| Named storms / hurricanes / majors | **8 / 0 / 0**; season peak 60 kt (Fay) |
+| AEO-01 line <110.3257 | **100.7457 units** would still have to accrue |
+| Residual accrual after Sep 28, 1991-2020 | mean 30.835 · max **84.625 (2016)** → **0 of 30** years reach 100.7457; 1966-2024 max 86.925 (2024) → **0 of 59** |
+| Lowest-to-date cohorts finishing <110.3257 | bottom-6 6/6 · bottom-8 8/8 · **bottom-10 9/10** (2016 enters and finished 142.53) |
+
+⚠️ **The ratio ROSE for the first time (5.96% → 10.61%)** — 2026 accrued 5.185 in 9/18→9/28 against 16.576 for a normal season (31% of normal pace). Still the lowest year on record at this date.
+⚠️ **Method hazard (proposal, `SOURCES.md` not edited):** invest decks bal90/bal91 each carry a 40-kt TS row at the upgrade hour; summing *all* decks per `SOURCES.md` gives 9.9000 (+0.32 double count). Sum AL01–AL49 only.
+
+**Outlooks:** CSU seasonal 9/4/1, ACE 50 — unchanged. NOAA 8/6 (75% below) — unchanged, page still says "2 named storms thus far" (actual 8). **CSU two-week: no issue after 9/16**; `2026-0930.pdf` 404 = not yet issued (due 9/30, then final 10/14). Observed ACE in the 9/16 window (Sep 16–29, below tercile <11) = **5.1850** through 9/28 18Z, window open.
+**Loss leg:** no new tally. **No Edouard insured-loss estimate found by search.** Aon H1'26 **$47bn** (7/22, via Artemis — secondary) is a third H1 read beside Gallagher Re $46bn / Swiss Re $42bn; do not reconcile. Artemis cat-bond series latest point **still 2026-08-28** (spread 5.05%). Swiss Re 403; Gallagher Re 212-B shell.
+
+---
 
 > ⚠️ **PRIOR DOSSIER VINTAGE WAS 2026-08-27 — a 22-day gap, of which the folder was unread 8/28–9/17.** The 9/11 AEOLUS drain session logged TS Edouard from a **secondary** and explicitly owed this pass: ATCF pull, ACE recompute, CSU 9/02 read. **All three are discharged here.** The §0 headline below **supersedes** the 8/27 "silence ended (Dolly)" headline.
 

@@ -1,10 +1,17 @@
 # AEOLUS · REGIME — live dossier
 
-**As-of: 2026-09-18**, all figures CPC primary. Consolidated from KB-AEO-016/021/038/045/046/053/054/111 + VX-19/20.
+**As-of: 2026-09-28**, all figures CPC primary. Consolidated from KB-AEO-016/021/038/045/046/053/054/111 + VX-19/20.
 
-> **Last real data refresh: 2026-09-17**  ·  **Dossier written: 2026-09-18**
+> **Last real data refresh: 2026-09-23**  ·  **Dossier written: 2026-09-28**
+> *(Data date = the newest OBSERVATION, weekly week-centered 23SEP2026. The 28Sep2026 CPC deck is newer as a product, but its only new observation-grade figure is the same week; the conservative, loud-failing date was chosen.)*
 >
-> **2026-09-18 — worker pass. Four baselines all refreshed; three of the folder's standing open items moved.**
+> **2026-09-28 — worker pass (AEOLUS dark 9/18→9/28). Only the WEEKLY instrument has new data; ONI / RONI / OISST-monthly / Discussion have not re-printed.**
+> 1. 🔴 **Weekly Niño-3.4 (`wksst9120.for`, OISSTv2.1, 1991-2020) = +3.1 at week ctr 23SEP2026 (SST 29.7) — WALTER's relay VERIFIED at the primary.** Trajectory 19AUG 2.6 → 26AUG 2.6 → 02SEP 2.8 → 09SEP 2.9 → 16SEP 3.0 → **23SEP 3.1: still rising, four consecutive weekly gains.**
+> 2. 🔴 **Rank 1 of 2,352 weeks in the file (since 02SEP1981)**, computed from the file: prior max 18NOV2015 +3.0 (tied 16SEP2026). Same calendar week in prior events: 2015 +2.0 · 1997 +1.8 · 1982 +1.7 · 2023 +1.7. Niño-3 +3.9 and Niño-1+2 +4.7 are also file records. ⚠️ **Absolute baseline — does not net out warming (1997-98 peaks at only +2.3 on this file). "Record" is TRUE on this instrument and NOT established on RONI.**
+> 3. ⚠️ **Observations have NOT been shown to run ahead of CPC's historic bar.** The bar is +2.5 on 3-month **RONI**; latest RONI is JJA **+1.36** (1.14 below). The weekly's numeric exceedance of 2.5 (every week since 12AUG) is on a different instrument. **Testable only when RONI JAS prints (~8 Oct).**
+> 4. Six previously-recorded weekly cells revised (incl. 02SEP Niño-3.4 2.7→2.8). 28Sep deck bullet-slide gap vs `wksst` persists (−1.0/−0.9/−0.8/−0.8). Deck: surface still rising while subsurface 0-300 m heat content *"remained steady"* since late July and *"negative anomalies have strengthened west of the Date Line"*; no MJO index, no named WWB. **55% ENSO-neutral AMJ 2027** (CPC probabilistic outlook, 10 Sep) newly captured.
+>
+> **Prior pass (2026-09-18) — worker pass. Four baselines all refreshed; three of the folder's standing open items moved.**
 > 1. 🔴 **Historic-event odds RAISED 69% → 75%** in the 10Sep2026 Diagnostic Discussion. Very-strong restated UNCHANGED at ">90%". **This also converts the ">90% very strong" figure from PROME's INFERRED relay into AEOLUS's own VERIFIED primary read.**
 > 2. 🔴 **CPC switched RONI (and ONI) from ERSSTv5 to ERSSTv6 on 2026-08-10** — CPC's own dated footnote, confirmed independently against the v5/v6 tables. **`SOURCES.md` still documents both files as ERSSTv5 and is stale.** §2's decadal and peak-event tables were re-derived on the new basis and **reproduce exactly** — they survive the change.
 > 3. ✅ **The CPC DJF 2026-27 outlook is FETCHED.** The PUBLIC-AND-UNFETCHED item, open since 8/12, is **closed** — §6.
@@ -24,18 +31,18 @@
 
 ## 1. STATE — four instruments, all correct, none interchangeable
 
-**All four refreshed 2026-09-18. Every one moved up.**
+**All four refreshed 2026-09-18; weekly rows refreshed again 2026-09-28 (the other three have not re-printed — next ONI/RONI season JAS and Sept OISST expected early October).**
 
 | Instrument | Value | As-of | Basis | Reads |
 |---|---|---|---|---|
 | **ONI** (official level) | **+1.80** | **JJA 2026** | ERSSTv6, 30-yr centred | **+0.41 in one season** (MJJ +1.39). **The ≥1.5 "strong" line is now CROSSED at JJA** — margin **+0.30 above** it |
 | **RONI** (dynamical) | **+1.36** | **JJA 2026** | ERSSTv6, 1991-2020 | **+0.39** on MJJ (+0.97, itself revised from +0.98). **1.14 below** the +2.5 OND "historic" bar |
 | **OISST monthly** (trend) | **+2.52** | **Aug 2026** | OISST, 1991-2020 fixed | Apr +0.47 → May +0.94 → Jun +1.55 → Jul +2.03 → **Aug +2.52** |
-| **Weekly** (fast trend) | **+2.9** | **week ctr 09SEP 2026** | OISSTv2.1, 1991-2020 | 19AUG +2.6 → 26AUG +2.6 → 02SEP +2.7 → **09SEP +2.9 — season high** |
-| Niño-1+2 | **+4.08** monthly (Aug) / **+4.5** weekly (09SEP) | Aug / 09SEP 2026 | | *the number that gets misquoted as "3.4"* |
-| Niño-4 | **+0.93** monthly (Aug) / **+0.9** weekly (09SEP) | Aug / 09SEP 2026 | | **the only region NOT rising** — CPC notes it *decreased* to +0.1 °C in August on the ERSST basis |
+| **Weekly** (fast trend) | **+3.1** | **week ctr 23SEP 2026** | OISSTv2.1, 1991-2020 | 26AUG +2.6 → 02SEP +2.8 (rev. from 2.7) → 09SEP +2.9 → 16SEP +3.0 → **23SEP +3.1 — highest week in the file (since 1981)**; absolute basis, see header ② |
+| Niño-1+2 | **+4.08** monthly (Aug) / **+4.7** weekly (23SEP) | Aug / 23SEP 2026 | | *the number that gets misquoted as "3.4"* — weekly is a file record |
+| Niño-4 | **+0.93** monthly (Aug) / **+1.1** weekly (23SEP) | Aug / 23SEP 2026 | | the weakest region; weekly 0.8–1.1 since mid-Aug. CPC notes it *decreased* to +0.1 °C in August on the ERSST basis |
 
-⚠️ **Four simultaneously-true numbers for "the ENSO state" today: +1.80 (ONI) · +1.36 (RONI) · +2.52 (OISST monthly) · +2.9 (weekly).** Name the instrument beside the number, every time.
+⚠️ **Four simultaneously-true numbers for "the ENSO state" as of 2026-09-28: +1.80 (ONI, JJA) · +1.36 (RONI, JJA) · +2.52 (OISST monthly, Aug) · +3.1 (weekly, 23SEP).** Name the instrument beside the number, every time.
 
 **CPC forward odds (10 Sep 2026 Discussion, verbatim):**
 - *"El Niño is strengthening, with a **greater than 90% chance of a very strong event** during the Northern Hemisphere fall and winter 2026-27."* — **restated unchanged** from 8/13. **Now a VERIFIED primary read, no longer an INFERRED relay.**

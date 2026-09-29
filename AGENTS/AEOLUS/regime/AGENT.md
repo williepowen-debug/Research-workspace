@@ -23,6 +23,7 @@
 | `roni` | degC | `CPC-RONI.ascii` | **dynamical strength** — CPC frames headline odds in this |
 | `nino34_monthly` | degC | `CPC-sstoi.indices` | trend; 1991-2020 baseline; **col 4** |
 | `nino34_weekly` | degC | `CPC-wksst9120.for` | fastest trend, noisiest; **col 3** |
+| `nino12_weekly` / `nino3_weekly` / `nino4_weekly` | degC | `CPC-wksst9120.for` | cols 1 / 2 / 4 — **approved 2026-09-28** (already in use since 8/13; added to the vocabulary so the list matches the ledger) |
 | `nino12_monthly` | degC | `CPC-sstoi.indices` | the figure misquoted as "3.4" |
 | `verystrong_prob_ond` | pct | `CPC-ensodisc` | from the discussion prose |
 | `historic_prob_ond` | pct | `CPC-ensodisc` | ditto |
@@ -61,12 +62,17 @@
 
 ## WHAT TO REPORT (state only — do NOT grade)
 
-| Item | As of 8/13 |
+> 🔴 **RE-CUT 2026-09-28 (the 9/18 hurricane re-cut, applied to the three siblings it missed).** This block held a table of values "As of 8/13" — **46 days stale on 9/28, in the file a worker reads BEFORE the dossier**; on 9/28 AEOLUS had to override it by hand in the spawn prompt. **The brief carries the QUESTIONS and the LINES; current state lives in `DOSSIER.md` and AEOLUS `STATUS.md`, nowhere else. Do not re-add values here.**
+
+| Question | Line to report the margin against |
 |---|---|
-| ONI vs the "strong" ≥1.5 line | +1.39 — 0.11 below |
-| Very-strong probability | **>90%** (was 81% on 7/9) |
-| Historic-event probability (≥+2.5 RONI, OND) | **69%** — NEW |
-| Weekly trend | +2.1 → +2.2 → +2.3 → **+2.6** |
+| ONI latest season (`oni.ascii.txt`) | strong ≥1.5 · very strong ≥2.0 |
+| RONI latest season | historic-event line **+2.5 RONI (OND)** |
+| OISST monthly Niño-3.4 (`sstoi.indices`) | — (report; not interchangeable with ONI) |
+| **Weekly** Niño-3.4 (`wksst9120.for` — the SOLE weekly figure, KB-088) — every week since the last row | trajectory + rank within the file's own record |
+| CPC ENSO discussion — very-strong and historic-event probabilities, **verbatim, with issue date** | the prior issue |
+
+⚠️ **Label every ENSO figure with its baseline. Four baselines, none interchangeable.**
 
 ## RETURN FORMAT (exactly this)
 

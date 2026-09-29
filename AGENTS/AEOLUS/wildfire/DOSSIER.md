@@ -1,13 +1,35 @@
 # AEOLUS · WILDFIRE — live dossier
 
-**As-of: 2026-09-18.** Consolidated from KB-AEO-030/031/032/037/056 + the 2026-08-21, 2026-08-27 and 2026-09-18 worker runs.
+**As-of: 2026-09-28.** Consolidated from KB-AEO-030/031/032/037/056 + the 2026-08-21, 2026-08-27, 2026-09-18 and 2026-09-28 worker runs. **§1–§6 below are the 9/18 body; the 9/28 block directly beneath supersedes its peril figures.**
 
-> **Last real data refresh: 2026-09-18**  ·  **Dossier written: 2026-09-18**
+> **Last real data refresh: 2026-09-28**  ·  **Dossier written: 2026-09-28**
 > *Two-clock header (PAT-044) — `scripts/ledger_staleness.py` reads the first line. **The data date, not the edit date**: a hygiene edit must NOT bump it.*
 > **Observations → `wildfire/workbook/SERIES.tsv`** · findings → central `workbook/KB.tsv` · synthesis → `STATUS.md`. **Flow is one-way.**
 > **Feeds:** C4
-> ⚠️ **PERIL figures are 2026-09-18 (fresh). LOSS figures are still H1 2026 — a period that ENDED 2026-06-30, before Spokane and before the whole August peak. That leg is ~2.5 months stale and is labelled so on every line.**
-**C4 score: worker does not score. Last AEOLUS-set score was 3 🟠 ↗ (8/13); the 8/21, 8/27 and 9/18 refreshes are un-adjudicated.**
+> ⚠️ **PERIL figures are 2026-09-25 (NFN weekly) / 2026-09-28 (statistics page). LOSS figures are still H1 2026 — a period that ENDED 2026-06-30, before Spokane and before the whole August peak. That leg is ~3 months stale and is labelled so on every line.**
+**C4 score: worker does not score. Last AEOLUS-set score was 3 🟠 ↗ (8/13); the 8/21, 8/27, 9/18 and 9/28 refreshes are un-adjudicated.**
+
+---
+
+## 🆕 2026-09-28 WORKER REFRESH — supersedes the §1 peril figures (AEOLUS dark 9/18→9/28)
+
+| Instrument | Value | As-of / surface | Δ vs 9/18 |
+|---|---|---|---|
+| **Preparedness Level** | **2 of 5** — *"as of September 22, 2026 at 7:30 a.m. MDT"* | NFN banner, fetched 9/28 | 🔽 **3 → 2 on 9/22.** PL3 held 9/9→9/22 (14 days inclusive). Only change observable in the window; NFN shows current level only |
+| **Acres YTD** | **8,559,888** = **145%** *(narrative)* | NFN report 9/25 | +36,675 ac · 146% → 145% |
+| Acres YTD | **8,563,287** | statistics page, 9/28 07:55 | +3,399 vs 9/25 |
+| **Fires YTD** | **57,087** = **125%** | NFN 9/25 | +798 · 126% → 125% |
+| Fires YTD | **57,339** | statistics page 9/28 | +252 vs 9/25 |
+| **Large fires** | 🔴 **three numbers:** narrative **26** (9/25) · NFN table field **4** (9/25) · statistics "being suppressed" **17** (9/28) | — | 9/18: 50. **Basis break — see LOG 9/25** |
+| **Personnel** | **6,824** (NFN 9/25) · **5,697** (statistics 9/28) | — | 9/18: 12,315 |
+
+⚠️ **ACREAGE, NOT LOSS.** 145% is an acreage percentage; the cat-loss band still reads ~72% on H1 2026.
+⚠️ **The 10-yr-average fields are BLANK again (9/25) and the narrative 145% does NOT reproduce:** the mean of the ten listed year rows gives **142.67%** (fires 124.47% vs narrative 125%). Open question #6 is **re-opened** — the 9/18 closure held for 9/18 only.
+⚠️ **NFN now states "This report is currently updated on Fridays"** — a weekly surface; the statistics page (IMSR-sourced) updates daily.
+**New incidents in the window:** southern-Plains fires small and contained-trending — Rafter 4B TX (9/26, 2,125 ac, "pipeline and structures were threatened"), Grover Bend TX (9/26, 321 ac), Seven Oaks TX (9/27, 250 ac), Stone Bridge OK (130 ac). **Hydra Fire, Meridian TX (origin 9/14, 933 ac)** evacuated the city of Meridian; InciWeb 9/23: *"Structures lost: Undetermined at this time"*. **No new large incident with a published structures-destroyed count found.**
+**Outlook:** still the **9/01 issue** (Last-Modified 2026-09-01 18:29:32 GMT); October issue due 10/01. §5 grading inputs unchanged.
+**Loss leg:** no new tally; Cotality Spokane $1.0–1.3B unchanged (page last updated 8/24). Swiss Re H1 2026 **$42bn** (Artemis 8/11) added as a fourth H1 issuer figure.
+**Drought (cited from `../water/workbook/SERIES.tsv`, not pulled):** CONUS D1–D4 **59.37%**, mapDate **2026-09-15**.
 
 ---
 
@@ -84,7 +106,7 @@ The **10-year-average YTD fields, BLANK in served HTML on 8/21 and 8/27**, rende
 
 ## 3. 🔑 THE DIVERGENCE — the peril leg is now falling toward the loss leg
 
-**Acreage percentage: 155% (8/13) → 171% (8/21) → 164% (8/27) → 146% (9/18). PL 5 → 3. Uncontained large fires 101 → 76 → 94 → 50. Personnel 24,265 → 21,854 → 12,315.** The loss leg has not moved at all — **it is still the same H1 print it was on 8/13.**
+**Acreage percentage: 155% (8/13) → 171% (8/21) → 164% (8/27) → 146% (9/18) → 145% (9/25). PL 5 → 3 (9/9) → 2 (9/22). Large fires 101 → 76 → 94 → 50 → 26/4/17 (three surfaces, 9/25–9/28). Personnel 24,265 → 21,854 → 12,315 → 6,824 (9/25) → 5,697 (9/28).** The loss leg has not moved at all — **it is still the same H1 print it was on 8/13.**
 
 **So the gap is closing, but read WHY before reading it as convergence:**
 - the **acreage percentage** is falling largely because the **denominator is accreting** (§1) — absolute acres are still rising;
@@ -104,7 +126,7 @@ The **10-year-average YTD fields, BLANK in served HTML on 8/21 and 8/27**, rende
 | **RED band** | reinsurer cat tally **≥150%** of 10-yr avg | ~**72%** (H1 2026, 28% below avg) | **~78 pts below RED, below even Yellow (110%)** — and **measured on a window that closed 6/30**, so it is not yet evidence about this fire season either way. |
 | **Channel-kill** | H1 cat <110% of avg **AND** non-renewals stable 2+ quarters | loss leg ~72% (satisfies); non-renewal leg: **a 2024-vintage annual series now exists — but see §6, it still cannot answer a quarterly question** | conjunction **unsatisfied** on the second leg |
 
-🔴 **146% is an ACREAGE percentage. The RED band is a CAT-LOSS percentage at ~72%.** Different rows of the threshold table, different units. **Anyone reading "PL5 for 54 days, 8.5M acres, most destructive fire in WA history" and inferring a hard insurance market has substituted the peril leg for the loss leg.**
+🔴 **145% (9/25; 146% on 9/18) is an ACREAGE percentage. The RED band is a CAT-LOSS percentage at ~72%.** Different rows of the threshold table, different units. **Anyone reading "PL5 for 54 days, 8.5M acres, most destructive fire in WA history" and inferring a hard insurance market has substituted the peril leg for the loss leg.**
 
 ---
 
@@ -145,7 +167,7 @@ The 9/01 outlook, verbatim: *"El Niño continues to rapidly strengthen… anomal
 
 ### Physical state has moved AGAINST removal since 8/27
 
-**TX now reports 6 large fires and OK 4** — together 10 of the nation's 50 (§1), where the Southern Area had none in the 8/27 read. Outlook, verbatim: *"Much of Texas and Oklahoma received less than 20% of normal rainfall for August"*, *"Rapid drought onset was observed in the southern Plains and Lower Mississippi Valley"*, and extreme-to-exceptional drought *"most widespread across central Oregon, the eastern Great Basin, central Rockies, **Texas Panhandle, and western Oklahoma**."*
+*(9/28 note: by the 9/25 NFN table TX and OK carry **1 large fire each** of 4 listed; new TX fires 9/26–9/27 are ≤2,125 ac.)* **On 9/18 TX reported 6 large fires and OK 4** — together 10 of the nation's 50 (§1), where the Southern Area had none in the 8/27 read. Outlook, verbatim: *"Much of Texas and Oklahoma received less than 20% of normal rainfall for August"*, *"Rapid drought onset was observed in the southern Plains and Lower Mississippi Valley"*, and extreme-to-exceptional drought *"most widespread across central Oregon, the eastern Great Basin, central Rockies, **Texas Panhandle, and western Oklahoma**."*
 
 ---
 

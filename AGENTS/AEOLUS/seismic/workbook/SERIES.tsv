@@ -3,3 +3,7 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-08-13	usgs_max_mag_30d	7.4	Mw	USGS-significant_month	2026-08-13	Colombia 8/10
 2026-08-13	usgs_volcano_elevated	5	count	USGS-volcanoApi-elevated	2026-08-13	1 WATCH/ORANGE, 4 ADVISORY/YELLOW
 2026-08-13	gvp_weekly_items	23	count	GVP-WeeklyVolcanoRSS	2026-08-13	week 7/30-8/5; no stratospheric injection
+2026-09-28	usgs_significant_30d	7	count	USGS-significant_month	2026-09-28T20:00-04:00	window ~8/29-9/28; 0 M7+; 2 tsunami=1 flags (both Nikolski AK, PAGER green, flag=warning evaluated not a wave); FDSN full-gap 8/27-9/28 M6+ = 6, M7+ = 0
+2026-09-28	usgs_max_mag_30d	6.6	Mw	USGS-significant_month	2026-09-28T20:00-04:00	New Caledonia 9/25 (80 km ENE of Tadine), PAGER green
+2026-09-28	usgs_volcano_elevated	4	count	USGS-volcanoApi-elevated	2026-09-28T20:00-04:00	2 WATCH/ORANGE (Kilauea Very High Threat since 9/07 23:00Z; Great Sitkin High), 2 ADVISORY/YELLOW (Shishaldin, Ahyi); Kupreanof no longer listed
+2026-09-28	gvp_weekly_items	20	count	GVP-WeeklyVolcanoRSS	2026-09-28T20:00-04:00	edition pubDate 9/17, week 9/10-9/16; 1 new-eruptive (Krakatau); max plume 2.5 km above crater (Aira); no stratospheric injection reported

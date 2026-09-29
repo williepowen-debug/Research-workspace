@@ -39,6 +39,8 @@
 | `budapest_stage` / `baja_stage` / `mohacs_stage` | cm | `OVF-<STATION>` | Danube; **local datum, negatives normal** |
 | `rosario_stage` / `santafe_stage` / `corrientes_stage` | m | `UNL-FICH-<STATION>` | Paraná; **Rosario = the grain-export gauge** |
 | `panama_transits` | count | `ACP-MONTHLY-OPS-SUMMARY` | **oceangoing transits daily average** — NOT arrivals; monthly |
+| `memphis_stage` | ft | `NOAA-NWPS-MEMT1` | hourly → record **daily mean, UTC calendar day** (canonical, KB-AEO-159); state the basis |
+| `vicksburg_stage` / `cairo_stage` | ft | `NOAA-NWPS-VCKM6` / `NOAA-NWPS-CIRI2` | **approved 2026-09-28**; IDs from the NWPS gauge listing (KB-AEO-159). Report a reference plane only if NWPS publishes one |
 
 **Use these names exactly.** A new instrument needs AEOLUS's approval — **do not invent one.**
 
@@ -70,15 +72,21 @@
 
 ## THRESHOLDS TO REPORT ON (report state — do NOT grade)
 
-| Threshold | Current margin as of 8/13 |
+> 🔴 **RE-CUT 2026-09-28 (the 9/18 hurricane re-cut, applied to the three siblings it missed).** This block held a table of values "As of 8/13" — **46 days stale on 9/28, in the file a worker reads BEFORE the dossier**; on 9/28 AEOLUS had to override it by hand in the spawn prompt. **The brief carries the QUESTIONS and the LINES; current state lives in `DOSSIER.md` and AEOLUS `STATUS.md`, nowhere else. Do not re-add values here.**
+
+**Report the current value, as-of date, basis and source for each — plus the margin to its line, never a verdict:**
+
+| Question | Line to report the margin against |
 |---|---|
-| Powell vs all-time low **3,519.92 ft** | 0.45 ft above, falling ~0.19 ft/day |
-| **Mead vs Hoover 1,035 ft** *(the BINDING one)* | 4.82 ft above |
-| Powell vs min power pool 3,490 ft | ~30 ft above |
-| Kaub vs **25 cm** (WSV `NNW`, 2018-10-22) | **13 cm — 12 BELOW the record** |
-| Duisburg-Ruhrort vs **153 cm** (WSV `NNW`, 2018-10-23) | **134 cm — 19 BELOW the record** |
-| **C5 trigger: consecutive days BOTH below their NNW** | **5 of 10 required** (run began 2026-08-09) — report the COUNT, do not grade |
-| USDM CONUS D1–D4 | 50.38% |
+| **Mead** daily elevation (USBR 921/49) — every day since the last recorded row, + the minimum and its date | **Hoover 1,035 ft** *(BINDING, C6 →5 leg 1)*; exit ≥1,045 ft × 5 consecutive days |
+| **Powell** daily elevation (USBR 919/49) — REALISED only, never a 24-Month Study table | **3,510 ft** ROD protection line *(C6 →5 leg 3)*; exit ≥3,520 × 5 days |
+| **Kaub** and **Duisburg-Ruhrort** UNROUNDED daily means + reading counts, every complete day (≥90/96) since the last row | **≤25 cm** and **≤153 cm** (WSV `NNW`); report every 3-consecutive-complete-day window where BOTH hold — the COUNT, not a grade |
+| **Memphis** (NWPS MEMT1) DAILY-MEAN stage from hourly obs (n≥22/24) + the trough and its date | `lowThreshold` −8 ft · 2022-10-21 −10.81 · 2023-10-17 −12.06 |
+| **Gatún** (ACP CSV) + any new ACP Advisory to Shipping — draft (TFW), **SLOTS**, **TRANSITS** labelled separately | the 2023 same-date analogue; bands on TRANSITS ≤32 / ≤27 / ≤22 |
+| **USDM** CONUS D1–D4 | the prior week (direction + magnitude) |
+| Danube · Paraná · Yangtze · Lees Ferry | per `README.md` |
+
+⚠️ **DARK-WINDOW RULE (AEOLUS boot 6c):** when the gap since the last recorded row exceeds a trigger's window (Rhine = 3 days), pull and test the WHOLE gap, not only the latest days.
 
 ## RETURN FORMAT (exactly this)
 
@@ -102,7 +110,9 @@ gaps:                <instruments not pulled + the exact error text>
 
 ## OPEN QUESTIONS AEOLUS WANTS PROGRESS ON
 
-1. **The Powell record watch is live** — 0.45 ft, ~2-3 days. Report the number; **do not call the record broken until the printed value is below 3,519.92.**
-2. **Base-rate USBR's 24-month-study projection error** — AEO-10 currently rests on a 2.1 ft buffer with no error bar.
-3. **Yangtze · Danube · Paraná have no read at all** — gaps under a standing Will directive.
-4. **Panama** — AEO-04's instrument, unverified two sessions running.
+*(Re-cut 2026-09-28. The 8/13 list is spent: ① the Powell all-time-low watch RESOLVED 8/15 (AEO-06 HIT) · ② the 24-Month-Study error base rate was done 8/27 and re-done at September vintage 9/18 (KB-097/142) · ③ Danube and Paraná now have reads; Yangtze remains the gap · ④ Panama is instrumented at ACP primaries.)*
+
+1. **Mead vs 1,035 through 12/31 (AEO-10, 55%)** — the realised track and the October/November 24-Month Studies are what resolve it. Report every daily value; no extrapolation without the driver (Powell releases).
+2. **C5 →5 re-scope (deadline 9/30)** — confirm the WSV/BfG `GlW` definition (Kaub 77 / Duisburg 227) and whether any multi-year daily series is reachable; the ~31-day PEGELONLINE retention is the wall.
+3. **Mississippi autumn low-water window (Sep–Nov)** — daily-mean basis only; resolve Vicksburg/Cairo NWPS IDs and any St. Louis reference plane.
+4. **Yangtze** — still no read under the standing Will river directive.

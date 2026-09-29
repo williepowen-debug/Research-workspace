@@ -61,12 +61,15 @@
 
 ## WHAT TO REPORT (state only — do NOT grade)
 
-| Item | As of 8/13 |
+> 🔴 **RE-CUT 2026-09-28 (the 9/18 hurricane re-cut, applied to the three siblings it missed).** This block held a table of values "As of 8/13" — **46 days stale on 9/28, in the file a worker reads BEFORE the dossier**; on 9/28 AEOLUS had to override it by hand in the spawn prompt. **The brief carries the QUESTIONS and the LINES; current state lives in `DOSSIER.md` and AEOLUS `STATUS.md`, nowhere else. Do not re-add values here.**
+
+| Question | Line to report the margin against |
 |---|---|
-| NIFC preparedness level | **5**, since 7/18 (26 days) |
-| Acres YTD vs 10-yr avg | 6,447,442 = **155%** *(acreage)* |
-| Insured cat losses vs avg | **~25-28% BELOW** *(loss)* |
-| Upgrade trigger: insolvency OR >$10B single cat | **NOT FIRED** |
+| NIFC National Preparedness Level — current + every change with its date | PL5 = C4 peril leg at maximum |
+| YTD fires / acres vs 10-yr average — **publish the ABSOLUTE PAIR, never the ratio alone** (P7, 9/18) | the prior read's absolute acres |
+| Uncontained large fires · personnel | the prior read |
+| NIFC monthly outlook — **current-month panel** designation for TX and OK (AEO-09); map and text reported separately | AEO-09 removal = TX/OK **no longer NAMED** above-normal in the **current-month** panel; where map and regional narrative disagree the **regional section governs**; a hedge is not a designation; out-month panels are forecasts, not designations (**KB-AEO-128**, ruled 9/18) |
+| **LOSS leg, separately** — insured-loss estimates (named publisher + date + whether reached by verified command or by search) | C4 upgrade: carrier insolvency OR **>$10B** single insured cat. ⚠️ **PERIL ≠ LOSS** |
 
 ## RETURN FORMAT (exactly this)
 
