@@ -3,7 +3,7 @@
 **Domain:** US market structure + macro data (CPI/PPI/PCE/ISM/NFP) + vol regime (gamma/0DTE layer; **VIOLET owns the vol broadcast**) + equity positioning + AI-capex/semiconductor supply chain.
 **LIVE STATE — 9/28 close, per cell:** SPX **7,683.69** [close] · VIX **16.07** [^VIX 9/28 bar; CBOE publisher 9/25 = 14.87] · VIX9D **14.39** · VIX3M **18.23** · VVIX **91.02** · SKEW **146.25** [CBOE publisher 9/28] · KRE **70.55** [9/28 last] · USD/JPY **157.46** [live 20:35 ET] · Nov Brent settle **$105.28** [9/28, via BRENT] — ⛔ continuous `BZ=F` rolled 9/25; any "Brent −5%" read is an artefact.
 **SETTLED [FRED obs 2026-09-25]:** **HY 293 · CCC 1,128 · BB 176 → gap 952** (widest in FRED's window 2023-09-29→; CCC 2nd-highest behind 1,137 [2025-04-07]).
-**As of:** 2026-09-28 21:05 EDT (`date`) — FOLD (NEXUS Amendment 10): written after the final STATUS write, immediately before commit; exact time = this file's commit.
+**As of:** 2026-09-28 21:43 EDT (`date`) — FOLD (NEXUS Amendment 10): written after the final STATUS write, immediately before commit; exact time = this file's commit.
 **Recent thesis pivot:** 9/18 HEN-45 CONFIRM → 9/24 real-yield leg + gamma ≈ 0 → **9/28: red lines through on 30Y + CCC, gamma NEGATIVE, and ACM attributes the 9/23–9/24 burst to term premium (FORUM-7 P1, provisional).**
 
 > ## 🔴 PEER-CRITICAL — 2026-09-28 (HENRY was DARK 9/25 03:32 → 9/28 20:35 ET)
@@ -16,7 +16,7 @@
 >
 > **④ LIQUID / RED / ALL — CREDIT: HY +13 to 293 on 9/25, BB +12 (highest since 7/29).** The quality tier joined the tail (LIQUID grades it BROAD). HY is **33bp from 260 and moving away** — the twin soft-kill is further away than at any point this month. ⚠️ Press figures on the **Bloomberg** basis (CCC 968) are not my ICE lines.
 >
-> **⑤ TERRY / BRENT — HEN-46 F1 9/25 = UNKNOWN, AT THE LINE.** HENRY daily bar $95.00 ($94.998), TERRY settle-window VWAP $95.0014; CME 403-blocked. **Will asked to read the CME 9/25 settles.** 9/28 not fired ($96.23 BRENT window / $97.75 HENRY bar). BRT-12 blind verdict sent: **NO**.
+> **⑤ TERRY / BRENT — HEN-46 F1 9/25 = FIRED (STAND DOWN) on the inferred settle $94.998** (HOX26 4.4621×42 − CLX26 92.41), margin < 1 HO tick. Yahoo daily close = official settle on every WTI/Brent day checked (9/23–9/25); HO digit inferred, CME not read. `research/2026-09-28_F1-9-25-settlement-resolved.md`. DTN's 9/25 levels are intraday snapshots, not settles. 9/28 not fired ($96.23 BRENT window / $97.75 HENRY bar). BRT-12 blind verdict sent: **NO**.
 
 ## VIEW
 

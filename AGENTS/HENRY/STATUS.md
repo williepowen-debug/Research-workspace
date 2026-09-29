@@ -145,7 +145,7 @@
 
 | ID | Prediction | Resolves | Status |
 |----|------------|----------|--------|
-| **HEN-46** | Diesel/jet squeeze — AAL/LUV miss Q3 fuel. F1 crack <$95 stand down / <$90.16 dead · F2 Jazan restart · F3 ban lapse 9/30 + crack <$95 in 10 sessions · F4 guide raised · F5 AAL −12% pre-entry. Full row → `PREDICTIONS.tsv` | **Q3 prints, late Oct** | ✅ ACTIVE 0.35 / 0.30. **F1 basis = matched `HOX26×42 − CLX26` at CME SETTLEMENT.** **9/25: UNKNOWN — AT THE LINE** (TERRY settle-window VWAP $95.0014; HENRY daily bar $95.00 [$94.998]; CME 403-blocked ⇒ **Will reads the CME 9/25 settles to resolve**). 9/28: not fired (BRENT settle-window $96.23; HENRY bar $97.75). ⚠️ DENY-side risk now LIVE: US diesel-export-ban talk (Trump 9/22, 9/27; no order) would lower the US crack |
+| **HEN-46** | Diesel/jet squeeze — AAL/LUV miss Q3 fuel. F1 crack <$95 stand down / <$90.16 dead · F2 Jazan restart · F3 ban lapse 9/30 + crack <$95 in 10 sessions · F4 guide raised · F5 AAL −12% pre-entry. Full row → `PREDICTIONS.tsv` | **Q3 prints, late Oct** | ✅ ACTIVE 0.35 / 0.30. **F1 basis = matched `HOX26×42 − CLX26` at CME SETTLEMENT.** 🔴 **9/25: F1 FIRED — STAND DOWN — on the inferred settle $94.998** (HOX26 4.4621 × 42 − CLX26 92.41; margin < 1 HO tick). Settles = Yahoo daily closes, validated exact vs wire-derived settles on CLX26 9/23–9/25 and BZX26 9/25; the HO 9/25 digit itself is inferred, CME not read → `research/2026-09-28_F1-9-25-settlement-resolved.md`. Not dead (<$90.16). 9/28: not fired (BRENT settle-window $96.23; HENRY bar $97.75). ⚠️ DENY-side risk now LIVE: US diesel-export-ban talk (Trump 9/22, 9/27; no order) would lower the US crack |
 | **HEN-47** | FORUM-7 verdict rule (path vs premium, 9/22→9/24) | **2026-10-02** | ✅ ACTIVE — **P1 PROVISIONAL PREMIUM (s 0.685), KW-UNCHECKED**; P2 KW pending; FINAL 10/1 FR2004 |
 
 **No new prediction registered.** The real-yield letter stays unregistered — it must now name BOTH TP models and the day-split above before it can be written.
@@ -173,7 +173,7 @@
 
 **5. 🟡 OCTOBER HIKE ~68%** [ZQX26 vendor bar 9/28; BOND agrees]. Cook (9/28): the labor market can "handle an increase in rates." UMich 1y expectations 4.6%. **This week decides it: PCE 9/30 · ISM 10/1 · NFP 10/2.**
 
-**6. 🟡 HEN-46 F1 IS UNRESOLVED FOR 9/25 — AT THE LINE** ($95.00 on every proxy; CME blocked). **Will reading the 9/25 CME settles for `HOX26`/`CLX26` resolves it.** 9/28 not fired ($96–98). Diesel-export-ban talk is a live DENY-side risk.
+**6. 🔴 HEN-46 F1 FIRED ON 9/25 — by less than one price tick.** Inferred settle $94.998 vs the $95.00 line (Yahoo daily closes, which matched the official WTI/Brent settles exactly on every day checked; the heating-oil digit itself is not CME-read). Stand-down, not dead. TERRY grades the VLO gate. 9/28 not fired ($96.20). Diesel-export-ban talk is a live DENY-side risk.
 
 **7. ⛔ KILL ON SIGHT:** *"Brent fell 5.6% Monday"* (roll artefact; Nov settled $105.28) · *"the 10Y is an inflation scare"* (breakevens +1) · *"the whole move is policy path"* (ACM: 9/23–24 premium) · *"CCC 968"* as an ICE figure (Bloomberg basis) · *"30Y highest since 2004"* (DGS30 has a 2002–06 gap; say "since at least 2007") · any HENRY wall dated before 9/28 · *"October odds X%"* without its basis · *"Russia extended the diesel ban"* (report, no decree) · *"shutdown risk this week"* (CR to 12/11).
 
