@@ -4,10 +4,10 @@
 **Last full matrix review: 2026-09-29** *(prior 9/17)*. 📦 COLD: §A–§H12 · `PREDICTIONS_COLD.md` §P5.
 
 > ## Probability split, 2–6wk: **Break 20% (—) · Grind-lasts 47% (—) · Unresolved-divergence 33% (—)**
-> **Falsifier (Disc-J) = `DFII10` banded letter, L13.** Anchor **L = 2.85 [9/24]** ⇒ UP ≥2.95 ×5 · DOWN ≤2.75 ×5. **Cell 1 = 2.83 [9/25]: neither (0 of 5 either way).** Window 15 cells ≈ 10/16. **HELD — the falsifier has not fired.** ⚠️ **The letter cannot see CREDIT** — this week's HY +34 / B +36 / CCC +71 / IG +6 (all p93–98 daily) is what a Break path's first week looks like. **PRED-50 (L14)** tests whether the credit leg is a second ROOT (out of sample, 9/29→10/8). A credit LEG for the split = **WQ-342** (PROME rec NOT NOW under the frozen 9/02 letter; earliest 10/16).
-> **WQ-340 verdict:** seven fired lines = **TWO ROOTS + a control, effective-N ≈ 2** — Root A the price of money (real +27bp 9/22→9/28, BE +1; ACM P1 **PREMIUM 0.685 PROVISIONAL, KW-unchecked**, FINAL Thu 10/1) · **Root B an AI-disruption scare in incumbents no owner names as a root** (9/25: rates flat, SPY +0.5%, HY +13 / BB +12 / B +14, cable-led) · control = the Rhine. **Next link: IG OAS >94 (`GATE-LIQ-072`; 83 [9/28]).** Root B owner = **WQ-341** (HOLD until PRED-50 grades ~10/9).
+> **Falsifier (Disc-J) = `DFII10` banded letter, L13.** Anchor **L = 2.85 [9/24]** ⇒ UP ≥2.95 ×5 · DOWN ≤2.75 ×5. **Cell 1 = 2.83 [9/25]: neither (0 of 5 either way).** Window 15 cells ≈ 10/16. **HELD — the falsifier has not fired.** ⚠️ **The letter cannot see CREDIT** — this week's HY +34 / B +36 / CCC +71 / IG +6 (all p93–98 daily) is what a Break path's first week looks like. **PRED-50 (L14, corrected C1)** tests whether B widens on sessions where both nominal and real 10Y are quiet (out of sample, 9/29→10/8) — the behavior a second cause would show, not the cause itself. A credit LEG for the split = **WQ-342** (PROME rec NOT NOW under the frozen 9/02 letter; earliest 10/16).
+> **WQ-340 verdict (CORRECTED ~16:4x per CATO PN2):** seven fired lines = **ONE ESTABLISHED rates-related cluster + ONE CANDIDATE second credit cause + a control; effective-N ≥1, ≤2** — Root A the price of money (real +27bp 9/22→9/28, BE +1; ACM P1 **PREMIUM 0.685 PROVISIONAL, KW-unchecked**, FINAL Thu 10/1) · **candidate Root B, an AI-disruption scare in incumbents — a candidate, not established, and no owner names it** (9/25: rates flat, SPY +0.5%, HY +13 / BB +12 / B +14, cable-led) · control = the Rhine. **Next link: IG OAS >94 (`GATE-LIQ-072`; 83 [9/28]) — a LEVEL, not a cause discriminator.** Candidate's owner = **WQ-341** (HOLD until PRED-50 grades ~10/9; **PRED-50 grades a behavior, never the cause — a ❌ installs no "non-root"**).
 
-**Trading constraint:** no trade rails from NEXUS; positions → `FORGE/STATUS.md`. **TLT Sep-30 77P ×15 EXPIRES 9/30, OTM** (TERRY/Will; **WQ-339** = a fresh duration card?). `GATE-TERRY-ROLL70` 1× WAL Dec $70P; WAL **$76.55 [9/28]**, exit ≥$81.90 ×3 (0-of-3). ⚠️ **No level here is a live price.** Credit/rates = **FRED obs 9/28** unless dated; oil = owners' dated settles. ⛔ **`BZ=F` ROLLED 9/25 (Nov→Dec, ~$7.5): "Brent −5.6%" is an ARTEFACT.** ⛔ Name BOTH legs' contract months on any spread (BZX26 through 9/29, BZZ26 from 9/30).
+**Trading constraint:** no trade rails from NEXUS; positions → `FORGE/STATUS.md`. **TLT Sep-30 77P ×15 EXPIRES 9/30, OTM** (TERRY/Will; **WQ-339** = a fresh duration card?). `GATE-TERRY-ROLL70` 1× WAL Dec $70P; WAL **$76.55 [9/28]**, exit ≥$81.90 ×3 (0-of-3). ⚠️ **No level here is a live price.** Credit/rates = **FRED obs 9/28** unless dated (aggregate HY revision-tested; tier series BB/B/CCC/IG/BBB are LATEST-REVISED at FRED, first-published equivalence untested — CATO PN5); oil = owners' dated settles. ⛔ **`BZ=F` ROLLED 9/25 (Nov→Dec, ~$7.5): "Brent −5.6%" is an ARTEFACT.** ⛔ Name BOTH legs' contract months on any spread (BZX26 through 9/29, BZZ26 from 9/30).
 
 **Δ-convention** → `CLAUDE.md`: signed **pp**; `Last updated` bumps **only** on material change.
 
@@ -40,14 +40,14 @@
 | **R3 Credit fundamental** | Separation at span max AND migrating (B 309 >300 ×2). CCC >1,000 since 7/27. **CARL: CRL-08 MISSED 9/30; kill-rule re-spec RESOLVED 8/27 (0-of-2) — my L2 was stale.** OTTO-10's Equifax series does not exist; subprime origination share RISING at primary. |
 | **R4 AI/factor — TWO FACES** | Capex face (M-09). 🆕 **DISRUPTION face (Root B): Meta "Muse" scare — cable (CHTR −21.1% 9/15→9/28, SIRI −12.1%, CMCSA −10.8% vs SPY +1.1%) + bank deposit-flight narrative (BKX −3.5%/5d) — on three desks, owned by none.** → T-27 / WQ-341. |
 | **R6 Japan/BOJ** | 🔴 **BOJ HIKED to 1.25% (9/17–18; priced).** MOF 10Y 3.082% [9/28]; **40Y 9/29 FIRM (BTC 3.096×) ⇒ T-24 counter 0/3.** USD/JPY 159.04 → 156.50 on **words** (Bessent 9/25), not intervention. **SAM-42: BOJ >1.25% by 10/31 — SAM 25% vs OIS 36% / PM ~22%.** |
-| **R7 Concentration** | Amplifier LIVE: gamma NEGATIVE both horizons; `GATE-LIQ-076` MET (cover +329,162 as-of 9/22 + MOVE>85/VIX<20) — LIQUID: **"amplification, not substance — profit-taking + roll-off, NOT a squeeze"; discriminator INCONCLUSIVE; W2 unmeasured.** Write-up CLOSED on GATES. SKEW 146.25; `RED-FT-10` 0-of-4. |
+| **R7 Concentration** | Amplifier LIVE: gamma NEGATIVE both horizons; `GATE-LIQ-076` MET (cover +329,162 as-of 9/22 + MOVE>85/VIX<20) — LIQUID: **"amplification, not substance — profit-taking + roll-off, NOT a squeeze"; discriminator INCONCLUSIVE; W2 NOT MET on the measured 9/16 observation (later vintage not established — corrected per CATO PN6).** Write-up CLOSED on GATES. SKEW 146.25; `RED-FT-10` 0-of-4. |
 | **R8 Foreign-official UST** | Counter-evidenced July TIC; custody +$12.4B; Aug TIC 10/16. |
 | **R10 Recognition-perimeter** | SHADE dark. **ORACLE: any-bank-failure market resolved YES on Nano Banc — NO successor.** |
 | **R11 China** | ZHAO 29/60; summit 9/23–25 "new joint arrangement", NO terms; LPR held; construction PMI ~9/30. |
 | 🆕 **R12 European rivers** | **AEOLUS C5 FIRED 9/28: Kaub −0.844/−0.604/1.537 cm vs 25 record low; Duisburg 123–130 vs 153; 11 days.** ONE root (drought; "do not add the Danube"). Products/freight leg (Contargo €1,075/20′; gasoil ARA→Basel €215/t). **WQ-340 control.** |
 | **Panama — UNROOTED, LOOSENING** | *"A-33" was my error — notice A-36 (9/28):* draft 48.0 → **49.0 ft**, slots **33/day from 10/15**. |
 
-**C1 — count-once:** ONE real-yield leg · ONE HY series read by FOUR desks (RED FT-01 · BOND row 4 · LIQUID X1 · REGINALD re-arm) · ONE FOMC · ONE JOLTS/claims window. **C2:** Fed + BOJ + Treasury = ONE policy vote. **C3 — effective-N:** roots ~12; break-relevant ~5; **this week's cluster = 2 (WQ-340)** — R1 louder, R4 a second FACE not a second root until PRED-50 says so.
+**C1 — count-once:** ONE real-yield leg · ONE HY series read by FOUR desks (RED FT-01 · BOND row 4 · LIQUID X1 · REGINALD re-arm) · ONE FOMC · ONE JOLTS/claims window. **C2:** Fed + BOJ + Treasury = ONE policy vote. **C3 — effective-N:** roots ~12; break-relevant ~5; **this week's cluster = 1 established + 1 CANDIDATE (WQ-340, corrected)** — R1 louder; R4's disruption face is a candidate cause, and PRED-50 can only show the behavior, not settle the cause.
 
 ---
 
@@ -71,7 +71,7 @@
 | **T-12** | R | 🔒 CLOSED 9/11; successor L13 (cell 1 neither). |
 | **T-25** | R | ACM PREMIUM 0.685 for 9/23–24; KW frontier 9/18 ⇒ model-gap test UNRUN. ⛔ Name which model. FINAL 10/1 → verdict by 10/2 (HENRY packets). |
 | **T-26** | R | **Arbiter RESOLVED UP** (2.85 → 2.90); 2Y prices the 2027 path (Oct/Dec futures +1.5–2bp on a +11 2Y day). → 10/6–8 auctions (BOND row 1 ⇒5). |
-| 🆕 **T-27** | R | 🔴 **ROOT B IS UNOWNED** — VULCAN capex, LIQUID credit structure, REGINALD banks, HENRY 🟡 only. **WQ-341** (HOLD until PRED-50 ~10/9; then VULCAN sub-read + LIQUID credit expression, or non-root). |
+| 🆕 **T-27** | R | 🔴 **THE CANDIDATE CREDIT CAUSE (Root B) IS UNOWNED** — VULCAN capex, LIQUID credit structure, REGINALD banks, HENRY 🟡 only. **WQ-341** (HOLD until PRED-50 ~10/9; then VULCAN sub-read + LIQUID credit expression if the behavior is OBSERVED). ⚠️ A ❌ on PRED-50 removes the candidate's only registered support; it does NOT rule the cause a non-root — that is a separate question. |
 | 🆕 **T-28** | T | **Fleet clocks off by a day:** MU **Wed 9/30** · METI Aug table **9/30 13:30 JST** (SAM) vs ~10/2 (BRENT/HAWK) · BOJ **10/30** (SAM) vs 10/29 (ORACLE). Carried so no NEXUS row grades on the wrong day. |
 | **T-10** | R/T | AAA $4.4825 [9/24] late-Sept record; diesel $6.5276. CPI 10/14. |
 | **T-11** | T | **MU Wed 9/30 AMC** (VULCAN-12 gap at ~86% GM); OpenAI pause; SB Energy IPO; FERC PJM IRAS ~10/12 (10/9 UNVERIFIED). |
@@ -129,7 +129,7 @@
 ## NARRATIVE GAP
 
 - **Consensus (HENRY 9/28):** *"Rates at 2007 highs on real yields · credit tail through red with BB joining · dealers short gamma · VIX still 16 — nothing mechanical absorbs a down move now."*
-- **Agent-data:** two roots (real yields/TP; an unowned AI-disruption scare); chain blocked at funding, IG, index vol; labor head benign and facing its own kill Friday.
+- **Agent-data:** one established root (real yields/TP) plus one CANDIDATE credit cause (an unowned AI-disruption scare); chain blocked at funding, IG, index vol; labor head benign and facing its own kill Friday.
 - 🔴 **Counter-signal (Disc-D):** **PRIMARY ACCESS OPEN — SoftBank $11.1B priced INSIDE talk 9/23–24, the days HY broke 273 → 280; CRWV upsized $4.2B converts 9/22; zero verified pulled deals.** Funding 0bp through a 5.56 30Y. **KRE ROSE 9/24→9/25 while every tier widened.** Petroline lapsed NOT MET; oil faded $108.6 → $105.28 settle; ceasefire 94.5%.
 - **Gap: NARROWER on credit, WIDER on labor — it ROTATED.** The tape agrees with the bear about the price of credit and disagrees about whether anything is defaulting.
 - **Closing catalysts:** 9/30 QE + MU → 10/1 FR2004 / FORUM-7 FINAL → 10/2 NFP → 10/6–8 auctions → 10/14–15 CPI → 10/16 TIC.
@@ -144,7 +144,7 @@
 
 ## BOTTOM LINE
 
-**Five days dark covered the sharpest credit move of the quarter, and the registered instruments did their job: M-08's forcing condition fired and moved the number; M-06's resolver lapsed and moved the number; the split's letter did not fire and the split held.** Added: the WQ-340 read — **seven fires, two roots** — and the finding no silo could make: **the second root is an AI-disruption scare that moved cable credit and a bank narrative on the same days across three desks, and nobody owns it (T-27 → WQ-341).** PRED-50 tests whether it is real. **Not done:** moving the split on evidence its letter cannot see (WQ-342, Will's); re-marking M-05 on an intraday zone flip; counting the HY line more than once.
+**Five days dark covered the sharpest credit move of the quarter, and the registered instruments did their job: M-08's forcing condition fired and moved the number; M-06's resolver lapsed and moved the number; the split's letter did not fire and the split held.** Added: the WQ-340 read — **seven fires, one established root and one CANDIDATE** — and the finding no silo could make: **the candidate is an AI-disruption scare that moved cable credit and a bank narrative on the same days across three desks, and nobody owns it (T-27 → WQ-341).** PRED-50 tests whether the behavior recurs; it cannot settle the cause. *(Corrected ~16:4x per CATO PN2 — "two roots" overstated it.)* **Not done:** moving the split on evidence its letter cannot see (WQ-342, Will's); re-marking M-05 on an intraday zone flip; counting the HY line more than once.
 
 ---
 

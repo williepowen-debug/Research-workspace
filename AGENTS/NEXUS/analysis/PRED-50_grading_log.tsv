@@ -1,0 +1,4 @@
+obs_date	series	value	pulled_at_ET	pull_source	note
+2026-09-28	BAMLH0A2HYB	309	2026-09-29T13:27-04:00	fredgraph.csv	base cell (window starts 9/29); LATEST-REVISED at FRED, FROZEN-ON-REVISABLE convention per correction C1
+2026-09-28	DGS10	5.24	2026-09-29T13:27-04:00	Treasury official via HENRY/BOND (FRED cell unpublished at pull)	base cell; re-pull at FRED before grading the 9/29 change
+2026-09-28	DFII10	2.90	2026-09-29T13:27-04:00	Treasury official via HENRY/BOND (FRED cell unpublished at pull)	base cell; re-pull at FRED before grading the 9/29 change
