@@ -47,7 +47,7 @@
 
 > **Matrix detail (method notes, runway/reserve legs, per-bank narrative rows) → `STATUS_MATRIX.md` — COLD, on-demand, NOT a boot read; split verbatim 2026-09-24, crc-stamped.** Scores below are the live line; ⚠️ a `0` means clean on the scored channels only, not a clean bill of health. Method + full table → `BANK_EXPOSURE_MATRIX.md`.
 > **🔴 FLG 6** *(was LAST)* · **🟠 EGBN 5** · **🟠 AMTB 5** *(absent from v1 entirely)* · VLY 3 · **OZK/WAL/SSB/BKU/SBCF 2** *(WAL was 1st=)* · ZION/MTB/CUBI 1 · **CFG/HBAN 0** *(CFG was 3rd)*.
-> 🟡 **FLG price ladder `VX-REG-6.03` YELLOW since 9/16** (band 1 $12.82 broken; ORANGE $12.10 → packet PROME + FLG). Detector: `scripts/vx_ladder_check.py`. Matrix score unchanged.
+> 🟠 **FLG price ladder `VX-REG-6.03` ORANGE since 9/28** (band 2 $12.10 broken at **$12.04 [9/28 close]**, −15.4% vs FROZEN $14.24; band 1 $12.82 broke 9/16; RED $11.39 → packet again). **Packets PROME + FLG sent 9/29** per the 9/24 registration. Detector: `scripts/vx_ladder_check.py` (caught at the first boot after the close). Matrix score unchanged.
 
 
 
