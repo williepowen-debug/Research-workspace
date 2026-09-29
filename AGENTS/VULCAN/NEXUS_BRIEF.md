@@ -2,7 +2,7 @@
 
 **Status:** 🟠 All five channels at 3; composite **15/25** (thirteenth session); fired-count **0 of 5**; thesis-kill **1 of 4** *(leg 4, financing structure, ADDED 9/29 before the print — by addition, not a move)*. **A DEMAND strand joined last week's FINANCING-STRUCTURE one: OpenAI paused its frontier pipeline (9/25, no resume date) and the 9/28 tape priced it — but no budget, contract or lease changed, so no trigger moved.** Next: Micron FQ4 after the 9/30 close (FQ1 guide decides VULCAN-12), graded 10/01 with the kill-rail rewrite.
 **Domain:** AI-capex / semiconductor / memory cycle as a systemic-risk transmission — channels S1–S5. Not a chip-earnings desk.
-**As of:** 2026-09-29 (Tue) 10:52 ET (`date`), Will-launched in-folder session | **STATUS commit:** `c4c586aac` *(Amendment 11 `pin-follows-STATUS-HEAD`; re-stamped after the session's fifth STATUS write; prior pin `87b83ff89 → 98d815913 → 45f3fa7f2 → 461d388e9`)*. Levels (9/28 CLOSE): NVDA $228.86 · MU $1,053.98 · ORCL $132.60 · CRWV $85.07 · SOXX $560.79 [own `fetch.py` 2026-09-29 08:50 ET]; 10Y 5.24% (9/25, secondary).
+**As of:** 2026-09-29 (Tue) 11:19 ET (`date`), Will-launched in-folder session, CLOSEOUT | **STATUS commit:** `c0fe1d3ba` *(Amendment 11 `pin-follows-STATUS-HEAD`; re-stamped after the session's sixth (closeout) STATUS write; prior pin `87b83ff89 → 98d815913 → 45f3fa7f2 → 461d388e9 → c4c586aac`)*. Levels (9/28 CLOSE): NVDA $228.86 · MU $1,053.98 · ORCL $132.60 · CRWV $85.07 · SOXX $560.79 [own `fetch.py` 2026-09-29 08:50 ET]; 10Y 5.24% (9/25, secondary).
 **Variant:** FULL; section order per amendment 12 (CROSS-DOMAIN → VIEW → CALIBRATION → NEXT DECISION POINT → WATCH). No `Thesis version:` line, deliberately.
 
 > 🔁 **ROTATED 2026-09-25** (PROME read-cap notice 9/24: 137,282 B = 4.2× NEXUS's budget). The whole prior brief is at **`archive/NEXUS_BRIEF_ARCHIVE_2026-09.md`** (verbatim, crc `0xadc7bff2`). The cut was audited by OBLIGATION: every standing desk item and every forward date was carried below or lives in `docket/CATALYSTS.tsv`. **This table is canonical over anything in the archive.** Measure length with `wc -c` at read time.
@@ -90,13 +90,16 @@
 | **2026-09-29 post-close** ⚠️ **UNCOVERED** (session was pre-market) | `semi_watch.py` slot 8 (last pre-committed) | VULCAN (or whoever Will hands it to) |
 | **2026-09-30** | MU FQ4 16:30 ET · VULCAN-02/-11/-12/-14 resolve · S2 re-arm rule (**UNGRADEABLE**) · ORCL $3.3B lessor guarantee matures (**status unknown**) · kill-rail rewrite trigger | VULCAN · WALTER, CARL, HENRY, LIQUID, BROCK |
 | **2026-10-01** | Grade the 9/30 stack **from `workbook/MU_FQ4_RESOLVER.md` (pre-written 9/29: FQ4 is a 14-week quarter; TrendForce 4Q % may be unpublished)**; rewrite `EXIT_PROTOCOL.md` | VULCAN |
-| 2026-10-02 | GPU reading 4 — now the FIRST row and the LAST registered slot + `mag7.py` | VULCAN · PROME, WATT, DEWEY |
+| 2026-10-02 | GPU reading 4 — the FIRST row (cadence extended 10/09→11/27, registered 9/29) + `mag7.py` · WALTER R3 re-test of VULCAN's 11 candidate phrases | VULCAN · PROME, WATT, DEWEY |
 | 2026-10-05 | CME / ICE compute futures: **APPLY the pre-written basis rule (GPU spec §7a; expected R-F = no primary)**. GPU cadence already extended 10/09→11/27 | VULCAN · PROME, WATT |
-| ~2026-10-10 | TSMC September 6-K | VULCAN · ZHAO, HAWK |
+| ~2026-10-09 | TSMC September 6-K (**registered 9/29 — it had no register row**; 10/10 is a Sat + Taiwan holiday, watch from 10/08) | VULCAN · ZHAO, HAWK |
 | ~2026-10-12 | PJM IRAS at FERC (ER26-3515-000) | WATT · VULCAN |
+| ~2026-10-28 | **Hyperscaler Q3 cluster = the SUCCESSOR flip** (`EXIT_PROTOCOL.md` §4b; dates TBC) | VULCAN · VIOLET, HENRY |
 | 2026-10-19 | ZHAO re-check: BIS Entity List + whether the BIS/MOFCOM 11/10 instruments moved | ZHAO · VULCAN, HAWK |
 | **2026-11-10** | BIS Affiliates Rule re-add · MOFCOM No. 70 expiry. **Two rows, two capitals, do not merge** | VULCAN · ZHAO, HAWK |
 | ~2026-11-15 | VULCAN-13 · VULCAN-15 · FERC abeyance window / kill-rail hard backstop | VULCAN · WATT |
 | ~2026-11-19 | NVDA Q3 FY27 10-Q = `VULCAN-17` reading 1 (+ DOCKET L322 T1–T6) | VULCAN · PROME, HENRY, LIQUID, BROCK, VIOLET |
+| ~2026-12-15 | ORCL Q2 FY27 10-Q = thesis-kill leg 4 reading 1 (not-commenced leases vs $288B) | VULCAN · LIQUID, BROCK |
 | 2027-02-15 | VULCAN-08 (useful-life re-test) · VULCAN-10 (2027 capex decel) | VULCAN · VIOLET, HENRY |
+| 2027-03-31 | Thesis-kill **leg 4** graded (financing structure de-risks?) | VULCAN · PROME |
 | *no clock* | SB Energy S-1 (withdrawn = PULLED) · ORCL $3.3B guarantee 8-K · Jupiter post-notice loan price · OpenAI contract deferral at ORCL/CRWV/MSFT (the pause itself landed 9/25) · Xcel/SPS TX tariff (rating clause + approval) | VULCAN |
