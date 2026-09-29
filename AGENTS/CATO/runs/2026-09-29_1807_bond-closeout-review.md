@@ -2,7 +2,9 @@
 
 ## Current assessment
 
-Keep the separate checklist and consolidated runner, but repair BC1–BC4 before treating the runner as a reliable closeout gate. The strongest defects are missed edits in the freeze and suppressed findings in the runner. No redesign or additional review tier is needed. BOND owns the corrections; CATO has made no owner-file changes or sends.
+**September 29, 18:55 ET follow-up:** at BOND `349552ae0`, the original freeze counterexamples pass, and BC3/BC4 close in the checked scope. BC2 remains open: the new consumer acknowledgement also clears findings on BOND's own files; affected paths and durable acknowledgement evidence remain missing. BC1 narrows to failed Git reads still producing a digest. NEXUS accepted NC1–NC3 and D6 in its proposed next pass; implementation not re-reviewed. Recommend those bounded repairs, not a safe-push redesign. Details and limits are in the follow-up below. No owner-file changes or sends by CATO.
+
+**Initial assessment at `cdcb486ff`:** keep the separate checklist and consolidated runner, but repair BC1–BC4 before treating the runner as a reliable closeout gate. The strongest defects were missed edits in the freeze and suppressed findings in the runner. No redesign or additional review tier was needed.
 
 Will asked for errors and suggested improvements to BOND's `cdcb486ff` closeout restructuring. Reviewed that commit and the current checklist, runner, owner instructions, provenance, cold-read ledger, run log and relevant root tool contracts. The three principal owner files remained identical to `cdcb486ff` at the concluding source check. Initial shared HEAD was `ccd55ffaa`; concurrent agents subsequently advanced it. CREED and PROME had unrelated dirty work, preserved throughout. No pull was performed.
 
@@ -102,3 +104,36 @@ Closure: two row dispositions and consistent active instructions; no archive del
 ## CATO delivery checks
 
 The saved probe reproduces the observations above. Weekday check passed across PROME DOCKET/GATES/WILL_QUEUE and CATO report/continuity (five files). Orphan advisory found no CATO-authored external packets; unrelated CREED/NEXUS/PROME work was left untouched. The shared index contained CREED's inbox-processing paths, so CATO's commit uses only its three explicit files. No memory-index or numeric-consumer check was triggered by this review. No publication was requested or performed; commit/push receipt is delivered in-session.
+
+## September 29, 18:55 ET — BOND repair verification and NEXUS response
+
+**Scope:** Will supplied BOND's repair receipt for `349552ae0`, then NEXUS's response (initially attributed to REGINALD and explicitly corrected by Will). Compared BOND's changes to the original counterexamples and root tool contracts. Shared HEAD at entry was `c4b87b06d`, one commit ahead of origin; PROME had unrelated dirty files. At the concluding source check the runner/checklist still matched `349552ae0`. Owner files untouched; no live market-fetching run or fleet sends. NEXUS's new response is assessed as a proposal, not an implementation receipt.
+
+### Verified improvements
+
+- **BC1's original cases now work:** untracked-content edits and convention-named outgoing packet edits change the digest; an edit injected during the checks fails the run and subsequent verification. A recorded FAILED run is refused. Tracked text and an already-modified tracked binary both changed the digest in positive controls.
+- **BC3 closed:** all tiers now require delivery when files changed; tiers size write-back, not delivery.
+- **BC4 closed in the reviewed scope:** unchanged TRADE is no longer subject to the vintage gate. A STATUS/SCRATCH update with a reasoned NEXUS_BRIEF no-op passes ordering. TRADE's token check remains the existing mechanical check, not a prose-certification claim.
+- The runner's **18 author fixtures pass**. Independent [v2 probe](2026-09-29_1855_bond-closeout-v2-probe.py) exercises the changed wrapper and reproduces the remaining cases below, using actual temporary Git operations and explicit stubbed check output. The original probe remains preserved as evidence for v1; its interface predates v2.
+
+### BC2 remains open — acknowledgement clears the wrong work
+
+`closeout_run.py:237–246` supplies the same `bool(a.consumer_ack)` to both cross-agent and `--self` scans. With cross-agent results clean but a real-shaped self-scan reporting a stale `AGENTS/BOND/STATUS.md:42`, the run fails without an acknowledgement. Add `--consumer-ack 'PROME packeted'`, leave the self finding unchanged, and both the runner and verifier return 0. This is the wrong remedy for an own-file finding: root and `consumer_check.py` require fixing it in place, explicitly not sending a packet to oneself.
+
+The runner also retains only lines containing 🔴. The consumer tool prints the affected path and source text on subsequent lines without that symbol (`scripts/consumer_check.py:854–859`). The probe confirmed the path is absent from stdout and the run log. The acknowledgement is printed but not persisted: log serialization at runner lines 290–293 retains statuses/digest/noops, not the acknowledgement, actual rc or diagnostic details. Thus the original actionable-evidence gap is narrowed but not closed.
+
+**Required correction:** separate cross-agent notification from self repair. A cross-agent acknowledgement must never clear an unresolved self finding. Preserve actionable paths/context and the acknowledgement/disposition in accessible run evidence. Retest self-stale + cross-ack, cross-stale + completed notification, and clean results. The original weekday-advisory issue also survives unchanged: rc=1 still blocks with only the generic final line displayed, without a path for a reviewed false-positive disposition. Resolve that within the same result-handling correction; do not edit valid historical prose to make the checker silent.
+
+### BC1 residual — failed Git reads are still treated as fingerprint input
+
+Runner lines 120–131 ignore all Git return codes. An injected Git rc=128/fatal result produces a normal digest instead of refusing verification evidence. This was explicitly included in the initial BC1 correction request. Fail/return UNKNOWN when a required Git read fails; error text is not a file snapshot. This is a bounded residual, not a claim that a real Git failure occurred during BOND's reported live run. The original edit-detection defects are repaired. Keep the declared out-of-scope memory-file limitation; no requirement to cover unrelated owners' entire trees.
+
+### NEXUS's proposed correction pass
+
+Recommend proceeding with the bounded NC1–NC3/D6 pass: require applicable controls at actual endings, adjudicate active residue versus labelled history, give both retired signal obligations explicit dispositions, reconcile routing instructions, and measure whole-file size. No approval or owner edits issued by CATO. Making every ending Standard satisfies the root floor, but is not necessary: a Light ending can retain its small write-back while running all applicable root checks. Preserve the earlier D3–D5 proportionality/date recommendations; NEXUS's response does not implement or settle them.
+
+**Correct the safe-push diagnosis.** BOND's old “commit now” after FAILED came from its own `verify()`. NEXUS's missing intended packet is a commit-completeness issue. `scripts/safe-push.sh` certifies that committed HEAD is reachable from freshly fetched origin/master; it does not claim intended uncommitted files were included or validate research/check results. Root already requires exact-path commit checks, and NEXUS has a post-push own-file check. These examples do not establish a defect in that push receipt or justify a new DAEDALUS fleet project. Keep the repair at the responsible check/commit layer unless a counterexample actually falsifies the push script's stated receipt.
+
+**Disposition:** follow-up review complete. Remaining BOND actions are the BC2 result/acknowledgement repair and BC1 Git-read failure handling. NEXUS corrections remain owner-proposed at this review boundary. No wider audit started.
+
+Follow-up delivery checks: saved v2 probe reproduced the observations; weekday check passed on the same five files; `git diff --check` passed. Orphan advisory listed only PROME's unrelated SCRATCH/cursor work. Shared index was empty before CATO staging. Exact-path delivery includes only this continuing report, continuity and the new v2 probe; no applicable memory/figure-supersession check or publication.
