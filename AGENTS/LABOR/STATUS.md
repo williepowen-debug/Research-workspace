@@ -112,7 +112,7 @@ C2-0 sweep (9/24): zero rows trip. 10/2 card §3f pre-commits post-print values 
 4. ✅ **`LESSONS.md` rotated 9/29 (rotation 5): 32,285 → 22,125 B**; L-27/L-28/L-29 demoted with every rule retained, verbatim archive. The modeled-date miss was folded into **L-26 as n=2** (not a new lesson) and mechanized: `spine_check.py` now gates JOLTS + FL UR; JOLTS Sep and Challenger Sep are CATALYSTS rows.
 5. 🔧 **Owed, not urgent:** KELYA post-mortem question (`TRADE.md` §2, open since 8/21) · build debt BD-32/33/34/35/36 + BD-23/26/31 (register: `BUILD_DEBT.md`) · base-rate the CORRECTIVE (L-25/L-32).
 6. 🔒 **Reader guard (L-33 / L-24):** the DOL/BLS wall flips with request shape (re-probed 9/29 11:19: bare curl → DOL PDF; `research-bot` UA → BLS HTML; browser UA → 384 B Akamai stub). Save the binary, confirm it with `file`, **text-extract it, check the release-date line, grep each figure in the extracted text** — never quote or grade from a fetch-tool summary. BLS API for JOLTS/LAUS.
-7. 🔧 **Spine gate hardened 9/29 (reviewer-found false passes):** reads only rows INSIDE the single `## KEY THRESHOLDS` section; AHEAD-of-FRED fails; regression suite `scripts/tests/test_spine_check.py` 17/17 (two reviewer passes). **Keep exactly one `obs` token on each live row** (claims, CC, JOLTS hires, FL UR) or the gate reports CANNOT-VERIFY.
+7. 🔧 **Spine gate hardened 9/29 (reviewer-found false passes):** reads only rows INSIDE the single `## KEY THRESHOLDS` section; AHEAD-of-FRED fails; regression suite `scripts/tests/test_spine_check.py` 19/19 (three reviewer passes; JOLTS matched on its exact gross-hires label). **Keep exactly one `obs` token on each live row** (claims, CC, JOLTS hires, FL UR) or the gate reports CANNOT-VERIFY.
 
 ## BOTTOM LINE
 

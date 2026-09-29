@@ -90,6 +90,13 @@ check("live row without obs token",
 check("live row with two different obs dates",
       v(doc().replace("[Aug P · obs 2026-08-01 · BLS]", "[obs 2026-08-01 · obs 2026-07-01]"), "JTSHIL"),
       "CANNOT-VERIFY")
+# CATO case (saved 2026-09-29): a different MEASURE with the same prefix must not certify
+ROW_JO_RATE = "| JOLTS hires rate | **3.3%** [Aug P · obs 2026-08-01] | b | s |"
+check("hires-RATE row in place of gross hires", v(doc(rows=[ROW_IC, ROW_CC, ROW_JO_RATE,
+      ROW_FL.format(d="2026-08-01")]), "JTSHIL"), "CANNOT-VERIFY")
+check("hires-RATE row beside a stale gross row does not rescue it",
+      v(doc(jolts="2026-07-01", rows=None) .replace(ROW_FL.format(d="2026-08-01"),
+        ROW_FL.format(d="2026-08-01") + "\n" + ROW_JO_RATE), "JTSHIL"), "STALE")
 # A graded/historical row that merely MENTIONS the series is never read
 check("calendar row mentioning JOLTS hires is inert",
       v(doc(jolts="2026-07-01", extra=["| ✅ Tue 9/29 | JOLTS hires Aug (obs 2026-08-01) graded | x |"]), "JTSHIL"),

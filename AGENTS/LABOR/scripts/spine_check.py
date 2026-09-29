@@ -77,7 +77,9 @@ SPINE = [
     # Added 2026-09-29 (L-26 n=2): JOLTS Aug printed 9/29 while labor_data.py had
     # already FETCHED it at boot — nothing compared its obs date to STATUS. FL UR
     # sat two prints stale the same way.
-    ("JTSHIL", "JOLTS hires",       r"^\|\s*JOLTS hires\b"),
+    # EXACT gross-hires label (CATO 2026-09-29): `JOLTS hires\b` also matched "JOLTS hires
+    # rate" and certified the WRONG MEASURE. The first cell must read "JOLTS hires (gross…)".
+    ("JTSHIL", "JOLTS hires",       r"^\|\s*JOLTS hires \(gross\b[^|]*\)\s*\|"),
     ("FLUR",   "FL UR",             r"^\|\s*FL UR\s*\|"),
 ]
 
