@@ -69,6 +69,11 @@ OBS_RE = re.compile(r"obs\s+(\d{4}-\d{2}-\d{2})")
 SPINE = [
     ("ICSA", "Initial claims",    ("icsa", "initial claims", "4-wk ma", "dol/fred")),
     ("CCSA", "Continuing claims", ("ccsa", "continuing claims")),
+    # Added 2026-09-29 (L-26 n=2): JOLTS Aug printed 9/29 while labor_data.py had
+    # already FETCHED it at boot — nothing compared its obs date to STATUS, because
+    # this gate covered claims only. FL UR sat two prints stale the same way.
+    ("JTSHIL", "JOLTS hires",     ("jolts hires",)),
+    ("FLUR",   "FL UR",           ("fl ur",)),
 ]
 
 
@@ -162,7 +167,7 @@ def main():
         print(f"  ⚠️  SPINE GATE INCONCLUSIVE — {len(unverifiable)} series unverifiable: "
               f"{', '.join(unverifiable)}. Treat as NOT CHECKED, never as clean.")
     if not stale and not unverifiable:
-        print(f"  ✅ SPINE GATE PASS — STATUS matches FRED on every core claims series.")
+        print(f"  ✅ SPINE GATE PASS — STATUS matches FRED on every spine series (claims · JOLTS · FL UR).")
     print()
     return 2 if (stale or unverifiable) else 0
 

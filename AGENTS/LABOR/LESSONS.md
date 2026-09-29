@@ -5,24 +5,28 @@ LABOR-specific mistake-patterns to avoid. Read at boot (B3); written at closeout
 
 ---
 
-> 🔒 **HOT / COLD SPLIT 2026-08-28** (DAEDALUS P1 read-cap, Will-ruled). This file was **81,816 B = 251% of the 32,550 B budget** and is a **boot-mandated B3 read**, so it was **returning a partial file with no error**. **ROTATION 4 — 2026-09-07 PM:** L-31 added (derived-parameter staleness); **L-25 and L-26** demoted to the index with their rules retained, worked cases → `archive/LESSONS_ARCHIVE_2026-09-07_L25_L26_worked_cases.md`. **ROTATION 3 — 2026-09-07:** L-30 added (the as-made audit) + its PM addendum (the self-authored-suite finding); **L-21, L-22, L-23 and L-24** demoted to the index with their rules retained verbatim, worked cases → `archive/LESSONS_ARCHIVE_2026-09-07_L21_worked_case.md`. **ROTATION 2 — 2026-09-04:** L-27 and L-28 were added the same day and pushed this file to **35,155 B, over the 32,550 B budget**; per the standing convention the three oldest full sections (**L-18, L-19, L-20**) were demoted to the index, **rules retained verbatim**, worked cases moved to `archive/LESSONS_ARCHIVE_2026-09-04_L18-L20_worked_cases.md`. **The 8 most recent lessons stay in FULL below. Every older lesson KEEPS ITS RULE, one line, in the index — only its worked case moved.** Full pre-split file, byte-for-byte, CRC32 `671ad173` re-hashed and verified: `archive/LESSONS_ARCHIVE_2026-08-28_pre-split.md`.
+> 🔒 **HOT / COLD** — the 3 most recent lessons in FULL below; every older lesson keeps its RULE(s) in the index, its worked case in `archive/`. **Rotation 5 (2026-09-29, Will-approved):** 32,285 B → under the rule-5 stop; **L-27, L-28 and L-29 demoted, every rule retained**; rotation log 1–4 and all three worked cases moved verbatim → `archive/LESSONS_ARCHIVE_2026-09-29_L27_L28_and_rotation_log.md`. Earlier worked cases: L-18–L-20 → `archive/LESSONS_ARCHIVE_2026-09-04_L18-L20_worked_cases.md`; L-01–L-17 and L-24 → the full pre-split file (CRC32 `671ad173`) `archive/LESSONS_ARCHIVE_2026-08-28_pre-split.md`.
+> 📅 **Re-measure at any append and unconditionally 2026-10-02, whichever first** (`python3 scripts/read_cap_check.py --agent LABOR`). Operating budget 32,550 B (read-cap canon) · rotate at ≥24,412 B · stop <22,785 B.
 
-## COLD INDEX — rules retained; worked cases in the archive
+## COLD INDEX — rules retained; worked cases in the archive (newest first)
 
 - **L-31** — A DERIVED parameter (roll-off term, recomputed bar, base-rate denominator) ages on a different clock than the LEVEL it came from, and only the level has a freshness check: RE-DERIVE, never carry; assert the internal relationship (`(W1+W2+W3+W4)/4 == MA`), and NAME each derived value's inputs beside it — two values on one line can have different inputs and one rots while the other is exact *(worked case, 9/7 + 9/10 → `archive/LESSONS_ARCHIVE_2026-09-17_L31_worked_case.md`)*
+- **L-29** — A verified number does not verify the claim it is embedded in: before publishing a figure, state the OBJECT separately from the value — which series, vintage, horizon, domain, sample — and check it against the question actually asked. Pre-write question: **"what is this a number OF, and is that what was asked?"** (n=5 in a day, all reviewer-caught; value-layer self-review cannot see a wrong-object claim) *(worked case → `archive/LESSONS_ARCHIVE_2026-09-29_L27_L28_and_rotation_log.md`)*
+- **L-28** — A claim that would change what another desk does needs a REGISTERED row with a confidence — the test is "if this is wrong, does anything in my system find out?"; sensitivity arithmetic published as a reason to expect an outcome IS a forecast · **and** whenever a base rate is regime-conditional, NAME the regime and what would end it in the same sentence as the number *(worked case → `archive/LESSONS_ARCHIVE_2026-09-29_L27_L28_and_rotation_log.md`)*
+- **L-27** — Enumerate a band table by the CROSS-PRODUCT of its axes — write every cell or state which are unreachable and why ("no band" is legitimate, an ABSENT cell is not) · **and** a threshold on a REVISABLE series is frozen as a FORMULA with its recompute instruction, the number only an illustration *(worked case → `archive/LESSONS_ARCHIVE_2026-09-29_L27_L28_and_rotation_log.md`)*
+- **L-26** — A modeled catalyst date that slips EARLIER is invisible to every check I own, because every check assumes dates slip LATER *(worked case → `archive/LESSONS_ARCHIVE_2026-09-07_L25_L26_worked_cases.md`)* · 🔁 **n=2, 2026-09-29:** JOLTS Aug printed 9/29 against a STATUS-only `~Oct 6` that was never a CATALYSTS row. **The data WAS fetched** — `labor_data.py` pulled obs 2026-08-01 at boot; what was missing was the COMPARISON, because `spine_check.py` covered claims only. Siblings the same day: FL UR (two prints stale, no fetch at all) and Challenger (one report stale, no fetch and no row). **Fixed mechanically, not by resolve:** `spine_check.py` now gates JOLTS + FL UR (negative-tested rc=2), JOLTS Sep and Challenger Sep are CATALYSTS rows. **Rule: every series STATUS carries has an instrument whose obs date is COMPARED to STATUS, or a dated row — a fetch nobody compares is not coverage.**
+- **L-25** — A corrective is anchored to the number it is correcting, and no gate in this book ever re-grades the correction *(worked case → `archive/LESSONS_ARCHIVE_2026-09-07_L25_L26_worked_cases.md`)*
 - **L-24** — A reachability probe grades the MOMENT IT RAN; it is not a property of the wall — and the wall is a HOST, not the object. BLS: UA denylist + browser-impersonation completeness check; working recipe `curl -sS -A "research-bot/1.0 (contact <email>)"`; a recipe published in TIDIED form is unreproduced until the PUBLISHED form is run *(full sequence → `archive/LESSONS_ARCHIVE_2026-08-28_pre-split.md`)*
 - **L-23** — Evidence about an UPSTREAM quantity must move a DOWNSTREAM-graded instrument LESS, not more, when the mapping adds a step the evidence never touches; and a counterfactual conditioned on an OUTCOME may not be cashed on a DIRECTION *(worked case → `archive/LESSONS_ARCHIVE_2026-09-07_L21_worked_case.md`)*
 - **L-22** — A figure you hand a peer in a PACKET is a publication with one consumer and no ledger row, and nothing in the closeout sweep watches it: `consumer_check` scans YOUR files, so a number that rots in someone else's tree is invisible — add the row to `PUBLISHED.tsv` with the recipient in `consumers` *(worked case → `archive/LESSONS_ARCHIVE_2026-09-07_L21_worked_case.md`)*
 - **L-21** — The pathspec rule survives every commit that HAS files and dies on the one that doesn't: `--allow-empty` with no pathspec is functionally `git commit -a` on a shared index — the pathspec is the guard, not the target *(worked case → `archive/LESSONS_ARCHIVE_2026-09-07_L21_worked_case.md`)*
-- **L-26** — A modeled catalyst date that slips EARLIER is invisible to every check I own, because every check assumes dates slip LATER *(worked case → `archive/LESSONS_ARCHIVE_2026-09-07_L25_L26_worked_cases.md`)*
-- **L-25** — A corrective is anchored to the number it is correcting, and no gate in this book ever re-grades the correction *(worked case → `archive/LESSONS_ARCHIVE_2026-09-07_L25_L26_worked_cases.md`)*
-- **L-18** — A frozen card's branch set must PARTITION on ONE surface, or your post-hoc judgment picks the winner *(generalised to two axes by L-27)*
 - **L-20** — A "what did I miss?" sweep is the query shape most vulnerable to date-inference failure
 - **L-19** — A CONSERVATIVE restatement gets no exemption from the check you would apply to the claim itself
+- **L-18** — A frozen card's branch set must PARTITION on ONE surface, or your post-hoc judgment picks the winner *(generalised to two axes by L-27)*
+- **L-17** — A frozen card cannot help if nobody boots; and the branch that "cannot happen" is the one you forgot to enumerate
 - **L-16** — A finished judgement filed under a NON-TERMINAL disposition token re-enters the queue forever: the six parks were one wrong word, not six failures to assess
 - **L-15** — Base-rate a threshold BEFORE building it: a LEVEL bar is usually a descriptor, and "don't build it" is a legitimate answer
 - **L-14** — A GROSS FLOW cannot falsify a claim about a NET count; and check whether the decoupling is rare *in general* or rare *except right now*
-- **L-17** — A frozen card cannot help if nobody boots; and the branch that "cannot happen" is the one you forgot to enumerate
 - **L-13** — An N-of-M implication test must be BALANCED between intentions and realized counts, or it fires on the intentions half alone
 - **L-12** — A cross-check with a FREE PARAMETER validates nothing; and `[CONF]` must name a primary, not a consensus of secondaries
 - **L-11** — Propagating a correction is a per-surface READ, not a pattern-match: sweeps fail in BOTH directions, and the over-correction deletes true statements
@@ -47,7 +51,7 @@ LABOR-specific mistake-patterns to avoid. Read at boot (B3); written at closeout
 
 **Three mechanisms, all structural:** ① **the summary is a READER, not the source** — `[[finding_verify_reader_before_source]]`; the summarizer is a second model between me and the artifact, and its failure mode is not "error", it is *fluent completion of the question asked*. ② **The tool caches a URL for 15 minutes** — a pre-embargo fetch pinned the OLD release to the URL, so re-asking the same URL after 08:30 would have returned the same stale document; the fix was a query-string cache-bust (`?release=20260917`). ③ **The primary's URL was the authenticating token** — `[[finding_attribution_authenticates_a_figure_its_named_source_never_produced]]` instance 4: "per dol.gov/ui/data.pdf" authenticated figures that dol.gov never produced, and the quotation marks did the rest.
 
-🔑 **The rule:** *a fetched primary is TEXT-EXTRACTED from the saved binary (`pdfminer.extract_text` on the file the tool saved), and the tool's summary is never quoted, cited, or graded — for any release, on any morning.* If the saved file cannot be extracted, the print is UNKNOWN, not "as summarized". Check the embargo/date line of the extracted text before any figure. **Mechanization → BD-35** (a `fetch_primary.py` that saves, extracts, prints the embargo line and refuses to return a figure the text does not contain). ⚠️ **dol.gov 403s curl (Akamai) regardless of User-Agent, so on this box the fetch tool IS the only route to the DOL primary** — which is exactly why the reader guard has to be mechanical.
+🔑 **The rule:** *a fetched primary is TEXT-EXTRACTED from the saved binary (`pdfminer.extract_text` on the file the tool saved), and the tool's summary is never quoted, cited, or graded — for any release, on any morning.* If the saved file cannot be extracted, the print is UNKNOWN, not "as summarized". Check the embargo/date line of the extracted text before any figure. **Mechanization → BD-35** (a `fetch_primary.py` that saves, extracts, prints the embargo line and refuses to return a figure the text does not contain). ⚠️ **ROUTE — CORRECTED 2026-09-29 (re-probed 11:19 ET).** This line said dol.gov 403s curl regardless of User-Agent, so the fetch tool was the only route. **False today:** bare `curl` returned the real 9/24 PDF (699,783 B; embargo line *Thursday, September 24, 2026*) while a browser-UA request got the 384 B Akamai stub — the reverse of 9/24. The wall flips with request shape (**L-24**), so no recipe is durable: **try curl variants in order; a fetch-tool summary is never the fallback.** On every route the rule above is unchanged — save the binary, confirm it with `file`, text-extract, read the embargo/date line, grep each figure in the extracted text.
 
 ## L-32 — The rule I broke was written in my own charter, in response to the identical break, ten days earlier
 
@@ -107,95 +111,5 @@ Hours after writing L-30 I shipped `card_partition_check.py` with **10 self-test
 ⇒ **A LINE NUMBER IS A COORDINATE INTO A VERSION, NOT AN ADDRESS FOR A THING.** Before acting on `file:line` from any packet, re-locate the target by **content or section heading** and confirm which heading it sits under. **One `awk` for the nearest heading above the target would have caught it.** ⚠️ **Corollary, and it is the sharp end: the more evidence you can produce for an edit, the less it tells you WHAT you edited.** A diff proves you changed something; it never proves you changed the right thing.
 
 🔑 **The stamp was also wrong in KIND:** a SENDING row takes a **send receipt** (when it went out), not an observation date — so even a correctly-targeted edit would have been wrong. *(Both halves from CODEX, who also withdrew their own broader claim; the finding survived because the narrow version had always been the real one.)*
-
----
-
-## L-29 — Every defect found in me on 2026-09-07 was in the sentence NAMING what a figure was a figure OF, never in the figure
-
-**n=5 in one session, across two domains (analysis and tooling), all caught by reviewers, none by me.**
-
-| # | The figure | The sentence around it |
-|---|---|---|
-| 1 | July 2026 `−23K → +21K = +44K`, rank 44/44 — **correct** | Offered as calibration for **RED-23, which resolves on first→THIRD**. On that cut July **has no value at all** (2 vintages) and +74K/+67K/+49K beat it. I named the right cut one paragraph earlier. |
-| 2 | `diff −3.4K, SE 18.7K, t = −0.18` — **correct** | Reported as *"the split does not exist in this data."* The 95% CI is **[−40K, +33K]**. **Not detected ≠ absent.** |
-| 3 | Feb-2026 current vintage `−156K` — **correct** | Called HAWK's `−92K` *"stale by 64K"* — equating a **first-print** statement with a **current-vintage** level, one message after reading RED's explicit written fence against exactly that. |
-| 4 | `58.9 − 59.2 <= −0.3` passes — **correct** | Reported as *"the boundary is falsified."* It was **one fixture on the lucky side of a float comparison**; `59.1 − 59.4` fails, and **12 of 20** boundary levels missed T-03. |
-| 5 | `range(85,105)`, 20 levels, all pass — **correct** | Comment said *"EPOP 58.5 .. 60.4."* It tested **8.5–10.4**. I then published a failure count off it and printed `missed at EPOP = [8.8, 9.3, …]` — impossible values for this series — without reading them. |
-
-**The rule I am taking from it:** a verified number does not verify the claim it is embedded in. **Before publishing a figure, state the object separately from the value** — *which series, which vintage, which horizon, which domain, which sample* — and check the object against the question actually asked. My verification discipline runs on values and stops at the sentence boundary; every reviewer this session entered through that gap.
-
-⚠️ **Why it will recur without a mechanism.** All five passed my own checks *because my checks test values*. Four came from outside review and one from a peer's fence I had already read and quoted. **Self-review at the value layer cannot catch a wrong-object claim** — the value is right. → the pre-write question is now **"what is this a number OF, and is that what was asked?"**, not "is this number right?"
-
-🔗 Extends **L-25** (a corrective inherits the anchor it corrects) and the 2026-08-28 `~7×` rule in `CLAUDE.md` § OUTPUT RULES — *"the figures were fine; the prose about them was not."* **That was n=1 and a rule. This is n=5 in a day and a measured pattern.** Related: `[[finding_instrument_reports_clean_against_the_wrong_reference]]` · `[[finding_level_and_rate_look_like_agreement_until_you_name_which]]` · `[[finding_float_precision_empties_the_tie_set_and_voids_the_operator]]`.
-
----
-
-## L-28 — A claim can do every job a prediction does without ever being one; then no gate runs on it and no scoreboard ever sees it
-
-**Bought 2026-09-04, and not by any check I own — by Will asking "why did we believe the headline call originally?"**
-
-For two sessions my sharpest published line was: **"T-03 fires on a FLAT EPOP print of 58.9."** It travelled **seven live surfaces** — `STATUS.md`, `NEXUS_BRIEF.md`, the frozen card, `docket/CATALYSTS.tsv`, `KB-LAB-171`, `PROME/DOCKET.tsv` L259, `PROME/WILL_QUEUE.md` row 159 — and reached **Will**, who ruled on it as **WQ-159**. EPOP printed **59.1** and it did not fire.
-
-**It was never a registered prediction.** No `LAB-xx` row. No confidence value on any of the seven surfaces. Verified by grep, not memory.
-
-### The three things that follow, and they are all structural
-
-1. **No §C gate ever ran on it.** Every gate fires at *registration* (boot B4, *"before writing any NEW prediction"*). An unregistered claim is invisible to all fifteen. Gate **#3** — threshold-vs-mechanism — is the one that mattered: this was a **threshold** call, and my record is **0-for-5 at ≥60% on thresholds against 3-for-3 on mechanisms** *(🔧 2026-09-07: was 0-for-4 here; the as-made audit moved LAB-05 into the ≥60% bucket)*. The single gate built for exactly this failure mode never saw it.
-2. **It cannot reach the calibration record.** `PREDICTIONS_SCOREBOARD.md` §A scores rows. The miss is real, public, and **invisible to my Brier** — so the book cannot learn from its most-published claim of the month.
-3. **The escalation asked the wrong question.** WQ-159 put *"should T-03 be retuned?"* to Will — a question about the threshold's **letter**. Nobody, me included, was ever asked **"how likely is it to fire?"** A claim can pass all the way to the operator and back without anyone attaching a number to it.
-
-### Why it felt like it did not need one
-
-The published phrasing was **"it fires on no deterioration at all."** That is a true statement about the threshold's *sensitivity* — and it silently swaps the question. The real question is *"will EPOP print ≤58.9?"*; the phrasing converts it to *"will EPOP deteriorate?"*, which sounds like it only needs the status quo. **It actually needs EPOP not to RISE, and I never wrote that sentence anywhere.** A sensitivity claim reads as a forecast while feeling like arithmetic, which is exactly why no one — including me — thought to price it.
-
-### ⚠️ The base rate partly EXONERATES the call, and that must be said
-
-Computed after the fact, from FRED `EMRATIO`: a monthly rise of **≥+0.2** occurred in **1 of the 23 months before the call = 4.3%**; 2/42 since 2023 = 4.8%; 1/30 since 2024 = 3.3%. **The branch that broke it was roughly a 1-in-23 event in the prevailing regime.** The call was **not reckless** — it was well-supported and an uncommon branch landed. *(Recording this because `[[finding_a_charitable_reading_of_your_work_is_the_one_to_check]]` has a missing mirror: an UNFLATTERING self-claim is the least-audited sentence in the room, and "I was overconfident" would have been the comfortable, wrong conclusion here.)*
-
-**But the long-run rate is 19.3% (182/941), and `19.3 / 4.3 = 4.5×`.** That factor **is the regime assumption.** The 4% only holds while the labor force keeps contracting — and my own CORE TENSION said that contraction was an *immigration-signature supply shock*. **A shock is precisely the thing that reverses.** I used the regime to earn confidence and never asked what would end it. August was the reversal and nothing else: labor force **+683K** after −720K and −264K.
-
-⇒ **Whenever a base rate is regime-conditional, name the regime and state what would end it — in the same sentence as the number.** A conditional rate quoted without its condition is a forecast wearing a statistic's clothes.
-
-### The rule
-
-> **If a claim would change what another desk does, it needs a registered row with a confidence — whatever surface it lives on.** The test is not *"is this a forecast?"* but **"if this is wrong, does anything in my system find out?"** Arithmetic about a threshold's *sensitivity* is not exempt: the moment it is published as a reason to expect an outcome, it is a forecast and must be registered, gated and scored.
-
-**Executed the same session:** **LAB-18** registered (T-03 fires on any 2026 print, **15%**, threshold call capped per gate #3, with the gate #12 per-draw and gate #15 resolution arithmetic on the row) and **LAB-19** (the mechanism counterpart, **60%** — the labor-force reversal persists — which tests my own CORE TENSION in the direction that would refute it).
-
-🔴 **And the sweep this lesson forced immediately found a second instance in my own open book:** **LAB-12** needs U-3 **4.1% → ≥5.0%**, a 0.9pp rise in ~4 prints. Base rate `11/302 = 3.64%` ex-covid since 2000. It was sitting at **30%** — `30 / 3.64 = 8.2×` — and I had *held* it there that same morning while writing *"mechanism cuts both ways"* on the row, which is **gate #13's unpriced-update pattern committed while quoting gate #13.** Repriced to **8%** (as-made 60% still governs scoring). Same shape as **L-25**: a number stays far above its base rate because nobody re-runs the arithmetic after registration — and **both times the trigger was someone else asking, not a check of mine firing.**
-
-**Cross-refs:** L-25 (the corrective inherits the anchor it corrects — same failure, one level up) · L-27 (today's other two findings from the same grade) · L-10 (multi-draw) · `[[finding_registered_gate_captures_attention]]` — **the un-gated instrument is the exposure, and this is its sharpest form: not a stale registered row, but a load-bearing claim that was never registered at all.**
-
----
-
-## L-27 — A two-axis band table must PARTITION on BOTH axes, and the cell it omits is the one your thesis says cannot happen
-
-**Bought 2026-09-04 on the NFP August grade — the most multi-loaded print in the book, on a card frozen ~36h early.**
-
-My card's §3b graded U-3 **jointly with LFPR** (correct — that is L-06, and grading U-3 alone is exactly the failure L-06 exists to stop). The table enumerated:
-
-| U-3 | LFPR | assignment |
-|---|---|---|
-| ≥4.3 | flat or up | 🔴 genuine slack |
-| ≥4.3 | down | ⚠️ NO-SIGNAL on slack, T-06 still fires |
-| 4.2 | any | no band |
-| **≤4.1** | **down** | ⚠️ NO-SIGNAL, denominator effect |
-| ≥5.0 | any | LAB-12 resolves |
-
-**August printed U-3 4.1% with LFPR UP (61.4 → 61.6) and the labor force +683K. That cell does not exist on the card.**
-
-**Why it was omitted, which is the whole lesson:** the `≤4.1 / down` row is written the way it is because my CORE TENSION says a falling U-3 in this regime is a *supply* artifact — U-3 down, LFPR down, labor force shrinking. **The thesis supplied the only branch I bothered to write.** The cell I left out is precisely the one that refutes the tension — and it is the one that printed.
-
-⇒ **The rule: enumerate the band table by CROSS-PRODUCT of its axes, not by walking the branches your thesis expects.** If an axis has 3 states and the other has 2, there are 6 cells; write all 6 or state explicitly which are unreachable and why. **"No band" is a legitimate assignment — an ABSENT cell is not**, because on the day it forces you to either improvise a band (which is what cards exist to prevent) or take no score at all.
-
-**What I did on the day:** took **zero** score movement and logged the defect. That is the conservative default and it was right, but it is a *degraded* outcome — the card was supposed to tell me what the print MEANT and on this axis it told me nothing.
-
-⚠️ **Companion finding from the same grade, and it may be the more transferable of the two: A FROZEN THRESHOLD COMPUTED OFF A REVISABLE SERIES IS NOT ACTUALLY FROZEN.** My card pre-computed freeze-thaw LEG A as **"August ≥ +303K"** from `(20 − 23 + X)/3 ≥ 100`. But June and July were **revised in the same release that carried August** — to +31K and +21K — so the real bar was `(31 + 21 + X)/3 ≥ 100` ⇒ **+248K**. **The frozen number was wrong by 55K before the print was even read**, and only survived as a *correct grade* because the card explicitly ordered the recompute (*"recompute with the revised numbers FIRST, per L-02, before reading August"*).
-
-⇒ **Any pre-registered threshold denominated in a REVISABLE series must ship with its recompute instruction, not just its value.** Write the **formula** as the frozen object and the number as an illustration of it — never the reverse. A card that had frozen only "+303K" would have graded the wrong bar with complete confidence and left no trace of the error.
-
-**Cross-refs:** L-18 (a card's branch set must partition on ONE surface — this is its two-axis generalisation) · L-17 (the branch that "cannot happen" is the one you forgot to enumerate — L-27 names *why* it gets forgotten: the thesis writes the branch list) · L-02 (track the revised series) · L-06 (grade U-3 jointly with LFPR).
-
-**Wired forward:** the `docket/CATALYSTS.tsv` row for **NFP September, 2026-10-02**, carries both requirements — enumerate both LFPR directions at every U-3 level, and RECOMPUTE LEG A on the revised vintage rather than carrying the 9/4 arithmetic forward. Card owed ~2026-09-25.
 
 ---

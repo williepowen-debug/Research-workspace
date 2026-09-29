@@ -45,13 +45,13 @@
 | NFP (revised, L-02) | **+162K** [Aug]; run 214/148/63/31/21/162; 3-mo avg `(31+21+162)/3 = 71.3K` | ≥200K ×3 = Kill A · <100K + U-3 ≥4.3% = T-06 | Kill A 0 of 3; T-06 not fired 9/4 |
 | ECI | Civ comp **3.4%** / private wages 3.1% [Q2] | ≥3.6% pressure real · ≤3.4% with AHE up = composition · 3.5% indeterminate | Composition branch fired 7/31. **Next 10/30** |
 | AHE (NO band by design) | **$37.75, +3.1% YoY** [Aug]; +0.3% MoM; workweek 34.4 | any published change ⇒ 1c packet CARL + HENRY | 3.2 → 3.1 packet sent 9/4 |
-| JOLTS hires (gross — never without NET) | **5,192K / 3.3%** [Aug P · BLS 2026-09-29]; Jul rev 5,146K | <5.0M ×2 = T-10 | `192K` away |
+| JOLTS hires (gross — never without NET) | **5,192K / 3.3%** [Aug P · obs 2026-08-01 · BLS 2026-09-29]; Jul rev 5,146K | <5.0M ×2 = T-10 | `192K` away |
 | **JOLTS NET** | **+122K** [Aug P] · Jul rev **+18K** (was −18K) · Jun −5K · May −8K | >0 both recent months = **v2 LEG C** | ✅ **MET 9/29.** ⚠️ Jul leg 18K from zero; Aug preliminary (revises ~Nov 3) |
 | JOLTS layoffs rate | **1.0%** (1,641K) [Aug P]; Jul rev 1.1% | **≥1.2% ⇒ CARL + REGINALD same-day** 🔴 | `0.2pp` away |
 | WARN accel | ~17K/mo **[STALE 2026-07-02]** | >50K/mo = T-07 | **UNMEASURABLE** — aggregators now all-time only (KB-LAB-196, BD-36). Do not cite as live |
 | Healthcare NFP | **+13K** [Aug] | net-negative aggregate = T-08 | Not fired |
 | Challenger AI share | **6.5%** [Aug]; Jul 32.8% | >40% ×2 = T-09 | Moved away. Sep report ~Oct 1–2 |
-| FL UR | **4.5%** [Aug P] · 4.6 · 4.7 · 4.8 — 3 declines | >5.0% or 5th rise = T-11 | `0.5pp` headroom. **Instrumented in `labor_data.py` 9/29** |
+| FL UR | **4.5%** [Aug P · obs 2026-08-01] · 4.6 · 4.7 · 4.8 — 3 declines | >5.0% or 5th rise = T-11 | `0.5pp` headroom. **Instrumented in `labor_data.py` 9/29** |
 | Federal payrolls | **−5K** [Aug; ex-USPS −3.3K] | <−25K single OR cumulative >400K = T-13 | MoM leg not fired; cumulative leg long since hit (BD-17: the payroll line alone never moves v12) |
 
 📐 **Payroll revision bias** (ALFRED, 9/7; moves no threshold): first→current mean **−66.0K**, `35/44 = 79.5%` revised down; by regime NOT DETECTED ≠ absent → DETAIL § `payroll-revision-bias`.
@@ -108,9 +108,9 @@ C2-0 sweep (9/24): zero rows trip. 10/2 card §3f pre-commits post-print values 
 1. 📅 **Thu 10/1 — claims.** Per card §9: ① regenerate `ΔMA` `(X − 207,000)/4`, `MA_next` (retained 602,000) and the T-01 bound (398,000) on the as-published vintage · ② revised-vintage counting on both counters, grade four axes · ③ **resolve LAB-03** (❌ unless ≥251,000) → `PREDICTIONS.tsv` + SCOREBOARD §A on the **as-made 65%** · ④ `git mv` the card, build the 10/8 card same session. *Attribution note: Kauai hurricane claims (1,786 w/e 9/19 = `1,786 / 197,000 = 0.9%`) — state it, don't grade on it.*
 2. 📅 **Fri 10/2 — NFP.** Revised Jul/Aug FIRST, re-solve LEG A and §3c, then read September; **apply Amendment 1** (v2 on LEG A alone). §3f post-print values for LAB-18/19; §3g revision watch (ALFRED `20261002`). Then the READ_CAP re-measure.
 3. 📅 **10/8 — Canada exporter re-check:** IL DCEO · MN DEED · IA Workforce Development · WI DWD WARN primaries, all unread. SEARCH-NOT-FOUND until read.
-4. 📐 **`LESSONS.md` is at 99% of budget — rotate BEFORE adding** the owed lesson: modeled release dates that never become CATALYSTS rows (n=2: JOLTS 9/1, 9/29).
+4. ✅ **`LESSONS.md` rotated 9/29 (rotation 5): 32,285 → 22,125 B**; L-27/L-28/L-29 demoted with every rule retained, verbatim archive. The modeled-date miss was folded into **L-26 as n=2** (not a new lesson) and mechanized: `spine_check.py` now gates JOLTS + FL UR; JOLTS Sep and Challenger Sep are CATALYSTS rows.
 5. 🔧 **Owed, not urgent:** KELYA post-mortem question (`TRADE.md` §2, open since 8/21) · build debt BD-32/33/34/35/36 + BD-23/26/31 (register: `BUILD_DEBT.md`) · base-rate the CORRECTIVE (L-25/L-32).
-6. 🔒 **Reader guard (L-33):** BLS/DOL HTML returns an Akamai `Access Denied` stub to scripts — check `file` before parsing; use the BLS API for JOLTS/LAUS.
+6. 🔒 **Reader guard (L-33 / L-24):** the DOL/BLS wall flips with request shape (re-probed 9/29 11:19: bare curl → DOL PDF; `research-bot` UA → BLS HTML; browser UA → 384 B Akamai stub). Save the binary, confirm it with `file`, **text-extract it, check the release-date line, grep each figure in the extracted text** — never quote or grade from a fetch-tool summary. BLS API for JOLTS/LAUS.
 
 ## BOTTOM LINE
 
