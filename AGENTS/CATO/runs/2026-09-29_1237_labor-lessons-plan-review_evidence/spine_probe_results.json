@@ -1,0 +1,312 @@
+{
+  "reviewed_revision": "d8ef31719ca402b960f45397c1569d6a127008bb",
+  "script_sha256": "1e4aeb75eaf3e79a868fd54498034bf787022d44c717c630dc9d58f0aa11c868",
+  "method": "Actual unchanged owner parser/main with pinned STATUS copies and stubbed FRED dates; no network/source-data verification. Freshness expectations independently specified by CATO.",
+  "expected_rc": {
+    "current_status": 0,
+    "stale_jolts": 2,
+    "stale_florida": 2,
+    "missing_jolts_date": 2,
+    "missing_florida_date": 2,
+    "stale_jolts_plus_history": 2,
+    "stale_jolts_plus_other_series_same_line": 2,
+    "stale_florida_plus_history": 2,
+    "unverified_future_jolts_date": 2,
+    "jolts_source_unavailable": 2,
+    "unrelated_history": 2
+  },
+  "false_passes": [
+    "stale_jolts_plus_history",
+    "stale_jolts_plus_other_series_same_line",
+    "stale_florida_plus_history",
+    "unverified_future_jolts_date"
+  ],
+  "observed": {
+    "current_status": {
+      "rc": 0,
+      "parsed": {
+        "ICSA": [
+          "2026-09-19",
+          2
+        ],
+        "CCSA": [
+          "2026-09-12",
+          1
+        ],
+        "JTSHIL": [
+          "2026-08-01",
+          1
+        ],
+        "FLUR": [
+          "2026-08-01",
+          1
+        ]
+      },
+      "relevant_output": [
+        "✅ SPINE FRESH: JOLTS hires  STATUS obs 2026-08-01 == FRED obs 2026-08-01   [1 obs token(s) read]",
+        "✅ SPINE FRESH: FL UR        STATUS obs 2026-08-01 == FRED obs 2026-08-01   [1 obs token(s) read]",
+        "✅ SPINE GATE PASS — STATUS matches FRED on every spine series (claims · JOLTS · FL UR)."
+      ]
+    },
+    "stale_jolts": {
+      "rc": 2,
+      "parsed": {
+        "ICSA": [
+          "2026-09-19",
+          2
+        ],
+        "CCSA": [
+          "2026-09-12",
+          1
+        ],
+        "JTSHIL": [
+          "2026-07-01",
+          1
+        ],
+        "FLUR": [
+          "2026-08-01",
+          1
+        ]
+      },
+      "relevant_output": [
+        "🔴 JOLTS hires          STATUS SPINE STALE — STATUS obs 2026-07-01, FRED obs 2026-08-01 (31d newer, value 5192)",
+        "✅ SPINE FRESH: FL UR        STATUS obs 2026-08-01 == FRED obs 2026-08-01   [1 obs token(s) read]",
+        "🔴 SPINE GATE FAILED — 1 series behind FRED: JOLTS hires"
+      ]
+    },
+    "stale_florida": {
+      "rc": 2,
+      "parsed": {
+        "ICSA": [
+          "2026-09-19",
+          2
+        ],
+        "CCSA": [
+          "2026-09-12",
+          1
+        ],
+        "JTSHIL": [
+          "2026-08-01",
+          1
+        ],
+        "FLUR": [
+          "2026-07-01",
+          1
+        ]
+      },
+      "relevant_output": [
+        "✅ SPINE FRESH: JOLTS hires  STATUS obs 2026-08-01 == FRED obs 2026-08-01   [1 obs token(s) read]",
+        "🔴 FL UR                STATUS SPINE STALE — STATUS obs 2026-07-01, FRED obs 2026-08-01 (31d newer, value 4.5)",
+        "🔴 SPINE GATE FAILED — 1 series behind FRED: FL UR"
+      ]
+    },
+    "missing_jolts_date": {
+      "rc": 2,
+      "parsed": {
+        "ICSA": [
+          "2026-09-19",
+          2
+        ],
+        "CCSA": [
+          "2026-09-12",
+          1
+        ],
+        "JTSHIL": [
+          null,
+          0
+        ],
+        "FLUR": [
+          "2026-08-01",
+          1
+        ]
+      },
+      "relevant_output": [
+        "⚠️  JOLTS hires          CANNOT VERIFY — no `obs YYYY-MM-DD` token found in STATUS.md for this series (FRED newest 2026-08-01).",
+        "✅ SPINE FRESH: FL UR        STATUS obs 2026-08-01 == FRED obs 2026-08-01   [1 obs token(s) read]",
+        "⚠️  SPINE GATE INCONCLUSIVE — 1 series unverifiable: JOLTS hires. Treat as NOT CHECKED, never as clean."
+      ]
+    },
+    "missing_florida_date": {
+      "rc": 2,
+      "parsed": {
+        "ICSA": [
+          "2026-09-19",
+          2
+        ],
+        "CCSA": [
+          "2026-09-12",
+          1
+        ],
+        "JTSHIL": [
+          "2026-08-01",
+          1
+        ],
+        "FLUR": [
+          null,
+          0
+        ]
+      },
+      "relevant_output": [
+        "✅ SPINE FRESH: JOLTS hires  STATUS obs 2026-08-01 == FRED obs 2026-08-01   [1 obs token(s) read]",
+        "⚠️  FL UR                CANNOT VERIFY — no `obs YYYY-MM-DD` token found in STATUS.md for this series (FRED newest 2026-08-01).",
+        "⚠️  SPINE GATE INCONCLUSIVE — 1 series unverifiable: FL UR. Treat as NOT CHECKED, never as clean."
+      ]
+    },
+    "stale_jolts_plus_history": {
+      "rc": 0,
+      "parsed": {
+        "ICSA": [
+          "2026-09-19",
+          2
+        ],
+        "CCSA": [
+          "2026-09-12",
+          1
+        ],
+        "JTSHIL": [
+          "2026-08-01",
+          2
+        ],
+        "FLUR": [
+          "2026-08-01",
+          1
+        ]
+      },
+      "relevant_output": [
+        "✅ SPINE FRESH: JOLTS hires  STATUS obs 2026-08-01 == FRED obs 2026-08-01   [2 obs token(s) read]",
+        "✅ SPINE FRESH: FL UR        STATUS obs 2026-08-01 == FRED obs 2026-08-01   [1 obs token(s) read]",
+        "✅ SPINE GATE PASS — STATUS matches FRED on every spine series (claims · JOLTS · FL UR)."
+      ]
+    },
+    "stale_jolts_plus_other_series_same_line": {
+      "rc": 0,
+      "parsed": {
+        "ICSA": [
+          "2026-09-19",
+          2
+        ],
+        "CCSA": [
+          "2026-09-12",
+          1
+        ],
+        "JTSHIL": [
+          "2026-08-01",
+          1
+        ],
+        "FLUR": [
+          "2026-08-01",
+          2
+        ]
+      },
+      "relevant_output": [
+        "✅ SPINE FRESH: JOLTS hires  STATUS obs 2026-08-01 == FRED obs 2026-08-01   [1 obs token(s) read]",
+        "✅ SPINE FRESH: FL UR        STATUS obs 2026-08-01 == FRED obs 2026-08-01   [2 obs token(s) read]",
+        "✅ SPINE GATE PASS — STATUS matches FRED on every spine series (claims · JOLTS · FL UR)."
+      ]
+    },
+    "stale_florida_plus_history": {
+      "rc": 0,
+      "parsed": {
+        "ICSA": [
+          "2026-09-19",
+          2
+        ],
+        "CCSA": [
+          "2026-09-12",
+          1
+        ],
+        "JTSHIL": [
+          "2026-08-01",
+          1
+        ],
+        "FLUR": [
+          "2026-08-01",
+          2
+        ]
+      },
+      "relevant_output": [
+        "✅ SPINE FRESH: JOLTS hires  STATUS obs 2026-08-01 == FRED obs 2026-08-01   [1 obs token(s) read]",
+        "✅ SPINE FRESH: FL UR        STATUS obs 2026-08-01 == FRED obs 2026-08-01   [2 obs token(s) read]",
+        "✅ SPINE GATE PASS — STATUS matches FRED on every spine series (claims · JOLTS · FL UR)."
+      ]
+    },
+    "unverified_future_jolts_date": {
+      "rc": 0,
+      "parsed": {
+        "ICSA": [
+          "2026-09-19",
+          2
+        ],
+        "CCSA": [
+          "2026-09-12",
+          1
+        ],
+        "JTSHIL": [
+          "2026-09-01",
+          1
+        ],
+        "FLUR": [
+          "2026-08-01",
+          1
+        ]
+      },
+      "relevant_output": [
+        "✅ SPINE FRESH: JOLTS hires  STATUS obs 2026-09-01 == FRED obs 2026-08-01  (STATUS ahead — unreleased/manual entry)   [1 obs token(s) read]",
+        "✅ SPINE FRESH: FL UR        STATUS obs 2026-08-01 == FRED obs 2026-08-01   [1 obs token(s) read]",
+        "✅ SPINE GATE PASS — STATUS matches FRED on every spine series (claims · JOLTS · FL UR)."
+      ]
+    },
+    "jolts_source_unavailable": {
+      "rc": 2,
+      "parsed": {
+        "ICSA": [
+          "2026-09-19",
+          2
+        ],
+        "CCSA": [
+          "2026-09-12",
+          1
+        ],
+        "JTSHIL": [
+          "2026-08-01",
+          1
+        ],
+        "FLUR": [
+          "2026-08-01",
+          1
+        ]
+      },
+      "relevant_output": [
+        "⚠️  JOLTS hires          CANNOT VERIFY — FRED unreachable (fixture unavailable). NOT a pass; re-run before trusting the spine.",
+        "✅ SPINE FRESH: FL UR        STATUS obs 2026-08-01 == FRED obs 2026-08-01   [1 obs token(s) read]",
+        "⚠️  SPINE GATE INCONCLUSIVE — 1 series unverifiable: JOLTS hires. Treat as NOT CHECKED, never as clean."
+      ]
+    },
+    "unrelated_history": {
+      "rc": 2,
+      "parsed": {
+        "ICSA": [
+          "2026-09-19",
+          2
+        ],
+        "CCSA": [
+          "2026-09-12",
+          1
+        ],
+        "JTSHIL": [
+          "2026-07-01",
+          1
+        ],
+        "FLUR": [
+          "2026-08-01",
+          1
+        ]
+      },
+      "relevant_output": [
+        "🔴 JOLTS hires          STATUS SPINE STALE — STATUS obs 2026-07-01, FRED obs 2026-08-01 (31d newer, value 5192)",
+        "✅ SPINE FRESH: FL UR        STATUS obs 2026-08-01 == FRED obs 2026-08-01   [1 obs token(s) read]",
+        "🔴 SPINE GATE FAILED — 1 series behind FRED: JOLTS hires"
+      ]
+    }
+  }
+}
