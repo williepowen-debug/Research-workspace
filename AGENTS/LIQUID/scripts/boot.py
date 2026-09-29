@@ -619,6 +619,113 @@ def build_prices():
 
 
 # ---------------------------------------------------------------------------
+# GATE-LIQ-076 legs (dealer-positioning nexus) — wired 2026-09-29
+# ---------------------------------------------------------------------------
+# WHY THIS EXISTS: the conjunction was MET from the 9/25 CFTC print and graded only on 9/29,
+# because nothing at boot read this gate — it was touched at `review_by` and nowhere else
+# (analysis/2026-09-29_GATE-LIQ-076-conjunction-MET.md §2). Letter:
+# workbook/DEALER_POSITIONING_NEXUS_WATCH.md §Fire conditions; GATES L6 condition text.
+#   W1  CME SOFR-3M lev-fund NET <= -2,950,000 (GATES spelling; letter "beyond")  OR  one-week cover > 300,000
+#   W2  NY Fed PD G10 < -$12.0B OR G5L10 < -$800mm x2 wks — NOT INSTRUMENTED (keyids owed, DAEDALUS #4)
+#   W3  MOVE > 85 while VIX < 20, same session (VIOLET's figure governs; yfinance here is a WITNESS)
+#   CONJUNCTION  any 2 of 3 with a met observation inside a rolling 14-calendar-day window
+# The action on MET is a WRITE-UP, never a position. A window read is not a latch: whether a met
+# conjunction resets or latches is undefined in the letter (DAEDALUS #4) — this prints the window.
+G076_CME = "SOFR-3M - CHICAGO MERCANTILE EXCHANGE"   # FULL name: KB-LIQ-116 venue collision (FMX)
+G076_LEVEL, G076_COVER, G076_WINDOW = -2_950_000, 300_000, 14
+
+
+def grade_076(w1, w3, w2_measured=False):
+    """PURE. w1 = [(asof 'YYYY-MM-DD', net int)] oldest-first (CME only); w3 = [(date, move, vix)].
+    Returns dict: w1_hits [(date, why)], w3_hits [date], anchor, window_start, legs_met, state."""
+    from datetime import date as _d, timedelta as _td
+    w1_hits = []
+    for i, (d, net) in enumerate(w1):
+        why = []
+        if net <= G076_LEVEL:
+            why.append(f"net {net:,} <= {G076_LEVEL:,}")
+        if i > 0 and net - w1[i - 1][1] > G076_COVER:
+            why.append(f"cover {net - w1[i - 1][1]:+,} > {G076_COVER:,}")
+        if why:
+            w1_hits.append((d, "; ".join(why)))
+    w3_hits = [d for d, mv, vx in w3 if mv is not None and vx is not None and mv > 85 and vx < 20]
+    dates = [d for d, _ in w1] + [d for d, _, _ in w3]
+    if not dates:
+        return {"state": "UNGRADEABLE", "w1_hits": w1_hits, "w3_hits": w3_hits, "legs_met": 0,
+                "anchor": None, "window_start": None}
+    anchor = max(dates)
+    start = (_d.fromisoformat(anchor) - _td(days=G076_WINDOW - 1)).isoformat()
+    legs = int(any(d >= start for d, _ in w1_hits)) + int(any(d >= start for d in w3_hits))
+    if legs >= 2:
+        state = "MET"
+    elif not w2_measured and legs == 1:
+        state = "1-of-2-MEASURED (W2 unmeasured — cannot say 'not met' on 2 legs)"
+    else:
+        state = f"NOT MET ({legs} of {'3' if w2_measured else '2 measured'})"
+    return {"state": state, "w1_hits": w1_hits, "w3_hits": w3_hits, "legs_met": legs,
+            "anchor": anchor, "window_start": start}
+
+
+def build_gate076():
+    """Fetch layer for grade_076. Fails CLOSED: a leg that cannot be read is INSTRUMENT-FAULT, and the
+    conjunction is then UNGRADEABLE, never 'NOT MET' (an unmeasured leg is not a quiet leg)."""
+    global ERRORS
+    faults, w1, w3 = [], [], []
+    try:
+        import cftc_tff_rates as _c
+        rows, src_h, src_w, _seen = _c.load_rows()
+        if "FAILED" in src_h or "FAILED" in src_w:
+            faults.append(f"CFTC {src_h if 'FAILED' in src_h else src_w}")
+        for (k, d), r in rows.items():
+            if k == G076_CME:
+                w1.append((d, int(r[_c.I_LF_L].strip()) - int(r[_c.I_LF_S].strip())))
+        w1 = sorted(set(w1))[-8:]
+        if not w1:
+            faults.append(f"no '{G076_CME}' rows")
+    except Exception as e:
+        faults.append(f"CFTC fetch {type(e).__name__}: {str(e)[:40]}")
+    try:
+        import yfinance as yf, warnings
+        warnings.filterwarnings("ignore")
+        px = yf.download(["^MOVE", "^VIX"], period="1mo", auto_adjust=False, progress=False)["Close"]
+        for ts, row in px.iterrows():
+            mv, vx = row.get("^MOVE"), row.get("^VIX")
+            if mv == mv and vx == vx:                     # both present (NaN != NaN): same-session pairs only
+                w3.append((ts.strftime("%Y-%m-%d"), float(mv), float(vx)))
+        if not w3:
+            faults.append("no same-session MOVE/VIX pairs")
+    except Exception as e:
+        faults.append(f"MOVE/VIX fetch {type(e).__name__}: {str(e)[:40]}")
+
+    g = grade_076(w1, w3)
+    if w1:
+        d, net = w1[-1]
+        ww = f", w/w {net - w1[-2][1]:+,}" if len(w1) > 1 else ""
+        hit = [h for h in g["w1_hits"] if h[0] == d]
+        add("DOMESTIC", "076 W1 SOFR-3M LevF", f"{net:,}{ww}", "🔴" if hit else "🟢",
+            (f"MET — {hit[0][1]}" if hit else f"not met (level {G076_LEVEL:,} · cover >{G076_COVER:,})")
+            + " · CME pinned; as-of TUESDAY, publishes Fri ~15:30 ET", d)
+    if w3:
+        d, mv, vx = w3[-1]
+        add("DOMESTIC", "076 W3 MOVE/VIX", f"{mv:.2f} / {vx:.2f}", "🔴" if d in g["w3_hits"] else "🟢",
+            ("MET" if d in g["w3_hits"] else "not met") + " (MOVE>85 while VIX<20) · yfinance WITNESS — VIOLET's figure governs", d)
+    add("DOMESTIC", "076 W2 NY Fed PD", "UNMEASURED", "⚪",
+        "not instrumented — keyids owed (DAEDALUS #4); never read as 'not met'", "n/a (no instrument)")
+    if faults:
+        ERRORS += 1
+        add("DOMESTIC", "GATE-LIQ-076", "INSTRUMENT-FAULT", "🔴",
+            "UNGRADEABLE — " + "; ".join(faults) + ". An unread leg is UNMEASURED, never NOT MET", headline=True)
+        return
+    w1s = ", ".join(d for d, _ in g["w1_hits"] if d >= g["window_start"]) or "—"
+    w3s = ", ".join(d for d in g["w3_hits"] if d >= g["window_start"]) or "—"
+    mk = "🔴" if g["state"] == "MET" else ("🟠" if g["legs_met"] == 1 else "🟢")
+    add("DOMESTIC", "GATE-LIQ-076", g["state"], mk,
+        f"window {g['window_start']}→{g['anchor']} · W1 met {w1s} · W3 met {w3s} · W2 UNMEASURED. "
+        "MET ⇒ WRITE-UP (PROME + NEXUS/HENRY via WALTER), NEVER a position. Window read, not a latch (reset rule owed)",
+        g["anchor"], headline=g["legs_met"] >= 1)
+
+
+# ---------------------------------------------------------------------------
 # Forward state — catalyst countdown + predictions due-scan
 # ---------------------------------------------------------------------------
 
@@ -833,6 +940,34 @@ def selftest():
         if not bad and ok:
             print(f"  ✓ KB.tsv OK ({len(rows) - 1} rows, 13 cols, IDs well-formed)")
 
+    # GATE-LIQ-076 grader (pure; 2026-09-29). Fixture = the real CME series around the 9/25 MET.
+    W1 = [("2026-09-08", -2_803_445), ("2026-09-15", -2_774_148), ("2026-09-22", -2_444_986)]
+    W3 = [("2026-09-22", 78.56, 14.21), ("2026-09-23", 95.45, 15.18), ("2026-09-24", 104.58, 15.67),
+          ("2026-09-25", 96.00, 14.87), ("2026-09-28", 101.82, 16.07)]
+    def g076(label, got, want):
+        nonlocal ok
+        if got != want:
+            ok = False
+        print(f"  {'✓' if got == want else '✗'} 076 {label}: got {got!r}, want {want!r}")
+    g076("real 9/22 cover + 9/23-9/28 rates vol → MET", grade_076(W1, W3)["state"], "MET")
+    g076("W1 alone (W3 absent) → 1-of-2-measured, never 'NOT MET'",
+         grade_076(W1, [(d, 70.0, 15.0) for d, *_ in W3])["state"].startswith("1-of-2-MEASURED"), True)
+    g076("cover of exactly +300,000 is NOT > 300,000",
+         grade_076([("2026-09-15", -2_800_000), ("2026-09-22", -2_500_000)], [])["w1_hits"], [])
+    g076("cover +300,001 is met",
+         len(grade_076([("2026-09-15", -2_800_000), ("2026-09-22", -2_499_999)], [])["w1_hits"]), 1)
+    g076("level -2,950,000 is met (<=)", len(grade_076([("2026-09-22", -2_950_000)], [])["w1_hits"]), 1)
+    g076("level -2,949,999 is not", grade_076([("2026-09-22", -2_949_999)], [])["w1_hits"], [])
+    g076("MOVE exactly 85.0 is not >85", grade_076([], [("2026-09-23", 85.0, 15.0)])["w3_hits"], [])
+    g076("VIX exactly 20.0 is not <20", grade_076([], [("2026-09-23", 90.0, 20.0)])["w3_hits"], [])
+    g076("W1 15 days before the latest W3 hit is OUTSIDE the 14-day window",
+         grade_076([("2026-09-01", -2_800_000), ("2026-09-08", -2_400_000)],
+                   [("2026-09-23", 95.0, 15.0)])["legs_met"], 1)
+    g076("W1 13 days before is INSIDE", grade_076([("2026-09-03", -2_800_000), ("2026-09-10", -2_400_000)],
+                                                [("2026-09-23", 95.0, 15.0)])["legs_met"], 2)
+    g076("no data → UNGRADEABLE", grade_076([], [])["state"], "UNGRADEABLE")
+    g076("first W1 row cannot be a cover (no prior week)", grade_076([("2026-09-22", -1_000_000)], [])["w1_hits"], [])
+
     print(f"\n  SELFTEST: {'PASS' if ok else 'FAIL'}")
     return 0 if ok else 1
 
@@ -914,9 +1049,10 @@ def main():
     build_credit()
     build_domestic()
     if quick:
-        print("\n  ⏩ --quick: skipping yfinance prices (APO/BIZD/VIX/HYG/TLT/USDJPY/Brent)")
+        print("\n  ⏩ --quick: skipping yfinance prices (APO/BIZD/VIX/HYG/TLT/USDJPY/Brent) and GATE-LIQ-076 legs (UNGRADED this run)")
     else:
         build_prices()
+        build_gate076()     # CFTC + MOVE/VIX network pulls — skipped under --quick with the prices
 
     render(verbose)
 
