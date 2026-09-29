@@ -31,7 +31,9 @@
 | `duisburg_ruhrort_stage` | cm | `WSV-PEGELONLINE-DUISBURG-RUHRORT` | **km 780.8 — the station named in the C5 upgrade trigger** |
 | `emmerich_stage` | cm | `WSV-PEGELONLINE-EMMERICH` | km 851.9, Dutch border |
 | `kaub_q` / `duisburg_ruhrort_q` / `emmerich_q` / `maxau_q` / `worms_q` / `mainz_q` | m3_s | `WSV-PEGELONLINE-<ST>-Q` | **discharge — physically conserved and DATUM-INDEPENDENT**, unlike stage. Prefer it for cross-era comparison. |
-| `rhine_freight_eur_t` | EUR_per_t | *(no verified source — see SOURCES)* | Rotterdam→S-of-Kaub barge rate |
+| `contargo_lws_kaub_20ft` / `contargo_lws_duisburg_20ft` | EUR_per_container | `CONTARGO-KWZ` | **daily** low-water surcharge per FULL 20′ container at that gauge's level (approved 2026-09-28). Record the €-row, never the tier number |
+| `cbs_iwt_dry_spot_idx` / `cbs_iwt_goods_idx` | index_2021=100 | `CBS-85817NED` | **quarterly** Dutch inland-shipping price index; includes fuel + low-water surcharges (approved 2026-09-28) |
+| `rhine_freight_eur_t` | EUR_per_t | *(still no verified source — the two rows above are container surcharge and a price INDEX, not €/t)* | Rotterdam→S-of-Kaub barge rate |
 | `snowpack_upper_colorado` | pct_median | `NRCS-SNOTEL` | **seasonal — near-zero Jun–Sep, correctly empty** |
 | `yichang_stage` / `hankou_stage` / `datong_stage` | m | `CJH-<STATION>` | Yangtze; parse the `var sssq` JSON |
 | `yichang_q` / `hankou_q` / `datong_q` | m3_s | `CJH-<STATION>-Q` | Yangtze discharge |

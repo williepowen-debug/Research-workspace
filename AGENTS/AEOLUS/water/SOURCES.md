@@ -226,7 +226,38 @@ curl -s "https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations/KAUB/WV
 
 ⚠️ **PROVENANCE GAP on the carried "40 cm uneconomical" line.** That figure has **no source recorded in this file** — it is carried, not verified. The authority's own navigation references are **`GlW` (Kaub 77 cm — a STAGE)** and **`TuGLW` (Kaub 190 cm — ⚠️ a fairway DEPTH beneath GlW, not a stage; see the unit warning above)**. **The 40 cm line is retained as an unprovenanced working figure and is explicitly NOT the basis of any trigger.**
 
-⚠️ **No verified source for barge FREIGHT rates.** The ~€150/t figures in my dossier are trade-press relays (PJK/Bloomberg via gCaptain/Insurance Journal), **not a primary I can re-pull.** Finding a resolvable freight series is an open gap.
+### ✅ RHINE BARGE FREIGHT — GAP CLOSED 2026-09-28 (two sources, two jobs; Will-directed search, verified by AEOLUS)
+*(Superseded line, verbatim: "⚠️ **No verified source for barge FREIGHT rates.** The ~€150/t figures in my dossier are trade-press relays (PJK/Bloomberg via gCaptain/Insurance Journal), **not a primary I can re-pull.** Finding a resolvable freight series is an open gap." — the ~€150/t relays remain unverified and are NOT promoted by this entry.)*
+
+**① Contargo low-water surcharge (KWZ) — DAILY, a live PRICE, keyed to the same gauges as my C5 trigger.** Contargo (Rhine container-barge operator, Rhenus/HGK group) publishes its own surcharge schedule by gauge and a daily table of 05:00-CET ELWIS levels + tier per departure date, with a 3-day forecast.
+```bash
+curl -sL -A 'Mozilla/5.0' "https://www.contargo.net/de/business/business-news/detail-business/pegelstaende-am-rhein-und-kleinwasserzuschlag-1/" \
+ | python3 -c "
+import re,html,sys
+s=re.sub(r'<script.*?</script>|<style.*?</style>','',sys.stdin.read(),flags=re.S)
+t=re.sub(r'(\s*\|\s*)+',' | ',html.unescape(re.sub(r'<[^>]+>',' | ',s)))
+m=re.search(r'Aktuelle Wasserstände.*?Mindestniveau[^A-Za-z]*',t); print(m.group(0) if m else 'NO GAUGE TABLE')
+for st in ('Pegel Kaub','Pegel Duisburg-Ruhrort'):
+    m=re.search(re.escape(st)+r' \| 20. Container \| 40. Container \|(.*?)(Bitte|Der Anstieg)',t)
+    print(st,'::',m.group(1) if m else 'NO SCHEDULE')
+"
+```
+Standard schedule (all tiers, EN): `https://www.contargo.net/en/business/auxiliary-conditions/low-water/` — Kaub standard tiers stop at 81 cm (€120 / €165); **≤80 cm "by agreement"**. The DE page carries the **extended "freie Vereinbarungen" schedule in force now**: **Kaub ≤40 cm → €1,075 per full 20′ / €1,280 per full 40′**; Duisburg 130–121 cm → €800 / €900 (schedule printed down to 121 cm only).
+⚠️ **Caveats:** (a) ONE operator's tariff, **container segment only** — not a market index, and not tanker/bulk (heating oil moves by tanker barge); (b) the page is an **episode news item** — its URL may change in a future low-water event (re-find via the EN page's "Waterlevels" widget); (c) the `(KWZ-Staffel)` tier number does not map cleanly onto the printed rows at Kaub (reads `(6)` against a 5-row extended schedule) — **quote the €-row by gauge level, never the tier number**; (d) Contargo states its **transport obligation ENDS at Kaub ≤80 cm / Duisburg ≤180 cm / Köln ≤105 / Emmerich ≤30** and that it **may suspend** Upper-, Middle-Rhine and Rhine-Main barge services (EN page UPDATE, read 2026-09-28) — an operator's written statement, the closest thing to an operational-leg event I have.
+
+**② CBS (Statistics Netherlands) services PPI, table 85817NED — QUARTERLY, 2021=100, the HISTORY + base rate.** Dutch IWT-company panel, fixed routes, observed twice a quarter, **INCLUDES fuel AND low-water surcharges**, excludes (un)loading. Segments: `A042621` dry bulk SPOT (the low-water-sensitive one) · `A042620` dry bulk contract · `A042619` wet bulk · `A023824` container · `A023820` all goods. Segments from 2018-Q1; all-goods from 2014-Q4. (Old table 84050NED, 2015=100, discontinued 2024-05-17 — same data, different base; do not splice bases.)
+```bash
+curl -s "https://opendata.cbs.nl/ODataApi/odata/85817NED/TypedDataSet?\$filter=CPA2015%20eq%20'A042621'%20or%20CPA2015%20eq%20'A023820'%20or%20CPA2015%20eq%20'A023824'%20or%20CPA2015%20eq%20'A042619'" \
+ | python3 -c "
+import json,sys
+n={'A042621':'dry_spot','A023820':'goods_all','A023824':'container','A042619':'wet_bulk'}
+for x in json.load(sys.stdin)['value']:
+    if 'KW' in x['Perioden'] and x['Prijsindex_1'] is not None and x['Perioden']>='2025': print(x['Perioden'].strip(),n[x['CPA2015'].strip()],x['Prijsindex_1'],'yoy%',x['Jaarmutaties_3'])
+"
+```
+**Base rate (the two recorded low-water autumns):** dry-spot **87.4 (2018-Q2) → 163.3 (2018-Q4), +87%**; **2022-Q3 191.7, +104.1% y/y**. ⚠️ **Fuel contaminates it:** 2021-Q4 dry-spot +43.2% y/y is NOT attributed to low water here. **n=2 low-water episodes is not a band** — no threshold registered. Latest **2026-Q2: dry-spot 130.5 (+11.4% y/y), all-goods 135.9 (+6.5%)** — BEFORE this autumn's record; **2026-Q3 is the first print that can show it** (not yet published 9/28).
+
+⚠️ **Candidates NOT adopted:** CCNR market-observation freight indices (built on PJK/Insights Global liquid-bulk ARA-Rhine + the same CBS data; PDF-only, no download) · PJK/Insights Global, Argus, Platts barge freight (paywalled) · agrarheute-type press relays (a secondary claimed €1,350/20′ at Kaub — **NOT on the publisher's page; discarded**).
 **Benchmarks:** 2018 all-time low **25 cm** (October) · **≤40 cm** = uneconomical navigation.
 
 ### ✅ YANGTZE — gap closed 2026-08-13 (Changjiang Water Resources Commission, the issuing agency)

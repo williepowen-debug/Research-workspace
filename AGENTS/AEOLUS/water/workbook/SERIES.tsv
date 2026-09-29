@@ -628,3 +628,11 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-09-28	worms_stage	-23.0	cm	WSV-PEGELONLINE-WORMS	2026-09-28 20:06 ET	daily mean of 15-min obs (n=96); UNROUNDED mean -23.469; not a trigger station
 2026-09-28	mainz_stage	101.0	cm	WSV-PEGELONLINE-MAINZ	2026-09-28 20:06 ET	daily mean of 15-min obs (n=96); UNROUNDED mean 100.917; not a trigger station
 2026-09-27	emmerich_stage	-22.0	cm	WSV-PEGELONLINE-EMMERICH	2026-09-28 20:06 ET	daily mean of 15-min obs (n=96); UNROUNDED mean -21.781; not a trigger station
+2026-09-27	contargo_lws_kaub_20ft	1075	EUR_per_container	CONTARGO-KWZ	2026-09-28 20:59 ET	extended 'freie Vereinbarungen' schedule, Kaub row 'ab 40 cm' (40': EUR 1,280); Contargo 05:00-CET ELWIS Kaub for departure date = -02 cm; tier label (6) NOT mapped; one operator, container only
+2026-09-28	contargo_lws_kaub_20ft	1075	EUR_per_container	CONTARGO-KWZ	2026-09-28 20:59 ET	Kaub 03 cm (Contargo, 05:00 CET ELWIS) -> row 'ab 40 cm'; forecast 9/29 02 / 9/30 -02 / 10/01 -03 cm, same row
+2026-09-27	contargo_lws_duisburg_20ft	800	EUR_per_container	CONTARGO-KWZ	2026-09-28 20:59 ET	Ruhrort 125 cm -> row 130-121 cm (40': EUR 900); schedule printed only down to 121 cm
+2026-09-28	contargo_lws_duisburg_20ft	800	EUR_per_container	CONTARGO-KWZ	2026-09-28 20:59 ET	Ruhrort 122 cm -> row 130-121 cm; forecast 121/121/120 -> 10/01 falls BELOW the printed schedule
+2026-03-31	cbs_iwt_dry_spot_idx	120.3	index_2021=100	CBS-85817NED	2026-09-28 20:59 ET	2026-KW01; y/y +7.6%; includes fuel + low-water surcharges
+2026-06-30	cbs_iwt_dry_spot_idx	130.5	index_2021=100	CBS-85817NED	2026-09-28 20:59 ET	2026-KW02 (latest published); y/y +11.4%; base-rate refs 2018-KW04 163.3, 2022-KW03 191.7 (+104.1% y/y)
+2026-03-31	cbs_iwt_goods_idx	123.6	index_2021=100	CBS-85817NED	2026-09-28 20:59 ET	2026-KW01 all inland goods; y/y +5.0%
+2026-06-30	cbs_iwt_goods_idx	135.9	index_2021=100	CBS-85817NED	2026-09-28 20:59 ET	2026-KW02 all inland goods; y/y +6.5%

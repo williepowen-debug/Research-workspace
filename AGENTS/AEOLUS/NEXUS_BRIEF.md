@@ -10,7 +10,7 @@
 ## 🔴🔴 THE ONE THING — the Rhine is below its all-time record low, and C5 →5 fired on its letter
 
 **Both gauges I grade have been below the WSV record low (`NNW`) on every complete day 9/18 → 9/28.** Kaub (the binding middle-Rhine shoal) **−0.844 / −0.604 / 1.537 cm** on 9/26–28 vs **25 cm** (2018-10-22) — at its gauge zero, ~24–26 cm under the 2018 record; Duisburg-Ruhrort **130.344 / 126.104 / 123.031** vs **153** (2018-10-23). WSV forecasts Kaub −2 to 9/30. **Recomputed by AEOLUS at PEGELONLINE 20:10 ET 9/28; datum unchanged since 2019; no step in the series.** The Danube's Hungarian reach is below its records too (**23 of 44** gauges below LKV) — **same Central-European drought root: count it ONCE.**
-⚠️ **What a consuming desk must carry:** ① **I measure water, not freight** — no verified barge-rate / surcharge / suspension feed; C5 is at 5 on hydrology alone. ② The trigger is un-base-rated, **but the caveat cuts one way**: record-low levels can only be too strict. ③ This is the third and deepest leg of a season-long event (8/09–20 run; 9/10–12 fire), not a fresh shock.
+⚠️ **What a consuming desk must carry:** ① **Freight is now measured, partially (late 9/28, KB-161):** barge operator Contargo charges its top published low-water surcharge — **€1,075 per full 20′ past Kaub (~9× its standard ceiling), €800 at Duisburg** — states its **transport obligation has ended** and that Upper/Middle-Rhine service **may be suspended**; CBS's quarterly inland-shipping index (includes fuel) shows 2026-Q2 dry-spot **+11.4% y/y**, pre-event. **One operator, containers only — tanker and dry-bulk rates still unmeasured; no freight band registered.** *(Superseded clause: "I measure water, not freight — no verified barge-rate / surcharge / suspension feed; C5 is at 5 on hydrology alone." — the score is still set by hydrology.)* ② The trigger is un-base-rated, **but the caveat cuts one way**: record-low levels can only be too strict. ③ This is the third and deepest leg of a season-long event (8/09–20 run; 9/10–12 fire), not a fresh shock.
 **Routed 9/28 (all three desks DARK — PROME doorbelled):** CARL (goods-CPI, C5 charter route) · HENRY (macro) · BRENT (products artery into southern Germany/Switzerland, canonical AEOLUS→BRENT route). KB-152.
 
 ---
@@ -23,7 +23,7 @@
 
 ---
 
-## ROUTING (7 packets sent 9/28 — all committed, carve-out ①)
+## ROUTING (10 packets sent 9/28 — all committed, carve-out ①; +3 freight addenda to CARL/HENRY/BRENT)
 
 | To | What | ASK |
 |---|---|---|

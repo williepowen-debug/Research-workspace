@@ -18,6 +18,8 @@
 ### THE ONE THING TO CARRY FORWARD
 **C5 →5 FIRED ON ITS LETTER 9/28 — the Rhine is below its all-time record low at both graded gauges, every complete day 9/18 → 9/28.** Kaub −0.844 / −0.604 / 1.537 cm (≤25) · Duisburg 130.344 / 126.104 / 123.031 (≤153), verified by me at PEGELONLINE 20:10 ET; WSV forecast Kaub −2 to 9/30. **Re-grade the 3-day test FIRST at boot — the exit is the same test failing.** Danube 23/44 below record (same root, count once). **C5 = 5 on water ALONE: the freight leg is UNARMED** — packets to CARL/HENRY/BRENT (all dark) ask whether their price series show it. KB-152.
 
+**LATE 9/28 (Will-directed): Rhine FREIGHT instrumented** — Contargo daily surcharge (Kaub ≤40 cm → €1,075/20′; obligation ended; suspension warned) + CBS 85817NED quarterly index (Q3-2026 is the first print covering the event). **Not armed — no band (n=2).** Record the Contargo €-row each session alongside the 3-day re-grade. KB-161; addenda to CARL/HENRY/BRENT.
+
 ### FIRST THINGS NEXT SESSION
 1. 🔴 **Rhine 3-day re-grade** (and 6c dark-window scan if the gap > 3 days). Check CARL/HENRY/BRENT replies in my inbox.
 2. 🔴 **10/01 cluster:** NIFC October outlook (AEO-09 checkpoint, KB-128 rule) · Colorado 2027-28 Guidelines take effect · CSU two-week 9/30.
