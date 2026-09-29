@@ -71,6 +71,8 @@ PATTERNS = [
      "quarterly-class gauge; v4 NET bands pre-registered"),
     (r"\bISM\b", "ISM",
      "vector 3 survey layer, pre-registered drop-to-1 condition"),
+    (r"\bChallenger\b", "Challenger",
+     "v2 re-spike counter + T-09 + v5 demote conjunction — permanently multi-loaded (added 2026-09-29)"),
     (r"\bFOMC\b", "FOMC",
      "labor-language card (separate baseline per instrument type, L-09)"),
 ]
