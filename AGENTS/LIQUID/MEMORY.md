@@ -14,6 +14,8 @@
 
 **NEXT SESSION entry point:** `scripts/boot.py`, then **STATUS §3 OWED (the only list)**, starting with the 9/30 row.
 
+**Addendum ~11:4x–12:35 ET (after the first closeout, pushed `1a3e918ed`):** CATO accepted the cleanup and named two record fixes, both done (`00c72fe86`): ① provenance: KB-LIQ-137 tested aggregate HY only, so B/CCC/IG are LATEST-REVISED with first-published untested (labels fixed in `LIQ-07`, the 9/30 pre-stage, and a correction packet for the consumed L525 memo; no re-grade) · ② the 9/30 pre-stage no longer calls done work "owed"; CLOSEOUT.md chunk 1 aligned to the six sections. **Charter edit, Will-approved verbatim** (`7e2807bff`): the three STATUS-layout references in `CLAUDE.md` now name the six sections; credit/domestic/foreign stay separate inside §1 Now; the boot.py three-dashboard lines are unchanged.
+
 ### PRIOR SESSION (2026-09-25 Fri 01:03–01:14 ET — PROME `prome-fa` Will-directed item 3, "does credit transmission persist?". STANDARD: 4 of 4 asks DONE · 1 new instrument · KB-LIQ-136 · 0 thresholds moved)
 
 **Context:** Book FLAT, $0. Continued the same session after the 9/24 closeout (`61f9c4323`). The PROME packet (`40915c8c0`) arrived at 01:03 ET; closeout requested by PROME (WQ-249).
