@@ -100,7 +100,7 @@
 | # | Item | State |
 |---|---|---|
 | **A1** | GSE MF band | ✅ **RULED 9/17 — WQ-248 C** (Will: *"248 - C is fine"*): letter frozen, grade each print against it; an ungraded leg above the top rung is CORRECT until I have a basis for a rung (mine to write) |
-| **A5 leg 1** | ✅ **BUILT 2026-09-29 — `thesis/THESIS.md`** (thesis + kill rail; first grade **0 of 5 legs FIRED ⇒ 🔴 holds**; formal grade **2026-11-20**). 3c convergence handle still open | ✅ |
+| **A5 leg 1** | ✅ **BUILT 2026-09-29 — `thesis/THESIS.md`** (thesis + kill rail; first grade **0 of 5 legs FIRED ⇒ 🔴 holds**; formal grade **2026-11-20**). **Registered by PROME as `GATE-HOMER-THESIS-KILL`** (GATES.tsv, JUDGEMENT class, review_by 11/20; PROME message 2026-09-29). 3c convergence handle still open | ✅ |
 | **A2–A5** | **Four Will-approved items (8/23), now 37 days deferred:** **A2** rider — owed is RATIFICATION (draft exists) · **A3** Rent Growth retune · **A4** National Foreclosures retune (basis = STARTS) — **A3/A4 WORK authorized, LEVELS Will-gated** · **A5** remaining leg = the convergence handle (3c); the kill rail is BUILT (row above) | ⛔ **OPEN: A2, A3, A4, A5-3c** |
 | **A6** | Cure Rates band | ✅ **CLOSED 2026-09-24 — graded on its NATIVE basis (YoY cure rate, ICE Mortgage Monitor): YELLOW.** Feed = the Mortgage Monitor (docket row); the First Look MoM count is an OBSERVATION, not the band |
 | **A7–A11** | 5 sample-limited rungs (research) · FL Orange >1.50% the one bracketed level · MBA NDS primary 403-gated site-wide | open |

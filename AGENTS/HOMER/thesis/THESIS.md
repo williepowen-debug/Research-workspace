@@ -1,6 +1,6 @@
 # HOMER — THESIS + THESIS-LEVEL KILL RAIL
 
-**Kill rail re-derived: 2026-09-29** · Authored 2026-09-29 under Will's 8/23 build authorization (L3 build 3b, DAEDALUS PR6 ask 2, due 9/30) · **Criteria FROZEN from this commit** · Next formal grade: **2026-11-20**
+**Kill rail re-derived: 2026-09-29** · Authored 2026-09-29 under Will's 8/23 build authorization (L3 build 3b, DAEDALUS PR6 ask 2, due 9/30) · **Criteria FROZEN from this commit** · Next formal grade: **2026-11-20** · Fleet registration: **`GATE-HOMER-THESIS-KILL`** in `PROME/GATES.tsv` (PROME, 2026-09-29). This file is the canonical letter; the gate row is a summary and pointer. **If any leg reaches its kill count before 11/20, re-date by packet to PROME.**
 
 > ⚠️ **What this file is NOT:** the per-prediction machinery in `PREDICTIONS.tsv` (HOM-01, HOM-02, early-kill arms). That covers **two metrics**. This rail covers the **transmission chain**. A HOM-02 resolution is evidence for leg A1 below, not a thesis grade.
 > **Not built here:** the convergence handle (L3 build 3c). Still OPEN on the docket.
