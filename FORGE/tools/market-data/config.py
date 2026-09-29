@@ -37,13 +37,13 @@ SERIES = [
         "yellow": (265, 280),
         "red": (280, None),
         "hysteresis": 5,  # Must move 5bps past boundary (alerts at 285/275 not 280)
-        # Retuned to thesis 2026-06-26 (SENTRY audit): red line = >280 X1 master
+        # Retuned to thesis 2026-06-26 (SENTRY audit): red line = >280 SUSTAINED, X1 level leg only (X1 CLOSED 8/28 by the wrapper adjudication; RED-FT-01 counts >=280 separately) — wording per LIQUID 2026-09-29
         # credit-recognition trigger (was 320, ~40bp stale). 350=issuance freeze.
         # SECONDARY (not encoded — single-sided classify can't be two-way):
         #   <260, two consecutive closes = bear-axis KILL (credit thesis invalidates,
         #   NOT a market-stress event). Check manually / via LIQUID alert wrapper.
         "kill_below": 260,  # documented secondary check; classify() ignores this
-        "notes": "X1 >280 master; <260x2closes=bear-axis kill; 350=issuance freeze",
+        "notes": ">280 sustained, level leg only (X1); <260x2closes=bear-axis kill; 350=issuance freeze",
         "multiply": 100,
     },
     {
