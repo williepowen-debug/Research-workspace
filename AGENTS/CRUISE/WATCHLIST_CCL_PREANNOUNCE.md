@@ -4,6 +4,25 @@
 
 **One-line:** CCL's next scheduled report is Q3 FY26, **CONFIRMED 2026-09-29 (Tue)** — ⛔ *(was ~10/5 ESTIMATED; see the correction box. Historical text preserved below reads: NOT the 9/28-29 this document estimated on 8/14**. Between now and then the question is whether the Q3 print makes the fuel P&L drag visible — except the tape stopped waiting: the complex de-rated 13–18% between 8/14 and 9/2. This document lists what would fire a preannouncement, what to watch, and where CRUISE stands on each channel.
 
+
+## ✅ RUN 2026-09-29 — THE PRINT ARRIVED; WATCH CLOSED FOR Q3 FY26
+
+*Read at SEC: 8-K `0000815097-26-000104` Ex-99.1 (09:16 ET) + 10-Q `0000815097-26-000107` (11:06 ET). ⛔ carnivalcorp.com NOT used (SPA shell). **10:00 ET call NOT read.** Detail → KB-CRU-134–139, STATUS 9/29 block.*
+
+| Ch. | Result 9/29 |
+|---|---|
+| 1 EDGAR | ✅ **No preannouncement** — no CCL 8-K 8/5→9/29 before the scheduled 2.02. Base rate <10% HELD |
+| 2 Tape | CCL $24.78 **+11.95%** on 42.5M (~11:33 ET, intraday) — **with** a sector move (RCL +5.58%, NCLH +4.19%); a scheduled print, not a Ch.2 signal |
+| 3 Brent | BRENT feed: BZX26 105.72 post-settle 9/28 [yfinance, not a settle; BRENT STATUS]. **Nov expires 9/30 — re-point to BZZ26 owed.** CCL guides Q4 fuel **$896/mt** |
+| 4 Consensus | adj EPS **$1.43 vs $1.35 guide / ~$1.36 street (INFERRED, single-source)** — beat |
+| 5 Consumer | Deposits **$7.6B, +~7% YoY** on flat capacity; 2027 occupancy + pricing at records. Canary silent at CCL |
+| 6 Med/Europe | Release silent; 10-Q Europe ticket prices **+$75M**. Call-only color unread |
+| 7 Conference | n/a — superseded by the print |
+| 8 Ratings | Release restates S&P IG upgrade; **no secured debt remains** |
+| 9 Siblings | Not re-swept this session |
+
+**Pre-registered questions answered:** ① FY26 CC yield **RAISED** ~+1.75% → ~+2.3% · ② buyback Jun–Aug **20.3M sh @ $27.03**, $1,562M left, adj diluted 1,368M · ③ fuel **$826 vs $812** (CRU-07 ✅) · ④ fuel hit **$0.007/sh** (CRU-08 ✅), adj EPS $1.43 · ⑤ deposits YoY **+~7%** (graded YoY per CATO R2) · ⑥ Med reversal: unread. ⚠️ 10-Q: **NA ticket prices −$40M YoY** — no cause given; not CRU-09 evidence. Next CCL print: Q4 FY26 (~Dec, date unannounced).
+
 ---
 
 ## ⚖️ RE-BASED 2026-09-19 — READ THE PRINT IN THIS ORDER, AND NOT THE HEADLINE FIRST
