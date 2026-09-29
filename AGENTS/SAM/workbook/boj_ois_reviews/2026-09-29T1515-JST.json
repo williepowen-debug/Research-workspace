@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "source_url": "https://www.totan.com/archives/15647",
+  "image_url": "https://www.tokyotanshi.co.jp/wp-content/uploads/image-2020-1030x320.png",
+  "image_sha256": "ed4f664d775949e275840904e8dec5020c4706bd7e5305d7bdf40561a8757754",
+  "evidence_path": "research/outputs/boj-review/2026-09-29_ed4f664d775949e275840904e8dec5020c4706bd7e5305d7bdf40561a8757754/table.png",
+  "quote_as_of": "2026-09-29T15:15:00+09:00",
+  "timezone_basis": "JST assumed from Japanese publisher; image has no zone",
+  "review_method": "SAM visual transcription",
+  "reviewed_at": "2026-09-29T12:49:06+00:00",
+  "reviewed_row_count": 5,
+  "quote_kind": "indicative OTC meeting-to-meeting OIS median",
+  "step_pct": 0.25,
+  "valid_until": "2026-10-30",
+  "decision_date_source": "BOJ 2026 MPM schedule; docket/CALENDAR.md October 29-30 row; https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+  "rows": [
+    {"meeting_month": "2026-10", "ois_pct": 1.3163, "difference_pct": 0.0892, "incremental_25bp_equivalent_pct": 36, "cumulative_expected_hikes": 0.36, "term_start": "2026-11-02", "term_end": "2026-12-18"},
+    {"meeting_month": "2026-12", "ois_pct": 1.4963, "difference_pct": 0.18, "incremental_25bp_equivalent_pct": 72, "cumulative_expected_hikes": 1.08, "term_start": "2026-12-21", "term_end": "2027-01-22"},
+    {"meeting_month": "2027-01", "ois_pct": 1.61, "difference_pct": 0.1138, "incremental_25bp_equivalent_pct": 46, "cumulative_expected_hikes": 1.53, "term_start": "2027-01-25", "term_end": "2027-03-18"},
+    {"meeting_month": "2027-03", "ois_pct": 1.7538, "difference_pct": 0.1438, "incremental_25bp_equivalent_pct": 57, "cumulative_expected_hikes": 2.11, "term_start": "2027-03-19", "term_end": "2027-04-28"},
+    {"meeting_month": "2027-04", "ois_pct": 1.8463, "difference_pct": 0.0925, "incremental_25bp_equivalent_pct": 37, "cumulative_expected_hikes": 2.48, "term_start": "2027-04-30", "term_end": "2027-06-11"}
+  ]
+}

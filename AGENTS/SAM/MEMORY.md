@@ -30,40 +30,39 @@
 ## Session Notes
 
 ### CHANGES SINCE LAST SESSION
-*(Prior block closed Mon 9/21 ~09:1x ET. This block: Thu 9/24, boot ~16:39 ET, Will-directed "catch up files and data" after Silver Week.)*
-- **USD/JPY through the rate-check level, no strike:** completed closes 157.311 / 157.470 / **158.266** (9/21–23); 9/24 live ~158.9, H **159.036**. Katayama 9/24 "principles… remain alive" (T0-plus). No new rate check found.
-- **JGB 10Y 3.075% on the 9/24 reopen — highest since 1996** (Bloomberg + CNBC, quote basis), OSE futures circuit breaker (Nikkei, REPORTED). UST 10Y/30Y **5.18 / 5.47%** par 9/24. MOF curve published Sep-18 only (9/24 publishes Fri).
-- **CFTC Sep-15: net +120,359 LONG yen**, 2-week swing +212,586 = largest of 1,360 weekly reports (own parse of CFTC annual zips 2000–2026 — script in the session scratchpad, re-derive if cited again); OI record; NOT a record level (+179,212, 2025-04-29).
-- **BOJ OIS** new chart 9/24 15:15 JST: Dec 68%, cum 2.18 to Apr-27 (from 63% / 1.94). MOF weekly wk 9/13–19 NOT published 9/24.
+*(Prior block Thu 9/24 ~17:2x ET. This block: Tue 9/29, boot 08:47 ET, Will-directed "catch up on recent news/developments".)*
+- **Joint US–Japan VERBAL yen campaign, no operation found:** Katayama 9/25 (Trump raised yen weakness with Takaichi), **Bessent 9/25 "desirability of a strong yen"**, **Mimura 9/28 "take that message at face value"** — both verified at source. USD/JPY 159.036 peak [9/24] → 156.498 low [9/28]; completed closes 158.755 / 157.185 / 157.433. Yen-side (DXY flat, crosses down) while the 10Y gap WIDENED.
+- **CFTC Sep-22: net +71,982 long (−48,377, 40% cut)** into the grind to 159; OI −164,101 ≈ Sep delivery (June same step).
+- **40Y auction 9/29 BTC 3.096×** (firmest of n=3). MOF 10Y 3.082 / 5Y 2.441 (9/28) = MOF-basis highs; BOJ ops through 9/29 scheduled sizes only.
+- **BOJ OIS 9/29:** Oct 36 / Dec 72 / cum 2.48 (from 27 / 68 / 2.18). July minutes hawkish. Brent rolled Nov→Dec in the vendor 9/29.
 
 ### LAST SESSION
-Catch-up sweep, Will-directed. **No thesis change: v1.7 stands, book FLAT, nothing re-armed.**
-- **Data:** STATUS LIVE MARKET DATA + KEY THRESHOLDS + WHAT TO WATCH + INTERVENTION rewritten (27.0 → ~21.8 KB, under the 75% trigger for the first time since 9/18); STATUS_REFERENCE carried-context + funding refreshed (were Sep-11/15 vintages).
-- **BOJ OIS** transcribed by SAM (`workbook/boj_ois_reviews/2026-09-24T1515-JST.json`), validated, ledger written.
-- **SAM-33 audited AT THE RECORD through 9/24** (`ope20260917/18/24.xlsx`: securities-lending only) on the first real stress day of the test — BOJ did NOT cap. Notes appended; sidecar re-stamped after field diff (Notes-only).
-- **Intervention:** playbook 2026-09-24 entry — T1 timing heuristic FAILED, ladder step unchanged; discriminator tied to the ALREADY-REGISTERED disorder watch (I first wrote an ad-hoc bar and caught it against `STATUS_REFERENCE.md`).
-- **11 WALTER signals** logged + moved; COR-20260924-19 receipted APPLIED. Reply packet → WALTER inbox (ladder / Nippon Life immaterial by upper bound / UBS carried narrowly). **VECTOR-5 packet → PROME** (leg c met in letter, test still NONE).
-- **News sweep** by an Opus subagent → `research/outputs/2026-09-24_catchup/NEWS_SWEEP.md`; the load-bearing JGB-1996 claim verified by SAM before cascade.
-- Docket: Sep-21→24 pruned to a RESOLVED block; CFTC 9/25, OIS expiry 9/28, MOF-weekly shift rows added in BOTH CALENDAR and CATALYSTS.
-- **2nd pass (Will: "make sure core SAM files are updated"):** THESIS integration Sep-15 → Sep-24 (no version bump), V18 candidate, JGB supply/demand, insurer TRACKER, STATUS_REFERENCE PMI row, **KB-SAM-257** (CFTC record swing ≠ record level; parse script saved to `research/outputs/2026-09-24_catchup/`). METSUKE Run-23 (compressed-history): 0 stale marks; 4 fixes applied after artifact checks (BOJ-MPM rows RESOLVED in both docs, STRATEGY:276 clause, TRADE:252 truncated sentence, LIQUID/TRADE.md was ARCHIVED not deleted). PENDING 18/19/20/22/23 marked CLOSED + rolled (−44K); **Run 21 items 1,2,3,5,6 still OPEN — disposition next session.** ⚠️ **My time stamps ran AHEAD of the clock twice** ("~17:3x" written at 16:5x; then again at 17:16) — stamp from `date`, never from a guess.
+News catch-up, Will-directed. **No thesis change: v1.7 stands, book FLAT, nothing re-armed.**
+- **Pull deferred:** CRUISE + PROME had uncommitted work in the shared tree ⇒ no `git pull`; fetch showed 0 behind / 3 ahead, so nothing was missed.
+- **Data:** boot 12/14 (oil_roll_check failed CLOSED at the Nov→Dec roll — quoted matched contracts only; boj_ois needed the visual review — transcribed 9/29 chart, arithmetic cross-checked, ledger written). Brent 9/24 corrected to settle basis per BRENT's packet (106.60 / 100.22, not 107.31 / 100.77).
+- **SAM-33 audited AT THE RECORD through 9/29** (`ope20260925/28/29.xlsx` — 9/28 buckets = same sizes as 9/2 and 9/9). BOJ ops URL is `boj.or.jp/statistics/boj/fm/ope/d_release/ope/2026/opeYYYYMMDD.xlsx` (the `m_release` path is MONTHLY — 404s for daily).
+- **News sweep** by an Opus subagent → `research/outputs/2026-09-29_catchup/NEWS_SWEEP.md` (+ SAM verification note). Written back: STATUS (header/live/intervention/thresholds/watch/SAM-33), STATUS_REFERENCE (context + funding), playbook 2026-09-29 entry (T2-equivalent, US leg has no ladder row), THESIS Channel 3 rider + integration header, CHANGELOG, TIMELINE, KB-SAM-257 delivery-week caveat, docket Sep 25–29 pruned in BOTH files + 4 forward rows (**MOF monthly intervention total 9/30 had NO docket row — lived only in prose**).
+- **4 WALTER signals** logged + moved (one board-log note initially over-claimed "no haven bid" — corrected before commit). **WQ-317 supply packet → BOND inbox** (PROME packet moved to processed).
+- ⚠️ **Stamped a time ahead of the clock AGAIN** (wrote "~10:3x ET" at 08:55) — caught and fixed from `date`. Third session running; the rule is `date` in the same command as the stamp, never typed.
 
 ### NEXT SESSION
 
-**TIER 0 — nothing overdue.** SAM-33 sole OPEN row; next check **Sep-30 17:00 JST**.
-
-🔴 **THE LIVE WATCH IS SPEED, NOT LEVEL.** USD/JPY ~1 yen under 160, a long-yen spec book underwater, JGB/UST in a global rout. **If a fast leg prints (registered disorder watch: ≥1.5–2%/day or ~2–3 yen over 1–2 sessions):** semi-confirm via BOJ current-account projections vs broker forecasts ~2 business days later; hard confirm MOF monthly (~Sep-30 covers Aug-27→Sep-28). ⛔ Decides nothing for a flat book; do not let it reopen a retired frame.
-
-⚠️ **Do NOT frame the CFTC long-yen build as a new "convexity" channel.** THESIS forbids re-arming Channel 4 without a fresh argued thesis, and it would be the night-of improvisation v1.7 was written against. Observation only until someone argues it properly (and RED reviews it).
+**TIER 0 — nothing overdue.** SAM-33 sole OPEN row.
 
 **TIER 1 — DATED, FORWARD:**
-1. **Fri Sep-25** — **CFTC 15:30 ET (Sep-22 positions): did the +120K long-yen book hold?** · MOF weekly (shift UNVERIFIED; else Thu Oct-1) · MOF curve for 9/24 (re-pull; difference only MOF-vs-MOF) · T-bill/liquidity auctions (no super-long bearing) · BOJ BIS banking stats (not GLI).
-2. **Mon Sep-28** — BOJ OIS expires **15:15 JST = 02:15 ET** → `boj_ois.py --prepare-review`, transcribe yourself. July MPM minutes.
-3. **Sep-29** 40Y auction — descriptive only, NO grade. **Sep-30** — BOJ Oct–Dec schedule 17:00 JST (**SAM-33 check**; scheduled taper change does NOT count) + 2Y auction + **MOF monthly intervention figure**.
-4. **Oct-1** BOJ SoO (is oil named, how) + Tankan · **Oct-2** Tokyo CPI + METI Aug crude-by-source (Kuwait/Qatar from zero?) · **Oct-8** 30Y auction (frozen bars apply).
+1. **Wed Sep-30** — **MOF monthly intervention total (Aug-27→Sep-28) ~19:00 JST** (¥0 ⇒ words only; non-zero ⇒ op in-window) · **BOJ Oct–Dec purchase schedule 17:00 JST = SAM-33 check** (scheduled taper change does NOT count) · 2Y auction · Aug IP/retail. RED grades CH-009 on the 9/30 MOF 30Y close (≥4.300 ⇒ NO-VERDICT).
+2. **Thu Oct-1** — SoO (oil named? how?) + Tankan · MOF weekly (does the MISSING Sep-13–19 week appear?). **Fri Oct-2** — Tokyo CPI + METI crude-by-source + CFTC (Sep-29). ⚠️ One wire puts Tankan Wed / Tokyo CPI Thu — rows were source-checked 9/11; verify at the BOJ/MIC calendar before the day.
+3. **Sat Oct-3 15:15 JST** OIS expiry → re-transcribe Mon Oct-5. **Oct-8** 30Y auction (frozen bars).
+
+**INBOX — 4 legacy packets still OPEN in `inbox/` (not processed this session; none blocked):**
+- **PROME ×2 (by 10/02):** declare `CADENCE:` token (PROME suggests WEEKLY) + R3 re-test of `WATCH_FOR["SAM"]` — `USD/JPY above 162` is BROKEN under the matcher (reduces to `USD/JPY`). Read `~/Research-Intake/scripts/newsweep_config.py`, re-word to entity+event, send to WALTER cc PROME. Obvious candidates from this session: `Bessent yen`, `Mimura yen`, `rate check yen`, `MOF intervention yen`.
+- **RED (no deadline before 12/1):** CH-012 asks whether SAM will register any JGB driver-attribution read before 12/30. Honest answer today = NO (none planned) — one line to `AGENTS/RED/inbox/`. CH-017 closed against RED; CH-009 graded 10/1.
+- **BRENT (9/25):** settle-basis correction — APPLIED in STATUS and moved to processed (done).
 
 ✅ **CONSUMER-CHECK RESIDUE — DISPOSITIONED 2026-09-20, do NOT re-chase.** `consumer_check.py --self --old 157.34` reports **3 remaining 🔴 on SAM surfaces and all three are CORRECT AS THEY STAND**: `docket/2026-09-19_SAM28_SAM31_GRADE.md:76` and `reports/2026-09-18_boj-mpm-grade.md:21,50` are **dated GRADE RECORDS whose arguments are deliberately left legible and not re-litigated**, and `STATUS_ARCHIVE.md:536` is archive-class (the tool flags this itself). **Only `KB.tsv:190` (KB-SAM-253, status LIVE) was a real fix** — a durable row other sessions cite, now carrying the completed-session basis beside the labelled intraday mark. ⛔ **A 🔴 on a grade record or an archive is not a defect**; re-running this check will keep printing 3.
 
 **TIER 2 — OWED (carried, none of it blocked):**
+- 🟡 **`docket/CATALYSTS.tsv` METI Oct-02 crude-by-source row has 5 fields, not 8** (pre-existing at HEAD 9/29; found by an NF check, not fixed — its threshold/priority/who-cares cells are missing, so `catalyst_countdown.py` shows it with blank fields).
 - 🟠 **`catalyst_countdown.py` counts trading days by WEEKDAY and knows NO Japanese holiday** (Silver Week lesson 9/20: a 3-day closure of the primary market was in no SAM surface). Still unfixed; a JP-holiday table is small and also fixes the "Nd trd" counts. Next JP holidays: Oct-12 (Sports Day), Nov-3, Nov-23. · Carried lesson: **a live bar is not a session** — re-derive FX marks from COMPLETED sessions at the next boot (done 9/24; see `[[finding_ohlc_verify_before_session_claims]]`).
 - ✅ **`cpi_japan.py` FIXED 9/19** (4 defects, tests added, audited). Carried forward from it: 🟠 **`rate_differential.py` has the SAME float class, latent.** Line 70 computes the gap by float subtraction (`ust-jgb`) and lines 77/89/123/124 compare it to the registered SAM-41 bars. Synthetic: **466** 3-decimal pairs whose TRUE gap is exactly 2.250 would falsely fire a strict `<2.25`. ⛔ **BUT measured on the real 345-row history: ZERO disagreements** — both boundary dates (2026-05-20, 2026-08-28, 10Y gap 1.800) compute to `1.8000000000000003`, correctly NOT firing. **SAM-41's CONFIRMED grade is NOT impeached.** Latent, not live: SAM-41 is RESOLVED and current gaps sit 15–21bp from the bars. **Deliberately NOT fixed 9/19** — it is a REGISTERED prediction's instrument and changing a bar's comparison behaviour is terms-adjacent; do it as its own scoped change, not as audit spillover. Fix = compare in integer basis points, exactly as `cpi_japan.py` now does in tenths.
 - 🔴 **Re-benchmark the oil-in-yen price proxy** — it prices off Brent while ~37% of receipts are WTI-Midland-led US crude. ⛔ The +22% implied-premium flag must NOT be resolved as a cost finding until then.

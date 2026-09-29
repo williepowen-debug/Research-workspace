@@ -74,24 +74,24 @@ Canonical mechanism and policy interpretation → `thesis/THESIS.md` and Septemb
 
 ---
 
-## CARRIED MARKET CONTEXT — refreshed 2026-09-24 (was "CARRIED SEP-14/15 VINTAGES")
+## CARRIED MARKET CONTEXT — refreshed 2026-09-29 (prior refresh 9/24)
 
-**Refreshed in the 9/24 catch-up session; every figure carries its own date. These are context rows, not thresholds.** ⚠️ yfinance returned **no US daily bar for Tue 9/22** on any equity/ETF/UST ticker — a vendor gap, not a market closure (US markets were open); FRED has 9/22.
+**Refreshed in the 9/29 catch-up session; every figure carries its own date. These are context rows, not thresholds.**
 
 | Item | Level / vintage | Note |
 |---|---|---|
-| Japan bank ADRs | MUFG **22.57** / SMFG **25.51** / MFG **10.56** [9/24 close] | Were 23.89 / 27.24 / 11.33 [Sep-14/15] — down ~5–7% across both hikes while USD/JPY weakened. Confounded by US rates; no mechanism read. |
-| DXY / VIX / S&P | **101.31** / **15.67** / **7,704.13** [9/24] | DXY was 99.58 [9/14] — the dollar leg is part of the USD/JPY move, not all of it (EURJPY 178.29 → 180.75, 9/15→9/24). |
-| UST 10Y / 30Y | **5.11% / 5.40%** [FRED 9/23]; ^TNX 5.162 / ^TYX 5.461 [9/24 vendor] | Never blend FRED constant-maturity with vendor yields. The 10Y is above 5% — the "two-decade high" wire claim is WALTER's (SIG-012), not verified here. |
-| FXY ATM IV (proxy) | **10.99%** Oct-16 expiry / 11.77% Dec-18 [9/24] | Was 16.24% (Oct-16) [Sep-14/15] — the event premium bled out after the 9/18 decision. ⚠️ KB-183: read the proxy's SIGN, not its level; FXY ETF options ≠ CME CVOL/OTC. |
-| Japan-ETF tape | EWJ **95.81** / DXJ **179.03** / YCS **54.76** [9/24] | YCS (2× short yen) +5.1% since 9/15 (52.12). |
+| Japan bank ADRs | MUFG **23.37** / SMFG **26.43** / MFG **11.05** [9/28 close] | Were 22.57 / 25.51 / 10.56 [9/24] — +3.5–4.6% on 9/25, the day the yen firmed and JGBs held. Confounded by US rates; no mechanism read. |
+| DXY / VIX / S&P | **101.20** / **16.07** / **7,683.69** [9/28] | DXY ~flat 9/24 → 9/28 (101.29 → 101.20) while USD/JPY fell 158.755 → 157.433 [completed closes] ⇒ **the 9/25 move was yen-side, not dollar-side** (crosses also fell: EURJPY 180.75 → 178.47 live 9/29). |
+| UST 10Y / 30Y | **5.17% / 5.49%** [FRED 9/25]; ^TNX **5.24** [9/28 vendor], 5.22 [9/29 live] | Never blend FRED constant-maturity with vendor yields. 30Y 5.49% FRED = new high in this run (5.47 on 9/24). |
+| FXY ATM IV (proxy) | → `workbook/FXY_OPTIONS.tsv` (9/29 snapshot written at boot) | ⚠️ KB-183: read the proxy's SIGN, not its level; FXY ETF options ≠ CME CVOL/OTC. |
+| Japan-ETF tape | EWJ **96.83** / DXJ **179.67** / YCS **53.85** / FXY **58.22** [9/28] | YCS (2× short yen) 54.76 → 53.85 since 9/24. |
 | MOF Aug lifer / trust | lifer LT −¥137.3B / trust +¥2,332.6B [Aug, published Sep] | Unchanged — monthly; next with the September release. Trust ≠ GPIF; LT debt ≠ UST. |
 
 ## FUNDING (U.S. / Japan)
 
-**Refreshed 2026-09-24 (FRED). Current and citable, not boot-read.**
+**Refreshed 2026-09-29 (FRED). Current and citable, not boot-read.**
 
-| U.S. / Japan funding | **SOFR 3.87% / IORB 3.90% ⇒ −3bp** [FRED 9/23]; HY OAS **273bp** / IG **77bp** [9/23] | Post-FOMC hike (IORB 3.65 → 3.90). Spread unchanged at −3bp across the hike ⇒ **no U.S. funding stress.** HY 265 → 273bp [9/11 → 9/23], widening 8bp into two-decade-high UST yields; IG 80 → 77bp. Japan O/N / repo last recorded Sep-14 (0.977% / 1.000%) — **pre-hike, stale; not refreshed this session.** |
+| U.S. / Japan funding | **SOFR 3.90% / IORB 3.90% ⇒ 0bp** [FRED 9/28]; HY OAS **293bp** / IG **81bp** [9/25] | SOFR drifted 3.87 → 3.90 into quarter-end (9/30) — at IORB, not above it; a quarter-end print ABOVE IORB would be the first funding tell. **HY 273 → 293bp in two sessions [9/23 → 9/25], +20bp** as UST 30Y made a new high; IG 77 → 81bp. Credit is HENRY's domain — context here, no SAM mechanism. Japan O/N / repo last recorded Sep-14 (0.977% / 1.000%) — **pre-hike, stale; not refreshed this session.** |
 
 ⚠️ GC T/N ~1.005% (pre-hike) is a separate instrument. **None of these measures offshore FX swaps** — that gap is what RED salvage ④ (a real JPY xccy-basis instrument) is owed for.
 

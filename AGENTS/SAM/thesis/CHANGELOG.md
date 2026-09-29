@@ -8,6 +8,14 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-09-29 — News catch-up: joint US–Japan verbal yen campaign took USD/JPY 159.04 → 156.50 with no operation found; spec long-yen cut 40%; 40Y auction firm. **THESIS v1.7 UNCHANGED.**
+
+**TIMELINE:** new 2026-09-29 block. **THESIS:** integration header Sep-24 → Sep-29; Channel 3 rider only. **PLAYBOOK:** 2026-09-29 entry.
+- **Intervention (Channel 3):** old view "two readings not separable — (1) speed warning / (2) MOF standing aside" → new view **(2) contradicted in its strong form** (the authorities answered the level break within ~24h, jointly with the US Treasury — Bessent "desirability of a strong yen", Mimura "face value"; both verified at source before cascade); **(1) untested.** Ladder graded **T2-equivalent, not T3**; the US endorsement has no ladder row and none is invented. ⛔ No operation found; MOF monthly ~Sep-30.
+- **Positioning (observation):** CFTC Sep-22 net +71,982 long (−48,377, 40% cut) INTO the grind to 159 — before the verbal campaign. OI −164,101 ≈ Sep delivery (June same step) ⇒ the 9/15 "OI series record" (KB-SAM-257) was partly delivery-week inflation. Channel 4 stays dead.
+- **Pillar 2 / SAM-33:** ops audited through 9/29 — scheduled bucket sizes only; 40Y auction BTC 3.096× (firmest of n=3). Falsifier un-fired. No Notes append (STATUS carries it; avoids a sidecar re-stamp for evidence only).
+- **Pillar 1:** OIS hawkish for the 2nd chart (Oct 36 / Dec 72 / cum 2.48); 10Y gap widened to 2.158pp while the yen firmed ⇒ not rate-driven.
+
 ## 2026-09-24 — Silver Week catch-up: rate-check level taken out with no strike; JGB 10Y at a 1996 high uncapped; spec yen longs at the largest 2-week build on record. **THESIS v1.7 UNCHANGED.**
 
 **TIMELINE:** new 2026-09-24 block. **THESIS:** evidence-integration refresh only (2nd pass, ~17:2x ET — the 1st pass said "no edit", superseded here): header integration date Sep-15 → Sep-24; Pillar 1 gaps Sep-14 → Sep-18 (2.555/2.029pp, widened on hike day) + 9/24 OIS repricing; Pillar 2 9/24 stress-day paragraph; Channel 2 CFTC Sep-8 → Sep-15 with the observation-not-channel guard; Channel 3 rate-check-lapse sentence; KEY THRESHOLDS 160 rider extended. **No version bump — nothing structural moved; v1.7 unchanged**, same practice as the Sep-15 integration. Siblings refreshed the same pass: `V18_CANDIDATE_PILLAR1.md` (gaps moving AWAY from the bar), `JGB_SUPPLY_DEMAND_THESIS.md`, `insurers/TRACKER.md`, KB-SAM-257.

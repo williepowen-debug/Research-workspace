@@ -1,5 +1,15 @@
 # SAM TIMELINE
 
+## 2026-09-29 — Washington said it wanted a stronger yen, and the words moved the price ~2.5 yen with no money reported
+
+Five days after the dollar went through the level of the September 18 rate check, the answer came, and it was spoken rather than spent. On the 25th Katayama disclosed that Trump had raised the yen's weakness with Takaichi at their New York summit. That evening Bessent said he and Katayama had discussed "the desirability of a strong yen that reflects Japan's strong economic fundamentals." On the 28th Mimura told Reuters that markets should take the message "at face value," and that he had "absolutely no such concern" about funding an intervention. The dollar fell from 159.04 to 156.50 without a trade from either government that anyone has reported. The move was the yen's own: the dollar index was flat and the yen gained against the euro, pound and Australian dollar too. It happened while the ten-year US–Japan gap *widened*, so the rate path did not drive it.
+
+That settles half of the question the 9/24 entry left open. The reading that Tokyo was standing aside at these levels does not survive: the authorities answered within a day of the level breaking, and they brought Washington with them. The other half is untouched. Whether the reaction function is speed rather than level needs a fast yen-weakening leg, and none has printed. What is new in kind is the American voice. This desk's ladder is written for Japanese officials and has no rung for a US Treasury secretary endorsing a stronger yen. It is recorded as that, not fitted onto a rung invented the day it was needed. Tomorrow's monthly MOF figure will say whether any money moved between August 27 and September 28.
+
+Two other things held. The speculative crowd that had flipped to a record-swing long yen was cut by 40% in the week to the 22nd, as the pair ground up to 159, before the verbal campaign began. So the 25th's move was not a squeeze of that crowd. The bond market kept grinding without breaking. The MOF ten- and five-year set new highs on the 28th, but by a basis point, not ten. The 40-year auction on the 29th drew the firmest demand in its short series (3.10×), and the BOJ's operations through the 29th show purchases at the same bucket sizes as earlier in the month. SAM-33's test continues and its falsifier has not fired. BOJ pricing moved hawkish for a second straight chart, with the October meeting at 36% of a 25bp step and December at 72%.
+
+**Consequences to the thesis: none.** v1.7 stands, no successor, book FLAT. The American endorsement is a word; a US operating leg is established only for July 30–31, and FRBNY's Q3 report (~Nov-13) is what settles that one.
+
 ## 2026-09-24 — The level the authorities warned at was taken out, and nobody came
 
 Japan came back from a five-day holiday into the sharpest bond day in thirty years and a yen that had already slipped past the level where, six days earlier, the authorities had phoned dealers for quotes.
