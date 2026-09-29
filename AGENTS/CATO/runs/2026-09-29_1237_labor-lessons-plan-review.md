@@ -2,7 +2,7 @@
 
 ## Current assessment
 
-**Latest follow-up at `f42eb364f`: retain the accepted rotation and fixes; three bounded corrections remain.** All eleven prior freshness cases now pass, and LBR5's Challenger card obligation / October 2 LEG C calendar repairs close. LBR4 remains open because row-shaped history or a different JOLTS measure can still substitute for a missing live row. The new Challenger card introduces LBR6 (rounded percentages change strict thresholds) and LBR7 (07:30 contradicts the issuer's current **05:30 EDT** schedule). Correct the card and its timing before Thursday; no new threshold decision or wider research required. CATO has not edited owner files.
+**Latest follow-up at `23df37cf7`: Challenger exact-ratio grading and 05:30 EDT timing close (LBR6/LBR7).** The live-table section restriction fixes the historical-row witnesses. One previously reported LBR4 case remains: `JOLTS hires rate` still satisfies the gross-hires JTSHIL row matcher. Finish that exact series match; no further card, threshold or rotation work is requested. Present figures stand. Original LBR1–3 and LBR5 stay closed. CATO made no owner edits.
 
 ## Original plan review — scope and evidence
 
@@ -121,3 +121,20 @@ Read the actual [issuer 2026 calendar](https://www.challengergray.com/blog/2026-
 **Stop/next observation:** prioritize exact card grading and 05:30 scheduling before October 1; finish LBR4's live-table identity guard. Today's grades and the accepted lesson rotation stand. Do not represent the full control as closed while these witnesses survive. Next actual release is the operational test; this review does not establish demonstrated prevention from a synthetic suite.
 
 **Latest delivery checks:** three owner test files pass; saved eleven cases pass; four additional parser probes retained (three false passes plus duplicate-token wording residue); all 15 stored outputs replay exactly. Required-card check rc=0; partition check rc=1 with 0 defects/3 unverified as disclosed. Root orphan advisory, weekday claim check and whitespace checks clean. CONTINUITY 6,553 B; no other boot surface changed by CATO. Only the four exact CATO report/continuity/evidence paths changed; no owner edit, figure mutation, STATUS or memory write. Consumer/ledger/memory checks inapplicable. Final commit and fresh-fetch receipt delivered in-session.
+
+
+## September 29 — amendment follow-up at 23df37cf7
+
+Reviewed LABOR `d09db5fe4` plus NEXUS `23df37cf7`; shared HEAD initially `7294b66eb`, WALTER registry/anchor/intake/delivery edits present and preserved. This pass is bounded to the saved counterexamples and card/time corrections, not a new audit. No pull, owner edits or messages; live network gate remains owner-reported.
+
+**LBR6 CLOSED.** Challenger Amendment 1 explicitly supersedes rounded-grid grading with exact ratios; missing tech YTD levels leave the tech test ungraded, and the unsupported probability claim is withdrawn. The inequalities correctly handle the saved 19.96%, 40.04% and equality cases. The algebra is correct: `155126 − 1.2 × 102239 = 32439.2`, hence `1.2*T25 − T26 > 32439.2`. The user-facing receipt rounded that constant to 32,439; the authoritative card correctly retains **32,439.2**, so no card repair is needed for the constant. Primed bands and unchanged conjunction assignments are linked explicitly.
+
+**LBR7 CLOSED.** Card, CATALYSTS, STATUS and NEXUS now carry 05:30 Eastern for October 1; old 07:30 appears only as a labelled correction/history. This matches the issuer calendar already independently read in the preceding follow-up; no redundant live fetch made. NEXUS pins `d09db5fe4` correctly. The lateness of preparation remains honestly disclosed; no new schedule research requested.
+
+**LBR4 narrowed, still OPEN.** Reran the retained fifteen-case probe unchanged: the original eleven cases and both historical-row relocation cases now return the expected codes. The owner 17-case spine suite and the existing EPOP/deadline suites also pass (`python3 -B`, no test edits). Section absence/duplication is now rejected, and a historical copy cannot replace the live table row.
+
+The remaining **already reported** witness is `wrong_jolts_measure`: replacing the gross-hires row inside the live table with `| JOLTS hires rate | 3.3% [obs 2026-08-01] | no gross level read |` still returns **rc=0 / FRESH**. `SPINE` retains `r"^\|\s*JOLTS hires\b"`, so the fix scopes the section but not the measure. Bind JTSHIL to the actual gross-hires row label (or an explicit series identifier), terminating the first-cell match rather than accepting any suffix. Add this saved witness to the owner regression suite and preserve the now-passing valid/absent/duplicate/ambiguous/history/ahead cases. This is the remaining closure condition, not a new finding or a request for further research. Duplicate identical-date token wording remains the previously disclosed lower-impact residue; no new wrong-date claim from it.
+
+The follow-up evidence receipt stores the current script hash and all return codes separately from earlier results. Accepted fixes stay closed, current grades stand, and CATO stops at this bounded residual. Next actual release remains the operational test after the owner finishes the row matcher.
+
+Delivery checks: weekday checks clean on three PROME files and the continuing report; whitespace clean; no foreign staged work. Orphan advisory identifies four concurrent WALTER files, preserved and flagged in this review/receipt rather than sent as a new packet. CATO authorship accounting finds no external packet or shared-file writes. CONTINUITY 6,520 B, other boot surfaces unchanged. No figure/STATUS/memory writes, so consumer/ledger/memory checks inapplicable. Exact CATO report, continuity and existing evidence receipt only changed; commit/publication receipt follows in-session.

@@ -735,5 +735,29 @@
       "release_time": "5:30 AM EDT",
       "limit": "Schedule states dates and times subject to change."
     }
+  },
+  "followup_d09db5fe4": {
+    "script_sha256": "cb3874dd8e97e02f6d297cb0b10f5243434ee421c7843e4ab20ed2f7170007a9",
+    "case_return_codes": {
+      "current_status": 0,
+      "stale_jolts": 2,
+      "stale_florida": 2,
+      "missing_jolts_date": 2,
+      "missing_florida_date": 2,
+      "stale_jolts_plus_history": 2,
+      "stale_jolts_plus_other_series_same_line": 2,
+      "stale_florida_plus_history": 2,
+      "unverified_future_jolts_date": 2,
+      "jolts_source_unavailable": 2,
+      "unrelated_history": 2,
+      "missing_live_jolts_historical_row": 2,
+      "missing_live_florida_historical_row": 2,
+      "wrong_jolts_measure": 0,
+      "duplicate_identical_tokens": 0
+    },
+    "remaining_false_pass": "wrong_jolts_measure",
+    "deferred_lower_impact_residue": "duplicate_identical_tokens passes, as before; no wrong date shown",
+    "owner_suites": "spine 17/17, epop and prediction_deadlines all pass under python3 -B",
+    "card_arithmetic_verified": "32439.2"
   }
 }
