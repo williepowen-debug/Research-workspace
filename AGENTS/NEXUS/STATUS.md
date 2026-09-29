@@ -103,14 +103,14 @@
 | 🔴 **IG OAS >94 (`GATE-LIQ-072`)** | **83 [9/28]**, +2/day p95 | **11bp** | **WQ-340's NEXT LINK** — discriminates one root from two. BOND IG/BBB legs NOT MET. |
 | **HY >320 (`RED-FT-02` s=3) · >350 (BOND ⇒4)** | 302 | 18 · 48 | Nearest CONFIRM line is on the widening side. |
 | **VIX ≥18 s=5 (RED-FT-06) · >20 (VIOLET)** | 16.07 [9/28 bar] | 1.9 · 3.9 | Dispersion present, index vol not. |
-| **`LIQ-07` SPREAD-B ×3** | 1 of 3 | B ≥304 [9/29] · ≥308 [9/30] | Root B's own discriminator (P 15%). |
+| **`LIQ-07` SPREAD-B ×3** | 1 of 3 | B ≥304 [9/29] · ≥308 [9/30] | The B-tier persistence line behind the candidate cause (P 15%) — measures behavior, not cause. |
 | **`LIQ-079` ARM SOFR99−IORB ≥+30** | +8 | 22bp | QE 9/30 = null; test 10/2–10/5. |
 | **BB >220 (069 cohort)** | 183 | 37bp | Cohort NOT repriced. |
 
 ### NOT CONFIRMING
 **HY <260 kill** (302, 42bp away, moving AWAY; FT-12 / `GATE-HY-REKILL` / branch B / H-2 = ONE line) · funding (SOFR−IORB 0, SRF $0.001B) · VIX >23 · KRE <65 (69.54) · claims ≤185K ×5 (197K) · core CPI (3-mo ann 1.97%) · BRT-29 (modal MISS 9/30) · X1 wrapper-leads (CLOSED 8/28) · T-24 (40Y firm).
 
-**Cluster verdict:** 🔴 **Rotated a second time — RATES (9/17) → CREDIT (9/23–28) — and stopped at FUNDING, IG, INDEX VOL. Two roots, not seven. Next line IG 94; next mechanism test FR2004 Thu 10/1.**
+**Cluster verdict:** 🔴 **Rotated a second time — RATES (9/17) → CREDIT (9/23–28) — and stopped at FUNDING, IG, INDEX VOL. One established root plus a candidate, not seven. Next line IG 94; next mechanism test FR2004 Thu 10/1.**
 
 ---
 

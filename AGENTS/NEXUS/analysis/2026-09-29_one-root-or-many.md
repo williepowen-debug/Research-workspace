@@ -55,7 +55,7 @@ Seven lines on five desks fired or crossed since Wednesday. **They are not seven
 
 **One line: IG OAS >94 — `GATE-LIQ-072`'s range-break leg (LIQUID). 83 [9/28], 11bp away, moving ~+2/day at the 95th percentile.** It is the daily-published registered line that shows **whether the widening reaches investment grade** — the next rung of the chain. *(Corrected per CATO PN2: it measures a LEVEL, not attribution — IG joining is consistent with index-wide repricing but does not by itself establish it or impaired market function; IG stalling does not show rates have not transmitted into lower-quality credit. It is the next link, not a root discriminator.)* Likewise `LIQ-07` measures B/CCC spread behavior, not AI attribution. The other three candidates do not discriminate yet: SOFR−IORB is quarter-end-masked until 10/2; VIX >20 is four points away (VIOLET: dispersion present, index vol not); a pulled-deal cluster cannot be verified from here.
 
-Already docketed, not new, and named so the map is complete: **Root A's mechanism leg is Thu 10/1 FR2004 as-of 9/23** (BOND, WQ-291: 3–6Y ≥ $56.586B — did the 9/23 composition failure have a dealer-warehousing mechanism?), then the **10/7–10/8 long-end auctions** (BOND row 1 ⇒5). **Root B's own discriminator is LIQUID's `LIQ-07` SPREAD-B**: B ≥304 on the 9/29 obs and ≥308 on 9/30 (LIQUID's registered P(spreading) 15%).
+Already docketed, not new, and named so the map is complete: **Root A's mechanism leg is Thu 10/1 FR2004 as-of 9/23** (BOND, WQ-291: 3–6Y ≥ $56.586B — did the 9/23 composition failure have a dealer-warehousing mechanism?), then the **10/7–10/8 long-end auctions** (BOND row 1 ⇒5). **The B-tier persistence line behind the candidate is LIQUID's `LIQ-07` SPREAD-B**: B ≥304 on the 9/29 obs and ≥308 on 9/30 (LIQUID's registered P(spreading) 15%) — it measures whether the lower-quality widening persists, not what caused it.
 
 ---
 
@@ -71,7 +71,7 @@ Already docketed, not new, and named so the map is complete: **Root A's mechanis
 ## Corrections (dated; the letter above is retained, this section governs)
 
 ### C1 — PRED-50 grading rule, corrected 2026-09-29 16:26 ET (CATO PN1/PN2/PN5)
-**What is measured:** whether B-rated credit widens on sessions where BOTH the nominal and the real 10Y are quiet. **The verdicts name the behavior, not a cause:** ✅ **QUIET-SESSION WIDENING OBSERVED** · ❌ **NOT OBSERVED** · ⚪ **NO-VERDICT**. OBSERVED is *consistent with* a credit cause not contemporaneous with rates and is **necessary, not sufficient** for one — a lagged response to earlier rates moves also satisfies it. NOT OBSERVED does **not** establish a single cause, does **not** install "non-root," and does **not** close WQ-341.
+**What is measured:** whether B-rated credit widens on sessions where BOTH the nominal and the real 10Y are quiet. **The verdicts name the behavior, not a cause:** ✅ **QUIET-SESSION WIDENING OBSERVED** · ❌ **NOT OBSERVED** · ⚪ **NO-VERDICT**. OBSERVED is *consistent with* a credit cause not contemporaneous with rates but is **neither necessary nor sufficient to establish an independent cause — it measures the specified behavior**: a lagged response to earlier rates moves also satisfies it, and an independent cause could act only on rates-active days or produce fewer than two ≥5bp quiet-day moves in the window. NOT OBSERVED does **not** establish a single cause, does **not** install "non-root," and does **not** close WQ-341.
 - **Window:** FRED observations **9/29 → 10/8** (8 cells), unchanged; the 9/25 print that generated the hypothesis is EXCLUDED.
 - **Quiet session:** |Δ`DGS10`| ≤ 3.0bp **AND** |Δ`DFII10`| ≤ 3.0bp (H.15, daily-to-daily, inclusive). A missing cell (holiday / unpublished at grade) is not a session.
 - **Classification:** let Q = quiet sessions in the window, n = |Q|. For each s ∈ Q, ΔB = change in `BAMLH0A2HYB` in bp (one decimal): **W** if ΔB ≥ +5.0 · **T** if ΔB ≤ −5.0 · **F** otherwise. W + T + F = n.
@@ -86,7 +86,7 @@ Already docketed, not new, and named so the map is complete: **Root A's mechanis
 2. **The candidate Root B rests on LIQUID's from-memory sector attribution** (*"CCO Holdings … from memory, not re-verified"*) **and on ONE rates-flat session** — a single print (Disc-B). PRED-50 (as corrected in C1) tests only whether quiet-session widening recurs out of sample; it cannot attribute the cause.
 2a. **Vintage (PN5):** the credit tier cells on this page (BB/B/CCC/IG/BBB) are FRED **latest-revised** values as pulled 9/29 13:27–13:30 ET; only the aggregate HY series is revision-tested (LIQUID `KB-LIQ-137`). Rates cells are H.15 as published. "First-published" on this page applies to HY only.
 3. **The HY line is one FRED series read four ways.** It is one observation on every count in this page.
-4. **9/29 figures are vendor intraday**, not closes; the 9/28 cells are first-published and could revise.
+4. **9/29 figures are vendor intraday**, not closes; the 9/28 tier cells (BB/B/CCC/IG/BBB) are LATEST-REVISED at FRED and could revise — only aggregate HY is revision-tested (caveat 2a).
 5. **The Rhine's independence is the control, not a finding.**
 6. **This page counts nothing for `GATE-NEXUS-SEAT-01`** — that count is Will's on 10/7, and only if a decision cites this read.
 
