@@ -1,37 +1,32 @@
-# HOMER SCRATCH — 2026-09-29 (Tue) catch-up + four Will directives → handoff
+# HOMER SCRATCH — 2026-09-29 (Tue) PM boot sweep + band rulings → handoff
 
 **Purpose:** Ephemeral session handoff. Read at boot; rewritten at closeout. Durable findings → `workbook/` + `LESSONS_COLD_2.md`; live state → `STATUS.md`.
 
 ---
 
-## ✅ WHAT CHANGED TODAY
+## ✅ WHAT CHANGED THIS SESSION
 
-1. **Data (issuer primary):** Fannie MF Aug **0.57%** (−5bps; July revised 0.61→0.62) · ICE First Look Aug: DQ **3.53%**, 90+/FC **872K** (ORANGE +22K) · MND **7.50%** [9/28] · 10Y par **5.24** [9/28] · **LEN FQ3** (9/16) and **KBH FQ3** (9/22), both **missed by the 9/24 catch-up**.
-2. **CREED Trepp back-fill landed:** 9-point MF special-servicing series (Apr 9.08 peak). Maturity-adjusted is printed for the **overall** book only ⇒ MF mat-adj **absent at source** for Jul + Aug data. The **September print (~10/01) is the third month; the dated kill executes if it is absent.**
-3. **Will directives (all four done):**
-   - ⚠️ **ADDENDUM (after PROME's relay):** my claim that ≤3-char words drop was WRONG for all-caps tokens (KB/NVR/LGI match; WALTER harness + synthetic controls). `America's Builder` rejected (false lane hit) → `Horton Reports`; NVR + LGI added (14). **The lane fetches NO builder earnings headlines** — the docket rows are the control. Addendum in WALTER's inbox. *Lesson: I stated a tool's behaviour from a paraphrase; PROME's own "PJM survived" example contradicted it and I didn't read the harness.*
-   - **Cadence WEEKLY + 12 WATCH_FOR phrases** → `AGENTS/WALTER/inbox/2026-09-29_from-HOMER_cadence-and-watch-terms.md` (canonical; matcher re-test 10/02). PROME copy points to it.
-   - **9 per-name builder docket rows** (PHM 10/22, MTH 10/28, DHI 10/29 issuer-stated; NVR, LGIH, DFH, TOL, LEN, KBH pattern-dated). The CRL-23 row is back to the CRL-23 checkpoint only.
-   - **PMMS 10/01 pre-registered:** `reports/2026-09-29_PMMS-2026-10-01_PRE-REGISTRATION.md`. HOLD ≥7.05 · SOFTEN 7.01–7.04 (still RED) · LIFT ≤7.00. Treasury-implied ~7.16–7.18.
-   - **FL condo reconciled to ONE figure:** CORAL's Aug statewide median $298K +2.8%. Packet in CORAL's inbox.
-4. **Later the same session:** thesis kill rail BUILT (`thesis/THESIS.md`, 0 of 5 legs fired; PROME registered `GATE-HOMER-THESIS-KILL`, review 11/20). **News sweep** found ATTOM's August monthly (REO +42% YoY) and the TX September auction list ($778M, $562M MF), both missed on 9/24; flagged two circulating 2025 stories as recycled. **File audit** (Will-directed): charter de-dated (no live values), OBLIGATIONS B1 discharged + B8–B10, MEMORY (lane gap + box access), KB-HOMER-029/030/031, HOM-02 cross-ref to leg A1, LESSONS §51–52.
-5. **Signals:** 4 logged; SIG-006 (Trepp building-age) **answered** into WALTER's inbox. Correction COR-20260927-07 receipted APPLIED (my board_log "declined a stay" annotated).
+1. **Boot sweep** (Will: "sweep your start up files for anything old/stale/broken") → PROME prome-82 relayed Will's go on the fixes. **Charter edits were held for Will's own word** (harness rule: never edit CLAUDE.md on a peer's ask), then installed when he said "go ahead."
+2. **Charter** 52,746 → ~38KB. Narrative moved verbatim to `archive/CLAUDE_charter_history_2026-09-29.md` (script-checked: every original line is in one or the other). Two cold reads, 8 ❌ fixed. **Closeout step 5b is now 4b** (docket sweep BEFORE the brief fold). **90+/FC band basis ruled = ICE First Look.**
+3. **Servicer watch: Class A FIRED 2026-08-07** (Fitch UWM BB- → B+), found 53 days late. KB-HOMER-033; REGINALD note `c80af1ffa`. ⚠️ **Fitch primary still owed** (fitchratings.com blocked to this client).
+4. **Will ruled A3/A4** (AskUserQuestion, after CATO review f139c5db7): rent breadth on Apartment List, 20/40/55 → **Sep 46/100 ORANGE**; national FC STARTS 100/130/175K → **Q2 81,935 below Yellow**. Tool `tools/rent_breadth.py` + frozen roster + input extract under `workbook/rent_breadth_inputs/`. **CATO broke v1 (column-position pairing); fixed to calendar-date pairing** — LESSONS §53.
+5. **A2 rider encoded** (KB-HOMER-032). **3c** link packeted to CARL (`64d35bf5f`); CARL is DARK.
+6. **Data:** Case-Shiller July +1.93% (primary) · Miami-Dade Aug condo · NAR Sept date = Tue 10/13 (issuer-stated).
+7. **Docket:** 20 resolved rows archived (`archive/CATALYSTS_RESOLVED_2026-09.tsv`, crc 0x13dc1b4d); new rows: TX auction monthly, BEA RFI, read-cap 12/02, Apartment List monthly.
 
 ## 🔴 FIRST WORK NEXT SESSION
 
 | # | Item | Why |
 |---|---|---|
-| **1** | ✅ **A5 leg 1 BUILT 2026-09-29 (Will: "build the kill rail now") — `thesis/THESIS.md`**, 0 of 5 legs FIRED. Owed from its defect register: D2–D4 base-window pulls (Fannie/Freddie 2022–24, MBA FHA SA history, NAHB HMI table). Next: 3c convergence handle | Formal grade 2026-11-20 is docketed |
-| **2** | **Grade PMMS 10/01 against the pre-registration** | Run the residual check (|resid| >10bps ⇒ spread moved) |
-| **2b** | **Owed from the rail's defect register D2–D4:** Fannie/Freddie MF DQ 2022–24 at issuer · MBA FHA SA history · NAHB HMI history table | Turns three inferred base windows into verified ones before the 11/20 grade |
-| **3** | **Case-Shiller July** (due 9/29, NOT READ: S&P 403) + **FMHPI Aug** (9/30) | Nominal vs ICE's 3-month cooling |
-| **4** | **Trepp September DQ (~10/01)** | Third month of absent MF mat-adj ⇒ execute the kill (successor = MF special servicing) or grade it |
-| **5** | Miami-Dade Aug condo median (MIAMI REALTORS PDF) | My July "declining median" is stale; secondaries point up |
-| 6 | ✅ A2 encoded · ✅ A3/A4 RULED by Will 9/29 PM and installed · A5-3c build 10/09 | CARL ack asked by 10/05 |
+| **1** | **FMHPI Aug (Wed 9/30)** and **PMMS (Thu 10/01) graded against the pre-registration** (`reports/2026-09-29_PMMS-2026-10-01_PRE-REGISTRATION.md`) | PMMS RED hold/soften/lift is pre-registered |
+| **2** | **Trepp Sept DQ (~10/01)** — third month of absent MF mat-adj ⇒ execute the dated kill or grade it | Docket row, dated kill |
+| **3** | **Texas October auction list (~10/01–05)** + **Realtor.com Sept (~10/01–03)** | New recurring row; C2 observation |
+| **4** | **CARL's 3c ack by 10/05**, then **build 3c by 10/09** into `thesis/THESIS.md` | Silence ⇒ build as proposed, CARL side UNCONFIRMED |
+| 5 | Fitch primary for the UWM downgrade | The Class A grade rests on two secondaries |
+| 6 | Owed from the thesis defect register D2–D4: Fannie/Freddie MF DQ 2022–24, MBA FHA SA history, NAHB HMI table | Before the 11/20 formal grade |
 
 ## ⚠️ OPEN / UNSETTLED
-1. **HOM-02:** ICE August inflow ticked up (calendar) while FC starts +29% YoY. Q3 NDS (~mid-Nov) decides.
-2. **Fannie's −5bps** sits on a mod-suppressible headline; pair it with the Q3 10-Q MF provision (~late Oct) before reading it as improvement.
-3. **Building-age cross-tab:** the $0 EDGAR ABS-EE route is **unverified** (fields not opened). Offered to Will as a research task.
-4. **B7** (CalculatedRisk sweep disposition) still unknown. **Morgan Stanley 7.1%** perimeter still unresolved.
-5. **Gated at this box:** MBA 403 · miamirealtors.com empty to curl · S&P press 403 · FRED CSV failing (HTTP/2 error); Treasury and Freddie PMMS CSVs worked.
+1. **HOM-02** open; MBA Q3 NDS (~mid-Nov) decides.
+2. **Fannie's −5bps** is mod-suppressible; pair with the Q3 10-Q MF provision (~late Oct).
+3. **Rent breadth first live refresh** = Apartment List October file (~10/27–31): run with `--prior-file=workbook/rent_breadth_inputs/Apartment_List_2026_09_roster100.csv`, report revisions.
+4. **Gated at this box:** MBA 403 · fitchratings.com blocked · miamirealtors.com empty to curl · spglobal press reachable 9/29 PM (403 in the AM).
