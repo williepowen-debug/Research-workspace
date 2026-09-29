@@ -38,3 +38,9 @@
 
 ## BOTTOM LINE
 **Channel 2 now carries the Black Sea / Azov / Baltic geography Will ruled on 9/19. The text was adopted today, and the channel's kill clock reads 15/30 with a limb-1 date of 10/9, one day earlier than before (easier to kill).** No mark moved: 4/5/3, band ~30%. Refinery pressure did not let up: two more plants were hit 9/22 (Kuibyshev, Ufa), and Reuters confirms Moscow stopped processing crude. The barrels lost are still unmeasured, and no independent September aggregate exists on the open web. Channel 3 cannot be killed on 10/3, because HAWK graded the 9/18 war-risk repricing as live. Watch: the +5d re-reads (9/25-27), the cause of the Novorossiysk departure halt (a shut-in would block any C2 kill), and Palaemon 21-27 Sep, which is needed to certify the 9/21-9/23 window.
+
+
+# PART 3 — VERBATIM, two CLOSED OWED rows (33, 39) moved 2026-09-29 PM for read-cap (<70%). crc32 7dacb86a.
+
+| 33 | Urals figure retired — BRENT to confirm or replace | 9/8 | ✅ **CLOSED 2026-09-24 BY NAME — BRENT 9/21: NO_DATA_RETURNED, will not backfill (KB-153).** *Prior:* **OPEN — RE-ASKED 2026-09-18** in the Yaroslavl packet, with an explicit either-answer-closes-it form (supply a dated+based figure, or say you have none). This desk still carries no Urals number. |
+| **39** | ✅ **CLOSED 2026-09-24 — Will ruled B (WQ-266 9/19), text ADOPTED (KB-148, L447); option ② unruled, residue §7 of the record.** *Prior:* Channel-2 drawing B vs D (DOCKET L396) — ROTATED VERBATIM → archive/STATUS_ROTATED_2026-09-19.md | 9/15 | HALF-DISCHARGED: C3 self-ruled 9/19; C2 still Will's. Rec B (propagates Will's 9/8 geography ruling; spans ~1 day). Two claims withdrawn (live in WQ-266/L396). Full: OWED39_DISPOSITION_2026-09-19.md. |

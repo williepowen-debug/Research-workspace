@@ -146,3 +146,15 @@ Key accounts for real-time military tracking:
 | EA Analytics (via Bloomberg / Moscow Times / Meduza) · Kpler blog | relays | Monthly refinery-runs anchors for the offline band | July 3.6, August 3.8 M bpd |
 
 **Posture footer refreshed 2026-09-08:** Russia/Ukraine — 🔴 RED unchanged; canonical tier truth remains `STATUS.md`.
+
+## Added 2026-09-29 (catch-up sweeps)
+| Source | Use | Notes |
+|---|---|---|
+| **ASTRA** (Telegram, t.me/astrapress) | **Midstream/pump-station strikes** — the class this ledger under-covers (OWED-51) | Russian independent. Verify each post's date: one summary pass put the year as 2024. |
+| **neftegaz.ru incident feed** | Russian-side industry incidents (fires, outages) | Readable directly; useful when search is capped. |
+| **Clearwater Dynamics** | Black Sea OSINT vessel alerts | Stand-in when Palaemon/Securewest lag; alerts through 9/22-23 as of 9/29. |
+| **Militarnyi — WEBSITE** (militarnyi.com/en/news/) | Ukrainian military news, often first on strikes | ⚠️ The RSS feed returned EMPTY on 3 runs while the site read fine — read the site, not the feed (OWED-34 residual). |
+| **Google News RSS** (news.google.com/rss/search?q=…) | Fallback when the web-search allowance is exhausted | Returns pub timestamps: use them to reject re-dated 2025 stories. |
+| **CREA** (energyandcleanair.org) | Shadow-fleet flagging/enforcement data | Via Kyiv Independent 9/25. HAWK owns enforcement. |
+| **Caliber.az · TradeWinds** | Vessel-strike confirmation (Aroyat 9/27) | TradeWinds paywalled — headline + timestamp only. |
+| **Kommersant** | Russian port loadings (Novorossiysk) | Relay-level; figures conflicted between two relays 9/29. |

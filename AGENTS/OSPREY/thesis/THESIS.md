@@ -24,6 +24,8 @@ The channel model's market-relevance premise is that **the crude channel prices 
 
 On **8/8** a US-brokered understanding had Ukraine agree not to strike **CPC infrastructure** or **non-Russian tankers not carrying Russian cargo, not Russian-owned, not under Ukrainian sanctions**. It removed the campaign's most-instrumented target (the CPC gate, `GATE-OSPREY-001`) by diplomacy rather than attrition, and it is **fragile by construction**: unacknowledged by Kyiv, holding on observed behaviour only, a restraint free to grant and free to revoke. It has survived one clean test (Skiros 8/16 — a non-Russian hull *carrying Russian crude*, the carve-out exercised) and carries one open test (SIREN 9/3 — cargo state unpublished). It **has not been formalised or extended** as of the ~9/8 rung. It also shaped the campaign: since 8/8 Ukraine's perimeter strikes have concentrated on Russian hulls and Russian-trade hulls, and the Russian terminals themselves (Ust-Luga twice, Sheskharis, Taman) rather than CPC.
 
+**2026-09-29:** truce talk returned. Trump said on 9/27 *"You gotta take it easy on the refineries"* (Zelensky's reply comes from Trump's account only). Kyiv says it will stop only for a mutual energy truce, and nothing is agreed. Refinery-class strikes then paused 9/27-9/29 while depots were hit, which is 3 days and not yet a policy signal (KB-OSPREY-161/171). Like 8/8, any such understanding would remove targets by diplomacy, not attrition.
+
 ## 4. What the model has gotten wrong, and what changed because of it
 
 - **OSP-01 FAILED (7/31):** the tanker campaign *did* reach a named Russian crude terminal (Sheskharis) — while this desk's attention sat on the registered CPC gate (LESSONS 5).
@@ -48,6 +50,7 @@ On **8/8** a US-brokered understanding had Ukraine agree not to strike **CPC inf
 - **2026-09-24 update (supersedes the OWED-39 clause above; the original is kept as the record):** Channel 3's vessel class was self-ruled on 9/19: a merchant tanker, struck by the Ukraine side, inside the geography. **Channel 2 now carries the same Black Sea / Azov / Baltic geography qualifier**, on Will's WQ-266 word of 9/19, *"Yes — apply it to both"*. Caspian, inland-pipeline and Arctic/Pacific events go to a companion watch and no longer reset the clock. Letter: EXIT RULES §1. Record: `domain/energy-strikes/WQ266_CHANNEL2_QUALIFIER_2026-09-24.md`.
 - **Gas/LNG** is represented (`VX-OSPREY-GAS-01`, `FLOW-OSPREY-01`) but thinly swept; **vol/credit** transmission (`FLOW-OSPREY-02`) is seeded and has never had an own-theater observation.
 - **Druzhba / EU** remains a pointer, not a tracked series.
+- **2026-09-29 — Midstream is a coverage hole, not a quiet class:** ~12 pump-station/trunk-line strikes Apr-Jul 2026 are missing from `STRIKES.tsv` (KB-OSPREY-169, OWED-51). **And a measurement hole is opening:** Russia's 9/28 decree restricts publication of refinery-by-refinery runs and export detail (KB-OSPREY-160). That threatens the runs proxy behind the ~30% band and the independent aggregate behind the C1 5→4 test.
 - The **war-risk rate** is event-driven observable and has printed twice in seven weeks; the TD6 freight proxy is a tripwire, not a level.
 
 ## 7. What would change this thesis
