@@ -1,15 +1,15 @@
 {
  "attention_errors": [],
- "built": "2026-09-28 19:13",
+ "built": "2026-09-28 20:39",
  "channels": {
   "AI capex": "elev",
   "Credit": "elev",
   "Energy": "elev",
   "Equity-vol": "watch",
-  "Japan / carry": "elev",
+  "Japan / carry": "watch",
   "Metals": "elev",
   "Rates": "crit",
-  "War theaters + tariffs + housing": "crit"
+  "War theaters + tariffs + rivers + housing": "crit"
  },
  "docket": [
   "2026-08-14 Forum-4 WITHDRAWAL TESTS grading riders (Will-ruled batch 8/",
@@ -42,7 +42,6 @@
   "2026-09-30 \ud83d\udd34 **L409 SCOPE WIDENED \u2014 THE CONTINUATION-TICKER DEFECT IS N",
   "2026-09-30 \ud83d\udd34 **THE ROLL-MISMATCH WINDOW RECURS IN OCTOBER \u2014 HEN-F3 INHE",
   "2026-09-30 \ud83d\udd34 FLEET SWEEP \u2014 WHICH DERIVED METRICS ARE GRADED AGAINST A H",
-  "2026-09-30 \ud83d\udfe0 AEOLUS C5 ->5 MUST BE RE-SCOPED BY 9/30 - and while nobody",
   "2026-09-30 \ud83d\udfe0 L446 RESIDUE \u2014 spawn_list.py cadence-reader defects the in",
   "2026-09-30 \ud83d\udfe0 US DIESEL EXPORT-RESTRICTION RISK \u2014 first dated read: EIA ",
   "2026-09-30 \ud83d\udfe1 FORGE BRENT PIN RE-PIN \u2014 config.py:72 BZX26.NYM \u2192 BZZ26.NY",
@@ -101,13 +100,13 @@
   "2026-10-16 August TIC (Treasury, Fri 10/16 ~16:00 ET) = ZHA-18 third-mo"
  ],
  "fleet": {
-  "AEOLUS": "elev",
+  "AEOLUS": "ok",
   "BOND": "ok",
   "BRENT": "ok",
   "BROCK": "ok",
   "CARL": "watch",
   "CORAL": "ok",
-  "CRUISE": "watch",
+  "CRUISE": "elev",
   "FALCON": "watch",
   "FERT": "watch",
   "FLG": "ok",
@@ -163,17 +162,17 @@
  },
  "heartbeat_errors": [],
  "levels": {
-  "10Y Yield": 5.18,
-  "CCC OAS": 1112.0,
+  "10Y Yield": 5.24,
+  "CCC OAS": 1128.0,
   "Cushing": 23.747999999999998,
-  "HY OAS": 280.0,
-  "MOVE": 96.0,
-  "OZK": 46.89,
-  "USD/JPY": 157.18,
-  "VIX": 14.87,
-  "WAL": 77.61
+  "HY OAS": 293.0,
+  "MOVE": 101.82,
+  "OZK": 46.61,
+  "USD/JPY": 157.4,
+  "VIX": 16.07,
+  "WAL": 76.55
  },
- "one": "\ud83d\udd34 HIGH-YIELD SPREADS TOUCHED THE 280 LINE ON A BROAD, RATES-LED WIDENING; REAL YIELDS HIT 2.85; FRANCE'S TRIGGER FIRED; THE VLO SCALE-IN GRADED UNKNOWN TO THE CENT; THE PIPELINE FRAME-BREAKER LAPSED \u2014 and the book is one oil bet by Will's own ruling (WQ-297 A). 9/24 official: 30Y 5.47 \u00b7 10Y 5.18 \u00b7 10Y real 2.85 (+9bp d/d; all of the two-day +22bp is real, HENRY) \u00b7 HY OAS 280 \u2014 AT LIQUID's >280 line, NOT over it; RED-FT-01 (\u2265280, sustain 3) day 1 of 3 \u00b7 CCC 1,112, through the 1,100 marker. Friday's tape did not continue it: HYG flat, KRE +0.9%, SPX +0.5%, crude Nov \u22122% [9/25c]. GATE-TERRY-VLO-SCALE 9/25 NOT MET (VLO closed +1.12% at $387.145, 1.7% ABOVE its 20-day average \u2014 TERRY's grade) with F1 UNKNOWN ($95.0014 settle-window estimate, inside \u00b1$0.15; CME blocked to our tools) \u2014 the 2 staged shares are NOT triggered and the gate is HELD. BG-02 instance (4) LAPSED NOT MET at 17:0x. $0 moved by PROME; STAND DOWN holds (WQ-192); X1 sizing gate CLOSED (a 280 print returns that decided answer).",
+ "one": "\ud83d\udd34 THE LONG END BROKE HIGHER ON NO US DATA \u2014 30Y 5.56 THROUGH HENRY'S 5.50 RED, 10Y 5.24 (highest since Jun-2007), 10Y REAL 2.90; HIGH-YIELD PRINTED 293, THROUGH 280 (RED-FT-01 2 OF 3 \u2014 TUESDAY'S CELL DECIDES); GOLD FELL 3.9% INTO THE REAL-YIELD JUMP; THE RHINE IS BELOW ITS 2018 RECORD LOW (AEOLUS C5 FIRED); THE 004 CLOCK IS TWO SESSIONS \u2014 and the book is one oil bet by Will's own ruling (WQ-297 A). 9/28 official Treasury: 2Y 4.92 \u00b7 10Y 5.24 \u00b7 30Y 5.56 \u00b7 10Y real 2.90 (BOND; trigger wire-attributed, not causal \u2014 WQ-317, 10/02). FRED [9/25]: HY OAS 293 \u00b7 B 300 \u00b7 CCC 1,128 \u2014 first print over 280; X1 stays CLOSED (8/28); RED rules the count. Will's fills 9/28 (receipt on file): 004 77P \u00d720\u2192\u00d715 \u00b7 QQQ 730P \u00d710\u2192\u00d79 \u00b7 TLT 82P \u00d72\u2192\u00d71 \u2014 three partials by his own hand; WQ-316 (QQQ \u00d79 / USO 159C \u00d72) is his by Wed 15:00 ET. GATE-TERRY-VLO-SCALE HELD; GATE-TERRY-VLO-HELD-01 REGISTERED 9/28. $0 moved by PROME; STAND DOWN holds (WQ-192); X1 sizing gate CLOSED.",
  "pending": [
   "WQ-187 (9/12)",
   "WQ-204 (9/19)",
@@ -182,6 +181,7 @@
   "WQ-305 (10/2)",
   "WQ-301 (10/2)",
   "WQ-295 (10/3)",
+  "WQ-332 (10/14)",
   "WQ-302 (10/14)",
   "WQ-31 (11/1)",
   "WQ-306 (undated)",
