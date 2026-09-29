@@ -1,7 +1,7 @@
 # BOND — Status
 
 **Agent:** BOND · **Domain:** US bond-market structure (+ MBS/FHLB + EU rates per the 6/27 extension; + the sovereign-credibility instrument set per the 8/10 forum — scope in `CLAUDE.md`)
-**Last session:** 2026-09-29 Tue — 12:3x–13:1x ET Will boot + PROME doorbell (live read: session 5, long-end-led, US-originated; WQ-317 same-day PARTIAL) · 10:24 ET PROME spawn (row-4 observation + L0 drain) · 2026-09-28 Mon ×3 sessions (official 9/28 curve · front-end deep-dive · `rates_context.py` build · positions ×15/×1) · earlier: 9/26 · 9/25 · 9/24
+**Last session:** 2026-09-29 Tue — 12:3x→19:4x ET Will session (live read: session 5, long-end-led, US-originated → official close 30Y 5.59; WQ-317 same-day PARTIAL; BND-30/31 pre-registered; TRADE + THESIS re-based; **closeout protocol restructured → `CLOSEOUT.md` + `closeout_run.py`, CATO-reviewed ×2**) · 10:24 ET PROME spawn (row-4 observation + L0 drain) · 2026-09-28 Mon ×3 sessions (official 9/28 curve · front-end deep-dive · `rates_context.py` build · positions ×15/×1) · earlier: 9/26 · 9/25 · 9/24
 
 > 📕 **HOT/COLD SPLIT — NOTHING DELETED.** Pre-rotation snapshots (`domain/sources/`): **`2026-09-29b_STATUS_full-snapshot_pre-intraday-rotation.md` (crc32 `2392892541`)** · `2026-09-29_…pre-row4-rotation` (`2518256656`) · `2026-09-28e` (`2516058915`) · `2026-09-28d` (`319142979`) · `2026-09-28c` (`1800580424`) · `2026-09-28b` (`2552442073`) · older `2026-09-28_` · `2026-09-24`. **Budget 32,550 B; rotate-tier ≥75% — rotate, never raise.**
 
