@@ -54,13 +54,16 @@ LABOR_SERIES = [
     ("JTSQUL",    "JOLTS quits (MoM Δ)",          "level_mom", "BLS"),
     ("JTSLDL",    "JOLTS layoffs/disch (MoM Δ)",  "level_mom", "BLS"),
     ("TEMPHELPS", "Temp help svcs (MoM Δ)",       "level_mom", "BLS"),
+    # Added 2026-09-29: T-11 had no instrument — STATUS carried June's 4.7% while
+    # Jul 4.6 and Aug 4.5 printed un-captured (caught only on a Will-prompted catch-up).
+    ("FLUR",      "Florida UR (T-11)",            "rate",      "BLS LAUS"),
 ]
 
 # Series needing deeper history than the default fetch window.
 # EMRATIO carries T-03 (3-month Δ) and T-04 (6-month Δ), so it needs the current
 # observation plus 6 prior months = 7. A short fetch cannot be allowed to look
 # like "no decline" — assess() reports CANNOT-VERIFY rather than a 🟢 if it is short.
-MIN_PERIODS = {"EMRATIO": 7}
+MIN_PERIODS = {"EMRATIO": 7, "FLUR": 6}   # FLUR: 5 consecutive rises need 6 obs
 
 
 def fetch_series(series_id, periods=4):
@@ -214,6 +217,20 @@ def assess(series_id, kind, obs):
             flag = "🟠"   # Kill A watch (bull-break risk for bearish thesis)
         else:
             flag = "🟢"
+    elif series_id == "FLUR":
+        # STATUS § KEY THRESHOLDS: T-11 = FL UR >5.0% OR a 5th consecutive rise.
+        # Integer tenths, same reason as EPOP above (one-decimal series vs exact bars).
+        t = [int(round(o[1] * 10)) if o[1] is not None else None for o in obs[:6]]
+        if len(t) < 6 or None in t:
+            return f"{val:.1f}%  (streak unavailable — history short)", "⚠️"
+        rises = 0
+        for newer, older in zip(t, t[1:]):
+            if newer > older:
+                rises += 1
+            else:
+                break
+        disp = f"{val:.1f}%  (MoM {(t[0]-t[1])/10:+.1f} · rises in a row {rises})"
+        flag = "🟠" if (t[0] > 50 or rises >= 5) else "🟢"
     elif series_id == "TEMPHELPS" and prev is not None:
         mom = val - prev
         disp = f"{val:,.1f}K  (MoM {mom:+,.1f}K)"

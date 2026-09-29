@@ -1,5 +1,5 @@
 # LABOR TRADE.md
-**Generated:** 2026-06-09 | **Domain:** LABOR (input agent) | **Direct trade:** KELYA only
+**Generated:** 2026-06-09 | **Domain:** LABOR (input agent) | **Direct trade:** NONE HELD (KELYA $7.5P expired worthless 2026-08-21)
 **Prior version:** `domain/sources/TRADE_archive_20260307.md`
 
 **Purpose.** Two jobs: (1) index which LABOR signals transmit to which other agents, so cross-agent triggers are explicit; (2) own the KELYA position decision logic. **Live position state (contracts, cost basis, mark) lives in FORGE — this file does not duplicate it.** Cross-position triggers for KRE/WAL/OZK/HYG/etc. live with the position owner; LABOR sends the signal, FORGE/REGINALD/HENRY/CARL act on it.
@@ -41,8 +41,9 @@ LABOR vector → threshold → target agent(s) → priority. Thresholds referenc
 
 ## §2 — KELYA Position
 
-**Position:** KELYA $7.5P Aug 21
-**Live state (last refreshed 7/23 — 13 days stale as of 2026-08-05):** spot **$15.23** `[STALE 2026-07-23 — pull fresh before any position action, root rule #4]`; strike $7.5 = **$7.73 OTM** *(derived from the stale spot; also stale)*; **16 DTE as of 8/5** *(this line read "29 DTE" until 8/5 — a DERIVED value that decays daily while its `[CONF]` date stays honest, so the timestamp did not protect it. Fixed in the doc sweep; **do not restate DTE as a frozen number again — state the expiry (Aug 21) and let the reader subtract**)*. **✅ DTE ≤30 MECHANICAL CHECKPOINT FIRED 7/23** (due 7/22, graded first session after): spot $15.23 ≫ $10 → **write-off confirmed per the pre-registered trigger — stop spending attention.** No action proposed to Will (tax-loss close only if mark >$0.05, implausible at $7.73 OTM / 29 DTE; would need a live chain quote to verify). Next mechanical touch: Aug 21 expiry + post-mortem (§2 "what this taught us" open question). Contracts / cost basis / mark → FORGE. *(Prior marks: $13.44 Jul 9 / $13.00 Jul 2 / $11.65 Jun 9.)*
+**Position:** 🔒 **NONE — the KELYA $7.5P Aug 21 EXPIRED WORTHLESS on 2026-08-21.** KELYA closed **$17.09** that day (low $16.60; Yahoo daily bars, pulled 2026-09-29) ⇒ `17.09 − 7.50 = $9.59` out of the money. **No KELYA line in `FORGE/STATUS.md`** (broker-view reconcile 2026-09-27, to the Fri 9/25 close; `grep -i kely` = 0 rows). Premium lost / cost basis → FORGE, never restated here. *(Re-stated 2026-09-29 on DAEDALUS Staleness Sweep #5: this line named the expired contract as the live position for 39 days. The pre-expiry live-state text is preserved in git — `git log -p -- AGENTS/LABOR/TRADE.md`.)*
+
+**Still owed from expiry:** the post-mortem question below (*was the entry sound on the Mar-7 data, or was the company-vs-industry conflation already inferable?*) — unanswered since 8/21. Carried in STATUS PICKUP; no new position is implied by answering it.
 
 ### Thesis state
 
@@ -72,7 +73,7 @@ LABOR vector → threshold → target agent(s) → priority. Thresholds referenc
 | Trigger | Action |
 |---|---|
 | ✅ **ALL JUNE–JULY TRIGGERS FIRED AND RESOLVED (6 rows collapsed 8/5)** | Claims never breached 250K (drift band all window, now 197K); **JOLTS May** hires 5.170M = LAB-16 ✅ but no claims companion, no KELYA move *(and that vintage is now itself superseded — June hires 5,348K)*; **NFP June +57K** hit the `<100K` leg but **U-3 FELL to 4.2%** so the `≥4.5%` companion never came (supply artifact, → L-06) — **no full re-arm, and the "$9-10 on print" scenario never materialised** (KELYA $13.00, −0.84%); **NFP ≥200K** did not fire, but **Kill A RESET** on the −74K revisions instead; **DTE≤30 (Jul 22) + spot >$10 FIRED 7/23** → mechanical write-off confirmed, attention off. |
-| **Aug 21 expiry** *(the only live row)* | Position expires worthless absent a >35% KELYA drawdown in ~2 weeks. **No action proposed to Will.** Tax-loss close only if mark >$0.05 — implausible at $7.73 OTM *(on a stale 7/23 spot; needs a live chain quote either way)*. |
+| ✅ **Aug 21 expiry — RESOLVED: EXPIRED WORTHLESS** (close $17.09 vs $7.5 strike) | *Was:* Position expires worthless absent a >35% KELYA drawdown in ~2 weeks. **No action proposed to Will.** Tax-loss close only if mark >$0.05 — implausible at $7.73 OTM *(on a stale 7/23 spot; needs a live chain quote either way)*. |
 | **Post-expiry (Aug 21+)** | **Post-mortem owed** — the §2 open question: *was the original entry sound given the Mar-7 data state, or was the company-vs-industry conflation already inferable then?* |
 
 ### What this position taught us
@@ -139,9 +140,9 @@ LAB-02 effective resolution. Kill A check #2 (Mar revised 214K = #1).
 
 **Kill A check #1 of a FRESH streak** *(renumbered Jul 2 — the Mar-214K-led streak died with the June report's −74K revisions; revised run 148/129/57 = zero banked; see §3 Jul-2 resolution)*. A ≥200K July print = first count only; trigger still needs 3 consecutive. KELYA already at ~14 DTE; mechanical write-off zone unless re-armed earlier.
 
-### Aug 21 (Thu) — KELYA Expiry
+### ✅ Aug 21 (Thu) — KELYA Expiry — RESOLVED: spot $17.09 > $8.50 ⇒ first branch, expired worthless, position closed
 
-Mechanical close-out. Decision tree:
+Mechanical close-out. Decision tree (as written pre-expiry):
 - Spot >$8.50: expires worthless, position closed.
 - Spot $7.50-8.50: marginal ITM/ATM, evaluate close-vs-let-expire for capital efficiency.
 - Spot <$7.50: ITM, exercise/close per FORGE rules.
