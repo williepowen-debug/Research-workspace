@@ -26,7 +26,8 @@
 - **FORUM-7 FINAL (Thu 10/1 ~16:15) → §7 NEXUS-row CONCUR-or-disagree packet to HENRY (cc PROME) by the 10/2 boot.**
 - `PREDICTIONS_MONITOR` rotation (~88%).
 - **A CREDIT leg for the split** — the letter cannot see this week's move; flagged to PROME as a Will decision (frozen gate, 9/02), NOT registered by me.
-- `GATE-LIQ-076`'s consequent names a "joint PROME/NEXUS amplification write-up" — LIQUID delivered its half; NEXUS's half is the WQ-340 page's R7 row; confirm with PROME whether more is owed.
+- ~~`GATE-LIQ-076` joint write-up~~ ✅ **CLOSED on the GATES row (PROME 13:5x)** — LIQUID's half + my WQ-340 row 3 + PROME's chain brief; nothing further owed.
+- **PROME dispositions of the three asks (13:5x ET, post-commit):** T-27 Root B owner → **WQ-341** (rec HOLD until PRED-50 grades ~10/9; then VULCAN bounded sub-read + LIQUID credit expression if the root survives) · credit leg for the split → **WQ-342** (rec NOT NOW under the frozen 9/02 letter; successor gate at the 10/16 T12S grade at the earliest) · **DOCKET L553 = PRED-50's first grade = my wake row** (ON-DEMAND now on ROSTER as owner-declared).
 
 ### Promotion scan
 **Two extension candidates, no new file (dedup-before-create):** ① `finding_dated_carry_item_has_no_expiry_check` — L2 carried a resolved item 33 days (n+1, my own ledger); ② `finding_two_legs_with_independent_vintage_clocks_mix_dates_invisibly` — the `BZ=F` Nov→Dec roll (9/25) read as "Brent −5.6% / −8.6%" on ≥2 surfaces, the identity-keyed class recurring one contract later exactly as the 9/17 note predicted (n+1). Both flagged to PROME in the receipt; no auto-memory written this pass.
