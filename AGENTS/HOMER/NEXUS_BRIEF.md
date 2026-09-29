@@ -1,8 +1,8 @@
 # HOMER — NEXUS Brief
 
-**Status:** 🔴 PMMS RED (7.03%) holds into Thursday on the inputs; 90+/FC pipeline 872K (ORANGE); the GSE multifamily books SPLIT in August
+**Status:** 🔴 PMMS RED (7.03%) holds into Thursday on the inputs; 90+/FC pipeline 872K (ORANGE); the GSE multifamily books SPLIT in August; thesis kill rail built (0 of 5 legs fired)
 **Domain:** U.S. housing asset-market + credit-structure — foreclosure pipeline, multifamily (GSE + CMBS books), mortgage-rate surface, builders, pricing/inventory, sub-statewide FL/TX
-**As of:** 2026-09-29 09:41 ET (news-sweep fold) | STATUS commit: 091c159d8
+**As of:** 2026-09-29 10:12 ET (closeout) | STATUS commit: fe0030203
 
 > ♻️ **ROTATED 2026-09-24** (PROME read-cap owner notice + DAEDALUS WQ-256 (b)): 109,239 B → under the rule-5 stop. The pre-rotation brief is preserved **byte-for-byte** at `archive/NEXUS_BRIEF_2026-09-24_pre-rotation-VERBATIM.md` (crc 267930108, matching PROME's measurement). **Audited by obligation before the cut:** every owed watch, dated event and kill-on-sight item in the old brief has a live home in `STATUS.md`, `docket/CATALYSTS.tsv`, `CLAUDE.md` or the DO-NOT-CITE table below. **The dead CREED Trepp courier (old :32/:45) is struck** — see WAITING FOR.
 
