@@ -1,0 +1,155 @@
+{
+  "reviewed_commit": "6a04e7f599dacbd2f9d8f79ce1d9b736374ed8f1",
+  "script_sha256": "3bf3290d469f37de2c3e214ceb966bd0a71db48ceaedc015a181ce79c59833b3",
+  "baseline_independent_calendar_counts_matched": 105,
+  "baseline_incomplete_historical_months_correctly_ungraded": 21,
+  "roster_equals_independent_fips_selection": true,
+  "expected_calendar_behavior": {
+    "missing_prior_september_column": "September UNGRADED or explicit input rejection; never a complete grade",
+    "swapped_august_september_columns": "September 46/100 ORANGE, or explicit schema rejection",
+    "swapped_final_columns": "September 46/100 ORANGE and latest September, or explicit schema rejection",
+    "missing_unrelated_prior_july_column": "September remains 46/100 ORANGE"
+  },
+  "observed": {
+    "baseline": {
+      "returncode": 0,
+      "september": [
+        "2026-09  negative  46/100  ORANGE"
+      ],
+      "latest": [
+        "LATEST 2026-09: 46/100 = ORANGE; next rung >55% needs 10 more cities"
+      ],
+      "stderr": ""
+    },
+    "missing_city": {
+      "returncode": 0,
+      "september": [
+        "2026-09  negative  45/99   UNGRADED (incomplete pairs)"
+      ],
+      "latest": [
+        "LATEST 2026-09: 45/99 = UNGRADED (incomplete pairs)"
+      ],
+      "stderr": ""
+    },
+    "missing_cell": {
+      "returncode": 0,
+      "september": [
+        "2026-09  negative  46/99   UNGRADED (incomplete pairs)"
+      ],
+      "latest": [
+        "LATEST 2026-09: 46/99 = UNGRADED (incomplete pairs)"
+      ],
+      "stderr": ""
+    },
+    "zero_cell": {
+      "returncode": 0,
+      "september": [
+        "2026-09  negative  46/99   UNGRADED (incomplete pairs)"
+      ],
+      "latest": [
+        "LATEST 2026-09: 46/99 = UNGRADED (incomplete pairs)"
+      ],
+      "stderr": ""
+    },
+    "missing_prior_september_column": {
+      "returncode": 0,
+      "september": [
+        "2026-09  negative  54/100  ORANGE"
+      ],
+      "latest": [
+        "LATEST 2026-09: 54/100 = ORANGE; next rung >55% needs 2 more cities"
+      ],
+      "stderr": ""
+    },
+    "swapped_august_september_columns": {
+      "returncode": 0,
+      "september": [
+        "2026-09  negative  54/100  ORANGE"
+      ],
+      "latest": [
+        "LATEST 2026-09: 54/100 = ORANGE; next rung >55% needs 2 more cities"
+      ],
+      "stderr": ""
+    },
+    "missing_unrelated_prior_july_column": {
+      "returncode": 0,
+      "september": [
+        "2026-09  negative  46/100  ORANGE"
+      ],
+      "latest": [
+        "LATEST 2026-09: 46/100 = ORANGE; next rung >55% needs 10 more cities"
+      ],
+      "stderr": ""
+    },
+    "swapped_final_columns": {
+      "returncode": 0,
+      "september": [
+        "2026-09  negative  54/100  ORANGE"
+      ],
+      "latest": [
+        "LATEST 2026-08: 41/100 = ORANGE; next rung >55% needs 15 more cities"
+      ],
+      "stderr": ""
+    },
+    "cutoff_20": {
+      "returncode": 0,
+      "september": [
+        "2026-09  negative  20/100  BELOW-YELLOW"
+      ],
+      "latest": [
+        "LATEST 2026-09: 20/100 = BELOW-YELLOW; next rung >20% needs 1 more cities"
+      ],
+      "stderr": ""
+    },
+    "cutoff_21": {
+      "returncode": 0,
+      "september": [
+        "2026-09  negative  21/100  YELLOW"
+      ],
+      "latest": [
+        "LATEST 2026-09: 21/100 = YELLOW; next rung >40% needs 20 more cities"
+      ],
+      "stderr": ""
+    },
+    "cutoff_40": {
+      "returncode": 0,
+      "september": [
+        "2026-09  negative  40/100  YELLOW"
+      ],
+      "latest": [
+        "LATEST 2026-09: 40/100 = YELLOW; next rung >40% needs 1 more cities"
+      ],
+      "stderr": ""
+    },
+    "cutoff_41": {
+      "returncode": 0,
+      "september": [
+        "2026-09  negative  41/100  ORANGE"
+      ],
+      "latest": [
+        "LATEST 2026-09: 41/100 = ORANGE; next rung >55% needs 15 more cities"
+      ],
+      "stderr": ""
+    },
+    "cutoff_55": {
+      "returncode": 0,
+      "september": [
+        "2026-09  negative  55/100  ORANGE"
+      ],
+      "latest": [
+        "LATEST 2026-09: 55/100 = ORANGE; next rung >55% needs 1 more cities"
+      ],
+      "stderr": ""
+    },
+    "cutoff_56": {
+      "returncode": 0,
+      "september": [
+        "2026-09  negative  56/100  RED"
+      ],
+      "latest": [
+        "LATEST 2026-09: 56/100 = RED"
+      ],
+      "stderr": ""
+    }
+  }
+}
