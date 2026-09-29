@@ -1,7 +1,7 @@
 # CORAL — Florida Real Estate Stress Monitor
 ## Comprehensive Florida Agent | 10 pillars (real estate · insurance · banks · migration · tourism · fiscal · labor · climate)
 
-**Last Updated:** 2026-09-28 ~15:xx ET (Mon) — Will-launched boot + 15-day catch-up (desk dark 9/13→9/28); PROME-coordinated inbox drain. **Overall 🟠 UNCHANGED. Bank-transmission rail NOT met, NOT armed. MSI leg 🟠 (stood down 9/13).** Headlines: **(1) Statewide FL condo market FIRMED in August** — median +2.8%, sellers got MORE of their ask, faster contracts; 3 of 4 legs cut against "clearing by cutting price." **(2) Citizens −11,965 in Aug is a TAKEOUT round, not organic exit** — ex-round personal ≈ −93 (flat). **(3) Amendment 3 ruling FOUND (8/3, rewritten, no appeal, on ballot as No. 3)** — pre-reg Branch A ⇒ "leaning FAIL"; latest poll 45 yes. **(4) Bankruptcy instrument BUILT — FL filings +21% YoY, pulling away from the US; falsify criterion 5 reads NOT MET on every basis.** **(5) NFIP was extended to 12/11 on 9/2 — the 9/30 cliff this desk carried was stale.**
+**Last Updated:** 2026-09-28 ~20:xx ET (Mon) — **LATE PASS: Will's four association→lender follow-ups RUN** (Avidia/USCB verified at SEC → `STATUS_DETAIL.md` § M · Dockside's 2023 repair lender DOCUMENTED, private → § N · DBPR/UCC feasibility test + DRAFT request, NOT sent → § O · Palm Greens wording corrected · **9/29 Dockside hearing is NOT a confirmation**). Earlier ~15:xx ET: Will-launched boot + 15-day catch-up (desk dark 9/13→9/28); PROME-coordinated inbox drain. **Overall 🟠 UNCHANGED. Bank-transmission rail NOT met, NOT armed. MSI leg 🟠 (stood down 9/13).** Headlines (1)–(5) → the one-line state below and `STATUS_DETAIL.md` § P.
 
 **File map (read-cap split 2026-09-02; rotated 2026-09-28):** **`STATUS.md`** = state, colours, live levels, every owed action (boot-read whole) · **`STATUS_DETAIL.md`** = evidence rows, sources, vintages, basis caveats — **§ "2026-09-28 session evidence"** for today; § "2026-09-13 STATUS hot-surface blocks — ROTATED" holds the 9/13 blocks verbatim (crc `5ff2d9aa`) · **`archive/STATUS_SESSIONS_20260721-20260823.md`** = session narrative 7/17→8/23. **State disagreement ⇒ this file wins; provenance disagreement ⇒ `STATUS_DETAIL.md` wins; either is a defect to fix.** · **`TRADE.md`** = DECLARED FLAT (9/28) · **`tools/bkcy/`** = bankruptcy instrument.
 
@@ -13,7 +13,7 @@
 
 ## THESIS RAILS — "The Coral Bleaching"
 
-Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo stress confirmed; bank-loss transmission NOT confirmed.** Falsify grade **2026-11-15**, baseline **1.5 of 6**, pre-registered rule (≥4 ⇒ 🟡 candidate · 2–3 ⇒ hold · ≤1 ⇒ 🟠 unqualified; no rewording at grading). **Directional notes for 11/15 (not grades):** criterion 5 now instrumented and pointing NOT MET; criterion 6 leaning toward NOT MET (Amendment 3 "leaning FAIL"); criterion 3's first two clauses strengthened (inventory 7.7, median +2.8%) but its third ("without forced-sale acceleration") is unchanged.
+Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo stress confirmed; bank-loss transmission NOT confirmed.** Falsify grade **2026-11-15**, baseline **1.5 of 6**, pre-registered rule (≥4 ⇒ 🟡 candidate · 2–3 ⇒ hold · ≤1 ⇒ 🟠 unqualified; no rewording at grading). **Directional notes for 11/15 (not grades) → `STATUS_DETAIL.md` § P.**
 
 ---
 
@@ -35,7 +35,7 @@ Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo st
 | Special assessments | **$25K–$100K/unit typical, to $400K**; SIRS tail ≤12/31/26, funding-pause ≤12/31/28 · **OPPAGA 26-04 (Jul-26, PRIMARY): 903 repair-permit APPLICATIONS from Phase II inspections (2024–25), estimated values <$1K–$30M; 54 buildings listed unsafe/uninhabitable** — ⚠️ 64–71% of jurisdictions reported; self-reported; estimates not costs | 🔴 |
 | GSE warrantability | **PRIMARY-TIER.** Full Review live 8/3; binding FL constraint = pass/fail inspection + **>$50K/unit master deductible**. ⭐ **9/28: an HOA in bankruptcy/insolvency/receivership (or VOTING on one) makes the project ineligible (B4-2.1-03, v.08/05/2026) — incl. Waiver of Project Review; only carve-out is High-LTV Refi, whose acquisitions are PAUSED.** First honest read ~Oct–Nov | 🟠 |
 | Termination / receivership | *Biscayne 21* **SETTLED 8/31/26 (press):** Two Roads paid the holdouts ~$50M (single anonymous source); court sign-off pending as of 8/31. Makes forced terminations **dearer/slower**, not faster. *Biscayne 21* 100%-consent reading stands (FL Sup. Ct. **declined review** 10/14/25 — not a merits affirmance) | 🟡 |
-| **Association bankruptcies (verified 9/28)** | **≥9** condo-association Ch.11s, SDFL+MDFL since 1/2025 — **DESCRIPTIVE, UNGRADED**. Causes: litigation, casualty/insurance, governance — **none documented as SIRS/milestone**. **No bank lender to an association found in documents reviewed ≠ no bank exposure** (Schedules D unread for 7; two DIP lenders unknown). Table → `STATUS_DETAIL.md` § L | ⚪ |
+| **Association bankruptcies (verified 9/28)** | **≥9** condo-association Ch.11s, SDFL+MDFL since 1/2025 — **DESCRIPTIVE, UNGRADED**. Causes: litigation, casualty/insurance, governance — **none documented as SIRS/milestone**. **No confirmed STRESSED bank REPAIR loan to an association found in documents reviewed ≠ no bank exposure** (Schedules D unread for 7; DIP lenders unknown; Palm Greens' $192K bank premium finance = separate category, motion only). **9/28 late: Dockside's 2023 Ian repair lender DOCUMENTED — South Florida Real Estate LLC, a PRIVATE contractor affiliate ("over $18M in trade credit", contested; face/draws/treatment unknown); Grande Isle had a Suncoast Credit Union repair loan (UCC 1/2023, terminated 10/2023). DBPR/UCC yield names + collateral, never balances (§ N/§ O).** Table → `STATUS_DETAIL.md` § L | ⚪ |
 | FL property-cat reinsurance | 6/1 **−15/−20%** risk-adj; Citizens net ROL **8.46% vs 11.95%** | 🟢 easing |
 | Citizens policies in force | **266,231 (8/31)**, −4.3% — **takeout-driven** (8/18 round 11,723); ex-round personal ≈ −93; commercial **−149** real. Next month-end ~early Oct | 🟠 |
 | Citizens commercial / condo-assoc | Commercial **+10.4% capped** eff 7/1/26 | 🟠 amplifier |
@@ -60,7 +60,7 @@ Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo st
 
 ## FL BANK EXPOSURE — grid → `STATUS_DETAIL.md`; watchlist → `FL_BANK_WATCHLIST.md`
 
-**UNCHANGED since 8/23.** Q2 closed **7-of-7 benign**, sync **0-of-≥2**; SBCF's pre-registered nonaccrual tell **falsified** ($95.0M→$86.5M); REGINALD's 10-Q leading-bucket close **4-of-4 REVERT**. CRE criticized rose on 2024-era rate-shock underwriting with LTVs/payment intact ⇒ **reclassification, not realized loss.** **Zero HOA/condo-association disclosure in any release = the wire is structurally unobservable.** Brightline Ch.11: no FL bank exposure found. **Next re-test Q3, ~late Oct.**
+**UNCHANGED since 8/23.** Q2 closed **7-of-7 benign**, sync **0-of-≥2**; SBCF's pre-registered nonaccrual tell **falsified** ($95.0M→$86.5M); REGINALD's 10-Q leading-bucket close **4-of-4 REVERT**. CRE criticized rose on 2024-era rate-shock underwriting with LTVs/payment intact ⇒ **reclassification, not realized loss.** **Zero HOA/condo-association disclosure in any release = the wire is structurally unobservable.** Brightline Ch.11: no FL bank exposure found. **Next re-test Q3, ~late Oct.** ⭐ **9/28 late — filing-verified BASELINE (follow-up ③): Avidia Bancorp's $494.3M condo-association REPAIR-loan book is 100% current · 100% pass · 0 charge-offs · reserve releasing at 6/30/2026 (10-Q filed 8/13) — a NATIONAL book with a Florida slice ($78.4M of $506.7M at YE2025; largest loan $22.8M Miami Beach, performing), so counterevidence, not a Florida-only result. USCB 6/30/2026 10-Q: non-accrual $2.148M on $2,316.7M; 'condo commercial' $68.7M clean — ⛔ NOT a verified association-loan proxy (category undefined; Association book size undisclosed).** → `STATUS_DETAIL.md` § M.
 
 ---
 
@@ -89,7 +89,7 @@ Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo st
 > **Scope:** the supply-side price-discovery leg ONLY. The bank-transmission rail and CORAL's overall colour are untouched whether it fires or stands down.
 > **Ruling:** Will, 2026-09-28 ~15:1x ET, verbatim record `PROME/WILL_QUEUE.md` WQ-241 (PROME commit `c0cfe7ba6`). Proposal history (incl. the measured-move table, not part of this letter): `PROME/inbox/processed/…WQ-241-and-WQ-321-tightened-letters.md` (`9655ceaf3`).
 
-**State:** sub-threshold readings 9/2 (3-of-5, stamp 9/3) and 9/13 (4-of-5, stamp 9/13) ⇒ condition MET ⇒ **🟠 since 2026-09-13, leg only.** **Reading #7, 2026-09-28: 4-of-5 > 6.00 (Cape Coral 5.96) — no rule applies; leg stays 🟠.** ⛔ The leg stood down on a count, not because Florida improved (9/13: 3 of 5 rose, Tampa series high). **Re-fire + level guard: INSTALLED 2026-09-28 (Will-ruled, amended letter above) — prospective; reading #7 is neither a re-fire nor a stand-down reading under it (Cape Coral 5.96 in the band), so the leg stays 🟠. Nothing re-graded.** Full 9/13 resolution text → `STATUS_DETAIL.md` rotated blocks.
+**State:** sub-threshold readings 9/2 (3-of-5, stamp 9/3) and 9/13 (4-of-5, stamp 9/13) ⇒ condition MET ⇒ **🟠 since 2026-09-13, leg only.** **Reading #7, 2026-09-28: 4-of-5 > 6.00 (Cape Coral 5.96) — no rule applies; leg stays 🟠.** ⛔ The leg stood down on a count, not because Florida improved (9/13: 3 of 5 rose, Tampa series high). **Reading #7 graded under the amended letter (neither re-fire nor stand-down; Cape Coral 5.96 in the band) → § P.** Full 9/13 resolution text → `STATUS_DETAIL.md` rotated blocks.
 
 ### OWED TABLE — every live obligation (full reasoning / prior routes → `STATUS_DETAIL.md` § "OPEN QUESTIONS — full text" + § "2026-09-28 session evidence")
 
@@ -115,29 +115,15 @@ Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo st
 | U | Citizens **9/30 month-end** — will carry the **9/15 round (10,210)**; read ex-round | **~early Oct** | dated |
 | W | ⭐ **FL school enrollment, tracked** (Will 9/28): VX-CORAL-ENRL-01 + `workbook/FL_ENROLLMENT.tsv` — read the discriminators before any migration claim | **FLDOE Survey 2 ~Nov–Dec**; EEC ~Jan | tracking |
 | V | Brightline Flagler real-estate debtors — read schedules when filed (station-area parcels, TOD) | when filed | ⚪ info |
-| X | ⭐ **Association→lender bridge follow-ups (Will, 9/28 closeout)** — ① Dockside's 2023 Ian-repair loan vs its 9/8/26 DIP · ② Palm Greens premium finance = BANK financing (reword § L) · ③ Avidia $494.3M association loans (verify, baseline) + USCB dating · ④ DBPR/UCC small-sample test → narrow DBPR request. Full text → `SCRATCH.md`. Count UNGRADED; no PACER expansion | **next session**; Dockside hearing 9/29 | owed |
+| X | ✅ **Association→lender bridge follow-ups (Will, 9/28 closeout) — RUN 9/28 late, all four:** ① Dockside: 2023 lender = **South Florida Real Estate LLC** (private SFR affiliate, "over $18M" trade credit, contested; face/draws/collateral/treatment UNKNOWN); 2026 DIP lender still UNKNOWN; **9/29 hearing is NOT a confirmation** · ② Palm Greens reworded (bank premium finance = separate category, motion only, no loss) · ③ Avidia $494.3M NATIONAL book 100% pass/current (FL $78.4M at YE2025) as baseline; USCB re-dated, 'condo commercial' ≠ association proxy · ④ DBPR/UCC: names + collateral only, no money facts; join = normalized name (8/9), no shared ID (0/9); **narrow DBPR request DRAFTED, NOT sent** → `sources/condo/DRAFT_DBPR_request_2026-09-28.md`. **Residuals:** Dockside 9/29 minute entry (after the hearing; unlikely to name the DIP lender) · Orange County official records (human reCAPTCHA) · PACER conditional ≤$9 Grande Isle unchanged. Count UNGRADED | 9/29 minute entry · Will on the DBPR draft | ✅ run; residuals dated |
 
-*Closed 9/28 (evidence → `STATUS_DETAIL.md` § 2026-09-28): **E** Amendment 3 ruling located, Branch A graded · **G** Citizens 8/31 · **H** bankruptcy instrument built · **Q** FL Realtors Aug · **T** enrollment reconciled to ONE figure (193,656, verified at primary by CORAL) · **R** Canadian tariffs 9/8 passed, nothing fired (MARCO/HAWK own) · **P**'s 9/30 date superseded by 12/11. **DAEDALUS L4: `TRADE.md` declared flat.***
+*Closed 9/28: E · G · H · Q · T · R · P's 9/30 date — evidence → `STATUS_DETAIL.md` § 2026-09-28 and § P.*
 
-## RECONCILE WITH MARCO — shared figures (root canon: ONE number; where we differ, both bases shown)
+## RECONCILE WITH MARCO — shared figures → `STATUS_DETAIL.md` § P (rotated 9/28 late, verbatim)
 
-| Figure | CORAL | MARCO | State |
-|---|---|---|---|
-| Citizens PIF 8/31 | **266,231**; exposure $74.8B | same | ✅ ONE number (CORAL owns; MARCO's figures reproduced exactly) |
-| Citizens Aug **mechanism** | takeout-driven: 8/18 round 11,723 ⇒ ex-round personal ≈ −93 (organic exit still stalled) | "depopulation resumed" | ⚠️ **SAME LEVEL, DIFFERENT READING** — true on the total, not on organic attrition. Packet sent |
-| FL intl migration | +178,674 (2025), **−37.0%** same-vintage | same | ✅ MARCO's correction adopted, re-verified at Census |
-| OCPS enrollment | **193,656 (9/15/26), −3.97%** | same | ✅ re-verified at primary (md5 `79f25c95…`) |
-| FL airports (June) | uninformative — Spirit confound; MIA the clean tell | same (corrected 9/19b) | ✅ adopted as MARCO-owned |
-| Condo / SF months supply | **7.7 / 4.3 (Aug)** | 7.8 / 4.5 (Jul) | ⏳ vintage update sent |
+**All ✅ ONE number except:** Citizens Aug **mechanism** (same level, different reading — CORAL takeout-driven vs MARCO "depopulation resumed"; packet sent) · condo/SF months supply **7.7 / 4.3 (Aug)** vs MARCO 7.8 / 4.5 (Jul) — ⏳ vintage update sent, awaiting MARCO.
 
-## FEEDS TO
-
-- **PROME** — memo at closeout naming the commit; WQ-241 proposal + cadence (WEEKLY) + watch terms committed `df4e9f1a6`.
-- **MARCO** — Citizens mechanism, Aug months-supply vintage, Amendment 3 ruling, NFIP 12/11 (packet).
-- **REGINALD** — rail UNCHANGED; Brightline: no FL-bank exposure found; Citizens is takeout-driven not stress-driven. Via NEXUS_BRIEF.
-- **CARL** — bankruptcy instrument: FL consumer filings +21% YoY, 1.23× US and widening; NFIP no longer a 9/30 cost cliff. Via NEXUS_BRIEF.
-- **DAEDALUS** — STATUS rotated below 70%; L4 `TRADE.md` declared flat; criterion 5 instrumented; criterion 6 instrument named + dated (packet).
-- **CREED** — cycle 3 consumed as counter-evidence; keep sending the zeros.
+## FEEDS TO → `NEXUS_BRIEF.md` is the canonical cross-agent surface; the 9/28 sends are recorded verbatim in `STATUS_DETAIL.md` § P; none in the late pass.
 
 ## BOTTOM LINE
 
@@ -145,6 +131,8 @@ Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo st
 
 **Amendment 3 is on the ballot, rewritten, and my pre-registered read says "leaning FAIL"** — though the reason the rule gave (fiscal language in the new wording) is not visibly what happened, and one September poll sits at 45 yes with a quarter undecided. **The bank-transmission rail is untouched: NOT met, NOT armed. Next test: Q3 prints, late October.**
 
-**Next:** **9/30 FIGA 1% ends + FL minimum wage $14→$15** (L&H cost impulse; not a labor-tightness signal) · 10/02 Will's WQ-241 sitting (proposal delivered) · ~early Oct Citizens 9/30 month-end (read ex-round) · **10/16 FL Realtors September** · **late Oct Q3 bank prints** + bankruptcy 9/30 table · ~Oct–Nov warrantability read · **Nov 3 Amendment 3** · **Nov 15 falsify grade** · **Dec 11 NFIP**.
+**Late pass (Will's four follow-ups, 9/28 evening):** the bridge's first two documented lenders are both **private** (Dockside's "over $18M" contractor-affiliate note; Green Terrace's Boken mortgage) plus one **released** credit-union repair loan (Grande Isle / Suncoast, 2023). **No bank repair loan to any of the nine is documented**; the one SEC filer disclosing a national condo-association repair book (Avidia, $494M, FL ~$78M at YE2025) shows **zero delinquency at 6/30/26**. DBPR/UCC give names and collateral, never balances; the draft request is on file, not sent. Bank rail unchanged.
+
+**Next:** **9/29 Dockside minute entry (NOT a confirmation)** · **9/30 FIGA 1% ends + FL minimum wage $14→$15** (L&H cost impulse; not a labor-tightness signal) · ~early Oct Citizens 9/30 month-end (read ex-round) · **10/16 FL Realtors September** · **late Oct Q3 bank prints** + bankruptcy 9/30 table · ~Oct–Nov warrantability read · **Nov 3 Amendment 3** · **Nov 15 falsify grade** · **Dec 11 NFIP**.
 
 *CORAL: tracking the bleaching of Florida's condo market. Evidence → `STATUS_DETAIL.md` · session history → `archive/STATUS_SESSIONS_20260721-20260823.md`.*

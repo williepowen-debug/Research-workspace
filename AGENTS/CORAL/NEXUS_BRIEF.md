@@ -20,7 +20,7 @@
 | 7 | **Brightline FL Ch.11** (In re FIHPNP LLC 26-20876, D.N.J., 9/24): operator not a debtor; **impaired = Brightline East taxable ~$1.19B**; tax-exempts unimpaired | REGINALD, BOND — **no FL-bank or state-credit transmission found**; Flagler real-estate debtors' schedules pending. |
 | 8 | **MSI #7 (9/28):** Tampa 7.18 (series high) · Punta Gorda 6.51 · North Port 6.34 · Cape Coral 5.96 · Lakeland 6.13 | PROME, REGINALD — leg 🟠, **no rule applies**. Measured values only — composition vs breadth still not separable. |
 | 9b | **Redfin Aug buyer's-market ranks (PRIMARY data, modelled buyers):** Miami #2 (138%) is **condo-led** (condo 232% vs SF 69%) and **narrowing YoY**; Orlando #4 (+62pp) **contradicted by actual sales** (ORRA closings +7.5%, Realtor.com pendings +11.5%); every other FL metro narrowed | HOMER, REGINALD — do not carry 'Orlando deteriorating' off Redfin alone; Miami's glut is old and shrinking |
-| 9c | **Condo channel (9/28, Will's bounded pass):** Fannie makes a project ineligible if its HOA is in (or voting on) bankruptcy/receivership — reaches even Waiver of Project Review; 15% reserve rule 1/4/2027 now PRIMARY (LL-2026-03); OPPAGA: 903 repair-permit applications, 54 unsafe buildings (partial coverage); Biscayne 21 settled 8/31. **Nine association Ch.11s VERIFIED (STATUS_DETAIL § L)** — stress and an owner-financing constraint established; causes litigation/casualty/governance, none documented as SIRS; **no bank lender to an association found in documents reviewed ≠ no bank exposure** (two DIP lenders unknown); count DESCRIPTIVE, UNGRADED | REGINALD, HOMER, CARL |
+| 9c | **Condo channel (9/28, Will's bounded pass):** Fannie makes a project ineligible if its HOA is in (or voting on) bankruptcy/receivership — reaches even Waiver of Project Review; 15% reserve rule 1/4/2027 now PRIMARY (LL-2026-03); OPPAGA: 903 repair-permit applications, 54 unsafe buildings (partial coverage); Biscayne 21 settled 8/31. **Nine association Ch.11s VERIFIED (STATUS_DETAIL § L)** — stress and an owner-financing constraint established; causes litigation/casualty/governance, none documented as SIRS; **no confirmed STRESSED bank REPAIR loan to an association found in documents reviewed ≠ no bank exposure** (two DIP lenders unknown; one bank premium-finance motion, separate category); count DESCRIPTIVE, UNGRADED. **9/28 late:** Dockside's 2023 repair lender documented = **PRIVATE** contractor affiliate ("over $18M" trade credit, contested); Grande Isle had a **Suncoast Credit Union** repair loan released 10/2023 (UCC); **Avidia's $494M NATIONAL condo-association repair book is 100% pass/current at 6/30/26 (FL slice ~$78M at YE2025) — baseline counterevidence, not a Florida result**; USCB's "condo commercial" line is NOT an association proxy; DBPR/UCC name lenders + collateral, never balances (§ M/N/O) | REGINALD, HOMER, CARL |
 | 9 | **Migration correction:** FL intl 2025 +178,674 = **−37.0% same-vintage** (not −56.5%/−57%) | MARCO (originated the correction), DAEDALUS, anyone citing the drop. |
 
 ## VIEW
@@ -52,7 +52,7 @@
 
 | From | Input | Expected by | How it changes my view |
 |------|-------|-------------|------------------------|
-| Will (via PROME) | WQ-241 MSI re-fire/level-guard ruling; bankruptcy spec-defect ruling | 10/02 sitting / before 11/15 | Re-fire rule installs prospectively; basis choice sets the tripwire date |
+| Will (via PROME) | ✅ nothing pending — WQ-241 (MSI re-fire/level guard) and WQ-321/322 (bankruptcy basis; level trigger retired) all RULED 2026-09-28 | — | Letters installed prospectively; next Parcl stamp is graded on the amended letter |
 | REGINALD | Q3 FL-bank read-through | ~late Oct | ≥2 synchronized ⇒ bank rail MET |
 | MARCO | Citizens mechanism wording; tourism/migration refresh | ongoing | Shared-metric reconcile |
 | CREED | Cycle 4 (Sep DQ print ~10/1) | ~10/1 | Zeros stay counter-evidence |
@@ -68,8 +68,8 @@
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
 | Tue 9/29 | Brightline first-day hearing | ⚪ info only |
+| Tue 9/29 1:30 PM | Dockside at Ventura hearing — **NOT a confirmation** (fee, stay-violation, repair motions) | Read the minute entry; unlikely to name the DIP lender |
 | Wed 9/30 | FIGA 1% ends · FL min wage $14→$15 | New FIGA assessment after this = carrier failure |
-| Fri 10/2 | Will's WQ-241 sitting | MSI re-fire + level guard (prospective) |
 | ~early Oct | Citizens 9/30 month-end | Read EX-ROUND (9/15 round 10,210) |
 | Fri 10/16 | FL Realtors September | Four legs; does condo sales stay negative YoY |
 | ~late Oct | Q3 FL-bank prints · AOUSC F-2 to 9/30 | Bank rail; bankruptcy level/growth reported (level trigger retired 9/28, WQ-322) |
