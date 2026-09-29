@@ -1,0 +1,106 @@
+{
+  "source_url": "https://assets.ctfassets.net/jeox55pd4d8n/1aoESqmaesHQkkZaIOJN8g/0c954c4b9906672e3ce6cdf38346b394/Apartment_List_Rent_Estimates_2026_09.csv",
+  "source_sha256": "aa05b458d52facddf5415071f2dc45db781c6b9ff9cba747bd938516a2d3a644",
+  "source_bytes": 2409414,
+  "retrieved": "2026-09-29",
+  "method": "Select City + overall, rank by current population descending, take 100; compare positive Decimal rent levels for same calendar month one year apart; exclude missing pairs, report denominator; compare all 105 results to HOMER stored series. Each city has equal weight. No owner code used for rent reproduction.",
+  "unique_city_fips": 100,
+  "matched_months": 105,
+  "last_13_months": [
+    {
+      "month": "2025-09",
+      "n": 100,
+      "negative": 47,
+      "percent": 47.0
+    },
+    {
+      "month": "2025-10",
+      "n": 100,
+      "negative": 46,
+      "percent": 46.0
+    },
+    {
+      "month": "2025-11",
+      "n": 100,
+      "negative": 55,
+      "percent": 55.0
+    },
+    {
+      "month": "2025-12",
+      "n": 100,
+      "negative": 56,
+      "percent": 56.0
+    },
+    {
+      "month": "2026-01",
+      "n": 100,
+      "negative": 57,
+      "percent": 57.0
+    },
+    {
+      "month": "2026-02",
+      "n": 100,
+      "negative": 56,
+      "percent": 56.0
+    },
+    {
+      "month": "2026-03",
+      "n": 100,
+      "negative": 57,
+      "percent": 57.0
+    },
+    {
+      "month": "2026-04",
+      "n": 100,
+      "negative": 60,
+      "percent": 60.0
+    },
+    {
+      "month": "2026-05",
+      "n": 100,
+      "negative": 56,
+      "percent": 56.0
+    },
+    {
+      "month": "2026-06",
+      "n": 100,
+      "negative": 55,
+      "percent": 55.0
+    },
+    {
+      "month": "2026-07",
+      "n": 100,
+      "negative": 57,
+      "percent": 57.0
+    },
+    {
+      "month": "2026-08",
+      "n": 100,
+      "negative": 52,
+      "percent": 52.0
+    },
+    {
+      "month": "2026-09",
+      "n": 100,
+      "negative": 46,
+      "percent": 46.0
+    }
+  ],
+  "strict_crossings_last_13": {
+    "20": 13,
+    "40": 13,
+    "55": 7
+  },
+  "foreclosure_checks": {
+    "source_script": "AGENTS/HOMER/reports/2026-09-29_A4_evidence/a4_ladder.py",
+    "proposed_crossings_ex_moratorium": [
+      22,
+      16,
+      6
+    ],
+    "observations_ex_moratorium": 51,
+    "different_grades_175k_vs_185k": 0,
+    "q2_2026_derived": 81935
+  },
+  "limits": "Historical foreclosure source reconstruction and Zillow raw data not independently reproduced. Retained rent CSV is the exact selected 100-row extract, not the full source file; full-source hash above."
+}

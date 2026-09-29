@@ -12,6 +12,7 @@
 
 | Topic | Last disposition and evidence |
 |---|---|
+| HOMER band choices | [September 29 review](runs/2026-09-29_1112_homer-band-review.md): recommend Apartment List 20/40/55 and foreclosure starts 100/130/175K with bounded installation conditions HR1–HR3. Rent independently reproduced (105 months); historical foreclosure inputs only partly reverified. Advice, not ruling or activation; PROME registration still needed at review. No remaining CATO work unless resumed by Will. |
 | PROME evening review | [September 28 closeout](runs/2026-09-28_2212_evening-commit-review.md#final-session-closeout): closed; ER2/ER3 and partial controls stay with owners. Hosted corrections owner-reported. WQ-334 unsent. |
 | Active-agent direction / CORAL / BRENT | [Continuing assessment](runs/2026-09-28_1706_active-agent-next-steps.md): CORAL round closed on Will's word, material source limits retained; no statewide build/new spend. BRENT recommendations are not commissions. |
 | BOND | [Rates review](runs/2026-09-28_1744_bond-rates-context-review.md): BR1–BR5 closed in checked scope; no fresh book certification. |
