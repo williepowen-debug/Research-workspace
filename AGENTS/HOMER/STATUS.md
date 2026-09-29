@@ -9,7 +9,7 @@
 
 ## ⚠️ DATA VINTAGE — READ BEFORE QUOTING ANY ROW
 
-⚪ **Case-Shiller JULY (due 9/29 09:00 ET) NOT READ** — S&P page 403, not indexed by 09:10. Re-pull next session.
+✅ **9/29 PM (boot sweep):** Case-Shiller JULY read at issuer primary · Miami-Dade Aug condo (issuer, via subagent) · **servicer sweep re-run: Class A FIRED 2026-08-07 at UWM, found 53 days late** (secondary; Fitch primary owed).
 ✅ **9/29 CATCH-UP:** Fannie MF Aug · ICE First Look Aug · MND 9/28 · **LEN FQ3 + KBH FQ3 (both MISSED 9/24, found late)** · CREED Trepp SS back-fill. **All ISSUER PRIMARY except the Trepp back-fill (CREED-read).**
 ✅ **9/14 → 9/24 GAP CLOSED (2026-09-24):** PMMS ×2 · FOMC · MBA apps ×2 · NAHB Sept · NRC Aug · NHS Aug · PHSI Aug · ICE Mortgage Monitor Sept · Freddie MF Aug · Trepp Aug DQ + SS. **Every figure has a dated `workbook/` row.**
 ⚠️ **YEAR TRAP, now n=4 on this desk:** NAHB Sept-2025 **and** Sept-2026 both printed **32**; Trepp MF SS **8.37%** was July-2025 **and** Aug-2026. ⇒ **On any monthly series, verify the page's publication YEAR, not just the month.**
@@ -32,7 +32,7 @@
 | **★★ FHA total DQ (SA)** | **11.79% Q2** (−9bps QoQ, +122bps YoY) | 🔴 **ORANGE, 21bps below RED (>12%)** |
 | **★★ 90+/FC pipeline (ICE basis)** | **872K AUGUST** (574K 90+ + 298K FC; HOMER sum) — Jul 859K · Jun 862K | 🔴🔴 **22K past ORANGE (>850K); RED (>1M) 128K away** |
 | **HUD ML 2026-08** | **Compliance date 9/21 PASSED; no extension found** (absence of notice, not HUD confirmation) | 🔴 accelerant in force — first visible in FHA FC starts, ~late Oct |
-| **★ Non-bank servicer watch** | ⚠️ **🔴 by a one-time SEEDING decision — no registered trigger has ever fired.** No rating/covenant/facility/liquidity event at the six names since 7/24 | 🔴 **SEEDED** / 🟠 credit |
+| **★★ Non-bank servicer watch** | **CLASS A FIRED 2026-08-07: Fitch cut UWM BB- → B+** (non-funding debt/equity 6.1x vs 3.2x; $603M hedge loss). ⚠️ SECONDARY ×2 (HousingWire, Investing.com); Fitch primary owed. **Found 9/29, 53 days late:** this row carried the 7/31 "no event" negative without re-running it. Also: **LDI NYSE <$1 notice 8/21** = no-verdict (price) · RITM S&P **upgrade** 9/28 · PFSI/RKT/ONIT nothing found *(KB-HOMER-033; last full sweep 9/29)* | 🔴 **FIRED (A)** — was labelled "seeded, never fired" |
 
 ★★ **INFLOW COOLING, CONVERSION ACCELERATING — holds.** ⚠️ The inflow half cuts against HOM-02 — **but on the YoY basis FHA cures are still 39% below a year ago, so that counter-evidence is WEAKER than I recorded 9/14. Say both.**
 
@@ -75,7 +75,7 @@
 | Metric | Value (as of) | Band |
 |---|---|---|
 | **★ Freddie FMHPI national** | **+2.31% YoY SA July** — fastest of the post-trough run | 🟠 nominal / 🔴 real |
-| **★★ Case-Shiller national** | **+1.5% YoY JUNE**; MoM SA +0.13% | 🟠 nominal / 🔴 13th negative REAL month |
+| **★★ Case-Shiller national** | **+1.93% YoY JULY** (June REVISED +1.52 → +1.6%); 20-City +2.47%, 10-City +3.39%; MoM SA +0.29%. Chicago +6.9% / Seattle −1.6%; Miami +3.5%, Tampa −0.7% *(S&P, pub 9/29, issuer primary)* | 🟠 nominal **accelerating 3rd month** / 🔴 **14th negative REAL month** (S&P: CPI 3.4% ~1.5pp above) |
 | **★ ICE HPI** | **+1.5% YoY AUGUST, but 3-mo annualized 1.3%** — ICE: *"already begun to cool again."* **Condos −0.8%** | 🟠 ★ **first index whose momentum turns UNDER the headline** |
 | **Realtor.com** | Aug list −1.3% YoY; **active listings +3.6% (Aug) → +5.8% (wk 9/19)** | ⛔ CONTEXT ONLY (stripped of lead standing) |
 | **🔴🔴 Redfin sellers/buyers gap** | **58% — RECORD, August.** Sellers 1.53M. ⚠️ **Buyers ~972,300 = Redfin MODELLED estimate, not a count.** Pending sales (4-wk 9/13) **−5.4% YoY, lowest in ~3 years** | 🔴🔴 **supply arriving into falling demand** |
@@ -87,7 +87,7 @@
 |---|---|---|---|
 | FL | **Condo/TH median — ONE FIGURE (CORAL)** | **$298K, +2.8% YoY (Aug, FL Realtors)** — supersedes my July 0.0% cite. My FL condo figures are metro/segment only | 🟡 cuts AGAINST statewide price distress |
 | FL | H1 FC rate *(CORAL-canonical)* | **#1: 0.27% (1-in-373), +32.7% YoY** — ⚠️ rank ≠ level | 🔴 speed / 🟠 level |
-| FL | **METRO — HOMER-owned** | Punta Gorda 0.50% (#1 US metro, H1) · **#2 US metro in AUGUST (1 in 1,249)** · Lakeland 0.48% · Miami-Dade condo 12.0mo, 86 DOM *(Jul; ⚠️ Aug median UNREAD — secondaries +2–6%, my July 'declining' may have turned)* · Tampa $/sqft −5.6% YoY · ★ **NEW: Cape Coral HPI −2.3% YoY (ICE, Aug)** | 🔴🔴 sub-statewide |
+| FL | **METRO — HOMER-owned** | Punta Gorda 0.50% (#1 US metro, H1) · **#2 US metro in AUGUST (1 in 1,249)** · Lakeland 0.48% · **Miami-Dade condo AUG: 12.1mo (Jul 12.0), median $408K −0.5% YoY, 66 days to contract (Jul 86)** — my July 'declining median' is NOT supported: price ~flat, only speed moved *(MIAMI REALTORS 9/16)* · Tampa $/sqft −5.6% YoY · ★ **NEW: Cape Coral HPI −2.3% YoY (ICE, Aug)** | 🔴🔴 sub-statewide |
 | **TX** | September CRE FC auction pipeline (Texas Triangle) | **$778M, $562M (>70%) MULTIFAMILY** — down from >$1B Aug; 16 repeat flags; S2 Capital ×2, an Arbor loan *(CRE Daily 9/4, secondary)* | 🔴🔴 |
 | FL | Annual band | evaluable once a year (ATTOM year-end) — "no reading" is NORMAL | ✅ |
 
@@ -122,11 +122,12 @@
 
 | Date | Event | Watch |
 |---|---|---|
-| **9/29 · 9/30** | Case-Shiller (Jul) · FMHPI (Aug) | nominal still accelerating vs ICE's 3-mo cooling |
+| **9/30** | FMHPI (Aug) | Case-Shiller July accelerated (+1.9%) vs ICE's 3-mo cooling: which one FMHPI follows |
 | **🔴 10/01** | **PMMS** | ★ **PRE-REGISTERED** (`reports/2026-09-29_PMMS-2026-10-01_PRE-REGISTRATION.md`): **HOLD ≥7.05 · SOFTEN 7.01–7.04 (still RED) · LIFT ≤7.00 (ORANGE)**. Treasury-implied ~7.16–7.18 (10Y 5.24 Mon 9/28) |
 | **~10/01 · ~10/14** | Trepp Sept DQ · Sept SS | MF level; ⛔ **mat-adj 3rd month — kill executes if absent** |
 | **~10/09–13** | **ICE Mortgage Monitor (Oct)** | cure rate YoY: −28% → does it cross −30% (Orange)? |
 | **10/22 · 10/28 · 10/29** | **PHM Q3 · MTH Q3 (after close) · DHI FQ4** — issuer-stated; 9 per-name builder rows now on the docket | margins at the trough vs orders falling |
+| **10/13** | **NAR existing-home sales (Sept)** — issuer-stated | 3.98M sits 20K below RED (<4.0M) |
 | **~10/15–16** | NAHB Oct | price cutters 38% vs RED >45% |
 | **~10/23–30** | Fannie + Freddie MF (Sept) · ICE First Look (Sept) | do the GSE books keep diverging? 90+/FC 872K vs RED 1M |
 | **10/20 · 10/27** | NRC + PHSI (Sept) · NHS (Sept) | completions; avg-price mix |
