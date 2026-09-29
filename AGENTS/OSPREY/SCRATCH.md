@@ -1,34 +1,33 @@
-# OSPREY SCRATCH — 2026-09-24 (Thu)
+# OSPREY SCRATCH — 2026-09-29 (Tue)
 
 ## CURRENT MARKS
-C1/C2/C3 **4 / 5 / 3**, band **~30%, 25–35% EST**. All UNCHANGED. Prices come from BRENT. This session was a PROME Tier-1 spawn (DOCKET L447, WQ-184 due-row) and ran four tasks. Full state: STATUS.
+C1/C2/C3 **5 / 5 / 3** (C1 UPGRADED 4→5 today on Will's WQ-276 word of 9/24). Band **~30%, 25–35% EST**, unchanged. Prices come from BRENT. Will-directed boot + catch-up sweep 9/21→9/29. Full state: STATUS.
 
-## CHANGES SINCE LAST SESSION (9/21)
-- ✅ **C2 geography qualifier ADOPTED** (WQ-266, Will 9/19 *"Yes — apply it to both"*). Letter is in CLAUDE.md EXIT RULES §1; record `domain/energy-strikes/WQ266_CHANNEL2_QUALIFIER_2026-09-24.md`; KB-148. The C2 clock is **15/30 from Novorossiysk 9/9, kill 10/09**, one day earlier than under the bare letter. Companion watch is live in STATUS. Option ② (products terminals) is **unruled**.
-- 🔥 **Moscow: Reuters 9/21 says crude processing HALTED** (both CDUs). Barrels are still unestablished, because the June "offline to 2027" reports conflict with Reuters' "operating pre-strike" (KB-149).
-- **Kuibyshev + Bashneft-UNPZ hit 9/22** (GS-confirmed; Samara governor). **New C1 anchor 9/22.** A 9/23 event in the Ufa area is UNCONFIRMED (KB-150).
-- ✅ **HAWK graded C3 limb 2 as REPRICED** ⇒ **no C3 kill on 10/3. The earliest date both limbs could clear is 10/9** (KB-152). HAWK's packet quoted the stale kill date 9/24; a correction packet has been sent.
-- ✅ OWED-33 CLOSED (BRENT: no Urals data). OWED-39 CLOSED (letter adopted).
-- Swept-complete **9/16 → 9/20**. 9/21-23 were swept but NOT certified (Palaemon 21-27 is unpublished). **Vysotsk "9/21" was rejected as July vintage** (KB-155).
-- Inbox 8/8 drained: 5 WALTER + 3 top-level, logged to board_log, git mv'd.
+## CHANGES SINCE LAST SESSION (9/24)
+- ✅ **C1 4→5 executed** with caveats (end-Aug data only; Sept aggregate not found; Moscow weakens ban mechanism; 9/28 data decree). 5→4 successor in CLAUDE.md §1b, first eval **10/15**. KB-159.
+- 🔥 **Halts:** Novoshakhtinsk 9/25 (governor) · Perm 9/25 (Reuters) · Ilsky 9/26 struck (halt belligerent-only). **No refinery strike found 9/27-9/29** — four Krasnodar depots 9/28 instead. +7 STRIKES rows. KB-158.
+- ⚠️ **Putin decree 9/28** hides refinery-by-refinery and export data; product list ~10/8. KB-160.
+- 🕊️ **Truce talk only:** Trump 9/27 "take it easy on the refineries"; Kyiv: only if mutual. KB-161.
+- H.R. 5334 signed 9/18 (closes the "Sanctions from Hell" item), nothing imposed (KB-164). CREA false-flag data (KB-163). Manpower +15,500, no mobilisation (KB-168).
+- Novorossiysk: Kommersant says owners avoided the port on safety — candidate halt cause (KB-165).
+- Inbox 7/7 drained. Mark stays **9/20** (Palaemon 21-27 unpublished; militarnyi EMPTY).
 
 ## ⛔ THE THING NEXT SESSION MUST NOT FORGET
-**THE NOVOROSSIYSK DEPARTURE HALT IN THE WEEK TO 9/20 (Bloomberg 9/22, via relay) HAS NO ESTABLISHED CAUSE.** If it is a shut-in, C2 limb 2 ("no shut-in signal") is NOT met and no C2 kill can be written, whatever limb 1 reads. I asked BRENT. Check the answer before 10/9.
+**C3 limb-1 date is 10/3 and the 9/21-9/29 quiet is UNCERTIFIED.** Read Palaemon 21-27 Sep (and 28 Sep-4 Oct if out) and identify Zelensky's 9/28 "target hit in the Black Sea" BEFORE writing anything about C3 on 10/3. No kill is writable before 10/9 anyway (limb 2 repriced).
 
 ## NEXT SESSION
-1. +5d re-reads: Moscow (barrels: reconcile the June "offline" reports against the Reuters 9/21 "operating" report) · Kuibyshev/UNPZ ~9/27 · Ufa 9/23 confirm-or-drop.
-2. Palaemon 21-27 Sep (~9/28): certify 9/21→9/23 and advance the mark.
-3. BRENT's answer on the Novorossiysk halt cause (KB-156).
-4. US "Sanctions from Hell" bill (signed ~9/19). Still unworked; route to BRENT/HAWK.
-5. Carried: OWED-30 write-up · 34/45 feed residuals · 42/50 basis-pair + September aggregate reconciliation · 44 Ust-Luga condensate · 48 AWRP 1% vs 1.5–2.5% · OSP-06 dated search 10/8–15 · 10/6 L309 feed acceptance test.
+1. **9/30:** diesel-ban text lapses — signed extension at government.ru / pravo.gov.ru? (KB-162)
+2. Palaemon 21-27 + Black Sea target (above). Then certify and advance the mark.
+3. Bloomberg 4-wk to 9/27 (asked BRENT) + settle whether the Novorossiysk halt is a shut-in — gates the **10/9** C2 kill.
+4. Watch whether refinery strikes resume (truce-talk signal) — 3 depot-only days is not a shift.
+5. ~10/8 decree product list; 10/15 C1 successor eval + OSP-06.
+6. Carried: OWED-30 write-up · 34/45 feed residuals · 42/50 basis pair + Sept aggregate · 43 Moscow barrels · 44 Ust-Luga condensate · 48 AWRP · 10/6 L309 feed test.
 
 ## PREDICTIONS / DECISIONS
-OSP-06 OPEN 45%, deadline 10/15 (3.53 to 9/20 does not fail it). No prediction due.
-⚖️ With Will: **C1 upgrade 4→5 (WQ-276).** The trigger is met as written on END-AUGUST data. No September figure exists on the open web (KB-154).
-⚑ Option ② (products-terminal assignment) is unruled. My view: not worth Will's time until it changes a kill date within 7 days.
+OSP-06 OPEN 45%, deadline 10/15 (3.53 to 9/20 does not fail it). No prediction due. **No Will-gated decision open.** Option ② (products terminals) still unruled — not worth Will's time.
 
 ## MAIL STATE
-Inbox EMPTY after the drain. Packets sent 9/24 to BRENT, HAWK and HANS (carve-out ①). Memo to PROME.
+Inbox EMPTY. Sent 9/29: PROME ×2 (WQ-276 receipt; cadence WEEKLY + 11 watch terms, cc WALTER) · BRENT (halts/decree/truce/Novorossiysk + ask for 9/27 print) · HAWK (Platts $2.9/bbl lead to grade; CREA; H.R. 5334).
 
 ## PENDING PUSH / GIT
-Committed by exact pathspec in this session; pushed through safe-push (receipt in the PROME memo / SendMessage). Feed file is gitignored (OWED-45).
+See commit log for this session; feed files gitignored (OWED-45).

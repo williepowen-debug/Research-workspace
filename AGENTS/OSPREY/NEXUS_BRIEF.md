@@ -1,8 +1,10 @@
 # OSPREY — NEXUS Brief
 
-**Status:** Elevated, active Russia/Ukraine energy campaign. **2026-09-24: Channel-2 kill letter now carries the Black Sea/Azov/Baltic geography (Will WQ-266); refinery strikes continue (Kuibyshev + Ufa 9/22; Moscow processing halt verified by Reuters) — no mark moves (4/5/3, band ~30%).**
+**Status:** Elevated, active Russia/Ukraine energy campaign. **2026-09-29: C1 UPGRADED 4→5 (Will WQ-276); four refinery halts 9/20-9/25 + Ilsky 9/26, then depots only 9/27-9/29 as Trump presses Kyiv to 'take it easy on the refineries' (talk, not agreed); Russia's 9/28 decree hides refinery/export data.**
 **Domain:** Russia/Ukraine military and energy-infrastructure evidence; prices owned by BRENT.
-**As of:** 2026-09-24 | **STATUS commit: see `git log -1 -- AGENTS/OSPREY/STATUS.md`**
+**As of:** 2026-09-29 | **STATUS commit: see `git log -1 -- AGENTS/OSPREY/STATUS.md`**
+
+🆕 **2026-09-29 (Will-directed boot + catch-up 9/21→9/29) — READ FIRST; supersedes clocks below:** ① **Scores 5/5/3** — C1 4→5 on Will's 9/24 WQ-276 word; caveats: end-Aug S&P data only, Sept independent aggregate NOT FOUND, 9/28 data decree threatens the downgrade instrument; 5→4 successor in CLAUDE.md §1b (first eval 10/15). ② **Clocks at ledger 9/29:** C1 3/30 (Ilsky 9/26) · C2 20/30 (Novorossiysk 9/9, kill 10/9; limb 2 blocked until the Novorossiysk halt cause is settled — Kommersant: owners avoiding port on safety = offtake deterrence) · C3 17/21 (ARMADA LEADER 9/12, limb-1 10/3, no kill before 10/9). ③ **New halts:** Novoshakhtinsk 9/25 (governor) · Perm 9/25 (Reuters; 2024 run ~252 kb/d) · Ilsky 9/26 (halt belligerent-only). CAPACITY, not barrels. ④ **Policy:** data decree 9/28 (KB-160) · energy-truce talk, not agreed (KB-161) · H.R. 5334 signed 9/18, nothing imposed (KB-164; closes the 'Sanctions from Hell' row below) · diesel-ban text lapses 9/30 (KB-162). ⑤ Mark stays 9/20 — Palaemon 21-27 unpublished; militarnyi not read. Band ~30% unchanged.
 
 🆕 **2026-09-24 (PROME L447 spawn) — READ BEFORE THE 9/20 BLOCK BELOW, it supersedes its clocks:** ① **C2 letter changed:** only in-geography (BS/Azov/Baltic coast or waters) terminal/pipeline/port rows reset it; Caspian + inland-pipeline events → companion watch. **C2 = 15/30 (Novorossiysk 9/9), limb-1 kill 10/09**; limb 2 = Bloomberg 3.53 to 9/20, 0.03 headroom, plus a Novorossiysk departure halt of UNESTABLISHED cause. ② **C3 = 12/21, limb-1 10/03, but HAWK graded limb 2 REPRICED (9/18) ⇒ no kill writable before 10/09.** ③ **C1 anchor Kuibyshev/UNPZ 9/22 (2/30).** Moscow: Reuters 9/21 — crude processing HALTED, both CDUs; barrels unestablished (pre-strike state unreconciled). ④ No independent September refining aggregate on the open web; GS '45%' is belligerent. ⑤ Swept-complete mark → 9/20 (9/21-23 swept, not certified). ⑥ Diesel export ban to end-Oct reported, no decree located.
 
@@ -38,7 +40,7 @@
 | **S&P Global Platts (access)** | Port-level AWRP | — | **403 today; the named port-level assessor was never canvassed** — the largest hole in the war-risk sweep | An authenticated route would settle OWED-48. |
 
 ## VIEW
-- Scores **4 / 5 / 3**, refining band **~30%, 25–35% EST**, unchanged. Band is inherited runs proxy, not September capacity measurement.
+- Scores **5 / 5 / 3** (C1 upgraded 9/29 on Will's word), refining band **~30%, 25–35% EST**, unchanged. Band is inherited runs proxy, not September capacity measurement.
 - **3.54 M bpd to 9/13** is Bloomberg's own series via Transport Topics (KB-114), not another vendor proxy. Below 3.9; no qualifying downgrade print. Intermediate missing weeks remain unknown.
 - Reuters: Syzran halt and month-plus repair estimate; Saratov interrupted recovery; Kirishi shut, NORSI/Volgograd around one-quarter nameplate (KB-113/115). Already-disabled units not counted twice.
 - Novorossiysk 9/9 products correction already consumed by BRENT 9/15. No new crude-berth loss established. (C3 clock now anchors on ARMADA LEADER 9/12 per the ruled letter — the older 'unidentified 9/13 Crimea merchant blocks the clock' framing is retired.)
@@ -57,14 +59,14 @@
 - 🔑 **Calibration event this session, recorded against myself:** my founding lesson (HAW-15 — trusting a gappy own-ledger as a baseline) **recurred**. A missing 9/8 row inside a certified-swept window caused me to compute a false kill-clock alarm, which I then falsified. **Both the alarm and its refutation are kept in the record, in order.** A desk that only publishes its corrected answer is indistinguishable from one that never erred.
 
 ## NEXT DECISION POINT
-**TWO live Will-gated decisions:** (1) ⚖️ **NEW — C1 (refineries) upgrade 4→5:** the written trigger's "independent >40% offline aggregate" limb is MET (S&P/CERA ~50% capacity offline); must ship WITH a proposed capacity-based 5→4 downgrade test (RECONCILIATION_2026-09-20.md); OSPREY rec = upgrade, NOT self-moved. (2) the OWED-39 C2 drawing (L396, 9/19), rec B. ⛔ **Limb 2 (C3) = UNDETERMINED per HAWK (KB-147)** — not "runs against a kill"; the newer limb-2 grade request stays pending with HAWK. Deferred coverage: full 9/17→9/20 pass (mark stays 9/16), +5d Moscow re-read ~9/25. **No threshold/trade self-ruled; C1 self-scored held pending Will.**
+**No Will-gated decision open on this desk as of 9/29** (C1 upgrade ruled 9/24 and executed). Next desk decision points: **10/3** C3 limb-1 date (no kill writable — limb 2 repriced) · **10/9** C2 limb-1 kill date (blocked unless the Novorossiysk halt is shown NOT to be a shut-in) · **10/15** first C1 5→4 evaluation + OSP-06 deadline. *(Prior text in git history.)*
 
 ## WATCH
 | Date | Event | Signal |
 |---|---|---|
-| **9/19** | **OWED-39 / DOCKET L396 — Channel-2 scope drawing** | **Will's ruling via PROME. Measured and costed; not self-ruled.** |
-| Next session | **Backfill sweep 9/01→9/16 + sweep 9/17–18** | The 9/8 hole was found by accident; that is not a method. |
-| Next session | Producer diesel policy / unit operating evidence | Confirm enacted policy and measured recovery, not headline inference. |
+| **9/30** | Russian producer diesel-ban text lapses | Signed extension or lapse — C1 companion tell. |
+| **before 10/3** | **Palaemon 21-27 Sep + Zelensky 9/28 Black Sea target** | Certifies C3 quiet; unidentified target could reset C3/C2. |
+| **~10/8** | Data-decree product list | Which series go dark — decides C1-downgrade reachability. |
 | Next weekly publication | Bloomberg Russian crude four-week average | Apply existing CLAUDE EXIT RULES only; historical weeks still missing. |
 | 10/6 | L309 feed acceptance | Existing recall and precision test, unchanged. |
 | 10/8–15 | OSP-06 dated search obligation | Named series; final window 10/15. |
