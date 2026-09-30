@@ -12,7 +12,7 @@
 | 1 | **F3 leg 1 NOT MET:** ban extended to **10/31** (Bloomberg via Rigzone 9/30 06:01 ET; Moscow Times; government.ru unreachable ⇒ INFERRED). F3 NOT FIRED; as written ("lapses 9/30") it is spent. ⚖️ Re-arm at 10/31 = letter change ⇒ **Will's, named not made** (L471 10/6) | `reports/2026-09-30_F3-basis-and-ban-lapse-grade.md` · `PREDICTIONS.tsv` HEN-46 |
 | 2 | **F3 basis stated (= F1):** matched `HOX26×42 − CLX26`, CME settle, Nov fixed through 10/14; after 10/14 = sitting's month, UNKNOWN if unruled. The mid-Oct `HO=F` roll cannot touch named contracts | same |
 | 3 | 🆕 **Vendor continuous `HO=F` history RE-STITCHED:** every row 9/10–9/29 now = `HOV26`; my recorded 9/14 `HO=F` was 4.7526 (≈`HOX26`). 9/29 continuous crack $116.33 vs matched Nov **$100.04** = $16.29 artefact | same §3 |
-| 4 | **F1 9/29 NOT FIRED — $100.04** (tier-2 finalized row), buffer $5.04. 🟡 `HOX26` +5.1% overnight (live Nov crack $108.24 08:05 ET, not a settle); cause unestablished (move began before the ban headline) | same §4 |
+| 4 | **F1 9/29 NOT FIRED — $100.04** (⚠️ corrected 08:15: NOT a finalized tier-2 row — 9/29 volume = 9/28's on both legs; TERRY grades it tier 3, same figure), buffer $5.04. 🟡 `HOX26` +5.1% overnight (live Nov crack $108.24 08:05 ET, not a settle); cause unestablished (move began before the ban headline) | same §4 |
 | 5 | **Gamma pre-open:** NEGATIVE both horizons, walls withheld | § GEX |
 | 6 | **Oct hike odds re-measured:** 70% [9/28 row 95.945] → **50% [9/29 row 95.995]** → 44% [9/30 08:09 live 96.010] — WALTER −012's squawk VERIFIED on my instrument | § RATES |
 | 7 | **Inbox drained:** 3 WALTER + 1 AEOLUS, logged + consumed. Packets → TERRY (gamma + F3), BRENT (F3 + re-stitch), PROME memo | `board_log.tsv` |

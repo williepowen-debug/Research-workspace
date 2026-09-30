@@ -69,3 +69,6 @@ Today's pull (08:05–08:07 ET, yfinance, `auto_adjust=False`):
 - Contract identities, expiries, bars: **VERIFIED** (own pull + negative control).
 - Finalized row = CME settlement: **INFERRED** (unchanged from 9/24/9/28 validation).
 - Continuous re-stitch: **VERIFIED** for today's pull vs HENRY's recorded 9/14 figure.
+
+## 6. CORRECTION — 2026-09-30 08:15 ET (`date`), on TERRY's read, verified at the vendor
+The §4 label "finalized row (tier 2)" for **9/29** is WRONG: the 9/29 daily rows carry **9/28's exact volume on both legs** (HOX26 63,292 · CLX26 370,326) — a copy-forward signature — and the finalization test (§1 of the 9/24 basis report) was not run. **Relabel: tier 2 NOT ESTABLISHED.** The figure ($100.04) agrees with TERRY's tier-3 grade; **F1 9/29 NOT FIRED is unchanged** (buffer ~$5, outside the ±$0.15 band). The 9/25 and 9/28 rows keep their earlier labels (not re-tested here).
