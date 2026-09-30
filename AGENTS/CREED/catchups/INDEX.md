@@ -4,7 +4,8 @@
 
 | Catch-up | File | State |
 |---|---|---|
-| **2026-09-28** | `catchups/2026-09-28.md` | **CURRENT** |
+| **2026-09-29** | `catchups/2026-09-29.md` | **CURRENT** (session crashed pre-closeout; record reconstructed from commits) |
+| 2026-09-28 | `catchups/2026-09-28.md` | superseded |
 | 2026-09-27 | `catchups/2026-09-27.md` | superseded |
 | 2026-09-26 | `catchups/2026-09-26.md` | superseded |
 | 2026-09-02 | `catchups/2026-09-02.md` | superseded |
