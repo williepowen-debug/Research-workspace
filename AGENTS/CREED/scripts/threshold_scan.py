@@ -46,6 +46,7 @@ Exit: 0 = nothing needs attention · 1 = something does (TRIPPED / NEAR / broken
 Both exits still print the full unscannable register.
 """
 
+import datetime
 import os
 import re
 import sys
@@ -199,23 +200,93 @@ def candidate_vectors(metric, vectors, min_hits=2):
     return [(vid, name, h) for h, vid, name in sorted(scored, reverse=True)[:3]]
 
 
-def count_canonical(path):
-    """{vector: set(periods)} of CANONICAL numeric rows. Returns None if the Role column is absent (fail loud)."""
-    out, hdr = {}, None
+HISTORY_ROLES = {"CANONICAL", "SUPERSEDED", "DUPLICATE", "PLACEHOLDER", "CONTEXT", "BASIS-MARKER"}
+HISTORY_REQUIRED = ("Vector_ID", "Date", "Value", "Role", "Basis")
+
+
+def period_cadence(p):
+    """'monthly' / 'quarterly' / 'daily' for a REAL calendar period, else None. `2025-13` and `2026-02-30` are None."""
+    m = re.fullmatch(r"(\d{4})-(\d{2})", p)
+    if m:
+        return "monthly" if 1 <= int(m.group(2)) <= 12 else None
+    if re.fullmatch(r"\d{4}-Q[1-4]", p):
+        return "quarterly"
+    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", p):
+        try:
+            datetime.date.fromisoformat(p)
+            return "daily"
+        except ValueError:
+            return None
+    return None
+
+
+def validate_history(path):
+    """Validate VX_HISTORY BEFORE counting (CATO CW5 residual, finished 2026-09-30).
+
+    Returns (fatal, series, invalid):
+      fatal   -- str when the file cannot support ANY count (missing, empty, a required header absent, no data
+                 rows). Missing evidence is never reported as a valid zero.
+      series  -- {vector: set(periods)} for vectors whose CANONICAL rows all pass.
+      invalid -- {vector: [reasons]}: the vector is withheld from the count, never counted as n or DUE. One bad
+                 series does not suppress the others.
+    Per CANONICAL row: numeric Value, a real calendar period, a non-blank Basis. Per vector: one cadence, one
+    Basis, one CANONICAL row per period (a conflicting duplicate is REJECTED here, not silently de-duplicated).
+    Every row: Role in the vocabulary, a real calendar period (a mistyped Role could be a hidden CANONICAL).
+    creed_selfcheck.py imports this function, so the boot counter and the closeout check cannot disagree."""
+    if not os.path.exists(path):
+        return f"{path} is missing", {}, {}
+    hdr, data = None, []
     with open(path, encoding="utf-8") as fh:
         for line in fh:
-            f = line.rstrip("\n").split("\t")
+            f = line.rstrip("\n").rstrip("\r").split("\t")
             if f[0] == "Vector_ID":
-                hdr = f; continue
-            if not f[0].startswith("VX-CREED") or hdr is None:
-                continue
-            if "Role" not in hdr:
-                return None
-            row = dict(zip(hdr, f))
-            if row.get("Role") != "CANONICAL" or not re.match(r"^-?\d+(\.\d+)?$", row.get("Value", "")):
-                continue
-            out.setdefault(row["Vector_ID"], set()).add(row["Date"])
-    return out
+                hdr = f
+            elif f[0].startswith("VX-CREED"):
+                data.append(f)
+    if hdr is None:
+        return f"{path} has no header row (empty or unreadable)", {}, {}
+    missing = [c for c in HISTORY_REQUIRED if c not in hdr]
+    if missing:
+        return f"{path} header lacks {missing}", {}, {}
+    if not data:
+        return f"{path} has a header but no VX-CREED data rows -- no evidence, not n=0", {}, {}
+
+    invalid, canon = {}, {}
+    for f in data:
+        row = dict(zip(hdr, f))
+        vid, per = row["Vector_ID"], row.get("Date", "")
+        role, basis, val = row.get("Role", ""), row.get("Basis", "").strip(), row.get("Value", "")
+        bad = invalid.setdefault(vid, [])
+        if role not in HISTORY_ROLES:
+            bad.append(f"{per}: Role {role!r} not in the vocabulary")
+        if period_cadence(per) is None:
+            bad.append(f"period {per!r} is not a real YYYY-MM / YYYY-Qn / YYYY-MM-DD")
+        if role != "CANONICAL":
+            continue
+        if not re.fullmatch(r"-?\d+(\.\d+)?", val):
+            bad.append(f"{per}: CANONICAL value {val!r} is not numeric")
+        if not basis:
+            bad.append(f"{per}: CANONICAL row has a blank Basis")
+        canon.setdefault(vid, []).append((per, basis))
+
+    series = {}
+    for vid, recs in canon.items():
+        bad = invalid[vid]
+        cads = {period_cadence(p) for p, _ in recs} - {None}
+        if len(cads) > 1:
+            bad.append(f"mixed cadence {sorted(cads)} -- not one comparable series")
+        bases = {b for _, b in recs if b}
+        if len(bases) > 1:
+            bad.append(f"{len(bases)} different Basis values -- not comparable observations: {sorted(bases)}")
+        seen = {}
+        for p, _ in recs:
+            seen[p] = seen.get(p, 0) + 1
+        for p, n in seen.items():
+            if n > 1:
+                bad.append(f"{p}: {n} CANONICAL rows for one period (conflict; exactly one is eligible)")
+        if not bad:
+            series[vid] = set(seen)
+    return None, series, {v: r for v, r in invalid.items() if r}
 
 
 def load_fired():
@@ -415,15 +486,24 @@ def main():
 
     print()
     print(f"  ── n={BASE_RATE_N} BASE-RATING COUNTER (obligation D; distinct CANONICAL periods in VX_HISTORY) ──")
-    canon = count_canonical(HISTORY) if os.path.exists(HISTORY) else None
-    if canon is None:
+    fatal, canon, invalid_hist = validate_history(HISTORY)
+    if fatal:
         attention = True
-        print(f"  🔴 FAIL-LOUD: {HISTORY} missing or has no Role column. The counter CANNOT run; do not read")
-        print("     silence as 'no band is due'.")
+        print(f"  🔴 FAIL-LOUD: {fatal}. The counter CANNOT run; do not read")
+        print("     silence or zero as 'no band is due'.")
     else:
         for tid, vecs in counted:
             for v in vecs:
+                if v in invalid_hist:
+                    attention = True
+                    print(f"  ⛔ INVALID  {tid:12} {v}: history rejected, NOT counted (neither n nor DUE):")
+                    for why in invalid_hist[v]:
+                        print(f"       · {why}")
+                    continue
                 n = len(canon.get(v, ()))
+                if n == 0:
+                    print(f"  ·  {tid:12} {v}: n=0/{BASE_RATE_N} (no CANONICAL rows for this vector)")
+                    continue
                 if n >= BASE_RATE_N:
                     attention = True
                     print(f"  🟠 DUE      {tid:12} {v}: n={n} >= {BASE_RATE_N} -> the per-band base-rating memo is OWED "
@@ -432,6 +512,8 @@ def main():
                     print(f"  ·  {tid:12} {v}: n={n}/{BASE_RATE_N}")
         print("  Counts only rows with Role=CANONICAL and a numeric Value; placeholders, duplicates,")
         print("  superseded values, context providers and basis markers are excluded by design.")
+        print("  A series is counted only if every CANONICAL row has a real period and a Basis, with one")
+        print("  cadence, one Basis and no conflicting period; otherwise it prints ⛔ INVALID, never n or DUE.")
 
     print()
     print("  " + "=" * 74)

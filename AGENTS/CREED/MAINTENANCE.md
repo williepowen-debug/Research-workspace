@@ -11,6 +11,13 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 
 ---
 
+## 2026-09-30 — CW5 residual finished: the n=12 counter validates its history before counting (Will-directed)
+
+- **Why:** CATO's follow-up (`AGENTS/CATO/runs/2026-09-29_2310_creed-workbook-review.md` §CW5, probe + results beside it) showed the counter reporting **n=0** on empty/headerless history and **DUE** on 11 months plus an impossible month, a same-month dated row, a second Basis or a blank Basis, while silently de-duplicating a conflicting CANONICAL row. Will, 9/30: "Finish CATO's remaining CW5 correction … Run CATO's saved counterexamples alongside your existing tests."
+- **Structure changed:** `threshold_scan.py` `count_canonical` → **`validate_history`** (required headers incl. Basis, ≥1 data row, numeric CANONICAL values, real calendar periods, one cadence and one Basis per vector, no duplicate CANONICAL period, Role vocabulary on every row). An invalid series prints `⛔ INVALID` with reasons, never n or DUE; other series still count. `creed_selfcheck.py` check ③'s history block now **calls the same function** (one validator, two callers). New `scripts/test_history_validation.py` (23 cases).
+- **Falsified before adoption:** 23/23 on the new code; the same test on pre-fix HEAD fails all 7 of CATO's failing cases (8/23). Live counts unchanged (1.01 8 · 2.01 7 · 3.04 5 · 4.01 4 · 5.03 1 · 7.01 5); selfcheck CLEAN.
+- **Not changed:** no band, trigger, history row, prediction or Kernel record. `CLAUDE.md` step 4c's fixture sentence still lists only the 9/29 cases (incomplete, not wrong; charter edits need Will's word).
+
 ## 2026-09-29 (late) — workbook consistency pass (CATO CW1–CW5; Will: "okay go")
 
 - **Why:** CATO's review (`AGENTS/CATO/runs/2026-09-29_2310_creed-workbook-review.md`) found current views not picking up evidence already on file, two colours disagreeing with their own bands, a history table that miscounts, fields holding the wrong kind of value, and checks that could not see any of it.

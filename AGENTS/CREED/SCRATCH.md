@@ -20,9 +20,11 @@ Pins are ROW-scoped (Sitting 2): `PRED-CREED-001/004/007`. **004 and 007 were GR
 5. **`cases/` ledger:** replies pending from CORAL (Columbus Center, `CASE-CREED-005`) and HOMER (75 West, `CASE-CREED-033`; HOMER dark since 9/24). **Doorbells not evidenced; ask Will before re-sending.** Read `cases/README.md` §Readiness limits before counting anything (exclude DISPUTED events; no SS→resolution pair yet; check loss bases before summing). 88 residual flags sit at the end of `CASE_NOTES.md`. Optional: OZK's historical `Q2_2026_SCORING_CARD.md:132` still says "$8.5M adjacent" (to Seattle); a candidate packet, not an owed one.
 6. **Q3 bank prints (mid/late Oct):** read REGINALD's bridge re-grade against CREED's property test (FLG post-freeze clearing prices · EGBN MF exit severity · OZK RaDD). These are research targets, not guaranteed answers: record gaps as UNRESOLVED (Will, 9/26). ⛔ The refinancing-gap model + realized-loss ledger are **DEFERRED by Will**; do not start them unasked. REGINALD VLY parts 2–4 (the $101.5M MF 30–89 DPD) still pending.
 
+## 🟢 9/30 SESSION (Will-directed, confirmed his own words): S8a held at 4 · PROME READS block sent + transcribed (38024a34c) · CLAUDE.md traps 3/8 · **CATO CW5 residual FINISHED** (shared `validate_history` in `threshold_scan.py`, used by `creed_selfcheck`; `scripts/test_history_validation.py` 23/23, 8/23 on pre-fix HEAD). **Will: cleanup pass STOPPED; next work = the Sept Trepp print on `PREREG_2026-10`; no deeper research.** **Wording (Will):** say "broad CRE-to-bank transmission is not confirmed", never "stress hasn't shown up at banks".
+
 ## ⚖️ AWAITING WILL — 1
 - ✅ ~~Revisit S8a = 4?~~ **RULED 2026-09-30 08:1x, Will verbatim *"Hold S8a at 4"*.** Closed; STATUS L7 records it.
-- **Charter mirror (traps 3 + 18 additions into `CLAUDE.md`)** — raised at the 9/30 boot; unanswered.
+- ✅ ~~Charter mirror (traps 3 + 18 into `CLAUDE.md`)~~ **APPROVED + DONE 2026-09-30** (Will: "Approve the two targeted CLAUDE updates", confirmed as his own words).
 - 🆕 **`thesis/THESIS.md` = 47,288 B, 145% of the read budget** (found declaring READS.tsv 9/30; the charter heuristic missed it). Bring a split / scoped-drill plan to Will; not started.
 
 ## ✅ CLOSED 9/29 — do not re-raise
@@ -38,7 +40,7 @@ PRED-005 HIT · PRED-006 FALSE · PRED-010 PARTIAL, not scored (both writes; pin
 
 ## ⚫ STANDING TRAPS — re-read before writing any number
 
-> ⚠️ **Traps 1, 2, 3, 4, 8, 11, 12, 18 are ALSO in `CLAUDE.md` §Standing traps, and THAT copy is the one that matters.** Edit one here, edit it there. **Mapping: SCRATCH 1–4 → CLAUDE.md 1–4 · 8 → 5 · 11 → 6 · 12 → 7 · 18 → 8.** SCRATCH 6 (n=12 base-rating) is not in CLAUDE.md. ⚠️ **Mirror pending (9/30):** SCRATCH 3 (August archived) and 18 (a grade is not a propagation) carry additions NOT yet in `CLAUDE.md`. The CLAUDE.md copy of trap 3 says "Apr–Jul", which is incomplete but not wrong. A charter edit needs Will's word, so ask at the next boot.
+> ⚠️ **Traps 1, 2, 3, 4, 8, 11, 12, 18 are ALSO in `CLAUDE.md` §Standing traps, and THAT copy is the one that matters.** Edit one here, edit it there. **Mapping: SCRATCH 1–4 → CLAUDE.md 1–4 · 8 → 5 · 11 → 6 · 12 → 7 · 18 → 8.** SCRATCH 6 (n=12 base-rating) is not in CLAUDE.md. ✅ **Mirror done 2026-09-30 (Will-approved):** CLAUDE.md trap 3 now reads Apr–Aug + "try the public hubfs PDF first"; trap 8 carries "a grade is not a propagation".
 
 1. **Never cite a CRE mREIT price move without checking corporate actions first** (ARI −33.4% on a total-return-*positive* day).
 2. **A real number carrying the WRONG BASIS is the dominant failure mode**, not a fabricated one.

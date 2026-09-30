@@ -189,23 +189,18 @@ for line in (R("workbook/VX.tsv") or "").splitlines():
         if st != mech:
             if f[0] in DISCLOSED: info.append(f"{f[0]} shows {st} vs band-mechanical {mech}: DISCLOSED exception ({DISCLOSED[f[0]]})")
             else: flag("RED", "band-vs-status", f"VX {f[0]}: Status {st} but the stated value {x} meets {mech} on its own bands. Fix the colour, or declare the exception here AND in the row's note")
-hist = R("workbook/VX_HISTORY.tsv") or ""
-hdr = None; canon = {}
-ROLES = {"CANONICAL", "SUPERSEDED", "DUPLICATE", "PLACEHOLDER", "CONTEXT", "BASIS-MARKER"}
-PER = re.compile(r"^\d{4}-(\d{2}|Q[1-4])(-\d{2})?$")
-for line in hist.splitlines():
-    f = line.split("\t")
-    if f[0] == "Vector_ID": hdr = f; continue
-    if not f[0].startswith("VX-CREED"): continue
-    if not hdr or "Role" not in hdr: flag("RED", "history", "VX_HISTORY has no Role column: the n=12 counter cannot run"); break
-    row = dict(zip(hdr, f))
-    if row.get("Role") not in ROLES: flag("RED", "history", f"{f[0]} {f[1]}: Role {row.get('Role')!r} not in {sorted(ROLES)}")
-    if not PER.match(f[1]): flag("RED", "history", f"{f[0]}: period {f[1]!r} is not YYYY-MM / YYYY-Qn / YYYY-MM-DD")
-    if row.get("Role") == "CANONICAL":
-        if not re.match(r"^-?\d+(\.\d+)?$", f[2]): flag("RED", "history", f"{f[0]} {f[1]}: CANONICAL value {f[2]!r} is not numeric")
-        canon[(f[0], f[1])] = canon.get((f[0], f[1]), 0) + 1
-for k, n in canon.items():
-    if n > 1: flag("RED", "history", f"{k[0]} {k[1]}: {n} CANONICAL rows for one period; exactly one is eligible")
+# VX_HISTORY: the SAME validator the boot counter uses (threshold_scan.validate_history), so the two cannot
+# disagree. Finished 2026-09-30 on CATO's CW5 residual: empty/headerless history, impossible months, mixed
+# cadence, mixed or blank Basis and conflicting CANONICAL rows are all rejected, not counted.
+sys.dont_write_bytecode = True
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from threshold_scan import validate_history
+_fatal, _series, _invalid = validate_history(os.path.join(ROOT, "workbook/VX_HISTORY.tsv"))
+if _fatal:
+    flag("RED", "history", f"VX_HISTORY unusable: {_fatal}. The n=12 counter cannot run")
+for _v, _reasons in sorted(_invalid.items()):
+    for _why in _reasons:
+        flag("RED", "history", f"{_v}: {_why}")
 
 # ══════════════ report ══════════════
 print("CREED SELF-CHECK — fired-trigger consistency + asserted counts")
@@ -216,7 +211,7 @@ if not findings:
     print("  Scope: file-level fire markers on 6 surfaces · known count phrasings · open")
     print("  staleness banners. A NEW prose phrasing for a count is NOT covered — add it to")
     print("  ASSERTIONS in the same edit that introduces it. Check 3: KB/VX field vocabularies,")
-    print("  band-vs-status colours, and VX_HISTORY one-CANONICAL-per-period.")
+    print("  band-vs-status colours, and VX_HISTORY validation (the boot counter's own validate_history).")
     for i in info: print(f"  ℹ️  {i}")
     sys.exit(0)
 for sev, check, msg in findings:
