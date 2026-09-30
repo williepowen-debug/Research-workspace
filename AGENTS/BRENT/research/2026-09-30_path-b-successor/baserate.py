@@ -1,4 +1,4 @@
-"""Path-B successor base rates (BRENT, 2026-09-30). Reproduces every figure in NOTE.md.
+"""Path-B successor base rates (BRENT, 2026-09-30). Reproduces every §2 figure in setups/2026-09-30_BRT-31-path-B-successor-DRAFT.md (v1; v2 figures: baserate_v2.py).
 Inputs (saved beside this file): EIA WPSR psw01.xls 'Data 2' product supplied (WGFUPUS2 etc.,
 retrieved 2026-09-30 10:57 ET) and FRED GASREGW keyless CSV (retrieved 2026-09-30 ~11:3x ET).
 Metric: gasoline product supplied 4-wk avg vs the 4 weeks 52 weeks earlier (reproduces EIA's

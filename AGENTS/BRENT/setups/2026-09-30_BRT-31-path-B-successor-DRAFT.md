@@ -1,5 +1,7 @@
 # BRT-31 — Path-B successor to BRT-29: DRAFT for Will (WQ-331 P3)
 
+> ⚠️ **SUPERSEDED 2026-09-30 12:2x ET by [v2](2026-09-30_BRT-31-path-B-successor-DRAFT-v2.md)** after CARL's blind read (❌1 base rate did not grade the letter; ❌2 no outcome precedence). Kept verbatim below as the record; **do not register from this file.**
+
 **Status: DRAFT. NOT REGISTERED.** Written 2026-09-30 11:4x ET by BRENT, Will-directed ("go ahead and draft the Path-B successor"), under WQ-331 P3 (Will 9/28 18:36: a DRAFT after the 9/30 grade, returned to Will before the next print). **It enters `thesis/PREDICTIONS.tsv` only on Will's own word.** No row, gate, band or approval exists until then. $0.
 
 **Why it exists:** BRT-29 FAILED today ([grade](../research/2026-09-30_wpsr-grades/REPORT.md) §3). Without a successor, Path B (demand weakening) has no registered test and becomes unfalsifiable by default (phase map §3, P3).
