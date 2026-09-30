@@ -30,7 +30,7 @@ S8a hold (Will) · PROME READS block (`38024a34c`) + correction packet (`06088fc
 ## 🟡 STATE AT HANDOFF
 - **Base case HOLDS; 🟠 ELEVATED; convergence 27/45 (60.0%); broad CRE-to-bank transmission is not confirmed** (S3 = 2; next test FDIC Q3 QBP ~late Nov, DOCKET L514).
 - **Trigger board:** `T-01a` 12.00 AT band, 0 of 2 · `T-01b` 16.90 · `T-02` spent · `T-03` not fired (level leg suspended, Will 8/27) · `T-06b` fired, count 1, S6 held at 3 · **`T-08a` FIRED 9/24; 9/29 −7.89 TR inside the band; S8a 4 (Will)** · `T-08b` not fired. n=12 counts: T-01a 8 · T-01b 7 · T-02 5 · T-03 4 · T-08a 5.
-- **Counts:** VX 34 · KB 49 · PRED 11 (3 open; graded n=6, mean Brier 0.279; 002a + 010 excluded) · registry 11 · cases 55 (+3 held).
+- **Counts:** VX 34 · KB 50 · PRED 11 (3 open; graded n=6, mean Brier 0.279; 002a + 010 excluded) · registry 11 · cases 55 (+3 held).
 - **THESIS is current-state only since 9/30**; the reasoning trail is `thesis/THESIS_HISTORY_2026-09-30.md` (never current).
 - **Read budgets:** check with `scripts/read_cap_check.py --agent CREED`; don't carry figures here.
 
