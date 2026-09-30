@@ -1,4 +1,5 @@
 # CREED workbook schema — governs KB.tsv columns + controlled vocabulary. Built 2026-07-27 from the fleet-canonical 13-col KB schema (BOND/CARL model) + Last_Refreshed (Will-approved 2026-07-21, §10 decision 1). No Delegated_To column — CREED has no sub-agents.
+# Last real data refresh: 2026-09-29 -- Epistemic += ANALYTICAL; Status/disposition split declared; checked mechanically by scripts/creed_selfcheck.py check 3 (CATO CW4/CW5). (PAT-044 two-clock header: CONTENT vintage.)
 variable_name	data_type	allowed_values	missing_code	required	default	description
 ID	String	KB-CREED-NNN (sequential)		Yes		Unique identifier for each knowledge base entry
 Date	Date	YYYY-MM-DD		Yes		Date the claim was logged
@@ -7,8 +8,8 @@ Entity	String	free text (issuer, trust, agency, index, metro)	NA	Yes		Named subj
 Fact	String	free text	NA	Yes		The claim itself, with figures and units
 Source	String	free text (publisher + date; mark PRIMARY-READ vs PRIMARY-CITED vs SECONDARY)	NA	Yes		Where it came from and at what remove
 Conf	String	Admiralty digraph A1-F6 (letter = source reliability, number = info credibility)	NA	Yes		A=completely reliable ... F=cannot judge; 1=confirmed ... 6=cannot judge
-Epistemic	String	EMPIRICAL / ESTIMATE / ASSUMPTION		Yes	EMPIRICAL	Nature of the claim
-Status	String	ACTIVE / CONFIRMED / STALE / SUPERSEDED / CORRECTED / RETRACTED		Yes	ACTIVE	Lifecycle state
+Epistemic	String	EMPIRICAL / ESTIMATE / ASSUMPTION / ANALYTICAL		Yes	EMPIRICAL	Nature of the claim. ANALYTICAL (declared 2026-09-29) = reasoning, method or judgment over held evidence, not itself an observation. Source access (PRIMARY-READ etc.) is NOT an epistemic class: it belongs in Source
+Status	String	ACTIVE / CONFIRMED / STALE / SUPERSEDED / CORRECTED / RETRACTED		Yes	ACTIVE	Lifecycle state of the CLAIM. A task disposition (open / closed / ruled / owed) is NOT a status: write it in Notes as 'DISPOSITION: ...' and name any successor row
 Stale_By	Date	YYYY-MM-DD	NA	No		Date after which the row must be re-verified before citing
 DerivedFrom	String	comma-separated KB-CREED-NNN or external IDs	NA	No		Provenance chain
 Vectors	String	comma-separated VX-CREED-N.NN	NA	No		VX rows this claim feeds

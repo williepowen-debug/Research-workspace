@@ -12,6 +12,8 @@
 ## VX-CREED-1.02 — Overall CMBS Delinquency
 *moved verbatim 2026-09-26, crc32 `4d3199ef`, 500 B*
 
+*** 2026-09-29 STATUS CORRECTED ORANGE -> YELLOW (CATO CW2): 7.85% meets only the >7 yellow band (orange is >8). No basis exception was on file. Mechanical band state only; this does not downgrade the thesis.
+
 2026-09-02: -1bp MoM (7.86 -> 7.85). *** DO NOT READ THE -1bp AS IMPROVEMENT. *** Four of five major property types ROSE; the headline is flat only because large maturity defaults were OFFSET BY CURES, incl. a large Times Square loan returning to performing (Trepp, verbatim). The -1bp is the NET of two large gross flows and the maturity-default flow did NOT stop. Trepp did not print the gross flows this month. Maturity-adjusted DQ (VX-3.01) NOT published in the free excerpt -- stays 9.62% [Jul].
 
 ## VX-CREED-1.03 — Multifamily CMBS Delinquency
@@ -27,7 +29,7 @@
 ## VX-CREED-1.05 — Lodging CMBS Delinquency
 *moved verbatim 2026-09-26, crc32 `42e15303`, 345 B*
 
-2026-09-02: +49bps MoM (Jul 5.35 -> Aug 5.84), the LARGEST move of the five types. *** BELOW THE PRE-REGISTERED NOISE FLOOR: mean |MoM| in lodging is 72bps, so this is 0.68 sigma. PREREG section 4.4 said do not read a sub-1-sigma single move as a signal. NOT READ AS ONE. *** A New Orleans hotel is among the five largest newly delinquent loans.
+2026-09-02: +49bps MoM (Jul 5.35 -> Aug 5.84), the LARGEST move of the five types. *** BELOW THE PRE-REGISTERED NOISE FLOOR: mean |MoM| in lodging is 72bps, so this is 0.68 sigma. [2026-09-29 clarification, CATO residue: '0.68 sigma' is 49/72, a ratio to the MEAN ABSOLUTE monthly move. That is a named noise heuristic, NOT a standard deviation; the refusal to read it as a signal stands] PREREG section 4.4 said do not read a sub-1-sigma single move as a signal. NOT READ AS ONE. *** A New Orleans hotel is among the five largest newly delinquent loans.
 
 ## VX-CREED-1.06 — Industrial CMBS Delinquency
 *moved verbatim 2026-09-26, crc32 `2042c6ab`, 307 B*
@@ -72,10 +74,14 @@
 ## VX-CREED-4.02 — Community-Bank Reserve Coverage
 *moved verbatim 2026-09-26, crc32 `7d69e2c4`, 122 B*
 
+*** 2026-09-29 REFRESHED TO Q2 + STATUS CORRECTED ORANGE -> YELLOW (CATO CW1/CW2): FDIC Q2-2026 QBP community-bank reserve coverage **145.6%**, -73bp QoQ (the FDIC restates the prior quarter on the current-quarter community-bank designation, so this is not 146.6 -> 145.6). Same perimeter as the Q1 value. **Never substitute the industry-wide 172.7%.** Meets only the <150 yellow band. PRIMARY-READ 2026-09-29, fdic.gov QBP PDF (sha256 0e961e19a41bb080...).
+
 Already through the YELLOW line. Overall industry 166.8%. Noncurrents outpacing allowance = the REGINALD follow-up thread.
 
 ## VX-CREED-4.03 — Overall Bank PDNA
 *moved verbatim 2026-09-26, crc32 `d33c73db`, 60 B*
+
+*** 2026-09-29 REFRESHED TO Q2 (CATO CW1): 1.44% [FDIC Q2-2026 QBP], -9bp. Already carried in KB-CREED-022 and THESIS since 8/27; this row had not consumed it.
 
 Aggregate bank asset quality still benign. Q2 QBP ~late Aug.
 
@@ -138,6 +144,8 @@ Extend-and-pretend still WORKING at the aggregate (servicers unwilling to seize;
 ## VX-CREED-9.03 — US Office Vacancy + Net Absorption (CBRE canonical)
 *moved verbatim 2026-09-26, crc32 `e86d36af`, 3070 B*
 
+*** 2026-09-29 COLUMN FIX (CATO CW4): an 8/20 edit wrote the date into Source and the CBRE citation into Cross_Links. Source now holds the citation; Cross_Links restored to its original routing, 'REGINALD, HOMER' (as at 43639b22c). No value changed.
+
 *** PROVIDER RE-SPEC 2026-08-20, WILL-APPROVED WITH TWO RIDERS. Moody's -> CBRE as CANONICAL. *** WHY CBRE AND NOT MERELY 'BECAUSE IT IS REACHABLE': *** IT IS THE ONLY PROVIDER PUBLISHING VACANCY AND NET ABSORPTION TOGETHER. *** That pairing is the entire reason the Q2 read was gradeable -- all three providers showed vacancy improving, and ONLY absorption separated real demand (CBRE +12.6M sf, 9th consecutive positive quarter) from INVENTORY REMOVAL (C&W -360K sf while 33M sf of stock was demolished/converted). A BARE VACANCY RATE CANNOT TELL THOSE APART, and a bare rate is all Moody's ever delivered to CREED through secondaries. THIS VECTOR FEEDS S7, WHOSE TRIGGER (CREED-T-07) REQUIRES *DIRECT TENANT-DEMAND IMPAIRMENT*. A vacancy LEVEL elevated for three years is a STOCK, not impairment; ABSORPTION is what answers the question this vector exists to ask. Instrument chosen for the MECHANISM, not for reachability. *** RIDER 1 -- THE RED->ORANGE TRANSITION IS A BASIS CHANGE, NEVER A DE-ESCALATION. *** Under Moody's (21.0%) this vector sat in the >20 RED band; under CBRE (18.3%) it sits in the >18 ORANGE band. NO BAND WAS EDITED AND NO STRESS ABATED -- the instrument moved. *** DO NOT COUNT THIS AS IMPROVEMENT IN S7 OR THE CONVERGENCE MATRIX, AND NEVER RUN A TREND READ ACROSS THE SWAP WITHOUT SAYING SO. *** A correction delta from an instrument swap is a BASIS CHANGE, not a threshold event (fleet canon). *** BANDS >15 / >18 / >20 ARE WILL-FROZEN (2026-07-21) AND UNTOUCHED -- BUT THEY WERE CALIBRATED AGAINST MOODY'S-LIKE LEVELS ('legacy ~19-20%' per WORKBOOK_DESIGN) AND ARE THEREFORE *UNCALIBRATED FOR CBRE*. *** Treat the band state as INDICATIVE ONLY until re-based. *** WHY NOT RE-BASE THE BANDS NOW: n=1. *** Clean overlap is ONE quarter (Moody's Q1 21.0 vs CBRE Q1 18.6 = 2.4pp; CBRE Q2 18.3). A 2.4-2.7pp spread at n=1 could be a stable offset or one quarter's noise, and CREED cannot tell which -- base-rate the threshold BEFORE building it (trap #6). RE-BASE AT 3-4 QUARTERS OF OVERLAP, as a SEPARATE Will-gated decision with evidence. *** RIDER 2 -- MOODY'S AND C&W ARE PULLED EVERY QUARTER AS CONTEXT ROWS, NOT DROPPED. *** The overlap series needed for that future re-base ONLY EXISTS IF THE OLD PROVIDER KEEPS GETTING RECORDED. Dropping Moody's would make the re-base decision an archaeology project instead of a lookup. GRADE ON ABSORPTION DIRECTION until the bands are re-based: positive net absorption = tenant demand NOT impairing, whatever the level reads. *** PROVIDER SPREAD ~2.7pp ON THE SAME QUARTER. NEVER STACK, BLEND OR AVERAGE. ALWAYS CITE PROVIDER + QUARTER. *** *** PRE-EXISTING DEFECT FIXED 2026-08-20: this state cell read ORANGE while the value was Moody's 21.0% -- a >20 RED-band number -- since at least 2026-07-27. The vector was UNDER-STATING ITS OWN BAND for three cycles. Today's provider swap made ORANGE correct BY ACCIDENT; that coincidence is recorded, NOT claimed as the fix. The cell is now ORANGE *because CBRE 18.3% is in the >18 band*, and the reason is written down so the next reader can check it. ***
 
 ## VX-CREED-10.01 — CRE mREIT Dividend Actions (cohort)
@@ -163,6 +171,8 @@ Extend-and-pretend still WORKING at the aggregate (servicers unwilling to seize;
 
 ## VX-CREED-10.05 — CRE Migration to Insurance Balance Sheets
 *moved verbatim 2026-09-26, crc32 `1f853d2a`, 790 B*
+
+*** 2026-09-29 REFRESHED TO Q2 (CATO CW1): MBA Q2 life-insurer CM/MF +$7.83B to $781.6B (by-sector table); ARI purchase price $8.7B final (Athene Q2 10-Q). PRED-006 FALSE / PRED-010 PARTIAL (not scored). Landing location still NOT established (commercial-only +$3.6B derived vs Athene commercial +$8.3B; Bermuda perimeter).
 
 *** NEW 7/27 — THE THESIS-CRITICAL VECTOR. *** Recognition speed is a property of the HOLDER, not the wrapper: loans moved from a publicly-marked quarterly-reporting holder to an insurance balance sheet. RELATED-PARTY (ARI externally managed by ACREFI, an Apollo subsidiary; Athene is Apollo's retirement arm) — but 8-K-disclosed, stockholder-voted, priced at 99.7%. *** CONTRAST case to SIG-W-20260727-004 (Delaware Life/Clear Spring: affiliate holdings restated $1.4B/3% -> >=$17B/39%, undisclosed, grand jury + SEC, NO charges filed). Same mechanism, OPPOSITE disclosure quality. Insurer CRE absorption is NOT inherently opaque — the discriminator is DISCLOSURE QUALITY and PRICE DISCOVERY, not affiliation itself. *** RED condition = migration at scale WITHOUT observable pricing.
 

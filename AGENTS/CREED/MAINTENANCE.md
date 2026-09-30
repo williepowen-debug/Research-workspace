@@ -11,6 +11,13 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 
 ---
 
+## 2026-09-29 (late) — workbook consistency pass (CATO CW1–CW5; Will: "okay go")
+
+- **Why:** CATO's review (`AGENTS/CATO/runs/2026-09-29_2310_creed-workbook-review.md`) found current views not picking up evidence already on file, two colours disagreeing with their own bands, a history table that miscounts, fields holding the wrong kind of value, and checks that could not see any of it.
+- **Structure changed:** `VX_HISTORY.tsv` += `Role` + `Basis` columns (one CANONICAL numeric row per vector and observation period; quarterly keys `YYYY-Qn`; no row deleted) · `SCHEMA.tsv` declares Epistemic `ANALYTICAL` and the Status-vs-disposition split (+ a two-clock header) · `FLOW.tsv` rows 01/02/05/06/07/08 made concise, with full prior cells verbatim in the new `notes/FLOW_NOTES.md` · `creed_selfcheck.py` check ③ (field semantics, band-vs-status, history) · `threshold_scan.py` now actually counts obligation (D)'s n=12 · charter boot freshness step switched from mtime `find` to `ledger_staleness.py --writes --abs-floor`.
+- **Guards falsified before adoption:** check ③ run on the pre-fix files caught both CW2 colours, the 9.03 column shift, the missing Role column and 48 vocabulary defects; it also caught a planted second CANONICAL row. The counter was boundary-tested on fixtures (11 / 11 + a duplicate / 12 / no Role).
+- **Not changed:** no band, threshold, sustain window, prediction term, trigger state or Kernel record. The two disclosed colour exceptions (4.01, 9.03) are printed by check ③ as info.
+
 ## 2026-09-29 (evening) — `workbook/PREDICTIONS.tsv` hot/cold notes split + a new `RESOLVED-PARTIAL` token
 
 - **Why:** 26,473 B = 81% of the 32,550 B read budget (rotate tier; STATUS obligation 28). Kernel row pins (`PRED-001/004/007`, Gate C Sitting 2) meant the plan went to Will first. **Approved in-session 9/29.**

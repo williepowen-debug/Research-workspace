@@ -54,6 +54,9 @@
 #        a per-band base-rating memo in this registry -- NOT a spawn occasion. Est. VX-1.01 ~2027-01; VX-2.01/3.04 ~2027-04.
 #        Coordination copy: PROME/DOCKET.tsv row 33 -> RESOLVED(RULED) + successor row (last, est-2027-01-31).
 #        *** DELIBERATELY REGISTERED HERE TOO: the month-1 revisit was missed BECAUSE it lived only on another desk's docket. ***
+#        *** COUNTER IMPLEMENTED 2026-09-29 (CATO CW5). Until then this line NAMED threshold_scan.py as the counter, but the script never read
+#        VX_HISTORY or counted anything. It now counts distinct CANONICAL numeric periods per banded vector (VX_HISTORY Role column, CW3)
+#        and prints DUE at n>=12. Boundary-tested on fixtures (11 / 11+dup / 12 / no-Role). Counts at 9/29: T-01a 8 · T-01b 7 · T-02 5 · T-03 4 · T-08a 3. ***
 #
 #    (C) *** EXECUTED 2026-08-27 -- registry/BAND_REVISIT_2026-08-27.md. *** 3 ASKS NOW WITH WILL (T-01b sustain 1->2;
 #        whether a matured-balloon DOLLAR vector carries a band -- CREED proposes NO LEVEL at n=4; re-key band

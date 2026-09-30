@@ -44,3 +44,6 @@ No band, operator, sustain or confidence edit. No S-score move from a leg-1 prin
 ---
 
 ## 6. Grading record — append below, do not edit above
+
+### Clarification appended 2026-09-29 (CATO workbook review, low-impact residue). NOT an edit to the frozen terms above.
+§2's "a sub-1σ move is not a direction" uses the office-DQ **mean absolute monthly move** (13bp, n=5) as its noise yardstick. That is a **named heuristic, not a standard deviation.** The refusal rule applies exactly as written when grading. Only the label is clarified: do not quote "1σ" from this document as a statistical claim.

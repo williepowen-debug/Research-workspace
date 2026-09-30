@@ -148,6 +148,63 @@ for surf in BANNER_SCAN:
              f"{surf}:{line} carries a known-stale banner ({marks}) — outstanding debt, "
              f"not a fix. Clears when the banner is REMOVED, not when it is written.")
 
+
+# ══════════════ check 3: field SEMANTICS, not just field counts (CATO CW4/CW5, 2026-09-29) ══════════════
+# A TSV can parse with the right width while a column holds the wrong KIND of thing (a percentage where an
+# Admiralty grade belongs; a date in Source; two CANONICAL values for one period). Counts and fire markers
+# cannot see that, so this checks the declared vocabularies and the one-value-per-period rule directly.
+info = []
+ADM = re.compile(r"^[A-F][1-6]$")
+EPI = {"EMPIRICAL", "ESTIMATE", "ASSUMPTION", "ANALYTICAL"}          # SCHEMA.tsv, ANALYTICAL declared 2026-09-29
+KST = {"ACTIVE", "CONFIRMED", "STALE", "SUPERSEDED", "CORRECTED", "RETRACTED"}
+DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+kb = R("workbook/KB.tsv") or ""
+for line in kb.splitlines():
+    if not line.startswith("KB-CREED-"): continue
+    f = line.split("\t")
+    if len(f) != 14: flag("RED", "schema", f"KB {f[0]}: {len(f)} fields, schema has 14"); continue
+    if not ADM.match(f[6]): flag("RED", "schema", f"KB {f[0]}: Conf {f[6]!r} is not an Admiralty digraph (A1-F6)")
+    if f[7] not in EPI: flag("RED", "schema", f"KB {f[0]}: Epistemic {f[7][:40]!r} not in {sorted(EPI)} (source access goes in Source)")
+    if f[8] not in KST: flag("RED", "schema", f"KB {f[0]}: Status {f[8][:40]!r} not a lifecycle token (dispositions go in Notes)")
+BAND = re.compile(r"^\s*([<>]=?)\s*(-?\d+(?:\.\d+)?)\s*%?\s*$")
+DISCLOSED = {"VX-CREED-4.01": "indicative ORANGE held after the 8/27 basis change (see its note)",
+             "VX-CREED-9.03": "bands uncalibrated for the CBRE provider (see its note)"}
+def _trip(op, x, b): return {">": x > b, ">=": x >= b, "<": x < b, "<=": x <= b}[op]
+for line in (R("workbook/VX.tsv") or "").splitlines():
+    f = line.split("\t")
+    if not f[0].startswith("VX-CREED"): continue
+    if len(f) != 14: flag("RED", "schema", f"VX {f[0]}: {len(f)} fields, expected 14"); continue
+    if not DATE.match(f[9]): flag("RED", "schema", f"VX {f[0]}: Last_Updated {f[9]!r} is not a date")
+    if DATE.match(f[10].strip()): flag("RED", "schema", f"VX {f[0]}: Source holds a bare date ({f[10]!r}); a citation belongs there")
+    if "PRIMARY-READ" in f[11] or len(f[11]) > 120: flag("RED", "schema", f"VX {f[0]}: Cross_Links looks like a citation, not routing")
+    bs = [BAND.match(x) for x in f[4:7]]
+    m = re.search(r"-?\d+(?:\.\d+)?", f[3])
+    if all(bs) and m:
+        x = float(m.group()); mech = "GREEN"
+        for name, b in zip(("YELLOW", "ORANGE", "RED"), bs):
+            if _trip(b.group(1), x, float(b.group(2))): mech = name
+        st = f[7].split()[0] if f[7] else ""
+        if st != mech:
+            if f[0] in DISCLOSED: info.append(f"{f[0]} shows {st} vs band-mechanical {mech}: DISCLOSED exception ({DISCLOSED[f[0]]})")
+            else: flag("RED", "band-vs-status", f"VX {f[0]}: Status {st} but the stated value {x} meets {mech} on its own bands. Fix the colour, or declare the exception here AND in the row's note")
+hist = R("workbook/VX_HISTORY.tsv") or ""
+hdr = None; canon = {}
+ROLES = {"CANONICAL", "SUPERSEDED", "DUPLICATE", "PLACEHOLDER", "CONTEXT", "BASIS-MARKER"}
+PER = re.compile(r"^\d{4}-(\d{2}|Q[1-4])(-\d{2})?$")
+for line in hist.splitlines():
+    f = line.split("\t")
+    if f[0] == "Vector_ID": hdr = f; continue
+    if not f[0].startswith("VX-CREED"): continue
+    if not hdr or "Role" not in hdr: flag("RED", "history", "VX_HISTORY has no Role column: the n=12 counter cannot run"); break
+    row = dict(zip(hdr, f))
+    if row.get("Role") not in ROLES: flag("RED", "history", f"{f[0]} {f[1]}: Role {row.get('Role')!r} not in {sorted(ROLES)}")
+    if not PER.match(f[1]): flag("RED", "history", f"{f[0]}: period {f[1]!r} is not YYYY-MM / YYYY-Qn / YYYY-MM-DD")
+    if row.get("Role") == "CANONICAL":
+        if not re.match(r"^-?\d+(\.\d+)?$", f[2]): flag("RED", "history", f"{f[0]} {f[1]}: CANONICAL value {f[2]!r} is not numeric")
+        canon[(f[0], f[1])] = canon.get((f[0], f[1]), 0) + 1
+for k, n in canon.items():
+    if n > 1: flag("RED", "history", f"{k[0]} {k[1]}: {n} CANONICAL rows for one period; exactly one is eligible")
+
 # ══════════════ report ══════════════
 print("CREED SELF-CHECK — fired-trigger consistency + asserted counts")
 print(f"  actual: VX={actual['vx']} · KB={actual['kb']} · PRED={actual['pred']} "
@@ -156,10 +213,13 @@ if not findings:
     print("\n  ✓ CLEAN — no fire-state or count inconsistencies.")
     print("  Scope: file-level fire markers on 6 surfaces · known count phrasings · open")
     print("  staleness banners. A NEW prose phrasing for a count is NOT covered — add it to")
-    print("  ASSERTIONS in the same edit that introduces it.")
+    print("  ASSERTIONS in the same edit that introduces it. Check 3: KB/VX field vocabularies,")
+    print("  band-vs-status colours, and VX_HISTORY one-CANONICAL-per-period.")
+    for i in info: print(f"  ℹ️  {i}")
     sys.exit(0)
 for sev, check, msg in findings:
     icon = "\U0001f534" if sev == "RED" else ("\U0001f7e0" if sev == "AMBER" else "\u2139\ufe0f")
     print(f"\n  {icon} [{check}] {msg}")
+for i in info: print(f"\n  ℹ️  {i}")
 print(f"\n  {len(findings)} finding(s). Fix by PATTERN, not by this list.")
 sys.exit(1)

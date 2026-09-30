@@ -55,6 +55,11 @@ REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(
 THRESHOLDS = os.path.join(REPO, "AGENTS/CREED/registry/THRESHOLDS.tsv")
 VX = os.path.join(REPO, "AGENTS/CREED/workbook/VX.tsv")
 FIRED = os.path.join(REPO, "AGENTS/CREED/registry/CREED_T_FIRED_LOG.tsv")
+# Obligation (D), Will-ruled 2026-08-27: band base-rating is keyed to n=12 observations and THIS script is the
+# named COUNTER. It was not implemented until 2026-09-29 (CATO CW5). n = distinct CANONICAL numeric periods per
+# vector in VX_HISTORY (Role column, CATO CW3), never physical rows. CREED_VX_HISTORY overrides the path for fixtures.
+HISTORY = os.environ.get("CREED_VX_HISTORY") or os.path.join(REPO, "AGENTS/CREED/workbook/VX_HISTORY.tsv")
+BASE_RATE_N = 12
 
 # Distance from band, as a fraction of |band|, at which a row is called NEAR.
 NEAR_FRAC = 0.05
@@ -194,6 +199,25 @@ def candidate_vectors(metric, vectors, min_hits=2):
     return [(vid, name, h) for h, vid, name in sorted(scored, reverse=True)[:3]]
 
 
+def count_canonical(path):
+    """{vector: set(periods)} of CANONICAL numeric rows. Returns None if the Role column is absent (fail loud)."""
+    out, hdr = {}, None
+    with open(path, encoding="utf-8") as fh:
+        for line in fh:
+            f = line.rstrip("\n").split("\t")
+            if f[0] == "Vector_ID":
+                hdr = f; continue
+            if not f[0].startswith("VX-CREED") or hdr is None:
+                continue
+            if "Role" not in hdr:
+                return None
+            row = dict(zip(hdr, f))
+            if row.get("Role") != "CANONICAL" or not re.match(r"^-?\d+(\.\d+)?$", row.get("Value", "")):
+                continue
+            out.setdefault(row["Vector_ID"], set()).add(row["Date"])
+    return out
+
+
 def load_fired():
     return {r[0]: r[1] for r in rows(FIRED, "CREED-T") if len(r) >= 2}
 
@@ -226,11 +250,14 @@ def main():
     fired = load_fired()
 
     scannable, blocked, unscannable, pointer_defects, expansions = [], [], [], [], []
+    counted = []
 
     for r in registry:
         tid, op, raw_band, src = r[0], r[3], r[4], (r[8] if len(r) > 8 else "")
         band = first_number(raw_band) if op in (">", ">=", "<", "<=") else None
         vecs, range_note = vectors_named(src)
+        if vecs and (band is not None or tid in LEVEL_SUSPENDED):
+            counted.append((tid, vecs))
         if range_note:
             expansions.append((tid, range_note))
 
@@ -385,6 +412,26 @@ def main():
         print("  ── 🔴 REGISTRY POINTER DEFECTS ──")
         for tid, v, why in pointer_defects:
             print(f"  🔴 {tid:12} → {v}: {why}")
+
+    print()
+    print(f"  ── n={BASE_RATE_N} BASE-RATING COUNTER (obligation D; distinct CANONICAL periods in VX_HISTORY) ──")
+    canon = count_canonical(HISTORY) if os.path.exists(HISTORY) else None
+    if canon is None:
+        attention = True
+        print(f"  🔴 FAIL-LOUD: {HISTORY} missing or has no Role column. The counter CANNOT run; do not read")
+        print("     silence as 'no band is due'.")
+    else:
+        for tid, vecs in counted:
+            for v in vecs:
+                n = len(canon.get(v, ()))
+                if n >= BASE_RATE_N:
+                    attention = True
+                    print(f"  🟠 DUE      {tid:12} {v}: n={n} >= {BASE_RATE_N} -> the per-band base-rating memo is OWED "
+                          f"in registry/ (THRESHOLDS_NOTES header D). Not a fire; not a spawn occasion.")
+                else:
+                    print(f"  ·  {tid:12} {v}: n={n}/{BASE_RATE_N}")
+        print("  Counts only rows with Role=CANONICAL and a numeric Value; placeholders, duplicates,")
+        print("  superseded values, context providers and basis markers are excluded by design.")
 
     print()
     print("  " + "=" * 74)
