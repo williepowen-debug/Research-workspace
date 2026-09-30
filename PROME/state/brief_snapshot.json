@@ -10,12 +10,12 @@
   "War theaters + tariffs + rivers + housing": "crit"
  },
  "docket": {
-  "2026-09-29": "PLAZA CONTINENTAL (3700 Inland Empire Blvd, Ontario CA)",
   "2026-09-30": "\ud83d\udd34 **L409 SCOPE WIDENED",
   "2026-10-01": "OZK $350M sub-notes reprice (2.75% \u2192 SOFR+209)",
   "2026-10-02": "L126 10/2 READ",
   "2026-10-03": "\ud83d\udfe0 **CRU-09 GRADES BY 2026-10-03 23:59 ET",
-  "2026-10-04": "OPEC+ monthly meeting of the seven participating countries"
+  "2026-10-04": "OPEC+ monthly meeting of the seven participating countries",
+  "2026-10-05": "CME Group + Silicon Data list cash-settled COMPUTE FUTURES on NYMEX (H100\u2026"
  },
  "gates": {
   "GATE-BRENT-COT-35B": "LIVE",
@@ -41,7 +41,7 @@
   "GATE-TERRY-ROLL70-EXIT": "LIVE",
   "GATE-TERRY-USO135C": "RESOLVED",
   "GATE-TERRY-VLO-HELD-01": "LIVE",
-  "GATE-TERRY-VLO-SCALE": "LIVE"
+  "GATE-TERRY-VLO-SCALE": "RESOLVED"
  },
  "money": {
   "cash": "49.16",
@@ -69,6 +69,8 @@
   "337": "\u2696\ufe0f AI POLICY & REGULATION \u2014 a fleet coverage gap with NO OWNER (VULCA\u2026",
   "339": "\u2696\ufe0f ADD A NEW DURATION-SHORT EXPRESSION AFTER THE SEPTEMBER LEG EXPIRE\u2026",
   "341": "\u2696\ufe0f ROOT B IS UNOWNED \u2014 an 'AI-disruption scare in incumbents' credit\u2026",
-  "342": "\u2696\ufe0f A CREDIT LEG FOR NEXUS's DURATION SPLIT? \u2014 the split's only regist\u2026"
+  "342": "\u2696\ufe0f A CREDIT LEG FOR NEXUS's DURATION SPLIT? \u2014 the split's only regist\u2026",
+  "344": "\u2696\ufe0f HEN-F3 \u2014 DEAD AS WRITTEN, OR RE-ARM AT THE NEXT BAN EXPIRY (10/31)\u2026",
+  "346": "\u2696\ufe0f BRT-31 v2 \u2014 THE ADJUSTED PATH-B (DEMAND) TEST AFTER CARL's BLIND R\u2026"
  }
 }
