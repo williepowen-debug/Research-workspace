@@ -578,3 +578,18 @@ The two surviving branches (`D1` = 9/21, still unknown; `D1` = 9/22, today) **bo
 - **Realized on the 5 (average basis; broker lot method UNKNOWN):** $28.45 − $57.81 (5/20 of $231.26) = **−$29.36 / −50.8%**. Sold at **0.52× the fees-in basis** ($0.06 vs $0.11563): **salvage, not harvest.** ANVIL's FORGE row reads ≈−$29.37 on the same derivation. The cent is rounding; FORGE governs. Shadow book: **`PB-0002d`** (closed ×5, basis $57.81), re-split from `PB-0002b`, which is now **×15 at basis $173.45**.
 - **Harvest re-read at ×15 (PROME asked; my call):** the owed tranche is a **COUNT, not a fraction**: 10 contracts at **≥$0.3469 fees-in** (half of the original 30 = 15, less the 5 harvested 7/31, ruled 8/3). **15 ≥ 10, so it is still satisfiable.** It is now **2/3 of the line** (it was 1/2 at ×20). **Unreachable in practice:** $0.06 vs $0.3469 is ~5.8×, with two sessions left.
 - **Unchanged:** NO-ADD (WQ-280) · HOLD the ×15 to the **Wed 9/30** expiry (WQ-168 ④ / WQ-217) · `GATE-TERRY-007` terminated MOOT 9/24 · no roll (construction rule #21). The Wed quote re-read is TERRY's 9/30 wake, **not tonight**. Forward max loss = the remaining ×15 mark (construction rule #20(d)).
+
+#### ⏳ EXPIRY-DAY RECORD — 2026-09-30 Wed, written 08:1x ET (`date` 08:08 at the pre-market pull) · PROME spawn `prome-f4` (DOCKET L74 / L255). **HOLD ×15 to expiry STANDS (WQ-168 ④ / WQ-217; NO ADD, WQ-280). `$0` moved. This block pre-registers what the outcome is graded ON, before the close.**
+
+| item | value |
+|---|---|
+| Position | TLT Sep-30-2026 $77P **×15** (PB-0002b, fees-in basis **$173.45**) |
+| Reference | TLT **$78.23** at the 9/29 official close (`fetch.py`), **$1.23 / 1.6% above the strike** · pre-market 08:08 ET **$78.42** (+0.24%, yfinance `preMarketPrice`, a quote not a close) |
+| Last option print | 77P last **$0.04** (9/29 16:14); bid/ask **0.00/0.00** pre-open = no quote yet, not a price (vendor screening grade, RISK_RULES 5b) |
+| **Graded on** | **TLT's official regular-session close today, Wed 9/30, vs $77.00.** Nothing else — no intraday print, no after-hours |
+| Outcome A — close **≥ $77.00** | expires worthless: 15 × $0 ⇒ **realized −$173.45** on the ×15 (−100% of remaining basis). Whole card, all lots: +$128.86 (PB-0002a, 7/31 harvest) − $29.38 (9/10) − $29.36 (9/28) − $173.45 = **≈ −$103.33** net, average-basis arithmetic, broker lot method UNKNOWN; FORGE governs the cent |
+| Outcome B — close **< $77.00** | auto-exercise at ≥ $0.01 ITM (Fidelity Options Agreement, VERIFIED 9/26) ⇒ **short 1,500 TLT (~$115k)** in the account. If that account is the IRA, it cannot hold a short — **Fidelity's action and timing UNKNOWN (D-60)**, same named unknown as the QQQ/USO card |
+| Harvest rail | still live: ≥ **$0.3469** fees-in on 10 contracts ⇒ TLT ≈ **≤ $76.65** at expiry value (−2.0% from 9/29c). Filling it would also take 10 of the 15 out of the exercise branch |
+| Mechanics flag (not a re-ask of HOLD) | TLT needs **−1.57%** today to finish ITM. **If TLT trades below ~$77.25 into the afternoon**, the D-60 exercise branch is live and needs Will's eyes before **15:00 ET** — the same hard stop as WQ-316. His HOLD ruling is not reopened by this; the mechanics are |
+
+⛔ NO GATE MOVED, SET OR SHAVED · no roll (construction rule #21) · forward max loss = the ×15 mark (construction rule #20(d)). Grade the outcome at the next TERRY touch after the 16:00 ET close; PROME re-spawns at the print.

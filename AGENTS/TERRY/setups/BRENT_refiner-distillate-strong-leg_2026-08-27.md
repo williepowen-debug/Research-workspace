@@ -639,3 +639,42 @@ Resolvers, fastest first:
 - **⇒ One session is not a regime.** It is recorded so the next grade can see whether the crack-led read persists.
 
 **Held share:** `$387.145` vs `$412.00` = **−`$24.86` / −6.0%** (vendor close, screening). **No rule exists on the held share** (§ ⑦). WQ-297 A (Will 2026-09-25 14:16 ET) accepted the book's concentration in writing: no offset card, no trim. **Both staged shares stay STAGED. `$0` moved · no order · no gate moved or shaved.**
+
+### ⑪ WATCHER GRADE — `F1` 9/25 RESOLVED on source ② · 9/28 + 9/29 A/B graded · `GATE-TERRY-VLO-HELD-01` first grade line · graded 2026-09-30 Wed 08:06–08:1x ET (`date` wall clock, copied) · PROME spawn `prome-f4` (Tier 1, WQ-184 driver). **`F1` 9/25 = FIRED (source ②, ACCEPTED) ⇒ `GATE-TERRY-VLO-SCALE` TERMINAL ⇒ BOTH STAGED SHARES STAND DOWN — subject to a source-① override. `$0` MOVED.**
+
+**① `F1` for 9/25 — HENRY's inferred settle (packet `3e87ecc97`), ACCEPTED under the letter's source-② rule (CATO ER2: explicit accept/reject owed).**
+
+| item | value (TERRY's own pull, yfinance daily rows `HOX26.NYM` / `CLX26.NYM`, 08:06 ET 9/30) |
+|---|---|
+| ② the 9/25 dated row | `HOX26` **4.4621** × 42 − `CLX26` **92.41** = **`$94.9982`** — reproduces HENRY exactly |
+| finalized? | **YES.** The row that read `4.5646` (post-settle last trade) at 16:03 9/25 now reads `4.4621`: the vendor rewrote last-trade → settle. Its volume (73,894) is its own, not the neighbour's — the ⑨-ter non-finalization tell (a row carrying the prior session's volume) is absent. `CLX26` 92.41 matches the wire-derived settle (HENRY: 9/28 settle 92.60 − 19¢) |
+| ③ settle-window VWAP 14:28–14:30 (re-pulled today, 3 bars/leg) | `HOX26` 4.4591 · `CLX26` 92.2827 ⇒ **`$94.9995`** (§⑩ printed `$95.0014`; the difference is HO rounding in the §⑩ arithmetic, both far inside the tolerance) |
+| acceptance test: ② within `$0.15` of ③ | **\|94.9982 − 94.9995\| = `$0.0013`** (vs §⑩'s ③: `$0.0032`) ⇒ **② ACCEPTED** |
+| verdict | **`$94.9982 < $95.00` ⇒ `F1` FIRED for 9/25**, by `$0.0018`/bbl (< one HO tick; `4.4622` would give `$95.0024`) |
+
+**Why accept, stated so it can be checked:**
+- **The letter decides, not my comfort with the margin.** The ±`$0.15` UNKNOWN band applies *"if only ③ is available"*. ② is now available and passes its own acceptance test, so the band clause has no object. Holding it UNKNOWN now would be re-writing the letter to protect a staged add.
+- **Direction check (construction rule #17):** accepting fires the stand-down, the SIZE-DECREASING branch — the lower evidential burden. Rejecting it would keep a size-increasing path open on a sub-tick margin.
+- **Vendor record on this exact question:** Yahoo's daily close = official settle on 4 of 4 independently checked cells (CLX26 9/23, 9/24, 9/25; BZX26 9/25 — HENRY's table). HO 9/25 itself has **no independent read**. That is the residual risk, named.
+
+**⚠️ Source-① override (Will's hand, optional):** if CME's official NY Harbor ULSD **Nov-26** settle for trade date **09/25/2026** reads **≥ 4.4622**, source ① supersedes ②, F1 was NOT fired, and the row reverts to LIVE (the 9/28 and 9/29 grades below then govern). Expected value per HENRY: 4.4621.
+
+**② A/B on 9/28 and 9/29 — recorded because PROME asked and because they govern under the ① override; no effect while the row is terminal.** Unadjusted closes, own pull (`auto_adjust=False`), 20-bar SMA each time (construction rule #19: n = 20 both windows). ⚠️ The finalized 9/25 bars now read VLO `387.18` / USO `148.33` (§⑩ graded on `387.145` / `148.39` pre-finalization); no 9/25 verdict changes.
+
+| session | A: VLO down AND USO up | B: VLO ≤ SMA-20 ending prior session | verdict |
+|---|---|---|---|
+| **9/28** | VLO `389.57` vs `387.18` (+0.62%, UP) ✗ · USO `150.01` vs `148.33` (+1.13%) ✓ ⇒ **A ✗** | `389.57` vs SMA `382.69` (8/28→9/25) ⇒ **B ✗** (+`$6.88`) | **NOT MET** |
+| **9/29** | VLO `387.72` vs `389.57` (−0.47%) ✓ · USO `143.35` vs `150.01` (−4.44%, DOWN) ✗ ⇒ **A ✗** | `387.72` vs SMA `384.55` (8/31→9/28) ⇒ **B ✗** (+`$3.17`) | **NOT MET** — agrees with PROME's arithmetic |
+
+`F1` on those sessions (recorded): **9/28** ② row `4.4953×42 − 92.60 = $96.20`, ③ `$96.199` ⇒ accepted, **NOT FIRED**. **9/29** ② row is **NOT finalized** (both legs carry 9/28's exact volume, 63,292 / 370,326 — the ⑨-ter tell) ⇒ ② rejected; ③ ESTIMATE `HOX26 4.5093×42 − CLX26 89.3466 = $100.04`, `$5.04` above the line, outside the ±`$0.15` band ⇒ **NOT FIRED on the ③ estimate** (settle itself not read).
+
+**Driver read (construction rule #23, recorded):** 9/29 the crack ROSE (~`$96.20` → ~`$100.04` est.) while crude fell hard (`CLX26` 92.60 → ~89.38) and VLO fell only −0.47% — refiner decoupled from crude, crack-led, the underwritten direction. It changes nothing: the row is terminal on 9/25, and a terminal row is not re-opened by a later favourable session (HENRY: HEN-46 is *stand-down, not dead*; re-entry is a new card).
+
+**③ `GATE-TERRY-VLO-HELD-01` — FIRST GRADE LINE (WQ-330 RULED BOTH, Will 2026-09-28 18:36 ET; the proposal is marked RULED on `VLO-SHARE_management-proposal_2026-09-28.md`).**
+
+| leg | reading | verdict |
+|---|---|---|
+| **A** Nov crack settle `< $90.16` (sell rec) · `< $95` = notice | 9/25 `$94.998` (② accepted) · 9/28 `$96.20` (②) · 9/29 settle **UNKNOWN** (② not finalized; BRENT dark) — ③ estimate `$100.04` is `$9.88` above `$90.16`, far outside the ±`$0.15` single-vendor band | **NOT FIRED** all three sessions. **A-NOTICE on 9/25** (settle < $95): notice only on the held share, no action, as the letter says. 9/29 is graded on the letter's estimate clause, not an inferred settle |
+| **B1** signed US distillate export-restriction text at primary | Checked 08:07–08:08 ET 9/30: Federal Register API (published since 9/15, terms *diesel export* / *distillate export*: none relevant; Presidential Documents since 9/20: 9, none on fuel exports; Public Inspection current: 131 docs, none) · whitehouse.gov/presidential-actions latest ~12 items: none | **NOT FIRED** (VERIFIED at both owner-declared primaries). B2/B3: not read this touch |
+
+**The 2 STAGED shares and `GATE-TERRY-VLO-SCALE`:** the HELD-01 rule leaves them UNCHANGED, and a B1 fire would NOT stand them down under the SCALE letter (WQ-330 record, my flag, PROME did not fold it in). **Separately, and by the SCALE letter's own F1:** they now **STAND DOWN** as of the 9/25 settle (① above). **Held share:** VLO `$387.72` 9/29c vs `$412.00` = −`$24.28` / −5.9% (vendor close, screening). `$0` moved · no order · no gate moved or shaved.

@@ -301,3 +301,15 @@ CRUISE delivered the Caribbean-discounting event ~~confirmed at primary~~ **— 
 
 *(Original text, struck:)*
 ~~CRUISE flags the **`CRU-08` share-count confound** (CCL **issued 69.1M shares** settling $1.1B of 2027 Convertibles in Dec-2025 against ~30M retired by buyback — so the net is **issuance**, and per-share arithmetic anchored on the buyback alone is wrong by more than the effect it measures). **The fact is important and correct as far as I can see.** ⛔ **But it does not touch this file: my EV work is built on OPTION PRICES and REALIZED PRICE MOVES and contains no per-share EPS arithmetic anywhere** — verified by grep, zero hits for the share count or the per-share fuel figure. **`CRU-08` is CRUISE's prediction to carry.** *(Accepting a correction that isn't mine is the mirror of the over-absorption CRUISE themselves withdrew earlier tonight — it misattributes a defect and leaves it unfixed at source.)*~~
+
+## ⑨ POST-PRINT GRADE — CCL Q3 FY2026 (reported Tue 2026-09-29) · graded 2026-09-30 Wed ~08:2x ET (TERRY, PROME spawn `prome-f4`)
+
+| item | reading | source |
+|---|---|---|
+| **`FL-CRU-10`** (CRUISE, 60%): CCL Q3 constant-currency net yield lands AT OR ABOVE its own ~+1.2% guide — FROZEN resolver | **Q3 net yields (constant currency) up 2.4%**, *"over a point better than June guidance"* ⇒ **TRUE** · Brier (CRUISE's p = 0.60) = **0.16** | CCL 8-K earnings release, EDGAR acc `0000815097-26-000104` (`a20263qearningsrelease8-k.htm`), fetched 9/30. ⚠️ The release does not restate the June guide figure; the ~+1.2% is the frozen resolver's own number, and 2.4% clears it under any reading of "over a point better" |
+| Mix confound | not adjusted, per the § 0-bis standing caveat (graded on the frozen resolver only) | — |
+| **Reaction session 9/29** | CCL **$22.14 → $25.11 = +13.4%** (open $24.39, high $25.29) | yfinance unadjusted daily, own pull 9/30 08:2x ET |
+| **`TRY-NOTRADE-CCLPRINT`** counterfactual | Every long put examined (Oct-02 21P/22P, Oct-16 21P, Nov-20 21P/20P, the 21/17.5 spread) finishes worse on a +13.4% day ⇒ **the refusal saved the premium; direction and magnitude both went against the puts.** ⚠️ The refusal was on EV, not direction; the outcome is one draw and is not evidence the EV table was right | — |
+| Envelope | **+13.4% EXCEEDS the 8-print envelope max \|9.81%\|** — a 9th print outside the measured range, on the upside. Construction rule #18's envelope for CCL is now n=9 with a new max; re-measure before any future CCL print card | — |
+
+Routing: `FL-CRU-10` is CRUISE's prediction — this is TERRY's logged grade on the frozen resolver, delivered to CRUISE via the session memo to PROME. `$0`.
