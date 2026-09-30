@@ -11,6 +11,19 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 
 ---
 
+## 2026-09-30 — CATO key-files audit: bounded current-state correction (Will: "All four now")
+
+- **Why:** CATO `AGENTS/CATO/runs/2026-09-30_1014_creed-key-files-audit.md` (CK1 THESIS stale current sections + over budget · CK2 COVERAGE lane 7 escalation cell · CK3 CLAUDE closeout step 8 on the retired STATUS layout · CD5 residual STATUS obligation 27). Every citation re-checked at the file before editing. Will chose "All four now" in-session, including the charter step.
+- **CLAUDE step 8** replaced (catch-ups → `catchups/` + INDEX; byte budget via `read_cap_check`; audit by obligation). Step 6.1's dated "as of 2026-09-29" catch-up pointer de-dated in the same edit, because the new step 8 makes that date go stale at the next catch-up (trap 8, same unit).
+- **Retired step 8, verbatim (crc32 `f2ad27ce`):**
+
+```
+8. **STATUS soft target ~300 lines; split trigger at 320.** It grows by a full catch-up section per spawn. **When you ADD a catch-up section and the file passes 320, `git mv` the OLDEST catch-up section** into `archive/STATUS_CATCHUPS_*.md` with a do-not-cite-as-current banner — never delete; the windows are independently preserved in `thesis/CHANGELOG.md` and the dated `research/REFRESH_*.md` packs. *(Cap-below-trigger is BROCK's pattern: 250 target / 280 trigger.)*
+   > **Stated exception, not a silent violation:** the 7/27 split took STATUS 377 → 313; the file-state block and the `COVERAGE.md`/`REVIVAL_PLAN` pointer edits then took it to **321 — one line past the trigger, no catch-up section added.** The remedy is named rather than deferred: **the next catch-up section archives the 7/20 window**, which is worth ~40 lines. **Do not raise the number instead of doing the split** *(this line has been re-stamped once already — 320 → 321 — precisely so it doesn't become the stale-number class this agent keeps catching in others)*.
+```
+
+- **COVERAGE lane 7** refresh cell: T-06b fired and S6 held; the advancing evidence is a gated fund SELLING or a performing book clearing below par (`FLOW-CREED-03`). **STATUS** obligation 27 (Plaza lien UNKNOWN, no promised answer) and BOTTOM LINE ⑤ read-cap sentence (THESIS over budget) corrected.
+
 ## 2026-09-30 — CW5 residual finished: the n=12 counter validates its history before counting (Will-directed)
 
 - **Why:** CATO's follow-up (`AGENTS/CATO/runs/2026-09-29_2310_creed-workbook-review.md` §CW5, probe + results beside it) showed the counter reporting **n=0** on empty/headerless history and **DUE** on 11 months plus an impossible month, a same-month dated row, a second Basis or a blank Basis, while silently de-duplicating a conflicting CANONICAL row. Will, 9/30: "Finish CATO's remaining CW5 correction … Run CATO's saved counterexamples alongside your existing tests."
