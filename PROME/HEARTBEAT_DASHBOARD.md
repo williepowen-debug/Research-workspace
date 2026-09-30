@@ -114,3 +114,34 @@ This companion keeps render metadata outside the boot-read byte budget.
   }
 }
 ```
+
+*Amendment #3 (2026-09-30 19:1x ET, PROME `prome-94` post-closeout addendum; the 9/30 roll reconciled — FORGE 33bc8c293; WQ-347 registered; Will's sell-or-roll standing practice): projection below.*
+
+```dashboard-amendment
+{
+  "amendment": 3,
+  "source_sha256": "5ab3b0817339c64972ed4ad2ca82a8272412d20f793da9e788299e9e0286630f",
+  "set": {
+    "one": "🔴 THE SEP-30 LINES WERE SOLD AND ROLLED, NOT EXPIRED (FORGE reconciled 9/30 post-close, ANVIL 33bc8c293): QQQ Oct-01 740P ×9 (ITM at the close — WQ-347: SELL OR ROLL by Thu 15:00) + Oct-05 735P ×5 · USO Oct-09 150C ×2 · KRE Dec-31 65P ×2; TLT 77P sold; realized −$3,755 on the four; the bond sell-off's fifth day stands (official 30Y 5.59 · 10Y 5.26 [9/29]); HY 308 / B 316 / CCC 1,157 [9/29]; Will's standing practice: sell or roll before expiry; 25th re-base OWED Thu post-close; $0 moved by PROME.",
+    "channels": {
+      "Equity-vol": {
+        "headline": "🔴 WQ-347: nine QQQ Oct-01 740P (ITM at the 9/30 close, $2.97 / $2,673) expire THURSDAY — sell or roll by 15:00 ET; five Oct-05 735P are Monday's question; no card yet (TERRY Thu)",
+        "body": "Will rolled the nine Sep-30 730P into Oct-01 740P @ $1.92 ($1,733.97) and added five Oct-05 735P @ $2.73 ($1,368.32) — fourteen QQQ puts, two lines, no card. QQQ 739.77 [9/30c] leaves the 740P $0.23 ITM; an exercise would put the IRA short 900 QQQ (D-60's ITM leg UNOBSERVED). VIX 16.34 [9/30c]; no gamma read. Standing practice (Will 19:03): sell or roll before expiry — never hold/lapse."
+      },
+      "Energy": {
+        "headline": "🟠 USO Oct-09 150C ×2 NEW @ $2.99 ($599.33) — the 159C were sold ($1.87) and rolled; oil-call exposure added to the one-oil-bet book (WQ-297 A); Brent Dec `BZZ26` 97.92 [9/30 day bar, not a settle]",
+        "body": "TERRY's WQ-316 advice was to let the calls expire and add no oil exposure; Will rolled instead (his hand, root rule #5; recorded, not adjudicated). USO 145.66 (+1.61%) [9/30c] — a call bought on a green day (root rule #6 note for the card). VLO-SCALE TERMINAL, HELD-01 A/B1 NOT FIRED stand."
+      },
+      "Rates": {
+        "headline": "🔴 Session 5 stands (9/29 H.15: DGS30 5.59 · DGS10 5.26 · DFII10 2.91); the 004 TLT 77P ×15 were SOLD ($18.80), not held to expiry — the duration-short sleeve is TLT Oct-16 82P ×1 + TBT 10 sh; WQ-339 Fri",
+        "body": "Realized on 004's last lot −$154.64 (card all lots ≈ −$139 at the sale; TERRY re-grades). August PCE core 3.01% y/y (mostly revision); October hike odds 36% [ZQX26 9/30 close]. The HOLD-to-expiry rail (WQ-168 ④ / WQ-217) is retired by Will's standing practice; a sell-or-roll rail replaces it on every card."
+      }
+    },
+    "ticker": {
+      "TLT": "TLT 77.78",
+      "QQQ": "QQQ 739.77",
+      "USO": "USO 145.66 [9/30c; book: QQQ Oct-01 740P ×9 · Oct-05 735P ×5 · USO Oct-09 150C ×2 · KRE Dec-31 65P ×2 NEW 9/30, FORGE 33bc8c293]"
+    }
+  }
+}
+```
