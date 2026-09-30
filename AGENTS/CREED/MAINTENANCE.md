@@ -11,6 +11,12 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 
 ---
 
+## 2026-09-30 (late) — July source pack moved to ON DEMAND (boot step 6.2); READS.tsv corrected
+
+- **Why:** `research/REFRESH_2026-07-27.md` is a closed prior pack at 100% of the read budget, read whole at every boot. CATO recommended on-demand; **Will approved directly in-session ("Yes, I approve").**
+- **What:** CLAUDE.md step 6.2 + §Current Rails (the pack leaves the mandatory list; a "historical source packs, on demand" line names all three REFRESH files); README + STATUS rails lines re-labelled. PROME packet `06088fc8f` retires the READS row (`RETIRED-2026-09-30`) and updates the THESIS row note. `VX-CREED-10.02` stale-current value re-labelled as history (prior cells verbatim in `notes/VX_NOTES.md`).
+- **Still rotate-tier, plans kept (SCRATCH):** `thesis/CHANGELOG.md` 84% · `workbook/PREDICTIONS_SCOREBOARD.md` 75%.
+
 ## 2026-09-30 — CATO key-files audit: bounded current-state correction (Will: "All four now")
 
 - **Why:** CATO `AGENTS/CATO/runs/2026-09-30_1014_creed-key-files-audit.md` (CK1 THESIS stale current sections + over budget · CK2 COVERAGE lane 7 escalation cell · CK3 CLAUDE closeout step 8 on the retired STATUS layout · CD5 residual STATUS obligation 27). Every citation re-checked at the file before editing. Will chose "All four now" in-session, including the charter step.
