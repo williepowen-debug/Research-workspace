@@ -14,7 +14,7 @@
 |---|---|---|
 | **2026-09-29** (Tue) 1:30 pm | Plaza Continental Ch.11 hearing (C.D. Cal. Bankr. 8:26-bk-10986) | FDIC-as-receiver on the Ontario lien ⇒ retained; Sunwest ⇒ sold. An evidence opportunity, not a guaranteed answer — UNKNOWN is valid (CATO 9/28) |
 | **2026-09-29** (Tue) | ARI liquidation vote (8-K Item 5.07) | ✅ **DONE 9/29 — APPROVED; `PRED-CREED-005` graded HIT** (8-K acc 0001193125-26-407837). Distribution not yet declared. Grade `PRED-CREED-005`. First distribution ~$3.70–4.00 = ~60% ex-date drop = return of capital, NOT a market move — separate the mechanical adjustment when grading |
-| **~wk of 2026-09-28** | MBA Q2-26 CM/MF debt outstanding | Grade `PRED-CREED-006`+`010` **jointly** (Z.1 leans 006 FALSE; 010 PARTIAL) |
+| ~~**~wk of 2026-09-28**~~ | MBA Q2-26 CM/MF debt outstanding | ✅ **GRADED 2026-09-29:** `006` RESOLVED-FALSE (life +$7,830M < +$10.0B; Brier 0.09) · `010` RESOLVED-PARTIAL, not scored (Will) |
 | **~2026-10-01** | Trepp September DQ | Grade on `registry/PREREG_2026-10_TREPP_PRINT.md` §6. September **cannot fire T-01a** (leg 1 of 2 only) |
 | **~mid-Oct 2026** | Trepp September SS | Same PREREG |
 | **~mid/late Oct 2026** | Q3 bank earnings (FLG, EGBN, OZK, VLY) | Property/metro read into REGINALD's bank cohort; the VLY MF-DPD location/type (WQ-311 open unknown) |

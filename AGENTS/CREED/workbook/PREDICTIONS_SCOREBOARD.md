@@ -1,6 +1,6 @@
 # CREED Predictions Scoreboard
 
-**Created:** 2026-07-27 · **Updated:** 2026-09-29 *(**FIFTH RESOLUTION — `PRED-CREED-005` HIT (70%, Brier 0.09)**: ARI stockholders approved the Plan of Complete Liquidation and Dissolution on 9/29, 8-K Item 5.07 filed the same day, PRIMARY-READ. n=4 → n=5; mean Brier 0.37375 → 0.317. Not Kernel-pinned, so no ledger divergence on this row.)* · Prior 2026-09-28 *(**THIRD + FOURTH RESOLUTIONS — `PRED-CREED-004` HIT (60%, Brier 0.16) and `PRED-CREED-007` MISS (15%, Brier 0.7225)**, graded on CREED's own ledger under **WQ-304 option B** (Will verbatim *"Approve WQ-303 at 4 and WQ-304 option B"*, 2026-09-28, `PROME/WILL_QUEUE.md` @`47623f8b1`). n=2 → n=4. ⚠️ **The Kernel ledger disagrees until a Gate C sitting settles it** — see §SCORE.)* · Prior 2026-08-27 *(**SECOND RESOLUTION — `PRED-CREED-003` RESOLVED-FALSE** on the FDIC Q2 QBP, correct side, Brier 0.1225. n=1 → n=2.)* · Prior 2026-08-20 *(row `002` refreshed to the July SS print in a self-audit — it had carried a June distance AND a since-reversed direction)* · (**FIRST RESOLUTION — `PRED-CREED-009` RESOLVED-TRUE**, and it is a calibration MISS: called at 30%, resolved TRUE, Brier 0.49, worse than a coin flip. n=0 → n=1.)
+**Created:** 2026-07-27 · **Updated:** 2026-09-29 evening *(**SIXTH RESOLUTION — `PRED-CREED-006` RESOLVED-FALSE (30%, correct side, Brier 0.09)** on the MBA Q2-2026 release, PRIMARY-READ: life-insurer CM/MF change as printed **+$7,830M** < +$10.0B. n=5 → n=6; mean Brier 0.317 → **0.279**. **`PRED-CREED-010` recorded PARTIAL and NOT scored (Will, in-session 9/29)**: excluded like 002a. Joint read in §006/010 below. Notes of six rows moved verbatim to `notes/PREDICTIONS_NOTES.md` (read-cap rotation, Will-approved).)* · Prior 2026-09-29 *(**FIFTH RESOLUTION — `PRED-CREED-005` HIT (70%, Brier 0.09)**: ARI stockholders approved the Plan of Complete Liquidation and Dissolution on 9/29, 8-K Item 5.07 filed the same day, PRIMARY-READ. n=4 → n=5; mean Brier 0.37375 → 0.317. Not Kernel-pinned, so no ledger divergence on this row.)* · Prior 2026-09-28 *(**THIRD + FOURTH RESOLUTIONS — `PRED-CREED-004` HIT (60%, Brier 0.16) and `PRED-CREED-007` MISS (15%, Brier 0.7225)**, graded on CREED's own ledger under **WQ-304 option B** (Will verbatim *"Approve WQ-303 at 4 and WQ-304 option B"*, 2026-09-28, `PROME/WILL_QUEUE.md` @`47623f8b1`). n=2 → n=4. ⚠️ **The Kernel ledger disagrees until a Gate C sitting settles it** — see §SCORE.)* · Prior 2026-08-27 *(**SECOND RESOLUTION — `PRED-CREED-003` RESOLVED-FALSE** on the FDIC Q2 QBP, correct side, Brier 0.1225. n=1 → n=2.)* · Prior 2026-08-20 *(row `002` refreshed to the July SS print in a self-audit — it had carried a June distance AND a since-reversed direction)* · (**FIRST RESOLUTION — `PRED-CREED-009` RESOLVED-TRUE**, and it is a calibration MISS: called at 30%, resolved TRUE, Brier 0.49, worse than a coin flip. n=0 → n=1.)
 Tracks resolution outcomes and calibration for CREED's pre-registered predictions. Open rows live in `PREDICTIONS.tsv`; this is the **summary + calibration read**.
 
 > **Created at n=0 on purpose.** CREED registered **10 predictions with self-set confidences** on 2026-07-27 (Will's §10 decision 2, 7/21: *"YES, you set them — your conviction, your numbers"*) and had **no calibration surface at all**. The discipline has to exist **before** the first resolution — otherwise the first resolution sets the precedent for skipping it. *(Adopted from BROCK's scoreboard, which at n=10 produced a read that changed its behaviour.)*
@@ -11,7 +11,7 @@ Tracks resolution outcomes and calibration for CREED's pre-registered prediction
 
 | Hit rate (correct side) | Brier (mean) | Baseline |
 |---|---|---|
-| **n = 5 — 3/5 (60%)** | **0.317** *(1.585 / 5; was 0.37375 at n=4, 0.30625 at n=2)* | 0.25 (coin-flip) |
+| **n = 6 — 4/6 (67%)** | **0.279** *(1.675 / 6; was 0.317 at n=5, 0.37375 at n=4, 0.30625 at n=2)* | 0.25 (coin-flip) |
 
 | ID | Call | Conf | Outcome | Side | Brier |
 |---|---|:--:|---|---|---:|
@@ -20,6 +20,9 @@ Tracks resolution outcomes and calibration for CREED's pre-registered prediction
 | `PRED-CREED-007` | VNQ trails SPY ≥10pp over a trailing 3-mo window (the S8a trigger) | 15% | **TRUE** (−10.12 TR 9/24 · −13.06 9/25) | ✗ wrong | **0.7225** |
 | `PRED-CREED-004` | a further CRE mREIT cuts / reviews / winds down | 60% | **TRUE** (GPMT review 9/23 + cut $0.05→$0.01) | ✓ right | **0.16** |
 | `PRED-CREED-005` | ARI liquidation plan receives stockholder approval (not amended / terminated / merged) | 70% | **TRUE** (9/29: For 72,217,727 · Against 799,088 · Abstain 439,400; 8-K Item 5.07) | ✓ right | **0.09** |
+| `PRED-CREED-006` | MBA life-insurer CM/MF line rises ≥ +$10.0B QoQ, as printed in the Q2 release | 30% | **FALSE** (+$7,830M, +1.0%; MBA by-sector table) | ✓ right | **0.09** |
+
+> **`006` + `010` joint read (2026-09-29).** `006` is graded on MBA's by-sector **table** (+$7,830M; it reconciles to the release's own prose: total +$42.9B, MF life +$4.2B, and to Fed Z.1). ⚠️ **The same release's p.11 chart labels the Q2 life-insurer bar 20,523**, which would have cleared the bar. The chart does not reconcile with the prose: its agency bar (50,644) is exactly 4× the table's 12,661, and MBA's text says agency rose $12.7B. It is recorded, not used. **`010` = PARTIAL, not scored** (Will): the frozen card never said whether PARTIAL counts as right or wrong, and picking after both prints are known can't be neutral (TRUE 0.09 / FALSE 0.49). **What the pair shows:** +$7.8B sits in the pre-registered partial-landing row (+$7–9B) and above the no-ARI H1 counterfactual (+$2–4B). **But** the release's own split puts MF at +$4.2B, so commercial-only is **+$3.6B** (derived: 7,830 − 4,231), against Athene's own commercial **+$8.3B** QoQ, and Athene consolidates Bermuda reinsurers. ⇒ **Neither "partial landing in the US life sector" nor "the MBA line is a bad instrument" is established.** Do not write it up as either.
 
 > 🔴 **2026-09-28 — the mean Brier WORSENS 0.30625 → 0.37375, and that is the honest consequence of grading, not a defect.** Leaving 004/007 open would have FLATTERED the record (CATO WR30/WR31; PROME recomputed the figures from this ledger). **`007` is the book's worst score:** the 15% "honesty anchor" priced the office-demand counter-signal and did not price a rate shock — the fire was rate-led (10y 4.38 → 5.18% on the window, FOMC +25bp 9/16) while tenant demand was still improving. ⚠️ **n=4 is still not a calibration read.**
 >
@@ -67,17 +70,18 @@ Tracks resolution outcomes and calibration for CREED's pre-registered prediction
 >
 > **Rule extended 2026-08-27:** *before pricing a prediction on a stated fact about a series' own history — its streak, its trend, its level — pull that history.* The 8/20 rule covered **resolvability** premises; this one covers **baseline** premises. **Both defects were invisible until a resolution forced a primary pull**, which is the argument for pulling at WRITE time.
 
-**Next resolutions due (as of 2026-09-29):** `006`+`010` joint (MBA Q2, ~wk of 9/28) · `001`/`002` (Trepp monthly, by 12/31; Sept DQ ~10/01) · `008` (KREF Q4, ~Feb 2027).
+**Next resolutions due (as of 2026-09-29 evening):** ~~`006`+`010` joint~~ (graded 9/29) · `001`/`002` (Trepp monthly, by 12/31; Sept DQ ~10/01) · `008` (KREF Q4, ~Feb 2027).
 
 ### Excluded from calibration (recorded for provenance only)
 
 | ID | Call | Conf | Outcome | Why excluded |
 |---|---|---|---|---|
 | `PRED-CREED-002a` | June office SS prints above 17.00%, up from May's 16.75% | **none recorded** | ✅ correct — June office SS = **17.11%** | Written into `WORKBOOK_DESIGN` §7 on 7/4 as a build candidate and **resolved 7/15, before the workbook existed**. **No confidence was recorded at the time, so it is not gradeable.** Counting it would inflate the hit rate with a call that carried no risk. |
+| `PRED-CREED-010` | Athene's Q2 mortgage-loan balance rises materially (~+10%), absorbing ARI's book | 70% | **PARTIAL** — +$6,897M QoQ (+7.4%), $103M short of the frozen $7.0B LANDED bar; the 10-Q names the $8.7B ARI purchase | **Will, in-session 2026-09-29: "Record PARTIAL, no score."** The card never fixed whether PARTIAL counts as right or wrong; choosing after seeing the print can't be neutral. Status token `RESOLVED-PARTIAL` (added to the ledger header). |
 
 ---
 
-## OPEN BOOK (5 open, 5 graded + 1 excluded) — what each one actually tests
+## OPEN BOOK (3 open, 6 graded + 2 excluded) — what each one actually tests
 
 | ID | Conf | Resolves | Tests |
 |---|:--:|---|---|
@@ -86,11 +90,11 @@ Tracks resolution outcomes and calibration for CREED's pre-registered prediction
 | ~~`003`~~ | ~~35%~~ | **RESOLVED-FALSE 2026-08-27** | S3's trigger — **did NOT rise.** >$250B CRE PDNA 2.73 → **2.48** (−25bp), 2nd straight decline; reserve coverage 166.8 → **172.7**. `CREED-T-03` **NOT FIRED**. **Moved to SCORE above.** ⚠️ Its "six straight quarters" premise does not survive the primary pull — see the n=2 finding |
 | ~~`004`~~ | ~~60%~~ | **RESOLVED-TRUE 2026-09-28 (event 9/23)** | **HIT** — GPMT formal Board review (sale / combination / capital raise) + dividend cut. ARI's template propagated to one more name. **Moved to SCORE above.** Kernel record still OPEN (option B) |
 | ~~`005`~~ | ~~70%~~ | **RESOLVED-TRUE 2026-09-29** | **HIT** — dissolution **approved** at the 9/29 Special Meeting (98.9% of votes cast For; ~57.1% of outstanding represented). No amendment, termination or merger. **Moved to SCORE above.** ⚠️ First-distribution amount/dates NOT yet declared |
-| `006` | **30%** ⚠️ | MBA Q2, ~mid-Sept | the **aggregate** life-insurer line rises **≥ +$10.0B** *(re-spec'd 7/27 — see below)* |
+| ~~`006`~~ | ~~30%~~ | **RESOLVED-FALSE 2026-09-29** | the **aggregate** life-insurer line rose **+$7,830M**, below +$10.0B. **Correct side, Brier 0.09. Moved to SCORE above** *(re-spec'd 7/27 — see below)* |
 | ~~`007`~~ | ~~15%~~ | **RESOLVED-TRUE 2026-09-28 (condition met 9/24)** | **MISS** — the S8a trigger fired (`CREED-T-08a`). The counter-signal it anchored is gone, taken by rates rather than tenants. **Moved to SCORE above.** Kernel record still OPEN (option B) |
 | `008` | 45% | KREF Q4, ~Feb 2027 | management's own <10% legacy-office target |
 | ~~`009`~~ | ~~30%~~ | **RESOLVED-TRUE 2026-08-20** | the S2 trigger — **FIRED.** May 70 / Jun 65 / Jul 66; sustain met at the **June** print. **Moved to SCORE above.** The "resolvability risk" clause was the defect, not the safeguard |
-| `010` | 70% | **Athene Q2 10-Q, ~Aug** | the **acquirer's own balance sheet** — second independent surface for the ARI $9B. **Athene leg read 8/13, off the primary 10-Q (filed 8/10): Δ +$6.9B — PARTIAL band, $103M short of the $7.0B LANDED bar. Primary now confirms final purchase price $8.7B (not ~$9B). NOT a full resolution — waits on `006` for the joint verdict per this pair's grading rule** |
+| ~~`010`~~ | ~~70%~~ | **RESOLVED-PARTIAL 2026-09-29, NOT SCORED (Will)**, see Excluded above | the **acquirer's own balance sheet** — second independent surface for the ARI $9B. **Athene leg read 8/13, off the primary 10-Q (filed 8/10): Δ +$6.9B — PARTIAL band, $103M short of the $7.0B LANDED bar. Primary now confirms final purchase price $8.7B (not ~$9B). NOT a full resolution — waits on `006` for the joint verdict per this pair's grading rule** |
 
 ---
 

@@ -11,6 +11,13 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 
 ---
 
+## 2026-09-29 (evening) — `workbook/PREDICTIONS.tsv` hot/cold notes split + a new `RESOLVED-PARTIAL` token
+
+- **Why:** 26,473 B = 81% of the 32,550 B read budget (rotate tier; STATUS obligation 28). Kernel row pins (`PRED-001/004/007`, Gate C Sitting 2) meant the plan went to Will first. **Approved in-session 9/29.**
+- **What:** the Notes cells of six UNPINNED rows (`002a`, `003`, `005`, `006`, `009`, `010`) moved VERBATIM to the new `notes/PREDICTIONS_NOTES.md` (one `## PRED-CREED-xxx` section each, with crc32 + byte count). Each cell now holds a short current-state line + pointer + crc. **26,473 → 15,168 B (47%).** Columns 1–6 of every row unchanged. Pinned rows byte-identical (raw-line sha `1a63c2ff0d` / `50e84d2b8f` / `19e4d1a003`, checked before and after in the same script). Same pattern as `VX.tsv` (9/26) and `THRESHOLDS.tsv` (9/28).
+- **New status token `RESOLVED-PARTIAL`** (ledger header line 5): a frozen grade card's PARTIAL band with no TRUE/FALSE mapping fixed before the print. It is recorded and EXCLUDED from Brier. First use: `PRED-010` (Will: "Record PARTIAL, no score"). No fleet-canon equivalent. `creed_selfcheck` counts it as resolved, not open, which is correct.
+- **How to write from now on:** new dated notes go at the top of the row's section in `notes/PREDICTIONS_NOTES.md`; keep TSV cells short. Not a boot read.
+
 ## 2026-09-29 — `cases/` created: the named-CRE-case ledger (Will-directed)
 
 - **Why:** Will, 9/29 (in WALTER's session, relayed in WALTER packet @`dffcb78e0`; built on the relayed word, with confirmation asked of Will in CREED's session. Low stakes: CREED-owned files, $0, no gated surface): *"start trying to track major cases ... search for patterns or other helpful connextions."* Named cases had been scattered across KB rows (`KB-046`), desk files (OZK, REGINALD) and BOARD signals, with nothing to join them.
