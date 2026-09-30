@@ -64,7 +64,7 @@ Read these first:
 
 Use these before making current CRE / CMBS claims:
 
-- `AGENTS/CREED/research/REFRESH_2026-07-27.md` — **current source pack** (CRE lender leg: ARI wind-down + KREF credit recognition; June SS resolved at 17.11%; life-science bifurcation; mall-cadence kill; 7/27 intraday tape)
+- `AGENTS/CREED/research/REFRESH_2026-07-27.md` — **PRIOR pack, ON DEMAND since 2026-09-30** (not a boot read; CRE lender leg: ARI wind-down + KREF credit recognition; June SS resolved at 17.11%; life-science bifurcation; mall-cadence kill; 7/27 intraday tape)
 - `AGENTS/CREED/research/REFRESH_2026-07-04.md` — superseded 7/27; retained as June-Trepp / realized-recognition-cluster source-trail
 - `AGENTS/CREED/research/REFRESH_2026-06-21.md` — superseded 7/4; retained as FDIC-Q1 / maturity-wall source-trail
 - `AGENTS/CREED/thesis/THESIS.md` — current thesis rails (**current state only since the 2026-09-30 split**)

@@ -71,7 +71,7 @@ Current thesis:
 
 ## Current Rails
 
-- Source pack: `AGENTS/CREED/research/REFRESH_2026-07-27.md` (**current**; supersedes 7/04, retained as the June-Trepp / recognition-cluster source-trail; 6/21 retained as FDIC-Q1 / maturity-wall source-trail)
+- Source pack: `AGENTS/CREED/research/REFRESH_2026-07-27.md` (**PRIOR pack, ON DEMAND since 2026-09-30, Will-approved**; not current state; supersedes 7/04, retained as the June-Trepp / recognition-cluster source-trail; 6/21 retained as FDIC-Q1 / maturity-wall source-trail)
 - Thesis rails: `AGENTS/CREED/thesis/THESIS.md`
 - Thesis changelog: `AGENTS/CREED/thesis/CHANGELOG.md`
 - Inbox triage: `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`

@@ -158,6 +158,8 @@ Extend-and-pretend still WORKING at the aggregate (servicers unwilling to seize;
 ## VX-CREED-10.02 — CRE Credit vs CRE Equity divergence
 *moved verbatim 2026-09-26, crc32 `8ed2f001`, 426 B*
 
+*** 2026-09-30 STALE-CURRENT FIX (CATO key-files follow-up; Will-approved; no new research, no score change): the Current_Value cell stated the 7/27 divergence as if current. The equity leg has since FIRED on rates (CREED-T-08a 9/24) and the lender cohort census (9/26) shows 4 of 11 cut/liquidating, so the July 'opposite stories' framing is overtaken (THESIS open question 6, reframed 9/30). No current spread figure is held; a re-measure would be new research. PRIOR CELLS, VERBATIM: Current_Value = 'mREIT median ~-9%/3mo vs office equity REITs +14 to +77%/3mo' · Status = 'ORANGE' · Last_Updated = '2026-07-27' · Source = 'yfinance unadjusted closes, intraday 7/27' · hot Notes = '*** NEW 7/27 — THE VECTOR THAT EXPOSED THE BLIND SPOT. *** 7 of 11 mREITs negative on 3mo. The public market has TWO CRE legs telling OPPOSITE … [FULL NOTE (caveats): notes/VX_NOTES.md#VX-CREED-10.02]'. The 7/27 measurement also stays in VX_HISTORY.
+
 *** NEW 7/27 — THE VECTOR THAT EXPOSED THE BLIND SPOT. *** 7 of 11 mREITs negative on 3mo. The public market has TWO CRE legs telling OPPOSITE stories; scoring them as one number (the pre-7/27 S8) destroyed the information. *** OPEN QUESTION #7 in THESIS: which leg is the leading indicator? *** Caveat cutting the other way: KREF is +22.6%/3mo AFTER its 60% cut — the lender price tape is not uniformly confirming either.
 
 ## VX-CREED-10.03 — CRE Lender Capital Withdrawal

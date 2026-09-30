@@ -92,7 +92,7 @@ Standing rule: route to the **domain owner**, one signal at a time, transmission
 5. Treat legacy CREED material under `AGENTS/REGINALD/sub-agents/CREED/` as **source archive**, not current truth.
 6. Before making market claims, read the current rails in this order:
    1. 🔴 **CURRENT STATE — `AGENTS/CREED/STATUS.md` (the HOT file: header + §Standing Obligations + §BOTTOM LINE), then the CURRENT catch-up named at `catchups/INDEX.md` (whichever file INDEX marks **CURRENT**; this step deliberately names no date so it cannot lag — re-aligned 2026-09-30 with step 8), then `registry/THRESHOLDS.tsv` + `registry/CREED_T_FIRED_LOG.tsv` + the newest `registry/PREREG_*_TREPP_PRINT.md` (frozen letter ABOVE its line; graded record BELOW it) + the newest `workbook/KB.tsv` rows.** *(Re-pointed **2026-09-26** in the SAME COMMIT as the STATUS hot/cold split — catch-ups no longer live in STATUS, so this slot names the INDEX, not a dated section, and cannot be orphaned by the next catch-up. Prior pointer (§2026-09-02 + KB-022/023/024/029 + PREREG_2026-09) preserved in git history; §2026-09-02 now lives at `catchups/2026-09-02.md`.)* 🔴 **§Standing Obligations is a boot read in its own right** — a byte-clean split can silently delete an owed action while every byte check passes (NEXUS 9/02).
-   2. `AGENTS/CREED/research/REFRESH_2026-07-27.md` — **PRIOR PACK, labelled.** Still the best source-trail for the CRE lender leg, June SS resolution and life-science bifurcation. ⚠️ **It predates the T-02 fire and the Trepp source-tier upgrade — read it as a trail, not as current state.** (`REFRESH_2026-07-04.md` = June-Trepp / recognition-cluster trail; `REFRESH_2026-06-21.md` = FDIC-Q1 / maturity-wall trail.)
+   2. **ON DEMAND, not a boot read** *(changed 2026-09-30, Will-approved: it was a closed pack read whole at every boot, at 100% of the read budget)*: `AGENTS/CREED/research/REFRESH_2026-07-27.md` — **PRIOR PACK, historical reference.** Open it only when a question needs its source trail. Still the best source-trail for the CRE lender leg, June SS resolution and life-science bifurcation. ⚠️ **It predates the T-02 fire and the Trepp source-tier upgrade — read it as a trail, not as current state.** (`REFRESH_2026-07-04.md` = June-Trepp / recognition-cluster trail; `REFRESH_2026-06-21.md` = FDIC-Q1 / maturity-wall trail.)
    3. `AGENTS/CREED/thesis/THESIS.md`
    4. `AGENTS/CREED/thesis/CHANGELOG.md`
    5. `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
@@ -198,14 +198,15 @@ Use the current rails (STATUS header + the CURRENT catch-up) for thesis state; t
 
 ## Current Rails
 
-Current source pack and thesis rails. These are mandatory before CREED makes current analytical claims:
+Thesis rails. These are mandatory before CREED makes current analytical claims (current state itself lives in STATUS + the CURRENT catch-up + the workbook):
 
-- `AGENTS/CREED/research/REFRESH_2026-07-27.md` (**current** source pack; `REFRESH_2026-07-04.md` = June-Trepp / recognition-cluster source-trail; `REFRESH_2026-06-21.md` = FDIC-Q1 / maturity-wall source-trail)
 - `AGENTS/CREED/thesis/THESIS.md`
 - `AGENTS/CREED/thesis/CHANGELOG.md`
 - `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
 - `AGENTS/CREED/research/REIT_EQUITY_TAPE_MODULE_2026-06-21.md` (**method and history module; its 2026-08-20 snapshot is PRE-FIRE and not current.** Current S8a lives in `VX-CREED-7.01`: **`CREED-T-08a` FIRED 2026-09-24** (TR −10.12; −13.06 on 9/25); **9/29 close −7.89pp TR, back inside the band, the fire stands; S8a = 4, Will-ruled 9/28.** *(This line taught the 8/20 "+0.07pp TR" level as live until 2026-09-29, PROME C5.)*) ⚠️ *Recompute with `.venv/bin/python3 AGENTS/CREED/scripts/s8a_relative.py` before citing S8a — never quote the point alone, and never call a sub-2-sigma move a trend.* ⚠️ *This pointer read "7/2" until 2026-08-20 while the file's own header read 7/27 — it had lagged three weeks. **Read the file's header, not this line, and fix this line when they diverge.***
 - `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md`
+
+**Historical source packs, ON DEMAND (not mandatory reads; changed 2026-09-30, Will-approved):** `research/REFRESH_2026-07-27.md` (prior pack: CRE lender leg, June SS, life-science bifurcation; predates the T-02 fire and the August prints) · `REFRESH_2026-07-04.md` (June-Trepp / recognition-cluster trail) · `REFRESH_2026-06-21.md` (FDIC-Q1 / maturity-wall trail).
 
 Every trade-relevant number still needs a source/date. Refresh monthly CMBS, FDIC, or REIT/broker tape before treating levels as current.
 
