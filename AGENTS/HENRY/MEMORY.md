@@ -48,7 +48,13 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (2026-09-30 Wed 08:04 → 08:1x EDT (`date`) — PROME spawn `prome-f4`, Tier 1, DOCKET L385; launched from PROME cwd)
+### CHANGES SINCE LAST SESSION (2026-09-30 Wed 17:3x EDT (`date`) — PROME re-ping `prome-94`, Tier 1; release-day log only)
+
+- **August PCE + Q2 GDP 3rd LOGGED** (STATUS § 9/30 EVENING): core +0.25% m/m / 3.01% y/y, headline +0.31% / 3.42%, income +0.24%, spending +0.86% (real +0.6%), saving 4.1%, GDP 2.2% (2nd est. 1.5%). **Both releases = BEA ANNUAL UPDATE** ⇒ show priors in BOTH vintages (ALFRED `vintage_date=`); the 3.0-vs-3.3 core y/y "miss" is mostly revision (old-vintage July 3.34%). Oct hike odds → **36%** [ZQX26 9/30 close]. Curve: bear steepener (2Y −1, 10Y +3, 30Y +5, real +2).
+- ⚠️ **DGS30 2002–06 "gap" premise CONTRADICTED** by today's download (1,037 rows, 43 blank) — no 30Y "since" superlative until re-checked. 10Y 5.29 = highest since 2002-05-14 (DGS10).
+- NOT done: gamma board at the 9/30 close; STATUS rotation (97% of the 32,550 B cap, rotation_due was already set at 80% before this edit).
+
+### Prior — 9/30 pre-open (2026-09-30 Wed 08:04 → 08:1x EDT (`date`) — PROME spawn `prome-f4`, Tier 1, DOCKET L385; launched from PROME cwd)
 
 - **F3 leg 1 NOT MET — Russia EXTENDED the diesel ban to 10/31** (Bloomberg/Rigzone 06:01 ET + Moscow Times; government.ru unreachable ⇒ INFERRED). Graded AS WRITTEN ⇒ F3 spent. ⚖️ Re-arm at 10/31 would change the letter ⇒ NAMED for Will (L471 sitting 10/6), not made. Basis = F1's (matched Nov, CME settle, through 10/14; UNKNOWN after if unruled). `reports/2026-09-30_F3-basis-and-ban-lapse-grade.md`.
 - 🆕 **Vendor continuous `HO=F` history is RE-STITCHED** (today every row 9/10–9/29 = HOV26; my 9/14 record was ≈HOX26). ⇒ never re-derive a past crack from a later continuous pull; `expireDate` metadata = the ticker NOW, not a historical row. Sent to BRENT (its L471 expireDate schedule) + TERRY.
@@ -57,7 +63,7 @@
 
 ### NEXT SESSION — in this order (9/30 spawn)
 
-1. 🔴 **Log 9/30 PCE + GDP 3rd** (missed by the spawn) · **Thu 10/1 ISM + FORUM-7 FINAL** (FR2004 ~16:15 ET) · **HEN-47 verdict by 10/2** · NFP reaction 10/2.
+1. ✅ 9/30 PCE + GDP 3rd logged by the evening re-ping. 🔴 **STATUS rotation owed (97% of cap)** · **Thu 10/1 ISM + FORUM-7 FINAL** (FR2004 ~16:15 ET) · **HEN-47 verdict by 10/2** · NFP reaction 10/2.
 2. 🔴 Gamma board at every close; walls only if horizons agree.
 3. HEN-46: F1 on matched Nov through 10/14; F3 spent unless Will rules reading (b) at L471. 🟡 by 10/5: WQ-252 per-candidate crack step measurements → DAEDALUS (9/29 Nov $100.04 vs Dec $94.71 = step −$5.33).
 4. Carried from 9/28 #5 below.
@@ -79,11 +85,7 @@
 4. ✅ **WATCH_FOR R3 SENT 9/28** → WALTER (drop 6, propose 6 keyed to HEN-46; WALTER tests, PROME lands — adopt/decline its replacements) · 🟡 **by 10/5: WQ-252 per-candidate crack step measurements** → DAEDALUS.
 5. Carried: real-yield letter (must name BOTH TP models + the day-split) · KRE "Muse" deposit-flight candidate (REGINALD's) · breadth gap (Will's) · confidence backfill · archive block-numbering audit · `SIG-W-20260910-013` overlay · own `CLAUDE.md` KB count stale (now ML-HEN-175).
 
-### Prior session (2026-09-24 22:41 → 09-25 03:32 EDT) — CHANGES / NEXT rotated verbatim → `status_archive/STATUS_ARCHIVE_2026-09.md` block 39.
-
-### Prior session (2026-09-24 21:19 ET catch-up) — CHANGES / NEXT rotated verbatim → `status_archive/STATUS_ARCHIVE_2026-09.md` block 36. NEXT #1–#2 carried as #1–#2 above; #3–#5 carried.
-
-### Prior session (2026-09-24 16:40 ET, prome-f5) — CHANGES / NEXT rotated verbatim → `status_archive/STATUS_ARCHIVE_2026-09.md` block 35. Its NEXT #1 (finalized 9/24 row) is carried as #1 above; #2 (9/25 F1) carried; #3 WQ-252 Will's; #4 F3 anchor carried in #3; #5 carried.
+### Prior sessions 9/24 (22:41 → 03:32 · 21:19 · 16:40) — CHANGES / NEXT rotated verbatim → `status_archive/STATUS_ARCHIVE_2026-09.md` blocks 39 · 36 · 35.
 
 ### Prior session (2026-09-21) — CHANGES / NEXT / CARRY rotated verbatim → `status_archive/STATUS_ARCHIVE_2026-09.md` block 33. Kill-on-sight list and carry rules live there; nothing retired.
 

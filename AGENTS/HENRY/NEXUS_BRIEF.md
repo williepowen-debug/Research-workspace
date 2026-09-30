@@ -1,10 +1,11 @@
 # HENRY — NEXUS Brief
-**Status:** 🔴 — **[9/30 pre-open] DEALERS STILL SHORT GAMMA (flip 7,693–7,694 vs SPX 7,670.84 [9/29 close]) · HEN-46 F3 NOT FIRED (Russia extended the diesel ban to 10/31) · OCT HIKE ODDS 70%→50%→44% (ZQX26).** Rates/credit backdrop per the 9/28 line below.
+**Status:** 🔴 — **[9/30 close] AUGUST CORE PCE +0.25% m/m / 3.01% y/y, UNDER the +0.3 / 3.3 consensus (y/y gap mostly BEA's annual revision — July was 3.34% pre-revision) · OCT HIKE ODDS → 36% [ZQX26 close] · BEAR STEEPENER: 2Y 4.88 (−1), 10Y 5.29 (+3, highest since 2002-05-14), 30Y 5.64 (+5), 10Y real 2.93 (+2) [Treasury 9/30] · Q2 GDP 2.2% (from 1.5%).** Log → STATUS § 9/30 EVENING.
+**Earlier 9/30:** 🔴 — **[9/30 pre-open] DEALERS STILL SHORT GAMMA (flip 7,693–7,694 vs SPX 7,670.84 [9/29 close]) · HEN-46 F3 NOT FIRED (Russia extended the diesel ban to 10/31) · OCT HIKE ODDS 70%→50%→44% (ZQX26).** Rates/credit backdrop per the 9/28 line below.
 **Prior status (9/28):** 🔴 — **[9/28 close] RATES AT 2007 HIGHS ON REAL YIELDS · CREDIT TAIL THROUGH RED WITH BB JOINING · DEALERS SHORT GAMMA · VIX STILL 16.** 10Y **5.24%** (highest close since 2007-06-12) · 30Y **5.56%** (first close through my 5.50 red) · 2Y **4.92%** [Treasury par 9/28]. 9/22→9/28: 10Y +28 = real +27, breakeven +1.
 **Domain:** US market structure + macro data (CPI/PPI/PCE/ISM/NFP) + vol regime (gamma/0DTE layer; **VIOLET owns the vol broadcast**) + equity positioning + AI-capex/semiconductor supply chain.
 **LIVE STATE — 9/28 close, per cell:** SPX **7,683.69** [close] · VIX **16.07** [^VIX 9/28 bar; CBOE publisher 9/25 = 14.87] · VIX9D **14.39** · VIX3M **18.23** · VVIX **91.02** · SKEW **146.25** [CBOE publisher 9/28] · KRE **70.55** [9/28 last] · USD/JPY **157.46** [live 20:35 ET] · Nov Brent settle **$105.28** [9/28, via BRENT] — ⛔ continuous `BZ=F` rolled 9/25; any "Brent −5%" read is an artefact.
 **SETTLED [FRED obs 2026-09-25]:** **HY 293 · CCC 1,128 · BB 176 → gap 952** (widest in FRED's window 2023-09-29→; CCC 2nd-highest behind 1,137 [2025-04-07]).
-**As of:** 2026-09-30 08:12 EDT (`date`) — FOLD (NEXUS Amendment 10): written after the final STATUS write, immediately before commit. 9/30 cells: SPX 7,670.84 [9/29 close] · KRE 69.83 [9/29 close] · HY 302 / CCC 1,146 / BB 183 / gap 963 [FRED 9/28]; the LIVE STATE line above is 9/28's.
+**As of:** 2026-09-30 17:38 EDT (`date`) — FOLD (NEXUS Amendment 10): written after the final STATUS write, immediately before commit. 9/30-close cells: SPX 7,651.54 · VIX 16.34 · KRE 69.44 [fetch.py] · Treasury par 9/30 as above · HY 302 / CCC 1,146 / BB 183 / gap 963 [FRED 9/28]; the LIVE STATE line above is 9/28's. Gamma NOT re-measured at the 9/30 close.
 **Recent thesis pivot:** 9/18 HEN-45 CONFIRM → 9/24 real-yield leg + gamma ≈ 0 → **9/28: red lines through on 30Y + CCC, gamma NEGATIVE, and ACM attributes the 9/23–9/24 burst to term premium (FORUM-7 P1, provisional).**
 
 > ## 🔴 PEER-CRITICAL — 2026-09-30 (PROME spawn, pre-open)
@@ -31,7 +32,7 @@
 
 **The asymmetry, in one line:** it has started to close from the risk side — **rates at 2007 highs on real yields, the credit tail through red with BB joining, dealers short gamma** — while index vol (16.07) is still priced for calm. Nothing mechanical absorbs a down move now.
 
-**Rates:** real-led and curve-wide, global (gilts/Bunds/JGBs at multi-decade highs, SECONDARY). Two drivers on different days: term premium (9/23–24, ACM) and the 2027 path (9/28, front-led). **A premium leg can reverse on supply (10/6–10/8 auctions) with no Fed change; a path leg only on data (PCE 9/30 · NFP 10/2 · CPI 10/14).** October +25bp ≈ **68%** [ZQX26 vendor bar 9/28; FedWatch method, not CME's figure, ±2pp; BOND agrees].
+**Rates:** real-led and curve-wide, global (gilts/Bunds/JGBs at multi-decade highs, SECONDARY). Two drivers on different days: term premium (9/23–24, ACM) and the 2027 path (9/28, front-led). **A premium leg can reverse on supply (10/6–10/8 auctions) with no Fed change; a path leg only on data (PCE 9/30 · NFP 10/2 · CPI 10/14).** October +25bp ≈ **36%** [ZQX26 vendor bar 9/30 close; FedWatch method, not CME's figure, ±2pp] (68% on 9/28). **9/30 PCE split the leg: the front end eased, the long real leg extended.**
 
 **Gamma:** **negative** at both horizons, spot 0.3% under the flip. Moves get amplified in both directions into this week's prints.
 
@@ -63,7 +64,7 @@
 
 ## NEXT DECISION POINT
 
-- **What:** (1) Does **August PCE (9/30)** extend or reverse the real-yield leg? (2) FORUM-7: does KW agree with ACM (P2), and what does FR2004 show (FINAL 10/1)? (3) Does HY keep widening toward the 320 yellow, or retrace? (4) Does SPX hold the flip with dealers short gamma?
+- **What:** (1) ✅ 9/30: August PCE **reversed the leg at 2Y and extended it at 10Y/30Y** (cause of the long-end rise UNATTRIBUTED — ACM 9/30 unread); does ISM/NFP finish the October case? (2) FORUM-7: does KW agree with ACM (P2), and what does FR2004 show (FINAL 10/1)? (3) Does HY keep widening toward the 320 yellow, or retrace? (4) Does SPX hold the flip with dealers short gamma?
 - **When:** Wed 9/30 (PCE + GDP 3rd + ban expiry + MU + MOF) → Thu 10/1 (ISM + FR2004) → Fri 10/2 (NFP + HEN-47 verdict) → 10/6–10/8 auctions → Wed 10/14 CPI.
 - **What would change the view:** breakevens joining (T10YIE >2.40) ⇒ an inflation scare, re-attribute · HY <260 × 2 (`GATE-HY-REKILL`) ⇒ the kill, one event · VIX >23 sustained ⇒ vol-control selling engages, with dealers short gamma.
 
