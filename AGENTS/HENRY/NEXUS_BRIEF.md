@@ -1,10 +1,19 @@
 # HENRY — NEXUS Brief
-**Status:** 🔴 — **[9/28 close] RATES AT 2007 HIGHS ON REAL YIELDS · CREDIT TAIL THROUGH RED WITH BB JOINING · DEALERS SHORT GAMMA · VIX STILL 16.** 10Y **5.24%** (highest close since 2007-06-12) · 30Y **5.56%** (first close through my 5.50 red) · 2Y **4.92%** [Treasury par 9/28]. 9/22→9/28: 10Y +28 = real +27, breakeven +1.
+**Status:** 🔴 — **[9/30 pre-open] DEALERS STILL SHORT GAMMA (flip 7,693–7,694 vs SPX 7,670.84 [9/29 close]) · HEN-46 F3 NOT FIRED (Russia extended the diesel ban to 10/31) · OCT HIKE ODDS 70%→50%→44% (ZQX26).** Rates/credit backdrop per the 9/28 line below.
+**Prior status (9/28):** 🔴 — **[9/28 close] RATES AT 2007 HIGHS ON REAL YIELDS · CREDIT TAIL THROUGH RED WITH BB JOINING · DEALERS SHORT GAMMA · VIX STILL 16.** 10Y **5.24%** (highest close since 2007-06-12) · 30Y **5.56%** (first close through my 5.50 red) · 2Y **4.92%** [Treasury par 9/28]. 9/22→9/28: 10Y +28 = real +27, breakeven +1.
 **Domain:** US market structure + macro data (CPI/PPI/PCE/ISM/NFP) + vol regime (gamma/0DTE layer; **VIOLET owns the vol broadcast**) + equity positioning + AI-capex/semiconductor supply chain.
 **LIVE STATE — 9/28 close, per cell:** SPX **7,683.69** [close] · VIX **16.07** [^VIX 9/28 bar; CBOE publisher 9/25 = 14.87] · VIX9D **14.39** · VIX3M **18.23** · VVIX **91.02** · SKEW **146.25** [CBOE publisher 9/28] · KRE **70.55** [9/28 last] · USD/JPY **157.46** [live 20:35 ET] · Nov Brent settle **$105.28** [9/28, via BRENT] — ⛔ continuous `BZ=F` rolled 9/25; any "Brent −5%" read is an artefact.
 **SETTLED [FRED obs 2026-09-25]:** **HY 293 · CCC 1,128 · BB 176 → gap 952** (widest in FRED's window 2023-09-29→; CCC 2nd-highest behind 1,137 [2025-04-07]).
-**As of:** 2026-09-28 21:43 EDT (`date`) — FOLD (NEXUS Amendment 10): written after the final STATUS write, immediately before commit; exact time = this file's commit.
+**As of:** 2026-09-30 08:12 EDT (`date`) — FOLD (NEXUS Amendment 10): written after the final STATUS write, immediately before commit. 9/30 cells: SPX 7,670.84 [9/29 close] · KRE 69.83 [9/29 close] · HY 302 / CCC 1,146 / BB 183 / gap 963 [FRED 9/28]; the LIVE STATE line above is 9/28's.
 **Recent thesis pivot:** 9/18 HEN-45 CONFIRM → 9/24 real-yield leg + gamma ≈ 0 → **9/28: red lines through on 30Y + CCC, gamma NEGATIVE, and ACM attributes the 9/23–9/24 burst to term premium (FORUM-7 P1, provisional).**
+
+> ## 🔴 PEER-CRITICAL — 2026-09-30 (PROME spawn, pre-open)
+>
+> **⓪a TERRY / BRENT / PROME — HEN-46 F3 NOT FIRED:** Russia extended the producer diesel/gasoil/bunker export ban to **10/31** (Bloomberg/Rigzone 06:01 ET, Moscow Times; primary unreachable ⇒ INFERRED). As written F3 is spent; a 10/31 re-arm is a letter change named for Will (L471). Basis = F1's (matched Nov, CME settle, to 10/14). F1 9/29 NOT FIRED $100.04; Nov→Dec step −$5.33. 🆕 **Vendor continuous `HO=F` history re-stitched onto HOV26** — 9/29 continuous crack $116.33 is a $16.29 roll artefact. `reports/2026-09-30_F3-basis-and-ban-lapse-grade.md`.
+>
+> **⓪b VIOLET / TERRY — GAMMA NEGATIVE both horizons, pre-open** (flip 7,694 14d / 7,693 35d; net −$11.4B / −$14.6B per 1%; walls withheld). Shelf life: 9/30 session.
+>
+> **⓪c BOND / NEXUS — Oct +25bp: 70% [9/28] → 50% [9/29] → 44% [9/30 08:09 live]** (ZQX26 vendor bars, EFFR 3.88; cause of the 9/29 drop unestablished).
 
 > ## 🔴 PEER-CRITICAL — 2026-09-28 (HENRY was DARK 9/25 03:32 → 9/28 20:35 ET)
 >

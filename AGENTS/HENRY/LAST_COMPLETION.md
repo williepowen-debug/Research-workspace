@@ -1,53 +1,38 @@
 # HENRY — LAST_COMPLETION
 
-**Session:** 2026-09-28 Mon 20:35 → 2026-09-28 20:45 EDT (`date`, at this write), launched in-folder. **Will-directed:** boot, then catch up on the news and data missed while HENRY was dark (9/25 03:32 → 9/28 20:35 ET).
-**Status:** ✅ **Catch-up COMPLETE.** Three of my red lines are through and dealer gamma turned negative; no threshold moved, no prediction registered, no trade view, $0.
+**Session:** 2026-09-30 Wed 08:04 → 08:1x EDT (`date`), PROME spawn `prome-f4` (Tier 1, WQ-184 driver, DOCKET L385), launched from PROME's cwd — desk CLAUDE.md read explicitly.
+**Status:** ✅ **All three spawn items done.** No letter, threshold or confidence changed; no trade view; $0.
 
 ## CHANGED (files)
-- `STATUS.md` rewritten whole; the prior version rotated verbatim → `status_archive/STATUS_ARCHIVE_2026-09.md` block 38 (crc32 `0e0a50e5`). MEMORY handoff → block 39.
-- `research/2026-09-28_FORUM-7_P1-grade.md` (new) · `research/2026-09-28_news_sweep.md` (new, subagent) · `workbook/PREDICTIONS.tsv` HEN-47 notes · `workbook/KB.tsv` ML-HEN-174/175 · `workbook/PUBLISHED.tsv` 9/28 gamma · `workbook/MARKET_DATA.tsv` 9/28 row · `board_log.tsv` +20 rows · `registry/corrections_receipts.tsv`.
-- Packets: `AGENTS/BRENT/inbox/…BRT-12-blind-verdict.md` · `PROME/inbox/…cadence-and-watch-terms.md` · `AGENTS/WALTER/inbox/…gamma-negative-both-horizons….md`.
+- `reports/2026-09-30_F3-basis-and-ban-lapse-grade.md` (new) · `workbook/PREDICTIONS.tsv` HEN-46 notes · `workbook/PUBLISHED.tsv` 9/30 gamma rows · `STATUS.md` (9/30 block, GEX, rates, thresholds) · `board_log.tsv` +4 · 4 inbox items → `processed/` · `MEMORY.md` · `NEXUS_BRIEF.md`.
+- Packets: `AGENTS/TERRY/inbox/2026-09-30_from-HENRY_gamma-read-and-F3-basis.md` · `AGENTS/BRENT/inbox/2026-09-30_from-HENRY_F3-basis-and-ban-extension.md` · `PROME/inbox/2026-09-30_from-HENRY_F3-basis-gamma-drain.md`.
 
 ## RESULT (one line)
-**While I was dark, long-term rates hit 2007 highs on real yields, the junk-bond tail went through red and pulled the better-quality tier with it, and dealers went short gamma — while the VIX is still only 16.**
+**Russia extended its diesel export ban to Oct 31, so the "ban lapses" falsifier of my airline-fuel call (HEN-46 F3) did not fire; dealers are still short gamma going into today's open.**
 
 ## Session Work
 | Item | Outcome |
 |---|---|
-| Rates [Treasury 9/28] | 10Y **5.24%** (highest since June 2007) · 30Y **5.56%**, through my 5.50 red for the first time · 2Y **4.92%**. Since 9/22 the 10Y is up 28bp and 27 of it is real yield; inflation expectations barely moved |
-| Credit [FRED 9/25] | HY **293bp** (+13 in one day, highest since April) · CCC **1,128**, through my 1,100 red since 9/24 · the CCC-minus-BB gap **952** is the widest in FRED's 3-year window. The better-quality BB tier widened +12 the same day |
-| Gamma [9/28 close] | **Negative at both horizons.** SPX 7,683.69 sits ~20pt under the flip (7,704–7,707). Dealers now add to moves. No wall published |
-| Fed odds | October +25bp **~68%** (my futures calculation, not CME's published number; BOND gets the same). Gov. Cook 9/28: the labor market "appears to be well positioned to handle an increase in rates" |
-| FORUM-7 P1 (4 days late) | The ACM model puts **~69% of the 9/23–9/24 10Y jump in term premium ⇒ provisional PREMIUM.** My 9/25 "it's all the 2027–28 Fed path" call was too broad |
-| Data 9/25 | Durables 0.0% (beat) · core capex **+1.6%** (strong) · UMich 48.1 · 1-yr inflation expectations **4.6%** (up from 4.0%) |
-| BRT-12 (BRENT's blind ask) | **NO** — last week's diesel-crack drop is not a Phase-2 credit warning |
+| F3 leg 1 | **NOT MET** — extended to 10/31 (Bloomberg + Moscow Times; primary unreachable ⇒ INFERRED). Spent as written |
+| F3 basis | = F1: matched Nov `HOX26×42 − CLX26`, CME settle, through 10/14; UNKNOWN after unless the 10/6 sitting rules. Named contracts are immune to the mid-Oct continuous roll |
+| New finding | Vendor continuous `HO=F` history re-stitched onto October — 9/29 continuous crack $116.33 vs matched $100.04 |
+| F1 9/29 | NOT FIRED, $100.04 (Dec $94.71 — Nov→Dec step back to −$5.33) |
+| Gamma | NEGATIVE both horizons, flip 7,693–7,694 vs SPX 7,670.84 [9/29 close]; walls withheld |
+| Hike odds | Oct +25bp 70% [9/28] → 50% [9/29] → 44% [9/30 live] (ZQX26 vendor bars) |
+| Inbox | 4 of 4 drained, logged |
 
-## HONEST SCOPE
-- **Missed while dark and not recoverable:** the 9/25 gamma board. I did not backfill it.
-- **The 9/25 diesel-crack test (HEN-46 F1 / TERRY's VLO gate) is still UNKNOWN.** Every proxy reads $95.00, exactly on the line, and CME blocks automated reads. **Reading the official CME 9/25 settlements for HOX26 and CLX26 resolves it.**
-- The term-premium verdict rests on **one model**; the second (Kim-Wright) has not posted since 9/18 and could make it "unanswerable."
-- The news sweep was a subagent; its "CCC 968, widest since 2023" is a **Bloomberg** index, not the ICE series I grade (ICE 1,128). Its bank / "Muse" AI-agent and Oracle CDS items are secondary-sourced.
-- Near-miss: my boot tape showed "Brent −5.6%"; that was a contract-roll artefact (November Brent settled $105.28). It did not reach any file.
+## GAPS / Still pending
+- **PCE + GDP (08:30 today) NOT logged** — outside this spawn's three items; owed at the next HENRY touch.
+- Ban extension read at secondaries only (government.ru unreachable).
 
 ## COMMITS
-See `git log --author` for this session's HENRY commits (path-scoped; hashes in the closeout reply).
+See git log -- AGENTS/HENRY/ (2026-09-30); shas in the PROME memo's delivery message.
 
 ## NEXT SESSION FOLLOW-UP
-**Wed 9/30** PCE + GDP 08:30 · Russian diesel-ban expiry · Micron after close · **Thu 10/1** ISM + FORUM-7 FINAL (dealer data ~16:15) · **Fri 10/2** September payrolls + FORUM-7 verdict · 10/6–10/8 3Y/10Y/30Y auctions · **10/14 CPI** · **10/27–28 FOMC**.
+Thu 10/1 ISM + FORUM-7 FINAL · Fri 10/2 NFP + HEN-47 verdict · Mon 10/5 crack step measurements → DAEDALUS · Tue 10/6 WQ-252 sitting (F1 month after 10/14; F3 re-arm question).
 
 ## THESIS SNAPSHOT (frozen at close)
-Rates at 2007 highs on real yields · credit tail through red, quality tier joining · dealers short gamma · VIX 16. The twin soft-kill is further away than at any point this month (HY 33bp from 260 and widening).
+Rates at 2007 highs on real yields; credit tail through red (CCC 1,146, gap 963 [FRED 9/28]); dealers short gamma; VIX ~16. HEN-46 ACTIVE 0.35/0.30, F1 not fired on 9/29, F3 spent.
 
 ## WILL_NEEDS
-- ⚖️ **One small ask, no decision:** if you can, read the CME **9/25 settlement prices for HOX26 (Nov heating oil) and CLX26 (Nov WTI)**. If HO×42 − CL is under $95.00, TERRY's staged VLO shares stand down and HEN-46 F1 fires. It's a lookup, not a judgement call.
-- No decisions are pending with me.
-
-## ADDENDUM 2026-09-28 21:05 EDT (`date`) — credit deep dive + two follow-ups, then closeout (Will's word)
-- **Credit deep dive** → `research/2026-09-28_credit-move-deep-dive.md`: a slow CCC-only squeeze (3 months) with a fast broad selloff on top (9/22–9/25, 97th pct). The biggest widening day (9/25) came as yields fell and stocks rose. Investment grade is calm. Drivers not settled.
-- **WATCH_FOR R3 sent** → WALTER (cc PROME; WALTER dark, so PROME got the doorbell): drop all six old phrases, which were oil/geopolitics with no HENRY trigger; propose six tied to HEN-46 (Jazan restart, Russian diesel-ban extension, American/Southwest guidance, airline fuel cost). **WALTER tests them, PROME lands them.**
-- **Rhine (AEOLUS):** no direct effect on the F1 crack, which is a New York contract. The only channel would push the crack *up*, away from firing. Unmeasured.
-- Both follow-ups came from a relayed list Will pasted in; I treated the paste as his go-ahead.
-
-## ADDENDUM 2026-09-28 21:57 EDT (`date`) — F1 9/25 resolved + final closeout
-- **HEN-46 F1 fired on 9/25 by less than one price tick** (inferred settle $94.998 vs $95.00). The heating-oil settle is inferred from Yahoo daily closes, which matched the official WTI/Brent settles exactly on every day checked; CME itself not read. PROME verified; TERRY grades Wednesday. **No money consequence** — the staged VLO shares had no entry trigger anyway. `research/2026-09-28_F1-9-25-settlement-resolved.md`.
-- Closeout: tree clean, all commits pushed; nothing pending with HENRY.
+⚖️ **One decision, not urgent before 10/6:** does HEN-46 F3 ("ban lapses 9/30") die with the extension (as written — HENRY's grade), or re-arm at the next expiry 10/31 (changes the letter)? Natural home: the WQ-252 sitting. The re-arm reading is the one *less* favourable to my own thesis.

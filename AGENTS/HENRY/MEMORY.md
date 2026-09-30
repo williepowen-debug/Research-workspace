@@ -48,7 +48,21 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (2026-09-28 Mon 20:35 → 20:44 EDT (`date`) — Will-directed boot + dark-gap catch-up; launched in-folder)
+### CHANGES SINCE LAST SESSION (2026-09-30 Wed 08:04 → 08:1x EDT (`date`) — PROME spawn `prome-f4`, Tier 1, DOCKET L385; launched from PROME cwd)
+
+- **F3 leg 1 NOT MET — Russia EXTENDED the diesel ban to 10/31** (Bloomberg/Rigzone 06:01 ET + Moscow Times; government.ru unreachable ⇒ INFERRED). Graded AS WRITTEN ⇒ F3 spent. ⚖️ Re-arm at 10/31 would change the letter ⇒ NAMED for Will (L471 sitting 10/6), not made. Basis = F1's (matched Nov, CME settle, through 10/14; UNKNOWN after if unruled). `reports/2026-09-30_F3-basis-and-ban-lapse-grade.md`.
+- 🆕 **Vendor continuous `HO=F` history is RE-STITCHED** (today every row 9/10–9/29 = HOV26; my 9/14 record was ≈HOX26). ⇒ never re-derive a past crack from a later continuous pull; `expireDate` metadata = the ticker NOW, not a historical row. Sent to BRENT (its L471 expireDate schedule) + TERRY.
+- F1 9/29 NOT FIRED $100.04 · gamma pre-open NEG both horizons (band 7,693–7,694; walls withheld) → TERRY packet · Oct hike 70→50→44% on ZQX26 (verifies WALTER −012) · inbox drained (3 WALTER + AEOLUS).
+- ⚠️ **NOT done by this spawn:** PCE/GDP 08:30 release-day log (outside the spawn's three items) — owed at the next HENRY touch.
+
+### NEXT SESSION — in this order (9/30 spawn)
+
+1. 🔴 **Log 9/30 PCE + GDP 3rd** (missed by the spawn) · **Thu 10/1 ISM + FORUM-7 FINAL** (FR2004 ~16:15 ET) · **HEN-47 verdict by 10/2** · NFP reaction 10/2.
+2. 🔴 Gamma board at every close; walls only if horizons agree.
+3. HEN-46: F1 on matched Nov through 10/14; F3 spent unless Will rules reading (b) at L471. 🟡 by 10/5: WQ-252 per-candidate crack step measurements → DAEDALUS (9/29 Nov $100.04 vs Dec $94.71 = step −$5.33).
+4. Carried from 9/28 #5 below.
+
+### Prior session — (2026-09-28 Mon 20:35 → 20:44 EDT (`date`) — Will-directed boot + dark-gap catch-up; launched in-folder)
 
 - **DARK GAP 9/25 03:32 → 9/28 20:35 ET.** Missed: FORUM-7 P1 slot (graded tonight, 4 days late), the **9/25 gamma board (UNMEASURED — do not backfill)**, the 9/25 F1 read (TERRY held UNKNOWN, $0.00 from line).
 - **Red rungs:** 30Y 5.56 [Treasury 9/28] FIRST close >5.50 · CCC 1,112 [9/24] / 1,128 [9/25] >1,100 · 10Y 5.24 = highest since 2007-06-12 · HY 293 [9/25] +13 BB-led. Superlatives series-checked (DGS30 has a 2002–06 gap ⇒ say "since at least 2007").
