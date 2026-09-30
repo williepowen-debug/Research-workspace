@@ -192,7 +192,7 @@ Do not trade or recommend from old numbers such as:
 - old office REIT move / AI-demand signals
 - old REITS workbook values from Jan 2026
 
-Use current rails for the June 2026 thesis state. Fresh data is still required before quoting any live market level, monthly CMBS print, FDIC update, or trade-relevant number beyond the dated source pack.
+Use the current rails (STATUS header + the CURRENT catch-up) for thesis state; the June 2026 source packs are trail, not state. Fresh data is still required before quoting any live market level, monthly CMBS print, FDIC update, or trade-relevant number beyond the dated source pack.
 
 ---
 
@@ -204,7 +204,7 @@ Current source pack and thesis rails. These are mandatory before CREED makes cur
 - `AGENTS/CREED/thesis/THESIS.md`
 - `AGENTS/CREED/thesis/CHANGELOG.md`
 - `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
-- `AGENTS/CREED/research/REIT_EQUITY_TAPE_MODULE_2026-06-21.md` (**latest tape snapshot 2026-08-20 afternoon, live** — VNQ vs SPY 3mo **+0.07pp TR / −0.58pp price-only**, **10-session stdev 2.01pp — the level is inside its own noise, and the morning's "counter-signal DECAYING" trend claim is WITHDRAWN**). ⚠️ *Recompute with `AGENTS/CREED/scripts/s8a_relative.py` before citing S8a — never quote the point alone, and never call a sub-2-sigma move a trend.* ⚠️ *This pointer read "7/2" until 2026-08-20 while the file's own header read 7/27 — it had lagged three weeks. **Read the file's header, not this line, and fix this line when they diverge.***
+- `AGENTS/CREED/research/REIT_EQUITY_TAPE_MODULE_2026-06-21.md` (**method and history module; its 2026-08-20 snapshot is PRE-FIRE and not current.** Current S8a lives in `VX-CREED-7.01`: **`CREED-T-08a` FIRED 2026-09-24** (TR −10.12; −13.06 on 9/25); **9/29 close −7.89pp TR, back inside the band, the fire stands; S8a = 4, Will-ruled 9/28.** *(This line taught the 8/20 "+0.07pp TR" level as live until 2026-09-29, PROME C5.)*) ⚠️ *Recompute with `.venv/bin/python3 AGENTS/CREED/scripts/s8a_relative.py` before citing S8a — never quote the point alone, and never call a sub-2-sigma move a trend.* ⚠️ *This pointer read "7/2" until 2026-08-20 while the file's own header read 7/27 — it had lagged three weeks. **Read the file's header, not this line, and fix this line when they diverge.***
 - `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md`
 
 Every trade-relevant number still needs a source/date. Refresh monthly CMBS, FDIC, or REIT/broker tape before treating levels as current.

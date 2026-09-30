@@ -13,7 +13,7 @@
 | Date | Event | CREED action |
 |---|---|---|
 | **2026-09-29** (Tue) 1:30 pm | Plaza Continental Ch.11 hearing (C.D. Cal. Bankr. 8:26-bk-10986) | ✅ Read 9/29: **UNKNOWN.** A party's caption alone does not establish ownership; RETAINED/SOLD only on a document explicitly tying that party to this lien (Will 9/29). Re-check free copies ~9/30–10/2 |
-| **2026-09-29** (Tue) | ARI liquidation vote (8-K Item 5.07) | ✅ **DONE 9/29 — APPROVED; `PRED-CREED-005` graded HIT** (8-K acc 0001193125-26-407837). Distribution not yet declared. Grade `PRED-CREED-005`. First distribution ~$3.70–4.00 = ~60% ex-date drop = return of capital, NOT a market move — separate the mechanical adjustment when grading |
+| **2026-09-29** (Tue) | ARI liquidation vote (8-K Item 5.07) | ✅ **DONE 9/29 — APPROVED; `PRED-CREED-005` graded HIT** (8-K acc 0001193125-26-407837). Distribution not yet declared. First distribution ~$3.70–4.00 = ~60% ex-date drop = return of capital, NOT a market move — separate the mechanical adjustment when grading |
 | ~~**~wk of 2026-09-28**~~ | MBA Q2-26 CM/MF debt outstanding | ✅ **GRADED 2026-09-29:** `006` RESOLVED-FALSE (life +$7,830M < +$10.0B; Brier 0.09) · `010` RESOLVED-PARTIAL, not scored (Will) |
 | **~2026-10-01** | Trepp September DQ | Grade on `registry/PREREG_2026-10_TREPP_PRINT.md` §6. September **cannot fire T-01a** (leg 1 of 2 only) |
 | **~mid-Oct 2026** | Trepp September SS | Same PREREG |

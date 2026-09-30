@@ -100,7 +100,9 @@ Tracks resolution outcomes and calibration for CREED's pre-registered prediction
 
 ## CALIBRATION READ
 
-**🆕 n=4 (2026-09-28) — still NOT a calibration read, but the n=0 baseline's `007` bullet has now been tested and FAILED.** The "honesty anchor" at 15% resolved TRUE (Brier 0.7225) — **its rationale priced the tape as a proxy for office demand, and the tape moved on RATES instead.** Unlike `009`/`003`, the premise was not factually false when written (REITs *were* outperforming, +2.04pp 7/27); what it omitted was a channel. **Read: a low confidence on a trigger must name which drivers it is betting against, not only which it is honouring.** `004` resolved on the correct side at 60% on its stated template-propagation mechanism (GPMT). Confidences on open rows **unchanged** — no post-hoc adjustment at n=4. *The n=1 text below is preserved as written.*
+**🆕 n=6 (2026-09-29) — still NOT a calibration read.** Mean Brier **0.279**, worse than the 0.25 coin flip; 4/6 on the correct side. Since n=4: `005` HIT at 70% (0.09), `006` correct side at 30% (0.09); `010` recorded PARTIAL and excluded (Will). No confidence on an open row is adjusted post hoc. *The n=4 read below is preserved as written.*
+
+**n=4 (2026-09-28) — still NOT a calibration read, but the n=0 baseline's `007` bullet has now been tested and FAILED.** The "honesty anchor" at 15% resolved TRUE (Brier 0.7225) — **its rationale priced the tape as a proxy for office demand, and the tape moved on RATES instead.** Unlike `009`/`003`, the premise was not factually false when written (REITs *were* outperforming, +2.04pp 7/27); what it omitted was a channel. **Read: a low confidence on a trigger must name which drivers it is betting against, not only which it is honouring.** `004` resolved on the correct side at 60% on its stated template-propagation mechanism (GPMT). Confidences on open rows **unchanged** — no post-hoc adjustment at n=4. *The n=1 text below is preserved as written.*
 
 **n=1 — still nothing gradeable, but one structural read is now available and it runs AGAINST the pre-registered expectation below.**
 
@@ -163,6 +165,6 @@ Tracks resolution outcomes and calibration for CREED's pre-registered prediction
 
 1. **Update the `PREDICTIONS.tsv` row AND this file in the same session.** *(BROCK's `BRK-29` was substantively graded in STATUS prose on 7/4 but its ledger row sat `Status=OPEN` for **5 days** past its own resolve date — a "said it but didn't file it" gap caught only by an explicit resolve-date scan.)* **A narrative grade in STATUS is not a substitute for the ledger row.**
 2. **Scan resolve dates at boot**, not at closeout — an overdue row is information the session should have *before* it does its work.
-3. **A prediction that cannot resolve is `STUCK` — a Status change, never a confidence cut.** Ask *"what number goes from X% to Y%?"*; if there isn't one, it's a resolvability defect. `PRED-CREED-009` is the live candidate.
+3. **A prediction that cannot resolve is `STUCK` — a Status change, never a confidence cut.** Ask *"what number goes from X% to Y%?"*; if there isn't one, it's a resolvability defect. *(Named `PRED-CREED-009` as the live candidate until 2026-09-29; 009 resolved TRUE on 8/20, and no open row is a STUCK candidate now.)*
 4. **Grade the premise, not just the outcome.** BROCK's `BRK-09` missed at 60% because the underlying framing was **factually inverted** — the fix was verifying the premise at *creation*, not lowering confidence. **A wrong-premise miss and a well-calibrated low-confidence miss are different species and must be labelled differently here.**
 5. **Never retro-fit a confidence.** See `PRED-CREED-002a` above.

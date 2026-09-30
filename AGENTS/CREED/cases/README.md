@@ -1,6 +1,6 @@
 # CREED Case Ledger — named CRE distress cases
 
-**Created:** 2026-09-29 · **Owner:** CREED · **Directed by:** Will, 2026-09-29, in WALTER's session, relayed in `inbox/2026-09-29_from-WALTER_cre-case-ledger-will-directed.md` @`dffcb78e0`: *"start trying to track major cases ... search for patterns or other helpful connextions."*
+**Created:** 2026-09-29 · **Owner:** CREED · **Directed by:** Will, 2026-09-29, in WALTER's session, relayed in `inbox/processed/2026-09-29_from-WALTER_cre-case-ledger-will-directed.md` @`dffcb78e0`: *"start trying to track major cases ... search for patterns or other helpful connextions."*
 **Not a boot read.** Open it on demand and grep by `case_id`. The read-cap budget doesn't bind it (it binds only surfaces a boot reads whole). *(This line said "keep each file under 32,550 B anyway" until the 2026-09-29 seed adoption took `CASES.tsv` to ~50 KB; the aim was dropped rather than cutting verified content.)*
 
 ## What it's for
@@ -38,7 +38,7 @@ It holds one row per named distressed property or loan, so connections *across* 
 | `CASE_NOTES.md` | one section per case | **value marks, sources, and every verifier finding, verbatim** (the seed row beside the verifier's reading). `CASES.tsv` points here: **read a case's section before citing any mark or loss.** Also lists the HELD candidates and why |
 
 **Controlled vocabularies** (extend by editing this list in the same commit):
-- `property_type`: OFFICE · MULTIFAMILY · RETAIL · LODGING · INDUSTRIAL · MIXED_USE · LIFE_SCIENCE · DATA_CENTER · LAND · OTHER
+- `property_type`: OFFICE · MULTIFAMILY · RETAIL · LODGING · INDUSTRIAL · MIXED_USE · LIFE_SCIENCE · DATA_CENTER · LAND · OTHER · UNKNOWN *(UNKNOWN declared 2026-09-29: rule 2 already required it; 7 rows use it)*
 - `trigger` (primary first; `+` joins a secondary): TENANT_EXIT · MATURITY_DEFAULT · RATE_RESET · OPERATING_SHORTFALL · FRAUD_OR_LEGAL · SPONSOR_WALKAWAY · UNKNOWN
 - `holder_type`: CMBS_CONDUIT · CMBS_SASB · CRE_CLO · BANK · DEBT_FUND · INSURER · MREIT_BALANCE_SHEET · GSE · UNKNOWN
 - `latest_status`: WATCHLIST · SPECIAL_SERVICING · DEFAULT · FORECLOSURE · REO · NOTE_SALE · SOLD · MODIFIED · EXTENDED · PAID_OFF · BANKRUPTCY · UNKNOWN

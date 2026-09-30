@@ -166,6 +166,8 @@ for line in kb.splitlines():
     if not ADM.match(f[6]): flag("RED", "schema", f"KB {f[0]}: Conf {f[6]!r} is not an Admiralty digraph (A1-F6)")
     if f[7] not in EPI: flag("RED", "schema", f"KB {f[0]}: Epistemic {f[7][:40]!r} not in {sorted(EPI)} (source access goes in Source)")
     if f[8] not in KST: flag("RED", "schema", f"KB {f[0]}: Status {f[8][:40]!r} not a lifecycle token (dispositions go in Notes)")
+    if f[9] != "NA" and not DATE.match(f[9]): flag("RED", "schema", f"KB {f[0]}: Stale_By {f[9][:40]!r} is neither a date nor NA (qualifiers go in Notes)")
+    elif DATE.match(f[9]) and f[8] in ("ACTIVE", "CONFIRMED") and f[9] < __import__("datetime").date.today().isoformat(): flag("AMBER", "schema", f"KB {f[0]}: past Stale_By {f[9]} and still {f[8]}: re-verify, or mark STALE")
 BAND = re.compile(r"^\s*([<>]=?)\s*(-?\d+(?:\.\d+)?)\s*%?\s*$")
 DISCLOSED = {"VX-CREED-4.01": "indicative ORANGE held after the 8/27 basis change (see its note)",
              "VX-CREED-9.03": "bands uncalibrated for the CBRE provider (see its note)"}

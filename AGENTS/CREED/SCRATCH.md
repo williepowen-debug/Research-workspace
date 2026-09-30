@@ -8,7 +8,7 @@
 ---
 
 ## ⛔ STANDING HAZARD — NARROWED AGAIN 9/28
-Pins are ROW-scoped (Sitting 2): `PRED-CREED-001/004/007`. **004 and 007 were GRADED on CREED's ledger 2026-09-28 under Will's WQ-304 option B** — their Kernel records stay OPEN and **the two ledgers DISAGREE until a Gate C sitting resolves them retroactively** (no live window; carve-out ④ inactive). Pre-edit raw-line sha256: 004 `228ff214c6` · 007 `829d8a7cbb` (raw-line basis, not the Kernel's `raw_record_sha256` canonicalisation). ⇒ **`PRED-CREED-001` is still pinned and untouched (raw-line sha `1a63c2ff0d`) — never edit it; re-verify after any write to `workbook/PREDICTIONS.tsv`.** Its resolution, when due, is a Kernel act unless Will rules otherwise.
+Pins are ROW-scoped (Sitting 2): `PRED-CREED-001/004/007`. **004 and 007 were GRADED on CREED's ledger 2026-09-28 under Will's WQ-304 option B** — their Kernel records stay OPEN and **the two ledgers DISAGREE until a Gate C sitting resolves them retroactively** (no live window; carve-out ④ inactive). **Current raw-line sha256 (post-9/28 edit, checked 2026-09-29): 004 `50e84d2b8f` · 007 `19e4d1a003`.** Pre-edit values (history only, a re-verify against them WILL false-alarm): 004 `228ff214c6` · 007 `829d8a7cbb`. Raw-line basis, not the Kernel's `raw_record_sha256` canonicalisation. ⇒ **`PRED-CREED-001` is still pinned and untouched (raw-line sha `1a63c2ff0d`) — never edit it; re-verify after any write to `workbook/PREDICTIONS.tsv`.** Its resolution, when due, is a Kernel act unless Will rules otherwise.
 
 ## 🔴 NEXT-BOOT FIRST MOVES
 1. ✅ **ARI vote → `PRED-005` GRADED HIT 9/29.** 🟠 **Residual: watch for the first liquidating-distribution 8-K.** ⚠️ The first distribution ($3.70–4.00) would print as a ~60% ex-date drop — return of capital, not a market move *[⚠️ EXPECTATION, not a known outcome (Will, 9/26): the $3.70–4.00 range and ~30-day timing are PROJECTIONS. Verify the declared amount, record date and ex-date at the 8-K; when grading returns, separate the mechanical ex-date adjustment (declared ÷ prior close) from same-day market movement.]*
@@ -44,7 +44,7 @@ Pins are ROW-scoped (Sitting 2): `PRED-CREED-001/004/007`. **004 and 007 were GR
 
 ## ⚫ STANDING TRAPS — re-read before writing any number
 
-> ⚠️ **Traps 1, 2, 3, 6, 8, 11, 12, 18 are ALSO in `CLAUDE.md` §Standing traps, and THAT copy is the one that matters.** Edit one here, edit it there. **Mapping: SCRATCH 11 → CLAUDE.md 6 · SCRATCH 12 → CLAUDE.md 7 · SCRATCH 18 → CLAUDE.md 8.**
+> ⚠️ **Traps 1, 2, 3, 4, 8, 11, 12, 18 are ALSO in `CLAUDE.md` §Standing traps, and THAT copy is the one that matters.** Edit one here, edit it there. **Mapping: SCRATCH 1–4 → CLAUDE.md 1–4 · SCRATCH 8 → CLAUDE.md 5 · SCRATCH 11 → 6 · SCRATCH 12 → 7 · SCRATCH 18 → 8.** SCRATCH 6 (n=12 base-rating) is NOT in CLAUDE.md. *(Corrected 2026-09-29: this line listed 6 instead of 4 and omitted 8 → 5.)*
 
 1. **Never cite a CRE mREIT price move without checking corporate actions first** (ARI −33.4% on a total-return-*positive* day).
 2. **A real number carrying the WRONG BASIS is the dominant failure mode**, not a fabricated one.
@@ -91,10 +91,10 @@ Pins are ROW-scoped (Sitting 2): `PRED-CREED-001/004/007`. **004 and 007 were GR
 | 15 | **`SCHEMA.tsv` is stale on the boot staleness check** | The only workbook file tripping it. It is a schema definition, not data — **freeze it with a banner or give it a two-clock header**, don't leave it in the silent-rot middle. |
 | 16 | **`creed_selfcheck` check ① is ID-keyed, so prose surfaces are outside its scope by construction** | `FLOW-CREED-03` carried the trigger's WORDS, not its ID, and went four weeks stale on a fired trigger while the check ran green. **Add the trigger ID to every FLOW row whose trigger is a CREED-T** — one edit, and probably right. |
 | 17 | **CMBS conduit new-issue AAA/BBB− spreads over swaps — SHARED, owner on each side** | The channel separating *"the bond market repriced CRE risk"* from *"banks stayed open."* ⚠️ **BLOCKED ON A DATA SOURCE, NOT ON EFFORT.** LIQUID owns their side (`KB-LIQ-090`); do not let it decay into a caveat. |
-| 22 | ✅ **`VX.tsv` read-cap — FIXED 9/26** (notes → `notes/VX_NOTES.md`; 20,778 B = 64%). | Closed. ⚠️ `COVERAGE.md` is at 73% — 489 B to the 75% trigger; watch it. |
+| 22 | ✅ **`VX.tsv` read-cap — FIXED 9/26** (notes → `notes/VX_NOTES.md`; 20,778 B = 64%). | Closed. For COVERAGE headroom, run `scripts/read_cap_check.py --agent CREED`; don't carry a figure here (it went stale twice). |
 | 23 | ✅ **STATUS hot/cold SPLIT — DONE 9/26** (`catchups/`). | Closed. |
 
-| 28 | 🆕 **`workbook/PREDICTIONS.tsv` read-cap 78% (rotate-tier)** — STATUS obligation 28 | Kernel pins `PRED-001/004/007` make a rotation plan-first: **bring the plan to Will before touching a pinned row.** Resolved rows (009, and 004/007 on CREED's ledger) are the natural cold candidates — but 004/007 are pinned. |
+| 28 | ✅ **`workbook/PREDICTIONS.tsv` read-cap — ROTATED 2026-09-29** (Will-approved; 26,473 → 15,168 B = 47%; pins byte-identical) | Closed. **Do not rotate again**: it is under budget. |
 | 24 | 🆕 **$1.0B major-fund census** (WQ-100 note: provisional-unsized) | ~10-row table of open-end CRE vehicles that ever gated, GAV at gate date. The 9/26 gate census is most of the raw material. |
 | 25 | 🆕 **Trez Capital + CFIT gate adjudications** | Trez: per-fund GAV (5 funds, 8/17). CFIT: read the base of its stated limit — a cap below the limit IS a gate under D2. |
 | 26 | 🆕 **Render the Trepp PDF charts** | The one unchecked shape for the August newly-delinquent $ total (`VX-3.05`). |

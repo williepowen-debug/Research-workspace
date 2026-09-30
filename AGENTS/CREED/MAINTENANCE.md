@@ -79,14 +79,14 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 
 **Pre-existing defect fixed in passing, and deliberately not claimed as a win:** the state cell read **ORANGE while the value was Moody's 21.0%** — a >20 **RED**-band number — since at least 7/27. **The vector under-stated its own band for three cycles and no check caught it** (`creed_selfcheck` reads fire-state and counts, not band-vs-value). Today's swap made ORANGE correct **by accident**; the coincidence is recorded rather than presented as the fix, and the cell now says *why* it is ORANGE so the next reader can check it.
 
-> **Candidate for the next guard extension:** a **band-vs-value predicate** — does each vector's state cell agree with its own bands and current value? It is mechanical, CREED-scoped, and would have caught a three-cycle-old defect that four staleness sweeps walked past.
+> ✅ **BUILT 2026-09-29** as `creed_selfcheck` check ③ (CATO CW5); disclosed exceptions 4.01 / 9.03 print as info. *(Original note:)* **Candidate for the next guard extension:** a **band-vs-value predicate** — does each vector's state cell agree with its own bands and current value? It is mechanical, CREED-scoped, and would have caught a three-cycle-old defect that four staleness sweeps walked past.
 
 ## 2026-08-20 (AFTERNOON) — a dead pointer, a re-spec proposal, a third STATUS split, and two Will-frozen-row defects
 
 **Session type:** second session this day, fresh context. Will-directed: fix the COVERAGE lane-9 dead pointer, resolve `VX-CREED-9.03`.
 
 **Created:**
-- **`scripts/s8a_relative.py`** — the S8a recompute recipe COVERAGE lane 9 had *promised but never contained*. Prints **series + noise band + base rate** alongside the point, and `--end YYYY-MM-DD` re-derives any past reading. **Deliberately not a FORGE tool:** `fetch.py` has `price`/`fred` only, and this is a CREED-specific instrument.
+- **`scripts/s8a_relative.py`** (run with `.venv/bin/python3`; plain `python3` lacks yfinance) — the S8a recompute recipe COVERAGE lane 9 had *promised but never contained*. Prints **series + noise band + base rate** alongside the point, and `--end YYYY-MM-DD` re-derives any past reading. **Deliberately not a FORGE tool:** `fetch.py` has `price`/`fred` only, and this is a CREED-specific instrument.
 - **`archive/STATUS_CATCHUPS_2026-08-13.md`** — third enforcement of the 320-line split trigger. ⚠️ **Its banner flags two claims inside the archived text that were refuted on 8/20** (the "not published" July mat-adj DQ, and "no trigger fired") so an archive reader is not misled by correctly-dated-but-false statements.
 
 **Structural decisions, with reasoning:**
