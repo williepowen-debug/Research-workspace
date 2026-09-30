@@ -1082,3 +1082,96 @@
 - *source_quality:* SECONDARY
 - *notes:* First IQHQ asset handed back to a lender.
 
+
+## Residual flags after the 2026-09-29 correction pass (NOT applied — owed at the next owner edit)
+
+*The source/holder/geography/relationship correction pass (Will-directed 9/29; CATO CD1–CD3) applied only those field classes. The three proposal agents listed what else they found: 88 items across 44 cases. Out-of-scope fields (value marks, loss basis, vocab, status) are listed here and were not fixed.*
+
+- **CASE-CREED-001:** value_marks: video's Harris County ~$45M (SIG-W-20260929-015:15) is a tax-assessor-basis, unverified figure -- not added; if added tag tax-assessor + SEARCH-SUMMARY
+- **CASE-CREED-001:** implied_loss/notes: $64.8M trust loss (vulnerability map :47,:72, source not found) vs $68.6M gross stays UNRECONCILED until a remittance report is read
+- **CASE-CREED-003:** value_marks: S&P $270.4M (2022-04) is a MODEL value, not an appraisal -- needs basis tag
+- **CASE-CREED-003:** loan_amount_usd: $308M is legacy-archive only (RQ-CREED-009:46, undated)
+- **CASE-CREED-003:** special_servicer: servicer switch stated (KB-CREED-016) but servicer names not in files
+- **CASE-CREED-004:** value_marks: $63.3M is a DERIVED appraisal (54.5/0.86); $54.5M is carrying; tag each basis
+- **CASE-CREED-004:** property_name: "(LA entitled land)" left as is while city is DISPUTED
+- **CASE-CREED-005:** trigger: vocab RATE_RESET+SPONSOR_WALKAWAY applied at adoption; the occupancy 69%->63% leg (OPERATING_SHORTFALL) is not in the token -- CREED call
+- **CASE-CREED-005:** value_marks: DSCR 1.98->0.59 undated; >$74M recovery sought is a claim, not a value
+- **CASE-CREED-005:** holder: Varde named as lender via Trimont; balance sheet vs fund vs securitization not stated (cell already UNKNOWN)
+- **CASE-CREED-006:** holder: UNKNOWN (SS implies CMBS, trust not named) -- case not flagged
+- **CASE-CREED-006:** sources: the Lafayette clause's own source is not named inside KB-OZK-204
+- **CASE-CREED-007:** loan_amount_usd: $128M (KB-OZK-208) vs $126M "loan basis" (SEVEN:174) -- unreconciled
+- **CASE-CREED-007:** implied_loss_pct: ~30% (cumulative writedown/loan) vs 33-34% (sale at carrying vs loan) are different bases; $128M-$38M=$90M vs $83.95M sale implies ~$6M further mark not itemised
+- **CASE-CREED-007:** status: identity of the Q3'25 "Chicago land" sale with this loan IS stated (SEVEN:174; KB-OZK-126) -- seed "INFERRED" note is outdated
+- **CASE-CREED-008:** latest_status: FORECLOSURE (complaint filed) applied at adoption; outcome not in files
+- **CASE-CREED-009:** holder: verifier PARTIAL -- CMBS established (CREFC CMBS liquidation data, KB-CREED-041), trust not named; case not flagged, not applied this pass
+- **CASE-CREED-009:** fleet_links: sponsor Brookfield (RQ-CREED-009:23-26 "2024 Defaults") absent
+- **CASE-CREED-009:** receivership event precedes the 6/16/26 sale but is undated
+- **CASE-CREED-010:** value_marks: $6.84M/60% (Atrium, KB-OZK-207) vs $6.44M/58% (MC4 via dossier) -- unresolved; the 31% carrying/credit derivation rests on $6.84M only
+- **CASE-CREED-011:** loan_amount/holder: row mixes the Preferred ~$31M 1st and the Nano $5M 2nd -- one case = one loan (rule 1): CREED to pick which loan the case is
+- **CASE-CREED-011:** value_marks: liens $35.8M + taxes vs 2023 appraisal $57.38M are mixed dates -- no LTV
+- **CASE-CREED-012:** value_marks: HCAD $6.4M + $4.7M is a TAX-ASSESSOR basis, not an appraisal (rule 4)
+- **CASE-CREED-012:** property_type: not stated for Gateway (UNKNOWN kept)
+- **CASE-CREED-013:** size: ~119,298 SF vs 84,000 SF listing perimeter (NOTES §5 #12) unreconciled
+- **CASE-CREED-013:** trigger: FRAUD_OR_LEGAL = why this is a case (WAL fraud complaint); property-level default cause not stated
+- **CASE-CREED-014:** property_type: office/medical + retail -- OFFICE vs MIXED_USE is CREED's call
+- **CASE-CREED-014:** holder: Nano lien holder at 9/25 not proven; 2026-09-29 hearing outcome not in files (UNKNOWN valid)
+- **CASE-CREED-015:** holder: verifier PARTIAL -- CMBS stated ("Underlying CMBS"), trust ticker not surfaced; case not flagged, not applied this pass
+- **CASE-CREED-015:** trigger: OPERATING_SHORTFALL rests on WALTER's mechanism inference, not on the verified loan facts
+- **CASE-CREED-016:** property_type: not stated in file; the line's own source is not named (news sweep §3)
+- **CASE-CREED-017:** value_marks: Feb-25 ~$29M is a Preferred Bank appraisal quoted debtor-side; $23.5-26.5M is a debtor-side broker range -- tag both
+- **CASE-CREED-017:** latest_status: BANKRUPTCY applied at adoption; Ch.11 filing date not in files (<=2026-08-26)
+- **CASE-CREED-018:** fleet_links: verifier says cite HOMER (MF lane owner, rule 10) -- no HOMER record found (grep 2026-09-29); case not flagged, not applied
+- **CASE-CREED-018:** value_marks: "Nano 2nd under-secured" is INFERRED
+- **CASE-CREED-019:** trigger: vocab has no lease-up-failure term; OPERATING_SHORTFALL is the closest (CREED call)
+- **CASE-CREED-019:** size: 284K vs 320K SF; loan $125.1M commitment vs $65M outstanding -- basis mix
+- **CASE-CREED-019:** event E097 title mechanism DISPUTED (see events)
+- **CASE-CREED-020:** charge-offs: $25.5M (dossier, MC3/MC4) vs $9.7M (KB-OZK-119) -- implied_loss derivation uses $25.5M
+- **CASE-CREED-020:** 212 DPD at 2026-06-30 counts back to ~2025-11-30, before the 2025-12-18 maturity -- unexplained in files
+- **CASE-CREED-020:** trigger MATURITY_DEFAULT: the $20.9M Q3'25 charge-off pre-dates maturity, so maturity is the default EVENT, not a stated cause
+- **CASE-CREED-020:** event E104 deed-in-lieu DISPUTED (KB-OZK-119 vs Q2 MC)
+- **CASE-CREED-022:** status_as_of: sale date 2026-01-05 (KB-OZK-031/153) vs 2026-01-07 (KB-OZK-199 = TRD article date) unresolved - see E113
+- **CASE-CREED-022:** size: 500K SF (KB-OZK-199) vs 690K SF Phase 1 (KB-OZK-148) - owed
+- **CASE-CREED-022:** implied_loss_pct: 0% is the issuer claim on funded principal; KB-OZK-031 audit note "par claim unverified (Gap B6)"; SVP price undisclosed
+- **CASE-CREED-023:** event_timeline: "Feb 10-12" may be tracker post dates; transaction year unverifiable from repo (rule 11) - needs county record / trustee sale
+- **CASE-CREED-023:** value_marks / implied_loss_pct: basis of the $148M not stated
+- **CASE-CREED-023:** property_type UNKNOWN
+- **CASE-CREED-024:** latest_status: $330M sale carries "diminished assessment of the likelihood of closing" (AGENTS/REGINALD/reports/2026-09-26_CRE_top3_dossiers/q2_OZK.md:33) - caveat not on row
+- **CASE-CREED-024:** value_marks: ~$186.0M is DERIVED (169.3/0.91), not a disclosed appraisal
+- **CASE-CREED-025:** loan_amount / balance: $56.2M dated Q4-24 (KB-OZK-193) vs Atrium Q4-25 pre-charge-off (KB-OZK-207) - quarter inconsistent
+- **CASE-CREED-025:** value_marks: $78M Atrium-reported appraisal vs ~$25.9M implied by 100% LTV on the Dec-25 appraisal - not established as the same appraisal
+- **CASE-CREED-025:** E124 basis: dossier (MC1 p.23) and KB-BRK-214 treat the $27.7M as disclosed; OZK-W7 calls it INFERRED - OZK desk to settle
+- **CASE-CREED-026:** value_marks: ~$17.4M is DERIVED. The 96% vs 103% LTV "conflict" reconciles to one ~$17.4M appraisal on two balances (16.7/0.96 = 17.4; 17.9/1.03 = 17.4; CREED arithmetic) - relabel, not a dispute
+- **CASE-CREED-028:** value_marks: $128.8M as-stabilized rests on an unresolved LTV basis (commitment vs outstanding, KB-OZK-190 ties 83% to $76.4M); $78.4M assignment value vs ~$78.4M derived peak are different objects
+- **CASE-CREED-028:** trigger: SPONSOR_WALKAWAY vs KB-OZK-190 "NOT sponsor distress - Ameriprise exiting / Lionstone divesting", then buyer withdrew - no vocab token fits
+- **CASE-CREED-028:** vintage: ~2024 delivery (dossier, S) not on row
+- **CASE-CREED-029:** size: ~154K SF (SIG l.30) vs 149K SF (dossier) - owed
+- **CASE-CREED-029:** value_marks: ~$51.1M is DERIVED; Atrium $115M / $58M are model values on a different basis
+- **CASE-CREED-029:** trigger: SPONSOR_WALKAWAY vs KB-OZK-190 LP-exit cause - as CASE-CREED-028
+- **CASE-CREED-030:** loan_amount_usd: $85.5M basis unknown (commitment vs outstanding); peak outstanding $45.1M is DERIVED
+- **CASE-CREED-030:** implied_loss_pct: the 42.8% divides carrying by the $85.5M on a different basis - relabel owed
+- **CASE-CREED-032:** value_marks: $780M 2018 value basis UNKNOWN; appraisal date not stated (reported 2026-06-24)
+- **CASE-CREED-032:** latest_status UNKNOWN: extension outcome DISPUTED (see E152)
+- **CASE-CREED-032:** holder_type stays UNKNOWN: conduit vs SASB not in files
+- **CASE-CREED-033:** loan_amount_usd: $90M senior vs full stack UNKNOWN (SIG l.30)
+- **CASE-CREED-033:** HOMER acknowledgement of the case owed (rule 10); packet sent 2026-09-29
+- **CASE-CREED-034:** implied_loss_pct: 73% rests on an unstated loan basis; COMM 2015-CR22 remit read owed
+- **CASE-CREED-034:** vintage: "CMBS 2015" is the deal-name year, not a stated origination year
+- **CASE-CREED-034:** event dates: sale/liquidation date not in files; may predate 2026 (rule 11)
+- **CASE-CREED-039:** tenant_or_occupancy_note: Trepp says 'eroding occupancy', DSCR(NCF) 1.30x, status non-performing matured balloon -- not yet carried in the row
+- **CASE-CREED-042:** vintage_year: 'CMBS 2021' is inferred from the deal name, not a stated origination year (CASE_NOTES §CASE-CREED-042)
+- **CASE-CREED-042:** E167 typed DEFAULT but Trepp says the loan 'reached maturity without a payment default' (performing matured balloon) -- event_type review owed
+- **CASE-CREED-043:** identity with the UNNAMED New Orleans hotel that went current -> non-performing matured balloon (2026-08_Trepp_CMBS_Delinquency_Report.pdf p.2) NOT established; if confirmed it adds a DEFAULT event and MATURITY_DEFAULT trigger
+- **CASE-CREED-044:** holder: not verifier-flagged, so left as-is; for consistency with 040/041/043 the verifier's PARTIAL finding supports 'CMBS trust (name UNKNOWN; conduit vs SASB not named)'
+- **CASE-CREED-045:** holder: not verifier-flagged, so left as-is; for consistency with 040/041/043 the verifier's PARTIAL finding supports 'CMBS trust (name UNKNOWN; conduit vs SASB not named)'
+- **CASE-CREED-046:** source_quality PRIMARY-READ rests on CREED's 2026-09-27 read of the CREFC Aug PDF (sha256 in KB-CREED-041); the PDF is not archived in repo, so the verifier checked the transcription only
+- **CASE-CREED-047:** source_quality PRIMARY-READ rests on CREED's 2026-09-27 read of the CREFC Aug PDF (sha256 in KB-CREED-041); the PDF is not archived in repo, so the verifier checked the transcription only
+- **CASE-CREED-048:** value_marks: the unlabelled '$425M current value' (REGINALD packet :11) must stay in notes as UNRECONCILED, never a mark
+- **CASE-CREED-048:** holder_type: 'large-bank-held' (CRE_VULNERABILITY_MAP.md:90) is CREED's label on a SECONDARY source -- candidate BANK only, not established
+- **CASE-CREED-049:** implied_loss_pct: already UNRECONCILED; the seed's ~52% (1 - $70M/$145M) is DERIVED on a loan amount, not balance at sale -- keep in CASE_NOTES only (CREED analysis/2026-09-27_property-comparable-transfer-test.md:36 'wrong-basis')
+- **CASE-CREED-050:** latest_status: FORECLOSURE here means foreclosure COMPLETED (date UNKNOWN, may pre-date 2026); the post-foreclosure owner (REO holder) is not stated, and the ~$100M contract is not a status (SIG-W-20260420-008:40)
+- **CASE-CREED-051:** value basis: ML-REG-053 (REGINALD KB.tsv:55) labels the 94% an 'office loss severity'; ML-REG-074 (KB.tsv:76) shows it is sale vs 2016 purchase -- do not import the severity label
+- **CASE-CREED-053:** value_marks: 87% markdown from $306M 'pre-Covid' (SIG-W-20260624-004:32; basis of $306M not stated) vs '~70-80% discounts' (REGINALD KB.tsv:76 ML-REG-074) -- unresolved; E190 marked DISPUTED
+- **CASE-CREED-054:** latest_status: DEFAULT stands in for 'receiver appointed' -- the vocab has no RECEIVERSHIP term; extend README vocab or keep DEFAULT with note
+- **CASE-CREED-054:** property_type UNKNOWN: CRE_VULNERABILITY_MAP.md:47 names only 'Republic Plaza receiver' in a metro row; no type stated
+- **CASE-CREED-055:** special_servicer: 'n/a' should be UNKNOWN per rule 2 (non-CMBS is inferred, not stated) -- field outside correction scope
+- **CASE-CREED-055:** trigger: already UNKNOWN; 'lease-up failure' is inference and must not return
