@@ -93,3 +93,32 @@
 - **This card's rec was SELL all 10 before 15:45 ET today. A 1-of-10 sale is a partial.** Root rule #7 reads a trim as a broken thesis, and this line never had a thesis on file (§1). **Recorded, not graded:** Will's book, Will's hand.
 - **Unchanged:** WQ-316 still awaits Will's sell/hold on the ×9 and the ×2. **Hard deadline if held: Wed 9/30 15:00 ET** (§4). The quotes are re-read Wed AM at TERRY's 9/30 wake, **not tonight**. Every §4 expiry mechanic scales to ×9: exercise at ≥$0.01 ITM ⇒ −900 QQQ short, which an IRA cannot hold. What Fidelity does = UNKNOWN (D-60).
 - For reference only, not a re-read: QQQ closed **$736.53 (−1.07%)** 9/28 (`fetch.py`, 18:1x ET), ~$6.5 above the strike.
+
+## ⑧ EXPIRY-DAY REFRESH — Wed 2026-09-30, pulled 11:02 ET (`date` 11:02:15) · TERRY `terry-61` (Will's window; PROME orchestration item 1, WQ-316). **`$0` MOVED · NO ORDER · NO GATE OR THRESHOLD MOVED.**
+
+*(The 08:1x STATUS line pointed to "card § ⑧", but that section was never written. This is the first § ⑧.)*
+
+⚠️ **Screening marks (RISK_RULES 5b):** the vendor's option bid/ask carries no timestamp. The last option trades in these sets were at 10:44–10:47, so the quotes may lag spot by up to ~15 min. **Will prices any order off Fidelity's live bid.**
+
+| | QQQ $730P ×9 | USO $159C ×2 |
+|---|---|---|
+| Underlying (spot real-time, 11:02) | **QQQ $743.46–743.53, +0.76% (GREEN)** | **USO $147.38–147.48, +2.81% (GREEN)** |
+| Option bid / ask | **0.07 / 0.08** · vol 67,673 · OI 67,863 · `--legs 730` rc=0 (clean) | **0.00 / 0.01 — NO BID** · `--legs 159` rc=**2** (`NOBID`) |
+| Distance to strike | 1.8% OTM ($13.46): QQQ must fall to $730 by the close to finish ITM | 7.8% OTM ($11.52): USO must rise to $159 by the close |
+| Worth if sold now | ×9 × $0.07 = **$63 gross, ≈$57 net** (commission ≈$5.85 at an assumed $0.65/ct) | **Nothing to sell into.** A $0.01 limit, if filled, grosses $2 against ≈$1.30 commission |
+| Rough odds of finishing ITM (INFERRED: lognormal model, IV 18.5% / 53%, ~5 trading hours left) | **≈ 4%** | **< 1%**. The EIA weekly print (10:30 ET today) is already out and USO is 7.8% short of the strike |
+| Day colour (root rule #6) | Green. Selling a put into a green day sells it at its cheapest, so on its own the colour argues HOLD. **Its whole cost is bounded by the mark: at most ≈ $63**, and in practice a few dollars of bid-ask | Green. The rule would favour selling a call today, but there is no bid |
+
+**HENRY's gamma read (input, never a rule):** his 08:0x read had dealer gamma NEGATIVE, with spot 22–23 pt *below* the ~7,693 flip. At 11:02 SPX is **7,711.41 (+0.53%), above that flip**, which is the up-move HENRY said would expire the read. ⇒ **The read no longer describes today's tape. It is not used for or against either line.** VIX 15.85 (−1.18%).
+
+### Refreshed recommendation (recommendation only; orders are Will's)
+
+- **QQQ 730P ×9 — SELL before 15:00 ET, at or near Fidelity's live bid.** The reason is no longer the money (≈$57 net). It is removing an **≈ 4% chance** that the puts finish in the money and auto-exercise into **−900 QQQ (≈$657k) short in an account believed to be an IRA**. What Fidelity does in that case, and when, is **UNOBSERVED (D-60)**. Paying ≈$10 in bid-ask and commission to remove an unmodelled broker process is cheap. ⚠️ **The honest counter:** today's colour argues hold (above), and the tail is also the only path where the puts pay. At QQQ $725 they would be worth ≈$4,500. Holding is a coherent ~4% lottery **only if** Will accepts the unobserved IRA-exercise branch. **If held:** re-look the moment QQQ trades ≤ **$733**. By then the put is worth several times more and the exercise branch is live, so sell no later than 15:00 regardless.
+- **USO 159C ×2 — LET EXPIRE (supersedes the § 3 SELL for this line).** There is no bid, so a sell cannot be executed at any meaningful price. The exercise branch (buying 200 USO for $31,800) needs +7.8% in ~5 hours, under 1% on the model. **Nothing to do**, unless USO trades above ~$156 before 15:00, in which case look again.
+
+### What only Will can supply
+1. Fidelity's **live bid** on the QQQ 730P at order time, and that ×9 is still the open count (last repo record: ×9 after the 9/28 1-lot sale).
+2. **Any working orders** on either line, so a new sell is not a double-sale.
+3. *(Only if he holds QQQ into the close)* how Fidelity handles an in-the-money long put at expiry in this IRA (D-60). The 800-343-3548 call is the only resolver.
+
+**APPROVAL REQUIRED — Will must approve/reject before execution.**
