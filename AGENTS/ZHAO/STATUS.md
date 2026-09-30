@@ -1,6 +1,7 @@
 # ZHAO STATUS
 
-**Updated:** 2026-09-25 (see commit time). **Session: PROME-spawned (WQ-184 due-row, DOCKET L222) — summit read at primary + whole-inbox drain (2 items).** *(9/19 header lines verbatim → `archive/STATUS_COLD_20260925.md` §ⓐ.)*
+**Updated:** 2026-09-30 (see commit time). **Session: PROME-spawned (WQ-184 due-row, DOCKET L481) — ZHA-16 graded at window close + whole-inbox drain (2 items).** *(9/25 session line: summit read at primary, L222.)*
+🔒 **9/30 — ZHA-16 GRADED MISS by its letter (Brier 0.2025).** No instrument with an effective date beyond 11/10 at WH / FR (incl. public inspection, now 200) / govinfo / MOFCOM 公告 (KB-190). 🆕 **MOFCOM 9/28 put 2027-01-10 IN WRITING** (美大司 interpretation §八: both sides agreed to extend the Kuala Lumpur arrangement to 1/10 as the basis for further talks) — an official statement, **still not an instrument** (KB-189). *(9/19 header lines verbatim → `archive/STATUS_COLD_20260925.md` §ⓐ.)*
 🔴 **9/25 — THE SUMMIT HAPPENED, NO INSTRUMENT MOVED, AND ONE OF MY THREE 11/10 CLOCKS WAS NEVER LIVE.** Xi in Washington 9/23-25, official readouts both sides (KB-181). Xinhua: 「达成了一份新的联合安排」 — **a new joint arrangement, NO terms published.** Bessent (Fox 9/23): "Busan Agreement" extended to **2027-01-10** — **VERBAL ONLY; no WH action/fact sheet, no FR notice, no MOFCOM notice as of 9/25 ~09:3x ET** (KB-182). ★🔴 **ZHAO's own premise error: the US IEEPA reciprocal "lapse" has had no duty behind it since 2026-02-24** — *Learning Resources v. Trump* (S.Ct. 2/20) + **EO 14389** ended the IEEPA duties under EO 14257-as-amended and EO 14195; EO 14358's 11/10 suspension sits inside that frame. **My 9/2 "re-verification" read EO 14358 and never checked its later disposition** (KB-183; KB-131 → CORRECTED).
 **Overall Status:** 🟠 ELEVATED — **29/60 (+1, Vector 8 → 4 on the gas leg; BRENT 9/6).** **July TIC (released 9/16, own pull 9/17): China $618.0B (−$15.4B), LT/coupon net −$7.7B — a SECOND consecutive month of duration selling, at half June's pace.** ZHA-17 resolves **NO** on its own boundary rule (−$10B ≥ LT > −$5B ⇒ NO): *continued but decelerating.* Belgium **sold alongside** (−$20.4B); proxy stays falsified (rho +0.067, n=42); rotation refuted again (Agency −$36.1B TTM). **Official sector as a whole BOUGHT coupons (+$25.5B) while private sold (−$29.1B) — June's split reversed.**
 
@@ -13,13 +14,13 @@
 | Clock | Instrument | Reads today | Status |
 |---|---|---|---|
 | US perimeter | BIS Affiliates Rule (FR 2025-19846) — reimposed **effective 11/10** | 11/10 — no stay extension in FR through 9/25 | 🔴 LIVE (KB-177) |
-| China perimeter | MOFCOM/GAC 公告2025年第70号 — suspends 55-58, 61 一(一)(二), 62 「至2026年11月10日」 | 11/10 — no MOFCOM extension notice | 🔴 LIVE (KB-172..180) |
+| China perimeter | MOFCOM/GAC 公告2025年第70号 — suspends 55-58, 61 一(一)(二), 62 「至2026年11月10日」 | 11/10 — no re-suspension 公告 through 9/30; **MOFCOM 9/28 statement names 1/10 (not an instrument)** | 🔴 LIVE (KB-172..180, 189) |
 | ~~US tariff~~ | ~~EO 14358 §2 (heading 9903.01.63)~~ | — | ⛔ **VOID since 2026-02-24** (EO 14389, KB-183) |
 | 🆕 China (separate) | MOFCOM 公告2024年第46号 **clause 2** suspended to **2026-11-27** | 11/27 | 🟠 B2, content UNVERIFIED (KB-185) |
 
-**If Bessent's 1/10 becomes instruments, the two live clocks re-date to 2027-01-10; until an instrument publishes, they stand.** Re-check **10/09** (CATALYSTS). ⛔ DO-NOT-MERGE still binds. The 8/22 Canada precedent (announced, never instrumented, tariff went live) is why a verbal extension is not graded as done.
+**If the 1/10 extension (Bessent verbal 9/23; MOFCOM written 9/28) becomes instruments, the two live clocks re-date to 2027-01-10; until an instrument publishes, they stand.** Re-check **10/09** (CATALYSTS). ⛔ DO-NOT-MERGE still binds. The 8/22 Canada precedent (announced, never instrumented, tariff went live) is why a verbal extension is not graded as done.
 
-### 🔒 **ZHA-16 — INTERIM READING, NOT A GRADE (window closes 9/30).** D dead; no published instrument effective beyond 11/10 ⇒ **standing reading B ⇒ MISS by the letter** unless one publishes by 9/30. ⚠️ **Premise failed (KB-183), but I am NOT voiding it:** VOID would drop a likely 45% MISS from my own Brier — the flattering direction. Grade by the letter; the premise error is recorded, not engineered away (KB-184). Letter: `reports/2026-09-02_PREREGISTRATION_summit-and-july-tic.md`.
+### 🔒 **ZHA-16 — GRADED 9/30: MISS (branch B via the declared residual), Brier 0.2025 at 45%.** Amendment-1 bar ('published instrument effective beyond 11/10?') = **NO**. MOFCOM's 9/28 statement touches the end date but is not an instrument ⇒ fits neither A nor B literally ⇒ residual ⇒ B (letter defect recorded, not fixed inside the grade). **VOID declined** (would erase the MISS — flattering); the pre-amendment letter would have read A at Brier 0.3025 — disclosed, not chosen. Branch C (公告2026年第40号 precursor controls, 9/22) declined on the registered read; MISS either way. **Re-open only** if an instrument dated ≤9/30 surfaces (Tariff Commission site 502 = SEARCH-NOT-FOUND). KB-190 · `PREDICTIONS.tsv`.
 
 ---
 
@@ -119,15 +120,15 @@
 
 | Date | Event | P |
 |------|-------|---|
-| ~Sep 30 | China September PMI — property-leg tripwire (rebound >47.5 reverses the Vector-5 upgrade) · **ZHA-16 graded by its letter** | 🟠 |
+| ~Sep 30 | China September PMI — property-leg tripwire (rebound >47.5 reverses the Vector-5 upgrade) — ⚠️ **NOT READ this session** (grade-only spawn) · ✅ ZHA-16 graded MISS | 🟠 |
 | Thu Oct 1 | H.4.1, week ending 9/30 — the correct reader for BOND's 5Y indirect-share question (KB-186) | 🟡 |
-| Fri Oct 9 | **Instrument re-check:** has Bessent's 1/10 extension become a WH/FR/MOFCOM instrument? (KB-182) | 🟠 |
+| Fri Oct 9 | **Instrument re-check:** has the 1/10 extension (MOFCOM-written 9/28) become a WH/FR/MOFCOM/税委会 instrument? (KB-182/189) | 🟠 |
 | **Fri Oct 16** | **August TIC** — third month of coupon selling? **ZHA-18 registered 9/18** (40%) | 🔴 |
 | Mon Oct 19 | BIS/MOFCOM re-check + **WATT T2 read** + 46号 primary pull | 🟠 |
 
 > 🔴 **THE NOVEMBER WINDOW — TWO LIVE CLOCKS ON 11/10 + ONE ON 11/27 (corrected 9/25).** **Tue 11/10 US:** BIS Affiliates Rule reimposed effective (≥50% aggregate ownership, zero new listings). **Tue 11/10 CHINA:** 公告70 expires — six announcements incl. **Li-battery/LFP cathode/graphite anode (公告58) — WATT's triggered channel keys on the MOFCOM instrument, not the date** (`reports/2026-09-25_WATT_TRIGGER_WORDING_gonggao58.md`). **Fri 11/27 CHINA:** 公告2024年第46号 clause 2 (B2). ⛔ ~~US IEEPA reciprocal lapse~~ **VOID since 2/24/2026.** Full verbatim prior → COLD_20260925 §ⓒ.
 
-## PREDICTIONS (status Sep 18)
+## PREDICTIONS (status Sep 30)
 
 *(**OPEN rows only** — resolved rows live in `workbook/PREDICTIONS.tsv`.)*
 
@@ -135,7 +136,7 @@
 |----|-----------|------|--------|
 | ZHA-01 | USD/CNY breaks 7.30 | **18%** | OPEN — ledger governs; as-made pass done 9/18 (`reports/2026-09-18_WQ112_ASMADE_LEDGER_WRITE.md`) |
 | ZHA-05 / 06 / 07 / 10 | Regional NPL >12% · >250 banks consolidated · liquidity crunch forcing UST sales · petro-yuan >$5B | 55/72/70/40% | OPEN — none due inside 60d; see `PREDICTIONS.tsv` |
-| **ZHA-16** | **Xi–Trump summit (9/24) produces branch A — an official output extending the reciprocal-tariff suspension beyond 2026-11-10** | **45%** (as-made 35% → 45% same session 9/2) | 🔒 OPEN to 9/30. **Summit HELD; no instrument ⇒ standing reading B (MISS by letter).** ⚠️ Premise void since 2/24/2026 (KB-183) — **graded by the letter, NOT voided** (KB-184) |
+| ✅ ZHA-16 | Xi–Trump summit produces branch A (instrument extending past 11/10) | 45% | **RESOLVED 9/30 — MISS (B via residual), Brier 0.2025** → `PREDICTIONS.tsv`, KB-190 |
 | 🆕 **ZHA-18** | **Aug TIC (10/16): China LT/coupon ≤ −$5.0B — a THIRD consecutive duration-selling month.** A/B/C exhaustive; non-publication ⇒ STUCK not NO | **40%** | 🔒 OPEN, **pre-registered 9/18, 28d early.** ⚠️ **The base rate INVERTED the story: 23/42 = 55% unconditional but 3/9 = 33% given the prior two months** — mean-reverts after a cluster. Narrative said 60%; **settled 40%.** Letter: `reports/2026-09-18_PREREGISTRATION_ZHA-18_august-tic.md` |
 | ✅ ZHA-11 · 12 · 17 | **RESOLVED 9/17 on July TIC — YES · YES · NO** (Brier 0.10 / 0.04 / 0.30) → `PREDICTIONS.tsv`, KB-150 |  |  |
 
@@ -143,13 +144,14 @@
 
 ## NEXT ACTIONS
 
+**Done Sep 30:** ZHA-16 graded (KB-189/190) · inbox drained 2/2 (PROME WQ-295 → cadence WEEKLY + 9 watch terms packeted; VULCAN → KB-191) · outbox: MOFCOM-1/10-in-writing signal for PROME routing.
 **Done Sep 25:** boot (corrections rc=0) · L222 summit read at primary (WH · Xinhua/MFA · FR · MOFCOM) · **IEEPA premise failure found (KB-183)** · inbox drained 2/2 (PROME ruling → WATT trigger; BOND → H.4.1) · KB-181..188 · CATALYSTS: summit/LPR DONE, IEEPA row VOID, +10/1 · 10/9 · 11/27.
 **Done Sep 19:** boot clean (corrections rc=0 · read-cap rc=0 · inbox empty · claim-check clean) · catalyst enum defect fixed · **MOFCOM primary pulled on Will's direction — 6/6 falsifiers, date B2→A1, three scope corrections** · KB-172..176 · `FLOW-15` registered · 2 letters · 3 packets (VULCAN/HAWK/HENRY correction · PROME asks · PROME battery DECISION) · 1 auto-memory · rotation #5.
 
 **OWED — in priority order; full rationale per item → COLD_20260918b §ⓠ + §ⓝ.**
 
 1. ✅ **DONE 9/19 — MOFCOM primary fetched, Will-directed.** 6/6 pre-registered falsifiers CONFIRM; **date B2→A1**; three scope corrections (KB-173/174/175). Letters: `reports/2026-09-19_PREREGISTRATION_…` + `…_RESULT_…`. 🔴 **NOW OWED FROM IT: correction packets to VULCAN (its chip limb is wider than it was told) · HAWK · HENRY, plus a PROME packet — `DOCKET.tsv` L435/436/437 carry the discharged B2 caveat and L437's scope label is wrong.** ⛔ ZHAO does not edit PROME's file. **MARCO/WATT were never in this thread; the battery leg is theirs to model, not mine.**
-2. 🔴 **Wed 9/30 — grade ZHA-16 by its LETTER** (instrument only; standing reading B; do NOT void — KB-184). Then **10/09 instrument re-check** (KB-182). ✅ LPR 9/20 held (KB-188); ✅ summit held (KB-181).
+2. ✅ **DONE 9/30 — ZHA-16 graded MISS by its letter** (KB-190). 🔴 **NEXT: 10/09 instrument re-check** — now incl. the Tariff Commission (税委会) channel, 502 on 9/30 (KB-182/189). 🟠 **Sept PMI (9/30 print) NOT read** — owed at the next session (boot flags China PMI 🔴 STALE, 28d).
 3. 🔴 **Aug TIC Fri 10/16** — ZHA-18 registered; at the print log the 4 DECLARED OBSERVATIONS (Belgium + base-effect annotation · rho at n=43 · Agency line · official/private split).
 4. 🟠 **Re-spec Vectors 6 & 9 as TWO-DIRECTIONAL** (⛔ next free `VX` id) — both read 🟢 against an actively-managed 4-yr-high yuan. **In daylight, not inside a news sweep** (KB-168).
 5. 🟠 **Primaries owed on the two NEW rows:** ChinaBond for `VX-2.08` (currently a secondary carrier) · **a single-source matched-basis figure for `VX-2.09`** — today's legs are mixed carriers/dates/conventions and **only the DIRECTION is quotable** (KB-171).
@@ -163,6 +165,8 @@
 13. ⛔ **UNVERIFIED, do not cite:** the claim that China listed MP Materials / USA Rare Earth in June 2026. One secondary; CSIS did not corroborate. **Verify or drop — never repeat as fact.**
 
 ## BOTTOM LINE
+
+**SEP 30 — ZHA-16 is a MISS by its own letter, and Beijing has now written the date down.** No instrument moved anywhere by window close. MOFCOM's 9/28 readout is the first written PRC statement of the 2027-01-10 extension, but it is a statement, not a 公告. The clocks stay at 11/10 until one publishes; the likely direction is now a re-dating, not a lapse (INFERRED). Re-check 10/09.
 
 **SEP 25 — the summit happened, the instruments did not move, and the clock I had treated as the anchor was dead before I registered on it.**
 
