@@ -34,7 +34,7 @@ PRED-005 HIT · PRED-006 FALSE · PRED-010 PARTIAL, not scored (both writes; pin
 ## 🟡 STATE AT HANDOFF
 - **Base case HOLDS; 🟠 ELEVATED; convergence 27/45 (60.0%); still pre-bank-transmission** (S3 = 2; next test FDIC Q3 QBP ~late Nov, DOCKET L514).
 - **Trigger board:** `T-01a` 12.00 AT band, 0 of 2 · `T-01b` 16.90 · `T-02` spent · `T-03` not fired (level leg suspended, Will 8/27) · `T-06b` fired, count 1 · **`T-08a` FIRED 9/24; tape 9/29 −7.89 TR, back inside the band; S8a 4 (Will)** · `T-08b` not fired. n=12 counts: T-01a 8 · T-01b 7 · T-02 5 · T-03 4 · T-08a 5.
-- **Counts:** VX 34 · KB 47 · PRED 11 (3 open; graded n=6, mean Brier 0.279; 002a + 010 excluded) · registry 11 · cases 55 (+3 held). `creed_selfcheck` CLEAN at closeout.
+- **Counts:** VX 34 · KB 48 (+048 Trepp self-storage, 9/30) · PRED 11 (3 open; graded n=6, mean Brier 0.279; 002a + 010 excluded) · registry 11 · cases 55 (+3 held). `creed_selfcheck` CLEAN at closeout.
 - **Read budgets:** check with `scripts/read_cap_check.py --agent CREED`; don't carry figures here (they went stale twice).
 - **Ledger nudge:** `registry/corrections_receipts.tsv` reads STALE on the activity count only; no receipt is owed (boot corrections check rc 0).
 

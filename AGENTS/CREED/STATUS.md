@@ -93,7 +93,7 @@ Current thesis:
 
 ## BOTTOM LINE
 
-**🟠 AS OF 2026-09-28 — CURRENT (state unchanged from 9/27 except the convergence score, ⑤ counts and ①'s live read; ⑤'s prediction count re-stamped 2026-09-29 for `PRED-005` — ①–④, ⑥, ⑦ NOT re-verified 9/29).** Base case *selective CRE recognition accelerating* HOLDS. **Convergence 27/45 — S8a 2 → 4, Will-ruled 9/28** (caveat: rate-led fire (10y 4.38 → 5.18% official [9/24]); ~2.2pp of the −13.06pp [9/25 TR] depth is 3-month window roll — argues against 5, does not lower the 4). Still PRE-BANK-TRANSMISSION.**
+**🟠 AS OF 2026-09-28 — CURRENT (state unchanged from 9/27 except the convergence score, ⑤ counts and ①'s live read; ⑤'s prediction count re-stamped 2026-09-29 for `PRED-005` and its KB count 2026-09-30 for `KB-048` — ①–④, ⑥, ⑦ NOT re-verified 9/29).** Base case *selective CRE recognition accelerating* HOLDS. **Convergence 27/45 — S8a 2 → 4, Will-ruled 9/28** (caveat: rate-led fire (10y 4.38 → 5.18% official [9/24]); ~2.2pp of the −13.06pp [9/25 TR] depth is 3-month window roll — argues against 5, does not lower the 4). Still PRE-BANK-TRANSMISSION.**
 
 **① THE EQUITY TAPE CROSSED OVER, AND IT IS RATES.** `CREED-T-08a` FIRED: VNQ trailed SPY by **13.06pp** over 3 months (TR, 9/25) as the 10-year went **4.38 → 5.18%** and the Fed **hiked** on 9/16. The counter-signal CREED honoured since July is gone. It confirms the **asset-against-the-coupon** root, not a tenant-demand collapse. *(9/28 close: −10.48pp TR, σ10 3.38pp; 10y 5.24% [CBOE ^TNX 9/28 close, proxy]. 🆕 **9/29 close −7.89pp TR, back inside the band, the step inside noise; T-08a stays FIRED; S8a=4 is Will's ruling.**)*
 
@@ -103,7 +103,7 @@ Current thesis:
 
 **④ TRIGGER BOARD:** `T-01a` 12.00 AT band, 0/2 · `T-01b` 16.90, not fired · `T-02` FIRED/spent · `T-03` not fired · `T-04` qualitative · `T-06` by hand · `T-06b` FIRED, count 1 · **`T-08a` 🔴 FIRED 9/24** · `T-08b` not fired.
 
-**⑤ COUNTS:** VX 34 · KB **47** (+043 Signature-sale structure, +044 no clearing price matching the stressed pools / observability *(narrowed 9/28)*, +045 VLY composition, **+046 3000 Post Oak CMBS REO sale, 9/28**, **+047 MBA Q2 debt outstanding, 9/29**) · PRED 11 (**3 open**; 004 HIT + 007 MISS graded 9/28 under option B, Kernel records still OPEN; **005 HIT + 006 FALSE graded 9/29; 010 PARTIAL not scored**; graded n=6, mean Brier 0.279) · workbook files 9 · registry 11 CREED-T rows. Read cap: all CREED boot reads under budget (VX.tsv split 9/26).
+**⑤ COUNTS:** VX 34 · KB **48** (+043 Signature-sale structure, +044 no clearing price matching the stressed pools / observability *(narrowed 9/28)*, +045 VLY composition, **+046 3000 Post Oak CMBS REO sale, 9/28**, **+047 MBA Q2 debt outstanding, 9/29**, **+048 Trepp self-storage refi sensitivity, 9/30 (context, no lane)**) · PRED 11 (**3 open**; 004 HIT + 007 MISS graded 9/28 under option B, Kernel records still OPEN; **005 HIT + 006 FALSE graded 9/29; 010 PARTIAL not scored**; graded n=6, mean Brier 0.279) · workbook files 9 · registry 11 CREED-T rows. Read cap: all CREED boot reads under budget (VX.tsv split 9/26).
 
 **⑥ SOURCE TIER:** Trepp **PRIMARY-READ Apr–Aug** (Aug full PDFs are public at trepp.com/hubfs) · FRED + FOMC primary · GPMT release primary · MBA Q2 PRIMARY-READ (PDF live 9/29; `KB-047`) · Z.1 Q2 primary (via research agent).
 
