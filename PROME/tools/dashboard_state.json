@@ -1,6 +1,6 @@
 {
  "attention_errors": [],
- "built": "2026-09-29 20:07",
+ "built": "2026-09-29 21:25",
  "channels": {
   "AI capex": "elev",
   "Credit": "elev",
@@ -167,17 +167,17 @@
  },
  "heartbeat_errors": [],
  "levels": {
-  "10Y Yield": 5.24,
-  "CCC OAS": 1128.0,
+  "10Y Yield": 5.26,
+  "CCC OAS": 1146.0,
   "Cushing": 23.747999999999998,
-  "HY OAS": 293.0,
-  "MOVE": 101.82,
-  "OZK": 46.61,
-  "USD/JPY": 157.4,
-  "VIX": 16.07,
-  "WAL": 76.55
+  "HY OAS": 302.0,
+  "MOVE": 106.6,
+  "OZK": 46.2,
+  "USD/JPY": 157.1,
+  "VIX": 16.04,
+  "WAL": 75.76
  },
- "one": "\ud83d\udd34 THE LONG END BROKE HIGHER ON NO US DATA \u2014 30Y 5.56 THROUGH HENRY'S 5.50 RED, 10Y 5.24 (highest since Jun-2007), 10Y REAL 2.90; HIGH-YIELD PRINTED 293, THROUGH 280 (RED-FT-01 2 OF 3 \u2014 TUESDAY'S CELL DECIDES); GOLD FELL 3.9% INTO THE REAL-YIELD JUMP; THE RHINE IS BELOW ITS 2018 RECORD LOW (AEOLUS C5 FIRED); THE 004 CLOCK IS TWO SESSIONS \u2014 and the book is one oil bet by Will's own ruling (WQ-297 A). 9/28 official Treasury: 2Y 4.92 \u00b7 10Y 5.24 \u00b7 30Y 5.56 \u00b7 10Y real 2.90 (BOND; trigger wire-attributed, not causal \u2014 WQ-317, 10/02). FRED [9/25]: HY OAS 293 \u00b7 B 300 \u00b7 CCC 1,128 \u2014 first print over 280; X1 stays CLOSED (8/28); RED rules the count. Will's fills 9/28 (receipt on file): 004 77P \u00d720\u2192\u00d715 \u00b7 QQQ 730P \u00d710\u2192\u00d79 \u00b7 TLT 82P \u00d72\u2192\u00d71 \u2014 three partials by his own hand; WQ-316 (QQQ \u00d79 / USO 159C \u00d72) is his by Wed 15:00 ET. GATE-TERRY-VLO-SCALE HELD; GATE-TERRY-VLO-HELD-01 REGISTERED 9/28. $0 moved by PROME; STAND DOWN holds (WQ-192); X1 sizing gate CLOSED.",
+ "one": "\ud83d\udd34 THE BOND SELL-OFF RAN A FIFTH DAY WITH THE LONG END ALONE \u2014 official 30Y 5.59 (highest close since May 2004), 10Y 5.26 (matches Jun-2007), 2s30s 70, and the priced Fed path FELL; HIGH-YIELD 302 [9/28] COMPLETED RED's FT-01 EXIT LEG (3 of 3 \u2014 an exit, NOT a bear confirm; nearest fleet line HY >320); OIL FELL \u2014 USO \u22124.4%; Brent/WTI \u22122.6% / \u22123.5% by RELAY only (BRENT dark, no owner settle); GOLD REBOUNDED +1.3%; THE 004 CLOCK IS ONE SESSION; WQ-316 IS WILL's BY 15:00 WED \u2014 and the book is one oil bet by his own ruling (WQ-297 A). Detail: \u00a72 (BOND KB-BND-367 \u2014 US-ORIGINATED, attribution PARTIAL, WQ-317 10/02) \u00b7 \u00a73. X1 stays CLOSED (8/28). Book RECONCILED 9/29 13:4x ET intraday (ANVIL b983d745a): 16 quantities unchanged. $0 moved by PROME; STAND DOWN holds (WQ-192); X1 sizing gate CLOSED.",
  "pending": [
   "WQ-187 (9/12)",
   "WQ-204 (9/19)",
