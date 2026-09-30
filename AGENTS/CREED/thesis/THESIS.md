@@ -152,6 +152,7 @@ Would weaken the bear read:
 5. **Is ARI the first of several lender exits?** Partly answered: by 9/26, 4 of 11 had cut or were liquidating and GPMT opened a formal review (9/23). Whether that becomes cohort-wide book erosion is the `T-08b` test.
 6. **Reframed 2026-09-30 (no new research):** the July question *"why did the equity and credit tapes diverge?"* is overtaken. The equity leg sold off in September on **rates**, so the two legs now point the same way for different reasons (rates vs lender economics). **Open:** whether the lender leg's cuts become cohort-wide erosion, and whether rates keep leading the equity tape. The July framing is in the snapshot.
 7. *(HOMER's question since 7/27: whether MF stress stays metro-specific.)*
+8. **Research candidate — potentially useful, presently unconnected, lower priority** *(added 2026-09-30, Will via PROME)*: **is office / multifamily maturity risk concentrated in a few sponsors or loans, the way Trepp found for self-storage** (`KB-CREED-048`: three loans = 97.9% of that sector's estimated shortfall under an 8% debt-yield screen)? If so, stress would arrive as a few large events rather than a gradual rise, which changes how a monthly print should be read. **Bounded:** first check whether a published study already answers it; a new loan-level calculation may need data CREED does not have. ⛔ **Recording this does not authorize the research: starting it is a new direction and returns to Will as a proposal.**
 
 ---
 
