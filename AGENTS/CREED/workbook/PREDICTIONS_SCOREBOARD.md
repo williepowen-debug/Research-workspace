@@ -94,7 +94,7 @@ Tracks resolution outcomes and calibration for CREED's pre-registered prediction
 | ~~`007`~~ | ~~15%~~ | **RESOLVED-TRUE 2026-09-28 (condition met 9/24)** | **MISS** — the S8a trigger fired (`CREED-T-08a`). The counter-signal it anchored is gone, taken by rates rather than tenants. **Moved to SCORE above.** Kernel record still OPEN (option B) |
 | `008` | 45% | KREF Q4, ~Feb 2027 | management's own <10% legacy-office target |
 | ~~`009`~~ | ~~30%~~ | **RESOLVED-TRUE 2026-08-20** | the S2 trigger — **FIRED.** May 70 / Jun 65 / Jul 66; sustain met at the **June** print. **Moved to SCORE above.** The "resolvability risk" clause was the defect, not the safeguard |
-| ~~`010`~~ | ~~70%~~ | **RESOLVED-PARTIAL 2026-09-29, NOT SCORED (Will)**, see Excluded above | the **acquirer's own balance sheet** — second independent surface for the ARI $9B. **Athene leg read 8/13, off the primary 10-Q (filed 8/10): Δ +$6.9B — PARTIAL band, $103M short of the $7.0B LANDED bar. Primary now confirms final purchase price $8.7B (not ~$9B). NOT a full resolution — waits on `006` for the joint verdict per this pair's grading rule** |
+| ~~`010`~~ | ~~70%~~ | **RESOLVED-PARTIAL 2026-09-29, NOT SCORED (Will)**, see Excluded above | the **acquirer's own balance sheet** — second independent surface for the ARI $9B. **Athene leg read 8/13, off the primary 10-Q (filed 8/10): Δ +$6.9B — PARTIAL band, $103M short of the $7.0B LANDED bar. Primary now confirms final purchase price $8.7B (not ~$9B). Joint read with `006` done 9/29 (see SCORE); recorded PARTIAL, not scored** |
 
 ---
 

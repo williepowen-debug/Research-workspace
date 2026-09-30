@@ -1,4 +1,5 @@
 > **Filed by CREED 2026-09-29 evening** from a read-only Opus research agent. Read in full by CREED before filing. Verdict: **UNKNOWN**. Cited from `analysis/2026-09-27_nano-banc-collateral-read.md` §7.
+> ⚠️ **CREED annotation (2026-09-29, Will):** §1 and §5 below infer ownership from a caption ("If it reads FDIC… RETAINED; if Sunwest… SOLD"). **That inference is NOT CREED's test.** **Lien test (narrowed 2026-09-29, Will):** an FDIC or Sunwest caption, appearance or notice ALONE does **not** establish ownership of this lien. Record RETAINED or SOLD only if a document **explicitly ties that party to ownership of the Nano lien on 3700 Inland Empire Blvd** (e.g. a Rule 3001(e) transfer or substitution naming this claim, an order directing the Nano lien's adequate-protection payments to that party, or a loan-level P&A schedule naming this loan). Otherwise **UNKNOWN**. Free copies only: **no PACER purchase** (Will 9/29). The agent's text is kept verbatim as its record.
 
 # Plaza Continental Group LLC (8:26-bk-10986-MH): the 9/29/2026 hearing and who holds the Nano Banc lien
 
