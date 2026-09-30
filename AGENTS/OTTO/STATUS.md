@@ -1,11 +1,11 @@
 # OTTO STATUS
 
-**Signal Status:** 🔴🔴 fraud-leg CRITICAL (**both thesis mechanisms criminally charged; First Brands CONVERTED TO CH.7, entry reported 9/1**) / 🟠 systemic-funding-leg DISCONFIRMED | **Last Updated:** 2026-09-28 EDT (**session 024** — PROME Tier-1 due-row wake, DOCKET L469: OTTO-10 gate graded late, dark-window sweep, 9/30 resolve staged, read-cap rotation, inbox 4 → 0)
+**Signal Status:** 🔴🔴 fraud-leg CRITICAL (**both thesis mechanisms criminally charged; First Brands CONVERTED TO CH.7 — order ENTERED 9/1, VERIFIED at Dkt 3748**) / 🟠 systemic-funding-leg DISCONFIRMED | **Last Updated:** 2026-09-30 EDT (**session 025** — PROME Tier-1 due-row spawn, DOCKET L524: 9/30 resolve of OTTO-06/10/29/32 at as-made; inbox 1 → 0)
 
-> **📌 Session 024 (Sep 28, Mon — PROME Tier-1 due-row wake, DOCKET L469; dark 9/24 → 9/28). Items ①–④ + inbox 4 → 0.** s023 pointer → `STATUS_COLD.md` §9.
-> - **⛔ ① OTTO-10 9/20 gate GRADED LATE (8d); the finding cuts against OTTO's own instrument.** At primary (Equifax, new+used combined, VantageScore <620) the subprime share is **RISING**: accounts 15.4→19.1%, balances 12.4→15.9% (2023 → Q1-26 YTD). The "16.5→15.2→14.7" series is **IMPEACHED** (ML-OTTO-278).
-> - **② Swept:** CRMT 9/18, read after BROCK's L420 grade, was bridged to **10/1**, and events of default are now disclosed. Tricolor Counts 7–8 is still SEARCH-NOT-FOUND, next check 10/1. **First Brands entry reported 9/1 (Dkt 3748)**; OTTO carried it stale for 27d.
-> - **③ The 9/30 set is corrected to OTTO-06/10/29/32**, all staged and **scored at AS-MADE 70/65/75/85%**. **④** STATUS rotated under the rule-5 stop (§9–§11 cold). No trade, threshold, confidence or score move. **Fraud-case count stays 4.**
+> **📌 Session 025 (Sep 30, Wed evening — PROME Tier-1 due-row spawn, DOCKET L524). The 9/30 set is RESOLVED at AS-MADE; inbox 1 → 0.** s024 pointer → `STATUS_COLD.md` §12.
+> - **Graded (Brier at as-made):** OTTO-06 **FALSIFIED** 0.4900 (EART Aug-collection max 15.22% <18%; perimeter chosen after July data, disclosed) · OTTO-10 **FALSIFIED** 0.4225 (Equifax primary 19.1% accts / 15.9% bal; impeached series excluded) · OTTO-29 **FALSIFIED-on-window / CONFIRMED-on-substance** 0.5625 · OTTO-32 **CONFIRMED** 0.0225. **Set mean 0.3744.** Three of four were right on the world and wrong on the letter or the instrument; only OTTO-32 scored.
+> - **★ First Brands entry now VERIFIED at the primary:** Dkt 3748 read in full (clerk stamp ENTERED 2026-09-01; ¶1 converts EVERY remaining debtor). Kroll and the CourtListener docket page still 403; the RECAP search API found the PDF.
+> - **No trade, threshold, confidence cell or score move.** Fraud-case count stays 4. WALTER's R3 harness result consumed: the 9-phrase clean set is adopted (`CVNA earnings` dropped, `Tricolor securitization` singular); PROME lands it.
 > **📌 Cold half — the settled reasoning, resolved predictions, per-vector narrative and prior-session pointers are VERBATIM in [`STATUS_COLD.md`](STATUS_COLD.md)** (not a boot read; hot STATUS wins on any disagreement).
 
 ---
@@ -25,7 +25,7 @@
 | Case | Type | Live status |
 |------|------|------|
 | Tricolor | Double-pledging + skip | ~3% recovery; $113M gridlock; **superseding 8-count indictment Jun 24 (§225 "financial kingpin", 10yr-life min); COO Goodgame guilty + cooperating Jun 24; trial re-dated → Jan 25 2027** |
-| First Brands | Invoice fab + Ponzi | 🔴🔴 **CH.7 — conversion order reported ENTERED 2026-09-01 (Dkt 3748)**, trustee Eva S. Engelhart `[PRESS ×2; INFERRED — Kroll/CourtListener 403]`. Admin expenses > estate value; DIP marked 22.8¢ (BROCK). **PSEC Rule 2004 discovery opened Aug 7** |
+| First Brands | Invoice fab + Ponzi | 🔴🔴 **CH.7 — conversion order ENTERED 2026-09-01 (Dkt 3748), every remaining debtor** `[CONF Dkt 3748 PDF via RECAP, read 2026-09-30]`; trustee name (Engelhart) snippet-only. Admin expenses > estate value; DIP marked 22.8¢ (BROCK). **PSEC Rule 2004 discovery opened Aug 7** |
 | MFS (UK) | Double-pledging | CONFIRMED Feb 26 — Barclays + Atlas SP/Apollo £2B+ |
 | PrimaLend | BVY2 fraud | Plan confirmed Feb 2026 |
 | *Carvana (alleged)* | Related-party | No new short report, no GT resignation. Collateral read (8/27): BLAST 2024-1 60+ DQ 15.30, extensions LOW ⇒ not-masking holds. Price: fetch live (8/27 row → `STATUS_COLD.md` §11) |
@@ -72,7 +72,7 @@
 | Tricolor ↔ Origin Bancorp (OBK) | 🔴🔴 | RE-CLASSIFIED 8/27: EXPOSURE → RELATED PARTY |
 | Tricolor Floorplan Layer — TFIN/TBK | 🔴 | Agent on $60.5M, holds ~$22.5M, no charge-off/reserve; ~$38M unnamed syndicate = open discovery channel |
 | Carvana | 🔴 | First primary-source collateral read is worse than deep subprime; finance line is the whole GPU story |
-| First Brands | 🔴🔴 | **Converted to Ch.7 — order reported entered 9/1 (Dkt 3748), trustee Engelhart** `[PRESS ×2, primary 403]` |
+| First Brands | 🔴🔴 | **Converted to Ch.7 — order ENTERED 9/1 (Dkt 3748)** `[CONF, read at the RECAP PDF 2026-09-30]` |
 | **CRMT / Silver Point standstill** | 🔴 | **Bridge 4 → STD 10/1** (BROCK owns DOCKET L479 / L480 = 10/1 STD + 10/7 backstop). Events of default disclosed. 2C levers not pulled |
 
 ## LENDER WATCHLIST
@@ -92,7 +92,6 @@
 
 | Date | Event | Status |
 |------|-------|--------|
-| **Sep 30** | **OTTO-06 / OTTO-10 / OTTO-29 / OTTO-32 resolve** (OTTO-04 already resolved 7/25) | 🔴 **STAGED s024, resolve at the 9/30 boot:** 06 FALSIFIED (instrument pre-stated, EART max 14.33%) · 10 FALSIFIED (Equifax 19.1% / 15.9%, rising) · 29 FALSIFIED-on-window / CONFIRMED-on-substance · 32 CONFIRMED (entry 9/1 INFERRED, primary 403). **Score every row at AS-MADE: 70 / 65 / 75 / 85%** |
 | **Oct 1 (Thu)** | 🔴 **CRMT — bridge-4 Scheduled Termination Date** (Silver Point) | 🔴 `confirmed` **Owner BROCK (DOCKET L479); OTTO reads BROCK's grade, never ahead of it.** Bridges 3 and 4 both filed ~16:05 ET on the expiry day ⇒ read after ~22:00 ET or next morning. Silence narrows, never grades |
 | **Oct 1** | Tricolor **Counts 7–8 exhaustive securitization list** — CHECK date (event due ~8/28, still UNVERIFIED) | 🟠 `modeled` **OWNER OTTO, checked every session until resolved.** 9/28: SEARCH-NOT-FOUND; PACER unchecked. Civil perimeter already on file (SEC complaint read 8/27: 7 TASTs, double-pledged deal list) — NOT the criminal list |
 | **~Oct 1** | **EART / SDART / BLAST 10-D cycle — the AUGUST collection month, first two-tier read after the 9/7 CRMT decision** | 🟠 `modeled` **NEW s021.** Re-run `panel_10d.py`; `collection_period` now populates automatically |
@@ -111,17 +110,15 @@
 
 | # | Prediction | Status |
 |---|------------|--------|
-| OTTO-29 | Tricolor ABS trustee distribution <15¢ | 🟢 OPEN 80% — **STAGED 9/30: FALSIFIED-on-window / CONFIRMED-on-substance** (no distribution; §341 → 11/11). Score at as-made **75%** |
 | OTTO-31 | Wilmington Trust non-mortgage custodial exit by Dec 31 | 🟠 OPEN — **conf 30→12% (Jul 25)**. MTB Q2 (Jul 15): record EPS $5.32 vs $4.66 est, **no wind-down language**, and Wilmington's custody franchise actively promoted (CEO named *CEO of the Year, Clearing & Custodial Firms*). 2nd corporate-side disconfirmation. |
-| **OTTO-32** | First Brands majority Ch.7 by Sep 30 | 🟢 OPEN 97% — **STAGED 9/30: CONFIRMED.** Conversion order reported **ENTERED 2026-09-01, Dkt 3748**, trustee Eva S. Engelhart `[PRESS ×2; primary 403 ⇒ INFERRED]`. Score at as-made **85%** |
 | **OTTO-34** | EART 2022-3 CNL ≥29.0% on the Dec-2026 10-D | 🟠 OPEN **60→50% (Aug 3)** — first post-creation measurement: **27.86%** on the 10-D filed **2026-07-30**, delta **+0.28pp** (series .35/.33/.30/.28 — deceleration confirmed, on schedule). Extrapolating the decay over the 5 remaining filings lands **≈28.96%**, i.e. **fractionally UNDER the 29.0% line**. Not a thesis change — the claim was written to straddle, and the straddle resolved marginally unfavourable. Cut on arithmetic, not sentiment. |
 | **OTTO-33** | New corporate counterparty publicly implicated in Tricolor fraud by Dec 31 | 🟠 OPEN **60→68% (Aug 3)** — **a new, live, non-blocked instrument appeared.** Castel **granted unsealing (7/30) of the guilty-plea transcripts of two previously-unnamed cooperators, Jerome Kollar (25-cr-584) and Ameryn Seibold (25-cr-585)** — 7-count Informations, Dec 2025. **Plea allocutions name counterparties on the record.** Cooperator count went 1 → 3, and the government is being made to confirm its Ch.7-Trustee subpoena returns are complete. Raised on instrument availability, not on new fraud evidence — the claim still needs a NAME, and none has surfaced yet. |
 | **OTTO-35** | Severity-Divergence Test returns CONFIRM on any quarterly run by Jun 30 2027 | 🟢 OPEN **15% (NEW Aug 14)** — **created at a deliberately LOW number because its own instrument REFUTED on its first reading**, and OTTO will not write a hopeful figure over a measurement it just took. Restores the forward exposure the book lost when the one-sided NY Fed falsifier was retired. **Two-sided by construction** (CONFIRM ΔS≥+2.00 & ΔF≤+0.50; REFUTE ΔS≤+0.50 & ΔF≥+1.00; Manheim-gated ±3%, both directions). Base-rated *before* thresholds were set: min detectable skip-share change **4.5% at n=12**. Next run **~Nov 15** |
-| OTTO-06 | Monoline 60+ DPD >18% | 🟠 OPEN 70% — **instrument pre-stated 9/28:** EART deal-level 60+ DQ (July max 14.33%). **STAGED 9/30: FALSIFIED**; CPS/ACA/CACC not checked |
 | OTTO-07 | ≥1 subprime ABS shelf halts issuance | 🟢 OPEN **55→15% (Jul 25)** — **first real measurement**: 8 of 8 validated subprime shelves issued a 2026 vintage. Old instrument was default-zero (couldn't falsify); rebuilt as `scripts/shelf_halt_monitor.py` with per-issuer controls + run-stamps. Flagship *looked* like a halt (4→3→2→0 deals) but was an **InterVest acquisition**, not a funding halt |
-| OTTO-10 | Subprime origination share <13% | 🔴 OPEN 20% — **9/20 gate GRADED LATE 9/28 (8d).** Perimeter = Equifax loans+leases, new+used combined, VantageScore <620. **Primary: account share 19.1%, balance 15.9% (Q1-26 YTD), both RISING.** ⛔ OTTO's "16.5→15.2→14.7 unit share" is **IMPEACHED** (synthesis-doc artifact). **STAGED 9/30: FALSIFIED**, score at as-made **65%** |
 | OTTO-11 | Credit-washing prevalence >2.5% of applications | 🟠 OPEN 60% — resolve Dec 31 |
 | OTTO-12 | ≥1 major warehouse lender exits subprime auto | 🟠 OPEN 55% — resolve Dec 31 |
+
+> **✅ Resolved 2026-09-30 (s025), at AS-MADE:** OTTO-06 FALSIFIED · OTTO-10 FALSIFIED · OTTO-29 FALSIFIED-on-window / CONFIRMED-on-substance · OTTO-32 CONFIRMED (VERIFIED Dkt 3748). Brier 0.4900 / 0.4225 / 0.5625 / 0.0225, mean 0.3744. Grades in `thesis/PREDICTIONS.tsv` Result cells; pre-resolve rows verbatim → `STATUS_COLD.md` §12.
 
 > **Resolved rows moved verbatim to [`STATUS_COLD.md`](STATUS_COLD.md) §4.** Canonical ledger is `thesis/PREDICTIONS.tsv`.
 
@@ -130,7 +127,7 @@
 | Trigger | Status |
 |---------|--------|
 | Carvana 10-K delayed or GT resigns | ❌ 10-K filed; no GT resignation |
-| First Brands converts to Ch. 7 | 🔴🔴 **FIRED — order reported ENTERED 2026-09-01 (Dkt 3748)** `[PRESS ×2, INFERRED]`. Trigger CLOSED |
+| First Brands converts to Ch. 7 | 🔴🔴 **FIRED — order ENTERED 2026-09-01 (Dkt 3748)** `[CONF, VERIFIED 2026-09-30]`. Trigger CLOSED |
 | **Cooperating witness reveals new fraud/participants** (🟠 standing trigger) | 🟠 **RE-FIRED Aug 3** — cooperator count **1 → 3** (Goodgame + **Kollar** + **Seibold**), and Castel ordered the Kollar/Seibold plea transcripts **unsealed 7/30**. Routed to CARL/REGINALD via WALTER |
 
 ---
@@ -149,4 +146,4 @@
 
 **⚠️ Two carried states were stale while the desk was dark.** First Brands' conversion order landed 9/1 while OTTO still carried "entry UNVERIFIED". CRMT bridged twice past OTTO's "live" 9/18. **A dark desk does not freeze the world, and it does freeze the desk's description of the world.**
 
-**Nearest resolvers:** **9/30 resolve set** (06/10/29/32, all staged) · **10/1:** CRMT bridge-4 STD (BROCK), the 10-D August cycle, the seasoning/upsert repair, OTTO-12 re-search, and the Tricolor list check · **10/7:** CRMT Item 1.01 backstop (BROCK).
+**Nearest resolvers:** **10/1:** CRMT bridge-4 STD (BROCK), the 10-D August cycle (EART/SDART/BLAST Aug 10-Ds are already filed — read dry-run 9/30, not written), the seasoning/upsert repair, OTTO-12 re-search, and the Tricolor list check · **10/7:** CRMT Item 1.01 backstop (BROCK).

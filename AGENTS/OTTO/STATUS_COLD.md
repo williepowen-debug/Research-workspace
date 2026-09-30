@@ -351,3 +351,34 @@ split, not an archive. Archives are frozen; this file is maintained alongside `S
 - research/outputs/ — RP-OTT-1.1–4.1 (15 reports)
 
 *Mar 20 check-ins (FOMC, CVNA, fraud, ABS, CFPB) and prior condensed check-ins archived to `workbook/STATUS_archive_20260325.md`*
+
+## 12. Rows rotated out of hot STATUS 2026-09-30 (s025) — verbatim, as they stood before replacement
+
+*Rotated at the 9/30 resolve. Every line below was replaced or removed in hot STATUS in the same edit. Hot STATUS wins on any disagreement.*
+
+### Header + session 024 boot pointer (Sep 28)
+**Signal Status:** 🔴🔴 fraud-leg CRITICAL (**both thesis mechanisms criminally charged; First Brands CONVERTED TO CH.7, entry reported 9/1**) / 🟠 systemic-funding-leg DISCONFIRMED | **Last Updated:** 2026-09-28 EDT (**session 024** — PROME Tier-1 due-row wake, DOCKET L469: OTTO-10 gate graded late, dark-window sweep, 9/30 resolve staged, read-cap rotation, inbox 4 → 0)
+
+> **📌 Session 024 (Sep 28, Mon — PROME Tier-1 due-row wake, DOCKET L469; dark 9/24 → 9/28). Items ①–④ + inbox 4 → 0.** s023 pointer → `STATUS_COLD.md` §9.
+> - **⛔ ① OTTO-10 9/20 gate GRADED LATE (8d); the finding cuts against OTTO's own instrument.** At primary (Equifax, new+used combined, VantageScore <620) the subprime share is **RISING**: accounts 15.4→19.1%, balances 12.4→15.9% (2023 → Q1-26 YTD). The "16.5→15.2→14.7" series is **IMPEACHED** (ML-OTTO-278).
+> - **② Swept:** CRMT 9/18, read after BROCK's L420 grade, was bridged to **10/1**, and events of default are now disclosed. Tricolor Counts 7–8 is still SEARCH-NOT-FOUND, next check 10/1. **First Brands entry reported 9/1 (Dkt 3748)**; OTTO carried it stale for 27d.
+> - **③ The 9/30 set is corrected to OTTO-06/10/29/32**, all staged and **scored at AS-MADE 70/65/75/85%**. **④** STATUS rotated under the rule-5 stop (§9–§11 cold). No trade, threshold, confidence or score move. **Fraud-case count stays 4.**
+
+### Timeline — the Sep 30 row (resolved 2026-09-30)
+
+| **Sep 30** | **OTTO-06 / OTTO-10 / OTTO-29 / OTTO-32 resolve** (OTTO-04 already resolved 7/25) | 🔴 **STAGED s024, resolve at the 9/30 boot:** 06 FALSIFIED (instrument pre-stated, EART max 14.33%) · 10 FALSIFIED (Equifax 19.1% / 15.9%, rising) · 29 FALSIFIED-on-window / CONFIRMED-on-substance · 32 CONFIRMED (entry 9/1 INFERRED, primary 403). **Score every row at AS-MADE: 70 / 65 / 75 / 85%** |
+
+### Predictions — the four rows resolved 2026-09-30
+
+| OTTO-29 | Tricolor ABS trustee distribution <15¢ | 🟢 OPEN 80% — **STAGED 9/30: FALSIFIED-on-window / CONFIRMED-on-substance** (no distribution; §341 → 11/11). Score at as-made **75%** |
+| **OTTO-32** | First Brands majority Ch.7 by Sep 30 | 🟢 OPEN 97% — **STAGED 9/30: CONFIRMED.** Conversion order reported **ENTERED 2026-09-01, Dkt 3748**, trustee Eva S. Engelhart `[PRESS ×2; primary 403 ⇒ INFERRED]`. Score at as-made **85%** |
+| OTTO-06 | Monoline 60+ DPD >18% | 🟠 OPEN 70% — **instrument pre-stated 9/28:** EART deal-level 60+ DQ (July max 14.33%). **STAGED 9/30: FALSIFIED**; CPS/ACA/CACC not checked |
+| OTTO-10 | Subprime origination share <13% | 🔴 OPEN 20% — **9/20 gate GRADED LATE 9/28 (8d).** Perimeter = Equifax loans+leases, new+used combined, VantageScore <620. **Primary: account share 19.1%, balance 15.9% (Q1-26 YTD), both RISING.** ⛔ OTTO's "16.5→15.2→14.7 unit share" is **IMPEACHED** (synthesis-doc artifact). **STAGED 9/30: FALSIFIED**, score at as-made **65%** |
+
+### Case table / active vectors / triggers / nearest resolvers (First Brands INFERRED → VERIFIED)
+
+| First Brands | Invoice fab + Ponzi | 🔴🔴 **CH.7 — conversion order reported ENTERED 2026-09-01 (Dkt 3748)**, trustee Eva S. Engelhart `[PRESS ×2; INFERRED — Kroll/CourtListener 403]`. Admin expenses > estate value; DIP marked 22.8¢ (BROCK). **PSEC Rule 2004 discovery opened Aug 7** |
+| First Brands | 🔴🔴 | **Converted to Ch.7 — order reported entered 9/1 (Dkt 3748), trustee Engelhart** `[PRESS ×2, primary 403]` |
+| First Brands converts to Ch. 7 | 🔴🔴 **FIRED — order reported ENTERED 2026-09-01 (Dkt 3748)** `[PRESS ×2, INFERRED]`. Trigger CLOSED |
+
+**Nearest resolvers:** **9/30 resolve set** (06/10/29/32, all staged) · **10/1:** CRMT bridge-4 STD (BROCK), the 10-D August cycle, the seasoning/upsert repair, OTTO-12 re-search, and the Tricolor list check · **10/7:** CRMT Item 1.01 backstop (BROCK).

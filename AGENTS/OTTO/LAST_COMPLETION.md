@@ -1,21 +1,21 @@
-# OTTO COMPLETION — 2026-09-28 (session 024)
+# OTTO COMPLETION — 2026-09-30 (session 025)
 
-> **One sentence for the next boot:** L469's four owed items are done or staged. **The 9/30 resolve set is OTTO-06/10/29/32, not the triple on the old docket row, and every row is scored at its AS-MADE confidence (70/65/75/85%), never the ledger cell.**
+> **One sentence for the next boot:** the 9/30 set is RESOLVED at as-made (1 of 4 hit, mean Brier 0.3744); OTTO-32 is now VERIFIED at the primary docket, and the next work is the 10/1 cluster.
 
 ## STATUS
-✅ PROME Tier-1 due-row wake (DOCKET L469, WQ-184). Items ①–④ done, with ③ staged by design. **Inbox 4 → 0** (`inbox_census.py`). Read-cap rc 0, STATUS under the rule-5 stop. **No trade, threshold, confidence or score move. Fraud-case count stays 4.**
+✅ PROME Tier-1 due-row spawn (DOCKET L524, WQ-184). Four rows resolved on their letters at as-made. **Inbox 1 → 0.** No trade, threshold, confidence cell or score move. Fraud-case count stays 4. Not pushed (PROME pushes at its closeout).
 
 ## CHANGED
-`docket/CATALYSTS.tsv` (9/18, 9/20, 9/30, 8/31, 12/31 rows swept or corrected; Tricolor re-dated to a 10/1 CHECK; +10/01 and +10/07 CRMT rows) · `thesis/PREDICTIONS.tsv` (Notes only: OTTO-06/10/29/32) · `thesis/CHANGELOG.md` · `STATUS.md` + `STATUS_COLD.md` §9–§11 · `workbook/ML.tsv` ML-OTTO-278…280 · `board_log.tsv` +4 · RP-OTT-1.6 / RP-OTT-2.5 impeachment banners · MEMORY, NEXUS_BRIEF · inbox moves ×4 · WALTER watch-terms packet · PROME memo.
+`thesis/PREDICTIONS.tsv` (06/10/29/32 Status + Result + Notes) · `thesis/PREDICTIONS_ARCHIVE.md` (§ 9/30 set, scoreboard count note) · `docket/CATALYSTS.tsv` (9/30 row resolved) · `STATUS.md` + `STATUS_COLD.md` §12 · `workbook/ML.tsv` ML-OTTO-281…283 · `board_log.tsv` +1 · inbox move ×1 · MEMORY · NEXUS_BRIEF · PROME memo.
 
 ## RESULT
-① OTTO-10 gate graded LATE (8d). The perimeter is Equifax's native new+used combined, and at primary the subprime share is RISING (accounts 19.1%, balances 15.9%, Q1-26 YTD). OTTO's instrument series is IMPEACHED. Staged FALSIFIED. ② CRMT is bridged to 10/1 with events of default disclosed (BROCK's grade; the 9/25 Form 4s are grants). Tricolor list: SEARCH-NOT-FOUND. First Brands entry was reported 9/1. ③ All four rows staged. ④ Rotated.
+OTTO-06 FALSIFIED (EART Aug max 15.22% <18%) 0.4900 · OTTO-10 FALSIFIED (Equifax 19.1% / 15.9%, rising) 0.4225 · OTTO-29 FALSIFIED-on-window / CONFIRMED-on-substance 0.5625 · OTTO-32 CONFIRMED, VERIFIED at Dkt 3748 0.0225. WALTER's 9-phrase set adopted.
 
 ## GAPS
-First Brands entry is INFERRED (two secondaries, primary 403). Equifax editions after Jun-2026 SEARCH-NOT-FOUND. OTTO-06 perimeter chosen after seeing July data (outcome robust on the panel; CPS/ACA/CACC unchecked). VX-OTTO-055/071 still carry impeached figures.
+OTTO-06 perimeter chosen after July data, and CPS/ACA/CACC are unchecked; the 2/23 row had a 15–18% dead zone. OTTO-29's no-distribution read comes from RECAP, a partial mirror; PACER is unchecked. No independent read of the grades. The OTTO-04 and OTTO-30 post-mortems are still owed. VX-055/071 still carry the impeached figures.
 
 ## WILL_NEEDS
 None.
 
 ## FOLLOW-UP
-1. 9/30 boot: resolve OTTO-06/10/29/32 at as-made, plus the post-mortems. 2. Oct 1: 10-D cycle + seasoning repair → CARL, OTTO-12, Tricolor check, BROCK L479 read. 3. WALTER `--live` watch-term result.
+1. Oct 1: 10-D write + seasoning/upsert repair → CARL · Tricolor Counts 7–8 check · OTTO-12 re-search · read BROCK's L479 grade after it lands. 2. PROME lands the 9 WATCH_FOR phrases. 3. Recovery <28% trigger state still owed to CARL.

@@ -49,24 +49,20 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (s023 2026-09-24 → s024 2026-09-28, 4 days dark)
-- **CRMT bridged TWICE more while OTTO was dark:** 9/18 → 9/24 (8-K -006114) → **10/1** (8-K -006216, 9/24 16:05 ET). Item 8.01 now discloses events of default "experienced, or anticipates experiencing". BROCK graded both (L312/L420, KB-BRK-297) and owns the 10/1 + 10/7 rows (DOCKET L479/L480).
-- **First Brands conversion order was ENTERED 9/1 (Dkt 3748)** per two secondaries. OTTO carried "entry UNVERIFIED" at 9/2 and 9/12, stale for 27 days. Primary still unreachable (Kroll 403, CourtListener 403).
-- WALTER intake-scan fix (9/25): OTTO's WATCH_FOR list is live for the first time. PROME asked for a cadence token (WQ-295).
+### CHANGES SINCE LAST SESSION (s024 2026-09-28 → s025 2026-09-30)
+- Aug-collection 10-Ds filed: EART 9/29, SDART/BLAST 9/15. EART 60+ DQ max 15.22% (2022-2).
+- WALTER sent the R3 `--live` harness result (9/28 14:53): 9 phrases pass, `CVNA earnings` rejected, `Tricolor securitization` singular fix.
 
-### LAST SESSION (s024 — PROME Tier-1 due-row wake, DOCKET L469, items ①–④ + inbox 4 → 0)
-1. **① OTTO-10 9/20 hard gate GRADED LATE (8 days).** Perimeter stated from the source: Equifax "Auto: Total", loans + leases, new + used combined, VantageScore <620. **Refreshed at PRIMARY, and the share is RISING:** accounts 15.4 → 19.1%, balances 12.4 → 15.9% (2023 → Q1-26 YTD). ⛔ **The "16.5 → 15.2 → 14.7% unit share" OTTO carried for 7 months is in no Equifax table.** It came from a synthesis doc (RP-OTT-1.6) whose own label said BALANCE share. IMPEACHED: ML-OTTO-278, CHANGELOG, banners on RP-OTT-1.6 and 2.5.
-2. **② Swept** the 9/18 CRMT row (after BROCK, never ahead of him; the 9/25 Form 4s ×4 are option grants) and the Tricolor Counts 7–8 list (SEARCH-NOT-FOUND, re-dated as a 10/1 CHECK). ⚠️ **Same-session correction:** I first wrote that the SEC civil complaint was "located, not read", but OTTO read it on 8/27 (`research/2026-08-27_sec_v_chu_kollar_seibold_complaint_read.md`). Fixed. *Grep your own research/ before calling a source unread.*
-3. **③ The 9/30 set was WRONG on the docket:** it listed OTTO-04 (resolved 7/25) and omitted OTTO-06 and OTTO-10. Corrected, with all four staged. OTTO-06 had no instrument; one was stated before the Aug 10-Ds (EART deal-level 60+ DQ; July max 14.33%).
-4. **④ STATUS 30,657 → under the rule-5 stop** (`measure.py`); verbatim to `STATUS_COLD.md` §9–§11.
-5. WQ-295: **CADENCE WEEKLY** (memo line 1). WATCH_FOR harness run: old list 0/4 hits (recall unproven), Hindenburg dropped, 11-phrase proposal sent to WALTER (cc PROME). `auto lender fraud` was recommended for rejection (7 hits, all known-case re-coverage).
+### LAST SESSION (s025 — PROME Tier-1 due-row spawn, DOCKET L524, 9/30 resolve + inbox 1 → 0)
+1. **Resolved at AS-MADE:** OTTO-06 FALSIFIED (0.4900) · OTTO-10 FALSIFIED (0.4225; impeached series excluded, Equifax primary re-read) · OTTO-29 FALSIFIED-on-window / CONFIRMED-on-substance (0.5625) · OTTO-32 CONFIRMED (0.0225). Mean 0.3744 (0.2927 at the walked cells). ML-OTTO-281…283, PREDICTIONS_ARCHIVE § 9/30 set.
+2. **OTTO-32 upgraded INFERRED → VERIFIED:** Dkt 3748 read at the RECAP PDF (ENTERED 9/1, every remaining debtor).
+3. **OTTO-06 disclosure:** the 2/23 row had a 15–18% dead zone (confirm >18%, invalidate <15%); EART 2022-2 sits in it. Graded on the letter.
+4. Inbox 1 → 0: WALTER R3 result, the 9-phrase clean set adopted; PROME lands it.
 
 ### NEXT SESSION
-1. **🔴 9/30 RESOLVE (at the 9/30 boot or the first after): OTTO-06 FALSIFIED · OTTO-10 FALSIFIED · OTTO-29 FALSIFIED-on-window / CONFIRMED-on-substance · OTTO-32 CONFIRMED (entry INFERRED).** ⚠️ **Score at AS-MADE: 70 / 65 / 75 / 85%** (git-verified: 91c301279 for 06/10, 0bc51c74d for 29; s022 audit for 32), never at the ledger cells (70 / 20 / 80 / 97). Before resolving: re-check whether the Aug-collection EART 10-Ds filed (~9/30) and whether any EART deal >18% (OTTO-06), and try once more for a primary read of Dkt 3748 (OTTO-32). Write PREDICTIONS_ARCHIVE post-mortems, including the owed OTTO-04 and OTTO-30.
-2. **Oct 1:** 10-D cycle (August collection month) + the seasoning / 10-D/A repair (5 acceptance conditions on the CATALYSTS row) → packet to CARL. OTTO-12 re-search (VRM/UACC warehouse at 9/30). Tricolor Counts 7–8 check. Read BROCK's CRMT bridge-4 grade (L479) after it lands, never ahead of it.
-3. **WATCH_FOR:** adopt or decline WALTER's `--live` result; PROME lands the set.
-4. **Owed, carried:** VX-OTTO-055 / VX-OTTO-071 still carry the impeached 16.5 → 14.7 figures (VX is declared dup/rot and was not edited this session). EART 2026-4 FWP still unswept. Recovery-ratio <28% trigger condition MET (EART 2022-2 21.97%, 2022-3 23.52%, July) and never fired; CARL holds the data, and the trigger state is owed.
-5. **DEAD LEADS — do not re-run:** (a) TBK syndicate roster (b) Fitch alternatives (c) 2018–2021 Tricolor vintages (d) press-sweeping First Brands BDC counts (e) `browse-edgar` HTML search — use `data.sec.gov/submissions/CIK##########.json` (f) Kroll and CourtListener for First Brands docket entries (403 from this box, 9/28).
+1. **Oct 1:** 10-D cycle (August collection month) + the seasoning / 10-D/A repair (5 acceptance conditions on the CATALYSTS row) → packet to CARL. OTTO-12 re-search (VRM/UACC warehouse at 9/30). Tricolor Counts 7–8 check. Read BROCK's CRMT bridge-4 grade (L479) after it lands, never ahead of it. ⚠️ The Aug EART/SDART/BLAST 10-Ds are ALREADY filed (EART 9/29, SDART/BLAST 9/15) — read by dry-run 9/30 (ML-OTTO-282), not written; the repair decides how they land.
+2. **Owed, carried:** VX-OTTO-055 / VX-OTTO-071 still carry the impeached 16.5 → 14.7 figures (VX is declared dup/rot and was not edited this session). EART 2026-4 FWP still unswept. Recovery-ratio <28% trigger condition MET (EART 2022-2 21.97%, 2022-3 23.52%, July; Aug 25.17% / 24.58%, still under) and never fired; CARL holds the data, and the trigger state is owed. PREDICTIONS_ARCHIVE post-mortems still owed for OTTO-04 and OTTO-30 (the 9/30 set is written).
+3. **DEAD LEADS — do not re-run:** (a) TBK syndicate roster (b) Fitch alternatives (c) 2018–2021 Tricolor vintages (d) press-sweeping First Brands BDC counts (e) `browse-edgar` HTML search — use `data.sec.gov/submissions/CIK##########.json` (f) Kroll and the CourtListener docket PAGE / REST API for First Brands (403/401 from this box, 9/30). ✅ The CourtListener SEARCH API works unauthenticated (DEWEY `recap_pull.py search … --type rd --court txsb`) and returns storage URLs for the PDFs: that route VERIFIED Dkt 3748 on 9/30. The 9/28 session knew this (NEXUS_BRIEF method note) and did not use it.
 
 ### DURABLE LESSONS CARRIED
 - **A dead row inside a live container manufactures work** (BROCK, 9/2) — the inverse of the usual worry. A null from attempting an impossible task comes back **looking like a finding**. Sweep forward-dated rows for ones that are not merely stale but *no longer possible*, and DELETE rather than re-date.
@@ -94,4 +90,5 @@
 - **⚠️ Standing instrument limit:** the **five ACM Auto Trusts are 144A and NOT SEC filers.** No public feed exists for anyone. Any future band or gate keyed to a trust-level servicer-termination is **UNOBSERVABLE BY CONSTRUCTION** — do not grade it false on EDGAR silence.
 
 ### PENDING PUSH
+- s025 (2026-09-30): committed path-scoped, NOT pushed by OTTO — PROME pushes at its closeout the same night (spawn instruction). Confirm the commits reached origin at the next boot (`git branch -r --contains <sha>`).
 - s022: committed path-scoped from `AGENTS/OTTO/` + self-authored packets into `AGENTS/BROCK/inbox/`, `AGENTS/CARL/inbox/`, `AGENTS/DEWEY/inbox/` and `PROME/inbox/` (carve-out ①), plus the extended auto-memory file (carve-out ③). Auto-push at closeout via `scripts/safe-push.sh`.

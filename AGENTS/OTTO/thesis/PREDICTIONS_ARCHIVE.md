@@ -6,6 +6,8 @@ Post-mortems for resolved rows in [`PREDICTIONS.tsv`](PREDICTIONS.tsv). The TSV 
 
 ## Calibration Scoreboard (as of 2026-07-25, session 016)
 
+> ⚠️ **The counts in this table are as of 7/25.** Ledger at 2026-09-30 (Status column of `PREDICTIONS.tsv`): **5 CONFIRMED · 8 FALSIFIED · 7 OPEN.** The 9/30 set is in § *9/30 resolve set* below; OTTO-30 (resolved 8/14) has its grade in its TSV row.
+
 | Status | Count | Notes |
 |--------|-------|-------|
 | **CONFIRMED (substance + window)** | 4 | OTTO-01, OTTO-08, OTTO-09, OTTO-27 |
@@ -41,6 +43,25 @@ Counting only "was OTTO right about the world" flatters the book. Sorted by *why
 **Five of the seven problem rows failed on how the claim was written, not on what happened.** That is a fixable process defect, and it is more actionable than the headline hit rate. Corrective adopted 2026-07-25: **a claim must name its instrument in-row and carry a pre-registered re-check** — see `[[finding_discovery_instrument_defines_the_claim]]`. First application: **OTTO-33**.
 
 **Do not read the 75% as "OTTO is well-calibrated on direction."** OTTO-05 is the only row where the world was cleanly tested and OTTO was wrong — the rest were never given a fair test.
+
+---
+
+## 9/30 resolve set — OTTO-06 · OTTO-10 · OTTO-29 · OTTO-32, scored at AS-MADE (resolved 2026-09-30, s025)
+
+| Row | Grade | As-made | Brier | Walked cell (not used) |
+|---|---|---|---|---|
+| OTTO-06 | ❌ FALSIFIED | 70% | 0.4900 | 70% |
+| OTTO-10 | ❌ FALSIFIED | 65% | 0.4225 | 20% |
+| OTTO-29 | ❌ FALSIFIED-on-window / ✅ substance | 75% | 0.5625 | 80% |
+| OTTO-32 | ✅ CONFIRMED | 85% | 0.0225 | 97% |
+| **Set** | 1 of 4 | | **mean 0.3744** | mean 0.2927 at the walked cells |
+
+**Full evidence per row is in each TSV Result cell; this is the lesson layer only.**
+
+- **OTTO-06: an instrument written late leaves a dead zone.** The row as made on 2/23 read "exceeds 18%" with the invalidation "stays <15%". EART 2022-2 printed 15.33% (Jan) and 15.22% (Aug), which lands between the two lines, so neither side resolves it. The 9/28 instrument line ("FALSIFIED otherwise") closed the gap, but it was written after the July data were visible. The grade stands on the letter, because "exceeds 18%" did not happen. **Rule: the confirm line and the invalidation line must be the same number, or the row must say what the gap resolves to.**
+- **OTTO-10: the world moved against the claim, and the instrument hid it for seven months.** The subprime share ROSE on both Equifax bases, to 19.1% of accounts and 15.9% of balances. The "16.5→14.7" series that justified the 8/14 walk-down to 20% came from a synthesis document, and no Equifax table contains it. The walk-down would have cut this row's Brier from 0.4225 to 0.0400 for a reason that does not exist. **The as-made convention is what caught it.**
+- **OTTO-29: the substance was right, and a hard catalyst date was the weak link again.** OTTO-26 had the same failure shape. The recovery is about 3% and the notes trade under 10¢, but no distribution had happened by 9/30 because the $113M dispute holds everything. Scored on the letter; no substance credit taken.
+- **OTTO-32: the only hit, now VERIFIED.** On 9/28 the entry was INFERRED from two secondary sources. On 9/30 OTTO read Dkt 3748 itself (clerk stamp ENTERED 2026-09-01). Kroll and the CourtListener docket page still returned 403, and the RECAP search API was the route that worked. **Rule: when the docket page is blocked, try the search API before settling for secondaries.**
 
 ---
 
