@@ -60,7 +60,7 @@ SERIES = [
         "notes": "Forced selling regime",
     },
     {
-        "name": "Brent (BZX26 Nov)",
+        "name": "Brent (BZZ26 Dec)",
         "source": "price",
         # NAMED CONTRACT, not BZ=F (2026-08-31, PROME): the continuous ticker's
         # change_pct spans two contracts at every roll — on 8/31 it printed
@@ -68,8 +68,10 @@ SERIES = [
         # occurrence of finding_continuous_front_ticker_rolls_so_deltas_lie).
         # Fleet canon already bans bare "Brent $X" — the display row now names
         # the contract. MAINTENANCE: re-pin id+name at each front-month roll
-        # (~monthly, BRENT's roll re-pin flags it; last pinned 8/31 to Nov).
-        "id": "BZX26.NYM",
+        # (~monthly, BRENT's roll re-pin flags it; pinned 8/31 to Nov; RE-PINNED
+        # 9/30 to Dec per DOCKET L461 — BRENT's word 9/23: switch on BZX26's
+        # expiry day, after its last graded settle 9/29; a calendar step, P1).
+        "id": "BZZ26.NYM",
         "agent": "HENRY",
         "tier": 1,
         "direction": "higher_worse",
