@@ -20,13 +20,13 @@ This companion keeps render metadata outside the boot-read byte budget.
 ```dashboard-amendment
 {
   "amendment": 1,
-  "source_sha256": "13f782b3f94eecf4a1e098b0b78addb7d39d9c49c94d2c623ec423548023e4f2",
+  "source_sha256": "a9034a63ce6b2a891a4fd4599b63f1a86df508277da660beb565dd9802b12789",
   "set": {
     "one": "🔴 THE BOND SELL-OFF's FIFTH DAY STANDS (official 30Y 5.59 · 10Y 5.26 [9/29]); HY 308 / B 316 / CCC 1,157 [9/29] — nearest line HY >320 (12bp), LIQUID grades LIQ-07; BRENT PUBLISHED: 9/29 Nov crack $100.01 PROXY, VLO-SCALE TERMINAL (both staged shares stand down), HELD-01 A/B1 NOT FIRED; the Dec pin is in (a roll step, not a signal); WQ-316 REFRESHED — SELL the QQQ 730P ×9 by 15:00, LET the USO 159C expire; 004 ×15 ARMED; $0 moved by PROME; STAND DOWN holds (WQ-192).",
     "channels": {
       "Energy": {
         "headline": "🟠 Dec pin IN; BRENT 9/29 PROXIES: Nov crack $100.01 / Dec $94.73, BZZ26 96.12; WPSR wk-9/25 exports +198 kb/d (curbs NOT visible), Cushing 24.301M (F-b FIRED on its letter); no signed US export text (B1 UNMET); Russia ban EXTENDED to 10/31",
-        "body": "BRENT 847a934e8 (settle-window proxies, single vendor, exchange settles NOT FOUND): BZX26 102.56 (thin) · BZZ26 96.12 · CLX26 89.37 · HOX26 4.5090; Nov ULSD crack $100.01 (TERRY $100.04). Headline BZ=F −$4.39 = −$6.43 calendar + ~+$2 real (the market was UP, P1). WPSR wk-9/25: distillate exports 1,529 kb/d (+198) · stocks 105.180M · util 92.5% · Cushing 24.301M (+0.553) · SPR 283.767M. Russia's ban extended to 10/31 (Interfax, signed resolution; government.ru unread) ⇒ HEN-F3 NOT FIRED, WQ-344 (10/6). BRT-29 FAILED · BRT-12 VOID. STAND DOWN (WQ-192) holds."
+        "body": "BRENT c4eab03b8 (settle-window proxies, single vendor, exchange settles NOT FOUND): BZX26 102.56 (thin) · BZZ26 96.12 · CLX26 89.37 · HOX26 4.5090; Nov ULSD crack $100.01 (TERRY $100.04). Headline BZ=F −$4.39 = −$6.43 calendar + ~+$2 real (the market was UP, P1). WPSR wk-9/25: distillate exports 1,529 kb/d (+198) · stocks 105.180M · util 92.5% · Cushing 24.301M (+0.553) · SPR 283.767M. Russia's ban extended to 10/31 (Interfax, signed resolution; government.ru unread) ⇒ HEN-F3 NOT FIRED, WQ-344 (10/6). BRT-29 FAILED · BRT-12 VOID. STAND DOWN (WQ-192) holds."
       },
       "Rates": {
         "headline": "🔴 Session 5 stands (official 30Y 5.59 · 10Y 5.26 [9/29]); August PCE core +0.25% MoM / +3.01% YoY (PROME arithmetic, HENRY logs); 004 TLT 77P ×15 ARMED — TLT 77.75 at 11:10, $0.75 above $77",
@@ -42,7 +42,7 @@ This companion keeps render metadata outside the boot-read byte budget.
       }
     },
     "ticker": {
-      "Brent": "Brent Dec `BZZ26` 96.12 [9/29 settle-window PROXY, single vendor, BRENT 847a934e8; exchange settles NOT FOUND]",
+      "Brent": "Brent Dec `BZZ26` 96.12 [9/29 settle-window PROXY, single vendor, BRENT c4eab03b8; exchange settles NOT FOUND]",
       "Dec": "Dec pin IN 9/30 (L461); Nov `BZX26` 102.56 [9/29 proxy, thin]",
       "WTI": "WTI `CLX26` 89.37 [9/29 proxy, BRENT]",
       "F1 crack": "F1 crack Nov $100.01 / Dec $94.73 [9/29 settle-window proxy, BRENT; TERRY $100.04]",
