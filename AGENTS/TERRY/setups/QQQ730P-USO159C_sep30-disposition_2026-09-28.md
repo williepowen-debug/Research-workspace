@@ -3,7 +3,7 @@
 **Date:** 2026-09-28 Mon, built 10:51–10:5x ET (`date` 10:51:11 at boot). **Spawn:** PROME `prome-7f`, Tier 1, on WQ-315 (Will, verbatim: *"Approve WQ-315. Bring TERRY in now for the QQQ and USO expiries. … Recommendations only; orders remain mine. Keep my TLT hold-to-expiry ruling unchanged."*)
 **Id:** `MGMT-QQQ730P-USO159C-SEP30` (management read — no SETUPS row, registered in `setups/INDEX.md`; SETUPS/TRADE_BOOK rotations still owed).
 **Thesis owner:** none on file for either line (Will-direct, off-thesis class — `FORGE/STATUS.md` § Off-thesis; card grep 9/27 SEARCH-NOT-FOUND).
-**Terry verdict:** **SELL both — QQQ 730P: SELL today (primary); USO 159C: SELL today (low stakes).**
+**Terry verdict:** 🔒 **CLOSED — both lines EXPIRED OUT OF THE MONEY 2026-09-30** (QQQ close $739.77 vs $730 · USO close $145.66 vs $159). ⚠️ **QQQ ×9 disposition UNKNOWN — PENDING WILL'S WORD** (sold at the bid before 15:00, or held into expiry). See § ⑨. *(was: SELL both — QQQ 730P: SELL today (primary); USO 159C: SELL today (low stakes); refreshed 9/30 11:02 to SELL QQQ ×9 before 15:00 · LET USO ×2 EXPIRE)*
 **Confidence in the read:** Medium (quotes are one-vendor screening grade, ~15 min delayed — see §2).
 **`$0` MOVED · NO ORDER · NO NEW TRADE PROPOSED · NO GATE OR THRESHOLD MOVED.** Recommendations only; orders are Will's.
 
@@ -122,3 +122,19 @@
 3. *(Only if he holds QQQ into the close)* how Fidelity handles an in-the-money long put at expiry in this IRA (D-60). The 800-343-3548 call is the only resolver.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution.**
+
+## ⑨ EXPIRY GRADE — Wed 2026-09-30, written 17:3x ET (`date` 17:33:44 at boot) · PROME spawn `prome-94` (Tier 1). Will's own TERRY window died in a machine crash after ~15:05 ET, before this grade. **`$0` MOVED · NO ORDER · NO GATE OR THRESHOLD MOVED.**
+
+| | QQQ $730P ×9 | USO $159C ×2 |
+|---|---|---|
+| 9/30 regular-session bar (`fetch.py price`; yfinance daily bar `prepost=False`, 17:33–17:35 ET) | O 740.19 · H 745.08 · **L 739.46** · **C $739.77** (+0.25%) | O 147.17 · **H 147.87** · L 145.33 · **C $145.66** (+1.61%) |
+| At expiry | **OTM by $9.77 / 1.3% of the close** ⇒ expires worthless if held; no auto-exercise | **OTM by $13.34 / 9.2% of the close** ⇒ expired worthless |
+| § ⑧ re-look triggers | QQQ ≤ $733: **never tripped** (day low $739.46) | USO > ~$156: **never tripped** (day high $147.87) |
+| **Will's action** | ⚠️ **UNKNOWN — PENDING WILL'S WORD.** PROME asked him at 15:02 ET; the session crashed before any answer. Either (a) sold ×9 at or near the bid before 15:00, or (b) held into expiry. **Not assumed either way.** | Let expire, as recommended (no bid all day at the 11:02 read). Not sold, per the last repo record |
+| Realized on the open lots (average basis; broker lot method UNKNOWN; FORGE governs the cent) | Basis ×9 = 9/10 × $2,486.63 = **$2,237.97**. (a) if sold at ~$0.07: ≈ $57 net ⇒ **≈ −$2,181** (the fill price is Will's to supply) · (b) if held: **−$2,237.97 / −100%**. Whole line incl. the 9/28 1-lot (−$51.32): (a) ≈ −$2,232 · (b) **−$2,289.29** | 2 × $0 − **$921.33** = **−$921.33 / −100%** |
+
+- **Either QQQ branch ends OTM, so there is no exercise path and no IRA short.** The D-60 question (what Fidelity does with an ITM long put and no shares in an IRA) stays **unobserved** — nothing expired in the money today.
+- **What the § ⑧ rec was worth, graded on the tape:** the 4% tail did not come; the SELL rec's value was risk removal (≈$57 net), not money. If Will held, the cost of holding was the ≈$57 bid; if he sold, the rec was followed. Neither changes a rule. Recorded, not graded against Will — his book, his hand.
+- **Only Will can close this row:** whether the ×9 were sold before 15:00, and at what fill. Until then FORGE and this card carry the QQQ leg as UNKNOWN.
+
+**No proposal, no new card.** Owed (scoped out of this spawn): a `POSTMORTEMS.md` line for both off-thesis lines once the QQQ disposition is known.
