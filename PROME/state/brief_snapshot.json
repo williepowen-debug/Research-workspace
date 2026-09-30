@@ -44,9 +44,9 @@
   "GATE-TERRY-VLO-SCALE": "RESOLVED"
  },
  "money": {
-  "cash": "49.16",
-  "total": "36,822.87",
-  "vintage": "2026-09-29"
+  "cash": "49.75",
+  "total": "36,384.93",
+  "vintage": "2026-09-30"
  },
  "queue": {
   "187": "Will APPROVED 2026-09-10 11:18 ET (tap via Decision Deck 15:18Z) \u2014 ha\u2026",
@@ -62,7 +62,6 @@
   "306": "\u2696\ufe0f DEWEY COURT-RECORDS HELPER \u2014 OVERTAKEN: DEWEY BUILT IT at cbac3972\u2026",
   "31": "SCHEDULE RATIFIED 2026-08-21 \u2014 ROW STAYS OPEN (dated Will-action; the\u2026",
   "314": "\u2696\ufe0f ORACLE's OCTOBER OIL LEG \u2014 (a) RULED 10:51 ET 9/28 (Will: *\"Approv\u2026",
-  "316": "\u2696\ufe0f SELL OR HOLD THE TWO WEDNESDAY EXPIRIES \u2014 your order, TERRY's reco\u2026",
   "332": "\u2696\ufe0f BOND \"PULLED-DEAL CLUSTER\" \u2014 a prospective definition for the HY-m\u2026",
   "334": "\u2696\ufe0f SEND CORAL's NARROWED DBPR RECORDS REQUEST? CORAL drafted a public\u2026",
   "335": "\u2696\ufe0f SCOPE A BUILD-YEAR \u00d7 LOAN-YEAR MULTIFAMILY DELINQUENCY CROSS-TAB?\u2026",
@@ -71,6 +70,8 @@
   "341": "\u2696\ufe0f ROOT B IS UNOWNED \u2014 an 'AI-disruption scare in incumbents' credit\u2026",
   "342": "\u2696\ufe0f A CREDIT LEG FOR NEXUS's DURATION SPLIT? \u2014 the split's only regist\u2026",
   "344": "\u2696\ufe0f HEN-F3 \u2014 DEAD AS WRITTEN, OR RE-ARM AT THE NEXT BAN EXPIRY (10/31)\u2026",
-  "346": "\u2696\ufe0f BRT-31 v2 \u2014 THE ADJUSTED PATH-B (DEMAND) TEST AFTER CARL's BLIND R\u2026"
+  "346": "\u2696\ufe0f BRT-31 v2 \u2014 THE ADJUSTED PATH-B (DEMAND) TEST AFTER CARL's BLIND R\u2026",
+  "347": "\u2696\ufe0f THE ROLLED QQQ PUTS \u2014 nine Oct-01 740P (EXPIRE TOMORROW, ITM at th\u2026",
+  "348": "\u2696\ufe0f APPROVAL INVENTORY \u2014 WHICH OF THE STEPS THAT ASK YOUR WORD SHOULD\u2026"
  }
 }
