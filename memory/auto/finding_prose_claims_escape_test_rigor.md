@@ -4,6 +4,7 @@ description: in one session an agent applies full primary-source rigor to claims
 metadata:
   node_type: memory
   type: finding
+symptoms: "an advisory to the operator states a domain fact the desk itself said it could not source"; "a coordinator's synthesis carries a spread, rate or exposure claim with no citation while the desk's version carried the block"; "a reviewer corrects the coordinator's aside, not the desk's finding"
 ---
 
 **Verification behavior is triggered by the SHAPE of a claim, not its load-bearingness.** A claim formally framed as a test — pre-registered threshold, named prediction ID, expected-signal row — reliably triggers primary-pull discipline. A claim of equal or greater consequence written as a *sentence in the summary* rides on vibes. Both can ship in the same message, so the demonstrated rigor on the first launders the second.
@@ -26,5 +27,7 @@ metadata:
 - Before writing a synthesis paragraph, ask *"is the population I'm quantifying over my state, or this window's inbound?"*
 - When two metrics in your own files could carry a claim, pick the one that drives the **mechanism**, not the one with the freshest print — then say which you used.
 - Staleness alerts emitted at boot are **evidence about the claims you are about to make**, not a chore list. Read them before the synthesis, not after.
+
+**Instance n+1 (2026-09-30, PROME advising Will on a CREED thread, corrected by CATO the same hour):** CREED's own text said it could NOT source CMBS refinancing spreads (its one data-access block). PROME's Will-facing synthesis then asserted two domain facts as prose: *"a 6.5% rate implies a spread thinner than any normal CMBS market, so the 13.2% figure understates the risk"* (no spread source; and Trepp defines 13.2% as balance below 1.0× coverage in a sensitivity, not a share unable to refinance) and *"the risk sits with CMBS bondholders, not banks"* (banks hold CMBS; the defensible words were "no relevant bank exposure identified"). Both rode inside advice whose SHAPE was commentary, so neither got the test-class check PROME applies to a number in a GATES cell. **Tell:** the coordinator's aside was more confident than the owning desk's finding. **Rule:** in a Will-facing synthesis, a domain claim PROME cannot source is either tagged INFERRED in the sentence, or handed back to the desk as a question — never stated flat because it "sounds right." A decision to stop researching needs no confident claim that the exposure is irrelevant; *"potentially useful, presently unconnected, lower priority"* is enough (CATO).
 
 **Siblings:** [[finding_asymmetric_rigor_counterparty_claims]] — same asymmetry sorted by *target* (rigorous where you measure, sloppy where you infer about the other side); this one sorts by *claim shape* (test vs prose) and points at your own state. [[finding_same_datum_two_evidentiary_standards]] — one datum graded decisive in prose and partial in the trigger rail. [[feedback_pull_live_primary_not_dashboard]], [[finding_ledger_drift_behind_narrative]].
