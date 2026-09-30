@@ -1,0 +1,12 @@
+# RULED — the operator-OK step on verified position-mirror commits is RETIRED (2026-09-30 19:07 ET)
+
+**Will, 2026-09-30, verbatim:** *"why do I need to approve the mirror?"* (19:06) · *"I think we need to make certain things more automatic without me needing to approve everything speicifcly. I guess my questions is why do I need to aprove this if its just updating the position mirror?"* (19:07). PROME's answer in-session: he does not; the step was his own 7/30 flow (ANVIL edits → PROME verifies at the artifact → Will OK → ANVIL commits) and, with a transcription of his own captures verified to the cent and recomputed by the clerk, it added latency and no information. Treated as the ruling on the second message (a repeated, reaffirmed question about his own rule — `feedback_explicit_approval_authorizes_no_relay_gate`'s spirit: no extra gate on the operator's own word).
+
+## What changes (scope: the mirror commit only)
+- **Retired:** the "Will OK" step between PROME's verification and ANVIL's commit of `FORGE/STATUS.md` after a reconcile.
+- **Now:** ANVIL edits → PROME verifies at the artifact (only `FORGE/STATUS.md` modified · `positions_from_forge.py --selftest` rc=0 · three spot rows against the transcription · byte size vs 32,550) → ANVIL commits via the wrapper (PROME commits for it if the clerk is gone) → PROME pushes at closeout → **Will is INFORMED by the report** (deltas · realized · new lines · the ranked discrepancy list · what needs his hands). A reconcile that does NOT tie to the cent is never committed; it comes back to him as a discrepancy.
+- **Unchanged:** root rule #5 (trades are his); root rule #4 (live prices at fire-time); position truth stays off-repo (the mirror is the stale mirror); the transcription + report are still written; root-doc FORGE *lines* stay Will-gated; Tier-3 (trade/spend) untouched.
+- **Also opened by his words:** an APPROVAL INVENTORY — every step that asks his word, with a keep/retire recommendation per line — **WQ-348**, drafted by PROME for the Fri 10/2 sitting.
+
+## Surfaces amended (this commit)
+`PROME/AUTONOMY.md` (change-log row + stamp) · `.claude/agents/anvil.md` + `PROME/.claude/agents/anvil.md` (rule 9) · `.claude/skills/reconcile/SKILL.md` + `PROME/.claude/skills/reconcile/SKILL.md` (steps 7–8) · `PROME/BOOT.md` (the FORGE-reconcile conditional row) · this record. Process class: ONE process change this session (WQ-299 R1), Will-directed.
