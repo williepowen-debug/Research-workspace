@@ -388,3 +388,4 @@
 - finding_a_scope_rule_allocates_visibility_not_superior_judgement — a scope rule names who can SEE the population, never who judges better
 - finding_an_amendment_read_for_one_item_leaves_the_others_derived_from_the_original_live — a SELF-authored refutation has no trigger at all (n=3)
 - reference_bank_loan_sale_and_lien_record_sources — FDIC JV bid summaries (leverage column) + Fairfax CPAN lien records
+- feedback_will_sells_or_rolls_before_expiry — Will sells or rolls before expiry, never lets options lapse; cards carry a sell/roll rail (9/30)

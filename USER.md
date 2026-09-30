@@ -37,6 +37,8 @@ Will challenges his own theses, uses RED-team reasoning, and checks primary sour
 
 He thinks about agents as people with characteristic failure modes and designs workflows around the cold-boot experience.
 
+**Standing practice on expiries (2026-09-30 19:03 ET, verbatim):** *"I am always going to try to sell or roll positions before they expire worthless."* Cards, rulings and mirrors carry a **sell-or-roll rail** for every option line, never a hold-to-expiry or lapse rail; a sale or roll before expiry is his standing practice, not a deviation to record. Rolling keeps the bet and is the form root rule #7 sanctions; the desk's job is the card (bid, exercise arithmetic, day colour), the order is his.
+
 ## Decisions and Attention
 
 Anything requiring Will goes at the top of the message in a blockquote.
