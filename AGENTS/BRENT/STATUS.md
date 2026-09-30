@@ -1,11 +1,19 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-09-28 — scoped:** settle-window proxies 14:28–14:29 and post-settle 16:12 (yfinance, single vendor, NOT CME) · EIA API spot (through 9/22), retail (wk-9/21; wk-9/28 not out at 16:25), WPSR balances + Cushing (wk-9/18) · FORGE mirror for positions (9/25 close + 9/28 fills) · news (sources in the 9/28 notes). Not re-verified: rigs, COT, JWC.
+**Last real data refresh: 2026-09-30 — scoped:** WPSR wk-9/25 at the EIA primary spreadsheets (10:56 ET; API lagged) · yfinance intraday named contracts 10:17 ET and 9/29 settle-window proxies (1-min VWAP 14:28–14:29, single vendor, NOT CME) · retail wk-9/28 via FRED GASREGW · news 9/30 (sources in the 9/30 block). Not re-verified: rigs, COT, JWC, Dated Brent (FRED last 9/22).
 
 ---
 
 # ⚡ CURRENT STATE — *read this first. Dated blocks follow newest first; STANDING STATE is the hot half; ARCHIVE INDEX is history.*
 
+
+## September 30 (10:15 → 11:1x ET by `date`, Will-directed boot + grades; PROME prome-f4 orchestrating) — WPSR wk-9/25 · BRT-29 FAILED · BRT-12 VOID · F-b FIRED · Brent pin → BZZ26
+
+**Grades** ([report](research/2026-09-30_wpsr-grades/REPORT.md), EIA primary `psw01/02/04/09.xls`): **BRT-29 FAILED on T**. Gasoline 4-wk YoY **+0.26%** vs the required ≤ −3.0% (Brier 0.3025 at 55%; M INDETERMINATE). **No registered Path-B demand test now exists**; the P3 successor is a DRAFT owed to Will before Wed 10/7. **BRT-12 VOID** (8/13 rule): neither signal appeared; the crack candidate fully reversed; HENRY blind NO; the E&P leg is unobservable. **F-b (v5.8 Cushing falsifier) FIRED on its letter:** Cushing **24.301 M (+0.553)**, second build week; the combined commercial+SPR draw went −7.57 → +2.56 → +0.14. ⚠️ Seasonal (6/20 yrs) · turnarounds (util **92.5%**, −1.5) · crude exports 3,570 kb/d (9/11: 4,831). **US tanks, not world supply.** THESIS **v5.11** (minor). **F-a not crossed:** Dec−Feb **+$4.47** [yfinance 10:17 ET, intraday]; the switch step Nov−Jan +$9.08 → Dec−Feb +$4.57 = **−$4.51, calendar, not a signal**.
+**WPSR wk-9/25** [CONF EIA]: comm crude 427.320 M (+0.922) · SPR 283.767 (−0.785) · gasoline 204.362 (−1.684) · distillate 105.180 (**−2.251**) · **distillate exports 1,529 kb/d (+198)**, i.e. curbs are not visible in exports yet; consistent with front-running, one week, not proof · jet supplied 4-wk YoY +6.45%.
+**Tape 10:17 ET** [yfinance, vendor quote]: **BZZ26 $98.20 (+1.7%, now the graded Brent)** · BZX26 103.45 (last trade today, thin) · CLX26 90.60 · HOX26 4.7394 (**+3.8%**) · RBX26 3.2381 · Nov ULSD crack **~$108.5**. ⚠️ `BZ=F` "−4.6%" = the Nov→Dec continuous roll, not a move. **9/29 settle-window proxies** [1-min VWAP 14:28–29]: BZX26 102.56 (1 bar, 121 lots, thin) · BZZ26 96.12 · CLX26 89.37 · HOX26 4.5090 · **Nov ULSD crack $100.01 · Dec $94.73** · Nov−Jan +$9.08 · BZG27 no bar (Dec−Feb 9/29 not measurable at the window). Reported settles 9/29 not found (gap). Retail wk-9/28 regular **$4.465** [FRED GASREGW].
+**News:** **Russia producer diesel/gasoil/bunker export ban EXTENDED to 10/31** (Interfax 9/30 citing the government press service and a signed resolution; Moscow Times; Bloomberg via Rigzone). The 9/30 CATALYSTS expiry row ⇒ EXTENDED. **US export ban: no signed text** (Federal Register published + public inspection, 11:03 ET). FT: "the debate goes on"; Reuters 13:00 GMT: leaning to red-dyed diesel rather than a ban, and the WH urged the EU to release emergency diesel stocks. **Iran:** Trump denied the sanctions-relief reports; Qatar shuttle diplomacy continues. **Gulf supply:** Reuters says Yanbu loadings resumed after the East-West restart Tue 9/29 (no operator figure; **record-only, WQ-331 P4**). GS Gulf exports 23.3 mb/d last week; JPM 10-day 20.5 mb/d (89% of 2025); Kpler Sept regional 16.3 mb/d. Different perimeters; do not compare directly. API (unverified at the article): crude +0.9 M, Cushing +2.0 M.
+**Also:** `pending_receipts.py` restored. Two defects came from my 9/28 TRADE cleanup: the heading rename, and a `###` table nested in POSITIONS. Plus a negation-blind skip: "(not sold)" matched `\bSOLD\b`. The row was reworded, markers added, and the guard falsified with today=10/01 ⇒ it flags the USO calls. **$0.**
 
 ## September 28 (PM 16:22 → EVE 18:24 ET by `date`, Will-directed; scope WQ-329) — tape · export-ban risk · VLO observables · phase map · TRADE cleanup
 
@@ -90,4 +98,11 @@
 
 ## SUMMARY FOR WILL
 
-*(2026-09-28, 18:24 ET)* Oil finished modestly higher; diesel outpaced gasoline. A US diesel export ban is live talk with no order. It would hurt VLO's margins, but how fast can't be read from a pump-price forecast, so my earlier timing is withdrawn. The early warning signs are a policy act (same day), a Gulf-vs-New-York diesel gap opening (~4 days) and falling export numbers (weekly). Wednesday is the week's real test: the demand prediction and a second Cushing week. December becomes "Brent", which shrinks the curve spread on paper. **Your USO $159 calls (×2) expire Wednesday** (WQ-316). TERRY is drafting a VLO exit-rule proposal for you. $0 moved.
+*(2026-09-30, 11:1x ET)* Wednesday's inventory report settled three of my tests.
+1. My demand-destruction prediction (BRT-29) **failed**: gasoline demand is now slightly above last year, not 3% below.
+2. My refiner-credit prediction (BRT-12) is **void**: neither signal ever showed, and one leg could never have been measured.
+3. The Cushing test I set on 9/2 **fired**: US storage built a second week while the overall US draw stopped. That removes the US-tank leg of my "prompt squeeze" view. The world legs (Brent still paying up for near barrels, Gulf access) still hold it up. Much of the US build is seasonal refinery maintenance and lower crude exports, so it isn't proof the world is loosening.
+
+Diesel is up ~4% on Russia extending its export ban to 10/31. No US ban has been signed. **Your USO $159 calls expire today (WQ-316)**, about 8% out of the money. $0 moved.
+
+*(Prior summary, 2026-09-28, 18:24 ET)* Oil finished modestly higher; diesel outpaced gasoline. A US diesel export ban is live talk with no order. It would hurt VLO's margins, but how fast can't be read from a pump-price forecast, so my earlier timing is withdrawn. The early warning signs are a policy act (same day), a Gulf-vs-New-York diesel gap opening (~4 days) and falling export numbers (weekly). Wednesday is the week's real test: the demand prediction and a second Cushing week. December becomes "Brent", which shrinks the curve spread on paper. **Your USO $159 calls (×2) expire Wednesday** (WQ-316). TERRY is drafting a VLO exit-rule proposal for you. $0 moved.

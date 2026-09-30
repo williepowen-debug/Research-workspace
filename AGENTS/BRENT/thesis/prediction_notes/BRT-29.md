@@ -36,3 +36,16 @@ KLM issuer statement supplies no distinct cut. Lufthansa has a newer group outlo
 ## Original Notes, preserved verbatim
 
 PRE-REGISTERED 2026-07-21 (before post-closure data; pre-registration discipline). Calibration anchors applied per header: consumer-transmission ~55 pct (BRT-08 lesson - EV-era inelasticity; LESSONS #12 timeline stretch 28-32wk from onset; sustained-$90+ onset ~7/13 so <= -3.0 pct by late-Sep is ~11wk = aggressive-but-testable). -5 pct deliberately NOT reused (unreached last cycle, peak -2.58 pct). Aviation lead ALREADY firing at registration (Virgin Atlantic 5 routes/-14 pct US 7/15; Aer Lingus 4 routes/500 jobs Iran-war-cited 7/16; Spirit Ch.7 May precedent). LESSONS #9: EIA product-supplied misleads wks 1-4 of a shock (wholesale stockpiling) - do NOT grade off late-July prints; first clean reads ~mid-Aug. Cross-refs: BRT-16 (macro chain), TRACKER Path-B, CARL (consumer end), GS 7/20 (demand-elasticity assumption higher this cycle).  ||| 🔎 PREDICTIONS SWEEP 2026-07-30 (Will-directed; same 'can this even fire / can it resolve' tests applied to the gates today). CLAIM AND CONFIDENCE DELIBERATELY UNCHANGED — retroactively editing either is a calibration sin; STATUS and NOTES only. ✅ SOUND — no defect found. Premise/mechanism/threshold are cleanly separated, the threshold is REACHABLE (gasoline <=-3.0% YoY 4wk = 18.4% of weeks ex-COVID; the 29.6% full-sample figure is COVID-contaminated and was de-contaminated before use), and it carries an explicit no-grade-off-July-prints guard (LESSONS #9). PREMISE TRACKING: GASREGW >=$4.00 needs 4 of 6 prints 7/27-8/31 — 7/27 $4.096 = 1 of 1 so far.
+
+## September 30 — FINAL GRADE: FAILED (MISS on T as written)
+
+Graded 2026-09-30 ~11:0x ET at the EIA WPSR primary (`psw01.xls`, wk-ending-9/25; the v2 API still served wk-9/18 at 10:56). **Gasoline 4-week YoY = +0.2587%** (4-wk 8,721.2 vs year-ago 8,698.8 kb/d; the single week was 8,689 against the ≤7,555 needed). T required ≤ −3.0% by this named print ⇒ **FAILED**. The method reproduces wk-9/11 (−1.0119%) and wk-9/18 (−0.7798%).
+
+- **Failure path:** T as written. The "never ≤ −1.5%" clause is **not** operative: wk-8/28 printed −1.61%.
+- **Premise MET 6/6; M INDETERMINATE** (never resolved; three eligible further named carriers not established by bounded research). The row needed T, so M does not change the outcome. Split per `[[finding_threshold_vs_mechanism]]`.
+- **Jet 4-wk YoY +6.45%** at wk-9/25: aviation is not leading on this series (context; outside the elapsed M window).
+- **Brier 0.3025** at 55%.
+- **Lesson:** a demand bar anchored on the prior cycle's −2.58% peak needs a base rate **conditioned on price level and duration**, not an unconditional share of weeks. Demand peaked at −1.61% and reversed while pump prices stayed above $4.40.
+- Full grade, series table and hashes: [2026-09-30_wpsr-grades](../../research/2026-09-30_wpsr-grades/REPORT.md) §3.
+
+**Pre-grade Notes cell from PREDICTIONS.tsv, preserved verbatim:** Premise MET 6/6; T <=-3.0 by wk-9/25; -1.5 invalidation sufficient failure only. September15 second review: KLM, Lufthansa, Malaysia, Wizz examined; new group-level outlook evidence and Malaysia timing lead do not establish three eligible distinct carriers. M INDETERMINATE/unresolved; final OPEN Sep30. Read thesis/prediction_notes/BRT-29.md.
