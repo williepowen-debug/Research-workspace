@@ -67,3 +67,4 @@ date	agent	cause	note
 2026-10-01	LIQUID	stale	Trigger (a) - brief 8/23, 65 STATUS commits behind: ladder 9/29+9/30, LIQ-07 FIRED 3/3 9/30, GATE-LIQ-072 basis half, funding at quarter-end read from STATUS (reader A). Chronic-stale 3rd pass (rollup #5 flagged it).
 2026-10-01	RED	stale	Trigger (a) - brief 2 commits behind STATUS (S49b red teams): FT-02 0-of-3 at HY 312, CH-009 CLOSED DISMISSED read from STATUS.
 2026-10-01	BROCK	stale	Trigger (a) - brief header 9/02, STATUS 9/26: read raw for the PRED-45 First Brands Ch.7 resolver (no post-conversion transfer price; BRK-25 count stays 2).
+2026-10-01	FLEET	digest	Will-asked direct reads (no delegation) of BOND (17:05, new since the pass), LABOR, HENRY, FALCON briefs whole. BOND pin = STATUS HEAD 36ecaa57f (fresh). HENRY brief mixed-vintage inside (LIVE STATE 9/28, FOMC row 68%, credit 9/28) - its STATUS 9/30 head fresh. Instrumentation row, not a fallback.

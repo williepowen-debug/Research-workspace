@@ -1,6 +1,6 @@
 # NEXUS STATUS
 
-**Updated:** 2026-10-01 Thu 16:24 EDT — **CATCH-UP PASS (2 days, 9/29 close → 10/1), Will: *"Lets catch up on any new signals."*** BOOT 0a rule-5 rotation first: the full 9/29 file → `STATUS_COLD.md` **§H13** (verbatim, `crc32 e9461aed`). Read method: 15 briefs that moved since the 9/29 close, via three fresh-context Opus digest readers (the 12 unmoved briefs keep their 9/29 digest — disclosed) + raw STATUS of 8 brief-less/Tier-2 desks + own FRED pull (14 series, 16:18 ET; obs to 9/30). **Resolver grades: PRED-37 ❌ · PRED-43 ❌F · PRED-48 ❌ · PRED-24 → conditional watch · PRED-45 re-registered (11/20) · PRED-38/40/41 DEFECTIVE (re-spec at L554).** **1 re-mark (M-08 ↑3, registered).** Prior: 9/29 full review.
+**Updated:** 2026-10-01 Thu 16:24 EDT · **+19:08 late-mover ANNOTATION #1 (BOND 17:05: composite 15→17/35, rows 1+2 on ONE dealer print = one class (Disc-H); TERRY card lean: sell both Fri 10/2; WQ-357 PENDING WILL) + HENRY `T10YIE` >2.40 line; delta-annotated, not re-swept.** — **CATCH-UP PASS (9/29 close → 10/1, Will-asked).** Rotation: 9/29 file → `STATUS_COLD.md` **§H13** (`crc32 e9461aed`). Read method → `BRIEFS_MAP.md` ★10/1 + `LAST_COMPLETION.md`. **Resolver grades: PRED-37 ❌ · PRED-43 ❌F · PRED-48 ❌ · PRED-24 → conditional watch · PRED-45 re-registered (11/20) · PRED-38/40/41 DEFECTIVE (re-spec at L554).** **1 re-mark (M-08 ↑3, registered).**
 **Last full matrix review: 2026-09-29** *(this pass = delta, every row re-read, one re-marked)*. 📦 COLD: §A–§H13 · `PREDICTIONS_COLD.md` §P5.
 
 > ## Probability split, 2–6wk: **Break 20% (—) · Grind-lasts 47% (—) · Unresolved-divergence 33% (—)**
@@ -72,7 +72,7 @@
 | **T-25** | R | FORUM-7 FINAL input printed 10/1 16:15 (FR2004 3–6Y +$12.1B, long-end total −$3.8B); KW now extends to 9/25 (BOND) ⇒ P2 model-gap test looks runnable, unrun by HENRY. Verdict HEN-47 by 10/2. ⛔ Name which model. |
 | **T-26** | R | **Reaction-function datum landed:** path priced DOWN ~32–34pp in two sessions while real 10Y rose +3bp ⇒ the premium half, not the path, carries the level. → 10/6–8 auctions (the "premium calendar"). |
 | **T-27** | R | 🔴 **CANDIDATE credit cause (Root B) still UNOWNED** — **WQ-341** HOLD to PRED-50 (~10/9). A ❌ there removes the candidate's only registered support; it does NOT rule the cause a non-root. |
-| **T-28** | T | **Mostly RESOLVED:** MU Wed 9/30 ✓ · METI Aug 9/30 ✓ · BOJ MPM = two-day 10/29–30. Closes next pass. |
+| **T-28** | T | Mostly RESOLVED (MU 9/30 ✓ · METI 9/30 ✓ · BOJ 10/29–30). Closes next pass. |
 | 🆕 **T-29** | R | **Ghawar heat vs the rail:** FALCON says a primary-confirmed production-facility strike would be the war's first upstream hit and the rail has nothing above D 85; BRENT's surfaces (14:23) carry no Ghawar line. Not a contradiction yet — an UNCONSUMED P0. Resolves at a Saudi/Aramco statement or BRENT's next session. |
 | **T-10** | R/T | Diesel: AAA $6.389 [10/1] off the $6.5276 record; GASREGW $4.465 (first decline since ≥8/31). Product policy tightening (R9/M-06). El-Niño crop leg (AEOLUS) forward Q4/2027. CPI 10/14. |
 | **T-11** | T | MU resolved (strong; M-09). OpenAI pause (0 contract changes); SB Energy IPO postponed; FERC PJM IRAS ~10/12. |
@@ -103,6 +103,7 @@
 | 🔴 **L13 UP edge `DFII10` ≥2.95 ×5** | **2.93** | **2bp** | The split's own falsifier: 5 consecutive cells ⇒ Break +6pp. |
 | 🔴 **HY >320 (`RED-FT-02` ×3 · `REG-T-03`)** | 312 | **8bp** | RED's registered bear confirm. |
 | 🔴 **IG >94 (`GATE-LIQ-072`)** | 84 | 10bp | Or HY−IG basis <180 (228 [9/30]). A LEVEL, not a cause test. |
+| 🆕 **`T10YIE` >2.40 (HENRY "would change the view")** | 2.36 | **4bp** | Breakevens joining ⇒ re-attribute the rates move as an INFLATION scare (today it is real/premium). (10/1 late). |
 | **T5YIFR 2.50 (BOND)** | 2.36 | 14bp | Inflation-expectations leg. |
 | **B ≥330 + CCC ≥1,200 ×2 (M-08 UP)** | 316 · 1,179 | 14bp · 21bp | Both legs, same cells. |
 | **BB ≥220 (M-09 UP)** | 194 | 26bp | Cohort. |
@@ -124,7 +125,7 @@
 | 🔴 **10-02 Fri** | **NFP 08:30 (LABOR kill / CARL V16 — different letters on one print)** · **HEN-47 FORUM-7 verdict** · L494 X1 sitting · **WQ-339 sitting (L552) — likely closed by BOND's kill** · BROCK wake (W1 leg, First Brands / Radiant `-007`) · Tokyo CPI · COT (as-of 9/29) · SHADE 5th HY print. | 🔴 |
 | **10-05 → 10-09** | 10/4 OPEC+ · **~10/5 Aramco Nov OSP** · 10/5 CARL scope review · Totan OIS · **10/6 L554 MY WAKE** + 3Y auction + SPR bids close + WQ-252 · **10/7 `GATE-NEXUS-SEAT-01` (L9)** + 10Y-R · **10/8 30Y-R + claims + PRED-50 last cell** · **~10/9 PRED-50 grade (L553)** · 10/09 LIQ-076 review · ZHAO re-check. | FWD |
 | **10-12 → 10-20** | ~10/12 FERC IRAS · **10/14 CPI** · 10/14–15 funding prints (LIQ-07 S1/S2) · **10/15 LIQ-069 review (M-09 DOWN leg)** · BRT-31 1st print · **10/16 Aug TIC (L11) + L13 cell 15 + WQ-342 successor (L558)** · 10/16 TLT 82P expiry. | FWD |
-| **Carried from 9/29 (not re-read)** | 10/15 OSPREY C1 eval · 10/15 Panama A-36 slots 33/day · ≥10/15 **PRED-48 residual re-check** · HAW-22 window · 10/31 AEOLUS C5 base-rate · 11/13 FRBNY Q3 FX · 11/20 HOMER kill-rail | FWD |
+| **Carried from 9/29** | 10/15 OSPREY C1 eval · 10/15 Panama A-36 slots 33/day · ≥10/15 **PRED-48 residual re-check** · HAW-22 window · 10/31 AEOLUS C5 base-rate · 11/13 FRBNY Q3 FX · 11/20 HOMER kill-rail | FWD |
 | **Late Oct → Nov** | 10/20–28 Q3 banks (PRED-38/40) · 10/27–28 FOMC · ≥10/27 rollup #6 · 10/29–30 BOJ (SAM-42) · **10/30 M-08 + M-09 windows close** · 11/05 FAL-06 · 11/10 two China clocks · 11/15 SHADE/DLIC Q3 · **11/20 PRED-45 resolve**. | FWD |
 
 ---
