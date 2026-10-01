@@ -1,0 +1,33 @@
+# L410 — `grade_auction.py` repair: ACCEPTANCE CONDITIONS (written BEFORE the edit)
+
+**Written:** 2026-10-01 12:5x ET (`date` 12:53 EDT at drafting), BOND, PROME spawn `prome-0c` (DOCKET L410, WQ-229 discipline). The edit has not been made when this file is first written; the commit that adds this file precedes or accompanies the code commit and the results block at the bottom is filled AFTER.
+
+## Defects, in their own terms
+- **D1 (KB-BND-304):** the tool prints a numeric I′ bar for a TIPS auction while BOND's registered spec (pre-print record, STATUS, CATALYSTS, all committed before 9/17) gives TIPS **no** I′. The tool and the spec disagree; a future grader reads a live-looking line. On 9/17 the line would have fired (59.12 < 61.44) and confirmed this desk's own bear thesis.
+- **D2 (KB-BND-302):** a pool row that is not a market outcome (20Y `912810TC2` 2021-12-02: indirect 0.00 / direct 0.00 / dealer 100.00 beside BTC 2.92) passes every structural check and enters any pool that reaches it. Trailing-12 bars do not reach 2021; any full-series statistic would.
+
+## Decision on D1 (the L410 decision (1))
+**SUPPRESS in the tool.** The registered spec excludes TIPS from I′; the tool is brought to the spec. This **narrows nothing and widens nothing**: no kill, gate or marker changes scope, so it is inside BOND's authority and needs no Will ruling. Extending I′ to TIPS **would** widen the kill's first leg (I′ is leg one of the Sept-4 kill) and is **not proposed** here: no TIPS fire-rate base rate exists, TIPS have a different buyer base, and the one print that would have tested it would have paid this desk. If ever proposed, it goes to Will as a WQ row with a base rate, before encoding.
+
+## Acceptance conditions
+| # | Condition (the property, in the defect's terms) | Test |
+|---|---|---|
+| A1 | For ANY TIPS auction, in BOTH grade mode and pre-print (freeze) mode, the tool prints **no numeric I′ bar and no I′ verdict**, and prints one line saying I′ is not defined for TIPS under the registered spec. | selftest fixture on `bench(..., tips=True)` (no `ind_p15` key value); live run on `91282CRE3` (9/17 10Y TIPS-R) shows no `61.44` I′ line |
+| A2 | For NOMINAL auctions, every bar and verdict line is **identical** to the pre-change output. | diff of live output, pre vs post, on `91282CRN3` (9/23 5Y, the live I′ fire); existing selftest assertions still pass *(drafted as "24"; the true pre-change count is **29** — independent reader, 10/1)* |
+| A3 | A row whose single leg carries ≥ 99.99% of competitive accepted, or whose legs do not reconcile with the reported competitive-accepted total (> 0.01%), is **excluded from every pool the loaders build**, with a printed count + CUSIP/date of each exclusion (never silent). | selftest fixture: the exact `912810TC2` shape (0/0/100) is rejected; a non-reconciling corpus row is rejected |
+| A4 | **A zero leg beside two live legs is NOT called degenerate by this predicate.** *(Corrected 12:5x ET, before the results: the drafting claim "8 nominal-2Y rows with direct = 0.00" was WRONG — the raw corpus holds 8 such rows and all 8 are 2Y FRNs (`91282CGF2`, `91282CHS3`, `91282CPX3`, `91282CQM6`, `91282CRD5`; checked against `frn_cusips()`), removed upstream by the FRN filter. The property still stands: the degenerate predicate must not be what drops them.)* | selftest fixture on the `91282CRD5` dollar legs (ind $16.54B / dir 0 / dlr $11.45B) returns None |
+| A5 | Missing legs (None) never crash the predicate and are not called degenerate by arithmetic on None (the loaders' existing skip handles them). | selftest fixture: predicate on a None leg returns "missing", not an exception |
+| A6 | If the auction being GRADED is itself degenerate, the tool **refuses to grade it** (prints GAP, rc 2) instead of grading a corrupt print. | selftest on the predicate + code path reviewed |
+
+**Neighbour categories (WQ-229):** ordinary = A2 · overlap = A4 (a real zero-leg row shares the degenerate shape's zero) and a TIPS reopening whose term maps onto a nominal tenor (existing selftest §6/§8 keep TIPS/nominal separation) · wrong owner = the FRN filter must still run first and independently (A3 does not replace it; existing selftest §7) · missing information = A5 · concurrent activity = **N/A** — offline, single-process tool reading a committed CSV and a read-only API; no shared state is written.
+
+## Results (filled 2026-10-01 ~12:58 ET (`date`) after the edit — four states, never merged)
+
+| State | Status | Evidence |
+|---|---|---|
+| **IMPLEMENTED** | ✅ | `monitors/grade_auction.py`: `bench()` returns no I′ for TIPS (`iprime_scope = EXCLUDED_TIPS`), `show_bars()` prints NOT DEFINED; `degenerate_reason()` in both loaders (TA_WS now reconciles against `competitiveAccepted`), NaN/negative legs excluded, `DEGENERATE` reset per `load()`, refusal keyed on the print being graded. |
+| **TESTED** | ✅ | `--selftest` 38/38 (29 pre-change + 9 new). Live: `91282CRN3` stdout byte-identical to the pre-change baseline (A2); `91282CRE3` shows no numeric I′ bar (A1); the quarterly re-freeze script output identical before/after the fix round; **0 rows excluded in the live pools** (the founding row `912810TC2` is in no pool the grader reads — corpus starts 2023-01). The reviewer's 9 counterexamples (`ce.py`, below) re-run after the fix: CE1 rc2 refusal ✅ · CE2 pre-print bars ✅ · CE3 clean print graded + GAP line for the degenerate one ✅ · CE4 rc2 ✅ · CE5/5b no numeric TIPS bar ✅ · CE6 one entry after 3 loads ✅ · CE7 rc2 ✅ · CE8 NaN/negative excluded ✅. |
+| **INDEPENDENTLY VERIFIED** | ⚠️ **PARTIAL** | One independent read (Opus, read-only, own counterexamples) on the FIRST version: **A1 PASS · A2 PASS · A4 PASS · A5 PASS(⚠️) · A3 ❌ (TA_WS reconciliation dead) · A6 ❌ (CE1 graded a stale original; CE2 blocked valid pre-print bars)**. Both ❌ and the ⚠️s were fixed AFTER that read. **The fix round has been re-tested against the reviewer's own counterexamples, but no independent reader has read the fixed code** — so the fix is TESTED, not INDEPENDENTLY VERIFIED. |
+| **STILL UNRESOLVED** | 🟡 | (i) **Tie band (found by RED's fixture in the same pass):** the tool compares prints to the UNROUNDED bar while the frozen 2dp bar governs — a ≤0.005pp band where tool and rule can disagree (2Y/10Y/20Y one way, 3Y the other). Disclosed in `AUCTION_HEALTH.md` 10/1 block; tool alignment carried as a dated CATALYSTS row. (ii) The selftest still does not exercise `main()`; the reviewer's harness does (kept at the path below, not in the repo). (iii) A FULL-SERIES 20Y script must import `degenerate_reason()`; none exists today. |
+
+Reviewer harness (scratch, not committed): `/tmp/claude-1000/…/scratchpad/verify/ce.py`. Live founding-row reach: 0.

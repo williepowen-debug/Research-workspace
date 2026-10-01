@@ -53,6 +53,7 @@ AUCTIONED = ("https://www.treasurydirect.gov/TA_WS/securities/auctioned"
              "?format=json&dateFieldName=auctionDate&startDate={s}&endDate={e}")
 UPCOMING = "https://www.treasurydirect.gov/TA_WS/securities/upcoming?format=json"
 MIN_N_FOR_GATE = 6   # below this, a composition gate is not supportable
+DEGENERATE: list = []   # (date, cusip, source, reason) rows excluded by degenerate_reason() — L410
 
 
 def _get(url):
@@ -133,6 +134,39 @@ def cycle_term(orig_term, reopening, issue_date, maturity_date):
     return f"{n}-Year"
 
 
+DEGEN_SINGLE_LEG = 99.99   # % of competitive accepted on ONE leg ⇒ not a market outcome
+DEGEN_RECON_TOL = 1e-4     # legs vs reported competitive-accepted total, relative
+
+
+def degenerate_reason(ind, dir_, pd_, comp_reported=None):
+    """L410 / KB-BND-302 (2026-10-01): is this row a market outcome at all?
+
+    Returns None (keep), 'missing' (a leg is None — the loaders' own skip handles
+    it), or a reason string (EXCLUDE). Inputs are DOLLAR amounts accepted.
+    The founding row: 20Y 912810TC2 2021-12-02, indirect 0.00 / direct 0.00 /
+    dealer 100.00 beside BTC 2.92 — it passes every structural check.
+    ⚠️ A ZERO LEG IS NOT BY ITSELF DEGENERATE: the raw corpus holds 8 rows with
+    direct = 0.00 exactly (e.g. 2026-09-23 91282CRD5) — all 8 are 2Y FRNs, already
+    removed upstream by frn_cusips(), but a zero leg beside two live legs is a
+    plausible market outcome and this predicate must not be the thing that drops
+    it (that would make the FRN filter's job invisible). The test is one leg
+    carrying ~all of the award, or legs that do not sum to the reported total.
+    """
+    if None in (ind, dir_, pd_):
+        return "missing"
+    if any(v != v or v < 0 for v in (ind, dir_, pd_)):      # NaN or negative (verifier CE8, 10/1)
+        return "non-finite or negative leg"
+    tot = ind + dir_ + pd_
+    if tot <= 0:
+        return "no accepted amount on any leg"
+    for nm, v in (("indirect", ind), ("direct", dir_), ("dealer", pd_)):
+        if 100.0 * v / tot >= DEGEN_SINGLE_LEG:
+            return f"single leg {nm} = {100.0 * v / tot:.2f}% of competitive accepted"
+    if comp_reported and comp_reported > 0 and abs(tot - comp_reported) / comp_reported > DEGEN_RECON_TOL:
+        return f"legs sum {tot:,.0f} vs reported competitive {comp_reported:,.0f} (do not reconcile)"
+    return None
+
+
 def _from_ta_ws():
     """TA_WS `auctioned` — used ONLY for recent prints, never for history.
 
@@ -162,6 +196,10 @@ def _from_ta_ws():
             continue
         comp = ind + dir_ + pd_
         if comp <= 0:
+            continue
+        why = degenerate_reason(ind, dir_, pd_, _f(r.get("competitiveAccepted")))
+        if why:
+            DEGENERATE.append((r["auctionDate"][:10], r.get("cusip", ""), "TA_WS", why))
             continue
         out.append({"date": r["auctionDate"][:10], "cusip": r.get("cusip", ""),
                     "term": cycle_term(r.get("originalSecurityTerm") or r.get("securityTerm"),
@@ -196,6 +234,10 @@ def _from_corpus():
             btc = _f(r.get("bid_to_cover_ratio"))
             if not comp or comp <= 0 or None in (pd_, dir_, ind) or btc is None:
                 continue
+            why = degenerate_reason(ind, dir_, pd_, comp)
+            if why:
+                DEGENERATE.append((r["auction_date"][:10], r.get("cusip", ""), "corpus", why))
+                continue
             out.append({"date": r["auction_date"][:10], "cusip": r.get("cusip", ""),
                         "term": cycle_term(TERM_MAP.get(r.get("tenor"), r.get("tenor")),
                                            str(r.get("is_reopening")).strip().lower() == "true",
@@ -214,6 +256,7 @@ def _from_corpus():
 
 def load(start=None, end=None):
     """Benchmarks from the LOCAL CORPUS; recent prints overlaid from TA_WS."""
+    DEGENERATE.clear()   # one load() = one exclusion list (verifier CE6, 10/1)
     corpus = _from_corpus()
     seen = {(x["cusip"], x["date"]) for x in corpus}
     recent = [x for x in _from_ta_ws() if (x["cusip"], x["date"]) not in seen]
@@ -224,6 +267,12 @@ def load(start=None, end=None):
               f" | +{len(added)} newer print(s) overlaid from TA_WS")
     out = corpus + recent
     out.sort(key=lambda x: x["date"])
+    if DEGENERATE:
+        # never silent (L410 A3): every excluded row is named
+        print(f"[grade] ⛔ {len(DEGENERATE)} DEGENERATE row(s) EXCLUDED from every pool (KB-BND-302 guard):",
+              file=sys.stderr)
+        for d, c, src, why in DEGENERATE:
+            print(f"          {d} {c} [{src}] — {why}", file=sys.stderr)
     return out
 
 
@@ -238,6 +287,17 @@ def bench(recs, term, tips, before, n):
         return {"median": st.median(v), "mean": st.mean(v), "min": min(v), "max": max(v)}
     out = {"n": len(h), "from": h[0]["date"], "to": h[-1]["date"],
            "btc": agg("btc"), "ind": agg("ind"), "dlr": agg("dlr"), "tips": tips}
+    if tips:
+        # L410 decision (1), 2026-10-01: I' is NOT DEFINED for TIPS — the registered
+        # spec excludes them (KB-BND-304). Until today the tool computed and PRINTED a
+        # bar for TIPS (9/17 10Y TIPS-R: 61.44, which the print sat below) while the
+        # spec said none — a live-looking line that would have confirmed this desk's
+        # own bear thesis. The tool is brought to the spec: no bar is computed, so no
+        # line can be read as live. Extending I' to TIPS would WIDEN the kill's first
+        # leg and is Will's word (WQ row with a base rate first), never a tool edit.
+        out["ind_p15"] = None; out["ind_p15_reopen_only"] = None; out["n_reopen"] = 0
+        out["iprime_scope"] = "EXCLUDED_TIPS"
+        return out
     # MATRIX_V2 I' bar (Will-ruled 2026-08-27; print added 2026-09-09, the patch
     # SCRATCH 9/4 item 8 owed "before the OLD print retires"): indirect % of
     # competitive accepted < the tenor's own trailing-n 15th PERCENTILE, LINEAR
@@ -284,22 +344,11 @@ def show_bars(b, label):
         alt = (f"  (reopening-only alt {b['ind_p15_reopen_only']:.2f}, n={b['n_reopen']}; POOLED governs)"
                if b.get("ind_p15_reopen_only") is not None else "")
         print(f"    ⇒ I' (MATRIX_V2, 8/27)     : indirect < {b['ind_p15']:.2f}%  [P15 linear over the same window, STRICT]{alt}")
-        # ⚠️ ADDED 2026-09-17 (KB-BND-304). This block printed an I' bar for TIPS while
-        # the VERDICT block below suppresses the I' line for TIPS — the tool said two
-        # different things about the same auction. On the 9/17 10Y TIPS-R the two
-        # ANSWERS DIVERGED FOR THE FIRST TIME (ind 59.12 vs a printed bar of 61.44:
-        # the bar would have fired, the spec says TIPS has no I'). Until that print,
-        # "TIPS has no I'" and "the I' didn't fire" returned the same answer, so the
-        # inconsistency was INVISIBLE. The BEHAVIOUR is deliberately NOT changed here:
-        # whether I' extends to TIPS is a SPEC question reserved for the 10/1 refresh
-        # (and an I' fire confirms this desk's own bear thesis, so it must not be
-        # settled on a session that would pay us). What IS fixed is the TRAP — a future
-        # grader can no longer read this line as live for a TIPS print.
-        if b.get("tips"):
-            print("       ⛔ INFORMATIONAL ONLY — THIS BAR DOES NOT FIRE FOR TIPS.")
-            print("          BOND's registered spec excludes TIPS from I' (pre-print, 3 surfaces).")
-            print("          Whether I' should extend to TIPS is DOCKETED for the 10/1 refresh.")
-            print("          Do NOT grade a TIPS print on this line. KB-BND-304.")
+        # (2026-09-17 → 2026-10-01: an informational banner for TIPS lived here; the
+        # bar is now never computed for TIPS — see bench(), L410 decision (1).)
+    elif b.get("iprime_scope") == "EXCLUDED_TIPS":
+        print("    ⇒ I' (MATRIX_V2)           : NOT DEFINED FOR TIPS — registered spec excludes TIPS")
+        print("                                 (KB-BND-304; L410 decision 2026-10-01: tool brought to the spec).")
     elif b.get("ind_p15_error") and not b.get("tips"):
         print(f"    ⛔ I' (MATRIX_V2, 8/27) NOT COMPUTED — {b['ind_p15_error']}")
         print(f"       THIS IS NOT A PASS. I' is the GOVERNING composition test; the OLD")
@@ -432,6 +481,29 @@ def selftest() -> int:
     b8 = bench(recs8, "5-Year", False, "2026-01-15", 12)
     chk("a cross-cycle reopening does NOT enter the original tenor's pool", b8 and b8["ind"]["min"] > 1.0 and b8["n"] == 12)
 
+    # ---- 9. L410 decision (1): NO I' for TIPS (KB-BND-304, 2026-10-01) -------
+    chk("TIPS bench computes NO I' bar (A1)", bt and bt.get("ind_p15") is None
+        and bt.get("iprime_scope") == "EXCLUDED_TIPS" and not bt.get("ind_p15_error"))
+    chk("TIPS bench still computes the OLD-test bars", bt and bt["ind"]["min"] is not None)
+    chk("nominal bench still computes I' (A2)", bn and bn.get("ind_p15") is not None
+        and bn.get("iprime_scope") is None)
+    import io, contextlib
+    _buf = io.StringIO()
+    with contextlib.redirect_stdout(_buf):
+        show_bars(bt, "10-Year TIPS")
+    chk("TIPS show_bars prints NOT DEFINED and no numeric I' bar (A1)",
+        "NOT DEFINED FOR TIPS" in _buf.getvalue() and "indirect < 70.00%  [P15" not in _buf.getvalue())
+
+    # ---- 10. L410 decision (2): degenerate-row guard (KB-BND-302) -----------
+    chk("the 912810TC2 shape 0/0/100 is DEGENERATE (A3)",
+        degenerate_reason(0.0, 0.0, 12e9, 12e9) is not None)
+    chk("a non-reconciling corpus row is DEGENERATE (A3)",
+        degenerate_reason(6e9, 3e9, 3e9, 15e9) is not None)
+    chk("a zero-direct row (91282CRD5 FRN shape; FRNs filtered upstream) is NOT called degenerate (A4)",
+        degenerate_reason(16537912500.0, 0.0, 11451850000.0, 16537912500.0 + 11451850000.0) is None)
+    chk("an ordinary row is KEPT", degenerate_reason(6e9, 2e9, 2e9, 10e9) is None)
+    chk("a missing leg returns 'missing', no exception (A5)", degenerate_reason(None, 1.0, 1.0) == "missing")
+
     print(f"[grade --selftest] {ok} passed, {len(bad)} failed")
     for x in bad:
         print("   FAIL:", x)
@@ -467,7 +539,9 @@ def main() -> int:
     # auction as if it were the pending one. Tested on 912810US5: without this
     # guard the grader returned the 2026-02-19 original for a 2026-08-20 reopening.
     # If the CUSIP has a PENDING auction, the pre-print path wins.
-    if a.cusip and hit:
+    deg = [d for d in DEGENERATE if (d[1] == a.cusip if a.cusip else d[0] == a.date)]
+    pending_reopen = False
+    if a.cusip and (hit or deg):
         try:
             pending = [r for r in _get(UPCOMING) if r.get("cusip") == a.cusip]
         except Exception:
@@ -475,9 +549,23 @@ def main() -> int:
         if pending:
             print(f"[grade] ⚠️ {a.cusip} is a REOPENING with a PENDING auction "
                   f"({pending[0]['auctionDate'][:10]}). The auctioned record dated "
-                  f"{hit[-1]['date']} is the ORIGINAL ISSUE, not the pending print — "
+                  f"{(hit[-1]['date'] if hit else max(d[0] for d in deg) + ' (degenerate, excluded)')} is the ORIGINAL ISSUE, not the pending print — "
                   f"reporting PRE-PRINT bars instead of grading stale results.")
             hit = []
+            pending_reopen = True
+
+    # L410 A6 (repaired 10/1 after the independent read, CE1/CE2/CE3): refuse when the PRINT
+    # BEING GRADED is degenerate — i.e. a degenerate row is the LATEST print for this CUSIP
+    # (never fall back to an older clean original: that is the reopening trap again), and
+    # never when a pending reopening sends us to the pre-print path.
+    if deg and not pending_reopen:
+        latest_hit = hit[-1]["date"] if hit else ""
+        bad = [d for d in deg if d[0] >= latest_hit] if a.cusip else deg
+        for d, c, src, why in bad:
+            print(f"[grade] ⛔ GAP — the print {d} {c} [{src}] is DEGENERATE ({why}). "
+                  f"Refusing to grade a corrupt row; re-pull the primary. NOT a pass, NOT a fail.")
+        if (a.cusip and bad) or not hit:
+            return 2
 
     if not hit:
         # Pre-print: report the bars so the gate is frozen BEFORE the result.

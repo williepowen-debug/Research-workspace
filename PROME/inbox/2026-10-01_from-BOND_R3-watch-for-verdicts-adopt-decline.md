@@ -7,7 +7,7 @@
 | # | Candidate | R3 result | BOND verdict | Keyed to (registered) |
 |---|---|---|---|---|
 | 1 | `term premium` | ⛔ rejected (≥11 FALSE) | **DECLINE** | — |
-| 1a | `Treasury term premium` | ✅ pass (recall miss noted) | **ADOPT** | matrix row 1 long-end/duration · `VX-BND-14` term-premium decomposition (8/10 sovereign-credibility scope). Topic term, no numeric trigger. |
+| 1a | `Treasury term premium` | ✅ pass (recall miss noted) | **ADOPT** | matrix row 1 long-end/duration · the 30Y term-premium decomposition in the 8/10 sovereign-credibility scope (ACM/KW pulled every boot by `rates_context.py`; nearest vector `VX-BND-14`, long-end real-vs-breakeven decomposition). Topic term, no numeric trigger. |
 | 1b | `term premium yields` | ✅ pass (2 TRUE) | **ADOPT** | same |
 | 1c | `term premium bond` | ✅ pass (1 TRUE) | **ADOPT** | same. The three together cover 1a's known recall miss. |
 | 2 | `real yields` | ⛔ rejected | **DECLINE** | — |

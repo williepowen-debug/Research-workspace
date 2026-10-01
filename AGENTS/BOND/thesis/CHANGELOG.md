@@ -4,6 +4,10 @@ Version history for `thesis/THESIS.md`. Newest first. Bump rules: **major (X.0)*
 
 ---
 
+## v1.2.10 — dated note 2026-10-01 (NO version bump: two factual updates, no thesis-level change)
+- Status line: the 9/23 5Y OLD-conjunctive fire is CONFIRMED on a clean pool (dealer MAX 15.61 = a 5Y new issue; `KB-BND-377`), no longer provisional. The kill is untouched: it runs on `I'` + the WQ-291 dealer leg, graded on the 10/1 16:15 FR2004 print.
+- Position table: the Sep-30 77P are gone (sold 9/30). Token unchanged (`posture=HOLD-NO-ADD`).
+
 ## v1.2.10 — 2026-09-29 (**header, regime banner and POSITION VIEW reconciled to the record — Will-directed; no thesis content changed**)
 
 **Old view → new view (the FILE, not the thesis):** the regime banner read **"CONTESTED (~50%), NOT CONFIRMED"** — the 8/10 forum state — from 8/18 until today, **28 days after the 9/1 TWO-PART ruling that this changelog recorded as v1.2.0.** Status read "🟡 WATCH, escalating … the August refunding cleared … 29 consecutive"; Conviction read "the add-gates are pre-registered and **none has fired**"; POSITION VIEW read "no pre-registered add-gate has fired, and the nearest (DFII10 >2.5) is single-digit bp away" plus "29 consecutive sessions". On the record: gate (a) fired 9/10 (sustain MET under WQ-246, 9/26); the auction re-arm fired at the 9/23 5Y; the add was DECLINED (WQ-280, 9/24); the 29 was retracted 8/15. **Now:** banner = C-36 TWO-PART (ruled 9/1) with the per-window discriminator and the 9/22→9/29 long-end/real-led read (ACM TP share 0.89; `BND-30` grades 9/29); Status = 🟠 ELEVATED, "expensive, not broken" UNDER TEST (9/23 fire; mechanism leg 10/1, WQ-291); Conviction = HOLD no add **because the add was declined, not because no gate fired**; POSITION VIEW rewritten; matrix row 4's "LABEL CONTESTED" pointer relabelled. HYG row: the 300 marker FIRED 9/28 as an analytical re-arm; capital behind X1.
