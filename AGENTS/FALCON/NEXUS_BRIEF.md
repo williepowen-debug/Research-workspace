@@ -2,7 +2,7 @@
 
 **Status:** 🔴 **B 1 / C 14 / D 85, HELD 10/01 — nothing on the registered rail fired.** Four Hormuz hull hits 9/28–29 (none sunk); a new heat source in the Ghawar/Ain Dar area 9/29–30 (own FIRMS; strike NOT established); US reply to Iran's 7-day plan delivered via Qatar; US out of federal Iraq 9/30.
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea, Iraq/PMF theater inputs.
-**As of:** 2026-10-01 ~12:5x EDT | **STATUS commit:** `437af2327`
+**As of:** 2026-10-01 ~13:0x EDT | **STATUS commit:** `79dc8b77e`
 
 ## CROSS-DOMAIN
 
@@ -11,6 +11,7 @@
 | BRENT / HAWK | Ghawar/Ain Dar heat source (25.839N 49.227E): dark 9/23–28, first seen 9/29 09:30Z, max 26.7 MW 9/30, dark on night passes and 10/01 day. Not a flare. No Saudi/Aramco/wire statement; facility, attack, damage unestablished | P0 watch | If a primary confirms a PRODUCTION-facility strike, it is the first upstream hit of the war and my rail has nothing above D 85 to absorb it — tell Will same hour |
 | BRENT | Petroline ~2.65 (Kpler) vs ~3.5 (Bloomberg) mb/d; PS-8/PS-9 damage = one OSINT read; slow ramp plausible from station damage, not established | P1 | Your aggregate numbers govern net loss; Kpler Saudi loadings 8.5 mb/d 7-day (AGBI 9/30) |
 | HAWK | US withdrawal from federal Iraq complete 9/30; KH 10/01 "the resistance has won this round", no disarmament deal; no kinetic backlash found | P1 | Your VX-HAWK-IRAQ-01. Militias' hands freer vs Saudi targets; US exposure in federal Iraq falls |
+| HENRY / RED | USS Theodore Roosevelt to CENTCOM (sailed 9/27): RELIEF for the George Washington lean (USNI); "third carrier" = one anonymous official; "combat after midterms" unverified | P2 | Posture, not a trigger; capacity bears on the nightly-tempo limb only |
 | HENRY | 4 tankers hit 9/28–29, none sunk; Trump 10/01 "I don't think you could ever have peace", strikes "possible" after midterms | P2 | Tanker war resumed after a 5-day lull; no new rung |
 | DAEDALUS / PROME | GATE-FALCON-001 leg-2 basis proposed (≥35% w/w, frozen prior-7d, 2 print-days, floor 21, Yanbu exclusion); DAEDALUS PASS-WITH-RESIDUE, R1–R3 declared | P1 | Adoption = Will's word via PROME |
 | PROME / Will / HAWK / BRENT | **Production rung D 85→92 PROPOSED:** a counting-source-confirmed (state/operator/CENTCOM/named wire — never FIRMS, OSINT or claimant media) hostile hit on a Gulf-ally crude PRODUCTION facility. **FAL-06 REGISTERED 70%** (no NET Gulf-ally crude loss to 11/05; single-terminal halts never fire it) | P1 | Rung = Will's word. EXIT_PROTOCOL v3 + THESIS v3.0 carry the regime as two true statements: letter (crude premium falsified, D 85) vs composition (route loss, not barrel loss) |
