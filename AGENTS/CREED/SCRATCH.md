@@ -21,8 +21,8 @@ Pins are ROW-scoped (Sitting 2): `PRED-CREED-001/004/007`. **004 and 007 were GR
 7. **The refi-screen follow-up (Will-approved 9/30)** — see §APPROVED, UNFINISHED; sequencing: re-fetch F1 + read Glancy (F5) first.
 8. Plaza Continental (8:26-bk-10986): lien ownership UNKNOWN; free copies only; Nano P&A ~10/05–10/09 (DOCKET L516) · ARI first liquidating distribution: watch for the 8-K (return of capital, trap 1) · Q3 bank prints mid/late Oct · REGINALD VLY parts 2–4.
 
-## ⚖️ AWAITING WILL — 1 (+1 offer)
-1. **Wire `scripts/trepptalk_sweep.py` into the CLAUDE.md boot order?** (charter edit). Repaired 9/30 (CATO RC4): incomplete coverage exits 2, dates bind per card, `--all` shows every row; `scripts/test_trepptalk_sweep.py` 13/13 (v1 fails 9).
+## ⚖️ AWAITING WILL — 0 (+1 offer)
+✅ **RULED 2026-10-01 11:02 ET (Will, verbatim "okay lets skip that then"): `scripts/trepptalk_sweep.py` is NOT wired into boot, and NO WALTER intake packet.** It stays a manual tool, run when a session is about Trepp (e.g. the monthly grade). Do not re-raise. Context CREED gave: first run flags 164 of 183 posts NEW (no seen-cursor); news intake is WALTER's lane; a spawn-on-need boot gives no cadence.
 - *Offer made, not decided:* de-date CLAUDE.md's Current Rails S8a line (it quotes the latest close, so it needs a refresh every session) into a pointer to `VX-CREED-7.01`.
 **Wording (Will 9/30):** say *"broad CRE-to-bank transmission is not confirmed,"* never *"stress hasn't shown up at banks."*
 

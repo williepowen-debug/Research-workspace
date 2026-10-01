@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """CREED TreppTalk listing sweep (process approved by Will 2026-09-30, in-session).
 
-STATUS 2026-09-30 21:59 ET: WORKING, NOT WIRED. It is NOT a boot step: wiring it into CLAUDE.md is a
-charter edit and stays Will's call.
+STATUS 2026-10-01: MANUAL TOOL. Will declined wiring it into boot (and a WALTER intake hand-off) on 2026-10-01;
+run it by hand when a session is about Trepp.
 REPAIRED 2026-09-30 evening (CATO 9/30 review RC4, verified by PROME, packet 1193d4d7d). The v1 reported a
 quiet success on incomplete coverage. Four defects fixed, each pinned by a saved case in
 scripts/test_trepptalk_sweep.py (CATO's four, plus controls):
