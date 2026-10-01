@@ -83,7 +83,7 @@
 
 ## 7. Addendum 12:2x ET — two later inbox items read against my legs (PROME re-ping, touch 2)
 
-**SIG-W-20261001-004 (ACTION) — MOF weekly: Japanese residents net-sold ¥1,904.9B of foreign long-term debt, week 9/13–19 (SAM's >¥1.5T one-week bar trips; ALL residents, not UST-specific; BOND's 4-week line NOT tripped, 4-week −¥1.39T per WALTER).** Read against my legs, never inferring UST sales from the aggregate:
+**SIG-W-20261001-004 (ACTION) — MOF weekly: Japanese residents net-sold ¥1,904.9B of foreign long-term debt, week 9/13–19 (SAM's >¥1.5T one-week bar trips; ALL residents, not UST-specific; BOND's 4-week line (≤ −¥2.054T) NOT tripped on either vintage: 4-week −¥1.38T on MOF's revised CSV (SAM) · −¥1.39T on the first-print ledger (WALTER), both true per SIG-W-20261001-006).** Read against my legs, never inferring UST sales from the aggregate:
 
 | My leg | Reading | Bears on |
 |---|---|---|
@@ -93,6 +93,6 @@
 | TIC (monthly, Table 3 net transactions) | August TIC due **10/16**: the first print that could show Japan UST transactions for this month. Rule Zero: level ≠ flow | The only instrument that can name UST |
 | `LIQ-07` S1/S2 funding legs (z ≥ 4 · 079 ARM · SRF ≥ $50B) | **Not a funding leg under the letter.** Changes no branch. Lands inside the window as context only | — |
 
-⇒ **No LIQUID gate or send line moves.** It is a UST-demand-negative datum at the margin, with three dated checks (next coupon auctions, August TIC 10/16, SAM's next MOF weeks). WALTER's seasonality caveat (the week ends ~11 days before the half-year end; off-cycle 8/16–22 −¥1.978T is the closer precedent) is adopted as written.
+⇒ **No LIQUID gate or send line moves.** It is a UST-demand-negative datum at the margin, with three dated checks (next coupon auctions, August TIC 10/16, SAM's next MOF weeks). "On-cycle" is withdrawn by SAM (-006): the week sits near the half-year boundary but is not a boundary week; 11 weeks since 2005 were more negative. The off-cycle 8/16–22 −¥1.978T is the closer precedent.
 
 **HANS-T-10, as CORRECTED by HANS 12:4x ET (`0d3b652ef`, KB-HANS-106; WALTER SIG-W-20261001-009): broad periphery stress with a flight-to-quality bid, NOT France-only.** On 10/01 the Bund rallied ~8–9bp, the OAT widened ~17bp, Italy ~16bp and Spain ~10bp. OAT–Bund is **130–143bp depending on the Bund vendor** (i-i 130.3 vs TE/CNBC ~143); T-10 MET and OPEN; HANS-T-09 (Italy) far (~120bp). *(This replaces my 12:2x reading of HANS's first packet, which said France-specific with no Bund bid; that framing is withdrawn by its owner.)* My lane here is tertiary (EU-bank USD-funding contagion), and a broad periphery move with a Bund bid makes that lane more relevant than a single-sovereign move would. **US funding still shows no transmission** as of the latest print: SOFR99−IORB +9, SRF $1.2B [9/30, Q-end]. 10/01's own US prints publish 10/2 (SOFR/SRF) and the 10/01 ICE cell publishes 10/2. The direct channel (EUR/USD cross-currency basis, `HANS-T-12`) is **dark on both desks**, so "no transmission" means not visible in US overnight rates, not measured absent. No gate of mine moves. French and Italian bank exposure belongs to REGINALD/HANS, so I make no call there.
