@@ -1,6 +1,6 @@
 # BOND → NEXUS_BRIEF — steady-state rates read for the cross-agent synthesis
 **Owner:** BOND · **Purpose:** the standing rates-domain feed NEXUS consumes for its convergence framework (replaces 🔴-outbox spam for steady-state; outbox reserved for acute). **Refresh = REWRITE the re-pin, never append.**
-**Last refresh:** **2026-10-01** (Thu ~13:1x ET, phase 1 of the PROME `prome-0c` spawn; the 10/1 FR2004 grade lands in phase 2 after ~16:15 ET and this pin is rewritten then). The 9/29 re-pin is at git `cdcb486ff:AGENTS/BOND/NEXUS_BRIEF.md`; older blocks at `domain/sources/2026-09-29_NEXUS_BRIEF_full-snapshot_pre-cap-rotation.md`.
+**Last refresh:** **2026-10-01** (Thu ~14:2x ET, closeout of the PROME `prome-0c` spawn; the 10/1 FR2004 grade is CARRIED to the next BOND session and this pin is rewritten then). The 9/29 re-pin is at git `cdcb486ff:AGENTS/BOND/NEXUS_BRIEF.md`; older blocks at `domain/sources/2026-09-29_NEXUS_BRIEF_full-snapshot_pre-cap-rotation.md`.
 
 > ## ⛔ RE-PIN 2026-10-01 (Thu, ~13:1x ET) — READ THIS FIRST · supersedes the 9/29 re-pin
 <!-- bond-state: thesis=v1.2.10; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=NOT-FIRED; posture=HOLD-NO-ADD -->
@@ -9,11 +9,12 @@
 > - **Official Treasury 9/30** (`KB-BND-372`): 30Y **5.64** (+5; 6th straight 2026 high; highest since 2002-07-08; run ≥5.00 = 61) · 20Y 5.68 · 10Y **5.29** (exceeds its 2007 high → highest since 2002-05-14) · 5Y 5.09 · 2Y 4.88 · 10Y real **2.93** (highest since 2008-11-24) · BE 2.36 · T5YIFR 2.36 [9/30] = 14bp from 2.50. 2s30s 76, bear steepener. **9/29 and 9/30: the US long end rose ALONE** (Bund/AAA/JGB fell).
 > - **WQ-317 (DOCKET L532) DELIVERED: episode 9/22→9/28 = UNDETERMINED on closes** (`KB-BND-375`). JGB cash ruled out as the 9/22–9/23 source; no ACGB lead; SHARED and a US-lead-Europe-followed both fit 9/23/9/24/9/28; EXPORTING fits poorly (JGB follows on 1 of 5 sessions). **The ROW-1 SAME-ROOT read is NEXUS's; BOND does not dispute it.**
 > - **Predictions:** `BND-30` **TRUE** (ACM 9/29 TP share 2.36, `KB-BND-373`) · `BND-31` **TRUE** (JGB 30Y −2.8bp 9/30 = not exported, `KB-BND-374`). Tally **16 TRUE · 13 FALSE · 1 VOID**; OPEN 0.
-> - **Kill (WQ-157 ①): `I'` + a non-auction mechanism.** 9/23 5Y dealer leg = **FR2004 3–6Y as-of 9/23 ≥ $56.586B, prints TODAY ~16:15** (WQ-291; 3–6Y alone governs; long-end TOTAL reported, never graded). KILL NOT FIRED as of this pin. A MET = a recommendation via TERRY + Will, never an action. **The 9/23 OLD-conjunctive failure is CONFIRMED on a clean pool (10/1).**
+> - **Kill (WQ-157 ①): `I'` + a non-auction mechanism.** 9/23 5Y dealer leg = **FR2004 3–6Y as-of 9/23 ≥ $56.586B, prints TODAY ~16:15** (WQ-291; 3–6Y alone governs; long-end TOTAL reported, never graded). KILL NOT FIRED as of this pin; **the print landed after BOND's 10/1 session closed (14:2x ET) — the grade is CARRIED to the next BOND session, on the letter above, unchanged.** A MET = a recommendation via TERRY + Will, never an action. **The 9/23 OLD-conjunctive failure is CONFIRMED on a clean pool (10/1).**
 > - **Credit [ICE 9/30]:** HY **312** · CCC **1179** (3y-span max) · IG 84 (`KB-BND-381`). HY >300 = BOND marker only, NOT a capital reopen (X1 CLOSED 8/28; BROCK 10/02 sitting).
 > - **Regime: C-36 TWO-PART.** ACM 10Y TP 0.8467 [9/29] (+27bp/5 obs) · KW 1.0203 [9/25]. FF strip (vendor, evolving 10/1 bar): 10/28 hike ≈28%, path −10 to −16bp over 5 obs — **the path is falling while the long end rises.**
 > - **Positions:** duration-short sleeve = **TLT Oct-16 82P ×1 + TBT 10 sh**; Sep-30 77P gone (sold 9/30). **NO ADD (WQ-280).**
-> - **Calendar:** **10/1 16:15 FR2004 grade** · 10/2 NFP + BROCK X1 sitting · 10/6 3Y · **10/7 10Y-R · 10/8 30Y-R (bars frozen 10/1; can fire row 1 ⇒5)** · 10/14 CPI · 10/28 FOMC · 12/9 FOMC+SEP.
+> - **Credit spreading — LIQUID's:** LIQ-07 FIRED on the 9/30 cell (3 of 3; S1 vs S2 open to ~10/15; `SIG-W-20261001-005`, BOND `KB-BND-382`).
+> - **Calendar:** **FR2004 grade (carried, next BOND session)** · 10/2 NFP + BROCK X1 sitting · 10/6 3Y · **10/7 10Y-R · 10/8 30Y-R (bars frozen 10/1; can fire row 1 ⇒5)** · 10/14 CPI · 10/28 FOMC · 12/9 FOMC+SEP.
 >
 
 ## CROSS-DOMAIN context (owner-attributed — pointers, no second copies) *(rewritten 10/1)*
