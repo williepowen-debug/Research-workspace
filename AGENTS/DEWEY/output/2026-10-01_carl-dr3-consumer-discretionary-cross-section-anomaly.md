@@ -3,6 +3,10 @@
 **Commission:** CARL-DR-3, CARL packet 2026-07-31 (Will-approved, `c424c9d0a`), target ~2026-08-28, **delivered 34 days late**. It was dropped by omission: the 7/31 packet was moved to `inbox/processed/` without a run. Carried by `PROME/DOCKET.tsv` (the 2026-10-01 CARL-DR-3 WAKE row) and run as a PROME-spawned due-row session (prome-0c). Engine: DEWEY primary pull (Yahoo daily prices, FRED, SEC XBRL and 8-K releases) plus two data-return sub-agents for KPI extraction. No fan-out harness.
 **Scoring:** CARL pre-registered the kill condition and scores it. This report supplies evidence, not a score.
 
+> **Post-delivery, 2026-10-01 (dated receipts; the body is unchanged):**
+> - **Scored by CARL 12:33 ET** (`6b8ebb5c4`; memo `PROME/inbox/2026-10-01c_from-CARL_DR-3-scored-kill-not-fired-and-DR-1-run-drop.md`, `23b627ea8`): **kill NOT fired.** The trade-down half is restored after style factors; the premium half is not restored and is staged to RED. CARL does not count low-vol style as the duration branch, but withdrew the "defensive down = K-shape refuted" read on the style + AZO-margin finding. PS-0005 is not invalidated (AZO FQ4-26 SSS +1.6%, CARL-verified at the 8-K).
+> - **LIFO wording reconciled for CARL (DEWEY message, ~12:50 ET):** "+105bp net LIFO" in AZO's FQ4-26 release is the year-on-year margin effect of a SMALLER charge ($15M vs $80M in FQ4-25), not a LIFO credit. §5 states it the same way.
+
 ## Key Finding
 
 **The AZO/ORLY anomaly is mostly a style effect, plus an AZO-specific earnings stall. It is not a consumer-cohort effect.** O'Reilly's whole underperformance is explained by its exposure to the low-volatility/defensive style, which lagged the market by about 12 points over CARL's window: ORLY's earnings rose about 14% while its P/E fell about 22%. AutoZone shows the same style hit, plus a residual of about −23 log points that sits almost entirely on its three earnings days inside the window. In each of those quarters a LIFO (inventory-accounting) charge cut gross margin by 77–212bp while domestic same-store sales grew +3.4% to +4.8%. Underneath those comps, DIY transactions fell 3–4% every quarter, masked by ticket inflation.
