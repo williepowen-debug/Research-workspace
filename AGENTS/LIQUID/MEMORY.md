@@ -2,7 +2,17 @@
 
 ## Session Notes
 
-### CURRENT SESSION (2026-09-29 Tue 08:43–11:32 ET — Will boot, then Will-directed DOCKET work. HEAVY: 1 gate fire graded (late) · 2 repairs through an independent reader · 6 tool defects fixed · DAEDALUS #1–#5 done · STATUS restructured · 0 thresholds moved)
+### CURRENT SESSION (2026-10-01 Thu 00:25–00:37 ET — PROME `prome-2a` WQ-184 due-row spawn, Tier 1: two gates past their 9/30 `review_by` with no LIQUID session that day. STANDARD: 4 reviews finalized · inbox 5 → 0 · 1 grading-scope defect found on my own gate · 0 thresholds moved)
+
+**Context:** Book FLAT, $0. Laptop (HY watcher timer not installed here). The 9/30 ICE cell was unpublished at 00:26 ET, so everything is graded through the 9/29 cell.
+
+**Delivered:** `analysis/2026-10-01_9-30-gate-reviews.md` + memo `PROME/inbox/2026-10-01_from-LIQUID_9-30-gate-reviews-HY-REKILL-072-and-LIQ-07.md`: HY-REKILL 0-of-2 (308 [9/29], 48bp above; letter unchanged; next `review_by` 12/31 recommended) · 072 QUIET (IG 84, basis 224; 12/31 recommended) · 076 keep 10/09 · `LIQ-07` **2 of 3** (B +40, CCC +101; the 3rd needs B ≥308 AND CCC ≥1,064 on 9/30) · X1 level leg 3 consecutive >280 under my L494 proposal (X1 still CLOSED) · §1c BROADENS 4th print. First-published = latest-revised for HY/IG (7/9–9/29) and B/CCC (8/15–9/29), 0 mismatches. Inbox: CREED Arbor ask answered by SendMessage (creed-d3); 4 WALTER items logged and moved.
+
+**Found:** ① **072 leg (2) is "IG >94 OR basis <180"; every written grade and the GATES summary carried the IG half only.** Basis min 181 [8/28], so nothing was missed, by 1bp. Returned to PROME (summary mirror). ② STATUS §6 said HY was "auto-watched between sessions" with no box qualifier; the timer is desktop-only. ③ Pre-flag: `LIQ-07`'s S1 SRF ≥$50B leg has no quarter-end carve-out. ④ My own `printf "...$50M..."` into board_log shipped "(0M)" (unquoted-dollar expansion, fleet finding n+1). Caught on the tail read and repaired before commit.
+
+**NEXT SESSION entry point:** `scripts/boot.py`, then STATUS §3, starting with the 10/1 9/30-cell row.
+
+### PRIOR SESSION (2026-09-29 Tue 08:43–11:32 ET — Will boot, then Will-directed DOCKET work. HEAVY: 1 gate fire graded (late) · 2 repairs through an independent reader · 6 tool defects fixed · DAEDALUS #1–#5 done · STATUS restructured · 0 thresholds moved)
 
 **Context:** Book FLAT, $0. Boot at 08:43 (FRED latest 9/25); the 9/28 ICE cell posted ~10:20 ET and was graded (L525).
 
@@ -322,12 +332,11 @@
 
 ### NEXT SESSION
 
-**RE-CUT 2026-09-29 11:32 ET (closeout). ⛔ The OWED list now lives ONCE, in STATUS §3. This block is only the entry sequence; it does not duplicate that list.**
-1. `scripts/boot.py` (the 076 legs now print; W2/W3 unknowns show INDETERMINATE, never NOT MET).
-2. **Wed 9/30:** read the 9/29 ICE cell (X1 "sustained" count under the L494 proposal; `LIQ-07` needs B ≥304) → finalize the 076/072/HY-REKILL reviews (`analysis/2026-09-29_9-30-reviews-prestage.md`). **The memo MUST carry 072's and HY-REKILL's `review_by` (12/31 if quiet).** Check `AGENTS/LIQUID/inbox/` for ORACLE's Fed-path reply; if there is none, cite ORACLE's 9/28 13:48Z read as dated.
-3. **Thu 10/1:** SOFR/SOFR99/SRF for 9/30 and H.4.1 as-of 9/30. The quarter-end spike is the NULL; the verdict is due 10/8.
-4. **Fri 10/2:** L494 X1 sitting; WALTER's R3 ruling.
-5. Everything else → STATUS §3.
+**RE-CUT 2026-10-01 00:37 ET (closeout). ⛔ The OWED list lives ONCE, in STATUS §3. This block is only the entry sequence.**
+1. `scripts/boot.py`.
+2. **Thu 10/1 after ~10:30 ET:** grade the 9/30 ICE cell: `LIQ-07` 3rd leg (B ≥308 AND CCC ≥1,064 [bases 9/09]); if it triggers, read the S1/S2 branch with the SRF pre-flag (STATUS §1) · X1 · HY-REKILL. Then SOFR/SOFR99/SRF for 9/30 and H.4.1 as-of 9/30 (the Q-end spike is the NULL; verdict 10/8). No ORACLE Fed-path reply in the inbox as of 10/1 00:3x; ORACLE's latest is 9/28 13:48Z.
+3. **Fri 10/2:** L494 X1 sitting (the 9/29 cell met my proposed count of 3); WALTER's R3 ruling; CFTC W1 as-of 9/29.
+4. Everything else → STATUS §3.
 
 ### NEXT SESSION — 9/24 RE-CUT (SUPERSEDED 2026-09-29; history only)
 
