@@ -69,6 +69,7 @@
 | Rule | What a roll does | Figures |
 |---|---|---|
 | Root rule #7 (roll duration, never size) | ✅ Contract count stays 9 | — but the **cash at risk rises** from ≈ $1.99k (what the nine are worth now) to ≈ $7.54k (nine Oct-09 740P at the $8.38 ask): about **+$5.55k**, ≈ 15% of the IRA and ~31% of its money-market cash |
+| **Standing per-card cap (`STATUS.md` § Standing rules: max loss $500 per card, 1R ≡ $250, hard cap 2R = $500 per idea)** | ⛔ **A roll breaks it ~15×** — and the line already sits above it | Forward max loss = the remaining mark (construction rule #20): ≈ $1,989 for the nine now (≈ 4× the cap, Will's own hand on 9/30); ≈ **$7,542** after an Oct-09 roll (≈ 15× the cap). A SELL takes the forward loss to $0 |
 | Durable finding 1 (deploy on a fired trigger) | ⚠️ The extra ~$5.55k is fresh capital with no fired trigger | Will's hand, recorded under root rule #5 |
 | Non-Negotiable #6 (no roll-by-hope) | ⚠️ This roll was never pre-registered on a card | Will's order IS the explicit re-approval; the card records it, it does not grant it |
 | Root rule #6 (puts on green days) | ⚠️ The BUY leg is a put bought on a **red** day (QQQ −0.26%, VXN +3.47% at 11:04) | Estimated vol cost on the Oct-09 leg ≈ $0.43/contract per vol point × ~0.5 pt ≈ **$0.20/contract ≈ $20 for nine** (INFERRED from a model vega; the feed carries no Greeks). On delta, the red day helps a same-strike roll: the sold 0-day leg gained more than the bought leg. **No direct measurement refutes the proxy, so this is NOT a legitimate break under `RISK_RULES.md` § "Breaking root rule #6" — it is a small, recorded wrong-colour buy.** If QQQ turns green before the order, re-read the colour |
@@ -88,6 +89,6 @@ The case for the roll is Will's QQQ downside view, which this desk does not own:
 
 ## Decision
 
-> **WQ-347 (Will):** SELL the nine at Fidelity's bid before 15:00 ET (desk lean), or ROLL them to QQQ $740P Oct-09 ×9 as one net-debit order, no debit above $6.50/contract. Not hold.
+> **WQ-347 (Will):** SELL the nine at Fidelity's bid before 15:00 ET (desk lean), or ROLL them to QQQ $740P Oct-09 ×9 as one net-debit order, no debit above $6.50/contract — which puts ≈ $7.5k at risk on one line, ≈ 15× the desk's $500 per-card cap (§5). Not hold.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution.**
