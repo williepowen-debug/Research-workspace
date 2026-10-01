@@ -1,5 +1,14 @@
 # CREED Thesis Changelog
 
+## 2026-10-01 · **Hypothesis 1 REWORDED, WILL-RULED (WQ-356) — no score moved, 27/45**
+
+1. **Will ruled WQ-356** (verbatim *"approved"*, in CREED's session 13:23 ET; row registered by PROME @`63e012091`, verified at the artifact before it was put to him).
+2. **Old:** *"extend-and-pretend still absorbing — still active in banks and large-loan cures."* **New:** *"Maturities are being absorbed partly by extensions. At large banks the evidence is contested: on average extension terms tightened (Glancy, FEDS 2026-025), but weakly capitalized banks extended distressed loans to preserve capital (Crosignani & Prazad, NY Fed SR 1130, rev. June 2026). Smaller banks are untested. In CMBS the drag is slow resolution."*
+3. **Why:** two Fed staff papers on the same large-bank supervisory data (FR Y-14Q, banks > $100B), both PRIMARY-READ 10/01: Glancy finds the AVERAGE bank tightened extension terms after 2022 (low-debt-yield loans ~7pp less likely extended; office payoff at maturity ~20% vs > 40% pre-pandemic, mostly default); Crosignani & Prazad find WEAKLY CAPITALIZED banks extended distressed loans to preserve capital. Neither covers smaller banks. `KB-CREED-053`; `research/2026-09-30_REFI_SCREENS_FOLLOWUP.md` §Results 2026-10-01.
+4. **Surfaces changed:** `THESIS.md` regime table row 1 · `CLAUDE.md` §Working Hypothesis item 1 · `notes/VX_NOTES.md` (`VX-8.01` annotation) · the research page.
+
+**⚠️ What did NOT change:** no score, band, op, sustain, trigger, prediction or route; base case *selective CRE recognition accelerating* unchanged; S3 still 2, pre-bank-transmission; convergence 27/45. C&P read at abstract/introduction level only.
+
 ## 2026-09-28 · **S8a 2 → 4, WILL-RULED — composite 25/45 → 27/45 (60.0%)**
 
 1. **Will ruled WQ-303 at 4** (verbatim *"Approve WQ-303 at 4 and WQ-304 option B"*, in PROME's session 15:23 ET; committed `PROME/WILL_QUEUE.md` @`47623f8b1`, verified at the artifact before encoding). S8a moves 2 → 4 on the `CREED-T-08a` fire (effective 9/24). ⚠️ **The caveat travels with the score:** a **rate-led** fire (10y 4.38 → 5.18% official [9/24]; 5.24% live 9/28), and ~2.2pp of the −13.06pp [9/25 TR] depth came from the 3-month window roll — **it argues against 5, it does not lower the 4.** Live 9/28 intraday: −10.67pp TR (10-session σ 3.40pp) — still past the band.

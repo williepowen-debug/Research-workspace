@@ -133,6 +133,7 @@ Hyperscaler capex still RAISED. *** The 7/20 data-center "lone weak leg" UNWOUND
 *moved verbatim 2026-09-26, crc32 `0b445636`, 276 B*
 
 Extend-and-pretend still WORKING at the aggregate (servicers unwilling to seize; resolutions via extension/forbearance). FIRMER at asset level 7/27: Sangertown rolled TWICE and was refused a THIRD on a DSCR hurdle = extend-and-pretend ending on schedule, one credit at a time.
+*** 2026-10-01 (WQ-356, Will "approved" 13:23 ET): the BANK half of this framing is now CONTESTED at large banks and untested at small banks (`KB-CREED-053`: Glancy FEDS 2026-025 vs Crosignani & Prazad SR 1130). The 7/27 note above is about CMBS servicers and asset-level mods; read it as history, not as a bank claim. Candidate aggregate inputs for this vector: `KB-CREED-052` (Trepp $12.1B current office DSCR < 1.0x, one print) and FDIC `RSNRES` (definition unconfirmed); neither adopted.
 
 ## VX-CREED-9.01 — CMBS Book Flow (MBA)
 *moved verbatim 2026-09-26, crc32 `270d52bb`, 809 B*

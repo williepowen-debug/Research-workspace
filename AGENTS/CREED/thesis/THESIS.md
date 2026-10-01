@@ -22,7 +22,7 @@ CREED's current base case is **selective CRE recognition accelerating**. **Broad
 
 | Regime | Definition | Current read |
 |---|---|---|
-| Extend-and-pretend still absorbing | Stress is real, but modifications/cures/denominator effects keep headline bank metrics contained | Still active (banks; fund level via the SREIT gate) |
+| Extensions absorbing maturities (pretend contested) | Stress is real, but extensions, modifications, cures and denominator effects keep headline bank metrics contained | Maturities are being absorbed partly by extensions. At large banks the evidence is contested: on average extension terms tightened (Glancy, FEDS 2026-025), but weakly capitalized banks extended distressed loans to preserve capital (Crosignani & Prazad, NY Fed SR 1130, rev. June 2026). Smaller banks are untested. In CMBS the drag is slow resolution. Fund level: the SREIT gate (unchanged). *(Reworded WQ-356, Will 2026-10-01 13:23 ET: "approved"; was "Still active (banks; fund level via the SREIT gate)"; `KB-CREED-053`.)* |
 | Selective CRE recognition accelerating | CMBS and specific property types/metros show forced recognition while banks remain uneven | **Base case** |
 | Broad CRE→bank transmission | Bank PDNA/provisions/nonaccruals/funding stress confirm CRE losses moving onto financial-system balance sheets | **Not confirmed** |
 

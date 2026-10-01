@@ -219,7 +219,7 @@ Legacy hypothesis:
 > CRE stress is real, but bank recognition timing depends on mods, forbearance, refi capacity, employment, and bank concentration.
 
 Current thesis state:
-1. **extend-and-pretend still absorbing** — still active in banks and large-loan cures,
+1. **extensions absorbing maturities, pretend contested** — Maturities are being absorbed partly by extensions. At large banks the evidence is contested: on average extension terms tightened (Glancy, FEDS 2026-025), but weakly capitalized banks extended distressed loans to preserve capital (Crosignani & Prazad, NY Fed SR 1130, rev. June 2026). Smaller banks are untested. In CMBS the drag is slow resolution. *(reworded WQ-356, Will 2026-10-01 13:23 ET: "approved"; was "extend-and-pretend still absorbing — still active in banks and large-loan cures"; evidence `KB-CREED-053`)*,
 2. **selective CRE recognition accelerating** — current base case,
 3. **broad CRE-to-bank transmission beginning** — not confirmed.
 
