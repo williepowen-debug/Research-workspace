@@ -39,7 +39,7 @@
 
 ## PENDING WILL-DECISIONS
 
-**None owned by RED.** Will's own WQ-339 sitting (a new duration-short card, 10/2) is TERRY's card and Will's call. RED briefed the real-rate move (OUTBOX -047) and offered a counter-case; Will did not take it up. $0 this session.
+**None owned by RED.** Will's live 10/2 decision is **WQ-357**: exit or keep the duration shorts (TLT Oct-16 82P ×1 + TBT ×10). BOND's 9/4 exit rule fired on the 10/1 FR2004 print ($60.079B vs $56.586B). PROME leans approve, and the counter is that the build sat in 3–6Y only while the long end FELL $3.8B. TERRY's card, Will's hand. **WQ-339 (add a new card) STOOD DOWN** on its own condition ①. ⚠️ RED told Will tonight that WQ-339 was live; it was not (pre-print row, un-re-checked), corrected at Will's word. RED takes no trade view; the real-rate move (OUTBOX -047) is context. $0 this session.
 
 ## GIT STATE
 
