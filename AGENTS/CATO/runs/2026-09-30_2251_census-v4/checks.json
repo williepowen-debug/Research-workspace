@@ -1,0 +1,237 @@
+{
+  "pin": "e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0",
+  "population": 534,
+  "dispositions": {
+    "open_not_due": 90,
+    "binary_numeric_current": 225,
+    "open_overdue": 36,
+    "non_binary_or_unknown_status": 53,
+    "explicitly_ineligible": 53,
+    "open_undated": 38,
+    "binary_no_current_probability": 36,
+    "schema_error": 2,
+    "pending_verification": 1
+  },
+  "metrics": {
+    "v3_current": {
+      "n": 235,
+      "brier": 0.2420995744680851,
+      "base_rate": 0.5106382978723404,
+      "baseline": 0.24988682661837935
+    },
+    "v3_first": {
+      "n": 234,
+      "brier": 0.2532880341880342,
+      "base_rate": 0.5128205128205128,
+      "baseline": 0.24983563445101906
+    },
+    "v4_current": {
+      "n": 225,
+      "brier": 0.23290933333333333,
+      "base_rate": 0.5244444444444445,
+      "baseline": 0.24940246913580247
+    },
+    "v4_recorded_subset": {
+      "n": 15,
+      "brier": 0.36311333333333334,
+      "base_rate": 0.26666666666666666,
+      "baseline": 0.19555555555555557
+    },
+    "v4_earliest_filtered": {
+      "n": 130,
+      "brier": 0.2638676923076923,
+      "base_rate": 0.5153846153846153,
+      "baseline": 0.24976331360946746
+    },
+    "matched_current": {
+      "n": 125,
+      "brier": 0.2463568,
+      "base_rate": 0.528,
+      "baseline": 0.249216
+    },
+    "matched_earliest": {
+      "n": 125,
+      "brier": 0.2546672,
+      "base_rate": 0.528,
+      "baseline": 0.249216
+    }
+  },
+  "changed_numeric_earliest": [
+    {
+      "desk": "BRENT",
+      "pred_id": "BRT-02",
+      "v3_first": "0.85",
+      "v4_earliest": "0.7",
+      "flags": "first_row_schema_error;present_at_source_file_birth;resolution_terms_changed_or_missing"
+    },
+    {
+      "desk": "BRENT",
+      "pred_id": "BRT-03",
+      "v3_first": "0.80",
+      "v4_earliest": "0.6",
+      "flags": "first_row_schema_error;present_at_source_file_birth;resolution_terms_changed_or_missing"
+    },
+    {
+      "desk": "BRENT",
+      "pred_id": "BRT-04",
+      "v3_first": "0.95",
+      "v4_earliest": "0.8",
+      "flags": "first_row_schema_error;present_at_source_file_birth;resolution_terms_changed_or_missing"
+    },
+    {
+      "desk": "BRENT",
+      "pred_id": "BRT-05",
+      "v3_first": "0.85",
+      "v4_earliest": "0.7",
+      "flags": "first_row_schema_error;present_at_source_file_birth;resolution_terms_changed_or_missing"
+    },
+    {
+      "desk": "BRENT",
+      "pred_id": "BRT-15",
+      "v3_first": "0.90",
+      "v4_earliest": "0.85",
+      "flags": "first_row_schema_error;resolution_terms_changed_or_missing"
+    },
+    {
+      "desk": "CARL",
+      "pred_id": "CRL-04",
+      "v3_first": "0.95",
+      "v4_earliest": "0.88",
+      "flags": "none"
+    },
+    {
+      "desk": "CARL",
+      "pred_id": "CRL-05",
+      "v3_first": "0.72",
+      "v4_earliest": "0.75",
+      "flags": "none"
+    },
+    {
+      "desk": "CARL",
+      "pred_id": "CRL-07",
+      "v3_first": "0.85",
+      "v4_earliest": "0.8",
+      "flags": "window_text_changed_or_missing"
+    },
+    {
+      "desk": "CARL",
+      "pred_id": "CRL-09",
+      "v3_first": "0.73",
+      "v4_earliest": "0.75",
+      "flags": "none"
+    },
+    {
+      "desk": "CARL",
+      "pred_id": "CRL-11",
+      "v3_first": "0.83",
+      "v4_earliest": "0.85",
+      "flags": "none"
+    },
+    {
+      "desk": "MARCO",
+      "pred_id": "MAR-11",
+      "v3_first": "0.80",
+      "v4_earliest": "0.7",
+      "flags": "first_row_schema_error;present_at_source_file_birth"
+    },
+    {
+      "desk": "MARCO",
+      "pred_id": "MAR-25",
+      "v3_first": "0.95",
+      "v4_earliest": "0.8",
+      "flags": "first_row_schema_error"
+    },
+    {
+      "desk": "OTTO",
+      "pred_id": "OTTO-05",
+      "v3_first": "0.48",
+      "v4_earliest": "0.6",
+      "flags": "first_row_schema_error;present_at_source_file_birth;resolution_terms_changed_or_missing;window_text_changed_or_missing"
+    },
+    {
+      "desk": "OTTO",
+      "pred_id": "OTTO-29",
+      "v3_first": "0.80",
+      "v4_earliest": "0.75",
+      "flags": "same_commit_conflicting_sources"
+    },
+    {
+      "desk": "OTTO",
+      "pred_id": "OTTO-30",
+      "v3_first": "0.45",
+      "v4_earliest": "0.6",
+      "flags": "resolution_terms_changed_or_missing;same_commit_conflicting_sources"
+    },
+    {
+      "desk": "OTTO",
+      "pred_id": "OTTO-31",
+      "v3_first": "0.30",
+      "v4_earliest": "0.6",
+      "flags": "none"
+    },
+    {
+      "desk": "REGINALD",
+      "pred_id": "REG-13",
+      "v3_first": "0.72",
+      "v4_earliest": "0.55",
+      "flags": "present_at_source_file_birth"
+    }
+  ],
+  "changed_first_commit_count": 145,
+  "history_flags": {
+    "first_row_schema_error": 121,
+    "resolution_terms_changed_or_missing": 115,
+    "none": 241,
+    "present_at_source_file_birth": 156,
+    "first_seen_not_open": 50,
+    "claim_changed_or_missing": 45,
+    "made_date_changed": 17,
+    "window_text_changed_or_missing": 89,
+    "same_commit_conflicting_sources": 2
+  },
+  "current_scores_removed": [
+    [
+      "BRENT",
+      "BRT-06"
+    ],
+    [
+      "CARL",
+      "CRL-03"
+    ],
+    [
+      "CARL",
+      "CRL-04"
+    ],
+    [
+      "CARL",
+      "CRL-07"
+    ],
+    [
+      "CARL",
+      "CRL-09"
+    ],
+    [
+      "CARL",
+      "CRL-11"
+    ],
+    [
+      "CARL",
+      "CRL-16"
+    ],
+    [
+      "MARCO",
+      "MAR-21"
+    ],
+    [
+      "OTTO",
+      "OTTO-04"
+    ],
+    [
+      "OTTO",
+      "OTTO-06"
+    ]
+  ],
+  "matched_rows_with_first_not_open": 6,
+  "matched_rows_at_file_birth": 15,
+  "checks": "PASS: fixed population, source/script hashes, probability bounds, exclusion arithmetic and independent Decimal Brier recomputation."
+}

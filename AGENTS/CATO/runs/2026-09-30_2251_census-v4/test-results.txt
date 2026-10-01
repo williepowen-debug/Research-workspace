@@ -1,0 +1,24 @@
+test_annotation_is_source_bound_and_validated (test_census_v4.ExtractionTests.test_annotation_is_source_bound_and_validated) ... ok
+test_brier_and_same_cohort_baseline (test_census_v4.ExtractionTests.test_brier_and_same_cohort_baseline) ... ok
+test_full_long_notes_are_retained (test_census_v4.ExtractionTests.test_full_long_notes_are_retained) ... ok
+test_negative_grade_retained_but_excluded (test_census_v4.ExtractionTests.test_negative_grade_retained_but_excluded) ... ok
+test_no_annotation_does_not_infer_grade_or_eligibility (test_census_v4.ExtractionTests.test_no_annotation_does_not_infer_grade_or_eligibility) ... ok
+test_pending_is_not_terminal_even_with_prior_binary_grade (test_census_v4.ExtractionTests.test_pending_is_not_terminal_even_with_prior_binary_grade) ... ok
+test_probability_missing_tier_and_instruction_are_not_live (test_census_v4.ExtractionTests.test_probability_missing_tier_and_instruction_are_not_live) ... ok
+test_shape_error_does_not_read_shifted_date_as_outcome (test_census_v4.ExtractionTests.test_shape_error_does_not_read_shifted_date_as_outcome) ... ok
+test_deleted_predecessor_beats_archive_and_wrong_desk (test_census_v4.HistoryTests.test_deleted_predecessor_beats_archive_and_wrong_desk) ... ok
+test_duplicate_id_in_one_history_file_is_not_silently_selected (test_census_v4.HistoryTests.test_duplicate_id_in_one_history_file_is_not_silently_selected) ... ok
+test_first_missing_probability_is_not_replaced_by_later_mark (test_census_v4.HistoryTests.test_first_missing_probability_is_not_replaced_by_later_mark) ... ok
+test_malformed_first_row_retains_candidate_but_flags_uncertainty (test_census_v4.HistoryTests.test_malformed_first_row_retains_candidate_but_flags_uncertainty) ... ok
+test_same_commit_disagreement_and_changed_claim_are_flagged (test_census_v4.HistoryTests.test_same_commit_disagreement_and_changed_claim_are_flagged) ... ok
+test_unchanged_claim_with_changed_horizon_or_resolver_is_flagged (test_census_v4.HistoryTests.test_unchanged_claim_with_changed_horizon_or_resolver_is_flagged) ... ok
+test_workspace_changes_do_not_change_history (test_census_v4.HistoryTests.test_workspace_changes_do_not_change_history) ... ok
+test_otto_grades_and_eligibility (test_census_v4.PinnedWitnessTests.test_otto_grades_and_eligibility) ... ok
+test_population_reconciles (test_census_v4.PinnedWitnessTests.test_population_reconciles) ... ok
+test_saved_history_and_rotation_witnesses (test_census_v4.PinnedWitnessTests.test_saved_history_and_rotation_witnesses) ... ok
+test_schema_header_exclusion_and_instruction_cell (test_census_v4.PinnedWitnessTests.test_schema_header_exclusion_and_instruction_cell) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.368s
+
+OK

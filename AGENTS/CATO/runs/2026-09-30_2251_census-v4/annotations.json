@@ -1,0 +1,737 @@
+{
+  "pin": "e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0",
+  "method": "CATO author-reviewed exact source statements. Closed-world extraction: other rows remain UNKNOWN. Grading probability includes explicit instructions for still-open rows, never proof a grade has occurred. No external outcome verification.",
+  "rows": [
+    {
+      "desk": "CARL",
+      "pred_id": "CRL-03",
+      "path": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+      "source_sha256": "c2904d4f5cd53cb1f8f2cfaa51ff34ff55dc807e582d800371fef5883692995d",
+      "field": "Confidence",
+      "quote": "SCORE AT 90%",
+      "p_recorded_grade": 0.9
+    },
+    {
+      "desk": "CARL",
+      "pred_id": "CRL-04",
+      "path": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+      "source_sha256": "c2904d4f5cd53cb1f8f2cfaa51ff34ff55dc807e582d800371fef5883692995d",
+      "field": "Confidence",
+      "quote": "SCORE AT 88%",
+      "p_recorded_grade": 0.88
+    },
+    {
+      "desk": "CARL",
+      "pred_id": "CRL-07",
+      "path": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+      "source_sha256": "c2904d4f5cd53cb1f8f2cfaa51ff34ff55dc807e582d800371fef5883692995d",
+      "field": "Confidence",
+      "quote": "SCORE AT 80%",
+      "p_recorded_grade": 0.8
+    },
+    {
+      "desk": "CARL",
+      "pred_id": "CRL-09",
+      "path": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+      "source_sha256": "c2904d4f5cd53cb1f8f2cfaa51ff34ff55dc807e582d800371fef5883692995d",
+      "field": "Confidence",
+      "quote": "SCORE AT 75%",
+      "p_recorded_grade": 0.75
+    },
+    {
+      "desk": "CARL",
+      "pred_id": "CRL-11",
+      "path": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+      "source_sha256": "c2904d4f5cd53cb1f8f2cfaa51ff34ff55dc807e582d800371fef5883692995d",
+      "field": "Confidence",
+      "quote": "SCORE AT 85%",
+      "p_recorded_grade": 0.85
+    },
+    {
+      "desk": "CARL",
+      "pred_id": "CRL-16",
+      "path": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+      "source_sha256": "c2904d4f5cd53cb1f8f2cfaa51ff34ff55dc807e582d800371fef5883692995d",
+      "field": "Confidence",
+      "quote": "SCORE AT 60%",
+      "p_recorded_grade": 0.6
+    },
+    {
+      "desk": "MARCO",
+      "pred_id": "MAR-26",
+      "path": "AGENTS/MARCO/thesis/PREDICTIONS.tsv",
+      "source_sha256": "ae85742033c07c1502fbefdc210f38ad8979a56fb5b2e5f64f2d035376abcb00",
+      "field": "Confidence",
+      "quote": "SCORE AT 74%",
+      "p_recorded_grade": 0.74
+    },
+    {
+      "desk": "MARCO",
+      "pred_id": "MAR-21",
+      "path": "AGENTS/MARCO/thesis/PREDICTIONS.tsv",
+      "source_sha256": "ae85742033c07c1502fbefdc210f38ad8979a56fb5b2e5f64f2d035376abcb00",
+      "field": "Confidence",
+      "quote": "SCORE AT 55%",
+      "p_recorded_grade": 0.55
+    },
+    {
+      "desk": "HANS",
+      "pred_id": "HNS-05",
+      "path": "AGENTS/HANS/workbook/PREDICTIONS.tsv",
+      "source_sha256": "bf4dc7a6a573394ac99522213493369bb0a67b2b34cca73841757cd31167069b",
+      "field": "Notes",
+      "quote": "Score the book at 88%",
+      "p_recorded_grade": 0.88
+    },
+    {
+      "desk": "LABOR",
+      "pred_id": "LAB-03",
+      "path": "AGENTS/LABOR/workbook/PREDICTIONS.tsv",
+      "source_sha256": "a42dd7855d9ebe99518176ec1068833f99437eb38db1a20d042315bc5abcabd6",
+      "field": "Notes",
+      "quote": "scores AS-MADE 65%",
+      "p_recorded_grade": 0.65
+    },
+    {
+      "desk": "LABOR",
+      "pred_id": "LAB-10",
+      "path": "AGENTS/LABOR/workbook/PREDICTIONS.tsv",
+      "source_sha256": "a42dd7855d9ebe99518176ec1068833f99437eb38db1a20d042315bc5abcabd6",
+      "field": "Notes",
+      "quote": "SCORED at as-made 75%",
+      "p_recorded_grade": 0.75
+    },
+    {
+      "desk": "LABOR",
+      "pred_id": "LAB-11",
+      "path": "AGENTS/LABOR/workbook/PREDICTIONS.tsv",
+      "source_sha256": "a42dd7855d9ebe99518176ec1068833f99437eb38db1a20d042315bc5abcabd6",
+      "field": "Notes",
+      "quote": "scores AS-MADE 55%",
+      "p_recorded_grade": 0.55
+    },
+    {
+      "desk": "LABOR",
+      "pred_id": "LAB-18",
+      "path": "AGENTS/LABOR/workbook/PREDICTIONS.tsv",
+      "source_sha256": "a42dd7855d9ebe99518176ec1068833f99437eb38db1a20d042315bc5abcabd6",
+      "field": "Notes",
+      "quote": "scored AS-MADE at 15%",
+      "p_recorded_grade": 0.15
+    },
+    {
+      "desk": "LABOR",
+      "pred_id": "LAB-19",
+      "path": "AGENTS/LABOR/workbook/PREDICTIONS.tsv",
+      "source_sha256": "a42dd7855d9ebe99518176ec1068833f99437eb38db1a20d042315bc5abcabd6",
+      "field": "Notes",
+      "quote": "scored AS-MADE at 60%",
+      "p_recorded_grade": 0.6
+    },
+    {
+      "desk": "LABOR",
+      "pred_id": "LAB-13",
+      "path": "AGENTS/LABOR/workbook/PREDICTIONS.tsv",
+      "source_sha256": "a42dd7855d9ebe99518176ec1068833f99437eb38db1a20d042315bc5abcabd6",
+      "field": "Notes",
+      "quote": "SCORING: as-made 30%",
+      "p_recorded_grade": 0.3
+    },
+    {
+      "desk": "LABOR",
+      "pred_id": "LAB-17",
+      "path": "AGENTS/LABOR/workbook/PREDICTIONS.tsv",
+      "source_sha256": "a42dd7855d9ebe99518176ec1068833f99437eb38db1a20d042315bc5abcabd6",
+      "field": "Notes",
+      "quote": "scored at 30% in PREDICTIONS_SCOREBOARD",
+      "p_recorded_grade": 0.3
+    },
+    {
+      "desk": "OTTO",
+      "pred_id": "OTTO-04",
+      "path": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+      "source_sha256": "d26f6bd64258fceb80162c19908d7de31c6caf0251e8ceaa784a05dfe70b5015",
+      "field": "Notes",
+      "quote": "score at 75%, not 62%",
+      "p_recorded_grade": 0.75
+    },
+    {
+      "desk": "OTTO",
+      "pred_id": "OTTO-06",
+      "path": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+      "source_sha256": "d26f6bd64258fceb80162c19908d7de31c6caf0251e8ceaa784a05dfe70b5015",
+      "field": "Notes",
+      "quote": "Score at as-made 70%",
+      "p_recorded_grade": 0.7
+    },
+    {
+      "desk": "OTTO",
+      "pred_id": "OTTO-10",
+      "path": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+      "source_sha256": "d26f6bd64258fceb80162c19908d7de31c6caf0251e8ceaa784a05dfe70b5015",
+      "field": "Notes",
+      "quote": "SCORE AT AS-MADE 65%",
+      "p_recorded_grade": 0.65
+    },
+    {
+      "desk": "OTTO",
+      "pred_id": "OTTO-29",
+      "path": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+      "source_sha256": "d26f6bd64258fceb80162c19908d7de31c6caf0251e8ceaa784a05dfe70b5015",
+      "field": "Notes",
+      "quote": "Score at AS-MADE 75%",
+      "p_recorded_grade": 0.75
+    },
+    {
+      "desk": "OTTO",
+      "pred_id": "OTTO-30",
+      "path": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+      "source_sha256": "d26f6bd64258fceb80162c19908d7de31c6caf0251e8ceaa784a05dfe70b5015",
+      "field": "Notes",
+      "quote": "SCORE AT 65%",
+      "p_recorded_grade": 0.65
+    },
+    {
+      "desk": "OTTO",
+      "pred_id": "OTTO-31",
+      "path": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+      "source_sha256": "d26f6bd64258fceb80162c19908d7de31c6caf0251e8ceaa784a05dfe70b5015",
+      "field": "Notes",
+      "quote": "score at 60% when it resolves",
+      "p_recorded_grade": 0.6
+    },
+    {
+      "desk": "OTTO",
+      "pred_id": "OTTO-32",
+      "path": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+      "source_sha256": "d26f6bd64258fceb80162c19908d7de31c6caf0251e8ceaa784a05dfe70b5015",
+      "field": "Notes",
+      "quote": "SCORE AT AS-MADE 85%",
+      "p_recorded_grade": 0.85
+    },
+    {
+      "desk": "REGINALD",
+      "pred_id": "REG-07",
+      "path": "AGENTS/REGINALD/workbook/PREDICTIONS.tsv",
+      "source_sha256": "f60c812466616f470cf1e5fccad0348d5e7eed72e49f8e36ed18f7b341cf1881",
+      "field": "Notes",
+      "quote": "Brier scores on 55% as-made",
+      "p_recorded_grade": 0.55
+    },
+    {
+      "desk": "SAM",
+      "pred_id": "SAM-07",
+      "path": "AGENTS/SAM/thesis/PREDICTIONS.tsv",
+      "source_sha256": "f3930937ca72522b7015fa0e97f39d76240e93758ea8f218c11ae193ed9ffd00",
+      "field": "Notes",
+      "quote": "Score at 48%",
+      "p_recorded_grade": 0.48
+    },
+    {
+      "desk": "OTTO",
+      "pred_id": "OTTO-29",
+      "path": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+      "source_sha256": "d26f6bd64258fceb80162c19908d7de31c6caf0251e8ceaa784a05dfe70b5015",
+      "field": "Result",
+      "quote": "CALIBRATION ELIGIBILITY: ELIGIBLE.",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "desk": "OTTO",
+      "pred_id": "OTTO-32",
+      "path": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+      "source_sha256": "d26f6bd64258fceb80162c19908d7de31c6caf0251e8ceaa784a05dfe70b5015",
+      "field": "Result",
+      "quote": "CALIBRATION ELIGIBILITY: ELIGIBLE.",
+      "eligibility": "ELIGIBLE"
+    },
+    {
+      "desk": "OTTO",
+      "pred_id": "OTTO-06",
+      "path": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+      "source_sha256": "d26f6bd64258fceb80162c19908d7de31c6caf0251e8ceaa784a05dfe70b5015",
+      "field": "Result",
+      "quote": "CALIBRATION ELIGIBILITY: NOT ELIGIBLE.",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "OTTO",
+      "pred_id": "OTTO-04",
+      "path": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+      "source_sha256": "d26f6bd64258fceb80162c19908d7de31c6caf0251e8ceaa784a05dfe70b5015",
+      "field": "Notes",
+      "quote": "record substance as confirmed, take NO calibration credit",
+      "eligibility": "EXCLUDED",
+      "comment": "Retain the specified 75% but exclude the row: explicit no-credit disposition; no silent choice of the favorable substance outcome."
+    },
+    {
+      "desk": "OTTO",
+      "pred_id": "OTTO-10",
+      "path": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+      "source_sha256": "d26f6bd64258fceb80162c19908d7de31c6caf0251e8ceaa784a05dfe70b5015",
+      "field": "Result",
+      "quote": "CALIBRATION ELIGIBILITY: not eligible while NEEDS_VERIFY.",
+      "eligibility": "EXCLUDED",
+      "pending": true
+    },
+    {
+      "desk": "BRENT",
+      "pred_id": "BRT-06",
+      "path": "AGENTS/BRENT/thesis/PREDICTIONS.tsv",
+      "source_sha256": "97f70281a264458a1c777c85fa17ee2351ed17a8a282dd12acb4f950b556a1ae",
+      "field": "__file__",
+      "quote": "BRT-06 IS EXCLUDED FROM ALL CALIBRATION MATH",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HAWK",
+      "pred_id": "HAW-19",
+      "path": "AGENTS/HAWK/thesis/PREDICTIONS.tsv",
+      "source_sha256": "a2452e93324c042bd8174ffb0237dadc85eee5653ea201700dac8723e9c02090",
+      "field": "Outcome",
+      "quote": "DEFECTIVE INSTRUMENT -- NO CALIBRATION CREDIT",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "CARL",
+      "pred_id": "CRL-02",
+      "path": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+      "source_sha256": "c2904d4f5cd53cb1f8f2cfaa51ff34ff55dc807e582d800371fef5883692995d",
+      "field": "Confidence",
+      "quote": "NOT SCORED",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "CARL",
+      "pred_id": "CRL-06",
+      "path": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+      "source_sha256": "c2904d4f5cd53cb1f8f2cfaa51ff34ff55dc807e582d800371fef5883692995d",
+      "field": "Confidence",
+      "quote": "NOT SCORED",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "CARL",
+      "pred_id": "CRL-26",
+      "path": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+      "source_sha256": "c2904d4f5cd53cb1f8f2cfaa51ff34ff55dc807e582d800371fef5883692995d",
+      "field": "Confidence",
+      "quote": "NOT SCORED",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-04",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-07",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-08",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-09",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-10",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-11",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-12",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-13",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-14",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-15",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-16",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-17",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-18",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-19",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-20",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-21",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-22",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-23",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-24",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-25",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-26",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-27",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-28",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-29",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-30",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-31",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-32",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-33",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-34",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-35",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-36",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-37",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-38",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-39",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-40",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-41",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-42",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-43",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-44",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-45",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-47",
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "source_sha256": "2e0e70a0364e7ee5c4e51b452dd8e0389986136d0763ebf34023a999d9dd24ac",
+      "field": "Confidence",
+      "quote": "UNSCORED-AS-MADE",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "BRENT",
+      "pred_id": "BRT-12",
+      "path": "AGENTS/BRENT/thesis/PREDICTIONS.tsv",
+      "source_sha256": "97f70281a264458a1c777c85fa17ee2351ed17a8a282dd12acb4f950b556a1ae",
+      "field": "Notes",
+      "quote": "excluded from calibration",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "BRENT",
+      "pred_id": "BRT-18",
+      "path": "AGENTS/BRENT/thesis/PREDICTIONS.tsv",
+      "source_sha256": "97f70281a264458a1c777c85fa17ee2351ed17a8a282dd12acb4f950b556a1ae",
+      "field": "Notes",
+      "quote": "Excluded from calibration",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "BRENT",
+      "pred_id": "BRT-20",
+      "path": "AGENTS/BRENT/thesis/PREDICTIONS.tsv",
+      "source_sha256": "97f70281a264458a1c777c85fa17ee2351ed17a8a282dd12acb4f950b556a1ae",
+      "field": "Notes",
+      "quote": "Excluded from calibration",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "BRENT",
+      "pred_id": "BRT-25",
+      "path": "AGENTS/BRENT/thesis/PREDICTIONS.tsv",
+      "source_sha256": "97f70281a264458a1c777c85fa17ee2351ed17a8a282dd12acb4f950b556a1ae",
+      "field": "Notes",
+      "quote": "Excluded from calibration",
+      "eligibility": "EXCLUDED"
+    },
+    {
+      "desk": "CREED",
+      "pred_id": "PRED-CREED-002a",
+      "path": "AGENTS/CREED/workbook/PREDICTIONS.tsv",
+      "source_sha256": "91274fe4b6a3f93a72905a00094e2f56fe766c9abdfa1ee1ba83322d8dfe5a71",
+      "field": "Notes",
+      "quote": "EXCLUDED from calibration: no confidence recorded",
+      "eligibility": "EXCLUDED"
+    }
+  ]
+}

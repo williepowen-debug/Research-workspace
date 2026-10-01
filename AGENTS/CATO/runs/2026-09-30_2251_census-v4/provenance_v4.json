@@ -1,0 +1,627 @@
+{
+  "pin": "e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0",
+  "as_of": "2026-10-01",
+  "population": 534,
+  "dispositions": {
+    "open_not_due": 90,
+    "binary_numeric_current": 225,
+    "open_overdue": 36,
+    "non_binary_or_unknown_status": 53,
+    "explicitly_ineligible": 53,
+    "open_undated": 38,
+    "binary_no_current_probability": 36,
+    "schema_error": 2,
+    "pending_verification": 1
+  },
+  "recorded_probability_known": 25,
+  "registration_probability_known": 0,
+  "source_manifest_v3": {
+    "summary_v3.tsv": {
+      "sha256": "44156e98c909634a62ced090860ed032f2fcd3b17c486cc6b59d536f8a9d3130",
+      "bytes": 2898,
+      "source": "/mnt/c/Users/willi/Downloads/summary_v3.tsv"
+    },
+    "rows_v3.tsv": {
+      "sha256": "a880d3d304acaf3743368227069c46f81d61978529f68cdbc73c8857c02b47f8",
+      "bytes": 144654,
+      "source": "/mnt/c/Users/willi/Downloads/rows_v3.tsv"
+    },
+    "census_v3.py": {
+      "sha256": "db66c246429434cc00ab64b0b6d2ffc5deccafef734eb59f9b5310d072de77a5",
+      "bytes": 13553,
+      "source": "/mnt/c/Users/willi/Downloads/census_v3.py"
+    },
+    "provenance_v3.txt": {
+      "sha256": "12b7a0c699dc9a8b83c3a28c13c0c29afc42389555f9bd80e0b12b86dcbffb01",
+      "bytes": 4742,
+      "source": "/mnt/c/Users/willi/Downloads/provenance_v3.txt"
+    }
+  },
+  "script_sha256": "950e175a8bb2ab966933e98ca241830879df879b2360f82f616810c8b6d8acd3",
+  "annotations_sha256": "4cac3a51f4c78802a304e0e4dcbf5e73faa97126dc965e4ce32a31b422e46aa6",
+  "history_paths": [
+    {
+      "path": "AGENTS/AEOLUS/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "befd1daab222253960d8c0bd6a764e721fcc3631",
+      "matched_ids": 12
+    },
+    {
+      "path": "AGENTS/BOND/thesis/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "38812f895a983e13750b175b6c0ad41c11fc30d9",
+      "matched_ids": 31
+    },
+    {
+      "path": "AGENTS/BOND/thesis/archive/PREDICTIONS_resolved_BND-01_to_BND-14.tsv",
+      "class": "ROTATION",
+      "searched": true,
+      "file_birth_commit": "a090236a24f42c0f156c0509bb6db3ed529acab9",
+      "matched_ids": 14
+    },
+    {
+      "path": "AGENTS/BOND/thesis/archive/PREDICTIONS_resolved_BND-01_to_BND-17.tsv",
+      "class": "ROTATION",
+      "searched": true,
+      "file_birth_commit": "8455d0dd927d16f3d1448819ef34d46df3f74ff9",
+      "matched_ids": 17
+    },
+    {
+      "path": "AGENTS/BOND/thesis/archive/PREDICTIONS_resolved_BND-18_to_BND-21.tsv",
+      "class": "ROTATION",
+      "searched": true,
+      "file_birth_commit": "742d4533e08aeddb124a9beddcd46a8d64ca0747",
+      "matched_ids": 4
+    },
+    {
+      "path": "AGENTS/BOND/thesis/archive/PREDICTIONS_resolved_BND-22_to_BND-24.tsv",
+      "class": "ROTATION",
+      "searched": true,
+      "file_birth_commit": "d5715ef02ed352d980ade261ef5f8ec449636803",
+      "matched_ids": 3
+    },
+    {
+      "path": "AGENTS/BOND/thesis/archive/PREDICTIONS_resolved_BND-25_to_BND-29.tsv",
+      "class": "ROTATION",
+      "searched": true,
+      "file_birth_commit": "b4926f8b8b3b2934aa34ca7ffe22eca0121170c5",
+      "matched_ids": 5
+    },
+    {
+      "path": "AGENTS/BOND/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "505184019354e1ca9e2307fff0961272bbcc37f4",
+      "matched_ids": 8
+    },
+    {
+      "path": "AGENTS/BRENT/archive/2026-09-08_cleanup/thesis/PREDICTIONS.tsv",
+      "class": "ROTATION",
+      "searched": true,
+      "file_birth_commit": "570001b9bf0282db6edf8fd0d05f7b0fa52971fb",
+      "matched_ids": 30
+    },
+    {
+      "path": "AGENTS/BRENT/archive/2026-09-08_thesis-reconciliation/thesis/PREDICTIONS.tsv",
+      "class": "SNAPSHOT",
+      "searched": false
+    },
+    {
+      "path": "AGENTS/BRENT/research/2026-09-15_backlog-review/before/thesis/PREDICTIONS.tsv",
+      "class": "SNAPSHOT",
+      "searched": false
+    },
+    {
+      "path": "AGENTS/BRENT/research/2026-09-15_workdown/before/thesis/PREDICTIONS.tsv",
+      "class": "SNAPSHOT",
+      "searched": false
+    },
+    {
+      "path": "AGENTS/BRENT/thesis/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "3fcce675a406cbea2ef55f7c715f1e014dd22dad",
+      "matched_ids": 30
+    },
+    {
+      "path": "AGENTS/BRENT/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "dec1eff0d5418cf0e3e81442281bd08a19da2ed7",
+      "matched_ids": 26
+    },
+    {
+      "path": "AGENTS/BROCK/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "e3942101611cbe4f3622ca1191ca523687f1f54b",
+      "matched_ids": 20
+    },
+    {
+      "path": "AGENTS/BROCK/archive/PREDICTIONS_old_9col.tsv",
+      "class": "ROTATION",
+      "searched": true,
+      "file_birth_commit": "a4bb5ba024b5b4d7b6cef0179210cfef0bccfecf",
+      "matched_ids": 20
+    },
+    {
+      "path": "AGENTS/BROCK/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "27cfdfbda4e20df797dd6160f7a7faba1fd846ce",
+      "matched_ids": 32
+    },
+    {
+      "path": "AGENTS/BROCK/workbook/PREDICTIONS_ARCHIVE.tsv",
+      "class": "ROTATION",
+      "searched": true,
+      "file_birth_commit": "af495ea2aff2fad700128030055c10098a126a21",
+      "matched_ids": 10
+    },
+    {
+      "path": "AGENTS/BROCK/workbook/PREDICTIONS_old_9col.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "f7fc690acd618a15fbda657349c7d686bd982bce",
+      "matched_ids": 20
+    },
+    {
+      "path": "AGENTS/BUFFER/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": false
+    },
+    {
+      "path": "AGENTS/CARL/sub_agents/DOC/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "91c301279f356c1fe64013258c649bfa8a3d7617",
+      "matched_ids": 10
+    },
+    {
+      "path": "AGENTS/CARL/sub_agents/GIG/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "91c301279f356c1fe64013258c649bfa8a3d7617",
+      "matched_ids": 8
+    },
+    {
+      "path": "AGENTS/CARL/sub_agents/NICK/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": false
+    },
+    {
+      "path": "AGENTS/CARL/sub_agents/PHAN/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "a57aabae59b12bfe60c1fa373666febeb165781e",
+      "matched_ids": 7
+    },
+    {
+      "path": "AGENTS/CARL/sub_agents/POLLY/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "91c301279f356c1fe64013258c649bfa8a3d7617",
+      "matched_ids": 8
+    },
+    {
+      "path": "AGENTS/CARL/sub_agents/POP/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "91c301279f356c1fe64013258c649bfa8a3d7617",
+      "matched_ids": 8
+    },
+    {
+      "path": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "a5ac65852d81d63da91b91650aa9ca574029c832",
+      "matched_ids": 29
+    },
+    {
+      "path": "AGENTS/CARL/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "91c301279f356c1fe64013258c649bfa8a3d7617",
+      "matched_ids": 11
+    },
+    {
+      "path": "AGENTS/CREED/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "43639b22c4948ec2f91b95e737436d10674207bf",
+      "matched_ids": 11
+    },
+    {
+      "path": "AGENTS/CRUISE/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "d9744d9ed02de883bed3e86b93059e27012d4d31",
+      "matched_ids": 10
+    },
+    {
+      "path": "AGENTS/EARNINGS/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": false
+    },
+    {
+      "path": "AGENTS/FALCON/thesis/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "3fb46ebdf422988908ce24141628ab529ccf135f",
+      "matched_ids": 5
+    },
+    {
+      "path": "AGENTS/FERT/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "0087ee84eb4b53cd4c03118bfdc7d9f1ce6bae1b",
+      "matched_ids": 12
+    },
+    {
+      "path": "AGENTS/FLG/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "416628c68461eb49c7b2a402b5e7933a3d38c662",
+      "matched_ids": 3
+    },
+    {
+      "path": "AGENTS/FOREX/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": false
+    },
+    {
+      "path": "AGENTS/HANS/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "91c301279f356c1fe64013258c649bfa8a3d7617",
+      "matched_ids": 9
+    },
+    {
+      "path": "AGENTS/HAWK/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "e3942101611cbe4f3622ca1191ca523687f1f54b",
+      "matched_ids": 0
+    },
+    {
+      "path": "AGENTS/HAWK/thesis/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "85ca0a1af4700a00952fce06a92b36023aa4fb61",
+      "matched_ids": 22
+    },
+    {
+      "path": "AGENTS/HAWK/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "91c301279f356c1fe64013258c649bfa8a3d7617",
+      "matched_ids": 15
+    },
+    {
+      "path": "AGENTS/HENRY/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "370f5e06756e69fb236edb4ec46e33d7eaa3d9c7",
+      "matched_ids": 1
+    },
+    {
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "91c301279f356c1fe64013258c649bfa8a3d7617",
+      "matched_ids": 42
+    },
+    {
+      "path": "AGENTS/HOMER/thesis/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "ef35d5ed00babae2ee420d9b1c8f5ac2e1deeedc",
+      "matched_ids": 2
+    },
+    {
+      "path": "AGENTS/LABOR/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "91c301279f356c1fe64013258c649bfa8a3d7617",
+      "matched_ids": 19
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "91c301279f356c1fe64013258c649bfa8a3d7617",
+      "matched_ids": 7
+    },
+    {
+      "path": "AGENTS/MARCO/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "e3942101611cbe4f3622ca1191ca523687f1f54b",
+      "matched_ids": 13
+    },
+    {
+      "path": "AGENTS/MARCO/sub_agents/BORDER/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "3153bce0689c7420d2837650963b6f49a089fd4d",
+      "matched_ids": 4
+    },
+    {
+      "path": "AGENTS/MARCO/sub_agents/HOUSING/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "bc68d1aa9da4b34a97f210cb00de9f10a04ce6d0",
+      "matched_ids": 3
+    },
+    {
+      "path": "AGENTS/MARCO/sub_agents/MIGRATION/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "4f9c441bd7d051fda795ac3c864b479ff430a124",
+      "matched_ids": 4
+    },
+    {
+      "path": "AGENTS/MARCO/sub_agents/TOURISM/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "ce9b360e8a22100ae7839d0ae65d21f95a0d306e",
+      "matched_ids": 6
+    },
+    {
+      "path": "AGENTS/MARCO/sub_agents/WORKFORCE/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "e5c320ccb7b1e72559ff2f11e2a9ec5bf4ed6240",
+      "matched_ids": 4
+    },
+    {
+      "path": "AGENTS/MARCO/thesis/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "cb51dbe714d940676207dcf3a2757d146efb617e",
+      "matched_ids": 16
+    },
+    {
+      "path": "AGENTS/MARCO/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "91c301279f356c1fe64013258c649bfa8a3d7617",
+      "matched_ids": 10
+    },
+    {
+      "path": "AGENTS/MIDAS/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "f6199a725d6524dc996d0ebc4bef79c31917f45e",
+      "matched_ids": 10
+    },
+    {
+      "path": "AGENTS/OSPREY/thesis/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "3fb46ebdf422988908ce24141628ab529ccf135f",
+      "matched_ids": 6
+    },
+    {
+      "path": "AGENTS/OTTO/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "e3942101611cbe4f3622ca1191ca523687f1f54b",
+      "matched_ids": 13
+    },
+    {
+      "path": "AGENTS/OTTO/archive/PREDICTIONS_root_pre_20260415_reformat.tsv",
+      "class": "ROTATION",
+      "searched": true,
+      "file_birth_commit": "0bc51c74d346e372ed99390cb1e0087648958d1d",
+      "matched_ids": 15
+    },
+    {
+      "path": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "65b899ca4b79b82821fbcc2d3ab3b1122577ee8c",
+      "matched_ids": 20
+    },
+    {
+      "path": "AGENTS/OTTO/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "91c301279f356c1fe64013258c649bfa8a3d7617",
+      "matched_ids": 17
+    },
+    {
+      "path": "AGENTS/OZK/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "07d6e6d8c0b72bd6fdd0350455855395c941afc5",
+      "matched_ids": 9
+    },
+    {
+      "path": "AGENTS/RED/archive/superseded_workbook/PREDICTIONS_thesis_unreconciled_PRE-ML-RED-068.tsv",
+      "class": "ROTATION",
+      "searched": true,
+      "file_birth_commit": "63dca04efd2028ab22d480d9c1963aeb9aa9274a",
+      "matched_ids": 14
+    },
+    {
+      "path": "AGENTS/RED/thesis/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "bb72e1e080e4403ffdcddfd55f28c0191f271467",
+      "matched_ids": 14
+    },
+    {
+      "path": "AGENTS/RED/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "8f1dfc559791f41fa0a97453c466e23fc00789b4",
+      "matched_ids": 24
+    },
+    {
+      "path": "AGENTS/REGINALD/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "65e054448dfd83ae1a599bafd8fdc0e7c84a3097",
+      "matched_ids": 19
+    },
+    {
+      "path": "AGENTS/REGINALD/archive/sub-agents/CREED/workbook/PREDICTIONS.tsv",
+      "class": "ROTATION",
+      "searched": true,
+      "file_birth_commit": "a7bae0d06ff7a228bd44efd1b84e6e050bdbdfe0",
+      "matched_ids": 0
+    },
+    {
+      "path": "AGENTS/REGINALD/archive/sub-agents/RENO/workbook/PREDICTIONS.tsv",
+      "class": "ROTATION",
+      "searched": true,
+      "file_birth_commit": "abecb2b8a2dcd09403c34edb6df90f374063820d",
+      "matched_ids": 0
+    },
+    {
+      "path": "AGENTS/REGINALD/archive/sub-agents/TEX/workbook/PREDICTIONS.tsv",
+      "class": "ROTATION",
+      "searched": true,
+      "file_birth_commit": "abecb2b8a2dcd09403c34edb6df90f374063820d",
+      "matched_ids": 0
+    },
+    {
+      "path": "AGENTS/REGINALD/sub-agents/BROCK/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "91c301279f356c1fe64013258c649bfa8a3d7617",
+      "matched_ids": 0
+    },
+    {
+      "path": "AGENTS/REGINALD/sub-agents/CREED/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "91c301279f356c1fe64013258c649bfa8a3d7617",
+      "matched_ids": 0
+    },
+    {
+      "path": "AGENTS/REGINALD/sub-agents/RENO/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "91c301279f356c1fe64013258c649bfa8a3d7617",
+      "matched_ids": 0
+    },
+    {
+      "path": "AGENTS/REGINALD/sub-agents/TEX/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "91c301279f356c1fe64013258c649bfa8a3d7617",
+      "matched_ids": 0
+    },
+    {
+      "path": "AGENTS/REGINALD/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "91c301279f356c1fe64013258c649bfa8a3d7617",
+      "matched_ids": 20
+    },
+    {
+      "path": "AGENTS/REITS/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": false
+    },
+    {
+      "path": "AGENTS/SAM/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "e3942101611cbe4f3622ca1191ca523687f1f54b",
+      "matched_ids": 8
+    },
+    {
+      "path": "AGENTS/SAM/thesis/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "42c03829e3ee959af8e7446ceccacf54148ef9db",
+      "matched_ids": 35
+    },
+    {
+      "path": "AGENTS/SAM/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "91c301279f356c1fe64013258c649bfa8a3d7617",
+      "matched_ids": 7
+    },
+    {
+      "path": "AGENTS/VIOLET/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "39a3a1038c408b5dee8f8eba59def813827d10c8",
+      "matched_ids": 6
+    },
+    {
+      "path": "AGENTS/VULCAN/archive/PREDICTIONS_RESOLVED_2026-09.tsv",
+      "class": "ROTATION",
+      "searched": true,
+      "file_birth_commit": "28f74d73554bda3105d05b2ce499e9afabc95176",
+      "matched_ids": 8
+    },
+    {
+      "path": "AGENTS/VULCAN/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "c5c055f82e277c13b426850f754783b39910fc15",
+      "matched_ids": 17
+    },
+    {
+      "path": "AGENTS/WAL/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "1ddd8237f64739cc7c2d2320b5febf5dcf2fb499",
+      "matched_ids": 3
+    },
+    {
+      "path": "AGENTS/WATT/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "11dee840617a470062259211119793b57030dcdc",
+      "matched_ids": 12
+    },
+    {
+      "path": "AGENTS/WATT/workbook/PREDICTIONS_ARCHIVE.tsv",
+      "class": "ROTATION",
+      "searched": true,
+      "file_birth_commit": "3174911ef0423a824bcd970fa770d7e08d35d636",
+      "matched_ids": 8
+    },
+    {
+      "path": "AGENTS/ZHAO/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": true,
+      "file_birth_commit": "91c301279f356c1fe64013258c649bfa8a3d7617",
+      "matched_ids": 18
+    },
+    {
+      "path": "AGENTS/_archive/BUFFER/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": false
+    },
+    {
+      "path": "AGENTS/_archive/EARNINGS/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": false
+    },
+    {
+      "path": "AGENTS/_archive/FOREX/workbook/PREDICTIONS.tsv",
+      "class": "LIVE",
+      "searched": false
+    }
+  ],
+  "limits": [
+    "Fixed v3 population, not a new census of every historical forecast.",
+    "Claim, made-date, window and resolution/invalidation text differences are flagged, not semantically adjudicated; benign formatting can also differ.",
+    "Earliest ledger occurrence is not proven registration; STATUS/Markdown histories are not mined.",
+    "Malformed first rows retain the numeric value in the probability slot as a candidate; they are excluded from history scoring.",
+    "Recorded probabilities are manually reviewed source annotations; unreviewed values stay UNKNOWN.",
+    "Unknown eligibility remains explicit; sensitivity views are not verified calibration cohorts.",
+    "Outcome/date classification otherwise retains v3 heuristics; outcomes not externally audited.",
+    "In-sample baselines and mixed desks/horizons cannot establish forecast skill."
+  ]
+}

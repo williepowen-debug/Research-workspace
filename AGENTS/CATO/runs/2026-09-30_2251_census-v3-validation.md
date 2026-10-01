@@ -2,6 +2,8 @@
 
 ## Current assessment
 
+**Approved repair completed (September 30):** [v4 and reproducible outputs](2026-09-30_2251_census-v4/README.md) separate probability vintages, recover predecessor/archive history, and honor inspected exclusions. All 534 original keys retained; 19 author tests pass. On the same 125 rows, current-cell Brier is **0.2463568**, earliest-candidate Brier **0.2546672**, and the in-sample baseline **0.249216**. These remain descriptive sensitivities, not verified registration-time performance. Recommend stopping broad historical reconstruction and using a small explicitly defined cohort for the next measurement step. That next step is not commissioned or started. Original validation below remains historical evidence.
+
 **The supplied outputs reproduce exactly, but v3 is not a validated measure of fleet forecasting performance or published-score inflation.** Repair the existing extraction before using its rankings or its apparent crossing of the baseline. Three material defects are demonstrated: current confidence is labelled as the probability actually scored; the historical lookup misses recoverable earlier values and can prefer an archive over older live history; explicit calibration exclusions are ignored.
 
 This is useful, inspectable work. Its mutually exclusive counts reconcile and the BOND rotation recovery is real in the checked population. Those strengths do not certify the scoring inputs. No replacement fleet performance number is offered: the bounded sample establishes defects, not their complete net effect.
@@ -97,6 +99,8 @@ This is not stale-checkout behavior: the exclusion instruction is in the exact p
 
 ## Delivery and resume
 
+This original validation disposition is superseded by the approved repair below.
+
 Recommended next work is a bounded correction to this existing census covering CV1–CV3, followed by the saved witnesses and one pinned rerun. Do not commission a new scoring framework or alter desk probabilities merely to make the export easier. No corrected fleet ranking, capital decision or desk-closure decision follows from this review.
 
 **CATO assignment complete on delivery.** Original critic artifacts remain unchanged, copied and hashed in CATO's report directory; validation code and evidence are CATO-authored. No critic/system implementation was performed. Resume: orient and await Will. Routine delivery checks and Git receipt are recorded below/in-session.
@@ -104,3 +108,56 @@ Recommended next work is a bounded correction to this existing census covering C
 Delivery checks: source-copy SHA-256 verification and local Markdown links passed; root weekday check passed for DOCKET/GATES/WILL_QUEUE; CHARTER/CONTINUITY/local AGENTS remain below the 32,550-byte startup cap by direct measurement. No STATUS, canonical metric or auto-memory was changed, so consumer/ledger/memory checks were not triggered. The orphan advisory found concurrent `PROME/tools/board_scan.py` work, not CATO-authored; left untouched and disclosed to Will. Exact-path CATO delivery only. No hosted publication attempted; fresh-fetch push receipt in-session.
 
 Whitespace inspection: `git diff --cached --check` returns 2 solely for preserved tabular output: 535 rows-file flags and 41 summary-file flags (original CRLF/tabular formatting), plus five replay-stdout rows with empty trailing TSV fields. Retained deliberately for byte identity and field preservation; CATO-authored report/validator and other evidence files have no whitespace flags. This is formatting residue, not a failed computational check.
+
+## September 30 — approved bounded repair
+
+Acceptance conditions, recorded before implementation:
+
+- Preserve original files/hashes, the 534 `(desk, ID)` population and exact pin. Read Git objects so concurrent workspace edits cannot change results. No owner edits or messages.
+- Separate current-cell, explicitly recorded grading and earliest recoverable ledger probabilities. Unknown grading probability stays unknown. Evidence annotations name exact sources and fail if those sources change.
+- Search predecessor/archive paths chronologically, retain source commit/path, and compute file-birth uncertainty from that source. Detect claim/identity differences and same-ID conflicts; never borrow a different desk's row. Unknown registration remains unknown.
+- Preserve full source fields. Flag malformed TOUR rows, pending OTTO-10 and excluded OTTO-06. Reconcile exclusions; reproduce OTTO-29/32 recorded grades and the saved OTTO/VULCAN/BOND history cases.
+- Test ordinary histories, moves, duplicates, wrong desk, absent/invalid probabilities, changed claims, explicit exclusions and pending evidence. Synthetic history tests use isolated repositories. Tests are author work, not independent review.
+- Save a row comparison and pinned rerun with separate denominators for every view. Stop after repair and limits; no new framework, external outcome audit, capital decision or desk ranking.
+
+### Implementation and closure
+
+Will's direct approval was “ok approved go ahead,” following the recommendation to repair the three demonstrated extraction defects and stop after a pinned comparison. Starting shared HEAD was `0b506c77f`; all analytical source reads remained pinned to `e70f558f4`. No owner edits, sends, launches, new fleet requirements, external outcome reads or hosted publication. Concurrent PROME/CREED edits were left untouched. CATO authored the implementation and tests: this follow-up is author repair/verification, not independent review.
+
+**CV1 implemented/tested:** `p_current`, `p_recorded_grade` and `p_earliest_observed` are separate. Twenty-five explicit grading probabilities were transcribed from inspected source statements, not inferred from current cells. Each annotation has the exact source path, full-file SHA-256 and supporting quote; a changed source/quote, out-of-range value or contradictory annotation fails. Fifteen of those rows have an extracted binary outcome and no recorded exclusion. OTTO-29 now gives 0.5625 at 75%; OTTO-32 gives 0.0225 at 85%. OTTO-04's 75% instruction is retained alongside its explicit no-calibration-credit disposition, so it contributes no score. Seven formerly scored cells beginning `SCORE AT` move out of the current-belief view and remain in the recorded-grading view. No uninspected row is assigned a grading probability by default.
+
+**CV2 implemented/tested:** historical prediction-ledger paths reachable from the pin are searched, including deleted workbook/root predecessors. Ancestry precedes path sorting; same-commit ties prefer an established file, then LIVE, and disagreements stay flagged. Exact source path/commit and source-file-birth commit are retained. The chosen first commit changes for **145 rows**; the earliest numeric candidate changes for **17 rows** (full list in checks.json). OTTO-05 recovers 60%, OTTO-29 75%, OTTO-30 60%; VULCAN-01 moves back to July 10; BND-01 moves back to the March 27 workbook and is correctly flagged as already present at that source's birth. OTTO-30's owner-specified grade remains 65%, separate from the recovered 60% candidate; no forced reconciliation or probability overwrite.
+
+The prior OTTO-05 witness itself has eight fields under nine historical headers. **121 earliest rows have a field-count mismatch**. V4 retains their numeric-slot candidate and original fields but excludes them from history scoring. Claim, made-date, window and resolution/invalidation text differences also cause exclusion from the historical view. This catches the unchanged-title/different-window problem (for example CRL-07's May–June versus June–August window), at the cost of also excluding benign formatting and archival-pointer changes until someone checks semantics. Same-commit copies with different specification text remain contested rather than resolved by a filename. These limits are data dispositions, not grounds to manufacture original forecasts.
+
+**CV3 implemented/tested:** current schema errors, pending verification and explicit ineligibility are separate from non-binary/unknown status. OTTO-06 is excluded; OTTO-10 is pending verification; TOUR-02/04 are schema errors. The inspection also found BRENT's file-header exclusion of BRT-06, which v3 counted. Source statements for these and other explicit unscored rows are preserved in annotations; no broad keyword heuristic treats a conditional exclusion or another prediction's mention as this row's disposition. Full current cells and all first-path candidates are saved in JSONL, including Notes; every row is traceable to a Git blob. Unknown eligibility remains UNKNOWN even where a sensitivity can be calculated.
+
+### Pinned results and interpretation
+
+All metrics below use probability fractions 0–1. Each baseline is that row set's realized base rate times one minus the base rate, not an ex-ante benchmark. Distinct denominators mean the top rows are **not** an apples-to-apples forecast-skill comparison.
+
+| View | n | Brier | Its in-sample baseline |
+|---|---:|---:|---:|
+| Original v3 current cells | 235 | 0.242100 | 0.249887 |
+| Original v3 purported first probabilities | 234 | 0.253288 | 0.249836 |
+| V4 current-cell sensitivity | 225 | 0.232909 | 0.249402 |
+| V4 earliest candidates, passing structural/identity checks | 130 | 0.263868 | 0.249763 |
+| **Same 125 rows: current cells** | **125** | **0.246357** | **0.249216** |
+| **Same 125 rows: earliest candidates** | **125** | **0.254667** | **0.249216** |
+| Inspected owner-specified grading subset | 15 | 0.363113 | 0.195556 |
+
+The last row is a deliberately selected subset rich in explicit scoring corrections, **not a representative estimate of fleet performance**. The 25 specified values include still-open instructions; only 15 contribute to this descriptive resolved view. The decrease from 235 to 225 current-cell rows is exactly three recorded exclusions (BRT-06, OTTO-04, OTTO-06) plus seven scoring-instruction cells. It is not evidence that forecasts improved. The matched 125 rows remove probability-view denominator differences, but **six were first seen non-OPEN and 15 were already present at source-file birth** (flags may overlap). They still cannot be described as verified original forecasts. No row's `p_registration` is certified by this pass; UNKNOWN there means validation not performed, not proof that recovery is impossible.
+
+The 534 population dispositions reconcile: 225 binary/current numeric; 36 binary/no current numeric; 90 open/not due; 36 open/overdue; 38 open/undated; 53 explicitly ineligible; 53 non-binary or unknown status; two schema errors; one pending verification. View-specific probability availability and historical uncertainty are separate fields, so a row need not participate in every numerical view. The original 534/235/299 figures remain the preserved v3 output, not silently replaced counts.
+
+**Remaining limits:** source annotations are a bounded inspected set, not a general prose grader; untouched eligibility is unknown. Status/outcome and due-date parsing otherwise retain v3's heuristics. Historical search covers prediction TSV names under their recorded desk identity, not every STATUS/Markdown document, arbitrary filename or owner rename. Differences in claim/specification text are not semantically adjudicated. No external outcome validation, independent forecast baseline, uncertainty interval, dependence adjustment or comparable-horizon cohort was supplied. None of the averages establishes advantage, absence of advantage, deliberate score inflation or a basis for closing a desk.
+
+### Verification and stopping decision
+
+[19 author tests](2026-09-30_2251_census-v4/test-results.txt) pass: source-bound annotations, malformed/long rows, missing/invalid/tier probabilities, instruction versus live value, exclusions/pending evidence, moved/deleted files, wrong desk, duplicate/conflicting IDs, changed windows/resolvers, dirty-working-tree isolation, and pinned OTTO/BOND/VULCAN/TOUR witnesses. Synthetic Git histories live only in temporary directories. Separate [Decimal checks](2026-09-30_2251_census-v4/checks.json) independently recompute all fleet-view arithmetic, verify the fixed 534-key population, exclusion treatment, probability bounds and script/input hashes. Original v3 source hashes remain unchanged.
+
+The tests initially exposed two handling details that were repaired: a malformed historical row must retain its observed probability candidate while remaining unscored; same-commit identical copies should prefer the established ledger rather than an archive's filename. A final related-case check added window/resolver-text differences to the history exclusion conditions. Final artifacts come from the last pinned rerun; no earlier intermediate output is published as final.
+
+**Return and stop:** the repair produces traceable rows and demonstrates that the v3 fleet verdict was not warranted. It has not demonstrated forecasting or trading benefit. Broad historical reconstruction would now require semantic and outcome adjudication, beyond another parser patch. Stop this assignment. Recommend a small explicitly defined cohort with verified registration, resolution evidence and an ex-ante benchmark; use a prospective cohort if the chosen historical records cannot support it. No further implementation or cohort study is implicitly approved.
+
+Delivery checks: root orphan advisory identified concurrent non-CATO work, left untouched and disclosed to Will; root weekday check passed. No STATUS or auto-memory edits, no canonical owner metric overwritten, and no old numerical claim silently superseded: v3 remains historical and v4 views have separately named populations. Accordingly ledger/memory/consumer-update checks are not triggered. Local report/README links, source/code hashes and startup-byte limits passed (CHARTER 9,921; CONTINUITY 13,130; local AGENTS 4,278 bytes). Exact CATO working-tree/staged whitespace checks passed. The full-tree diff also flags trailing empty TSV fields in concurrent PROME ORCH_LOG work; left untouched. Exact-path commit and fresh-fetch delivery receipt are reported in-session; no independent-review or hosted-publication claim.
