@@ -1,5 +1,5 @@
 # PROME/state/board_consumed.tsv — every BOARD signal file board_scan.py has consumed.
-# One row per FILE: <file stem><TAB><class><TAB><blob consumed at>  (A = PROME on action, acknowledged · I = info · O = not routed to PROME · U = unreadable, acknowledged by hand).
+# One row per FILE: <file stem, percent-encoded><TAB><class><TAB><blob consumed at>  (A = PROME on action, acknowledged · I = info · O = not routed to PROME · U = unreadable, acknowledged by hand).
 # Written ONLY by `board_scan.py --advance` / `--seed-from-cursor`; never hand-edit. A file absent from this list is unconsumed and surfaces at the next scan once it is published (committed).
 SIG-W-20260410-001-cpi-umich-stagflation	O	81d201c8edd393bf599fd0eb7907ac912c7f0329
 SIG-W-20260411-001-red-falsification-hy-oas-pierced	O	4fa568584feb2aa3fe5214f5e489d853f1da80da
@@ -1113,3 +1113,6 @@ SIG-W-20260930-004-trepp-self-storage-cmbs-refi-sensitivity-three-loans-carry-98
 SIG-W-20260930-005-HYPOTHESIS-osint-smoke-plume-at-an-aramco-site-west-of-abqaiq-from-0645z-9-30-no-saudi-aramco-or-wire-confirmation-abqaiq-plant-hit-NOT-established	O	4ab06108a6c0d89ed5345b8b8d84feacc421d9e8
 SIG-W-20260930-006-diesel-tightness-three-supply-items-one-day-oct-ho-expiry-squeeze-224-bbl-per-rory-johnston-mrpl-cancels-diesel-jet-export-tenders-after-unit-fire	O	193fd262d9d789e844a6514de442d90c0a29c047
 SIG-W-20260930-007-radiant-world-now-faces-a-swiss-criminal-complaint-mariner-50m-jefferies-lam-trade-finance-fund-already-suing-for-500m-second-verified-jefferies-fund-fraud-exposure	O	39abab55297e0d651e2b163da736d70c5bccb386
+SIG-W-20261001-001-hormuz-hits-resumed-ukmto-four-tankers-struck-9-28-9-29-none-sunk-no-casualties-gate-2-untouched	O	cf7d6754c085820b23e2d71e55c37e6d72bbf706
+SIG-W-20261001-002-us-response-to-iran-7-day-plan-delivered-doha-9-29-iran-confirms-sequencing-gap-axios-rubio-expulsion-order-9-28-iran-denies	O	0538ea9183b5340bfff2937647a0b573c8b0588b
+SIG-W-20261001-003-UPDATE-0930-005-plume-origin-45km-west-of-abqaiq-ghawar-ain-dar-area-attack-NOT-established-bu-hasa-fire-claim-indeterminate	O	b28a904ca79e0879a22bc9225fc6038000c40b5e
