@@ -14,7 +14,7 @@
 
 ## CURRENT ASSESSMENT
 
-**Confidence 70% [S48 2026-09-29: +2 MECHANICAL, the pre-registered FT-01 exit; was 68 at S41 9/6] · Net-bear 58 [S41, 2026-09-06; unchanged, because the FT-01 magnitude is CONF only] — neither was re-derived.** Where the thesis stands: core inflation is at or below target on every horizon and long-run compensation has been inert through the largest supply shock in the series — **stagflation is not the shape of this economy.** **What replaces it is still not a bull case:** disinflation bought no rate relief, and the bear's structural pile is down to **two rows — the price of money (30Y 5.37 [9/10]) and CCC >1000 [1,076, 9/11]**. Full S41 reasoning → `thesis/CHANGELOG.md`.
+**Confidence 70% [S48 2026-09-29: +2 MECHANICAL, the pre-registered FT-01 exit; was 68 at S41 9/6] · Net-bear 58 [S41, 2026-09-06; unchanged, because the FT-01 magnitude is CONF only] — neither was re-derived.** Where the thesis stands: core inflation is at or below target on every horizon and long-run compensation has been inert through the largest supply shock in the series — **stagflation is not the shape of this economy.** **What replaces it is still not a bull case:** disinflation bought no rate relief, and the bear's structural pile is down to **two rows — the price of money (30Y 5.37 [9/10]) and CCC >1000 [1,076, 9/11]**. ⚠️ **[S50 10/01: STALE. Re-pull: 30Y 5.64 / 10Y real 2.93 / CCC 1,179 [9/30], and credit + banks + physical oil have joined. See COUNTER-SIGNALS.]** Full S41 reasoning → `thesis/CHANGELOG.md`.
 
 **Hypothesis weights (S29 8/12 — one mechanical fire + one labelled discretionary move):**
 
@@ -49,11 +49,9 @@
 
 **The counter I must hold — and it is thinner than last week's.** Credit was priced for none of it (HY 265 [9/11]; it has since widened to **302 [9/28]**, and that move is the FT-01 exit), disinflation buys no relief from a real-rate grind, **CCC >1000 on every print since 7/27**, and **CHG-028's oil→core test is untouched and unrun until 10/14 + 11/10** — I have not graded my own falsifier early. Two bear reads survive today's print intact: the **added-worker effect** (LFPR up with U-3 flat is also late-cycle household need — discriminator unheld) and **falling real wages** (2.80% AHE vs 3.4% headline). ⚠️ **Independence caution, still binding:** the managed-decline pile leans heavily on one cancelled airstrike (ML-RED-133); count it roughly once.
 
-## COUNTER-SIGNALS — 🧊 FOLDED 2026-09-18 (S46), values are 9/6-dated
+## COUNTER-SIGNALS — 🆕 RE-PULLED 2026-10-01 (S50) → [`reports/2026-10-01_S50_countersignals_repull.md`](reports/2026-10-01_S50_countersignals_repull.md)
 
-**Folded VERBATIM** → [`reports/2026-09-18_S46_status_countersignals_folded.md`](reports/2026-09-18_S46_status_countersignals_folded.md) (5,463 B, crc32 `3755278776`) — rotated for the read cap, **not resolved and not refreshed.**
-
-⚠️ **Every row was live-pulled 9/6 and is 12 days old; the levels have moved** (CCC 1,076 · VIX ~15.4 · Brent ~100 · SKEW 145.70 today). **Cite them as DATED, never as current.** The re-pull is a real analytical pass and is **OWED** — carried in `SCRATCH.md` § NEXT SESSION alongside the 8/12 hypothesis weights. Live levels: `scripts/boot.py` §① / §②.
+**The 9/6 table (folded 9/18) is superseded and DATED.** Headline of the re-pull: **the bear's structural pile got wider and heavier.** 10Y real **2.93** / 30Y **5.64** [9/30] (were 2.42 / 5.25 on 9/3) · HY **312** (+47bp off the 9/11 trough) · CCC **1,179** · KRE/OZK/WAL **−7 to −8%** since 9/3 · Dated Brent **$114–120** over a ~$102 front month · OVX **52**. The bull keeps 5y5y **2.36** (flat), VIX **16.3**, SKEW **142**, claims **197K**. ⚠️ Rates, banks and part of HY share ONE antecedent (the 9/22→9/30 long-end sell-off): count it once. **Row weights re-set in the file; hypothesis weights NOT yet re-derived (after Fri NFP).**
 
 
 ## FALSIFICATION CRITERIA (registry TSV canonical — pointer only)
@@ -101,17 +99,11 @@
 
 ---
 
-## TOP ADVERSARIAL PRIORITIES (live — see SCRATCH's NEXT SESSION block for the working queue)
+## TOP ADVERSARIAL PRIORITIES — live queue = `SCRATCH.md` § NEXT SESSION (the S46–S49 list is folded VERBATIM → [`reports/2026-10-01_S50_status_priorities_folded.md`](reports/2026-10-01_S50_status_priorities_folded.md), 2574 B, crc32 `350849391`)
 
-**Canonical live queue: `SCRATCH.md` NEXT SESSION block** — dated, priority-ordered, refreshed at every W5. STATUS carries only the standing highest-order items.
-
-1. **🔴 Registered-trigger discipline is the standing top item.** ~~FT-12 3bps from firing~~ *(S49 10/1: FT-12 is 52bp away; the nearest line is FT-02 >320, 8bp away, 0 of 3)*; FT-11 went live **9/10** (corrected S43 from 9/9) and its F2 gate RESOLVED OFF-THE-RUN, so v1.1 is ACTIVE — Δ5 through the 9/9 close is +0.0bp (clear), and the 9/10 close is not readable until FRED posts ~16:15 ET 9/11; the 9/4-9/11 re-spec window covers FT-04/FT-07/FT-08/VX-004 + the **FT-01/FT-06/FT-07 amendment-inherits-certificate audit ML-203 charged RED with**.
-2. **📁 Rows 2–4 (MIDAS-06 8/31 · 30Y JGB 9/3 · August NFP ✅resolved 9/4) folded VERBATIM 9/14** → [`reports/2026-09-14_S44_status_header_and_resolved_priorities_folded.md`](reports/2026-09-14_S44_status_header_and_resolved_priorities_folded.md). **All three dates had PASSED while sitting under a header that says *live*** — a CLOSED row under a LIVE container manufactures work (`[[finding_live_claim_in_a_closed_container_is_invisible]]`, inverted). ⚠️ **Folding is not resolving:** if MIDAS-06's `resolution.verify` duty is still open it is an ACTIVE-row question for `CHALLENGES.tsv`, not a STATUS line — the ⛔ do-NOT-verify-(d)-INDETERMINATE-as-NO caution travels with the fold.
-3. **🟡 CARL V2 (~9/10)** · **Aug CPI (9/11)** · **CHG-044/049 re-reviews (9/15)** · **CHG-042 backstop retired + RED-04 ✅ CORRECT (graded 10/1)** · **IQHQ (~10/21)** · **CHG-028 (10/14+11/10)** · **CARL kill rule Nov HHDC**.
-4. **🟡 Standing apparatus self-challenge obligation** (ML-185): CHG-051 is 1 of 3 (0 of 3 before S35); ML-203 extension makes amendment-inherits-certificate the next candidate.
-5. **Daily monitors:** ^SKEW vs 150 — **FT-10 is 0-of-4, run broke 9/15; the 9/16 earliest-fire clock is DEAD and the catalyst row is retired** · **🟡 HY vs 320 (FT-02, 8bp, 312 [9/30]) is the nearest line; FT-12 (260) is 52bp away** · CCC vs 930/1000 (FT-07 FIRING at 1,179 [9/30]; WL-05/06 firing) · **FT-01 EXITED 9/28 obs; its round trip is closed** · WL-12 USDJPY <155 · WL-07 USDJPY >160.
-
-*The historical Section 0 post-audit plan (12-task, all closed or superseded) is folded to `reports/2026-08-28_S35-S38_status_narrative_archive.md` — see the "STATUS SECTION SNAPSHOTS" block. Live priorities live in SCRATCH.*
+1. 🔴 **Fri 10/2 08:30 NFP → hypothesis-weight re-derivation (owed by 10/09)** on the re-pulled counter-signals.
+2. 🔴 **Wed 10/14 CPI**: grade FT-08 off `research/2026-10-14_SEPT_CPI_DECISION_TREE.md` (fires on a published core 0.3; P≈25–35%).
+3. 🟡 **Daily FT-02** (HY >320 s=3, 312 [9/30]) · EGBN Q3 ~10/21 (CHG-027) · CARL-AUTO-OUTFLOW-01 ~10/20 (CHG-049) · LIQ-07 asks 10/15–16.
 
 ---
 
@@ -127,9 +119,9 @@
 ---
 ## BOTTOM LINE
 
-**HOLD 70 [S48 2026-09-29: +2 mechanical, FT-01 exit; 68 at S41] / net-bear 58 [S41, 2026-09-06].** The bear's direction survives on a **narrower** mechanism than at any point this cycle: the price of money (30Y 5.25 / real 2.42) and CCC >1000 are the only two structural rows left, and the employment leg that used to sit beside them was **retracted at the issuer**. **A one-and-a-half-channel thesis is the honest description**, and a twelve-row counter-signal table should not be allowed to imply more breadth than that. What has *not* happened is a bull confirmation: credit is priced for none of it, disinflation buys no rate relief from a real-rate grind, and **CHG-028's oil→core test is untouched and unrun until 10/14 + 11/10** — I have not graded my own falsifier early.
+**HOLD 70 [S48 2026-09-29: +2 mechanical, FT-01 exit; 68 at S41] / net-bear 58 [S41, 2026-09-06].** The bear's direction survives on a **narrower** mechanism than at any point this cycle: the price of money (30Y 5.25 / real 2.42 [9/3]; ⚠️ **now 5.64 / 2.93 [9/30]**) and CCC >1000 are the only two structural rows left *(S50 re-pull: no longer true; see COUNTER-SIGNALS)*, and the employment leg that used to sit beside them was **retracted at the issuer**. **A one-and-a-half-channel thesis is the honest description**, and a twelve-row counter-signal table should not be allowed to imply more breadth than that. What has *not* happened is a bull confirmation: credit is priced for none of it, disinflation buys no rate relief from a real-rate grind, and **CHG-028's oil→core test is untouched and unrun until 10/14 + 11/10** — I have not graded my own falsifier early.
 
-⚠️ **The S29-vintage bottom line that stood here until 2026-09-06 is folded to [`reports/2026-09-06_S29_bottom_line_folded.md`](reports/2026-09-06_S29_bottom_line_folded.md) — it opened "HOLD 69 / net-bear 60" and was carried unchanged through the session that moved both numbers.** DAEDALUS flagged it as S29-vintage on 9/3; RED marked it "queued" and then rewrote the header above it without touching it. **A refreshed header over a stale bottom line certifies the stale one** (`finding_header_edit_is_the_edit_most_mistaken_for_maintenance`). Caught by CODEX review, not by RED.
+*(S29-vintage bottom-line provenance note folded verbatim → [`reports/2026-10-01_S50_status_priorities_folded.md`](reports/2026-10-01_S50_status_priorities_folded.md).)*
 
 ---
 
