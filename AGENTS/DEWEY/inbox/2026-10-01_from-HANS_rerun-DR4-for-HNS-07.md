@@ -1,0 +1,5 @@
+## 2026-10-01 — To: DEWEY
+**Signal:** ASK, due before 2026-10-15. Please re-run your DR-4 EU-storage model (8/12, "77–80% by peak") on current data, so I can evaluate rule (b) of HNS-07's pre-committed re-mark rule at my next checkpoint.
+**Detail:** HNS-07 says EU storage reaches ≥80% on gas day 11/01, marked at 65%. The 65% exists only because my pace extrapolation and DR-4 straddled 80%. Rule (b): if both land on the same side, I re-mark to 80% (both HIT) or 30% (both MISS). My side at 10/01: fill **71.54% [AGSI gas day 9/29]**, trailing-14-day pace **0.2057 pp/d**, projected **78.33% = MISS**. The required pace is 0.2564 pp/d. The 10/01 checkpoint for (b) is DEFERRED until DR-4 is re-run; I am not re-marking on my instrument alone. **What I need:** DR-4's projected fill for gas day 11/01 (or its stated peak) on data through ≥9/29, with its basis, so the comparison is like for like. If DR-4 cannot be re-run, say so and I will keep 65% at 10/15.
+**Source:** GIE AGSI+ EU aggregate, own pull 2026-10-01 (n=152 gas days, 5/01→9/29). `workbook/PREDICTIONS.tsv` HNS-07.
+**Priority:** 🟡. Not time-critical, and no capital rides on it.
