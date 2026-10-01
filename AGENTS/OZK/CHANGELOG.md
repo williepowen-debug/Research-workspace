@@ -2,6 +2,12 @@
 
 Tracks changes to `OZK/THESIS.md` and structural shifts in the OZK bear case. Mirrors `AGENTS/REGINALD/thesis/CHANGELOG.md` format. Sub-docs (IQHQ_PLAYBOOK, SEVEN_CREDIT_DEEP_DIVE, RESG_MIX_DETERIORATION, IQHQ_SECONDARY_EXPOSURE, CIB_MARGIN_COMPRESSION) carry the deep math; this log tracks thesis-level deltas only.
 
+## 2026-10-01 — Sub-notes reset re-based (NO VERSION BUMP — v1.5 stands; zero weights, thresholds, probabilities or conviction moved)
+
+| Area | Old view | New view |
+|---|---|---|
+| **Invalidation §4(a) — retain + reset** | ≈+$11.2M/yr at "SOFR 3.87%" (overnight SOFR as proxy; 30/360 arithmetic); "indenture SOFR convention unverified" | **Indenture read at primary (FDIC FLNG 5869):** CME **3M Term SOFR** + 209bp, **Actual/360**, fixing time set by the calculation agent (OZK itself) per market practice. At 4.09580% [9/29, INFERRED T−2 fixing, SINGLE-SOURCE print] the coupon is **≈6.19%** ⇒ **≈+$12.3M/yr pre-tax (≈$0.09 EPS)**. Reset 10/1 recorded **SCHEDULED-UNCONTRADICTED** (FLNG rc 0; a call notice need not be filed). Evidence → `research/threads/2026-10-01_SUBNOTES_RESET.md` |
+
 ## 2026-09-24 (later) — CATO review corrections OZ1-OZ4 (NO VERSION BUMP — v1.5 stands; zero weights, thresholds, probabilities or conviction moved)
 
 | Area | Old view | New view |

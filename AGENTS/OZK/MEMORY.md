@@ -53,7 +53,13 @@
 
 **CHANGES SINCE:** *(leave blank — next boot populates via boot.py)*
 
-### LAST SESSION (2026-09-27 Sun — Will: boot + news catch-up)
+### LAST SESSION (2026-10-01 Thu — PROME L0 spawn `prome-0c`, DOCKET L126 reprice day)
+- **Sub-notes reset:** FLNG rc 0 (182, none after 11981) at 12:14 ET → **SCHEDULED-UNCONTRADICTED**. **Indenture read at primary (FDIC FLNG 5869):** CME 3M Term SOFR + 209bp, **Act/360**, fixing time = calculation agent's market practice (agent = OZK). 3M Term SOFR **4.09580% [9/29]** (SINGLE-SOURCE, global-rates.com) → coupon **≈6.19%** → drag **≈+$12.3M/yr (~$0.09 EPS)**, superseding 9/24's ≈$11.2M (overnight-SOFR proxy + 30/360). Call needs 10–60d holder notice that need not be filed ⇒ rc 0 never "confirmed". Next call 1/1/27 (notice 11/2–12/22). → `research/threads/2026-10-01_SUBNOTES_RESET.md`, KB-241. Live surfaces re-based (STATUS/CALENDAR/THESIS §4/SCENARIOS/WEAKNESSES/CHANGELOG); dated threads left as records.
+- **Firetime "Dec 18" flag:** false-positive drift (the checker reads "Mon D" without a year) on a PAST maturity; full re-read done — Baltimore 2025-12-18 and Boston 2026-02-13 both re-VERIFIED at Q1/Q2 MC; written ISO. New flag 12/22 = the genuine call-notice window end.
+- **Inbox 3→0:** DAEDALUS market.py FYI (no-op) · PROME WQ-295 → cadence **EVENT-DRIVEN** declared + 3 WATCH_FOR phrases (IQHQ · BPRE · Campus at Horton) + IQHQ lane-query gap (cc WALTER) · CREED → Sullivan $72.4M Q4'25 c/o located (W1 fixed), San Carlos card line SUPERSEDED-bannered (KB-232 stands). No WQ-295 R3 verdict packet existed for OZK (OZK had proposed nothing). Packets: REGINALD (drag figure), CREED (reply), PROME, WALTER.
+- **Zero grades/thresholds/weights/conviction moved.** OZK $45.96 live (<$45 band 2.1% away).
+
+### PRIOR SESSION (2026-09-27 Sun — Will: boot + news catch-up)
 - Boot clean (pull up to date; corrections rc 0; 2 inbox unprocessed — DAEDALUS market.py FYI, **PROME WQ-295 cadence ask: owes a `PROME/inbox/` packet, PROME suggests `EVENT-DRIVEN`**).
 - Sweep 9/24→9/27: **quiet.** FLNG rc 0 (none after 11981) · no insider forms after 8/14 · OZK $46.89 / KRE $71.55 (9/25 close) · SI 16.51M @9/15, DTC 17.6 (rising) · no analyst action after 9/8 · Q3 date unannounced · Spur→Apollo still TRD-only · BPRE ~47% below NAV @9/3 (derived; "38%" was Dec-25 vintage, corrected same day) · Horton still UNKNOWN (only listing is stale). → `research/threads/2026-09-27_CATCHUP_SWEEP.md`. STATUS tokens refreshed; **nothing moved.**
 - **PM re-sweep (Will, 17:56 ET):** nothing new — FLNG rc 0, no insider forms, no Q3 date (aggregators still say 10/15, estimate), no IQHQ/Bisnow items after 6/22. Only change: the BPRE discount vintage fix.
@@ -73,7 +79,7 @@
 - **Zero grades/thresholds/weights/conviction moved.**
 
 ### NEXT SESSION — carried from 9/27 (Will offered, not yet approved)
-- **PROME WQ-295 cadence packet** (inbox 9/25): declare `EVENT-DRIVEN` → `PROME/inbox/` — offered to Will 9/27, awaiting his OK. Then process the 2 inbox items to `processed/`.
+- ~~PROME WQ-295 cadence packet~~ DONE 10/1 (EVENT-DRIVEN declared at PROME's spawn).
 - **TODO R2 subdomain refresh**, one file at a time with a checkpoint (LIFE_SCI → GEOGRAPHY → INSIDERS → PRIVATE_CREDIT).
 - **Q3 workout follow-through = DOCKET L520** (TODO D3b).
 
@@ -81,8 +87,8 @@
 
 1. **🔴 TODO C1 — Campus at Horton leasing check (do first).** Question: has anyone leased any of the 770K SF (downtown SD; AllianceBernstein took it back by $130M credit bid, Sep 2025) since the foreclosure? Sources: Bisnow/SD Business Journal/TRD/CoStar-style press, broker listings (JLL/CBRE/Cushman), AllianceBernstein or new-owner releases. Write the answer as SWEPT-AND-EMPTY / FOUND / UNKNOWN with dates and queries → `research/threads/HORTON_LEASING_CHECK.md`. **Moves nothing by itself**: a lease → note for IQHQ_PLAYBOOK §3 (D severity lower); still empty → the 50–65% ($275–360M) D-severity band stands on evidence instead of on a gap.
 2. **TODO R1 — re-derive the $150-300M reserve-build estimate** on the Q2 roster (`Q2_2026_10Q_READ.md` §2; bank-wide vs RESG scopes kept separate) + the SM concentration (5 RESG credits $529M, incl. the $147M condo at 105.6% LTV). Label INFERRED; no grade moves.
-3. **~Sep 30 — Q3 date** → set CALENDAR + boot.py `~2026-10-21`; then **TODO D3 — build the Q3 scoring card** (legs in CALENDAR's Q3 row).
-4. **Fri 10/2 AM — the 10/1 read (DOCKET L463):** `flng_watch.py` → rc 0 = **SCHEDULED-UNCONTRADICTED** (log rc + row count + date) · rc 1 = read the filing · rc 2 = UNKNOWN, re-run. Benchmark 3M term SOFR + 209bp.
+3. **Q3 date (not announced as of 10/1 12:15 ET)** → set CALENDAR + boot.py `~2026-10-21`; then **TODO D3 — build the Q3 scoring card** (legs in CALENDAR's Q3 row).
+4. **Fri 10/2 AM — the 10/1 read (DOCKET L463):** `flng_watch.py` + one web search (Bank OZK subordinated/redemption 9/1–10/2) → rc 0 = **SCHEDULED-UNCONTRADICTED** (log rc + row count + time) · rc 1 = read the filing (call/refi = 🟠 REGINALD+PROME, recalculate per THESIS §4) · rc 2 = UNKNOWN, re-run. Coupon already answered 10/1 (≈6.19%); VERIFY at the Q3 10-Q.
 5. **Oct 6 — Bluerock BPRE webinar** (IQHQ mark/exit talk; context, not a grade).
 6. Carried: TODO C2 SD recorder · C3 Aimco docket · C4 severity comps (Spur deed-in-lieu is a new data point) · C5 Affinius (UNVERIFIED EVENT) · R2 subdomain refresh · R3 $87M date · R4 MI3-population question · P-OZK-1/4/5 Will-gated · FFIEC JWT 2026-11-05 (Will) · charter lines 13/17/19/157/177 still stale (Will-gated; offered 9/24).
 

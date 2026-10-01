@@ -70,7 +70,7 @@ Net EV: $37.45 → $38.97 (+$1.52). Implied overvaluation vs market: 24% → 22%
 3. EPS compresses to $4.75-5.75 (from $6.18).
 4. Dividend maintained under scrutiny; may skip 2026 increase cycle.
 5. IQHQ extends in Aug 2026 with $100-200M fresh sponsor equity (20% weight in full scenario tree).
-6. $350M sub notes reprice Oct 1 2026 as guided; ~$11.2M/yr headwind absorbed *(re-priced 2026-09-24 at SOFR 3.87%; was ~$12.8M at the older SOFR — `CALENDAR.md` Oct 1 row)*.
+6. $350M sub notes reprice Oct 1 2026 as guided; ~$12.3M/yr headwind absorbed *(re-based 2026-10-01 at the actual benchmark, CME 3M Term SOFR 4.09580% [9/29] → coupon ≈6.19%, Act/360; the 9/24 ≈$11.2M used overnight SOFR as a proxy — `CALENDAR.md` Oct 1 row)*.
 
 **TBV Impact:** Slow erosion — TBV $47.15 drifts to $44-47 range by Q4 26.
 

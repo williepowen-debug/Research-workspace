@@ -72,7 +72,7 @@ If the Fed cuts materially (75-150bps by mid-2026), cap rates compress, property
 
 > **⚠️ Q2'26 REFRESH (2026-09-27) — read this before the March-vintage body below.** The body's inputs are **stale**: CET1 11.70%, "$680M/yr earnings", EPS $6.18, and a $43 stock. Its put math refers to the Aug-21 book, **CLOSED 8/21** (both puts expired worthless; see `POSITIONS.md`). Current inputs:
 > - **CET1 11.80%** ($5,300.5M ÷ RWA $44,916.2M, 6/30/26, Call Report RC-R).
-> - **Pre-provision revenue (PPNR) $1,082.6M trailing 4Q.** It is falling: Q3-25 $290.6M → Q2-26 $259.4M (−10.7%). Q2 run-rate ≈$1,037M/yr, less ≈$11.2M/yr from the 10/1 sub-notes reset.
+> - **Pre-provision revenue (PPNR) $1,082.6M trailing 4Q.** It is falling: Q3-25 $290.6M → Q2-26 $259.4M (−10.7%). Q2 run-rate ≈$1,037M/yr, less ≈$12.3M/yr from the 10/1 sub-notes reset *(re-based 10/1 from ≈$11.2M: coupon ≈6.19% on CME 3M Term SOFR, Act/360)*.
 > - **Common dividends ≈32% of net income.** Payout including the $176.6M of buybacks = 57%. A new **$200M buyback** was authorized 6/29.
 >
 > **Stress:** REGINALD's 9/26 bridge puts a **$656M** stress at **0.6× a year of PPNR**, with CET1 11.80% → 10.74–10.76% (~10.3% if the buyback also runs). This desk's probability-weighted reading is ≈$424M (≈0.4×). → `research/threads/2026-09-27_CRE_LOSS_TRANSMISSION_OZK_LEG.md`

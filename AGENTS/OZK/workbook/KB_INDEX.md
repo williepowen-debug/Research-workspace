@@ -75,7 +75,7 @@ Navigate the KB by investigation cluster. Each group maps to a folder or researc
 | **NDFI** *(new)* | 210 | 1 | PRIVATE_CREDIT/ (see also SHADOW_CRE 021–027) | RESG "debt-on-debt"/note-assignment book **~$490M** ("Other" Call category), Q1'26 10-Q primary; the Affinius/SqMile + Claros channel; The Jack = first identified casualty |
 | **ACL_METHODOLOGY** *(new)* | 211 | 1 | THESIS.md v1.5 + IQHQ_PLAYBOOK §3 | Collateral-dependent marking = **appraisal/DCF, not market severity** ($296.6M nonaccrual at FV $281.5M, $250.4M at $0 ALL) = the recognition-deferral engine; drove OZK-09 68%→52% |
 | **CREDIT_MIGRATION** *(extended 9/24)* | 212, 222, 231, 233 | 4 | THESIS.md (Migration Velocity) | Nonaccrual **$181.1M into 60-89d delinquent** (was $5.6M) — paying→delinquent tempo; past-due $465.0M/1.41% (10-Q basis) |
-| **SUB_NOTES** *(new)* | 213 | 1 | CALENDAR.md (Oct 1) | $350M 2.75% notes → SOFR+209 on 10/1/26; **Tier-2 → $280M (−20%) confirmed exactly**; par-callable from 10/1/26 |
+| **SUB_NOTES** | 213, 241 | 2 | CALENDAR.md (Oct 1) | $350M 2.75% notes → SOFR+209 on 10/1/26; **Tier-2 → $280M (−20%) confirmed exactly**; par-callable from 10/1/26 · **241 (10/1): indenture read — CME 3M Term SOFR, Act/360; coupon ≈6.19% → ≈+$12.3M/yr** |
 | **REGIME** *(new)* | 215 | 1 | WEAKNESSES.md C8 | Nov'25 low ($41.42) = **beta to the Oct'25 NDFI-contagion selloff** (Zions/WAL fraud), NOT idiosyncratic; OZK = beta/range name (+6.5% YoY) |
 | **SHORT_INTEREST** *(join)* | 160, 214, 236 | 3 | WEAKNESSES.md C8 | 214 = FINRA bi-monthly baseline (14.7% float 6/30/26, avg 15.1%/peak 18.3% 12mo, year-long grind then re-build); supersedes 160's stale Mar'25 figure |
 
