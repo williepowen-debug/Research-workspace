@@ -678,3 +678,31 @@ The reviewer independently read Dockside's lender-side filing (pp. 2–3) and Su
 3. **DBPR draft narrowed; "never a balance" corrected.** DBPR's SIRS form collects a current reserve BALANCE and planned financing AMOUNTS (DBPR instructions p. 6) — not funded loan balances or losses. The draft now asks for the schema and field metadata (reporting period, submission/update timestamps, amended-record status) plus the nine-entity sample FIRST; a statewide extract is a later, separate step, not requested. **Still NOT sent.**
 
 **Defensible conclusion (substance unchanged):** association distress is documented; bank repair-loan losses are NOT established in the reviewed evidence; **seven unread secured-creditor schedules and two unidentified post-petition lenders materially limit that conclusion**; Avidia is counterevidence, not a Florida-wide verdict. Count descriptive, ungraded. PACER limits unchanged.
+
+## R. 2026-10-01 (Thu) session evidence — catch-up 9/28 late → 10/1
+
+### R1. Parcl MSI pull 2026-10-01 13:34 ET — ⛔ NOT A READING (mixed stamps, amended MSI-01 letter)
+| Metro | MSI | Stamp | Active listings | % cutting |
+|---|---:|---|---:|---:|
+| Tampa | 7.17 | 9/30/2026 | 27,105 | 51.7% |
+| Punta Gorda | 6.45 | **10/1/2026** | 4,123 | 46.6% |
+| North Port | 6.31 | 9/30/2026 | 11,972 | 46.1% |
+| Cape Coral | 5.94 | 9/30/2026 | 13,139 | 44.5% |
+| Lakeland | 6.12 | **10/1/2026** | 8,204 | 46.0% |
+| *Jax / Orlando / Miami (context, 10/1)* | 6.39 / 6.19 / 4.78 | 10/1 | 12,199 / 19,894 / 52,508 | 48.9 / 47.7 / 38.6% |
+- HTTP 200 ×8, curl+UA; MSI from `<title>` and `__NEXT_DATA__ seo.msiValue` (one server object). **Five graded pages carry two stamps ⇒ per the letter "the pull is not a reading — re-pull later."** Values logged as context only; had they been one stamp, 4-of-5 > 6.00 with Cape Coral in the 5.90–6.00 band ⇒ no rule would apply. % cutting = nCutting/totalCount.
+
+### R2. Columbus Center (CREED CASE-CREED-005) — CLOSED by receiver sale; CORAL holds the case (KB ML-CORAL-098)
+Receiver sale deed 2025-03-05, **$76,000,000**, Coral Gables Associates → Alhambra Acquisitions LLC c/o Tourmaline, OR Bk 34662 Pg 4122, qualification "Forced sale; under duress; foreclosure prevention"; assessed 2024 $76.3M · 2025 $64.6M · 2026 $85.0M — **PRIMARY, Miami-Dade PA folio 03-4108-007-2210, re-read by CORAL 10/01.** Filing Oct-2024 ($68.9M loan, $77.4M claimed), receiver Trigild, buyer loan $71.6M Banesco USA — PRESS (TRD, Bisnow). Deficiency: press CONTRADICTS (TRD "doesn't satisfy" vs Bisnow "appears to satisfy") — unresolved. Case no. not found (clerk needs a browser). Reply → `AGENTS/CREED/inbox/2026-10-01_from-CORAL_Columbus-Center-outcome-receiver-sale.md`.
+
+### R3. Dockside at Ventura — 9/29 hearing outcome + CORRECTION (KB ML-CORAL-099; extends § N)
+- **Doc 271 (9/29 4:25 PM, hearing memo, docket text re-read by CORAL at PacerMonitor):** #214 Merlin Law contingency-fee application **continued to 10/27/2026 2:30 PM**; #235 stay-violation damages **under advisement**; #241/#242 (Shelters, Unit #207 structural repair) **under advisement**; ore tenus stay-relief motion (#270) **under advisement**. Nothing decided. No entries 9/30–10/1.
+- ⚠️ **CORRECTION to § N / CALENDAR 9/29 ("no plan in the free record"):** **#261 (9/24) "Limited Objection to Confirmation of Amended Plan" (creditor Rebecca A. Stelow), related to #222** — an amended plan IS pending; #222 sits between #220 (8/17) and #223 (8/18) ⇒ filed ~8/17–8/18 (by docket position, not read). No confirmation hearing date in the free record. The 9/28 statement was a docket-title read that missed #222.
+- **2026 DIP lender: still UNKNOWN** (#238/#247 not free; PACER spend not authorized).
+- **The 2023 lender label STANDS.** A researcher called it "unsourced" after searching the bankruptcy docket only; the source is SFR's own Notice of Removal, 6:24-cv-86 Doc 1 ¶2 (civil docket, read 9/28) — the exact perimeter error recorded 9/28 (MEMORY). Not downgraded.
+
+### R4. Brightline (In re FIHPNP LLC, 26-20876 D.N.J.) — first day 9/29
+Minutes (9/29): claims agent, extension of schedules deadline, utilities (interim; final 10/29 10:00 AM) granted; joint admin + complex-case 9/28. **DIP: PRESS only** — Bond Buyer 9/29: interim **$258M** approved over CK Opportunities Fund's objection; $190M to non-debtor Brightline Trains Florida LLC; final hearing **10/29**. **No schedules filed** for the FL real-estate debtors (Brightline Property Holdings, New Flagler Development, Flagler Management, DT Miami, etc.). **No FL bank** in the top-20 unsecured list or appearances. ⚪ info, unchanged.
+
+### R5. New FL condo/HOA Chapter 11s, 9/26–10/1 — NONE FOUND
+Perimeter: CourtListener, S.D./M.D./N.D. Fla., association-type names from 9/20 + every Ch.11 from 9/26 (8 cases, none an association). Near-miss: *Anderson v. Haven House No. 4, Inc., a Condominium* (S.D. Fla. adv. 26-01346, 9/30) — association is a removed-suit DEFENDANT, not a debtor. Lag risk: feed may trail filings. Count stays **≥9, descriptive, ungraded.**
