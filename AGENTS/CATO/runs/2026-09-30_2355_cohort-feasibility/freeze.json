@@ -1,0 +1,80 @@
+{
+  "frozen_at_utc": "2026-10-01T03:56:25.614413+00:00",
+  "evidence_pin": "e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0",
+  "extractor_commit": "f18929d7324f737a6184470d86db100c480af3d8",
+  "authorization": "Will: authorized. Go ahead. Twelve cases only; no headline performance score.",
+  "selection_rule": "SHA-256 of case-sensitive UTF-8 desk/pred_id without newline, ascending hexadecimal order. Take first 12 of reconstructed critic frame. Keep exact named sample even if membership fails; no replacements.",
+  "frame_rule": "First ledger commit date string Jun 1 through Aug 31 inclusive, with v3 due_date <= Sep 30 or UNKNOWN. Reconstructed critic frame additionally excludes seven open_undated rows.",
+  "provenance_limit": "Critic attachment not located at freeze; reconstructed from preserved v3/v4 exports. Counts and exact twelve IDs match the quoted proposal. Existing scores were already visible; not blind preregistration.",
+  "inputs": {
+    "AGENTS/CATO/runs/2026-09-30_2251_census-v3-evidence/rows_v3.tsv": "a880d3d304acaf3743368227069c46f81d61978529f68cdbc73c8857c02b47f8",
+    "AGENTS/CATO/runs/2026-09-30_2251_census-v4/rows_v4.tsv": "a5d1d4aa5745e1208002ebb8d75fcc1867f4323b9bbe09122966c4865c365553"
+  },
+  "artifacts": {
+    "candidate_frame_152.tsv": "94cfd7e8f3ae1e7a205fed66f124c79b55d949dee248184d5abe9023fb40d086",
+    "critic_frame_145.tsv": "41bc929e54432a28173088673f38e83f4de6f113912af1d733ac3551265d9ef5",
+    "selected_12.tsv": "098e47bed6db22ac71bbb32b8690a3d3a5ce266eb9fd83ccd3de78cb12b30a38"
+  },
+  "selected": [
+    {
+      "desk": "CREED",
+      "pred_id": "PRED-CREED-006",
+      "hash": "01a4d4a5fb9457809f374aad5fad34eda3e398bbd3515837d542377a2210eec1"
+    },
+    {
+      "desk": "RED",
+      "pred_id": "RED-20",
+      "hash": "01e4f8e323883e4dde64e6ae5574ebd0daa9c3071eeee682d4b644e5b114ca5d"
+    },
+    {
+      "desk": "HANS",
+      "pred_id": "HNS-05",
+      "hash": "030e2abab893434dd863e87fd28e9b91293f30c53c037aef4e8bf82f856ab3ba"
+    },
+    {
+      "desk": "OZK",
+      "pred_id": "OZK-06",
+      "hash": "03e6299e0799a0ae25962aca3384561a017e388ec862024027b25b4028f9cf25"
+    },
+    {
+      "desk": "VULCAN",
+      "pred_id": "VULCAN-06",
+      "hash": "05e5876360da52d8568153031beb89e7f7a3fc48a6757144b5e7e0927bf90f16"
+    },
+    {
+      "desk": "VULCAN",
+      "pred_id": "VULCAN-11",
+      "hash": "05f8e3ebd9fa8459878eace5db8844c04dd4570a4bcb8473157f971be4debd11"
+    },
+    {
+      "desk": "FERT",
+      "pred_id": "FERT-08",
+      "hash": "05f9a7762ce9faa9483623b79f59664534f2894e1e8cefd903ff59c5d88c8306"
+    },
+    {
+      "desk": "CRUISE",
+      "pred_id": "CRU-05",
+      "hash": "065f3fc388f9ab746ddb949d1001268a14e051d9a0430e7fec1835bebc319245"
+    },
+    {
+      "desk": "OZK",
+      "pred_id": "OZK-05",
+      "hash": "0805972c7e08a003ee38fb8dcc85cffef3b115a919043b8eea64e6d9020726ec"
+    },
+    {
+      "desk": "FERT",
+      "pred_id": "FERT-10",
+      "hash": "0a14eff680632c0016bbcfee60865005abdc9c71d8bd56a9b41f09ca465d7bdd"
+    },
+    {
+      "desk": "MIDAS",
+      "pred_id": "MIDAS-03",
+      "hash": "0a40c4eaa5584da8f0d9132de42a789bc285697c611a9b4b91f357b4be9a52b8"
+    },
+    {
+      "desk": "HENRY",
+      "pred_id": "HEN-42",
+      "hash": "0e32091e6aaed75ff0638295ee45fa74baf727ff315641dde8e785fa19a5c2b5"
+    }
+  ]
+}
