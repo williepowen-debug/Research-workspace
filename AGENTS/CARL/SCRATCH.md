@@ -44,7 +44,7 @@
 
 ### UPCOMING (this week)
 - **Mon 10/05 THESIS-SCOPE REVIEW.** Agenda now includes: V3 re-scope (HOMER 3c b; a structural change goes to Will); V3/V7/V10 citation refresh (one matrix edit, Check B); the saving-rate re-base as aggregate counter-evidence; five re-dated UNREVIEWED releases (UMich final, Census revisions, CCL Q3, Conference Board, EART Aug 10-D → V2 both-tier card).
-- **CRL-17: CLOSED 10/01, NO-VERDICT-BY-INSTRUMENT** (no published dollar series; the observable links were mixed; invalidation unmet). ⚠️ It forfeits a possible miss: DAEDALUS was asked to rule (packet 10/01). If DAEDALUS rules MISSED, re-token the row.
+- **CRL-17: CLOSED 10/01, NO-VERDICT-BY-INSTRUMENT** (no published dollar series; the observable links were mixed; invalidation unmet). ⚠️ It forfeits a possible miss: DAEDALUS was asked to rule (packet 10/01). **DAEDALUS (10/01, message after consuming `8e93b6dda`): the ruling is dated 2026-10-02, with PR#7, after it reads CRL-16 and CRL-17 at this ledger; the NO-VERDICT token stands until then. CRL-08 (28%) and CRL-27→CRL-31 are recorded on the scoreboard.** If DAEDALUS rules MISSED, re-token the row.
 - **DR-3: DELIVERED and SCORED 10/01 (late in the session):** kill NOT fired; the trade-down half is restored, the premium half is not (staged to RED); CRL-31 unchanged; PS-0005 not invalidated (AZO FQ4 SSS +1.6%). KB-CARL-502. DR-1 RUN/DROP word given to DEWEY (card RUN; BNPL/private-credit DROP; auto in-house).
 
 ### UPCOMING (2 weeks)
