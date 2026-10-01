@@ -1,0 +1,19 @@
+{
+  "author_tests": 10,
+  "result": "PASS",
+  "cases": [
+    "original claim/p survive edits and deletion",
+    "deterministic cap/ties",
+    "nonnumeric first appearance never backfilled",
+    "ambiguous numeric confidence blocked",
+    "malformed new row blocked",
+    "duplicate ID blocked",
+    "missing ledger blocked",
+    "enrollment cutoff",
+    "merge ambiguity blocked",
+    "atomic writes, no regression, concurrent writer blocked"
+  ],
+  "independent_review": false,
+  "setup_completed_utc": "2026-10-01T15:10:16.265289+00:00",
+  "code_scope": "capture only; no automated eligibility or grading"
+}
