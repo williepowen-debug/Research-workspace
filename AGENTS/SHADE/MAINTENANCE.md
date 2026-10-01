@@ -4,6 +4,19 @@ Structural-change log for SHADE architecture: docs/scripts/protocol/schema chang
 
 ---
 
+### 2026-10-01 (~12:1x–12:3x ET) — PROME-spawned (`prome-0c`, WQ-184): STATUS rotation, boot-step 4a grep fix, T-SHADE-01 dated re-read
+
+- **STATUS rotated VERBATIM** → `archive/STATUS_PRE-ROTATION_2026-10-01.md` (orig 32,462 B, crc32 `8f171d07`, **`tail -n +5`** reproduces it — ⚠️ **the banner was first written with `+6` and the crc caught a 15-B shortfall, the IDENTICAL defect of 8/28; fixed before commit, verified by recompute**). New STATUS rewritten as live state only (DAEDALUS PR6 ask 3 / READ_CAP rule 5).
+- **`CLAUDE.md` step 4a:** board_log membership test is now `grep -F "<signal_id>"` — a SEARCH, never a Read (WALTER `SIG-W-20260914-022`). `uniq -d` on col 2 = 0 duplicates.
+- **`CLAUDE.md` §REGISTERED TRIGGERS:** new dated SIGN-LEG reading + State row 2026-10-01 (prior rows kept, relabelled PRIOR) — DAEDALUS PR6 ask 1. Rule added in-row: **use RAW closes — `fetch.py --history` is dividend-ADJUSTED.**
+- **`REFERENCE.md` §5 PHL row:** RICO suit (9/25) registered as allegations.
+- **Inbox: 25 items drained** (4 root + 21 WALTER), 25 `board_log.tsv` rows, all `git mv` to `processed/`.
+- **MEMORY.md NOT rotated** (98% of budget) and **nothing appended** — deferred, owed STATUS §10 #3.
+- **Retirement scan:** not run this session (spawned scope) — carried.
+- **Analytical changes are NOT logged here** — `research/W1_OPACITY_LEGS_AND_CATCHUP_2026-10-01.md` + STATUS §0m.
+
+---
+
 ### 2026-08-28 (~20:55 ET) — CLOSEOUT (Will-directed): full protocol re-run, touches 3–5 folded in
 
 - **Trigger:** Will, via PROME — *"close out SHADE and BROCK, direct them to do their close out procedure."* Steps 5.5 → 12 re-run in full **even where an earlier touch had already run them**, because re-running is what re-verifies.
