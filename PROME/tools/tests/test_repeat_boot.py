@@ -506,11 +506,18 @@ class Refresh(Fixture):
         subprocess.run(['git','init','-q',str(self.root)],check=True)
         board=self.root/'BOARD';board.mkdir()
         cursor=self.root/'PROME/state/board_cursor.txt';cursor.parent.mkdir();cursor.write_text('SIG-W-20260921-001\n')
-        (board/'SIG-W-20260921-001.md').write_text('---\naction: [OTHER]\n---\n# old\n')
+        # 2026-09-30 (CATO RC1): the scanner reads only PUBLISHED signals — committed, with complete
+        # stamped metadata — so the fixture publishes each file the way WALTER does.
+        def publish(num,action,head):
+            sid=f'SIG-W-20260921-{num:03d}'
+            (board/f'{sid}.md').write_text(f'---\nsignal_id: {sid}\ntime_dispatched: 2026-09-21T12:00:00Z\naction: [{action}]\ninfo: []\n---\n# {head}\n')
+            subprocess.run(['git','-C',str(self.root),'add',f'BOARD/{sid}.md'],check=True)
+            subprocess.run(['git','-C',str(self.root),'-c','user.email=f@example.invalid','-c','user.name=f','commit','-q','-m',sid],check=True)
+        publish(1,'OTHER','old')
         command=[sys.executable,'-B',str(script)]
         first=subprocess.run(command,cwd=self.root,capture_output=True,text=True)
         self.assertEqual(first.returncode,0)
-        (board/'SIG-W-20260921-002.md').write_text('---\naction: [PROME]\n---\n# new action\n')
+        publish(2,'PROME','new action')
         second=subprocess.run(command,cwd=self.root,capture_output=True,text=True)
         self.assertEqual(second.returncode,1);self.assertIn('new action',second.stdout)
         self.assertEqual(cursor.read_text(),'SIG-W-20260921-001\n')
