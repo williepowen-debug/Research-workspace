@@ -80,3 +80,19 @@
 - The S1/S2 session-calendar ambiguity (§3) is a letter gap; not re-written mid-window (re-registration only).
 - HENRY's cross-asset signature was read by me from HENRY's letter text against dated bars; HENRY has not graded it.
 - yfinance 10/1 bars are intraday (the market is open); none is used above.
+
+## 7. Addendum 12:2x ET — two later inbox items read against my legs (PROME re-ping, touch 2)
+
+**SIG-W-20261001-004 (ACTION) — MOF weekly: Japanese residents net-sold ¥1,904.9B of foreign long-term debt, week 9/13–19 (SAM's >¥1.5T one-week bar trips; ALL residents, not UST-specific; BOND's 4-week line NOT tripped, 4-week −¥1.39T per WALTER).** Read against my legs, never inferring UST sales from the aggregate:
+
+| My leg | Reading | Bears on |
+|---|---|---|
+| Yen conversion, same week | USD/JPY (FRED `DEXJPUS`, noon NY) **154.42 [9/14] → 156.87 [9/18]**, i.e. the yen *weakened* ~1.6% through the selling week; 158.92 [9/24] | No visible repatriation conversion. The proceeds were not bought back into yen at a pace that moved the rate (or were hedged / swamped by rate differentials). Against the "yen-positive at the margin" reading for this week |
+| Foreign-official UST custody (`WMTSECL1`, as-of Wed) | $2,590.1B [9/09] → **$2,608.8B [9/16]** (+$18.7B) → $2,597.5B [9/23] (−$11.4B); August range $2,586–2,631B | Official holders, not Japanese residents; no break in the week. Inside range |
+| Auction indirect (TD, accepted) | 2Y 57.79% · **5Y 54.31%** · 7Y 57.20% [9/22–9/24] | One print under 55%; "sustained" NOT met. The next coupon cycle is the test |
+| TIC (monthly, Table 3 net transactions) | August TIC due **10/16**: the first print that could show Japan UST transactions for this month. Rule Zero: level ≠ flow | The only instrument that can name UST |
+| `LIQ-07` S1/S2 funding legs (z ≥ 4 · 079 ARM · SRF ≥ $50B) | **Not a funding leg under the letter.** Changes no branch. Lands inside the window as context only | — |
+
+⇒ **No LIQUID gate or send line moves.** It is a UST-demand-negative datum at the margin, with three dated checks (next coupon auctions, August TIC 10/16, SAM's next MOF weeks). WALTER's seasonality caveat (the week ends ~11 days before the half-year end; off-cycle 8/16–22 −¥1.978T is the closer precedent) is adopted as written.
+
+**HANS packet 2026-10-01 — HANS-T-10 France–Germany deepening: OAT–Bund 130.3bp, OAT 4.90% [ideal-investisseur 10/01] vs 109.9 at the 9/24 fire; France-specific, no Bund flight-to-quality bid; cause headline-only.** My lane here is tertiary (EU-bank USD-funding contagion). **US funding shows no transmission:** SOFR−IORB +0, SOFR99−IORB +9, SRF $1.2B [9/30, Q-end]. The direct channel (EUR/USD cross-currency basis, `HANS-T-12`) is **dark on both desks**, so "no transmission" means not visible in US overnight rates. It does not mean measured absent. No gate of mine; French bank exposure belongs to REGINALD/HANS, so I make no call.
