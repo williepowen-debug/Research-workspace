@@ -14,7 +14,7 @@
 6. **Update FLOW.tsv** if a transmission pathway was confirmed, changed speed, or newly identified
 7. **Update STATUS.md** if scenario probabilities, convergence scores, or situation tiers changed
 8. **Write outbox signals** only if: (a) you have new info the sender doesn't have, (b) their signal contains an error, or (c) it triggers a cross-agent threshold. Silence = received and integrated.
-9. **Move processed signals** to `inbox/processed/`
+9. **Move processed signals** to `inbox/processed/` with **`git mv`** (never bash `mv` — it leaves the deletion unstaged). Log one row per item in the agent-root **`board_log.tsv`** (charter §3b; `workbook/board_log.tsv` is a FROZEN duplicate)
 10. **Write `RECEIPT.md`** (this folder) — LAST action. See format below.
 
 ---

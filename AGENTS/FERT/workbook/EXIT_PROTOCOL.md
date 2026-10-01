@@ -26,10 +26,11 @@
 ### Channel A — Nitrogen supply shock → price → CF
 **STATUS: DEAD as of 2026-08-17. Killed, graded, and recorded — not quietly dropped.**
 
-- **What killed it:** China's end-May quota resumption, a *policy* release, not demand destruction. Pink Sheet urea round-tripped −53% Apr→Jul; RCF tender bids cleared ~22% below the level that would reopen the channel.
+- **What killed it:** China's end-May quota resumption, a *policy* release, not demand destruction. Pink Sheet urea round-tripped −53% Apr→Jul; RCF tender bids cleared ~35% below the G2 level that would reopen the channel (lowest bid $390.25/mt vs $600/mt awarded). *(Corrected 2026-10-01: this line said "~22% below", which silently measured against a $500 figure carried in the T1 row — not this file's G2 rule.)*
 - **What did NOT kill it:** Hormuz reopening (still shut), Qatar repair (still 3–5 yr), or demand (India still buying 1.7 Mt).
 - **Migration path:** analytic weight moves to **Channel B (phosphate)** and to **CF single-name fundamentals**, which survive the nitrogen round-trip on their own evidence (1H26 adj EBITDA +55% y/y).
 - **Re-open condition (bidirectional, testable at T1/T5):** an **awarded** India tender CFR print above the G2 level, **or** two consecutive weekly NOLA barge prints above the G1 level. Bids do not count. A single week does not count.
+  - ⚠️ *Instrument note 2026-10-01 (the rule is unchanged):* the **NOLA leg is currently UNGRADEABLE week to week** — T5 is RETIRED-PENDING-REPLACEMENT (WQ-257, Will 9/26) and no free weekly NOLA $/st level exists from this box. Until one does, the channel can re-open **only through the India-award leg (T1)**; a NOLA level quoted in an intermittent headline is not two consecutive prints. **Next test: the IPL tender, bids 10/07, award days later** (`KB-FERT-055`).
 
 ### Channel B — Phosphate tight leg
 **STATUS: LIVE. This is the channel that carries FERT's current relevance.**
