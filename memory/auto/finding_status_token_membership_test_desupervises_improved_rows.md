@@ -43,3 +43,14 @@ Related: [[finding_scan_keyed_on_naming_reads_local_form_as_absence]] ·
 [[finding_guard_correctness_and_wiring_are_independent]] ·
 [[finding_retired_figure_relabelled_onto_another_subject_evades_its_guard]] ·
 [[finding_required_field_satisfied_by_a_pointer_passes_every_presence_audit]]
+
+**n=4 — RED `boot.py` §④ (found 2026-10-01 by a Will-asked to-do sweep, not by the check).**
+The challenge DUE-scan read `if "ACTIVE" not in Status: continue`. Five rows whose owner had
+coined *more descriptive* tokens — `RE-TARGETED` ×3, `WEAKENED`, `STRENGTHENED-IN-FLIGHT` —
+were invisible for **101–122 days**, two with re-review dates long passed and one with none. Same
+tell: each token was a *better* description of the row's state than `ACTIVE`. Fix applied per
+the rule above: select on the ABSENCE of a terminal token (`not startswith("RESOLVED")`) and
+grade on the parsed **date column** (`Resolved_Date` = re-review; passed or absent ⇒ 🔴), so a
+new live token cannot drop a row. Tested against the pre-fix files: 15 flags (incl. ungraded
+outcome rows and past-dated catalysts) → 0 on the fixed files. Residual: a coined *terminal*
+token that doesn't start with `RESOLVED` would still be listed (fails loud, the safe direction).
