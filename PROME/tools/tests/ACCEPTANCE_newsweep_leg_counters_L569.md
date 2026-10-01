@@ -2,9 +2,10 @@
 
 **Written BEFORE any edit** (WQ-229 repair-completion discipline). **Author:** PROME `prome-2f`, 2026-10-01 (clock: the commit time of this file). **Owner:** PROME (RESEARCH-INTAKE is PROME-built). **Finder / consumer:** WALTER, packet `PROME/inbox/2026-10-01_from-WALTER_newsweep-silent-google-leg-failure-collector-counters.md`. **Spec refinement:** CATO `817e5be69`. **Class:** WQ-229 consequential — a shared contract (`liveness.json` is read by WALTER's `walter_doctor.py` and `intake_scan.py`) and a defect that has already recurred (2026-09-17 and 2026-09-30).
 
-reads: 2
+reads: 3
 - 2026-10-01 15:4x ET — RESULT read, `l569-reader` (Opus, general-purpose, own counterexamples run on fixtures): 28 claims · 19 ✅ / 6 ⚠️ / 3 ❌ (ACTION 2 · BASIS 1). Ledger: session scratchpad `l569_read1.md`; the ❌ rows and the ⚠️ residue are reproduced under Disposition. All three ❌ fixed in ONE pass after the read; that pass is UNREVIEWED until read 2.
 - 2026-10-01 — RESULT read 2, `l569-reader-2` (Opus, fresh context, own counterexamples): 21 rows · 13 ✅ / 5 ⚠️ / 4 ❌ (ACTION 2 · BASIS 2). The three read-1 defects CLOSED (re-run on read 1's own fixtures). Healthy-input parity VERIFIED: on the real config and classifier `news.json` and `news_seen.json` are byte-identical between HEAD and the edit. Ledger: session scratchpad `read2/l569_read2.md`. The four ❌ fixed in a second pass, UNREVIEWED until read 3 — the third and last read of this episode.
+- 2026-10-01 ~16:00 ET — RESULT read 3 (FINAL), `l569-reader-3` (Opus, fresh context; fixtures only, 1,200-run fuzz and a 1,200-run HEAD-vs-edit differential): 25 claims · 18 ✅ / 6 ⚠️ / 1 ❌ (ACTION 1, pre-existing · BASIS 0). Read 2's four CLOSED on read 2's own fixtures. Ledger: session scratchpad `read3/l569_read3.md`. **Episode CLOSED at the ceiling. No code edit after this read.**
 
 ## The defect, in its own terms
 
@@ -59,6 +60,12 @@ In: counters and status inside `fetch_newsweep.py`; the News line of `collect.py
 - The lane's overall `status` stays `ok` on a degraded job (unchanged rule); consumers read per-job status.
 
 ## Disposition
+
+**FINAL, after read 3 (2026-10-01): A1–A9 and A11 — IMPLEMENTED · TESTED · INDEPENDENTLY VERIFIED (read 3: no real-input path loses data the old collector saved or reports `ok` on a failed leg; every account closed on every path exercised; healthy-input output byte-identical to the old collector on the real config, with the fixture's hash seed pinned). Landed in RESEARCH-INTAKE `429f948`.**
+
+**A10 — STILL UNRESOLVED on one clause, and the clause is NARROWED here (text only, after the final read, unreviewed):** "one bad config row never takes the run down" holds for a row that is not a dict or lacks its key, and does NOT hold for a row whose `label` or `agents` cannot be serialized to JSON. Read 3's reproduction: such a row raises at the `news.json` write, AFTER `news_seen.json` was already written; `collect.py`'s retry then finds every headline already seen and returns `ok`, 0 new — that run's headlines are lost and the job reads `ok`. The same follows from a disk failure between the two writes. **PRE-EXISTING: the unedited collector behaves identically; not a regression, and not reachable from a network response or from the committed config (45 of 45 queries and 4 of 4 feeds serialize).** Not fixed in this episode (a fix after the final read would be unreviewed); registered as its own DOCKET row. A corrupt or non-dict `news_seen.json` is the same class (pre-existing, read 3 ⚠️).
+
+Declared residue (read 3 ⚠️, not fixed): the "saves more than before" direction in A10 is not the only one — with an `agents: None` config row the edit saved FEWER items than the old collector in 31 of 1,200 differential runs (config-only; same mechanism as read 2's within-run-dup residue) · A3's "classification raises" also covers a row whose agents cannot be built · not run on Python 3.11 (production); all reads ran on 3.12.
 
 **After read 1 (2026-10-01): IMPLEMENTED · TESTED (author's suite, `grep -c '^check(' scripts/test_newsweep_counters.py` for the count; shown to fail on the unedited collector) · NOT yet INDEPENDENTLY VERIFIED — the fix pass below is unreviewed.**
 
