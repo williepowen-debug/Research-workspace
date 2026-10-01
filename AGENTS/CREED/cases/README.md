@@ -23,7 +23,7 @@ It holds one row per named distressed property or loan, so connections *across* 
 4. **Every value mark names its basis and date** (appraisal / sale price / net proceeds / tax-assessor value / model value). **Never compare across bases** (root trap #2: a real number on the wrong basis).
 5. **Implied loss names its basis** (e.g. "net proceeds vs senior balance, BEFORE servicer advances"). A figure without a basis goes in `notes` as UNRECONCILED, not in `implied_loss_pct`.
 6. **Originator ≠ holder.** A lender's name on a loan does NOT say whose balance sheet carries it. `holder_type` stays UNKNOWN until the trust or bank is established. A Ladder-originated CMBS loan is not Ladder's credit loss (the -015 caveat).
-7. **Source tier on every row**: `PRIMARY-READ` / `PRIMARY-CITED` / `SECONDARY` / `SEARCH-SUMMARY`. The search-summary tier exists so a figure seen only in a search listing isn't dressed up as read.
+7. **Source tier on every row**: `PRIMARY-READ` / `PRIMARY-CITED` / `SECONDARY` / `SEARCH-SUMMARY` / `LEAD` *(added 2026-09-30 for Will's workbook import: a row with NO source link, e.g. a social-post compilation; recorded so it is not lost, NOT citable until a source is found)*. The search-summary tier exists so a figure seen only in a search listing isn't dressed up as read.
 8. **Events are dated separately from when they were reported.** *(Enforced 2026-09-29: every event has a `reported` date + `reported_basis`; a fleet-file date is labelled as such, never passed off as the publication date.)* `CASE_EVENTS.tsv` carries `event_date` (when it happened; `UNKNOWN` or `≤YYYY-MM-DD` allowed) and `reported` (the source date). Duration statistics use `event_date` only.
 9. **The ledger is not a trigger instrument.** No case moves a CREED score, band or trigger by being entered. `trigger_eligibility` states, per case, whether a registered trigger's own rules would count it (e.g. `CREED-T-06`: excludes obsolete/vacant collateral by name).
 10. **Other desks keep their cases.** CORAL (Florida), HOMER (multifamily) and the bank desks (WAL, FLG, OZK, REGINALD) own their named credits. A row here cites their record in `fleet_links` and reconciles to their one figure. It never forks a second number.
@@ -35,6 +35,7 @@ It holds one row per named distressed property or loan, so connections *across* 
 |---|---|---|
 | `CASES.tsv` | one row per case | current state, identity, loan/holder, marks, fleet links |
 | `CASE_EVENTS.tsv` | one row per dated event | the timeline, structured so durations are computable |
+| `sources/` | one file per imported dataset | **Will's CRE loss-sales workbook v3** (`2026-09-30_will_CRE_Loss_Sales_v3.xlsx`, unchanged copy) + verbatim TSV exports of its three sheets. Imported 2026-09-30 by `scripts/import_cre_workbook.py` (mapping rules in its header): 79 cases + 9 enriched; 3 rows outside case grain kept verbatim in CASE_NOTES. **Not re-verified by CREED; its methodology sheet's limits apply** |
 | `CASE_NOTES.md` | one section per case | **value marks, sources, and every verifier finding, verbatim** (the seed row beside the verifier's reading). `CASES.tsv` points here: **read a case's section before citing any mark or loss.** Also lists the HELD candidates and why |
 
 **Controlled vocabularies** (extend by editing this list in the same commit):
