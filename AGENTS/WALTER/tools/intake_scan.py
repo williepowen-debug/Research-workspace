@@ -276,7 +276,55 @@ def health(live):
         st = j.get("status")
         if st not in ("ok", None):
             out.append(("MED", f"feed {feed} status={st}"))
+    out.extend(news_search_coverage(live))
     return out
+
+
+def _search_labels():
+    """Labels of the lane's Google News queries, read from the lane's own config."""
+    try:
+        sys.path.insert(0, str(LANE / "scripts"))
+        import newsweep_config as cfg
+        return {q.get("label", "") for q in cfg.GOOGLE_NEWS_QUERIES} - {""}
+    except Exception:
+        return None
+    finally:
+        sys.path.pop(0)
+
+
+def news_search_coverage(live):
+    """Coverage anomaly: the newsweep job can report status=ok while its Google News
+    leg saved NOTHING (2026-09-17 and 2026-09-30: 0 search items vs 88-221 typical;
+    the collector swallows per-query errors). A low SAVED count does not prove the
+    searches failed (dedup and the noise filter also drop items), so this reports an
+    ANOMALY WITH CAUSE UNKNOWN, never an outage. research/2026-10-01_intake-bounded-comparison.md"""
+    saved = (live.get("jobs", {}).get("newsweep") or {}).get("saved")
+    labels = _search_labels()
+    if not saved:
+        return []
+    if labels is None:
+        return [("MED", "news search coverage UNCHECKED — lane newsweep_config not importable")]
+
+    def count(path):
+        try:
+            items = json.loads((LANE / path).read_text(encoding="utf-8")).get("items", [])
+        except (OSError, json.JSONDecodeError, AttributeError):
+            return None
+        return sum(1 for i in items if i.get("label") in labels)
+
+    n = count(saved)
+    if n is None:
+        return [("MED", f"news search coverage UNCHECKED — {saved} unreadable")]
+    earlier = [p.relative_to(LANE) for p in sorted(LANE.glob("data/*/news.json"))
+               if str(p.relative_to(LANE)) < saved][-10:]   # the 10 batches BEFORE this one
+    prior = [c for c in map(count, earlier) if c is not None]
+    med = sorted(prior)[len(prior) // 2] if prior else None
+    basis = f"trailing median {med} over {len(prior)} batches" if med is not None else "no trailing batches"
+    if n == 0 or (med and n < med * 0.25):
+        return [("MED", f"news search COVERAGE ANOMALY: {saved} saved {n} Google News items ({basis}) "
+                        "while newsweep reported ok — cause UNKNOWN (failed requests, malformed feeds, "
+                        "or dedup/filtering); treat the batch as degraded and do not read its silence as quiet")]
+    return [("OK", f"news search items saved: {n} ({basis})")]
 
 
 def main():
