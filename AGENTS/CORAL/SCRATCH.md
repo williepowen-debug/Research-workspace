@@ -21,6 +21,7 @@
 3. **Fort Lauderdale lead (WALTER -013, Will-directed) — ACTED:** data contradicts "vacancy everywhere" for stabilized stock (C&W 94.2% re-read at PDF); supports renewal-vs-new-lease gap; real soft spot = rents under record supply. No threshold registered. § R7, KB -100, `sources/ftl_broward_multifamily_check_2026-10-01.md`.
 4. **CREED Columbus Center ask — ACTED:** receiver sale 3/5/2025 $76M (Miami-Dade PA re-read); CORAL holds the case; reply packet in `AGENTS/CREED/inbox/` (`c46791137`). KB -098.
 5. Dockside / Brightline / new-filings / news sweep → § R2–R6, KB -099. ⭐ Did NOT adopt the docket researcher's "Ian lender label unsourced" — it searched the bankruptcy docket only; the source is SFR's civil Notice of Removal (the 9/28 perimeter lesson, n=2).
+5b. **Will's three Sun Sentinel links (insurer affiliate-fee report + Jolly):** read the 159-pp report at primary; researcher scored its flag vs 2021–23 failures ⇒ **NO predictive power** (key lines re-read). Corrected my own UPCIC misread (Universal ≠ United) in-session. § R9, KB -102/-103, VX-TKOUT parent-support row, CALENDAR Nov 3 governor fork, `sources/insurance/`. Also consumed CREED's 13:53 packet (Trepp MF insurance + Doral verified; § R8, KB -101).
 6. Inbox drained: WALTER -004 info-only, -013 acted; HOMER noted; CREED acted. STATUS (header, MSI/Citizens/association/CRE/banks rows, OWED U/X, bottom line, Next), CALENDAR (+10/21 BKU, 10/27 Dockside, 10/29 Brightline; 9/29 + 9/30 items ✅), NEXUS 10/1 block.
 
 ## NEXT SESSION / OWED
