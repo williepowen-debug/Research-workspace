@@ -3,9 +3,21 @@
 **Status:** 🟠 ELEVATED — thesis split holds: **household/condo stress confirmed; bank-loss transmission NOT confirmed.** Bank rail **NOT met, NOT armed** (Q2 7-of-7 benign; next re-test Q3 ~late Oct). Supply-side MSI leg **🟠 since 9/13**; reading #7 (9/28) 4-of-5 > 6.00. **Re-fire + level guard INSTALLED 9/28 (Will-ruled WQ-241): re-fire = all five > 6.00, stand-down = same metro < 5.90, 5.90–6.00 policy buffer, ≥10-day persistence from the first qualifying reading.** Reading #7 sits in the buffer (Cape Coral 5.96) ⇒ still 🟠. ⭐ **9/28: most new data cuts AGAINST acute statewide housing distress; the one measured channel pointing WITH the thesis is bankruptcy (+21% YoY, 1.23× US, widening).**
 **Domain:** Whole-Florida stress surface — condo/SF/CRE real estate, insurance, FL banks, migration/tourism, state fiscal/property-tax, labor/construction, coastal/climate
 **Thesis version:** Coral Bleaching v1.1 — rails `thesis/THESIS.md`; changelog `thesis/CHANGELOG.md` (9/28 entry)
-**As of:** 2026-09-28 ~21:03 ET (Mon, late closeout, post-CATO review) · **STATUS commit:** `943693f8d` · **Refresh:** CATO's three corrections applied (retrievals not written off; termination ≠ repayment; DBPR draft narrowed, unsent) after Will's four association→lender follow-ups run (Avidia/USCB verified at SEC; Dockside's 2023 repair lender documented = private; DBPR/UCC feasibility test + draft request, not sent; Palm Greens wording corrected). Earlier 9/28: boot + 15-day catch-up, WQ-241/321/322 installed, enrollment series, Redfin, nine association bankruptcies verified.
+**As of:** 2026-10-01 ~14:10 ET (Thu, catch-up) · **STATUS commit:** `140fdc90e` · **Refresh:** 10/1 block added above; 9/28 block unchanged below. *(Prior: 2026-09-28 ~21:03 ET, `943693f8d`.)*
 
 ⚠️ Prior dated blocks (9/13, 8/23) are superseded by the one below; verbatim in git history at `cd8da96a9`. **One 9/13 instruction is RETRACTED: "Parcl listings render a literal 0 with no backing field" — the counts ARE in `__NEXT_DATA__ seo.totalCount/nCutting`; the visible `0` is still a placeholder, but do not repeat "no field exists".**
+
+## ⭐ 2026-10-01 — WHAT MOVED (catch-up 9/28 late → 10/1; no colour moves)
+
+| # | Item (dated, tiered) | For whom · so what |
+|---|---|---|
+| 1 | **Citizens 254,918 at 9/25** (weekly headline, P1) vs 266,231 (8/31): −11,313; less the 9/15 round (10,250) ≈ **−1,063 ex-round** — ⚠️ PRELIMINARY (weekly total vs monthly basis unconfirmed; 9/30 month-end not posted) | MARCO, CARL, AEOLUS — if it holds on the month-end, organic exit is no longer stalled. **Do not cite −1,063 as organic until the 9/30 report confirms basis.** |
+| 2 | **Case-Shiller July (P1, 9/29): Tampa −0.73% YoY, Miami +3.53%**; US +1.93% · Realtor.com Sept Tampa asking −6.6%, 27.5% cutting (PRESS) | HOMER, MARCO, REGINALD — single-family repeat-sales; **blind to condos**. Consistent with the Tampa MSI high; velocity/realization legs not in hand ⇒ not a mechanism claim. |
+| 3 | **Broward multifamily (Will's Fort Lauderdale lead):** stabilized occupancy **94.2%** (C&W Q2, P1-compiler) / 94.9% (Yardi Jul); effective rent **−1.5%**, Class A **−2.2%** (lowest since 2021); renewals +3.1% vs new leases −1.9%; record H1 deliveries; lease-up stock **excluded from every occupancy series** | HOMER, CREED, REGINALD — FL MF stress is **rent/NOI on lease-up loans**, not occupancy. No threshold registered. |
+| 4 | **Columbus Center (Coral Gables office) = CLOSED:** receiver sale 3/5/2025 **$76M** (Miami-Dade PA, P1) vs $77.4M claimed; deficiency unresolved (press conflict); buyer loan Banesco USA $71.6M (PRESS) | CREED (case owner reply sent), OZK (KB-OZK-169 ~17 mo stale on outcome) |
+| 5 | **Dockside 9/29: nothing decided** (fee app → 10/27; rest under advisement); ⚠️ **correction: amended plan #222 pending**; no new FL association Ch.11 9/26–10/1 (count ≥9, ungraded) | REGINALD — bank bridge untouched. |
+| 6 | No new FL property-insurer failure / FIGA assessment (DFS/OIR 10/1); FIGA 1% ended 9/30; NHC 10/1: nothing forming 7d; VLY 8-K = Bluevine $340M acquisition (not credit); **BKU Q3 10/21 BMO** | AEOLUS, REGINALD |
+| 7 | Parcl MSI 10/1 pulls ×2 carry **mixed stamps ⇒ NOT a reading** under the amended MSI-01 letter (values ~unchanged: Tampa 7.17, Cape Coral 5.94) | PROME (GATES pointer) — no state change, nothing to register. |
 
 ## ⭐ 2026-09-28 — WHAT MOVED, for cross-agent consumers
 

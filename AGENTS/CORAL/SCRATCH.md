@@ -1,39 +1,44 @@
 # CORAL — SCRATCH (ephemeral session handoff)
 
-**Session:** 2026-09-28 ~20:00 → ~21:32 ET (Mon, LATE) — CLOSED OUT on Will's word — Will-launched boot ("continue where we left off") → Will's directed run of the four association→lender bridge follow-ups. PROME not live. Two Opus researchers (Dockside trace; DBPR/UCC test) — every load-bearing claim re-read by CORAL at the source before it entered the record.
-**Previous:** 2026-09-28 ~14:36–19:36 ET (catch-up + rulings + nine-case table). Before that 9/13.
+**Session:** 2026-10-01 ~13:32 → ~14:15 ET (Thu) — Will-launched boot + catch-up ("catch up on any recent news and updates"). Desk dark 9/28 21:32 → 10/1. PROME not live. Three Opus researchers (FL news sweep · court dockets · Fort Lauderdale multifamily); every load-bearing claim re-read by CORAL at the source before it entered the record. **Committed locally (`c46791137`, `140fdc90e`, + this closeout commit); NOT pushed — push at Will's closeout.**
+**Previous:** 2026-09-28 late (association→lender follow-ups, CATO corrections).
 
 ---
 
-## WHAT I DID (all committed at closeout)
+## CHANGES SINCE 9/28 (what the world did)
 
-1. **Corrections (Will ① of tonight's order):** Palm Greens — "Bank lenders to associations: NONE FOUND" → **"No confirmed STRESSED bank REPAIR loan to an association found in documents reviewed"**; its $192K First Insurance Funding / Lake Forest Bank premium finance kept as a **separate category**, **motion only (Doc 44), approval/disbursement unconfirmed, no loss** (§ L table + conclusion, STATUS row, KB -093, NEXUS 9c; old wording preserved in an append-correction). Stale "10/02 WQ-241 sitting" language removed from STATUS + NEXUS (WQ-241/321/322 all ruled 9/28 15:1x).
-2. **Avidia + USCB verified at SEC (②):** Avidia 10-Q 6/30/26 — condo-association loans **$494,331K, 100% current, 100% pass, 0 charge-offs, no nonaccruals, ACL releasing**; 10-K: **national book — MA $247.9M · FL $78.4M · NY $47.4M at YE2025; largest loan $22.8M Miami Beach, performing**. Logged as BASELINE, never Florida-only. USCB 10-Q 6/30/26 — non-accrual $2,148K on $2,316,695K; "condo commercial" $68,666K clean — **⛔ category undefined in both filings; Association book size undisclosed ⇒ not an association proxy.** → `STATUS_DETAIL.md` § M, KB -094/-095, `sources/condo/avidia_uscb_filing_verification_2026-09-28.md`.
-3. **Dockside (③):** 2023 Ian repair lender **DOCUMENTED = South Florida Real Estate, LLC — PRIVATE affiliate of contractor SFR ("over $18 million in trade credit", Promissory Note, lender holds proceeds/disburses to SFR on draws; SFR's own Notice of Removal 6:24-cv-86 Doc 1 ¶2, re-read by CORAL)**; contested since 1/8/24; face/draws/collateral/bankruptcy treatment UNKNOWN. 2026 DIP (#238→#247, 9/8/26) lender still UNKNOWN. **No document connects them.** UCC: none 2022–26. **Corrections:** the 9/29/26 1:30 PM hearing is **NOT a confirmation** (calendar re-fetched: fee application #214, stay-violation damages #235, two unit-owner repair motions #241/#242; "Sub V Plan Due 10/23/25"; no plan/financing line); the afternoon verifier's "SF Real Estate not shown to be a lender" superseded (pointer on that record); Charleston "Dockside" is a false match. → § N, § L row 4, KB -096, CALENDAR 9/29 + 11/17, `sources/condo/dockside_financing_trace_2026-09-28.md`.
-4. **DBPR/UCC test (④):** match by **normalized name only** (8/9; 0/9 exact or shared ID); DBPR names **no lender** (s. 718.501(3)(c)3 = "maintains accounts", verified; SIRS form = planned funding method + amount, no lender; public SIRS Qlik data 403); UCC names lenders + collateral (image) but never amount/funding/balance/default — **DBPR's SIRS form DOES collect a reserve balance + planned financing amounts (CATO correction)**; all 18 association filings lapsed/terminated — **Suncoast Credit Union → Grande Isle, UCC-1 1/24/23 Ian repair loan, UCC-3 termination 10/19/23** (CORAL confirmed both filings exist and link) — **termination ≠ repayment; loan disposition unknown**; BOK Lending II → Green Terrace 2017 lapsed 2022. Row 10 (press-named ordinary repair borrower) NOT RUN — none found. **Draft narrow Chapter 119 request written, NOT sent** → `sources/condo/DRAFT_DBPR_request_2026-09-28.md`. → § O, KB -097, `sources/condo/dbpr_ucc_sample_test_2026-09-28.md`.
-5. **CATO review (via Will, late): three bounded corrections APPLIED → `STATUS_DETAIL.md` § Q** — retrievals not written off (7 Schedules D + 2 DIP docs could reveal bank debt or tighten the negative; neither proves statewide absence); termination ≠ repayment (Suncoast) and "repaid via" → "reportedly intended to be repaid" (Dockside); "never a balance" corrected (SIRS form collects reserve balance + planned financing amounts) and the DBPR draft narrowed to schema + nine-entity sample first. Round CLOSED on Will's word; DBPR request stays UNSENT.
-6. Ledgers: § L rows 1/4/6/7 + conclusion updated; STATUS header/row/OWED X/bottom line; CALENDAR +7 rows (9/29 hearing corrected, 10/21, 11/17, 11/19, Avidia ~mid-Nov + ~Mar-27); MEMORY +3 findings +1 feedback row, 5 settled rows rotated — **MEMORY now 22,762 B = 70% of budget with ~20 B headroom: the NEXT append must rotate first (oldest 08-23 rows → archive/MEMORY_ROTATED_20260928.md)**; NEXUS_BRIEF 9c + waits + watch.
+- Citizens weekly headline **254,918 at 9/25** (P1) — ≈ −1,063 ex-round, PRELIMINARY (basis vs month-end unconfirmed). 9/30 month-end not posted.
+- Case-Shiller July (9/29, P1): **Tampa −0.73% YoY**, Miami +3.53% (SF only). Realtor.com Sept Tampa asking −6.6%, 27.5% cutting (PRESS).
+- Dockside 9/29 (Doc 271): nothing decided; fee app → **10/27 2:30 PM**; amended plan **#222 (~8/17) pending** — corrects 9/28 "no plan in the free record".
+- Brightline first day: relief granted; interim $258M DIP (PRESS); final **10/29**; no schedules; no FL bank in top-20.
+- No new FL association Ch.11 (9/26–10/1), no new property-insurer failure/FIGA assessment, no storm (NHC 10/1), VLY 8-K = Bluevine $340M (M&A). **BKU Q3 10/21 BMO.**
+- Amendment 3: yes-side $18M (FL Realtors) vs opposition $0.54M (PRESS); "74% Pioneer poll" press-only, NOT adopted.
+
+## WHAT I DID
+
+1. Boot reads + boot.py + corrections check (PASS, rc 0; one ALL-warn not an obligation).
+2. **Parcl MSI pulled twice (13:34, 13:49): mixed 9/30 + 10/1 stamps ⇒ NOT a reading** under the amended MSI-01 letter (§ R1). Values ~unchanged.
+3. **Fort Lauderdale lead (WALTER -013, Will-directed) — ACTED:** data contradicts "vacancy everywhere" for stabilized stock (C&W 94.2% re-read at PDF); supports renewal-vs-new-lease gap; real soft spot = rents under record supply. No threshold registered. § R7, KB -100, `sources/ftl_broward_multifamily_check_2026-10-01.md`.
+4. **CREED Columbus Center ask — ACTED:** receiver sale 3/5/2025 $76M (Miami-Dade PA re-read); CORAL holds the case; reply packet in `AGENTS/CREED/inbox/` (`c46791137`). KB -098.
+5. Dockside / Brightline / new-filings / news sweep → § R2–R6, KB -099. ⭐ Did NOT adopt the docket researcher's "Ian lender label unsourced" — it searched the bankruptcy docket only; the source is SFR's civil Notice of Removal (the 9/28 perimeter lesson, n=2).
+6. Inbox drained: WALTER -004 info-only, -013 acted; HOMER noted; CREED acted. STATUS (header, MSI/Citizens/association/CRE/banks rows, OWED U/X, bottom line, Next), CALENDAR (+10/21 BKU, 10/27 Dockside, 10/29 Brightline; 9/29 + 9/30 items ✅), NEXUS 10/1 block.
 
 ## NEXT SESSION / OWED
 
-- **Dockside 9/29 minute entry** (after ~1:30 PM ET 9/29): read the free "CHAP Pro Memo"/minute entry. ⛔ No financing matter is calendared — it is UNLIKELY to name the DIP lender; do not assume. Then **6:26-ap-156 PI hearing 11/17 9:30 AM** may surface the 2023 note's status.
-- **Orange County official records** (Dockside mortgage / assignment of assessments, party "Dockside at Ventura" + "South Florida Real Estate", 2022–26): free but reCAPTCHA-gated — needs a human in a browser. Not done.
-- **DBPR draft request → Will** (`sources/condo/DRAFT_DBPR_request_2026-09-28.md`): send/not send and any fee are his; it yields planned-financing amounts, reserve balances and assessment fields, never a lender or a funded-loan balance; **re-scoped per CATO to schema + field metadata + the nine-entity sample FIRST** — no statewide build.
-- **PACER:** limits unchanged — Grande Isle ≤$9 conditional only; Dockside #238/#247/#28/#33/#89 and the Note (6:24-cv-86 Doc 1-1) are the highest-value paid docs but NOT authorized.
-- **Avidia 10-Q 9/30/26 (~mid-Nov):** re-read condo-association aging/risk-rating vs the 6/30 baseline; 10-K FY2026 (~Mar-27) for the FL slice.
-- **Count stays DESCRIPTIVE, UNGRADED.** No colour/scenario/trade change; bank rail NOT met, NOT armed.
-- Dated (unchanged): **9/30 FIGA 1% ends + FL min wage $15** · ~early Oct Citizens 9/30 month-end (ex-round; 9/15 round 10,210) · **10/16 FL Realtors Sept** · 10/21 Grande Isle Stoploss dismissal hearing · **late Oct Q3 FL-bank prints** + AOUSC 9/30 F-2 · 11/4 Ballot No. 3 · **11/15 falsify grade** · 11/19 Gardens confirmation · 12/11 NFIP.
-- Next Parcl reading graded on the amended MSI-01 letter; log Tampa MSI-vs-Redfin divergence.
-- OQ L residual (Parcl `seo.totalCount` on the 9/13 page) still open.
-- ⚠️ STATUS ~25.3 KB (~78% of budget) after tonight's appends — re-measure at next append (READ_CAP rule 7); rotate the 9/28 READ-FIRST/one-line block if it crosses 80%.
+- **Parcl: re-pull for a single-stamp reading** (grade on the amended MSI-01 letter).
+- **Citizens 9/30 month-end** (~early Oct): read ex-round AND confirm whether the weekly headline basis matches — decides whether −1,063 is organic exit.
+- **10/16 FL Realtors Sept** (four legs) · **10/21 BKU Q3** (first bank-rail print) + Grande Isle hearing · 10/27 Dockside · 10/29 Brightline · late Oct Q3 prints + AOUSC 9/30 table · 11/15 falsify grade.
+- **Pending at WALTER (not consumed):** CREED 10/01 FL + MF items (Trepp FL MF insurance −6.2% 2025; Doral Center office 7.35% coupon; FL conduit loan sample). Consume when routed.
+- C&W / Yardi Broward Q3 MF (~late Oct–Nov) if Will wants the MF line tracked — **offer, not adopted**.
+- Carried: Orange County records (needs a browser) · DBPR draft → Will (unsent) · PACER spend not authorized · Avidia 10-Q ~mid-Nov · OQ L residual · Columbus Center case no. (clerk viewer, browser).
+- MEMORY at ~70% with ~20 B headroom: **the next append must rotate first.** None added this session.
 
 ## OPEN THREADS
 
-- MARCO dark; holds CORAL's Citizens-mechanism packet + enrollment route (ACTION).
-- Stale rows still marked: SE-FL vintage $/sf (7/13) · blacklist 1,438/696 (Mar-2025) · NOAA SIR sargassum · ATTOM foreclosure (7/17) · VLY CRE/RBC (Q1).
-- ✅ PROME **verified the late-pass packet at the artifact and applied the correction** to `HEARTBEAT_COLD.md` L763 (commit `a5a99e967`; CORAL re-checked the line: corrected sentence, Dockside private lender, "NOT a plan confirmation", Avidia present; old phrase marked SUPERSEDED). Hot HEARTBEAT §7 phrase queued by PROME as amendment #1 material. Nothing further asked.
-- PROME: orphan check found two `[not yours]` uncommitted files on this box — `BOARD/SIG-W-20260928-024-…golden-gate-and-nassau….md` (WALTER-class) and `PROME/plans/2026-09-28_heartbeat-23rd-rebase-PLAN.md` — left untouched, flagged here. One unpushed PROME commit (DOCKET L525 rider) rode out with tonight's push; DOCKET L501 (WQ-241 "CORAL proposes", dated 10/02) may be stale now that 241 is ruled — PROME's row, flagged here, not edited.
+- MARCO dark (6.8d); holds CORAL's Citizens-mechanism packet. The 9/25 Citizens figure may matter to that disagreement — wait for the month-end before sending anything.
+- Stale rows unchanged: SE-FL vintage $/sf (7/13) · blacklist (Apr-2025) · NOAA SIR sargassum · ATTOM (7/17; Aug not out) · VLY CRE/RBC (Q1).
+- BRENT + CREED had uncommitted files at boot — untouched.
 
 ## MAIL STATE
 
-Legacy inbox empty. `inbox/WALTER/` empty. Corrections check PASS (one broadcast ALL-warn, REGINALD-domain, not an obligation). No outbound packets tonight — Will directed the work in-session; nothing fired, nothing proposed.
+`inbox/WALTER/` empty · legacy inbox empty · one outbound packet (→ CREED, no ask, no doorbell needed).
