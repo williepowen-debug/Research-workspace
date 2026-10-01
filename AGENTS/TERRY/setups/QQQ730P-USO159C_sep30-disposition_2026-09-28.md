@@ -3,7 +3,7 @@
 **Date:** 2026-09-28 Mon, built 10:51–10:5x ET (`date` 10:51:11 at boot). **Spawn:** PROME `prome-7f`, Tier 1, on WQ-315 (Will, verbatim: *"Approve WQ-315. Bring TERRY in now for the QQQ and USO expiries. … Recommendations only; orders remain mine. Keep my TLT hold-to-expiry ruling unchanged."*)
 **Id:** `MGMT-QQQ730P-USO159C-SEP30` (management read — no SETUPS row, registered in `setups/INDEX.md`; SETUPS/TRADE_BOOK rotations still owed).
 **Thesis owner:** none on file for either line (Will-direct, off-thesis class — `FORGE/STATUS.md` § Off-thesis; card grep 9/27 SEARCH-NOT-FOUND).
-**Terry verdict:** 🔒 **CLOSED — both lines EXPIRED OUT OF THE MONEY 2026-09-30** (QQQ close $739.77 vs $730 · USO close $145.66 vs $159). ⚠️ **QQQ ×9 disposition UNKNOWN — PENDING WILL'S WORD** (sold at the bid before 15:00, or held into expiry). See § ⑨. *(was: SELL both — QQQ 730P: SELL today (primary); USO 159C: SELL today (low stakes); refreshed 9/30 11:02 to SELL QQQ ×9 before 15:00 · LET USO ×2 EXPIRE)*
+**Terry verdict:** 🔒 **CLOSED — both lines SOLD TO CLOSE 2026-09-30 by Will's hand and ROLLED** (QQQ 730P ×9 @ $0.01, net $8.43 ⇒ −$2,229.54 → QQQ Oct-01 740P ×9 @ $1.92 · USO 159C ×2 @ $0.01, net $1.87 ⇒ −$919.46 → USO Oct-09 150C ×2 @ $2.99; FORGE `33bc8c293`). See § ⑩. *(was: ~~both lines EXPIRED OUT OF THE MONEY 2026-09-30; QQQ ×9 disposition UNKNOWN — PENDING WILL'S WORD~~ — the § ⑨ grade had the tape right and the disposition wrong)* *(was: SELL both — QQQ 730P: SELL today (primary); USO 159C: SELL today (low stakes); refreshed 9/30 11:02 to SELL QQQ ×9 before 15:00 · LET USO ×2 EXPIRE)*
 **Confidence in the read:** Medium (quotes are one-vendor screening grade, ~15 min delayed — see §2).
 **`$0` MOVED · NO ORDER · NO NEW TRADE PROPOSED · NO GATE OR THRESHOLD MOVED.** Recommendations only; orders are Will's.
 
@@ -123,7 +123,7 @@
 
 **APPROVAL REQUIRED — Will must approve/reject before execution.**
 
-## ⑨ EXPIRY GRADE — Wed 2026-09-30, written 17:3x ET (`date` 17:33:44 at boot) · PROME spawn `prome-94` (Tier 1). Will's own TERRY window died in a machine crash after ~15:05 ET, before this grade. **`$0` MOVED · NO ORDER · NO GATE OR THRESHOLD MOVED.**
+## ⑨ ⛔ SUPERSEDED 2026-10-01 (disposition WRONG — both lines were SOLD and ROLLED, not expired or pending; see § ⑩; kept as the dated record) · EXPIRY GRADE — Wed 2026-09-30, written 17:3x ET (`date` 17:33:44 at boot) · PROME spawn `prome-94` (Tier 1). Will's own TERRY window died in a machine crash after ~15:05 ET, before this grade. **`$0` MOVED · NO ORDER · NO GATE OR THRESHOLD MOVED.**
 
 | | QQQ $730P ×9 | USO $159C ×2 |
 |---|---|---|
@@ -138,3 +138,18 @@
 - **Only Will can close this row:** whether the ×9 were sold before 15:00, and at what fill. Until then FORGE and this card carry the QQQ leg as UNKNOWN.
 
 **No proposal, no new card.** Owed (scoped out of this spawn): a `POSTMORTEMS.md` line for both off-thesis lines once the QQQ disposition is known.
+
+## ⑩ DISPOSITION CORRECTION — Thu 2026-10-01, written 11:09 ET · PROME spawn `prome-2a` (Tier 1; packet `inbox/processed/2026-09-30_from-PROME_sep30-lines-were-ROLLED-not-expired_fills-and-card-asks.md`). Cents from `FORGE/STATUS.md` (ANVIL reconcile `33bc8c293`; Fidelity Activity 9/30, "row n" = `PROME/data/2026-09-30_broker-capture-TRANSCRIPTION.md` ②). **`$0` MOVED · NO ORDER.**
+
+| | QQQ $730P Sep-30 ×9 | USO $159C Sep-30 ×2 |
+|---|---|---|
+| Disposition | **SOLD TO CLOSE @ $0.01, net $8.43 (row 10)** — not held | **SOLD TO CLOSE @ $0.01, net $1.87 (row 5)** — not expired |
+| Realized vs broker basis | **−$2,229.54** vs $2,237.97 · campaign (×10 bought 9/24 −$2,486.63 · 1 sold 9/28 +$197.34 · ×9 +$8.43) **−$2,280.86** | **−$919.46** vs $921.33 |
+| Rolled into (Will's hand) | **QQQ Oct-01-2026 $740P ×9 @ $1.92, basis $1,733.97 (row 11)** — leg 2 of a net-debit roll (limit $1.91). Strike moved 730 → 740: not a construction rule #21 roll | **USO Oct-09-2026 $150C ×2 @ $2.99, basis $599.33 (row 6)** — leg 2 of a net-debit roll (limit $2.98). Strike moved 159 → 150: not a construction rule #21 roll |
+| Plus (not a roll) | **QQQ Oct-05-2026 $735P ×5 @ $2.73, basis $1,368.32 (row 13)** — new size by Will's own hand (root rule #5); fourteen QQQ puts across two lines | — |
+| vs § ⑧'s rec | Rec was SELL ×9 before 15:00 — he sold, then rolled | Rec was LET EXPIRE (no bid at 11:02) — he sold at $0.01 and rolled |
+
+- Sales and rolls before expiry are **Will's standing practice** (`USER.md`, 9/30 19:03 ET), recorded with their fills — not deviations. What this desk records without re-litigating: the strike changes (not construction rule #21 rolls), the added size on the 735P, and the extra cash the rolls put at risk.
+- **D-60 still UNOBSERVED** — nothing expired or was exercised.
+- Successor cards: `setups/QQQ740P_oct01-sell-or-roll_2026-10-01.md` (WQ-347, the nine Oct-01 740P) · `setups/QQQ735P_oct05-sell-or-roll_2026-10-01.md` (the five Oct-05 735P) · `setups/USO150C-KRE65P_roll-management-notes_2026-10-01.md` (the two USO Oct-09 150C).
+- Postmortem owed (`POSTMORTEMS.md`).

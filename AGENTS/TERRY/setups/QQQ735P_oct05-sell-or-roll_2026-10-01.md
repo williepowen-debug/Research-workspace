@@ -1,0 +1,48 @@
+# SELL-OR-ROLL CARD — QQQ $735P Oct-05-2026 ×5 (Fidelity IRA) — expires Mon 10/05
+
+**Date:** 2026-10-01 Thu, written 11:10 ET (live read `date` 11:09:14). **Spawn:** PROME `prome-2a`, Tier 1, WQ-347 (Monday's half). **Id:** `MGMT-QQQ735P-OCT05` (management card; no SETUPS row).
+**Thesis owner:** Will (no agent thesis on file — off-thesis class).
+**Terry verdict:** 🟡 **SELL-OR-ROLL BY MON 10/05 15:00 ET — no action owed today.** Hold-to-expiry is not on the menu (worthless above 735; a 500-share short in the IRA below it). Today's figures are a moment read (construction rule #14); **re-read Monday morning** before Will acts.
+**Confidence in the read:** Medium (vendor option quotes are screening grade; the live bid is Fidelity's).
+**`$0` MOVED · NO ORDER · NO NEW TRADE PROPOSED · NO GATE OR THRESHOLD MOVED.**
+
+---
+
+## 1. Position (mirror `FORGE/STATUS.md`, ANVIL `33bc8c293`)
+
+| Field | Value |
+|---|---|
+| Line | QQQ $735P Oct-05-2026 ×5, long — **BOUGHT 9/30 @ $2.73 limit, basis $1,368.32** (transcription row 13; a $2.52 limit was Verified Canceled, row 14) |
+| Nature | **New size by Will's own hand** (root rule #5) — a single-leg buy, not a roll leg. Fourteen QQQ puts across two lines with the Oct-01 740P ×9 (`setups/QQQ740P_oct01-sell-or-roll_2026-10-01.md`) |
+| 9/30 post-close mark | $3.52 / $1,760.00, +$391.68 |
+
+## 2. Live read — 2026-10-01 11:09 ET (moment property, construction rule #14)
+
+| Item | Value | Basis |
+|---|---|---|
+| QQQ | **$737.10 (−0.36%)** ⇒ the 735 strike is **$2.10 out of the money** | `fetch.py`, 11:09:14 |
+| Vendor 735P Oct-05 bid/ask | $3.78 / $3.80 (last option trade 10:53) | `chain_fetch.py --no-cache` — **SCREENING ONLY** |
+| Five at the screening bid | ≈ $1,890 ⇒ ≈ **+$522 vs the $1,368.32 basis** (INFERRED, not a fill) | arithmetic |
+| VXN | 23.37 (+4.05%) | `fetch.py` |
+
+## 3. The Monday rail (sell-or-roll, Will's standing practice — `USER.md`, 9/30 19:03 ET)
+
+- **Hard stop: Mon 10/05 15:00 ET.** Sell at Fidelity's live bid, or roll as one net-debit order.
+- **Exercise path if held:** a close below $735.00 ⇒ the IRA **sells 500 QQQ at $735 it does not own = $367,500 short**; each $1 gap up on Tue 10/06 = −$500. Fidelity's in-the-money handling in this IRA is **UNOBSERVED (D-60)** — the Oct-01 nine may observe it first if they are held today.
+- **Roll form (construction rule #21):** same strike 735 · later expiry · same five. Indicative at today's screening marks (net = buy at the ask, sell the Oct-05 at the bid): **Oct-09 735P** 6.74 / 6.76 ⇒ **≈ $2.98/ct (≈ $1,490 for five)** · **Oct-16 735P** 9.61 / 9.67 ⇒ ≈ $5.89/ct (≈ $2,945). ⚠️ **Monday's net debit will be HIGHER than these**: the Oct-05 leg loses its time value by Monday while the far leg keeps most of its own. Re-price Monday.
+- **Coordination with WQ-347:** if the Oct-01 nine are rolled to Oct-09 today, a Monday roll of these five to Oct-09 stacks fourteen puts on one Friday expiry. Desk preference in that case: Oct-16.
+- **Root rule #6:** today is red for QQQ, the wrong colour to BUY a put leg and the right colour to SELL. Monday's colour is unknown — read it at the order, in figures.
+
+## 4. Rules on this line, in figures
+
+| Rule | State |
+|---|---|
+| Standing per-card cap ($500 max loss; `STATUS.md` § Standing rules) | Forward max loss = the remaining mark (construction rule #20) ≈ **$1,890 ≈ 3.8× the cap** — Will's own hand on 9/30, recorded |
+| Durable finding 9 (every profit zone needs its own harvest rule) | ⚠️ **No P/L-keyed harvest exists on this line.** The line is ≈ +38% at the screening bid with nothing that fires on profit alone. If Will wants one, the desk's suggested form: **sell all five at any Fidelity bid ≥ $5.46 (2× the $2.73 fill) before Monday's stop** — a suggestion for Will to adopt or not, not a live rule |
+| Durable finding 1 (deploy on a fired trigger) | The 9/30 buy had no fired trigger on file — recorded, not re-litigated |
+
+## 5. Bottom line
+
+Nothing is owed today. **Monday by 15:00 ET: SELL at Fidelity's bid (desk lean, for the same reasons as the Oct-01 card — no agent thesis, no trigger, every roll adds cash at risk) or ROLL to 735P Oct-16 as one net-debit order.** Hold is not on the menu.
+
+**APPROVAL REQUIRED — Will must approve/reject before execution.**
