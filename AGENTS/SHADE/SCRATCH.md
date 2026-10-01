@@ -20,7 +20,7 @@
 
 1. **W1 leg (a) — FOUND** (issuer route, `ir.athene.com/financial-information/statutory-filings`). ⚠️ Not via any of the three named routes; tally is PROME's. ⚠️ My 8/28 "resolved" was the wrong entity (Delaware Life).
 2. **W1 leg (b) — NOT FOUND** (AARe related-party note = body Note 15; no entity, no split; subsequent events omit the close).
-3. **§2.8 damaged:** AAIA Sch B Pt 2 — 62 loans dated 4/24/2026, **$7,405,267,470** ≈ 85% of $8.7B.
+3. **§2.8 damaged:** AAIA Sch B Pt 2 — 62 loans dated 4/24/2026, **$7,405,267,470** ≈ 85% of $8.7B BY DATE — ⚠️ ARI identity UNDETERMINED by the 10/1 rule-based match (31.4% matched; `research/ARI_ATTRIBUTION_MATCH_2026-10-01.md`).
 4. **`T-SHADE-01` re-read, dated in `CLAUDE.md`.** NOT ARMED.
 5. **STATUS rotated verbatim** (crc `8f171d07`, `tail -n +5`) and rewritten live-state-only. **Boot step 4a → grep.**
 6. **25 inbox items drained.** Packets: PROME (memo + cadence/watch terms), CREED (AAIA read-across).
@@ -59,7 +59,7 @@
 |---|---|
 | **Vector #1 Delaware Life** | 🔴🔴 FIRING; marker (0) MET; marker (4) PARTIAL (size, secondary). NO CHARGES. |
 | **W1 tally** | SHADE (a) FOUND / (b) NOT FOUND; CREED FOUND; BROCK owed. **PROME's call** (strict vs functional reading of (a)). |
-| **§2.8** | 🟠 **Legal landing ~85% visible at AAIA (INFERRED ARI); economic split to Bermuda not visible.** |
+| **§2.8** | 🟠 **~$7.4B (≈85% of the ARI price) visible at AAIA BY DATE; ARI identity UNDETERMINED by rule (31.4%); post-hoc ~80/20 split on about half the loans; economic split to Bermuda not visible.** |
 | **`T-SHADE-01`** | ❌ NOT ARMED — level 4/5 live, sign NOT MET. |
 | **X1 ≡ T-SHADE-01 reconcile** | Not landed; L494 sitting 10/2 (BROCK convenes) rules X1, not my trigger. |
 | **FABN canary / kill-path 1** | 🟡 YELLOW; first graded read Q3 cluster. |
@@ -67,7 +67,12 @@
 
 ---
 
+## POST-DELIVERY STATE (closeout 13:01 ET)
+- W1 tally NOT RULED: DOCKET L182 carries leg (a) as TWO READINGS; BROCK's leg is at its **10/02** wake.
+- 10 WATCH_FOR phrases landed in `Research-Intake` (`515496b`, `ebde594`). ⚠️ **No lane query fetches them yet (PROME owes it), so silence is not evidence.**
+- Owed by **2026-10-08** (WEEKLY cadence): PREDICTIONS.tsv + declared-flat TRADE (overdue since 9/30) · MEMORY rotation · ARI DEFM14A read · illiquid-ABS definition proposal · SVO count.
+
 ## MAIL STATE
 
-**inbox/ root: EMPTY. inbox/WALTER/: EMPTY** (25 consumed 10/1, each with a `board_log.tsv` row). **WQ-295 R3 verdict packet: not present** (SHADE had proposed no terms before today).
+**inbox/ root: EMPTY. inbox/WALTER/: EMPTY** at closeout 13:01 ET — **27 items consumed 10/1** (25 at touch 1 + WALTER R3 verdict + `SIG-W-20261001-017` Hertz, info-only), each with a `board_log.tsv` row. **WQ-295 R3 verdict packet: not present** (SHADE had proposed no terms before today).
 **Outbound 10/1:** `PROME/inbox/2026-10-01_from-SHADE_w1-legs-and-catchup.md` (delivery memo) · `PROME/inbox/2026-10-01_from-SHADE_cadence-and-watch-terms.md` (CADENCE WEEKLY + 10 phrases, cc WALTER) · `AGENTS/CREED/inbox/2026-10-01_from-SHADE_ARI-landed-at-AAIA-…md` (INFO).

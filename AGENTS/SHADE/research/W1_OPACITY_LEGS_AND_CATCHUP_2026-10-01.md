@@ -57,12 +57,12 @@ The AAIA Q2-2026 statutory **Schedule B Part 2** (mortgage loans acquired during
 | **Commercial + mezz, 4/24/2026** | **62** | **$7,405,267,470** |
 | *(0399999 residential, same date — routine, excluded)* | *115* | *$68,926,544* |
 
-⇒ **~$7.41B of commercial + mezz loans entered AAIA (a US Iowa insurer) on the ARI close date = ~85% of the $8.7B paid consideration** `[ATH Q2-26 10-Q 0001527469-26-000056, carried]`. Rows include out-of-US collateral (e.g. a Berlin, DEU loan, $190.7M cost), consistent with ARI's book.
+⇒ **~$7.41B of commercial + mezz loans entered AAIA (a US Iowa insurer) on the ARI close date = ~85% of the $8.7B paid consideration, BY DATE** *(⚠️ 10/1 touch 2: the identity test graded UNDETERMINED, 31.4% matched under the pre-registered rule — `research/ARI_ATTRIBUTION_MATCH_2026-10-01.md`)* `[ATH Q2-26 10-Q 0001527469-26-000056, carried]`. Rows include out-of-US collateral (e.g. a Berlin, DEU loan, $190.7M cost), consistent with ARI's book.
 
 **Confidence: the SUMS are VERIFIED parse outputs of the published schedule (regex over `pdftotext -layout`; first numeric field after the rate = column 7 "Actual Cost at Time of Acquisition"). The ATTRIBUTION TO ARI is INFERRED** — by date coincidence, size and composition; the schedule does not name a seller. **Named test that would confirm or kill it:** match 3-5 of the largest 4/24 loans (Boston $181.6M land value · Liberty Township OH · New York $133.6M · Chicago $72.7M · Berlin $190.7M) to ARI's own 10-K/10-Q loan tables by location/size/rate.
 
 **What this does to §2.8:**
-- ❌ **"The split is never disclosed" is FALSE at the LEGAL-landing level** — Athene's own quarterly statutory filing shows where ~85% of it legally landed, loan by loan.
+- ❌ **"The split is never disclosed" is FALSE at the LEGAL-landing level** — Athene's own quarterly statutory filing shows, loan by loan, ~$7.4B legally landing on the ARI close date. *(Touch 2: identity UNDETERMINED by rule; post-hoc, about half the paired loans sit at AAIA at ~80%, so "where ~85% landed" overstated the certainty.)*
 - ✅ **It SURVIVES at the ECONOMIC level.** AAIA cedes quota-share and modco business to its parent AARe and onward (AAIA 2025 annual Notes 10/23, `archive/ATHENE_AAIA_ARTIFACT_AUDIT_2026-06-15.md`); under modco/funds-withheld the assets stay at the cedent while the economics move. **Which share of those $7.4B is economically ACRA's (63% ADIP-owned) is not visible here.** The remaining ~15% (~$1.3B) landed somewhere not yet located (other entity, or loans not funded at close).
 - ⚠️ **Do not difference this against the 10-Q's +$6,897M** (mortgage loans at FV, consolidated, QoQ) — different entity, basis (cost vs FV) and perimeter.
 

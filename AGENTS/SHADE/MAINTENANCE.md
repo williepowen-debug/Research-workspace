@@ -4,6 +4,15 @@ Structural-change log for SHADE architecture: docs/scripts/protocol/schema chang
 
 ---
 
+### 2026-10-01 (13:01 ET) — FULL CLOSEOUT on Will's word (via PROME), after touch 2 (ARI match + L241)
+
+- **Retirement scan (step 10a), run at this closeout:** `git mv` → `archive/`: `ARCC_Q2_2026_PREREGISTRATION_2026-07-27.md` (graded 0-of-4 on 8/4; referenced only by LAST_COMPLETION/MAINTENANCE/board_log) and `DELAWARE_LIFE_ACCRUED_INTEREST_TEST_2026-07-27.md` (killed by its own test 7/27; referenced only by logs, incl. WALTER kill_log). **Kept, with reasons:** `AGF_NPORT_crawl/floor_2026-06-22` (cited by the live FABN ladder + DAEDALUS profiles) · `FABN_PEER_SPREAD_NPORT_2026-07-27.{py,json}` (cited by the canary spec + 8/28 rerun) · `FABN_PEER_CANARY_INDEPENDENT_2026-07-27.md` (cited by the 8/4 grade card) · `COMBINED_INSURER_SINK_WELD2`, `DELAWARE_LIFE_RELATED_PARTY_RESTATEMENT`, `INSURER_LENDER_DOUBLE_JEOPARDY` (cited by REFERENCE) · `ATHENE_FABN_MATURITY_LADDER` (cited by CLAUDE.md). `domain/sources/` 01–08 still Mar'26, flagged stale in STATUS (no refresh this session).
+- **consumer_check:** cross-agent on the specific figure ($7,405 / ARI-at-AAIA) gave **0 🔴**, 2 unrelated 🟠, so no packets. A bare `85%` needle gave 1,008 unrelated hits, so it certifies nothing. `--self` 8 hits: **all qualified in place by pattern** ("BY DATE" + the UNDETERMINED identity result). The tool still lists them because ≈85% is not superseded: it is a different metric from the 31.4% match share.
+- **Stamp defect, twice this session:** "~12:4x" and "13:0x" were typed from narrative ahead of the clock. Both corrected from `date` before commit (`finding_a_stamp_written_from_narrative_drifts_from_the_wall_clock`).
+- No auto-memory written (memory-index check N/A). Ledger nudge: no live workbook ledgers. Claim check clean.
+
+---
+
 ### 2026-10-01 (~12:1x–12:3x ET) — PROME-spawned (`prome-0c`, WQ-184): STATUS rotation, boot-step 4a grep fix, T-SHADE-01 dated re-read
 
 - **STATUS rotated VERBATIM** → `archive/STATUS_PRE-ROTATION_2026-10-01.md` (orig 32,462 B, crc32 `8f171d07`, **`tail -n +5`** reproduces it — ⚠️ **the banner was first written with `+6` and the crc caught a 15-B shortfall, the IDENTICAL defect of 8/28; fixed before commit, verified by recompute**). New STATUS rewritten as live state only (DAEDALUS PR6 ask 3 / READ_CAP rule 5).
