@@ -30,6 +30,15 @@ Session: **2026-09-30 Wed, Claude Opus 5.5 as WALTER (`walter-36`)**. Booted ~18
 | `-003` | ZHAO: MOFCOM put 2027-01-10 in writing 9/28; **no instrument**; both 11/10 clocks still read 11/10 | — | VULCAN, HAWK, HENRY, WATT, MIDAS |
 | `-004` | CREED's Trepp self-storage packets: refi not cash flow; 3 named loans = 97.9% of an illustrative shortfall; SMRT 2022-MINI Jan 2027; all current | — | REGINALD, CORAL |
 
+**After the 19:0x refresh — Will's 8-image Telegram batch BM-20260930-01 (msgs 4785–4792, ~23:48Z), interrupted by a box crash ~19:53 ET, finished on resume (PROME prome-8c doorbell; PROME snapshot `ea0758028` matched the disk) — commit `aefafc80a`, BOARD 1109 → 1112, 7 handoffs:**
+
+| ID | What | Action → | Info |
+|---|---|---|---|
+| `-005` | **HYPOTHESIS:** OSINT Meteosat plume at an Aramco site west of Abqaiq from ~06:45Z; no MoD/SPA/Aramco/wire confirmation; "Abqaiq plant struck" + "5–7% of supply" NOT carried | **FALCON** | BRENT, HAWK |
+| `-006` | Diesel: Oct HO expiry squeeze $224/bbl (Rory Johnston; our vendor does not reproduce) · MRPL cancels diesel/jet/reformate tenders after a single-unit fire · Russia ban to 10/31 | **BRENT** | HENRY, CARL, TERRY |
+| `-007` | Radiant World: Mariner Geneva criminal complaint ($50M); Jefferies LAM trade-finance fund $500M+ London suit; MFS link unchecked | **BROCK** | LIQUID |
+
+- **Batch items:** 1 FOLD (`-006`) · 2 KILL (MBS rumor, no entity) · 3 `-006` · 4 `-007` · 5 `-005` · 6 KILL (unattributed PIK quote; its 6.3% = `-0915-009`; its "excludes PIK" premise appears contrary to Fitch's method) · 7 DUP (`-0929-006` MOVE/VIX) · 8 NO-ACTION (Credit Mobilier book excerpt). **Manifest CLOSED 8/8.** DOORBELL_LOG +3 (FALCON, BRENT, BROCK; none rung). Anchor +1 line (23,802 B).
 - **kill_log +1:** lane WATCH_HIT "White House diesel export" → Novelty (BRENT already has it 9/30). **First run of the diesel-export-policy terms surfaced a BRENT WATCH_HIT as designed.**
 - **Inbox 7g:** both CREED packets consumed (`git mv` + `.consumed.tsv`). **PROME's ZHAO-terms packet HELD for R3** with the 13 held packets.
 
@@ -58,8 +67,8 @@ Session: **2026-09-30 Wed, Claude Opus 5.5 as WALTER (`walter-36`)**. Booted ~18
 
 1. **Push the state commit** (STATUS/LAST_COMPLETION/MEMORY/SESSION_LOG/intake_seen) when the tree has no foreign work in progress; re-run `closeout_check.py` after.
 2. **R3 watch-phrase test: WAKE Thu 10/01, deadline Fri 10/02 (DOCKET L543)** — `research/2026-09-27_R3-watch-for-test-queue.md` + 13 held packets + **ZHAO's 9 terms (PROME packet 9/30; table at `PROME/inbox/processed/2026-09-30_from-ZHAO_cadence-and-watch-terms.md`)**: LIQUID (reject `money market fund break` by name) · CREED ~30 + Nano · WAL · REGINALD · FLG · DEWEY · BOND's 5 + pulled-deal query · HENRY 6 · VIOLET 9 · AEOLUS 12 · FALCON 12 · HOMER 14 (builder-earnings lane gap) · OSPREY 11 · CRUISE 6 · SAM 12 · LABOR 9 · VULCAN 3 + 2 safety · **ZHAO 9**. Real matcher, `--live`, controls, 0-false bar → memo to owners + PROME. VULCAN's 9/02 Fortune lane-gap answer goes in the memo.
-3. **Thu 10/01 boot:** FRED 9/30 HY vs >320 (12bp) · CCC · claims · ISM · **CREED-T-01a / REG-T-07 Trepp Sept print** (CREED/REGINALD grade) · Iran FULL sweep (reconcile 8/28 "Hormuz reopens" headlines; FALCON's grade of `-0929-011`; Yanbu loadings) · NYC rent freeze (FLG) · UK 30Y vs 6.00 (HANS dark: surface, don't fire).
-4. **Boot check (MEMORY #29):** STATUS BOARD count **1109** vs INDEX.
+3. **Thu 10/01 boot:** 🔴 **FIRST: re-check `-005` (Abqaiq-area plume) for a Saudi/Aramco/CENTCOM primary; a confirmed hit re-routes IMMEDIATE.** FRED 9/30 HY vs >320 (12bp) · CCC · claims · ISM · **CREED-T-01a / REG-T-07 Trepp Sept print** (CREED/REGINALD grade) · Iran FULL sweep (reconcile 8/28 "Hormuz reopens" headlines; FALCON's grade of `-0929-011`; Yanbu loadings) · NYC rent freeze (FLG) · UK 30Y vs 6.00 (HANS dark: surface, don't fire).
+4. **Boot check (MEMORY #29):** STATUS BOARD count **1112** vs INDEX.
 5. **Tier-2 owed:** REGISTRY refresh · the 9/30 size checks · MEMORY notes · full NETWORK AWARENESS regen.
 6. **Nano Banc watch:** FDIC P&A posting (~10/05–10/09; L516) · claims bar date · Fed OIG MLR · L515 sale · Plaza Continental 9/29 hearing outcome (not checked; H8 fires only on an ORDER).
 7. **Carried (still open):** CORAL's FL ACTION items (`-0925-009`, `-014`, `-0929-013`) · YURI routing row (FORMAT_SPEC first) · WQ-286 ④ CORRECTIONS header line · a doctor step reading recipients' `consumed_at` · P2 false-positive-rate proposal · HENRY's deferred items · `fetch.py` contract identity (`BZ*`/`TTF*` UNKNOWN, name-cut) + boot_basis re-hash after reviewing the 7 changed files.
@@ -77,20 +86,21 @@ Session: **2026-09-30 Wed, Claude Opus 5.5 as WALTER (`walter-36`)**. Booted ~18
 ## CLOSEOUT RECEIPT
 
 **Issued at the 9/30 Tier-1 before the state commit.**
-- **9/30 handoffs: 11 written, 11 on origin** (carried by PROME's `0926321f6` push; ledger reconciled). Delivered is not consumed.
+- **9/30 handoffs: 18 written, 18 on origin** (11 carried by PROME's `0926321f6` push; 7 by `aefafc80a`, safe-push receipt confirmed; ledger reconciled). Delivered is not consumed.
 - ⚠️ **This receipt does NOT claim:** that any recipient consumed `-0930-001`…`-004`; that R3 was started; that the FILTER_SPEC boot reads or the 9/30 size checks ran.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-09-30T23:05:48+00:00",
+  "as_of": "2026-10-01T00:51:05+00:00",
   "publication": [
-    {"commit": "83d94f396", "state": "published"}
+    {"commit": "83d94f396", "state": "published"},
+    {"commit": "aefafc80a", "state": "published"}
   ],
   "delivery": {
     "signal_date": "20260930",
-    "total": 11,
-    "delivered": 11
+    "total": 18,
+    "delivered": 18
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
