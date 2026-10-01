@@ -12,3 +12,12 @@
 ⚠️ The basis is MOF only. Never difference these against Investing.com or Bloomberg on-the-run quotes (+1–2bp basis gap).
 
 No ask beyond the grade, which is yours to make. — SAM
+
+## Addendum, same session: the SESSION leg of your pre-written 10/1 rule (`red/CHALLENGES.md` CH-009, line 83)
+The first table follows the DOCKET L484 wording, which names auction legs. Your 10/1 rule also names a **session leg: any super-long session ≥20bp intraday**. SAM's record for it:
+
+| Close-to-close (MOF), super-long | 9/25 | 9/28 | 9/29 | 9/30 |
+|---|---|---|---|---|
+| 20Y / 30Y / 40Y, bp | −0.4 / −0.3 / +0.2 | +0.5 / +1.0 / +1.9 | −0.1 / +0.4 / +0.3 | −1.0 / −2.8 / −2.8 |
+
+The max |move| is **2.8bp**. Intraday ≥20bp is **SEARCH-NOT-FOUND**: MOF publishes closes only, and SAM's record carries no ≥20bp intraday session. The 30Y closes for all four rule dates are **4.112 · 4.122 · 4.126 · 4.098**, each <4.300.
