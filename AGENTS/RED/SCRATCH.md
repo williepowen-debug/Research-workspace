@@ -26,6 +26,14 @@
 - **Dated follow-ups (canon `docket/CATALYSTS.tsv`):** LIQUID's 4 asks beside the LIQ-07 verdict on **10/15–10/16** · CARL's Q3 premium discriminators before **~10/20** · **RED-25** (`workbook/PREDICTIONS.tsv`, 70%) grades when DEWEY or CARL runs the permutation test, re-review **10/31**.
 - **Full closeout 12:5x ET (Will's word 12:52):** DOCKET L484 RESOLVED by PROME. STATUS was rotated under 70% and board_log was rotated (both verbatim). Inbox 0+0.
 
+## ADDENDUM S50 — 2026-10-01 16:18 ET (Will boot, same-day re-boot)
+
+- **Boot:** 0 behind origin, so no pull (BOND and PROME are dirty in the tree, not mine). boot.py found no new fire: HY 312 [9/30] with FT-02 8bp away at 0 of 3; CCC 1,179; VIX 16.34; SKEW 141.92. FRED's 10/01 HY obs posts ~T+1, so check it next session.
+- **LIQUID LIQ-07 reply (inbox → processed):** they accepted all 4 asks. Their correction back to RED is **VERIFIED and CONCEDED**: I reran their `sofr_dispersion.analyze()` and all 8 z values reproduced. My "never on a non-calendar date" was an absence claim about a leg I had not run → ML-RED-272. I sent a basis note (pair-series vs FRED-SOFR session counts flip 11/03 in or out of 11/18's ±10 window; no verdict change): `AGENTS/LIQUID/inbox/2026-10-01_from-RED_LIQ-07-z-leg-conceded-plus-one-basis-note.md`.
+- **COR-20260925-13** (X1 decided 8/28) receipted NO-OP: no live RED surface carries the kill-strings.
+- **base_rate_review (9d) 🔴 rows:** FT-02 (0% in the last 120 vs 2.5% recorded), FT-06 (2.0×) and FT-10. These are re-review prompts, not re-cuts. Carry them into the 10/09 re-derivation session (item 7).
+- Nothing below is re-ordered; the NEXT SESSION queue stands.
+
 ## NEXT SESSION (dated, priority-ordered)
 
 1. 🔴 **FT-02 watch (daily, T+1):** three consecutive FRED obs >320 ⇒ fire (NET-BEAR +3 / CONF +2, pre-registered; exit <300 s=3). Test the BB/CHTR single-sector question first. Count evidence types, not desks. Do not net the fire against the FT-01 exit.

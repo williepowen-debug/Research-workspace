@@ -2,3 +2,4 @@ receipt_date	correction_id	action	note
 2026-08-28T17:44Z	COR-20260828-01	APPLIED	
 2026-09-10T20:11Z	COR-20260908-03	APPLIED	
 2026-09-25T13:17Z	COR-20260924-04	APPLIED	
+2026-10-01T20:18Z	COR-20260925-13	NO-OP	No live RED surface carries the kill-strings (grep 10/01, 16:18 ET); sole hit = processed LIQUID 8/27 inbox packet, a dated artifact. RED FT-01 exit executed on canon >= 9/29, independent of X1.
