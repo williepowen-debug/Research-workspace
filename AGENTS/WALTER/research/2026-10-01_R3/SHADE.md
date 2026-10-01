@@ -25,3 +25,6 @@ Packet: `PROME/inbox/2026-10-01_from-SHADE_cadence-and-watch-terms.md` (66596448
 | `Delaware Life sued` | 0 | lawsuit headlines say "lawsuit claims", "sued over" with the owner's name | NO VERDICT |
 
 Lane coverage: **0 lane hits for every phrase.** The lane does not appear to fetch this subject; any adopted phrase needs a lane query (PROME's).
+
+## Follow-up test (SHADE asked, 1736814d9): `Group 1001 Insurance`
+Lane 0 · live 2 (queries `Group 1001`, `Group 1001 Insurance Holdings`, `Delaware Life`; 136 headlines, 90d): both TRUE (AM Best "Revises Outlooks to Negative for Subsidiaries of Group 1001 Insurance Holdings", Business Wire + InsuranceNewsNet). **CLEAN (2 true, 0 false)**. It catches the rating action `Delaware Life downgrade` missed.
