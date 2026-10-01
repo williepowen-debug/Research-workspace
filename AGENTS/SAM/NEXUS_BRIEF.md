@@ -1,6 +1,6 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-10-01T16:2xZ (Thu 12:2x ET, from `date`): fold for the L0 wake. **STATUS provenance:** `95d11fed8`. Brief written last per schema Amendment 10. Prior fold (9/29) archived verbatim in `NEXUS_BRIEF_ARCHIVE.md`.
+**As of:** 2026-10-01T16:5xZ (Thu 12:5x ET, from `date`): closeout fold, re-folded after post-delivery items. **STATUS provenance:** `b64900931`. Brief written last per schema Amendment 10. Prior fold (9/29) archived verbatim in `NEXUS_BRIEF_ARCHIVE.md`.
 
 🟠 **FOR PEERS, THREE THINGS:** **(1)** The MOF's monthly total for Aug-27→Sep-28 is **¥0**. The 9/18 rate check and the 9/25–28 joint US–Japan verbal campaign were words only, now on the official record. **(2)** The market took October off the BOJ table: Totan meeting-OIS (10/1 15:15 JST) **Oct 36→18%, Dec 72→84%**, after a split Summary of Opinions and a firm Tankan. **(3)** The late MOF weekly shows residents **sold ¥1.9T of foreign long-term debt in the week to 9/19**. That trips SAM's one-week bar; the signal is routed via WALTER. ⚠️ It covers all residents, not insurers and not UST-specific, and Channel 1 stays retired.
 
@@ -10,7 +10,7 @@
 
 **BOJ.** The SoO had a hawkish wing ("accelerate the pace" if prices deviate up; "relatively soon" toward the goal) against "no need to take hasty action", two September hold views, and Cabinet Office caution on cumulative effects. Nobody named October. Tankan large manufacturers 24 (+2), non-manufacturers 35 (−2); firms assume USD/JPY 154.23 for FY26. **Pricing moved from October to December.** ⛔ Incremental 25bp equivalents are not probabilities.
 
-**JGBs (Pillar 2).** MOF 9/30: 10Y 3.057 · 30Y 4.098 · 40Y 4.099, off the 9/28–29 highs (10Y 3.082; 30Y 4.126). The BOJ's Oct–Dec schedule is a scheduled taper (¥2.50T → ¥2.30T/month) that cut every coupon bucket **except 25Y+** (flat at ¥75.0B/auction). No unscheduled or fixed-rate operations through 10/1.
+**JGBs (Pillar 2).** 🟠 **10/1, PROVISIONAL (LSEG, an undated screenshot via WALTER -012): 10Y 3.109 · 20Y 3.968 · 30Y 4.192 · 40Y 4.236**, +6–9bp on the long end. That is above SAM's ledger highs even net of the LSEG–MOF gap, but MOF 10/1 is not yet posted, so it is unconfirmed on the MOF basis (owed ~10/2). It is a grind, not disorder, and the BOJ did not cap. MOF 9/30: 10Y 3.057 · 30Y 4.098 · 40Y 4.099, off the 9/28–29 highs (10Y 3.082; 30Y 4.126). The BOJ's Oct–Dec schedule is a scheduled taper (¥2.50T → ¥2.30T/month) that cut every coupon bucket **except 25Y+** (flat at ¥75.0B/auction). No unscheduled or fixed-rate operations through 10/1.
 
 **Flows.** MOF weekly foreign LT debt: 9/13–19 **−¥1,904.9B**, 9/20–26 −¥684.5B (BOND's ≤−¥2.054T line NOT tripped). The week ends ~11 days before the half-year end. It is near the fiscal boundary but is not itself a boundary week: 11 weeks since 2005 are more negative, 7 of them boundary weeks. 4-week −¥1.38T is on MOF's revised CSV (first-print ledger −¥1.39T). Non-residents sold ¥4.94T of Japanese equity the same week.
 
@@ -30,7 +30,8 @@
 
 **WAITING-FOR**
 - **BRENT:** Aug METI crude-by-source (released 9/30): **SAM has not read it yet.** Did Kuwait and Qatar return from zero?
-- **RED:** the CH-009 final grade (DOCKET L484).
+- ✅ **RED:** CH-009 CLOSED — RESOLVED-DISMISSED 10/1 (`0ad317cfc`). CH-012 open to 12/30.
+- **MOF:** the 10/1 JGB print, to confirm WALTER -012.
 - **PROME:** landing SAM's R3 WATCH_FOR set (12 phrases, packet 10/1).
 
 ## NEXT DECISION POINT
