@@ -11,6 +11,12 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 
 ---
 
+## 2026-10-01 — case ledger takes external datasets: `cases/sources/`, the `LEAD` tier, and two scripts (Will: "adopt all the rows")
+
+- **Why:** Will supplied his own CRE loss-sales research (101 event rows, then three analytical sheets) and directed adopting all of it. The ledger had no home for an external dataset and no honest tier for rows with no source link.
+- **What:** `cases/sources/` holds unchanged copies of the workbook (v4 CURRENT, v3 for provenance) + verbatim TSVs of every sheet. `scripts/import_cre_workbook.py` maps it into CASES / CASE_EVENTS / CASE_NOTES (rules in its header; one-shot, refuses a second run; dry-run on a scratch copy via `CASES_DIR`). README rule 7 gains `LEAD` (no source link; recorded, not citable). `scripts/workbook_patterns.py` reproduces the pattern note's figures. Research agents' verbatim notes live in `research/2026-10-01_holdermap_agents/`, labelled unverified, beside the synthesis that cites them.
+- **Lesson kept:** the v4 re-import replaced unconsumed v3 rows only after proving every pre-existing row byte-identical; a re-run is safe only while nothing downstream has consumed the rows.
+
 ## 2026-09-30 (night) — `trepptalk_sweep.py` repaired + approved research re-labelled (CATO RC4/RC5, PROME packet `1193d4d7d`)
 
 - **Why:** CATO `AGENTS/CATO/runs/2026-09-30_2132_system-recent-commits-review.md` RC4 + RC5, verified by PROME. Will asked PROME to investigate and fix what is true (21:52 ET). Both claims were confirmed at the code and the record before any edit.
