@@ -1,0 +1,55 @@
+{
+  "board": {
+    "unpublished_malformed_draft": {
+      "rc": 0,
+      "cursor": "SIG-W-20260930-005",
+      "output": "BOARD-SCAN \u2014 1 new since SIG-W-20260930-004  [0 action \u00b7 0 info \u00b7 1 not-PROME]\n\n\u00b7  1 not routed to PROME (listed for completeness):\n   SIG-W-20260930-005-draft [\u2014] \n\ncursor \u2192 SIG-W-20260930-005"
+    },
+    "same_id_completed_with_action": {
+      "rc": 0,
+      "output": "BOARD-SCAN \u2713 nothing new since SIG-W-20260930-005"
+    },
+    "valid_action_control": {
+      "rc": 1,
+      "cursor": "SIG-W-20260930-004",
+      "output": "BOARD-SCAN \u2014 1 new since SIG-W-20260930-004  [1 action \u00b7 0 info \u00b7 0 not-PROME]\n\n\ud83d\udd34 PROME ON ACTION LINE \u2014 disposition before proceeding:\n   SIG-W-20260930-005  [?/?]\n      Now published with an action\n\n\u26a0\ufe0f  cursor NOT advanced \u2014 1 ACTION line(s) above are undispositioned. After dispositioning, re-run with --advance --ack-actions to move the cursor."
+    },
+    "late_lower_id": {
+      "rc": 0,
+      "output": "BOARD-SCAN \u2713 nothing new since SIG-W-20260930-006"
+    }
+  },
+  "trepp": {
+    "eight_of_nine_pages_fail": {
+      "rc": 0,
+      "output": "TREPPTALK SWEEP -- 2026-09-30 -- 1 posts parsed from 1/9 pages; 1 within 45d (or undated); NEW 0 / SEEN 1\n  \u26a0\ufe0f  pages failed: ['topic/industrial-real-estate: TimeoutError', 'topic/multifamily-real-estate: TimeoutError', 'topic/retail-real-estate: TimeoutError', 'topic/lodging-real-estate: TimeoutError', 'topic/self-storage-real-estate: TimeoutError', 'topic/operating-expenses: TimeoutError', 'topic/cmbs-news: TimeoutError', 'all: TimeoutError']\n  A NEW row is a prompt to LOOK, not a signal. 'SEEN' = the slug appears somewhere under AGENTS/CREED/, which is not proof it was read closely."
+    },
+    "eight_of_nine_pages_parse_empty": {
+      "rc": 0,
+      "output": "TREPPTALK SWEEP -- 2026-09-30 -- 1 posts parsed from 9/9 pages; 1 within 45d (or undated); NEW 0 / SEEN 1\n  A NEW row is a prompt to LOOK, not a signal. 'SEEN' = the slug appears somewhere under AGENTS/CREED/, which is not proof it was read closely."
+    },
+    "all_undated_rows": {
+      "rc": 1,
+      "rows_shown": 12,
+      "rows_available": 15,
+      "output": "TREPPTALK SWEEP -- 2026-09-30 -- 15 posts parsed from 9/9 pages; 15 within 45d (or undated); NEW 15 / SEEN 0\n  NEW   undated    Synthetic article 00\n        https://example.invalid/0\n  NEW   undated    Synthetic article 01\n        https://example.invalid/1\n  NEW   undated    Synthetic article 02\n        https://example.invalid/2\n  NEW   undated    Synthetic article 03\n        https://example.invalid/3\n  NEW   undated    Synthetic article 04\n        https://example.invalid/4\n  NEW   undated    Synthetic article 05\n        https://example.invalid/5\n  NEW   undated    Synthetic article 06\n        https://example.invalid/6\n  NEW   undated    Synthetic article 07\n        https://example.invalid/7\n  NEW   undated    Synthetic article 08\n        https://example.invalid/8\n  NEW   undated    Synthetic article 09\n        https://example.invalid/9\n  NEW   undated    Synthetic article 10\n        https://example.invalid/10\n  NEW   undated    Synthetic article 11\n        https://example.invalid/11\n  ... 3 more undated NEW rows not shown (only on the 'all' page, which carries no dates; --all to list)\n  A NEW row is a prompt to LOOK, not a signal. 'SEEN' = the slug appears somewhere under AGENTS/CREED/, which is not proof it was read closely."
+    },
+    "dates_above_titles": {
+      "newest-post": "2026-08-01",
+      "older-post": "2026-08-01"
+    }
+  },
+  "brent": {
+    "windows": 88,
+    "counts": {
+      "NOT_MET": 22,
+      "NO_VERDICT": 15,
+      "MET": 32,
+      "NOT_FIRED": 19
+    },
+    "clusters": 10,
+    "surviving_clusters": 6,
+    "equal_weight_MET_pct": 42.503770739064855,
+    "missing_exact_date_candidates": 7
+  }
+}

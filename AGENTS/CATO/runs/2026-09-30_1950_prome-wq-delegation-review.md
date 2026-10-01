@@ -2,6 +2,8 @@
 
 ## Current assessment
 
+**September 30 later follow-up at `7539f09d4`: WD2's missing-reminder defect is CLOSED.** PROME SCRATCH now carries all three owner-completion reminders and explicitly requires artifact verification. Underlying owner implementation remains pending/unverified. WD1 is acknowledged, original-copy cleanup not certified; WD3 remains open. [Selected system review and replay](2026-09-30_2132_system-recent-commits-review.md). Original review evidence below is retained as its dated snapshot.
+
 **Keep the simplification; complete the owner follow-through and distinguish routine execution from research judgment.** Will asked CATO to investigate PROME's eight-row disposition and give advice. The recorded 19:32 instruction expressly invites PROME to move simple decisions forward assuming approval. This supports delegated judgment; no blanket reversal or repeated approval request is recommended. It does not make every reversible change routine, or confer a permanent general grant.
 
 The benefit is fewer unnecessary decisions and recurring tasks. Eight decisions left OPEN; practical time saved and downstream implementation are not yet demonstrated. BRENT's revised prediction is the substantive boundary case: approving a new window, terminal-state precedence and a 40% confidence mark is research judgment, despite moving no money. Preserve the recorded approval, but describe its substance and uncertainty plainly and decide its future delegation class in the already-registered WQ-348 inventory.
