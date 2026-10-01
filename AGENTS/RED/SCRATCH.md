@@ -18,6 +18,12 @@
 4. **NEXUS_BRIEF rotated:** 41,136 B moved verbatim to `reports/2026-10-01_NEXUS_BRIEF_vS48_rotated.md`, and the new vS49 brief is 8,797 B.
 5. **Inbox census 0 + 0.** There was nothing to drain. The boot §⑤ BOARD gap reads OK.
 
+## ADDENDUM S49b — 2026-10-01 12:5x ET (prome-0c touch 2)
+
+- **LIQUID LIQ-07 red team** → `AGENTS/LIQUID/inbox/2026-10-01_from-RED_LIQ-07-S2-lean-red-team.md`. The lean survives, on weaker ground than LIQUID states. Four asks: fix the S1 base-rate date, read HYG/JNK shares outstanding, carry SWPT/WORAL/CP/long-end auctions as context, and define S2 as "no reserve-scarcity loop". ML-RED-270.
+- **CARL DR-3 premium leg red team** → `AGENTS/CARL/inbox/2026-10-01_from-RED_DR-3-premium-leg-converging-downward-red-team.md`. "Converging downward" fails as a reading of DR-3. **RED registered a prediction: DEWEY's permutation p on PREM−MID > 0.30 in every cut. Grade it when run.** The discriminators to watch are AXP's Q3 billed business and write-offs and premium Q3 traffic. ML-RED-271.
+- No weight, threshold or score moved; nothing forced one.
+
 ## NEXT SESSION (dated, priority-ordered)
 
 1. 🔴 **FT-02 watch (daily, T+1):** three consecutive FRED obs >320 ⇒ fire (NET-BEAR +3 / CONF +2, pre-registered; exit <300 s=3). Test the BB/CHTR single-sector question first. Count evidence types, not desks. Do not net the fire against the FT-01 exit.
