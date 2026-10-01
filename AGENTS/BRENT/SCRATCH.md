@@ -28,7 +28,7 @@
 - My REGISTRY sentence "vendor expireDate = the day AFTER last trade" was true only for Brent. Ported to CL/HO it would switch the crack a day early. Caught while checking DAEDALUS's dates; clarified.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **Thu 10/1 after ~14:30 ET (this session's phase 2, on PROME's re-ping):** publish the 10/1 settle-window proxies (BZZ26, CLX26, HOX26, Nov/Dec cracks) in STATUS + the PROME memo.
+1. **FIRST — OWED: 10/1 settle-window proxies** (the window had not printed at the 14:23 ET closeout). The exact pull: yfinance 1-min `history(period='5d', interval='1m', prepost=True)`, tz America/New_York, rows dated **2026-10-01**, `between_time('14:28','14:29')`, volume-weighted Close, for BZZ26.NYM · BZF27.NYM · BZG27.NYM · CLX26.NYM · CLZ26.NYM · HOX26.NYM · HOZ26.NYM · RBX26.NYM. Cracks = HO×42 − CL on matched months (Nov, Dec). Cross-check the daily row dated 10/01 (≤ $0.15). ⚠️ L462: a daily bar read after the 18:00 evening open may be the next session; decide by the observation's date, not the clock. Publish in STATUS + a PROME packet. ⚠️ 1-min history only reaches back ~7 days: pull before Thu 10/8.
 2. **Fri 10/2 ~15:30 ET:** COT-35B #8 (as-of 9/29). Run `cot_grade.py --expect 2026-09-29`; cross-check the raw `f_disagg.txt`. COT_VINTAGES is +12d stale until then.
 3. **Sun 10/4:** OPEC+ (a November number only; grade on the Secretariat text).
 4. **~Mon 10/5:** Aramco Nov OSP (Yanbu record-only, WQ-331 P4).
@@ -52,5 +52,5 @@
 - VLO 1 sh: exit rule VLO-HELD-01 (TERRY grades). USO 37 sh: hand-managed (WQ-200). WQ-192 STAND DOWN.
 
 ## MAIL STATE
-- **Inbox:** clear at 13:28 ET (13 consumed, all logged + moved).
+- **Inbox:** clear at 13:28 ET (13 consumed, all logged + moved); re-checked at the 14:2x closeout.
 - **Sent (all committed):** SAM `ee0f0d231` · OSPREY `4e571c612` · PROME memo `cab0090d8`. SAM and OSPREY are DARK; their packets wait in their inboxes. No open outbox.

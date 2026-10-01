@@ -5,7 +5,7 @@
 
 **Status:** 10/1: **nothing fires** — VLO-HELD-01 B1 NOT FIRED (no signed text), leg A $16.35 above $90.16 on the 9/30 Nov crack proxy $106.51 · **BRT-31 REGISTERED** (Path B, 40%, w/e 10/9→11/27) · China product-export halt (size UNKNOWN) · last US SPR exchange (≤40M, Nov–Dec) · METI Aug: Kuwait/Qatar off zero at ~10%/~33% of last year · 9/30: BRT-29 FAILED · BRT-12 VOID · **F-b Cushing FIRED** (THESIS v5.11) · BZZ26 graded from 9/30 · $0.
 **Domain:** Oil/energy physical balance, structure and transmission.
-**As of:** 2026-10-01 13:3x ET by `date` (scoped, see banner); 10/1 settle-window proxies pending (phase 2). EIA vintage wk-9/25 (next Wed 10/7). Tape = vendor bars; no gate graded off them. Incident states NOT re-verified (11 ACTIVE rows past 60d).
+**As of:** 2026-10-01 13:3x ET by `date` (scoped, see banner); 10/1 settle-window proxies OWED (not printed at the 14:23 ET closeout; first item next session). EIA vintage wk-9/25 (next Wed 10/7). Tape = vendor bars; no gate graded off them. Incident states NOT re-verified (11 ACTIVE rows past 60d).
 
 ## CROSS-DOMAIN
 
