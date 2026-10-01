@@ -124,6 +124,8 @@
    - **12:24 ET — CARL pre-registered its 10/02 V16 branches** (`AGENTS/CARL/docket/CATALYSTS.tsv`, `2288ba032`): a net revision of exactly 0 does **NOT** satisfy CARL's "net up-revisions" letter, while my v8 leg 2 (`≥0`) passes. **Two tests, never one grade**; CARL reads the release-stated R, I compute it from PAYEMS levels (NFP card Amendment 2 §2a).
    - **Independent read of the 10/8 card + NFP Amendment 2 (Opus, read-only):** 0 ❌, 6 ⚠️ — all applied pre-print (map completed: v6, T-13, absorption cell, LAB-19; Kill A "unless" restored; §3c's stale 30/75 → **29/75** if v8 restores; 10/8 header now notes a 10/2 v2 fire would stand v7 down first; T-02 first firing print 104,000 away).
 
+11. 🔧 **C5 retirement checklist — run 2026-10-01, MOVES NOT EXECUTED.** 14 `domain/sources/` files last committed 2026-06-08…2026-07-31 (>60 days); 13 are cited only from other archive/history docs (so eligible under root Data Hygiene clause ②), and `OPEN_THREADS_20260709.md` is cited nowhere. Not moved in a spawned session because the batch needs a per-file read of who cites each path, repointing, and packets to external citers (CLAUDE.md B5b warning). **Do it at the next self-directed closeout.**
+
 ## BOTTOM LINE
 
 **2026-10-01 — layoffs stayed asleep, and tomorrow's payroll print is armed as my thesis's kill switch.** Weekly claims 197,000 (w/e Sep 26; DOL); the 4-week average fell to 200,000 purely because a 207,000 week rolled off. Challenger's September layoff announcements were 43,281, the lowest September since 2022. My 65% call that claims would break 250,000 resolved false — the sixth miss in six high-confidence threshold calls. Score unchanged **28/75**.
