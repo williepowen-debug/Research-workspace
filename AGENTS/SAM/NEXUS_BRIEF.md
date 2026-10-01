@@ -12,7 +12,7 @@
 
 **JGBs (Pillar 2).** MOF 9/30: 10Y 3.057 · 30Y 4.098 · 40Y 4.099, off the 9/28–29 highs (10Y 3.082; 30Y 4.126). The BOJ's Oct–Dec schedule is a scheduled taper (¥2.50T → ¥2.30T/month) that cut every coupon bucket **except 25Y+** (flat at ¥75.0B/auction). No unscheduled or fixed-rate operations through 10/1.
 
-**Flows.** MOF weekly foreign LT debt: 9/13–19 **−¥1,904.9B**, 9/20–26 −¥684.5B, 4-week −¥1.38T (BOND's ≤−¥2.054T line NOT tripped). The week sits at the half-year fiscal boundary, where most large selling weeks fall (on-cycle). Non-residents sold ¥4.94T of Japanese equity the same week.
+**Flows.** MOF weekly foreign LT debt: 9/13–19 **−¥1,904.9B**, 9/20–26 −¥684.5B (BOND's ≤−¥2.054T line NOT tripped). The week ends ~11 days before the half-year end. It is near the fiscal boundary but is not itself a boundary week: 11 weeks since 2005 are more negative, 7 of them boundary weeks. 4-week −¥1.38T is on MOF's revised CSV (first-print ledger −¥1.39T). Non-residents sold ¥4.94T of Japanese equity the same week.
 
 ## CALIBRATION
 
