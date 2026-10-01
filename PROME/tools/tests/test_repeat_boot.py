@@ -515,6 +515,9 @@ class Refresh(Fixture):
             subprocess.run(['git','-C',str(self.root),'-c','user.email=f@example.invalid','-c','user.name=f','commit','-q','-m',sid],check=True)
         publish(1,'OTHER','old')
         command=[sys.executable,'-B',str(script)]
+        # the consumed ledger is never rebuilt implicitly: the fixture runs the one-time migration
+        seed=subprocess.run(command+['--seed-from-cursor'],cwd=self.root,capture_output=True,text=True)
+        self.assertEqual(seed.returncode,0,seed.stderr)
         first=subprocess.run(command,cwd=self.root,capture_output=True,text=True)
         self.assertEqual(first.returncode,0)
         publish(2,'PROME','new action')
