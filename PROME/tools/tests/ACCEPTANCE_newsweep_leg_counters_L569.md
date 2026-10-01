@@ -2,8 +2,9 @@
 
 **Written BEFORE any edit** (WQ-229 repair-completion discipline). **Author:** PROME `prome-2f`, 2026-10-01 (clock: the commit time of this file). **Owner:** PROME (RESEARCH-INTAKE is PROME-built). **Finder / consumer:** WALTER, packet `PROME/inbox/2026-10-01_from-WALTER_newsweep-silent-google-leg-failure-collector-counters.md`. **Spec refinement:** CATO `817e5be69`. **Class:** WQ-229 consequential — a shared contract (`liveness.json` is read by WALTER's `walter_doctor.py` and `intake_scan.py`) and a defect that has already recurred (2026-09-17 and 2026-09-30).
 
-reads: 1
+reads: 2
 - 2026-10-01 15:4x ET — RESULT read, `l569-reader` (Opus, general-purpose, own counterexamples run on fixtures): 28 claims · 19 ✅ / 6 ⚠️ / 3 ❌ (ACTION 2 · BASIS 1). Ledger: session scratchpad `l569_read1.md`; the ❌ rows and the ⚠️ residue are reproduced under Disposition. All three ❌ fixed in ONE pass after the read; that pass is UNREVIEWED until read 2.
+- 2026-10-01 — RESULT read 2, `l569-reader-2` (Opus, fresh context, own counterexamples): 21 rows · 13 ✅ / 5 ⚠️ / 4 ❌ (ACTION 2 · BASIS 2). The three read-1 defects CLOSED (re-run on read 1's own fixtures). Healthy-input parity VERIFIED: on the real config and classifier `news.json` and `news_seen.json` are byte-identical between HEAD and the edit. Ledger: session scratchpad `read2/l569_read2.md`. The four ❌ fixed in a second pass, UNREVIEWED until read 3 — the third and last read of this episode.
 
 ## The defect, in its own terms
 
@@ -33,7 +34,7 @@ In: counters and status inside `fetch_newsweep.py`; the News line of `collect.py
 
 **A9 — the web-scrape leg is reported as what it is.** The spec names three legs; this collector has never run the scrape leg (the config list is inert here). It is reported `not_run` with the reason, carries no counters, and never contributes to `ok` or `degraded`. No fabricated zeros.
 
-**A10 — the existing contract is unchanged.** The keys `status`, `new`, `skipped_already_seen`, `by_class`, `alerts`, `saved` keep their meaning; `news.json` item shape is unchanged; the same inputs save the same items as before the edit, EXCEPT the A8 class (amended after read 1: a well-formed non-feed XML body that happens to contain `<item><title>` was saved before and is counted malformed now, by design). One bad item or one bad config row never takes the run down (the unedited collector tolerated both silently; the edit must tolerate both and count them): an exception in classification is a `dropped_processing_error`, a config row from which no URL can be built is a failed request. A whole-run exception outside those two still returns `status: error`.
+**A10 — the existing contract is unchanged.** The keys `status`, `new`, `skipped_already_seen`, `by_class`, `alerts`, `saved` keep their meaning; `news.json` item shape is unchanged; the same inputs save the same items as before the edit, EXCEPT where the unedited collector silently lost or mis-saved data — the A8 class, and any response in which one item raised (the old per-request handler dropped the rest of that response; the edit saves the rest). On inputs where nothing fails, the output is identical. (Amended after reads 1 and 2: a well-formed non-feed XML body that happens to contain `<item><title>` was saved before and is counted malformed now, by design). One bad item or one bad config row never takes the run down (the unedited collector tolerated both silently; the edit must tolerate both and count them): an exception in classification is a `dropped_processing_error`; a config row from which no request can be built (not a dict, a missing key) is a failed request; a body the XML parser raises on (an encoding it cannot decode) is `malformed`. A whole-run exception outside those two still returns `status: error`.
 
 **A11 — the summary keeps its News line on a degraded run,** marked as degraded with the reasons.
 
@@ -59,12 +60,20 @@ In: counters and status inside `fetch_newsweep.py`; the News line of `collect.py
 
 ## Disposition
 
-**After read 1 (2026-10-01): IMPLEMENTED · TESTED (author's suite, `grep -c 'check(' scripts/test_newsweep_counters.py` for the count; shown to fail on the unedited collector) · NOT yet INDEPENDENTLY VERIFIED — the fix pass below is unreviewed.**
+**After read 1 (2026-10-01): IMPLEMENTED · TESTED (author's suite, `grep -c '^check(' scripts/test_newsweep_counters.py` for the count; shown to fail on the unedited collector) · NOT yet INDEPENDENTLY VERIFIED — the fix pass below is unreviewed.**
 
 Read 1's three ❌ and their fixes:
 1. ACTION — a raise inside classification, or a query row with no `query` key, went to the whole-run handler: `status: error`, nothing written, and `collect.py` retried the whole job. Fixed: per-item try in `add` (counted stage + class), URL built inside the counted request try. Tests added from the reader's counterexamples.
 2. ACTION — `FEED_ROOTS` accepted Atom and RSS 1.0 roots while the parser reads only `<item>`, so such a feed read `valid_empty` and `ok`. Fixed: RSS 2.0 root only; Atom fixture test added.
 3. BASIS — A10 claimed identical output for identical inputs; untrue for the A8 class. A10 amended above.
+
+Read 2's four ❌ and their fixes (second correction pass):
+1. ACTION — a 200 body in an encoding ElementTree cannot decode raised past `_parse_feed` and killed the run. Fixed: the parse call sits in its own try; such a body counts `malformed`. Test added.
+2. ACTION — a non-dict config row killed the run (`.get` evaluated outside the counted try). Fixed: every read of the row happens inside the counted try. Test added.
+3. BASIS — the A10 carve-out named only the A8 class. A10 amended above.
+4. BASIS — the count command matched the `def check(` line. Corrected to `^check(`.
+
+Declared residue (read 2 ⚠️, not fixed): a title that raised in one leg is counted `dropped_within_run_dup` if the other leg carries it (never saved; every account still closes) · a suppressed result lacking `entity_info` would count as a processing error (the real classifier always returns the key) · on read 2's one live call the EIA feed timed out at 10 s, which alone degrades the job — Known limit 1 in practice.
 
 Declared residue (read 1 ⚠️, not fixed):
 - `failed_by_class` records `HTTPError` without the status code, so a 429 and a 503 look alike — short of the aim of naming the cause.
