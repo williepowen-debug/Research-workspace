@@ -7,6 +7,12 @@
 
 ⛔ Never Pink Sheet $/mt, never NOLA $/st — different instruments, hundreds of dollars apart, and the gate does not name them.
 
+**Grading terms — mirrored 2026-10-01 from `PROME/GATES.tsv` GATE-FERT-G5 (WQ-351, PROME-encoded 10/01 under Will's 13:54 ET "safe queue rows" instruction; FERT's own §3 text; level, operator, instrument UNCHANGED).** The letter itself stays canonical in GATES — this block mirrors the clarification only, so a grader here reads the same terms:
+- **Geography:** DTN **US national average** retail, as printed in the weekly article.
+- **Tie:** strictly **> $1,000/ton** at DTN's whole-dollar precision — **a $1,000 print does NOT fire.**
+- **Base rate:** the Pink Sheet DAP $781.3/mt = 93rd-percentile figure is registration **CONTEXT, not this gate's base rate** (different instrument, unit, cadence and operator).
+- ⚠️ **Caveat kept (PROME's wording):** "no free DTN base rate exists" is FERT's **inference from one article's subscriber note**, not tested against every archive path.
+
 | Print (article) | Data week | DAP $/ton | MAP $/ton | Binding leg | Gap to $1,000 | Grade |
 |---|---|---|---|---|---|---|
 | 8/12/26 *(registration baseline)* | Aug 3–7 | $917 | $959 | MAP | $41 · **+4.28%** | — |

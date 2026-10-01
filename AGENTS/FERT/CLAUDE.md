@@ -92,9 +92,9 @@ Every price cell you write = **benchmark + unit + date + source tag**. A row nam
 
 📌 **Provenance, recorded so it cannot be re-inferred in reverse:** "potash is UNOWNED fleet-wide" was **never a Will ruling.** The 2026-08-16 re-charter (`PROME/proposals/2026-08-16_fert-recharter-RULED.md`) contains **zero** occurrences of "potash" — it scoped *positively* as "nitrogen AND phosphate." An inference about that wording was recorded as a decision, propagated into the routing table and root `CLAUDE.md`, and stood two days until Will questioned it. WALTER self-caught and reported it. *(`[[finding_dated_carry_item_has_no_expiry_check]]` — an inference recorded as fact has no expiry check either.)*
 
-**First live triage candidate:** Section 338 Canada +50% tariffs took effect 2026-08-19 with **potash explicitly EXCLUDED** — the carve-out is itself the signal (Canadian potash is not readily substitutable). Log it in the form above; do not deep-dive it.
+**First live triage — done:** the Section 338 Canada +50% tariffs (effective 2026-08-19) exclude potash; CBP's enumeration carries zero Chapter 31 lines (`KB-FERT-030`). Live potash triage cells sit in STATUS § Named Blind Spots.
 
-Rules: **(a)** never compare across benchmarks without saying so; **(b)** DTN retail LAGS international by weeks — international series are the leading edge for any transmission timing (assessment method note); **(c)** tender figures: verify the article's own dateline before use — a 2024 Argus piece surfaced as 2026 data during the assessment (two contamination traps caught, §6); **(d)** source-authority token on load-bearing figures (`PRIMARY`/`MIRROR`/`MIRROR-WALLED`, STATE_VOCABULARY Class 6); bls.gov/sec.gov direct fetches 403 to this box's fetcher — use alternate hosts, and per `finding_blocked_mirror_is_not_an_unreachable_primary` never record them as unavailable.
+Rules: **(a)** never compare across benchmarks without saying so; **(b)** DTN retail LAGS international by weeks — international series are the leading edge for any transmission timing (assessment method note); **(c)** tender figures: verify the article's own dateline **and the dateline of the source it cites** before use — a 2024 Argus piece surfaced as 2026 data during the assessment (two traps, §6), and on 2026-10-01 Fertilizer Daily's **2026-dated** RCF articles were found carrying that same 2024-10-03 Argus item as their source (`KB-FERT-048`): a correct dateline on the relay does not date the figure; **(d)** source-authority token on load-bearing figures (`PRIMARY`/`MIRROR`/`MIRROR-WALLED`, STATE_VOCABULARY Class 6); bls.gov/sec.gov direct fetches 403 to this box's fetcher — use alternate hosts, and per `finding_blocked_mirror_is_not_an_unreachable_primary` never record them as unavailable.
 
 ---
 
@@ -110,7 +110,7 @@ Rules: **(a)** never compare across benchmarks without saying so; **(b)** DTN re
 
 ## GATES & THRESHOLDS
 
-**Nothing is registered today.** The assessment §5B candidates (NOLA barge >$550/st FOB · India CFR >$600/t awarded · China quota cut / floor reimposition · CPI food-at-home ≥+0.4% m/m ×2 consecutive · DAP/MAP retail >$1,000/ton) are **PROPOSALS**. First live session: base-rate each at the Pink Sheet backbone (`finding_base_rate_the_threshold_before_building_it` — "don't build it" is a real answer), then bring survivors to Will via PROME for GATES.tsv registration with a fresh-pull basis date.
+**Registered (Will ruling 2026-08-17, record `inbox/processed/2026-08-17_from-PROME_WILL-RULING-gates-G5-G3-RATIFIED-registered-G1-G2-held-G4-declined.md`):** **GATE-FERT-G5** (DTN retail DAP or MAP > $1,000/ton) and **GATE-FERT-G3** (China quota cut / floor reimposition, event gate). Letters are canonical in `PROME/GATES.tsv`; grade history in `workbook/GATE_GRADES.md`; live grade in STATUS. **G1** (NOLA barge >$550/st FOB) and **G2** (India CFR >$600/t awarded) are **held proposals** — re-present on movement toward either line, citing that record. **G4** (CPI food-at-home ≥+0.4% m/m ×2) was **declined as specced** — it reopens only if Will asks for transmission *confirmation* machinery, and then only with the missing-print pause rule in the row text. Any new gate: base-rate it first (`finding_base_rate_the_threshold_before_building_it` — "don't build it" is a real answer), then bring it to Will via PROME with a fresh-pull basis date.
 
 - **Do-not-re-register: `urea NOLA >$800`** — broken as an instrument (unsatisfiable on its named benchmark; assessment §3b).
 - Every gate names its INSTRUMENT (not a concept), unit, source, and revision policy (STRICT_TEXT rules 6-7). Compound gates ship base-rated conditional on trigger state with rationale beside the conjunction (blueprint §3, PAT-072).
@@ -179,8 +179,11 @@ Root `CLAUDE.md` §Git Protocol owns the rules — cite, don't restate. Pathspec
 | `workbook/TRIGGERS.tsv` | Wake register — the event-driven cadence lives here; its `Next_Check` cells are the resolution rule |
 | `workbook/PREDICTIONS.tsv` | Falsifiable forecasts; Status enum in its header; `Resolve_By` feeds the boot scan |
 | `workbook/KB.tsv` | 13-col atomic-claim ledger (schema: `workbook/SCHEMA.tsv`; enums: `AGENTS/VOCABULARIES.tsv`) |
-| `workbook/VX.tsv` · `FLOW.tsv` | Vector states · transmission pathways — March rows are graded history until first-session re-cut |
-| `TRADE.md` | Trade surface; its own banner is the authority (FROZEN 2026-07-04 until first-session disposition) |
+| `workbook/VX.tsv` · `FLOW.tsv` | Vector states · transmission pathways (re-cut at primaries 2026-08-17; March rows survive only as graded history in PREDICTIONS + archive). VX value cells carry the benchmark the row's NAME and BANDS are on — never a neighbouring benchmark |
+| `workbook/GATE_GRADES.md` | Print-by-print gate grade history + mirrored grading terms (letters canonical in `PROME/GATES.tsv`) |
+| `workbook/EXIT_PROTOCOL.md` · `INSTRUMENT_GAPS.md` | Durable kill rails + bidirectional flip · full instrument-gap register |
+| `board_log.tsv` (agent root) | Canonical inbox consumption log (§3b). `workbook/board_log.tsv` is a FROZEN orphaned duplicate — never append there |
+| `TRADE.md` | Trade surface; its own banner is the authority (FROZEN — freeze extended 2026-08-17, next re-look on the banner's date) |
 | `inbox/` + `PROTOCOL.md` · `outbox/` | Mail; processing steps live in PROTOCOL.md |
 | `archive/` | Superseded charters/STATUS — history, never current |
 

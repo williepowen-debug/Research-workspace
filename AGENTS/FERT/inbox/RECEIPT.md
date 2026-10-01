@@ -1,27 +1,24 @@
-# Inbox Processing Receipt — 2026-10-01 15:15 UTC (11:15 ET)
-## Agent: FERT
+# Inbox Processing Receipt — 2026-10-01 20:29 UTC
+## Agent: FERT (full session, Will-launched, 2026-10-01 afternoon)
 
 ### Signals Processed
 | # | Signal File | Action | KB Entries Created | VX/FLOW Changes |
 |---|-------------|--------|-------------------|-----------------|
-| 1 | 2026-09-25_from-PROME_declare-cadence-and-watch-terms-WQ-295.md | INTEGRATE — cadence EVENT-DRIVEN declared; 8 watch phrases harness-tested and packeted (FERT had NO list — packet premise verified false) | — | none |
-| 2 | 2026-09-26_from-PROME_WQ-257-RULED-option-A-ratified.md | INTEGRATE — option A encoded: T5 RETIRED-PENDING-REPLACEMENT, NOLA $/st panel FROZEN, original records kept | KB-FERT-047 (Green Markets 9/25 level, read at the encode) | none |
-| 3 | WALTER/SIG-W-20260928-011.md (Niño 3.4 +3.1°C) | LOG — info-only (no FERT trigger keys on ENSO) | — | none |
+| 1 | 2026-10-01_from-PROME_WQ-351-G5-clarification-ENCODED.md | INTEGRATE — G5 grading terms mirrored on workbook/GATE_GRADES.md + STATUS, PROME's caveat kept | — | — |
+| 2 | 2026-10-01_from-WALTER_R3-watch-for-verdicts.md | INTEGRATE — verdicts by name to PROME/inbox/2026-10-01_from-FERT_R3-watch-for-verdicts.md; live-test hits dated at source (all old) | KB-FERT-052 | VX-FERT-01 note |
+
+### Also worked this session (overdue wake triggers, not inbox)
+T1 closed + re-scoped (KB-FERT-048, Fertilizer Daily contamination) · T2 ERS 9/25 (KB-FERT-049) · T3 Aug CPI (KB-FERT-050) · T8 NASS 9/28 (KB-FERT-051).
 
 ### STATUS.md Changes
-- G5: NOT FIRED 6-of-6 (MAP $967 / DAP $925, 9/23) → NOT FIRED 7-of-7 (MAP $970 / DAP $926, 9/30 print)
-- FERT-12: print 3 $8 headroom → print 4 $5 headroom
-- Vector 2 re-read (committed 9/23): score HELD at 3; vector 4 HELD at 1 (retail nitrogen up one print)
-- NOLA $/st panel FROZEN; T5 RETIRED-PENDING-REPLACEMENT (WQ-257)
+- VX-FERT-04 CORRECTED: value cell held DTN retail $/ton in a NOLA $/st row → NOLA $450–455/st, YELLOW at lower edge
+- Vector 5: tender closed, award price never published; Vector 6: Aug FAH +0.03% m/m SA
 
 ### Outbox Signals Written
-- to-PROME: PROME/inbox/2026-10-01_from-FERT_G5-grade.md (G5 grade + potash flag + DAEDALUS ASK option-(b) proposal + WQ-257 receipt)
-- to-PROME: PROME/inbox/2026-10-01_from-FERT_cadence-and-watch-terms.md (WQ-295)
+- to-PROME (PROME/inbox): WQ-295 R3 FERT phrase verdicts, 10-phrase set to land
 
 ### Files Modified
-STATUS.md, board_log.tsv, workbook/KB.tsv, workbook/TRIGGERS.tsv, workbook/PREDICTIONS.tsv, workbook/GATE_GRADES.md, workbook/INSTRUMENT_GAPS.md, inbox/RECEIPT.md (+ 3 git mv into processed/)
+KB.tsv, VX.tsv, FLOW.tsv, TRIGGERS.tsv, GATE_GRADES.md, board_log.tsv (+ workbook/board_log.tsv FROZEN as orphan), CLAUDE.md (stale present-state lines), STATUS.md
 
 ### Skipped / Issues
-- T1/T2/T3/T8 due and not worked (outside spawn scope) — not re-dated
-- FLOW.tsv stale (+38d) — not refreshed (outside scope)
-- Two board logs exist (AGENTS/FERT/board_log.tsv canonical per spec §5; workbook/board_log.tsv duplicate, last row 9/09) — rows written to the canonical one only; duplicate not reconciled this session
+- Uberaba (Mosaic Brazil) "September hibernation" claim — search-summary only, unverified; left for T12 (10/16).
