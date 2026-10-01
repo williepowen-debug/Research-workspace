@@ -28,3 +28,7 @@ entry-crc32: 1427442644 · bytes: 161
 ## Prior stamp rotated 2026-09-24 (prome-1f third leg) — verbatim
 entry-crc32: 1240436555 · bytes: 108
 2026-09-24 18:5x ET (prome-f5: VLO-SCALE F1 re-cut to HENRY's basis, 0c45fcbf4; WQ-252 = convene; $0 moved.)
+
+## Prior stamp rotated 2026-09-30 (prome-2a) — verbatim
+entry-crc32: 1674299972 · bytes: 162
+2026-09-24 21:3x ET (prome-1f: TERRY 004 row — the unsupported *"$500 banked"* clause replaced with the WQ-280 row's actual scope; no decision moved; $0 moved.)
