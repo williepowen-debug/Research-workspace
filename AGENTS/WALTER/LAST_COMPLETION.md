@@ -1,14 +1,16 @@
 # WALTER — LAST COMPLETION
 
-Session: **2026-09-30 Wed, Claude Opus 5.5 as WALTER (`walter-36`)**. Booted ~18:26 ET on Will's terminal "please boot up"; Will "yes" to the repair + dispatches. **TIER-1 LIGHT refresh ~19:0x ET** (routing session; Tier-2 items deferred, see below). Supersedes the 9/29 `walter-7d` record (in git history; its FOLLOW-UP is carried below, evaluated).
+Session: **2026-09-30 Wed, Claude Opus 5.5 as WALTER (`walter-36`)**. Booted ~18:26 ET on Will's terminal "please boot up"; Will "yes" to the repair + dispatches. Tier-1 refresh ~19:0x ET; box crash ~19:53 ET mid-batch; resumed (PROME `prome-8c` doorbell) and finished the batch; **TIER-2 CLOSEOUT ~21:0x ET on Will's "Lets close out here."** Supersedes the 9/29 `walter-7d` record (in git history; its FOLLOW-UP is carried below, evaluated).
 
 ## STATUS
 
 **Boot: PARTIAL, named exceptions; the operational steps ran.**
-- **Run:** 0 (clean; 0 behind; foreign dirty CREED `board_log.tsv`, since committed) · 0.5 doctor (0 HIGH / 5 MED) · 1–4 whole · 6 both routing files whole · 6b (RED scan sha == canon, 12 rows; REG 8; CREED 11; HANS 17) · 6c (FRED 9/29 prints; 9/30 closes; HANS via `fetch_eu.py` + TE page; Cushing via BRENT's EIA read) · 7 (BOARD-count check: STATUS 1102 vs INDEX 1105 ⇒ post-closeout gap, below) · 7b CLOSED · 7d clear · **7g read the 3 new packets whole before intake** · 7e scan (1 new) + `--mark` · 7e(f) no phone inbox · 7f empty · 8 fs-scan only (CATO, `_archive`) · 9 (no REQ; liaisons dormant) · 9a rc 0 · 9b (`ListAgents`; ORCH_INFLIGHT stale 9/21; foreign-dirty check).
-- **Exceptions (report as-is):** (1) `boot_basis` REVIEW REQUIRED on 7 files (charter, ROUTING_TABLE/OVERLAYS, CHECKLIST, THRESHOLD_SCAN, `fetch.py`, `dashboard.py`); not re-hashed · (2) `reads_check`: READS attestation stale (UNKNOWN perimeter, not a pass) · (3) step 8 REGISTRY row refresh NOT run (ZHAO +5d lag flagged by doctor) · (4) FILTER_SPEC Boot Context scoped reads SKIPPED again · (5) CBOE SKEW publisher blocked (Cloudflare); crude evening bars withheld, #8 not re-pulled; UK 30Y off a web page · (6) CREED / HANS rows not re-graded (owners' calls).
+- **Run:** 0 (clean; 0 behind) · 0.5 doctor (0 HIGH / 5 MED) · 1–4 whole · 6 both routing files whole · 6b (RED scan sha == canon, 12 rows; REG 8; CREED 11; HANS 17) · 6c (FRED 9/29 prints; 9/30 closes; HANS via `fetch_eu.py` + TE page; Cushing via BRENT's EIA read) · 7 (BOARD-count check: STATUS 1102 vs INDEX 1105 ⇒ post-closeout gap, repaired) · 7b CLOSED · 7d clear · **7g read the 3 new packets whole before intake** · 7e scan (1 new) + `--mark` · 7e(f) no phone inbox · 7f empty · 8 fs-scan only · 9 (no REQ; liaisons dormant) · 9a rc 0 · 9b (`ListAgents`; ORCH_INFLIGHT stale 9/21; foreign-dirty check).
+- **Boot exceptions (report as-is):** (1) `boot_basis` REVIEW REQUIRED on 7 files (charter, ROUTING_TABLE/OVERLAYS, CHECKLIST, THRESHOLD_SCAN, `fetch.py`, `dashboard.py`); not re-hashed · (2) `reads_check`: READS attestation stale (UNKNOWN perimeter, not a pass) · (3) FILTER_SPEC Boot Context scoped reads SKIPPED (third session running) · (4) CBOE SKEW publisher blocked (Cloudflare); crude evening bars withheld, #8 not re-pulled; UK 30Y off a web page · (5) CREED / HANS rows not re-graded (owners' calls).
 
-**Closeout: Tier 1 LIGHT.** STATUS header, BOTTOM LINE, market table and NETWORK AWARENESS liveness/dark/doorbell lines re-cut; this file rewritten (it is the obligation list and was describing the world before the 9/29 evening work). ⚠️ **DEFERRED to the next Tier-2, reported as deferred:** REGISTRY refresh (incl. WALTER self row + ZHAO) · MEMORY session notes (only #29 n=5 appended) · NETWORK AWARENESS full regen · 9/30 size checks (anchor, MEMORY, ROUTING_TABLE/OVERLAYS, THRESHOLD_SCAN: all dated "next check 2026-09-30", NOT run) · version-drift sweep · independent review (OPEN DESIGN DECISION (k)).
+**Closeout: Tier 2 FULL (clears both 9/30 `full deferred` breadcrumbs).** Ran: 13 REGISTRY header-only refresh, **11 rows** (REGINALD BRENT LIQUID HENRY ZHAO OTTO BOND CREED SENTRY TERRY WALTER; commit-date basis) + fs-scan (CATO, `_archive` only) · 12(a)/(b) STATUS header + NETWORK AWARENESS regenerated from REGISTRY · 12(e) BOTTOM LINE kept (still true) · 12(f) budget · 14 MEMORY session notes (no new durable finding) · 15 this file · size checks (below) · version drift clean · doctor 0 HIGH / 4 MED. ⚠️ **NOT run: independent end-of-session review (OPEN DESIGN DECISION (k)); market table NOT re-pulled (cut ~18:30 ET, cells dated).**
+
+**Size checks (`read_cap_check --agent WALTER`, 2026-10-01 ~01:0xZ):** READ-CAP 0 within the desk's attested manifest (35 measured). Anchor 23,802 B (73%, 610 B under the 24,412 trigger) · ROUTING_OVERLAYS 22,949 B (71%) · ROUTING_TABLE 19,714 · MEMORY 19,091 · THRESHOLD_SCAN 15,250 · STATUS ~12.4 KB. **REGISTRY.tsv was rotate-tier (24,703 B, 76%) → 22,778 B (<70% stop) by the refresh's compact Focus cells.** 🟡 **`AGENTS/HANS/registry/THRESHOLDS.tsv` 26,639 B = 82%, rotate-tier, in WALTER's 6b perimeter — HANS's file; not touched (FOLLOW-UP 4).**
 
 ## CHANGED
 
@@ -51,28 +53,27 @@ Session: **2026-09-30 Wed, Claude Opus 5.5 as WALTER (`walter-36`)**. Booted ~18
 
 ## GAPS
 
-- **Push:** I deferred mine (foreign PROME/ANVIL work in the tree), but **PROME's 19:05 ET push (`0926321f6`) carried `83d94f396` to origin** (verified by fresh fetch + `merge-base --is-ancestor`). `reconcile_delivery_log.py --apply` run after; 11/11 handoffs delivered. The state commit for STATUS/LAST_COMPLETION/MEMORY/SESSION_LOG is separate (see receipt).
-- Doctor MED (5): delivery_log NOTE/AMENDMENT rows · ZHAO registry lag · 23 unconsumed >2d (4 ACTION, oldest 16d) · **CARL-DR-1 12d past deadline** (CARL's run-or-drop at its 10/01 touch).
-- boot_basis / READS attestation stale (above). **FILTER_SPEC boot reads skipped (third session running).**
-- `-0929-001` carried "30Y 5.613%, a 2002 high" as CNBC's claim; HENRY says DGS30 cannot support a 30Y "since 2002" superlative (series gap). Noted in `-001`, **no correction signal issued** (the claim was attributed to CNBC).
+- **Push:** all session commits on origin by safe-push receipt (`aefafc80a`, `ad66e0ad3`, `edd94b621`); the Tier-2 commit's receipt is in the commit trail. ⚠️ A `git fetch` at closeout start timed out (GitHub SSL); if the push fails for network, it is retried next session (FOLLOW-UP 1).
+- Doctor MED (4): delivery_log NOTE/AMENDMENT rows · 23 unconsumed >2d (4 ACTION, oldest 16d) · **CARL-DR-1 12d past deadline** (CARL's run-or-drop at its 10/01 touch). ZHAO registry lag cleared by this refresh.
+- boot_basis / READS attestation stale. **FILTER_SPEC boot reads skipped (third session running).**
+- `-0929-001` carried "30Y 5.613%, a 2002 high" as CNBC's claim; HENRY says DGS30 cannot support it (series gap). Noted in `-0930-001`, **no correction signal issued** (attributed claim).
+- `-0930-005` rests on OSINT only; **no primary searched after ~23:5xZ 9/30.**
 
 ## WILL_NEEDS
 
 1. **Lane cadence (DOCKET L536):** once a day is the binding latency; 9/30 showed the other half (no WALTER session on a data day, MEMORY #26).
 2. **HOMER's ABS-EE $0 cross-tab build** (loan origination year × building age), offered by HOMER, unverified (`-0929-007`).
 3. WQ-252 (#6/#8 month basis) sitting 10/06 · WQ-295 (R2 held to 10/02) · CATO registration (WQ-255) · HAWK F1/F2 CHECKLIST proposal (owed by WALTER, RULE 8, not drafted).
-4. *(Resolved: WQ-316 — Will rolled the puts, 18:27 ET 9/30 per PROME.)*
 
 ## FOLLOW-UP
 
-1. **Push the state commit** (STATUS/LAST_COMPLETION/MEMORY/SESSION_LOG/intake_seen) when the tree has no foreign work in progress; re-run `closeout_check.py` after.
-2. **R3 watch-phrase test: WAKE Thu 10/01, deadline Fri 10/02 (DOCKET L543)** — `research/2026-09-27_R3-watch-for-test-queue.md` + 13 held packets + **ZHAO's 9 terms (PROME packet 9/30; table at `PROME/inbox/processed/2026-09-30_from-ZHAO_cadence-and-watch-terms.md`)**: LIQUID (reject `money market fund break` by name) · CREED ~30 + Nano · WAL · REGINALD · FLG · DEWEY · BOND's 5 + pulled-deal query · HENRY 6 · VIOLET 9 · AEOLUS 12 · FALCON 12 · HOMER 14 (builder-earnings lane gap) · OSPREY 11 · CRUISE 6 · SAM 12 · LABOR 9 · VULCAN 3 + 2 safety · **ZHAO 9**. Real matcher, `--live`, controls, 0-false bar → memo to owners + PROME. VULCAN's 9/02 Fortune lane-gap answer goes in the memo.
-3. **Thu 10/01 boot:** 🔴 **FIRST: re-check `-005` (Abqaiq-area plume) for a Saudi/Aramco/CENTCOM primary; a confirmed hit re-routes IMMEDIATE.** FRED 9/30 HY vs >320 (12bp) · CCC · claims · ISM · **CREED-T-01a / REG-T-07 Trepp Sept print** (CREED/REGINALD grade) · Iran FULL sweep (reconcile 8/28 "Hormuz reopens" headlines; FALCON's grade of `-0929-011`; Yanbu loadings) · NYC rent freeze (FLG) · UK 30Y vs 6.00 (HANS dark: surface, don't fire).
-4. **Boot check (MEMORY #29):** STATUS BOARD count **1112** vs INDEX.
-5. **Tier-2 owed:** REGISTRY refresh · the 9/30 size checks · MEMORY notes · full NETWORK AWARENESS regen.
-6. **Nano Banc watch:** FDIC P&A posting (~10/05–10/09; L516) · claims bar date · Fed OIG MLR · L515 sale · Plaza Continental 9/29 hearing outcome (not checked; H8 fires only on an ORDER).
-7. **Carried (still open):** CORAL's FL ACTION items (`-0925-009`, `-014`, `-0929-013`) · YURI routing row (FORMAT_SPEC first) · WQ-286 ④ CORRECTIONS header line · a doctor step reading recipients' `consumed_at` · P2 false-positive-rate proposal · HENRY's deferred items · `fetch.py` contract identity (`BZ*`/`TTF*` UNKNOWN, name-cut) + boot_basis re-hash after reviewing the 7 changed files.
-8. **Watch:** 10/02 NFP (LABOR kill ≥+150K), GATE-BRK-R2, BOND WQ-317 page · 10/05 REGINALD WQ-318 · 10/06 WQ-252 · 10/07 BRENT BRT-31 · 10/09 ZHAO instrument re-check · 10/13 LABOR KS WARN.
+1. **If the Tier-2 push did not land (network):** run `scripts/safe-push.sh` + `reconcile_delivery_log.py --apply` at boot; re-run `closeout_check.py`.
+2. **Thu 10/01 boot:** 🔴 **FIRST: re-check `-005` (Abqaiq-area plume) for a Saudi/Aramco/CENTCOM/wire primary; a confirmed hit re-routes IMMEDIATE.** Then Iran FULL sweep (reconcile 8/28 "Hormuz reopens" headlines; FALCON's grade of `-0929-011`; Yanbu loadings) · FRED 9/30 HY vs >320 (12bp at 308) · CCC · claims · ISM · **CREED-T-01a / REG-T-07 Trepp Sept print** (owners grade) · NYC rent freeze (FLG) · UK 30Y vs 6.00 (HANS dark: surface, don't fire). **Boot check (MEMORY #29): STATUS BOARD count 1112 vs INDEX.**
+3. **R3 watch-phrase test: WAKE Thu 10/01, deadline Fri 10/02 (DOCKET L543)** — `research/2026-09-27_R3-watch-for-test-queue.md` + 13 held packets + **ZHAO's 9 terms (table at `PROME/inbox/processed/2026-09-30_from-ZHAO_cadence-and-watch-terms.md`)**: LIQUID (reject `money market fund break` by name) · CREED ~30 + Nano · WAL · REGINALD · FLG · DEWEY · BOND's 5 + pulled-deal query · HENRY 6 · VIOLET 9 · AEOLUS 12 · FALCON 12 · HOMER 14 (builder-earnings lane gap) · OSPREY 11 · CRUISE 6 · SAM 12 · LABOR 9 · VULCAN 3 + 2 safety · **ZHAO 9**. Real matcher, `--live`, controls, 0-false bar → memo to owners + PROME. VULCAN's 9/02 Fortune lane-gap answer goes in the memo.
+4. 🆕 **HANS `registry/THRESHOLDS.tsv` at 82% of budget (rotate-tier; stop <22,785 B, remove 3,855 B):** owner's file, owner chooses the rotation. HANS is dark ⇒ packet to HANS + PROME pointer at the next boot (carve-out ①). Not urgent: rc 0, no over-budget read.
+5. **Nano Banc watch:** FDIC P&A posting (~10/05–10/09; L516) · claims bar date · Fed OIG MLR · L515 sale · Plaza Continental 9/29 hearing outcome (not checked; H8 fires only on an ORDER).
+6. **Carried (still open):** CORAL's FL ACTION items (`-0925-009`, `-014`, `-0929-013`) · YURI routing row (FORMAT_SPEC first) · WQ-286 ④ CORRECTIONS header line · a doctor step reading recipients' `consumed_at` · P2 false-positive-rate proposal · HENRY's deferred items · `fetch.py` contract identity (`BZ*`/`TTF*` UNKNOWN, name-cut) + boot_basis re-hash after reviewing the 7 changed files · FILTER_SPEC boot reads.
+7. **Watch:** 10/02 NFP (LABOR kill ≥+150K), GATE-BRK-R2, BOND WQ-317 page · 10/05 REGINALD WQ-318 · 10/06 WQ-252 · 10/07 BRENT BRT-31 + Path-B successor draft · 10/09 ZHAO instrument re-check · 10/13 LABOR KS WARN.
 
 ## OPEN DESIGN DECISIONS
 
@@ -85,14 +86,14 @@ Session: **2026-09-30 Wed, Claude Opus 5.5 as WALTER (`walter-36`)**. Booted ~18
 
 ## CLOSEOUT RECEIPT
 
-**Issued at the 9/30 Tier-1 before the state commit.**
-- **9/30 handoffs: 18 written, 18 on origin** (11 carried by PROME's `0926321f6` push; 7 by `aefafc80a`, safe-push receipt confirmed; ledger reconciled). Delivered is not consumed.
-- ⚠️ **This receipt does NOT claim:** that any recipient consumed `-0930-001`…`-004`; that R3 was started; that the FILTER_SPEC boot reads or the 9/30 size checks ran.
+**Issued at the 9/30 Tier-2, before the Tier-2 state commit (its hash is in the commit trail).**
+- **9/30 handoffs: 18 written, 18 on origin** (11 carried by PROME's `0926321f6` push; 7 by `aefafc80a`, safe-push receipt; ledger reconciled). Delivered is not consumed.
+- ⚠️ **This receipt does NOT claim:** that any recipient consumed `-0930-001`…`-007`; that R3 was started; that the FILTER_SPEC boot reads ran; that `-005` has a primary.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-01T00:51:05+00:00",
+  "as_of": "2026-10-01T01:00:37+00:00",
   "publication": [
     {"commit": "83d94f396", "state": "published"},
     {"commit": "aefafc80a", "state": "published"}

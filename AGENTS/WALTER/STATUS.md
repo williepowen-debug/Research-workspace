@@ -1,12 +1,12 @@
 # WALTER STATUS
 
-**Updated 2026-10-01T00:5xZ (20:5x ET Wed 9/30), TIER-1 LIGHT refresh of `walter-36` → resumed as `walter-20` after the ~19:53 ET box crash (Claude Opus 5.5; booted ~18:26 ET on Will's "please boot up"; Will "yes" to the repair + dispatches).** 🔴 **MARKETS CLOSED: equity/vol/FX rows are 9/30 closes or post-close vendor bars; crude evening bars were WITHHELD by `fetch.py` (next-session overwrite); FRED rows = the 9/29 print (9/30 posts ~Thu AM). EACH CELL SAYS ITS BASIS.** Current obligations: [LAST_COMPLETION.md](LAST_COMPLETION.md).
+**Updated 2026-10-01T01:0xZ (21:0x ET Wed 9/30), TIER-2 CLOSEOUT of `walter-36` → resumed after the ~19:53 ET box crash (Claude Opus 5.5; booted ~18:26 ET on Will's "please boot up"; closeout on Will's "Lets close out here").** 🔴 **MARKETS CLOSED: equity/vol/FX rows are 9/30 closes or post-close vendor bars; crude evening bars were WITHHELD by `fetch.py` (next-session overwrite); FRED rows = the 9/29 print (9/30 posts ~Thu AM). EACH CELL SAYS ITS BASIS.** Market table NOT re-pulled at closeout (cut ~18:30 ET). Current obligations: [LAST_COMPLETION.md](LAST_COMPLETION.md).
 
 ## BOTTOM LINE
 
 **Wednesday 2026-09-30 ends at BOARD 1112: seven dispatches (`-001`…`-004` at the evening boot; `-005`…`-007` from Will's 8-image Telegram batch BM-20260930-01, finished after the ~19:53 ET box crash), no WALTER-scanned registered-trigger fire.** 🔴 **Abqaiq: an OSINT smoke plume at an Aramco site WEST of Abqaiq from ~06:45Z is a HYPOTHESIS routed to FALCON (`-005`); no Saudi/Aramco/wire confirmation; FAL-01 NOT fired; first item for the 10/01 sweep.** Diesel squeeze + MRPL → BRENT (`-006`); Radiant World / Jefferies → BROCK (`-007`). 🔴 **Repaired first: `-0929-014`…`-016` and the CREED named-case feed (`bc76a72d7`) shipped AFTER the 9/29 Tier-2 and were absent from this file and LAST_COMPLETION (MEMORY #29, n=5; caught by the BOARD-count check, STATUS 1102 vs INDEX 1105).** 🔴 **No WALTER session ran on the 9/30 data day** (MEMORY #26): PCE, EIA, the Brent Nov expiry and the Russia ban extension reached desks through PROME spawns and BRENT, not the BOARD, until `-001` carried HENRY's PCE log to CARL (**July saving rate revised 3.0 → 4.6% by BEA's annual update; CARL logged 3.0**). 🔴 **Credit:** HY OAS **308 [FRED 9/29], 12bp under the >320 s3 bars** (RED-FT-02 / REG-T-03; `-002`). **UK 30Y 5.96% [TE 9/30] is 4bp under HANS-T-13 orange** (HANS dark; near-trigger, not a fire). **Iran:** no new state; full sweep due ~10/01. Also routed: ZHAO's MOFCOM 1/10-in-writing-no-instrument note (`-003`), CREED's Trepp self-storage packets (`-004`). WQ-316 resolved by Will (18:27 ET "I rolled the puts", PROME).
 
-🔑 **Fleet context:** live at this refresh (`ListAgents` 22:3xZ): `prome-94` (idle at the boot scan; PROME/ANVIL reconcile work in progress after), `creed-3d` (busy). **Owed: R3 watch-phrase test — WAKE Thu 10/01, deadline Fri 10/02 (DOCKET L543) · NFP Fri 10/02 · Iran full sweep ~10/01 · Trepp Sept print ~10/01 (CREED-T-01a / REG-T-07).**
+🔑 **Fleet context:** live at closeout (`ListAgents` 2026-10-01 ~01:0xZ): `prome-8c` (waiting; ran the crash recovery, backup branch deleted `d9908c998`), `creed-a9` (idle; foreign dirty `AGENTS/CREED/board_log.tsv` in the tree). **Owed: R3 watch-phrase test — WAKE Thu 10/01, deadline Fri 10/02 (DOCKET L543) · NFP Fri 10/02 · Iran full sweep ~10/01 · Trepp Sept print ~10/01 (CREED-T-01a / REG-T-07).**
 ## DATED MARKET OBSERVATIONS — re-cut 2026-09-30 ~18:30 ET (markets CLOSED); **EVERY CELL CARRIES ITS OWN BASIS AND DATE**
 
 | Row | Dated result and limit |
@@ -41,15 +41,17 @@ Current work and next-owner actions: `LAST_COMPLETION.md`. Sweep evidence: `rese
 
 ## NETWORK AWARENESS
 
-### Today's routing + stale agents (REGENERATED 2026-09-29 Tier-2 from REGISTRY; 11 rows refreshed 9/29 header-only: CRUISE FALCON SAM LABOR OSPREY HOMER RED VIOLET VULCAN HENRY + NEXUS)
+### Today's routing + stale agents (REGENERATED 2026-10-01 Tier-2 from REGISTRY; 11 rows refreshed header-only: REGINALD BRENT LIQUID HENRY ZHAO OTTO BOND CREED SENTRY TERRY + WALTER)
 
-**Liveness at the 9/30 evening boot (`ListAgents` 22:3xZ):** live = `prome-94` (idle at the scan; ANVIL reconcile work in progress at 23:0xZ), `creed-3d` (busy). `ORCH_INFLIGHT.md` generated 9/21 = stale instrument. **Re-read at every boot; never carried.** *(9/29 closeout liveness: see SESSION_LOG.)*
+**Liveness at the 9/30 Tier-2 (`ListAgents` 2026-10-01 ~01:0xZ):** live = `prome-8c` (waiting), `creed-a9` (idle). `ORCH_INFLIGHT.md` generated 9/21 = stale instrument. **Re-read at every boot; never carried.**
 
-**Consumed 9/29 (verified at the owner's commit; not re-checked 9/30):** BOND `-001` (7294b66eb), `-003` + `-012` (79987699d) · LABOR `-002` (256baa464), `-010` (765048645) · LIQUID `-003` (b89e9a65e) · NEXUS `-006` (319b391e2). **Delivered, not yet consumed:** MARCO `-002` · CARL `-002`/`-005`/`-008` · VULCAN `-003`/`-010` · VIOLET `-004` · HENRY `-005`/`-006`/`-012` · REGINALD `-005`/`-008` · CREED `-007` · FALCON `-011` · BRENT `-011` · CORAL `-013`; TERRY reads `-004`/`-009` by BOARD diff at its 9/30 wake.
+**Routed 9/30 (BOARD 1105 → 1112; delivery state lives in the LAST_COMPLETION receipt):** `-001` PCE → CARL · `-002` HY 308 / `-003` MOFCOM / `-004` Trepp self-storage (info-only) · `-005` Abqaiq HYPOTHESIS → FALCON · `-006` diesel → BRENT · `-007` Radiant World → BROCK. **Delivered is not consumed; none re-checked at closeout.**
 
-**Dark and carrying ACTION (doctor at the 9/30 boot, basis `delivery_log.timestamp_routed`, >2d):** 23 handoffs across 4 desks, **4 ACTION, oldest 16d** (HANS 2A, SHADE 1A/18I, BROCK 1A, MARCO 1). **ACTION to dark desks 9/29–9/30:** MARCO `-0929-002` · CARL `-0929-005` + `-0930-001` (both ride the 10/01 touch) · FALCON `-0929-011` · CORAL `-0929-013` · BROCK `-0929-016` · TERRY `-0929-004` (WQ-316 since resolved by Will).
+**Dark and carrying ACTION (doctor at the Tier-2, basis `delivery_log.timestamp_routed`, >2d):** 23 handoffs across 4 desks, **4 ACTION, oldest 16d** (HANS 2A, SHADE 1A/18I, BROCK 1A, MARCO 1). **ACTION to dark desks 9/29–9/30:** MARCO `-0929-002` · CARL `-0929-005` + `-0930-001` (both ride the 10/01 touch) · FALCON `-0929-011` + `-0930-005` · CORAL `-0929-013` · BROCK `-0929-016` + `-0930-007` · BRENT `-0930-006` · TERRY `-0929-004` (WQ-316 resolved by Will).
 
-**DOORBELL_LOG 9/30:** +1 row (CARL `-001`, not doorbelled: the docketed 10/01 touch precedes Friday NFP).
+**DOORBELL_LOG 9/30:** +4 rows (CARL `-001`, FALCON `-005`, BRENT `-006`, BROCK `-007`), **none rung** (no dated referent before each desk's next session; `-005` is backstopped by WALTER's own 10/01 sweep).
+
+**Registry rows >7d stale (REGISTRY `Updated`):** DEWEY 9/10 · SHADE 8/28 · YEYOU 8/20 · RAV 8/02 · ATHENA 3/14 · DARWIN 2/18 · BARON / HERMES no STATUS. None carries a new ask from this session.
 
 **Unregistered dirs:** `CATO` (manual-only, WQ-255), `_archive` (not an agent).
 

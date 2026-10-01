@@ -87,15 +87,16 @@
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION — 2026-09-29 Tue, Full WALTER (Claude Opus 5.5, `walter-7d`, booted 13:18 ET), Tier-2
+### CHANGES SINCE LAST SESSION — 2026-09-30 Wed, Full WALTER (Claude Opus 5.5, `walter-36`, booted ~18:26 ET; box crash ~19:53 ET, resumed), Tier-2 ~21:0x ET
 
-- **BOARD 1089 → 1102 (`-001`…`-013`).** Rates/credit: `-001` + `-012` BOND 9/29 gaps (SEARCH-NOT-FOUND; Oct odds 70→50, cause unknown) · `-003` credit tape sorted · `-008` HY 302 watch. Labor: `-005` JOLTS correction (LABOR LEG C; NFP ≥+150K kill) · `-002` Kansas ICE op · `-010` Oracle layoffs. Iran: `-011` OSINT pump-station claim; anchor marks B1/C14/D85, FAL-05 RESOLVED FAILED. Other: `-004`/`-009` HENRY gamma + correction · `-006` GATE-LIQ-076 → NEXUS · `-007` HOMER answer · `-013` Will-directed Fort Lauderdale lead → CORAL.
-- **Intake:** 6 Will-Telegram batches (36 items; 2 kills + 2 relevance filters in kill_log); 7g consumed 6 packets, **13 R3 packets held** for 10/02; lane 0 new (its last run predates PROME's new queries).
-- **Own errors:** `-004` date (#36) · Oracle "no filing" to Will (LABOR found CA WARN 441) · `-003` "second witness" (#37). **Repaired:** 9/28 post-closeout `-022`…`-025` (#29 n=4).
+- **BOARD 1105 → 1112 (`-001`…`-007`), 18 handoffs, all on origin.** Boot: `-001` August PCE → CARL (July saving rate 3.0 → 4.6% by BEA's annual update) · `-002` HY 308 [9/29], 12bp under >320 s3 · `-003` MOFCOM 1/10 in writing, no instrument · `-004` CREED Trepp self-storage. Will's 8-image Telegram batch BM-20260930-01 (closed 8/8 after the crash): `-005` Abqaiq-area OSINT plume **HYPOTHESIS** → FALCON (no primary; FAL-01 not fired) · `-006` diesel squeeze + MRPL → BRENT · `-007` Radiant World / Jefferies → BROCK.
+- **Repaired first:** 9/29 post-closeout `-0929-014`…`-016` + the CREED named-case feed (#29 n=5, caught by the BOARD-count check).
+- **Crash recovery:** PROME snapshot `ea0758028` matched the disk; `-007` re-read whole before use (intact). The post-refresh batch re-ran Tier 1 on its own output (`ad66e0ad3`), i.e. #29's remedy applied.
+- **Tier-2:** REGISTRY 11 rows refreshed (rotate-tier 76% → 70%) · NETWORK AWARENESS regenerated · size checks run (anchor 23,802 B, 610 B under trigger) · version drift clean · doctor 0 HIGH / 4 MED.
 
 ### NEXT SESSION
 1. `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS = the complete obligation list.
-2. **Boot check first: STATUS BOARD count (1102) vs INDEX count.** A gap means post-closeout work (#29).
-3. **Wed 9/30 boot after the FRED 9/29 print:** HY vs the >320 s3 bars (18bp away at 302) · CCC · the lane's first run with `diesel-export-policy`/`treasury-moves` · TERRY WQ-316 card 15:00 ET (Will's; `-004` read expires 9/29 close) · Brent Nov expiry · EIA/Cushing.
-4. **R3 watch-phrase test due Fri 10/02:** 13 packets in `inbox/` + BOND's pulled-deal query; HOMER's builder-earnings lane gap (no lane query fetches homebuilder earnings).
-5. **9/30 size checks** (all measured 9/29, all under 75%: anchor 23,347 B closest).
+2. **Boot check first: STATUS BOARD count (1112) vs INDEX count.** A gap means post-closeout work (#29).
+3. 🔴 **Thu 10/01 FIRST: re-check `-005` (Abqaiq-area plume) for a Saudi/Aramco/CENTCOM/wire primary.** A confirmed hit re-routes IMMEDIATE; then the Iran FULL sweep.
+4. **R3 watch-phrase test: WAKE Thu 10/01, deadline Fri 10/02 (DOCKET L543)** — 13 held packets + ZHAO's 9 terms.
+5. FRED 9/30 HY vs >320 (12bp at 308) · claims · ISM · Trepp Sept print (CREED-T-01a / REG-T-07; owners grade).
