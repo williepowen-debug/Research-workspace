@@ -4,7 +4,7 @@ Will approved the small prospective pilot after the twelve-case feasibility revi
 
 ## Scope and stop
 
-Observe the existing live ledgers in DAEDALUS's prediction-ledger registry, frozen in config.json. Desks continue their ordinary work; no launches, new research quotas, cross-owner edits, messages, Kernel activation, or scheduled background process. CATO runs the collector once per manually opened session while this assignment remains active, then reviews only new candidates or due cases. Commit evidence after each substantive update. A gap between CATO sessions delays review; Git retains intervening committed versions. Uncommitted work is invisible.
+Observe the existing live ledgers in DAEDALUS's prediction-ledger registry, frozen in config.json. Desks continue their ordinary work; no launches, new research quotas, cross-owner edits, messages, Kernel activation, or scheduled background process. CATO runs the collector once in a manually opened session when Will directs pilot work or continuation of this pending assignment, then reviews only new candidates or due cases. Existing approval suffices; an unrelated request, discussion or closeout does not trigger collection. Commit evidence after each substantive update. A gap between CATO sessions delays review; Git retains intervening committed versions. Uncommitted work is invisible.
 
 Take the **first 20 new IDs carrying numeric probabilities at their first committed appearance** after the baseline commit. Order by forward Git ancestry, with desk/ID lexical order for same-commit ties. All selected slots remain in the denominator even if subsequently found ambiguous, retrospective, withdrawn or ineligible; no replacements. New nonnumeric rows and parser/coverage problems remain visible separately. This is the registry's observation perimeter, not a census of everything the fleet says.
 
@@ -59,3 +59,7 @@ Will requested that CATO's files reflect the session and close out. The bounded 
 Correction to the earlier check description: CATO has no STATUS.md at closeout, so the stated weekday pass must not be read as verification of a CATO STATUS surface. The closeout weekday check covers the three existing PROME surfaces and the two changed CATO documents. This documentation-only closeout does not change collector behavior or repeat its ten author tests. No memory, ledger or published forecast figure is changed.
 
 Closeout checks: weekday check passed on all five named existing files; scoped whitespace check passed; all six startup surfaces remain below 32,550 bytes (CONTINUITY 14,280). Orphan advisory identified only other owners' pending files; preserved without edits or staging. No new CATO-authored packets or shared files were created. Final documentation commit/push receipt is delivered in-session.
+
+## October 1 approved trigger clarification
+
+Will approved the startup/closeout review's three changes with “ok do it.” The Scope and stop paragraph now makes the pilot trigger explicit: resume on directed pilot work or continuation of this pending assignment, not on every unrelated session opening. This amends the earlier session-trigger wording preserved at `3b7e3ac72`; it does not change config.json, the baseline, selection order, scoring rules, deadlines, effort cap or surviving approval. No collection was performed during the documentation cleanup.

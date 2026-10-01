@@ -1,5 +1,9 @@
 # CATO startup and closeout review — October 1, 2026
 
+**Current assessment:** Will approved the three changes with “ok do it.” BC1–BC3 are implemented in the documents; the original review below is retained as history. Author verification is recorded in the follow-up. No independent certification or measured productivity improvement is claimed.
+
+## Original review — before approval
+
 Recommendation: make a small clarification and simplification pass, preserving current authority and Git safeguards. Review only; no governing instructions, pilot rules, launcher or shared tools changed. This is CATO author follow-up on its own instructions, not independent certification.
 
 Scope: AGENTS.md, CHARTER.md, CONTINUITY.md and README.md at `acf7ca95515739c97537ac30113f92de191c9a16`; root Git/closeout rules and the pilot resume/closeout record; relevant read-cap and claim-check implementation. Initial branch master, working tree and staged paths clean. No fleet research, pilot collection, sends or launches performed. The decision is whether a bounded documentation cleanup is worthwhile; implementation remains unassigned.
@@ -23,3 +27,15 @@ Proposed next action: one bounded documentation cleanup resolving BC1–BC3, onl
 Read-only evidence checks: all six startup files exist and are individually below 32,550 bytes (combined 62,332 bytes; no aggregate cap claim); generic CATO read-cap check cannot evaluate as described above. No code changed or behavioral tests commissioned. Review evidence and a compact continuity pointer are the only authored changes. Documentation checks and publication receipt are recorded at delivery.
 
 Delivery checks passed: weekday check on the three existing root-specified PROME files plus the changed CATO documents; scoped whitespace check; updated continuity 14,634 bytes. Orphan advisory showed concurrent CREED files only, preserved. No STATUS, memory or published metric changes requiring conditional ledger, memory or consumer checks. Commit/push receipt is returned in-session.
+
+## October 1 — approved documentation cleanup
+
+Will's approval covers BC1–BC3; implementation started from `c8a8fb86a969688c4b8e9ee25b130770d40be0c2`, master, clean working tree/index. No launcher, shared checker, owner file, collector or configuration edits.
+
+- **BC1 closed in documentation:** AGENTS.md now gives Will's current request priority while retaining unfinished assignments and approvals. CONTINUITY and the pilot's Scope and stop paragraph agree: directed pilot work/continuation triggers collection; unrelated review, discussion and closeout do not. The dated pilot amendment preserves the earlier frozen wording in Git and leaves selection and grading unchanged.
+- **BC2 closed:** CONTINUITY holds only the current resume point, pending pilot and navigation. TASK_INDEX.md retains prior task rows, stopped LIQUID follow-up, approvals and archive pointers. Startup explicitly reads only relevant index entries; README links both homes. Other task dispositions and grants are not rewritten or re-verified.
+- **BC3 closed in instructions:** the local applicability note requires existing/readable inputs, names CATO's six startup files, distinguishes direct byte measurements from the generic tool's CANNOT-EVALUATE result, and preserves root conditional checks. No absent desk file is invented or reported as checked.
+
+A repeated closeout with no changed evidence, decision, resume point or pending delivery now explicitly needs no new edit/commit; root obligations remain binding. Author walkthrough covers an unrelated review, a pilot-resume request, a discussion-only session and a closeout: only directed pilot continuation collects, without renewed approval. These are document consistency checks, not runtime tests or proof of future compliance. Cleanup complete; orient to Will's next request. Pilot approval survives pending its trigger.
+
+Validation: all other task rows, the full retained-approval section and LIQUID record match the pre-move continuity verbatim; only this task's disposition and the index navigation were updated. Local navigation file targets exist. CONTINUITY fell from 14,634 to 2,572 bytes; AGENTS.md is 6,465 bytes, and all six startup files remain readable and individually below the root cap. Frozen pilot config matches `3b7e3ac72` byte-for-byte. Weekday check passed on nine verified-readable inputs: the three root-specified PROME files and all six changed CATO documents. Scoped whitespace and orphan checks passed; no foreign pending files at that check. Generic read-cap limitation from the review remains disclosed; no repeat execution was needed for unchanged checker code. No code tests, ledger/memory/consumer checks or pilot collection were applicable to these documentation edits. Final exact-file commit and fresh-fetch push receipt are delivered in-session.

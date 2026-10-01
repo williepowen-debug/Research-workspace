@@ -32,7 +32,8 @@ Model availability still depends on the installed client/account. Verification e
 |---|---|
 | [AGENTS.md](AGENTS.md) | Startup and closeout entry point |
 | [CHARTER.md](CHARTER.md) | Role, authority and report contract |
-| [CONTINUITY.md](CONTINUITY.md) | Current assignment, approvals and resume links |
+| [CONTINUITY.md](CONTINUITY.md) | Short current resume point and relevant approval links |
+| [TASK_INDEX.md](TASK_INDEX.md) | Historical task dispositions and retained approvals; read only relevant entries on demand |
 | [Latest continuity archive](CONTINUITY_2026-09-29_ARCHIVE.md) | Verbatim pre-trim September 29 snapshot; past dispositions, approvals and evidence limits, read on demand |
 | Earlier archives: [September 26](CONTINUITY_2026-09-26_ARCHIVE.md), [September 21](CONTINUITY_2026-09-21_ARCHIVE.md) | Historical snapshots; no archive is a startup read or current assignment |
 | `runs/` | On-demand task evidence; one report per continuing task with current disposition and dated follow-ups |
