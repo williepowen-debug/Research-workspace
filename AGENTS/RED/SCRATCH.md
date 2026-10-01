@@ -23,16 +23,18 @@
 - **LIQUID LIQ-07 red team** → `AGENTS/LIQUID/inbox/2026-10-01_from-RED_LIQ-07-S2-lean-red-team.md`. The lean survives, on weaker ground than LIQUID states. Four asks: fix the S1 base-rate date, read HYG/JNK shares outstanding, carry SWPT/WORAL/CP/long-end auctions as context, and define S2 as "no reserve-scarcity loop". ML-RED-270.
 - **CARL DR-3 premium leg red team** → `AGENTS/CARL/inbox/2026-10-01_from-RED_DR-3-premium-leg-converging-downward-red-team.md`. "Converging downward" fails as a reading of DR-3. **RED registered a prediction: DEWEY's permutation p on PREM−MID > 0.30 in every cut. Grade it when run.** The discriminators to watch are AXP's Q3 billed business and write-offs and premium Q3 traffic. ML-RED-271.
 - No weight, threshold or score moved; nothing forced one.
+- **Dated follow-ups (canon `docket/CATALYSTS.tsv`):** LIQUID's 4 asks beside the LIQ-07 verdict on **10/15–10/16** · CARL's Q3 premium discriminators before **~10/20** · **RED-25** (`workbook/PREDICTIONS.tsv`, 70%) grades when DEWEY or CARL runs the permutation test, re-review **10/31**.
+- **Full closeout 12:5x ET (Will's word 12:52):** DOCKET L484 RESOLVED by PROME. STATUS was rotated under 70% and board_log was rotated (both verbatim). Inbox 0+0.
 
 ## NEXT SESSION (dated, priority-ordered)
 
 1. 🔴 **FT-02 watch (daily, T+1):** three consecutive FRED obs >320 ⇒ fire (NET-BEAR +3 / CONF +2, pre-registered; exit <300 s=3). Test the BB/CHTR single-sector question first. Count evidence types, not desks. Do not net the fire against the FT-01 exit.
 2. 🔴 **10/14 September CPI:** grade FT-08 on its machine form (core 3-mo annualized ≥3.0). This is CHG-028's first oil→core leg.
-3. 🟠 **WL-03 op conformance (`>` → `>=`, display only), with a reader**, plus the class sweep of display rows against canon exit legs (ML-RED-268). Less urgent now that the tie caveat is retired, but the defect class stands.
-4. 🟠 **Build the `board_log.tsv` pre-append size gate** (n=3, still unbuilt; 26,475 B = 81% of budget, rotate-tier: 3,691 B is owed to reach <70%).
-5. 🟠 **CALENDAR.md narrative rebuild:** it is 8/20 vintage and lacks the 10/1 and later rows, so the W4 mirror diverges from canon CATALYSTS.
+3. 🟠 **[by 10/09] WL-03 op conformance (`>` → `>=`, display only), with a reader**, plus the class sweep of display rows against canon exit legs (ML-RED-268). Less urgent now that the tie caveat is retired, but the defect class stands.
+4. 🟠 **[by 10/06] Build the `board_log.tsv` pre-append size gate** (n=3, still unbuilt). The rotation was done at the S49 closeout (rows 9/15–9/24 → `archive/board_log_pre-2026-09-25.tsv`), so the file is back under budget. The gate is what stops the next breach.
+5. 🟠 **[by 10/09] CALENDAR.md narrative rebuild:** it is 8/20 vintage and lacks the 10/1 and later rows, so the W4 mirror diverges from canon CATALYSTS.
 6. 🟠 Wire TRIGGER_OUTCOMES `resolve_after` into the `boot.py` §④ DUE-scan. Clear the catalyst rows still `pending` with past dates (boot ③ shows T−13 to T−21 rows).
-7. 🟠 Counter-signal re-pull + hypothesis-weight re-derivation (weights from S29 8/12 / S41 9/6). This needs its own session.
+7. 🟠 **[by 10/09, before the 10/14 CPI] Counter-signal re-pull + hypothesis-weight re-derivation** (weights from S29 8/12 / S41 9/6). This needs its own session.
 8. 🟠 L247 v0.6 recheck when PROME lands the edit · the CARL revision-ledger adversarial read · the FT-03/04 evaluator re-pointed off `BZ=F` (L429).
 9. 🟡 FT-11 F2 cut at the next spec review · FT-08 basis reconciliation with WALTER · 5 ACTIVE challenge rows (CHG-027 first) · KB past `Stale_By`.
 10. 🟡 The FT-01 8/05 outcome row resolves ~10/29 · EGBN Q3 ~late Oct (CHG-027) · CH-012 final 12/30 (SAM's attribution ask by 12/1).

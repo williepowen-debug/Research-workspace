@@ -15,6 +15,8 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 | **SAM rail CH-009 CLOSED** (FINAL GRADE block, state lines, LOG row, scoreboard) | `AGENTS/SAM/red/CHALLENGES.md`, `AGENTS/SAM/red/LOG.md` (RED's rail by SAM's charter; SAM reads, does not edit) | Rail 1 OPEN / 16 CLOSED. |
 | CATALYSTS 10/1 row → `resolved`; RED-04 → RESOLVED CORRECT; ML-RED-269 appended | `docket/CATALYSTS.tsv`, `workbook/PREDICTIONS.tsv`, `workbook/ML.tsv` | Boot 3 DUE-scan clears RED-04. `schema_check` ✅. |
 
+| **S49 full closeout (12:5x ET):** `STATUS.md` rotated 25,243 B → under the 70% stop (`measure.py` for the current size) (S48 header + the stale 9/18 L277 armed block folded verbatim) · `board_log.tsv` rotated 26,847 → 7,478 B (19 rows 9/15–9/24 → **new** `archive/board_log_pre-2026-09-25.tsv`, verbatim, FROZEN banner) · RED-25 registered in PREDICTIONS + 3 dated CATALYSTS rows (10/16, 10/20, 10/31) | `STATUS.md`, **new** `reports/2026-10-01_S49_status_rotation_folded.md`, `board_log.tsv`, **new** `archive/board_log_pre-2026-09-25.tsv`, `workbook/PREDICTIONS.tsv`, `docket/CATALYSTS.tsv` | boot.py §⑤ reads `archive/board_log*.tsv` (verified: 6 ledgers, gap OK). read_cap: STATUS 70% / board_log 23%. |
+
 **Not done, named:** CALENDAR.md's narrative layer is 8/20 vintage and carries no 10/1 row, so the W4 mirror is divergent from before this session (pre-existing; owed a rebuild). The weight re-derivation is still owed.
 
 ## S46 — 2026-09-18 ~10:25–10:3x ET
