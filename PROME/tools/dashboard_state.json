@@ -1,6 +1,6 @@
 {
  "attention_errors": [],
- "built": "2026-09-30 19:36",
+ "built": "2026-10-01 00:40",
  "channels": {
   "AI capex": "elev",
   "Credit": "elev",
@@ -12,25 +12,11 @@
   "War theaters + tariffs + rivers + housing": "crit"
  },
  "docket": [
-  "2026-08-14 Forum-4 WITHDRAWAL TESTS grading riders (Will-ruled batch 8/",
-  "2026-09-01 FSA Data Center Q2 update (quarterly cadence; Q1 posted 6/23",
   "2026-09-21 \ud83d\udd34 RUSSIAN MOBILISATION DECISION WINDOW OPENS \u2014 the Duma elec",
-  "2026-09-22 DEFERRAL (Forum-4 N11-ii, Will-ruled 8/11): multi-desk LEAD-",
-  "2026-09-22 DEFERRAL (Forum-4 N13, Will-ruled 8/11): PROVENANCE TOKENS, ",
   "2026-09-24 F2 PER-OP BUYBACK READ \u2014 STANDING CARRIER LIVE (the class fi",
   "2026-09-25 FORUM-7 \u2014 PATH vs PREMIUM pre-registered verdict rule for th",
   "2026-09-25 \u2605 IRAN-OMAN PERMANENT-ROUTE WINDOW \u2014 the 8/26 finalised INTE",
   "2026-09-29 SAVE\u2192RAP FIRST-TRANCHE non-selection read \u2014 CRL-13 partial N",
-  "2026-09-30 FALCON \u2192 DAEDALUS: GATE-FALCON-001 LEG-2 MAGNITUDE + REFEREN",
-  "2026-09-30 FORUM-5 W1 opacity enumeration DUE \u2014 4 legs (SHADE gated-US-",
-  "2026-09-30 INFO-BACKLOG PREDICTIVE STUDY \u2014 does a desk's UNCONSUMED inf",
-  "2026-09-30 MIDAS-01 + MIDAS-02 RESOLVE \u2014 moving-referent class RULED 20",
-  "2026-09-30 RAP auto-pay enrollment deadline \u2014 1% interest-rate reductio",
-  "2026-09-30 \ud83d\udd34 **L409 SCOPE WIDENED \u2014 THE CONTINUATION-TICKER DEFECT IS N",
-  "2026-09-30 \ud83d\udd34 FLEET SWEEP \u2014 WHICH DERIVED METRICS ARE GRADED AGAINST A H",
-  "2026-09-30 \ud83d\udfe0 L446 RESIDUE \u2014 spawn_list.py cadence-reader defects the in",
-  "2026-09-30 \ud83d\udfe0 US DIESEL EXPORT-RESTRICTION RISK \u2014 first dated read: EIA ",
-  "2026-09-30 \ud83d\udfe1 L409 LEG D5 \u2014 scripts/market.py shows previousClose as a l",
   "2026-10-01 BOND QUARTERLY REFRESH carries TWO decisions the 9/17 TIPS g",
   "2026-10-01 CARL-DR-3 WAKE \u2014 DEWEY runs the CONSUMER-DISCRETIONARY CROSS",
   "2026-10-01 CRMT BRIDGE-4 STD \u2014 the fourth bridge's Scheduled Terminatio",
@@ -92,7 +78,9 @@
   "2026-10-15 OZK Q3-2026 print + call (the '~92-day' RaDD report-back) \u2014 ",
   "2026-10-16 August TIC (Treasury, Fri 10/16 ~16:00 ET) = ZHA-18 third-mo",
   "2026-10-16 WQ-342 REVISIT \u2014 a SUCCESSOR duration-split gate with a CRED",
-  "2026-10-20 EGBN Q3 print = CHG-027's single deciding print, pre-registe"
+  "2026-10-20 EGBN Q3 print = CHG-027's single deciding print, pre-registe",
+  "2026-10-22 READS ATTESTATION \u2014 STRICT FLIP of read_cap_check.py (WQ-236",
+  "2026-10-22 VLY Q3-2026 release + deck (est. Thu 10/22, NOT announced) \u2192"
  ],
  "fleet": {
   "AEOLUS": "ok",
@@ -103,7 +91,7 @@
   "CORAL": "ok",
   "CRUISE": "ok",
   "FALCON": "ok",
-  "FERT": "watch",
+  "FERT": "elev",
   "FLG": "ok",
   "HAWK": "ok",
   "HENRY": "ok",
@@ -174,6 +162,7 @@
   "WQ-204 (9/19)",
   "WQ-279 (9/30)",
   "WQ-347 (10/1)",
+  "WQ-350 (10/2)",
   "WQ-348 (10/2)",
   "WQ-339 (10/2)",
   "WQ-301 (10/2)",

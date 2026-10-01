@@ -32,3 +32,7 @@ entry-crc32: 1240436555 · bytes: 108
 ## Prior stamp rotated 2026-09-30 (prome-2a) — verbatim
 entry-crc32: 1674299972 · bytes: 162
 2026-09-24 21:3x ET (prome-1f: TERRY 004 row — the unsupported *"$500 banked"* clause replaced with the WQ-280 row's actual scope; no decision moved; $0 moved.)
+
+## Prior stamp rotated 2026-09-30 (prome-2a closeout) — verbatim
+entry-crc32: 3987091149 · bytes: 424
+2026-09-24 22:5x ET (prome-1f third leg: byte-flow rotation, three rows snapshotted verbatim → `PROME/archive/ACTIVE_DECISIONS_ROTATION_2026-09-24.md` — Post-FOMC/Hormuz watch · Auto-memory Phase 2 · TERRY 004 — each rewritten current-state-only; guard-bytes retained: 0 (no standing guard rotated); the TERRY row's DGS10/DFII10 cells refreshed to the 9/23 official [FRED H.15] figures; no decision moved; $0 moved.)
