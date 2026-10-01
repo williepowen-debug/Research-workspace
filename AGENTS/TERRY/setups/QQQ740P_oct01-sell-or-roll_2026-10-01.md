@@ -3,7 +3,7 @@
 **Date:** 2026-10-01 Thu, written 11:04–11:05 ET (`date` 11:04:37 at the read below; file written 11:05:33). **Spawn:** PROME `prome-2a`, Tier 1, WQ-347 (two PROME packets dated 2026-09-30 in `inbox/`).
 **Id:** `MGMT-QQQ740P-OCT01` (management card on a line Will bought by his own hand; no SETUPS row).
 **Thesis owner:** Will (no agent thesis on file — off-thesis class, `FORGE/STATUS.md` § Off-thesis).
-**Terry verdict:** 🔴 **SELL-OR-ROLL BEFORE 15:00 ET TODAY — desk lean SELL.** Holding into the close is BAD STRUCTURE (worthless above 740; an unhedgeable 900-share short in an IRA below 740). If Will keeps the bet, the roll that fits root rule #7 and construction rule #21 is **QQQ $740P Oct-09 ×9 at ≈ $6.17/contract net debit (≈ $5,550 for nine, screening marks)** — never a one-day roll.
+**Terry verdict:** 🔒 **CLOSED 2026-10-01 — the last ×4 LEFT THE ACCOUNT (net ≈ +$22.75, INFERRED by PROME, not a fill; sale vs expiry-day liquidation UNKNOWN) and Will ROLLED them to QQQ $740P Oct-02 ×4 ($890.65) → `MGMT-QQQ740P-OCT02`.** See § CLOSEOUT at the foot. *(was: 🔴 SELL-OR-ROLL BEFORE 15:00 ET TODAY — desk lean SELL.)* Holding into the close is BAD STRUCTURE (worthless above 740; an unhedgeable 900-share short in an IRA below 740). If Will keeps the bet, the roll that fits root rule #7 and construction rule #21 is **QQQ $740P Oct-09 ×9 at ≈ $6.17/contract net debit (≈ $5,550 for nine, screening marks)** — never a one-day roll.
 **Confidence in the read:** Medium (option quotes are one-vendor screening grade, quote age unknown — §2).
 **`$0` MOVED · NO ORDER · NO NEW TRADE PROPOSED · NO GATE OR THRESHOLD MOVED.** A card is a recommendation; the order is Will's (root rule #5).
 
@@ -159,3 +159,22 @@ The five are $3.78 out of the money at 12:51 (vendor bid $3.28 / ask $3.30). The
 > **WQ-347 (Will):** SELL the four at Fidelity's bid before 15:00 ET (desk lean: ≈ $729 at screening, which leaves the nine-line ≈ +$849 realized). The alternative is to ROLL them to QQQ $740P Oct-09 ×4 as one net-debit order with no debit above $6.50/contract, which puts ≈ $3.2k at risk, ≈ 6.4× the $500 cap. Not hold.
 
 **APPROVAL REQUIRED. Will must approve or reject before execution.**
+
+---
+
+## 🔒 CLOSEOUT 2026-10-01 16:2x ET — the four LEFT THE ACCOUNT; disposition INFERRED, not broker-verified
+
+**Source:** PROME transcription `PROME/data/2026-10-01b_broker-capture-TRANSCRIPTION.md` (Will's 16:15 ET end-of-day positions screenshot, ties to the cent at $36,077.04; no Activity view). **Card status: CLOSED.** The line's successor is `MGMT-QQQ740P-OCT02` (`setups/QQQ740P_oct02-sell-or-roll_2026-10-01.md`).
+
+| Item | Value | Grade |
+|---|---|---|
+| QQQ $740P Oct-01 ×4 | **GONE** from the positions view | broker view (fact) |
+| How it left | Sold to close by Will, or Fidelity's expiry-day liquidation — **UNKNOWN which** | not shown |
+| Proceeds | ≈ **+$22.75 net** for the four (≈ $0.06–0.07/share after fees) | **INFERRED by PROME** from the pending-cash change (−$867.90 = −$890.65 Oct-02 buy + $22.75) — never a fill |
+| Realized on the four | ≈ **−$747.91** vs $770.66 basis | DERIVED from the inference |
+| Whole nine-contract line | +$890.35 (five, broker-verified) − $747.91 ≈ **+$142.44** | DERIVED; the five are fact, the four are inference |
+| QQQ close | **$742.03 (+0.31%)** ⇒ the strike finished **$2.03 out of the money** | `fetch.py`, 16:19 ET |
+| Successor | **QQQ $740P Oct-02 ×4, basis $890.65** — Will rolled one day out (the ⛔ row in §5 / A5) | broker view |
+| D-60 (ITM expiry handling) | **Still UNOBSERVED** — the four ended out of the money | — |
+
+**Recorded, not graded:** a sale or roll before expiry is Will's standing practice. The card's lean was SELL; Will rolled. The ≈ $0.06 exit means the four were sold (or liquidated) when QQQ was already above or near 740 — the A4 screening figure of ≈ $729 was not what the four fetched. **Resolution owed:** fill price/time and the sale-vs-liquidation question come from Will's word or a Fidelity Activity view; FORGE (ANVIL) books the cents.

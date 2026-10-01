@@ -69,3 +69,25 @@ Nothing is owed today. **Monday by 15:00 ET: SELL at Fidelity's bid (desk lean, 
 **Unchanged:** the hard stop (Mon 10/05 15:00 ET) · the exercise arithmetic (500 sh, −$500 per $1 gap-up) · the per-card cap (forward max loss ≈ $1,640 at the screening bid ≈ 3.3× the $500 cap) · no harvest rule (durable finding 9; the suggested ≥ $5.46 form stands as a suggestion). Will's tranche-and-limit method today (three fills, one canceled limit) is his own order craft. The card does not prescribe it.
 
 **APPROVAL REQUIRED. Will must approve or reject before execution.**
+
+---
+
+## ADDENDUM 2026-10-01 16:2x ET: refresh to Will's 16:15 ET end-of-day capture (moment read; re-read Monday morning)
+
+**Source:** `PROME/data/2026-10-01b_broker-capture-TRANSCRIPTION.md` (Fidelity positions, after the close). Quantity and basis unchanged: ×5, $1,368.32.
+
+| Item | Value | Basis |
+|---|---|---|
+| QQQ close | **$742.03 (+0.31%)** ⇒ the 735 strike is **$7.03 out of the money** (was $3.78 at 12:51) | `fetch.py`, 16:19 ET |
+| Fidelity last | **$2.27 ⇒ $1,135.00; −$233.32 / −17.06% total; −$650.00 today** | broker view |
+| Vendor 735P Oct-05 bid/ask | **2.19 / 2.24** (16:19:50) ⇒ ×5 at the bid ≈ **$1,095 ⇒ ≈ −$273 vs basis** | `chain_fetch.py --no-cache --legs 735`, SCREENING ONLY |
+
+**What changed since 12:5x:**
+1. **The 740P ×4 were rolled to Oct-02, not sold and not rolled to Oct-09.** So the IRA carries **nine QQQ puts on two dates two sessions apart**: ×4 740P Fri 10/02 (`MGMT-QQQ740P-OCT02`) and these ×5 735P Mon 10/05.
+2. **Monday roll destination:** the 12:5x note said *"Oct-16 if the ×4 go to Oct-09."* That condition can now only arise Friday. **If the ×4 are rolled to Oct-09 on Friday, a Monday roll of these five goes to Oct-16; otherwise Oct-09 is open.** Re-price Monday.
+3. **Payrolls (Fri 10/02 08:30 ET) is the main move between now and Monday's stop.** Both QQQ put lines ($2,258.97 of combined basis) ride the same print.
+4. **Harvest suggestion (≥ $5.46, 2× fill)** is now far — the line is under basis. It remains a suggestion, not a rule (durable finding 9).
+
+**Unchanged:** hard stop Mon 10/05 15:00 ET · exercise arithmetic (500 sh / $367,500 short below 735; −$500 per $1 gap) · D-60 UNOBSERVED (the Oct-01 four ended out of the money, so they observed nothing) · forward max loss ≈ $1,095 at the screening bid ≈ 2.2× the $500 cap · desk lean SELL by Monday 15:00 ET.
+
+**APPROVAL REQUIRED — Will must approve/reject before execution.**

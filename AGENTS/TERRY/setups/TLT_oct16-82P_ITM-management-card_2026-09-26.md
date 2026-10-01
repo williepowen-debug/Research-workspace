@@ -169,3 +169,8 @@
 
 ⇒ **The desk read strengthens and does not change:** B is still the only branch that runs through the unknown, and at ×1 its cost share doubles. **A vs C remains Will's thesis call.** Decision point unchanged: **Wed 10/14 close**, backstop Fri 10/16 before 16:00 ET.
 **§4's Fidelity question:** read **"1 long TLT Oct-16-2026 $82 put"** in place of "2". The HBAN half stays ×2. WQ-302 stays OPEN (PROME's row).
+
+---
+
+## ⑧ POINTER 2026-10-01 16:2x ET — the decision moved to the EXIT CARD `MGMT-DURSHORT-EXIT-WQ291`
+BOND's Sept-4 thesis kill was MET on the 10/1 FR2004 release (3–6Y dealer net +$12.093B vs the +$8.6B bar; BOND packet `b3ef61cf1`). BOND recommends exiting all duration shorts. **The exit card is `setups/DURATION-SHORTS_exit-card_WQ291_2026-10-01.md`** — desk lean: choice **A here (harvest), executed Fri 10/02**: sell to close ×1 at Fidelity's bid, floor intrinsic − $0.10, from ~09:45 ET, by 15:00 ET, alongside TBT 10 sh. Live 16:19 ET: TLT $77.71 ⇒ $4.29 ITM; vendor 82P 4.20 / 4.40 (screening); Fidelity $4.25. Time value at the bid **−$0.09** — the §5 day-colour stake is now measured at ≈ $0, so a green-day sale meets the break test on the figures (re-confirm on Friday's Fidelity screen). §4 (broker mechanics, D-60) is unchanged and is avoided entirely by the sale. The Wed 10/14 decision point and the 10/16 hard backstop stand until Will rules.

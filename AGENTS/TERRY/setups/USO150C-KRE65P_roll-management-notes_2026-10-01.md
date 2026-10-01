@@ -60,3 +60,28 @@
 - ⚠️ **Harvest:** there is still no P/L-keyed harvest rule (durable finding 9). The suggested form, re-stated for ×1: sell at any Fidelity bid ≥ $5.98 (2× the $2.99 fill). It is a suggestion, not a gate.
 
 **APPROVAL REQUIRED. Will must approve or reject before execution** (no action is proposed).
+
+---
+
+## ADDENDUM 2026-10-01 16:2x ET: `MGMT-USO150C-OCT09` ×1 refreshed to Will's 16:15 ET end-of-day capture — the strike is now AT THE MONEY and the exercise cash is thinner
+
+**Source:** `PROME/data/2026-10-01b_broker-capture-TRANSCRIPTION.md` (Fidelity positions, after the close). ×1, basis $299.66, unchanged.
+
+| Item | Value | Basis |
+|---|---|---|
+| USO close | **$150.02 (+2.99%)** ⇒ the 150 strike is **$0.02 IN the money** (Fidelity shows USO $150.00) | `fetch.py`, 16:19 ET; broker view |
+| Fidelity last | **$4.15 ⇒ $415.00; +$115.34 / +38.49% total; +$125.00 today** | broker view |
+| Vendor 150C Oct-09 bid/ask | **4.20 / 4.50** (16:23:01; 6.9% wide, OI 1,435) | `chain_fetch.py --no-cache --legs 150`, SCREENING ONLY |
+| Indicative roll (construction rule #21) | **Oct-16 150C** 5.70 / 6.00 ⇒ $6.00 − $4.20 = **$1.80 net (≈ $180)** | screening; re-price at the order |
+
+**The exercise path tightened (this is the change that matters):**
+- A close **above $150.00 on Fri 10/09** ⇒ the IRA **buys 100 USO at $150 = $15,000**.
+- Cash now: **$14,147.60 money market + $1,377.10 pending ≈ $15,524.70** — the pending fell **$867.90** today because the QQQ 740P roll to Oct-02 drew on it. **Headroom over $15,000 is now ≈ $525** (was ≈ $1,393 at 12:5x).
+- The 12:5x addendum's warning came true in part: *"a roll of the QQQ 740P ×4 … would bring it back under $15,000."* It did not go under, but **one more QQQ roll (Friday's Oct-09 form ≈ $1.7k, or Monday's 735P ×5) would.**
+- Exercise would also add 100 shares to the 37 already held — WQ-297 A's one-oil-bet concentration. Fidelity's handling: **UNOBSERVED (D-60)**. ⇒ **Exercise is not a planned path; the sell-or-roll rail governs.**
+
+**Root rule #6:** USO was **green (+2.99%)** — the right colour to SELL a call, the wrong colour to BUY one. **Harvest suggestion (≥ $5.98, 2× fill):** the line is at $4.15–4.20, ~70% of the way there; still a suggestion, not a rule (durable finding 9). **Per-card cap:** forward max loss ≈ $420 at the bid ≈ 0.84× the $500 cap — inside it.
+
+**Unchanged:** hard stop **Fri 10/09 15:00 ET** — sell at Fidelity's bid or roll as one net-debit order. `MGMT-KRE65P-DEC31` (§ B) not re-read here; Fidelity shows KRE 65P ×2 at $1.60 / $320.00 (−$17.33), KRE $69.95 (+0.73%).
+
+**APPROVAL REQUIRED — Will must approve/reject before execution** (no action is proposed).
