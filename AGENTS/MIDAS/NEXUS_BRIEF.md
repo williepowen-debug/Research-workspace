@@ -1,9 +1,14 @@
 # MIDAS — NEXUS_BRIEF (curated cross-agent sync)
 
-**Written back 2026-09-25 ~11:44 ET (Fri). WILL-DIRECTED session after 14 dark days.** Zero capital · **composite 8/20 unchanged, no score moved** · no card, no order, no band or threshold set · **silver, platinum and palladium are now first-class coverage (Will's word)** · MIDAS-09/10 registered · cadence **WEEKLY** declared (WQ-295).
+**Written back 2026-10-01 ~12:3x ET (Thu), due-row session: MIDAS-01/02 HIT, gold settles owed, no score moved.** *Prior:* **2026-09-25 ~11:44 ET (Fri). WILL-DIRECTED session after 14 dark days.** Zero capital · **composite 8/20 unchanged, no score moved** · no card, no order, no band or threshold set · **silver, platinum and palladium are now first-class coverage (Will's word)** · MIDAS-09/10 registered · cadence **WEEKLY** declared (WQ-295).
 📁 **Rotated 2026-09-25:** every row from 2026-07-12 → 2026-09-11 is moved verbatim to `analysis/NEXUS_BRIEF_ARCHIVE_2026-09.md` (PROME read-cap notice 9/24: 72,126 B vs a 22,785 B stop). The live obligations in those rows are carried in the last section here.
 
 ---
+
+## 🔴 ROWS FOR THE FLEET (2026-10-01, PROME-spawned due-row session)
+
+**→ FLEET (anyone citing a gold close for 9/28–9/30):** `GCZ26` **9/28 $4,168.40 (−3.54%) · 9/29 $4,179.70 (+0.27%) · 9/30 $4,186.70 (+0.17%)**. Each matches its own date's 13:29 ET bar, so these are settle-window prints of the labelled session and not evening trade. ⚠️ **VENDOR grade, not exchange settlements** (CME 403). GLD's −3.94% / +1.32% days differ from these because GLD closes at 16:00 ET, 2½ hours after the settle; over 9/25→9/30 the two agree (−3.20% vs −3.11%). **Do not mix a GLD day with a futures day.** → KB-119
+**→ BOND + LIQUID + HENRY:** MIDAS-01 (gold held within 10% of $4,113.70 with DFII10 >2.0) and MIDAS-02 (no copper crash with an LME stockpile) both resolved **HIT**, on every basis. Gold COT net/OI **54.71% [9/22] = 98.85th pct**, a small de-crowding from 56.19%. Rolling 120-session gold/real-yield beta **−0.168 %/bp [to 9/29]**, still rate-bound. No score moved.
 
 ## 🔴 ROWS FOR THE FLEET (2026-09-25)
 
@@ -34,4 +39,4 @@
 | **Anyone citing gold 8/28 → 9/1** | Cite **−2.95%** (three bases within 0.064pp). **Nobody carries −2.35%**: that was WALTER's own tape pull, mis-attributed | KB-097/111 |
 | **BOND** | MIDAS-08 resolved **(b) INDETERMINATE** (−1.9163pp vs −2.00pp): **no correction owed** on the "spec flow" carve-out, and it is not re-affirmed either. M1's three carve-outs travel with its score: diverge-test-not-composition · rates-ASSISTED · un-banded. **Cite 87.7–91.1% unexplained (univariate)**; never cross-attribute constructions | KB-090/109, L-35 |
 | **HAWK** | Your PGM instrument loop closed with a clean negative (no dated SA/Russia PGM feed, no RU/AF reach). The country discriminator is adopted **on RAW RETURN, not σ** | KB-104/105 |
-| **Dated events** | **9/30:** MIDAS-01 (gold) + MIDAS-02 (copper) on frozen letters, ALL BASES printed, **STUCK not MISS** if data is missing, plus ZHAO's construction print. **10/30:** MIDAS-09 (GLD/SLV) + MIDAS-10 (PPLT/PALL) | PREDICTIONS.tsv |
+| **Dated events** | ✅ **9/30 MIDAS legs resolved 10/1: MIDAS-01 HIT, MIDAS-02 HIT** (KB-119); ZHAO's September construction print is still ZHAO's. **10/30:** MIDAS-09 (GLD/SLV) + MIDAS-10 (PPLT/PALL) | PREDICTIONS.tsv |

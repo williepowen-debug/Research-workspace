@@ -5,7 +5,7 @@
 > ⛔ **This file is NOT dropped from the boot — `STATUS.md` carries the live top-3 inline and points here for the rest. Read it whenever you touch an open item.**
 > **Consistency rule (both files or neither):** an item that changes state must be updated **here** and, if it is in the STATUS top-3, **there too**. STATUS's pointer names this file by path.
 
-**Last updated:** 2026-09-25 (Fri): **item 25 OPENED** (silver/PGM bands with Will) · item 22 **median basis DECLARED** · item 24's closed record rotated to the archive §⑪. Items 20/22/23 are otherwise unchanged. ⚠️ Item 23's premise is overtaken: **WQ-161 is canon since 9/14** (`FORGE/PREDICTION_DISCIPLINE.md`, read 9/25).
+**Last updated:** 2026-10-01 (Thu): **items 0 and 22 CLOSED** (MIDAS-01/02 resolved HIT). *Prior:* 2026-09-25 (Fri): **item 25 OPENED** (silver/PGM bands with Will) · item 22 **median basis DECLARED** · item 24's closed record rotated to the archive §⑪. Items 20/22/23 are otherwise unchanged. ⚠️ Item 23's premise is overtaken: **WQ-161 is canon since 9/14** (`FORGE/PREDICTION_DISCIPLINE.md`, read 9/25).
 
 ---
 
@@ -15,17 +15,7 @@ Will 9/25: silver, platinum and palladium are first-class coverage (charter §DO
 
 ## 23. ✅ **CLOSED 2026-09-25: the amendment rule IS canon.** WQ-161 ①②③ + WQ-163 ③ were encoded 2026-09-14 in `FORGE/PREDICTION_DISCIPLINE.md` § Grading & re-marking (read by MIDAS 9/25, before registering MIDAS-09/10). Operative: a non-resolution branch carries NO mass (it is a STATUS) · the retrofit test is mass-moving vs mass-neutral, never the calendar · the proof of mass-neutrality is written into the row at patch time. **MIDAS-08's historical (d) P=0.02 is preserved, not redistributed.** Pre-canon body → `analysis/STATUS_ARCHIVE_2026-09.md` §⑫.
 
-## 22. 🟠 MIDAS-01 / MIDAS-02 CARRY NO NON-RESOLUTION CASE — found 9/2 by running ZHAO's sweep on my own book (n=2 of 2)
-
-Both OPEN, both **resolve 2026-09-30**, and **neither declares what happens if the data is unavailable.** I built the catch-all for the NEW row (MIDAS-08) and left the older two undefined — `finding_a_ruling_governs_the_next_write_not_the_existing_state`.
-
-✅ **Under my adopted amendment rule the fix would QUALIFY** — mass-neutral (no branch masses), changes nothing in any world where data publishes, and the world it changes is one where an outage scores as a forecast MISS, which is indefensible rather than unspecified.
-
-⛔ **NOT APPLIED: WQ-91 (Will, 9/1) rules this class "no edit to the live rows" and names MIDAS-01/02 explicitly.** A self-derived rule does not outrank an operator ruling that names the row. **Routed to PROME/Will:** *does "no edit" bar a mass-neutral non-resolution status, or only the referent re-keying it was ruled about?*
-
-⚠️ **STANDING INSTRUCTION TO THE 9/30 GRADER, placed here because this is the surface you read (L-48 applied to itself): if the data is unavailable, record STUCK, not MISS.**
-
-🔎 **DECLARED 2026-09-25 (DAEDALUS PR6 ask ②, a reading of the letter, NOT an edit):** MIDAS-02's RED leg reads *"grades vs the 2yr median (=479kt)"*. It names a rolling median AND pins a number. **Operative basis = the PINNED 479kt (FROZEN at registration)**, per WQ-91's forward rule *"freeze baseline VALUE and DATE"*. **The grade PRINTS BOTH** (479kt frozen, and 2× the rolling median on 9/30; that median was 234,750t on 9/24, so the floating bar is about 469.5kt). **Materiality: nil.** LME 251,175t [9/24] needs about +87% to reach either bar, and copper `HGZ26` $6.79 is +18% ABOVE the $5.75 anchor. Also print `HGZ26` + CPER beside `HG=F` (PROME L429 ①).
+## 22. ✅ **CLOSED 2026-10-01: MIDAS-01 and MIDAS-02 resolved HIT on their frozen letters, every basis printed, and neither needed STUCK** (every leg had data). MIDAS-02's RED bar was graded at the frozen 479kt, with the as-of-9/30 floating 469.5kt printed beside it. The open question to PROME/Will on WQ-91 (*does "no edit" bar a mass-neutral non-resolution status?*) is now MOOT for these two rows, because both are terminal. → `analysis/2026-10-01_MIDAS-01-02-RESOLUTION.md`, KB-119. Pre-close body: the last version of this file committed before 2026-10-01 (`git log -p -- AGENTS/MIDAS/OPEN_ITEMS.md`).
 
 ## 24. ✅ **CLOSED 2026-09-11 — the contract-identity guard is BUILT, TESTED and BOOT-WIRED (route (i)). KB-047's 7th instance is closed with it.**
 
@@ -94,7 +84,7 @@ Both OPEN, both **resolve 2026-09-30**, and **neither declares what happens if t
 
 > 📁 **Closed rows (9) and the superseded BOTTOM LINE stack live in `analysis/STATUS_ARCHIVE_2026-08.md`** — moved 2026-08-27, never deleted. This section carries **only what is genuinely open.**
 
-0. **🟠 BOTH REMAINING OPEN PREDICTIONS ARE KEYED TO REFERENTS THAT HAVE MOVED — ESCALATED, NOT REPAIRED.** → `analysis/2026-08-27_registered-specs-keyed-to-moving-referents.md`; packet in `PROME/inbox/`. **MIDAS-01** grades `GC=F close vs $4,113.70 [7/10]` — a GCQ26-era anchor now graded by GCZ26; gold **+11.78%** above anchor, **19.5% clear** of the 10% kill line ⇒ **materiality LOW, stated as low.** **MIDAS-02** hardcodes the 2yr median at **239,400t** / RED leg **479,000t** vs today's **238,462t**; copper **+14.69%** above anchor, nothing at risk. 🔴 **The structural finding: the roll is a property of the TICKER, not of one row — every spec citing `GC=F`/`HG=F` was re-specified simultaneously, with no event.** ✅ **RULED (Option A, KB-070): both grade 9/30 on their frozen letters, ALL BASES PRINTED at resolution; DOCKET row 231 holds the grader-must-remember cost — do not re-carry it personally.** ⚠️ Provenance: the ledger nudge flagged this file and **I dismissed it**; Will's question forced the real check.
+0. ✅ **CLOSED 2026-10-01: the moving-referent rows were graded under Option A (KB-070) and both resolved HIT, all bases printed** (see item 22). The structural finding stands for successors: the roll is a property of the TICKER, so name the contract and freeze the value and date in the cell.
 
 4. **✅ MIDAS-06 — GRADED TERMINAL 8/31: (a) DIVERGE PERSISTS. CLOSED.** DFII10 **2.42 [obs 8/28]** cleared ≥2.40 by **+2bp**; gold cleared $4,340.70 on **both** bases (**+3.165%** `GC=F` / **+4.359%** `GCZ26`, T+1 confirmed). **M1 3 → 4, composite 7/20 → 8/20.** No joint satisfaction, no adjudication owed; (a) was the modal branch (P≈0.45). ⛔ **The band that would have voided it was NOT applied** — see 4b. **Zero capital; no threshold, band or frozen letter set or moved.** → `analysis/2026-08-31_midas-06-TERMINAL-GRADE.md`, KB-092/093.
 

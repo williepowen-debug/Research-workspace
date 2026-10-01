@@ -14,6 +14,14 @@
 
 > ⚠️ **This block is the ONLY live forward list in this file.**
 
+> ⛔ **PROME-SPAWNED DUE-ROW SESSION 2026-10-01 ~12:15–12:4x ET (Thu), `prome-0c`, WQ-184 driver, DOCKET L231 + L176. THIS BLOCK SUPERSEDES EVERYTHING BELOW IT.**
+>
+> **▶ ✅ MIDAS-01 HIT · MIDAS-02 HIT**, on the frozen letters with every basis printed (`analysis/2026-10-01_MIDAS-01-02-RESOLUTION.md`, KB-119). Gold's lowest close on any basis was +7.83% above the kill line; copper never came within 25% of its −20% line; LME stocks were at 52% of the RED bar. **The STUCK provision was not needed.** **WT-1 record-closed:** never fired, superseded 8/11, Q-C UNTESTED since 8/11. The FINAL's §0 in-place revision belongs to SAM/PROME (flagged, not edited).
+> **▶ GCZ26 settles owed to the fleet:** 9/28 $4,168.40 · 9/29 $4,179.70 · 9/30 $4,186.70. VENDOR grade, but each matches its own date's 13:29 ET bar (settle window). CME returned 403.
+> **▶ COT 9/22 consumed** (54.71%, 98.85th pct, KB-120). The 9/29 vintage publishes Fri 10/2 15:30. **Beta re-measured: −0.1684 (t −4.87, n=120 to 9/29).** ⚠️ Not checked for construction-identity against 9/25's −0.1551. **`FRONT_MONTHS` PL rolled to `PLF27`.**
+> **▶ Inbox:** WALTER SIG-W-20260930-003 (ZHAO MOFCOM clocks) noted. **No WQ-295 R3 verdict packet for MIDAS exists.** MIDAS's set was tested 9/25 (`4da1313d1`), and WALTER's 10/1 batch went to 19 other owners.
+> **⏳ STILL OWED:** ① Will's silver/PGM band ruling (asked via PROME 10/1). ② M1 successor (register the beta). ③ `cot_metals.py` boot leg (needs a per-metal ledger). ④ The SCRATCH rotation of the 9/11 and 9/5 blocks to the archive has not been done. ⑤ ✅ The KB-115 falsifier packet was verified SENT to PROME on 9/25. STATUS NEXT #1, which still read "owed", was fixed 10/1.
+>
 > ⛔ **WILL-DIRECTED BOOT 2026-09-25 09:10 ET (Fri) — news catch-up after 14 days dark. THIS BLOCK SUPERSEDES EVERYTHING BELOW IT. Mid-session note; STATUS NOT yet updated (99% of budget — see owed #2).**
 >
 > **▶ THE TAPE 9/11→9/24:** FOMC **HIKED 25bp to 3.75–4.00% on 9/16** (unanimous, first since 2023; 16 of 18 dots want more). Waller 9/23: no 2026 cut. **DFII10 2.76 [9/23] = highest since 2008-11-25** (FRED, n=5,936; 2023 peak 2.52). `GCZ26` settled **$4,292.90 [9/24]**, two-week low. GLD **$392.88 [9/23]**. **Offsets:** Aug ETF inflow **$18bn**, holdings record **4,189t** (WGC 9/9); **PBoC +20.2t Aug**, largest since Oct-2023, 22nd month; SGE withdrawals **−27% y/y** is the weak leg. → **KB-116**

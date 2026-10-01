@@ -101,8 +101,11 @@ ETF_PROXIES = {"GLD": "Gold ETF", "SLV": "Silver ETF", "CPER": "Copper ETF",
 #   2. The explicit front month is HAND-MAINTAINED and must be rolled by a human.
 #      A stale map does not fail loudly on its own — it just stops discriminating —
 #      so the guard prints the map's month with every verdict.
+#      ROLL LOG: PL PLV26 -> PLF27 on 2026-10-01 (volume crossed 9/25: PLF27 20,612 vs
+#      PLV26 16,740; by 9/29 PLV26 1,005 vs PLF27 21,847, and PL=F had followed PLV26,
+#      so the stale map graded a DYING contract "OK" at 100% share — the failure above).
 FRONT_MONTHS = {"GC=F": "GCZ26.CMX", "SI=F": "SIZ26.CMX", "HG=F": "HGZ26.CMX",
-                "PL=F": "PLV26.NYM", "PA=F": "PAZ26.NYM"}
+                "PL=F": "PLF27.NYM", "PA=F": "PAZ26.NYM"}
 # A pointer carrying under this share of the explicit month's volume is DYING.
 DYING_VOL_SHARE = 0.05
 
