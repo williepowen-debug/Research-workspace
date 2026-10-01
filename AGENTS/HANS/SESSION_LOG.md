@@ -28,6 +28,18 @@ This is the twin of the 2026-09-05 `DISPATCH_LOG.md` split: **a whole CATEGORY m
 
 ---
 
+## 📦 STATUS ROTATION 2026-10-01 — VERBATIM from STATUS (§CARRY FORWARD lines 14–15, §ENERGY line 39 as of 10/01 pre-rotation), rotated for the read cap (75% → under 70%)
+
+- 🔴 **9/25 — `HANS-T-10` FIRED 2026-09-24 (`HANS-F-006`, OPEN): OAT–Bund 109.9bp AND OAT 4.67%, both legs the same day for the first time** (ideal-investisseur; 9/25 intraday 105.4 / 4.63). **Basis settled: i-i GOVERNS** (one screen; its Bund = ECB AAA primary within 0.4bp; the conservative basis). **Fires on TE too** (108.3bp / 4.711, 9/25 intraday) and the margins (+9.9bp / +17bp) exceed the largest logged basis gap — **unlike 9/18, not decided inside the gap.** ⚠️ **~11bp of the OAT's +19bp was common-mode Bund**; ex-common the level leg clears by ~6bp. ⛔ **Cause (budget / government-fall risk) is HEADLINE-ONLY — not established here.** No BdF daily primary reachable. *(Exit registered 10/01, see above.)* → `KB-HANS-097`, `099` (superseded 10/01 by `100`/`102`)
+- ✅ **`HNS-06` HIT** — German Mfg flash **53.8** [9/23] ≥50.0 (at secondaries; S&P primary unreadable). Another momentum-continuation HIT. **The FINAL (~10/1) is what `VX-HANS-8.06`/`T-02` take — not the flash.** → `KB-HANS-098`
+**9/19 boot pull:** TTF **€79.52** (L2 ORANGE still OPEN, no rung crossed) · EUR/USD **1.15** · DXY **100.22** · euro-area AAA 10Y **3.488% [9/17]**. Market closed Sat — these are Friday closes, no new fire.
+
+*§TWO-SENTENCE SUMMARY, verbatim as of 10/01 pre-rotation:*
+
+🆕 **Session 4's sharper one:** the ECB and ESRB jointly say supervisors **cannot quantify** euro-area bank exposure to private credit — they found €4bn, called it far below what supervisory intelligence implies, and dropped the category — so my `T-14` row, which waits for a regulator to *name* institutions, has been reading clean over a perimeter its own author calls blind; **the offset is that euro-area banks are net borrowers from the non-bank sector, not net lenders to it, so Europe's exposure is to losing that funding in a stress rather than to credit losses on private credit.**
+
+**The Bank of England stopped selling long gilts** — auctions paused, £222bn pre-2035 and £120bn of the longest-dated held to maturity out of £488.2bn — which moved both my UK thresholds *away* from their bands, **but it is a supply withdrawal and not a demand recovery**, and the 11/26 Budget now arrives with the long end's biggest seller stood down. **Session 2 says why it could, and it cuts against my own ECB call:** UK CPI accelerated to 3.1% the day before the hold and euro-area HICP finalised at 3.2%, **yet on both sides of the Channel the entire overshoot is energy and core did not move** — so `T-04` is no longer a hawkish lean into 10/29, and **the one new number to carry forward is German debt service: €41.8bn in 2027 against €30.3bn in 2026, +38% in a year, the Bund at a 15-year high arriving inside the budget.**
+
 ## 📦 STATUS ROTATION 2026-09-25 — VERBATIM from STATUS §ENERGY (9/19 text), rotated for the read cap (77.5% → under 70%)
 
 ✅ **THE 9/10 RULING IS VINDICATED.** WALTER asked whether −14.7pp exited the fire; I ruled **NOT AN EXIT** — 0.3pp was inside the cross-source error. **Ten days later it had widened further** — to −19.7pp on the then-current GEF-norm basis, since re-based to **−15.99pp** single-source `[[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]`.
@@ -100,3 +112,12 @@ CATO reviewed the day's work and produced counterexamples against several of thi
 - Plus four instrument defects, each reproduced before fixing: C9 missed its own motivating 3.3% (a noise floor had excluded it) and was blind to Unicode minus, arrows and distant markers; C12 amnestied every id below 400 rather than the recorded collisions; the BoE parser accepted a wrong-series body, NaN and invalid dates; and the closeout runner reported ✅ RAN for a subprocess that exited 3.
 
 🔴 **The pattern across all of them: my fixes were verified against the case that motivated them and not against the class.** That is the same shape as ML-HANS-471 from earlier the same day, which is itself the argument for an outside reviewer with counterexamples rather than a self-check.
+
+---
+
+## 2026-10-01 (Thu) — PROME Tier-1 spawn (DOCKET L549): the WQ-317 supply, the T-10 exit, and a whole-inbox drain
+
+**How the BOND rows were built.** The packet asked for existing rows only. My committed rows held one dated OAT/Bund screen per day and no gilt sequence, so I pulled the official daily series my instruments already reach: the BoE IADB par 5/10/20Y, the BoE GLC nominal curve (whose 30Y spot fills IADB's missing 30Y, on a zero-coupon basis), the ECB AAA 10Y, and the Bundesbank Svensson 10Y. Each one is labelled official or vendor. **The two Bund-family primaries disagree day by day** (9/23 BBk +2 vs AAA +7, 9/24 +10 vs +4) but agree on the cumulative move, and the Bundesbank already carried a 10/01 value at 16:1xZ. So neither one can time a move inside a day, and I said so rather than choosing one. CNBC's daily bars are dated inconsistently across symbols (weekend bars carry movement on one symbol and sit flat on another), so I did not use them for any dated close.
+**What changed while I worked.** The CNBC live quote put OAT–Bund near 142bp. i-i, the governing basis, read 130.3 (+13.2). I graded on i-i and named the ~12bp vendor gap. The Bund was flat on the day, which makes it France-specific: the opposite composition to the 9/24 fire day.
+**T-10 exit design.** I used AND, not OR, so a common-mode Bund rally cannot clear a French fire. 10bp dead bands are wider than any basis gap I have logged. The count is 5 i-i sessions; a missing row neither counts nor resets, and a row back over a fire line resets. This is the same shape as T-08's exit, which has held up.
+**Read cap.** STATUS reached 75% after the edits. I rotated three superseded blocks and the old summary verbatim to § STATUS ROTATION 2026-10-01, bringing it to 69.8%.

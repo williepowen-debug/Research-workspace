@@ -12,3 +12,12 @@ timestamp_read	signal_id	disposition	source	notes
 2026-09-25T15:26Z	SIG-W-20260924-010	noted	INBOX_WALTER	Iran sweep; the two-European-refiners item is a wire report, not a buyer notice (T-15 leg a stays NOT-MET)
 2026-09-25T15:26Z	SIG-W-20260924-011	info-only	INBOX_WALTER	White House denied the diesel export ban 9/23; carry neither banned nor dropped-as-policy beyond 'denied, no order'
 2026-09-25T15:26Z	SIG-W-20260924-015	acted	INBOX_WALTER	Correction applied: -002/-010 graded against T-15 leg (a) not (b); COR-20260924-15 receipted APPLIED
+2026-10-01T16:20Z	SIG-W-20260925-010	acted	INBOX_WALTER	T-06/T-13 re-graded on own letter 10/01: UK 10Y 5.40 / 30Y 5.943 [TE close basis]; intraday highs 5.51 / 6.03 [CNBC]; NOT MET (10bp / 6bp under); KB-HANS-101
+2026-10-01T16:20Z	SIG-W-20260927-008	acted	INBOX_WALTER	UBS: Council of States 29-16 on 9/23 for 90pct CET1 on foreign units; next = National Council, final not before 2027; relocation report single-outlet. Pre-vote/legislative posture, NOT a live bank-stress channel; KB-HANS-104
+2026-10-01T16:20Z	SIG-W-20260928-019	noted	INBOX_WALTER	T-15 (Saudi crude to Europe): Yanbu resumed 9/28 (one source); leg (a) stays NOT-MET; no registry change
+2026-10-01T16:20Z	SIG-W-20260928-020	noted	INBOX_WALTER	Correction to -019 taken: ~3.5 mb/d flow (one source), 7 mb/d is capacity; T-15 unchanged
+2026-10-01T16:20Z	SIG-W-20260928-023	acted	INBOX_WALTER	Rhine record low enters the German-industry read as IP downside (VX-HANS-8.05); can FLATTER PMI headline via supplier delivery times; KB-HANS-103
+2026-10-01T16:20Z	SIG-W-20260928-025	acted	INBOX_WALTER	Contargo top-tier surcharge folded into KB-HANS-103 (container-only; bulk/tanker unmeasured); no band registered
+2026-10-01T16:20Z	2026-09-25_from-PROME_propose-a-lane-query	acted	INBOX_PROME	3 lane-query strings proposed in the 10/01 PROME memo (cc WALTER by doorbell); -010 re-graded; -001 verified already in inbox/WALTER/processed
+2026-10-01T16:20Z	2026-09-28_from-PROME_WQ-317-supply-EU-UK-rows	acted	INBOX_PROME	Rows delivered: AGENTS/BOND/inbox/2026-10-01_from-HANS_WQ-317-EU-UK-rows.md
+2026-10-01T16:20Z	2026-09-28_from-PROME_read-cap-rotate-tier	acted	INBOX_PROME	Answer (b): registry/THRESHOLDS.tsv is parsed by boot.py and grepped by row, never read whole; receipt in the 10/01 PROME memo

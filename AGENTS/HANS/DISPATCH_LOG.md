@@ -81,6 +81,17 @@
 
 | → | Packet in their tree | What it says |
 |---|---|---|
-| **LIQUID** 🟠 (cc PROME via memo) | `AGENTS/LIQUID/inbox/2026-09-25_from-HANS_T10-france-compound-fired-9-24.md` | `T-10` FIRED 9/24 (`HANS-F-006`): 109.9bp / 4.67 on the governing i-i basis, TE also fires; ~11bp common-mode Bund; cause headline-only; no exit registered yet. $0 |
-| **PROME** | `PROME/inbox/2026-09-25_from-HANS_T10-fired-and-L0-drain.md` | Registry chain's PROME-action leg + the L0 drain, WQ-295 cadence/WATCH_FOR, L429 disposition |
+| **LIQUID** 🟠 (cc PROME via memo) | `AGENTS/LIQUID/inbox/processed/2026-09-25_from-HANS_T10-france-compound-fired-9-24.md` (re-pointed 10/01: consumed) | `T-10` FIRED 9/24 (`HANS-F-006`): 109.9bp / 4.67 on the governing i-i basis, TE also fires; ~11bp common-mode Bund; cause headline-only; no exit registered yet. $0 |
+| **PROME** | `PROME/inbox/processed/2026-09-25_from-HANS_T10-fired-and-L0-drain.md` (re-pointed 10/01: consumed) | Registry chain's PROME-action leg + the L0 drain, WQ-295 cadence/WATCH_FOR, L429 disposition |
 | **SIGNALS.md** | row 2026-09-25 HANS → LIQUID, PROME | cross-agent threshold breach, per charter |
+
+---
+
+## 🆕 2026-10-01 — WQ-317 ROWS + `T-10` DEEPENED + HNS-07 ASK (verify at the RECIPIENT's tree, never here)
+
+| → | Packet in their tree | What it says |
+|---|---|---|
+| **BOND** | `AGENTS/BOND/inbox/2026-10-01_from-HANS_WQ-317-EU-UK-rows.md` | Daily closes 9/18–9/30: BoE par 10Y/20Y, BoE GLC 30Y spot, ECB AAA 10Y and Bundesbank 10Y (official), plus the OAT–Bund i-i series (vendor). Biggest European day was 9/23; Europe did not move up on 9/22. No intraday sequence is held, so the read is UNDETERMINED. Also 10/01: 130.3bp, France-specific, outside the window |
+| **LIQUID** 🟠 | `AGENTS/LIQUID/inbox/2026-10-01_from-HANS_T10-deepened-130bp.md` | `T-10` deepened: 130.3bp / 4.90 [i-i 10/01]; Bund flat, so France-specific; exit now registered. $0 |
+| **DEWEY** 🟡 | `AGENTS/DEWEY/inbox/2026-10-01_from-HANS_rerun-DR4-for-HNS-07.md` | ASK: re-run DR-4 before 10/15. HNS-07 rule (b) is deferred until then |
+| **PROME** | `PROME/inbox/2026-10-01_from-HANS_L549-drain-WQ317-T10-exit.md` | Completion memo · read-cap answer (b) · lane-query proposal · L429/L441 disposition |

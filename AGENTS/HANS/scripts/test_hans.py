@@ -25,6 +25,16 @@ def d(n):
     return (date.today() - timedelta(days=n)).isoformat()
 
 
+def _iadb_day(days_ago):
+    """An IADB-format date RELATIVE TO TODAY. Added 2026-10-01: three BoE fixtures were
+    hard-dated '16 Sep 2026' and began failing on 9/27 when they aged past fetch_eu's
+    MAX_OBS_AGE_DAYS guard — the tests rotted, the parser did not. The staleness guard
+    keeps its own explicit test (test_boe_rejects_a_STALE_observation)."""
+    from datetime import date, timedelta
+    d = date.today() - timedelta(days=days_ago)
+    return f"{d.day:02d} {d.strftime('%b')} {d.year}"
+
+
 class TestAge(unittest.TestCase):
     """boot._age + the falsy-zero staleness regression."""
 
@@ -460,7 +470,10 @@ class TestDocAudit(unittest.TestCase):
         """Series-qualifying must not have disarmed the check."""
         pub = self.da.published()
         cur, olds, vecs = pub["GERMAN_MFG_PMI"]
-        self.assertEqual(cur, "54.3")
+        # 2026-10-01: was assertEqual(cur, "54.3") — a LIVE value pinned in a test, which
+        # fails on every legitimate new print. The property is: the newest row is current
+        # and is not also listed as retired; the 8/21 flash stays retired.
+        self.assertNotIn(cur, olds, "the current value must not also be retired")
         self.assertIn("54.1", olds, "the flash MUST be on the ledger as superseded")
         self.assertIn("VX-HANS-8.06", vecs, "the metric must declare its surface")
 
@@ -534,7 +547,9 @@ class TestDocAudit(unittest.TestCase):
         from consumer_check import read_ledger
         d = read_ledger(self.da.HANS / "workbook/PUBLISHED.tsv")
         self.assertGreater(len(d), 10)
-        self.assertEqual(d["GERMAN_MFG_PMI"][0], "54.3")
+        cur_ours = self.da.published()["GERMAN_MFG_PMI"][0]
+        self.assertEqual(d["GERMAN_MFG_PMI"][0], cur_ours,
+                         "the fleet reader and doc_audit must agree on the CURRENT value")
         self.assertIn("54.1", d["GERMAN_MFG_PMI"][1])
 
 class TestC4IsHistoryScopedNotLiveState(unittest.TestCase):
@@ -1029,8 +1044,9 @@ class TestBoEIADB(unittest.TestCase):
         self.addCleanup(lambda: setattr(urllib.request, "urlopen", orig))
 
     def test_parses_the_LAST_row_not_the_first(self):
-        self._serve(b"DATE,IUDMNPY\n15 Sep 2026,5.1000\n16 Sep 2026,5.2421\n")
-        self.assertEqual(self.fe.boe("IUDMNPY"), ("16 Sep 2026", 5.2421))
+        d1, d2 = _iadb_day(3), _iadb_day(2)
+        self._serve(f"DATE,IUDMNPY\n{d1},5.1000\n{d2},5.2421\n".encode())
+        self.assertEqual(self.fe.boe("IUDMNPY"), (d2, 5.2421))
 
     def test_a_200_carrying_the_HTML_landing_page_is_a_FAILURE(self):
         """The exact body that made this source look unreachable."""
@@ -1078,7 +1094,7 @@ class TestBoEIADB(unittest.TestCase):
         def fake(req, *a, **k):
             u = req.full_url if hasattr(req, "full_url") else str(req)
             if "IUDMNPY" in u:                    # 6.00% — far ABOVE the 5.50 orange line
-                return TestBoEIADB._R(b"DATE,IUDMNPY\n16 Sep 2026,6.0000\n")
+                return TestBoEIADB._R(f"DATE,IUDMNPY\n{_iadb_day(2)},6.0000\n".encode())
             raise OSError("offline")
         orig = urllib.request.urlopen
         urllib.request.urlopen = fake
@@ -1269,8 +1285,9 @@ class TestCATOSecondPass(unittest.TestCase):
     def test_boe_takes_the_NEWEST_BY_DATE_not_the_last_row(self):
         """Shuffled rows previously returned a STALE observation, because the parser took
         last-in-file. Row order is the server's business; the date is the fact."""
-        self._serve(b"DATE,IUDMNPY\n16 Sep 2026,5.2421\n15 Sep 2026,9.9999\n")
-        self.assertEqual(self.fe.boe("IUDMNPY"), ("16 Sep 2026", 5.2421))
+        d_new, d_old = _iadb_day(2), _iadb_day(3)
+        self._serve(f"DATE,IUDMNPY\n{d_new},5.2421\n{d_old},9.9999\n".encode())
+        self.assertEqual(self.fe.boe("IUDMNPY"), (d_new, 5.2421))
 
     def test_boe_rejects_a_FUTURE_observation(self):
         self._serve(b"DATE,IUDMNPY\n16 Sep 2099,4.0000\n")
