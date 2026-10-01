@@ -343,7 +343,7 @@
 ### NEXT SESSION
 
 **RE-CUT 2026-10-01 13:0x ET (closeout). ⛔ The OWED list lives ONCE, in STATUS §3. This block is only the entry sequence.**
-1. `scripts/boot.py`, then `scripts/usd_swapline.py` (the 9/30 op posted ~16:00 10/1; it was bid before the 10/01 move).
+1. `scripts/boot.py`. ⛔ **`scripts/usd_swapline.py` is WITHHELD** (PROME read 2, `inbox/processed/2026-10-01_from-PROME_usd-swapline-result-read-2-WITHHELD.md`): **entry step = the fix pass for X1–X5** (X1 fail-closed ordering hides a real ALERT; X2 `--baserate` silent with FRED down; X3 SWPT turn window hides 2007-12 and 2012-09/10, say it; X4 stale "excluded" text; X5 ONE consolidated letter), with acceptance conditions first, then PROME's LAST read: **DOCKET L568, due 10/07**. Beside it: the 9/30 op (PROME reads it raw, ungraded); do not grade it with the instrument until L568 clears.
 2. **Fri 10/2:** L494 X1 sitting · the 10/1 ICE cell and SOFR/SRF publish (`LIQ-07` SRF leg 10/1, no Q-end carve-out) · Q3 persistence SRF leg. Reply to any independent-reader findings on `usd_swapline.py` (PROME spawned it 10/1) and HANS's word on the reconciled letter.
 3. **Thu 10/8:** the 10/7 swap op · Q3-end persistence verdict. **Fri 10/16:** `LIQ-07` S1/S2 verdict with RED's context rows · August TIC (Japan, Cayman).
 4. Everything else → STATUS §3.

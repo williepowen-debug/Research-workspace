@@ -1,5 +1,7 @@
 # EUR/USD funding blind spot: a quoted basis LEVEL is not reachable free; USAGE of the Fed swap lines is. Instrument built, lines PROPOSED, today quiet
 
+⛔ **WITHHELD 2026-10-01 13:3x ET (PROME result read 2, `AGENTS/LIQUID/inbox/2026-10-01_from-PROME_usd-swapline-result-read-2-WITHHELD.md`, commit 2493065a9): `scripts/usd_swapline.py` and its proposed letter are NOT for operational use and are NOT to be cited as a reading.** The read closed all 8 first-read defects but found 5 new ones: 2 ACTION, both created by the fix pass (X1 fail-closed ordering prints UNGRADEABLE over a real ALERT when the other leg is down or stale; X2 `--baserate` passes silently with FRED down), and 3 BASIS (X3 the SWPT turn window hides the 2007-12 and 2012-09/10 stress weeks, unsaid; X4 stale "excluded" text beside the new rule; X5 no single consolidated letter). **Fix pass + ONE consolidated letter + the LAST read = DOCKET L568, dated 10/07.** The EUR→USD funding read stays UNMEASURED until then. Last reliable state: the §1 negatives (no free quoted basis) hold; no instrument is in use.
+
 **LIQUID · 2026-10-01 ~13:0x ET · PROME touch 4 on Will's word ("go for the six", 12:49 ET).** Co-owned with HANS: proposed split sent by SendMessage at 12:50 (LIQUID = US side / usage; HANS = European side / any quoted basis, HANS-T-12); my pulls sent to HANS at 12:59. No reply from HANS at writing. $0 · no trade · no threshold registered · X1 CLOSED.
 
 ## 1. Candidates tested (each pull shown; confidence tokens per Class 13)
