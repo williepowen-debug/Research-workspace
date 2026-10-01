@@ -1680,3 +1680,35 @@ The workbook's Chapter Buildings record (CRE-0072) covers I+II as one property a
   - source_quality: PRIMARY-READ (Trepp newsletter) / B2
   - notes: Owner AIP Asset Mgmt (Seoul) bought 2014; buyer 3000 Post Oak Realty LLC (tied to Arnold & Itkin). UNRECONCILED: a SECONDARY '$64.8M trust loss' (research/2026-09-26_CRE_VULNERABILITY_MAP.md) vs $68.6M gross ($80M - $11.4M), basis unknown -- cite neither as 'the loss' until a remittance report is read.
 - **CASE_EVENTS rows edited in place 2026-10-01:** REO date UNKNOWN → 2026-05-05 (servicer REO title date) · appraisal 2025-10 → 2025-10-30 · sale bound ≤2026-09-28 → ≤2026-09-17 · the Trepp Jul-2024 lease row → DISPUTED · the $11.4M sale row basis "NET proceeds to the three trusts" → proceeds RECEIVED before fees/advances · the workbook $64.8M row's dispute note rewritten (still DISPUTED). Four events added (SS transfer, servicer lease date, maturity passed, B17 realized loss).
+
+## Ledger housekeeping 2026-10-01 (afternoon, Will: "Go ahead with the ledger housekeeping")
+Source of the owed list: `research/2026-10-01_LOSS_HOLDER_MAP.md` §"What changes in CREED's records" items 2–4.
+- **Duplicate:** `CASE-CREED-128` (workbook CRE-0086) = `CASE-CREED-027` Sullivan Courthouse. Kept, never deleted; its `notes` open with ⛔ DUPLICATE; its one event carries the new `assertion=DUPLICATE_CASE` (declared in the CASE_EVENTS header and README in the same commit). `027`'s Q4-25 charge-off filled: **$72.4M** (OZK desk reply 10/01, Q4-25 MC Fig.26), reconciled to OZK's figure (rule 10).
+- **Exact loss:** One City Centre `115` = **$83,349,616.87** (C29 $49,939,885.80 + C30 $33,409,731.07; both March-2025 10-Ds read by CREED 10/01). The workbook's $83.3M was the rounded form.
+- **Holder fields (rule 6) filled for 8 CMBS cases:** `003` 1740 Broadway · `110` Palisades · `113` 229 W. 43rd · `114` Kingswood · `115` One City Centre · `122`–`124` AHT KEYS (`001` 3000 Post Oak was done at midday). **Tier per cell:** CREED VERIFIED at the 10-D for 114 (loss, LoanCore directing holder, Midland) and 115 (losses, Midland); every other holder fact is the agent's PRIMARY-READ of the 424B/10-D, labelled "not CREED-verified". A fund (KKR, OZ/Sculptor, BlackRock client account, Barings) is not its listed manager's balance sheet.
+- **Superseded cells, verbatim:**
+  - CASE-CREED-003 holder_type: UNKNOWN
+  - CASE-CREED-003 holder: CMBS trust (name UNKNOWN; SASB vs conduit not stated) -- established only by the AAA CMBS tranche loss
+  - CASE-CREED-003 special_servicer: UNKNOWN (a servicer switch occurred per KB-CREED-016)
+  - CASE-CREED-110 holder_type: UNKNOWN
+  - CASE-CREED-110 holder: PCT 2016-PLSD (loss scope); separate JPMDB 2016-C2 piece excluded; BD Palisades Holdings / Black Diamond
+  - CASE-CREED-110 special_servicer: UNKNOWN
+  - CASE-CREED-113 holder_type: UNKNOWN
+  - CASE-CREED-113 holder: CMBS trusts; loan split across multiple deals; JPMDB 2017-C5; CD 2016-CD2; CD 2017-CD3; other loan pieces
+  - CASE-CREED-113 special_servicer: UNKNOWN
+  - CASE-CREED-113 implied_loss_pct: UNKNOWN (a price discount vs a benchmark is NOT a loan loss)
+  - CASE-CREED-114 holder_type: UNKNOWN
+  - CASE-CREED-114 holder: COMM 2018-COR3
+  - CASE-CREED-114 special_servicer: UNKNOWN
+  - CASE-CREED-114 implied_loss_pct: 71% = reported realized loss / loan balance, per workbook (Realized; reported loss severity approximately 71%)
+  - CASE-CREED-122 holder_type: UNKNOWN
+  - CASE-CREED-122 holder: UNKNOWN
+  - CASE-CREED-123 holder_type: UNKNOWN
+  - CASE-CREED-123 holder: UNKNOWN
+  - CASE-CREED-124 holder_type: UNKNOWN
+  - CASE-CREED-124 holder: UNKNOWN
+  - CASE-CREED-115 holder_type: UNKNOWN
+  - CASE-CREED-115 holder: JPMBB 2015-C29; JPMBB 2015-C30
+  - CASE-CREED-115 special_servicer: UNKNOWN
+  - CASE-CREED-115 implied_loss_pct: 83% = reported realized loss / loan balance, per workbook (Realized; reported blended severity 83.35%)
+  - CASE-CREED-115 source_quality: PRIMARY-CITED
