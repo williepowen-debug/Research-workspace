@@ -26,9 +26,19 @@ the analysis file and reproduce with --baserate.
 import json, sys, urllib.request, datetime as dt, time, csv, io
 
 EU = ("European Central Bank", "Swiss National Bank", "Bank of England")
-WATCH_B = 1.0     # PROPOSED: one European op >= $1.0B, short turn ops excluded
-ALERT_B = 5.0     # PROPOSED: one European op >= $5.0B, short turn ops excluded
-SWPT_ALERT_M = 10_000  # PROPOSED: SWPT >= $10B ($ millions)
+WATCH_B = 1.0     # PROPOSED: one European NON-turn op >= $1.0B
+ALERT_B = 5.0     # PROPOSED: one European NON-turn op >= $5.0B
+# Turn ops are NEVER dropped (independent read 2026-10-01 ❌#12: an unbounded exclusion hid
+# ECB $17.27B and BoE $7.71B on 2020-03-25). They grade on their own higher lines, fitted
+# in-sample: calm 2010-2026 turn-op max $11.91B (ECB 2017-12-20); stress 2020-03-25 $17.27B,
+# 2011-12-21 $33.0B. LIQUID post-read change, NOT yet seen by HANS.
+TURN_WATCH_B = 5.0
+TURN_ALERT_B = 15.0
+SWPT_ALERT_M = 10_000       # PROPOSED: SWPT >= $10B ($ millions) outside a turn window
+SWPT_TURN_ALERT_M = 15_000  # inside a turn window (as-of QE-7..QE+14); calm max $12,067M (2018-01-03)
+MAX_OP_AGE_D = 22    # newest European op older than this -> UNGRADEABLE (longest normal ECB gap = 3-week year-end op)
+MAX_SWPT_AGE_D = 10  # SWPT as-of older than this -> UNGRADEABLE (weekly + a holiday-delayed H.4.1)
+HEADLINE_D = 14      # the headline grade covers European ops traded in the last 14 days
 API = "https://markets.newyorkfed.org/api/fxs/usdollar/search.json?startDate={a}&endDate={b}"
 
 
@@ -44,9 +54,11 @@ def _get(url, timeout=90, tries=3):
             time.sleep(5)
 
 
-def spans_qe(trade, maturity):
-    """True if the op's term crosses a quarter-end (a turn op, mechanically larger)."""
-    t, m = dt.date.fromisoformat(trade), dt.date.fromisoformat(maturity)
+def spans_qe(settle, maturity):
+    """True if the funds are OUT over a quarter-end: settle <= QE < maturity.
+    Keyed on SETTLEMENT, not trade (independent read ❌#11: trade 9/30, settle 10/1 is
+    after the quarter-end and is NOT a turn op)."""
+    t, m = dt.date.fromisoformat(settle), dt.date.fromisoformat(maturity)
     for y in (t.year, t.year + 1):
         for mo, d in ((3, 31), (6, 30), (9, 30), (12, 31)):
             q = dt.date(y, mo, d)
@@ -62,20 +74,24 @@ def ops(a, b):
                  term=x["termInDays"]) for x in o]
 
 
-TURN_MAX_DAYS = 21  # a short op that spans a quarter-end is a TURN op (mechanical; excluded)
+TURN_MAX_DAYS = 21  # a short op whose funds are out over a quarter-end is a TURN op
 
 
 def is_turn(op):
-    return op["term"] <= TURN_MAX_DAYS and spans_qe(op["trade"], op["mat"])
+    return op["term"] <= TURN_MAX_DAYS and spans_qe(op["settle"], op["mat"])
 
 
 def grade(op):
-    """Both PROPOSED lines exclude short turn ops (2014-19: all three >=$5B hits were
-    turn ops). A long op that spans a quarter-end (e.g. the 84d 2020-03-18 op) still counts."""
+    """Non-turn ops grade on WATCH/ALERT. Turn ops grade on the higher TURN lines and are
+    never dropped. A long op over a quarter-end (the 84d 2020-03-18 op) is not a turn op."""
     if op["cp"] not in EU:
         return "n/a (not European)"
     if is_turn(op):
-        return "turn op (short, spans QE) — excluded"
+        if op["bn"] >= TURN_ALERT_B:
+            return "ALERT-PROPOSED (turn op)"
+        if op["bn"] >= TURN_WATCH_B:
+            return "WATCH-PROPOSED (turn op)"
+        return "turn op, below turn lines"
     if op["bn"] >= ALERT_B:
         return "ALERT-PROPOSED"
     if op["bn"] >= WATCH_B:
@@ -83,7 +99,7 @@ def grade(op):
     return "quiet"
 
 
-def swpt(a):
+def swpt(a, limit=20):
     """SWPT via the standing FORGE fetch.py FRED API path (KB-LIQ-139: the API is not
     CDN-cached). NOT via fredgraph.csv with urllib: on 2026-10-01 FRED tarpitted a
     request carrying this script's User-Agent (read timeout) while curl's UA returned
@@ -92,7 +108,7 @@ def swpt(a):
     from pathlib import Path
     sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "FORGE" / "tools" / "market-data"))
     from fetch import fred_fetch
-    rows = fred_fetch("SWPT", limit=20)
+    rows = fred_fetch("SWPT", limit=limit)
     if not rows or isinstance(rows, dict):
         raise RuntimeError(f"SWPT fetch returned no rows: {rows!r}"[:200])
     out = [(r["date"], float(r["value"])) for r in rows if r.get("value") not in (".", "", None) and r["date"] >= a]
@@ -101,8 +117,15 @@ def swpt(a):
 
 def baserate():
     allops = []
-    for y in range(2014, dt.date.today().year + 1):
+    for y in range(2010, dt.date.today().year + 1):
         allops += ops(f"{y}-01-01", f"{y}-12-31")
+    tur = [o for o in allops if o["cp"] in EU and is_turn(o)]
+    print(f"turn ops 2010-now: {len(tur)} | TURN-WATCH hits {[(o['trade'], o['cp'][:3], round(o['bn'], 2)) for o in tur if TURN_WATCH_B <= o['bn'] < TURN_ALERT_B]} | "
+          f"TURN-ALERT hits {[(o['trade'], o['cp'][:3], round(o['bn'], 2)) for o in tur if o['bn'] >= TURN_ALERT_B]}")
+    sw = swpt("2007-01-01", limit=2000)
+    hits = [(d, v) for d, v in sw if swpt_grade(d, v).startswith("ALERT")]
+    eps = [h for k, h in enumerate(hits) if k == 0 or (dt.date.fromisoformat(h[0]) - dt.date.fromisoformat(hits[k - 1][0])).days > 21]
+    print(f"SWPT leg (turn-adjusted): {len(hits)} weeks ALERT since 2007; episode starts {[(d, int(v)) for d, v in eps]}")
     for a, b, lab in (("2014-01-01", "2019-12-31", "2014-19"), ("2021-07-01", "2099-12-31", "2021H2-now")):
         w = [o for o in allops if o["cp"] in EU and a <= o["trade"] <= b]
         nonqe = [o for o in w if not is_turn(o)]
@@ -142,63 +165,108 @@ def cadence_switch(oplist):
     return ev
 
 
+def swpt_in_turn_window(asof):
+    d = dt.date.fromisoformat(asof)
+    for y in (d.year - 1, d.year):
+        for mo, dd in ((3, 31), (6, 30), (9, 30), (12, 31)):
+            if -7 <= (d - dt.date(y, mo, dd)).days <= 14:
+                return True
+    return False
+
+
+def swpt_grade(asof, v_m):
+    line = SWPT_TURN_ALERT_M if swpt_in_turn_window(asof) else SWPT_ALERT_M
+    return "ALERT-PROPOSED" if v_m >= line else "below line"
+
+
 def verdict(oplist, swpt_rows, today):
-    """One overall line. Fails closed on missing/stale inputs."""
+    """One overall line. Fails CLOSED on empty, non-European-only or stale inputs."""
     if not oplist:
         return "UNGRADEABLE: NY Fed returned 0 operations in the window (ECB normally trades weekly)"
+    eu = [o for o in oplist if o["cp"] in EU]
+    if not eu:
+        return "UNGRADEABLE: no European operation in the window"
+    newest = max(o["trade"] for o in eu)
+    if (today - dt.date.fromisoformat(newest)).days > MAX_OP_AGE_D:
+        return f"UNGRADEABLE: newest European op {newest} is older than {MAX_OP_AGE_D} days"
     if not swpt_rows:
         return "UNGRADEABLE: SWPT returned no rows"
     last_sw_date, last_sw = swpt_rows[-1]
-    stale = (today - dt.date.fromisoformat(last_sw_date)).days > 13
-    recent = [o for o in oplist if o["cp"] in EU and (today - dt.date.fromisoformat(o["trade"])).days <= 14]
+    if (today - dt.date.fromisoformat(last_sw_date)).days > MAX_SWPT_AGE_D:
+        return f"UNGRADEABLE: SWPT as-of {last_sw_date} is older than {MAX_SWPT_AGE_D} days"
+    recent = [o for o in eu if (today - dt.date.fromisoformat(o["trade"])).days <= HEADLINE_D]
     grades = [grade(o) for o in recent]
-    cad = cadence_switch([o for o in oplist if (today - dt.date.fromisoformat(o["trade"])).days <= 14])
-    if "ALERT-PROPOSED" in grades or last_sw >= SWPT_ALERT_M:
+    cad = cadence_switch([o for o in oplist if (today - dt.date.fromisoformat(o["trade"])).days <= HEADLINE_D])
+    if any(g.startswith("ALERT") for g in grades) or swpt_grade(last_sw_date, last_sw).startswith("ALERT"):
         v = "ALERT-PROPOSED"
     elif cad:
         v = "ORANGE-PROPOSED (cadence switch: " + "; ".join(cad[:3]) + ")"
-    elif "WATCH-PROPOSED" in grades:
+    elif any(g.startswith("WATCH") for g in grades):
         v = "WATCH-PROPOSED"
     else:
-        v = "quiet (ceiling not binding; NOT 'no dollar strain')"
-    if stale:
-        v += f" ⚠️ SWPT STALE (as-of {last_sw_date})"
-    return v
+        v = "below backstop lines (no draw signal; NOT 'no dollar strain')"
+    return f"{v} · newest European op {newest} · SWPT as-of {last_sw_date}"
 
 
 def selftest():
+    """Offline. One block per acceptance condition (analysis/2026-10-01_eurusd-basis-instrument.md §7)
+    plus the pre-read checks. Fixtures use real figures from the NY Fed / FRED history."""
     fails = 0
     def chk(label, got, want):
         nonlocal fails
         ok = got == want
         fails += (not ok)
         print(f"{'PASS' if ok else 'FAIL'}  {label}: got {got!r} want {want!r}")
-    mk = lambda trade, mat, cp, bn, term: dict(trade=trade, settle=trade, mat=mat, cp=cp, bn=bn, rate=None, term=term)
-    # grade(): controls and boundaries
-    chk("2020-03-18 ECB 84d $75.8B spans QE but long -> ALERT", grade(mk("2020-03-18", "2020-06-11", "European Central Bank", 75.82, 84)), "ALERT-PROPOSED")
-    chk("2022-10-19 SNB 7d $11.09B -> ALERT", grade(mk("2022-10-19", "2022-10-27", "Swiss National Bank", 11.09, 7)), "ALERT-PROPOSED")
-    chk("2026-09-23 ECB 7d $0.197B matures 10/1 -> turn", grade(mk("2026-09-23", "2026-10-01", "European Central Bank", 0.197, 7)).startswith("turn op"), True)
-    chk("2017-12-20 ECB 21d $11.9B year-end -> turn, NOT alert", grade(mk("2017-12-20", "2018-01-10", "European Central Bank", 11.907, 21)).startswith("turn op"), True)
-    chk("mid-month ECB 7d $1.0B (tie) -> WATCH", grade(mk("2026-10-14", "2026-10-21", "European Central Bank", 1.0, 7)), "WATCH-PROPOSED")
-    chk("mid-month ECB 7d $0.999B -> quiet", grade(mk("2026-10-14", "2026-10-21", "European Central Bank", 0.999, 7)), "quiet")
-    chk("mid-month BoE 7d $5.0B (tie) -> ALERT", grade(mk("2026-10-14", "2026-10-21", "Bank of England", 5.0, 7)), "ALERT-PROPOSED")
-    chk("BoJ $10B -> not European", grade(mk("2026-10-14", "2026-10-21", "Bank of Japan", 10.0, 7)), "n/a (not European)")
-    chk("ECB 28d $2B spanning QE (term > 21) -> WATCH", grade(mk("2026-09-16", "2026-10-14", "European Central Bank", 2.0, 28)), "WATCH-PROPOSED")
-    chk("op maturing ON quarter-end day does not span it", spans_qe("2026-09-23", "2026-09-30"), False)
-    chk("op settling over quarter-end spans it", spans_qe("2026-09-30", "2026-10-07"), True)
-    # cadence leg
-    daily = [mk(f"2023-03-{d:02d}", f"2023-03-{d+1:02d}", "European Central Bank", 0.1, 1) for d in (20, 21, 22)]
-    chk("daily 1d ECB ops -> cadence switch", bool(cadence_switch(daily)), True)
-    chk("single isolated 1d BoE op -> no cadence switch", cadence_switch([mk("2024-05-15", "2024-05-16", "Bank of England", 0.01, 1)]), [])
-    weekly = [mk(d, d, "European Central Bank", 0.1, 7) for d in ("2026-09-02", "2026-09-09", "2026-09-16")]
-    chk("weekly 7d ECB ops -> no cadence switch", cadence_switch(weekly), [])
-    # verdict fails closed
+    def mk(trade, settle, mat, cp, bn, term):
+        return dict(trade=trade, settle=settle, mat=mat, cp=cp, bn=bn, rate=None, term=term)
+    ECB, SNB, BOE = "European Central Bank", "Swiss National Bank", "Bank of England"
     t = dt.date(2026, 10, 1)
-    chk("no ops -> UNGRADEABLE", verdict([], [("2026-09-23", 72.0)], t).startswith("UNGRADEABLE"), True)
-    chk("no SWPT -> UNGRADEABLE", verdict(weekly, [], t).startswith("UNGRADEABLE"), True)
-    chk("stale SWPT flagged", "STALE" in verdict(weekly, [("2026-09-02", 72.0)], t), True)
-    chk("SWPT $10,000M (tie) -> ALERT", verdict(weekly, [("2026-09-23", 10000.0)], t).startswith("ALERT"), True)
-    # fetch failure -> main returns 2, never 'quiet'
+    wk = [mk("2026-09-16", "2026-09-17", "2026-09-24", ECB, 0.072, 7), mk("2026-09-23", "2026-09-24", "2026-10-01", ECB, 0.197, 7)]
+    fresh = [("2026-09-23", 72.0)]
+    # pre-read controls
+    chk("2020-03-18 ECB 84d $75.82B (long op over QE) -> ALERT", grade(mk("2020-03-18", "2020-03-19", "2020-06-11", ECB, 75.82, 84)), "ALERT-PROPOSED")
+    chk("2022-10-19 SNB 7d $11.09B -> ALERT", grade(mk("2022-10-19", "2022-10-20", "2022-10-27", SNB, 11.09, 7)), "ALERT-PROPOSED")
+    chk("mid-month ECB $1.0B tie -> WATCH", grade(mk("2026-10-14", "2026-10-15", "2026-10-22", ECB, 1.0, 7)), "WATCH-PROPOSED")
+    chk("mid-month ECB $0.999B -> quiet", grade(mk("2026-10-14", "2026-10-15", "2026-10-22", ECB, 0.999, 7)), "quiet")
+    chk("mid-month BoE $5.0B tie -> ALERT", grade(mk("2026-10-14", "2026-10-15", "2026-10-22", BOE, 5.0, 7)), "ALERT-PROPOSED")
+    chk("BoJ $10B -> not European", grade(mk("2026-10-14", "2026-10-15", "2026-10-22", "Bank of Japan", 10.0, 7)), "n/a (not European)")
+    chk("ECB 28d $2B over QE (term > 21, not turn) -> WATCH", grade(mk("2026-09-16", "2026-09-17", "2026-10-15", ECB, 2.0, 28)), "WATCH-PROPOSED")
+    # AC1 FRED down
+    chk("AC1 SWPT no rows -> UNGRADEABLE", verdict(wk, [], t).startswith("UNGRADEABLE"), True)
+    # AC2 empty / non-European / stale op
+    chk("AC2 no ops -> UNGRADEABLE", verdict([], fresh, t).startswith("UNGRADEABLE"), True)
+    chk("AC2 only BoJ ops -> UNGRADEABLE", verdict([mk("2026-09-29", "2026-10-01", "2026-10-08", "Bank of Japan", 0.01, 7)], fresh, t).startswith("UNGRADEABLE"), True)
+    chk("AC2 newest European op 23d old -> UNGRADEABLE", verdict([mk("2026-09-08", "2026-09-09", "2026-09-16", ECB, 0.1, 7)], fresh, t).startswith("UNGRADEABLE"), True)
+    chk("AC2 newest European op 22d old -> graded", verdict([mk("2026-09-09", "2026-09-10", "2026-09-17", ECB, 0.1, 7)], fresh, t).startswith("UNGRADEABLE"), False)
+    # AC3 stale SWPT
+    chk("AC3 SWPT as-of 11d old -> UNGRADEABLE", verdict(wk, [("2026-09-20", 72.0)], t).startswith("UNGRADEABLE"), True)
+    chk("AC3 SWPT as-of 10d old -> graded", verdict(wk, [("2026-09-21", 72.0)], t).startswith("UNGRADEABLE"), False)
+    # AC4 headline sees every European op in 14d, names dates (replay shape of 2020-03-31)
+    w31 = [mk("2020-03-25", "2020-03-26", "2020-06-18", ECB, 27.81, 84)] + \
+          [mk("2020-03-3%d" % k, "2020-03-31", "2020-04-0%d" % (k + 6), "Bank of Japan", 1.0, 7) for k in (0, 1)] * 6
+    chk("AC4 one ALERT op among 13 ops -> ALERT headline", verdict(w31, [("2020-03-25", 0.0)], dt.date(2020, 3, 31)).startswith("ALERT"), True)
+    chk("AC4 headline names newest European op and SWPT as-of", ("newest European op 2026-09-23" in verdict(wk, fresh, t)) and ("SWPT as-of 2026-09-23" in verdict(wk, fresh, t)), True)
+    # AC5 settlement-keyed turn test
+    chk("AC5 trade 9/30 settle 10/1 -> NOT turn", is_turn(mk("2026-09-30", "2026-10-01", "2026-10-08", ECB, 8.0, 7)), False)
+    chk("AC5 trade 9/29 settle 9/30 mat 10/7 -> turn", is_turn(mk("2026-09-29", "2026-09-30", "2026-10-07", ECB, 8.0, 7)), True)
+    chk("AC5 maturing ON the quarter-end day -> not turn", spans_qe("2026-09-24", "2026-09-30"), False)
+    # AC6 turn ops graded on their own lines, never dropped
+    chk("AC6 2020-03-25 ECB 7d $17.27B turn -> ALERT (turn)", grade(mk("2020-03-25", "2020-03-26", "2020-04-02", ECB, 17.27, 7)), "ALERT-PROPOSED (turn op)")
+    chk("AC6 2011-12-21 ECB 14d $33.0B turn -> ALERT (turn)", grade(mk("2011-12-21", "2011-12-22", "2012-01-05", ECB, 33.0, 14)), "ALERT-PROPOSED (turn op)")
+    chk("AC6 2017-12-20 ECB 21d $11.91B calm turn -> WATCH (turn), not ALERT", grade(mk("2017-12-20", "2017-12-21", "2018-01-11", ECB, 11.907, 21)), "WATCH-PROPOSED (turn op)")
+    chk("AC6 2020-03-25 BoE 7d $7.71B turn -> WATCH (turn)", grade(mk("2020-03-25", "2020-03-26", "2020-04-02", BOE, 7.71, 7)), "WATCH-PROPOSED (turn op)")
+    chk("AC6 9/23 ECB $0.197B turn -> below turn lines (printed, not dropped)", grade(wk[1]), "turn op, below turn lines")
+    # AC7 SWPT turn-adjusted
+    chk("AC7 SWPT $12,067M as-of 2018-01-03 (turn window) -> below line", swpt_grade("2018-01-03", 12067.0), "below line")
+    chk("AC7 SWPT $11,302M as-of 2022-10-26 (outside) -> ALERT", swpt_grade("2022-10-26", 11302.0), "ALERT-PROPOSED")
+    chk("AC7 SWPT $10,000M tie outside turn window -> ALERT", swpt_grade("2026-11-11", 10000.0), "ALERT-PROPOSED")
+    chk("AC7 SWPT $15,000M tie inside turn window -> ALERT", swpt_grade("2026-10-07", 15000.0), "ALERT-PROPOSED")
+    # cadence leg
+    daily = [mk(f"2023-03-{d:02d}", f"2023-03-{d+1:02d}", f"2023-03-{d+2:02d}", ECB, 0.1, 1) for d in (20, 21, 22)]
+    chk("cadence: daily ECB ops -> switch", bool(cadence_switch(daily)), True)
+    chk("cadence: weekly ECB ops -> none", cadence_switch(wk), [])
+    chk("cadence: single isolated 1d op -> none", cadence_switch([mk("2024-05-15", "2024-05-15", "2024-05-16", BOE, 0.01, 1)]), [])
+    # fetch failure -> rc 2
     global _get
     real = _get
     def boom(*a, **k):
@@ -227,13 +295,15 @@ def main(_argv=None):
         print(f"UNGRADEABLE: fetch failed ({e.__class__.__name__}: {e}) — no reading")
         return 2
     print("⛔ Lines are PROPOSED, NOT REGISTERED (Will's word). Usage = ceiling-binding, not a basis level.")
-    print(f"NY Fed USD swap operations, last 60 days ({len(o)} ops; posted at settlement):")
-    for x in sorted(o, key=lambda x: x["trade"])[-12:]:
+    eu = [x for x in o if x["cp"] in EU]
+    print(f"NY Fed USD swap operations, last 60 days: {len(o)} ops ({len(eu)} European, all printed; "
+          f"{len(o) - len(eu)} non-European not graded). Posted at settlement:")
+    for x in sorted(eu, key=lambda x: x["trade"]):
         print(f"  trade {x['trade']} settle {x['settle']} {x['term']:>3}d {x['cp'][:24]:<24} ${x['bn']:.3f}B @ {x['rate']}%  -> {grade(x)}")
     if s:
         d, v = s[-1]
-        lab = "ALERT-PROPOSED" if v >= SWPT_ALERT_M else "quiet"
-        print(f"FRED SWPT (H.4.1, Wed level): ${v:,.0f}M as-of {d} -> {lab}; prior: " +
+        lab = swpt_grade(d, v) + (" (turn window)" if swpt_in_turn_window(d) else "")
+        print(f"FRED SWPT (H.4.1, Wed level, ALL counterparties — global, not European): ${v:,.0f}M as-of {d} -> {lab}; prior: " +
               ", ".join(f"{dd[5:]} {vv:,.0f}" for dd, vv in s[-5:-1]))
     v = verdict(o, s, today)
     print(f"VERDICT (PROPOSED lines): {v}")
