@@ -59,6 +59,11 @@ Each answer is a hypothesis until tested against the aggregate named beside it.
 | Question | Test aggregate |
 |---|---|
 | Is single-tenant lease-end obsolescence a distinct failure path from maturity default in office? | Trepp newly-delinquent composition (matured balloon vs other), `VX-CREED-3.04/3.05` |
+| Does a lender lose more than the sale price implies? *(2026-09-30, Will's workbook v3: 8–22pp beyond price, n=4, plus a $5M advance-only trust loss; 3000 Post Oak a disputed counter-case; `research/2026-09-30_CASE_LEDGER_PATTERNS.md` 3a)* | Trustee remittance reports: price/proceeds vs loss, line by line |
+| …and does that gap grow with time in workout? *(same note, 3b: UNTESTED, no timing data)* | Same remittance reports + SS-transfer and liquidation dates |
+| Once a building fails, does its price track prior value less, and does occupancy at sale explain the drop? *(same note, 2/2b: 0.53 vs 0.86, about 0.10 of it mechanical; sourced only 0.57 vs 0.72; occupancy n=6, mostly unsourced)* | Loan-level liquidation severity by occupancy and building age (Trepp/CREFC); record occupancy on new cases |
+| Are named-case loan losses a tail of the market distribution? *(same note, 4: median 76% vs JPM YTD 35.2% all / 49.3% office)* | CREFC monthlies + JPM YTD, `KB-CREED-041` |
+| Does the year the last owner bought predict the drop? *(same note, 1: the v2 'peak-era buyers lose most' read is RETRACTED; workbook-compliant rows n=9 run the OPPOSITE way, −0.66; OPEN and thin)* | More distressed sales with verified purchase prices; repeat-sale loss by purchase year |
 | Same special servicer / originator across metros? | none (the ledger is the instrument, but n is press-sampled) |
 | Time from special servicing to resolution, by type | Trepp SS resolution commentary; CREFC |
 | Loss severity by type/vintage | `KB-CREED-041` CREFC severity distribution |
