@@ -5,7 +5,7 @@
 **Built from:** the 10/1 card (now `docket/graded/GRADING_CARD_20261001_claims.md`). **§1 · §3 · §5a · §5b/§5c counts REGENERATED from the 10/1 as-published window; §2 · §4 · §6 · §7 bands carried (no STATUS threshold changed on 10/1).**
 **Why a card is owed:** multi-loaded — **T-01, T-02, vector 13, vector 7, Kill B**, plus CARL's kill-rule leg 1. (LAB-03 resolved 10/1 — no prediction rides this print.)
 
-> 🔴 **TWO COUNTERS SIT AT 3 OF 4 — THIS PRINT CAN MOVE THE SCORE.** A print `≤199,000` (on an unrevised-or-still-qualifying run) completes **vector 13 → 4 of 4 ⇒ v13 2 → 1**; continuing claims `<1,750,000` for w/e Sep 26 completes **vector 7 → 4 of 4 ⇒ v7 3 → 2**. Both together ⇒ **28 → 26/75.** Said now so neither is read as news on the day: these are the pre-registered drop letters of `STATUS.md` (v13 `<200K ×4 → drop to 1`; v7 `CC <1,750K ×4 → drop to 2`), executed, not argued with.
+> 🔴 **TWO COUNTERS SIT AT 3 OF 4 — THIS PRINT CAN MOVE THE SCORE.** A print `≤199,000` (on an unrevised-or-still-qualifying run) completes **vector 13 → 4 of 4 ⇒ v13 2 → 1**; continuing claims `<1,750,000` for w/e Sep 26 completes **vector 7 → 4 of 4 ⇒ v7 3 → 2**. Both together ⇒ **28 → 26/75** — ⚠️ **unless the 10/2 NFP fires freeze-thaw v2**, which stands v7 down and re-grades the book before this print (§4). Said now so neither is read as news on the day: these are the pre-registered drop letters of `STATUS.md` (v13 `<200K ×4 → drop to 1`; v7 `CC <1,750K ×4 → drop to 2`), executed, not argued with.
 > ⚠️ **`R` is 207,000 AGAIN** (w/e Sep 5) — same mechanical term as last week, `(X − 207,000)/4`, but the retained trio changed (603,000 → 593,000), so `MA_next` and the T-01 bound both moved.
 
 ---
@@ -38,7 +38,7 @@
 | **D** | 251,000 – 300,000 | **ARM T-01 provisional** (confirm on a 2nd consecutive `>250,000`) |
 | **E** | ≥ 301,000 | 🔴 **T-02 FIRE** → REGINALD (all ORANGE→RED) + HENRY |
 
-**Distances from the 197,000 base:** T-01 `250,000 − 200,000 = 50,000` on the MA basis; T-02 `300,000 − 197,000 = 103,000`. Band B is modal.
+**Distances from the 197,000 base:** T-01 `250,000 − 200,000 = 50,000` on the MA basis; T-02 `300,000 − 197,000 = 103,000` to the bar; the first firing print (band E, 301,000) is `104,000` away. Band B is modal.
 
 ---
 

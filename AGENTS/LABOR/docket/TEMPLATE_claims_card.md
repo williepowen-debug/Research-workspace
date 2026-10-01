@@ -6,6 +6,8 @@
 
 ---
 
+> ⛔ **LINE 1 OF A CARD MUST NEVER READ `FROZEN <ISO date>` (or RETIRED / SUPERSEDED / ARCHIVED + date).** `scripts/consumer_check.py` reads that line-1 shape as a DEAD-file banner and clears the whole file as not-a-live-consumer (DAEDALUS repair `9343a4947`, 2026-10-01 — its first version would have cleared LABOR's pending 10/02 NFP card). Title cards `# 🔒 FROZEN GRADING CARD — <event>` and put the freeze date on line 3's `**Frozen:**` field. Check: `head -1` of the card must not match `^[^A-Z0-9~]{0,12}(FROZEN|RETIRED|SUPERSEDED|ARCHIVED)\b[\s*_:]*\d{4}-\d{2}-\d{2}`.
+
 ## FILL PROCEDURE (run these, in order, at the closeout BEFORE the print week)
 
 ```bash

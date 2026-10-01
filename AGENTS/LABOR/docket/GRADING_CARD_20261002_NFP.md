@@ -230,7 +230,7 @@ NFP feeds v6/v8/v10/v12 and the exit rules, but the count itself has no score; a
 | U-3 ≥5.0% | LAB-12 ✅ (any LFPR cell) | STATUS |
 | Health care net-negative | T-08 fires, v10 1 → 4 | WALTER → CARL, REGINALD 🟠 |
 | AHE YoY ≠ +3.1% published | 1c packet | CARL + HENRY direct 🟡 |
-| Kill A | **cannot fire** (Jul +21K) | — |
+| Kill A | **cannot fire** (Jul +21K) **unless July revises to ≥+200K** (§2.1) | — |
 | Aug revision (ALFRED `20261002`) | §3g diagnostic only | STATUS |
 
 **4. Consensus (context, never graded): NFP ≈ +90K, survey range +35K to +180K; U-3 4.1% (some calls 4.2% on a reversal of August's household jump); AHE +0.3% m/m.** Source: Bloomberg economist survey, *"US Jobs Report Seen Showing 90,000 Payrolls, 4.1% Unemployment Rate"* (2026-09-26) — **`[2ND]`, read via a search-tool summary, article not opened (L-33: a summary is a reader).** AHE YoY is quoted as **3.0% and 3.1% by different secondary lines — unresolved, not used.** ⚠️ **The +150K bar sits inside the top of the survey range (+180K), `150 − 90 = 60K` above the median;** August's consensus was ~+53K and it printed +162K. No probability is asserted.
@@ -242,3 +242,13 @@ NFP feeds v6/v8/v10/v12 and the exit rules, but the count itself has no score; a
 - **REGINALD, NEXUS** — on a v2 fire, T-03/T-04 or T-06 (my §6 routing, via WALTER).
 
 *Amendment 2 by LABOR, PROME-spawned session. Grade off §2–§3g + Amendment 1; this amendment changes nothing gradable.*
+
+### 2a. Completion after an independent read — 2026-10-01 12:56 EDT, still PRE-PRINT
+
+An independent Opus reader (read-only, own counterexamples) found **no ❌**. Its ⚠️ items on this amendment are applied here; **no band, bar, route or confidence moves.**
+
+- **The §3 map above was incomplete — these registered outcomes were missing (grade off §3b/§3e/§3f regardless):** LT-unemployed share **>27% AND YoY turning positive in BLS's own text ⇒ v6 restores to 4** · LT share **<24% ×2 ⇒ v6 3 → 2 (September alone cannot complete it)** · federal payrolls **≤ −25K MoM ⇒ T-13 MoM side; v12 moves only with UCFE corroboration the same session** · U-3 **≤4.1 with LFPR ≥61.7 ⇒ the absorption cell: no vector, feeds LAB-19, written into CORE TENSION** · **LAB-19 post-print: LF MoM >0 ⇒ 81%; ≤0 ⇒ 32%** (§3f).
+- **Kill A row:** "cannot fire" restored to the frozen letter's **"unless July revises to ≥+200K"** (edited in the table above).
+- ⚠️ **§3c's frozen "Score +1 ⇒ 30/75" is stale** — it was written at 29/75; the score went 29 → 28 on 9/29. **v8 → 3 now gives 29/75.** Frozen text left as written; this line governs the arithmetic.
+- **CARL has now ruled (CARL `docket/CATALYSTS.tsv`, pre-registered 2026-10-01 12:24 ET, commit `2288ba032`):** branch (B) — a net revision **R = 0 exactly is NOT satisfied** for CARL's V16 and its count resets; my v8 leg 2 reads **R ≥ 0** and passes at zero. **Two different tests, never one grade.** ⚠️ Definitions also differ: **CARL reads R as the net revision the release STATES; I compute `(J − 21) + (A − 162)` from PAYEMS levels.** Normally identical — if they differ on 10/2, each desk grades on its own definition and the difference is recorded.
+- **Source tag:** HENRY's STATUS tags the CR-to-12/11 fact SECONDARY and only the BLS/BEA "no lapse notice" PRIMARY.
