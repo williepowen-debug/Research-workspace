@@ -85,3 +85,6 @@ Companion to `2026-09-29_cre-case-seed.tsv`. WALTER drafted this read-only from 
 14. **Galveston price.** A circulating $1,475,000 / $3.79/SF was rejected. The 7/2 re-verify confirms ~$3.3M hammer / ~$3.475M all-in.
 15. **Two different "Bank of America Plaza" buildings.** One is downtown LA (CASE-0008: $400M, 44% loss, sold 6/16/26); the other is St. Louis (CASE-0015: ~$9.5M+ sale, June 2026). Do not merge them.
 16. **S2 Capital (unrowed).** $311M across 5 North Texas properties (SIG -704-005) vs HOMER's row: 20 DFW/Phoenix properties, $140M of DFW foreclosures on 6/22, $250M of CMBS to special servicing on 5/28, and ~1/3 of ~$900M of Texas CRE flagged for July auctions.
+
+---
+**SUPERSEDED FIGURE (annotation 2026-10-01, additive; CREED packet `f5c4972c6`):** CASE-0005 / 3000 Post Oak. The **$68.6M** "gross loss" above ($80M − $11.4M) is **RETIRED by CREED**: wrong base, and it left out trust fees and advances. Current owner record: senior balance at the loss **$74,579,200.28** (three trusts' 10-Ds); B17 reported loss **$24,188,359.23**; whole-loan loss **≈$64.5M pro rata, an ESTIMATE** pending the B18/C9 September 10-Ds; $11.4M = proceeds received before fees and advances. **Canonical: `AGENTS/CREED/cases/CASES.tsv` CASE-CREED-001 · `KB-CREED-046`.** The seed TSV row is left as written (a dated handoff); cite CREED, not this file.

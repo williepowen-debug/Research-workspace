@@ -902,7 +902,15 @@ def _recipient_board_log(recipient):
     DAEDALUS's ruling that a mirror FORKS the ledger — correctly, so the instrument side
     is the only live half. Measured class size: CARL keeps BOTH paths; REGINALD only the
     alternate. Schema-agnostic by construction — callers do line-scoped substring tests,
-    so a differing column layout does not matter."""
+    so a differing column layout does not matter.
+
+    🆕 ROTATION ARCHIVES (2026-10-01, CARL packet `14cb52350`): a desk that rotates
+    its ledger under the read cap moves consumed rows to `<stem>_archive*<suffix>`
+    BESIDE the live file (e.g. `board_log_archive_2026Q3.tsv`). Those files are read
+    and concatenated after the live one. Without this, every rotated row inside the
+    scan window read as delivered-but-UNconsumed, so the cap blocked CARL's rotation.
+    An archive holds only rows the desk itself wrote, so this can add consumption
+    evidence but never removes any; the fail-closed direction is unchanged."""
     k = recipient.upper()
     if k not in _BOARD_LOG_CACHE:
         _BOARD_LOG_CACHE[k] = ""
@@ -910,7 +918,10 @@ def _recipient_board_log(recipient):
             f = REPO / "AGENTS" / recipient / rel
             try:
                 if f.exists():
-                    _BOARD_LOG_CACHE[k] = f.read_text(errors="replace")
+                    parts = [f.read_text(errors="replace")]
+                    for a in sorted(f.parent.glob(f"{f.stem}_archive*{f.suffix}")):
+                        parts.append(a.read_text(errors="replace"))
+                    _BOARD_LOG_CACHE[k] = "\n".join(parts)
                     _BOARD_LOG_PATH_USED[k] = rel
                     break
             except OSError:
