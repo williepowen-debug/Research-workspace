@@ -298,7 +298,17 @@ def news_search_coverage(live):
     the collector swallows per-query errors). A low SAVED count does not prove the
     searches failed (dedup and the noise filter also drop items), so this reports an
     ANOMALY WITH CAUSE UNKNOWN, never an outage. research/2026-10-01_intake-bounded-comparison.md"""
-    saved = (live.get("jobs", {}).get("newsweep") or {}).get("saved")
+    job = live.get("jobs", {}).get("newsweep") or {}
+    saved = job.get("saved")
+    # Report the job's own status, never assume it: since RESEARCH-INTAKE 429f948 (L569) the job can
+    # read `degraded` with `degraded_reasons`, and a hard-coded "reported ok" would then be untrue.
+    status = job.get("status", "UNKNOWN")
+    reasons = job.get("degraded_reasons")
+    if isinstance(reasons, dict):   # shape not stated in the L569 packet; keep the values either way
+        reasons = [f"{k}: {v}" for k, v in reasons.items()]
+    elif reasons is not None and not isinstance(reasons, (list, tuple)):
+        reasons = [reasons]
+    job_state = f"newsweep reported {status}" + (f" ({'; '.join(map(str, reasons))})" if reasons else "")
     labels = _search_labels()
     if not saved:
         return []
@@ -322,7 +332,7 @@ def news_search_coverage(live):
     basis = f"trailing median {med} over {len(prior)} batches" if med is not None else "no trailing batches"
     if n == 0 or (med and n < med * 0.25):
         return [("MED", f"news search COVERAGE ANOMALY: {saved} saved {n} Google News items ({basis}) "
-                        "while newsweep reported ok — cause UNKNOWN (failed requests, malformed feeds, "
+                        f"while {job_state} — cause UNKNOWN (failed requests, malformed feeds, "
                         "or dedup/filtering); treat the batch as degraded and do not read its silence as quiet")]
     return [("OK", f"news search items saved: {n} ({basis})")]
 
