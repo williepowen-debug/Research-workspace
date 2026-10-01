@@ -1,0 +1,27 @@
+# VERBATIM export (cached cell values) of sheet 'Market Benchmarks' from 2026-09-30_will_CRE_Loss_Sales_v4.xlsx, Will's research, received 2026-09-30. Not edited.
+Market benchmarks with defined populations							
+Context for selected case investigations • Monthly balance-weighted delinquency and cumulative loan-count default are different measures. Neither is a realized-loss rate, and neither can be estimated from this selected event tracker.							
+TREPP US CMBS — MONTHLY DELINQUENCY, YEAR-APART COMPARISON							
+Population	August 2025	August 2026	Change (basis points)	Weight / frequency	What this measures	Sources	Checked
+All covered CMBS	0.0729	0.0785	55.999999999999936	Loan balance / monthly	Delinquent balance divided by covered outstanding balance.	https://www.trepp.com/trepptalk/cmbs-delinquency-rate-increases-again-in-august-2025?hs_amp=true https://www.trepp.com/trepptalk/overall-cmbs-delinquency-rate-decreased-in-august-2026	2026-09-30
+Office	0.1166	0.12	34	Loan balance / monthly	Office segment of the same covered universe.	https://www.trepp.com/trepptalk/cmbs-delinquency-rate-increases-again-in-august-2025?hs_amp=true https://www.trepp.com/trepptalk/overall-cmbs-delinquency-rate-decreased-in-august-2026	2026-09-30
+Multifamily	0.0686	0.0769	83.00000000000001	Loan balance / monthly	Non-agency CMBS multifamily; not all US apartments.	https://www.trepp.com/trepptalk/cmbs-delinquency-rate-increases-again-in-august-2025?hs_amp=true https://www.trepp.com/trepptalk/overall-cmbs-delinquency-rate-decreased-in-august-2026	2026-09-30
+Retail	0.0642	0.072	78.00000000000001	Loan balance / monthly	Retail segment; not a mall-only peer set.	https://www.trepp.com/trepptalk/cmbs-delinquency-rate-increases-again-in-august-2025?hs_amp=true https://www.trepp.com/trepptalk/overall-cmbs-delinquency-rate-decreased-in-august-2026	2026-09-30
+Covered loans	US conduit, SASB and certain large-loan floating-rate CMBS. CRE CLOs, agency/GSE securities, cell towers and other nontraditional collateral excluded.						
+Delinquency numerator	30+ days delinquent, nonperforming matured loans, foreclosure and REO. Performing matured balloon loans are excluded from the headline measure.						
+Balance denominator	Covered outstanding balance includes defeased loans. August 2025 published totals: $44.1B delinquent / $604.6B outstanding, both rounded. August 2026 balance totals were not supplied in the reviewed public release.						
+Interpretation	Rates are published provider outputs; rounded balance totals may not reproduce the rate exactly. Population can change through issuance, amortization and resolutions; this is not a fixed cohort.						
+Methodology source	https://www.trepp.com/trepptalk/breaking-down-trepp-cmbs-delinquency-report-essential-guide-distress-cmbs						
+KBRA CRE CLO — CUMULATIVE HISTORICAL STUDY THROUGH MARCH 2026							
+Study metric	Loan count	Denominator loans	Calculated share	Published rounded rate	Definition / qualification	Source	Publication date
+Payment defaults	341	6919	0.0492845786963434	0.049	Ever 60+ days delinquent in the observed study.	https://www.kbra.com/publications/bBrxwpQm/kbra-releases-research-cre-clo-loan-default-and-loss-study-rising-defaults-and-modifications-amid-limited-losses	2026-06-04
+Additional maturity defaults	378	6919	0.0546321722792311	0.055	Additional to payment defaults; not current delinquencies.	https://www.kbra.com/publications/bBrxwpQm/kbra-releases-research-cre-clo-loan-default-and-loss-study-rising-defaults-and-modifications-amid-limited-losses	2026-06-04
+Combined defaults	719	6919	0.1039167509755745	0.104	Payment plus additional maturity defaults.	https://www.kbra.com/publications/bBrxwpQm/kbra-releases-research-cre-clo-loan-default-and-loss-study-rising-defaults-and-modifications-amid-limited-losses	2026-06-04
+Additional modifications	863	6919	0.12472900708194826	0.125	Incremental loans beyond the default categories.	https://www.kbra.com/publications/bBrxwpQm/kbra-releases-research-cre-clo-loan-default-and-loss-study-rising-defaults-and-modifications-amid-limited-losses	2026-06-04
+Defaults plus modifications	1582	6919	0.22864575805752277	0.229	Combined cumulative distress measure; not loss severity.	https://www.kbra.com/publications/bBrxwpQm/kbra-releases-research-cre-clo-loan-default-and-loss-study-rising-defaults-and-modifications-amid-limited-losses	2026-06-04
+Study population	6,919 loans across 227 CLOs issued July 2013–March 2025, followed through March 2026. Count weighted, historical cumulative observations; seasoning varies.						
+After CLO exit	KBRA reports 86.5% of defaulted loans resolved through repayment or repurchase. Exit from the CLO does not establish the property’s final loss or creditor recovery.						
+Applicable tracker cases	Use Trepp office/retail/multifamily context for comparable CMBS loans. Use KBRA only as historical context for CLO loans after checking vintage and study eligibility.						
+Uncovered populations	Bank construction credits (including OZK) and agency Park Greene have no matched benchmark established here. Do not apply these CMBS/CLO rates to those populations.						
+Tracker denominator	101 event/lead rows are selected cases, may repeat collateral and span multiple years. No market loss, delinquency or default rate is calculated from them.						
+Remaining benchmark work	For bank construction and agency loans, obtain a same-period provider series with a documented numerator, exposure population and weighting. No substitute rate has been invented.						

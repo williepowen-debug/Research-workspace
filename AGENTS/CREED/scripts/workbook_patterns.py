@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reproduce every figure in research/2026-09-30_CASE_LEDGER_PATTERNS.md from Will's workbook v3 (read-only).
+"""Reproduce every figure in research/2026-09-30_CASE_LEDGER_PATTERNS.md from Will's workbook v4 (read-only; v3 figures differed only where noted in the doc).
 
 Comparable PRICE set: Event Type in {Property sale, Property sale / CMBS liquidation}; numeric disposition AND benchmark;
 USD; not a duplicate or excluded summary. 'Sourced' = has Source URL 1. 'Verified benchmark' = Benchmark Type exactly
@@ -10,7 +10,7 @@ Run: .venv/bin/python3 AGENTS/CREED/scripts/workbook_patterns.py
 import math, pathlib, statistics as st
 import openpyxl
 
-SRC = pathlib.Path(__file__).resolve().parents[1] / "cases" / "sources" / "2026-09-30_will_CRE_Loss_Sales_v3.xlsx"
+SRC = pathlib.Path(__file__).resolve().parents[1] / "cases" / "sources" / "2026-09-30_will_CRE_Loss_Sales_v4.xlsx"
 wb = openpyxl.load_workbook(SRC, data_only=True)
 R = list(wb["CRE Distress Sales"].iter_rows(values_only=True))
 H = R[0]

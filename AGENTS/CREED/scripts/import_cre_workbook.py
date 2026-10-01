@@ -1,12 +1,17 @@
 #!/usr/bin/env python3
-"""One-shot import of Will's CRE loss-sales workbook into the case ledger (Will 2026-09-30: adopt ALL rows, v3).
+"""One-shot import of Will's CRE loss-sales workbook into the case ledger (Will 2026-09-30: adopt ALL rows).
 
-Source: cases/sources/2026-09-30_will_CRE_Loss_Sales_v3.xlsx (copied from Will's Downloads, unchanged).
+RE-RUN ON v4 2026-09-30 ~23:5x ET: v4 arrived after the v3 import (no new events; 8 events updated; three new sheets).
+The v3 import rows were unconsumed, so the three ledger files were restored to their pre-import state (git 23196acee^)
+and this script re-run on v4; case IDs are stable because the Property ID order did not change (checked after the run).
+
+Source: cases/sources/2026-09-30_will_CRE_Loss_Sales_v4.xlsx (copied from Will's Downloads, unchanged).
 Writes (append-only, CREED-owned):
-  cases/sources/2026-09-30_will_CRE_Loss_Sales_v3_{events,workouts,methodology}.tsv   verbatim exports (cached values)
+  cases/sources/2026-09-30_will_CRE_Loss_Sales_v4_<sheet>.tsv   verbatim exports of ALL sheets (cached values)
   cases/CASES.tsv        one new case per workbook Property ID not already in the ledger
   cases/CASE_EVENTS.tsv  every workbook event row (plus ACQUIRED/APPRAISAL from benchmarks, LOSS_REALIZED from losses)
-  cases/CASE_NOTES.md    one section per touched case: every workbook field verbatim + the Loan Workouts record
+  cases/CASE_NOTES.md    one section per touched case: every workbook field verbatim + its Loan Workouts, Loss Reconciliations
+                         and Operating History rows (Market Benchmarks is exported only: population-level context)
 Mapping rules (stated so a reader can audit them, not inferred per row):
   * Existing cases are ENRICHED, never duplicated (OVERLAP map below, checked by hand 2026-09-30). In CASES.tsv only
     the header vintage changes for them; the workbook's figures go to events + notes. A conflict is DISPUTED, not overwritten.
@@ -23,9 +28,9 @@ import openpyxl
 
 CREED = pathlib.Path(__file__).resolve().parents[1]
 C = pathlib.Path(os.environ["CASES_DIR"]) if os.environ.get("CASES_DIR") else CREED / "cases"  # override = dry run on a copy
-SRC = CREED / "cases" / "sources" / "2026-09-30_will_CRE_Loss_Sales_v3.xlsx"
+SRC = CREED / "cases" / "sources" / "2026-09-30_will_CRE_Loss_Sales_v4.xlsx"
 TODAY = "2026-09-30"
-TAG = "Will workbook v3"
+TAG = "Will workbook v4"
 OVERLAP = {  # workbook Property ID -> existing case (hand-checked 2026-09-30)
     "CRE-0007": "CASE-CREED-053", "CRE-0009": "CASE-CREED-052", "CRE-0011": "CASE-CREED-051",
     "CRE-0033": "CASE-CREED-048", "CRE-0063": "CASE-CREED-003", "CRE-0065": "CASE-CREED-001",
@@ -80,10 +85,10 @@ def ptype(t):
 
 def tier(v):
     v = (v or "").lower()
-    if v.startswith("primary"):
-        return "PRIMARY-CITED"
     if v.startswith(("unverified", "probable duplicate")):
         return "LEAD"
+    if "primary" in v:  # v4: "Rating agency plus primary trustee and issuer evidence" must not read as SECONDARY
+        return "PRIMARY-CITED"
     return "SECONDARY"
 
 
@@ -168,17 +173,38 @@ def main():
     if any(f"{TAG}" in l for l in (C / "CASE_EVENTS.tsv").open(encoding="utf-8")):
         sys.exit("REFUSED: workbook events already in CASE_EVENTS.tsv. Nothing written.")
 
-    # verbatim exports
-    for name, header, rows in (("events", H, [r for r in ev[1:] if any(r)]), ("workouts", LH, lw[hi + 1:]),
-                               ("methodology", ("Item", "Note"), meth)):
+    # verbatim exports: every sheet
+    for ws in wb.worksheets:
         out = io.StringIO()
         w = csv.writer(out, delimiter="\t", lineterminator="\n")
-        out.write(f"# VERBATIM export (cached cell values) of sheet from {SRC.name}, Will's research, received 2026-09-30. Not edited.\n")
-        w.writerow(header)
-        for r in rows:
+        out.write(f"# VERBATIM export (cached cell values) of sheet '{ws.title}' from {SRC.name}, Will's research, received 2026-09-30. Not edited.\n")
+        for r in ws.iter_rows(values_only=True):
             if any(c is not None for c in r):
                 w.writerow([s(c) for c in r])
-        (C / "sources" / f"{SRC.stem}_{name}.tsv").write_text(out.getvalue(), encoding="utf-8")
+        slug = ws.title.lower().replace(" & ", "_").replace(" ", "_")
+        (C / "sources" / f"{SRC.stem}_{slug}.tsv").write_text(out.getvalue(), encoding="utf-8")
+
+    def is_header(r):  # a sheet can hold several sub-tables, each with its own header row
+        cells = [c for c in r if c is not None]
+        return len(cells) >= 4 and all(isinstance(c, str) for c in cells) and not re.search(r"CRE-\d{4}", str(r[0]))
+    extra = {}  # pid -> list of (sheet: section, header, row)
+    for name in ("Loss Reconciliations", "Operating History"):
+        hdr, section = None, ""
+        for r in wb[name].iter_rows(values_only=True):
+            cells = [c for c in r if c is not None]
+            if not cells:
+                continue
+            if len(cells) == 1 and isinstance(cells[0], str):
+                section = cells[0]
+                continue
+            if is_header(r):
+                hdr = r
+                continue
+            if hdr is None:
+                continue
+            row = dict(zip(hdr, r))
+            for pid in re.findall(r"CRE-\d{4}", s(r[0])):
+                extra.setdefault(MERGE.get(pid, pid), []).append((f"{name}{' / ' + section[:60] if section else ''}", hdr, row))
 
     by_pid = {}
     for x in X:
@@ -296,10 +322,12 @@ def main():
                          + (f" · *Discount to Benchmark (cached formula):* {round(x['Discount to Benchmark (%)'] * 100, 1)}% (price vs benchmark, NOT a loan loss)" if num(x["Discount to Benchmark (%)"]) is not None else ""))
         for r in lw_by_pid.get(pid, []):
             lines.append(f"- **Loan Workouts {s(r['Workout ID'])}:** " + " · ".join(f"*{k}:* {s(r[k])}" for k in LH if s(r[k])))
+        for name, hdr, r in extra.get(pid, []):
+            lines.append(f"- **{name}:** " + " · ".join(f"*{k}:* {s(r[k])}" for k in hdr if k and s(r[k])))
         notes.append("\n".join(lines))
 
     # outside-grain rows
-    og = ["### Rows adopted OUTSIDE case grain (Will workbook v3) — verbatim, NOT cases",
+    og = [f"### Rows adopted OUTSIDE case grain ({TAG}) — verbatim, NOT cases",
           "README rule 1 defines a case as one loan on one property. These rows are adopted as records (Will: adopt all rows) but not as cases, so they never enter a case count."]
     for pid, rows, lws in outside_notes:
         why = "financing vehicle (CLO redemption / repo transfer), not a property loan; lender-capital evidence (S8b, LIQUID's lane)" if pid == "CRE-0091" else "overlapping summary row; the workbook excludes it from analysis"

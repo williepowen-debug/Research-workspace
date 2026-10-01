@@ -35,7 +35,7 @@ It holds one row per named distressed property or loan, so connections *across* 
 |---|---|---|
 | `CASES.tsv` | one row per case | current state, identity, loan/holder, marks, fleet links |
 | `CASE_EVENTS.tsv` | one row per dated event | the timeline, structured so durations are computable |
-| `sources/` | one file per imported dataset | **Will's CRE loss-sales workbook v3** (`2026-09-30_will_CRE_Loss_Sales_v3.xlsx`, unchanged copy) + verbatim TSV exports of its three sheets. Imported 2026-09-30 by `scripts/import_cre_workbook.py` (mapping rules in its header): 79 cases + 9 enriched; 3 rows outside case grain kept verbatim in CASE_NOTES. **Not re-verified by CREED; its methodology sheet's limits apply** |
+| `sources/` | one file per imported dataset | **Will's CRE loss-sales workbook, v4 is CURRENT** (`2026-09-30_will_CRE_Loss_Sales_v4.xlsx`, unchanged copy, + verbatim TSVs of all six sheets incl. Loss Reconciliations, Operating History, Market Benchmarks). v3 kept beside it for provenance only. Imported 2026-09-30 by `scripts/import_cre_workbook.py` (mapping rules in its header): 79 cases + 9 enriched; 3 rows outside case grain kept verbatim in CASE_NOTES. **Not re-verified by CREED; its methodology sheet's limits apply** |
 | `CASE_NOTES.md` | one section per case | **value marks, sources, and every verifier finding, verbatim** (the seed row beside the verifier's reading). `CASES.tsv` points here: **read a case's section before citing any mark or loss.** Also lists the HELD candidates and why |
 
 **Controlled vocabularies** (extend by editing this list in the same commit):
@@ -60,7 +60,7 @@ Each answer is a hypothesis until tested against the aggregate named beside it.
 |---|---|
 | Is single-tenant lease-end obsolescence a distinct failure path from maturity default in office? | Trepp newly-delinquent composition (matured balloon vs other), `VX-CREED-3.04/3.05` |
 | Does a lender lose more than the sale price implies? *(2026-09-30, Will's workbook v3: 8–22pp beyond price, n=4, plus a $5M advance-only trust loss; 3000 Post Oak a disputed counter-case; `research/2026-09-30_CASE_LEDGER_PATTERNS.md` 3a)* | Trustee remittance reports: price/proceeds vs loss, line by line |
-| …and does that gap grow with time in workout? *(same note, 3b: UNTESTED, no timing data)* | Same remittance reports + SS-transfer and liquidation dates |
+| …and does that gap grow with time in workout? *(same note, 3b: mechanism shown on ONE case, v4 bridge: at 1740 Broadway advances + accrued interest = $58.5M = 86% of the $67.8M gap; months in default not measured)* | Same remittance reports + SS-transfer and liquidation dates |
 | Once a building fails, does its price track prior value less, and does occupancy at sale explain the drop? *(same note, 2/2b: 0.53 vs 0.86, about 0.10 of it mechanical; sourced only 0.57 vs 0.72; occupancy n=6, mostly unsourced)* | Loan-level liquidation severity by occupancy and building age (Trepp/CREFC); record occupancy on new cases |
 | Are named-case loan losses a tail of the market distribution? *(same note, 4: median 76% vs JPM YTD 35.2% all / 49.3% office)* | CREFC monthlies + JPM YTD, `KB-CREED-041` |
 | Does the year the last owner bought predict the drop? *(same note, 1: the v2 'peak-era buyers lose most' read is RETRACTED; workbook-compliant rows n=9 run the OPPOSITE way, −0.66; OPEN and thin)* | More distressed sales with verified purchase prices; repeat-sale loss by purchase year |
