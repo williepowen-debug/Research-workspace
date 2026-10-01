@@ -382,3 +382,21 @@ split, not an archive. Archives are frozen; this file is maintained alongside `S
 | First Brands converts to Ch. 7 | 🔴🔴 **FIRED — order reported ENTERED 2026-09-01 (Dkt 3748)** `[PRESS ×2, INFERRED]`. Trigger CLOSED |
 
 **Nearest resolvers:** **9/30 resolve set** (06/10/29/32, all staged) · **10/1:** CRMT bridge-4 STD (BROCK), the 10-D August cycle, the seasoning/upsert repair, OTTO-12 re-search, and the Tricolor list check · **10/7:** CRMT Item 1.01 backstop (BROCK).
+
+---
+
+## 13. Lines rotated out of hot STATUS 2026-09-30 (s026) — verbatim, as they stood before replacement
+
+*Rotated at the CATO RC2 evidence re-check. Every line below was replaced in hot STATUS in the same edit. Hot STATUS wins on any disagreement. ⚠️ The '1 of 4 / mean 0.3744' and 'OTTO-10 FALSIFIED' in these lines are the s025 as-graded record, superseded as verified figures by s026 (see `thesis/PREDICTIONS_ARCHIVE.md`).*
+
+### Header (s025)
+**Signal Status:** 🔴🔴 fraud-leg CRITICAL (**both thesis mechanisms criminally charged; First Brands CONVERTED TO CH.7 — order ENTERED 9/1, VERIFIED at Dkt 3748**) / 🟠 systemic-funding-leg DISCONFIRMED | **Last Updated:** 2026-09-30 EDT (**session 025** — PROME Tier-1 due-row spawn, DOCKET L524: 9/30 resolve of OTTO-06/10/29/32 at as-made; inbox 1 → 0)
+
+### Session 025 boot pointer (Sep 30)
+> **📌 Session 025 (Sep 30, Wed evening — PROME Tier-1 due-row spawn, DOCKET L524). The 9/30 set is RESOLVED at AS-MADE; inbox 1 → 0.** s024 pointer → `STATUS_COLD.md` §12.
+> - **Graded (Brier at as-made):** OTTO-06 **FALSIFIED** 0.4900 (EART Aug-collection max 15.22% <18%; perimeter chosen after July data, disclosed) · OTTO-10 **FALSIFIED** 0.4225 (Equifax primary 19.1% accts / 15.9% bal; impeached series excluded) · OTTO-29 **FALSIFIED-on-window / CONFIRMED-on-substance** 0.5625 · OTTO-32 **CONFIRMED** 0.0225. **Set mean 0.3744.** Three of four were right on the world and wrong on the letter or the instrument; only OTTO-32 scored.
+> - **★ First Brands entry now VERIFIED at the primary:** Dkt 3748 read in full (clerk stamp ENTERED 2026-09-01; ¶1 converts EVERY remaining debtor). Kroll and the CourtListener docket page still 403; the RECAP search API found the PDF.
+> - **No trade, threshold, confidence cell or score move.** Fraud-case count stays 4. WALTER's R3 harness result consumed: the 9-phrase clean set is adopted (`CVNA earnings` dropped, `Tricolor securitization` singular); PROME lands it.
+
+### Predictions — the s025 resolved line
+> **✅ Resolved 2026-09-30 (s025), at AS-MADE:** OTTO-06 FALSIFIED · OTTO-10 FALSIFIED · OTTO-29 FALSIFIED-on-window / CONFIRMED-on-substance · OTTO-32 CONFIRMED (VERIFIED Dkt 3748). Brier 0.4900 / 0.4225 / 0.5625 / 0.0225, mean 0.3744. Grades in `thesis/PREDICTIONS.tsv` Result cells; pre-resolve rows verbatim → `STATUS_COLD.md` §12.

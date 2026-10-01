@@ -6,7 +6,7 @@ Post-mortems for resolved rows in [`PREDICTIONS.tsv`](PREDICTIONS.tsv). The TSV 
 
 ## Calibration Scoreboard (as of 2026-07-25, session 016)
 
-> ⚠️ **The counts in this table are as of 7/25.** Ledger at 2026-09-30 (Status column of `PREDICTIONS.tsv`): **5 CONFIRMED · 8 FALSIFIED · 7 OPEN.** The 9/30 set is in § *9/30 resolve set* below; OTTO-30 (resolved 8/14) has its grade in its TSV row.
+> ⚠️ **The counts in this table are as of 7/25.** Ledger at 2026-09-30 after s026 (Status column of `PREDICTIONS.tsv`): **5 CONFIRMED · 7 FALSIFIED · 1 NEEDS_VERIFY (OTTO-10) · 7 OPEN.** *(s025 read 5 · 8 · 7; OTTO-10 moved FALSIFIED → NEEDS_VERIFY on CATO RC2.)* The 9/30 set is in § *9/30 resolve set* below; OTTO-30 (resolved 8/14) has its grade in its TSV row.
 
 | Status | Count | Notes |
 |--------|-------|-------|
@@ -47,6 +47,35 @@ Counting only "was OTTO right about the world" flatters the book. Sorted by *why
 ---
 
 ## 9/30 resolve set — OTTO-06 · OTTO-10 · OTTO-29 · OTTO-32, scored at AS-MADE (resolved 2026-09-30, s025)
+
+### ⛔ s026 correction (2026-09-30, CATO RC2 `433084d2b`): read this before the s025 table
+
+CATO's finding was that three negative grades went further than the evidence recorded for them. **OTTO checked it against its own record, and it was TRUE for all three.** The scoring arithmetic was correct throughout. What failed was evidence sufficiency. **No outcome flipped, no as-made probability moved, and no term changed.**
+
+| Row | Grade after s026 | Evidence | Calibration | As-made | Brier |
+|---|---|---|---|---|---|
+| OTTO-06 | ❌ FALSIFIED on the 9/28 instrument | VERIFIED: EART 10-Ds through the Aug collection month. CPS/ACA/CACC not checked | **NOT eligible.** On the 2/23 terms the result sits in the 15–18% dead zone; the clause that resolved it was written after the July data, and it decided the outcome | 70% | 0.4900, shown, not counted |
+| OTTO-10 | **NEEDS_VERIFY** (s025 FALSIFIED held, not withdrawn) | Equifax through **May 2026** (Jul and Aug editions found; s025's 404s were guessed URLs). The claim runs through **Q3**, so Jun–Sep are not covered | Not eligible until covered; at the covering edition, eligible only if all four readings agree | 65% | 0.4225 staged, not counted |
+| OTTO-29 | ❌ FALSIFIED-on-window / ✅ substance | **VERIFIED** on the claims agent's full docket (Verita, 1,448 entries, no distribution order, no final report) and the trustee's Dkt 1113 (final report projected 9/30/2030) | Eligible: event defined in the 4/15 seed row; window scored on the letter (Will's convention) | 75% | 0.5625 |
+| OTTO-32 | ✅ CONFIRMED | VERIFIED Dkt 3748 | Eligible: the 8/27 resolver re-key did not decide the outcome (ruling 8/24 and entry 9/1 both CONFIRM) | 85% | 0.0225 |
+| **Verified + eligible** | **1 of 2** | | | | **mean 0.2925** |
+| *As graded s025, all four* | *1 of 4* | | | | *mean 0.3744: arithmetic correct, superseded as a verified figure* |
+
+⚠️ **Before citing 0.2925.**
+- **n=2 is not a calibration statistic.**
+- **It reads better than 0.3744 only because two misses left the set on evidence grounds. No outcome changed.**
+- **Verification is asymmetric.** A hit can be proven by one document, while a miss proven by absence needs complete coverage. A filter on evidence sufficiency therefore removes misses faster than hits, and every row set aside tonight is a miss.
+- **0.2925 is unrelated to the "0.2927 at the walked cells" figure in the s025 table below.** The digits are a coincidence.
+
+**The rule applied to every row (one rule, stated once):** a specification written after the claim was made (an instrument, a perimeter, a resolving clause or a granularity reading) counts for calibration only if it did not decide the outcome. If it did decide it, the observation is kept and not counted. Under that rule OTTO-32 passes, OTTO-06 fails, and OTTO-10 is tested when its covering edition lands.
+
+**Lessons, s026:**
+- **A 404 on a guessed URL is a search result, not a missing edition.** `-jul-2026.pdf` 404'd and `-july-2026.pdf` was there. Vary the URL before recording an absence.
+- **A negative grade needs evidence for the whole claim period.** Data through March cannot certify "stays above 14% through Q3". The monthly prints show why: the May monthly balance share fell to 13.1%, 0.1pp above the line.
+- **For a large Ch.7, the free complete docket is the claims agent's, not RECAP.** Verita's server omits its TLS intermediate; add the Go Daddy G2 intermediate from the certificate's AIA URL to the CA bundle. That verifies the chain. Do not skip verification.
+
+### As first graded (s025), kept as recorded
+
 
 | Row | Grade | As-made | Brier | Walked cell (not used) |
 |---|---|---|---|---|
