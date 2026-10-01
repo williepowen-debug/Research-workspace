@@ -8,11 +8,10 @@
 
 **Conclusions that change the next session's actions.** The how is in `SESSION_LOG.md`.
 
-- 🔴 **10/01 — `T-10` DEEPENED, NOT EXITING: OAT–Bund 130.3bp / OAT 4.90** [i-i 17:35 CEST, +13.2bp d/d] — 111.2 [9/29] → 117.1 [9/30] → 130.3. **Bund ~flat ⇒ France-IDIOSYNCRATIC, unlike the common-mode 9/24 fire day** (`KB-HANS-102`). CNBC reads ~142bp: the vendors are ~12bp apart, so I grade on i-i only. ⛔ Cause is HEADLINE-ONLY (2027 budget presentation, a €54bn consolidation package). **EXIT REGISTERED (owed #24 closed): spread <90 AND OAT <4.40 on i-i, 5 consecutive sessions; a session back over a fire line resets the count.** Routed BOND + LIQUID. → `KB-HANS-100`
+- 🔴 **10/01 — `T-10` DEEPENED, NOT EXITING: OAT–Bund 130.3bp / OAT 4.90** [i-i 17:35 CEST, +13.2bp d/d] — 111.2 [9/29] → 117.1 [9/30] → 130.3. **Composition (CORRECTED 10/01 12:3x on WALTER `-009`): NOT France-only.** The Bund RALLIED ~8–9bp [TE 3.4937 / CNBC 3.494] while BTP +6–7 and Bonos +2, so this was a flight-to-quality bid plus a broad periphery widening (spreads FR ~+17, IT ~+16, ES ~+10). i-i's Bund leg (3.60, +2) is contradicted by both vendors, so the spread level is uncertain between **130.3 (i-i) and ~143 (TE/CNBC)**; the state is MET either way (`KB-HANS-106`). ⛔ Cause is HEADLINE-ONLY (2027 budget presentation, a €54bn consolidation package). **EXIT REGISTERED (owed #24 closed): spread <90 AND OAT <4.40 on i-i, 5 consecutive sessions; a session back over a fire line resets the count.** Routed BOND + LIQUID. → `KB-HANS-100`
 - 🟠 **10/01 — UK long end touched both lines intraday and closed under:** 30Y **5.943** [TE] (intraday high 6.0289 [CNBC]) is 6bp under `T-13`; 10Y **5.40** (intraday high 5.51) is 10bp under `T-06`. **The next close above 6.00 fires `T-13`. The 11/26 Budget is the LDI date.** → `KB-HANS-101`
-- 🟡 **Rhine record low (`KB-HANS-103`) is a DOWNSIDE for German IP and can FLATTER the PMI headline** through supplier delivery times. **Read output for October, not the headline.** Sept mfg final **53.9**; `T-02` stays MET.
+- 🟡 **Rhine record low: German IP downside; may FLATTER the PMI headline** (delivery times). Read October output, not the headline. Sept final **53.9**, `T-02` MET. → `KB-HANS-103`
 - 🔴 **9/25 — `T-10` FIRED 9/24 (`HANS-F-006`) at 109.9bp / 4.67** on the governing i-i basis, also firing on TE; ~11bp of the OAT move was common-mode Bund. **Full bullet → `SESSION_LOG.md` § STATUS ROTATION 2026-10-01.** → `KB-HANS-097`
-- ✅ **`HNS-06` HIT** — flash 53.8 [9/23]; final 53.9 [10/01]. Full bullet → `SESSION_LOG.md` § STATUS ROTATION 2026-10-01. → `KB-HANS-098`
 - 🔧 **`T-07` now graded on NAMED `TTFV26.NYM` (L429 fixed)** — explicit calendar V26 9/29 → X26 10/29 → Z26 11/27 (**X/Z expiries COMPUTED from the ICE rule, re-verify**), no fallback to `TTF=F`, roll-window warning ≤3d. At 9/24–25 X26 ≈ €74 vs V26 €70.96 — the roll lifts the level ~€3, **crosses no rung** (L2 66 / L3 100).
 
 - 🔴 **`T-14`'s SILENCE MEANS LESS THAN IT LOOKS.** ESRB `report202602` read at primary 9/19: identified bank exposure to private equity/private credit is **€4bn**, which the report calls *"far below the figures implied by supervisory intelligence"* before **dropping the class from its analysis**; leverage there *"cannot be computed from existing data"* and the non-EU gap is *"likely to remain"* after reform. **`T-14` is NOT fired and this does not fire it** — but leg (b) waits for a supervisor to NAME institutions, which is downstream of that supervisor being able to SEE the exposure. **Band unchanged, deliberately not re-tuned.** → `KB-HANS-090`–`092`, `ML-HANS-464`
@@ -64,18 +63,18 @@
 
 | Metric | Level | Band | Source ✓ |
 |---|---|---|---|
-| German 10Y Bund | **3.60** (i-i 10/01) / ECB AAA **3.582** [9/30] / Bundesbank **3.66** [10/01, zero-coupon] — named, not averaged | **>3.00 watch ✅FIRED** / >3.75 orange — **15bp away** | ✓ 10/01 |
+| German 10Y Bund | **3.49** (TE/CNBC 10/01, −9bp: flight-to-quality) ⚠️ i-i 3.60 and Bundesbank 3.66 read UP, contradicted / ECB AAA **3.582** [9/30] | **>3.00 watch ✅FIRED** / >3.75 orange — **~26bp away** | ✓ 10/01 |
 | France 10Y OAT | **4.90** (i-i, +15bp d/d) / CNBC **4.925** — highest since Jun-2002 [TE headline] | >4.50 level leg — **✅ MET, +40bp**; Red 5.00 is 10bp away | ✓ 10/01 |
-| OAT–Bund spread | **130.3bp** (+13.2 d/d); 111.2 [9/29] → 117.1 [9/30] | >100bp — **✅ MET, `T-10` OPEN** · exit <90 AND OAT <4.40 ×5 | i-i GOVERNING ✓ 10/01 |
-| Italy 10Y BTP | **4.438** (+8.9bp) | >5.50 level leg — 106bp under | TE ✓ 9/18 |
-| BTP–Bund spread | **91.9bp** ⚠️ TE-derived | >200bp — 108bp under | ✓ 9/18 |
+| OAT–Bund spread | **130.3bp** i-i (suspect Bund leg) / **~143** TE-CNBC; 111.2 [9/29] → 117.1 [9/30] | >100bp — **✅ MET, `T-10` OPEN** · exit <90 AND OAT <4.40 ×5 | i-i GOVERNING ✓ 10/01 |
+| Italy 10Y BTP | **4.696** (+6bp, 3-yr high) | >5.50 level leg — 80bp under | TE ✓ 10/01 |
+| BTP–Bund spread | **120.2bp** ⚠️ TE-derived (~+16 d/d) | >200bp — 80bp under | ✓ 10/01 |
 | UK 10Y gilt | **5.40** (−2bp); intraday high 5.51 [CNBC] | >5.50 orange — **10bp under on the close** | TE ✓ 10/01 |
 | **UK 30Y gilt** | **5.943** (−2bp); intraday high **6.029** [CNBC] | **>6.00 orange — 6bp under on the close; next close >6.00 fires** | TE ✓ 10/01 |
 | US 10Y | **4.998** — at the 5% handle | (context; BOND owns) | ^TNX ✓ 9/18 |
 | EUR/USD · DXY · GBP/USD | **1.12 · 102.07 · 1.32** | <1.05 watch far away | boot pull ✓ 10/01 |
 | EuroStoxx50 · DAX · FTSE | **6,175 · 24,939 · 10,428** | — | boot pull ✓ 10/01 |
 
-**Open fires: 5 of 17 — `T-02` · `T-05` · `T-07` · `T-08` · 🆕 `T-10` (9/24).** Italy and US rows are 9/18 levels, not re-pulled 10/01. 🆕 `T-15` Saudi-crude-to-Europe REGISTERED 9/18** (see §SAUDI). 🔴 **`T-12` (EUR/USD 3M basis) remains UNINSTRUMENTED and cannot fire at all — excluded from any clean-board count.** A clean scan of the 6 daily-scannable rows does not clear the 17.
+**Open fires: 5 of 17 — `T-02` · `T-05` · `T-07` · `T-08` · 🆕 `T-10` (9/24).** The US row is a 9/18 level, not re-pulled 10/01. 🆕 `T-15` Saudi-crude-to-Europe REGISTERED 9/18** (see §SAUDI). 🔴 **`T-12` (EUR/USD 3M basis) remains UNINSTRUMENTED and cannot fire at all — excluded from any clean-board count.** A clean scan of the 6 daily-scannable rows does not clear the 17.
 
 ---
 
@@ -144,7 +143,7 @@
 
 ## TWO-SENTENCE SUMMARY
 
-**10/01:** France is now pricing its own risk. The OAT–Bund spread went from 117bp to 130bp in one day while the Bund held flat, ahead of the 2027 budget, and the `T-10` fire is deepening rather than exiting. **The UK long end touched 6% intraday and closed 6bp under it**, so the one registered LDI line is a single close away, with the 11/26 Budget still ahead. *(Prior summaries, 9/18–9/19: ESRB says supervisors cannot quantify EU bank exposure to private credit, and euro-area banks are net funding-takers from NBFI; the BoE stood down its long-gilt seller. Verbatim → `SESSION_LOG.md` § STATUS ROTATION 2026-10-01.)*
+**10/01:** European sovereign stress broadened. France widened most, but Italy widened almost as much, and the Bund rallied as a safe haven. So `T-10` is deepening (130–143bp depending on the Bund leg), and the stress is no longer France's alone. **The UK long end touched 6% intraday and closed 6bp under it**, so the one registered LDI line is a single close away, with the 11/26 Budget still ahead. *(9/18–9/19 summaries → `SESSION_LOG.md` § STATUS ROTATION 2026-10-01.)*
 
 ---
 *Archives → `workbook/`. Falsification → `thesis/KILL_TREE.md`. Flags → `DISPATCH_LOG.md`. Bands → `registry/`.*

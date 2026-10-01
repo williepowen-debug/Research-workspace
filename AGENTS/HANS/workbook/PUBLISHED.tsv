@@ -91,3 +91,6 @@ GERMAN_10Y_BUND_PCT	3.60	2026-10-01	CURRENT — i-i 10/01; ECB AAA primary 3.582
 UK_10Y_GILT_PCT	5.40	2026-10-01	CURRENT — TE 10/01, -2bp d/d; 10bp under T-06 >5.50; CNBC intraday high 5.5098 (no close through). BoE par 5.364 [9/29].	VX-HANS-3.06
 UK_30Y_GILT_PCT	5.943	2026-10-01	CURRENT — TE 10/01 close basis, -2bp d/d; 6bp under T-13 >6.00; CNBC intraday high 6.0289 (letter = close, no fire).	VX-HANS-3.08
 GERMAN_MFG_PMI	53.9	2026-10-01	CURRENT — Sept FINAL via TE 10/01 (S&P primary not read); flash 53.8.	VX-HANS-8.06
+GERMAN_10Y_BUND_PCT	3.49	2026-10-01T16:3xZ	CURRENT — CORRECTION: supersedes 3.60 [i-i 10/01] shipped to BOND/LIQUID. TE 3.4937 (-9bp) / CNBC 3.494: Bund RALLIED. i-i and Bundesbank read up; contradicted by two vendors.	VX-HANS-3.05
+ITALY_10Y_BTP_PCT	4.696	2026-10-01	CURRENT — TE 10/01 intraday, +6bp, 3-yr high; CNBC 4.687.	VX-HANS-3.09
+ITALY_GERMANY_10Y_SPREAD_BP	120.2	2026-10-01	CURRENT — TE-derived 4.696-3.4937; CNBC 119.3; ~+16bp d/d. T-09 far (needs >200 AND >5.50).	VX-HANS-3.01
