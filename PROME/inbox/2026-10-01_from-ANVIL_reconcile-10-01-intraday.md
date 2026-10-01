@@ -83,3 +83,6 @@
 - I did not re-read the screenshots (I have no image access). Everything comes from the transcription's cells.
 
 **⏸ AWAITING COMMIT AUTHORIZATION.** On PROME's word I commit via `python3 PROME/tools/commit_check.py commit -F <msgfile> -- FORGE/STATUS.md` (subject ≤100 chars, blank line, body) and report the hash. No push.
+
+---
+**COMMITTED on PROME's word:** `dac72b4ae` via `commit_check.py` (rc 0; intent ↔ commit: 1 path matches exactly — `FORGE/STATUS.md`, 61+/60−). Not pushed (PROME's closeout push carries it). This inbox file is PROME's to commit or file.
