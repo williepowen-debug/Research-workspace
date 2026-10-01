@@ -2,3 +2,12 @@ obs_date	series	value	pulled_at_ET	pull_source	note
 2026-09-28	BAMLH0A2HYB	309	2026-09-29T13:27-04:00	fredgraph.csv	base cell (window starts 9/29); LATEST-REVISED at FRED, FROZEN-ON-REVISABLE convention per correction C1
 2026-09-28	DGS10	5.24	2026-09-29T13:27-04:00	Treasury official via HENRY/BOND (FRED cell unpublished at pull)	base cell; re-pull at FRED before grading the 9/29 change
 2026-09-28	DFII10	2.90	2026-09-29T13:27-04:00	Treasury official via HENRY/BOND (FRED cell unpublished at pull)	base cell; re-pull at FRED before grading the 9/29 change
+2026-09-28	DGS10	5.24	2026-10-01T16:18-04:00	fredgraph.csv	base cell re-pulled at FRED: matches the Treasury-official 5.24 logged 9/29 (no revision)
+2026-09-28	DFII10	2.90	2026-10-01T16:18-04:00	fredgraph.csv	base cell re-pulled at FRED: matches the Treasury-official 2.90 logged 9/29 (no revision)
+2026-09-28	BAMLH0A2HYB	309	2026-10-01T16:18-04:00	fredgraph.csv	base cell re-pull: unchanged (3.09)
+2026-09-29	DGS10	5.26	2026-10-01T16:18-04:00	fredgraph.csv	cell 1: dDGS10 +2.0bp (quiet)
+2026-09-29	DFII10	2.91	2026-10-01T16:18-04:00	fredgraph.csv	cell 1: dDFII10 +1.0bp (quiet) => QUIET session
+2026-09-29	BAMLH0A2HYB	316	2026-10-01T16:18-04:00	fredgraph.csv	cell 1: dB +7 => W (>= +5.0)
+2026-09-30	DGS10	5.29	2026-10-01T16:18-04:00	fredgraph.csv	cell 2: dDGS10 +3.0bp = ON the inclusive <=3.0 boundary (quiet; computed 529-526 in integer bp, no float)
+2026-09-30	DFII10	2.93	2026-10-01T16:18-04:00	fredgraph.csv	cell 2: dDFII10 +2.0bp (quiet) => QUIET session (boundary on the nominal leg; a +1bp revision to 5.30 flips it to not-quiet -> grade both vintages per C1)
+2026-09-30	BAMLH0A2HYB	316	2026-10-01T16:18-04:00	fredgraph.csv	cell 2: dB 0 => F. Running tally after 2 of 8 cells: n=2 W=1 T=0 F=1 (rule 2 needs W>=2 AND W>T; NOT graded - window open to 10/8)

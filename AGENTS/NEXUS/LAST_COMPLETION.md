@@ -1,5 +1,27 @@
 # NEXUS — LAST COMPLETION
 
+## 2026-10-01 Thu 16:1x–16:27 ET — **CATCH-UP PASS, 2 days** (Will boot: *"Lets catch up on any new signals."*) — Standard tier + 15a (rotation)
+
+**Box:** desktop · after the cash close · **no live price used**; credit/rates = own FRED pull 16:18 ET (obs to 9/30). $0 · no card · no threshold set, moved or fired by NEXUS. R1 corrections rc=0 (COR-20260925-13 ALL-warn only, NO-OP as 9/29). ⚠️ Other desks dirty at boot (BOND, PROME) ⇒ **no pull**. My 16:17 read of `rev-list` was backwards: local HEAD was 7 AHEAD of origin (unpushed CORAL/PROME commits), not behind. Readers A/B read origin `9af0fb5d8` (14:46) and reader C read HEAD, so nothing older was read than what existed at 14:46.
+
+**Files read:** charter + root · STATUS · LAST_COMPLETION · PREDICTIONS_MONITOR (whole) · CONFIRMED · 3 inbox packets · fleet freshness scan · **15 moved briefs via 3 Opus digest readers** (A rates/credit · B energy/war/Asia/AI · C FL/insurer/consumer/banks + raw STATUS CREED/HANS/OZK/WALTER/TERRY/FERT/FLG/DAEDALUS + PROME WQ/DOCKET rows + BROCK/OTTO First Brands) · HENRY FORUM-7 PREREG §7 · BOND→TERRY kill-MET packet · FRED ×14 + `CAINSUREDUR`/`NYINSUREDUR`.
+
+**Work units:**
+1. **BOOT 0a rotation:** STATUS 25,317 B (78%) → `STATUS_COLD.md` §H13 verbatim (`crc32 e9461aed`, re-verified after the append) → new STATUS **21,738 B (67%)**, 151 lines. 15a coldreader run (ledger in this block's addendum).
+2. **Resolvers:** PRED-37 ❌ · PRED-43 ❌F · PRED-48 ❌ (residual re-check ≥10/15) → `PREDICTIONS_COLD.md` §C4; PRED-24 → conditional watch (number retired, Disc-J); PRED-45 re-registered 11/20 with counterexamples; **0b audit: PRED-38/40/41 DEFECTIVE** (re-spec at L554).
+3. **Re-mark:** **M-08 ↑3 → 79%** on the 9/29-registered condition (B 316 / CCC 1,157 [9/29]); re-registered ±4 to 10/30 with five-case counterexamples. **M-09 HELD, falsifier newly registered** (BB ≥220 ×2 / LIQ-069 RELEASED, ±4, to 10/30). All else HELD to named arbiters (M-01 → NFP 10/2; M-03 → HEN-47 10/2). Split HELD 20/47/33; L13 cells 2–4 = 2.90/2.91/2.93, neither.
+4. **PRED-50 cells logged** (`analysis/PRED-50_grading_log.tsv`): 9/29 quiet W (+7) · 9/30 quiet F (0, nominal +3.0 on the boundary). Base cells re-pulled at FRED, unrevised.
+5. **New/updated tensions:** T-29 Ghawar P0 unconsumed at BRENT · T-28 mostly resolved · T-26 reaction-function datum (path −34pp, real +3bp). R1's 9/29 squawk late-mover → VERIFIED at vendor bars. R9 corrected: Russia diesel ban EXTENDED to 10/31 (my "lapses 9/30" was wrong). R2: the "ceasefire 94.5%" I carried was a PM price, not a truce — struck.
+6. **Packets (carve-out ①):** HENRY — FORUM-7 §7 NEXUS column CONCUR (owed by 10/2; invariant to verdict) · PROME — grades + four dated wake obligations (15b) + info (BOND kill MET, Ghawar gap, squawk verified).
+7. **Inbox 3 → 1:** LABOR claims → M-01 (acted) · WQ-342 RULED (info) · **charter cold-read #2 (6 ❌) DEFERRED to L554 10/6** (left in inbox/; interim, the stricter line L66 governs closeouts).
+8. BRIEFS_MAP ★10/1 delta · fallback log 4 rows (digest + LIQUID/RED/BROCK stale).
+
+**15a cold read (coldreader, Opus) on the rewritten STATUS: 50/80 ✅ · 26 ⚠️ · 4 ❌ — all 4 ❌ fixed pre-commit** (❌16 a draft line called 9/29–30 rates-ACTIVE when PRED-50's letter grades both QUIET · ❌48 LIQ-07 filed under HY in C1, it is the B series · ❌65 LIQ-079 (+9 vs +30) sat in PROXIMATE · ❌75 bottom line cited a 30Y record the body bans); ⚠️ applied: dropped docket rows restored · 68 vs 70% hike-odds base disclosed (32–34pp) · M-08 ±4 supersession announced · M-08 UP lines added to PROXIMATE · PREDICTIONS L13/L4 synced · M-05 hold reason · $849B attribution · real-yield superlative · bottom-line wording. **⚠️ rejected: the reader's "12/4 WAL put time-stop" is NOT in §H13 (grep) — not carried.** Remaining ⚠️ (L-number key, Δ-column rule ambiguity) are charter-level → L554. Ledger: scratchpad `coldread_STATUS_2026-10-01.md` (session-local).
+
+**NOT done / owed:** NFP 10/2 → M-01 + chain head · HEN-47 → M-03/C-36 note · **L554 10/6: charter ❌×6 + PRED-38/40/41 re-spec** · PRED-50 ~10/9 · PRED-48 residual ≥10/15 · 10/16 TIC + L13 cell 15 + successor gate (L558).
+
+**Promotion scan:** one extension candidate, no new file — `finding_a_flag_resolved_in_the_wrong_direction_launders_the_defect`-adjacent: I read `rev-list --left-right` backwards (ahead vs behind) and announced it to Will; a reader caught it. Too small for a memory; recorded here. **none this pass** otherwise.
+
 ## 2026-09-29 Tue ~13:2x–14:3x ET — **🔴 FULL REVIEW AFTER 5 DAYS DARK + WQ-340 ONE-ROOT READ** (Will boot: *"You may have been dark a few days. Lets catch up"*; WQ-340 approved 13:25 ET, PROME doorbell)
 
 **Box:** desktop · markets OPEN (intraday) — **no live price used by this desk**; every credit/rates cell = FRED first-published obs 9/28 or earlier (own pull 13:27–13:30 ET), Treasury official cells quoted from HENRY/BOND, 9/29 vendor reads labelled. $0 · no card · no threshold set, moved or fired by NEXUS. R1 corrections check rc=0 (1 broadcast ALL-row warn, COR-20260925-13: NO-OP — NEXUS never carried `GUARD-HELD-PENDING-ARBITER`). ⚠️ WALTER had uncommitted files outside my dir at boot (live session) ⇒ **no pull attempted beyond `--ff-only` (already up to date)**.

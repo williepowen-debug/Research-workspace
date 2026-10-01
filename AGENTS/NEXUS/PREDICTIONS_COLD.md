@@ -291,3 +291,21 @@ Apply when entering, updating, or resolving any prediction. Came from real misse
 
 **§P1** 8/28 + 8/17 pass-log header (the stacked preamble) · **§P2** orphan note — DISCHARGED (`PROME/PREDICTIONS_MONITOR.md` VERIFIED absent 9/03) · **§C1** ✅ CONFIRMED Mar–Apr, PRED-01..13 · **§C2** resolved rows lifted out of ACTIVE — PRED-49 ❌ MISSED (9/02) · PRED-20 ❌ MISS · PRED-32 ❌ MISS · PRED-35 ❌F · PRED-36 ❌ MISS · PRED-39 ✅P · **§C3** 🔵 PAST-TRIGGER all resolved, PRED-21..47 · **§G0–G4** cross-agent gate adjudications 7/10→7/31 (the Disc-A threshold-vs-mechanism record; the 7/10+7/16 blocks are at `signals_archive/GATE_ADJUDICATIONS_20260710_20260716.md`) · **§F** ❌ FALSIFIED/SUPERSEDED, PRED-F01..F03 · **§E** E-phase closed 7/17. **Zero live obligations in any cold block** — verified by the ledger `research/2026-09-03_predictions_monitor_split_obligation_ledger.md`, not by bytes. Older pass blocks (≤8/12) remain at `signals_archive/PREDICTIONS_PASS_LOG_20260627_20260724.md`.
 
+
+
+---
+
+## §C4 — 2026-10-01 resolution pass: rows lifted out of ACTIVE — PRED-37 ❌ MISS · PRED-43 ❌F · PRED-48 ❌ MISS; PRED-24 standing number retired (conditional watch). Original rows verbatim, grades below (written 2026-10-01 16:26 EDT)
+
+| ID | Date | Source | Prediction | Trigger Date/Condition | Status | Conf |
+|----|------|--------|-----------|----------------------|--------|------|
+| PRED-37 | Mar 2026 | BROCK | HY OAS >500bps by Aug–Sep 2026. | **Resolve Sep-end.** HY 302 [9/28]; needs +198bp. | 🔴 ACTIVE — grade ≥10/1 | **~12%** (7/31) |
+| PRED-43 | Mar 2026 | HANS/HAWK | Dimona→Fordow→Kharg sequence as main escalation path. None of the three legs observed in 6 months; Kharg video AI-generated (FAL-01); blockade lapsed 8/12. | **Resolve 9/30: no verified Dimona strike ⇒ ❌F FALSIFIED-in-mechanism → COLD §C2; a verified strike ⇒ re-mark up.** | 🔴 ACTIVE — grade ≥10/1 | **~10%** (9/11) |
+| **PRED-48** | Re-spec'd 8/03 (from C-05 leg 3) | NEXUS | **CA/NY UI-exhaustion wave** on DOL weekly state IUR. Baseline frozen CA 1.9 / NY 1.7 [w/e 7/11]. Precondition ✅ (no federal backstop; CA loan $22.1B proj. YE-26); observable ❌ at freeze. | ✅ CA or NY IUR ≥2.3 sustained ≥3 wks in 8/1→9/30 · ❌ neither reaches 2.0 · ⚪ 2.0–2.3. **Resolve 10/01.** | 🟠 ACTIVE (LABOR may sharpen) | ~25% |
+| PRED-24 | Mar 2026 | NEXUS | Private-credit cascade Stage 2→3. Stage-3 quantified 7/17: direct bank channel ≈ **~2bp GSIB CET1** (Fed FSR); only the INDIRECT (fire-sale / correlated-drawdown) mechanism can fire it; interval funds sit outside the FSR comfort stat. | HY OAS ≥350 / bank↔shadow contagion. **Re-review 9/30** (re-mark or convert to conditional watch). | 🔴 ACTIVE — HY 302 [9/28], 48bp under | **~15%** (7/31) |
+
+**Grades (2026-10-01, FRED pull 16:18 ET; digest readers A/B over origin `9af0fb5d8`):**
+- **PRED-37 ❌ MISS.** HY OAS **312 [FRED 9/30]** vs the >500 bar — 188bp short at the Sep-end resolver. Disc-A: the direction was right (HY +44 in 6 sessions), the magnitude never in range; no TRUE-in-letter question arises.
+- **PRED-43 ❌F FALSIFIED-in-mechanism.** No verified Dimona strike by 9/30: absent from FALCON brief/STATUS/10-01 reports; newest fleet mention is HAWK `KB-HAWK-132` (2026-03-23, "struck near Dimona", B2). Scope of the negative: FALCON + HAWK + WALTER inbox only. None of the three sequence legs observed in seven months.
+- **PRED-48 ❌ MISS (letter: "neither reaches 2.0").** FRED `CAINSUREDUR` / `NYINSUREDUR` (pulled 10/1): in-window (8/1→9/12 published) CA max **1.90 [w/e 8/1]**, last 1.72 [w/e 9/12]; NY max **1.74 [w/e 8/22]**, last 1.50. ✅ branch IMPOSSIBLE (needs ≥2.3 ×3 wks; ≤2 wks remain). Two window cells unpublished (w/e 9/19, 9/26): **re-check once at the first boot ≥10/15 — a CA or NY print ≥2.0 re-grades to ⚪ NO-VERDICT; otherwise this grade stands.** Mechanism leg AGAINST too: national CC 1,701K [w/e 9/19] falling. C-05's third leg closes with it.
+- **PRED-24 → CONDITIONAL WATCH, no standing probability (Disc-J).** The ~15% (7/31) had no falsifier. Re-opens with a fresh number only if HY ≥350 on 2 consecutive FRED cells AND a primary-sourced bank↔shadow fire-sale datum (a fund gate/forced sale tied to a bank margin or credit-line call). HY 312 [9/30], 38bp under.
