@@ -54,7 +54,7 @@
 | Input | Value | Source | Agree? |
 |---|---|---|---|
 | Pre-provision revenue (PPNR), trailing 4Q | ✔ **$1,082.6M** (Q3-25 $290.6M · Q4-25 $279.0M · Q1-26 $253.6M · Q2-26 $259.4M) | Q2 8-K bundle, PPNR reconciliation table | ✔ ties to REGINALD's $1,083M |
-| PPNR trend | **−10.7%** from Q3-25 to Q2-26. Q2 run-rate ≈ **$1,037M/yr**, and the 10/1 sub-notes reset takes another ≈$11.2M/yr | same; `CALENDAR.md` (SOFR 3.87% FRED 9/22 + 209bp) | **Addition:** use the run-rate, not trailing. 0.6× is unchanged (~0.61×) |
+| PPNR trend | **−10.7%** from Q3-25 to Q2-26. Q2 run-rate ≈ **$1,037M/yr**, and the 10/1 sub-notes reset takes another ≈$12.3M/yr *(re-based 10/1 from ≈$11.2M — `2026-10-01_SUBNOTES_RESET.md`)* | same; `CALENDAR.md` (SOFR 3.87% FRED 9/22 + 209bp) | **Addition:** use the run-rate, not trailing. 0.6× is unchanged (~0.61×) |
 | CET1 / RWA | $5,300.5M / $44,916.2M = **11.80%** (preliminary; the MC figure is an image) | Call Report RC-R per REGINALD dossier; 11.80% matches the dossier arithmetic | ✔ |
 | Loans-only reserve | **$461.5M** (+ $156.3M unfunded-commitment reserve = $617.8M total ACL) | Q2 8-K bundle / 10-Q | ✔ loans-only is the right basis |
 | Payout, trailing 12 months | Common dividends $203.9M + preferred $16.2M + buybacks $176.6M = **$396.7M (57% of net income)**. **Dividends alone ≈ 32%** of net income ($51.7M/qtr vs $163.3M) | dossier; bundle p.47 | ✔. ⚠️ **Label:** "57%" includes buybacks. The fixed claim (64 straight quarterly dividend increases) is ~32% |
@@ -112,7 +112,7 @@
 
 | When | Observation | → Toward stress | → Against stress |
 |---|---|---|---|
-| **10/1** (read Fri 10/2, `flng_watch.py`) | $350M sub-notes reprice | Reprice as scheduled is **neutral**: ≈$11.2M/yr PPNR drag, CET1 untouched | Redeemed without replacement = management spending capital confidently (Tier 2 −$280M). Mildly against, **not** a credit signal |
+| **10/1** (read Fri 10/2, `flng_watch.py`) | $350M sub-notes reprice | Reprice as scheduled is **neutral**: ≈$12.3M/yr *(re-based 10/1 from ≈$11.2M — `2026-10-01_SUBNOTES_RESET.md`)* PPNR drag, CET1 untouched | Redeemed without replacement = management spending capital confidently (Tier 2 −$280M). Mildly against, **not** a credit signal |
 | **~mid/late Oct** (date due ~9/30) | **Q3 print + call: the "~92-day" RaDD report-back** | Any RaDD specific reserve, downgrade to substandard, or extension **without** paydown or new equity → D1's weighting shifts toward the bridge's tail | An **executed** extension **with** curtailment or new cash equity → the RaDD stress shrinks toward $0 in the base case |
 | same | Foreclosed-property sale prices vs carrying (8150 Sunset LOI → contract; Seattle; Atlanta) | Sales below ~80% of carrying → confirms mechanism (1) and the D4 office-OREO stress | Sales at carrying → the 86–100% marks hold; the OREO stress is overstated |
 | same | Boston 10 Prospect ($169.3M, $0 reserve): the $330M sale closes, or OZK takes title | Title + new appraisal → the largest single loss event (bridge stress $85M) | Sale closes → ~$0 loss |

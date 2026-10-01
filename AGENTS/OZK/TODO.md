@@ -1,6 +1,6 @@
 # OZK — Research TODO / Backlog
 
-**Last updated:** 2026-09-27 (C1/C3/R5 status notes from the 9/27 sweep; +R6 playbook severity-band conflict; +R7 PROME CRE-transmission leg delivered) · prior 2026-09-24 (full rebuild: every open item from the old sections — Aug-23 queue, 8/28 sweep S1-S9, 8/7 proposals, 7/18 carry-forwards, April priorities — de-duplicated into ONE queue; ~25 done/obsolete items retired to git history). Older versions → `git log -p -- AGENTS/OZK/TODO.md`.
+**Last updated:** 2026-10-01 (D1 coupon part CLOSED, 10/2 = FLNG + press only; D2 re-dated; C1 gets CHECK-BY 2026-10-14 + a recall-unproven lane phrase) · prior 2026-09-27 (C1/C3/R5 status notes from the 9/27 sweep; +R6 playbook severity-band conflict; +R7 PROME CRE-transmission leg delivered) · prior 2026-09-24 (full rebuild: every open item from the old sections — Aug-23 queue, 8/28 sweep S1-S9, 8/7 proposals, 7/18 carry-forwards, April priorities — de-duplicated into ONE queue; ~25 done/obsolete items retired to git history). Older versions → `git log -p -- AGENTS/OZK/TODO.md`.
 **Dated items also live in `CALENDAR.md`; this file is the research queue.**
 **▶ WORK ORDER (set 2026-09-24, CATO: evidence before restructuring): C1 Horton → R1 reserve re-derivation → D2/D3 Q3 date + card → D1 10/2 read.**
 
@@ -12,8 +12,8 @@
 
 | # | Item | When | Note |
 |---|---|---|---|
-| D1 | **Sub-notes 10/1 read** (DOCKET L463) | **Fri 10/2 AM** | `flng_watch.py`: rc 0 = SCHEDULED-UNCONTRADICTED (never "confirmed") · rc 1 = read filing; redemption/refi = 🟠 REGINALD · rc 2 = UNKNOWN, re-run |
-| D2 | **Q3 date** → set CALENDAR + boot.py `~2026-10-21` to the real date | ~9/30 | Aggregators guess ~10/15 |
+| D1 | **Sub-notes 10/1 read** (DOCKET L463; L126 RESOLVED 10/1 by OZK f48e8062e) | **Fri 10/2 AM** | Coupon CLOSED 10/1 (≈6.19%, ≈+$12.3M/yr — `research/threads/2026-10-01_SUBNOTES_RESET.md`); 10/2 = `flng_watch.py` + one press search only: rc 0 = SCHEDULED-UNCONTRADICTED (never "confirmed") · rc 1 = read filing; redemption/refi = 🟠 REGINALD · rc 2 = UNKNOWN, re-run |
+| D2 | **Q3 date** → set CALENDAR + boot.py `~2026-10-21` to the real date | ~early Oct (not announced as of 10/1 12:15 ET; FLNG quiet) | Aggregators guess ~10/15 |
 | D3 | **Build the Q3 scoring card** before the print (pattern: `workbook/Q2_2026_SCORING_CARD.md`, pre-registered legs + grading rule) | before Q3 print | Legs: RaDD report-back (executed extension? curtailment? equity? reserve?) · **SpecMention $616M reversal rate** · NCO vs "back under industry" · provision "drift down" · $330M pending-sale credit · Boston Life Sci $169M (sale or title) · mods counter (unanswered at Q2) · Portal 405 / 777 Industrial appearing in the substandard table · classified+criticized vs RESG (grade off the printed "Total Classified and Criticized Assets" line — never the 10-Q loan-only basis; Z2 rule) |
 | ~~D4~~ | ✅ **DONE 9/24 — Q2'26 10-Q full read** → `research/threads/Q2_2026_10Q_READ.md` (+ Q2 MC credit pages). Roster turned over; Dec 18 misattribution found; RIAD5409 attribution inferred; RaDD pass-rated by elimination | — | ⭐ The Q1 read produced the debt-on-debt pillar and the $250.4M-at-$0-ALL deferral finding; the Q2 one is unread (keyword pass only). Q2'25 + Q3'25 10-Qs are local too |
 | D3b | **PROME DOCKET L520 — Q3 workout follow-through** (CHECK-BY 10/31): re-grade `2026-09-27_Q2_WORKOUT_CHECK_OZK.md` W1–W14 on the Q3 print — OREO sale price vs carrying · Boston · RaDD terms · SM migration · buyback run-rate. No OREO sale priced ⇒ record "no OREO sale priced in Q3" (hypothesis stays open) | Q3 print | Fold into the D3 scoring card |
@@ -24,7 +24,7 @@
 
 | # | Item | Status | Note |
 |---|---|---|---|
-| C1 | **Campus at Horton leasing** (downtown SD, 770K SF, lender AllianceBernstein) | 🔴 owed since late Jul | 9/24 + 9/27 web searches empty ≠ discharged. 9/27: the only listing (Cushman, Bldg 200, 204,842 SF "Available") is undated and names pre-foreclosure owner Stockdale → stale page, proves nothing. Needs SD Business Journal / Bisnow SD / CoStar (browser) or an AB/owner release. Holds the RaDD severity band (see R6) |
+| C1 | **Campus at Horton leasing** (downtown SD, 770K SF, lender AllianceBernstein) | 🔴 owed since late Jul · **CHECK-BY 2026-10-14** (set 10/1: before the ~10/15 Q3 window, so the RaDD report-back is read against a known Horton state) | 9/24 + 9/27 web searches empty ≠ discharged. 9/27: the only listing (Cushman, Bldg 200, 204,842 SF "Available") is undated and names pre-foreclosure owner Stockdale → stale page, proves nothing. Needs SD Business Journal / Bisnow SD / CoStar (browser) or an AB/owner release. Holds the RaDD severity band (see R6). 10/1: lane phrase `Campus at Horton` landed (RESEARCH-INTAKE 52b3ae6) — RECALL-UNPROVEN (0 lane / 0 live, WALTER 4e51f69ee); a silent phrase never discharges this check |
 | C2 | **SD County Recorder — RaDD assignments / notices** | ⚪ never run | The one UNKNOWN leg of the 8/31 sweep |
 | C3 | **Aimco v. IQHQ** motion-to-dismiss ruling | 🟡 none found (as of 9/27, web only) | Direct docket pull (courts.delaware.gov) |
 | C4 | **Severity comp refresh** (KB-OZK-177 bands) | 🟠 stale since 7/31 | Q2-Q3 distressed CRE transactions; Spur deed-in-lieu (9/17) is a new data point |
