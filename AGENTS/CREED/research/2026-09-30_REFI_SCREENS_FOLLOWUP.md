@@ -40,6 +40,25 @@
 
 **Also read, context only:** "The 30% Signal" (6/25, excerpt; acquisition share of issuance as a bubble indicator, office now single digits) · "The 2025 CMBS Reappraisal Cohort" (5/14, excerpt; $23B at median −53%; urban office −64%, suburban −52%; 2017–18 office vintages −71%/−67%) · "Office Deals Led CMBS Growth Through July 2026" (8/11) · TPPI Q1 2026 (6/11; office VW −13.80% vs June 2022 — a free substitute candidate for the `VX-9.02` CPPI GAP, quarterly).
 
+## 2026-10-01 session (Will: "Start the refi-screen follow-up") — re-fetch + Glancy read
+
+**F1 RE-FETCHED 2026-10-01 ~14:0x ET, PRIMARY-READ, matches the 9/30 transcription exactly** (Trepp, Thomas Taylor, 2026-08-28, https://www.trepp.com/trepptalk/office-loans-sub-breakeven-dscrs-hard-maturity-by-2029): $12.1B / 162 performing urban+suburban office loans with DSCR < 1.00x, of $97.2B performing; median DSCR 0.67x; avg $74.7M; hard maturity 2026 $2.0B (27) · 2027 $2.1B (36) · 2028 $4.5B (36) · 2029 $2.1B (39) · 2030+ $1.4B (24); 88.1% by YE-2029. Split loans combined by TreppREAL ID. "As of August 2026." F2 and F5 re-fetched the same session (200, text saved to scratch).
+
+**F5's source READ: Glancy, D. (2026), "Pretend or Amend? On Evergreening in CRE," FEDS 2026-025, Federal Reserve Board, May 4, 2026** (https://www.federalreserve.gov/econres/feds/files/2026025pap.pdf, PRIMARY-READ).
+| Item | Finding (page text) |
+|---|---|
+| Data | FR Y-14Q Schedule H.2: non-owner-occupied CRE loans > $1M at banks **> $100B in assets**; 2016Q1–2025Q4 |
+| Extension volume | 2023–25: banks extended roughly half of maturing loans; similar share pre-COVID, more at the pandemic's onset. Extensions are "a persistent feature," not a stress response |
+| By risk | After 2022, low-debt-yield loans ~7pp LESS likely to be extended; nonrecourse ~5pp less. Terms tightened (paydowns, guarantees, spreads), most for office |
+| Performance | Stress-era extensions performed slightly BETTER than pre-pandemic ones |
+| ⭐ Office payoff at maturity | **"Only about 20% of office loan balances paid off during the period of stress, compared to over 40% before the pandemic"**, mostly **higher default, not more extensions** (a direction-4 data point: bank office payoff rate) |
+| The one pretend-consistent result | Large-office extension rate +3pp (statistically insignificant); non-maturing large-office extensions +1.4pp from 2023 |
+| Author's own limit | "it only covers larger banks, which tend to be less exposed to CRE loans and thus perhaps have weaker extend-and-pretend incentives"; small banks covered only indirectly (Glancy & Kurtzman 2024: composition, not hiding) |
+
+**What it does to CREED's framing (a recommendation for Will, NOT yet a THESIS edit):** the thesis list item "extend-and-pretend still absorbing — still active in banks" is **contradicted for banks > $100B** on all three of Glancy's tests. It is **not tested** for the regional and community banks where CRE concentration sits (the `CREED-T-03` scope limit again). The CMBS side is Trepp's "maturity drag", a different mechanism. A defensible rewording: *"maturities are being absorbed by negotiated extensions with tighter terms at large banks (Glancy 2026) and by slow CMBS resolution; loss deferral is untested at smaller banks."*
+
+**Agents relaunched 2026-10-01 (four, Opus, background): outputs in `research/2026-10-01_refi_agents/`.** Prompts rebuilt from this page (the 9/30 prompts were not on this machine).
+
 ## Next session (owed, in order)
 1. Re-fetch F1/F2/F4/F10 and decide KB rows (F1 is the strongest: an aggregate series for lane 5).
 2. Route F7/F8 + student housing (9/21, 9/22) to WALTER for HOMER/CORAL.
