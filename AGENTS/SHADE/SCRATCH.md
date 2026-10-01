@@ -1,6 +1,6 @@
 # SHADE SCRATCH.md — canonical session handoff
 
-> **SESSION 2026-10-01 (~12:1x–12:3x ET)** — PROME-spawned (`prome-0c`, WQ-184 due-row spawn on Will's "spawn the slate"). First session since 8/28 — **34 days dark**.
+> **SESSION 2026-10-01 (~12:1x–12:5x ET, two PROME touches)** — PROME-spawned (`prome-0c`, WQ-184 due-row spawn on Will's "spawn the slate"). First session since 8/28 — **34 days dark**.
 > **HEADLINE: W1 leg (a) FOUND — Athene publishes its US statutory statements quarterly, free, and I had held them since June; leg (b) NOT FOUND as pre-stated, but ~$7.4B of ARI loans visibly landed at AAIA on 4/24 (attribution INFERRED). `T-SHADE-01` level leg live 4-of-5; sign leg NOT MET.**
 > **NO band, threshold, kill-line, vector score or confidence moved.** Full delta → `research/W1_OPACITY_LEGS_AND_CATCHUP_2026-10-01.md`.
 
@@ -30,8 +30,8 @@
 ## 🔴 NEXT SESSION — priority-ordered
 
 0. 🔴 **`T-SHADE-01` 5th print** — the 10/1 HY obs (~10/2 AM). If >280 ⇒ level MET; **re-read the sign leg on RAW closes before restating state** (`fetch.py --history` is dividend-ADJUSTED — use recorded raw closes or a raw source).
-1. 🔴 **DLIC FY2025 ANNUAL (DOCKET L241, PENDING)** — Schedule S ⇒ charter ratio #1; Schedule D ⇒ true Illiquidity Ratio; + NAIC SVO override count.
-2. 🔴 **Confirm ARI attribution at AAIA** — largest 4/24 loans vs ARI's loan tables; locate the other ~$1.3B.
+1. ✅ **DLIC FY2025 annual DONE (touch 2):** ratio #1 **1.62%** (GREEN); ratio #2 **9.75% floor / ≈37.2% if the affiliate-contingent bonds count as illiquid ABS**. 🔴 Owed: a **registered ABS-leg definition** (decides the 30% red flag; PROME/Will) + **SVO override count**.
+2. 🔴 **ARI match = UNDETERMINED (31.4% strict, rule `0b2eeb897`).** Post-hoc: ~80/20 split on about half the loans. Find the ~20% holder (not AANY, not visibly ALRe); read ARI DEFM14A acc 0001193125-26-119995.
 3. 🔴 **`PREDICTIONS.tsv` + declared-flat TRADE surface** (DAEDALUS; due 9/30, OVERDUE).
 4. **MEMORY.md rotation** (98% of budget; STOP <22,785 B). **Promotion candidate for it/PROME: "a list of things I claim cannot be seen was falsified by documents in my own directory."**
 5. **TWG $6.5B swap at primary** — DLIC Q2/Q3 Note 10 + subsequent events, before ~11/15.
