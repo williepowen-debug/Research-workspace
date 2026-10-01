@@ -166,3 +166,5 @@ This is WALTER's and PROME's call; FERT flagged it and did not request it.
 | FERT | 6 | 2 | `China urea export`, `China fertilizer export` |
 
 Harness output for each run is in the session scratchpad and was not committed. To reproduce, re-run with the queries listed in each section.
+
+> ⚠️ **CORRECTION 2026-10-01 (PROME probe, post-report):** the fertilizer query volume quoted above (~99 headlines per 7 days) was NOT a 7-day figure. A bare OR-chain with `when:7d` TRAILING is not recency-limited (PROME: 100 items aged up to 170 days); the parenthesised form with `when:7d` LEADING returned 4 items, max 5 days old. The landed fertilizer query (RESEARCH-INTAKE 1eb5edf) is therefore thin. Phrase verdicts above are unaffected (they rest on hit classification, not on the volume figure).
