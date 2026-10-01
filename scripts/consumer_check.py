@@ -136,7 +136,18 @@ ARROW_RE = re.compile(r"\s*(?:→|⇒|->|=>)\s*$")
 # emphasis/emoji may precede) + an ISO date somewhere on line 1 — the root
 # Data-Hygiene canon form is 'FROZEN <date> — ...', PREPENDED. Banner FORM,
 # not keyword presence (PAT-059): '# Notes on superseded values' must not match.
-DEAD_LINE1_RE = re.compile(r"^[^A-Z0-9]{0,12}(?:FROZEN|RETIRED|SUPERSEDED|ARCHIVED)\b")
+# CANON FORM ONLY (root Data-Hygiene: 'FROZEN <date> — …'): the marker must be followed — past
+# nothing but spaces/emphasis/colon — by the ISO DATE. Tightened 2026-10-01 (DOCKET L457, independent
+# read ❌): with the shadowing fixed, the looser form cleared TITLES whose first word is a marker
+# ('# Superseded-values ledger (2026-09-01)', '> **Retired agents (2026-09-01)**') and a LIVE pending
+# pre-registration ('# 🔒 FROZEN GRADING CARD — NFP … Fri 2026-10-02': FROZEN there means 'spec letter
+# fixed', not 'surface dead'). Non-canon banners stay FLAGGED — the safe direction. '~' is excluded from
+# the prefix class: a struck-through marker ('~~FROZEN 2026-07-04~~ — FREEZE LIFTED', live in
+# AGENTS/OZK/POSITIONS.md) is a REVOKED banner. Narrowed, never widened.
+DEAD_LINE1_RE = re.compile(r"^[^A-Z0-9~]{0,12}(?:FROZEN|RETIRED|SUPERSEDED|ARCHIVED)\b[\s*_:]*\d{4}-\d{2}-\d{2}")
+# A banner that says it was revoked does not clear, struck through or not ('FROZEN 2026-07-04 — FREEZE
+# LIFTED 2026-08-23'). Keyword-based ⇒ errs toward FLAGGING (e.g. 'not revived' stays flagged).
+DEAD_REVOKED_RE = re.compile(r"\b(?:LIFTED|UNFROZEN|UN-FROZEN|REVOKED|REVIVED|THAWED|REOPENED|REINSTATED)\b")
 ISO_DATE_RE = re.compile(r"\d{4}-\d{2}-\d{2}")
 
 
@@ -158,7 +169,8 @@ def file_is_dead(path: Path, rowish: bool) -> bool:
                     break
     except OSError:
         return False
-    return bool(DEAD_LINE1_RE.match(first) and ISO_DATE_RE.search(first))
+    return bool(DEAD_LINE1_RE.match(first) and ISO_DATE_RE.search(first)
+                and not DEAD_REVOKED_RE.search(first))
 
 
 def _excluded(parts) -> bool:
@@ -720,7 +732,10 @@ def scan(workspace: Path, needles, own_dir: Path | None, current=None,
 
 THRESH_OP_RE = r"(?:≤|≥|<=|>=|=<|=>|<|>|≠)\s?~?\$?"
 THRESH_TAIL_RE = re.compile(r"(?:×|x)\s?\d+\s?obs|consecutive|kill[ -]line|kill[ -]level", re.I)
-ISO_DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}(?:T\d{2}:\d{2})?Z?$")
+# ANCHORED form — the whole cell IS a date (dated-TSV-row test in _line_class). Distinct NAME from
+# the loose ISO_DATE_RE above: until 2026-10-01 both were bound as ISO_DATE_RE, this one shadowed
+# that one at import, and file_is_dead()'s prose branch became unsatisfiable (DOCKET L457, HAWK 9/28).
+ISO_DATE_FULL_RE = re.compile(r"^\d{4}-\d{2}-\d{2}(?:T\d{2}:\d{2})?Z?$")
 THRESH_WINDOW = 40   # chars either side of a hit within which a threshold tail word demotes it
 
 
@@ -749,7 +764,7 @@ def _line_class(txt: str, hits, rel: str):
                         "to hold its registration value" % THRESH_WINDOW)
     if rel.lower().endswith(".tsv"):
         first = txt.split("\t", 1)[0].strip()
-        if ISO_DATE_RE.match(first):
+        if ISO_DATE_FULL_RE.match(first):
             return (f"dated TSV row ({first}) — HISTORY-ROW candidate: a time-series capture "
                     "holds the value AS OF its date; a refresh would corrupt the series")
     return None

@@ -11,6 +11,8 @@ Covers, by name:
                      · tail word FAR from the value ⇒ stays 🔴            (false-negative shape)
                      · dated .tsv row ⇒ 🟠                                 (time-series capture)
                      · plain live copy ⇒ stays 🔴                          (the positive control)
+  prose banner     — line-1 FROZEN/ARCHIVED <date> clears · mention / struck-through / no-date /
+                     no-marker do not · overlap: _line_class dated-row rule unchanged (DOCKET L457)
 """
 import sys, tempfile
 from pathlib import Path
@@ -19,7 +21,9 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import consumer_check as cc  # noqa: E402
 
 FAILS = []
+TOTAL = [0]
 def check(name, cond, detail=""):
+    TOTAL[0] += 1
     print(("  ✅ " if cond else "  ❌ ") + name + (f"  [{detail}]" if detail and not cond else ""))
     if not cond:
         FAILS.append(name)
@@ -66,5 +70,36 @@ with tempfile.TemporaryDirectory() as td:
     check("tail word FAR from value stays 🔴", "AGENTS/Y/FAR.md" in S, f"stale={S} cand={set(C)}")
     check("dated .tsv row ⇒ 🟠", "HISTORY-ROW" in C.get("AGENTS/Y/MARKET_DATA.tsv", ""), str(C))
 
-print(f"\n{'PASS' if not FAILS else 'FAIL'}: {9 - len(FAILS)}/9 — {', '.join(FAILS) or 'all cases held'}")
+    # ── prose file-level dead banner (DOCKET L457, HAWK 9/28: ISO_DATE_RE was bound twice and
+    #    the anchored L723 form shadowed the loose form file_is_dead() needs ⇒ no prose banner
+    #    could ever clear). Conditions in AGENTS/DAEDALUS/runs/2026-10-01_L457_*.md ──
+    print("prose dead banner (file_is_dead, rowish=False)")
+    def dead(text, name="P.md"):
+        f = ws / "banner" / name; w(f, text); return cc.file_is_dead(f, rowish=False)
+    check("canon line-1 'FROZEN <date> — …' clears", dead("FROZEN 2026-09-22 — not maintained; STATUS is canonical\nbody 5.9312\n"))
+    check("blockquote+emphasis+emoji prefix clears", dead("> ⚠️ **FROZEN 2026-07-12 — per-bank research** body\n"))
+    check("heading-form banner clears", dead("# FROZEN 2026-09-22 — heartbeat plan record\n"))
+    check("blank lines before the banner still read line 1", dead("\n\n> 🗄️ **ARCHIVED 2026-08-01** (WAL session)\n"))
+    check("marker MENTIONED mid-line does not clear", not dead("# Notes on superseded values 2026-09-22\n"))
+    check("marker in paragraph 2, not line 1, does not clear", not dead("# Live notes 2026-09-22\n\nFROZEN 2026-09-22 — quoted example\n"))
+    check("struck-through (revoked) banner does not clear", not dead("> **🧊 ~~FROZEN 2026-07-04~~ — ⚖️ FREEZE LIFTED 2026-08-23** live book\n"))
+    check("marker with no date does not clear", not dead("# FROZEN — verbatim rotation out of STATUS\n"))
+    check("date with no marker does not clear", not dead("2026-09-22 — notes\n"))
+    # independent read 2026-10-01 (❌ on condition 3): title-shaped first lines and a revoked banner
+    check("title: '# Superseded-values ledger (<date>)' does not clear", not dead("# Superseded-values ledger (2026-09-01)\n"))
+    check("title: '# ARCHIVED items index <date>' does not clear", not dead("# ARCHIVED items index 2026-09-01\n"))
+    check("title: '> **Retired agents (<date>)**' does not clear", not dead("> **Retired agents (2026-09-01)**\n"))
+    check("title: '# Frozen thresholds <date>' does not clear", not dead("# Frozen thresholds 2026-09-01\n"))
+    check("revoked banner without strike-through does not clear", not dead("> ❌ FROZEN 2026-07-04 — FREEZE LIFTED 2026-08-23, live book\n"))
+    check("LIVE pending pre-registration ('FROZEN GRADING CARD … <event date>') does not clear",
+          not dead("# 🔒 FROZEN GRADING CARD — NFP SEPTEMBER · Fri 2026-10-02, 08:30 ET\n"))
+    check("table first line '| FROZEN | <date> |' does not clear", not dead("| FROZEN | 2026-09-01 |\n"))
+    check("'FROZEN until <date>' does not clear", not dead("FROZEN until 2026-12-01 pending review\n"))
+    check("canon with colon form 'SUPERSEDED 2026-07-08:' clears", dead("> **SUPERSEDED 2026-07-08:** this remark was folded into STATUS\n"))
+    # overlap: the anchored constant's own caller (_line_class) — the dated-row rule must still
+    # need a BARE date in cell 1; a date-plus-text first cell is not a time-series capture
+    check("overlap: bare-date first cell ⇒ HISTORY-ROW", "HISTORY-ROW" in (cc._line_class("2026-07-27\tCCC-BB\t5.9312", ["5.9312"], "x.tsv") or ""))
+    check("overlap: date-plus-text first cell ⇒ not a history row", cc._line_class("2026-07-27 note\tCCC-BB\t5.9312", ["5.9312"], "x.tsv") is None)
+
+print(f"\n{'PASS' if not FAILS else 'FAIL'}: {TOTAL[0] - len(FAILS)}/{TOTAL[0]} — {', '.join(FAILS) or 'all cases held'}")
 sys.exit(1 if FAILS else 0)
