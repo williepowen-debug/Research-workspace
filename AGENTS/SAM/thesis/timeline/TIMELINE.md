@@ -1,5 +1,15 @@
 # SAM TIMELINE
 
+## 2026-10-01 — The official record says ¥0, and the market hands October to December
+
+The MOF's monthly total for August 27 to September 28 is **¥0** (`20260930e.html`, published 9/30). That closes the question the last two entries carried. The September 18 rate check near 158 and the joint US–Japan campaign of 9/25–28 moved the yen about 2.5 yen without a single yen spent in that window. KB-SAM-258, which held its "no operation found" clause until this print, is promoted unchanged. USD/JPY has since sat at 157.4 on three straight completed closes, about half a yen under the check's high. No fast leg has printed.
+
+The BOJ's September Summary of Opinions (10/1, 08:50 JST) was split. One member would accelerate if prices deviate upward and another wants the rate near its goal "relatively soon". Against that: "no need to take hasty action", two members who wanted to hold in September, and a Cabinet Office request to examine the cumulative effects. Nobody named October. The Tankan was firm: large manufacturers 24, the best in years per press, and output-price plans flat. By 15:15 JST the meeting-OIS had moved October from 36% to **18%** and December from 72% to **84%**. SAM-42 was registered at 25% on the view that the market overpriced October. The market has now crossed below that mark, which moves nothing: neither pre-registered re-mark fired, and the grade scores the 25% as made.
+
+The delayed MOF weekly also landed. In the week to 9/19, residents sold **¥1.9T** of foreign long-term debt, through SAM's one-week bar. The week sits at the half-year fiscal boundary, where most large selling weeks fall. It is all residents, not insurers, and Channel 1 stays retired. It was routed as a signal (WALTER). Separately, the BOJ's October–December schedule cut every coupon bucket except 25Y+. That is a scheduled taper, outside SAM-33's falsifier, which remains un-fired.
+
+**Consequences to the thesis: none.** v1.7 stands, book FLAT.
+
 ## 2026-09-29 — Washington said it wanted a stronger yen, and the words moved the price ~2.5 yen with no money reported
 
 Five days after the dollar went through the level of the September 18 rate check, the answer came, and it was spoken rather than spent. On the 25th Katayama disclosed that Trump had raised the yen's weakness with Takaichi at their New York summit. That evening Bessent said he and Katayama had discussed "the desirability of a strong yen that reflects Japan's strong economic fundamentals." On the 28th Mimura told Reuters that markets should take the message "at face value," and that he had "absolutely no such concern" about funding an intervention. The dollar fell from 159.04 to 156.50 without a trade from either government that anyone has reported. The move was the yen's own: the dollar index was flat and the yen gained against the euro, pound and Australian dollar too. It happened while the ten-year US–Japan gap *widened*, so the rate path did not drive it.

@@ -2,6 +2,30 @@
 
 Cold history; not a boot read.
 
+## 2026-09-29 — session notes rotated out 2026-10-01
+
+#### CHANGES SINCE LAST SESSION
+*(Prior block Thu 9/24 ~17:2x ET. This block: Tue 9/29, boot 08:47 ET, Will-directed "catch up on recent news/developments".)*
+- **Joint US–Japan VERBAL yen campaign, no operation found:** Katayama 9/25 (Trump raised yen weakness with Takaichi), **Bessent 9/25 "desirability of a strong yen"**, **Mimura 9/28 "take that message at face value"** — both verified at source. USD/JPY 159.036 peak [9/24] → 156.498 low [9/28]; completed closes 158.755 / 157.185 / 157.433. Yen-side (DXY flat, crosses down) while the 10Y gap WIDENED.
+- **CFTC Sep-22: net +71,982 long (−48,377, 40% cut)** into the grind to 159; OI −164,101 ≈ Sep delivery (June same step).
+- **40Y auction 9/29 BTC 3.096×** (firmest of n=3). MOF 10Y 3.082 / 5Y 2.441 (9/28) = MOF-basis highs; BOJ ops through 9/29 scheduled sizes only.
+- **BOJ OIS 9/29:** Oct 36 / Dec 72 / cum 2.48 (from 27 / 68 / 2.18). July minutes hawkish. Brent rolled Nov→Dec in the vendor 9/29.
+
+#### LAST SESSION
+News catch-up, Will-directed. **No thesis change: v1.7 stands, book FLAT, nothing re-armed.**
+- **Pull deferred:** CRUISE + PROME had uncommitted work in the shared tree ⇒ no `git pull`; fetch showed 0 behind / 3 ahead, so nothing was missed.
+- **Data:** boot 12/14 (oil_roll_check failed CLOSED at the Nov→Dec roll — quoted matched contracts only; boj_ois needed the visual review — transcribed 9/29 chart, arithmetic cross-checked, ledger written). Brent 9/24 corrected to settle basis per BRENT's packet (106.60 / 100.22, not 107.31 / 100.77).
+- **SAM-33 audited AT THE RECORD through 9/29** (`ope20260925/28/29.xlsx` — 9/28 buckets = same sizes as 9/2 and 9/9). BOJ ops URL is `boj.or.jp/statistics/boj/fm/ope/d_release/ope/2026/opeYYYYMMDD.xlsx` (the `m_release` path is MONTHLY — 404s for daily).
+- **News sweep** by an Opus subagent → `research/outputs/2026-09-29_catchup/NEWS_SWEEP.md` (+ SAM verification note). Written back: STATUS (header/live/intervention/thresholds/watch/SAM-33), STATUS_REFERENCE (context + funding), playbook 2026-09-29 entry (T2-equivalent, US leg has no ladder row), THESIS Channel 3 rider + integration header, CHANGELOG, TIMELINE, KB-SAM-257 delivery-week caveat, docket Sep 25–29 pruned in BOTH files + 4 forward rows (**MOF monthly intervention total 9/30 had NO docket row — lived only in prose**).
+- **4 WALTER signals** logged + moved (one board-log note initially over-claimed "no haven bid" — corrected before commit). **WQ-317 supply packet → BOND inbox** (PROME packet moved to processed).
+- ⚠️ **Stamped a time ahead of the clock AGAIN** (wrote "~10:3x ET" at 08:55) — caught and fixed from `date`. Third session running; the rule is `date` in the same command as the stamp, never typed.
+
+- **Sub-agent trio (Will: "run SAM sub-agents") — all Opus, parallel, every finding verified at source before applying.** METSUKE Run 24: 2 TRADE.md fixes + Run-21 backlog items 2/3/5/6 (spec no longer names 4 CLOSED predictions as OPEN). KOYOMI Run 23: METI crude-by-source is **Sep-30**, not Oct-2 (re-confirmed at a 2nd source); 14 forward rows added; SAM REMOVED its own CFTC/MOF-weekly rows (scope rulings). KURA Run 17: KB-253..256 were 7-field (SAM's 9/18 hand-add); Run-15 P1–P6 applied after 21 days; KB-259 promoted; **KB-051: KURA was right and SAM's 9/11 NOT-APPLIED note was wrong**; both 8/20 splices repaired; watermark SET 9/29. PROME doorbell answered: CH-009 readings + "levels unchanged" line on STATUS.
+
+- **Afternoon (Will-directed):** deep dive on the US endorsement vs an October hike → `research/outputs/2026-09-29_catchup/US_ENDORSEMENT_AND_OCT_HIKE.md`. **SAM-42 registered** on Will's "Approve WQ-336", relayed by PROME and **verified at `PROME/WILL_QUEUE.md` `4b7013204` BEFORE installing** (the first sidecar hash used the wrong JSON separators; re-stamped with `boot_context.row_hash`). Asked PROME for a SAM WAKE DOCKET row on Oct-1 + dropping the broken phrase now. Built closeout check I (ledger schema).
+- ⚠️ **Two self-inflicted defects today, both caught by instruments, not by me:** an unquoted heredoc blanked a backticked filename in the SAM-42 draft, and my own Oct-03 docket row carried different names in its two files (the similarity-margin test caught it). Quote heredocs; write each docket row once and copy it.
+
+
 
 ## 2026-09-09 — Complete handoff before boot corrections
 

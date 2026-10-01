@@ -30,44 +30,40 @@
 ## Session Notes
 
 ### CHANGES SINCE LAST SESSION
-*(Prior block Thu 9/24 ~17:2x ET. This block: Tue 9/29, boot 08:47 ET, Will-directed "catch up on recent news/developments".)*
-- **Joint US–Japan VERBAL yen campaign, no operation found:** Katayama 9/25 (Trump raised yen weakness with Takaichi), **Bessent 9/25 "desirability of a strong yen"**, **Mimura 9/28 "take that message at face value"** — both verified at source. USD/JPY 159.036 peak [9/24] → 156.498 low [9/28]; completed closes 158.755 / 157.185 / 157.433. Yen-side (DXY flat, crosses down) while the 10Y gap WIDENED.
-- **CFTC Sep-22: net +71,982 long (−48,377, 40% cut)** into the grind to 159; OI −164,101 ≈ Sep delivery (June same step).
-- **40Y auction 9/29 BTC 3.096×** (firmest of n=3). MOF 10Y 3.082 / 5Y 2.441 (9/28) = MOF-basis highs; BOJ ops through 9/29 scheduled sizes only.
-- **BOJ OIS 9/29:** Oct 36 / Dec 72 / cum 2.48 (from 27 / 68 / 2.18). July minutes hawkish. Brent rolled Nov→Dec in the vendor 9/29.
+*(Prior block Tue 9/29. This block: Thu 10/1, PROME-spawned L0 wake (DOCKET L551), boot 12:10 ET.)*
+- **MOF monthly Aug-27→Sep-28 = ¥0** (`feio/monthly/20260930e.html`). Words only, officially. KB-SAM-258 promoted.
+- **Totan OIS 10/1 15:15 JST: Oct 36→18% · Dec 72→84% · cum 2.48→2.23** after SoO (split, no October named) + Tankan (large mfr 24, non-mfr 35).
+- **MOF weekly wk 9/13–19 −¥1,904.9B LT-debt selling = one-week bar TRIPPED** (late week; 9/20–26 −¥684.5B). Oct–Dec BOJ schedule: taper ¥2.50T→¥2.30T/mo, 25Y+ flat.
+- USD/JPY completed closes 157.359 / 157.434 (9/29–30); 10/1 live 157.56. MOF 30Y 4.098 (9/30).
 
 ### LAST SESSION
-News catch-up, Will-directed. **No thesis change: v1.7 stands, book FLAT, nothing re-armed.**
-- **Pull deferred:** CRUISE + PROME had uncommitted work in the shared tree ⇒ no `git pull`; fetch showed 0 behind / 3 ahead, so nothing was missed.
-- **Data:** boot 12/14 (oil_roll_check failed CLOSED at the Nov→Dec roll — quoted matched contracts only; boj_ois needed the visual review — transcribed 9/29 chart, arithmetic cross-checked, ledger written). Brent 9/24 corrected to settle basis per BRENT's packet (106.60 / 100.22, not 107.31 / 100.77).
-- **SAM-33 audited AT THE RECORD through 9/29** (`ope20260925/28/29.xlsx` — 9/28 buckets = same sizes as 9/2 and 9/9). BOJ ops URL is `boj.or.jp/statistics/boj/fm/ope/d_release/ope/2026/opeYYYYMMDD.xlsx` (the `m_release` path is MONTHLY — 404s for daily).
-- **News sweep** by an Opus subagent → `research/outputs/2026-09-29_catchup/NEWS_SWEEP.md` (+ SAM verification note). Written back: STATUS (header/live/intervention/thresholds/watch/SAM-33), STATUS_REFERENCE (context + funding), playbook 2026-09-29 entry (T2-equivalent, US leg has no ladder row), THESIS Channel 3 rider + integration header, CHANGELOG, TIMELINE, KB-SAM-257 delivery-week caveat, docket Sep 25–29 pruned in BOTH files + 4 forward rows (**MOF monthly intervention total 9/30 had NO docket row — lived only in prose**).
-- **4 WALTER signals** logged + moved (one board-log note initially over-claimed "no haven bid" — corrected before commit). **WQ-317 supply packet → BOND inbox** (PROME packet moved to processed).
-- ⚠️ **Stamped a time ahead of the clock AGAIN** (wrote "~10:3x ET" at 08:55) — caught and fixed from `date`. Third session running; the rule is `date` in the same command as the stamp, never typed.
-
-- **Sub-agent trio (Will: "run SAM sub-agents") — all Opus, parallel, every finding verified at source before applying.** METSUKE Run 24: 2 TRADE.md fixes + Run-21 backlog items 2/3/5/6 (spec no longer names 4 CLOSED predictions as OPEN). KOYOMI Run 23: METI crude-by-source is **Sep-30**, not Oct-2 (re-confirmed at a 2nd source); 14 forward rows added; SAM REMOVED its own CFTC/MOF-weekly rows (scope rulings). KURA Run 17: KB-253..256 were 7-field (SAM's 9/18 hand-add); Run-15 P1–P6 applied after 21 days; KB-259 promoted; **KB-051: KURA was right and SAM's 9/11 NOT-APPLIED note was wrong**; both 8/20 splices repaired; watermark SET 9/29. PROME doorbell answered: CH-009 readings + "levels unchanged" line on STATUS.
-
-- **Afternoon (Will-directed):** deep dive on the US endorsement vs an October hike → `research/outputs/2026-09-29_catchup/US_ENDORSEMENT_AND_OCT_HIKE.md`. **SAM-42 registered** on Will's "Approve WQ-336", relayed by PROME and **verified at `PROME/WILL_QUEUE.md` `4b7013204` BEFORE installing** (the first sidecar hash used the wrong JSON separators; re-stamped with `boot_context.row_hash`). Asked PROME for a SAM WAKE DOCKET row on Oct-1 + dropping the broken phrase now. Built closeout check I (ledger schema).
-- ⚠️ **Two self-inflicted defects today, both caught by instruments, not by me:** an unquoted heredoc blanked a backticked filename in the SAM-42 draft, and my own Oct-03 docket row carried different names in its two files (the similarity-margin test caught it). Quote heredocs; write each docket row once and copy it.
+L0 drain on PROME's spawn (four packet items + yen grade + whole inbox). **No thesis change: v1.7 stands, book FLAT, nothing re-armed, no re-mark.**
+- **No `git pull`:** the shared tree carried other desks' live work (PROME state, LIQUID, CARL, etc.); fetch showed 0 behind. Every commit was explicitly pathed.
+- **SAM-33** ops audited through 10/1; the Oct–Dec schedule is a scheduled taper (excluded). **SAM-42** evidence appended, NO re-mark; sidecar re-stamped after a field-level check that only Notes moved. Totan chart reviewed by hand (boot `boj_ois` SSL-timed out first).
+- **Inbox:** WALTER R3 verdicts answered by name → `PROME/inbox/2026-10-01_from-SAM_R3-...` (accepted both rejections, net 12 phrases incl. 1r + 11b). 2 WALTER INFO signals logged and moved. No MSG-*.md.
+- **Sent:** RED CH-009 rail figures (`4171d2c43`, addendum `5fe07cb67`). WALTER 🟠 MOF-weekly signal + SIGNALS.md row. Doorbelled red-1001 and walter-90.
+- Docket pruned (Sep-30 / Oct-1 rows), OIS expiry moved to Mon Oct-5. TIMELINE + CHANGELOG 2026-10-01.
+- 🔧 **Found: `mof_flows.py` evaluates its one-week bar on the LATEST week only.** A late week landing with the next one is never alerted. 9/13–19 was found by reading the ledger, not the alert (defect #3 in the script's lineage, cf. #1 8/22).
 
 ### NEXT SESSION
 
-**TIER 0 — nothing overdue.** SAM-33 sole OPEN row.
+**TIER 0 — nothing overdue.** OPEN: SAM-33, SAM-42.
 
 **TIER 1 — DATED, FORWARD:**
-0. 🆕 **SAM-42 OPEN (registered 9/29 on Will's "Approve WQ-336"):** the BOJ hikes above 1.25% by Oct-31 JST, **25%** vs Totan 36% frozen. ⛔ **Re-mark ONLY on (a)** Ueda/Himino/Uchida framing October as live → 50%, **or (b)** a reviewed Totan chart ≥60% → 45%. Grade the as-made 25% on the BOJ statement PDF. SoO/Tankan/Tokyo CPI move nothing.
-1. **Wed Sep-30** — **MOF monthly intervention total (Aug-27→Sep-28) ~19:00 JST** (¥0 ⇒ words only; non-zero ⇒ op in-window) · **BOJ Oct–Dec purchase schedule 17:00 JST = SAM-33 check** (scheduled taper change does NOT count) · 2Y auction · Aug IP/retail. RED grades CH-009 on the 9/30 MOF 30Y close (≥4.300 ⇒ NO-VERDICT).
-2. **Thu Oct-1** — SoO (oil named? how?) + Tankan · MOF weekly (does the MISSING Sep-13–19 week appear?). **Fri Oct-2** — Tokyo CPI + CFTC (Sep-29). 🔧 **METI crude-by-source is Wed Sep-30 13:30 JST** (KOYOMI Run 23, observed at METI). ✅ Tankan Thu / Tokyo CPI Fri CONFIRMED at the BOJ and Stats Bureau calendars (KOYOMI Run 23); the wire showed Japan-morning releases in US time.
-3. **Sat Oct-3 15:15 JST** OIS expiry → re-transcribe Mon Oct-5. **Oct-8** 30Y auction (frozen bars).
+0. **SAM-42** (25% as made; Totan now 18%). ⛔ Re-mark ONLY on (a) Ueda/Himino/Uchida framing October as live → 50%, or (b) a reviewed Totan chart ≥60% → 45%. Grade on the BOJ statement PDF after the Oct 29–30 MPM.
+1. **Fri Oct-2** Tokyo CPI (2025 base) + CFTC (Sep-29). **Mon Oct-5 15:15 JST** OIS expiry → re-transcribe. **Tue Oct-6** 10Y auction. **Thu Oct-8 30Y auction** (frozen bars; precision tag ≤0.1bp) + MOF weekly 9/27–10/3 (does selling persist past the half-year?).
+2. 🟠 **Fix `mof_flows.py`: evaluate the one-week bar on EVERY week new since the last ledger write, not just the latest.** Test FIRST against the 10/1 incident (9/13–19 published alongside 9/20–26). Own scoped change with tests.
+3. ⚠️ **METI Aug crude-by-source (rel 9/30) NOT READ** — Kuwait/Qatar back from zero? BRENT co-owns. Read it next session.
+4. RED CH-009: RED grades on SAM's figures (DOCKET L484). Nothing owed by SAM unless RED asks.
 
-**INBOX — CLEARED 9/29 (Will: "clear the PROME and RED inbox items").** `inbox/` top level is empty. Sent: **CADENCE: WEEKLY** + a 12-phrase `WATCH_FOR["SAM"]` re-proposal → `PROME/inbox/` + WALTER cc (harness pre-screened by SAM; WALTER's test is still the test — **adopt or decline WALTER's by-name rejections when its reply lands**, then PROME lands the set) · RED CH-012 = NO (no attribution read planned before 12/30). ⚠️ Matcher facts learned: words ≤3 chars are DROPPED (`yen` is invisible), words match as SUBSTRINGS anywhere in the title, only ALL-CAPS 2–5-char tokens bind as entities. **Counted gaps with no phrase:** USD/JPY level breaks, carry +2% intraday, MOF weekly selling (all instrument-owned), GPIF (no registered SAM trigger — decide whether to register one), the US Treasury verbal leg.
+**INBOX — CLEARED 10/1 (L0 drain); before that 9/29.** `inbox/` top level is empty. Sent: **CADENCE: WEEKLY** + a 12-phrase `WATCH_FOR["SAM"]` re-proposal → `PROME/inbox/` + WALTER cc (harness pre-screened by SAM; WALTER's test is still the test — **adopt or decline WALTER's by-name rejections when its reply lands**, then PROME lands the set) · RED CH-012 = NO (no attribution read planned before 12/30). ⚠️ Matcher facts learned: words ≤3 chars are DROPPED (`yen` is invisible), words match as SUBSTRINGS anywhere in the title, only ALL-CAPS 2–5-char tokens bind as entities. **Counted gaps with no phrase:** USD/JPY level breaks, carry +2% intraday, MOF weekly selling (all instrument-owned), GPIF (no registered SAM trigger — decide whether to register one), the US Treasury verbal leg.
 
 ✅ **CONSUMER-CHECK RESIDUE — DISPOSITIONED 2026-09-20, do NOT re-chase.** `consumer_check.py --self --old 157.34` reports **3 remaining 🔴 on SAM surfaces and all three are CORRECT AS THEY STAND**: `docket/2026-09-19_SAM28_SAM31_GRADE.md:76` and `reports/2026-09-18_boj-mpm-grade.md:21,50` are **dated GRADE RECORDS whose arguments are deliberately left legible and not re-litigated**, and `STATUS_ARCHIVE.md:536` is archive-class (the tool flags this itself). **Only `KB.tsv:190` (KB-SAM-253, status LIVE) was a real fix** — a durable row other sessions cite, now carrying the completed-session basis beside the labelled intraday mark. ⛔ **A 🔴 on a grade record or an archive is not a defect**; re-running this check will keep printing 3.
 
 **TIER 2 — OWED (carried, none of it blocked):**
 - 🟠 **ONE scoped roller change, owed by three sub-agents:** `subagent_memory_roll.py`'s closure test matches "closed" anywhere in a run block (KOYOMI n=4 false positives, KURA esc 2) and rolls by age in practice; METSUKE Run-21 item 1 wants recency-rolling for hint blocks. Do it as its own session WITH tests; until then rolls stay report-only for KOYOMI/KURA. ⚠️ Its negation guard also REFUSES a heading containing "not" — cost me one failed roll 9/29.
 - ✅ **`closeout_check.py` check I (ledger schema) BUILT 9/29** — field count per row vs header + no CRLF on KB / KB_ARCHIVE / CATALYSTS / PREDICTIONS; 6 tests written FIRST and failing on the old code, two of them replay the real incidents (`a837a3b05` KB-253..256, `c78f2d17e^` METI 5-field). The same run showed a live-data test (docket name-similarity) already at its 0.60 bar — MY Oct-03 row had different names in the two files; aligned. **PROME asked for a SAM WAKE DOCKET row Oct-1 + the broken phrase dropped now** (`b6bbae58f`).
-- **KB-SAM-258 promote AFTER the MOF monthly (~Sep-30 19:00 JST)** — row is in `KURA.md` § Run 17; a non-zero print rewrites its "no operation" clause. **KB-169 Notes collapse** deferred (P5).
+- ✅ **KB-SAM-258 PROMOTED 10/1** (MOF ¥0 cleared its gate). **KB-169 Notes collapse** deferred (P5).
 - **KOYOMI:** October monthly baseline audit owed at the first October run (the November pre-fetch does NOT count); Run 22's seven spec proposals unruled. CALENDAR sits **11 B under** the read cap — the next added row needs a prune first.
 
 - 🟠 **`catalyst_countdown.py` counts trading days by WEEKDAY and knows NO Japanese holiday** (Silver Week lesson 9/20: a 3-day closure of the primary market was in no SAM surface). Still unfixed; a JP-holiday table is small and also fixes the "Nd trd" counts. Next JP holidays: Oct-12 (Sports Day), Nov-3, Nov-23. · Carried lesson: **a live bar is not a session** — re-derive FX marks from COMPLETED sessions at the next boot (done 9/24; see `[[finding_ohlc_verify_before_session_claims]]`).

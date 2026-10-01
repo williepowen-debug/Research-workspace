@@ -8,6 +8,10 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-10-01 — L0 wake: MOF monthly ¥0 · October OIS 36→18% · MOF weekly one-week bar tripped (wk 9/13–19). **THESIS v1.7 UNCHANGED.**
+
+**Old view → new view:** none at thesis level. Records: KB-SAM-258 promoted (MOF ¥0 cleared its gate); SAM-33 op-audit through 10/1 (Oct–Dec schedule = scheduled taper, excluded); SAM-42 evidence appended, NO re-mark (SoO anonymous ⇒ trigger (a) cannot fire; Totan Oct 18% < 60% ⇒ (b) un-fired). MOF weekly trip → WALTER signal `4171d2c43`; `mof_flows.py` latest-week-only alert defect logged (fix owed). **TIMELINE:** new 2026-10-01 block.
+
 ## 2026-09-29 (2nd) — SAM-42 REGISTERED: the BOJ does not hike by Oct-31, P(hike) 25% vs the market's 36%. **THESIS v1.7 UNCHANGED.**
 
 Registered on Will's verbatim "Approve WQ-336" (10:31 ET, relayed by PROME and verified at `PROME/WILL_QUEUE.md` commit `4b7013204` before installing — messaging rule 3). Outcome-only letter with an immovable anchor, MECE branches, and a frozen market reference (Totan 9/29 15:15 JST, 36%). Base rate: 0/5 back-to-back hikes this cycle. Committed before the Oct-1 SoO/Tankan = time-fixed. Premise (the US endorsement lowers FX urgency) marked ASSUMED. The mechanism claim (an October hike strengthens the yen) is DEFERRED for want of a base rate. Old view: no registered BOJ-timing call. New view: SAM on record below the market. Analysis `research/outputs/2026-09-29_catchup/US_ENDORSEMENT_AND_OCT_HIKE.md`.
