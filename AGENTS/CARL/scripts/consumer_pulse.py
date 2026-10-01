@@ -285,6 +285,16 @@ def main():
 
     # Write TSV
     DATA_DIR.mkdir(exist_ok=True)
+    # Idempotent same-day re-run (2026-10-01, PROME packet 9/24): drop any block already
+    # written for this run's Run_Date before appending, so a second run REPLACES the day's
+    # rows instead of duplicating them. Rows for every other date are left untouched.
+    if PULSE_TSV.exists():
+        run_dates = {r.split("\t", 1)[0] for r in tsv_rows}
+        prior = PULSE_TSV.read_text().splitlines()
+        kept = [l for l in prior if l.split("\t", 1)[0] not in run_dates]
+        if len(kept) != len(prior):
+            PULSE_TSV.write_text("\n".join(kept) + "\n")
+            print(f"  Replaced {len(prior) - len(kept)} same-day row(s) for {sorted(run_dates)}")
     write_header = not PULSE_TSV.exists()
     with open(PULSE_TSV, "a") as f:
         if write_header:

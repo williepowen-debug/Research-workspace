@@ -8,6 +8,16 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-10-01 — CRL-08 GRADED MISSED at its 7/06 fire (28%); CRL-27 RETIRED UNSCORED → successor CRL-31 (WQ-287 option A)
+
+**CRL-08 (WQ-288 canon + DAEDALUS ruling `133faa736`/`ac15548c8`):** OPEN → **MISSED**, Date_Resolved **2026-07-06** (the fire), grade record written **2026-10-01** (one day after the 9/30 docket date; CARL was dark 9/30). Scores at **28%** — the last dated mark before the fire (Jul 2 trim 40→28) — Brier **0.0784**. The 7/24 extension and the 9/11 7% re-mark are kept as history and score nothing. Series named on the row: FRED `DCOILBRENTEU`. Re-pulled 10/01: <$80 on every session 6/22–7/10 (max 76.50 on 7/08); 6/19 was 80.46 and 7/13 was 81.62, so the 14-day run is 6/22→7/06 and the fire date stands. Separately, the letter also fails WQ-281's sustained bar: GASREGW Aug–Sep max **$4.478** (w/e 9/21), then $4.465 (w/e 9/28). ⚠️ The ledger keeps the legacy token `MISSED` (boot 7c and Check G grep `/MISSED/`); canon's token is `MISS`. Check F prints "unpositioned +21.0pp": that is the 7→28 scoring-mark restoration, not a forecast raise.
+**Own-ledger walk (PROME ask 2):** no other OPEN row has a met Invalidation re-marked or extended. CRL-12 is closest: SYF adjusted NCO 4.9% (Jul and Aug) meets leg 1, but 30+ DQ 4.2% fails the <4.0% leg, so the conjunction is unmet. CRL-10 (urea <$500 AND wheat −15%) was not checked at the primary this session; FERT owns urea.
+
+**CRL-27 → CRL-31 (WQ-287 option A, Will 2026-09-26 15:04 ET, "Approve CARL's option A … Preserve the original records and reasons"):** CRL-27 OPEN → **RETIRED, unscored**, original letter and every reason kept on the row, WQ-161 ② intact, no waiver. **CRL-31** registered prospectively: the letter is CRL-27 leg (b) verbatim (≥2 of {ALLY, COF, SYF}, NCO ≥+25bps QoQ for 2 consecutive quarters, by Q1-2027). **50%**, carried from CRL-27's 9/10 post-strike mark on the identical letter. It is not re-priced at registration; the first reachability check is the Q3 prints (~10/20). The floor is CRL-20's 35% by monotonicity. Paper rows PS-0001..0005 re-pointed CRL-27 → CRL-31 (original pred_id kept in each row's notes, fills unchanged, no capital); without this, Check F fails HARD on five positions against a retired row.
+Old view → new view: CRL-27 OPEN 50% (two legs, one struck) → CRL-27 RETIRED unscored + CRL-31 OPEN 50% (one leg). The thesis version (v2.6.6) and score (53/70) are unchanged.
+
+---
+
 ## 2026-09-24 late (3) — DAEDALUS re-score received; CRL-08 RULED 28%; CRL-09 re-marked to first-call 75%
 
 **DAEDALUS (scoreboard owner, `133faa736`):** CARL's aggregate Brier moves **0.3096 (n=12) → 0.4625 (n=9)**, 2 hits of 9. CARL re-derived it: Σ 4.1623 over CRL-01/03/04/07/09/11/16/18/24 ✓.
