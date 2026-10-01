@@ -4,6 +4,12 @@
 
 ---
 
+## S50 — 2026-10-01 evening — **NO WEIGHT MOVED (net-bear 58, confidence 70 stand). FT-08's FIRE MAGNITUDE got its offset, and its basis was ruled, PRE-DATA for 10/14.**
+
+**Old view → new view.** Weights unchanged (Managed 32 · Stag 32 · Acute 13 · War 13 · Soft 6 · Rescue 4). Logged under A4 because a registered trigger's ACTION was completed. FT-08 said "Stag +3" and never said where the 3 comes from. **Now pre-registered: Managed −2 / Soft −1**, written 13 days before the data while nothing rides on it.
+
+**What changed in the read:** FT-08 is far closer than RED had been carrying. June's flat core month rolls out of the window, so **a published Sept core of 0.3 fires it**. The Cleveland nowcast is 0.20, which puts the fire at roughly 25–35%. The S29 framing ("139bps below the line") had aged into a coin-flip-minus without a single new datum. The honest counterweight, written down now: the ≥3.0 state held in **8 of 19 months since 2025**, so a fire says "back to the spring pace", not "spiral". It is applied at full magnitude anyway. **CHG-028** now has numbers (airfares + transportation services, 2% two-running base rate), so 11/10 can actually resolve it. Full tree → `research/2026-10-14_SEPT_CPI_DECISION_TREE.md`. ML-RED-274.
+
 
 ## S48 — 2026-09-29 10:3x ET — **CONFIDENCE 68 → 70 (+2 MECHANICAL, pre-registered): `RED-FT-01` EXIT EXECUTED. Net-bear 58 unchanged. No weight re-derived.**
 

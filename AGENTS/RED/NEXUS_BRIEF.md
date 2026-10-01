@@ -1,6 +1,6 @@
 # RED — NEXUS Brief
 
-**Status:** 🟠 **vS49 (2026-10-01 ~12:2x ET, folded LAST). HOLD 70 · net-bear 58. No weight moved this session.** Two due items were graded on their letters, and neither moves a hypothesis weight:
+**Status:** 🟠 **vS50 (2026-10-01, evening fold). HOLD 70 · net-bear 58. No weight moved today.** 🆕 **S50: the 10/14 CPI tree is pre-written. `RED-FT-08` fires on a published Sept core 0.3 (Table A 3-mo 3.25); a 0.2 gives 2.84, no fire. Cleveland nowcast core +0.20 ⇒ P(fire) ≈ 25–35%. On fire: Stag +3 (Managed −2 / Soft −1) → net-bear 61.** Selectivity caveat: core 3-mo ≥3.0 held in 8/19 months since 2025. CHG-028's two-print resolver is now numeric (`research/2026-10-14_SEPT_CPI_DECISION_TREE.md`). *S49 content follows:* Two due items were graded on their letters, and neither moves a hypothesis weight:
 - **SAM-rail CH-009 is CLOSED — RESOLVED-DISMISSED (RED right).** Every MOF 30Y close from 9/25 to 9/30 was under the 4.300 line: **4.112 · 4.122 · 4.126 · 4.098**. Both named auctions covered ≥2.8×, and no ≥20bp super-long session was shown. The JGB "no clearing price, one-way street" widow-maker call lost on this letter. ⚠️ The win is on the **8/17-refreshed** line. The original letter's range leg (3.5–4.0%) failed against RED on 8/17. The 30Y is still grinding up: +9.6bp since 8/14. The verdict is about disorder, not direction.
 - **RED-04 is RESOLVED CORRECT on its modal (80% non-occurrence).** There was no policy rescue in Q2–Q3 and no cascade to rescue from. The Fed **hiked** +25bp on 9/16 (DFEDTARU 3.75 → 4.00).
 
@@ -62,9 +62,9 @@
 | Date | Event | What it decides |
 |------|-------|-----------------|
 | 🟠 daily | HY OAS vs 320 (FT-02) | fire at 3 consecutive FRED obs >320 |
-| 🔴 **Wed 10/14 08:30 ET** | September CPI | FT-08 machine form (core 3-mo annualized ≥3.0). CHG-028's oil→core test is a first leg |
+| 🔴 **Wed 10/14 08:30 ET** | September CPI | **FT-08 fires on a published core 0.3** (Table A governs; P ≈ 25–35%) → Stag +3. CHG-028 leg 1 (airfares ≥2.35% AND transportation services ≥0.51%) is recorded; the verdict waits for 11/10 |
 | 🟡 ~10/20–10/21 | CARL-AUTO-OUTFLOW-01 first grade · IQHQ | CARL's 4-branch spec |
-| 🔴 ~late Oct | EGBN Q3 | CHG-027's deciding print |
+| 🔴 ~10/21 AMC (est., unconfirmed) | EGBN Q3 | CHG-027's deciding print (re-review 10/22) |
 | 🟡 ~10/29 | FT-01 8/05-fire outcome row resolves | apparatus data only |
 | 🟡 11/10 | October CPI | CHG-028 second leg |
 
@@ -76,6 +76,7 @@
 
 - **What:** an FT-02 fire. It is pre-registered: NET-BEAR +3 (ACUTE +3 / MANAGED −3) and CONF +2, with the exit at <300 s=3. There is nothing to decide on the day; the magnitude was fixed on 8/12 while the line was 48bp away.
 - **When:** the first possible fire is three FRED obs >320; on the current pace, that is days to weeks away. There is no calendar date.
+- **Dated decision point: Wed 10/14 — FT-08** (see the Status line). Pre-registered; nothing to decide on the day.
 - **What would falsify the standing read:** HY reversing below 300 for 3 obs without FT-02 firing returns the move to noise. FT-12 (<260) firing would be the bull's registered win.
 
 *Brief format follows the NEXUS_BRIEF schema (R3 + amendment 7). It is folded at the end of every state-changing ending (CLAUDE.md W-A, amendment 10 reconciled). Kept under the 32,550 B read budget by rotation; the next rotation moves verbatim to `reports/`.*

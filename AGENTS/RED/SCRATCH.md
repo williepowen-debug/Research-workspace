@@ -40,6 +40,7 @@
 - **A block DONE:** A1 FT-06 outcome CORRECT · A2 CHG-044 re-review (E3b validation claim withdrawn) → 11/30; CHG-049 → 10/20 · A3 five limbo rows closed · A4 seven catalyst rows resolved · A5 EGBN → ~10/21 AMC est. (CHG-027 re-review 10/22). PROME packet (DOCKET L35 date) + BROCK reviewer note (STATUS L91 vs ledger).
 - **boot.py §③/④ widened** (ML-RED-273). NEXT SESSION item 6's TRIGGER_OUTCOMES half is DONE; the stale-catalyst half is DONE.
 - **Next in Will's approved order:** B5 the 10/14 CPI decision tree → B2 weight re-derivation (by 10/09) → B1 board_log gate (by 10/06) → B3 CALENDAR → B4 WL-03 → C review debt.
+- **B5 DONE (S50c):** `research/2026-10-14_SEPT_CPI_DECISION_TREE.md`. FT-08 fires on a published core 0.3, P≈25–35%; offset Managed −2 / Soft −1; basis ruled (Table A). CHG-028 numeric. OUTBOX -046 + NEXUS_BRIEF vS50 folded. ML-RED-274. **On 10/14, grade off the tree; do not improvise.**
 
 ## NEXT SESSION (dated, priority-ordered)
 
