@@ -1,4 +1,24 @@
-> # ⛔ 2026-09-29 (Tue) — READ THIS BLOCK FIRST. Will-launched in-folder session, boot 08:47 ET → closeout 11:19 ET (`date`); Will asked for a data catch-up, then five PM deliverables. **Tonight's 16:00–20:00 ET memory slot is UNCOVERED at this closeout** (PROME spawns a VULCAN session if it is live; otherwise Wednesday's boot records it MISSED, never back-dated).
+> # ⛔ 2026-10-01 (Thu) — READ THIS BLOCK FIRST. PROME-spawned Tier-1 session (DOCKET L547, WQ-184 driver; prome-2a), boot 11:05 ET (`date`), markets open. Task: grade Micron FQ4 · dispose past-due register rows · drain the whole inbox. **All three done.**
+>
+> ## ONE LINE: **Micron printed huge and guided higher, and TrendForce's public 4Q range is still +10–15% ⇒ VULCAN-11 FALSIFIED ⇒ S2 3 → 2 (forced by the letter), composite 14/25.** VULCAN-02 HIT · VULCAN-12 HIT on the letter only (guide dip = incentive-comp cost, margin rose THROUGH contractual caps) · VULCAN-14 HIT.
+>
+> ## ▶ START HERE NEXT SESSION
+> 1. 🔴 **FRI 10/02 POST-CLOSE = `mag7.py` slot 4 + GPU reading 4 (the FIRST `GPU_SERIES.tsv` row; fill the template AT the slot, never carry 9/13 levels).** A partial run is a failed run [L-16]. If this desk is dark, PROME re-spawns at the slot.
+> 2. **10/05: APPLY GPU spec §7a (pre-written 9/29) — do not re-decide.** WALTER's 10/02 R3 re-test of my WATCH_FOR candidates lands the same window.
+> 3. **~10/09–10/19 MU 10-K:** re-check VULCAN-12's FQ4 GM as FY − 9M (graded 86.76% off the 8-K). >0.1pp = post-grade correction. Ignore `edgar_watch.py`'s printed 10-K window (wrong period end).
+> 4. **~10/28 hyperscaler cluster = §4b flip + the next kill-rail rewrite + PROME's disinflationary-productivity falsifier** (register row; 11/15 backstop).
+> 5. **Housekeeping owed:** archive the four 10/01-graded PREDICTIONS rows by ROW (VULCAN-11's "no terms-lead-price indicator in S2" now lives in STATUS's triad, so the move is safe) · `semi_watch.py` UTC-stamp fix [L-38] · `edgar_watch.py` MU 52-week display defect · the S2 spot series needs a NEW cadence before it resumes (38 days stale, 0 of 8 slots taken).
+>
+> ## WHAT THIS SESSION DID
+> - **Git:** did not pull (other desks' uncommitted work in the tree: WALTER, CATO, FERT); `origin/master` was even with local at boot (fetch OK).
+> - **Grades** (`workbook/MU_FQ4_RESOLVER.md` §6, now FROZEN; PREDICTIONS cells): every input at a primary — Micron 8-K Ex-99.1 acc `0000723125-26-000018` + prepared remarks (9/30); TrendForce PR 9/30 (public — trap ② did not spring); MU 9/30 close $1,065.11 via `fetch.py`. KB-186..189.
+> - **Score:** S2 3 → 2 in STATUS matrix, composite line and VX (validator reconciles). No threshold or band moved. THESIS S2 reconciled (step 2b).
+> - **Register:** 5 past-due rows → `archive/CATALYSTS_FIRED_2026-10.tsv` (9/29 slot MISSED · Micron FIRED/GRADED · grade row GRADED · re-arm UNGRADEABLE+moot · rewrite trigger EXECUTED); ORCL $3.3B guarantee re-dated → ~12/15 (no 8-K through 9/30); two rows added (MU 10-K ~10/09, rewrite ~10/28); both 11/10 clock rows annotated (MOFCOM wrote 1/10 down 9/28, no instrument).
+> - **EXIT_PROTOCOL:** Micron half written (§4 SPENT → §4b live; §2/§3 S2; 10/01 re-evaluation: thesis-kill 1 of 4, leg 3 stronger); dated log moved verbatim to `archive/EXIT_PROTOCOL_LOG_ARCHIVE_2026-10.md` (56,347 → 25,925 B; every original line accounted for).
+> - **Inbox 5 → 0:** PROME WQ-337 (AI policy stays unowned; my sub-read is the sole watched edge — no charter change) · WALTER ×4 in `board_log.tsv` with reasons (ORCL BBB- noted · ORCL layoffs info-only · PGIM CLO cap noted → KB-189 · MOFCOM 1/10 acted → register).
+> - **Packets out (INFO, no ask):** HENRY · CARL · VIOLET · LIQUID · WATT · WALTER — the grades, S2 3 → 2, and the ceiling caveat for the three desks that hold KB-055.
+
+> # 2026-09-29 (Tue) — *(previous session; the 10/01 block above supersedes its ▶ START HERE — items 1–3b were discharged 10/01)*. Will-launched in-folder session, boot 08:47 ET → closeout 11:19 ET (`date`); Will asked for a data catch-up, then five PM deliverables. **Tonight's 16:00–20:00 ET memory slot is UNCOVERED at this closeout** (PROME spawns a VULCAN session if it is live; otherwise Wednesday's boot records it MISSED, never back-dated).
 >
 > ## ONE LINE: a **DEMAND strand** joined last week's FINANCING one — **OpenAI paused its frontier pipeline (report 9/25, no resume date)** and the 9/28 tape priced it (ORCL −3.3%, MU −2.6%, CRWV −2.9%, Hynix −5.05%). **No budget, contract or lease changed ⇒ no trigger moved; composite 15/25, thirteenth session.**
 >

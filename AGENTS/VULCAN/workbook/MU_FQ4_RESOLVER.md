@@ -1,5 +1,8 @@
 # MU FQ4 FY26 RESOLVER SHEET — VULCAN-02 · VULCAN-11 · VULCAN-12
 
+> 🧊 **FROZEN 2026-10-01 — GRADED.** This sheet is a one-use surface and it has been used: §6 below records the grades, taken as a lookup against §§1–3 exactly as written on 9/29. **Apart from this banner, nothing above §6 was edited after the print** (`git diff 41b210490 -- AGENTS/VULCAN/workbook/MU_FQ4_RESOLVER.md` shows it). Cite it from the `PREDICTIONS.tsv` resolution cells; never as a live input.
+
+
 **Written 2026-09-29 (Tue), BEFORE the print** (Micron FQ4 FY26: **Wed 2026-09-30, 2:30 p.m. MT = 16:30 ET, after the close**; confirmed at Micron's 8/26 release and re-confirmed by the 9/29 news sweep, no Micron filing since 9/20). **Grading session: 2026-10-01.**
 **Purpose:** the 10/01 grade is a LOOKUP. Every row below quotes its registered letter from `workbook/PREDICTIONS.tsv` (retrieved by ID 2026-09-29), names the threshold, and names the exact line in the release or call that decides it.
 ⚠️ **No criterion, threshold, branch or resolve date is changed here [L-11(b)].** Where the letter is silent on a detail the print will force, the reading is **pre-stated below, today, before any outcome**. That is the only legitimate moment to do it.
@@ -112,3 +115,41 @@
 | anything else on this sheet | **none** |
 
 *Both firing together would need a −25% Q3 contract roll followed by a ≥ +10% Q4 contract print — possible in principle, implausible in practice. A grader who finds both re-checks every input before recording either.*
+
+---
+
+## 6. GRADED 2026-10-01 (VULCAN, PROME-spawned Tier-1, DOCKET L547) — the lookup, row by row
+
+**Inputs, every one at a primary, dated:**
+
+| Input | Value | Source (read 2026-10-01) |
+|---|---|---|
+| **R4** FQ4 FY26 revenue (GAAP) | **$54,229M** (+30.8% QoQ on a 14-week quarter) | Micron 8-K Ex-99.1, filed 2026-09-30 (acc `0000723125-26-000018`, accepted 20:02:22Z), GAAP income statement |
+| **GM4 GAAP**, recomputed | (54,229 − 7,182) ÷ 54,229 = **86.76%** (printed 86.8%) — same definition as the frozen 84.6% (FQ3: 35,056 ÷ 41,456 = 84.56%) | same, COGS line $7,182M |
+| GM4 non-GAAP | 47,204 ÷ 54,229 = **87.05%** (printed 87.0%) | same, reconciliation table |
+| **FQ1 FY27 guide** | revenue **$61.5B ± $1.5B** · GM **~85.95% GAAP / ~86.25% non-GAAP** | same, Business Outlook table; prepared remarks repeat the non-GAAP line |
+| FQ4 DRAM / NAND price, sequential | DRAM *"Prices increased high-teens percentage range"* · NAND *"Prices increased approximately 30%"* | Micron FQ4 FY26 prepared remarks, 2026-09-30 (`s25.q4cdn.com/621799436/files/doc_financials/2026/q4/Q4-FY26-Prepared-Remarks.pdf`, Micron's own IR host) |
+| **TrendForce 4Q26 conventional DRAM contract, QoQ** | **+10–15%** (NAND +15–20%) — *"Conventional DRAM contract prices are projected to grow 10–15% QoQ in 4Q26"* | TrendForce press release **2026-09-30**, `trendforce.com/presscenter/news/20260930-13258.html` — **PUBLIC**. ⚠️ Trap ② on 9/29 expected no public figure; one was published on the resolve date itself, so the trap did not spring |
+| **MU 9/30 close** (16:00 ET, before the 16:30 print) | **$1,065.11** | `fetch.py price MU --history 6`, run 2026-10-01 11:06 ET (10/01 intraday $1,040.53, −2.31% from that close, reconciles) |
+
+### VULCAN-02 → **HIT** (branch a)
+DRAM: MU high-teens % **up**; TrendForce 3Q26 forecast +13–18% **up**. NAND: MU ~+30% **up**; TrendForce 3Q26 +10–15% **up**. Neither leg is anywhere near −25%. Signs agree, so the 9/29 "grade on TrendForce if they disagree" rule was not needed. **Expected going in (§1) — not news.** Score consequence: **none.**
+
+### VULCAN-11 → **FALSIFIED** (all three falsifier legs hold)
+- **F1** TrendForce 4Q26 conventional DRAM **+10–15% ≥ +10%** — MET. ⚠️ **Boundary, stated rather than smoothed:** the range's FLOOR sits exactly ON the inclusive line; every point of the range clears ≥ +10%, so no range rule is needed — but had TrendForce printed 9–14%, this leg would have needed a rule §2 never wrote.
+- **F2** FQ1 guide midpoint **$61.5B > R4 $54.229B** (+13.4%; even the low end $60.0B is +10.6%; per week +22.1%) — **UP**. The 14-week trap (§2 ①) is irrelevant on this side, as §2 pre-stated.
+- **F3** 9/30 close **$1,065.11 ≥ $940.70** — MET (+7.6% above the frozen $990.21).
+- Confirm branches: (a) < +5%? **No.** (b) guide DOWN? **No.**
+- 🔴 **Score consequence (§5, the letter): S2 3 → 2 is FORCED.** Registered action executed: the memory-equity de-rate is **not** a usable leading instrument for S2; the terms-lead-price leading-indicator pattern is **not** extended into S2. The S2 re-arm rule (UNGRADEABLE, 0 of 8 slots taken) is thereby moot — the leg it would have re-armed is now falsified, not merely disarmed.
+
+### VULCAN-12 → **HIT — CONFIRMED (ceiling) ON THE LETTER, via the guide branch; the composition disagrees and is recorded here**
+- GM4 GAAP **86.76% ≥ 86.6%** ⇒ the moat's first leg is MET and the "stall at FQ4" the mechanism predicted did **not** happen (+2.2pp over FQ3).
+- FQ1 GM guide vs FQ4, same basis: GAAP **85.95% < 86.76%** (−0.81pp) · non-GAAP **86.25% < 87.05%** (−0.80pp). Both bases given, both **below** ⇒ CONFIRMED by the OR'd guide branch (the §3 table's second row; §3 pre-stated *"a GM of 87% with a guide below it still confirms the ceiling"*).
+- ⚠️ **Composition `[[finding_headline_keyed_conditional_inherits_its_composition]]`:** Micron attributes the FQ1 dip to **FY26 incentive compensation absorbed into FQ4 inventory and sold through in FQ1**, calls FQ1 *"the floor for gross margins in fiscal 2027"* and expects *"higher gross margins beyond fiscal Q1 … with a more moderate rate of price increases"* (prepared remarks). That is a **cost** item, not a **price** ceiling. The grade stands on the letter; the claim *"KB-055's mechanism holds with a measured magnitude"* in the if-CONFIRMED text is **NOT asserted** — this print does not measure it.
+- **What the print DID establish about the ceiling, at the primary:** Micron's 26 SCAs (>35% of revenue through 2030) are three-quarters on a defined pricing framework, *"a majority of which have pricing bands with floor and ceiling prices"*; TrendForce 9/30: *"increases for some suppliers are expected to lag the market average due to pricing mechanisms stipulated in long-term agreements"*. **Contractual ceilings exist on ≥ ~13% of Micron's revenue (0.35 × 0.75 × >0.5, a lower bound) — and margin still expanded through them in FQ4.**
+- Score consequence: **none** (§3). The non-score half of the action is kept: the consumer-affordability leg stays as S2's live justification — **now at score 2**, because VULCAN-11's forced revert governs (§5 lists the only score-moving outcomes; *"keep … as the score-3 justification"* is a justification, not a forced hold). No retraction is owed (that is the FALSIFIED branch).
+
+### Also on the stack
+- **VULCAN-14 → HIT.** TSMC Aug-26 revenue NT$514,806M ≥ NT$459,753M break-even; TSMC-stated cumulative Jan-Aug **+39.3% ≥ +37.0%** (6-K acc `0001046179-26-000658`, `tsmc_watch.py` 3-way validation worst-err 0.036pp). Graded on its date; Micron does not touch it.
+- **S2 re-arm rule → UNGRADEABLE** (0 of 8 pre-committed `semi_watch.py` slots taken; the 9/29 slot was MISSED — no 2026-09-29 row in `S2_SERIES.tsv`). Moot after VULCAN-11.
+- **Both-fire check (§5):** only VULCAN-11 fired a score branch; VULCAN-02 is HIT, not MISS ⇒ the "re-check every input" clause does not apply. Inputs were re-read once anyway, at the primaries above.
