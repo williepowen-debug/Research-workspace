@@ -4,6 +4,9 @@ Version history for `thesis/THESIS.md`. Newest first. Bump rules: **major (X.0)*
 
 ---
 
+## v1.2.11 — dated note 2026-10-01 17:0x ET (NO version bump: downstream receipts only)
+- TERRY's exit card `MGMT-DURSHORT-EXIT-WQ291` (`8f9e6b7d1`) and PROME's WQ-357 (`9c30a8bb8`) now exist; state = REC PENDING WILL. Token unchanged (`kill=MET-REC@2026-10-01`, `posture=HOLD-NO-ADD` until Will rules). `KB-BND-384`.
+
 ## v1.2.11 — 2026-10-01 ~16:2x ET (**the Sept-4 kill letter is MET for the 9/23 5Y `I'` fire — a recommendation, no action**)
 - **Old view → new view:** kill NOT FIRED (the 9/23 fire an unpaired `I'` marker, dealer leg pending) → **kill letter MET**: FR2004 3–6Y as-of 9/23 **$60.079B** vs the WQ-291 bar **$56.586B** (PRE $47.986B reproduced, unrevised; Δ +$12.093B; margin +$3.493B; `KB-BND-383`). The kill is `I'` + a non-auction mechanism confirmation ("FR2004 dealer stock and/or SOFR−IORB"), so the dealer leg alone completes it; the funding window stays UNGRADED by ruling.
 - **Consequence:** a RECOMMENDATION "exit all duration shorts" (TLT Oct-16 82P ×1 + TBT 10 sh per the 10/1 mirror) through TERRY's card and Will's [Approve] — root rule #5. Riders verbatim: ① net inventory ≠ proof of warehousing ② funding window UNGRADED ③ operational rule, no predictive claim.
