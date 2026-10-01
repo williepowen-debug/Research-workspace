@@ -16,7 +16,7 @@
 > - **New cards/notes:** `MGMT-QQQ735P-OCT05` (`setups/QQQ735P_oct05-sell-or-roll_2026-10-01.md` — Mon 10/05 15:00 ET stop, lean SELL, roll form 735P Oct-16; no harvest rule, finding 9) · `MGMT-USO150C-OCT09` + `MGMT-KRE65P-DEC31` (`setups/USO150C-KRE65P_roll-management-notes_2026-10-01.md` — recorded, not re-litigated; stops Fri 10/09 and Thu 12/31 15:00 ET).
 > - **DOCKET L391 DONE:** `boot.py` now prints read-cap PROXIMITY per boot-read surface from `scripts/read_cap_check.py` (bytes, % and distance; ≥75% ⇒ ROTATE FIRST, WRITE SECOND; parse failure ⇒ UNKNOWN, never ✓). Acceptance conditions in the code; `--selftest` PASS incl. the 24-B founding case, the exact-75% edge (caught a float defect in the guard's own first run) and three missing-information cases. Live: SETUPS.tsv 🔴 97.8% (708 B left) · TRADE_BOOK 🟡 85.7%.
 > - **DOCKET L372 — STILL OWED, not built this session** (the cold class-fix proposal). Half its case is now moot: card 004 closed 9/30, so its add line has no future cell. The refiner entry gate's half stands. **L500 (10/02):** CCL Q3 was GRADED 9/30 (`FL-CRU-10` TRUE, `options/PRINT_ENVELOPE_CRUISE_2026-09-19.md` § ⑨) ⇒ PROME may retire the "Carnival reports third quarter" phrase.
-> - **Owed:** `POSTMORTEMS.md` for the four closed Sep-30 lines · 🔴 SETUPS (97.8%) / TRADE_BOOK (85.7%) rotations — still at the rotate tier, so no rows written there.
+> - **Postmortem written** for the four Sep-30 lines (`e03a431e2`). **Owed:** 🔴 SETUPS (97.8%) / TRADE_BOOK (85.7%) rotations — still at the rotate tier, so no rows written there · DOCKET L372. Inbox drained 2/2 (both PROME, `board_log.tsv` 10/01 rows, → `processed/`). BOARD scan run: 21 action-line, all logged, 0 new (boot.py 11:06).
 
 > ⛔ **SUPERSEDED 2026-10-01 — the block below graded the Sep-30 TAPE right and the DISPOSITIONS wrong: all four lines were SOLD TO CLOSE before expiry (see the 2026-10-01 block above). Kept as the dated record.**
 > ## ★ CURRENT STATE — 2026-09-30 Wed 17:33–17:4x ET · PROME spawn (`prome-94`, Tier 1 follow-up — Will's TERRY window died in a machine crash after ~15:05 ET, before the post-close grades). **SEP-30 EXPIRIES GRADED ON THE 9/30 CLOSES. `$0` MOVED · NO PROPOSAL · NO NEW CARD · NO GATE OR THRESHOLD MOVED.**
@@ -42,36 +42,7 @@
 > - **10:18–10:2x ET, TERRY interactive (Will: *"get caught up … and commit the uncommitted TERRY work"*):** the 08:1x spawn's work was verified and committed (STATUS rotation crc `3c2ebc8b` re-checked against HEAD, 7,674 B), all 5 read packets filed to `inbox/processed/`, the empty KRE card § 5b placeholder filled (Dec-18 65P 1.23/1.34 at 10:23, ref 3 contracts, verdict unchanged), and the WQ-330 receipt sent to `PROME/inbox/`. Live at 10:19: QQQ $743.66 ⇒ 730P 0.07/0.08 (×9 ≈ $65) · USO $147.05 ⇒ 159C **NO BID** · TLT $77.96 ⇒ 77P 0.01/0.02 · KRE 60P NO BID. ~~**Owed after the 16:00 close:** grade the 004 and KRE Sep-30 expiries.~~ ✅ discharged 17:3x by `prome-94` spawn.
 > - **Carried:** rule candidates (envelope-EV test; three-rung correction ladder) — draft outside `RISK_RULES.md` → cold read → adopt (PROME 9/22 endorsed) · 🔴 SETUPS (98%) / TRADE_BOOK (86%) rotations still owed, so no rows appended there · L372, L391 open.
 
-> ## ★ 2026-09-28 18:1x–18:2x ET · PROME spawn (WQ-329 / L535): **`MGMT-VLO-SHARE` proposal to Will** (`setups/VLO-SHARE_management-proposal_2026-09-28.md`): A = Nov crack settle <$90.16 · B = signed export-ban text; desk read both. 9/28 fills recorded: 004 ×15 · QQQ ×9 / USO ×2 · TLT 82P ×1 · ROLL70 GTC gone. `$0` moved.
-
-> ## ★ CURRENT STATE — 2026-09-28 Mon 10:51–10:5x ET · PROME spawn (`prome-7f`, Tier 1, **WQ-315** — Will: *"give me a hold/sell recommendation and decision deadline for each … Recommendations only; orders remain mine. Keep my TLT hold-to-expiry ruling unchanged."*). **`$0` MOVED · NO ORDER · NO NEW TRADE PROPOSED · NO GATE OR THRESHOLD MOVED.**
-> - **Carded:** `setups/QQQ730P-USO159C_sep30-disposition_2026-09-28.md` (`MGMT-QQQ730P-USO159C-SEP30`). Verdict **SELL both today, before 15:45 ET**; if held, **hard sell deadline Wed 9/30 15:00 ET**. Both lines open at the 9/25 close only (ANVIL); **UNVERIFIED since**.
-> - Live (yfinance, screening, ~15-min option lag — `DIRINC` fired 10:53): QQQ $732.18 (−1.65%), 730P bid 2.18–2.23 ⇒ ×10 ≈$2,180–2,230 vs cost $2,486.63. USO $152.96 (+3.12%), 159C bid 0.55–0.58 (12–14% wide) ⇒ ×2 ≈$110–116 vs $921.33. Root rule #6: SELL is on the right side for both (a put on a red day, a call on a green day); HOLD would be the implicit re-buy. No break claimed.
-> - Wed mechanics: auto-exercise ≥$0.01 ITM (VERIFIED, 9/26 card read). 10 puts ⇒ −1,000 QQQ short, which an IRA cannot hold; 2 calls ⇒ $31,800 cash vs $17,512.69. What Fidelity does and when = UNKNOWN (D-60). TLT 77P ×20 HOLD (WQ-168 ④) and KRE 60P Sep-30 LAPSE (⑥): noted, untouched.
-> - Inbox drained 1/1 (REGINALD ROLL70 clause (d) CONCUR, `noted`; run 0-of-3 through 9/25). BOARD scan: 21 action-line, all logged (boot.py). SETUPS/TRADE_BOOK rotations still owed ⇒ `MGMT-` id, registered in `setups/INDEX.md`.
-
-> ## ★ CURRENT STATE — 2026-09-26 Sat 15:08–15:14 ET · PROME spawn (`prome-1d`, Tier 1, WQ-292 RULED 15:04 ET: *"prepare the two position-management cards … preparation, not trades"*). **`$0` MOVED · NO PROPOSAL · NO GATE OR THRESHOLD MOVED.** This supersedes the WQ-292 row ("Not carded") in the 9/25 block below.
-> - **Carded:** `setups/TLT_oct16-82P_ITM-management-card_2026-09-26.md` (`MGMT-TLT82P-OCT16`) · `setups/HBAN_oct16-16P_ITM-management-card_2026-09-26.md` (`MGMT-HBAN16P-OCT16`). 9/25 close (Sat): TLT `79.32` ⇒ 82P ITM `$2.68`, bid `3.00` ⇒ ×2 `$600` vs cost `$336`. HBAN `15.64` ⇒ 16P ITM `$0.36`, bid `0.45`/ask `0.80` (56% wide) ⇒ ×2 `$90` vs `$192`. Screening marks.
-> - **Named UNKNOWN on both:** Fidelity's handling of an ITM long put with no shares in an IRA. Its public pages give only auto-exercise at ≥$0.01 and a DNE deadline of 16:15 ET; the IRA-short branch is SEARCH-NOT-FOUND. One question for Will to ask Fidelity, on both cards. Decision point **Wed 10/14 close**; backstop Fri 10/16 before 16:00.
-> - **HBAN 7/18 ruling:** the letter stands; its premise (dust, commission ≈ proceeds) failed ($1.30 vs ~$90). Re-rule options R-A/R-B are listed, not recommended. HBAN Q3 print is **10/22 BMO**, after expiry (HBAN IR). **TLT 82P:** DOCKET 10/1 FR2004 names it under BOND's unresolved kill rail (WQ-291 HELD).
-> - Inbox drained 1/1 (BRENT F1 packet, `noted`). BOARD scan: 21 action-line, all logged. SETUPS/TRADE_BOOK rotations still owed, so the cards use `MGMT-` ids (no SETUPS row) and are registered in `setups/INDEX.md`.
-
-> ## ★ CURRENT STATE — 2026-09-25 Fri 14:12–16:1x ET · PROME spawn (`prome-2e`, Tier 1, the post-settle re-touch owed by WQ-282/WQ-213). **`$0` MOVED · NO PROPOSAL · NO GATE MOVED OR SHAVED.** This supersedes the "Owed today ②" line in the 02:58 block below.
->
-> | line | state (own pulls, vendor = screening) |
-> |---|---|
-> | **VLO-SCALE** (2 staged) | **9/25: NOT MET** (A ✗: VLO +1.12% green, USO −3.07% red · B ✗: `387.145` > SMA-20 ending 9/24 `380.66`). **`F1` = UNKNOWN:** ③ settle-window VWAP `$95.0014` (2-bar `$94.9990`), `$0.00` from the line. ① CME is 403-blocked; ② is not finalized. **The row is NOT terminal; it is held.** Resolver: Will reads the CME 9/25 settles for `HOX26`/`CLX26`. If `HO×42−CL < 95.00`, the row goes terminal and both staged shares stand down. Card § ⑩. |
-> | **004** TLT 77P ×20 | 🔒 **SUPERSEDED — CLOSED, EXPIRED WORTHLESS 2026-09-30** (×15 held to expiry; see the 9/30 17:3x block). *9/25 history:* 16:03: `0.03/0.04` (last trade 15:21), TLT `79.32` ⇒ ~`$60–80` vs `$231.26` basis. **Card unchanged:** harvest ≥`$0.3469` is out of reach (it needs TLT ~−3%), NO ADD (WQ-280), expiry Wed 9/30. |
-> | **Book concentration** | **WQ-297 A — Will ACCEPTED it in writing, 2026-09-25 14:16 ET** (`PROME/proposals/2026-09-25_wq297-298-RULED.md`). No offset card, no trim, no line's rule changes. Carried on the Q1 map. |
-> | **WQ-292** (TLT Oct-16 82P ×2 + HBAN 16P ×2, ITM) | Will's ruling. Not carded. |
->
-> **Inbox drained 3/3** (`board_log.tsv` 9/25 14:17 + 16:0x rows). **WQ-295:** CADENCE `WEEKLY` declared. The 8 phrases I proposed were live-tested by WALTER: 1 landed, 6 rejected, and on my word 7 replacements were adopted and `distillate inventories` dropped (memo). **MIDAS:** the 77P delta was delivered 9/11. At 14:14 ET 9/25 it was `−0.0708`, above MIDAS's `0.0504`, a moment property; packet sent.
->
-> **Carried, with reason:**
-> - **DOCKET L372** (cold class-fix proposal: gates with no thesis/channel condition) needs its own sitting.
-> - **L391** (`boot.py` read-cap flag) is not urgent: STATUS has headroom (`read_cap_check --agent TERRY` rc=0).
-> - 🔴 **SETUPS/TRADE_BOOK rotations are still owed.** `SETUPS.tsv` sat at the rotate tier, near its cap, at 16:0x 9/25, so **no SETUPS row was appended this session.** The next session rotates FIRST.
-> - **CCL prints Tue 9/29:** grade `FL-CRU-10`.
+> ## ⤵️ **2026-09-25 Fri, 2026-09-26 Sat and the two 2026-09-28 Mon blocks ROTATED 2026-10-01 → `archive/STATUS_ARCHIVE_2026-10-01.md`** (pre-rotation lines 45–74, crc32 `af0c3dfe`, 5,892 B — verbatim, contiguous, body only). ⛔ No live state moved — legs listed in the archive header.
 
 > ## ⤵️ **2026-09-25 02:58 (L477) + 2026-09-24 catch-up blocks ROTATED 2026-09-30 → `archive/STATUS_ARCHIVE_2026-09-30.md`** (pre-rotation lines 43–83, crc32 `3c2ebc8b`, 7,674 B — verbatim, contiguous, body only). ⛔ No live state moved — legs listed in the archive header.
 
@@ -83,6 +54,7 @@
 >
 > | block | rotated | archive file | pre-rot lines | bytes | crc32 |
 > |---|---|---|---|---:|---|
+> | **2026-09-28 ×2 + 2026-09-26 + 2026-09-25 14:12** | 2026-10-01 | `archive/STATUS_ARCHIVE_2026-10-01.md` | 45–74 | 5,892 | `af0c3dfe` |
 > | **2026-09-25 02:58 + 2026-09-24** | 2026-09-30 | `archive/STATUS_ARCHIVE_2026-09-30.md` | 43–83 | 7,674 | `3c2ebc8b` |
 > | **2026-09-19** (+9/20 tail) | 2026-09-24 | `archive/STATUS_ARCHIVE_2026-09-24.md` | 9–42 | 22,547 | `5ad593d1` |
 > | **2026-09-18** | 2026-09-19 | `archive/STATUS_ARCHIVE_2026-09-19.md` | 27–44 | 9,824 | `6962e3ad` |
