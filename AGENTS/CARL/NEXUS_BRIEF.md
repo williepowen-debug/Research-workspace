@@ -1,42 +1,39 @@
 # CARL — NEXUS Brief
 
-**Status:** 🔴 53/70 unchanged. The pump squeeze is at its peak (record diesel) while crude falls. The strongest new evidence runs against broad consumer convergence; the evidence for the thesis sits at the bottom of credit.
+**Status:** 🔴 53/70 unchanged. Fuel pressure eased at the margin (GASREGW posted its first weekly decline since at least 8/31) while the lower-quality credit split kept widening. BEA's annual update made the aggregate saving cushion larger than logged; who holds it is unknown.
 **Domain:** U.S. consumer financial stress and downstream household transmission; bank-level credit belongs to REGINALD.
 **Thesis version:** v2.6.6
-**As of:** 2026-09-24 14:22 ET | **STATUS commit:** `4b50b65e8` *(9/24 catch-up + closeout; source record `domain/sources/2026-09-24_data-catchup.md`)*
-**Position:** No real capital authority; existing paper sleeve unchanged. Structural references only, no marks.
+**As of:** 2026-10-01 12:29 ET | **STATUS commit:** `2288ba032` *(10/01 PROME due-row drain; prior full refresh 9/24, `domain/sources/2026-09-24_data-catchup.md`)*
+**Position:** No real capital authority; paper sleeve unchanged except PS-0001..0005 re-pointed CRL-27 → CRL-31 (record-keeping, no capital). Structural references only, no marks.
 
 ## CROSS-DOMAIN
 
-**SENDING:** Synthesis routes from CARL's canonical surfaces. Only the PROME and STUE packets below were actually sent (committed); the other rows are available analysis, not deliveries.
+**SENDING:** only rows marked *sent* were committed deliveries.
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
-| PROME (sent, 72c277376 → WQ-281) | CRL-08 bar (RULED: sustained, WQ-281 9/24); DEWEY woken (DR-5 delivered; adjudication UNRESOLVED per 9/24-late relabel) | 🔴 | Will ruled 9/24 13:17 ET (via PROME): sustained governs, so CRL-08 resolves MISSED 9/30. DEWEY woken (dewey-l0 drain). |
-| STUE (sent, packet in `sub_agents/STUE/inbox/`) | FSA FY26-Q3 posted 9/18: FM default $234.1B/9.3M | 🟠 | Unblocks ES-01/04/06. ES-01 forbearance −4.76% sits at the −5% band on one-decimal rounding. Default growth slowed (+$13.8B vs +$39.8B); the stock cannot separate cures from fewer new defaults. |
-| OTTO | August broad tier (SDART) read off OTTO's panel script in dry-run mode | 🟠 | 0/3 improving, mean +1.09pp vs July +1.00: the narrowing stalled. Nothing written to OTTO's ledger; OTTO's own run is still owed. |
-| BRENT / HAWK | Pump still rising while Brent spot fell $130.80 → $114.89 (9/15 → 9/22) | 🟠 | Pass-through lag is still delivering the mid-September crude peak; pump relief is the next watch. Record diesel $6.5276 (9/22). |
-| LIQUID / REGINALD | CCC−BB 934bp on 9/23, the widest since at least 2025-01-01; HY 273bp | 🟠 | The lower-quality credit split is widening while the broad index is calm. Corporate spreads are not household health. |
-| HOMER / REGINALD | ATTOM August: FL #1 in foreclosure starts (3,189), #3 by rate; US REO +42% YoY | 🟠 | Florida housing distress continues. FL YoY was not obtained. |
-| TERRY (sent 9/24, Will-directed) | Consumer read: stress is in lower-quality credit (subprime auto, CCC), not broad spending | 🟠 | Analysis for TERRY's cards, no trade proposal; tests at ~9/30 (V2), ~10/20 (CRL-20/21/27), ~11/30 (HHDC). |
-| RED (staged in `handoff_RED/COUNTER_LOG.md`) | BofA: card-spending K "effectively" closed; RCL raised price into +4.87% capacity; FL June airport print uninformative | 🟠 | Counter-evidence to V8 and to a uniform consumer failure. Senders' corrections applied (the CRUISE duration datum carries no lean; MARCO's 84% was retracted). |
+| PROME (sent 10/01) | CRL-08 graded MISSED at its 7/06 fire (28%); CRL-27 → CRL-31; STUE rows L152/L153 read; DR-1 card leg requested; cadence WEEKLY | 🟠 | Ledger events forced by WQ-288/WQ-287. The card-leg commission is PROME's to route (Tier 1). |
+| HOMER (sent 10/01, `d9d9eeede`) | 3c handle: V10↔C1+A1 confirmed; V3 re-scope decided 10/05; R3 candidate | 🟡 | HOMER builds 3c by 10/09 with the CARL side labelled. |
+| LABOR (via the docket) | V16 outcome map pre-registered for the 10/02 NFP; R=0 exactly FAILS CARL's letter but passes LABOR's v8 leg | 🔴 | Two different tests on one print; never read as one. |
+| LIQUID / REGINALD | HY 312bp (9/30); CCC 1,157bp (9/29), the FRED-window high; widening reached B | 🟠 | The quality split is still widening; broad HY sits under REGINALD/RED's >320 sustain-3 bars. |
+| RED (staged in `handoff_RED/COUNTER_LOG.md`) | Saving rate re-based Jul 3.0 → 4.6%; MARCO voter-reg half relabelled NEUTRAL | 🟠 | Aggregate counter-evidence to broad fragility. The cohort holding the savings is unidentified. |
 
 **WAITING FOR:**
 
 | From | Input | Expected by | Why it matters | How it changes my view |
 |---|---|---|---|---|
-| OTTO / EDGAR | EART August 10-Ds (deep tier) | ~9/30 | Completes the August card | August already cannot count toward L3 (broad 0/3). The card states the WQ-151 letter first. |
-| LABOR | September NFP + net revisions | 10/2 | V16 drop-back print 2 of 2 | Positive with net up-revisions → 4→3 candidate (WQ-182 ratified). |
-| STUE | ES-01/04/06 grades on FSA FY26-Q3 | 10/2 (CARL docket check) | Cure-vs-inflow split behind slowing default growth | Durable cures weaken V4; collapsing cures strengthen it. |
-| CARL (own) | DR-1 private-book leg decision (card / private-label auto) | 10/9 | DR-1 PARTIAL under WQ-104 until a private leg lands | FHA leg delivered 8/27 (260bps); book-weighted 97.4bps; neither kill nor pass yet. |
-| Will / PROME | WQ-228 BaaS owner | Overdue since 9/14 | Charter boundary | A REGINALD recommendation is not an assignment. |
+| LABOR / BLS | September NFP + net Jul–Aug revisions | Fri 10/2 08:30 | V16 drop-back print 2 of 2 | A (S>0, R>0) → 4→3 candidate to Will; anything else resets the count. |
+| DEWEY | DR-3 AZO/ORLY cross-section | in flight 10/01 | Kill = CRL-31 confidence cut | Applied as prominently as a confirm. |
+| PROME / DEWEY | DR-1 card leg (issuer FDM tables) | proposed 11/13 | DR-1 PARTIAL until a private leg lands | Wedge vs the 50bps class-wide kill. |
+| FSA | Data Center refresh with 9/30 data | ~mid/late Dec (inferred) | First public proxy for CRL-13 (a stock, not a wave rate) | Non-selection read; RAP enrollment. |
+| STUE | ES-01/04/06 grades | 10/2 | Cure vs inflow behind slower default growth | STUE dark; CARL flags or spawns it. |
 
 ## VIEW
 
-- Fuel: AAA $4.4825 (9/24), the highest ever for late September; EIA weekly $4.478 (w/e 9/21); diesel at a record. Brent spot is ~12% off its 9/15 high, but the Brent 3:2:1 crack spread has been above $50 since 9/15, so pump relief may lag.
-- Against the thesis: BofA sees lower- and higher-income discretionary card spending growing alike (+5.7% vs +5.9%, August 3mma YoY); VantageScore delinquencies were flat to better YoY in August; student-default stock growth slowed sharply in Q2.
-- For the thesis: KBRA non-prime auto loss rate +67bp MoM in August; V2 broad tier stopped improving; 3.5M federal borrowers 30+ days late (FSA, 6/30); CCC−BB at its widest since at least 2025; FL #1 in foreclosure starts.
-- Fed: 9/16 presser reviewed. No easing signal; dots imply one more hike. V12 stays 5, un-fire 0 of 2.
+- Fuel: GASREGW $4.465 (w/e 9/28), down 1.3¢, the first weekly decline since at least 8/31; it never printed ≥$4.50 in Aug–Sep. Diesel stays near records. CRL-08 is closed (MISSED, resolved 7/06).
+- Against the thesis: the saving rate re-based to 4.6% (Jul) / 4.1% (Aug); BofA's closed card-spending K; flat-to-better VantageScore DQ; slower student-default growth; claims 197K.
+- For the thesis: the CCC split at FRED-window highs; KBRA non-prime auto losses up; 3.5M federal borrowers 30+ late; FL #1 in foreclosure starts; August's 0.5pp saving drawdown as spending outran income.
+- Student loans: wave-1 SAVE deadlines passed 9/29 with no public selection count. The one easing lever (1% auto-pay cut) had its deadline extended to 12/31.
 - Score unchanged does not mean evidence unchanged; each observation carries its own date and basis in STATUS.
 
 ## CALIBRATION
@@ -46,24 +43,22 @@
 - **Cross-agent tensions known to me:** BofA's closed-K reading versus CARL's V8 "converging downward" framing. It is unresolved: BofA's customer-base and withholding caveats are real, but it is primary data against the thesis. CRUISE/MARCO counter-evidence is staged to RED, not scored.
 - **Uncertain about:** whether slower default growth reflects cures or fewer new defaults; bottom-cohort spending beneath aggregates; auto extension behaviour; how fast the pump follows crude down.
 - **DR-5 (9/24): causal adjudication UNRESOLVED, not scored** (relabelled 9/24 late from "scored strike" on CATO AP1). Grocery units are still NOT used as cyclical evidence. The pre-registered cycle test (state volume vs state UR) could not be run: the substitute is a low-power null, policy could reach ~64% on a unit basis (passes half at ≥1.17×; DEWEY dc1bddd37), and the fuel mechanism is unmapped. KB-CARL-498.
-- **Failure patterns:** threshold vs mechanism; stock vs flow; same-deal YoY includes pool ageing; re-pricing just before resolution flatters Brier (deliberately avoided on CRL-08). CRL-05's 13.74% bar is DEAD; CRL-30 uses FLOW.
+- **Failure patterns:** threshold vs mechanism; stock vs flow; same-deal YoY includes pool ageing; re-pricing just before resolution flatters Brier (avoided on CRL-08, which scored at its pre-fire 28%, not the 7% walk). CRL-05's 13.74% bar is DEAD; CRL-30 uses FLOW.
 - **RED counter-frame:** the evidence that moved most this week is counter-evidence. Coarse triggers can hold 53/70 while evidence weakens; that does not license dismissing it.
 
 ## NEXT DECISION POINT
 
-- **What / when:** CRL-08 resolves MISSED on Wed 9/30 — Will ruled the sustained bar governs (WQ-281, 9/24 13:17 ET).
-- **What changes the view:** a V2 downgrade still needs two consecutive qualifying collection months in both tiers, and August is already out. V16 moves on the 10/2 NFP.
+- **What / when:** Fri 10/2 NFP → V16 branch grade on the pre-registered map; Mon 10/5 thesis-scope review (V3 re-scope, five UNREVIEWED releases, saving-rate re-base).
+- **What changes the view:** V16 4→3 is a candidate to Will only under outcome A. A V2 downgrade still needs two qualifying collection months in both tiers.
 
 ## WATCH (next 2–4 weeks)
 
 | Date | Event | Threshold / signal |
 |---|---|---|
-| 9/25 | UMich final | 1Y 4.6% prelim reversal holds? |
-| 9/28 | GASREGW w/e 9/28; Census retail revisions | Last weekly print in the CRL-08 window |
-| 9/29 | Carnival Q3; SAVE→RAP first deadlines; Conference Board | Discounting reaching realised price?; CRL-13/28 windows open 10/1 |
-| 9/30 | CRL-08 close; EART August 10-Ds; BEA August PCE/income + Q2 GDP third | CRL-08 graded MISSED (sustained bar, WQ-281); V2 card; saving rate vs 3% |
-| 10/2 | September NFP | V16 drop-back 2 of 2 |
-| 10/5 | **Thesis-scope review** (Will-directed) | Broad fragility vs bottom-tier credit stress; structural change → Will |
-| 10/14–15 | September CPI / retail | Fuel transmission and spending response |
+| 10/2 | September NFP | V16 drop-back 2 of 2 (map on CATALYSTS) |
+| 10/5 | **Thesis-scope review** | Broad fragility vs bottom-tier credit; structural change → Will |
+| 10/14 | September CPI; AFT v. ED status conference | CRL-10 food (beef, diesel freight deferrals); SAVE backlog figure? |
+| 10/15 | September retail sales | Spending response |
+| ~10/20 | Q3 issuer prints; CRL-29 first grade; DHI FQ4 | CRL-20/21 + first CRL-31 check; DR-1 auto leg; CRL-23 |
 
-**Delivery:** local commits only at the time of writing; the push receipt goes in the closeout report. Consistency 0 hard / 6 soft; read-cap rc 0 (STATUS rotated to 22,731 B); roadmap index clean. Research-retirement sweep NOT RUN, so this closeout is PARTIAL on that obligation.
+**Delivery:** see the 10/01 memo `PROME/inbox/2026-10-01_from-CARL_due-rows-drain-completion.md` for checks and the push receipt. The research-retirement sweep was NOT RUN, so this closeout is PARTIAL on that obligation.
