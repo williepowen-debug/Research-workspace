@@ -50,6 +50,15 @@ SPECIAL = {
     "RAV":      "Deep factual/analytical reviewer + bounded repair (Codex, Will-driven)",
 }
 SPECIAL_HDR = ("SPECIAL — meta / cross-fleet (on-demand)", "\U0001F535")
+# SPECIAL agents UNGRADED BY RULING: in ROSTER § SPECIAL but carrying NO FLEET_MAP row (no maturity
+# ladder). CATO: Will-ruled SPECIAL 2026-09-26 13:07 ET (WQ-255) — "my manual adviser and independent
+# reviewer, without automatic launch or signal-routing eligibility"; ROSTER row says "no maturity-ladder
+# row". Rendered in the SPECIAL table with '—' grades and the ruling as its Missing/next cell. GUARD:
+# an agent here that GAINS a FLEET_MAP row dies loud — the ruling, not a hand edit, would have to change.
+SPECIAL_UNGRADED = {
+    "CATO": ("Will's manual Codex/Astra adviser + independent reviewer",
+             "UNGRADED BY RULING (WQ-255, 2026-09-26): manual-only — no launch, no routing, no ladder row"),
+}
 
 # ROSTER sections this renderer DELIBERATELY does not render. Derived by enumerating
 # PROME/ROSTER.md's '## ' headings 2026-08-19, not guessed. An unlisted section is a
@@ -194,6 +203,10 @@ def main():
 
     # Reliability guard: every FLEET_MAP agent absent from ROSTER tables MUST be handled.
     fleet_only = set(fleet) - set(roster)
+    graded_ungraded = sorted(set(SPECIAL_UNGRADED) & set(fleet))
+    if graded_ungraded:
+        die(f"{graded_ungraded} carry a FLEET_MAP row but are UNGRADED BY RULING (SPECIAL_UNGRADED) — "
+            "remove the row, or get the ruling changed and move the agent to SPECIAL")
     unhandled = fleet_only - set(SPECIAL) - DROP
     if unhandled:
         die(f"unhandled FLEET_MAP-only agent(s) {sorted(unhandled)} — add to SPECIAL map or DROP set "
@@ -276,6 +289,9 @@ def main():
             die(f"SPECIAL agent {a!r} not in FLEET_MAP — cannot render its grade")
         klass, lvl, conf, scored, nxt = fleet[a]
         L.append(row(a, klass, lvl, conf, scored, does, truncate(nxt)))
+    for a, (does, why) in SPECIAL_UNGRADED.items():
+        L.append(row(a, "—", "—", "—", "—", does, why))
+    counts["SPECIAL"] += len(SPECIAL_UNGRADED)
     L.append("")
 
     L.append("---")

@@ -60,6 +60,14 @@ JUDGMENT_ONLY = {
            "is undefined for it, so a scanned 'L0' would be a false gap, not a finding.",
 }
 
+# LIVE agents with NO grade BY RULING (no FLEET_MAP row, no ladder) — announced, never silently
+# dropped (PAT-074). CATO: ROSTER § SPECIAL, Will 2026-09-26 13:07 ET (WQ-255). Before 2026-10-01 CATO
+# vanished from this scan without a word: it has no CLAUDE.md/STATUS.md, so agent_dirs() skipped it.
+NOT_GRADED_BY_RULING = {
+    "CATO": "SPECIAL by Will's ruling (WQ-255, 2026-09-26): manual adviser/independent reviewer — "
+            "no launch, no routing, no maturity-ladder row. Not graded by any instrument, by ruling.",
+}
+
 # Subtrees that are NOT live artifacts — pruned from recursive artifact detection (PAT-020).
 EXCLUDE_DIRS = {"archive", "_archive", "sources", "processed", "delivered",
                 "inbox", "outbox", ".git", "node_modules"}
@@ -297,7 +305,8 @@ def proposed_level(s):
     return base
 
 def main():
-    rows = [scan(n) for n in agent_dirs() if n not in SKIP and n not in JUDGMENT_ONLY]
+    rows = [scan(n) for n in agent_dirs() if n not in SKIP and n not in JUDGMENT_ONLY
+            and n not in NOT_GRADED_BY_RULING]
     rows.sort(key=lambda r: (r["class"], -(r["commits_30d"] or 0)))
     # Announce what was deliberately NOT graded (PAT-074) — in BOTH output modes.
     # ⚠️ Enumerate from the FILESYSTEM, not agent_dirs(): that helper requires a CLAUDE.md or
@@ -307,6 +316,8 @@ def main():
     # same shape as the WATT/MIDAS/VULCAN boot.py rc-blindness fixed 7/31).
     excluded = sorted(n for n in JUDGMENT_ONLY
                       if os.path.isdir(os.path.join(AGENTS, n)))
+    ruled = sorted(n for n in NOT_GRADED_BY_RULING
+                   if os.path.isdir(os.path.join(AGENTS, n)))
     if "--tsv" in sys.argv:
         print("Agent\tClass\tFloor\tProposed\tNeedsRead\tStatusLines\tKB\tPredResolved\tTrade\tTradePath\tDaysBehind\tCommits30d")
         for r in rows:
@@ -316,6 +327,8 @@ def main():
                   f"\t{r['trade_path']}\t{r['days_behind']}\t{r['commits_30d']}")
         for name in excluded:
             print(f"{name}\t-\tNOT-GRADED\tjudgment-only\t-\t-\t-\t-\t-\t-\t-\t-")
+        for name in ruled:
+            print(f"{name}\t-\tNOT-GRADED\tby-ruling\t-\t-\t-\t-\t-\t-\t-\t-")
         return
     print(f"# Fleet maturity scan (objective layer) — {len(rows)} agents · HEAD-relative staleness\n")
     print("| Agent | Class | Floor | →L3-5? | 30d | Conformance gaps |")
@@ -326,6 +339,8 @@ def main():
               f"| {r['commits_30d']} | {r['gaps']} |")
     for name in excluded:
         print(f"| {name} | — | **NOT GRADED** | judgment-only | — | {JUDGMENT_ONLY[name]} |")
+    for name in ruled:
+        print(f"| {name} | — | **NOT GRADED** | by ruling | — | {NOT_GRADED_BY_RULING[name]} |")
     print("\n_Floor = objective structural presence (L0 skeleton · L1 live STATUS · L2 +structured record). "
           "→L3-5? = mechanical hint; **every L3+ is PROVISIONAL (⚠needs-read) until DAEDALUS reads the agent** "
           "(PAT-009/PAT-020). Artifact detection is recursive (live subtrees only). "

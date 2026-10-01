@@ -25,7 +25,9 @@ Root `CLAUDE.md` makes CORAL↔MARCO a deliberate overlap (*"reconcile shared me
 | **CORAL** | `STATUS_DETAIL.md:49` Migration (7) pillar | **+178,674**, "but **−57% YoY**" | ❌ **none on the intl figure** |
 
 **They are the same series at different vintages, and they are arithmetically consistent:**
-`178,674 / 411,000 = 0.4347` ⇒ **−56.5% YoY**, against CORAL's stated **−57%**. CORAL is carrying the **2025** print; MARCO's canonical row is the **2024** print. **The numbers corroborate each other — they do not conflict.**
+`178,674 / 411,000 = 0.4347` ⇒ **−56.5% YoY**, against CORAL's stated **−57%**. CORAL is carrying the **2025** print; MARCO's canonical row is the **2024** print. ~~The numbers corroborate each other — they do not conflict.~~ *(WRONG — cross-vintage; see the note below)*
+
+> ⚠️ **SUPERSEDED 2026-10-01 (CORAL consumer-check packet 9/28; MARCO caught it 9/24; CORAL re-verified at Census `NST-EST2025-ALLDATA.csv` 9/28):** the reconciliation above is **CROSS-VINTAGE** — 411,000 is Vintage-2024's estimate of 2024; Vintage 2025 revises 2024 to **+283,664** ⇒ the same-vintage 2025 change is **−37.0%**, not −56.5%. "The numbers corroborate" was two desks checking one inherited baseline. Do not cite −56.5%/−57% as the same-vintage YoY. *(The test fixture `scripts/tests/fixtures/profile_clock/CORAL.md:28` is a frozen fixture and is deliberately left as is.)*
 
 ⚠️ **I nearly shipped the opposite finding.** On first read this looks like CORAL carrying a figure **2.3× smaller** than the desk it explicitly names as canonical — a headline cross-desk defect. The reconciling term was sitting inside CORAL's own cell (`−57% YoY`) and I had to do the arithmetic to see it. `[[finding_apparent_confabulation_is_often_a_baseline_mismatch]]` — check the baseline before crying discrepancy.
 
