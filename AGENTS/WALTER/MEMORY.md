@@ -76,6 +76,8 @@
 35. **Before routing an ask at an owner's ROW, read that FILE's header for a FROZEN banner. A grep hit in a frozen ledger reads exactly like a live row.** 9/28: `-010` told BRENT its SPR basis was ~411M and 125M stale, citing KB-BRT-152/VX-BRT-13. Both files are bannered "FROZEN 2026-07-01, do NOT cite rows here as current", and BRENT's live 284.552M was already in TRACKER. BRENT caught it the same hour; the claim reached Will on Telegram and was corrected. Root CLAUDE.md § Data Hygiene already says ledgers can be FROZEN; the trip that was skipped is `head -2` on the file before quoting a row as the owner's current basis. → `[[finding_plausible_stale_value_evades_review]]`
 
 
+38. **A Google-News OR-chain is NOT a union: the combined query can return FEWER items than its biggest single leg, and a whole leg can vanish.** 10/01 sizing of PROME's drafted lane rows: D 12 combined vs "Delaware Life" alone 15; E 4 combined vs "PHL Variable" alone 7, with "Egan-Jones" (6 alone) absent from the combined row. **Size every leg alone before landing a multi-leg row; prefer one row per leg.** Same family as #30–#31 (the lane's query and matcher shape what can be seen). Also measured the same day: an unquoted multi-word term binds as AND inside an OR chain (HANS ③ `"TTF" gas price OR …` fetched 7/week vs 72 when every leg is quoted). → `research/2026-10-01_R3/PROME-lane-queries-A-E-sizing.md`, `…/HANS-lane-query-sizing.md`
+
 **✅ RETIRED 2026-09-01 — the two-branch-test-sharing-a-premise finding (2026-08-03) is PLACED:** PROME landed it as the n=5 extension of `[[finding_enumerated_mechanism_test_hides_a_completeness_claim]]` (8/31 night, packet filed to WALTER 9/1) and the test now sits in bold in `FORGE/PREDICTION_DISCIPLINE.md` § Registration. *(Was: "owed, not placed — WALTER cannot file to a PROME-owned surface." The obligation discharged the way it was supposed to: a packet, then the owner's write.)*
 
 ## References
@@ -87,16 +89,17 @@
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION — 2026-09-30 Wed, Full WALTER (Claude Opus 5.5, `walter-36`, booted ~18:26 ET; box crash ~19:53 ET, resumed), Tier-2 ~21:0x ET
+### CHANGES SINCE LAST SESSION — 2026-10-01 Thu, Full WALTER (Claude Opus 5.5): morning `walter-54` (laptop, Tier-1) + desktop `walter-90` (booted 12:12 ET), Tier-2 ~13:2x ET
 
-- **BOARD 1105 → 1112 (`-001`…`-007`), 18 handoffs, all on origin.** Boot: `-001` August PCE → CARL (July saving rate 3.0 → 4.6% by BEA's annual update) · `-002` HY 308 [9/29], 12bp under >320 s3 · `-003` MOFCOM 1/10 in writing, no instrument · `-004` CREED Trepp self-storage. Will's 8-image Telegram batch BM-20260930-01 (closed 8/8 after the crash): `-005` Abqaiq-area OSINT plume **HYPOTHESIS** → FALCON (no primary; FAL-01 not fired) · `-006` diesel squeeze + MRPL → BRENT · `-007` Radiant World / Jefferies → BROCK.
-- **Repaired first:** 9/29 post-closeout `-0929-014`…`-016` + the CREED named-case feed (#29 n=5, caught by the BOARD-count check).
-- **Crash recovery:** PROME snapshot `ea0758028` matched the disk; `-007` re-read whole before use (intact). The post-refresh batch re-ran Tier 1 on its own output (`ad66e0ad3`), i.e. #29's remedy applied.
-- **Tier-2:** REGISTRY 11 rows refreshed (rotate-tier 76% → 70%) · NETWORK AWARENESS regenerated · size checks run (anchor 23,802 B, 610 B under trigger) · version drift clean · doctor 0 HIGH / 4 MED.
+- **BOARD 1112 → 1132.** Morning: Iran full sweep `-001`…`-003` → FALCON; R3 test of all 19 owner sets. Desktop: SAM MOF weekly bar `-004` (+ `-006` correction: both sums true on different MOF vintages) · LIQUID LIQ-07 fired `-005` · DEWEY CARL-DR-3 `-010` · HANS owner return `-011` · **Will's five Telegram batches BM-20261001-01…05 (39 images, 36 items, all closed): 12 dispatched (`-007`…`-009`, `-012`…`-020`), 8 killed.**
+- **R3 / lane:** OZK, CARL, SHADE live harness verdicts, all decided by name and landed by PROME; HANS lane-query sizing (③ broken as written); PROME A–E sizing (#38).
+- **Tool:** `walter_doctor` `_recipient_board_log()` reads `<stem>_archive*` beside the live ledger (CARL rotation unblocked, fixture-tested).
+- **Own errors, caught:** (1) `-004` said SAM's sums "did not reproduce"; they were right on revised MOF data → `-006`. (2) A placeholder commit hash ("1ec…") went to SAM in a message, corrected within a minute (13629bff8). (3) Batch counts mis-stated in the first STATUS draft (38/34 → 39/36), fixed before commit.
+- **Tier-2:** REGISTRY 17 rows refreshed · NETWORK AWARENESS regenerated · DOORBELL_LOG +6 · HANS THRESHOLDS.tsv 96% packet (it IS a whole read at 6b).
 
 ### NEXT SESSION
 1. `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS = the complete obligation list.
-2. **Boot check first: STATUS BOARD count (1112) vs INDEX count.** A gap means post-closeout work (#29).
-3. 🔴 **Thu 10/01 FIRST: re-check `-005` (Abqaiq-area plume) for a Saudi/Aramco/CENTCOM/wire primary.** A confirmed hit re-routes IMMEDIATE; then the Iran FULL sweep.
-4. **R3 watch-phrase test: WAKE Thu 10/01, deadline Fri 10/02 (DOCKET L543)** — 13 held packets + ZHAO's 9 terms.
-5. FRED 9/30 HY vs >320 (12bp at 308) · claims · ISM · Trepp Sept print (CREED-T-01a / REG-T-07; owners grade).
+2. **Boot check first: STATUS BOARD count (1132) vs INDEX count.** A gap means post-closeout work (#29).
+3. **Fri 10/02:** NFP (LABOR card armed) · FRED 10/01 HY vs >320 (8bp at 312) · UK 30Y close vs 6.00 (HANS's) · EA HICP flash (HANS T-15).
+4. BRENT dark with `-008` + `-019` ACTION; AEOLUS with `-020`.
+5. Re-size HANS lane queries ①③ at the first lane run (PROME landed them as `when:7d ( … )`).
