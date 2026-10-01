@@ -1,0 +1,84 @@
+{
+  "blob": "860896e1379462c4efef152accbd202d927f8979",
+  "desk": "OZK",
+  "grading": {
+    "eligibility": "UNKNOWN",
+    "evidence": [],
+    "p_recorded_grade": null,
+    "pending": false
+  },
+  "history_candidates": [
+    {
+      "at_file_birth": false,
+      "blob": "9b712c9cc760f5d838d9209dfb09fed1da787abc",
+      "claim_versions_in_path": 1,
+      "commit": "48c238c34b623b497fe363838ae977e4cefe1207",
+      "commit_time": "2026-07-04T19:10:06-04:00",
+      "duplicate_id_at_first_commit": false,
+      "file_birth_commit": "07d6e6d8c0b72bd6fdd0350455855395c941afc5",
+      "p": 0.5,
+      "path": "AGENTS/OZK/workbook/PREDICTIONS.tsv",
+      "source": {
+        "fields": [
+          "OZK-05",
+          "2026-07-04",
+          "OZK Q2'26 annualized NCO >55bps (reported basis) — stays above the ≤55bps thesis kill-line, does not retreat to the ~50bps mgmt guide",
+          "50%",
+          "Q2 2026 (resolves Jul 21 2026)",
+          "OPEN",
+          "",
+          "",
+          "Q2 NCO ≤55bps at Jul-21 print",
+          "THRESHOLD / kill-line (Invalidation §2). Q1'26=0.56% (56bps, Call Report), 1bp above line. Two-sided: recognition tempo (past-due doubled→$487.5M) argues UP; pre-IQHQ posturing + buyback/dividend confidence-signaling + NCO lumpiness argue mgmt holds charge-offs down until Aug. Anchored to surprise vs ~50bps guide."
+        ],
+        "header": [
+          "Pred_ID",
+          "Date_Made",
+          "Prediction",
+          "Confidence",
+          "Timeframe",
+          "Status",
+          "Date_Resolved",
+          "Outcome",
+          "Invalidation",
+          "Notes"
+        ],
+        "id": "OZK-05",
+        "record": 6,
+        "valid": true
+      }
+    }
+  ],
+  "path": "AGENTS/OZK/workbook/PREDICTIONS.tsv",
+  "pin": "e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0",
+  "pred_id": "OZK-05",
+  "source": {
+    "fields": [
+      "OZK-05",
+      "2026-07-04",
+      "OZK Q2'26 annualized NCO >55bps (reported basis) — stays above the ≤55bps thesis kill-line, does not retreat to the ~50bps mgmt guide",
+      "50%",
+      "Q2 2026 (resolves Jul 21 2026)",
+      "RESOLVED",
+      "2026-07-21",
+      "TRUE",
+      "Q2 NCO ≤55bps at Jul-21 print",
+      "THRESHOLD / kill-line (Invalidation §2). Q1'26=0.56% (56bps, Call Report), 1bp above line. Two-sided: recognition tempo (past-due doubled→$487.5M) argues UP; pre-IQHQ posturing + buyback/dividend confidence-signaling + NCO lumpiness argue mgmt holds charge-offs down until Aug. Anchored to surprise vs ~50bps guide. | STAGE-1 GRADE 7/21: Q2 ann NCO 0.69% [Mgmt Comments] >55bps kill-line (Z6; NCO $56.3M, 4 RESG office/life-sci partial c/o $49.3M) -> TRUE. Brier (0.50-1)^2=0.25."
+    ],
+    "header": [
+      "Pred_ID",
+      "Date_Made",
+      "Prediction",
+      "Confidence",
+      "Timeframe",
+      "Status",
+      "Date_Resolved",
+      "Outcome",
+      "Invalidation",
+      "Notes"
+    ],
+    "id": "OZK-05",
+    "record": 6,
+    "valid": true
+  }
+}

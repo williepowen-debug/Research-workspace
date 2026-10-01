@@ -1,0 +1,84 @@
+{
+  "blob": "ae6f4ca781489c874547d417279a2e43e33cffe7",
+  "desk": "CREED",
+  "grading": {
+    "eligibility": "UNKNOWN",
+    "evidence": [],
+    "p_recorded_grade": null,
+    "pending": false
+  },
+  "history_candidates": [
+    {
+      "at_file_birth": true,
+      "blob": "b78533fe2114e807215334bc1e2840b96410eb26",
+      "claim_versions_in_path": 2,
+      "commit": "43639b22c4948ec2f91b95e737436d10674207bf",
+      "commit_time": "2026-07-27T14:37:07-04:00",
+      "duplicate_id_at_first_commit": false,
+      "file_birth_commit": "43639b22c4948ec2f91b95e737436d10674207bf",
+      "p": 0.65,
+      "path": "AGENTS/CREED/workbook/PREDICTIONS.tsv",
+      "source": {
+        "fields": [
+          "PRED-CREED-006",
+          "2026-07-27",
+          "The MBA Q2 2026 CM/MF print shows the LIFE-INSURER holdings line rising by MORE than the Q1 pace of +$3.3B",
+          "65%",
+          "Q2 MBA print",
+          "MBA Commercial/Multifamily Mortgage Debt Outstanding, Q2 2026 (~mid-Sept 2026)",
+          "OPEN",
+          "—",
+          "—",
+          "FALSIFIABLE TEST OF THE FAST-TO-SLOW MIGRATION THESIS (FLOW-CREED-08). The ARI->Athene ~$9B closed 2026-04-24, i.e. INSIDE Q2. If that book lands in the CM/MF life-insurer line it should swamp a +$3.3B run-rate. If the line does NOT move materially, then either the book sits outside this series (possible — classification of a whole-loan portfolio purchase by an annuity writer is not guaranteed to land in CM/MF) or CREED's read on where it landed is wrong. EITHER OUTCOME IS INFORMATIVE — pre-registered deliberately. -> SHADE."
+        ],
+        "header": [
+          "Pred_ID",
+          "Date_Made",
+          "Prediction",
+          "Confidence",
+          "Timeframe",
+          "Resolves_On",
+          "Status",
+          "Date_Resolved",
+          "Outcome",
+          "Notes"
+        ],
+        "id": "PRED-CREED-006",
+        "record": 8,
+        "valid": true
+      }
+    }
+  ],
+  "path": "AGENTS/CREED/workbook/PREDICTIONS.tsv",
+  "pin": "e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0",
+  "pred_id": "PRED-CREED-006",
+  "source": {
+    "fields": [
+      "PRED-CREED-006",
+      "2026-07-27",
+      "The MBA Q2-2026 CM/MF print shows the LIFE-INSURER holdings line rising by >= +$10.0B, measured as the QoQ change AS PRINTED IN THE Q2-2026 RELEASE ITSELF (not derived by subtracting a previously-recorded stock)",
+      "30%",
+      "Q2 MBA print",
+      "MBA Commercial/Multifamily Mortgage Debt Outstanding, Q2 2026 (~mid-Sept 2026)",
+      "RESOLVED-FALSE",
+      "2026-09-29 (MBA Q2 release; graded 2026-09-29)",
+      "FALSE -- correct side. MBA Q2-2026 life-insurer CM/MF change AS PRINTED = +$7,830M (+1.0%) < +$10.0B. Brier (0.30-0)^2 = 0.09.",
+      "Graded on the by-sector TABLE (+$7,830M). The p.11 chart's 20,523 does NOT reconcile and is not the basis. Joint read with 010: neither partial landing nor bad instrument established. FULL NOTES -> notes/PREDICTIONS_NOTES.md §PRED-CREED-006 (crc32 74fea7f9)."
+    ],
+    "header": [
+      "Pred_ID",
+      "Date_Made",
+      "Prediction",
+      "Confidence",
+      "Timeframe",
+      "Resolves_On",
+      "Status",
+      "Date_Resolved",
+      "Outcome",
+      "Notes"
+    ],
+    "id": "PRED-CREED-006",
+    "record": 8,
+    "valid": true
+  }
+}

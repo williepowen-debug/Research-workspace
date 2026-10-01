@@ -1,0 +1,84 @@
+{
+  "blob": "e083fdd9ba96cafdd6ea0b957c8c208056d1412b",
+  "desk": "MIDAS",
+  "grading": {
+    "eligibility": "UNKNOWN",
+    "evidence": [],
+    "p_recorded_grade": null,
+    "pending": false
+  },
+  "history_candidates": [
+    {
+      "at_file_birth": false,
+      "blob": "166320d84ac9a12b45e6977af98ee4eb692b9907",
+      "claim_versions_in_path": 2,
+      "commit": "1cd0f8b378d3e7e569133e9e547b31407a188598",
+      "commit_time": "2026-07-12T15:48:16-04:00",
+      "duplicate_id_at_first_commit": false,
+      "file_birth_commit": "f6199a725d6524dc996d0ebc4bef79c31917f45e",
+      "p": null,
+      "path": "AGENTS/MIDAS/workbook/PREDICTIONS.tsv",
+      "source": {
+        "fields": [
+          "MIDAS-03",
+          "2026-07-12",
+          "M1",
+          "CPI reaction test (GAPS-lens resolver): on US June CPI release (Tue 7/14, 8:30am ET, BLS), if core CPI surprises hot AND same-day real yields (DFII10, published T+1) rise, gold's SAME-DAY (GC=F) reaction sign is mechanically gradable — a fall confirms CONVERGE (extends KB-005), a hold/rise flags a DIVERGE reassertion worth flagging BOND/LIQUID",
+          "2026-07-16",
+          "OPEN",
+          "EMPIRICAL",
+          "sign-check only, no macro-surprise judgment needed: yields up + gold down = CONVERGE extends; yields up + gold flat/up = DIVERGE reasserts, escalate",
+          "same-day GC=F % chg vs same-day DFII10 direction (as published T+1, 7/15) on the 7/14 CPI print",
+          ""
+        ],
+        "header": [
+          "id",
+          "made",
+          "channel",
+          "prediction",
+          "resolve_date",
+          "status",
+          "conf_tier",
+          "if_falsified",
+          "criteria",
+          "resolution"
+        ],
+        "id": "MIDAS-03",
+        "record": 4,
+        "valid": true
+      }
+    }
+  ],
+  "path": "AGENTS/MIDAS/workbook/PREDICTIONS.tsv",
+  "pin": "e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0",
+  "pred_id": "MIDAS-03",
+  "source": {
+    "fields": [
+      "MIDAS-03",
+      "2026-07-12",
+      "M1",
+      "CPI reaction test (GAPS-lens resolver; REFRAMED same day under M1 v2 — THESIS.md round-2 re-derivation): on US June CPI release (Tue 7/14, 8:30am ET, BLS), gold's SAME-DAY (GC=F) reaction sign vs same-day real-yield direction is mechanically gradable. Under v2: yields up + gold down = EXPECTED (re-coupled cyclical layer, v2-consistent); yields up + gold flat/up = v2 kill-condition #3 candidate (premium reassertion — the BIGGER monetary-stress signal), escalate BOND/LIQUID. (v1 framing graded identically but had the interpretation polarity inverted — 'fall confirms correction, rise flags'; under v2 the rise is the anomaly AND the escalation case.)",
+      "2026-07-16",
+      "HIT",
+      "EMPIRICAL",
+      "sign-check only: yields up + gold down = v2-consistent; yields up + gold flat/up = v2 kill-cond #3 early warning (full kill needs 3+wk sustain), escalate BOND/LIQUID",
+      "same-day GC=F % chg vs same-day DFII10 direction (as published T+1, 7/15) on the 7/14 CPI print",
+      "GRADED 7/17 HIT (v2-consistent, mechanism confirmed). CPI 7/14 cool (hdln -0.42% MoM, core 0.0%) yet real yields REFUSED to fall: DFII10 2.36 [7/13 series high] -> 2.33 [7/14, -3bp] -> 2.32 [7/15] (FRED); matches BOND's 86%-real-yield/term-premium read. Gold GC=F +1.60% same-day 7/14 but FELL over the CPI week ($4,104.10 [7/10] -> $3,985.60 [7/16], sub-$4k) = NO debasement-premium reassertion vs series-high real rates. v2 was the REGISTERED version (build-session v0 'gold bid despite rising yields' falsified round-1, re-derived to v2 round-2, MIDAS-03 registered UNDER v2) and is CONFIRMED: gold re-coupled, capped by rates. Branch-coverage caveat: both pre-written branches assumed 'yields UP' on CPI day; actual was -3bp DOWN, so graded on the v2 MECHANISM (premium-reassertion vs re-coupling), not a literal branch (registration lesson: cover both yield directions). v2 kill-cond #3 NOT triggered; NO BOND/LIQUID escalation. Reinforced by WALTER SIG-011: gold broke $4k INTO war escalation via the RATES channel 7/16."
+    ],
+    "header": [
+      "id",
+      "made",
+      "channel",
+      "prediction",
+      "resolve_date",
+      "status",
+      "conf_tier",
+      "if_falsified",
+      "criteria",
+      "resolution"
+    ],
+    "id": "MIDAS-03",
+    "record": 4,
+    "valid": true
+  }
+}

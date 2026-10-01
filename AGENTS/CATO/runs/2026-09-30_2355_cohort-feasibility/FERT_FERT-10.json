@@ -1,0 +1,88 @@
+{
+  "blob": "48c7ded7826a46d6ad372c3cc332c37d285a5d6b",
+  "desk": "FERT",
+  "grading": {
+    "eligibility": "UNKNOWN",
+    "evidence": [],
+    "p_recorded_grade": null,
+    "pending": false
+  },
+  "history_candidates": [
+    {
+      "at_file_birth": false,
+      "blob": "9345e42447a1bc55073af451ff26a41e59879415",
+      "claim_versions_in_path": 1,
+      "commit": "aa3e057fdf8b82488510451e6e3b3410b38a3a23",
+      "commit_time": "2026-08-17T11:30:17-04:00",
+      "duplicate_id_at_first_commit": false,
+      "file_birth_commit": "0087ee84eb4b53cd4c03118bfdc7d9f1ce6bae1b",
+      "p": null,
+      "path": "AGENTS/FERT/workbook/PREDICTIONS.tsv",
+      "source": {
+        "fields": [
+          "FERT-10",
+          "2026-03-20",
+          "India enters emergency/panic purchasing on Gulf supply loss (49% nitrogen from Gulf)",
+          "3/5 convergence score",
+          "2026",
+          "2026-06-30",
+          "HIT",
+          "2026-08-17",
+          "CONFIRMED at scale on the predicted mechanism. IPL emergency tender Apr 2026: 2.5 Mt in a single tender, ~1/4 of annual import requirement, awarded $935/mt CFR west (1.5 Mt) / $959/mt CFR east (1.0 Mt), ~2x the rate of two months earlier",
+          "n/a — graded HIT",
+          "The March desk's single best call and the highest-value one: it named the mechanism, the geography and the trigger, and all three landed. Retained as the model for how a FERT prediction should be written."
+        ],
+        "header": [
+          "ID",
+          "Date",
+          "Prediction",
+          "Confidence",
+          "Timeframe",
+          "Resolve_By",
+          "Status",
+          "Date_Resolved",
+          "Outcome",
+          "If_Falsified_Action",
+          "Notes"
+        ],
+        "id": "FERT-10",
+        "record": 11,
+        "valid": true
+      }
+    }
+  ],
+  "path": "AGENTS/FERT/workbook/PREDICTIONS.tsv",
+  "pin": "e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0",
+  "pred_id": "FERT-10",
+  "source": {
+    "fields": [
+      "FERT-10",
+      "2026-03-20",
+      "India enters emergency/panic purchasing on Gulf supply loss (49% nitrogen from Gulf)",
+      "3/5 convergence score",
+      "2026",
+      "2026-06-30",
+      "HIT",
+      "2026-08-17",
+      "CONFIRMED at scale on the predicted mechanism. IPL emergency tender Apr 2026: 2.5 Mt in a single tender, ~1/4 of annual import requirement, awarded $935/mt CFR west (1.5 Mt) / $959/mt CFR east (1.0 Mt), ~2x the rate of two months earlier",
+      "n/a — graded HIT",
+      "The March desk's single best call and the highest-value one: it named the mechanism, the geography and the trigger, and all three landed. Retained as the model for how a FERT prediction should be written."
+    ],
+    "header": [
+      "ID",
+      "Date",
+      "Prediction",
+      "Confidence",
+      "Timeframe",
+      "Resolve_By",
+      "Status",
+      "Date_Resolved",
+      "Outcome",
+      "If_Falsified_Action",
+      "Notes"
+    ],
+    "id": "FERT-10",
+    "record": 11,
+    "valid": true
+  }
+}

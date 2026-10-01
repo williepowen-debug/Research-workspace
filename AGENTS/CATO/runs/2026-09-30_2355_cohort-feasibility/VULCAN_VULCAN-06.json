@@ -1,0 +1,128 @@
+{
+  "blob": "1bb5cc6157648b02ab89322305bc05952ae2a821",
+  "desk": "VULCAN",
+  "grading": {
+    "eligibility": "UNKNOWN",
+    "evidence": [],
+    "p_recorded_grade": null,
+    "pending": false
+  },
+  "history_candidates": [
+    {
+      "at_file_birth": false,
+      "blob": "9d1f7615ecc094f54621b3ae0e90e318a855b15a",
+      "claim_versions_in_path": 1,
+      "commit": "33b71f8c5c4e621c2a4ed5b8029e6bf017609402",
+      "commit_time": "2026-07-12T17:33:57-04:00",
+      "duplicate_id_at_first_commit": false,
+      "file_birth_commit": "c5c055f82e277c13b426850f754783b39910fc15",
+      "p": null,
+      "path": "AGENTS/VULCAN/workbook/PREDICTIONS.tsv",
+      "source": {
+        "fields": [
+          "VULCAN-06",
+          "2026-07-12",
+          "S3",
+          "The 7/22-7/31 hyperscaler cluster sustains the capex trajectory the WoodMac 55GW high-side demand forecast requires: (i) aggregate FY26 capex guide nets HOLD/RAISE vs the $710-725B baseline AND (ii) ≥2 of the 4 hyperscalers either cite power/energy availability as a constraint or announce new multi-GW datacenter/power commitments on the Q2 calls",
+          "2026-07-31",
+          "OPEN",
+          "PROVISIONAL",
+          "if aggregate guide is CUT or ≥2 names flag capex deceleration: the 55GW path loses its funding basis — S3 demand read reverts to PJM-official-32GW-or-below as the funded ceiling, WoodMac excess likely utility self-report artifact (double-counted/speculative requests); flag WATT with the revised verdict for its P3 row",
+          "(i) summed FY26 capex guides from GOOGL 7/22 + MSFT/META 7/29 + AMZN 7/30 8-Ks/releases vs $710-725B baseline; (ii) count of the 4 Q2 transcripts containing an explicit power/energy-availability constraint statement or a new multi-GW datacenter/power commitment — threshold ≥2",
+          "—"
+        ],
+        "header": [
+          "id",
+          "made",
+          "channel",
+          "prediction",
+          "resolve_date",
+          "status",
+          "conf_tier",
+          "if_falsified",
+          "criteria",
+          "resolution"
+        ],
+        "id": "VULCAN-06",
+        "record": 7,
+        "valid": true
+      }
+    },
+    {
+      "at_file_birth": true,
+      "blob": "1bb5cc6157648b02ab89322305bc05952ae2a821",
+      "claim_versions_in_path": 1,
+      "commit": "28f74d73554bda3105d05b2ce499e9afabc95176",
+      "commit_time": "2026-09-06T12:19:03-04:00",
+      "duplicate_id_at_first_commit": false,
+      "file_birth_commit": "28f74d73554bda3105d05b2ce499e9afabc95176",
+      "p": null,
+      "path": "AGENTS/VULCAN/archive/PREDICTIONS_RESOLVED_2026-09.tsv",
+      "source": {
+        "fields": [
+          "VULCAN-06",
+          "2026-07-12",
+          "S3",
+          "The 7/22-7/31 hyperscaler cluster sustains the capex trajectory the WoodMac 55GW high-side demand forecast requires: (i) aggregate FY26 capex guide nets HOLD/RAISE vs the $710-725B baseline AND (ii) ≥2 of the 4 hyperscalers either cite power/energy availability as a constraint or announce new multi-GW datacenter/power commitments on the Q2 calls",
+          "2026-07-31",
+          "publication",
+          "HIT",
+          "PROVISIONAL",
+          "if aggregate guide is CUT or ≥2 names flag capex deceleration: the 55GW path loses its funding basis — S3 demand read reverts to PJM-official-32GW-or-below as the funded ceiling, WoodMac excess likely utility self-report artifact (double-counted/speculative requests); flag WATT with the revised verdict for its P3 row",
+          "(i) summed FY26 capex guides from GOOGL 7/22 + MSFT/META 7/29 + AMZN 7/30 8-Ks/releases vs $710-725B baseline; (ii) count of the 4 Q2 transcripts containing an explicit power/energy-availability constraint statement or a new multi-GW datacenter/power commitment — threshold ≥2",
+          "HIT (resolved 2026-07-31, confirm-side — the cluster SUSTAINS the 55GW-required capex trajectory): (i) aggregate FY26 capex HELD/RAISE = YES (VULCAN-01 HIT); (ii) >=2 of 4 cite power/energy-availability constraint or announce multi-GW datacenter/power commitments = YES (>=2, likely 3): MSFT 'capacity constrained, demand exceeds available supply' + +1GW added + Fairwater DC + ~$80B power-gated Azure backlog; META 'build tens of gigawatts this decade' (Prometheus/Hyperion multi-GW); AMZN 'still not enough capacity to meet demand.' VERDICT FOR WATT P3: raised capex + power-as-binding-constraint now SUPPORT the WoodMac 55GW HIGH-side, UPGRADING the 7/12 '32GW low-mid funded' read — keep the nameplate-vs-firm caveat (much of 55GW is curtailable/policy-interruptible, DOE 202(c)). Route WATT. Capex root counted once (in VULCAN-01). [KB-043]"
+        ],
+        "header": [
+          "id",
+          "made",
+          "channel",
+          "prediction",
+          "resolve_date",
+          "anchor_type",
+          "status",
+          "conf_tier",
+          "if_falsified",
+          "criteria",
+          "resolution"
+        ],
+        "id": "VULCAN-06",
+        "record": 6,
+        "valid": true
+      }
+    }
+  ],
+  "path": "AGENTS/VULCAN/archive/PREDICTIONS_RESOLVED_2026-09.tsv",
+  "pin": "e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0",
+  "pred_id": "VULCAN-06",
+  "source": {
+    "fields": [
+      "VULCAN-06",
+      "2026-07-12",
+      "S3",
+      "The 7/22-7/31 hyperscaler cluster sustains the capex trajectory the WoodMac 55GW high-side demand forecast requires: (i) aggregate FY26 capex guide nets HOLD/RAISE vs the $710-725B baseline AND (ii) ≥2 of the 4 hyperscalers either cite power/energy availability as a constraint or announce new multi-GW datacenter/power commitments on the Q2 calls",
+      "2026-07-31",
+      "publication",
+      "HIT",
+      "PROVISIONAL",
+      "if aggregate guide is CUT or ≥2 names flag capex deceleration: the 55GW path loses its funding basis — S3 demand read reverts to PJM-official-32GW-or-below as the funded ceiling, WoodMac excess likely utility self-report artifact (double-counted/speculative requests); flag WATT with the revised verdict for its P3 row",
+      "(i) summed FY26 capex guides from GOOGL 7/22 + MSFT/META 7/29 + AMZN 7/30 8-Ks/releases vs $710-725B baseline; (ii) count of the 4 Q2 transcripts containing an explicit power/energy-availability constraint statement or a new multi-GW datacenter/power commitment — threshold ≥2",
+      "HIT (resolved 2026-07-31, confirm-side — the cluster SUSTAINS the 55GW-required capex trajectory): (i) aggregate FY26 capex HELD/RAISE = YES (VULCAN-01 HIT); (ii) >=2 of 4 cite power/energy-availability constraint or announce multi-GW datacenter/power commitments = YES (>=2, likely 3): MSFT 'capacity constrained, demand exceeds available supply' + +1GW added + Fairwater DC + ~$80B power-gated Azure backlog; META 'build tens of gigawatts this decade' (Prometheus/Hyperion multi-GW); AMZN 'still not enough capacity to meet demand.' VERDICT FOR WATT P3: raised capex + power-as-binding-constraint now SUPPORT the WoodMac 55GW HIGH-side, UPGRADING the 7/12 '32GW low-mid funded' read — keep the nameplate-vs-firm caveat (much of 55GW is curtailable/policy-interruptible, DOE 202(c)). Route WATT. Capex root counted once (in VULCAN-01). [KB-043]"
+    ],
+    "header": [
+      "id",
+      "made",
+      "channel",
+      "prediction",
+      "resolve_date",
+      "anchor_type",
+      "status",
+      "conf_tier",
+      "if_falsified",
+      "criteria",
+      "resolution"
+    ],
+    "id": "VULCAN-06",
+    "record": 6,
+    "valid": true
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "blob": "80a557abffcdc67fa03636a818fa5fe4ed045daf",
+  "desk": "HANS",
+  "grading": {
+    "eligibility": "UNKNOWN",
+    "evidence": [
+      {
+        "desk": "HANS",
+        "field": "Notes",
+        "p_recorded_grade": 0.88,
+        "path": "AGENTS/HANS/workbook/PREDICTIONS.tsv",
+        "pred_id": "HNS-05",
+        "quote": "Score the book at 88%",
+        "source_sha256": "bf4dc7a6a573394ac99522213493369bb0a67b2b34cca73841757cd31167069b"
+      }
+    ],
+    "p_recorded_grade": 0.88,
+    "pending": false
+  },
+  "history_candidates": [
+    {
+      "at_file_birth": false,
+      "blob": "73c664e868776cecb1dc78ad9c4b9f85f3218b3b",
+      "claim_versions_in_path": 1,
+      "commit": "b33d305eee631ae0f1b4e26a0f1283838c8e66d5",
+      "commit_time": "2026-08-28T14:20:12-04:00",
+      "duplicate_id_at_first_commit": false,
+      "file_birth_commit": "91c301279f356c1fe64013258c649bfa8a3d7617",
+      "p": 0.75,
+      "path": "AGENTS/HANS/workbook/PREDICTIONS.tsv",
+      "source": {
+        "fields": [
+          "HNS-05",
+          "2026-08-28",
+          "ECB hikes 25bp to 2.50% deposit rate at the Sept 10 2026 Governing Council",
+          "75%",
+          "2026-09-10",
+          "OPEN",
+          "",
+          "",
+          "Resolver: ECB press release ecb.europa.eu/press/pr, 13:45 CET 2026-09-10. Hike to 2.50 = HIT; hold or cut = MISS. ANCHOR TYPE: FIXED CALENDAR DATE (scheduled GovC meeting) - no slip risk. Basis: Jul minutes say the pause is \"not the end of the tightening cycle\"; Sept hike near-consensus among analysts; market prices 2.80% depo by Mar-2027; Aug flash HICP France 2.7 / Spain 4.5 both accelerating on energy. Downside to the call: ECB is explicitly meeting-by-meeting and German services PMI 48.5 is contracting, so a dovish hold on growth grounds is the live alternative."
+        ],
+        "header": [
+          "Pred_ID",
+          "Date_Made",
+          "Prediction",
+          "Confidence",
+          "Timeframe",
+          "Status",
+          "Date_Resolved",
+          "Outcome",
+          "Notes"
+        ],
+        "id": "HNS-05",
+        "record": 6,
+        "valid": true
+      }
+    }
+  ],
+  "path": "AGENTS/HANS/workbook/PREDICTIONS.tsv",
+  "pin": "e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0",
+  "pred_id": "HNS-05",
+  "source": {
+    "fields": [
+      "HNS-05",
+      "2026-08-28",
+      "ECB hikes 25bp to 2.50% deposit rate at the Sept 10 2026 Governing Council",
+      "88% [2026-09-05] (was 75% [2026-08-28])",
+      "2026-09-10",
+      "2026-09-10",
+      "FIXED-CALENDAR-EVENT — scheduled ECB GovC, published annual calendar. NO SLIP RISK. If an EMERGENCY meeting hikes earlier, that resolves it HIT early; grade on the first rate DECISION on or before 9/10, not on the 9/10 date itself",
+      "RESOLVED",
+      "2026-09-10",
+      "HIT",
+      "Resolver: ECB press release ecb.europa.eu/press/pr, 13:45 CET 2026-09-10. Hike to 2.50 = HIT; hold or cut = MISS. ANCHOR TYPE: FIXED CALENDAR DATE (scheduled GovC meeting) - no slip risk. Basis: Jul minutes say the pause is \"not the end of the tightening cycle\"; Sept hike near-consensus among analysts; market prices 2.80% depo by Mar-2027; Aug flash HICP France 2.7 / Spain 4.5 both accelerating on energy. Downside to the call: ECB is explicitly meeting-by-meeting and German services PMI 48.5 is contracting, so a dovish hold on growth grounds is the live alternative. | 📌 PRE-REGISTERED 2026-08-28 at thesis/ECB_2026-09-10_PREREGISTRATION.md, 13 days before the decision and before the Sept-1 flash HICP. Carries rival hypotheses H1-H4 with priors, a pre-committed HICP-conditional prior update, and the TACTICAL-vs-REGIME discriminator that is the actual informative content. ⚠️ RECORDED INCONSISTENCY: H1+H3 both resolve this row HIT, so the honest book number is 81%, not the 75% registered here. The row grades as written at 75%; the discrepancy is visible in the pre-registration rather than quietly restated. | 🔴 2026-09-05 APPENDIX A: the Sept-1 EA flash HICP printed 3.3% (>= the pre-committed 3.2% branch) so the section 3a rule moves H1 75% -> 88%. APPLIED AS WRITTEN. ⚠️ BUT ITS STATED READING IS FALSIFIED: section 3a's >=3.2% branch reads 'broadening beyond energy' and the composition is the OPPOSITE - energy 14.3% (from 10.3%) did all the work while services 3.0% (from 3.3%) and core 2.4% (from 2.5%) BOTH decelerated. The rule was right for the wrong reason and my below-consensus case is STRENGTHENED, not weakened. Written fresh today the branch would read ~80%, not 88%. Grading (CORRECTED 2026-09-05 via Codex/PROME, section B5-bis): THREE SEPARATE AXES, do not fuse them. (1) OUTCOME: hike=HIT, hold/cut=MISS. (2) RATIONALE QUALITY: FAIL, already determined BEFORE the outcome and FAIL IN BOTH BRANCHES - section 1 rested on two misread PMI flashes and a France-stagnated claim refuted at Eurostat primary. (3) CALIBRATION: NOT ASSESSABLE at n=1 - a single outcome cannot show an 88% was mis-calibrated; the 88% enters the book and calibration is scored across resolved predictions. The earlier wording 'the CONFIDENCE grades POOR' fused all three and is struck. Consensus is 98.9% priced (LSEG) and 65/65 in the Reuters poll, so 88% is still deliberately below. Section 3b (tactical-vs-regime) and 3c falsifier anchors UNCHANGED and must be graded beside the binary. | 🔴 GRADED 2026-09-10 at PRIMARY (ECB mp260910~314e508016 + the combined decisions-and-statement PDF ds260910~fbf0ab9b8d, both read at the issuer): ECB raised all three key rates 25bp — deposit 2.50 / refi 2.65 / marginal 2.90, DECIDED 9/10, EFFECTIVE 2026-09-16. AXIS 1 OUTCOME = HIT. AXIS 2 RATIONALE-QUALITY = FAIL, pre-committed before the outcome and FAIL in both branches (section B5-bis); a HIT does not launder it, and today the issuer added a FOURTH refutation of the section 1 growth leg — staff GROWTH revised UP for 2026 AND 2027 (0.9/1.4/1.5) mainly reflecting the greater than expected resilience of the euro area economy\". AXIS 3 CALIBRATION = NOT ASSESSABLE at n=1, no verdict issued in either direction. Section 4.1 cowardice test does NOT fire — it is conjunctive on REGIME framing and the framing was tactical. | 🔑 SECTION 3b GRADED BESIDE THE BINARY per section 5 — VERDICT TACTICAL 3 markers to 1: wages \"do not show a material response to the energy shock at this stage\" (CPE 3.3 from 3.5; ULC 2.6 from 3.5; unit PROFITS 0.3 -> 2.2, so the MARGIN channel carries the pass-through, not the wage channel) = TACTICAL; second-round effects appear only conditionally in the RISK section = TACTICAL; guidance verbatim unchanged \"data-dependent and meeting-by-meeting\", \"not pre-committing to a particular rate path\" = TACTICAL; ONLY the 2027/2028 projection revision fired REGIME. ⇒ A hike with TACTICAL framing does NOT confirm the term-premium thesis, recorded as the verdict even though the binary hit. ⚠️ AND THE ONE REGIME MARKER IS COMPOSITION-REFUTED: the ECB attributes the upward revision to energy pass-through plus an improved growth outlook, not to entrenchment — the SECOND instance of [[finding_headline_keyed_conditional_inherits_its_composition]] on this same pre-registration in nine days (Appendix A was the first). Graded as written at 3-1; the registered forward-only fix is that every discriminator row carries a TRIGGER **and** a COMPOSITION TEST and their disagreement is the finding. | SECTION 3c FALSIFIERS — NONE TRIGGERED, read off the Appendix-A pre-committed anchors (Bund ~3.35, IT-DE ~85bp, FR-DE ~85.5bp), not the 8/28 registration levels: Bund ROSE to 3.45-3.49 (TE 3.4879 +4.98bp; ideal-investisseur 3.45), highest since April 2011, so \"hike AND the Bund FALLS materially\" did not fire; IT-DE ~86.6bp (+1.6) and FR-DE ~87.4-90.1bp (+2 to +4.6) are both ~20bp INSIDE the >25bp widening line. Relayed intraday marks, same basis as the anchors; the two sources disagree ~7bp on the OAT LEVEL and the VERDICT is robust to it while the level is not. ⇒ KB-HANS-014 term-premium call UNCHANGED — section 3b withheld confirmation, section 3c withheld refutation; non-refutation is not support. 🔴 COUNTER-EVIDENCE TO MY OWN CLAIM, recorded: the ECB describes the move as \"reflecting similar moves in global markets\", which does not support the STATUS wording \"Europe is an independent SOURCE\"; language downgraded to \"an independent CONTRIBUTOR, not a passenger\". Full grade record: thesis/ECB_2026-09-10_GRADE.md. | CONFIDENCE CELL RE-MARKED to the WQ-112 machine form this session, closing the DAEDALUS 9/7 asmade_audit MISMATCH: as-made 75% [2026-08-28], resolution vintage 88% [2026-09-05] reached by the pre-committed section 3a rule (not by discretion). Score the book at 88%; the as-made is on the record for any calibration study that wants it.\""
+    ],
+    "header": [
+      "Pred_ID",
+      "Date_Made",
+      "Prediction",
+      "Confidence",
+      "Timeframe",
+      "Resolve_By",
+      "Anchor_Type",
+      "Status",
+      "Date_Resolved",
+      "Outcome",
+      "Notes"
+    ],
+    "id": "HNS-05",
+    "record": 6,
+    "valid": true
+  }
+}

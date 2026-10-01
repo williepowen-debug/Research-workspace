@@ -1,0 +1,190 @@
+{
+  "CREED/PRED-CREED-006": {
+    "registration": "ESTABLISHED_WITH_AMENDMENT",
+    "specification": "ESTABLISHED_WITH_AMENDMENT",
+    "eligibility": "POLICY_DEPENDENT",
+    "outcome": "PRIMARY_VERIFIED",
+    "membership": "IN_COHORT_PUBLICATION_WINDOW",
+    "probability_original": 0.65,
+    "probability_amended": 0.3,
+    "registration_evidence": "43639b22c4948ec2f91b95e737436d10674207bf (2026-07-27 14:37 EDT), AGENTS/CREED/workbook/PREDICTIONS.tsv: original >$3.3B at 65%. b20715cefa0ac7968a0cbdff81f557b7e0bd5435 (same day 16:16 EDT) replaces it with >=$10B at 30%, both before release.",
+    "specification_evidence": "Both Git versions recoverable. Resolver is the life-insurer QoQ change AS PRINTED in MBA Q2 release, not quarter-end itself.",
+    "eligibility_evidence": "Owner grades amended 30% version. Whether first-call 65%/>$3.3B or amended 30%/>=$10B enters a cohort needs an explicit version/admission rule. Opposite binary outcomes result; do not splice original p to amended claim.",
+    "outcome_evidence": "MBA Q2 2026 PDF, page 7, visually checked: life insurers Q2 $781,565M versus Q1 $773,735M; printed change +$7,830M. Original >$3.3B is true; amended >=$10B is false. Owner table grade reproduced.",
+    "source_url": "https://www.mba.org/docs/default-source/research-and-forecasts/cmf-mdo/2q26mortgagedebtoutstanding.pdf",
+    "source_sha256": "c7e0de1c1f9e1d6e1a998d1e1550bd8a2b6924607b2db011316bba8771615a0b",
+    "source_date": "MBA release 2026-09-29; retrieved 2026-10-01 UTC",
+    "boundary_finding": "June 30 proxy is wrong: economic quarter differs from publication/resolution date. July registration is before September release.",
+    "remaining": "Choose a cohort rule for same-day substantive amendments before calculating any score; no owner grade changed. No external validation of the thesis mechanism or seasonal counterfactual attempted."
+  },
+  "RED/RED-20": {
+    "registration": "ESTABLISHED_WITH_AMENDMENT",
+    "specification": "RECOVERABLE_CATEGORICAL_JUDGMENT",
+    "eligibility": "SCORING_RULE_NEEDED",
+    "outcome": "PRIMARY_PARTIAL_BRANCH_UNRESOLVED",
+    "membership": "IN_COHORT",
+    "probability_original": 0.52,
+    "probability_amended": 0.54,
+    "registration_evidence": "9fe8cc92fbe61778b69ce3e260b35f34d9576919, July 24 12:47 EDT, workbook/PREDICTIONS.tsv and research/FOMC_FRAMEWORK_JUL28-29_2026.md. af8b4a567 July 24 18:21 EDT changes S1 to 54% before July 29 meeting.",
+    "specification_evidence": "Five-way S1..S5 distribution, with separate reaction and language axes. S1 needs hold, Sep-Oct guidance (amended September specifically), and upside oil inflation risk. Ledger explicitly calls S2 partial and says grade against full distribution, not binary.",
+    "eligibility_evidence": "A binary S1-versus-rest projection is possible only with an explicit policy; do not silently erase the five-category or partial semantics. Both probability vintages are recoverable.",
+    "outcome_evidence": "Fed July 29 statement directly confirms hold at 3.50-3.75, 9-3 vote, three hike dissents and energy contribution to inflation. Full FINAL 21-page press conference was located; September passages pp11/20 stress no decision on future guidance and no constraint from market prices. Exact reluctant phrase cited by owner via Guha was not found. This pass does not certify the complete September-specific S1 label; hawkish hold facts alone are insufficient.",
+    "source_urls": [
+      "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20260729.pdf"
+    ],
+    "source_date": "July 29, 2026; accessed Oct 1 UTC",
+    "owner_grade_source": "e70f558f4:AGENTS/RED/research/FOMC_JUL28-29_2026_GRADED.md sections 1-2 disclose secondary-only September guidance and unpulled Q&A.",
+    "remaining": "Qualitative branch adjudication against the full transcript and choice of categorical versus explicitly defined binary scoring; no owner grade overwritten."
+  },
+  "HANS/HNS-05": {
+    "registration": "ESTABLISHED",
+    "specification": "ESTABLISHED",
+    "eligibility": "ORIGINAL_ROW_ELIGIBLE_UPDATE_DISTINCT",
+    "outcome": "PRIMARY_VERIFIED",
+    "membership": "IN_COHORT",
+    "probability_original": 0.75,
+    "probability_updated": 0.88,
+    "registration_evidence": "b33d305eee631ae0f1b4e26a0f1283838c8e66d5 Aug 28 14:20 EDT: workbook/PREDICTIONS.tsv at 75% OPEN. b80b78729 Aug 28 16:16 EDT adds thesis/ECB_2026-09-10_PREREGISTRATION.md, prior to Sept 1 input and Sept 10 decision.",
+    "specification_evidence": "ECB raises deposit rate 25bp to 2.50 at/before Sept 10; hold/cut miss. Original document section 3a precommits an HICP>=3.2 update to ~88 for H1.",
+    "eligibility_evidence": "Original binary row at 75% can be retained as written. Owner-specified updated book 88% is a different shorter-horizon forecast, not original p. Document itself discloses H1+H3 gives 81% hike probability versus the 75% row: hypothesis-tree inconsistency must travel, not be silently repaired.",
+    "outcome_evidence": "ECB issuer decision Sept 10 confirms +25bp, deposit 2.50, effective Sept 16. Eurostat original Sept 1 flash is 3.3%, meeting the precommitted update trigger; do not substitute Sept 17 revised 3.2%. Only binary event and update input checked; rationale and tactical/regime axes remain separate.",
+    "source_urls": [
+      "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
+      "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-01092026-ap"
+    ],
+    "remaining": "Use original 75% for a frozen-registration cohort; preserve 88% as explicit later conditional view and the disclosed 81% tree inconsistency. No inference about skill from one hit."
+  },
+  "OZK/OZK-06": {
+    "registration": "ESTABLISHED",
+    "specification": "ESTABLISHED_PREPRINT_CLARIFICATION",
+    "eligibility": "ESTABLISHED",
+    "outcome": "PRIMARY_VERIFIED",
+    "membership": "IN_COHORT_PUBLICATION_WINDOW",
+    "probability_original": 0.4,
+    "registration_evidence": "48c238c34b623b497fe363838ae977e4cefe1207 July 4, workbook/PREDICTIONS.tsv: OPEN 40%, Q2 resolves July 21. Pre-print frozen Q2_2026_SCORING_CARD.md independently preserves 40%. Card original commit a1507808f July 18 15:24 EDT verified.",
+    "specification_evidence": "Past due loans >$550M OR >2.00%, reported/supplement basis. Negative wording <=$550M AND <2.00% leaves exact 2.00% edge uncovered; actual 0.92% is far from it. Follow-up during case 9 found eee52c0dd July 20 pre-print Addendum Z4 explicitly closes this edge: exactly 2.00%/550M FALSE.",
+    "eligibility_evidence": "Explicit scoring card prescribes binary scoring at 40% and supplement basis; not Call Report basis.",
+    "outcome_evidence": "Issuer Q2 Management Comments Figure 22 page 22 confirms $298M and 0.92%, below both thresholds. FALSE established.",
+    "source_url": "https://ir.ozk.com/2Q26_Management_Comments",
+    "boundary_finding": "June 30 parser proxy is economic period-end. Explicit July 21 release window places July 4 registration before outcome.",
+    "remaining": "No unresolved equality gap after pre-print Addendum Z4. Retain supplement basis.",
+    "source_sha256": "505ca0677b9345286c3423ba2dc3f56649d810d17bdf4815ebff0456adbd34c7"
+  },
+  "VULCAN/VULCAN-06": {
+    "registration": "TIMESTAMP_ESTABLISHED_NO_NUMERIC_P",
+    "specification": "RECOVERABLE_CONJUNCTION",
+    "eligibility": "NO_NUMERIC_FORECAST_FOR_BRIER",
+    "outcome": "OWNER_GRADE_NOT_INDEPENDENTLY_VERIFIED",
+    "membership": "IN_COHORT",
+    "registration_evidence": "33b71f8c5c4e621c2a4ed5b8029e6bf017609402 July 12 17:33 EDT, workbook/PREDICTIONS.tsv: OPEN, PROVISIONAL. Contemporary CLAUDE.md line 137 explicitly requires evidential confidence tiers, not probabilities. No numeric p found in ledger history or targeted original charter/thesis/instructions search.",
+    "specification_evidence": "July 31: aggregate four-hyperscaler FY26 capex hold/raise versus $710-725B AND >=2 explicit energy constraint or new multi-GW commitments. Economic 55GW conclusion is an inference separate from those predicates.",
+    "eligibility_evidence": "PROVISIONAL is an evidence-quality label, no authorized probability mapping. Cannot enter a probability-scoring cohort without inventing p; retain as qualitative forecast. Root capex catalyst also counted in VULCAN-01, not independent.",
+    "outcome_evidence": "Pinned KB-VULCAN-043 and archive record HIT. Owner cites generic MSFT/AMZN capacity shortage and META multi-GW plans using secondary sources; generic capacity shortage alone need not mean energy constraint. Located Microsoft original release but transcript route 404; did not reconstruct all four capex vintages and two qualifying primary call passages in this bounded pass.",
+    "source_urls": [
+      "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast"
+    ],
+    "remaining": "Complete conjunction requires issuer transcript and matched-period capex verification. No numeric probability recovered; do not backfill tier from outcome."
+  },
+  "VULCAN/VULCAN-11": {
+    "registration": "TIMESTAMP_ESTABLISHED_NO_NUMERIC_P",
+    "specification": "ESTABLISHED_THREE_WAY_WITH_INTERPRETATIONS",
+    "eligibility": "NO_NUMERIC_FORECAST_FOR_BRIER",
+    "outcome": "PRIMARY_PARTIAL_CLOSE_UNVERIFIED",
+    "membership": "IN_COHORT_NOT_STALE_OVERDUE",
+    "registration_evidence": "f778e587d92c08c501d28fcbc3de8df85e3eb863 August 3 18:31 EDT workbook/PREDICTIONS.tsv, OPEN PROVISIONAL. No numeric p in original or pinned row; same confidence-tier contract as VULCAN-06.",
+    "specification_evidence": "Original Sept 30 deadline, confirmed/falsified/no-verdict branches and thresholds preserved. Aug 13 as-of-close interpretation and Sept 29 resolver sheet add operational interpretations. Resolver sheet commit 98d815913 precedes release.",
+    "eligibility_evidence": "Qualitative three-way hypothesis test, not a numeric binary forecast. An OPEN stamp at Sept 30 22:19 pin is not evidence of neglected grading: the issuer release is that evening and owner explicitly scheduled October 1 grade.",
+    "outcome_evidence": "Micron Sept 30 primary revenue $54.229B and first-quarter guide midpoint $61.5B establish UP (F2). TrendForce September 30 public release gives conventional DRAM +10-15%, establishing F1 and resolving prior paywall concern. Did not retrieve/verify the specified Sept 30 16:00 close for F3, so full falsified/no-verdict outcome remains unverified. Do not use a Sept 28 or after-hours quote.",
+    "source_urls": [
+      "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx",
+      "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+    ],
+    "remaining": "Verify specified official close for final branch. Preserve no-verdict category and absence of numeric p. No owner grade/action changed."
+  },
+  "FERT/FERT-08": {
+    "registration": "EARLIER_MARCH_CLAIM_NO_NUMERIC_P",
+    "specification": "CONTEMPORANEOUS_ASSERTION_NOT_DATED_FORECAST",
+    "eligibility": "NOT_NUMERIC_FORECAST",
+    "outcome": "OWNER_CORRECTION_SECONDARY_CORROBORATION_ONLY",
+    "membership": "OUTSIDE_REGISTRATION_WINDOW",
+    "registration_evidence": "0087ee84eb4b53cd4c03118bfdc7d9f1ce6bae1b March 20 01:15 UTC AGENTS/FERT/STATUS.md dashboard, convergence vector 3 and active situation 1 contain the 77 mtpa claim. aa3e057fdf8b82488510451e6e3b3410b38a3a23 August 17 imports it already MISS into ledger; first ID appearance is retrospective bookkeeping.",
+    "specification_evidence": "March text asserts existing physical loss with 3-5-year repair, not a new August forecast. 4/5 is a convergence severity score, not 80% probability. No numeric p found in original STATUS/charter or ledger.",
+    "eligibility_evidence": "Outside June-Aug registration cohort and not a calibrated probability forecast. Original charter required p for predictions but that does not manufacture one for this assertion.",
+    "outcome_evidence": "August owner corrects nameplate/damaged-capacity confusion and withdraws unverified fertilizer linkage. Search found QatarEnergy statement reproduced by LNG Industry and PublicNow, 12.8mtpa/17%; direct issuer statement not retrieved and PublicNow 403. Primary independent outcome verification incomplete.",
+    "source_url": "https://www.lngindustry.com/liquefaction/20032026/qatarenergy-provides-production-update/",
+    "remaining": "Retain in feasibility denominator as a cohort-boundary error. No need to expand source hunt to admit an out-of-period non-probabilistic claim."
+  },
+  "CRUISE/CRU-05": {
+    "registration": "ESTABLISHED",
+    "specification": "RECOVERABLE_BUT_UNDERSPECIFIED",
+    "eligibility": "ADJUDICATION_NEEDED",
+    "outcome": "PARTIAL_CORROBORATION_NOT_REPRODUCED",
+    "membership": "IN_COHORT",
+    "probability_original": 0.5,
+    "registration_evidence": "2d200087a4592c87ee643209d58fa43acd0fb830 August 14 14:30 EDT, OPEN 50%, Sept 13 window. No p change seen.",
+    "specification_evidence": "Conditional Brent >85 sustained and HAWK D-tail not compressed, then RCL >=3-mo mean AND NCLH <=3-mo mean. Original does not specify sustained duration, price series/roll, mean basis, quantitative D-tail compression threshold or exact evaluation convention. Owner later chooses window-close and three daily-close mean variants.",
+    "eligibility_evidence": "d1f21db15 September 13 grading explicitly acknowledges WQ-162 unnamed-basis objection, but owner admits row after a three-basis sensitivity check. CATO has not independently accepted that exception; three variants do not exhaust every ambiguity in antecedent/series. Actual specification measures absolute levels rather than intended relative dispersion.",
+    "outcome_evidence": "Owner reports antecedent met and RCL leg fails at $260.14 vs ~$296.96 mean, NCLH meets at $14.82 vs ~$18.72. Independent market-data search corroborates those two Sept 11 closes, not rolling means, Brent contract path or D-tail. No saved full raw series found in targeted pinned case/tool/run paths. Full grade not reproduced.",
+    "source_urls": [
+      "https://www.investing.com/equities/royal-caribbean-historical-data",
+      "https://www.financecharts.com/stocks/NCLH/summary/price"
+    ],
+    "remaining": "Needs explicit admission decision and raw input reconstruction for conditional grade. A robust failed level test still does not test the intended relative-dispersion thesis; no retroactive spec repair."
+  },
+  "OZK/OZK-05": {
+    "registration": "ESTABLISHED",
+    "specification": "ESTABLISHED_PREPRINT_CLARIFICATION",
+    "eligibility": "ESTABLISHED",
+    "outcome": "PRIMARY_VERIFIED",
+    "membership": "IN_COHORT_PUBLICATION_WINDOW",
+    "probability_original": 0.5,
+    "registration_evidence": "48c238c34b623b497fe363838ae977e4cefe1207 July 4 19:10 EDT workbook/PREDICTIONS.tsv, OPEN 50%. a1507808f July 18 original frozen scoring card also records 50%, checked at original commit.",
+    "specification_evidence": "Q2 annualized NCO >55bps on reported basis; resolves July 21. eee52c0dd July 20 Addendum Z6 specifies as-printed total-loan ratio, exactly 0.55% FALSE, no later Call Report regrade.",
+    "eligibility_evidence": "Explicit pre-print binary scoring contract and original probability preserved. Same issuer/print as OZK-06: not independent economic evidence.",
+    "outcome_evidence": "Issuer Q2 Management Comments p19, narrative before Figure 20: quarterly annualized NCO 0.69% (versus H1 0.63%); 69bps >55, TRUE. Same primary retrieved during case4; source reuse reduces marginal effort.",
+    "source_url": "https://ir.ozk.com/2Q26_Management_Comments",
+    "source_sha256": "505ca0677b9345286c3423ba2dc3f56649d810d17bdf4815ebff0456adbd34c7",
+    "boundary_finding": "Jun30 period-end is not the explicit Jul21 resolution date. Registration precedes publication, so critic late-record flag is false for this row.",
+    "remaining": "No case-level evidence obstacle found; dependence on OZK-06 must travel into any later statistical analysis."
+  },
+  "FERT/FERT-10": {
+    "registration": "EARLIER_MARCH_CLAIM_NO_NUMERIC_P",
+    "specification": "RECOVERABLE_HYPOTHESIS_NO_ORIGINAL_DEADLINE",
+    "eligibility": "NOT_NUMERIC_FORECAST",
+    "outcome": "PRIMARY_PARTIAL_TENDER_VERIFIED",
+    "membership": "OUTSIDE_REGISTRATION_WINDOW",
+    "registration_evidence": "0087ee84eb4b53cd4c03118bfdc7d9f1ce6bae1b March 20 STATUS.md convergence vector 5 and Active Situations 4 already predict Indian emergency purchases; aa3e057fd August 17 retrospectively imports HIT with March made-date.",
+    "specification_evidence": "Original March scenario has 3/5 severity score, not 60% probability, and no June 30 hard deadline or quantified emergency/panic threshold. June 30 Resolve_By appears in August retrospective ledger.",
+    "eligibility_evidence": "Outside June-Aug registration window; no as-made numeric odds found. Keep historical mechanism research distinct from calibrated forecast.",
+    "outcome_evidence": "India government July 24 PIB release confirms 25 lakh metric tons (2.5Mt) secured via global tenders in April and describes action against global supply disruption (not an independently isolated Gulf mechanism). Supports procurement event; does not independently establish owner claimed exact award prices or objective panic criterion.",
+    "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2288855&lang=1&reg=3",
+    "remaining": "Historical origin recovered but not qualifying numeric forecast. Critic late-ID flag correctly signals retrospective ledger entry, not an August prediction."
+  },
+  "MIDAS/MIDAS-03": {
+    "registration": "TIMESTAMP_ESTABLISHED_NO_NUMERIC_P",
+    "specification": "RECOVERABLE_DIAGNOSTIC_INCOMPLETE_BRANCHES",
+    "eligibility": "NOT_A_NUMERIC_DIRECTIONAL_FORECAST",
+    "outcome": "OWNER_HIT_NOT_SUPPORTED_BY_REGISTERED_BRANCHES",
+    "membership": "IN_COHORT",
+    "registration_evidence": "1cd0f8b378d3e7e569133e9e547b31407a188598 July 12 15:48 EDT original; 2d6f9ef8b July 12 17:37 amended v2, both pre-July14 release. EMPIRICAL is the confidence cell, no numeric odds.",
+    "specification_evidence": "Diagnostic mapping of gold reaction to yield direction, not a chosen directional event with p. Both pre-written branches require yields UP; criteria specify same-day GC=F versus DFII10.",
+    "eligibility_evidence": "No numeric probability and no exhaustive outcome partition; cannot treat empirical tier/HIT as a calibrated binary call. Reframing was before event but grading beyond its branches was after it.",
+    "outcome_evidence": "Pinned outcome itself says yields fell 3bp, both branches assumed UP, and owner graded a broader weekly mechanism instead of a literal branch. That textual mismatch is directly verified; does not require trusting the exact price levels. FRED series identified but date-range CSV route returned404, so exact yield/GC series not independently replayed.",
+    "source_url": "https://fred.stlouisfed.org/series/DFII10",
+    "remaining": "Keep owner mechanism observation separate from forecast grade. This pass establishes spec/grade mismatch, not an independently verified alternative market outcome. No operational ledger correction made."
+  },
+  "HENRY/HEN-42": {
+    "registration": "TIMESTAMP_ESTABLISHED_OWNER_P_UNRECORDED",
+    "specification": "RECOVERABLE_QUALITATIVE_PATH_AND_ATTRIBUTION",
+    "eligibility": "EXPLICITLY_EXCLUDED",
+    "outcome": "OWNER_MISS_NOT_INDEPENDENTLY_REPLAYED",
+    "membership": "IN_COHORT",
+    "registration_evidence": "b05d66fcafe644849c1db2f1aebc9a3520a7395b July 23 21:24 EDT original ledger and STATUS carry forward path test through August29. Original ledger has no confidence column. BOND quoted85% is another desk's contemporaneous attribution opinion, not HENRY's frozen forecast p; later ~80->55->20 carries cannot safely backfill it.",
+    "specification_evidence": "Keep-flattening plus front-end-leading conjunction; deny-side shape and causal parenthetical. August28 grade card explicitly says listed deny mechanisms were absent/unmeasured and uses a fourth mechanism. Literal and broader attribution claims require separate adjudication.",
+    "eligibility_evidence": "1b43cc11e Sept11 explicitly adds UNSCORED-AS-MADE rather than reconstructing old probabilities; at pin row remains excluded. This is positive eligibility evidence, not a missing-parser accident.",
+    "outcome_evidence": "Owner August28 frozen grade card plus Sept2 completion report MISS/DENY and July23->Aug26 2s10s +34->+47bp. Exact market series and causal attribution not independently replayed: Treasury table inaccessible via web tool. Grade-card section5 also overstates insensitivity: a 13bp TWO-day flattening does not require two >=10bp (p99) daily moves. This arithmetic objection does not establish a different final grade; later completed cells and path semantics still matter.",
+    "source_url": "https://home.treasury.gov/resource-center-data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",
+    "remaining": "Honor explicit calibration exclusion. Recovering another desk's opinion or a later carry is insufficient; no retroactive probability invented or owner changes made."
+  }
+}

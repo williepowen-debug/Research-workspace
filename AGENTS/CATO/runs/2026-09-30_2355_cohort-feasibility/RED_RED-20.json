@@ -1,0 +1,84 @@
+{
+  "blob": "4ec4ea9d9e5ea1c3083031d594e86598a05adf98",
+  "desk": "RED",
+  "grading": {
+    "eligibility": "UNKNOWN",
+    "evidence": [],
+    "p_recorded_grade": null,
+    "pending": false
+  },
+  "history_candidates": [
+    {
+      "at_file_birth": false,
+      "blob": "4ae68b663b7f0ce73f033f17395b075699fde2f5",
+      "claim_versions_in_path": 1,
+      "commit": "9fe8cc92fbe61778b69ce3e260b35f34d9576919",
+      "commit_time": "2026-07-24T12:47:07-04:00",
+      "duplicate_id_at_first_commit": false,
+      "file_birth_commit": "8f1dfc559791f41fa0a97453c466e23fc00789b4",
+      "p": 0.52,
+      "path": "AGENTS/RED/workbook/PREDICTIONS.tsv",
+      "source": {
+        "fields": [
+          "RED-20",
+          "2026-07-24",
+          "FOMC 7/28-29 substance branch: S1 hawkish-hold-hike-signaled (modal). Full prior S1 52 / S2 neutral-hold 16 / S3 dovish-shift 7 / S4 hike-now 23 / S5 other 2 - July-hike deliberately NOT faded vs market 23.2pct.",
+          "52%",
+          "2026-07-29 (statement + presser)",
+          "ACTIVE",
+          "",
+          "",
+          "S3 or S4 landing = modal miss; S2 = partial (graded vs full distribution, not binary); reaction axis graded separately per framework",
+          "Pre-registered T-4 in research/FOMC_FRAMEWORK_JUL28-29_2026.md with bounded per-cell weight moves; oil-language discriminator is the qualitative tell to record at the presser"
+        ],
+        "header": [
+          "Pred_ID",
+          "Date_Made",
+          "Prediction",
+          "Confidence",
+          "Timeframe",
+          "Status",
+          "Date_Resolved",
+          "Outcome",
+          "Invalidation",
+          "Notes"
+        ],
+        "id": "RED-20",
+        "record": 21,
+        "valid": true
+      }
+    }
+  ],
+  "path": "AGENTS/RED/workbook/PREDICTIONS.tsv",
+  "pin": "e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0",
+  "pred_id": "RED-20",
+  "source": {
+    "fields": [
+      "RED-20",
+      "2026-07-24",
+      "FOMC 7/28-29 substance branch: S1 hawkish-hold-hike-signaled (modal). Full prior S1 52 / S2 neutral-hold 16 / S3 dovish-shift 7 / S4 hike-now 23 / S5 other 2 - July-hike deliberately NOT faded vs market 23.2pct.",
+      "52%",
+      "2026-07-29 (statement + presser)",
+      "RESOLVED",
+      "2026-07-29",
+      "CORRECT (both v1.0 52pct and v1.1 54/16/7/21/2 vintages): 9-3 hold, 3 unified hawkish dissents (Hammack/Kashkari/Logan), statement cites inflation \"elevated...including energy\" (L1 not L2), \"no soft inflation target,\" points at September specifically (Sept-hike odds 71.5pct->77pct post-meeting per Guha/financefeeds). S4 (hike-now) did NOT occur = v1.1's 23->21 amendment also validated. Full breakdown incl. L-axis (L1 correct, RED beats CARL's L2-modal claim) and LAB-axis (LAB-a correct; RED's own verbatim-staleness sub-test did NOT fire - language revised not repeated) in research/FOMC_JUL28-29_2026_GRADED.md. Reaction axis graded separately (see Notes) - framework's own \"S1xR-A modal\" bottom-line call was WRONG (VIX 20.66 close, R-B fired), confounded by same-window Saudi co-belligerency escalation (Guard 3).",
+      "S3 or S4 landing = modal miss; S2 = partial (graded vs full distribution, not binary); reaction axis graded separately per framework",
+      "Pre-registered T-4 in research/FOMC_FRAMEWORK_JUL28-29_2026.md with bounded per-cell weight moves; oil-language discriminator is the qualitative tell to record at the presser. GRADED S26 2026-07-29: S-axis/L-axis/LAB-axis all CORRECT; informal reaction bottom-line WRONG (kept separate per Guard 4/5). S3xR-D (rates-arm kill) confirmed did NOT fire - TRY-FIRE-004 survives. Full memo: research/FOMC_JUL28-29_2026_GRADED.md."
+    ],
+    "header": [
+      "Pred_ID",
+      "Date_Made",
+      "Prediction",
+      "Confidence",
+      "Timeframe",
+      "Status",
+      "Date_Resolved",
+      "Outcome",
+      "Invalidation",
+      "Notes"
+    ],
+    "id": "RED-20",
+    "record": 21,
+    "valid": true
+  }
+}

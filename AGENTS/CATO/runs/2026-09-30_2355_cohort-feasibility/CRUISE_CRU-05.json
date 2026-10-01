@@ -1,0 +1,80 @@
+{
+  "blob": "55cc329e537388ca6387b8b9cd45d1044ffe8a3a",
+  "desk": "CRUISE",
+  "grading": {
+    "eligibility": "UNKNOWN",
+    "evidence": [],
+    "p_recorded_grade": null,
+    "pending": false
+  },
+  "history_candidates": [
+    {
+      "at_file_birth": false,
+      "blob": "6c7c872de073dbb0ee109a36a6081bcadcb858ab",
+      "claim_versions_in_path": 1,
+      "commit": "2d200087a4592c87ee643209d58fa43acd0fb830",
+      "commit_time": "2026-08-14T14:30:53-04:00",
+      "duplicate_id_at_first_commit": false,
+      "file_birth_commit": "d9744d9ed02de883bed3e86b93059e27012d4d31",
+      "p": 0.5,
+      "path": "AGENTS/CRUISE/workbook/PREDICTIONS.tsv",
+      "source": {
+        "fields": [
+          "CRU-05",
+          "2026-08-14",
+          "If Brent re-tests >$85 sustained AGAIN in the next 30d (window closes 2026-09-13) with HAWK D-tail not compressed, the Big-3 tape dispersion (RCL >= 3-mo mean vs NCLH still <= 3-mo mean) HOLDS — K-shape does not converge on a fuel-shock relief",
+          "50%",
+          "by 2026-09-13",
+          "OPEN",
+          "",
+          "",
+          "Forward-discovery: this is the re-armed CRUISE-specific test after CRU-03 falsified. Tests whether fuel-tape stress compresses the K-shape (NCLH catches up on relief) or holds it (fuel adds cost pressure to already-slashed guide). Deploy trigger for TRADE #1/#2 sequencing."
+        ],
+        "header": [
+          "ID",
+          "Date",
+          "Prediction",
+          "Confidence",
+          "Timeframe",
+          "Status",
+          "Date_Resolved",
+          "Outcome",
+          "Notes"
+        ],
+        "id": "CRU-05",
+        "record": 6,
+        "valid": true
+      }
+    }
+  ],
+  "path": "AGENTS/CRUISE/workbook/PREDICTIONS.tsv",
+  "pin": "e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0",
+  "pred_id": "CRU-05",
+  "source": {
+    "fields": [
+      "CRU-05",
+      "2026-08-14",
+      "If Brent re-tests >$85 sustained AGAIN in the next 30d (window closes 2026-09-13) with HAWK D-tail not compressed, the Big-3 tape dispersion (RCL >= 3-mo mean vs NCLH still <= 3-mo mean) HOLDS — K-shape does not converge on a fuel-shock relief",
+      "50%",
+      "by 2026-09-13",
+      "FAILED",
+      "2026-09-13",
+      "FAILED ON THE LETTER — LEG 1 CARRIED IT. Graded 2026-09-13 ~12:1x ET at the window close, markets closed (Sun); last in-window close = Fri 2026-09-11, own live pull (repo .venv yfinance daily closes + FORGE/tools/market-data/fetch.py spot check, 12:09 ET). ANTECEDENT SATISFIED, BOTH LIMBS: (a) Brent front sustained >$85 across the ENTIRE window — BZX26 (Nov-26 front) closed >=$85 on 21/21 sessions 8/13->9/11, min $85.22 [8/13] / $86.57 [8/14], mean $92.86, last $104.61 [9/11]; (b) HAWK/FALCON D-tail NOT compressed — FALCON marks B3/C22/D75 HELD at its 9/11 session, theater a CAMPAIGN since 9/1, Petroline shut 9/11. So the conditional FIRES and is graded, not vacuous. CONSEQUENT FALSE. Leg 1 'RCL >= its 3-mo mean' = FALSE: RCL $260.14 [9/11 close] vs 3-mo mean $296.96 = -12.40%, short by $36.82. Leg 2 'NCLH <= its 3-mo mean' = TRUE: NCLH $14.82 vs $18.72 = -20.84%. The letter JOINS the legs, so the conjunction FAILS and LEG 1 IS THE LEG THAT CARRIED THE VERDICT. ⛔ Leg 2 is logged even though it is scoreless in the conjunction [[finding_broken_conjunction_leaves_its_other_legs_unrecorded]]. NOT a dead-at-birth row: leg 1 was TRUE at registration (8/14: RCL $305.00 vs mean $295.80) and on the first four in-window closes, broke on 8/20 ($287.62 vs $298.64) and was FALSE on all 16 closes from 8/20 to 9/11. Confidence was 50%, so a FAILED here is calibration-neutral.",
+      "Forward-discovery: the re-armed CRUISE-specific test after CRU-03 falsified. ⏳ INTERIM READING 2026-09-02 (window closes 9/13 — NOT GRADED EARLY, recorded only): ANTECEDENT SATISFIED — Brent BZX26 $95.23 [9/2 close] with the front >$85 through the window, and FALCON re-marked the theater a CAMPAIGN on 9/1, so the D-tail is NOT compressed. CONSEQUENT TRACKING TOWARD FAILURE ON THE LETTER: leg 1 'RCL >= its 3-mo mean' is FALSE (RCL $265.60 vs 3-mo mean $298.78, -11.1%); leg 2 'NCLH <= its 3-mo mean' is TRUE ($15.57 vs $19.08, -18.4%). ⛔ SPEC DEFECT FOUND, DISCLOSED, AND NOT RETUNED MID-WINDOW: the test writes DISPERSION as two ABSOLUTE per-name level conditions, so a common-mode sector drawdown drives BOTH names below their own means and reads FAILED even though the relative dispersion the prediction is about is intact (NCLH -18.1% vs RCL -12.9% since 8/14 — value still worse than premium). [[finding_spread_metric_blind_to_common_mode]] The grade will be taken on the LETTER at 9/13. A successor spec (a RATIO or a spread, not two levels) is registered as the observational vector VX-CRU-06 and will be pre-registered as a prediction only AFTER CRU-05 resolves — never as a mid-window replacement. ⚖️ GRADED 2026-09-13 — FAILED, leg 1. ⛔ BASIS DEFECT IN MY OWN LETTER, RECORDED NOT REPAIRED RETROACTIVELY: the letter says '3-mo mean' and NEVER NAMES the series, the window length, the price type, or the sampling convention — under WQ-162 (name the grading basis; a grade on an unnamed basis is NO-VERDICT) this is an unnamed basis and a literal reading points at NO-VERDICT. I did NOT take NO-VERDICT, and the reason is falsifiable rather than convenient: I graded the WHOLE FAMILY the ambiguity admits and every member returns the same verdict [[finding_unnamed_instrument_makes_a_threshold_a_family]]. Tested bases, all on daily CLOSES, unadjusted, from the repo .venv yfinance pull: trailing 62 sessions / 63 sessions / trailing 90 calendar days. RCL 3-mo mean at 9/11 = $296.96 / $296.92 / $296.96; NCLH = $18.72 / $18.73 / $18.72. RCL at $260.14 fails leg 1 by ~12.4% under EVERY basis; NCLH satisfies leg 2 under EVERY basis. Cross-checked on EVERY in-window close x every basis: leg 1 is FALSE on all 16 closes 8/20->9/11 under all three, leg 2 TRUE on all 20 closes under all three — so the verdict is invariant to the sampling convention too, and there is NO free parameter left to choose after seeing the data. The margin, not my judgement, is what licenses grading over NO-VERDICT: had RCL been within ~1% of its mean the correct outcome WOULD have been NO-VERDICT under WQ-162. Most defensible reading declared: 'holds' + a 'by 2026-09-13' resolve date = STATE AT WINDOW CLOSE, which is also the persistence reading; only an 'at any point in the window' reading would flip leg 1 TRUE (8/14-8/19), and 'HOLDS' excludes it. ⛔ SECOND, SMALLER DEFECT: the 9/2 interim reading quoted an RCL 3-mo mean of $298.78 that I CANNOT REPRODUCE from any candidate window today — closest is $298.75 (trailing 62 sessions). The figure was never wrong enough to change that reading, but it was not reproducible from its own cell [[finding_loadbearing_number_must_be_reproducible]]. ✅ THE 9/2 SPEC DEFECT IS CONFIRMED AT GRADE, AND IT WAS DISCLOSED BEFORE THE WINDOW CLOSED RATHER THAN RETUNED INSIDE IT: the letter writes DISPERSION as two ABSOLUTE per-name level conditions, so a common-mode sector drawdown pushes BOTH names under their own means and reads FAILED while the relative dispersion the prediction is actually about is INTACT [[finding_spread_metric_blind_to_common_mode]]. Measured at the grade: NCLH sits 8.44pp FURTHER below its own 3-mo mean than RCL does (-20.84% vs -12.40%), and 8/14->9/11 NCLH -22.04% vs RCL -14.71% = value still 7.33pp worse than premium. So this row is FALSE-IN-LETTER / TRUE-IN-SPIRIT [[finding_threshold_vs_mechanism]]: the K-shape did NOT converge on the fuel shock, but the instrument I wrote cannot say so. The FAILED stands on the letter and is scored as a FAILED — no re-basing, no credit claimed from the spirit reading [[finding_rebased_metric_check_made_date]]. The successor spec is the RATIO/spread form already registered as the observational vector VX-CRU-06 and fully specified by Will at WQ-222 (>5pp CCL-over-RCL excess drawdown, 9/3 base, through the CCL Q3 print); per the 9/2 commitment it becomes a PREDICTION only now that CRU-05 has resolved, and it is NOT retro-applied to this row."
+    ],
+    "header": [
+      "ID",
+      "Date",
+      "Prediction",
+      "Confidence",
+      "Timeframe",
+      "Status",
+      "Date_Resolved",
+      "Outcome",
+      "Notes"
+    ],
+    "id": "CRU-05",
+    "record": 6,
+    "valid": true
+  }
+}

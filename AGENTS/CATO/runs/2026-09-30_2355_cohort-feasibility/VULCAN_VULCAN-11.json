@@ -1,0 +1,86 @@
+{
+  "blob": "6a4d29639e65f8c7c03e5efecdac8b63b91542bf",
+  "desk": "VULCAN",
+  "grading": {
+    "eligibility": "UNKNOWN",
+    "evidence": [],
+    "p_recorded_grade": null,
+    "pending": false
+  },
+  "history_candidates": [
+    {
+      "at_file_birth": false,
+      "blob": "0659678a6a28632f747398230d9d71df5bfbc0ca",
+      "claim_versions_in_path": 1,
+      "commit": "f778e587d92c08c501d28fcbc3de8df85e3eb863",
+      "commit_time": "2026-08-03T18:31:34-04:00",
+      "duplicate_id_at_first_commit": false,
+      "file_birth_commit": "c5c055f82e277c13b426850f754783b39910fc15",
+      "p": null,
+      "path": "AGENTS/VULCAN/workbook/PREDICTIONS.tsv",
+      "source": {
+        "fields": [
+          "VULCAN-11",
+          "2026-08-03",
+          "S2",
+          "EQUITY-LEADS-CONTRACT TEST (registered off KB-048/049): the cycle-wide memory+semicap equity de-rate is LEADING the physical memory cycle, not mispricing it. Frozen baselines measured at write time 2026-08-03 — MU close $829.50 (FROZEN ref: 7/23 close $990.21, a historical close, does not move); TrendForce 3Q26 contract forecast DRAM +13-18% / NAND +10-15% QoQ (TRACKED, will be superseded by actuals + a 4Q26 forecast); spot DDR5 $51.33 / DDR4 $85.71. NOTHING HERE IS ALREADY BREACHED: both price legs are RISING at write time and the equity has ALREADY fallen, so this predicts the FUTURE convergence, not a state that exists.",
+          "2026-09-30",
+          "OPEN",
+          "PROVISIONAL",
+          "If FALSIFIED: the memory equity is NOT a usable leading instrument for S2 — revert S2 score 3 -> 2, and do NOT extend the terms-lead-price leading-indicator pattern (used in S1's exit triad) into S2. If CONFIRMED: S2's standing -25% QoQ contract rule is proven LAGGING; add the equity/semicap cross-section as a registered S2 leading indicator and re-run the S1 cost-push link (cheaper memory relieves hyperscaler capex cost).",
+          "CONFIRMED if EITHER (a) the 4Q26 conventional DRAM contract price forecast/actual comes in BELOW +5% QoQ, OR (b) MU FQ4 (~9/29) guides FQ1 FY27 revenue DOWN QoQ. FALSIFIED if ALL THREE hold: 4Q26 DRAM contract >= +10% QoQ AND MU FQ4 guides FQ1 FY27 revenue UP QoQ AND MU has recovered to within 5% of the frozen $990.21 reference (i.e. >= $940.70). ⚠️ EXPLICIT NO-VERDICT BAND: any other combination (e.g. contract +5-10% QoQ, or mixed guide-vs-price signals, or MU between the bands) resolves NO-VERDICT — recorded as such, NOT forced to a grade. Sources: TrendForce contract series + MU FQ4 8-K/call (SEC-primary).",
+          "—"
+        ],
+        "header": [
+          "id",
+          "made",
+          "channel",
+          "prediction",
+          "resolve_date",
+          "status",
+          "conf_tier",
+          "if_falsified",
+          "criteria",
+          "resolution"
+        ],
+        "id": "VULCAN-11",
+        "record": 12,
+        "valid": true
+      }
+    }
+  ],
+  "path": "AGENTS/VULCAN/workbook/PREDICTIONS.tsv",
+  "pin": "e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0",
+  "pred_id": "VULCAN-11",
+  "source": {
+    "fields": [
+      "VULCAN-11",
+      "2026-08-03",
+      "S2",
+      "EQUITY-LEADS-CONTRACT TEST (registered off KB-048/049): the cycle-wide memory+semicap equity de-rate is LEADING the physical memory cycle, not mispricing it. Frozen baselines measured at write time 2026-08-03 — MU close $829.50 (FROZEN ref: 7/23 close $990.21, a historical close, does not move); TrendForce 3Q26 contract forecast DRAM +13-18% / NAND +10-15% QoQ (TRACKED, will be superseded by actuals + a 4Q26 forecast); spot DDR5 $51.33 / DDR4 $85.71. NOTHING HERE IS ALREADY BREACHED: both price legs are RISING at write time and the equity has ALREADY fallen, so this predicts the FUTURE convergence, not a state that exists.",
+      "2026-09-30",
+      "publication",
+      "OPEN",
+      "PROVISIONAL",
+      "If FALSIFIED: the memory equity is NOT a usable leading instrument for S2 — revert S2 score 3 -> 2, and do NOT extend the terms-lead-price leading-indicator pattern (used in S1's exit triad) into S2. If CONFIRMED: S2's standing -25% QoQ contract rule is proven LAGGING; add the equity/semicap cross-section as a registered S2 leading indicator and re-run the S1 cost-push link (cheaper memory relieves hyperscaler capex cost).",
+      "CONFIRMED if EITHER (a) the 4Q26 conventional DRAM contract price forecast/actual comes in BELOW +5% QoQ, OR (b) MU FQ4 (~9/29) guides FQ1 FY27 revenue DOWN QoQ. FALSIFIED if ALL THREE hold: 4Q26 DRAM contract >= +10% QoQ AND MU FQ4 guides FQ1 FY27 revenue UP QoQ AND MU has recovered to within 5% of the frozen $990.21 reference (i.e. >= $940.70). ⚠️ EXPLICIT NO-VERDICT BAND: any other combination (e.g. contract +5-10% QoQ, or mixed guide-vs-price signals, or MU between the bands) resolves NO-VERDICT — recorded as such, NOT forced to a grade. Sources: TrendForce contract series + MU FQ4 8-K/call (SEC-primary). || ⚠️ ANCHOR TYPE RECORDED 2026-08-21 (anchor=publication). PARTIAL slip exposure: leg (b) rides MU FQ4, whose date is ESTIMATED (~9/29, EDGAR fiscalYearEnd=0903 inference via WALTER SIG-W-20260807-001 — VIOLET carries the same date flagged 'ESTIMATED, NOT CONFIRMED'). Leg (a) — the 4Q26 DRAM contract forecast — is a DIFFERENT publisher and can carry the row alone if MU slips past 9/30. || 🔴 THE 2026-08-27 BLOCK THAT FOLLOWS IS REFUTED — read the 2026-09-06 CORRECTION at the END of this cell before using any figure in it. Retained verbatim rather than deleted: the derivation was wrong and the record of HOW it was wrong is the useful part. ~~🔵 RESOLVER SLIP-RISK MATERIALLY REDUCED 2026-08-27 — DERIVED, NOT RE-GUESSED, AND NO CRITERION IS CHANGED.~~ This row's stated sharpest risk is that MU FQ4 is its SOLE resolver on BOTH branches and the date was ESTIMATED at ~9/29 off EDGAR `fiscalYearEnd=0903`, so a ONE-DAY slip past the 9/30 resolve date made it ungradeable. `tools/edgar_watch.py` (built today) derives the date from MU's OWN filing history instead: `fiscalYearEnd=0903` is a NOMINAL marker, and MU runs a 52/53-week year whose observed ends are Aug 27 - Sep 3. FY2026's three filed quarter-ends (2025-11-27 / 2026-02-26 / 2026-05-28) are spaced at exactly 91 days, which pins FQ4 to 2026-08-27. MU's FQ4 earnings-8K lag across n=9 fiscal years is min 21d / med 26d / max 28d (last four: 28, 27, 27, 26) => RELEASE WINDOW 2026-09-17 to 2026-09-24, typical 2026-09-22. ⇒ ~~HEADROOM TO THE 9/30 RESOLVE DATE GOES FROM ~1 DAY TO ~6-13 DAYS. Even MU's worst historical FQ4 lag lands 09-24.~~ 🔴 THIS SENTENCE IS FALSE AND IT IS INVERTED, NOT MERELY IMPRECISE — see the correction at the end of this cell. REAL HEADROOM IS ~0 HOURS. ⚠️ WHAT THIS IS NOT: an announcement. MU has not announced. `date_class` stays `modeled` and this remains an estimate — a BETTER one, derived from the issuer's own behaviour rather than from a nominal marker. [L-22: derive, never infer.] ⚠️ NO CRITERION, THRESHOLD, BRANCH OR RESOLVE DATE IS ALTERED BY THIS NOTE [L-11(b)]. The resolve date stays 2026-09-30. Only the SLIP-RISK ESTIMATE moves, and it moves in my favour, which is exactly when to be most careful about touching anything else. ⚠️ The pre-committed Friday `semi_watch.py` cadence is DELIBERATELY UNTOUCHED — it carries the s=N re-arm rule and 9/18 + 9/25 already bracket the derived window. || 🔴 CORRECTION 2026-09-06 — THE 2026-08-27 SLIP-RISK BLOCK ABOVE IS REFUTED AT THE ISSUER PRIMARY, AND THE SENTENCE THAT MATTERS IS THE ONE THAT READ AS REASSURANCE. MU FQ4 FY26 is CONFIRMED Wednesday 2026-09-30, 2:30 p.m. Mountain = 16:30 ET, AFTER THE CLOSE (Micron press release 2026-08-26 16:01 ET, verified at the primary 2026-09-02). The 8/27 derivation was WRONG BY 8 DAYS: it silently assumed a 52-WEEK fiscal year while MU runs 52/53-week years and FY2026 is a 53-WEEK year ending 2026-09-03, so the `fiscalYearEnd=0903` marker it discarded was RIGHT. The counter-example (FY2020 10-K period_end 2020-09-03) was already in this desk's own workbook/EDGAR_SEEN.tsv. ⇒ REAL HEADROOM FROM THE PRINT TO THIS ROW'S 2026-09-30 RESOLVE DATE IS ~0 HOURS, NOT ~6-13 DAYS. ⚠️ NO CRITERION, THRESHOLD, BRANCH OR RESOLVE DATE IS CHANGED BY THIS CORRECTION EITHER [L-11(b)] — resolve_date STAYS 2026-09-30 and this row GRADES 2026-10-01 at the earliest, registered as its own row in docket/CATALYSTS.tsv. 🔑 WHY THE CORRECTION IS FILED AS A SEPARATE BLOCK AND THE 8/27 TEXT IS LEFT STANDING: the date itself reached STATUS, SCRATCH, EXIT_PROTOCOL and CATALYSTS on 9/2, but THE ARGUMENT BUILT ON THE OLD DATE DID NOT TRAVEL WITH IT and sat here for four days reading as reassurance in the exact rows a grader opens. A CORRECTED DATE DOES NOT CORRECT THE REASONING THAT WAS BUILT ON THE OLD ONE. Flagged by VIOLET 2026-09-04 against my own surfaces, verified here 2026-09-06 before editing. [[finding_supersession_marker_suppresses_the_live_value_beside_it]] · [[finding_a_charitable_reading_of_your_work_is_the_one_to_check]] — the 8/27 block SAYS 'it moves in my favour, which is exactly when to be most careful about touching anything else' and I banked it anyway. 🔑 SECOND-ORDER LESSON, credited to VIOLET who generalised it from my own self-correction: 'ZERO FREE PARAMETERS' IS NOT 'NO ASSUMPTIONS'. The 91-day derivation had no tunable knob and was wrong anyway, because the 52-week year was baked into the ARITHMETIC rather than exposed as a PARAMETER. The phrase describes what you COULD tune, never what you ASSUMED, and it reads as a strong epistemic credential precisely because it sounds like the absence of choice. [KB-135] || 📋 PRE-PRINT READINGS REGISTERED 2026-09-29 in workbook/MU_FQ4_RESOLVER.md §2 (NO criterion changed [L-11(b)]): ① FQ4 FY26 is a 98-DAY (14-week) quarter (53-week FY ending 2026-09-03) vs a 91-day FQ1 ⇒ a flat weekly run-rate guides FQ1 ~-7.1%. Artifact zone = 0.9286×R4 <= guide midpoint < R4 ⇒ CONFIRMED-ON-THE-LETTER with the composition disagreement recorded in this cell, and the if-CONFIRMED structural action is NOT executed on that grade alone. ② If TrendForce has published no public 4Q26 conventional-DRAM QoQ range by grading, leg (a) and falsifier leg 1 are UNGRADEABLE at the named source ⇒ this row cannot resolve FALSIFIED; no sell-side figure substitutes. ③ Leg 3 reads the 9/30 16:00 ET CLOSE, which precedes the 16:30 print.",
+      "PROGRESS 2026-08-13 (NOT a resolution — stays OPEN to 9/30): FALSIFIER LEG 3 IS CURRENTLY MET. MU closed $949.83 on 8/13, above the registered >= $940.70 line. Falsification requires ALL THREE legs, and legs 1-2 (4Q26 DRAM contract >= +10% QoQ; MU FQ4 guides FQ1 FY27 revenue UP QoQ) resolve at the 4Q26 forecast and MU FQ4 ~9/29. ⚠️ INTERPRETATION REGISTERED IN ADVANCE, gate wording UNCHANGED (own L-11 rule (b)): the spec did not say WHEN leg 3 is read — it reads AS-OF the 9/30 resolution date, consistent with legs 1-2 which are both resolution-date observations. An 'at any point' reading would make leg 3 a one-way ratchet that can never un-trip, which is not how the other two legs behave. MU may fall back below $940.70 before 9/30. CONTEXT: the equity de-rate this prediction asserted was LEADING has substantially retraced and the decoupling flipped sign (KB-071) — evidence is currently running AGAINST the prediction. [KB-072] || PROGRESS 2026-08-21 (NOT a resolution — stays OPEN to 9/30): LEG 3 HAS NOW OSCILLATED ACROSS THE LINE TWICE, which is the empirical vindication of the as-of interpretation registered 8/13. MU closes: $949.83 (8/13, MET) -> $1,011.75 (8/17) -> $940.76 (8/18) -> $937.11 (8/19, UN-MET, below $940.70) -> $974.33 (8/20) -> $981.59 (8/21, MET). Had leg 3 been read 'at any point' it would have latched irreversibly on 8/13 and the 8/19 un-met would have been invisible. Gate wording still UNTOUCHED. Legs 1-2 (4Q26 DRAM contract >= +10% QoQ; MU FQ4 guides FQ1 FY27 revenue UP QoQ) remain unresolved until the 4Q26 forecast and MU FQ4 ~9/29. ⚠️ CONTEXT CORRECTED THIS SESSION: the 8/13 note said the de-rate 'substantially retraced'. That was measured from the 8/3 TROUGH and was wrong (KB-089). On a peak-to-current basis the complex is 19-39% below late-June peaks vs QQQ -4.6%. The evidence is NOT running against this prediction as cleanly as 8/13 recorded — but it is not running for it either: spot is still RISING and the -25% roll rule is untripped. [KB-089/090/092]"
+    ],
+    "header": [
+      "id",
+      "made",
+      "channel",
+      "prediction",
+      "resolve_date",
+      "anchor_type",
+      "status",
+      "conf_tier",
+      "if_falsified",
+      "criteria",
+      "resolution"
+    ],
+    "id": "VULCAN-11",
+    "record": 5,
+    "valid": true
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "blob": "860896e1379462c4efef152accbd202d927f8979",
+  "desk": "OZK",
+  "grading": {
+    "eligibility": "UNKNOWN",
+    "evidence": [],
+    "p_recorded_grade": null,
+    "pending": false
+  },
+  "history_candidates": [
+    {
+      "at_file_birth": false,
+      "blob": "9b712c9cc760f5d838d9209dfb09fed1da787abc",
+      "claim_versions_in_path": 1,
+      "commit": "48c238c34b623b497fe363838ae977e4cefe1207",
+      "commit_time": "2026-07-04T19:10:06-04:00",
+      "duplicate_id_at_first_commit": false,
+      "file_birth_commit": "07d6e6d8c0b72bd6fdd0350455855395c941afc5",
+      "p": 0.4,
+      "path": "AGENTS/OZK/workbook/PREDICTIONS.tsv",
+      "source": {
+        "fields": [
+          "OZK-06",
+          "2026-07-04",
+          "OZK Q2'26 past-due loans >$550M or >2.00% (reported/supplement basis)",
+          "40%",
+          "Q2 2026 (resolves Jul 21 2026)",
+          "OPEN",
+          "",
+          "",
+          "Past-due ≤$550M AND <2.0% at Jul-21 print",
+          "THRESHOLD. Q1'26 $465M/1.41% (supplement) vs $487.5M/1.48% (Call Report); +18% needed on supplement basis. Recognition tempo argues up, BUT past-due-still-accruing can FALL as credits migrate to nonaccrual/NPA (removes from bucket) — Q4→Q1 doubling may not repeat. Q2 Call Report basis lags print ~3wk."
+        ],
+        "header": [
+          "Pred_ID",
+          "Date_Made",
+          "Prediction",
+          "Confidence",
+          "Timeframe",
+          "Status",
+          "Date_Resolved",
+          "Outcome",
+          "Invalidation",
+          "Notes"
+        ],
+        "id": "OZK-06",
+        "record": 7,
+        "valid": true
+      }
+    }
+  ],
+  "path": "AGENTS/OZK/workbook/PREDICTIONS.tsv",
+  "pin": "e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0",
+  "pred_id": "OZK-06",
+  "source": {
+    "fields": [
+      "OZK-06",
+      "2026-07-04",
+      "OZK Q2'26 past-due loans >$550M or >2.00% (reported/supplement basis)",
+      "40%",
+      "Q2 2026 (resolves Jul 21 2026)",
+      "RESOLVED",
+      "2026-07-21",
+      "FALSE",
+      "Past-due ≤$550M AND <2.0% at Jul-21 print",
+      "THRESHOLD. Q1'26 $465M/1.41% (supplement) vs $487.5M/1.48% (Call Report); +18% needed on supplement basis. Recognition tempo argues up, BUT past-due-still-accruing can FALL as credits migrate to nonaccrual/NPA (removes from bucket) — Q4→Q1 doubling may not repeat. Q2 Call Report basis lags print ~3wk. | STAGE-1 GRADE 7/21: past-due $298M/0.92% [Fig 22] <$550M AND <2.00% (Z4; Q1 $465M/1.41% reproduced exactly) -> FALSE, past-due IMPROVED. Brier (0.40)^2=0.16."
+    ],
+    "header": [
+      "Pred_ID",
+      "Date_Made",
+      "Prediction",
+      "Confidence",
+      "Timeframe",
+      "Status",
+      "Date_Resolved",
+      "Outcome",
+      "Invalidation",
+      "Notes"
+    ],
+    "id": "OZK-06",
+    "record": 7,
+    "valid": true
+  }
+}

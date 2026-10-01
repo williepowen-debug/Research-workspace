@@ -1,0 +1,88 @@
+{
+  "blob": "48c7ded7826a46d6ad372c3cc332c37d285a5d6b",
+  "desk": "FERT",
+  "grading": {
+    "eligibility": "UNKNOWN",
+    "evidence": [],
+    "p_recorded_grade": null,
+    "pending": false
+  },
+  "history_candidates": [
+    {
+      "at_file_birth": false,
+      "blob": "9345e42447a1bc55073af451ff26a41e59879415",
+      "claim_versions_in_path": 1,
+      "commit": "aa3e057fdf8b82488510451e6e3b3410b38a3a23",
+      "commit_time": "2026-08-17T11:30:17-04:00",
+      "duplicate_id_at_first_commit": false,
+      "file_birth_commit": "0087ee84eb4b53cd4c03118bfdc7d9f1ce6bae1b",
+      "p": null,
+      "path": "AGENTS/FERT/workbook/PREDICTIONS.tsv",
+      "source": {
+        "fields": [
+          "FERT-08",
+          "2026-03-20",
+          "Qatar 77 mtpa LNG offline = fertilizer capacity physically destroyed",
+          "(scored 4/5 as convergence vector 3)",
+          "3-5 years",
+          "2026-08-17",
+          "MISS",
+          "2026-08-17",
+          "REFUTED on magnitude ~6x: actual 12.8 mtpa (Trains 4 & 6, Ras Laffan) = ~17% of Qatar export capacity, per QatarEnergy production update 3/20/26. 77 mtpa is Qatar's approximate TOTAL nameplate capacity — the denominator was recorded as the numerator. Repair timeline 3-5 yr CONFIRMED; cause (Iranian missile strikes 3/18-19/26) CONFIRMED. Separately: NO primary links the Ras Laffan LNG damage to ammonia/urea output",
+          "Delete unevidenced mechanism inferences; state them as open questions",
+          "The 6x error sat directly under the thesis's load-bearing word, 'structural'. Inference 'fertilizer production depends on same gas' remains UNVERIFIED and is deleted from the rebuilt STATUS rather than carried."
+        ],
+        "header": [
+          "ID",
+          "Date",
+          "Prediction",
+          "Confidence",
+          "Timeframe",
+          "Resolve_By",
+          "Status",
+          "Date_Resolved",
+          "Outcome",
+          "If_Falsified_Action",
+          "Notes"
+        ],
+        "id": "FERT-08",
+        "record": 9,
+        "valid": true
+      }
+    }
+  ],
+  "path": "AGENTS/FERT/workbook/PREDICTIONS.tsv",
+  "pin": "e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0",
+  "pred_id": "FERT-08",
+  "source": {
+    "fields": [
+      "FERT-08",
+      "2026-03-20",
+      "Qatar 77 mtpa LNG offline = fertilizer capacity physically destroyed",
+      "(scored 4/5 as convergence vector 3)",
+      "3-5 years",
+      "2026-08-17",
+      "MISS",
+      "2026-08-17",
+      "REFUTED on magnitude ~6x: actual 12.8 mtpa (Trains 4 & 6, Ras Laffan) = ~17% of Qatar export capacity, per QatarEnergy production update 3/20/26. 77 mtpa is Qatar's approximate TOTAL nameplate capacity — the denominator was recorded as the numerator. Repair timeline 3-5 yr CONFIRMED; cause (Iranian missile strikes 3/18-19/26) CONFIRMED. Separately: NO primary links the Ras Laffan LNG damage to ammonia/urea output",
+      "Delete unevidenced mechanism inferences; state them as open questions",
+      "The 6x error sat directly under the thesis's load-bearing word, 'structural'. Inference 'fertilizer production depends on same gas' remains UNVERIFIED and is deleted from the rebuilt STATUS rather than carried."
+    ],
+    "header": [
+      "ID",
+      "Date",
+      "Prediction",
+      "Confidence",
+      "Timeframe",
+      "Resolve_By",
+      "Status",
+      "Date_Resolved",
+      "Outcome",
+      "If_Falsified_Action",
+      "Notes"
+    ],
+    "id": "FERT-08",
+    "record": 9,
+    "valid": true
+  }
+}

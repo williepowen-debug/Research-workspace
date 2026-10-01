@@ -1,0 +1,14 @@
+{
+  "frozen_hashes_unchanged": true,
+  "selected_cases_complete": 12,
+  "source_rows_matched_exact_git_blobs": 25,
+  "critic_keys_and_order_match": true,
+  "numeric_original_recovered": 6,
+  "out_of_registration_window": 2,
+  "wall_seconds_case_total": 790.148605,
+  "wall_seconds_median": 43.910433499999996,
+  "wall_seconds_min": 30.529212,
+  "wall_seconds_max": 214.788126,
+  "shared_setup_seconds": 163.155227,
+  "scope": "author checks of artifacts, no forecast score computed; source truth limits in cases.json"
+}

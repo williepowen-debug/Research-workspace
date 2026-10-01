@@ -1,0 +1,9 @@
+{
+  "received_sha256": "753fd797e309662a4752c462d571763eedff14bd57d7bdcb7e7211cec423c92d",
+  "received_rows": 145,
+  "same_keys": true,
+  "same_order": true,
+  "received_unknown_due": 47,
+  "received_at": "2026-10-01 during case 4",
+  "freeze_unchanged": true
+}
