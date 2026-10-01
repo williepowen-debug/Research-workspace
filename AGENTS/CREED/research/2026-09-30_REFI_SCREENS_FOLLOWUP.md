@@ -59,6 +59,27 @@
 
 **Agents relaunched 2026-10-01 (four, Opus, background): outputs in `research/2026-10-01_refi_agents/`.** Prompts rebuilt from this page (the 9/30 prompts were not on this machine).
 
+### Results 2026-10-01 afternoon — all four agents returned; CREED re-read the load-bearing figures at source
+
+⚠️ **Correction to the Glancy read above, same session:** the NY Fed paper the dir-1 agent surfaced, **Crosignani & Prazad, "Extend-and-Pretend in the U.S. CRE Market," SR 1130, rev. June 2026** (PRIMARY-READ, abstract + introduction), uses the **same Y-14 data** and finds that **weakly capitalized banks DID extend distressed CRE loans and grant payment relief to preserve capital**, piling up a near-term maturity wall at those banks. Glancy tests the average large bank; C&P the weak-capital tail (Glancy says his patterns hold there too). ⇒ **At large banks the claim is CONTESTED, not refuted; at small banks it is untested.** `KB-CREED-053`.
+
+| # | Direction | Result | Verified by CREED at source | KB |
+|---|---|---|---|---|
+| 1 | Office current-but-sub-1.0x reservoir | **No other publisher reports it**; Trepp's $12.1B stands alone. CRED iQ measures the conversion instead: 51% of office SS transfers current at transfer; 72% of 93 later failed; 71% of distressed office balance refinancing-led. Interest reserves: no aggregate (single banks only). Candidate series: FDIC `RSNRES` $10.66B Q2 (definition from a search summary; **confirm at FFIEC before adopting**) and DIY from SEC ABS-EE (conduit only, DSCR often blank) | Trepp F1 ✅ · CRED iQ 9/24 ✅ | `052`, `054` |
+| 2 | National office lease-before-maturity screen | **NOT FOUND** from any publisher; LA (Trepp 8/21) is the only office version. **Buildable from SEC ABS-EE** for registered conduit deals (largest tenant, its lease expiry, maturity, DSCR, occupancy all present; SASB/CLO/bank absent) | not yet | — |
+| 3 | Office hard vs stated maturity | **Not public for office.** All-types only (Trepp: 2026 $146.2B stated / $76.6B hard). Office split is inside two FORM-GATED Trepp reports (not submitted). Public hard-basis office = Trepp monthly cohorts: Apr $1.07B · May $0.74B · Jul $0.84B · Aug $1.81B · Sep $1.48B (agent) | not yet | — |
+| 4 | Payoff base rate | **No public payoff rate by debt-yield bucket.** Office CMBS 2026 YTD ≈ 39–49% by balance (conduit 49% thru Jul, SASB 39% thru Aug; agent, BofA via CREFC / KBRA); bank office ≈ 20% stress vs > 40% pre-pandemic (Glancy p.25 ✅). Definitions differ by 20–40 points: **never compare across series.** For the Sept-26 office cohort's < 8% DY half, only "below the cohort rate" is sourced; the agent's ≤ 25% is an ESTIMATE | Glancy ✅; CMBS payoff rates NOT yet | in `053` (bank) |
+| 5 | Opex / insurance by region | Office opex outgrew revenue in all 7 Census divisions Trepp could measure (worst East North Central, NOI −1.4%/yr; press citing Trepp, full report form-gated). Insurance cost has turned: Marsh US property rates −13% Q2-26, 8th straight fall | not yet | — (extends `050`) |
+| 6 | Office coupon gap | **CRED iQ: office 5.14% → 6.86% = +172bp** (maturing Sep-26–Jun-27 vs originated May–Aug 26). Agent's own EDGAR pools: 2016 vintage 4.34% → 6.87% = +253bp (DERIVED, samples). All published coupons predate the September rate jump | CRED iQ 8/21 ✅ | `055` |
+
+**What this does to the thesis (no score, band or trigger moved):**
+- **Supports the base case's mechanism:** distress is refinancing-led (CRED iQ 71%; Trepp sub-1.0x reservoir maturing 2026–29, 2028 heaviest), and the coupon step for office (+172bp) is among the largest, before the September rate move.
+- **Weakens one hypothesis wording:** "extend-and-pretend still absorbing … still active in banks" overstates what is known. **Proposed to Will (not edited):** *"Maturities are being absorbed partly by extensions. At large banks the evidence is contested: on average terms tightened (Glancy 2026), but weakly capitalized banks extended distressed loans (Crosignani & Prazad 2026). Smaller banks are untested. In CMBS the drag is slow resolution."*
+- **Base rate to attach to the office maturity screen:** ~35–50% of balance pays off near maturity in 2026 office CMBS (agent; definitions vary), ~20% at large banks (Glancy). Lower for < 8% DY: magnitude unsourced.
+
+**Still owed (not done this session):** verify the agent's CMBS payoff rates (BofA/CREFC, KBRA) before any KB row · confirm FDIC `RSNRES` definition at FFIEC before proposing it as a lane-5 vector · decide whether to build the ABS-EE lease-before-maturity screen (engineering; Will's call) · the form-gated Trepp reports stay unsubmitted (Will's email; his call) · Florida/MF items routed to WALTER this session.
+
+
 ## Next session (owed, in order)
 1. Re-fetch F1/F2/F4/F10 and decide KB rows (F1 is the strongest: an aggregate series for lane 5).
 2. Route F7/F8 + student housing (9/21, 9/22) to WALTER for HOMER/CORAL.
