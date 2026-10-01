@@ -2,7 +2,7 @@
 
 > ⚠️ **CEILING: keep under 51,200 B** (Will-approved 2026-08-23). This is the SINK for `MEMORY.md`'s flow rule and nothing bounded it — it hit **58,825 B and truncated silently**, stranding 26 slugs while the hot index kept advertising them. **A pointer to unreachable text is worse than none.**
 > **Legal: TRIM hook text · ROTATE waves out · SHARD by theme.** ⛔ Never delete a row (pointers — deleting orphans a memory). ⛔ Never raise the ceiling. ⛔ Demoted rows append at the END and the cut takes the END, so the newest rescues fall first.
-> Check: `read_cap_check.py memory/auto/INDEX_COLD.md` (its % is vs a 60%-of-cap budget; the hard line is the measured **53,819 B**). **2026-08-23 pass: 60 hooks → ≤80 canon, 58,825 → 45,641 B, slugs 333==333 proven. ~134 still over canon.** **2026-08-28 TRIM pass (PROME-executed clerk, DAEDALUS TRIM-this-wave rec): 107 hooks → canon, 48,674 → 37,101 B = 72.5% of ceiling; row-slugs 329==329 AND whole-file slug tokens 363==363 proven (6 rows embed other slugs in their hooks — prose-only trimmed, still over canon by design). Next-wave form pre-registered: SHARD by theme when the file re-crosses ~43 KB (80% of the hard line).**
+> Check: `read_cap_check.py memory/auto/INDEX_COLD.md` (its % is vs a 60%-of-cap budget; the hard line is the measured **53,819 B**). **2026-08-23 pass: 60 hooks → ≤80 canon, 58,825 → 45,641 B, slugs 333==333 proven. ~134 still over canon.** **2026-08-28 TRIM pass (PROME-executed clerk, DAEDALUS TRIM-this-wave rec): 107 hooks → canon, 48,674 → 37,101 B = 72.5% of ceiling; row-slugs 329==329 AND whole-file slug tokens 363==363 proven (6 rows embed other slugs in their hooks — prose-only trimmed, still over canon by design). Next-wave form pre-registered: SHARD by theme when the file re-crosses ~43 KB (80% of the hard line).** **2026-09-30 flow pass (PROME, at a boot — skipped at two closeouts): 18 settled rows demoted in, 2 promoted out; this file RE-CROSSED the ~43 KB line ⇒ the pre-registered SHARD-by-theme wave is OWED at the next flow pass (current size: `PROME/tools/measure.py`).**
 
 ## Embedded → canon sections — MOVED to `memory/auto/INDEX_COLD_EMBEDDED.md` (shard 2026-09-06)
 - The eight census sections (Boot/closeout · Closeout-moment · Sub-agents/orchestration · Spawn delivery · Git rows · Prediction & calibration · Trade/risk · Deep-research) live verbatim in the shard, crc32 2994654163 over its body; every slug they carry is still indexed (readers glob `INDEX_COLD*.md`). This file keeps the agent pointers, project-state, tool gotchas, rare infra and every demotion wave.
@@ -20,7 +20,6 @@
 
 ## Project-state (Tier-3 COLD, no embed target — read on demand)
 - project_messaging_overhaul — don't invest in inbox/outbox hygiene — file messaging is being replaced
-- project_research_intake_collection_lane — RESEARCH-INTAKE = always-on data lane, separate repo; agents read-only
 - project_public_prep_anthropic_fellows — repo being prepped public as portfolio for Will's Anthropic Fellows (Economics &
 - project_automem_symlink_migration — TOMBSTONE — folded into the hardlink-inplace-edit finding; kept as a name-anchor
 - project_phone_signal_architecture — Will wants reliable phone→fleet signal ingestion (Telegram drops)
@@ -69,7 +68,7 @@
 - finding_verify_fix_against_capable_case
 - finding_theater_check_before_gate_check
 - finding_analogue_asset_class_must_match
-- finding_weekday_assumed_never_evaluated — n=3
+- finding_weekday_assumed_never_evaluated — n=4; promotion DECLINED 9/30 — claim_check weekday (step 1e) is the carrier
 - finding_date_gate_beats_weekday_name
 ### Prediction & calibration
 - finding_update_size_must_track_instrument_distance_from_evidence — size the move by your instrument's distance from the finding; outcome≠direction
@@ -348,7 +347,6 @@
 
 ## Demoted 2026-09-17 — flow pass (PROME closeout; hot 19,233 B / 75.1% → under 70%; the +250 B that crossed the line were BOND's two promotion rows at `acd6a2167`, so this pass is chargeable to 2026-09-17, not drift; settled/predictable-trigger rows, hooks trimmed to ≤80 chars on the move, ZERO slugs deleted)
 - finding_a_pinned_reproduction_cannot_confirm_a_cure — replay fixtures, never the pinned script
-- finding_float_precision_empties_the_tie_set_and_voids_the_operator — exact-boundary fixture
 - finding_regression_test_pinned_to_a_live_surface_rots_on_the_next_edit — freeze the fixture
 - finding_a_hash_pin_authenticates_the_reference_not_your_agreement_with_it — WHICH doc, not agreement
 - finding_measure_actionable_not_gross_rate — actionable rate, never gross
@@ -389,3 +387,23 @@
 - finding_an_amendment_read_for_one_item_leaves_the_others_derived_from_the_original_live — a SELF-authored refutation has no trigger at all (n=3)
 - reference_bank_loan_sale_and_lien_record_sources — FDIC JV bid summaries (leverage column) + Fairfax CPAN lien records
 - feedback_will_sells_or_rolls_before_expiry — Will sells or rolls before expiry, never lets options lapse; cards carry a sell/roll rail (9/30)
+
+### Demoted 2026-09-30 (PROME flow pass at the prome-2a boot — hot index at 75%; settled rows: no extension since 9/7 or earlier, no daily-note cite since 9/16; ZERO slugs deleted)
+- finding_verify_reader_before_source — "tool is broken" may be a READER bug; verify the reader first
+- finding_read_the_artifacts_own_header_first — read the artifact's own header before asserting a defect in it
+- finding_scope_negative_needs_the_counterparty_standard — "it's noise/absent" stops the search; give it one-check rigor first
+- finding_claim_outlives_its_discredited_instrument — instrument fails ≠ claim false; re-test before retracting
+- finding_level_without_a_reference_has_two_failure_modes — saying nothing is a gap; attaching an adjective is a wrong finding
+- finding_verified_figures_do_not_verify_the_shape_claim — name the denominator AND beat the noise before any shape word
+- finding_impeachment_must_be_scoped_to_the_claim_not_the_source — invalidate per USE — level, delta, parse — not per source (n=2)
+- finding_composition_mask_unmask_discriminator — grade the un-maskable sub-signal, not the managed headline
+- finding_plausible_stale_value_evades_review — audit dashboards by AGE
+- finding_loadbearing_number_must_be_reproducible — the ship-gate for a count is re-running its recipe
+- finding_partial_record_written_as_final_never_heals — one partial row is permanent; audit by DISPERSION
+- finding_delivery_check_is_not_a_knowledge_check — "did it arrive?" ≠ "do they know?"; grep the owner's KB
+- finding_inherited_defect_propagates_though_both_ends_act_correctly — consumer is RIGHT not to re-derive; the defect propagates anyway
+- finding_guard_pointed_at_another_desks_surface_inherits_its_workflow — HISTORY ⇒ read the diff; LIVE-STATE ⇒ glob by commit time (n=3)
+- finding_owner_of_record_means_authoritative_not_correct — tie-break destroys the correct copy; redaction hides a falsifier
+- finding_live_claim_in_a_closed_container_is_invisible — container status wins BOTH ways; CLOSED under Live manufactures work
+- finding_ask_which_surface_the_reader_travels_not_where_the_fact_belongs — which surface does the reader consult? (n=6, 5 desks, 9/2)
+- finding_correction_to_the_sequence_survives_every_fact_check — facts re-verify clean while the ORDER inverts the call
