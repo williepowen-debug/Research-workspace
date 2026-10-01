@@ -3,7 +3,7 @@
 **Status:** 🔴 53/70 unchanged. Fuel pressure eased at the margin (GASREGW posted its first weekly decline since at least 8/31) while the lower-quality credit split kept widening. BEA's annual update made the aggregate saving cushion larger than logged; who holds it is unknown.
 **Domain:** U.S. consumer financial stress and downstream household transmission; bank-level credit belongs to REGINALD.
 **Thesis version:** v2.6.6
-**As of:** 2026-10-01 12:33 ET | **STATUS commit:** the 10/01 DR-3 addendum commit (same commit as this brief; prior `e60f23e82`) *(10/01 PROME due-row drain; prior full refresh 9/24, `domain/sources/2026-09-24_data-catchup.md`)*
+**As of:** 2026-10-01 12:58 ET | **STATUS commit:** the 10/01 full-closeout commit (same commit as this brief; prior `6b8ebb5c4`) *(10/01 PROME due-row drain; prior full refresh 9/24, `domain/sources/2026-09-24_data-catchup.md`)*
 **Position:** No real capital authority; paper sleeve unchanged except PS-0001..0005 re-pointed CRL-27 → CRL-31 (record-keeping, no capital). Structural references only, no marks.
 
 ## CROSS-DOMAIN
@@ -13,6 +13,7 @@
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
 | PROME (sent 10/01) | CRL-08 graded MISSED at its 7/06 fire (28%); CRL-27 → CRL-31; STUE rows L152/L153 read; DR-1 card leg requested; cadence WEEKLY | 🟠 | Ledger events forced by WQ-288/WQ-287. The card-leg commission is PROME's to route (Tier 1). |
+| DAEDALUS (sent 10/01) | CRL-17 forced call → NO-VERDICT-BY-INSTRUMENT (no published dollar series); forfeits a possible miss (Brier 0.3025 at 55%) | 🟠 | Scoreboard owner rules whether the token stands. |
 | HOMER (sent 10/01, `d9d9eeede`) | 3c handle: V10↔C1+A1 confirmed; V3 re-scope decided 10/05; R3 candidate | 🟡 | HOMER builds 3c by 10/09 with the CARL side labelled. |
 | LABOR (via the docket) | V16 outcome map pre-registered for the 10/02 NFP; R=0 exactly FAILS CARL's letter but passes LABOR's v8 leg | 🔴 | Two different tests on one print; never read as one. |
 | LIQUID / REGINALD | HY 312bp (9/30); CCC 1,157bp (9/29), the FRED-window high; widening reached B | 🟠 | The quality split is still widening; broad HY sits under REGINALD/RED's >320 sustain-3 bars. |
@@ -23,7 +24,7 @@
 | From | Input | Expected by | Why it matters | How it changes my view |
 |---|---|---|---|---|
 | LABOR / BLS | September NFP + net Jul–Aug revisions | Fri 10/2 08:30 | V16 drop-back print 2 of 2 | A (S>0, R>0) → 4→3 candidate to Will; anything else resets the count. |
-| DEWEY | DR-1 card leg (FDM tables) | proposed 11/13 | DR-3 is done: SCORED 10/01, kill NOT fired (trade-down half restored after style factors; premium half not, staged to RED) | Card-leg wedge vs the 50bps kill. |
+| DEWEY | DR-1 card leg (FDM tables) | proposed 11/13 | DR-3 is done: SCORED 10/01, kill NOT fired (trade-down half restored after style factors; premium leg UNRESOLVED, a tie and window-unstable, per RED 10/01, adopted) | Card-leg wedge vs the 50bps kill. |
 | PROME / DEWEY | DR-1 card leg (issuer FDM tables) | proposed 11/13 | DR-1 PARTIAL until a private leg lands | Wedge vs the 50bps class-wide kill. |
 | FSA | Data Center refresh with 9/30 data | ~mid/late Dec (inferred) | First public proxy for CRL-13 (a stock, not a wave rate) | Non-selection read; RAP enrollment. |
 | STUE | ES-01/04/06 grades | 10/2 | Cure vs inflow behind slower default growth | STUE dark; CARL flags or spawns it. |
@@ -34,6 +35,7 @@
 - Against the thesis: the saving rate re-based to 4.6% (Jul) / 4.1% (Aug); BofA's closed card-spending K; flat-to-better VantageScore DQ; slower student-default growth; claims 197K.
 - For the thesis: the CCC split at FRED-window highs; KBRA non-prime auto losses up; 3.5M federal borrowers 30+ late; FL #1 in foreclosure starts; August's 0.5pp saving drawdown as spending outran income.
 - Student loans: wave-1 SAVE deadlines passed 9/29 with no public selection count. The one easing lever (1% auto-pay cut) had its deadline extended to 12/31.
+- Ledger: CRL-08 MISSED (7/06 fire, 28%), CRL-17 NO-VERDICT (contestable), CRL-27 retired → CRL-31 50%, DR-3 kill not fired; premium leg UNRESOLVED (tie). 'K converging downward' is NOT an earned upgrade (RED 10/01).
 - Score unchanged does not mean evidence unchanged; each observation carries its own date and basis in STATUS.
 
 ## CALIBRATION

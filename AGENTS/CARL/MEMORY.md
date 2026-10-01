@@ -2,7 +2,7 @@
 
 Persistent guidance, not session history. Local100-line cap and root32550-byte budget both apply.
 Rotated September16: full prior text is preserved verbatim in `archive/2026-09-16_closeout/MEMORY.md`; CRC/SHA and obligation mapping in `domain/sources/2026-09-16_closeout-receipt.json`.
-Recheck bytes on any append and every closeout; dated review October1. Current rules below retain every prior finding; examples and historical numbers are in the archive, not live data.
+Recheck bytes on any append and every closeout; dated review October1 DONE 2026-10-01 (read_cap_check: under budget, 60 lines; nothing promoted or pruned); next dated review 2026-11-01. Current rules below retain every prior finding; examples and historical numbers are in the archive, not live data.
 
 ## Will’s guidance
 - [2026-06-08] **Domain discipline — CARL focuses strictly on consumer stress.** Don't synthesize upstream (Iran kinetics, OPEC+ mechanics, Brent forward curve) when downstream agents (HAWK/BRENT) own it. CARL's interest in upstream events is only the consumer transmission (gas pump pass-through 17-18d, food/energy CPI, real DPI). The point of domains is so each agent's context window doesn't blow up trying to synthesize the entire world. Read the data file if needed for context; do NOT add Iran-specific rows to STATUS.

@@ -8,6 +8,14 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-10-01 (3) — CRL-17 FORCED CALL: NO-VERDICT-BY-INSTRUMENT (not scored)
+
+The 8/15 trim pre-registered a forced call at the window end (9/30): *"resolve MISSED or UNRESOLVABLE on the record, do NOT roll."* Written 2026-10-01 12:54 ET (one day late; CARL was dark 9/30). **UNRESOLVABLE → `NO-VERDICT`, excluded from Brier.** The instrument is "CARL composite estimate", which is not a published series. A dated web search on 10/01 found no dollar measure of small-business owner income, and grading against CARL's own estimate would be circular.
+**Why not MISSED (the CRL-16 precedent):** CRL-16 was graded MISSED because its observable links ran its own invalidation. CRL-17's links are mixed: NFIB 99.8 in July, then 98.7 in August, when the earnings trend fell back to −19% and sales to −9%. Its three-leg invalidation was not met, since NFIB never printed >100.
+⚠️ **Disclosed asymmetry:** this token forfeits a possible miss (Brier 0.3025 at the as-made 55%). DAEDALUS owns the scoreboard and may contest it; PROME has been told. Old view: OPEN 25%. New view: NO-VERDICT, no successor until a published dollar series exists.
+
+---
+
 ## 2026-10-01 (2) — CARL-DR-3 SCORED: kill NOT fired; the "defensive names down = K-shape refuted" read WITHDRAWN
 
 **DEWEY delivered DR-3** (`e648c590e`, 34 days late). Kill as pre-registered 7/31: *"if no defensible cut restores the cohort axis, CARL logs a scored strike against the equity-expression leg (CRL-27 confidence cut) and the sleeve stays paper. If the leverage/duration factor explains AZO/ORLY, the 'defensive names down = K-shape refuted' read is ALSO wrong."*
@@ -15,6 +23,7 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 - **Clause 2: the leverage/duration branch does not fire** (CARL ruling: low-volatility style is not counted as "duration"; rate β, valuation and buyback leverage were all tested and rejected; the 10Y moved +26bp). **The refuted-read is withdrawn anyway** on DEWEY's other finding: ORLY is low-vol style; AZO is style plus earnings-day LIFO margin; the VALUE group outperformed.
 - **PS-0005:** AZO FQ4 domestic SSS +1.6% (8-K, CARL-verified) vs the +1.0% line, so not invalidated. DIY transactions fell >5% (a demand caveat, kept on the row).
 - **Not claimed:** a confirm. The labels are DEWEY's and not blind, the raw cuts are noise-level, and the premium-leg failure is staged to RED (`handoff_RED/COUNTER_LOG.md`), not scored. Score 53/70 and every confidence are unchanged. KB-CARL-502.
+- **RED verdict, same day (12:5x ET, adopted):** the premium leg is a statistical TIE that flips sign by window, and "converging downward" as phrased could not lose. It is relabelled **UNRESOLVED (tie, window-unstable)** everywhere NEXUS reads. Three discriminators are pre-registered on the 10/20 Q3-prints docket row (AXP billed business + write-offs vs COF/SYF; premium traffic; an IGV control). The equity expression tests the trade-down half only.
 
 ---
 
