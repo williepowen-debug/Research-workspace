@@ -1,57 +1,56 @@
-# BRENT SCRATCH — September 28, 2026 (Monday; brent-d2, three legs: 14:34–15:54 · 16:22–17:2x · evening to 18:24 ET by `date`)
+# BRENT SCRATCH — October 1, 2026 (Thursday; brent-1001, PROME prome-0c Tier-1 spawn; boot 13:17 ET by `date`)
 
 ## CHANGES SINCE LAST SESSION
-- **Trump on record Sun 9/27** (Bloomberg/Yahoo 17:55 EDT): a diesel export ban is under consideration, *"we may do it"*. No order. WH (anonymous) 9/28: "no decision". Wright: voluntary curbs.
-- **Will's six-item scope at ~18:10 ET = WQ-329** (RULINGS § R-2026-09-28-WQ329). TERRY is spawned on the VLO management proposal (DOCKET L535, prep only).
-- **FORGE shows USO Sep-30 $159C ×2 OPEN** (bought 9/18, −$921.33). BRENT's TRADE never carried it until this cleanup. WQ-316 is Will's; TERRY recommends SELL; card hard stop Wed 9/30 15:00 ET.
+- **The 9/30 session died in the box crash (~15:0x)** after its last commit `98d07c696` (12:01). Its grades are in STATUS/THESIS: BRT-29 FAILED · BRT-12 VOID · **F-b Cushing FIRED** (THESIS v5.11) · BZZ26 graded from 9/30. It wrote no SCRATCH or NEXUS write-back; both are rewritten here.
+- **Will, 9/30:** sold the USO Sep-30 $159C ×2 @ $0.01 (−$919.46) and rolled into the USO Oct-09 $150C ×2 @ $2.99. On 10/1 he sold 1 of 2 @ $3.92 (+$91.67), leaving ×1. WQ-346 RULED (BRT-31 v2). Standing practice: **sell or roll every option before expiry** (USER.md).
+- **Supply news:** Russia's producer diesel ban was extended to 10/31. China halted product exports beyond HK/Macau until Beijing guidance after Golden Week (10/7). The US offered the last ≤40M bbl SPR exchange (deliveries Nov–Dec). MRPL cancelled spot tenders. Four Hormuz hulls were hit 9/28–9/29 (none sunk). FALCON saw a new non-flare heat source at Ghawar/Ain Dar 9/29–9/30 (strike NOT established). US export ban: still unsigned; the WH is leaning to red-dyed diesel.
 
 ## WHAT I DID THIS SESSION
-- **Leg 1 (14:34–15:54):** settle-window proxies; Brent graded-contract RULE; the missed $120 Dated line recorded; COT probe fixed; news sweep. Detail: [archive](archive/STATUS_dated_2026-09-28_1434.md).
-- **Leg 2:**
-  - post-settle tape;
-  - export-ban risk note: breach timings **withdrawn after CATO MR19** (×42 on retail ≠ crack), with corrections sent to WALTER (-016) and TERRY;
-  - memory n+3 on `finding_instrument_measures_a_superset_of_the_thesis_subject`.
-- **Leg 3 (WQ-329):**
-  1. **Assignments routed:** PROME `c3e185152`, WALTER `537ca0e16`. WALTER's R3 test: the lane would have missed Sunday. 6 terms + query **LANDED** (RESEARCH-INTAKE `d5d8c9e`; BRENT concur `590ca37fa`).
-  2. **TRADE.md cleanup:** before-image `archive/2026-09-28_cleanup/` (26,511 B, crc32 `7cb1efe4`); holdings refreshed from FORGE; now 14.3 KB (44%). Adds VLO 1 sh, the USO 159C ×2 and an unresolved-broker-facts table. Obligations § 2026-09-28.
-  3. **INCIDENTS:** RF-054 Moscow (halted, A-2), RF-055 Novoshakhtinsk (suspended, A-1), RF-056 Ilsky (halt CLAIMED by the attacker side, C-3, MONITORING); RF-050 points to RF-056. HAWK STRIKES has none of the three.
-  4. **Measurement** (18:20–18:22): [VLO observables table](research/2026-09-28_vlo-thesis-observables/NOTE.md). Hub NYH−USGC 1.5¢ (bottom decile), Gulf margin $113, 1-day noise ≈ $5. No threshold inferred; 2022 confounded.
-  5. **[Phase map](research/2026-09-28_phase-map-this-week.md):** proposals P1–P4 to Will.
-  6. **[Entitlements memo](research/2026-09-28_paid-data-entitlements-check.md):** the LSEG and S&P connectors exist but are unauthenticated; the licence is unknown.
-  7. **Rotations:** STATUS 91% → 68% (9/28 14:34 block and the 9/07 pointer rotated; 13 graded CATALYSTS rows pruned → `archive/CATALYSTS_pruned_2026-09-28.tsv`, crc32 `325ffc89`). NEXUS 93% → 75%, with VIEW rewritten.
-- **$0. No trade, band, grade or thesis change.**
+- **L0 drain:** 13 items = 13 board_log rows = 13 `git mv`s. Graded the three ACTIONs: China (-008), SPR (-019), the 9/30 squeeze (-006). **Nothing fires.** Note: [research/2026-10-01_l0-drain/NOTE.md](research/2026-10-01_l0-drain/NOTE.md).
+- **VLO-HELD-01:** B1 NOT FIRED (FR + public inspection + WH, 13:20–13:2x ET). Leg A NOT FIRED (9/30 Nov crack proxy $106.51).
+- **BRT-31 REGISTERED** (WQ-346): row, note, CHANGELOG, THESIS version-line note, RULINGS § R-2026-10-01-WQ345-346, banner on the v2 draft.
+- **TRADE.md corrected from FORGE:** 159C sold; 150C ×1 `expiry=2026-10-09`. `pending_receipts` rc=0; guard falsified (flags it on 10/10).
+- **9/30 settle-window proxies published.** METI August read at the primary, packet to SAM (`ee0f0d231`). OSPREY's Bloomberg ask answered (`4e571c612`).
+- **CATALYSTS:**
+  - Russia ban graded EXTENDED, successor row 10/31;
+  - XLE row graded;
+  - new rows: SPR bids 10/06, China guidance 10/08.
+- **REGISTRY header:** vendor expireDate convention clarified (BZ = day after; CL/HO = last trade day).
+- **DAEDALUS WQ-252 A′:** states my form correctly, with 2 notes (in the PROME memo).
+- **Rotations:**
+  - STATUS 91% → 83% (9/28 PM block → `archive/STATUS_dated_2026-09-28_PM.md`, 3430 B crc32 `9ff2228d`);
+  - NEXUS banners → `archive/NEXUS_BRIEF_banners_2026-09-28_to_09-18.md` (3040 B crc32 `01317ace`);
+  - STANDING STATE re-stamped 10/1 (JWLA-035 re-read; archive CRCs reproduced);
+  - TRACKER re-stamped.
+- **$0. No trade, band, threshold or score change.**
 
 ## ⚠️ MY ERRORS / NEAR-MISSES
-- **×42 on a retail scenario published as crack breach dates** (CATO MR19). It reached a BOARD headline within ~15 min. Fixed by four corrections; memory n+3.
-- **Typed clocks again:** I wrote "19:xx", "~19:0x", "18:4x" and "~18:5x" when `date` read 18:2x. The first three were fixed in my files. The "~18:5x" in `PROME/inbox/processed/…CONCUR-WALTER…` stays (consumed; the commit time is the truth). The memory `finding_a_stamp_written_from_narrative_drifts_from_the_wall_clock` applies.
-- The earlier news sweep missed Trump's Sunday line. The lane terms now cover it (~1-day cadence).
+- My REGISTRY sentence "vendor expireDate = the day AFTER last trade" was true only for Brent. Ported to CL/HO it would switch the crack a day early. Caught while checking DAEDALUS's dates; clarified.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **Tue 9/29:** last BZX26 GRADED settle (ICE Nov last trade Wed 9/30). HENRY's BRT-12 blind read.
-2. **Wed 9/30 ~10:30:**
-   - Grade **BRT-29** + **BRT-12** (PREP `setups/2026-09-25_Q3-predictions-grade-PREP.md`).
-   - **Cushing:** F-b's second week, graded only on the 9/2 CHANGELOG letter.
-   - **Distillate exports** (DOCKET L531): consistent-with, not proof.
-   - **Switch to BZZ26:** F-a now grades under **WQ-331 P1 (RULED 18:36, THESIS v5.10)**: pinned month + roll-step decomposition (old pair last / new pair first / residual). **A calendar step is never a signal.**
-   - Russia diesel-ban decree.
-   - After the grade, draft the **Path-B successor letter** (WQ-331 P3: named series, window, base rate, no-verdict band) → packet to `PROME/inbox/` for Will's separate word **before the next WPSR (Wed 10/7)**. DRAFT ONLY; do not register.
-3. **Wed 9/30 15:00:** USO 159C ×2 hard stop per TERRY's card. Will's hand (WQ-316). Record the outcome in TRADE when a receipt arrives.
-4. Read EIA retail wk-9/28. Watch for an export-ban order (IMMEDIATE ⇒ VLO table rows #1–#4 + packets to TERRY/HENRY/WALTER).
-5. **Fri 10/2** COT #8 · **Sun 10/4** OPEC+ · **~Mon 10/5** Aramco OSP (Yanbu record-only) · **Tue 10/6** L471 sitting (F1 month) · **Sat 10/24** WQ-264 run ends.
-6. INCIDENTS still owed: Kuibyshev + Bashneft-UNPZ 9/22 (hit; processing status unstated; OSPREY packet 9/24). 11 ACTIVE rows past 60d.
+1. **Thu 10/1 after ~14:30 ET (this session's phase 2, on PROME's re-ping):** publish the 10/1 settle-window proxies (BZZ26, CLX26, HOX26, Nov/Dec cracks) in STATUS + the PROME memo.
+2. **Fri 10/2 ~15:30 ET:** COT-35B #8 (as-of 9/29). Run `cot_grade.py --expect 2026-09-29`; cross-check the raw `f_disagg.txt`. COT_VINTAGES is +12d stale until then.
+3. **Sun 10/4:** OPEC+ (a November number only; grade on the Secretariat text).
+4. **~Mon 10/5:** Aramco Nov OSP (Yanbu record-only, WQ-331 P4).
+5. **Tue 10/6:** WQ-252 crack-month sitting (L471). SPR exchange bids close 11:00 CT, then read the DOE award volume and return terms.
+6. **Wed 10/7 WPSR:** Cushing after F-b; distillate exports vs curbs; the SPR draw.
+7. **Thu 10/8:** China export guidance after Golden Week; read the named Nov cracks.
+8. **Thu 10/15:** BRT-31 first window print (w/e 10/9).
+9. **Sat 10/24:** WQ-264 shadow run ends; the Saudi resolver registers only after it.
+10. **Owed, carried:**
+    - INCIDENTS: Kuibyshev + Bashneft-UNPZ 9/22 (processing status unstated); 11 ACTIVE rows past 60d.
+    - Path-B successor letter: DONE (BRT-31).
 
 ## OPEN THREADS / WATCHES
-- 🔴 **US diesel export ban:** policy unset; refiner response unknown.
-- 🔴 **Yanbu restart:** REPORTED only.
-- 🟠 **TERRY's VLO proposal (L535):** returns to Will; BRENT input = the observables table.
-- ✅ **Phase-map WQ-331 RULED 18:36:** P1/P2/P4 encoded (THESIS v5.10); P3 = draft owed after 9/30. **WQ-330 ruled BOTH:** `GATE-TERRY-VLO-HELD-01` registered on TERRY's card (A: $90.16 on the Nov basis; B1: signed text). It's TERRY's gate; BRENT's observables table is cited in its source cell.
-- 🟡 **Data:** ICE gasoil is unavailable (entitlements memo); CME settles are blocked.
+- 🔴 **US diesel export ban:** unsigned. A signed text = VLO-HELD-01 B1 ⇒ packets to TERRY/HENRY/WALTER the same day.
+- 🟠 **China product-export halt:** size UNKNOWN until GAC data (~11/20); restart date unset.
+- 🟠 **Ghawar/Ain Dar heat source:** FALCON's lane. A Saudi R1 statement or a FAL-01-class output figure would be the first thing that could matter to BG-02's successor.
+- 🟡 **METI Kuwait/Qatar:** do joint-stockpile draws book as imports? SAM's MOF table is the cross-check.
 
 ## POSITION DECISIONS PENDING
-- **WQ-316 (Will): USO Sep-30 $159C ×2, expires Wed.**
-- VLO: no rule live; TERRY proposal pending.
-- USO 37 sh: no rule (WQ-200 declined).
+- **USO Oct-09 $150C ×1:** Will's hand, sell-or-roll before Fri 10/09 (TERRY `MGMT-USO150C-OCT09` rail 15:00 ET).
+- VLO 1 sh: exit rule VLO-HELD-01 (TERRY grades). USO 37 sh: hand-managed (WQ-200). WQ-192 STAND DOWN.
 
 ## MAIL STATE
-- **Inbox:** clear at 19:01 ET. Today: 9 consumed = 9 board_log rows (WALTER -007/-001/-003(deferred)/-008/-010/-019/-020, the WALTER R3 pointer, PROME's WQ-331 ruling), all `git mv`'d. -019/-020 (Yanbu ~3.5 mb/d, one source) are record-only under P4.
-- **Sent in legs 2–3 (all committed):** PROME ×2 (`c3e185152` scope, `590ca37fa` concur) · WALTER ×3 (`6691e5661`, `2d508e43c`, `537ca0e16`) · TERRY ×2 (`4f92f6a15`, `376385da6`). Leg 1's sends are in its archived block. No open outbox.
+- **Inbox:** clear at 13:28 ET (13 consumed, all logged + moved).
+- **Sent (all committed):** SAM `ee0f0d231` · OSPREY `4e571c612` · PROME memo `cab0090d8`. SAM and OSPREY are DARK; their packets wait in their inboxes. No open outbox.
