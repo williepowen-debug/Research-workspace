@@ -706,3 +706,31 @@ Minutes (9/29): claims agent, extension of schedules deadline, utilities (interi
 
 ### R5. New FL condo/HOA Chapter 11s, 9/26–10/1 — NONE FOUND
 Perimeter: CourtListener, S.D./M.D./N.D. Fla., association-type names from 9/20 + every Ch.11 from 9/26 (8 cases, none an association). Near-miss: *Anderson v. Haven House No. 4, Inc., a Condominium* (S.D. Fla. adv. 26-01346, 9/30) — association is a removed-suit DEFENDANT, not a debtor. Lag risk: feed may trail filings. Count stays **≥9, descriptive, ungraded.**
+
+### R6. News sweep 9/28 → 10/1 (researcher; ⭐ = re-read by CORAL at primary)
+| Line | Change | Figure (dated) | Tier |
+|---|---|---|---|
+| ⭐ Citizens PIF | Weekly headline below Aug month-end | **254,918 as of 9/25/26** (citizensfla.com/news, re-read 10/1) vs 266,231 (8/31) = **−11,313**. Less the 9/15 round (10,210 personal + 40 commercial) ⇒ **≈ −1,063 ex-round in 25 days** vs Aug ex-round ≈ −242 (personal −93, commercial −149). ⚠️ **PRELIMINARY: weekly TOTAL headline vs monthly product-line report — basis not confirmed equal; round may not be fully removed by 9/25.** 9/30 month-end not posted (404, 10/1). Year-end ~248K projection = PRESS (FL Realtors) | PRIMARY count / derived ex-round |
+| ⭐ Case-Shiller July (pub 9/29) | Tampa negative YoY | **Tampa −0.73% YoY, −0.09% MoM (NSA, 374.05); Miami +3.53% YoY, +0.39% MoM**; National +1.93%, 20-city +2.47% (press.spglobal.com 2026-09-29, re-read). ⛔ **Single-family repeat-sales — blind to condos** (same perimeter limit as FMHPI) | PRIMARY |
+| Realtor.com Sept (Tampa) | Asking price falling | median list **$385,398 −6.6% YoY**; $/sf −6.0% (2nd-worst of top 50); **27.5% of listings cut** (US 20.8%); active −3.8%, new listings −2.1% | PRESS (realtor.com blocked) |
+| FL OIR | Atlantic Coast Life (A-CAP, SC) licence suspended eff 10/1 after SC rehabilitation — **LIFE insurer, not property** | — | PRIMARY |
+| Property insurer failures | **None new**; DFS receivership list unchanged (UPC, FedNat, Weston, Southern Fidelity); no new FIGA assessment; no Demotech action found | — | PRIMARY (DFS/OIR) |
+| NHC 10/1 8 AM | No active storms; "formation is not expected over the next 7 days"; season 8 named / 0 hurricanes | — | PRIMARY |
+| Amendment 3 | Yes-side **$18M (all FL Realtors)** vs opposition **$537,357** (~33:1, as of 9/25); Common Cause FL joins opposition; a "Pioneer Institute 74%" poll (504 RV) is press-reported with no original found — **NOT ADOPTED** | — | PRESS |
+| VLY | 8-K: acquiring Bluevine (fintech) **$340M** (~$255M cash + 6.3M sh), signed 9/27 — acquisition, not credit | — | PRIMARY (EDGAR) |
+| Q3 dates | **BKU 10/21 BMO** (company release 9/22); SSB ~10/26, AMTB ~10/22 = aggregator estimates | — | PRIMARY (BKU) / PRESS |
+| Biscayne 21 | No court sign-off found; holdout count conflicts (10 Bisnow vs 6 Armstrong Teasdale) | — | PRESS |
+| Searched, nothing new | condo bankruptcies/receiverships/terminations · Fannie/Freddie/DBPR condo rules · bank 8-Ks (EDGAR since 9/20, except VLY) · ATTOM Aug (not out) · VISIT FLORIDA / Census · NFIP (12/11 unchanged) · FIGA 1% ended for policies eff 10/1+ · min wage $15 from 9/30 (legal/press) | — | — |
+- **Inference audit (13a) on Tampa:** asking-price falling (Realtor.com −6.6%) + repeat-sales SF slightly negative (C-S −0.73%) + MSI series-high is CONSISTENT with the supply-side leg. Rival: mix shift in listings (asking median is a mix statistic; C-S is not but excludes condos). Velocity/realization legs not in hand → not a mechanism claim. Logged, not interpreted.
+
+### R7. Fort Lauderdale apartments lead (SIG-W-20260929-013, Will-directed, n=1 anecdote) — DATA CHECK RUN (KB ML-CORAL-100)
+Full report → `sources/ftl_broward_multifamily_check_2026-10-01.md` (researcher; ⭐ C&W re-read by CORAL at the PDF).
+| Claim | Data | Verdict |
+|---|---|---|
+| "Vacancy everywhere" | ⭐ **C&W/CoStar Broward Q2-26 stabilized occupancy 94.2% (+20bp YoY, highest in 2+ yrs)**; Yardi Matrix Jul-26 94.9% flat (A 95.3%, **C 93.0%, −2.0pp**); FTL-West 91% | **CONTRADICTED for established stock**; weak pockets = Class C, FTL-West |
+| Renewals raised aggressively | Yardi Jul-26: renewals **+3.1%** vs new leases **−1.9%** | **SUPPORTED** (the renewal/new-lease gap) |
+| New building ~75% vacant after 7 mo | Untestable (unnamed). ⛔ **Every headline occupancy EXCLUDES lease-up by construction** (C&W also excludes <18-mo deliveries). National pace 10–11 leases/mo ⇒ 25% at 7 mo ≈ normal for ~300 units, fast for 500+ | **UNTESTABLE — and outside every instrument** |
+| $2,100 / 480 sf studio ($4.38/sf) | RentCafe downtown FTL studio $2,342 / 585 sf = $4.00/sf (Aug-26) | **IN LINE** (small units price higher per sf) |
+| "Maturity wall" | No 2026 distress on an operating Broward MF asset found (press only; loan-level data paywalled); one Sunrise 144-unit loan to SS Apr-2025 | **UNTESTED** |
+- ⭐ **What the data DOES say:** pricing, not occupancy — ⭐ **C&W effective rent $2,386, −1.5% YoY; Class A −2.2% to $2,706, lowest since 2021; 6 of 9 submarkets down**; Yardi concessions 7.0% of units (~1.1 mo). ⭐ **Supply wave:** C&W H1-26 completions ~2,700 = strongest H1 in market history; *"vacancy is expected to rise, likely approaching the market's 2023 peak"*; Yardi 2026 completions forecast 7,078 vs 3,432 absorbed T12 (forecasts disagree by compiler: M&M 3,300 / C&W ~6,400 est. / Yardi 7,078 — not mixed).
+- **CORAL read:** the anecdote's mechanism (empty buildings) is NOT in the data for stabilized stock; the real FL MF stress is **rent concession under a record delivery wave** — a NOI/valuation channel for lease-up loans, not an occupancy collapse. No colour moves; CRE pillar stays 🟡. **No threshold registered** (Will 9/28: no trigger without a written basis); researcher's "occupancy <93.5% / Class A < −3%" are suggestions, NOT adopted. Next observable: C&W/Yardi Q3-26 (~late Oct–Nov). Related, in WALTER's queue (not consumed): CREED 10/01 — Trepp FL MF insurance cost 2025 **−6.2%** median YoY (vs +42.1% in 2023).
