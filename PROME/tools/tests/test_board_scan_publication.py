@@ -2,7 +2,7 @@
 """Falsification set for board_scan.py's publication barrier and consumed ledger (2026-09-30, CATO RC1).
 
 Acceptance: PROME/tools/tests/ACCEPTANCE_board_scan_publication_2026-09-30.md (written before the edit;
-amended after independent read 1, whose findings F1-F6 each have a test here, named in the docstring).
+amended after independent reads 1 and 2; each finding F1-F6 and R2-1..R2-5 has a test here, named in its docstring).
 Every test builds a throwaway git repository in a tempdir — never the live tree.
 Run: python3 -W error::ResourceWarning -m unittest PROME/tools/tests/test_board_scan_publication.py
 """
@@ -12,6 +12,7 @@ import subprocess
 import sys
 import tempfile
 import unittest
+import urllib.parse
 from pathlib import Path
 from unittest.mock import patch
 
@@ -68,8 +69,8 @@ class Repo(unittest.TestCase):
     def consumed(self):
         if not self.ledger.exists():
             return {}
-        return {l.split("\t")[0]: l.split("\t")[1]
-                for l in self.ledger.read_text().splitlines() if l and not l.startswith("#")}
+        return {urllib.parse.unquote(l.split("\t")[0]): l.split("\t")[1]
+                for l in self.ledger.read_text().split("\n") if l and not l.startswith("#")}
 
     def set_cursor(self, value):
         self.cursor.parent.mkdir(parents=True, exist_ok=True)
@@ -174,10 +175,13 @@ class Unpublished(Repo):
         p = self.write(2, action="PROME", head="top level")
         self.publish(p)
         (self.board / "drafts").mkdir()
-        (self.board / "drafts" / p.name).write_text("x")
+        shadow = self.board / "drafts" / p.name
+        shadow.write_text(self.text(2, action="BRENT", head="a committed copy in a subfolder"))
+        self.publish(shadow)
         rc, out = self.scan("--advance")
         self.assertEqual(rc, 1)
         self.assertIn("top level", out)
+        self.assertNotIn("subfolder", out)
 
     def test_guard_falsified_if_working_tree_files_count_as_published_the_draft_is_consumed(self):
         """The tests above depend on the HEAD barrier: replace it with the working tree and the defect returns."""
@@ -201,7 +205,17 @@ class Unreadable(Repo):
         "action not a list": GOOD.replace("action: [{action}]", "action: PROME"),
         "unstamped": GOOD.replace("time_dispatched: 2026-09-30T12:00:00Z", "time_dispatched:"),
         "duplicate action key (read-1 F6)": GOOD.replace("action: [{action}]", "action: [PROME]\naction: [{action}]"),
-        "byte-order mark": "﻿" + GOOD,
+        "byte-order mark": "\ufeff" + GOOD,
+        "indented second action inside a block scalar (read-2 R2-3)":
+            GOOD.replace("action: [{action}]", "action: [PROME]\ndispatch_note: |\n  action: [{action}]"),
+        "nested mapping carrying its own action (read-2 R2-3)":
+            GOOD.replace("action: [{action}]", "action: [PROME]\nprior:\n  action: [{action}]"),
+        "quoted second action key (read-2 R2-3)":
+            GOOD.replace("action: [{action}]", "action: [{action}]\n\"action\": [PROME]"),
+        "capitalised second action key": GOOD.replace("action: [{action}]", "action: [{action}]\nAction: [PROME]"),
+        "the only action key is quoted": GOOD.replace("action: [{action}]", '"action": [{action}]'),
+        "the only info key is indented": GOOD.replace("info: [{info}]", "  info: [{info}]"),
+        "PROME inside a compound list element": GOOD.replace("action: [{action}]", "action: [PROME/TERRY]"),
     }
 
     def test_each_incomplete_committed_file_is_a_hard_stop_not_a_consume(self):
@@ -222,9 +236,48 @@ class Unreadable(Repo):
         """Read-1 F9: nothing changed after the acknowledgement, so nothing re-surfaces."""
         body = GOOD.replace("signal_id: {sid}\n", "").replace("{action}", "PROME").replace("{info}", "").replace("{head}", "h")
         self.publish(self.write(2, body=body))
+        p = self.board / "SIG-W-20260930-002-x.md"
         self.scan("--advance", "--ack-actions")
         rc, out = self.scan("--advance")
         self.assertEqual((rc, "nothing new" in out), (0, True))
+        p.write_text(p.read_text() + "\na body-only edit\n")           # read-2 W3
+        self.publish(p, msg="body edit")
+        rc, out = self.scan("--advance")
+        self.assertEqual(rc, 0, out)
+        self.assertNotIn("ACTION ADDED", out)
+
+    def test_non_id_filename_can_be_acknowledged_without_bricking_the_ledger(self):
+        """Read-1 F10: the writer may never emit a row its own reader rejects."""
+        odd = self.board / "SIG-W-draft-oops.md"
+        odd.write_text(self.text(1))
+        self.publish(odd)
+        self.assertEqual(self.scan("--advance")[0], 1)
+        self.scan("--advance", "--ack-actions")
+        self.assertEqual(self.consumed(), {"SIG-W-draft-oops": "U"})
+        self.assertEqual(self.scan("--advance")[0], 0)
+
+
+class OddNames(Repo):
+    def test_names_with_separators_are_consumed_and_the_ledger_still_reads(self):
+        """Read-2 R2-4: a tab, CR or Unicode line separator in a filename must not brick every later run."""
+        for label, ch in {"tab": chr(9), "carriage return": chr(13), "U+2028": chr(0x2028), "U+0085": chr(0x85)}.items():
+            with self.subTest(label):
+                self.setUp()
+                p = self.write(1, info="PROME", slug="a" + ch + "b")
+                self.publish(p)
+                rc, out = self.scan("--advance")
+                self.assertEqual(rc, 0, out)
+                self.assertEqual(self.consumed(), {p.name[:-3]: "I"})
+                rc, out = self.scan("--advance")
+                self.assertEqual((rc, "nothing new" in out), (0, True), out)
+
+    def test_writer_refuses_a_ledger_its_reader_would_read_differently(self):
+        """Falsify the write-back guard: with the key encoding disabled the save must fail closed, rc 2."""
+        self.publish(self.write(1, info="PROME", slug="a" + chr(9) + "b"))
+        with patch.object(board_scan, "_enc", lambda stem: stem):
+            rc, out = self.scan("--advance")
+        self.assertEqual(rc, 2, out)
+        self.assertFalse(self.ledger.exists())
 
 
 class LateArrivals(Repo):
@@ -259,8 +312,14 @@ class LateArrivals(Repo):
             "unbracketed": lambda t: t.replace("action: [PROME]", "action: PROME"),
             "block list": lambda t: t.replace("action: [PROME]", "action:\n  - PROME"),
             "lower case unbracketed": lambda t: t.replace("action: [PROME]", "action: prome"),
-            "byte-order mark": lambda t: "﻿" + t,
+            "byte-order mark": lambda t: "\ufeff" + t,
             "duplicate key": lambda t: t.replace("action: [PROME]", "action: [PROME]\naction: [BRENT]"),
+            "duplicate key, PROME absent (only the repeat check sees it)":
+                lambda t: t.replace("action: [PROME]", "action: [BRENT]\naction: [TERRY]"),
+            "double-quoted key (read-2 R2-2)": lambda t: t.replace("action: [PROME]", '"action": [PROME]'),
+            "single-quoted key (read-2 R2-2)": lambda t: t.replace("action: [PROME]", "'action': [PROME]"),
+            "stray --- before the action line (read-2 R2-2)": lambda t: t.replace("action: [PROME]", "---\naction: [PROME]"),
+            "action key replaced by legacy to: (read-2 R2-2)": lambda t: t.replace("action: [PROME]", "to: [PROME]"),
         }
         for label, mangle in shapes.items():
             with self.subTest(label):
@@ -273,6 +332,46 @@ class LateArrivals(Repo):
                 rc, out = self.scan("--advance")
                 self.assertEqual(rc, 1, out)
                 self.assertEqual(self.consumed()["SIG-W-20260930-001-x"], "I")
+
+    def test_reader_added_after_an_earlier_removal_resurfaces(self):
+        """Read-2 R2-1: 'late' is decided against the blob that was consumed, not a sticky class."""
+        p = self.write(1, action="PROME", head="first ask")
+        self.publish(p)
+        self.scan("--advance", "--ack-actions")
+        p.write_text(self.text(1, action="TERRY", head="ask withdrawn"))
+        self.publish(p, msg="walter removes PROME")
+        rc, out = self.scan("--advance")
+        self.assertEqual(rc, 0, out)
+        self.assertIn("routing CHANGED", out)                 # read-2 R2-5: said, not hidden
+        self.assertIn("action → not routed", out)
+        self.assertEqual(self.consumed()["SIG-W-20260930-001-x"], "O")
+        p.write_text(self.text(1, action="PROME", head="a NEW ask"))
+        self.publish(p, msg="walter routes it back")
+        rc, out = self.scan("--advance")
+        self.assertEqual(rc, 1, out)
+        self.assertIn("a NEW ask", out)
+
+    def test_info_added_to_a_consumed_signal_is_listed_not_called_unchanged(self):
+        """Read-2 R2-5."""
+        p = self.write(1)
+        self.publish(p)
+        self.scan("--advance")
+        p.write_text(self.text(1, info="PROME", head="now copied in"))
+        self.publish(p, msg="amend")
+        rc, out = self.scan("--advance")
+        self.assertEqual(rc, 0, out)
+        self.assertIn("routing CHANGED", out)
+        self.assertIn("not routed → info", out)
+        self.assertNotIn("routing unchanged", out)
+        self.assertEqual(self.consumed()["SIG-W-20260930-001-x"], "I")
+
+    def test_consumed_blob_that_no_longer_exists_makes_the_signal_new_again(self):
+        self.publish(self.write(1, action="PROME", head="still an ask"))
+        self.ledger.parent.mkdir(parents=True, exist_ok=True)
+        self.ledger.write_text("SIG-W-20260930-001-x\tO\t" + "f" * 40 + "\n")
+        rc, out = self.scan("--advance")
+        self.assertEqual(rc, 1, out)
+        self.assertIn("still an ask", out)
 
     def test_amendment_that_leaves_routing_alone_is_quiet(self):
         p = self.write(1, info="PROME")
@@ -318,12 +417,29 @@ class Migration(Repo):
         self.assertEqual(rc, 1)
         self.assertIn("was a draft at seeding", out)
 
-    def test_seeding_lists_the_action_rows_it_records_as_dispositioned(self):
-        self.publish(self.write(1, action="PROME"), self.write(2))
+    def test_seed_never_records_an_action_row(self):
+        """Read-1 F3 completed at read 2: a seed cannot acknowledge an action; the row surfaces instead."""
+        self.publish(self.write(1, action="PROME", head="old ask"), self.write(2))
         self.set_cursor("SIG-W-20260930-002")
         rc, out = self.scan("--seed-from-cursor")
-        self.assertIn("SIG-W-20260930-001-x", out)
-        self.assertEqual(self.consumed()["SIG-W-20260930-001-x"], "A")
+        self.assertEqual(rc, 1, out)
+        self.assertIn("old ask", out)
+        self.assertEqual(self.consumed(), {"SIG-W-20260930-002-x": "O"})
+
+    def test_seed_is_refused_when_the_ledger_is_in_head_but_lost_from_disk(self):
+        """Read-2 W1: a lost ledger is restored from git, never re-seeded."""
+        self.publish(self.write(4))
+        self.publish(self.write(6, info="PROME"))
+        self.scan("--advance")
+        self.git("add", str(self.ledger), str(self.cursor))
+        self.git("commit", "-q", "-m", "state")
+        self.publish(self.write(5, action="PROME", head="held ask"))
+        self.assertEqual(self.scan("--advance")[0], 1)
+        self.ledger.unlink()
+        rc, out = self.scan("--seed-from-cursor")
+        self.assertEqual(rc, 2, out)
+        self.assertIn("in HEAD", out)
+        self.assertFalse(self.ledger.exists())
 
     def test_missing_ledger_with_a_cursor_is_rc2_and_never_reseeds(self):
         """Read-1 F3: a lost ledger must not acknowledge a held action signal nobody was shown."""
@@ -394,9 +510,11 @@ class FailClosed(Repo):
         self.ledger.parent.mkdir(parents=True)
         self.ledger.write_bytes(b"SIG-W-20260930-001-x\tA\t" + b"a" * 40 + b"\n\xff\xfe\n")
         self.assertEqual(self.scan()[0], 2)                       # ledger not UTF-8
-        self.ledger.unlink()
+        self.ledger.write_text("")                                # a readable (empty) ledger is present
+        self.assertEqual(self.scan()[0], 1)                       # control: with it the scan runs and stops on the action
         self.cursor.write_bytes(b"\xff\xfe\n")
-        self.assertEqual(self.scan()[0], 2)                       # cursor not UTF-8
+        self.assertEqual(self.scan()[0], 2)                       # cursor not UTF-8 — the only thing that changed
+        self.ledger.unlink()
         self.cursor.unlink()
         with patch.object(board_scan.subprocess, "run", side_effect=FileNotFoundError("git")):
             self.assertEqual(self.scan()[0], 2)                   # git not installed

@@ -1,8 +1,10 @@
 # ACCEPTANCE — `board_scan.py`: consume only PUBLISHED signals, remember what was consumed, surface late arrivals (prome-2a)
 
 **Written:** 2026-09-30 21:59 ET (`date`), BEFORE any edit to `PROME/tools/board_scan.py`.
-**reads: 1**
+**reads: 2**
 - read 1 — 2026-09-30 22:03 → 22:18 ET, independent reader (general-purpose, Opus), 27 experiments in throwaway repos, report `…/scratchpad/reader1/REPORT.md` (session scratchpad; findings transcribed below): ❌ 6 (F1–F6) · ⚠️ 12 (F7–F18) · the live migration verified exact (1,112 rows, no action signal ever laundered by the old cursor). All six ❌ fixed 2026-09-30 22:25 ET; the fix pass is UNREVIEWED until read 2.
+
+- read 2 — 2026-09-30 22:26 → 22:53 ET, a second independent reader (general-purpose, Opus), 13 experiment scripts and 10 mutation runs, report `…/scratchpad/reader2/REPORT.md`: F1 · F2 · F5 CLOSED; F3 · F4 · F6 PARTLY; NEW ❌ 5 — four ACTION-class (R2-1 a re-routed ask hidden by a sticky class · R2-2 amendment shapes passing quietly · R2-3 a hidden second action key in a new signal · R2-4 a filename that bricks the ledger) and one BASIS-class (R2-5 "routing unchanged" printed when it changed); ⚠️ W1–W6; live state verified exact (1,112 rows, 0 mismatches). All five ❌ and the three PARTLY findings fixed 2026-09-30 23:03 ET; this second fix pass is UNREVIEWED until read 3, which is the LAST read the budget allows.
 
 **Trigger:** Will, PROME window, 2026-09-30 21:52 ET, verbatim *"I have some feedback from CATO I would like to investigate and fix if true"*. CATO's finding RC1: `AGENTS/CATO/runs/2026-09-30_2132_system-recent-commits-review.md` (433084d2b). Reproduced by PROME the same hour with CATO's probe (`…_system-commit-probe.py`): an unfinished file advanced the cursor 004 → 005 at rc 0; the same file completed with `action: [PROME]` then read "nothing new"; a lower ID published after a higher one stayed hidden. Live incident: 2026-09-30 ~20:3x ET, three crash drafts (no missed action demonstrated).
 
@@ -30,7 +32,21 @@
 - **AC6 restated (F3).** Migration is one explicit act, `--seed-from-cursor`, refused once a ledger exists; it lists every action-routed file it records as dispositioned. A ledger that is MISSING while a cursor exists ⇒ rc 2, nothing written — the ledger is never rebuilt implicitly. No cursor and no ledger = a first run, everything published is new.
 - **AC7 extended (F5).** Git not installed, a non-UTF-8 ledger or cursor, an unwritable state directory, and any unexpected exception ⇒ rc 2, never rc 1. The module imports without git (the repository root comes from the file's own location).
 
-## Residue declared after read 1 — ⚠️ findings NOT fixed (the read budget fixes ❌ only)
+## Amendments after read 2 (2026-09-30 23:03 ET) — the conditions stand except where restated here
+- **One strict reader for every routing decision (R2-3 · F6).** `inspect_signal` counts every line whose key normalises to `signal_id` / `action` / `info` — indented, quoted or capitalised included — unions the names found, and makes any shape other than one plain `key: [a, b]` line per routing key a problem. PROME named on ANY action line counts as an action; PROME named unreadably is a problem. Measured before adoption: 0 of the 261 signals since 9/01 flagged; 0 non-standard routing-key lines on the whole board.
+- **AC5 restated (R2-1 · R2-2 · R2-5).** A consumed signal whose committed blob changed is compared with THE BLOB IT WAS CONSUMED AT: PROME on action now and not then ⇒ late action, rc 1; any problem the old blob did not have ⇒ UNREADABLE, rc 1; otherwise quiet, and a change in PROME's routing is LISTED (class before → after), never called unchanged. Replayed over all 434 signal amendments since 2026-06-01: 434 quiet, 0 hard stops — the rule does not flood on old-format signals.
+- **AC6 completed (F3 · W1).** `--seed-from-cursor` never records an action-routed file (it surfaces for acknowledgement instead) and is refused while the ledger exists on disk OR in HEAD.
+- **Ledger integrity (R2-4 · F10).** Keys are percent-encoded stems, rows split on newline only, a repeated key is malformed, and the writer parses its own output back before replacing the file — a ledger the reader would reject or read differently is never written (rc 2). A published file whose name is not an ID is UNREADABLE and can be acknowledged without bricking later runs.
+- **Tests (W6).** The F2 test now commits a subfolder copy with different routing; the cursor-not-UTF-8 leg runs with a ledger present and a control; R2-1..R2-5 each have a test. Fourteen mutations run against the suite: thirteen killed; one (ledger rows split with `splitlines`) is equivalent now that keys are encoded.
+- **Observation, not a defect of this repair:** the strict reader treats the legacy `to:` key as action-equivalent, and two July signals (`SIG-W-20260716-001`, `-004`) name PROME on `to:`. Both predate the 7/27 exemption (delivered by inbox then) and sit consumed in the ledger as "not routed"; this is the known legacy-schema blind spot of `--audit` (DAEDALUS audit S3), unchanged.
+
+## Residue declared after read 2 — ⚠️ findings NOT fixed
+- **W2** with an absolute `GIT_DIR` exported into the tool's environment, a published action signal is listed as a held draft at rc 0. No current caller exports it (reader 2 checked the pre-commit hook and `rebase -x`). **The one known rc-0 hide path left; the fix is to scrub `GIT_DIR` / `GIT_WORK_TREE` from the environment passed to git.**
+- **W5** a non-UTF-8 filename, or a directory named like a signal, is listed as held back indefinitely (nothing lost).
+- Still open from read 1: F11 (placeholder stamp) · F12 (an EMPTY ledger floods; a repeated key is now rejected) · F13 (`--since` label) · F14 (held drafts absent from the gate verdict) · F16 (duplicate-ID display) · F17 (gate-isolation suite guards the cursor, not the ledger) · F18 (`PROME/BOOT.md` step 6 wording).
+- Closed since read 1's residue list: **F10** (fixed with R2-4) · **F9 / W3** (blob comparison).
+
+## Residue declared after read 1 — SUPERSEDED by the block above where they differ — ⚠️ findings NOT fixed (the read budget fixes ❌ only)
 - **F10** a committed file matching the glob but not the ID pattern, once acknowledged, writes a ledger row the reader rejects ⇒ every later run rc 2 until a hand repair. Zero such names live. **The one residue item that can brick the check — first candidate for any further pass.**
 - **F11** a placeholder stamp (`time_dispatched: TBD`) passes; what WALTER's unstamped drafts carry is UNKNOWN — asked of WALTER in the packet.
 - **F12** an empty ledger floods every signal as new (safe direction); a duplicate stem resolves last-wins.
@@ -54,5 +70,5 @@
 ## State
 - **IMPLEMENTED** — `1ad0de004` (first form), reworked after read 1 (this commit).
 - **TESTED (author)** — `test_board_scan_publication.py`, count by `grep -c 'def test_'`; four mutation runs each fail the suite; the reader's own experiment scripts re-run against the reworked tool reproduce none of F1–F6; the live ledger re-seeded through `--seed-from-cursor` equals the first seeding row for row (stem and class).
-- **INDEPENDENTLY VERIFIED** — NOT YET. Read 1 verified the migration and the unchanged interfaces; its six ❌ are fixed but the fix pass is unreviewed. Read 2 is next.
+- **INDEPENDENTLY VERIFIED** — PARTLY. Reads 1 and 2 verified the migration, the live ledger (1,112 rows, 0 mismatches), the unchanged interfaces, the `read_blobs` parser and F1 · F2 · F5. The second fix pass (this commit) is UNREVIEWED; read 3 is the last the budget allows, and whatever it leaves open ends the episode STILL UNRESOLVED with the tool's limits stated.
 - **STILL UNRESOLVED** — the residue above; publication semantics are WALTER's to confirm (packet).
