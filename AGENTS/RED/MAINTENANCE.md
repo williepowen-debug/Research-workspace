@@ -15,8 +15,11 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 | 7 overdue catalyst rows → `resolved` with outcomes; EGBN row re-dated 10/31 → 10/21 (est.) | `docket/CATALYSTS.tsv` | — |
 | FT-06 8/11 outcome graded CORRECT (22d late) | `registry/TRIGGER_OUTCOMES.tsv` | — |
 | COR-20260925-13 receipted NO-OP; LIQUID LIQ-07 reply consumed (ML-RED-272) | `registry/corrections_receipts.tsv`, `board_log.tsv`, `inbox/processed/` | — |
+| **B1 — `board_log.tsv` pre-append SIZE GATE built** (closes the n=3 breach class, ML-246/258): `scripts/board_log_append.py` validates rows (5 fields, disposition/source vocab, TAB split only), **REFUSES** an append that would reach ≥75% of 32,550 B, warns at ≥60%, and `--rotate` moves the oldest rows VERBATIM to `archive/board_log_pre-<date>.tsv`, never overwriting an archive. **Falsification-tested on a scratch copy**: malformed row refused · normal append · near-cap append REFUSED with the file unchanged · rotate kept every id + the header. boot.py §⑤ prints the live size every boot. Charter boot 1.5 names the script as the only append path. | `scripts/board_log_append.py` (new), `scripts/boot.py`, `CLAUDE.md` (boot 1.5 + boot 3 wording) | ⑤ shows `board_log.tsv size: N B = x%`. **Append via the script, never `printf >>`.** |
+| **B4 — WL-03 op `>` → `>=`** (display; conforms to canon FT-01 exit, closes ML-268). Acceptance test: 280.0/293/302 = 3 of 3 (was 2). Independent Opus reader before commit. **Class sweep found a 2nd instance:** WL-01 `>23` vs OUTCOME_SPEC FT-06 `>=23`, which calls itself 'the WL-01 line'. Recorded, not edited (FT-06 was graded today, so an edit would be post-hoc; invariant at max 16.34). OUTCOME_SPEC label fix → CHG-051 spec review. | `docket/WATCHLINES.tsv` | WL-03 evaluates `>=` |
+| **B3 — CALENDAR.md rebuilt**: event set = all 14 pending canon rows; 8/20 header/imminents/guards + 7/31 scoring windows folded VERBATIM (crc-stamped) to `archive/CALENDAR_S32-S49_narrative_folded_2026-10-01.md`. 11,897 → 6,679 B. Flags a canon/FORGE strike mismatch (12/18 KRE Dec $60P vs FORGE's rolled Dec-31 65P). | `CALENDAR.md`, archive file (new) | W4 mirror back in sync |
 
-**Not done, named:** CALENDAR.md rebuild, weight re-derivation, `board_log` size gate, WL-03 conformance, KB/VX review debt, TIMELINE/FLOW (see the sweep file §B–C).
+**Not done, named:** the hypothesis-weight re-derivation (sequenced after the 10/2 NFP; due 10/09) · KB/VX review debt · TIMELINE/FLOW (sweep file §C).
 
 
 ## S49 — 2026-10-01 ~12:1x–12:2x ET

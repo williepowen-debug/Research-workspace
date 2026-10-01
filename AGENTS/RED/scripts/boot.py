@@ -544,6 +544,12 @@ def section_board_gap(verbose):
     same count, not a matching absolute (finding_crosscheck_with_free_parameter).
     """
     print("\n(5) BOARD DISPOSITION GAP (boot 1.5 obligation - log what you consume)")
+    # S50: size of the live ledger, every boot (three breaches S44-S46 by sessions that had read the warning).
+    # Append ONLY via scripts/board_log_append.py, which REFUSES at >=75%; this line shows the state.
+    _bl = (RED / "board_log.tsv").stat().st_size if (RED / "board_log.tsv").is_file() else 0
+    _pct = _bl / 32550
+    _mk = "🔴 OVER rotation line - run board_log_append.py --rotate" if _pct >= 0.75 else ("⚠️  rotate at closeout (--rotate)" if _pct >= 0.60 else "OK")
+    print(f"   board_log.tsv size: {_bl:,} B = {_pct:.1%} of 32,550  {_mk}  [append via scripts/board_log_append.py]")
     try:
         logged, ledgers = _logged_ids()
     except OSError:

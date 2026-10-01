@@ -42,6 +42,8 @@
 - **Next in Will's approved order:** B5 the 10/14 CPI decision tree → B2 weight re-derivation (by 10/09) → B1 board_log gate (by 10/06) → B3 CALENDAR → B4 WL-03 → C review debt.
 - **B5 DONE (S50c):** `research/2026-10-14_SEPT_CPI_DECISION_TREE.md`. FT-08 fires on a published core 0.3, P≈25–35%; offset Managed −2 / Soft −1; basis ruled (Table A). CHG-028 numeric. OUTBOX -046 + NEXUS_BRIEF vS50 folded. ML-RED-274. **On 10/14, grade off the tree; do not improvise.**
 - **B2 HALF DONE (S50d):** counter-signals RE-PULLED → `reports/2026-10-01_S50_countersignals_repull.md` (10Y real 2.93 / 30Y 5.64; HY 312; banks −7–8%; Dated Brent $114–120). Row weights re-set. **The hypothesis-weight re-derivation is SEQUENCED AFTER Fri 10/2 08:30 NFP** (added to CATALYSTS; it was missing). Do it at the next session, by 10/09. STATUS was rotated to 69.9% (priorities + one provenance paragraph folded verbatim → `reports/2026-10-01_S50_status_priorities_folded.md`).
+- **B1 DONE:** `scripts/board_log_append.py` = the ONLY append path (refuses ≥75%, `--rotate` verbatim). Tested. boot §⑤ shows the size. **B4 DONE:** WL-03 `>=` (reader-checked); WL-01 vs OUTCOME_SPEC `>=23` mismatch recorded → CHG-051 review. **B3 DONE:** CALENDAR rebuilt (14 = canon pending set).
+- **LEFT (sweep §B–C):** ① **hypothesis-weight re-derivation after Fri 10/2 NFP, by 10/09** (inputs: `reports/2026-10-01_S50_countersignals_repull.md`) · ② KB 25 past Stale_By / 13 terminal-cited · ③ VX 7 vectors >45d · ④ `thesis/TIMELINE.md` (101d) + `workbook/FLOW.tsv` (88d) · ⑤ verify the 12/18 KRE strike row against FORGE.
 
 ## NEXT SESSION (dated, priority-ordered)
 
