@@ -205,3 +205,40 @@ NFP feeds v6/v8/v10/v12 and the exit rules, but the count itself has no score; a
 **What bought it:** the second modeled-date miss on JOLTS in a month (9/1: docket `~Sep 2`, landed 9/1; 9/29: STATUS `~Oct 6`, landed 9/29). The fix is mechanical — JOLTS is now a dated row in `docket/CATALYSTS.tsv`, so `card_required_check.py` can see it.
 
 *Amendment 1 written by LABOR, self-directed session, Will present. **Grade §3a–§3g off the frozen card; apply this amendment only to §2.4, §3a-1's EPOP clause, and the §6 v2 row.***
+
+---
+
+# 🔧 AMENDMENT 2 — ARMING NOTE, 2026-10-01 12:20 EDT, PRE-PRINT (no September data exists)
+
+> ⛔ **CHANGES NO BAND, NO BAR, NO CONFIDENCE, NO ROUTE.** It writes down, the day before, what each outcome does on the letters above (Amendment 1 applied), the consensus and its source, and who consumes the result. Written by a PROME-spawned session (`prome-0c`) that closes out before the print; PROME re-spawns LABOR after 08:30 Friday to grade.
+
+**1. Inputs unchanged since Amendment 1.** No JOLTS, CPS or CES release between 9/29 and 10/2. LEG C stays **MET** (Jul +18K ∧ Aug P +122K). Claims 10/1 (197,000; MA 200,000) and Challenger Sep (43,281) move no letter on this card. **Release on schedule:** CR runs to 12/11 (per HENRY `STATUS.md`, read 2026-10-01: "BLS/BEA schedules show no lapse notice") — §4 falsifier 1 not live.
+
+**2. The kill bar, confirmed against this file — WALTER's "≥+150K" is right ONLY on the 9/4 vintage.** LEG A = `X ≥ max(150, 300 − (J + A))` thousand on the **revised** Jul/Aug. ⇒ bar stays **+150K** while `J + A ≥ 150K` (net revision to Jul+Aug ≥ −33K); **below that the average leg binds and the bar rises** — e.g. net revision −50K ⇒ `J + A = 133` ⇒ bar `300 − 133 = +167K`. **Recompute from the release before reading September.**
+
+**3. Outcome map (each letter graded separately; CES = one witness, CPS = one witness):**
+
+| If… | Then (pre-registered) | Routed to |
+|---|---|---|
+| `X` ≥ re-solved LEG A bar | 🔴 **freeze-thaw v2 FIRES** (LEG C carries it; LEG B recorded: **B ∧ C** if EPOP ≥59.0, **C only** if <59.0, with the two C-only caveats on the packet) ⇒ **stand down v4/v6/v7, re-grade the book** | **WALTER** → CARL, REGINALD, HENRY, NEXUS 🔴 |
+| `X` 100K – bar−1K | No action | STATUS |
+| `X` 0 – 99K | T-06 payroll leg met; **fires only with U-3 ≥4.3%** | if fired: WALTER → CARL, REGINALD, HENRY 🟠 |
+| `X` ≤ −1K | moves no vector (no payrolls vector — declared gap §5); T-06 by U-3 | as above |
+| Sep EPOP ≤58.7 | 🔴 **T-03 + T-04 fire together** (one move, not two confirmations); **LAB-18 ✅** | WALTER → CARL, HENRY, REGINALD 🔴 |
+| Net Jul+Aug revision ≥0 | **v8 2 → 3** (restore counter 2 of 2) | STATUS + brief |
+| Net revision <0 | v8 counter resets 1 → 0 of 2 | STATUS |
+| U-3 ≥5.0% | LAB-12 ✅ (any LFPR cell) | STATUS |
+| Health care net-negative | T-08 fires, v10 1 → 4 | WALTER → CARL, REGINALD 🟠 |
+| AHE YoY ≠ +3.1% published | 1c packet | CARL + HENRY direct 🟡 |
+| Kill A | **cannot fire** (Jul +21K) | — |
+| Aug revision (ALFRED `20261002`) | §3g diagnostic only | STATUS |
+
+**4. Consensus (context, never graded): NFP ≈ +90K, survey range +35K to +180K; U-3 4.1% (some calls 4.2% on a reversal of August's household jump); AHE +0.3% m/m.** Source: Bloomberg economist survey, *"US Jobs Report Seen Showing 90,000 Payrolls, 4.1% Unemployment Rate"* (2026-09-26) — **`[2ND]`, read via a search-tool summary, article not opened (L-33: a summary is a reader).** AHE YoY is quoted as **3.0% and 3.1% by different secondary lines — unresolved, not used.** ⚠️ **The +150K bar sits inside the top of the survey range (+180K), `150 − 90 = 60K` above the median;** August's consensus was ~+53K and it printed +162K. No probability is asserted.
+
+**5. Consumers of the 10/2 result outside my routing (their letters, read at their files 2026-10-01 — not mine to grade):**
+- **CARL** — `docket/CATALYSTS.tsv` 10/2: V16 drop-back resolver, print 2 of 2 — *"NFP positive WITH net up-revisions"*. ⚠️ **My v8 leg 2 is `net revision ≥ 0`; CARL's letter says "up-revisions". A net revision of exactly 0 satisfies mine and may not satisfy theirs** — flagged here, CARL owns its letter.
+- **HENRY** — STATUS: the October-hike case "rests on ISM 10/1 · NFP 10/2 · CPI 10/14"; logs the market reaction ("LABOR owns the print").
+- **BOND** — `docket/CATALYSTS.tsv` 10/2: 2Y / 1y1y reaction and October-hike pricing.
+- **REGINALD, NEXUS** — on a v2 fire, T-03/T-04 or T-06 (my §6 routing, via WALTER).
+
+*Amendment 2 by LABOR, PROME-spawned session. Grade off §2–§3g + Amendment 1; this amendment changes nothing gradable.*

@@ -169,3 +169,37 @@ Pre-registered at freeze:
 ## §9 — GRADE (write 2026-10-01 off this frozen card — never re-read a band)
 
 *Blank until print. Order: **①** regenerate the THREE quantities §4 names on the as-published vintage · **②** apply the §5b/§5c revised-vintage rule to the retained weeks, THEN grade the four axes (§2 · §5a · §5b · §5c) separately · **③** resolve LAB-03 per §6 · **④** write into `STATUS.md` (KEY THRESHOLDS + matrix v7/v13 + calendar + PREDICTIONS) · **⑤** `git mv` this card to `docket/graded/` **and build the 2026-10-08 card in the same session**.*
+
+### §9 GRADE — written 2026-10-01 12:1x ET (PROME-spawned session `prome-0c` slate, WQ-184) off the frozen card
+
+**Primary:** DOL/ETA news release 2026-10-01 08:30 ET, `dol.gov/ui/data.pdf` saved (`file`: PDF 1.7, 9 pages), text-extracted; release-date line *"8:30 A.M. (Eastern) Thursday, October 1, 2026"* checked; every figure below grepped in the extracted text. FRED ICSA agrees on all five weeks. KB-LAB-200.
+
+**① Three quantities regenerated on the as-published vintage (the window DID revise — w/e Sep 19 197,000 → 198,000):**
+
+| Quantity | Card (9/24 vintage) | As-published 10/1 | Moved? |
+|---|---|---|---|
+| `R` (w/e Aug 29) | 207,000 | 207,000 | no ⇒ **`ΔMA = (X − 207,000)/4` exact** |
+| Retained trio `W2+W3+W4` | 602,000 | `207,000 + 198,000 + 198,000 = 603,000` | +1,000 |
+| `MA_next(197,000)` | 199,750 | `(603,000 + 197,000)/4 = 800,000/4 = 200,000` = **published 200,000 exactly** | **+250 — the L-31 column rotted again** |
+| `ΔMA(197,000)` | −2,500 | `(197,000 − 207,000)/4 = −2,500` vs revised prior MA 202,500 = **published −2,500** | exact ✅ |
+| T-01 MA bound | `X > 398,000` | `X > 1,000,000 − 603,000 = 397,000` | −1,000 |
+
+**② Four axes, graded separately (X = 197,000; CC = 1,701,000):**
+
+| Axis | Read | Band | Assignment |
+|---|---|---|---|
+| §2 single print | 197,000 | **B** (186,000–229,000) | **NO ACTION** |
+| §5a T-01 MA basis | 197,000 ≤ 397,000 | **T01-a** | T-01 does not fire; MA 200,000 is `250,000 − 200,000 = 50,000` below |
+| §5b v13 `<200,000` | revised run Sep 12 198,000 · Sep 19 198,000 (2,000 inside each) · Sep 26 197,000 | **V13-a** | **counter 3 of 4.** w/e Sep 5 207,000 bounds the run. 4th week = the 10/8 print |
+| §5c v7 CC `<1,750,000` | revised run Sep 5 1,717,000 · Sep 12 1,712,000 (rev from 1,719,000) · Sep 19 1,701,000 | **CC-1** | **counter 3 of 4.** w/e Aug 29 1,765,000 bounds the run. 3 of 4 moves nothing (§5c) |
+| Kill B | 197,000 > 185,000 | — | 0 of 5 |
+
+🔴 **Reading rule applied (§3):** the MA fell 2,500 to **200,000** — **entirely the 207,000 roll-off; mechanical, not improvement.** ⚠️ The card's pre-written sentence ("MA below 200,000, mechanically") does **not** apply: the w/e Sep 19 revision put the MA at **exactly 200,000**, not below it.
+
+**③ LAB-03 — ❌ FALSIFIED** (197,000 < 251,000). As-made **65%** (verified at `STATUS.md` blob `575fd4039`, 2026-02-02) ⇒ Brier `0.65² = 0.4225`. Latest-mark book N/A (last mark 7% on 7/31, pre-receipt rule). Not re-armed. → `PREDICTIONS.tsv` + SCOREBOARD §A (n=13, mean 0.348).
+
+**Routing (§7):** Band B ⇒ STATUS only, no packet. No WALTER signal.
+
+**Colour, graded by nothing:** NSA 156,738 (−4.8% vs seasonal −4.1%; yr-ago 179,162) · Hawaii **+1,524** in w/e Sep 19 (state detail; the Kauai hurricane week) — stated, not graded.
+
+**§8 defect log at grade:** ① L-31 two-clocks split worked as designed — `ΔMA` exact, `MA_next` off by +250, caught because it was regenerated, not carried · ② the §3 pre-written prose sentence assumed the modal print's MA would land below 200,000; a +1,000 revision to a retained week moved it to exactly 200,000 — **prose pre-written about a vintage-dependent quantity rots with that quantity.** No band affected.

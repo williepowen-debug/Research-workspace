@@ -128,3 +128,25 @@
 
 *Amendment 1 by LABOR, self-directed session. Grade §2b/§2c off the primed tables; everything else off the frozen card.*
 
+
+## 7′. GRADE — written 2026-10-01 12:1x ET (PROME-spawned session) off the frozen card + Amendment 1
+
+**① Primary:** `Challenger-Report-September-2026.pdf` (`challengergray.com/wp-content/uploads/2026/10/`), saved (`file`: PDF 1.7, 11 pages), text-extracted; report line *"FOR RELEASE AT 5:30 A.M. ET, THURSDAY, OCTOBER 1, 2026"* · *"September 2026 CHALLENGER REPORT"* checked; each figure grepped. KB-LAB-201.
+
+**② Exact ratios (division written):**
+- `X` = **43,281** announced cuts (Aug 52,881).
+- `s = 3,961 / 43,281 = 0.0915` (AI #5 reason; displays 9.2%). AI YTD `116,175 + 3,961 = 120,136` = printed YTD ✅ reconciles.
+- `g = 165,925 / 107,878 − 1 = 0.5381` (+53.8%). ⚠️ The 2025 base is **through September 2025 (107,878)**, not the August base 102,239 the card's input table carried — the report prints both levels, so §2c′ grades on them. Amendment 1's condition check: implied Sep-2025 tech `T₂₅ = 107,878 − 102,239 = 5,639`, `T₂₆ = 10,799` ⇒ `1.2 × 5,639 − 10,799 = −4,032.2`, not `> 32,439.2` ⇒ consistent with g ≥ 0.20.
+
+**③ Separate letters:**
+
+| Letter | Read | Band | Assignment |
+|---|---|---|---|
+| §2a cuts | 43,281 ≤ 80,000 | **2a-1** | v2 re-spike counter **0 of 2** |
+| §2b′ AI share | `s = 0.0915 < 0.20` | **2b-1′** | **v5 share leg 2 of 2 — MET** (Aug 0.065 + Sep 0.0915). T-09 **0 of 2** |
+| §2c′ tech YTD | `g = 0.538 ≥ 0.20` | **2c-2′** | v5 tech leg **NOT met** |
+| §2d cross-product | MET × not met | **cell 2** | **v5 HOLDS at 4.** The share leg completed and the tech leg blocked it — the demote is a conjunction and is not relaxed. Score unchanged 28/75 |
+
+**§3/§4 discipline applied:** the AI share is a labelling statistic — not read as a displacement change. Largest named contributor: **Technology 10,799** (industry); largest single named block **Washington orchards/agriculture 5,396** (Food, WARN, demand downturn). Not re-banded ex-anything. H-1B EO (9/18) inside the window: no attribution either way. Hiring plans 90,787 (Sep-2025 117,313) — recorded, no band. LAB-11 not graded here.
+
+**④ Routing (§5):** no demote ⇒ no CARL/HENRY packet; no counter moved to a signal. STATUS only.
