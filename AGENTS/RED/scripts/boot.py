@@ -419,8 +419,11 @@ def section_catalysts(verbose):
         days = (d - TODAY).days
         if days > 14 and not verbose:
             continue
-        flag = "⏰" if days <= 2 else "  "
         approx = "" if exact else "~"
+        if days < 0:  # S50: was printed as "⏰ T--13", easy to read past; a pending row with a past date is owed an outcome
+            print(f"   🔴 OVERDUE {-days}d {r['date']:<12} {r.get('priority', '')} {r['event'][:66]} — resolve with outcome")
+            continue
+        flag = "⏰" if days <= 2 else "  "
         print(f"   {flag} T-{approx}{days:<3} {r['date']:<12} {r.get('priority', '')} {r['event'][:70]}")
 
 
@@ -439,15 +442,32 @@ def section_due_scan():
             print(f"   🔴 {r['Pred_ID']} DUE since {d} ({(TODAY - d).days}d): {r['Prediction'][:60]}")
     if due == 0 and manual == 0:
         print("   🟢 predictions: no ACTIVE row past its timeframe")
-    print("   — ACTIVE challenges (age; resolution events are prose — eyeball) —")
+    # S50 2026-10-01: every NON-RESOLVED row, not just tokens containing "ACTIVE" — five rows
+    # (RE-TARGETED / WEAKENED / STRENGTHENED-IN-FLIGHT) sat invisible 101-122d under the old filter.
+    # Resolved_Date's leading YYYY-MM-DD is read as the re-review date; past ⇒ 🔴, absent ⇒ 🔴 (ML-125).
+    print("   — open challenges (every non-RESOLVED status; leading Resolved_Date = re-review) —")
     for r in tsv(RED / "workbook" / "CHALLENGES.tsv"):
-        if "ACTIVE" not in r.get("Status", ""):
+        if r.get("Status", "").startswith("RESOLVED"):
             continue
         try:
             age = (TODAY - datetime.strptime(r["Date"], "%Y-%m-%d").date()).days
         except ValueError:
             age = "?"
-        print(f"   • {r['CHG_ID']} ({age}d, {r['Target']}): {r['Key_Finding'][:70]}")
+        m = re.match(r"\s*(\d{4}-\d{2}-\d{2})", r.get("Resolved_Date", ""))
+        if not m:
+            mark, when = "🔴", "NO re-review date"
+        else:
+            rd = date.fromisoformat(m.group(1))
+            mark, when = ("🔴", f"re-review PASSED {rd} ({(TODAY - rd).days}d)") if rd < TODAY else ("•", f"re-review {rd}")
+        print(f"   {mark} {r['CHG_ID']} [{r['Status']}] ({age}d, {when}, {r['Target'][:40]}): {r['Key_Finding'][:60]}")
+    # S50: TRIGGER_OUTCOMES rows past resolve_after and still UNRESOLVED (FT-06 sat 22d ungraded).
+    for r in tsv(RED / "registry" / "TRIGGER_OUTCOMES.tsv"):
+        if not r.get("outcome", "").startswith("UNRESOLVED"):
+            continue
+        m = re.search(r"(\d{4}-\d{2}-\d{2})", r.get("resolve_after", ""))
+        if m and date.fromisoformat(m.group(1)) < TODAY:
+            rd = date.fromisoformat(m.group(1))
+            print(f"   🔴 OUTCOME {r['trigger_id']} fire {r['fire_date']} — resolve_after {rd} PASSED ({(TODAY - rd).days}d), still {r['outcome']}")
 
 
 def _red_addressed(head):

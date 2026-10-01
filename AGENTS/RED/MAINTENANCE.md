@@ -4,6 +4,20 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## S50 — 2026-10-01 16:16–19:11 ET (session start from boot.py stamp; end from `date` at this write)
+
+**Trigger:** Will-launched same-day re-boot. Will asked for a to-do sweep (`reports/2026-10-01_S50_todo_sweep.md`), then approved working it.
+
+| What changed | Files touched | Boot-impact |
+|---|---|---|
+| **`boot.py` §③/§④ DUE-scan widened (ML-RED-273).** §③: a `pending` catalyst with a past date prints `🔴 OVERDUE Nd … resolve with outcome` instead of `⏰ T--13`. §④: lists **every non-`RESOLVED*` challenge** (was: status containing `ACTIVE`), reads the leading date of `Resolved_Date` as the re-review date, 🔴 if passed or absent; and flags `TRIGGER_OUTCOMES` rows still `UNRESOLVED*` past `resolve_after` (closes SCRATCH item 6, the TRIGGER_OUTCOMES half). **Tested** against HEAD pre-fix files (15 flags) and the fixed files (0). | `scripts/boot.py` | Boot ④ now surfaces what it used to hide; expect more red lines, by design. |
+| 5 limbo challenge rows closed · CHG-044/049 re-reviewed + re-dated · CHG-027 re-dated 10/31 → 10/22 (EGBN est. ~10/21 AMC) | `workbook/CHALLENGES.tsv` | DUE-scan clean as of 10/01. |
+| 7 overdue catalyst rows → `resolved` with outcomes; EGBN row re-dated 10/31 → 10/21 (est.) | `docket/CATALYSTS.tsv` | — |
+| FT-06 8/11 outcome graded CORRECT (22d late) | `registry/TRIGGER_OUTCOMES.tsv` | — |
+| COR-20260925-13 receipted NO-OP; LIQUID LIQ-07 reply consumed (ML-RED-272) | `registry/corrections_receipts.tsv`, `board_log.tsv`, `inbox/processed/` | — |
+
+**Not done, named:** CALENDAR.md rebuild, weight re-derivation, `board_log` size gate, WL-03 conformance, KB/VX review debt, TIMELINE/FLOW (see the sweep file §B–C).
+
 
 ## S49 — 2026-10-01 ~12:1x–12:2x ET
 

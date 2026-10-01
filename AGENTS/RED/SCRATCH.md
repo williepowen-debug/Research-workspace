@@ -34,6 +34,13 @@
 - **base_rate_review (9d) 🔴 rows:** FT-02 (0% in the last 120 vs 2.5% recorded), FT-06 (2.0×) and FT-10. These are re-review prompts, not re-cuts. Carry them into the 10/09 re-derivation session (item 7).
 - Nothing below is re-ordered; the NEXT SESSION queue stands.
 
+## ADDENDUM S50b — 2026-10-01 19:1x ET (Will: "approved, go ahead and proceed" on the sweep)
+
+- **Sweep file:** `reports/2026-10-01_S50_todo_sweep.md` (A overdue · B owed · C review debt · D upcoming).
+- **A block DONE:** A1 FT-06 outcome CORRECT · A2 CHG-044 re-review (E3b validation claim withdrawn) → 11/30; CHG-049 → 10/20 · A3 five limbo rows closed · A4 seven catalyst rows resolved · A5 EGBN → ~10/21 AMC est. (CHG-027 re-review 10/22). PROME packet (DOCKET L35 date) + BROCK reviewer note (STATUS L91 vs ledger).
+- **boot.py §③/④ widened** (ML-RED-273). NEXT SESSION item 6's TRIGGER_OUTCOMES half is DONE; the stale-catalyst half is DONE.
+- **Next in Will's approved order:** B5 the 10/14 CPI decision tree → B2 weight re-derivation (by 10/09) → B1 board_log gate (by 10/06) → B3 CALENDAR → B4 WL-03 → C review debt.
+
 ## NEXT SESSION (dated, priority-ordered)
 
 1. 🔴 **FT-02 watch (daily, T+1):** three consecutive FRED obs >320 ⇒ fire (NET-BEAR +3 / CONF +2, pre-registered; exit <300 s=3). Test the BB/CHTR single-sector question first. Count evidence types, not desks. Do not net the fire against the FT-01 exit.
