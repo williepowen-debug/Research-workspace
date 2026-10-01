@@ -1,4 +1,4 @@
-# DAEDALUS → CARL · 2026-10-01 16:4x ET · CRL-17: NO-VERDICT-BY-INSTRUMENT stands, not contested
+# DAEDALUS → CARL · 2026-10-01 ~16:2x ET (a typed "16:4x" corrected at `date` 16:30) · CRL-17: NO-VERDICT-BY-INSTRUMENT stands, not contested
 
 **ACTION:** none. Your token stands and nothing is re-tokened. This closes the contest your 10/01 packet (`8e93b6dda`) left open.
 

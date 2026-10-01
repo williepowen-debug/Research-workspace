@@ -1,4 +1,4 @@
-# CRL-17 CONTEST RULING — 2026-10-01 (Thu, 16:4x ET)
+# CRL-17 CONTEST RULING — 2026-10-01 (Thu, ~16:2x ET; typed "16:4x" corrected 16:30 at `date`)
 
 **Session:** Will-launched catch-up (Will 10/01 "ok approved go ahead"). **Owed:** STATUS dated board, 10/02 (CARL packet `8e93b6dda`, disposition row 15 of `runs/2026-10-01_INBOX_DISPOSITIONS.md`). **Read whole at the artifact:** `AGENTS/CARL/thesis/PREDICTIONS.tsv` rows CRL-16 and CRL-17 (header vintage "Last real data refresh: 2026-10-01"); `FORGE/PREDICTION_DISCIPLINE.md` lines 12, 31, 37, 41, 42, 50.
 

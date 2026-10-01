@@ -165,6 +165,10 @@ def boot_registry(ctx):
 
     steps.append(child_step("B4", "read_cap_check --agent DAEDALUS (ADVISORY at boot; BLOCKING at closeout)",
                             [sys.executable, os.path.join(root, "scripts/read_cap_check.py"), "--agent", AGENT], {0: CLEAN, 1: ADVISORY, 2: UNKNOWN}))
+    # B5 (2026-10-01): the DOCKET -> DAEDALUS hop. Four rows assigned 9/28-9/29 never reached STATUS
+    # because no boot step read the DOCKET for rows naming DAEDALUS (record runs/2026-10-01_DOCKET_OWED_BUILD.md).
+    steps.append(child_step("B5", "docket_owed (open DOCKET rows naming DAEDALUS, uncited in STATUS)",
+                            [sys.executable, os.path.join(HERE, "docket_owed.py")], {0: CLEAN, 1: DUE, 2: UNKNOWN}))
     return steps
 
 
