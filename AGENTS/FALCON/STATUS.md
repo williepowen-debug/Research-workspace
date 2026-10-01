@@ -1,22 +1,22 @@
 # FALCON STATUS
 
-**Last updated:** 2026-10-01 ~12:3x ET (`falcon-1001`, PROME-spawned Tier 1 L0 drain, Opus; own FIRMS + PortWatch + TankerMap pulls). Report: [reports/2026-10-01_l0-drain-ghawar-hulls-leg2-iraq.md](reports/2026-10-01_l0-drain-ghawar-hulls-leg2-iraq.md). **Prior:** 2026-09-28 (`592823066`).
+**Last updated:** 2026-10-01 ~12:5x ET (`falcon-1001` touch 2: DOCKET L540 done; production rung PROPOSED; FAL-06 REGISTERED; EXIT_PROTOCOL v3 + THESIS v3.0). Reports: [touch 2](reports/2026-10-01b_production-rung-proposal-fal06-rewrite.md) · [touch 1 drain](reports/2026-10-01_l0-drain-ghawar-hulls-leg2-iraq.md). **Prior:** 2026-09-28 (`592823066`).
 **Decision read:** **Nothing on the registered rail fires today. B 1 / C 14 / D 85 unchanged.** Four tankers were hit in Hormuz 9/28–9/29 (none sunk); a NEW heat source burned 9/29–9/30 in the Ghawar/Ain Dar area (own FIRMS; attack, facility and damage NOT established, no Saudi/Aramco/wire statement); the US answered Iran's 7-day plan through Qatar (no framework); the US left federal Iraq on 9/30 with no kinetic backlash found. ⚠️ **A confirmed strike on a Ghawar PRODUCTION facility would move no mark by rule** (FAL-01 resolved 7/25; D 75→85 fired 9/28; nothing registered above 85) — it would be a same-hour tell-Will item and the decisive FAL-06 input. ⚖️ **Composition disagreement carried from 9/28:** Yanbu was a route loss, not a demonstrated barrel loss (Kpler Saudi 7-day loadings 8.5 mb/d, AGBI 9/30, "highest of the war").
 
 ## Current marks and authority
 
 | State | Current disposition |
 |---|---|
-| B / C / D | **1 / 14 / 85** (re-marked 2026-09-28 by the Will-registered rung). Reviewed 2026-10-01 against 5 WALTER signals: **HELD** — no downgrade trigger met (D→C needs a 72h two-sided halt; hull hits resumed 9/28), nothing registered above 85. Next 7-day review **2026-10-05**. |
-| D 75→85 rung | **FIRED 2026-09-28 (trigger b).** One move; nothing above 85. (a) no total loss in the 9/28–29 hulls; (c) no GCC port/anchorage named; (d) no US service member killed (9/14 Marines injured; US KIA 19, last hostile death 7/17). Letter: [EXIT_PROTOCOL §2](workbook/EXIT_PROTOCOL.md). |
-| FAL-05 / predictions | FAL-05 **FAILED** 9/28. Scoreboard **1C / 3F / 1P / 0V / 0 OPEN**. **FAL-06 owed 2026-10-05**, base rate first; inputs gathered 10/01 (report §5). |
+| B / C / D | **1 / 14 / 85** (re-marked 2026-09-28 by the Will-registered rung). 7-day review done 2026-10-01: **HELD** — no downgrade trigger met (D→C needs a 72h two-sided halt; hull hits resumed 9/28), nothing registered above 85. Next review **2026-10-08**. |
+| D 75→85 rung | **FIRED 2026-09-28 (trigger b).** One move; nothing registered above 85 — ⚖️ **production rung D 85→92 PROPOSED 10/01** (counting-source-confirmed hostile hit on a Gulf-ally crude PRODUCTION facility; [proposal §1](reports/2026-10-01b_production-rung-proposal-fal06-rewrite.md); Will's word). (a) no total loss in the 9/28–29 hulls; (c) no GCC port/anchorage named; (d) no US service member killed (9/14 Marines injured; US KIA 19, last hostile death 7/17). Letter: [EXIT_PROTOCOL §2](workbook/EXIT_PROTOCOL.md). |
+| Predictions | FAL-05 **FAILED** 9/28. **FAL-06 REGISTERED 2026-10-01 at 70%** (no NET Gulf-ally crude/condensate loss to 2026-11-05; a single-terminal halt alone never fires it; base rate first, regime-split mixture ~28% fire). Scoreboard **1C / 3F / 1P / 0V / 1 OPEN**. |
 | Ghawar / Ain Dar fire (9/29–9/30) | **Heat CONFIRMED by own FIRMS** at 25.839N 49.227E: dark 9/23–9/28 day+night → 9/29 09:30Z first detection (~21 h before the OSINT plume claim) → 9/30 max 26.7 MW → dark on both nights and the 10/01 day passes. Not a routine flare. **Attack / facility / damage: NOT ESTABLISHED; CANNOT EVALUATE a strike.** KB-213. |
 | WARRISK falsifier | 🔴 LIT (EXIT §3 #8; Yanbu ~3% vs 0.1% baseline, Reuters 9/25). 4 of 5 rows current to 10/05; Bab AWRP row EXPIRED +59d (no quote). |
 | GATE-FALCON-001 | **LIVE.** Legs 1 (7/23) and 3 (8/15) FIRED. **Leg 2 NOT FIRED:** TankerMap 10/01 7dma **11.1**/day, 7d 78, **+144% w/w** (wrong sign; rides the Yanbu restart). **Leg-2 magnitude + window PROPOSED to DAEDALUS 10/01** (≥35% w/w step-down, frozen prior-7d reference, 2 consecutive print-days, floor 21, Yanbu-confound exclusion; base rate on PortWatch) — adoption = Will via PROME. Next review_by **2026-10-06**. |
-| Thesis-kill (EXIT §1) | **0/7.** Premise falsified on the letter 9/28. **Full EXIT_PROTOCOL + THESIS rewrite owed 2026-10-05.** |
+| Thesis-kill (EXIT §1) | **0/7.** **EXIT_PROTOCOL v3 + THESIS v3.0 written 10/01** (v2 archived verbatim, `archive/EXIT_PROTOCOL_archive_2026-10-01.md`): the regime is carried as two true statements — letter: crude premium falsified, D 85 · composition: route loss, not a demonstrated barrel loss. |
 | Capital / other owners | No trade or capital grade. BRENT owns prices (Dec Brent ~$100.83 intraday 12:24 ET 10/01, `fetch.py`, vendor not a settle). TERRY construction, Will approvals. No settle-count clock; step 12b no-op. |
 
-## What changed since 9/28 (sourcing: KB-FALCON-213..218)
+## What changed since 9/28 (sourcing: KB-FALCON-213..221)
 
 | Date | Event | Grade |
 |---|---|---|
@@ -27,6 +27,8 @@
 | 9/29–9/30 | US reply to Iran's 7-day plan delivered in Doha, receipt confirmed by Iran; gap = sequencing. Axios: Rubio expulsion order 9/28 (Iran denies). Trump 10/01: "I don't think you could ever have peace" | KB-216; diplomacy 3 |
 | 9/30 | US withdrawal from federal Iraq complete (Pentagon); KH 10/01 "the resistance has won this round", no disarmament deal | KB-217; §3 #4 next rung NOT fired |
 | 10/01 | Bab tanker 7dma 11.1/day (+144% w/w) | KB-218; leg 2 NOT FIRED |
+| 10/01 12:49 | Fresh FIRMS + primary check on Ghawar: no new detection since 9/30 12:02Z; no statement | KB-219; no change |
+| 10/01 | FAL-06 registered (70%); production rung PROPOSED; EXIT v3 + THESIS v3.0 | KB-220/221 |
 
 ## Convergence Matrix
 
@@ -59,14 +61,15 @@ Scores retained. 7 vectors at ceiling ⇒ this composite cannot register the wee
 
 | Item | Due |
 |---|---|
-| FAL-06 registration (base rate first; route-(c) re-routing fix; decide whether an upstream-production hit is the next test) | **2026-10-05** |
-| EXIT_PROTOCOL + THESIS full rewrite (§5 trigger fired 9/28; also clears EXIT_PROTOCOL's read-cap breach) + 7-day scenario review | **2026-10-05** |
+| Will's word on the production rung D 85→92 (via PROME) | open |
+| 7-day scenario review | **2026-10-08** |
+| FAL-06 resolves | **2026-11-05** |
 | GATE-FALCON-001 review (TankerMap like-for-like) | **2026-10-06** |
 | DAEDALUS reply on the leg-2 basis; Will's word via PROME to adopt it | open |
-| Ghawar-area fire: re-check for a Saudi/Aramco/CENTCOM/wire primary; FIRMS re-pull | next session |
+| Ghawar-area fire: re-check for a Saudi/Aramco/CENTCOM/wire primary; FIRMS re-pull (last 12:49 ET 10/01: no change) | next session |
 | CTP-ISW Iraq read 9/30–10/01 (not read 10/01) | next session |
 | VESSELS backfill: El Gaia 9/13, St Helena 9/14, Trend 9/16, STI Steadfast 9/18 | next session |
-| 🔴 CARRIED (MEMORY): KB-168 Yanbu terminus proxy unbuilt — a FAL-06 input | with FAL-06 |
+| 🔴 CARRIED (MEMORY): KB-168 Yanbu terminus proxy unbuilt (FAL-06 registered without it) | carried build |
 | Carried builds: sub-$80 duration bar, bypass empty-series guard, archive-content guard, EXIT_PROTOCOL boot reader | carried |
 
 ## Ownership, mail and provenance
@@ -75,4 +78,4 @@ Scores retained. 7 vectors at ceiling ⇒ this composite cannot register the wee
 
 ## BOTTOM LINE
 
-**Nothing fired today, and the reason matters.** Four tankers were hit near Hormuz (none sank), something burned for two days in Saudi Arabia's Ghawar oil-field area, and the US sent Iran a reply through Qatar. None of these meets a registered trigger. My own satellite data says the Ghawar heat is real and new, and not a routine flare. Nobody official has said what it was. **If it turns out to be a strike on a production plant, that is the biggest unregistered event on the board, and my rail has no rule above D 85 to absorb it.** FAL-06, owed by 10/05, has to answer that. **Watch next:** a Saudi or Aramco statement on Ghawar; whether Petroline ramps toward 5.5 mb/d; any dated framework from the Qatar track.
+**Nothing fired today, and the rail now names its biggest gap.** Four tankers were hit near Hormuz (none sank), something burned for two days in Saudi Arabia's Ghawar oil-field area (my satellite data: real heat, not a flare; no official word as of 12:49 ET), and the US sent Iran a reply through Qatar. None meets a registered trigger. **I have proposed to Will the rule my rail was missing:** an officially confirmed attack on a Gulf oil-PRODUCTION site would move D from 85 to 92. Until he rules, such a hit moves no mark and is a same-hour message. **FAL-06 is registered at 70%:** it asks whether Gulf crude barrels, not just one export route, go missing by 11/5. **Watch next:** a Saudi or Aramco statement on Ghawar; Petroline ramping toward 5.5 mb/d; any dated framework from the Qatar track.

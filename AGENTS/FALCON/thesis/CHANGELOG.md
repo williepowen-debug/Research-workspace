@@ -258,3 +258,10 @@ A forward note was appended to `TIMELINE.md` recording that its narrative stoppe
 
 ## 2026-09-08 ~22:5x ET — D 75→85 rung REGISTERED by Will (no THESIS version change; v2.2 amended in place)
 Will, verbatim *"go with your recommendations"*, on the three options FALCON put to him. The rung is registered as proposed (four triggers, written non-triggers incl. further (iii-B) losses, −10 split default 8/2, nothing above 85). Canonical letter → `workbook/EXIT_PROTOCOL.md` §2; `KB-FALCON-147`. THESIS v2.2's conviction line moves LOW → MEDIUM on the ladder above 75; its KEY THRESHOLDS row and footer trigger updated; TIMELINE's branch-point row resolved. **ARMED, UNFIRED — D stays 75 on the letter.**
+
+## 2026-10-01 — THESIS v3.0 + EXIT_PROTOCOL v3 (FALCON `falcon-1001` touch 2; DOCKET L540)
+
+- **Trigger:** EXIT_PROTOCOL §5 / THESIS footer fired 9/28 on "FAL-05 resolving" (FAILED, route c). Done ahead of the 10/05 due date, on Will's word via PROME (12:49 ET).
+- **THESIS v3.0:** the core claim is now **two true statements carried together**. On the letter, the crude premium regime is falsified (FAL-05, D 85 stands). On the composition, it was a route loss, not a demonstrated barrel loss. Added channel ⓹ (route loss with re-routing). Corrected v2.x's "zero crude-production barrels in 193 days": that holds as barrels-to-market only, because the ledger holds 600 kbpd of stated upstream capacity loss (SPA 4/9). Thesis break moved to **FAL-06** (70%, to 11/05).
+- **EXIT_PROTOCOL v3:** v2 (44,914 B, over the read cap) was archived verbatim with `git mv` to `archive/EXIT_PROTOCOL_archive_2026-10-01.md`, after a `grep -F` check that the archive holds the D 75→85 letter. The new file is compact and keeps the canonical-letter pointer. **A production rung D 85→92 is PROPOSED, not registered** (Will's word). Scenario review HELD 10/01; next due 10/08.
+- **Not changed:** any registered letter, any mark.
