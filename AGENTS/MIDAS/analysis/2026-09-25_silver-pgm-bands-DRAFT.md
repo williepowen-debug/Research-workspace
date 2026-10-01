@@ -70,3 +70,40 @@ COT net/OI [as-of 9/15] vs the frozen 2010–26 reference (`sources/cot_metals_h
 - The 21-session decay and the 15-session shared-root window are **design choices, not measured optima**.
 - No sustain clause is proposed, because its effect on the rates was not measured.
 - **Timing claim:** these bands are **DESIGN-FIXED, not TIME-FIXED**. They are drafted on data that already contains the 2026 collapse, so they cannot claim they would have been set in advance (WQ-H4).
+
+---
+
+## ADDENDUM 2026-10-01 (Thu, ~12:5x ET): refreshed to 9/30 closes for Will's ruling (WQ-352). The 9/25 text above stands as drafted. No line was re-fitted.
+
+**Status unchanged: ⛔ DRAFT, NOT IN FORCE.** No band, score or threshold moves until Will rules.
+**Method:** `analysis/2026-09-25_band_stats.py` re-run unchanged, with its output directed to a scratch folder so the 9/25 evidence file was not overwritten. The run was at 12:50 ET 10/1, and the script dropped the partial 10/1 bars itself, so the last close used is **9/30 on every ETF** (SLV $54.51 · PPLT $15.41 · PALL $21.81).
+
+### A1. Headline figures, 9/24 → 9/30 (no-roll ETFs)
+
+| Metal | Off the 252-session high (dd252) | Distance from the 200-day average (d200) |
+|---|---|---|
+| Silver (SLV) | −45.4% → **−48.4%** | −12.6% → **−17.3%** |
+| Platinum (PPLT) | −37.0% → **−38.9%** | −10.1% → **−12.9%** |
+| Palladium (PALL) | −38.1% → **−41.3%** | −14.9% → **−19.0%** |
+
+### A2. Would the newer data change any proposed line? **No.**
+
+Every fire rate in the §2 table was re-computed. **No new episode starts at any drafted line.** Six cells moved by 0.01/yr (SLV T −5% 1.33→1.32; SLV T −20% / C −30% / S +30% 2020+ 0.45→0.44; PPLT T −10% 1.26→1.25 and −15% 0.57→0.56; PALL T −25% and S +30% 2020+ 0.45→0.44). That is a longer denominator, not a different history. Two new crossings happened at levels the draft does **not** use: PPLT d200 < −12% (first close 9/29) and SLV d200 < −15% (9/28). Neither is a proposed line, and none is proposed now.
+
+### A3. Score under the draft, as of 9/30 vs 9/24
+
+| Metal | Leg T (state) 9/30 | Leg C (event) 9/30 | Score 9/24 | **Score 9/30** | Distance to the next level |
+|---|---|---|---|---|---|
+| Silver | −17.3% → 🟠 | decayed: −40% first crossed 3/20 and never reset, so no new crossing | 3 🟠 | **3 🟠** | 2.7 pts to 🔴 (−20%) |
+| Platinum | −12.9% → 🟡 | decayed: −30% first crossed 3/20 (−40% is not a drafted Pt line) | 2 🟡 | **2 🟡** | 2.1 pts to 🟠 (−15%) |
+| Palladium | −19.0% → 🟡 | decayed: −40% first crossed 6/8 and never reset. Its 21-session steps ran out about 9/4 | 2 🟡 | **2 🟡** | ⚠️ **1.0 pt to 🟠 (−20%)** |
+
+**M2 = max(silver 3, GSR band 1) = 3. I2 = max(Pt 2, Pd 2, supply trigger 2) = 2.** ⇒ **The composite effect of approval is still 8/20 → 10/20 (M2 +2), and all of it comes from the rule change.** ⚠️ **Palladium is one point from orange.** If PALL closes below −20% vs its 200-day average after approval, I2 goes 2 → 3 and the composite to 11.
+
+### A4. My strongest objection to my own draft
+
+**These bands arrive after the damage, and the fast part is already switched off.** Approve them today and the alarm you get is "silver is in a decline": orange on a metal that is already 48% off its high. Silver first crossed its −12% trend line on 6/24, about five months after the 1/28 top (it re-crossed on 9/10). The crash leg did see the fall within days in January, but by design it steps down one level every 21 sessions, so about four months after its last new crossing (−40% on 3/20) it reads nothing. On 9/30 it reads nothing, even though silver is near its lows. So the score jump would announce something you already know, and it would add two points to a composite that otherwise moves only on market events. It also rests on lines drawn from history that includes the very collapse they are meant to catch, so their good-looking fire rates are partly fitted to it (§5 limits, WQ-H4). **If you amend rather than decline,** the change I would accept first is to adopt the bands but leave them **unscored for one month**: they print a level, and it does not enter the composite until a line is crossed on data that arrives after approval. That way the first score move is a market event, not an accounting one.
+
+### A5. Positioning (§4) is not refreshed
+
+The 9/29 COT vintage has **not been published** (CFTC releases it Fri 10/2 15:30 ET; `cot_gold.py --expect 2026-09-29` → WAIT, the file served is still 9/22). The silver/Pt/Pd positioning context in §4 stays as-of 9/15. Positioning is context only and is not a proposed band.
