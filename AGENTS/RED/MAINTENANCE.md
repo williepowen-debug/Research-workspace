@@ -5,6 +5,18 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 ---
 
 
+## S49 — 2026-10-01 ~12:1x–12:2x ET
+
+**Trigger:** PROME prome-0c WQ-184 due-row spawn on DOCKET **L484** (CH-009 final grade), Will's word "spawn the slate". Also asked: rotate the NEXUS brief, measured over the read budget at 41,136 B (DOCKET L556 B1).
+
+| What changed | Files touched | Boot-impact |
+|---|---|---|
+| **`NEXUS_BRIEF.md` ROTATED:** the old file `git mv`'d **verbatim** to `reports/2026-10-01_NEXUS_BRIEF_vS48_rotated.md` (41,136 B, crc32 979512314). A fresh vS49 brief was written at **8,797 B (27% of budget)**. Its VIEW is rebuilt on current levels; the S29 reasoning stays in the rotated file, labelled DATED. | `NEXUS_BRIEF.md`, **new** `reports/2026-10-01_NEXUS_BRIEF_vS48_rotated.md` | NEXUS's class read: RED drops off the over-budget list (`read_cap_check --agent NEXUS`). |
+| **SAM rail CH-009 CLOSED** (FINAL GRADE block, state lines, LOG row, scoreboard) | `AGENTS/SAM/red/CHALLENGES.md`, `AGENTS/SAM/red/LOG.md` (RED's rail by SAM's charter; SAM reads, does not edit) | Rail 1 OPEN / 16 CLOSED. |
+| CATALYSTS 10/1 row → `resolved`; RED-04 → RESOLVED CORRECT; ML-RED-269 appended | `docket/CATALYSTS.tsv`, `workbook/PREDICTIONS.tsv`, `workbook/ML.tsv` | Boot 3 DUE-scan clears RED-04. `schema_check` ✅. |
+
+**Not done, named:** CALENDAR.md's narrative layer is 8/20 vintage and carries no 10/1 row, so the W4 mirror is divergent from before this session (pre-existing; owed a rebuild). The weight re-derivation is still owed.
+
 ## S46 — 2026-09-18 ~10:25–10:3x ET
 
 **Trigger:** PROME WQ-184 Tier-1 L0 drain (desk dark since 9/14). DOCKET **L376** + **L377** past date, **L277** reader seat owed on the 9/18 close, 4 ACTION-addressed BOARD signals unlogged ≥2d, whole inbox unconsumed (12 top-level + 7 WALTER-lane).

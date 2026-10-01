@@ -1,50 +1,46 @@
 # RED SCRATCH — canonical session handoff
-**Written:** 2026-09-29 10:3x ET [`date` 10:28 EDT at the ledger write; session start 10:24] · **Session:** S48 (PROME prome-82 Tier-1 spawn, WQ-184 due-row driver; DOCKET L525 FT-01 ruling + whole-inbox L0 drain) · **Supersedes:** S47 (2026-09-25), which is in git history (`git log -p -- AGENTS/RED/SCRATCH.md`).
+**Written:** 2026-10-01 12:2x ET [`date` 12:20 EDT at the MAINTENANCE write; session start 12:14] · **Session:** S49 (PROME prome-0c Tier-1 due-row spawn, WQ-184; DOCKET L484 CH-009 final grade + whole-inbox L0 drain + NEXUS brief rotation) · **Supersedes:** S48 (2026-09-29), which is in git history (`git log -p -- AGENTS/RED/SCRATCH.md`).
 
 ---
 
-## CHANGES SINCE (what moved while RED was dark, 9/25 → 9/29)
+## CHANGES SINCE (what moved while RED was dark, 9/29 → 10/1)
 
-- **HY OAS widened 29bp in three sessions:** 273 [9/23] → 280.0 [9/24] → 293 [9/25] → **302 [9/28]**. BB 159 → 183 · CCC 1,093 → 1,146 · IG 77 → 83. B was 300 [9/25] and had not posted for 9/28 at 10:24 ET. HY yield 8.03%.
-- **WALTER SIG-W-20260925-011** (ACTION RED): 280.0 is at the line, so this was FT-01 exit day 1 of 3. **LIQUID corrected the arbiter state**: X1 is CLOSED and DON'T-SIZE is DECIDED (BROCK KB-BRK-219, 8/28), so a 280 touch returns that answer. LIQUID's watcher text fix is owed on their side.
-- **SAM 9/29 (`0b5524b8d`):** there is no driver-attribution read before 12/30, so CH-012 closes NO-VERDICT at year-end under the pre-written rule. MOF 30Y was 4.122 on 9/28.
-- **Receipt 10:31 ET (own pull, cache-busted URL per PROME's tip — the fredgraph CSV is CDN-cached up to 600s per exact URL):** the full 9/28 ladder has posted. B **309**, BBB **102**, IG 83, BB 183. 9/23→9/28 full-tier attribution: BB +24×0.597 = +14.3 · B +31×0.301 = +9.3 · CCC +53×0.106 = +5.6 → +29.2 modelled vs HY +29 actual. **BB+B = 81%.** This confirms the 9/23→9/25 broad-tier reading and changes no claim or count. It closes the memo GAP "B/BBB 9/28 not posted".
-- **PROME 9/27:** the board_log gap packet for -011. **PROME 9/25:** WQ-295 asks for a cadence declaration and watch terms.
+- **HY OAS kept widening, but more slowly:** 302 [9/28] → 308 [9/29] → **312 [9/30]** (+9/+6/+4). On 9/30: BB 194 · B 316 (flat) · CCC 1,179. 5y5y was 2.36%, VIX 16.34, USD/JPY 157.56, and Brent (front) 101.15 (boot.py, 10/01).
+- **MOF posted the 9/30 JGB cell on 10/01:** 30Y 9/29 was 4.126 and 9/30 was 4.098.
+- **Fed:** hiked 25bp at the 9/15–16 FOMC (DFEDTARU 3.75 → 4.00, effective 9/17). RED had carried this only implicitly; it was confirmed at FRED this session.
+- **WQ-295 R3:** WALTER's `PROME/inbox/processed/2026-10-01_from-WALTER_R3-results-all-sets.md` carries no RED set. RED declared on 9/29 that no phrase is owed, so there was no verdict to adopt or decline.
 
 ## WHAT I DID
 
-1. **RED-FT-01 EXIT EXECUTED on the letter.** The exit rule is `>=280 s=3` on FRED observation dates, and the prints were 280.0/293/302, so the count is 3 of 3 at the 9/28 obs. The pre-registered **CONF +2 was taken: HOLD 68 → 70.** Net-bear stays at 58. The round trip is **CLOSED**. Per S36d, FT-01 fires now move nothing and the ±2 sits on FT-12. Registry `exit_source` / `action_magnitude` / `state`, FT-12 `state_detail`, the scan view regenerated, STATUS, CHANGELOG, OUTBOX -044, NEXUS_BRIEF vS48 · ML-RED-267.
-2. **Disagreements recorded after applying the letter:** ① The tie atom: 9/24 = 280.0 counts under canon `>=`. WL-03 `>` and LIQUID `>280` read 2 of 3. ② Composition is broad-tier: BB+B = 82% of 9/23→9/25. The BB/CHTR single-sector question is UNKNOWN. IG lagged.
-3. **ML-RED-268: WL-03 op drift.** The display mirror has `>` where canon has `>=`, so boot.py printed "sustain NOT yet met" for a completed exit. It is recorded but not conformed in-session.
-4. **TRIGGER_OUTCOMES: two DUE FT-01 rows graded.** 6/15 is CORRECT (+2.8%), graded 20 days late, a miss RED owns. 7/02 is WRONG (−5.4%). Apparatus data only.
-5. **FT-07 / FT-12 read, no state change:** CCC 1,146 keeps FT-07 FIRING-BANKED. FT-12 is 42bp away and moving away.
-6. **Inbox 3 + 1 → 0 + 0**, with 4 `board_log` rows. Boot §⑤ is now OK. CADENCE is declared EVENT-DRIVEN (PROME/inbox packet).
+1. **CH-009 FINAL GRADE: CLOSED — RESOLVED-DISMISSED (RED right).** I applied the pre-written rule on MOF `jgbcme.csv` (own cache-busted pull, 16:14Z) after confirming the 9/30 cell had posted. The four closes were 4.112 / 4.122 / 4.126 / 4.098, all <4.300. SAM's readings (`477b8064e`, plus the live uncommitted `JGB_YIELDS.tsv`) match MOF to 3dp. ⚠️ The win is on the 8/17-refreshed line: the original range leg failed against RED, and the session leg is graded on absence. Rail state: 1 OPEN / 16 CLOSED. ML-RED-269.
+2. **RED-04 → RESOLVED CORRECT** (modal non-occurrence, following the RED-13/14 convention). The one recorded disagreement is the Treasury buyback step-up; it was ruled not a rescue. The tally is now **10W / 13C / 1A**, and the stale 9/18 STATUS line is corrected.
+3. **FT-02 status on RED's own letter:** 312 [9/30], 0 of 3, 8bp away, NOT fired. The FT-01 tie-atom caveat is retired (9/29 = 308 > 280).
+4. **NEXUS_BRIEF rotated:** 41,136 B moved verbatim to `reports/2026-10-01_NEXUS_BRIEF_vS48_rotated.md`, and the new vS49 brief is 8,797 B.
+5. **Inbox census 0 + 0.** There was nothing to drain. The boot §⑤ BOARD gap reads OK.
 
 ## NEXT SESSION (dated, priority-ordered)
 
-1. 🔴 **2026-09-30 (the 9/29 obs publishes): confirm the exit's robustness.** Any 9/29 HY obs >280 completes even the strict count, which retires the tie-atom caveat. A 9/29 obs <280 does NOT reverse the exit. A reversal needs a fresh FT-01 fire (<280 s=3), which by S36d now moves nothing.
-2. 🔴 **2026-10-01: apply the CH-009 rule mechanically** on the MOF 9/30 30Y close. Any close ≥4.300 on 9/25–9/30 ⇒ NO-VERDICT. All closes <4.300 with no ≥20bp session ⇒ DISMISSED.
-3. 🟠 **FT-02 (>320 s=3) is the nearest line, 18bp away, and HY is moving toward it.** Pre-read it before it prints: NET-BEAR +3 / CONF +2 on fire, and the outcome spec is committed. Count evidence types, not desks.
-4. 🟠 **WL-03 op conformance (`>` → `>=`, display only), with a reader.** It is bear-direction-relevant on the display, so it is not self-certified. The same class sweep runs across all WATCHLINES rows that mirror a registry exit leg (ML-RED-268).
-5. 🟠 **Build the pre-append size gate for `board_log.tsv`** (n=3, still unbuilt). It is at 26,475 B, **81% of the 32,550 B cap**.
-6. 🟠 **L247 v0.6 recheck when PROME lands the edit** (acceptance conditions are pre-written in the 9/25 report §4).
-7. 🟠 **The DUE-scan does not read TRIGGER_OUTCOMES `resolve_after`.** The 6/15 row sat 20 days. Wire it into `boot.py` §④ (boot 9d says to disposition these at W2, but nothing surfaces them).
-8. 🟠 CARL revision ledger full adversarial read (135 events). The CRL-08 ruling goes to DAEDALUS.
-9. 🟠 FT-03/04 evaluator: re-point from `BZ=F` to a dated contract (L429).
-10. 🟠 Counter-signal re-pull + hypothesis-weight re-derivation (weights are S29 8/12; confidence is now 70 on a mechanical move over S41's 68). This needs its own session.
-11. 🟡 FT-11 F2 cut (BOND's quartile question) at the next spec review, never in-window · FT-08 basis reconciliation with WALTER · 5 ACTIVE challenge rows (CHG-027 first) · VX-RED-009 → CARL · KB 18 past `Stale_By` · registry arithmetic-path scan.
-12. 🟡 FT-01 8/05 outcome row resolves ~10/29.
+1. 🔴 **FT-02 watch (daily, T+1):** three consecutive FRED obs >320 ⇒ fire (NET-BEAR +3 / CONF +2, pre-registered; exit <300 s=3). Test the BB/CHTR single-sector question first. Count evidence types, not desks. Do not net the fire against the FT-01 exit.
+2. 🔴 **10/14 September CPI:** grade FT-08 on its machine form (core 3-mo annualized ≥3.0). This is CHG-028's first oil→core leg.
+3. 🟠 **WL-03 op conformance (`>` → `>=`, display only), with a reader**, plus the class sweep of display rows against canon exit legs (ML-RED-268). Less urgent now that the tie caveat is retired, but the defect class stands.
+4. 🟠 **Build the `board_log.tsv` pre-append size gate** (n=3, still unbuilt; 26,475 B = 81% of budget, rotate-tier: 3,691 B is owed to reach <70%).
+5. 🟠 **CALENDAR.md narrative rebuild:** it is 8/20 vintage and lacks the 10/1 and later rows, so the W4 mirror diverges from canon CATALYSTS.
+6. 🟠 Wire TRIGGER_OUTCOMES `resolve_after` into the `boot.py` §④ DUE-scan. Clear the catalyst rows still `pending` with past dates (boot ③ shows T−13 to T−21 rows).
+7. 🟠 Counter-signal re-pull + hypothesis-weight re-derivation (weights from S29 8/12 / S41 9/6). This needs its own session.
+8. 🟠 L247 v0.6 recheck when PROME lands the edit · the CARL revision-ledger adversarial read · the FT-03/04 evaluator re-pointed off `BZ=F` (L429).
+9. 🟡 FT-11 F2 cut at the next spec review · FT-08 basis reconciliation with WALTER · 5 ACTIVE challenge rows (CHG-027 first) · KB past `Stale_By`.
+10. 🟡 The FT-01 8/05 outcome row resolves ~10/29 · EGBN Q3 ~late Oct (CHG-027) · CH-012 final 12/30 (SAM's attribution ask by 12/1).
 
 ## OPEN THREADS
 
-- **A mirror that disagrees with canon only on the tie atom is invisible until a print lands on the line.** WL-03 carried `>` for 3½ months beside a canon `>=`, and it cost nothing until 9/24 printed 280.0 exactly. The same shape as FT-07's float tie (ML-RED-241). Sweep display rows against canon exit legs **at the atom**, not by eye.
-- **The exit is not a confirm.** A reader who sees "FT-01 fired +2 on a 302 print" and FT-02 later firing at 320 must not bank the same widening twice. The +2 here repays the 8/7 −2; FT-02's +3/+2 is a new state.
-- **The BB/CHTR question** (LIQUID) is the live composition unknown. If a single-sector BB move carried the 9/25 day, the tie-atom day plus a sector day make a thinner exit than 3 of 3 suggests. It does not change the count, but it is the first thing to test if FT-02 approaches.
+- **A dismissal on a refreshed letter is a narrower win than the headline.** CH-009 lost its original range leg on 8/17. RED re-cut the line pre-data, and the re-cut line is what dismissed. That was legitimate because it was written before the data, but a reader who sees "RED right" should also see that the grind RED called orderly has carried the 30Y +90bp in 16 months.
+- **The FT-01 exit is not a confirm; FT-02 is.** The +2 already taken repays 8/7, so it must not be double-banked when 320 prints.
+- **The BB/CHTR question** (LIQUID) is still the live composition unknown going into FT-02.
 
 ## PENDING WILL-DECISIONS
 
-**None.** The only move was the pre-registered FT-01 exit +2 (mechanical, CONF only). No threshold, spec or sustain count was changed; $0. Sizing and X1 are Will's/LIQUID's, and both are untouched.
+**None.** Two registered due items were graded on their letters (CH-009 and RED-04). No weight, threshold or sustain count was changed; $0.
 
 ## GIT STATE
 
-Committed path-scoped inside `AGENTS/RED/`, plus the completion memo and the cadence packet in `PROME/inbox/`. **No pull:** the tree held other desks' uncommitted work at boot (CRUISE, PROME), so root "Before pulling" step 2 applies. Push via `scripts/safe-push.sh`; the receipt is in the memo/SendMessage.
+Committed path-scoped: `AGENTS/RED/` files, the RED-owned SAM rail (`AGENTS/SAM/red/CHALLENGES.md`, `LOG.md`), the completion memo in `PROME/inbox/`, and the SAM info packet. **No pull:** the tree held other desks' uncommitted work (SAM workbook + boot-run files, `PROME/state/`). Push via `scripts/safe-push.sh`; the receipt is in the memo/SendMessage.

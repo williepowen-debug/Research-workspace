@@ -35,7 +35,7 @@
 | Pred | Resolves | Conf | State |
 |------|------|:---:|--------|
 | **RED-21** July CPI energy MoM prints NEGATIVE (pre-registered arithmetic, not mechanism) | **Wed 8/12** | 85% | ACTIVE — a CORRECT must NOT be scored as bear/disinflation evidence |
-| **RED-04** Policy rescue materializes Q2-Q3 | **9/30** | — | ACTIVE — hike-is-base-case makes non-occurrence modal |
+| ~~RED-04~~ Policy rescue materializes Q2-Q3 | 9/30 | 20% | ✅ **RESOLVED 10/1 — CORRECT (modal non-occurrence)**: no rescue, no cascade; Fed hiked 9/16. Canon `workbook/PREDICTIONS.tsv` |
 
 **Resolved history (was carried stale here through 7/31 — outcomes per canonical TSV):** RED-16 CORRECT (VIX never ≥25 by 5/19) · **RED-17 CORRECT** (was stale "ACTIVE-RIGHT") · RED-08 WRONG (both sides; physical $141) · **RED-10 CORRECT** (HY never neared 400; was stale "ACTIVE-VERY-RIGHT") · **RED-18 WRONG** (Dec-26 broke <$80, S22 7/5; was stale "ACTIVE day 15 of 60" here for 26 days) · RED-19 WRONG (rigs 429).
 
