@@ -1,6 +1,6 @@
 # NEXUS STATUS
 
-**Updated:** 2026-10-01 Thu 16:24 EDT · **+19:08 late-mover ANNOTATION #1 (BOND 17:05: composite 15→17/35, rows 1+2 on ONE dealer print = one class (Disc-H); TERRY card lean: sell both Fri 10/2; WQ-357 PENDING WILL) + HENRY `T10YIE` >2.40 line; delta-annotated, not re-swept.** — **CATCH-UP PASS (9/29 close → 10/1, Will-asked).** Rotation: 9/29 file → `STATUS_COLD.md` **§H13** (`crc32 e9461aed`). Read method → `BRIEFS_MAP.md` ★10/1 + `LAST_COMPLETION.md`. **Resolver grades: PRED-37 ❌ · PRED-43 ❌F · PRED-48 ❌ · PRED-24 → conditional watch · PRED-45 re-registered (11/20) · PRED-38/41 RE-SPEC'd, PRED-40 RETIRED (10/1 late, Will-asked).** **1 re-mark (M-08 ↑3, registered).**
+**Updated:** 2026-10-01 Thu 16:24 EDT · **+19:08 late-mover ANNOTATION #1 (BOND 17:05: composite 15→17/35, rows 1+2 on ONE dealer print = one class (Disc-H); TERRY card lean: sell both Fri 10/2; WQ-357 PENDING WILL) + HENRY `T10YIE` >2.40 line; delta-annotated, not re-swept.** — **CATCH-UP PASS (9/29 close → 10/1, Will-asked).** Rotation: 9/29 file → `STATUS_COLD.md` **§H13** (`crc32 e9461aed`). **Resolver grades: PRED-37 ❌ · PRED-43 ❌F · PRED-48 ❌ · PRED-24 → conditional watch · PRED-45 re-registered (11/20) · PRED-38/41 RE-SPEC'd, PRED-40 RETIRED (10/1 late, Will-asked).** **1 re-mark (M-08 ↑3, registered).**
 **Last full matrix review: 2026-09-29** *(this pass = delta, every row re-read, one re-marked)*. 📦 COLD: §A–§H13 · `PREDICTIONS_COLD.md` §P5.
 
 > ## Probability split, 2–6wk: **Break 20% (—) · Grind-lasts 47% (—) · Unresolved-divergence 33% (—)**
@@ -15,6 +15,8 @@
 ---
 
 ## ACTIVE CONVERGENCE MATRIX — full review 9/29 · delta 10/1 · evidence → §H12/§H13 · roots → WQ-340 page
+
+> ⚠️ **Disc-J audit 10/1 (sweep):** only **M-08 · M-09** (and the split) carry a registered falsifier. **M-01/03/04/05/06/07/10/11** have an arbiter or none ⇒ their Conf % is a **judgment, not an estimate**, until letters are written — owed at **DOCKET L554 (10/6)**.
 
 | ID | Convergence | Indep. | Conf % | Δ | Last upd. | State |
 |---|---|---|---:|---|---|---|
@@ -121,7 +123,7 @@
 
 | Date | Event | Status |
 |---|---|---|
-| ✅ **09-30 → 10-01** | CONSUMED: PCE/GDP · MU (strong) · quarter-end (funding clean) · Russia ban EXTENDED · TLT 77P sold · BRT-29 FAILED · MIDAS-01/02 HIT · OTTO-32 ✅ · LIQ-07 FIRED · claims 197K / CC 1,701K · CH-009 DISMISSED · SHADE revived · FLG T-08 · **FR2004 16:15: BOND kill MET** · PRED-37/43/48 graded. | ✅ |
+| ✅ **09-30 → 10-01** | CONSUMED (detail in rows above) · **FR2004 16:15: BOND kill MET** · PRED-37/43/48 graded. | ✅ |
 | 🔴 **10-02 Fri** | **NFP 08:30 (LABOR kill / CARL V16 — different letters on one print)** · **HEN-47 FORUM-7 verdict** · DOCKET L494 X1 sitting · **WQ-339 sitting (DOCKET L552) — likely closed by BOND's kill** · BROCK wake (W1 leg, First Brands / Radiant `-007`) · Tokyo CPI · COT (as-of 9/29) · SHADE 5th HY print. | 🔴 |
 | **10-05 → 10-09** | 10/4 OPEC+ · **~10/5 Aramco Nov OSP** · 10/5 CARL scope review · Totan OIS · **10/6 DOCKET L554 MY WAKE** + 3Y auction + SPR bids close + WQ-252 · **10/7 `GATE-NEXUS-SEAT-01` (L9)** + 10Y-R · **10/8 30Y-R + claims + PRED-50 last cell** · **~10/9 PRED-50 grade (DOCKET L553)** · 10/09 LIQ-076 review · ZHAO re-check. | FWD |
 | **10-12 → 10-20** | ~10/12 FERC IRAS · **10/14 CPI** · 10/14–15 funding prints (LIQ-07 S1/S2) · **10/15 LIQ-069 review (M-09 DOWN leg)** · BRT-31 1st print · **10/16 Aug TIC (L11) + L13 cell 15 + WQ-342 successor (DOCKET L558)** · 10/16 TLT 82P expiry. | FWD |
@@ -148,6 +150,6 @@
 
 ## BOTTOM LINE
 
-**Two days: three bear-side fires (LIQ-07 · my M-08 condition · BOND's kill) and no break-side line crossed.** HY widened every session and credit broadened by tier (LIQ-07 fired; my M-08 condition fired, +3); the 10Y set its highest close since 2002-05 (5.29) while the Fed path fell — the premium half. The bond desk's own thesis kill fired on today's dealer print, so the recommended move on the duration shorts is now an EXIT (TERRY → Will). What did not happen: funding stress at quarter-end, an index-vol move, a labor break, a JGB disorder, a verified Dimona strike (PRED-43 ❌F), a sub-90¢ private-credit transfer (PRED-45 re-registered). **The split held — its falsifier is 2bp from the UP edge, and tomorrow's NFP is the chain head's kill.**
+**Three bear-side fires (LIQ-07 · M-08 · BOND's kill), no break line crossed.** HY widened every session and credit broadened by tier (LIQ-07 fired; my M-08 condition fired, +3); the 10Y set its highest close since 2002-05 (5.29) while the Fed path fell — the premium half. The bond desk's own thesis kill fired on today's dealer print, so the recommended move on the duration shorts is now an EXIT (TERRY → Will). Absent: quarter-end funding stress, index vol, a labor break, JGB disorder, a verified Dimona strike, a sub-90¢ private-credit transfer. **The split held — its falsifier is 2bp from the UP edge, and tomorrow's NFP is the chain head's kill.**
 
 ## LAST RUN → `LAST_COMPLETION.md`. **Next boot owes:** (a) NFP 10/2 → M-01 + chain head · (b) HEN-47 → M-03 · (c) charter cold read #3 result (charter ❌×6 fixed 10/1) · (d) PRED-50 ~10/9 · (e) 10/16 TIC + L13 cell 15 + successor gate.

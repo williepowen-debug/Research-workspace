@@ -1,26 +1,30 @@
 <!--
 NEXUS_BRIEF TEMPLATE — copy this file to AGENTS/<YOUR_AGENT>/NEXUS_BRIEF.md and fill in.
 
-Schema spec (full rationale): AGENTS/SAM/proposals/2026-06-06_nexus_brief_schema.md
+Schema spec (CANONICAL — wins over this template on any disagreement): AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md
 Worked example (heaviest domain — Japan macro, 4 channels, 5 cross-agent edges):
   AGENTS/SAM/NEXUS_BRIEF.md
 
-Amendments applied (NEXUS R3 + amendment 7, 2026-06-07):
+Amendments applied (synced 2026-10-01 to the schema's ratified set: R3 + 7, 9, 10, 11, 12):
   1. Recent thesis pivot: REQUIRED single line (named what + why)
   2. Cross-agent tensions: REQUIRED (write "None active this cycle" if empty — do not delete the bullet)
   3. WATCH renamed FORWARD CATALYSTS; NEXT DECISION POINT carved out as the agent-actioned subset
-  4. SENDING: single table (no STANDING/THIS-CYCLE split, no drop rule). Refresh discipline at session closeout.
-  5. Status emoji: per CLAUDE.md key only — 🟢 none / 🟡 monitoring / 🟠 elevated / 🔴 active/critical
-  6. Conviction decomposition: OPTIONAL per agent (direction/timing/level if your domain has clean math; single-letter conviction otherwise)
-  7. WAITING FOR: "Expected by" column REQUIRED (date for hard dates, condition format for open-ended waits) — lets NEXUS detect waiting-on-waiting deadlock at fleet level
-  Scope: Tier-1 agents only (CARL, REGINALD, OZK, SAM, RED, BROCK, LIQUID, HENRY, HAWK, BRENT, VIOLET, WALTER + NEXUS). Tier-2 spawn-as-needed agents skip the brief.
+  4. SENDING: single table. Refresh discipline at session closeout.
+  5. Status emoji: per root CLAUDE.md key only — 🟢 none / 🟡 monitoring / 🟠 elevated / 🔴 active/critical
+  6. Conviction decomposition: OPTIONAL per agent
+  7. WAITING FOR: "Expected by" column REQUIRED
+  9. COMPACT variant allowed for utility/single-seam desks (schema §amendment 9)
+  10. Closeout ORDERING: the brief fold is the session's LAST write-back
+  11. pin-follows-STATUS-HEAD: the STATUS commit pinned below must equal STATUS HEAD at commit time (re-pin after any same-session STATUS commit)
+  12. FULL variant: ## CROSS-DOMAIN is the FIRST body section (this template's order)
+  Scope: every desk that keeps a brief — census and live read-rules in AGENTS/NEXUS/BRIEFS_MAP.md; tier membership in PROME/ROSTER.md.
 
 Maintenance:
   - Update at every session closeout per SPAWN PROTOCOL discipline.
   - No-material-change session → refresh As-Of stamp + STATUS commit hash only.
   - Material change → content updates same session.
   - NEVER restate canonical content (PREDICTIONS scoreboard, full RED log, full thesis). REFERENCE with anchor.
-  - Length: pending pilot measurement, provisional cap 100 lines. SAM pilot lands at 75.
+  - Length: the 100-line ceiling is NOT enforced (ruled 2026-08-28); the binding limit is the root READ-CAP budget (32,550 B) — NEXUS reads the brief whole.
 
 REMOVE this top comment block when you copy the template. Section-level <!-- comments --> below
 are also instructional and should be removed when you fill in your brief.
@@ -60,6 +64,49 @@ As-Of: timestamp when you last touched the brief. If STATUS data is older than t
 NEXUS uses the commit hash for mechanical stale-check (§4.4 of schema).
 -->
 **As of:** YYYY-MM-DD ~HH:MM ET | STATUS commit: <short-hash>
+
+---
+
+## CROSS-DOMAIN
+
+<!--
+SINGLE MOST IMPORTANT SECTION. NEXUS does its real work here — reading these edges across all
+agents and finding the graph. Protect under cap pressure first.
+
+SENDING table — the 4th column ("Mechanism it triggers in recipient's domain") is what makes the
+brief useful vs raw STATUS. Force yourself to think about what the signal DOES, not just what it IS.
+  Bad: "SAM → LIQUID: net selling >¥1T/month"
+  Good: "SAM → LIQUID: net selling >¥1T/month → reduces UST demand → upward 10Y pressure"
+
+Single table per Will. No STANDING/THIS-CYCLE split. Refresh discipline at session closeout —
+stale rows are your responsibility to age out.
+
+No P/L, no money figures, no position $ amounts. Reference position structurally only.
+-->
+
+**SENDING:**
+
+| To | Signal | Priority | Mechanism it triggers in recipient's domain |
+|----|--------|----------|---------------------------------------------|
+| <agent> | <signal content> | 🟢/🟡/🟠/🔴 | <mechanism in recipient's domain — what does this DO> |
+| <agent> | <signal content> | 🟢/🟡/🟠/🔴 | <mechanism in recipient's domain> |
+
+<!--
+WAITING FOR — the 3rd column ("Expected by") + 4th and 5th columns are critical.
+"Expected by" gives NEXUS a date/trigger to detect waiting-on-waiting deadlock when scanning
+the fleet. Use date format (`Wed Jun 10`) for hard dates, condition format
+(`Open — watch X signal`) for open-ended waits.
+"Why it matters" + "How it changes my view" tell NEXUS what edge to weight when it sees
+the upstream agent's brief.
+Empty tables are fine — don't add placeholder rows.
+-->
+
+**WAITING FOR:**
+
+| From | Input | Expected by | Why it matters | How it changes my view |
+|------|-------|-------------|----------------|------------------------|
+| <agent> | <input I need> | <date OR open-ended condition> | <why it matters to my view> | <how it changes my mark/conviction> |
+| <agent> | <input I need> | <date OR open-ended condition> | <why it matters> | <how it changes my view> |
 
 ---
 
@@ -122,49 +169,6 @@ that crosses domains; you might want to look." Skip if nothing active. Don't for
 
 ---
 
-## CROSS-DOMAIN
-
-<!--
-SINGLE MOST IMPORTANT SECTION. NEXUS does its real work here — reading these edges across all
-agents and finding the graph. Protect under cap pressure first.
-
-SENDING table — the 4th column ("Mechanism it triggers in recipient's domain") is what makes the
-brief useful vs raw STATUS. Force yourself to think about what the signal DOES, not just what it IS.
-  Bad: "SAM → LIQUID: net selling >¥1T/month"
-  Good: "SAM → LIQUID: net selling >¥1T/month → reduces UST demand → upward 10Y pressure"
-
-Single table per Will. No STANDING/THIS-CYCLE split. Refresh discipline at session closeout —
-stale rows are your responsibility to age out.
-
-No P/L, no money figures, no position $ amounts. Reference position structurally only.
--->
-
-**SENDING:**
-
-| To | Signal | Priority | Mechanism it triggers in recipient's domain |
-|----|--------|----------|---------------------------------------------|
-| <agent> | <signal content> | 🟢/🟡/🟠/🔴 | <mechanism in recipient's domain — what does this DO> |
-| <agent> | <signal content> | 🟢/🟡/🟠/🔴 | <mechanism in recipient's domain> |
-
-<!--
-WAITING FOR — the 3rd column ("Expected by") + 4th and 5th columns are critical.
-"Expected by" gives NEXUS a date/trigger to detect waiting-on-waiting deadlock when scanning
-the fleet. Use date format (`Wed Jun 10`) for hard dates, condition format
-(`Open — watch X signal`) for open-ended waits.
-"Why it matters" + "How it changes my view" tell NEXUS what edge to weight when it sees
-the upstream agent's brief.
-Empty tables are fine — don't add placeholder rows.
--->
-
-**WAITING FOR:**
-
-| From | Input | Expected by | Why it matters | How it changes my view |
-|------|-------|-------------|----------------|------------------------|
-| <agent> | <input I need> | <date OR open-ended condition> | <why it matters to my view> | <how it changes my mark/conviction> |
-| <agent> | <input I need> | <date OR open-ended condition> | <why it matters> | <how it changes my view> |
-
----
-
 ## NEXT DECISION POINT
 
 <!--
@@ -204,4 +208,4 @@ Footer: optional. Use for schema-version stamp + any agent-specific notes.
 Remove if not useful.
 -->
 
-*Brief format follows NEXUS_BRIEF schema (R3 + amendment 7). Updated at every session closeout per SPAWN PROTOCOL discipline.*
+*Brief format follows NEXUS_BRIEF schema (R3 + amendments 7, 9, 10, 11, 12). Updated at every session closeout per SPAWN PROTOCOL discipline.*

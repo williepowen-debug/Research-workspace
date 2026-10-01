@@ -267,3 +267,7 @@
 ---
 
 *Companion artifacts: `BRIEFING_2026-08-29_SYSTEMS_REVIEW.md` (the input pack this slate consumed) · `research/2026-08-28_successor_falsifier_RESOLUTION.md` §8 (item 3's graded answer) · `brief_health.md` rollup #4 (item 7) · `STATUS.md` + `STATUS_COLD.md` (item 2's cure).*
+
+
+---
+**2026-10-01 retirement sweep (NEXUS):** the recon/ and research/ files this slate cites from 6/06–7/31 were moved to `archive/` (same basenames) under root Data Hygiene (>60 days, not boot-read, no live analytical reference). Paths above are historical.
