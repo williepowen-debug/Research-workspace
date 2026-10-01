@@ -309,3 +309,15 @@ Apply when entering, updating, or resolving any prediction. Came from real misse
 - **PRED-43 ❌F FALSIFIED-in-mechanism.** No verified Dimona strike by 9/30: absent from FALCON brief/STATUS/10-01 reports; newest fleet mention is HAWK `KB-HAWK-132` (2026-03-23, "struck near Dimona", B2). Scope of the negative: FALCON + HAWK + WALTER inbox only. None of the three sequence legs observed in seven months.
 - **PRED-48 ❌ MISS (letter: "neither reaches 2.0").** FRED `CAINSUREDUR` / `NYINSUREDUR` (pulled 10/1): in-window (8/1→9/12 published) CA max **1.90 [w/e 8/1]**, last 1.72 [w/e 9/12]; NY max **1.74 [w/e 8/22]**, last 1.50. ✅ branch IMPOSSIBLE (needs ≥2.3 ×3 wks; ≤2 wks remain). Two window cells unpublished (w/e 9/19, 9/26): **re-check once at the first boot ≥10/15 — a CA or NY print ≥2.0 re-grades to ⚪ NO-VERDICT; otherwise this grade stands.** Mechanism leg AGAINST too: national CC 1,701K [w/e 9/19] falling. C-05's third leg closes with it.
 - **PRED-24 → CONDITIONAL WATCH, no standing probability (Disc-J).** The ~15% (7/31) had no falsifier. Re-opens with a fresh number only if HY ≥350 on 2 consecutive FRED cells AND a primary-sourced bank↔shadow fire-sale datum (a fund gate/forced sale tied to a bank margin or credit-line call). HY 312 [9/30], 38bp under.
+
+
+## §C5 — 2026-10-01 19:12 EDT — 0b-DEFECTIVE rows dispositioned (Will: "lets update NEXUS files"). Original letters verbatim:
+
+| ID | Date | Source | Prediction | Trigger Date/Condition | Status | Conf |
+|----|------|--------|-----------|----------------------|--------|------|
+| PRED-38 | Mar 2026 | BROCK | Bank writedowns visible Q2–Q3 earnings. Q2 half near-miss (cohort benign; OZK/WAL idiosyncratic). | Q3 leg — bank prints ~10/20–28. | 🟠 DEFECTIVE (0b 10/1: no magnitude) | **~55%** |
+| PRED-40 | Mar 2026 | BROCK/NEXUS | Bank loss exposure $73.4–137.6B by Q2–Q3. Direct PC channel capped ~2bp CET1. | Resolve or re-scope Q3-end. | 🟠 DEFECTIVE (0b 10/1: no instrument) | **~40%** |
+| PRED-41 | Mar 2026 | OTTO/NEXUS | Mass-market consumer stress breaks Q4-26 / Q1-27. AGAINST: claims ~197K, banks benign, issuer layer 0-of-4, FL small-tier revert. FOR: borrower burden records, CC 90+ DQ 13.1%, subprime ABS off trough, diesel into Q4. | Window Q4-26/Q1-27; HHDC + holiday credit data. | 🟠 DEFECTIVE (0b 10/1: no instrument/threshold) | **~55%** (7/31) |
+
+- **PRED-40 RETIRED, unresolvable from birth** — "bank loss exposure $73.4–137.6B" names no instrument that could ever print it (exposure ≠ loss; no source series). Not graded (no HIT/MISS exists). Its live content is carried by PRED-38 (realized charge-offs) and the PRED-24 conditional watch. Same defect class as C-05's third leg (`CONFIRMED.md`).
+- **PRED-38 / PRED-41 RE-SPEC'd** in the hot file with dates, magnitudes, resolvers and five-case counterexamples; their old numbers (55% / ~55%) are retired with the old letters, not carried.
