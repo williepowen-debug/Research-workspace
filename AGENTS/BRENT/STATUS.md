@@ -1,11 +1,19 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-09-30 — scoped:** WPSR wk-9/25 at the EIA primary spreadsheets (10:56 ET; API lagged) · yfinance intraday named contracts 10:17 ET and 9/29 settle-window proxies (1-min VWAP 14:28–14:29, single vendor, NOT CME) · retail wk-9/28 via FRED GASREGW · news 9/30 (sources in the 9/30 block). Not re-verified: rigs, COT, JWC, Dated Brent (FRED last 9/22).
+**Last real data refresh: 2026-10-01 — scoped:** yfinance named contracts: 9/30 settle-window proxies (1-min VWAP 14:28–14:29, single vendor, NOT CME) + 10/1 intraday 13:09–13:10 ET · Federal Register + public inspection + whitehouse.gov 13:20–13:2x ET · DOE SPR RFP 9/29 · METI Aug crude-by-source PDF · news 9/30–10/1. Not re-verified: WPSR (last wk-9/25), rigs, COT (next 10/2), JWC, Dated Brent (FRED last 9/22), retail (wk-9/28).
 
 ---
 
 # ⚡ CURRENT STATE — *read this first. Dated blocks follow newest first; STANDING STATE is the hot half; ARCHIVE INDEX is history.*
 
+
+## October 1 (13:17 → 13:3x ET by `date`; PROME prome-0c spawn, L0 drain) — nothing fires · BRT-31 REGISTERED · China halt · last SPR exchange · METI Aug
+
+**Nothing fires** ([note](research/2026-10-01_l0-drain/NOTE.md) §0). `GATE-TERRY-VLO-HELD-01` **B1 NOT FIRED**: no signed US distillate export-restriction text at the Federal Register (published + public inspection, 13:20–13:21 ET) or whitehouse.gov; Trump 9/30 still only *"thinking about"* a ban; the WH is weighing red-dyed diesel (an excise measure, NOT B1). **Leg A NOT FIRED**: Nov ULSD crack 9/30 proxy **$106.51**, $16.35 above $90.16 (TERRY grades). **F-b**: already FIRED 9/30; nothing today re-grades it. **F-a**: Dec−Feb widened to +$6.47 intraday (away from compression).
+**BRT-31 REGISTERED** (WQ-346; v2 as written, 40%, data weeks 10/9 → 11/27; first print Thu 10/15). Path B has a registered test again.
+**China** halted product exports beyond HK/Macau until Beijing guidance after Golden Week (Reuters, 4 sources; Bloomberg). **Size UNKNOWN**; no volume in either wire. Tape: Nov gasoline crack **+$2.76**, Nov ULSD crack **−$6.12** vs 9/30 proxies: consistent with a gasoline/jet-heavy halt plus the October-expiry diesel squeeze unwinding (one day, one vendor). **SPR [CONF DOE 9/29]:** up to **40M bbl** exchange (Big Hill + Bryan Mound), deliveries **Nov–Dec**, bids close **Tue 10/6**; the LAST tranche of the US 172M; return timing not stated. ~0.66 mb/d if even [EST]. Crude, not product.
+**9/30 settle-window proxies** [1-min VWAP 14:28–29, NOT CME]: BZZ26 **97.99** · BZF27 95.06 · BZG27 92.82 · CLX26 **90.39** · CLZ26 88.38 · HOX26 **4.6881** · HOZ26 4.5067 · RBX26 3.2576 ⇒ **Nov ULSD crack $106.51 · Dec $100.90** · Nov gasoline $46.43 · Dec−Feb +$5.17. Vendor daily rows agree ≤ $0.04. The squeeze reached November on 9/30 (+$6.50). **10/1 intraday 13:10 (NOT proxies):** BZZ26 101.24 · CLX26 92.10 · HOX26 4.5831 ⇒ Nov ULSD crack $100.39 · Dec $96.19. The 10/1 window proxies follow on PROME's re-ping.
+**METI Aug** [CONF primary PDF]: **Kuwait 84,287 kl / Qatar 77,988 kl, both up from ZERO in July**, at ~10% / ~33% of a year ago: a crack in the zero, not normalisation. ⚠️ July loadings on a receipt basis; a Japan joint-stockpile draw cannot be excluded (UNKNOWN). Packet to SAM. **TRADE.md** corrected from FORGE: the Sep-30 159C ×2 was **SOLD 9/30 @ $0.01 (−$919.46)**; the Oct-09 150C is ×1 after a 10/1 partial sale. **$0.**
 
 ## September 30 (10:15 → 11:1x ET by `date`, Will-directed boot + grades; PROME prome-f4 orchestrating) — WPSR wk-9/25 · BRT-29 FAILED · BRT-12 VOID · F-b FIRED · Brent pin → BZZ26
 
@@ -76,20 +84,23 @@
 | **~Tue Sep 8** ⌁*modeled* | L198 September 8 owner read — Sidi Kerir direction-only updated; PortWatch UNKNOWN / PENDING PUBLICATION | 🔴 |
 | **~Tue Sep 22** ⌁*modeled* | ATA truck tonnage AUGUST — first print fully carrying $6+ retail diesel | 🟡 |
 | **Fri Sep 25** | ✅ Petroline frame-breaker resolver WINDOW CLOSES 17:00 ET — BG-02 instance (4) — GRADED 2026-09-25 17:0x ET: NOT MET — LAPSED (premium, not destroyed capacity on the letter); closed, NOT… | 🔴 |
-| **Wed Sep 30** | XLE September 30 expiry — residual check only after selected September 9 exit | 🟡 |
-| **Wed Sep 30** | RUSSIA PRODUCER DIESEL EXPORT BAN — current extension EXPIRES (marine fuel/gas oils by producers) | 🟠 |
+| **Wed Sep 30** | ✅ XLE September 30 expiry — residual check — GRADED 2026-10-01: nothing residual (both 65C sold; last fill 9/11 @ $1.51, TRADE EXECUTION LOG) | 🟡 |
+| **Wed Sep 30** | ✅ RUSSIA PRODUCER DIESEL EXPORT BAN — current extension EXPIRES — GRADED 2026-10-01: EXTENDED to 10/31 (successor row 2026-10-31) | 🟠 |
 | **Thu Oct 1** | 🟠 EU STORAGE 80% FLOOR — DECISION DATE (binding 1 Oct-1 Dec window OPENS) | 🟠 |
 | **Sun Oct 4** | 🟠 OPEC+ SEVEN-COUNTRY MONTHLY MEETING — the November 2026 production decision (successor to the 9/6 row) | 🟠 |
 | **~Mon Oct 5** ⌁*modeled* | 🟠 ARAMCO NOVEMBER OSPs — first monthly price signal set entirely under the Petroline shut | 🟠 |
 | **Tue Oct 6** | EIA October STEO — successor same-series vintage read | 🟠 |
+| **Tue Oct 6** | SPR EXCHANGE (up to 40M bbl, Big Hill + Bryan Mound) — BIDS CLOSE 11:00 CT; awards follow | 🟠 |
+| **~Thu Oct 8** ⌁*modeled* | CHINA PRODUCT-EXPORT HALT — Beijing guidance after Golden Week (holiday ends 10/7) | 🟠 |
 | **~Sat Oct 10** ⌁*modeled* | 🟠 IRAN-OMAN PERMANENT-ROUTE WINDOW — 30-60d after 8/26 interim framework | 🟠 |
 | **~Wed Oct 14** ⌁*modeled* | 🟠 IEA OMR OCTOBER — second collective-action watch + global stock draw (successor to the Sept OMR read 9/18) | 🟠 |
+| **Sat Oct 31** | RUSSIA PRODUCER DIESEL EXPORT BAN — extended expiry (successor to the 9/30 row) | 🟠 |
 | **~Sun Nov 1** ⌁*modeled* | 🟠 EU GAS STORAGE — RESOLVED 2026-08-13: the target, the DATE and the pace are now all verified | 🟠 |
 | **Sun Jan 31 2027** | RUSSIA FUEL EXPORT BAN — full expiry (gasoline all-participants + non-producer diesel) | 🟡 |
 
-*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 8 of 17 rows are modeled.*
+*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 9 of 20 rows are modeled.*
 
-*17 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
+*20 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
 
 <!-- CALENDAR:END -->
 **✅ FIRED & GRADED (full graded text retained in `docket/CATALYSTS.tsv`, not restated here):** Jul 22 EIA wk-7/17 · Jul 24 CPC leg-(b) · Jul 24 COT+Baker Hughes · Jul 28 OPEC JMMC · Jul 29 EIA wk-7/24 · Jul 29 FOMC · Jul 31 COT as-of 7/28 · Jul 31 Russia diesel-ban expiry · Aug 2 OPEC+ September quotas · Aug 3 the frozen behavioral settle test · Aug 5 EIA wk-7/31 · Aug 7 COT as-of 8/4.

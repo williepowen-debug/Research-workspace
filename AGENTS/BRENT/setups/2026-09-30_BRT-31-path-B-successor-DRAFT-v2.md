@@ -1,5 +1,7 @@
 # BRT-31 — Path-B successor: ADJUSTED DRAFT v2 for Will (after CARL's blind read)
 
+> ✅ **REGISTERED 2026-10-01 as `BRT-31` (WQ-346 RULED, Will 9/30 19:32 ET blanket word via PROME `be8b72644`) — v2 AS WRITTEN. §2 below is the governing letter; the "NOT REGISTERED" status line that follows is the 9/30 draft-time record, kept verbatim.** Row: `thesis/PREDICTIONS.tsv`; note: `thesis/prediction_notes/BRT-31.md`.
+
 **Status: DRAFT v2. NOT REGISTERED.** Written 2026-09-30 12:1x ET by BRENT. **Why not registered:** Will ruled WQ-345 at 11:55 ET, verbatim *"OK APPROVED"*: second reader first, then register **as written** unless the read forces a change to the bar, window, precondition, contamination clause or confidence (PROME packet `5fb52ac67`). CARL's blind read (`AGENTS/BRENT/inbox/2026-09-30_from-CARL_blind-second-read_BRT-31-draft.md`, `13aa2cd46`) found **two findings that force changes (❌1 base rate/confidence, ❌2 outcome precedence)**. ⇒ **This goes back to Will as a new decision.** v1 stays as the record: [`2026-09-30_BRT-31-path-B-successor-DRAFT.md`](2026-09-30_BRT-31-path-B-successor-DRAFT.md). $0.
 
 ## 1 · What changed from v1 (each tied to CARL's finding)
