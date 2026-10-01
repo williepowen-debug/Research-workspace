@@ -1,6 +1,6 @@
 # FALCON STATUS
 
-**Last updated:** 2026-10-01 ~12:5x ET (`falcon-1001` touch 2: DOCKET L540 done; production rung PROPOSED; FAL-06 REGISTERED; EXIT_PROTOCOL v3 + THESIS v3.0). Reports: [touch 2](reports/2026-10-01b_production-rung-proposal-fal06-rewrite.md) · [touch 1 drain](reports/2026-10-01_l0-drain-ghawar-hulls-leg2-iraq.md). **Prior:** 2026-09-28 (`592823066`).
+**Last updated:** 2026-10-01 ~13:0x ET (full closeout on Will's word 12:52 ET; touch 2: DOCKET L540 done; production rung PROPOSED; FAL-06 REGISTERED; EXIT_PROTOCOL v3 + THESIS v3.0). Reports: [touch 2](reports/2026-10-01b_production-rung-proposal-fal06-rewrite.md) · [touch 1 drain](reports/2026-10-01_l0-drain-ghawar-hulls-leg2-iraq.md). **Prior:** 2026-09-28 (`592823066`).
 **Decision read:** **Nothing on the registered rail fires today. B 1 / C 14 / D 85 unchanged.** Four tankers were hit in Hormuz 9/28–9/29 (none sunk); a NEW heat source burned 9/29–9/30 in the Ghawar/Ain Dar area (own FIRMS; attack, facility and damage NOT established, no Saudi/Aramco/wire statement); the US answered Iran's 7-day plan through Qatar (no framework); the US left federal Iraq on 9/30 with no kinetic backlash found. ⚠️ **A confirmed strike on a Ghawar PRODUCTION facility would move no mark by rule** (FAL-01 resolved 7/25; D 75→85 fired 9/28; nothing registered above 85) — it would be a same-hour tell-Will item and the decisive FAL-06 input. ⚖️ **Composition disagreement carried from 9/28:** Yanbu was a route loss, not a demonstrated barrel loss (Kpler Saudi 7-day loadings 8.5 mb/d, AGBI 9/30, "highest of the war").
 
 ## Current marks and authority
@@ -12,7 +12,7 @@
 | Predictions | FAL-05 **FAILED** 9/28. **FAL-06 REGISTERED 2026-10-01 at 70%** (no NET Gulf-ally crude/condensate loss to 2026-11-05; a single-terminal halt alone never fires it; base rate first, regime-split mixture ~28% fire). Scoreboard **1C / 3F / 1P / 0V / 1 OPEN**. |
 | Ghawar / Ain Dar fire (9/29–9/30) | **Heat CONFIRMED by own FIRMS** at 25.839N 49.227E: dark 9/23–9/28 day+night → 9/29 09:30Z first detection (~21 h before the OSINT plume claim) → 9/30 max 26.7 MW → dark on both nights and the 10/01 day passes. Not a routine flare. **Attack / facility / damage: NOT ESTABLISHED; CANNOT EVALUATE a strike.** KB-213. |
 | WARRISK falsifier | 🔴 LIT (EXIT §3 #8; Yanbu ~3% vs 0.1% baseline, Reuters 9/25). 4 of 5 rows current to 10/05; Bab AWRP row EXPIRED +59d (no quote). |
-| GATE-FALCON-001 | **LIVE.** Legs 1 (7/23) and 3 (8/15) FIRED. **Leg 2 NOT FIRED:** TankerMap 10/01 7dma **11.1**/day, 7d 78, **+144% w/w** (wrong sign; rides the Yanbu restart). **Leg-2 magnitude + window PROPOSED to DAEDALUS 10/01** (≥35% w/w step-down, frozen prior-7d reference, 2 consecutive print-days, floor 21, Yanbu-confound exclusion; base rate on PortWatch) — adoption = Will via PROME. Next review_by **2026-10-06**. |
+| GATE-FALCON-001 | **LIVE.** Legs 1 (7/23) and 3 (8/15) FIRED. **Leg 2 NOT FIRED:** TankerMap 10/01 7dma **11.1**/day, 7d 78, **+144% w/w** (wrong sign; rides the Yanbu restart). **Leg-2 basis PROPOSED 10/01** (≥35% w/w step-down, frozen prior-7d reference, 2 consecutive print-days, floor 21, Yanbu-confound exclusion; base rate on PortWatch). **DAEDALUS PASS-WITH-RESIDUE 10/01** (`f2b94746d`); residue R1 missed read = UNKNOWN · R2 integer tie `100×cur ≤ 65×ref`, printed −35% leans to fire · R3 fitted in-sample to n=1 on a proxy — declared (`ab713e840`). **With Will as WQ-353, needed-by 10/06** (per PROME 13:0x ET); the GATES cell edit waits on it. Next review_by **2026-10-06**. |
 | Thesis-kill (EXIT §1) | **0/7.** **EXIT_PROTOCOL v3 + THESIS v3.0 written 10/01** (v2 archived verbatim, `archive/EXIT_PROTOCOL_archive_2026-10-01.md`): the regime is carried as two true statements — letter: crude premium falsified, D 85 · composition: route loss, not a demonstrated barrel loss. |
 | Capital / other owners | No trade or capital grade. BRENT owns prices (Dec Brent ~$100.83 intraday 12:24 ET 10/01, `fetch.py`, vendor not a settle). TERRY construction, Will approvals. No settle-count clock; step 12b no-op. |
 
@@ -28,6 +28,8 @@
 | 9/30 | US withdrawal from federal Iraq complete (Pentagon); KH 10/01 "the resistance has won this round", no disarmament deal | KB-217; §3 #4 next rung NOT fired |
 | 10/01 | Bab tanker 7dma 11.1/day (+144% w/w) | KB-218; leg 2 NOT FIRED |
 | 10/01 12:49 | Fresh FIRMS + primary check on Ghawar: no new detection since 9/30 12:02Z; no statement | KB-219; no change |
+| 10/01 | USS Theodore Roosevelt to CENTCOM (sailed 9/27): RELIEF for the George Washington lean (USNI via Asharq Al-Awsat); "third carrier" = one anonymous official (JPost) | KB-222; no rung |
+| 10/01 | PROME landed my 10 WATCH_FOR phrases in Research-Intake `52b3ae6` (verified at the commit) | WQ-295 R3 closed for FALCON |
 | 10/01 | FAL-06 registered (70%); production rung PROPOSED; EXIT v3 + THESIS v3.0 | KB-220/221 |
 
 ## Convergence Matrix
@@ -61,20 +63,21 @@ Scores retained. 7 vectors at ceiling ⇒ this composite cannot register the wee
 
 | Item | Due |
 |---|---|
-| Will's word on the production rung D 85→92 (via PROME) | open |
+| Will's word on the production rung D 85→92 — PROPOSED, not registered; PROME registering a WQ row (per PROME 13:0x ET) | open |
+| Will's word on the leg-2 basis — WQ-353 | **needed-by 2026-10-06** |
+| CTP-ISW Iraq read for 9/30–10/01 (skipped 10/01; scoped search only) | **2026-10-02** |
 | 7-day scenario review | **2026-10-08** |
 | FAL-06 resolves | **2026-11-05** |
 | GATE-FALCON-001 review (TankerMap like-for-like) | **2026-10-06** |
 | DAEDALUS reply on the leg-2 basis; Will's word via PROME to adopt it | open |
 | Ghawar-area fire: re-check for a Saudi/Aramco/CENTCOM/wire primary; FIRMS re-pull (last 12:49 ET 10/01: no change) | next session |
-| CTP-ISW Iraq read 9/30–10/01 (not read 10/01) | next session |
 | VESSELS backfill: El Gaia 9/13, St Helena 9/14, Trend 9/16, STI Steadfast 9/18 | next session |
 | 🔴 CARRIED (MEMORY): KB-168 Yanbu terminus proxy unbuilt (FAL-06 registered without it) | carried build |
 | Carried builds: sub-$80 duration bar, bypass empty-series guard, archive-content guard, EXIT_PROTOCOL boot reader | carried |
 
 ## Ownership, mail and provenance
 
-**10/01 inbox drained, 6 items:** 5 WALTER handoffs (all **acted**, `board_log`, moved to `processed/`) + WALTER's WQ-295 R3 packet (answered: `PROME/inbox/2026-10-01_from-FALCON_wq295-r3-watch-verdicts.md`, 10 adopt / 7 decline). Packets out: DAEDALUS (leg-2 basis), PROME (session memo). Prior STATUS (9/28) is in git history (`592823066`).
+**10/01 inbox: 8 items consumed, 0 remaining** (touch-1 drain 6 + DAEDALUS PASS-WITH-RESIDUE + WALTER SIG-W-20261001-007). Touch-1 detail: 5 WALTER handoffs (all **acted**, `board_log`, moved to `processed/`) + WALTER's WQ-295 R3 packet (answered: `PROME/inbox/2026-10-01_from-FALCON_wq295-r3-watch-verdicts.md`, 10 adopt / 7 decline). Packets out: DAEDALUS (leg-2 basis); PROME ×4 (drain memo, R3 verdicts, residue, L540); HAWK (FAL-05 'zero crude' correction vs HAW-19 testimony). Prior STATUS (9/28) is in git history (`592823066`).
 
 ## BOTTOM LINE
 

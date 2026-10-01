@@ -24,11 +24,15 @@
 2. **2026-10-06:** GATE-FALCON-001 review; grade on the adopted basis if Will has ruled, else on the old letter.
 3. **2026-10-08:** 7-day scenario review.
 4. Ghawar-area fire: re-check for a primary; re-pull FIRMS at 25.839N 49.227E (last 12:49 ET 10/01: no change). If a strike on a production facility is confirmed: message PROME at once.
-5. FAL-06 route (c) watch: Kpler/Vortexa weekly national export prints (via BRENT or wires). CTP-ISW Iraq read for 9/30–10/01.
+5. FAL-06 route (c) watch: Kpler/Vortexa weekly national export prints (via BRENT or wires).
+6. **2026-10-02:** CTP-ISW Iraq read for 9/30–10/01 (skipped 10/01; scoped search only).
+7. **WQ-353 (leg-2 basis) needed-by 2026-10-06**; the production-rung WQ row is PROME's to register.
 
 ## OPEN THREADS / WATCHES
 - 🔴 CARRIED OPEN (MEMORY.md): KB-168 Yanbu terminus proxy unbuilt — FAL-06 registered without it; still the instrument that would let me grade route (c) myself.
-- Leg-2 basis: DAEDALUS PASS-WITH-RESIDUE; R1–R3 declared (`e73fd67a5`); adoption is Will's word via PROME.
+- Leg-2 basis: DAEDALUS PASS-WITH-RESIDUE; R1–R3 declared (`e73fd67a5`); with Will as WQ-353 (needed-by 10/06).
+- WATCH_FOR: PROME landed my 10 phrases in Research-Intake `52b3ae6` (verified at the commit).
+- HAWK packet 10/01: HAW-19 cites my 'zero crude barrels' as capacity testimony; it is barrels-to-market only (April SPA 600 kbpd capacity). HAWK is dark; PROME cc'd.
 - VESSELS backfill: El Gaia 9/13, St Helena 9/14, Trend 9/16, STI Steadfast 9/18.
 - VX sweep owed: most VX rows stamped 9/08–9/11 (stamp the CHECK, name what was searched).
 - HAWK 9/16 ask (b): ANALYSIS_2026-09-11 reconcile, carried.
@@ -38,7 +42,7 @@
 1 OPEN (FAL-06, 70%, resolves 2026-11-05). No trade. Will-facing: (1) register or decline the production rung D 85→92 and say whether minor-damage hits count; (2) adopt the leg-2 basis with residue R1–R3. The Ghawar fire is a watch, not a decision.
 
 ## MAIL STATE
-Inbox 0/0/0 after drain. Out: AGENTS/DAEDALUS/inbox/2026-10-01_from-FALCON_gate-falcon-001-leg2-magnitude-and-window.md; PROME/inbox/2026-10-01_from-FALCON_wq295-r3-watch-verdicts.md; PROME/inbox/2026-10-01_from-FALCON_l0-drain-iran-signals-leg2-iraq.md; PROME/inbox/2026-10-01_from-FALCON_leg2-basis-residue-declared.md; PROME/inbox/2026-10-01_from-FALCON_l540-production-rung-fal06-rewrite.md.
+Inbox 0/0/0 after drain. Out: AGENTS/DAEDALUS/inbox/2026-10-01_from-FALCON_gate-falcon-001-leg2-magnitude-and-window.md; PROME/inbox/2026-10-01_from-FALCON_wq295-r3-watch-verdicts.md; PROME/inbox/2026-10-01_from-FALCON_l0-drain-iran-signals-leg2-iraq.md; PROME/inbox/2026-10-01_from-FALCON_leg2-basis-residue-declared.md; PROME/inbox/2026-10-01_from-FALCON_l540-production-rung-fal06-rewrite.md; AGENTS/HAWK/inbox/2026-10-01_from-FALCON_zero-crude-claim-is-barrels-not-capacity.md. Inbox 0 after the full closeout (SIG-W-20261001-007 Roosevelt carrier = relief lean, KB-222, consumed).
 
 ## PENDING PUSH / GIT
 Exact-path commits; safe-push at closeout. Other desks' dirty trees (SAM, DAEDALUS GATE_LOG, PROME state) are theirs.
