@@ -4,6 +4,14 @@ Version history for `thesis/THESIS.md`. Newest first. Bump rules: **major (X.0)*
 
 ---
 
+## v1.2.11 — 2026-10-01 ~16:2x ET (**the Sept-4 kill letter is MET for the 9/23 5Y `I'` fire — a recommendation, no action**)
+- **Old view → new view:** kill NOT FIRED (the 9/23 fire an unpaired `I'` marker, dealer leg pending) → **kill letter MET**: FR2004 3–6Y as-of 9/23 **$60.079B** vs the WQ-291 bar **$56.586B** (PRE $47.986B reproduced, unrevised; Δ +$12.093B; margin +$3.493B; `KB-BND-383`). The kill is `I'` + a non-auction mechanism confirmation ("FR2004 dealer stock and/or SOFR−IORB"), so the dealer leg alone completes it; the funding window stays UNGRADED by ruling.
+- **Consequence:** a RECOMMENDATION "exit all duration shorts" (TLT Oct-16 82P ×1 + TBT 10 sh per the 10/1 mirror) through TERRY's card and Will's [Approve] — root rule #5. Riders verbatim: ① net inventory ≠ proof of warehousing ② funding window UNGRADED ③ operational rule, no predictive claim.
+- **Reported, never graded (it cuts against a warehousing reading):** long-end TOTAL $140.5B (−$3.8B w/w); 6–7Y $23.199B (−$4.646B).
+- **Matrix, each on its registered letter:** row 1 4→5 · row 2 3→4 ⇒ 17/35. Token `kill=MET-REC@2026-10-01`. **Why minor, not major:** the argument and channels are unchanged; a pre-registered kill rail fired on its letter. Whether the position exits is Will's call.
+
+---
+
 ## v1.2.10 — dated note 2026-10-01 (NO version bump: two factual updates, no thesis-level change)
 - Status line: the 9/23 5Y OLD-conjunctive fire is CONFIRMED on a clean pool (dealer MAX 15.61 = a 5Y new issue; `KB-BND-377`), no longer provisional. The kill is untouched: it runs on `I'` + the WQ-291 dealer leg, graded on the 10/1 16:15 FR2004 print.
 - Position table: the Sep-30 77P are gone (sold 9/30). Token unchanged (`posture=HOLD-NO-ADD`).
