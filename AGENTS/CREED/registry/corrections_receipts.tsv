@@ -2,3 +2,4 @@ receipt_date	correction_id	action	note
 2026-09-26T22:00Z	COR-20260925-05	NO-OP	
 2026-09-27T16:44Z	COR-20260927-05	APPLIED	
 2026-09-27T17:08Z	COR-20260927-06	APPLIED	
+2026-10-01T00:57Z	COR-20260925-13	NO-OP	CREED holds no HY-280 / x1-arbiter figure (grep of AGENTS/CREED *.md *.tsv at 2026-09-30 closeout returned nothing); credit-spread arbiter is not a CREED lane
