@@ -1,44 +1,43 @@
-# FALCON SCRATCH — 2026-09-28
+# FALCON SCRATCH — 2026-10-01
 
 ## CURRENT MARKS
-**B 1 / C 14 / D 85** (D 75→85 rung FIRED 9/28 on trigger (b), FAL-05 FAILED). Convergence 43/50. FAL-05 **FAILED** (route c, Yanbu). **0 OPEN predictions.** GATE-FALCON-001 LIVE: legs 1+3 fired; leg 2 NOT FIRED (TankerMap 9/28 7dma 5.4, +31% w/w); review_by → 10/06 proposed. WARRISK falsifier LIT (Yanbu ~3% vs 0.1%). No settle-count clock; step 12b no-op.
+**B 1 / C 14 / D 85** (unchanged; reviewed and HELD 10/01). Convergence 43/50. **0 OPEN predictions.** GATE-FALCON-001 LIVE: legs 1+3 fired; leg 2 NOT FIRED (TankerMap 10/01 7dma 11.1, +144% w/w); review_by 10/06. WARRISK falsifier LIT. No settle-count clock; step 12b no-op.
 
-## CHANGES SINCE LAST SESSION (9/22 → 9/28)
-- Yanbu crude loadings were zero from 9/11 (Kpler 9/17 + Vortexa/Argus 9/15), which means FAL-05 route (c) had already failed by 9/17. The 9/17 grade misread the OilPrice article (LESSONS FAL-14).
-- Petroline: low-rate restart 9/22 (unnamed) → ~3.5 mb/d flow and Yanbu exports reported resumed 9/28 (Bloomberg, one person). Aramco/MoE silent.
-- Rubio 9/22 named Kataib Hezbollah. Hull hits 9/20 AL MARYAH, 9/21 LR STEPHANIE, 9/23 CAPE DAO (1 killed); none confirmed since 9/23.
-- 8 Marines injured 9/14 (NBC, unnamed officials). Iran 7-day plan rejected by Trump 9/26; "different deal" talks expected this week.
-- Reuters 9/25 war-risk: Yanbu ~3%, south of Yanbu ≤7%, Hormuz 6–9%.
-- Late 9/28 sweep (KB-211/212): Qatar is running separate talks on a revised two-stage plan (Hormuz + blockade first, then nuclear). AP says the mediator version was NOT formally rejected; Iran says no meeting with US officials this week. No ship attacks since 9/23; no Houthi fire 9/27–28. Brent ~$108.6 is a campaign high (BRENT's number). Nothing triggered.
+## CHANGES SINCE LAST SESSION (9/28 → 10/01)
+- UKMTO late reports: 4 tankers struck 9/28–9/29 (AL FUNTAS, MERSIN PROSPERITY, SINBAD, AL RUWAIS), none sunk → VI-0038..0041.
+- Ghawar/Ain Dar area: NEW heat source 9/29 09:30Z → 9/30 12:02Z (own FIRMS, max 26.7 MW, day only, not a flare). No Saudi/Aramco/CENTCOM/wire statement. Attack/facility/damage NOT established.
+- Bu Hasa 143 MW = real 9/29 pixel; same spot burned as hot 9/14–15 with no attack → flare/upset lean.
+- US reply to Iran's 7-day plan delivered in Doha 9/29 (Iran confirmed 9/30); sequencing gap; no framework.
+- US withdrawal from federal Iraq complete 9/30; KH claims victory 10/01, no disarmament deal; no kinetic backlash found.
+- Petroline ~2.65 mb/d (Kpler) vs ~3.5 (Bloomberg); pre-attack 5.5 may take a month. Saudi 7-day loadings 8.5 mb/d (Kpler via AGBI 9/30).
 
-## WHAT I DID THIS SESSION
-- Full boot. The pull was skipped because VIOLET/PROME dirty trees are present and I was already even with origin after fetch. All 5a/5a-2/5a-3/5b/5b-2/5b-3/7b checks ran; 5b-4 kharg skipped (impeached, optional).
-- Two Opus agents (Yanbu evidence; day-by-day sweep 9/20–28). Load-bearing quotes verified by me at OilPrice 9/15, Kpler 9/17, Insurance Journal 9/25.
-- Graded FAL-05 FAILED, applied the D→85 rung, and lit §3 #8. Amended EXIT_PROTOCOL (§1 status, §2, §3 #1/#8, §5).
-- WARRISK re-pulled (4 of 5 rows; data clock → 9/25). VESSELS: VI-0034 corrected; VI-0035/0036/0037 added. CASUALTIES 019/020. KB-202..210.
-- Bab gate graded (FRESH_LEG_BASELINE block 9/28). STRIKES mark → 9/28 (0 new rows). FLOW.tsv second data clock removed (DAEDALUS #5).
-- Inbox drained (13). COR-20260924-15 receipted. Packets: PROME ×2 (cadence WEEKLY + 12 watch terms; FAL-05/D85 memo), BRENT 🔴.
+## WHAT I DID THIS SESSION (falcon-1001, PROME-spawned Tier 1)
+- Boot from PROME cwd with explicit reads (CLAUDE, STATUS, SCRATCH, LESSONS, MEMORY); ran 5a, 5a-2, 5a-3, 5b, 5b-2, 5b-3, 5c, 7b. 5b-4 kharg skipped (impeached, optional). No pull (other desks' dirty trees present).
+- Own FIRMS pulls (Ghawar point; Bu Hasa), own PortWatch chokepoint4 history (2,000 days), own TankerMap read.
+- Drained inbox 6/6; KB-213..218; VESSELS 0038..0041; FRESH_LEG_BASELINE 10/01 block.
+- Leg-2 magnitude + window PROPOSED to DAEDALUS (35% / frozen prior-7d / 2 consecutive print-days / floor 21 / Yanbu exclusion). WQ-295 R3 verdicts → PROME.
+- Clock slip caught and fixed before commit: I had typed "~12:40 ET" from narrative; `date` read 12:23.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **2026-09-30:** GATE-FALCON-001 leg-2 magnitude + reference window (DAEDALUS sweep #1).
-2. **2026-09-30 / 10-01:** US withdrawal deadline in Iraq. Read Iraq/PMF via CTP-ISW + Shafaq (baghdad_watch is a backstop only).
-3. **2026-10-05:** FAL-06 registration (base rate BEFORE the number; fix route (c)'s re-routing over-fire; keep molecule scope).
-4. **2026-10-05:** EXIT_PROTOCOL + THESIS full rewrite (§5 trigger fired 9/28), plus the 7-day scenario review.
-5. **2026-10-06:** GATE-FALCON-001 review (TankerMap like-for-like).
-6. Watch the Qatar track for a DATED meeting or framework (the only thing that engages C→B). 7. Verify Yanbu resumption at an operator/wire-attributed source; watch whether CAPE DAO becomes a CTL (a bulker CTL does NOT fire rung (a)).
+1. **2026-10-05:** FAL-06 — base rate first; separate the four quantities; fix route (c)'s re-routing over-fire; decide whether an upstream-production hit (Ghawar class) is the next registered test. Inputs: report 2026-10-01 §5.
+2. **2026-10-05:** EXIT_PROTOCOL + THESIS full rewrite (carry the composition disagreement, never as a rescue of the fired mark; diplomacy state = MEDIATED EXCHANGE LIVE, NO FRAMEWORK) + 7-day scenario review. EXIT_PROTOCOL is over the read cap — the rewrite should fix that.
+3. **2026-10-06:** GATE-FALCON-001 review; grade on the adopted basis if Will has ruled, else on the old letter.
+4. Ghawar-area fire: re-check for a primary; re-pull FIRMS at 25.839N 49.227E. If a strike on a production facility is confirmed: tell Will the same hour (via PROME), STRIKES row.
+5. CTP-ISW Iraq read for 9/30–10/01.
 
 ## OPEN THREADS / WATCHES
-- 🔴 CARRIED OPEN (MEMORY.md): KB-168 Yanbu terminus proxy unbuilt, now an input to FAL-06 design. WQ-230 is now running on free press (Will 9/22: no paid access).
+- 🔴 CARRIED OPEN (MEMORY.md): KB-168 Yanbu terminus proxy unbuilt — a FAL-06 input.
+- DAEDALUS reply on leg-2 basis pending; adoption is Will's word via PROME.
 - VESSELS backfill: El Gaia 9/13, St Helena 9/14, Trend 9/16, STI Steadfast 9/18.
-- VX sweep owed: 9 of 10 VX rows are stamped 9/08–9/11 (only IRAN-01 was re-stamped 9/28). Stamp the CHECK and name what was searched (MEMORY 9/8).
+- VX sweep owed: most VX rows stamped 9/08–9/11 (stamp the CHECK, name what was searched).
 - HAWK 9/16 ask (b): ANALYSIS_2026-09-11 reconcile, carried.
-- WALTER date-discriminator guard block: WALTER's.
+- AL RUWAIS type/flag and MERSIN PROSPERITY flag conflicts unresolved.
 
 ## PREDICTIONS DUE / DECISIONS PENDING
-FAL-05 resolved FAILED. **0 OPEN.** No trade. Will-facing: the D 85 needs its caveat (the event is reversing; the mark reverts only via §2 downgrade triggers).
+0 OPEN. FAL-06 due 10/05. No trade. Will-facing: adopt the leg-2 basis (via PROME); the Ghawar fire is a watch, not a decision.
 
 ## MAIL STATE
-Inbox 0/0/0. Out: PROME/inbox/2026-09-28_from-FALCON_cadence-and-watch-terms.md; PROME/inbox/2026-09-28_from-FALCON_fal05-failed-d85-fired.md; AGENTS/BRENT/inbox/2026-09-28_from-FALCON_fal05-failed-yanbu-route-c.md.
+Inbox 0/0/0 after drain. Out: AGENTS/DAEDALUS/inbox/2026-10-01_from-FALCON_gate-falcon-001-leg2-magnitude-and-window.md; PROME/inbox/2026-10-01_from-FALCON_wq295-r3-watch-verdicts.md; PROME/inbox/2026-10-01_from-FALCON_l0-drain-iran-signals-leg2-iraq.md.
 
 ## PENDING PUSH / GIT
-Exact-path commits; safe-push at closeout. Other desks' dirty trees are theirs (VIOLET, PROME).
+Exact-path commits; safe-push at closeout. Other desks' dirty trees (SAM, DAEDALUS GATE_LOG, PROME state) are theirs.
