@@ -23,7 +23,7 @@ Usage:
 Staleness is measured in commits-behind-HEAD-date (robust to wall-clock skew), not
 against the system clock.
 """
-import os, re, subprocess, sys
+import glob, os, re, subprocess, sys
 
 REPO = subprocess.run(["git", "rev-parse", "--show-toplevel"],
                       capture_output=True, text=True).stdout.strip()
@@ -58,6 +58,9 @@ JUDGMENT_ONLY = {
     "RAV": "Codex/Will-driven — no repo CLAUDE.md or STATUS.md BY DESIGN (handed its context, "
            "does not boot from the tree). Spec = DAEDALUS/builds/RAV_CHARTER.md; floor L0-L2 "
            "is undefined for it, so a scanned 'L0' would be a false gap, not a finding.",
+    "DEWEY": "STATELESS BY DESIGN — ROSTER.md:124 'stateless (INDEX.tsv only)'; profiles/DEWEY.md:36 "
+             "'never add STATUS/SCRATCH/predictions… changing it needs Will'. The floor's STATUS/BOTTOM-LINE "
+             "legs cannot apply, so a scanned 'L0' is a false gap (PR#7 R1, 2026-10-01).",
 }
 
 # LIVE agents with NO grade BY RULING (no FLEET_MAP row, no ladder) — announced, never silently
@@ -207,9 +210,12 @@ def scan(name):
     pred_arch_paths = find_live(d, "PREDICTIONS_ARCHIVE.tsv")
     trade_paths = find_live(d, "TRADE.md")
     # resolved predictions live in the live ledger AND/OR the archive (OTTO pattern)
-    resolved_txt = "".join((read(p) or "") for p in pred_paths + pred_arch_paths)
+    # PR#7 (2026-10-01): resolved-row archives sit under archive/ dirs that find_live excludes by
+    # design (BOND: thesis/archive/PREDICTIONS_resolved_*.tsv) — read them explicitly, never as live.
+    resolved_arch = sorted(glob.glob(os.path.join(d, "**", "archive", "PREDICTIONS_resolved*.tsv"), recursive=True))
+    resolved_txt = "".join((read(p) or "") for p in pred_paths + pred_arch_paths + resolved_arch)
     pred_resolved = len(re.findall(
-        r"\b(CONFIRMED|FAILED|PARTIAL|PARTIALLY|EXPIRED|HIT|MISS|RESOLVED|FALSIFIED)\b",
+        r"\b(CONFIRMED|FAILED|PARTIAL|PARTIALLY|EXPIRED|HIT|MISS|MISSED|RESOLVED|FALSIFIED|TRUE|FALSE)\b",
         resolved_txt))
     has_scoreboard = bool(find_live(d, "PREDICTIONS_SCOREBOARD.md"))
 

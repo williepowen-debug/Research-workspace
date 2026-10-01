@@ -10,49 +10,49 @@
 
 | Agent | Class | Lvl | Cf | Scored | What it does | Missing / next |
 |---|---|---|---|---|---|---|
-| PROME | Meta | L4 | M | 2026-09-17 | Coordinator / chief of staff | L5 when a judgment sweep finds the registered zero-own-rule gate clean |
-| WALTER | Utility | L4 | H | 2026-09-24 | Signal & news routing | L5 blocked on Will's one-line ruling on the push binding — route it, do… |
-| NEXUS | Utility | L5 | M | 2026-09-24 | Cross-agent synthesis | Conf M→H when, in one session: STATUS under 22,785 B with PREDICTIONS_M… |
-| RED | Utility | L5 | M | 2026-09-17 | Adversarial red-team | Conf M→H on the joint RED/WALTER state-token reconciliation artifact —… |
-| SAM | Market | L4 | H | 2026-09-24 | Japan — BOJ / JGB / carry | L5 on (a) demonstrate the owner-doc bidirectional sweep on one figure a… |
-| LIQUID | Market | L4 | H | 2026-09-17 | HY / credit spreads / liquidity | L5 on: rotate STATUS under 32,550 B and then under 22,785 B |
-| VIOLET | Market | L4 | M | 2026-09-17 | VIX / vol term structure / vol-of-vol | Conf M→H when the profile refresh lands (its earlier-of clock has fired… |
-| BRENT | Market | L5 | M | 2026-09-24 | Oil — Brent / WTI | Conf M→H at the first BRENT-authored closeout after 2026-09-18 in which… |
-| HENRY | Market | L4 | H | 2026-09-17 | Macro velocity / market trends | L5 on the §2 handle, or a ruling that the local form satisfies it — DAE… |
-| CARL | Market | L4 | H | 2026-09-24 | Consumer & credit-transmission macro | L5 re-test after the PHAN sub-agent pass (SCRATCH.md:39, target 2026-09… |
-| LABOR | Market | L5 | H | 2026-09-17 | Labor market (claims / JOLTS / NFP) | L5 SUSTAIN, re-dated, replacing the open half of leg (2): before the Oc… |
-| BROCK | Market | L4 | H | 2026-09-24 | Private credit / BDC / non-traded credit | L5 ADJUDICATION at the next ladder sitting — with a NAMED counter-leg n… |
-| HAWK | Market | L4 | H | 2026-09-24 | Geopolitical synthesis (cross-war reconciliation, oil-decoupling thesis, war-risk/shipping) + dormant book (Taiwan/Venezuela/trade/chokepoints/defense/sanctions) — theaters split out 7/12††† ‡ | L5 on one closeout cycle with no outside-desk correction landing in the… |
-| TERRY | Utility | L5 | H | 2026-09-24 | Trade construction / risk scoring ‡‡ | L5 SUSTAIN on two consecutive clean cycles, where 'clean' includes an E… |
-| REGINALD | Market | L4 | H | 2026-09-17 | Regional banks | L5 on two legs, both REGINALD's: rotate the 4 over-budget boot reads un… |
-| MARCO | Market | L4 | H | 2026-09-17 | Florida migration / tourism (FL sub; reconcile w/ CORAL) | L1 first, not L5: add the labeled BOTTOM LINE heading (one line), then… |
-| ORACLE | Utility | L4 | H | 2026-09-24 | Prediction-market diagnostics ‡‡‡ | L5 on the calibration loop (F-1: slug · resolution · outcome · logged p… |
-| BOND | Market | L4 | H | 2026-09-17 | US bond-market structure / auctions / rates | L5 on: create workbook/LEDGER_GLOB |
-| CORAL | Market | L3 | H | 2026-09-17 | Florida (whole-state, 10 pillars) | L4 on: author the declared-flat TRADE surface in ZHAO's form (CORAL's t… |
-| SHADE | Market | L3 | H | 2026-09-17 | Insurer-lender / PE-insurance-captive | L4 on TWO legs, both SHADE's to author: seed workbook/PREDICTIONS.tsv w… |
-| ZHAO | Market | L4 | H | 2026-09-24 | China macro — UST demand / capital flows / Korea | L5 on a dated leg the desk owns: the August-TIC letter registered in re… |
-| AEOLUS | Market | L3 | M | 2026-09-17 | Climate → economy (macro; insurance/ag/energy-demand channels) | Conf M→H at the Mode-A profile fan-out (DAEDALUS lane, unblocked) |
-| WATT | Market | L4 | H | 2026-09-17 | Power/grid — PJM stress → wholesale price → industrial/data-center cost | L5 re-keyed to the leg WATT can clear: two consecutive clean cycles, al… |
-| VULCAN | Market | L4 | H | 2026-09-17 | AI-capex / semiconductor / memory cycle → systemic risk (concentration, memory, power-demand, Taiwan chokepoint) | DAEDALUS sends the L4 grade packet (the owner edits its own file) |
-| MIDAS | Market | L4 | H | 2026-09-17 | Metals — monetary (gold/silver: debasement, real-rates) + industrial (copper/PGM: growth, China, supply) | L5 on: rotate STATUS under 22,785 B (the 9/11 rotation is not keeping p… |
-| OSPREY | Market | L3 | M | 2026-09-24 | Russia/Ukraine war theater — energy-strike campaign, crude-vs-products channel, shadow-fleet kinetic strikes, Baltic/Black-Sea ports | L4's 'signals flowing' leg is already MET (ba3898d86 9/16, consumption… |
-| FALCON | Market | L4 | H | 2026-09-17 | US/Israel/Iran-Gulf war theater — A/B/C/D ladder, Hormuz, Gulf targeting, Bab-al-Mandab/Houthi, Baghdad watch | L5 on one closeout cycle in which no outside desk finds a defect in pus… |
-| HOMER | Market | L2 | H | 2026-09-24 | Housing — asset market + housing credit structure (pipeline, GSE+CMBS multifamily, builders, HPI, mortgage-rate surface) | L3 on two authoring acts, both Will-authorized since 8/23 and both HOME… |
-| YURI | Market | L1 | M | 2026-09-24 | **Russia — ACTOR-KEYED: what the Russian state DECIDES, across all channels, as one actor** (mobilisation, asset seizure, force posture, export instruments). ⛔ **NOT Russia macro** — the name follows the fleet's human-first-name convention for geography desks and reads narrower than the charter; the charter scope is the authority, not the name. | L2 at the first YURI session that writes a row it pulled itself (YUR-00… |
-| OZK | Market | L4 | H | 2026-09-17 | Bank OZK specialist (RESG construction / classified-migration watch) | L5 on three mechanical items, one session: re-roll the KB_INDEX group t… |
-| WAL | Market | L4 | M | 2026-09-17 | Western Alliance Bancorp specialist (Office/B1-migration/MI3 idiosyncratic bear; thesis-of-record v2.3) | Conf M→H at the first review after the WAL Q3 deck lands (ESTIMATED ~mi… |
-| FLG | Market | L3 | M | 2026-09-17 | Flagstar Financial specialist (NYC rent-regulated multifamily → CRE concentration → nonaccrual → reserve adequacy; formerly NYCB) | Conf M→H on the first grade landing as dated — ESTIMATED ~2026-11-06 (q… |
-| CRUISE | Market | L3 | M | 2026-09-24 | Cruise-sector event specialist — CCL vehicle; fuel-cost transmission (BRENT → CCL); 8-channel pre-announce watchlist (`WATCHLIST_CCL_PREANNOUNCE.md`, 8/14); Q3 print ~9/28-29. ⚠️ The 7/2 arm-CCL ladder is PROPOSED-NEVER-RATIFIED and 4wk in-band — retire-or-fresh-levels decision staged at next session (row-55 ruling 8/21); do NOT treat its band as a live threshold | Demote L3→L2 fires ONLY if the 2026-09-29 print has occurred AND no CRU… |
-| FERT | Market | L3 | H | 2026-09-17 | Fertilizer supply/price/policy → food-CPI transmission → CF positioning (nitrogen + phosphate; China policy = LIVE vector; **potash → FERT at TRIAGE DEPTH, Will-ruled 2026-08-18** — routing only, log+flag, no deep-dive until the charter edit [DAEDALUS-owed] + benchmark row land together; ⚠️ potash = a FOURTH benchmark family on a desk re-chartered over a basis mislabel. ⛔ Prior cell read "potash EXCLUDED-UNOWNED fleet-wide" — never a Will ruling, an inference off the 8/16 re-charter's positive scoping, propagated as fact) | L4 is blocked on one leg that is not FERT's to clear — the charter-exem… |
+| PROME | Meta | L4 | M | 2026-10-01 | Coordinator / chief of staff | L5 'zero own-rule-unexecuted': PROME runs the spine audit (DOCKET L503,… |
+| WALTER | Utility | L4 | H | 2026-10-01 | Signal & news routing | L5 at WALTER's next session: WALTER aligns CLAUDE.md:149 with BOARD_CON… |
+| NEXUS | Utility | L5 | M | 2026-10-01 | Cross-agent synthesis | Conf M→H at the NEXUS closeout that lands an AUTHORITY & SAFETY block i… |
+| RED | Utility | L5 | M | 2026-10-01 | Adversarial red-team | Conf M→H when RED writes its state-token vocabulary in its own tree AND… |
+| SAM | Market | L4 | H | 2026-10-01 | Japan — BOJ / JGB / carry | L5 at the first SAM closeout after SAM-42 is graded (resolves by 2026-1… |
+| LIQUID | Market | L4 | H | 2026-10-01 | HY / credit spreads / liquidity | L5 at LIQUID's next full session: THESIS.md re-cut off v2.0 with an in-… |
+| VIOLET | Market | L4 | M | 2026-10-01 | VIX / vol term structure / vol-of-vol | L5 at the first VIOLET closeout where workbook/KB.tsv carries the two-c… |
+| BRENT | Market | L5 | M | 2026-10-01 | Oil — Brent / WTI | Conf M→H at the first BRENT closeout where boot.py BOOT_SEQUENCE runs a… |
+| HENRY | Market | L4 | H | 2026-10-01 | Macro velocity / market trends | L5 at the HENRY closeout that adds the §2 handle to STATUS (or after a… |
+| CARL | Market | L4 | H | 2026-10-01 | Consumer & credit-transmission macro | L5 when ledger_staleness.py CARL reports 0 stale on its sub_agents ledg… |
+| LABOR | Market | L5 | H | 2026-10-01 | Labor market (claims / JOLTS / NFP) | SUSTAIN at the 10/8 claims-card grade closeout (fires once the 10/8 pri… |
+| BROCK | Market | L4 | H | 2026-10-01 | Private credit / BDC / non-traded credit | L5 'current' at BROCK's next session: grade BRK-02, fix STATUS.md:91 ag… |
+| HAWK | Market | L4 | H | 2026-10-01 | Geopolitical synthesis (cross-war reconciliation, oil-decoupling thesis, war-risk/shipping) + dormant book (Taiwan/Venezuela/trade/chokepoints/defense/sanctions) — theaters split out 7/12††† ‡ | L5 on one closeout cycle with no outside-desk correction landing, start… |
+| TERRY | Utility | L5 | H | 2026-10-01 | Trade construction / risk scoring ‡‡ | L5 SUSTAIN at the next TERRY closeout with ledger_sweep.py section I =… |
+| REGINALD | Market | L4 | H | 2026-10-01 | Regional banks | L5 adjudication by DAEDALUS at PR#8 (2026-10-15) on three against-legs… |
+| MARCO | Market | L4 | M | 2026-10-01 | Florida migration / tourism (FL sub; reconcile w/ CORAL) | At MARCO's next session: a current-judgment summary section (## BOTTOM… |
+| ORACLE | Utility | L4 | H | 2026-10-01 | Prediction-market diagnostics ‡‡‡ | L5 on F-1: a per-resolved-market Brier ledger (slug · resolution · outc… |
+| BOND | Market | L4 | H | 2026-10-01 | US bond-market structure / auctions / rates | L5 at BOND's next closeout: create workbook/LEDGER_GLOB and add two-clo… |
+| CORAL | Market | L4 | M | 2026-10-01 | Florida (whole-state, 10 pillars) | L5 at the next CORAL session: read_cap_check --agent CORAL rotation_due… |
+| SHADE | Market | L3 | H | 2026-10-01 | Insurer-lender / PE-insurance-captive | L4 at SHADE's self-dated 2026-10-08 session (needs a PROME spawn): a DE… |
+| ZHAO | Market | L4 | H | 2026-10-01 | China macro — UST demand / capital flows / Korea | L5 at the first ZHAO session after the August TIC print (Fri 2026-10-16 |
+| AEOLUS | Market | L3 | M | 2026-10-01 | Climate → economy (macro; insurance/ag/energy-demand channels) | L4 at the next WEEKLY session (~10/05): TRADE.md rows 1/3 and THESIS.md… |
+| WATT | Market | L4 | H | 2026-10-01 | Power/grid — PJM stress → wholesale price → industrial/data-center cost | L5 on two consecutive clean WEEKLY cycles, the first a boot by 10/09 (W… |
+| VULCAN | Market | L4 | H | 2026-10-01 | AI-capex / semiconductor / memory cycle → systemic risk (concentration, memory, power-demand, Taiwan chokepoint) | L5 on two consecutive WEEKLY cycles that take every registered slot (fi… |
+| MIDAS | Market | L4 | H | 2026-10-01 | Metals — monetary (gold/silver: debasement, real-rates) + industrial (copper/PGM: growth, China, supply) | L5 on a second consecutive clean WEEKLY cycle after 10/01 (≤10/08) with… |
+| OSPREY | Market | L3 | H | 2026-10-01 | Russia/Ukraine war theater — energy-strike campaign, crude-vs-products channel, shadow-fleet kinetic strikes, Baltic/Black-Sea ports | L4 at OSPREY's next session: a DECLARED-FLAT TRADE.md whose explicit un… |
+| FALCON | Market | L4 | H | 2026-10-01 | US/Israel/Iran-Gulf war theater — A/B/C/D ladder, Hormuz, Gulf targeting, Bab-al-Mandab/Houthi, Baghdad watch | L5 on one closeout cycle (from the 10/08 7-day review) with no outside… |
+| HOMER | Market | L2 | H | 2026-10-01 | Housing — asset market + housing credit structure (pipeline, GSE+CMBS multifamily, builders, HPI, mortgage-rate surface) | L3 on building 3c into thesis/THESIS.md with CARL's three labels, HOMER… |
+| YURI | Market | L2 | M | 2026-10-01 | **Russia — ACTOR-KEYED: what the Russian state DECIDES, across all channels, as one actor** (mobilisation, asset seizure, force posture, export instruments). ⛔ **NOT Russia macro** — the name follows the fleet's human-first-name convention for geography desks and reads narrower than the charter; the charter scope is the authority, not the name. | Conf M→H at the next YURI session (needs a PROME spawn |
+| OZK | Market | L4 | H | 2026-10-01 | Bank OZK specialist (RESG construction / classified-migration watch) | L5 on one edit in OZK's tree: add 218-219 to MEMO_ITEM_3 (4→6), set the… |
+| WAL | Market | L4 | M | 2026-10-01 | Western Alliance Bancorp specialist (Office/B1-migration/MI3 idiosyncratic bear; thesis-of-record v2.3) | Conf M→H at the first review after the WAL Q3 release has published (da… |
+| FLG | Market | L3 | M | 2026-10-01 | Flagstar Financial specialist (NYC rent-regulated multifamily → CRE concentration → nonaccrual → reserve adequacy; formerly NYCB) | Conf M→H when FLG-02/03 are graded off the Q3 10-Q (fires only once it… |
+| CRUISE | Market | L3 | H | 2026-10-01 | Cruise-sector event specialist — CCL vehicle; fuel-cost transmission (BRENT → CCL); 8-channel pre-announce watchlist (`WATCHLIST_CCL_PREANNOUNCE.md`, 8/14); Q3 print ~9/28-29. ⚠️ The 7/2 arm-CCL ladder is PROPOSED-NEVER-RATIFIED and 4wk in-band — retire-or-fresh-levels decision staged at next session (row-55 ruling 8/21); do NOT treat its band as a live threshold | L4 at the CRUISE session that re-states TRADE.md's two WATCH rows as DE… |
+| FERT | Market | L4 | M | 2026-10-01 | Fertilizer supply/price/policy → food-CPI transmission → CF positioning (nitrogen + phosphate; China policy = LIVE vector; **potash → FERT at TRIAGE DEPTH, Will-ruled 2026-08-18** — routing only, log+flag, no deep-dive until the charter edit [DAEDALUS-owed] + benchmark row land together; ⚠️ potash = a FOURTH benchmark family on a desk re-chartered over a basis mislabel. ⛔ Prior cell read "potash EXCLUDED-UNOWNED fleet-wide" — never a Will ruling, an inference off the 8/16 re-charter's positive scoping, propagated as fact) | L5 on the FERT-11 Pink Sheet grade (10/02) and the next two DTN G5 prin… |
 
 ## 🟡 TIER-2 — spawned as needed
 
 | Agent | Class | Lvl | Cf | Scored | What it does | Missing / next |
 |---|---|---|---|---|---|---|
-| CREED | Market | L4 | M | 2026-09-17 | National CRE / CMBS | Conf M→H on the eval-decontamination confirm-read plus a second graded… |
-| DEWEY | Utility | L4 | M | 2026-09-01 | Deep on-demand research | L5 on the CONTRACT block (one section) |
-| HANS | Market | L5 | H | 2026-09-24 | Europe macro (PMI→ISM lead, ECB/Fed divergence, EU UST custody) — US-market lens | L5 SUSTAIN: one further HANS closeout with STATUS under 22,785 B and no… |
-| OTTO | Market | L4 | H | 2026-09-24 | Auto-industry fraud & stress | L5 on two mechanical items, both OTTO's: STATUS.md under 22,785 B measu… |
+| CREED | Market | L4 | H | 2026-10-01 | National CRE / CMBS | L5 at the next tier-2 CREED spawn whose closeout carries a BOTTOM LINE… |
+| DEWEY | Utility | L4 | M | 2026-10-01 | Deep on-demand research | L5 on a labeled CONTRACT block (PRODUCES / CONSUMED BY / PROOF) in CLAU… |
+| HANS | Market | L5 | H | 2026-10-01 | Europe macro (PMI→ISM lead, ECB/Fed divergence, EU UST custody) — US-market lens | SUSTAIN at the first HANS closeout after a large-EU-bank Q3 result prin… |
+| OTTO | Market | L4 | H | 2026-10-01 | Auto-industry fraud & stress | L5 at the OTTO closeout that lands the §2 5-pt |
 
 ## ⚪ DORMANT — revive only on explicit need
 
@@ -65,8 +65,8 @@
 
 | Agent | Class | Lvl | Cf | Scored | What it does | Missing / next |
 |---|---|---|---|---|---|---|
-| DAEDALUS | Meta | L4 | M | 2026-09-24 | Fleet architect — design / structure / maturity / lifecycle | Build profiles/DAEDALUS.md |
-| RAV | Meta | L2 | M | 2026-09-17 | Deep factual/analytical reviewer + bounded repair (Codex, Will-driven) | L3 on the FIRST §5 run report in AGENTS/RAV/runs/ — Will-driven, so thi… |
+| DAEDALUS | Meta | L4 | M | 2026-10-01 | Fleet architect — design / structure / maturity / lifecycle | WQ-286 ①-④ landed by 2026-10-05 (BARON freeze · G1 aliases · G2 oldest-… |
+| RAV | Meta | L2 | M | 2026-10-01 | Deep factual/analytical reviewer + bounded repair (Codex, Will-driven) | L3 on the first §5 run report in AGENTS/RAV/runs/ |
 | CATO | — | — | — | — | Will's manual Codex/Astra adviser + independent reviewer | UNGRADED BY RULING (WQ-255, 2026-09-26): manual-only — no launch, no routing, no ladder row |
 
 ---
