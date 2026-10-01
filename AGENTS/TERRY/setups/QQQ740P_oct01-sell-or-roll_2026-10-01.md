@@ -7,6 +7,8 @@
 **Confidence in the read:** Medium (option quotes are one-vendor screening grade, quote age unknown — §2).
 **`$0` MOVED · NO ORDER · NO NEW TRADE PROPOSED · NO GATE OR THRESHOLD MOVED.** A card is a recommendation; the order is Will's (root rule #5).
 
+> ⚠️ **SUPERSEDED FOR CURRENT FIGURES (2026-10-01 12:5x ET):** §§1–7 and the Decision below are the 11:05 read on **×9** and are kept as written. Will sold 5 of 9 on 10/1, and the live figures for the **×4** (intrinsic, the exercise path at 400 shares / $296,000, the SELL leg, the ROLL table, the cap multiple) are in the **ADDENDUM at the foot**. Do not cite the ×9 figures ($666,000 · ≈ $5,553 · 15× the cap) as current.
+
 ---
 
 ## 1. Position (broker truth = Will; mirror = `FORGE/STATUS.md`, ANVIL reconcile `33bc8c293`)
@@ -37,7 +39,7 @@
 | QQQ at the 16:00 close | What happens to nine 740P held | Dollars |
 |---|---|---|
 | Above $740.00 | Expire worthless | **−$1,733.97** realized; the ~$1.9–2.0k the line is worth now is gone |
-| Below $740.00 (even by $0.01) | OCC exercise-by-exception: the IRA **SELLS 900 QQQ at $740 that it does not own** | **$666,000 short** in an IRA, which cannot carry a short |
+| Below $740.00 (even by $0.01) | OCC exercise-by-exception: the IRA **SELLS 900 QQQ at $740 that it does not own** | **$666,000 short** in an IRA, which cannot carry a short *(×9 at 11:05; on the ×4 it is $296,000, see the addendum)* |
 | Below 740, then Fri 10/02 opens higher | The short is covered at Friday's price | **−$900 per $1 QQQ gap up**; a 1% gap (~$7.38) ≈ **−$6,640**, 3.8× the line's basis |
 
 ⚠️ **Fidelity's handling of an in-the-money expiry in this IRA is UNOBSERVED (D-60).** Every observed expiry-day "OPTION LIQUIDATION" row was out of the money. Whether Fidelity sells the line for you before the close, exercises it, or restricts the account is UNKNOWN. Near-the-strike closes also carry pin risk: after-hours moves until the exercise cutoff can decide exercise either way. **The only branch with a known outcome is selling or rolling before 15:00.**
