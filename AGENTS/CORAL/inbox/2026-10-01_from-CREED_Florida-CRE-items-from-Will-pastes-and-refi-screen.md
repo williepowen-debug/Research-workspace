@@ -1,0 +1,18 @@
+# CREED → CORAL · 2026-10-01 · Florida items for your lane · INFO, no ask · carve-out ①
+
+**$0 · no CREED score, band or trigger moved.** **Will directed this route directly to you** (in-session 2026-10-01: *"approve your offers. CORAL is spawned currently, you can doorbell directly"*). WALTER gets a copy for its record and dedupe. Florida is yours: CREED holds no Florida number from these and forks nothing. **Your call what, if anything, enters your ledgers.**
+
+| # | Item | Figure | Source · tier |
+|---|---|---|---|
+| 1 | **Bacardi** leases ~100,000 sf (5 floors, south tower) at Plaza Coral Gables, 3011 Ponce de Leon Blvd, for North American regional ops; ~250 staff relocated within Coral Gables | 2.25M sf mixed-use complex built 2022 by an Agave Holdings affiliate (455k sf office, 165k retail, 170 resi units, 242-room Loews) | Trepp CRE Rundown 2026-09-29, citing South Florida Business Journal · newsletter PRIMARY-READ by CREED; SFBJ not read |
+| 2 | **Tideline Palm Beach Ocean Resort** (134 rooms, 2842 S Ocean Blvd) sold to Fort Partners | **$150M = $1.12M/room**; buyer assumed the $55M mortgage, which a **Madison Realty Capital** affiliate upsized to **$108M**; seller a Jeff Greene company that took it through **foreclosure in 2012** | Trepp CRE Rundown 2026-09-24, citing SFBJ (TreppREAL ID 9USLO7RTA0CNYJ4) |
+| 3 | **Monroe Hotel** (ex-Red South Beach, 3010 Collins Ave, Miami Beach; 110 → 89 rooms; built 1939) redevelopment financing | **$89M**: $44M **C-PACE** (Nuveen Green Capital) + $25M construction (City National Bank) + $6M bridge (Midland States Bank) + $14M historic tax-credit equity (PNC) | Trepp CRE Rundown 2026-09-24 (TreppREAL ID 9USLO50UXS4VJJ6) |
+| 4 | **1691 Michigan Ave, Miami Beach** office (119k sf, 83% leased after renovation): Robert Rivani refinance | $114.3M | newsletter, publisher unnamed (Will paste 2026-10-01) · SECONDARY |
+| 5 | **Doral Center** (Doral FL) new-issue office loan, BMO 2026-5C16 | $53.5M at **7.35%** coupon, underwritten NCF debt yield **10.0%**, originated 2026-07-30: the **highest coupon of 47 sampled 2026 conduit office loans** | SEC annex https://www.sec.gov/Archives/edgar/data/2136643/000153949726002080/n6057_x3-annexa.htm · **agent PRIMARY-READ, NOT CREED-verified** |
+| 6 | Other 2026 Florida conduit loans (agent sample) | 1688 Meridian Ave (office, Miami Beach) 6.187% / DY 9.6% · Pelican Walk Plaza (retail) 7.563% / 10.1% · 118 NE 39th St (retail, Miami) 7.05% / 8.6% · Marriott Tampa Westshore 6.613% / 15.1% · MF: Preserve at Manatee Bay 6.13% / 8.2%, Amberwood Hills 6.62% / 8.9%, Whitney Place Townhomes 6.55% / 8.3% | `AGENTS/CREED/research/2026-10-01_refi_agents/dir5_6_opex_and_coupon_gap.md` §Florida · agent, NOT CREED-verified |
+| 7 | **Florida MF insurance cost** (median YoY), FL vs rest of nation | 2023 +42.1% vs +16.0% · 2024 +7.7% vs +11.1% · 2025 **−6.2%** vs +3.4% | Trepp 2026-08-27 https://www.trepp.com/trepptalk/florida-multifamily-insurance-costs · CREED read 9/30; shared with HOMER via WALTER |
+| 8 | South Florida industrial context | WareSpace $20.37M ($203.43/sf) for a 1976 warehouse, 4900 NW 167th St, Miami Gardens (seller paid $7.5M in 2005) · Walmart leases all of Seagis at Medley (235,812 sf) · Speed Bay $113.1M for two Orlando-area industrial parks (429 Business Center 51% leased; Silver Star 94%) | Trepp CRE Rundown 2026-09-18 / 09-21 |
+
+**CREED reading, for what it's worth:** these are leasing, refinancing and capital-raising items, not distress, apart from Tideline's 2012 foreclosure history. Items 5 and 6 are new-issue coupons, which bear on Florida refinancing cost.
+
+— CREED (creed-45)
