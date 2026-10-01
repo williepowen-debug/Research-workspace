@@ -46,3 +46,26 @@
 Nothing is owed today. **Monday by 15:00 ET: SELL at Fidelity's bid (desk lean, for the same reasons as the Oct-01 card — no agent thesis, no trigger, every roll adds cash at risk) or ROLL to 735P Oct-16 as one net-debit order.** Hold is not on the menu.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution.**
+
+---
+
+## ADDENDUM 2026-10-01 12:5x ET: re-read after Will's partial sale of the 740P (the 11:10 text stands as written)
+
+**Trigger:** PROME `prome-0c` spawn, WQ-347 follow-up. This is a moment read (construction rule #14). **Re-read Monday morning before Will acts.**
+
+| Item | Value | Basis |
+|---|---|---|
+| QQQ | **$738.78 (−0.13%)** at 12:51:01; $738.28 (−0.20%) at 12:52:30 | `fetch.py` |
+| 735 strike | **$3.78 out of the money** at 12:51 (was $2.10 at 11:09) | arithmetic |
+| Vendor 735P Oct-05 bid/ask | **$3.28 / $3.30** (12:50:53) | `chain_fetch.py --no-cache`, SCREENING ONLY |
+| Five at the screening bid | ≈ **$1,640** ⇒ ≈ **+$272 vs $1,368.32** (INFERRED). Fidelity mark $3.80 / $1,900 `[≤12:24]` | arithmetic; FORGE |
+| Indicative rolls (buy ask − sell $3.28 bid) | **Oct-09 735P** 5.99 / 6.03 ⇒ $2.75/ct ≈ **$1,375** · **Oct-16 735P** 9.00 / 9.01 ⇒ $5.73/ct ≈ **$2,865** | screening; Monday's debit will be higher (the Oct-05 leg loses its time value by Monday) |
+
+**Does today's partial sale of the 740s change how the five are handled?** On structure, no. On context, three things move:
+1. **If the 740P ×4 are SOLD today, these five are the IRA's only QQQ put line.** The 9/30 position was fourteen puts across two lines; it would become five on one line. The Monday decision then stands alone and is no longer stacked against a same-week roll. Desk lean is unchanged: **SELL at Fidelity's bid by Mon 10/05 15:00 ET**, for the same reasons (no agent thesis, no fired trigger, every roll adds cash). A sale at today's screening bid is ≈ +$272 on top of today's +$890.35.
+2. **If the 740P ×4 are ROLLED to Oct-09 today,** the 11:10 coordination note stands: a Monday roll of the five should go to **Oct-16, not Oct-09**, so that nine puts do not share one Friday expiry.
+3. **If the 740P ×4 are HELD into today's close in the money,** Fidelity's in-the-money expiry handling (D-60) gets its first observation on a 400-share line. Read that outcome before Monday: it decides what "held" means for a 500-share line ($367,500 short below 735).
+
+**Unchanged:** the hard stop (Mon 10/05 15:00 ET) · the exercise arithmetic (500 sh, −$500 per $1 gap-up) · the per-card cap (forward max loss ≈ $1,640 at the screening bid ≈ 3.3× the $500 cap) · no harvest rule (durable finding 9; the suggested ≥ $5.46 form stands as a suggestion). Will's tranche-and-limit method today (three fills, one canceled limit) is his own order craft. The card does not prescribe it.
+
+**APPROVAL REQUIRED. Will must approve or reject before execution.**

@@ -37,3 +37,26 @@
 **Recorded against this desk's own card, not re-litigated:** the add went on the same day `setups/KRE_add-puts_conditional-card_2026-09-30.md` read **CONDITIONAL — NO FILL** (REG-T-01 un-fired · X1 CLOSED · construction rule #23 driver unnamed). Strike moved 60 → 65: not a construction rule #21 roll. Root rule #6: KRE was red on the day of a put BUY (9/30 −0.56%); it is red again today (−1.55%) — right colour to SELL, wrong to add. Forward max loss ≈ $400 (under the $500 per-card cap). ⚠️ No P/L-keyed harvest (durable finding 9) — suggested form if Will wants one: sell both at any Fidelity bid ≥ $3.36 (2× the $1.68 fill). Construction rule #18: the Q3 regional-bank prints (dates from company IR, REGINALD's clock) move this sector a median 2–3% (0 of 32 ≥ 10%) — a print alone rarely reaches a 4.9%-OTM strike; the 91-day tenor, not a print, is what this line holds.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution** (no action is proposed; any sale or roll is his order).
+
+---
+
+## ADDENDUM 2026-10-01 12:5x ET: `MGMT-USO150C-OCT09` is now ×1 (Will sold 1 of 2). § A above stands as written for ×2
+
+**Source:** PROME packet `inbox/2026-10-01_from-PROME_10-01-partial-sales-QQQ740P-x4-USO150C-x1.md`; mirror `FORGE/STATUS.md` (ANVIL `dac72b4ae`). The sale was Will's hand and his standing practice, not a deviation.
+
+| Item | Value | Source |
+|---|---|---|
+| 10/1 sale | **1 @ $3.92, proceeds $391.34, realized +$91.67** vs broker basis $299.67. Fill time not shown | FORGE Pending row 2 |
+| Left | **USO $150C Oct-09 ×1, basis $299.66** | FORGE |
+| Live 12:52 ET | USO **$148.33 (+1.83%)** ⇒ 150 strike **$1.67 out of the money**; vendor 150C bid/ask **3.30 / 3.50** (last trade 12:12). One at the bid ≈ $330 ⇒ ≈ **+$30 vs basis** (INFERRED). Fidelity mark $3.30 `[≤12:24]` agrees | `fetch.py`; `chain_fetch.py --no-cache` (SCREENING) |
+| His sale vs now | $3.92 against a $3.30 bid: the contract he sold fetched ≈ $62 more than the one he kept would now | arithmetic, not a grade |
+
+**Rail at ×1 (unchanged in form):**
+- **Hard stop Fri 10/09 15:00 ET.** Sell at Fidelity's bid, or roll as one net-debit order.
+- **Exercise path, re-stated for ×1:** a close above $150.00 means the IRA **buys 100 USO at $150 = $15,000**. Cash is $14,147.60 settled + $2,245.00 pending ≈ **$16,392.60** (FORGE `[10/1 ≤12:24]`). ×1 is roughly coverable where ×2 ($30,000) was not, **but only if the cash is not spent first**: a roll of the QQQ 740P ×4 (≈ $2.5k) or of the Monday 735P ×5 would bring it back under $15,000. It would also turn the option into 100 shares beside the 37 already held (WQ-297 A, the one-oil-bet flag). Fidelity's handling is still **UNOBSERVED (D-60)**. ⇒ The sell-or-roll rail still governs; exercise is not a planned path.
+- **Roll form (construction rule #21), indicative 12:52:** **Oct-16 150C** 4.75 / 4.95 ⇒ $4.95 − $3.30 = **$1.65 net (≈ $165 for one)**. Re-price at the order.
+- **Root rule #6:** USO is **green (+1.83%)**, the right colour to SELL a call and the wrong colour to BUY one (a roll's buy leg).
+- **Per-card cap:** forward max loss = the remaining mark ≈ **$330 (0.66× the $500 cap)**, which is now inside it (×2 was 1.4×).
+- ⚠️ **Harvest:** there is still no P/L-keyed harvest rule (durable finding 9). The suggested form, re-stated for ×1: sell at any Fidelity bid ≥ $5.98 (2× the $2.99 fill). It is a suggestion, not a gate.
+
+**APPROVAL REQUIRED. Will must approve or reject before execution** (no action is proposed).

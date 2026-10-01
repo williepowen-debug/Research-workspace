@@ -106,7 +106,7 @@ The case for the roll is Will's QQQ downside view, which this desk does not own:
 |---|---|---|---|
 | 5 of 9: 1 @ $3.44 · 1 @ $3.97 · 3 @ $3.72 (gross avg $3.71) | $1,853.66 | **+$890.35** | **×4, basis $770.66** (4/9 of $1,733.97) |
 
-His five sold at an average of $3.71, about **twice** the $1.83 screening bid the four carry now. QQQ was lower when he sold. The sales took off most of the line's value and are not deviations (his 9/30 practice: sell or roll before expiry).
+His five sold at an average of $3.71, about **twice** the $1.83 screening bid the four carry now. Fill times are not shown. Prices of $3.44–3.97 imply QQQ was lower when he sold (INFERRED; QQQ was $736.72 at 11:12). The sales took off most of the line's value and are not deviations (his 9/30 practice: sell or roll before expiry).
 
 ### A2. Live read, 2026-10-01 12:50:44–12:51:01 ET
 | Item | Value | Basis |
@@ -115,7 +115,7 @@ His five sold at an average of $3.71, about **twice** the $1.83 screening bid th
 | Moneyness | **$1.22 in the money** (was $2.12 at 11:04) | arithmetic |
 | Intrinsic value, four contracts | **$488** | 1.22 × 400 |
 | Vendor 740P Oct-01 bid/ask | **$1.83 / $1.84** | `chain_fetch.py QQQ 2026-10-01 --no-cache --legs 735,740`, 12:50:53 ET. **SCREENING ONLY.** The feed carries no timestamp, and on 9/11 it read about 10% high on the bid |
-| Fidelity mark (PROME packet) | $2.65 (≈ $1,060 for four), at or before 12:24 ET | broker capture. QQQ was probably lower then; this mark is not current |
+| Fidelity mark (PROME packet) | $2.65 (≈ $1,060 for four), at or before 12:24 ET | broker capture (`FORGE/STATUS.md`). ⚠️ **This sits $0.82 above the vendor bid, and QQQ ($738.40 at 12:09 per the mirror vs $738.78 here) explains at most ≈ $0.25 of that gap.** The mark is probably a last trade and not a bid, but that is UNVERIFIED. The sale value of the four therefore lies anywhere from ≈ $730 (vendor bid) to ≈ $1,060 (Fidelity mark). **Only Fidelity's live bid settles it.** *(Corrected 2026-10-01 13:0x ET: the first wording said "QQQ was probably lower then", which the mirror's 12:09 read does not support.)* |
 | VXN | 22.95 (+2.18%) | `fetch.py`, 12:51 ET |
 
 ⚠️ QQQ is $1.22 from the strike, closer than at 11:04. A move of about 0.17% lifts it above 740 and the four expire worthless. A dip pushes them deeper in the money. **The live bid is BROKER-ONLY: Will reads Fidelity's bid before any order.**
