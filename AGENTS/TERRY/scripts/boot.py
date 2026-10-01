@@ -282,6 +282,117 @@ def ledger_sweep_summary():
     print("  ⚠ FIX BEFORE CLOSEOUT — full detail: python3 AGENTS/TERRY/scripts/ledger_sweep.py")
 
 
+# ── READ-CAP PROXIMITY (DOCKET L391, built 2026-10-01) ─────────────────────────
+# File health printed sizes but never DISTANCE TO THE CAP: on 2026-09-18 STATUS.md
+# sat 24 B under the 32,550 B fleet budget while read_cap_check returned rc=0, so a
+# session got a green light and its first append would have breached silently.
+# Acceptance conditions (written before the code, WQ-229 form):
+#   A1 any boot-read surface >= 75% of budget prints a flag naming file, bytes, %,
+#      and the order ROTATE FIRST, WRITE SECOND (>= 90% and >= 100% print red);
+#   A2 a surface in the 70-75% band prints its headroom to the 75% trigger;
+#   A3 STATUS.md always prints its headroom to the budget in bytes;
+#   A4 instrument failure, or zero parsed rows, prints UNKNOWN -- never a clean tick;
+#   A5 read-only and advisory: never changes boot's exit code.
+# Neighbours: ordinary (all under) / overlap (exactly 75%, inclusive) / missing info
+# (crash, format drift -> UNKNOWN) are selftested; wrong owner N/A (--agent TERRY
+# scopes it); concurrent activity N/A (read-only). The instrument is the fleet's own
+# scripts/read_cap_check.py -- promoted into boot, not re-implemented (no private cap).
+_RC_ROW = re.compile(r"^\s*\S+\s+(\S+)\s+([\d,]+) B\s+(\d+)% of budget")
+_RC_BUDGET = re.compile(r"budget ([\d,]+) B")
+
+
+def _parse_read_cap(text):
+    """Return (budget_bytes|None, [(name, bytes), ...]) from read_cap_check output."""
+    budget = None
+    m = _RC_BUDGET.search(text or "")
+    if m:
+        budget = int(m.group(1).replace(",", ""))
+    rows = []
+    for line in (text or "").splitlines():
+        r = _RC_ROW.match(line)
+        if r:
+            rows.append((r.group(1), int(r.group(2).replace(",", ""))))
+    return budget, rows
+
+
+def _read_cap_lines(budget, rows):
+    """Pure formatter -- the selftest drives this directly."""
+    if not budget or not rows:
+        return ["  ⚠ READ-CAP UNKNOWN — instrument output did not parse; run "
+                "python3 scripts/read_cap_check.py --agent TERRY before writing to any boot-read file"]
+    out, flagged = [], False
+    # Thresholds in BYTES, truncated the way the instrument truncates them (its 75%
+    # trigger for 32,550 B is 24,412 B, its 70% stop 22,785 B). A float-percent test
+    # missed the exact-75% row (24,412 B = 74.998%) on this guard's own first selftest.
+    t100, t90, t75, t70 = budget, int(budget * 0.90), int(budget * 0.75), int(budget * 0.70)
+    for name, size in rows:
+        pct = 100.0 * size / budget
+        head = budget - size
+        trig = t75 - size
+        if size >= t100:
+            out.append(f"  🔴 {name}: {size:,} B = {pct:.1f}% of budget — OVER. ROTATE FIRST, WRITE SECOND")
+            flagged = True
+        elif size >= t90:
+            out.append(f"  🔴 {name}: {size:,} B = {pct:.1f}% — {head:,} B to the budget; the next append may breach. ROTATE FIRST, WRITE SECOND")
+            flagged = True
+        elif size >= t75:
+            out.append(f"  🟡 {name}: {size:,} B = {pct:.1f}% — rotate-tier ({head:,} B to the budget). ROTATE FIRST, WRITE SECOND")
+            flagged = True
+        elif size >= t70:
+            out.append(f"  ⚠ {name}: {size:,} B = {pct:.1f}% — {trig:,} B to the 75% rotate trigger")
+            flagged = True
+        if name == "STATUS.md" and size < t70:
+            out.append(f"  ✓ STATUS.md: {size:,} B = {pct:.1f}% — {head:,} B to the budget")
+    if not flagged:
+        out.insert(0, "  ✓ every boot-read surface under 70% of budget")
+    return out
+
+
+def read_cap_summary():
+    print("\nRead-cap proximity (DOCKET L391; instrument scripts/read_cap_check.py):")
+    try:
+        res = subprocess.run(
+            [sys.executable, "scripts/read_cap_check.py", "--agent", "TERRY"],
+            capture_output=True, text=True, timeout=90, cwd=WORKSPACE,
+        )
+        text = res.stdout
+    except Exception as exc:
+        text = ""
+        print(f"  ⚠ could not run read_cap_check.py ({exc})")
+    budget, rows = _parse_read_cap(text)
+    for line in _read_cap_lines(budget, rows):
+        print(line)
+
+
+def _selftest_read_cap() -> list[str]:
+    errs = []
+    founding = ("READ-CAP [TERRY] — cap 54,250 B · budget 32,550 B (60%)\n"
+                "  ✅ STATUS.md                            32,526 B    99% of budget    (boot-step line 142)\n")
+    b, r = _parse_read_cap(founding)
+    out = "\n".join(_read_cap_lines(b, r))
+    if b != 32550 or r != [("STATUS.md", 32526)]:
+        errs.append(f"read-cap parse founding case: {b} {r}")
+    if "🔴" not in out or "24 B" not in out or "ROTATE FIRST" not in out:
+        errs.append(f"read-cap founding case (STATUS 24 B under) not flagged red: {out!r}")
+    ordinary = "budget 32,550 B\n  ✅ STATUS.md     22,223 B    68% of budget\n  ✅ RISK_SCORING.md   10,134 B    31% of budget\n"
+    out = "\n".join(_read_cap_lines(*_parse_read_cap(ordinary)))
+    if "✓ every boot-read surface under 70%" not in out or "10,327 B to the budget" not in out:
+        errs.append(f"read-cap ordinary case wrong: {out!r}")
+    edge = "budget 32,550 B\n  🟡 SETUPS.tsv     24,412 B    75% of budget\n"
+    out = "\n".join(_read_cap_lines(*_parse_read_cap(edge)))
+    if "🟡 SETUPS.tsv" not in out:
+        errs.append(f"read-cap exactly-75% overlap case not flagged: {out!r}")
+    band = "budget 32,550 B\n  ✅ RISK_RULES.md     23,316 B    72% of budget\n"
+    out = "\n".join(_read_cap_lines(*_parse_read_cap(band)))
+    if "1,096 B to the 75% rotate trigger" not in out:
+        errs.append(f"read-cap 70-75 band headroom wrong: {out!r}")
+    for junk in ("", "Traceback (most recent call last):\n  boom", "budget 32,550 B\n(no rows)"):
+        out = "\n".join(_read_cap_lines(*_parse_read_cap(junk)))
+        if "UNKNOWN" not in out or "✓" in out:
+            errs.append(f"read-cap missing-information case printed clean: {junk!r} -> {out!r}")
+    return errs
+
+
 def run(args):
     print("TERRY boot card")
     print("===============")
@@ -310,6 +421,7 @@ def run(args):
         if marker == "✗":
             missing = True
         print(f"  {marker} {name:<28} {size:>6} bytes")
+    read_cap_summary()
 
     openish, errors = setups()
     print("\nSetups:")
@@ -733,7 +845,7 @@ def selftest():
         return 1
     _, errors = setups()
     _, sig_errors = signals()
-    errors = errors + sig_errors + _selftest_terminal() + _selftest_bars() + _selftest_quiet() + _selftest_board()
+    errors = errors + sig_errors + _selftest_terminal() + _selftest_bars() + _selftest_quiet() + _selftest_board() + _selftest_read_cap()
     if errors:
         print(f"SELFTEST FAIL: {errors}")
         return 1
