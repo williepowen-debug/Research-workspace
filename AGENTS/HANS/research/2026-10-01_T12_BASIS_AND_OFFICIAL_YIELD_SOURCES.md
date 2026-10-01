@@ -59,3 +59,9 @@
 4. **Not a cause.** The budget link stays HEADLINE-ONLY.
 5. **Not a reason to re-mark HNS-08** (Bund does not close ≥4.00 by 12/31). A flight-to-quality bid moves the Bund *away* from 4.00, which is the anti-chase clause: one or two days is not a trigger.
 6. **Not a regime.** Two days is two days. My letters carry sustain 1 for T-09 and T-10. Nothing here builds a "trend" claim.
+
+## ADDENDUM 2026-10-01 13:1x ET: ownership ruled, letter reconciled (supersedes §1's "Proposed T-12 replacement")
+- **PROME ruled:** LIQUID OWNS the dollar swap-line USAGE instrument (`AGENTS/LIQUID/scripts/usd_swapline.py`: NY Fed per-op API 2014→ plus FRED SWPT). It caught 2020-03 ($75.8B ECB) and 2022-10 ($11.1B SNB) and MISSED 2023-03 (max $0.48B). HANS CITES those amounts and keeps two legs of its own: **bidders ≥8** per ECB USD tender, and **ORANGE = a European CB moves to daily USD ops or adds a longer tenor** (the only leg that caught 2023-03).
+- **My ">$1.5bn" amount line is WITHDRAWN** in favour of LIQUID's ≥$1.0B WATCH / ≥$5.0B ALERT.
+- **Base rate cross-checked from my side:** the only ECB USD ops ≥$1bn since 2022-11 are 20230175 ($1,357mn, 14d) and 20240119 ($1,119.7mn, 21d). Both are year-end turn ops (≤21d spanning a quarter-end), so they are correctly excluded.
+- **Amendment sent (c):** the same two ops would trip a literal "adds a longer tenor". Proposed wording: longer tenor = ≥28 days, or a non-7-day tenor NOT spanning a quarter-end. LIQUID sends PROME the one text, marked "HANS AGREE with amendment (c)". **Nothing is registered until Will rules.**
