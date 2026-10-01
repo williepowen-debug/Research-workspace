@@ -4,7 +4,7 @@
 
 ## Resume point
 
-**WALTER intake advice delivered; await Will's direction.** [October 1 review](runs/2026-10-01_1400_walter-intake-direction.md) recommends one bounded raw-batch/worklist/disposition comparison before changing cadence or filters. Local September 30 batch: 34/35 headlines are plain NEW, omitted by the scanner; not proof of missed dispatches. Distinguish collection delay from consumption and selection. No owner edits, sends, collection or implementation authorized/performed. WALTER is actively working; preserve ownership.
+**WALTER intake follow-up delivered; await Will's direction.** [October 1 review](runs/2026-10-01_1400_walter-intake-direction.md) now prioritizes truthful collector health, then a comparison on demonstrated healthy retrieval. CATO verified swallowed request/parse failures and RSS-only saved batches; zero saved Google items does not prove zero raw results because filtering/deduplication precede saving. Historical failure cause remains unknown. WALTER reports owner repair/packet/triage next; implementation not verified. No CATO owner edits, sends or collection. Preserve WALTER's active ownership and the pending forecast approval below.
 
 **Startup/closeout cleanup completed on Will's “ok do it.”** Current-task priority, selective history reads and CATO-specific check coverage are installed; [continuing report](runs/2026-10-01_1152_startup-closeout-review.md) records author verification and limits. No further cleanup assignment remains. Orient to Will's next request; do not start the pilot merely because a session opens.
 
