@@ -1648,3 +1648,16 @@ README rule 1 defines a case as one loan on one property. These rows are adopted
 
 ### CASE-CREED-029 — pointer
 The workbook's Chapter Buildings record (CRE-0072) covers I+II as one property and is attached to CASE-CREED-028 only. Read it there; do not add it to 029.
+
+
+## Logged 2026-10-01 (Will: "log those three items", from the 10/01 morning news scan)
+
+### CASE-CREED-135 — 2100 Ross, Dallas (CREED-built)
+- **Source read:** CRE Daily, 2026-09-25, https://www.credaily.com/?p=223212 (SECONDARY): 33-story, 840,000 sf office tower, Dallas Arts District; **$98M Wells Fargo loan originated 2016**; owner "allegedly defaulted"; posted for foreclosure (Roddy's Foreclosure Listing Service); **auction 2026-10-06**; "owners sometimes work out a deal with the lender before the sale date, and that remains possible here." Purchase history: 2012 Cousins Properties from foreclosure **$59M**; 2015 Thomas Dundon **$131M**; current owner **Woods Capital** (acquisition not stated).
+- **Not read:** The Real Deal 2026-09-24 ("Billionaire Thomas Dundon's firm faces $98M foreclosure…"; HTTP 403). **Owner DISPUTED** between the two reports; relationship not established.
+- **SEARCH-SUMMARY only (not read):** "53% occupied, according to reports filed in county court." Bisnow carries a separate "Unpaid $79M loan puts downtown Dallas office tower at risk of foreclosure"; **not established to be this building.**
+- **Rule 6:** Wells Fargo ORIGINATED the loan; the holder (bank book vs securitization) is UNKNOWN. Outcome to check after 2026-10-06.
+
+### CASE-CREED-048 — 100 Summer St (addition)
+- **Auction date 2026-10-20 already logged twice** (CREED 9/26 sweep; Will workbook v4 citing the auctioneer listing): no duplicate event added. Hoodline 2026-09-23 confirms "October 20, 2026 at 2 p.m."
+- **New, SECONDARY (Hoodline 2026-09-23, https://hoodline.com/2026/09/wells-fargo-moves-to-foreclose-on-100-summer-st-boston-office-tower/):** **72% leased**; Massachusetts Trial Court leases 79,000+ sf on three floors at $64.77/sf base rent, 10-year term. Hoodline does not say whether Wells Fargo forecloses as lender, trustee or servicer. ⚠️ The fetched summary gave the 2019 purchase as "$470 million", which collides with the $470M LOAN; the ledger keeps $806M (CREED 9/26, Will workbook) and treats Hoodline's figure as a summary error until read at source.
