@@ -44,6 +44,7 @@ L0 drain on PROME's spawn (four packet items + yen grade + whole inbox). **No th
 - **Sent:** RED CH-009 rail figures (`4171d2c43`, addendum `5fe07cb67`). WALTER 🟠 MOF-weekly signal + SIGNALS.md row. Doorbelled red-1001 and walter-90.
 - Docket pruned (Sep-30 / Oct-1 rows), OIS expiry moved to Mon Oct-5. TIMELINE + CHANGELOG 2026-10-01.
 - 🔧 **Found: `mof_flows.py` evaluates its one-week bar on the LATEST week only.** A late week landing with the next one is never alerted. 9/13–19 was found by reading the ledger, not the alert (defect #3 in the script's lineage, cf. #1 8/22).
+- **After first delivery (12:2x–12:5x ET):** WALTER's check of -004 caught my carried "7 of 9" (true: 11) → corrected `31d94f42c` + packet. ⚠️ **Lesson: a rank or count derived for one observation does not transfer to the next. Recompute it per observation** (cf. `finding_attribution_authenticates_a_figure_its_named_source_never_produced`). RED closed CH-009 DISMISSED. WALTER -012 (LSEG JGB +6–9bp) graded provisionally; MOF confirmation owed. Full closeout on Will's word (PROME 12:52 ET).
 
 ### NEXT SESSION
 
@@ -52,9 +53,11 @@ L0 drain on PROME's spawn (four packet items + yen grade + whole inbox). **No th
 **TIER 1 — DATED, FORWARD:**
 0. **SAM-42** (25% as made; Totan now 18%). ⛔ Re-mark ONLY on (a) Ueda/Himino/Uchida framing October as live → 50%, or (b) a reviewed Totan chart ≥60% → 45%. Grade on the BOJ statement PDF after the Oct 29–30 MPM.
 1. **Fri Oct-2** Tokyo CPI (2025 base) + CFTC (Sep-29). **Mon Oct-5 15:15 JST** OIS expiry → re-transcribe. **Tue Oct-6** 10Y auction. **Thu Oct-8 30Y auction** (frozen bars; precision tag ≤0.1bp) + MOF weekly 9/27–10/3 (does selling persist past the half-year?).
-2. 🟠 **Fix `mof_flows.py`: evaluate the one-week bar on EVERY week new since the last ledger write, not just the latest.** Test FIRST against the 10/1 incident (9/13–19 published alongside 9/20–26). Own scoped change with tests.
-3. ⚠️ **METI Aug crude-by-source (rel 9/30) NOT READ** — Kuwait/Qatar back from zero? BRENT co-owns. Read it next session.
-4. RED CH-009: RED grades on SAM's figures (DOCKET L484). Nothing owed by SAM unless RED asks.
+2. 🟠 **OWED since 2026-10-01: fix `mof_flows.py` to evaluate the one-week bar on EVERY week new since the last ledger write, not just the latest.** Test FIRST against the 10/1 incident (9/13–19 published alongside 9/20–26). Target: before the Thu Oct-8 MOF weekly. Own scoped change with tests. Also say in its output which VINTAGE the rolling sums use: the live CSV is revised and the ledger keeps first prints (WALTER's 10/1 check: −¥1.38T live vs −¥1.39T ledger).
+3. ⚠️ **OWED since 2026-10-01: METI Aug crude-by-source (released Wed 2026-09-30 13:30 JST), NOT READ.** Did Kuwait and Qatar return from zero? BRENT co-owns. Read it at the next session (by Fri Oct-2 at the latest).
+3a. 🟠 **OWED, due ~Fri 2026-10-02: confirm WALTER SIG-W-20261001-012 on the MOF 10/1 print** (LSEG 10/1: 10Y 3.109 · 30Y 4.192). It is a MOF-basis high if 10Y >3.082 or 30Y >4.131. Graded PROVISIONAL in STATUS until then. ⛔ Never difference LSEG against MOF.
+3b. PENDING with PROME: SAM's R3 WATCH_FOR set (12 phrases, packet 10/1) not landed as of 12:53 ET 10/1.
+4. ✅ RED CH-009 CLOSED — RESOLVED-DISMISSED 2026-10-01 (`0ad317cfc`). CH-012 open to the 12/30 MOF close (the 12/1 attribution ask is answered NO, 9/29).
 
 **INBOX — CLEARED 10/1 (L0 drain); before that 9/29.** `inbox/` top level is empty. Sent: **CADENCE: WEEKLY** + a 12-phrase `WATCH_FOR["SAM"]` re-proposal → `PROME/inbox/` + WALTER cc (harness pre-screened by SAM; WALTER's test is still the test — **adopt or decline WALTER's by-name rejections when its reply lands**, then PROME lands the set) · RED CH-012 = NO (no attribution read planned before 12/30). ⚠️ Matcher facts learned: words ≤3 chars are DROPPED (`yen` is invisible), words match as SUBSTRINGS anywhere in the title, only ALL-CAPS 2–5-char tokens bind as entities. **Counted gaps with no phrase:** USD/JPY level breaks, carry +2% intraday, MOF weekly selling (all instrument-owned), GPIF (no registered SAM trigger — decide whether to register one), the US Treasury verbal leg.
 
