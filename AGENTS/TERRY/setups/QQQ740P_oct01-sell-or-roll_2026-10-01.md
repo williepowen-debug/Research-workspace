@@ -92,3 +92,68 @@ The case for the roll is Will's QQQ downside view, which this desk does not own:
 > **WQ-347 (Will):** SELL the nine at Fidelity's bid before 15:00 ET (desk lean), or ROLL them to QQQ $740P Oct-09 ×9 as one net-debit order, no debit above $6.50/contract — which puts ≈ $7.5k at risk on one line, ≈ 15× the desk's $500 per-card cap (§5). Not hold.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution.**
+
+---
+
+## ADDENDUM 2026-10-01 12:5x ET: the FOUR left after Will's sales (the 11:05 text above stands as written)
+
+**Spawn:** PROME `prome-0c`, Tier 1, WQ-347 follow-up. **Trigger:** PROME packet `inbox/2026-10-01_from-PROME_10-01-partial-sales-QQQ740P-x4-USO150C-x1.md`, broker-verified, mirror reconciled `dac72b4ae`.
+**Terry verdict (refreshed):** 🔴 **SELL-OR-ROLL BEFORE 15:00 ET. Desk lean is still SELL.** Not hold.
+**`$0` MOVED · NO ORDER · NO NEW TRADE · NO GATE OR THRESHOLD MOVED.** The order is Will's (root rule #5).
+
+### A1. What Will did (his hand, recorded and not graded)
+| Sold to close 10/1 | Proceeds | Realized | Left |
+|---|---|---|---|
+| 5 of 9: 1 @ $3.44 · 1 @ $3.97 · 3 @ $3.72 (gross avg $3.71) | $1,853.66 | **+$890.35** | **×4, basis $770.66** (4/9 of $1,733.97) |
+
+His five sold at an average of $3.71, about **twice** the $1.83 screening bid the four carry now. QQQ was lower when he sold. The sales took off most of the line's value and are not deviations (his 9/30 practice: sell or roll before expiry).
+
+### A2. Live read, 2026-10-01 12:50:44–12:51:01 ET
+| Item | Value | Basis |
+|---|---|---|
+| QQQ spot | **$738.78 (−0.13%)**; $738.92 at 12:50:44 | `fetch.py price QQQ`, 12:51:01 ET |
+| Moneyness | **$1.22 in the money** (was $2.12 at 11:04) | arithmetic |
+| Intrinsic value, four contracts | **$488** | 1.22 × 400 |
+| Vendor 740P Oct-01 bid/ask | **$1.83 / $1.84** | `chain_fetch.py QQQ 2026-10-01 --no-cache --legs 735,740`, 12:50:53 ET. **SCREENING ONLY.** The feed carries no timestamp, and on 9/11 it read about 10% high on the bid |
+| Fidelity mark (PROME packet) | $2.65 (≈ $1,060 for four), at or before 12:24 ET | broker capture. QQQ was probably lower then; this mark is not current |
+| VXN | 22.95 (+2.18%) | `fetch.py`, 12:51 ET |
+
+⚠️ QQQ is $1.22 from the strike, closer than at 11:04. A move of about 0.17% lifts it above 740 and the four expire worthless. A dip pushes them deeper in the money. **The live bid is BROKER-ONLY: Will reads Fidelity's bid before any order.**
+
+### A3. Exercise path for the four
+| QQQ at the 16:00 close | Four 740P held | Dollars |
+|---|---|---|
+| Above $740.00 | Expire worthless | **−$770.66** on the four. The +$890.35 already realized stands, so the nine-contract line nets about **+$120** |
+| Below $740.00 (even by $0.01) | Exercise-by-exception: the IRA **sells 400 QQQ at $740 that it does not own** | **$296,000 short** in an IRA, which cannot carry a short |
+| Below 740, then Fri 10/02 opens higher | The short is covered at Friday's price | **−$400 per $1 QQQ gap-up**. A 1% gap (~$7.39) costs ≈ **−$2,955**, 3.8× the four's basis |
+
+Fidelity's handling of an in-the-money expiry in this IRA is still **UNOBSERVED (D-60)**. The four make the short a smaller dollar amount, but they do not change how the risk works.
+
+### A4. SELL leg, re-costed for four (desk lean)
+- **Action:** sell to close QQQ $740P Oct-01 ×4 with a **limit at Fidelity's live bid**, before **15:00 ET**. Floor: no fill far below intrinsic (740 − QQQ at Will's read; $1.22 at 12:51).
+- **At screening marks (INFERRED, not a fill):** 4 × $1.83 = $732 gross, ≈ **$729 net** (fees ≈ $2.65, pro-rata to 9/30). That is ≈ **−$41 on the four** against $770.66 basis. At intrinsic only: ≈ $485 net, ≈ −$285.
+- **The whole nine-contract line if the four sell at $1.83:** +$890.35 + (−$41) ≈ **+$849 realized**. Measured against Will's fills, each of the four is worth about $1.83 now, about half of the $3.71 he got.
+- **Root rule #6:** QQQ is red (−0.13%), the right colour to SELL a put.
+- **Why SELL still leads, in figures:** (1) No agent thesis and no fired trigger sit behind the line. (2) Holding risks the full ≈ $730 if QQQ closes above 740, or an IRA short of $296k if it closes below. Neither outcome is a bet anyone sized. (3) The Monday 735P ×5 already carries the IRA's QQQ downside (vendor bid $3.28, ≈ $1.6k screening). (4) Every roll below adds $844–$3,664 of fresh cash.
+
+### A5. ROLL table, re-costed for four (if Will keeps the bet)
+Same strike and the same four contracts (construction rule #21). Screening marks, 12:50:53–12:51:00 ET. Net debit = buy at the ask, sell the Oct-01 at the $1.83 bid.
+
+| Roll to | Sessions | Vendor 740P bid/ask | Net debit / ct | For four | Time value / session | Cash at risk after | Desk view |
+|---|---|---|---|---|---|---|---|
+| Oct-02 (Fri) | 1 | 3.93 / 3.94 | $2.11 | **$844** | $2.72 | $1,576 | ⛔ The costliest time per session. It puts this same question back on the card tomorrow (rule #16) |
+| Oct-05 (Mon) | 2 | 5.24 / 5.29 | $3.46 | **$1,384** | $2.04 | $2,116 | ⚠️ Stacks all nine remaining QQQ puts on one Monday 15:00 decision |
+| **Oct-09 (Fri)** | **6** | **7.99 / 8.04** | **$6.21** | **$2,484** | **$1.14** | **$3,216** | ✅ The roll the desk would build if Will rolls: it staggers the lines (Mon 10/05 + Fri 10/09) |
+| Oct-16 (Fri) | 11 | 10.97 / 10.99 | $9.16 | $3,664 | $0.89 | $4,396 | Cheapest per session, most cash at risk |
+
+- **Do not chase:** no net debit above **$6.50/contract** for the Oct-09 roll without a fresh read (≈ 5% over the $6.21 screening figure). Send it as **one two-leg net-debit order** and never leg it.
+- **Per-card cap ($500 max loss, `STATUS.md` § Standing rules):** the four's forward max loss at the bid is ≈ $732, about 1.5× the cap. **After an Oct-09 roll it is ≈ $3,216, about 6.4× the cap.** A SELL takes it to $0.
+- **Root rule #6 on the BUY leg:** this is still a put bought on a red day. No direct measurement refutes the day-colour proxy, so it is a small, recorded wrong-colour buy and **not** a legitimate break. Re-read the colour if QQQ turns green before the order.
+
+### A6. Beside the Oct-05 735P ×5
+The five are $3.78 out of the money at 12:51 (vendor bid $3.28 / ask $3.30). They get their own Monday card (`MGMT-QQQ735P-OCT05`). Today's partial sale does not change their structure.
+
+### Decision (refreshed)
+> **WQ-347 (Will):** SELL the four at Fidelity's bid before 15:00 ET (desk lean: ≈ $729 at screening, which leaves the nine-line ≈ +$849 realized). The alternative is to ROLL them to QQQ $740P Oct-09 ×4 as one net-debit order with no debit above $6.50/contract, which puts ≈ $3.2k at risk, ≈ 6.4× the $500 cap. Not hold.
+
+**APPROVAL REQUIRED. Will must approve or reject before execution.**
