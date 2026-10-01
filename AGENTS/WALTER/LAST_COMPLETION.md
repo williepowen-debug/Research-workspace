@@ -79,7 +79,7 @@ Session: **2026-10-01 Thu, Claude Opus 5.5 as WALTER (`walter-90`, desktop)**. B
 ## CLOSEOUT RECEIPT
 
 **Issued at the 10/01 Tier-2, before the closeout commit (its hash is in the commit trail).**
-- **10/01 handoffs: 57 written; 32 confirmed on origin at issue; the rest ride the closeout push and are reconciled after it** (count re-checked by `closeout_check.py` post-push). Delivered is not consumed.
+- **10/01 handoffs: 57 written, 57 on origin** (origin `9813865aa`, pushed by another session's safe-push; ledger reconciled at the Tier-2). Delivered is not consumed.
 - ⚠️ **This receipt does NOT claim:** that BRENT or AEOLUS consumed anything; that any owner adopted a lane-query recommendation; that the Roosevelt is a third carrier; that the Bu Hasa or Ghawar fires were attacks; that the FILTER_SPEC boot reads ran.
 
 <!-- CLOSEOUT_RECEIPT_JSON
@@ -93,7 +93,7 @@ Session: **2026-10-01 Thu, Claude Opus 5.5 as WALTER (`walter-90`, desktop)**. B
   "delivery": {
     "signal_date": "20261001",
     "total": 57,
-    "delivered": 32
+    "delivered": 57
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
