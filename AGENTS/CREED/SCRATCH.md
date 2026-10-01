@@ -39,7 +39,7 @@ CATO RC4 sweep repair `a52c0da9e` + packet filed `6729b693b` · Will's workbook:
 ## 🟡 STATE AT HANDOFF
 - **Base case HOLDS; 🟠 ELEVATED; convergence 27/45 (60.0%); broad CRE-to-bank transmission is not confirmed** (S3 = 2; next test FDIC Q3 QBP ~late Nov, DOCKET L514).
 - **Trigger board:** `T-01a` 12.00 AT band, 0 of 2 · `T-01b` 16.90 · `T-02` spent · `T-03` not fired · `T-06b` fired, count 1, S6 held at 3 · **`T-08a` FIRED 9/24; 9/30 close −9.14 TR (ORANGE, 0.86pp inside the band); S8a 4 (Will)** · `T-08b` not fired. n=12 counts: T-01a 8 · T-01b 7 · T-02 5 · T-03 4 · **T-08a 6**.
-- **Counts:** VX 34 · KB 55 (+052–055 refi follow-up 10/01; +051 RC 10% refi, 10/01; 5 marked STALE 10/01) · PRED 11 (3 open; graded n=6, mean Brier 0.279) · registry 11 · **cases 135** (+3 held; +135 2100 Ross 10/01; 41 of the 79 workbook cases are `LEAD` tier).
+- **Counts:** VX 34 · KB 56 (+052–055 refi follow-up, +056 FedEx/Amazon 10/01; +051 RC 10% refi, 10/01; 5 marked STALE 10/01) · PRED 11 (3 open; graded n=6, mean Brier 0.279) · registry 11 · **cases 135** (+3 held; +135 2100 Ross 10/01; 41 of the 79 workbook cases are `LEAD` tier).
 - **Case ledger sources:** `cases/sources/2026-09-30_will_CRE_Loss_Sales_v4.xlsx` is CURRENT (v3 kept for provenance); the import script refuses a second run.
 
 ## ⚫ STANDING TRAPS — re-read before writing any number
