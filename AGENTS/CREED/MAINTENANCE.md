@@ -11,6 +11,12 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 
 ---
 
+## 2026-09-30 (night) — `trepptalk_sweep.py` repaired + approved research re-labelled (CATO RC4/RC5, PROME packet `1193d4d7d`)
+
+- **Why:** CATO `AGENTS/CATO/runs/2026-09-30_2132_system-recent-commits-review.md` RC4 + RC5, verified by PROME. Will asked PROME to investigate and fix what is true (21:52 ET). Both claims were confirmed at the code and the record before any edit.
+- **RC4 (sweep):** partial fetch failure or a page that parses to nothing usable now exits 2 (v1: quiet 0, "9/9 pages"); dates bind to their own card (Trepp's `bop--listing--item` div or `<article>`), and with no card markers no date is guessed; `--all` shows every row. Saved cases: `scripts/test_trepptalk_sweep.py`, 13/13 pass, v1 fails 9. A live run read 9/9 pages COMPLETE, 210 posts (same as v1). **Still NOT wired; the boot wiring is Will's.**
+- **RC5 (record):** SCRATCH listed re-running the four crash-lost research directions under AWAITING WILL although Will approved all six on 9/30. Moved to an APPROVED, UNFINISHED block naming the unfinished outputs; research page §Next session item 3 annotated. The one awaiting-Will item is the sweep wiring.
+
 ## 2026-09-30 (late) — July source pack moved to ON DEMAND (boot step 6.2); READS.tsv corrected
 
 - **Why:** `research/REFRESH_2026-07-27.md` is a closed prior pack at 100% of the read budget, read whole at every boot. CATO recommended on-demand; **Will approved directly in-session ("Yes, I approve").**

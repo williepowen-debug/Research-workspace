@@ -43,6 +43,6 @@
 ## Next session (owed, in order)
 1. Re-fetch F1/F2/F4/F10 and decide KB rows (F1 is the strongest: an aggregate series for lane 5).
 2. Route F7/F8 + student housing (9/21, 9/22) to WALTER for HOMER/CORAL.
-3. Re-run directions 1–6 beyond Trepp (the agent prompts are in this session's transcript; re-spawn on Opus).
+3. Re-run directions 1–6 beyond Trepp (the agent prompts are in this session's transcript; re-spawn on Opus). **Already approved (line 3). The crash lost the outputs, not the approval, so this is not a Will question** (corrected 2026-09-30 21:59 ET, CATO RC5). Unfinished: the four fan-outs (1, 2+3, 4, 5+6) returned nothing; directions 4 (payoff rates) and 6 (coupon gap) have no result at all. ⚠️ That transcript is not on the laptop; rebuild the prompts from this page if needed. Sequencing: do items 1 (F1) and 4 (F5 / Glancy) first.
 4. Read Glancy (2026) at source before any THESIS wording on extend-and-pretend (F5).
-5. Ask Will before wiring the sweep into `CLAUDE.md` boot order.
+5. Ask Will before wiring the sweep into `CLAUDE.md` boot order. *(The sweep was repaired first, 2026-09-30 evening, CATO RC4: incomplete coverage now exits 2, dates bind per card, `--all` shows every row; saved cases `scripts/test_trepptalk_sweep.py`.)*
