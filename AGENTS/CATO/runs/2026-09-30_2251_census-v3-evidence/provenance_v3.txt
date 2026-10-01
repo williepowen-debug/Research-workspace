@@ -1,0 +1,61 @@
+PIN=e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0
+AS_OF=2026-10-01
+rows_kept=534
+
+FILES (class, path, data rows, disposition):
+LIVE	AGENTS/AEOLUS/workbook/PREDICTIONS.tsv	12	parsed; 12 rows kept
+LIVE	AGENTS/BOND/thesis/PREDICTIONS.tsv	2	parsed; 2 rows kept
+ROTATION	AGENTS/BOND/thesis/archive/PREDICTIONS_resolved_BND-01_to_BND-17.tsv	17	parsed; 17 rows kept
+ROTATION	AGENTS/BOND/thesis/archive/PREDICTIONS_resolved_BND-18_to_BND-21.tsv	4	parsed; 4 rows kept
+ROTATION	AGENTS/BOND/thesis/archive/PREDICTIONS_resolved_BND-22_to_BND-24.tsv	3	parsed; 3 rows kept
+ROTATION	AGENTS/BOND/thesis/archive/PREDICTIONS_resolved_BND-25_to_BND-29.tsv	5	parsed; 5 rows kept
+ROTATION	AGENTS/BRENT/archive/2026-09-08_cleanup/thesis/PREDICTIONS.tsv	30	parsed; 30 rows kept
+SNAPSHOT	AGENTS/BRENT/archive/2026-09-08_thesis-reconciliation/thesis/PREDICTIONS.tsv	30	listed, not parsed (copy of live)
+SNAPSHOT	AGENTS/BRENT/research/2026-09-15_backlog-review/before/thesis/PREDICTIONS.tsv	30	listed, not parsed (copy of live)
+SNAPSHOT	AGENTS/BRENT/research/2026-09-15_workdown/before/thesis/PREDICTIONS.tsv	30	listed, not parsed (copy of live)
+LIVE	AGENTS/BRENT/thesis/PREDICTIONS.tsv	30	parsed; 30 rows kept
+LIVE	AGENTS/BROCK/workbook/PREDICTIONS.tsv	22	parsed; 22 rows kept
+ROTATION	AGENTS/BROCK/workbook/PREDICTIONS_ARCHIVE.tsv	10	parsed; 10 rows kept
+LIVE	AGENTS/CARL/sub_agents/DOC/workbook/PREDICTIONS.tsv	10	parsed; 10 rows kept
+LIVE	AGENTS/CARL/sub_agents/GIG/workbook/PREDICTIONS.tsv	8	parsed; 8 rows kept
+LIVE	AGENTS/CARL/sub_agents/PHAN/workbook/PREDICTIONS.tsv	7	parsed; 7 rows kept
+LIVE	AGENTS/CARL/sub_agents/POLLY/workbook/PREDICTIONS.tsv	8	parsed; 8 rows kept
+LIVE	AGENTS/CARL/sub_agents/POP/workbook/PREDICTIONS.tsv	8	parsed; 8 rows kept
+LIVE	AGENTS/CARL/thesis/PREDICTIONS.tsv	29	parsed; 29 rows kept
+LIVE	AGENTS/CREED/workbook/PREDICTIONS.tsv	11	parsed; 11 rows kept
+LIVE	AGENTS/CRUISE/workbook/PREDICTIONS.tsv	10	parsed; 10 rows kept
+LIVE	AGENTS/FALCON/thesis/PREDICTIONS.tsv	5	parsed; 5 rows kept
+LIVE	AGENTS/FERT/workbook/PREDICTIONS.tsv	12	parsed; 12 rows kept
+LIVE	AGENTS/FLG/workbook/PREDICTIONS.tsv	3	parsed; 3 rows kept
+LIVE	AGENTS/HANS/workbook/PREDICTIONS.tsv	9	parsed; 9 rows kept
+LIVE	AGENTS/HAWK/thesis/PREDICTIONS.tsv	22	parsed; 22 rows kept
+LIVE	AGENTS/HENRY/workbook/PREDICTIONS.tsv	42	parsed; 42 rows kept
+LIVE	AGENTS/HOMER/thesis/PREDICTIONS.tsv	2	parsed; 2 rows kept
+LIVE	AGENTS/LABOR/workbook/PREDICTIONS.tsv	19	parsed; 19 rows kept
+LIVE	AGENTS/LIQUID/workbook/PREDICTIONS.tsv	7	parsed; 7 rows kept
+LIVE	AGENTS/MARCO/sub_agents/BORDER/workbook/PREDICTIONS.tsv	4	parsed; 4 rows kept
+LIVE	AGENTS/MARCO/sub_agents/HOUSING/workbook/PREDICTIONS.tsv	3	parsed; 3 rows kept
+LIVE	AGENTS/MARCO/sub_agents/MIGRATION/workbook/PREDICTIONS.tsv	4	parsed; 4 rows kept
+LIVE	AGENTS/MARCO/sub_agents/TOURISM/workbook/PREDICTIONS.tsv	6	parsed; 6 rows kept
+LIVE	AGENTS/MARCO/sub_agents/WORKFORCE/workbook/PREDICTIONS.tsv	4	parsed; 4 rows kept
+LIVE	AGENTS/MARCO/thesis/PREDICTIONS.tsv	16	parsed; 16 rows kept
+LIVE	AGENTS/MIDAS/workbook/PREDICTIONS.tsv	10	parsed; 10 rows kept
+LIVE	AGENTS/OSPREY/thesis/PREDICTIONS.tsv	6	parsed; 6 rows kept
+ROTATION	AGENTS/OTTO/archive/PREDICTIONS_root_pre_20260415_reformat.tsv	15	parsed; 15 rows kept
+LIVE	AGENTS/OTTO/thesis/PREDICTIONS.tsv	20	parsed; 20 rows kept
+LIVE	AGENTS/OZK/workbook/PREDICTIONS.tsv	9	parsed; 9 rows kept
+LIVE	AGENTS/RED/workbook/PREDICTIONS.tsv	24	parsed; 24 rows kept
+ROTATION	AGENTS/REGINALD/archive/sub-agents/CREED/workbook/PREDICTIONS.tsv	0	parsed; 0 rows kept
+ROTATION	AGENTS/REGINALD/archive/sub-agents/RENO/workbook/PREDICTIONS.tsv	0	parsed; 0 rows kept
+ROTATION	AGENTS/REGINALD/archive/sub-agents/TEX/workbook/PREDICTIONS.tsv	0	parsed; 0 rows kept
+LIVE	AGENTS/REGINALD/workbook/PREDICTIONS.tsv	20	parsed; 20 rows kept
+LIVE	AGENTS/SAM/thesis/PREDICTIONS.tsv	35	parsed; 35 rows kept
+LIVE	AGENTS/VIOLET/workbook/PREDICTIONS.tsv	6	parsed; 6 rows kept
+ROTATION	AGENTS/VULCAN/archive/PREDICTIONS_RESOLVED_2026-09.tsv	8	parsed; 8 rows kept
+LIVE	AGENTS/VULCAN/workbook/PREDICTIONS.tsv	9	parsed; 9 rows kept
+LIVE	AGENTS/WAL/workbook/PREDICTIONS.tsv	3	parsed; 3 rows kept
+LIVE	AGENTS/WATT/workbook/PREDICTIONS.tsv	4	parsed; 4 rows kept
+ROTATION	AGENTS/WATT/workbook/PREDICTIONS_ARCHIVE.tsv	8	parsed; 8 rows kept
+LIVE	AGENTS/ZHAO/workbook/PREDICTIONS.tsv	18	parsed; 18 rows kept
+
+RULES: class from Status (+Outcome when Status=RESOLVED) via token lists in script; p_scored = current Confidence cell leading integer %; p_first = Confidence cell at first commit containing the Pred_ID in that file (oldest-first git log); exclusion_reason mutually exclusive: open | terminal_non_binary | no_numeric_probability; OPEN sub_reason by due-date column vs AS_OF; dedupe (desk,pred_id) LIVE over ROTATION.

@@ -1,0 +1,601 @@
+{
+  "pin": "e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0",
+  "counts": {
+    "total": 534,
+    "scored": 235,
+    "excluded": {
+      "open:not_due": 91,
+      "open:overdue": 36,
+      "terminal_non_binary": 80,
+      "open:undated": 38,
+      "no_numeric_probability": 54
+    }
+  },
+  "metrics": {
+    "current_cells_all": {
+      "n": 235,
+      "brier": 0.2420995744680851,
+      "base_rate": 0.5106382978723404,
+      "baseline": 0.24988682661837935,
+      "skill": 0.03116311594202892
+    },
+    "current_cells_matched": {
+      "n": 234,
+      "brier": 0.2415957264957265,
+      "base_rate": 0.5128205128205128,
+      "baseline": 0.24983563445101906,
+      "skill": 0.03298131578947361
+    },
+    "purported_first_matched": {
+      "n": 234,
+      "brier": 0.2532880341880342,
+      "base_rate": 0.5128205128205128,
+      "baseline": 0.24983563445101906,
+      "skill": -0.013818684210526344
+    }
+  },
+  "scored_without_first": [
+    [
+      "ZHAO",
+      "ZHA-08"
+    ]
+  ],
+  "distinct_stored_other_statuses": 48,
+  "witnesses": {
+    "OTTO-04": {
+      "census": {
+        "desk": "OTTO",
+        "file": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+        "src_class": "LIVE",
+        "pred_id": "OTTO-04",
+        "status_raw": "FALSIFIED",
+        "class": "FAILED",
+        "exclusion_reason": "",
+        "sub_reason": "",
+        "confidence_raw": "62% [2026-07-04] (was 75% [2026-02-23])",
+        "p_scored": "0.62",
+        "p_first_committed": "0.75",
+        "first_commit_date": "2026-06-09",
+        "first_commit_sha": "65b899ca4",
+        "first_seen_is_file_birth": "1",
+        "remarked_since_registration": "1",
+        "due_date": "2026-09-30",
+        "outcome_raw": "FALSIFIED-on-metric / CONFIRMED-on-substance (OTTO-29 convention, Will-ratified ",
+        "brier_scored": "0.3844",
+        "brier_first": "0.5625",
+        "prediction_text": "2022 vintage CNL exceeds 25%"
+      },
+      "source": {
+        "commit": "e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0",
+        "path": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+        "row": {
+          "ID": "OTTO-04",
+          "Prediction": "2022 vintage CNL exceeds 25%",
+          "Confidence": "62% [2026-07-04] (was 75% [2026-02-23])",
+          "Made_Date": "2026-02-23",
+          "Resolve_Date": "2026-09-30",
+          "Status": "FALSIFIED",
+          "Result": "FALSIFIED-on-metric / CONFIRMED-on-substance (OTTO-29 convention, Will-ratified 2026-07-04). Resolved EARLY 2026-07-25 because BOTH metrics now have determinate answers and nothing is learned by waiting to Sep 30. ORIGINAL RATIFIED METRIC (Fitch blended subprime index): projecting ~24.3-24.5% vs the 25% threshold = MISS, and the series is additionally UNOBTAINABLE (latest data March-2026; the Auto Remarketing/AFN free mirror has decayed). SUBSTANCE (deep-subprime tranche): CONFIRMED - EART 2022-3 27.58%, EART 2022-2 26.34% [CONF SEC 10-D, filed 2026-06-30]. *** NO FORECASTING CREDIT EITHER WAY *** - see Notes.",
+          "Invalidation": "2022 vintage CNL stays <20% or reverses",
+          "Notes": "AS-MADE RE-DERIVED 2026-09-12 (s022, DAEDALUS H2 as-made audit): ledger carried the twice-walked 62%; as-made at the 2026-02-23 Made_Date was 75%. Walk chain VERIFIED in STATUS history: 75 -> 68 [7d12bf40f 2026-07-04] -> 62 [cbba743ee 2026-07-04, same day]. Row is RESOLVED, so the SCORING VINTAGE CHANGES: score at 75%, not 62%. || 2026-07-25 RE-BASE EXECUTED (Will-directed) + RESOLVED. Will directed re-basing OTTO-04 onto the deep-subprime 10-D tranche. The METRIC re-base is done and correct - EART 2022-2/-3 cumulative net loss ratio is now OTTO's canonical 2022-vintage measure (obtainable, primary-source, and what the thesis actually cares about). BUT THE PREDICTION COULD NOT BE RE-BASED HONESTLY, and this is the important part: OTTO-04 was made 2026-02-23; on the re-based metric EART 2022-3 was ALREADY at 25.90% (10-D filed 2026-01-28) and EART 2022-2 crossed 25% within days (25.22%, filed 2026-03-03). *** THE RE-BASED CLAIM WAS TRUE-AT-CREATION *** - it has ZERO forecasting content. Scoring it CONFIRMED would launder a likely-miss into a hit; it is the OTTO-30 known-unknown trap inverted ([[feedback_forward_discovery_prediction_spirit]] + [[finding_discovery_instrument_defines_the_claim]]). DISPOSITION: resolve on the original ratified metric (FALSIFIED), record substance as confirmed, take NO calibration credit, and open a genuinely FORWARD claim on the new metric -> OTTO-34. CNL trajectory now on file [CONF SEC 10-D]: EART 2022-3 25.21%(Dec-25 filing) -> 25.53 -> 25.90 -> 26.27 -> 26.60 -> 26.95 -> 27.28 -> 27.58%(Jun-30-26); deltas decelerating .37 -> .30pp/mo. EART 2022-2 24.23% -> 26.34% same window, .33 -> .26pp/mo. | 2026-04-15: realized 22.42% (ML-OTTO-021); Exeter 2023-1 ECNL raised to 26.50%. 2026-05-22 PM: TRACKING — held at 75%. Fitch Jan 2026 subprime ANL 9.81% (post-pandemic high, +30bp YoY); 60+ DQ 6.90% record / 6.80% Feb; recovery rate 32.64% (vs pre-pandemic 43.73%) — suppressed recoveries keep CNL accretion elevated. S&P explicit: \"2022 vintage is exhibiting the worst performance\"; 2023/24 underwriting recalibrated. Trajectory math: 22.42% + ~40bp/mo on original ≈ ~24.3-24.5% by Sep 30 — JUST BELOW threshold, in striking distance. Confirmation paths: (a) ECNL revision higher, (b) lender failure accelerates burn, (c) Q2 EART/SDART 2022-x 10-Ds show sharper degradation. Tooling gap: SEC 10-D direct EDGAR pull blocked, search next session. 2026-07-04 NUDGE 75->68% [PRESS Fitch/AutoRemarketing]: monthly series caught spring tax-refund bounce — 60+ DQ eased ~6.1%, ANL ~8.8%, RECOVERY UP to 37.48% (vs 32.64% YE'25). 2022-vintage CNL is cumulative (doesn't reverse) so substance still grinds, but the burn RATE softened seasonally — makes the ~24.3-24.5% Sep-30 projection LESS likely to cross 25%. Need direct May/Jun Fitch print + 2022-vintage 10-D to confirm summer re-deterioration post-tax-season. Resolve date Sep 30 unchanged. 2026-07-04 (session 015) PRIMARY-SOURCE 10-D PULL [CONF SEC 10-D — EDGAR CIK 1931330/1920761/1943670, May-2026 collection filed Jun-2026]: BIFURCATION by credit tier at identical ~44-48mo seasoning. DEEP subprime: EART 2022-3 (Exeter) CNL 27.58%, EART 2022-2 26.34% — BOTH already >25%, still climbing but DECELERATING (+0.30/mo May vs +0.37 Dec). BROAD subprime: SDART 2022-6 (Santander) CNL only 12.08% — <half of Exeter, decelerating harder (+0.06/mo). Same 2022 vintage, same seasoning; the 2.3x gap is pure credit-tier. The Fitch subprime *index* (22.42% @31mo) is a composition-weighted BLEND between these → whether the INDEX crosses 25% is a composition bet, and Santander's dominant $2B+ low-CNL deals anchor the blend well below the Exeter tail. No post-tax-season re-acceleration in the May print (monthly $ losses falling BOTH tiers); 60+ DQ ticked up slightly at Exeter (2022-3 12.96→13.59) = summer-firming WATCH via DQ→loss lag (Jul/Aug prints). NUDGE 68→62%: composition drag argues the blend crosses 25% less easily + no observed re-acceleration; CAVEAT — these deals are 44-48mo (past the 24-36mo peak) vs the index at 31mo, so tail-deceleration read-through to the index is PARTIAL. MAGNITUDE leg CONFIRMED regardless: deep-subprime 2022 already >25%, grinding to ~28-29% terminal (EART 2022-3 pool factor 16.7%). Canonical resolving measure stays the Fitch subprime vintage index. Tooling gap CLOSED — EDGAR 403 was a missing User-Agent header (data.sec.gov/Archives now pulled via compliant UA). 2026-07-04 RESOLUTION CONVENTION (Will-ratified, s015): OTTO-04's canonical resolving measure STAYS the blended Fitch subprime vintage index (don't move goalposts mid-flight). BUT the deep-subprime tranche substance is already CONFIRMED >25% (Exeter EART 2022-3 27.58% [CONF SEC 10-D]) — so a Sep-30 blended-index miss resolves FALSIFIED-on-window / CONFIRMED-on-substance (OTTO-29 convention), NOT a thesis-substance failure. The mechanism/magnitude leg is banked regardless of the blended-index composition technicality."
+        }
+      }
+    },
+    "OTTO-06": {
+      "census": {
+        "desk": "OTTO",
+        "file": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+        "src_class": "LIVE",
+        "pred_id": "OTTO-06",
+        "status_raw": "FALSIFIED",
+        "class": "FAILED",
+        "exclusion_reason": "",
+        "sub_reason": "",
+        "confidence_raw": "70%",
+        "p_scored": "0.70",
+        "p_first_committed": "0.70",
+        "first_commit_date": "2026-06-09",
+        "first_commit_sha": "65b899ca4",
+        "first_seen_is_file_birth": "1",
+        "remarked_since_registration": "0",
+        "due_date": "2026-09-30",
+        "outcome_raw": "s026 CALIBRATION DISPOSITION 2026-09-30 (CATO RC2 433084d2b, investigated: TRUE)",
+        "brier_scored": "0.4900",
+        "brier_first": "0.4900",
+        "prediction_text": "Monoline 60+ DPD exceeds 18%"
+      },
+      "source": {
+        "commit": "e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0",
+        "path": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+        "row": {
+          "ID": "OTTO-06",
+          "Prediction": "Monoline 60+ DPD exceeds 18%",
+          "Confidence": "70%",
+          "Made_Date": "2026-02-23",
+          "Resolve_Date": "2026-09-30",
+          "Status": "FALSIFIED",
+          "Result": "s026 CALIBRATION DISPOSITION 2026-09-30 (CATO RC2 433084d2b, investigated: TRUE). The grade is KEPT as the observed panel result, FALSIFIED on the 9/28 instrument. It is NOT calibration-eligible and is OUT of the verified-eligible aggregate. EVENT (terms unchanged): as made 2/23, 'Monoline 60+ DPD exceeds 18%' by 9/30, with invalidation 'stays <15% through Q3'. At creation there was no instrument, no perimeter and no metric basis. The 9/28 instrument (EART deal-level 60+ DQ % of pool; CONFIRMED if any EART deal prints >18% on any collection month filed by 9/30, FALSIFIED otherwise) was written after the July data were visible. PERIOD + SOURCE COVERAGE: on the EART perimeter, the whole period through the Aug-2026 collection month (10-Ds filed 9/29) [CONF SEC 10-D]. CPS, ACA, CACC and every other monoline: NOT checked. CALIBRATION ELIGIBILITY: NOT ELIGIBLE. On the 2/23 terms the panel result does not resolve. EART 2022-2 printed 15.33% (Jan) and 15.22% (Aug), between the confirm line (18%) and the invalidation line (15%). The 9/28 'FALSIFIED otherwise' clause, written after the July data, is what turned that dead-zone result into FALSIFIED, and a resolving clause written after data that decides the outcome is not a prospective test. The original terms are unchanged and as-made 70% stands. Brier 0.4900 is computed and shown but NOT counted in the calibration aggregate. Disclosed: every row set aside or held on 9/30 s026 is a miss, so the set-aside flatters the remaining mean (thesis/PREDICTIONS_ARCHIVE.md). || 2026-09-30 (s025) GRADE AS FIRST RECORDED: FALSIFIED 2026-09-30 (s025) on the instrument pre-stated 9/28: no EART deal printed 60+ DQ >18% on any collection month filed by 9/30. Aug-2026 collection month, 10-Ds filed 2026-09-29 [CONF SEC 10-D via panel_10d.py --dry-run 2026-09-30 17:34 ET, positive control PASS, nothing written]: EART 2022-2 15.22% · 2022-3 14.46% · 2023-1 12.32% · 2024-1 10.89%. All-time EART max on the panel 15.33% (2022-2, Jan-2026). ⚠️ DISCLOSED: (1) the perimeter was chosen 9/28 AFTER seeing the July data; (2) CPS/ACA/CACC portfolio-level 60+ NOT checked; (3) the row's own Invalidation ('stays <15% through Q3') is NOT met either — 2022-2 printed 15.33% (Jan) and 15.22% (Aug) — so the 2/23 row had a 15-18% dead zone that only the 9/28 'FALSIFIED otherwise' line closed. Graded on the claim's letter: 'exceeds 18%' did not happen. As-made 70% [VERIFIED git 91c301279] => Brier 0.4900.",
+          "Invalidation": "Monoline 60+ stays <15% through Q3",
+          "Notes": "2026-09-30 (s026) CALIBRATION-INELIGIBLE on CATO RC2; see Result. Status, terms and as-made unchanged. || 2026-09-30 (s025) RESOLVED — see Result. || 2026-09-28 (s024) INSTRUMENT STATED BEFORE THE 9/30 RESOLVE — this row was made 2026-02-23 with NO instrument (the OTTO-10 defect class). Stated now, before the Aug-collection EART 10-Ds file (~9/30): deal-level 60+ DQ % of pool balance on OTTO's Exeter (EART) deals in workbook/PANEL_10D.tsv — Exeter is the only MONOLINE issuer on the panel (BLAST = Carvana, SDART = bank-owned Santander). CONFIRMED if any EART deal prints >18% on any collection month filed by 9/30; FALSIFIED otherwise. Latest read, July-2026 collection month [CONF SEC 10-D via PANEL_10D.tsv]: EART 2022-2 14.33% · 2022-3 13.44% · 2023-1 12.04% · 2024-1 10.48% (BLAST 2024-1 15.30%, the panel max, is not a monoline). ⚠️ This perimeter was chosen AFTER seeing the July data. Robustness: every deal on the panel sits below 18%, so the choice does not decide the outcome on the panel; portfolio-level 60+ at CPS / ACA / CACC (10-Q) is NOT checked. STAGED: FALSIFIED. Score at as-made 70% [VERIFIED git 91c301279, 2026-03-04 seed row: '70%'; the cell still reads 70%]. || Window not yet open. Watch CPS, Exeter, Credit Acceptance Q2-Q3 prints."
+        }
+      }
+    },
+    "OTTO-10": {
+      "census": {
+        "desk": "OTTO",
+        "file": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+        "src_class": "LIVE",
+        "pred_id": "OTTO-10",
+        "status_raw": "NEEDS_VERIFY",
+        "class": "OTHER",
+        "exclusion_reason": "terminal_non_binary",
+        "sub_reason": "NEEDS_VERIFY",
+        "confidence_raw": "20%",
+        "p_scored": "0.20",
+        "p_first_committed": "0.65",
+        "first_commit_date": "2026-06-09",
+        "first_commit_sha": "65b899ca4",
+        "first_seen_is_file_birth": "1",
+        "remarked_since_registration": "1",
+        "due_date": "2026-09-30",
+        "outcome_raw": "NEEDS_VERIFY 2026-09-30 (s026; CATO RC2 433084d2b, investigated: TRUE). The s025",
+        "brier_scored": "",
+        "brier_first": "",
+        "prediction_text": "Subprime origination share falls below 13%"
+      },
+      "source": {
+        "commit": "e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0",
+        "path": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+        "row": {
+          "ID": "OTTO-10",
+          "Prediction": "Subprime origination share falls below 13%",
+          "Confidence": "20%",
+          "Made_Date": "2026-02-23",
+          "Resolve_Date": "2026-09-30",
+          "Status": "NEEDS_VERIFY",
+          "Result": "NEEDS_VERIFY 2026-09-30 (s026; CATO RC2 433084d2b, investigated: TRUE). The s025 FALSIFIED below is HELD, not withdrawn, and is OUT of the verified aggregate until the evidence covers the claim period. EVENT (terms unchanged): 'subprime origination share falls below 13%' by 9/30; invalidation 'stays >14% through Q3 2026'; instrument = Equifax subprime ACCOUNT (unit) share (named 8/14, quoted as annual shares); perimeter = Auto Total, VantageScore 3.0 <620, new+used combined, national, NSA (stated 9/28). Granularity was never registered. Because the 8/14 figures are annual shares, the in-period reading is the YTD-through-Sep-2026 account share; monthly and balance prints are reported beside it and do not grade on their own. PERIOD + SOURCE COVERAGE: the claim runs to end-Q3 2026. VERIFIED coverage now reaches May 2026 [CONF Equifax Originations Jul-2026 edition (through Apr) and Aug-2026 edition (through May), at originations-credit-trends-july-2026.pdf / -august-2026.pdf, 2026-10-01 01:59Z]. The s025 '404' on -jul-/-aug-2026.pdf was a guessed-URL SEARCH-NOT-FOUND, not an absence. Readings, Auto Total <620: YTD account share Mar 19.1% · Apr 18.7% · May 18.1%; YTD balance share 15.9% · 15.6% · 15.2%; MONTHLY account share 19.5% · 17.7% · 15.5%; MONTHLY balance share 16.3% · 15.0% · 13.1% (first prints; May-2024 monthly balance was 12.6%, May-2025 13.5%). Nothing is below 13% through May on any reading. Jun-Sep 2026 is NOT COVERED: the Sep-2026 edition (through Jun) is SEARCH-NOT-FOUND at 9 URL variants; by the three editions' pattern the edition covering through September is the Dec-2026 edition [INFERRED]. INFERENCE, NOT A GRADE: a YTD-Sep account share under 13% would need Jun-Sep monthly account shares near 6.6%, and the lowest monthly print on record is 15.4% (May 2024). So FALSIFIED is very likely on the registered reading. But the monthly balance series sits 0.1pp above the line after three monthly declines, so 'no print below 13%' cannot be assumed for the unread months. This desk has no 'latest-available publication' convention (SEARCH-NOT-FOUND in CLAUDE.md, THESIS, PREDICTIONS_ARCHIVE, MEMORY), so none is applied. CALIBRATION ELIGIBILITY: not eligible while NEEDS_VERIFY. At the covering edition the row is graded on the YTD-Sep account share. It is ELIGIBLE only if every reading (YTD and monthly, account and balance) lands on the same side of 13%. If the readings disagree, it is graded on the registered reading and marked calibration-INELIGIBLE, because this granularity reading was written down after the Jan-May data were seen. As-made 65% stands. Staged Brier: 0.4225 if FALSIFIED, 0.1225 if CONFIRMED; neither is counted now. Receipts: research/2026-09-30_RC2_evidence_receipts.md section 1. || 2026-09-30 (s025) GRADE AS FIRST RECORDED: FALSIFIED 2026-09-30 (s025). IMPEACHMENT DISPOSITION: the letter names 'subprime origination share'; the instrument line (8/14) names the EQUIFAX subprime UNIT share. SERIES READ = Equifax Credit Trends Originations, Jun-2026 edition (through Mar-2026), Auto Total, VantageScore 3.0 <620, new+used combined: ACCOUNT (unit) share 2025 16.8% · YTD-Mar-2026 19.1%; BALANCE share 2025 13.8% · YTD-Mar-2026 15.9% [CONF assets.equifax.com originations-credit-trends-jun-2026.pdf, re-read at the tables 2026-09-30 21:38Z; Jul/Aug/Sep-2026 editions 404 at 21:37:48Z]. SERIES NOT USED = the impeached '16.5->15.2->14.7' (RP-OTT-1.6 synthesis, labelled BALANCE share in its own table) — excluded from the grade, not averaged in. No print after the 2/23 Made_Date is <13% on either basis. Note: the balance basis read 12.4% (2023) / 12.8% (2024), pre-claim prints under 13%; that would matter only for a CONFIRM (OTTO-04 true-at-creation rule), not this FALSIFIED. As-made 65% [VERIFIED git 91c301279] => Brier 0.4225 (the walked 20% cell would have scored 0.0400; not used).",
+          "Invalidation": "Share stays >14% through Q3 2026",
+          "Notes": "2026-09-30 (s026) Status FALSIFIED -> NEEDS_VERIFY on CATO RC2 (period not covered); see Result. Re-check: the Equifax Originations edition covering through Sep-2026 (docket/CATALYSTS.tsv 2026-12-15 row). Resolve_Date, as-made 65% and terms unchanged. || 2026-09-30 (s025) RESOLVED — see Result. || 2026-09-28 (s024) ⛔ SEP-20 PERIMETER HARD GATE — GRADED LATE, 8 DAYS, ON ITS LETTER, ON DATA PUBLIC BEFORE 9/20. Lateness cause: OTTO dark 9/12->9/24; the 9/24 PROME WQ-206 drain skipped the gate by scope; the gate was registered only on OTTO's own docket, so no PROME driver could wake the desk before DOCKET L469 (9/28). Source [CONF Equifax U.S. National Consumer Credit Trends Report — Originations, June-2026 edition, 'Originations through March 2026 reported as of May 2026', assets.equifax.com/marketing/US/assets/originations-credit-trends-jun-2026.pdf, read 2026-09-28; the March-2026 edition (data through Dec-2025) agrees on 2023/2024 and gives 2025 accounts 16.7% before revision]. Later editions SEARCH-NOT-FOUND at the probed URLs, so a newer print available before 9/20 is UNKNOWN, not excluded. STEP 1, PERIMETER STATED FROM THE SOURCE: Equifax 'Auto: Total' = all auto loans AND leases, new + used COMBINED (the report has no new/used split), borrower VantageScore 3.0 <620 at origination, national, NSA. The new/used question dissolves: the instrument's native perimeter is combined; Experian's new-only 6.61% / used-only 22.47% were never this instrument's perimeter. STEP 2, REFRESHED AT PRIMARY — ACCOUNT share of originations: 2023 15.4% · 2024 15.7% · 2025 16.8% · 2026 YTD-Mar 19.1% (YTD-Mar-2025 17.2%). BALANCE share: 2023 12.4% · 2024 12.8% · 2025 13.8% · 2026 YTD-Mar 15.9% (YTD-Mar-2025 14.1%). BOTH RISING; both above this row's 14% invalidation line YTD-2026. STEP 3 NOT NEEDED: the row is OBSERVABLE, not UNOBSERVABLE. ⛔ INSTRUMENT IMPEACHED: the '16.5% -> 15.2% -> 14.7% Equifax subprime UNIT share' (ML-OTTO-027 / VX-OTTO-055; the entire basis of the 8/14 65->20% cut) matches NEITHER primary series. Its source, RP-OTT-1.6, is a synthesized research doc whose own table labels the series 'Subprime Balance Share' (so the 8/14 'UNIT share' relabel contradicts its own source) and whose 2023 subprime units (4.9M) disagree with Equifax (3,900.2K). The cut's DIRECTION (toward falsification) survives; its REASON (a decelerating decline) is REFUTED: the share ROSE. Also refuted: ML-OTTO-228's mechanism (unit share falling while dollar share rises) — on Equifax both rise; and the s020 'bureaus move in opposite directions' finding — Equifax and Experian now both show subprime share RISING. STAGED FOR 9/30 (resolve lands at the 9/30 boot or the first after): FALSIFIED on BOTH Equifax bases — no print since the claim was made is <13% on either basis, and the latest (Q1-2026 YTD) sits at 19.1% / 15.9%. SCORE AT AS-MADE 65% [VERIFIED git 91c301279, 2026-03-04 seed row: '65%'] => Brier 0.4225, not at the walked 20%. Confidence cell NOT walked this session (a pre-resolve walk-down flatters under the as-made convention). No threshold or score changed. Ref ML-OTTO-278. || DAEDALUS H2 as-made audit flagged this as MISMATCH (ledger 20% vs STATUS 'earliest 14%'). CHECKED 2026-09-12 (s022): ⛔ FALSE POSITIVE. The 14% is OTTO-10's INVALIDATION THRESHOLD ('stays >14%'), not a confidence — DAEDALUS's own named tool limit #1 (reads the first cell that is only a percentage after the ID). No confidence for OTTO-10 was ever printed in STATUS history. LEDGER 20% STANDS, unchallenged. || 2026-08-27 (s020) 🔴 THIS ROW IS NOT CURRENTLY FALSIFIABLE, AND THAT IS A WORSE PROBLEM THAN BEING WRONG. Experian SAFM: subprime share of TOTAL financing 14.40%->15.75% (Q1 YoY) and 14.54%->15.31% (Q4 YoY) - RISING - while this row's instrument, the Equifax subprime UNIT share (16.5->15.2->14.7), FALLS. That deceleration is the entire basis of the 8/14 65%->20% cut. NOT scored off Experian: different bureau, and its release discloses neither the units-vs-dollars basis nor the credit-score cutoff - the exact perimeter error that nearly falsified this row off the NY Fed dollar share on 8/14. BUT THE DEFECT IS DEFINITIONAL, NOT JUST EVIDENTIARY: on Experian's NEW-ONLY basis subprime share is 6.61%, i.e. the '<13%' claim would ALREADY BE CONFIRMED; on USED-ONLY it is 22.47% and unreachable. A claim that resolves either way depending on an unstated new/used mix has no truth value yet. MANDATORY BEFORE 2026-09-30, in this order: (1) STATE THE NEW/USED PERIMETER on this row; (2) then refresh the Equifax unit share on that stated perimeter; (3) if (1) cannot be settled from the source, resolve UNOBSERVABLE ON PERIMETER GROUNDS and say so. DO NOT let it drift to 09-30 and resolve on whichever number is nearest. Also unchanged: the 65->20% cut rests on ONE bureau whose nearest peer moves the other way - not wrong, but less well-supported than its wording implies. Kept at 20% because no evidence was added on the row's OWN instrument. Ref ML-OTTO-260, RP-OTT-2.5 §6. 2026-08-14 s018 65% -> 20% ON ARITHMETIC OFF THIS ROW'S OWN NAMED SERIES, plus the row finally gets an INSTRUMENT line. *** INSTRUMENT (named now because its absence nearly caused a mis-grade today): the metric is the EQUIFAX SUBPRIME UNIT SHARE of auto originations, per ML-OTTO-027 / VX-OTTO-055 - subprime units 4.9M (2023) -> 4.5M (2024) -> 4.4M (2025 est), share 16.5% -> 15.2% -> 14.7%. It is a COUNT-OF-LOANS share from Equifax. It is NOT the New York Fed <620 riskscore DOLLAR share. THE CUT: the row's own series is DECELERATING - 16.5 -> 15.2 is -1.3pp, 15.2 -> 14.7 is -0.5pp. Extrapolating a decaying -0.5pp-or-less annual step off 14.7% lands ~14.2% for 2026, nowhere near the <13% line, and the claim resolves 2026-09-30 on data that will not have moved a full year. Cut on arithmetic, not sentiment - the same discipline applied to OTTO-34 on 2026-08-03. A NEAR-MISS THAT WAS NOT SCORED, RECORDED IN FULL: [CONF NY Fed HHDC 2026Q2, published 2026-08-11] the <620 DOLLAR share of auto originations is 16.13% (Q1 2026 15.61%, Q2 2025 16.18%) against a record $210.76B of total originations and $34.00B of <620 originations. Read carelessly that falsifies this row on the spot, since the Invalidation reads 'share stays >14% through Q3 2026'. IT WAS NOT USED, because it is a DIFFERENT PERIMETER: units vs dollars, Equifax vs NY Fed CCP. AND THE DIVERGENCE IS MECHANICALLY REAL, NOT NOISE: average subprime balance rose $22,800 -> $24,575 (ML-OTTO-027), so subprime DOLLAR share can rise while subprime UNIT share falls, and both series can be correct simultaneously. That is exactly why the NY Fed print is recorded here as a NON-CONFIRMING cross-check and NOT as evidence for the cut. OWED BEFORE 2026-09-30: refresh the Equifax unit-share figure. If it cannot be obtained, resolve this row explicitly as UNOBSERVABLE rather than letting it drift - the OTTO-04 lesson. | Window not yet open. ML-OTTO-027: share was 14.7% (2025 est). | 2026-09-02 (s021) IMPEACHMENT: the Experian Q1-2026 pair (14.40 -> 15.75%) is NOT primary-confirmable — Experian's Q1 deck locks figures in CHART IMAGES (DEWEY, WALTER SIG-W-20260828-011). Only the Q4-2025 press release (15.31 vs 14.54) is primary-verified. Direction of the peer-bureau disagreement survives on Q4-2025 alone. FIRST item at the Sep 20 perimeter gate."
+        }
+      }
+    },
+    "OTTO-29": {
+      "census": {
+        "desk": "OTTO",
+        "file": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+        "src_class": "LIVE",
+        "pred_id": "OTTO-29",
+        "status_raw": "FALSIFIED",
+        "class": "FAILED",
+        "exclusion_reason": "",
+        "sub_reason": "",
+        "confidence_raw": "80%",
+        "p_scored": "0.80",
+        "p_first_committed": "0.80",
+        "first_commit_date": "2026-06-09",
+        "first_commit_sha": "65b899ca4",
+        "first_seen_is_file_birth": "1",
+        "remarked_since_registration": "0",
+        "due_date": "2026-09-30",
+        "outcome_raw": "s026 EVIDENCE DISPOSITION 2026-09-30 (CATO RC2 433084d2b, investigated: TRUE of ",
+        "brier_scored": "0.6400",
+        "brier_first": "0.6400",
+        "prediction_text": "Tricolor ABS trustee distribution <15¢ on the dollar to noteholders"
+      },
+      "source": {
+        "commit": "e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0",
+        "path": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+        "row": {
+          "ID": "OTTO-29",
+          "Prediction": "Tricolor ABS trustee distribution <15¢ on the dollar to noteholders",
+          "Confidence": "80%",
+          "Made_Date": "2026-04-15",
+          "Resolve_Date": "2026-09-30",
+          "Status": "FALSIFIED",
+          "Result": "s026 EVIDENCE DISPOSITION 2026-09-30 (CATO RC2 433084d2b, investigated: TRUE of the s025 record, now CURED). The grade is KEPT, FALSIFIED-on-window / CONFIRMED-on-substance, scored on the letter under Will's ratified convention. It is now VERIFIED at a complete free docket and stays IN the verified aggregate. EVENT (4/15 seed row, unchanged): a distribution to Tricolor ABS noteholders determined through the Tricolor Ch.7 (seed Notes: 'trustee distribution after Jun 17 2026 creditor meeting = court-adjudicated number'), in cents per dollar of note principal; CONFIRMED if such a distribution under 15c occurs by 9/30. NOT this event: an indenture trustee passing trust collections through to noteholders outside the estate. The TAST deals are 144A with no public distribution reports (RP-OTT-1.6 line 22), so that reading cannot be observed and is not graded either way. PERIOD + SOURCE COVERAGE: the whole case to 9/30. [CONF Verita Global (KCC), court-appointed claims and noticing agent per Dkt 939: full docket list for Case 25-33487, retrieved 2026-10-01 02:06Z with the TLS chain verified]: 1,448 entries spanning numbers 1-1451; 480, 914 and 938 are absent here and from the RECAP index, all dated Nov-2025 to Mar-2026, before this row was made. Every title was pattern-scanned: no distribution, dividend or disbursement motion or order; no Trustee's Final Report; the only Rule 9019 settlement is with an individual (Dkt 1242/1306). [CONF Dkt 1113, the trustee's Form 1 interim report filed 2026-04-30, PDF header verified, sha256 f915516f...]: 'Current Projected Date of Final Report (TFR): September 30, 2030'; asset 48 is the estate's claim to own the finance receivables, 'amounts that could exceed $2.0 billion'. Through 9/30 the trustee was still taking Rule 2004 discovery from Wilmington Trust, indenture trustee for each TAST deal (Dkt 1246; stipulations Dkt 1401 on 8/21 and 1432 on 9/03). PACER itself was not read (spend). CALIBRATION ELIGIBILITY: ELIGIBLE. As-made 75% on 4/15, the event was defined in the seed row before the outcome, and the window miss is scored on the letter under Will's convention. Brier 0.5625 is counted. Receipts: research/2026-09-30_RC2_evidence_receipts.md section 2. || 2026-09-30 (s025) GRADE AS FIRST RECORDED: FALSIFIED-on-window / CONFIRMED-on-substance 2026-09-30 (s025; Will-ratified OTTO-29 convention). No trustee distribution to Tricolor noteholders at any level by 9/30: CourtListener RECAP search 2026-09-30 21:37:30Z, Tricolor Ch.7 docket 71308702 (N.D. Tex.) — SEARCH-NOT-FOUND for a distribution plan or distribution motion; latest trustee filings are 2004 exams and a 7/8 compromise with one individual. RECAP is a partial mirror; PACER unchecked. §341 continued to 11/11. Substance: auction ~3% of debt, notes <10c. Scored on the letter: as-made 75% [VERIFIED git 0bc51c74d] => Brier 0.5625 (substance-only 0.0625, not taken).",
+          "Invalidation": "Trustee distribution >25¢",
+          "Notes": "2026-09-30 (s026) evidence CURED at the Verita full docket + Dkt 1113 on CATO RC2; see Result. || 2026-09-30 (s025) RESOLVED — see Result. || 2026-09-28 (s024) RESOLVE STAGED FOR 9/30: FALSIFIED-on-window / CONFIRMED-on-substance (the Will-ratified OTTO-29 convention). No trustee distribution to Tricolor noteholders found at any level (search 9/28: SEARCH-NOT-FOUND for a distribution plan or a settlement of the $113M dispute; latest located coverage of the gridlock is ~March 2026); §341 continued to 2026-11-11. Substance unchanged: auction ~3% of debt, notes <10c. Score at AS-MADE 75% [VERIFIED git 0bc51c74d, 2026-04-15 seed row: '75%'], not the ledger's 80% (raised on substance 2026-05-21). || 2026-05-21: Auction proceeds ~3% of debt confirms substance (5,857 vehicles / $39.5M / projected $64M total vs $2B+ debt). ABS notes still trading <10¢. BUT: $113M receivables ownership dispute (Wilmington/JPM/5-3/trustee contesting) has gridlocked Vervent's initial servicer report; Jun 17 creditor-meeting distribution-plan ETA at risk of slipping past Sep 30 resolve date. Confidence raised to 80% on substance; flag as RESOLUTION-AT-RISK if no plan filed by Aug. 2026-06-08 REFRESH: no distribution-plan or $113M-dispute resolution found May–Jun; Jun 17 creditor-meeting ETA appears unmet (slip confirmed). Substance still tracking (no plan filed = no >25¢ distribution); resolution-slip risk past Sep 30 resolve rising — verify docket at closeout. 2026-06-09 REFRESH [CONF Verita via WINTERKORN inaugural]: §341 already noticed CONTINUED to Nov 11 2026 — distribution-plan filing slipping past Sep 30 by docket-confirmed action, not projection. Resolution-slip is now concrete (was modeled-likely-slip). Substance unchanged at 80%; date stays Sep 30 — on resolve, expect FALSIFIED-on-window CONFIRMED-on-substance outcome (parallel to OTTO-26 PSEC calibration lesson — date-specific Resolve_Dates at hard catalyst-track dependencies are the weakest link)."
+        }
+      }
+    },
+    "OTTO-32": {
+      "census": {
+        "desk": "OTTO",
+        "file": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+        "src_class": "LIVE",
+        "pred_id": "OTTO-32",
+        "status_raw": "CONFIRMED",
+        "class": "CONFIRMED",
+        "exclusion_reason": "",
+        "sub_reason": "",
+        "confidence_raw": "97% [2026-08-27] (was 85% [2026-05-22])",
+        "p_scored": "0.97",
+        "p_first_committed": "0.85",
+        "first_commit_date": "2026-06-09",
+        "first_commit_sha": "65b899ca4",
+        "first_seen_is_file_birth": "1",
+        "remarked_since_registration": "1",
+        "due_date": "2026-09-30",
+        "outcome_raw": "s026 2026-09-30 (CATO RC2 consistency pass; CATO did not challenge this row). CA",
+        "brier_scored": "0.0009",
+        "brier_first": "0.0225",
+        "prediction_text": "First Brands Group cases converted to Ch.7 (in whole or majority of 112 debtors) by Sep 30 2026"
+      },
+      "source": {
+        "commit": "e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0",
+        "path": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+        "row": {
+          "ID": "OTTO-32",
+          "Prediction": "First Brands Group cases converted to Ch.7 (in whole or majority of 112 debtors) by Sep 30 2026",
+          "Confidence": "97% [2026-08-27] (was 85% [2026-05-22])",
+          "Made_Date": "2026-05-22",
+          "Resolve_Date": "2026-09-30",
+          "Status": "CONFIRMED",
+          "Result": "s026 2026-09-30 (CATO RC2 consistency pass; CATO did not challenge this row). CALIBRATION ELIGIBILITY: ELIGIBLE. The 8/27 re-key of the resolver from 'confirmation ruling' to 'ENTRY of the conversion order' was made after creation, but it did not decide the outcome: both readings give CONFIRMED (ruling 8/24, entry 9/1). EVENT: per the letter. COVERAGE: Dkt 3748, VERIFIED. Brier 0.0225 is counted. || CONFIRMED 2026-09-30 (s025) — VERIFIED AT THE PRIMARY (upgrades the 9/28 INFERRED). Dkt 3748, Case 25-90399 (CML), S.D. Tex.: 'Order (I) Converting Chapter 11 Cases to Cases Under Chapter 7, (II) Establishing Deadline for Filing Final Chapter 11 Fee Applications…', clerk stamp ENTERED September 01, 2026. Para 1: effective upon entry, the Chapter 11 Cases of EACH of the Debtors (excluding the 4 Previously Converted Debtors, Ch.7 since 4/9, Dkt 2396) converted to Ch.7 => whole, not just majority. RETRY RECORD: 2026-09-30 21:35:22Z Kroll 403 · CourtListener docket page 403 · CourtListener REST API 401 (no token); 21:35:41Z CourtListener search API (DEWEY recap_pull.py) located entry 3748; 21:37:21Z PDF retrieved from storage.courtlistener.com RECAP (16pp, sha256 f47ac0d3c68fef78…). Trustee name (Engelhart) still search-snippet only; not load-bearing. As-made 85% [VERIFIED git c66cec278 / 3c880fbb1, 2026-05-22] => Brier 0.0225 (the walked 97% would have scored 0.0009; not used).",
+          "Invalidation": "PMG Ch.11 plan approved AND all other 111 debtors retained under Ch.11 (i.e., no Ch.7 conversion for any FBG entity by Sep 30); UST conversion motion denied",
+          "Notes": "2026-09-30 (s025) RESOLVED — see Result. || 2026-09-28 (s024) RESOLVE STAGED FOR 9/30 — CONFIRMED expected. ENTRY REPORTED 2026-09-01: 'On September 1, 2026, Judge Christopher M. Lopez entered an order converting the remaining First Brands chapter 11 cases to chapter 7' [PRESS NatLawReview / Nelson Mullins, pub 2026-09-03]; elevenflo docket page: Dkt 3748, conversion date 9/1/2026, current chapter 7, 113 debtors [PRESS aggregator]; Ch.7 trustee Eva S. Engelhart [search-result snippet only, not read at a page]. Primary docket UNREACHABLE this session (Kroll 403, CourtListener 403) => resolver ENTRY is INFERRED at two independent secondaries, NOT VERIFIED at the docket; at 9/30 resolve CONFIRMED with that grade stated, or read Dkt 3748 if a primary route opens. Previously Converted Debtors (4 Evolution SPVs, Apr 9) were already Ch.7. SCORE AT AS-MADE 85% (s022 as-made audit), not the walked 97%. || \"AS-MADE RE-DERIVED 2026-09-12 (s022, DAEDALUS H2 as-made audit). ⚠️ THE ONLY ONE WALKED **UP**: as-made 85% at the 2026-05-22 Made_Date, held 85% through 2026-07-25, raised to 97% at 0d0a66a74 2026-08-27. Row OPEN (resolve 2026-09-30) — score at 85%. A walk UP flatters a CONFIRMED resolution exactly as a walk DOWN flatters a FALSIFIED one; the audit's asymmetry is in the direction, not the mechanism. || ORDERED 2026-08-24, NOT YET ENTERED - conf 85->97% at s019. [CONF Dkt 3710 Order Denying Plan Confirmation, signed+entered 8/24/2026; Dkt 3701 Courtroom Minutes 8/24 1:00PM 'Oral Ruling entered into the record... Plan Confirmation Denied. Court to issue Order.'] SCOPE per the debtors' own filing [CONF Dkt 3722 Notice of Filing of Proposed Conversion Order, 8/26]: the Court 'ordered that EACH of the Debtors' Chapter 11 Cases be converted to cases under chapter 7' and directed a proposed order by 8/26 5pm CT. Proposed order [Dkt 3722-1, 14pp] para 1: 'Effective upon entry of this Order (the Conversion Date), the Chapter 11 Cases of each of the Debtors (excluding the Previously Converted Debtors) shall be converted to cases under chapter 7.' Previously Converted = the 4 Evolution SPV debtors (Apr 9). UST HAS AGREED TO THE FORM (para 4); amended order due 8/27 5pm CT; not in RECAP mirror at the 8/27 19:40 EDT poll (RECAP lag is not non-filing). NOT GRADED CONFIRMED: the claim says 'converted'; the order says 'effective upon entry' and entry has not occurred. RESOLVER RE-KEYED from 'a written confirmation ruling' to 'ENTRY OF THE CONVERSION ORDER' - poll docket_id:71483359 every session. CALIBRATION: branch right, held 85% since May through a denied DS, a 4-day trial and 17 days of advisement; DATE wrong - ruling landed on day 17 against a published ~Sep 15 midpoint of a 2-8 week band. Day 17 is INSIDE the band: the WINDOW was right, the MIDPOINT was the error, 2nd consecutive session with that shape (NY Fed pin 5 days early on 8/14). Rule: a modeled row is a WINDOW; stop publishing its midpoint as the date. INSTRUMENT NOTE: the s018 corroboration 'FTS \"\"Order Confirming\"\" returns ZERO hits' re-runs 8/27 at 32 hits, none of them confirmation orders - CourtListener FTS is fuzzy, not phrase-exact. Retired as a phrase check; the load-bearing evidence was always Dkt 3661's exclusivity extension. | 2026-09-02 (s021) CHECK: proposed conversion order Dkt 3722 FILED 8/27 (108 debtors); ENTRY still NOT VERIFIED at a primary docket artifact (Kroll 403, PacerMonitor paywalled); PacerMonitor case header now reads 'Chapter 7' = INFERRED, not VERIFIED. No Ch.7 trustee named (SEARCH-NOT-FOUND). Confidence held at 97%, NOT raised on an inference. Resolver remains ENTRY."
+        }
+      }
+    },
+    "OTTO-05_earlier": {
+      "census": {
+        "desk": "OTTO",
+        "file": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+        "src_class": "LIVE",
+        "pred_id": "OTTO-05",
+        "status_raw": "FALSIFIED",
+        "class": "FAILED",
+        "exclusion_reason": "",
+        "sub_reason": "",
+        "confidence_raw": "48%",
+        "p_scored": "0.48",
+        "p_first_committed": "0.48",
+        "first_commit_date": "2026-06-09",
+        "first_commit_sha": "65b899ca4",
+        "first_seen_is_file_birth": "1",
+        "remarked_since_registration": "0",
+        "due_date": "2026-06-30",
+        "outcome_raw": "BBB priced +140bps, NOT >250bps — subprime BBB ABS spreads TIGHTENED not widened",
+        "brier_scored": "0.2304",
+        "brier_first": "0.2304",
+        "prediction_text": "Subprime BBB ABS spreads exceed 250bps"
+      },
+      "source": {
+        "commit": "91c301279",
+        "path": "AGENTS/OTTO/workbook/PREDICTIONS.tsv",
+        "row": {
+          "Pred_ID": "OTTO-05",
+          "Date_Made": "2026-02-23",
+          "Prediction": "Subprime BBB ABS spreads exceed 250bps",
+          "Confidence": "60%",
+          "Timeframe": "H1 2026",
+          "Status": "OPEN",
+          "Date_Resolved": "",
+          "Outcome": "",
+          "Notes": null
+        }
+      }
+    },
+    "OTTO-29_earlier": {
+      "census": {
+        "desk": "OTTO",
+        "file": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+        "src_class": "LIVE",
+        "pred_id": "OTTO-29",
+        "status_raw": "FALSIFIED",
+        "class": "FAILED",
+        "exclusion_reason": "",
+        "sub_reason": "",
+        "confidence_raw": "80%",
+        "p_scored": "0.80",
+        "p_first_committed": "0.80",
+        "first_commit_date": "2026-06-09",
+        "first_commit_sha": "65b899ca4",
+        "first_seen_is_file_birth": "1",
+        "remarked_since_registration": "0",
+        "due_date": "2026-09-30",
+        "outcome_raw": "s026 EVIDENCE DISPOSITION 2026-09-30 (CATO RC2 433084d2b, investigated: TRUE of ",
+        "brier_scored": "0.6400",
+        "brier_first": "0.6400",
+        "prediction_text": "Tricolor ABS trustee distribution <15¢ on the dollar to noteholders"
+      },
+      "source": {
+        "commit": "0bc51c74d",
+        "path": "AGENTS/OTTO/workbook/PREDICTIONS.tsv",
+        "row": {
+          "ID": "OTTO-29",
+          "Prediction": "Tricolor ABS trustee distribution <15¢ on the dollar to noteholders",
+          "Confidence": "75%",
+          "Made_Date": "2026-04-15",
+          "Resolve_Date": "2026-09-30",
+          "Status": "OPEN",
+          "Result": "",
+          "Invalidation": "Trustee distribution >25¢",
+          "Notes": "Market-implied recovery already <10¢ (Feb 2026 noteholder suit; Janus Henderson et al holding $230M+). Trustee distribution after Jun 17 2026 creditor meeting."
+        }
+      }
+    },
+    "OTTO-30_earlier": {
+      "census": {
+        "desk": "OTTO",
+        "file": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+        "src_class": "LIVE",
+        "pred_id": "OTTO-30",
+        "status_raw": "FALSIFIED",
+        "class": "FAILED",
+        "exclusion_reason": "",
+        "sub_reason": "",
+        "confidence_raw": "12% [2026-07-25] (was 65% [2026-04-15])",
+        "p_scored": "0.12",
+        "p_first_committed": "0.45",
+        "first_commit_date": "2026-06-09",
+        "first_commit_sha": "65b899ca4",
+        "first_seen_is_file_birth": "1",
+        "remarked_since_registration": "1",
+        "due_date": "2026-08-31",
+        "outcome_raw": "FALSIFIED 2026-08-14 on the PRE-REGISTERED falsification check, 17 days before t",
+        "brier_scored": "0.0144",
+        "brier_first": "0.2025",
+        "prediction_text": "6th US bank discloses Tricolor-related exposure by Q2 2026 earnings"
+      },
+      "source": {
+        "commit": "0bc51c74d",
+        "path": "AGENTS/OTTO/workbook/PREDICTIONS.tsv",
+        "row": {
+          "ID": "OTTO-30",
+          "Prediction": "6th US bank discloses Tricolor-related exposure by Q2 2026 earnings",
+          "Confidence": "60%",
+          "Made_Date": "2026-04-15",
+          "Resolve_Date": "2026-08-31",
+          "Status": "OPEN",
+          "Result": "",
+          "Invalidation": "No new named bank by Aug 2026 earnings close",
+          "Notes": "Current 5 named: JPM ($170M), FITB ($170-200M), BCS (9-fig), Regions ($68M), MTB (Apr 15 litigation exposure, amount TBD). Jun 17 trustee plan + Q2 prints likely surface incremental marks."
+        }
+      }
+    },
+    "VULCAN-01": {
+      "census": {
+        "desk": "VULCAN",
+        "file": "AGENTS/VULCAN/archive/PREDICTIONS_RESOLVED_2026-09.tsv",
+        "src_class": "ROTATION",
+        "pred_id": "VULCAN-01",
+        "status_raw": "HIT",
+        "class": "CONFIRMED",
+        "exclusion_reason": "no_numeric_probability",
+        "sub_reason": "tier_label",
+        "confidence_raw": "PROVISIONAL",
+        "p_scored": "",
+        "p_first_committed": "",
+        "first_commit_date": "2026-09-06",
+        "first_commit_sha": "28f74d735",
+        "first_seen_is_file_birth": "1",
+        "remarked_since_registration": "0",
+        "due_date": "2026-07-31",
+        "outcome_raw": "HIT (resolved 2026-07-31 vs the full 4-name cluster): aggregate FY26 capex HELD/",
+        "brier_scored": "",
+        "brier_first": "",
+        "prediction_text": "The 7/22–7/29 megacap stack shows hyperscaler aggregate AI-capex guides HELD OR RAISED (not cut YoY)"
+      },
+      "source": {
+        "commit": "c5c055f82",
+        "path": "AGENTS/VULCAN/workbook/PREDICTIONS.tsv",
+        "row": {
+          "id": "VULCAN-01",
+          "made": "2026-07-10",
+          "channel": "S1",
+          "prediction": "The 7/22–7/29 megacap stack shows hyperscaler aggregate AI-capex guides HELD OR RAISED (not cut YoY)",
+          "resolve_date": "2026-07-31",
+          "status": "OPEN",
+          "conf_tier": "PROVISIONAL",
+          "if_falsified": "if cut YoY: S1/S5 fire, concentration-unwind risk jumps — flag VIOLET/HENRY",
+          "criteria": "MSFT/GOOGL/AMZN/META aggregate FY capex guide vs prior quarter",
+          "resolution": null
+        }
+      }
+    },
+    "BND-01_birth": {
+      "census": {
+        "desk": "BOND",
+        "file": "AGENTS/BOND/thesis/archive/PREDICTIONS_resolved_BND-01_to_BND-17.tsv",
+        "src_class": "ROTATION",
+        "pred_id": "BND-01",
+        "status_raw": "FALSE",
+        "class": "FAILED",
+        "exclusion_reason": "",
+        "sub_reason": "",
+        "confidence_raw": "65%",
+        "p_scored": "0.65",
+        "p_first_committed": "0.65",
+        "first_commit_date": "2026-06-15",
+        "first_commit_sha": "38812f895",
+        "first_seen_is_file_birth": "0",
+        "remarked_since_registration": "0",
+        "due_date": "",
+        "outcome_raw": "FAILED on both legs, decisively. Full May-Jul 2026 window re-pulled from FRED BA",
+        "brier_scored": "0.4225",
+        "brier_first": "0.4225",
+        "prediction_text": "HY OAS reaches 350bps (issuance freeze threshold)"
+      },
+      "first_source_commit": "38812f895a983e13750b175b6c0ad41c11fc30d9",
+      "source": {
+        "commit": "38812f895a983e13750b175b6c0ad41c11fc30d9",
+        "path": "AGENTS/BOND/thesis/PREDICTIONS.tsv",
+        "row": {
+          "ID": "BND-01",
+          "Date_Made": "2026-03-26",
+          "Prediction": "HY OAS reaches 350bps (issuance freeze threshold)",
+          "Confidence": "65%",
+          "Timeframe": "May-Jul 2026",
+          "Resolution_Criteria": "HY OAS closes above 350 for 2+ consecutive sessions",
+          "Status": "OPEN",
+          "Date_Resolved": "",
+          "Outcome": "",
+          "Notes": "Still possible but confidence reduced; HY OAS 281 on May 8, opposite direction from March setup"
+        }
+      },
+      "predecessor": {
+        "commit": "38812f895a983e13750b175b6c0ad41c11fc30d9^",
+        "path": "AGENTS/BOND/workbook/PREDICTIONS.tsv",
+        "row": {
+          "ID": "BND-01",
+          "Date_Made": "2026-03-26",
+          "Prediction": "HY OAS reaches 350bps (issuance freeze threshold)",
+          "Confidence": "65%",
+          "Timeframe": "May-Jul 2026",
+          "Resolution_Criteria": "HY OAS closes above 350 for 2+ consecutive sessions",
+          "Status": "OPEN",
+          "Date_Resolved": "",
+          "Outcome": "",
+          "Notes": "Still possible but confidence reduced; HY OAS 281 on May 8, opposite direction from March setup"
+        }
+      }
+    },
+    "BND-01_rotation_control": {
+      "commit": "e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0",
+      "path": "AGENTS/BOND/thesis/archive/PREDICTIONS_resolved_BND-01_to_BND-17.tsv",
+      "row": {
+        "ID": "BND-01",
+        "Date_Made": "2026-03-26",
+        "Prediction": "HY OAS reaches 350bps (issuance freeze threshold)",
+        "Confidence": "65%",
+        "Timeframe": "May-Jul 2026",
+        "Resolution_Criteria": "HY OAS closes above 350 for 2+ consecutive sessions",
+        "Status": "FALSE",
+        "Date_Resolved": "2026-08-15",
+        "Outcome": "FAILED on both legs, decisively. Full May-Jul 2026 window re-pulled from FRED BAMLH0A0HYM2 (67 obs): MAX 287bp on 2026-07-29; ZERO observations at or above 350; window range 263-287. Closest approach was 63bp short. LEVEL failed. MECHANISM never engaged either: primary market open every session of the window, zero pulled deals, record June IG ~175-187B absorbed 3.9x oversubscribed. Graded as two separate facts per the row's own instruction — this is not a near-miss and the late-July widening is NOT partial credit.",
+        "Notes": "WINDOW CLOSES FRI 2026-07-31 (verified weekday, not assumed) -- WILL RESOLVE FAILED. HY OAS 279 [7/24 FRED direct] vs the 350 line = ~71bp short with 3 sessions left; needs a >25pct spread widening in 3 days. Credit DID re-activate 7/23-24 (+11bp in two sessions, 268->279, off a nine-session flat range) -- the first real move in a month -- but the widening is quality-INDISCRIMINATE (BB/single-B/index all +11bp absolute, proportionally largest at the TOP of the stack), i.e. a broad repricing rather than the issuance-freeze mechanism this prediction was about. GRADE THE MECHANISM SEPARATELY FROM THE LEVEL at resolution: the level fails decisively, AND the mechanism never engaged -- primary market open throughout, zero pulled deals, record June IG absorbed 3.9x. Do not let the late widening be read as partial credit. (Prior note was 'HY OAS 281 on May 8' -- 81 days stale at the 7/28 review.) || RESOLVED 2026-08-15, fifteen days after the window closed. It sat OPEN-but-stale because the 2026-08-10 forum session did not run the closeout write-back; flagged DUE at this boot's step-4 scan and resolved same session. The 7/28 projection (FAILED, off 279 [7/24]) was correct; the full-window re-pull adds the window MAX (287bp, 7/29) that the projection never had. POST-WINDOW CONTEXT, deliberately not used in the grade: HY has since retraced to 271 [8/13] — BELOW the 268 [7/22] pre-widening level — while CCC broke through 1000 to 1024. See KB-BND-105: the index round-tripped and the quality tail did not, which is the opposite composition from the quality-indiscriminate move this row's July note described. || STATUS TOKEN NORMALIZED 2026-08-21 (boot-doc audit): this row resolved as 'FAILED' while five sibling rows used 'FALSE' for the SAME state — two tokens, one meaning, no documented enum anywhere. The concrete harm is not cosmetic: any count of resolved-false predictions silently misses one group or the other, and calibration is exactly such a count. Canonical is FALSE (the complement of TRUE); the original token was 'FAILED' and is preserved here. Enum now DECLARED in this file's header and ENFORCED by monitors/kb_lint.py.",
+        "If_Falsified_Action": "If falsified (HY never reaches 350 by end-Jul): issuance-freeze channel stands down for this cycle -- no short-credit entry off level; credit-equity lead stays keyed to velocity (+75-100bp from trough), not the 350 line; VX-02 capped at 2."
+      }
+    },
+    "BND-18_rotation_control": {
+      "commit": "e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0",
+      "path": "AGENTS/BOND/thesis/archive/PREDICTIONS_resolved_BND-18_to_BND-21.tsv",
+      "row": {
+        "ID": "BND-18",
+        "Date_Made": "2026-08-21",
+        "Prediction": "The 5Y auction on 2026-08-26 (91282CRK9, $70B) prints a bid-to-cover AT OR ABOVE 2.34 — its own trailing-12 median. i.e. the 7/27 cover marker (BTC 2.28, the trailing-12 MINIMUM) was a one-off and not the start of a pattern.",
+        "Confidence": "55%",
+        "Timeframe": "2026-08-26 (single event, resolves same day on publication)",
+        "Resolution_Criteria": "Graded off the TreasuryDirect primary for CUSIP 91282CRK9 via monitors/grade_auction.py. TRUE if BTC >= 2.34. FALSE if BTC < 2.34. BARS FROZEN PRE-PRINT 2026-08-21 from the trailing-12 SAME-TENOR SAME-TIPS window 2025-09-24 -> 2026-07-27, n=12: BTC median 2.34, mean 2.37, min 2.28, max 2.75. RESIDUAL BRANCH: if the auction is postponed, cancelled, or unpublished by 2026-08-28 09:00 ET, resolves VOID-NOT-PUBLISHED, never FALSE. MARGIN in BTC terms MUST be stated at resolution. COMPOSITION MUST BE RECORDED ALONGSIDE regardless of the BTC outcome (indirect% and dealer% of competitive accepted) -- a cover marker and a composition failure are different objects and the 7/27 print is the worked example of them moving OPPOSITE ways.",
+        "Status": "TRUE",
+        "Date_Resolved": "2026-08-27",
+        "Outcome": "RESOLVED TRUE, margin +0.03. The 8/26 5Y (91282CRK9, $70B) printed BTC 2.37 against the frozen bar of 2.34 (trailing-12 median, window 2025-09-24 -> 2026-07-27, n=12). Composition recorded as the registration requires: indirect 61.51% (-0.24pp vs its own trailing-12 median 61.75, +2.27pp above the 59.24 failure bar), direct 28.44%, dealer 10.05% (-2.27pp vs median, -5.57pp below the 15.61 bar), HY 4.3930, competitive accepted $69.798B. NO cover marker and NO composition failure -- 7/27 did not repeat, which is what the row was built to test. MARGIN CAVEAT, stated because it is the honest reading of a thin hit: 2.37 is +0.03 over the MEDIAN but -0.00 against the trailing-12 MEAN of 2.37 -- grade_auction flagged median/mean disagreement on sign. Had the bar been frozen at the mean this resolves FALSE. The bar was frozen at the median on 8/21 before the print and it stands, but a 55% call landing +0.03 inside its bar is not evidence the pricing was good.",
+        "Notes": " || RESOLVED 2026-08-27. FIRST ROW PRICED UNDER THE 8/21 BUCKETED CALIBRATION FINDING (11 mid-band calls -> 3 hits => price mid-band BELOW instinct). Marked ~15pp under instinct; it hit. n=1 proves nothing about the adjustment -- recorded so the next mid-band call is scored against the same discipline. || ROUTES TO LIQUID: their 2026-08-23 pre-registration (written 3 days pre-print) branch B2 NORMALIZE requires BTC >= 2.33. Printed 2.37 => B2 FIRES => KB-BND-092 (basis-trade withdrawal as a third cause of thin cover) closes REFUTED-AND-MOOT. B4 RE-ARM required BTC <= 2.30 and did not fire, so the CFTC as-of 8/25 positioning leg publishing 8/28 CANNOT revive it -- genuinely moot, not pending.",
+        "If_Falsified_Action": "If FALSE (BTC < 2.34): the 7/27 marker is a PATTERN, not a one-off, and the 5Y is the tenor carrying it. Fire the pre-registered cover trigger and escalate VX-BND-01, BUT state explicitly whether the MECHANISM failed -- only a composition failure (indirect < 59.24 AND dealer > 15.61, both frozen today) kills the thesis. Also bears on KB-BND-092 (basis-trade withdrawal as a third cause of thin cover with unchanged composition), still unadjudicated by LIQUID -- route the print there."
+      }
+    },
+    "BND-29_rotation_control": {
+      "commit": "e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0",
+      "path": "AGENTS/BOND/thesis/archive/PREDICTIONS_resolved_BND-25_to_BND-29.tsv",
+      "row": {
+        "ID": "BND-29",
+        "Date_Made": "2026-09-14",
+        "Prediction": "Of the FIRST FIVE published DFII10 sessions with observation date on or after 2026-09-10, AT LEAST THREE close at or above 2.50pct -- i.e. the add-gate breach that fired on 2026-09-10 is PERSISTENT rather than a single-session spike. This grades the SUBSTANCE of the sustain question without presuming the session count that is currently with Will as WQ-246.",
+        "Confidence": "70pct",
+        "Timeframe": "2026-09-10 onward; resolves when the fifth qualifying observation publishes, ceiling 2026-10-15 17:00 ET",
+        "Resolution_Criteria": "BASIS NAMED PER WQ-162 FOR ALL FIVE OBSERVATIONS THE GRADE READS. SERIES: DFII10 (H.15 10-Year TIPS constant maturity, percent, daily business days). UNIT: percent to 2dp as published; the gate reads 2.50pct. VINTAGE: AS FIRST PUBLISHED. ** SESSION-SET DEFINITION, AND IT IS THE LOAD-BEARING CLAUSE: ** the five sessions are the first five for which FRED PUBLISHES a non-missing DFII10 observation with observation date >= 2026-09-10, taken in OBSERVATION-DATE order. Dates FRED never publishes are SKIPPED, not counted as misses. ** A PUBLICATION GAP MUST NOT BE ALLOWED TO DECIDE A MARKET QUESTION ** -- that is the precise failure this clause exists to prevent, and it is live, because the 2026-09-11 cell was still absent on the fourth day at registration. OPERATOR AND BOUNDARY: count the members closing >= 2.50 (INCLUSIVE; a close of exactly 2.50 counts toward the total). TRUE iff count >= 3. FALSE iff count <= 2. CONSECUTIVENESS: NONE IS REQUIRED -- deliberately, so that this row stays agnostic to whether Will sets the gate's 'sustained' at 3 sessions, 5 consecutive, or another number. RESET: not applicable. MECE: count is an integer 0-5, split at 3. RESIDUAL BRANCH: if fewer than five qualifying observations exist by 2026-10-15 17:00 ET, resolves VOID-INSUFFICIENT-PUBLICATION, never FALSE. ANCHOR TYPE: OBSERVATION-COUNT anchor (the fifth published session), NOT a calendar date -- chosen precisely because the calendar is unreliable here.",
+        "Status": "TRUE",
+        "Date_Resolved": "2026-09-17",
+        "Outcome": "TRUE. The first FOUR published DFII10 sessions with observation date >= 2026-09-10 ALL closed at or above 2.50pct: 2026-09-10 = 2.55, 2026-09-11 = 2.60, 2026-09-14 = 2.60, 2026-09-15 = 2.62 (FRED H.15 primary, cache-busted fredgraph.csv read 2026-09-17 ~08:2x ET; corroborated by monitors/boot_recompute.py the same minute, DFII10 2.62 [2026-09-15]). Count >= 3 is met at 4-of-4, so the verdict is decided whatever the fifth session (2026-09-16, unpublished at resolution) prints -- resolved on the fourth publication, not the fifth, because the letter's TRUE condition is already unreachable-to-falsify. Registered 70pct on the TRUE side ==> a HIT. WHAT IT SETTLES: the 2026-09-10 breach was PERSISTENT, not a spike -- the substance of the sustain question. WHAT IT DOES NOT SETTLE: the gate's 'sustained' COUNT is still Will's (WQ-246); this row is an input to that ruling and a substitute for none. DIRECTION DISCLOSED AGAIN: a TRUE flatters this desk's real-rate reading; the 9/16 FOMC sat inside the window and the DOVISH SEP that the registration named as the threat to persistence arrived (median terminal 4.125) and did NOT pull real yields back -- TIP -0.38pct on 9/16 (vendor), the 9/16 DFII10 cell not yet published.",
+        "Notes": "** PARTIAL DETERMINATION DISCLOSED AT REGISTRATION, because hiding it would inflate the apparent skill: ** session 1 of the five is 2026-09-10 at 2.55, which is ALREADY IN THE SET and already counts. The row therefore starts 1-of-1 and the live question is whether 2 of the next 4 published sessions close >= 2.50. WHY 70: 9/10 is banked; 9/11 is INFERRED at ~2.62 by three independent instruments (^TNX +3.1bp, T10YIE -4bp implying real rose ~7bp more than nominal, TIP -0.46pct vs IEF -0.19pct) -- BUT AN INFERENCE IS NOT A PRINT AND IS NOT COUNTED BY THIS RESOLVER, in either direction, which is the same rule this desk applied on 9/10 when the estimate pointed the other way. Against that: the 2026-09-16 FOMC sits INSIDE the window, and per KB-BND-283 a dovish SEP is precisely the event that would pull real yields back below 2.50 -- so three of the five remaining slots are exposed to a live event whose asymmetry this desk has argued runs the wrong way for persistence. One confirmed, one strongly indicated, three exposed. DIRECTION DISCLOSED: a TRUE supports this desk's real-rate-stress regime reading, so the asymmetric error to guard is a too-eager TRUE. ** THIS ROW SETS NO THRESHOLD AND DOES NOT PRE-EMPT WQ-246: ** it reports how many of five sessions held the level, which is an input to any count Will chooses and a substitute for none.",
+        "If_Falsified_Action": "If FALSE (2 or fewer of the first five published sessions close >= 2.50): the 2026-09-10 breach was a SPIKE, not a regime. Say that plainly against KB-BND-276 rather than treating a failed sustain as thesis-neutral -- it is evidence that the policy-path repricing OVERSHOT and mean-reverted, which weakens the real-rate-stress reading that this desk's long-end thesis leans on. Consequences: (1) record the count and the individual closes with dates; (2) notify TERRY, because the card's LEVEL letter fired on a move that did not hold, which is materially relevant to how that card's add line should be read next time; (3) feed the result to WQ-246 as evidence about what a sensible 'sustained' count would have to survive; (4) do NOT re-arm the gate at a lower level."
+      }
+    },
+    "TOUR-02_schema": {
+      "path": "AGENTS/MARCO/sub_agents/TOURISM/workbook/PREDICTIONS.tsv",
+      "header": [
+        "ID",
+        "Prediction",
+        "Timeframe",
+        "Confidence",
+        "Status",
+        "Resolution_Date",
+        "Notes"
+      ],
+      "fields": [
+        "TOUR-02",
+        "Las Vegas Canadian visitor share (of total visitors) drops below 5%",
+        "Q2-Q3 2026",
+        "RESOLVED",
+        "2026-05-31",
+        "RESOLVED-CORRECT (disambiguated). 2025 Canadian = 1,196,300 / 38.5M total = ~3.1%, already <5%; 2026 reinforcing (-17.4% YoY 2025; WestJet/AC route cuts). NB: original metric ambiguous -- share-of-INTERNATIONAL reading (~25%, Canada=#1 intl market) is structurally unreachable, so resolved on the share-of-total reading. Mechanism (capacity collapse) intact."
+      ],
+      "census": {
+        "desk": "MARCO/TOURISM",
+        "file": "AGENTS/MARCO/sub_agents/TOURISM/workbook/PREDICTIONS.tsv",
+        "src_class": "LIVE",
+        "pred_id": "TOUR-02",
+        "status_raw": "2026-05-31",
+        "class": "OTHER",
+        "exclusion_reason": "terminal_non_binary",
+        "sub_reason": "2026-05-31",
+        "confidence_raw": "RESOLVED",
+        "p_scored": "",
+        "p_first_committed": "0.65",
+        "first_commit_date": "2026-04-18",
+        "first_commit_sha": "ce9b360e8",
+        "first_seen_is_file_birth": "1",
+        "remarked_since_registration": "0",
+        "due_date": "",
+        "outcome_raw": "",
+        "brier_scored": "",
+        "brier_first": "",
+        "prediction_text": "Las Vegas Canadian visitor share (of total visitors) drops below 5%"
+      }
+    },
+    "TOUR-04_schema": {
+      "path": "AGENTS/MARCO/sub_agents/TOURISM/workbook/PREDICTIONS.tsv",
+      "header": [
+        "ID",
+        "Prediction",
+        "Timeframe",
+        "Confidence",
+        "Status",
+        "Resolution_Date",
+        "Notes"
+      ],
+      "fields": [
+        "TOUR-04",
+        "MIA flips YoY negative (tests Pred #24 / MAR-22 condition)",
+        "Q2 2026",
+        "RESOLVED",
+        "2026-05-31",
+        "RESOLVED-CORRECT. MIA total pax: Mar 2026 -1.76%, Apr 2026 -2.02% (two consecutive negative months, within Q2 window). Intl Mar -2.79%; Apr DOMESTIC -3.27% = broader-demand signal beyond Canadian. Anchor-airport thesis confirmed cracking. Source: miami-airport.com monthly reports."
+      ],
+      "census": {
+        "desk": "MARCO/TOURISM",
+        "file": "AGENTS/MARCO/sub_agents/TOURISM/workbook/PREDICTIONS.tsv",
+        "src_class": "LIVE",
+        "pred_id": "TOUR-04",
+        "status_raw": "2026-05-31",
+        "class": "OTHER",
+        "exclusion_reason": "terminal_non_binary",
+        "sub_reason": "2026-05-31",
+        "confidence_raw": "RESOLVED",
+        "p_scored": "",
+        "p_first_committed": "0.55",
+        "first_commit_date": "2026-04-20",
+        "first_commit_sha": "4ca140da0",
+        "first_seen_is_file_birth": "0",
+        "remarked_since_registration": "0",
+        "due_date": "",
+        "outcome_raw": "",
+        "brier_scored": "",
+        "brier_first": "",
+        "prediction_text": "MIA flips YoY negative (tests Pred #24 / MAR-22 condition)"
+      }
+    }
+  },
+  "bond_population": {
+    "OPEN": 2,
+    "FAILED": 13,
+    "CONFIRMED": 15,
+    "OTHER": 1
+  },
+  "replay_byte_equal": {
+    "rows_v3.tsv": true,
+    "summary_v3.tsv": true,
+    "provenance_v3.txt": true
+  }
+}

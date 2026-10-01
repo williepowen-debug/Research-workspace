@@ -1,0 +1,22 @@
+{
+  "summary_v3.tsv": {
+    "sha256": "44156e98c909634a62ced090860ed032f2fcd3b17c486cc6b59d536f8a9d3130",
+    "bytes": 2898,
+    "source": "/mnt/c/Users/willi/Downloads/summary_v3.tsv"
+  },
+  "rows_v3.tsv": {
+    "sha256": "a880d3d304acaf3743368227069c46f81d61978529f68cdbc73c8857c02b47f8",
+    "bytes": 144654,
+    "source": "/mnt/c/Users/willi/Downloads/rows_v3.tsv"
+  },
+  "census_v3.py": {
+    "sha256": "db66c246429434cc00ab64b0b6d2ffc5deccafef734eb59f9b5310d072de77a5",
+    "bytes": 13553,
+    "source": "/mnt/c/Users/willi/Downloads/census_v3.py"
+  },
+  "provenance_v3.txt": {
+    "sha256": "12b7a0c699dc9a8b83c3a28c13c0c29afc42389555f9bd80e0b12b86dcbffb01",
+    "bytes": 4742,
+    "source": "/mnt/c/Users/willi/Downloads/provenance_v3.txt"
+  }
+}

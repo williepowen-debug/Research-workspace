@@ -1,0 +1,26 @@
+{
+  "rows_v3.tsv": {
+    "byte_equal": true,
+    "sha256": "a880d3d304acaf3743368227069c46f81d61978529f68cdbc73c8857c02b47f8"
+  },
+  "summary_v3.tsv": {
+    "byte_equal": true,
+    "sha256": "44156e98c909634a62ced090860ed032f2fcd3b17c486cc6b59d536f8a9d3130"
+  },
+  "provenance_v3.txt": {
+    "byte_equal": true,
+    "sha256": "12b7a0c699dc9a8b83c3a28c13c0c29afc42389555f9bd80e0b12b86dcbffb01"
+  },
+  "counts": {
+    "total": 534,
+    "scored": 235,
+    "excluded": {
+      "open:not_due": 91,
+      "open:overdue": 36,
+      "terminal_non_binary": 80,
+      "open:undated": 38,
+      "no_numeric_probability": 54
+    },
+    "unique_OTHER_statuses": 48
+  }
+}
