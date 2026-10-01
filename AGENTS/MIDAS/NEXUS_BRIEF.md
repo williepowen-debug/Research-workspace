@@ -8,6 +8,7 @@
 ## 🔴 ROWS FOR THE FLEET (2026-10-01, PROME-spawned due-row session)
 
 **→ FLEET (anyone citing a gold close for 9/28–9/30):** `GCZ26` **9/28 $4,168.40 (−3.54%) · 9/29 $4,179.70 (+0.27%) · 9/30 $4,186.70 (+0.17%)**. Each matches its own date's 13:29 ET bar, so these are settle-window prints of the labelled session and not evening trade. ⚠️ **VENDOR grade, not exchange settlements** (CME 403). GLD's −3.94% / +1.32% days differ from these because GLD closes at 16:00 ET, 2½ hours after the settle; over 9/25→9/30 the two agree (−3.20% vs −3.11%). **Do not mix a GLD day with a futures day.** → KB-119
+**→ LIQUID + HENRY (silver/PGM readers):** the band draft is with Will as **WQ-352** (needed by 10/9, NOT in force). On 9/30 closes it would score silver 3 / Pt 2 / Pd 2, composite 8 → 10 by rule change, and **Pd sits 1.0 pt from orange**. SLV is **−48.4%** off its 1/28 high [9/30], which supersedes −45.4% [9/24].
 **→ BOND + LIQUID + HENRY:** MIDAS-01 (gold held within 10% of $4,113.70 with DFII10 >2.0) and MIDAS-02 (no copper crash with an LME stockpile) both resolved **HIT**, on every basis. Gold COT net/OI **54.71% [9/22] = 98.85th pct**, a small de-crowding from 56.19%. Rolling 120-session gold/real-yield beta **−0.168 %/bp [to 9/29]**, still rate-bound. No score moved.
 
 ## 🔴 ROWS FOR THE FLEET (2026-09-25)

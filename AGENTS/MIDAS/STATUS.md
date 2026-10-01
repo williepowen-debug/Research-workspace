@@ -34,8 +34,9 @@
 ## ▶ NEXT — what is actually open
 1. ✅ **KB-115 falsifier result SENT to PROME 9/25** (`PROME/inbox/processed/2026-09-25_from-MIDAS_L429-dispositions-VECTOR3-falsifier-fired-silver-pgm-bands-with-Will.md`; this line read "owed" until 10/1). TERRY receives it through PROME.
 2. 🔴 **M1 STILL HAS NO LIVE REGISTERED TEST.** WQ-161 is now canon (`FORGE/PREDICTION_DISCIPLINE.md`, read 9/25). A successor must register the **beta** (window + vintage + flip) and name the grading basis for every observation (WQ-162). *NO-VERDICT vs (d) INDETERMINATE* is settled by WQ-161 ①: non-resolution = STATUS, no mass.
-3. 🔴 **Silver/PGM bands = WILL'S DECISION, now WQ-352** (refreshed to 9/30 in the draft's 10/1 ADDENDUM: no line change, effect still 8 → 10). Draft at `analysis/2026-09-25_silver-pgm-bands-DRAFT.md`. Without bands, M2 and I2 cannot score a price move of any size.
-4. ✅ **9/30 triple, MIDAS legs DONE 10/1: MIDAS-01 HIT, MIDAS-02 HIT, on the frozen letters, every basis printed** (KB-119). Neither needed STUCK. China's September construction print is still ZHAO's settler.
+3. 🔴 **Silver/PGM bands = WILL'S DECISION, REGISTERED as WQ-352, needed by 10/9, NOT IN FORCE until Will rules** [PROME `prome-0c` 10/1 12:52 ET]. Refreshed to 9/30 in the draft's 10/1 ADDENDUM (`c5dacfad3`): no line change, scores 3/2/2, effect still 8 → 10, Pd 1.0 pt from orange. PROME's recommendation has moved to MIDAS's amendment: **adopt, but unscored for one month**. Draft at `analysis/2026-09-25_silver-pgm-bands-DRAFT.md`. Without bands, M2 and I2 cannot score a price move of any size.
+4. ✅ **9/30 triple, MIDAS legs DONE 10/1: MIDAS-01 HIT, MIDAS-02 HIT, on the frozen letters, every basis printed** (KB-119, `5808341f8`). **DOCKET L231 RESOLVED by PROME 10/1** (verified at `PROME/DOCKET.tsv` L231). DOCKET L176 WT-1 record-close was delivered the same day.
+4b. ⏳ **COT 9/29 vintage OWED at the next boot on/after Fri 10/2 15:30 ET** (CFTC release). At 10/1 12:51 ET, `cot_gold.py --expect 2026-09-29` returned WAIT and was still serving 9/22. Boot leg 3 will flag it. Neither needed STUCK. China's September construction print is still ZHAO's settler.
 5. ✅ `FRONT_MONTHS` rolled `PLV26`→`PLF27` 10/1. **MIDAS-09 (silver vs gold, GLD/SLV) and MIDAS-10 (Pt vs Pd, PPLT/PALL) resolve 2026-10-30** on frozen 9/24 baselines (first silver/PGM rows, registered 9/25). ✅ PROME L429 answered (the GSR mixed-month line now prints in `metals_watch.py`); ✅ DAEDALUS PR6 answered.
 6. 🟠 **NEXUS_BRIEF.md is 72,126 B vs a 22,785 B stop** (PROME notice 9/24).
 
@@ -74,7 +75,7 @@
 ## OPEN ON MIDAS — top 3 live; **full register → `AGENTS/MIDAS/OPEN_ITEMS.md`** (not optional reading)
 
 1. 🔴 **M1 has no live registered test.** The successor must register the beta, and WQ-161/162 canon now governs its letter.
-2. 🔴 **Silver/PGM bands: Will's ruling** (draft filed 9/25). **PGM mechanism (n=3) still blocked** on three absent instruments; HAWK has been asked 5×, and an explicit "no access here" would close it.
+2. 🔴 **Silver/PGM bands: Will's ruling, WQ-352, needed by 10/9** (draft 9/25, refreshed 10/1; not in force). **PGM mechanism (n=3) still blocked** on three absent instruments; HAWK has been asked 5×, and an explicit "no access here" would close it.
 3. ✅ **MIDAS-01/02 RESOLVED HIT 10/1** (OPEN_ITEMS 0/22 closed). 🟠 I1 ambiguity (KB-113) needs dated COMEX/SHFE series this desk does not hold.
 
 ## BOTTOM LINE

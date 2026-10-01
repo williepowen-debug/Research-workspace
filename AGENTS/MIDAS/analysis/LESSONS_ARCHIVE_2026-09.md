@@ -177,3 +177,11 @@ I wrote L-48 as a rule about **registrations**: *a spec is not registered until 
 **Second half (found while designing the fix).** A trend band (d200) is structurally LATE after a parabolic run: silver's 2026 fall would have tripped it 92–116 sessions after the top, because the run-up dragged the average up. A drawdown band catches the crash in days but stays on for a year. ⇒ the trend leg is a STATE and the crash leg is an EVENT with decay (draft: `analysis/2026-09-25_silver-pgm-bands-DRAFT.md`).
 
 **Cousins:** L-13(a) (bands that can only move one way) · `finding_level_and_rate_look_like_agreement_until_you_name_which`. → KB-118
+
+# L-53 — 2026-10-01 — A stale hand-maintained contract map does not fail quiet; it certifies the dying contract
+
+**What happened.** `metals_watch.py` grades each `=F` pointer against a hand-kept `FRONT_MONTHS` map. Platinum's volume moved from `PLV26` to `PLF27` on 9/25 (20,612 vs 16,740 lots), and by 9/29 `PLV26` traded 1,005 lots against 21,847. The map still named `PLV26`. The vendor's `PL=F` pointer had also stayed on `PLV26`. So the guard compared the dying contract with itself and printed **OK at a 100.00% volume share**. The file's own comment predicted the map would "stop discriminating". It did worse than that: it issued a clean bill.
+
+**The rule.** When the reference and the thing being checked can drift together, agreement between them is not evidence. Roll the map when the volume crosses, and treat a 100%-share match on a contract within weeks of expiry as suspect, not as proof. Rolled 10/1, after which `PL=F` reads DYING correctly.
+
+**Cousins:** `finding_instrument_reports_clean_against_the_wrong_reference` · KB-112 / OPEN_ITEMS 24 residual risk (named 9/11, materialized 10/1).
