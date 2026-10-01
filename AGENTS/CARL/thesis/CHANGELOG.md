@@ -8,6 +8,16 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-10-01 (2) — CARL-DR-3 SCORED: kill NOT fired; the "defensive names down = K-shape refuted" read WITHDRAWN
+
+**DEWEY delivered DR-3** (`e648c590e`, 34 days late). Kill as pre-registered 7/31: *"if no defensible cut restores the cohort axis, CARL logs a scored strike against the equity-expression leg (CRL-27 confidence cut) and the sleeve stays paper. If the leverage/duration factor explains AZO/ORLY, the 'defensive names down = K-shape refuted' read is ALSO wrong."*
+- **Clause 1: NOT met.** Removing style factors restores the trade-down half of the axis: VALUE−MID +27.8pp, p=0.001, positive in 15/15 combinations, with lower-income credit names worst. The premium half is restored in no cut. No strike, and no cut to CRL-31 (the successor that carries the leg).
+- **Clause 2: the leverage/duration branch does not fire** (CARL ruling: low-volatility style is not counted as "duration"; rate β, valuation and buyback leverage were all tested and rejected; the 10Y moved +26bp). **The refuted-read is withdrawn anyway** on DEWEY's other finding: ORLY is low-vol style; AZO is style plus earnings-day LIFO margin; the VALUE group outperformed.
+- **PS-0005:** AZO FQ4 domestic SSS +1.6% (8-K, CARL-verified) vs the +1.0% line, so not invalidated. DIY transactions fell >5% (a demand caveat, kept on the row).
+- **Not claimed:** a confirm. The labels are DEWEY's and not blind, the raw cuts are noise-level, and the premium-leg failure is staged to RED (`handoff_RED/COUNTER_LOG.md`), not scored. Score 53/70 and every confidence are unchanged. KB-CARL-502.
+
+---
+
 ## 2026-10-01 — CRL-08 GRADED MISSED at its 7/06 fire (28%); CRL-27 RETIRED UNSCORED → successor CRL-31 (WQ-287 option A)
 
 **CRL-08 (WQ-288 canon + DAEDALUS ruling `133faa736`/`ac15548c8`):** OPEN → **MISSED**, Date_Resolved **2026-07-06** (the fire), grade record written **2026-10-01** (one day after the 9/30 docket date; CARL was dark 9/30). Scores at **28%** — the last dated mark before the fire (Jul 2 trim 40→28) — Brier **0.0784**. The 7/24 extension and the 9/11 7% re-mark are kept as history and score nothing. Series named on the row: FRED `DCOILBRENTEU`. Re-pulled 10/01: <$80 on every session 6/22–7/10 (max 76.50 on 7/08); 6/19 was 80.46 and 7/13 was 81.62, so the 14-day run is 6/22→7/06 and the fire date stands. Separately, the letter also fails WQ-281's sustained bar: GASREGW Aug–Sep max **$4.478** (w/e 9/21), then $4.465 (w/e 9/28). ⚠️ The ledger keeps the legacy token `MISSED` (boot 7c and Check G grep `/MISSED/`); canon's token is `MISS`. Check F prints "unpositioned +21.0pp": that is the 7→28 scoring-mark restoration, not a forecast raise.

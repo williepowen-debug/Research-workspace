@@ -3,7 +3,7 @@
 **Status:** 🔴 53/70 unchanged. Fuel pressure eased at the margin (GASREGW posted its first weekly decline since at least 8/31) while the lower-quality credit split kept widening. BEA's annual update made the aggregate saving cushion larger than logged; who holds it is unknown.
 **Domain:** U.S. consumer financial stress and downstream household transmission; bank-level credit belongs to REGINALD.
 **Thesis version:** v2.6.6
-**As of:** 2026-10-01 12:29 ET | **STATUS commit:** `2288ba032` *(10/01 PROME due-row drain; prior full refresh 9/24, `domain/sources/2026-09-24_data-catchup.md`)*
+**As of:** 2026-10-01 12:33 ET | **STATUS commit:** the 10/01 DR-3 addendum commit (same commit as this brief; prior `e60f23e82`) *(10/01 PROME due-row drain; prior full refresh 9/24, `domain/sources/2026-09-24_data-catchup.md`)*
 **Position:** No real capital authority; paper sleeve unchanged except PS-0001..0005 re-pointed CRL-27 → CRL-31 (record-keeping, no capital). Structural references only, no marks.
 
 ## CROSS-DOMAIN
@@ -23,7 +23,7 @@
 | From | Input | Expected by | Why it matters | How it changes my view |
 |---|---|---|---|---|
 | LABOR / BLS | September NFP + net Jul–Aug revisions | Fri 10/2 08:30 | V16 drop-back print 2 of 2 | A (S>0, R>0) → 4→3 candidate to Will; anything else resets the count. |
-| DEWEY | DR-3 AZO/ORLY cross-section | in flight 10/01 | Kill = CRL-31 confidence cut | Applied as prominently as a confirm. |
+| DEWEY | DR-1 card leg (FDM tables) | proposed 11/13 | DR-3 is done: SCORED 10/01, kill NOT fired (trade-down half restored after style factors; premium half not, staged to RED) | Card-leg wedge vs the 50bps kill. |
 | PROME / DEWEY | DR-1 card leg (issuer FDM tables) | proposed 11/13 | DR-1 PARTIAL until a private leg lands | Wedge vs the 50bps class-wide kill. |
 | FSA | Data Center refresh with 9/30 data | ~mid/late Dec (inferred) | First public proxy for CRL-13 (a stock, not a wave rate) | Non-selection read; RAP enrollment. |
 | STUE | ES-01/04/06 grades | 10/2 | Cure vs inflow behind slower default growth | STUE dark; CARL flags or spawns it. |

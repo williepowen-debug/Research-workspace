@@ -45,7 +45,7 @@
 ### UPCOMING (this week)
 - **Mon 10/05 THESIS-SCOPE REVIEW.** Agenda now includes: V3 re-scope (HOMER 3c b; a structural change goes to Will); V3/V7/V10 citation refresh (one matrix edit, Check B); the saving-rate re-base as aggregate counter-evidence; five re-dated UNREVIEWED releases (UMich final, Census revisions, CCL Q3, Conference Board, EART Aug 10-D → V2 both-tier card).
 - **⚠️ CRL-17 forced call was due 9/30 and was NOT done** (outside this spawn's task list). Grade it, or re-date it with a reason, at the next session.
-- **DR-3 (DEWEY, dewey-1001 running 10/01):** no packet had landed at closeout, so the row is ARMED. On delivery, apply the kill as a **CRL-31** confidence cut (CRL-27 is retired).
+- **DR-3: DELIVERED and SCORED 10/01 (late in the session):** kill NOT fired; the trade-down half is restored, the premium half is not (staged to RED); CRL-31 unchanged; PS-0005 not invalidated (AZO FQ4 SSS +1.6%). KB-CARL-502. DR-1 RUN/DROP word given to DEWEY (card RUN; BNPL/private-credit DROP; auto in-house).
 
 ### UPCOMING (2 weeks)
 - 10/09 DR-1 row (decided; awaiting PROME routing of the card leg) · 10/14 Sept CPI (CRL-10; beef and diesel items deferred here) + AFT v. ED status conference (SAVE backlog) · 10/15 retail sales · ~10/20 Q3 issuer prints: CRL-20/21, the **first CRL-31 reachability check**, CRL-29 first grade (also the DR-1 auto leg) · DHI FQ4 ~10/20 (CRL-23 deferrals).

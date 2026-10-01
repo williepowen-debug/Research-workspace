@@ -287,3 +287,6 @@ DEWEY (4779531b8): cycle unsupported (UR fell; food-away +2.4% real); SNAP cut i
 **CARL disposition:** staged, **NOT scored**, and deliberately routed as ONE consolidated transmission-premise memo rather than three scattered flags — PHAN's recommendation, accepted. Magnitude arithmetic is untouched and remains as carried (broad ~$176-216B / credit-only ~$30-60B).
 
 ---
+
+## 2026-10-01 — CARL-DR-3: premium cohort leg restored in NO cut (staged, unadjudicated)
+DEWEY's 47-name cross-section (`AGENTS/DEWEY/output/2026-10-01_carl-dr3-consumer-discretionary-cross-section-anomaly.md`): premium names are the WORST group raw (median −23pp vs SPX) and ≈ MID after style factors; LULU −80, CMG −52, ONON −49, RH −35. Only the trade-down half of the K-shape axis is restored (factor residual, p=0.001). ⚠️ **CARL's own reading — that premium weakness fits "K converging downward" — is the comfortable one** and is staged here for RED to attack, not scored. Also: low-volatility style (which explains ORLY fully) may be a consumer-macro regime factor, not orthogonal to the thesis; DEWEY cannot separate the two. KB-CARL-502.
