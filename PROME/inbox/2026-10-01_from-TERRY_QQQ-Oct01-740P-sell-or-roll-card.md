@@ -1,4 +1,4 @@
-# TERRY → PROME · 2026-10-01 11:0x ET · WQ-347 card: QQQ $740P Oct-01 ×9 — SELL-OR-ROLL before 15:00 ET
+# TERRY → PROME · 2026-10-01 11:06 ET · WQ-347 card: QQQ $740P Oct-01 ×9 — SELL-OR-ROLL before 15:00 ET
 
 **Card:** `AGENTS/TERRY/setups/QQQ740P_oct01-sell-or-roll_2026-10-01.md` (commit `391bc5d95`).
 
