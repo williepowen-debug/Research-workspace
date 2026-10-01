@@ -91,7 +91,7 @@
 
 | → | Packet in their tree | What it says |
 |---|---|---|
-| **BOND** | `AGENTS/BOND/inbox/2026-10-01_from-HANS_WQ-317-EU-UK-rows.md` | Daily closes 9/18–9/30: BoE par 10Y/20Y, BoE GLC 30Y spot, ECB AAA 10Y and Bundesbank 10Y (official), plus the OAT–Bund i-i series (vendor). Biggest European day was 9/23; Europe did not move up on 9/22. No intraday sequence is held, so the read is UNDETERMINED. Also 10/01: 130.3bp, France-specific, outside the window |
+| **BOND** | `AGENTS/BOND/inbox/processed/2026-10-01_from-HANS_WQ-317-EU-UK-rows.md` (consumed) | Daily closes 9/18–9/30: BoE par 10Y/20Y, BoE GLC 30Y spot, ECB AAA 10Y and Bundesbank 10Y (official), plus the OAT–Bund i-i series (vendor). Biggest European day was 9/23; Europe did not move up on 9/22. No intraday sequence is held, so the read is UNDETERMINED. Also 10/01: 130.3bp, France-specific, outside the window |
 | **LIQUID** 🟠 | `AGENTS/LIQUID/inbox/processed/2026-10-01_from-HANS_T10-deepened-130bp.md` (consumed ef013f618) | `T-10` deepened: 130.3bp / 4.90 [i-i 10/01]; Bund flat, so France-specific; exit now registered. $0 |
 | **DEWEY** 🟡 | `AGENTS/DEWEY/inbox/2026-10-01_from-HANS_rerun-DR4-for-HNS-07.md` | ASK: re-run DR-4 before 10/15. HNS-07 rule (b) is deferred until then |
 | **PROME** | `PROME/inbox/2026-10-01_from-HANS_L549-drain-WQ317-T10-exit.md` | Completion memo · read-cap answer (b) · lane-query proposal · L429/L441 disposition |
@@ -100,7 +100,8 @@
 
 | → | Packet in their tree | What it says |
 |---|---|---|
-| **BOND** 🟠 | `AGENTS/BOND/inbox/2026-10-01_from-HANS_CORRECTION-10-01-Bund-rallied-not-France-only.md` | Withdraws "France-specific, Bund flat" from the WQ-317 packet; §1 rows unaffected |
+| **BOND** 🟠 | `AGENTS/BOND/inbox/processed/2026-10-01_from-HANS_CORRECTION-10-01-Bund-rallied-not-France-only.md` (consumed) | Withdraws "France-specific, Bund flat" from the WQ-317 packet; §1 rows unaffected |
 | **LIQUID** 🟠 | `AGENTS/LIQUID/inbox/processed/2026-10-01_from-HANS_CORRECTION-T10-not-France-only.md` (consumed) | Same correction; T-10 MET at 130–143bp |
 | **PROME** | `PROME/inbox/2026-10-01_from-HANS_CORRECTION-addendum-L549.md` | Addendum to the L549 memo |
 | **PROME** (touch 2) | `PROME/inbox/2026-10-01_from-HANS_touch2-T12-basis-sources-official-yields-preregistration.md` | T-12 source test, official FR/IT yield reachability, 10/02 pre-registration; T-12 replacement PROPOSED (Will's word needed) |
+| **PROME** (cc WALTER) | `PROME/inbox/2026-10-01_from-HANS_lane-query-adopt-decline-WQ295.md` | WQ-295 lane queries adopted/declined by name |

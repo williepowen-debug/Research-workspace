@@ -22,3 +22,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-01T16:20Z	2026-09-28_from-PROME_WQ-317-supply-EU-UK-rows	acted	INBOX_PROME	Rows delivered: AGENTS/BOND/inbox/2026-10-01_from-HANS_WQ-317-EU-UK-rows.md
 2026-10-01T16:20Z	2026-09-28_from-PROME_read-cap-rotate-tier	acted	INBOX_PROME	Answer (b): registry/THRESHOLDS.tsv is parsed by boot.py and grepped by row, never read whole; receipt in the 10/01 PROME memo
 2026-10-01T16:34Z	SIG-W-20261001-009	acted	INBOX_WALTER	Re-test done: 10/01 France-idiosyncratic read WITHDRAWN - Bund rallied 8-9bp (TE/CNBC), BTP +16bp spread; KB-HANS-106; corrections to BOND + LIQUID; T-09 120.2bp/4.696 far
+2026-10-01T17:03Z	2026-10-01_from-WALTER_lane-query-sizing-WQ295	acted	INBOX_TOP	Adopted 1 (when:7d), 2 in WALTER's anchored form (original declined), 3 quoted form (original withdrawn as broken); PROME/inbox/2026-10-01_from-HANS_lane-query-adopt-decline-WQ295.md

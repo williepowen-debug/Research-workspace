@@ -40,6 +40,11 @@ This is the twin of the 2026-09-05 `DISPATCH_LOG.md` split: **a whole CATEGORY m
 
 **The Bank of England stopped selling long gilts** — auctions paused, £222bn pre-2035 and £120bn of the longest-dated held to maturity out of £488.2bn — which moved both my UK thresholds *away* from their bands, **but it is a supply withdrawal and not a demand recovery**, and the 11/26 Budget now arrives with the long end's biggest seller stood down. **Session 2 says why it could, and it cuts against my own ECB call:** UK CPI accelerated to 3.1% the day before the hold and euro-area HICP finalised at 3.2%, **yet on both sides of the Channel the entire overshoot is energy and core did not move** — so `T-04` is no longer a hawkish lean into 10/29, and **the one new number to carry forward is German debt service: €41.8bn in 2027 against €30.3bn in 2026, +38% in a year, the Bund at a 15-year high arriving inside the budget.**
 
+*§CARRY FORWARD, two 9/19 bullets, verbatim, rotated 10/01 13:0x (superseded by the 10/01 HNS-07 checkpoint and the current doc_audit count):*
+
+- ⚠️ **`HNS-07` anchor corrected 9/19:** 45d from **gas day 9/17**, required **0.2431 pp/d** vs **0.22 observed** (was 9/18/44d/0.249). **Verdict unchanged, MISS-side.** → `ML-HANS-471`
+- 🆕 **Instruments:** `doc_audit` **13 checks** (C9 prose-superseded · C12 key-uniqueness · C13 value/band scale), **86 tests**. **`8.05` German IP −1.6% YoY GREEN→YELLOW** — hard data contracting while surveys drove five refutations of the growth leg; **do not let the PMI read silence it.** **`4.09` UK food: AHDB partly REFUTES the claim that created the row** (wheat −12%, spring barley −19%, but winter barley in line, OSR **+19%**) — alarm marked down.
+
 ## 📦 STATUS ROTATION 2026-09-25 — VERBATIM from STATUS §ENERGY (9/19 text), rotated for the read cap (77.5% → under 70%)
 
 ✅ **THE 9/10 RULING IS VINDICATED.** WALTER asked whether −14.7pp exited the fire; I ruled **NOT AN EXIT** — 0.3pp was inside the cross-source error. **Ten days later it had widened further** — to −19.7pp on the then-current GEF-norm basis, since re-based to **−15.99pp** single-source `[[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]`.
