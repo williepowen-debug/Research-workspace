@@ -65,3 +65,9 @@ LIQUID (5 gates) · BRENT · FERT · TERRY (007 + ROLL70-EXIT, REGINALD cc'd in 
 - **SL-5 amendment candidate (Will-visible, not encoded):** *"a quantifier word in a gate letter carries an integer at the point of use (N of M, D consecutive), and every letter carries one fixed basis line: series · unit · vintage · operator+boundary · precision/tie · run-unit + what breaks a run · reset."* Stranger B's fleet-level edit; on today's evidence it turns 2 gradeable letters into 4. → PROME packet as a WQ candidate.
 - `sweeps/GATE_BASIS_SWEEP.md` Run Log row appended; registry `last_run` 2026-09-17, next ~10/08.
 - **Not done, stated:** revision behaviour for DTN / TankerMap / Parcl (no schedule locatable; CANNOT-EVALUATE); whether the 9/3 `DEALER_POSITIONING_NEXUS_WATCH.md:10` relabel reached the GATES `last_checked` cell (NOT-SEEN — cell read, history not diffed).
+
+## 6. Post-run owner closures (appended; the run above is unchanged)
+| gate | closed | how | basis |
+|---|---|---|---|
+| GATE-FERT-G5 | 2026-10-01 16:2x ET (DAEDALUS, at the artifact) | Option (b) of §8's ask, encoded by PROME under WQ-351 on Will's 13:54 ET word: the 93rd-pct figure is labelled Pink-Sheet registration CONTEXT, the tie is strict `>` at whole-dollar precision ($1,000 does not fire), and the geography is the US national average. Vintage stays on the pre-9/4 as-first-published default. **OPERATOR-MISMATCH → resolved by relabel, not by recompute** (no free DTN base rate; FERT's inference). | `PROME/GATES.tsv:13`; `runs/2026-10-01_INBOX_DISPOSITIONS.md` row 16 |
+| GATE-FALCON-001 | NOT closed | Leg-2 basis PASS-WITH-RESIDUE 2026-10-01 (L541); FALCON declared R1–R3. The GATES cell edit waits on Will's WQ-353 (FALCON's 35%). | `STATUS.md` 10/01 header ⑥ |
