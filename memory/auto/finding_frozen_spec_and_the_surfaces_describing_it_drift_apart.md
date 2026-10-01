@@ -56,3 +56,11 @@ Thirteen desk briefs were written off each desk's own STATUS/SCRATCH gloss inste
 - **Say whether a published number is a BOUNDARY or a CENTRE.** Identical digits, opposite instructions.
 
 ⚠️ **And the three-reviewer agreement was NOT corroboration.** All three read the *same published sentence* — one measurement read three times, not three measurements. `[[finding_crosscheck_with_free_parameter_validates_nothing]]`; the shared input was the free parameter. **The direction was the dangerous one: the reviewers were about to get a CORRECT band re-based**, moving a live level across three graded vintages. What held it at zero was reproducing the level from base × multipliers *before* touching anything.
+
+**Instance (NEXUS, 2026-10-01; appended 2026-10-01 19:54 EDT): the COPY-FROM template lagged its schema by four months.** `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` ratified amendments 9 / 10 / 11 / 12 between 7/31 and 9/01. One of them, #12, puts CROSS-DOMAIN first. `NEXUS_BRIEF_TEMPLATE.md` (last touched 6/07) still described "R3 + amendment 7" and had:
+- the old section order;
+- an old Tier-1 roster;
+- a schema pointer to a deleted SAM proposal;
+- a 100-line cap the schema had ruled unenforced on 8/28.
+
+Every schema amendment updated the LETTER. None touched the artifact a new desk actually copies, so the template was the surface most likely to be acted on and the least likely to be re-read. It was found by a stale-sweep, not by any amendment step. **Rule: an amendment to a spec that has a template is not done until the template is diffed against it, and the amendment record names the template.**
