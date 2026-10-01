@@ -17,3 +17,5 @@
 **Routing of L515's eventual print (PROME 9/27, from CREED §3):** **CREED action** (S6 comp: record price vs UPB, performing vs NPL separately, LIEN POSITION on every loan) · **REGINALD info** (severity reconcile; the ZION/Laguna lien collision is REGINALD's lane) · **WAL info/consumes** (WAL O7: an FDIC sale of Nano's liens prints a mark on WAL's own collateral properties).
 
 Related BOARD: `SIG-W-20260927-004` (Nano Banc failure) · `-005` (CORRECTION: Nano liens senior to WAL on 5 of 10 pleaded loans) · `-006` (CORRECTION: $108M = 3 lenders; retained ~$215M; cite ~$120M/17%). Related DOCKET: L513 (Fed OIG MLR) · L514 (Q3 QBP) · L515 (retained-asset sale) · L516 (P&A posting, check-by 10/09).
+
+**2026-10-01 — ALL QUEUED SETS TESTED (rows 1–7 + BOND, HENRY, HOMER, CRUISE, SAM, LABOR, VULCAN, ZHAO, FERT, VIOLET, AEOLUS, FALCON, OSPREY).** Results: `research/2026-10-01_R3/group{A,B,C,D}.md`; memo `PROME/inbox/2026-10-01_from-WALTER_R3-results-all-sets.md`; one verdict packet per owner inbox. Rows 1–7 above read QUEUED as written on 9/27 — superseded by this line, not edited.
