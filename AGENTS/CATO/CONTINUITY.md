@@ -4,6 +4,8 @@
 
 ## Resume point
 
+**WALTER intake advice delivered; await Will's direction.** [October 1 review](runs/2026-10-01_1400_walter-intake-direction.md) recommends one bounded raw-batch/worklist/disposition comparison before changing cadence or filters. Local September 30 batch: 34/35 headlines are plain NEW, omitted by the scanner; not proof of missed dispatches. Distinguish collection delay from consumption and selection. No owner edits, sends, collection or implementation authorized/performed. WALTER is actively working; preserve ownership.
+
 **Startup/closeout cleanup completed on Will's “ok do it.”** Current-task priority, selective history reads and CATO-specific check coverage are installed; [continuing report](runs/2026-10-01_1152_startup-closeout-review.md) records author verification and limits. No further cleanup assignment remains. Orient to Will's next request; do not start the pilot merely because a session opens.
 
 **Approved and pending: prospective forecast pilot.** Will approved setup and bounded collection/review; that approval survives. Resume when Will directs pilot work or continuation of this pending assignment, without re-requesting permission. Run the collector once in that work session (preview, then `--write` if successful and changed), review only new candidates/due cases, and log incremental effort. An unrelated discussion, review or closeout does not trigger collection.
