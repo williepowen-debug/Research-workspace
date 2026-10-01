@@ -1,10 +1,12 @@
 # ACCEPTANCE — `board_scan.py`: consume only PUBLISHED signals, remember what was consumed, surface late arrivals (prome-2a)
 
 **Written:** 2026-09-30 21:59 ET (`date`), BEFORE any edit to `PROME/tools/board_scan.py`.
-**reads: 2**
+**reads: 3 — THE EPISODE IS CLOSED (Review budget ceiling). No further correction to `board_scan.py` without Will's named authorization for a further read.**
 - read 1 — 2026-09-30 22:03 → 22:18 ET, independent reader (general-purpose, Opus), 27 experiments in throwaway repos, report `…/scratchpad/reader1/REPORT.md` (session scratchpad; findings transcribed below): ❌ 6 (F1–F6) · ⚠️ 12 (F7–F18) · the live migration verified exact (1,112 rows, no action signal ever laundered by the old cursor). All six ❌ fixed 2026-09-30 22:25 ET; the fix pass is UNREVIEWED until read 2.
 
 - read 2 — 2026-09-30 22:26 → 22:53 ET, a second independent reader (general-purpose, Opus), 13 experiment scripts and 10 mutation runs, report `…/scratchpad/reader2/REPORT.md`: F1 · F2 · F5 CLOSED; F3 · F4 · F6 PARTLY; NEW ❌ 5 — four ACTION-class (R2-1 a re-routed ask hidden by a sticky class · R2-2 amendment shapes passing quietly · R2-3 a hidden second action key in a new signal · R2-4 a filename that bricks the ledger) and one BASIS-class (R2-5 "routing unchanged" printed when it changed); ⚠️ W1–W6; live state verified exact (1,112 rows, 0 mismatches). All five ❌ and the three PARTLY findings fixed 2026-09-30 23:03 ET; this second fix pass is UNREVIEWED until read 3, which is the LAST read the budget allows.
+
+- read 3 (FINAL) — 2026-09-30 23:03 → 23:25 ET, a third independent reader (general-purpose, Opus), 13 experiment scripts, 30 mutations, 4 differential runs against PyYAML; it could not write its report file (the harness refused), so its findings are transcribed in § Disposition after read 3 below and its scripts sit in the session scratchpad (`reader3/`). R2-4 CLOSED; R2-1 · R2-2 · R2-3 · R2-5 · F3 · F4 · F6 PARTLY; NEW ❌ 5 action-class (N-1..N-5) + 2 basis-class (N-6, N-7); ⚠️ N-8..N-14; live state exact (1,112 rows = 1,112 published blobs, 0 mismatches). Its verdict: KEEP as the blocking boot check — no weaker than v2 on any path tested; reverting would reopen R2-3, R2-4 and the seed defect. NOTHING was changed after this read.
 
 **Trigger:** Will, PROME window, 2026-09-30 21:52 ET, verbatim *"I have some feedback from CATO I would like to investigate and fix if true"*. CATO's finding RC1: `AGENTS/CATO/runs/2026-09-30_2132_system-recent-commits-review.md` (433084d2b). Reproduced by PROME the same hour with CATO's probe (`…_system-commit-probe.py`): an unfinished file advanced the cursor 004 → 005 at rc 0; the same file completed with `action: [PROME]` then read "nothing new"; a lower ID published after a higher one stayed hidden. Live incident: 2026-09-30 ~20:3x ET, three crash drafts (no missed action demonstrated).
 
@@ -67,8 +69,26 @@
 ## Tests
 `PROME/tools/tests/test_board_scan_publication.py` — throwaway git repositories only; one test falsifies the guard itself (publication check disabled ⇒ the draft IS consumed).
 
+## Disposition after read 3 — FINAL (2026-09-30 23:27 ET; nothing below was fixed, by rule: two correction passes already made on this file, and the three-read ceiling is reached)
+
+**STILL UNRESOLVED — action class (each reproduced by reader 3; none triggered by anything on the live board today):**
+- **N-1** an ACKNOWLEDGED action signal whose ask is re-added or rewritten stays at rc 0: 'late' fires only when the consumed blob lacked PROME. Five committed amendments since July kept PROME on a signal's action line and would have passed with a count line only (`SIG-W-20260716-004` ×2 · `SIG-W-20260728-007` ×2 · `SIG-W-20260813-002`).
+- **N-2** nine exotic YAML spellings that a real YAML parser reads as PROME on `action` (escapes, anchors and aliases, complex / tagged / anchored keys, a `---x:` line) are classed "not routed" with no problem code. 0 on the board.
+- **N-3** a problem code the consumed blob already carried hides a NEW ask in the same field (codes are compared as strings). Exactly one consumed file is exposed, `SIG-W-20260411-002`.
+- **N-4** `--seed-from-cursor` records files that name PROME on action in an unparseable form as "not routed"; its ledger-in-HEAD refusal is bypassed after `git rm` or through a symlinked state directory.
+- **N-5** two committed non-UTF-8 filenames differing only in their bad bytes collapse into one entry (so W5's "nothing lost" was wrong). 0 non-ASCII names in BOARD's history.
+**STILL UNRESOLVED — wrong text only:** N-6 the "(N consumed; ledger M files)" count omits rows the quiet refresh recorded · N-7 a legacy `info:` change still prints "routing unchanged" · the routing-change listing never reaches the gate verdict at rc 0 (F14).
+**Weaknesses (lose nothing alone):** W2 confirmed, `GIT_WORK_TREE=<BOARD>` is a second trigger (one boot's delay; a relative `GIT_DIR`, the form git hooks export, gives rc 2) · N-8 `--ack-actions` acknowledges everything held when it runs, including a signal published after the operator looked · N-9 ledger AND cursor both lost ⇒ treated as a first run, everything floods · N-10..N-14 · tests: three behaviours have no failing test (name-union across action lines, `to:` routing, the continuation-line scan).
+
+**WITHHELD from operational use (Review budget — withholding follows consequence):**
+1. **`--seed-from-cursor` — DO NOT RUN.** A lost ledger is restored from git (`git checkout -- PROME/state/board_consumed.tsv`), never re-seeded. In this repository the flag is refused anyway while the ledger exists on disk or in HEAD.
+2. **The line "N consumed signal(s) amended since consumption — PROME's routing unchanged" is NOT a finding.** When a scan prints it, list the amended signals from git and open every one that names PROME, before treating the boot as clear.
+3. **An `--advance --ack-actions` run is trusted only after its own output has been read** — it acknowledges whatever is held at that moment.
+**What a reader may rely on:** a signal is consumed only once committed; drafts are never consumed; a lower ID published late surfaces; a new signal in WALTER's plain schema that names PROME on `action` stops the boot; the ledger matches HEAD exactly as of the third read. WALTER's own rule still delivers every `action:` ask to `PROME/inbox/` as well (BOARD_CONSUMPTION_SPEC §3.5.8), so the scanner is not the only path for an ask — an in-place amendment of an existing signal is the case that second path does not cover.
+**Next pass, in reader 3's order, as a NEW named read on Will's word:** N-1 hold · N-2 character whitelist · the W2 prefix check · N-4 seed skip · tests for the three unpinned behaviours.
+
 ## State
 - **IMPLEMENTED** — `1ad0de004` (first form), reworked after read 1 (this commit).
 - **TESTED (author)** — `test_board_scan_publication.py`, count by `grep -c 'def test_'`; four mutation runs each fail the suite; the reader's own experiment scripts re-run against the reworked tool reproduce none of F1–F6; the live ledger re-seeded through `--seed-from-cursor` equals the first seeding row for row (stem and class).
-- **INDEPENDENTLY VERIFIED** — PARTLY. Reads 1 and 2 verified the migration, the live ledger (1,112 rows, 0 mismatches), the unchanged interfaces, the `read_blobs` parser and F1 · F2 · F5. The second fix pass (this commit) is UNREVIEWED; read 3 is the last the budget allows, and whatever it leaves open ends the episode STILL UNRESOLVED with the tool's limits stated.
-- **STILL UNRESOLVED** — the residue above; publication semantics are WALTER's to confirm (packet).
+- **INDEPENDENTLY VERIFIED** — PARTLY, and no more than this: the migration and the live ledger (three reads, 0 mismatches each time) · the unchanged interfaces · the `read_blobs` parser · F1 · F2 · F5 · R2-4 · the changed-blob mechanics (withheld under a hold, re-fired after, missing consumed blob) · the write-back check · no state that leaves the gate stuck. Read 3 examined v3 itself, so v3 is not 'unreviewed' — it is reviewed and found incomplete.
+- **STILL UNRESOLVED** — § Disposition after read 3 (N-1..N-7 and the weaknesses) plus the read-1/read-2 residue; publication semantics are WALTER's to confirm (packet). The tool stays the blocking boot check WITH those limits and the three withholdings; it is not withdrawn because every earlier version is weaker on every tested path.
