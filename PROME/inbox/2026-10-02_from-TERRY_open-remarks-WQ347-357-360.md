@@ -101,3 +101,38 @@ RESULT: As of 09:47–09:50 (screening quotes): 740P×4 bid 0.24→0.14, lean SE
 GAPS: Option quotes may be up to ~15 min old (both feeds were dark until 09:47); the 82P quote is weak. Fidelity's bid governs. Positions as of the 10/1 capture. KRE 65P not re-read.
 WILL_NEEDS: WQ-347 sell/roll by 15:00 today · WQ-357 A/B/C · WQ-360 approve/reject (name 77P or 78P) · 735P by Mon 15:00 · his 10/1 Activity view (D-71).
 FOLLOW-UP: Book Will's 10/2 fills into the cards once FORGE reconciles; Monday pre-open re-mark of the 735P (fresh gamma board from HENRY).
+
+
+---
+
+## ADDENDUM 10:4x ET (PROME doorbell 10:41): G7 release → the USO 150C early-sell condition is MET · VLO checked · a fifth QQQ put (Robinhood, unconfirmed)
+
+**1. USO $150C Oct-09 ×1 — lean is now SELL TODAY** (card ADDENDUM-3)
+- **The condition fired.** The card's early-sell condition (09:53: "sell if an EU volume is adopted") is graded **MET**. The G7 **decided** to release up to 100M bbl of diesel + crude over 4 months (BRENT's verified read; NBC 10:22, Bloomberg, Macron).
+  - The condition named the EU and the decider is the G7, and the volume is "up to". **Neither restores the "no decision" path the condition was protecting.**
+  - ⚠️ The G7/Élysée text is unread at the primary.
+- **Re-mark** at 10:42 (screening, ~20 min old): USO **$142.93 (−4.73%)**, 4.9% below the strike. Bid **1.26 / ask 1.36** ⇒ **≈ $125 net, ≈ −$174 against $299.66**.
+- **Root rule #6, in figures.** Implied vol at the bid is **43.5–45.7% now vs 46.6% at the 10/1 close**, so today's sale is about 1–3 vol points cheaper. That is **≈ $5–15** of measured cost for selling on the wrong-colour day.
+  - This is **not** a proxy-refuting break. It's a wrong-colour sale that goes ahead because a pre-registered exit fired (durable finding 12). No guard is relaxed.
+- **No roll.** The hard stop stays Fri 10/09 15:00 if Will declines.
+
+**2. VLO held share (`GATE-TERRY-VLO-HELD-01`) — no sell signal today; the grade is due after the settlement window** (refiner card § ⑫)
+- **Leg A (diesel crack).** BRENT's Nov crack reads **$95.87 at 10:30** (from $100.22 at 09:50).
+  - That is $5.71 above the $90.16 sell line and $0.87 above the $95 notice line.
+  - **Intraday, so not a grade.** It grades on the settlement, with the estimate due after ~14:30 ET. A settle below $95 is a notice only.
+- **Leg B1 (a signed US diesel-export ban): NOT FIRED.**
+- **The share:** VLO **$393.19 (−3.74%)** = −$18.81 against the $412 fill.
+- Today's driver (the G7 diesel release) is aimed straight at this card's mechanism. That's recorded under construction rule #23; it fires no line.
+
+**3. A fifth QQQ Oct-02 put in Robinhood — UNCONFIRMED** (note added to `MGMT-QQQ740P-OCT02`)
+- **What's known:** ×1, expiring today, Will's marker "+1 10/2 Put, $137" near QQQ $737–738. Strike and cost are not confirmed, and it isn't on the mirror (Robinhood side as of 9/29).
+- **The same 15:00 ET sell-or-roll applies. Lean: SELL with the four.** At the 09:50 marks a 735–740 strike fetched about $14–43.
+- Robinhood's in-the-money expiry handling is unobserved.
+
+## COMPLETION — TERRY — 2026-10-02 (10:41 doorbell)
+STATUS: ✅ DONE
+CHANGED: AGENTS/TERRY/setups/{USO150C-KRE65P_roll-management-notes_2026-10-01,QQQ740P_oct02-sell-or-roll_2026-10-01,BRENT_refiner-distillate-strong-leg_2026-08-27}.md, board_log.tsv, inbox→processed ×1 (BRENT G7); this memo addendum
+RESULT: USO 150C early-sell condition MET (G7 decided up to 100M bbl); bid 1.26 ⇒ ≈$125 net (−$174); lean SELL today, wrong-colour cost measured ≈$5–15 (IV 46.6%→43.5–45.7%), exit-driven not a proxy break; no roll. VLO-HELD-01: A intraday $95.87 (not a grade; settlement owed ~14:30), B1 NOT FIRED; VLO −$18.81 vs $412. Robinhood 5th QQQ Oct-02 put noted UNCONFIRMED, same 15:00 stop, lean SELL.
+GAPS: G7 text unread at primary; option quotes ~20 min old; Robinhood put strike/cost unknown; Nov crack settlement not yet available.
+WILL_NEEDS: Sell USO 150C today (or hold to 10/09 stop); the Robinhood put's strike/cost + sell by 15:00; WQ-347/357/360 as before.
+FOLLOW-UP: TERRY grades VLO-HELD-01 leg A on today's settlement-window estimate (after ~14:30 ET) if PROME re-pings; record Will's fills on doorbell.

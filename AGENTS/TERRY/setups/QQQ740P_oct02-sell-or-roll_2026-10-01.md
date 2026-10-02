@@ -118,3 +118,17 @@ The case for holding into the print is Will's QQQ downside view, which this desk
 **Lean: SELL at Fidelity's bid NOW. 15:00 ET is the hard stop, not the target.** The only path that pays from here is QQQ falling 1.6% intraday, and the downside of that path is an in-the-money exercise into a weekend short (D-60). **If Will keeps the bet:** roll to the 740P Oct-09 for ≈ $3.0–3.4 a contract net. That's inside Thursday's limit, and QQQ is green, the right colour for the buy leg under root rule #6. It leaves ≈ $1.25–1.45k at risk, ≈ 2.5–2.9× the $500 cap, with no agent thesis behind it. Not Monday.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution.** Memo: `PROME/inbox/2026-10-02_from-TERRY_open-remarks-WQ347-357-360.md`.
+
+### ADDENDUM 2026-10-02 10:4x ET: a FIFTH QQQ Oct-02 put in Will's ROBINHOOD account — ⚠️ UNCONFIRMED
+
+**Source:** PROME doorbell 10:41 ET, relaying Will: his chart marker reads **"+1 10/2 Put, $137"**, placed near QQQ $737–738. **Strike and cost are NOT confirmed. The line is not on the mirror** (`FORGE/STATUS.md`'s Robinhood side is as of 9/29). `[POSITION_STATE_INCOMPLETE: strike/cost/fill time from Will's Robinhood capture]`.
+
+| What is known | What is not |
+|---|---|
+| ×1 QQQ put, expiring **today, 10/02**, Robinhood (individual account, not the IRA) | strike · cost (whether "$137" is $1.37/sh = $137 total or something else) · fill time |
+
+- **The 15:00 ET sell-or-roll stop applies to it as well** (Will's standing practice, `USER.md` 9/30). **Desk lean: SELL with the four**, for the same reasons: QQQ ≈ $753 against strikes in the high $730s–740s means all of it is time value running off, and it pays only on a fall of about 1.6–2.2% before the close.
+- **Expiry mechanics differ from the IRA lines.** Robinhood is an individual (non-IRA) account. Its margin status is not on the mirror, and its buying power was $8.94 `[9/29]`. An in-the-money exercise would mean selling 100 QQQ (≈ $74k) that the account does not hold. Robinhood's handling of an in-the-money long option at expiry is **unobserved here**. The only branches with a known outcome are SELL or ROLL before 15:00.
+- At the 09:50 screening marks, a 735–740 strike bid was **0.14–0.43** ⇒ about **$14–43** for one. Re-mark it once Will gives the strike.
+
+**APPROVAL REQUIRED — Will must approve/reject before execution.**

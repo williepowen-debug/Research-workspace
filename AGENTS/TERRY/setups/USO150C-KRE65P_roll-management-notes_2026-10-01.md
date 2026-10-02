@@ -131,3 +131,45 @@ That makes the call a cheap, five-session option on the "no decision" outcome. I
 **Exercise path:** remote, since it needs +3.4%. The 10/1 cash-headroom constraint no longer binds.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution** (no action is proposed).
+
+### ADDENDUM-3 2026-10-02 Fri 10:42–10:5x ET: the G7 DECIDED a release ⇒ ADDENDUM-2's early-sell condition is graded MET. Lean changes to SELL TODAY (PROME doorbell 10:41; WALTER `SIG-W-20261002-009`; BRENT packet `inbox/processed/2026-10-02_from-BRENT_G7-release-ADOPTED-verified-read.md`)
+
+**The fact (BRENT's verified read; primary text NOT opened by BRENT or TERRY):**
+- After a videoconference Macron hosted on 10/2, the **G7 agreed to release up to 100M bbl of diesel plus crude over 4 months, with "a substantial diesel release within the first 20 days"**, coordinated by the IEA.
+- **Sources:** NBC 10:22 ET (quoting the G7 statement), Bloomberg, Newsquawk, Macron on the record, and Trump: "Europe has just agreed…".
+- **Not published:** the diesel/crude split and per-country volumes.
+- **Unchanged:** the US diesel export-ban threat is not withdrawn.
+
+**The condition, graded against its own words.** ADDENDUM-2 (09:53) wrote: *"Sell on the spot if an EU volume is adopted, because that removes the reversal path."* The reversal path it named was **"no decision, or a rejection."**
+
+| Element | Fact | Read |
+|---|---|---|
+| A decision was taken | **YES.** "Agreed" and "decided" (G7 statement via NBC; Macron on the record) | The "no decision / rejection" path is gone |
+| A volume | **up to 100M bbl** (a ceiling); diesel front-loaded in 20 days | A stated volume. The European diesel leg itself is not sized |
+| "EU" | The decision is the **G7's**. It includes France, Germany and Italy, and Europe holds the diesel | A wording gap, not a substance gap: the body that decided is wider than the one the condition named |
+
+⇒ **MET.** The decision removes exactly the path the condition was written to protect. I am NOT reading "EU, not G7" or "up to" as reasons it did not fire. That reading would keep the position on a technicality, and it is the comfortable reading, which is the one to check. ⚠️ **Verification gap:** the G7/Élysée text is unread at the primary. If it turns out that no decision was actually taken, this grade reverts.
+
+**Live re-mark (SCREENING; Fidelity governs):**
+
+| Item | Value |
+|---|---|
+| USO | **$142.93 (−4.73% vs $150.02)** at 10:42:10 (`fetch.py`) ⇒ the strike is **$7.07 (4.9%) out of the money**, 5 sessions left |
+| 150C Oct-09 bid / ask | **1.26 / 1.36** (`chain_fetch.py --no-cache --legs 150`, PASS; last trade 10:23, so the quote is probably ~20 minutes old) |
+| One sold at the bid, after the $0.65 fee | **≈ $125.35 ⇒ ≈ −$174.31 against $299.66** |
+| Roll to the 150C Oct-16 (not the lean) | ask 2.67 ⇒ **$1.41 net ≈ $141** |
+
+**Root rule #6, in figures (as done for the 82P).** USO is **red**, the wrong day to sell a call. The proxy asks: *am I selling convexity cheap?* Measured by backing out implied vol (Black–Scholes, r 4%, no dividend):
+- the 150C's IV at the **10/1 close bid** (4.20, USO $150.02, 8 days) = **46.6%**;
+- **now at the bid** (1.26, USO $142.93–143.50) = **43.5–45.7%**.
+- ⇒ **The proxy is mildly CONFIRMED, not refuted.** Vol is about 1–3 points cheaper than yesterday's close. At a vega of ~$0.05 a point on this contract, that is **≈ $5–15 on the one contract**.
+
+**So this is NOT a proxy-refuting break.** It is a **wrong-colour sale with a measured colour cost of ≈ $5–15**, made because the card's **pre-registered exit condition fired**:
+- Durable finding 12: a fired exit is held, not re-litigated.
+- Root rule #6 is a cost preference, and it does not override an exit. No hard guard is relaxed.
+- "The window is closing" is not the reason. The 10/9 stop is a week away.
+- Waiting for a green USO day to save ≈ $5–15 is a bet that the reversal path comes back, and the decision just removed it.
+
+**Lean: SELL the 150C ×1 at Fidelity's bid TODAY** (limit at the bid; a $0.05 step toward it is enough on a 1,458-OI strike). **No roll:** BRENT holds STAND DOWN (WQ-192), no trigger has fired, and the roll's buy leg would pay ≈ $141 to keep a path that was just closed. The hard stop stays **Fri 10/09 15:00 ET** if Will declines.
+
+**APPROVAL REQUIRED — Will must approve/reject before execution.**
