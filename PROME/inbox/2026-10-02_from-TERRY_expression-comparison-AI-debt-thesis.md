@@ -93,7 +93,7 @@ Scenario moves come from the episode table. ORCL's "−17%" = 2025-03 and CRWV's
 | BROCK: APO / ARES is the cleanest equity read of credit leading | an APO or ARES put row gets built in the final version (the held APO 95P is −17% OTM) |
 | HY back ≤ 312 | everything → NONE; WQ-365's kill line |
 
-## v1.1 · 11:2x ET: LIQUID (`a431862ac`) and BROCK (`0a04cad71`) answers folded in. VULCAN still pending (after-close wake)
+## v1.1 · 11:1x ET: LIQUID (`a431862ac`) and BROCK (`0a04cad71`) answers folded in. VULCAN still pending (after-close wake)
 
 | Point | Evidence (owner's artifact) | Effect on the comparison |
 |---|---|---|
