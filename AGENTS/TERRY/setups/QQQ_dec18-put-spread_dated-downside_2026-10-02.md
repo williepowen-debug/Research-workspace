@@ -102,7 +102,7 @@ The trigger fires on a **red close** (a2 is a fall back through $748.65). **The 
 | Tue–Thu 10/6–10/8 | 3Y · 10Y · 30Y auctions (the FORUM-7 supply test) | HENRY / BOND |
 | Wed 10/14 | September CPI | BOND `docket/CATALYSTS.tsv` |
 | 10/15–16 | LIQ-07 verdict window | LIQUID |
-| ~Tue 10/28 (est.) | **Hyperscaler earnings cluster — VULCAN's live §4b flip** (a stock falling on a capex RAISE in ≥2 prints, or management citing ROI pressure, confirms fragility) | VULCAN `STATUS.md`, `EXIT_PROTOCOL.md` §4b |
+| ~Wed 10/28 (est.) | **Hyperscaler earnings cluster — VULCAN's live §4b flip** (a stock falling on a capex RAISE in ≥2 prints, or management citing ROI pressure, confirms fragility) | VULCAN `STATUS.md`, `EXIT_PROTOCOL.md` §4b |
 | ~10/28 (est.) | FOMC | — |
 | Week of 11/09 | November refunding | BOND |
 | Fri 12/04 | **time stop** | this card |
