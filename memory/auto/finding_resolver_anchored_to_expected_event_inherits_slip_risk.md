@@ -1,7 +1,7 @@
 ---
 name: finding_resolver_anchored_to_expected_event_inherits_slip_risk
 description: A prediction's Resolve_By dated to an EXPECTED event inherits that event's slip risk — it looks dated and is not; only an immovable bound or an explicitly-labelled chosen decision date are legitimate anchors
-symptoms: "prediction closes at the fiscal-year end" · "due scan flags a row whose data isn't out" · "graded on the wrong quarter"
+symptoms: "prediction closes at the fiscal-year end" · "due scan flags a row whose data isn't out" · "graded on the wrong quarter" · "the figure came out in a different filing than the one I was watching"
 metadata:
   type: reference
 ---
@@ -76,3 +76,17 @@ measurement*:
 due-scan can only read the field it is given; it cannot know that a fiscal year ends
 before its own accounting does. Handled by pushing the row to the disclosure date **with
 confidence unchanged, because no new data had arrived** — a push is not a re-rate.
+
+---
+
+**A fourth confusion, BROCK 2026-10-02: the RESOLVER anchored to a FORM TYPE, when the
+rule is keyed to a FIGURE (n=2, same desk, 7 days apart).** GATE-BRK-R2 (a) grades on
+*"the first issuer-stated figure"*, but my register dated OCIC's third read to the
+**final SC TO-I/A, ~late Oct**. The issuer stated ~30% on **10/02 in a furnished 8-K
+shareholder letter**, ~3-4 weeks earlier. WALTER caught it the same day. On 9/25 the same
+gate's North Haven fire was **found 7 days late** for the sibling reason: I dated the
+preliminary amendment off one quarter's lag.
+⇒ **When a rule says "first X-stated figure", the resolver is whatever document first
+carries it.** Watch the issuer's FULL filing feed (every form type, including furnished
+7.01 exhibits), not the form you modelled. A modelled document date is an expectation,
+not an anchor.
