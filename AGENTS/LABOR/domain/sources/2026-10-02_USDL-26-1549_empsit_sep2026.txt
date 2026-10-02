@@ -1,0 +1,386 @@
+SOURCE: https://www.bls.gov/news.release/empsit.nr0.htm fetched 2026-10-02 08:30 EDT (USDL-26-1549)
+
+Transmission of material in this news release is embargoed until                       USDL-26-1549
+8:30 a.m. (ET) Friday, October 2, 2026
+
+Technical information:
+ Household data:      (202) 691-6378  *  cpsinfo@bls.gov  *  www.bls.gov/cps
+ Establishment data:  (202) 691-6555  *  cesinfo@bls.gov  *  www.bls.gov/ces
+
+Media contact:        (202) 691-5902  *  PressOffice@bls.gov
+
+
+                            THE EMPLOYMENT SITUATION - SEPTEMBER 2026
+
+
+Both nonfarm payroll employment (+29,000) and the unemployment rate (4.2 percent) changed little in 
+September, the U.S. Bureau of Labor Statistics reported today. Employment in all major industries 
+changed little over the month.
+
+This news release presents statistics from two monthly surveys. The household survey measures labor 
+force status, including unemployment, by demographic characteristics. The establishment survey 
+measures nonfarm employment, hours, and earnings by industry. For more information about the 
+concepts and statistical methodology used in these two surveys, see the Technical Note.
+
+Household Survey Data
+
+Both the unemployment rate, at 4.2 percent, and the number of unemployed people, at 7.1 million, 
+changed little in September. The unemployment rate has remained in a narrow range of 4.1 percent to 
+4.3 percent since March. (See table A-1.)
+
+Among the major worker groups, the unemployment rate for people who are Black (7.0 percent)
+increased in September. The jobless rates for adult men (3.9 percent), adult women (3.6 percent), 
+teenagers (14.5 percent), and people who are White (3.6 percent), Asian (2.9 percent), or Hispanic 
+(4.7 percent) showed little change over the month. (See tables A-1, A-2, and A-3.)
+
+The number of long-term unemployed (those jobless for 27 weeks or more) was essentially unchanged 
+at 1.9 million in September. The long-term unemployed accounted for 27.1 percent of all unemployed 
+people. (See table A-12.)
+
+Both the labor force participation rate, at 61.8 percent, and the employment-population ratio, at 
+59.2 percent, changed little in September. These measures showed little net change since January. 
+(See table A-1.)
+
+The number of people employed part time for economic reasons changed little at 4.5 million in 
+September. These individuals would have preferred full-time employment but were working part time 
+because their hours had been reduced or they were unable to find full-time jobs. (See table A-8.)
+
+In September, the number of people not in the labor force who currently want a job changed little 
+at 5.8 million. These individuals were not counted as unemployed because they were not actively 
+looking for work during the 4 weeks preceding the survey or were unavailable to take a job. (See 
+table A-1.)
+
+Among those not in the labor force who wanted a job, the number of people marginally attached to 
+the labor force decreased by 236,000 to 1.5 million in September. These individuals wanted and were 
+available for work and had looked for a job sometime in the prior 12 months but had not looked for 
+work in the 4 weeks preceding the survey. The number of discouraged workers, a subset of the 
+marginally attached who believed that no jobs were available for them, changed little over the 
+month at 414,000. (See Summary table A.)
+
+Establishment Survey Data
+
+Total nonfarm payroll employment changed little in September (+29,000), following an average 
+monthly gain of 45,000 over the prior 12 months. Employment in all major industries changed little 
+over the month. (See table B-1.)
+
+Health care employment continued its upward trend in September (+17,000), but at a slower pace than 
+the average monthly gain over the prior 12 months (+33,000). In September, employment continued to 
+trend up in ambulatory health care services (+13,000) and in hospitals (+12,000), while nursing and 
+residential care facilities lost jobs (-9,000).
+
+Employment in construction changed little in September (+11,000). The industry had added an average 
+of 10,000 jobs per month over the prior 12 months. In September, employment in nonresidential 
+specialty trade contractors continued to trend up (+12,000).
+
+Manufacturing employment was little changed in September (+9,000) but is up by 72,000 since a 
+recent low in December 2025. Over the month, employment increased in plastics and rubber products
+manufacturing (+5,000) and in machinery manufacturing (+5,000).
+
+In September, financial activities employment was little changed (-7,000). Employment in financial 
+activities is down by 129,000 since a recent peak in May 2025, with most of the job loss in 
+insurance carriers and related activities (-90,000).
+
+Employment also showed little change over the month in other major industries, including mining, 
+quarrying, and oil and gas extraction; wholesale trade; retail trade; transportation and 
+warehousing; information; professional and business services; social assistance; leisure and 
+hospitality; other services; and government.
+
+In September, average hourly earnings for all employees on private nonfarm payrolls edged up by 5 
+cents, or 0.1 percent, to $37.81. Over the past 12 months, average hourly earnings have increased 
+by 3.0 percent. In September, average hourly earnings of private-sector production and 
+nonsupervisory employees rose by 7 cents, or 0.2 percent, to $32.60. (See tables B-3 and B-8.)
+
+The average workweek for all employees on private nonfarm payrolls remained at 34.4 hours in 
+September. In manufacturing, the average workweek was unchanged at 40.6 hours, and overtime held at 
+3.0 hours. The average workweek for production and nonsupervisory employees on private nonfarm 
+payrolls remained at 33.8 hours. (See tables B-2 and B-7.)
+
+The change in total nonfarm payroll employment for July was revised down by 31,000, from +21,000 to 
+-10,000, and the change for August was revised down by 29,000, from +162,000 to +133,000. With 
+these revisions, employment in July and August combined is 60,000 lower than previously reported. 
+(Monthly revisions result from additional reports received from businesses and government agencies 
+since the last published estimates and from the recalculation of seasonal factors.)
+
+_____________
+The Employment Situation for October 2026 is scheduled to be published on Friday, November 6, 2026, 
+at 8:30 a.m. (ET).
+
+
+
+
+
+===== https://www.bls.gov/news.release/empsit.a.htm fetched 2026-10-02 08:30 EDT =====
+Category | Sept.2025 | July2026 | Aug.2026 | Sept.2026 | Change from:Aug.2026-Sept.2026
+Employment status
+Civilian noninstitutional population(1) | 274,226 | 275,282 | 275,415 | 275,554 | 139
+Civilian labor force | 171,261 | 169,094 | 169,777 | 170,262 | 485
+Participation rate | 62.5 | 61.4 | 61.6 | 61.8 | 0.2
+Employed | 163,656 | 162,177 | 162,746 | 163,152 | 406
+Employment-population ratio | 59.7 | 58.9 | 59.1 | 59.2 | 0.1
+Unemployed | 7,605 | 6,916 | 7,031 | 7,109 | 78
+Unemployment rate | 4.4 | 4.1 | 4.1 | 4.2 | 0.1
+Not in labor force | 102,964 | 106,189 | 105,638 | 105,292 | -346
+Unemployment rates
+Total, 16 years and over | 4.4 | 4.1 | 4.1 | 4.2 | 0.1
+Adult men (20 years and over) | 4.1 | 3.9 | 4.0 | 3.9 | -0.1
+Adult women (20 years and over) | 4.1 | 3.7 | 3.5 | 3.6 | 0.1
+Teenagers (16 to 19 years) | 13.3 | 12.1 | 14.1 | 14.5 | 0.4
+White | 3.7 | 3.6 | 3.7 | 3.6 | -0.1
+Black or African American | 7.6 | 6.3 | 6.0 | 7.0 | 1.0
+Asian | 4.3 | 4.0 | 3.2 | 2.9 | -0.3
+Hispanic or Latino ethnicity | 5.5 | 4.6 | 4.8 | 4.7 | -0.1
+Total, 25 years and over | 3.5 | 3.4 | 3.4 | 3.3 | -0.1
+Less than a high school diploma | 6.8 | 5.4 | 4.7 | 4.3 | -0.4
+High school graduates, no college | 4.2 | 4.0 | 4.4 | 4.4 | 0.0
+Some college or associate degree | 3.4 | 3.6 | 3.7 | 3.6 | -0.1
+Bachelor's degree and higher | 2.8 | 2.7 | 2.7 | 2.5 | -0.2
+Reason for unemployment
+Job losers and people who completed temporary jobs | 3,524 | 3,309 | 3,245 | 3,200 | -45
+Job leavers | 860 | 793 | 914 | 741 | -173
+Reentrants | 2,336 | 2,123 | 2,137 | 2,289 | 152
+New entrants | 813 | 761 | 702 | 818 | 116
+Duration of unemployment
+Less than 5 weeks | 2,232 | 1,960 | 2,000 | 2,098 | 98
+5 to 14 weeks | 2,356 | 2,049 | 2,077 | 1,956 | -121
+15 to 26 weeks | 1,286 | 1,157 | 1,147 | 1,189 | 42
+27 weeks and over | 1,815 | 1,771 | 1,930 | 1,944 | 14
+Employed people at work part time
+Part time for economic reasons | 4,594 | 4,804 | 4,390 | 4,501 | 111
+Slack work or business conditions | 3,129 | 3,019 | 2,815 | 2,896 | 81
+Could only find part-time work | 1,200 | 1,428 | 1,263 | 1,267 | 4
+Part time for noneconomic reasons | 22,728 | 22,770 | 22,752 | 22,813 | 61
+People not in the labor force
+Marginally attached to the labor force | 1,743 | 1,806 | 1,704 | 1,468 | -236
+Discouraged workers | 555 | 476 | 441 | 414 | -27
+Footnotes (1) The population figures are not adjusted for seasonal variation.
+NOTE: People whose ethnicity is identified as Hispanic or Latino may be of any race. Detail for the seasonally adjusted data shown in this table will not necessarily add to totals because of the independent seasonal adjustment of the various series. Updated population controls are introduced annually with the release of January data.
+
+
+===== https://www.bls.gov/news.release/empsit.b.htm fetched 2026-10-02 08:30 EDT =====
+Category | Sept.2025 | July2026 | Aug.2026(p) | Sept.2026(p)
+EMPLOYMENT BY SELECTED INDUSTRY(Over-the-month change, in thousands)
+Total nonfarm | 76 | -10 | 133 | 29
+Total private | 68 | 28 | 89 | 46
+Goods-producing | 11 | 35 | 34 | 18
+Mining and logging | -2 | -3 | 3 | -2
+Construction | 16 | 18 | 16 | 11
+Manufacturing | -3 | 20 | 15 | 9
+Durable goods(1) | -5 | 24 | 14 | 8
+Motor vehicles and parts | -2.3 | 11.6 | -7.3 | 1.6
+Nondurable goods | 2 | -4 | 1 | 1
+Private service-providing | 57 | -7 | 55 | 28
+Wholesale trade | 8.8 | 6.3 | 8.0 | 5.0
+Retail trade | 13.1 | 5.6 | -5.1 | 5.8
+Transportation and warehousing | -39.3 | 10.3 | 3.3 | 7.6
+Utilities | 0.0 | 1.1 | 2.1 | 0.5
+Information | -1 | 4 | -18 | -10
+Financial activities | 4 | -10 | -9 | -7
+Professional and business services(1) | -16 | -6 | -5 | -9
+Temporary help services | -11.7 | -10.0 | 0.2 | -10.9
+Private education and health services(1) | 54 | 14 | 38 | 20
+Health care and social assistance | 55.3 | 13.3 | 35.1 | 23.0
+Leisure and hospitality | 37 | -38 | 37 | 10
+Other services | -3 | 6 | 3 | 6
+Government | 8 | -38 | 44 | -17
+(3-month average change, in thousands)
+Total nonfarm | 23 | 28 | 51 | 51
+Total private | 38 | 38 | 48 | 54
+WOMEN AND PRODUCTION AND NONSUPERVISORY EMPLOYEESAS A PERCENT OF ALL EMPLOYEES(2)
+Total nonfarm women employees | 50.0 | 50.1 | 50.1 | 50.1
+Total private women employees | 48.5 | 48.6 | 48.7 | 48.7
+Total private production and nonsupervisory employees | 81.5 | 81.6 | 81.6 | 81.6
+HOURS AND EARNINGSALL EMPLOYEES
+Total private
+Average weekly hours | 34.2 | 34.3 | 34.4 | 34.4
+Average hourly earnings | $36.70 | $37.64 | $37.76 | $37.81
+Average weekly earnings | $1,255.14 | $1,291.05 | $1,298.94 | $1,300.66
+Index of aggregate weekly hours (2007=100)(3) | 115.9 | 116.7 | 117.2 | 117.2
+Over-the-month percent change | 0.1 | 0.0 | 0.4 | 0.0
+Index of aggregate weekly payrolls (2007=100)(4) | 203.4 | 210.1 | 211.5 | 211.9
+Over-the-month percent change | 0.3 | 0.1 | 0.7 | 0.2
+DIFFUSION INDEX(Over 1-month span)(5)
+Total private (250 industries) | 50.4 | 54.4 | 57.6 | 49.0
+Manufacturing (72 industries) | 47.2 | 52.1 | 63.9 | 46.5
+Footnotes (1) Includes other industries, not shown separately. (2) Data relate to production employees in mining and logging and manufacturing, construction employees in construction, and nonsupervisory employees in the service-providing industries. (3) The indexes of aggregate weekly hours are calculated by dividing the current month's estimates of aggregate hours by the corresponding annual average aggregate hours. (4) The indexes of aggregate weekly payrolls are calculated by dividing the current month's estimates of aggregate weekly payrolls by the corresponding annual average aggregate weekly payrolls. (5) Figures are the percent of industries with employment increasing plus one-half of the industries with unchanged employment, where 50 percent indicates an equal balance between industries with increasing and decreasing employment. (p) Preliminary
+NOTE: Data have been revised to reflect March 2025 benchmark levels and updated seasonal adjustment factors.
+
+
+===== https://www.bls.gov/news.release/empsit.t17.htm fetched 2026-10-02 08:30 EDT =====
+Industry | Not seasonally adjusted | Seasonally adjusted
+Sept.2025 | July2026 | Aug.2026(p) | Sept.2026(p) | Sept.2025 | July2026 | Aug.2026(p) | Sept.2026(p) | Change from: Aug.2026 - Sept.2026(p)
+Total nonfarm | 158,729 | 158,709 | 158,905 | 159,238 | 158,548 | 158,882 | 159,015 | 159,044 | 29
+Total private | 135,161 | 136,571 | 136,406 | 135,883 | 135,005 | 135,582 | 135,671 | 135,717 | 46
+Goods-producing | 21,633 | 21,855 | 21,880 | 21,783 | 21,472 | 21,571 | 21,605 | 21,623 | 18
+Mining and logging | 609 | 612 | 615 | 611 | 605 | 606 | 609 | 607 | -2
+Logging | 39.7 | 40.1 | 40.7 | 41.0 | 39.0 | 39.1 | 39.5 | 39.9 | 0.4
+Mining, quarrying, and oil and gas extraction | 569.7 | 572.3 | 574.4 | 570.2 | 566.1 | 566.5 | 569.0 | 566.9 | -2.1
+Oil and gas extraction | 115.6 | 115.7 | 115.4 | 113.6 | 115.9 | 114.6 | 114.7 | 114.1 | -0.6
+Mining (except oil and gas) | 190.3 | 193.9 | 193.0 | 191.9 | 188.1 | 189.4 | 189.8 | 189.6 | -0.2
+Coal mining | 39.3 | 38.3 | 38.0 | 37.9 | 39.3 | 37.9 | 38.0 | 37.9 | -0.1
+Metal ore mining | 44.7 | 46.9 | 46.9 | 46.8 | 44.7 | 46.6 | 46.8 | 46.9 | 0.1
+Nonmetallic mineral mining and quarrying | 106.3 | 108.7 | 108.1 | 107.2 | 104.1 | 104.9 | 105.1 | 104.8 | -0.3
+Support activities for mining | 263.8 | 262.7 | 266.0 | 264.7 | 262.1 | 262.5 | 264.5 | 263.2 | -1.3
+Construction | 8,401 | 8,533 | 8,553 | 8,504 | 8,255 | 8,337 | 8,353 | 8,364 | 11
+Construction of buildings | 1,859.6 | 1,900.7 | 1,898.0 | 1,883.6 | 1,846.4 | 1,864.4 | 1,869.2 | 1,873.4 | 4.2
+Residential building construction | 932.4 | 929.8 | 931.7 | 928.3 | 926.7 | 914.4 | 919.7 | 922.7 | 3.0
+Nonresidential building construction | 927.2 | 970.9 | 966.3 | 955.3 | 919.7 | 950.0 | 949.5 | 950.7 | 1.2
+Heavy and civil engineering construction | 1,235.1 | 1,249.0 | 1,256.7 | 1,259.3 | 1,184.5 | 1,205.6 | 1,208.2 | 1,210.8 | 2.6
+Specialty trade contractors | 5,305.9 | 5,382.9 | 5,398.2 | 5,360.6 | 5,224.0 | 5,266.8 | 5,275.5 | 5,279.9 | 4.4
+Residential specialty trade contractors | 2,402.3 | 2,398.3 | 2,402.9 | 2,370.0 | 2,369.1 | 2,345.6 | 2,348.2 | 2,340.3 | -7.9
+Nonresidential specialty trade contractors | 2,903.6 | 2,984.6 | 2,995.3 | 2,990.6 | 2,854.9 | 2,921.2 | 2,927.3 | 2,939.6 | 12.3
+Manufacturing | 12,623 | 12,710 | 12,712 | 12,668 | 12,612 | 12,628 | 12,643 | 12,652 | 9
+Durable goods | 7,812 | 7,918 | 7,923 | 7,899 | 7,814 | 7,876 | 7,890 | 7,898 | 8
+Wood product manufacturing | 401.9 | 396.3 | 395.1 | 394.8 | 401.4 | 393.1 | 391.9 | 394.0 | 2.1
+Nonmetallic mineral product manufacturing | 422.6 | 426.9 | 426.4 | 424.1 | 419.1 | 422.1 | 421.6 | 420.8 | -0.8
+Primary metal manufacturing | 363.5 | 371.4 | 371.4 | 368.9 | 363.4 | 368.1 | 369.3 | 369.1 | -0.2
+Fabricated metal product manufacturing | 1,433.2 | 1,461.6 | 1,462.7 | 1,458.1 | 1,436.2 | 1,454.7 | 1,461.5 | 1,460.6 | -0.9
+Machinery manufacturing | 1,081.4 | 1,099.4 | 1,098.4 | 1,097.4 | 1,085.7 | 1,091.5 | 1,096.5 | 1,101.0 | 4.5
+Computer and electronic product manufacturing | 994.0 | 1,003.8 | 1,007.2 | 1,001.1 | 993.7 | 997.4 | 1,000.3 | 1,000.4 | 0.1
+Computer and peripheral equipment manufacturing | 100.1 | 100.3 | 100.7 | 99.5 | 100.0 | 100.0 | 99.7 | 99.4 | -0.3
+Communications equipment manufacturing | 80.2 | 83.7 | 83.9 | 82.6 | 80.2 | 83.3 | 83.7 | 82.7 | -1.0
+Semiconductor and other electronic component manufacturing | 373.3 | 373.3 | 374.7 | 372.9 | 372.7 | 370.0 | 371.5 | 372.7 | 1.2
+Navigational, measuring, electromedical, and control instruments manufacturing | 411.7 | 419.9 | 421.1 | 419.6 | 412.2 | 418.1 | 419.1 | 419.4 | 0.3
+Manufacturing and reproducing magnetic and optical media and audio and video equipment manufacturing | 28.7 | 26.6 | 26.8 | 26.5 | 28.5 | 26.1 | 26.3 | 26.2 | -0.1
+Electrical equipment, appliance, and component manufacturing | 428.7 | 443.9 | 444.4 | 446.1 | 429.0 | 441.8 | 444.5 | 446.3 | 1.8
+Transportation equipment manufacturing(1) | 1,739.9 | 1,767.0 | 1,771.6 | 1,772.5 | 1,735.4 | 1,766.2 | 1,763.0 | 1,766.4 | 3.4
+Motor vehicles and parts(2) | 965.3 | 960.4 | 965.6 | 968.0 | 960.9 | 968.2 | 960.9 | 962.5 | 1.6
+Furniture and related product manufacturing | 337.0 | 332.1 | 331.9 | 326.2 | 338.1 | 328.6 | 329.4 | 327.4 | -2.0
+Miscellaneous manufacturing | 609.5 | 615.3 | 613.7 | 609.9 | 612.1 | 612.8 | 611.8 | 612.0 | 0.2
+Nondurable goods | 4,811 | 4,792 | 4,789 | 4,769 | 4,798 | 4,752 | 4,753 | 4,754 | 1
+Food manufacturing | 1,794.3 | 1,785.1 | 1,787.2 | 1,778.8 | 1,784.1 | 1,769.0 | 1,768.6 | 1,768.2 | -0.4
+Textile mills | 82.3 | 77.4 | 78.3 | 78.5 | 82.1 | 77.1 | 78.3 | 78.1 | -0.2
+Textile product mills | 92.2 | 92.8 | 93.6 | 93.4 | 92.5 | 93.1 | 93.6 | 93.7 | 0.1
+Apparel manufacturing | 78.4 | 72.5 | 72.6 | 71.3 | 78.7 | 72.2 | 72.0 | 71.4 | -0.6
+Paper manufacturing | 355.6 | 356.9 | 355.6 | 353.1 | 355.8 | 355.9 | 355.7 | 353.1 | -2.6
+Printing and related support activities | 341.6 | 339.6 | 337.9 | 334.6 | 341.8 | 338.9 | 337.6 | 335.8 | -1.8
+Petroleum and coal products manufacturing | 111.5 | 112.1 | 110.5 | 110.7 | 110.1 | 109.4 | 109.0 | 109.2 | 0.2
+Chemical manufacturing | 900.3 | 909.2 | 908.5 | 904.8 | 902.1 | 902.6 | 904.6 | 905.5 | 0.9
+Plastics and rubber products manufacturing | 698.0 | 693.2 | 692.8 | 692.1 | 701.3 | 689.9 | 690.3 | 694.9 | 4.6
+Beverage, tobacco, and leather and allied product manufacturing | 357.1 | 353.3 | 352.0 | 351.3 | 349.2 | 343.6 | 343.6 | 343.7 | 0.1
+Private service-providing | 113,528 | 114,716 | 114,526 | 114,100 | 113,533 | 114,011 | 114,066 | 114,094 | 28
+Trade, transportation, and utilities | 28,596 | 28,716 | 28,660 | 28,666 | 28,725 | 28,751 | 28,760 | 28,778 | 18
+Wholesale trade | 6,045.2 | 6,095.8 | 6,082.0 | 6,074.5 | 6,051.8 | 6,065.3 | 6,073.3 | 6,078.3 | 5.0
+Merchant wholesalers, durable goods | 3,393.2 | 3,432.8 | 3,424.1 | 3,425.2 | 3,399.4 | 3,416.1 | 3,422.2 | 3,429.3 | 7.1
+Merchant wholesalers, nondurable goods | 2,209.8 | 2,216.0 | 2,211.1 | 2,206.5 | 2,210.9 | 2,203.7 | 2,207.0 | 2,206.5 | -0.5
+Wholesale trade agents and brokers | 442.2 | 447.0 | 446.8 | 442.8 | 441.5 | 445.5 | 444.1 | 442.5 | -1.6
+Retail trade | 15,345.6 | 15,509.4 | 15,457.9 | 15,378.4 | 15,453.4 | 15,479.2 | 15,474.1 | 15,479.9 | 5.8
+Motor vehicle and parts dealers | 2,050.4 | 2,064.0 | 2,059.7 | 2,056.7 | 2,047.2 | 2,052.2 | 2,051.5 | 2,053.6 | 2.1
+Automobile dealers | 1,291.9 | 1,289.1 | 1,285.4 | 1,282.8 | 1,291.6 | 1,286.4 | 1,283.4 | 1,283.3 | -0.1
+Other motor vehicle dealers | 159.8 | 167.0 | 164.7 | 162.0 | 158.0 | 159.9 | 159.4 | 160.5 | 1.1
+Automotive parts, accessories, and tire retailers | 598.7 | 607.9 | 609.6 | 611.9 | 597.6 | 605.9 | 608.7 | 609.8 | 1.1
+Building material and garden equipment and supplies dealers | 1,347.6 | 1,388.7 | 1,359.2 | 1,342.6 | 1,367.3 | 1,357.0 | 1,356.1 | 1,360.3 | 4.2
+Food and beverage retailers | 3,242.8 | 3,260.7 | 3,247.6 | 3,227.1 | 3,264.2 | 3,253.3 | 3,246.4 | 3,248.1 | 1.7
+Furniture, home furnishings, electronics, and appliance retailers | 765.5 | 744.5 | 743.0 | 746.0 | 771.4 | 755.5 | 753.0 | 751.8 | -1.2
+Furniture and home furnishings retailers | 388.3 | 382.3 | 382.2 | 380.1 | 392.8 | 387.4 | 387.9 | 385.6 | -2.3
+Electronics and appliance retailers | 377.2 | 362.2 | 360.8 | 365.9 | 378.6 | 368.1 | 365.1 | 366.2 | 1.1
+General merchandise retailers | 3,222.1 | 3,221.5 | 3,240.4 | 3,236.3 | 3,246.9 | 3,251.7 | 3,261.8 | 3,257.0 | -4.8
+Department stores | 907.2 | 919.5 | 934.3 | 929.2 | 926.3 | 944.7 | 947.8 | 947.1 | -0.7
+Warehouse clubs, supercenters, and other general merchandise retailers | 2,314.9 | 2,302.0 | 2,306.1 | 2,307.1 | 2,320.6 | 2,307.0 | 2,314.0 | 2,309.9 | -4.1
+Health and personal care retailers | 1,047.9 | 1,049.8 | 1,039.6 | 1,040.3 | 1,056.5 | 1,053.4 | 1,052.1 | 1,048.4 | -3.7
+Gasoline stations and fuel dealers | 1,054.6 | 1,072.4 | 1,068.0 | 1,067.4 | 1,052.7 | 1,060.8 | 1,057.8 | 1,065.1 | 7.3
+Clothing, clothing accessories, shoe, and jewelry retailers | 1,126.2 | 1,156.6 | 1,153.8 | 1,131.5 | 1,150.0 | 1,151.7 | 1,151.9 | 1,152.5 | 0.6
+Sporting goods, hobby, musical instrument, book, and miscellaneous retailers | 1,488.5 | 1,551.2 | 1,546.6 | 1,530.5 | 1,497.2 | 1,543.6 | 1,543.5 | 1,543.1 | -0.4
+Transportation and warehousing | 6,604.9 | 6,497.2 | 6,507.3 | 6,602.7 | 6,618.5 | 6,597.8 | 6,601.1 | 6,608.7 | 7.6
+Air transportation | 569.8 | 570.9 | 569.6 | 567.7 | 570.2 | 568.3 | 567.3 | 568.5 | 1.2
+Rail transportation | 153.5 | 149.6 | 149.2 | 149.2 | 153.7 | 148.8 | 149.2 | 148.9 | -0.3
+Water transportation | 72.2 | 74.5 | 73.9 | 72.3 | 70.8 | 70.4 | 70.7 | 70.9 | 0.2
+Truck transportation | 1,486.5 | 1,480.6 | 1,487.9 | 1,488.2 | 1,472.3 | 1,466.3 | 1,470.5 | 1,473.1 | 2.6
+Transit and ground passenger transportation | 503.8 | 426.8 | 434.5 | 516.0 | 489.7 | 492.7 | 497.7 | 500.8 | 3.1
+Pipeline transportation | 56.4 | 57.1 | 57.1 | 56.6 | 56.5 | 57.2 | 56.8 | 56.6 | -0.2
+Scenic and sightseeing transportation | 41.0 | 43.3 | 41.5 | 39.9 | 36.0 | 32.9 | 32.6 | 33.5 | 0.9
+Support activities for transportation | 826.7 | 826.8 | 834.4 | 833.8 | 829.4 | 827.3 | 831.5 | 835.0 | 3.5
+Couriers and messengers | 1,034.0 | 1,040.2 | 1,031.1 | 1,041.3 | 1,086.5 | 1,095.4 | 1,088.9 | 1,089.6 | 0.7
+Warehousing and storage | 1,861.0 | 1,827.4 | 1,828.1 | 1,837.7 | 1,853.4 | 1,838.5 | 1,835.9 | 1,831.8 | -4.1
+Utilities | 599.9 | 613.6 | 612.4 | 609.9 | 601.4 | 608.9 | 611.0 | 611.5 | 0.5
+Information | 2,852 | 2,785 | 2,764 | 2,739 | 2,859 | 2,767 | 2,749 | 2,739 | -10
+Motion picture and sound recording industries | 340.5 | 338.2 | 340.5 | 320.7 | 348.8 | 330.4 | 328.7 | 328.5 | -0.2
+Publishing industries | 916.9 | 895.6 | 889.0 | 889.5 | 913.0 | 890.0 | 884.4 | 880.4 | -4.0
+Broadcasting and content providers | 342.5 | 334.3 | 329.7 | 328.0 | 342.5 | 333.5 | 331.1 | 328.1 | -3.0
+Telecommunications | 595.0 | 571.8 | 563.9 | 564.6 | 595.1 | 569.1 | 566.3 | 564.6 | -1.7
+Computing infrastructure providers, data processing, web hosting, and related services | 473.9 | 459.9 | 455.8 | 452.1 | 476.3 | 461.1 | 455.4 | 453.8 | -1.6
+Web search portals, libraries, archives, and other information services | 182.8 | 185.4 | 184.9 | 183.9 | 183.1 | 183.2 | 183.1 | 183.3 | 0.2
+Financial activities | 9,190 | 9,162 | 9,139 | 9,082 | 9,189 | 9,098 | 9,089 | 9,082 | -7
+Finance and insurance | 6,730.0 | 6,682.2 | 6,671.1 | 6,636.5 | 6,737.9 | 6,659.5 | 6,651.6 | 6,644.6 | -7.0
+Monetary authorities-central bank | 19.5 | 18.5 | 18.4 | 18.4 | 19.6 | 18.3 | 18.4 | 18.3 | -0.1
+Credit intermediation and related activities | 2,560.0 | 2,538.9 | 2,533.7 | 2,516.9 | 2,565.1 | 2,530.8 | 2,526.5 | 2,521.9 | -4.6
+Depository credit intermediation(1) | 1,782.6 | 1,774.9 | 1,772.2 | 1,763.3 | 1,787.0 | 1,769.7 | 1,767.9 | 1,767.1 | -0.8
+Commercial banking | 1,369.5 | 1,354.4 | 1,351.6 | 1,344.4 | 1,373.0 | 1,350.6 | 1,348.0 | 1,347.5 | -0.5
+Nondepository credit intermediation | 497.0 | 491.2 | 488.7 | 484.6 | 497.8 | 489.8 | 487.8 | 485.6 | -2.2
+Activities related to credit intermediation | 280.4 | 272.8 | 272.8 | 269.0 | 280.3 | 271.3 | 270.8 | 269.2 | -1.6
+Securities, commodity contracts, funds, trusts, and other financial vehicles, investments, and related activities | 1,146.6 | 1,185.5 | 1,184.2 | 1,171.9 | 1,146.8 | 1,172.6 | 1,174.0 | 1,174.0 | 0.0
+Insurance carriers and related activities | 3,003.9 | 2,939.3 | 2,934.8 | 2,929.3 | 3,006.4 | 2,937.8 | 2,932.7 | 2,930.4 | -2.3
+Real estate and rental and leasing | 2,460.2 | 2,480.0 | 2,468.0 | 2,445.0 | 2,451.3 | 2,438.8 | 2,437.2 | 2,437.7 | 0.5
+Real estate | 1,852.6 | 1,866.7 | 1,857.5 | 1,839.9 | 1,853.1 | 1,846.4 | 1,844.0 | 1,842.0 | -2.0
+Rental and leasing services | 585.8 | 592.1 | 589.4 | 584.3 | 576.4 | 571.4 | 572.2 | 574.9 | 2.7
+Lessors of nonfinancial intangible assets (except copyrighted works) | 21.8 | 21.2 | 21.1 | 20.8 | 21.8 | 21.0 | 21.0 | 20.8 | -0.2
+Professional and business services | 22,433 | 22,640 | 22,626 | 22,547 | 22,359 | 22,496 | 22,491 | 22,482 | -9
+Professional, scientific, and technical services | 10,678.2 | 10,883.3 | 10,836.6 | 10,755.1 | 10,760.6 | 10,835.9 | 10,837.2 | 10,843.6 | 6.4
+Legal services | 1,216.5 | 1,257.1 | 1,242.6 | 1,239.9 | 1,226.2 | 1,246.1 | 1,247.0 | 1,249.0 | 2.0
+Accounting, tax preparation, bookkeeping, and payroll services | 1,086.1 | 1,094.3 | 1,080.6 | 1,075.6 | 1,128.5 | 1,124.7 | 1,122.5 | 1,121.2 | -1.3
+Architectural, engineering, and related services | 1,731.3 | 1,797.1 | 1,791.1 | 1,776.9 | 1,733.8 | 1,770.1 | 1,773.0 | 1,778.8 | 5.8
+Specialized design services | 147.7 | 151.2 | 151.8 | 152.7 | 147.8 | 151.0 | 151.4 | 152.6 | 1.2
+Computer systems design and related services | 2,370.0 | 2,376.8 | 2,373.0 | 2,337.0 | 2,387.6 | 2,362.0 | 2,359.8 | 2,355.4 | -4.4
+Management, scientific, and technical consulting services | 1,853.7 | 1,894.4 | 1,888.0 | 1,879.3 | 1,860.0 | 1,889.3 | 1,889.5 | 1,888.1 | -1.4
+Scientific research and development services | 910.5 | 928.9 | 925.0 | 915.1 | 912.2 | 916.4 | 916.3 | 918.3 | 2.0
+Advertising, public relations, and related services | 480.0 | 479.0 | 477.6 | 478.2 | 481.3 | 477.4 | 476.8 | 478.6 | 1.8
+Other professional, scientific, and technical services | 882.4 | 904.5 | 906.9 | 900.4 | 883.2 | 898.9 | 901.0 | 901.6 | 0.6
+Management of companies and enterprises | 2,626.4 | 2,640.6 | 2,633.7 | 2,619.9 | 2,627.8 | 2,620.8 | 2,620.1 | 2,619.6 | -0.5
+Administrative and support and waste management and remediation services | 9,128.3 | 9,116.0 | 9,155.8 | 9,172.2 | 8,970.1 | 9,039.3 | 9,033.9 | 9,018.6 | -15.3
+Administrative and support services | 8,605.7 | 8,583.9 | 8,625.5 | 8,642.3 | 8,449.3 | 8,512.8 | 8,508.2 | 8,490.6 | -17.6
+Office administrative services | 617.5 | 642.6 | 639.4 | 633.2 | 616.6 | 635.6 | 636.1 | 632.8 | -3.3
+Facilities support services | 181.5 | 179.2 | 180.5 | 180.9 | 180.7 | 178.5 | 179.4 | 180.0 | 0.6
+Employment services(1) | 3,233.3 | 3,142.7 | 3,203.1 | 3,256.6 | 3,157.4 | 3,197.0 | 3,195.9 | 3,181.6 | -14.3
+Temporary help services | 2,538.2 | 2,444.0 | 2,503.1 | 2,556.4 | 2,471.6 | 2,497.5 | 2,497.7 | 2,486.8 | -10.9
+Business support services | 642.9 | 618.9 | 618.7 | 618.2 | 643.4 | 625.5 | 622.4 | 618.2 | -4.2
+Travel arrangement and reservation services | 186.1 | 189.6 | 186.9 | 186.4 | 186.3 | 186.4 | 185.6 | 185.6 | 0.0
+Investigation and security services | 1,053.2 | 1,045.8 | 1,048.4 | 1,050.6 | 1,049.1 | 1,048.0 | 1,046.7 | 1,046.4 | -0.3
+Services to buildings and dwellings | 2,361.3 | 2,430.7 | 2,416.4 | 2,379.5 | 2,287.9 | 2,307.4 | 2,309.6 | 2,311.0 | 1.4
+Other support services | 329.9 | 334.4 | 332.1 | 336.9 | 327.9 | 334.5 | 332.6 | 335.2 | 2.6
+Waste management and remediation services | 522.6 | 532.1 | 530.3 | 529.9 | 520.8 | 526.5 | 525.7 | 528.0 | 2.3
+Private education and health services | 27,442 | 27,658 | 27,708 | 27,947 | 27,489 | 27,947 | 27,985 | 28,005 | 20
+Private educational services | 4,036.2 | 3,763.8 | 3,790.7 | 4,035.3 | 4,050.3 | 4,046.1 | 4,049.6 | 4,046.4 | -3.2
+Health care and social assistance | 23,405.5 | 23,894.5 | 23,917.3 | 23,911.9 | 23,438.2 | 23,900.5 | 23,935.6 | 23,958.6 | 23.0
+Health care(3) | 18,169.5 | 18,524.6 | 18,536.4 | 18,531.7 | 18,181.8 | 18,512.5 | 18,536.9 | 18,553.6 | 16.7
+Ambulatory health care services | 9,036.3 | 9,233.8 | 9,236.8 | 9,244.7 | 9,053.1 | 9,241.8 | 9,253.0 | 9,266.4 | 13.4
+Offices of physicians | 3,014.9 | 3,053.1 | 3,056.1 | 3,051.5 | 3,024.8 | 3,058.6 | 3,061.6 | 3,062.7 | 1.1
+Offices of dentists | 1,045.0 | 1,058.7 | 1,055.5 | 1,051.9 | 1,049.1 | 1,058.0 | 1,053.6 | 1,057.6 | 4.0
+Offices of other health practitioners | 1,305.5 | 1,354.8 | 1,349.7 | 1,358.6 | 1,309.2 | 1,353.2 | 1,355.6 | 1,362.3 | 6.7
+Outpatient care centers | 1,178.1 | 1,193.5 | 1,194.1 | 1,197.2 | 1,179.7 | 1,194.8 | 1,196.3 | 1,199.7 | 3.4
+Medical and diagnostic laboratories | 310.2 | 311.9 | 310.6 | 309.1 | 310.9 | 311.8 | 310.3 | 309.6 | -0.7
+Home health care services | 1,816.1 | 1,880.2 | 1,891.7 | 1,896.2 | 1,813.5 | 1,884.7 | 1,896.5 | 1,894.2 | -2.3
+Other ambulatory health care services | 366.5 | 381.6 | 379.1 | 380.2 | 365.9 | 380.7 | 379.1 | 380.2 | 1.1
+Hospitals | 5,695.0 | 5,779.7 | 5,789.5 | 5,800.8 | 5,689.7 | 5,774.4 | 5,785.8 | 5,797.8 | 12.0
+Nursing and residential care facilities | 3,438.2 | 3,511.1 | 3,510.1 | 3,486.2 | 3,439.0 | 3,496.3 | 3,498.1 | 3,489.4 | -8.7
+Skilled nursing care facilities | 1,561.3 | 1,595.8 | 1,594.8 | 1,589.5 | 1,557.3 | 1,588.8 | 1,589.0 | 1,587.4 | -1.6
+Residential intellectual and developmental disability, mental health, and substance abuse facilities | 694.8 | 709.5 | 708.2 | 707.2 | 695.9 | 707.6 | 707.9 | 708.9 | 1.0
+Continuing care retirement communities and assisted living facilities for the elderly | 1,009.8 | 1,033.6 | 1,034.4 | 1,018.2 | 1,013.9 | 1,028.0 | 1,029.1 | 1,022.1 | -7.0
+Other residential care facilities | 172.3 | 172.2 | 172.7 | 171.3 | 171.9 | 172.0 | 172.2 | 171.1 | -1.1
+Social assistance | 5,236.0 | 5,369.9 | 5,380.9 | 5,380.2 | 5,256.4 | 5,388.0 | 5,398.7 | 5,405.0 | 6.3
+Individual and family services | 3,636.2 | 3,793.4 | 3,791.8 | 3,788.5 | 3,648.8 | 3,782.4 | 3,791.1 | 3,801.6 | 10.5
+Community food and housing, and emergency and other relief services | 231.8 | 237.6 | 237.0 | 236.2 | 234.1 | 236.3 | 238.0 | 238.2 | 0.2
+Vocational rehabilitation services | 278.3 | 282.7 | 283.9 | 276.8 | 279.7 | 279.1 | 281.0 | 279.0 | -2.0
+Child care services | 1,089.7 | 1,056.2 | 1,068.2 | 1,078.7 | 1,093.9 | 1,090.2 | 1,088.6 | 1,086.3 | -2.3
+Leisure and hospitality | 17,022 | 17,650 | 17,551 | 17,097 | 16,907 | 16,922 | 16,959 | 16,969 | 10
+Arts, entertainment, and recreation | 2,740.6 | 2,989.2 | 2,927.9 | 2,706.9 | 2,701.7 | 2,660.4 | 2,656.6 | 2,659.1 | 2.5
+Performing arts, spectator sports, and related industries | 630.5 | 606.0 | 612.8 | 616.1 | 609.6 | 590.4 | 589.5 | 596.2 | 6.7
+Museums, historical sites, and similar institutions | 182.1 | 198.1 | 193.8 | 183.6 | 180.2 | 183.3 | 183.7 | 182.6 | -1.1
+Amusement, gambling, and recreation industries | 1,928.0 | 2,185.1 | 2,121.3 | 1,907.2 | 1,911.9 | 1,886.7 | 1,883.4 | 1,880.3 | -3.1
+Accommodation and food services | 14,281.3 | 14,661.1 | 14,623.2 | 14,390.4 | 14,205.3 | 14,261.8 | 14,302.3 | 14,309.5 | 7.2
+Accommodation | 1,961.4 | 2,061.4 | 2,040.1 | 1,955.7 | 1,921.4 | 1,913.4 | 1,920.1 | 1,916.5 | -3.6
+Food services and drinking places | 12,319.9 | 12,599.7 | 12,583.1 | 12,434.7 | 12,283.9 | 12,348.4 | 12,382.2 | 12,393.0 | 10.8
+Other services | 5,993 | 6,105 | 6,078 | 6,022 | 6,005 | 6,030 | 6,033 | 6,039 | 6
+Repair and maintenance | 1,474.6 | 1,485.5 | 1,482.6 | 1,469.8 | 1,476.3 | 1,480.1 | 1,476.8 | 1,472.9 | -3.9
+Personal and laundry services | 1,602.1 | 1,627.9 | 1,628.6 | 1,621.4 | 1,600.3 | 1,611.3 | 1,620.9 | 1,621.1 | 0.2
+Religious, grantmaking, civic, professional, and similar organizations | 2,916.5 | 2,991.9 | 2,966.3 | 2,930.4 | 2,928.8 | 2,938.9 | 2,935.2 | 2,944.6 | 9.4
+Government | 23,568 | 22,138 | 22,499 | 23,355 | 23,543 | 23,300 | 23,344 | 23,327 | -17
+Federal | 2,909 | 2,687 | 2,685 | 2,686 | 2,914 | 2,686 | 2,683 | 2,682 | -1
+Federal, except U.S. Postal Service | 2,320.0 | 2,086.0 | 2,089.7 | 2,092.6 | 2,321.5 | 2,083.5 | 2,082.6 | 2,083.3 | 0.7
+U.S. Postal Service | 589.2 | 601.4 | 594.9 | 593.2 | 592.7 | 602.1 | 600.3 | 598.4 | -1.9
+State government | 5,570 | 5,137 | 5,208 | 5,546 | 5,497 | 5,482 | 5,475 | 5,472 | -3
+State government education | 2,689.6 | 2,255.1 | 2,320.2 | 2,669.7 | 2,621.2 | 2,616.7 | 2,604.5 | 2,601.8 | -2.7
+State government, excluding education | 2,880.8 | 2,881.7 | 2,887.8 | 2,876.0 | 2,875.3 | 2,864.8 | 2,870.3 | 2,870.6 | 0.3
+Local government | 15,089 | 14,314 | 14,606 | 15,123 | 15,132 | 15,132 | 15,186 | 15,173 | -13
+Local government education | 8,204.0 | 7,100.8 | 7,450.2 | 8,173.3 | 8,234.0 | 8,157.4 | 8,206.7 | 8,204.9 | -1.8
+Local government, excluding education | 6,885.4 | 7,213.0 | 7,155.6 | 6,950.0 | 6,898.4 | 6,974.4 | 6,978.9 | 6,968.3 | -10.6
+Footnotes (1) Includes other industries, not shown separately. (2) Includes motor vehicle manufacturing, motor vehicle body and trailer manufacturing, and motor vehicle parts manufacturing. (3) Includes ambulatory health care services, hospitals, and nursing and residential care facilities. (p) Preliminary
+NOTE: Data have been revised to reflect March 2025 benchmark levels and updated seasonal adjustment factors.
