@@ -252,3 +252,34 @@ An independent Opus reader (read-only, own counterexamples) found **no ❌**. It
 - ⚠️ **§3c's frozen "Score +1 ⇒ 30/75" is stale** — it was written at 29/75; the score went 29 → 28 on 9/29. **v8 → 3 now gives 29/75.** Frozen text left as written; this line governs the arithmetic.
 - **CARL has now ruled (CARL `docket/CATALYSTS.tsv`, pre-registered 2026-10-01 12:24 ET, commit `2288ba032`):** branch (B) — a net revision **R = 0 exactly is NOT satisfied** for CARL's V16 and its count resets; my v8 leg 2 reads **R ≥ 0** and passes at zero. **Two different tests, never one grade.** ⚠️ Definitions also differ: **CARL reads R as the net revision the release STATES; I compute `(J − 21) + (A − 162)` from PAYEMS levels.** Normally identical — if they differ on 10/2, each desk grades on its own definition and the difference is recorded.
 - **Source tag:** HENRY's STATUS tags the CR-to-12/11 fact SECONDARY and only the BLS/BEA "no lapse notice" PRIMARY.
+
+---
+
+# ✅ §8 GRADE — written 2026-10-02 08:3x EDT off the frozen card + Amendments 1–2 (no band read anew)
+
+**Primary:** BLS *The Employment Situation — September 2026*, **USDL-26-1549**, released 2026-10-02 08:30 ET. Graded from the SAVED release text + tables `domain/sources/2026-10-02_USDL-26-1549_empsit_sep2026.txt` (L-33), never from a summary. §4 falsifiers: ① published on schedule ✗ · ② no population-control break (civ. pop +139K, a normal month) ✗ · ③ revised back-months read FIRST ✓ · ④ BLS primary ✓. **Card live.**
+
+**① Revised back-months FIRST (Table B-1 SA levels):** Jun 158,892 · Jul 158,882 · Aug 159,015 · Sep 159,044 ⇒ `J = 158,882 − 158,892 = −10K` (was +21K) · `A = 159,015 − 158,882 = +133K` (was +162K). Net revision `(−10 − 21) + (133 − 162) = −31 + −29 = −60K`. BLS's own text states −60K: **the two definitions agree** (Amd 2 §2a). **§2.2 re-solved:** `J + A = 123` ⇒ `max(150, 300 − 123) = +177K`. The average leg binds. §3a's top edge moves to +177K, and 3a-2 becomes 100K–176K.
+
+**② Letters (CES = one Type-A witness; CPS = one Type-B witness):**
+
+| § | Read | Assignment |
+|---|---|---|
+| 3a | `X = 159,044 − 159,015 = +29K` | **3a-3** — T-06 payroll leg met |
+| 2.2 / Amd 1 | +29K vs +177K | **LEG A ❌ ⇒ freeze-thaw v2 does NOT fire.** LEG B met (59.2 ≥ 59.0), LEG C met (Amd 1), both moot |
+| 2.1 Kill A | revised Jul −10 / Aug +133 / Sep +29 | 0 of 3 |
+| 2.5 T-06 | U-3 4.2% < 4.3% | **NOT FIRED** (U-3 leg short 0.1pp) |
+| 3b | U-3 4.2 × LFPR 61.8 (up, ≥61.7) | **"No band. Record."** Not the absorption cell (needs U-3 ≤4.1) |
+| 3c | net −60K < 0 | **v8 counter RESETS 1 → 0 of 2**; no downward band |
+| 3d / 2.6 / 2.7 | EPOP 59.2 | LEG B satisfied; **T-03 + T-04 NOT FIRED** (bar ≤58.7) |
+| 3e T-08 | Health care +16.7K | not fired |
+| 3e v6 | LT share 27.1% (>27 ✓); BLS text "essentially unchanged" — **no YoY statement** ✗ | v6 holds 3 (both legs required) |
+| 3e T-13 | Federal −1K | not fired; v12 unmoved |
+| 3e AHE | **+3.0% YoY** vs published +3.1% | **1c packet → CARL + HENRY** (sent 10/2) |
+| 2.8 LAB-12 | U-3 4.2 | not resolved |
+
+**③ §3f / §3g:** LAB-18 draw 1 NO-FIRE ⇒ **15% → 10%** (frozen value; the declared Sep-58.8 vs Sep-59.2 split stays unmodelled — 59.2 sits on the far side, so if anything 10% is generous; not re-marked on print day). LAB-19 draw 1 TRUE (LF +485K to 170,262K) ⇒ **60% → 81%**. §3g: Aug second estimate **+133K** (first +162K, first→second −29K). The third estimate (11/6) is graded against the +73.5K / +183.5K watch lines.
+
+**④ Written into STATUS** (KEY THRESHOLDS, matrix v6/v8/v10/v12, EXIT RULES LEG A/B, PREDICTIONS, calendar) and `workbook/PREDICTIONS.tsv`. **No WALTER signal: nothing on §6's fire list fired.**
+
+**⑤ `git mv` to `docket/graded/`: DEFERRED (fold-by 2026-10-05).** Live external citers of this path include TERRY's QQQ sell-or-roll card for today's expiry (`AGENTS/TERRY/setups/QQQ740P_oct02-sell-or-roll_2026-10-01.md`) and RED `docket/CATALYSTS.tsv`. Moving the card on expiry morning would break a live path mid-decision. The grade is recorded, so B5b will not mis-flag it as owed.
