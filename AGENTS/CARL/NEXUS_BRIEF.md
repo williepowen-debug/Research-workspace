@@ -1,9 +1,9 @@
 # CARL — NEXUS Brief
 
-**Status:** 🔴 53/70 unchanged. Fuel pressure eased at the margin (GASREGW posted its first weekly decline since at least 8/31) while the lower-quality credit split kept widening. BEA's annual update made the aggregate saving cushion larger than logged; who holds it is unknown.
+**Status:** 🔴 53/70 unchanged. **10/02: the September NFP (+29K, Jul+Aug revised −60K) failed V16's drop-back letter; count reset to 0 of 2, V16 holds 4.** Fuel pressure eased at the margin (GASREGW posted its first weekly decline since at least 8/31) while the lower-quality credit split kept widening. BEA's annual update made the aggregate saving cushion larger than logged; who holds it is unknown.
 **Domain:** U.S. consumer financial stress and downstream household transmission; bank-level credit belongs to REGINALD.
 **Thesis version:** v2.6.6
-**As of:** 2026-10-02 08:34 ET | **STATUS commit:** the 10/02 V16-grade commit (same commit as this brief; prior = the 10/01 full-closeout commit) *(10/01 PROME due-row drain; prior full refresh 9/24, `domain/sources/2026-09-24_data-catchup.md`)*
+**As of:** 2026-10-02 11:16 ET | **STATUS commit:** the 10/02 full-closeout commit (same commit as this brief; prior `d3b877e7e`, the V16 grade) *(10/02: V16 graded, NOT satisfied, 0 of 2; board_log rotated; full closeout)*
 **Position:** No real capital authority; paper sleeve unchanged except PS-0001..0005 re-pointed CRL-27 → CRL-31 (record-keeping, no capital). Structural references only, no marks.
 
 ## CROSS-DOMAIN
