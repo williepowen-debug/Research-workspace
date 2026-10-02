@@ -191,6 +191,7 @@ def boot_reads(name):
     scanned = 0
     skipped_on_demand = 0
     skipped_scoped = 0
+    inherited_n = 0
     for s, e in spans:
         boot_lvl = len(lines[s]) - len(lines[s].lstrip("#"))
         in_nonboot_sub = False
@@ -203,9 +204,29 @@ def boot_reads(name):
                 continue
             low = l.lower()
             reads = [m.start() for m in READ_VERB_RE.finditer(low)]
+            inherited = False
+            if not reads and STEP_RE.match(l) and FILE_TOKEN_RE.search(l):
+                # DOCKET L530 (2026-10-02): a LIST ITEM carrying file tokens under a read instruction
+                # whose verb sits on the PARENT line ("read these, in order:" / "1. … `A.tsv` + `B.tsv`")
+                # was invisible — every token failed the verb-object test because the verb was one
+                # line up. The verb is inherited from the nearest non-blank line above (≤2 lines) when
+                # that line carries a read verb and no write verb after it. Perimeter note counts them.
+                for k in (i - 1, i - 2):
+                    if k < s or k < 0:
+                        break
+                    prev = lines[k].lower()
+                    if not prev.strip():
+                        continue
+                    pr = [m.start() for m in READ_VERB_RE.finditer(prev)]
+                    if pr and not WRITE_VERB_RE.search(prev[pr[-1]:]) and not any(
+                            kk in prev[pr[-1]:] for kk in ON_DEMAND_MARKERS):
+                        reads, inherited = [0], True
+                    break
             if not reads:
                 continue
             scanned += 1
+            if inherited:
+                inherited_n += 1
             for m in FILE_TOKEN_RE.finditer(l):
                 tok = m.group(1)
                 if tok.startswith(("http", "$")):
@@ -245,7 +266,7 @@ def boot_reads(name):
     if os.path.isfile(status):
         found.setdefault(status, "STATUS.md — universal boot read (root canon)")
     note = (f"perimeter: {len(spans)} boot section(s) in CLAUDE.md, {scanned} 'read' line(s) scanned "
-            f"({skipped_on_demand} on-demand/grep + {skipped_scoped} SCOPED-read token(s) excluded by marker), {len(found)} whole-read file(s) found; "
+            f"({skipped_on_demand} on-demand/grep + {skipped_scoped} SCOPED-read token(s) excluded by marker; {inherited_n} list item(s) inherited the parent line's read verb, L530), {len(found)} whole-read file(s) found; "
             f"boot.py-internal reads and prose outside the boot section NOT seen (heuristic — READS.tsv replaces it)")
     if not spans:
         note = "perimeter: NO boot/spawn section heading found in CLAUDE.md — only STATUS.md assumed; " + note
@@ -291,6 +312,12 @@ P_ADVISORY = "ADVISORY"    # a reading this tool will not adjudicate. Prints, co
 
 READS_TSV = os.path.join(ROOT, "PROME", "registry", "READS.tsv")
 CAP_BEARING_MODES = ("whole", "programmatic")
+# DOCKET L538 (DAEDALUS 2026-10-02): a declared read that lives in ANOTHER repo is declared for
+# visibility and never byte-graded here — the same roots `PROME/tools/reads_check.py` exempts
+# (keep the two tuples equal). Before this, a concrete `RESEARCH-INTAKE/...` row graded "DOES NOT
+# EXIST on disk" (rc 1) and a glob there would have been an empty CLASS row — both wrong, both
+# toward a false defect on a correct declaration (WALTER 9/28).
+EXTERNAL_ROOTS = ("RESEARCH-INTAKE/",)
 VISIBLE_MODES = ("scoped", "grep", "summary")
 
 
@@ -407,6 +434,9 @@ def declared_reads(name, path=None, root=None):
         pth = (r.get("path") or "").strip()
         src = (r.get("source_boot_step") or "READS.tsv").strip()
         if not pth or mode.startswith("RETIRED"):
+            continue
+        if pth.startswith(EXTERNAL_ROOTS):              # another repo (L538): visible, never graded, never a defect
+            visible.append((pth, mode + " · EXTERNAL repo, declared for visibility, not byte-graded", src))
             continue
         if "*" in pth or "?" in pth:                    # a CLASS row: a glob, never one file
             # ── RULE 16 CLASS-ROW RULING (DAEDALUS 2026-09-24, PROME packet `AGENTS/DAEDALUS/inbox/
@@ -973,7 +1003,7 @@ def _fixture(tmp, rows, sizes=None):
 # So: EXPECTED is a CONSTANT compared against the count derived from the SAME if/else that sets
 # the verdict, and the mismatch is appended to the SAME failure list that drives rc. One number,
 # one verdict, no second accumulator to drift. Falsify it by deleting a check, never by trusting it.
-EXPECTED_LEGS = 106
+EXPECTED_LEGS = 112   # +6 at L538 (C12, 2026-10-02)
 
 
 def selftest():
@@ -1027,6 +1057,14 @@ def selftest():
         cb, vis, pr, att, _ = declared_reads("D", m, t)
         chk("C6 absent declared path reported", any("DOES NOT EXIST" in x for _s, x in pr), True)
         chk("C6 absent path not silently measured", len(cb), 0)
+        # C12 (L538) — an EXTERNAL-repo row, concrete or glob, is visible and never a defect: the
+        # concrete form graded "DOES NOT EXIST" before; the glob form would have been an empty class.
+        for ext in ("RESEARCH-INTAKE/data/2026-09-28/news.json", "RESEARCH-INTAKE/data/*/news.json"):
+            m = _fixture(t, [A, f"READ\tD\t{ext}\twhole\ts1\tD\t2026-09-12\tother repo"], {})
+            cb, vis, pr, att, _ = declared_reads("D", m, t)
+            chk(f"C12 external row `{ext}` not graded", len(cb), 0)
+            chk(f"C12 external row `{ext}` visible as EXTERNAL", any("EXTERNAL" in v[1] for v in vis), True)
+            chk(f"C12 external row `{ext}` raises no problem", pr, [])
         # C7 — a RETIRED row is skipped, not measured and not a problem.
         m = _fixture(t, [A, "READ\tD\tgone.md\tRETIRED-2026-09-01\ts1\tD\t2026-09-12\tretired"], {})
         cb, vis, pr, att, _ = declared_reads("D", m, t)
@@ -1477,7 +1515,7 @@ def selftest():
     for f in fail:
         print(f"  ❌ {f}")
     print(f"{'✅' if not fail else '❌'} READ-CAP SELFTEST {ok}/{total} leg(s) pass "
-          f"(R7-stage-2 manifest consumer: C1–C11 + rc contract, frozen tempdir fixtures)")
+          f"(R7-stage-2 manifest consumer: C1–C12 + rc contract, frozen tempdir fixtures)")
     return 0 if not fail else 1
 
 
