@@ -94,3 +94,12 @@ GERMAN_MFG_PMI	53.9	2026-10-01	CURRENT — Sept FINAL via TE 10/01 (S&P primary 
 GERMAN_10Y_BUND_PCT	3.49	2026-10-01T16:3xZ	CURRENT — CORRECTION: supersedes 3.60 [i-i 10/01] shipped to BOND/LIQUID. TE 3.4937 (-9bp) / CNBC 3.494: Bund RALLIED. i-i and Bundesbank read up; contradicted by two vendors.	VX-HANS-3.05
 ITALY_10Y_BTP_PCT	4.696	2026-10-01	CURRENT — TE 10/01 intraday, +6bp, 3-yr high; CNBC 4.687.	VX-HANS-3.09
 ITALY_GERMANY_10Y_SPREAD_BP	120.2	2026-10-01	CURRENT — TE-derived 4.696-3.4937; CNBC 119.3; ~+16bp d/d. T-09 far (needs >200 AND >5.50).	VX-HANS-3.01
+# Status: LIVE. Last real data refresh: 2026-10-02 (content-derived — newest asof cell in this file). Two-clock header per PAT-044.
+GERMAN_10Y_BUND_PCT	3.4656	2026-10-02	CURRENT — TE 10/02 (+5.5bp d/d on vendor own number; sold off from 10/01 flight-to-quality bid). Supersedes 3.49 [10/01].	VX-HANS-3.05
+FRANCE_10Y_OAT_PCT	4.866	2026-10-02	CURRENT — TE 10/02 (+3.6bp d/d); Investing.com close 4.859 day high 4.994 (0.6bp under 5%). "Briefly tops 5%" TE headline NOT cross-vendor confirmed above 5%. Supersedes 4.90 [i-i 10/01].	VX-HANS-3.07
+ITALY_10Y_BTP_PCT	4.606	2026-10-02	CURRENT — TE 10/02 (-10.2bp d/d; pullback from 3-yr high). Supersedes 4.696 [10/01].	VX-HANS-3.09
+FRANCE_GERMANY_10Y_SPREAD_BP	140.0	2026-10-02	CURRENT — TE-derived 4.866-3.4656 [10/02]. i-i basis unreachable 10/02 (page 410); governing basis missing — exit clock cannot start. T-10 state unchanged MET-OPEN; today was periphery UNWIND not France-only. Supersedes 130.3 [i-i 10/01].	VX-HANS-3.02
+ITALY_GERMANY_10Y_SPREAD_BP	114.0	2026-10-02	CURRENT — TE-derived 4.606-3.4656 [10/02]; narrowed 6bp vs 10/01 as BTP fell more than Bund rose. T-09 far (needs >200 AND >5.50).	VX-HANS-3.01
+UK_10Y_GILT_PCT	5.3786	2026-10-02	CURRENT — TE 10/02 ~flat d/d. T-06 12bp under >5.50 orange on the close. Supersedes 5.40 [10/01].	VX-HANS-3.06
+UK_30Y_GILT_PCT	5.91	2026-10-02	CURRENT — TE 10/02 (-3bp d/d close). T-13 9bp under >6.00 orange close line (headroom WIDENED from 6bp 10/01). Supersedes 5.943 [10/01].	VX-HANS-3.08
+UK_GILT_UST_10Y_SPREAD_BP	9.9	2026-10-02	CURRENT — UK 10Y 5.3786 [TE 10/02] minus US 10Y 5.28 [^TNX 10/02]; COMPRESSED 19.3bp vs 29.2 [9/18]. 10bp UNDER Yellow(20); through first band toward Orange(0). ⚠️ Cross-vendor TE+Yahoo, basis named.	VX-HANS-3.04
