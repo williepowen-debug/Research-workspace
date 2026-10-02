@@ -1,4 +1,6 @@
-# EUR/USD funding blind spot: a quoted basis LEVEL is not reachable free; USAGE of the Fed swap lines is. Instrument built, lines PROPOSED, today quiet
+# EUR/USD funding blind spot: a quoted basis LEVEL is not reachable free; USAGE of the Fed swap lines is. Instrument built, lines PROPOSED, ⛔ WITHHELD: no reading is in use
+
+*(Title changed 2026-10-02 08:3x ET. It ended "today quiet", a reading the WITHHELD block below withdraws. CATO D2 found the same text in the STATUS header, which was reconciled the same day.)*
 
 ⛔ **WITHHELD 2026-10-01 13:3x ET (PROME result read 2, `AGENTS/LIQUID/inbox/2026-10-01_from-PROME_usd-swapline-result-read-2-WITHHELD.md`, commit 2493065a9): `scripts/usd_swapline.py` and its proposed letter are NOT for operational use and are NOT to be cited as a reading.** The read closed all 8 first-read defects but found 5 new ones: 2 ACTION, both created by the fix pass (X1 fail-closed ordering prints UNGRADEABLE over a real ALERT when the other leg is down or stale; X2 `--baserate` passes silently with FRED down), and 3 BASIS (X3 the SWPT turn window hides the 2007-12 and 2012-09/10 stress weeks, unsaid; X4 stale "excluded" text beside the new rule; X5 no single consolidated letter). **Fix pass + ONE consolidated letter + the LAST read = DOCKET L568, dated 10/07.** The EUR→USD funding read stays UNMEASURED until then. Last reliable state: the §1 negatives (no free quoted basis) hold; no instrument is in use.
 
@@ -124,3 +126,17 @@ The reader read a2933c095 and was re-pointed at 7ad941929. **Checked each ❌ ag
 **The 9/30 op:** not yet posted at writing (NY Fed posts at settlement, ~16:00 ET 10/1). **Not graded tonight with any turn test; to be reported raw** per PROME. Note: under AC5 a trade-9/30 / settle-10/1 op is not a turn op at all.
 
 **Letter clause, re-settled:** the reconciled letter's "short (≤21 days) ops spanning a quarter-end excluded" is REPLACED by the AC5/AC6/AC7 turn rule (settlement-keyed; turn ops on their own lines; SWPT turn-adjusted). **HANS agreed (a)(b)(c) at `06e40bb7a`; the size/tenor bound on the turn exclusion is LIQUID's post-read change, NOT yet seen by HANS.**
+
+### 7b. CATO D2: item 6 of the L568 single pass. Acceptance condition written 2026-10-02 ~08:3x ET, BEFORE any edit
+
+**Finding** (CATO, `AGENTS/CATO/runs/2026-10-01_2054_system-day-review.md` § D2, `37e0dfec6`; routed by PROME's packet, now `inbox/processed/2026-10-01_from-PROME_CATO-D2-withheld-not-visible-at-tool-entry.md`). A normal run, `main([])`, with fresh and quiet synthetic feeds returns exit 0 and the verdict "below backstop lines". It prints no withdrawal notice.
+**Reproduced by LIQUID on 2026-10-02 at ~08:3x ET** (VERIFIED): CATO's probe gave `return_code 0` and `withheld_banner false`. `git diff dc4c37b438a -- scripts/usd_swapline.py` is empty, so the tool is unchanged since the probe pin.
+**Not edited today.** PROME's packet puts this inside the 10/07 pass, "not before, and not as a new pass". A code change now would be a separate correction pass on an episode that has used 2 of its 3 reads.
+
+**AC-D2 (the properties the repair must have, in the defect's own terms):**
+1. While WITHHELD, a default run (no flags, and every flag that prints a verdict) must NOT print a VERDICT line or any per-op grade that a reader could take as a current reading. It must print one line naming the disposition and its source: `WITHHELD — not for operational use; disposition: PROME DOCKET L568 / analysis §WITHHELD`. It must exit non-zero, with a code distinct from UNGRADEABLE's 2.
+2. The WITHHELD state comes from ONE constant in the script (`WITHHELD = True` plus a pointer string). Clearing it is part of the release after the LAST read, never a side effect of the X1–X5 fixes.
+3. Isolated testing stays possible. `--selftest` runs and reports exactly as now. `--baserate` and an explicit `--force-withheld-test` flag may compute, but every output line is prefixed `WITHHELD-TEST:` and the exit code is non-zero.
+4. Neighbours (WQ-229): *ordinary*, the quiet feeds that CATO used, gives the refusal. *Overlap*, a real ALERT on the feeds while WITHHELD, still gives the refusal with no ALERT text; the ALERT is not leaked as a "safe" exception. *Missing information*, a fetch failure while WITHHELD, gives the refusal before any network call: the refusal runs first, so no network is needed. *Wrong owner*: N/A, there is no external consumer (CATO checked that boot.py does not call the tool). *Concurrent activity*: N/A, it is a single-process CLI with no shared state.
+5. Selftest gains cases covering 1 to 4. CATO's probe, re-run, must report `withheld_banner true` and a non-zero rc.
+
