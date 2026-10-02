@@ -1,2 +1,3 @@
 date_utc	activity	minutes	evidence
 2026-10-02	Directed collection; format diagnosis/repair; five initial reviews; checks and delivery	12	README.md October 2 directed collection; elapsed rounded up plus 2-minute closeout allowance; per-row review minutes are included, not additional
+2026-10-02	Will-authorized PROME handoff and session closeout	4	README.md authorized handoff; rounded active-work allowance, excluding operator approval wait and idle conversation
