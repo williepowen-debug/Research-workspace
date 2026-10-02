@@ -58,7 +58,9 @@
 - **10/2 read:** FLNG rc 0 at 08:31 ET — 182 filings, 182 unique ids, newest 11981; selftest 11/11. One press search: no call/redemption/refi notice. ⇒ **reset HAPPENED — contractual, uncontradicted, not filing-confirmed** (thread §5, KB-242). Told PROME L463 + L126 can close.
 - **Q3 date CONFIRMED:** release Tue 10/20 after close, call Wed 10/21 8:30 ET (OZK release dated 9/30). CALENDAR, boot.py and STATUS set; the 10/1 "not announced" line was wrong and is corrected (Finding 10/2). Nov-2→Dec-22 call-notice window row added.
 - **Inbox 1→0:** PROME lane-query sizing → **query A `when:7d "IQHQ"` ADOPTED alone; Bluerock legs DECLINED** (0/7d; consistent with the BPRE decline). Answered in the PROME memo.
-- **Zero grades/thresholds/weights/conviction moved.** OZK $46.34 (10/1 close; <$45 band 2.9% away).
+- **PROME events ask (10:50, Will's word):** regional-bank calendar 10/2–10/16 → `PROME/inbox/2026-10-02_from-OZK_events-10-02-to-10-16.md` (782469975, 42e766acd). Key: **HBAN prints Thu 10/22 9:00 ET (IR page)**, after the HBAN Oct-16 16P expiry; MTB/TFC/CFG/RF print 10/16 pre-open; JPM/WFC 10/13, BAC 10/14, USB 10/15; WAL not announced (EST ~10/20–22). Book-wide calendar work — not OZK state.
+- **Full closeout 11:13 ET** (PROME ask): Standard desk checklist; no push (PROME pushes).
+- **Zero grades/thresholds/weights/conviction moved.** OZK $46.69 live 10/2 11:13 ET (<$45 band 3.6% away).
 
 ### PRIOR SESSION (2026-10-01 Thu — PROME L0 spawn `prome-0c`, DOCKET L126 reprice day)
 - **Sub-notes reset:** FLNG rc 0 (182, none after 11981) at 12:14 ET → **SCHEDULED-UNCONTRADICTED**. **Indenture read at primary (FDIC FLNG 5869):** CME 3M Term SOFR + 209bp, **Act/360**, fixing time = calculation agent's market practice (agent = OZK). 3M Term SOFR **4.09580% [9/29]** (SINGLE-SOURCE, global-rates.com) → coupon **≈6.19%** → drag **≈+$12.3M/yr (~$0.09 EPS)**, superseding 9/24's ≈$11.2M (overnight-SOFR proxy + 30/360). Call needs 10–60d holder notice that need not be filed ⇒ rc 0 never "confirmed". Next call 1/1/27 (notice 11/2–12/22). → `research/threads/2026-10-01_SUBNOTES_RESET.md`, KB-241. Live surfaces re-based (STATUS/CALENDAR/THESIS §4/SCENARIOS/WEAKNESSES/CHANGELOG); dated threads left as records.
@@ -85,6 +87,12 @@
 - **CATO review (Will-relayed, afternoon): OZ1-OZ4 applied.** ⚠️ **Kill-§1 narrowed to FIRED-LITERAL · mechanism UNDETERMINED** — the "migration-through" dismissal was an inference (a zero-migration flow fits every endpoint). Sub-note redemption now = recalculate (redeem removes ~$280M Tier 2, not just the haircut). Affinius maturity = UNVERIFIED EVENT. OZK-09 attribution guard added (clean searches + no RaDD attribution → STUCK). CATO's next-step advice: **evidence work (Q2 10-Q read, Horton) before more restructuring.**
 - **Q2'26 10-Q FULL READ (Will-directed, evening).** Roster turned over (Sullivan cured; Chapter I/II + Atlanta foreclosed; Boston LS → nonaccrual); **"Dec 18 2025" is Baltimore, not Boston** (Boston = Feb 13 2026; misattributed since April, 7+ surfaces fixed; my morning answer to PROME was wrong); RIAD5409 ≈ The Jack + San Carlos (INFERRED); SM = 5 credits $529M; RaDD pass at 6/30 (elimination); sub-notes capital effect ~−0.16pp retain / ~−0.8pp redeem. KB 231-235.
 - **Zero grades/thresholds/weights/conviction moved.**
+
+### ARMED FOR NEXT WAKE (set 2026-10-02 closeout — no live pane will re-ping)
+1. **CHECK-BY Wed 10/14 — TODO C1 Campus at Horton leasing check** (first in the work order).
+2. **Before Tue 10/20 after close — TODO D3 Q3 scoring card**; then the print **10/20 AMC / call Wed 10/21 8:30 ET** = the "~92-day" RaDD report-back + DOCKET L520 W1–W14 (CHECK-BY 10/31).
+3. **Nov 2 → Dec 22 — sub-notes Jan-1-2027 par-call notice window:** `flng_watch.py` at every boot + a press search (FLNG omits press releases and need not carry a holder notice). A call = 🟠 REGINALD + PROME, recalculate.
+4. **~early Nov — Q3 10-Q:** VERIFY the ≈6.19% floating coupon (OZK is its own calculation agent). **FFIEC JWT expires 11/5 (Will action)** before the ~Nov 1–10 Q3 Call Report pull.
 
 ### NEXT SESSION — carried from 9/27 (Will offered, not yet approved)
 - ~~PROME WQ-295 cadence packet~~ DONE 10/1 (EVENT-DRIVEN declared at PROME's spawn).
