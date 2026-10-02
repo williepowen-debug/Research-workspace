@@ -12,6 +12,8 @@
 - **Packets:** HENRY (FORUM-7 §7 CONCUR) · PROME ×3 (grades + wakes → DOCKET L571–L575; charter receipt + L572 re-date; L572 body-text nit by doorbell).
 - **Memory (carve-out ③):** extended `finding_a_correction_pass_is_unreviewed_work` (n+5) and `finding_frozen_spec_and_the_surfaces_describing_it_drift_apart`.
 
+**Post-closeout addendum 20:01 EDT — PROME review of this session (packet `inbox/2026-10-01_from-PROME_review-of-nexus-4f-commits-one-rule-change-three-smaller.md`, Will-asked):** clean on substance. **① Will RULED in-session: the convergence alarm counts ROOT CAUSES** — Framework 1 now gates on ONE count (Disc-F roots on the antecedent map), desk + class counts stated beside it; routing-table labels "agent" → "root"; Disc-H alert line aligned. ② PRED-38/41 as-made date → 2026-10-01. ③ three-way odds written into both rows (PRED-38 35/35/30 · PRED-41 20/70/10; ⚪ modal on 41 — band redesign at DOCKET L554); note: PRED-38's Q3 k is 0 today (WAL's First Brands charge-off was H1). ④ STATUS already under the stop after the closeout trim (22,734 B = 69.8%). **Disclosure:** a `git pull --ff-only` was run while PROME had uncommitted files — a protocol breach; it was a no-op (HEAD unchanged, reflog checked).
+
 **Open for Will (not NEXUS's):** **WQ-357** duration-short exit (TERRY card; Will's 19:09 intent "will probably sell those tomorrow" — not an [Approve]) · FALCON rung D 85→92 + leg-2 basis · optional 4th charter read.
 
 **Next wake:** Fri 10/2 if asked (NFP 08:30 → M-01 + chain head · HEN-47 → M-03) · **DOCKET L554 Tue 10/6** (L15 letters ×8 · T-28 close · cold-read-3 residue) · DOCKET L553 ~10/9 PRED-50 · L571 10/15 · L558 + L13 cell 15 10/16 · L573 10/30 · L575 ~11/6 · L572 11/10 · L574 11/20.

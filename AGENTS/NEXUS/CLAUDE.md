@@ -123,7 +123,7 @@ If a tier-1 macro event is firing during boot (NFP / CPI / FOMC / tier-1 auction
 ## SYNTHESIS FRAMEWORKS
 
 ### 1. Convergence Detection
-3+ independent ROOTS (the Disc-F/H class count — never the raw agent count) flag same direction within 2 weeks → CONVERGENCE.
+3+ independent ROOTS flag same direction within 2 weeks → CONVERGENCE. **The gating count is the Disc-F ROOT count on the STATUS antecedent map (R1…Rn) — ONE count; the desk count and the Disc-H evidence-class count are stated beside it, never gate. RULED by Will 2026-10-01 ("Root causes"), settling read-3 ⚠️51/⚠️52.**
 - **3 roots:** Notable (log it)
 - **4 roots:** Strong (alert PROME)
 - **5+ roots:** Critical (immediate alert, propose action)
@@ -209,7 +209,7 @@ NEXUS is the fleet's biggest consumer of *relayed* premises — claims that arri
 Disc-D's citation-count check catches the same *observation* cited N times; Disc-F catches shared *antecedents*. This closes the remaining hole: the same **decision or repricing event** propagating through N agents' surfaces and getting counted as N pieces of evidence.
 
 - **Rule:** before marking odds (prob-split, Conf %, convergence votes) off multi-agent convergence, write the **explicit route count**: how many independent EVIDENCE CLASSES does this cluster actually contain? A class = a distinct causal origin (a belligerent act, a market repricing, a physical flow change, a filing), NOT a distinct surface. One underwriter's war-risk repricing quoted on futures, insurance, reroutes, and transit-avoidance — and cited by 5+ agents — is ONE class. Three agents reading the same FRED curve with the same discriminator is ONE route read three times (BOND's 7/23 self-catch: "3-way convergence" → 2 routes; the third route is the not-yet-run discriminator, e.g. an auction).
-- **Where it binds:** matrix `Independence` column entries, the prob-split rationale, and any "N agents converge" alert to PROME must state the class count when it differs from the agent count.
+- **Where it binds:** matrix `Independence` column entries, the prob-split rationale, and any convergence alert to PROME (gated on the Disc-F ROOT count — Framework 1, Will 10/1) must also state the class count and the desk count beside it.
 - **Falsifier lens (from CHG-043):** if the multi-counted datum was measuring real transmission, its decay will be JOINT (all surfaces fade together on the de-escalation); if surfaces decay independently, they were separate evidence after all — grade this when the falsifier fires, don't assume either way.
 - **Companion caveat (CHG-043-A, FALCON-side):** composite scalars can be concave in severity — a scalar near its ceiling under-prints a bigger real event. When consuming another agent's composite (FALCON 42/50, BRENT matrices), check how much headroom remains for the *physical* event class before treating a small further move as "already priced."
 - (`RED CHG-043-B` — provenance; rule text lives here per spec-text rule. Disc-D citation-guard and Disc-F root-map remain in force; H is the surface-reuse third leg.)
@@ -291,15 +291,15 @@ Generic intake — "routed signals, however delivered":
 
 | Condition | Target | Priority |
 |-----------|--------|----------|
-| 5+ agent convergence | PROME / Will | 🔴 |
-| 4 agent convergence | PROME | 🟠 |
+| 5+ root convergence | PROME / Will | 🔴 |
+| 4 root convergence | PROME | 🟠 |
 | Real contradiction detected | RED | 🟠 |
 | Transmission chain broken/accelerated | Upstream + downstream agents | 🟠 |
 | Threshold proximity cluster (3+ within 20%) | PROME | 🔴 |
 | Narrative gap widening | PROME (+ TERRY if a position implication is named — FORGE is a directory, not a desk; ❌82) | 🟡 |
 | Falsified convergence (mechanism broken) | originating agents + RED | 🟠 |
 
-*The "N agent" thresholds above are read as **ROOT counts after Disc-F/H** (independent evidence classes), never raw agent counts — a five-desk cluster on one root is a 1-root alert (⚠️55; 9/29's seven fires counted as 1 established + 1 candidate).*
+*The "N root" thresholds above count Disc-F ROOTS (Framework 1; Will 2026-10-01) — a five-desk cluster on one root is a 1-root alert, never a 5.*
 
 **You receive from:**
 - Routed signals via `inbox/` (whatever router populates it)
