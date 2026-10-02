@@ -93,13 +93,13 @@ Session: **2026-10-02 Fri, Claude Opus 5.5 as WALTER (`walter-61`, desktop)**: n
 ## CLOSEOUT RECEIPT
 
 **Issued at the 10/02 PM Tier-2, before the closeout commit.**
-- **10/02 handoffs: 135 written, 128 on origin** (PROME's push carried `-030`…`-032`; the 7 from `-033`/`-034` are committed locally, pending PROME's push; reconcile after push) (fresh fetch 20:4xZ, 0/0; `reconcile_delivery_log.py --apply`). Delivered is not consumed.
+- **10/02 handoffs: 135 written, 132 on origin** (PROME pushes carried `-030`…`-033`; `-034` pending) (fresh fetch 20:4xZ, 0/0; `reconcile_delivery_log.py --apply`). Delivered is not consumed.
 - ⚠️ **This receipt does NOT claim:** that recipients consumed the handoffs (BRENT, FALCON, BROCK and HANS are known to have consumed some); that FT/Bloomberg/TD/Blue Owl letters were read at primary; that boot_basis was re-reviewed; that this closeout commit has reached origin.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-02T21:14:26+00:00",
+  "as_of": "2026-10-02T21:41:15+00:00",
   "publication": [
     {"commit": "42a5b3bf9", "state": "published"},
     {"commit": "fa75c0a33", "state": "published"},
@@ -110,12 +110,12 @@ Session: **2026-10-02 Fri, Claude Opus 5.5 as WALTER (`walter-61`, desktop)**: n
   "delivery": {
     "signal_date": "20261002",
     "total": 135,
-    "delivered": 128
+    "delivered": 132
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
-      {"path": "AGENTS/BROCK/workbook/PC_REDEMPTION_REGISTER.tsv", "sha256": "b4024b8f2480bbfc652b598e5e30779c66d54fdd3fd275304dd87683524a1bb4", "note": "BROCK FIRE RECORD #2 (OCIC), graded 2026-10-02T18:47:57Z; owner grade, WALTER routed only."}
+      {"path": "AGENTS/BROCK/workbook/PC_REDEMPTION_REGISTER.tsv", "sha256": "1fcb91b0d1886b397df585146cf6644c5dc4584640b2fb34c5343b6cb3a82ce8", "note": "BROCK FIRE RECORD #2 (OCIC), graded 2026-10-02T18:47:57Z; re-hashed after BROCK d6371e157 (17:26 ET) propagated both R2 fires to VX-004/CATALYSTS/register; reassessed: fire #2 stands, nothing owed by WALTER. Owner grade, WALTER routed only."}
     ]
   },
   "next_review": "2026-10-05"
