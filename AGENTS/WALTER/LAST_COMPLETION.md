@@ -102,7 +102,7 @@ Session: **2026-10-02 Fri, Claude Opus 5.5 as WALTER (`walter-61`, desktop)**. B
 ## CLOSEOUT RECEIPT
 
 **Issued at the 10/02 Tier-2, before the closeout commit (its hash is in the commit trail).**
-- **10/02 handoffs: 65 written, 65 on origin** (lane-run 8 pushed by WALTER's IMMEDIATE self-push `bf27866ca`, reconciled) (noon 14 pushed by PROME at `f055c1d3a`, verified by fresh fetch 0/0 + `reconcile_delivery_log.py --apply` 14/14) (fresh fetch ~15:5xZ; `reconcile_delivery_log.py --apply`). Delivered is not consumed.
+- **10/02 handoffs: 70 written, 70 on origin** (lane-run 8 pushed `bf27866ca`; correction `-016` 5 pushed `5775407c3`; both reconciled) (noon 14 pushed by PROME at `f055c1d3a`, verified by fresh fetch 0/0 + `reconcile_delivery_log.py --apply` 14/14) (fresh fetch ~15:5xZ; `reconcile_delivery_log.py --apply`). Delivered is not consumed.
 - ⚠️ **This receipt does NOT claim:** that any recipient consumed today's handoffs (BOND, BRENT, CRUISE are known to have drained some); that the Reuters/WSJ/Bloomberg originals were read; that the afternoon lane run was processed; that the FILTER_SPEC boot reads ran; that this closeout commit itself has reached origin.
 
 <!-- CLOSEOUT_RECEIPT_JSON
@@ -118,8 +118,8 @@ Session: **2026-10-02 Fri, Claude Opus 5.5 as WALTER (`walter-61`, desktop)**. B
   ],
   "delivery": {
     "signal_date": "20261002",
-    "total": 65,
-    "delivered": 65
+    "total": 70,
+    "delivered": 70
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
