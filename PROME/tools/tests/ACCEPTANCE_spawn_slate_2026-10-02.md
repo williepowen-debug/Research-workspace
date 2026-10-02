@@ -55,8 +55,71 @@ An **explicit return** = an owner self-commit (by `spawn_list.attributed`) insid
 - **Reader B (cold read, brief item 5):** an Opus reader given the slate ALONE answers "which desks to spawn, in what order, with what brief, and which rows only need PROME's write-back". Graded against today's `ORCH_LOG` (what PROME actually did on 10/02).
 - **Backtest (reported, not gated):** replay the pre-check over the daily DOCKET vintages since 2026-09-19; for each row classed `ALREADY ANSWERED`, its state at HEAD (terminal · re-dated · still PENDING on the same date). The count is a first base rate; a threshold is PROME's to set after the trial week.
 
-## Worked examples
-*(filled from the tool's first run — FALCON-class, HENRY-class and FLG-class rows, generated)*
+## Worked examples (generated 2026-10-02 14:0x EDT by `spawn_slate.assignment`, not hand-written)
 
-## Implementation record
-*(appended after the build)*
+| Row class | Output |
+|---|---|
+| VULCAN `D:L564` (a slot reading) | *VULCAN: 1 registered row due. 1) D:L564 (due Fri 10/02): "VULCAN FRIDAY POST-CLOSE SLOT — `mag7.py` slot 4 + GPU reading 4 (the first `GPU_SERIES.tsv` row). A POST-CLOSE reading: a spawn before ~16:00 ET cannot take it. […]" Return: your own record updated + one packet to PROME/inbox/ citing each row key.* (81 words) |
+| FALCON gate + window, merged (horizon 30) | *FALCON: 2 registered rows due — in this order. 1) G:GATE-FALCON-001 (due Tue 10/06): "Bab el-Mandeb EXECUTION tripwire, ANY of 3: (1) UKMTO/Ambrey/JMIC-confirmed post-7/20 Houthi enforcement attack […]" […] read G:GATE-FALCON-001 whole. 2) D:L229 (due Mon 10/26): "★ IRAN-OMAN PERMANENT-ROUTE WINDOW — […]" […] read D:L229 whole. Return: …* (117 words) |
+| HENRY `D:L475` (a forum verdict) | *HENRY: 1 registered row due. 1) D:L475 (due Thu 10/01): "FORUM-7 — PATH vs PREMIUM pre-registered verdict rule for the 9/23–9/24 rates move […]" […] read D:L475 whole. Return: …* (88 words) |
+| FLG | no FLG first-owner row inside +30d at this stamp (L522's window ends 11/09) — no example |
+
+## Implementation record — 2026-10-02 14:0x EDT (DAEDALUS)
+
+**STATE: IMPLEMENTED · TESTED · INDEPENDENTLY VERIFIED: PARTLY (see Reader A) · NOT WIRED · STILL UNRESOLVED listed below.**
+
+| Item | Value (measured at this stamp) |
+|---|---|
+| Tool | `PROME/tools/spawn_slate.py`; `spawn_list.py` md5 still `0cb871112c38979785a506f8189f4303` |
+| Tests | `test_spawn_slate.py`, `grep -c 'def test_'` = 37, all pass; throwaway repo only |
+| Guard falsification | 18 hand mutants of v2 + 2 of the round-2 fixes: 20/20 killed (v1: 12 mutants, 2 survived until two tests were added) |
+| Regressions | `--selftest` 11/11 · `--cadence-selftest` PASS · fail_closed 15/15 · L455 attribution OK · presence-reader contract PASS |
+| rc parity | slate rc 1 = `spawn_list` rc 1 on the live inputs |
+| Determinism | two `--stdout` runs byte-identical below line 1 |
+| Runtime | 1.8 s at horizon 0 (`spawn_list` alone 0.75 s) |
+| Size | 26,064 B = 80% of 32,550 B at horizon 0; 29,297 B = 90% at horizon 3 (a Friday closeout) |
+
+### ⛔ Condition 3 as written FAILED its independent read, and the classes were WITHDRAWN (not patched)
+
+**Reader A, round 1 (Opus, did not write the tool; ledger `AGENTS/DAEDALUS/runs/2026-10-02_spawn_slate/readerA_ledger.md`): THREE-READER TEST FAIL — 2 SURVIVES of 4.**
+
+| Row v1 marked `ALREADY ANSWERED` | Reader's verdict | Deciding words in the owner's own return |
+|---|---|---|
+| `D:L475` HENRY | SURVIVES for HENRY's leg; right by luck (decided by a later "consistency" memo, not the FINAL); BOND's co-sign still pending | "HENRY-graded, BOND co-sign PENDING" |
+| `G:GATE-BRENT-COT-35B` | **FAILS-WRONG** | "Not gradable before 15:30 … re-spawn BRENT >=15:35 ET to grade" |
+| `D:L502` CRUISE | SURVIVES | CRU-11 registered with the six elements |
+| `D:L582` MIDAS | **FAILS-PARTIAL** | "COT 9/29 — WAIT, not graded this spawn … Please re-spawn at or after 15:30 ET" |
+
+Two of three `PARTIAL ANSWER` rows were false alarms the other way (SHADE: legs delivered in a packet that says "W1", never "L182"; LIQUID: pending on WALTER only). The reader reproduced the failure on history (`--as-of` 9/30, 10/01) and showed the stated rule "a hedge only downgrades" was false (a clean commit subject out-voted the hedged packet it carried).
+
+**Disposition (DAEDALUS): the brief's four-token classification is not buildable from keywords and v2 does not attempt it.** Pushback D3 said `ALREADY ANSWERED` could only be an evidence class; the read showed it cannot be even that without suppressing needed spawns (BRENT and MIDAS both asked for a ≥15:30 re-spawn and v1 said "no spawn"). v2 tokens:
+
+| v2 token | Rule | Stanza says |
+|---|---|---|
+| `RETURN FOUND` | ≥1 owner self-commit or owner→PROME packet in the window cites the row (strong first, then newest; up to 3 shown; hint words printed, deciding nothing) | READ FIRST — it may answer the row, one leg, or only say why it cannot be answered yet |
+| `NO CITING RETURN` | none cites it; a touched cited file and the owner's uncited packets are listed; zero owner commits in the window is said as "dark this cycle" | re-ping text is prepared |
+| `UNCHECKED` | git failure | treat as NO CITING RETURN |
+
+Conditions amended by this: **3** (tokens above; no verdict token is ever printed — tested) · **5(d)** (IN-FLIGHT is a flag, never a suppression: the ledger was stale for CRUISE and MIDAS on 10/02, both had delivered) · **9** (an in-flight DARK desk keeps its slot and carries "check liveness first") · evidence window for GATES = `review_by` − 6d, not − 7d (a weekly gate's previous review day fell inside −7d). Conditions 1, 2, 4, 6–8, 10–15 hold as written; LANDS-only desks render as a table (still conserved).
+
+**Reader A, round 2 (same reader, one bounded read of the rewrite): 7 of 13 items RESOLVED · 6 MITIGATED · 0 open · dangerous-direction paths: 1.** The one path (a gate's ACTIVE class dates from REGISTRATION in `spawn_list`, so an owner dark all cycle read as "in session") was fixed after the read and is NOT re-read: zero owner commits in the window now prints "dark this cycle: weigh it as a spawn candidate" (replayed on the reader's case, GATE-FERT-G5 as-of 9/30; test + mutant). The reader confirmed no path says "no action" and no due row is dropped.
+
+**Reader B (cold read of the v1 slate alone, Opus `coldreader`; ledger same dir): 18 ✅ · 24 ⚠️ · 2 ❌ of 44 claims.** Its plan matched the day: spawn VULCAN only, not before ~16:00 ET. Both ❌ fixed in v2 (the in-flight summary line contradicted two stanzas; non-first-owner lists drew on rows outside the census). Ambiguities fixed: timing words now in the headline and the top list; `## Terms` defines ACTIVE (two senses), cap, C6, boot, re-ping, strong return. **v2 has NOT had a cold read.**
+
+**Backtest (reported, not gated; run on v1 classes):** 13 daily vintages 9/19–10/01, 7 distinct rows seen ACTIVE at end of day — thin, because PROME closes most rows the same day. It is not evidence for v2.
+
+### STILL UNRESOLVED (declared)
+
+| # | Residue | Direction |
+|---|---|---|
+| R1 | Whether a return ANSWERS a row is not computed. It is a read — PROME's, or a reader's | by design |
+| R2 | The before-due flag tests only the first-listed return, by date; a forward reference dated ON the due date is not flagged | costs a read |
+| R3 | An answer that names neither the row key nor a discriminating id is found only among "other packets" (6 shown, newest first) | costs a hunt (SHADE L182) |
+| R4 | Junk identifiers are still extracted (`SL-5`, `PR-6`, `PASS-2`…); they can produce a body-mention return | costs a read |
+| R5 | Hint words on a packet come from its whole body: they describe the packet, not the row | advisory only |
+| R6 | Inherits `spawn_list`: first-owner-only classing; attribution residue L455 R2-1/R2-2; cadence reader L459; DARK/ACTIVE from the row's START date | as `spawn_list` |
+| R7 | A `git log --since` walk stops at the first older commit; live history has 1 date inversion in 4,000 commits (−1 s) | toward NO CITING RETURN |
+| R8 | Timing words are matched by pattern; a row whose timing is phrased another way gets no ⏱ | PROME's read |
+| R9 | 80% / 90% of the whole-read budget on a quiet Friday; a heavy day will exceed it. The banner prints; nothing truncates | read by section |
+| R10 | WQ-206 (aged ACTION) has no instrument anywhere; not added here | PROME's call |
+| R11 | Fixes made after round 2 (gate window −6d, dark-this-cycle line, uncited-packet list of 6, annotation window, notes-cell timing words) are tested and mutant-checked but unread by an independent reader | declared |
