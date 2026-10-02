@@ -11,6 +11,27 @@ Reverse-chronological log of **structural** changes to BROCK's docs, folders, sc
 
 ---
 
+## 2026-10-02 — CREED structural adoption: STATUS hot/cold + catchups/, SCRATCH reset, always-loaded traps, selfcheck, LEDGER_GLOB
+
+- **Trigger:** Will, 10/2: *"I would like you to adopt as much as you think is valuable"*, after the read-across `research/2026-10-02_CREED-read-across.md` (12 items ranked). The decisive evidence: VX-BRK-004 still read "three vehicles at 2 [9/3]" after GATE-BRK-R2 (a) had fired twice.
+- **What changed:**
+  1. **Propagation fix:** VX-BRK-004, CATALYSTS rows 40/44/51 and the register's 9/3 run-state now carry both fires.
+  2. **`workbook/LEDGER_GLOB`** = `workbook/*.tsv docket/*.tsv`.
+  3. **STATUS hot/cold split:** 29,437 → 22,242 B (90% → 68%). New §Standing Obligations; session narrative → `catchups/2026-10-02.md` (verbatim, crc per block) with `catchups/INDEX.md` naming the CURRENT one; pre-split bytes at `archive/STATUS_PRESPLIT_2026-10-02.md` (crc32 `d78e04c9`). Audited by OBLIGATION: 28 owed-item tokens present after the split. Five stale lines corrected.
+  4. **SCRATCH reset:** the 47 KB appended file (never a boot read) → `archive/SCRATCH_PRESPLIT_2026-10-02.md`. Its 12 live debts moved to STATUS, including the FORUM-5 W2 standing test, which had been invisible at boot. The new SCRATCH is overwrite-only and is boot step 0b.
+  5. **`scripts/brock_selfcheck.py`** (closeout 6c), adapted from CREED's selfcheck. v1 MISSED VX-BRK-004 on the pre-fix files and was replaced before adoption (segment-level history stripping). v2: 10 findings on pre-fix, CLEAN on current, planted count/NF faults caught, missing surface rc=2.
+  6. **Charter:** ALWAYS-LOADED §STANDING TRAPS (7 write-time traps); boot 0b SCRATCH, boot 1 STATUS + §Standing Obligations + CURRENT catch-up; closeout 6 bytes-not-lines + catchups + audit-by-obligation; 6b SCRATCH rewrite; 6c selfcheck; 7b propagation; stale byte figures removed (PREDICTIONS 48,681 / board_log 89,476 B had gone stale); Doc Ownership + FILES tables.
+  7. **LESSONS rotation:** #23–#30 verbatim → `archive/LESSONS_ROTATED_2026-10-02.md`; 30,841 → 21,535 B (95% → 66%).
+- **Deliberately NOT adopted, with reasons:**
+  - Boot-time threshold scan: most BROCK triggers are filing events, not numeric bands.
+  - VX/PREDICTIONS notes hot/cold split: PREDICTIONS is a declared scoped read, so not a breach.
+  - VX_HISTORY Role/Basis rebuild: there is no base-rating need yet.
+  - Predictions scoreboard and evals: low value now.
+  - CREED's cases/ ledger and Trepp tools: CRE-specific.
+  - CREED's `boot.py`: retired by CREED (it keyed freshness on mtime).
+- **Boot-impact:** new boot reads `SCRATCH.md` (0b), `catchups/INDEX.md` + the CURRENT catch-up (1). `PROME/registry/READS.tsv` rows owed → PROME packet.
+- **Lesson:** the tool built to catch the defect missed it on its first run. Falsifying against the real pre-fix files, not a synthetic fixture, is what showed it.
+
 ## 2026-06-15 — Tier-1 structure modernization (Phase-3 split) + ORC verification round
 
 **Trigger:** Will-directed catch-up after a 7-day dark window + Opus-4.8 switch. STATUS had drifted to 272 lines with forward-state (10-Q calendar, FOLLOW-UP tiers, watch order, SESSION LOG) inline — over the 250 cap and past the ≥280 SCRATCH-split mandatory trigger's approach. Fleet parity gap: BROCK lacked the `docket/CATALYSTS.tsv` + `SCRATCH.md` + schema-conformant `NEXUS_BRIEF.md` surfaces that BRENT/SAM/VIOLET/HENRY all run.
