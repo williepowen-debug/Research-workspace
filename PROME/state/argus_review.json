@@ -1,8 +1,8 @@
 {
   "verdict": "REVIEWED",
   "baseline": "1c9ff2036f8b1fed87595f48ba35551703f50e1d",
-  "head": "97cf6a1f6dfa33e9e87b4d1e576e30d29e61eb26",
-  "recorded_at": "2026-10-02T22:53:59+00:00",
+  "head": "3c1365f691d6354291a774cadae93bce66e8e813",
+  "recorded_at": "2026-10-02T22:56:26+00:00",
   "recorded_by": "PROME",
   "paths": {
     ".claude/skills/closeout/SKILL.md": "8a04ea9714c6a4a93a588acdd1b487ac249dc3b0e02397b2de57fda4dfa9267c",
@@ -19,7 +19,11 @@
     "AGENTS/RAV/inbox/2026-10-02_from-PROME_WQ-237-README-YEYOU-escalation-line.md": "69e93c5d8156f22b2beee7af8b4cca2aa119d4bd4cb275bd2bd37aacd0da54bd",
     "AGENTS/REGINALD/inbox/2026-10-02_from-DAEDALUS_PREDICTIONS-header-carries-two-data-clocks.md": "b2de2f1268284dc2587dad7ad6e7f7e764ed7d1b03914c452cb93aafc80445fa",
     "AGENTS/WALTER/inbox/2026-10-02_from-PROME_WQ-237-REGISTRY-YEYOU-row-retired.md": "601e85b27245e2ccd3c902d7afecbc43461b497f4eeb8205a1efa660b0ff4636",
+    "AGENTS/YEYOU/CLAUDE.md": "a22f97ed3e88120f6398aa75634a1c64fbc07c6205b6e99c65c5a6e42f6bf51c",
     "AGENTS/YURI/inbox/WALTER/SIG-W-20261002-033.md": "1b34168afdf571e0f1cf4d7e7c421c5b7e9c4a2b8e05b7ca44d08de8f56e0e40",
+    "AGENTS/_INDEX.md": "9f7fb5bd881e61d3c4c44a51b0b7718f02f9e1d5af336f80eb64438c82105931",
+    "AGENTS/_SYNTHESIS_OPS.md": "5b1ac55eddaf24b02d4d711c8888fa58f9291d145d3541cf37e6b9f5beefc6c0",
+    "CLAUDE.md": "1b176d7b3c619a78dbabe4128f23451fa32a074554f391804707aec7623a3c73",
     "HEARTBEAT.md": "cad92bcf61c948a0383c2852851946438647fff85f75aaf26b264be1fe9d7088",
     "PROME/.claude/skills/closeout/SKILL.md": "8a04ea9714c6a4a93a588acdd1b487ac249dc3b0e02397b2de57fda4dfa9267c",
     "PROME/ACTIVE_DECISIONS.md": "a90919697c4ac1350fdb538de722ecaa7819ba511800f4017e33925c2628ff27",
@@ -51,6 +55,7 @@
     "PROME/registry/WQ_EXPLAINERS.tsv": "5827875bca106e80316b8afb73521336f5255f271514d6bfa8cfdc78e1f4e0ff",
     "PROME/registry/WQ_LEDGER.crc": "6029f790a5ef2607186269357ba8c22fe890ba55eb60c24ba87cb4a98f0c77e7",
     "PROME/registry/WQ_LEDGER.tsv": "09819095235769972f7389f44602d2a70263e3bf970312b46e6ce6f156313e5a",
+    "PROME/state/AUDIT_PERIMETER.tsv": "43cd64ab3d3496da13ad9a0eaf319e1535893c8889a7c6c04ac48b56583204ee",
     "PROME/state/ORCH_INFLIGHT.md": "fccefe1bfdf9e3e05c5c9031a5843933d060565dad33dc74285a864667423c4a",
     "PROME/state/ORCH_LOG.tsv": "84bd71014188f2e1285a6647339b5445e74d0d1fb78d208883b32ed2b877d229",
     "PROME/state/board_consumed.tsv": "9b128969bca572a20b019179ba33a0b6e3dd0e9f3387583de995d76dc1612cbf",
@@ -64,6 +69,6 @@
     "memory/2026-10-02.md": "ca3c7fcbab5d3d0b98d94650245608217a816dc769152f8ae90143e01d924ae6"
   },
   "consumed_moves": {},
-  "reviewed_note": "ARGUS r1 \u274c8/\u26a0\ufe0f12 all 8 \u274c verified+fixed; r2 all FIXED no new \u274c; \u26a0\ufe0f 4/6/7/8/10/11/12/N1 applied unreviewed (disclosed), 3/5/9 + slug-proof residue in memory \u00a7 prome-dc",
-  "reviewed_at": "2026-10-02T22:54:04+00:00"
+  "reviewed_note": "perimeter rows committed; WQ-237 shared paths audited by ARGUS r1 + the result cold read 18:33, unchanged since ab54af034",
+  "reviewed_at": "2026-10-02T22:56:26+00:00"
 }
