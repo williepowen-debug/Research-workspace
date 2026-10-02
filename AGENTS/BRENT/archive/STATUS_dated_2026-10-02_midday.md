@@ -1,0 +1,10 @@
+# STATUS rotation — 2026-10-02 16:55 ET (BRENT stale-data sweep)
+
+Payload rule: every byte after the first standalone `---` line below = the STATUS 'October 2 (09:2x → 11:2x ET)' dated block (heading + paragraph) and the 11:2x ET SUMMARY FOR WILL paragraph, joined by one blank line. UTF-8 bytes: 1650. crc32 `be29aa71`. Verbatim; history only.
+
+---
+## October 2 (09:2x → 11:2x ET; prome-70 follow-ups) — **G7 DECIDES a diesel + crude release** · leg A crack $95.87 intraday
+
+**G7 members agreed** (Macron; NBC 10:22 ET quoting the G-7 statement; Trump on record) to release **up to 100M bbl diesel + crude over 4 months**, diesel within 20 days; split unpublished; **US ban threat NOT withdrawn**; B1 NOT FIRED (FR 10:41). **Nov ULSD crack 100.22 (09:50) → 95.87 (10:30)** [vendor 1-min, NOT a settle]: **+$0.87 vs the $95 notice, +$5.71 vs $90.16**. The morning drop (03:50–04:05 ET, diesel-led) = the Reuters report of the French 50+50 proposal. TERRY packeted (`422d0ba24`; TERRY: USO150C early-sell MET, lean SELL, Will's order). CATALYSTS 10/02 re-graded + successor 10/22 ⌁. WPSR → Thu 10/15 12:00 (Columbus). Full record → [note](research/2026-10-02_g7-release/NOTE.md). **$0.**
+
+*(2026-10-02, 11:2x ET)* Oil gave back Thursday's jump this morning. The G7 agreed to release up to 100M barrels of diesel and crude over four months, with diesel first, within 20 days. Diesel fell hardest: the November diesel margin dropped from about $100 to about $96 by 10:30 ET. That is now within $1 of the $95 notice line on your VLO share's rule. The sell line is $90.16, about $6 further down, and it grades on the closing settlement, not intraday. The US has NOT dropped its diesel export-ban threat, and nothing has been signed. USO is about $143, roughly $7 below your Oct-09 $150 call's strike. TERRY's card now leans to selling that call today; the order is yours. Armed for my next wake: today's COT grade, today's settle-window diesel margin, and Sunday's OPEC+ decision. $0 moved.
