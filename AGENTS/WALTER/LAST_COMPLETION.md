@@ -77,7 +77,7 @@ Session: **2026-10-02 Fri, Claude Opus 5.5 as WALTER (`walter-61`, desktop)**. B
 ## FOLLOW-UP
 
 1. **Next boot:** `git pull`; STATUS BOARD count (**1158**) vs INDEX; ahead/behind; `reconcile_delivery_log.py --apply` if any row reads pending; `closeout_check.py`.
-2. 🔴 **Process the SECOND 10/02 lane batch (the scheduled 15:00Z cron, still to land after the 16:29Z manual run)** (`intake_scan.py`, date-check first, MEMORY #39), then `--mark`.
+2. ✅ **DONE 15:5x ET: the second 10/02 lane batch (scheduled run 19:42Z) was processed**: BM-20261002-05 9/9 → `-023` (US diesel-ban state, BRENT) + 2 kills, 2 folds, 4 dups; `--mark` run. **Next: the 10/03 lane run.** For the 10/03 run: `intake_scan.py`, date-check first (MEMORY #39), then `--mark`.
 3. 🔴 **Mon 10/05 ~10:15 ET: FRED HY 10/02 obs** → FT-02 / REG-T-03 at 2 of 3 or reset; route the state (RED/REGINALD spawn per PROME).
 4. **Iran:** FALCON still owes UKMTO 146-26 / 147-26 reconcile + `-003`/`-008` read. Any Yanbu-terminal incident or Ghawar strike confirmation → IMMEDIATE. Next FULL sweep **~10/08**.
 5. **G7 release follow-ups:** the diesel/crude split, country volumes, and whether the US dropped the export-ban threat — route whichever lands first (BRENT action).
@@ -104,7 +104,7 @@ Session: **2026-10-02 Fri, Claude Opus 5.5 as WALTER (`walter-61`, desktop)**. B
 ## CLOSEOUT RECEIPT
 
 **Issued at the 10/02 Tier-2, before the closeout commit (its hash is in the commit trail).**
-- **10/02 handoffs: 93 written, 78 on origin (`-018` out on a peer push); the 15 from `-019`…`-022` PENDING PUSH** (lane-run 8 pushed `bf27866ca`; correction `-016` 5 pushed `5775407c3`; both reconciled) (noon 14 pushed by PROME at `f055c1d3a`, verified by fresh fetch 0/0 + `reconcile_delivery_log.py --apply` 14/14) (fresh fetch ~15:5xZ; `reconcile_delivery_log.py --apply`). Delivered is not consumed.
+- **10/02 handoffs: 97 written, 93 on origin (PROME push; reconciled 15); the 4 from `-023` PENDING PUSH** (lane-run 8 pushed `bf27866ca`; correction `-016` 5 pushed `5775407c3`; both reconciled) (noon 14 pushed by PROME at `f055c1d3a`, verified by fresh fetch 0/0 + `reconcile_delivery_log.py --apply` 14/14) (fresh fetch ~15:5xZ; `reconcile_delivery_log.py --apply`). Delivered is not consumed.
 - ⚠️ **This receipt does NOT claim:** that any recipient consumed today's handoffs (BOND, BRENT, CRUISE are known to have drained some); that the Reuters/WSJ/Bloomberg originals were read; that the afternoon lane run was processed; that the FILTER_SPEC boot reads ran; that this closeout commit itself has reached origin.
 
 <!-- CLOSEOUT_RECEIPT_JSON
@@ -120,8 +120,8 @@ Session: **2026-10-02 Fri, Claude Opus 5.5 as WALTER (`walter-61`, desktop)**. B
   ],
   "delivery": {
     "signal_date": "20261002",
-    "total": 93,
-    "delivered": 78
+    "total": 97,
+    "delivered": 93
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
