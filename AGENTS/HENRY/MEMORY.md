@@ -48,42 +48,21 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (2026-09-30 Wed 17:3x EDT (`date`) — PROME re-ping `prome-94`, Tier 1; release-day log only)
+### CHANGES SINCE LAST SESSION (2026-10-02 Fri 08:31 → 08:5x EDT (`date`) — PROME spawn `prome-70`, Tier 1 due-row wake, DOCKET L475; launched from PROME cwd)
 
-- **August PCE + Q2 GDP 3rd LOGGED** (STATUS § 9/30 EVENING): core +0.25% m/m / 3.01% y/y, headline +0.31% / 3.42%, income +0.24%, spending +0.86% (real +0.6%), saving 4.1%, GDP 2.2% (2nd est. 1.5%). **Both releases = BEA ANNUAL UPDATE** ⇒ show priors in BOTH vintages (ALFRED `vintage_date=`); the 3.0-vs-3.3 core y/y "miss" is mostly revision (old-vintage July 3.34%). Oct hike odds → **36%** [ZQX26 9/30 close]. Curve: bear steepener (2Y −1, 10Y +3, 30Y +5, real +2).
-- ⚠️ **DGS30 2002–06 "gap" premise CONTRADICTED** by today's download (1,037 rows, 43 blank) — no 30Y "since" superlative until re-checked. 10Y 5.29 = highest since 2002-05-14 (DGS10).
-- NOT done: gamma board at the 9/30 close; STATUS rotation (97% of the 32,550 B cap, rotation_due was already set at 80% before this edit).
-
-### Prior — 9/30 pre-open (2026-09-30 Wed 08:04 → 08:1x EDT (`date`) — PROME spawn `prome-f4`, Tier 1, DOCKET L385; launched from PROME cwd)
-
-- **F3 leg 1 NOT MET — Russia EXTENDED the diesel ban to 10/31** (Bloomberg/Rigzone 06:01 ET + Moscow Times; government.ru unreachable ⇒ INFERRED). Graded AS WRITTEN ⇒ F3 spent. ⚖️ Re-arm at 10/31 would change the letter ⇒ NAMED for Will (L471 sitting 10/6), not made. Basis = F1's (matched Nov, CME settle, through 10/14; UNKNOWN after if unruled). `reports/2026-09-30_F3-basis-and-ban-lapse-grade.md`.
-- 🆕 **Vendor continuous `HO=F` history is RE-STITCHED** (today every row 9/10–9/29 = HOV26; my 9/14 record was ≈HOX26). ⇒ never re-derive a past crack from a later continuous pull; `expireDate` metadata = the ticker NOW, not a historical row. Sent to BRENT (its L471 expireDate schedule) + TERRY.
-- F1 9/29 NOT FIRED $100.04 · gamma pre-open NEG both horizons (band 7,693–7,694; walls withheld) → TERRY packet · Oct hike 70→50→44% on ZQX26 (verifies WALTER −012) · inbox drained (3 WALTER + AEOLUS).
-- ⚠️ **NOT done by this spawn:** PCE/GDP 08:30 release-day log (outside the spawn's three items) — owed at the next HENRY touch.
-
-### NEXT SESSION — in this order (9/30 spawn)
-
-1. ✅ 9/30 PCE + GDP 3rd logged by the evening re-ping. 🔴 **STATUS rotation owed (97% of cap)** · **Thu 10/1 ISM + FORUM-7 FINAL** (FR2004 ~16:15 ET) · **HEN-47 verdict by 10/2** · NFP reaction 10/2.
-2. 🔴 Gamma board at every close; walls only if horizons agree.
-3. HEN-46: F1 on matched Nov through 10/14; F3 spent unless Will rules reading (b) at L471. 🟡 by 10/5: WQ-252 per-candidate crack step measurements → DAEDALUS (9/29 Nov $100.04 vs Dec $94.71 = step −$5.33).
-4. Carried from 9/28 #5 below.
-
-### Prior session — (2026-09-28 Mon 20:35 → 20:44 EDT (`date`) — Will-directed boot + dark-gap catch-up; launched in-folder)
-
-- **DARK GAP 9/25 03:32 → 9/28 20:35 ET.** Missed: FORUM-7 P1 slot (graded tonight, 4 days late), the **9/25 gamma board (UNMEASURED — do not backfill)**, the 9/25 F1 read (TERRY held UNKNOWN, $0.00 from line).
-- **Red rungs:** 30Y 5.56 [Treasury 9/28] FIRST close >5.50 · CCC 1,112 [9/24] / 1,128 [9/25] >1,100 · 10Y 5.24 = highest since 2007-06-12 · HY 293 [9/25] +13 BB-led. Superlatives series-checked (DGS30 has a 2002–06 gap ⇒ say "since at least 2007").
-- **FORUM-7 P1 = PROVISIONAL PREMIUM, KW-UNCHECKED** (s 0.685; 9/24 alone TP > yield). My 9/25 "whole move = 2027–28 higher for longer" was too broad → attribution split by day. `research/2026-09-28_FORUM-7_P1-grade.md`.
-- **Gamma NEGATIVE both horizons** (flip 7,704–7,707; −$16–17B/1%); signal → WALTER (`AGENTS/WALTER/inbox/2026-09-28_from-HENRY_gamma-negative-…`).
-- BRT-12 blind verdict **NO** → BRENT · cadence **WEEKLY** → PROME · COR-20260925-02 receipted APPLIED · 20 WALTER signals + 9 packets consumed · news sweep (opus subagent) `research/2026-09-28_news_sweep.md` — ⚠️ its "CCC 968 widest since 2023" is **Bloomberg basis**, not ICE; its "30Y highest since 2004" rests on the DGS30 gap.
-- **Own near-miss:** boot tape showed "Brent 98.51 −5.57%" — a continuous-ticker ROLL artefact (BZ=F rolled 9/25; Nov settled $105.28). Caught before it reached STATUS.
+- **FORUM-7 FINAL = PREMIUM-ABSORPTION** (s 0.685 · KW g 6.33bp · FR2004 3–6Y +$12.093B STRESS / long-end −$3.828B NONE). HEN-47 RESOLVED. **HENRY-graded, BOND co-sign PENDING** (packet in BOND inbox). NEXUS packeted. `research/2026-10-02_FORUM-7_FINAL-grade.md`. Lesson in the making: a disjunctive qualifier (D3a OR D3b) can fire on the leg that cuts against its own label's plain meaning — report the split beside the label.
+- **Gamma pre-open:** NEG both horizons on the 10/1 close (flip 7,692–7,695); indicated open ~7,703 just ABOVE ⇒ sign not robust. SPX-only; QQQ not measured. → TERRY packet.
+- **STATUS rotated WHOLE** → `status_archive/STATUS_ARCHIVE_2026-10.md` block 40 (crc32 `963fd474`); these notes' predecessors → block 41. STATUS now 53% of cap.
+- **WQ-252 filed early** (steps + Q1). ⚠️ **Self-correction: "calendar-matched incl. $90.16" was verified 9/1–9/11 only; 7/23 pair UNVERIFIED** (CL leg = CLU26 inferred; HO leg unknown). Withdrawn in the packet; `reports/2026-09-24_F1-basis-named.md` still carries the old sentence (historical report — not edited).
+- HEN-46 F3 recorded SPENT (WQ-344). WATCH_FOR R3 answered by name. RSP 7th week ARMED (< $211.11 at today's close); only prior ≥7 run on price since 2003 = Apr–May 2022 (verified). Inbox 6 + 16 drained, + LABOR's NFP packet that landed mid-session. ⚠️ **My bulk `git mv inbox/*.md` swept that packet to processed/ BEFORE I had read it.** I caught it at the pre-commit `git status`, then read and logged it. ⇒ **move by explicit name, never by glob, when the inbox is live.**
 
 ### NEXT SESSION — in this order
 
-1. 🔴 **Wed 9/30 release-day log:** PCE + GDP 3rd 08:30 · Russian ban expiry (HEN-46 F3 leg 1) · EIA distillate exports · MU AMC · MOF total. Then **Thu 10/1 ISM** + **FORUM-7 FINAL** (FR2004 ~16:15 ET; BOND D3) and **P2 KW** whenever `THREEFYTP10` posts 9/22–9/24 (g > 18bp ⇒ UNANSWERABLE). **HEN-47 verdict by the 10/2 boot**; packet PROME. Fri 10/2 NFP reaction log.
-2. 🔴 **Gamma board at every close** (14d + 35d); walls only if horizons agree.
-3. ✅ **HEN-46 F1 9/25 = FIRED (stand-down) on the INFERRED settle $94.998** (HOX26 4.4621 — Yahoo daily close = official settle, validated on CLX26 9/23–25 + BZX26 9/25 via wire changes; CME not read; < 1 tick). TERRY grades at its Wed wake (PROME-verified; no capital consequence — the staged shares had no A/B fire). **Method for future settles: Yahoo DAILY close, not the settle-window VWAP; DTN levels are intraday snapshots.** F1 Nov basis runs to 10/14.
-4. ✅ **WATCH_FOR R3 SENT 9/28** → WALTER (drop 6, propose 6 keyed to HEN-46; WALTER tests, PROME lands — adopt/decline its replacements) · 🟡 **by 10/5: WQ-252 per-candidate crack step measurements** → DAEDALUS.
-5. Carried: real-yield letter (must name BOTH TP models + the day-split) · KRE "Muse" deposit-flight candidate (REGINALD's) · breadth gap (Will's) · confidence backfill · archive block-numbering audit · `SIG-W-20260910-013` overlay · own `CLAUDE.md` KB count stale (now ML-HEN-175).
+1. 🔴 **Sep ISM (printed 10/1) — NOT read.** ISM rows carry August. Sep NFP logged from LABOR's packet (+29K, revisions −60K, AHE 3.0%); the cash-session reaction is owed.
+2. 🔴 **RSP 7th-week grade** at the 10/2 close (armed < $211.11) · **gamma board** before Monday's open (Will's 5 QQQ puts expire 10/5).
+3. FORUM-7: read BOND's co-sign/contest when it lands; if BOND contests D3, only the qualifier can change (s, g cannot).
+4. **10/6 WQ-252 sitting** (HENRY conflicted — measurements only) · 10/6–10/8 auctions = the supply calendar FORUM-7 now points at.
+5. Carried: real-yield letter (must name BOTH TP models + the day-split) · KRE "Muse" deposit-flight candidate (REGINALD's) · breadth gap (Will's) · confidence backfill · `SIG-W-20260910-013` overlay · own `CLAUDE.md` KB count stale · DGS30 2002–06 coverage conflict (no 30Y superlative until resolved).
 
 ### Prior sessions 9/24 (22:41 → 03:32 · 21:19 · 16:40) — CHANGES / NEXT rotated verbatim → `status_archive/STATUS_ARCHIVE_2026-09.md` blocks 39 · 36 · 35.
 

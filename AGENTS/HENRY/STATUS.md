@@ -1,244 +1,194 @@
 # HENRY STATUS
 
-**Signal Status:** 🔴 **9/30 EVENING — AUGUST PCE LOGGED (PROME re-ping `prome-94`): core +0.25% m/m · 3.01% y/y, headline +0.31% · 3.42% [BEA 9/30; FRED PCEPILFE/PCEPI] — under the +0.3 / +0.4 m/m consensus (SECONDARY). ⚠️ The y/y "miss" (3.0 vs 3.3 cons) is mostly the ANNUAL UPDATE rebasing history: pre-revision July core y/y was 3.34% [ALFRED 9/29 vintage], revised 2.98%. Q2 GDP 2.2% (2nd est. 1.5%). Oct hike odds 44% [08:09] → 36% [ZQX26 96.03 close]; front end eased (2Y 4.88, −1), long end did not (10Y 5.29 +3, 30Y 5.64 +5, 10Y real 2.93 +2) [Treasury 9/30].** ⛔ $0; no letter, threshold, score or confidence changed. **Last Updated:** 2026-09-30 17:37 EDT (`date`).
-**Prior (9/30 pre-open, `prome-f4`):** 🔴 GAMMA STILL NEGATIVE at both horizons (flip band 7,693–7,694, SPX 7,670.84 [9/29 close], −$11–15B/1%, walls withheld). HEN-46 F3 NOT FIRED — Russia EXTENDED the diesel export ban to 10/31 (named secondaries; primary unreachable ⇒ INFERRED); graded as written F3 is spent; a 10/31 re-arm is a letter change NAMED for Will (L471). F1 9/29 NOT FIRED ($100.04 Nov matched). October hike odds 70% → 50% [9/29 ZQX26 row] → 44% [08:09 ET live]. Credit [FRED 9/28]: HY 302 (+9), CCC 1,146, gap 963.** Stamp 2026-09-30 08:1x EDT. Prior stamps and the 9/28 catch-up header: git log.
+**Signal Status:** 🔴 **10/2 PRE-OPEN — FORUM-7 FINAL = PREMIUM-ABSORPTION** (s 0.685 ACM · KW gap 6.3bp ≤ 18 · FR2004 3–6Y +$12.1B STRESS; long-end −$3.8B ⇒ the qualifier fired on ONE leg) — **HENRY-graded, BOND co-sign PENDING.** ⚫ **Gamma NEGATIVE at both horizons on the 10/1-close spot (flip 7,692–7,695, SPX 7,666.45), but the indicated open (~7,703, INFERRED from ES) sits ~10pt ABOVE the flip ⇒ the sign at the open is NOT robust.** RSP 7th down-week ARMED for today's close (< $211.11). October hike ≈ 24% [ZQX26 96.06, 08:36 ET live, post-NFP]. ⛔ $0; no letter, threshold, score or confidence changed. **Last Updated:** 2026-10-02 08:4x EDT (`date`).
+**Rotation:** the whole 9/30 STATUS (crc32 `963fd474`) → `status_archive/STATUS_ARCHIVE_2026-10.md` **block 40**, verbatim. Earlier blocks: `STATUS_ARCHIVE_2026-09.md` 1–39.
 
 ---
 
-## 9/30 EVENING — RELEASE-DAY LOG *(PROME re-ping `prome-94`, Tier 1; the 11:1x ET doorbell was lost in a machine crash; logged 17:3x ET from primaries)*
+## 10/2 — SESSION *(PROME spawn `prome-70`, Tier 1 due-row wake, DOCKET L475 · 08:31 → 08:5x ET · launched from PROME cwd)*
 
-**BEA 26–43 Personal Income & Outlays, Aug 2026 + BEA 26–42 GDP (3rd), Q2 2026 — 08:30 ET Wed 9/30.** ⚠️ **Both releases carry BEA's ANNUAL UPDATE of the National Economic Accounts (revisions from Jan 2021)** — every "prior" below is shown in BOTH vintages. Retrieval: FRED/ALFRED CSV 17:34 ET; bea.gov release text 17:34 ET; Treasury par/real 17:35 ET; futures + ^TNX vendor bars 17:34 ET.
+| # | What happened | Where |
+|---|---|---|
+| 1 | **FORUM-7 FINAL = PREMIUM-ABSORPTION.** All three legs re-pulled at the primaries, 08:32 ET. ACM vintage unchanged (9/22, 9/24 identical to 6dp). KW first read: g 6.33bp. FR2004 3–6Y $47.986B → $60.079B. **BOND co-sign PENDING** (dark) | `research/2026-10-02_FORUM-7_FINAL-grade.md` · `PREDICTIONS.tsv` HEN-47 RESOLVED |
+| 2 | **Gamma pre-open:** NEGATIVE both horizons on the 10/1-close spot. Walls withheld. The indicated open sits just above the flip | § GEX |
+| 3 | **HEN-46 F3 recorded SPENT** (WQ-344 RULED 9/30, PROME packet). No successor drafted | `PREDICTIONS.tsv` HEN-46 |
+| 4 | **WQ-252 (10/6 sitting):** per-candidate step measurements + the $90.16 calibration-pair answer filed to PROME, **3 days early.** ⚠️ **Self-correction:** my "calendar-matched at every calibration observation, including $90.16" was verified for 9/1–9/11 only. **The 7/23 pair is UNVERIFIED**: crude leg = Sep (INFERRED, strong), heating-oil leg UNKNOWN. It moves no line | `PROME/inbox/2026-10-02_from-HENRY_WQ-252-step-measurements-and-calibration-pair.md` |
+| 5 | **WATCH_FOR R3:** adopt/decline by name → PROME | `PROME/inbox/2026-10-02_from-HENRY_WATCH-FOR-R3-adopt-decline.md` |
+| 6 | **RSP 7th week:** verified on price since 2003 — the only prior ≥7-week run is 2022-04-08 → 05-20. ARMED for today's close | § BREADTH |
+| 7 | **Inbox drained:** 6 top-level + 16 WALTER, logged + consumed | `board_log.tsv` |
+| 8 | **Sep NFP logged from LABOR's packet** (arrived 08:4x, mid-session; BLS USDL-26-1549): **+29K**, revisions **−60K**, U-3 4.2%, AHE +0.1% m/m / 3.0% y/y ⇒ a soft print. Pre-open reaction: ES +0.47%, ^TNX 5.22, October odds ≈ 24% | § NFP below |
+| — | **NOT done:** Sep ISM (printed 10/1) **NOT read**; the gamma board and RSP grade at today's close | § GAPS below |
 
-| Release (obs) | Actual [BEA 9/30] | Consensus *(SECONDARY: Barchart via TradingView · FXStreet · Investing.com)* | Prior — revised [9/30 vintage] | Prior — as first read [ALFRED 9/29 vintage] | Read |
+## FORUM-7 — FINAL (HEN-47, 9/22→9/24 10Y +22bp)
+
+| Leg | Value | Source |
+|---|---|---|
+| s = ΔACMTP10 / ΔACMY10 | **+15.40 / +22.47 = 0.685** ⇒ PREMIUM (≥ 0.50) | NY Fed ACM Daily, pulled 10/2 08:32, sha `f174cbdd…` |
+| g = \|ΔTP_ACM − ΔTP_KW\| | **6.33bp** (KW +9.07) ≤ 18 ⇒ KW-CHECKED | FRED `THREEFYTP10`, 10/2 08:32, frontier 9/25 |
+| D3a 3–6Y | **+$12.093B** (47,986 → 60,079 $M) ≥ +$8.6B ⇒ STRESS | NY Fed `/api/pd` `PDPOSGSC-G3L6`, as-of 9/16 → 9/23 |
+| D3b long-end 7Y+ | **−$3.828B** ≤ +$0.5B ⇒ NONE | same, G7L11 + G11L21 + G21 |
+| A1 | s = **45th pct** of ACM's class (1990+, n=376) ⇒ an ordinary premium share | P1 file |
+
+⚠️ **The -ABSORPTION label came from the 5Y bucket alone.** Dealer duration overall fell (long-end −$3.8B, 6–7Y −$4.6B). BOND rider ①: net inventory ≠ proof of warehousing. ⚠️ **On 9/24 alone the models diverge in kind:** ACM share 1.16 vs KW 0.48.
+**Consequence (§7, frozen):** my (A) "higher for longer 2027–28" is **wrong for 9/23–9/24**. It holds for the FOMC week only. **The watch list now leads with SUPPLY: 3Y/10Y/30Y auctions 10/6–10/8 · 11/4 QRA · buyback ops.** No row moves. NEXUS letter untouched (CONCUR 10/1). BOND's D3b clause does not apply (NONE). B2 is BOND's call.
+
+## GEX / GAMMA — **RE-MEASURED 2026-10-02 PRE-OPEN (08:31–08:33 ET). NEGATIVE at both horizons on the 10/1-close spot.**
+
+`HENRY 2026-10-02 pre-open: flip ~7,692 (14d) / ~7,695 (35d); sign NEGATIVE at both on the 10/1 close (spot 26–28pt below); walls NOT PUBLISHABLE; indicated open ~7,703 = ~8–11pt ABOVE the flip ⇒ sign at the open NOT robust.`
+
+| | 14d (4,194 contracts) | 35d (7,406 contracts) | Cross-horizon |
+|---|---|---|---|
+| Flip | ~7,692 | ~7,695 | **band 7,692–7,695** |
+| Spot vs flip (SPX **7,666.45 [10/1 close]**) | −26 | −28 | below at both (0.35%) |
+| Net GEX | −$12.7B / 1% | −$15.8B / 1% | ✅ agree NEGATIVE |
+| Walls | put == call == 7,700 ⛔ (call near-tie band 7,700–7,750) | put 7,700 clean · call near-tie band 7,800–8,000 | ⛔ disagree ⇒ withheld |
+| **Indicated open** | ES=F (ESZ26) **7,760.50, +0.47%** at 08:36 ET ⇒ SPX ≈ **7,703** | | **INFERRED:** basis ≈ $57.8 derived from the ES % change, not a published fair value |
+
+**Basis:** CBOE delayed chain pulled BEFORE the cash open. Spot = the 10/1 close. OI = 10/1 EOD (INFERRED). **Shelf life: the 10/2 session only.** Today's expiring contracts roll off at the close, so **Monday's board will differ.** ⚠️ **Instrument scope: SPX only. No QQQ/NDX chain is measured by this method**; NDX's dealer gamma is NOT measured. Free-tier: sign + flip robust when spot is clear of the flip, and **today it is not** (≤0.15% at the indicated open). $B magnitudes assumption-dependent.
+**Read (measurement, not a trade view):** at the 10/1 close dealers were short gamma (they amplify moves). If the open holds near 7,703, they sit at roughly zero gamma: no strong amplification either way. **A move back below ~7,692 puts them short gamma again.** Trajectory: 9/21 strongly positive → 9/24 ≈ 0 → 9/25 UNMEASURED → 9/28, 9/30, 10/2 negative. *Prior boards: archive block 40.*
+
+## BREADTH — RSP weekly run *(WALTER SIG-W-20261001-036, ACTION)*
+
+| | Value | Source |
+|---|---|---|
+| Six completed down weeks | Fri closes 8/14 $222.77 → 8/21 221.67 → 8/28 220.69 → 9/04 219.00 → 9/11 214.87 → 9/18 212.29 → **9/25 211.11** | yfinance RSP daily Close, `auto_adjust=False`, pulled 10/2 08:3x ✅ matches WALTER |
+| Week of 9/28 so far | Mon 209.74 · Tue 209.50 · Wed 208.02 · **Thu 209.00** | same |
+| **ARMED** | **7th week = RSP close today < $211.11** (needs no more than a +1.01% day to void) | — |
+| History (verified by HENRY) | On weekly price closes since 2003-05-02 (n=1,222): the **only prior ≥7-week run is 2022-04-08 → 2022-05-20 (7)**; one 6-week run 2008-06-06 → 07-11. ✅ Daily Chartbook's claim holds on price | same |
+| Dividend caveat | Ex-div **$0.795 on 9/21** fell inside week 6. On total return week 6 was still down (211.11 + 0.795 = 211.905 < 212.29) | yfinance dividends |
+
+**No HENRY threshold is keyed to breadth** (the breadth gap is carried as Will's). Logged, not a line. **Grade at today's close**; this session closes before it ⇒ the armed state above is the deliverable.
+
+## NFP — Sep 2026 (BLS USDL-26-1549, Fri 10/2 08:30 ET; via LABOR packet `f8eca24fc`, figures LABOR's from the BLS primary — LABOR owns the print)
+
+| Release | Actual | Consensus | Prior | Market reaction (pre-open, 08:36 ET) | Thesis implication |
 |---|---|---|---|---|---|
-| **Core PCE m/m** (Aug) | **+0.2%** (index: +0.25%, PCEPILFE 130.133→130.455) | +0.3% | +0.1% (+0.13%) | +0.25% (130.338→130.658) | **Soft vs consensus by ~5bp** — the genuine surprise |
-| **Core PCE y/y** | **3.0%** (3.01%) | 3.3% | 2.98% | **3.34%** (130.658/126.430) | ⚠️ **The 0.3pt "miss" is mostly REVISION, not news** — consensus sat on the old vintage |
-| **Headline PCE m/m** | **+0.3%** (+0.31%, PCEPI 131.172→131.579) | +0.4% | +0.1% (+0.05%) | +0.16% | Soft by ~9bp |
-| **Headline PCE y/y** | **3.4%** (3.42%) | SEARCH-NOT-FOUND | 3.36% | 3.70% (131.659/126.960) | Same revision caveat |
-| Personal income m/m | **+0.2%** (+0.24%) | +0.5% | +0.3% | +0.43% | Miss |
-| Real DPI m/m | **0.0%** (−0.03%) | — | +0.3% | — | Flat real income |
-| **PCE (spending) m/m, nominal** | **+0.9%** (+$190.8B; goods +$114.1B, services +$76.7B) | +0.8% | +0.1% | +0.16% | Beat |
-| **Real PCE m/m** | **+0.6%** | — | +0.1% | — | Strong volume |
-| **Saving rate** (PSAVERT) | **4.1%** | — | **4.6%** (Jul) | **3.0%** (Jul) | Revised UP ~1.6pt by the annual update; Aug fell 0.5pt as spending outran income. ⛔ CARL's July 3.0% was the 9/29 vintage — CARL's figure, not reconciled here |
-| **Q2 real GDP (3rd), SAAR** | **2.2%** (A191RL1Q225SBEA) | SEARCH-NOT-FOUND | Q1 **2.5%** | 2nd est. **1.5%** · Q1 2.1% | **+0.7pt** revision (investment, consumer, government). GDI 2.6% · real final sales to private domestic purchasers **4.6%** |
+| NFP | **+29K** | NOT READ | Aug revised +133K (was +162K) · Jul −10K (was +21K) ⇒ **net revisions −60K** | ES +0.47% · NQ +0.67% · ^TNX 5.22 (Treasury 10/1 close 5.24) · ZQX26 96.06 ⇒ October ≈ **24%** | Soft labor ⇒ the path leg eases further. **It does not touch the premium leg FORUM-7 just graded.** No HENRY row moves |
+| U-3 · LFPR | 4.2% · 61.8% (labor force +485K) | — | — | — | LABOR's triggers did not fire (T-06 missed only on U-3 4.2 vs 4.3) |
+| AHE | +0.1% m/m · **3.0% y/y** (from 3.1) | — | — | — | Wage pressure easing |
 
-**Market reaction.** Release bar (08:25→08:30 ET, 5-min vendor bars): ZQX26 **96.005 → 96.035**, ^TNX 5.234 → 5.217, ES 7,744 → 7,764 — a dovish first print. **By the close:** 2Y **4.88** (−1) · 10Y **5.29** (+3) · 30Y **5.64** (+5) · 10Y real **2.93** (+2) · 10Y BE **2.36** (+1) [Treasury par/real 9/30 vs 9/29] ⇒ **a bear steepener: the front end took the soft core, the long end kept rising on real yield.** SPX **7,651.54** (−0.25%) · VIX **16.34** · KRE **69.44** (−0.56%) [9/30 close, fetch.py]. Reaction is SIGNAL; the steepener's cause (premium vs supply vs path) is UNATTRIBUTED — ACM for 9/30 not yet read.
+⚠️ Consensus not read this session, so "soft" is relative to the trend and the revisions, not to a forecast. The reaction is a pre-open futures read, not the cash session.
 
-**Superlatives, series-checked 17:35 ET:** 10Y **5.29% = highest close since 2002-05-14 (5.32)** on DGS10 (1999→ read). ⚠️ **30Y 5.64: NO superlative published** — today's DGS30 download carries 1,037 rows in 2002-02-19→2006-02-08 (43 blank) and a 5.66 on 2002-07-08, which CONTRADICTS my 9/28 note that DGS30 has a 2002–06 gap; unresolved (possibly extrapolated values) ⇒ the kill-list 30Y line needs a re-check before any "since" is written.
+## RATES *(Treasury par + real; deltas in bp)*
 
-### HEN lines the print touches *(a reading — no letter change, no score move, no trade rec)*
-
-| HEN line | What the print does to it |
-|---|---|
-| **§ BOTTOM LINE #5 — October-hike case** | **WEAKENED.** Odds 50% [9/29 row 95.995] → 44% [08:09 live 96.010] → **36% [9/30 close 96.03]**; the release bar alone ≈ −12pp. Basis unchanged: P = (100 − ZQX26 − EFFR 3.88 [FRED 9/29]) / 0.25, vendor bar, not CME settle or FedWatch, ±2pp, 25-or-hold. The case now rests on ISM 10/1 · NFP 10/2 · CPI 10/14. ⚠️ Core m/m 0.25 is still a ~3.0% annualized pace — soft vs consensus, not soft vs target |
-| **THESIS axis 1 (cyclical rates)** | Front-end path leg eased (2Y −1); long real leg extended (10Y real +2, 30Y +5). NEXUS Q1 ("does PCE extend or reverse the real-yield leg?") ⇒ **split: reversed at 2Y, extended at 10Y/30Y.** Consistent with the premium reading of FORUM-7 P1 but NOT evidence for it without ACM |
-| § ACTIVE THRESHOLDS 10Y / 2Y / 30Y | Current cells updated to 9/30 par; state unchanged (all 🔴) |
-| HEN-47 (FORUM-7 verdict rule) | **Not touched** — its window is fixed 9/22→9/24 |
-| HEN-46 · INVALIDATION TRIAD · gamma | **Not touched** by the print. ⚠️ Gamma board NOT re-measured tonight (outside this re-ping); SPX 7,651.54 closed below the 9/30 pre-open flip band 7,693–7,694, whose shelf life was this session |
-| Consumer read (real PCE +0.6%, saving rate 4.6→4.1) | **CARL's domain** — logged, not interpreted |
-
-## 9/30 — SESSION *(PROME spawn `prome-f4`, Tier 1, 08:04 → 08:1x ET; pre-open — PCE/GDP 08:30 NOT logged by this spawn; logged by the evening re-ping above)*
-
-| # | What happened | Where |
-|---|---|---|
-| 1 | **F3 leg 1 NOT MET:** ban extended to **10/31** (Bloomberg via Rigzone 9/30 06:01 ET; Moscow Times; government.ru unreachable ⇒ INFERRED). F3 NOT FIRED; as written ("lapses 9/30") it is spent. ⚖️ Re-arm at 10/31 = letter change ⇒ **Will's, named not made** (L471 10/6) | `reports/2026-09-30_F3-basis-and-ban-lapse-grade.md` · `PREDICTIONS.tsv` HEN-46 |
-| 2 | **F3 basis stated (= F1):** matched `HOX26×42 − CLX26`, CME settle, Nov fixed through 10/14; after 10/14 = sitting's month, UNKNOWN if unruled. The mid-Oct `HO=F` roll cannot touch named contracts | same |
-| 3 | 🆕 **Vendor continuous `HO=F` history RE-STITCHED:** every row 9/10–9/29 now = `HOV26`; my recorded 9/14 `HO=F` was 4.7526 (≈`HOX26`). 9/29 continuous crack $116.33 vs matched Nov **$100.04** = $16.29 artefact | same §3 |
-| 4 | **F1 9/29 NOT FIRED — $100.04** (⚠️ corrected 08:15: NOT a finalized tier-2 row — 9/29 volume = 9/28's on both legs; TERRY grades it tier 3, same figure), buffer $5.04. 🟡 `HOX26` +5.1% overnight (live Nov crack $108.24 08:05 ET, not a settle); cause unestablished (move began before the ban headline) | same §4 |
-| 5 | **Gamma pre-open:** NEGATIVE both horizons, walls withheld | § GEX |
-| 6 | **Oct hike odds re-measured:** 70% [9/28 row 95.945] → **50% [9/29 row 95.995]** → 44% [9/30 08:09 live 96.010] — WALTER −012's squawk VERIFIED on my instrument | § RATES |
-| 7 | **Inbox drained:** 3 WALTER + 1 AEOLUS, logged + consumed. Packets → TERRY (gamma + F3), BRENT (F3 + re-stitch), PROME memo | `board_log.tsv` |
-
-## 9/28 — SESSION *(Will-directed catch-up, launched in-folder · prior STATUS rotated WHOLE, verbatim → `status_archive/STATUS_ARCHIVE_2026-09.md` block 38, crc32 `0e0a50e5`)*
-
-| # | What happened | Where |
-|---|---|---|
-| 1 | **Dark gap disclosed:** 9/25 03:32 → 9/28 20:35 ET. **MISSED:** FORUM-7 P1 on its ~9/25 slot (graded tonight), the 9/25 gamma board (**UNMEASURED — stays unmeasured**), the 9/25 F1 read (TERRY held it UNKNOWN at $0.00 from the line) | this file |
-| 2 | **Red rungs graded on primaries:** 30Y 🔴 (5.56 [Treasury 9/28]) · CCC 🔴 (1,112 [9/24] · 1,128 [9/25]) · 10Y and 2Y still 🔴 | § ACTIVE THRESHOLDS |
-| 3 | **FORUM-7 P1 = PROVISIONAL PREMIUM, KW-UNCHECKED** — s = 0.685 (ΔTP +15.40 / ΔY +22.47bp, ACM 9/22→9/24). 45th pct of ACM's own class (1990+, n=376) ⇒ ordinary for ACM. **9/24 alone: TP +8.44 > yield +7.29.** | `research/2026-09-28_FORUM-7_P1-grade.md` · `PREDICTIONS.tsv` HEN-47 |
-| 4 | **Gamma board 9/28 close:** NEGATIVE at both horizons, walls withheld | § GEX |
-| 5 | **BRT-12 blind verdict → BRENT: NO** (the 9/22–24 crack drop is not a Phase-2 credit warning) | `AGENTS/BRENT/inbox/2026-09-28_from-HENRY_BRT-12-blind-verdict.md` |
-| 6 | **R1 correction receipted** COR-20260925-02 APPLIED (my board_log row said Nov Brent 3:2:1 "fell below $50" at the 9/24 settle; the settle proxy was $50.12, not measurable) · **cadence declared WEEKLY** → PROME · 20 WALTER signals logged + consumed · 9 inbox packets consumed | `board_log.tsv` · `PROME/inbox/2026-09-28_from-HENRY_cadence-and-watch-terms.md` |
-| 7 | **News sweep 9/25–9/28** | `research/2026-09-28_news_sweep.md` |
-
-## DATA RELEASES (9/25 → 9/28)
-
-*Sources + tiers: `research/2026-09-28_news_sweep.md` (subagent sweep, 20:41 EDT; figures below re-checked where marked).*
-
-| Release | Actual | Consensus | Prior | Read |
-|---|---|---|---|---|
-| Durable goods, Aug adv. [Census, Fri 9/25] | **0.0%** | −0.3 to −0.5% | +0.9% Jul rev | Beat |
-| — ex-transport | **+0.3%** | +0.6% | +0.4% | Miss |
-| — **core capex orders** (nondef ex-air) | **+1.6%** | +0.5% | Jul rev +0.6% (Census table) | **Strong beat** — capex is not rolling over |
-| UMich final Sep [UMich, Fri 9/25] | **48.1** | 47.6 | prelim 47.8 · Aug 51.7 | Sentiment weak |
-| — **1y inflation expectations** | **4.6%** | — | Aug 4.0% | 🟠 up 0.6pt in a month |
-| — **5–10y inflation expectations** | **3.4%** | — | Aug 3.3% | Drifting up |
-| **Fed — Gov. Cook [federalreserve.gov, Mon 9/28]** | *"The labor market appears to be well positioned to handle an increase in rates"*; expects inflation pressure from the AI build-out and oil pass-through | — | — | **Hawkish from a centrist governor** — first Fed voice found in the window (none 9/25–9/27) |
-
-**Readthrough:** activity strong (flash PMI 58.4 last week, core capex +1.6%), household inflation expectations rising, a centrist governor opening the door ⇒ the October-hike case strengthened. ⛔ **No shutdown:** a CR runs to 12/11 (headline + SECONDARY; BLS/BEA schedules show no lapse notice, PRIMARY) — PCE/GDP 9/30, ISM 10/1, NFP 10/2 print on schedule.
-
-**Other market facts (9/25–9/28):** Trump rejected Iran's 7-day Hormuz plan Sat 9/26 (WALTER −007; unilateral ≠ bilateral) · Nov Brent **settled $105.28** 9/28 (BRENT, within 2¢ of its settle-window proxy) — ⛔ the continuous `BZ=F` rolled 9/25, so "Brent −5.6% / ~$98" in my boot tape is a **roll artefact, not a move** · US diesel-export-ban talk (Trump 9/27 "looking at it very seriously", no order) · **global long-end selloff:** UK 30Y gilt ~5.90%, Bund 10Y ~3.63% (highest since 2009), JGB 10Y ~3.10% (SECONDARY, tradingeconomics) · **Meta "Muse" AI-agent scare** (cancels subscriptions, moves deposits) hit banks — BKX −3.5% over 5 days — and cable/subscription names (SECONDARY) · ORCL 5Y CDS reported at a record 227bp after the Project Jupiter force-majeure notice (SECONDARY snippet).
-
-## RATES — the leg, decomposed on official curves *(Treasury par + real, 9/22 → 9/28)*
-
-| Close | 2Y | 10Y | 30Y | 10Y real | 10Y BE (par − real) | 2s10s |
+| Close | 2Y | 10Y | 30Y | 10Y real | 10Y BE | Source |
 |---|---|---|---|---|---|---|
-| 9/22 | 4.71 | 4.96 | 5.29 | 2.63 | 2.33 | 25 |
-| 9/24 | 4.87 | 5.18 | 5.47 | 2.85 | 2.33 | 31 |
-| 9/25 | 4.81 | 5.17 | 5.49 | 2.83 | 2.34 | 36 |
-| **9/28** | **4.92** | **5.24** | **5.56** | **2.90** | **2.34** | **32** |
-| **Δ 9/22→9/28** | **+21** | **+28** | **+27** | **+27** | **+1** | +7 |
-| 9/29 | 4.89 | 5.26 | 5.59 | 2.91 | 2.35 | 37 |
-| **9/30 (PCE day)** | **4.88** | **5.29** | **5.64** | **2.93** | **2.36** | **41** |
+| 9/22 | 4.71 | 4.96 | 5.29 | 2.63 | 2.33 | Treasury |
+| 9/24 | 4.87 | 5.18 | 5.47 | 2.85 | 2.33 | Treasury |
+| 9/30 | 4.88 | 5.29 | 5.64 | 2.93 | 2.36 | Treasury |
+| **10/1** | **4.78** | **5.24** | **5.61** | **2.88** | **2.36** | Treasury par/real CSV, pulled 10/2 08:3x |
+| Δ 9/30→10/1 | −10 | −5 | −3 | −5 | 0 | — |
 
-- **The whole leg is real yield:** 10Y +28 = real +27, breakeven +1. **Wires blame oil; breakevens do not show it.** ⛔ *"The 10Y is an inflation scare"* stays on the kill list.
-- **9/25:** a steepener — 2Y −6 while 30Y +2 (ACM TP +4.5 while yield −0.7). **9/28:** front-led — 2Y +11, 1Y +9, 10Y +7, 30Y +7; **futures for the next two meetings moved only +1.5–2bp** (ZQX26 95.965→95.950, ZQZ26 95.82→95.80, vendor bars) ⇒ the 2Y is pricing the **2027 path**, not October.
-- 🆕 **9/30 CLOSE: October +25bp ≈ 36% [ZQX26 96.03, vendor bar; EFFR 3.88 FRED 9/29]** — the PCE release bar moved it 96.005 → 96.035. ZQZ26 95.885.
-- **9/30 pre-open: October +25bp ≈ 50% [ZQX26 95.995, 9/29 vendor row] · 44% [96.010, 9/30 08:09 ET live]**; the 9/28 row now reads 95.945 (≈70%). Same basis as below (EFFR 3.88 [FRED 9/28]); identity: ZQV26/ZQX26/ZQZ26 distinct values + expiries. Cause of the 9/29 drop UNESTABLISHED (WALTER −012). The 2Y/2027-path read below is 9/28's.
-- **October +25bp ≈ 68% [ZQX26 95.950, vendor bar 9/28]** · 62% [9/25] · 72% [9/24 15:00 ET]. Basis: P = (100 − ZQX26 − EFFR 3.88 [FRED 9/25]) / 0.25; vendor bar, **NOT CME settlement and NOT CME's published FedWatch**; ±2pp; assumes 25-or-hold. **BOND's independent boot read agrees: ~68%** (`KB-BND-354`, same method). BOND now consumes HENRY's path series (WQ-327).
-- **Term premium:** ACM 10Y TP **0.575 [9/22] → 0.730 [9/24] → 0.775 [9/25]** (+20bp in three sessions). KW `THREEFYTP10` frontier still **9/18** ⇒ no second model for the burst yet.
+- **October +25bp ≈ 24% [ZQX26 96.06, 10/2 08:36 ET live, after the 08:30 NFP]** · 36% [9/30 close 96.03] · 68% [9/28]. Basis: P = (100 − ZQX26 − EFFR 3.88 [FRED 9/29, not re-pulled]) / 0.25; vendor quote, **not CME settlement, not FedWatch**; ±2pp; 25-or-hold. Corroborated by WALTER −035's FedWatch screenshot 26% (as-of not shown). ⚠️ The vendor contract-name check returned UNKNOWN; the symbol is explicit.
+- ACM 10Y TP **0.576 [9/22] → 0.730 [9/24] → 0.888 [9/30]** (ACM Daily 10/2 pull) — the premium kept building after the graded window. KW frontier 9/25 (1.020).
+- 10/1: a bull move led by the front end (2Y −10). Cause UNATTRIBUTED (ISM 10/1 not read).
 
-## VOL REGIME
+## VOL REGIME *(VIX family co-owned with VIOLET — she owns the broadcast)*
 
-*VIX/term-structure/VVIX/SKEW co-owned with VIOLET (she owns the broadcast). HENRY owns the gamma/GEX layer.*
+- **VIX 16.07** [^VIX last quote, 10/2 08:3x, no session yet] · VIX9D 14.00 · VIX3M 18.58 · VVIX 92.01 · **SKEW 142.77** [boot tape 10/2 08:31; last bars]. Contango intact. SKEW back under 145.
+- Vol-control trigger >23 → § ACTIVE THRESHOLDS (~6.9 under).
 
-- **VIX 16.07 [^VIX 9/28 bar]** · **14.87 [CBOE publisher 9/25]** · 15.67 [9/24] · 15.18 [9/23] · VIXCLS last **14.21 [9/22]** · **VIX9D 14.39 · VIX3M 18.23 · VVIX 91.02** [9/28 bars]. Contango intact; the front end keeps lifting on down days.
-- **SKEW 146.25 [CBOE publisher 9/28]** · 144.91 [9/25] · 146.04 [9/24] · 146.15 [9/23] — over 145 on 3 of the last 4 publisher closes. ⛔ `RED-FT-10` (≥150 sustain-4) is RED's; I mirror no count.
-- **Vol-control trigger >23 → § ACTIVE THRESHOLDS.** 16.07 is **~6.9 under** it.
+## CREDIT EARLY-WARNING MONITOR *(credit_monitor.py, boot 10/2)*
 
-### ⚫ GEX / GAMMA REGIME — **RE-MEASURED 2026-09-30 PRE-OPEN (08:04–08:05 ET). NEGATIVE AT BOTH HORIZONS.**
-
-`HENRY 2026-09-30 pre-open: flip ~7,694 (14d) / ~7,693 (35d); sign NEGATIVE at both (spot 22–23pt below); walls NOT PUBLISHABLE.`
-
-| | 14d (3,065 contracts) | 35d (7,367 contracts) | Cross-horizon |
-|---|---|---|---|
-| Flip | ~7,694 | ~7,693 | **band 7,693–7,694** |
-| Spot vs flip (SPX **7,670.84 [9/29 close]**) | −23 | −22 | below at both (0.3%) |
-| Net GEX | −$11.4B / 1% | −$14.6B / 1% | ✅ agree NEGATIVE |
-| Walls | put == call == 7,700 ⛔ | call 8,000 · put 7,700 | ⛔ disagree ⇒ withheld |
-
-**Basis:** CBOE chain pulled BEFORE the cash open; spot = 9/29 close; OI INFERRED 9/29 EOD. ES=F +0.04% at 08:10 ET. Flip drifted down 11–14pt since 9/28 as spot fell 13pt — gap unchanged. **Shelf life: the 9/30 session.** Sent to TERRY (`AGENTS/TERRY/inbox/2026-09-30_from-HENRY_gamma-read-and-F3-basis.md`). **The 9/28 board below is SUPERSEDED.**
-
-#### Superseded — 9/28 close board
-
-`HENRY 2026-09-28 close: flip ~7,707 (14d) / ~7,704 (35d); sign NEGATIVE at both (spot 20–23pt below); walls NOT PUBLISHABLE (14d put == call == 7,700; call 7,700-band vs 8,000 across horizons).`
-
-| | 14d (3,540 contracts) | 35d (7,663 contracts) | Cross-horizon |
-|---|---|---|---|
-| **Zero-gamma flip** | ~7,707 | ~7,704 | **flip band 7,704–7,707** |
-| **Spot vs flip** (SPX **7,683.69**) | −23 pts | −20 pts | spot **below** at both (0.3%) |
-| **Sign** | NEGATIVE | NEGATIVE | ✅ **AGREE — dealers amplify** |
-| **Net GEX** | −$15.6B / 1% | −$17.0B / 1% | agree |
-| **Call wall** | 7,700 (near-tie, band 7,700–7,750) | 8,000 clean (+21%) | ⛔ disagree |
-| **Put wall** | 7,700 ⛔ put == call degeneracy | 7,700 clean (+27%) | ⛔ 14d unresolved |
-
-⛔ **NO WALL PUBLISHABLE** (audit E2 + 14d degeneracy). 7,700 is the top put strike at both horizons and **spot closed below it** — that is a strike, not a published wall. **Every HENRY wall dated before 9/28 is VOID.**
-
-📌 **Trajectory:** 9/21 strongly positive (+$34–41B) → 9/24 ≈ 0 (on the flip) → **9/25 UNMEASURED (dark; SPX 7,743.41 closed 36–39pt above the band)** → 9/28 negative. **Do not narrate when it turned on 9/25.** ⚠️ Free-tier: sign + flip robust when spot is clear of the flip (tonight 0.3% — clearer than 9/24's 0.04%, still close). $B magnitudes assumption-dependent. **Shelf life one session.**
-
-## CREDIT EARLY-WARNING MONITOR — bifurcation + flows
-
-*Run `scripts/credit_monitor.py` each session. **Live tranche levels live ONCE, in § ACTIVE THRESHOLDS.***
-
-🔴 **[FRED 9/25] gap 952 — the widest CCC−BB gap in FRED's available window** (2023-09-29 → 2026-09-25, n=785; next 948 [9/24], 934 [9/23]). **CCC 1,128 = 2nd-highest in the window**, behind only 1,137 [2025-04-07]. 🆕 **The quality tier moved: BB 164 → 176 on 9/25 (+12, highest since 7/29)**, and **HY +13bp to 293** — the largest one-print HY move since 2026-03-27 (+21), and the highest HY since 2026-04-13. **LIQUID grades it BROAD, BB-led** (`c637aa7a2`) — so this is no longer only the tail. Path: HY 266 [9/21] → 268 → 273 → 280 → **293 [9/25]**. Δgap 5d +24 · 20d +76 · 3mo +146 (CCC +158 vs BB +12). HY-ETF flow proxy NaN again (vendor gap) — **not measured**. ⚠️ Bloomberg-basis figures in the press (CCC 968) are a different index — never grade against my ICE lines. 🆕 **Deep dive → `research/2026-09-28_credit-move-deep-dive.md`: the biggest widening day (9/25, HY +13 / BB +12) came as the 10Y FELL 1bp and SPX ROSE 0.51% ⇒ not rates-beta; in % terms BB/B moved more than CCC; IG flat (31st pct). Drivers unadjudicated.**
+🔴 **[FRED 9/30] HY 312 · BB 194 · CCC 1,179 · gap 985** (ratio 6.08×). Δgap 5d **+51**, 20d +85, ~3mo +180 (CCC +210 vs BB +30). Path HY: 293 [9/25] → 302 [9/28] → 308 [9/29] → **312 [9/30]**; BB 176 → 183 → 189 → 194. **The quality tier keeps widening with the tail.** LIQUID's LIQ-07 "stress spreading" trigger FIRED 9/30 (single-B +36bp/15 sessions), half-resolved (WALTER −005; LIQUID's). HY 312 is **8bp under the 320 yellow**. ⛔ No superlative published this session (no series query run).
 
 ---
 
-## THESIS — axis verdicts *(9/24 text → archive block 38)*
+## THESIS — axis verdicts
 
 | Axis | Verdict |
 |---|---|
-| **1 — CYCLICAL (rates/Fed)** | 🔻 HEN-42 MISS 9/4 · ✅ HEN-45 CONFIRM 9/18. **9/22→9/28: 10Y +28, real +27, BE +1 — a real-yield leg, curve-wide, and now at 2007 highs.** **Attribution is SPLIT by day:** FOMC week = path (HEN-45); **9/23–9/24 = PREMIUM on ACM (P1, provisional)**; 9/28 = front-led, reads as 2027 path. My 9/25 claim that the whole move was "2027–28 higher for longer" was too broad. No row registered. |
-| **2 — AI-CAPEX** | ✅ Mechanism RESOLVED-CONFIRMED (HEN-36); equity-de-rate expression FALSIFIED 2-2; successor deliberately NOT registered. Micron **9/30 AMC** — context. ORCL 137.10 [9/25], −7.6% 9/22→9/25, credit framed as a financing loop (WALTER −007). |
-| **3 — STRUCTURAL CREDIT** | 🔴 **Gap 952, widest in the window; CCC through red; and 9/25 widened the QUALITY tier (BB +12).** Transmission question = LIQUID's Q2 test (L477). |
+| **1 — CYCLICAL (rates/Fed)** | **Attribution by day, now GRADED:** FOMC week = path (HEN-45 ✅) · **9/23–9/24 = PREMIUM (FORUM-7 FINAL, KW-checked)** · 9/28 front-led ⇒ reads as the 2027 path · 9/30 bear steepener on real yield · 10/1 front-end rally. The October hike case has faded: 68% [9/28] → **24%** [10/2 live]. ACM premium still rising to 9/30 ⇒ **the reversal risk now sits on the SUPPLY calendar (10/6–10/8) as much as on Fed data.** Real-yield letter: unregistered |
+| **2 — AI-CAPEX** | ✅ Mechanism RESOLVED-CONFIRMED (HEN-36); equity-de-rate expression FALSIFIED. VULCAN 10/1: MU FQ4 → S2 3→2 (VULCAN-11 falsified). Caveat travels: *"contractual ceilings exist; margin effect not yet measured"* |
+| **3 — STRUCTURAL CREDIT** | 🔴 CCC 1,179 through red; gap 985; BB widening with it (176 → 194 in 4 prints). LIQ-07 fired |
 
-**VERDICT:** the asymmetry has started to close from the risk side — **rates at 2007 highs, the credit tail through red with BB joining, and dealers short gamma** — while index vol is still only 16. Nothing mechanical absorbs a down move now.
+**VERDICT:** rates near multi-decade highs on real yields and premium, credit widening in both tiers, dealers short gamma into the open, breadth on a 7-week losing run. Index vol is still 16.
 
 ## INVALIDATION TRIAD — STANDING RULE vs STATE
 
-*Prose + correction history → archive blocks 2 · 6 · 12 · 14 · 16 · 21 · 38 and `STATUS_ROTATION_2026-08-28_PROSE.md`.*
+> **⚖️ STANDING RULE, Will-ruled 2026-08-10 (full text → archive `STATUS_ARCHIVE_2026-09.md` block 14):** ① H-1 SIMULTANEITY, NON-LATCHING — VIX <15 **AND** HY OAS <260 on the SAME session, 5 consecutive; nothing banks. ② H-2 — my leg 1 and LIQUID's `GATE-HY-REKILL` are THE SAME KILL.
 
-> **⚖️ STANDING RULE, Will-ruled 2026-08-10, forum FINAL §5 — full text → archive block 14.** **① H-1 SIMULTANEITY, NON-LATCHING:** the twin soft-kill needs VIX <15 **AND** HY OAS <260 for 5 consecutive sessions, **both on the SAME session**; nothing banks. **② H-2 SAME-KILL COUNTING:** my leg 1 and LIQUID's `GATE-HY-REKILL` are **THE SAME KILL** — if both fire, that is ONE event reported twice.
-
-**LEG STATE [re-pulled 2026-09-28]:** **Leg 1 — HY OAS 293 [FRED 9/25] = 0 of 5, 33bp from the line and moving away** (⛔ NON-KILL OBSERVABLE, WQ-106). **Leg 2 — VIX <15:** 9/18 · 9/21 · 9/22 satisfied; broken 9/23–9/24; **satisfied 9/25 (14.87 publisher)**; broken 9/28 (16.07 bar). **Leg 3 — SPX >7,100 × 5 FIRED, deep** (7,683.69).
-
-🟠 **JOINT: 0 sessions, 0 in the thesis's life.** HY has NEVER printed below 260 in the thesis's life (one print in the full FRED window: 259 [2025-01-22], pre-registration). The kill is further away tonight than at any point this month.
+**LEG STATE [10/2]:** **Leg 1 HY <260 — 312 [FRED 9/30] = 0 of 5, 52bp away and moving away** (⛔ NON-KILL OBSERVABLE, WQ-106) · **Leg 2 VIX <15 — last satisfied 9/25 (14.87 publisher); broken since** · **Leg 3 SPX >7,100 × 5 — FIRED, deep.** 🟠 **JOINT: 0 sessions.**
 
 ## ACTIVE THRESHOLDS
 
-*Current carries `[src M/D]`; Yellow/Orange/Red = STANDING rule. Prose + correction history → archive blocks 34 / 37 / 38.*
+*Current carries `[src M/D]`; Yellow/Orange/Red = STANDING rule.*
 
 | Metric | Current | Yellow | Orange | Red | State |
 |---|---|---|---|---|---|
-| **ISM Mfg PMI** | **54.6 [Aug, rel 9/01]** | <50 | <48 | **<47** | **NOT FIRED — 7.6 above red.** S&P flash mfg Sep 57.0 [9/23] argues no break (different survey). **Sep ISM = Thu 10/1** |
-| **ISM Mfg Employment** | **51.2 [Aug]** | <47 | <45 | <43 | NOT FIRED |
-| **ISM Mfg Prices Paid** | **71.1 [Aug]** | >60 | >70 | >75 | 🟠 **THROUGH ORANGE, 4th month** |
-| **PPI final demand** | **+0.4% m/m · +5.4% y/y [Aug, BLS 9/10]** | >0.4 | >0.5 | >0.6 | 🟠 **AT YELLOW.** Sep PPI = Thu 10/15 |
-| VIX | **16.07 [^VIX 9/28] · 14.87 [CBOE 9/25]** | >23 | >28 | >30 sust | NOT FIRED — ~6.9 under the vol-control trigger |
-| SPX | **7,651.54 [9/30 close]** · 7,670.84 [9/29] · 7,683.69 [9/28] · 7,743.41 [9/25] · 7,704.13 [9/24] | <7,200 | <7,100 | <6,494 | ⚫ **BELOW THE FLIP** (band 7,704–7,707), net GEX **−$16–17B/1%**, both horizons. No wall publishable. 6.3% above yellow |
-| KRE | **$69.44 [9/30 close]** · 69.83 [9/29] · 70.55 [9/28] · 71.55 [9/25] | <$65 | <$62 | **<$60** | ARMED — ~5.6 above yellow. Still falling with rising yields (not the NIM pattern). 🆕 **A third candidate beside credit/funding and AOCI: the "Muse" AI-agent deposit-flight narrative** (BKX −3.5%/5d, SECONDARY) — unadjudicated; 🟡 flag only; REGINALD owns banks |
-| **10Y** | **5.29% [Treasury 9/30]** · 5.26 [9/29] · 5.24 [9/28] | >4.5% | >4.8% | **>5.0%** | 🔴 **RED — every close since 9/23; first 9/16.** **5.29 = highest close since 2002-05-14 (5.32) [DGS10 series, checked 9/30].** 9/22→9/28 real-led (+27 of +28) |
-| **2Y** | **4.88% [Treasury 9/30]** · 4.89 [9/29] · 4.92 [9/28] | >4.25 | >4.40 | **>4.60** | 🔴 **RED — every close since 9/11** |
-| **30Y** | **5.64% [Treasury 9/30]** · 5.59 [9/29] · 5.56 [9/28] | >5.0 | >5.25 | **>5.50** | 🔴 **RED — FIRST CLOSE THROUGH, 9/28.** ⚠️ No "since" superlative until the DGS30 2002–06 coverage conflict (9/30 log) is resolved. 20Y 5.68 [9/30]. Single print; no sustain clause |
-| HY OAS | **302 [FRED 9/28]** · 293 [9/25] · 280 [9/24] · 273 [9/23] | >320 | >400 | >500 | Under yellow by 27bp. **+13 on 9/25, BB-led** |
-| CCC OAS | **1,146 [FRED 9/28]** · 1,128 [9/25] · BB **183** · gap **963** | >900 | >1000 | **>1100** | 🔴 **RED — since 9/24 (1,112), the first 2026 close over 1,100.** Only prior >1,100 prints in the window: 2025-04-07/08 |
-| **USD/JPY** | **157.46 [9/28 live 20:35 ET]** · 158.81 [9/25] | *(level ladder RETIRED)* | — | — | **Velocity key \|Δ\| ≥2%/day. SAM owns the call.** 9/28 ≈ −0.85% (yen stronger) ⇒ NOT FIRED |
-| **SKEW** | **146.25 [CBOE 9/28]** · 144.91 [9/25] | >145 | >150 | >160 | 🟡 **OVER YELLOW** on the publisher. ⛔ `RED-FT-10` is RED's |
-| **VIX kill leg** | **14.87 [CBOE 9/25]** · 16.07 [9/28 bar] | <17 | <16 | **<15, 1 session** | Satisfied 9/25 only; broken 9/28. Nothing banks (H-1) |
-| **HY kill leg** ⛔ *observable, H-2* | **302 [FRED 9/28]** | <290 | <270 | **<260 sust. 5** | **NOT FIRED — 0 of 5; not even under the <290 rung.** `GATE-HY-REKILL` is THE kill |
+| ISM Mfg PMI | 54.6 [Aug, rel 9/01] · ⚠️ **Sep printed 10/1 — NOT READ** | <50 | <48 | <47 | **UNKNOWN for Sep** — Aug NOT FIRED |
+| ISM Mfg Employment | 51.2 [Aug] · Sep NOT READ | <47 | <45 | <43 | Aug NOT FIRED |
+| ISM Mfg Prices Paid | 71.1 [Aug] · Sep NOT READ | >60 | >70 | >75 | 🟠 Aug THROUGH ORANGE (4th month) |
+| PPI final demand | +0.4% m/m · +5.4% y/y [Aug, BLS 9/10] | >0.4 | >0.5 | >0.6 | 🟠 AT YELLOW. Sep PPI = Thu 10/15 |
+| VIX | 16.07 [^VIX 10/2 08:3x quote] | >23 | >28 | >30 sust | NOT FIRED |
+| SPX | **7,666.45 [10/1 close]** · 7,651.54 [9/30] | <7,200 | <7,100 | <6,494 | ⚫ BELOW the flip on the close (band 7,692–7,695); 6.5% above yellow |
+| KRE | **$69.95 [10/1 close]** · 69.44 [9/30] | <$65 | <$62 | <$60 | ARMED — 4.95 above yellow |
+| 10Y | **5.24% [Treasury 10/1]** · 5.29 [9/30] | >4.5 | >4.8 | >5.0 | 🔴 RED — every close since 9/23 |
+| 2Y | **4.78% [Treasury 10/1]** · 4.88 [9/30] | >4.25 | >4.40 | >4.60 | 🔴 RED — every close since 9/11; 18bp over |
+| 30Y | **5.61% [Treasury 10/1]** · 5.64 [9/30] | >5.0 | >5.25 | >5.50 | 🔴 RED since 9/28. ⚠️ No "since" superlative (DGS30 coverage conflict, block 40) |
+| HY OAS | **312 [FRED 9/30]** · 308 [9/29] · 302 [9/28] | >320 | >400 | >500 | Under yellow by 8bp |
+| CCC OAS | **1,179 [FRED 9/30]** · BB 194 · gap 985 | >900 | >1000 | >1100 | 🔴 RED since 9/24 |
+| USD/JPY | 157.08 [live 10/2 08:31] | *(levels retired)* | — | — | Velocity \|Δ\| ≥2%/day — SAM's call; −0.60% ⇒ NOT FIRED |
+| SKEW | 142.77 [10/2 boot tape, last bar] | >145 | >150 | >160 | Back UNDER yellow. ⛔ `RED-FT-10` is RED's |
+| VIX kill leg | 16.07 | <17 | <16 | <15, 1 session | Not satisfied since 9/25 |
+| HY kill leg ⛔ *observable, H-2* | 312 [FRED 9/30] | <290 | <270 | <260 sust. 5 | NOT FIRED — 0 of 5 |
 
-## CATALYST STACK (late Sep → Oct)
+## CATALYST STACK
 
 | Date | Event | HENRY lens |
 |------|-------|------------|
-| **Tue 9/29** | JOLTS (Aug) · FRED posts 9/28 HY/CCC | LABOR owns JOLTS. **HY 9/28 print decides RED-FT-01's exit count (RED's)** |
-| **Wed 9/30** | **Q2 GDP (3rd) + August PCE** 08:30 [BEA] · Russian diesel ban expiry (**HEN-46 F3** leg 1 — ✅ graded 08:1x: EXTENDED to 10/31, NOT MET) · EIA distillate exports (voluntary-curb read, BRENT) · MU Q4 AMC · MOF monthly intervention total · **fiscal-year end (funding deadline — see news)** | **PCE = HENRY release-day log** — ✅ LOGGED 17:3x ET (§ 9/30 EVENING) |
-| **Thu 10/1** | **ISM Manufacturing (Sep)** · **FR2004 as-of 9/23 (~16:15 ET) = FORUM-7 FINAL** + BOND's Sept-4 kill dealer leg (DOCKET L478) | Red <47 row |
-| **Fri 10/2** | **September NFP** [BLS] · **HEN-47 verdict due** | LABOR owns the print; HENRY logs the reaction |
-| Mon 10/5 | WQ-252 sitting prep — HENRY owes per-candidate crack step measurements to DAEDALUS | L-row (DAEDALUS memo) |
-| 10/6–10/8 | 3Y/10Y/30Y auctions | The PREMIUM calendar (FORUM-7 §7) |
-| Wed 10/14 | **Sept CPI** · F1 November-fixed basis ends (WQ-252) | |
+| **Fri 10/2** | Sep NFP 08:30 (LABOR) — ✅ +29K, revisions −60K · **RSP 7th-week close** · Will's 4 QQQ puts expire (TERRY card) | Gamma pre-open above; RSP ARMED < $211.11 |
+| Mon 10/5 | (WQ-252 measurements — ✅ filed 10/2) · Will's 5 QQQ puts expire | Monday gamma board needs a fresh read |
+| **Tue 10/6** | **WQ-252 sitting (L471)** · 3Y auction | Supply calendar = FORUM-7's reversal risk |
+| Wed 10/7 · Thu 10/8 | 10Y · 30Y auctions · FR2004 as-of 9/30 (~10/8; BOND row 3) | |
+| Wed 10/14 | Sept CPI · F1 November-fixed basis ends | |
 | Thu 10/15 | Sept PPI | PPI yellow row |
-| Tue–Wed 10/27–28 | **FOMC** (next 12/8–9) | October +25bp ≈ 36% [9/30 close, ZQX26 vendor bar] · 68% [9/28] |
+| Mon 10/19 | Last session a matched November crack can be read (CLX26 expires 10/20) | WQ-252 |
+| Tue–Wed 10/27–28 | FOMC | Oct +25bp ≈ 24% [10/2 live] |
 | Fri 10/30 | ECI — last on the current basis | LABOR tripwire |
+| Sat 10/31 | Russian diesel ban expiry (F3 successor only if the 10/6 sitting registers one) | |
 | late Oct | AAL / LUV Q3 prints | **HEN-46 proper** |
 
-## ACTIVE PREDICTIONS  ·  *canonical log → `workbook/PREDICTIONS.tsv`*
+## ACTIVE PREDICTIONS · *canonical → `workbook/PREDICTIONS.tsv`*
 
 | ID | Prediction | Resolves | Status |
 |----|------------|----------|--------|
-| **HEN-46** | Diesel/jet squeeze — AAL/LUV miss Q3 fuel. F1 crack <$95 stand down / <$90.16 dead · F2 Jazan restart · F3 ban lapse 9/30 + crack <$95 in 10 sessions · F4 guide raised · F5 AAL −12% pre-entry. Full row → `PREDICTIONS.tsv` | **Q3 prints, late Oct** | ✅ ACTIVE 0.35 / 0.30. 🆕 **9/30: F3 NOT FIRED — ban extended to 10/31 (INFERRED); spent as written; re-arm = Will's (L471). F1 9/29 NOT FIRED $100.04.** **F1 basis = matched `HOX26×42 − CLX26` at CME SETTLEMENT.** 🔴 **9/25: F1 FIRED — STAND DOWN — on the inferred settle $94.998** (HOX26 4.4621 × 42 − CLX26 92.41; margin < 1 HO tick). Settles = Yahoo daily closes, validated exact vs wire-derived settles on CLX26 9/23–9/25 and BZX26 9/25; the HO 9/25 digit itself is inferred, CME not read → `research/2026-09-28_F1-9-25-settlement-resolved.md`. Not dead (<$90.16). 9/28: not fired (BRENT settle-window $96.23; HENRY bar $97.75). ⚠️ DENY-side risk now LIVE: US diesel-export-ban talk (Trump 9/22, 9/27; no order) would lower the US crack |
-| **HEN-47** | FORUM-7 verdict rule (path vs premium, 9/22→9/24) | **2026-10-02** | ✅ ACTIVE — **P1 PROVISIONAL PREMIUM (s 0.685), KW-UNCHECKED**; P2 KW pending; FINAL 10/1 FR2004 |
+| **HEN-46** | Diesel/jet squeeze: AAL/LUV miss on Q3 fuel. F1 crack <$95 stand down / <$90.16 dead (matched `HOX26×42 − CLX26`, CME settle, through 10/14) · F2 Jazan restart · **F3 SPENT (WQ-344)** · F4 guide raised · F5 AAL −12% pre-entry | Q3 prints, late Oct | ✅ ACTIVE 0.35 / 0.30. F1 FIRED (stand-down) 9/25 on the inferred $94.998; not dead. Basis after 10/14 = the 10/6 sitting's |
+| **HEN-47** | FORUM-7 verdict rule | 2026-10-02 | ✅ **RESOLVED — PREMIUM-ABSORPTION** (10/2, BOND co-sign PENDING) |
 
-**No new prediction registered.** The real-yield letter stays unregistered — it must now name BOTH TP models and the day-split above before it can be written.
+**No new prediction registered.**
 
 ## CROSS-AGENT DEPENDENCIES
 
-| **BOND** | Consumes HENRY's Fed-path series at boot (WQ-327; `rates_context.py`); its 9/28 read agrees (68%). FORUM-7 co-author (D3 FR2004 10/1). Sept-4 kill dealer leg — bucket unnamed (L478). `sb0607` buybacks contaminate curve attribution after 9/9. |
-| **LIQUID** | `GATE-HY-REKILL` = THE kill (WQ-106). Graded 9/25 widening BROAD, BB-led; X1 CLOSED since 8/28. |
-| **RED** | ⛔ No counts mirrored — read `AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv`. `FT-01` exit count, `FT-10` SKEW, `FT-11` needs a rally (NOT MET), `FT-12` HY<260. |
-| **VIOLET** | Owns the vol broadcast; HENRY keeps gamma/0DTE/put-wall. |
-| **TERRY / BRENT** | F1 grader (TERRY); BRT-12 blind verdict sent (NO). `GATE-TERRY-VLO-HELD-01` registered 9/28 (Will). |
-| **VULCAN/WATT · HANS · DEWEY · FALCON** | Long rows → archive block 19. WATT: PJM 4th emergency 9/16–18 (maintenance-season), FCF power input UNCHANGED. AEOLUS: Rhine below record low (C5 fires 9/28) — the 2018 German-industry analogue; **no HENRY euro-area row exists to move**. **F1 basis: no direct effect** (NY Harbor contract); the only channel, the transatlantic diesel arb, would push the crack UP, away from firing; unmeasured → `AGENTS/AEOLUS/inbox/2026-09-28_from-HENRY_rhine-vs-F1-crack-basis.md`. ZHAO: US IEEPA 11/10 leg VOID (HENRY carried none). |
+| Desk | Live item |
+|---|---|
+| **BOND** | FORUM-7 co-sign PENDING (packet 10/2). WQ-291 kill MET (`96ccc7a0c`) → rec pending Will (WQ-357), separate from this verdict. Consumes HENRY's Fed-path series (WQ-327) |
+| **NEXUS** | FORUM-7 consumer — verdict packeted 10/2; its letter is untouched (CONCUR 10/1) |
+| **DAEDALUS / TERRY** | WQ-252 sitting 10/6 — HENRY's measurements filed; HENRY is conflicted on the choice (it is Will's) |
+| **LIQUID** | `GATE-HY-REKILL` = THE kill. LIQ-07 FIRED 9/30 |
+| **RED** | ⛔ No counts mirrored — read `AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv` |
+| **VIOLET** | Owns the vol broadcast; HENRY keeps gamma/0DTE/put-wall |
+| **WALTER** | WATCH_FOR R3 → PROME lands the clean set |
+
+## GAPS (this session)
+
+- **Sep ISM Manufacturing (10/1) — NOT READ.** Its three threshold rows carry August values and say so.
+- **Sep NFP:** logged from LABOR's packet (§ NFP). The consensus and the cash-session reaction were not read.
+- **Gamma at today's close; Monday's pre-open board** (Will's 5 QQQ puts expire 10/5).
+- **RSP 7th-week grade at today's close** (armed above).
 
 ## BOTTOM LINE
 
-**[9/30 PCE addendum — reading only]** Core PCE +0.25% m/m under the +0.3% consensus; the 3.0% vs 3.3% y/y gap is mostly BEA's annual revision. **#5 below is WEAKENED: October odds 36% [ZQX26 9/30 close], from 68% on 9/28.** Front end eased (2Y 4.88); 10Y 5.29 / 30Y 5.64 kept rising on real yield — #1 extended at the long end. ⚠️ #1's "2007 highs" superlatives are superseded by the 9/30 series check (§ 9/30 EVENING).
+**1. FORUM-7 is graded: the 9/23–9/24 jump in the 10Y was mostly term premium (≈⅔ on ACM), and the second model agrees within 6bp.** My "higher for longer" story was wrong for those two days. The practical change: **the 10Y can now reverse on Treasury supply news (auctions 10/6–10/8, the 11/4 refunding) without any Fed move.** The dealer qualifier says ABSORPTION, but only the 5Y bucket built; dealers cut long-end duration. BOND has not co-signed yet.
 
-**[9/28 close] While I was dark, the rates leg ran to 2007 highs, the credit tail went through red and pulled the quality tier with it, and dealers turned short gamma. Equity vol is still only 16.**
+**2. ⚫ Gamma is negative on the 10/1 close, but the futures put the open just above the flip (~7,703 vs 7,692–7,695).** Near the flip the sign is not reliable. Below ~7,692 dealers amplify moves; above it they are roughly neutral. Measurement only; shelf life today; SPX-based, so QQQ's own dealer positioning is not measured.
 
-**1. 🔴 RATES AT 2007 HIGHS, ON REAL YIELDS.** 10Y **5.24%** (highest close since 2007-06-12), 30Y **5.56%** (through my 5.50 red for the first time; highest since at least Aug 2007), 2Y **4.92%** [Treasury 9/28]. 9/22→9/28: 10Y +28 = real +27, breakeven +1. It is global (gilts, Bunds, JGBs at multi-decade highs, SECONDARY).
+**3. 🔴 Credit keeps widening in both tiers** (HY 312, BB 194, CCC 1,179 [9/30]), 8bp from the HY yellow line.
 
-**2. 🔄 MY ATTRIBUTION WAS TOO BROAD.** On 9/25 I called the whole move "2027–28 higher for longer." **ACM says 9/23–9/24 was ~69% term premium (FORUM-7 P1, provisional, 2nd model not yet posted)**; 9/28 was front-led and reads as the 2027 path. Two drivers, different days — and a premium leg can reverse on Treasury supply (10/6–10/8 auctions) with no Fed change.
+**4. 🟡 Breadth: RSP is one close away from a 7-week losing run.** On price data since 2003 the only other was April–May 2022.
 
-**3. 🔴 CREDIT: CCC 1,128 through red, gap 952 = widest in FRED's window, and HY +13 to 293 on a BB-led move.** The tail is no longer widening alone. HY is 33bp from the 260 kill line and moving away.
+**5. October hike ≈ 24%** [ZQX26, live after NFP] — down from 68% on 9/28.
 
-**4. ⚫ GAMMA NEGATIVE at both horizons** (flip 7,704–7,707, SPX 7,683.69, −$16–17B/1%). Dealers amplify moves in both directions. No wall published.
+**⛔ KILL ON SIGHT:** *"the dealers warehoused the auctions"* (5Y bucket only; long-end fell) · *"FORUM-7 is final/co-signed"* (BOND PENDING) · *"the 10Y move was the Fed path"* for 9/23–9/24 · *"$90.16 was calibrated on a matched pair"* (7/23 UNVERIFIED) · any HENRY wall · *"October odds X%"* without basis · *"30Y highest since …"* (unresolved) · *"CCC 968"* as an ICE figure.
 
-**5. 🟡 OCTOBER HIKE ~68%** [ZQX26 vendor bar 9/28; BOND agrees]. Cook (9/28): the labor market can "handle an increase in rates." UMich 1y expectations 4.6%. **This week decides it: PCE 9/30 · ISM 10/1 · NFP 10/2.**
-
-**6. 🔴 HEN-46 F1 FIRED ON 9/25 — by less than one price tick.** Inferred settle $94.998 vs the $95.00 line (Yahoo daily closes, which matched the official WTI/Brent settles exactly on every day checked; the heating-oil digit itself is not CME-read). Stand-down, not dead. TERRY grades the VLO gate. 9/28 not fired ($96.20). Diesel-export-ban talk is a live DENY-side risk.
-
-**7. ⛔ KILL ON SIGHT:** *"Brent fell 5.6% Monday"* (roll artefact; Nov settled $105.28) · *"the 10Y is an inflation scare"* (breakevens +1) · *"the whole move is policy path"* (ACM: 9/23–24 premium) · *"CCC 968"* as an ICE figure (Bloomberg basis) · *"30Y highest since 2004"* (⚠️ 9/30: the DGS30 download now shows 2002–06 rows — the gap premise is CONTRADICTED; publish no 30Y "since" until re-checked) · any HENRY wall dated before 9/28 · *"October odds X%"* without its basis · *"Russia extended the diesel ban"* (report, no decree) · *"shutdown risk this week"* (CR to 12/11).
-
-**$0 moved. No card, no order, no trade proposed. No threshold set, moved or re-specced.** Red rungs recorded as crossings (30Y, CCC); none carries an action.
+**$0 moved. No card, no order, no trade proposed. No threshold set, moved or re-specced.**

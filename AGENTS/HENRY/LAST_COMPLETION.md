@@ -1,40 +1,48 @@
 # HENRY — LAST_COMPLETION
 
-**Session:** 2026-09-30 Wed 17:38 EDT (`date`), PROME re-ping `prome-94` (Tier 1) of the 9/30 wake — the 11:1x ET doorbell was lost in a machine crash. Launched from PROME's cwd; desk CLAUDE.md read explicitly.
-**Status:** ✅ **Release-day log done.** No letter, threshold, score or confidence changed; no trade view; $0.
+**Session:** 2026-10-02 Fri 08:31 → 08:5x EDT (`date`), PROME spawn `prome-70` (Tier 1 due-row wake, DOCKET L475 / WQ-184). Launched from PROME's cwd; desk CLAUDE.md, STATUS, LESSONS and MEMORY read explicitly; `boot.py` run.
+**Status:** ✅ **FORUM-7 FINAL graded; gamma measured pre-open; inbox drained; STATUS rotated.** No letter, threshold, score or confidence changed; no trade view; $0.
 
 ## CHANGED (files)
-- `STATUS.md` (header · new § 9/30 EVENING release log + HEN-lines table · RATES rows 9/29–9/30 · thresholds 10Y/2Y/30Y/SPX/KRE current cells · catalyst + BOTTOM LINE addendum · kill-list 30Y flag) · `MEMORY.md` · `NEXUS_BRIEF.md` · this file.
-- Memo: `PROME/inbox/2026-09-30_from-HENRY_august-PCE-release-log.md`.
+- `research/2026-10-02_FORUM-7_FINAL-grade.md` (new) · `workbook/PREDICTIONS.tsv` (HEN-47 RESOLVED · HEN-46 F3 SPENT) · `workbook/PUBLISHED.tsv` (14d gamma rows; the 35d rows were auto-appended by `gamma_flip.py`)
+- `STATUS.md` (rewritten after a WHOLE rotation) · `status_archive/STATUS_ARCHIVE_2026-10.md` (new: block 40 = old STATUS, block 41 = old MEMORY session notes) · `MEMORY.md` · `NEXUS_BRIEF.md` (+ rotation file) · `board_log.tsv` (+22 rows) · 22 inbox files → `processed/`
+- Packets: BOND (co-sign request) · NEXUS (verdict, consumer) · TERRY (gamma, info) · DAEDALUS (pointer) · PROME ×3 (WQ-252 measurements + Q1 · WATCH_FOR R3 · session memo)
 
 ## RESULT (one line)
-**August inflation came in a little softer than forecast (core +0.25% m/m vs +0.3%), and the odds of an October Fed hike fell to about 36% — but long-term Treasury yields still rose, so the rate pressure has shifted from the Fed's next move to the long end.**
+**The jump in the 10-year Treasury yield on 9/23–9/24 was mostly term premium, not the Fed's expected path. Both models agree, so the bigger reversal risk is now Treasury auction supply (10/6–10/8), not Fed data. Dealers were short gamma at Thursday's close, but futures put today's open right at the flip, so that read is weak today.**
 
 ## Session Work
 | Item | Outcome |
 |---|---|
-| Core PCE | +0.25% m/m · 3.01% y/y [BEA 9/30] vs +0.3% / 3.3% cons. ⚠️ Most of the y/y gap is BEA's annual revision (July was 3.34% before revision, 2.98% after) |
-| Headline PCE | +0.31% · 3.42% |
-| Income / spending | income +0.24% (cons +0.5%) · spending +0.86% (cons +0.8%), real +0.6% · saving 4.1% (Jul revised 3.0 → 4.6) |
-| Q2 GDP 3rd | 2.2% (2nd est. 1.5%; Q1 revised 2.5%) |
-| Reaction | release bar dovish; by close 2Y −1 · 10Y +3 (5.29, highest since 2002-05-14) · 30Y +5 · real +2 ⇒ bear steepener. SPX −0.25% |
-| October hike | 44% [08:09] → **36%** [ZQX26 close]; § BOTTOM LINE #5 WEAKENED (reading only) |
-| Inbox | top-level 0 · WALTER/ 0 — nothing to drain |
+| FORUM-7 FINAL (HEN-47) | **PREMIUM-ABSORPTION** — s 0.685 (ACM) · g 6.33bp ≤ 18 (KW-checked) · FR2004 3–6Y +$12.093B STRESS, long-end −$3.828B NONE ⇒ qualifier from the 5Y bucket only. **HENRY-graded, BOND co-sign PENDING** |
+| Gamma, 10/2 pre-open | NEGATIVE both horizons on the 10/1 close (flip 7,692–7,695; SPX 7,666.45; −$12.7B/−$15.8B per 1%); walls withheld; indicated open ~7,703 (INFERRED) ⇒ sign not robust. SPX only; QQQ not measured |
+| RSP breadth | 6 down weeks verified; 7th ARMED for a close < $211.11 today; only prior ≥7 run on price since 2003 = Apr–May 2022 (HENRY-verified) |
+| WQ-252 | Steps filed 3 days early (Nov−Dec median $4.72; Dec−Jan $2.84). **Q1: the $90.16 pair is UNVERIFIED** — I withdrew my own 9/14 over-claim |
+| Inbox | 6 top-level + 16 WALTER + 1 LABOR (Sep NFP, arrived mid-session) logged and consumed |
+| Sep NFP | +29K, revisions −60K, U-3 4.2%, AHE 3.0% y/y (LABOR, BLS primary) ⇒ soft; logged in STATUS § NFP |
+| Fed path | October +25bp ≈ 24% [ZQX26 96.06, 08:36 ET live] (FedWatch screenshot 26%) |
+
+## HONEST SCOPE
+- **Verified at primaries:** ACM (NY Fed xls, sha recorded) · KW (FRED) · FR2004 (NY Fed API) · Treasury par/real 10/1 · FRED credit 9/30 · RSP history.
+- **Inferred:** the indicated SPX open (ES basis backed out of a % change) · the 7/23 crude leg (CLU26).
+- **Same-vendor replication, not independent:** WQ-252 steps vs DAEDALUS (both yfinance Close); FR2004 vs BOND (same API).
+- **Not done:** Sep ISM (10/1) **not read**; Sep NFP logged from LABOR's packet only (consensus and cash reaction not read); RSP 7th week and gamma at today's close not graded (the session closes before them).
 
 ## GAPS / Still pending
-- Gamma board NOT re-measured at the 9/30 close (outside this re-ping).
-- **STATUS is 97% of the 32,550 B read cap** — rotation was already due (80%) before tonight; owed next session.
-- DGS30 2002–06 coverage conflicts with my 9/28 kill-list note — no 30Y "since" superlative until re-checked.
-- GDP and headline-y/y consensus: SEARCH-NOT-FOUND. Consensus figures are secondary (Barchart/FXStreet/Investing.com).
+- BOND co-sign on FORUM-7 · ISM log · NFP cash-session reaction · RSP grade at the 10/2 close · Monday pre-open gamma board.
+- `reports/2026-09-24_F1-basis-named.md` still carries the withdrawn "calendar-matched including $90.16" sentence (dated historical report — the withdrawal lives in the WQ-252 packet and MEMORY).
 
 ## COMMITS
-See git log -- AGENTS/HENRY/ (2026-09-30 evening); shas in the PROME delivery message. **Not pushed** (PROME pushes at its closeout).
+- See the PROME memo `PROME/inbox/2026-10-02_from-HENRY_FORUM-7-final-and-gamma.md` (shas listed there). Not pushed: PROME pushes for the fleet.
 
-## NEXT SESSION FOLLOW-UP
-Thu 10/1 ISM + FORUM-7 FINAL · Fri 10/2 NFP + HEN-47 verdict · Mon 10/5 crack step measurements → DAEDALUS · Tue 10/6 WQ-252 sitting · Wed 10/14 CPI.
+## NEXT SESSION FOLLOW-UP (dates Will cares about)
+- **Today 10/2:** 4 QQQ puts sell-or-roll by 15:00 ET (TERRY's card) · RSP 7th-week close.
+- **Mon 10/5:** 5 QQQ puts expire — a fresh gamma board is needed pre-open.
+- **Tue 10/6:** WQ-252 sitting · 3Y auction; 10Y 10/7, 30Y 10/8 — the supply calendar FORUM-7 now points to.
+- **Wed 10/14:** CPI · **Mon 10/19:** last matched-November crack read · **10/27–28:** FOMC.
 
 ## THESIS SNAPSHOT (frozen at close)
-Long-end rates still rising on real yield (10Y 5.29, 30Y 5.64 [Treasury 9/30]) while the October-hike path softened (36%); credit tail through red (CCC 1,146, gap 963 [FRED 9/28]); dealers short gamma at the pre-open read; VIX 16.34. HEN-46 ACTIVE 0.35/0.30, F3 spent.
+Rates: 10Y 5.24 / 2Y 4.78 / 30Y 5.61 / 10Y real 2.88 [Treasury 10/1], all through red; the 9/23–9/24 burst was premium (graded). Credit: HY 312 · BB 194 · CCC 1,179 · gap 985 [FRED 9/30], both tiers widening. Gamma: negative on the close, near zero at the indicated open. Vol: VIX 16.07. October hike ≈ 24%.
 
 ## WILL_NEEDS
-⚖️ Unchanged from the pre-open spawn, not urgent before 10/6: does HEN-46 F3 die with the ban extension (HENRY's grade as written) or re-arm at 10/31 (a letter change)? Natural home: the WQ-252 sitting.
+- None from this session. (WQ-252's choice on 10/6 is Will's; HENRY is conflicted and sent measurements only. BOND's separate exit recommendation is WQ-357, not this verdict.)

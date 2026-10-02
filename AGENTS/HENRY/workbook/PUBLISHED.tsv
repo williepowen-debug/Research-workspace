@@ -89,3 +89,7 @@ gamma_flip_35d	7693	2026-09-30	cboe 7367 contracts
 net_gex_35d_Bn	-14.6	2026-09-30	$B per 1%
 gamma_flip_14d	7694	2026-09-30	cboe 3065 contracts; PRE-OPEN 08:04 ET read on the 9/29-close spot 7670.84 = -23pt, sign NEG at BOTH horizons (35d flip 7693, -22pt); walls withheld (14d put==call==7700; 35d call 8000 vs 14d 7700)
 net_gex_14d_Bn	-11.4	2026-09-30	$B per 1%
+gamma_flip_35d	7695	2026-10-02	cboe 7406 contracts
+net_gex_35d_Bn	-15.8	2026-10-02	$B per 1%
+gamma_flip_14d	7692	2026-10-02	cboe 4194 contracts; PRE-OPEN 08:31 ET read on the 10/1-close spot 7666.45 = -26pt, sign NEG at BOTH horizons (35d flip 7695, -28pt); walls withheld (14d put==call==7700; 35d call band 7800-8000 vs 14d 7700-7750); indicated open ~7,703 (ES 08:36, INFERRED basis) sits ~8-11pt ABOVE the flip band (0.1%) => sign at the open NOT robust
+net_gex_14d_Bn	-12.7	2026-10-02	$B per 1%
