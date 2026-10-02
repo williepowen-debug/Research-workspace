@@ -36,7 +36,7 @@ Session: **2026-10-02 Fri, Claude Opus 5.5 as WALTER (`walter-61`, desktop)**. B
 
 1. **No WALTER-scanned registered trigger fired.** Nearest: **HY 324 [10/01] = 1 of 3 on FT-02 / REG-T-03**; REG-T-04 26bp; EA core 2.5% at HANS-T-16 (≤1 of 2); UK 30Y 5.943 [10/01] vs 6.00 (HANS's).
 2. **The day's shape:** payrolls stalled and the bond rally reversed by late morning; Europe folded into a G7 diesel-first release; credit spreads crossed 320 on one print while funding stayed calm.
-3. **/bin/bash.** No proposal, no trade. Exposure lines only (USO Oct-09 $150C, TERRY's card; WQ-366 early-sell condition met per PROME).
+3. **$0.** No proposal, no trade. *(Repaired 10/02 12:1x ET reboot: this read "/bin/bash." — an unquoted-heredoc expansion of "$0".)* Exposure lines only (USO Oct-09 $150C, TERRY's card; WQ-366 early-sell condition met per PROME).
 
 ## GAPS
 
