@@ -58,7 +58,11 @@
 
 - **09:5x post-open follow-up (Will's word 09:23):** payrolls +29K ⇒ rate relief (SPX +1.05%, 2Y −2.5bp, Oct ≈20%); **gamma POSITIVE at 09:48** (spot through an unchanged flip ~7,696). ⚠️ **Self-correction:** `gamma_flip.py` EXCLUDES same-day expiries (T ≤ 0), so my 08:4x "today's expiry rolls off → Monday differs" was wrong; it went to TERRY and is corrected. ⚠️ **The CBOE delayed chain is DEAD for ~15 min after the open** (prior-day price, iv=0 on every row) ⇒ the script silently falls back to yfinance, which is unstable (flip 7,785 vs 7,762 a minute apart). **Never read gamma before ~09:48 ET; check `source` == cboe.**
 
-### NEXT SESSION — in this order
+### NEXT SESSION — in this order *(re-keyed at the 11:1x closeout; the ARMED table in STATUS is the canonical list)*
+
+0. 🔴 **STATUS § ⏰ ARMED — A1 RSP 7th week (close < $211.11) · A2 HEN-46 F1 on the 10/2 settle (Nov matched $95.81 intraday) · A3 Mon 10/5 pre-open gamma (CBOE only) · A4 HY obs 10/02, ISM, BOND co-sign, ACM.** PROME did not re-ping this pane after the close; grade on the first wake.
+- Later the same day (10:41–11:1x): HY 324 [10/01] over 320 on one print (amends "no growth fear" — the credit leg met on 10/01); G7 diesel+crude release; events calendar 10/2–10/16 filed (`097d342c3`); consumer check → TERRY packet (its VLO setup card line 408 restated my withdrawn $90.16 claim).
+
 
 1. 🔴 **Sep ISM (printed 10/1) — NOT read.** ISM rows carry August. Sep NFP logged from LABOR's packet (+29K, revisions −60K, AHE 3.0%); the cash-session reaction is owed.
 2. 🔴 **RSP 7th-week grade** at the 10/2 close (armed < $211.11) · **gamma board** before Monday's open (Will's 5 QQQ puts expire 10/5).

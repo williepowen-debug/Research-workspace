@@ -1,6 +1,6 @@
 # HENRY — LAST_COMPLETION
 
-**Session:** 2026-10-02 Fri 08:31 → 08:5x EDT (`date`), PROME spawn `prome-70` (Tier 1 due-row wake, DOCKET L475 / WQ-184). Launched from PROME's cwd; desk CLAUDE.md, STATUS, LESSONS and MEMORY read explicitly; `boot.py` run.
+**Session:** 2026-10-02 Fri 08:31 → 11:1x EDT (`date`; four PROME legs: boot task · post-open read · signal drain · events calendar → full closeout), PROME spawn `prome-70` (Tier 1 due-row wake, DOCKET L475 / WQ-184). Launched from PROME's cwd; desk CLAUDE.md, STATUS, LESSONS and MEMORY read explicitly; `boot.py` run.
 **Status:** ✅ **FORUM-7 FINAL graded; gamma measured pre-open; inbox drained; STATUS rotated.** No letter, threshold, score or confidence changed; no trade view; $0.
 
 ## CHANGED (files)
@@ -27,6 +27,14 @@
 - **Inferred:** the indicated SPX open (ES basis backed out of a % change) · the 7/23 crude leg (CLU26).
 - **Same-vendor replication, not independent:** WQ-252 steps vs DAEDALUS (both yfinance Close); FR2004 vs BOND (same API).
 - **Not done:** Sep ISM (10/1) **not read**; Sep NFP logged from LABOR's packet only (consensus and cash reaction not read); RSP 7th week and gamma at today's close not graded (the session closes before them).
+
+## LATER LEGS (same session)
+| Leg | Outcome |
+|---|---|
+| Post-open (09:46–09:50) | Payrolls +29K vs ~84–90K ⇒ rate relief: SPX +1.05%, QQQ +1.34%, 2Y −2.5bp, October ≈ 20%. **Gamma turned POSITIVE** (spot through an unchanged flip ~7,696). Corrected my 08:4x "today's expiry rolls off" line: the method excludes same-day expiries (`dfadf9513`, TERRY `a35b09ab1`, memo `8d9de915e`) |
+| Signal drain (10:41) | HY 324 [10/01] over my 320 yellow on one print (credit leg met pre-payrolls); G7 diesel+crude release ⇒ matched Nov crack $95.81 intraday, $0.81 from F1's $95 (`2d7d27065`, TERRY `2b3cb2c18`) |
+| Events 10/2–10/16 | 14-row calendar; Oct-16 covers the 10/13–10/15 CPI/PPI/retail/bank/TSMC cluster (`097d342c3`) |
+| Closeout (11:1x) | ARMED: RSP 7th week · F1 on the 10/2 settle · Mon pre-open gamma — **not done**. Consumer packet → TERRY ($90.16 claim on its VLO card) |
 
 ## GAPS / Still pending
 - BOND co-sign on FORUM-7 · ISM log · NFP cash-session reaction · RSP grade at the 10/2 close · Monday pre-open gamma board.
