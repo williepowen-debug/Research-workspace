@@ -197,3 +197,13 @@
 ⚠️ **This qualifies KB-BRK-256, and against me:** I concluded from the BCRED-vs-ARCC pair that no same-borrower sample exists for a mark-dispersion test. **That generalised from ONE non-overlapping pair to "no sample exists" — stronger than the evidence supports.** Medallia is the counter-example.
 🔑 **The read:** BXSL also ~50¢ ⇒ **TIME** (the credit re-rated ~28pts, real deterioration). BXSL still ~75¢ ⇒ **HOLDER DISPERSION on a shared credit**, which **resurrects the mark-divergence sub-thesis I recommended retiring hours earlier.**
 ⚠️ **Do NOT publish "78¢ → 49.5¢" as a decline series — it confounds TIME and HOLDER** (different lenders, different quarters). KB-BRK-261.
+
+### SESSION LOG — 2026-10-02 (PROME prome-70 Tier-1 wake + three follow-ups; full closeout 11:14 ET)
+- L479 graded: CRMT FIFTH bridge (8-K …006326, dated 9/30, filed 10/1 08:30 ET) → STD 10/8 (DOCKET L585), backstop 10/15 (L586). KB-BRK-309.
+- L494 sitting: X1 wrapper half NOT ARMED, structure unchanged; LIQUID count → Will (WQ-363); X1-R → PROME (L587). KB-BRK-310. Re-run on 280→324 also fails (SIG-W-20261002-005).
+- BRK-02 RESOLVED-FALSE (Octus 1.90% at cost Q2-26; KBRA 2.75% / DBRS 3.4% disagree, recorded). KB-BRK-312.
+- W1 BROCK leg NOT FOUND (bounds only; pre-statement over-claimed). Strict-vs-functional → Will. KB-BRK-313.
+- WQ-318 FOUND n=1: FSK JPM-agented revolver tightened 5/8/26 (KB-BRK-314); packets to REGINALD (827ac2d2b).
+- Drain 14 + 1 + TERRY ask; events table 10/2–10/16 (ff26be1eb); TERRY evidence (0a04cad71).
+- Resume point: the ARMED block under STATUS's calendar. STATUS hot/cold split still owed.
+

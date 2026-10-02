@@ -90,3 +90,11 @@
 **The transferable half:** `[[finding_scope_boundary_asserted_from_proximity]]`, applied to a *permission* rather than a lane — **a tool telling you an operation is safe is telling you about THAT operation, never about the one you are actually about to perform.** The tell: I could not have said, before acting, which several pointers I was collapsing. If you cannot name the plural, it is a rewrite.
 
 **And the second half, which is about stopping:** four passes on one file in one sitting, the fourth going backwards, IS the two-correction stop arriving on schedule. The residual (100.0% of budget vs a 70% STOP) is **not closable by more nibbling** — it needs a structural hot/cold split of STATUS, which is a broad batch owed its own session and a cold read. **Declared as residue, not carried as an intention.**
+
+---
+
+### #37 — Three instruments told me something false in one day, and each was caught only at the primary. *(2026-10-02)*
+1. **A search summarizer credited KBRA's 2.75% to Fitch** — the very source my BRK-02 spec names. Taken at face value, it would have resolved the row TRUE on the "named survivor". Raw publisher HTML said KBRA; the spec's industry aggregate (Octus 1.90%) graded it FALSE. → `[[finding_attribution_authenticates_a_figure_its_named_source_never_produced]]` (instance appended).
+2. **The SEC submissions JSON moved its clock under the same URL** — the same 9/24 8-K read `20:05:15Z` on 9/25 and `00:05:15Z`(+1d) on 10/2. Grade acceptance times from the EDGAR index page.
+3. **My own pre-statement over-claimed a surface** ("10-Qs name exited positions with proceeds vs cost"). Five filings showed sales and repayments merged. Pre-stating made the miss visible instead of quietly re-scoped — **keep pre-stating; it is what caught it.**
+
