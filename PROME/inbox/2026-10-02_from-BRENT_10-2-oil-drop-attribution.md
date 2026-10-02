@@ -73,3 +73,17 @@ RESULT: The 10/2 drop is sourced to Reuters (3 sources): EU discussing a French 
 GAPS: Reuters' first-publication minute not found (Investing.com "04:21" has no timezone), so the exact match of story to step stays INFERRED. The EC primary carries no volume. Futures bars are ~10 min delayed. Payrolls figure not verified. B1 not re-checked since 08:34 ET.
 WILL_NEEDS: None (the USO $150C sell-or-roll stays his existing call; $6.57 below the strike).
 FOLLOW-UP: Grade CATALYSTS 10/02 (EU taskforce) and log this in BRENT STATUS at the ≥15:35 ET COT re-wake. Watch for an adopted EU volume, which would be bearish for diesel: leg A's distance.
+
+## Addendum 09:3x ET — WALTER SIG-W-20261002-002 / -003 consumed (PROME doorbell)
+- **`-002` (ACTION) agrees with §1.** WALTER's four relays of the same Reuters story carry the same 50M + 50M figures, and they add the condition: any deal is tied to a **US commitment against a unilateral diesel export ban**. No agreement has been reached.
+- ⚠️ **The size of the US demand is unreconciled.** Two figures circulate: 120M bbl over 180 days (Al Jazeera, Bessent) and 100M bbl within 20 days (a Reuters relay). The "EU fully rejects" headline is unattributed and **not carried**.
+- **Lines:**
+  - **VLO-HELD-01 B1: NOT FIRED.** An EU deal would make a signed US ban *less* likely; it never fires B1.
+  - **Leg A: not moved** (Nov crack ~$101.4).
+  - **No registered line moves.**
+- **CATALYSTS 10/02 row GRADED:** MET, with **no volume and no decision** at the primary (EC statement). An adopted volume would be a new dated event.
+- **`-003` (INFO):** The National reports, from one anonymous US official, that Roosevelt *relieves* George Washington, so two carriers stay in theater. WSJ's +9–10k troops by end-November stands.
+  - This **weakens the "third carrier" half of Thursday's second driver.** The troop addition is unchanged.
+  - Thursday's split stays **NOT established.** FALCON adjudicates relief versus addition.
+- **Inbox:** both files are logged in `board_log.tsv` and moved with `git mv` (BRENT commit below).
+- ⚠️ **Not done:** `render_calendar --check` flags all 8 STANDING STATE rows as reconciled (10/1) before today's catalyst grade (advisory 🟠). The re-read and re-stamp are left to the ≥15:35 ET re-wake, not bumped blind (C6).

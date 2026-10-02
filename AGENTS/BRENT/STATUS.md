@@ -69,7 +69,7 @@
 | **Wed Sep 30** | ✅ XLE September 30 expiry — residual check — GRADED 2026-10-01: nothing residual (both 65C sold; last fill 9/11 @ $1.51, TRADE EXECUTION LOG) | 🟡 |
 | **Wed Sep 30** | ✅ RUSSIA PRODUCER DIESEL EXPORT BAN — current extension EXPIRES — GRADED 2026-10-01: EXTENDED to 10/31 (successor row 2026-10-31) | 🟠 |
 | **Thu Oct 1** | 🟠 EU STORAGE 80% FLOOR — DECISION DATE (binding 1 Oct-1 Dec window OPENS) | 🟠 |
-| **Fri Oct 2** | EU ENERGY TASKFORCE — meets on a possible release of emergency DIESEL stocks (US pressing FR/DE for 120M bbl over 6 months, WALTER SIG-W-20261001-026) | 🟠 |
+| **Fri Oct 2** | ✅ EU ENERGY TASKFORCE — meets on a possible release of emergency DIESEL stocks (US pressing FR/DE for 120M bbl over 6 months, WALTER SIG-W-20261001-026) — GRADED 2026-10-02 09:3x ET: MET,… | 🟠 |
 | **Sun Oct 4** | 🟠 OPEC+ SEVEN-COUNTRY MONTHLY MEETING — the November 2026 production decision (successor to the 9/6 row) | 🟠 |
 | **~Mon Oct 5** ⌁*modeled* | 🟠 ARAMCO NOVEMBER OSPs — first monthly price signal set entirely under the Petroline shut | 🟠 |
 | **Tue Oct 6** | EIA October STEO — successor same-series vintage read | 🟠 |
