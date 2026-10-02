@@ -55,12 +55,13 @@ Hiring nearly stalled in September: employers added **29,000 jobs**, and BLS cut
 ## Process notes
 - BLS published on schedule, so card §4 falsifier 1 is not live. There is no population-control break: the civilian population rose +139K, a normal month, and controls land in January.
 - FRED PAYEMS still showed the 9/4 vintage at 08:30:48 EDT. The grade uses the BLS primary only.
-- Still to do this session, after this memo: STATUS / PREDICTIONS / card `git mv` to `docket/graded/`, the CARL + HENRY packets, and the WALTER-lane drain (SIG-W-20261001-032).
+- **Done after the grade (same session):** STATUS / PREDICTIONS (dated Confidence cells) / KB-LAB-202 / CATALYSTS (10/2 pruned; 11/6 NFP Oct added, date confirmed in the release text) / card §8 → `d1a56aa55`. Packets to CARL (`10a517036`) and HENRY (`f8eca24fc`), both doorbelled live. NEXUS brief re-pinned `8c5d046f4`. **Drain: 1 of 1.** SIG-W-20261001-032: CA SB 951 **signed 2026-09-30, Chapter 860** (leginfo bill status). Effective 2027-01-01 is INFERRED (non-urgency). Registration as an input is parked to 2027-01-15.
+- ⚠️ **Card `git mv` to `docket/graded/` is DEFERRED to 10/5:** TERRY's live QQQ sell-or-roll card for today's expiry and RED's CATALYSTS cite the top-level path. Moving it on expiry morning would break a live path mid-decision.
 
 ## COMPLETION — LABOR — 2026-10-02
-STATUS: ✅ DONE (grade); drain + STATUS write-back follow in the same session
-CHANGED: PROME/inbox/2026-10-02_from-LABOR_september-payrolls-grade.md, AGENTS/LABOR/domain/sources/2026-10-02_USDL-26-1549_empsit_sep2026.txt
-RESULT: Sep NFP +29K. Jul revised −10K (from +21K) and Aug +133K (from +162K), net −60K. U-3 4.2%, LFPR 61.8% (LF +485K), EPOP 59.2%, AHE +3.0% YoY (BLS USDL-26-1549, 10/2). Kill line (v2 LEG A, bar re-solved to +177K) NOT fired. Kill A 0/3. T-03, T-04, T-06 (U-3 0.1pp short), T-08 and T-13 all not fired. LAB-18 15→10%, LAB-19 60→81%, v8 counter resets to 0/2.
-GAPS: None on the grade. FRED had not yet updated at 08:30, so the grade used the BLS primary.
+STATUS: ✅ DONE
+CHANGED: this memo; AGENTS/LABOR/{STATUS.md, NEXUS_BRIEF.md, board_log.tsv, docket/CATALYSTS.tsv, docket/GRADING_CARD_20261002_NFP.md, workbook/KB.tsv, workbook/PREDICTIONS.tsv, domain/sources/2026-10-02_USDL-26-1549_empsit_sep2026.txt, inbox/WALTER/processed/SIG-W-20261001-032.md}; AGENTS/CARL/inbox + AGENTS/HENRY/inbox packets
+RESULT: Sep NFP +29K. Jul rev −10K (was +21K), Aug +133K (was +162K), net −60K. U-3 4.2%, LFPR 61.8% (LF +485K), EPOP 59.2%, AHE +3.0% YoY (BLS USDL-26-1549, 10/2). Kill line (v2 LEG A, re-solved bar +177K) NOT fired. Kill A 0/3. T-03, T-04, T-06 (U-3 0.1pp short), T-08 and T-13 not fired. LAB-18 15→10%, LAB-19 60→81%, v8 counter → 0/2, score 28/75. Inbox 1/1 drained (CA SB 951 signed 9/30).
+GAPS: Card git mv to docket/graded/ deferred to 10/5, because live TERRY/RED citations would break on expiry day. 1c consumer_check not run for the superseded +162K/3.1% figures; the direct CARL/HENRY packets cover the registered AHE consumers.
 WILL_NEEDS: None.
-FOLLOW-UP: The AHE 1c packets go to CARL and HENRY. CARL grades its own V16. The Aug third estimate is graded 11/6 (§3g).
+FOLLOW-UP: CARL grades its own V16 (stated R = −60K). 10/5: move the card, repoint, packet TERRY/RED. A multi-loaded card is owed ~10/30 for the 11/6 NFP. Claims card 10/8.
