@@ -169,3 +169,6 @@
 
 **53. [Verification] — I Validated a New Tool Only on the Input It Was Built From**
 **Rule:** Feed a new instrument malformed inputs (missing period, reordered fields) and confirm it fails CLOSED; matching on clean input is not a test … → `LESSONS_COLD_2.md` §53
+
+**54. [Verification] — A "Largest Since YYYY" Comparator Can Cross the Series' Own Method Change and Inflate the Claim**
+**Rule:** For any "largest/highest/first since <date>" claim, check whether the series' definition changed between then and now; carry the caveat or rephrase to "series record under the current method" … → `LESSONS_COLD_2.md` §54
