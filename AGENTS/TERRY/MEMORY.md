@@ -4,7 +4,9 @@
 Activity detail lives in commit messages, daytrading/JOURNAL.md, and `memory/auto/`.
 Keep this load-bearing: append a Durable Finding only when it survives the episode.
 
-## Current Session — 2026-10-01 Thu (PROME `prome-2a` spawn, WQ-347; second wake `prome-0c` 12:50–13:0x ET)
+## Current Session — 2026-10-01 Thu (PROME `prome-2a` spawn, WQ-347; second wake `prome-0c` 12:50–13:0x ET; fourth wake `prome-e4` 20:57 ET)
+
+**Fourth wake, 20:57 ET (WQ-339):** new card `TRY-COND-TLTPUT-WQ339` (TLT Dec-18 77P ×2, ≤ $491.30, green-day entry 10/02–10/14, CONDITIONAL on Will's [Approve]; BOND's kill MET against it). Lesson kept on the card, not promoted: on an ex-distribution day the broker's day change misreads colour (10/1: −0.09% price, +0.31% dividend-neutral).
 
 **Second wake, 12:50 ET (Will sold 740P 5 of 9 and USO 1 of 2):** 740P ×4 addendum (lean still SELL; value ≈ $730 at the vendor bid vs ≈ $1,060 at the Fidelity mark, and only the broker bid settles it; the mark-gap correction went out in delivery 2, `62df52473`) · USO note → ×1 · 735P ×5 Monday addendum · INDEX/STATUS · inbox 2 → 0. **Morning delivered:** WQ-347 sell-or-roll card for the QQQ Oct-01 740P ×9 (expires today; lean SELL before 15:00 ET; roll form 740P Oct-09, ≈15× the $500 cap) · Sep-30 dispositions corrected everywhere (all four lines SOLD TO CLOSE, three rolled — the 9/30 grades had called them "expired") · QQQ Oct-05 735P card · USO Oct-09 150C + KRE Dec-31 65P management notes · `boot.py` read-cap proximity flag (DOCKET L391) · postmortem for the four Sep-30 lines. **Pending:** DOCKET L372 cold class-fix proposal · SETUPS/TRADE_BOOK rotations. *(9/14 block digest: WQ-213 condition ② tripped on HEN-46 downgrade → card back to Will as a fresh ask; WAL $79.19 did not re-open; GATE-TERRY-007 0-of-5 — all since superseded, see STATUS.)*
 
@@ -12,6 +14,7 @@ Keep this load-bearing: append a Durable Finding only when it survives the episo
 
 1. 🔴 **Rotate `SETUPS.tsv` (97.8% of the 32,550 B budget, 708 B left) and `TRADE_BOOK.md` (85.7%) FIRST, then write.** `boot.py` now flags read-cap proximity itself (L391, 10/01) — read its "Read-cap proximity" block before any append. Expiry-day grades: state the TAPE, leave the DISPOSITION `PENDING BROKER ACTIVITY` until the Activity view lands (10/01 postmortem — a candidate rule, not adopted).
 1b. **Live sell-or-roll stops:** QQQ 735P ×5 Mon 10/05 15:00 ET (re-read Monday morning) · USO 150C **×1** Fri 10/09 15:00 ET · KRE 65P ×2 Thu 12/31 15:00 ET · **OWED: the QQQ 740P ×4 disposition (×9 → ×4 by Will's 10/1 sales) from the mirror** (`FORGE/STATUS.md`, PROME reconciles); if held in the money, read D-60 before Monday. Items 2–5 below are carried from 9/14 and NOT re-verified on 10/01.
+1c. **`TRY-COND-TLTPUT-WQ339`:** record Will's [Approve]/reject and his WQ-357 choice; before any fill re-read the card's §3 sleeve from the mirror and take every price from Fidelity; the entry window lapses Wed 10/14 15:00 ET.
 2. **WQ-213 is Will's, not ours** — re-affirm or withdraw before 9/18 (FOMC 9/15–16 inside the window). Do not re-raise the 9/14 timing objection: it was **REFUTED**, not merely spent (below).
 3. **Any crack/spread figure: resolve BOTH legs' `expireDate` at the pull, plus a negative control.** Grading clauses, all three: **① at least one roll step · ② do NOT assume self-cancellation · ③ do NOT assume the step is constant.** `DOCKET L384`.
 4. Two-correction stop reached on `SIGNALS.tsv` and well past it on `STATUS.md` — **both need an independent cold read before further edits.**
