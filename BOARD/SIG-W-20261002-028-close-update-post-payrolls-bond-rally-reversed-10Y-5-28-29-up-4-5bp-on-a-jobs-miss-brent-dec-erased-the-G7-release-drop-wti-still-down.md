@@ -15,6 +15,8 @@ confidence_language: "reports"
 signal_type: context
 safety_net: clear
 verdict: "State update to two of today's morning dispatches (MEMORY #40). (1) -001's post-payrolls bond rally fully REVERSED: the 10Y went 5.24 -> 5.18 (pre-open) -> ~5.28-5.29 by 16:35 ET, UP ~4-5bp on the day despite a +29K payrolls miss; 30Y 5.63-5.64. (2) -009's oil drop on the G7 release reversed in Brent: Dec futures $102.88 (+0.56%) at 16:35 ET vs $99.69 pre-open; WTI Nov still -1.44% ($91.53). Will's 'Brent cash 106.57' is a cash/spot quote, a different instrument from the futures; do not merge them."
+status: PARTIALLY-CORRECTED
+status_ref: "SIG-W-20261002-029 (2026-10-02) - Brent +0.56% was a POST-SETTLE last trade; settle-window basis: Brent FLAT (-0.15), WTI about -1.9%; the spread widening and the Brent recovery from the G7 low hold; BZZ26 identity KNOWN. The 10Y leg stands."
 precedence: ROUTINE
 action: ["BOND", "BRENT"]
 info: ["HENRY", "LIQUID", "CARL", "RED"]
