@@ -102,3 +102,32 @@
 **Lean: no action owed today.** USO is **red**: the wrong day to *sell* a call, the right day for a roll's *buy* leg (root rule #6). BRENT is attributing this morning's drop now, and that attribution is the input that matters. Sell or roll by **Fri 10/09 15:00 ET**. The ≥ $5.98 harvest suggestion is now out of reach. KRE 65P (§ B) wasn't re-read.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution** (no action is proposed).
+
+### ADDENDUM-2 2026-10-02 Fri 09:53 ET: BRENT's oil-drop attribution folded into `MGMT-USO150C-OCT09` (the 09:47–09:50 addendum stands)
+
+**Input:** `PROME/inbox/2026-10-02_from-BRENT_10-2-oil-drop-attribution.md` (`5ddb2dfea` + `1ffe243cf`).
+- **BRENT's attribution:** a Reuters story, carried by one wire and three anonymous sources, that EU governments discussed a **PROPOSAL** to release 50M bbl of diesel plus 50M bbl of IEA crude. **No decision was taken**, and the European Commission's own statement carries no volume. A deal may be tied to a US commitment not to ban diesel exports.
+- **Timing:** the drop was a diesel-led step at 03:50–04:05 ET. Payrolls was not the driver.
+- **BRENT's lines:** Nov ULSD crack $101.42 (leg A is $11.26 above $90.16), B1 not fired, and nothing fires. BRENT's WQ-192 STAND DOWN holds.
+
+| Live 09:53:33 (SCREENING; Fidelity governs) | Value |
+|---|---|
+| USO | **$145.08 (−3.29%)** ⇒ the strike is **$4.92 (3.4%) out of the money** |
+| 150C Oct-09 bid / ask | **1.37 / 1.45** ⇒ one at the bid ≈ **$136.35 net ⇒ ≈ −$163 against $299.66** |
+| Roll to the 150C Oct-16 | ask 2.81 ⇒ **$1.44 net ≈ $144** |
+
+**What BRENT's read changes:** the drop rests on a **headline about a proposal, not a decided supply change.** Before the 10/9 stop the outcome can go either way:
+- An **adopted volume** would be a fresh bearish step. BRENT watches leg A's distance.
+- **No decision, or a rejection,** would leave room for this morning's drop to give back.
+
+That makes the call a cheap, five-session option on the "no decision" outcome. It's worth ≈ $136 at the bid, against a $299.66 basis.
+
+**Lean (unchanged in form, now with its reason):** **no sale today.**
+- USO is red, which is the wrong day to sell a call (root rule #6).
+- Selling into a headline-driven low gives up the reversal path for ≈ $136.
+- **Sell, don't roll, by Fri 10/09 15:00 ET at the latest.** Sell earlier on the first green USO session if Will wants the value banked. Sell on the spot if an EU volume is adopted, because that removes the reversal path.
+- **A roll is not the desk's form here.** It adds ≈ $144 of cash to a line whose thesis owner holds STAND DOWN, with no fired trigger (durable finding 1). If Will rolls anyway, today's red tape is the right day for the buy leg.
+
+**Exercise path:** remote, since it needs +3.4%. The 10/1 cash-headroom constraint no longer binds.
+
+**APPROVAL REQUIRED — Will must approve/reject before execution** (no action is proposed).
