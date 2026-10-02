@@ -37,3 +37,15 @@ RESULT: Pink Sheet October 2026 edition NOT published at 08:31 ET 10/02 — CMO 
 GAPS: FERT-11 grade waits on publication (stated date today; Resolve_By 10/09).
 WILL_NEEDS: None
 FOLLOW-UP: PROME re-wakes FERT this afternoon (DOCKET L288 stays PENDING) to re-resolve the hash and grade FERT-11 + plateau watch.
+
+---
+
+## ADDENDUM 2026-10-02 11:13 ET — re-check at PROME's ask: STILL NOT PUBLISHED
+| Probe (11:13 ET, `date`) | Result |
+|---|---|
+| CMO page (cache-busted) | HTTP 200, 55,841 B; still "Next update: October 2, 2026."; links only July + September Pink Sheets; hash `74e8be41ceb20fa0da750cda2f6b9e4e-0050012026` unchanged |
+| `CMO-Pink-Sheet-October-2026.pdf` | HTTP 404, 100,826 B text/html |
+| `CMO-Pink-Sheet-September-2026.pdf` (control) | HTTP 200, 238,929 B application/pdf |
+| `CMO-Historical-Data-Monthly.xlsx` | HTTP 200; "Updated on September 02, 2026"; last row 2026M08 |
+
+SEARCH-NOT-FOUND at 11:13 ET. FERT-11 and plateau watch NOT graded. T11 stays ARMED in TRIGGERS + STATUS; next wake via DOCKET L288 (FERT-11 Resolve_By 2026-10-09). The COMPLETION block above stands (⚠️ PARTIAL); the only change is the second check time.
