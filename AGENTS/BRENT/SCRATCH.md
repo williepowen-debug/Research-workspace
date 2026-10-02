@@ -1,40 +1,64 @@
-# BRENT SCRATCH — October 2, 2026 (Friday; PROME prome-70 Tier-1 due-row spawn; boot 08:30 ET by `date`)
+# BRENT SCRATCH — October 2, 2026 (Friday; PROME prome-70 spawn + four follow-ups; boot 08:30 ET, closeout 11:2x ET by `date`)
 
 ## CHANGES SINCE LAST SESSION
-- **Thu 10/1:** Dec Brent settled **$102.31 (+$4.28, +4.37%)** and WTI $92.87 (+2.71%) (Reuters, 15:34 ET). Reuters cites China's product-export halt and a WSJ report of a third carrier plus 9–10k more troops. EU energy taskforce meets **Fri 10/2** on diesel stocks.
-- **UKMTO 147-26** (13:50 ET 10/1): a tanker hit in Hormuz, fire, crew safe. US presses FR/DE for 120M bbl of diesel or a targeted ban (Reuters, anonymous; no order). Petroline ~5.5 mb/d (Argus, one source).
-- **10/2 pre-open (vendor 08:21 ET):** BZZ26 99.73 (−2.5%), WTI 89.65 (−3.5%).
+- **Thu 10/1:** Dec Brent settled **$102.31 (+$4.28)** (Reuters). Drivers: China's product-export halt and the WSJ deployment report (third carrier + 9–10k troops; one US official says it is a carrier RELIEF).
+- **Fri 10/2:**
+  - Oil gave it back. The **G7 DECIDED a release of up to 100M bbl of diesel + crude over 4 months, with diesel within 20 days** (NBC 10:22 ET quoting the G-7 statement; Macron; Trump). The split is unpublished, and the US ban threat is NOT withdrawn.
+  - **Nov ULSD crack 102.10 (10/1 proxy) → 95.87 intraday 10:30** (vendor, not a settle).
+  - TERRY graded its USO150C early-sell condition MET (lean SELL 10/2; the order is Will's).
 
 ## WHAT I DID THIS SESSION
-- **10/1 settle-window proxies PUBLISHED** (OWED item 1): BZZ26 102.37 · CLX26 92.94 · HOX26 4.6438 ⇒ **Nov ULSD crack $102.10 · Dec $97.73** · Nov gasoline $50.05. Dec−Feb not measurable at the window (+$6.93 on daily rows). [Note](research/2026-10-02_proxies-oil-move-cot/NOTE.md) §1.
-- **Thursday's move:** sourced to the wire (China halt + WSJ deployment). There were two tape steps (02:30–03:15 and 13:45–13:55 ET); **the split is NOT established.** Note §2. No WALTER signal carries the WSJ report (gap flagged to PROME).
-- **Letters:** VLO-HELD-01 A NOT FIRED ($11.94 above) · B1 NOT FIRED (FR/PI/WH 08:34 ET) · BG-02 nothing · Cushing 4.30M clear · F-a not crossed. Nearest line: GASREGW $4.465 vs $4.50.
-- **COT-35B:** 9/29 vintage NOT posted (`cot_grade` NOT FRESH 08:34). **4.9086% and base 122,904.5 re-reproduced at the CFTC archive.** The gate row's "not re-reproduced since 8/13" is stale (done 9/18 too). Proposed review_by: keep 10/02 for the print, then 10/09.
-- **L0:** 7 WALTER items = 7 board_log rows = 7 `git mv`. -008/-019 were already done 10/1.
-- **CATALYSTS:** 10/02 EU taskforce row added; calendar re-rendered.
-- **STATUS rotation:** 10/1 + 9/30 blocks → `archive/STATUS_dated_2026-10-01_and_09-30.md` (6329 B crc32 `3596cb12`); summaries → `archive/STATUS_summary-for-will_2026-10-01_and_09-30.md` (1699 B crc32 `4ef5c581`). STATUS is now at 73% of its read-cap budget.
+- **10/1 proxies published:** Nov crack $102.10, BZZ26 102.37. Thursday's move attributed. → [note](research/2026-10-02_proxies-oil-move-cot/NOTE.md)
+- **COT-35B:** 4.9086% and base 122,904.5 re-reproduced at the CFTC archive. 9/29 vintage not posted. NOT GRADED.
+- **10/2 drop:** attributed to the Reuters report of the French 50+50 plan; the step at 03:50–04:05 ET was diesel-led.
+- **G7 release:** verified at the wires. **B1 NOT FIRED** (FR 10:41). Leg A measured. TERRY packeted (`422d0ba24`) and doorbelled.
+  - → [note](research/2026-10-02_g7-release/NOTE.md)
+- **Events 10/2–10/16:** memo to PROME. **WPSR moves to Thu 10/15 12:00 (Columbus Day)**; COT not shifted; VLO earnings 10/22.
+- **L0:** 12 WALTER items logged + `git mv` (7 + 2 + 2 + 1). -008/-019 (10/1) were already done.
+- **CATALYSTS:**
+  - 10/02 EU taskforce row added, graded, then re-graded (superseded by the G7 decision);
+  - successor **10/22 ⌁**.
+- **CHANGELOG** 10/02 evidence entry (v5.11 unchanged).
+- **STATUS:**
+  - 8 standing rows re-verified and re-stamped 10/2: CRCs reproduce, JWLA-035 newest, BRT-26 resolved, THESIS/BG-02 re-read.
+  - Rotations: AM block → `archive/STATUS_dated_2026-10-02_AM.md`; receipts → `archive/STATUS_rotation_receipts_2026-10.md`; the G7 block moved to its note.
 - **$0.** No trade, band, threshold or score change.
 
-## NEXT SESSION (dated, future-verifiable)
-1. **Fri 10/2 ≥15:35 ET — COT-35B #8 (as-of 9/29):** `cot_grade.py --expect 2026-09-29` plus a second raw `f_disagg.txt` pull. Pre-registered: SPENT practically unreachable (Leg B needs shorts ≤ ~90,400); NO-VERDICT if shorts ≤118,325, else NOT-SPENT. The ledger appends on rc=0. **Do not let two prints stack: grade before Fri 10/9.** Also: Baker Hughes (context; BRT-26 resolved).
-2. **Fri 10/2:** EU taskforce outcome. Grade the CATALYSTS 10/02 row on a statement (volume / duration / members).
-3. **Sun 10/4 → grade by Tue 10/6:** OPEC+ November number at opec.org (root page). Re-pull spare first. Base case: hold.
-4. **~Mon 10/5:** Aramco Nov OSP (record-only) · EIA retail (GASREGW vs $4.50).
-5. **Tue 10/6:** WQ-252 crack-month sitting (L471) · SPR bids close 11:00 CT · Oct STEO (spare figure).
-6. **Wed 10/7 WPSR:** Cushing after F-b · distillate exports vs curbs · SPR draw.
-7. **Thu 10/8:** China export guidance after Golden Week.
-8. **Fri 10/9:** USO Oct-09 $150C (Will's hand, sell-or-roll; TERRY rail 15:00 ET). USO closed $150.02 10/1.
-9. **Thu 10/15:** BRT-31 first window print (w/e 10/9). **Sat 10/24:** WQ-264 shadow run ends.
-10. **Owed, carried:** INCIDENTS Kuibyshev + Bashneft-UNPZ 9/22; 11 ACTIVE rows past 60d. TANKER-LIVENESS human stamp 58d old (boot BLOCKING).
+## NEXT SESSION — ⏰ ARMED, NOT DONE (also at the top of STATUS)
+1. **COT-35B #8** (10/2 15:30 print, as-of 9/29). Run `cot_grade.py --expect 2026-09-29`, plus a second raw pull.
+   - Pre-registered: SPENT practically unreachable. NO-VERDICT if shorts ≤118,325; otherwise NOT-SPENT.
+   - Then propose review_by 10/09 to PROME.
+   - **Never stack it with the 10/9 print.**
+2. **10/2 settle-window proxies** (14:28–29 VWAP, rows dated 10/02):
+   - Report the Nov ULSD crack against VLO-HELD-01 leg A ($95 notice / $90.16 sell). Packet TERRY.
+   - **Before Thu 10/8** (1-min bars expire).
+   - Also the 10/2 vendor daily row (L462 session check).
+3. **OPEC+ 10/4 grade, Mon 10/5–Tue 10/6:** the Secretariat text at opec.org. Re-pull the spare figure first (Oct STEO 10/6).
+4. **Tue 10/6:** WQ-252 crack-month sitting (L471). SPR exchange bids close 12:00 ET; read the award. Oct STEO.
+5. **Wed 10/7 10:30 WPSR:** Cushing after F-b; distillate stocks/exports; SPR draw.
+6. **~Thu 10/8:** China guidance.
+7. **Fri 10/9:** the USO $150C expires (Will).
+8. **Wed 10/14:** IEA OMR; VLO-HELD-01 leg A suspension date.
+9. **Thu 10/15 12:00:** WPSR + BRT-31 first print.
+10. **~10/22:** G7 first diesel window; VLO Q3 earnings.
+11. **Owed, carried:**
+    - INCIDENTS: Kuibyshev + Bashneft-UNPZ; **Volgograd (Lukoil) + Transneft Samara 10/02 (WALTER -010; damage NOT established; check OSPREY's grade first)**; 11 ACTIVE rows past 60d.
+    - TANKER-LIVENESS human stamp (58d; boot BLOCKING).
+    - TRADE.md not re-checked against FORGE since `dac72b4ae`: Will may sell the 150C today.
 
 ## OPEN THREADS / WATCHES
-- 🔴 **US diesel export ban:** unsigned; now a conditional, targeted threat (FR/DE). A signed text = B1 ⇒ packets to TERRY/HENRY/WALTER the same day.
-- 🟠 **China halt:** size UNKNOWN until GAC (~11/20).
-- 🟠 **EU diesel release:** a volume narrows leg A's distance (bearish ULSD).
-- 🟡 **Ghawar heat source / Yanbu fire video:** FALCON's lane; unverified.
+- 🔴 **US diesel export ban:** unsigned and NOT withdrawn after the G7 release. A signed text = B1 ⇒ packets to TERRY/HENRY/WALTER the same day.
+- 🔴 **VLO-HELD-01 leg A:** intraday $0.87 above the $95 notice line. The sell line is a settle < $90.16. TERRY grades.
+- 🟠 **G7 release mechanics:** split, country volumes, start of draws.
+- 🟠 **China halt:** size UNKNOWN.
 
 ## POSITION DECISIONS PENDING
-- USO Oct-09 $150C ×1: Will's hand, sell-or-roll before 10/09. VLO 1 sh: VLO-HELD-01 (TERRY grades). USO 37 sh: hand-managed (WQ-200). WQ-192 STAND DOWN.
+- **USO Oct-09 $150C ×1:** Will's hand. TERRY lean SELL today (≈$125 net at the 1.26 bid; wrong-colour sale).
+- **VLO 1 sh:** VLO-HELD-01. **USO 37 sh:** hand-managed (WQ-200). WQ-192 STAND DOWN.
 
 ## MAIL STATE
-- **Inbox:** clear at 08:37 ET 10/2 (7 consumed, all logged + moved). Sent: PROME memo (this session). No open outbox.
+- **Inbox:** WALTER lane clear at 11:2x ET after -010 (Volgograd/Samara, noted); top level empty.
+- **Sent:**
+  - PROME memos ×4 (`c0f0f9b4e`, `5ddb2dfea`, `422d0ba24`, `293c070fc`);
+  - TERRY packet `422d0ba24` (receipted by TERRY at `235ef74ea`, loop closed).
+- **Outbox:** nothing open.

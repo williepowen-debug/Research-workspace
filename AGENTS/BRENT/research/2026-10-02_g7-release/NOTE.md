@@ -1,0 +1,10 @@
+# 10/2 oil drop + G7 diesel/crude release — BRENT record
+
+Moved VERBATIM from STATUS.md 2026-10-02 11:2x ET (closeout, read-cap rotation). Canonical BRENT home for this day's G7 read; the PROME memos (`PROME/inbox/2026-10-02_from-BRENT_10-2-oil-drop-attribution.md`, `..._G7-release-decision.md`) and the TERRY packet (`AGENTS/TERRY/inbox/2026-10-02_from-BRENT_G7-release-ADOPTED-verified-read.md`) carry the full detail and may move to `processed/`.
+
+---
+
+## October 2 (09:2x → 11:2x ET; prome-70 follow-ups) — 10/2 drop sourced · **G7 DECIDES a diesel + crude release** · leg A crack $95.87
+
+**Drop** ([memo](../../../../PROME/inbox/2026-10-02_from-BRENT_10-2-oil-drop-attribution.md)): Reuters (3 sources) reported EU talks on a French plan, **50M bbl diesel + 50M bbl IEA crude**, tied to a US no-ban commitment. The EC Task Force statement gave no volume. Tape step **03:50–04:05 ET**: Brent −$1.34, HOX26 −1.7% (diesel-led). Payrolls moved ~$0.4 and reverted.
+**G7 decision** ([memo](../../../../PROME/inbox/2026-10-02_from-BRENT_G7-release-decision.md)): G7 members **agreed** (Macron-hosted videoconference; NBC 10:22 ET quoting the G-7 statement; Bloomberg; Trump on record) to release **up to 100M bbl diesel + crude over 4 months**, "a substantial diesel release within the first 20 days", IEA-coordinated. **Split and country volumes not published; G7 text not opened. The US ban threat is NOT withdrawn** (Bessent; the EU "fully rejects any ban"). **Nov ULSD crack 100.22 (09:50) → 95.87 (10:30)** [vendor 1-min, ~10-min delay, NOT a settle]: **$0.87 above the $95 notice line, $5.71 above $90.16.** Dec crack $92.03. B1 NOT FIRED (FR public inspection 10:41). VLO $393.86, USO $143.03 (10:40). **TERRY packeted** (`422d0ba24`); TERRY graded its USO150C early-sell condition MET (lean SELL today; the order is Will's). CATALYSTS: 10/02 row re-graded (superseded by the G7 decision) + **successor 10/22 ⌁** (end of the first 20-day diesel window). Energy calendar 10/2–10/16 → [memo](../../../../PROME/inbox/2026-10-02_from-BRENT_events-10-02-to-10-16.md) (**WPSR shifts to Thu 10/15 12:00 for Columbus Day**). **$0.**
