@@ -56,6 +56,8 @@
 - **WQ-252 filed early** (steps + Q1). ⚠️ **Self-correction: "calendar-matched incl. $90.16" was verified 9/1–9/11 only; 7/23 pair UNVERIFIED** (CL leg = CLU26 inferred; HO leg unknown). Withdrawn in the packet; `reports/2026-09-24_F1-basis-named.md` still carries the old sentence (historical report — not edited).
 - HEN-46 F3 recorded SPENT (WQ-344). WATCH_FOR R3 answered by name. RSP 7th week ARMED (< $211.11 at today's close); only prior ≥7 run on price since 2003 = Apr–May 2022 (verified). Inbox 6 + 16 drained, + LABOR's NFP packet that landed mid-session. ⚠️ **My bulk `git mv inbox/*.md` swept that packet to processed/ BEFORE I had read it.** I caught it at the pre-commit `git status`, then read and logged it. ⇒ **move by explicit name, never by glob, when the inbox is live.**
 
+- **09:5x post-open follow-up (Will's word 09:23):** payrolls +29K ⇒ rate relief (SPX +1.05%, 2Y −2.5bp, Oct ≈20%); **gamma POSITIVE at 09:48** (spot through an unchanged flip ~7,696). ⚠️ **Self-correction:** `gamma_flip.py` EXCLUDES same-day expiries (T ≤ 0), so my 08:4x "today's expiry rolls off → Monday differs" was wrong; it went to TERRY and is corrected. ⚠️ **The CBOE delayed chain is DEAD for ~15 min after the open** (prior-day price, iv=0 on every row) ⇒ the script silently falls back to yfinance, which is unstable (flip 7,785 vs 7,762 a minute apart). **Never read gamma before ~09:48 ET; check `source` == cboe.**
+
 ### NEXT SESSION — in this order
 
 1. 🔴 **Sep ISM (printed 10/1) — NOT read.** ISM rows carry August. Sep NFP logged from LABOR's packet (+29K, revisions −60K, AHE 3.0%); the cash-session reaction is owed.
