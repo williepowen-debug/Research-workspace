@@ -4,7 +4,7 @@ Session: **2026-10-02 Fri, Claude Opus 5.5 as WALTER (`walter-61`, desktop)**: n
 
 ## STATUS
 
-**🆕 EVENING REBOOT (2026-10-02T21:05:21Z, light closeout; supersedes the receipt's BOARD count):** Will terminal "please boot up" ~16:53 ET. Boot PARTIAL: same exceptions (boot_basis 9 files not re-hashed; READS attestation stale; FILTER_SPEC Boot Context not re-run since noon). Dispatched `-030` (SWFWMD SW-FL rain deficit → CORAL/AEOLUS) and `-031` (viral \$396B delayed-DC table KILLED; ERCOT Batch Zero residue → WATT/VULCAN, HENRY info). BM-20261002-07 CLOSED 7/7. **BOARD 1179.** 5 handoffs written `pending_push`; 6 local commits ahead of origin (2 closeout + PROME/BRENT + `305b9dade` + `6c8d78f91`). DOORBELL_LOG: CORAL, WATT dark not rung; VULCAN in-flight.
+**🆕 EVENING REBOOT (2026-10-02T21:05:21Z, light closeout; supersedes the receipt's BOARD count):** Will terminal "please boot up" ~16:53 ET. Boot PARTIAL: same exceptions (boot_basis 9 files not re-hashed; READS attestation stale; FILTER_SPEC Boot Context not re-run since noon). Dispatched `-030` (SWFWMD SW-FL rain deficit → CORAL/AEOLUS) and `-031` (viral \$396B delayed-DC table KILLED; ERCOT Batch Zero residue → WATT/VULCAN, HENRY info), `-032` (Fed hikes priced by YE ~24.7bp, futures arithmetic → BOND). BM-20261002-07 and -08 CLOSED. **BOARD 1180.** 8 handoffs written `pending_push`; 6 local commits ahead of origin (2 closeout + PROME/BRENT + `305b9dade` + `6c8d78f91`). DOORBELL_LOG: CORAL, WATT dark not rung; VULCAN in-flight.
 
 **Boot (12:04 ET): PARTIAL, named exceptions; operational steps ran.**
 - **Run:** 0 pull (current) · 0.5 doctor (0 HIGH / 6 MED, carried) · 1–4 whole · 6 both routing files whole · 6b four registries (RED scan-view sha = canon) · 6c dashboard + EURUSD/TTF/UST/CL/HO pulls, no fire · 7 count 1158 = 1158 · **7 FILTER_SPEC Boot Context RUN** (first time in 7+ sessions; the per-desk STATUS leg used REGISTRY Focus) · 7b CLOSED · 7d/7f/7g clear · 7e 0 NEW · 8 YURI + CRUISE rows · 9 no REQ · 9a rc 0 · 9b ListAgents + ORCH_INFLIGHT + foreign-dirty.
@@ -64,7 +64,7 @@ Session: **2026-10-02 Fri, Claude Opus 5.5 as WALTER (`walter-61`, desktop)**: n
 
 ## FOLLOW-UP
 
-1. **Next boot:** `git pull`; STATUS BOARD count (**1179**) vs INDEX; ahead/behind; `reconcile_delivery_log.py --apply` if any row pends; `closeout_check.py`.
+1. **Next boot:** `git pull`; STATUS BOARD count (**1180**) vs INDEX; ahead/behind; `reconcile_delivery_log.py --apply` if any row pends; `closeout_check.py`.
 2. 🔴 **Mon 10/05 ~10:15 ET: FRED HY 10/02 obs** → FT-02 / REG-T-03 at 2 of 3 or reset; route the state (RED/REGINALD).
 3. **Lane runs 10/03–10/05** (cron starts 3–6h late; trigger manually only on Will's ask). Date-check first (#39), then `--mark`.
 4. **Re-read ORCH_INFLIGHT before every doorbell row and every "dark" statement** (#41).
@@ -90,7 +90,7 @@ Session: **2026-10-02 Fri, Claude Opus 5.5 as WALTER (`walter-61`, desktop)**: n
 ## CLOSEOUT RECEIPT
 
 **Issued at the 10/02 PM Tier-2, before the closeout commit.**
-- **10/02 handoffs: 125 written, 120 on origin** (the 5 from `-030`/`-031` are committed locally, pending PROME's push; reconcile after push) (fresh fetch 20:4xZ, 0/0; `reconcile_delivery_log.py --apply`). Delivered is not consumed.
+- **10/02 handoffs: 128 written, 120 on origin** (the 8 from `-030`…`-032` are committed locally, pending PROME's push; reconcile after push) (fresh fetch 20:4xZ, 0/0; `reconcile_delivery_log.py --apply`). Delivered is not consumed.
 - ⚠️ **This receipt does NOT claim:** that recipients consumed the handoffs (BRENT, FALCON, BROCK and HANS are known to have consumed some); that FT/Bloomberg/TD/Blue Owl letters were read at primary; that boot_basis was re-reviewed; that this closeout commit has reached origin.
 
 <!-- CLOSEOUT_RECEIPT_JSON
@@ -106,7 +106,7 @@ Session: **2026-10-02 Fri, Claude Opus 5.5 as WALTER (`walter-61`, desktop)**: n
   ],
   "delivery": {
     "signal_date": "20261002",
-    "total": 125,
+    "total": 128,
     "delivered": 120
   },
   "owner_review": {
