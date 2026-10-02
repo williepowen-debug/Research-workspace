@@ -109,7 +109,7 @@ The same method can apply to other research problems with external data and fals
 - **Serial rather than distributed.** Multiple sessions can operate on the current machine, but only one machine should write at a time. True simultaneous multi-machine operation would require a different branching model.
 - **Broker reconciliation is manual.** Position truth remains with the operator and broker. [`FORGE/STATUS.md`](FORGE/STATUS.md) is a dated mirror and can become stale between reconciliations.
 - **No externally audited P&L attribution.** The repository exposes calibration records and research process, but it does not claim independently verified investment performance.
-- **Agent maturity varies.** Some domains have long operating histories; others remain earlier-stage. [`AGENTS/DAEDALUS/MATURITY_MAP.md`](AGENTS/DAEDALUS/MATURITY_MAP.md) tracks those differences.
+- **Agent maturity varies.** Some domains have long operating histories; others remain earlier-stage. [`AGENTS/DAEDALUS/FLEET_DIRECTORY.md`](AGENTS/DAEDALUS/FLEET_DIRECTORY.md) tracks those differences.
 - **Source hallucination remains possible.** Trade-relevant claims require verification against primary sources. The system treats hallucination as a tracked failure mode, not a solved problem.
 
 ## About

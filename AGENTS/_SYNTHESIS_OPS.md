@@ -32,7 +32,7 @@ Canonical paths remain `AGENTS/<NAME>/` for active agents. Prome is the orchestr
 |---|---|---|
 | DAEDALUS | [`DAEDALUS/`](./DAEDALUS/) | Fleet architect — design/structure/maturity/lifecycle (on-demand). |
 | RAV | [`RAV/`](./RAV/) | Meta — deep factual/analytical reviewer + bounded repair (Codex, Will-driven). |
-| YEYOU | [`YEYOU/`](./YEYOU/) | Repo-wide reviewer (manual/branch model). |
+| YEYOU | [`YEYOU/`](./YEYOU/) | 🧊 RETIRED 2026-09-05 (WQ-181; `PROME/ROSTER.md`) — was the repo-wide reviewer; directory kept as history. |
 
 ## Archived / dormant
 

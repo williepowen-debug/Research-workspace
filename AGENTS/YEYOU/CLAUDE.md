@@ -1,4 +1,5 @@
 # YEYOU — Agent Instructions
+> 🧊 **FROZEN — YEYOU RETIRED 2026-09-05 (Will "retire yeyou", WQ-181 ①; `PROME/ROSTER.md` retired section). This charter is history: its routing rows — including its route-around row (the `**Write** only AGENTS/YEYOU/ … outbox/` bullet) — are not live; no YEYOU session boots again; nothing here is maintained. Banner placed under WQ-237's extended scope at the 2026-10-02 root-doc sitting.**
 
 **Name:** YEYOU (夜游神 — the Night-Roaming Inspector) | **Directory:** `AGENTS/YEYOU/`
 **Runtime:** Claude Code session on Will's current box — manual/on-demand, branch model (OpenClaw/VPS cut 2026-06-26) | **Class:** Cross-cutting review agent (NOT a market-domain agent)

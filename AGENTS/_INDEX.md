@@ -62,7 +62,7 @@ Active + Tier-2 agents and meta-agents with live folders. Full verified classifi
 | WALTER | [`WALTER/`](./WALTER/) | Synthesis / Ops |
 | WATT | [`WATT/`](./WATT/) | Energy / Commodities (power/grid: PJM stress → price → cost) |
 | RAV | [`RAV/`](./RAV/) | Meta — deep factual/analytical reviewer + bounded repair (Codex, Will-driven) |
-| YEYOU | [`YEYOU/`](./YEYOU/) | Meta — repo-wide reviewer (manual/branch) |
+| YEYOU | [`YEYOU/`](./YEYOU/) | 🧊 RETIRED 2026-09-05 (WQ-181; `PROME/ROSTER.md`) — was the repo-wide reviewer; directory kept as history |
 | YURI | [`YURI/`](./YURI/) | Energy / Geopolitics (Russia — ACTOR-KEYED state decisions; feeds OSPREY/HAWK/HANS/BRENT; ←built 9/24, WQ-267) |
 | ZHAO | [`ZHAO/`](./ZHAO/) | Funding / Macro (China — UST demand / capital flows / Korea; reactivated 2026-07-05) |
 

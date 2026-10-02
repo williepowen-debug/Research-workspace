@@ -1,7 +1,7 @@
 # Git Coordination
 
 **Owner:** Prome  
-**Status:** Live coordination rail; push policy updated to auto-push 2026-06-26  
+**Status:** Live coordination rail; push policy updated to auto-push 2026-06-26 · **Updated:** 2026-10-02 (spine audit #15 — Hard-Rules bullet 5 YEYOU pointer; body edits are dated in place through 2026-09-12, `git log -p -- PROME/GIT_COORDINATION.md`)  
 **Scope:** every agent operating in this shared repo/worktree (fleet size → `PROME/ROSTER.md`, the countless pointer [audit #10 — the hand-carried count had drifted 30→33]; PROME + YEYOU were the founding two).
 
 ## Purpose
@@ -16,7 +16,7 @@ This doc is the live coordination surface (vs the archived `AGENTS/PROME/` tree)
 - Never use broad index operations: no `git add .`, no `git add -A`, no `git reset HEAD`, no force-push, no broad checkout. **Never `git commit --amend`** (root Git Protocol 4b, Will-approved 8/21 — amend rewrites whoever holds HEAD, which may not be you; write messages via quoted-heredoc `git commit -F <file>`, not inline `-m`, for EVERY message (root 4b — nothing to remember under tempo; the cookbook's inline `-m` forms below are subject-line shorthand)) *(mirror synced audit #10)*.
 - Dirty tree means inspect and triage. Do not stash, reset, or pull to make the dirt disappear.
 - Use explicit pathspecs for adds and commits.
-- Local scoped commits use explicit pathspecs; **push is automated at closeout via `scripts/safe-push.sh`** (ff-gated, fails safe; serial multi-machine predicate). **Auto-push exceptions (full list, root canon):** ~~YEYOU manual/branch~~ (VOID 2026-09-05, retired — § YEYOU; root line 82 still names it pending the WQ-150 batch) · TERRY self-sweeps · WALTER architectural per `BOARD_CONSUMPTION_SPEC` §7 (see Push Discipline).
+- Local scoped commits use explicit pathspecs; **push is automated at closeout via `scripts/safe-push.sh`** (ff-gated, fails safe; serial multi-machine predicate). **Auto-push exceptions (full list, root canon):** ~~YEYOU manual/branch~~ (VOID 2026-09-05, retired — § YEYOU; root's Scope note carried the name until the WQ-237 strike, executed at the spine-audit #15 root-doc sitting, DOCKET L503 — grep root for `YEYOU` to see the current state) · TERRY self-sweeps · WALTER architectural per `BOARD_CONSUMPTION_SPEC` §7 (see Push Discipline).
 - No trade execution or external/public sends are authorized by this document.
 
 ## Ownership
