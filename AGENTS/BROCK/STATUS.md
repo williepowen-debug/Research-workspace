@@ -16,7 +16,7 @@
 | Thu 10/22 · ~late Oct · 10/31 · ~11/3–11/5 | BX Q3 (verified) · **OCIC Q3 final** grades R2 **(b) only** ((a) fired 10/2; ~30% > 25) · **GATE-BRK-R2 review 10/31** · APO Q3 (EST.) | R2: (a) on the first issuer-stated figure (any form type — watch 8-K 7.01 letters), (b) on the FINAL |
 | ~mid-Nov | **BCRED Q3 10-Q** — the FINAL DOLLAR value of the Q3 tender (Valuation Date 9/30/26) | no Q3 dollar figure exists before it |
 | OTF Q3 10-Q (date not yet set) | Blue Owl liquidity vector: **OTF Q3 NII < dividend = forced cut**; PIK: test the **"13% TII vs ~25% NII" denominator hypothesis** on a labelled basis | REGIME line 3 |
-| 11/30 · ~12/03 | **BRK-32** (re-base BCRED L2 weight $45.04B → $42.78B BEFORE grading) · **BCRED Q4 tender letter** (a 3rd ~50% fires R2 (a) on a third vehicle) | — |
+| 11/30 · ~12/03 | **BRK-32** (re-base BCRED L2 weight $45.04B → $42.78B BEFORE grading) · **BCRED Q4 tender letter** (R2 (a) already FIRED ×2; a 3rd ~50% at BCRED would make it a third vehicle) | — |
 | 12/31 | **BRK-25** (count 2) · **BRK-26** (55%) resolve | EXIT §4 |
 | next VX review | **Duration red rung carries no sustain count** — flagged 9/25, not re-spec'd | VX-BRK-020; spec change = Will |
 | Will | **WQ-370 OTIC population** (BROCK recs DECLINE) · **W1 strict-vs-functional** (my leg NOT FOUND, KB-BRK-313) · **WQ-363** LIQUID's X1 "sustained" count | PROME registered; not mine to rule |
