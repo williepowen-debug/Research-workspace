@@ -298,3 +298,6 @@ date	desk	sig_id	referent	gate	doorbelled	disposition	yield_at_doorbell	drained	
 2026-10-02	LIQUID	SIG-W-20261002-022	none (owner fire already graded; watch-only)	P0 PASS (not in ORCH_INFLIGHT re-read 18:5xZ) / L1 UNKNOWN / L2 PASS / L3a FAIL / L3b FAIL (PRIORITY)	NO	not doorbelled				BROCK packet route
 2026-10-02	OTTO	SIG-W-20261002-022	none (owner fire already graded; watch-only)	P0 PASS (not in ORCH_INFLIGHT re-read 18:5xZ) / L1 UNKNOWN / L2 PASS / L3a FAIL / L3b FAIL (PRIORITY)	NO	not doorbelled				BROCK packet route
 2026-10-02	BRENT	SIG-W-20261002-023	none	LIVE (brent-08 in ListAgents earlier today; ORCH_INFLIGHT not BRENT)	DIRECT SendMessage (live desk)	SendMessage brent-08				not dark: logged for completeness
+2026-10-02	FALCON	SIG-W-20261002-025	none	P0 FAIL-as-WALTER-doorbell: FALCON IN-FLIGHT as falcon-1002 (ORCH_INFLIGHT re-read 19:58Z)	RELAYED via PROME	SendMessage prome-96				Will paste
+2026-10-02	FALCON	SIG-W-20261002-026	none	P0 FAIL-as-WALTER-doorbell: FALCON IN-FLIGHT as falcon-1002 (ORCH_INFLIGHT re-read 19:58Z)	RELAYED via PROME	SendMessage prome-96				Will paste
+2026-10-02	VULCAN	SIG-W-20261002-024	none	P0 PASS (not in ORCH_INFLIGHT 19:58Z) / L1 UNKNOWN / L2 PASS / L3a FAIL / L3b FAIL (PRIORITY)	NO	named in the FYI to prome-96				Will link; STX/WDC -10%
