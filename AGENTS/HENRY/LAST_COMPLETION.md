@@ -1,56 +1,65 @@
-# HENRY — LAST_COMPLETION
+# HENRY — LAST SESSION CLOSEOUT
 
-**Session:** 2026-10-02 Fri 08:31 → 11:1x EDT (`date`; four PROME legs: boot task · post-open read · signal drain · events calendar → full closeout), PROME spawn `prome-70` (Tier 1 due-row wake, DOCKET L475 / WQ-184). Launched from PROME's cwd; desk CLAUDE.md, STATUS, LESSONS and MEMORY read explicitly; `boot.py` run.
-**Status:** ✅ **FORUM-7 FINAL graded; gamma measured pre-open; inbox drained; STATUS rotated.** No letter, threshold, score or confidence changed; no trade view; $0.
+**Session:** 2026-10-02 Fri 16:01 EDT (`date`) — PROME spawn `prome-96`, Tier-2 above-cap under Will's in-session word, bounded post-close.
+**Status:** ✅ **COMPLETE — three grades delivered.** $0 moved. No card, no order, no trade proposed. No letter, score, confidence or threshold moved (Prices-Paid moved into RED on the OBSERVATION of the Sep print, not by a re-spec).
 
-## CHANGED (files)
-- `research/2026-10-02_FORUM-7_FINAL-grade.md` (new) · `workbook/PREDICTIONS.tsv` (HEN-47 RESOLVED · HEN-46 F3 SPENT) · `workbook/PUBLISHED.tsv` (14d gamma rows; the 35d rows were auto-appended by `gamma_flip.py`)
-- `STATUS.md` (rewritten after a WHOLE rotation) · `status_archive/STATUS_ARCHIVE_2026-10.md` (new: block 40 = old STATUS, block 41 = old MEMORY session notes) · `MEMORY.md` · `NEXUS_BRIEF.md` (+ rotation file) · `board_log.tsv` (+22 rows) · 22 inbox files → `processed/`
-- Packets: BOND (co-sign request) · NEXUS (verdict, consumer) · TERRY (gamma, info) · DAEDALUS (pointer) · PROME ×3 (WQ-252 measurements + Q1 · WATCH_FOR R3 · session memo)
+---
+
+## CHANGED (files, all under `AGENTS/HENRY/`)
+
+- `STATUS.md` — headline updated to post-close three-grade state; new §POST-CLOSE 10/2 (G1 RSP, G2 F1, G3 ISM) with thesis paragraph on C-36 TWO-PART concur; §BREADTH flipped to HIT; §GEX replaced with post-close reading (POSITIVE both horizons, flip ~7,698, spot +25pt); §ACTIVE THRESHOLDS updated with Sep ISM rows + post-close SPX/VIX/KRE; §GAPS reduced; §BOTTOM LINE rewritten.
+- `MEMORY.md` — CHANGES-SINCE for prome-96 above the AM prome-70 block; NEXT-SESSION re-keyed.
+- `workbook/PREDICTIONS.tsv` — HEN-46 Outcome_Notes appended with the F1 10/2 close grade (NOT STOOD DOWN at $99.61).
+- `board_log.tsv` — 5 WALTER signals logged (012/013/023/024/027, all INFO).
+- `inbox/WALTER/*.md` → `inbox/WALTER/processed/*.md` — 5 signals git-moved.
 
 ## RESULT (one line)
-**The jump in the 10-year Treasury yield on 9/23–9/24 was mostly term premium, not the Fed's expected path. Both models agree, so the bigger reversal risk is now Treasury auction supply (10/6–10/8), not Fed data. Dealers were short gamma at Thursday's close, but futures put today's open right at the flip, so that read is weak today.**
+
+RSP 7-week down streak confirmed · HEN-46 F1 did not stand down at the $99.61 Nov matched close · Sep ISM Prices-Paid shock through RED while headline PMI 54.5 still expanding · C-36 TWO-PART regime HENRY-concurred on BOND's grade (PATH on NFP open, PREMIUM reasserting into the close).
 
 ## Session Work
-| Item | Outcome |
-|---|---|
-| FORUM-7 FINAL (HEN-47) | **PREMIUM-ABSORPTION** — s 0.685 (ACM) · g 6.33bp ≤ 18 (KW-checked) · FR2004 3–6Y +$12.093B STRESS, long-end −$3.828B NONE ⇒ qualifier from the 5Y bucket only. **HENRY-graded, BOND co-sign PENDING** |
-| Gamma, 10/2 pre-open | NEGATIVE both horizons on the 10/1 close (flip 7,692–7,695; SPX 7,666.45; −$12.7B/−$15.8B per 1%); walls withheld; indicated open ~7,703 (INFERRED) ⇒ sign not robust. SPX only; QQQ not measured |
-| RSP breadth | 6 down weeks verified; 7th ARMED for a close < $211.11 today; only prior ≥7 run on price since 2003 = Apr–May 2022 (HENRY-verified) |
-| WQ-252 | Steps filed 3 days early (Nov−Dec median $4.72; Dec−Jan $2.84). **Q1: the $90.16 pair is UNVERIFIED** — I withdrew my own 9/14 over-claim |
-| Inbox | 6 top-level + 16 WALTER + 1 LABOR (Sep NFP, arrived mid-session) logged and consumed |
-| Sep NFP | +29K, revisions −60K, U-3 4.2%, AHE 3.0% y/y (LABOR, BLS primary) ⇒ soft; logged in STATUS § NFP |
-| Fed path | October +25bp ≈ 24% [ZQX26 96.06, 08:36 ET live] (FedWatch screenshot 26%) |
 
-## HONEST SCOPE
-- **Verified at primaries:** ACM (NY Fed xls, sha recorded) · KW (FRED) · FR2004 (NY Fed API) · Treasury par/real 10/1 · FRED credit 9/30 · RSP history.
-- **Inferred:** the indicated SPX open (ES basis backed out of a % change) · the 7/23 crude leg (CLU26).
-- **Same-vendor replication, not independent:** WQ-252 steps vs DAEDALUS (both yfinance Close); FR2004 vs BOND (same API).
-- **Not done:** Sep ISM (10/1) **not read**; Sep NFP logged from LABOR's packet only (consensus and cash reaction not read); RSP 7th week and gamma at today's close not graded (the session closes before them).
-
-## LATER LEGS (same session)
-| Leg | Outcome |
-|---|---|
-| Post-open (09:46–09:50) | Payrolls +29K vs ~84–90K ⇒ rate relief: SPX +1.05%, QQQ +1.34%, 2Y −2.5bp, October ≈ 20%. **Gamma turned POSITIVE** (spot through an unchanged flip ~7,696). Corrected my 08:4x "today's expiry rolls off" line: the method excludes same-day expiries (`dfadf9513`, TERRY `a35b09ab1`, memo `8d9de915e`) |
-| Signal drain (10:41) | HY 324 [10/01] over my 320 yellow on one print (credit leg met pre-payrolls); G7 diesel+crude release ⇒ matched Nov crack $95.81 intraday, $0.81 from F1's $95 (`2d7d27065`, TERRY `2b3cb2c18`) |
-| Events 10/2–10/16 | 14-row calendar; Oct-16 covers the 10/13–10/15 CPI/PPI/retail/bank/TSMC cluster (`097d342c3`) |
-| Closeout (11:1x) | ARMED: RSP 7th week · F1 on the 10/2 settle · Mon pre-open gamma — **not done**. Consumer packet → TERRY ($90.16 claim on its VLO card) |
+1. **G1 RSP 7th-week grade.** yfinance RSP daily Close pulled at 16:01 ET: **$209.73 < $211.11 by $1.38 (−0.65% week-over-week)** ⇒ 7th straight down week confirmed. History verified by HENRY in the AM: only prior ≥7-week price run since 2003-05 is 2022-04-08 → 2022-05-20 (7); today's streak TIES, does not exceed. No HENRY line keyed to it.
+2. **G2 HEN-46 F1 at the 10/2 settle.** Matched Nov `HOX26×42 − CLX26` = $4.55×42 − $91.49 = **$99.61**, buffer **$4.61 above $95 stand-down**, $9.45 above $90.16 dead. Dec step **$95.43** (step −$4.18, still above $95). Volumes 10/2: HOX 50,089 / CLX 322,105 (tier-2 finalization satisfied; Yahoo daily-close = settle method validated 9/23–9/25). F1 **remains ACTIVE through 10/14**. Intraday reversal: 10:31 ET print was $95.81 after the G7 release; by the close the crack widened as HO rallied back (−1.90% day) while CL faded (−1.49%). One-vendor read; 2nd-source cross-check owed at next wake.
+3. **G3 Sep ISM Manufacturing (printed 10/1, read 10/2 from ismworld.org/pmi/september/):** PMI 54.5 (−0.1, 9th month expanding) · **Prices Paid 77.9 (+6.8pp — through RED, first print this leg, 24th consecutive month increasing)** · Employment 52.7 (+1.5, 3rd mo growing) · New Orders 55.3 (+1.6) · Backlog 56.4 (+4.6) · Production 56.7 (−1.6) · Inventories 48.6 (contracting from growing).
+4. **Post-close gamma board** (reference only; OI stale by Mon open): `gamma_flip.py --days 14` and `--days 35`, src=CBOE. **Flip ~7,698 both horizons · POSITIVE both · Net GEX +$17.3B/$20.1B per 1% · spot 7,722.93 = +25pt above.** Walls withheld (put≡call=8,000 at both horizons — structurally impossible). SPX-only scope; QQQ's own gamma is NOT measured.
+5. **Thesis — C-36 TWO-PART (BOND's grade; HENRY concurs).** The day's 10Y path 5.24 → 5.18 → 5.28 is the regime's signature: PATH-easing on the 29K payrolls print (Oct hike odds ≈20% at 09:46, down from 36% on 9/30), PREMIUM reasserting into the close as the supply calendar (10/6/7/8 auctions, 11/4 QRA) stays unaddressed. Sep ISM Prices-Paid 77.9 reinforces the premium side — the Fed cannot accommodate 77.9 while softening labor would normally justify it. The SPX open-to-close fade (+1.05% → +0.74%) is the gamma-positive dampening fingerprint. **No HENRY letter moves on this concurrence; FORUM-7's (A) still holds for FOMC-week only.**
+6. **Inbox:** 5 WALTER INFO signals logged + git-moved to processed/. 013 (TD Securities Oct-off-base) corroborates the path-leg reading. 027 (BRENT correction to 023) confirms F1 grades on crack math alone.
 
 ## GAPS / Still pending
-- BOND co-sign on FORUM-7 · ISM log · NFP cash-session reaction · RSP grade at the 10/2 close · Monday pre-open gamma board.
-- `reports/2026-09-24_F1-basis-named.md` still carries the withdrawn "calendar-matched including $90.16" sentence (dated historical report — the withdrawal lives in the WQ-252 packet and MEMORY).
+
+- **B1 Monday 10/5 pre-open gamma board** before 09:30 ET (CBOE only; the delayed chain is dead ~15 min after the open). Will's 5 QQQ Oct-05 735P expire Mon.
+- **B2** FRED HY obs 10/02 (Mon ~10:15) · BOND co-sign on FORUM-7 · 10/2 ACM cell · F1 cross-vendor check on $99.61.
+- **B3** WQ-252 10/6 sitting — HENRY measurements filed 10/2; read any ruling packet at Tue wake.
+- **Carried** (not this spawn): real-yield letter, KRE "Muse" candidate, breadth gap, confidence backfill, `CLAUDE.md` KB count stale, DGS30 2002–06 coverage conflict, WATCH_FOR R3 to PROME.
+- **Skipped controls (reported, per Will-ruled 2026-09-17):** `boot.py` full pass NOT run (bounded Tier-2 spawn under Will's word for three named grades + a thesis note; the live-tape reads needed were pulled directly from `fetch.py`; LESSONS.md was NOT boot-read whole; `credit_monitor.py` NOT run — the HY/CCC credit tape was carried from the AM session). Rationale: scope-bounded, time-bounded, cost = ask-first otherwise.
 
 ## COMMITS
-- See the PROME memo `PROME/inbox/2026-10-02_from-HENRY_FORUM-7-final-and-gamma.md` (shas listed there). Not pushed: PROME pushes for the fleet.
 
-## NEXT SESSION FOLLOW-UP (dates Will cares about)
-- **Today 10/2:** 4 QQQ puts sell-or-roll by 15:00 ET (TERRY's card) · RSP 7th-week close.
-- **Mon 10/5:** 5 QQQ puts expire — a fresh gamma board is needed pre-open.
-- **Tue 10/6:** WQ-252 sitting · 3Y auction; 10Y 10/7, 30Y 10/8 — the supply calendar FORUM-7 now points to.
-- **Wed 10/14:** CPI · **Mon 10/19:** last matched-November crack read · **10/27–28:** FOMC.
+- *(To be filled by the commit step below.)*
+
+## NEXT SESSION FOLLOW-UP (catalyst dates Will cares about)
+
+- **Mon 10/5** — Will's 5 QQQ Oct-05 735P expire; pre-open gamma board owed; FRED HY obs 10/02 publishes ~10:15.
+- **Tue 10/6** — WQ-252 sitting (L471) · 3Y auction.
+- **Wed/Thu 10/7–10/8** — 10Y / 30Y auctions · FR2004 as-of 9/30 release ~10/8.
+- **Wed 10/14** — Sep CPI · F1 November-fixed basis ends.
+- **Thu 10/15** — Sep PPI (yellow row).
+- **Mon 10/19** — Last session matched November crack can be read (CLX26 expires 10/20).
+- **Tue–Wed 10/27–28** — FOMC (Oct +25bp ≈ 20% [ZQX26 live]).
+- **Fri 10/30** — ECI (last on the current basis).
+- **Late Oct** — AAL / LUV Q3 prints — HEN-46 proper resolution.
 
 ## THESIS SNAPSHOT (frozen at close)
-Rates: 10Y 5.24 / 2Y 4.78 / 30Y 5.61 / 10Y real 2.88 [Treasury 10/1], all through red; the 9/23–9/24 burst was premium (graded). Credit: HY 312 · BB 194 · CCC 1,179 · gap 985 [FRED 9/30], both tiers widening. Gamma: negative on the close, near zero at the indicated open. Vol: VIX 16.07. October hike ≈ 24%.
+
+**Rates near multi-decade highs on real yields and premium; credit widening in both tiers (HY 324 crossed yellow on 10/01, CCC 1,215 red); dealers short gamma on the 10/1 close turned POSITIVE at the 10/2 open and held through the close with ~25pt cushion above the flip; breadth bleeding (RSP 7th-week down ties the 2022 record); index vol back to 15.37 at the close.** The C-36 TWO-PART regime says: supply-calendar risk (10/6–10/8 auctions, 11/4 QRA) can un-do the morning's rate relief without a Fed move. Hot ISM Prices-Paid 77.9 fences the Fed from accommodating a soft NFP. FORUM-7 FINAL (PREMIUM-ABSORPTION) stands; BOND co-sign still PENDING.
 
 ## WILL_NEEDS
-- None from this session. (WQ-252's choice on 10/6 is Will's; HENRY is conflicted and sent measurements only. BOND's separate exit recommendation is WQ-357, not this verdict.)
+
+- **Nothing from Will tonight.** All three bounded tasks graded; thesis note delivered; no decision requested; no trade proposed. Monday's gamma board and FRED HY print are HENRY's own first-wake work (not Will-blocking). The WQ-252 sitting on 10/6 will produce decisions Will owns.
+
+## Honest-scope block
+
+- **In scope, delivered:** RSP 7th-week grade · HEN-46 F1 settle grade · Sep ISM read · post-close gamma board · C-36 TWO-PART concur paragraph · STATUS/MEMORY/LAST_COMPLETION/PREDICTIONS/board_log write-back · WALTER signals processed.
+- **Out of scope, deferred:** full `boot.py` pass · LESSONS.md whole read · `credit_monitor.py` live pull · F1 2nd-vendor cross-check · ACM 10/2 cell · BOND co-sign read (not yet landed) · consensus for the Sep NFP (payroll SECONDARY not re-read).
+- **Expected (not promised):** B1/B2/B3 at the next wake.
