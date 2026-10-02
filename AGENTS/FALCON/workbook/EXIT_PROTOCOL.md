@@ -1,6 +1,7 @@
 # FALCON — Exit Protocol & Falsification Criteria (v3)
 
 **v3 REWRITTEN 2026-10-01** (`falcon-1001` touch 2; DOCKET L540; the §5 trigger fired 9/28 on "FAL-05 resolving"). **v2 (2026-07-30 → 2026-09-28, all amendments) archived VERBATIM at `archive/EXIT_PROTOCOL_archive_2026-10-01.md`.** Before writing this file, that archive was checked by `grep -F` for the D 75→85 letter's distinctive strings.
+**Amended 2026-10-01 ~21:5x ET:** production rung D 85→92 REGISTERED by Will (WQ-355) and encoded at §2a; no other change.
 **This is FALCON's live falsification rail.** `STATUS.md` is canonical for marks; `thesis/PREDICTIONS.tsv` is canonical for prediction text. Where a condition is also a prediction, this file REFERENCES it (HAW-10) and never restates it.
 **Why v3:** v2's §1 tested "the CRUDE leg of the premium regime", and that leg is falsified on the letter (FAL-05 FAILED 9/28). A kill table framed around a falsified premise needed re-framing, not annotation. v2 had also grown to 44,914 B, over the fleet read cap, through in-place amendments.
 
@@ -46,7 +47,24 @@
 | C → D | Resumed strikes OR a confirmed capacity loss | ✅ fired 7/27–29 |
 | D → 75 (trip) | class-(iii) hull total loss | ✅ fired 9/5 (M/T Kylo) |
 | **D 75 → 85** | (a) iii-A total loss · (b) FAL-05 FAILS · (c) hit IN a GCC port/anchorage · (d) US service member KILLED on/after 9/8. **Canonical letter, immutable, verbatim: `archive/EXIT_PROTOCOL_archive_2026-10-01.md` §2** (registered by Will 2026-09-08; clarifications `reports/2026-09-08_theater-catchup-and-ladder-proposal.md` §3.5) | ✅ **FIRED 2026-09-28 on (b).** One move; cannot fire again |
-| **Above 85** | **Nothing registered.** ⚖️ **PROPOSED 2026-10-01: production rung D 85 → 92** (a counting-source-confirmed hostile hit on a Gulf-ally crude PRODUCTION facility; letter, base rate and acceptance conditions in `reports/2026-10-01b_production-rung-proposal-fal06-rewrite.md` §1). **NOT REGISTERED; Will's word via PROME.** Until then, a confirmed production hit moves no mark and is a same-hour tell-Will item | PROPOSED |
+| **D 85 → 92 (production rung)** | **REGISTERED 2026-10-01 by Will** (21:40 ET, verbatim *"all with your recs"*, WQ-355; FALCON's §1a draft as written; minor-damage hits COUNT). **Canonical letter, immutable: §2a below.** | ARMED · not fired |
+
+### 2a. Production rung D 85 → 92 — registered letter (revision only via PROME → Will, prospective, with a base rate)
+
+**FIRES** when a **hostile-action strike** on a **Gulf-ally crude PRODUCTION-class facility** is **confirmed by a counting source**, strike on/after **2026-09-29**. **A TARGETING threshold, not a damage threshold: a minor-damage hit (Abqaiq 7/27 class) COUNTS.**
+
+| Element | Letter |
+|---|---|
+| Gulf-ally | Saudi Arabia · UAE · Kuwait · Qatar · Bahrain · Oman |
+| Production-class (IN) | oil/condensate field wellheads and gathering · gas-oil separation plants (GOSPs) · central processing facilities · crude stabilisation plants (Abqaiq, Khurais CPF class) · offshore PRODUCTION platforms |
+| NOT production-class (OUT) | pipelines and pumping stations (route) · export terminals, SPMs, loading berths (route) · refineries (Jazan class) · gas plants, LNG trains · storage tanks · drilling rigs · tankers · power/desalination |
+| Counting sources (must confirm BOTH the hostile strike AND an IN-class facility) | the state (Saudi MoE/SPA/MoD · Kuwait MoD/KPC/KOC/KUNA · UAE MoD/ADNOC/WAM · QatarEnergy/QNA · BNA · ONA) · the operator (Aramco statement or Tadawul disclosure; ADNOC; KPC) · CENTCOM/DoD naming the facility · a named wire (Reuters/Bloomberg/AP) citing a named official OR ≥2 independent industry sources, and naming the facility class |
+| NEVER count | satellite thermal or plume imagery (FIRMS, Meteosat, Sentinel) · OSINT accounts · claimant media (Saba, Al-Masirah, IRNA, Tasnim, Fars, IRGC/Houthi statements, Yemen Press Agency; attribution only after a counting source confirms) · aggregators/Substacks · unverified video · prediction markets · a capacity share quoted as a loss |
+| Moves | **D 85 → 92; C 14 → 7; B stays 1** (floor, disclosed). One move; cannot fire again |
+| Does NOT | fire FAL-06 · touch §1 · constitute a trade signal — WQ-192's stand-down on new energy capital holds |
+| VOID | within 7 days of the fire, a counting source attributes the event to a non-hostile cause, or the confirming wire retracts ⇒ VOID, marks revert the same day. After 7 days, reversion only via the §2 downgrade triggers |
+
+⚠️ **Caveats that travel with this letter (WQ-355):** the base rate rests on **two past episodes** (April Khurais/Manifa · Abqaiq 7/27; ≈24% P(≥1 in 30 days)); the **counting-source list has not been independently reviewed**; the rung **moves scenario numbers only** — no trade follows, WQ-192 holds, FAL-06 is not fired by it. **The 9/29–9/30 Ghawar/Ain Dar-area heat stays NOT ESTABLISHED** (FIRMS and OSINT only; re-checked 10/01 ~21:5x ET, no counting source). Derivation and acceptance tests A1–A6: `reports/2026-10-01b_production-rung-proposal-fal06-rewrite.md` §1.
 
 ---
 
@@ -80,7 +98,8 @@
 ## 5. TIME-BASED REVIEW (the reader of every date below = closeout step 11, which compares each date to today)
 
 - **Scenario review every 7 days.** Last: 2026-10-01 (HELD). **Next due 2026-10-08.**
-- **Rewrite trigger (DATED):** FAL-06 resolving (by **2026-11-05**) · Will ruling on the production rung (register or decline) · a fifth belligerent axis · a dated Iran-Oman PERMANENT-corridor framework · a third class-(iii) hull loss · or **2026-11-05**, whichever is first.
+- **Rewrite trigger (DATED):** FAL-06 resolving (by **2026-11-05**) · a fifth belligerent axis · a dated Iran-Oman PERMANENT-corridor framework · a third class-(iii) hull loss · or **2026-11-05**, whichever is first.
+- *Record:* the former trigger "Will ruling on the production rung" fired 2026-10-01 21:40 ET (registered) and was discharged the same evening by the §2/§2a edit; v3 had been written that day anticipating either outcome, so no wider rewrite was owed.
 - **Cap discipline:** this file is a boot-adjacent reference; keep it under the read cap by moving resolved detail to `archive/`. Do not amend it in place past the cap (the v2 failure).
 
 ---

@@ -3,7 +3,7 @@
 **Version:** 3.0 (2026-10-01, `falcon-1001` touch 2, DOCKET L540). The rewrite was triggered by FAL-05 resolving FAILED on 9/28. v2.2 (2026-09-08) is in git history. That chain runs: v2.1 (7/30, molecule split) · v2.0 (7/27, first FALCON-authored).
 **Status:** 🔴 ACTIVE WAR, **War Day 216** (Feb 28 = Day 1; compute it, never copy it).
 **Scenario ladder:** **B 1 / C 14 / D 85** · Convergence 43/50 (saturated: 7 of 10 vectors at ceiling). ⚠️ **`STATUS.md` is canonical for marks; on conflict STATUS wins.** This file holds the structure.
-**Conviction:** MEDIUM on the regime call (two true statements, below) · MEDIUM on the marks (D 85 is a registered-rule mark, not a judgment on this week) · **LOW on the ladder above 85: nothing is registered there** (a production rung is PROPOSED to Will, 10/01).
+**Conviction:** MEDIUM on the regime call (two true statements, below) · MEDIUM on the marks (D 85 is a registered-rule mark, not a judgment on this week) · **the ladder above 85 now has one registered rung:** production rung D 85→92, registered by Will 10/01 21:40 ET (WQ-355; targeting threshold, minor-damage hits count; letter `workbook/EXIT_PROTOCOL.md` §2a).
 
 ---
 
@@ -48,7 +48,7 @@ The question since v2.0 has been *"does the war's damage ever become lost barrel
 |---|---:|---|
 | **B — Deal / verified reopen** | 1 | US reply to Iran's 7-day plan delivered via Qatar (Doha 9/29); the gap is sequencing; no date, no framework. Flip up needs a DATED framework + verified reopening steps |
 | **C — Grind** | 14 | Hull hits resumed 9/28–29 after a 5-day lull; Houthi salvos intercepted; talks alive on a mediated track |
-| **D — Damage regime** | 85 | Registered-rule mark (FAL-05 FAILED ⇒ rung (b)). Its triggering event is reversing (Yanbu loading again, 9/28). It reverts only via a downgrade trigger, by design. **Nothing registered above 85** |
+| **D — Damage regime** | 85 | Registered-rule mark (FAL-05 FAILED ⇒ rung (b)). Its triggering event is reversing (Yanbu loading again, 9/28). It reverts only via a downgrade trigger, by design. **Above 85: the production rung D 85→92 (registered 10/01, armed, not fired)** |
 
 ---
 
@@ -66,7 +66,7 @@ The question since v2.0 has been *"does the war's damage ever become lost barrel
 - **BRENT:** net-loss arithmetic is yours; FAL-06 route (c) is graded from your Kpler/Vortexa reads where you hold them. The production rung, if registered, is a hit, not a loss.
 - **HAWK:** NEXUS_BRIEF carries the synthesis; Iraq after the 9/30 exit is your mark (VX-HAWK-IRAQ-01).
 - **HENRY:** D 85 is a rule mark; the fresh catalysts are the resumed hull hits and the unexplained Ghawar heat.
-- **PROME / Will:** two open asks — the production rung (D 85→92) and the GATE-FALCON-001 leg-2 basis. No trade (WQ-192 stand-down).
+- **PROME / Will:** both 10/01 asks RULED by Will 21:40 ET — production rung registered (WQ-355), leg-2 basis adopted PROVISIONAL (WQ-353). No trade (WQ-192 stand-down).
 
 ---
 
