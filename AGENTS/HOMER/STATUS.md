@@ -9,10 +9,9 @@
 
 ## ⚠️ DATA VINTAGE — READ BEFORE QUOTING ANY ROW
 
-✅ **9/29 PM (boot sweep):** Case-Shiller JULY read at issuer primary · Miami-Dade Aug condo (issuer, via subagent) · **servicer sweep re-run: Class A FIRED 2026-08-07 at UWM, found 53 days late** (secondary; Fitch primary owed).
-✅ **9/29 CATCH-UP:** Fannie MF Aug · ICE First Look Aug · MND 9/28 · **LEN FQ3 + KBH FQ3 (both MISSED 9/24, found late)** · CREED Trepp SS back-fill. **All ISSUER PRIMARY except the Trepp back-fill (CREED-read).**
-✅ **9/14 → 9/24 GAP CLOSED (2026-09-24):** PMMS ×2 · FOMC · MBA apps ×2 · NAHB Sept · NRC Aug · NHS Aug · PHSI Aug · ICE Mortgage Monitor Sept · Freddie MF Aug · Trepp Aug DQ + SS. **Every figure has a dated `workbook/` row.**
-⚠️ **YEAR TRAP, now n=4 on this desk:** NAHB Sept-2025 **and** Sept-2026 both printed **32**; Trepp MF SS **8.37%** was July-2025 **and** Aug-2026. ⇒ **On any monthly series, verify the page's publication YEAR, not just the month.**
+✅ **10/02 (Tier-2 bounded spawn under Will's authorization):** **PMMS 10/01 7.28% graded against the 9/29 pre-registration = HOLD** (ISSUER PRIMARY WebFetch of freddiemac.com/pmms); CREED multifamily relay (SIG-W-20261001-029) triaged — items 2/3/5 travel to HOMER's book, item 1 (Lurin/Venetos) noted as context, no auction row upgrade.
+✅ **9/29 PM:** Case-Shiller July · Miami-Dade Aug condo · Class A FIRED 2026-08-07 at UWM, found 53 days late (secondary; Fitch primary owed) · Will-ruled rent breadth + nat'l FC starts bands RE-ARMED.
+⚠️ **YEAR TRAP, now n=4 on this desk:** verify the page's publication YEAR, not just the month.
 
 ---
 
@@ -55,10 +54,10 @@
 ### Mortgage Rates / Demand *(HOMER-owned surface, ★ ruling)*
 | Metric | Value (as of) | Band |
 |---|---|---|
-| **🔴🔴 ★★★ 30-Yr PMMS** | **7.03% [wk 9/24]** — 9/10 6.76 → 9/17 6.95 → **9/24 7.03**; 15Y 6.42%. **First ≥7% since 2025-01-16** (Freddie + FRED) | 🔴🔴 **RED (>7.0%) CROSSED, +3bps** ⛔ **no uncrossed rung.** ⚠️ 3bps < one week's move; next print 10/01 |
+| **🔴🔴 ★★★ 30-Yr PMMS** | **7.28% [wk 10/01]** (+25bps WoW, +57bps 4-wk, +73bps YoY), 15Y 6.60%. Path 2026: 9/3 6.71 → 9/10 6.76 → 9/17 6.95 → 9/24 7.03 → **10/01 7.28** (ISSUER PRIMARY WebFetch 10/02; year-verified page 10/01/2026) | 🔴🔴 **RED, HOLD state fired (pre-reg ≥7.05)**; 9/24 "3bps < one week's move" caveat RETIRED; +28bps THROUGH RED; no uncrossed rung above |
 | **CONTEXT — FOMC 9/16** *(BROCK/HENRY own direction)* | **HIKED 25bp → 3.75–4.00%, 12–0**; SEP 2026 median 4.1 ⇒ one more hike implied | context |
-| **★★ 10Y-FRM spread** | **~192bps [9/24]** (7.03 − DGS10 **5.11 [Wed 9/23]**) · ~194 [9/17] · ~193 [9/10] — survey-matched, Treasury par curve | 🔴 ~42bps structurally wide / 🟢 **FLAT four weeks ⇒ the +27bps is ALL TREASURY** |
-| **✅ BASIS TRAP — resolved for the band** | **PMMS 7.03 · MBA 7.12 [wk 9/18] · MND 7.45 [9/24] → 7.50 [Mon 9/28], first 7.5% since 2024-04-30** | ✅ **MND led PMMS through RED by ~10 days (n=1)**; MND +5bps since the 9/24 PMMS window |
+| **★★ 10Y-FRM spread** | **~199bps [10/01]** (7.28 − DGS10 **5.29 [Wed 9/30]**, FRED primary) · ~192 [9/24] · ~194 [9/17] · ~193 [9/10] — survey-matched | 🔴 widened +7bps WoW — the +25bps WoW is ~+18bps Treasury (DGS10 5.11→5.29) + ~+7bps spread; residual +5-7bps vs 4-wk 1.92-1.94, inside the 10bp line |
+| **BASIS TRAP** | PMMS 7.28 [10/01] · **MBA 7.12 [wk 9/18, NOT re-pulled 10/02]** · MND **7.50 [Mon 9/28, NOT re-pulled 10/02]** — PMMS caught up: span narrowed from 42bps (9/24) to ~22bps (10/01), ⚠️ unknown without fresh MND/MBA | ✅ **MND led PMMS through RED by ~10 days (n=1)** — the mechanical expectation (9/14) that PMMS would catch toward 6.95-7.10 by 9/17 or 9/24 understated this move |
 | **★★ MBA weekly apps** | wk 9/18: **PURCHASE −1% WoW, −11% YoY**; refi −3%, −62% YoY (base effect); refi share 39.3% · wk 9/11 −19% YoY **holiday-contaminated** | 🟠 ⚠️ **9/14 "purchase is the resilient leg" WITHDRAWN** |
 | **🔴🔴 Existing home sales (SAAR)** | **3.98M AUGUST** (−2.0% MoM); **4.9 months, a decade high**; median $429,100. ⚠️ level seen at CalculatedRisk; NAR's page confirms −2.0% + 4.9 mo | 🔴🔴 **RED (<4.0M) CROSSED by 20K** ⛔ no uncrossed rung |
 | **Pending home sales (NAR)** | **71.2 AUGUST** (+0.3% MoM, −4.7% YoY) ⇒ July implicitly revised to ~71.0 | 🔴 ⛔ still ABOVE the 69.0 COVID trough |
@@ -124,9 +123,9 @@
 
 | Date | Event | Watch |
 |---|---|---|
-| **9/30** | FMHPI (Aug) | Case-Shiller July accelerated (+1.9%) vs ICE's 3-mo cooling: which one FMHPI follows |
-| **🔴 10/01** | **PMMS** | ★ **PRE-REGISTERED** (`reports/2026-09-29_PMMS-2026-10-01_PRE-REGISTRATION.md`): **HOLD ≥7.05 · SOFTEN 7.01–7.04 (still RED) · LIFT ≤7.00 (ORANGE)**. Treasury-implied ~7.16–7.18 (10Y 5.24 Mon 9/28) |
-| **~10/01 · ~10/14** | Trepp Sept DQ · Sept SS | MF level; ⛔ **mat-adj 3rd month — kill executes if absent** |
+| **9/30** | FMHPI (Aug) — NOT PULLED THIS SPAWN | Case-Shiller July accelerated (+1.9%) vs ICE's 3-mo cooling: which one FMHPI follows |
+| ✅ **10/01** | **PMMS** | ★ **GRADED 10/02: HOLD state fired, 7.28%, +25bps WoW; residual +5-7bps vs 4-wk spread** ⇒ Treasury-driven. **A2 fired count 0/4 UNCHANGED** (kill ≤6.50% ×4; 78bps above). ⚠️ "largest since 2022-10-13" crosses the 2022-11-17 PMMS method change; under the current LPA method it is the series record |
+| **~10/01 · ~10/14** | Trepp Sept DQ · Sept SS — NOT PULLED THIS SPAWN | MF level; ⛔ **mat-adj 3rd month — kill executes if absent** (next session's first row) |
 | **~10/09–13** | **ICE Mortgage Monitor (Oct)** | cure rate YoY: −28% → does it cross −30% (Orange)? |
 | **10/22 · 10/28 · 10/29** | **PHM Q3 · MTH Q3 (after close) · DHI FQ4** — issuer-stated; 9 per-name builder rows now on the docket | margins at the trough vs orders falling |
 | **10/13** | **NAR existing-home sales (Sept)** — issuer-stated | 3.98M sits 20K below RED (<4.0M) |
@@ -153,12 +152,12 @@
 
 ## BOTTOM LINE
 
-**2026-09-29 (Tue) PM — boot sweep, then Will's directives and two band rulings. The AM catch-up BOTTOM LINE → `archive/STATUS_bottom_line_2026-09-29-AM.md`.**
+**2026-10-02 (Fri) PM — bounded Tier-2 spawn under Will's authorization ("open up the rest of the agents"). Prior 9/29 PM BOTTOM LINE → `archive/STATUS_bottom_line_2026-09-29-PM.md`.**
 
-**① A SERVICER TRIGGER FIRED 53 DAYS AGO AND THIS DESK MISSED IT.** Fitch cut UWM from BB- to B+ on **2026-08-07**: Class A. The row said "no trigger ever fired" because a 7/31 negative was carried, not re-run. Source is two independent trade outlets; Fitch's own page is owed. REGINALD notified. loanDepot's NYSE <$1 notice (8/21) is a no-verdict price item.
+**① PMMS 10/01 = 7.28%, HOLD state fired.** +25bps WoW — the largest ONE-WEEK rise in the current (post-2022-11-17 LPA) PMMS methodology, highest 30Y since 2023-11-22. Pre-registered state (`reports/2026-09-29_PMMS-...-PRE-REGISTRATION.md`) said HOLD at ≥7.05%; 7.28% ≥ 7.05%. The 9/24 "3bps < one week's move" caveat RETIRES — RED is now a two-print regime read, 28bps through the line, no uncrossed rung above. **Attribution:** DGS10 Wed 9/23 5.11 → Wed 9/30 5.29 = +18bps Treasury; survey-matched spread widened 192 → 199bps = +7bps spread. The residual against the four-week 1.92-1.94 range is +5-7bps, inside the 10bp line — same regime, no spread break. **Primary verified** at freddiemac.com/pmms (year-stamped 10/01/2026) + FRED DGS10. The FT headline "largest since 2022" crosses Freddie's 2022-11-17 PMMS method change; carry the caveat or write "series record under current method."
 
-**② TWO BANDS RE-ARMED BY WILL (after CATO's review).** **Rent-decline breadth: 46 of 100 cities negative, September = ORANGE**, 10 cities short of Red. Breadth is narrowing (60 in April); this restores measurement, not fresh deterioration. **National foreclosure starts: 100K/130K/175K**; Q2 81,935 sits below Yellow while up ~15% YoY, and below Yellow is not "contained." CATO then broke the rent tool with one missing month; **fixed** (calendar-date pairing, fails closed).
+**② THESIS KILL RAIL (GATE-HOMER-THESIS-KILL) — no leg moved toward kill; FIRED COUNT HOLDS 0 of 5.** A2 (rate amplifier) kill = PMMS ≤6.50% ×4 weekly prints: at 7.28% we are 78bps ABOVE the kill line and 4 weeks UP; the direction of A2 is confirmed, not killed. C1/C2/A1/A3 have no new prints this spawn. 🔴 holds; formal grade 2026-11-20 unchanged.
 
-**③ PRICES: Case-Shiller July +1.9%** (June revised up to 1.6%), a 3rd month of nominal acceleration, still negative after inflation. **Miami-Dade condos:** price flat, supply 12.1 months; my July "declining" read is not supported.
+**③ CREED MULTIFAMILY RELAY TRIAGED (SIG-W-20261001-029, 8 items).** Items that travel to HOMER's book: **(2) Trepp 2025 MF NOI medians** — NOI +1.8%, insurance deceleration from +10.9% to +2.7% (CREED-PRIMARY-read), eases the acute-realization read at the margin, logs to `MULTIFAMILY.tsv`; **(3) CRED iQ coupon gap +65bp MF (vs +172bp office)** — MF refi stress exists but less acute than office; context, logs; **(5) CRE CLO distress 28% ⚠️ 2021-22 vintage ONLY** — carries the vintage scope; important TX-syndicator-exposure proxy that already overlaps my own TX auction row, logs with scope. Items noted but not promoted: **(1) Lurin/Venetos personal involuntary Ch.7 + FBI probe** — SECONDARY (Unicus Substack), sponsor-level event; HOMER already carries Lurin in the August TX auction row as a named syndicator; the current row is NOT upgraded without a docket read. **(4) student-housing 2029-30 maturities, (6) Blackstone $90M unnamed, (7) Boulder Creek WA $500K/unit, (8) MF-only starts −22.5%** — SECONDARY newsletter relays, context only, not posted to the ledger. The Miami 33.9% NOI line is CORAL's.
 
-**④ HOUSEKEEPING.** Charter trimmed 53 → 38KB after two cold reads (8 wrong-action defects fixed, all but one inherited). 20 finished docket rows archived. All four 37-day-old owed items dated or done: rider encoded; 3c link to CARL, ack by 10/05, build by 10/09.
+**④ RESIDUE + SKIPPED CONTROLS (bounded spawn).** Not pulled this spawn: FMHPI Aug (due 9/30), MBA weekly apps (next due 10/08), MND daily, Trepp Sept DQ (~10/01, docket row owed; mat-adj kill still armed for the 3rd consecutive absence). Full CREED-relay items 2/3/5 workbook rows for `MULTIFAMILY.tsv` are posted here in STATUS as summaries; the ledger-row-with-sources append is deferred to the next full session. ARGUS/CATO: not spawned.
