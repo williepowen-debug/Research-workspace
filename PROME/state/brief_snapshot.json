@@ -1,13 +1,13 @@
 {
  "channels": {
   "AI capex": "elev",
-  "Credit": "elev",
+  "Credit": "crit",
   "Energy": "elev",
   "Equity-vol": "watch",
   "Japan / carry": "watch",
   "Metals": "elev",
   "Rates": "crit",
-  "War theaters + tariffs + rivers + housing": "crit"
+  "War theaters + Europe + tariffs + housing": "crit"
  },
  "docket": {
   "2026-10-01": "FORUM-7",
@@ -44,8 +44,8 @@
   "GATE-TERRY-VLO-SCALE": "RESOLVED"
  },
  "money": {
-  "cash": "37.50",
-  "total": "37,727.55",
+  "cash": "39.22",
+  "total": "36,077.04",
   "vintage": "2026-10-01"
  },
  "queue": {
@@ -54,7 +54,6 @@
   "242": "CRU-05 graded FAILED at its window close \u2014 and the letter it was grad\u2026",
   "273": "\u2696\ufe0f EXTEND THE CLOSEOUT CONSUMER-CHECK TO RETIRED PROSE CLAIMS, COMPLE\u2026",
   "274": "\ud83d\udfe1 POSITION RECORD \u2014 NARROWED AGAIN 2026-09-29 14:0x ET by the 9/29 re\u2026",
-  "279": "NYSCEF DOCKET PULL \u2014 *Kenilworth Holdings LLC et al. v. NYC Rent Guid\u2026",
   "295": "\u2696\ufe0f THE DARK-DESK CLASS \u2014 four rulings in one record (PROME/proposals/\u2026",
   "301": "\u2696\ufe0f GATE-LIQ-069 LEG 2 \u2014 (a) RULED 15:54: actual CoreWeave CDS trades\u2026",
   "302": "\u2696\ufe0f THE TWO ITM-PUT CARDS ARE ON FILE \u2014 YOUR CHOICES BY WED 10/14 CLOS\u2026",
@@ -63,12 +62,14 @@
   "334": "\u2696\ufe0f SEND CORAL's NARROWED DBPR RECORDS REQUEST? CORAL drafted a public\u2026",
   "339": "\u2696\ufe0f ADD A NEW DURATION-SHORT EXPRESSION NOW THAT THE SEPTEMBER LEG IS\u2026",
   "341": "\u2696\ufe0f ROOT B IS UNOWNED \u2014 an 'AI-disruption scare in incumbents' credit\u2026",
-  "347": "\u2696\ufe0f THE ROLLED QQQ PUTS \u2014 FOUR Oct-01 740P LEFT (five of the nine SOLD\u2026",
+  "347": "\u2696\ufe0f THE QQQ PUTS \u2014 FOUR Oct-02 740P EXPIRE FRI 10/02 (payrolls 08:30 E\u2026",
   "348": "\u2696\ufe0f APPROVAL INVENTORY \u2014 WHICH OF THE STEPS THAT ASK YOUR WORD SHOULD\u2026",
   "350": "\u2696\ufe0f THE SIGNAL SCANNER \u2014 AUTHORIZE ONE MORE FIX PASS AND ONE MORE INDE\u2026",
   "352": "\u2696\ufe0f SILVER, PLATINUM AND PALLADIUM \u2014 ADOPT MIDAS's STANDALONE ALARM BA\u2026",
   "353": "\u2696\ufe0f FALCON's RED SEA TANKER GATE \u2014 ADOPT A NUMBER FOR ITS SECOND LEG?\u2026",
   "354": "\u2696\ufe0f YOUR 9/26 RULE ON LEGAL-INSTRUMENT PREMISES (WQ-295 R4) READS TWO\u2026",
-  "355": "\u2696\ufe0f FALCON's IRAN LADDER HAS NO RUNG FOR A STRIKE ON GULF OIL PRODUCTI\u2026"
+  "355": "\u2696\ufe0f FALCON's IRAN LADDER HAS NO RUNG FOR A STRIKE ON GULF OIL PRODUCTI\u2026",
+  "357": "\u2696\ufe0f BOND's EXIT TEST ON THE DURATION SHORTS WAS MET \u2014 APPROVE OR DECLI\u2026",
+  "358": "\u2696\ufe0f DAEDALUS's MATURITY LADDER \u2014 RATIFY TWO READINGS IT APPLIED AT THI\u2026"
  }
 }
