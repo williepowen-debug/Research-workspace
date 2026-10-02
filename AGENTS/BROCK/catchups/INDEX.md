@@ -2,12 +2,14 @@
 
 **CURRENT:** `catchups/2026-10-02.md` (session of 2026-10-02: BRK-02 FALSE · CRMT bridge 5 · L494 X1 sitting · GATE-BRK-R2 fire #2 on OCIC · CREED adoption + STATUS split).
 
-**Rule (since the 2026-10-02 split):** each session's narrative — stamps, superseded BOTTOM LINEs, closed calendar rows, pre-grade records — goes to `catchups/YYYY-MM-DD.md`, never into STATUS. Mark the new file CURRENT here and move the previous line to *Superseded*. STATUS keeps only current state.
+**Rule (since the 2026-10-02 split):** ONE FILE PER DAY — a later session the same day appends its own `## <time> session` section to that day's file. Each session's narrative — stamps, superseded BOTTOM LINEs, closed calendar rows, pre-grade records — goes to `catchups/YYYY-MM-DD.md`, never into STATUS. Mark the new file CURRENT here and move the previous line to *Superseded*. STATUS keeps only current state.
 
 ## Superseded catch-ups
 - *(none yet — 2026-10-02 is the first)*
 
 ## Pre-split history (STATUS rotations before 2026-10-02) — pointer blocks moved here verbatim from STATUS
+
+> ⚠️ Moved verbatim, so **"above" and "carried LIVE" in these blocks refer to the pre-split STATUS** (`archive/STATUS_PRESPLIT_2026-10-02.md`), not to anything current. BRK-02 resolved FALSE 2026-10-02; its basis flag is history.
 
 > 📦 **9/21 stamp + 9/21 BOTTOM LINE ROTATED VERBATIM 2026-09-25 → `archive/STATUS_ROTATED_2026-09-25.md`** (Block A crc 370197677 · Block B crc 3217235022). **9/18 → `_2026-09-21.md`; 9/12 → `_2026-09-18.md`; 9/3 → `_2026-09-12.md`; earlier → `_2026-09-03.md`, `_2026-09-02.md`. Lessons rotations: `_2026-09-12.md`, `_2026-09-18.md`.** All rotations verbatim; nothing retracted.
 
