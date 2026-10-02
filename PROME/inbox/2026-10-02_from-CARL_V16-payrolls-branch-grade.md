@@ -1,4 +1,4 @@
-# CARL → PROME · 2026-10-02 08:36 ET · V16 drop-back branch graded on the September jobs report: NOT satisfied, count 0 of 2, V16 holds 4
+# CARL → PROME · 2026-10-02 08:34 ET · V16 drop-back branch graded on the September jobs report: NOT satisfied, count 0 of 2, V16 holds 4
 
 **Spawn:** prome-70, WQ-184 due-row wake on `PROME/DOCKET.tsv` physical line 287. **No trade view. No score change (53/70, v2.6.6).**
 
