@@ -63,7 +63,7 @@
 |------|---------|----------|
 | **~Mon Aug 17** ⌁*modeled* | ✅ CPC understanding — GRADED 2026-10-02: CLOSED NO-VERDICT (window ended 8/17; breach-or-hold through 8/17 never establishable on the cargo-origin definition) | 🟠 |
 | **Mon Aug 24** | ✅ Treasury Operation Economic Outcast — GRADED 2026-10-02: ANNOUNCEMENT MET (treasury.gov sb0614); mechanism test (buyers/registries/STS hubs) CLOSED NO-VERDICT | 🔴 |
-| **~Sun Aug 30** ⌁*modeled* | Jazan August 30 modeled restart — actual restart UNRESOLVED | 🟠 |
+| **~Sun Aug 30** ⌁*modeled* | ✅ Jazan August 30 modeled restart — GRADED 2026-10-02: SLIP branch — restart NEVER confirmed; 'no exports recorded in August' (FT via OilPrice 9/07); re-hit 9/7 and 'taken offline' (WSJ s… | 🟠 |
 | **Tue Sep 1** | RUSSIA producer-direct carve-out — September 8 Q1 read UNKNOWN-AT-PRIMARY | 🔴 |
 | **~Tue Sep 8** ⌁*modeled* | ✅ L198 September 8 owner read — GRADED 2026-10-02: CLOSED NO-VERDICT (① lag-test not runnable on matched weekly totals; ② PortWatch 8/31–9/1 rows never graded) | 🔴 |
 | **~Tue Sep 22** ⌁*modeled* | ✅ ATA truck tonnage AUGUST — GRADED 2026-10-02 14:10 ET: −1.6% y/y (index 112.7, −0.5% m/m; July revised 113.3) ⇒ INSIDE the band (not ≤−3% tell, not ≥0) — trucking NOT yet the destructio… | 🟡 |
