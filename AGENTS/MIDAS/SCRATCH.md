@@ -22,6 +22,8 @@
 >
 > **▶ ⏳ COT 9/29 WAIT.** CFTC release 2026-10-02 15:30 ET (3h 44min after this write). `cot_gold.py --expect 2026-09-29` returned WAIT at the 10/1 closeout and still serves 9/22. Bounded spawn closes at the encode; PROME re-spawns at the print per charter.
 >
+> **▶ ✅ RE-PING TOUCH 2026-10-02 ~15:3x ET (PROME, same `prome-96` session chain): COT 9/29 CONSUMED.** `cot_gold.py --expect 2026-09-29` returned the vintage cleanly (reconciled OI == TotRept + NonRept on both sides): **net/OI 53.79%, OI 406,456, net NC long 218,632, NC long 249,736, NC short 31,104** (as-of Tue 2026-09-29). **−0.9225pp WoW vs 9/22 (54.7125%); 97.81th pct of the frozen 2010-26 reference (n=868)**; two WoW declines in a row (9/15 56.19 → 9/22 54.71 → 9/29 53.79, total −2.40pp). First COT read AFTER the 9/28 −3.54% GCZ26 session: both legs cutting (net NC long −7,221, OI −6,344). **Still top 2.2% of history, so this is de-crowding not un-crowding.** **No line crossed; no registered test consumes it** (M1 has no live test; successor must register the beta per L-51/WQ-161). Vintage row appended to `sources/cot_vintages_consumed.tsv`; **KB-MIDAS-122** records the figures and context. STATUS 9/30 marks block + NEXT 4b updated. Context noted (not a grade input): BRENT graded `GATE-BRENT-COT-35B` vintage #8 JOINT NOT-SPENT on today's crude MM data (+8,074 WoW shorts regrossing).
+>
 > **▶ Inbox:** no new WALTER signal landed in `AGENTS/MIDAS/inbox/WALTER/` since the processed SIG-W-20260930-003. The spawner message mentioned WALTER's 11:40 ET gold GLD $379.27 (−0.91%) tape print but it did not reach the inbox lane. No consume row owed.
 >
 > **⏳ STILL OWED (unchanged from the prior session unless noted):**
