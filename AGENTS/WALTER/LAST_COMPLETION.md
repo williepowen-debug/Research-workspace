@@ -12,6 +12,8 @@ Session: **2026-10-02 Fri, Claude Opus 5.5 as WALTER (`walter-61`, desktop)**. B
 
 **Own error, corrected `-016` (IMMEDIATE, BRENT caught it):** `-014` led with a ONE-VESSEL suspension and 'since resumed', both resting only on a Splash247 search summary, while WALTER's own Maritime Executive fetch carried Vanguard's TERMINAL-WIDE line (*'The terminal temporarily suspended operations'*). Same class as MEMORY #28 n=2: a relay summary displaced the stronger source in hand. Liftings 10/01–10/02 UNKNOWN (BRENT: no feed, newest berth capture 9/30). `-014` back-pointer `status: PARTIALLY-CORRECTED`; anchor limb corrected. The terminal answer to Will (12:3x ET) carried the one-vessel version and was corrected in the next terminal reply.
 
+**Afternoon (Will questions + Telegram):** `-017` (Will: "did we capture a tanker attack today?") named UKMTO 147-26 (10/01) as *Kazimah III* (KOTC VLCC) and said **no new 10/02 attack**. That was WRONG: Will's ZeroHedge link (Telegram 4873) led to UKMTO's **10/02 11:22Z outbound hit** (small fire + blackout, extinguished, resumed, unnamed), corrected in **`-018`** (PRIORITY → FALCON). A Panama-flagged inbound hit 10/02 is UNCONFIRMED. Telegram 4875 (ZeroHedge Amazon/Broadcom SPVs) = DUP of `-012` + `-0910-013`/`-0914-018` (BM-20261002-03, 2/2). Will-directed memo → PROME on the scheduling helper + ⚖️ bounded-spawn question, registered by PROME as **WQ-369** (verified in WILL_QUEUE, stake disclosure carried). MEMORY #28 extended to n=4. ⚠️ **`anchors/IRAN_WAR.md` = 24,416 B, OVER the 24,412 B re-rotation trigger: rotate at the next Tier-2** (oldest lead limb lines → HISTORY verbatim).
+
 **Also:** LAST_COMPLETION RESULT 3 "/bin/bash." repaired to "$0." (`8302f2e79`).
 
 **Gaps (noon):** `-011`/`-012` origin lines and `-011`'s table say "read ~16:2xZ / ~12:2x ET"; the actual fetch was ~16:13Z. Typed, not stamped (MEMORY #34 again); BOARD append-only, not rewritten. The STATUS header was typed the same way and re-stamped from `date`. FT original (Amazon) and TD's note not read; ">5%" is one TE headline.
@@ -102,7 +104,7 @@ Session: **2026-10-02 Fri, Claude Opus 5.5 as WALTER (`walter-61`, desktop)**. B
 ## CLOSEOUT RECEIPT
 
 **Issued at the 10/02 Tier-2, before the closeout commit (its hash is in the commit trail).**
-- **10/02 handoffs: 74 written, 70 on origin; the 4 from `-017` PENDING PUSH (PROME train)** (lane-run 8 pushed `bf27866ca`; correction `-016` 5 pushed `5775407c3`; both reconciled) (noon 14 pushed by PROME at `f055c1d3a`, verified by fresh fetch 0/0 + `reconcile_delivery_log.py --apply` 14/14) (fresh fetch ~15:5xZ; `reconcile_delivery_log.py --apply`). Delivered is not consumed.
+- **10/02 handoffs: 78 written, 74 on origin (`-017` went out on a peer push); the 4 from `-018` PENDING PUSH (PROME train)** (lane-run 8 pushed `bf27866ca`; correction `-016` 5 pushed `5775407c3`; both reconciled) (noon 14 pushed by PROME at `f055c1d3a`, verified by fresh fetch 0/0 + `reconcile_delivery_log.py --apply` 14/14) (fresh fetch ~15:5xZ; `reconcile_delivery_log.py --apply`). Delivered is not consumed.
 - ⚠️ **This receipt does NOT claim:** that any recipient consumed today's handoffs (BOND, BRENT, CRUISE are known to have drained some); that the Reuters/WSJ/Bloomberg originals were read; that the afternoon lane run was processed; that the FILTER_SPEC boot reads ran; that this closeout commit itself has reached origin.
 
 <!-- CLOSEOUT_RECEIPT_JSON
@@ -118,8 +120,8 @@ Session: **2026-10-02 Fri, Claude Opus 5.5 as WALTER (`walter-61`, desktop)**. B
   ],
   "delivery": {
     "signal_date": "20261002",
-    "total": 74,
-    "delivered": 70
+    "total": 78,
+    "delivered": 74
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",

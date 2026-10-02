@@ -14,6 +14,8 @@ confidence_language: "reports"
 signal_type: context
 safety_net: clear
 verdict: "UKMTO 147-26 (tanker struck by an unknown projectile in Hormuz, 1750Z Thu 10/01, fire, crew safe; carried unnamed in -1001-033) is named by trade press on 10/02 as the Kuwait-flagged VLCC KAZIMAH III (Kuwait Oil Tanker Co). That makes it KOTC's second VLCC hit in four days after AL FUNTAS on 9/28. No KOTC or Kuwaiti statement found. No separate tanker attack on 10/02 was found; Arab News's 'Thursday, October 2' is a mislabel (Thursday = 10/01)."
+status: PARTIALLY-CORRECTED
+status_ref: "SIG-W-20261002-018 (2026-10-02) - 'no separate tanker attack on 10/02' was WRONG when written: UKMTO reported a NEW hit 10/02 1122Z (outbound, small fire + blackout, extinguished, resumed, unnamed). The Kazimah III = 147-26 (10/01) identification stands."
 precedence: PRIORITY
 action: ["FALCON"]
 info: ["BRENT", "HAWK", "SAM", "RED"]
