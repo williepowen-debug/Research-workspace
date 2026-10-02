@@ -88,7 +88,6 @@
 - ~~HY OAS <260bps for 10+ sessions~~ **— RETIRED AS A KILL 2026-09-02 (WQ-106, Will 9/1). Now an OBSERVABLE only.** ⇒ **THE kill on 260 is the registry 2-close `GATE-HY-REKILL`** (LIQUID's series, LIQUID's count) — **0-of-2; HY 324 [FRED 10/1], far from 260.** My 10-session count reads **0/10** and now authorises nothing. Charter edited (`CLAUDE.md` §EXIT RULES 1). **A label was corrected on Will's word; no threshold moved.**
 - Major PC fund reports default rate declining 2 consecutive quarters — **NOT FIRED** (no 2-consecutive-Q decline anywhere)
 
-> ✅ **RULED AND EXECUTED 9/2** — the 10-session <260 kill retired per NEXUS base rate (n=787, closed <260 exactly once, longest run 1 session), Will 9/1 (`PROME/proposals/2026-09-01_wq-batch-RULED.md` row 106). Full derivation → `archive/STATUS_ROTATED_2026-09-02.md`. Counter: `[[finding_historical_fire_count_assumes_one_regime]]` still carried — 2023-26 is one regime; label correction, no threshold moved.
 
 ### 2. Position-Specific
 - **APO reclaims $130 sustained → 🔴 FIRED 8/12; RULED 8/13 HOLD Dec $95P, NO MONETIZATION** (Will on PROME rec; `PROME/proposals/2026-08-13_private-credit-batch-RULED.md`). APO **$115.03 [10/2, dashboard]**; option marks are live-only, never from this file. ⚠️ **FORGE row reads 'No ruling on file' — the 8/13 HOLD ruling exists (`PROME/proposals/2026-08-13_private-credit-batch-RULED.md` §②); flagged to PROME.** 9/24 record put flow was an Oct-16 ladder ROLLED DOWN ($110/$125 closed, $105/$115 opened), untouched Dec/$95 (KB-BRK-302). ⚠️ Vehicle-mismatch flag stands (shorting APO equity on a PC thesis fights the fee-economics tailwind). **Any disposition is Will's. $0 moved.**
@@ -106,9 +105,7 @@
 - **BRK-25 (arms-length sub-90¢ print, 12/31, 45%): COUNT STAYS AT 2.** External defect — resolves by counting misses. 🆕 A plausible **emitter** named (Delaware Life, verdict 4). **An emitter is not a print: count and confidence unmoved.**
 - **BRK-26 (first SEC enforcement FILING, 12/31, 55% HELD):** mechanism hardened again (Delaware Life distribution pause; SEC v. Chu charges three named Tricolor execs — ⚠️ **Tricolor is ABS, not PC valuation/disclosure, and does NOT grade BRK-26**). **NO CHARGES on any PC-valuation matter. Threshold unmet.**
 
-### 5. TRIGGER LADDER (migrated from the FROZEN `trade/TRADE.md` §9; BRK-25/BRK-26 cite it in `Action_If_Falsified`)
-📦 **Full 11-row table rotated VERBATIM 9/2 → `archive/STATUS_ROTATED_2026-09-02.md` § "EXIT RULES §5 TRIGGER LADDER". Every row's live status is already carried in §1–§4 above; nothing was dropped, and the citation target still resolves.**
-📦 **§5 state paragraph (9/2: 2 of 11 FIRED, both reviewed and closed) ROTATED VERBATIM 2026-09-18 → `archive/STATUS_ROTATED_2026-09-18.md`.** Both fired rows' LIVE status is carried in §1–§4 above, per the line immediately preceding — nothing was dropped.
+### 5. TRIGGER LADDER — rotated (full table + state paragraph: `archive/STATUS_ROTATED_2026-09-02.md` / `_2026-09-18.md`; pointer text in `catchups/2026-10-02.md`). Live status of every row is in §1–§4.
 
 ### THESIS-KILL DECISION TREE — STEP 2 substance check: **RUN 2026-08-28, 0 of 3 REVERSED**
 STEP 2 needs 2 of 3 reversals to override. ① BCRED gate + NA declining — ❌ (first-ever 5% gate; Q3 cap held; 8/28 primary: NA 2.4→2.2% but distribution CUT 10% and NAV −2.23%). ② FSK/OBDC Q2 NA reversing — ❌ (FSK NAV −2.81%, FV/Cost .9171→.9059; OBDC −1.04%). ③ OTF software-exit — ❌ not observed. **⇒ 0/3, substance does not override.** ⚠️ STEP 2 applies only once the literal trigger fires (0/10 <260 — authorises nothing either direction).
