@@ -75,3 +75,8 @@ WILL/trading-journal/
 # lives in PROME/MACHINE_LOCAL.md per the gitignored-AND-boot-surfaced pairing rule.
 WILL/private/
 *.pkl
+
+# Spawn slate: regenerated per gate run (boot and closeout) by PROME/tools/spawn_slate.py
+# (DAEDALUS 2026-10-02). Advisory view, state-local; forensic reconstruction via re-run
+# at the dated commit — nothing is lost by not tracking the snapshot.
+PROME/state/SPAWN_SLATE.md

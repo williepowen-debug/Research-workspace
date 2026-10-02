@@ -1474,6 +1474,14 @@ def mode_boot(advance_board=True):
                [sys.executable, "PROME/tools/spawn_list.py", "--horizon", "0"],
                "DARK ⇒ ListAgents same minute → Tier-1 spawn (cap 4/boot) or doorbell a live desk; "
                "ACTIVE ⇒ read the owner's artifact first (receipt gap); WILL ⇒ queue; PROME ⇒ do it")
+    # DAEDALUS 2026-10-02 (Will-commissioned via PROME DAEDALUS packet 3892a8e40): spawn slate built
+    # on spawn_list.render(). The ANSWERED/PARTIAL class the brief asked for FAILED its independent
+    # read (BRENT and MIDAS each asked their own packets for re-spawn ≥15:30 ET; v1 said ALREADY ANSWERED)
+    # and is WITHDRAWN. The tool now says only: RETURN FOUND (pointer, never a grade) · NO CITING RETURN ·
+    # UNCHECKED. SPAWN_SLATE.md is state-local (`.gitignore` entry); regenerated per gate run.
+    run_script(ADVISE, "spawn slate — prepared stanzas (advisory; RETURN FOUND is a pointer, not a grade)",
+               [sys.executable, "PROME/tools/spawn_slate.py", "--horizon", "0"],
+               "read the top block of PROME/state/SPAWN_SLATE.md, then only the stanzas you act on")
     presence_cmd = [sys.executable, "PROME/tools/session_presence.py"]
     if SESSION_JSON:
         presence_cmd += ["--sessions-json", str(SESSION_JSON)]
@@ -1501,6 +1509,9 @@ def mode_closeout(tier=None):
                [sys.executable, "PROME/tools/spawn_list.py", "--horizon", _gap, "--tsv"],
                "LANDS-IN rows with a dark owner ⇒ SLATE them in the closeout report (the spawn waits for the first "
                "boot on/after the date, or Will's word from the slate); DARK ⇒ act before going dark")
+    run_script(ADVISE, f"spawn slate — closeout stanzas (horizon +{_gap}d, advisory)",
+               [sys.executable, "PROME/tools/spawn_slate.py", "--horizon", _gap],
+               "read the top block of PROME/state/SPAWN_SLATE.md, then only the stanzas you act on")
     guard(check_will_queue)
     run_script(ADVISE, "willq_view drift (SCRATCH Pending-Will block vs WILL_QUEUE OPEN)", [sys.executable,
                "PROME/tools/willq_view.py", "--check", "PROME/SCRATCH.md"],
