@@ -60,6 +60,7 @@ Session: **2026-10-02 Fri, Claude Opus 5.5 as WALTER (`walter-61`, desktop)**: n
 
 1. **WQ-369**: should an IMMEDIATE in a dark desk's own theater authorize one bounded spawn (above the cap / Tier-2)? WALTER has a stake in a yes (disclosed).
 2. **OTIC population question** (via PROME): BROCK recommends DECLINE adding OTIC to GATE-BRK-R2 (post-data change).
+2b. 🆕 **X intake pilot (evening, proposal only):** `research/2026-10-02_x-intake-pilot-plan.md`. Bookmarks-first (~$1–2/mo, official API); Will decides app + ~$10 credit, IDs-only storage, next-launch trigger. Nothing built.
 3. Carried: lane cadence (DOCKET L536, OPEN DESIGN (a)) · WQ-252 sitting 10/06 · CATO registration (WQ-255) · HAWK F1/F2 CHECKLIST proposal (owed by WALTER, RULE 8).
 
 ## FOLLOW-UP
