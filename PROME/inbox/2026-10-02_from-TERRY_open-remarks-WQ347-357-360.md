@@ -82,14 +82,17 @@
 
 ---
 
-## Inbox
+## Inbox and records (after delivery, 09:50–09:53 ET)
 
-HENRY's pre-open gamma packet: read. It's an SPX-only measurement; QQQ dealer gamma isn't measured. Noted against item 1, no action. It'll be filed to `processed/` at the housekeeping commit.
+- **HENRY packets:** pre-open (superseded) and post-open (09:48: SPX gamma POSITIVE above an unchanged flip ~7,696, meaning dealers dampen moves; QQQ gamma not measured). Both read in full, logged in `board_log.tsv`, filed to `processed/`. The post-open read **supports the SELL lean on the 740s and 735s**: the only path that pays them is a sharp fall, and dealer dampening makes that less likely (INFERRED). Note that QQQ $740 maps to roughly SPX 7,650, which is below the flip.
+- **FORGE D-68:** the card, INDEX and STATUS were already corrected on 10/1 (`5ce609f80`). The last uncorrected piece of the `ee04fbb26` record was the notes cell on `PAPER_BOOK.tsv` row PB-0002b ("CLOSED AT EXPIRY … ≈ −$103.33"). It now reads SOLD TO CLOSE, ≈ −$84.53, with the old text struck through.
+- **FORGE D-71:** on `MGMT-QQQ740P-OCT01` and INDEX, the exit of the four Oct-01 740 puts is now **UNKNOWN / UNBOOKED, pending Will's Activity view**. The +$22.75 figure stays visible as PROME's inference only, and the derived −$747.91 (on the four) and +$142.44 (whole nine-contract line) are withdrawn. TERRY's 10/1 STATUS block still carries them, and today's STATUS block supersedes it.
+- **Checks:** ledger sweep CLEAN (A–H), inbox at zero, claim_check clean, orphan check clean, read-cap rc=0. No BOARD scan was run beyond `boot.py` (0 unlogged action-line signals).
 
 ## COMPLETION — TERRY — 2026-10-02
-STATUS: ⚠️ PARTIAL (items 1–5 re-marked; card addenda and FORGE D-68/D-71 housekeeping follow)
-CHANGED: PROME/inbox/2026-10-02_from-TERRY_open-remarks-WQ347-357-360.md
-RESULT: At 09:47 (yfinance screening; both feeds dark at the open). 740P×4 bid 0.24 ⇒ ≈$93 net, lean SELL NOW; Oct-09 roll $3.38/ct ≈$1,352. WQ-357: 82P bid 3.95 = intrinsic, time value ≈$0 ⇒ green-day sale is a legitimate root rule #6 break; exit ≈$815, lean A. WQ-360: E-2–E-7 MET, E-1 (Will) not; letter picks the 78P at $491.30 (exactly the cap), not the 77P ($397.30). 735P×5 lean SELL today ($272); USO 150C hold for BRENT.
-GAPS: The option quotes may be up to ~15 min old (latest trades 09:30–09:32), and the 82P quote is weak (last trade 10/1, flagged). Fidelity's own bid governs.
-WILL_NEEDS: WQ-347 sell/roll by 15:00 · WQ-357 A/B/C · WQ-360 approve/reject (and if approve, 77P or 78P) · 735P by Mon 15:00.
-FOLLOW-UP: TERRY adds card addenda; FORGE D-68/D-71 records; HENRY's post-open gamma packet when it lands.
+STATUS: ✅ DONE
+CHANGED: this memo; AGENTS/TERRY/setups/{QQQ740P_oct02,QQQ735P_oct05,DURATION-SHORTS_exit,TLT_dec18-77P,USO150C-KRE65P,QQQ740P_oct01}*.md, setups/INDEX.md, PAPER_BOOK.tsv, STATUS.md, board_log.tsv, inbox→processed ×2
+RESULT: As of 09:47–09:50 (screening quotes): 740P×4 bid 0.24→0.14, lean SELL NOW (Oct-09 roll ≈$3.0–3.4/ct). WQ-357: 82P time value $0.00–0.03 ⇒ the green-day exit is a measured root rule #6 break, ≈$815–824, lean A. WQ-360 meets E-2–E-7, but E-1 (Will) is not met, and the strike flips between 77 and 78 at TLT $78. 735P×5: SELL (today). USO 150C: no action. D-68 PB-0002b fixed; D-71 → UNKNOWN.
+GAPS: Option quotes may be up to ~15 min old (both feeds were dark until 09:47); the 82P quote is weak. Fidelity's bid governs. Positions as of the 10/1 capture. KRE 65P not re-read.
+WILL_NEEDS: WQ-347 sell/roll by 15:00 today · WQ-357 A/B/C · WQ-360 approve/reject (name 77P or 78P) · 735P by Mon 15:00 · his 10/1 Activity view (D-71).
+FOLLOW-UP: Book Will's 10/2 fills into the cards once FORGE reconciles; Monday pre-open re-mark of the 735P (fresh gamma board from HENRY).
