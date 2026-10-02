@@ -91,13 +91,13 @@ Session: **2026-10-02 Fri, Claude Opus 5.5 as WALTER (`walter-61`, desktop)**: n
 ## CLOSEOUT RECEIPT
 
 **Issued at the 10/02 PM Tier-2, before the closeout commit.**
-- **10/02 handoffs: 132 written, 120 on origin** (the 12 from `-030`…`-033` are committed locally, pending PROME's push; reconcile after push) (fresh fetch 20:4xZ, 0/0; `reconcile_delivery_log.py --apply`). Delivered is not consumed.
+- **10/02 handoffs: 132 written, 128 on origin** (PROME's push carried `-030`…`-032`; the 4 from `-033` are committed locally, pending PROME's push; reconcile after push) (fresh fetch 20:4xZ, 0/0; `reconcile_delivery_log.py --apply`). Delivered is not consumed.
 - ⚠️ **This receipt does NOT claim:** that recipients consumed the handoffs (BRENT, FALCON, BROCK and HANS are known to have consumed some); that FT/Bloomberg/TD/Blue Owl letters were read at primary; that boot_basis was re-reviewed; that this closeout commit has reached origin.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-02T21:05:38+00:00",
+  "as_of": "2026-10-02T21:14:26+00:00",
   "publication": [
     {"commit": "42a5b3bf9", "state": "published"},
     {"commit": "fa75c0a33", "state": "published"},
@@ -108,7 +108,7 @@ Session: **2026-10-02 Fri, Claude Opus 5.5 as WALTER (`walter-61`, desktop)**: n
   "delivery": {
     "signal_date": "20261002",
     "total": 132,
-    "delivered": 120
+    "delivered": 128
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
