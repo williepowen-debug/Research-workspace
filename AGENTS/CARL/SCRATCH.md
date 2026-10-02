@@ -2,7 +2,12 @@
 **Last session:** 2026-10-01, ~16:15–16:45 UTC (12:15–12:45 ET), PROME due-row spawn (prome-0c, WQ-184, Will "spawn the slate" 12:13 ET)
 **Type:** L0 inbox drain (18 → 0, incl. DEWEY's DR-3) + STUE rows L152/L153 + overdue items, then a FULL closeout on Will's word (12:52 ET). No score change (53/70, v2.6.6). Ledger events: CRL-08 graded MISSED (7/06 fire, 28%); CRL-27 → CRL-31; DR-3 scored, kill not fired; CRL-17 forced call → NO-VERDICT-BY-INSTRUMENT (contestable, sent to DAEDALUS).
 
-**PRIORITY-1:** **Fri 2026-10-02, after 08:30 ET:** grade the V16 drop-back branch on the September NFP using the outcome map PRE-REGISTERED on `docket/CATALYSTS.tsv` (10/02 row). A = 4→3 CANDIDATE to Will, never executed by CARL. An exactly-zero net revision FAILS CARL's letter, though it would pass LABOR's.
+**PRIORITY-1:** **Mon 2026-10-05 THESIS-SCOPE REVIEW** (agenda under UPCOMING). V16 is DONE for this cycle: graded 10/02, NOT satisfied (outcome C), count 0 of 2, V16 holds 4; next V16 row = October NFP Fri 11/06.
+
+## 10/02 SESSION (prome-70 due-row spawn, 08:30-08:45 ET) — appended; the 10/01 record below is unchanged
+- **V16 drop-back graded, print 2 of 2:** Sept NFP S=+29K, net Jul+Aug revision R=−60K (Jul +21K→−10K, Aug +162K→+133K) [BLS USDL-26-1549, 10/02]. Outcome C → NOT satisfied, count 0 of 2, V16 holds 4, score 53/70 unchanged. No ambiguity: cumulative reading (+55K−60K=−5K) fails too. KB-CARL-503; CHANGELOG 10/02; 10/02 docket row pruned, 11/06 row added.
+- **Inbox drained 3 → 0:** DAEDALUS CRL-17 NO-VERDICT stands (no action; CRL-16/17 class-count wording reconciliation is optional, NOT done) · PROME WQ-295 → B ADOPT bare `when:7d "MOHELA"`, C DECLINE both (packet `PROME/inbox/2026-10-02_from-CARL_lane-queries-B-C-adopt-decline.md`) · WALTER doctor reads `board_log_archive*.tsv` → **board_log rotation UNBLOCKED, owed at the next full closeout** (name the archive `board_log_archive_<period>.tsv`).
+- **NOT done this session:** STUE ES-01/04/06 10/02 row (STUE dark — flagged to PROME, not spawned); Table B-1 industry lines (bls.gov table pages 403); full closeout steps (spawn scope; PROME pushes).
 
 ---
 

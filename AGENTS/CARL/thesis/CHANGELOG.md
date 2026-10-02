@@ -8,6 +8,17 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-10-02 — V16 DROP-BACK BRANCH GRADED: NOT SATISFIED, count 1→0 of 2 (no version bump, no score change)
+
+**What:** print 2 of 2 of V16's drop-back-to-3 branch, letter *"NFP positive WITH net up-revisions for 2 consecutive prints"* (THESIS matrix COL7; ratified as written WQ-182, 2026-09-10).
+**Inputs, as first published 10/02** [BLS USDL-26-1549, Employment Situation September 2026, rel 2026-10-02 08:30 ET; extract `domain/sources/2026-10-02_USDL-26-1549_V16-grade-extract.txt`]: S = Sept headline +29K. R = net Jul+Aug revision stated in the release: July +21K→−10K (−31K) + August +162K→+133K (−29K) = **−60K** ("employment in July and August combined is 60,000 lower than previously reported").
+**Grade:** outcome **C** of the map pre-registered 2026-10-01 12:24 ET on `docket/CATALYSTS.tsv` (S>0 AND R<0) → **NOT satisfied; count resets to 0 of 2; V16 holds 4; no candidate to Will.** Escalate-to-5 stays 0 of 2 (Sept positive).
+**Ambiguity check:** none on this print. "Positive" is met (+29K). "Net up-revisions" fails on the per-print reading (R=−60K) and on any cumulative reading across the two prints (+55K on 9/4, −60K on 10/02 = −5K). The R=0 letter gap did not arise.
+**Annotation only (WQ-175 ②):** July has now printed −23K (8/7), +21K (9/4), −10K (10/02). August's print-1 status was fixed at its 9/4 vintage; today's −29K revision to August re-counts nothing, and the reset comes from print 2's own R.
+**Old → new:** drop-back 1 of 2 → 0 of 2. Score 53/70 unchanged. Next dated row: October NFP Fri 2026-11-06 (earliest new print 1).
+
+---
+
 ## 2026-10-01 (3) — CRL-17 FORCED CALL: NO-VERDICT-BY-INSTRUMENT (not scored)
 
 The 8/15 trim pre-registered a forced call at the window end (9/30): *"resolve MISSED or UNRESOLVABLE on the record, do NOT roll."* Written 2026-10-01 12:54 ET (one day late; CARL was dark 9/30). **UNRESOLVABLE → `NO-VERDICT`, excluded from Brier.** The instrument is "CARL composite estimate", which is not a published series. A dated web search on 10/01 found no dollar measure of small-business owner income, and grading against CARL's own estimate would be circular.

@@ -3,7 +3,7 @@
 **Status:** 🔴 53/70 unchanged. Fuel pressure eased at the margin (GASREGW posted its first weekly decline since at least 8/31) while the lower-quality credit split kept widening. BEA's annual update made the aggregate saving cushion larger than logged; who holds it is unknown.
 **Domain:** U.S. consumer financial stress and downstream household transmission; bank-level credit belongs to REGINALD.
 **Thesis version:** v2.6.6
-**As of:** 2026-10-01 12:58 ET | **STATUS commit:** the 10/01 full-closeout commit (same commit as this brief; prior `6b8ebb5c4`) *(10/01 PROME due-row drain; prior full refresh 9/24, `domain/sources/2026-09-24_data-catchup.md`)*
+**As of:** 2026-10-02 08:34 ET | **STATUS commit:** the 10/02 V16-grade commit (same commit as this brief; prior = the 10/01 full-closeout commit) *(10/01 PROME due-row drain; prior full refresh 9/24, `domain/sources/2026-09-24_data-catchup.md`)*
 **Position:** No real capital authority; paper sleeve unchanged except PS-0001..0005 re-pointed CRL-27 → CRL-31 (record-keeping, no capital). Structural references only, no marks.
 
 ## CROSS-DOMAIN
@@ -15,7 +15,7 @@
 | PROME (sent 10/01) | CRL-08 graded MISSED at its 7/06 fire (28%); CRL-27 → CRL-31; STUE rows L152/L153 read; DR-1 card leg requested; cadence WEEKLY | 🟠 | Ledger events forced by WQ-288/WQ-287. The card-leg commission is PROME's to route (Tier 1). |
 | DAEDALUS (sent 10/01) | CRL-17 forced call → NO-VERDICT-BY-INSTRUMENT (no published dollar series); forfeits a possible miss (Brier 0.3025 at 55%) | 🟠 | Scoreboard owner rules whether the token stands. |
 | HOMER (sent 10/01, `d9d9eeede`) | 3c handle: V10↔C1+A1 confirmed; V3 re-scope decided 10/05; R3 candidate | 🟡 | HOMER builds 3c by 10/09 with the CARL side labelled. |
-| LABOR (via the docket) | V16 outcome map pre-registered for the 10/02 NFP; R=0 exactly FAILS CARL's letter but passes LABOR's v8 leg | 🔴 | Two different tests on one print; never read as one. |
+| LABOR (via the docket) | V16 graded 10/02 on the pre-registered map: outcome C (S=+29K, R=−60K), count 0 of 2; LABOR grades its own letters off the same print | 🟠 | R<0, so the R=0 letter gap did not arise. Two tests on one print; never read as one. |
 | LIQUID / REGINALD | HY 312bp (9/30); CCC 1,157bp (9/29), the FRED-window high; widening reached B | 🟠 | The quality split is still widening; broad HY sits under REGINALD/RED's >320 sustain-3 bars. |
 | RED (staged in `handoff_RED/COUNTER_LOG.md`) | Saving rate re-based Jul 3.0 → 4.6%; MARCO voter-reg half relabelled NEUTRAL | 🟠 | Aggregate counter-evidence to broad fragility. The cohort holding the savings is unidentified. |
 
@@ -23,7 +23,7 @@
 
 | From | Input | Expected by | Why it matters | How it changes my view |
 |---|---|---|---|---|
-| LABOR / BLS | September NFP + net Jul–Aug revisions | Fri 10/2 08:30 | V16 drop-back print 2 of 2 | A (S>0, R>0) → 4→3 candidate to Will; anything else resets the count. |
+| LABOR / BLS | October NFP + net Aug–Sep revisions | Fri 11/6 08:30 | V16 drop-back count restarts (earliest print 1 of 2) | S>0 AND R>0 → 1 of 2, no candidate yet; anything else stays 0 of 2. |
 | DEWEY | DR-1 card leg (FDM tables) | proposed 11/13 | DR-3 is done: SCORED 10/01, kill NOT fired (trade-down half restored after style factors; premium leg UNRESOLVED, a tie and window-unstable, per RED 10/01, adopted) | Card-leg wedge vs the 50bps kill. |
 | PROME / DEWEY | DR-1 card leg (issuer FDM tables) | proposed 11/13 | DR-1 PARTIAL until a private leg lands | Wedge vs the 50bps class-wide kill. |
 | FSA | Data Center refresh with 9/30 data | ~mid/late Dec (inferred) | First public proxy for CRL-13 (a stock, not a wave rate) | Non-selection read; RAP enrollment. |
@@ -50,14 +50,14 @@
 
 ## NEXT DECISION POINT
 
-- **What / when:** Fri 10/2 NFP → V16 branch grade on the pre-registered map; Mon 10/5 thesis-scope review (V3 re-scope, five UNREVIEWED releases, saving-rate re-base).
-- **What changes the view:** V16 4→3 is a candidate to Will only under outcome A. A V2 downgrade still needs two qualifying collection months in both tiers.
+- **What / when:** V16 graded 10/02 (NOT satisfied, 0 of 2, holds 4 — USDL-26-1549: Sept +29K, Jul+Aug revised −60K); Mon 10/5 thesis-scope review (V3 re-scope, five UNREVIEWED releases, saving-rate re-base).
+- **What changes the view:** V16 4→3 needs two new consecutive positive-with-up-revision prints, the earliest pair Nov 6 + Dec release. A V2 downgrade still needs two qualifying collection months in both tiers.
 
 ## WATCH (next 2–4 weeks)
 
 | Date | Event | Threshold / signal |
 |---|---|---|
-| 10/2 | September NFP | V16 drop-back 2 of 2 (map on CATALYSTS) |
+| 11/6 | October NFP | V16 drop-back count restarts (0 of 2 after 10/02) |
 | 10/5 | **Thesis-scope review** | Broad fragility vs bottom-tier credit; structural change → Will |
 | 10/14 | September CPI; AFT v. ED status conference | CRL-10 food (beef, diesel freight deferrals); SAVE backlog figure? |
 | 10/15 | September retail sales | Spending response |
