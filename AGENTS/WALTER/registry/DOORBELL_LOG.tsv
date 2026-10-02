@@ -303,3 +303,5 @@ date	desk	sig_id	referent	gate	doorbelled	disposition	yield_at_doorbell	drained	
 2026-10-02	VULCAN	SIG-W-20261002-024	none	P0 PASS (not in ORCH_INFLIGHT 19:58Z) / L1 UNKNOWN / L2 PASS / L3a FAIL / L3b FAIL (PRIORITY)	NO	named in the FYI to prome-96				Will link; STX/WDC -10%
 2026-10-02	VULCAN	SIG-W-20261002-024	none	DISPOSITION update (prome-96 ~20:0xZ)	SPAWNED by PROME	PROME spawning VULCAN for its post-close L564 slot; -024 consumed in its drain				
 2026-10-02	FALCON	SIG-W-20261002-025 / -026	none	DISPOSITION update (prome-96 ~20:0xZ)	NO (not re-woken)	falcon-1002 idle; Monday boot consumes from inbox (WALTER said 'Monday wake is fine')				
+2026-10-02	BOND	SIG-W-20261002-028	none	IN-FLIGHT/idle in PROME (bond-1002b; PROME re-pinging BOND for the official curve)	RELAYED via PROME	FYI to prome-96				ROUTINE
+2026-10-02	BRENT	SIG-W-20261002-028	none	LIVE brent-08	DIRECT SendMessage					ROUTINE
