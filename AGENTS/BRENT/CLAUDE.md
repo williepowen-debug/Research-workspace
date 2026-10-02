@@ -174,7 +174,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 - Energy credit: HY energy OAS, E&P debt stress, energy-specific credit
 - Refinery operations: turnaround schedules, utilization rates, product yield
 - Two-phase oil thesis: squeeze timing → flush timing
-- **Positions:** [TRADE.md](TRADE.md) owns the current leg set, receipts and approvals; position truth remains off-repo with Will/broker. September16 screenshot added a same-day call to the USO shares; subsequent status is UNKNOWN. Do not carry the superseded “one open oil expression” inventory. **STNG is tracked, never owned** (Stage-A tanker-liveness composite). Historical correction record: [RULINGS](RULINGS.md) § R-2026-08-04-positions; pre-reconciliation prose: [before-image](research/2026-09-16_cross-war-oil/before/CLAUDE.md). No marks or dollar totals here.
+- **Positions:** [TRADE.md](TRADE.md) owns the current leg set, receipts and approvals; position truth remains off-repo with Will/broker. **No leg list is kept here; read TRADE.md § POSITIONS (a copy in this file went stale once: the September 16 line, removed 2026-10-02 with Will's OK).** **STNG is tracked, never owned** (Stage-A tanker-liveness composite). Historical correction record: [RULINGS](RULINGS.md) § R-2026-08-04-positions; pre-reconciliation prose: [before-image](research/2026-09-16_cross-war-oil/before/CLAUDE.md). No marks or dollar totals here.
 - **Research:** US-listed beneficiaries of sustained high oil (E&P, services, infrastructure)
 
 **You do NOT own:**

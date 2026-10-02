@@ -1,12 +1,12 @@
 # BRENT TRADE.md — domain trade surface
 
-**Updated: 2026-10-01 13:2x ET (PROME packet 2026-10-01, D-70: 159C outcome + 150C partial). Last real data refresh: 2026-10-01**, from the canonical mirror, not a broker view: `FORGE/STATUS.md` (ANVIL **9/30 post-close reconcile `33bc8c293`** + ANVIL **10/1 intraday reconcile `dac72b4ae`**, both from PROME's transcriptions of Will's Fidelity captures). **Broker truth stays off-repo. FORGE marks are 10/1-intraday vintage; never cite them as live (root rule #4).** No order, no recommendation, no rule change is made here. *(Prior: 2026-09-28 ~18:3x Will-approved cleanup, before-image preserved.)*
+**Updated: 2026-10-02 14:07 ET (BRENT file sweep: mirror vintage re-checked; holdings unchanged; stance heading v5.9→v5.11). Last real data refresh: 2026-10-01**, from the canonical mirror, not a broker view: `FORGE/STATUS.md` (ANVIL **9/30 post-close reconcile `33bc8c293`** + ANVIL **10/1 intraday reconcile `dac72b4ae`** + ANVIL **10/1 end-of-day reconcile `d97eba708`**, which leaves every BRENT line as below: USO 37 sh, VLO 1 sh, USO Oct-09 $150C ×1; no 10/2 capture yet, both from PROME's transcriptions of Will's Fidelity captures). **Broker truth stays off-repo. FORGE marks are 10/1-intraday vintage; never cite them as live (root rule #4).** No order, no recommendation, no rule change is made here. *(Prior: 2026-09-28 ~18:3x Will-approved cleanup, before-image preserved.)*
 
 > ⚖️ **WITH WILL NOW:**
 > - **USO Oct-09 $150C ×1 expires Fri 10/09.** Will's hand; **his standing practice is SELL-OR-ROLL before expiry** (`USER.md`, 9/30 19:03 ET). TERRY card `MGMT-USO150C-OCT09` (`5ce609f80`, written on ×2 — D-70) carries the rail *"Hard stop Fri 10/09 15:00 ET"*; no harvest rule registered. ⚠️ WQ-297 A ties it to the USO stock line (one oil bet) — PROME's read, not adjudicated.
 > - **Held VLO share:** exit rule **`GATE-TERRY-VLO-HELD-01` REGISTERED 9/28 18:36 ET** (WQ-330, Will "both"): leg A Nov crack settlement < $90.16 ⇒ SELL rec · leg B1 a signed US distillate export-restriction text ⇒ SELL. TERRY grades; Will executes. Letter: `PROME/GATES.tsv`.
 
-## CURRENT STANCE (v5.9 refinement; prior calibration retained)
+## CURRENT STANCE (THESIS v5.11; v5.8 numerical calibration retained)
 
 Thesis and calibration: `thesis/THESIS.md`. **WQ-189/192 STAND DOWN; no live deploy gate or discretionary arm.** Confirmed-destroyed-capacity frame-breaker handling (BG-02) stays binding; a quote or source failure does not meet it. Market evidence: `setups/2026-09-08_market-docket-owner-read.md`. Current policy risk to the refiner leg (US diesel export restriction, live talk, no order): [`research/2026-09-28_us-diesel-export-ban-risk.md`](research/2026-09-28_us-diesel-export-ban-risk.md). §3 there is sensitivities only; grade nothing from it.
 
@@ -33,7 +33,7 @@ Thesis and calibration: `thesis/THESIS.md`. **WQ-189/192 STAND DOWN; no live dep
 
 ## POSITIONS (live)
 
-*Refreshed 2026-10-01 from FORGE (`dac72b4ae`); broker truth off-repo. ⚠️ Keep the heading above exact: `scripts/pending_receipts.py` matches it literally and fails closed without it (renamed 9/28 → boot could not certify until the 9/30 restore, PROME packet 2026-09-29).*
+*Refreshed 2026-10-01 from FORGE (`dac72b4ae`; re-checked 2026-10-02 against the 10/1 end-of-day reconcile `d97eba708`: no BRENT line changed); broker truth off-repo. ⚠️ Keep the heading above exact: `scripts/pending_receipts.py` matches it literally and fails closed without it (renamed 9/28 → boot could not certify until the 9/30 restore, PROME packet 2026-09-29).*
 
 | Position | Account | Status (source) | Existing rule / owner |
 |---|---|---|---|
@@ -52,7 +52,7 @@ Thesis and calibration: `thesis/THESIS.md`. **WQ-189/192 STAND DOWN; no live dep
 
 | ID | Fact | Owner / route |
 |---|---|---|
-| — | **Current state of every line since the 10/1 ≤12:24 ET capture.** Marks are intraday, capture clock not shown; Robinhood not captured 9/30 or 10/1 | Will's next broker view → PROME/ANVIL |
+| — | **Current state of every line since the 10/1 post-close capture (posted 16:15 ET, FORGE `d97eba708`).** Includes whether the USO 150C was sold 10/2 (TERRY lean SELL today, WQ-366). Capture clock not shown; Robinhood not captured 9/30 or 10/1 | Will's next broker view → PROME/ANVIL |
 | — | Fill TIMES of the 9/30 159C sale, the 9/30 150C buy and the 10/1 150C sale (no Fidelity view shows them) | Will, low priority |
 | D-60 | Fidelity expiry-day "OPTION LIQUIDATION" rows: mechanism (moot for the 159C — sold before expiry) | Will / Fidelity |
 | D-55 | VLO fill time (date 9/18 known) | Will, low priority |
