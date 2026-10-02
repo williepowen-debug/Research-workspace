@@ -3,6 +3,15 @@
 **Owner:** PROME. Rendered by `PROME/tools/will_handbook.py` (regenerated at Standard+ closeouts alongside the brief and dashboard). The live sections on the page — Waiting on you · The clock — are GENERATED from WILL_QUEUE/DOCKET via the brief's own parsers and are never written here. **This file is the manual + the curated priorities. Plain language; every claim dated; update when a convention changes, not per-session.**
 
 ## Top priorities
+*(Reconciled 2026-10-01 20:1x ET at the `prome-2f` Standard closeout on the desktop, against `WILL_QUEUE.md` § OPEN and RECENTLY DONE, `DOCKET.tsv` and the 10/1 post-close mirror; the blocks below it are earlier and stay as dated history.)*
+- **Yours Friday before 3:00 pm (WQ-347):** four new QQQ Oct-2 740 puts expire Friday; the jobs report is at 8:30 am. Sell or roll; TERRY leans sell in the first hour. Held below 740 at the close they become a 400-share short over a weekend.
+- **Yours Friday (WQ-357):** BOND's exit test on the duration shorts was met at the 4:15 pm dealer print ($60.079 billion against the $56.586 billion bar). Approve or decline exiting the TLT 82 put and the 10 TBT shares; TERRY leans sell both. The case against: dealers' longer-bond holdings fell on the same report.
+- **What changed today:** the account closed at $36,077.04, down $368.56; oil rallied (USO +3.0%, VLO +5.3%, by vendor prices) with no owner explanation yet; a vendor read put the yen above September's rate-check level, ungraded; LIQUID's credit-spreading test had fired on Wednesday's print.
+- **Closed today:** WQ-279 (you read the rent-freeze docket: no stay through 10/1, the case is live) · WQ-356 · WQ-351. WQ-339 stands down on its own rule; your word closes it.
+- **New decisions:** WQ-357 (above) · WQ-358 by 10/15 (two readings of DAEDALUS's maturity ladder) · WQ-353 and WQ-355 by 10/6 · WQ-352 and WQ-354 by 10/9.
+- **Friday 10/2 also:** WQ-301 · WQ-350 · WQ-348 · the two GitHub tokens (WQ-187/204) · the spine audit.
+- **Your hands, when convenient:** the Fidelity Activity view for 9/29 to 10/1; it books the exit of the four Oct-1 puts and explains $53.54 of cash.
+- **Withheld:** LIQUID's dollar-funding measure, until its fix and last review on 10/7.
 *(Reconciled 2026-10-01 14:29 ET at the `prome-0c` Standard closeout on the desktop, against `WILL_QUEUE.md` § OPEN and RECENTLY DONE, `DOCKET.tsv` and the 10/1 intraday mirror; the blocks below it are earlier and stay as dated history.)*
 - **Yours today, before 3:00 pm (WQ-347):** four QQQ Oct-1 740 puts are left after you sold five this morning. Sell at Fidelity's bid or roll; TERRY leans sell. Held below 740 at the close they become a 400-share short the IRA cannot carry.
 - **What changed today:** LIQUID's credit-spreading test fired on Wednesday's print (high yield 312, eight points under the 320 line); no capital path opens and the verdict on which kind of spreading comes 10/15–16. Europe's spreads widened across France, Italy and Spain with German yields falling. FALCON sees an unexplained heat source near Ghawar; a strike is not established.
