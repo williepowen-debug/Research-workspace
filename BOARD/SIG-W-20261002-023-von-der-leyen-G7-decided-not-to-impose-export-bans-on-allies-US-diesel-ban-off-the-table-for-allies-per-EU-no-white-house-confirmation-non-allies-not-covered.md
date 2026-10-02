@@ -14,6 +14,8 @@ confidence_language: "reports"
 signal_type: context
 safety_net: clear
 verdict: "Answers -009's open item (did the US drop its diesel export-ban threat?), PARTLY. EU Commission President von der Leyen on X 10/02: 'We welcome the decision of G7 countries not to impose any export bans on allies.' Reported as the ban being off the table for Europe after the G7 100M bbl release. NOT confirmed by the White House: NBC's G7 story still has Trump 'openly considering' a ban, and nothing withdraws it for NON-allies. Goldman (Reuters headline) says Latin America is most exposed to any ban."
+status: PARTIALLY-CORRECTED
+status_ref: "SIG-W-20261002-027 (2026-10-02) - Latin America is NOT established as non-allies: allies is undefined (Mexico/USMCA may count); the ~half of US distillate exports outside Europe may or may not be covered. Off-the-table-for-allies-per-EU and no-White-House-confirmation stand."
 precedence: PRIORITY
 action: ["BRENT"]
 info: ["HANS", "HAWK", "HENRY", "CARL", "TERRY", "RED", "PROME"]
