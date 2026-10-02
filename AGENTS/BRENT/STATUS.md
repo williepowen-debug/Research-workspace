@@ -61,16 +61,16 @@
 
 | Date | Release | Priority |
 |------|---------|----------|
-| **~Mon Aug 17** ⌁*modeled* | CPC understanding — historical test UNRESOLVED; cargo/source coverage required | 🟠 |
-| **Mon Aug 24** | Treasury Operation Economic Outcast — announcement observed; operative-mechanism review PARTIAL | 🔴 |
+| **~Mon Aug 17** ⌁*modeled* | ✅ CPC understanding — GRADED 2026-10-02: CLOSED NO-VERDICT (window ended 8/17; breach-or-hold through 8/17 never establishable on the cargo-origin definition) | 🟠 |
+| **Mon Aug 24** | ✅ Treasury Operation Economic Outcast — GRADED 2026-10-02: ANNOUNCEMENT MET (treasury.gov sb0614); mechanism test (buyers/registries/STS hubs) CLOSED NO-VERDICT | 🔴 |
 | **~Sun Aug 30** ⌁*modeled* | Jazan August 30 modeled restart — actual restart UNRESOLVED | 🟠 |
 | **Tue Sep 1** | RUSSIA producer-direct carve-out — September 8 Q1 read UNKNOWN-AT-PRIMARY | 🔴 |
-| **~Tue Sep 8** ⌁*modeled* | L198 September 8 owner read — Sidi Kerir direction-only updated; PortWatch UNKNOWN / PENDING PUBLICATION | 🔴 |
-| **~Tue Sep 22** ⌁*modeled* | ATA truck tonnage AUGUST — first print fully carrying $6+ retail diesel | 🟡 |
+| **~Tue Sep 8** ⌁*modeled* | ✅ L198 September 8 owner read — GRADED 2026-10-02: CLOSED NO-VERDICT (① lag-test not runnable on matched weekly totals; ② PortWatch 8/31–9/1 rows never graded) | 🔴 |
+| **~Tue Sep 22** ⌁*modeled* | ✅ ATA truck tonnage AUGUST — GRADED 2026-10-02 14:10 ET: −1.6% y/y (index 112.7, −0.5% m/m; July revised 113.3) ⇒ INSIDE the band (not ≤−3% tell, not ≥0) — trucking NOT yet the destructio… | 🟡 |
 | **Fri Sep 25** | ✅ Petroline frame-breaker resolver WINDOW CLOSES 17:00 ET — BG-02 instance (4) — GRADED 2026-09-25 17:0x ET: NOT MET — LAPSED (premium, not destroyed capacity on the letter); closed, NOT… | 🔴 |
 | **Wed Sep 30** | ✅ XLE September 30 expiry — residual check — GRADED 2026-10-01: nothing residual (both 65C sold; last fill 9/11 @ $1.51, TRADE EXECUTION LOG) | 🟡 |
 | **Wed Sep 30** | ✅ RUSSIA PRODUCER DIESEL EXPORT BAN — current extension EXPIRES — GRADED 2026-10-01: EXTENDED to 10/31 (successor row 2026-10-31) | 🟠 |
-| **Thu Oct 1** | 🟠 EU STORAGE 80% FLOOR — DECISION DATE (binding 1 Oct-1 Dec window OPENS) | 🟠 |
+| **Thu Oct 1** | ✅ EU STORAGE 80% FLOOR — DECISION DATE — GRADED 2026-10-02 14:10 ET: window OPENED at 71.64% (gas day 9/30) ⇒ 8.36pp BELOW the 80% floor; lowest of 6 years for the date (5y min 74.71%) | 🟠 |
 | **Fri Oct 2** | ✅ EU ENERGY TASKFORCE — meets on a possible release of emergency DIESEL stocks (US pressing FR/DE for 120M bbl over 6 months, WALTER SIG-W-20261001-026) — GRADED 2026-10-02 09:3x ET: MET,… | 🟠 |
 | **Sun Oct 4** | 🟠 OPEC+ SEVEN-COUNTRY MONTHLY MEETING — the November 2026 production decision (successor to the 9/6 row) | 🟠 |
 | **~Mon Oct 5** ⌁*modeled* | 🟠 ARAMCO NOVEMBER OSPs — first monthly price signal set entirely under the Petroline shut | 🟠 |
