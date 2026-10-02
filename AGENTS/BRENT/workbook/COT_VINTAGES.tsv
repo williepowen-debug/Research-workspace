@@ -1,4 +1,4 @@
-# COT-FUEL-35B vintage ledger — one row per CFTC print of market 'WTI-PHYSICAL - NEW YORK MERCANTILE EXCHANGE' (code 067651), DISAGGREGATED FUTURES-ONLY. Seeded 2026-09-18 from the CFTC historical archive (fut_disagg_txt_2026.zip) for report_dates 2026-08-11..2026-09-08; live rows appended by scripts/cot_grade.py on every rc=0 grade. PURPOSE: the RE-ISSUE WATCH — cot_grade.py compares the live f_disagg.txt row for any report_date already here and flags a mismatch as 🔴 RE-ISSUE (a same-date restatement would otherwise be adopted silently). Last real data refresh: 2026-09-18
+# COT-FUEL-35B vintage ledger — one row per CFTC print of market 'WTI-PHYSICAL - NEW YORK MERCANTILE EXCHANGE' (code 067651), DISAGGREGATED FUTURES-ONLY. Seeded 2026-09-18 from the CFTC historical archive (fut_disagg_txt_2026.zip) for report_dates 2026-08-11..2026-09-08; live rows appended by scripts/cot_grade.py on every rc=0 grade. PURPOSE: the RE-ISSUE WATCH — cot_grade.py compares the live f_disagg.txt row for any report_date already here and flags a mismatch as 🔴 RE-ISSUE (a same-date restatement would otherwise be adopted silently). Last real data refresh: 2026-10-02 (9/29 vintage #8 appended 15:32 ET; header was stale at 9/18 while rows ran to 9/22)
 report_date	mm_short	mm_long	open_interest	oi_share_pct	source	recorded_at	note
 2026-08-11	110638	190554	1892429	5.8463	ARCHIVE fut_disagg_txt_2026.zip	2026-09-18	seed
 2026-08-18	108059	195538	1888960	5.7206	ARCHIVE fut_disagg_txt_2026.zip	2026-09-18	seed
@@ -7,3 +7,4 @@ report_date	mm_short	mm_long	open_interest	oi_share_pct	source	recorded_at	note
 2026-09-08	107229	218960	1939911	5.5275	ARCHIVE fut_disagg_txt_2026.zip	2026-09-18	seed
 2026-09-15	115617	221896	1955764	5.9116	LIVE f_disagg.txt	2026-09-18T15:30:53-0400	graded NO-VERDICT
 2026-09-22	121362	223190	1841811	6.5893	LIVE f_disagg.txt	2026-09-25T16:07:47-0400	graded NOT-SPENT
+2026-09-29	129436	209028	1878576	6.8901	LIVE f_disagg.txt	2026-10-02T15:32:26-0400	graded NOT-SPENT
