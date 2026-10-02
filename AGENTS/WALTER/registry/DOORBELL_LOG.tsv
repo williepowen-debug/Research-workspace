@@ -305,3 +305,4 @@ date	desk	sig_id	referent	gate	doorbelled	disposition	yield_at_doorbell	drained	
 2026-10-02	FALCON	SIG-W-20261002-025 / -026	none	DISPOSITION update (prome-96 ~20:0xZ)	NO (not re-woken)	falcon-1002 idle; Monday boot consumes from inbox (WALTER said 'Monday wake is fine')				
 2026-10-02	BOND	SIG-W-20261002-028	none	IN-FLIGHT/idle in PROME (bond-1002b; PROME re-pinging BOND for the official curve)	RELAYED via PROME	FYI to prome-96				ROUTINE
 2026-10-02	BRENT	SIG-W-20261002-028	none	LIVE brent-08	DIRECT SendMessage					ROUTINE
+2026-10-02	CORAL	SIG-W-20261002-030	none (monthly report; no DOCKET/GATES/expiry referent)	P0 PASS (not in ORCH_INFLIGHT IN-FLIGHT, re-read 21:02Z; not in ListAgents 20:5xZ; no foreign dirty files except WALTER's own handoff) / L1 PASS (last STATUS commit 2026-10-01 14:56 ET) / L2 PASS / L3a FAIL / L3b FAIL (dark ~1d, low-decay backdrop)	NO					ROUTINE
