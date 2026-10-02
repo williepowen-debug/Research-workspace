@@ -5,7 +5,7 @@
 
 ## CHANGES SINCE LAST SESSION (touch 3 ~21:5x ET 10/01 → touch 1 ~14:1x ET 10/02)
 - PROME-spawned Tier-2 bounded session: Will's "ok lets open up the rest of the agents you mentioned spawning earlier." Not Will-launched; spawned-mode discipline (no push, no pull on dirty tree).
-- 5 WALTER signals drained: -1002-003 Roosevelt relief + Makin Island +9-10K troops (noted); -1002-008 Houthi push on Taiz (noted); -1002-014 Yanbu port strike 10/01, projectile in port + fire near tank farm (acted); -1002-016 Yanbu correction, TERMINAL-WIDE suspension on stronger source (acted); -1002-017 UKMTO 147-26 = KAZIMAH III (KOTC VLCC) by trade press (acted). All five grade NOTED by letter — nothing fires.
+- 5 WALTER signals drained + 1 post-closeout-ask repair: -1002-003 Roosevelt relief + Makin Island +9-10K troops (noted); -1002-008 Houthi push on Taiz (noted); -1002-014 Yanbu port strike 10/01, projectile in port + fire near tank farm (acted); -1002-016 Yanbu correction, TERMINAL-WIDE suspension on stronger source (acted); -1002-017 UKMTO 147-26 = KAZIMAH III (KOTC VLCC) by trade press (acted); -1002-018 CORRECTION to -017: there WAS a new 10/02 1122Z Hormuz hit, unnamed outbound, afloat (acted, repair pass). All six grade NOTED by letter — nothing fires.
 - UKMTO 146-26 / 147-26 reconciled: 146 = AL RUWAIS (9/29 late report, by elimination); 147 = KAZIMAH III (10/01, 1750Z, named by trade press 10/02).
 - VI-2026-0042 identity UNIDENTIFIED → **KAZIMAH III** (Kuwait VLCC, KOTC); pattern-watch note: second KOTC VLCC in 4 days after AL FUNTAS.
 - KB-230..234; board_log ×5; inbox 5/5 `git mv`'d to `processed/`.
@@ -37,7 +37,7 @@
 1 OPEN (FAL-06, 70%, 2026-11-05). No trade (WQ-192 holds). No Will decision pending from this desk tonight.
 
 ## MAIL STATE
-Inbox 0 after the 10/02 drain (WALTER -003/-008/-014/-016/-017). Out: `PROME/inbox/2026-10-02_from-FALCON_l0-drain-ukmto-reconcile-yanbu-grade.md`.
+Inbox 0 after the 10/02 drain + -018 repair (WALTER -003/-008/-014/-016/-017/-018). Out: `PROME/inbox/2026-10-02_from-FALCON_l0-drain-ukmto-reconcile-yanbu-grade.md` + follow-up `SendMessage` to PROME with the -018 amendment line.
 
 ## PENDING PUSH / GIT
 Exact-path commits by this desk; **NO auto-push** (spawned-mode discipline — root CLAUDE.md §Git Protocol and FALCON's spawn boot card §4). Dirty tree still holds PROME/DAEDALUS paths — not mine.

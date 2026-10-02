@@ -182,3 +182,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-02T14:1x-04:00	SIG-W-20261002-014	acted	INBOX_WALTER	Yanbu port struck 10/01, trade press (Vanguard via Maritime Executive); terminal class OUT of production rung; KB-232
 2026-10-02T14:1x-04:00	SIG-W-20261002-016	acted	INBOX_WALTER	Yanbu correction: TERMINAL-WIDE suspension on stronger source; carry both versions; liftings unknown; KB-233
 2026-10-02T14:1x-04:00	SIG-W-20261002-017	acted	INBOX_WALTER	UKMTO 147-26 = KAZIMAH III (KOTC VLCC); VI-0042 updated; 2nd KOTC VLCC in 4 days; KB-234
+2026-10-02T14:4x-04:00	SIG-W-20261002-018	acted	INBOX_WALTER	CORRECTION to -017: new 10/02 1122Z Hormuz hit, unnamed outbound, afloat; VI-0043; KB-235; Panama-inbound watch

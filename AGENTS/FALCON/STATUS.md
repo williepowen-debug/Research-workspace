@@ -40,7 +40,8 @@
 | 10/02 | WSJ via relays: Roosevelt CSG + Makin Island ARG/13th MEU add 9-10K troops by end-Nov. The National (one official): Roosevelt RELIEVES George Washington (carriers stay 2). Both compatible. | KB-230; no mark move (prepositioning; US-kinetic @ ceiling) |
 | 10/02 | WALTER -008: Houthis pushing to seize Taiz (inland, ~100 km from Mokha); govt claims 20 air strikes 10/02 on Houthi forces. Inland Yemen, no maritime interdiction | KB-231; no mark move (TankerMap wrong sign); leg 2 unmoved |
 | 10/01→10/02 | Yanbu UPGRADED: projectile INSIDE port 10/01, fire near tank farm, UNCLAIMED (Vanguard Tech via Maritime Executive 10/01 23:29 ET; TradeWinds, safety4sea concur). Correction (-016): TERMINAL-WIDE suspension on stronger source; "one vessel/resumed" weaker. Liftings 10/01-10/02 UNKNOWN. | KB-232/233; no mark move; TERMINAL class OUT of production rung by letter |
-| 10/02 | UKMTO 147-26 named by trade press: KAZIMAH III (Kuwait-flagged VLCC, KOTC) — second KOTC VLCC in 4 days after AL FUNTAS (9/28). No KOTC/Kuwaiti statement found. No separate 10/02 attack found. | KB-234; VI-0042 updated; losses stay 3; pattern-watch (Kuwait-specific), not a letter fire |
+| 10/02 | UKMTO 147-26 named by trade press: KAZIMAH III (Kuwait-flagged VLCC, KOTC) — second KOTC VLCC in 4 days after AL FUNTAS (9/28). No KOTC/Kuwaiti statement found. | KB-234; VI-0042 updated; losses stay 3; pattern-watch (Kuwait-specific), not a letter fire |
+| 10/02 1122Z | UKMTO: tanker struck by unknown projectile in Hormuz, OUTBOUND transit, small fire + blackout, extinguished, vessel RESUMED journey, crew safe, UNNAMED (SABC + Caspianpost + Times of Israel + Newsquawk). CORRECTION to -017's "no separate 10/02 attack found." Possible Panama-flagged INBOUND 10/02 hit flagged by WALTER, not confirmed | KB-235; VI-0043 new; losses stay 3; third UKMTO-numbered Hormuz hit in 4 days (9/29 trio, 10/01, 10/02) |
 
 ## Convergence Matrix
 
@@ -82,13 +83,14 @@ Scores retained. 7 vectors at ceiling ⇒ this composite cannot register the wee
 | Petroline 5.5 mb/d: watch for Aramco/MoE or a second named vendor | next session |
 | Kpler/Vortexa weekly Saudi crude export print: first vendor read covering 9/29→ for FAL-06 route (c) grading | next vendor pub |
 | Pattern-watch (not a letter): KOTC-concentrated hull hits (AL FUNTAS 9/28 + KAZIMAH III 10/01) — Kuwait-specific targeting shift? Log a 3rd Kuwait hit same-hour to PROME + HAWK (cross-war) | standing |
+| WALTER -018 flag: possible Panama-flagged INBOUND tanker hit 10/02 — not confirmed in -018; verify at UKMTO + search | next session |
 | VESSELS backfill: El Gaia 9/13, St Helena 9/14, Trend 9/16, STI Steadfast 9/18; AL FUNTAS UKMTO number | next session |
 | 🔴 CARRIED (MEMORY): KB-168 Yanbu terminus proxy unbuilt (FAL-06 registered without it) | carried build |
 | Carried builds: sub-$80 duration bar, bypass empty-series guard, archive-content guard, EXIT_PROTOCOL boot reader | carried |
 
 ## Ownership, mail and provenance
 
-**10/02 L0 drain (touch 1): 5 items consumed, 0 remaining** — WALTER SIG-W-20261002-003 (noted), -008 (noted), -014 (acted), -016 (acted), -017 (acted); `board_log` rows, `git mv` to `processed/`. Packets out: PROME (10/02 drain + reconcile receipt). **Prior 10/01 evening drain (touch 3): 4 items consumed, 0 remaining** — PROME's WQ-353/355 ruling packet (acted, encoded) + WALTER SIG-W-20261001-021 (noted), -027 (acted), -033 (acted); `board_log` rows, `git mv` to `processed/`. **Earlier 10/01: 8 items consumed, 0 remaining** (touch-1 drain 6 + DAEDALUS PASS-WITH-RESIDUE + WALTER SIG-W-20261001-007). Touch-1 detail: 5 WALTER handoffs (all **acted**, `board_log`, moved to `processed/`) + WALTER's WQ-295 R3 packet (answered: `PROME/inbox/2026-10-01_from-FALCON_wq295-r3-watch-verdicts.md`, 10 adopt / 7 decline). Prior STATUS (9/28) is in git history (`592823066`).
+**10/02 L0 drain (touch 1 + repair): 6 items consumed, 0 remaining** — WALTER SIG-W-20261002-003 (noted), -008 (noted), -014 (acted), -016 (acted), -017 (acted), -018 (acted — post-closeout-ask REPAIR: correction to -017's "no separate 10/02 attack" claim); `board_log` rows, `git mv` to `processed/`. Packets out: PROME (10/02 drain + reconcile receipt + -018 repair amendment). **Prior 10/01 evening drain (touch 3): 4 items consumed, 0 remaining** — PROME's WQ-353/355 ruling packet (acted, encoded) + WALTER SIG-W-20261001-021 (noted), -027 (acted), -033 (acted); `board_log` rows, `git mv` to `processed/`. **Earlier 10/01: 8 items consumed, 0 remaining** (touch-1 drain 6 + DAEDALUS PASS-WITH-RESIDUE + WALTER SIG-W-20261001-007). Touch-1 detail: 5 WALTER handoffs (all **acted**, `board_log`, moved to `processed/`) + WALTER's WQ-295 R3 packet (answered: `PROME/inbox/2026-10-01_from-FALCON_wq295-r3-watch-verdicts.md`, 10 adopt / 7 decline). Prior STATUS (9/28) is in git history (`592823066`).
 
 ## BOTTOM LINE
 
