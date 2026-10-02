@@ -1,0 +1,8 @@
+{
+  "pin": "dc4c37b438a1f0ab2949be3b782ae4dbbfdd757e",
+  "path": "AGENTS/LIQUID/scripts/usd_swapline.py",
+  "case": "Withheld instrument entry point with synthetic healthy quiet feeds",
+  "return_code": 0,
+  "output": "⛔ Lines are PROPOSED, NOT REGISTERED (Will's word). Usage = ceiling-binding, not a basis level.\nNY Fed USD swap operations, last 60 days: 1 ops (1 European, all printed; 0 non-European not graded). Posted at settlement:\n  trade 2026-09-30 settle 2026-10-01   7d European Central Bank    $0.100B @ 4.0%  -> quiet\nFRED SWPT (H.4.1, Wed level, ALL counterparties — global, not European): $100M as-of 2026-09-30 -> below line (turn window); prior: \nVERDICT (PROPOSED lines): below backstop lines (no draw signal; NOT 'no dollar strain') · newest European op 2026-09-30 · SWPT as-of 2026-09-30\n",
+  "withheld_banner": false
+}
