@@ -1,6 +1,6 @@
 # HENRY STATUS
 
-**Signal Status:** 🟢⚫ **10/2 POST-OPEN (09:48 ET) — GAMMA NOW POSITIVE: SPX rose THROUGH an unchanged flip (~7,696 / ~7,697; CBOE spot 7,726.28 @09:31 delayed; +$16.8B / +$18.6B per 1%) ⇒ dealers DAMPEN moves above ~7,692; below it, short gamma again.** Payrolls +29K vs ~84–90K cons ⇒ SPX +1.05% · QQQ +1.34% · 2Y −2.5 / 10Y −3.1 / 30Y −2.2bp · October ≈ 20% [ZQX26 96.07, 09:46] — rate relief, not growth fear. FORUM-7 FINAL = PREMIUM-ABSORPTION (BOND co-sign PENDING). ⛔ $0. **Last Updated:** 2026-10-02 09:5x EDT (`date`).
+**Signal Status:** 🟢⚫ **10/2 POST-OPEN (09:48 ET) — GAMMA NOW POSITIVE: SPX rose THROUGH an unchanged flip (~7,696 / ~7,697; CBOE spot 7,726.28 @09:31 delayed; +$16.8B / +$18.6B per 1%) ⇒ dealers DAMPEN moves above ~7,692; below it, short gamma again.** Payrolls +29K vs ~84–90K cons ⇒ SPX +1.05% · QQQ +1.34% · 2Y −2.5 / 10Y −3.1 / 30Y −2.2bp · October ≈ 20% [ZQX26 96.07, 09:46] — rate relief in today's tape. **10:41: HY 324 [10/01] over 320 on one print (pre-NFP session) · G7 diesel+crude release ⇒ matched Nov crack $95.81 intraday, $0.81 from F1's $95 (grades at settle).** FORUM-7 FINAL = PREMIUM-ABSORPTION (BOND co-sign PENDING). ⛔ $0. **Last Updated:** 2026-10-02 09:5x EDT (`date`).
 **Pre-open (08:4x):** 🔴 **10/2 PRE-OPEN — FORUM-7 FINAL = PREMIUM-ABSORPTION** (s 0.685 ACM · KW gap 6.3bp ≤ 18 · FR2004 3–6Y +$12.1B STRESS; long-end −$3.8B ⇒ the qualifier fired on ONE leg) — **HENRY-graded, BOND co-sign PENDING.** ⚫ **Gamma NEGATIVE at both horizons on the 10/1-close spot (flip 7,692–7,695, SPX 7,666.45), but the indicated open (~7,703, INFERRED from ES) sits ~10pt ABOVE the flip ⇒ the sign at the open is NOT robust.** RSP 7th down-week ARMED for today's close (< $211.11). October hike ≈ 24% [ZQX26 96.06, 08:36 ET live, post-NFP]. ⛔ $0; no letter, threshold, score or confidence changed. **Last Updated:** 2026-10-02 08:4x EDT (`date`).
 **Rotation:** the whole 9/30 STATUS (crc32 `963fd474`) → `status_archive/STATUS_ARCHIVE_2026-10.md` **block 40**, verbatim. Earlier blocks: `STATUS_ARCHIVE_2026-09.md` 1–39.
 
@@ -44,6 +44,12 @@
 | 2Y / 10Y / 30Y | **4.762 / 5.203 / 5.581%** | **−2.5 / −3.1 / −2.2bp** | CNBC/Tradeweb intraday (vendor, not the Treasury official curve) |
 | October +25bp | **≈ 20%** | 24% pre-open · 36% 9/30 | ZQX26 96.07; EFFR 3.88 [FRED 10/1]; vendor quote ±2pp |
 | VIX · RSP | 15.61 · 210.55 | −4.8% · +0.74% | `fetch.py` — RSP still < $211.11 |
+
+### 10:41 ET addendum — two signals (WALTER −005, −009), read against the post-open call
+
+- **HY 324 [FRED obs 10/01]** — over my 320 yellow on ONE print. ⚠️ **It amends my "no growth-fear tell":** checklist item (c) *"HY through 320 while yields fall"* was **met on 10/01** (that session: 10Y −5, 2Y −10, SPX +0.19%), i.e. **before** payrolls. Today's tape is still relief (10:41: SPX 7,750.88 +1.10% · HYG +0.44% · KRE +1.50% · VIX 15.56). ⇒ **Rate relief today; credit was already one print into the growth-fear set.** The decider is FRED obs 10/02 (Mon 10/05).
+- **G7 DECIDED up to 100M bbl diesel + crude over 4 months, diesel front-loaded in 20 days** — HEN-46's DENY side realized as a decision. **Matched Nov crack (HOX26×42 − CLX26) = $95.81 at the 10:31 ET bar** (4.3952 / 88.79; intraday, NOT a settle) ⇒ **$0.81 above F1's $95 stand-down, $5.65 above the $90.16 dead line**; Dec $92.09 (already < $95); step $3.72. **F1 grades on the CME settle (~14:30 ET); TERRY grades the VLO gate.** ⚠️ **Disclosed, not re-specced:** HEN-46 claims **Q3** (ended 9/30) fuel-cost lines. A 10/02 release cannot move Q3 realized cost, so a sub-$95 settle today would fire the spot instrument on a day the quarter claim did not change (LESSONS 9/14). No letter, confidence or threshold moved.
+- Oil −4–5% is disinflationary at the margin ⇒ it **supports** the rate-relief reading, it does not reverse it.
 
 ### Gamma — re-read 09:48 ET: **POSITIVE at both horizons**
 
@@ -112,7 +118,7 @@
 
 ## CREDIT EARLY-WARNING MONITOR *(credit_monitor.py, boot 10/2)*
 
-🔴 **[FRED 9/30] HY 312 · BB 194 · CCC 1,179 · gap 985** (ratio 6.08×). Δgap 5d **+51**, 20d +85, ~3mo +180 (CCC +210 vs BB +30). Path HY: 293 [9/25] → 302 [9/28] → 308 [9/29] → **312 [9/30]**; BB 176 → 183 → 189 → 194. **The quality tier keeps widening with the tail.** LIQUID's LIQ-07 "stress spreading" trigger FIRED 9/30 (single-B +36bp/15 sessions), half-resolved (WALTER −005; LIQUID's). HY 312 is **8bp under the 320 yellow**. ⛔ No superlative published this session (no series query run).
+🔴 **[FRED 10/01, pub 10/02 — via LIQUID/WALTER −005, WALTER re-pull] HY 324 · BB 204 · CCC 1,215 · gap 1,011** — every tier wider (+12 / +10 / +36). *Prior [FRED 9/30]:* HY 312 · BB 194 · CCC 1,179 · gap 985 (ratio 6.08×). Δgap 5d **+51**, 20d +85, ~3mo +180 (CCC +210 vs BB +30). Path HY: 293 [9/25] → 302 [9/28] → 308 [9/29] → **312 [9/30]**; BB 176 → 183 → 189 → 194. **The quality tier keeps widening with the tail.** LIQUID's LIQ-07 "stress spreading" trigger FIRED 9/30 (single-B +36bp/15 sessions), half-resolved (WALTER −005; LIQUID's). HY 312 is **8bp under the 320 yellow**. ⛔ No superlative published this session (no series query run).
 
 ---
 
@@ -130,7 +136,7 @@
 
 > **⚖️ STANDING RULE, Will-ruled 2026-08-10 (full text → archive `STATUS_ARCHIVE_2026-09.md` block 14):** ① H-1 SIMULTANEITY, NON-LATCHING — VIX <15 **AND** HY OAS <260 on the SAME session, 5 consecutive; nothing banks. ② H-2 — my leg 1 and LIQUID's `GATE-HY-REKILL` are THE SAME KILL.
 
-**LEG STATE [10/2]:** **Leg 1 HY <260 — 312 [FRED 9/30] = 0 of 5, 52bp away and moving away** (⛔ NON-KILL OBSERVABLE, WQ-106) · **Leg 2 VIX <15 — last satisfied 9/25 (14.87 publisher); broken since** · **Leg 3 SPX >7,100 × 5 — FIRED, deep.** 🟠 **JOINT: 0 sessions.**
+**LEG STATE [10/2]:** **Leg 1 HY <260 — 324 [FRED 10/01] = 0 of 5, 64bp away and moving away** (⛔ NON-KILL OBSERVABLE, WQ-106) · **Leg 2 VIX <15 — last satisfied 9/25 (14.87 publisher); broken since** · **Leg 3 SPX >7,100 × 5 — FIRED, deep.** 🟠 **JOINT: 0 sessions.**
 
 ## ACTIVE THRESHOLDS
 
@@ -148,12 +154,12 @@
 | 10Y | **5.24% [Treasury 10/1]** · 5.29 [9/30] | >4.5 | >4.8 | >5.0 | 🔴 RED — every close since 9/23 |
 | 2Y | **4.78% [Treasury 10/1]** · 4.88 [9/30] | >4.25 | >4.40 | >4.60 | 🔴 RED — every close since 9/11; 18bp over |
 | 30Y | **5.61% [Treasury 10/1]** · 5.64 [9/30] | >5.0 | >5.25 | >5.50 | 🔴 RED since 9/28. ⚠️ No "since" superlative (DGS30 coverage conflict, block 40) |
-| HY OAS | **312 [FRED 9/30]** · 308 [9/29] · 302 [9/28] | >320 | >400 | >500 | Under yellow by 8bp |
-| CCC OAS | **1,179 [FRED 9/30]** · BB 194 · gap 985 | >900 | >1000 | >1100 | 🔴 RED since 9/24 |
+| HY OAS | **324 [FRED 10/01, pub 10/02]** · 312 [9/30] · 308 [9/29] | >320 | >400 | >500 | 🟡 **OVER YELLOW — ONE print** (first this leg; +12bp, every tier wider). My row has no sustain clause ⇒ a crossing, no action. RED-FT-02 / REG-T-03 (>320 s3) at 1 of 3 — theirs. Next obs 10/02 publishes Mon 10/05 |
+| CCC OAS | **1,215 [FRED 10/01]** · 1,179 [9/30] · BB 204 | >900 | >1000 | >1100 | 🔴 RED since 9/24 |
 | USD/JPY | 157.08 [live 10/2 08:31] | *(levels retired)* | — | — | Velocity \|Δ\| ≥2%/day — SAM's call; −0.60% ⇒ NOT FIRED |
 | SKEW | 142.77 [10/2 boot tape, last bar] | >145 | >150 | >160 | Back UNDER yellow. ⛔ `RED-FT-10` is RED's |
 | VIX kill leg | 16.07 | <17 | <16 | <15, 1 session | Not satisfied since 9/25 |
-| HY kill leg ⛔ *observable, H-2* | 312 [FRED 9/30] | <290 | <270 | <260 sust. 5 | NOT FIRED — 0 of 5 |
+| HY kill leg ⛔ *observable, H-2* | 324 [FRED 10/01] | <290 | <270 | <260 sust. 5 | NOT FIRED — 0 of 5 |
 
 ## CATALYST STACK
 
@@ -205,7 +211,7 @@
 
 **2. 🟢 [09:48 update] Gamma turned POSITIVE: SPX opened above an unchanged flip (~7,696), so dealers now dampen moves; below ~7,692 they amplify again.** *Pre-open text, superseded:* ⚫ Gamma is negative on the 10/1 close, but the futures put the open just above the flip (~7,703 vs 7,692–7,695). Near the flip the sign is not reliable. Below ~7,692 dealers amplify moves; above it they are roughly neutral. Measurement only; shelf life today; SPX-based, so QQQ's own dealer positioning is not measured.
 
-**3. 🔴 Credit keeps widening in both tiers** (HY 312, BB 194, CCC 1,179 [9/30]), 8bp from the HY yellow line.
+**3. 🔴 Credit keeps widening in both tiers — HY 324 [FRED 10/01] crossed my 320 yellow on ONE print** (BB 204, CCC 1,215). It happened on the pre-payrolls session, while yields fell; today's ETF tape is relief. FRED's 10/02 print (Mon) decides whether it holds.
 
 **4. 🟡 Breadth: RSP is one close away from a 7-week losing run.** On price data since 2003 the only other was April–May 2022.
 
