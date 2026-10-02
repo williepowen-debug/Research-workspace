@@ -2,9 +2,12 @@
 
 > **September 9 operator decision: retain the existing Claude routines.** Their saved reports remain usable by BRENT sessions running Astra or Fable. No scheduler migration or routine-model change is selected. Apply and verify only the prepared timing/publication-handling repair; remote changes remain NOT INSTALLED. This records the hosting decision, not a changed live configuration.
 
-> ✅ **LIVE CONFIG READ 2026-10-02 17:22 ET (BRENT, RemoteTrigger `list`) — the table below MATCHES the server:** all 3 routines `enabled`; crons `45 13 * * 1` / `0 15 * * 3` / `0 18 * * 5` (fixed UTC, no timezone field ⇒ ET labels shift 1h on 11/1); model `claude-sonnet-5`; prompts `updated_at` 2026-08-04 (unchanged since the fence amendment); last runs SUCCEEDED Mon 9/28 13:45Z · Wed 9/30 15:07Z · Fri 10/2 18:12Z; next runs Mon 10/5 13:45Z · Wed 10/7 15:04Z · Fri 10/9 18:11Z. ⚠️ Stale in the live Friday prompt (files-win clause makes both harmless): BRT-26 window text (resolved 9/25) and 'the registered rig-count line' (retired 10/2). **The 9/9 update below is STILL NOT INSTALLED** — a RemoteTrigger tool now exists; installation awaits Will's go (asked 10/02).
+> ✅ **INSTALLED 2026-10-02 17:28 ET by BRENT (Will: 9/9 operator decision + 10/2 "Install now")** — the 9/9 timing/publication repair ([plan](audits/2026-09-09_maintenance/ROUTINE_UPDATE.md)) with two refreshes: the Sept-10 EIA example replaced by the Columbus Day week (WPSR wk-10/9 publishes Thu 10/15 12:00 ET), and the Friday BRT-26 / rig-line wording replaced by "BRT-26 RESOLVED 9/25, rig line RETIRED". Before-images + after-images: [`audits/2026-10-02_routine-install/`](audits/2026-10-02_routine-install/). Receipts (each re-fetched after the write; prompt equals the after-image): Mon updated_at 21:27:04Z, next 10/05 13:45Z · Wed 21:27:24Z, next 10/07 15:04Z · Fri cron `15 20 * * 5`, 21:26:44Z, next **10/09 20:15Z** · Thu fallback CREATED `trig_01ALYRXtjDGbfHeubqdvyJdf` 21:27:46Z, next **10/08 18:15Z**.
+> ⚠️ **NO TIMEZONE FIELD — crons are fixed UTC.** On **Sun 2026-11-01** (EST) re-set all four +1h UTC (`45 14 * * 1`, `0 16 * * 3`, `15 19 * * 4`, `15 21 * * 5`), or Friday drifts to 15:15 ET — BEFORE the COT post. Registered: CATALYSTS 2026-11-01.
+> ⚠️ **The Thursday routine was created with 6 account connectors attached by default** (Gmail, Claude_Docs, Google_Drive, Quartr, Claude_Code_Remote, Canva); the other three have none. An `mcp_connections: []` update was IGNORED by the API. Its `allowed_tools` are Bash/Read/Write/Edit/Glob/Grep/WebSearch/WebFetch only. **Will: remove the connectors in the claude.ai routines UI** (asked 10/02).
+> 🧪 Acceptance still PENDING on first live runs: Thu 10/08 (should report NO NEW OBSERVATION for wk-10/2), Fri 10/09 16:15 ET (should grade COT as-of 10/6 if posted), Wed 10/14 (PENDING PUBLICATION) → Thu 10/15 (reads wk-10/9).
 >
-> **September 9 maintenance — READY, NOT INSTALLED:** [exact timing/prompt update and acceptance checks](audits/2026-09-09_maintenance/ROUTINE_UPDATE.md). This session has no RemoteTrigger or routine-control tool; server-side settings remain unverified. The live-settings mirror below is unchanged. A local plan does not provide Thursday coverage or move Friday's run.
+> **September 9 maintenance — ~~READY, NOT INSTALLED~~ INSTALLED 2026-10-02 (see above):** [exact timing/prompt update and acceptance checks](audits/2026-09-09_maintenance/ROUTINE_UPDATE.md). This session has no RemoteTrigger or routine-control tool; server-side settings remain unverified. The live-settings mirror below is unchanged. A local plan does not provide Thursday coverage or move Friday's run.
 
 > **Audit note 2026-09-08 — source timing, not a remote schedule change:** the mirrored Wednesday 11:00 ET run precedes this week’s WPSR release (Thursday September 10 noon ET). Treat any Wednesday output as pre-release; arrange the owner read after publication. The mirrored Friday 14:00 ET run also precedes COT ~15:30 ET, so it cannot by itself capture the new Friday COT print. Server-side settings were not inspected or changed. [Audit A11](audits/2026-09-08_stale-intel/REPORT.md).
 
@@ -12,13 +15,14 @@
 **Created:** 2026-08-03 EVE by PROME (Will-authorized — BRENT idle; owner ratifies at next boot, see inbox packet same date).
 **Why this file exists:** routine prompt text is stored **server-side at claude.ai/code/routines — invisible to every repo grep** (VULCAN's 8/3 diagnosis: a dead delivery path survived two repo-side flags because the regression lived in off-repo prompt text). This registry is the repo-visible mirror. **Rule: any change to a routine's prompt updates this file in the same pass, and vice versa.** Pattern source: `AGENTS/VULCAN/SCHEDULED_RUNS.md`.
 
-## Live routines (3) — prompts refreshed 2026-08-03 by PROME (Will-approved)
+## Live routines (4) — prompts refreshed 2026-08-03 by PROME (Will-approved); release control installed 2026-10-02 by BRENT (Will-approved)
 
-| Routine ID | Name | Cron (UTC) | Local | Model | Prompt vintage |
+| Routine ID | Name | Cron (UTC) | Local (EDT; +1h UTC from 11/1) | Model | Prompt vintage |
 |---|---|---|---|---|---|
-| `trig_01DHTJWiUSVYXY9vUeto57qr` | BRENT Monday Market Open | `45 13 * * 1` | Mon 9:45 AM ET | claude-sonnet-5 | 2026-08-04 |
-| `trig_014CDR4kjWtc29mYxXspGAHF` | BRENT Wednesday EIA | `0 15 * * 3` | Wed 11:00 AM ET | claude-sonnet-5 | 2026-08-04 |
-| `trig_01GBVYAq5TwPc6JQ4hbfYYMe` | BRENT Friday Close | `0 18 * * 5` | Fri 2:00 PM ET | claude-sonnet-5 | 2026-08-04 |
+| `trig_01DHTJWiUSVYXY9vUeto57qr` | BRENT Monday Market Open | `45 13 * * 1` | Mon 9:45 AM ET | claude-sonnet-5 | 2026-10-02 (sha256 `0cca9eb51a87aa6e`) |
+| `trig_014CDR4kjWtc29mYxXspGAHF` | BRENT Wednesday EIA | `0 15 * * 3` | Wed 11:00 AM ET | claude-sonnet-5 | 2026-10-02 (sha256 `d5ed1182644c2a99`) |
+| `trig_01ALYRXtjDGbfHeubqdvyJdf` | BRENT Thursday EIA fallback | `15 18 * * 4` | Thu 2:15 PM ET | claude-sonnet-5 | 2026-10-02 (sha256 `b1c9c21ff5810876`) — CREATED 10/02 |
+| `trig_01GBVYAq5TwPc6JQ4hbfYYMe` | BRENT Friday Close | `15 20 * * 5` (was `0 18 * * 5`) | Fri 4:15 PM ET | claude-sonnet-5 | 2026-10-02 (sha256 `e64272f894379e65`) |
 
 **2026-08-04 amendment (PROME, executing BRENT's own ratification-packet request §4 — same-pass mirror per this file's rule):** all three prompts extended with the prediction-row fence: *"Never grade, resolve, or re-mark a BRT-xx prediction row (e.g. BRT-26, BRT-29): report the reading and flag it — resolution happens ONLY in a live BRENT session; a routine 'helpfully' resolving one corrupts the calibration record, and calibration damage is not repairable after the fact."* Friday additionally carries the BRT-26 specific: *no weekly Baker Hughes print is a resolution date — every print is a breach-WATCH.* Header stamps bumped in all three prompts; API updates verified HTTP 200 at 19:13Z, `updated_at` confirmed on each. No other prompt text changed.
 
