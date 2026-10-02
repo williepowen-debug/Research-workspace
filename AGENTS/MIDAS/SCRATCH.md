@@ -14,6 +14,23 @@
 
 > ⚠️ **This block is the ONLY live forward list in this file.**
 
+> ⛔ **PROME-SPAWNED WQ-184 L0 SESSION 2026-10-02 ~11:46–~12:0x ET (Fri), `prome-96` → MIDAS, DOCKET L582 (ruling-packet wake, WQ-206 class, cap 4/boot). THIS BLOCK SUPERSEDES EVERYTHING BELOW IT.**
+>
+> **▶ ✅ WQ-352 ENCODED.** Will's word verified at `PROME/WILL_QUEUE.md` (2026-10-01 21:40 ET, verbatim *"all with your recs"* answering a seven-row list with rec and caveat per row; PROME's rec on this row = MIDAS's own §A4 amendment: *"adopt the bands but leave them unscored for one month: they print a level, and it does not enter the composite until a line is crossed on data that arrives after approval."*). **Three edits, one commit:** ① `CLAUDE.md` § THRESHOLDS gained the three-leg table (SLV / PPLT / PALL — Leg T, Leg C with 21-session decay, Leg S), the 2026-11-01 21:40 ET window end, the day-31 CROSSING reading, and the one open question flagged to Will via PROME. ② `STATUS.md` M2 cell: adopted LIVE-BUT-UNSCORED, would-be score 3 🟠 held back by rule; score cell unchanged at 1 ⚪ BAND-BLIND. ③ `STATUS.md` I2 cell: adopted LIVE-BUT-UNSCORED, would-be Pt/Pd 2/2 (Pd 1.0pt from orange on post-approval data); score unchanged at 2 🟡. **Composite 8/20 UNCHANGED.**
+>
+> **▶ ⚠️ The reading question written on the letter, flagged in the receipt to PROME:** on day 31 (2026-11-01) with no post-approval crossing, (CROSSING) nothing scores until a line is crossed on data after 10/01 21:40 ET; (CALENDAR) existing levels enter the composite then. §A4's words are CROSSING. The two differ in effect, so this is the question PROME takes back to Will per the ruling packet.
+>
+> **▶ ⏳ COT 9/29 WAIT.** CFTC release 2026-10-02 15:30 ET (3h 44min after this write). `cot_gold.py --expect 2026-09-29` returned WAIT at the 10/1 closeout and still serves 9/22. Bounded spawn closes at the encode; PROME re-spawns at the print per charter.
+>
+> **▶ Inbox:** no new WALTER signal landed in `AGENTS/MIDAS/inbox/WALTER/` since the processed SIG-W-20260930-003. The spawner message mentioned WALTER's 11:40 ET gold GLD $379.27 (−0.91%) tape print but it did not reach the inbox lane. No consume row owed.
+>
+> **⏳ STILL OWED (unchanged from the prior session unless noted):**
+> ① M1 successor (register the beta with window + vintage + flip, per L-51 and WQ-161 ①).
+> ② `cot_metals.py` boot leg (needs a per-metal consumed-vintages ledger first).
+> ③ The SCRATCH rotation of the 9/11 and 9/5 blocks to the archive — still not done.
+> ④ The 9/29 COT vintage at the next MIDAS boot on/after Fri 10/2 15:30 ET (PROME re-spawn).
+> ⑤ 🆕 **Will's answer on CROSSING vs CALENDAR for day 31** — the day-31 question above, routed via PROME.
+>
 > ⛔ **PROME-SPAWNED DUE-ROW SESSION 2026-10-01 ~12:15–12:4x ET (Thu), `prome-0c`, WQ-184 driver, DOCKET L231 + L176. THIS BLOCK SUPERSEDES EVERYTHING BELOW IT.**
 >
 > **▶ ✅ MIDAS-01 HIT · MIDAS-02 HIT**, on the frozen letters with every basis printed (`analysis/2026-10-01_MIDAS-01-02-RESOLUTION.md`, KB-119). Gold's lowest close on any basis was +7.83% above the kill line; copper never came within 25% of its −20% line; LME stocks were at 52% of the RED bar. **The STUCK provision was not needed.** **WT-1 record-closed:** never fired, superseded 8/11, Q-C UNTESTED since 8/11. The FINAL's §0 in-place revision belongs to SAM/PROME (flagged, not edited).

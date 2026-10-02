@@ -136,6 +136,33 @@ Durable banded rules here; the live read lives in STATUS with `[src M/D]` + as-o
 
 *Conjunction triggers (LIQUID): fire on `A AND B` (e.g. copper −20% AND LME inventory +100% = confirmed demand collapse, not a positioning wobble). KILL_MEMO for any cascade trigger.*
 
+### Silver / Pt / Pd standalone bands — ADOPTED, LIVE-BUT-UNSCORED (WQ-352, Will-ruled 2026-10-01 21:40 ET, verbatim *"all with your recs"*, PROME rec = MIDAS's §A4 amendment)
+
+**The letter in Will's own grant:** *"adopt the bands but leave them unscored for one month: they print a level, and it does not enter the composite until a line is crossed on data that arrives after approval."* **No score moves from the ruling.** M2 stays `1 ⚪ BAND-BLIND` and I2 stays `2 🟡` on the composite; silver's would-be 1 → 3 move is **held back by rule**, and the composite 8/20 reflects that. The three legs below print a level on every close from 2026-10-01 forward; a score enters the composite only when a line is first crossed on a close **dated after 2026-10-01 21:40 ET**. On no-roll ETF closes (SLV / PPLT / PALL); no line was re-fitted on 9/30 (ADDENDUM A2); the lines are **DESIGN-FIXED, not TIME-FIXED** — fitted on history that includes the 2026 collapse they are meant to catch (§5 limit, WQ-H4). Draft of record: `analysis/2026-09-25_silver-pgm-bands-DRAFT.md`.
+
+| Metal | Band | Leg T — d200 below (state) | Leg C — dd252 below (event, 21-session decay) | Leg S — d200 above (state, upside) |
+|---|---|---|---|---|
+| **Silver (SLV)** | 🟡 → 2 | −5% | −20% | +30% |
+| | 🟠 → 3 | −12% | −30% | +40% |
+| | 🔴 → 4 | −20% | −40% | — |
+| **Platinum (PPLT)** | 🟡 → 2 | −10% | −20% | +30% |
+| | 🟠 → 3 | −15% | −30% | +40% |
+| | 🔴 → 4 | −20% | — | — |
+| **Palladium (PALL)** | 🟡 → 2 | −12% | −20% | +30% |
+| | 🟠 → 3 | −20% | −30% | +40% |
+| | 🔴 → 4 | −25% | −40% | — |
+
+- **Scoring rule:** a metal's score is the HIGHEST level any leg shows. **M2 = max(silver band, GSR band). I2 = max(Pt band, Pd band, supply trigger).**
+- **Crash leg mechanics:** scores for 21 sessions after first crossing a level on post-approval data, then decays one level per 21 sessions unless a deeper level fires.
+- **Shared-root rule:** when M2 and I2 bands fire within 15 sessions of each other, note *"one root"* and set the composite's shared-root flag; it is not a second independent signal (SLV–PPLT 0.82, PPLT–PALL 0.82 last 120 sessions).
+- **Positioning (COT) is context only, NOT a band** — Pt/Pd are regime-shifted since 2022; carry as a context sub-vector until a regime-aware design is base-rated.
+
+**Unscored window (Will-ruled):** 2026-10-01 21:40 ET → **2026-11-01 21:40 ET**. During the window, every leg prints its level in STATUS and NEXUS_BRIEF, scored **as if** the bands were live, so the counterfactual is visible; **the actual composite does not move**. If no line is crossed on post-approval data by the window end, the bands **remain unscored** until a crossing arrives (CROSSING reading, below).
+
+**Day-31 reading written on the §A4 letter (CROSSING):** on day 31 and after, a leg enters the composite **only** when a line is first crossed on a close dated after 2026-10-01 21:40 ET. If no post-approval crossing has occurred, nothing scores — the clock does not auto-promote existing levels. ⚠️ **Open question flagged to Will via PROME (does not block the encode):** a second reading — **CALENDAR** — would score the existing levels on day 31 regardless of whether a new crossing has occurred. The two readings differ in effect (crossing waits; calendar promotes), so this one question goes back to Will per the ruling packet. The letter is written on CROSSING because that is what §A4's words mean (*"until a line is crossed on data that arrives after approval"*). If Will rules CALENDAR, this section is a one-sentence amendment.
+
+**Would-be scores printed each close (not applied to the composite until a crossing lands):** at 9/30, Silver `3 🟠` (Leg T −17.3%; Leg C decayed), Platinum `2 🟡` (Leg T −12.9%; Leg C decayed), Palladium `2 🟡` (Leg T −19.0%, **1.0pt from orange**; Leg C decayed). The 9/30 trend crossings happened on **pre-approval** data (SLV first crossed −12% on 6/24; PALL −12% on 6/3; PPLT −10% on ~6/23 — ADDENDUM A1/A2), so **nothing scores yet.** A post-approval close that first breaches a drafted level (e.g. SLV through −20% on Leg T, or PALL through −20% on Leg T) is the first scoring event.
+
 ---
 
 ## EXIT / INVALIDATION (Falsification)
