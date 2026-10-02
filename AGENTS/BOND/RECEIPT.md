@@ -38,3 +38,39 @@
 - WALTER: inbox lane processed to `processed/`; no outbound this session.
 
 **Tier: STANDARD.** No THESIS version bump; no capital move; grade only.
+
+---
+
+## PHASE-2 EOD RE-PING (16:0x→16:xx ET 10/2)
+
+**Trigger:** PROME re-ping per BOND's own next-session FOLLOW-UP item (phase-2 official curve post ~16:00–16:30 ET).
+
+### What ran
+- Direct curl of `home.treasury.gov` Daily Par Yield Curve + Real Yield Curve CSVs for 10/2 (BOND has no in-repo primary Treasury fetcher — used curl with Mozilla UA, 2026 full-year CSV, first two data rows).
+- Verified tree clean + synced with origin before writing (prior commit `86a0f662c` + ~10 later cross-desk commits already pulled with sync, no local uncommitted work from me).
+
+### Phase-2 findings
+- Par 10/2: 1M 4.04, 3M 4.19, 1Y 4.46, 2Y 4.83, 3Y 4.96, 5Y 5.06, 7Y 5.17, **10Y 5.28**, 20Y 5.67, **30Y 5.63**.
+- Real 10/2: 5Y 2.69, 7Y 2.80, **10Y 2.92**, 20Y 3.19, **30Y 3.34 = NEW CYCLE HIGH** (prior 3.33 9/30).
+- On-day vs 10/1: whole curve +2 to +5bp = bear-flattener on top of 10/1's bull-steepener.
+- 2-day vs 9/30: 2Y −5bp (Fed-path leg absorbed some dovishness), 10Y −1bp (fully round-tripped), 30Y −1bp.
+- 10Y CLOSED **4bp ABOVE pre-NFP 5.24** (intraday round-trip became EOD HOLD at the ceiling).
+- BE flat/down (5Y BE 2.37 +1, 10Y BE 2.36 flat, 30Y BE 2.29 −1): real-yield-led, NOT inflation-expectations-led.
+
+### Writes this ping
+- STATUS: last-session line, new item −1 EOD summary, dashboard par/real rows rewritten with 10/2 as the primary cell (replacing 9/30 in-place), DFII10 gate row, BOTTOM LINE rewritten for 10/2 EOD.
+- SCRATCH: new "WHAT I DID — phase-2 EOD" section + state block updated for EOD + next-session item 2 updated (10/1 F2 read still not started, item 2 renumbered after dropping the completed 10/2 curve item).
+- KB.tsv: +1 row `KB-BND-390` (confidence A1).
+- board_log.tsv: +1 row `10/2-OFFICIAL-CURVE / integrated / DIRECT_TREASURY`.
+- RECEIPT: this appended section.
+
+### WQ-357 consequence (one line)
+Procedural rec UNCHANGED (REAFFIRM EXIT per the ruled kill letter); analytical thesis read UPGRADED from "incrementally strengthened" (11:5x ET) to **STRONGLY STRENGTHENED** (EOD): 10Y closed 4bp above pre-NFP level after a weak-labor print; 30Y real at new cycle high; day's shape = Fed-path leg flattening the front, term-premium leg holding the back; BE flat ⇒ real-rate-driven not inflation-exp.
+
+### Non-writes (deliberately)
+- No THESIS version bump — letter unchanged, grade only.
+- No position change — root rule #5/#10; nothing acted on.
+- No new predictions; no VX edits (vectors already at their updated 10/1 states).
+- No FLOW rows — the EOD confirms an established regime, not a new transmission.
+
+**Tier: STANDARD (continuation).** No capital move; grade/read only.
