@@ -93,10 +93,28 @@ Scenario moves come from the episode table. ORCL's "−17%" = 2025-03 and CRWV's
 | BROCK: APO / ARES is the cleanest equity read of credit leading | an APO or ARES put row gets built in the final version (the held APO 95P is −17% OTM) |
 | HY back ≤ 312 | everything → NONE; WQ-365's kill line |
 
+## v1.1 · 11:2x ET: LIQUID (`a431862ac`) and BROCK (`0a04cad71`) answers folded in. VULCAN still pending (after-close wake)
+
+| Point | Evidence (owner's artifact) | Effect on the comparison |
+|---|---|---|
+| **Where the AI-credit stress sits** | LIQUID: **CRWV 5Y CDS ≈ 847bp [9/24]** (DTCC, ISDA model; +222 to +427bp vs the 7/06 anchor) plus **ORCL S&P BBB− [7/9]**, one notch above HY, with no forced-sell event yet. **The stress sits in single-name CDS and one rating ladder, not in cohort bonds** (BB tightened while CRWV CDS blew out) | It confirms that CRWV / ORCL are the rows that **hold** the stressed thing. The stress is single-name, which is what the low correlation (0.08–0.30) already shows |
+| **HYG basis** | LIQUID: HYG tracks **iBoxx (OAS 291.7) vs ICE 324 [10/1]**, a ~32bp gap. Effective duration **3.32y**, so match to the 5Y (as done here) | My regression used ICE OAS and the 5Y. The basis gap is now stated. Not re-run |
+| **HYG offset, by LIQUID's own episode scan** | 5 widenings ≥ 50bp: the offset **held** in 2024-08 (5Y −53bp, HYG −0.84% on +91bp) and 2025-04 (−61bp, −2.99% on +202bp). It **failed** in the current episode: **+64bp with the 5Y +61bp ⇒ HYG −2.60% TR ≈ −4.1% per 100bp, vs ≈ −1.5% per 100bp in 2025-04** | **It independently agrees with TERRY's test:** PROME's claim is true in growth scares and false in the rate-shock regime we are in. HYG row unchanged |
+| **Does HYG hold the AI debt?** | LIQUID: AI / DC ≈ **4–6% of HY index market value** (INF). For that cohort alone to move the index +19bp it would need **+320 to +475bp**. HYG's holdings of CRWV / APLD are **UNKNOWN** (CSV unreachable). ORCL is IG, so it is not in HYG unless it becomes a fallen angel | **HYG holds the broad HY beta, not the AI cohort.** Its "holds the stressed thing" cell becomes **"credit, yes; AI debt, ≈ 4–6%"**. HYG expresses "credit leads", and expresses "AI debt" only weakly |
+| **APO** | BROCK: on his record the APO 95P expresses **private credit / credit widening, NOT AI debt**. APO's AI link is as **financier** (it led the $35B Broadcom facility 6/9), which is **fee-positive until a loss shows**, so it partly cuts against the put. No AI/DC lending share is on record for any manager (software share is the proxy: ARCC 22.0%, FSK 17.7%) | The held sleeve's row-6 claim *"the thesis is already showing there"* is **narrowed:** the sleeve shows the **credit-widening** leg, not the AI-debt leg |
+| **QQQ vs credit, a counterpoint to this memo's framing** | BROCK: 9/24→10/1 APO −5.26% vs QQQ +0.13%, but **on 250-day history QQQ's correlation to ΔHY (−0.55) beats APO's (−0.33) at about half the volatility**. The current decoupling is **n = 1** | ⚠️ **This weakens "QQQ is the furthest from the stressed thing" as a statistical claim.** Day to day, QQQ has tracked HY widening *better* than APO over a year. The current divergence is one episode. **The ranking is unchanged**, because WQ-365's trigger waits for QQQ to actually move with credit, but the "half-run chain" framing is about **this** episode, not a law |
+| **Dates** | LIQUID: GATE-LIQ-069 review 10/15 · OCIC Q3 ~late Oct · FOMC 10/28 · 079 bands 10/31 · QRA / buyback end ~11/4 · CRWV Q3 + BDC marks early–mid Nov · LIQ-07 resolves 11/6–11/10. BROCK: **BX Q3 Thu 10/22 09:00 (V)** · APO Q3 ~11/3–11/5 (EST.) · **BCRED Q4 tender letter ~12/03** (could fire GATE-BRK-R2 (a)) | All inside a Dec-18 expiry. **The ORCL agency action is undated:** the likeliest next step is Moody's Baa2 → Baa3, which is not yet a fallen-angel event |
+
+**Net of v1.1: ranking and lean UNCHANGED (NONE today; WQ-365 conditional; HYG a candidate; ORCL / CRWV no card).** Two descriptions get **narrower**:
+- HYG = "credit leads", **not** "AI debt" (≈ 4–6% AI).
+- The held APO / KRE sleeve = the credit-widening leg, **not** the AI-debt leg.
+
+⇒ **No row in the book or in this table expresses the AI-DEBT leg itself, except single-name CRWV / ORCL.** That is the honest gap, and VULCAN's reply is the input that decides whether it deserves a card.
+
 ## COMPLETION — TERRY — 2026-10-02 (expression comparison, FIRST CUT)
-STATUS: ⚠️ PARTIAL (first cut; VULCAN / LIQUID / BROCK replies pending — final before Mon 10/05 open)
+STATUS: ⚠️ PARTIAL (v1.1: LIQUID + BROCK folded in; VULCAN pending — final before Mon 10/05 open)
 CHANGED: PROME/inbox/2026-10-02_from-TERRY_expression-comparison-AI-debt-thesis.md; evidence packets AGENTS/{LIQUID,BROCK,VULCAN}/inbox/2026-10-02_from-TERRY_expression-comparison-evidence-ask.md; WQ-365 card (a1) wording fix
 RESULT: 7 rows at ≤$500 Dec-18 (QQQ 725/705 $463 · IWM 273/263×2 $455 · ORCL 130/115 $481 · CRWV 80/65 $485 · HYG 77/75×7 $464 · held sleeve ≈$1.0k · nothing). HYG offset claim TRUE in growth scares (2024-07 HYG +0.3%), FALSE in the current rate-led widening (9/2026 HYG −2.2%, QQQ +4.4%); regression R² 0.60, 746 bars. ORCL −55.5% / CRWV −38.1% off highs vs QQQ −0.7%. Only ORCL/CRWV raise N_eff (corr 0.08–0.30). No fired capital trigger on any row. Lean NONE today; WQ-365 stays the QQQ vehicle; HYG conditional (HY persistence + non-falling 5Y) is the next card candidate.
-GAPS: Evidence desks not yet replied; FRED HY only 3y (4 episodes); quotes ~15 min old; earnings dates secondary (yfinance); HYG AI share unknown; payoffs at-expiry intrinsic.
+GAPS: VULCAN not yet replied (LIQUID a431862ac + BROCK 0a04cad71 folded, no ranking change); FRED HY only 3y (4 episodes); quotes ~15 min old; earnings dates secondary (yfinance); HYG AI share unknown; payoffs at-expiry intrinsic.
 WILL_NEEDS: None today (comparison only); WQ-365 stays pending; a possible HYG conditional card would go to Will via PROME.
 FOLLOW-UP: Final version before Mon 10/05 open with VULCAN/LIQUID/BROCK replies + LIQUID's 10/2 HY cell; record Will's fills on doorbell.

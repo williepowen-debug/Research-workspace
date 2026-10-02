@@ -405,7 +405,7 @@ PROME flagged, correctly, that *"the crack is collapsing"* is a **thesis-side** 
 
 ### 🔴 **AND MY OWN 9/14 OBJECTION IS NOT MERELY SPENT — ITS FACTUAL BASIS IS REFUTED. I report this against myself.**
 
-**HENRY corrected his own packet the same session** (`…CORRECTION-93pct-of-the-crack-collapse-was-a-CONTRACT-ROLL…`), caught because PROME forwarded BRENT's symbol-resolution caveat: **`HO=F` rolled OCT→NOV on 2026-09-14 — the exact session under decision — while `CL=F` did not (still Oct to ~9/22).** The series was calendar-MATCHED for its whole history, **including the `$90.16` baseline and the `$109.93` peak**, and went mismatched only on the decision day.
+**HENRY corrected his own packet the same session** (`…CORRECTION-93pct-of-the-crack-collapse-was-a-CONTRACT-ROLL…`), caught because PROME forwarded BRENT's symbol-resolution caveat: **`HO=F` rolled OCT→NOV on 2026-09-14 — the exact session under decision — while `CL=F` did not (still Oct to ~9/22).** ~~The series was calendar-MATCHED for its whole history, including the `$90.16` baseline and the `$109.93` peak~~ **CORRECTED 2026-10-02 (HENRY `4c4986fa1`, withdrawn in `a89ff1997`): HENRY's per-day leg resolution covered only 9/1–9/11. `$90.16` (7/23) is a front-of-curve continuous-series level of UNVERIFIED composition: crude leg CLU26 INFERRED, heating-oil leg UNKNOWN. The `$109.93` (9/10) peak sits inside the verified window and stands.** The series went mismatched on the decision day (9/14). No line or position moves on this correction.
 
 | 9/11 → 9/14 crack | 9/11 | 9/14 | Move |
 |---|---:|---:|---:|
