@@ -91,3 +91,21 @@ Nothing is owed today. **Monday by 15:00 ET: SELL at Fidelity's bid (desk lean, 
 **Unchanged:** hard stop Mon 10/05 15:00 ET · exercise arithmetic (500 sh / $367,500 short below 735; −$500 per $1 gap) · D-60 UNOBSERVED (the Oct-01 four ended out of the money, so they observed nothing) · forward max loss ≈ $1,095 at the screening bid ≈ 2.2× the $500 cap · desk lean SELL by Monday 15:00 ET.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution.**
+
+---
+
+## ADDENDUM 2026-10-02 Fri 09:47–09:50 ET: re-marked after payrolls (PROME `prome-70`). The text above stands as written
+
+**Positions as of the 10/1 capture. Quotes are SCREENING** (yfinance, possibly up to about 15 minutes old; Fidelity's bid governs).
+
+| Item | 09:47 | 09:50 |
+|---|---|---|
+| QQQ | $752.46 ⇒ the 735 strike is **$17.5 (2.3%) out of the money** | $751.98 |
+| 735P Oct-05 bid / ask | 0.55 / 0.56 | **0.43 / 0.44** |
+| Five at the bid, after $3.25 fees | ≈ $271.75 | **≈ $211.75** ⇒ ≈ −$1,157 against $1,368.32 |
+| Roll to the 735P Oct-09 | 2.46 − 0.55 = $1.91/ct ≈ $955 | 2.20 − 0.43 = **$1.77/ct ≈ $885** |
+| Roll to the 735P Oct-16 | 5.25 − 0.55 = $4.70/ct ≈ $2,350 | — |
+
+**Lean: SELL. Today is better than Monday on the arithmetic.** Almost all of what's left is time value, and Monday's session holds about one day of it. Unless QQQ falls about 2.3% by Monday, most of it runs off over the weekend. Selling a put on a green QQQ day gets a lower price, but it's not a root rule #6 break, because the rule governs buys. The hard stop stays **Mon 10/05 15:00 ET**. If the 740P ×4 are rolled to Oct-09 today, any roll of these five goes to **Oct-16**.
+
+**APPROVAL REQUIRED — Will must approve/reject before execution.**

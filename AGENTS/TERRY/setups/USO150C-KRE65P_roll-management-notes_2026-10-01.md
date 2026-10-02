@@ -85,3 +85,20 @@
 **Unchanged:** hard stop **Fri 10/09 15:00 ET** — sell at Fidelity's bid or roll as one net-debit order. `MGMT-KRE65P-DEC31` (§ B) not re-read here; Fidelity shows KRE 65P ×2 at $1.60 / $320.00 (−$17.33), KRE $69.95 (+0.73%).
 
 **APPROVAL REQUIRED — Will must approve/reject before execution** (no action is proposed).
+
+---
+
+## ADDENDUM 2026-10-02 Fri 09:47–09:50 ET: `MGMT-USO150C-OCT09` ×1 re-marked after oil's drop (PROME `prome-70`). The text above stands as written
+
+**Positions as of the 10/1 capture. Quotes are SCREENING** (yfinance `--legs 150`, leg gate PASS, 9% wide; Fidelity's bid governs).
+
+| Item | Value |
+|---|---|
+| USO | **$144.38 (−3.76% vs $150.02)** at 09:47 · $144.64 (−3.59%) at 09:50 ⇒ the 150 strike is **≈ $5.5 (3.7–3.9%) out of the money** |
+| 150C Oct-09 bid / ask | **1.45 / 1.59** (both pulls) ⇒ one at the bid ≈ **$144.35 net ⇒ ≈ −$155 against $299.66** |
+| Roll to the 150C Oct-16 | ask 2.95 ⇒ **$1.50 net ≈ $150** |
+| Exercise path | A close above $150 now needs ≈ +3.8%. **The 10/1 cash-headroom worry (≈ $525 over $15,000) eases a lot**, so a QQQ roll today no longer threatens the funding of a likely exercise |
+
+**Lean: no action owed today.** USO is **red**: the wrong day to *sell* a call, the right day for a roll's *buy* leg (root rule #6). BRENT is attributing this morning's drop now, and that attribution is the input that matters. Sell or roll by **Fri 10/09 15:00 ET**. The ≥ $5.98 harvest suggestion is now out of reach. KRE 65P (§ B) wasn't re-read.
+
+**APPROVAL REQUIRED — Will must approve/reject before execution** (no action is proposed).

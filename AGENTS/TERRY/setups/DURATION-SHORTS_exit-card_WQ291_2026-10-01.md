@@ -83,3 +83,25 @@ The best reason not to exit: the 3–6Y build is belly evidence and the long end
 > **WQ-291 (Will):** **A — SELL TO CLOSE TLT $82P Oct-16 ×1** (limit at Fidelity's bid, floor intrinsic − $0.10) **and SELL TBT 10 sh**, Fri 10/02 from ~09:45 ET, by 15:00 ET. Or B (82P only) or C (hold to 10/14).
 
 **APPROVAL REQUIRED — Will must approve/reject before execution.**
+
+---
+
+## ADDENDUM 2026-10-02 Fri 09:47–09:50 ET: re-marked after payrolls. TLT is GREEN, the adverse direction for both lines (PROME `prome-70`). §§1–8 stand as written
+
+**Positions as of the 10/1 capture. Quotes are SCREENING** (yfinance `--legs 82`, leg gate PASS. At 09:47 the 82P quote still carried 10/1's last trade and was 7% wide with `NONMONO,DIRINC` flags. By 09:50 it had its first trade of the day, 09:31. It may be up to about 15 minutes old, and Fidelity's bid governs).
+
+| Item | 09:47 | 09:50 |
+|---|---|---|
+| TLT | $78.06 (+0.44% vs $77.71; no ex-date today) | $77.98 (+0.35%) |
+| 82P intrinsic | $3.94–3.96 | $4.02 |
+| 82P bid / ask | 3.95 / 4.25 | **4.05 / 4.15** |
+| **Time value at the bid** | **≈ $0.00** | **≈ +$0.03** |
+| 82P sold, after the $0.65 fee | ≈ $394.35 | ≈ **$404.35** (+$236.68 on $167.67) |
+| TBT ×10 | $42.04 ⇒ $420.40 | $42.00 ⇒ **$420.00** (+$73.54 on $346.46) |
+| **Exit proceeds, both lines** | ≈ $814.75 | **≈ $824.35** (≈ +$310 on $514.13) |
+
+**§6's day-colour test, measured before any fill:** the time value at the bid is **$0.00–0.03**, which is within the $0.10 the card sets. **A sale on today's green day is therefore a legitimate break of root rule #6, provided Fidelity's own bid is within about $0.10 of intrinsic when Will looks** (floor = 82 − TLT − 0.10 ≈ **$3.92** at TLT $77.98). Payrolls is not the reason, and neither is the 10/16 date.
+**What waiting costs on this card's terms:** there's no time value left to earn, so holding is purely a directional bet on ≈ $7.8k of short TLT exposure (put delta ≈ −0.89 on a Black–Scholes model estimate ≈ $7.0k, plus TBT ≈ $0.84k). That's **≈ $78 for every 1% TLT moves, against the lines when it rises.** Today's green tape has already cost ≈ $17–26 against Thursday's ≈ $841. HENRY says the long end can reverse on supply at the 10/6–10/8 auctions, and that's the case for holding. But it's a view against BOND's MET kill, and durable finding 12 keeps the kill in force. Holding also brings back the IRA in-the-money expiry question at 10/16 (D-60).
+**Lean unchanged: A. Sell the 82P (limit at Fidelity's bid, floor intrinsic − $0.10) and sell all 10 TBT, today by 15:00 ET.** If WQ-360 is also approved, **sell these first, then buy.**
+
+**APPROVAL REQUIRED — Will must approve/reject before execution.** Memo: `PROME/inbox/2026-10-02_from-TERRY_open-remarks-WQ347-357-360.md`.

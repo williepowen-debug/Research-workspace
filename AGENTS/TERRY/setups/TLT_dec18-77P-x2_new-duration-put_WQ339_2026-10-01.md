@@ -137,3 +137,25 @@ Puts trade from 09:30 ET; the print lands before any fill is possible, so **no l
 > **WQ-339 successor (Will):** **APPROVE / REJECT — buy 2 TLT Dec-18-2026 $77 puts (strike = at or just below TLT at the fill), limit ≤ $2.45 each, total ≤ $491.30 (≈ $417 at tonight's marks), on the first session from Fri 10/02 09:45 ET to Wed 10/14 15:00 ET on which TLT is green (and TBT red) at the fill and above $74.50.** Harvest 1 of 2 at ≥3×; sell-or-roll both by Wed 11/18 15:00 ET. State the WQ-357 choice with it. **⚠️ BOND's kill is MET and BOND recommends exiting duration shorts; this card has no registered trigger.**
 
 **APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**
+
+---
+
+## ADDENDUM 2026-10-02 Fri 09:47–09:50 ET: grading today against §4's letter (WQ-360). **PENDING WILL, NOT APPROVED. This re-mark fills nothing and approves nothing.** §§1–8 stand as written
+
+**Quotes are SCREENING** (yfinance `--legs 77,78`, leg gate PASS; possibly up to about 15 minutes old; Fidelity's chain governs).
+
+| Leg | 09:47 | 09:50 | Met? |
+|---|---|---|---|
+| E-1 Will's [Approve] | none | none | ❌ |
+| E-2 window from 09:45 | open | open | ✅ |
+| E-3 TLT green (no ex-date today) **and** TBT red | TLT $78.06 > $77.71 · TBT $42.04 < $42.19 | TLT $77.98 · TBT $42.00 | ✅ |
+| E-4 not a red tape at the fill | green | green | ✅ so far. **It must still hold at the moment of any fill** |
+| E-5 official 10-year yield (DGS10) not below 4.50 | official 10/1 = 5.24 (today's not published until tonight) | — | ✅ |
+| E-6 TLT ≥ $74.50 | $78.06 | $77.98 | ✅ |
+| E-7 strike at or just below TLT, ask ≤ $2.45, total ≤ $491.30 | TLT ≥ $78 ⇒ **the 78P**: ask **2.45** ⇒ **$491.30, exactly the cap** | TLT < $78 ⇒ **the 77P**: ask **1.95** ⇒ **$391.30** (78P ask 2.42 ⇒ $485.30) | ✅ |
+
+**Today qualifies on E-2 through E-7. E-1, Will's word, is the only condition missing.** ⚠️ **The strike rule flips between 77 and 78 as TLT crosses $78.00, and today it's crossing back and forth.** If Will approves, he should **name the strike**: the 77P (≈ $391–397, delta ≈ −0.42 each, model estimate) or the 78P (≈ $485–491, ≈ −0.48 each). Root rule #6: TLT green is the right day to buy a put.
+**Paired with WQ-357:** sell the 82P + TBT first (≈ $815–824), then buy (≤ $491.30). Cash goes up by ≈ $330 or more, and the short-duration exposure goes from ≈ $7.8k to ≈ $6.6–7.6k, re-dated from 10/16 to 12/18. That's a re-strike and re-date, **not a construction rule #21 roll**.
+**HENRY's FORUM-7 (PREMIUM-ABSORPTION, BOND co-sign pending) leaves the verdict and the structure unchanged.** It points to the **10/6–10/8 auctions as the direct test** of a premium driven by supply. That makes **Variant E2** (a BOND-graded auction failure, then the first green session) the better-evidenced trigger than today's colour. Today's green is a soft-payrolls rally against the thesis (construction rule #15). **Verdict stays CONDITIONAL.**
+
+**APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**

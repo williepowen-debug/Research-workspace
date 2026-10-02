@@ -99,3 +99,22 @@ The case for holding into the print is Will's QQQ downside view, which this desk
 > **WQ-347 (Will), Friday 10/02:** SELL the four at Fidelity's bid in the first hour after the 09:30 open (desk lean), hard stop 15:00 ET — or ROLL them to QQQ $740P Oct-09 ×4 as one net-debit order, no debit above $4.75/ct (≈ $2.7k at risk, ≈ 5.3× the $500 cap). Not hold.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution.**
+
+---
+
+## ADDENDUM 2026-10-02 Fri 09:47–09:50 ET: re-marked at the open after payrolls (PROME `prome-70`, Tier 1). The 10/01 text stands as written
+
+**Positions as of the 10/1 capture.** Quotes are **SCREENING**. yfinance through `chain_fetch.py --no-cache --legs 740` passed the leg gate, but both feeds showed nothing live until 09:47. The newest option trades are stamped 09:30–09:35, so they may be up to about 15 minutes old. **Fidelity's bid governs.**
+
+| Item | 09:47 | 09:50 |
+|---|---|---|
+| QQQ | $752.46 (+1.41% vs $742.03) | $751.98 (+1.34%) |
+| 740P Oct-02 bid / ask | 0.24 / 0.25 | **0.14 / 0.15** |
+| Four at the bid, after $2.60 fees | ≈ $93.40 | **≈ $53.40** ⇒ ≈ −$837 against $890.65 |
+| Roll to the 740P Oct-09 (ask − Oct-02 bid) | 3.62 − 0.24 = $3.38/ct ≈ $1,352 | **3.13 − 0.14 = $2.99/ct ≈ $1,196** (inside the $4.75 no-chase limit) |
+| Roll to the 740P Oct-16 | 6.63 − 0.24 = $6.39/ct ≈ $2,556 | — |
+
+**Payrolls came in soft (+29K, LABOR) and QQQ rallied about $10. The four are now 1.6% out of the money, and their remaining value is falling by the minute: 0.24 → 0.14 between pulls.** The fees ($2.60) are no reason to hold. The sale nets a positive amount down to a $0.01 bid.
+**Lean: SELL at Fidelity's bid NOW. 15:00 ET is the hard stop, not the target.** The only path that pays from here is QQQ falling 1.6% intraday, and the downside of that path is an in-the-money exercise into a weekend short (D-60). **If Will keeps the bet:** roll to the 740P Oct-09 for ≈ $3.0–3.4 a contract net. That's inside Thursday's limit, and QQQ is green, the right colour for the buy leg under root rule #6. It leaves ≈ $1.25–1.45k at risk, ≈ 2.5–2.9× the $500 cap, with no agent thesis behind it. Not Monday.
+
+**APPROVAL REQUIRED — Will must approve/reject before execution.** Memo: `PROME/inbox/2026-10-02_from-TERRY_open-remarks-WQ347-357-360.md`.
