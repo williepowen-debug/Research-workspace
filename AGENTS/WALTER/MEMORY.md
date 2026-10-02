@@ -80,6 +80,10 @@
 
 39. **A lane row's `date` is the date the ITEM was published or re-published, not the date of the EVENT, and a repost aggregator gives an old wire a fresh date.** 10/01: EnergyNow's "Oil Loadings Suspended at Saudi's Red Sea Port of Yanbu" sat in the 10/01 batch stamped 9/30. It was Reuters 9/15, and carrying it would have reversed the live "loadings resumed" state. Same day, a Petroline "restarts" item carried its true 9/22 date. **On any state-reversing item, search the exact headline before routing; the earliest dated copy is the event date.** Same class as #6, one level finer: the lane can supply the wrong date with nothing looking stale. → `[[finding_relayed_level_predates_the_event]]`
 
+40. **An item already routed is not an item that has stopped moving.** 10/02: `-002` (09:32 ET) told BRENT "no agreement is reported" on Europe's diesel release, while Macron's "G7 DECIDED" headline had posted ~09:20 ET. The later gap sweep never re-searched the diesel story because it was "covered", and the decision reached the fleet only through Will's screenshot (`-009`). **Before any sweep, and before calling a sweep done, re-search each of the day's routed STATE-DEPENDENT stories once (talks, releases, deals, strikes) and ask "what changed since I sent it?".** Same family as #29 (work after a closeout re-opens it): a dispatch is a snapshot, not a watch. → `[[finding_dated_carry_item_has_no_expiry_check]]`
+
+41. **An in-process PROME teammate is invisible to all three 9b instruments while its tree is clean.** 10/02: BRENT ran as `brent-1002` and was logged DARK (P0 PASS) on `-002`/`-003`; `ListAgents` cannot see in-process spawns, `ORCH_INFLIGHT` gets the row at delivery, and the foreign-dirty check saw nothing because BRENT's 08:39 commits had landed. PROME's message 09:34 ET corrected it (DOORBELL_LOG correction row). **When PROME is live and running spawns, a "dark" verdict on an ACTION recipient is UNKNOWN until PROME's own teammate list says otherwise. Name it UNKNOWN in the row, and let the doorbell to PROME double as the question.**
+
 **✅ RETIRED 2026-09-01 — the two-branch-test-sharing-a-premise finding (2026-08-03) is PLACED:** PROME landed it as the n=5 extension of `[[finding_enumerated_mechanism_test_hides_a_completeness_claim]]` (8/31 night, packet filed to WALTER 9/1) and the test now sits in bold in `FORGE/PREDICTION_DISCIPLINE.md` § Registration. *(Was: "owed, not placed — WALTER cannot file to a PROME-owned surface." The obligation discharged the way it was supposed to: a packet, then the owner's write.)*
 
 ## References
@@ -91,16 +95,17 @@
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION — 2026-10-01 Thu, Full WALTER (Claude Opus 5.5): morning `walter-54` (laptop) + desktop `walter-90` (Tier-2 13:14 ET) + evening `walter-c3` (booted ~16:16 ET, Tier-2 ~19:1x ET)
+### CHANGES SINCE LAST SESSION — 2026-10-02 Fri, Full WALTER (Claude Opus 5.5): `walter-61` desktop, booted ~09:24 ET, Tier-2 ~11:5x ET
 
-- **BOARD 1112 → 1148 for the day.** Evening (`walter-c3`): `-021`…`-024` found as `walter-90` post-closeout work (#29 n=6); 12 own dispatches `-025`…`-036` (PMMS 7.28 → HOMER · diesel threat → BRENT · Petroline 5.5 → FALCON · NCLH → CRUISE · CREED MF → HOMER · CleanSpark → LIQUID · ECB/NL → HANS · SB 951 → LABOR · UKMTO 147-26 → FALCON · PBF → BRENT · FedWatch → BOND · RSP → HENRY).
-- **Lane:** 54 NEW dispositioned, `--mark` run (+54/−1). Megacap rule applied (Micron 8-K opened; VULCAN already graded). Date trap killed (#39).
-- **Tool:** `intake_scan.py` coverage message now reports the newsweep job status + `degraded_reasons` (PROME L569 ask).
-- **Own errors, caught before commit:** `-025` first said the 15Y figure was unconfirmed (it was on the page) and lacked the 11/2022 method-change caveat; `-027` attributed a search-summary line to Argus; `-031` inferred an ECB link to the sell-off; DOORBELL rows for `-026`/`-027` omitted at dispatch (added at closeout). **One uncaught until review:** Will's email went in the SEC user-agent header (matches the lane's own config, but unasked).
-- **All 107 of today's handoffs on origin** at the closeout (other sessions' pushes carried WALTER's commits; reconciled).
+- **BOARD 1148 → 1158** (`-001`…`-010`, 43 handoffs, all on origin via PROME's push train plus one self-push of IMMEDIATE `-005`). Count check at boot: STATUS 1148 = INDEX 1148, so no post-closeout work from 10/01 (#29 did not recur).
+- **Routed:** NFP +29K → BOND · EU diesel proposal → BRENT, superseded by the **G7 100M bbl decision** (`-009`, Will's screenshot) · carrier relief vs +9–10K troops → FALCON (closes BRENT's gap flag) · EA HICP 3.8%/core 2.5% → HANS · **HY 324 one tagged print → RED/REGINALD/HENRY** (LIQUID doorbell) · 7 CRE cases → CREED (named-case feed) · Jefferson → BOND · Taiz → FALCON · Volgograd/Samara → OSPREY.
+- **Inbox:** DAEDALUS PR#7 applied (CLAUDE.md push line now cites BCS §7) · PROME WQ-359 (SEC contact string KEEP) · BROCK watch terms (deferred test) · LIQUID HY 324 · CARL DR-1 (deadline → 11/13, DOCKET line 567 verified).
+- **New findings #40, #41** (above). **Own errors:** `-002`'s "no agreement" stale at write; BRENT logged DARK while in-flight; `-001`…`-005` carried free-text `confidence_language` instead of the band words (fixed from `-006`).
+- **Spawn-order memo** to PROME (Will-requested): BOND spawned; FALCON/HANS/HOMER on Will's slate; RED/REGINALD to Monday's HY print.
 
 ### NEXT SESSION
 1. `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS = the complete obligation list.
-2. **Boot check first: STATUS BOARD count (1148) vs INDEX count, and `git rev-list --left-right --count HEAD...origin/master` (the closeout commit itself may be unpushed).**
-3. **Fri 10/02:** NFP · FRED 10/01 HY vs >320 (8bp at 312) · RSP 7th-week close · UK 30Y vs 6.00 (HANS's) · EA HICP flash.
-4. `reconcile_delivery_log.py --apply` if any row reads pending.
+2. **Boot check first: STATUS BOARD count (1158) vs INDEX, and ahead/behind.**
+3. **The 10/02 afternoon intake-lane run was NOT processed** (it lands ~14:00–17:00 ET; this session closed at ~12:00 ET). Run `intake_scan.py` and route it, date-checking first (#39).
+4. **Mon 10/05 ~10:15 ET:** FRED HY 10/02 obs → FT-02 / REG-T-03 count (2 of 3 or reset).
+5. Re-search the day's routed state-dependent stories before any sweep (#40).

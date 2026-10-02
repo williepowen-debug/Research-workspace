@@ -1,3 +1,37 @@
+## 2026-10-02 Fri — `walter-61` **TIER-2 CLOSEOUT** (2026-10-02T15:56:45Z from `date`, Will: "Lets have WALTER close out here"). Booted ~09:24 ET on Will's "please boot up" (desktop). Day: BOARD 1148 → 1158, 10 signals `-001`…`-010`, 43 handoffs, all on origin (pushed via PROME's train + one self-push of IMMEDIATE `-005`). Morning news (NFP, EU diesel → G7 100M bbl decision, carrier relief, EA HICP), LIQUID's HY 324 one-print doorbell, a Will-directed gap sweep (CRE cases, Jefferson, Taiz, Volgograd/Samara), spawn-order memo to PROME. No WALTER-scanned registered trigger fired (FT-02 / REG-T-03 at 1 of 3).
+
+> **Rotated VERBATIM from STATUS at the 10/02 Tier-2 (the `walter-c3` 10/01 evening header + bottom line + dated market observations):**
+>
+> **Updated 2026-10-01T23:08:14Z (19:1x ET Thu 10/01, from `date`), TIER-2 CLOSEOUT of `walter-c3` (Claude Opus 5.5; desktop boot ~16:16 ET on Will's "please boot up"; Will: "okay lets close out here").** 🔴 **MARKETS CLOSED at the cut: equity/vol/FX = 10/01 close (vendor, pulled ~16:16 ET); FRED rows = the 9/30 print (10/01 posts 10/02 AM). EACH CELL SAYS ITS BASIS.** Current obligations: [LAST_COMPLETION.md](LAST_COMPLETION.md). Delivery state: the LAST_COMPLETION closeout receipt.
+>
+> ## BOTTOM LINE
+>
+> **Thursday 2026-10-01 ends at BOARD 1148 (36 signals today, `-001`…`-036`); no WALTER-scanned registered trigger crossed.** Evening (`walter-c3`, BOARD 1132 → 1148): `-021`…`-024` were dispatched by `walter-90` AFTER its 13:14 Tier-2 (6th post-closeout instance, MEMORY #29) and are recorded here. 🔴 **The evening's shape: rates pressure reaching Main Street and a product squeeze still building.** `-025` **Freddie Mac 30Y 7.28% [10/01], +25bp — the largest weekly rise since 10/2022** (largest ever under the post-11/2022 method; HOMER's pre-registered HOLD) → HOMER · `-026` **US presses France/Germany to release 120M bbl diesel reserves or face a targeted US export ban** (Reuters, anonymous, via relays; no order) + Russia's diesel ban to 10/31 → BRENT · `-033` **UKMTO 147-26: tanker hit by unknown projectile in Hormuz 1750Z 10/01, fire, crew safe — losses stay 3**; a Yanbu-terminal fire video is **UNVERIFIED** → FALCON · `-027` Petroline ~5.5 mb/d (Argus, one source; third estimate, do not average) → FALCON · `-035` FedWatch Oct hike ~26% (**screenshot undated**) → BOND. Plus NCLH pre-announce (`-028`), CREED MF relay (`-029`), CleanSpark/Meta HY (`-030`), ECB/NL storage (`-031`), CA SB 951 (`-032`), PBF Paulsboro (`-034`), RSP 6–7 down weeks (`-036`). **Kills that mattered:** EnergyNow "Yanbu loadings suspended" = Reuters 9/15 date trap; Nano Banc re-coverage (failed 9/25, held).
+>
+> 🔑 **Fleet context:** live at the cut (`ListAgents` 19:07 ET): `prome-2f`, `red-6e` (busy), `fert-5c`, `nexus-4f`, `daedalus-e2`, `terry-b2` (idle). **Owed next: 10/02 NFP · FRED 10/01 HY vs >320 (8bp at 312) · RSP 7th week at Fri close · BOND dated FedWatch · confirm the closeout commit reached origin · boot_basis re-review (9 files).**
+>
+> ## DATED MARKET OBSERVATIONS — re-cut 2026-10-01 after the close; **EVERY CELL CARRIES ITS OWN BASIS AND DATE**
+>
+> | Row | Dated result and limit |
+> |---|---|
+> | RED-FT-01 / -12 (HY OAS) | 🔴 **312 bp [FRED 9/30]** (9/25 293 · 9/28 302 · 9/29 308). FT-12 `<260` 52 bp above · **FT-02 / REG-T-03 `>320 s3` 8 bp** · REG-T-04 `>350` 38 bp. **10/01 print posts 10/02 AM** |
+> | LIQ-07 (LIQUID) | **FIRED 3/3, trigger date 9/30**; S1/S2 verdict ~10/15–16 (`-005`) |
+> | RED-FT-07 (CCC OAS) | **1,179 bp [FRED 9/30]**, FIRING-BANKED. CCC effective yield **16.72% [FRED 9/30]** = same index + rates leg, not a second witness |
+> | RED-FT-06 (VIX) | **^VIX 16.43 [10/01 close]**; VIXCLS 16.34 [9/30]. FIRED-BANKED, exit `≥18 s5` at 0 |
+> | RED-FT-10 (SKEW) | 141.92 [CBOE 9/30]; `≥150 s4` 0-of-4 |
+> | UST 10Y / 30Y | **^TNX 5.24 · ^TYX 5.60 [10/01 close]**; DGS10 5.29 / DGS30 5.64 [9/30] |
+> | Mortgage (HOMER's) | **PMMS 30Y 7.28% [10/01]**, 15Y 6.60%; HOMER RED band (>7.0) second print (`-025`) |
+> | RED-FT-08 / -09 | core CPI 3-mo ann. 1.97% [Aug] · T5YIFR 2.36 [FRED 9/30] |
+> | RED-FT-05 / REG-T-05 (claims) | **197K [w/e 9/26, FRED ICSA]** |
+> | Brent / WTI | **BZ=F $102.55 [10/01, last-day Oct contract — no daily delta, ADD#23]** · **CL=F $93.18 (CLX26) [10/01]**. No registered Brent line near |
+> | SPR / Cushing | SPR 283.8M [EIA wk 9/25] + 40M bbl exchange offered (`-019`) · Cushing **24.301M [EIA wk 9/25]** |
+> | REG-T-01 / -02 (KRE / WAL) | **KRE $69.95 · WAL $75.70 · ZION $62.65 [10/01 close]**. WAL <78 = **re-entry inside REG-T-02's fired state** (fired 9/01, owner-graded; exit `≥81.90 ×3` unmet) — not a new fire |
+> | USD/JPY · JGB | **158.05 [10/01]** · JGB 10Y 3.109 / 30Y 4.192 [LSEG 10/01] (`-012`) |
+> | HANS-T (Europe) | T-13 UK 30Y close 5.943 [TE 10/01] (HANS's) · T-07 **TTF €73.01 [10/01]** (L2 >66 open since 8/28) · EURUSD 1.12 · T-10 France FIRED · storage gap HANS-F-004 open [AGSI 9/17] |
+> | CREED-T | T-08a FIRED 9/26 (owner). Sept Trepp print NOT confirmed |
+> | Iran anchor | FULL SWEEP 10/01 morning · losses 3 · **UKMTO 147-26 (10/01 1750Z) + 146-26 (9/30, unread) to reconcile (FALCON)** · marks B1/C14/D85 · FAL-01 NOT fired · **next FULL ~10/08** |
+> | Calendar | **10/02** NFP · EA HICP flash · FRED 10/01 HY · RSP week close · **10/05** WQ-318 · **10/06** WQ-252 · **10/07** BRT-31 · China export restart after 10/07 · **~10/09** FDIC Nano Banc P&A (L516) · 10/13 LABOR KS WARN · mid-Oct Roosevelt/Makin Island arrive |
+
 ## 2026-10-01 Thu — `walter-c3` **TIER-2 CLOSEOUT** (2026-10-01T23:08:36Z from `date`, Will: "okay lets close out here"). Booted ~16:16 ET on Will's "please boot up" (desktop). Day: BOARD 1132 → 1148 (`-021`…`-036`; `-021`…`-024` dispatched by `walter-90` 14:33 ET AFTER its 13:14 Tier-2 — 6th post-closeout instance, MEMORY #29, caught by the boot STATUS-vs-INDEX count 1132 vs 1136). 12 own dispatches: `-025` PMMS 7.28 (Will FT link) · `-026` US diesel-ban threat to FR/DE + Russia ban to 10/31 · `-027` Petroline ~5.5 mb/d (Argus, one source) · `-028` NCLH pre-announce · `-029` CREED MF relay → HOMER · `-030` CleanSpark/Meta HY · `-031` ECB pricing + NL storage mandate · `-032` CA SB 951 · `-033` UKMTO 147-26 + Yanbu video UNVERIFIED · `-034` PBF Paulsboro · `-035` FedWatch (undated screenshot) · `-036` RSP 6–7 down weeks. Batches BM-20261001-07 (3) and -08 (9) closed. Intake lane 54 NEW all dispositioned, `--mark` run. Tool: `intake_scan.py` coverage message keyed on newsweep job status (PROME L569 ask). Inbox: PROME L569 + CREED 10/01b/c consumed. All 107 of the day's handoffs on origin at the closeout (other sessions' pushes carried them; reconciled).
 
 > **Rotated VERBATIM from STATUS at the 10/01 evening Tier-2 (the `walter-90` 13:14 Tier-2 header + bottom line + fleet context):**
