@@ -132,3 +132,27 @@ The case for holding into the print is Will's QQQ downside view, which this desk
 - At the 09:50 screening marks, a 735–740 strike bid was **0.14–0.43** ⇒ about **$14–43** for one. Re-mark it once Will gives the strike.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution.**
+
+### ADDENDUM 2026-10-02 10:5x ET: roll expiry vs the 10/2–10/16 event calendar (Will 10:50 via PROME). ⛔ THIS CARD'S OCT-09 ×4 ROLL RECOMMENDATION IS WITHDRAWN
+
+The full read is in `PROME/inbox/2026-10-02_from-TERRY_roll-expiry-vs-calendar.md`.
+
+**Live legs, 10:53 ET** (QQQ $752.87, all leg-gated, screening, ~15 minutes old):
+
+| Roll | Ask | Dollars at risk | vs the $500 cap |
+|---|---|---|---|
+| Oct-09 740P ×4 | 2.41 | ≈ $967 | 1.9× |
+| Oct-16 740P ×4 | 5.09 | ≈ $2,039 | 4.1× |
+| Oct-16 740P ×1 | 5.09 | $509.65 | **over the cap at this ask; fits only with a limit ≤ $4.99** |
+
+**Events:** Oct-16 spans the CPI, PPI, retail sales, big-bank and TSMC cluster on 10/13–10/15, which falls after Oct-09 expires (HENRY, BROCK, CARL, LABOR). ⚠️ Oct-16 is OPEX day.
+
+**Lean: DO NOT ROLL.** Sell the four (plus the unconfirmed Robinhood fifth) by 15:00 today. Let `TRY-COND-QQQ-DATED-DOWNSIDE` (WQ-365) carry the view:
+- Construction rule #16: neither 7 nor 14 days matches a weeks-to-months view.
+- Root rule #7 and the $500 cap can't both be met by any roll. That is construction rule #21(b)'s "opposite directions" signal, and it points to closing.
+
+**If Will rolls anyway:** **Oct-16 ×1, limit ≤ $4.99**, recorded as "sell three, roll one". The 735s are then sold, or rolled to Oct-09, never to 10/16.
+
+The withdrawn Oct-09 ×4 form was 1.9× the cap and missed week 2. It was written before WQ-365 existed and before the events were mapped.
+
+**APPROVAL REQUIRED — Will must approve/reject before execution.**
