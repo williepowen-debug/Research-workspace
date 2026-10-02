@@ -60,10 +60,22 @@
 
 **APPROVAL REQUIRED — Will must approve/reject before execution.**
 
+## Addendum 10:5x ET: LIQUID and OZK calendars folded in. **The read does not change**
+
+- **LIQUID:**
+  - **Inside both expiries:** the daily HY cells (10/2 obs Mon 10/5 ~10:15) · the auctions (all settle 10/15) · FOMC minutes 10/7 14:00 (V) · the Q3-end persistence verdict 10/8 · H.4.1 10/8.
+  - **Only Oct-16 sees:** the bank prints · CPI · the **$119B coupon settlement drain (10/15)** with the GATE-LIQ-069 review · the **LIQ-07 S1/S2 verdict prints (10/15–16)**.
+  - LIQUID's line: *"Oct-16 holds more of the credit-relevant calendar."* That agrees with HENRY.
+- **OZK:**
+  - **HBAN reports Thu 10/22, AFTER the HBAN Oct-16 16P ×2 expire.** That is noted on `MGMT-HBAN16P-OCT16` for the WQ-302 decision point (Wed 10/14). The line's last morning carries only peer prints (MTB/TFC/CFG/RF, 10/16 pre-open) plus OPEX.
+  - WAL's Q3 date is not announced (EST. 10/20–22).
+- **The effect on the 740s:** the case for **Oct-16 over Oct-09, if rolled,** gets stronger. Credit-leads evidence (LIQ-07, the settlement drain, the bank prints) lands in week 2.
+- **It does not touch the no-roll lean.** **WQ-365's own window (10/5–10/16) and its credit leg (HY ≥ 321 on two cells) are built to consume exactly that week-2 credit evidence.** That is a further reason not to hold a separate short-dated QQQ bet on the same evidence.
+
 ## COMPLETION — TERRY — 2026-10-02 (roll expiry vs calendar)
 STATUS: ✅ DONE
-CHANGED: PROME/inbox/2026-10-02_from-TERRY_roll-expiry-vs-calendar.md; AGENTS/TERRY/setups/QQQ740P_oct02-sell-or-roll_2026-10-01.md (addendum)
+CHANGED: PROME/inbox/2026-10-02_from-TERRY_roll-expiry-vs-calendar.md; AGENTS/TERRY/setups/QQQ740P_oct02-sell-or-roll_2026-10-01.md + HBAN_oct16-16P_ITM-management-card_2026-09-26.md (addenda)
 RESULT: 10:53 legs: Oct-09 740P ask 2.41 (×4 ≈$967 at risk, 1.9× cap) · Oct-16 ask 5.09 (×4 ≈$2,039, 4.1×; ×1 $509.65 = $9.65 over cap; fits only at ≤$4.99). Events: Oct-16 covers CPI/PPI/retail/banks/TSMC (10/13–15) that Oct-09 misses (OPEX-day caveat). TERRY: no roll (rule #16 + rule #7-vs-cap conflict; WQ-365 carries the view); if rolled, Oct-16 ×1 at ≤$4.99 = "sell three, roll one". Withdraws own Oct-09 ×4. Differs from PROME on whether to roll.
-GAPS: LIQUID's event memo not landed at 10:53; option quotes ~15 min old; Robinhood put strike unknown.
+GAPS: (LIQUID + OZK folded at 10:5x, no change); option quotes ~15 min old; Robinhood put strike unknown.
 WILL_NEEDS: WQ-347: sell the four (TERRY) or Oct-16 ×1 (PROME/TERRY if rolling), by 15:00 today.
 FOLLOW-UP: Record Will's fills on doorbell; fold LIQUID's events if it changes week assignment.

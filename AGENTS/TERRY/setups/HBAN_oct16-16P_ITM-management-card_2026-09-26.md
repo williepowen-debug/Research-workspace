@@ -149,3 +149,17 @@
 **APPROVAL REQUIRED — Will must approve/reject before execution.** No trade is proposed, and the 7/18 ruling is not re-ruled here (WQ-292: *"this authorizes preparation, not trades"*). `$0` moved · no order · no gate or threshold moved. — TERRY
 
 *Card-ID note: `MGMT-` is deliberately not a `TRY-` id. `SETUPS.tsv` is at its rotate tier with a rotation owed first (STATUS 2026-09-25). The registry row is in `setups/INDEX.md` beside the retired stub's row.*
+
+---
+
+## ADDENDUM 2026-10-02 Fri 10:5x ET: event calendar to the 10/16 expiry (OZK `PROME/inbox/2026-10-02_from-OZK_events-10-02-to-10-16.md`). The text above stands
+
+- **HBAN reports Thu 10/22 at 09:00 ET** (IR page, VERIFIED by OZK). That is **AFTER these two puts expire (Fri 10/16)**, so **the line never sees HBAN's own print.**
+- **The expiry morning carries four peer prints before the open:** MTB (call 08:00) · TFC (08:00) · CFG (09:00) · RF (10:00). It also carries **monthly OPEX**.
+  - Earlier in that week: JPM / WFC / Citi / GS 10/13, BAC / MS 10/14, USB 10/15, and CPI 10/14.
+- **What it means for the WQ-302 rail** (dated decision Wed 10/14 by the close; hard backstop Fri 10/16 before 16:00):
+  - Holding past Wed 10/14 buys exposure to **peer** prints only, on the last morning, with expiry-day exercise risk in the IRA (D-60).
+  - No own-print catalyst exists inside the line's life.
+  - The construction-rule #18 envelope (regional-bank 1-day moves: median 2–3%) applies to peers' read-through at most.
+  - **No lean change is made here.** Re-mark at the 10/14 decision point at the live chain.
+- `$0` MOVED · NO ORDER.
