@@ -50,7 +50,7 @@ def rows(text, path):
     return result
 
 
-def probability(row):
+def probability(row, interpretations=()):
     """Candidate detection only; no tiers, ranges or embedded narrative odds."""
     names = [s.strip().lower() for s in row['header']]
     if 'confidence' not in names:
@@ -61,11 +61,25 @@ def probability(row):
         return float(match[1]) / 100
     # Numeric-looking annotations need a human decision before later slots fill.
     if re.search(r'\d', value):
+        matches = [d for d in interpretations
+                   if d['key'] == row['key'] and d['commit'] == row['commit']]
+        if matches:
+            if len(matches) != 1:
+                raise ValueError('duplicate probability interpretations')
+            decision = matches[0]
+            leading = re.match(r'^(\d{1,3}(?:\.\d+)?)(?:%\s+[\[(]|pct$)', value)
+            if (decision['blob'] != row['blob'] or decision['confidence'] != value
+                    or not decision.get('reason') or not decision.get('evidence')
+                    or not leading or not 0 <= float(leading[1]) <= 100
+                    or decision['p'] != float(leading[1]) / 100):
+                raise ValueError('probability interpretation evidence/value mismatch')
+            row['probability_interpretation'] = decision
+            return decision['p']
         raise ValueError(f'ambiguous numeric confidence: {value!r}')
     return None
 
 
-def collect(repo, config, pin):
+def collect(repo, config, pin, interpretations=()):
     base = config['baseline_commit']
     pin = git(repo, 'rev-parse', pin + '^{commit}').strip()
     git(repo, 'merge-base', '--is-ancestor', base, pin)
@@ -114,7 +128,7 @@ def collect(repo, config, pin):
             seen.add(key)
             if not in_window or len(selected) >= config['limit']:
                 continue
-            p = probability(entry)
+            p = probability(entry, interpretations)
             if p is None:
                 skipped.append({**entry, 'reason': 'NO_NUMERIC_PROBABILITY_AT_FIRST_APPEARANCE'})
             else:
@@ -165,7 +179,9 @@ def main():
     try:
         repo = Path(git(HERE, 'rev-parse', '--show-toplevel').strip())
         config = json.loads((HERE / 'config.json').read_text())
-        result = collect(repo, config, args.pin)
+        decision_path = HERE / 'probability_interpretations.json'
+        interpretations = json.loads(decision_path.read_text()) if decision_path.exists() else []
+        result = collect(repo, config, args.pin, interpretations)
         if args.write:
             write_capture(HERE / 'capture.json', result, repo)
         print(json.dumps({'through_commit': result['through_commit'],

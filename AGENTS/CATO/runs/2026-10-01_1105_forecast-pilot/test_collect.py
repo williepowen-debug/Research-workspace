@@ -76,6 +76,62 @@ class CaptureTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'ambiguous numeric'):
             self.collect()
 
+    def test_exact_interpretation_preserves_annotation_and_versions(self):
+        commit = self.commit('new\tQ\t50% (carried mark)\tOPEN\n')
+        decision = dict(key='EXAMPLE/new', commit=commit,
+                        blob=self.run_git('rev-parse', commit + ':' + PATH).strip(),
+                        confidence='50% (carried mark)', p=.5,
+                        reason='Explicit original percentage', evidence='fixture original')
+        self.commit('new\tChanged Q\t70%\tOPEN\n')
+        result = m.collect(self.repo, self.config, 'HEAD', [decision])
+        self.assertEqual(result['selected'][0]['fields'][2], decision['confidence'])
+        self.assertEqual(result['selected'][0]['p_original_candidate'], .5)
+        self.assertEqual(result['selected'][0]['probability_interpretation'], decision)
+        self.assertEqual(result['later_versions'][0]['fields'][2], '70%')
+        for field, value in [('key', 'OTHER/new'), ('commit', self.base),
+                             ('blob', 'wrong'), ('confidence', '50% (other)'),
+                             ('p', .7), ('evidence', ''), ('reason', '')]:
+            with self.subTest(field=field):
+                bad = {**decision, field: value}
+                with self.assertRaises(ValueError):
+                    m.collect(self.repo, self.config, 'HEAD', [bad])
+        with self.assertRaisesRegex(ValueError, 'duplicate'):
+            m.collect(self.repo, self.config, 'HEAD', [decision, decision])
+
+    def test_unreviewed_annotation_and_range_still_stop(self):
+        self.commit('new\tQ\t50% (not reviewed)\tOPEN\n')
+        with self.assertRaises(ValueError):
+            self.collect()
+        commit = self.commit('range\tQ\t50-60%\tOPEN\n')
+        decision = dict(key='EXAMPLE/range', commit=commit,
+                        blob=self.run_git('rev-parse', commit + ':' + PATH).strip(),
+                        confidence='50-60%', p=.5, reason='Invalid choice', evidence='fixture')
+        row = dict(key=decision['key'], commit=commit, blob=decision['blob'],
+                   header=['confidence'], fields=['50-60%'])
+        with self.assertRaises(ValueError):
+            m.probability(row, [decision])
+
+    def test_pct_requires_exact_review(self):
+        commit = self.commit('new\tQ\t70pct\tOPEN\n')
+        with self.assertRaises(ValueError):
+            self.collect()
+        decision = dict(key='EXAMPLE/new', commit=commit,
+                        blob=self.run_git('rev-parse', commit + ':' + PATH).strip(),
+                        confidence='70pct', p=.7, reason='pct means percent', evidence='fixture')
+        result = m.collect(self.repo, self.config, 'HEAD', [decision])
+        self.assertEqual(result['selected'][0]['p_original_candidate'], .7)
+
+    def test_conditional_annotation_preserved_not_repriced(self):
+        value = '40% [P(MET | fired); base MET 46 / NOT MET 32 / NV 22]'
+        commit = self.commit('new\tConditional Q\t' + value + '\tOPEN\n')
+        decision = dict(key='EXAMPLE/new', commit=commit,
+                        blob=self.run_git('rev-parse', commit + ':' + PATH).strip(),
+                        confidence=value, p=.4, reason='Explicit first mark', evidence='fixture')
+        result = m.collect(self.repo, self.config, 'HEAD', [decision])
+        self.assertEqual(result['selected'][0]['p_original_candidate'], .4)
+        self.assertEqual(result['selected'][0]['fields'][2], value)
+        self.assertNotIn('outcome', result['selected'][0])
+
     def test_malformed_candidate_fails_but_existing_defect_does_not_enroll(self):
         self.commit('old\tOld malformed\nnew\tQ\t60%\tOPEN\n')
         self.assertEqual(len(self.collect()['selected']), 1)

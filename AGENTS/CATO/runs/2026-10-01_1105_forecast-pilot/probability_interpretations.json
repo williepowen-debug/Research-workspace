@@ -1,0 +1,35 @@
+[
+  {
+    "key": "CARL/CRL-31",
+    "commit": "2288ba0321164b6e10504c0a1700bb44da033701",
+    "blob": "60421712f87a9ed0e192ffca202241124b36cbf3",
+    "confidence": "50% (carried from CRL-27's 2026-09-10 post-strike mark on this identical letter - registered without an evidence re-price; first reachability check at the Q3 prints ~2026-10-20)",
+    "p": 0.5,
+    "reason": "Explicit 50% confirmed by same-commit CHANGELOG; annotation describes carryover, not another probability. Successor eligibility remains separate and unscored.",
+    "evidence": "2288ba0321164b6e10504c0a1700bb44da033701:AGENTS/CARL/thesis/CHANGELOG.md, October 1 CRL-27 -> CRL-31 entry",
+    "reviewed_by": "CATO",
+    "reviewed_at": "2026-10-02"
+  },
+  {
+    "key": "RED/RED-25",
+    "commit": "48c610e00972ca8012f7b750cf89c0dc9524307f",
+    "blob": "46d3fe33fc0566b426b721032e90876031343d98",
+    "confidence": "70pct",
+    "p": 0.7,
+    "reason": "The original Confidence cell expresses 70 percent using pct; this is not the p-value threshold in the separate Prediction cell.",
+    "evidence": "48c610e00972ca8012f7b750cf89c0dc9524307f:AGENTS/RED/workbook/PREDICTIONS.tsv RED-25 Confidence cell; original packet cceffb270:AGENTS/CARL/inbox/2026-10-01_from-RED_DR-3-premium-leg-converging-downward-red-team.md read for claim context",
+    "reviewed_by": "CATO",
+    "reviewed_at": "2026-10-02"
+  },
+  {
+    "key": "BRENT/BRT-31",
+    "commit": "85d7d18781dcfb36e2df8f05a644872ded2772c8",
+    "blob": "b9ea5871cb483a6855cf9b24ee3eebb2b76c8651",
+    "confidence": "40% [Date_Made 2026-10-01; first call = P(MET | not NOT-FIRED), BRT-29 convention; base graded by the letter: NOT-FIRED 22%, if fired MET 46 / NOT MET 32 / NV 22; equal-weight MET 43; carries >= \u00b115 pts]",
+    "p": 0.4,
+    "reason": "40% is explicitly the first-call conditional P(MET | not NOT-FIRED), confirmed in the original note and v2 letter. Other numbers are base rates, not replacement odds; binary scoring eligibility remains unresolved.",
+    "evidence": "85d7d18781dcfb36e2df8f05a644872ded2772c8:AGENTS/BRENT/thesis/prediction_notes/BRT-31.md; 98d07c696:AGENTS/BRENT/setups/2026-09-30_BRT-31-path-B-successor-DRAFT-v2.md section 2",
+    "reviewed_by": "CATO",
+    "reviewed_at": "2026-10-02"
+  }
+]
