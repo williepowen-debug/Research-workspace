@@ -1,6 +1,7 @@
 ---
 name: project_public_prep_anthropic_fellows
 description: "repo being prepped public as portfolio for Will's Anthropic Fellows (Economics & Policy) application; Track A declutter DONE, Track B history-scrub DONE+verified 6/30 (b01c0346), FRED key rotated 7/4 — remaining gate = Will's public-flip (+ post-flip verify)"
+symptoms: "Anthropic fellowship status · did Will hear back · Fellows application · policy and econ fellowship · is the application dead"
 metadata: 
   node_type: memory
   type: project
@@ -18,5 +19,7 @@ Will is prepping this repo to go public as the centerpiece portfolio artifact fo
 **Track A — readability today: DONE 2026-06-30.** git-rm clutter from the current tree (no history rewrite). 5,303 → ~3,920 tracked files (~26%). Cut: `/docs` OpenClaw vestiges (8), `dashboard/` web app + `TOOLS.md` (dead OpenClaw infra; server.py held a dead telegram token), pure junk (`_trash`/pycache/recovered), emptied every `processed/`+`delivered/` container (915 signals; KEPT the containers via `.gitkeep` per Will — "keep the concept, clear the churn"), 0-ref agent archives (~320). KEPT: referenced archives (`PROME/archive`, `AGENTS/_archive`, `FORGE/_archive`, `REGINALD/archive` etc.), `BOARD/` (live → route to WALTER to thin), `memory/` daily logs, current unprocessed inbox. README overhauled + fixed (markdown structure, dead `.clawhub/` citation → real Feb evidence, commit# rounded).
 
 **Track B — history scrub: ✅ DONE + verified 2026-06-30** (updated 7/17 — this paragraph had gone stale): targeted `git filter-repo` pass complete (final `b01c0346`, fresh-clone verified clean; plan/manifest/lesson → `PROME/public-prep/HISTORY_SCRUB_PLAN.md`). The last credential blocker cleared 7/4 (FRED key rotated end-to-end, history-exposed old key deleted at the issuer). **Remaining gate = Will flips the repo public** (deliberate wait, don't nag) → then Phase-5 post-flip verify + delete the desktop mirror backup.
+
+**Application status (Will, 2026-10-01 23:04 ET, by screenshot):** the application is LIVE, not dead. Will completed the technical assessment, heard nothing past the two weeks its email quoted, and checked in on 10/1 16:30 ET; the Fellows applications team replied 16:45 ET that it is *"still under active consideration"* with no update yet and that they are *"aiming to finalize all decisions by early October"*. Read it as a holding reply, not a signal either way. Nothing is owed by PROME; if they ask for follow-up material, the portfolio pieces named above are the ones to reach for.
 
 **Next:** essay revision after Will's edits (essay still not final). Related: [[finding_passive_surface_rot_push_not_dashboard]] (why the dead infra rotted) · [[finding_history_scrub_verify_by_content_not_pickaxe]].
