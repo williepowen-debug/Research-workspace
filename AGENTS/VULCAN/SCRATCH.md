@@ -1,4 +1,25 @@
-> # ⛔ 2026-10-01 (Thu) — READ THIS BLOCK FIRST. PROME-spawned Tier-1 session (DOCKET L547, WQ-184 driver; prome-2a), boot 11:05 ET (`date`), markets open. Task: grade Micron FQ4 · dispose past-due register rows · drain the whole inbox. **All three done.**
+> # ⛔ 2026-10-02 (Fri) — READ THIS BLOCK FIRST. PROME-spawned Tier-2 session (DOCKET L564 FRIDAY POST-CLOSE SLOT, prome-96, above-cap under Will's in-session authorization), boot 16:01 ET (`date`), markets closed. Task: `mag7.py` slot 4 + GPU reading 4 + consume -012 + consume -024 + close out. **All five done; +3 lower-priority WALTER signals consumed; +1 PROME packet; +1 TERRY ACK/starter packet.**
+>
+> ## ONE LINE: **Breadth 63d RSP−SPY went +3.70pp → −5.07pp in 30d — 8.77pp into the collapse neighbourhood, 2.4pp from the red band's leg. Mag-7 34.5445% (still 5.5pp from 40%), band stays YELLOW on the AND. Composite 14/25 HELD, no score moved.** GPU_SERIES first row written: indices BOTH UP since 9/13 freeze (SDH100RT +9.5%, OCPI +5.0%); on-demand mean $4.64/GPU-hr (Nebius +16.9% effective 10/01). AMZN $8B SPV (-012) = capex funded differently NOT cut; Toshiba HDD (-024) = storage crack OUTSIDE S2's memory cell.
+>
+> ## ▶ START HERE NEXT SESSION
+> 1. 🔴 **10/05 Mon 08:30 ET: TERRY ask reply due.** Starter material in `AGENTS/TERRY/inbox/2026-10-02_from-VULCAN_ack-deferred-expression-ask.md` — four points pre-drafted. The ask itself stays in `AGENTS/VULCAN/inbox/2026-10-02_from-TERRY_expression-comparison-evidence-ask.md`. **If PROME spawned you Mon early AM, this is the task.**
+> 2. **10/05: APPLY GPU spec §7a (pre-written 9/29) — do not re-decide.** Compute-futures CME/ICE listing decides §7a branch.
+> 3. **10/09 Fri post-close: four-instrument cluster** = `mag7.py` slot 5 + `gpu_panel.py` reading 5 + TSMC September 6-K (`tsmc_watch.py`) + MU 10-K window check (⚠️ `edgar_watch.py` prints the window off the refuted 8/27 period end — true FY end 9/03, so expect ~1 week later than its printed window).
+> 4. **~10/28 hyperscaler cluster = §4b flip + the next kill-rail rewrite + PROME's disinflationary-productivity falsifier** (register row; 11/15 backstop).
+> 5. **Housekeeping owed (unchanged from 10/01):** archive the four 10/01-graded PREDICTIONS rows by ROW · `semi_watch.py` UTC-stamp fix [L-38] · `edgar_watch.py` MU 52-week display defect · the S2 spot series needs a NEW cadence before it resumes (38 days stale) · TRADE.md 35 days stale (not touched this spawn).
+> 6. 🔴 **If PROME lands the WALTER R3 adopt-rejection in `newsweep_config.py`:** verify in the config at the next boot that the final set is 10 phrases (`Meta force majeure` dropped).
+>
+> ## WHAT THIS SESSION DID
+> - **Git:** did not pull (HENRY has uncommitted work in the tree); `origin/master` fetched OK, no re-base needed.
+> - **Instruments:** `mag7.py` slot 4 WRITTEN (34.5445% / 8.4545% NVDA / breadth −5.07pp 3.7th pctile / band YELLOW, 54.0% T1 share of 63d index move); `gpu_panel.py` reading 4 WRITTEN (first row; 10 TSV rows). Each hand-read URL re-fetched today via WebFetch; Nebius $3.85 → $4.50 effective 10/01 (+16.9%); both indices UP since freeze.
+> - **Grades:** `-012` S5 structure n=2 at hyperscaler layer, NO band fire, KB-191; S1 gate UNMOVED (capex funded differently, not cut), leading indicator OPPOSITE direction. `-024` HDD outside S2's cell, memory read unchanged, KB-192 as potential S2 precursor pattern if a 3rd supplier breaks capacity discipline inside memory. Lower-priority: `-014` noted (not VULCAN domain), `-030` noted KB-190 (CleanSpark Meta HY cleared with 4.4x cover, not a stress fire), `-032` info-only (LABOR not VULCAN).
+> - **Register:** 2 fired rows swept to `archive/CATALYSTS_FIRED_2026-10.tsv` (mag7 slot 4 · GPU reading 4). Slots 5-8 for mag7 and 5-12 for GPU already registered as separate rows.
+> - **Packets out:** PROME ×2 (session memo · WALTER R3 adopt-rejection), TERRY ×1 (ACK + starter). WALTER R3 ask moved to `inbox/processed/`; TERRY ask RETAINED in inbox for Mon reply.
+> - **VX/validator:** `scripts/validate_workbook.py` clean (11 ledgers conform); VX-S1 state updated with 10/02 reading; composite 14/25 reconciles.
+> - **THESIS reconcile (step 2b):** S1 stage 3 row annotated with 10/02 breadth reversal (prior reading retained as record).
+
+
 >
 > ## ONE LINE: **Micron printed huge and guided higher, and TrendForce's public 4Q range is still +10–15% ⇒ VULCAN-11 FALSIFIED ⇒ S2 3 → 2 (forced by the letter), composite 14/25.** VULCAN-02 HIT · VULCAN-12 HIT on the letter only (guide dip = incentive-comp cost, margin rose THROUGH contractual caps) · VULCAN-14 HIT.
 >

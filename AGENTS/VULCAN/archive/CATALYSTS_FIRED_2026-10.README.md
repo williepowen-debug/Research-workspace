@@ -20,3 +20,7 @@
 **Not archived:** the 2026-09-30 ORCL $3.3B guarantee row was **re-dated** to ~2026-12-15 (no 8-K through 9/30; next vehicle the Q2 FY27 10-Q), because its question is still open.
 
 crc32 of the TSV: `0xfc5aeb7c` (computed by the command at write time). Conservation: 32 live rows before − 5 archived + 2 new = 29 live after.
+
+## 2026-10-02 close-of-session additions (PROME-spawned Tier-2, DOCKET L564 FRIDAY POST-CLOSE SLOT)
+- **mag7.py POST-CLOSE slot 4** (date 2026-10-02, confirmed): FIRED and SWEPT this session. Result: Mag-7 34.5445%, breadth RSP-SPY 63d −5.07pp (3.7th pctile), band YELLOW held. Slots 5-8 (10/09 · 10/16 · 10/23 · 10/30) remain in CATALYSTS as separate rows.
+- **GPU-rental panel reading 4** (date 2026-10-02, confirmed): FIRED and SWEPT this session; the FIRST GPU_SERIES.tsv row (10 rows written). On-demand mean $4.64/GPU-hr; indices SDH100RT $2.77 (+9.5% vs 9/13 freeze), OCPI-H100 $2.92 (+5.0%); contract tier EMPTY (sentinel). V6 recorded, no band (base rate pending ≥4 rows). Readings 5-12 (10/09 → 11/27) remain in CATALYSTS.
