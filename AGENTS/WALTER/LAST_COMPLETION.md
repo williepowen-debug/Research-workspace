@@ -2,6 +2,18 @@
 
 Session: **2026-10-02 Fri, Claude Opus 5.5 as WALTER (`walter-61`, desktop)**. Booted ~09:24 ET on Will's terminal "please boot up"; **TIER-2 FULL CLOSEOUT ~11:5x ET on Will's "Lets have WALTER close out here."** Supersedes the 10/01 evening `walter-c3` Tier-2 record (in git history); its FOLLOW-UP is carried below, evaluated.
 
+## ADDENDUM — noon REBOOT, Tier-1 LIGHT (same session name `walter-61`, after Will's /clear)
+
+**Boot 12:04 ET on Will's terminal "please boot up": PARTIAL, named exceptions.** Ran: 0 (pull current) · 0.5 doctor (0 HIGH / 6 MED, all carried) · 1–4 whole · 6 both routing files whole · 6b four registries (RED scan-view sha = canon; none changed since the morning boot) · 6c dashboard + EURUSD/TTF/UST/CL/HO pulls (no fire; HY 324 [10/01] still 1 of 3) · 7 count check 1158 = 1158 · 7 FILTER_SPEC Boot Context **RUN** (FORGE mirror, RED catalysts, 48h kill/route logs; the per-desk STATUS leg used REGISTRY Focus instead) · 7b CLOSED · 7d/7f/7g clear · 7e 0 NEW (10/02 lane run not yet landed) · 8 YURI + CRUISE rows refreshed, fs-scan (CATO, `_archive` only) · 9 no REQ · 9a rc 0 · 9b ListAgents (prome-96, brent-08, terry-ce) + ORCH_INFLIGHT + foreign-dirty. **Exceptions:** boot_basis 9 files not re-reviewed · READS attestation stale · HANS Bund/gilt/storage not pulled live · Iran guards not read (no Iran dispatch).
+
+**Routed (Will Telegram batch BM-20261002-01, 8 images → 7 items, closed 7/7):** `-011` PRIORITY France 10Y briefly >5% (TE, first since 2002) / Italy narrowed / Brooks charts → **HANS** (BOND, LIQUID, REGINALD info) · `-012` PRIORITY FT: Amazon ~$8B Nvidia-chip SPV sale-leaseback, IG debt for insurers/pensions → **VULCAN + BROCK** (LIQUID, SHADE, HENRY, WATT, VIOLET info) · `-013` ROUTINE TD Fed hikes → Dec/Mar → **BOND**. KILL: Covid XFG, Pope AI post, S.Korea $8.4B oil claim. DUP: labor chart (`-001`). **14 handoffs written, PENDING PUSH (PROME train).** DOORBELL_LOG: HANS/VULCAN/BROCK not doorbelled (L3 fail, liveness UNKNOWN, PROME-confirmed not teammates); BOND row corrected (bond-1002b idle; next spawn consumes). PROME: HANS + VULCAN/BROCK go in Monday's wake unless an event forces earlier.
+
+**Also:** LAST_COMPLETION RESULT 3 "/bin/bash." repaired to "$0." (`8302f2e79`).
+
+**Gaps (noon):** `-011`/`-012` origin lines and `-011`'s table say "read ~16:2xZ / ~12:2x ET"; the actual fetch was ~16:13Z. Typed, not stamped (MEMORY #34 again); BOARD append-only, not rewritten. The STATUS header was typed the same way and re-stamped from `date`. FT original (Amazon) and TD's note not read; ">5%" is one TE headline.
+
+**Will position note given in the boot reply (exposure only, TERRY's card):** QQQ $740P ×4 EXPIRES TODAY (QQQ $750.67 at 12:07 ET, ~1.4% OTM); USO $146.21 vs the Oct-09 $150C.
+
 ## STATUS
 
 **Boot: PARTIAL, named exceptions; the operational steps ran.**
@@ -86,13 +98,13 @@ Session: **2026-10-02 Fri, Claude Opus 5.5 as WALTER (`walter-61`, desktop)**. B
 ## CLOSEOUT RECEIPT
 
 **Issued at the 10/02 Tier-2, before the closeout commit (its hash is in the commit trail).**
-- **10/02 handoffs: 43 written, 43 on origin** (fresh fetch ~15:5xZ; `reconcile_delivery_log.py --apply`). Delivered is not consumed.
+- **10/02 handoffs: 57 written, 43 on origin; the 14 from `-011`…`-013` (noon) are PENDING PUSH** (fresh fetch ~15:5xZ; `reconcile_delivery_log.py --apply`). Delivered is not consumed.
 - ⚠️ **This receipt does NOT claim:** that any recipient consumed today's handoffs (BOND, BRENT, CRUISE are known to have drained some); that the Reuters/WSJ/Bloomberg originals were read; that the afternoon lane run was processed; that the FILTER_SPEC boot reads ran; that this closeout commit itself has reached origin.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-02T15:58:39+00:00",
+  "as_of": "2026-10-02T16:17:01+00:00",
   "publication": [
     {"commit": "ef5856db0", "state": "published"},
     {"commit": "a3d039fbb", "state": "published"},
@@ -102,7 +114,7 @@ Session: **2026-10-02 Fri, Claude Opus 5.5 as WALTER (`walter-61`, desktop)**. B
   ],
   "delivery": {
     "signal_date": "20261002",
-    "total": 43,
+    "total": 57,
     "delivered": 43
   },
   "owner_review": {

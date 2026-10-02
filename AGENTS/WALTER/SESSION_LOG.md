@@ -1,3 +1,5 @@
+## 2026-10-02 Fri — `walter-61` noon reboot, light-closeout — full deferred (2026-10-02T16:17:22Z from `date`). Boot 12:04 ET PARTIAL (named exceptions in LAST_COMPLETION addendum). Will's Telegram batch BM-20261002-01 (8 images, 7 items) → `-011` France 10Y >5% briefly → HANS · `-012` FT Amazon $8B chip SPV → VULCAN+BROCK · `-013` TD Fed Dec/Mar → BOND; 3 kills, 1 dup. BOARD 1158 → 1161. 14 handoffs pending push.
+
 ## 2026-10-02 Fri — `walter-61` **TIER-2 CLOSEOUT** (2026-10-02T15:56:45Z from `date`, Will: "Lets have WALTER close out here"). Booted ~09:24 ET on Will's "please boot up" (desktop). Day: BOARD 1148 → 1158, 10 signals `-001`…`-010`, 43 handoffs, all on origin (pushed via PROME's train + one self-push of IMMEDIATE `-005`). Morning news (NFP, EU diesel → G7 100M bbl decision, carrier relief, EA HICP), LIQUID's HY 324 one-print doorbell, a Will-directed gap sweep (CRE cases, Jefferson, Taiz, Volgograd/Samara), spawn-order memo to PROME. No WALTER-scanned registered trigger fired (FT-02 / REG-T-03 at 1 of 3).
 
 > **Rotated VERBATIM from STATUS at the 10/02 Tier-2 (the `walter-c3` 10/01 evening header + bottom line + dated market observations):**
