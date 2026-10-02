@@ -2,7 +2,17 @@
 
 ## Session Notes
 
-### CURRENT SESSION (2026-10-01 Thu 12:10–13:0x ET — PROME `prome-0c` Tier-1 spawn on the DESKTOP, four touches + drains. HEAVY: `LIQ-07` TRIGGER FIRED · 1 new instrument (swap-line usage) · 1 letter erratum · 2 KB · 1 memory extended · 0 thresholds moved · 0 registered)
+### CURRENT SESSION (2026-10-02 Fri 08:30–11:1x ET — PROME `prome-70` Tier-1 WQ-184 due-row wake (DOCKET L493), then four PROME doorbells. STANDARD: 🔴 HY >320 send line crossed (one print) · WQ-301 (b) encoded · 1 KB · inbox 13 → 0 · 0 thresholds moved)
+
+**Context:** Book FLAT, $0. X1 CLOSED. Spawned with no pull/stash/push (PROME pushes once for everyone).
+
+**Delivered:** ① **WQ-301 (b) encoded** in KB-LIQ-069 + STATUS §2: 069 L2 anchor re-based on the DTCC tape with the ISDA model, **both sign readings carried: positive (INFERRED) >697/>737 · negative >520/>649**; a one-sign fire = AMBIGUOUS-BY-SIGN → Will via PROME; 452 is history (`9fe811cb3`). ② **10/1 ICE cell graded at 10:24 ET** (unpublished at 08:30–08:35): **HY 324 (+12) > the 320 send line, ONE print = TAGGED**, CCC 1,215 (FRED-window high), IG 86 / BBB 106 / BB 204 / B 329. §1c BROADENS reached IG/BBB/BB p95 on the day. REKILL 0-of-2, 072 quiet. 🔴 signal → WALTER + SIGNALS row (`de0501531`), WALTER doorbelled; no trade proposal. ③ 10/1 funding: SRF $0.000B, SOFR−IORB −3, WRESBAL $2,948.1B [9/30] ⇒ LIQ-07 S2-so-far. ④ CATO D2 reproduced (default run shows no WITHHELD notice), AC-D2 written (analysis §7b), code held to L568 10/07. ⑤ RED's session-list basis note added to the LIQ-07 erratum; a split result = AMBIGUOUS-BY-SESSION-LIST → PROME. ⑥ BROCK L494: wrapper half NOT ARMED; my 3-close count RECOMMENDED, NOT encoded (PROME classifies; WQ-363). ⑦ Events memo 10/2–10/16 for Will's QQQ roll (`91ab7b448`). ⑧ TERRY evidence answer (`a431862ac`): **HYG's rates offset held in 2024-08/2025-04 and FAILED in the current widening** (5Y +61bp, HYG −2.60% TR on +64bp).
+
+**Found:** ① **FORGE `fetch.py`'s local cache served the pre-print series an hour after the print** (KB-LIQ-142): on the send-line day, a cached read would have said "not published". ② The KILL_MEMO ">320 sustained" has the same no-count gap as X1's ">280 sustained"; flagged to PROME, not self-defined.
+
+**NEXT SESSION entry point:** the NEXT SESSION block below, then STATUS §3.
+
+### PRIOR SESSION (2026-10-01 Thu 12:10–13:0x ET — PROME `prome-0c` Tier-1 spawn on the DESKTOP, four touches + drains. HEAVY: `LIQ-07` TRIGGER FIRED · 1 new instrument (swap-line usage) · 1 letter erratum · 2 KB · 1 memory extended · 0 thresholds moved · 0 registered)
 
 **Context:** Book FLAT, $0. Desktop (the HY watcher timer is live here). X1 CLOSED throughout.
 
@@ -341,6 +351,14 @@
 ---
 
 ### NEXT SESSION
+
+**RE-CUT 2026-10-02 11:1x ET (closeout). ⛔ The OWED list lives ONCE, in STATUS §3. This block is only the entry sequence.**
+1. **Mon 10/5 ~10:15 ET: the 10/2 ICE cell.** Pull with `FORGE_CACHE_DIR=$(mktemp -d)` or a cache-busted fredgraph URL (KB-LIQ-142); confirm the obs DATE on every series. HY ≥321 = a 2nd print over 320: report the COUNT, never "confirmed" (">320 sustained" has no count; PROME's ruling question). ≤320 = retrace. Also SOFR99−IORB and SRF for 10/2 (Q3-end persistence legs; LIQ-07 SRF leg).
+2. **Wed 10/7: DOCKET L568**, `usd_swapline.py` fix pass X1–X5 + D2 (AC §7 + §7b already written), one consolidated letter, then PROME read 3 (the LAST). WITHHELD until then.
+3. **Thu 10/8:** Q3-end persistence verdict · H.4.1 · swap op (no reading unless read 3 cleared). **10/13–10/15:** banks, CPI, the $119B settlement, 069 review. **10/15–16:** LIQ-07 S1/S2 verdict on BOTH session lists.
+4. Everything else → STATUS §3.
+
+### NEXT SESSION — 10/01 13:0x RE-CUT (SUPERSEDED 2026-10-02 11:1x; history only)
 
 **RE-CUT 2026-10-01 13:0x ET (closeout). ⛔ The OWED list lives ONCE, in STATUS §3. This block is only the entry sequence.**
 1. `scripts/boot.py`. ⛔ **`scripts/usd_swapline.py` is WITHHELD** (PROME read 2, `inbox/processed/2026-10-01_from-PROME_usd-swapline-result-read-2-WITHHELD.md`): **entry step = the fix pass for X1–X5** (X1 fail-closed ordering hides a real ALERT; X2 `--baserate` silent with FRED down; X3 SWPT turn window hides 2007-12 and 2012-09/10, say it; X4 stale "excluded" text; X5 ONE consolidated letter), with acceptance conditions first, then PROME's LAST read: **DOCKET L568, due 10/07**. Beside it: the 9/30 op (PROME reads it raw, ungraded); do not grade it with the instrument until L568 clears.
