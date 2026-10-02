@@ -53,3 +53,15 @@ Source of the Term SOFR prints: global-rates.com "3-month CME Term SOFR" page, r
 3. Nothing else is needed for L126/L463 to close: the coupon question is answered here to the precision available before the Q3 10-Q.
 
 **Forward, not owed on 10/2:** the next par-call date is **2027-01-01**; a call then needs holder notice between **2026-11-02 and 2026-12-22**. `flng_watch.py` stays in boot.py. Recommendation to PROME (its call): a DOCKET row for the Q3 10-Q's floating-rate disclosure (VERIFY the coupon) can ride the existing L520 Q3 row rather than a new one.
+
+## 5. The 10/2 read (DOCKET L463) — DONE 2026-10-02 08:31 ET · OZK (PROME WQ-184 spawn `prome-70`)
+
+| Check | Result | Basis |
+|---|---|---|
+| `flng_watch.py` (FDIC FLNG cert 110 vs 11981) | **rc 0 QUIET** — **182 filings returned, 182 unique ids**, newest id **11981** (8/5 Q2'26 10-Q; then 11969 the 7/21 8-K), schema + coverage OK; `--selftest` **11/11 PASS** | run 2026-10-02 08:31 ET; list re-read by hand the same minute |
+| One press search — "Bank OZK" subordinated notes redemption / refinancing / notice of redemption, 2.75% due 2031 | **nothing on these notes** — hits were the 2021 pricing release and the Q2'26 MC ("no plans to replace") | web search 2026-10-02 |
+| OZK's own releases since 9/30 | **Q3-date release (dateline 9/30)** — release Tue 10/20 after close, call Wed 10/21 8:30 ET · **dividend release (10/1)** — common $0.49 (+$0.01, 65th consecutive increase), preferred $0.28906; **neither mentions the notes** | GlobeNewswire / Manila Times syndication, read 2026-10-02 |
+
+**Record: the reset HAPPENED — contractual and uncontradicted, not filing-confirmed.** The notes float from 10/1 unless called; a 10/1 call needed holder notice by 9/21; no notice appears at FLNG or in the press, and OZK's own two releases since then are silent on the notes. ⚠️ A quiet FLNG list proves nothing by itself — a notice goes to holders via DTC and need not be filed — **and 10/2 demonstrated the gap directly: OZK's 9/30 and 10/1 press releases are both absent from FLNG.** The rate (≈6.19%, ≈+$12.3M/yr pre-tax, §3) becomes VERIFIED at the Q3 10-Q (~early Nov). Nothing about the notes changes a grade, threshold, weight or conviction.
+
+**Correction to 10/1:** CALENDAR and STATUS said the Q3 date was "not announced as of 10/1 12:15 ET — FLNG quiet." It had been announced on 9/30; FLNG does not carry press releases. Fixed in both files 10/2.
