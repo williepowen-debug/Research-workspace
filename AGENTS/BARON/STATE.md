@@ -1,3 +1,5 @@
+> **FROZEN 2026-10-02 — not maintained; BARON is DORMANT (ROSTER, since 2026-05-08; last self-commit 2026-02-12). Do not cite this file as current.** Frozen under WQ-286 ① (Will 2026-09-24, pre-approval leg (b) waived) by DAEDALUS. Unread at freeze: `inbox/2026-08-12_from-PROME_prune-scan-defects-repoint-or-restore.md` (51 days; BARON has no reader — PROME decides whether it needs an answer).
+
 # Current State
 
 **Last Updated:** 2026-02-12 (Session 018 — Gemini Research Integration)

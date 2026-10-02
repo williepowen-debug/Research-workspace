@@ -123,7 +123,10 @@ REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # The portable staleness signal — survives clone-flattened git history (cloud sessions)
 # and hygiene-edit git-time resets (banner/tag passes), both of which make time-based
 # grading go false-clean on genuinely stale data (PAT-039, 2 observed instances).
-CONTENT_DATE_RE = re.compile(r"last\s+real\s+data\s+refresh[:\s]+(\d{4}-\d{2}-\d{2})", re.IGNORECASE)
+# An optional parenthetical qualifier before the colon is allowed ("Last real data refresh (HAWK rows):
+# 2026-04-20") — the independent read (2026-10-02) showed a qualified older clock beside an unqualified
+# newer one reproduces the FALCON blind case; widening reads MORE dates, which fails toward alarm.
+CONTENT_DATE_RE = re.compile(r"last\s+real\s+data\s+refresh(?:\s*\([^)\n]{0,60}\))?[:\s]+(\d{4}-\d{2}-\d{2})", re.IGNORECASE)
 
 # By-name non-live files: definitions/archives/backups/snapshots are SUPPOSED to
 # be static, so staleness is meaningless for them. Exempt from the alert (shown as
@@ -148,18 +151,32 @@ def git_time(path):
         return None
 
 
-def content_time(path):
-    """Two-clock header date (first ~8 lines), or None. Preferred over git time when
-    present: the DATA clock can't be laundered by a hygiene edit or a flattened clone."""
+def content_clocks(path):
+    """Every DISTINCT `Last real data refresh:` date in the first ~8 lines, oldest first
+    (as unix times), or []. More than one is a header carrying two data clocks."""
     try:
         with open(path, "r", encoding="utf-8", errors="replace") as f:
             head = "".join(f.readline() for _ in range(8))
-        m = CONTENT_DATE_RE.search(head)
-        if m:
-            return int(datetime.datetime.strptime(m.group(1), "%Y-%m-%d").timestamp())
-    except (OSError, ValueError):
-        pass
-    return None
+    except OSError:
+        return []
+    out = set()
+    for d in CONTENT_DATE_RE.findall(head):
+        try:
+            out.add(int(datetime.datetime.strptime(d, "%Y-%m-%d").timestamp()))
+        except ValueError:
+            continue
+    return sorted(out)
+
+
+def content_time(path):
+    """Two-clock header date (first ~8 lines), or None. Preferred over git time when
+    present: the DATA clock can't be laundered by a hygiene edit or a flattened clone.
+    G2 (WQ-286 ③, Will 2026-09-24): with MORE THAN ONE distinct date in the head the
+    OLDEST governs — the first match used to win, which let a newer line mask a
+    deliberately-lit older clock (FALCON FLOW.tsv read `ok +9d` on a +155d surface,
+    Staleness #5 §8). Fail toward alarm; the scan prints the clock count beside the row."""
+    c = content_clocks(path)
+    return c[0] if c else None
 
 
 def git_last_commit(path):
@@ -355,6 +372,13 @@ ATTENTION_RES = [
     ("Last re-pull ATTEMPTED", REPULL_RE),                                                    # FALCON / OSPREY
     ("Last hygiene/no-event check", re.compile(r"last\s+hygiene/?no-?event\s+check[:\s]+(\d{4}-\d{2}-\d{2})", re.IGNORECASE)),  # CARL/PHAN
     ("Last reviewed", re.compile(r"last\s+reviewed[:\s]+(\d{4}-\d{2}-\d{2})", re.IGNORECASE)),  # OZK
+    # G1 (WQ-286 ②, Will 2026-09-24): the fleet's most common spelling was not an alias — measured
+    # 9/24 in 20 live ledgers at 5 desks (CARL-STUE, FERT, FLG, TERRY, WAL) vs 5 files on the
+    # canonical key. A `: DATE` is required; prose ("staleness-sweep #4") never parses.
+    # The aliases REQUIRE a colon (the independent read's counterexample: "the staleness sweep 2026-09-20
+    # flagged this file" parsed under `[:\s]+`). The four legacy keys above keep their looser form.
+    ("Staleness sweep", re.compile(r"staleness\s+sweep(?:\s*\(no\s+data\))?\s*:\s*(\d{4}-\d{2}-\d{2})", re.IGNORECASE)),
+    ("Last staleness check", re.compile(r"last\s+staleness\s+check\s*:\s*(\d{4}-\d{2}-\d{2})", re.IGNORECASE)),
 ]
 
 # ---------------------------------------------------------------------------
@@ -491,7 +515,11 @@ def attention_info(path, now):
     for key, rx in ATTENTION_RES:
         for line in _header_block(path):
             m = rx.search(line)
-            if m and m.start() < MARKER_COL_CAP:
+            # The column cap keeps prose mentions out. A two-clock header writes its clocks as
+            # `| key: DATE` segments and the attention segment sits at column 200–500 (FERT ×5,
+            # FLG ×3, measured by the independent read 2026-10-02) — so a key that follows a `|`
+            # separator is a declared segment and is read whatever its column.
+            if m and (m.start() < MARKER_COL_CAP or "|" in line[:m.start()]):
                 try:
                     d = datetime.datetime.strptime(m.group(1), "%Y-%m-%d").timestamp()
                 except ValueError:
@@ -807,10 +835,43 @@ def selftest():
             ok = got == want
             fails += not ok
             print(f"  {'✓' if ok else '✗'} expect {'FROZEN' if want else 'live':6} got {'FROZEN' if got else 'live':6}  {name}")
+        # G1/G2 drills (WQ-286 ②③, 2026-10-02) — the attention-alias and oldest-clock readers had NO
+        # regression case here (independent read); these are that read's own counterexamples.
+        now = datetime.datetime(2026, 10, 2).timestamp()
+        def _att(line):
+            fp = os.path.join(td, "att.tsv"); open(fp, "w", encoding="utf-8").write(line + "\nA\tB\n1\t2\n")
+            r = attention_info(fp, now); return r and r[0]
+        def _clocks(line):
+            fp = os.path.join(td, "clk.tsv"); open(fp, "w", encoding="utf-8").write(line + "\nA\tB\n1\t2\n")
+            return [datetime.date.fromtimestamp(c).isoformat() for c in content_clocks(fp)]
+        drills = [
+            ("G1 alias `Staleness sweep: D`", _att("# LIVE — Last real data refresh: 2026-09-01 | Staleness sweep: 2026-09-20"), "Staleness sweep"),
+            ("G1 alias `(no data)` form", _att("# Staleness sweep (no data): 2026-09-20"), "Staleness sweep"),
+            ("G1 alias `Last staleness check: D`", _att("# Last staleness check: 2026-09-20"), "Last staleness check"),
+            ("G1 alias far right AFTER a `|` segment separator parses (FERT/FLG form)", _att("# LIVE — Last real data refresh: 2026-09-01 | " + "x" * 220 + " | Staleness sweep: 2026-09-20"), "Staleness sweep"),
+            ("G1 far-right prose with NO separator does not parse", _att("# " + "x" * 220 + " Staleness sweep: 2026-09-20"), None),
+            ("G1 prose without a colon does not parse", _att("# the staleness sweep 2026-09-20 flagged this file as rot"), None),
+            ("G1 canonical key beats an OLDER alias; alias beats an older canonical (newest wins)",
+             (_att("# Last attention check: 2026-09-25 | Staleness sweep: 2026-09-20"), _att("# Last attention check: 2026-09-01 | Staleness sweep: 2026-09-20")),
+             ("Last attention check", "Staleness sweep")),
+            ("G2 two clocks, newer first -> oldest governs", _clocks("# Last real data refresh: 2026-09-14 PRIOR: Last real data refresh: 2026-04-20")[0], "2026-04-20"),
+            ("G2 two clocks, older first -> oldest governs", _clocks("# Last real data refresh: 2026-04-20 | Last real data refresh: 2026-09-14")[0], "2026-04-20"),
+            ("G2 same date twice -> ONE clock, no warning", len(_clocks("# Last real data refresh: 2026-09-14 (Last real data refresh: 2026-09-14)")), 1),
+            ("G2 a qualified clock `(HAWK rows):` is read (the FALCON blind shape)", _clocks("# Last real data refresh: 2026-09-14 | Last real data refresh (HAWK rows): 2026-04-20"), ["2026-04-20", "2026-09-14"]),
+            ("G2 no clock -> []", _clocks("# LIVE ledger, no header clock"), []),
+            ("G2 content_time ITSELF returns the oldest (not the first match)",
+             (lambda fp: (open(fp, "w", encoding="utf-8").write("# Last real data refresh: 2026-09-14 | Last real data refresh: 2026-04-20\nA\tB\n"),
+                          datetime.date.fromtimestamp(content_time(fp)).isoformat())[1])(os.path.join(td, "ct.tsv")), "2026-04-20"),
+        ]
+        for name, got, want in drills:
+            ok = got == want
+            fails += not ok
+            print(f"  {'✓' if ok else '✗'} {name}" + ("" if ok else f"  -> got {got!r}, want {want!r}"))
+    total = len(_SELFTEST) + len(drills)
     if fails:
-        print(f"LEDGER-STALENESS SELFTEST ✗ {fails}/{len(_SELFTEST)} case(s) FAILED — do not trust is_frozen")
+        print(f"LEDGER-STALENESS SELFTEST ✗ {fails}/{total} case(s) FAILED — do not trust is_frozen / attention_info / content_clocks")
         return 1
-    print(f"LEDGER-STALENESS SELFTEST ✓ {len(_SELFTEST)}/{len(_SELFTEST)} cases behaved [is_frozen]")
+    print(f"LEDGER-STALENESS SELFTEST ✓ {total}/{total} cases behaved [is_frozen + G1 attention aliases + G2 clocks]")
     return 0
 
 
@@ -848,8 +909,10 @@ def scan_agent(agent_dir, days, glob_pats, strict=False, writes=False, writes_ba
         dq = declared_quiet(led, now) if (live and any_stale) else None
         # M2 (WQ-148): attention clock annotates a behind ledger; absent line = unchanged output.
         att = attention_info(led, now) if (live and any_stale and not dq) else None
+        clocks = content_clocks(led) if live else []
         rows.append({
             "file": os.path.relpath(led, REPO),
+            "clocks": [datetime.date.fromtimestamp(c).isoformat() for c in clocks] if len(clocks) > 1 else None,
             "frozen": frozen,
             "exempt": exempt,
             "age_d": age,
@@ -1005,6 +1068,8 @@ def report(name, status_t, rows, quiet):
                 bits.append(f"ABS {r['abs_age_d']:.0f}d")
             if r.get("attention"):
                 bits.append(f"held (attention {r['attention'][2]:.0f}d)" if r.get("attention_held") else f"UNATTENDED (attention {r['attention'][2]:.0f}d)")
+            if r.get("clocks"):
+                bits.append(f"⚠️ {len(r['clocks'])} data clocks ({' / '.join(r['clocks'])}), oldest governs")
             return f"{os.path.basename(r['file'])} ({', '.join(bits)})"
         flags = ", ".join(_why(r) for r in stale)
         print(f"⚠️  [{name}] {len(stale)} stale ledger(s) behind STATUS: {flags}")
@@ -1042,6 +1107,8 @@ def report(name, status_t, rows, quiet):
             extra += f"  {r['writes_behind']:>3}w"
         if r.get("abs_age_d") is not None:
             extra += f"  abs {r['abs_age_d']:>4.0f}d"
+        if r.get("clocks"):
+            extra += f"  ⚠️ {len(r['clocks'])} data clocks ({' / '.join(r['clocks'])}), oldest governs"
         print(f"  {tag:<8} {fmt_age(r['age_d'])}{extra}  {os.path.relpath(r['file'])}")
     if stale:
         print(f"  → {len(stale)} stale: freeze (add 'FROZEN <date> — ...' banner) or refresh at closeout.")

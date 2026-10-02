@@ -15,7 +15,7 @@ Fixture overrides (SS3 testing, never mutate real files): --register P --receipt
 
 rc contract (CHECK_STANDARD SS9):
   0  no unreceipted NAMED rows for this desk (ALL-row WARNs may still print — WARN-never-block)
-  1  >=1 NAMED row (not RETIRED) naming this desk with no receipt of ANY action from it
+  1  >=1 NAMED row (RETIRED included — WQ-286 ④) naming this desk with no receipt of ANY action from it
      (block-class; EVERY instance printed, count-first). WQ-254 D4(a), Will 2026-09-24:
      a passed date_cap or a DEAD-AT-CAP status NEVER clears a NAMED target's block — such
      rows still BLOCK, labelled DEAD-AT-CAP. date_cap governs ALL-rows only (broadcast
@@ -162,8 +162,10 @@ def cmd_check(agent, reg_path, rcpt_path, today):
         if not mine:
             continue
         status = r["status"].strip().upper()
-        if status == "RETIRED":
-            continue  # terminal by owner declaration (VERIFIED closure, A3 ladder); prune is WALTER's half
+        # WQ-286 ④ (Will 2026-09-24 18:30 ET, "REQUIRE THE RECEIPT"): a RETIRED status used to
+        # `continue` here — the owner's closure discharged a named target with no receipt on
+        # file (independent read R2, 2026-09-24). It now falls through: like RECEIPTED and
+        # DEAD-AT-CAP, only THIS desk's receipt clears a NAMED row. Prune stays WALTER's half.
         if is_all and cap is None:
             # Ruling: date_cap is MANDATORY on ALL-rows. Missing != unparseable, so this
             # WARNS loudly rather than rc=2 (deliberate asymmetry, declared here: the desk's
@@ -171,7 +173,7 @@ def cmd_check(agent, reg_path, rcpt_path, today):
             malformed.append(cid)
         cap_passed = cap is not None and cap < today
         if cid in receipts:
-            continue  # a receipt of ANY action discharges THIS desk — the only thing that does
+            continue  # a receipt of ANY action discharges THIS desk — the only thing that does, RETIRED included (WQ-286 ④)
         if is_all:
             if status == "DEAD-AT-CAP" or cap_passed:
                 dead_all.append(cid)  # broadcast expired: counted, never warned, never blocked
@@ -179,7 +181,9 @@ def cmd_check(agent, reg_path, rcpt_path, today):
             all_warn.append((cid, r["pointer"], r["status"], r["date"]))
             continue
         # NAMED row, unreceipted by this desk: BLOCK regardless of cap/status (D4(a)).
-        if status == "DEAD-AT-CAP" or cap_passed:
+        if status == "RETIRED":
+            label = "RETIRED — owner-declared closure; a receipt from this desk is still required, WQ-286 (4)"
+        elif status == "DEAD-AT-CAP" or cap_passed:
             dead_named.append(cid)  # feeds checkpoint leg (d): dead-at-cap with zero receipts
             label = (f"DEAD-AT-CAP (row status {r['status'].strip() or '<blank>'}; cap "
                      f"{r['date_cap'].strip() or '<none>'} {'passed' if cap_passed else 'not passed'}"
@@ -366,8 +370,15 @@ def cmd_selftest():
          "BRENT", [hawk_row], [], 1, ["CORRECTIONS-CHECK 1 BLOCK", "COR-20260828-01 [DEAD-AT-CAP"], []),
         ("clean:   DEAD-AT-CAP row naming SOMEONE ELSE -> 0 (HAWK is not SAM)",
          "HAWK", [sam_dead], None, 0, ["CORRECTIONS-CHECK 0 OK"], ["CORRECTIONS-CHECK 1 BLOCK", "INFO"]),
-        ("regress: RETIRED NAMED row, unreceipted -> 0 (owner-declared terminal, unchanged)",
-         "SAM", [retired], None, 0, ["CORRECTIONS-CHECK 0 OK"], ["CORRECTIONS-CHECK 1 BLOCK", "INFO"]),
+        ("capable: RETIRED NAMED row, unreceipted -> 1 (WQ-286 (4): a receipt is still required)",
+         "SAM", [retired], None, 1, ["CORRECTIONS-CHECK 1 BLOCK", "COR-20260801-02 [RETIRED"], []),
+        ("clean:   RETIRED NAMED row, receipted by this desk -> 0",
+         "SAM", [retired], [rc_line("COR-20260801-02")], 0, ["CORRECTIONS-CHECK 0 OK"], ["CORRECTIONS-CHECK 1 BLOCK"]),
+        ("clean:   RETIRED ALL-row, future cap -> 0 (ALL-row rules: WARN never block; pinned after the 10/02 read)",
+         "SAM", ["COR-20260920-03\t2026-09-20\tWALTER\tALL\tBOARD/a.md\t2026-10-15\tRETIRED\ts\tHOLD"], None, 0,
+         ["CORRECTIONS-CHECK 0 OK"], ["CORRECTIONS-CHECK 1 BLOCK"]),
+        ("clean:   RETIRED row naming SOMEONE ELSE -> 0",
+         "HAWK", [retired], None, 0, ["CORRECTIONS-CHECK 0 OK"], ["CORRECTIONS-CHECK 1 BLOCK"]),
         ("regress: LIVE NAMED row cap in future, unreceipted -> 1 labelled LIVE (pre-existing path)",
          "SAM", [named_live], None, 1, ["COR-20260920-02 [LIVE]", "(0 of them DEAD-AT-CAP)"], ["[DEAD-AT-CAP", "INFO"]),
         ("mixed:   dead named + past-cap ALL + receipted live -> 1, counts split 1 NAMED · 1 ALL",
