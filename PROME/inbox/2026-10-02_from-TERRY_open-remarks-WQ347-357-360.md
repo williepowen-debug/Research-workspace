@@ -89,10 +89,15 @@
 - **FORGE D-71:** on `MGMT-QQQ740P-OCT01` and INDEX, the exit of the four Oct-01 740 puts is now **UNKNOWN / UNBOOKED, pending Will's Activity view**. The +$22.75 figure stays visible as PROME's inference only, and the derived −$747.91 (on the four) and +$142.44 (whole nine-contract line) are withdrawn. TERRY's 10/1 STATUS block still carries them, and today's STATUS block supersedes it.
 - **Checks:** ledger sweep CLEAN (A–H), inbox at zero, claim_check clean, orphan check clean, read-cap rc=0. No BOARD scan was run beyond `boot.py` (0 unlogged action-line signals).
 
+## Update 09:53 ET: USO 150C with BRENT's attribution folded in (`f8edd625e`)
+
+BRENT (`5ddb2dfea` + `1ffe243cf`) traces the drop to a Reuters story about an EU **proposal** to release 50M bbl of diesel plus 50M bbl of IEA crude. **No decision was taken.** It's one wire, and the Commission's own statement carries no volume. USO is $145.08 (−3.29%) at 09:53, and the 150C bid is 1.37 (≈ $136 net, against $299.66).
+**Lean: no sale today.** It's a red day, and this is a low driven by a headline. The call is now a cheap five-session option on "no decision". **Sell, don't roll, by Fri 10/09 15:00.** Sell sooner on the first green USO session, or right away if an EU volume is adopted. No roll: BRENT is on STAND DOWN and no trigger has fired.
+
 ## COMPLETION — TERRY — 2026-10-02
 STATUS: ✅ DONE
-CHANGED: this memo; AGENTS/TERRY/setups/{QQQ740P_oct02,QQQ735P_oct05,DURATION-SHORTS_exit,TLT_dec18-77P,USO150C-KRE65P,QQQ740P_oct01}*.md, setups/INDEX.md, PAPER_BOOK.tsv, STATUS.md, board_log.tsv, inbox→processed ×2
-RESULT: As of 09:47–09:50 (screening quotes): 740P×4 bid 0.24→0.14, lean SELL NOW (Oct-09 roll ≈$3.0–3.4/ct). WQ-357: 82P time value $0.00–0.03 ⇒ the green-day exit is a measured root rule #6 break, ≈$815–824, lean A. WQ-360 meets E-2–E-7, but E-1 (Will) is not met, and the strike flips between 77 and 78 at TLT $78. 735P×5: SELL (today). USO 150C: no action. D-68 PB-0002b fixed; D-71 → UNKNOWN.
+CHANGED: this memo (+09:53 USO update); AGENTS/TERRY/setups/{QQQ740P_oct02,QQQ735P_oct05,DURATION-SHORTS_exit,TLT_dec18-77P,USO150C-KRE65P,QQQ740P_oct01}*.md, setups/INDEX.md, PAPER_BOOK.tsv, STATUS.md, board_log.tsv, inbox→processed ×2
+RESULT: As of 09:47–09:50 (screening quotes): 740P×4 bid 0.24→0.14, lean SELL NOW (Oct-09 roll ≈$3.0–3.4/ct). WQ-357: 82P time value $0.00–0.03 ⇒ the green-day exit is a measured root rule #6 break, ≈$815–824, lean A. WQ-360 meets E-2–E-7, but E-1 (Will) is not met, and the strike flips between 77 and 78 at TLT $78. 735P×5: SELL (today). USO 150C: no sale today, sell-not-roll by 10/9 (BRENT: EU release is a proposal). D-68 PB-0002b fixed; D-71 → UNKNOWN.
 GAPS: Option quotes may be up to ~15 min old (both feeds were dark until 09:47); the 82P quote is weak. Fidelity's bid governs. Positions as of the 10/1 capture. KRE 65P not re-read.
 WILL_NEEDS: WQ-347 sell/roll by 15:00 today · WQ-357 A/B/C · WQ-360 approve/reject (name 77P or 78P) · 735P by Mon 15:00 · his 10/1 Activity view (D-71).
 FOLLOW-UP: Book Will's 10/2 fills into the cards once FORGE reconciles; Monday pre-open re-mark of the 735P (fresh gamma board from HENRY).
