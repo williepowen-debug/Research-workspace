@@ -8,6 +8,8 @@ Session: **2026-10-02 Fri, Claude Opus 5.5 as WALTER (`walter-61`, desktop)**. B
 
 **Routed (Will Telegram batch BM-20261002-01, 8 images → 7 items, closed 7/7):** `-011` PRIORITY France 10Y briefly >5% (TE, first since 2002) / Italy narrowed / Brooks charts → **HANS** (BOND, LIQUID, REGINALD info) · `-012` PRIORITY FT: Amazon ~$8B Nvidia-chip SPV sale-leaseback, IG debt for insurers/pensions → **VULCAN + BROCK** (LIQUID, SHADE, HENRY, WATT, VIOLET info) · `-013` ROUTINE TD Fed hikes → Dec/Mar → **BOND**. KILL: Covid XFG, Pope AI post, S.Korea $8.4B oil claim. DUP: labor chart (`-001`). **14 handoffs written; delivered on origin at `f055c1d3a` (PROME push, verified).** DOORBELL_LOG: HANS/VULCAN/BROCK not doorbelled (L3 fail, liveness UNKNOWN, PROME-confirmed not teammates); BOND row corrected (bond-1002b idle; next spawn consumes). PROME: HANS + VULCAN/BROCK go in Monday's wake unless an event forces earlier.
 
+**Lane run (Will: "can we just run the afternoon intake session now?"):** WALTER triggered RESEARCH-INTAKE `collect` by `workflow_dispatch` (run 37034147478, 16:28:15Z, success 1m46s; the 15:00Z cron had not started, and GitHub had been starting it 3–6h late). 22 NEW items, manifest BM-20261002-02 closed 22/22: **`-014` IMMEDIATE Yanbu port STRUCK 10/01** (projectile inside the port, fire near the tank farm, one vessel's loading briefly suspended, reported resumed, unclaimed; upgrades `-1001-033`) → FALCON + BRENT · **`-015` ROUTINE** ECB hike no longer fully priced by year-end (`HANS-T-04`) → HANS · 10 kills, 7 dups, 2 no-action, 1 fold. `--mark` run. Anchor limb line added. FALCON doorbelled via prome-96 (IMMEDIATE, L3b); BRENT (live) messaged directly. **IMMEDIATE scoped self-push `bf27866ca`** (BCS §3.4, tree clean). ⚠️ **The scheduled 15:00Z cron will still run later today** (concurrency-serialized), giving a second 10/02 batch to process. **FOLLOW-UP #2 is now: process THAT batch** (onset-dedup suppresses what this run already marked).
+
 **Also:** LAST_COMPLETION RESULT 3 "/bin/bash." repaired to "$0." (`8302f2e79`).
 
 **Gaps (noon):** `-011`/`-012` origin lines and `-011`'s table say "read ~16:2xZ / ~12:2x ET"; the actual fetch was ~16:13Z. Typed, not stamped (MEMORY #34 again); BOARD append-only, not rewritten. The STATUS header was typed the same way and re-stamped from `date`. FT original (Amazon) and TD's note not read; ">5%" is one TE headline.
@@ -71,7 +73,7 @@ Session: **2026-10-02 Fri, Claude Opus 5.5 as WALTER (`walter-61`, desktop)**. B
 ## FOLLOW-UP
 
 1. **Next boot:** `git pull`; STATUS BOARD count (**1158**) vs INDEX; ahead/behind; `reconcile_delivery_log.py --apply` if any row reads pending; `closeout_check.py`.
-2. 🔴 **Process the 10/02 afternoon lane run** (`intake_scan.py`, date-check first, MEMORY #39), then `--mark`.
+2. 🔴 **Process the SECOND 10/02 lane batch (the scheduled 15:00Z cron, still to land after the 16:29Z manual run)** (`intake_scan.py`, date-check first, MEMORY #39), then `--mark`.
 3. 🔴 **Mon 10/05 ~10:15 ET: FRED HY 10/02 obs** → FT-02 / REG-T-03 at 2 of 3 or reset; route the state (RED/REGINALD spawn per PROME).
 4. **Iran:** FALCON still owes UKMTO 146-26 / 147-26 reconcile + `-003`/`-008` read. Any Yanbu-terminal incident or Ghawar strike confirmation → IMMEDIATE. Next FULL sweep **~10/08**.
 5. **G7 release follow-ups:** the diesel/crude split, country volumes, and whether the US dropped the export-ban threat — route whichever lands first (BRENT action).
@@ -98,13 +100,13 @@ Session: **2026-10-02 Fri, Claude Opus 5.5 as WALTER (`walter-61`, desktop)**. B
 ## CLOSEOUT RECEIPT
 
 **Issued at the 10/02 Tier-2, before the closeout commit (its hash is in the commit trail).**
-- **10/02 handoffs: 57 written, 57 on origin** (noon 14 pushed by PROME at `f055c1d3a`, verified by fresh fetch 0/0 + `reconcile_delivery_log.py --apply` 14/14) (fresh fetch ~15:5xZ; `reconcile_delivery_log.py --apply`). Delivered is not consumed.
+- **10/02 handoffs: 65 written, 65 on origin** (lane-run 8 pushed by WALTER's IMMEDIATE self-push `bf27866ca`, reconciled) (noon 14 pushed by PROME at `f055c1d3a`, verified by fresh fetch 0/0 + `reconcile_delivery_log.py --apply` 14/14) (fresh fetch ~15:5xZ; `reconcile_delivery_log.py --apply`). Delivered is not consumed.
 - ⚠️ **This receipt does NOT claim:** that any recipient consumed today's handoffs (BOND, BRENT, CRUISE are known to have drained some); that the Reuters/WSJ/Bloomberg originals were read; that the afternoon lane run was processed; that the FILTER_SPEC boot reads ran; that this closeout commit itself has reached origin.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-02T16:18:10+00:00",
+  "as_of": "2026-10-02T16:34:49+00:00",
   "publication": [
     {"commit": "ef5856db0", "state": "published"},
     {"commit": "a3d039fbb", "state": "published"},
@@ -114,8 +116,8 @@ Session: **2026-10-02 Fri, Claude Opus 5.5 as WALTER (`walter-61`, desktop)**. B
   ],
   "delivery": {
     "signal_date": "20261002",
-    "total": 57,
-    "delivered": 57
+    "total": 65,
+    "delivered": 65
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
