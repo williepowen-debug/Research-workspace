@@ -711,3 +711,18 @@ Own pull, yfinance `HOX26.NYM` / `CLX26.NYM` daily rows (`auto_adjust=False`) + 
 **Held share:** VLO **$393.19 (−3.74%)** at 10:42 (`fetch.py`) vs the **$412.00** fill = **−$18.81 / −4.6%**.
 
 **Construction rule #23, recorded:** today's move has a named driver: **a decided G7 diesel release, aimed directly at this card's mechanism (distillate tightness).** It is the first concrete bearish-distillate mechanism (BRENT). It fires no line. The rule is settlement-based and the letter governs: **no sell recommendation today on the letter.** ⚠️ It is the thing to watch, because a front-loaded 20-day diesel release falls inside the window in which leg A could be reached. **Next grade: today's settlement window (estimate after ~14:30 ET; source ② T+1).**
+
+### ⑫-bis `GATE-TERRY-VLO-HELD-01` owner grade for 10/2 + the 10/1 ② re-pull · 2026-10-02 Fri 14:42–14:4x ET (`date` 14:42:10 at the packet read) · TERRY interactive, on BRENT's packet `9e97bb5b4` (doorbell). **A NOT FIRED, no A-notice · B1 NOT FIRED. `$0` MOVED.**
+
+Own pulls 14:42:16 and 14:42:33 ET, yfinance `HOX26.NYM` / `CLX26.NYM` (contract identity on this pull: `HOX26` expires 2026-10-30, `CLX26` 2026-10-20; November fixed through 10/14, ⑨-bis). BRENT's figure **reproduced to the cent** before grading (verify at the artifact, not the message).
+
+| session | ② daily row (`HOX26×42 − CLX26`) | ② status | ③ settle-window ESTIMATE | ② vs ③ | A verdict |
+|---|---|---|---|---|---|
+| **10/1** (T+1 re-pull owed by ⑪-ter) | `4.6420×42 − 92.87` = **`$102.09`** | ⚠️ volume tell AMBIGUOUS: the 10/1 row's volumes `52,505 / 285,604` equal the 9/30 row's on both legs (9/30 read `63,952 / 335,169` at 16:21 10/1 and has since changed) | `$102.09` (⑪-ter) | `$0.00` ≤ `$0.15` ⇒ **② ACCEPTED on the letter's rule**; the volume tell is recorded, not adjudicated | **NOT FIRED — cent `$102.09`** (`$11.93` above `$90.16`) |
+| **10/2** | `4.5053×42 − 91.20` = `$98.02` | same-day bar, PROVISIONAL until T+1 (`RISK_RULES.md` 6c) | BRENT 2-bar close-VWAP 14:28–14:29: `4.501239×42 − 91.0844` = **`$97.97`** (reproduced: identical inputs, vol 1,997 / 13,741) · TERRY 3-bar typical-price VWAP 14:28–14:30 (⑪-ter convention): `4.50188×42 − 91.14163` = **`$97.94`** (vol 2,184 / 15,239) | two ③ reads within `$0.03` | **NOT FIRED, no A-notice:** `$7.78–7.81` above `$90.16`, `$2.94–2.97` above `$95` — far outside the ±`$0.15` near-line band |
+
+Context (BRENT, not graded): Dec matched `HOZ26×42 − CLZ26` = `$93.56` (reproduced). The 10:30 low was `$95.81–95.87`; the crack recovered ~`$2.1` into the settle window. Diesel was still the weakest leg on the day (`HOX26` settle-window 4.6429 → 4.5019).
+
+**B1 — signed US distillate export-restriction text at primary, read 14:42 ET 10/2:** Federal Register API, published since 10/1: *diesel export* 0 · *distillate export* 0 · *petroleum product export* 0. **Negative control:** *export* returns 21 (ADCVD reviews, ITAR, Extension of Reexportation Period), so the API answered. Public Inspection current: 107 docs, only keyword match = a Buy America waiver for diesel-multiple-unit rail parts (not fuel). ⇒ **NOT FIRED.** whitehouse.gov not read this touch (BRENT: none seen to ~12:1x).
+
+**Held share:** VLO **`$407.35` (−0.27%)** at 14:42 (`fetch.py`) vs `$412.00` = **−`$4.65` / −1.1%** (was −`$18.81` at 10:42). **2 STAGED shares:** terminal since F1 9/25, unchanged. **Construction rule #23:** the G7 release is still the named bearish-distillate driver; today it took the crack to within `$0.81` of the notice line intraday and it settled `$2.97` above it. `$0` moved · no order · no gate moved or shaved. **Next grade:** Mon 10/5 settle window, plus the 10/2 ② row on its T+1 re-pull.
