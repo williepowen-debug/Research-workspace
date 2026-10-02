@@ -1,0 +1,310 @@
+wq	class	done	name
+58	K1 trades/positions	2026-08-21	USO 35-shares exit condition
+94	K1 trades/positions	2026-08-27	TERRY rule-#20 write-up for the HELD USO 135C ×2
+97	K1 trades/positions	2026-08-29	QQQ 23 sh — rec SELL
+126	K1 trades/positions	2026-08-29	Robinhood QQQ $715P 8/31 intent
+143	K1 trades/positions	2026-09-01	WAL Sep-18 67.5/70P pair after REG-T-02 FIRED (WAL $77.26 [9/1])
+144	K1 trades/positions	2026-09-01	Approve the staged WAL Dec-18 $70P roll card
+145	K1 trades/positions	2026-09-01	USO Oct-16 $135C ×2 management terms
+168	K1 trades/positions	2026-09-03	XLE/WAL/KRE Sep-18 & Sep-30 expiry cluster — rows ①–⑦ (LAPSE/HOLD/exit tests)
+177	K1 trades/positions	2026-09-11	VIOLET 7/1 tail-hedge framework (ARMED, 64d stale)
+192	K1 trades/positions	2026-09-26	Deploy question on the M/T Kylo sinking — STAND DOWN
+200	K1 trades/positions	2026-09-26	USO 37-share management card
+201	K1 trades/positions	2026-09-26	TLT Sep-30 $85P limit re-price
+207	K1 trades/positions	2026-09-26	USO Sep-18 150/165 call spread ×1 (Robinhood) — TERRY card TRY-MGMT-USORH150165 OPTION 1
+210	K1 trades/positions	2026-09-26	XLE Sep-30 $65C ×1 survivor — BRANCH 1: sell at the bid at the 9/11 open (FORGE D-49)
+213	K1 trades/positions	2026-09-26	TRY-BRENT-REFINER — 3 × VLO by Will's own hand (APPROVED 9/10, RE-AFFIRMED 9/17)
+217	K1 trades/positions	2026-09-26	TLT Sep-30 $77P — the ×20 after Will's ×5 sale
+258	K1 trades/positions	2026-09-26	CHEAP-TAIL WINDOW OPEN 4/4 on the 9/17 close — take or pass before the 9/18 open
+280	K1 trades/positions	2026-09-24	TLT-put ADD re-arm (9/23 5Y composition failure) — RULED: NO ADD to 004
+282	K1 trades/positions	2026-09-24	GATE-TERRY-VLO-SCALE — RULED: REGISTERED, letter verbatim
+292	K1 trades/positions	2026-09-26	TWO ITM PUTS INTO OCT-16 — RULED: TERRY prepares the two position-management cards (preparation only)
+297	K1 trades/positions	2026-09-25	THE BOOK IS ONE OIL BET — RULED: (A) ACCEPT THE CONCENTRATION IN WRITING; no offset card, no trim
+315	K1 trades/positions	2026-09-28	WEDNESDAY 9/30 EXPIRIES (QQQ 730P ×10 · USO 159C ×2) — TERRY disposition read LAUNCHED
+316	K1 trades/positions	2026-10-01	SELL OR HOLD THE TWO WEDNESDAY EXPIRIES — EXECUTED BY WILL'S HAND: ROLLED (nine QQQ 730P sold to close @ $0.01, nine QQ…
+330	K1 trades/positions	2026-09-28	VLO HELD SHARE (×1) — MANAGEMENT RULE: BOTH (A: Nov crack settlement < $90.16 ⇒ sell rec, < $95 notice only, suspended …
+13	K2 spend/keys/accounts	2026-08-07	FFIEC CDR account
+17	K2 spend/keys/accounts	2026-08-14	Repo public flip
+37	K2 spend/keys/accounts	2026-08-14	GIE/AGSI+ key
+41	K2 spend/keys/accounts	2026-08-21	War-risk premium source upgrade
+220	K2 spend/keys/accounts	2026-09-26	Quartr connector UNENTITLED
+223	K2 spend/keys/accounts	2026-09-26	NASA FIRMS API key (MAP_KEY) — FALCON could not place a single 9/10 hotspot on the Petroline route
+230	K2 spend/keys/accounts	2026-09-23	War-risk insurance data — RULED: no paid access, free-source monitoring
+238	K2 spend/keys/accounts	2026-09-23	Laptop API keys — CLOSED
+271	K2 spend/keys/accounts	2026-09-26	Free GIE AGSI+ API key — registered by Will's own hand and VERIFIED AT THE API the same hour
+277	K2 spend/keys/accounts	2026-09-23	Licensed futures settle feed — DECLINED
+298	K2 spend/keys/accounts	2026-09-25	THE PAID-DATA QUESTION, DECIDED ONCE — RULED: APPROVED with PROME's rec (one list by 10/02; buy/declare per line in one…
+300	K2 spend/keys/accounts	2026-09-26	THE PAID-DATA PASS — RULED: free-tier approach for rating actions APPROVED; the paid lines DECLINED; unavailable inputs…
+310	K2 spend/keys/accounts	2026-09-27	FAIRFAX CPAN SUBSCRIPTION ($150/qtr) — DEFERRED; EGBN Q3 deck is the checkpoint, disclosure limitation recorded
+70	K4 root + fleet-wide canon	2026-08-21	Batch A memory-canon two-liners
+71	K4 root + fleet-wide canon	2026-08-21	Batch B CHECK_STANDARD six-item package
+83	K4 root + fleet-wide canon	2026-08-23	root CLAUDE.md scope-note mirror
+96	K4 root + fleet-wide canon	2026-08-27	Root-canon line: pathspec-less / --allow-empty commits sweep the shared index
+112	K4 root + fleet-wide canon	2026-08-28	Canon gap: scoring vintage for re-marked confidence
+118	K4 root + fleet-wide canon	2026-08-29	Root CLAUDE.md line 18 → PROME/inbox/ named as the PROME delivery address
+119	K4 root + fleet-wide canon	2026-08-29	Root CLAUDE.md small batch — carve-out count + cost-model line (RAV F1/F5)
+120	K4 root + fleet-wide canon	2026-08-29	Root CLAUDE.md restructure — rules vs provenance split
+122	K4 root + fleet-wide canon	2026-08-29	Root LESSONS.md + KERNELS.md — retire → REFRESH in place
+123	K4 root + fleet-wide canon	2026-08-29	AGENTS.md condense
+124	K4 root + fleet-wide canon	2026-08-29	README.md refresh
+128	K4 root + fleet-wide canon	2026-08-29	AGENTS.md re-shape (Codex relayed review)
+129	K4 root + fleet-wide canon	2026-08-29	KERNELS.md re-shape (Codex relayed review)
+130	K4 root + fleet-wide canon	2026-08-29	Retire root LESSONS.md (Codex relayed review)
+134	K4 root + fleet-wide canon	2026-08-29	Boot-path slim-down batch (Codex-amended) — item 0 _NETWORK.md mermaid ↔ table edges
+135	K4 root + fleet-wide canon	2026-08-29	Root CLAUDE.md:24 non-launch vocabulary — "shelved" → "dormant, or retired" (ROSTER'
+137	K4 root + fleet-wide canon	2026-08-30	Root CLAUDE.md post-audit batch A–H (Will-requested audit → Codex-amended)
+148	K4 root + fleet-wide canon	2026-09-01	Canonical ATTENTION clock — key name
+150	K4 root + fleet-wide canon	2026-09-01	Root carve-out ④ vs runbook §successor scope
+161	K4 root + fleet-wide canon	2026-09-26	Prediction canon — non-resolution branch carries no mass · mass-neutral retrofit test · proof written at patch time
+172	K4 root + fleet-wide canon	2026-09-03	PREDICTION_DISCIPLINE negative-existence amendment
+175	K4 root + fleet-wide canon	2026-09-11	FROZEN-ON-REVISABLE threshold kind (two clauses) + LABOR vintage table
+237	K4 root + fleet-wide canon	2026-09-26	Root CLAUDE.md YEYOU lines — RULED 9/17 (Deck tap APPROVE), moved to IMPLEMENTATION TRACKING 9/26
+244	K4 root + fleet-wide canon	2026-09-26	Root rule 4d breached on ~10% of commits and the detector only PRINTS — BLOCKING hooks
+247	K4 root + fleet-wide canon	2026-09-26	Root Output Canon gains the OPERATOR-SURFACE clause (Will's own 9/14 ask)
+250	K4 root + fleet-wide canon	2026-09-26	A letter saying "I could not check this" is REGISTRABLE BUT NOT GATE-CITABLE
+253	K4 root + fleet-wide canon	2026-09-26	SL-5 tie-set rule: carry it in PREDICTION_DISCIPLINE.md, or point at it?
+288	K4 root + fleet-wide canon	2026-09-24	PREDICTION CANON — a met Invalidation resolves the row AT THE FIRE — RULED: APPROVED as written
+80	K5 PROME process/tools/authority	2026-08-23	HEARTBEAT commit-gate — free it?
+89	K5 PROME process/tools/authority	2026-08-28	GENERATED-VIEW build-or-decline
+121	K5 PROME process/tools/authority	2026-08-29	HEARTBEAT eighth re-base — STRUCTURAL (view sections removed, dashboard = single level surface, §1–§3 compressed)
+131	K5 PROME process/tools/authority	2026-08-29	GATES.tsv current-state / history split
+132	K5 PROME process/tools/authority	2026-08-29	ACTIVE_DECISIONS: retire three no-standing-decision rows
+133	K5 PROME process/tools/authority	2026-09-26	PROME hygiene carry
+138	K5 PROME process/tools/authority	2026-08-30	DOCKET.tsv terminal-row compaction (trim-targets survey item 1)
+139	K5 PROME process/tools/authority	2026-08-30	Trim-batch items 2–4 (same "Ok go ahead" ruling as 138)
+140	K5 PROME process/tools/authority	2026-08-30	Codex process-reform batch (8 items, Codex-amended 2nd round)
+147	K5 PROME process/tools/authority	2026-09-01	Staleness sweep M1 — --all honors # Cadence: declared-quiet tokens
+165	K5 PROME process/tools/authority	2026-09-03	Cold-read stop rule
+166	K5 PROME process/tools/authority	2026-09-03	GATES.tsv two-state split
+171	K5 PROME process/tools/authority	2026-09-03	Codex audit legs — commit-subject rule · KERNEL status · receipt/sidecar commission
+174	K5 PROME process/tools/authority	2026-09-11	WALTER BOARD/INDEX generate-in-place (three legs)
+176	K5 PROME process/tools/authority	2026-09-11	GATES.tsv step-3 compaction (three legs)
+178	K5 PROME process/tools/authority	2026-09-11	Verification cascade — five process fixes
+184	K5 PROME process/tools/authority	2026-09-26	The SPAWN DRIVER — L0 rule + spawn_list.py + the L2 digest (seven legs)
+185	K5 PROME process/tools/authority	2026-09-26	Codex's overall assessment — four legs + the 9/6 Codex amendment (leg ⑤)
+202	K5 PROME process/tools/authority	2026-09-26	Decision Deck v1 + tap-to-rule
+203	K5 PROME process/tools/authority	2026-09-26	WQ LEDGER — one append-only TSV for every Will decision
+206	K5 PROME process/tools/authority	2026-09-26	Aged ACTION-line backlog rule + WALTER §WILL_NEEDS deck feed
+221	K5 PROME process/tools/authority	2026-09-26	Aged "waits on others" rule — WQ-206 extended to the deck's third group
+226	K5 PROME process/tools/authority	2026-09-26	ARGUS — a closeout AUDITOR of PROME's own recent output, build or not
+227	K5 PROME process/tools/authority	2026-09-26	Exempt-desk closeout self-assertion (spec §3.5.6 option (b)) — adopt or not
+229	K5 PROME process/tools/authority	2026-09-26	Repair-completion discipline — ADOPT as PROME practice + one standing instruction
+233	K5 PROME process/tools/authority	2026-09-26	STATUS re-base — current state in STATUS, session history to the archive
+236	K5 PROME process/tools/authority	2026-09-26	READS.tsv rollout now; DAEDALUS dates the STRICT flip
+239	K5 PROME process/tools/authority	2026-09-26	WQ-239 boot interrupt contract + capability scoping
+240	K5 PROME process/tools/authority	2026-09-26	Closeout simplification + L338 sizing decision
+249	K5 PROME process/tools/authority	2026-09-26	Spawn-closeout discipline — a spawn is not complete until the desk has been ASKED to close out
+263	K5 PROME process/tools/authority	2026-09-23	Commit-guard split — RULED with CATO fix; encoded, independently verified with residue
+265	K5 PROME process/tools/authority	2026-09-22	Decision Deck publication cost — DONE: the Deck was republished this session
+268	K5 PROME process/tools/authority	2026-09-26	Spawn-driver review — RULED: adopt the number, reject the clause's own remedy
+269	K5 PROME process/tools/authority	2026-09-26	Desk cadence — RULED: WIRE IT NOW
+270	K5 PROME process/tools/authority	2026-09-26	ARGUS trial — RULED: KEEP, on the per-run evidence
+289	K5 PROME process/tools/authority	2026-09-24	PUSH HELD ON A BY-DESIGN VERIFY FAILURE — RULED: APPROVED with PROME's rec (push + narrow L367 form)
+299	K5 PROME process/tools/authority	2026-09-26	PROME SELF-CORRECTION REFORM — RULED: R1–R4 APPROVED as revised, with clarifications
+350	K5 PROME process/tools/authority	2026-10-01	THE SIGNAL SCANNER — ONE MORE FIX PASS AND ONE MORE INDEPENDENT READ — RULED: APPROVE (PROME's rec)
+27	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-12	BRENT moneyness-band + width-bias
+32b	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-12	WAL spec-repair ①–④
+33a	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-12	OSPREY thesis-kill repair
+33b	K6/C1 desk rule text (gates, bands, prediction letters)		OSPREY EXIT RULES §3 :159 attribution clause
+35a	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-07	BRENT COT (a): does the fuller-size modifier revert if cumulative rises back above −25,…
+35b	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-14	COT successor re-base
+36a	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-12	MIDAS L-12 + L-13
+36b	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-14	L-15 revision re-grading (fleet)
+40	K6/C1 desk rule text (gates, bands, prediction letters)		HAWK SULPHUR-01 band-basis ruling
+42	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-12	WAL fence-② / OZK cell scope
+44	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-12	CARL kill-rule re-spec
+45	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-14	HOMER servicer-watch re-spec
+46	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-14	HOMER GSE-condo re-key
+48	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-13	AEOLUS Mead 1,035 re-key
+49	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-14	Issuer-primary convention
+50	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-14	Servicer-spec definitions A/B/C + rider
+51	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-14	MIDAS-06 re-key $4,340.70
+65	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-21	MIDAS (e) continuous basis
+66	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-21	MIDAS (f) DFII10 NO-VERDICT band
+67	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-21	MIDAS (g) smoothed endpoints
+68	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-21	MIDAS (h) MIDAS-06 duration clause
+69	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-21	MIDAS (i) L-13(b) upside band
+72	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-30	T6 conjunctive-clause word + the joint T+1 publication rider
+73	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-30	BOND T6 frozen-text repairs + the fresh-high vs >5.28 DIVERGENCE clause
+74	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	Row-58 oil exit LEVELS return for ratification
+85	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-23	CORAL MSI leg — trigger with no falsifier
+86	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-23	Registration join rule (owner→GATES, registrar→owner)
+87	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-20	OSPREY 8/17 ruling conflict + band re-centre
+88	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-23	GATE-LIQ-076 W1 blind to orderly exits
+91	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-23	MIDAS moving-referent class
+92	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-27	VX-CREED-4.01 baseline not reproducible
+93	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-27	MATRIX_V2 scope (BOND's kill composition-failure test)
+99	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-27	Which definition governs BOND's TLT-put ADD re-arm
+100	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-27	ODCE/$1B "major fund" forward definition (T-06b)
+101	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-27	SREIT/T-06b fire word
+104	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-27	CARL-DR-1 aggregation rule
+105	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-28	NEXUS amendment 12 + the falsifier it fired
+106	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-28	Five HY-260 persistence counts
+113	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-28	FORUM fin-cond T3 re-spec (LIQUID/HENRY)
+114	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-28	GATE-LIQ-069 unnamed sub-thresholds
+116	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-28	BROCK's two lines need re-spec
+136	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-30	T6 rows 72/73 disposition + the three spec-authoring rules
+142	K6/C1 desk rule text (gates, bands, prediction letters)	2026-08-31	DFII10 NO-VERDICT band for successor rows
+153	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-01	WQ-117 leg C axis form
+157	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-25	LEG ② (dealer-stock ⇄ funding PAIRING) — RULED: PARKED; the September 4 rule (leg ①) stays in force; I′ alone = marker,…
+158	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-02	BROCK redemption-register re-spec → GATE-BRK-R2
+160	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	HAW-19 LEG A unfireable as registered
+170	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-03	GATE-LIQ-069 L4 cohort rule
+173	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-03	BROCK convergence second leg (BDC NAV-discount)
+182	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	CARL V16 drop-back branch
+189	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	Frame-breaker instance ③ "vessel SUNK" — capacity floor
+190	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	ORACLE v4 instrument succession — RATIFIED as one package
+195	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	FALCON next rung and attacker-axis consequence
+196	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	OSPREY direct ruling reconciled
+197	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	OSPREY direct ruling reconciled
+198	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	OSPREY direct ruling reconciled
+199	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	OSPREY direct ruling reconciled
+208	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	HAW-18 scoring-vintage eligibility — 60% vs the corrected 55%
+211	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	HAWK batch-2 rule decisions — N6 AGREEMENT rule · TRADE01 adoption-stage
+212	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	HAW-19 disposition on 9/30 + the capacity-only SUCCESSOR
+215	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	CREED-T-08a basis declaration
+216	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	OSPREY × HAWK joint Russia/Ukraine strike taxonomy (was OWED-23, waiting since 8/20)
+218	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	CRUISE — NCLH / CCL watch rows re-graded
+219	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	ASIF into BRK-30's OR-gate — DECLINED; vehicle population ruled with GATE-BRK-R2
+222	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	CRUISE — VX-CRU-06 falsifier: ONE number · ONE base · ONE window
+224	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	NEXUS's un-falsifiable matrix line — (i) a FLOW/ISSUANCE feed some desk already holds, else (iii) carry
+234	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-23	BG-02 AIS resolver — RULED C: AIS corroborates only
+235	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	BRK-02 MEASUREMENT BASIS — ALREADY RULED 8/13 (Will-ratified resolver, basis = amortized COST, FV rejected); row closed…
+241	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-28	MSI-01 RE-FIRE CONDITION + LEVEL GUARD — APPROVED WITH TWO AMENDMENTS; CORAL installs beneath the 8/23 letter, GATES po…
+246	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	THESIS GATE (a) 'DFII10 >2.5 SUSTAINED' — RULED: 5 CONSECUTIVE published closes ≥2.50, reset on any close below, unpubl…
+248	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	HOMER Freddie multifamily band — retune?
+251	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	RE-BASE THE 8/13 CCC/HY STAND-DOWN ON THE TIER TEST — WITHDRAWN as overtaken
+252	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-24	CRACK CONTRACT MONTH — RULED: convene a sitting, no month chosen tonight (PROME's rec)
+254	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-24	P4 SITTING — RULED by letter: D1 · D2 · D3(a) · D4(a) · D7 · D8 APPROVED; D6 RATIFIED; D5 = WALTER's; D9 waiver DECLINED
+256	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-24	DAEDALUS gate-basis run #1 — RULED: (b) ㉗ reverse-walk + (d) SENTRY retirement banner APPROVED as written; (a) SL-5 qua…
+257	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	L398 OPTION A — RULED: RATIFIED (freeze the Advanced Turf NOLA $/st panel; T5 RETIRED-PENDING-REPLACEMENT)
+260	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-24	ORACLE v4 SUPPLY-LEG SUCCESSION — RULED: RE-STRIKE to the $110 rung as v5 with a VINTAGE BREAK
+261	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-24	T-12 SUCCESSOR — RULED ①: the real-rate leg (DFII10 ≥2.50 ×5 published sessions) is BLESSED into the frozen admission g…
+264	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-24	Saudi Petroline RESTART resolver — RULED: ① 30-day shadow run APPROVED (prospective) · ③ BG-02 LAPSES on its letter at …
+266	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	Channel-2 geography qualifier — RULED: YES, apply it to both channels
+276	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-24	OSPREY C1 REFINERY-CHANNEL UPGRADE — RULED (iii): UPGRADE now + downgrade test registered as a dated successor at OSPRE…
+281	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-24	CRL-08 gasoline ≥$4.50 — RULED: the SUSTAINED 2-week bar governs
+287	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	CRL-27 RE-TOKEN — RULED: CARL's option A in full (retire CRL-27 UNSCORED and register a SUCCESSOR without leg (a); orig…
+290	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-25	FR2004 JOIN WINDOW — RULED: APPROVED with PROME's rec (BOND fixes the window; old numbers kept as history; WQ-157 leg ②…
+291	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	SEPTEMBER-4 KILL — DEALER-STOCK LEG ON A 5Y I′ FIRE — RULED: BOND's exact letter APPROVED as a recommendation through T…
+293	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	RUSSIAN-MOBILISATION TEST — RULED: YUR-004 APPROVED with three corrections; YUR-001 SUPERSEDED UNSCORED, partial readin…
+296	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-26	HAW-19 SUCCESSOR — RULED: A (disclosed-loss forecast HAW-22, UNCALIBRATED token + the undisclosed-damage warning retain…
+301	K6/C1 desk rule text (gates, bands, prediction letters)	2026-10-01	GATE-LIQ-069 LEG 2, PART (b) — THE COREWEAVE CDS ANCHOR RE-BASE — RULED: APPROVE (the card's "If yes"; (a) and (c) were ruled 9/26)
+303	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-28	CREED S8a REIT-TAPE SCORE after the 9/24 CREED-T-08a fire — 2 → 4 of 5 (stress tally 25/45 → 27/45)
+304	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-28	KERNEL-PINNED CREED PREDICTIONS 004 (HIT) + 007 (MISS) — OPTION B: CREED scores on its own ledger now; the Kernel resol…
+307	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-28	SUCCESSOR-QUARANTINE N — LAPSED at 9/30, re-register on the first live successor claim
+319	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-28	VX-HAWK-IRAQ-01 RED → YELLOW — registered gate MET (partial recovery >2M bpd); GREEN unmet
+320	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-28	VX-HAWK-FININFRA-01 — bank-serving cloud counts as financial infrastructure NARROWLY: only where physical damage is DOC…
+321	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-28	CRITERION 5 (FL BANKRUPTCY) — ABSOLUTE LEG SCORED AS PROPOSED, RELATIVE REPORTED ONLY, a prospective policy choice; the…
+322	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-28	CORAL CONFIRM-SIDE BANKRUPTCY TRIPWIRE — OPTION E: the unsupported 230/260 LEVEL TRIGGER RETIRED prospectively, history…
+324	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-28	WAL V3 (NDFI) SCORE — RE-SCORED NOW on the Q2 A1 filing rows: 1/5 → 3/5 (matrix scale: mixed/untested), KB-121 named as…
+325	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-28	WAL Q3 PRINT-GRADING FRAME — three rules ADDED as dated §10 additions, each with a no-verdict band, 15 days before the …
+331	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-28	BRENT PHASE-MAP AMENDMENTS — P1 · P2 · P4 APPROVED AS WRITTEN; P3 APPROVED AS A DRAFT to bring back before the next pri…
+332	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-30	BOND "PULLED-DEAL CLUSTER" — a standing trigger, or keep hand-grading — RULED: KEEP HAND-GRADING (BOND's rec, PROME con…
+336	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-29	REGISTER SAM-42 (BOJ no hike by 10/31, P(hike) 25% vs market ~36%) — RULED: APPROVE
+338	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-29	HOMER A3/A4 BAND RETUNES — RULED IN HOMER'S WINDOW (Will directly, AskUserQuestion, after CATO f139c5db7): rent breadth…
+342	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-30	A CREDIT LEG FOR NEXUS's DURATION SPLIT (frozen 9/02 letter) — RULED: NOT NOW (PROME's rec; NEXUS's rider concurs)
+344	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-30	HEN-F3 after the Russian ban's extension to 10/31 — RULED: DEAD AS WRITTEN (HENRY's grade stands; PROME's rec)
+345	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-30	BRT-31 — BRENT's PATH-B (DEMAND) SUCCESSOR TEST — RULED: APPROVE PER PROME's REC (blind second reader first, then regis…
+346	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-30	BRT-31 v2 — BRENT's adjusted Path-B (demand) test after CARL's blind read — RULED: APPROVE v2 AS WRITTEN at 40% (PROME'…
+351	K6/C1 desk rule text (gates, bands, prediction letters)	2026-10-01	FERT's PHOSPHATE GATE (GATE-FERT-G5) — WORDING CLARIFICATION — PROCESSED WITHOUT A PER-ROW RULING, on Will's delegation
+356	K6/C1 desk rule text (gates, bands, prediction letters)	2026-10-01	CREED THESIS, HYPOTHESIS 1 — 'EXTEND-AND-PRETEND' REWORDED — RULED: APPROVED (CREED's wording, PROME's rec)
+34	K7/C4 charters, seats, ownership	2026-08-07	RULE: who may edit the RAV-QC-002 memory
+43	K7/C4 charters, seats, ownership	2026-08-12	REG-15 ownership → WAL
+55	K7/C4 charters, seats, ownership	2026-08-21	CRUISE re-class + ladder
+56	K7/C4 charters, seats, ownership	2026-08-21	SAM INFRA_AGENDA
+64	K7/C4 charters, seats, ownership	2026-08-21	VIOLET CLAUDE.md step-7 amendment
+107	K7/C4 charters, seats, ownership	2026-08-28	OTTO's CARL-V2 downgrade table — who registers
+108	K7/C4 charters, seats, ownership	2026-08-28	HANS / EUROPE_MACRO nomination
+110	K7/C4 charters, seats, ownership	2026-08-28	FLG charter ENTITY correction
+152	K7/C4 charters, seats, ownership	2026-09-01	DAEDALUS → L5
+180	K7/C4 charters, seats, ownership	2026-09-26	Utility maturity ladder — calibration loop as a graded L3 leg
+181	K7/C4 charters, seats, ownership	2026-09-26	YEYOU dormancy ② — the vacuous "zero YEYOU flags" L5 leg
+183	K7/C4 charters, seats, ownership	2026-09-26	STUE read mode + the pen — APPROVED; PARENT HOLDS THE PEN
+193	K7/C4 charters, seats, ownership	2026-09-26	LABOR charter batch — split + 7 corrections + 2 adds + C2 both-books wording
+214	K7/C4 charters, seats, ownership	2026-09-26	LABOR charter — EXIT-RULES vintage sweep unconditional at every C1
+228	K7/C4 charters, seats, ownership	2026-09-26	BaaS / sponsor-bank credit perimeter has NO OWNER
+255	K7/C4 charters, seats, ownership	2026-09-26	CATO's PERMANENT CLASS — RULED: SPECIAL
+259	K7/C4 charters, seats, ownership	2026-09-24	VIOLET Will-facing pages (vol cheat-sheet · operating picture) — RULED: REFRESH after VIOLET's next POST-CLOSE boot
+267	K7/C4 charters, seats, ownership	2026-09-26	Russia desk YURI — RULED: GRANT THE SEAT AND WIRE IT NOW
+285	K7/C4 charters, seats, ownership	2026-09-24	YURI SHARED-SURFACE ROWS — RULED: APPROVED as written
+286	K7/C4 charters, seats, ownership	2026-09-24	DAEDALUS STALENESS #5 — RULED with PROME's recs: ① BARON freeze APPROVED · ② G1 · ③ G2 APPROVED · ④ REQUIRE THE RECEIPT…
+305	K7/C4 charters, seats, ownership	2026-09-30	ORACLE CHARTER EDIT — the four Kalshi gap-fill markets drop from a STANDING every-session item to a DATED QUARTERLY re-…
+333	K7/C4 charters, seats, ownership	2026-09-28	VIOLET CHARTER LINE (AGENTS/VIOLET/CLAUDE.md:194 "Last refreshed 2026-08-18") — RULED: POINTER FORM
+337	K7/C4 charters, seats, ownership	2026-09-30	AI POLICY & REGULATION coverage gap — RULED: (b) HOLD EXPLICITLY UNOWNED, recorded on ROSTER as a named exclusion; VULC…
+343	K7/C4 charters, seats, ownership	2026-09-29	NEXUS CADENCE — a dated weekly TUESDAY wake row on the DOCKET while ON-DEMAND stays the ROSTER token — RULED: APPROVE
+26	K8/C5/C6 spawns, scope, commissions	2026-08-06	LAUNCH FALCON
+30	K8/C5/C6 spawns, scope, commissions	2026-08-06	FALCON 8/6 session proposals
+59	K8/C5/C6 spawns, scope, commissions	2026-08-27	CARL-DR-1 FHA leg re-commission
+146	K8/C5/C6 spawns, scope, commissions	2026-09-01	LABOR summons (dark since 8/28 through ISM/JOLTS/OPM/NFP)
+156	K8/C5/C6 spawns, scope, commissions	2026-09-02	LABOR summons for the 9/3–9/4 cluster
+186	K8/C5/C6 spawns, scope, commissions	2026-09-26	Slate: RED + VIOLET Tuesday pre-open spawns on FT-10 2-of-4
+205	K8/C5/C6 spawns, scope, commissions	2026-09-26	REQ-DEWEY-20260829-002 — NVDA vendor financing (deadline Tue 9/15, DOCKET L244)
+209	K8/C5/C6 spawns, scope, commissions	2026-09-26	PHAN spawn (CARL's sub-agent, +56d)
+243	K8/C5/C6 spawns, scope, commissions	2026-09-26	MARCO half of the FL joint touch (L332) — release the leg to PROME?
+262	K8/C5/C6 spawns, scope, commissions	2026-09-26	CATO's 9/17 22:23 LIQUID review — staged, never committed (its session ended unclosed, like prome-b0)
+275	K8/C5/C6 spawns, scope, commissions	2026-09-23	FALCON 5th-spawn exception — MOOT
+278	K8/C5/C6 spawns, scope, commissions	2026-09-23	9/24 spawn slate — RULED: hold RED and DAEDALUS to 9/25
+283	K8/C5/C6 spawns, scope, commissions	2026-09-24	WAKE SAM BEFORE THE TOKYO OPEN — OVERTAKEN by Will's own hand: sam-61 launched 2026-09-24 16:38 ET (ListAgents, prome-f…
+284	K8/C5/C6 spawns, scope, commissions	2026-09-24	WAKE HOMER — OVERTAKEN by Will's own launch (homer-20 live 18:1x ET); PROME doorbelled it with WALTER's -020 ACTION item
+294	K8/C5/C6 spawns, scope, commissions	2026-09-25	SPAWN HANS PAST THE CAP TO GRADE HANS-T-10 (FIRED 9/24) — RULED: APPROVED with PROME's rec
+306	K8/C5/C6 spawns, scope, commissions	2026-09-30	DEWEY COURT-RECORDS HELPER (recap_pull.py, built cbac3972e citing Will's go-ahead in DEWEY's session) — RULED: CONFIRME…
+309	K8/C5/C6 spawns, scope, commissions	2026-09-27	SIGNATURE-SALE RELEVANCE READ — no usable loss-rate comparison; a conditional Dec-2023 valuation (~60% of book if 'N/A'…
+311	K8/C5/C6 spawns, scope, commissions	2026-09-27	VLY BOUNDED ASSIGNMENT — delivered: NEITHER, one bank-specific early flag; Q3 a checkpoint
+312	K8/C5/C6 spawns, scope, commissions	2026-09-27	ONE-TIME Q2 WORKOUT CHECK — delivered; no recurring ledger
+313	K8/C5/C6 spawns, scope, commissions	2026-09-27	Q3 TARGETED FIVE-ITEM READ — folded into the desks' Q3 work; SCHEDULED on DOCKET (L516 · L170 · L171 · L35 · L180 · L51…
+317	K8/C5/C6 spawns, scope, commissions	2026-09-28	CROSS-MARKET ATTRIBUTION READ of the 9/22→9/28 long-end sell-off — ONE page inside BOND's 10/01 refresh, delivered 10/0…
+318	K8/C5/C6 spawns, scope, commissions	2026-09-28	REGINALD FUNDING-vs-NONBANK-EXPOSURE BASELINE (CUBI · CFG · WAL · OZK; FLG · EGBN contrasts) — one session week of 10/5…
+323	K8/C5/C6 spawns, scope, commissions	2026-09-28	CCC REFINANCING WALL 2027–28 BY INDUSTRY — BOND bounded attempt, free sources only, GAP-and-stop rule
+327	K8/C5/C6 spawns, scope, commissions	2026-09-28	BOND COVERAGE JOB 1+2+3 (fed-path futures in the session pull · both term-premium models · weekly MBS-indicator restart…
+328	K8/C5/C6 spawns, scope, commissions	2026-09-28	WAL HOTEL EXPOSURE — ONE bounded WAL session before the 10/13 print window; CREED by packet only (no CREED launch); one…
+329	K8/C5/C6 spawns, scope, commissions	2026-09-28	BRENT SIX-ITEM SCOPE (energy desk, week of 9/28) — scheduled grades kept · TERRY VLO management proposal COMMISSIONED (…
+335	K8/C5/C6 spawns, scope, commissions	2026-09-30	SCOPE A BUILD-YEAR × LOAN-YEAR MULTIFAMILY DELINQUENCY CROSS-TAB (HOMER's optional ask) — RULED: NOT NOW (PROME's rec)
+340	K8/C5/C6 spawns, scope, commissions	2026-09-29	ONE ROOT OR MANY? — NEXUS one-page root-attribution of this week's fired fleet lines (7 lines / 5 desks since Mon 9/28 …
+90	K9 Kernel	2026-08-27	C7 pilot window
+103	K9 Kernel	2026-08-27	Kernel Sitting-2 window
+149	K9 Kernel	2026-09-01	Sitting-2 mint amendment — E pins MIDAS CMD-01a05d61
+155	K9 Kernel	2026-09-02	Kernel Sitting 2 — C8 ruling package
+125	mirror commit (retired 9/30)	2026-08-29	FORGE reconcile 8/29 commit
+169	mirror commit (retired 9/30)	2026-09-26	FORGE RECONCILE 9/3 — commit leg EXECUTED 9/3 (ANVIL f8fc48869, Will *"approved go ahead"* 17:51); the four open broker…
+308	mirror commit (retired 9/30)	2026-09-27	FORGE RECONCILE TO THE 9/25 CLOSE — APPROVED and COMMITTED (f39c70073, PROME for the clerk via commit_check)
+326	mirror commit (retired 9/30)	2026-09-28	FORGE MIRROR FILLS PASS — COMMITTED as edited (QQQ 730P ×9 · TLT 77P ×15 · TLT 82P ×1 · USO 159C ×2 · RH WAL 70P $4.40 …
+127	C7 collection-lane config	2026-08-29	Retire .github/workflows/feeds.yml (SENTRY feed fetch)
+141	C7 collection-lane config	2026-08-30	EIA *Today in Energy* RSS → RESEARCH-INTAKE (WQ-127 gap; WALTER YES 8/30 night)
+245	C7 collection-lane config	2026-09-26	Intake lane weekend cadence — cron to seven days
+76	regime-memo content	2026-08-23	two HEARTBEAT self-retractions — re-derive?
+79	regime-memo content	2026-08-23	HEARTBEAT §8 gold figure — which number headlines the premium
+16	C2 + misc (hands, reconciles, withdrawn)	2026-08-21	Broker-export residue
+20	C2 + misc (hands, reconciles, withdrawn)	2026-08-14	Robinhood screenshot
+32a	C2 + misc (hands, reconciles, withdrawn)	2026-08-12	WAL housekeeping ⑤⑥
+38	C2 + misc (hands, reconciles, withdrawn)	2026-08-07	NEXUS brief-schema amendment 11
+39	C2 + misc (hands, reconciles, withdrawn)	2026-08-14	Remote-branch disposition
+47	C2 + misc (hands, reconciles, withdrawn)	2026-08-13	CREED courier
+75	C2 + misc (hands, reconciles, withdrawn)	2026-08-22	WALTER dark-owner doorbell (rule 6's missing else)
+77	C2 + misc (hands, reconciles, withdrawn)	2026-08-23	OZK P-OZK-2 empty pillar
+78	C2 + misc (hands, reconciles, withdrawn)	2026-08-23	OZK POSITIONS PAT-025 freeze
+81	C2 + misc (hands, reconciles, withdrawn)	2026-08-23	rule-6b leg 3b — define "session"
+82	C2 + misc (hands, reconciles, withdrawn)	2026-08-23	WALTER re-score + bar re-derivation
+84	C2 + misc (hands, reconciles, withdrawn)	2026-08-23	Rule-6b leg 3b self-normalising doorbell
+95	C2 + misc (hands, reconciles, withdrawn)	2026-08-27	Archive TRY-WILL-QQQFADE
+98	C2 + misc (hands, reconciles, withdrawn)	2026-09-26	Broker records when convenient
+102	C2 + misc (hands, reconciles, withdrawn)	2026-08-27	carve-out-① vs OTTO:213
+109	C2 + misc (hands, reconciles, withdrawn)	2026-08-28	DAEDALUS sweep proposals P1–P5
+111	C2 + misc (hands, reconciles, withdrawn)	2026-08-28	WALTER: prevention findings need a push surface
+115	C2 + misc (hands, reconciles, withdrawn)	2026-08-28	symptoms: backfill sweep + rename question
+117	C2 + misc (hands, reconciles, withdrawn)	2026-08-28	DAEDALUS three-encodes bundle
+151	C2 + misc (hands, reconciles, withdrawn)	2026-09-26	Reconciled existing ruling
+159	C2 + misc (hands, reconciles, withdrawn)	2026-09-26	Reconciled existing ruling
+162	C2 + misc (hands, reconciles, withdrawn)	2026-09-26	Reconciled existing ruling
+163	C2 + misc (hands, reconciles, withdrawn)	2026-09-26	NEXUS systems-review slate — items 3 · 4 · ⑤
+164	C2 + misc (hands, reconciles, withdrawn)	2026-09-26	Reconciled existing ruling
+167	C2 + misc (hands, reconciles, withdrawn)	2026-09-03	The two operator facts → UNKNOWN
+179	C2 + misc (hands, reconciles, withdrawn)	2026-09-26	LABOR read-cap escalation — the WRITE MODE, fleet-wide
+188	C2 + misc (hands, reconciles, withdrawn)	2026-09-26	VIOLET two fixes before the thesis read (Codex 9/6 ledger-repair review)
+191	C2 + misc (hands, reconciles, withdrawn)	2026-09-26	S1 owner-unconsumed line — LAPSE, SUPERSEDED-BY-WQ-184
+194	C2 + misc (hands, reconciles, withdrawn)	2026-09-26	LABOR scoring vintage — registered in error, WITHDRAWN
+225	C2 + misc (hands, reconciles, withdrawn)	2026-09-26	HOMER — the right-edge MONTH on the two 9/10 Google Trends captures
+272	C2 + misc (hands, reconciles, withdrawn)	2026-09-20	WQ-272
+279	C2 + misc (hands, reconciles, withdrawn)	2026-10-01	NYSCEF DOCKET PULL on the rent-freeze lawsuit — DONE BY WILL'S HANDS: no stay or injunction through 10/1; the case is l…
+349	C2 + misc (hands, reconciles, withdrawn)	2026-09-30	WITHDRAWN — a duplicate of WQ-335 (HOMER's cross-tab offer), which you RULED NOT NOW on 9/30
+154	C2 + misc (hands, reconciles, withdrawn)	2026-09-02	CARL PREDICTIONS mirror → own file
