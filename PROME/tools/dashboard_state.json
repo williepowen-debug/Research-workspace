@@ -1,6 +1,6 @@
 {
  "attention_errors": [],
- "built": "2026-10-02 16:59",
+ "built": "2026-10-02 17:51",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -9,7 +9,7 @@
   "Japan / carry": "watch",
   "Metals": "elev",
   "Rates": "crit",
-  "War theaters + Europe + tariffs + housing": "crit"
+  "War theaters + Europe + Russia + housing": "crit"
  },
  "docket": [
   "2026-09-21 \ud83d\udd34 RUSSIAN MOBILISATION DECISION WINDOW OPENS \u2014 the Duma elec",
@@ -146,17 +146,17 @@
  },
  "heartbeat_errors": [],
  "levels": {
-  "10Y Yield": 5.29,
-  "CCC OAS": 1179.0,
+  "10Y Yield": 5.28,
+  "CCC OAS": 1215.0,
   "Cushing": 24.301,
-  "HY OAS": 312.0,
-  "MOVE": 110.0,
-  "OZK": 46.34,
-  "USD/JPY": 158.14,
-  "VIX": 16.25,
-  "WAL": 75.71
+  "HY OAS": 324.0,
+  "MOVE": 107.29,
+  "OZK": 46.71,
+  "USD/JPY": 157.83,
+  "VIX": 15.31,
+  "WAL": 76.38
  },
- "one": "\ud83d\udd34 C-36 TWO-PART REAL-YIELD REGIME READ LOAD-BEARING ACROSS 3 DESKS ON 10/02 DATA: BOND EOD curve 10Y 5.28 CLOSED 4bp ABOVE pre-NFP 5.24 / 30Y real 3.34 NEW CYCLE HIGH / BE flat-down (real-yield-led NOT inflation-exp-led); HENRY RSP 7th-week DOWN HIT ($209.73 < $211.11; ties only prior \u22657-week run since 2003 = Apr-May 2022) + Sep ISM Prices-Paid 77.9 THROUGH RED; VULCAN RSP\u2212SPY 63d went +3.7pp \u2192 \u22125.07pp (3.7th pctile) in 30d, 2.43pp from red band. WQ-357 analytical read UPGRADED to STRONGLY STRENGTHENED (procedural rec UNCHANGED = REAFFIRM EXIT per kill rule); Lean A window closed 15:00 UNUSED. Oil: G7 adopted ~100M bbl diesel/crude release (10:22 ET); VLO-HELD-01 leg A NOT STOOD DOWN ($99.61 vs $90.16/$95); BRENT COT-35B #8 JOINT NOT-SPENT (shorts +8,074 WoW). Credit: HY 324 [10/01, 1 tagged print >320]; GATE-BRK-R2 leg (a) FIRED #2 OCIC (counter: requests falling 21.9\u219218.8\u219216.8%); GATE-LIQ-069 2-of-2 unchanged. Housing: HOMER PMMS HOLD; kill rail 0/5; Lennar/Millrose captive-spinoff story (Hunterbrook SHORT). Metals: MIDAS gold 97.81th pct DE-crowding not UN-crowding. $0 moved by PROME; Will held through 15:00 ET UNUSED.",
+ "one": "\ud83d\udd34 REAL YIELDS LED AND CREDIT CROSSED ITS LINE: the official 10Y closed 5.28 \u2014 ABOVE its pre-payrolls level after a +29K jobs print \u2014 and the 30Y real yield 3.34 is a cycle high [10/2 official, BOND]; HIGH-YIELD 324 [10/1] is over the fleet's 320 line \u2014 highest since 3/31; ONE print (RED's and REGINALD's three-count rules are theirs to grade Monday; nothing is called a fire); QQQ CLOSED AT A RECORD 749.58 while equal-weight breadth sits at its 3.7th percentile (VULCAN); THE G7 ADOPTED A ~100M bbl RELEASE and USO fell 1.8%; BOND's kill rule stays MET \u2014 an exit RECOMMENDATION whose own evidence read STRENGTHENED Friday (WQ-357, Will's call); FIVE QQQ 735 PUTS EXPIRE MON 10/5; the book is one oil bet by Will's own ruling (WQ-297 A). X1 stays CLOSED (8/28). Book mirror = the 10/1 POST-CLOSE reconcile (ANVIL d97eba708); NO broker capture 10/2. $0 moved by PROME; STAND DOWN holds (WQ-192).",
  "pending": [
   "WQ-187 (9/12)",
   "WQ-204 (9/19)",
