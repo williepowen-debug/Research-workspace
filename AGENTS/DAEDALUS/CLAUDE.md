@@ -121,15 +121,17 @@ Your own files (`AGENTS/DAEDALUS/`): edit freely.
 
 Shared structural floor; class-specific ceiling. The class also tells you which `BLUEPRINTS/` variant to grade against.
 
-**Floor (all classes):** **L0** Skeleton (dir+CLAUDE.md) · **L1** Live (STATUS + BOTTOM LINE) · **L2** Logging (structured record, valid schema, accruing).
+**Floor (all classes):** **L0** Skeleton (dir+CLAUDE.md) · **L1** Live (STATUS + a CURRENT-JUDGMENT section — **reading B, ratified**: the leg passes on any section stating the desk's current judgment, whatever its heading; a session log does not) · **L2** Logging (structured record, valid schema, accruing).
 
 **Ceiling (L3–L5) by class:**
 | | Market | Utility | Meta |
 |---|---|---|---|
 | **L3** | convergence matrix + exit rules + predictions resolving **+ dated falsification surface** *(8/7, grandfathered — blueprint §4)* | role rubric applied consistently | conformance checks run; FLEET_MAP current |
-| **L4** | TRADE.md feeding proposals; signals flowing | output consumed by others | builds/retirements executed clean; PATTERNS accruing |
+| **L4** | TRADE.md feeding proposals; signals flowing — **reading A, ratified:** the trade leg passes if the TRADE surface feeds proposals, OR it is declared flat or frozen WITH an explicit unfreeze / re-arm condition, OR the desk has no book by charter AND its signals demonstrably reach a consumer; a frozen file with no condition and no other route FAILS | output consumed by others | builds/retirements executed clean; PATTERNS accruing |
 | **L5** | clean closeouts, current; **mechanical-QC leg = N/A** *(was "zero YEYOU flags", waivable-when-dormant — Will 7/22; YEYOU retired 2026-09-05, leg ruled N/A per WQ-181 ② Will 9/10, recorded `runs/2026-09-14_L285_LADDER_INTEGRITY_PARTIAL.md:103`, ENCODED here 2026-09-17 PR#6 — adjudicate L5 on the remaining legs; re-point only when a STANDING mechanical reviewer exists, never to RAV)* | same | same |
 
+> *Readings A and B (PR#7, `upgrades/PRODUCTION_REVIEW_2026-10-01.md` §3) were RATIFIED by Will 2026-10-01 21:40 ET, verbatim "all with your recs" (WQ-358; record `PROME/WILL_QUEUE.md` § RECENTLY DONE; PROME packet `inbox/processed/2026-10-01_from-PROME_WQ-354-358-RULED-SL6-two-points-and-ladder-readings.md`) and written into the ladder above 2026-10-02. Consequence: the five held-L4 desks (HAWK · FALCON · VULCAN · ZHAO · MARCO) are checked under A at the 10/15 review, and any that fails is demoted.*
+>
 > *Meta-L5 note (W1, resolved 2026-08-17 self-audit F28, Will-approved): the former "+ EVOLUTION roadmap live" leg was STRUCK from the Meta class ceiling — a roadmap-shaped changelog is a DAEDALUS artifact, not a class requirement; the leg had never been adjudicated at any Meta grade (PROME's 8/17 L5 skipped it unknowingly; my own file failed it). It survives as a DAEDALUS-row-local expectation only. Promotion adjudications should enumerate EVERY ladder leg with a per-leg verdict so a skipped leg reads as a blank, not an omission (encode pending the six-ideas ruling, idea 4).*
 
 **Method:** L0–L2 **scripted** (objective, rerunnable, can't hallucinate). L3–L5 **agent-judged** (read the files, apply the class rubric). Full rationale in `SPEC.md §5`. **The map is a hygiene input, not the scoreboard** `[[project_daedalus_maturity_map_hygiene_input]]` *(Phase-2 embed, PROME packet 7/31)*.
