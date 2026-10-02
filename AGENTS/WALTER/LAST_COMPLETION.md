@@ -1,132 +1,115 @@
 # WALTER — LAST COMPLETION
 
-Session: **2026-10-02 Fri, Claude Opus 5.5 as WALTER (`walter-61`, desktop)**. Booted ~09:24 ET on Will's terminal "please boot up"; **TIER-2 FULL CLOSEOUT ~11:5x ET on Will's "Lets have WALTER close out here."** Supersedes the 10/01 evening `walter-c3` Tier-2 record (in git history); its FOLLOW-UP is carried below, evaluated.
-
-## ADDENDUM — noon REBOOT, Tier-1 LIGHT (same session name `walter-61`, after Will's /clear)
-
-**Boot 12:04 ET on Will's terminal "please boot up": PARTIAL, named exceptions.** Ran: 0 (pull current) · 0.5 doctor (0 HIGH / 6 MED, all carried) · 1–4 whole · 6 both routing files whole · 6b four registries (RED scan-view sha = canon; none changed since the morning boot) · 6c dashboard + EURUSD/TTF/UST/CL/HO pulls (no fire; HY 324 [10/01] still 1 of 3) · 7 count check 1158 = 1158 · 7 FILTER_SPEC Boot Context **RUN** (FORGE mirror, RED catalysts, 48h kill/route logs; the per-desk STATUS leg used REGISTRY Focus instead) · 7b CLOSED · 7d/7f/7g clear · 7e 0 NEW (10/02 lane run not yet landed) · 8 YURI + CRUISE rows refreshed, fs-scan (CATO, `_archive` only) · 9 no REQ · 9a rc 0 · 9b ListAgents (prome-96, brent-08, terry-ce) + ORCH_INFLIGHT + foreign-dirty. **Exceptions:** boot_basis 9 files not re-reviewed · READS attestation stale · HANS Bund/gilt/storage not pulled live · Iran guards not read (no Iran dispatch).
-
-**Routed (Will Telegram batch BM-20261002-01, 8 images → 7 items, closed 7/7):** `-011` PRIORITY France 10Y briefly >5% (TE, first since 2002) / Italy narrowed / Brooks charts → **HANS** (BOND, LIQUID, REGINALD info) · `-012` PRIORITY FT: Amazon ~$8B Nvidia-chip SPV sale-leaseback, IG debt for insurers/pensions → **VULCAN + BROCK** (LIQUID, SHADE, HENRY, WATT, VIOLET info) · `-013` ROUTINE TD Fed hikes → Dec/Mar → **BOND**. KILL: Covid XFG, Pope AI post, S.Korea $8.4B oil claim. DUP: labor chart (`-001`). **14 handoffs written; delivered on origin at `f055c1d3a` (PROME push, verified).** DOORBELL_LOG: HANS/VULCAN/BROCK not doorbelled (L3 fail, liveness UNKNOWN, PROME-confirmed not teammates); BOND row corrected (bond-1002b idle; next spawn consumes). PROME: HANS + VULCAN/BROCK go in Monday's wake unless an event forces earlier.
-
-**Lane run (Will: "can we just run the afternoon intake session now?"):** WALTER triggered RESEARCH-INTAKE `collect` by `workflow_dispatch` (run 37034147478, 16:28:15Z, success 1m46s; the 15:00Z cron had not started, and GitHub had been starting it 3–6h late). 22 NEW items, manifest BM-20261002-02 closed 22/22: **`-014` IMMEDIATE Yanbu port STRUCK 10/01** (projectile inside the port, fire near the tank farm, one vessel's loading briefly suspended, reported resumed, unclaimed; upgrades `-1001-033`) → FALCON + BRENT · **`-015` ROUTINE** ECB hike no longer fully priced by year-end (`HANS-T-04`) → HANS · 10 kills, 7 dups, 2 no-action, 1 fold. `--mark` run. Anchor limb line added. FALCON doorbelled via prome-96 (IMMEDIATE, L3b); BRENT (live) messaged directly. **IMMEDIATE scoped self-push `bf27866ca`** (BCS §3.4, tree clean). ⚠️ **The scheduled 15:00Z cron will still run later today** (concurrency-serialized), giving a second 10/02 batch to process. **FOLLOW-UP #2 is now: process THAT batch** (onset-dedup suppresses what this run already marked).
-
-**Own error, corrected `-016` (IMMEDIATE, BRENT caught it):** `-014` led with a ONE-VESSEL suspension and 'since resumed', both resting only on a Splash247 search summary, while WALTER's own Maritime Executive fetch carried Vanguard's TERMINAL-WIDE line (*'The terminal temporarily suspended operations'*). Same class as MEMORY #28 n=2: a relay summary displaced the stronger source in hand. Liftings 10/01–10/02 UNKNOWN (BRENT: no feed, newest berth capture 9/30). `-014` back-pointer `status: PARTIALLY-CORRECTED`; anchor limb corrected. The terminal answer to Will (12:3x ET) carried the one-vessel version and was corrected in the next terminal reply.
-
-**Afternoon (Will questions + Telegram):** `-017` (Will: "did we capture a tanker attack today?") named UKMTO 147-26 (10/01) as *Kazimah III* (KOTC VLCC) and said **no new 10/02 attack**. That was WRONG: Will's ZeroHedge link (Telegram 4873) led to UKMTO's **10/02 11:22Z outbound hit** (small fire + blackout, extinguished, resumed, unnamed), corrected in **`-018`** (PRIORITY → FALCON). A Panama-flagged inbound hit 10/02 is UNCONFIRMED. Telegram 4875 (ZeroHedge Amazon/Broadcom SPVs) = DUP of `-012` + `-0910-013`/`-0914-018` (BM-20261002-03, 2/2). Will-directed memo → PROME on the scheduling helper + ⚖️ bounded-spawn question, registered by PROME as **WQ-369** (verified in WILL_QUEUE, stake disclosure carried). MEMORY #28 extended to n=4. Will screenshot (BM-20261002-04, 2/2): **`-019`** Hunterbrook (SHORT LEN/MRP) Lennar sold 700+ homes / ~$200M to Millrose, 356 in quarter-end week, ≥136 FL → HOMER (in-flight, relayed via PROME) · **`-020`** FL very wet pattern (NWS TAE 2–5 in, WPC Slight Sunday; forecaster's 'foot in two weeks' NOT NWS's) → CORAL (doorbelled FYI). Will paste: **`-021` IMMEDIATE** Blue Owl Q3 (SEC-filed shareholder letters 10/02): OCIC 16.8% / OTIC 39% vs 5% caps, OCIC's 3rd consecutive capped quarter = **GATE-BRK-R2 (a) fire CANDIDATE** (BROCK grades; requests easing, mostly resubmissions, OWL +2.2%) → BROCK (dark; doorbelled via PROME). **BROCK (brock-1d) then graded it at the 8-K: GATE-BRK-R2 (a) FIRED #2 on OCIC; routed as `-022` PRIORITY → LIQUID (X1 evidence, not a re-arm) + OTTO; OTIC not counted (to Will via PROME, BROCK recommends decline).** Late afternoon (Will pastes/link): **`-024`** Toshiba 2× HDD capacity → STX/WDC −10% → VULCAN (**WALTER's 12:33 ET kill of the same Toshiba lane row was WRONG on materiality; re-opened in kill_log**) · **`-025`** NYT: ~30 drone + 10 anti-ship missile attacks/week on Hormuz since August (a WESTERN security official, not 'U.S.'; 'tanker-for-tanker abandoned' NOT in NYT) → FALCON · **`-026`** Bloomberg: investigators found a propulsion hack on a US-bound VLCC **this summer** (date trap) → FALCON. **`-027`** corrects `-023` (BRENT caught: 'allies' undefined, LatAm NOT established as non-allies; VLO B1 risk not gone). **`-028`** close update (Will screenshot): 10Y post-payrolls rally reversed (~5.28–5.29, +4–5bp), Brent Dec +0.56% erasing the G7 drop, WTI −1.44% → BOND/BRENT. **`-029`** corrects `-028`'s Brent basis (BRENT caught: $102.88 was a post-settle last trade; settle-window Brent flat, WTI ≈ −1.9%; spread widening holds). ZH China fuel-export halt = DUP of `-1001-008` (kill_log). ⚠️ Iran anchor NOT given `-025`/`-026` limb lines (file over its trigger): fold them in at the Tier-2 rotation. FALCON was IN-FLIGHT at `-018` (DOORBELL_LOG correction; MEMORY #41 n=2). ⚠️ **`anchors/IRAN_WAR.md` = 24,416 B, OVER the 24,412 B re-rotation trigger: rotate at the next Tier-2** (oldest lead limb lines → HISTORY verbatim).
-
-**Also:** LAST_COMPLETION RESULT 3 "/bin/bash." repaired to "$0." (`8302f2e79`).
-
-**Gaps (noon):** `-011`/`-012` origin lines and `-011`'s table say "read ~16:2xZ / ~12:2x ET"; the actual fetch was ~16:13Z. Typed, not stamped (MEMORY #34 again); BOARD append-only, not rewritten. The STATUS header was typed the same way and re-stamped from `date`. FT original (Amazon) and TD's note not read; ">5%" is one TE headline.
-
-**Will position note given in the boot reply (exposure only, TERRY's card):** QQQ $740P ×4 EXPIRES TODAY (QQQ $750.67 at 12:07 ET, ~1.4% OTM); USO $146.21 vs the Oct-09 $150C.
+Session: **2026-10-02 Fri, Claude Opus 5.5 as WALTER (`walter-61`, desktop)**: noon reboot 12:04 ET on Will's terminal "please boot up", after the AM Tier-2 at 11:58 ET (its record is in git, `80bf8cde5`; carried items evaluated below). **TIER-2 FULL CLOSEOUT ~16:4x ET on Will's "lets close out here."**
 
 ## STATUS
 
-**Boot: PARTIAL, named exceptions; the operational steps ran.**
-- **Run:** 0 (no pull needed: 0/0; PROME dirty) · 0.5 doctor (0 HIGH / 6 MED) · 1–4 (STATUS, anchor, MEMORY, LAST_COMPLETION whole; REGISTRY via doctor rows) · 6 both routing files whole · 6b four registries (RED scan view sha matches canon; HANS 17 rows; CREED 12) · 6c pre-open pull (FRED 10/01 not yet posted at boot; HY 324 verified 10:26 ET) · 7b CLOSED · 7d clear · 7g 3 packets read before 7e · 7e lane healthy, 0 NEW (morning) · 7e(f) no phone inbox · 7f empty · 9 no REQ · 9a rc 0 · 9b `ListAgents` + ORCH_INFLIGHT + foreign-dirty.
-- **Boot exceptions (as-is):** (1) `boot_basis` REVIEW REQUIRED on **9** files (not re-hashed) · (2) READS attestation stale · (3) FILTER_SPEC Boot Context scoped reads SKIPPED (**seventh session running**) · (4) step 8 REGISTRY header refresh + fs-scan NOT run (WALTER, BROCK rows refreshed at closeout) · (5) Iran pre-dispatch guards **grepped, not read whole**.
-- **Boot count check:** STATUS 1148 = INDEX 1148 (no post-closeout work from 10/01).
+**Boot (12:04 ET): PARTIAL, named exceptions; operational steps ran.**
+- **Run:** 0 pull (current) · 0.5 doctor (0 HIGH / 6 MED, carried) · 1–4 whole · 6 both routing files whole · 6b four registries (RED scan-view sha = canon) · 6c dashboard + EURUSD/TTF/UST/CL/HO pulls, no fire · 7 count 1158 = 1158 · **7 FILTER_SPEC Boot Context RUN** (first time in 7+ sessions; the per-desk STATUS leg used REGISTRY Focus) · 7b CLOSED · 7d/7f/7g clear · 7e 0 NEW · 8 YURI + CRUISE rows · 9 no REQ · 9a rc 0 · 9b ListAgents + ORCH_INFLIGHT + foreign-dirty.
+- **Exceptions:** boot_basis REVIEW REQUIRED on 9 files (not re-hashed: STILL OWED) · READS attestation stale · HANS Bund/gilt/storage not pulled live.
 
-**Closeout: Tier 2 FULL.** Ran: STATUS (header, BOTTOM LINE, intraday levels, NETWORK AWARENESS regen; prior block rotated VERBATIM to SESSION_LOG) · SESSION_LOG entry · REGISTRY (WALTER, BROCK) · MEMORY (#40, #41, session notes; 22,156 B < 24,412 B trigger) · this file · `reconcile_delivery_log.py --apply` (43/43) · `read_cap_check` · `closeout_check` · commit. **Push: not run by WALTER** (BOND/CRUISE/YURI in-flight work in the tree; BCS §7) — rides PROME's train.
+**Closeout: Tier 2 FULL.** STATUS re-cut (header, BOTTOM LINE, levels, NETWORK AWARENESS regenerated; prior block rotated VERBATIM to SESSION_LOG) · SESSION_LOG entry · REGISTRY (WALTER + 16 header-only rows) · MEMORY (#42, #43, n+1 on #28/#41, session notes; 23,732 B < 24,412 trigger) · **Iran anchor rotated 24,416 → 21,489 B** (4 lines verbatim → HISTORY § "Rotated 2026-10-02"; conservation checked) · this file · `reconcile_delivery_log.py --apply` · `closeout_check` · `read_cap_check` · commit. **Push: not WALTER's** (BCS §7; PROME's train carried every earlier commit; origin was 0/0 at 20:4xZ).
 
-## CHANGED
+## CHANGED (PM: `-011`…`-029`; the AM `-001`…`-010` are in `80bf8cde5`'s record)
 
-| ID | What | Action → | Info |
+| ID | What | Action → | Source |
 |---|---|---|---|
-| `-001` IMM | Sept NFP **+29K**, Jul+Aug −60K, U-3 4.2% (LABOR's BLS grade); yields fell pre-open (later reversed) | **BOND** | CARL, HENRY, LIQUID, NEXUS, REGINALD, RED, PROME |
-| `-002` | EU weighs French 50M bbl diesel + 50M IEA crude, tied to no US ban; oil −3–4% pre-open. ⚠️ **"No agreement" was stale at write** (superseded by `-009`) | **BRENT** | HANS, HAWK, HENRY, CARL, TERRY, RED, PROME |
-| `-003` | WSJ: Roosevelt + Makin Island add 9–10K troops by end-Nov; one US official: Roosevelt **relieves** George Washington | **FALCON** | HAWK, BRENT, SAM, RED, PROME |
-| `-004` | EA HICP Sep flash **3.8%**, energy 18.8%, core **2.5%** at HANS-T-16's line | **HANS** | BOND, LIQUID, REGINALD, CARL, RED |
-| `-005` IMM | **HY 324 [10/01], ONE TAGGED PRINT** — FT-02 / REG-T-03 at 1 of 3; CCC 1,215 (LIQUID doorbell, FRED re-verified) | **RED, REGINALD, HENRY** | BROCK, VIOLET, NEXUS, CARL, LIQUID, SHADE, TERRY, PROME |
-| `-006` | 7 named CRE distress cases (Connect CRE roundup); BofA Plaza STL ~91% loss fills CASE-CREED-016; 450 Fifth St NW auction 10/28 | **CREED** | REGINALD |
-| `-007` | Fed VC Jefferson 10/01: inflation "too high", upside risk, no October commitment | **BOND** | HENRY, LIQUID, CARL, RED |
-| `-008` | Houthi push to seize Taiz; govt claims 20 air strikes 10/02 | **FALCON** | HAWK, BRENT, SAM, RED |
-| `-009` IMM | **G7 DECIDED: up to 100M bbl diesel+crude over 4 months, diesel in 20 days** (Macron; Will's screenshot); US ban-threat status unknown | **BRENT** | HANS, HAWK, HENRY, CARL, TERRY, RED, PROME |
-| `-010` | Ukraine hits Lukoil Volgograd refinery + Transneft Samara hub; damage not established | **OSPREY** | BRENT, HAWK, HANS, SAM, RED |
-| charter | `CLAUDE.md` step 16 Push bullet now names BCS §7 as binding (DAEDALUS PR#7) | — | — |
-| registry | CARL-DR-1 deadline 9/18 → **11/13** (DOCKET line 567) | — | — |
-| packet | Spawn-order memo → PROME (Will-requested); BOND spawned, FALCON/HANS/HOMER to Will's slate, RED/REGINALD to Mon | — | PROME |
+| `-011` | France 10Y briefly >5% (first since 2002), Italy narrowed | HANS | Will Telegram |
+| `-012` | FT: Amazon ~$8B Nvidia-chip SPV sale-leaseback, IG debt for insurers | VULCAN, BROCK | Will Telegram |
+| `-013` | TD moves Fed hikes to Dec/Mar | BOND | Will Telegram |
+| `-014` IMM | Yanbu PORT struck 10/01 (projectile inside, fire) | FALCON, BRENT | lane (manual run) |
+| `-015` | ECB hike no longer fully priced by YE (HANS-T-04) | HANS | lane |
+| `-016` CORR | `-014`: suspension TERMINAL-WIDE; "resumed" unconfirmed | (info) FALCON | BRENT caught |
+| `-017` | 147-26 = *Kazimah III* (KOTC VLCC) | FALCON | Will question |
+| `-018` CORR | `-017`: a NEW Hormuz hit 10/02 1122Z did happen | FALCON | Will caught |
+| `-019` | Hunterbrook (short): Lennar sold 700+ homes to Millrose | HOMER | Will screenshot |
+| `-020` | FL very wet pattern (NWS 2–5 in; WPC Slight Sun) | CORAL | Will screenshot |
+| `-021` IMM | Blue Owl Q3: OCIC 16.8% / OTIC 39% vs 5% caps → R2 candidate | BROCK | Will paste |
+| `-022` | **BROCK FIRED GATE-BRK-R2 (a) #2 on OCIC** (8-K, ~30%) | LIQUID, OTTO | BROCK packet |
+| `-023` | US diesel ban off the table for ALLIES per von der Leyen; no US confirmation | BRENT | lane (scheduled) |
+| `-024` | Toshiba 2× HDD capacity → STX/WDC −10% (own kill re-opened) | VULCAN | Will link |
+| `-025` | NYT: ~30 drone + 10 AShM attacks/week since Aug (Western official) | FALCON | Will paste |
+| `-026` | FBI/USCG: summer propulsion hack on a US-bound VLCC (date trap) | FALCON | Will paste |
+| `-027` CORR | `-023`: "allies" undefined; LatAm NOT established as non-allies | (info) | BRENT caught |
+| `-028` | Close: 10Y +4–5bp on a jobs miss; Brent recovered the G7 drop | BOND, BRENT | Will screenshot |
+| `-029` CORR | `-028`: Brent figure was post-settle; settle basis flat, WTI ≈ −1.9% | (info) | BRENT caught |
 
-- **Kills (15):** NFP 661K/7.9% (2020 date trap) · "Trump rejects Iran proposal" (9/26) · "EU fully rejects" (object = the BAN, per NBC) · old market wraps · Xi–Trump "later this month" (summit 9/24) · 2025 subprime-auto · Feb IEEPA ruling · Jan/Jul PJM · June BDC gates · Odd Lots commentary · 9/23 "WH rules out ban" · 9/29 Araghchi · Jan Farsi tanker seizure · Nike · metals/fert/housing stale.
-- **Inbox:** DAEDALUS PR#7, PROME WQ-359, BROCK watch terms (test deferred), LIQUID HY 324, CARL DR-1 — all `git mv` + `.consumed.tsv`.
+- **Batches:** BM-20261002-01 (7) · -02 lane manual (22) · -03 ZH links (2) · -04 screenshot (2) · -05 lane scheduled (9) · -06 pastes (2), all closed. Kills/dups in `kill_log` (incl. the Toshiba re-open row and the ZH China fuel-halt DUP of `-1001-008`).
+- **Inbox:** BROCK packet (R2 fire #2) → `-022`, consumed + `.consumed.tsv`.
+- **Packet out:** `PROME/inbox/…_scheduling-helper-view-and-bounded-spawn-question.md` → PROME registered **WQ-369** (stake disclosure carried; verified in WILL_QUEUE).
+- **Manual lane trigger:** `gh workflow run collect.yml` (run 37034147478) on Will's ask.
 
 ## RESULT
 
-1. **No WALTER-scanned registered trigger fired.** Nearest: **HY 324 [10/01] = 1 of 3 on FT-02 / REG-T-03**; REG-T-04 26bp; EA core 2.5% at HANS-T-16 (≤1 of 2); UK 30Y 5.943 [10/01] vs 6.00 (HANS's).
-2. **The day's shape:** payrolls stalled and the bond rally reversed by late morning; Europe folded into a G7 diesel-first release; credit spreads crossed 320 on one print while funding stayed calm.
-3. **$0.** No proposal, no trade. *(Repaired 10/02 12:1x ET reboot: this read "/bin/bash." — an unquoted-heredoc expansion of "$0".)* Exposure lines only (USO Oct-09 $150C, TERRY's card; WQ-366 early-sell condition met per PROME).
+1. **No WALTER-scanned registered trigger fired.** One owner gate fired: **BROCK `GATE-BRK-R2` (a) #2 on OCIC**, watch-only, with BROCK's counter (requests falling, mostly resubmissions, $11.2B liquidity).
+2. **The day's shape:** payrolls stalled but the 10Y closed higher; Europe got its G7 diesel release and the US ban was taken off the table for allies (per the EU); Gulf harassment continues at ~40 attempts a week with exports recovering. FALCON graded the Gulf set at 14:10 ET: nothing fires, marks held.
+3. **$0.** No proposal, no trade. Exposure lines only (USO/USO call/VLO; APO put; TBT). TERRY's card.
 
 ## GAPS
 
-- **The 10/02 afternoon intake-lane run was NOT processed** (GitHub cron lands ~17:49–20:59Z; session closed ~16:00Z). Next WALTER session owns it.
-- **`-002` stated "no agreement" ~12 min after Macron's G7 headline** — superseded by `-009`; BOARD append-only, not rewritten (MEMORY #40).
-- **BRENT logged DARK (P0 PASS) while in-flight as `brent-1002`** — correction row appended (MEMORY #41).
-- **`-001`…`-005` carry free-text `confidence_language`**, not FORMAT_SPEC's band words (confirmed/reports/assessed/unconfirmed); fixed from `-006`. Not rewritten (append-only).
-- **`-002`/`-009` disagree with `-1001-026` on nothing, but the US demand size has two versions** (120M/180d vs 100M/20d) — carried, not reconciled.
-- Not verified at primary: Reuters French-proposal text, WSJ troops story, Bloomberg G7 text (headline), Connect CRE's underlying journals, Yemen strike counts (govt claim), Volgograd/Samara damage.
-- Doctor MED (carried): delivery_log AMENDMENT/NOTE rows · MARCO 2 ACTION unconsumed 4–5d · AI_INFRA_CAPEX cluster review 32d · entities header missing on 6 8/28 signals.
-- boot_basis (9 files) / READS attestation stale; FILTER_SPEC boot reads skipped (seventh session).
+- **Four own-error corrections** (`-016` scope, `-018` false absence, `-027` scope word, `-029` post-settle basis). Three caught by BRENT, one by Will. Class recorded as MEMORY #43; absence class #28 n=4.
+- **FALCON misreported dark to Will at ~14:12 ET** while `falcon-1002` was running (MEMORY #41 n=2); corrected on Telegram and in DOORBELL_LOG.
+- **Typed timestamps** slipped into origin lines of `-011`/`-012` (BOARD append-only, not rewritten); `-023`'s was fixed before commit.
+- Not read at primary: FT (Amazon), TD note, Bloomberg (tanker hack), Blue Owl letters (BROCK read the 8-Ks), G7 communiqué export wording.
+- boot_basis (9 files) / READS attestation still stale. Doctor MEDs carried (AMENDMENT/NOTE rows; MARCO ACTION oldest 9/28; AI_INFRA_CAPEX review 32d; entities header on six 8/28 signals).
+- **MEMORY.md at 23,732 B = 97% of its 24,412 B rotation trigger**: the next finding likely trips it.
 
 ## WILL_NEEDS
 
-1. **FALCON spawn (on PROME's Tier-2 slate)** — WALTER's #2; the Iran read goes into the weekend partly stale without it. HANS / HOMER can wait.
-2. **Lane cadence (DOCKET L536):** WALTER on every data day (OPEN DESIGN DECISION (a)).
-3. WQ-252 sitting 10/06 · CATO registration (WQ-255) · HAWK F1/F2 CHECKLIST proposal (owed by WALTER, RULE 8, not drafted).
-*(WILL_NEEDS item 3 of 10/01 — SEC contact string — CLOSED by WQ-359, Will 10/01 21:40 ET: KEEP.)*
+1. **WQ-369**: should an IMMEDIATE in a dark desk's own theater authorize one bounded spawn (above the cap / Tier-2)? WALTER has a stake in a yes (disclosed).
+2. **OTIC population question** (via PROME): BROCK recommends DECLINE adding OTIC to GATE-BRK-R2 (post-data change).
+3. Carried: lane cadence (DOCKET L536, OPEN DESIGN (a)) · WQ-252 sitting 10/06 · CATO registration (WQ-255) · HAWK F1/F2 CHECKLIST proposal (owed by WALTER, RULE 8).
 
 ## FOLLOW-UP
 
-1. **Next boot:** `git pull`; STATUS BOARD count (**1158**) vs INDEX; ahead/behind; `reconcile_delivery_log.py --apply` if any row reads pending; `closeout_check.py`.
-2. ✅ **DONE 15:5x ET: the second 10/02 lane batch (scheduled run 19:42Z) was processed**: BM-20261002-05 9/9 → `-023` (US diesel-ban state, BRENT) + 2 kills, 2 folds, 4 dups; `--mark` run. **Next: the 10/03 lane run.** For the 10/03 run: `intake_scan.py`, date-check first (MEMORY #39), then `--mark`.
-3. 🔴 **Mon 10/05 ~10:15 ET: FRED HY 10/02 obs** → FT-02 / REG-T-03 at 2 of 3 or reset; route the state (RED/REGINALD spawn per PROME).
-4. **Iran:** FALCON still owes UKMTO 146-26 / 147-26 reconcile + `-003`/`-008` read. Any Yanbu-terminal incident or Ghawar strike confirmation → IMMEDIATE. Next FULL sweep **~10/08**.
-5. **G7 release follow-ups:** the diesel/crude split, country volumes, and whether the US dropped the export-ban threat — route whichever lands first (BRENT action).
-6. **BROCK's 3 agentic-deposit WATCH_FOR candidates:** run `watch_for_harness.py --live` and reject by name (weekly cadence; packet consumed 10/02).
-7. **Before any sweep: re-search the day's routed state-dependent stories** (MEMORY #40).
-8. **Spec (RULE 8, small):** `BOARD_CONSUMPTION_SPEC.md` §3.5 PROME bullet → committed-diff board_scan mechanism · **HOUSING domain code** question (`-1001-025`).
-9. **boot_basis re-review** of the 9 changed files + re-hash; READS re-attestation; FILTER_SPEC boot reads.
-10. **HANS THRESHOLDS.tsv size** (17 rows, ~96% of budget): owner rotates or designates a scan view; WALTER repoints 6b when told.
+1. **Next boot:** `git pull`; STATUS BOARD count (**1177**) vs INDEX; ahead/behind; `reconcile_delivery_log.py --apply` if any row pends; `closeout_check.py`.
+2. 🔴 **Mon 10/05 ~10:15 ET: FRED HY 10/02 obs** → FT-02 / REG-T-03 at 2 of 3 or reset; route the state (RED/REGINALD).
+3. **Lane runs 10/03–10/05** (cron starts 3–6h late; trigger manually only on Will's ask). Date-check first (#39), then `--mark`.
+4. **Re-read ORCH_INFLIGHT before every doorbell row and every "dark" statement** (#41).
+5. **Iran:** next FULL sweep ~10/08; any Yanbu operator statement, a sinking/mine, or a strike on Iranian territory → IMMEDIATE. FALCON holds `-025`/`-026` for Monday.
+6. **Diesel ban:** watch for a US text that bans/caps/LICENSES exports to non-allies (fires BRENT's VLO-HELD-01 B1) and for a definition of "allies".
+7. **boot_basis re-review** of the 9 changed files + re-hash; READS re-attestation.
+8. **BROCK's 3 agentic-deposit WATCH_FOR candidates:** `watch_for_harness.py --live` (weekly).
+9. **Spec (RULE 8, small):** BCS §3.5 PROME bullet → committed-diff board_scan mechanism · HOUSING domain code question (`-1001-025`; `-019` used BANK_CRE as nearest).
+10. **HANS THRESHOLDS.tsv is OVER budget (33,544 B = 103%, 10/02 closeout)**: packet sent to HANS (`AGENTS/HANS/inbox/2026-10-02_from-WALTER_THRESHOLDS-tsv-over-read-budget.md`); owner rotates or ships a scan view; WALTER repoints 6b when told.
 11. **Nano Banc:** FDIC P&A posting (~10/09; L516).
-12. **Carried (still open):** CORAL FL ACTION items (`-0925-009`, `-014`, `-0929-013`) · YURI routing row · WQ-286 ④ · doctor step reading `consumed_at` · P2 false-positive-rate proposal · `fetch.py` contract identity (BZ=F UNKNOWN again 10/02) · AI_INFRA_CAPEX coherence review.
-13. **Watch:** Sun 10/04 OPEC+ · 10/05 WQ-318 · 10/06 WQ-252, Oct STEO · 10/07 BRT-31, Cushing · 10/08 PMMS (HOMER pre-reg grade owed before it), claims · 10/13 LABOR KS WARN · 10/15–16 LIQ-07 · 10/28 450 Fifth St NW auction · 10/29 ECB · Roosevelt/Makin Island: mid-Oct Indian Ocean (OSINT) / end-Nov region (WSJ) · Medicare OE 10/15–12/7.
+12. **Carried (still open):** CORAL FL ACTION items · YURI routing row (no domain code) · WQ-286 ④ · doctor step reading `consumed_at` · P2 false-positive-rate proposal · `fetch.py` contract identity (BRENT reads BZZ26 identity fine on the dated symbol) · AI_INFRA_CAPEX coherence review (32d).
+13. **Watch:** Sun 10/04 OPEC+ · 10/05 WQ-318 · 10/06 WQ-252, Oct STEO · 10/07 BRT-31, Cushing · 10/08 PMMS (HOMER pre-reg grade), claims · 10/13 LABOR KS WARN · 10/15–16 LIQ-07 · ~late Oct OCIC SC TO-I/A (R2 (b)) · 10/28 450 Fifth St NW auction · 10/29 ECB · 10/31 GATE-BRK-R2 review.
 
 ## OPEN DESIGN DECISIONS
 
-- **(t) 🆕 Re-search routed state-dependent stories before a sweep** (MEMORY #40) — discipline for now; a sweep checklist line would mechanize it.
-- **(u) 🆕 9b liveness when PROME runs in-process spawns** (MEMORY #41): treat "dark" as UNKNOWN while PROME is live; a PROME-published teammate list (ORCH row at spawn, not delivery) would fix it — PROME's surface.
-- **(k) Independent end-of-session review as a standard step:** proposal to Will (not run). n=6 on MEMORY #29.
-- **(p) Boot BOARD-count check** (STATUS vs INDEX): candidate doctor check. Recorded, not proposed.
-- **(a) WALTER on every data day.** · **(q)** harness 'effective words' preflight · **(r)** lane-row grammar (PROME's) · **(s)** lane date ≠ event date (MEMORY #39).
-- **(o)** `intake_scan` never surfaces plain `NEW` · **(m)** suffix-aware lane matcher (PROME's) · **(n)** mechanize dispatch timestamps (done this session via a scratch helper that stamps from the clock; not landed as a tool).
-- **(j)** Scanner coverage for BRENT boundary rows · **(l)** the `board_log` `source` enum.
-- **Carried:** seasonal threshold form for #6/#8 · non-uniform inbox addresses · receiving-readiness automation · (b) version_drift prose lines · (c) the delivery_log AMENDMENT row type · (d) the "secret" claims standard · (e) SPR registerability · (g) timestamp discipline · (h) intake retention · (i) source links / CATO lead format.
+- **(v) 🆕 Route a figure past its live owner for a BASIS check before it reaches Will** (MEMORY #43): discipline for now; a CHECKLIST line would mechanize it.
+- **(w) 🆕 Lane lateness check:** "the scheduled run hasn't landed by T+90 min on a market day → flag/trigger": no instrument checks it (proposed as a helper duty in the WQ-369 memo).
+- **(t)** Re-search routed state-dependent stories before a sweep (#40) · **(u)** 9b liveness with in-process spawns (ORCH_INFLIGHT now writes at spawn; the residual is WALTER re-reading it) · **(k)** independent end-of-session review · **(p)** boot BOARD-count doctor check.
+- **(a)** WALTER on every data day · **(q)** harness preflight · **(r)** lane-row grammar (PROME's) · **(s)** lane date ≠ event date · **(o)** `intake_scan` never surfaces plain `NEW` · **(m)** suffix-aware matcher · **(n)** mechanize dispatch timestamps (the scratch `dispatch.py` helper stamps from the clock; not landed as a tool) · **(j)** scanner coverage for BRENT boundary rows · **(l)** `board_log` `source` enum.
+- **Carried:** seasonal threshold form for #6/#8 · non-uniform inbox addresses · receiving-readiness automation · (b)–(i) as in git history.
 
 ## CLOSEOUT RECEIPT
 
-**Issued at the 10/02 Tier-2, before the closeout commit (its hash is in the commit trail).**
-- **10/02 handoffs: 120 written, 112 on origin; 8 PENDING PUSH (reconciled after each peer push)** (lane-run 8 pushed `bf27866ca`; correction `-016` 5 pushed `5775407c3`; both reconciled) (noon 14 pushed by PROME at `f055c1d3a`, verified by fresh fetch 0/0 + `reconcile_delivery_log.py --apply` 14/14) (fresh fetch ~15:5xZ; `reconcile_delivery_log.py --apply`). Delivered is not consumed.
-- ⚠️ **This receipt does NOT claim:** that any recipient consumed today's handoffs (BOND, BRENT, CRUISE are known to have drained some); that the Reuters/WSJ/Bloomberg originals were read; that the afternoon lane run was processed; that the FILTER_SPEC boot reads ran; that this closeout commit itself has reached origin.
+**Issued at the 10/02 PM Tier-2, before the closeout commit.**
+- **10/02 handoffs: 120 written, 120 on origin** (fresh fetch 20:4xZ, 0/0; `reconcile_delivery_log.py --apply`). Delivered is not consumed.
+- ⚠️ **This receipt does NOT claim:** that recipients consumed the handoffs (BRENT, FALCON, BROCK and HANS are known to have consumed some); that FT/Bloomberg/TD/Blue Owl letters were read at primary; that boot_basis was re-reviewed; that this closeout commit has reached origin.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-02T16:34:49+00:00",
+  "as_of": "2026-10-02T20:43:03+00:00",
   "publication": [
-    {"commit": "ef5856db0", "state": "published"},
-    {"commit": "a3d039fbb", "state": "published"},
-    {"commit": "e1dc205c4", "state": "published"},
-    {"commit": "11570b77e", "state": "published"},
-    {"commit": "555496a56", "state": "published"}
+    {"commit": "42a5b3bf9", "state": "published"},
+    {"commit": "fa75c0a33", "state": "published"},
+    {"commit": "5775407c3", "state": "published"},
+    {"commit": "bf27866ca", "state": "published"},
+    {"commit": "8302f2e79", "state": "published"}
   ],
   "delivery": {
     "signal_date": "20261002",
     "total": 120,
-    "delivered": 112
+    "delivered": 120
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
-      {"path": "AGENTS/LABOR/domain/sources/2026-10-02_USDL-26-1549_empsit_sep2026.txt", "sha256": "9df95f5fadd1522f7a8c7ea7cf2becca36b62d19037fa1b3268ff970876f14be", "note": "LABOR's saved BLS primary that -001 relays; LABOR grades, WALTER does not."}
+      {"path": "AGENTS/BROCK/workbook/PC_REDEMPTION_REGISTER.tsv", "sha256": "b4024b8f2480bbfc652b598e5e30779c66d54fdd3fd275304dd87683524a1bb4", "note": "BROCK FIRE RECORD #2 (OCIC), graded 2026-10-02T18:47:57Z; owner grade, WALTER routed only."}
     ]
   },
   "next_review": "2026-10-05"

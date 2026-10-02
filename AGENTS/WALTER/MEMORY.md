@@ -84,6 +84,10 @@
 
 41. **An in-process PROME teammate is invisible to all three 9b instruments while its tree is clean.** 10/02: BRENT ran as `brent-1002` and was logged DARK (P0 PASS) on `-002`/`-003`; `ListAgents` cannot see in-process spawns, `ORCH_INFLIGHT` gets the row at delivery, and the foreign-dirty check saw nothing because BRENT's 08:39 commits had landed. PROME's message 09:34 ET corrected it (DOORBELL_LOG correction row). **When PROME is live and running spawns, a "dark" verdict on an ACTION recipient is UNKNOWN until PROME's own teammate list says otherwise. Name it UNKNOWN in the row, and let the doorbell to PROME double as the question.** **n=2 (10/02 ~14:12 ET):** FALCON was logged "UNKNOWN-leaning-DARK" on `-018`, and Will was told "FALCON still isn't running", while `falcon-1002` had been running since ~14:00 and had committed its grade at 14:10. **This time `ORCH_INFLIGHT.md` DID carry the row (PROME writes it at spawn now). WALTER just didn't re-read it after the morning read.** ⇒ **Re-read ORCH_INFLIGHT immediately before every doorbell row and before telling Will a desk is dark; a boot-time read goes stale within the hour on a day PROME is spawning.**
 
+42. **A capacity add inside a disciplined oligopoly is material even with no capex guide.** 10/02: WALTER killed the TrendForce 'Toshiba doubles HDD capacity, $380M' lane row at 12:33 ET as a single-vendor capacity add; STX/WDC fell ~10% on it by 15:58 ET (`-024`, kill re-opened). **Before a materiality kill, ask: does the market leaders' story rest on SUPPLY RESTRAINT? If yes, any new unit is the story.** → kill_log re-open row 10/02
+
+43. **A figure's BASIS travels with it, and the desk that owns the series sets the basis.** 10/02, three BRENT catches in one afternoon, one class: `-014` led with a search summary's 'one vessel' over Vanguard's terminal-wide line (`-016`); `-023` read 'allies' as excluding Latin America when the term is undefined (`-027`); `-028` quoted a 16:24 ET post-settle last trade as Brent's day move (`-029`). **Before relaying a number or a scope word, name its basis (which source, which session, which definition), and when the owner is live, send it the figure for a basis check before it reaches Will.** → `[[finding_a_daily_bar_read_after_the_evening_open_belongs_to_the_next_session]]` · `[[finding_rederived_signal_loses_the_senders_caveats]]`
+
 **✅ RETIRED 2026-09-01 — the two-branch-test-sharing-a-premise finding (2026-08-03) is PLACED:** PROME landed it as the n=5 extension of `[[finding_enumerated_mechanism_test_hides_a_completeness_claim]]` (8/31 night, packet filed to WALTER 9/1) and the test now sits in bold in `FORGE/PREDICTION_DISCIPLINE.md` § Registration. *(Was: "owed, not placed — WALTER cannot file to a PROME-owned surface." The obligation discharged the way it was supposed to: a packet, then the owner's write.)*
 
 ## References
@@ -95,17 +99,16 @@
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION — 2026-10-02 Fri, Full WALTER (Claude Opus 5.5): `walter-61` desktop, booted ~09:24 ET, Tier-2 ~11:5x ET
+### CHANGES SINCE LAST SESSION — 2026-10-02 Fri, `walter-61` (Claude Opus 5.5): AM Tier-2 11:58 ET, noon reboot, PM Tier-2 ~16:4x ET
 
-- **BOARD 1148 → 1158** (`-001`…`-010`, 43 handoffs, all on origin via PROME's push train plus one self-push of IMMEDIATE `-005`). Count check at boot: STATUS 1148 = INDEX 1148, so no post-closeout work from 10/01 (#29 did not recur).
-- **Routed:** NFP +29K → BOND · EU diesel proposal → BRENT, superseded by the **G7 100M bbl decision** (`-009`, Will's screenshot) · carrier relief vs +9–10K troops → FALCON (closes BRENT's gap flag) · EA HICP 3.8%/core 2.5% → HANS · **HY 324 one tagged print → RED/REGINALD/HENRY** (LIQUID doorbell) · 7 CRE cases → CREED (named-case feed) · Jefferson → BOND · Taiz → FALCON · Volgograd/Samara → OSPREY.
-- **Inbox:** DAEDALUS PR#7 applied (CLAUDE.md push line now cites BCS §7) · PROME WQ-359 (SEC contact string KEEP) · BROCK watch terms (deferred test) · LIQUID HY 324 · CARL DR-1 (deadline → 11/13, DOCKET line 567 verified).
-- **New findings #40, #41** (above). **Own errors:** `-002`'s "no agreement" stale at write; BRENT logged DARK while in-flight; `-001`…`-005` carried free-text `confidence_language` instead of the band words (fixed from `-006`).
-- **Spawn-order memo** to PROME (Will-requested): BOND spawned; FALCON/HANS/HOMER on Will's slate; RED/REGINALD to Monday's HY print.
+- **BOARD 1148 → 1177** (29 signals; IMMEDIATE: `-005` HY 324, `-009` G7 release, `-014` Yanbu port strike, `-021` Blue Owl). Owner gate fired: BROCK `GATE-BRK-R2` (a) #2 on OCIC (`-022`).
+- **Four own-error corrections** (`-016`, `-018`, `-027`, `-029`): findings #28 n=4, #41 n=2, #42, #43.
+- **Manual intake trigger** (`gh workflow run collect.yml`) at Will's request: the 15:00Z cron starts 3–6h late. Will-directed scheduling-helper memo → PROME → **WQ-369**.
+- Iran anchor rotated 24,416 → 21,489 B (HISTORY § 'Rotated 2026-10-02'). 16 REGISTRY rows header-refreshed.
 
 ### NEXT SESSION
 1. `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS = the complete obligation list.
-2. **Boot check first: STATUS BOARD count (1158) vs INDEX, and ahead/behind.**
-3. **The 10/02 afternoon intake-lane run was NOT processed** (it lands ~14:00–17:00 ET; this session closed at ~12:00 ET). Run `intake_scan.py` and route it, date-checking first (#39).
+2. **Boot check first: STATUS BOARD count (1177) vs INDEX, and ahead/behind.**
+3. **Re-read ORCH_INFLIGHT before every doorbell row and every 'desk is dark' statement (#41).**
 4. **Mon 10/05 ~10:15 ET:** FRED HY 10/02 obs → FT-02 / REG-T-03 count (2 of 3 or reset).
-5. Re-search the day's routed state-dependent stories before any sweep (#40).
+5. Weekend lane runs (10/03, 10/04) if a session runs; else process at Monday boot.
