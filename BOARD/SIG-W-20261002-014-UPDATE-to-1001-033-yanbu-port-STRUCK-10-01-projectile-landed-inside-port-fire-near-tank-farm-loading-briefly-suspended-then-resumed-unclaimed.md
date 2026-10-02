@@ -15,6 +15,8 @@ confidence_language: "reports"
 signal_type: catalyst
 safety_net: clear
 verdict: "UPDATE to -1001-033 (Yanbu fire video UNVERIFIED): on Thursday 10/01 a projectile landed INSIDE the Yanbu port area and started a fire near the tank farm (Vanguard Tech via Maritime Executive; TradeWinds and safety4sea concur 10/02). The master of a Liberian-flagged tanker reported it; loading with that vessel was temporarily suspended and has since RESUMED (Splash247 via search summary). Unclaimed; no Aramco, Saudi or UKMTO statement found; damage not established. A terminal is not FAL-01 (production)."
+status: PARTIALLY-CORRECTED
+status_ref: "SIG-W-20261002-016 (2026-10-02) - the SUSPENDED leg was TERMINAL-WIDE per Vanguard via Maritime Executive (the stronger source), not one vessel; 'since RESUMED' rests only on a search summary and is UNCONFIRMED; liftings 10/01-10/02 UNKNOWN. ATTACKED / FIRE / DAMAGED-not-established / UNCLAIMED stand."
 precedence: IMMEDIATE
 action: ["FALCON", "BRENT"]
 info: ["HAWK", "SAM", "HANS", "CARL", "RED", "TERRY", "PROME"]
