@@ -4,7 +4,7 @@
 
 One-time setup. After it, you **bookmark a post** on X instead of screenshotting it, and WALTER picks it up at its next launch — **including an older post you bookmark for the first time.** (One limit: if you bookmark something WALTER already processed, un-bookmark it, then bookmark it *again*, it won't re-surface — just send that one by Telegram.)
 
-> Values below (menu names, button labels, pricing) are **how the X developer portal looked when this was written** — X moves things. If a label differs, match by meaning, and tell WALTER what you actually see rather than forcing a mismatch.
+> Values below (menu names, button labels, pricing) are **how the X developer portal looked when this was written** — X moves things, so **confirm each on screen** before clicking. If a label differs, match by meaning, and tell WALTER what you actually see rather than forcing a mismatch.
 
 ---
 
@@ -33,12 +33,15 @@ One-time setup. After it, you **bookmark a post** on X instead of screenshotting
 - ⚠️ *Confirm while you're there* (WALTER can't see the portal): the **minimum** purchase, whether a read bills **per post or per request**, and whether **bookmark folders** need Premium (a free folder would let you keep personal bookmarks out of WALTER's queue). Cost scale: to find new bookmarks WALTER reads your recent bookmarks newest-first until it reaches a page it has already seen — **1–2 pages (up to ~100 posts) on a normal launch, up to ~500 at the most**, plus a one-time read of your existing bookmarks at setup. So cost tracks *how often WALTER launches*. Per-post vs per-request billing is the portal unknown above; the **$10/month cap is the hard stop** either way.
 
 **5. Authorize once — the "Allow" click**
-- ⚠️ **Type this in your own terminal** (don't have WALTER run it through a tool — it needs to print a URL and wait for your browser). In the repo root, run:
+- ⚠️ **Type this in your own terminal** (don't have WALTER run it through a tool — it needs to print a URL and wait for your browser). Start in the repo root, then run:
+  ```
+  cd /home/willi/Research-workspace
+  ```
   ```
   .venv/bin/python3 AGENTS/WALTER/tools/x_bookmarks_scan.py --authorize
   ```
 - It prints a URL. Open it **in your browser** (where you're logged into X). You'll see X's own "Authorize WALTER-bookmarks?" screen listing **read-only** permissions. Click **Authorize**.
-- The tab says "authorization received — close this." Done: WALTER stored a read-only token in `.env` and marked all your *current* bookmarks as already-seen, so only ones you add from now on get surfaced.
+- The tab says "authorization received — close this." Done: WALTER stored a read-only token in `.env` and (on a normal run) marked your *current* bookmarks as already-seen, so only ones you add from now on get surfaced. *(If it instead says it "could not read your current bookmarks to seed," nothing was marked — just re-run the same command once your connection/credit is set, and it will seed then.)*
 - **If you click Cancel / change your mind:** the tab says "cancelled," the command stops on its own within 5 minutes (or press **Ctrl-C**), and nothing is saved. Just re-run the command to try again.
 
 ---
@@ -55,7 +58,8 @@ One-time setup. After it, you **bookmark a post** on X instead of screenshotting
 - **"No refresh_token returned — is `offline.access` among the app's scopes?"** — the app's User-authentication scopes are missing `offline.access`; re-open step 2 and make sure the read scopes include it, then re-authorize.
 - **"Timed out" / "cancelled or denied"** — the browser Allow didn't complete; just re-run the authorize command.
 - **The URL never appears** — you (or WALTER) ran it through a non-interactive tool; run it directly in a terminal.
-- **"Token refresh FAILED … Re-run --authorize"** — the saved key expired and couldn't renew. Re-authorizing is **safe**: it only refreshes the key and does **not** discard any bookmarks you haven't routed yet.
+- **"could not read your current bookmarks to seed"** — the setup read failed (no credit yet, or a network hiccup) right after login. **Nothing was saved** — just re-run the same `--authorize` command once that's sorted and it will seed then.
+- **"Token refresh FAILED … Re-run --authorize"** — the saved key expired and couldn't renew. Re-authorizing is **safe once you're set up**: it only refreshes the key and does **not** discard bookmarks you haven't routed yet. (The one exception: if you had *deleted* the seen-file first, a re-authorize re-seeds from scratch — don't delete it unless you mean to start over.)
 - **The "authorization received" page won't load after you click Allow** — this box runs under WSL; if your browser is on Windows it has to reach `http://localhost:8723` inside WSL. Usually that just works; if it doesn't, tell WALTER — we may need a different redirect address. (This is the one step not yet tested live.)
 
 ## What WALTER can and can't do with this

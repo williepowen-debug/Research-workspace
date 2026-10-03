@@ -23,8 +23,9 @@ bookmark time (read-1 X1). The seen-set is seeded ONCE, at the FIRST `--authoriz
 with every bookmark that already exists; a RE-authorize refreshes tokens and touches
 NEITHER the seen-set NOR the stage (read-2 X6 — re-seeding would consume a bookmark
 Will added since the last launch, and the tool's own refresh-recovery sends him to
-re-authorize). To re-seed deliberately, delete the seen-file (re-surfaces everything —
-the safe direction).
+re-authorize). Deleting the seen-file has TWO outcomes: delete then run a normal scan
+re-surfaces everything to route (safe); delete then --authorize re-seeds from scratch
+(marks all current bookmarks seen) — only do the latter to start over.
 
 --mark MODEL (read-1 X2 / read-2 X7)
 ------------------------------------
@@ -159,7 +160,8 @@ def _refuse(path, why):
 
 
 def _scalar_ids_ok(xs):
-    return isinstance(xs, list) and all(isinstance(x, (str, int)) for x in xs)
+    # bool is an int subclass — exclude it so `True` can't masquerade as an id (read-3 e5)
+    return isinstance(xs, list) and all(isinstance(x, (str, int)) and not isinstance(x, bool) for x in xs)
 
 
 def load_seen(path=None):
@@ -185,8 +187,11 @@ def load_seen(path=None):
         _refuse(path, "is not a JSON object")
     if not _scalar_ids_ok(d.get("consumed", [])):
         _refuse(path, "`consumed` is not a list of plain id values")
+    if not isinstance(d.get("pilot_start_id"), (str, type(None))):
+        _refuse(path, "`pilot_start_id` is not a string")
     d.setdefault("consumed", [])
     d.setdefault("pilot_start_id", None)
+    d["consumed"] = [str(x) for x in d["consumed"]]   # normalize so --mark never mixes int/str (read-3 f2)
     return d
 
 
@@ -199,6 +204,8 @@ def save_seen(seen, path=None):
         raise ValueError(f"seen-file would persist unexpected keys {stray}")
     if not _scalar_ids_ok(seen.get("consumed", [])):
         raise ValueError("`consumed` must be a list of plain id values (no nested structures)")
+    if not isinstance(seen.get("pilot_start_id"), (str, type(None))):
+        raise ValueError("`pilot_start_id` must be a string or null")
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps({"consumed": sorted(set(str(x) for x in seen["consumed"])),
                                 "pilot_start_id": seen.get("pilot_start_id")}, indent=2) + "\n",
@@ -465,10 +472,14 @@ def do_authorize():
     try:
         existing, capped = _all_existing_bookmark_ids(user_id, access)
     except Exception as e:  # noqa
-        existing, capped = [], False
-        print(f"⚠️  could not read current bookmarks to seed the exclusion set ({e}); the FIRST "
-              f"scan will surface your EXISTING bookmarks. Re-run --authorize once reachable to seed.",
-              flush=True)
+        # N1 (read-3): do NOT write a seen-file on a failed seed. Leaving it absent keeps this a
+        # "first authorize", so the re-run the message promises ACTUALLY re-seeds (otherwise the
+        # re-run returns early at the Path(SEEN).exists() guard above and never seeds).
+        print(f"⚠️  could not read your current bookmarks to seed the exclusion set ({e}). "
+              f"NOTHING was marked seen and NO seen-file was written — re-run --authorize once "
+              f"reachable and it WILL seed. Until then a normal scan surfaces your existing "
+              f"bookmarks (safe, possibly noisy).", flush=True)
+        return 1
     seen = {"consumed": sorted(set(existing)), "pilot_start_id": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
     save_seen(seen)
     print(f"\n✅ Authorized. {len(existing)} existing bookmark(s) seeded as already-seen. "
@@ -515,7 +526,13 @@ def main(argv=None):
             print("\n[--mark] nothing staged. Run without --mark first, route, then --mark.")
             return 0
         stamp = pending_stamp()
-        if stamp and (time.time() - stamp) > STAGE_MAX_AGE_S:
+        # read-3 b3/b4/b5/b6: a stage with no timestamp, the legacy list form, staged_at<=0, or a
+        # non-numeric stamp is UNVERIFIABLE — refuse rather than fail open. bool excluded (int subclass).
+        if not isinstance(stamp, (int, float)) or isinstance(stamp, bool) or stamp <= 0:
+            print("\n[--mark] REFUSING: the stage has no valid timestamp (legacy or hand-edited). "
+                  "Run a fresh report run, route, then --mark.")
+            return 0
+        if (time.time() - stamp) > STAGE_MAX_AGE_S:
             age_h = (time.time() - stamp) / 3600
             print(f"\n[--mark] REFUSING: the stage is {age_h:.0f}h old (from a prior session). "
                   "Run a report run first so you mark what you just routed, not a stale list.")

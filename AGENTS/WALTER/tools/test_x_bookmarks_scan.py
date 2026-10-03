@@ -93,6 +93,20 @@ class PureLogic(unittest.TestCase):
             xbm.load_seen(p)
         self.assertIn("REFUSING", str(cm.exception.code))
 
+    def test_bool_id_and_nonstring_pilot_refused(self):
+        # read-3 e5/e6: a bool is not a valid id; a non-string pilot marker is invalid
+        for content in ['{"consumed": [true]}', '{"consumed": [], "pilot_start_id": {"x": 1}}']:
+            p = self.tmp("seen.json")
+            Path(p).write_text(content, encoding="utf-8")
+            with self.assertRaises(SystemExit):
+                xbm.load_seen(p)
+
+    def test_int_consumed_normalized_to_str(self):
+        # read-3 f2: int ids must be normalized so --mark's set-union never mixes int/str
+        p = self.tmp("seen.json")
+        Path(p).write_text('{"consumed": [123, "124"], "pilot_start_id": null}', encoding="utf-8")
+        self.assertEqual(xbm.load_seen(p)["consumed"], ["123", "124"])
+
     def test_missing_seen_is_empty_not_error(self):
         d = xbm.load_seen(self.tmp("nope.json"))
         self.assertEqual(d["consumed"], [])
@@ -136,6 +150,13 @@ class PureLogic(unittest.TestCase):
         p = self.tmp("seen.json")
         with self.assertRaises(ValueError):
             xbm.save_seen({"consumed": [{"id": "1", "text": "LEAK"}], "pilot_start_id": None}, p)
+
+    def test_save_seen_rejects_bool_and_nonstring_pilot(self):
+        p = self.tmp("seen.json")
+        with self.assertRaises(ValueError):
+            xbm.save_seen({"consumed": [True], "pilot_start_id": None}, p)
+        with self.assertRaises(ValueError):
+            xbm.save_seen({"consumed": [], "pilot_start_id": {"x": 1}}, p)
 
     def test_idless_dedup_key_stable_and_consumable(self):
         # X10: an id-less item gets a stable content key, so it stops re-firing once marked
@@ -234,6 +255,22 @@ class MarkFlow(unittest.TestCase):
         consumed = json.loads(raw)["consumed"]
         self.assertEqual(consumed, ["500"])          # only staged, 600 never consumed (CX8b)
         self.assertNotIn("SECRET", raw)              # IDs only, no body (CX8a)
+
+    def test_mark_refuses_untimestamped_or_legacy_stage(self):
+        # read-3 b3/b4/b5: an unverifiable stage (no stamp, legacy list, staged_at<=0) is refused
+        d = Path(tempfile.mkdtemp(prefix="xbm_mark2_"))
+        orig_env, orig_seen = xbm.ENV_PATH, xbm.SEEN
+        xbm.ENV_PATH, xbm.SEEN = d / ".env", d / "seen.json"
+        (d / ".env").write_text("X_BOOKMARK_ACCESS_TOKEN=t\nX_USER_ID=1\n")
+        xbm.save_seen({"consumed": [], "pilot_start_id": None}, d / "seen.json")
+        try:
+            for stage in ('{"ids": ["9"]}', '["9"]', '{"ids": ["9"], "staged_at": 0}'):
+                xbm._pending_path().write_text(stage)
+                with redirect_stdout(io.StringIO()):
+                    xbm.main(["--mark"])
+                self.assertEqual(xbm.load_seen(d / "seen.json")["consumed"], [])
+        finally:
+            xbm.ENV_PATH, xbm.SEEN = orig_env, orig_seen
 
 
 if __name__ == "__main__":
