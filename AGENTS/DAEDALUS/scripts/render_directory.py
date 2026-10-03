@@ -29,11 +29,100 @@ cwd-proof: self-locates repo root from __file__ (PAT-031). Writes FLEET_DIRECTOR
 from pathlib import Path
 from datetime import date
 import sys
+import ast
+import hashlib
 
 REPO = Path(__file__).resolve().parents[3]
 ROSTER = REPO / "PROME" / "ROSTER.md"
 FLEETMAP = REPO / "AGENTS" / "DAEDALUS" / "FLEET_MAP.tsv"
 OUT = REPO / "AGENTS" / "DAEDALUS" / "FLEET_DIRECTORY.md"
+
+
+WATCH_CONFIG = Path("/home/willi/Research-Intake/scripts/newsweep_config.py")
+# Explicit owner declarations, not inferred from class or missing keys.
+WF_NOT_APPLICABLE = {
+    "DAEDALUS": "PROME/inbox/processed/2026-09-25_from-DAEDALUS_cadence-and-watch-terms.md",
+    "DEWEY": "PROME/inbox/processed/2026-09-26_from-DEWEY_cadence-and-watch-terms.md",
+}
+
+
+def read_watch_for(path):
+    """Read literal configuration without importing/executing it or writing pyc.
+
+    Deliberately narrow module grammar: literal assignments, inert function
+    definitions, import os and pure os.path.join of known literal strings.
+    Computed/mutated configurations are UNKNOWN, never a partial count.
+    """
+    digest = None
+    try:
+        raw = path.read_bytes()
+        digest = hashlib.sha256(raw).hexdigest()
+        tree = ast.parse(raw, filename=str(path))
+        values = {}
+        bindings = set()
+        target = None
+        for node in tree.body:
+            if isinstance(node, ast.Expr) and isinstance(node.value, ast.Constant) and isinstance(node.value.value, str):
+                continue
+            if isinstance(node, ast.Import) and [(a.name, a.asname) for a in node.names] == [("os", None)]:
+                if "os" in bindings:
+                    raise ValueError("repeated import binding")
+                bindings.add("os")
+                continue
+            if isinstance(node, ast.FunctionDef):
+                if node.name in bindings or node.name in ("WATCH_FOR", "os"):
+                    raise ValueError("function shadows configuration binding")
+                bindings.add(node.name)
+                args = [*node.args.posonlyargs, *node.args.args, *node.args.kwonlyargs]
+                args += [a for a in (node.args.vararg, node.args.kwarg) if a]
+                if node.decorator_list or node.returns or getattr(node, "type_params", []) or any(a.annotation for a in args):
+                    raise ValueError("evaluated function metadata unsupported")
+                for default in [*node.args.defaults, *[d for d in node.args.kw_defaults if d is not None]]:
+                    ast.literal_eval(default)
+                continue
+            if not isinstance(node, ast.Assign) or len(node.targets) != 1 or not isinstance(node.targets[0], ast.Name):
+                raise ValueError("computed or mutated module configuration unsupported")
+            name = node.targets[0].id
+            if name in bindings or name == "os":
+                raise ValueError("repeated or reserved assignment")
+            bindings.add(name)
+            if name == "WATCH_FOR":
+                if not isinstance(node.value, ast.Dict):
+                    raise ValueError("WATCH_FOR must be a literal dictionary")
+                keys = [ast.literal_eval(k) for k in node.value.keys]
+                if len(set(keys)) != len(keys):
+                    raise ValueError("duplicate WATCH_FOR key")
+                target = ast.literal_eval(node.value)
+                values[name] = target
+                continue
+            # Sole nonliteral assignment in the current source: os.path.join.
+            if isinstance(node.value, ast.Call) and ast.unparse(node.value.func) == "os.path.join" and not node.value.keywords:
+                parts = [values[a.id] if isinstance(a, ast.Name) else ast.literal_eval(a) for a in node.value.args]
+                if not all(isinstance(v, str) for v in parts):
+                    raise ValueError("nonliteral path expression")
+                values[name] = "/".join(parts)  # value is never used for WATCH_FOR
+            else:
+                values[name] = ast.literal_eval(node.value)
+        if target is None:
+            raise ValueError("WATCH_FOR assignment missing")
+        if not all(isinstance(k, str) and k.strip() and isinstance(v, list)
+                   and all(isinstance(x, str) and x.strip() for x in v)
+                   for k, v in target.items()):
+            raise ValueError("WATCH_FOR requires desk keys and lists of nonempty strings")
+        return {k: len(v) for k, v in target.items()}, digest, None
+    except (OSError, SyntaxError, ValueError, TypeError, KeyError, UnicodeError) as exc:
+        return None, digest, f"{type(exc).__name__}: {exc}"
+
+
+def watch_for_value(agent, counts):
+    if counts is None:
+        return "UNKNOWN"
+    if agent in counts:
+        return str(counts[agent])
+    if agent in WF_NOT_APPLICABLE and (REPO / WF_NOT_APPLICABLE[agent]).is_file():
+        return "n/a"
+    return "—"
+
 
 # ROSTER '## ' headers that carry an Agent|Domain table -> (group label, status glyph).
 GROUPS = {
@@ -176,9 +265,9 @@ def md_cell(s):
     return s.replace("|", "\\|").strip() or "—"
 
 
-def row(agent, klass, lvl, conf, scored, does, missing):
+def row(agent, klass, lvl, conf, scored, does, missing, wf="—"):
     return (f"| {agent} | {md_cell(klass)} | {md_cell(lvl)} | {md_cell(conf)} | {md_cell(scored)} "
-            f"| {md_cell(does)} | {md_cell(missing)} |")
+            f"| {md_cell(does)} | {md_cell(missing)} | {md_cell(wf)} |")
 
 
 def retired_from_roster(path):
@@ -200,6 +289,9 @@ def main():
     check_only = "--check" in sys.argv[1:]
     roster, skipped_sections = parse_roster(ROSTER)
     fleet = parse_fleetmap(FLEETMAP)
+    wf_counts, wf_hash, wf_error = read_watch_for(WATCH_CONFIG)
+    def emit(*args):
+        return row(*args, wf=watch_for_value(args[0], wf_counts))
 
     # Reliability guard: every FLEET_MAP agent absent from ROSTER tables MUST be handled.
     fleet_only = set(fleet) - set(roster)
@@ -255,6 +347,14 @@ def main():
              "judgment-read only — the scripted floor cannot see a root-level agent).*")
     L.append("")
 
+    L.append("**WF:** configured phrase-list entries at render time, not hits or routing health. "
+             "`0` = explicit empty list; `—` = no list; `n/a` = owner-declared non-query desk; "
+             "`UNKNOWN` = source unavailable/unsupported. Regenerate after lane edits; the existing "
+             "directory-age guard watches ROSTER/FLEET_MAP only.")
+    L.append(f"WF source: `{WATCH_CONFIG}` · SHA256 `{wf_hash or 'UNAVAILABLE'}`.")
+    if wf_error:
+        L.append(f"WF UNKNOWN: {md_cell(wf_error)}. Renderer rc still describes structural guards.")
+    L.append("")
     counts = {}
     for gkey in GROUP_ORDER:
         title, glyph = GROUPS[gkey]
@@ -262,18 +362,18 @@ def main():
         counts[gkey] = len(members)
         L.append(f"## {glyph} {title}")
         L.append("")
-        L.append("| Agent | Class | Lvl | Cf | Scored | What it does | Missing / next |")
-        L.append("|---|---|---|---|---|---|---|")
+        L.append("| Agent | Class | Lvl | Cf | Scored | What it does | Missing / next | WF |")
+        L.append("|---|---|---|---|---|---|---|---|")
         for a in members:
             _, does = roster[a]
             if a in fleet:
                 klass, lvl, conf, scored, nxt = fleet[a]
-                L.append(row(a, klass, lvl, conf, scored, does, truncate(nxt)))
+                L.append(emit(a, klass, lvl, conf, scored, does, truncate(nxt)))
             elif gkey == "DORMANT":                # dormant ungraded — blank grade, by design
-                L.append(row(a, "—", "—", "—", "—", does, "—"))
+                L.append(emit(a, "—", "—", "—", "—", does, "—"))
             else:                                  # ACTIVE/TIER-2 with no FLEET_MAP row — loud, never blank
                 ungraded.append(a)
-                L.append(row(a, "⚠️", "⚠️", "⚠️", "⚠️", does,
+                L.append(emit(a, "⚠️", "⚠️", "⚠️", "⚠️", does,
                              "⚠️ UNGRADED — in ROSTER, no FLEET_MAP row (register it)"))
         L.append("")
 
@@ -282,15 +382,15 @@ def main():
     counts["SPECIAL"] = len(SPECIAL)
     L.append(f"## {glyph} {title}")
     L.append("")
-    L.append("| Agent | Class | Lvl | Cf | Scored | What it does | Missing / next |")
-    L.append("|---|---|---|---|---|---|---|")
+    L.append("| Agent | Class | Lvl | Cf | Scored | What it does | Missing / next | WF |")
+    L.append("|---|---|---|---|---|---|---|---|")
     for a, does in SPECIAL.items():
         if a not in fleet:
             die(f"SPECIAL agent {a!r} not in FLEET_MAP — cannot render its grade")
         klass, lvl, conf, scored, nxt = fleet[a]
-        L.append(row(a, klass, lvl, conf, scored, does, truncate(nxt)))
+        L.append(emit(a, klass, lvl, conf, scored, does, truncate(nxt)))
     for a, (does, why) in SPECIAL_UNGRADED.items():
-        L.append(row(a, "—", "—", "—", "—", does, why))
+        L.append(emit(a, "—", "—", "—", "—", does, why))
     counts["SPECIAL"] += len(SPECIAL_UNGRADED)
     L.append("")
 

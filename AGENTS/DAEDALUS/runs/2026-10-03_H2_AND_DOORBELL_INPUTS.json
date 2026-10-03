@@ -1,0 +1,14 @@
+{
+  "head_at_read": "5ec64991fbb433a2bb76a231c3248b5ce7fedfdd",
+  "mode": "working-tree read; owners read-only; file hashes delimit coverage",
+  "files": {
+    "AGENTS/MARCO/thesis/PREDICTIONS.tsv": "ae85742033c07c1502fbefdc210f38ad8979a56fb5b2e5f64f2d035376abcb00",
+    "AGENTS/REGINALD/registry/NOTES.md": "03acd4d7a710ee1ce2c94f4f10eaaa9fbe6e7419f0a703fded01dce8739f79a6",
+    "AGENTS/HENRY/workbook/PREDICTIONS.tsv": "e2abbab3776db9c608aca9a8639da1a6a989e798317e2fa8638de21e1cad2ffd",
+    "AGENTS/HENRY/board_log.tsv": "14b1417ec352c56f9227580d041faad6c60e3b3109a94fa86a74678476172689",
+    "AGENTS/HENRY/status_archive/STATUS_ARCHIVE_2026-09.md": "060bb38b7a96a76fcab919b727e934730cf87feff375f05892ce831f6555f943",
+    "AGENTS/LIQUID/board_log.tsv": "89cce73dd51f2010cdc53563acb74d71a7ed479fa1a77273748886c3201a9f6c",
+    "AGENTS/LIQUID/CALENDAR.md": "1e596a0d4c9783ea94ad62fbd86e5a57e2db309ac1ca6d0bf0df88c8e8764b5b",
+    "AGENTS/WALTER/registry/DOORBELL_LOG.tsv": "f3f6b2d3eeb8653586f9b3b9d49bb4d6e15f8c6aee5ab3200b294657b03aee75"
+  }
+}

@@ -201,3 +201,7 @@
    perimeter: 17 rows read · SAME 8 · MISMATCH 9 · NOT-FOUND 0 · NO-CONF 0
 ASMADE-AUDIT 1: >=1 MISMATCH candidate — candidates, owner verifies at the named blob
 ```
+
+## October 3 receipt correction (bounded three-owner read)
+
+The September17 NONE claims for MARCO, REGINALD and HENRY are superseded: owner artifacts already existed (MARCO September17; REGINALD and HENRY September11). HENRY has the Confidence column; historical backfill remains absent. Eight prior + three found = eleven desks with recorded action, not eleven completed calibrations. Full outcomes, remaining rows, chronology and evidence limits: `runs/2026-10-03_H2_RECEIPT_RECONCILIATION.md`. No re-score, no full-fleet freshness reset.

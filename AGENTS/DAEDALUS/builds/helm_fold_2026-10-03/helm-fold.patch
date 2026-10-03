@@ -1,0 +1,331 @@
+diff --git a/PROME/tools/fleet_dashboard.py b/PROME/tools/fleet_dashboard.py
+index 7cbc4f7d6..9286773f6 100644
+--- a/PROME/tools/fleet_dashboard.py
++++ b/PROME/tools/fleet_dashboard.py
+@@ -190,15 +190,38 @@ def inbox_depth(name):
+     return count
+ 
+ 
+-def parse_gates(today):
++def parse_gates(today, *, diagnostics=None):
++    """Legacy rows unchanged; optional diagnostics expose unsafe count inputs.
++
++    Legal lead tokens come from GATES_README.md STATES. The dashboard's legacy
++    fallback classifier remains untouched; checked consumers withhold counts
++    when diagnostics are present, rather than guessing a state for bad input.
++    """
+     rows = []
++    seen = set()
++    def problem(message):
++        if diagnostics is not None:
++            diagnostics.append(message)
++    header_seen = False
+     for line in read("PROME/GATES.tsv").splitlines():
+-        if line.startswith("#") or line.startswith("gate_id") or not line.strip():
++        if line.startswith("gate_id"):
++            if line.split("\t")[:8] != ["gate_id", "registered", "owner", "condition",
++                                           "consequence_on_fire", "state", "last_checked", "source"]:
++                problem("GATES header does not match the column contract")
++            header_seen = True
++            continue
++        if line.startswith("#") or not line.strip():
+             continue
+         p = line.split("\t")
+         if len(p) < 8:
++            problem("GATES row has fewer than 8 columns")
+             continue
+         gate, _, owner, cond, _, state, last_checked, _ = p[:8]
++        if not gate.strip() or gate.strip() in seen:
++            problem("GATES has a missing or duplicate gate ID")
++        seen.add(gate.strip())
++        if not re.match(r"^(?:LIVE|FIRED-UNEXECUTED|RESOLVED|LAPSED|RETIRED)(?=$|[\s(])", state.strip()):
++            problem(f"{gate.strip() or 'unnamed gate'}: unrecognized state lead token")
+         consumed_by = p[8].strip() if len(p) > 8 else ""
+         head = state.split("(")[0].strip()
+         kind = ("crit" if head.startswith("FIRED-UNEXECUTED")
+@@ -211,6 +234,10 @@ def parse_gates(today):
+         rows.append({"gate": gate.strip(), "owner": owner.strip(), "kind": kind,
+                      "state": trunc(md_clean(state), 220), "cond": trunc(md_clean(cond), 160),
+                      "checked_age": age, "consumed_by": consumed_by})
++    if not header_seen:
++        problem("GATES header is missing")
++    if not rows:
++        problem("GATES contains no usable rows; counts unavailable")
+     return rows
+ 
+ 
+@@ -1009,24 +1036,8 @@ def render_session_panel(path, reference_time=None):
+     return ''.join(out) + '</div>\n'
+ 
+ 
+-def build(today, now_iso, sessions_json=None):
+-    now_iso_utc = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+-    active, tier2, dormant = parse_roster()
+-    fmap = parse_fleet_map()
+-    hb = parse_heartbeat()
+-    gates = parse_gates(today)
+-    docket = parse_docket(today)
+-    pending = parse_pending_will()
+-    spine_d, spine_age = parse_spine_stamp(today)
+-    env_rc = run_rc("env_doctor.py", "--quiet")
+-    fire_rc = run_rc("firetime_check.py", "--window", "7", "--quiet")
+-    try:
+-        tiles = parse_tiles(hb)
+-        tiles_err = None
+-    except Exception as e:
+-        tiles, tiles_err = [], f"{type(e).__name__}: {str(e)[:120]}"
+-    prev = load_prev_snapshot()
+-
++def collect_fleet_rows(today, active, fmap):
++    """Shared read-only fleet evidence; preserves donor sorting and snapshot classes."""
+     # -- fleet rows (active roster, git-computed; staleness in BUSINESS days)
+     parked = load_parked(today)
+     fleet = []
+@@ -1076,6 +1087,29 @@ def build(today, now_iso, sessions_json=None):
+     # stalest first; parked sink to the bottom (intentionally quiet ≠ needs eyes)
+     fleet.sort(key=lambda r: (r["parked"], -r["days"]))
+ 
++    return fleet
++
++
++def build(today, now_iso, sessions_json=None):
++    now_iso_utc = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
++    active, tier2, dormant = parse_roster()
++    fmap = parse_fleet_map()
++    hb = parse_heartbeat()
++    gates = parse_gates(today)
++    docket = parse_docket(today)
++    pending = parse_pending_will()
++    spine_d, spine_age = parse_spine_stamp(today)
++    env_rc = run_rc("env_doctor.py", "--quiet")
++    fire_rc = run_rc("firetime_check.py", "--window", "7", "--quiet")
++    try:
++        tiles = parse_tiles(hb)
++        tiles_err = None
++    except Exception as e:
++        tiles, tiles_err = [], f"{type(e).__name__}: {str(e)[:120]}"
++    prev = load_prev_snapshot()
++
++    fleet = collect_fleet_rows(today, active, fmap)
++
+     # -- needs-attention items (composed, worst first)
+     attn = []
+     for g in gates:
+@@ -1278,6 +1312,7 @@ def build(today, now_iso, sessions_json=None):
+ <style>{CSS}</style>
+ <div class="bar">
+   <h1>FLEET OPS · PROME</h1>
++  <p>RETIRED as a published page 2026-10-02 (WQ-372) — <a href="https://claude.ai/code/artifact/ee088d08-bf26-48ab-bad2-7ee9155da12a">the Helm</a> carries this; built for the gate only.</p>
+   <span class="stamp mono">{esc(now_iso)} ET · HEARTBEAT base {esc(hb["base"])} · <a href="https://claude.ai/code/artifact/ee088d08-bf26-48ab-bad2-7ee9155da12a">the Helm →</a></span>
+   <span id="agebadge" data-generated="{esc(now_iso_utc)}">built just now</span>
+   <div class="chips">
+diff --git a/PROME/tools/will_handbook.py b/PROME/tools/will_handbook.py
+index 5b386a0e3..d844087da 100644
+--- a/PROME/tools/will_handbook.py
++++ b/PROME/tools/will_handbook.py
+@@ -37,6 +37,7 @@ from pathlib import Path
+ 
+ sys.path.insert(0, str(Path(__file__).resolve().parent))
+ import desk_attention as da
++import fleet_dashboard as fd
+ import will_brief as wb  # noqa: E402  (parsers + md_inline; ONE parser family)
+ 
+ ROOT = Path(__file__).resolve().parents[2]
+@@ -541,7 +542,49 @@ def render_brief_tab(written, brief, feed, first, money, positions):
+     return "\n".join(h)
+ 
+ 
+-def render(sections, dec, chore, dates, brief_tab_html, board, attention_html=""):
++def render_fleet_panels(today):
++    """Reuse Fleet-Ops evidence without invoking its build or writing its state."""
++    h = ["<section id='fleet-ops'><h2>Fleet activity and gates</h2>"]
++    try:
++        active, _, _ = fd.parse_roster()
++        fleet = fd.collect_fleet_rows(today, active, fd.parse_fleet_map())
++        if not fleet:
++            raise ValueError("freshness table is empty")
++        h.append("<p class='hint'>Age since a committed change to the desk’s non-inbox files, "
++                 "regardless of author; rounded calendar days. This does not prove the desk ran.</p>"
++                 "<table><thead><tr><th>Desk</th><th>Days</th><th>Freshness</th></tr></thead><tbody>")
++        for row in fleet:
++            # 999 is the legacy missing-data sorting sentinel, not a measured age.
++            unavailable = row["word"] == "no git history" or (row["parked"] and row["days"] == 999)
++            age = "unavailable / no history" if unavailable else str(row["days"])
++            label = row["word"] if row["parked"] else ("unavailable / no history" if unavailable else row["cls"])
++            h.append("<tr><td>" + html.escape(row["name"]) + "</td><td>" + html.escape(age)
++                     + "</td><td>" + html.escape(label) + "</td></tr>")
++        h.append("</tbody></table>")
++    except Exception as exc:
++        alert("fleet-freshness", str(exc))
++        h.append("<div class='degraded'>Fleet freshness unavailable — no all-clear.</div>")
++    try:
++        errors = []
++        gates = fd.parse_gates(today, diagnostics=errors)
++        if errors:
++            raise ValueError("; ".join(errors))
++        live = sum(g["kind"] == "live" for g in gates)
++        fired = [g for g in gates if g["kind"] == "crit"]
++        h.append(f"<p><strong>LIVE {live}</strong> · <strong>FIRED-UNEXECUTED {len(fired)}</strong></p>")
++        for gate in fired:
++            h.append("<p class='fired'><b>" + html.escape(gate["gate"]) + "</b> — "
++                     + html.escape(gate["state"]) + "</p>")
++        h.append("<p class='hint'>LIVE means no unexecuted fired leg; executed legs may exist. "
++                 "Fired actions remain on the board above. Source: PROME/GATES.tsv.</p>")
++    except Exception as exc:
++        alert("fleet-gates", str(exc))
++        h.append("<div class='degraded'>Gate counts unavailable — no all-clear.</div>")
++    h.append("</section>")
++    return "\n".join(h)
++
++
++def render(sections, dec, chore, dates, brief_tab_html, board, attention_html="", fleet_html=""):
+     now = dt.datetime.now().astimezone()
+ 
+     def take(prefix):
+@@ -570,8 +613,7 @@ def render(sections, dec, chore, dates, brief_tab_html, board, attention_html=""
+         "<div class='clocks'>"
+         f"<span id='built' data-built='{now.isoformat(timespec='minutes')}'>rebuilt {now:%b %-d, %-I:%M %p} ET</span>"
+         "<span>Source dates appear with each record · local build; hosted publication unverified</span>"
+-        f"<a href='{FLEETOPS_URL}'>Fleet Ops →</a>"
+-        + f" · <a href='{DECK_URL}'>Decision Deck →</a>"
++        f"<a href='{DECK_URL}'>Decision Deck →</a>"
+         "</div></header>")
+ 
+     for leg, reason in ALERTS:
+@@ -599,6 +641,7 @@ def render(sections, dec, chore, dates, brief_tab_html, board, attention_html=""
+              "<button role='tab' data-tab='tab-manual' aria-selected='false'>The manual</button>"
+              "</nav>")
+     h.append("<div id='tab-desk' role='tabpanel' aria-label='Your desk'>")
++    h.append(fleet_html)
+     h.append(attention_html)
+     h.append("<div class='colmain'>")
+ 
+@@ -802,7 +845,8 @@ def main():
+     except Exception as exc:
+         alert("attention", str(exc))
+         attention_html = "<div class='degraded'>Attention data unavailable — no all-clear.</div>"
+-    out.write_text(render(sections, dec, chore, dates, brief_tab, board, attention_html), encoding="utf-8")
++    fleet_html = render_fleet_panels(dt.date.today())
++    out.write_text(render(sections, dec, chore, dates, brief_tab, board, attention_html, fleet_html), encoding="utf-8")
+     dk = out.parent / DOCKET_FILE
+     dk_note = f" + {dk.name} ({dk.stat().st_size}B)" if docket_href else " (no docket file — page in legacy form)"
+     n = len(ALERTS)
+diff --git a/PROME/tools/tests/test_helm_fleet_fold.py b/PROME/tools/tests/test_helm_fleet_fold.py
+new file mode 100644
+index 000000000..3f91b18db
+--- /dev/null
++++ b/PROME/tools/tests/test_helm_fleet_fold.py
+@@ -0,0 +1,113 @@
++"""L594 transfer: malformed inputs, quiet/capable cases and state-write boundary."""
++import datetime as dt
++from pathlib import Path
++import sys
++import tempfile
++import unittest
++from unittest.mock import patch
++sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
++import fleet_dashboard as fd
++import will_handbook as wh
++
++DAY = dt.date(2026, 10, 3)
++HEADER = 'gate_id\tregistered\towner\tcondition\tconsequence_on_fire\tstate\tlast_checked\tsource\n'
++def gate(state='LIVE', name='G-1'):
++    return f'{name}\t2026-10-01\tA\tcondition\taction\t{state}\t2026-10-02\tsource\n'
++def fleet_row(**updates):
++    r = dict(name='A', days=0, word='0d (own)', cls='ok', parked=False)
++    r.update(updates)
++    return r
++
++class TransferTests(unittest.TestCase):
++    def setUp(self):
++        wh.ALERTS.clear()
++        self.addCleanup(wh.ALERTS.clear)
++
++    def panel(self, text, rows=None):
++        with patch.object(fd, 'read', return_value=text), patch.object(fd, 'parse_roster', return_value=([('A','domain')],[],[])), patch.object(fd, 'parse_fleet_map', return_value={}), patch.object(fd, 'collect_fleet_rows', return_value=[fleet_row()] if rows is None else rows):
++            return wh.render_fleet_panels(DAY)
++
++    def test_valid_counts_and_named_fired_escaped(self):
++        page = self.panel(HEADER + gate() + gate('FIRED-UNEXECUTED <script>', 'G-<x>') + gate('RETIRED', 'G-3'))
++        self.assertIn('LIVE 1', page)
++        self.assertIn('FIRED-UNEXECUTED 1', page)
++        self.assertIn('G-&lt;x&gt;', page)
++        self.assertNotIn('<script>', page)
++        self.assertEqual(wh.ALERTS, [])
++
++    def test_executed_prefix_not_silently_counted_as_live(self):
++        text=HEADER+gate('FIRED-EXECUTED')
++        with patch.object(fd,'read',return_value=text):
++            self.assertEqual(fd.parse_gates(DAY)[0]['kind'],'live')  # legacy unchanged
++        page=self.panel(text)
++        self.assertIn('Gate counts unavailable',page)
++        self.assertNotIn('<strong>LIVE',page)
++        self.assertTrue(wh.ALERTS)
++
++    def test_partial_malformed_row_cannot_disappear(self):
++        page=self.panel(HEADER+gate()+'G-FIRED\tshort\n')
++        self.assertIn('Gate counts unavailable',page)
++        self.assertTrue(wh.ALERTS)
++
++    def test_unknown_empty_and_prefix_tokens(self):
++        for state in ('','NONSENSE','FROZEN','LIVELY','FIRED-UNEXECUTEDNESS'):
++            with self.subTest(state=state):
++                self.assertIn('Gate counts unavailable',self.panel(HEADER+gate(state)))
++
++    def test_empty_header_missing_header_and_wrong_schema(self):
++        for text in ('',HEADER,gate(),HEADER.replace('state','wrong')+gate()):
++            with self.subTest(text=text):
++                self.assertIn('Gate counts unavailable',self.panel(text))
++
++    def test_duplicate_or_missing_id(self):
++        for text in (HEADER+gate()+gate(),HEADER+gate(name='')):
++            self.assertIn('Gate counts unavailable',self.panel(text))
++
++    def test_read_failure_unavailable(self):
++        with patch.object(fd,'read',side_effect=OSError('missing')):
++            page=wh.render_fleet_panels(DAY)
++        self.assertIn('Gate counts unavailable',page)
++        self.assertTrue(wh.ALERTS)
++
++    def test_no_history_not_999_days(self):
++        page=self.panel(HEADER+gate(),[fleet_row(days=999,word='no git history',cls='crit')])
++        self.assertIn('unavailable / no history',page)
++        self.assertNotIn('999',page)
++
++    def test_parked_unknown_stays_parked(self):
++        page=self.panel(HEADER+gate(),[fleet_row(days=999,word='parked → 10/5',cls='none',parked=True)])
++        self.assertIn('parked → 10/5',page)
++        self.assertIn('unavailable / no history',page)
++        self.assertNotIn('999',page)
++
++    def test_empty_fleet_degraded_and_review(self):
++        page=self.panel(HEADER+gate(),[])
++        self.assertIn('Fleet freshness unavailable',page)
++        self.assertTrue(any(leg=='fleet-freshness' for leg,_ in wh.ALERTS))
++
++    def test_calendar_boundary_classes_and_missing(self):
++        ages={'N':None,'A':3,'B':4,'C':7,'D':8,'E':14,'F':15,'P':30}
++        with patch.object(fd,'load_parked',return_value={'P':(DAY,'reason')}),patch.object(fd,'agent_git',return_value=(0,5)),patch.object(fd,'inbox_depth',return_value=0),patch.object(fd.agent_freshness,'own_surface_age_days',side_effect=ages.get):
++            rows=fd.collect_fleet_rows(DAY,[(n,'domain') for n in ages],{})
++        self.assertEqual({r['name']:r['cls'] for r in rows},dict(N='crit',A='ok',B='watch',C='watch',D='elev',E='elev',F='crit',P='none'))
++        self.assertEqual([r['name'] for r in rows],['N','F','E','D','C','B','A','P'])
++
++    def test_parking_expires_after_inclusive_date(self):
++        with tempfile.TemporaryDirectory() as tmp:
++            p=Path(tmp)/'PROME/tools';p.mkdir(parents=True)
++            (p/'dashboard_parked.tsv').write_text('A\t2026-10-03\towner\treason\n')
++            with patch.object(fd,'REPO',tmp):
++                self.assertIn('A',fd.load_parked(DAY))
++                self.assertNotIn('A',fd.load_parked(DAY+dt.timedelta(days=1)))
++
++    def test_prome_uses_real_home_excluding_inbox(self):
++        with patch.object(fd,'load_parked',return_value={}),patch.object(fd,'agent_git',return_value=(0,0)),patch.object(fd,'inbox_depth',return_value=0),patch.object(fd.agent_freshness,'git',return_value='') as git,patch.object(fd.agent_freshness,'own_surface_age_days',side_effect=AssertionError('wrong home')):
++            rows=fd.collect_fleet_rows(DAY,[('PROME','coordinator')],{})
++        self.assertEqual(rows[0]['cls'],'crit')
++        git.assert_called_once_with('log','-1','--format=%ct','--','PROME',':(exclude)PROME/inbox')
++
++    def test_shared_helpers_never_call_build_or_write(self):
++        with patch.object(fd,'build',side_effect=AssertionError('build called')),patch.object(fd,'write_build_receipt',side_effect=AssertionError('receipt written')),patch.object(wh.wb,'_persist_state',side_effect=AssertionError('feed persisted')):
++            self.panel(HEADER+gate())
++
++if __name__=='__main__':unittest.main()
