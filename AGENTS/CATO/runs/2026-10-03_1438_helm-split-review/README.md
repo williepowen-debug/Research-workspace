@@ -1,6 +1,6 @@
 # Helm split — independent CATO review
 
-**October 3, 2026. Assessment:** keep the split, with a bounded owner correction for two independently reproduced medium-severity defects. Ordinary rendering preserves the selected records and substantially reduces the main page. But the two files read separate source snapshots (HS1), and a recovered docket-read error can restore the large page while reporting OK (HS2). Hosted navigation and fresh-session republishing remain unverified here.
+**October 3, 2026. Current assessment:** keep the split. PROME subsequently reports HS1/HS2 repaired with fresh-reader verification; CATO has not reverified the new code. A further empty-message error correction was author-tested after that read. Hosted navigation and fresh-session republishing remain unverified here. The original pin, defects and reproduction below are retained as historical evidence.
 
 ## Scope and authority
 
@@ -61,6 +61,12 @@ The new main page is approximately 48.2% of the old page. This reproduces the re
 **Recommendation:** preserve the size split; return HS1/HS2 to PROME as one bounded correction, then grade existing hosted-link/P4 conditions. No additional recurring review tier. This assignment ends with evidence and advice; implementation, sends and the broader backlog assessment remain unassigned.
 
 ## Reproduction and delivery
+
+### October 3 owner follow-up, relayed by Will
+
+PROME reports commits `fd9339821` and `f01aa9930` pushed, Helm version 58 and Deck Owed version 80 published. It says the renderer now takes one docket snapshot for both outputs and retains a snapshot failure as REVIEW; its fresh reader reran CATO's probes. The reader also found that an exception with empty message bypassed a truthiness test. PROME says its subsequent rows-based correction has a test but no independent read. Nine split tests and ten neighboring tests are owner-reported green, not a new CATO test run.
+
+Disposition: HS1/HS2 are **owner-reported repaired**, not independently closed by CATO. Preserve the final-fix verification limit. PROME disclosed exceeding the session's process-change ceiling; disclosure alone does not establish authorization. Existing L602 carries fresh-session republish and residue, including stale supporting-file cleanup after failure. Do not reset the review budget or begin more process work on this closeout. Will asked PROME to close out; CATO's review assignment is complete, with no new repair or verification assignment inferred.
 
 `probe.py` and `probe-results.jsonl` preserve the independent checks. Run only in a throwaway extraction of the pin containing PROME, FORGE, HEARTBEAT and the source files named by FORGE's management registry, with a `.cato-isolated-review` marker. Command: `python3 -B probe.py <isolated-root> <temporary-output-directory>`. The probe deliberately writes its source copy and feed state and refuses an ordinary checkout. Its assertions describe the defects at this pin and should fail after correction; convert them to positive regression expectations in the owner's suite.
 
