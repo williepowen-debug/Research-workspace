@@ -233,3 +233,19 @@
 *Curated cross-session memory. Read at boot, write before finishing. Cap at 100 lines — promote to design docs/CLAUDE.md/auto-memory or delete, never just accumulate.*
 
 ## Findings
+
+---
+
+## Rotated 2026-10-03 (MEMORY.md over the 24,412 B trigger; CATO-flagged, verbatim)
+
+**Cross-fleet (auto-memory — auto-loads for every desk; listed so this desk knows they exist):**
+14. `[[finding_registered_trigger_can_fire_on_an_unnamed_mechanism]]` — metric hit but the registered CAUSE absent = **NOT a fire**; re-read the mechanism clause. **Binds boot step 6c directly.**
+15. `[[finding_correction_to_the_sequence_survives_every_fact_check]]` — re-verify the ORDER, not only the events.
+16. `[[finding_level_and_rate_look_like_agreement_until_you_name_which]]` — name the UNIT before routing an apparent confirmation.
+17. `[[finding_a_finding_written_too_abstract_will_not_bind_you]]` — enumerate the STATES; re-READ a fresh finding rather than recall it.
+18. `[[finding_never_infer_a_documents_subject_from_token_presence]]` — name-in-body ≠ about; that check goes quiet and looks healthy forever.
+19. `[[finding_a_challenge_that_strengthens_its_target_is_a_success]]` — "conclusion survives, evidence replaced" IS the finding.
+20. `[[finding_standing_guard_is_a_false_negative_risk]]` — **EXECUTE a guard, never CITE it**; the tell is that you can state its conclusion before opening the file.
+21. `[[finding_board_lags_agents_not_vice_versa]]` — ahead/behind is **per-LEG, not per-agent**; carry which of the owner's own registered premises the news breaks.
+22. `[[finding_roster_change_propagates_to_all_surfaces]]` — after any promotion, ask whether a trigger in the PARENT's registries names the promoted entity as its METRIC.
+23. `[[finding_push_train_hides_a_failed_commit]]` — **path existence is NOT a push receipt**; use the ahead/behind count + a content grep.

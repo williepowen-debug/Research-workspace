@@ -40,17 +40,7 @@
 12. **The most kill-prone SHAPE can wrap an official primary** — verify the core against the primary the artifact implicitly cites, not against the wrapper. → §Credibility (3)
 13. **On a quote-post the wrapper and the quoted post are TWO sources with TWO verdicts** — `kill_log` is the substrate of the credibility map, so a misattribution down-weights an account for something it never said. → §The Kill Log
 
-**Cross-fleet (auto-memory — auto-loads for every desk; listed so this desk knows they exist):**
-14. `[[finding_registered_trigger_can_fire_on_an_unnamed_mechanism]]` — metric hit but the registered CAUSE absent = **NOT a fire**; re-read the mechanism clause. **Binds boot step 6c directly.**
-15. `[[finding_correction_to_the_sequence_survives_every_fact_check]]` — re-verify the ORDER, not only the events.
-16. `[[finding_level_and_rate_look_like_agreement_until_you_name_which]]` — name the UNIT before routing an apparent confirmation.
-17. `[[finding_a_finding_written_too_abstract_will_not_bind_you]]` — enumerate the STATES; re-READ a fresh finding rather than recall it.
-18. `[[finding_never_infer_a_documents_subject_from_token_presence]]` — name-in-body ≠ about; that check goes quiet and looks healthy forever.
-19. `[[finding_a_challenge_that_strengthens_its_target_is_a_success]]` — "conclusion survives, evidence replaced" IS the finding.
-20. `[[finding_standing_guard_is_a_false_negative_risk]]` — **EXECUTE a guard, never CITE it**; the tell is that you can state its conclusion before opening the file.
-21. `[[finding_board_lags_agents_not_vice_versa]]` — ahead/behind is **per-LEG, not per-agent**; carry which of the owner's own registered premises the news breaks.
-22. `[[finding_roster_change_propagates_to_all_surfaces]]` — after any promotion, ask whether a trigger in the PARENT's registries names the promoted entity as its METRIC.
-23. `[[finding_push_train_hides_a_failed_commit]]` — **path existence is NOT a push receipt**; use the ahead/behind count + a content grep.
+**Cross-fleet (auto-memory) findings #14–23 — ROTATED 2026-10-03 to [`MEMORY_PROMOTED.md`](MEMORY_PROMOTED.md) (verbatim; they are `[[slug]]` duplicates of fleet auto-memory, which auto-loads for every desk — exactly what PROMOTED is for). Grep PROMOTED on demand; the slugs still auto-load fleet-wide.**
 
 24. **A STATUS WORD THAT CARRIES A REGISTERED CONSEQUENCE IS THE ONE THAT GETS MANUFACTURED** — carry it ONLY off a primary that uses the word; "de facto <status>" is the tell that it was not declared (9/17: "de facto force majeure" → FAL-05 route (a), which has no duration bar). → `anchors/IRAN_WAR_GUARDS.md` ADD#25 (same class ADD#20 "ceasefire", ADD#24 SHUT≠HIT)
 25. **A guard that reads only the token that was bumped cannot fail on the token that was not** — `spec_version()` took the first match and the H1 is line 1, so a field left at v0.37 under an H1 at v0.38 printed `ok`. Watch a guard FAIL on the instance before trusting the fix. → `tools/version_drift_check.py` docstring (DAEDALUS PR#6 ⑩)
