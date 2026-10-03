@@ -63,10 +63,11 @@ Session: **2026-10-03 Sat, walter-f0 (Claude Opus 4.8), terminal boot ~13:0x ET 
   "schema": 1,
   "as_of": "2026-10-03T19:55:00+00:00",
   "publication": [
-    {"commit": "feaec7407", "state": "on_origin"},
-    {"commit": "551c9750a", "state": "on_origin"},
-    {"commit": "7219d454b", "state": "on_origin"},
-    {"commit": "633a83fcf", "state": "pending"}
+    {"commit": "feaec7407", "state": "published"},
+    {"commit": "551c9750a", "state": "published"},
+    {"commit": "7219d454b", "state": "published"},
+    {"commit": "633a83fcf", "state": "pending"},
+    {"commit": "3c855086a", "state": "pending"}
   ],
   "delivery": {
     "signal_date": "20261003",
