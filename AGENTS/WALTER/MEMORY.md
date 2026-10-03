@@ -7,7 +7,7 @@
 > **Promotion pass 2026-08-31.** This file was **47,219 B = 145% of the 32,550 B read-cap BUDGET** (`READ_CAP.md` rule 1: budget binds; rule 2: it binds **above any owner-set number**). ⚠️ **It had been headlined "0 read-cap violations" for two sessions because the 54,250 B PHYSICAL HARNESS CEILING was quoted instead of the budget. "Cap" is not a pass mark — quote read-cap status by NAME and VALUE against BUDGET.**
 > **What moved → [`MEMORY_PROMOTED.md`](MEMORY_PROMOTED.md) (on demand, NOT a boot read):** all **30** remaining Findings lines, **verbatim**, each stamped with the surface that now owns it. Nothing was deleted; conservation proved with `tools/split_verify.py` v3 (fail-closed), not asserted in prose.
 > ⛔ **DO NOT ATTEMPT A FIFTH MECHANICAL ROTATION.** The 8/30 criterion (*"hunt entries whose fix has SHIPPED"*) was **tested and failed** — only 5 of 29 findings named a mechanism, one a false match on a digit-run. **The remaining move is adjudication, and it has now been done.** What accumulates here from now on is NEW findings; the standing rule is that a finding **leaves this file the session it acquires an owning surface.**
-> ⇒ **`stat -c %s MEMORY.md` at every Tier-2. Rotate again above 24,412 B (75% of budget). NEXT MANDATORY CHECK: 2026-09-30.** ⛔ Do not replace this trigger with a leanness claim.
+> ⇒ **`stat -c %s MEMORY.md` at every Tier-2. Rotate again above 24,412 B (75% of budget). NEXT MANDATORY CHECK: 2026-10-10.** ⛔ Do not replace this trigger with a leanness claim. 🔴 **2026-10-03: ROTATION DUE — at ~24.4–24.7 KB (≈75% trigger) and 116 lines (>100). Next Tier-2 rotates the oldest settled findings → `MEMORY_PROMOTED.md` (split_verify conservation); deferred here deliberately to avoid a rushed end-of-session rotation under push-deferral.**
 
 *Distinct from STATUS.md (operational state) and LAST_COMPLETION.md (latest session's deliverables). This file holds durable learnings that shape how WALTER works, not what WALTER did. Per-session "what happened" lives in SESSION_LOG.md + git history, not here.*
 
@@ -101,16 +101,16 @@
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION — 2026-10-02 Fri, `walter-61` (Claude Opus 5.5): AM Tier-2 11:58 ET, noon reboot, PM Tier-2 ~16:4x ET
+### CHANGES SINCE LAST SESSION — 2026-10-03 Sat PM, `walter-f0` (Opus 4.8): fresh boot → Tier-2
 
-- **BOARD 1148 → 1177** (29 signals; IMMEDIATE: `-005` HY 324, `-009` G7 release, `-014` Yanbu port strike, `-021` Blue Owl). Owner gate fired: BROCK `GATE-BRK-R2` (a) #2 on OCIC (`-022`).
-- **Four own-error corrections** (`-016`, `-018`, `-027`, `-029`): findings #28 n=4, #41 n=2, #42, #43.
-- **Manual intake trigger** (`gh workflow run collect.yml`) at Will's request: the 15:00Z cron starts 3–6h late. Will-directed scheduling-helper memo → PROME → **WQ-369**.
-- Iran anchor rotated 24,416 → 21,489 B (HISTORY § 'Rotated 2026-10-02'). 16 REGISTRY rows header-refreshed.
+- **BOARD 1192 → 1193.** Lane run (13 NEW → 12 items, BM-20261003-02): 1 DISPATCH `-011` (US rules out diesel-export ban → closes `-027` caveat; de-escalatory; INFO BRENT/HENRY), rest DUP/stale/re-report.
+- **X-bookmark backlog CLOSED.** Slices 4–5 (91–150) + full-299 system scan: 0 fresh financial routes; tail stale/dev-tooling. Will ratified STOP; WQ-377(b) settled. Density finding → ACCEPTANCE §9.
+- **Will-directed system-improvement scan** (whole backlog, process lens) → `research/2026-10-03_system-improvement-bookmarks.md`; handed to DAEDALUS (DOCKET L603 eval 10/12) + PROME (WQ-380 `.env` read-fence for Will).
+- Push DEFERRED (concurrent foreign work); 6 commits local.
 
 ### NEXT SESSION
 1. `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS = the complete obligation list.
-2. **Boot check first: STATUS BOARD count (1177) vs INDEX, and ahead/behind.**
-3. **Re-read ORCH_INFLIGHT before every doorbell row and every 'desk is dark' statement (#41).**
-4. **Mon 10/05 ~10:15 ET:** FRED HY 10/02 obs → FT-02 / REG-T-03 count (2 of 3 or reset).
-5. Weekend lane runs (10/03, 10/04) if a session runs; else process at Monday boot.
+2. **Boot: confirm this session's 6 commits reached origin** (push was deferred under foreign work); STATUS BOARD 1193 vs INDEX.
+3. **Re-read ORCH_INFLIGHT before every doorbell / 'desk is dark' (#41).**
+4. **Mon 10/05 ~10:15 ET:** FRED HY 10/02 obs → FT-02 / REG-T-03 (2 of 3 or reset).
+5. **OWED carries:** READS + boot_basis re-attestation; HANS THRESHOLDS 33,544 B 103%-rotate (flag HANS); MEMORY near rotation trigger.

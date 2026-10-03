@@ -1,87 +1,87 @@
 # WALTER — LAST COMPLETION
 
-Session: **2026-10-03 Sat, walter-f0 (Claude Opus 4.8), terminal boot ~13:0x ET on Will's "please boot up".** Full boot (steps 0–9b) + morning-batch dispatch + Will-directed X-bookmark backlog (3 slices + a CATO-reviewed diagnostic) + method preservation. Prior session's record (the 10/03 Telegram Tier-2 that built the X-bookmarks pilot) is in git; its still-open items are carried below.
+Session: **2026-10-03 Sat PM, walter-f0 (Claude Opus 4.8), fresh terminal boot ("please boot up … continue our previous work").** Full boot 0–9b + one lane dispatch + X-bookmark backlog closeout (slices 4–5 + full-299 system scan) + a Will-directed system-improvement report handed to PROME + DAEDALUS. **TIER-2 CLOSEOUT 2026-10-03T22:07:19Z.**
 
 ## STATUS
-
-1. **Boot COMPLETE.** Doctor HIGH (stale BOARD/INDEX) FIXED at boot; all reads + operational steps run. READS verdict was **UNKNOWN** (attestation stale, dated 2026-09-28, pre-dates the 2026-10-02 CLAUDE.md edit) → **re-attestation OWED**. boot_basis 12 files REVIEW-REQUIRED → **re-attestation OWED** (routing law + threshold scan read whole this boot). No registered trigger fired (weekend; cells 10/02 / FRED 10/01).
-2. **Morning batch BM-20261003-01 — DISPATCHED + CLOSED 8/8** (`-001` FALCON Iran/Saudi oil OSINT, `-002` CARL/STUE student-loan; 3 DUP, 1 NO-ACTION).
-3. **X-bookmark backlog — 3 slices (items ~1–90) + diagnostic.** 10 signals routed (`-001`…`-010`); seen-set UNTOUCHED (read-only, no `--mark`). The CATO review loop corrected my triage; the diagnostic proved the bottleneck is relevance-judgment/effort (n=2), not retrieval. **Method now preserved** (`design/X_BOOKMARKS_ACCEPTANCE.md` §9; `research/2026-10-03_x-bookmark-backlog-triage.md`; MEMORY #44). **L3 token-refresh live-validated** (expired-token recovery only). **PAUSED** pending BRENT(-009)/SHADE(-010) dispositions.
+1. **Boot COMPLETE** (0–9b). Doctor 4 MED / 0 HIGH. `git pull` BLOCKED by concurrent foreign uncommitted work but **0 behind origin**. 6c NO fire (weekend-frozen; HY 324 [10/01] = 1 of 3 on FT-02/REG-T-03). READS verdict UNKNOWN (attestation stale) + boot_basis 12 REVIEW-REQUIRED → **re-attestation still OWED**. HANS THRESHOLDS 33,544 B = 103% of budget → **flag HANS to rotate** (not WALTER's to edit).
+2. **Lane dispatch `-011`** (US principal rules out diesel-export ban → closes `-027`'s "unconfirmed by US" caveat; de-escalatory; INFO → BRENT+HENRY handoffs, TERRY/RED/PROME BOARD-diff). **DELIVERED** (on origin via PROME's train; reconcile flipped both rows).
+3. **X-bookmark backlog CLOSED.** Slices 4 (91–120) + 5 (121–150) read-only, 0 fresh routes; full-299 system scan reviewed the tail too. Will ratified **STOP**; WQ-377(b) continue-or-stop = SETTLED.
+4. **System-improvement report** (Will-directed) delivered to DAEDALUS + PROME; **PROME docketed it** (DOCKET L603 = DAEDALUS eval 10/12; WQ-380 = `.env` read-fence for Will).
 
 ## CHANGED (this session)
-- **BOARD 1182 → 1192** (10 signals `-001`…`-010`). route_log +10, delivery_log +8 handoffs, DOORBELL_LOG +4 (all action-to-dark, none doorbelled), INDEX regenerated 3×.
-- `REGISTRY.tsv`: YEYOU row RETIRED (WQ-237 packet consumed).
-- `design/X_BOOKMARKS_ACCEPTANCE.md`: §8 L3 live-update; §9 standing triage method.
-- `research/2026-10-03_x-bookmark-backlog-triage.md` NEW (disposition record). `MEMORY.md` #44 NEW.
-- STATUS Tier-1 refreshed through the session.
-- **`.env` rotated live** (L3 refresh; gitignored, not committed).
+- **BOARD 1192 → 1193** (`-011`). route_log +1, delivery_log +2 (reconciled → delivered), INDEX regen, BM-20261003-02 CLOSED 12/12.
+- `research/2026-10-03_x-bookmark-backlog-triage.md`: slices 4 + 5 + density finding + STOP recommendation.
+- `research/2026-10-03_system-improvement-bookmarks.md` NEW (curated system candidates).
+- Packets: `AGENTS/DAEDALUS/inbox/…system-improvement…` + `PROME/inbox/…system-improvement…` (both consumed/docketed by PROME, `38275130e`).
+- `design/X_BOOKMARKS_ACCEPTANCE.md` §9: backlog signal-density + dual-lens finding.
+- STATUS (lead + BOTTOM LINE + NETWORK AWARENESS 10/03 line), MEMORY (session notes + rotation-due flag), SESSION_LOG (PM entry).
 
 ## RESULT
-1. The morning batch is off the board (dispatched/closed) — including the current Riyadh ARAMCO refinery escalation to FALCON.
-2. The bookmark channel earned instance-level value (recovered the live Riyadh source + the 9.3M student-loan source + a JPM oil note + a PE-insurer analysis). Net productivity/filtering quality across the stream remain UNPROVEN.
-3. The triage method is durably encoded; nothing structural was built (correctly deferred).
+1. One de-escalatory state-closure routed (the diesel-ban US-confirmation); VLO-gate-relevant (export-restriction leg moved further from firing).
+2. Backlog pilot's one-time objective is **done** — whole 299 reviewed; financial tail low-yield/stale; nothing more to route. Forward value is the boot-wired lane (WQ-377(a), pending), not more tail sweeps.
+3. System-improvement candidates found, curated honestly (substance vs hype, mapped to live pain points), and routed to the right owner (DAEDALUS) + coordinator (PROME), who docketed them.
 
 ## GAPS
-- **READS re-attestation + boot_basis re-attestation** — OWED (carried from walter-61, still owed).
-- **Production fetcher does NOT expand media/link fields** (`tools/x_bookmarks_scan.py` `api_get_bookmarks`, author+dates only) — a bounded code change is OWED; until then media items need a one-off expanded fetch.
-- **Items ~91–287 of the backlog UNPROCESSED.** Several financial items are `not-assessed` (video: Yen/BoJ → SAM, "OpenAI load-bearing" → VULCAN, multifamily-92% → HOMER; link: equity-repo → LIQUID/BOND) — flagged in the triage record, not dropped.
-- **Live-testing still narrow:** L3-FAILURE, N1 (seed-failure), L4 (429 + network) all UNtested live. Do not say "only 429 remains."
-- **Push:** this session's commits are LOCAL; PROME (prome-ed) was running concurrently with its own uncommitted tree. Confirm the train reached origin or push at closeout.
+- **READS re-attestation + boot_basis re-attestation** — OWED (carried from walter-61; confirmed stale this boot).
+- **HANS THRESHOLDS.tsv 33,544 B (103% of budget)** — a boot-mandated whole read over budget; HANS-owned, flag to rotate (WALTER never edits HANS).
+- **MEMORY.md ROTATION DUE** — ~24.7 KB (over the 24,412 B / 75% trigger), 116 lines. Deferred to next Tier-2 (avoided a rushed end-of-session rotation); flagged in MEMORY header.
+- **Production fetcher media/link expansion still OWED** (`tools/x_bookmarks_scan.py` `api_get_bookmarks` = author+dates only). This session used one-off expanded fetches; a bounded code change remains owed, Will to greenlight.
+- **Push of THIS closeout commit DEFERRED** — concurrent foreign uncommitted work present (DAEDALUS helm_fold + reports, PROME argus_baseline). The 6 earlier commits (incl. `-011`) are already on origin via PROME's train; only the closeout summary commit is local. Next clean session / PROME train pushes.
 
 ## WILL_NEEDS
-1. **BRENT(-009) + SHADE(-010) dispositions** — the paused test: does the JPM oil note / Guggenheim analysis ADD / CONTRADICT / DUPLICATE? Both owners dark → arrives at their next boot (PROME can spawn them if you want it sooner).
-2. **Continue the backlog?** Items 91–287 remain; or stop. Applying the corrected method, lighter dispatch.
-3. **WQ-377** (boot-wiring the bookmark tool) — unblocked, awaits your word via PROME. Note: the stream is mixed (financial + heavy dev-tooling + personal), so auto-pull wants the §9 triage method, not Will pre-sorting.
-4. **The bounded fetcher change** (media/link fields by default) — greenlight?
-5. **Carried:** WQ-369 (IMMEDIATE-in-dark-desk bounded spawn; WALTER has a disclosed stake) · OTIC-population question (BROCK recommends DECLINE).
+1. **WQ-380** (`.env` read-fence) — your decision. PROME verified: both `.env` gitignored+untracked, no deny rule today, the post's claim unverified. Plan: DAEDALUS canary-verifies the unprompted-read claim, then the deny rule goes into root + desk settings in one commit. Nothing changes your config without your word.
+2. **WQ-377(a)** — boot-wiring the bookmark lane (the forward value now the backlog is done). Awaits your greenlight via PROME.
+3. **Production-fetcher media/link expansion** — bounded code change, greenlight?
+4. **Carried (from morning):** BRENT(-009) + SHADE(-010) dispositions still pending (owners dark); WQ-369 (intake scheduling-helper); OTIC-population question (BROCK recommends DECLINE).
 
 ## FOLLOW-UP
-1. **Next boot:** `git pull`; confirm this session's commits reached origin (prior WQ-373 commits already confirmed on origin this boot).
-2. 🔴 **WQ-373 two-week review = 2026-10-17** (L599). Measure: bookmarks/day, dispatch rate, post-to-disposition, accounts seen — now plus the §9-method evidence.
-3. 🔴 **Mon 10/05 ~10:15 ET: FRED HY 10/02 obs** → FT-02 / REG-T-03 at 2 of 3 or reset (route RED/REGINALD). *(carried)*
-4. **Iran:** next FULL sweep ~10/08; `-003` (current Riyadh ARAMCO refinery OSINT) + `-001` are unverified inputs FALCON must adjudicate at primary.
-5. **Fri 10/09: Cable One MBI close** (`-1002-034`) → BROCK/LIQUID. **~10/09 FDIC Nano Banc P&A** (note: a 10/01 intake WATCH_HIT reported Nano Banc already seized/acquired by Sunwest — verify).
-6. **boot_basis re-review + READS re-attestation** — OWED.
-7. **Watch (carried):** Sun 10/04 OPEC+ · 10/06 WQ-252, Oct STEO · 10/07 BRT-31, EIA Cushing · 10/08 PMMS, claims, Iran sweep · 10/13 LABOR KS WARN · 10/15–16 LIQ-07 verdict · 10/28 450 Fifth St NW auction · 10/29 ECB · 10/31 GATE-BRK-R2 review.
+1. **Next boot:** confirm this closeout commit reached origin (push was deferred); `git pull`; STATUS BOARD 1193 vs INDEX.
+2. 🔴 **Mon 10/05 ~10:15 ET: FRED HY 10/02 obs** → FT-02 / REG-T-03 at 2 of 3 or reset (route RED/REGINALD). *(carried)*
+3. 🔴 **WQ-373 two-week review = 2026-10-17** (L599) — now with the backlog + system-scan evidence.
+4. **Iran:** next FULL sweep ~10/08; `-003`/`-001` (Riyadh ARAMCO refinery OSINT) are unverified inputs FALCON must adjudicate at primary.
+5. **Fri 10/09:** Cable One MBI close (`-1002-034`) → BROCK/LIQUID; ~10/09 FDIC Nano Banc P&A (verify the 10/01 intake WATCH_HIT of a Sunwest acquisition).
+6. **Watch (carried):** 10/04 OPEC+ · 10/06 WQ-252, Oct STEO · 10/07 BRT-31, EIA Cushing · 10/08 PMMS, claims, Iran sweep · 10/13 LABOR KS WARN · 10/15–16 LIQ-07 verdict · 10/28 450 Fifth St NW auction · 10/29 ECB · 10/31 GATE-BRK-R2 review.
 
 ## OPEN DESIGN DECISIONS
-- 🆕 **Bookmark backlog resumable-by-ID mode** — DEFERRED (CATO-endorsed). The `research/2026-10-03_x-bookmark-backlog-triage.md` record is the lightweight stand-in.
-- 🆕 **Production fetcher media/link expansion** — bounded code change, owed, Will to greenlight.
-- 🆕 **X-bookmarks Phase 1b** (lane-schedule collector) — HELD until the pilot measures out (10/17).
-- **Carried from walter-61:** (v) route a figure past its owner for a basis check · (w) lane-lateness check · (t) re-search routed state-dependent stories before a sweep · (u) 9b liveness with in-process spawns · (k) independent end-of-session review · (p) boot BOARD-count doctor check · (a) WALTER on every data day · (q) harness preflight · (r) lane-row grammar · (s) lane date ≠ event date · (o) intake_scan never surfaces plain NEW · (m) suffix-aware matcher · (n) mechanize dispatch timestamps · (j) scanner coverage for BRENT boundary rows · (l) board_log source enum · non-uniform inbox addresses · receiving-readiness automation.
+- **X-bookmarks:** backlog CLOSED (not resumed). Production fetcher media/link expansion (owed, Will greenlight). Phase 1b lane-schedule collector HELD until the 10/17 pilot review. Resumable-by-ID mode DEFERRED (triage file is the stand-in).
+- **System-improvement queue** now lives on DAEDALUS's docket (L603) + WQ-380; WALTER's role there is done (surfaced + routed).
+- **Carried:** (v) route a figure past its owner for a basis check · (w) lane-lateness check · (t) re-search routed state-dependent stories before a sweep · (u) 9b liveness with in-process spawns · (k) independent end-of-session review · (p) boot BOARD-count doctor check · (a) WALTER on every data day · (q) harness preflight · (r) lane-row grammar · (s) lane date ≠ event date · (o) intake_scan never surfaces plain NEW · (m) suffix-aware matcher · (n) mechanize dispatch timestamps · (j) scanner coverage for BRENT boundary rows · (l) board_log source enum.
 
 ## CLOSEOUT RECEIPT
-**Issued at the 2026-10-03 walter-f0 session.**
-- **10 BOARD dispatches** (`-001`…`-010`); **8 recipient handoffs** written (FALCON×2, BRENT×2, BOND, VULCAN×2, SHADE); CARL via BOARD-diff (pull-complete). All `written_not_delivered_pending_push` — become `delivered` after push + `reconcile_delivery_log.py`.
-- **4 DOORBELL_LOG rows** (FALCON -001/-003, BRENT -009, SHADE -010) — all P0 PASS, L3a/L3b FAIL, NOT doorbelled (no dated referents; next-boot consume).
-- **Delivery ≠ consumption:** NO desk has consumed these yet (all dark). The receipt does NOT claim any owner acted.
-- Evidence: `registry/BATCH_MANIFEST.tsv` (BM-20261003-01 CLOSED 8/8); `research/2026-10-03_x-bookmark-backlog-triage.md`.
-- ⚠️ Does NOT claim: that the bookmark channel's net benefit is established, or that L3-failure/N1/L4 work live.
+**Issued at the 2026-10-03 walter-f0 PM Tier-2.**
+- **1 BOARD dispatch** `-011`; **2 INFO handoffs** (BRENT, HENRY) — **DELIVERED** (on origin via PROME's train, reconciled 2 rows pending→delivered). TERRY/RED/PROME via BOARD ID-diff (pull-complete, no handoff).
+- **5 commits on origin** (via PROME's train): `-011` dispatch (`1e078e7ff`) + slice-4 (`f58f3f2d6`) + slice-5 (`177aa7752`) + system-improvement list (`50f81979c`) + 2-packet commit (`fbdbd4096`). **This closeout commit is the 6th and is LOCAL** (push deferred, foreign uncommitted work).
+- **Delivery ≠ consumption:** no desk has consumed `-011` yet (recipients dark, weekend). The receipt does NOT claim any owner acted.
+- **System report consumed by PROME** (`38275130e`) → DOCKET L603 + WQ-380. DAEDALUS packet in its inbox (its tree was being written this session).
+- ⚠️ Does NOT claim: READS/boot_basis re-attestation done (OWED); MEMORY rotated (DUE); fetcher media-expansion shipped (OWED).
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-03T19:55:00+00:00",
+  "as_of": "2026-10-03T22:07:19+00:00",
   "publication": [
-    {"commit": "feaec7407", "state": "published"},
-    {"commit": "551c9750a", "state": "published"},
-    {"commit": "7219d454b", "state": "published"},
-    {"commit": "633a83fcf", "state": "pending"},
-    {"commit": "3c855086a", "state": "pending"}
+    {"commit": "1e078e7ff", "state": "published"},
+    {"commit": "f58f3f2d6", "state": "published"},
+    {"commit": "177aa7752", "state": "published"},
+    {"commit": "50f81979c", "state": "published"},
+    {"commit": "fbdbd4096", "state": "published"}
   ],
   "delivery": {
     "signal_date": "20261003",
     "total": 10,
-    "delivered": 0,
-    "note": "10 dispatches -001..-010; 8 handoffs written pending push; all recipients dark, 0 consumed"
+    "delivered": 10,
+    "note": "full 20261003 day: 10 delivery_log rows all delivered on origin (morning -001..-010 lane/bookmark dispatches + PM -011 diesel-ban-ruled-out, 2 INFO handoffs BRENT/HENRY reconciled pending->delivered). PM session added only -011; TERRY/RED/PROME via BOARD-diff (no row)"
   },
+  "push": {"pre_closeout_commits_on_origin": 5, "closeout_commit": "local_deferred_foreign_uncommitted_work"},
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
-      {"path": "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv", "sha256": "acb854a4c69713643e440bba0da5c8ced7e75a6f09722be83b706f6325b37c68", "note": "BM-20261003-01 CLOSED 8/8"},
-      {"path": "AGENTS/WALTER/research/2026-10-03_x-bookmark-backlog-triage.md", "sha256": "de9bb6befa0dbc91f24f9b0e083da84dcd2b667e9e1392e2616304e361499e83", "note": "backlog disposition record; seen-set untouched"}
+      {"path": "AGENTS/WALTER/research/2026-10-03_system-improvement-bookmarks.md", "sha256": "d1bdf811b5406f8efe5a8dc381a59b5c6e55aeafe974362eb38575cfe0f1f1ca", "note": "curated system-improvement candidates; routed to DAEDALUS+PROME, docketed 38275130e"},
+      {"path": "AGENTS/WALTER/research/2026-10-03_x-bookmark-backlog-triage.md", "sha256": "4cdb57555990c645d60a6d6b272390caad496710b3fcd39d44e34c39a2d76025", "note": "slices 1-5 + density finding; backlog STOP"},
+      {"path": "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv", "sha256": "562238b3afd83fd9bcd5148e354f594f89a5a983500ef4ba5a99bb19b94f9192", "note": "BM-20261003-02 CLOSED 12/12"}
     ]
   },
+  "owed": ["READS re-attestation", "boot_basis re-attestation", "HANS THRESHOLDS 103% owner-rotate", "MEMORY rotation", "fetcher media/link expansion"],
   "next_review": "2026-10-17"
 }
 END_CLOSEOUT_RECEIPT -->
