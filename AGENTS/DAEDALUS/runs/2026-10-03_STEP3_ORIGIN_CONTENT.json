@@ -1,0 +1,54 @@
+{
+  "AGENTS/DAEDALUS/builds/helm_fold_2026-10-03/helm-fold.patch": {
+    "equal": true,
+    "sha256": "7fbf16192b21623320ee78cd40ba6dc6f09f055d5ffb7314321654e5abd2621f"
+  },
+  "AGENTS/DAEDALUS/builds/helm_fold_2026-10-03/target_hashes.json": {
+    "equal": true,
+    "sha256": "13e9d37438740557f67ee853952731b604d7567614ef2f8e5a02b6788e425c50"
+  },
+  "AGENTS/DAEDALUS/runs/2026-10-03_HELM_FOLD.md": {
+    "equal": true,
+    "sha256": "5958f40ca1a1d8582e99f927187ab1c794ff895702ca94944109e6bc9723ee4f"
+  },
+  "AGENTS/DAEDALUS/runs/2026-10-03_HELM_FOLD_READER_REPORTS.md": {
+    "equal": true,
+    "sha256": "1aea85bef57858203202aabf811906537333eacffb7bb1688400f28fefb93d39"
+  },
+  "AGENTS/DAEDALUS/scripts/render_directory.py": {
+    "equal": true,
+    "sha256": "666110836dee09c1ba7b9c3d1ed9fd2490013a5ed3e273978cea33db0e313a00"
+  },
+  "AGENTS/DAEDALUS/scripts/test_render_directory_wf.py": {
+    "equal": true,
+    "sha256": "96798241a91ec30e4a5703efd4e170b24863c4b767fda6ea6d89640f2c2d8886"
+  },
+  "AGENTS/DAEDALUS/FLEET_DIRECTORY.md": {
+    "equal": true,
+    "sha256": "9dcb9551efd4fa8a80feb5f970d7575db532bf55bce608d4d7af5bf1a42763ad"
+  },
+  "AGENTS/DAEDALUS/runs/2026-10-03_L490_TAILS.md": {
+    "equal": true,
+    "sha256": "b3386b8c0ea9aebec562c211265a7acc27c96f22e44868c1daf62d94fac04775"
+  },
+  "AGENTS/DAEDALUS/runs/2026-10-03_H2_RECEIPT_RECONCILIATION.md": {
+    "equal": true,
+    "sha256": "6974c91249deb5853087ce5a6618fd354178f8e904c8efc608ca1860c4ed1620"
+  },
+  "AGENTS/DAEDALUS/scorecards/2026-10-02.md": {
+    "equal": true,
+    "sha256": "8a81df9eb46b0c380ca7684c3ed080909aa759c37df020850409a23e71f85a93"
+  },
+  "AGENTS/DAEDALUS/scorecards/2026-10-02_inputs.json": {
+    "equal": true,
+    "sha256": "414a7e83e9d6ba5080ee4e1d8f66385e12c7d6e684b6478557e0be2dd5de01ed"
+  },
+  "AGENTS/DAEDALUS/scorecards/SCORECARD.tsv": {
+    "equal": true,
+    "sha256": "e61119c304cad6ebfa9ce93d3d89a9d85579da4dd13c015ac5ebfff8eddef01a"
+  },
+  "PROME/inbox/2026-10-03_from-DAEDALUS_step3-helm-patch-WF-and-H2-receipts.md": {
+    "equal": true,
+    "sha256": "ea5550ef2165b32def3cde8e2ef2d9cc6502474c5d2d6ef9c4a8702f3a42cb20"
+  }
+}
