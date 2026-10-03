@@ -10,12 +10,12 @@
   "War theaters + Europe + Russia + housing": "crit"
  },
  "docket": {
-  "2026-10-02": "FORUM-6 WITHDRAWAL CHECKPOINT (binding on the verdict): grade legs a/b/d\u2026",
   "2026-10-03": "\ud83d\udfe0 **CRU-09 GRADES BY 2026-10-03 23:59 ET",
   "2026-10-04": "OPEC+ monthly meeting of the seven participating countries",
-  "2026-10-05": "CME Group + Silicon Data list cash-settled COMPUTE FUTURES on NYMEX (H100\u2026",
+  "2026-10-05": "FORUM-6 WITHDRAWAL CHECKPOINT (binding on the verdict): grade legs a/b/d\u2026",
   "2026-10-06": "Delegation-tier falsifier grades: ONE Will-reversal of any self-ruling wi\u2026",
-  "2026-10-07": "\ud83d\udd34 **A CAPPED SURFACE WHOSE PERMANENT FLOOR EXCEEDS THE STOP"
+  "2026-10-07": "\ud83d\udd34 **A CAPPED SURFACE WHOSE PERMANENT FLOOR EXCEEDS THE STOP",
+  "2026-10-08": "\ud83d\udfe0 **FLOAT-TIE CLASS IN `FORGE/tools/market-data/config.py::classify`"
  },
  "gates": {
   "GATE-BRENT-COT-35B": "LIVE",
@@ -69,6 +69,11 @@
   "368": "\u2696\ufe0f MIDAS BANDS \u2014 DAY-31 READING: CROSSING OR CALENDAR? The silver/Pt/\u2026",
   "369": "\u2696\ufe0f IMMEDIATE DOORBELL IN A DARK DESK'S OWN THEATER \u2014 ONE-BOUNDED-SPAW\u2026",
   "370": "\u2696\ufe0f OTIC \u2014 SHOULD IT JOIN GATE-BRK-R2's POPULATION? BROCK recommends D\u2026",
-  "371": "\u2696\ufe0f CONSOLIDATE PROME/CLAUDE.md \u2014 WQ-299's C2 \u00b7 C3 \u00b7 C4, APPROVE OR DE\u2026"
+  "371": "\u2696\ufe0f CONSOLIDATE PROME/CLAUDE.md \u2014 WQ-299's C2 \u00b7 C3 \u00b7 C4, APPROVE OR DE\u2026",
+  "374": "\u2696\ufe0f PROME's HELPER SUBAGENTS \u2014 PICK THE FIRST BUILD: reader \u00b7 verifier\u2026",
+  "375": "\u2696\ufe0f DAEDALUS's PR#7 LADDER READINGS A AND B \u2014 RATIFY BOTH AS STANDING\u2026",
+  "376": "DBPR REPLIED \u2014 ACTIVATE THE PUBLIC RECORDS CENTER ACCOUNT (your hands\u2026",
+  "377": "\u2696\ufe0f WQ-373 FOLLOW-ON \u2014 MAY WALTER ADD THE X-BOOKMARKS SCAN TO ITS BOOT\u2026",
+  "378": "\u2696\ufe0f TWO FORUM-4 DEFERRALS YOU RULED ON 8/11 REACHED THEIR 9/30 RE-ASSE\u2026"
  }
 }
