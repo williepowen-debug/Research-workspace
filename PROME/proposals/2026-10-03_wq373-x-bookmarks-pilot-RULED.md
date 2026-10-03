@@ -1,0 +1,33 @@
+# WQ-373 — X bookmarks → WALTER, two-week pilot — RULED
+
+**Ruled:** 2026-10-03 09:28 ET, Will in-session, verbatim *"373 approved go with your recs"*. **Written:** 2026-10-03 09:3x ET (`prome-ed`).
+**Row:** `PROME/WILL_QUEUE.md` WQ-373 (registered 2026-10-02 21:2x ET from WALTER `LAST_COMPLETION.md` §WILL_NEEDS 2b; now RECENTLY DONE). **Plan:** `AGENTS/WALTER/research/2026-10-02_x-intake-pilot-plan.md` (21e4eaad1).
+
+## The ruling, as PROME's recs stood on the row
+
+| Term | Ruled |
+|---|---|
+| (1) Spend | APPROVE: an X developer app with ~$10 prepaid credit, cap $10/month |
+| (2) Storage | APPROVE: post IDs + WALTER's own summary only; no post text in git (X's 24-hour deletion rule) |
+| (3) Trigger | APPROVE: bookmarks are processed at the next WALTER launch |
+| Phase 2 | HELD until the two-week measure (a 10–15-account official feed, ~$45–70/mo, is a fresh ask) |
+
+## What the word does NOT cover (carried)
+
+- **Boot-step wiring** — adding the scan to WALTER's boot is a WALTER protocol change (its RULE 8). Asked of Will in the same message as this ruling; WALTER wires only on that word.
+- **Unattended WALTER runs** — out of scope; the autonomy question is WQ-369.
+- **Unconfirmed facts** — X's minimum credit purchase; whether empty reads are billed (WALTER's plan §2).
+
+## The access mechanism (Will asked: "Do I just give WALTER my login?")
+
+No. WALTER never holds Will's X password. The app gets its own identity (a Client ID from X's developer portal). Will authorizes it ONCE, in his own browser while logged in as himself, for the bookmark-read scope only (OAuth 2.0 with PKCE; scopes `tweet.read users.read bookmark.read offline.access`). X returns a token to WALTER's tool; the token lives in a local `.env` on this box, never in git; it can be revoked at any time from X's connected-apps settings. The exact click-path is WALTER's to write into a setup card (portal screens change; nothing here is to be guessed).
+
+## Probe receipts that shaped the rec (full text on the row via `git log -p`)
+
+- WALTER's Friday "402 on direct fetch" came from the harness WebFetch tool, not X's web server.
+- A direct page fetch (browser-UA `curl -L`) returns 200 and a ~274–299-character PREVIEW in the page's meta tags (a prefix of the post; SternDrew 299 of 1,192 chars). WALTER's "hollow page" was retracted (NUL bytes put grep in binary mode).
+- Full text today needs `api.fxtwitter.com` (unofficial, terms risk) or the official API ($0.005 per post). The pilot buys compliance, durability and full text; the bookmarks-as-queue case stands on its own.
+
+## Registered at the ruling
+
+DOCKET L598 (build + Will's hands; WALTER wakes Mon 10/05 if not live) · L599 (two-week review, provisional 2026-10-20) · WALTER packet `AGENTS/WALTER/inbox/2026-10-03_from-PROME_WQ-373-RULED-x-bookmarks-pilot-phase-1.md` · fleet memory `finding_negative_reachability_is_a_claim_about_your_request` instance 5.
