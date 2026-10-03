@@ -33,7 +33,7 @@ One-time setup. After it, you **bookmark a post** on X instead of screenshotting
 - ⚠️ *Confirm while you're there* (WALTER can't see the portal): the **minimum** purchase, whether a read bills **per post or per request**, and whether **bookmark folders** need Premium (a free folder would let you keep personal bookmarks out of WALTER's queue). Cost scale: to find new bookmarks WALTER reads your recent bookmarks newest-first until it reaches a page it has already seen — **1–2 pages (up to ~100 posts) on a normal launch, up to ~500 at the most**, plus a one-time read of your existing bookmarks at setup. So cost tracks *how often WALTER launches*. Per-post vs per-request billing is the portal unknown above; the **$10/month cap is the hard stop** either way.
 
 **5. Authorize once — the "Allow" click**
-- ⚠️ **Type this in your own terminal** (don't have WALTER run it through a tool — it needs to print a URL and wait for your browser). Start in the repo root, then run:
+- You can run this **in your own terminal**, OR let WALTER run it and send you the link to approve — **either is fine, and the security is identical**: your login only ever happens in your own browser, and WALTER only receives the resulting read-only token (verified live 2026-10-03). If you run it yourself, start in the repo root:
   ```
   cd /home/willi/Research-workspace
   ```

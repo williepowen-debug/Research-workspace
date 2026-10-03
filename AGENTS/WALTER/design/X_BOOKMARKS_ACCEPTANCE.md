@@ -108,3 +108,12 @@ Read-3 (the last in the episode's Review budget) verdict: **NOT MET on two small
 - **TESTED (author): YES** — suite 28/28 (script + `-m unittest`); cx3 44/45 (the one FAIL, f3, is a by-design consequence of fixing f2 — 125 is now correctly consumed, so it does not re-surface); cx1 still 20/2; cx2 CX-A3 now raises FileNotFoundError because N1 deliberately no longer writes a seen-file on a failed seed (it tested the pre-N1 behavior; cx3 a5 supersedes it and PASSES).
 - **INDEPENDENTLY VERIFIED: NO** — no read follows this commit within budget (a fourth read is Will's to name; PROME's rec is "not needed").
 - **STILL UNRESOLVED after it: none known at unit scope.** The remaining gate is the **live first-run (L1–L2)** on Will's token + the WSL2-localhost answer; "working" is claimable only after that.
+
+### LIVE FIRST-RUN RESULT — 2026-10-03 12:44 ET → ✅ WORKING
+- **L1 (PKCE authorize): PASS** — flow completed; access+refresh tokens + `X_USER_ID` written to the gitignored `.env`.
+- **L2 (real GET + dedup): PASS** — seed read **287** existing bookmarks across pages; a follow-up normal scan reads clean and reports "0 new bookmarks" (dedup holds end-to-end).
+- **WSL2 localhost: WORKED** — the one untested piece. Will's Windows browser reached the WSL server at `localhost:8723`; callback caught, no timeout. (`webbrowser.open` failed headless as expected — harmless; he opened the relayed URL manually.)
+- **Seed 287, under the 500 cap** (no cap warning). **N1 seed-failure path NOT exercised** — X granted $20 free credit, so the seed succeeded; N1 remains author-tested (cx3 a5), not live-observed.
+- **Authorize was run from WALTER's session and the URL relayed to Will**; he approved in his own browser. Security identical (login never left his browser; only the read-only token reached WALTER). The card's "your own terminal" line is amended to a should-not-must.
+- **L3/L4 (refresh rotation, 429/network) remain author-tested** — not yet exercised live (no token expiry/rate-limit hit yet).
+- **STATUS: WORKING** at unit scope + live L1–L2. First-successful-scan 2026-10-03 → L599 two-week review 2026-10-17. WQ-377 boot-wiring now unblocked.
