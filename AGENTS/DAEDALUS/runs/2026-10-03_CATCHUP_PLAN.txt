@@ -1,3 +1,24 @@
+CURRENT EXECUTION ADDENDUM — 2026-10-03, after CATO review 3e356eaf5
+Steps 1–2 are complete as a bounded milestone. The original plan below is retained.
+This addendum supersedes its execution ordering and broad October 5 L490 promise:
+1) Prepared PROME handoff + owner disposition + explicit L490 scope/date reconciliation.
+2) Missed October 2 scorecard, preserving stable inputs, Friday window, actual render
+   time/source vintage, descriptive-only status and existing acceptance limits.
+3) Protect October 5 Helm/L594 and retained L490 delivery tails BEFORE broad sweeps.
+4) One bounded overdue review at a time, using the original package-specific limits.
+L490 remains canonically October 5; local October 12/15/~29 scheduling does not amend
+it. Proposed October 5 scope/capacity checkpoint applies to queue legs only; retain
+WF column/doorbell tails as actual delivery work unless PROME dispositions them.
+Coordinator agreement is still owed. Eleven October 12 profiles is a capacity risk,
+not a verified feasible promise. No original miss is erased or deadline moved here.
+L530: reader measurement + owner remedy per rule15; literal every-path acceptance
+remains partial. L538: isolated external exemption accepted; unrelated file breaches
+stay visible and do not defeat its own acceptance. Canonical row wording needs PROME.
+Concrete handoff: design/2026-10-03_CATO_FOLLOWUP_HANDOFF_DRAFT.md (prepared, not sent).
+Disposition record: runs/2026-10-03_CATO_FOLLOWUP.md.
+
+--- ORIGINAL PLAN (historical proposal; detailed controls below remain operative) ---
+
 DAEDALUS CATCH-UP PLAN — 2026-10-03
 Status: proposed execution order, prepared for Will. No repairs executed by this plan.
 Basis: runs/2026-10-03_BOOT_STATUS_REPORT.txt; current STATUS and DOCKET;

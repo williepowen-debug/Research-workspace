@@ -4,6 +4,8 @@ Read `STATUS.md` for current work and `runs/2026-10-03_CATCHUP.md` for the Octob
 
 Will authorized catch-up steps 1–2 only. Ledger/read-cap repairs and fresh independent reports live in the catch-up record. The missed scorecard, profile refreshes and fleet sweeps remain separate owed work. PROME/WALTER were live; their files were not edited. Git delivery receipt and any owner-dependent residue are recorded in that result, not inferred from this pointer.
 
+**CATO follow-through (October 3):** current order and date conflict are in `runs/2026-10-03_CATO_FOLLOWUP.md`. Handoff delivery is explicitly authorized; packet and live-doorbell receipt are tracked in that follow-through record. Owner disposition remains unconfirmed. Protect October 5 Helm before broad overdue sweeps. L538 isolated acceptance is separate from WALTER-wide rc; L530 remains partial.
+
 ---
 
 # DAEDALUS — HANDOFF
