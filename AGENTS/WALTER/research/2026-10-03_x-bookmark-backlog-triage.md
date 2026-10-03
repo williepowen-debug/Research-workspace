@@ -6,7 +6,10 @@ Persistent disposition record for the Will-directed backlog pull (WQ-373 pilot).
 - **Slice 1 — items 1–30** (fetched page 1): 6 routed, 2 dup, rest context/off-domain.
 - **Slice 2 — items 31–60**: initially called "0 routable / mostly noise" — **CORRECTED**: it contained the two highest-value finds (below), under-assessed because I did not expand media retrieval.
 - **Slice 3 — items 61–90** (diagnostic, expanded retrieval): mostly agentic-AI/Claude-tooling + personal; the two under-retrieved items (from slice 2) re-pulled with media and read whole.
-- **Unprocessed: items ~91–287.**
+- **Slice 4 — items 91–120** (2026-10-03 PM, walter-f0 continuation; Will chose "next lean slice"; expanded media/URL/note_tweet retrieval via a one-off read-only fetch, production tool unchanged): **0 fresh routes — a filter-health result, not a manufactured dispatch.** ≈22 of 30 off-domain (agentic-AI/Claude-tooling + personal + fringe astrology/seismology). Financial items all stale, DUP, or long-horizon: #110 @Loofyb0i Bessent Treasury bond-market interview (MARCH 2026, video, no transcript → BOND if ever) · #120 @rcwhalen "Kraft/McDonald's/Whirlpool CEOs: US consumers running out of money" (Yahoo, **June 2026, 4mo stale** → CARL-domain but almost certainly already absorbed at thesis v2.6.6) · #97 @conksresearch equity-repo plumbing primer (= prior #85, LIQUID/BOND, position-shifted) · #98 @fortworthchris multifamily 92%-occupancy clip (= prior #86, HOMER, position-shifted) · #118 @PaulHBeckwith Tibetan-permafrost climate-tipping (June YouTube, long-horizon → AEOLUS, low-value). **None dispatched** (stale/dup/low-consequence; dispatch-by-consequence). Seen-set UNTOUCHED.
+- **Unprocessed: items ~121–287.**
+
+> 🔑 **Signal-density finding (informs the continue-vs-stop call):** financial signal density drops sharply after item ~90. Slice 1 (1–30) yielded 6 routes; slice 4 (91–120) yielded 0. What remains (~121–287) is OLDER (the fetched window reaches June 2026 by item ~120) and increasingly dev-tooling/personal. The high-value finds are front-loaded in the most-recent bookmarks; the tail is low-yield and stale. ⇒ a full remainder sweep is likely low-yield; recommend lean sampling or stopping, pending Will.
 
 ## Routed this session (source: x-bookmark)
 | SIG | item | → | note |
