@@ -13,14 +13,14 @@ Will bookmarks posts on X instead of screenshotting them. WALTER reads his **new
 - **No post bodies in git.** The seen-file and any committed artifact store **post IDs + WALTER's own signal text only**. Post text is printed to stdout for routing and lives in BOARD signals as WALTER's paraphrase — never persisted verbatim in a committed file (honours X's 24h-deletion term).
 - **Token never in git.** `X_CLIENT_ID` / access / refresh tokens / user id live in `AGENTS/WALTER/.env` (gitignored repo-wide: `.env`, `.env.*`). The tool reads and rotates them there; it never prints a full token to stdout.
 - **No unattended runs.** Phase 1 runs only at a WALTER launch, by a human-watched session. "Regularly between launches" = Phase 1b / WQ-369, explicitly OUT.
-- **Pilot floor.** Only bookmarks **newer than the pilot-start marker** are ever processed; pre-existing bookmarks are excluded forever.
+- **Exclusion set, not a floor** *(corrected after read-1 X1).* Dedup is membership in a **seen-set of post IDs**, never a numeric post-ID floor — a snowflake is *creation* time, not *bookmark* time, so a floor silently drops an old post bookmarked today (Will's main use case). `--authorize` seeds the seen-set with every pre-existing bookmark; while the seen-file lives, those stay excluded. **Deleting the seen-file re-surfaces everything** — the safe direction (over-surface, never drop). These two facts are consistent: "excluded" is a property of the seen-file's contents, not a permanent floor.
 
 ## 3. MUST conditions (acceptance matrix)
 
 | # | Condition | How verified |
 |---|---|---|
-| A1 | `select_new()` returns only bookmarks with `id > pilot_start_id` AND not in the seen set, newest-first | unit test, mock items |
-| A2 | Snowflake IDs compared as **integers**, not strings ("100" < "99" as strings is the trap) | unit test with cross-decade-length IDs |
+| A1 | `select_new()` returns bookmarks **not in the seen-set**, in the API's given order (newest-bookmarked-first) — no floor, no re-sort; an idless item is always surfaced | unit test `test_select_new_is_set_membership_order_preserved` + `test_old_post_bookmarked_today_is_surfaced` |
+| A2 | *(retired with the floor, read-1 X1)* — dedup is string set-membership, not a numeric compare; the old integer-floor trap no longer exists | n/a (no numeric comparison in the model) |
 | A3 | A bookmark already in the seen set never re-fires, even if still the newest | unit test |
 | A4 | A malformed item (missing id / author / text) is **surfaced LOUD and still handed over**, never silently dropped | unit test |
 | A5 | Corrupt/unreadable seen-file → **refuse to run** (fail closed), with a fix instruction; deleting it re-surfaces everything (safe direction) | unit test |
@@ -49,3 +49,30 @@ Until all three: status is **BUILT, UNIT-TESTED (pure logic), PENDING independen
 - Minimum prepaid credit (pilot plan §2 "not confirmed"); Will confirms at purchase, cap $10/mo.
 - Whether bookmark **folders** need Premium — a dedicated folder would keep Will's personal bookmarks out of WALTER's queue (PROME point c). v1 reads the **default (all) bookmarks**; folder-scoping is a v1.x change if the portal allows it without Premium.
 - Exact redirect URI must match the app settings (tool defaults to `http://localhost:8723/callback`).
+- Whether a bookmarks read bills **per post** or **per request** (drives the cost basis in §6 X5).
+
+## 6. Coldread read-1 dispositions (2026-10-03 — every ❌/⚠️ by name)
+Reader verdict NOT MET (❌4 · ⚠️12 · ✅5) on `0b90fae4d`. Disposition on the fix commit:
+
+**❌ fixed**
+- **X1 / A1 (floor drops old posts)** — FIXED. Exclusion-set model; `--authorize` seeds pre-existing IDs; `select_new` keeps API order. Regression test `test_old_post_bookmarked_today_is_surfaced`; cx **CX7 now PASS**.
+- **X2 / A7 (`--mark` consumes un-routed)** — FIXED. Report run stages printed IDs to `x_bookmarks_pending.json`; `--mark` consumes exactly the stage, never re-fetches. Test `test_mark_consumes_only_staged_ids_no_body`; cx **CX8b PASS**.
+- **X3 (`--authorize` hangs on Cancel / piped)** — FIXED. `serve_forever` + `threading.Event` with a 300s deadline; handles `error=`; flushes before waiting; distinct Cancel/timeout messages. (Live-verified at read-2 / first-run; CX9 is a shell case.)
+- **A8 (partial isolation announced TEST MODE over a live file)** — FIXED. All-or-nothing: either test var isolates BOTH (unset one derived beside the set one). Tests `test_partial_env_still_isolates_seen` / `_env`; cx **CX6a/b PASS**.
+
+**⚠️ fixed**
+- **A5** (wrong-shape JSON) — `load_seen` now refuses non-UTF8, bad JSON, non-object, and `consumed`-not-a-list, each with the delete-to-re-surface instruction. cx CX2 5/6 PASS (the 6th is by-design, below).
+- **A6** (duplicate key / CRLF / non-atomic) — duplicate keys collapse to one; CRLF preserved; atomic temp+`os.replace`; `load_env` strips quotes. cx CX3b/c/d PASS.
+- **A7 guard** — `save_seen` stray-key check is now an explicit `raise ValueError` (survives `python -O`), and `--mark` is exercised end-to-end through `main()`.
+- **CX4b** — non-string `text` is coerced (`str()`), never raises.
+- **CX5b** — token present but no `X_USER_ID` → clean "Partially authorized" status, **rc 0**.
+- **X4** (page cap silent) — a MAX_PAGES cap hit now prints a warning naming what was deferred.
+
+**⚠️ dispositioned / declined-with-reason**
+- **X5 (cost basis)** — the card now states the real driver (up to `PAGE_SIZE` reads per launch, not just new-bookmark count) and marks per-post-vs-per-request billing as a portal unknown; the $10/mo cap is the backstop. `PAGE_SIZE` lowered 100→50.
+- **Card flags 1–7** — all addressed in the setup card rewrite (who runs it / where, `.env` creation, start dir + which python, portal steps marked "as the portal appears — confirm", cost basis, a failure/troubleshooting section). Flag 1 (the false "start line" promise) is void under the exclusion-set model.
+
+**Two cx cases that now "FAIL" BY DESIGN** (they encoded the old, wrong floor semantics this fix removed — NOT regressions):
+- **CX1** asserted the numeric floor filters/sorts; the floor is retired, so `select_new` returns all-unseen in API order.
+- **CX2 "pilot_start_id non-numeric"** asserted a non-numeric `pilot_start_id` is corrupt; it is now an opaque ISO timestamp marker, so `"abc"`-shaped values are valid.
+Net on the reader's own file: **20 PASS / 2 FAIL (both by-design)**. Read-2 writes fresh counterexamples against this model.
