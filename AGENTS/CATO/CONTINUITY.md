@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated October 2, 2026.** [CHARTER](CHARTER.md) governs authority. Read this short resume point at startup; use the [task and approval index](TASK_INDEX.md) only for the current assignment. Saved approval is not a command to start unrelated work.
+**Updated October 3, 2026.** [CHARTER](CHARTER.md) governs authority. Read this short resume point at startup; use the [task and approval index](TASK_INDEX.md) only for the current assignment. Saved approval is not a command to start unrelated work.
 
 ## Resume point
+
+**October 3 Helm split review completed; await Will.** [Review and reproducible probes](runs/2026-10-03_1438_helm-split-review/README.md): ordinary rendering preserves all 79 selected records, cuts the main page approximately in half, and passes 16 tests in isolation. HS1: separate source reads can yield a missing supporting-record target while reporting OK. HS2: a recovered read failure restores the large page while reporting OK. Recommend one PROME-owned correction (shared input snapshot plus error propagation); no owner edits or sends authorized here. Hosted navigation and the fresh-session republish condition remain unverified, carried by L602. Broader consolidation/backlog assessment remains proposed, not assigned. Prior approvals below survive; orient and await Will rather than starting them.
 
 **October 2 directed forecast-pilot pass and authorized handoff completed; session closed, await Will.** [Continuing report](runs/2026-10-01_1105_forecast-pilot/README.md#october-2-directed-collection--annotated-probability): captured 5/20 through `60d41ee16`, one later row and one nonnumeric new row. All five reviewed, no outcomes or scores. CRUISE provisionally usable; CARL/RED specification, FALCON prospectivity/coverage and BRENT conditional-probability basis remain unresolved (FP1–FP4). Exact recorded interpretations resolved three collector format stops; 14 author tests pass, independent review pending. Will separately authorized the [PROME inbox handoff](../../PROME/inbox/2026-10-02_from-CATO_forecast-pilot-first-pass.md); no new owner work or forecast changes commissioned. No live doorbell tool available. Resume only when directed; review new candidates/due cases within the surviving cap, with effort in the pilot log.
 
