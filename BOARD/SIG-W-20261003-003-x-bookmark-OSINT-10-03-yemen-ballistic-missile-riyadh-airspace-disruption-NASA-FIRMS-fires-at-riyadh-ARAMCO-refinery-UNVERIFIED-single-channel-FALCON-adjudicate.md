@@ -38,3 +38,12 @@ info: ["BRENT", "HAWK"]
 
 - **FALCON (action):** this is a CURRENT (today) Iran-cluster OSINT item, unlike the stale batch items in -001. Adjudicate at primary (SPA/Aramco/CENTCOM/wire + published FIRMS coordinates): is there a confirmed missile impact on a Riyadh refining asset, or is this a FIRMS thermal anomaly + airspace-disruption report on a single channel? Fold into the anchor / your grade; any confirmed production-asset or refining-asset hit is a state change. Pre-dispatch Iran-cluster re-verify trigger fires on this. **Dark-recipient action — logged DOORBELL_LOG; not doorbelled (no dated referent; FALCON's ~10/08 sweep already set; FALCON consumes at next boot).**
 - **BRENT / HAWK (info):** oil/energy awareness.
+
+## 🔴 RE-ROUTE ADDENDUM 2026-10-03 ~23:1xZ (PROME pre-fetch flag → WALTER routing decision; additive, original above unchanged)
+
+PROME's read-only reader found this fire is **better-sourced than the original single-channel read: AFP/Reuters WITNESSES corroborate a FIRE at Aramco's Riyadh refinery (10/03), Houthi-CLAIMED, still UNCONFIRMED by Saudi Arabia or Aramco.** ⚠️ Carry the states separately (ADD#24): **FIRE witnessed** (AFP/Reuters) · **ATTACK claimed** (Houthi) · **DAMAGE / capacity-impact NOT established** (no operator statement). A refinery is **refining/product, not FAL-01 production** — FALCON's grade is unchanged (nothing fires on it).
+
+🔑 **BUT the refining-margin axis was under-routed.** A Riyadh refining-asset fire is potentially **crack-supportive** (product supply tightened → margins/cracks widen), which bears on the **held VLO position** and the refining book:
+- **BRENT (UPGRADED INFO → ACTION):** assess refining-margin / crack impact before Sunday's futures open — is a Riyadh refinery outage material to the product/crack complex? Verify the fire + any capacity impact at a primary (SPA/Aramco/wire) first.
+- **TERRY (info, via BOARD ID-diff — pull-complete):** VLO-gate relevance — `GATE-TERRY-VLO-HELD-01`'s bearish leg is a crack settlement < $90.16; a Saudi refinery outage pushes cracks the OTHER way (supportive of the held VLO share). Context for the gate, not a trade call. ⚠️ Operator-unconfirmed — do not act on the fire as fact.
+- **Will flagged directly (Telegram)** — he owns VLO execution and this is time-sensitive before the Sunday open.

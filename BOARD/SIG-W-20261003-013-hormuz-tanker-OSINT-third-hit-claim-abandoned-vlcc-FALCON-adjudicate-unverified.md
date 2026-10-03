@@ -37,3 +37,7 @@ Checked against `anchors/IRAN_WAR_GUARDS.md` (pre-dispatch, Iran-cluster):
 
 - **FALCON (action, theater owner):** adjudicate at **UKMTO / primary** — is there a 10/3 Hormuz hit beyond the logged 10/02 events, and is any vessel confirmed sunk/abandoned (vs under-way)? This bears on the GATE-2 ladder (a 4th confirmed sinking) and the anchor's transit state. **WALTER carries NONE of this as confirmed; it is a FALCON-verify item.**
 - **BRENT / RED (info, via BOARD):** transit-risk context (BRENT); adversarial watch (RED).
+
+## ✅ ADDENDUM 2026-10-03 ~23:1xZ (PROME read-only pre-fetch; additive)
+
+PROME's reader identified the vessel: **the "abandoned VLCC still burning" is KAZIMAH III, hit 10/01** (= the anchor's `-017` Kazimah III), NOT a new 10/03 event — so **`-013`'s "3rd tanker hit today" DATE IS OFF**; this re-reports the 10/01 hit (exactly the ADD#26 date-trap / unnamed-hull class this signal flagged). **Nothing new fires; losses stay 3.** No FALCON session needed tonight (PROME rec). The caveats on this signal held — it was correctly carried as UNVERIFIED and not as fact.

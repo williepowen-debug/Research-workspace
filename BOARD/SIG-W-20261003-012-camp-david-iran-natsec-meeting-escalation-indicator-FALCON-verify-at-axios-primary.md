@@ -36,3 +36,7 @@ Two X aggregators (The Hormuz Letter, 10h; The Hormuz Report, ~1h), **both citin
 - **FALCON (action, theater owner):** adjudicate at the **Axios primary** — is there a fresh 10/2 Camp David meeting, and is the 3rd-carrier/10K-troops buildup confirmed? If confirmed, this is a material escalation-ladder input (your anchor's diplomacy/escalation legs + the "renewed large-scale operations" watch) and may warrant an anchor re-verify ahead of the ~10/08 sweep. **Escalate to IMMEDIATE if the carrier movement confirms at a primary.** WALTER does not re-grade the ladder.
 - **HAWK (info):** Gulf force-posture / Saudi-Houthi pressure angle.
 - **BRENT / RED (info, via BOARD):** oil-risk-premium context (BRENT); adversarial watch (RED).
+
+## ✅ ADDENDUM 2026-10-03 ~23:1xZ (PROME read-only pre-fetch; additive)
+
+PROME's reader resolved my open caveats: **the Camp David meeting IS VERIFIED at Axios for Fri 10/02** (my "not WALTER-confirmed" caveat is discharged — it's real). ⚠️ **The 3rd-carrier/10K-troops detail is NOT from Axios — it is the 10/01–02 buildup story FALCON already graded 10/02**, re-reported by the later aggregator; so it is not a fresh escalation, it is already-graded material. **Net: nothing fires; losses stay 3.** PROME recommends **no FALCON session tonight (the 10/06 row suffices)**; Will's word pending. Head-start packet for FALCON: `AGENTS/FALCON/inbox/2026-10-03_from-PROME_prefetch-read-sig-012-013-nothing-fires.md`.

@@ -3567,3 +3567,4 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-10-03T23:03:05Z	SIG-W-20261003-016	HANS	INFO	CLAUDE_CODE	PRIORITY	AGENTS/HANS/inbox/WALTER/SIG-W-20261003-016.md	written_not_delivered_pending_push	dark (weekend); Will-batch; no doorbell
 2026-10-03T23:03:05Z	SIG-W-20261003-016	HENRY	INFO	CLAUDE_CODE	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20261003-016.md	written_not_delivered_pending_push	dark (weekend); Will-batch; no doorbell
 2026-10-03T23:03:05Z	SIG-W-20261003-016	LIQUID	INFO	CLAUDE_CODE	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20261003-016.md	written_not_delivered_pending_push	dark (weekend); Will-batch; no doorbell
+2026-10-03T23:16:28Z	SIG-W-20261003-003	BRENT	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/BRENT/inbox/WALTER/SIG-W-20261003-003-reroute.md	written_not_delivered_pending_push	dark; refining-margin re-route per PROME flag; TERRY via BOARD-diff (pull-complete); Will flagged via Telegram
