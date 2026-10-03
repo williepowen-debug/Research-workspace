@@ -23,7 +23,7 @@ The publisher refuses to republish a page the session has not VIEWED; a supporti
 2. **Overlap** — a row both OVERDUE and PENDING, both in the page and in the file (every row is): P1's set equality is the test. A page rendered in legacy mode and in split mode in the SAME process must not share mutable state — P5 renders both orders and compares.
 3. **Wrong owner** — rows that do not name PROME stay out of BOTH files; rows naming PROME inside another owner cell (`TERRY (PROME commissions)`) are in both: the one filter function serves both renders, P1 checks it.
 4. **Missing information** — an unparseable pending date raises as today (unchanged, tested already at L100 of the suite); the split adds the P6 case: when the rows cannot be built, the page must not link to an absent file.
-5. **Concurrent activity** — N/A: one process writes both files in sequence; the publisher receives both in one call. (The change-feed single-writer property is unchanged and already tested.)
+5. **Concurrent activity** — N/A: one process writes both files in sequence; the publisher receives both in one call. (The change-feed single-writer property is unchanged and already tested.) **⛔ WITHDRAWN — § EPISODE 2: this N/A reasoned about the two writes; the race was in the two READS (CATO C-1/C-2).**
 
 ## Not in scope (named so they are not silently claimed)
 
@@ -70,6 +70,15 @@ The page and its supporting file describe ONE state of the docket, and a run tha
 
 1. **Ordinary** — Q3, Q4. 2. **Overlap** — a snapshot that FAILS while a later read would SUCCEED (both states of the source in one run): Q2. 3. **Wrong owner** — the owner filter is inside the one snapshot function; Q1's drift double proves a row injected after the snapshot reaches neither output. 4. **Missing information** — rows absent ⇒ error retained, never a silent legacy page: Q2. 5. **Concurrent activity** — THE case: Q1 (a writer between two reads). No N/A this time.
 
-## Disposition (filled after the read)
+## Disposition — episode 2, FINAL (15:3x ET; one independent read, one ❌ fixed after it — that fix is TESTED by its own case, not independently verified)
 
-IMPLEMENTED: — · TESTED: — · INDEPENDENTLY VERIFIED: — · STILL UNRESOLVED: —
+**IMPLEMENTED** (`snapshot_work()` · `render(work=, work_error=)` · `render_docket_page(work=)` · `write_docket(out, work)` · `main()` snapshots once; after the read: the rows decide — `if work is None` / `work_error is not None`, and `str(exc) or type(exc).__name__`) · **TESTED** (9 tests in `test_helm_size_split.py` by `grep -c 'def test_'`, incl. the empty-message case; the episode-1 P6 test was EDITED to the new `write_docket(out, work)` signature and now also asserts the retained `docket` ALERT — so Q5's "six episode-1 tests stay green" holds with that one test changed, not untouched; `tests.test_desk_attention` green) · **INDEPENDENTLY VERIFIED: Q3 · Q4 · Q5, and Q1/Q2 for errors that carry a message** (fresh Opus reader, isolated copies via `git archive`, 12 own cases A–N re-running CATO's shapes; ledger scratchpad `reader2/ledger.md`, relayed in `memory/2026-10-03.md` § Addendum 5) · **STILL UNRESOLVED:** the empty-message hole the reader found (❌1) is fixed and tested but UNREVIEWED; P4 and hosted-link resolution carried from episode 1.
+
+**Scope precision (reader ⚠️1, accepted):** the property's "reads the docket ONCE" is true of `#prome-work` and `docket.html` — both from the one `pending_work()` snapshot; The clock (`will_brief.parse_dates`) is a SEPARATE read of `DOCKET.tsv` earlier in the same render and can show a different state; it links nothing into `docket.html`, so no link can dangle from it.
+
+### Declared residue (⚠️, unfixed — follow-up on DOCKET L602)
+
+- **⚠️2** an exception type outside `(OSError, ValueError)` from `pending_work` now crashes `main()` with no page written (HEAD's code produced rc 1 and a degraded page); unreachable with the real reader (`fromisoformat` → ValueError, `read_text` → OSError/UnicodeDecodeError), so a contract hole — `snapshot_work` should catch `Exception`.
+- **⚠️3** a stale `docket.html` from an earlier run survives a failed run while stdout says "no docket file" — episode-1 W2, still open; the step-11 guard holds.
+- **⚠️4** the Q1 test compares link and anchor SETS, so duplicate `line` values would pass; `line` comes from `enumerate` and is unique per file.
+- **⚠️5** when the supporting file's render itself fails (returns an error or raises) the run returns rc 1 with the error on the page — but the page is the ~426 KB legacy form; publishing past that REVIEW means a big page.

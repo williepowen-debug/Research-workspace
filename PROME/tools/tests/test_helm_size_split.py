@@ -81,11 +81,14 @@ class HelmSizeSplitTests(unittest.TestCase):
             self.assertEqual((doc, derrs), ('', ['DOCKET L9: unparseable pending date']))
         with tempfile.TemporaryDirectory() as td:
             out = Path(td) / 'handbook.html'
-            with patch.object(da, 'render_docket_page', lambda root, page_href: ('', ['boom'])):
-                self.assertIsNone(wh.write_docket(out))
+            wh.ALERTS.clear()
+            with patch.object(da, 'render_docket_page', lambda root, page_href, work=None: ('', ['boom'])):
+                self.assertIsNone(wh.write_docket(out, []))
             self.assertFalse((Path(td) / wh.DOCKET_FILE).exists())
-            with patch.object(da, 'render_docket_page', lambda root, page_href: ('<!doctype html>ok', [])):
-                self.assertEqual(wh.write_docket(out), wh.DOCKET_FILE)
+            self.assertTrue(any(label == 'docket' and 'boom' in reason for label, reason in wh.ALERTS), wh.ALERTS)
+            wh.ALERTS.clear()
+            with patch.object(da, 'render_docket_page', lambda root, page_href, work=None: ('<!doctype html>ok', [])):
+                self.assertEqual(wh.write_docket(out, []), wh.DOCKET_FILE)
             self.assertEqual((Path(td) / wh.DOCKET_FILE).read_text(), '<!doctype html>ok')
 
     def test_wrong_owner_rows_filtered_identically_in_both_renders(self):
@@ -95,6 +98,81 @@ class HelmSizeSplitTests(unittest.TestCase):
         doc, _ = da.render_docket_page(FIX)
         self.assertEqual(len(re.findall(r"href='docket\.html#L\d+'", page)), len(rows))
         self.assertEqual(len(re.findall(r"<details id='L\d+'>", doc)), len(rows))
+
+
+class HelmSnapshotTests(unittest.TestCase):
+    """Episode 2 (CATO C-1/C-2): one docket snapshot for both renders; a failed snapshot is retained."""
+
+    def setUp(self):
+        wh.ALERTS.clear()
+        self._real = da.pending_work
+
+    def tearDown(self):
+        da.pending_work = self._real
+        wh.ALERTS.clear()
+
+    def _run(self, td):
+        out = Path(td) / 'handbook.html'
+        with patch.object(sys, 'argv', ['will_handbook.py', '-o', str(out), '--no-feed']):
+            import io, contextlib
+            with contextlib.redirect_stdout(io.StringIO()):
+                rc = wh.main()
+        page = out.read_text(encoding='utf-8')
+        dk = Path(td) / wh.DOCKET_FILE
+        return rc, page, (dk.read_text(encoding='utf-8') if dk.exists() else None)
+
+    def test_q1_one_snapshot_so_a_row_appended_between_reads_reaches_neither_output(self):
+        real, calls = self._real, []
+        def drift(root=da.ROOT, today=None):
+            calls.append(1)
+            rows = real(root, today)
+            if len(calls) >= 2:   # a writer between two reads — the race CATO found
+                rows = rows + [dict(line=99999, due='2026-10-03', title='appended between reads', owner='PROME',
+                                    state='PENDING', evidence='', next='', timing='TODAY')]
+            return rows
+        da.pending_work = drift
+        with tempfile.TemporaryDirectory() as td:
+            rc, page, dk = self._run(td)
+        self.assertEqual(len(calls), 1, 'the docket must be read exactly once per render')
+        self.assertIsNotNone(dk)
+        links = {int(x) for x in re.findall(r"href='docket\.html#L(\d+)'", page)}
+        ids = {int(x) for x in re.findall(r"<details id='L(\d+)'>", dk)}
+        self.assertEqual(links, ids)
+        self.assertNotIn('L99999', page); self.assertNotIn("id='L99999'", dk)
+
+    def test_q2_a_failed_snapshot_is_retained_as_review_even_if_a_later_read_would_succeed(self):
+        real, calls = self._real, []
+        def flaky(root=da.ROOT, today=None):
+            calls.append(1)
+            if len(calls) == 1:
+                raise ValueError('DOCKET L9: unparseable pending date')
+            return real(root, today)
+        da.pending_work = flaky
+        with tempfile.TemporaryDirectory() as td:
+            rc, page, dk = self._run(td)
+        self.assertEqual(rc, 1, 'a failed snapshot must return REVIEW')
+        self.assertTrue(any(label == 'docket' and 'unparseable pending date' in reason for label, reason in wh.ALERTS), wh.ALERTS)
+        self.assertIsNone(dk, 'no supporting file on a failed snapshot')
+        self.assertNotIn("href='docket.html", page)
+        self.assertNotIn("<section id='prome-work'>", page)
+        self.assertIn('unparseable pending date', page, 'the page carries the error')
+        self.assertEqual(len(calls), 1, 'no second read may rescue the run')
+
+    def test_q2b_an_error_with_an_empty_message_is_still_a_failure(self):
+        for exc in (ValueError(), OSError()):
+            real, calls = self._real, []
+            def flaky(root=da.ROOT, today=None, exc=exc):
+                calls.append(1)
+                if len(calls) == 1:
+                    raise exc
+                return real(root, today)
+            da.pending_work = flaky; wh.ALERTS.clear()
+            with tempfile.TemporaryDirectory() as td:
+                rc, page, dk = self._run(td)
+            self.assertEqual(rc, 1, type(exc).__name__)
+            self.assertTrue(any(label == 'docket' and type(exc).__name__ in reason for label, reason in wh.ALERTS), wh.ALERTS)
+            self.assertIsNone(dk); self.assertNotIn("href='docket.html", page)
+            self.assertEqual(len(calls), 1, 'no second read may rescue the run')
 
 
 if __name__ == '__main__':

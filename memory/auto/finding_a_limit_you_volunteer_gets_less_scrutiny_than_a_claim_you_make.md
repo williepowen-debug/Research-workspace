@@ -36,3 +36,8 @@ That memory says a **flattering** account of your own work gets banked unverifie
 4. **As a reviewer:** a self-imposed limit or an accepted fault is the least-tested statement in the document. **Go there first.**
 
 Related: [[finding_a_charitable_reading_of_your_work_is_the_one_to_check]] · [[finding_correction_beside_an_instruction_leaves_two_live_instructions]] · [[finding_a_correction_pass_is_unreviewed_work]] · [[finding_verified_figures_do_not_verify_the_shape_claim]]
+
+## Instance (n+1) — 2026-10-03, PROME `prome-ed`: a justified N/A is a confession-shaped claim, and nobody tested it
+
+PROME's acceptance file for the Helm size split (`PROME/tools/tests/ACCEPTANCE_helm_size_split_2026-10-03.md`) dismissed the concurrency category with a justified N/A — *"one process writes both files in sequence; the publisher receives both in one call"*. Two independent readers and ARGUS read the file; none tested the N/A. CATO (212c022b9) did: the renderer READ the docket twice, and a row appended between the reads gave a page link with no record while the run reported OK. **The N/A reasoned about the two writes; the race was in the two reads.** A justified N/A reads as diligence ("I considered it and it does not apply") and so gets the confession's exemption from scrutiny. **Rule:** a justified N/A names the OPERATION it reasons about, and the reviewer tests THAT N/A first — it is the least-tested sentence in an acceptance file. (Repair: `snapshot_work()`, acceptance § EPISODE 2; `memory/2026-10-03.md` § Addendum 5.)
+

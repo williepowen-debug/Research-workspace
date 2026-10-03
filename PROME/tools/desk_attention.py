@@ -248,14 +248,25 @@ summary{cursor:pointer;font-weight:700}details p{color:var(--dim)}details p:firs
 </style></head><body>"""
 
 
-def render_docket_page(root=ROOT, page_href='./'):
+def snapshot_work(root=ROOT):
+    """ONE docket read for both renders (episode 2, CATO C-1/C-2). Returns (rows, None) or
+    (None, error): the caller renders page and file from the same rows, and a failed
+    snapshot is RETAINED as an error — a later successful read never converts it to OK."""
+    try:
+        return pending_work(root), None
+    except (OSError, ValueError) as exc:
+        return None, str(exc) or type(exc).__name__  # an empty message must still read as an error (reader-2 ❌1)
+
+
+def render_docket_page(root=ROOT, page_href='./', work=None):
     """The Helm's supporting file: the #prome-work rows with every cell whole, one row per
     line, each anchored id='L<line>'. Returns (document, errors); on a docket error the
-    document is empty and the caller must not link to it (acceptance P6)."""
-    try:
-        work = pending_work(root)
-    except (OSError, ValueError) as exc:
-        return '', [str(exc)]
+    document is empty and the caller must not link to it (acceptance P6). `work` = rows
+    from snapshot_work(); None reads the docket here (single-use callers only)."""
+    if work is None:
+        work, err = snapshot_work(root)
+        if err:
+            return '', [err]
     h = [DOCKET_DOC_HEAD,
          f"<h1>PROME work — overdue and next seven days</h1><p>Full docket records for the rows the Helm lists in brief: "
          f"{len(work)} rows, each cell verbatim from <code>PROME/DOCKET.tsv</code> as of the build that wrote this file. "
@@ -267,10 +278,11 @@ def render_docket_page(root=ROOT, page_href='./'):
     return '\n'.join(h), []
 
 
-def render(root=ROOT, docket_href=None):
+def render(root=ROOT, docket_href=None, work=None, work_error=None):
     """docket_href=None keeps the pre-split output byte-for-byte (every docket cell on
     the page). A relative href switches #prome-work to the compact form whose rows link
-    into the file render_docket_page() produces."""
+    into the file render_docket_page() produces. `work`/`work_error` carry the ONE
+    snapshot taken by snapshot_work(); both None ⇒ read the docket here (legacy)."""
     rows, errors = coverage(root)
     esc = html.escape
     h = ["<section id='broker-actions'><h2>Broker actions — approval, orders and fills</h2>"]
@@ -312,7 +324,10 @@ def render(root=ROOT, docket_href=None):
     except (OSError, ValueError) as exc:
         errors.append(str(exc))
     try:
-        work = pending_work(root)
+        if work_error is not None:
+            raise ValueError(work_error)  # the retained snapshot failure — same path as a failed read
+        if work is None:
+            work = pending_work(root)
         h.append(WORK_HEAD)
         if docket_href:
             # Size split (ACCEPTANCE_helm_size_split_2026-10-03): the page keeps one

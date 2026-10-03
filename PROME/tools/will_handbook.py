@@ -713,18 +713,20 @@ def render(sections, dec, chore, dates, brief_tab_html, board, attention_html=""
     return "\n".join(h)
 
 
-def write_docket(out):
+def write_docket(out, work):
     """Write the Helm's supporting file BEFORE the page, so a page never exists on disk
-    without the file it links to (ACCEPTANCE_helm_size_split_2026-10-03 P6). Returns the
-    relative href the page uses, or None when the rows could not be built — the page then
-    renders in its legacy form, carries the docket error itself, and links nothing."""
+    without the file it links to (ACCEPTANCE_helm_size_split_2026-10-03 P6), from the ONE
+    snapshot `work` (episode 2). Returns the relative href the page uses, or None with an
+    ALERT when the file could not be rendered — the page then renders in its legacy form
+    and links nothing."""
     try:
-        doc, errs = da.render_docket_page(ROOT, page_href=HELM_URL)
-    except Exception as e:  # never a dangling link; the attention leg re-raises the same error loudly
+        doc, errs = da.render_docket_page(ROOT, page_href=HELM_URL, work=work)
+    except Exception as e:  # never a dangling link
         alert("docket", f"render_docket_page raised: {e}")
         return None
     if errs:
-        return None  # da.render(ROOT) will surface the identical error through the attention alert
+        alert("docket", "; ".join(errs))
+        return None
     (out.parent / DOCKET_FILE).write_text(doc, encoding="utf-8")
     return DOCKET_FILE
 
@@ -783,9 +785,18 @@ def main():
                      f"{html.escape(str(e))}</div></div>")
 
     out = Path(a.out)
-    docket_href = write_docket(out)
+    # ONE docket read for both renders (episode 2, CATO C-1/C-2): a row appended between two
+    # reads can no longer give a link without a record, and a failed snapshot is RETAINED
+    # as REVIEW — the page falls back to its legacy form and says why, never a silent OK.
+    work, work_error = da.snapshot_work(ROOT)
+    if work is None:  # the rows decide, never the truthiness of the message (reader-2 ❌1)
+        alert("docket", f"docket snapshot failed — page in legacy form, no supporting file: {work_error}")
+        docket_href = None
+    else:
+        docket_href = write_docket(out, work)
     try:
-        attention_html, attention_errors = da.render(ROOT, docket_href=docket_href)
+        attention_html, attention_errors = da.render(ROOT, docket_href=docket_href,
+                                                     work=work, work_error=work_error)
         for error in attention_errors:
             alert("attention", error)
     except Exception as exc:
