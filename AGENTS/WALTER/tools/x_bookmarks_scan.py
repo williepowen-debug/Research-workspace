@@ -377,11 +377,15 @@ def do_authorize():
 
 
 # ============================================================================
-def main():
+def main(argv=None):
+    # argv defaults to sys.argv in normal use; tests pass an explicit list so a
+    # runner's own flags (python -m unittest <path>, pytest -v) never leak into the
+    # tool's parser and exit(2). (PROME-found 2026-10-03; acceptance A10 must hold
+    # regardless of how the suite is launched.)
     ap = argparse.ArgumentParser(description="Read Will's new X bookmarks for routing.")
     ap.add_argument("--authorize", action="store_true", help="one-time OAuth2 PKCE setup (Will's browser)")
     ap.add_argument("--mark", action="store_true", help="record listed bookmarks as consumed (AFTER routing)")
-    args = ap.parse_args()
+    args = ap.parse_args(argv)
 
     if args.authorize:
         return do_authorize()

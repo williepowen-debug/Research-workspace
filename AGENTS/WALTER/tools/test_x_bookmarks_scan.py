@@ -111,8 +111,11 @@ class PureLogic(unittest.TestCase):
         # empty .env (the isolated WALTER_X_ENV from module import) → clean status, rc 0
         Path(os.environ["WALTER_X_ENV"]).write_text("# empty\n", encoding="utf-8")
         buf = io.StringIO()
+        # Pass argv explicitly so the test runner's own flags (python -m unittest
+        # <path>, pytest -v) never leak into the tool's parser. main() now takes
+        # argv=None (PROME-found 2026-10-03; A10 must hold regardless of launcher).
         with redirect_stdout(buf):
-            rc = xbm.main()
+            rc = xbm.main([])
         self.assertEqual(rc, 0)
         self.assertIn("Not authorized", buf.getvalue())
 
