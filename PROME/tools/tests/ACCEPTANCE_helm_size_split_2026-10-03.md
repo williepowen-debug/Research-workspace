@@ -45,3 +45,31 @@ Reader's measured figures (its own pre-edit build from HEAD source, same sources
 - **W6** `-o` into a missing directory raises before either file is written (same class as before the edit; no dangling link).
 - **W7** the author's tests use the wall clock through `pending_work(FIX)`: the frozen fixture yields 0 rows at a frozen 2026-07-01 clock (P1/P5 would fail), 38 at 10-03, 44 at 2030 — monotone forward, so they pass from now on, but `today=` should be pinned.
 - **W8** anchors are physical DOCKET line numbers — stable under DOCKET canon (append-only, tombstone in place) and page + file come from ONE build and ONE publish; a page and file published apart would mis-anchor.
+
+---
+
+# EPISODE 2 — one docket snapshot for both renders; a docket read failure is retained (CATO C-1 / C-2)
+
+**Written 2026-10-03 15:22 EDT by PROME (`prome-ed`), BEFORE any code** (WQ-229). Driver: CATO's independent review (commit 212c022b9, `AGENTS/CATO/runs/2026-10-03_1438_helm-split-review/`), relayed by Will 15:13 ET; Will 15:21 ET *"Okay so should we do this now"* on PROME's recommendation to fix today — the session's SECOND process change, an overrun of the WQ-299 R1 ceiling, disclosed. At this stamp HEAD `6554386df`; `will_handbook.py` md5 `436862b2920a15d9f25133f9c837b3f3`; `desk_attention.py` md5 `8f0572cf4b8cd8f74e92b548fc9d6bff`. Both cases REPRODUCED by PROME at 15:1x against bece2cfba (patched `pending_work`: a row appended between the two reads → a page link with no record, rc 0, no alert; a first read raising and a second succeeding → the ~426 KB legacy page, rc 0, no alert).
+
+## The property, in its own terms
+
+The page and its supporting file describe ONE state of the docket, and a run that could not build that state says so. **Property: a real render reads the docket ONCE; both outputs are rendered from that one snapshot; if the snapshot cannot be taken, the page carries the error and links nothing, the file is not written, and the run returns REVIEW — a later successful read never converts the failure into an OK.** The episode-1 N/A for the concurrency category reasoned about the two WRITES; the race was in the two READS. That N/A is withdrawn here.
+
+## Conditions
+
+| # | Condition | How it is checked |
+|---|---|---|
+| Q1 | **One snapshot.** In split mode `pending_work` is called exactly ONCE per render; with a patched `pending_work` whose second call would return an extra row, the page's link set still equals the file's anchor set (no dangling link) and the extra row appears in NEITHER output. | test (call counter + drift double) |
+| Q2 | **Failure retained.** With a patched `pending_work` whose first call raises and later calls succeed: the run returns 1 (REVIEW) with a `docket` ALERT naming the error; the page is in legacy form with NO `docket.html` link and no `#prome-work` section, and carries the error; `docket.html` is not written. | test (flaky double; rc, ALERTS, page, file absence) |
+| Q3 | **Legacy byte-stable.** `desk_attention.render(root)` with no arguments equals the pre-edit capture `legacy_attention_ep2.html` (taken at this stamp on the live root) byte-for-byte, with the same errors. | script diff + the existing P5 test |
+| Q4 | **Same outputs for the same rows.** For an unchanged docket, the split page and the docket file are byte-identical to the episode-1 code's outputs apart from the build stamp (the fix changes WHEN rows are read, never what is rendered). | script diff on a `--no-feed` build, stamp normalised |
+| Q5 | **Nothing else moves.** The six episode-1 tests and `tests.test_desk_attention` stay green; the change-feed single-writer property is untouched (the fix lives before `da.render`, after the brief legs). | suites |
+
+## The five categories
+
+1. **Ordinary** — Q3, Q4. 2. **Overlap** — a snapshot that FAILS while a later read would SUCCEED (both states of the source in one run): Q2. 3. **Wrong owner** — the owner filter is inside the one snapshot function; Q1's drift double proves a row injected after the snapshot reaches neither output. 4. **Missing information** — rows absent ⇒ error retained, never a silent legacy page: Q2. 5. **Concurrent activity** — THE case: Q1 (a writer between two reads). No N/A this time.
+
+## Disposition (filled after the read)
+
+IMPLEMENTED: — · TESTED: — · INDEPENDENTLY VERIFIED: — · STILL UNRESOLVED: —
