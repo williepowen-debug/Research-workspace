@@ -68,8 +68,31 @@ Session: **2026-10-02 night → 10-03 Sat, Claude Opus 4.8 as WALTER (Telegram-d
 
 ## CLOSEOUT RECEIPT
 
-**Issued at the 10/03 Tier-2, before the closeout commit.**
-- **This session made NO BOARD dispatches and NO recipient handoffs** — so there is no delivery count to reconcile. The morning batch was triaged to Will (Telegram) only; formal fleet routing is OWED (GAPS, FOLLOW-UP #6).
-- **WQ-373 live-run evidence:** `/tmp/xauth.log` (authorize success, 287 seeded) — ephemeral; the durable record is `registry/x_bookmarks_seen.json` (287 IDs) + acceptance §8.
-- **Commits this session are LOCAL** (not pushed — PROME's working tree was dirty under ARGUS; nothing here was FLASH). Push rides PROME's train or the next clean session.
-- ⚠️ **This receipt does NOT claim:** that the morning-batch signals reached any desk's inbox; that L3/L4 of the bookmark tool work live; that these commits have reached origin.
+**Issued at the 10/03 Tier-2.**
+- **This session made NO BOARD dispatches and NO recipient handoffs** — no delivery count to reconcile. The morning batch was triaged to Will (Telegram) only; formal fleet routing is OWED (FOLLOW-UP #6).
+- **WQ-373 live-run evidence:** durable record is `registry/x_bookmarks_seen.json` (287 IDs) + acceptance §8 (the ephemeral authorize log was `/tmp/xauth.log`).
+- Publication state is in the receipt JSON below; `.env` is out of git; seen/pending files hold IDs only.
+- ⚠️ **This receipt does NOT claim:** that the morning-batch signals reached any desk's inbox, or that L3/L4 of the bookmark tool work live.
+
+<!-- CLOSEOUT_RECEIPT_JSON
+{
+  "schema": 1,
+  "as_of": "2026-10-03T16:54:07+00:00",
+  "publication": [
+    {"commit": "b4b997dae", "state": "pending"},
+    {"commit": "e8712d9a5", "state": "pending"}
+  ],
+  "delivery": {
+    "signal_date": "20261003",
+    "total": 0,
+    "delivered": 0
+  },
+  "owner_review": {
+    "scope": "manual evidence review; no automatic completion",
+    "evidence": [
+      {"path": "AGENTS/WALTER/registry/x_bookmarks_seen.json", "sha256": "51193a8029ec71f7933a7122b0543ea975b4fc6169639c5e88c0f7e455946fe8", "note": "WQ-373 live first-run proof: 287 existing bookmarks seeded as already-seen; authorize L1 + read L2 passed 2026-10-03 12:44 ET; IDs only, no post text."}
+    ]
+  },
+  "next_review": "2026-10-17"
+}
+END_CLOSEOUT_RECEIPT -->
