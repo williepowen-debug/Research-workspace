@@ -14,7 +14,10 @@ not a verified feasible promise. No original miss is erased or deadline moved he
 L530: reader measurement + owner remedy per rule15; literal every-path acceptance
 remains partial. L538: isolated external exemption accepted; unrelated file breaches
 stay visible and do not defeat its own acceptance. Canonical row wording needs PROME.
-Concrete handoff: design/2026-10-03_CATO_FOLLOWUP_HANDOFF_DRAFT.md (prepared, not sent).
+Handoff delivered/consumed: PROME/inbox/processed/2026-10-03_from-DAEDALUS_catchup-disposition-and-oct5-scope.md (38275130e); live doorbell sent.
+B1/B2 registered L604. L490/L530/L538 scope/acceptance disposition is October 5.
+New L603 candidate evaluation is October 12, scope-check October 5; no displacement
+of retained L490 tails/Helm, no adoption from unverified bookmarks.
 Disposition record: runs/2026-10-03_CATO_FOLLOWUP.md.
 
 --- ORIGINAL PLAN (historical proposal; detailed controls below remain operative) ---

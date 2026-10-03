@@ -1,5 +1,7 @@
 # CATO feedback disposition — October 3, 2026
 
+**CURRENT: handoff delivered and consumed by PROME (`38275130e`); live notification sent. B1/B2 tracked at L604. L490 dates and L530/L538 wording are explicitly deferred to the October 5 disposition checkpoint, not resolved.** Earlier prepared/pending-send states below are preserved chronology.
+
 Will relayed CATO's assessment (`AGENTS/CATO/runs/2026-10-03_1713_daedalus-catchup-review.md`, `3e356eaf5`). This follow-through prepares owner delivery and corrects the local execution order. It neither repeats the 204-check campaign nor executes the scorecard, Helm build or sweeps.
 
 | Finding | Disposition | Closure still needed |
@@ -28,3 +30,17 @@ The three replaced lines below are historical context, not current scheduling in
 ## Authorized delivery
 
 Will replied “Send the handoff and notify PROME”. The packet is now written at `PROME/inbox/2026-10-03_from-DAEDALUS_catchup-disposition-and-oct5-scope.md`; exact-path commit and live doorbell follow. Discovery identified PROME `prome-ed`, PID 575, session `e617878f-8a86-407f-9447-92b3017446b5`, cwd PROME, busy. Only this self-authored inbox packet is added to PROME; no owner code/registry edits. Earlier PREPARED/NOT SENT statements above describe pre-authorization state. Owner disposition remains pending.
+
+
+## Delivery and owner receipt verified
+
+- Packet committed as `eb6dac6cf`. Will authorized both delivery and notification. Live PROME was rediscovered immediately before send (prome-ed, PID 575, session e617878f-8a86-407f-9447-92b3017446b5).
+- Doorbell sent at **2026-10-03 21:42:32 UTC / 17:42:32 EDT**, priority `next` (non-interrupting), message id `d064e988-eea6-405c-ac43-ce0fe116bfde`. Payload names only the committed packet and requests artifact disposition; no substantive findings replaced by a message. Socket transport completed; no application acknowledgement returned. No automatic resend. Initial sandboxed discovery could not see PROME; approved host retry rediscovered and sent once. All independent review was complete before substantive contact.
+- Actual owner consumption is established separately by **PROME commit `38275130e`**, not by socket success: packet moved to `PROME/inbox/processed/2026-10-03_from-DAEDALUS_catchup-disposition-and-oct5-scope.md`, byte-identical to the sent artifact (SHA256 `9a52891fb773b2eaf8af7672dea8e1d6386a67f0b3cdda6e3a20b512337ffd95`). Read the committed DOCKET changes.
+- **DC1 delivery/owner-next-action leg COMPLETE:** L604 registers B1/B2, PROME code ownership, acceptance-before-edit, race test and independent result read; October 5 is the disposition checkpoint. Actual repair depends on PROME's process slot/WQ-379; neither defect is called repaired.
+- **DC2 OPEN:** L490 explicitly receipts landed builds and the missing render/later queue targets, preserves October 5, and defers final scope/date disposition to Monday. Local and coordinator records now agree that a decision is owed; execution-date agreement is not yet achieved.
+- **DC3 registrar disposition OPEN:** L490 places L530/L538 proposed replacement clauses on the same Monday checkpoint. Neither row was prematurely closed. L538 isolated technical acceptance stands; unrelated breaches remain reported. L530 literal acceptance stays partial.
+- Concurrent new **L603** registers WALTER's candidate-evaluation queue for October 12, scope-check October 5, explicitly subordinate to L490 retained tails/L594. DAEDALUS read the inbox packet and acknowledged the obligation; underlying talks/repos/report have not been evaluated and no adoption is approved. WQ-380 `.env` fence is Will/PROME's separate decision; no secret read or settings change performed.
+- Safe-push confirmed HEAD `a7e3c0d12` on fresh origin/master, carrying both handoff and owner receipt. Closeout `20261003T214252Z_closeout` rc 2 retains existing profile-clock UNKNOWN and explained ledger nudge; read-cap/complete-check/date/conservation legs clean. No new broad audit or fleet-clean claim.
+
+**Final publication check:** gate `20261003T214958Z_verify` found the handoff subject on fresh origin (V1 CLEAN) but V2 returned UNKNOWN for its old inbox path, because PROME had already moved the packet to processed. The preceding sandbox fetch failure is retained as `20261003T214458Z_verify`; no verdict rewritten. Supplemental path-aware check PASS: `eb6dac6cf` is an ancestor of fresh origin; six own paths match committed HEAD/origin; original seventh packet bytes match the processed destination in both HEAD and origin. This explicitly verifies the owner move instead of weakening the checker. Final docket acknowledgement is 45/45 (L603/L604 added), zero uncited. Documentation-only validation passes; unchanged profile-clock debt remains outside this follow-through.
