@@ -10,12 +10,12 @@
   "War theaters + Europe + Russia + housing": "crit"
  },
  "docket": {
-  "2026-10-03": "\ud83d\udfe0 **CRU-09 GRADES BY 2026-10-03 23:59 ET",
   "2026-10-04": "OPEC+ monthly meeting of the seven participating countries",
   "2026-10-05": "FORUM-6 WITHDRAWAL CHECKPOINT (binding on the verdict): grade legs a/b/d\u2026",
   "2026-10-06": "Delegation-tier falsifier grades: ONE Will-reversal of any self-ruling wi\u2026",
   "2026-10-07": "\ud83d\udd34 **A CAPPED SURFACE WHOSE PERMANENT FLOOR EXCEEDS THE STOP",
-  "2026-10-08": "\ud83d\udfe0 **FLOAT-TIE CLASS IN `FORGE/tools/market-data/config.py::classify`"
+  "2026-10-08": "\ud83d\udfe0 **FLOAT-TIE CLASS IN `FORGE/tools/market-data/config.py::classify`",
+  "2026-10-09": "DEFERRAL (Forum-4 N11-ii, Will-ruled 8/11): multi-desk LEAD-LAG STUDY, co\u2026"
  },
  "gates": {
   "GATE-BRENT-COT-35B": "LIVE",
