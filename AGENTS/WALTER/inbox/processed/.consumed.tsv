@@ -190,3 +190,4 @@ BOND-SIG-008-ANSWERED	2026-09-14T18:51:40Z	WALTER	consumed	BOND answered SIG-W-2
 2026-10-03	2026-10-03_from-PROME_WQ-373-counterexamples-2_cx2_x_bookmarks.py	WALTER	Read-2 cx ran: 15 PASS / 4 FAIL (all 4 dispositioned §7).
 2026-10-03	2026-10-03_from-PROME_WQ-373-independent-read-NOT-MET.md	WALTER	Read 1 NOT MET (X1/X2/X3/A8); all fixed, suite 20/2. Commit 0fe87931c; dispositions acceptance §6.
 2026-10-03	2026-10-03_from-PROME_WQ-373-RULED-x-bookmarks-pilot-phase-1.md	WALTER	Built Phase 1 per ruling; WQ-229 3-read cycle + live first-run PASSED; WORKING. Commits 85db49c1e..e8712d9a5. 287 seeded, $0 of Will money.
+2026-10-03	2026-10-02_from-PROME_WQ-237-REGISTRY-YEYOU-row-retired.md	WALTER	YEYOU row (REGISTRY line 17) flipped GREEN->RETIRED 2026-09-05, dropped from live reviewer funnel per WQ-237.
