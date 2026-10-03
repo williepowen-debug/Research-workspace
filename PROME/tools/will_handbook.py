@@ -43,6 +43,8 @@ ROOT = Path(__file__).resolve().parents[2]
 HANDBOOK = ROOT / "PROME" / "HANDBOOK.md"
 FLEETOPS_URL = "https://claude.ai/code/artifact/c884f088-4936-44a0-9232-30851b9427b6"
 DECK_URL = "https://claude.ai/code/artifact/16655022-6e00-4cea-9916-7cb0ff304bca"  # Decision Deck (WQ-202) — private, never shared
+HELM_URL = "https://claude.ai/code/artifact/ee088d08-bf26-48ab-bad2-7ee9155da12a"  # this page, hosted — the docket file links back to it
+DOCKET_FILE = "docket.html"  # supporting file published beside the page (Artifact `files`); the page links it relatively
 
 ALERTS = []  # (leg, reason) — the verdict keys on this count
 
@@ -117,7 +119,7 @@ def render_body(body):
             flush()
         i += 1
     flush()
-    return "".join(out)
+    return "\n".join(out)  # one block per line — a 54 KB single line defeats any reader (10/3 split)
 
 
 # ---------- page ---------------------------------------------------------------
@@ -711,6 +713,22 @@ def render(sections, dec, chore, dates, brief_tab_html, board, attention_html=""
     return "\n".join(h)
 
 
+def write_docket(out):
+    """Write the Helm's supporting file BEFORE the page, so a page never exists on disk
+    without the file it links to (ACCEPTANCE_helm_size_split_2026-10-03 P6). Returns the
+    relative href the page uses, or None when the rows could not be built — the page then
+    renders in its legacy form, carries the docket error itself, and links nothing."""
+    try:
+        doc, errs = da.render_docket_page(ROOT, page_href=HELM_URL)
+    except Exception as e:  # never a dangling link; the attention leg re-raises the same error loudly
+        alert("docket", f"render_docket_page raised: {e}")
+        return None
+    if errs:
+        return None  # da.render(ROOT) will surface the identical error through the attention alert
+    (out.parent / DOCKET_FILE).write_text(doc, encoding="utf-8")
+    return DOCKET_FILE
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("-o", "--out", required=True)
@@ -764,20 +782,23 @@ def main():
                      "<div class='degraded'>brief tab failed to build — "
                      f"{html.escape(str(e))}</div></div>")
 
+    out = Path(a.out)
+    docket_href = write_docket(out)
     try:
-        attention_html, attention_errors = da.render(ROOT)
+        attention_html, attention_errors = da.render(ROOT, docket_href=docket_href)
         for error in attention_errors:
             alert("attention", error)
     except Exception as exc:
         alert("attention", str(exc))
         attention_html = "<div class='degraded'>Attention data unavailable — no all-clear.</div>"
-    out = Path(a.out)
     out.write_text(render(sections, dec, chore, dates, brief_tab, board, attention_html), encoding="utf-8")
+    dk = out.parent / DOCKET_FILE
+    dk_note = f" + {dk.name} ({dk.stat().st_size}B)" if docket_href else " (no docket file — page in legacy form)"
     n = len(ALERTS)
     if n:
-        print(f"handbook: REVIEW — {n} ⚠️  ({'; '.join(l for l, _ in ALERTS)}) · wrote {out} ({out.stat().st_size}B)")
+        print(f"handbook: REVIEW — {n} ⚠️  ({'; '.join(l for l, _ in ALERTS)}) · wrote {out} ({out.stat().st_size}B){dk_note}")
         return 1
-    print(f"handbook: OK · wrote {out} ({out.stat().st_size}B) · "
+    print(f"handbook: OK · wrote {out} ({out.stat().st_size}B){dk_note} · "
           f"{len(sections)} manual sections · {len(dec)} decisions · {len(dates)} clock rows")
     return 0
 

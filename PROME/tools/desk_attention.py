@@ -201,7 +201,76 @@ def confirmed_receipts(root=ROOT):
     return receipts
 
 
-def render(root=ROOT):
+# ---------- #prome-work rows: one source of markup for the page and the supporting file ----------
+_esc = html.escape
+WORK_HEAD = ("<section id='prome-work'><h2>PROME work — overdue and next seven days</h2><p>Generated from the docket. "
+             "Pending means not reconciled here; owner delivery may already exist. Items involving Will are identified "
+             "by their recorded owner, with current approvals in Waiting on you.</p>")
+
+
+def _work_summary(r):
+    return _esc(r['timing'] + ' · ' + r['due'] + ' · L' + str(r['line']) + ' · ' + r['title'].split('—')[0])
+
+
+def _work_row_full(r, anchor=False):
+    """The pre-split row, every cell whole. anchor=True adds id='L<line>' for deep links."""
+    tag = f"<details id='L{r['line']}'>" if anchor else "<details>"
+    return (f"{tag}<summary>{_work_summary(r)}</summary><p>Owner: {_esc(r['owner'])}</p><p>{_esc(r['title'])}</p>"
+            f"<p>Recorded state: {_esc(r['state'])}</p><p>Next action / completion terms: {_esc(r['next'])}</p>"
+            f"<p>Evidence required: {_esc(r['evidence'])}</p>{link('PROME/DOCKET.tsv', 'Docket record')}</details>")
+
+
+def _work_row_compact(r, docket_href):
+    short = r['title'].split('—')[0].strip()
+    if len(short) > 140:
+        short = short[:139] + '…'
+    return (f"<div class='chore'><span><b>{_esc(r['timing'])}</b> · {_esc(r['due'])} · L{r['line']} · {_esc(r['owner'])} — "
+            f"{_esc(short)}</span><span class='w'><a href='{_esc(docket_href)}#L{r['line']}'>record</a></span></div>")
+
+
+def _work_count_line(work, docket_href):
+    n = {k: sum(1 for r in work if r['timing'] == k) for k in ('OVERDUE', 'TODAY', 'UPCOMING')}
+    return (f"<p class='hint'>{len(work)} rows · {n['OVERDUE']} overdue · {n['TODAY']} today · {n['UPCOMING']} upcoming · "
+            f"every cell of every row, verbatim, in <a href='{_esc(docket_href)}'>the docket page</a> (opens beside this one).</p>")
+
+
+DOCKET_DOC_HEAD = """<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Helm docket records</title>
+<style>
+:root{--ground:#EFEDE6;--panel:#F8F6EF;--line:#D6D2C2;--ink:#23271F;--dim:#5E6355;--accent:#3E6B4E}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ground:#12160E;--panel:#1A1F15;--line:#2C3226;--ink:#E4E7DE;--dim:#9CA394;--accent:#85BC93}}
+:root[data-theme="dark"]{--ground:#12160E;--panel:#1A1F15;--line:#2C3226;--ink:#E4E7DE;--dim:#9CA394;--accent:#85BC93}
+body{margin:0 auto;max-width:60rem;padding:24px 16px;background:var(--ground);color:var(--ink);font:15px/1.5 Georgia,'Iowan Old Style',serif}
+h1{font-size:1.3rem;margin:0 0 .5rem}p{margin:.4rem 0}a{color:var(--accent)}code{font-family:ui-monospace,Menlo,monospace;font-size:.9em}
+details{border:1px solid var(--line);background:var(--panel);border-radius:6px;padding:8px 12px;margin:8px 0;overflow-wrap:anywhere}
+summary{cursor:pointer;font-weight:700}details p{color:var(--dim)}details p:first-of-type{color:var(--ink)}
+</style></head><body>"""
+
+
+def render_docket_page(root=ROOT, page_href='./'):
+    """The Helm's supporting file: the #prome-work rows with every cell whole, one row per
+    line, each anchored id='L<line>'. Returns (document, errors); on a docket error the
+    document is empty and the caller must not link to it (acceptance P6)."""
+    try:
+        work = pending_work(root)
+    except (OSError, ValueError) as exc:
+        return '', [str(exc)]
+    h = [DOCKET_DOC_HEAD,
+         f"<h1>PROME work — overdue and next seven days</h1><p>Full docket records for the rows the Helm lists in brief: "
+         f"{len(work)} rows, each cell verbatim from <code>PROME/DOCKET.tsv</code> as of the build that wrote this file. "
+         f"<a href='{_esc(page_href)}'>← Back to the Helm</a></p>"]
+    for r in work:
+        # cells verbatim; a newline between cells keeps every line under a reader's page (P3)
+        h.append(_work_row_full(r, anchor=True).replace('</p><p>', '</p>\n<p>'))
+    h.append("</body></html>")
+    return '\n'.join(h), []
+
+
+def render(root=ROOT, docket_href=None):
+    """docket_href=None keeps the pre-split output byte-for-byte (every docket cell on
+    the page). A relative href switches #prome-work to the compact form whose rows link
+    into the file render_docket_page() produces."""
     rows, errors = coverage(root)
     esc = html.escape
     h = ["<section id='broker-actions'><h2>Broker actions — approval, orders and fills</h2>"]
@@ -244,9 +313,16 @@ def render(root=ROOT):
         errors.append(str(exc))
     try:
         work = pending_work(root)
-        h.append("<section id='prome-work'><h2>PROME work — overdue and next seven days</h2><p>Generated from the docket. Pending means not reconciled here; owner delivery may already exist. Items involving Will are identified by their recorded owner, with current approvals in Waiting on you.</p>")
-        for r in work:
-            h.append(f"<details><summary>{esc(r['timing']+' · '+r['due']+' · L'+str(r['line'])+' · '+r['title'].split('—')[0])}</summary><p>Owner: {esc(r['owner'])}</p><p>{esc(r['title'])}</p><p>Recorded state: {esc(r['state'])}</p><p>Next action / completion terms: {esc(r['next'])}</p><p>Evidence required: {esc(r['evidence'])}</p>{link('PROME/DOCKET.tsv', 'Docket record')}</details>")
+        h.append(WORK_HEAD)
+        if docket_href:
+            # Size split (ACCEPTANCE_helm_size_split_2026-10-03): the page keeps one
+            # identifying line per row; every cell lives whole in the supporting file.
+            h.append(_work_count_line(work, docket_href))
+            for r in work:
+                h.append(_work_row_compact(r, docket_href))
+        else:
+            for r in work:
+                h.append(_work_row_full(r))
         h.append('</section>')
     except (OSError, ValueError) as exc:
         errors.append(str(exc))

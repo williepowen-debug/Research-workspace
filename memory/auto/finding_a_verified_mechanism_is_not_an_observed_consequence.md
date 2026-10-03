@@ -9,7 +9,7 @@ metadata:
 
 **Verifying a MECHANISM is not observing a CONSEQUENCE.** You read the code, reproduce the bad value, confirm the logic — all correct — and then write the sentence one step further than the evidence goes: *"so it has been publishing a wrong level"*, *"so it authorises a spawn that wasn't needed"*. **The mechanism claim is true and the consequence claim is unverified.**
 
-**n=4 (PROME, 2026-09-21/22 ×3 + 2026-09-23 ×1) — the first three caught by reviewers, the fourth by PROME's own propagation sweep; never at the moment of writing:**
+**n=5 (PROME, 2026-09-21/22 ×3 + 2026-09-23 ×1 + 2026-10-03 ×1, the last below) — the first three caught by reviewers, the fourth by PROME's own propagation sweep; never at the moment of writing:**
 
 | claimed | actually |
 |---|---|
@@ -30,3 +30,8 @@ metadata:
 - The author is the worst detector of this: the charitable reading of your own catch is that it matters. `[[finding_a_charitable_reading_of_your_work_is_the_one_to_check]]`
 
 Related: [[finding_output_shape_implies_more_than_the_measurement]], [[finding_verified_figures_do_not_verify_the_shape_claim]], [[finding_record_of_an_action_is_not_the_action]], [[finding_asymmetric_rigor_counterparty_claims]], [[finding_gate_pass_is_not_evidence_it_found_the_best_reason]].
+
+## Instance (n+1) — 2026-10-03 14:0x ET, PROME `prome-ed`: a tab's SECTION COUNT is not its bytes
+
+PROME wrote a build spec for DAEDALUS saying the Helm's **manual tab** (ten hand-written sections) should move to a supporting file to shrink a 420 KB page — reasoning from the page's STRUCTURE, no measurement. Will asked *"Its not something you could fix easilly yourself?"*; PROME measured before answering: the manual tab was **10,325 B**; the desk tab's `#prome-work` section was **242,829 B** (77 docket rows with every cell whole) and one block was 54,878 B on a single line. The spec was superseded the same hour. **Tell:** a size claim about a page that names a SECTION and no byte figure from an instrument. **Rule:** before naming what to move, measure each section (`python3 - <<'PY' … find the tab markers, len(.encode()) per span PY`) — a page's weight sits where the GENERATED rows are, rarely where the hand-written prose is. (Record: `PROME/tools/tests/ACCEPTANCE_helm_size_split_2026-10-03.md`; `memory/2026-10-03.md` § Addendum 4.)
+

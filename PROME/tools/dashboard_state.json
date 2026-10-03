@@ -1,6 +1,6 @@
 {
  "attention_errors": [],
- "built": "2026-10-03 13:22",
+ "built": "2026-10-03 14:19",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -54,7 +54,9 @@
   "2026-10-09 DEFERRAL (Forum-4 N11-ii, Will-ruled 8/11): multi-desk LEAD-",
   "2026-10-09 DEFERRAL (Forum-4 N13, Will-ruled 8/11): PROVENANCE TOKENS, ",
   "2026-10-09 FDIC POSTS THE NANO BANC PURCHASE-AND-ASSUMPTION AGREEMENT (",
+  "2026-10-09 Helm size split \u2014 declared residue from the 10/3 independent",
   "2026-10-09 NEXUS PRED-50 / L14 FIRST GRADE \u2014 the WQ-340 CANDIDATE-secon",
+  "2026-10-09 PROME tool suite: tests/test_heartbeat_projection.py::test_m",
   "2026-10-09 RECEIVER-SIDE CANARY for every routing path (Will 9/25 14:08",
   "2026-10-09 ROOT OUTPUT CANON operator-surface clause \u2014 TWO WORDING DEFE",
   "2026-10-09 UNATTENDED-INSTRUMENT REGISTER (Will 9/25 \"proceed in order\"",
