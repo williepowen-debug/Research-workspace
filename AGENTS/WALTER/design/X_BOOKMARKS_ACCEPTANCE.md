@@ -76,3 +76,26 @@ Reader verdict NOT MET (❌4 · ⚠️12 · ✅5) on `0b90fae4d`. Disposition on
 - **CX1** asserted the numeric floor filters/sorts; the floor is retired, so `select_new` returns all-unseen in API order.
 - **CX2 "pilot_start_id non-numeric"** asserted a non-numeric `pilot_start_id` is corrupt; it is now an opaque ISO timestamp marker, so `"abc"`-shaped values are valid.
 Net on the reader's own file: **20 PASS / 2 FAIL (both by-design)**. Read-2 writes fresh counterexamples against this model.
+
+## 7. Coldread read-2 dispositions (2026-10-03 — ❌2 / ⚠️13; read-1's four ❌ confirmed CLOSED)
+Read-2 verdict NOT MET on `0fe87931c`. Disposition on the next fix commit:
+
+**❌ fixed**
+- **X6 (re-authorize consumed un-routed bookmarks)** — FIXED. The seed now runs ONLY on the first `--authorize` (no seen-file yet); a re-authorize refreshes tokens and touches neither `consumed` nor the stage. The refresh-failure message says so. cx2 **CX-B PASS**.
+- **X5 (cost basis contradicted by the paging code)** — FIXED as an honesty fix: the card and §6 now state the real basis (newest-first until an all-seen page → **1–2 pages / up to ~100 posts on a normal launch, up to ~500 max**, plus a one-time seed read). The safe all-seen-page stop is kept (stopping at the first seen ID would drop a new bookmark sitting below a re-bookmarked one).
+
+**⚠️ fixed**
+- **A5 residual** — `load_seen`/`save_seen` now reject a `consumed` that isn't a list of scalars (CX-I1 PASS); `fetch_new_bookmarks` str-coerces seen ids so hand-edited int ids match the paging stop (CX-I2 mechanism fixed).
+- **A8 residual** — test mode now REFUSES a partial or relative config instead of deriving onto a live file (CX-F/CX-F2 PASS); a new test asserts the live seen-file is byte-untouched during a test-mode write. "API input isolated": in test mode the `.env` is isolated → no real token → the network is never reached; documented here.
+- **X9 (seed cap silent)** — the first-authorize seed now warns when the account exceeds `MAX_PAGES×PAGE_SIZE` (CX-A2 PASS).
+- **X10 (idless item re-fires forever)** — an id-less item gets a stable `noid:<hash>` dedup key, so once routed and marked it stops re-firing (CX-J PASS).
+- **X11 (inner-element guard)** — `save_seen` rejects a non-scalar element (an inner dict with text), explicit raise.
+- **X12 (BOM `.env`)** — `load_env`/`rewrite_env` read with `utf-8-sig` (CX-H2 PASS).
+- **Card flags 1, 2, 5, 6, 7** — fixed in the card: re-bookmark limit stated (1), refresh-failure is now safe + documented (2), portal banner marks facts "confirm on screen" (5), WSL2 localhost reachability called out as the one untested-live step (6), review clock tied to first successful scan not a fixed date (7).
+
+**⚠️ dispositioned / declined-with-reason (recorded, not silently dropped)**
+- **X7 stale stage (CX-D)** — MITIGATED, not fully enforced. The report run and `--mark` are **separate OS processes** by protocol (run tool → route → run `--mark`), so "a `--mark` with no report run in *this session*" cannot be detected by process identity. Mitigations: the stage carries a timestamp and `--mark` **refuses a stage >24h old** and **prints exactly which ids it is consuming**; and a crash between report and mark self-heals — the un-routed items are still unseen, so the next report run re-surfaces and re-stages them (CX-D2 PASS). CX-D runs `--mark` seconds after the stage, so it is consumed (by design); the residual risk is an out-of-protocol blind `--mark`, now loud and bounded.
+- **X8 re-bookmark invisible (CX-C)** — DOCUMENTED LIMIT (reader concurred). A post already in the seen-set won't re-surface if re-bookmarked; stated in the card ("send it by Telegram"). Changing this needs bookmark-event timestamps the endpoint doesn't give.
+- **CX-I2 `api.calls==1`** — the int-coercion defect is fixed; the specific `==1` assertion isn't reachable for its fixture (598 genuinely-unseen bookmarks legitimately require paging, and the resulting cap warning is correct, not false).
+
+Net on read-2's file: **15 PASS / 4 FAIL** (CX-C, CX-D, CX-E, CX-I2 — all dispositioned above). Read-1's file still **20 PASS / 2 FAIL** (unchanged by-design pair). A final read closes the episode; "working" still also needs the live first-run (L1–L2).

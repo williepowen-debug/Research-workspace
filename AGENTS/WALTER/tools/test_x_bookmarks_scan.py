@@ -85,6 +85,14 @@ class PureLogic(unittest.TestCase):
             xbm.load_seen(p)
         self.assertIn("REFUSING", str(cm.exception.code))
 
+    def test_nested_list_consumed_refuses(self):
+        # CX-I1: {"consumed": [["1"]]} passed the old shape check then crashed --mark
+        p = self.tmp("seen.json")
+        Path(p).write_text('{"consumed": [["1"]]}', encoding="utf-8")
+        with self.assertRaises(SystemExit) as cm:
+            xbm.load_seen(p)
+        self.assertIn("REFUSING", str(cm.exception.code))
+
     def test_missing_seen_is_empty_not_error(self):
         d = xbm.load_seen(self.tmp("nope.json"))
         self.assertEqual(d["consumed"], [])
@@ -108,6 +116,11 @@ class PureLogic(unittest.TestCase):
         Path(p).write_text('X_CLIENT_ID="abc"\n')
         self.assertEqual(xbm.load_env(p)["X_CLIENT_ID"], "abc")   # CX3d
 
+    def test_load_env_tolerates_bom(self):
+        p = self.tmp(".env")
+        Path(p).write_bytes("﻿X_CLIENT_ID=cid\n".encode("utf-8"))   # CX-H2
+        self.assertEqual(xbm.load_env(p).get("X_CLIENT_ID"), "cid")
+
     # A7 --------------------------------------------------------------------
     def test_save_seen_ids_only_rejects_stray_key(self):
         p = self.tmp("seen.json")
@@ -117,6 +130,20 @@ class PureLogic(unittest.TestCase):
         self.assertIn("111", raw)
         with self.assertRaises(ValueError):             # explicit, survives python -O (not an assert)
             xbm.save_seen({"consumed": [], "pilot_start_id": None, "text": "leak"}, p)
+
+    def test_save_seen_rejects_nested_element(self):
+        # X11: an inner dict with text must NOT be writable into consumed
+        p = self.tmp("seen.json")
+        with self.assertRaises(ValueError):
+            xbm.save_seen({"consumed": [{"id": "1", "text": "LEAK"}], "pilot_start_id": None}, p)
+
+    def test_idless_dedup_key_stable_and_consumable(self):
+        # X10: an id-less item gets a stable content key, so it stops re-firing once marked
+        a = xbm.parse_bookmark({"text": "no id", "author_id": "a1"}, {})
+        b = xbm.parse_bookmark({"text": "no id", "author_id": "a1"}, {})
+        self.assertEqual(a["dedup_key"], b["dedup_key"])
+        self.assertTrue(a["dedup_key"].startswith("noid:"))
+        self.assertEqual(xbm.select_new([a], seen_ids=[a["dedup_key"]]), [])
 
     # A9 --------------------------------------------------------------------
     def test_boot_line_shape(self):
@@ -142,26 +169,38 @@ class PureLogic(unittest.TestCase):
 
 
 class Isolation(unittest.TestCase):
-    # A8 — setting only ONE test var must STILL isolate the other (never live) ----
-    def test_partial_env_still_isolates_seen(self):
-        tmp = tempfile.mkdtemp(prefix="xbm_iso_")
+    # A8 (read-2 CX-F/F2) — a PARTIAL or RELATIVE test config must REFUSE, never fall back
+    # to a live file under a TEST MODE banner. And the live file must stay untouched.
+    def _run_tool(self, env_overrides, cwd=None):
         env = {k: v for k, v in os.environ.items() if k not in ("WALTER_X_ENV", "WALTER_X_SEEN")}
-        env["WALTER_X_ENV"] = str(Path(tmp) / ".env")
-        code = (f"import importlib.util as u;s=u.spec_from_file_location('m',{TOOL!r});"
-                "m=u.module_from_spec(s);s.loader.exec_module(m);print(m.SEEN)")
-        out = subprocess.run([PY, "-c", code], env=env, capture_output=True, text=True).stdout.strip()
-        self.assertNotIn("registry/x_bookmarks_seen.json", out)   # live file NOT in use
-        self.assertTrue(out.startswith(tmp))                      # isolated beside the set var
+        env.update(env_overrides)
+        return subprocess.run([PY, TOOL], env=env, cwd=cwd, capture_output=True, text=True)
 
-    def test_partial_seen_still_isolates_env(self):
+    def test_partial_config_refuses(self):
         tmp = tempfile.mkdtemp(prefix="xbm_iso_")
-        env = {k: v for k, v in os.environ.items() if k not in ("WALTER_X_ENV", "WALTER_X_SEEN")}
-        env["WALTER_X_SEEN"] = str(Path(tmp) / "seen.json")
-        code = (f"import importlib.util as u;s=u.spec_from_file_location('m',{TOOL!r});"
-                "m=u.module_from_spec(s);s.loader.exec_module(m);print(m.ENV_PATH)")
-        out = subprocess.run([PY, "-c", code], env=env, capture_output=True, text=True).stdout.strip()
-        self.assertNotIn("AGENTS/WALTER/.env", out)
-        self.assertTrue(out.startswith(tmp))
+        r = self._run_tool({"WALTER_X_ENV": str(Path(tmp) / ".env")})   # only one var
+        self.assertNotEqual(r.returncode, 0)
+        self.assertIn("REFUSING", r.stdout + r.stderr)
+
+    def test_relative_test_path_refuses(self):
+        r = self._run_tool({"WALTER_X_ENV": "a.env", "WALTER_X_SEEN": "b.json"},
+                           cwd=str(Path(__file__).resolve().parent.parent))   # cwd = AGENTS/WALTER
+        self.assertNotEqual(r.returncode, 0)
+        self.assertIn("REFUSING", r.stdout + r.stderr)
+
+    def test_empty_var_refuses_not_traceback(self):
+        r = self._run_tool({"WALTER_X_ENV": ""})   # CX-F2: empty var
+        self.assertIn("REFUSING", r.stdout + r.stderr)
+        self.assertNotIn("Traceback", r.stderr)
+
+    def test_live_seen_file_untouched_in_test_mode(self):
+        # the letter of acceptance L29: a test-mode write never touches the live seen-file
+        live = Path(__file__).resolve().parent.parent / "registry" / "x_bookmarks_seen.json"
+        before = live.read_bytes() if live.exists() else None
+        xbm.save_seen({"consumed": ["x"], "pilot_start_id": None})   # module SEEN is the test tmp
+        after = live.read_bytes() if live.exists() else None
+        self.assertEqual(before, after)
+        self.assertNotIn("registry/x_bookmarks_seen.json", str(xbm.SEEN))
 
 
 class MarkFlow(unittest.TestCase):

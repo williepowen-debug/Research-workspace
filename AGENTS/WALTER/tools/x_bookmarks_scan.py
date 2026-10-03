@@ -8,35 +8,36 @@ Setup card:  AGENTS/WALTER/design/X_BOOKMARKS_SETUP_CARD.md
 
 WHAT THIS IS
 ------------
-Will bookmarks a post on X instead of screenshotting it. At a WALTER launch this
-tool reads his bookmarks, drops the ones already consumed, and prints each NEW one
-for routing (filter -> BOARD -> handoff -> delivery_log, tagged `source: x-bookmark`).
+Will bookmarks a post on X instead of screenshotting it. At a WALTER launch this tool
+reads his bookmarks, drops the ones already consumed, and prints each NEW one for
+routing (filter -> BOARD -> handoff -> delivery_log, tagged `source: x-bookmark`).
 Phase 1 is Will's PRIMARY X channel (his words 2026-10-03 09:31).
 
 🔴 GOVERNING PRINCIPLE (from phone_scan): NEVER SILENTLY DROP A WILL SIGNAL.
 
-DEDUP MODEL (corrected 2026-10-03 after coldread read-1, WQ-229)
-----------------------------------------------------------------
-Bookmarks are deduped on a SEEN-SET of post IDs, never on a numeric "floor".
-A snowflake ID encodes when a post was CREATED, not when Will BOOKMARKED it, so a
-floor on post ID silently drops an OLD post he bookmarks today — his main use case
-(read-1 X1 / CX7). Instead: `--authorize` seeds the seen-set with EVERY bookmark
-that already exists (so pre-existing ones are excluded while the seen-file lives),
-and every launch surfaces whatever is NOT in the seen-set, in the API's own
-newest-bookmarked-first order. Deleting the seen-file re-surfaces everything — the
-safe direction (over-surface, never drop).
+DEDUP MODEL (exclusion-set; corrected across coldread reads 1 & 2, WQ-229)
+--------------------------------------------------------------------------
+Dedup is membership in a SEEN-SET of dedup-keys (a post ID, or for a rare id-less API
+item a content hash), never a numeric "floor" — a snowflake is creation time, not
+bookmark time (read-1 X1). The seen-set is seeded ONCE, at the FIRST `--authorize`,
+with every bookmark that already exists; a RE-authorize refreshes tokens and touches
+NEITHER the seen-set NOR the stage (read-2 X6 — re-seeding would consume a bookmark
+Will added since the last launch, and the tool's own refresh-recovery sends him to
+re-authorize). To re-seed deliberately, delete the seen-file (re-surfaces everything —
+the safe direction).
 
---mark MODEL (corrected 2026-10-03, read-1 X2 / CX8b)
------------------------------------------------------
-The report run (no flag) STAGES the IDs it printed to a pending-file. `--mark`
-consumes exactly that staged list and never re-fetches, so a bookmark added between
-the report run and the mark run can never be consumed un-routed.
+--mark MODEL (read-1 X2 / read-2 X7)
+------------------------------------
+The report run STAGES the dedup-keys it printed (with a timestamp); `--mark` consumes
+exactly that stage and never re-fetches. `--mark` prints what it is consuming and
+refuses a stale stage (>24h). Across a crash the un-routed items re-surface at the
+next report run (self-healing), so nothing is lost.
 
 HARD BOUNDARIES (acceptance §2)
 -------------------------------
 - READ-ONLY. Scopes tweet.read users.read bookmark.read offline.access. NEVER bookmark.write.
-- NO POST BODIES IN GIT. Seen-file and pending-file hold post IDs ONLY. Text is printed
-  for routing and survives in BOARD as WALTER's own paraphrase, never persisted verbatim.
+- NO POST BODIES IN GIT. Seen-file and stage hold dedup-keys ONLY. Text is printed for
+  routing and survives in BOARD as WALTER's own paraphrase, never persisted verbatim.
 - TOKEN NEVER IN GIT. Secrets live in AGENTS/WALTER/.env (gitignored). A full token is
   never printed.
 - NO UNATTENDED RUNS. Launch-time only ("regularly between launches" = WQ-369, out of scope).
@@ -46,9 +47,8 @@ USAGE
   python3 AGENTS/WALTER/tools/x_bookmarks_scan.py               # report NEW bookmarks (stages them)
   python3 AGENTS/WALTER/tools/x_bookmarks_scan.py --mark        # consume the staged list (AFTER routing)
 
-STATUS: BUILT, UNIT-TESTED (pure logic) + coldread read-1 fixes applied. NOT "working"
-until read-2 closes and a live first-run on Will's token passes (acceptance §4). The
-network/authorize paths (L1-L4) are exercised only by that live first-run.
+STATUS: BUILT + unit-tested + coldread reads 1&2 fixes applied. NOT "working" until a
+final read closes and a live first-run on Will's token passes (acceptance §4).
 """
 import argparse
 import base64
@@ -63,21 +63,23 @@ from pathlib import Path
 
 WALTER = Path(__file__).resolve().parent.parent
 
-# --- paths, with ALL-OR-NOTHING test isolation --------------------------------
-# read-1 A8/CX6: isolating only one of {env, seen} announced TEST MODE while a LIVE
-# file stayed in use. Fix: if EITHER test var is set, isolate BOTH — the unset one
-# is derived beside the set one, so a live file is never touched in test mode.
+# --- paths, with ALL-OR-NOTHING, ABSOLUTE test isolation ----------------------
+# read-2 A8/CX-F: deriving the unset path beside a RELATIVE set path could land on the
+# LIVE .env under a TEST MODE banner. Fix: test mode requires BOTH vars, both ABSOLUTE,
+# or it refuses — so a live file can never be touched in a test. Production (neither
+# set) uses the real paths.
 _ENV_SET = "WALTER_X_ENV" in os.environ
 _SEEN_SET = "WALTER_X_SEEN" in os.environ
 _TEST_MODE = _ENV_SET or _SEEN_SET
 if _TEST_MODE:
-    ENV_PATH = Path(os.environ["WALTER_X_ENV"]) if _ENV_SET else None
-    SEEN = Path(os.environ["WALTER_X_SEEN"]) if _SEEN_SET else None
-    _base = (ENV_PATH.parent if _ENV_SET else SEEN.parent)
-    if ENV_PATH is None:
-        ENV_PATH = _base / ".env"
-    if SEEN is None:
-        SEEN = _base / "x_bookmarks_seen.json"
+    if not (_ENV_SET and _SEEN_SET):
+        sys.exit("REFUSING: test mode needs BOTH WALTER_X_ENV and WALTER_X_SEEN set, so no "
+                 "live file is ever used under a test banner. Set both (to absolute paths).")
+    ENV_PATH = Path(os.environ["WALTER_X_ENV"])
+    SEEN = Path(os.environ["WALTER_X_SEEN"])
+    if not (ENV_PATH.is_absolute() and SEEN.is_absolute()):
+        sys.exit("REFUSING: WALTER_X_ENV and WALTER_X_SEEN must be ABSOLUTE paths in test mode "
+                 "(a relative path resolves against cwd and can hit a live file).")
 else:
     ENV_PATH = WALTER / ".env"
     SEEN = WALTER / "registry" / "x_bookmarks_seen.json"
@@ -88,12 +90,12 @@ TOKEN_URL = "https://api.x.com/2/oauth2/token"
 API_BASE = "https://api.x.com/2"
 SCOPES = "tweet.read users.read bookmark.read offline.access"   # read-only; NO bookmark.write
 REDIRECT_URI = os.environ.get("WALTER_X_REDIRECT", "http://localhost:8723/callback")
-PAGE_SIZE = 50           # bookmarks come newest-first; a launch's new ones are at the top
-MAX_PAGES = 10           # safety cap; X4: a cap hit is WARNED, never silent
+PAGE_SIZE = 50
+MAX_PAGES = 10           # safety cap; a cap hit is WARNED (fetch AND seed), never silent
+STAGE_MAX_AGE_S = 24 * 3600   # --mark refuses a stage older than this (crash-stale guard)
 
 
 def _pending_path():
-    """Staging file for the report->mark handoff. Beside the (possibly test) seen-file."""
     return Path(SEEN).parent / "x_bookmarks_pending.json"
 
 
@@ -101,12 +103,13 @@ def _pending_path():
 # PURE LOGIC  (no network; this is what test_x_bookmarks_scan.py exercises)
 # ============================================================================
 def load_env(path=None):
-    """Parse KEY=value .env into a dict. Missing file -> {}. Surrounding quotes stripped (CX3d)."""
+    """Parse KEY=value .env -> dict. Missing file -> {}. Tolerates a UTF-8 BOM (CX-H2);
+    strips surrounding quotes (CX3d); last occurrence wins (consistent with rewrite_env)."""
     path = Path(path or ENV_PATH)
     out = {}
     if not path.exists():
         return out
-    for line in path.read_text(encoding="utf-8").splitlines():
+    for line in path.read_text(encoding="utf-8-sig").splitlines():   # utf-8-sig eats a BOM
         s = line.strip()
         if not s or s.startswith("#") or "=" not in s:
             continue
@@ -114,23 +117,19 @@ def load_env(path=None):
         v = v.strip()
         if len(v) >= 2 and v[0] == v[-1] and v[0] in ("'", '"'):
             v = v[1:-1]
-        out[k.strip()] = v           # last occurrence wins (consistent with rewrite_env)
+        out[k.strip()] = v
     return out
 
 
 def rewrite_env(updates, path=None):
-    """
-    Write `updates` into the .env, preserving other keys, comments and blank lines
-    (A6). ALL occurrences of an updated key collapse to ONE line (CX3b: no stale
-    duplicate wins). Original CRLF/LF style preserved (CX3c). Atomic (temp+replace,
-    CX3b/token-rotation safety). 0600 perms. Never prints token values.
-    """
+    """Write `updates`, preserving other keys/comments; duplicate keys collapse to one
+    (CX3b); CRLF preserved (CX3c); atomic temp+replace; 0600. Never prints token values."""
     path = Path(path or ENV_PATH)
     raw = path.read_bytes() if path.exists() else b""
     nl = "\r\n" if b"\r\n" in raw else "\n"
-    lines = raw.decode("utf-8").split(nl) if raw else []
+    lines = raw.decode("utf-8-sig").split(nl) if raw else []
     if lines and lines[-1] == "":
-        lines = lines[:-1]           # don't let split() add a phantom trailing element
+        lines = lines[:-1]
     remaining = dict(updates)
     out = []
     for line in lines:
@@ -139,8 +138,7 @@ def rewrite_env(updates, path=None):
             k = s.split("=", 1)[0].strip()
             if k in updates:
                 if k in remaining:
-                    out.append(f"{k}={remaining.pop(k)}")   # first hit keeps position
-                # any further duplicate lines for this key are dropped
+                    out.append(f"{k}={remaining.pop(k)}")
                 continue
         out.append(line)
     for k, v in remaining.items():
@@ -152,7 +150,7 @@ def rewrite_env(updates, path=None):
         os.chmod(tmp, 0o600)
     except OSError:
         pass
-    os.replace(tmp, path)            # atomic
+    os.replace(tmp, path)
 
 
 def _refuse(path, why):
@@ -160,12 +158,14 @@ def _refuse(path, why):
              f"(the safe direction — over-surface, never drop).")
 
 
+def _scalar_ids_ok(xs):
+    return isinstance(xs, list) and all(isinstance(x, (str, int)) for x in xs)
+
+
 def load_seen(path=None):
-    """
-    Seen-file holds post IDs (+ an opaque pilot marker). Any corruption -> REFUSE
-    with a fix instruction (A5/CX2): bad bytes, bad JSON, non-object, or a
-    `consumed` that is not a list all fail CLOSED and LOUD.
-    """
+    """Seen-file holds dedup-keys (+ an opaque pilot marker). Any corruption REFUSES
+    with a fix instruction (A5/CX2): bad bytes/JSON, non-object, or a `consumed` that is
+    not a list of SCALARS (CX-I1: a nested list would later crash --mark)."""
     path = Path(path or SEEN)
     if not path.exists():
         return {"consumed": [], "pilot_start_id": None}
@@ -183,19 +183,22 @@ def load_seen(path=None):
         _refuse(path, f"is not valid JSON ({e})")
     if not isinstance(d, dict):
         _refuse(path, "is not a JSON object")
-    if not isinstance(d.get("consumed", []), list):
-        _refuse(path, "`consumed` is not a list")
+    if not _scalar_ids_ok(d.get("consumed", [])):
+        _refuse(path, "`consumed` is not a list of plain id values")
     d.setdefault("consumed", [])
     d.setdefault("pilot_start_id", None)
     return d
 
 
 def save_seen(seen, path=None):
-    """Persist post IDs only (A7). Refuse any stray key — a text leak must fail, not assert-away."""
+    """Persist dedup-keys only (A7/X11). Reject a stray key AND a non-scalar element
+    (an inner dict with text would leak a body), with an explicit raise (survives -O)."""
     path = Path(path or SEEN)
     stray = set(seen) - {"consumed", "pilot_start_id"}
-    if stray:                        # explicit check, not an `assert` (survives python -O)
+    if stray:
         raise ValueError(f"seen-file would persist unexpected keys {stray}")
+    if not _scalar_ids_ok(seen.get("consumed", [])):
+        raise ValueError("`consumed` must be a list of plain id values (no nested structures)")
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps({"consumed": sorted(set(str(x) for x in seen["consumed"])),
                                 "pilot_start_id": seen.get("pilot_start_id")}, indent=2) + "\n",
@@ -203,33 +206,54 @@ def save_seen(seen, path=None):
 
 
 def load_pending(path=None):
+    """Return the staged dedup-key list (IDs only). A lost/garbled stage -> []."""
     path = Path(path or _pending_path())
     if not path.exists():
         return []
     try:
         d = json.loads(path.read_text(encoding="utf-8"))
     except (json.JSONDecodeError, OSError, UnicodeDecodeError):
-        return []                    # a lost stage just means "nothing staged"; the report run re-stages
+        return []
+    if isinstance(d, dict):
+        d = d.get("ids", [])
     return [str(x) for x in d] if isinstance(d, list) else []
+
+
+def pending_stamp(path=None):
+    """Epoch seconds the current stage was written, or None."""
+    path = Path(path or _pending_path())
+    if not path.exists():
+        return None
+    try:
+        d = json.loads(path.read_text(encoding="utf-8"))
+        return d.get("staged_at") if isinstance(d, dict) else None
+    except (json.JSONDecodeError, OSError, UnicodeDecodeError):
+        return None
 
 
 def save_pending(ids, path=None):
     path = Path(path or _pending_path())
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps([str(i) for i in ids]) + "\n", encoding="utf-8")
+    path.write_text(json.dumps({"ids": [str(i) for i in ids], "staged_at": int(time.time())}) + "\n",
+                    encoding="utf-8")
+
+
+def _dedup_key(raw_id, author_id, created_at, text):
+    if raw_id:
+        return str(raw_id)
+    basis = f"{author_id}|{created_at}|{text}"           # stable key for a rare id-less item (X10)
+    return "noid:" + hashlib.sha256(basis.encode()).hexdigest()[:16]
 
 
 def parse_bookmark(item, users_by_id):
-    """
-    Normalize one API tweet object. NEVER raises for content reasons (CX4b: a
-    non-string `text` is coerced, not crashed) — returns a `warn` list instead (A4).
-    An int id of 0 or a missing id is MALFORMED (id=None) and surfaced.
-    """
+    """Normalize one API tweet object. NEVER raises for content reasons (CX4b). An id of
+    0/''/None is MALFORMED (id=None) but still gets a stable `dedup_key` so it can be
+    consumed and stops re-firing once marked (read-2 X10)."""
     warn = []
     raw_id = item.get("id")
-    pid = str(raw_id) if raw_id else None    # 0, "", None all -> malformed
+    pid = str(raw_id) if raw_id else None
     if pid is None:
-        warn.append("MALFORMED: bookmark item has no usable `id` — surfaced, cannot dedup")
+        warn.append("MALFORMED: bookmark item has no usable `id` — surfaced via a content key")
     author_id = item.get("author_id")
     username = users_by_id.get(author_id) if author_id else None
     if not username:
@@ -238,23 +262,20 @@ def parse_bookmark(item, users_by_id):
     text = "" if text is None else str(text)
     if not text.strip():
         warn.append("EMPTY TEXT — bookmark carries no body")
-    return {"id": pid, "author_id": author_id, "username": username,
-            "created_at": item.get("created_at"), "text": text.strip(), "warn": warn}
+    created_at = item.get("created_at")
+    return {"id": pid, "dedup_key": _dedup_key(raw_id, author_id, created_at, text.strip()),
+            "author_id": author_id, "username": username, "created_at": created_at,
+            "text": text.strip(), "warn": warn}
 
 
 def select_new(bookmarks, seen_ids, _unused=None):
-    """
-    Return bookmarks NOT already consumed, in the API's given order (newest-bookmarked
-    first) — NO post-ID floor (read-1 X1), NO re-sort. A malformed (idless) item cannot
-    be deduped, so it is always surfaced (never-silently-drop). `_unused` is a retired
-    floor parameter kept only so old callers/counterexamples don't error on the arity.
-    """
+    """Bookmarks whose dedup_key is NOT consumed, in the API's given order. No floor, no
+    re-sort. `_unused` is a retired floor arg kept for old-caller arity."""
     seen = set(str(s) for s in seen_ids)
-    return [b for b in bookmarks if b["id"] is None or b["id"] not in seen]
+    return [b for b in bookmarks if b["dedup_key"] not in seen]
 
 
 def format_boot_line(n_new, m_dispatched):
-    """A9 — the one-line boot-report shape (PROME point b)."""
     return f"{n_new} new bookmark{'' if n_new == 1 else 's'} since last launch, {m_dispatched} dispatched"
 
 
@@ -270,7 +291,6 @@ def _require_requests():
 
 
 def api_get_bookmarks(user_id, token, pagination_token=None):
-    """One page of GET /2/users/:id/bookmarks. Returns (data, users, meta). Raises on HTTP error."""
     requests = _require_requests()
     params = {"max_results": PAGE_SIZE, "tweet.fields": "created_at,author_id",
               "expansions": "author_id", "user.fields": "username"}
@@ -285,7 +305,6 @@ def api_get_bookmarks(user_id, token, pagination_token=None):
 
 
 def refresh_access_token(client_id, refresh_token, client_secret=None):
-    """POST grant_type=refresh_token. X ROTATES the refresh token — caller MUST persist both (L3)."""
     requests = _require_requests()
     data = {"grant_type": "refresh_token", "refresh_token": refresh_token, "client_id": client_id}
     auth = (client_id, client_secret) if client_secret else None
@@ -296,14 +315,12 @@ def refresh_access_token(client_id, refresh_token, client_secret=None):
 
 
 def fetch_new_bookmarks(env, seen):
-    """
-    Live orchestration (L2/L3): page the endpoint newest-first, refreshing once on
-    401, stopping as soon as a whole page is already consumed. Fails LOUD on any
-    unrecoverable error — nothing is marked on failure.
-    """
+    """Page newest-first, refresh once on 401, stop as soon as a whole page is already
+    consumed. seen-keys coerced to str so hand-edited int IDs still match (CX-I2). Fails
+    LOUD on any unrecoverable error — nothing marked on failure."""
     requests = _require_requests()
     user_id, token = env.get("X_USER_ID"), env.get("X_BOOKMARK_ACCESS_TOKEN")
-    seen_ids = set(seen.get("consumed", []))
+    seen_ids = set(str(s) for s in seen.get("consumed", []))
     collected, refreshed, page_token, capped = [], False, None, True
     for _ in range(MAX_PAGES):
         try:
@@ -317,7 +334,8 @@ def fetch_new_bookmarks(env, seen):
                 try:
                     token, new_rt = refresh_access_token(cid, rt, env.get("X_CLIENT_SECRET"))
                 except Exception as re_e:  # noqa
-                    sys.exit(f"Token refresh FAILED ({re_e}). Re-run --authorize in Will's browser.")
+                    sys.exit(f"Token refresh FAILED ({re_e}). Re-run --authorize in Will's browser "
+                             "(a re-authorize does NOT discard bookmarks you have not routed yet).")
                 rewrite_env({"X_BOOKMARK_ACCESS_TOKEN": token, "X_BOOKMARK_REFRESH_TOKEN": new_rt})
                 env["X_BOOKMARK_ACCESS_TOKEN"], env["X_BOOKMARK_REFRESH_TOKEN"] = token, new_rt
                 refreshed = True
@@ -325,13 +343,13 @@ def fetch_new_bookmarks(env, seen):
             if code == 429:
                 sys.exit("Rate-limited (429) by X. Nothing marked consumed. Retry at next launch.")
             sys.exit(f"X API error {code}. Nothing marked consumed. ({e})")
-        except Exception as e:  # noqa — network/JSON
+        except Exception as e:  # noqa
             sys.exit(f"Bookmark fetch failed ({e}). Nothing marked consumed.")
 
         parsed = [parse_bookmark(it, users) for it in data]
         collected.extend(parsed)
-        page_ids = {p["id"] for p in parsed if p["id"]}
-        if not page_ids or page_ids <= seen_ids:   # whole page already consumed -> stop
+        page_keys = {p["dedup_key"] for p in parsed}
+        if not page_keys or page_keys <= seen_ids:
             capped = False
             break
         page_token = meta.get("next_token")
@@ -339,31 +357,30 @@ def fetch_new_bookmarks(env, seen):
             capped = False
             break
     if capped:
-        print(f"⚠️  paged the {MAX_PAGES}-page cap ({MAX_PAGES * PAGE_SIZE} bookmarks) without "
-              f"reaching an all-consumed page — older new bookmarks beyond that are not shown "
-              f"this launch; they will surface next launch.", flush=True)
+        print(f"⚠️  reached the {MAX_PAGES}-page read cap ({MAX_PAGES * PAGE_SIZE} bookmarks) without "
+              f"hitting an all-seen page — any older new bookmarks beyond that surface next launch.",
+              flush=True)
     return select_new(collected, seen.get("consumed", []))
 
 
 def _all_existing_bookmark_ids(user_id, token):
-    """Seed set for --authorize: every current bookmark ID, so pre-existing ones are excluded."""
-    ids, page_token = [], None
+    """Seed set for the FIRST --authorize. Returns (ids, capped) — capped True if the
+    account has more bookmarks than MAX_PAGES*PAGE_SIZE could read (read-2 X9)."""
+    ids, page_token, capped = [], None, True
     for _ in range(MAX_PAGES):
         data, _u, meta = api_get_bookmarks(user_id, token, page_token)
         ids.extend(str(b["id"]) for b in data if b.get("id"))
         page_token = meta.get("next_token")
         if not page_token:
+            capped = False
             break
-    return ids
+    return ids, capped
 
 
 def do_authorize():
-    """
-    One-time OAuth2 PKCE flow (L1/X3). Will opens the printed URL in HIS browser, logs
-    into HIS X account, approves. WALTER never sees his password — only the resulting
-    code. Robust to Cancel/denial and to being piped: handles `error=`, waits on an
-    Event with a deadline (no busy-loop), flushes before waiting.
-    """
+    """One-time OAuth2 PKCE flow (L1/X3). Will approves in HIS browser; WALTER never sees
+    his password. Robust to Cancel/denial/piping. SEEDS the seen-set only on the FIRST
+    authorize; a re-authorize refreshes tokens and leaves the seen-set + stage alone (X6)."""
     import http.server
     import threading
     import webbrowser
@@ -411,7 +428,7 @@ def do_authorize():
     print(f"  {url}\n", flush=True)
     try:
         webbrowser.open(url)
-    except Exception:  # noqa — headless is fine; Will opens it manually
+    except Exception:  # noqa
         pass
     print(f"Waiting up to 5 min for the redirect to {REDIRECT_URI} ... (Ctrl-C to abort)", flush=True)
     done.wait(timeout=300)
@@ -439,20 +456,27 @@ def do_authorize():
     user_id = me.json()["data"]["id"]
     rewrite_env({"X_BOOKMARK_ACCESS_TOKEN": access, "X_BOOKMARK_REFRESH_TOKEN": refresh, "X_USER_ID": user_id})
 
-    # seed the seen-set with EVERY existing bookmark so pre-existing ones are excluded
+    # X6: seed ONLY on the first authorize (no seen-file). A re-authorize must not touch
+    # the seen-set or the stage, or it would consume bookmarks added since the last launch.
+    if Path(SEEN).exists():
+        print(f"\n✅ Re-authorized. Tokens refreshed in {ENV_PATH}. Your seen-set and any staged "
+              f"bookmarks are untouched — nothing waiting to be routed was consumed.", flush=True)
+        return 0
     try:
-        existing = _all_existing_bookmark_ids(user_id, access)
+        existing, capped = _all_existing_bookmark_ids(user_id, access)
     except Exception as e:  # noqa
-        existing = []
+        existing, capped = [], False
         print(f"⚠️  could not read current bookmarks to seed the exclusion set ({e}); the FIRST "
               f"scan will surface your EXISTING bookmarks. Re-run --authorize once reachable to seed.",
               flush=True)
-    seen = load_seen()
-    seen["consumed"] = sorted(set(seen["consumed"]) | set(existing))
-    seen["pilot_start_id"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+    seen = {"consumed": sorted(set(existing)), "pilot_start_id": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
     save_seen(seen)
     print(f"\n✅ Authorized. {len(existing)} existing bookmark(s) seeded as already-seen. "
           f"Tokens in {ENV_PATH} (gitignored).", flush=True)
+    if capped:
+        print(f"⚠️  you have MORE than {MAX_PAGES * PAGE_SIZE} bookmarks — only the most-recent "
+              f"{MAX_PAGES * PAGE_SIZE} were seeded; older ones may surface at the first scan (safe, "
+              f"but possibly noisy — tell WALTER if so).", flush=True)
     print("   From now on, bookmarks you add are surfaced at the next launch — including older "
           "posts you bookmark today.", flush=True)
     return 0
@@ -460,8 +484,6 @@ def do_authorize():
 
 # ============================================================================
 def main(argv=None):
-    # argv defaults to sys.argv in normal use; tests pass an explicit list so a
-    # runner's own flags never leak into the parser (PROME-found 2026-10-03; A10).
     ap = argparse.ArgumentParser(description="Read Will's new X bookmarks for routing.")
     ap.add_argument("--authorize", action="store_true", help="one-time OAuth2 PKCE setup (Will's browser)")
     ap.add_argument("--mark", action="store_true", help="consume the staged list (AFTER routing)")
@@ -482,7 +504,6 @@ def main(argv=None):
         print("         (one-time, in Will's browser — see design/X_BOOKMARKS_SETUP_CARD.md)")
         return 0
     if not env.get("X_USER_ID"):
-        # CX5b: half-authorized (token but no user id) is a clean re-authorize prompt, not a crash
         print("\n[status] Partially authorized — token present but no X_USER_ID. Re-run --authorize.")
         return 0
 
@@ -493,10 +514,18 @@ def main(argv=None):
         if not pending:
             print("\n[--mark] nothing staged. Run without --mark first, route, then --mark.")
             return 0
+        stamp = pending_stamp()
+        if stamp and (time.time() - stamp) > STAGE_MAX_AGE_S:
+            age_h = (time.time() - stamp) / 3600
+            print(f"\n[--mark] REFUSING: the stage is {age_h:.0f}h old (from a prior session). "
+                  "Run a report run first so you mark what you just routed, not a stale list.")
+            return 0
+        print(f"\n[--mark] consuming {len(pending)} staged id(s): {', '.join(pending[:10])}"
+              f"{' …' if len(pending) > 10 else ''}")
         seen["consumed"] = sorted(set(seen.get("consumed", [])) | set(pending))
         save_seen(seen)
-        save_pending([])                      # clear the stage
-        print(f"\n--mark: consumed {len(pending)} staged post ID(s) → {SEEN.name} (IDs only).")
+        save_pending([])
+        print(f"--mark: recorded {len(pending)} id(s) → {SEEN.name} (ids only).")
         return 0
 
     new = fetch_new_bookmarks(env, seen)
@@ -511,13 +540,13 @@ def main(argv=None):
           "do not kill on Novelty without reading the body)\n")
     for i, b in enumerate(new, 1):
         who = f"@{b['username']}" if b["username"] else f"author_id:{b['author_id']}"
-        print(f"  {i}. {b['id']}  {who}  {b['created_at'] or '—'}")
+        print(f"  {i}. {b['id'] or b['dedup_key']}  {who}  {b['created_at'] or '—'}")
         for w in b["warn"]:
             print(f"     ⚠️  {w}")
         preview = b["text"].replace("\n", " ")
         print(f"     │ {preview[:300]}{'…' if len(preview) > 300 else ''}\n")
 
-    save_pending([b["id"] for b in new if b["id"]])    # stage for --mark (IDs only)
+    save_pending([b["dedup_key"] for b in new])
     print("After routing, run:  python3 AGENTS/WALTER/tools/x_bookmarks_scan.py --mark")
     return 0
 
