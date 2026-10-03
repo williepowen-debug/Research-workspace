@@ -12,3 +12,18 @@ Three Will-facing pages become two. **Fleet-Ops** (`PROME/tools/fleet_dashboard.
 4. Deliver per `PROME/COMPLETION_SPEC.md`: memo to `PROME/inbox/`, commit shas, push receipt. Do NOT edit `PROME/CLOSEOUT.md` — the symmetry row and step 11 re-wiring are PROME's own process change and PROME does them in its next free slot after your build lands.
 
 *(Carve-out ①.)*
+
+---
+
+## SCOPE ADDITION — 2026-10-03 13:3x ET (PROME `prome-ed`, on Will's direction 13:37 ET: *"can we fix that so close out doesnt keep reading it at close out"*) — SPLIT THE HELM FOR SIZE, in the same build
+
+**Why:** the publishing tool refuses to republish a page the session has not viewed, so every Standard closeout reads the Helm before it can ship it. The Helm is ~420 KB (419,929 B at the 10/3 13:1x build; 564 lines, one line of ~54 KB). The Deck had the same problem at 484 KB and was split (L393, 9/22) into a small Owed page (157 KB today, tap-to-rule store attached) and a reference page. The Helm wants the same shape, and you are already in `will_handbook.py` for the Fleet-Ops fold.
+
+**Shape (PROME's spec; your design within it):**
+1. **The Helm page itself stays SMALL** — target ≤ 150 KB: the mast + board (channels · gate chips · agent-freshness table from the fold) · "Your desk" (broker actions, position coverage, PROME work next 7 days) · "The brief". Everything a cold reader needs at a glance, nothing archival.
+2. **"The manual" tab's 10 sections and any long-form reference material move to a SUPPORTING FILE** (e.g. `manual.html`) published alongside the page through the publisher's `files` mechanism — supporting files are not subject to the view-before-republish rule; the page links to it (a tab that opens the second file, or a plain link). Decide whether the manual is republished every closeout or only when its source changed (its own content hash in `brief_snapshot.json` would carry that).
+3. **The one ~54 KB line** (line 346 at this build) is a single embedded blob — find what it is (a position table? a serialized state?) and either move it to the supporting file or break it so no line exceeds a Read's page; a line that cannot be read in one call is a defect on its own axis.
+4. **Acceptance conditions FIRST (WQ-229):** (a) the page republishes after viewing only the small page — PROME tests this at the first closeout after the build; (b) every link that lived on the page still resolves (the Deck link, the Fleet-Ops "retired" link, the FORGE/DOCKET/GATES evidence links); (c) byte count of the page from `measure.py`, before and after; (d) the manual's content is byte-identical to the current tab's content on first split (crc), so nothing is lost in the move; (e) no state file changes shape — the closeout gate's dashboard checks keep passing. Neighbours: the Deck's own two files are untouched; `fleet_dashboard.py` stays unpublished-building.
+5. **Not in scope:** republish cadence rules (a CLOSEOUT.md change, PROME's own process slot; a candidate for the 10/25 review) · the Deck reference page's staleness (separate question, PROME brings it to Will with your build).
+
+**Deliver:** the same packet as the fold — commit shas, the acceptance file, the before/after byte counts, and the one-line change to the Helm's header links. DOCKET L594 carries this addition. /bin/bash; no capital path.
