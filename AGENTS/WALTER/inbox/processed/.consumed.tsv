@@ -183,3 +183,10 @@ BOND-SIG-008-ANSWERED	2026-09-14T18:51:40Z	WALTER	consumed	BOND answered SIG-W-2
 2026-10-02	2026-10-02_from-LIQUID_SIGNAL-HY-OAS-324-crossed-320-send-line-single-print.md	WALTER	Routed: SIG-W-20261002-005 IMMEDIATE (RED/REGINALD/HENRY action; 8 info); FRED re-verified 10:26 ET; TAGGED-not-sustained label carried in title, verdict and body
 2026-10-02	2026-10-02_from-CARL_DR-1-flag-deadline-superseded.md	WALTER	Applied: CARL-DR-1 deadline -> 2026-11-13 (DOCKET line 567 verified), disposition PARTIAL kept
 2026-10-02	2026-10-02_from-BROCK_GATE-BRK-R2-a-FIRED-2-OCIC-q3-30pct.md	WALTER	Routed: SIG-W-20261002-022 PRIORITY (LIQUID + OTTO action; PROME/RED/SHADE/REGINALD/TERRY info); 8-K accession verified at EDGAR (HTTP 200); counter (shrinking queue) and OTIC non-count carried
+2026-10-03	2026-10-03_from-PROME_WQ-373-independent-read-2-NOT-MET.md	WALTER	Read 2 NOT MET (X6/X5 + 13 amber); fixed/dispositioned. Commit 805d9cc43; acceptance §7.
+2026-10-03	2026-10-03_from-PROME_WQ-373-independent-read-3-FINAL-disposition.md	WALTER	Read 3 NOT MET on 2 small (N1/N2), A1-A10 MET; fixed, LIVE PASS. Commits eafe678d6/e8712d9a5; acceptance §8.
+2026-10-03	2026-10-03_from-PROME_WQ-373-counterexamples-3_cx3_x_bookmarks.py	WALTER	Read-3 cx ran: 44 PASS / 45 (f3 by-design of the f2 fix).
+2026-10-03	2026-10-03_from-PROME_WQ-373-counterexamples_cx_x_bookmarks.py	WALTER	Read-1 cx ran: 20 PASS / 2 FAIL (CX1+CX2 by-design).
+2026-10-03	2026-10-03_from-PROME_WQ-373-counterexamples-2_cx2_x_bookmarks.py	WALTER	Read-2 cx ran: 15 PASS / 4 FAIL (all 4 dispositioned §7).
+2026-10-03	2026-10-03_from-PROME_WQ-373-independent-read-NOT-MET.md	WALTER	Read 1 NOT MET (X1/X2/X3/A8); all fixed, suite 20/2. Commit 0fe87931c; dispositions acceptance §6.
+2026-10-03	2026-10-03_from-PROME_WQ-373-RULED-x-bookmarks-pilot-phase-1.md	WALTER	Built Phase 1 per ruling; WQ-229 3-read cycle + live first-run PASSED; WORKING. Commits 85db49c1e..e8712d9a5. 287 seeded, $0 of Will money.
