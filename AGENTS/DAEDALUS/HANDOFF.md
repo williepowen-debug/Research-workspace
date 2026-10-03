@@ -1,3 +1,5 @@
+**October 3 step3 progress:** October2 scorecard rendered; source/coverage record `runs/2026-10-03_SCORECARD_2026-10-02_DELIVERY.md`. Helm protection is next; do not render the same week again without a named correction.
+
 # Current continuation — 2026-10-03
 
 Read `STATUS.md` for current work and `runs/2026-10-03_CATCHUP.md` for the October 2 recovery/assurance reconciliation. The September 14/17 text below is **historical**: its next actions, pending encodes and unwired-tool claims have been superseded in several places. It is retained for evidence, not a boot task list. The capacity-limit caveats and retracted figures remain important history; current L380 work stays on STATUS.

@@ -1,0 +1,684 @@
+{
+  "capture_time_utc": "2026-10-03T22:01:34.208009+00:00",
+  "source_head": "c5cd19407ee48490ee081870d51102b46881c45b",
+  "source_mode": "committed tree only; excludes concurrent uncommitted edits; no as-of-Friday claim",
+  "week_ending": "2026-10-02",
+  "scratch_repo": "/tmp/daedalus-scorecard-20261002-6129gmwf/repo",
+  "input_files": [
+    {
+      "path": "AGENTS/AEOLUS/workbook/PREDICTIONS.tsv",
+      "bytes": 42106,
+      "sha256": "28f137702f0f14088f40de5e62f37116105e48daf62dc530f56df1cccf5ed5b9"
+    },
+    {
+      "path": "AGENTS/BOND/thesis/PREDICTIONS.tsv",
+      "bytes": 6416,
+      "sha256": "174dcd191f6c78d42f9554b99d615b42ae9f36c34a842978cea53b7e1e4a634c"
+    },
+    {
+      "path": "AGENTS/BRENT/thesis/PREDICTIONS.tsv",
+      "bytes": 70814,
+      "sha256": "67ee929a0ff354ca7f32c371976a93509f7246f1606bdf73d462c7ff89e64f4d"
+    },
+    {
+      "path": "AGENTS/BROCK/workbook/PREDICTIONS.tsv",
+      "bytes": 50018,
+      "sha256": "ea0161904f0c6c7de569076a6fb5958ecec50e5877fdb80649bb6e92214a16bc"
+    },
+    {
+      "path": "AGENTS/BROCK/workbook/PREDICTIONS_ARCHIVE.tsv",
+      "bytes": 10316,
+      "sha256": "2064c0f09ca1fc3b847d677e200b69b208b6fea205c0643c1cc205bfc8b1c5c6"
+    },
+    {
+      "path": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+      "bytes": 116889,
+      "sha256": "1885674093a72387bfad81bf185dffe99d15d6de1d1d2afeb79ea928cca14eab"
+    },
+    {
+      "path": "AGENTS/CREED/workbook/PREDICTIONS.tsv",
+      "bytes": 15168,
+      "sha256": "91274fe4b6a3f93a72905a00094e2f56fe766c9abdfa1ee1ba83322d8dfe5a71"
+    },
+    {
+      "path": "AGENTS/CRUISE/workbook/PREDICTIONS.tsv",
+      "bytes": 31154,
+      "sha256": "d09facb97a53ea7a422adc655956a641e23d0b7cccffd4fdee69e6f9012cf1fe"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/scorecards/LEDGERS.tsv",
+      "bytes": 3370,
+      "sha256": "a049706bb29e324f6a7ff4b4cf949db93e3ba80750d1227483be9e9bfae1bd6a"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/scorecards/SCORECARD.tsv",
+      "bytes": 829,
+      "sha256": "8a07137c080526c75e91bec8af10d89283730e18725c5e8e1c17705421d15544"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/scripts/coordination_scorecard.py",
+      "bytes": 15579,
+      "sha256": "ab855e96c01611901ba3a14bb8b16e9f833f471668ebb6b1412b9297b91c3fa9"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/scripts/scorecard.py",
+      "bytes": 48104,
+      "sha256": "6f21ce10ec65a3da8ff884fb8547fd88c6bc28492251ad760347fc37c15a2e93"
+    },
+    {
+      "path": "AGENTS/FALCON/thesis/PREDICTIONS.tsv",
+      "bytes": 21996,
+      "sha256": "39f9153851e54587a83bceecfceaa94f9a60b487f2c6d7bf043a877093bb186a"
+    },
+    {
+      "path": "AGENTS/FERT/workbook/PREDICTIONS.tsv",
+      "bytes": 15150,
+      "sha256": "7299da5aaae45fd1d94991650c94e405eaa5f7f364178b9c7e51f2b964131496"
+    },
+    {
+      "path": "AGENTS/FLG/workbook/PREDICTIONS.tsv",
+      "bytes": 7148,
+      "sha256": "9756172527c3bc39a59e9346ec4e4c95f4f7bdba2e1040d4dd4cb3b7a34e4880"
+    },
+    {
+      "path": "AGENTS/HANS/workbook/PREDICTIONS.tsv",
+      "bytes": 27886,
+      "sha256": "1b9bb3abd43fd7441a4aedae1b0cbee59683c48cd4d1da71c11bbef194b0aa0f"
+    },
+    {
+      "path": "AGENTS/HAWK/thesis/PREDICTIONS.tsv",
+      "bytes": 95597,
+      "sha256": "a2452e93324c042bd8174ffb0237dadc85eee5653ea201700dac8723e9c02090"
+    },
+    {
+      "path": "AGENTS/HENRY/workbook/PREDICTIONS.tsv",
+      "bytes": 124527,
+      "sha256": "e2abbab3776db9c608aca9a8639da1a6a989e798317e2fa8638de21e1cad2ffd"
+    },
+    {
+      "path": "AGENTS/HOMER/thesis/PREDICTIONS.tsv",
+      "bytes": 36472,
+      "sha256": "dae352c9ce5b3e0d40d192dad6f4cd299982cc19bb2e92ee244aeecfca9b500c"
+    },
+    {
+      "path": "AGENTS/LABOR/workbook/PREDICTIONS.tsv",
+      "bytes": 36114,
+      "sha256": "2469a25810a482f547333ed4d62275a5191fcc989677cccbe78d8ec374669e30"
+    },
+    {
+      "path": "AGENTS/LIQUID/workbook/PREDICTIONS.tsv",
+      "bytes": 14679,
+      "sha256": "679ffe8031f92a87eb993284f06af551917faec4da3175d334f506ab101ac138"
+    },
+    {
+      "path": "AGENTS/MARCO/thesis/PREDICTIONS.tsv",
+      "bytes": 36785,
+      "sha256": "ae85742033c07c1502fbefdc210f38ad8979a56fb5b2e5f64f2d035376abcb00"
+    },
+    {
+      "path": "AGENTS/MIDAS/workbook/PREDICTIONS.tsv",
+      "bytes": 37947,
+      "sha256": "50bbe5bfdd4f4a6bd35be4ffc23b07f7f866564e9c2a5c3cf0389ed2094f3212"
+    },
+    {
+      "path": "AGENTS/OSPREY/thesis/PREDICTIONS.tsv",
+      "bytes": 23162,
+      "sha256": "8d9b1baae595c1b1772db80bd6e6fde08b1677709acefdbb1f1129c6852eb3b1"
+    },
+    {
+      "path": "AGENTS/OTTO/archive/PREDICTIONS_root_pre_20260415_reformat.tsv",
+      "bytes": 3705,
+      "sha256": "cc5fd04e9e424b34f4ad89d30e562e00229d1b5d950b2466777e6132cbe73382"
+    },
+    {
+      "path": "AGENTS/OTTO/thesis/PREDICTIONS.tsv",
+      "bytes": 60953,
+      "sha256": "d26f6bd64258fceb80162c19908d7de31c6caf0251e8ceaa784a05dfe70b5015"
+    },
+    {
+      "path": "AGENTS/OZK/workbook/PREDICTIONS.tsv",
+      "bytes": 13195,
+      "sha256": "5b8fadc4698502fb724e5caa011d7827959e508981a04f124ae14f729106af77"
+    },
+    {
+      "path": "AGENTS/RED/workbook/PREDICTIONS.tsv",
+      "bytes": 36319,
+      "sha256": "d532b0306e2c845cd3b8aa8f6dd0efa3e00d34a71ba8f67c99b3478089a141f9"
+    },
+    {
+      "path": "AGENTS/REGINALD/workbook/PREDICTIONS.tsv",
+      "bytes": 19567,
+      "sha256": "f60c812466616f470cf1e5fccad0348d5e7eed72e49f8e36ed18f7b341cf1881"
+    },
+    {
+      "path": "AGENTS/SAM/thesis/PREDICTIONS.tsv",
+      "bytes": 117252,
+      "sha256": "2085bd3517f42aa8ed38715ff4c1c2ad94bfbaa13d6caabc018574b4ba778bcb"
+    },
+    {
+      "path": "AGENTS/VIOLET/workbook/PREDICTIONS.tsv",
+      "bytes": 1705,
+      "sha256": "af62b3a4667abee0d4994a171ee97554ac0d22e3583ab30a056a0ef14fe7c68a"
+    },
+    {
+      "path": "AGENTS/VULCAN/archive/PREDICTIONS_RESOLVED_2026-09.tsv",
+      "bytes": 20014,
+      "sha256": "a1b9921e13b5523f5885b5cf4b5808b69593a7b692557206ba583d81ff870ed0"
+    },
+    {
+      "path": "AGENTS/VULCAN/workbook/PREDICTIONS.tsv",
+      "bytes": 48841,
+      "sha256": "3db517ffc07de90e4bcbe5ed4b5df8d83a5fe3c026fb8fa64d9854628395bf7d"
+    },
+    {
+      "path": "AGENTS/WAL/workbook/PREDICTIONS.tsv",
+      "bytes": 21987,
+      "sha256": "bf38f3ec164220445e09392e6942f1efecc0dd5725538ddef2334063341e6ddb"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/CORRECTIONS.tsv",
+      "bytes": 19298,
+      "sha256": "856c7cdeecfe2a51ac93821592a1100a5e85708c39c4b73ee404a74f6389720e"
+    },
+    {
+      "path": "AGENTS/WATT/workbook/PREDICTIONS.tsv",
+      "bytes": 9358,
+      "sha256": "38a40721c6cfc93fcf77f1285eab1078281c1b73725bc90fa8f5b638b7332512"
+    },
+    {
+      "path": "AGENTS/WATT/workbook/PREDICTIONS_ARCHIVE.tsv",
+      "bytes": 20091,
+      "sha256": "dd2460e6197906535a20a986e1f2cdbf6b44ebf339fe2af91d987ebb6d50db5f"
+    },
+    {
+      "path": "AGENTS/YURI/workbook/INTENT_LEDGER.tsv",
+      "bytes": 10900,
+      "sha256": "84ef992b2bdf2843b321dd157b8d31ba7eba49da5103e47d12b7a212426c3e08"
+    },
+    {
+      "path": "AGENTS/ZHAO/workbook/PREDICTIONS.tsv",
+      "bytes": 61472,
+      "sha256": "4ca9242c950b3f07aadfb15c0131f8292119235e107f2fdaafefca3ddad6ae92"
+    },
+    {
+      "path": "PROME/DOCKET.tsv",
+      "bytes": 1294353,
+      "sha256": "e4ba89e755de59e985a98865850121a3eba109825fbda396987bec5e69cc6e37"
+    },
+    {
+      "path": "PROME/WILL_QUEUE.md",
+      "bytes": 212315,
+      "sha256": "4b60d8307d4c195d3e971802540d9bf66f10614586c67ddc540809c3020eb3e3"
+    },
+    {
+      "path": "PROME/archive/ORCH_LOG_2026-09.tsv",
+      "bytes": 57059,
+      "sha256": "334747daffc18e3a4e1304dcc6e5699b66b68d8c363474bd4852cf9edb3677c6"
+    },
+    {
+      "path": "PROME/proposals/2026-08-04_roster-phase0-ruling-table-RULED.md",
+      "bytes": 10505,
+      "sha256": "f2c13526dc83c7b43d2dc028d933b0a1b037df69c4e8402e759d2a7c2c820609"
+    },
+    {
+      "path": "PROME/proposals/2026-08-12_audit-convention-RULED.md",
+      "bytes": 5523,
+      "sha256": "f47bdc2b88f4fe647a8079d5f0727c8acd9405820e53e6a125f7f16d061316a0"
+    },
+    {
+      "path": "PROME/proposals/2026-08-12_rule-batch-RULED.md",
+      "bytes": 12767,
+      "sha256": "be17af5c9a9d02ceae45c11a6cc49e3a6fd67639b9baf27b60884d797d87a5e4"
+    },
+    {
+      "path": "PROME/proposals/2026-08-13_private-credit-batch-RULED.md",
+      "bytes": 6380,
+      "sha256": "486e1eb76bbb49fad6a0df122a9d16a777532a67ae92797090efc0619230d6bd"
+    },
+    {
+      "path": "PROME/proposals/2026-08-14_afternoon-batch-RULED.md",
+      "bytes": 2390,
+      "sha256": "ef0855ff1a1ecf749677f7210ebcfa9a3dbda5b032cb47f81286737584c05092"
+    },
+    {
+      "path": "PROME/proposals/2026-08-14_rows-49-50-RULED.md",
+      "bytes": 6091,
+      "sha256": "b546d3458772a82a509ddbfccd6ef3750238e1216f185f009db70730935a1fbd"
+    },
+    {
+      "path": "PROME/proposals/2026-08-16_carl-row44-respec-optionA-RULED.md",
+      "bytes": 5921,
+      "sha256": "0403b11afcc97ce4f7ce64a66ca0a9271a19a4ed9f136272fd2dfd4854404ae9"
+    },
+    {
+      "path": "PROME/proposals/2026-08-16_fert-recharter-RULED.md",
+      "bytes": 4838,
+      "sha256": "6a8366a74bb28c9e8624699680329f0ba731670f3931c6992a9d3b2ddd5a6a03"
+    },
+    {
+      "path": "PROME/proposals/2026-08-17_war-triad-spec-batch-RULED.md",
+      "bytes": 5551,
+      "sha256": "3c23fc55df66b64d137a52d18c071187cb76f5e446e7daab893decb663d40b85"
+    },
+    {
+      "path": "PROME/proposals/2026-08-19_004-rulings-B-C-RULED.md",
+      "bytes": 6541,
+      "sha256": "506eb0c6aa932ca6f05725823fec8d8431c02a503eb5d5ec7a5b55febb6e2fbb"
+    },
+    {
+      "path": "PROME/proposals/2026-08-21_batchB-check-standard-six-items-RULED.md",
+      "bytes": 1319,
+      "sha256": "f9cef61ce2bc1a3a5c5b24635b26bed226efa66518e79442a77b044c2fde2ede"
+    },
+    {
+      "path": "PROME/proposals/2026-08-21_flow-pass-5-embed-then-demote-RULED.md",
+      "bytes": 4291,
+      "sha256": "770b366c65920565593421fc989a4b413f8dae0584e5052559f76887791ec1b0"
+    },
+    {
+      "path": "PROME/proposals/2026-08-21_kill-leg2-transit-respec-RULED.md",
+      "bytes": 3733,
+      "sha256": "8d3f78e2f7f397b308b034dd7d6553d90606b302d8c8bd41342c43782cf6bec8"
+    },
+    {
+      "path": "PROME/proposals/2026-08-21_midas-rows-65-69-RULED.md",
+      "bytes": 5303,
+      "sha256": "1a53c4537df31767db4c330fcb6841d5cf47de481635495b5dbc2d237b45dce9"
+    },
+    {
+      "path": "PROME/proposals/2026-08-21_retro-sweep-and-tryfire001-RULED.md",
+      "bytes": 4362,
+      "sha256": "f616719f79d55d85a6da1d2a06b21592c0c9a52a4d0fe48213c49243d4a54f79"
+    },
+    {
+      "path": "PROME/proposals/2026-08-21_row64-and-risingvol-watch-RULED.md",
+      "bytes": 3285,
+      "sha256": "af7a547a7489df3e8f7dd67424f1ce4e9585fb019ff9fac6f653f6467c67dc97"
+    },
+    {
+      "path": "PROME/proposals/2026-08-21_rows-16-31-41-55-56-RULED.md",
+      "bytes": 5699,
+      "sha256": "bb403c4715842f91628e7c74e8005a8dbd79be0816be4c8947000c5c60ceb080"
+    },
+    {
+      "path": "PROME/proposals/2026-08-21_t6-saturday-option-c-RULED.md",
+      "bytes": 3614,
+      "sha256": "83f437f36fd4b3384f50d89472aa71c037e4d4d1ea747acf3796f2d2e494f723"
+    },
+    {
+      "path": "PROME/proposals/2026-08-21_walter-format-spec-x2-RULED.md",
+      "bytes": 3285,
+      "sha256": "950da4522f3b245afe98b89e93fb053bec230407e87bb847c0b294c372a5b52d"
+    },
+    {
+      "path": "PROME/proposals/2026-08-21_wave-2-already-embedded-sweep-RULED.md",
+      "bytes": 4599,
+      "sha256": "38e231823fce2b804335e96fb28ddec460c9d00749049f132fb45054c49feb20"
+    },
+    {
+      "path": "PROME/proposals/2026-08-22_dark-owner-doorbell-RULED.md",
+      "bytes": 16930,
+      "sha256": "d09abcfd2ccd316a2cf1bbad73b06683122aa802ea96ddb4b641ad08b200f41f"
+    },
+    {
+      "path": "PROME/proposals/2026-08-23_heartbeat-gate-RULED.md",
+      "bytes": 5811,
+      "sha256": "b0ec6211fef2fb8ef6f7f942e6723d740b52955013b271b59a8e626d2c20cea8"
+    },
+    {
+      "path": "PROME/proposals/2026-08-23_rows-76-77-78-RULED.md",
+      "bytes": 4974,
+      "sha256": "3be1022c802614ac1071a84d63a4c22f2b7c78604221c8dd7376fae47e44fb5b"
+    },
+    {
+      "path": "PROME/proposals/2026-08-23_rule6-mirror-hans-nomination-labor-creed-RULED.md",
+      "bytes": 3643,
+      "sha256": "21de841c8cc25e8784046a73daa15fe53efdc60602231565d39d52cc1beb4862"
+    },
+    {
+      "path": "PROME/proposals/2026-08-23_two-tier-orchestration-pilot-RULED.md",
+      "bytes": 5963,
+      "sha256": "93a3814d9fb3f56d1a21fca00737c8979cf7a6e56115e51575fc07fb71264e89"
+    },
+    {
+      "path": "PROME/proposals/2026-08-27_c7-pilot-window-RULED.md",
+      "bytes": 1747,
+      "sha256": "0aa86752ba5c854bc296d64f154eb72efded817682116f6fbdb8556f7fabde3c"
+    },
+    {
+      "path": "PROME/proposals/2026-08-27_creed-band-asks-RULED.md",
+      "bytes": 2230,
+      "sha256": "d0e600dede23e5e48aa9b5bf7de5eff81df8c1400cbb1b4412b283bd6c75ee9e"
+    },
+    {
+      "path": "PROME/proposals/2026-08-27_increment2-window-RULED.md",
+      "bytes": 4624,
+      "sha256": "cbe105aa202551ddead213f69ae8cd14045551cf0d074abf5b803526452b050d"
+    },
+    {
+      "path": "PROME/proposals/2026-08-27_lagged-series-grade-date-RULED.md",
+      "bytes": 3312,
+      "sha256": "1f28c1041660bf6138f74f4d4b4bd752089dc588cf64c85d93a7cffc7c6a0cbd"
+    },
+    {
+      "path": "PROME/proposals/2026-08-27_matrix-v2-kill-scope-RULED.md",
+      "bytes": 2711,
+      "sha256": "8b7807c991cb508ab4f597e12d5fcca6b65116c848368ccc33d1d06b8eb708ee"
+    },
+    {
+      "path": "PROME/proposals/2026-08-27_moving-referent-class-RULED.md",
+      "bytes": 3843,
+      "sha256": "805cc28d4236e419b33fa440ff5a4392b07166a23c7f9ab0de630b82050f286e"
+    },
+    {
+      "path": "PROME/proposals/2026-08-27_sreit-t06b-three-decisions-RULED.md",
+      "bytes": 4974,
+      "sha256": "12e8c1511950a118f7b4094d8bb3e3273c94ed47bda7a782eb8ec876a2b3d8db"
+    },
+    {
+      "path": "PROME/proposals/2026-08-28_codex-high-value-audit-RULED.md",
+      "bytes": 6711,
+      "sha256": "2648760c1c64d5e19c1c2f6564582be710d5c781381737517a1bbc07f53fdbc8"
+    },
+    {
+      "path": "PROME/proposals/2026-08-28_t3-decoupling-respec-RULED.md",
+      "bytes": 2346,
+      "sha256": "5ebc406563384fcc3132880808bd2fab7ed35e91fbdea558b1853179831ef094"
+    },
+    {
+      "path": "PROME/proposals/2026-08-30_wq136-t6-spec-rules-RULED.md",
+      "bytes": 5052,
+      "sha256": "31d244e39acbccf227a7d2a3837665c0ca280ed3d6084a34e74f66ca21b567f0"
+    },
+    {
+      "path": "PROME/proposals/2026-08-30_wq140-codex-process-reform-RULED.md",
+      "bytes": 4795,
+      "sha256": "80bb6ec0dc887837c1c4bdc247690f24e24d80b90ea586e40c55a1f04c8d412d"
+    },
+    {
+      "path": "PROME/proposals/2026-09-01_wq-batch-RULED.md",
+      "bytes": 10611,
+      "sha256": "a6a74f3dd95370d60a8a05a45049959d53babd9450fc9a24c170c6965230a104"
+    },
+    {
+      "path": "PROME/proposals/2026-09-01_wq149-150-RULED.md",
+      "bytes": 3293,
+      "sha256": "6ab6595fa3237a4580adf0897e2e8df130beed1877195ca75bfd5e8e8237541a"
+    },
+    {
+      "path": "PROME/proposals/2026-09-02_heartbeat-split-RULED.md",
+      "bytes": 5109,
+      "sha256": "5fc6c5288bc6ac2b4dac39f0451d32548507513e7d279abd21ceae243ad16351"
+    },
+    {
+      "path": "PROME/proposals/2026-09-02_wq162-RULED.md",
+      "bytes": 2849,
+      "sha256": "ddc54fb5e2136055ebf7110d632daba6489cc8a2a5da2efcdcb1a219363f5ad3"
+    },
+    {
+      "path": "PROME/proposals/2026-09-03_wq158-RULED.md",
+      "bytes": 2365,
+      "sha256": "665b25dc1f733aecbad94841e13af76ea895b8ed62020aec633330f7b80be6a2"
+    },
+    {
+      "path": "PROME/proposals/2026-09-03_wq170-and-163-item6-RULED.md",
+      "bytes": 1414,
+      "sha256": "c49fa37bfe502d8e7a0031f4f0d8210818c0f4cf12d4ed1bbfe9fb5addf65670"
+    },
+    {
+      "path": "PROME/proposals/2026-09-03_wq171-172-RULED.md",
+      "bytes": 2896,
+      "sha256": "ff4ad6e703069a142f41ade163b3d2918d077cf60aa44edccd92576826d705d6"
+    },
+    {
+      "path": "PROME/proposals/2026-09-04_L262-orch-log-rotation-RULED.md",
+      "bytes": 3355,
+      "sha256": "daebea09ef82f6b4defb1450cc8148f6f64c7991d1440b06734399d35dfe236c"
+    },
+    {
+      "path": "PROME/proposals/2026-09-04_wq157-leg1-RULED.md",
+      "bytes": 2616,
+      "sha256": "1a2e836e3167a7ce9e1d4c764f6009693e7f4d2c992b98504ca558575ff24f27"
+    },
+    {
+      "path": "PROME/proposals/2026-09-04_wq173-wq176-RULED.md",
+      "bytes": 3758,
+      "sha256": "6b6e88365ccfd5fabfe7e09ce2cbc1c7328cf484296ec6d703a59490ccb79c5c"
+    },
+    {
+      "path": "PROME/proposals/2026-09-04_wq174-RULED.md",
+      "bytes": 1839,
+      "sha256": "d00c4fecffff31a3739ff5d9e10416e34c03f71f92cd2814f9c57b91de8c4091"
+    },
+    {
+      "path": "PROME/proposals/2026-09-04_wq175-RULED.md",
+      "bytes": 3530,
+      "sha256": "22195a94d1fb2c41b5a93768eb4d8e1143ab25843fc48291037a7e4de6874b53"
+    },
+    {
+      "path": "PROME/proposals/2026-09-04_wq177-RULED.md",
+      "bytes": 2200,
+      "sha256": "b1d13c9cfaf5e26a5f954a37f25f69d8af8cf77f0079b8a629653177260ae3bd"
+    },
+    {
+      "path": "PROME/proposals/2026-09-04_wq178-verification-cascade-RULED.md",
+      "bytes": 5369,
+      "sha256": "c3082f9d1ca104fbaaba54b582684d00b7d2656e612c7feeee8c07e0f8314548"
+    },
+    {
+      "path": "PROME/proposals/2026-09-05_spawn-driver-RULED.md",
+      "bytes": 30858,
+      "sha256": "0523cb9c12881a73d31e06def709f6000dcba2fe1f15e10c864c6ed339c20e77"
+    },
+    {
+      "path": "PROME/proposals/2026-09-06_wq185-RULED.md",
+      "bytes": 10065,
+      "sha256": "2823a28db8162ca93b7f999fe99cb3aaf122fd322fd396798b2597cb2d2b713a"
+    },
+    {
+      "path": "PROME/proposals/2026-09-07_h4-prereg-timing-RULED.md",
+      "bytes": 10538,
+      "sha256": "bc43422cd1aa788252d980bbbead24efd80eac7ce96e821dd92fb655f6548db5"
+    },
+    {
+      "path": "PROME/proposals/2026-09-07_wq163-183-190-191-RULED.md",
+      "bytes": 7336,
+      "sha256": "1e46b75726208ce1bcd9dc35d67f3bd7c438d032668ae27526899a0de324a317"
+    },
+    {
+      "path": "PROME/proposals/2026-09-07_wq189-192-RULED.md",
+      "bytes": 3872,
+      "sha256": "4593f909e01e8d7d009586090501fbc8922309776425e6142d7f886b420210be"
+    },
+    {
+      "path": "PROME/proposals/2026-09-07_wq193-RULED.md",
+      "bytes": 3719,
+      "sha256": "aa7a92e7468dfe69fe1f9863b49e8a58721c799e50f20bfc6c3cd552cc51eb96"
+    },
+    {
+      "path": "PROME/proposals/2026-09-08_codex-desk-presence-fallback-RULED.md",
+      "bytes": 2281,
+      "sha256": "e5fbe1cf455914adbf44c1e0b91ec9089b794a419a20b4099b6d7658a0b50be2"
+    },
+    {
+      "path": "PROME/proposals/2026-09-10_wq161-prediction-canon-RULED.md",
+      "bytes": 12382,
+      "sha256": "e2bd619f9be7e060c5bf147133e471d50b0a42b3c3df07b265556e161f38ff76"
+    },
+    {
+      "path": "PROME/proposals/2026-09-10_wq202-decision-deck-RULED.md",
+      "bytes": 2802,
+      "sha256": "ec02bb85da2152164e4ec5ec3528452f82ce91f7f6060fd8634efaedf038cb7a"
+    },
+    {
+      "path": "PROME/proposals/2026-09-10_wq206-aged-action-rule-RULED.md",
+      "bytes": 2583,
+      "sha256": "324bee7cc0d202f9efd6d0c9d31ec8e418c1432256a504b39a0d4df5cec0e526"
+    },
+    {
+      "path": "PROME/proposals/2026-09-10_wq221-aged-waits-rule-RULED.md",
+      "bytes": 4270,
+      "sha256": "6f2894e64e463d590af11705e6bec9606e23ca608ed0cf83ff90994adf533773"
+    },
+    {
+      "path": "PROME/proposals/2026-09-11_L337-status-rebase-RULED.md",
+      "bytes": 5695,
+      "sha256": "979a88ebd45216b440a43a37da3d4572464a291e776090161ed19115f8962014"
+    },
+    {
+      "path": "PROME/proposals/2026-09-11_wq216-joint-strike-taxonomy-RULED.md",
+      "bytes": 3066,
+      "sha256": "217c757384ee537a3c94a4727f9310b727116368791702c16a746af77318f54b"
+    },
+    {
+      "path": "PROME/proposals/2026-09-11_wq227-RULED.md",
+      "bytes": 2277,
+      "sha256": "da731cab3d01797e497988bcb1f2d1746c2b10dc47632cd36a5bb0b38e081407"
+    },
+    {
+      "path": "PROME/proposals/2026-09-11_wq229-repair-completion-discipline-RULED.md",
+      "bytes": 12188,
+      "sha256": "9fd6b6ed415d7c4d07b43bde98f7e35ccc0a4cbab3fb1e1ec445c773c99a72fa"
+    },
+    {
+      "path": "PROME/proposals/2026-09-12_wq239-boot-interrupt-contract-RULED.md",
+      "bytes": 36873,
+      "sha256": "a8501707ea0967f884612fbad64b8e44c7452ef1a92c77eda89a4764abec6a63"
+    },
+    {
+      "path": "PROME/proposals/2026-09-12_wq240-closeout-simplification-RULED.md",
+      "bytes": 18371,
+      "sha256": "108f8f598e5130a3a881c11e8f17cb593abc90a556b5c31a7f52e701bad50083"
+    },
+    {
+      "path": "PROME/proposals/2026-09-14_spawn-closeout-discipline-RULED.md",
+      "bytes": 9892,
+      "sha256": "79b1f0cb42e52a3cb4cd9c03de7b00ca04e84f39608931f5b320b85beb0783d3"
+    },
+    {
+      "path": "PROME/proposals/2026-09-15_L395-sl5-transplant-RULED.md",
+      "bytes": 22815,
+      "sha256": "4c466c8fe9ebee0b9108e5e277fdba88f78ed95eb913c0da91808d0b91e3555e"
+    },
+    {
+      "path": "PROME/proposals/2026-09-17_skipped-control-reporting-RULED.md",
+      "bytes": 2264,
+      "sha256": "940e84bc043033ac8d9801fb77b3c0d41ba687c8652df529f81533d319c12501"
+    },
+    {
+      "path": "PROME/proposals/2026-09-18_wq247-operator-surface-RULED.md",
+      "bytes": 15463,
+      "sha256": "03e242e21cb3961daa591d206a589fac9949a66a790f63691d90e9a57057da8b"
+    },
+    {
+      "path": "PROME/proposals/2026-09-18_wq250-gate-citable-RULED.md",
+      "bytes": 12936,
+      "sha256": "a60607028570e222d9903c6414579e51075de36ea5da006d9dea1652a94341ba"
+    },
+    {
+      "path": "PROME/proposals/2026-09-19_yuri-boundary-RULED.md",
+      "bytes": 8814,
+      "sha256": "9ce394d4f839c200fcfefc1bf01ad8eded03e348eaeb3a928059995c95fb5b33"
+    },
+    {
+      "path": "PROME/proposals/2026-09-24_wq-batch-282-254-261-260-276-RULED.md",
+      "bytes": 6275,
+      "sha256": "763545f94a284aa7455dc5376eed2e079bf83848f5a1adc95059114b05ba550e"
+    },
+    {
+      "path": "PROME/proposals/2026-09-24_wq-batch-284-252-285-286-RULED.md",
+      "bytes": 2649,
+      "sha256": "26e8109319a14114274168d3672aa0ae4df0ea0ace6cd479e27f9e0ed88fec2d"
+    },
+    {
+      "path": "PROME/proposals/2026-09-24_wq288-invalidation-resolves-at-the-fire-RULED.md",
+      "bytes": 13382,
+      "sha256": "a4cb4cc8f6b4293b039b3f0ea07bdf66c7855fb6fcf75fc30fe13b84b6651c55"
+    },
+    {
+      "path": "PROME/proposals/2026-09-25_wq297-298-RULED.md",
+      "bytes": 3411,
+      "sha256": "f93fdb5d5dd695266b4dc639884533245ebe00f319f444836049f6fe33d39343"
+    },
+    {
+      "path": "PROME/proposals/2026-09-25_wq299-prome-self-correction-reform-RULED.md",
+      "bytes": 22021,
+      "sha256": "48988dd54c3763d5fbc594524b0349e59fd5d14455c3273f9a59401c2b43a2d6"
+    },
+    {
+      "path": "PROME/proposals/2026-09-26_L511-review-budget-RULED.md",
+      "bytes": 16777,
+      "sha256": "a0695d03572fb2df5971e2356aa6f69283f3d9a92b5680f9d368c2fb3156b7d4"
+    },
+    {
+      "path": "PROME/proposals/2026-09-26_wq-batch-292-296-300-287-257-295-RULED.md",
+      "bytes": 13918,
+      "sha256": "2cdb56b9bdc19967dcc2c4c48e7de1c857b15f0bdfc5345a9f68675c45959bd1"
+    },
+    {
+      "path": "PROME/proposals/2026-09-30_mirror-commit-approval-RETIRED-RULED.md",
+      "bytes": 2464,
+      "sha256": "a16ec2b2dbff253ec02850f18f034b086f6f365916610bbf923a574a67356bda"
+    },
+    {
+      "path": "PROME/proposals/2026-10-01_wq348-approval-inventory-RULED.md",
+      "bytes": 31054,
+      "sha256": "dba6d1a961b628685db6c2b56f5b07b9f3199637d5e0c525e84a1c226da77204"
+    },
+    {
+      "path": "PROME/proposals/2026-10-02_wq237-yeyou-root-strike-RULED.md",
+      "bytes": 9260,
+      "sha256": "ad4f76a856cfa441e3b9c5b030dc5f479ae219e8f9e56723b9a54a96aa2f3ac5"
+    },
+    {
+      "path": "PROME/proposals/2026-10-03_wq373-x-bookmarks-pilot-RULED.md",
+      "bytes": 6652,
+      "sha256": "a0704b3cf6181e8c87c7950f81a04ed003c44e21efd531decef1c202bfd18da4"
+    },
+    {
+      "path": "PROME/state/ORCH_LOG.tsv",
+      "bytes": 823073,
+      "sha256": "7cbdcfd7459e74aec4cfde5c8879ea7082eb1fdfac2259d3984316bdb5de94b2"
+    },
+    {
+      "path": "scripts/orch_log.py",
+      "bytes": 29809,
+      "sha256": "81c1d1b511456cc7b006766b3f6cac2c0f32b96c58b5886df06df72ad5f47806"
+    }
+  ],
+  "registered_missing_at_snapshot": [],
+  "registered_ledger_count": 30,
+  "source_dirty_paths_at_capture": [
+    " M PROME/ACTIVE_DECISIONS.md",
+    " M PROME/BRIEF.md",
+    " M PROME/DOCKET.tsv",
+    " M PROME/HANDBOOK.md",
+    " M PROME/HANDOFF.md",
+    " M PROME/SCRATCH.md",
+    " M PROME/STATUS.md",
+    " M PROME/WILL_QUEUE.md",
+    " M PROME/archive/STATUS_HISTORY.md",
+    " M PROME/artifacts/decision_deck.html",
+    " M PROME/artifacts/decision_reference.html",
+    " M PROME/plans/2026-10-03_closeout-rotations-PLAN.md",
+    " M PROME/registry/WQ_EXPLAINERS.tsv",
+    " M PROME/registry/WQ_LEDGER.crc",
+    " M PROME/registry/WQ_LEDGER.tsv",
+    " M PROME/state/ORCH_INFLIGHT.md",
+    " M PROME/state/ORCH_LOG.tsv",
+    " M PROME/state/argus_review.json",
+    " M PROME/tools/dashboard_build.json",
+    " M PROME/tools/dashboard_state.json",
+    " M PROME/tools/rotation_bundle_2026-10-03.py",
+    " M memory/2026-10-03.md",
+    "?? PROME/archive/ACTIVE_DECISIONS_ROTATION_2026-10-03.md",
+    "?? PROME/archive/HANDOFF_ROTATED_2026-10-03_prome-ed-pm.md",
+    "?? PROME/archive/SCRATCH_ROTATED_2026-10-03_prome-ed-pm.md",
+    "?? PROME/archive/WILL_QUEUE_ROWS_2026-10-03_rolloff.md"
+  ],
+  "render_time_utc": "2026-10-03T22:01:47.431424+00:00",
+  "renderer_rc": 0,
+  "selftest_passed": 27,
+  "generated_body_sha256": "1e510b0d901cf5a218f52b71e5055808f6158fc67b8374f5b9a8b9854bc296b9",
+  "generated_body_bytes": 65883
+}

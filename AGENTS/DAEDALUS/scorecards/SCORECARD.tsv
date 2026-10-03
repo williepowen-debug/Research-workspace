@@ -4,3 +4,4 @@ week_ending	window_start	loops	loops_nosrc	forecasts_resolved	catches_pre	correc
 2026-09-11	2026-09-05	28	2	5	15	9	34	1149	10	67	67	293	scorecard.py v1.1 (2026-09-04, L262 consumer half: hot + archives)
 2026-09-18	2026-09-12	34	6	10	17	6	14	1007	10	110	108	279	scorecard.py v1.1 (2026-09-04, L262 consumer half: hot + archives)
 2026-09-25	2026-09-19	26	0	3	16	10	28	1157	9	130	130	300	scorecard.py v1.2 (2026-09-25, WILL_QUEUE title-form stamps; v1.1 2026-09-04 L262 hot + archives)
+2026-10-02	2026-09-26	61	2	29	3	5	45	1831	10	270	266	585	scorecard.py v1.3 (2026-10-01, head-position title verbs + inline-first + filename/negation guards; v1.2 2026-09-25 title-form stamps; v1.1 2026-09-04 L262 hot + archives)
