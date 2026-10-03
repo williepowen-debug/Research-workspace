@@ -31,3 +31,7 @@ No. WALTER never holds Will's X password. The app gets its own identity (a Clien
 ## Registered at the ruling
 
 DOCKET L598 (build + Will's hands; WALTER wakes Mon 10/05 if not live) · L599 (two-week review, provisional 2026-10-20) · WALTER packet `AGENTS/WALTER/inbox/2026-10-03_from-PROME_WQ-373-RULED-x-bookmarks-pilot-phase-1.md` · fleet memory `finding_negative_reachability_is_a_claim_about_your_request` instance 5.
+
+## Will's direction after the ruling (sourced; shapes the build, changes no term)
+
+2026-10-03 09:31 ET, verbatim: *"now I think I like the idea of WALTER being able to check my bookmarks regularly. It would be easier for me to just bookmark things on my end rather then me snapping screen shots or sharing links like I have been."* Read: the operator wants bookmarks to become the PRIMARY channel for X items, and wants pickup to be regular. Phase 1 as ruled delivers the first (bookmark instead of screenshot; WALTER reads at each launch, WQ-377 asks the boot-step word). "Regularly" between launches is NOT an unattended WALTER session (WQ-369 class; conflicts with the one-machine git rule); the architecture-consistent form is a RESEARCH-INTAKE collector that pulls bookmark IDs on the lane's schedule and a Telegram line on a watch-term hit — the WQ-187 digest plumbing, which still needs Will's tokens. Candidate Phase 1b for the L599 review, not a change to tonight's terms. WALTER told the same minute. *(Appended 2026-10-03 09:3x ET, `prome-ed`.)*
