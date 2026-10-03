@@ -78,8 +78,8 @@ Session: **2026-10-03 Sat, walter-f0 (Claude Opus 4.8), terminal boot ~13:0x ET 
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
-      {"path": "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv", "note": "BM-20261003-01 CLOSED 8/8"},
-      {"path": "AGENTS/WALTER/research/2026-10-03_x-bookmark-backlog-triage.md", "note": "backlog disposition record; seen-set untouched"}
+      {"path": "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv", "sha256": "acb854a4c69713643e440bba0da5c8ced7e75a6f09722be83b706f6325b37c68", "note": "BM-20261003-01 CLOSED 8/8"},
+      {"path": "AGENTS/WALTER/research/2026-10-03_x-bookmark-backlog-triage.md", "sha256": "de9bb6befa0dbc91f24f9b0e083da84dcd2b667e9e1392e2616304e361499e83", "note": "backlog disposition record; seen-set untouched"}
     ]
   },
   "next_review": "2026-10-17"
