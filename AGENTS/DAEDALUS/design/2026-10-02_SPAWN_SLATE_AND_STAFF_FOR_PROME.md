@@ -1,5 +1,7 @@
 # Spawn slate — build record, and the architect's read on "staff for PROME"
 
+> **CURRENT DISPOSITION 2026-10-03:** source wiring is verified at PROME boot/closeout callsites (initial wiring `43a4c3bc2`); the NOT wired build receipt below is historical. Independent `review_standards` completed R11's five post-round-2 changes against final code: `../runs/2026-10-03_STANDARDS_SLATE_READER_REPORTS.md` §B. Two new residues are reproduced: top receipt-gap label overclaims activity for dark-this-cycle desks; unpinned upstream Liveness can use a commit newer than the captured HEAD. PROME owns these repairs; no edits to its live files in this catch-up. The v2 cold read/staffing trial is not certified by this bounded review.
+
 **2026-10-02 (Fri) · DAEDALUS, Will-launched.** Commission: `inbox/processed/2026-10-02_from-PROME_spawn-list-harden-into-prepared-slate.md` (PROME `prome-96`; Will: *"okay put in DAEDALUS inbox I will spawn in separate window"*). Acceptance conditions + full verification record: `PROME/tools/tests/ACCEPTANCE_spawn_slate_2026-10-02.md` (conditions committed `2a4344d00`, before the code). Delivery: `PROME/inbox/2026-10-02_from-DAEDALUS_spawn-slate-built-answered-class-withdrawn.md`. Reader ledgers, first output, backtest script: `runs/2026-10-02_spawn_slate/`.
 
 ## 1. What was built

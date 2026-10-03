@@ -1,6 +1,6 @@
 # FLEET DIRECTORY — what every agent is, does, and is missing
 
-> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-10-01.
+> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-10-03.
 
 > ⚑ **THIS IS THE BOOT-READ HOT INDEX (SPAWN PROTOCOL step 2, re-homed 2026-08-23).** `FLEET_MAP.tsv` is the COLD full register — it holds the complete Gaps/Next_upgrade text and is read PER-AGENT on demand (`grep -P '^AGENT\t' FLEET_MAP.tsv`) or whole at a Production Review. Why: FLEET_MAP hit **121% of the harness single-read token cap** and had been truncating at every boot for ~6 days (PAT-111 recurring on its third file). Rotating the accumulated Gaps narrative to `FLEET_MAP_HISTORY.tsv` cut it 65,725 → 43,006 B, which is **not enough** — squeezing it under the budget would have meant deleting live gap content from the rich rows. So the register went cold and this generated view became the read, the same hot/cold split `PATTERNS_HOT.md` uses. ⛔ Never answer a cap breach by raising the budget: the read cap is not ours to move.
 
@@ -65,7 +65,7 @@
 
 | Agent | Class | Lvl | Cf | Scored | What it does | Missing / next |
 |---|---|---|---|---|---|---|
-| DAEDALUS | Meta | L4 | M | 2026-10-01 | Fleet architect — design / structure / maturity / lifecycle | WQ-286 ①-④ landed by 2026-10-05 (BARON freeze · G1 aliases · G2 oldest-… |
+| DAEDALUS | Meta | L4 | M | 2026-10-01 | Fleet architect — design / structure / maturity / lifecycle | Finish owed outputs and owner-dependent dispositions on STATUS dated bo… |
 | RAV | Meta | L2 | M | 2026-10-01 | Deep factual/analytical reviewer + bounded repair (Codex, Will-driven) | L3 on the first §5 run report in AGENTS/RAV/runs/ |
 | CATO | — | — | — | — | Will's manual Codex/Astra adviser + independent reviewer | UNGRADED BY RULING (WQ-255, 2026-09-26): manual-only — no launch, no routing, no ladder row |
 

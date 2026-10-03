@@ -1,0 +1,164 @@
+DAEDALUS CATCH-UP PLAN — 2026-10-03
+Status: proposed execution order, prepared for Will. No repairs executed by this plan.
+Basis: runs/2026-10-03_BOOT_STATUS_REPORT.txt; current STATUS and DOCKET;
+October 2 build/recovery records; UPGRADE_PROTOCOL; applicable sweep playbooks.
+
+OBJECTIVE AND COMPLETION STANDARD
+Restore trustworthy DAEDALUS continuity, finish the incomplete October 2 deliveries,
+service overdue work, and make the October 5–15 commitments executable. A task is
+complete only when its scoped work, required validation/review and write-back are
+done. A future date, a citation, a passing fixture suite or an outbound packet
+alone is not completion. Owner-dependent items may remain open, with evidence,
+a named owner, the next action and a dated checkpoint. Keep historical lateness.
+
+1. RECONCILE THE WORK LIST — FIRST WORK PACKAGE
+Why: current state falsely calls completed work unbuilt and omits new assignments.
+Effort: bounded documentation and evidence reconciliation.
+First step: compare every open STATUS item with its latest artifact, commit and
+DOCKET state; verify the actual task body, including multi-leg rows. The 43 rows
+naming DAEDALUS are not 43 independent builds: distinguish builder, reviewer,
+conditional seat and informed-only roles.
+Work:
+- Reconcile WQ-286, SL-6, ladder A/B, the profile schedule, L530/L538 and spawn-slate
+  wiring. Preserve implemented/tested/reviewed/unresolved distinctions.
+- Update STATUS, FLEET_MAP's self-row plus history, and relevant CHECKS rows;
+  regenerate FLEET_DIRECTORY from sources and inspect its diff.
+- Add the late EVOLUTION entry for 0cc007f28, explicitly recording late pairing;
+  never amend the historical commit or pretend the original pairing was correct.
+- Make HANDOFF's September history unambiguous and provide a current continuation.
+- Cite L593/L594/L596 with their actual roles. Read the current L594 supersession.
+- Reconcile sweep dates with the October 2 profile plan, retaining original missed
+  dates and distinguishing partial scheduled cohorts from completed refreshes.
+- Review the remaining legacy board: D7 correction closure; L263 receipt lifecycle;
+  read-cap empty-class addendum and L380; SL-5/STATE_VOCABULARY riders; asmade-audit
+  re-spec; capacity population; baseline recheck reader; PAT-158 extension; directory
+  WF column and other L490 tails. Each becomes an evidenced completion, a concrete
+  work package, or a named dependency. None is silently dropped as 'old'.
+Done when: no known false-undone claim survives; the docket check has zero uncited
+assigned rows; the self-row agrees with artifacts; the late pairing is documented;
+future work has a next action. Do not reset freshness clocks merely to silence them.
+Use the existing STATUS/registry homes; this plan is navigation, not a new ledger.
+
+2. FINISH OCTOBER 2 ASSURANCE — BEFORE ANOTHER LARGE BUILD
+Why: crash recovery preserved code but left review evidence and closure incomplete.
+Effort: bounded code/review packages, potentially one repair cycle each.
+First step: inspect the recovered commits and look for the missing reader output.
+If it cannot be recovered, record that fact and commission a fresh independent read;
+never reconstruct a supposed reviewer verdict from memory.
+Packages:
+A. WQ-286: independent review of the final G1/G2 code, including the pipe-separated
+   alias exception, quiet false-held direction, qualified data-clock keys and
+   oldest-clock behavior. Preserve R2's recorded review status honestly. Fix found
+   defects with capable/quiet regression cases, then obtain a result read covering
+   any post-review changes. Persist the actual review deliverable.
+B. L530/L538: test the heuristic change directly (inherited read verb versus write,
+   on-demand and unrelated adjacent text; multiple paths). Verify external-root
+   treatment does not exempt local paths. Existing 112/112 manifest fixtures alone
+   do not establish the heuristic's correctness. Independent read of the boundary.
+C. SL-6/ladder: verify encoded text against the ruling and resolve the owed result
+   read. Extend PAT-158 from the spawn-slate failure; identify whether its post-read
+   changes still need assurance, without restarting its staffing trial.
+Done when: each package has final-code evidence, a durable review record where
+required, explicit residual limits, and consistent status/check-register entries.
+Use independent readers where the applicable protocol requires them. We remain
+responsible for checking their claims at artifacts and retaining coverage limits.
+
+3. CLEAR THE OVERDUE RECURRING WORK — DELIVER ACTUAL OUTPUTS
+First: render the week ending October 2 scorecard, label the actual October 3-or-
+later render time and source vintage, retain the Friday window and descriptive-only
+contract. Read stable copies/hashes of inputs because PROME is updating ORCH_LOG;
+if inputs change during capture, repeat the capture. Do not imply an as-of-Friday
+snapshot when using later corrected records. No new success threshold.
+Then:
+- H2 confidence audit: verify current owner artifacts for MARCO, REGINALD and HENRY
+  before sending another request. Reconcile all receipt outcomes and owner-verified
+  evidence. MISMATCH remains a candidate, never automatic calibration evidence.
+  Missing owner judgments stay explicitly unresolved; tool re-spec is a separate
+  bounded task informed by the known false-match classes.
+- Prose-Remedy Census #1: run its two candidate searches, classify each candidate,
+  verify against actual code, and retain false positives and unread coverage. Only
+  genuine owner work is routed. DAEDALUS-owned fixes can be handled separately.
+- PROME surface/spine review: read-only, with an explicit snapshot and the current
+  Helm/Deck topology. Size the change window before selecting readers; perform the
+  judgment review in its playbook. Avoid grading an in-flight edit as a completed
+  failure. Hosted content not inspected remains UNKNOWN, never certified from code.
+Done when: renders/review records exist; required registry and run-log updates
+reflect real work; remaining owner dependencies are explicit. A triage pass is not
+labelled a completed fleet sweep. Any required reciprocal self-audit review remains
+an explicit dependency until the counterpart actually supplies it.
+
+4. MEET NEAR-TERM COMMITMENTS — BY THE EXISTING DATES
+October 5 — L594 Helm panels; finish the remaining L490 delivery tails.
+  Read current PROME code/spec before designing. Acceptance conditions first;
+  reuse Fleet-Ops parsers; counts agree on a fixed snapshot; existing gate/state
+  contracts preserved; --no-feed does not advance feed; page stays below 250 KB;
+  cover missing commit, fired gate and empty-table cases. PROME already split the
+  page: do not move the manual or repeat the split. PROME owns publication/process
+  rewiring. Prepare design/review material in DAEDALUS while PROME is live; direct
+  edits require an idle handoff. If that window is unavailable, retain the build as
+  dependent and continue other packages.
+October 6 — L41 delegation-tier grade; L309 review of OSPREY's evaluation; attend
+  L471 if called. Read existing owner results first; the L471 options memo is
+  already delivered. Will's substantive rulings stay Will's.
+October 7 — own repair tails L423/L457/L460; L530/L538 assurance from package 2;
+  L380 read-cap design; review L459 cadence implications; L548 summons truncation
+  repair through a PROME handoff. L457/L460 parent rows are resolved: scope only
+  their named remaining residue. A new boot-read contract needs its required ruling.
+October 8 — Gate Basis #2, wiring sweep #3 and falsification sweep #4; include
+  DAEDALUS's L546 float-comparison census. PROME owns the config fix.
+October 9 — L593 multi-path parser repair; L495 receiver canary specification;
+  L496 unattended-instrument blueprint; L499 canon home/letter review. Specifications
+  do not authorize changing WALTER's live routing lane or deploying a canary.
+L596 — PROME's wiring slot, not a DAEDALUS build deadline. Supply check-owner support;
+  no invented alert level. Will chooses N at the registered decision point.
+Done per item: acceptance demonstrated, required review and write-back complete,
+consumer delivery distinguished from consumer acceptance. Prepare owner packets
+within the task; any tool-based send must have the required session authorization.
+
+5. RESTORE PROFILE CURRENCY AND FINISH THE OLDER DESIGN QUEUE
+Keep the October 2 priority plan; do not reschedule the entire population again.
+- October 12: original seven (AEOLUS, HAWK, HOMER, WAL, BROCK, CREED, REGINALD), plus
+  FALCON, VULCAN, ZHAO and MIDAS. Eleven scheduled refreshes is a large workload:
+  start high-impact profiles after packages 1–2, in small complete batches. CREED's
+  profile can be reviewed read-only; this does not authorize launching CREED.
+- October 15 PR#8: eight embedded confirm-reads (FERT, OSPREY, VIOLET, DEWEY, BOND,
+  CRUISE, FLG, OTTO), plus the ladder ruling-A checks and L5 adjudications already
+  registered. Run Staleness #6/WQ-288 census, validate_all baseline re-sweep and
+  measure READS attestations against the ratified strict-flip condition. Do not
+  silently change its denominator when roster membership changes; surface the issue.
+- Around October 29 PR#9: the twelve deferred delta reviews from the existing plan.
+  A delta-only read does not reset a whole-profile vintage unless every carried
+  section is reverified, per UPGRADE_PROTOCOL's explicit vintage rule. The phrase
+  'clock re-stamp' in the October 2 plan must not license a cosmetic freshness reset.
+- October 24: YURI evaluation; define the currently missing 1–2-call outcome before
+  grading. No retroactive threshold choice from observed results.
+- Assign the still-open legacy designs concrete slots during package 1. Keep D7,
+  L263 and the vocabulary/SL-5 riders visible; do not bury them beneath 'cleanup'.
+Done when: profiles support the decisions they will be used for, evidence and reader
+companions persist, owner findings are reconciled, and grade claims use the ruled
+criteria. A calendar stamp alone is never a profile refresh.
+
+WORK RHYTHM AND TODAY'S TARGET
+One bounded package through verification and write-back before the next. Capture
+new discoveries, then interrupt only for a concrete broken dependency or a nearer
+consequential deadline; otherwise fold them into the relevant package.
+Today's first target: package 1, then package 2 and the missed scorecard. Next take
+the smallest overdue deliverable and prepare L594 for its October 5 deadline.
+Full fleet reviews and eleven heavy profiles are not promised as a one-day job.
+Expose any date collision with scope/owner/evidence rather than repeatedly moving
+all dates forward. This planning pass changes no existing deadline.
+
+CHECKPOINT AND GIT DISCIPLINE
+At each package: record what changed, what was verified, what remains and the next
+step in the existing continuity surfaces; commit exact owned paths. Preserve other
+sessions' state and shared index. Run the relevant checks and the closeout battery;
+check completion across the October 2 recovery interval, not just today's commits.
+Use safe-push and verify our own content/commit receipt when synchronization is
+safe; if concurrency blocks recovery, retain local commits and state push pending.
+No automatic promotion or blanket 'all green' claim to mark the catch-up finished.
+
+SUCCESS
+DAEDALUS tells the truth about what exists and what remains; incomplete deliveries
+have their missing evidence; overdue work produces outputs; near-term obligations
+have achievable work slots; remaining dependencies are visible and owned. A final
+report separates fully closed tasks from external dependencies and future work.

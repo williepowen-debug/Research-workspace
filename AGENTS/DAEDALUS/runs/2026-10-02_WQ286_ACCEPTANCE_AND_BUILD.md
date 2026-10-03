@@ -1,3 +1,7 @@
+**CURRENT DISPOSITION — 2026-10-03:** October 2 source landed in `536480c90`. The referenced October 2 reader ledger was not recovered; its verdict is not reconstructed. Fresh independent review found three G1 boundary defects; a narrow repair and final result read now pass 33 producer + 9 independent tests, with zero attention-result changes across 323 declared-glob files. G2 and R2 accepted within their stated limits. Review: `runs/2026-10-03_WQ286_READER_REPORTS.md`; synthesis: `runs/2026-10-03_CATCHUP.md`. Historical acceptance/build text follows unchanged.
+
+---
+
 # WQ-286 ①–④ — acceptance conditions (written before the edits) and build record
 
 **2026-10-02 17:45 EDT, DAEDALUS, Will-launched ("lets start working through all this").** Ruling: Will 2026-09-24 18:30 ET, verbatim *"The rest are approved"* on PROME's list that named WQ-286 with PROME's recs (`PROME/proposals/2026-09-24_wq-batch-284-252-285-286-RULED.md` row WQ-286: ① BARON freeze, leg (b) waived · ② G1 · ③ G2 · ④ R2 = REQUIRE THE RECEIPT). Source findings: `runs/2026-09-24_STALENESS_SWEEP_05.md` §2 and §8; `runs/2026-09-24_D4_CHECKER_INDEPENDENT_READ.md` R2.

@@ -195,33 +195,43 @@ def boot_reads(name):
     for s, e in spans:
         boot_lvl = len(lines[s]) - len(lines[s].lstrip("#"))
         in_nonboot_sub = False
+        list_context = None
+        list_indent = None
+        initial_blanks = 0
         for i in range(s, e):
             l = lines[i]
             if HEADING_RE.match(l) or l.startswith("####"):
                 lvl = len(l) - len(l.lstrip("#"))
                 in_nonboot_sub = lvl > boot_lvl and bool(NON_BOOT_SUBHEAD_RE.search(l))
             if in_nonboot_sub:
+                list_context = None
                 continue
             low = l.lower()
             reads = [m.start() for m in READ_VERB_RE.finditer(low)]
             inherited = False
-            if not reads and STEP_RE.match(l) and FILE_TOKEN_RE.search(l):
-                # DOCKET L530 (2026-10-02): a LIST ITEM carrying file tokens under a read instruction
-                # whose verb sits on the PARENT line ("read these, in order:" / "1. … `A.tsv` + `B.tsv`")
-                # was invisible — every token failed the verb-object test because the verb was one
-                # line up. The verb is inherited from the nearest non-blank line above (≤2 lines) when
-                # that line carries a read verb and no write verb after it. Perimeter note counts them.
-                for k in (i - 1, i - 2):
-                    if k < s or k < 0:
-                        break
-                    prev = lines[k].lower()
-                    if not prev.strip():
-                        continue
-                    pr = [m.start() for m in READ_VERB_RE.finditer(prev)]
-                    if pr and not WRITE_VERB_RE.search(prev[pr[-1]:]) and not any(
-                            kk in prev[pr[-1]:] for kk in ON_DEMAND_MARKERS):
-                        reads, inherited = [0], True
-                    break
+            parent_context = ""
+            # L530: inherit an explicit list introducer, not an arbitrary preceding
+            # command. Preserve its entire context (including BEFORE the read verb)
+            # so 'on demand' and 'read only headers' never become whole reads.
+            if (reads and low.rstrip().endswith(":") and not FILE_TOKEN_RE.search(l)
+                    and not WRITE_VERB_RE.search(low) and not HEADING_RE.match(l)):
+                list_context, list_indent, initial_blanks = low, None, 0
+                continue
+            if list_context is not None:
+                if not low.strip() and list_indent is None and initial_blanks == 0:
+                    initial_blanks += 1
+                    continue
+                indent = len(l) - len(l.lstrip())
+                if (not reads and STEP_RE.match(l) and FILE_TOKEN_RE.search(l)
+                        and not WRITE_VERB_RE.search(low)
+                        and (list_indent is None or indent == list_indent)):
+                    list_indent = indent
+                    parent_context = list_context
+                    reads, inherited = [0], True
+                else:
+                    # A heading, blank after a member, prose, indentation change or
+                    # independent read/write command terminates this enumeration.
+                    list_context = None
             if not reads:
                 continue
             scanned += 1
@@ -237,7 +247,7 @@ def boot_reads(name):
                 # because "read" was a SUBSTRING of "readable" and the verb-object link was never tested.
                 before = low[:m.start()]
                 rp = max((r for r in reads if r < m.start()), default=None)
-                if rp is None or m.start() - rp > OBJECT_WINDOW:
+                if rp is None or (not inherited and m.start() - rp > OBJECT_WINDOW):
                     continue
                 if WRITE_VERB_RE.search(before[rp:]):
                     continue
@@ -247,11 +257,12 @@ def boot_reads(name):
                 # because the SAME line also said "grep" about a different file. The list is a
                 # heuristic; it is printed in the perimeter note so a reader can judge it.
                 after = low[m.end():m.end() + QUALIFIER_TAIL]
-                if any(k in before[rp:] or k in after for k in ON_DEMAND_MARKERS):
+                context = parent_context + " " + before[rp:]
+                if any(k in context or k in after for k in ON_DEMAND_MARKERS):
                     skipped_on_demand += 1
                     continue
-                if (any(k in before[rp:] or k in after for k in SCOPE_MARKERS)
-                        or SCOPE_ORDINAL_RE.search(before[rp:]) or SCOPE_ORDINAL_RE.search(after)):
+                if (any(k in context or k in after for k in SCOPE_MARKERS)
+                        or SCOPE_ORDINAL_RE.search(context) or SCOPE_ORDINAL_RE.search(after)):
                     skipped_scoped += 1
                     # READ_CAP rule 8 (WALTER): a scoped read of an over-cap file is a PARTIAL fix —
                     # the read is honest, the file is not lean. Keep it visible, never counted.
@@ -435,7 +446,15 @@ def declared_reads(name, path=None, root=None):
         src = (r.get("source_boot_step") or "READS.tsv").strip()
         if not pth or mode.startswith("RETIRED"):
             continue
-        if pth.startswith(EXTERNAL_ROOTS):              # another repo (L538): visible, never graded, never a defect
+        if mode not in CAP_BEARING_MODES and mode not in VISIBLE_MODES:
+            problems.append((P_DEFECT, f"`{pth}` ({src}) carries mode `{mode}` — not in the manifest's "
+                            f"own mode vocabulary"))
+            continue
+        if pth.startswith(EXTERNAL_ROOTS):              # L538: a valid external declaration is visible, not graded
+            if ".." in pth.split("/"):
+                problems.append((P_DEFECT, f"`{pth}` ({src}) contains parent traversal — cannot certify "
+                                "the external-root exemption; declare the path without `..`"))
+                continue
             visible.append((pth, mode + " · EXTERNAL repo, declared for visibility, not byte-graded", src))
             continue
         if "*" in pth or "?" in pth:                    # a CLASS row: a glob, never one file
@@ -476,10 +495,6 @@ def declared_reads(name, path=None, root=None):
             visible.append((pth, mode + " · CLASS row, not a single file", src))
             continue
         full = os.path.join(base_root, pth)
-        if mode not in CAP_BEARING_MODES and mode not in VISIBLE_MODES:
-            problems.append((P_DEFECT, f"`{pth}` ({src}) carries mode `{mode}` — not in the manifest's "
-                            f"own mode vocabulary"))
-            continue
         if not os.path.exists(full):
             # The condition the heuristic STRUCTURALLY cannot produce: a scan finds only what
             # exists, so a manifest pointing at a deleted file reads as silence.

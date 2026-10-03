@@ -1,5 +1,7 @@
 # SL-6 encode record — premise disposition at registration (WQ-295 R4) · 2026-10-01
 
+> **CURRENT DISPOSITION 2026-10-03:** the corrected SL-6 and ladder A/B were encoded October 2 in `0cc007f28`; fresh independent result read `../runs/2026-10-03_STANDARDS_SLATE_READER_REPORTS.md` §A verifies the substantive encode against WQ-295 R4 / WQ-354 / WQ-358. Q1 (adjudicator) and Q3 (recurring 90-day read) were ruled. The old NOT TRANSPLANTED banner and withheld draft below are historical, not current instructions. The installed standard preserves the unresolved UNVERIFIED-for-grading behavior, test-4 lift condition, contested-premise token and absent enumeration mechanism. No blanket disputed-premise gate block is added. Registration checklist row 15 now includes SL-6. Historical same-commit EVOLUTION pairing was missed and is recorded late October 3; history is not rewritten.
+
 > ⏸ **STATUS 2026-10-01 12:3x ET: PLAN READ RETURNED 2 ❌ (blind coldreader, Opus; ledger summarised in § Plan read below). NOT TRANSPLANTED.** The canon file `BLUEPRINTS/SPEC_LETTER_STANDARD.md` is **unchanged**. The draft text below is the PRE-READ version and is **WITHHELD from use**. The corrected plan is in § Corrected plan. The transplant waits on PROME's answers to Q1–Q4, then gets ONE insert edit and a result read. Correction passes on this record: 1.
 
 

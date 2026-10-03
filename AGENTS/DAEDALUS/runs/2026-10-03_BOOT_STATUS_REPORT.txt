@@ -1,0 +1,115 @@
+DAEDALUS BOOT STATUS REPORT — 2026-10-03 (Saturday, Eastern)
+Prepared by: DAEDALUS, Codex/Astra session, launched directly by Will.
+Scope: core-file catch-up, artifact reconciliation and existing diagnostic checks.
+This is a status review, not a fleet audit or a repair session. PROME and WALTER
+are active in separate Claude windows. No edits to their files, no messages sent.
+The user's date string was inconsistent; the environment date governs this report.
+
+ASSESSMENT
+DAEDALUS remains L4 / confidence M on the latest recorded assessment (FLEET_MAP,
+2026-10-01). Useful implementation work is landing, but the continuity surfaces
+are lagging it. The highest-value first task is to reconcile the October 2 work
+across STATUS, the self-row, CHECKS, EVOLUTION and the owed-work register. Otherwise
+this boot would commission completed builds again and miss the remaining reviews.
+No re-grade was performed today.
+
+WHAT IS ALREADY BUILT — DO NOT REBUILD FROM THE OLD STATUS BOARD
+1. SL-6 and ladder readings A/B are encoded. Commit 0cc007f28, October 2 17:53 ET;
+   BLUEPRINTS/SPEC_LETTER_STANDARD.md and CLAUDE.md contain them. STATUS still
+   carries an encode ask and a waiting-for-ratification line. EVOLUTION has no
+   matching entry: complete_check --since 2026-10-02 reports one pairing failure.
+2. The 24 previously unscheduled profile triggers have dates. See
+   upgrades/PROFILE_TRIGGER_ORDER_2026-10-02.md: four added to October 12, eight
+   inside PR#8 on October 15, twelve deferred to PR#9 around October 29 with a
+   narrower review. This schedules the work; it does not refresh the profiles.
+   The ordering itself disclaims a read of each underlying decision row.
+3. WQ-286: BARON's approved freeze is committed; ledger attention-clock aliases,
+   oldest-of-multiple-data-clocks behavior, and the named-RETIRED-row receipt rule
+   are implemented. Commit 536480c90 and runs/2026-10-02_WQ286_ACCEPTANCE_AND_BUILD.md.
+   The ledger changes' round-two independent read remains unresolved. The promised
+   runs/2026-10-02_WQ286_reader_ledger.md is absent. The recovery commit explicitly
+   acknowledges this. The receipt-rule review is reported PASS in the record;
+   today did not independently re-review its correctness.
+4. Read-cap repairs L530/L538 are implemented and tested. Commit bf2176e50 carries
+   the read-cap work despite its duplicated BARON commit subject. The build record
+   explicitly says NOT independently read; the L530 heuristic has no dedicated
+   selftest case. L380's rule-5 design problem remains separate and open.
+5. The spawn slate is built and STATUS records PROME's wiring commit 43a4c3bc2.
+   Its keyword-based ANSWERED/PARTIAL verdict was withdrawn after review. Do not
+   restore it casually. PAT-158 evidence extension and post-review-fix assurance
+   remain follow-through items. Its original design record is a historical build
+   snapshot, not proof that it remains unwired.
+
+DIAGNOSTICS RUN TODAY
+- Boot gate: rc 2 initially, solely UNKNOWN at Git fetch because sandbox network
+  access failed. A subsequent authorized git fetch origin succeeded. The original
+  receipt is retained rather than relabelled. At that check HEAD was 5 commits
+  ahead / 0 behind origin/master. PROME had two dirty state files, so no pull.
+- Corrections: rc 0, zero unreceipted NAMED correction rows for DAEDALUS.
+- Read cap: rc 0, six declared cap-bearing reads measured, no budget breach or
+  rotation due. STATUS 22,477 B / 32,550 B (69%). Charter 33,509 B is explicitly
+  outside this tool's perimeter by rule 20; the clean result is not a whole-context
+  budget certification.
+- Existing selftests: ledger_staleness 33/33, corrections_boot_check 21/21,
+  read_cap_check 112/112. These validate the existing fixtures, not independent
+  review completion or exhaustive correctness.
+- complete_check default range (October 3): zero standards commits assessed.
+  Widening to October 2 finds the missing EVOLUTION pairing for 0cc007f28. This
+  illustrates why today's default green cannot certify yesterday's closeout.
+- Directory dry run: rc 0, 43 rendered entries and valid co-registration; it would
+  change the generated output. No regeneration or interpretation of that diff was
+  performed. Source self-row demonstrably still says WQ-286 has not landed.
+- Sweeps: profile-refresh, Prose-Remedy Census and H2 confidence audit retain
+  September 25 resolve-by dates (8 days past); Prose-Remedy is also 8 days past its
+  cadence. PROME structural/surface review is 4 days past cadence. Weekly scorecard
+  is 1 day past cadence; SCORECARD.tsv's latest row is September 25, not October 2.
+  These are detected obligations, not assertions that every old subtask is undone.
+- Docket check: 43 open in-window rows naming DAEDALUS = 39 cited in STATUS,
+  3 uncited, 1 informed-only. A citation is acknowledgement, never completion.
+
+NEW OBLIGATIONS MISSING FROM STATUS
+L593 — October 9: firetime_check treats multi-path artifacts_citing cells as a
+single filename. PROME reported 8/16 unreadable flags false; reproduce before
+repair. Scope includes separator parsing and stripping section/line locators.
+L594 — October 5: add Fleet-Ops' agent-freshness table and gate chips to the Helm;
+keep Fleet-Ops building for existing gate checks. Read the October 3 superseding
+section of inbox/2026-10-02_from-PROME_WQ-372-fold-fleet-ops-into-the-helm.md:
+PROME already split the page, and the manual was not the weight. Do not redo that
+split. Current instruction: page below 250 KB after the fold, same source parsers,
+acceptance conditions first, existing gate/state contracts preserved. PROME owns
+CLOSEOUT wiring. Implementation touches PROME's live files, so schedule an idle
+handoff before any direct edits even though the build is commissioned.
+L596 — next PROME process pass: PROME wires dark_window_check into its boot report;
+DAEDALUS owns the check. Will chooses the alert threshold at wiring. This is a
+support/ownership obligation for DAEDALUS, not permission to edit PROME's process.
+The sole current top-level inbox packet (L594) was read whole and is deferred to
+its build slot; it remains in inbox. No packet is being represented as executed.
+
+RECOMMENDED ORDER FOR TODAY
+1. Repair continuity in DAEDALUS's own files. Reconcile STATUS and its BOTTOM LINE,
+   FLEET_MAP self-row and regenerated directory, relevant CHECKS rows, and the late
+   EVOLUTION entry. Preserve historical evidence. Add L593/L594/L596 with correct
+   roles. HANDOFF's newest entry is September 17 and contains overtaken next steps;
+   make its historical status and current continuation pointer unambiguous. Align
+   registry dates with actual owner dispositions without falsely marking work done.
+2. Finish assurance on yesterday's repairs. Recover or replace the missing review
+   record, complete the G1/G2 independent read, and check the L530 heuristic's
+   capable and quiet cases before treating these work packages as fully closed.
+   SL-6's owed result read should also be reconciled against the available record.
+3. Render the missed October 2 coordination scorecard on its intended window;
+   record provenance and update its cadence entry. The v1.3 repair is recorded as
+   done; do not rebuild it merely because the registry still says v1.2 residue.
+4. Triage the overdue profile/H2/Prose-Remedy work against the October 2 dated plan.
+   Start profiles that support the October 15 grading decisions; distinguish the
+   eleven now planned for October 12 from the later cohorts. Scheduling is already
+   done, execution is not. Review throughput before accepting another large batch.
+5. Prepare L594 against PROME's current artifact and reserve an idle edit window.
+   Then retain the October 7 instrument-repair and October 8 sweep commitments;
+   add L593's October 9 parser repair. Avoid turning this first report into an
+   unscheduled fleet-wide cleanup.
+
+BOUNDARIES AND DELIVERABLE
+This report and the boot runner's GATE_LOG row are the only DAEDALUS writes today.
+No repairs, state-table updates, packet deliveries, grade changes or git history
+changes were made. No new user decision is required for this report. The first
+recommended work is continuity reconciliation, followed by unfinished assurance.

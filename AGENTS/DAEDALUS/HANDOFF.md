@@ -1,3 +1,11 @@
+# Current continuation — 2026-10-03
+
+Read `STATUS.md` for current work and `runs/2026-10-03_CATCHUP.md` for the October 2 recovery/assurance reconciliation. The September 14/17 text below is **historical**: its next actions, pending encodes and unwired-tool claims have been superseded in several places. It is retained for evidence, not a boot task list. The capacity-limit caveats and retracted figures remain important history; current L380 work stays on STATUS.
+
+Will authorized catch-up steps 1–2 only. Ledger/read-cap repairs and fresh independent reports live in the catch-up record. The missed scorecard, profile refreshes and fleet sweeps remain separate owed work. PROME/WALTER were live; their files were not edited. Git delivery receipt and any owner-dependent residue are recorded in that result, not inferred from this pointer.
+
+---
+
 # DAEDALUS — HANDOFF
 
 **Written:** 2026-09-14 ~15:4x ET, at Will's terminal shutdown. **Session:** WQ-184 Tier-1 L0 spawn by PROME

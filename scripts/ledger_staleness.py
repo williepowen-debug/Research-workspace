@@ -513,13 +513,19 @@ def attention_info(path, now):
     (canonical key first, then the legacy spellings), or None when no line exists."""
     best = None
     for key, rx in ATTENTION_RES:
+        alias = key in ("Staleness sweep", "Last staleness check")
         for line in _header_block(path):
-            m = rx.search(line)
-            # The column cap keeps prose mentions out. A two-clock header writes its clocks as
-            # `| key: DATE` segments and the attention segment sits at column 200–500 (FERT ×5,
-            # FLG ×3, measured by the independent read 2026-10-02) — so a key that follows a `|`
-            # separator is a declared segment and is read whatever its column.
-            if m and (m.start() < MARKER_COL_CAP or "|" in line[:m.start()]):
+            # Only G1 aliases receive the long-header exception. A separator must lead
+            # directly to the key, not merely occur earlier in unrelated prose. Keep
+            # the legacy four keys' first-match/column contract unchanged (WQ-286).
+            matches = rx.finditer(line) if alias else [rx.search(line)]
+            for m in matches:
+                if m is None:
+                    continue
+                pipe = line.rfind("|", 0, m.start())
+                segment = alias and pipe >= 0 and not line[pipe + 1:m.start()].strip()
+                if m.start() >= MARKER_COL_CAP and not segment:
+                    continue
                 try:
                     d = datetime.datetime.strptime(m.group(1), "%Y-%m-%d").timestamp()
                 except ValueError:
