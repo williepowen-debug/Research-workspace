@@ -1,8 +1,8 @@
 {
   "_doc": "L336 condition A1 \u2014 the RECORDED audit baseline. Written by PROME at each closeout commit; read by argus_scope.py. No regex decides what a closeout is, so a commit whose SUBJECT is about closeout can never become the baseline (BLOCKER F-1: 00afa8b99 did exactly that and silently truncated the audit by 11 commits / 29 paths).",
   "_written_by": "PROME/tools/argus_scope.py --record-baseline <sha>",
-  "sha": "d21fd09690d892de6f3a1114cba0bc47b8f6805c",
-  "subject": "PROME -> FALCON: read-only pre-fetch of SIG-W-20261003-012/-013 \u2014 nothing fires, items unconsumed",
-  "recorded_at": "2026-10-03T19:14:11-04:00",
+  "sha": "dd4eac354cb6e4f34a13b59b88a35effd6b7454f",
+  "subject": "PROME: WQ-380 corrected (deny line is partial protection) + CATO review in the candidates report",
+  "recorded_at": "2026-10-03T19:48:08-04:00",
   "recorded_by": "PROME"
 }
