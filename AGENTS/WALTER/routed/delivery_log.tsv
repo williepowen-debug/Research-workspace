@@ -3554,17 +3554,17 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-10-03T19:42:50Z	SIG-W-20261003-010	SHADE	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/SHADE/inbox/WALTER/SIG-W-20261003-010.md	delivered	dark; third-party lead, 1/23 pages; logged DOORBELL not doorbelled; BROCK info via BOARD
 2026-10-03T21:05:00Z	SIG-W-20261003-011	BRENT	INFO	CLAUDE_CODE	ROUTINE	AGENTS/BRENT/inbox/WALTER/SIG-W-20261003-011.md	delivered	dark; INFO de-escalatory, no doorbell; TERRY/RED/PROME via BOARD-diff
 2026-10-03T21:05:00Z	SIG-W-20261003-011	HENRY	INFO	CLAUDE_CODE	ROUTINE	AGENTS/HENRY/inbox/WALTER/SIG-W-20261003-011.md	delivered	dark; INFO de-escalatory, no doorbell
-2026-10-03T23:03:05Z	SIG-W-20261003-012	FALCON	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/FALCON/inbox/WALTER/SIG-W-20261003-012.md	written_not_delivered_pending_push	dark (weekend); Will-batch; DOORBELL logged
-2026-10-03T23:03:05Z	SIG-W-20261003-012	HAWK	INFO	CLAUDE_CODE	PRIORITY	AGENTS/HAWK/inbox/WALTER/SIG-W-20261003-012.md	written_not_delivered_pending_push	dark (weekend); Will-batch; no doorbell
-2026-10-03T23:03:05Z	SIG-W-20261003-012	BRENT	INFO	CLAUDE_CODE	PRIORITY	AGENTS/BRENT/inbox/WALTER/SIG-W-20261003-012.md	written_not_delivered_pending_push	dark (weekend); Will-batch; no doorbell
-2026-10-03T23:03:05Z	SIG-W-20261003-013	FALCON	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/FALCON/inbox/WALTER/SIG-W-20261003-013.md	written_not_delivered_pending_push	dark (weekend); Will-batch; DOORBELL logged
-2026-10-03T23:03:05Z	SIG-W-20261003-013	BRENT	INFO	CLAUDE_CODE	PRIORITY	AGENTS/BRENT/inbox/WALTER/SIG-W-20261003-013.md	written_not_delivered_pending_push	dark (weekend); Will-batch; no doorbell
-2026-10-03T23:03:05Z	SIG-W-20261003-014	HOMER	INFO	CLAUDE_CODE	ROUTINE	AGENTS/HOMER/inbox/WALTER/SIG-W-20261003-014.md	written_not_delivered_pending_push	dark (weekend); Will-batch; no doorbell
-2026-10-03T23:03:05Z	SIG-W-20261003-014	REGINALD	INFO	CLAUDE_CODE	ROUTINE	AGENTS/REGINALD/inbox/WALTER/SIG-W-20261003-014.md	written_not_delivered_pending_push	dark (weekend); Will-batch; no doorbell
-2026-10-03T23:03:05Z	SIG-W-20261003-015	CORAL	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/CORAL/inbox/WALTER/SIG-W-20261003-015.md	written_not_delivered_pending_push	dark (weekend); Will-batch; no doorbell
-2026-10-03T23:03:05Z	SIG-W-20261003-015	AEOLUS	INFO	CLAUDE_CODE	PRIORITY	AGENTS/AEOLUS/inbox/WALTER/SIG-W-20261003-015.md	written_not_delivered_pending_push	dark (weekend); Will-batch; no doorbell
-2026-10-03T23:03:05Z	SIG-W-20261003-016	BRENT	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/BRENT/inbox/WALTER/SIG-W-20261003-016.md	written_not_delivered_pending_push	dark (weekend); Will-batch; no doorbell
-2026-10-03T23:03:05Z	SIG-W-20261003-016	HANS	INFO	CLAUDE_CODE	PRIORITY	AGENTS/HANS/inbox/WALTER/SIG-W-20261003-016.md	written_not_delivered_pending_push	dark (weekend); Will-batch; no doorbell
-2026-10-03T23:03:05Z	SIG-W-20261003-016	HENRY	INFO	CLAUDE_CODE	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20261003-016.md	written_not_delivered_pending_push	dark (weekend); Will-batch; no doorbell
-2026-10-03T23:03:05Z	SIG-W-20261003-016	LIQUID	INFO	CLAUDE_CODE	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20261003-016.md	written_not_delivered_pending_push	dark (weekend); Will-batch; no doorbell
+2026-10-03T23:03:05Z	SIG-W-20261003-012	FALCON	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/FALCON/inbox/WALTER/SIG-W-20261003-012.md	delivered	dark (weekend); Will-batch; DOORBELL logged
+2026-10-03T23:03:05Z	SIG-W-20261003-012	HAWK	INFO	CLAUDE_CODE	PRIORITY	AGENTS/HAWK/inbox/WALTER/SIG-W-20261003-012.md	delivered	dark (weekend); Will-batch; no doorbell
+2026-10-03T23:03:05Z	SIG-W-20261003-012	BRENT	INFO	CLAUDE_CODE	PRIORITY	AGENTS/BRENT/inbox/WALTER/SIG-W-20261003-012.md	delivered	dark (weekend); Will-batch; no doorbell
+2026-10-03T23:03:05Z	SIG-W-20261003-013	FALCON	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/FALCON/inbox/WALTER/SIG-W-20261003-013.md	delivered	dark (weekend); Will-batch; DOORBELL logged
+2026-10-03T23:03:05Z	SIG-W-20261003-013	BRENT	INFO	CLAUDE_CODE	PRIORITY	AGENTS/BRENT/inbox/WALTER/SIG-W-20261003-013.md	delivered	dark (weekend); Will-batch; no doorbell
+2026-10-03T23:03:05Z	SIG-W-20261003-014	HOMER	INFO	CLAUDE_CODE	ROUTINE	AGENTS/HOMER/inbox/WALTER/SIG-W-20261003-014.md	delivered	dark (weekend); Will-batch; no doorbell
+2026-10-03T23:03:05Z	SIG-W-20261003-014	REGINALD	INFO	CLAUDE_CODE	ROUTINE	AGENTS/REGINALD/inbox/WALTER/SIG-W-20261003-014.md	delivered	dark (weekend); Will-batch; no doorbell
+2026-10-03T23:03:05Z	SIG-W-20261003-015	CORAL	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/CORAL/inbox/WALTER/SIG-W-20261003-015.md	delivered	dark (weekend); Will-batch; no doorbell
+2026-10-03T23:03:05Z	SIG-W-20261003-015	AEOLUS	INFO	CLAUDE_CODE	PRIORITY	AGENTS/AEOLUS/inbox/WALTER/SIG-W-20261003-015.md	delivered	dark (weekend); Will-batch; no doorbell
+2026-10-03T23:03:05Z	SIG-W-20261003-016	BRENT	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/BRENT/inbox/WALTER/SIG-W-20261003-016.md	delivered	dark (weekend); Will-batch; no doorbell
+2026-10-03T23:03:05Z	SIG-W-20261003-016	HANS	INFO	CLAUDE_CODE	PRIORITY	AGENTS/HANS/inbox/WALTER/SIG-W-20261003-016.md	delivered	dark (weekend); Will-batch; no doorbell
+2026-10-03T23:03:05Z	SIG-W-20261003-016	HENRY	INFO	CLAUDE_CODE	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20261003-016.md	delivered	dark (weekend); Will-batch; no doorbell
+2026-10-03T23:03:05Z	SIG-W-20261003-016	LIQUID	INFO	CLAUDE_CODE	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20261003-016.md	delivered	dark (weekend); Will-batch; no doorbell
 2026-10-03T23:16:28Z	SIG-W-20261003-003	BRENT	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/BRENT/inbox/WALTER/SIG-W-20261003-003-reroute.md	written_not_delivered_pending_push	dark; refining-margin re-route per PROME flag; TERRY via BOARD-diff (pull-complete); Will flagged via Telegram

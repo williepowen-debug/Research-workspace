@@ -75,8 +75,8 @@ Session: **2026-10-03 Sat PM, walter-f0 (Claude Opus 4.8), fresh terminal boot (
   "delivery": {
     "signal_date": "20261003",
     "total": 24,
-    "delivered": 10,
-    "note": "20261003 day: 24 delivery_log rows. 10 DELIVERED on origin (morning -001..-010 + PM -011, reconciled). 14 PENDING-PUSH = post-closeout Will-batch handoffs (-012..-016) + the -003 BRENT re-route (refining-margin/VLO, PROME flag), all recipients dark. CARL/TERRY/RED/PROME via BOARD-diff (no row)."
+    "delivered": 23,
+    "note": "20261003 day: 24 delivery_log rows, 23 DELIVERED on origin (morning -001..-010 + PM -011 + the -012..-016 Will-batch handoffs, all reconciled after the train pushed them). 1 PENDING = the -003 BRENT re-route handoff (my latest local commit, not yet pushed). CARL/TERRY/RED/PROME via BOARD-diff (no row)."
   },
   "push": {"pre_closeout_commits_on_origin": 5, "closeout_commit": "carried_to_origin_by_CATO_push_fresh_fetch_confirmed", "post_closeout_correction_commit": "local_pending_next_push"},
   "owner_review": {
