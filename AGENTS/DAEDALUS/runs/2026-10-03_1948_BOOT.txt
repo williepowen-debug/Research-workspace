@@ -1,0 +1,33 @@
+DAEDALUS boot — 2026-10-03 19:48 EDT
+Request: Will asked DAEDALUS to boot. Scope: startup, continuity and checks only.
+
+Read root/local rules, SPEC (historical), STATUS, HANDOFF, generated fleet directory,
+hot pattern index, both current inbox packets and the latest delivery receipt.
+Verified current DOCKET L490/L594/L603 against the handoff.
+
+Boot gate 20261003T234859Z: rc=2; CLEAN=3, ENUMERATED=2, UNKNOWN=1.
+- Fresh fetch: HEAD 1b0d13c47, ahead/behind 0/0 at check time.
+- Other-owner dirty state: PROME/state/argus_baseline.json. No pull performed.
+  Earlier CATO modifications cleared during boot; no changes made by this session.
+- Corrections: zero unreceipted named rows.
+- Read cap: zero over-budget, manifest-defect or rotation-due findings.
+- Docket: 45 open in-window obligations cited, zero uncited. Citation is not completion.
+- Profile clocks UNKNOWN: HENRY, HOMER, OSPREY require owner-STATUS comparisons.
+  Fourteen profiles exceed their own dated clocks; six have no dated clock.
+- Prose-Remedy Census overdue 8 days; PROME judgment sweep overdue 4 days.
+  Existing scheduling and stale clocks retained. No fleet clean bill.
+
+Inbox dispositions (retained pending scheduled work):
+- L594 Helm: superseding October 3 text read. Do not repeat the split or move
+  the manual. Reviewed fold bundle already delivered and consumed. PROME owns
+  October 5 integration, Standard gate, hosted acceptance and CLOSEOUT rewiring.
+- L603 bookmark candidates: scope-check October 5; evaluation October 12.
+  Build on PROME's four-candidate primary-source read now cited in the docket;
+  candidates remain unverified outside those explicit reads. No adoption today.
+
+Next priority: October 5 owner Helm acceptance and L490/L530/L538/L604
+scope/disposition checkpoint. Broad reviews do not displace that delivery.
+No new decision requested from Will by this boot. No peer messages sent.
+REVIEW: not-required — startup receipt and continuity only; no implementation change.
+Git: commit only own startup records; defer push while other-owner dirty state
+persists under root CLAUDE.md Before pulling rule 2. No prior delivery invalidated.
