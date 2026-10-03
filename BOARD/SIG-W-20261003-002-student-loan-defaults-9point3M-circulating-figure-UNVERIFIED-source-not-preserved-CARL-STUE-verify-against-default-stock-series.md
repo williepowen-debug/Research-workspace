@@ -28,6 +28,10 @@ A credit screenshot in Will's 2026-10-03 morning batch cited **"9.3M student-loa
 
 STUE (CARL's student-loan sub-agent) already tracks the default stock closely on dated primaries: the live operative number is **NY Fed Q1-2026 QHDC 10.3% 90+ DQ** (CRL-04 CONFIRMED), with a default **stock ~9.0M–9.2M** across FSA/NY-Fed vintages (CRL-04 outcome notes 9.16M Apr, ~9.2M). A "9.3M" figure is **inside or just above that already-tracked band** and is very likely a restatement, not a new print.
 
+## SOURCE FOUND (additive, 2026-10-03 backlog pull)
+
+The X-bookmark backlog surfaced the source: **@dailyjobcuts (X, 2026-10-01)** — *"As of June 30, roughly 9.3 million federal student loan borrowers were in default, up from ~6.2 million at the same time in 2016; Admin launching a 'Default Loans Support Center.'"* So **9.3M is a dated ED-attributed default-STOCK figure as of 2026-06-30**, not a random screenshot — consistent with STUE's ~9.0–9.2M band, and the "Default Loans Support Center" launch is a new policy datum. Still not a primary read (relayed), but it is dated and attributable. STUE: reconcile 9.3M@June-30 vs its FSA/NY-Fed vintages and note the support-center launch.
+
 ## RECIPIENT ACTION
 
 - **CARL / STUE (info):** no hard ask. If STUE judges "9.3M" to be a NEWER dated print than its current series (FSA `PortfoliobyLoanStatus`, NY Fed QHDC), confirm and date it against the primary; otherwise treat as a known-band restatement. **Do NOT cite "9.3M" as a standalone figure without its source/date.** CARL is pull-complete (BOARD ID-diff; no handoff written).
