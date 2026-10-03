@@ -24,3 +24,36 @@ Tier-2 (in the file): prompting-guide rules (#152), Guy Steele "define-before-us
 3. No deadline. This is an evaluation queue, not a fire.
 
 *Provenance: read-only bookmark scan, seen-set untouched. Full list + honesty caveats in the artifact above.*
+
+---
+
+## 🔴 CORRECTION ADDENDUM 2026-10-03 (CATO review, relayed by Will) — corrected inventory + per-candidate bounded comparisons
+
+⚠️ **My original Tier-1 OVERSTATED the "gaps" — my inventory missed existing desk tools. Corrected:**
+
+**We are NOT missing these capabilities; the question is whether the candidates IMPROVE the existing route. Evaluate as improvements, not gap-fills.**
+
+### Candidate A — `financial-datasets` MCP (financialdatasets.ai) [fundamentals]
+- **Existing route:** DEWEY `scripts/edgar_doc.py` `xbrl_concept()` — structured SEC/XBRL financials (val/fy/fp/form/filed) via the SEC company-concept API. **Free, authoritative (filings), US-only, needs XBRL concept tags.**
+- **What it could improve:** easier NORMALIZATION (pre-computed ratios, e.g. P/E, vs raw XBRL), BROADER COVERAGE (crypto, non-US, non-SEC), FASTER research (one query vs XBRL navigation).
+- **Desk that benefits:** DEWEY (research), REGINALD (bank earnings), VULCAN (hyperscaler FCF/capex), CARL (consumer-co fundamentals).
+- **One bounded comparison:** take ONE task a desk recently did via `edgar_doc.py` (e.g. a bank reserve ratio or a hyperscaler capex line); run the same query through financial-datasets; compare (1) agreement with the actual filing, (2) latency, (3) effort. Adopt only if it matches the filing with less effort; if it diverges from the filing, DEWEY's SEC route stays authoritative. Cost: paid API.
+
+### Candidate B — options chains + Greeks API [options]
+- **Existing route:** TERRY `scripts/chain_fetch.py` (live chain via yfinance — **IV present, delta/theta ABSENT from source**) + `scripts/greeks.py` (Black-Scholes, **FLAT vol, European, manual skew** — Greeks COMPUTED, not market-supplied). Real limits: computed Greeks under simplified assumptions; chain may be delayed.
+- **Options-API IDENTIFICATION (CATO priority b):** the exact @JasonL_Capital tool is **UNIDENTIFIED** — hidden behind a video (thumbnail = Claude logo) + a "first-comment" reply too old for recent-search. **Class identified by web search:** leading candidate **Public.com MCP** (`get_options_chain`, `get_option_greeks`, `place_order` — broker-integrated, supplied Greeks, real-time if funded, but broker-tied + CAN PLACE ORDERS = safety concern); free alternatives **OptionsFlow MCP (twolven)** — but it COMPUTES Greeks (same as TERRY, **no gain**) — and **options-chain MCP (blake365)** — free tier **15-min DELAYED** (**worse**); **FlashAlpha** (40 tools, dealer positioning + vol surface + full Greeks, likely paid). ⇒ **The "supplied-Greeks" improvement over TERRY exists ONLY in the paid/broker class; a "free" options feed is either computed (no gain) or delayed (worse).** Could not retrieve official docs for the exact promoted tool — it is unnamed.
+- **What it could improve:** a reliable, TIMESTAMPED feed with MARKET-SUPPLIED delta/theta (vs TERRY's BS-computed, flat-vol, manual-skew Greeks) — better accuracy for construction + monitoring, esp. where skew matters.
+- **Desk that benefits:** TERRY (trade construction + position monitoring on the live options book).
+- **One bounded comparison:** take ONE live position (e.g. QQQ 735P Oct-5, or VLO options); pull supplied delta/theta from the candidate feed AND compute via `greeks.py`; compare the Greeks + timestamp. Genuine improvement only if the feed SUPPLIES market Greeks (not re-computed BS), is real-time, and differs materially from TERRY's (esp. under skew). If it computes the same BS way or is delayed → no gain.
+
+### Candidate C — `last30days-skill` (disler/mvanhorn) [research]
+- **Existing route:** WALTER RESEARCH-INTAKE lane + DEWEY deep research.
+- **What it could improve:** parallel multi-source (Reddit/X/YouTube/HN/Polymarket/web) + an engagement/"real-money" ranking signal — breadth + a different ranking axis.
+- **Desk:** WALTER (intake), DEWEY (deep research).
+- **One bounded comparison:** run ONE real research question we've already answered through last30days-skill AND our existing route; compare the EVIDENCE surfaced — did it find a load-bearing primary we missed, or just more volume? **More sources + engagement scoring do NOT establish better evidence** (CATO); the test is missed-primary recovery, not count.
+
+### Candidate D — `ai-hedge-fund` (virattt) / `TradingAgents` (TauricResearch) [architecture reference]
+- **CORRECTED:** drop my "we're already past these / perform better" claim — **unproven; similar structure does not prove our system performs better** (CATO). Keep as **architecture REFERENCE only** (like the JPM "Ask David" piece).
+- **One bounded comparison (reference, not performance):** run one ticker through ai-hedge-fund; compare its decision-DECOMPOSITION + disagreement-handling to how our fleet structures the same — as an architecture learning, NOT an outcome claim.
+
+**⛔ No installation, no paid trial yet** — these are evaluate-first. Further bookmark-cluster browsing is HELD per CATO.
