@@ -1,5 +1,7 @@
 # PROFILE — PROME (coordinator / chief of staff)
 
+> **Owner-response follow-through October3:** CONSUMED. Five source/local gaps verified repaired at observed bytes, S3 CARRIED, S4 WQ381. Changed generated Helm/Deck action checked; hosted UNKNOWN, final owner closeout acceptance in flight. Full current dispositions at `upgrades/PROME_SWEEP_2026-10-03.md` opening; no grade/body/whole-sweep clock change.
+
 > **TARGETED judgment review 2026-10-03 — bounded package COMPLETE; whole sweep PARTIAL:** seven supported findings (O-NEW-1–3, S1–S4), two readers plus post-blind challenge. Current Helm/Deck semantics, 12 mirror rows, spine, rebase receipts and nine closure chains inspected; hosted content and complete historical consumer receipts UNKNOWN. Full result `upgrades/PROME_SWEEP_2026-10-03.md` and reader companion. Grade remains **L4 / M, assessed October 1**; full-body vintage remains September 3 and full-sweep last_run September 8. September 8 findings were repaired September 9, not reopened.
 
 > **HISTORICAL targeted judgment-tail review 2026-09-08:** current grade **L4 / M**, reverting the conditional L5 at its registered confirm read. Five current repairs O1/O2/O3/S1/S2 and per-leg verdict → `upgrades/PROME_SWEEP_2026-09-08.md`; hosted pages UNKNOWN, local rendered defects verified. Prior §5 body findings below are September 3 history unless reverified there. This annotation changes the grade/findings summary, not the full-body vintage.

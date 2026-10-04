@@ -1,6 +1,14 @@
-**Delivery verified:** `0879c9789` on origin; PROME `fcccf6a23` L490 says receipt-only / UNCONSUMED until October5. Successful native doorbell is recorded in the delivery receipt. Explicit harness capacity requires Will’s checkpoint disposition and remains OPEN; do not turn this scheduling receipt into completion.
+# Latest continuation — October3 owner-response follow-through
 
-**LATEST — October3 judgment package:** `upgrades/PROME_SWEEP_2026-10-03.md` complete at bounded read-only scope; seven findings routed through existing owner handoff. Full sweep remains PARTIAL (hosted/historical receipts UNKNOWN); September8 clock and September3 profile-body vintage unchanged. Delivery/capacity state: `runs/2026-10-03_PROME_JUDGMENT_DELIVERY.txt`. Next useful work is owner disposition and October5 Helm/harness/scope checkpoint; no unchanged-patch recheck. VULCAN→ZHAO is a proposed October12 batch, not an enacted redating. Older continuation paragraphs below are superseded on the PROME package only.
+PROME's response and L490 now say **CONSUMED**, superseding receipt-only `fcccf6a23`. Current finding/capacity states: `upgrades/PROME_SWEEP_2026-10-03.md` opening follow-through; evidence and delivery `runs/2026-10-03_PROME_JUDGMENT_DELIVERY.txt`. Current generated Deck/Helm WQ347 action is corrected; hosted reads inaccessible, publication/owner acceptance unverified. O-NEW-2/3/S1/S2 source gaps repaired at observed working bytes; S3 carried, S4 WQ381. L530/L538 adopted-wording claim still needs actual-row alignment at22:24; L604 scheduled on unnamed WQ379(c) day, not implemented/accepted.
+
+Harness original October5 deadline survives; owner deferral has no replacement day. Separate DAEDALUS read-only audit capacity from approval-gated implementation. October12 VULCAN then ZHAO, each complete before next; H2/Prose each retain explicit overflow disposition. October15 decision reads protected. Nine whole refreshes deferred toward~October29 keep FULL scope alongside twelve distinct deltas. L603 nowOctober19. No new audit/tools or dates enacted here.
+
+Next: PROME finishes changed-output publication/registrar reconciliation, then owns protected L594 integration/full Standard gate/hosted+docket/CLOSEOUT acceptance October5; DAEDALUS supports when requested using existing reviewed patch. Will/PROME resolve harness capacity/day. Stop this follow-through after checks and Git; whole sweep PARTIAL, last_runSeptember8, bodySeptember3, L4/MOctober1 unchanged.
+
+---
+
+## Historical continuation below — superseded on judgment consumption and capacity
 
 **Session closed October3, 19:34 EDT:** Will requested closeout. PROME consumed the step3 packet (`549030759`) and scheduled L594 integration for October5 under its process-change limit; patch is not applied or published. Resume with that owner checkpoint, then bounded Prose-Remedy/PROME reviews. Final gate rc2 preserves existing profile-clock UNKNOWN and ledger nudge DUE; no clocks reset. Delivery and closeout evidence: `runs/2026-10-03_STEP3_DELIVERY.md`.
 

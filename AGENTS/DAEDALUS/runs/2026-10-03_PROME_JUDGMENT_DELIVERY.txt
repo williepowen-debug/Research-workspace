@@ -62,3 +62,39 @@ read-cap/pairing/weekday/STATUS/PATTERNS conservation clean. C0 remains
 UNKNOWN and C3 DUE for the existing stated limits; no false all-green claim.
 Receipt closeout_final.json; no Helm build/test repeated. Final follow-up
 commit records delivery and receipt-only owner response, not changed findings.
+
+FOLLOW-THROUGH — October3 late owner response (observed UTC2026-10-04T02:24:39)
+Receipt-only fcccf6a23 state above is SUPERSEDED. PROME committed response as
+89eb81946 and moved original packet to processed; actual L490 live row records
+CONSUMED and capacity dispositions. CATO late correction read at48e8947ca.
+Source/capture evidence: prome_sweep_2026-10-03/followup_sources.json plus
+followup_deck.html.gz / followup_helm.html.gz. Working-tree evidence is labelled;
+PROME closeout was active, no owner edits/staging/pull performed.
+
+New generated local Deck/Helm action is corrected; no build/test rerun.
+Five local/source gaps closed only at inspected bytes; S3 carried/S4 routed.
+Hosted direct reads inaccessible; no correction-specific PUBLISH receipt in
+inspected ORCH tail. Original sweep clock/grade/body vintage retained.
+Actual L530/L538 still carry older clauses despite L490/reply adoption; narrow
+registrar gap (in-flight), no new defect ID. Final pre-delivery check follows.
+Harness deferral recorded but no new day: original10/5 due survives, read-only
+audit capacity is distinct from approval-gated implementation. VULCAN→ZHAO,
+October15 decisions and H2/Prose overflow retained; nine deferred whole profiles
+keep full scope. L603 actual date10/19; no unilateral date change.
+
+REVIEW: not-required — register re-cut/owner-disposition reconciliation;
+scope current report and own continuity, named source rows and changed local
+production output; reader NONE-OWED for maintenance class, CATO late independent
+probe retained as existing evidence; APPLIED owner dispositions, RESIDUE hosted,
+row alignment, unnamed capacity day and owner acceptance. No new mechanism.
+No duplicate packet: any material unresolved correction will be pointed to the
+current report over the existing native doorbell, referencing original packet.
+
+Final pre-delivery row capture: followup_precommit.json. L530/L538 still old;
+PROME ARGUS in flight, no settled-new-defect assertion. Narrow native handoff
+points to current report and original processed packet; no duplicate packet.
+Closeout022926Z rc2: C0 existing profile-clock UNKNOWN, C3 ledger nudge DUE;
+CHECKS/SURFACES/PATTERNS not reviewed, no unrelated freshness reset. C9 date
+format corrected after initial check; C1/C5/C6/C7/C8/C9 CLEAN. Scope-only map
+annotations retain grade/date; directory regeneration produced no content diff.
+Own whitespace check clean; foreign ORCH trailing tabs preserved.

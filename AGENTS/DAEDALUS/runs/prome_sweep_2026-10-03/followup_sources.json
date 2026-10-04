@@ -1,0 +1,605 @@
+{
+  "observed_utc": "2026-10-04T02:24:39.028776+00:00",
+  "head": "89eb81946cacceab02e8b353ead0357d875bc05e",
+  "working_tree_snapshot_not_owner_acceptance": true,
+  "hosted": "Helm and Deck direct opens inaccessible; UNKNOWN. No current correction-specific PUBLISH receipt in inspected ORCH tail; latest PUBLISH 21:18 predates repair.",
+  "sources": [
+    {
+      "path": "PROME/DOCKET.tsv",
+      "sha256": "500cb21ae7edaec495a212754f113fbb05aa48c0fe7e417a3a1adea9541bd691",
+      "bytes": 1306333,
+      "double_read_stable": true,
+      "excerpts": [
+        {
+          "line": 490,
+          "text": "2026-10-05\tDAEDALUS OWED SET carried from the 9/25 L290 spawn (DAEDALUS cadence WEEKLY declared 9/25 ⇒ this is its next wake): ① WQ-286 ①–④ BUILDS — BARON freeze · G1 · G2 (needs an independent reader) · R2 = require the receipt — Will-approved 9/24 18:32 ET (record PROME/proposals/2026-09-24_wq-batch-284-252-285-286-RULED.md), NOT landed as of 9/25 (DAEDALUS git-log checked); each build writes its acceptance conditions FIRST (WQ-229) · ② the DUE queues DAEDALUS named and skipped 9/25: profile-refresh queue (BROCK 57→58 trigger FIRED, profiles/BROCK.md:8) · Prose-Remedy Census #1 · H2 as-made audit · ③ scorecard.py v1.2 residue 1–5 (AGENTS/DAEDALUS/runs/2026-09-25_SCORECARD_V1_2_REPAIR.md) before the 10/02 render · ④ HENRY/LIQUID DOORBELL rows unchecked at the staleness-#5 pass. PROME's word on the FLEET_DIRECTORY generated `WF` column (DAEDALUS counter-proposal, cadence packet §3): GO as specified — read-only import of the lane config at render time, values n · — · n/a · UNKNOWN (fail-closed when the lane is unreadable), never a hand column; not a Will surface. WQ-295 R2/R4 encodes wait on Will's ruling and are NOT part of this row.\tDAEDALUS (builds, queues, residue) / PROME (spawn driver + consumer read) / Will (WQ-295 R2/R4 only)\tPENDING · RE-DATED 2026-10-02 → 2026-10-05 at 2026-10-01 12:56 ET (PROME prome-0c) on the OWNER's dated owed list (DAEDALUS full closeout 0b4f29732, STATUS): the 10/1 session delivered L460/L457/L472/L541 and did not start this row. · +2026-10-03 17:3x ET RECEIPT (PROME prome-ed, post-/clear sitting): DAEDALUS's handoff packet received (PROME/inbox/processed/2026-10-03_from-DAEDALUS_catchup-disposition-and-oct5-scope.md; delivery Will-authorized in DAEDALUS's session; CATO's assessment 3e356eaf5) — WQ-286 builds LANDED 10/2 with bounded repairs and fresh reads 10/3 (6fc235ca9) · scorecard v1.3 repair recorded 10/1, the 10/2 RENDER still missing · profile queue scheduled (11 refreshes 10/12 · 8 embedded reads 10/15 · 12 deltas ~10/29), a capacity risk DAEDALUS names, not a promise · H2 audit + Prose-Remedy Census #1 missed 9/25, target 10/12 · directory WF column + HENRY/LIQUID doorbell follow-through still owed. DAEDALUS proposes this row stays PENDING/PARTIAL with the 10/05 checkpoint deciding scope and the later legs linked to their dates; PROME dispositions AT the 10/05 checkpoint (Monday boot) — receipt only here, no date overwritten; its L530/L538 replacement clauses and the L594 protection ask go to Monday's disposition too; the spawn-slate B1/B2 findings → L604. · +18:41 ET RECEIPT (PROME prome-ed): DAEDALUS's follow-through packet received and consumed (PROME/inbox/processed/2026-10-03_from-DAEDALUS_step3-helm-patch-WF-and-H2-receipts.md, 42ee687a2; implementation 572335d24, scorecard e8bde64df — all paths inside AGENTS/DAEDALUS/ except the packet, VERIFIED by name-only) — L490 WF tails DONE at DAEDALUS's record (`runs/2026-10-03_L490_TAILS.md`) · H2 correction: 11 action receipts, not 11 completed calibrations (`runs/2026-10-03_H2_RECEIPT_RECONCILIATION.md`) · scorecard 2026-10-02 rendered 10/3 from c5cd19407, 198/270 defect counts EMPTY, no improvement claim. The 10/5 scope/date checkpoint and the L530/L538/L604 dispositions stay PROME's at this date. · +21:55 ET RECEIPT ONLY (PROME prome-ed, after the Light closeout): DAEDALUS's judgment-review packet landed on origin (0879c9789; PROME/inbox/2026-10-03_from-DAEDALUS_prome-judgment-review-and-oct5-capacity.md, UNCONSUMED — Monday's boot reads it). It carries: O-NEW-1 a stale 'sell/roll the four Oct-2 QQQ puts before Fri 15:00' next-action still on the Helm/Deck/FORGE position_management row 19/WQ-347 after those puts expired (Will-facing; cosmetic until Monday, fix first) · O-NEW-2 HEARTBEAT L55 '1-of-3 sustained' vs L18's withheld count · O-NEW-3 the WQ-295 proposal lacks a successor pointer · S1–S4 canon/spine label findings (GIT_COORDINATION --push cookbook vs CLOSEOUT order; a stale memory mirror; the Gate C runbook vs carve-out ④; charter parity 'advisory' vs blocking) · the 90-DAY HARNESS AUDIT DUE 10/05 (July 7 + 90d) — DAEDALUS asks Will for an explicit capacity allocation or a recorded deferral at this checkpoint; L490/L530/L538 reconciliation asks. Dispositions at this row's date. · +2026-10-03 22:1x ET DISPOSITION (PROME prome-ed, Saturday evening sitting — the 10/05 checkpoint taken early on DAEDALUS's cross-session doorbell; the packet is CONSUMED, PROME/inbox/processed/): (i) the 90-DAY HARNESS AUDIT (due 2026-10-05, July 7 + 90d): DEFERRED to the WQ-379 (c) process day Will names — Monday is position-facing (QQQ 735P ×5 stop 15:00 · FRED HY cell ~10:15 · VULCAN 08:30 · BOND L608) and the WQ-299 R1 ceiling reads ZERO there; the missed 10/05 deadline is RETAINED on DAEDALUS's registry (last_run/deadline unchanged, not re-dated by PROME). (ii) legs: WF column DONE · WQ-286 builds LANDED · scorecard 2026-10-02 RENDERED 10/3 · profile batch 10/12 = VULCAN then ZHAO, each complete through review/write-back before the next (RETAINED) · the eight embedded reads 10/15 PROTECTED (HAWK/FALCON ruling-A; BROCK/REGINALD/MIDAS L5 decision reads) · the nine whole refreshes (AEOLUS, HAWK, HOMER, WAL, BROCK, CREED, REGINALD, FALCON, MIDAS) DEFERRED past 10/15 to the ~10/29 delta pass — no partial-delta body restamps, no CREED launch · H2 MARCO/REGINALD/HENRY residue + Prose-Remedy Census #1 keep the 10/12 target BEHIND the profile batch · D7 separate. (iii) L530/L538 replacement clauses ADOPTED on those rows. (iv) L604 repair = a process slot on the WQ-379 (c) day with an independent result reader (its 10/05 checkpoint is a receipt, not the repair). (v) L603 RE-DATED 10/12 → 10/19 so DAEDALUS's evaluation does not share the profile day. (vi) L594 Helm fold PROTECTED first. (vii) findings: O-NEW-1 FIXED (FORGE position_management row 19 action re-based; WQ-347 title/rec re-based; Deck/Helm republish at closeout) · O-NEW-2 FIXED (HEARTBEAT closest-lines cell + SCRATCH card withhold the sustained count to RED/REGINALD) · O-NEW-3 FIXED (disposition pointer on the WQ-295 PROPOSAL) · S1 FIXED (GIT_COORDINATION cookbook reconciled to CLOSEOUT step 10 — the session's ONE process change, class PROCESS) · S2 FIXED (memory mirror re-based to root) · S3 CARRIED (Gate C runbook vs carve-out ④: the existing WQ-150 root-④ carry; root governs; no activation) · S4 → WQ-381 (Will, 10/09). Reply packet in DAEDALUS's inbox. The 10/05 date STAYS — Monday's boot confirms at the checkpoint; nothing here is a build receipt.\tPROME/inbox/processed/2026-09-25_from-DAEDALUS_L290-render-4-inbox-drain-wq295-doorbell-close.md (7a5968d8f) + …_from-DAEDALUS_cadence-and-watch-terms.md · AGENTS/DAEDALUS/runs/2026-09-25_INBOX_DISPOSITIONS.md\tREGISTERED 2026-09-25 12:3x ET at the DAEDALUS delivery consume (prome-2e leg 3); date = DAEDALUS's WEEKLY cadence from the 9/25 wake, and the same day as L487's spec-letter row so one wake carries both."
+        },
+        {
+          "line": 530,
+          "text": "2026-10-07\t🟠 **`read_cap_check.py` PERIMETER GAP — a boot-read-WHOLE surface at 84% of budget is INVISIBLE to the gate because its boot step lists several paths on ONE line.** CREED's `CLAUDE.md` step 6.1 names `registry/THRESHOLDS.tsv` (27,247 B = 84% of the 32,550 B budget, measure.py 9/28) among several paths in one sentence; the instrument's read-line heuristic picks up only the first/one path per line, so `--agent CREED` flags PREDICTIONS.tsv (78%) and COVERAGE.md and never THRESHOLDS.tsv — while `PROME/registry/READS.tsv` L132 already declares WALTER reads that same file WHOLE. WALTER's closeout instrument caught the bytes (9/28); the fleet gate did not. Same shape for HANS `registry/THRESHOLDS.tsv` (26,639 B, 82%; its CLAUDE.md §KEY THRESHOLDS names it canonical; owner declaration pending, packet in its inbox). Class: `finding_scan_keyed_on_naming_reads_local_form_as_absence` (n+1) — the instrument's pattern set defines the perimeter, not the desk's protocol.\tDAEDALUS (instrument owner) / PROME (registrar; READS.tsv perimeter) / CREED + HANS (owner rotations, separate)\tPENDING · +2026-09-29 10:3x ET RIDER (HOMER boot sweep, relayed by Will 10:26; PROME registers): a SECOND perimeter gap — `read_cap_check.py` SKIPS every agent `CLAUDE.md` because the harness auto-injects it, so a 52.7 KB HOMER charter (162% of the 32,550 B budget by HOMER's measure) is loaded whole into every HOMER session and flagged nowhere. CORRECTED 10:5x ET: `read_cap_check.py` ANSWERS this already — READ_CAP rule 20 puts harness-injected charters OUT OF PERIMETER by rule ('context cost, not truncation; the composite-injection advisory is PROME/Will's'; the checker prints charter_bytes as ℹ️). So the gap is not in the checker; it is that NO surface grades composite injection cost (root CLAUDE.md 24.2 KB + HOMER's own charter — 52.7 KB before 10:49, 37.0 KB after HOMER's Will-directed trim d66ba9ce1 — is the context a HOMER session starts with; PROME/CLAUDE.md is NOT on a desk's walk-up). That composite advisory is PROME/Will's — carried as a WQ-candidate at the next process pass, not a DAEDALUS ask. HOMER trims its own charter now regardless (owner hygiene, cold read before commit). · RE-DATED 2026-10-02 → 2026-10-07 at 2026-10-01 12:56 ET (PROME prome-0c) on the OWNER's dated owed list (DAEDALUS full closeout 0b4f29732, STATUS): the 10/1 session delivered L460/L457/L472/L541 and did not start this row.\tscripts/read_cap_check.py · AGENTS/DAEDALUS/BLUEPRINTS/READ_CAP.md · PROME/registry/READS.tsv L132 · AGENTS/CREED/CLAUDE.md step 6.1 · AGENTS/CREED/inbox/2026-09-28_from-PROME_read-cap-rotate-tier_registry-THRESHOLDS.md · AGENTS/HANS/inbox/2026-09-28_from-PROME_read-cap-rotate-tier_registry-THRESHOLDS.md\tREGISTERED 2026-09-28 17:0x ET by PROME (prome-7f third sitting) on CREED's answer (a) to the read-cap packet — CREED confirmed read-whole and diagnosed the miss; VERIFIED by PROME at CLAUDE.md:93 and READS.tsv:132. Grade at consume: DAEDALUS folds it into its 10/02 owed set (L490) — acceptance conditions first (WQ-229): every path named on a multi-path boot line enters the perimeter · a path declared whole in READS.tsv by ANY reader is measured for its OWNER · a fixture with two paths on one line fails before the fix and passes after. CREED's rotation (to <70%, before its ~10/01 Trepp append; 10 columns + band_status fire markers preserved) and its PREDICTIONS.tsv 78% (Kernel row pins 001/004/007 complicate it) are CREED's, timing with Will in CREED's window — not this row's. R1: a DAEDALUS instrument repair, not a PROME process change."
+        },
+        {
+          "line": 538,
+          "text": "2026-10-07\t🟡 **`scripts/read_cap_check.py` has no EXTERNAL-repo exemption — a scoped READ row pointing at `RESEARCH-INTAKE/…` (a different repo) grades \"DOES NOT EXIST on disk\", rc=1, while `PROME/tools/reads_check.py` exempts `EXTERNAL_ROOTS=(\"RESEARCH-INTAKE/\",)` and grades it EXTERNAL, not byte-graded.** Found by WALTER at its 9/28 closeout on the news.json row PROME transcribed (path now `RESEARCH-INTAKE/data/*/news.json`). Fix = the same root exemption in read_cap_check (one constant + a test with an EXTERNAL row); fold into L530's repair (same instrument, same sitting).\tDAEDALUS (instrument owner) / PROME (registrar)\tPENDING · +2026-10-01 16:3x ET (PROME prome-2f): RE-DATED next-DAEDALUS-session → 2026-10-07 on the owner's own board (DAEDALUS packet f19301b42, `AGENTS/DAEDALUS/STATUS.md` owed list); a re-date, not a grade.\tscripts/read_cap_check.py · PROME/tools/reads_check.py EXTERNAL_ROOTS · PROME/registry/READS.tsv (WALTER:7e row)\tREGISTERED 2026-09-28 18:4x ET by PROME (prome-7f third sitting) on WALTER's finding. R1: an instrument repair for DAEDALUS, not a PROME process change tonight. Grade at consume: `read_cap_check --agent WALTER` rc 0 with the external row listed as EXTERNAL; a fixture with an external path passes. · +19:1x ET (PROME, ARGUS r1 ⚠️6): the LIVE row no longer reproduces the rc=1 — with the glob path `RESEARCH-INTAKE/data/*/news.json` the checker prints \"declared scoped · CLASS row, not a single file\" (advisory, rc 0), so the acceptance test \"listed as EXTERNAL\" is NOT met by the glob; the reproducer is a fixture row with a concrete external path (e.g. `RESEARCH-INTAKE/data/2026-09-28/news.json`), which still reads DOES NOT EXIST. The fix must classify by the external root, not by whether the path globs."
+        },
+        {
+          "line": 594,
+          "text": "2026-10-05\tWQ-372 BUILD — fold Fleet-Ops' two unique panels (agent-freshness table · gate chips) into the Helm's board in `PROME/tools/will_handbook.py`; `fleet_dashboard.py` keeps building unpublished (its state file still feeds the closeout gate's L339 checks); a last Fleet-Ops build reads 'retired — see the Helm'. PROME then re-wires `PROME/CLOSEOUT.md` (symmetry row + step 11) in its own process slot and records the retirement in ORCH_LOG's PUBLISH line.\tDAEDALUS (build, on PROME's spec packet) / PROME (spec; the CLOSEOUT.md re-wiring = one process change; publication rows) / Will (RULED 10/02 19:14 ET)\tPENDING · +2026-10-03 14:03 EDT (PROME prome-ed): the 13:3x SCOPE ADDITION (ca221d1c8) is SUPERSEDED — PROME did the Helm split itself on Will's word 13:4x (acceptance `PROME/tools/tests/ACCEPTANCE_helm_size_split_2026-10-03.md`, one independent Opus read ❌0 ⚠️8, addendum-4 commit; page 419,929 B [13:1x build] → 204,761 B [13:5x --no-feed build, after two L594 annotations]; the reader's same-sources pair 422,877 → 205,156 B). The manual was never the weight (10 KB); #prome-work was (243 KB) and is now one line per row + `docket.html`. DAEDALUS's fold: keep the PAGE under 250 KB after it; details in the packet's SUPERSEDED section. · PENDING · +2026-10-03 13:3x ET (PROME prome-ed): SCOPE ADDITION on Will's direction 13:37 ET ('can we fix that so close out doesnt keep reading it at close out') — SPLIT THE HELM FOR SIZE in the same build: small page (≤150 KB target: board · desk · brief) + the manual/reference material as a SUPPORTING FILE published via the publisher's `files` mechanism (a supporting file needs only an in-session LISTING before replacement, no byte read; the PAGE must be viewed — so the page is what must be small); the one ~54 KB embedded line broken or moved; acceptance conditions first (republish after viewing only the small page · every link resolves · before/after bytes from measure.py · manual content crc-identical on the first split · gate checks unchanged). Appended to the DAEDALUS packet in its inbox; DAEDALUS dark (Monday wake). Republish-cadence rules and the Deck reference page's staleness stay OUT of this row. · PENDING — registered 2026-10-02 19:15 ET by PROME (prome-dc) on Will's word; the DAEDALUS packet is in its inbox; lands with DAEDALUS's Monday wake (L490) · +18:41 ET (PROME prome-ed): DAEDALUS delivered the Helm FOLD as an ISOLATED patch bundle, live source untouched — `AGENTS/DAEDALUS/builds/helm_fold_2026-10-03/helm-fold.patch` (two tools + one new test; its record `runs/2026-10-03_HELM_FOLD.md`: 60 tests PASS, page 211,025 → 213,022 B, manual identical, split preserved, `git apply --check` passed at 18:3x). OWNER ACCEPTANCE OPEN = PROME's: precondition hash recheck → apply → Standard gate → dashboard build → hosted page + docket.html → CLOSEOUT retirement rewiring. INTEGRATION IS ONE PROCESS CHANGE (WQ-299 R1) and this harness session has used its slot (L600 receipt) ⇒ NOT applied tonight; slated for the 10/5 checkpoint with this row. DAEDALUS's L594 accurate-source freshness wording also awaits PROME's acceptance there (escalate to Will only if it changes the approved scope — it is not yet read for that).\tPROME/WILL_QUEUE.md WQ-372 (RECENTLY DONE) · AGENTS/DAEDALUS/inbox/2026-10-02_from-PROME_WQ-372-fold-fleet-ops-into-the-helm.md · PROME/tools/will_handbook.py · PROME/tools/fleet_dashboard.py · PROME/CLOSEOUT.md\tWill-facing surface change; no capital, no gate"
+        },
+        {
+          "line": 603,
+          "text": "2026-10-19\tDAEDALUS EVALUATION — WALTER's system-improvement candidates from Will's X bookmarks (Will-directed scan 10/3): 8 Tier-1 mapped to live pain points — CLAUDE.md / auto-load token bloat (our read-cap breaches; ~107 KB boot load) · the `.env` deny line — partial protection, the harness's own file tools only (→ WQ-380, Will's) · doc intake (MarkItDown / anydoc; WALTER's own PDF pipeline) · multi-agent architecture references (a JPM 'Ask David' write-up of our exact shape, a 421-page agentic-design-patterns doc, Anthropic's skills taxonomy) — plus ~14 Tier-2 and a named hype cluster. DAEDALUS evaluates the queue at its next weekly wake and returns a disposition per candidate (adopt as a dated row / decline / defer). ⚠️ Caveat travels (WALTER's own): candidates were read off the posts, not the underlying talks or repos. Scope-check at the 10/05 L490 checkpoint; it must not displace L490's retained tails or the L594 Helm fold.\tDAEDALUS (evaluates) / WALTER (surfaced; seen-set untouched) / PROME (registrar; consumer read) / Will (any adoption that changes a shared rule or spends)\tPENDING — registered 2026-10-03 17:3x ET by PROME (prome-ed, post-/clear sitting) from WALTER's packet (PROME/inbox/processed/2026-10-03_from-WALTER_system-improvement-bookmarks-surfaced-routed-to-daedalus.md); the DAEDALUS copy is AGENTS/DAEDALUS/inbox/2026-10-03_from-WALTER_system-improvement-bookmark-candidates-for-architecture-eval.md. Dated to DAEDALUS's 10/12 profile day, not its already-loaded 10/05 row. · +18:29 ET PROME primary-source read of four candidates on Will’s word (#215 pending the article body, #162 figures are the poster’s, #220 MarkItDown trial on a Trepp PDF: tables gained / prose lost, #231 prompt trial produced two WQ-379 options) → `PROME/reports/2026-10-03_system-improvement-candidates-primary-source-read.md`; DAEDALUS’s pass builds on it or skips those four. · +2026-10-03 22:1x ET RE-DATED 2026-10-12 → 2026-10-19 (PROME prome-ed) at DAEDALUS's recommendation in its judgment-review packet (0879c9789): the 10/12 profile batch (VULCAN → ZHAO) and the L594 Helm fold take that day's capacity; an explicit deferral, not a grade. WQ-380 (the .env line) is already carved out and keeps its 10/09 date.\tAGENTS/WALTER/research/2026-10-03_system-improvement-bookmarks.md · AGENTS/DAEDALUS/inbox/2026-10-03_from-WALTER_system-improvement-bookmark-candidates-for-architecture-eval.md\tNo capital path. The one immediate item (the .env fence) is WQ-380, Will's word."
+        },
+        {
+          "line": 604,
+          "text": "2026-10-05\tSPAWN SLATE B1/B2 — DAEDALUS's standards-slate reader findings (10/3): B1 the slate's top summary overclaims owner session evidence for a dark-this-cycle desk ('owner in session since', printed from `sl.Liveness(until)`) · B2 the captured revision and the liveness read can describe DIFFERENT snapshots (`spawn_list.Liveness.last_self_commit` does not pin its git-log query to the captured `rev`, so a later commit can change an old revision's classification). PROME owns the code (`PROME/tools/spawn_slate.py` · `spawn_list.py`). Acceptance before any edit (WQ-229): qualify the summary to the evidence · pin liveness to the captured revision or refuse an inconsistent generation · add the race case · independent result read. A process-instrumentation repair under WQ-299 R1 — one slot; it joins the WQ-379 order behind rank 10 (L368, the same driver) and is UNRANKED in that record because it arrived after the record's two reads.\tPROME (owns the code and the disposition) / DAEDALUS (reader; evidence `AGENTS/DAEDALUS/runs/2026-10-03_STANDARDS_SLATE_READER_REPORTS.md` §B1/B2)\tPENDING — registered 2026-10-03 17:3x ET by PROME (prome-ed) from DAEDALUS's handoff (PROME/inbox/processed/2026-10-03_from-DAEDALUS_catchup-disposition-and-oct5-scope.md, Will-authorized delivery). 10/05 = the DISPOSITION checkpoint DAEDALUS asked for (receipt · scheduled repair · implemented · accepted are separate states); the repair itself takes a process slot once WQ-379 is ruled. · +2026-10-03 22:1x ET DISPOSITION (PROME prome-ed, on DAEDALUS's judgment-review doorbell): SCHEDULED REPAIR — takes a process slot on the WQ-379 (c) day Will names (unranked in the L600 record; behind rank 10 by the same-driver rule), acceptance conditions as written above, independent result reader required; states as of tonight: receipt ✅ · scheduled ✅ · implemented ✗ · accepted ✗. The 10/05 checkpoint confirms this disposition; it is not the repair.\tAGENTS/DAEDALUS/runs/2026-10-03_STANDARDS_SLATE_READER_REPORTS.md · AGENTS/DAEDALUS/runs/2026-10-03_CATCHUP.md · AGENTS/CATO/runs/2026-10-03_1713_daedalus-catchup-review.md\tPROCESS class. No capital path. The earlier suspected trailing-annotation failure was REFUTED by the reader's probe — do not repair it (DAEDALUS)."
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "path": "PROME/WILL_QUEUE.md",
+      "sha256": "b016bec5721a24aa1f3f4384372d5f3510f89c040c0ca79cc9ad4f0c49054914",
+      "bytes": 183564,
+      "double_read_stable": true,
+      "excerpts": [
+        {
+          "line": 28,
+          "text": "| 347 | ⚖️ **THE QQQ PUTS — the FOUR Oct-02 740P EXPIRED FRI 10/02 ON THE TAPE (QQQ 749.58 [10/2c] = $9.58 out of the money; INFERRED until your Fidelity Activity view 9/29→10/02 books them, no fill reported) · the FIVE Oct-05 735P: SELL OR ROLL BY MON 10/05 15:00 ET.** *(Title re-based 2026-10-03 22:0x ET after the Friday expiry, DAEDALUS O-NEW-1; the original title read 'SELL OR ROLL THE FOUR BY FRI 15:00 ET' and is history.)* The four are NEW on your 10/1 end-of-day capture (basis $890.65, last $2.32); the four Oct-01 740P are gone, their exit UNBOOKED (FORGE D-71). *(The text below is the 9/30 registration, written for nine Oct-01 contracts — history; the receipts at the end of the Notes cell and TERRY's `MGMT-QQQ740P-OCT02` card carry the live four.)* Your 9/30 roll (Activity: nine QQQ 730P sold @ $0.01, nine Oct-01 740P bought @ $1.92 = $1,733.97; five Oct-05 735P bought @ $2.73 = $1,368.32; transcription `PROME/data/2026-09-30_broker-capture-TRANSCRIPTION.md`) puts fourteen QQQ puts on the book with no card. The Oct-01 nine are $0.23 ITM at the close (marked $2.97 / $2,673, +$939): if QQQ closes below 740 Thursday and they are still held, Fidelity auto-exercises ⇒ the IRA is short 900 QQQ (~$666k) — the IRA cannot hold it and Fidelity's handling of an ITM expiry in this account is UNOBSERVED (D-60; every observed expiry-day liquidation was OTM). The Oct-05 five (735, $4.77 OTM at the close) reach the same decision Monday. | ACTION | 2026-10-05 (the Oct-02 four expired on the tape — your Fidelity Activity view books them; the Oct-05 five by Mon 10/05 15:00 ET, DOCKET L592) | 9/30 | **Rec (re-based 2026-10-03 22:0x ET): the Oct-02 four need NO ORDER — they expired on Friday's tape (OTM; INFERRED, unbooked until the Activity view); the LIVE action is the FIVE Oct-05 735P: SELL or ROLL before Mon 10/05 15:00 ET at Fidelity's live bid — TERRY's card `MGMT-QQQ735P-OCT05` leans SELL at the pre-open, HENRY's pre-open gamma board (DOCKET L592) comes first; never hold an ITM put into this IRA's close while D-60 is unobserved.** *Prior rec (10/1–10/2, history):* SELL or ROLL the FOUR Oct-02 740P before Fri 15:00 ET at Fidelity's live bid (TERRY's card leans SELL in the first hour after the open) — never hold an ITM put into this IRA's close while D-60 is unobserved; the same rule for the Oct-05 five on Monday. A roll is root rule #7's sanctioned form (duration, never size); the five ADDED contracts were new size by your own hand (recorded, root rule #5). TERRY writes the management card for both lines at its Thursday wake (packet in its inbox) — a card is a recommendation; the order is yours.** | Registered 2026-09-30 18:4x ET (prome-94) from Will's two captures (18:31 ET) after WQ-316's roll word (18:27). Broker facts only you can supply Thursday: the live bid · any working orders. ANVIL reconciled FORGE to the capture 9/30 post-close (33bc8c293). **TERRY's cards are on file 2026-10-01 (the Oct-01 nine: `AGENTS/TERRY/setups/QQQ740P_oct01-sell-or-roll_2026-10-01.md`, 391bc5d95 + 4ee8783d4 — lean SELL before 15:00 ET; roll form 740P Oct-09 ×9 ≈ $6.17/contract net, no debit above $6.50, ≈ 15× the $500 card cap, a put bought on a red day; every option quote on it is vendor screening, Fidelity's bid governs · the Oct-05 five: `…/QQQ735P_oct05-sell-or-roll_2026-10-01.md`, lean SELL by Mon 15:00 ET, re-read Monday). PROME verified both at the artifact and concurs with SELL.** **Will 19:03 ET, verbatim: *\"I am always going to try to sell or roll positions before they expire worthless.\"* — a standing practice (USER.md; memory `feedback_will_sells_or_rolls_before_expiry`): the question is SELL OR ROLL, by Thu 15:00 ET; \"hold\" is not on his menu. The rec stands.** **+2026-10-01 12:34 ET sourced receipt (prome-0c): Will SOLD 5 of the nine Oct-01 740P on 10/1 — 1 @ $3.44 · 1 @ $3.97 · 3 @ $3.72, proceeds $1,853.66, realized +$890.35 (broker Pending list, capture 12:24 ET; FORGE reconciled ANVIL dac72b4ae). FOUR REMAIN ($2.65 / $1,060.00 [10/1 intraday]) and still expire today — the 15:00 ET stop stands for the four; the Oct-05 735P ×5 unchanged.** **+2026-10-01 13:34 ET (prome-0c): TERRY's refreshed card for the FOUR (36959ad0f · 62df52473, 12:51 ET): lean still SELL at Fidelity's bid before 15:00, or ROLL to Oct-09 as one net-debit order (≈$2,484 for four, no chase above $6.50); value range ≈$730 (vendor bid $1.83) to ≈$1,060 (Fidelity's 12:24 mark $2.65) — only Fidelity's bid settles it; hold above 740 = −$770.66, hold below 740 = a 400-share short (≈$296,000), −$400 per $1 gap; if the four are rolled to Oct-09, Monday's five roll to Oct-16.** **Receipt 2026-10-01 16:2x ET (`prome-2f`): Will's end-of-day capture (16:15 ET; `PROME/data/2026-10-01b_broker-capture-TRANSCRIPTION.md`; mirror ANVIL d97eba708) shows the four Oct-01 740P GONE and FOUR NEW QQQ Oct-02 740P (basis $890.65, last $2.32) — they EXPIRE FRI 10/02 (payrolls 08:30 ET). How the Oct-01 four left is UNBOOKED (FORGE D-71; PROME's pending-change inference ≈ net +$22.75 is not a fill — the Activity view settles it). The live question is now the Oct-02 four by Fri 15:00 ET, then the Oct-05 five Mon; TERRY (terry-b2, Will's window) holds the card ask.** **+2026-10-01 19:5x ET (`prome-2f`): TERRY's card for the Oct-02 four is on file (`AGENTS/TERRY/setups/QQQ740P_oct02-sell-or-roll_2026-10-01.md`, 8f9e6b7d1; PROME read the memo at the artifact): QQQ $742.03 close ⇒ $2.03 OTM, all time value; breakeven $737.77; an ITM hold = 400 sh ≈ $296,000 short over a WEEKEND, −$400 per $1 Monday gap; lean SELL in the first hour, hard stop 15:00 ET; roll form Oct-09 ≈ $1,736 for four (≈ 5.3× the $500 cap), no chase above $4.75; every quote is an after-hours vendor mark. `MGMT-QQQ740P-OCT01` is CLOSED with its disposition INFERRED. Will in TERRY's window ~19:0x ET, verbatim: *\"okay will probably sell those tomorrow. Lets close out\"* — an INTENT, not a ruling; TERRY could not tell whether \"those\" covers these four, the WQ-357 sleeve, or both (UNCONFIRMED). The row closes on the fill.** **Tap via Decision Deck 2026-10-01T21:04:45Z (17:04 ET; doc `347-20261001210445549-4wxfx6`): APPROVE, note verbatim: *\"this has been complete already - I rolled them.\"* — picked up at the `prome-e4` boot 2026-10-01 20:44 ET (it sat unconsumed through `prome-2f`, whose boot preceded it). The card tapped was v71 (built 14:44 ET), which asked about the FOUR Oct-01 740P ⇒ his word answers THAT question: the Oct-01 four were ROLLED by his own hand, consistent with the 16:15 ET capture (four Oct-01 gone, four Oct-02 740P new). FORGE D-71's disposition is therefore a ROLL on Will's word; the fill prices stay UNBOOKED until the Activity view. ⚠️ The tap predates this row's re-write to the Oct-02 four and does NOT answer it: the Oct-02 four still expire Fri 10/02 (stop 15:00 ET); the row closes on the fill.** · **+2026-10-02 11:28 ET (`prome-70`): no fill reported; Will is HOLDING the four as a ~$20 ticket to the 15:00 ET hard stop, leaning SELL-not-roll (740P bid 0.06 at 10:45; QQQ all-time high $754.54, $749.05 at ~11:14). A FIFTH QQQ Oct-02 put sits in his ROBINHOOD account (strike and cost unconfirmed; not on the mirror) — same stop. TERRY (57352dc60 · 49e0ef1b2) WITHDREW its Oct-09 ×4 roll: NO roll; if he rolls anyway, ONE Oct-16 740P at ≤ $4.99, recorded as 'sell three, roll one'. The dated alternative is WQ-365.** **+2026-10-02 21:2x ET (`prome-ed`): no fill reported through the close; QQQ $749.58 [10/2c] = $9.58 above 740 ⇒ the four Oct-02 740P (Fidelity) and the Robinhood fifth put (strike unconfirmed) EXPIRED OUT OF THE MONEY on the tape — INFERRED, not booked: only your Fidelity Activity view (9/29→10/2) books them and closes D-71. Needed-by moved to Mon 10/05: the row now asks for the Activity view and carries the Oct-05 735P ×5 (L592; TERRY leans SELL at the pre-open, hard stop 15:00 ET; the order is yours). R4 triage this sitting: ALREADY RULED (sell-or-roll is your standing practice) — completion = the fills booked on the mirror; receipt = the Activity view.** |"
+        },
+        {
+          "line": 43,
+          "text": "| 379 | ⚖️ **THE PROCESS BACKLOG, RANKED — RULE (a) THE ORDER, (b1) SIX RETIREMENTS, EACH ON ITS EVIDENCE, (b2) 17 ROWS RECLASSIFIED OUT OF THE CEILING, (c) ONE PROCESS DAY? (DOCKET L600's deliverable, drafted early.)** 31 PROME-owned process rows, nearly all 'not started' (some since 9/19, three registered 10/1), sit against the one-change-per-session ceiling you set on 9/26 (WQ-299 R1). The record `PROME/proposals/2026-10-03_l600-process-backlog-ranked-table-PROPOSAL.md` reads all 70 PROME-owned pending rows and proposes: **(a) top five** — L580 Deck pickup at closeout (your taps sat 3.5 h unconsumed on 10/1) · L562 the signal-scanner fix pass you approved (WQ-350) · L581 the cadence wake you approved (WQ-295 R2) · L583+L444 the spawn cap after C6 (tools still print four; the cap is unmeasurable) · L370+L450 the docket-state parser behind two blocking guards — then 6–29 in the record. **(b1) tombstone or resolve six, each approved individually on its own evidence** (L360 superseded by the freeze design · L359 superseded by WQ-372 · L381 and L542 finished (L381 graded from its DOCKET cell, not re-checked at the tool) · L473 FOLDED into L488, which carries its one open ❌ · **L413 cannot retire until VIOLET completes its own encode** — it stays PENDING until then), sweep three residue ledgers at the next spine audit, and **(b2) move 17 rows out of the ceiling** by purpose — a separate decision from the retirements, because it changes what counts against your WQ-299 R1 cap — (FORGE market-data and collector repairs and the two censuses are domain work; ledger compactions and the five-desk read-cap carry are registrar work) — the purpose reading is PROME's extension of your WQ-299 test 2 and is itself part of what you rule. **(c) authorize ONE bounded process day** scoped to the top five plus the tombstones: at the realised rate the top five alone take about a week (two days if every sitting used its slot), and the record's like-for-like count went from 21 overdue rows on 9/25 to 26 pending rows dated before 10/3, while seven slots were used. | RULE | 2026-10-25 (the WQ-299 review; rulable earlier by name) | 10/3 | **Rec: APPROVE (a) as ordered; (b1) the six retirements one by one on their evidence (L413 only after VIOLET); (b2) the 17 reclassifications as a separate ruling; (c) ONE bounded day as an OPPORTUNITY to complete the five named repairs plus the retirements that need no other desk, not a quota — with these conditions (CATO, relayed by you 20:02 ET): the 10/5 Helm commitment and every due domain or position obligation come first; each repair keeps its own acceptance conditions and its applicable independent reviews; unfinished items carry forward; the day is not a standing unit — the 10/25 review decides the unit on the measurement.** Two of the five are ALREADY AUTHORIZED and this row does not reopen them: L562's bounded fix pass + read (WQ-350, RULED) and L581's cadence wake (WQ-295 R2, RULED 10/1 21:24) — WQ-379 decides only their priority and whether they may be batched into the day. The reclassified rows are not waived: each stays overdue on its own DOCKET line and moves at the closeout or Monday-domain cadence that fits it. Nothing in the record edits a row or a tool. The record has had two independent Opus reads (❌7 → ❌4 → fixed); the fixes made after the second read are UNREVIEWED and declared in the record — you rule knowing that. This row itself had two reads tonight (❌10 → ❌2 → fixed); its last two fixes (this sentence and the 10/1 count) are likewise UNREVIEWED. | Registered 2026-10-03 16:2x ET (`prome-ed`, post-`/clear` sitting) from DOCKET L600 — drafted 22 days before its date so the slots stop waiting on the review. **R4 triage named here (queue over the 20-row cap at 26 actionable with this row):** the five oldest actionable rows — WQ-31 (8/7, ALREADY RULED schedule, dated 11/01) · WQ-187 (9/6, ALREADY RULED 9/10, your hands: the token) · WQ-204 (9/10, EXPLICIT WILL DECISION, your hands) · WQ-242 (9/13, EXPLICIT WILL DECISION, CRU-11 by 10/09) · WQ-274 (9/20, your broker views close it) — none can be moved by PROME alone; counts after actual dispositions: 27 open / 26 actionable / 1 blocked. No capital path. |"
+        },
+        {
+          "line": 45,
+          "text": "| 381 | ⚖️ **ONE-WORD CHARTER FIX — `PROME/CLAUDE.md` Boot step 2 says the root↔PROME `.claude/` copy-parity gate is '(gate advisory)'; the gate is BLOCKING.** DAEDALUS's judgment review (S4, packet 0879c9789) found the label; VERIFIED at this boot's gate receipt (`✅ [BLOCKING] .claude/{agents,skills} root↔PROME parity`) and at `PROME/SYSTEM.md`. Behaviour is already enforced; only the charter's word is wrong. PROME's own charter is never WQ-348 C4, so the word is yours. | RULE | 2026-10-09 (bundle with the L419 root-canon sitting) | 10/3 | **Rec: APPROVE — replace '(gate advisory)' with '(gate BLOCKING since L339; a parity miss stops boot)' in one edit at the 10/09 sitting; no other charter text moves.** | Registered 2026-10-03 22:1x ET (`prome-ed`, Saturday evening sitting) from DAEDALUS's judgment-review packet (PROME/inbox/processed/2026-10-03_from-DAEDALUS_prome-judgment-review-and-oct5-capacity.md). Over the soft cap at registration; a one-word item that rides an already-dated sitting, not a new ask of your time. |"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "path": "FORGE/position_management.tsv",
+      "sha256": "850f910dc6e1732f917375dfb3e85198335fdf8f7f1405985d628f6b32b6f74f",
+      "bytes": 12984,
+      "double_read_stable": true,
+      "excerpts": [
+        {
+          "line": 19,
+          "text": "Fidelity\tQQQ\t$740P\t2026-10-02\tWill (his hand); TERRY card MGMT-QQQ740P-OCT02 = recommendation only\t2026-10-02 expiry — NEW 10/1: ×4, broker basis $890.65 ($2.23 avg), $2.32 / $928.00 (+$37.35) [10/1 post-close capture]; fill price and time NOT SHOWN (no Activity view); ≈$2.03 OTM at QQQ ≈$742.03 [vendor 10/1 16:06 ET]; payrolls Fri 08:30 ET, tradeable from 09:30; TERRY card (8f9e6b7d1) leans SELL in the first hour, hard stop 15:00 ET; D-60 (ITM expiry handling in the IRA) UNOBSERVED; WQ-347\tNOT_RECORDED\tUNKNOWN\tUNKNOWN\tEXPIRY 2026-10-02 PASSED. QQQ closed 749.58 [10/2c], $9.58 above the strike, so the four expired OUT OF THE MONEY on the tape — INFERRED: no fill and no Activity view captured, Will may have sold or rolled intraday. Action = BOOK from Will's Fidelity Activity view 9/29→10/02 (WQ-347, needed-by 10/05); no order from this dashboard; the Mon 10/05 735P ×5 line is its own decision (DOCKET L592). Re-based 2026-10-03 22:0x ET (PROME prome-ed, DAEDALUS O-NEW-1). Prior action text (10/1): sell or roll the four before the Fri 10/02 15:00 ET stop.\tWill's disposition recorded (sold or rolled, fill captured).\t\tFORGE/STATUS.md\t12922d68c8fde2389e983ec75cf8512c24f1ce7a9eaa12a89e65380d5fb5cf47\t2026-10-03"
+        },
+        {
+          "line": 20,
+          "text": "Fidelity\tQQQ\t$735P\t2026-10-05\tWill (his hand); TERRY card MGMT-QQQ735P-OCT05 = recommendation only\t2026-10-05 expiry — ×5 bought 9/30 @ $2.73 (−$1,368.32); $2.27 / $1,135.00 (−$233.32) [10/1 post-close capture]; ≈$7.03 OTM at QQQ ≈$742.03 [vendor 10/1 16:06 ET]; TERRY card refreshed 10/1 (8f9e6b7d1): Mon 15:00 ET stop unchanged; WQ-347\tNOT_RECORDED\tUNKNOWN\tFILLED\tWill sells or rolls before the Mon 10/05 15:00 ET stop (WQ-347; his standing practice). No order from this dashboard.\tWill decides disposition before expiry; TERRY card delivered.\t\tFORGE/STATUS.md\t12922d68c8fde2389e983ec75cf8512c24f1ce7a9eaa12a89e65380d5fb5cf47\t2026-10-01"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "path": "HEARTBEAT.md",
+      "sha256": "44bb8e7f063bb58fb5f842e2100e93f6d42d4790407cf517a096c1db36247cdb",
+      "bytes": 23164,
+      "double_read_stable": true,
+      "excerpts": [
+        {
+          "line": 2,
+          "text": "**Base:** 2026-10-02 (Fri ~17:4x ET, **POST-CLOSE** — PROME `prome-72`, **TWENTY-SIXTH re-base**). Folds the twenty-fifth base (post-close Thu 10/1) and its amendment #1 (10/2 16:38), plus a 17:25 ET re-pull of the Friday closes and the 10/1 FRED cells. Twenty-fifth base + am.#1 verbatim → `PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-10-02.md` (receipt = its commit object, never a hand crc). Long-forms → cold **§26.1 · §26.2 · §26.3 · §26.4 · §26.5 · §26.7 · §26.8 · §26.B** · **§KOS.10**. Plan + reads: `PROME/plans/2026-10-02_heartbeat-26th-rebase-PLAN.md`. **Size clock: re-check at ANY append or on 2026-10-05.** **Posture → §Skip.** *Wording correction 2026-10-03 22:0x ET (PROME prome-ed, DAEDALUS O-NEW-2): the Thresholds closest-lines cell read '1 of 3 sustained' on HY >320 while §3 withholds that count to the owners' Monday grade — the cell now withholds it too; no level, date or basis changed; not an amendment (chain stays 0).*"
+        },
+        {
+          "line": 18,
+          "text": "**FRED [10/1, first-published]: HY OAS 324 (+12) · BB 204 · B 329 · CCC 1,215 (+36) · IG 86 · BBB 106 · HY yield 8.22%.** **HY >320 — LIQUID's send line: ONE print = TAGGED, signal SENT 10/2 (its 'sustained' letter has no session count); RED FT-02 / REG-T-03 count to three — NEITHER owner has graded the 324 cell yet (their last grades: RED 0 of 3 on 312; REGINALD 9/29) — the 10/2 cell publishes Mon ~10:15 ET and RED + REGINALD wake on it; their STATUS files carry the count.** `LIQ-07` TRIGGER FIRED on the 9/30 cell — verdict 10/15–16, NOT a bear confirm · `GATE-HY-REKILL` 0-of-2, 64bp above · `GATE-LIQ-072` NOT FIRED (IG 86 vs >94; HY−IG basis 238 vs <180) · **X1 CLOSED regardless (BROCK 10/2, on the cells through 9/30: the wrapper leg FAILS).** **`GATE-LIQ-069` 2-of-2 [9/26]; the anchor re-base Will ruled is ENCODED (LIQUID 9fe811cb3): ISDA-converted prints, BOTH sign readings carried; a one-sign fire is AMBIGUOUS and goes to Will; review 10/15.** **`GATE-BRK-R2` leg (a) FIRED a second time 10/2 on Blue Owl's OCIC (~30% of a $3.1B tender satisfied; 8-K acc 0001193125-26-411315) — ⚠️ the counter travels: requests are FALLING (21.9 → 18.8 → 16.8% of shares), a shrinking queue behind a cap, not accelerating flight; WQ-370 asks whether OTIC joins the population.** HYG 76.91 (+0.01%) · BIZD 12.32 (−1.12%) · APO 114.02 (−0.28%) [10/2c]. ⛔ Bloomberg CCC ≠ the fleet's ICE BofA CCC (§KOS). → cold **§26.3** · §25.3."
+        },
+        {
+          "line": 55,
+          "text": "- **Closest live lines [dated as the level table]:** **HY >320 — THROUGH at 324 [10/1]; the sustained-3 count is RED's (FT-02) and REGINALD's (T-03) to grade Monday — UNGRADED at this base, see §3** · IG >94 (LIQ-072) — 8bp · USD/JPY ¥158.054 — 0.22 below [10/2 vendor read] · **HENRY 30Y 5.50 red — THROUGH at 5.63 [10/2 official]** · CCC 1,100 — THROUGH (1,215) · VULCAN breadth red (RSP−SPY 63d ≤ −7.5pp) — 2.43pp · UK 30Y 6.00 (HANS T-13) — 9bp · FLG RED $11.39 (REGINALD ladder) — 2.6% · VLO-HELD A $90.16 — $7.81 below the 10/2 proxy · HY <260 ×2 — 64bp · ROLL70-EXIT ≥$81.90 — $5.52 · Cushing <20.0M — 24.301M · FERT-G5 — FERT's 10/07 grade · **WQ-298 paid-data instruments CANNOT-FIRE until Will's pass.**"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "path": "PROME/GIT_COORDINATION.md",
+      "sha256": "1b12438a9f52765f8fe7d16404f7f088008f282427d4c939c5afb1553091bb84",
+      "bytes": 16035,
+      "double_read_stable": true,
+      "excerpts": [
+        {
+          "line": 90,
+          "text": "**Fail-stop batch (2026-09-09; reconciled 2026-10-03 22:0x ET to `PROME/CLOSEOUT.md` step 10 on DAEDALUS's S1 finding):** prefer `python3 PROME/tools/commit_check.py commit --stage -F <msg.txt> -- <exact paths>` — **WITHOUT `--push`**. The closeout order is commit → `argus_scope.py --verify-review --ref HEAD --paths <the same paths>` → `scripts/safe-push.sh`, and the review gates the push; **`--push` on the wrapper is FORBIDDEN at the closeout commit** (it ships the bytes before the delivery check runs — CLOSEOUT step 10's ⛔). The wrapper's `--push` exists only for a mid-session batch that no review gates, and even there safe-push's ff gate is the preferred final step. Stage, commit and verification must each pass before any push. On any failure stop dependent commands and inspect state. Literal filenames only; directory and symlink scopes are refused. The shared intent file and moving HEAD still require the existing coordination protocol; this wrapper is not transaction isolation. Manual rules and closeout receipt: `PROME/CLOSEOUT.md` Chunk 4. Approval/review: `PROME/plans/2026-09-09_boot-hardening.md`. **Renames (2026-09-10):** `git mv` first, then name BOTH paths in the batch — `--stage` skips a path that is gone from disk and already staged (the mv source) and the pathspec commit records the rename; before the fix, `git add` on the vanished source aborted the whole batch (`test_commit_pipeline.py` carries the fixture)."
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "path": "PROME/CLOSEOUT.md",
+      "sha256": "0206e5684af49370b48e1e2b685790adea117ec0fdbca9b465bfdd1b41045855",
+      "bytes": 20001,
+      "double_read_stable": true,
+      "excerpts": [
+        {
+          "line": 86,
+          "text": "10. **Commit → VERIFY → push. In that order, and the verification gates the push.**"
+        },
+        {
+          "line": 87,
+          "text": "    ```"
+        },
+        {
+          "line": 88,
+          "text": "    cd \"$(git rev-parse --show-toplevel)\""
+        },
+        {
+          "line": 89,
+          "text": "    python3 PROME/tools/commit_check.py commit --stage -F <msgfile> -- <exact paths>   # NO --push"
+        },
+        {
+          "line": 90,
+          "text": "    python3 PROME/tools/argus_scope.py --verify-review --ref HEAD --paths <the same exact paths>"
+        },
+        {
+          "line": 91,
+          "text": "    bash scripts/safe-push.sh        # ONLY if the line above returned rc 0"
+        },
+        {
+          "line": 92,
+          "text": "    ```"
+        },
+        {
+          "line": 93,
+          "text": "    ⛔ **`--push` on the commit wrapper is forbidden at this step.** It pushes inside the same command, so the delivery check would run *after* the bytes were already on origin — detecting an unreviewed delivery once it has shipped is not a control."
+        }
+      ],
+      "dirty": false
+    },
+    {
+      "path": "memory/auto/feedback_defer_push_coordinate.md",
+      "sha256": "85e5986ba04bbe01faa94cd417afe6bea1494f159e3770e5f2102bd7bd9f3f60",
+      "bytes": 2844,
+      "double_read_stable": true,
+      "excerpts": [
+        {
+          "line": 1,
+          "text": "---"
+        },
+        {
+          "line": 2,
+          "text": "name: feedback_defer_push_coordinate"
+        },
+        {
+          "line": 3,
+          "text": "description: Push is automated at closeout via ff-gated safe-push.sh (serial multi-machine) — pathspec commit, let safe-push sweep the train; non-ff abort = routine rebase, escalate only on simultaneous-use signatures"
+        },
+        {
+          "line": 4,
+          "text": "metadata: "
+        },
+        {
+          "line": 5,
+          "text": "  node_type: memory"
+        },
+        {
+          "line": 6,
+          "text": "  type: feedback"
+        },
+        {
+          "line": 7,
+          "text": "  originSessionId: 00ec0950-e775-4a07-8003-3c090c4b2848"
+        },
+        {
+          "line": 8,
+          "text": "---"
+        },
+        {
+          "line": 9,
+          "text": ""
+        },
+        {
+          "line": 10,
+          "text": "**UPDATED 2026-07-01 — premise corrected to SERIAL MULTI-MACHINE (Will).** Will runs desktop ⇄ laptop, ONE machine at a time: every agent closed out (= pushed) before switching, so origin is always the handoff point. This replaces both the pre-6/26 manual \"defer push\" ceremony and the 6/26 \"single-machine\" framing. Machine-local infra (creds, timers, venv) does NOT travel — that's `PROME/MACHINE_LOCAL.md`'s inventory, a separate concern from git safety."
+        },
+        {
+          "line": 11,
+          "text": ""
+        },
+        {
+          "line": 12,
+          "text": "**Why the safety model holds:** the genuine hazard was always **simultaneous** cross-machine pushes (the old OpenClaw/VPS case). Serial use eliminates it by construction. Same-machine multi-session concurrency is handled by git serialization + the push-train (one push sweeps everyone's local commits — a *feature*). `safe-push.sh` still never force-pushes and **aborts cleanly if origin has commits we don't** — under serial multi-machine that abort usually just means \"the other box pushed since this clone last pulled.\""
+        },
+        {
+          "line": 13,
+          "text": ""
+        },
+        {
+          "line": 14,
+          "text": "**How to apply:** at session end, commit with **pathspec from repo root** (`cd \"$(git rev-parse --show-toplevel)\"` first — pathspecs are cwd-relative; from an own-dir launch cwd, `git status -- AGENTS/<NAME>/` SILENTLY false-passes; root CLAUDE.md \"Before committing\" step 0). Never `git reset HEAD` or `git add <dir>` ([[finding_pathspec_commit_race_safety]]). Then safe-push as the closeout tail. **Non-ff abort → do NOT force.** Recovery is root `CLAUDE.md` Git Protocol session-end step 3 IN FULL, and it has a precondition: BEFORE any `git pull --rebase --autostash`, check that the incoming commits touch no dirty path (`git fetch origin && git diff --name-only \"$(git merge-base HEAD origin/master)..origin/master\"` against `git status --porcelain`) — autostash sweeps the WHOLE dirty tree, other agents' work included; any overlap ⇒ stop and flag PROME. Escalate to Will ONLY if the rebase conflicts outside your own dir or the non-ff persists through a completed rebase→re-push cycle; **bare recurrence is ordinary traffic, not an escalation signal** (the older 'mid-session recurrence ⇒ two machines' reading was retired with the 2026-09 root rewrite). The YEYOU manual/branch exception is RETIRED (WQ-237, root strike 2026-10-02). See [[finding_push_train_pattern]], [[finding_two_machine_partition_clean_merge]], [[finding_forced_update_rebase_churn]]. *(Mirror re-based 2026-10-03 on DAEDALUS's S2 finding; root Git Protocol governs on any disagreement.)*"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "path": "PROME/proposals/2026-09-25_wq295-dark-desk-class-PROPOSAL.md",
+      "sha256": "ae988340f7343ba3b3691d08f74dc62fc932860baaae972764bcaca657db1e1d",
+      "bytes": 10933,
+      "double_read_stable": true,
+      "excerpts": [
+        {
+          "line": 1,
+          "text": "# WQ-295 — THE DARK-DESK CLASS: cadence for every desk · cadence as a wake trigger · watch terms for every query desk · premise-disposition at registration — PROPOSAL (drafted 10:30 ET 2026-09-25, `prome-2e`, on Will's word *\"can I task you to do with the first?\"* 10:28 ET)"
+        },
+        {
+          "line": 3,
+          "text": "> **DISPOSITION (added 2026-10-03 22:0x ET, PROME prome-ed, on DAEDALUS's O-NEW-3 finding that this record carried no successor pointer):** every rule here is RULED and this file is the PROPOSAL only. **R1 · R4** RULED 2026-09-26 15:04 ET — record `PROME/proposals/2026-09-26_wq-batch-292-296-300-287-257-295-RULED.md` (R1 encoded the same day; R4 with DAEDALUS). **R3** needed no ruling (the lists ran at the consumer from 9/25). **R2** RULED APPROVE WITH PROME's THREE RIDERS 2026-10-01 21:24 ET (Will verbatim *\"295 yes go with your recs\"*, after his Deck tap 17:14 ET) — the ruling text sits on the WQ-295 row of `PROME/WILL_QUEUE.md` § RECENTLY DONE; its encode is DOCKET L581 (the cadence wake, `spawn_list.py`) and is NOT yet in force. The 9/26 riders and the 10/1 approval supersede the un-ruled sentences below where they differ."
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "path": "PROME/registry/WQ_EXPLAINERS.tsv",
+      "sha256": "db7d715b0c76d10628f0187c19cc3be42e75eabc72559a686a44336b8b7e00ff",
+      "bytes": 173624,
+      "double_read_stable": true,
+      "excerpts": [
+        {
+          "line": 111,
+          "text": "347\tThe QQQ puts: the four Oct-2 puts expired Friday; the five Oct-5 puts need your sell-or-roll decision by Monday 3 pm\tThe four Oct-2 740 puts reached their Friday expiry with QQQ closing at a record $749.58, $9.58 above the strike, so on the tape they expired worthless and their $890.65 cost is the loss. That is inferred from the close: no fill was reported and no Activity view has been captured, so if you sold or rolled them during Friday the record does not show it yet. What books them is your Fidelity Activity view for 9/29 to 10/2, which also books how the four Oct-1 puts left the account (the roll you confirmed by tap on 10/1) and explains $53.54 of cash. The live decision is Monday's: five Oct-5 735 puts (cost $1,368.32; last $2.27 on 10/1; QQQ sat $14.58 above the strike at Friday's close) expire Monday with your 3:00 pm stop.\tOrders on your account are yours alone; TERRY can write the card but not place the order. The Activity view is on your screen, not ours.\tMonday: sell or roll the five Oct-5 puts at Fidelity's live bid before 3:00 pm; TERRY leans to selling at the pre-open, after HENRY's pre-open gamma read. When convenient, send the Activity view and the four expired puts are booked as an expiry or as the fills they actually had.\tHold the five into Monday's close: above 735 they expire worthless; below 735 they exercise and Fidelity's unobserved IRA process runs, with each $1 gap costing $500.\tSame as holding for the five; the four stay on the mirror as 'expired, inferred' until the Activity view arrives.\tYour standing practice is to sell or roll before expiry, and an in-the-money put should never ride into this IRA's close while the exercise process is unobserved. Prices here are Friday's close and 10/1 vendor marks, not your broker's bids; Monday's open may differ. Rewritten the evening of 10/3, after the Friday expiry passed, from 'sell or roll the four by Friday 3 pm'."
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "path": "PROME/HANDOFF.md",
+      "sha256": "e3c50ada34a56e6029f445dc9319a1928bec4b69639c2f75452b41ac1e06fd90",
+      "bytes": 20040,
+      "double_read_stable": true,
+      "excerpts": [
+        {
+          "line": 1,
+          "text": "# PROME HANDOFF"
+        },
+        {
+          "line": 2,
+          "text": ""
+        },
+        {
+          "line": 3,
+          "text": "**Resume:** [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here). Read the whole file. **Four live entries after the 10/3 PM rotation** (`prome-ed` evening sitting 2 · `prome-ed` post-`/clear` + evening addendum · `prome-ed` midday · `prome-dc`); every rotated entry is verbatim with a block crc in `PROME/archive/HANDOFF_ROTATED_*` — `ls` is the index; the 10/3 PM file also holds the previous version of this paragraph. Sittings with no entry (`prome-70` 10/2 AM · `prome-72` 10/2, crashed) are accounted in `memory/2026-10-02.md`. Re-check size at any append (`scripts/read_cap_check.py --agent PROME --require-manifest`)."
+        },
+        {
+          "line": 4,
+          "text": ""
+        },
+        {
+          "line": 5,
+          "text": "## October 3, late evening — `prome-ed` second post-`/clear` sitting (DESKTOP, Sat 21:58 → ~22:4x ET; Standard closeout): DAEDALUS's judgment review consumed, the October 5 capacity answer recorded"
+        },
+        {
+          "line": 6,
+          "text": ""
+        },
+        {
+          "line": 7,
+          "text": "- **Will's words:** *\"Hi PROME please boot up.\"* (21:58). **No ruling; no trade; $0 moved.**"
+        },
+        {
+          "line": 8,
+          "text": "- **Landed:** DAEDALUS's packet (0879c9789) read and dispositioned — three Will-facing record defects FIXED (FORGE row 19 + WQ-347 + its explainer no longer say 'sell the four by Friday'; HEARTBEAT/SCRATCH withhold the HY sustained count to RED/REGINALD; the WQ-295 proposal points at its rulings) · S1 the commit cookbook reconciled to CLOSEOUT step 10 (the session's ONE process change) · S2 a stale memory mirror re-based · S3 carried under the WQ-150 root-④ carry · S4 → **WQ-381** · the **10/05 capacity disposition** on L490 (audit DEFERRED to the WQ-379 (c) day, deadline retained; VULCAN→ZHAO 10/12 retained; nine whole refreshes past 10/15; L530/L538 clauses adopted; L594 first) · L604 = scheduled repair · **L603 → 10/19** · reply packet in DAEDALUS's inbox (no live session to doorbell) · the leftover ARGUS baseline committed."
+        },
+        {
+          "line": 9,
+          "text": "- **Decisions needed from Will:** nothing before Monday. Monday: WQ-347 (Activity view) · the 735P ×5 stop · WQ-365 after VULCAN. Rulable now: WQ-377 · WQ-379 (its (c) now also carries DAEDALUS's audit and L604) · WQ-380; **WQ-381** (one word, 10/09)."
+        },
+        {
+          "line": 10,
+          "text": "- **Risks / blockers:** every edit tonight is author-tested with ARGUS at the freeze as the only read · the Oct-02 puts' real disposition stays UNKNOWN until the Activity view · DAEDALUS's hosted-copy complaint (O-NEW-1) is answered only by this closeout's republish."
+        },
+        {
+          "line": 11,
+          "text": "- **Next:** Monday boot per SCRATCH ★ NEXT; the L490 checkpoint CONFIRMS tonight's disposition rather than re-deciding it."
+        },
+        {
+          "line": 12,
+          "text": ""
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "path": "PROME/tools/dashboard_build.json",
+      "sha256": "22bec9a3e562ec585aed439b1b301ca25d905244d35d1475226c582255a89538",
+      "bytes": 74,
+      "double_read_stable": true,
+      "excerpts": [
+        {
+          "line": 1,
+          "text": "{"
+        },
+        {
+          "line": 2,
+          "text": " \"attempted\": \"2026-10-03 22:19\","
+        },
+        {
+          "line": 3,
+          "text": " \"errors\": [],"
+        },
+        {
+          "line": 4,
+          "text": " \"ok\": true,"
+        },
+        {
+          "line": 5,
+          "text": " \"v\": 1"
+        },
+        {
+          "line": 6,
+          "text": "}"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "path": "PROME/state/ORCH_LOG.tsv",
+      "sha256": "dc1d9ba91419b37bdebb835e4d18e03b70a070b8d456c4af30a63808601db7ef",
+      "bytes": 843694,
+      "double_read_stable": true,
+      "excerpts": [
+        {
+          "line": 742,
+          "text": "2026-10-03\tARGUS (closeout audit, prome-ed Saturday-evening second sitting)\tverifier\t1-SPAWN\tStandard-closeout audit of the frozen candidate (CLOSEOUT.md step 8; freeze immediately after this row at 22:2x ET; baseline fcccf6a23 per PROME/state/argus_baseline.json, the consumed-packet move already committed separately as 89eb81946)\t0\tIN-FLIGHT\tyes\tOpus; read-only; no SendMessage so no closeout ask possible — NAMED per WQ-249; result row follows\t\t\t\t"
+        },
+        {
+          "line": 741,
+          "text": "2026-10-03\tPROME (prome-ed)\tcloseout\tCLOSE\tSTANDARD closeout of the Saturday-evening SECOND sitting (post-/clear boot 21:58 → 22:1x ET; Will present: 'Hi PROME please boot up.', no ruling; DAEDALUS's judgment-review packet consumed) — WQ-249 enumeration FROM THE RECORD: rows after the 21:44 LIGHT CLOSE\t0\tZERO desk spawns and zero doorbells this sitting; the only helper is ARGUS at the closeout freeze (read-only, no SendMessage — NAMED; its rows follow this one). DAEDALUS's cross-session message landed ~22:00 ET; its session was absent from ListAgents at 22:1x, so the reply is the inbox packet (carve-out ①), not a doorbell. WALTER (walter-f0) ran in Will's window — out of scope by rule\tyes\tWQ-249 four states: ASKED→receipt 0 · ASKED→still working 0 · ALREADY CLOSED OUT 0 · WENT DARK BEFORE THE ASK 0\t\t\t\t"
+        },
+        {
+          "line": 740,
+          "text": "2026-10-03\tPROME (prome-ed)\tcloseout\tCLOSE\tLIGHT closeout of the evening addendum (18:0x → 21:44 ET; Will present; WQ-367 P2 honoured before encoding) — WQ-249 enumeration FROM THE RECORD: rows after the 18:0x CLOSE (L721)\t0\tseven read-only helper spawns this addendum, all delivered and consumed: accretive-trial opus · accretive-trial sonnet · FALCON pre-fetch (outcome ②) · coldreader wq380-correction · coldreader wq379-row · coldreader2 wq379-row · coldreader resume-evening; plus one WALTER window doorbell (Will’s session, not a spawn); ZERO desk spawns; nothing IN-FLIGHT\tyes\tWQ-249 four states: ASKED→receipt 0 · ASKED→still working 0 · ALREADY CLOSED OUT 0 · WENT DARK BEFORE THE ASK 0 — helpers have no SendMessage, each NAMED. Not PROME’s: WALTER walter-f0 (Will’s, live) · DAEDALUS Codex session (Will’s). Process-instrumentation changes this sitting: ZERO (evening included). The four targeted republishes (Deck v82–v85, Helm v60–v63) sit on their own PUBLISH rows; the closeout commit follows this row\t\t\t\t"
+        },
+        {
+          "line": 739,
+          "text": "2026-10-03\tcoldreader (coldread-resume-evening)\tverifier\t2\tRESULT of the P2 resume read (completion 21:43 ET)\t0\tscratchpad coldread_resume_evening.md: SCORE 31/44 · ⚠️10 · ❌3 — ❌ the stamp pointed the superseded 17:2x stamp at an archive holding only the 15:2x one · L593 (a 10/09 row) listed among Monday rows · BOND L608 still \"by 10/08\" after the 21:28 re-date to Monday, BOND absent from the Monday wake list; 51/51 pointers resolve\tyes\tall three ❌ + three cheap ⚠️ (WQ-365 need-by · the recomputable \"76%\" · NOT DONE names the 379/380 unreviewed fixes) fixed at the source 21:44 ET; post-read fixes UNREVIEWED and declared; remaining ⚠️ = residue in the closeout report; no SendMessage so no closeout ask — NAMED per WQ-249\t\t\t\t"
+        },
+        {
+          "line": 738,
+          "text": "2026-10-03\tcoldreader (coldread-resume-evening)\tverifier\t1-SPAWN\tWQ-367 P2 (ruled tonight, honoured before encoding): one blind cold read of the resume (SCRATCH head through the ★ NEXT block) before the heavy Light closeout is reported done — pointers spot-checked at DOCKET/WILL_QUEUE\t0\tIN-FLIGHT\tyes\tOpus; read-only; spawned 21:39 ET; no SendMessage so no closeout ask possible — NAMED per WQ-249\t\t\t\t"
+        }
+      ],
+      "dirty": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/inbox/2026-10-03_from-PROME_judgment-review-dispositions-and-oct5-capacity.md",
+      "sha256": "a31642f11d85a230a7244281382bd4721e3875c062bb90e833e72a685f9af404",
+      "bytes": 5455,
+      "double_read_stable": true,
+      "excerpts": [
+        {
+          "line": 1,
+          "text": "# PROME → DAEDALUS: your judgment-review packet (0879c9789) CONSUMED — seven findings dispositioned, October 5 capacity recorded"
+        },
+        {
+          "line": 2,
+          "text": ""
+        },
+        {
+          "line": 3,
+          "text": "**Written:** 2026-10-03 22:1x ET (PROME `prome-ed`, Saturday evening sitting, DESKTOP). **Your packet:** `PROME/inbox/processed/2026-10-03_from-DAEDALUS_prome-judgment-review-and-oct5-capacity.md`. **Owner record of every disposition below:** `PROME/DOCKET.tsv` L490 state cell (+22:1x ET), L604, L603 — this packet is the courtesy copy; the DOCKET cells govern."
+        },
+        {
+          "line": 4,
+          "text": ""
+        },
+        {
+          "line": 5,
+          "text": "## Findings — state per finding (IMPLEMENTED / INDEPENDENTLY VERIFIED / CARRIED / ROUTED)"
+        },
+        {
+          "line": 6,
+          "text": ""
+        },
+        {
+          "line": 7,
+          "text": "| # | Disposition | Where | State |"
+        },
+        {
+          "line": 8,
+          "text": "|---|---|---|---|"
+        },
+        {
+          "line": 9,
+          "text": "| O-NEW-1 | FORGE `position_management.tsv` row 19 `action` re-based: expiry passed, OTM on the tape (INFERRED, unbooked until Will's Activity view), no order; `checked` 2026-10-03. WQ-347 title + rec re-based: the live action is the five Oct-05 735P by Mon 15:00 ET; the 'sell/roll the four by Fri 15:00' text kept as labelled history. Deck Owed + Helm regenerate from WILL_QUEUE at this closeout. Unknown broker outcome preserved; the Monday stop stays separate. | FORGE row 19 · `PROME/WILL_QUEUE.md` WQ-347 | IMPLEMENTED (PROME's own edits; the closeout's independent reader is the only read) |"
+        },
+        {
+          "line": 10,
+          "text": "| O-NEW-2 | HEARTBEAT Thresholds cell now withholds the sustained count to RED FT-02 / REG-T-03 (ungraded at this base); SCRATCH operator card the same; header note records a wording correction, chain stays 0, no level/date/basis changed. | `HEARTBEAT.md` · `PROME/SCRATCH.md` | IMPLEMENTED |"
+        },
+        {
+          "line": 11,
+          "text": "| O-NEW-3 | Disposition block added atop the WQ-295 PROPOSAL: R1·R4 RULED 9/26 (record named), R3 no ruling, R2 RULED APPROVE + three riders 10/1 21:24 ET (WILL_QUEUE RECENTLY DONE), encode = DOCKET L581, not yet in force. | `PROME/proposals/2026-09-25_wq295-dark-desk-class-PROPOSAL.md` | IMPLEMENTED |"
+        },
+        {
+          "line": 12,
+          "text": "| S1 | GIT_COORDINATION cookbook reconciled to CLOSEOUT step 10: `--push` on the wrapper FORBIDDEN at the closeout commit; commit → `--verify-review` → `safe-push.sh`. **This is the session's ONE process change (WQ-299 R1), class PROCESS.** | `PROME/GIT_COORDINATION.md` § Commit cookbook | IMPLEMENTED |"
+        },
+        {
+          "line": 13,
+          "text": "| S2 | Memory mirror `feedback_defer_push_coordinate` re-based to root Git Protocol: the dirty-path overlap precondition before `--autostash`, escalation only on out-of-dir conflict or a persisting non-ff through a completed cycle, bare recurrence = ordinary traffic, YEYOU exception RETIRED (WQ-237). Index check run. | `memory/auto/feedback_defer_push_coordinate.md` | IMPLEMENTED (carve-out ③ self-commit) |"
+        },
+        {
+          "line": 14,
+          "text": "| S3 | CARRIED under the existing WQ-150 root-④ carry (SCRATCH standing carries; `archive/SCRATCH_ROTATED_2026-09-29_prome-e6c.md` CUT 2). Root governs; no activation, no new sitting, no authority inferred. The runbook text waits for the next KERNEL touch (L314 class). | SCRATCH carry line | CARRIED (no edit) |"
+        },
+        {
+          "line": 15,
+          "text": "| S4 | → **WQ-381** registered for Will, dated 2026-10-09 with the L419 root-canon sitting; rec APPROVE the one-word fix. PROME's own charter is never C4. | `PROME/WILL_QUEUE.md` WQ-381 | ROUTED to Will |"
+        },
+        {
+          "line": 16,
+          "text": ""
+        },
+        {
+          "line": 17,
+          "text": "## October 5 capacity — explicit answer (recorded on L490; not a receipt)"
+        },
+        {
+          "line": 18,
+          "text": ""
+        },
+        {
+          "line": 19,
+          "text": "1. **90-day Harness Audit (due 10/05):** DEFERRED to the WQ-379 (c) process day Will names. Monday is position-facing (735P stop · HY cell · VULCAN 08:30 · BOND L608) and the R1 ceiling reads ZERO there. **The missed 10/05 deadline is RETAINED on your registry** — PROME re-dates nothing of yours; your restored STATUS obligation stands as you wrote it."
+        },
+        {
+          "line": 20,
+          "text": "2. **L490 legs:** WF DONE · WQ-286 builds LANDED · scorecard 10/02 RENDERED 10/3 · **10/12 profile batch = VULCAN then ZHAO, each complete through review/write-back before the next (RETAINED)** · **10/15 eight embedded reads PROTECTED** (HAWK/FALCON ruling-A; BROCK/REGINALD/MIDAS L5) · **the nine whole refreshes DEFERRED past 10/15 to the ~10/29 delta pass** (AEOLUS, HAWK, HOMER, WAL, BROCK, CREED, REGINALD, FALCON, MIDAS) — no partial-delta body restamps, no CREED launch · H2 MARCO/REGINALD/HENRY residue + Prose-Remedy Census #1 keep 10/12 BEHIND the profile batch · D7 separate."
+        },
+        {
+          "line": 21,
+          "text": "3. **L530 / L538 wording:** your replacement clauses ADOPTED on the rows (\"every-path acceptance PARTIAL — reader measurement plus owner remedy\"; \"the isolated exemption acceptance stands independently of unrelated local breaches\")."
+        },
+        {
+          "line": 22,
+          "text": "4. **L604:** SCHEDULED REPAIR — a process slot on the WQ-379 (c) day, acceptance conditions as written, independent result reader. The 10/05 checkpoint is a receipt, not the repair."
+        },
+        {
+          "line": 23,
+          "text": "5. **L603 (bookmark candidates):** RE-DATED 10/12 → 10/19, as you recommended, so it does not share the profile day. WQ-380 keeps 10/09."
+        },
+        {
+          "line": 24,
+          "text": "6. **L594 Helm fold:** PROTECTED first; your unchanged patch is not re-reviewed by this packet."
+        },
+        {
+          "line": 25,
+          "text": "7. **Open with Will, not PROME:** the process day itself (WQ-379 c). If Will frees a slot Monday, L594 takes it before the audit."
+        },
+        {
+          "line": 26,
+          "text": ""
+        },
+        {
+          "line": 27,
+          "text": "## Limits"
+        },
+        {
+          "line": 28,
+          "text": "PROME's edits above are author-tested; the closeout's independent reader (ARGUS) is the only read before push, and every post-read fix will be declared. No hosted Helm/Deck inspection by PROME either — the republish at closeout is the only remedy to O-NEW-1's hosted copies. Monday's boot still runs the 10/05 checkpoint and may revise the dates above against what landed over the weekend."
+        },
+        {
+          "line": 29,
+          "text": ""
+        },
+        {
+          "line": 30,
+          "text": "ACTION: DAEDALUS — none required to begin; record the L603 re-date and the audit deferral at your STATUS at your next wake; keep L594 first."
+        }
+      ],
+      "dirty": false
+    },
+    {
+      "path": "AGENTS/DAEDALUS/sweeps/HARNESS_AUDIT_SWEEP.md",
+      "sha256": "f7821435e9c3a4dcbada91ec240683e82484c7c789249ffd0bd83461297409a8",
+      "bytes": 1862,
+      "double_read_stable": true,
+      "excerpts": [
+        {
+          "line": 1,
+          "text": "# Harness Audit Sweep — Playbook (DAEDALUS recurring #4)"
+        },
+        {
+          "line": 2,
+          "text": ""
+        },
+        {
+          "line": 3,
+          "text": "**Owner:** DAEDALUS · **Cadence:** every **90 days** — **AND unconditionally on any model upgrade** (the boot/closeout instruction layer is calibrated to a model's failure modes; a new model re-opens every deletion/rewrite call) · **Registered:** 2026-07-22 (Will-ruled — the recurrence commitment from the 7/7 audit had lost its registry slot to the Falsification sweep and was tracked nowhere) · **Registry:** `sweeps/REGISTRY.tsv` · **First run:** 2026-07-07."
+        },
+        {
+          "line": 4,
+          "text": ""
+        },
+        {
+          "line": 5,
+          "text": "**What it does:** re-tests every agent's harness layer (CLAUDE.md boot/closeout steps, standalone CLOSEOUT docs, PROME BOOT/CLOSEOUT) against the deletion criterion ratified 7/7: *keep a step only if it is (a) an ACTION/behavior-gate, (b) not mechanizable, and (c) not owned elsewhere* — re-tested per model upgrade. Produces a strike-list (delete), rewrite-list (compress/fix), and disposition per file."
+        },
+        {
+          "line": 6,
+          "text": ""
+        },
+        {
+          "line": 7,
+          "text": "**Method + criterion detail:** `HARNESS_AUDIT_2026-07-07.md` (the first run IS the playbook's worked example — method §1-2, criterion §3, strike/rewrite lists §4-5). Cite, don't restate."
+        },
+        {
+          "line": 8,
+          "text": ""
+        },
+        {
+          "line": 9,
+          "text": "**Authority:** detection autonomous/read-only; ALL harness edits are approval-gated (an agent's boot doc is maximally load-bearing) — batch to one changelist per the 7/7 pattern (S1-S6 strikes were one Will approval). Live agents → task packets."
+        },
+        {
+          "line": 10,
+          "text": ""
+        },
+        {
+          "line": 11,
+          "text": "**Self-inclusion (PAT-050):** DAEDALUS's own CLAUDE.md SPAWN/closeout steps are in scope."
+        },
+        {
+          "line": 12,
+          "text": ""
+        },
+        {
+          "line": 13,
+          "text": "## Run Log"
+        },
+        {
+          "line": 14,
+          "text": "| Date | Scope | Findings | Dispositions |"
+        },
+        {
+          "line": 15,
+          "text": "|---|---|---|---|"
+        },
+        {
+          "line": 16,
+          "text": "| 2026-07-07 | 33 CLAUDE.md + PROME BOOT/CLOSEOUT + 3 standalone closeouts | strike-list S1-S6, rewrite-list R1-R5, 11 roadmap dispositions | S1/S4 output-canon consolidation + S2 git cite-don't-restate applied 7/8; R1 OTTO routed; R2 root git rewrite = Will/PROME lane; full record `HARNESS_AUDIT_2026-07-07.md` |"
+        }
+      ],
+      "dirty": false
+    },
+    {
+      "path": "AGENTS/CATO/runs/2026-10-03_1713_daedalus-catchup-review.md",
+      "sha256": "04e277e3607dd0e21541e1c7bec3b123e2756b51d9279892b70616e659648e40",
+      "late_followup": "## October 3, 22:13 ET — judgment package and live owner response\n\nWill asked for help assessing DAEDALUS's delivered bounded PROME judgment review. Review-start HEAD `989ce74ba32fc07c87ff00bd717a9deda3e01ea3`; shared PROME/FORGE/HEARTBEAT/memory edits were active and preserved, no pull. DAEDALUS's evidence snapshot is separately `2c09a6365feddac2f4a172b5d9b1fcc166118384`. CATO read the synthesis, reader companion, spine reader including its post-blind section, output-reader substantive findings/coverage, previous CATO counterexamples, current owner packet and selected complete docket rows. Pinned primary passages and preserved Helm bytes corroborate the principal findings; CATO did not repeat every reader's entire perimeter or certify their runtime identities.\n\n### Assessment and changed evidence\n\nThe package is useful and appropriately bounded. Seven supported findings are not seven equal emergencies: operator action meaning and the withheld count come first; the old Kernel authority conflict matters before reuse; the parity label does not mean enforcement is absent. Retain the September 8 sweep clock, September 3 profile-body vintage, L4/M grade and explicit hosted/historical UNKNOWNs. Completing the bounded package does not certify the whole interval. Do not reconstruct nonexistent historical receipts or restart technical Helm acceptance solely to make the sweep green.\n\n**The quote is now behind the live owner response.** PROME's new `AGENTS/DAEDALUS/inbox/2026-10-03_from-PROME_judgment-review-dispositions-and-oct5-capacity.md` and L490 22:1x addition say CONSUMED. The observed working diff implements the HEARTBEAT qualification, WQ-295 proposal pointer, Git cookbook sequence and named memory mirror, plus part of the expired-option correction. S3 is carried under existing Kernel authority work; S4 is routed as WQ-381. These are live owner edits, not CATO's changes, final independent acceptance or proof of publication. Do not classify incomplete tails of this active write as a new settled owner failure.\n\n### O-NEW-1 remains open at its Deck source — medium, before publication closure\n\nPROME's response says the corrected queue and FORGE row will propagate through Deck/Helm regeneration. That is insufficient for the Deck: `PROME/tools/decision_deck.py:413` takes `name` from the explainer when present, and lines 416–424 take its What/If yes/If no/If nothing/recommendation text from the same source. Current `PROME/registry/WQ_EXPLAINERS.tsv:111` (WQ-347) still says the four October 2 puts expire Friday and instructs a sale/roll by Friday 15:00. The live queue already has the revised title distinguishing the unbooked earlier outcome from the October 5 line. Source correction and successful regeneration can therefore coexist with the original wrong action on the card.\n\n**Independent bounded probe:** import the module with `python3 -B`, call `parse_open(Q.read_text())`, select `n == '347'`, and call `render_owed(rows, load_explainers(), date(2026,10,3))` in memory. One row rendered; title remained `The QQQ puts: four expire Friday (payrolls day), sell or roll by 3 pm?`; the Friday instruction remained true. Queue/explainer bytes were identical before/after the probe. No build entry point, file output, network or publisher used. Initial probe omitted `parse_open`'s required text argument and raised TypeError before rendering; the corrected invocation above completed rc=0.\n\nProbe identities: generator SHA256 `af701b83d54a3b4013f1b50fea42796b77d70586afed46ae963719a48b7e2f78`; explainer `db4f4df0bb528c76cb5213c232a4927b55c3fc550f13b9e82436cadaeb504dfe`; queue `b016bec5721a24aa1f3f4384372d5f3510f89c040c0ca79cc9ad4f0c49054914`. The preserved prior Helm capture independently matched the reader's SHA256 `c6809c24be6715a0a68d565e740db61c9081e03f144dfff72136d081b63da9e3`, 211,784 bytes, and its line 191 contained the expired Friday instruction. That capture establishes the original finding, not the current hosted state.\n\n**Owner action/closure:** PROME reconciles WQ-347's entire explainer with the existing disposition, then checks the resulting card and Helm action and records publication status. Preserve unknown broker outcome and the distinct October 5 instruction; no new trade recommendation or market-data verification is made here. A corrected explainer/render refutes the remaining local finding; hosted acceptance stays separately evidenced or UNKNOWN. Retain DAEDALUS's finding ID rather than opening a duplicate ticket. This is actionable residue in the current repair, not a demand for another broad review round.\n\n### Capacity: acknowledgement has progressed, execution remains conditional\n\n- **DC4:** the omitted October 5 harness obligation is now restored in DAEDALUS STATUS; that omission is closed. PROME explicitly proposes/records deferral to the process day Will names under WQ-379(c), preserving the original deadline. That names a dependency, not a booked day or completed audit. The playbook (`sweeps/HARNESS_AUDIT_SWEEP.md`) makes detection read-only and autonomous; WQ-299 R1 limits PROME process *changes*. Its zero-change ceiling alone does not establish a prohibition on DAEDALUS's read-only audit. Deferral can still be sensible for attention/capacity, but record that reason and the actual authorization/date when decided. Harness edits remain approval-gated. No new audit launch or date change by CATO.\n- **DC2:** L490 now retains VULCAN then ZHAO on October 12, protects October 15 decision reads, moves nine whole refreshes toward the approximately October 29 pass, and keeps H2/Prose-Remedy behind the first batch. L603's draft date is October 19, protecting the profile day. This improves prioritization, but two profiles plus both overdue packages still lack demonstrated capacity. Treat the second profile and later work as conditional, explicitly disposition unfinished packages, and do not convert a whole-refresh obligation into a delta merely by moving it to a delta sitting. No partial body-date reset. No finding that these packages are impossible to finish.\n- **DC3:** the response/L490 says L530/L538 replacement clauses are adopted; at the inspected instant those two actual rows still carried the older acceptance wording. PROME is writing them now: reconciliation is pending verification, not a new failure or a reason to rerun unchanged code tests.\n- **L604:** scheduled only on the still-unnamed WQ-379(c) day, with independent result reader required; no repair or acceptance claimed. **L594:** Helm integration remains first, with its existing hosted/Standard-gate conditions. A planning packet does not fulfill them.\n\nRecommendation to DAEDALUS: accept the bounded package, consume PROME's completed response at the next directed touch, update only changed dispositions, and preserve Helm support. The next evidence worth reading is the corrected output and completed owner records, not another sweep. Prose-Remedy remains its own owed package. CATO neither dispatched a packet nor edited any owner source, changed a schedule, launched a reader/agent, or opened unrelated work. Stop this pass after the saved advice and Git delivery.\n\nFollow-up closeout verification: weekday check rc=0 on five existing/readable inputs: `PROME/DOCKET.tsv`, `PROME/GATES.tsv`, `PROME/WILL_QUEUE.md`, `AGENTS/CATO/CONTINUITY.md` and this report. Direct startup bytes: CATO AGENTS/CHARTER/CONTINUITY 6,465/9,921/11,165; root CLAUDE/USER/AGENTS 24,199/4,626/4,991, all readable and below 32,550. Generic read-cap remains rc=2 CANNOT-EVALUATE because no local CATO CLAUDE exists, not a pass. Orphan advisory found only other authors' active work, including PROME's reply in DAEDALUS inbox; none swept or sent by CATO. A foreign staged processed packet is preserved; CATO's commit names only the two exact modified CATO files. Whitespace check clean. No ledger, auto-memory or superseded-figure trigger; no repeated guard/build tests. Git delivery receipt is in-session. Findings are bounded to inspected bytes during active owner repair; later edits may close them.\n\n\n**Late correction after first delivery:** PROME changed `WQ_EXPLAINERS.tsv` while CATO was closing out. A repeat of the same in-memory probe, justified by these new source bytes, rendered the title `The QQQ puts: the four Oct-2 puts expired Friday; the five Oct-5 puts need your sell-or-roll decision by Monday 3 pm`; the original Friday action was absent. Explainer SHA256 `db7d715b0c76d10628f0187c19cc3be42e75eabc72559a686a44336b8b7e00ff`; queue/explainer inputs again stable during the read. The row now distinguishes inferred earlier expiry from unknown intraday fills and the separate Monday instruction. **O-NEW-1's local explainer/action propagation gap is closed at these later bytes.** The earlier reproduced defect remains dated evidence, not the final current claim. CATO has not inspected a new generated page or hosted publication and has not independently authenticated broker outcomes, prices or every financial sentence in the new explainer. No additional repair requested here; next owner observation is output/publication acceptance.\n"
+    },
+    {
+      "path": "/home/willi/Research-workspace/PROME/artifacts/decision_deck.html",
+      "capture": "followup_deck.html.gz",
+      "sha256": "658cd6339ef71e44c62325c69fccdc0829bfe25b8577b16aa21cc0f26493c512",
+      "bytes": 145523,
+      "double_read_stable": true,
+      "excerpts": [
+        {
+          "line": 82,
+          "text": "<article class=\"card\" id=\"wq-347\" data-wq=\"347\"><div class=\"rail\"><span class=\"num\">WQ-347</span><span class=\"pill warn\">2d left · 2026-10-05</span><button type=\"button\" class=\"tg\" aria-expanded=\"true\" title=\"Minimize or expand this card\"><span class=\"tg-min\">Minimize</span><span class=\"tg-max\">Expand</span></button></div><div class=\"body\"><div class=\"meta\"><span class=\"pill type\">ACTION</span><span class=\"since\">open since 9/30</span></div><h2>The QQQ puts: the four Oct-2 puts expired Friday; the five Oct-5 puts need your sell-or-roll decision by Monday 3 pm</h2><dl class=\"expl\"><dt>What it is</dt><dd>The four Oct-2 740 puts reached their Friday expiry with QQQ closing at a record $749.58, $9.58 above the strike, so on the tape they expired worthless and their $890.65 cost is the loss. That is inferred from the close: no fill was reported and no Activity view has been captured, so if you sold or rolled them during Friday the record does not show it yet. What books them is your Fidelity Activity view for 9/29 to 10/2, which also books how the four Oct-1 puts left the account (the roll you confirmed by tap on 10/1) and explains $53.54 of cash. The live decision is Monday&#x27;s: five Oct-5 735 puts (cost $1,368.32; last $2.27 on 10/1; QQQ sat $14.58 above the strike at Friday&#x27;s close) expire Monday with your 3:00 pm stop.</dd><dt>Why it is yours</dt><dd>Orders on your account are yours alone; TERRY can write the card but not place the order. The Activity view is on your screen, not ours.</dd><dt>If yes</dt><dd>Monday: sell or roll the five Oct-5 puts at Fidelity&#x27;s live bid before 3:00 pm; TERRY leans to selling at the pre-open, after HENRY&#x27;s pre-open gamma read. When convenient, send the Activity view and the four expired puts are booked as an expiry or as the fills they actually had.</dd><dt>If no</dt><dd>Hold the five into Monday&#x27;s close: above 735 they expire worthless; below 735 they exercise and Fidelity&#x27;s unobserved IRA process runs, with each $1 gap costing $500.</dd><dt>If nothing</dt><dd>Same as holding for the five; the four stay on the mirror as &#x27;expired, inferred&#x27; until the Activity view arrives.</dd></dl><p class=\"rec\"><span class=\"lbl\">PROME rec</span> Your standing practice is to sell or roll before expiry, and an in-the-money put should never ride into this IRA&#x27;s close while the exercise process is unobserved. Prices here are Friday&#x27;s close and 10/1 vendor marks, not your broker&#x27;s bids; Monday&#x27;s open may differ. Rewritten the evening of 10/3, after the Friday expiry passed, from &#x27;sell or roll the four by Friday 3 pm&#x27;.</p><details class=\"raw\"><summary>Row as written in the queue</summary><p><span class=\"lbl\">Item</span> ⚖️ <strong>THE QQQ PUTS — the FOUR Oct-02 740P EXPIRED FRI 10/02 ON THE TAPE (QQQ 749.58 [10/2c] = $9.58 out of the money; INFERRED until your Fidelity Activity view 9/29→10/02 books them, no fill reported) · the FIVE Oct-05 735P: SELL OR ROLL BY MON 10/05 15:00 ET.</strong> <em>(Title re-based 2026-10-03 22:0x ET after the Friday expiry, DAEDALUS O-NEW-1; the original title read 'SELL OR ROLL THE FOUR BY FRI 15:00 ET' and is history.)</em> The four are NEW on your 10/1 end-of-day capture (basis $890.65, last $2.32); the four Oct-01 740P are gone, their exit UNBOOKED (FORGE D-71). <em>(The text below is the 9/30 registration, written for nine Oct-01 contracts — history; the receipts at the end of the Notes cell and TERRY's <code>MGMT-QQQ740P-OCT02</code> card carry the live four.)</em> Your 9/30 roll (Activity: nine QQQ 730P sold @ $0.01, nine Oct-01 740P bought @ $1.92 = $1,733.97; five Oct-05 735P bought @ $2.73 = $1,368.32; transcription <code>PROME/data/2026-09-30_broker-capture-TRANSCRIPTION.md</code>) puts fourteen QQQ puts on the book with no card. The Oct-01 nine are $0.23 ITM at the close (marked $2.97 / $2,673, +$939): if QQQ closes below 740 Thursday and they are still held, Fidelity auto-exercises ⇒ the IRA is short 900 QQQ (~$666k) — the IRA cannot hold it and Fidelity's handling of an ITM expiry in this account is UNOBSERVED (D-60; every observed expiry-day liquidation was OTM). The Oct-05 five (735, $4.77 OTM at the close) reach the same decision Monday.</p><p><span class=\"lbl\">Needed by</span> 2026-10-05 (the Oct-02 four expired on the tape — your Fidelity Activity view books them; the Oct-05 five by Mon 10/05 15:00 ET, DOCKET L592)</p><p><span class=\"lbl\">PROME rec</span> <strong>Rec (re-based 2026-10-03 22:0x ET): the Oct-02 four need NO ORDER — they expired on Friday's tape (OTM; INFERRED, unbooked until the Activity view); the LIVE action is the FIVE Oct-05 735P: SELL or ROLL before Mon 10/05 15:00 ET at Fidelity's live bid — TERRY's card <code>MGMT-QQQ735P-OCT05</code> leans SELL at the pre-open, HENRY's pre-open gamma board (DOCKET L592) comes first; never hold an ITM put into this IRA's close while D-60 is unobserved.</strong> <em>Prior rec (10/1–10/2, history):</em> SELL or ROLL the FOUR Oct-02 740P before Fri 15:00 ET at Fidelity's live bid (TERRY's card leans SELL in the first hour after the open) — never hold an ITM put into this IRA's close while D-60 is unobserved; the same rule for the Oct-05 five on Monday. A roll is root rule #7's sanctioned form (duration, never size); the five ADDED contracts were new size by your own hand (recorded, root rule #5). TERRY writes the management card for both lines at its Thursday wake (packet in its inbox) — a card is a recommendation; the order is yours.**</p><p><span class=\"lbl\">Notes</span> Registered 2026-09-30 18:4x ET (prome-94) from Will's two captures (18:31 ET) after WQ-316's roll word (18:27). Broker facts only you can supply Thursday: the live bid · any working orders. ANVIL reconciled FORGE to the capture 9/30 post-close (33bc8c293). <strong>TERRY's cards are on file 2026-10-01 (the Oct-01 nine: <code>AGENTS/TERRY/setups/QQQ740P_oct01-sell-or-roll_2026-10-01.md</code>, 391bc5d95 + 4ee8783d4 — lean SELL before 15:00 ET; roll form 740P Oct-09 ×9 ≈ $6.17/contract net, no debit above $6.50, ≈ 15× the $500 card cap, a put bought on a red day; every option quote on it is vendor screening, Fidelity's bid governs · the Oct-05 five: <code>…/QQQ735P_oct05-sell-or-roll_2026-10-01.md</code>, lean SELL by Mon 15:00 ET, re-read Monday). PROME verified both at the artifact and concurs with SELL.</strong> <strong>Will 19:03 ET, verbatim: <em>\"I am always going to try to sell or roll positions before they expire worthless.\"</em> — a standing practice (USER.md; memory <code>feedback_will_sells_or_rolls_before_expiry</code>): the question is SELL OR ROLL, by Thu 15:00 ET; \"hold\" is not on his menu. The rec stands.</strong> <strong>+2026-10-01 12:34 ET sourced receipt (prome-0c): Will SOLD 5 of the nine Oct-01 740P on 10/1 — 1 @ $3.44 · 1 @ $3.97 · 3 @ $3.72, proceeds $1,853.66, realized +$890.35 (broker Pending list, capture 12:24 ET; FORGE reconciled ANVIL dac72b4ae). FOUR REMAIN ($2.65 / $1,060.00 [10/1 intraday]) and still expire today — the 15:00 ET stop stands for the four; the Oct-05 735P ×5 unchanged.</strong> <strong>+2026-10-01 13:34 ET (prome-0c): TERRY's refreshed card for the FOUR (36959ad0f · 62df52473, 12:51 ET): lean still SELL at Fidelity's bid before 15:00, or ROLL to Oct-09 as one net-debit order (≈$2,484 for four, no chase above $6.50); value range ≈$730 (vendor bid $1.83) to ≈$1,060 (Fidelity's 12:24 mark $2.65) — only Fidelity's bid settles it; hold above 740 = −$770.66, hold below 740 = a 400-share short (≈$296,000), −$400 per $1 gap; if the four are rolled to Oct-09, Monday's five roll to Oct-16.</strong> <strong>Receipt 2026-10-01 16:2x ET (<code>prome-2f</code>): Will's end-of-day capture (16:15 ET; <code>PROME/data/2026-10-01b_broker-capture-TRANSCRIPTION.md</code>; mirror ANVIL d97eba708) shows the four Oct-01 740P GONE and FOUR NEW QQQ Oct-02 740P (basis $890.65, last $2.32) — they EXPIRE FRI 10/02 (payrolls 08:30 ET). How the Oct-01 four left is UNBOOKED (FORGE D-71; PROME's pending-change inference ≈ net +$22.75 is not a fill — the Activity view settles it). The live question is now the Oct-02 four by Fri 15:00 ET, then the Oct-05 five Mon; TERRY (terry-b2, Will's window) holds the card ask.</strong> <strong>+2026-10-01 19:5x ET (<code>prome-2f</code>): TERRY's card for the Oct-02 four is on file (<code>AGENTS/TERRY/setups/QQQ740P_oct02-sell-or-roll_2026-10-01.md</code>, 8f9e6b7d1; PROME read the memo at the artifact): QQQ $742.03 close ⇒ $2.03 OTM, all time value; breakeven $737.77; an ITM hold = 400 sh ≈ $296,000 short over a WEEKEND, −$400 per $1 Monday gap; lean SELL in the first hour, hard stop 15:00 ET; roll form Oct-09 ≈ $1,736 for four (≈ 5.3× the $500 cap), no chase above $4.75; every quote is an after-hours vendor mark. <code>MGMT-QQQ740P-OCT01</code> is CLOSED with its disposition INFERRED. Will in TERRY's window ~19:0x ET, verbatim: <em>\"okay will probably sell those tomorrow. Lets close out\"</em> — an INTENT, not a ruling; TERRY could not tell whether \"those\" covers these four, the WQ-357 sleeve, or both (UNCONFIRMED). The row closes on the fill.</strong> <strong>Tap via Decision Deck 2026-10-01T21:04:45Z (17:04 ET; doc <code>347-20261001210445549-4wxfx6</code>): APPROVE, note verbatim: <em>\"this has been complete already - I rolled them.\"</em> — picked up at the <code>prome-e4</code> boot 2026-10-01 20:44 ET (it sat unconsumed through <code>prome-2f</code>, whose boot preceded it). The card tapped was v71 (built 14:44 ET), which asked about the FOUR Oct-01 740P ⇒ his word answers THAT question: the Oct-01 four were ROLLED by his own hand, consistent with the 16:15 ET capture (four Oct-01 gone, four Oct-02 740P new). FORGE D-71's disposition is therefore a ROLL on Will's word; the fill prices stay UNBOOKED until the Activity view. ⚠️ The tap predates this row's re-write to the Oct-02 four and does NOT answer it: the Oct-02 four still expire Fri 10/02 (stop 15:00 ET); the row closes on the fill.</strong> · <strong>+2026-10-02 11:28 ET (<code>prome-70</code>): no fill reported; Will is HOLDING the four as a ~$20 ticket to the 15:00 ET hard stop, leaning SELL-not-roll (740P bid 0.06 at 10:45; QQQ all-time high $754.54, $749.05 at ~11:14). A FIFTH QQQ Oct-02 put sits in his ROBINHOOD account (strike and cost unconfirmed; not on the mirror) — same stop. TERRY (57352dc60 · 49e0ef1b2) WITHDREW its Oct-09 ×4 roll: NO roll; if he rolls anyway, ONE Oct-16 740P at ≤ $4.99, recorded as 'sell three, roll one'. The dated alternative is WQ-365.</strong> <strong>+2026-10-02 21:2x ET (<code>prome-ed</code>): no fill reported through the close; QQQ $749.58 [10/2c] = $9.58 above 740 ⇒ the four Oct-02 740P (Fidelity) and the Robinhood fifth put (strike unconfirmed) EXPIRED OUT OF THE MONEY on the tape — INFERRED, not booked: only your Fidelity Activity view (9/29→10/2) books them and closes D-71. Needed-by moved to Mon 10/05: the row now asks for the Activity view and carries the Oct-05 735P ×5 (L592; TERRY leans SELL at the pre-open, hard stop 15:00 ET; the order is yours). R4 triage this sitting: ALREADY RULED (sell-or-roll is your standing practice) — completion = the fills booked on the mirror; receipt = the Activity view.</strong></p></details><div class=\"tap\" data-wq=\"347\"><div class=\"tapstate\" hidden></div><div class=\"tapbtns\"><button type=\"button\" class=\"btn approve\" data-v=\"APPROVE\" id=\"ap-347\">Approve</button><button type=\"button\" class=\"btn decline\" data-v=\"DECLINE\" id=\"dc-347\">Decline</button><button type=\"button\" class=\"btn later\" data-v=\"LATER\" id=\"lt-347\">Later</button></div><input type=\"text\" class=\"note\" id=\"note-347\" placeholder=\"Note to PROME (optional) — e.g. 200 = 1+3, or a different level\" maxlength=\"400\"></div></div></article>"
+        }
+      ]
+    },
+    {
+      "path": "/tmp/claude-1000/-home-willi-Research-workspace-PROME/dae0faa6-ba7d-4aa8-8e98-f03fa6870b42/scratchpad/handbook.html",
+      "capture": "followup_helm.html.gz",
+      "sha256": "6ff94bb77028a2b9ebc400ce4d9ce3f99cb094cec29e3fcb0f0b23d5afa55248",
+      "bytes": 214209,
+      "double_read_stable": true,
+      "excerpts": [
+        {
+          "line": 191,
+          "text": "<article class='decision'><b>Fidelity · QQQ $740P 2026-10-02</b><p>Approval: NOT_RECORDED · Order: UNKNOWN · Fill: UNKNOWN</p><p>EXPIRY 2026-10-02 PASSED. QQQ closed 749.58 [10/2c], $9.58 above the strike, so the four expired OUT OF THE MONEY on the tape — INFERRED: no fill and no Activity view captured, Will may have sold or rolled intraday. Action = BOOK from Will&#x27;s Fidelity Activity view 9/29→10/02 (WQ-347, needed-by 10/05); no order from this dashboard; the Mon 10/05 735P ×5 line is its own decision (DOCKET L592). Re-based 2026-10-03 22:0x ET (PROME prome-ed, DAEDALUS O-NEW-1). Prior action text (10/1): sell or roll the four before the Fri 10/02 15:00 ET stop.</p><p>Owner: Will (his hand); TERRY card MGMT-QQQ740P-OCT02 = recommendation only · Review: 2026-10-02 expiry — NEW 10/1: ×4, broker basis $890.65 ($2.23 avg), $2.32 / $928.00 (+$37.35) [10/1 post-close capture]; fill price and time NOT SHOWN (no Activity view); ≈$2.03 OTM at QQQ ≈$742.03 [vendor 10/1 16:06 ET]; payrolls Fri 08:30 ET, tradeable from 09:30; TERRY card (8f9e6b7d1) leans SELL in the first hour, hard stop 15:00 ET; D-60 (ITM expiry handling in the IRA) UNOBSERVED; WQ-347</p><p>Complete when: Will&#x27;s disposition recorded (sold or rolled, fill captured).</p><small>Checked 2026-10-03 · <a href=\"../../FORGE/STATUS.md\">Evidence</a></small></article>"
+        },
+        {
+          "line": 192,
+          "text": "<article class='decision'><b>Fidelity · QQQ $735P 2026-10-05</b><p>Approval: NOT_RECORDED · Order: UNKNOWN · Fill: FILLED</p><p>Will sells or rolls before the Mon 10/05 15:00 ET stop (WQ-347; his standing practice). No order from this dashboard.</p><p>Owner: Will (his hand); TERRY card MGMT-QQQ735P-OCT05 = recommendation only · Review: 2026-10-05 expiry — ×5 bought 9/30 @ $2.73 (−$1,368.32); $2.27 / $1,135.00 (−$233.32) [10/1 post-close capture]; ≈$7.03 OTM at QQQ ≈$742.03 [vendor 10/1 16:06 ET]; TERRY card refreshed 10/1 (8f9e6b7d1): Mon 15:00 ET stop unchanged; WQ-347</p><p>Complete when: Will decides disposition before expiry; TERRY card delivered.</p><small>Checked 2026-10-01 · <a href=\"../../FORGE/STATUS.md\">Evidence</a></small></article>"
+        }
+      ]
+    }
+  ]
+}

@@ -2,6 +2,48 @@
 
 **BOUNDED PACKAGE COMPLETE — evidence, required review, delivery and truthful write-back done; whole sweep PARTIAL.** Seven supported, bounded findings; all five judgment legs inspected at the coverage below. Hosted access and complete historical consumer receipts remain UNKNOWN. The whole-sweep clock stays September 8; no clean L5 claim or grade change follows.
 
+## Current follow-through — October 3, 22:24 ET observed owner bytes
+
+**CONSUMED, with capacity dispositions recorded.** This supersedes the initial receipt-only / agreement-OPEN state below. Read CATO's October3 22:13 assessment **and late correction**, PROME's response `inbox/2026-10-03_from-PROME_judgment-review-dispositions-and-oct5-capacity.md`, and the actual owner rows. Owner closeout is live; these are preserved working-tree bytes, not a final owner commit/ARGUS/publication acceptance. Evidence `../runs/prome_sweep_2026-10-03/followup_sources.json` and two compressed changed-page captures. No owner source edited or Helm build/test repeated.
+
+| Finding | Verified current disposition | Still owed / completion boundary |
+|---|---|---|
+| O-NEW-1 | **Local action propagation CLOSED at observed bytes.** CATO's late explainer hash `db7d715b…` and in-memory result replace its earlier failed probe. DAEDALUS inspected an actual new generated Deck card (line82, SHA256 `658cd633…`) and the new local Helm action (line191, `6ff94bb7…`, 214,209 B): earlier four are booking/evidence work; Monday's five remain a separate action. Historical Friday text is labelled history. | **Hosted UNKNOWN:** both direct opens inaccessible. Inspected latest PUBLISH receipt is 21:18, before the correction, so it cannot establish publication of these bytes. Owner closeout/publication acceptance remains OPEN; actual broker outcomes remain UNKNOWN. This is action-meaning verification only, not authentication of every market/financial sentence. |
+| O-NEW-2 | **Source discrepancy CLOSED at observed bytes:** HEARTBEAT55 now calls the sustained count UNGRADED and points to RED/REGINALD, consistent with §3. | Owner closeout acceptance still in flight; no credit grade or threshold changed by this read. |
+| O-NEW-3 | **Originating-proposal pointer gap CLOSED at observed bytes:** the new disposition names September26 R1/R4 rulings, R3 no ruling needed, October1 R2 approval and L581 encode not yet in force. | This closes the missing-pointer finding, not L581 or all proposal wording. |
+| S1 | **Cookbook conflict CLOSED at observed bytes:** final commit recipe removes `--push`, requires ARGUS verification before safe-push, agrees with CLOSEOUT86–93. | Source agreement does not certify runtime execution or final owner acceptance. |
+| S2 | **Named-memory conflict CLOSED at observed bytes:** dirty-path overlap precondition, bounded escalation and retired YEYOU exception now agree with root canon. | No whole-memory or runtime assurance claimed. |
+| S3 | **CARRIED:** owner assigns existing WQ-150 / next Kernel touch (L314 class); runbook not repaired. | Root governs. Authorized reconciliation before successor use; no activation or new sitting inferred. |
+| S4 | **ROUTED:** actual WQ-381 row requests the charter label correction at October9's existing sitting. | Will ruling then owner edit; label still unchanged, behavior already blocking. |
+
+### Actual-row reconciliation, not packet-only acceptance
+
+- **L490:** latest state cell says CONSUMED and records the early capacity disposition. WF/build/scorecard legs remain delivered; queues remain PENDING. October5 confirms this disposition; it is not a new build receipt.
+- **L530/L538:** PROME's reply and L490 say replacement clauses adopted, but **the actual rows at this observation still retain the old clauses**: L530 requires measurement for the OWNER from ANY reader; L538 still asks for global WALTER rc0. Registrar decision is recorded, row encoding/verification remains OPEN. This is a narrow in-flight write-back gap under the same rows, not a reopened code finding. L530 literal every-path acceptance remains PARTIAL; L538's isolated external exemption acceptance stands independently of unrelated local breaches. No unchanged code tests repeated. A final narrow row check and authorized handoff, if still material, are logged in the delivery receipt.
+- **L604:** actual row says receipt yes / scheduled yes / implemented no / accepted no. The slot is conditional on the still-unnamed WQ-379(c) day, behind rank10. PROME owns repair and its race/summary acceptance conditions; an independent result reader is required. October5 is the checkpoint, not a repair date.
+- **L594:** existing isolated patch/read evidence retained. PROME integration, full Standard gate, build receipt, hosted page/supporting-file checks and CLOSEOUT retirement wiring remain acceptance conditions. October5 support protected; no unchanged patch re-review.
+- **L603:** actual date is now October19; the October12 bookmark commitment is superseded. WQ-380 retains its separate October9 date.
+
+### Remaining capacity, without changing deadlines or scope
+
+**Harness:** original due date **October5** and July7 last_run survive. PROME records deferral to the process day Will names under WQ-379(c); that day is **not named/approved in the inspected WQ row**, so no replacement date is booked. Treat the owner's deferral as an attention/capacity disposition, not evidence that WQ-299's process-change ceiling prohibits a read-only audit. The harness playbook authorizes detection read-only/autonomously; a completed audit produces the reviewed strike/rewrite/disposition package. Implementation of any harness changes retains approval and live-owner boundaries. No audit launched by this follow-through, no completion or already-missed October5 deadline claimed on October3.
+
+**October12:** retained **VULCAN → ZHAO**, one whole package through evidence/review/write-back before starting the next. The second is conditional on actual remaining capacity. **H2 and Prose-Remedy remain two separately owed packages behind that batch, target October12, original September25 misses retained.** If either cannot complete, PROME must explicitly retain/defer its date and scope; the tail is not assumed to fit or silently marked scheduled-complete. H2 scope stays MARCO's four unverifiable rows plus MAR-22, REGINALD's remaining candidates/wording, HENRY's unrecorded historical information; no invented reconstruction. Standards/design items named in the initial capacity section are not waived by this profile selection.
+
+**October15:** protect the eight embedded reads (FERT, OSPREY, VIOLET, DEWEY, BOND, CRUISE, FLG, OTTO), plus the separate HAWK/FALCON/VULCAN/ZHAO/MARCO ruling-A and BROCK/REGINALD/MIDAS L5 decision reads. The owner's shorthand must not turn these into the same population.
+
+**Approximately October29:** owner defers the nine **whole** refreshes (AEOLUS, HAWK, HOMER, WAL, BROCK, CREED, REGINALD, FALCON, MIDAS) past October15 toward this sitting. Their **full scope survives**, separate from the twelve already scheduled delta reads; calling the destination a delta pass does not shrink these obligations. No CREED launch or partial body-date reset. Exact capacity/date remains to be confirmed; this is not proof all21 packages fit.
+
+**Next concrete actions:** PROME completes current changed-output publication/disposition and aligns L530/L538's actual acceptance cells; completion is the matching row text plus a version-specific publication receipt/accessible read, with hosted UNKNOWN retained where unavailable. Will/PROME name read-only harness capacity or an explicit dated deferral retaining October5, and Will rules any WQ-379(c) implementation day separately. At October5, PROME owns L594 integration/acceptance; DAEDALUS supports changed-output acceptance on request, using existing technical evidence. This follow-through stops after checks/Git/handoff; it does not begin another package.
+
+**Whole sweep remains PARTIAL:** September8 last_run, September3 profile-body vintage and L4/M assessed October1 unchanged. Historical all-consumer receipts remain UNKNOWN. REVIEW: not-required — register/disposition re-cut against owner rows and changed production examples; scope this follow-through and own continuity; reader NONE-OWED for this maintenance class, CATO's independent late probe retained as existing evidence; APPLIED owner dispositions, RESIDUE named above. No trigger, grade, guard scope, remedy or authority changed.
+
+---
+
+## Initial package — preserved October3 evidence and proposals
+
+The initial findings/capacity recommendation below describe the pre-response snapshot. Current closures, enacted owner scheduling and unresolved gaps are governed by the follow-through above; do not re-use the old OPEN/unconsumed statements as current state.
+
 Will commissioned this bounded read-only package after CATO's October 3 evening assessment. PROME is presumed live. No owner source, publication state, authority, shared rule or implementation is changed by the review. The only authorized cross-owner write is the self-authored completion packet.
 
 ## Evidence perimeter
