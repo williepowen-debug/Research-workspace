@@ -36,3 +36,6 @@ Contrarian retail dip-buying into a historic long-bond drawdown, plus record opt
 ## CAVEATS
 - Figures are from two market-data commentary accounts — directionally consistent but **HENRY/BOND verify the exact daily-flow and options numbers** before citing.
 - ROUTINE: positioning context, not a catalyst or threshold cross.
+
+## READ-STATE — 2026-10-04 (added per CATO review `61d52336b`)
+@KobeissiLetter and @GlobalMktObserv tweet **text read in full**; the attached chart/graphic images were **NOT vision-read** (the tweet text carried the flow and options-volume figures). All figures are the two accounts' own numbers — **HENRY/BOND verify the daily-flow and options-volume data at a primary before citing.**

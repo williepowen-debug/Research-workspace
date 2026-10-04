@@ -36,3 +36,9 @@ A viral post (@Kalshi 19:30Z) read "IEA says 325 MILLION barrels of emergency oi
 ## CAVEATS
 - Iraq VLCC: one cargo (~2M bbl) — a directional signal, not a volume shift yet. Bloomberg single-wire; BRENT reads the primary if pricing off it.
 - IEA figure: the 400M program is real and large, but it is the OLD program's running total, not a 10/04 event.
+
+## 🔴 WALTER CORRECTION — 2026-10-04 (additive; per CATO review `61d52336b`. The Iraq mechanism was OVERSTATED — this supersedes the "bypass" framing above.)
+**"Beyond the Strait of Hormuz" means the DESTINATION is beyond the Gulf — the tanker still TRANSITS Hormuz.** The available Bloomberg excerpt describes sailing **THROUGH** the strait to offer crude to buyers outside the Persian Gulf; the full page was not accessible.
+- ❌ My framing — "a structural supplier RESPONSE to Hormuz war-risk," "the same **bypass** logic as Saudi's East-West pipeline," "diversification of Gulf crude **away from the chokepoint**" — **overstates the mechanism.** This is **NOT** a bypass of Hormuz and **NOT** analogous to the Saudi pipeline (which physically routes crude around the chokepoint to the Red Sea).
+- ✅ **Corrected (narrower) read for BRENT:** a **commercial / logistics** step — Iraq's state tanker company arranging a VLCC to market/deliver ~2M bbl of crude to destinations outside the Gulf. Significance = Iraq expanding where/how it offers crude (marketing reach, one cargo), **not** a reduction in its Hormuz dependence. Do not read it as routing around the chokepoint.
+- **Read-state:** @business/Bloomberg tweet **text read**; the **full Bloomberg article page was NOT fetched** (the tweet text was the source) — so the exact "through vs from-outside" wording is the tweet's summary, not the article. @Kalshi (IEA) tweet text read; the IEA figure verified at primary (verify-research subagent).

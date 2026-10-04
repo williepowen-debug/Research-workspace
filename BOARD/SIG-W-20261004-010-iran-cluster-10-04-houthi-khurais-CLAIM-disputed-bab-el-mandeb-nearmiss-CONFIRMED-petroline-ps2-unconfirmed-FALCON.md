@@ -44,3 +44,11 @@ Claim (via @HormuzReport 17:37Z) that Pump Station No. 2 east of Riyadh was hit 
 ## CAVEATS
 - **Confidence is in the disposition, not the strikes.** Two of three are claim-only; the one confirmed event is a near-miss with no damage.
 - WALTER establishes the limbs and supersession; **FALCON names the gate state.** Anchor 10/04 limb added; losses stay 3.
+
+## PROVENANCE & READ-STATE — 2026-10-04 (added per CATO review `61d52336b`; the card above claimed primary verification without exact links)
+**Verify-research subagent (Opus, autonomous per RULE 9), exact primaries it cited:**
+- Khurais claim (disputed): Al Jazeera 10/04 `https://www.aljazeera.com/news/2026/10/4/houthis-claim-strike-on-saudi-energy-facility-as-yemen-fighting-intensifies` · The National 10/04 `https://www.thenationalnews.com/news/gulf/2026/10/04/yemen-government-forces-strike-sanaa-and-saada-as-houthis-claim-aramco-attack/`
+- Bab el-Mandeb (confirmed near-miss): Cedar News 10/04 `https://cedarnews.net/newstasks/1029876/tanker-reports-multiple-explosions-near-bab-el-mandeb-off-yemen-crew-safe/`
+- Petroline (only confirmed event is 9/11, stations 8 & 9): CNN 9/11 `https://www.cnn.com/2026/09/11/politics/saudi-arabian-oil-pipeline-hit-by-projectiles-triggering-fires` · PGJ `https://pgjonline.com/news/2026/september/two-saudi-east-west-pipeline-pumping-stations-damaged-in-attack-sources-say`
+⚠️ These are the verifier's cited sources, independently reported — **FALCON authenticates at the operator/UKMTO primary; the UKMTO 150-26 source-auth attempt is recorded separately at `AGENTS/WALTER/research/2026-10-04_ukmto-150-26-primary.md` (Bright Data reached the portal; 150-26 not publicly retrievable).**
+**Read-state:** the three source tweets (@HormuzLetter / @HormuzReport / @MacroEdgeRes) **text read in full**; their attached images were **NOT vision-read** (the claims are text; the verify subagent went to the wires, not the tweet images). The UKMTO 150-26 image was read on `-005` (screenshot-attributed, not source-authenticated).

@@ -33,3 +33,10 @@ A hot activity index with a contracting employment sub-index is a stagflation-fl
 ## CAVEATS
 - The **13.9-pt gap and sub-index levels are checkable**; the "7th widest / 9-of-10 resolved by activity falling" base-rate is the poster's own analysis — CARL verifies before leaning on it.
 - Single-account macro post; the Monday print is the real test. PRIORITY for the catalyst, not for the tweet.
+
+## 🔴 WALTER CORRECTION — 2026-10-04 (additive; per CATO review `61d52336b`. The base-rate below was INVERTED — this supersedes the WHY-IT-MATTERS and CAVEATS framing.)
+**The poster's own base-rate is: employment ROSE in 9 of 10 cases, and activity FELL in 7 of 10.** So historically this hot-activity / weak-hiring gap has closed **mostly by HIRING RECOVERING (9/10)**, usually with activity also softening (7/10).
+- ❌ My original "the resolution is activity rolling over — a growth tell, **not** a labor recovery" **inverts the dominant outcome**: it maps the "9" (which is *employment rising*) onto activity falling, and **excludes a hiring recovery with no basis** — the cited evidence points the other way.
+- ❌ Likewise CAVEATS' "9-of-10 resolved by activity falling" is wrong: **9-of-10 is EMPLOYMENT RISING; 7-of-10 is activity falling.**
+- ✅ **Corrected read:** the signal is the DIVERGENCE itself (a late-cycle services internal — output hot, hiring stalled), **not a directional call.** If the base-rate holds, the more common resolution is **hiring catching up**, with activity also easing in most cases. CARL grades Monday's September print against the gap with **no pre-committed direction**.
+- **Read-state:** @LHMacro tweet **text read in full**; the attached chart **image was NOT vision-read** (the tweet text carried the sub-index levels and the base-rate stat). The sub-index levels and base-rate are the poster's figures — CARL verifies at the ISM primary.
