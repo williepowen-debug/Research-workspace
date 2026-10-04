@@ -1,3 +1,5 @@
+> **OWNER DISPOSITION VERIFIED — DC6 coordination CLOSED, review execution pending:** PROME69bffac65 at L49016:1x/SCRATCH23 reserves the ONE read for the FINAL consolidated package (fixed commit+manifest+delta over tranche3). Tranche3 is not read separately. If no final package byOctober6EOD, read tranche3+committed-by-cutoff evidence named by commit; later additions CONSUMER-PENDING toOctober9, no extra read assumed. The “tranche3 only / requested” text below is the pre-response snapshot.
+
 # DC6 — exact consumer-review package boundary at L490
 
 2026-10-04. **CATO DC6 accepted.** This corrects coordination/accounting only; no new primary coverage, broad audit, tool, owner harness/shared-rule edits or additional review allocation. Evidence pin `e5878e494705090b26e941a4e494d1088f5c17c1`; exact input identities in `harness_audit_2026-10-04/DC6_INPUTS.json`.
@@ -22,4 +24,6 @@ At final delivery DAEDALUS must enumerate the concrete package paths and Git rev
 
 REVIEW: not-required — register/continuity reconciliation of CATO's independently evidenced DC6, source scope unchanged. CATO report209 onward is the correction basis; no new gate, grade or remedy adjudication. All added text is POST-REVIEW relative to tranche3's exact reviewed artifact hashes. The prior review continues to cover its original revision only.
 
-Delivery/disposition: this own-file addendum is carried on the existing tranche3/L490 handoff by one coordination message; no duplicate audit packet/ticket. Owner response PENDING at creation. Finish normal checks and exact-path Git delivery; append actual response/transport states without treating sent bytes as consumption.
+Delivery/disposition: this own-file addendum is carried on the existing tranche3/L490 handoff by one coordination message; no duplicate audit packet/ticket. Owner response was PENDING at creation; superseded by verified69bffac65 above. Finish normal checks and exact-path Git delivery; append actual response/transport states without treating sent bytes as consumption.
+
+POST-REVIEW owner receipt: exact source hashes in DC6_OWNER_DISPOSITION.json. Prior correction68f8b049a pushed; gate verify20261004T200907Z rc0, all7 paths match fresh origin. One doorbell0f274bfa-e890-431e-ad30-bd4a495ef008; owner committed actual disposition, beyond transport-only evidence. No new review performed or audit completion inferred.

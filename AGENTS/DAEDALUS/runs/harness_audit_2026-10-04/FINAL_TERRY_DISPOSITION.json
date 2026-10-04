@@ -1,0 +1,12 @@
+{
+  "checked_utc": "2026-10-04T20:30:48.762153+00:00",
+  "head": "cde20f06139c34900040df0185bc92492b4f2e06",
+  "hold_packet": {
+    "path": "AGENTS/TERRY/inbox/2026-10-04_from-PROME_closeout-recovery-recipe-hold.md",
+    "bytes": 2248,
+    "sha256": "7ce8108b3779f1806773d4e187e07b584afca87ee11d6f6b31d1039b927b4b37",
+    "read": "FULL; remains top-level inbox"
+  },
+  "bounded_history": "1857731ff 2026-10-02 14:43:24 -0400 TERRY: VLO-HELD-01 10/2 graded - leg A NOT FIRED (Nov crack est $97.97), B1 NOT FIRED\n248690145 2026-10-02 11:17:59 -0400 TERRY: closeout 10/2 (Standard) - STATUS current state rewritten + ARMED, MEMORY, stamp fixes\nb5d6c5f4f 2026-10-02 10:41:09 -0400 TERRY -> PROME: commissioned QQQ dated downside card (CONDITIONAL) + memo\necf7b9d3b 2026-10-02 09:53:03 -0400 TERRY: D-68 PB-0002b + D-71 exit UNKNOWN records, inbox drain, STATUS; memo final\n",
+  "disposition": "No new application/repair/acceptance evidence in this bounded check. Delivered hold remains UNVERIFIED for application; no inference that it was ignored. Existing Monday L592 wake carries follow-up; no duplicate message/launch."
+}

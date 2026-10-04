@@ -1,0 +1,297 @@
+{
+  "source_pin": "68f8b049a5f5bbd19332f1eb6a4e76c80621ec46",
+  "checked_utc": "2026-10-04T20:28:06.197787+00:00",
+  "head_at_check": "26fb3bb12e46866c963c5cb026564f199363f85d",
+  "primary_full_count": 60,
+  "primary_source_bytes": 1850103,
+  "nested_full_count": 9,
+  "nested_source_bytes": 127040,
+  "delta_count": 17,
+  "delta_source_bytes": 524409,
+  "source_identity_mismatches": [],
+  "live_primary_nested_changes_vs_pin": [
+    "AGENTS/WALTER/CLAUDE.md"
+  ],
+  "new_report_manifest_literal_source_count": 49,
+  "new_report_sources": [
+    {
+      "path": "AGENTS/AEOLUS/CLAUDE.md",
+      "bytes": 45374,
+      "sha256": "9ac73ee7e5f08e735358f7fd27a21e1cf86e732e23d00baf9e28c88f88644893"
+    },
+    {
+      "path": "AGENTS/AEOLUS/scripts/domain_log_check.py",
+      "bytes": 6227,
+      "sha256": "0aa7f5ce4491958822d6793181dc548028a096c236819aba4d3c3e7a927a64dd"
+    },
+    {
+      "path": "AGENTS/BOND/CLOSEOUT.md",
+      "bytes": 10482,
+      "sha256": "de072cebd2ac112cf80b907831878b03385c39c74410546713c3e5c8dabde952"
+    },
+    {
+      "path": "AGENTS/CORAL/CLAUDE.md",
+      "bytes": 28659,
+      "sha256": "e57b9e3cea648a3b08038f6e25913bd108a5cad86e5f75b891dbca1a32b079ae"
+    },
+    {
+      "path": "AGENTS/CREED/CLAUDE.md",
+      "bytes": 38108,
+      "sha256": "39f66cee5899e99033bd80c0ea2d3492fa51ee0937a3f3a85ccd4401ee3ba517"
+    },
+    {
+      "path": "AGENTS/CRUISE/CLAUDE.md",
+      "bytes": 18181,
+      "sha256": "e12c0b8971211f976c14d4f3d939ccf4f06f2aa62d7819f71d951d97b492cd1e"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/BLUEPRINTS/READ_CAP.md",
+      "bytes": 25080,
+      "sha256": "a326afd037cc5e037cd9673a011ad7c21bc5990156f9ae645af6f66576cf90a8"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/HARNESS_AUDIT_2026-07-07.md",
+      "bytes": 14096,
+      "sha256": "c41b14421996c461ac3313438e76c1135d3fc7486928a19c6912123763f4612d"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/sweeps/HARNESS_AUDIT_SWEEP.md",
+      "bytes": 3381,
+      "sha256": "0f157992d0de488b2933a1ca21c9e2ffa6b0f0c23d6b1743d1b2bb18743385af"
+    },
+    {
+      "path": "AGENTS/DEWEY/CLAUDE.md",
+      "bytes": 31626,
+      "sha256": "35c1033b984b4b7717f38e53b5c2ec6e109fb671ddb7a9c4df354751f5808441"
+    },
+    {
+      "path": "AGENTS/FERT/CLAUDE.md",
+      "bytes": 19931,
+      "sha256": "ebb4a04e01d27b1c45f5ed2f9405f9df016fbbf98f58ed61d9ee4ca0f442df37"
+    },
+    {
+      "path": "AGENTS/FERT/boot.py",
+      "bytes": 5675,
+      "sha256": "882a4355aace3a72086cf27891383d71faa76788396fc5556b85e85b8bb4895c"
+    },
+    {
+      "path": "AGENTS/FLG/CLAUDE.md",
+      "bytes": 26500,
+      "sha256": "569e987f58cbf2752e757c31bb3ec6ce4a59666f6ec01b5955cd971abb28b3eb"
+    },
+    {
+      "path": "AGENTS/FLG/boot.py",
+      "bytes": 9087,
+      "sha256": "fa07ed4a2637ee898cc2ca2893e588a3d53b8b61bfe08a609f2ad3c05e064f05"
+    },
+    {
+      "path": "AGENTS/HANS/CLOSEOUT.md",
+      "bytes": 8338,
+      "sha256": "7851b84606a7811cf99f25a6ddf1b40842c6658cb396d1a4a82356ad4e9b6e57"
+    },
+    {
+      "path": "AGENTS/HOMER/CLAUDE.md",
+      "bytes": 38411,
+      "sha256": "31bfe44995c363051e4597771113d486f653a5b125e550e0474e2b65c9b95399"
+    },
+    {
+      "path": "AGENTS/HOMER/tools/rent_breadth.py",
+      "bytes": 5993,
+      "sha256": "1a46df76c059d4b0073de51e9a2cb8207c9f829203282b58229c1e9c9a8d3509"
+    },
+    {
+      "path": "AGENTS/LIQUID/CLOSEOUT.md",
+      "bytes": 12123,
+      "sha256": "766aad32b3bc36134dc5ec95a2b2b18adb5ca24c78db87a0f5d329b00b3724a3"
+    },
+    {
+      "path": "AGENTS/MIDAS/CLAUDE.md",
+      "bytes": 26438,
+      "sha256": "81e70c9bd59a7f0d3d17548bdc7266281e7282e2eb34cb6368b307ec1a1da97a"
+    },
+    {
+      "path": "AGENTS/MIDAS/boot.py",
+      "bytes": 14263,
+      "sha256": "48920985697fb184ab080d0bf29f7b804010eaef0398272bd258e41e61ca5e9f"
+    },
+    {
+      "path": "AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md",
+      "bytes": 32141,
+      "sha256": "8d8c279c4c56416e5fa34f77b088b6af96d7d34b8269c04c881423526e2f8955"
+    },
+    {
+      "path": "AGENTS/ORACLE/CLAUDE.md",
+      "bytes": 26709,
+      "sha256": "6436fad6aba47dca86517f9ca43281cb1379ccc8a0f9e3feee363a0445acfe02"
+    },
+    {
+      "path": "AGENTS/ORACLE/tools/disruption_supply_spread.py",
+      "bytes": 18895,
+      "sha256": "631ddc5a79ea5cf3dc76f233947f3aa400d06287ed48a9fe53d93193ca491146"
+    },
+    {
+      "path": "AGENTS/OSPREY/CLAUDE.md",
+      "bytes": 48339,
+      "sha256": "c2325eebf1bf3f52c4cc9f178fb5138f5b2d39ca742f4685100eed09847e3c92"
+    },
+    {
+      "path": "AGENTS/OSPREY/scripts/strike_feed.py",
+      "bytes": 15323,
+      "sha256": "3498203d9d489a3ba25ed57ee8ef88b8fb205ea2ffb050972050c145351b0788"
+    },
+    {
+      "path": "AGENTS/OTTO/CLAUDE.md",
+      "bytes": 42142,
+      "sha256": "df7f2df6b5bafbfa743dbab15d99f95073aa6395ff2c555bc14e650256c7d048"
+    },
+    {
+      "path": "AGENTS/OTTO/scripts/boot.py",
+      "bytes": 8852,
+      "sha256": "d10b23952065d79393654613cde3e5a492f1a7f92eda0070825cf3c3bce72209"
+    },
+    {
+      "path": "AGENTS/SIGNALS.md",
+      "bytes": 10224,
+      "sha256": "2aabf2fe48828f8c0d3527736846eb562bc669f9bc3a20ec2aa6c88fd2c1dc73"
+    },
+    {
+      "path": "AGENTS/TERRY/CLOSEOUT.md",
+      "bytes": 14275,
+      "sha256": "9f4da2e46cedce9a89495539b3104f5a4bdf7e09d5efac01ffe9df478817ed3b"
+    },
+    {
+      "path": "AGENTS/WAL/CLAUDE.md",
+      "bytes": 24262,
+      "sha256": "5c9748f67abb7e2764941dfbeeeca7dbf689d609e6a8f5c4c3c3e8b576bf10e4"
+    },
+    {
+      "path": "AGENTS/WAL/scripts/kb_expiry_check.py",
+      "bytes": 5643,
+      "sha256": "db82e414623c94d67ef13b606266fedf98f6ff2e2ea5b92637b577bf0e82d81e"
+    },
+    {
+      "path": "AGENTS/WAL/scripts/predictions_due_check.py",
+      "bytes": 5322,
+      "sha256": "f777540d07d504bbf9d699a06fd7e59abc7b76ed199054ea2f975824cf8cf793"
+    },
+    {
+      "path": "AGENTS/YURI/CLAUDE.md",
+      "bytes": 14604,
+      "sha256": "1998964fce79f478e3240e5a4493497a44394250df1b4c459e5a77a3c186e212"
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 24199,
+      "sha256": "1b176d7b3c619a78dbabe4128f23451fa32a074554f391804707aec7623a3c73"
+    },
+    {
+      "path": "MESSAGING/CROSS_SESSION_MESSAGING.md",
+      "bytes": 24388,
+      "sha256": "84bbe2f896360c24248b4be5c684bb3c26588717a4076d4a2981299380a8af04"
+    },
+    {
+      "path": "PROME/AUTONOMY.md",
+      "bytes": 20339,
+      "sha256": "d438ea6ff3d526c01e6eb6dc730ec9f6d215b139ce252cefe4c66e67251d8f3c"
+    },
+    {
+      "path": "PROME/BOOT.md",
+      "bytes": 24801,
+      "sha256": "b2385f70b0011de0467528e2869ecaee8bf379a820314d8ede16a6fca92901aa"
+    },
+    {
+      "path": "PROME/CLAUDE.md",
+      "bytes": 34340,
+      "sha256": "87d02389837d47dc27960a23aeb57b998f4921f2392c256616c85a87a741f841"
+    },
+    {
+      "path": "PROME/CLOSEOUT.md",
+      "bytes": 20001,
+      "sha256": "0206e5684af49370b48e1e2b685790adea117ec0fdbca9b465bfdd1b41045855"
+    },
+    {
+      "path": "PROME/ORCHESTRATION_PLAYBOOK.md",
+      "bytes": 44353,
+      "sha256": "29c456cde4d886654b512dd17523c02eae9486d7b3b7b1fdfe10c8fec5f6c1b1"
+    },
+    {
+      "path": "PROME/ROSTER.md",
+      "bytes": 62790,
+      "sha256": "1796721ce1f8233424232f8ab7c35561c1eb0ea99b572ce9b4590c45fb426aca"
+    },
+    {
+      "path": "PROME/SYSTEM.md",
+      "bytes": 30433,
+      "sha256": "31eefb4f802938c57031e57eb81c1e46d25dfbe9d362f4bb4f2a8de72bbc72a3"
+    },
+    {
+      "path": "PROME/codex/CHARTER.md",
+      "bytes": 4965,
+      "sha256": "b091fcccf9ab19c6790d9112f1c3d15bd6e0e5a55de8040af963a7a72f759b57"
+    },
+    {
+      "path": "PROME/tools/agent_freshness.py",
+      "bytes": 16553,
+      "sha256": "48465f571d290cea1f9ebb9f1bb89897ea9112dfccdfe1d3885860cab1629d3e"
+    },
+    {
+      "path": "PROME/tools/prome_gate.py",
+      "bytes": 99383,
+      "sha256": "7b328a8fab7f4fd0eaf6411b0a059364667f7d00805c4b73407fd03a34d42a6c"
+    },
+    {
+      "path": "PROME/tools/spine_audit.workflow.js",
+      "bytes": 13694,
+      "sha256": "ddaafd6c0d6b9c8cf717647f7d38860ac6d77acb9f0c4f2c9bb68cdc497f851c"
+    },
+    {
+      "path": "memory/auto/feedback_defer_push_coordinate.md",
+      "bytes": 2844,
+      "sha256": "85e5986ba04bbe01faa94cd417afe6bea1494f159e3770e5f2102bd7bd9f3f60"
+    },
+    {
+      "path": "scripts/consumer_check.py",
+      "bytes": 63038,
+      "sha256": "c483b6980bf2756baee504d45e22cd3862083c78941e6d814abaf95c4c25f756"
+    },
+    {
+      "path": "scripts/corrections_boot_check.py",
+      "bytes": 25458,
+      "sha256": "a60120317679154b97390c3e6519d2255e6a43f7753215b08e19c13c820c1110"
+    }
+  ],
+  "raw_reports_checked": [
+    {
+      "path": "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/FINAL_CANON_READER.md",
+      "bytes": 19522,
+      "sha256": "6e9898de43ca5ee5b81b93ac62cac19badf1f6fc50d5892821a6d22d2b751a39"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/FINAL_CHARTER_A_READER.md",
+      "bytes": 32224,
+      "sha256": "ada6f53b93d1c4d5c8b287d9af60af154a2ce50e2df4b909ea427e176a379707"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/FINAL_CHARTER_B_READER.md",
+      "bytes": 22104,
+      "sha256": "ae3580b4f5d74a4a8fa223b377729f7a23c8b07120cb0654290c5d038eca7e4a"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/FINAL_CANON_CHALLENGE.md",
+      "bytes": 11874,
+      "sha256": "e4ac9253c5d2faf6236c06b19405c9a1ecc56ccf01c1d59fe5dbf6def7f55e0f"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/FINAL_CHARTER_A_CHALLENGE.md",
+      "bytes": 11874,
+      "sha256": "27e564540681453e3496366bb93c787c63133243f6631d08aaf1c9620614b229"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/FINAL_CHARTER_B_CHALLENGE.md",
+      "bytes": 13361,
+      "sha256": "304834071a111ce48623571fb706c99b593ef161f94bea9e45f657306fdcdb69"
+    }
+  ],
+  "original_snapshot_unchanged": true,
+  "note": "Hashes establish identity, not reading. New raw reports and challenges carry exact depth. No runtime/owner-system/consumer acceptance."
+}

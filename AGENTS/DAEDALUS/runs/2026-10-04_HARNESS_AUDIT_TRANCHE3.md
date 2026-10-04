@@ -1,4 +1,6 @@
-> **POST-REVIEW October4 — CATO DC6:** owner a7e5077a0 assigns the ONE consumer read to tranche3(ea2284e05) specifically. Later17-file/dependency additions remain CONSUMER-PENDING until PROME dispositions the exact covered package/revision at existingL490. Authorized reading continues. Addendum `2026-10-04_HARNESS_AUDIT_DC6.md`; original reviewed revision remains ea2284e05, not this annotated file. No coverage/clock/grade change.
+> POST-REVIEW October4: final17 files completed; cumulative60/60 primary +9 nested FULL with support limits. Final consumer entry is `2026-10-04_HARNESS_AUDIT_FINAL.md` at its delivery-record fixed revision. This tranche remains included, not separately consumed. Whole audit PARTIAL, no clock/grade reset.
+
+> **POST-REVIEW October4 — CATO DC6:** owner69bffac65 supersedes a7e5077a0: ONE consumer read RESERVED for final consolidated fixed commit/manifest/delta including tranche3, not separately read. If absent10/6EOD, read committed-cutoff package only; later additions CONSUMER-PENDING to10/9. DC6 coordination CLOSED, actual read pending. Authorized reading continues. Addendum `2026-10-04_HARNESS_AUDIT_DC6.md`; original reviewed revision remains ea2284e05, not this annotated file. No coverage/clock/grade change.
 
 # October 4 harness audit — third bounded tranche
 

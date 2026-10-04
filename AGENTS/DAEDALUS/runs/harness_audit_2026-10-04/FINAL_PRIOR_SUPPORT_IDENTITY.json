@@ -1,0 +1,573 @@
+{
+  "pin": "68f8b049a5f5bbd19332f1eb6a4e76c80621ec46",
+  "table_sources_checked": 91,
+  "changed": {
+    "AGENTS/DAEDALUS/sweeps/HARNESS_AUDIT_SWEEP.md": {
+      "sha256_at_final_pin": "0f157992d0de488b2933a1ca21c9e2ffa6b0f0c23d6b1743d1b2bb18743385af",
+      "unchanged_from_report_hash": false,
+      "report": "TRANCHE3_CREDIT_READER.md"
+    }
+  },
+  "unresolved_paths": [],
+  "entries": {
+    "PROME/CLAUDE.md": {
+      "sha256_at_final_pin": "87d02389837d47dc27960a23aeb57b998f4921f2392c256616c85a87a741f841",
+      "unchanged_from_report_hash": true,
+      "report": "PROME_READER.md"
+    },
+    "PROME/BOOT.md": {
+      "sha256_at_final_pin": "b2385f70b0011de0467528e2869ecaee8bf379a820314d8ede16a6fca92901aa",
+      "unchanged_from_report_hash": true,
+      "report": "PROME_READER.md"
+    },
+    "PROME/CLOSEOUT.md": {
+      "sha256_at_final_pin": "0206e5684af49370b48e1e2b685790adea117ec0fdbca9b465bfdd1b41045855",
+      "unchanged_from_report_hash": true,
+      "report": "PROME_READER.md"
+    },
+    "PROME/CLOSEOUT_PROCEDURES.md": {
+      "sha256_at_final_pin": "74a16b93aeece9bd87c3874451477b886d9aca489dfec499e60988533a1a9c7f",
+      "unchanged_from_report_hash": true,
+      "report": "PROME_READER.md"
+    },
+    "CLAUDE.md": {
+      "sha256_at_final_pin": "1b176d7b3c619a78dbabe4128f23451fa32a074554f391804707aec7623a3c73",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_TRANSMISSION_CHALLENGE.md"
+    },
+    "PROME/COMPLETION_SPEC.md": {
+      "sha256_at_final_pin": "38bcd93aa340d8e1dd6e5aa281695bfb7765f5b4197d055b0705d66f532be1c6",
+      "unchanged_from_report_hash": true,
+      "report": "PROME_READER.md"
+    },
+    "PROME/.claude/skills/boot/SKILL.md": {
+      "sha256_at_final_pin": "98003a588f40e2173c88333d8704451a981e23362410fab07859c81c4b4a3105",
+      "unchanged_from_report_hash": true,
+      "report": "PROME_READER.md"
+    },
+    "PROME/.claude/skills/closeout/SKILL.md": {
+      "sha256_at_final_pin": "77cf9c574faa6976e35197fe33273f04ae880f3744ce413aafcc6faf50b25cee",
+      "unchanged_from_report_hash": true,
+      "report": "PROME_READER.md"
+    },
+    "PROME/tools/boot_session.py": {
+      "sha256_at_final_pin": "a908d7100d5d5c70386175561f2eabdc33aacc0e00714d15119ce42cec7908d1",
+      "unchanged_from_report_hash": true,
+      "report": "PROME_READER.md"
+    },
+    "PROME/tools/prome_gate.py": {
+      "sha256_at_final_pin": "7b328a8fab7f4fd0eaf6411b0a059364667f7d00805c4b73407fd03a34d42a6c",
+      "unchanged_from_report_hash": true,
+      "report": "PROME_READER.md"
+    },
+    "AGENTS/WALTER/CLAUDE.md": {
+      "sha256_at_final_pin": "43a716ebab22596a33a09d50f6b4adf8baa3e759f5ec8527d68df7f8a20401d7",
+      "unchanged_from_report_hash": true,
+      "report": "WALTER_CONTINUATION_READER.md"
+    },
+    "AGENTS/WALTER/design/BOOT_PROTOCOL.md": {
+      "sha256_at_final_pin": "247f5cd10107f58b012188d638d99a7c1bd90729730a6deb0f2a318ca5f61d89",
+      "unchanged_from_report_hash": true,
+      "report": "WALTER_CONTINUATION_READER.md"
+    },
+    "AGENTS.md": {
+      "sha256_at_final_pin": "9b126769cbc278fad34b97c7d51806f7ef8966486c305389896c983bbd86585e",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_MARKET_READER.md"
+    },
+    "PROME/ROSTER.md": {
+      "sha256_at_final_pin": "1796721ce1f8233424232f8ab7c35561c1eb0ea99b572ce9b4590c45fb426aca",
+      "unchanged_from_report_hash": true,
+      "report": "NESTED_MANUAL_READER.md"
+    },
+    "AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md": {
+      "sha256_at_final_pin": "841135f726008c8515fbaaa23546f18f0a124275d4981a32632270da92f83d93",
+      "unchanged_from_report_hash": true,
+      "report": "WALTER_CONTINUATION_READER.md"
+    },
+    "AGENTS/WALTER/design/THRESHOLD_SCAN.md": {
+      "sha256_at_final_pin": "f7393a2e776dde8198cca1788c427761ef8222678a2d6c3e7032b418a151b9ce",
+      "unchanged_from_report_hash": true,
+      "report": "WALTER_CONTINUATION_READER.md"
+    },
+    "AGENTS/HANS/registry/THRESHOLDS.tsv": {
+      "sha256_at_final_pin": "f855fa1b586cc9535e6c7eb1482b21811132c633e88e909fc61fd16415c9562c",
+      "unchanged_from_report_hash": true,
+      "report": "WALTER_CONTINUATION_READER.md"
+    },
+    "AGENTS/WALTER/tools/walter_doctor.py": {
+      "sha256_at_final_pin": "dbfd271aa558487063b3646b4ec60540d40eb6500ede1291f3a288c2ba576418",
+      "unchanged_from_report_hash": true,
+      "report": "WALTER_CONTINUATION_READER.md"
+    },
+    "AGENTS/WALTER/tools/reconcile_delivery_log.py": {
+      "sha256_at_final_pin": "ce7f78897a7f8e077a48673fa7cbcb6a07a63495c0a8cd8bbd4d1c5bb6cbe7c4",
+      "unchanged_from_report_hash": true,
+      "report": "WALTER_CONTINUATION_READER.md"
+    },
+    "AGENTS/WALTER/tools/boot_basis_check.py": {
+      "sha256_at_final_pin": "9e3c3d06f93573d6ee65d2b94192e0d8a57f30e20feb8fdea64e7b1450129e8e",
+      "unchanged_from_report_hash": true,
+      "report": "WALTER_CONTINUATION_READER.md"
+    },
+    "AGENTS/WALTER/tools/closeout_check.py": {
+      "sha256_at_final_pin": "b1b989d1f357b0a80a2ab32684a8c506c0c2ade0523fd490628271e442a8547d",
+      "unchanged_from_report_hash": true,
+      "report": "WALTER_CONTINUATION_READER.md"
+    },
+    "PROME/tools/measure.py": {
+      "sha256_at_final_pin": "7b642a43d89e74d81b2a713dc442b42fafdb375fb877409a976f21ff339e43d4",
+      "unchanged_from_report_hash": true,
+      "report": "WALTER_CONTINUATION_READER.md"
+    },
+    "AGENTS/CARL/sub_agents/DOC/CLAUDE.md": {
+      "sha256_at_final_pin": "febd4b27fd1f7b840db25d5f85e03da6d97f4185b7700832220f3f62d72013d9",
+      "unchanged_from_report_hash": true,
+      "report": "NESTED_MANUAL_READER.md"
+    },
+    "AGENTS/CARL/sub_agents/GIG/CLAUDE.md": {
+      "sha256_at_final_pin": "5a85018c983c465120906c2eb5c79f8c87798b2b0a82fc227d33152ececcc7bc",
+      "unchanged_from_report_hash": true,
+      "report": "NESTED_MANUAL_READER.md"
+    },
+    "AGENTS/CARL/sub_agents/META/CLAUDE.md": {
+      "sha256_at_final_pin": "2a187d0654830a2b86cc904c43ec1b1265535ba446f249d8df96035bf38f9224",
+      "unchanged_from_report_hash": true,
+      "report": "NESTED_MANUAL_READER.md"
+    },
+    "AGENTS/CARL/sub_agents/PHAN/CLAUDE.md": {
+      "sha256_at_final_pin": "370eb97000ed7fa3969ba0c39a6fc127bc2c0b415d3b35caccdfad34a4c7c64d",
+      "unchanged_from_report_hash": true,
+      "report": "NESTED_MANUAL_READER.md"
+    },
+    "AGENTS/CARL/sub_agents/POLLY/CLAUDE.md": {
+      "sha256_at_final_pin": "8691dd18eee24a98a0767a57bb1e52b2cc7315a7274cd4a731ad27909142dec7",
+      "unchanged_from_report_hash": true,
+      "report": "NESTED_MANUAL_READER.md"
+    },
+    "AGENTS/CARL/sub_agents/POP/CLAUDE.md": {
+      "sha256_at_final_pin": "1b64aab28746f26c9e6cb0336074675734b5e6b6e4ce20e70d1f46837788e95b",
+      "unchanged_from_report_hash": true,
+      "report": "NESTED_MANUAL_READER.md"
+    },
+    "AGENTS/CARL/sub_agents/STUE/CLAUDE.md": {
+      "sha256_at_final_pin": "849a1251cfe884be065fa67a08adef986c047bd3dcf18756a2f330cfec34dc2e",
+      "unchanged_from_report_hash": true,
+      "report": "NESTED_MANUAL_READER.md"
+    },
+    "AGENTS/MARCO/sub_agents/TOURISM/CLAUDE.md": {
+      "sha256_at_final_pin": "9f703d13f5f38dbdff9516295a5a7a4084a4e4e9ad6aec3cbf2a9081e05cd9bd",
+      "unchanged_from_report_hash": true,
+      "report": "NESTED_MANUAL_READER.md"
+    },
+    "AGENTS/SAM/red/CLAUDE.md": {
+      "sha256_at_final_pin": "1ef8c775bd1061261e4f4cf5204c9cd8e021f25c57516a70d45968bbe76c1f73",
+      "unchanged_from_report_hash": true,
+      "report": "NESTED_MANUAL_READER.md"
+    },
+    "AGENTS/BARON/CLAUDE.md": {
+      "sha256_at_final_pin": "5a2c012094e9c0ddd0a86a77af2fa8c0bcb091a5a4c00c2d966f57eb346896ba",
+      "unchanged_from_report_hash": true,
+      "report": "NESTED_MANUAL_READER.md"
+    },
+    "AGENTS/SENTRY/CLAUDE.md": {
+      "sha256_at_final_pin": "96e531e3b97c8275f7c1042988a18b4680c72349e66637159776a83c45014401",
+      "unchanged_from_report_hash": true,
+      "report": "NESTED_MANUAL_READER.md"
+    },
+    "AGENTS/CATO/AGENTS.md": {
+      "sha256_at_final_pin": "e4fa89ef81188f6eac626e7de6ba7537bbb4eae7deda4bcdb39a5080cf29823e",
+      "unchanged_from_report_hash": true,
+      "report": "NESTED_MANUAL_READER.md"
+    },
+    "AGENTS/CATO/CHARTER.md": {
+      "sha256_at_final_pin": "1ec6c707f8fb054659ed904e5d0d5c536854abc982c3868fa26e1f1f85e4d9f3",
+      "unchanged_from_report_hash": true,
+      "report": "NESTED_MANUAL_READER.md"
+    },
+    "AGENTS/DAEDALUS/sweeps/HARNESS_AUDIT_SWEEP.md": {
+      "sha256_at_final_pin": "0f157992d0de488b2933a1ca21c9e2ffa6b0f0c23d6b1743d1b2bb18743385af",
+      "unchanged_from_report_hash": false,
+      "report": "TRANCHE3_CREDIT_READER.md"
+    },
+    "AGENTS/DAEDALUS/HARNESS_AUDIT_2026-07-07.md": {
+      "sha256_at_final_pin": "c41b14421996c461ac3313438e76c1135d3fc7486928a19c6912123763f4612d",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_CREDIT_READER.md"
+    },
+    "AGENTS/CARL/TEAM.md": {
+      "sha256_at_final_pin": "ef926fe3f8c4141e9175b9ca36404e84ec9e49c65c24d1c23cfe8b057050447a",
+      "unchanged_from_report_hash": true,
+      "report": "NESTED_MANUAL_READER.md"
+    },
+    "AGENTS/CARL/SPAWN_PROTOCOL.md": {
+      "sha256_at_final_pin": "192e6459d50d24b7afd8333d26eb50d2825ad570041e5badce71fec6d9ba8059",
+      "unchanged_from_report_hash": true,
+      "report": "NESTED_MANUAL_READER.md"
+    },
+    "AGENTS/CARL/CLAUDE.md": {
+      "sha256_at_final_pin": "92b5156d8e78ecd3d0cc1af4093dd20d3316c7f7c6ecee00a2cfe196a48ee0ef",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_CREDIT_READER.md"
+    },
+    "AGENTS/MARCO/CLAUDE.md": {
+      "sha256_at_final_pin": "12bfc3a37db67f65eb16b73a2e835d120cf2f7a7d8b14bad3c374f6d76af0d76",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_CREDIT_READER.md"
+    },
+    "AGENTS/SAM/CLAUDE.md": {
+      "sha256_at_final_pin": "e684b27d2683fb115e6d6e6a82396ec1c9027cc22675d22e80672408c88f391c",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_MARKET_READER.md"
+    },
+    "AGENTS/RED/CLAUDE.md": {
+      "sha256_at_final_pin": "e3406674f3dbaaee5c384aca71fd72b96a08ae84edb535944dbcd106bb18b5ad",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_MARKET_READER.md"
+    },
+    "AGENTS/CARL/workbook/LEDGER_GLOB": {
+      "sha256_at_final_pin": "037ed99439f603272196c23f1c6663585a35fd534d1a06cbda113230b29a18fe",
+      "unchanged_from_report_hash": true,
+      "report": "NESTED_MANUAL_READER.md"
+    },
+    "AGENTS/CARL/scripts/boot.py": {
+      "sha256_at_final_pin": "b84922d9551f3ba21846873cb3c56910348f74c09b4f8300226a1303909ffbbb",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_CREDIT_READER.md"
+    },
+    "AGENTS/CARL/scripts/consistency_check.py": {
+      "sha256_at_final_pin": "542792009b9a1885c3d7eb4f9f5eb52be50d72350c136327d24ddd6907f60b88",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_CREDIT_READER.md"
+    },
+    "scripts/ledger_staleness.py": {
+      "sha256_at_final_pin": "117789ab8fa4aa00241bf2a92f49550e363891b8d218aa788e109f187b79b93a",
+      "unchanged_from_report_hash": true,
+      "report": "NESTED_MANUAL_READER.md"
+    },
+    "AGENTS/CARL/sub_agents/STUE/STATUS.md": {
+      "sha256_at_final_pin": "79499303e3e324d346df1871df4046b099936a5d2b496a58949b08b865b85303",
+      "unchanged_from_report_hash": true,
+      "report": "NESTED_MANUAL_READER.md"
+    },
+    "AGENTS/CARL/sub_agents/PHAN/DOSSIER.md": {
+      "sha256_at_final_pin": "44a642041547b3ad0e6120a84e42be3cdf581eefcffccd4dfe1d012e1211f36e",
+      "unchanged_from_report_hash": true,
+      "report": "NESTED_MANUAL_READER.md"
+    },
+    "AGENTS/CARL/sub_agents/POP/STATUS.md": {
+      "sha256_at_final_pin": "ce4c1866119f5b11eff90b451786b0857be320c11ac76e84bbe3686512b9ba74",
+      "unchanged_from_report_hash": true,
+      "report": "NESTED_MANUAL_READER.md"
+    },
+    "AGENTS/CARL/sub_agents/POLLY/STATUS.md": {
+      "sha256_at_final_pin": "6c7181e75bf857fcf8c2a5a1f40aac5ff39587615b14fa02ee0cdb9441e5ef58",
+      "unchanged_from_report_hash": true,
+      "report": "NESTED_MANUAL_READER.md"
+    },
+    "AGENTS/DAEDALUS/BLUEPRINTS/READ_CAP.md": {
+      "sha256_at_final_pin": "a326afd037cc5e037cd9673a011ad7c21bc5990156f9ae645af6f66576cf90a8",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_TRANSMISSION_CHALLENGE.md"
+    },
+    "AGENTS/LABOR/CLAUDE.md": {
+      "sha256_at_final_pin": "0834814f5b77bad2bab9cd691489d3af9c17c4edef0068f2493c2ae649b9c36f",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_CREDIT_READER.md"
+    },
+    "AGENTS/HENRY/CLAUDE.md": {
+      "sha256_at_final_pin": "b60dd9b91eecbbd64002f500d5ee82aad6fa1242b3b123c2e75e014bde17cd69",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_CREDIT_READER.md"
+    },
+    "AGENTS/REGINALD/CLAUDE.md": {
+      "sha256_at_final_pin": "8d353ba70fb3d65385ae36951de6a02b9701f9f6f15ace3c90cd8a3398b1872f",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_CREDIT_READER.md"
+    },
+    "AGENTS/NEXUS/CLAUDE.md": {
+      "sha256_at_final_pin": "573cf81c5af677ac29aad894fbb0d8126efe68a8d2e194b6e332fbafa1c42097",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_CREDIT_READER.md"
+    },
+    "AGENTS/CARL/scripts/board_gap.py": {
+      "sha256_at_final_pin": "88cccecd7479ed33ebafa2843e7077165cb2868ad81909a97156fceff20d1087",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_CREDIT_READER.md"
+    },
+    "AGENTS/LABOR/scripts/boot.py": {
+      "sha256_at_final_pin": "d5bc7a04d667be81beed8006f0ac3ba38aa5d0f72e0999074a6cf83c8bca1a5e",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_CREDIT_READER.md"
+    },
+    "AGENTS/LABOR/scripts/spine_check.py": {
+      "sha256_at_final_pin": "4e206d3cb8d7fed656cd3b6178013ed4ebbd3a162a6eac0e1d171f5b0e9b3093",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_CREDIT_READER.md"
+    },
+    "scripts/corrections_boot_check.py": {
+      "sha256_at_final_pin": "a60120317679154b97390c3e6519d2255e6a43f7753215b08e19c13c820c1110",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_CREDIT_READER.md"
+    },
+    "AGENTS/HENRY/workbook/KB.tsv": {
+      "sha256_at_final_pin": "b357e382052951340a2d01b73f25e7e363c32d795735e5a4cf16e4c5f785330d",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_CREDIT_READER.md"
+    },
+    "AGENTS/MARCO/scripts/boot.py": {
+      "sha256_at_final_pin": "4960dcaba0abc4c45b262112ba435105b812116fca25dc9100ca78b7a9cc5126",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_CREDIT_READER.md"
+    },
+    "AGENTS/VIOLET/CLAUDE.md": {
+      "sha256_at_final_pin": "7ada4238628ba5d3913f25a89841435378861743f747caf61e4c9e49d7b6b390",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_MARKET_READER.md"
+    },
+    "AGENTS/SHADE/CLAUDE.md": {
+      "sha256_at_final_pin": "d86a527a423c7924ddb9b8fbdcb602755ccddad15bf30e182bdde1e2b4c4696d",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_MARKET_READER.md"
+    },
+    "AGENTS/BROCK/CLAUDE.md": {
+      "sha256_at_final_pin": "ef94ba4ed7c3b344302e759054355184e417b7d7612006a4eeaa925349917b8c",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_MARKET_READER.md"
+    },
+    "AGENTS/OZK/CLAUDE.md": {
+      "sha256_at_final_pin": "923c3de40a9a9775ae11e6665ec35d916170a4edb07139fcd25360e74cd7e5cc",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_MARKET_READER.md"
+    },
+    "AGENTS/SAM/scripts/boot.py": {
+      "sha256_at_final_pin": "dcc953ac486cb399b233331327e25aa919eb878c71b749c37eec583ccc03cdde",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_MARKET_READER.md"
+    },
+    "AGENTS/SAM/scripts/lib/boot_context.py": {
+      "sha256_at_final_pin": "1a136cb14efd3e2b2de66ea23219042c8e53acae7eac11bb3059b98b0d125efc",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_MARKET_READER.md"
+    },
+    "AGENTS/SAM/scripts/closeout_check.py": {
+      "sha256_at_final_pin": "9a1b5bf9c20c2f6e5bcf94e8cd59f4873aa242a7df5b4f481b4bf212b97ea9b8",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_MARKET_READER.md"
+    },
+    "AGENTS/RED/scripts/boot.py": {
+      "sha256_at_final_pin": "e96db4daba3c74e7b8251c5b664f72e40e9ef55f59934dd8001d6f671225fcf0",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_MARKET_READER.md"
+    },
+    "AGENTS/RED/scripts/board_log_append.py": {
+      "sha256_at_final_pin": "8fcffa59a7ef18faeca0f5597632cbd7a4d1655b38301964e26d5898b510900e",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_MARKET_READER.md"
+    },
+    "AGENTS/RED/workbook/FLOW.tsv": {
+      "sha256_at_final_pin": "6ba3c7e26a84cc20be70004ec9cbdad52e1db4c74f204ea79bce7d50a26614d6",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_MARKET_READER.md"
+    },
+    "AGENTS/VIOLET/scripts/boot.py": {
+      "sha256_at_final_pin": "69965d868869d556710b98cc08b404a305635165c185640564f6c2565f97743e",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_MARKET_READER.md"
+    },
+    "AGENTS/VIOLET/scripts/closeout_guard.py": {
+      "sha256_at_final_pin": "e5e5a356344be4c37e9a662486414833ae9b8aeadc45c063e2b0a6670d67ed23",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_MARKET_READER.md"
+    },
+    "AGENTS/BROCK/scripts/brock_selfcheck.py": {
+      "sha256_at_final_pin": "dc8fa55787689012bb1a4df1c12e142a6a947c4a58865d167e04abcae8e4bb36",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_MARKET_READER.md"
+    },
+    "AGENTS/OZK/scripts/boot.py": {
+      "sha256_at_final_pin": "38b0f120680e0528a18ff8c67a01ce453c50134bd021f8b048fe9eea1ddb6ab8",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_MARKET_READER.md"
+    },
+    "AGENTS/VULCAN/CLAUDE.md": {
+      "sha256_at_final_pin": "5f66a766074bb14b7aac2a10c812cdd7ed576803dc6dac7cb88adaaa3419cc0d",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_TRANSMISSION_CHALLENGE.md"
+    },
+    "AGENTS/ZHAO/CLAUDE.md": {
+      "sha256_at_final_pin": "9e0f464520032ab34e0a937a702ada0531392f527e11ee15fcd0fcded35e54ec",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_TRANSMISSION_CHALLENGE.md"
+    },
+    "AGENTS/HAWK/CLAUDE.md": {
+      "sha256_at_final_pin": "f0ad39e1b5f5a933a40f0ba209ec33f0bb7abd3c65928258fc027650269fac9b",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_TRANSMISSION_CHALLENGE.md"
+    },
+    "AGENTS/FALCON/CLAUDE.md": {
+      "sha256_at_final_pin": "a640316403d8869b47d9ebe21628c419a923189e84de11ace772875fc06e36ce",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_TRANSMISSION_CHALLENGE.md"
+    },
+    "AGENTS/BRENT/CLAUDE.md": {
+      "sha256_at_final_pin": "d14868832ca65ae620206f587cbea7b1ce84dec23b415e85eff49604dd3067ff",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_TRANSMISSION_READER.md"
+    },
+    "AGENTS/WATT/CLAUDE.md": {
+      "sha256_at_final_pin": "6e1e14cec1addfd206287975f75e96974604bd5ce35e2eb208dbe0f4174b1953",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_TRANSMISSION_CHALLENGE.md"
+    },
+    "AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md": {
+      "sha256_at_final_pin": "8d8c279c4c56416e5fa34f77b088b6af96d7d34b8269c04c881423526e2f8955",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_TRANSMISSION_CHALLENGE.md"
+    },
+    "AGENTS/WATT/boot.py": {
+      "sha256_at_final_pin": "f6d5aa2092d0d1d3c691053e229a9e9ac17bce673b3518e0888d34e0c77104ee",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_TRANSMISSION_CHALLENGE.md"
+    },
+    "AGENTS/BRENT/scripts/boot.py": {
+      "sha256_at_final_pin": "821188a0d0f9ec9bb3d667853dfdfd96a977035722d67e1cb6ab7b08423f0c1d",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_TRANSMISSION_READER.md"
+    },
+    "AGENTS/ZHAO/scripts/boot.py": {
+      "sha256_at_final_pin": "9d30678c4ea8afcbf388be5c89df240c27cccaac921c9d5b2fcf84520ea929b1",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_TRANSMISSION_READER.md"
+    },
+    "AGENTS/VULCAN/boot.py": {
+      "sha256_at_final_pin": "7151b4228c08d68a09ea1102abef766eda23a369174dfc378c732a0e16662bf7",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_TRANSMISSION_CHALLENGE.md"
+    },
+    "AGENTS/HAWK/scripts/derived_freshness.py": {
+      "sha256_at_final_pin": "6fbae2e7915272a339c5c12fcf71d8da34cb8b44dafac28b5692029d72a92ea5",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_TRANSMISSION_READER.md"
+    },
+    "AGENTS/HAWK/scripts/boot.py": {
+      "sha256_at_final_pin": "ed8f259825336871dc8a3a188b7207938f6ed0547a517549fffcc633b0cd62cd",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_TRANSMISSION_CHALLENGE.md"
+    },
+    "AGENTS/FALCON/scripts/kharg_loadings_watch.py": {
+      "sha256_at_final_pin": "79a2577a6e3b8cdedfe8335054c94a3d4a1ec8b21874618292623cca4c0e1c51",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_TRANSMISSION_CHALLENGE.md"
+    },
+    "scripts/read_cap_check.py": {
+      "sha256_at_final_pin": "ff77e3136e36ce474bc5338092afc2b422a32db8bf4d3e14a51ac6720d4e4c03",
+      "unchanged_from_report_hash": true,
+      "report": "TRANCHE3_TRANSMISSION_CHALLENGE.md"
+    }
+  },
+  "limit": "Only literal full-path+hash table entries; short-path prose and unlisted dependencies not certified. Identity is not full read.",
+  "original20_support_comparison": [
+    {
+      "path": "AGENTS/DAEDALUS/UPGRADE_PROTOCOL.md",
+      "unchanged": true,
+      "sha256": "d76c41222784f60a28c44c10ae74c376e8c20494730bdf96fb3425a019823596"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/HARNESS_AUDIT_2026-07-07.md",
+      "unchanged": true,
+      "sha256": "c41b14421996c461ac3313438e76c1135d3fc7486928a19c6912123763f4612d"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/sweeps/HARNESS_AUDIT_SWEEP.md",
+      "unchanged": false,
+      "sha256": "0f157992d0de488b2933a1ca21c9e2ffa6b0f0c23d6b1743d1b2bb18743385af"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/scripts/daedalus_gate.py",
+      "unchanged": true,
+      "sha256": "654e0b694faebcfd8d9602ea97c37dd4e2051a8b3724b2fefd073c38b0cfaab7"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/scripts/sweeps_due.py",
+      "unchanged": true,
+      "sha256": "3d02bae3bb24ff130be14eb47f0d13a1e39e06b946f6de8d916585298940457e"
+    },
+    {
+      "path": "PROME/.claude/skills/boot/SKILL.md",
+      "unchanged": true,
+      "sha256": "98003a588f40e2173c88333d8704451a981e23362410fab07859c81c4b4a3105"
+    },
+    {
+      "path": "PROME/.claude/skills/closeout/SKILL.md",
+      "unchanged": true,
+      "sha256": "77cf9c574faa6976e35197fe33273f04ae880f3744ce413aafcc6faf50b25cee"
+    },
+    {
+      "path": "PROME/tools/boot_session.py",
+      "unchanged": true,
+      "sha256": "a908d7100d5d5c70386175561f2eabdc33aacc0e00714d15119ce42cec7908d1"
+    },
+    {
+      "path": "PROME/tools/prome_gate.py",
+      "unchanged": true,
+      "sha256": "7b328a8fab7f4fd0eaf6411b0a059364667f7d00805c4b73407fd03a34d42a6c"
+    },
+    {
+      "path": "scripts/safe-push.sh",
+      "unchanged": true,
+      "sha256": "61590eb930bf2f61aa50888d78369258cab2370a03a9e277a10b0e45b6bb6410"
+    },
+    {
+      "path": "AGENTS/BOND/monitors/closeout_run.py",
+      "unchanged": true,
+      "sha256": "9685485273d5cf74d1f22277499aafd4dcadde920e97eb2dc04a23f99723c863"
+    },
+    {
+      "path": "AGENTS/BOND/monitors/closeout_check.py",
+      "unchanged": true,
+      "sha256": "bdd9c5cda68ddd00b46baf15c3078dd125c85edae1d5f847595639aa48be2400"
+    },
+    {
+      "path": "AGENTS/BOND/monitors/mirror_check.py",
+      "unchanged": true,
+      "sha256": "1cc07c21b88e04faa2de92d27c77dc679a2e13b4c849c7a6759ed8984b28d57f"
+    },
+    {
+      "path": "AGENTS/HANS/scripts/closeout_check.py",
+      "unchanged": true,
+      "sha256": "a7a0948c341a8476a6cd8046b805bc4e970f475c1b121c8be6e4a0c04633b18c"
+    },
+    {
+      "path": "AGENTS/HANS/scripts/doc_audit.py",
+      "unchanged": true,
+      "sha256": "6c554223d7230eada53ac0a0dbb10e561d3701c1404b33cc2c8593aa57d2907c"
+    },
+    {
+      "path": "AGENTS/HANS/scripts/test_hans.py",
+      "unchanged": true,
+      "sha256": "65ed9ef15782c7f9ce38da2d172fa5513a15647181efc24fb639cf1c724515ae"
+    },
+    {
+      "path": "AGENTS/TERRY/scripts/ledger_sweep.py",
+      "unchanged": true,
+      "sha256": "1ec0ecf3175c0bd5e1ca28b683c15dfc7fa2d7ca1716b07bf2535c5e6e9908cd"
+    },
+    {
+      "path": "AGENTS/TERRY/scripts/boot.py",
+      "unchanged": true,
+      "sha256": "341dd815fc9754c88d34b7541018be1553d6a6d4b7f17bf0b7961d9e5cdfa6ba"
+    },
+    {
+      "path": "AGENTS/LIQUID/scripts/boot.py",
+      "unchanged": true,
+      "sha256": "14ed9be985d26e2ea6795e40d7cdbadcba3638952a331677f95bd3fb987fa2e1"
+    },
+    {
+      "path": "docs/AUTO_MEMORY.md",
+      "unchanged": true,
+      "sha256": "b1f5b5c05fcae2ca854f31113818264879593ed266b931f58d9e985c7e1406d2"
+    }
+  ],
+  "changed_disposition": "Only playbook table hash changed among raw-table entries: diff shows appended tranche3 RunLog, operative method unchanged. No prior tool/authority evidence change found in these checked sets."
+}

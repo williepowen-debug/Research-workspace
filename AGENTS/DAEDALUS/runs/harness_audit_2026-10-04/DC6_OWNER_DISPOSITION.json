@@ -1,0 +1,18 @@
+{
+  "pin": "69bffac65a297dd5e10ba8b0ffaaee9f4a2350b0",
+  "inputs": [
+    {
+      "path": "PROME/DOCKET.tsv",
+      "bytes": 1316655,
+      "sha256": "0fd552e3920248a9dc2b595be430e6162e5c3fdf346e54024e28d3c26a71cc7e",
+      "scope": "L490 latest16:1x disposition FULL; earlier rowread reused"
+    },
+    {
+      "path": "PROME/SCRATCH.md",
+      "bytes": 26064,
+      "sha256": "33bd470e91ae629b9727a04378062b135c1d1ef90a182aec914e8bf1a4130d28",
+      "scope": "line23 FULL"
+    }
+  ],
+  "meaning": "One consumer read reserved for final fixed commit/manifest/delta; prospective allocation, not performed review."
+}

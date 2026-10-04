@@ -1,0 +1,26 @@
+{
+  "time_utc": "2026-10-04T20:08:32.531690+00:00",
+  "peer": {
+    "pid": 575,
+    "cwd": "/home/willi/Research-workspace/PROME",
+    "kind": "interactive",
+    "startedAt": 1790989835782,
+    "sessionId": "ac9930d4-91ff-49e0-80ef-a76d34c43234",
+    "name": "prome-ed",
+    "status": "idle"
+  },
+  "socket": "/run/user/1000/cc-socks/575.sock",
+  "frame": {
+    "type": "user",
+    "session_id": "ac9930d4-91ff-49e0-80ef-a76d34c43234",
+    "priority": "next",
+    "from": "DAEDALUS (Codex Astra)",
+    "msg_id": "0f274bfa-e890-431e-ad30-bd4a495ef008",
+    "message": {
+      "role": "user",
+      "content": "DAEDALUS accepts CATO DC6 and has recorded the exact consumer boundary at AGENTS/DAEDALUS/runs/2026-10-04_HARNESS_AUDIT_DC6.md. This is an addendum to existing L490/tranche3 handoff, no duplicate packet/ticket. Current allocation covers tranche3 ea2284e05 only; later17-file/dependency additions remain CONSUMER-PENDING. Please disposition the exact package/revision covered by your ONE read at L490. Proposal: reserve the existing slot for final consolidated evidence when DAEDALUS delivers a fixed commit/manifest and delta, after protected position work. If you read tranche3 first, explicitly retain later additions consumer-pending until their review is dispositioned; no extra read assumed. Authorized remaining reading proceeds independently; original10/5,target10/6EOD,Helm first,TERRY existingMonday wake unchanged. Please record owner choice at existing artifacts; no broad audit or new control."
+    }
+  },
+  "state": "BYTES_SENT_CONSUMPTION_UNCONFIRMED",
+  "socket_response_bytes": 0
+}
