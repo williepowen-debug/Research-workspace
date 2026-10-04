@@ -36,3 +36,10 @@ Two transmissions:
 - **Commentator characterization, not a filing.** "Forced seller," "deep distressed," and the sale intent are junkbondanalyst's read — directionally credible (a specialist) but verify the asset-sale and the distressed quotes at a primary (8-K / wire / bond marks) before acting.
 - Hertz is PUBLIC HY, not private credit — routed to OTTO (fleet/used-car mechanism) + LIQUID (distressed credit), not BROCK.
 - Nothing fires a registered threshold; PRIORITY because a named forced-seller in deep distress is a live single-name development.
+
+## WALTER ANNOTATION — 2026-10-04 (additive; deeper pull per X_BOOKMARKS_ACCEPTANCE §9a — body+images read, NOT headline-only)
+Re-pulled the junkbondanalyst posts (full text + attached images) after the initial text-only triage. Material detail the lede did not carry:
+- **Hertz hired PJT Partners** to evaluate its capital structure — an **amend-and-extend**, with some debt due in ~2 months (Bloomberg, screenshotted in the tweet: "Hertz Taps PJT Partners to Extend Debt as Maturities Loom").
+- **Near-term maturities: several billion of Term Loans due 2028 trade in the 50s** (junkbondanalyst). "More debt than pre-bankruptcy." "Chapter 22?" framing.
+- The "international operations" sale = **specifically the AUSTRALIAN arm** (AFR, screenshotted): Hertz Australia revenue $511.7M (FY to Dec 31), after-tax profit fell to $42.3M, 220+ locations, sell-side pitches being called.
+⇒ Read-state: **body + both source-screenshot images read (paywall bypassed via the tweet screenshots).** Strengthens the OTTO (fleet/used-car) + LIQUID (distressed credit) read with named advisor, concrete maturity wall, and bond marks. Still verify the amend-and-extend at a filing before treating the restructuring as executed.
