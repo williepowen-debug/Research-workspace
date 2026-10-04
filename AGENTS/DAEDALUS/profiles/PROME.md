@@ -1,6 +1,6 @@
 # PROFILE — PROME (coordinator / chief of staff)
 
-> **Owner-response follow-through October3:** CONSUMED. Five source/local gaps verified repaired at observed bytes, S3 CARRIED, S4 WQ381. Changed generated Helm/Deck action checked; hosted UNKNOWN, final owner closeout acceptance in flight. Full current dispositions at `upgrades/PROME_SWEEP_2026-10-03.md` opening; no grade/body/whole-sweep clock change.
+> **Owner-response follow-through October3:** CONSUMED. Five source/local gaps verified repaired at observed bytes, S3 CARRIED, S4 WQ381. Changed generated Helm/Deck action checked; hosted UNKNOWN; owner closeout a2009b1ff and publication07d7806de recorded, declared post-read fixes unreviewed. Full current dispositions at `upgrades/PROME_SWEEP_2026-10-03.md` opening; no grade/body/whole-sweep clock change.
 
 > **TARGETED judgment review 2026-10-03 — bounded package COMPLETE; whole sweep PARTIAL:** seven supported findings (O-NEW-1–3, S1–S4), two readers plus post-blind challenge. Current Helm/Deck semantics, 12 mirror rows, spine, rebase receipts and nine closure chains inspected; hosted content and complete historical consumer receipts UNKNOWN. Full result `upgrades/PROME_SWEEP_2026-10-03.md` and reader companion. Grade remains **L4 / M, assessed October 1**; full-body vintage remains September 3 and full-sweep last_run September 8. September 8 findings were repaired September 9, not reopened.
 

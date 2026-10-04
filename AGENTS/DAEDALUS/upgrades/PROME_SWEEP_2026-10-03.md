@@ -2,7 +2,17 @@
 
 **BOUNDED PACKAGE COMPLETE — evidence, required review, delivery and truthful write-back done; whole sweep PARTIAL.** Seven supported, bounded findings; all five judgment legs inspected at the coverage below. Hosted access and complete historical consumer receipts remain UNKNOWN. The whole-sweep clock stays September 8; no clean L5 claim or grade change follows.
 
-## Current follow-through — October 3, 22:24 ET observed owner bytes
+## Final owner receipts — supersedes the 22:24/22:29 in-flight observations below
+
+During Git delivery, PROME committed Standard closeout **`a2009b1ff`** and publication receipt **`07d7806de`**. The actual **L530/L538 state cells now carry the adopted clauses**. The narrow adoption-to-row gap is CLOSED; historical column6 test wording remains declared residue in the owner's second reader record, not a reason to undo the explicit state-cell disposition. **L530 remains literal every-path PARTIAL, reader measurement plus owner remedy; L538 isolated exemption acceptance stands independently of unrelated local breaches.** Both docket rows remain PENDING for their recorded residual scope; this is not whole-row completion.
+
+Owner receipt records **Helm v64 + docket.html and Deck Owed v86 published**, WQ347 post-expiry card included, after verified push. Deck reference regenerated/committed but **NOT republished** under its standing disposition. This establishes **owner-reported publication with versions**, not an independent hosted inspection: direct hosted content remains **UNKNOWN**. The changed local card/action was directly inspected above; no unchanged Helm technical review repeated. **L594 fold integration/acceptance remains OPEN** and is not fulfilled by this content publication.
+
+The owner's ARGUS read and changed-portion read found further source tails, including HEARTBEAT's separate §KOS 1-of-3 bracket; PROME records fixes to those tails. Final post-read-2 edits are explicitly **UNREVIEWED** in the owner record. The source closure claims below concern the inspected discrepancies; no whole-output clean claim or blanket independent acceptance follows.
+
+Evidence: `../runs/prome_sweep_2026-10-03/followup_final_owner_receipts.json` preserves committed actual rows, owner review/publication receipts and the one narrow doorbell. **Next:** Will/PROME name harness read-only audit capacity or dated deferral retaining October5, separately from approval of an implementation day; PROME owns protected L594 acceptance (integration + full Standard gate/build + hosted/supporting-file check + CLOSEOUT wiring). DAEDALUS remains available for changed-output acceptance support. L604 is still conditionally scheduled on an unnamed day, unimplemented/unaccepted. Profile/H2/Prose scope below unchanged. Full sweep PARTIAL, clock/grade unchanged; stop after delivery.
+
+## Earlier follow-through — October 3, 22:24 ET observed owner bytes
 
 **CONSUMED, with capacity dispositions recorded.** This supersedes the initial receipt-only / agreement-OPEN state below. Read CATO's October3 22:13 assessment **and late correction**, PROME's response `inbox/2026-10-03_from-PROME_judgment-review-dispositions-and-oct5-capacity.md`, and the actual owner rows. Owner closeout is live; these are preserved working-tree bytes, not a final owner commit/ARGUS/publication acceptance. Evidence `../runs/prome_sweep_2026-10-03/followup_sources.json` and two compressed changed-page captures. No owner source edited or Helm build/test repeated.
 

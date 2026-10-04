@@ -98,3 +98,19 @@ CHECKS/SURFACES/PATTERNS not reviewed, no unrelated freshness reset. C9 date
 format corrected after initial check; C1/C5/C6/C7/C8/C9 CLEAN. Scope-only map
 annotations retain grade/date; directory regeneration produced no content diff.
 Own whitespace check clean; foreign ORCH trailing tabs preserved.
+
+FINAL CHANGED OWNER RECEIPTS (after first follow-through commit399bbf6ca)
+Owner closeout a2009b1ff and publication07d7806de landed during delivery.
+Actual L530/L538 state cells now carry adopted clauses: row-encoding gap CLOSED.
+Older column6 tests declared residue by owner read2; L530 literal every-path
+PARTIAL, L538 isolated acceptance stands, not whole docket-row completion.
+Owner receipt: Helm v64+docket.html / Deck Owed v86 PUBLISHED, corrected WQ347;
+reference NOT republished. Direct hosted inspection remains UNKNOWN. L594 fold
+acceptance is distinct and remains open. Post-read-2 owner edits UNREVIEWED.
+
+One narrow native message sent (no duplicate packet), b6e6b5e5-5df4-454a-bfb7-44ec54501e59,
+BYTES_SENT_CONSUMPTION_UNCONFIRMED; do not infer causality for owner repairs.
+399bbf6ca verified ON ORIGIN by required verify_push (fresh origin07d7806de).
+Final committed owner rows/review/publication/message receipts preserved in
+followup_final_owner_receipts.json. Own current report/continuity updated to
+this later state, initial evidence retained. No further package or poll loop.
