@@ -1,6 +1,6 @@
 {
  "attention_errors": [],
- "built": "2026-10-04 14:35",
+ "built": "2026-10-04 18:06",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -59,6 +59,7 @@
   "2026-10-09 NEXUS PRED-50 / L14 FIRST GRADE \u2014 the WQ-340 CANDIDATE-secon",
   "2026-10-09 PROME tool suite: tests/test_heartbeat_projection.py::test_m",
   "2026-10-09 RECEIVER-SIDE CANARY for every routing path (Will 9/25 14:08",
+  "2026-10-09 RESEARCH-INTAKE edgar_8k ENTITY-CLASS MIS-TAG \u2014 a megacap fi",
   "2026-10-09 ROOT OUTPUT CANON operator-surface clause \u2014 TWO WORDING DEFE",
   "2026-10-09 UNATTENDED-INSTRUMENT REGISTER (Will 9/25 \"proceed in order\"",
   "2026-10-09 USO Oct-09 $150 CALL (\u00d71) \u2014 TERRY's Fri 10/09 15:00 ET STOP ",
@@ -170,9 +171,7 @@
   "WQ-365 (10/6)",
   "WQ-382 (10/9)",
   "WQ-381 (10/9)",
-  "WQ-380 (10/9)",
   "WQ-378 (10/9)",
-  "WQ-377 (10/9)",
   "WQ-371 (10/9)",
   "WQ-370 (10/9)",
   "WQ-369 (10/9)",
@@ -183,7 +182,6 @@
   "WQ-302 (10/14)",
   "WQ-375 (10/15)",
   "WQ-364 (10/16)",
-  "WQ-379 (10/25)",
   "WQ-273 (10/25)",
   "WQ-368 (11/1)",
   "WQ-31 (11/1)",

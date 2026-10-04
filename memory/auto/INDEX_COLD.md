@@ -40,6 +40,7 @@
 - finding_pandas_column_method_collision — pandas columns named like DataFrame methods return the METHOD via dot-access
 - finding_expiry_dated_suppression_register — every suppression row carries a MANDATORY expiry, so none outlives its check
 - finding_composite_least_reliable_at_extreme_amplitude — a composite is least reliable at the amplitude that makes you want to cite it: e
+- reference_bright_data_web_unlocker — free-tier bot-wall bypass; WALTER-only; key per-machine; budget API 403s
 
 ## Demoted from HOT — 2026-08-12 flow-rule pass (Will-approved; PROME-executed per the standing flow rule; index rows only, memory FILES unchanged; rollback = move a row back to `MEMORY.md`)
 ### Git / multi-machine
