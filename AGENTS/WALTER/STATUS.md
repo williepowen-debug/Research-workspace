@@ -44,17 +44,13 @@ Current work and next-owner actions: `LAST_COMPLETION.md`. Sweep evidence: `rese
 
 ## NETWORK AWARENESS
 
-### Today's routing + stale agents (REGISTRY unchanged this 10/03 PM session — no new/retired agent, no routing change; roster rows below carry from the 2026-10-02 PM regen)
+### Today's routing + stale agents (REGISTRY refreshed 2026-10-04: BRENT/CRUISE/DAEDALUS rows updated from headers; YURI gains the `RU_STATE_ACTOR` domain; no new/retired agent)
 
-**Routed 10/03 (BOARD 1182 → 1193):** AM `-001`…`-010` (morning batch + X-bookmark slices 1–3; FALCON/CARL/BOND/VULCAN/BRENT/SHADE); **PM `-011`** (diesel-ban-ruled-out, INFO → BRENT+HENRY handoffs, TERRY/RED/PROME BOARD-diff). Delivered ≠ consumed; all 10/03 recipients dark (weekend). PM delivery state in the LAST_COMPLETION receipt.
+**Routed 10/04 (BOARD 1202 → 1210):** two Will-bookmark batches — BM-20261004-02 (`-001` FL property-tax · `-002` OPEC+ steady · `-003` trucking · `-004` Irkutsk aluminum · `-005` Iran-Hormuz cluster · `-006` Hertz) + BM-20261004-03 (`-007` CNBC consumer · `-008` Swiss glaciers). Handoffs: CORAL/HOMER/BRENT/HAWK/HENRY/MIDAS/FALCON/OTTO/LIQUID/AEOLUS; CARL/TERRY/RED/PROME via BOARD ID-diff. **Delivered (on origin, reconciled) ≠ consumed — all recipients weekend-dark.** 4 dark-action DOORBELL_LOG rows (CORAL/BRENT/FALCON/OTTO), all gate-FAIL → NO.
 
-**Liveness at the cut (`ListAgents` 20:41Z):** sessions prome-96, brent-08, terry-ce, daedalus-8d, brock-1d. **In-process PROME teammates are invisible to `ListAgents`; ORCH_INFLIGHT now writes the row AT SPAWN, so re-read it before EVERY doorbell row and before telling Will a desk is dark** (MEMORY #41 n=2: FALCON was misreported dark at 14:12 ET). **Re-read at every boot; never carried.**
+**Liveness through the session (`ListAgents`, re-checked):** only `prome-ed` live (idle); all domain desks weekend-dark; a DAEDALUS harness-audit (Codex/Astra, not a Claude session) ran read-only. **Re-read `ORCH_INFLIGHT` before EVERY doorbell / 'desk is dark' (MEMORY #41).**
 
-**Routed 10/02 (BOARD 1148 → 1177; delivery state in the LAST_COMPLETION receipt):** AM `-001`…`-010` (NFP, EU diesel, carriers, EA HICP, HY 324 IMMEDIATE, CRE cases, Jefferson, Taiz, G7 release IMMEDIATE, Volgograd) · noon `-011`…`-013` (France 10Y, Amazon SPV, TD) · lane runs `-014` IMMEDIATE Yanbu (`-016` corr.), `-015` ECB pricing, `-023` diesel-ban state (`-027` corr.) · Will items `-017` (`-018` corr.), `-019` Lennar, `-020` FL rain, `-021` IMMEDIATE Blue Owl, `-024` Toshiba, `-025` NYT Hormuz, `-026` tanker hack, `-028` close (`-029` corr.) · owner fire `-022` (BROCK R2 #2). **Delivered is not consumed.**
-
-**Unconsumed ACTION handoffs at the cut (files still in inboxes, delivery_log):** MARCO 2 (**oldest, 9/28**) · OSPREY 2 (10/01) · BOND 2 · FALCON 2 · AEOLUS 1 (10/01) · HAWK 1 (10/01) · RED 1 · REGINALD 1 · CREED 1 · CORAL 1 · HOMER 1 · LIQUID 1 · OTTO 1 (all 10/02 unless dated) · 104 INFO. PROME dispositions: `-019` HOMER, `-020` CORAL, `-025`/`-026` FALCON, `-021` BROCK-grade done → Monday.
-
-**Registry rows >7d stale:** DEWEY 9/10 · YEYOU 8/20 · RAV 8/02 · ATHENA 3/14 · DARWIN 2/18 · BARON / HERMES no STATUS.
+**Registry rows >7d stale:** DEWEY 9/10 · YEYOU (RETIRED) 9/05 · RAV 8/02 · ATHENA 3/14 · DARWIN 2/18 · BARON / HERMES no STATUS.
 
 **Unregistered dirs:** `CATO` (manual-only, WQ-255), `_archive` (not an agent).
 
