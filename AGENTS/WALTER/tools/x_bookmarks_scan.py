@@ -253,6 +253,46 @@ def _dedup_key(raw_id, author_id, created_at, text):
     return "noid:" + hashlib.sha256(basis.encode()).hexdigest()[:16]
 
 
+def _host_of(url):
+    try:
+        netloc = urllib.parse.urlparse(url).netloc.lower()
+    except Exception:  # noqa
+        return ""
+    netloc = netloc.split("@")[-1].split(":")[0]          # strip userinfo + port
+    return netloc[4:] if netloc.startswith("www.") else netloc
+
+
+def _is_self_or_shortener(url):
+    """True for the tweet's own platform host or the t.co shortener — a HOST match, never a
+    substring. The old `"x.com" in url` test wrongly dropped vox.com / fox.com / any URL with
+    `x.com` in a query string (CATO review 2026-10-04)."""
+    h = _host_of(url)
+    return (h in ("x.com", "twitter.com", "mobile.twitter.com", "t.co")
+            or h.endswith(".x.com") or h.endswith(".twitter.com"))
+
+
+def _url_entities(container):
+    """urls[] from an entities dict; tolerates ANY malformed shape without raising (CX4b)."""
+    if not isinstance(container, dict):
+        return []
+    ent = container.get("entities")
+    urls = ent.get("urls") if isinstance(ent, dict) else None
+    return urls if isinstance(urls, list) else []
+
+
+def _collect_links(item):
+    """External links from BOTH top-level entities AND long-form note_tweet.entities
+    (long-form posts carry their URLs only in note_tweet — CATO review 2026-10-04)."""
+    links, note = [], item.get("note_tweet")
+    for u in _url_entities(item) + _url_entities(note):
+        if not isinstance(u, dict):
+            continue
+        exp = u.get("expanded_url") or u.get("url")
+        if isinstance(exp, str) and exp and not _is_self_or_shortener(exp) and exp not in links:
+            links.append(exp)
+    return links
+
+
 def parse_bookmark(item, users_by_id, media_by_key=None):
     """Normalize one API tweet object. NEVER raises for content reasons (CX4b). An id of
     0/''/None is MALFORMED (id=None) but still gets a stable `dedup_key` so it can be
@@ -271,21 +311,23 @@ def parse_bookmark(item, users_by_id, media_by_key=None):
     if not text.strip():
         warn.append("EMPTY TEXT — bookmark carries no body")
     created_at = item.get("created_at")
-    # --- enrichment (2026-10-04, §9a "dig by default"): full text, media, links + DIG hints.
-    # dedup_key stays computed from the ORIGINAL `text` so the seen/mark set is byte-unchanged.
+    # --- enrichment (2026-10-04, §9a "dig by default"; hardened per CATO review): full text,
+    # media, links + DIG hints. dedup_key stays on the ORIGINAL `text`, so in every tested case
+    # the seen/mark set is byte-unchanged. Every read below tolerates a MALFORMED shape without
+    # raising (CX4b). These are the INPUTS to a dig — the image-vision / body fetch itself is a
+    # session step per §9a, NOT performed here.
     note = item.get("note_tweet")
     full_text = (note.get("text") if isinstance(note, dict) else None) or text
     full_text = str(full_text).strip()
-    media_by_key = media_by_key or {}
+    media_by_key = media_by_key if isinstance(media_by_key, dict) else {}
+    att = item.get("attachments")
+    mkeys = att.get("media_keys") if isinstance(att, dict) else None
     media = []
-    for k in ((item.get("attachments") or {}).get("media_keys") or []):
-        m = media_by_key.get(k) or {}
+    for k in (mkeys if isinstance(mkeys, list) else []):
+        m = media_by_key.get(k) if isinstance(k, (str, int)) and not isinstance(k, bool) else None
+        m = m if isinstance(m, dict) else {}
         media.append({"type": m.get("type"), "url": m.get("url") or m.get("preview_image_url")})
-    links = []
-    for u in ((item.get("entities") or {}).get("urls") or []):
-        exp = u.get("expanded_url") or u.get("url")
-        if exp and "twitter.com" not in exp and "x.com" not in exp and exp not in links:
-            links.append(exp)
+    links = _collect_links(item)
     body_wo_links = re.sub(r"https?://\S+", "", full_text).strip()
     dig = []
     if media:

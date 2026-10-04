@@ -188,6 +188,47 @@ class PureLogic(unittest.TestCase):
                                     "text": "headline https://t.co/x"}, {"a1": "u"})
         self.assertEqual(p["dedup_key"], plain["dedup_key"])
 
+    def test_link_filter_is_host_based_not_substring(self):
+        # CATO 2026-10-04: substring "x.com" wrongly dropped vox.com / fox.com / x.com-in-query
+        item = {"id": "901", "author_id": "a1", "text": "x",
+                "entities": {"urls": [
+                    {"expanded_url": "https://www.vox.com/a"},
+                    {"expanded_url": "https://www.fox.com/b"},
+                    {"expanded_url": "https://example.com/p?ref=x.com"},
+                    {"expanded_url": "https://x.com/self/status/901"},
+                    {"expanded_url": "https://t.co/abc"}]}}
+        p = xbm.parse_bookmark(item, {"a1": "u"})
+        self.assertIn("https://www.vox.com/a", p["links"])
+        self.assertIn("https://www.fox.com/b", p["links"])
+        self.assertIn("https://example.com/p?ref=x.com", p["links"])
+        self.assertNotIn("https://x.com/self/status/901", p["links"])      # self host excluded
+        self.assertTrue(all("t.co/abc" not in ln for ln in p["links"]))     # shortener excluded
+
+    def test_long_form_note_tweet_links_extracted(self):
+        # CATO 2026-10-04: long-form posts carry URLs only in note_tweet.entities
+        item = {"id": "902", "author_id": "a1", "text": "short",
+                "note_tweet": {"text": "long body",
+                               "entities": {"urls": [{"expanded_url": "https://www.reuters.com/x"}]}}}
+        p = xbm.parse_bookmark(item, {"a1": "u"})
+        self.assertIn("https://www.reuters.com/x", p["links"])
+
+    def test_malformed_enrichment_metadata_never_raises(self):
+        # CATO 2026-10-04: malformed note_tweet/attachments/entities/url-entries must not abort
+        for bad in [
+            {"id": "1", "text": "t", "attachments": "oops"},
+            {"id": "2", "text": "t", "attachments": ["m1"]},
+            {"id": "3", "text": "t", "attachments": {"media_keys": "notalist"}},
+            {"id": "4", "text": "t", "attachments": {"media_keys": [None, 5, True]}},
+            {"id": "5", "text": "t", "entities": ["notadict"]},
+            {"id": "6", "text": "t", "entities": {"urls": "nope"}},
+            {"id": "7", "text": "t", "entities": {"urls": ["notadict", {"expanded_url": None}]}},
+            {"id": "8", "text": "t", "note_tweet": "stringnote"},
+            {"id": "9", "text": "t", "note_tweet": {"entities": "bad"}},
+        ]:
+            p = xbm.parse_bookmark(bad, {})          # must not raise
+            self.assertIsInstance(p["links"], list)
+            self.assertIsInstance(p["media"], list)
+
     # A9 --------------------------------------------------------------------
     def test_boot_line_shape(self):
         self.assertEqual(xbm.format_boot_line(3, 2), "3 new bookmarks since last launch, 2 dispatched")
