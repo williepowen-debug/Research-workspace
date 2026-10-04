@@ -1,0 +1,209 @@
+{
+  "observed_utc": "2026-10-04T21:30:12.929471+00:00",
+  "pin": "213a5687370eef06be18c07b5db7f09160e54851",
+  "scope_commits": [
+    "c73013184",
+    "a2d911bfb",
+    "114918a51",
+    "10f9375b9",
+    "332a0690a",
+    "ace4541a2",
+    "f78d1f2c5",
+    "3e0e8b2a2",
+    "77b940a2a",
+    "7747ea125"
+  ],
+  "files": [
+    {
+      "path": "AGENTS/BOND/inbox/WALTER/SIG-W-20261004-013.md",
+      "sha256": "fc34c788369bb934db34502f1124f89619c459886285dfb272cc5f30137351ea",
+      "bytes": 552
+    },
+    {
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261004-010.md",
+      "sha256": "7044fd7ecc6f26f8d463bc5e92e96f8bb224b8a1ed399de1b3d9002b17b623a1",
+      "bytes": 629
+    },
+    {
+      "path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261004-011.md",
+      "sha256": "b90792953a39abfdba7fe374bb69b060877916e9c1221ae4d12a6c6761dde97b",
+      "bytes": 820
+    },
+    {
+      "path": "AGENTS/CARL/inbox/WALTER/SIG-W-20261004-012.md",
+      "sha256": "292c3b7874520bdce5ebe5c083e33b9b557f65b67fb7dd037df31fa162fcf90e",
+      "bytes": 759
+    },
+    {
+      "path": "AGENTS/FALCON/inbox/WALTER/SIG-W-20261004-010.md",
+      "sha256": "883d58a47ea3873000969d865ca2b3366d88e3be7ac95ed4ead2d17b4e1cb3cc",
+      "bytes": 800
+    },
+    {
+      "path": "AGENTS/FALCON/inbox/WALTER/SIG-W-20261004-011.md",
+      "sha256": "ed05132301379c838fe9e2c4f1f040d1763d995f0112137e0826cb87b33ceb2d",
+      "bytes": 589
+    },
+    {
+      "path": "AGENTS/HAWK/inbox/WALTER/SIG-W-20261004-010.md",
+      "sha256": "372b3ab04e67d94f0b2cc48350c05a27067c28e6376ca7ba63b93f6c2bfa275e",
+      "bytes": 593
+    },
+    {
+      "path": "AGENTS/HAWK/inbox/WALTER/SIG-W-20261004-011.md",
+      "sha256": "6e201cb333aa8c79f92fdab46966276ad8460c7108f86da6b85dbf8dc5f16d0f",
+      "bytes": 542
+    },
+    {
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261004-009.md",
+      "sha256": "0b4e5a26bafc4c29aeef45c90f90c513d42ece0ebe0ef434ce28861f290f9991",
+      "bytes": 852
+    },
+    {
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261004-012.md",
+      "sha256": "a860fe95333495edb3254ae5b75996f6b65496fc655c0037eb960a58d92b63f2",
+      "bytes": 552
+    },
+    {
+      "path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261004-013.md",
+      "sha256": "0a7d7c359aa7db3f4341530ec5b8d8ce887789575dcb0ca7d36773094d7cfe56",
+      "bytes": 769
+    },
+    {
+      "path": "AGENTS/SAM/inbox/WALTER/SIG-W-20261004-010.md",
+      "sha256": "b3d0469320871b9ff377b4c2e93101026522b4f65ae90914f3bf54f3469f9735",
+      "bytes": 543
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261004-009.md",
+      "sha256": "b9a9ea77875589d05fb361b1e08b7389fafc3d24d3816875dcfcbfe696a5e1a3",
+      "bytes": 853
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261004-013.md",
+      "sha256": "65b920a64eac59d458a592856801560afb0b6120268ffa286ac4967564b2ceec",
+      "bytes": 549
+    },
+    {
+      "path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261004-009.md",
+      "sha256": "688eea949437fb2f1064fcd89770692bbbab508daf5493b2bb43127395956880",
+      "bytes": 1031
+    },
+    {
+      "path": "AGENTS/WALTER/CLAUDE.md",
+      "sha256": "f6e6c1bb3028825f5b9fdd4fc273e02ae606a1d7b26a21ad5f7ff11089215e1f",
+      "bytes": 67581
+    },
+    {
+      "path": "AGENTS/WALTER/LAST_COMPLETION.md",
+      "sha256": "87dcaf9fa4687b3c003c318b345507825ef5376ca490d3e7a23d539dd580b818",
+      "bytes": 14339
+    },
+    {
+      "path": "AGENTS/WALTER/REGISTRY.tsv",
+      "sha256": "ea6ecc87802dcb22e1be33b8c02a2ebc52e123a21e1ae31e81358a03f62447e3",
+      "bytes": 23378
+    },
+    {
+      "path": "AGENTS/WALTER/STATUS.md",
+      "sha256": "475e42cdddf3fb608ba3bac5e618d5921e66a8dfda2898de193007cb0c216252",
+      "bytes": 16424
+    },
+    {
+      "path": "AGENTS/WALTER/design/SIGNAL_FORMAT_SPEC.md",
+      "sha256": "8f5ac10a0b96da502de721a16ae6792760f1bf6717f82e35575dfdc9f82eb385",
+      "bytes": 65279
+    },
+    {
+      "path": "AGENTS/WALTER/design/STATE.md",
+      "sha256": "a6697ca2338d6ca953795685c9ebbe5145ec69f269e9cd6cfffa7d59442935ae",
+      "bytes": 63976
+    },
+    {
+      "path": "AGENTS/WALTER/design/X_BOOKMARKS_ACCEPTANCE.md",
+      "sha256": "ea5c6d0e47b72f099d6aec3fe1682a0ad8188929fb8eb54d4396ccd38bca78b3",
+      "bytes": 29721
+    },
+    {
+      "path": "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv",
+      "sha256": "ac5815e1f751876899159cf70986f9b29035b72e8da922773822ed2f4ccc6d9a",
+      "bytes": 147073
+    },
+    {
+      "path": "AGENTS/WALTER/registry/boot_basis_hashes.json",
+      "sha256": "dc184866667b8c443666dda4bdb465076d4eab9b8cc7097f3130302c4cf4a565",
+      "bytes": 2520
+    },
+    {
+      "path": "AGENTS/WALTER/registry/brightdata_usage.tsv",
+      "sha256": "1290671e22f37349568a8f8250b7422de365c255cce1bff605ddb89bba51e21e",
+      "bytes": 273
+    },
+    {
+      "path": "AGENTS/WALTER/routed/delivery_log.tsv",
+      "sha256": "867cb2879ae765a61f9490f1256bcad98836efc44d75aaf4cb509cf731617672",
+      "bytes": 866221
+    },
+    {
+      "path": "AGENTS/WATT/inbox/WALTER/SIG-W-20261004-009.md",
+      "sha256": "212231a8b48023dd5c3aa50673fa607197da482d394c7b871d1615950cba066f",
+      "bytes": 851
+    },
+    {
+      "path": "BOARD/SIG-W-20261004-006-hertz-forced-seller-international-sale-deep-distressed-capital-structure-OTTO-LIQUID.md",
+      "sha256": "1d03f687f376232569c4d4d70f1b4e9ef3f95fa72067a548a65ebcffbaa75ef6",
+      "bytes": 7411
+    },
+    {
+      "path": "BOARD/SIG-W-20261004-009-micron-q4-fy26-record-ai-memory-supercycle-54B-rev-fq1-27-guide-61-5B-VULCAN-has-it-ARCHIVE.md",
+      "sha256": "c0d1e19249b6027e638dd1511b9487c95bb9584dcb15d2ae5222627496d4487d",
+      "bytes": 4212
+    },
+    {
+      "path": "BOARD/SIG-W-20261004-010-iran-cluster-10-04-houthi-khurais-CLAIM-disputed-bab-el-mandeb-nearmiss-CONFIRMED-petroline-ps2-unconfirmed-FALCON.md",
+      "sha256": "ed44dfa1677a324a78229034e5a5d2c2fdfd351d6b7c0422f267dda235ceebb3",
+      "bytes": 5105
+    },
+    {
+      "path": "BOARD/SIG-W-20261004-011-iraq-arranges-vlcc-to-ship-crude-past-hormuz-plus-IEA-325M-is-cumulative-of-march-400M-program-not-new-BRENT.md",
+      "sha256": "bec420e4807730e761f4668523debf6b49966bef3d57c2fa1e52c428ef9c2a56",
+      "bytes": 3097
+    },
+    {
+      "path": "BOARD/SIG-W-20261004-012-ISM-services-activity-61-7-vs-employment-47-8-13-9pt-gap-7th-widest-sept-survey-monday-CARL.md",
+      "sha256": "b2d6bbccfc80e339d942221f745a6c4ed3a7a5af5607d5ab1242980a0c0c8037",
+      "bytes": 2533
+    },
+    {
+      "path": "BOARD/SIG-W-20261004-013-retail-piling-into-TLT-into-the-selloff-record-tlt-options-volume-positioning-tell-HENRY-BOND.md",
+      "sha256": "26222ba11e40188eebab75f86756cf2cba0852407db9d2445feccc776402ced2",
+      "bytes": 2663
+    }
+  ],
+  "delivery_rows": [
+    "2026-10-04T20:08Z\tSIG-W-20261004-009\tVULCAN\tINFO\tCLAUDE_CODE\tROUTINE\tAGENTS/VULCAN/inbox/WALTER/SIG-W-20261004-009.md\twritten_not_delivered_pending_push\tdark (weekend); edgar archive record \u2014 owner VULCAN already graded (S2); lane entity_class mis-tag flagged PROME",
+    "2026-10-04T20:08Z\tSIG-W-20261004-009\tHENRY\tINFO\tCLAUDE_CODE\tROUTINE\tAGENTS/HENRY/inbox/WALTER/SIG-W-20261004-009.md\twritten_not_delivered_pending_push\tdark (weekend); edgar archive record \u2014 owner VULCAN already graded (S2); lane entity_class mis-tag flagged PROME",
+    "2026-10-04T20:08Z\tSIG-W-20261004-009\tVIOLET\tINFO\tCLAUDE_CODE\tROUTINE\tAGENTS/VIOLET/inbox/WALTER/SIG-W-20261004-009.md\twritten_not_delivered_pending_push\tdark (weekend); edgar archive record \u2014 owner VULCAN already graded (S2); lane entity_class mis-tag flagged PROME",
+    "2026-10-04T20:08Z\tSIG-W-20261004-009\tWATT\tINFO\tCLAUDE_CODE\tROUTINE\tAGENTS/WATT/inbox/WALTER/SIG-W-20261004-009.md\twritten_not_delivered_pending_push\tdark (weekend); edgar archive record \u2014 owner VULCAN already graded (S2); lane entity_class mis-tag flagged PROME",
+    "2026-10-04T20:36Z\tSIG-W-20261004-010\tFALCON\tACTION\tCLAUDE_CODE\tPRIORITY\tAGENTS/FALCON/inbox/WALTER/SIG-W-20261004-010.md\twritten_not_delivered_pending_push\tdark (weekend); Will bookmark scan 7h + verify",
+    "2026-10-04T20:36Z\tSIG-W-20261004-010\tHAWK\tINFO\tCLAUDE_CODE\tPRIORITY\tAGENTS/HAWK/inbox/WALTER/SIG-W-20261004-010.md\twritten_not_delivered_pending_push\tdark (weekend); Will bookmark scan 7h + verify",
+    "2026-10-04T20:36Z\tSIG-W-20261004-010\tBRENT\tINFO\tCLAUDE_CODE\tPRIORITY\tAGENTS/BRENT/inbox/WALTER/SIG-W-20261004-010.md\twritten_not_delivered_pending_push\tdark (weekend); Will bookmark scan 7h + verify",
+    "2026-10-04T20:36Z\tSIG-W-20261004-010\tSAM\tINFO\tCLAUDE_CODE\tPRIORITY\tAGENTS/SAM/inbox/WALTER/SIG-W-20261004-010.md\twritten_not_delivered_pending_push\tdark (weekend); Will bookmark scan 7h + verify",
+    "2026-10-04T20:36Z\tSIG-W-20261004-011\tBRENT\tACTION\tCLAUDE_CODE\tROUTINE\tAGENTS/BRENT/inbox/WALTER/SIG-W-20261004-011.md\twritten_not_delivered_pending_push\tdark (weekend); Will bookmark scan 7h + verify",
+    "2026-10-04T20:36Z\tSIG-W-20261004-011\tHAWK\tINFO\tCLAUDE_CODE\tROUTINE\tAGENTS/HAWK/inbox/WALTER/SIG-W-20261004-011.md\twritten_not_delivered_pending_push\tdark (weekend); Will bookmark scan 7h + verify",
+    "2026-10-04T20:36Z\tSIG-W-20261004-011\tFALCON\tINFO\tCLAUDE_CODE\tROUTINE\tAGENTS/FALCON/inbox/WALTER/SIG-W-20261004-011.md\twritten_not_delivered_pending_push\tdark (weekend); Will bookmark scan 7h + verify",
+    "2026-10-04T20:36Z\tSIG-W-20261004-012\tCARL\tACTION\tCLAUDE_CODE\tPRIORITY\tAGENTS/CARL/inbox/WALTER/SIG-W-20261004-012.md\twritten_not_delivered_pending_push\tdark (weekend); Will bookmark scan 7h + verify",
+    "2026-10-04T20:36Z\tSIG-W-20261004-012\tHENRY\tINFO\tCLAUDE_CODE\tPRIORITY\tAGENTS/HENRY/inbox/WALTER/SIG-W-20261004-012.md\twritten_not_delivered_pending_push\tdark (weekend); Will bookmark scan 7h + verify",
+    "2026-10-04T20:36Z\tSIG-W-20261004-013\tHENRY\tACTION\tCLAUDE_CODE\tROUTINE\tAGENTS/HENRY/inbox/WALTER/SIG-W-20261004-013.md\twritten_not_delivered_pending_push\tdark (weekend); Will bookmark scan 7h + verify",
+    "2026-10-04T20:36Z\tSIG-W-20261004-013\tBOND\tINFO\tCLAUDE_CODE\tROUTINE\tAGENTS/BOND/inbox/WALTER/SIG-W-20261004-013.md\twritten_not_delivered_pending_push\tdark (weekend); Will bookmark scan 7h + verify",
+    "2026-10-04T20:36Z\tSIG-W-20261004-013\tVIOLET\tINFO\tCLAUDE_CODE\tROUTINE\tAGENTS/VIOLET/inbox/WALTER/SIG-W-20261004-013.md\twritten_not_delivered_pending_push\tdark (weekend); Will bookmark scan 7h + verify"
+  ],
+  "boot_basis_result": {
+    "exit_code": 1,
+    "review_required": [
+      "AGENTS/WALTER/CLAUDE.md",
+      "AGENTS/WALTER/design/ROUTING_TABLE.md"
+    ]
+  },
+  "limits": "No live X/BrightData scan, credentials, paid request, owner write, sends or launches. External URLs and verification limits in continuing report."
+}
