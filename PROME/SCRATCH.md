@@ -5,7 +5,7 @@ History → `ls PROME/archive/SCRATCH_ROTATED_*` is the archive index (each rota
 
 ## ★ NEXT SESSION — START HERE
 
-**`prome-ed` Sun 10/04 — post-`/clear` boot 11:33 → Standard closeout ~14:5x ET, DESKTOP (same harness session as 10/3; process changes this session ≥3 known, ceiling 1 — L600). Markets closed. Account → `memory/2026-10-04.md`. Next session likely Mon 10/5 AM. The RESEARCH-INTAKE collector runs DAILY (the Sat/Sun runs wait for WALTER's Monday consumption).**
+**`prome-ed` Sun 10/04 — post-`/clear` boot 11:33 → Standard closeout ~14:5x ET, LAPTOP `WilliePOwen` (corrected 15:38 ET from 'DESKTOP' on Will's word; same harness session as 10/3; process changes this session ≥3 known, ceiling 1 — L600). Markets closed. Account → `memory/2026-10-04.md`. Next session likely Mon 10/5 AM. The RESEARCH-INTAKE collector runs DAILY (the Sat/Sun runs wait for WALTER's Monday consumption).**
 
 **Monday 10/5 priorities, in order (times ET):**
 1. **Boot.** `/boot`; `spawn_slate.py` writes `PROME/state/SPAWN_SLATE.md` inside the gate — read its top block first.
