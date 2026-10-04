@@ -11,11 +11,19 @@
 
 ## WRITTEN
 
-2026-10-03 17:3x ET — PROME (`prome-ed`, desktop, Saturday afternoon, the post-`/clear` sitting; Standard closeout). Scope: the boot report on what PROME owed; WALTER's bookmark follow-ons folded into one decision; PROME's own repair backlog ranked for your word; the gate ledger compacted and read twice; the five oversized boot-read files rotated. No trade by PROME; $0 moved by PROME; no fill reported by you; markets closed.
+2026-10-04 14:25 ET — PROME (`prome-ed`, desktop, Sunday afternoon after a `/clear`; Standard closeout). Scope: OPEC+'s Sunday decision graded by BRENT; the second-opinion read on DAEDALUS's audit of the system's own rulebooks; a hold on one of TERRY's git steps; a reconciliation of PROME's own boot. No trade by PROME; $0 moved by PROME; no fill reported by you.
 
-*Prior:* 2026-10-02 18:4x ET — PROME (`prome-dc`, desktop, Friday evening after the close; Standard closeout). Scope: the 5:59 pm computer crash and its repair; the weekly audit of PROME's own files, which the crash interrupted, run in full; Friday's close as the regime memo recorded it. No trade by PROME; $0 moved by PROME; no fill reported by you.
+*Prior:* 2026-10-03 17:3x ET — PROME (`prome-ed`, desktop, Saturday afternoon, the post-`/clear` sitting; Standard closeout). Scope: the boot report on what PROME owed; WALTER's bookmark follow-ons folded into one decision; PROME's own repair backlog ranked for your word; the gate ledger compacted and read twice; the five oversized boot-read files rotated. No trade by PROME; $0 moved by PROME; no fill reported by you; markets closed.
 
 ## HEADLINE
+
+## SINCE THE 17:3x BRIEF — 10/4 Sunday (2026-10-04 14:25 ET)
+
+<strong>OPEC+ held November output where it was, as expected.</strong> BRENT read the decision from OPEC's own statement, not the news wire: the seven countries kept November's required production at October's level, the second hold in a row; they meet again 1 November. Spare capacity is about 0.02 million barrels a day on EIA's September figure, the only agency figure found, so the hold changes almost no real barrels, and it was expected, so Monday's open should not be surprised by it. For your book: no change to the oil read behind the USO shares and the USO Oct-9 150 call. Two side notes for TERRY on the held VLO share: the Riyadh refinery fire is witnessed but its damage is unknown (no Saudi or Aramco statement); and the US denial of a diesel-export ban makes the share's export-ban sell rule less likely to fire, though BRENT could not find the exact quote and a denial can be reversed.
+
+<strong>A second opinion on DAEDALUS's audit of the system's own rulebooks.</strong> A reader that had not seen DAEDALUS's findings went through the four shared rulebooks. It independently found most of what DAEDALUS found and four serious things it missed: the fleet-overview file still carries a hand-copied routing table the main rules forbid, and it has drifted; RAV, which runs outside Claude Code, appears to have no working git instructions anywhere (inferred from the files, not tested); RAV's own charter still lists as pending an edit both shared files now forbid; and nothing checks the audit's own 'redo after any model change' rule, which fired this morning when this session moved from Fable 5.1 to Opus 5.5. The two shared-file items (the routing table, the git-instruction line) are yours and go to the 10/9 sitting as proposals; the charter and model-change items are DAEDALUS's to fix. Separately, DAEDALUS showed that one of TERRY's git recovery steps can overwrite other desks' unsaved work; TERRY has a hold until it fixes that step.
+
+<strong>PROME's own boot, reconciled on your and CATO's instructions.</strong> PROME's first self-assessment overstated two things; the record now says what the evidence supports. Two boot reads that were done the quick way were redone the required way. The NEXUS panel on the dashboard had been blank since 9/22 because the regime memo stopped carrying NEXUS's figures; the memo now carries NEXUS's own dated statement with its caveats (a judgment, set before Friday's moves). Your Helm shows it only after the Fleet-Ops fold (L594); until then the panel you see stays blank.
 
 ## SINCE THE 18:4x BRIEF — 10/3 afternoon (2026-10-03 17:3x ET)
 
