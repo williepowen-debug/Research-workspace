@@ -1,6 +1,6 @@
 # PROME judgment review — October 3, 2026
 
-**REVIEW COMPLETE — evidence, independent reads and post-blind challenge complete; owner delivery tracked below.** Seven supported, bounded findings; all five judgment legs inspected at the coverage below. Hosted access and complete historical consumer receipts remain UNKNOWN. The whole-sweep clock stays September 8; no clean L5 claim or grade change follows.
+**BOUNDED PACKAGE COMPLETE — evidence, required review, delivery and truthful write-back done; whole sweep PARTIAL.** Seven supported, bounded findings; all five judgment legs inspected at the coverage below. Hosted access and complete historical consumer receipts remain UNKNOWN. The whole-sweep clock stays September 8; no clean L5 claim or grade change follows.
 
 Will commissioned this bounded read-only package after CATO's October 3 evening assessment. PROME is presumed live. No owner source, publication state, authority, shared rule or implementation is changed by the review. The only authorized cross-owner write is the self-authored completion packet.
 
@@ -73,3 +73,5 @@ Owner agreement is **OPEN** until PROME records it. This section is the review's
 ## Delivery disposition
 
 Self-authored packet: `PROME/inbox/2026-10-03_from-DAEDALUS_prome-judgment-review-and-oct5-capacity.md` (or the owner’s `processed/` successor). Git delivery, first substantive contact, native session discovery and any owner acknowledgment are recorded in `../runs/2026-10-03_PROME_JUDGMENT_DELIVERY.txt`. Delivery does not certify repairs, hosted publication or capacity agreement. All seven findings remain owner-disposition dependencies unless that receipt records a verified successor.
+
+**Verified delivery:** commit `0879c9789` is on freshly fetched origin; all 29 package files matched. PROME recorded receipt at `fcccf6a23`, DOCKET L490: **UNCONSUMED**, dispositions at October5. Native doorbell sent once after fresh session-identity verification; it is not substantive consumption. Harness capacity is explicitly still pending Will’s checkpoint word. No repair, date change, hosted acceptance or capacity agreement is claimed.

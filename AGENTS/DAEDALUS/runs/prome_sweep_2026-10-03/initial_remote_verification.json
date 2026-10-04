@@ -1,0 +1,182 @@
+{
+  "time_utc": "2026-10-04T01:59:51.225829+00:00",
+  "commit": "0879c9789",
+  "fresh_fetched_remote": "fcccf6a23069ecfb9dfb469dfa7520fecb411abd",
+  "ancestor_rc": 0,
+  "checks": [
+    {
+      "path": "AGENTS/DAEDALUS/HANDOFF.md",
+      "commit_sha256": "50509fe3ad8fc7de2975b1bf4bbc00b9596be773e2bb28eda468eba58273639b",
+      "remote_sha256": "50509fe3ad8fc7de2975b1bf4bbc00b9596be773e2bb28eda468eba58273639b",
+      "same": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/STATUS.md",
+      "commit_sha256": "7ce5038a6484b67253fd371efff562fe4d18b735a9b863a982fb058adc85a30e",
+      "remote_sha256": "7ce5038a6484b67253fd371efff562fe4d18b735a9b863a982fb058adc85a30e",
+      "same": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/profiles/PROME.md",
+      "commit_sha256": "15e755accb8a0a9f584ab19906bccdde9d9b3e1cf0c7ca39d9daeda59006e843",
+      "remote_sha256": "15e755accb8a0a9f584ab19906bccdde9d9b3e1cf0c7ca39d9daeda59006e843",
+      "same": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/2026-10-03_PROME_JUDGMENT_DELIVERY.txt",
+      "commit_sha256": "6079dc4d680b4e38d3fa12c0f6720cb6a0e6c1a4771a9b94f903137fd94fc5c7",
+      "remote_sha256": "6079dc4d680b4e38d3fa12c0f6720cb6a0e6c1a4771a9b94f903137fd94fc5c7",
+      "same": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/GATE_LOG.tsv",
+      "commit_sha256": "c088ffba664fc2bb5d5484f48cdc0bb9e95a23a38057997cf32081dc16ee5bee",
+      "remote_sha256": "c088ffba664fc2bb5d5484f48cdc0bb9e95a23a38057997cf32081dc16ee5bee",
+      "same": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/archive_manifest.json",
+      "commit_sha256": "076dc7387ccbe8046b298dc7a194257f6f381b8033162c59ddfe3a14899c70d0",
+      "remote_sha256": "076dc7387ccbe8046b298dc7a194257f6f381b8033162c59ddfe3a14899c70d0",
+      "same": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/closeout_precommit.json",
+      "commit_sha256": "0b6277a2ebcd2161520cbba6b6408fab04138f054c8a3a5157fb05cfb3fd6be8",
+      "remote_sha256": "0b6277a2ebcd2161520cbba6b6408fab04138f054c8a3a5157fb05cfb3fd6be8",
+      "same": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/docket.html.gz",
+      "commit_sha256": "8afce1bab76df85a4592b5f8086db2e1efb70e10fe1f8b089fe4cb5307d97f19",
+      "remote_sha256": "8afce1bab76df85a4592b5f8086db2e1efb70e10fe1f8b089fe4cb5307d97f19",
+      "same": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/docket.html.txt",
+      "commit_sha256": "18caa8c9e027ca5b913146a1742f6dae6e2c2d802f684561da054b46b357061b",
+      "remote_sha256": "18caa8c9e027ca5b913146a1742f6dae6e2c2d802f684561da054b46b357061b",
+      "same": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/handbook.html.gz",
+      "commit_sha256": "0bfaf17ef671482eb8cee7622d56886d4b9f2dd88e951455f900a9484dbccac3",
+      "remote_sha256": "0bfaf17ef671482eb8cee7622d56886d4b9f2dd88e951455f900a9484dbccac3",
+      "same": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/handbook.html.txt",
+      "commit_sha256": "1b4e024efd1bc126851f65773fe6b1f88b38e92df576bc70ae1bea7a271b2b03",
+      "remote_sha256": "1b4e024efd1bc126851f65773fe6b1f88b38e92df576bc70ae1bea7a271b2b03",
+      "same": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/hosted_access.txt",
+      "commit_sha256": "edddc3d63b2021703da9d6f4302f1b9eee3777e911386322fd56aba00c9a61b4",
+      "remote_sha256": "edddc3d63b2021703da9d6f4302f1b9eee3777e911386322fd56aba00c9a61b4",
+      "same": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/local_render_capture.json",
+      "commit_sha256": "3ae8b6676644eeab3b69300da09271e438dfad6e4845d210c86293226b5b7b25",
+      "remote_sha256": "3ae8b6676644eeab3b69300da09271e438dfad6e4845d210c86293226b5b7b25",
+      "same": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/parent_evidence.json",
+      "commit_sha256": "9d3c8c9882298089992a4fbe51893016e2137c74089ae89d76193f06786cac67",
+      "remote_sha256": "9d3c8c9882298089992a4fbe51893016e2137c74089ae89d76193f06786cac67",
+      "same": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/precontact_verification.json",
+      "commit_sha256": "4dfa806f1d66853e5740d251f6f60eb59bc0bbf720eec08574f67cc97b2be4e4",
+      "remote_sha256": "4dfa806f1d66853e5740d251f6f60eb59bc0bbf720eec08574f67cc97b2be4e4",
+      "same": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/profile_capacity_inputs.json",
+      "commit_sha256": "d9ebffa2c23be92c5d9ff15ecb30fe6e1c574c907bee982c9ec39b0efae01301",
+      "remote_sha256": "d9ebffa2c23be92c5d9ff15ecb30fe6e1c574c907bee982c9ec39b0efae01301",
+      "same": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/rebase_commits.txt",
+      "commit_sha256": "c8cd0333151af8a0f512ac4b31427cc9cdc6c3be8fbf0d1859a07545f2bc5aef",
+      "remote_sha256": "c8cd0333151af8a0f512ac4b31427cc9cdc6c3be8fbf0d1859a07545f2bc5aef",
+      "same": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/root_canon_diff.txt",
+      "commit_sha256": "8b8a117e8fcb65583110e6fe3ed54149a0669a695d3bf651c8ec98e416b81699",
+      "remote_sha256": "8b8a117e8fcb65583110e6fe3ed54149a0669a695d3bf651c8ec98e416b81699",
+      "same": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/snapshot.json",
+      "commit_sha256": "8d06976fb5e19830ebdba925cefe382d66b7669e6f77b77c01b752b27715d631",
+      "remote_sha256": "8d06976fb5e19830ebdba925cefe382d66b7669e6f77b77c01b752b27715d631",
+      "same": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv",
+      "commit_sha256": "2d5bbcbccdf74e36dc610054b570b46cf2d57eb188b5069f5e638e99eaae44be",
+      "remote_sha256": "2d5bbcbccdf74e36dc610054b570b46cf2d57eb188b5069f5e638e99eaae44be",
+      "same": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/window_commits.txt",
+      "commit_sha256": "59229ef87109e3de242d94d7152315deee651897d289b6a5b4f6234dfa7c6157",
+      "remote_sha256": "59229ef87109e3de242d94d7152315deee651897d289b6a5b4f6234dfa7c6157",
+      "same": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/window_numstat.tsv",
+      "commit_sha256": "636ecc3866034ba36e7743371040552bd6e31333fe04917c990c0d59ee5dc020",
+      "remote_sha256": "636ecc3866034ba36e7743371040552bd6e31333fe04917c990c0d59ee5dc020",
+      "same": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/sweeps/PROME_SWEEP.md",
+      "commit_sha256": "e78e07355d95f1ece9499dd23d2679dd97a19fb70002db3fa5393ee2b58cb3db",
+      "remote_sha256": "e78e07355d95f1ece9499dd23d2679dd97a19fb70002db3fa5393ee2b58cb3db",
+      "same": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/sweeps/REGISTRY.tsv",
+      "commit_sha256": "33dc7ef2ba76c633a328a5b9c3fc9d5fd1ef72b0931c5dcfeab5be3408ef085a",
+      "remote_sha256": "33dc7ef2ba76c633a328a5b9c3fc9d5fd1ef72b0931c5dcfeab5be3408ef085a",
+      "same": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/upgrades/PROME_SWEEP_2026-10-03.md",
+      "commit_sha256": "13673d0f75cc8af2d040a637c10f3ceb0d016547d0c2be68fe13014c57ac7d39",
+      "remote_sha256": "13673d0f75cc8af2d040a637c10f3ceb0d016547d0c2be68fe13014c57ac7d39",
+      "same": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/upgrades/PROME_SWEEP_2026-10-03_OUTPUT_READER.md",
+      "commit_sha256": "de23d86afff2a0600d1763c63d9b4f3f74dff55d351deaf24ef383950a2abdff",
+      "remote_sha256": "de23d86afff2a0600d1763c63d9b4f3f74dff55d351deaf24ef383950a2abdff",
+      "same": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/upgrades/PROME_SWEEP_2026-10-03_READER_REPORTS.md",
+      "commit_sha256": "fcf9024f6e63d513726182f42e681a703f45d2f555bbe5cbdecf74db7c193c41",
+      "remote_sha256": "fcf9024f6e63d513726182f42e681a703f45d2f555bbe5cbdecf74db7c193c41",
+      "same": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/upgrades/PROME_SWEEP_2026-10-03_SPINE_READER.md",
+      "commit_sha256": "bb4f35939457fef23774fd5d17683cba9b2d1cf23b1341f16d8ca208c03a941f",
+      "remote_sha256": "bb4f35939457fef23774fd5d17683cba9b2d1cf23b1341f16d8ca208c03a941f",
+      "same": true
+    },
+    {
+      "path": "PROME/inbox/2026-10-03_from-DAEDALUS_prome-judgment-review-and-oct5-capacity.md",
+      "commit_sha256": "451b0282c2ac91cccc047b650a5c28e46aa06d16fd017e999e66b93eb307d54f",
+      "remote_sha256": "451b0282c2ac91cccc047b650a5c28e46aa06d16fd017e999e66b93eb307d54f",
+      "same": true
+    }
+  ]
+}
