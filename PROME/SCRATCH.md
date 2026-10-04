@@ -1,31 +1,31 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-10-03 17:2x ET — `prome-ed` post-`/clear` sitting, STANDARD closeout (Sat, DESKTOP; boot 16:06 ET). Prior stamp line verbatim → `archive/SCRATCH_ROTATED_2026-10-03_prome-ed-pm.md`; older → `git log -p -- PROME/SCRATCH.md`. **Market data: HEARTBEAT base 26 (post-close Fri 10/02, chain 0) CURRENT through 10/02 EOD; its header governs base date, chain and the 10/05 size re-check.** ⛔ A date-labelled daily futures bar may be next-session evening activity — decide by the observation's session, not the clock (L462).
+**Last Updated:** 2026-10-03 21:3x ET — `prome-ed` evening addendum, LIGHT closeout (Sat, DESKTOP). Prior stamps (17:2x Standard, earlier) → `git log -p -- PROME/SCRATCH.md`; the 15:2x stamp also verbatim in `archive/SCRATCH_ROTATED_2026-10-03_prome-ed-pm.md`. **Market data: HEARTBEAT base 26 (post-close Fri 10/02, chain 0) CURRENT through 10/02 EOD; its header governs base date, chain and the 10/05 size re-check.** ⛔ A date-labelled daily futures bar may be next-session evening activity — decide by the observation's session, not the clock (L462).
 **Resume point + facts registered nowhere else; DOCKET, GATES and WILL_QUEUE own their records; generated views below are preserved.**
 History → `ls PROME/archive/SCRATCH_ROTATED_*` is the archive index (each rotation file carries per-block crc32); latest: `SCRATCH_ROTATED_2026-10-03_prome-ed-pm.md` (the 15:2x ★ NEXT block + its stamp and History lines); still live from earlier: [9/29 prome-e6c rotation](archive/SCRATCH_ROTATED_2026-09-29_prome-e6c.md) CUT 2 (the structural carry index + the L525 label). Size check: `scripts/read_cap_check.py --agent PROME`.
 
 ## ★ NEXT SESSION — START HERE
 
-**`prome-ed` post-`/clear` sitting, Standard closeout Sat 10/03 17:2x, DESKTOP. Markets closed; nothing fires before Monday. Account → `memory/2026-10-03.md` § prome-ed post-`/clear`. Next session likely Mon 10/5 AM. The RESEARCH-INTAKE collector runs DAILY (the Sat/Sun runs wait for WALTER's Monday consumption).**
+**`prome-ed` Sat 10/03, Standard closeout 17:2x + Light addendum 21:38 ET, DESKTOP. Markets closed; nothing fires before Monday. Account → `memory/2026-10-03.md` § prome-ed post-`/clear` + § evening addendum. Next session likely Mon 10/5 AM. The RESEARCH-INTAKE collector runs DAILY (the Sat/Sun runs wait for WALTER's Monday consumption).**
 
 **Monday 10/5 priorities, in order (times ET):**
 1. **Boot.** `/boot`; `spawn_slate.py` writes `PROME/state/SPAWN_SLATE.md` inside the gate — read its top block first.
 2. **Pre-open — HENRY** gamma board for the QQQ Oct-05 735P ×5 (L592; TERRY leans SELL at the pre-open; Will's 15:00 ET hard stop is his hand). `ListAgents` before any spawn.
 3. **~08:30 ET** — VULCAN's expression-comparison evidence (WQ-365, L590) → re-ask Will (WQ-365 LATER by tap 10/3; the card cannot arm).
 4. **~10:15 ET** — the FRED HY cell for 10/02 publishes: RED-FT-02 / REG-T-03 count to 2-of-3 or RESET from the 324 print [10/1]; RED + REGINALD wake on it (HEARTBEAT §3).
-5. **Dated Monday rows:** DAEDALUS L490 (L210 legs a/c · L593 · L594 — and PROME dispositions DAEDALUS's 10/3 handoff at the checkpoint: receipt on L490's state; L530/L538 clauses; L594 protection; no date overwritten) · **L604** spawn-slate B1/B2 disposition (PROME's; the repair takes a process slot) · REGINALD L527 · FERT L288 · VULCAN L250 · L557 `fetch.py` EB1–EB3 (DOMAIN by the WQ-379 reading, Will's (b) pending).
-6. **Will's Monday decisions:** WQ-347 (the Activity view 9/29→10/2 books the expired puts) · WQ-365 re-ask after VULCAN. WQ-357 LATER (BOND read L608 by 10/08; 82P clock 10/14). 10/09: nine WQ rows + L605 USO stop + L607 WQ-367 encode.
+5. **Dated Monday rows:** DAEDALUS L490 (L210 legs a/c · L594 — PROME dispositions DAEDALUS's handoff at the checkpoint: L530/L538 clauses; L594; no date overwritten) · **L604** spawn-slate B1/B2 disposition (PROME's; the repair takes a process slot) · **BOND L608** (WQ-357 research) · REGINALD L527 · FERT L288 · VULCAN L250 · L557 `fetch.py` EB1–EB3 (DOMAIN by the WQ-379 reading, Will's (b) pending).
+6. **Will's Monday decisions:** WQ-347 (the Activity view 9/29→10/2 books the expired puts) · WQ-365 re-ask after VULCAN (need-by 10/06). WQ-357 LATER (BOND read L608 Monday; 82P clock 10/14). 10/09: nine WQ rows + L605 USO stop + L607 WQ-367 encode.
 
 **Open with Will (new this sitting):** **WQ-377** (a) boot wiring (b) backlog — rec now STOP, WALTER's own ("Recommend STOP", the tail "low-yield and stale"): items 91–150 ran 0 routes on Will's "next lean slice"/"keep going lean"; ~151–287 untriaged; reverses his last choice; the BRENT-009/SHADE-010 outcome test still open (c) the fetcher default · **WQ-379** the ranked process backlog: (a) order (b) six retire/resolve + 17 reclassified (c) ONE process day — record `PROME/proposals/2026-10-03_l600-process-backlog-ranked-table-PROPOSAL.md` · **WQ-380** the `.env` deny line (PARTIAL: blocks the harness's own file tools, not scripts — CATO WP7; canary test, then Will approves the shown scope). The generated Pending-Will view below is the full list.
 
 **PROME's own owed:**
-- **Process slot:** held at ZERO this sitting (the same harness session's earlier sitting used two — receipted on L600). Rank 1 if Will frees a slot: **L580** Deck pickup at closeout and before every publish. WQ-379 orders the rest; nothing moves off its row until Will rules.
+- **Process slot:** held at ZERO this sitting (the same harness session's earlier sitting used two — receipted on L600). Rank 1 if Will frees a slot: **L580** Deck pickup at closeout and before every publish; WQ-379 orders the rest.
 - **CATO forecast-pilot findings** on CARL CRL-31 · FALCON FAL-06 · RED RED-25 · BRENT BRT-31 (`AGENTS/CATO/runs/2026-10-01_1105_forecast-pilot/reviews.tsv`): into each desk's next launch brief, no commission; RED-25 first (RED wakes Monday on the HY cell).
-- **L603** — DAEDALUS evaluates WALTER's system-improvement candidates at its 10/12 profile day (WALTER's report `AGENTS/WALTER/research/2026-10-03_system-improvement-bookmarks.md`); the immediate item is WQ-380.
+- **L603** — DAEDALUS evaluates WALTER's system-improvement candidates 10/12 (PROME read four at primary: `PROME/reports/2026-10-03_system-improvement-candidates-primary-source-read.md`); the immediate item is WQ-380.
 - **L419** — draft the two root-canon wording clauses (root `CLAUDE.md` line 56) for the 10/09 root sitting.
-- **Spine audit #16 ~10/09** (`PROME/STATUS.md`: re-run when >7d from 10/02) — carries the L358 · L403 · L390 residue sweep (WQ-379 (b)) and a **BOOT.md canon-pass proposal** (76%; header stamp chain + fleet-memory groups 2–4 → pointers; a manual: plan + result reads + the execution check).
+- **Spine audit #16 ~10/09** (`PROME/STATUS.md`: re-run when >7d from 10/02) — carries the L358 · L403 · L390 residue sweep (WQ-379 (b)), the WQ-367 encode (L607) and a **BOOT.md canon-pass proposal** (header stamp chain + fleet-memory groups 2–4 → pointers; a manual: plan + result reads + the execution check).
 - **GATES leg ①** — 16 LIVE `condition` cells >400 B need the owner's confirm per row (L418, re-dated 10/25); BRK-R2 `scannable` prose named there too.
-- **WQ-237 RAV encode** owed (RAV is a Codex desk, Will-driven); WALTER's half LANDED 10/3 (feaec7407, VERIFIED at `AGENTS/WALTER/REGISTRY.tsv`).
-- **Owner-lane fire-time flags** (the 9/27 Nano Banc reports ×3 + the TERRY placeholder pointer) — each desk's next touch; the multi-path cell parser = DAEDALUS L593.
+- **WQ-237 RAV encode** owed (RAV is a Codex desk, Will-driven); WALTER's half LANDED 10/3 (feaec7407).
+- **Owner-lane fire-time flags** (the 9/27 Nano Banc reports ×3 + the TERRY placeholder pointer) — each desk's next touch; multi-path parser = DAEDALUS L593.
 - **Standing carries (pointers):** WALTER's unrouted intake items since 9/29 + the OTTO REGISTRY row-23 packet (WALTER's lane; no row) · `fetch.py fred` CDN staleness · FORGE `position_management.tsv` re-attest after every mirror reconcile · L530 · L556 · L588 (`flng_watch` 11/2–12/22) · ROSTER cadence-table parser bug (DAEDALUS's) · HENRY/CRUISE/HANS read-cap flags (owner lane; checked at each spine audit) · the DAEDALUS PR#7 FYI list (`PROME/inbox/processed/2026-10-01_from-DAEDALUS_PR7-results-L487-check-two-ladder-rulings-for-Will.md`).
 - **Claims to Will that desks corrected — do not repeat:** HEARTBEAT §KOS carries the HYG-puts and APO-puts lines; *"X returns 402"* was the harness fetch tool's (`finding_negative_reachability_is_a_claim_about_your_request` n=5).
 - **A clean `ListAgents` is NOT proof no session is live:** DAEDALUS ran as a Codex session this afternoon (invisible to `ListAgents`), committed 17:10 ET; WALTER (walter-f0, Will's window) was live through this closeout.
@@ -33,7 +33,7 @@ History → `ls PROME/archive/SCRATCH_ROTATED_*` is the archive index (each rota
 
 **Done without asking (WQ-348 report), this sitting:** none.
 
-**NOT DONE at this closeout (named, not waived):** GATES leg ① (owner confirms) · the BOOT.md rotation (76%; a canon pass) · the Helm P4 grade (L602: not graded, same harness session) · the post-read fixes to the L600 record, the LIQ-069 state cell and the WQ-377 (b) basis text stand UNREVIEWED (disclosed).
+**NOT DONE at this closeout (named, not waived):** GATES leg ① (owner confirms) · the BOOT.md rotation (over its rotate line; a canon pass) · the Helm P4 grade (L602: not graded, same harness session) · the post-read fixes to the L600 record, the LIQ-069 cell and the WQ-377/379/380 row texts stand UNREVIEWED (disclosed on each).
 
 **Resume:** [HANDOFF](HANDOFF.md), then [STATUS](STATUS.md); check the owner record before reopening an 'owed' item.
 

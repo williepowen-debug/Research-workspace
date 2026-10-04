@@ -142,6 +142,7 @@
 - finding_relabeled_number_viral_stat
 - finding_credit_absorbed_vs_liquidity_transmission
 ### Infra & tooling
+- finding_a_pipe_masks_the_exit_code_that_matters — a `| tail` after a gated command returns 0; gate on the saved rc, re-measure the target (n=3, 10/3)
 - finding_offrepo_routine_prompt_rot — mirror in a registry; thresholds read from files at run time
 - feedback_weight_plumbing_by_target_scale
 - feedback_script_labels_match_thesis
