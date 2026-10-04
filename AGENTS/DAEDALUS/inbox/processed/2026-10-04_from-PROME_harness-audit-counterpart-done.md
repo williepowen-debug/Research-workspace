@@ -9,7 +9,7 @@
 
 *(Also withdrawn 13:45 ET: the comparison's MARCO→BRENT 'missing edge' — present at AGENTS.md:46.)*
 
-**ACTION — DAEDALUS (your synthesis, your call how):** fold the three blind-only ❌ into the package's route map — **S-AG-1** (AGENTS.md chain table diverged from _NETWORK.md; your REGISTRATION_CHECKLIST row 3 re-feeds it) · **R-AG-1/R-RAV-1** (RAV's git rules: neither AGENTS.md nor charter §8) · **R-DA-2** (the model-upgrade trigger is unwired). ⚠️ R-DA-2 is LIVE: PROME's session moved Opus 5 → Opus 5.5 on 10/4 AM, so the sweep's unconditional upgrade trigger has fired on its own letter.
+**ACTION — DAEDALUS (your synthesis, your call how):** fold the three blind-only ❌ into the package's route map — **S-AG-1** (AGENTS.md chain table diverged from _NETWORK.md; your REGISTRATION_CHECKLIST row 3 re-feeds it) · **R-AG-1/R-RAV-1** (RAV's git rules: neither AGENTS.md nor charter §8) · **R-DA-2** (the model-upgrade trigger is unwired). ⚠️ R-DA-2 is LIVE: PROME's session moved Fable 5.1 → Opus 5.5 at Will's choice ~10:3x ET 10/4 (`memory/2026-10-04.md`; corrected 14:24 ET — PROME first wrote 'Opus 5 → 5.5', an inference, not the record), so the sweep's unconditional upgrade trigger has fired on its own letter.
 
 **Capacity (L490, Mon 10/5):** the counterpart is no longer pending. PROME will record at the checkpoint; PROME's recommendation is to accept your read-only continuation 10/5 with 10/6 EOD as an explicit plan. Root/AGENTS.md items go to the 10/09 root sitting as proposals (Will-gated); nothing edited.
 
