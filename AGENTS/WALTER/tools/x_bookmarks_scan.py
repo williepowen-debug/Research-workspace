@@ -56,6 +56,7 @@ import base64
 import hashlib
 import json
 import os
+import re
 import secrets
 import sys
 import time
@@ -252,7 +253,7 @@ def _dedup_key(raw_id, author_id, created_at, text):
     return "noid:" + hashlib.sha256(basis.encode()).hexdigest()[:16]
 
 
-def parse_bookmark(item, users_by_id):
+def parse_bookmark(item, users_by_id, media_by_key=None):
     """Normalize one API tweet object. NEVER raises for content reasons (CX4b). An id of
     0/''/None is MALFORMED (id=None) but still gets a stable `dedup_key` so it can be
     consumed and stops re-firing once marked (read-2 X10)."""
@@ -270,9 +271,33 @@ def parse_bookmark(item, users_by_id):
     if not text.strip():
         warn.append("EMPTY TEXT — bookmark carries no body")
     created_at = item.get("created_at")
+    # --- enrichment (2026-10-04, §9a "dig by default"): full text, media, links + DIG hints.
+    # dedup_key stays computed from the ORIGINAL `text` so the seen/mark set is byte-unchanged.
+    note = item.get("note_tweet")
+    full_text = (note.get("text") if isinstance(note, dict) else None) or text
+    full_text = str(full_text).strip()
+    media_by_key = media_by_key or {}
+    media = []
+    for k in ((item.get("attachments") or {}).get("media_keys") or []):
+        m = media_by_key.get(k) or {}
+        media.append({"type": m.get("type"), "url": m.get("url") or m.get("preview_image_url")})
+    links = []
+    for u in ((item.get("entities") or {}).get("urls") or []):
+        exp = u.get("expanded_url") or u.get("url")
+        if exp and "twitter.com" not in exp and "x.com" not in exp and exp not in links:
+            links.append(exp)
+    body_wo_links = re.sub(r"https?://\S+", "", full_text).strip()
+    dig = []
+    if media:
+        dig.append("media")
+    if links:
+        dig.append("link")
+    if links and len(body_wo_links) < 120:
+        dig.append("pointer")   # headline+link: the signal lives behind the link, not the text
     return {"id": pid, "dedup_key": _dedup_key(raw_id, author_id, created_at, text.strip()),
             "author_id": author_id, "username": username, "created_at": created_at,
-            "text": text.strip(), "warn": warn}
+            "text": text.strip(), "full_text": full_text, "media": media, "links": links,
+            "dig": dig, "warn": warn}
 
 
 def select_new(bookmarks, seen_ids, _unused=None):
@@ -299,16 +324,21 @@ def _require_requests():
 
 def api_get_bookmarks(user_id, token, pagination_token=None):
     requests = _require_requests()
-    params = {"max_results": PAGE_SIZE, "tweet.fields": "created_at,author_id",
-              "expansions": "author_id", "user.fields": "username"}
+    params = {"max_results": PAGE_SIZE,
+              "tweet.fields": "created_at,author_id,note_tweet,entities",
+              "expansions": "author_id,attachments.media_keys",
+              "media.fields": "url,preview_image_url,type",
+              "user.fields": "username"}
     if pagination_token:
         params["pagination_token"] = pagination_token
     r = requests.get(f"{API_BASE}/users/{user_id}/bookmarks",
                      headers={"Authorization": f"Bearer {token}"}, params=params, timeout=30)
     r.raise_for_status()
     j = r.json()
-    users = {u["id"]: u["username"] for u in j.get("includes", {}).get("users", [])}
-    return j.get("data", []), users, j.get("meta", {})
+    inc = j.get("includes", {})
+    users = {u["id"]: u["username"] for u in inc.get("users", [])}
+    media = {m["media_key"]: m for m in inc.get("media", []) if m.get("media_key")}
+    return j.get("data", []), users, media, j.get("meta", {})
 
 
 def refresh_access_token(client_id, refresh_token, client_secret=None):
@@ -331,7 +361,7 @@ def fetch_new_bookmarks(env, seen):
     collected, refreshed, page_token, capped = [], False, None, True
     for _ in range(MAX_PAGES):
         try:
-            data, users, meta = api_get_bookmarks(user_id, token, page_token)
+            data, users, media, meta = api_get_bookmarks(user_id, token, page_token)
         except requests.HTTPError as e:
             code = e.response.status_code if e.response is not None else None
             if code == 401 and not refreshed:
@@ -353,7 +383,7 @@ def fetch_new_bookmarks(env, seen):
         except Exception as e:  # noqa
             sys.exit(f"Bookmark fetch failed ({e}). Nothing marked consumed.")
 
-        parsed = [parse_bookmark(it, users) for it in data]
+        parsed = [parse_bookmark(it, users, media) for it in data]
         collected.extend(parsed)
         page_keys = {p["dedup_key"] for p in parsed}
         if not page_keys or page_keys <= seen_ids:
@@ -375,7 +405,7 @@ def _all_existing_bookmark_ids(user_id, token):
     account has more bookmarks than MAX_PAGES*PAGE_SIZE could read (read-2 X9)."""
     ids, page_token, capped = [], None, True
     for _ in range(MAX_PAGES):
-        data, _u, meta = api_get_bookmarks(user_id, token, page_token)
+        data, _u, _m, meta = api_get_bookmarks(user_id, token, page_token)
         ids.extend(str(b["id"]) for b in data if b.get("id"))
         page_token = meta.get("next_token")
         if not page_token:
@@ -557,11 +587,17 @@ def main(argv=None):
           "do not kill on Novelty without reading the body)\n")
     for i, b in enumerate(new, 1):
         who = f"@{b['username']}" if b["username"] else f"author_id:{b['author_id']}"
-        print(f"  {i}. {b['id'] or b['dedup_key']}  {who}  {b['created_at'] or '—'}")
+        digtag = f"  [DIG: {', '.join(b['dig'])}]" if b.get("dig") else ""
+        print(f"  {i}. {b['id'] or b['dedup_key']}  {who}  {b['created_at'] or '—'}{digtag}")
         for w in b["warn"]:
             print(f"     ⚠️  {w}")
-        preview = b["text"].replace("\n", " ")
-        print(f"     │ {preview[:300]}{'…' if len(preview) > 300 else ''}\n")
+        body = (b.get("full_text") or b["text"]).replace("\n", " ")
+        print(f"     │ {body[:1500]}{'…' if len(body) > 1500 else ''}")
+        for m in b.get("media", []):
+            print(f"     🖼  {m.get('type') or 'media'}: {m.get('url') or '(no url — expand media.fields)'}")
+        for ln in b.get("links", []):
+            print(f"     🔗 {ln}")
+        print()
 
     save_pending([b["dedup_key"] for b in new])
     print("After routing, run:  python3 AGENTS/WALTER/tools/x_bookmarks_scan.py --mark")

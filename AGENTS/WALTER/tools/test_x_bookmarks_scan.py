@@ -166,6 +166,28 @@ class PureLogic(unittest.TestCase):
         self.assertTrue(a["dedup_key"].startswith("noid:"))
         self.assertEqual(xbm.select_new([a], seen_ids=[a["dedup_key"]]), [])
 
+    # 2026-10-04 dig-by-default enrichment (§9a) ----------------------------
+    def test_enrichment_populates_and_dedup_key_unchanged(self):
+        item = {"id": "900", "author_id": "a1", "created_at": "2026-10-04T00:00:00Z",
+                "text": "headline https://t.co/x",
+                "note_tweet": {"text": "the full long body the 280-char text truncates"},
+                "attachments": {"media_keys": ["m1"]},
+                "entities": {"urls": [{"expanded_url": "https://www.bloomberg.com/news/x"},
+                                      {"expanded_url": "https://x.com/self/status/900"}]}}
+        media = {"m1": {"media_key": "m1", "type": "photo", "url": "https://pbs.twimg.com/media/z.jpg"}}
+        p = xbm.parse_bookmark(item, {"a1": "u"}, media)
+        self.assertEqual(p["full_text"], "the full long body the 280-char text truncates")
+        self.assertEqual(p["media"], [{"type": "photo", "url": "https://pbs.twimg.com/media/z.jpg"}])
+        self.assertEqual(p["links"], ["https://www.bloomberg.com/news/x"])   # x.com self-link excluded
+        self.assertIn("media", p["dig"])
+        self.assertIn("link", p["dig"])
+        self.assertIn("pointer", p["dig"])                                   # short body + link
+        # CRITICAL INVARIANT: enrichment must NOT shift the dedup_key (seen/mark set stability)
+        plain = xbm.parse_bookmark({"id": "900", "author_id": "a1",
+                                    "created_at": "2026-10-04T00:00:00Z",
+                                    "text": "headline https://t.co/x"}, {"a1": "u"})
+        self.assertEqual(p["dedup_key"], plain["dedup_key"])
+
     # A9 --------------------------------------------------------------------
     def test_boot_line_shape(self):
         self.assertEqual(xbm.format_boot_line(3, 2), "3 new bookmarks since last launch, 2 dispatched")
