@@ -31,6 +31,8 @@ Session: **2026-10-04, walter-f0 continuation (Claude Opus 4.8, terminal), "Hi W
 - **Optional:** auto-download tweet images in the scan (one step closer to automatic reading) — offered, not built, Will's call.
 - **Push:** this session's WALTER commits are on origin per last refs; 2 local-pending commits are PROME's. No WALTER push owed; verify on next clean fetch.
 
+- **MEMORY.md ROTATION DUE NEXT SESSION** — 24,403 B, only 9 B under the 24,412 trigger (the Bright Data pointer tipped it to the edge). Any further MEMORY addition goes over; rotate settled findings → `MEMORY_PROMOTED.md` (split_verify conservation) at the next Tier-2 before adding more.
+
 ## WILL_NEEDS
 1. **WQ-380** (.env read-fence) — your call, due 10/9 (PROME-driven; 2.1.289 symlink leg in the canary scope).
 2. **WQ-377(a)** boot-wiring the bookmark lane · **WQ-377(b)** resume the 151–299 financial backlog — your greenlights.
@@ -105,7 +107,7 @@ Session: **2026-10-04, walter-f0 continuation (Claude Opus 4.8, terminal), "Hi W
       },
       {
         "path": "AGENTS/WALTER/design/X_BOOKMARKS_ACCEPTANCE.md",
-        "sha256": "698910a4ae892ffc9419be9b0ad32ab03c25a4028aa4a1bb0b860573583a1aac",
+        "sha256": "ea5c6d0e47b72f099d6aec3fe1682a0ad8188929fb8eb54d4396ccd38bca78b3",
         "note": "\u00a79a dig-deeper rule + SHIPPED + CATO corrections"
       },
       {

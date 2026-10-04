@@ -1,0 +1,2 @@
+date	url	zone	requests	result	signal	notes
+2026-10-04	https://www.cnbc.com/2026/10/04/the-consumer-isnt-cracking-yet-but-the-math-is-getting-worse.html	cli_unlocker	1	RESCUED	SIG-W-20261004-007	smoke test (WQ-383); 14.7KB body rescued, additive for CARL; WebFetch had 403d

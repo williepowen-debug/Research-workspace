@@ -89,6 +89,7 @@
 - **`AGENTS/WALTER/design/`** — all specs. FORMAT_SPEC (schema), ROUTING_TABLE (routing), FILTER_SPEC (filter), CHECKLIST (process). STATE.md = design+infra completeness directory (on-demand). CROSS_REFS/{AGENT}.md = identifier cache (dispatch-time).
 - **LIAISON path convention:** `AGENTS/{TARGET}/handoff_WALTER/LIAISON.md`; manifest in STATUS.md "Active LIAISON channels"; playbook `design/LIAISON_PLAYBOOK.md`. Outbox at `AGENTS/WALTER/outbox/REQ-{TARGET}-{YYYYMMDD}-{slug}.md`.
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
+- **Bright Data Web Unlocker (WQ-383 pilot, LIVE 2026-10-04):** `bdata scrape <url>` for a 403'd no-screenshot bookmark link; free tier 5k/mo HARD STOP, Web-Unlocker-only, key in gitignored `.env` (per-machine). Full method+limits+ledger: `design/X_BOOKMARKS_ACCEPTANCE.md` §9a.
 ## Session Notes
 
 ### CHANGES SINCE LAST SESSION — 2026-10-04, `walter-f0` continuation (Opus 4.8, terminal): boot → bookmark-process working block → Tier-2
