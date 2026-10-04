@@ -1,0 +1,60 @@
+{
+  "source_commit": "6882d10b07f69d31da357abd25f4adc6c4965576",
+  "read_head": "511a060b9bc5ad5b2cce48abe778868f2a915c6a",
+  "scanner_sha256": "d29cbcf8b96b3bb6fde7f1cf47422f4d78f928e8e730b815cef08971577edab3",
+  "unit_suite": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python3 -B AGENTS/WALTER/tools/test_x_bookmarks_scan.py",
+    "ran": 29,
+    "failures": 0
+  },
+  "isolation": "Both WALTER_X_ENV and WALTER_X_SEEN pointed to /tmp/cato-xbm-review-khmy596b; fake credentials and fetch stub; no live API, secret, seen/pending mutation",
+  "url_filter": {
+    "https://www.fox.com/story": [],
+    "https://www.vox.com/story": [],
+    "https://example.org/story?source=x.com": [],
+    "https://x.com/user/status/1": [],
+    "https://www.reuters.com/story": [
+      "https://www.reuters.com/story"
+    ]
+  },
+  "nested_note_entities": {
+    "input": "note_tweet.text contains t.co URL; expanded_url only in note_tweet.entities.urls; no top-level entities",
+    "links": [],
+    "dig": []
+  },
+  "malformed": [
+    {
+      "attachments": [
+        "bad"
+      ],
+      "result": "AttributeError"
+    },
+    {
+      "entities": {
+        "urls": [
+          null
+        ]
+      },
+      "result": "AttributeError"
+    }
+  ],
+  "output_probe": {
+    "input": "full_text = 1600 As + END_CONTENT_SENTINEL; one media URL",
+    "end_visible": false,
+    "dig": [
+      "media"
+    ],
+    "image_url_printed": true,
+    "seen_unchanged_after_scan": true,
+    "pending": [
+      "4"
+    ]
+  },
+  "mark_without_content_retrieval": {
+    "consumed": [
+      "4"
+    ],
+    "resurfaced": 0
+  },
+  "limit": "Synthetic counterexamples establish code behavior, not observed live omissions or independent authentication of the UKMTO screenshot."
+}
