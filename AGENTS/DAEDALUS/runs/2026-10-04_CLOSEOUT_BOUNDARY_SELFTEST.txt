@@ -1,0 +1,98 @@
+GATE selftest — DAEDALUS · 20261004T222152Z · HEAD a3f3cd57f
+  ✅ T0  CLEAN           clean child
+      ↳ child rc 0
+  ⏰ T1  DUE             DUE child (sweeps_due-shaped rc 1)
+      ↳ child rc 1 = owed work per its contract
+        · DUE: x
+  ❓ T2  UNKNOWN         cannot-certify child
+      ↳ child rc 2 = cannot-certify / outside its contract
+        · CANNOT-CERTIFY
+  ❌ T3  BLOCKING        A5 pipe-proof: prints clean, exits 1
+      ↳ child rc 1 = defect per its contract
+  ❓ T4  UNKNOWN         A1 missing child
+      ↳ child not runnable: [Errno 2] No such file or directory: '/nonexistent/check.py'
+
+GATE selftest rc=2 · checked: 5 steps ['T0', 'T1', 'T2', 'T3', 'T4'] · NOT checked (declared/enumerated only): [] · proves nothing about: completion of work beyond complete_check's legs, owner consumption of packets, the truth of any DECLARED value, or anything a child's own PASS line disclaims.
+  counts: BLOCKING 1 · CLEAN 1 · DUE 1 · UNKNOWN 2
+  receipt: /tmp/tmpcamio8st/rcpt/20261004T222152Z_selftest.json (sha 3a239af0) — fingerprint bfa6e87e6caa
+GATE selftest-due — DAEDALUS · 20261004T222153Z · HEAD a3f3cd57f
+  ✅ T0  CLEAN           clean child
+      ↳ child rc 0
+  ⏰ T1  DUE             DUE child (sweeps_due-shaped rc 1)
+      ↳ child rc 1 = owed work per its contract
+        · DUE: x
+
+GATE selftest-due rc=0 · checked: 2 steps ['T0', 'T1'] · NOT checked (declared/enumerated only): [] · proves nothing about: completion of work beyond complete_check's legs, owner consumption of packets, the truth of any DECLARED value, or anything a child's own PASS line disclaims.
+  counts: CLEAN 1 · DUE 1
+  receipt: /tmp/tmpcamio8st/rcpt/20261004T222153Z_selftest-due.json (sha bb28fd1c) — fingerprint bfa6e87e6caa
+✅ VALID — receipt 20261004T222152Z selftest still matches this fingerprint (HEAD a3f3cd57f); IDENTITY ONLY, checks/review may have failed
+❌ INVALIDATED — tree changed (own dir / scripts diff or untracked set). Re-run the gate; do not cite this receipt.
+
+SELFTEST PASS — A1 A3 A4 A5 A8 A12 + class map exercised (fixtures; §3e real cases are in the build record)
+  PASS candidate: stable boundary and bookkeeping write
+  PASS candidate: authored external packet changed after checks
+  PASS candidate: substantive own output changed after checks
+  PASS candidate: required dependency changed after checks
+  PASS candidate: during-check external edit persists as invalid after restoration
+  PASS candidate: endpoint-only transient revert limitation disclosed
+  PASS candidate: matching bytes with BLOCKING is not acceptance
+  PASS candidate: mixed required UNKNOWN preserves BLOCKING details
+  PASS candidate: maintenance UNKNOWN plus BLOCKING remains blocked
+  PASS candidate: DUE and maintenance UNKNOWN stay explicit debt
+  PASS candidate: required UNKNOWN withholds eligibility
+  PASS candidate: review missing remains unknown
+  PASS candidate: review changed-report remains unknown
+  PASS candidate: review stale remains unknown
+  PASS candidate: review qualified remains unknown
+  PASS candidate: review exemption follows explicit scope policy
+  PASS candidate: malformed receipt legacy
+  PASS candidate: malformed receipt missing-row
+  PASS candidate: malformed receipt duplicate-row
+  PASS candidate: malformed receipt bad-class
+  PASS candidate: malformed receipt missing-reason
+  PASS candidate: malformed receipt digest
+  PASS candidate: malformed receipt scope
+  PASS candidate: reject scope unclassified
+  PASS candidate: reject scope excluded-substantive
+  PASS candidate: reject scope missing-input
+  PASS candidate: reject scope missing-step
+  PASS candidate: reject scope context-limit
+  PASS candidate: reject scope missing-new-candidate
+  PASS candidate: reject scope unsafe-path
+  PASS candidate: reject scope inside-receipts
+  PASS candidate: optional absence becoming present invalidates
+  PASS candidate: dependency glob membership addition invalidates
+  PASS candidate: executable mode drift invalidates
+  PASS candidate: tracked candidate deletion matches actual commit
+  PASS candidate: rename binds old deletion and new bytes
+  PASS candidate: symlink target bytes are bound
+  PASS candidate: directory symlink traversal rejected
+  PASS candidate: current day rollover invalidates
+  PASS candidate: historical day retained and explicitly disclosed
+  PASS candidate: relevant history drift despite identical current bytes
+  PASS candidate: unrelated HEAD before and after exact candidate commit
+  PASS candidate: actual commit mismatch extra
+  PASS candidate: actual commit mismatch missing
+  PASS candidate: actual commit mismatch staged-bytes
+  PASS candidate: actual commit mismatch staged-mode
+  PASS candidate: actual commit mismatch parent-mode
+  PASS candidate: actual commit mismatch missing-review
+  PASS candidate: fresh origin advanced
+  PASS candidate: fresh origin absent
+  PASS candidate: fresh origin fetch-failed
+  PASS candidate: real runner own log does not invalidate immediate verification
+  PASS candidate: real runner captures mutation during checks permanently
+  PASS candidate: real runner binds OLD NEW and memory slug declarations
+  PASS candidate: malformed historical context array returns UNKNOWN
+  PASS candidate: review report symlink cannot attest unchecked target bytes
+  PASS candidate: substantive runs report is not a directory-wide exclusion
+  PASS candidate: running checker source mutation invalidates boundary
+  PASS candidate: new untracked external candidate change invalidates
+  PASS candidate: required dependency disappears and remains UNKNOWN
+  PASS candidate: checker printing CLEAN while mutating dependency is rejected
+  PASS candidate: declared timezone context changes invalidate current reuse
+  PASS candidate: Git raw blob conversion rejected against checked bytes
+  PASS candidate: staged revert rejected despite matching working bytes
+  PASS candidate: unchanged included artifact binds commit tree
+  PASS candidate: DUE only remains owed with permitted delivery
+CANDIDATE SELFTEST: 66 passed, 0 failed

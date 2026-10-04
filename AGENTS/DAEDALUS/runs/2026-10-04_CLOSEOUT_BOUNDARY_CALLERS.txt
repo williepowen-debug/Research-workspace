@@ -1,0 +1,13 @@
+AGENTS/DAEDALUS/scripts/daedalus_gate.py:2:"""daedalus_gate.py — thin runner over DAEDALUS's EXISTING boot / closeout / post-push checks.
+AGENTS/DAEDALUS/scripts/daedalus_gate.py:18:  python3 AGENTS/DAEDALUS/scripts/daedalus_gate.py boot
+AGENTS/DAEDALUS/scripts/daedalus_gate.py:19:  python3 AGENTS/DAEDALUS/scripts/daedalus_gate.py closeout \
+AGENTS/DAEDALUS/scripts/daedalus_gate.py:22:  python3 AGENTS/DAEDALUS/scripts/daedalus_gate.py verify --subject "<commit subject>"
+AGENTS/DAEDALUS/scripts/daedalus_gate.py:23:  python3 AGENTS/DAEDALUS/scripts/daedalus_gate.py verify-receipt <receipt.json>
+AGENTS/DAEDALUS/scripts/daedalus_gate.py:24:  python3 AGENTS/DAEDALUS/scripts/daedalus_gate.py candidate-verify <v2-receipt> --review <review.json> [--commit <full-id> [--delivery]]
+AGENTS/DAEDALUS/scripts/daedalus_gate.py:26:  python3 AGENTS/DAEDALUS/scripts/daedalus_gate.py --selftest
+AGENTS/DAEDALUS/scripts/daedalus_gate.py:827:    ap.add_argument("mode", nargs="?", choices=["boot", "closeout", "verify", "verify-receipt", "candidate-verify"])
+AGENTS/DAEDALUS/scripts/daedalus_gate.py:828:    ap.add_argument("receipt", nargs="?", help="verify-receipt: path to a receipt JSON")
+AGENTS/DAEDALUS/scripts/daedalus_gate.py:845:    if a.mode == "verify-receipt":
+AGENTS/DAEDALUS/scripts/daedalus_gate.py:847:            print("❓ CANNOT-CERTIFY: verify-receipt needs a receipt path"); return 2
+
+Search scope: repository-root scripts/, PROME/tools/, AGENTS/DAEDALUS/scripts/, Python and shell. No external programmatic runner caller found in this declared perimeter. Direct callers: main CLI, selftest, DAEDALUS CLAUDE SPAWN5/9 + Git, spec. Historical build records and PROME READS BASIS attestations retain legacy meaning; no owner-source edit. This is not a whole-repository caller proof.

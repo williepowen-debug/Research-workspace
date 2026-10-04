@@ -1,0 +1,372 @@
+{
+  "schema": 1,
+  "candidates": [
+    {
+      "path": "AGENTS/DAEDALUS/scripts/daedalus_gate.py",
+      "reason": "Authorized bounded candidate-receipt implementation and its completion/acceptance evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/design/2026-09-17_DAEDALUS_GATE_SPEC.md",
+      "reason": "Authorized bounded candidate-receipt implementation and its completion/acceptance evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/CLAUDE.md",
+      "reason": "Authorized bounded candidate-receipt implementation and its completion/acceptance evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/STATUS.md",
+      "reason": "Authorized bounded candidate-receipt implementation and its completion/acceptance evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/HANDOFF.md",
+      "reason": "Authorized bounded candidate-receipt implementation and its completion/acceptance evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD.md",
+      "reason": "Authorized bounded candidate-receipt implementation and its completion/acceptance evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_SELFTEST.txt",
+      "reason": "Authorized bounded candidate-receipt implementation and its completion/acceptance evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_SCOPE.json",
+      "reason": "Authorized bounded candidate-receipt implementation and its completion/acceptance evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_CALLERS.txt",
+      "reason": "Authorized bounded candidate-receipt implementation and its completion/acceptance evidence."
+    }
+  ],
+  "dependencies": {
+    "C0": {
+      "paths": [
+        "AGENTS/DAEDALUS/scripts/sweeps_due.py",
+        "AGENTS/DAEDALUS/scripts/profile_clock_check.py",
+        "AGENTS/DAEDALUS/sweeps/REGISTRY.tsv",
+        "AGENTS/DAEDALUS/FLEET_MAP.tsv",
+        "AGENTS/DAEDALUS/FLEET_DIRECTORY.md",
+        "PROME/ROSTER.md"
+      ],
+      "optional_paths": [],
+      "globs": [
+        "AGENTS/DAEDALUS/profiles/*.md",
+        "AGENTS/DAEDALUS/sweeps/*.md"
+      ],
+      "context": [
+        {
+          "kind": "runtime",
+          "basis": "current",
+          "reason": "Effective input to the named existing closeout step; historical queries describe the check at capture, not later state."
+        },
+        {
+          "kind": "day",
+          "basis": "current",
+          "reason": "Effective input to the named existing closeout step; historical queries describe the check at capture, not later state."
+        },
+        {
+          "kind": "history",
+          "basis": "current",
+          "reason": "Effective input to the named existing closeout step; historical queries describe the check at capture, not later state.",
+          "paths": [
+            "AGENTS/DAEDALUS/FLEET_MAP.tsv",
+            "PROME/ROSTER.md"
+          ]
+        },
+        {
+          "kind": "status",
+          "basis": "current",
+          "reason": "Effective input to the named existing closeout step; historical queries describe the check at capture, not later state.",
+          "paths": [
+            "AGENTS/DAEDALUS/FLEET_MAP.tsv",
+            "PROME/ROSTER.md"
+          ]
+        }
+      ],
+      "completeness": "Listed existing step inputs and local code; standard-library/runtime context is explicit."
+    },
+    "C1": {
+      "paths": [
+        "scripts/orphan_check.sh"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [
+        {
+          "kind": "runtime",
+          "basis": "current",
+          "reason": "Effective input to the named existing closeout step; historical queries describe the check at capture, not later state."
+        },
+        {
+          "kind": "status",
+          "basis": "historical",
+          "reason": "Effective input to the named existing closeout step; historical queries describe the check at capture, not later state.",
+          "paths": [
+            ".agents",
+            ".aws",
+            ".claude",
+            ".codex",
+            ".gitignore",
+            ".venv",
+            "AGENTS",
+            "AGENTS.md",
+            "AUDITS",
+            "BOARD",
+            "CLAUDE.md",
+            "FORGE",
+            "FORUM",
+            "HEARTBEAT.md",
+            "KERNEL",
+            "KERNELS.md",
+            "MESSAGING",
+            "PROME",
+            "README.md",
+            "SIGNALS",
+            "USER.md",
+            "archive",
+            "docs",
+            "exports",
+            "memory",
+            "reviews",
+            "scripts"
+          ]
+        }
+      ],
+      "completeness": "orphan_check reads Git status paths, not contents. Historical precommit status enumerates current top-level namespaces; newly created top-level namespaces after capture are outside the declared query (not a present-state orphan claim)."
+    },
+    "C2": {
+      "paths": [],
+      "optional_paths": [],
+      "globs": [],
+      "context": [
+        {
+          "kind": "runtime",
+          "basis": "current",
+          "reason": "Effective input to the named existing closeout step; historical queries describe the check at capture, not later state."
+        }
+      ],
+      "completeness": "--no-superseded: explicit NOT-APPLICABLE; no consumer subprocess invoked. Actual declaration is automatically bound in invocation."
+    },
+    "C3": {
+      "paths": [
+        "scripts/ledger_staleness.py",
+        "AGENTS/DAEDALUS/workbook/LEDGER_GLOB",
+        "AGENTS/DAEDALUS/STATUS.md"
+      ],
+      "optional_paths": [],
+      "globs": [
+        "AGENTS/DAEDALUS/*.tsv",
+        "AGENTS/*/outbox/kernel/submissions/*.json",
+        "KERNEL/shadow/events/*/*/*.json"
+      ],
+      "context": [
+        {
+          "kind": "runtime",
+          "basis": "current",
+          "reason": "Effective input to the named existing closeout step; historical queries describe the check at capture, not later state."
+        },
+        {
+          "kind": "day",
+          "basis": "current",
+          "reason": "Effective input to the named existing closeout step; historical queries describe the check at capture, not later state."
+        },
+        {
+          "kind": "history",
+          "basis": "historical",
+          "reason": "Effective input to the named existing closeout step; historical queries describe the check at capture, not later state.",
+          "paths": [
+            "AGENTS/DAEDALUS"
+          ]
+        },
+        {
+          "kind": "status",
+          "basis": "historical",
+          "reason": "Effective input to the named existing closeout step; historical queries describe the check at capture, not later state.",
+          "paths": [
+            "AGENTS/DAEDALUS/STATUS.md"
+          ]
+        }
+      ],
+      "completeness": "Listed existing step inputs and local code; standard-library/runtime context is explicit."
+    },
+    "C4": {
+      "paths": [
+        "scripts/check_memory_length.sh",
+        "scripts/harness_caps.env"
+      ],
+      "optional_paths": [
+        "memory/auto/MEMORY.md"
+      ],
+      "globs": [],
+      "context": [
+        {
+          "kind": "runtime",
+          "basis": "current",
+          "reason": "Effective input to the named existing closeout step; historical queries describe the check at capture, not later state."
+        }
+      ],
+      "completeness": "--no-memory: no slug/index subprocess; memory length script reads optional MEMORY and canonical caps. Actual declaration automatically bound."
+    },
+    "C5": {
+      "paths": [
+        "scripts/claim_check.py"
+      ],
+      "optional_paths": [
+        "PROME/DOCKET.tsv",
+        "PROME/GATES.tsv",
+        "PROME/WILL_QUEUE.md",
+        "AGENTS/DAEDALUS/STATUS.md",
+        "AGENTS/DAEDALUS/workbook/CATALYSTS.tsv",
+        "AGENTS/DAEDALUS/CALENDAR.md"
+      ],
+      "globs": [],
+      "context": [
+        {
+          "kind": "runtime",
+          "basis": "current",
+          "reason": "Effective input to the named existing closeout step; historical queries describe the check at capture, not later state."
+        }
+      ],
+      "completeness": "Listed existing step inputs and local code; standard-library/runtime context is explicit."
+    },
+    "C6": {
+      "paths": [
+        "AGENTS/DAEDALUS/PATTERNS_HOT.md",
+        "AGENTS/DAEDALUS/PATTERNS.tsv"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [
+        {
+          "kind": "runtime",
+          "basis": "current",
+          "reason": "Effective input to the named existing closeout step; historical queries describe the check at capture, not later state."
+        }
+      ],
+      "completeness": "Listed existing step inputs and local code; standard-library/runtime context is explicit."
+    },
+    "C7": {
+      "paths": [
+        "scripts/read_cap_check.py",
+        "PROME/registry/READS.tsv",
+        "AGENTS/DAEDALUS/CLAUDE.md",
+        "AGENTS/DAEDALUS/FLEET_DIRECTORY.md"
+      ],
+      "optional_paths": [
+        "AGENTS/DAEDALUS/STATUS.md",
+        "AGENTS/DAEDALUS/FLEET_DIRECTORY.md",
+        "AGENTS/DAEDALUS/FLEET_MAP.tsv",
+        "AGENTS/DAEDALUS/PATTERNS_HOT.md",
+        "AGENTS/DAEDALUS/PATTERNS_COLD_INDEX.md",
+        "AGENTS/DAEDALUS/PATTERNS.tsv",
+        "AGENTS/DAEDALUS/EVOLUTION.md",
+        "AGENTS/DAEDALUS/sweeps/REGISTRY.tsv",
+        "AGENTS/WALTER/registry/CORRECTIONS.tsv",
+        "AGENTS/DAEDALUS/SPEC.md"
+      ],
+      "globs": [
+        "AGENTS/DAEDALUS/inbox/*.md"
+      ],
+      "context": [
+        {
+          "kind": "runtime",
+          "basis": "current",
+          "reason": "Effective input to the named existing closeout step; historical queries describe the check at capture, not later state."
+        },
+        {
+          "kind": "history",
+          "basis": "historical",
+          "reason": "Effective input to the named existing closeout step; historical queries describe the check at capture, not later state.",
+          "paths": [
+            "AGENTS/DAEDALUS/inbox"
+          ]
+        }
+      ],
+      "completeness": "Listed existing step inputs and local code; standard-library/runtime context is explicit."
+    },
+    "C8": {
+      "paths": [
+        "AGENTS/DAEDALUS/scripts/complete_check.py",
+        "AGENTS/DAEDALUS/EVOLUTION.md"
+      ],
+      "optional_paths": [],
+      "globs": [
+        "AGENTS/DAEDALUS/upgrades/*.md",
+        "AGENTS/DAEDALUS/archive/*_ARCHIVE_*.md"
+      ],
+      "context": [
+        {
+          "kind": "runtime",
+          "basis": "current",
+          "reason": "Effective input to the named existing closeout step; historical queries describe the check at capture, not later state."
+        },
+        {
+          "kind": "day",
+          "basis": "current",
+          "reason": "Effective input to the named existing closeout step; historical queries describe the check at capture, not later state."
+        },
+        {
+          "kind": "history",
+          "basis": "historical",
+          "reason": "Effective input to the named existing closeout step; historical queries describe the check at capture, not later state.",
+          "paths": [
+            "AGENTS",
+            "PROME",
+            "scripts",
+            "memory",
+            "CLAUDE.md",
+            "AGENTS.md"
+          ]
+        }
+      ],
+      "completeness": "Existing complete_check examines DAEDALUS-subject history, upgrades names/companion headers, EVOLUTION and archive labels. History namespace set covers DAEDALUS authored lanes; historical check does not inspect future commit pairing. Current final commit receives the separate v2 changed-path/blob comparison."
+    },
+    "C9": {
+      "paths": [
+        "AGENTS/DAEDALUS/STATUS.md"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [
+        {
+          "kind": "runtime",
+          "basis": "current",
+          "reason": "Effective input to the named existing closeout step; historical queries describe the check at capture, not later state."
+        },
+        {
+          "kind": "day",
+          "basis": "current",
+          "reason": "Effective input to the named existing closeout step; historical queries describe the check at capture, not later state."
+        }
+      ],
+      "completeness": "Listed existing step inputs and local code; standard-library/runtime context is explicit."
+    },
+    "C10": {
+      "paths": [
+        "AGENTS/DAEDALUS/CLAUDE.md",
+        "AGENTS/DAEDALUS/design/2026-09-17_DAEDALUS_GATE_SPEC.md",
+        "CLAUDE.md",
+        "AGENTS/DAEDALUS/UPGRADE_PROTOCOL.md"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [
+        {
+          "kind": "runtime",
+          "basis": "current",
+          "reason": "Effective input to the named existing closeout step; historical queries describe the check at capture, not later state."
+        }
+      ],
+      "completeness": "Declared rule artifact plus governing review/authority canon; human re-read remains a declaration, not a machine pass."
+    }
+  },
+  "bookkeeping": [
+    {
+      "path": "AGENTS/DAEDALUS/runs/GATE_LOG.tsv",
+      "reason": "Only runner-generated append; independent semantic inspection still required."
+    }
+  ],
+  "separate": [],
+  "review_required": true,
+  "review_policy": "UPGRADE_PROTOCOL4/4a/4b: implemented guard boundary and affected callers; independent accepted patch/candidate review required."
+}
