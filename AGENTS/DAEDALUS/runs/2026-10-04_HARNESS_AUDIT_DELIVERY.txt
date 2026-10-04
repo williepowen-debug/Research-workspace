@@ -15,3 +15,5 @@ No owner-source mutation or unchanged Helm rerun. Whole harness audit PARTIAL; f
   "consumption": "UNCONFIRMED",
   "socket_response_bytes": 0
 }
+
+Owner receipt observed after delivery: PROME commit351a9c21a adds a SCRATCH carry BEFORE THE MONDAY TERRY WAKE. It explicitly labels this packet UNCONSUMED, requires the blind-counterpart read first, and carries the C1/C2 safety instruction plus the October5 capacity answer. This is acknowledgment/queued consumption, not completed blind review, repair or accepted capacity. No duplicate packet or further doorbell sent.
