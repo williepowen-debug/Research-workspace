@@ -1,0 +1,79 @@
+{
+  "source_pin": "8b151f9c033dac81f4760b6d29c57adb859df5e3",
+  "checked_utc": "2026-10-04T21:47:48.669712+00:00",
+  "entries": [
+    {
+      "path": "AGENTS/CATO/runs/2026-10-03_1713_daedalus-catchup-review.md",
+      "bytes": 68696,
+      "sha256": "37e719076885f9fc7da337af70a851a766d77d679626151e3593279c77496b64",
+      "read_scope": "FULL section270\u2013309 only; earlier sections reused as historical context",
+      "current_working_bytes_identical": true
+    },
+    {
+      "path": "AGENTS/CATO/runs/2026-10-04_daedalus-closeout-receipt-probes.json",
+      "bytes": 2738,
+      "sha256": "a78692add0b28d81d889fe072ba218b79e99730e6fb24faafb5a4a87b4086d49",
+      "read_scope": "FULL JSON; experiments reused, not rerun",
+      "current_working_bytes_identical": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/scripts/daedalus_gate.py",
+      "bytes": 30735,
+      "sha256": "654e0b694faebcfd8d9602ea97c37dd4e2051a8b3724b2fefd073c38b0cfaab7",
+      "read_scope": "PARTIAL fingerprint60\u2013101; closeout175\u2013300 and verify302\u2013334 reused prior turn; run335\u2013416 and current interface reference search",
+      "current_working_bytes_identical": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/CLAUDE.md",
+      "bytes": 33509,
+      "sha256": "8c26ecc613126c3fddbae55591e452d11c58cb3095f108da95e2468c7bff9847",
+      "read_scope": "Current SPAWN7/9, authority, Git and D1/D2 clauses; full charter read earlier in session",
+      "current_working_bytes_identical": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/UPGRADE_PROTOCOL.md",
+      "bytes": 15431,
+      "sha256": "d76c41222784f60a28c44c10ae74c376e8c20494730bdf96fb3425a019823596",
+      "read_scope": "Review rules4/4a/4b and existing method; earlier whole text reused",
+      "current_working_bytes_identical": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/design/2026-09-17_DAEDALUS_GATE_SPEC.md",
+      "bytes": 8028,
+      "sha256": "50f95c5b91ff0dc2840c267338f548a45944da312c5f20b8e12dad244acc03b3",
+      "read_scope": "Receipt/class/acceptance definition; full read prior turn reused",
+      "current_working_bytes_identical": true
+    },
+    {
+      "path": "AGENTS/BOND/CLOSEOUT.md",
+      "bytes": 10482,
+      "sha256": "de072cebd2ac112cf80b907831878b03385c39c74410546713c3e5c8dabde952",
+      "read_scope": "C12 and perimeter, full text prior comparison reused",
+      "current_working_bytes_identical": true
+    },
+    {
+      "path": "AGENTS/BOND/monitors/closeout_run.py",
+      "bytes": 26129,
+      "sha256": "9685485273d5cf74d1f22277499aafd4dcadde920e97eb2dc04a23f99723c863",
+      "read_scope": "Prior scoped digest/verify callsites reused, no full tool acceptance",
+      "current_working_bytes_identical": true
+    },
+    {
+      "path": "PROME/CLOSEOUT.md",
+      "bytes": 20001,
+      "sha256": "0206e5684af49370b48e1e2b685790adea117ec0fdbca9b465bfdd1b41045855",
+      "read_scope": "Actual-commit verify/ref/paths and freeze policy, prior read reused",
+      "current_working_bytes_identical": true
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 24199,
+      "sha256": "1b176d7b3c619a78dbabe4128f23451fa32a074554f391804707aec7623a3c73",
+      "read_scope": "Root Git authority/commit/push/concurrency canon, prior read reused",
+      "current_working_bytes_identical": true
+    }
+  ],
+  "new_runtime_experiments": false,
+  "consumer_search_scope": "DAEDALUS scripts,root scripts,PROME/tools py/sh/yml/yaml references; .github absent, not searched; not whole-repository proof",
+  "meaning": "Source hashes establish identity, not additional full reads. CATO controls current failure evidence. This proposal is not a repaired mechanism or activated rule."
+}
