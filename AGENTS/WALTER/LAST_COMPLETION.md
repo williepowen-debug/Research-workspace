@@ -24,7 +24,7 @@ Session: **2026-10-04, walter-f0 continuation (Claude Opus 4.8, terminal), "Hi W
 - A self-shipped change caught by CATO (2 real bugs + 3 overstatements) and corrected — the review funnel working; the lesson lives in §9a and fleet findings, not re-documented here.
 
 ## GAPS / OWED
-- **Independent cold-read of the default-dig change** — WQ-229 bar for "working" is a dedicated cold-read; CATO's review is close but not that. OPEN (Will/PROME: does CATO's pass count, or spawn a coldreader?).
+- **Independent cold-read — CLOSED (WQ-384, Will-ruled 2026-10-04 "CATO review does count").** CATO `e9367f5a8` IS the WQ-229 read of the ORIGINAL default-dig (`6882d10b0`). ⚠️ **The post-review fixes `f2af81d44` (host-filter / never-raise / UKMTO-narrowing) stay UNREVIEWED — disclosed, never "independently verified."**
 - **HANS THRESHOLDS.tsv 33,544 B (103%)** — HANS-owned rotation; flagged this session (`AGENTS/HANS/inbox/WALTER/`), HANS dark.
 - **FALCON must adjudicate `-005`** (Iran-Hormuz 10/04: UKMTO 150-26 screenshot + the unverified "9 vessels in 5 days" OSINT tally) at primary; losses stay 3 pending.
 - **Reading paywalled/bot-walled links with NO screenshot** still needs a bot-bypass tool (Bright Data; no key in env). The image+vision path covers screenshotted sources for free.
@@ -34,8 +34,8 @@ Session: **2026-10-04, walter-f0 continuation (Claude Opus 4.8, terminal), "Hi W
 ## WILL_NEEDS
 1. **WQ-380** (.env read-fence) — your call, due 10/9 (PROME-driven; 2.1.289 symlink leg in the canary scope).
 2. **WQ-377(a)** boot-wiring the bookmark lane · **WQ-377(b)** resume the 151–299 financial backlog — your greenlights.
-3. **Bright Data provisioning** — only needed for pointer-tweets with no screenshot + bot-walled source. Narrow, occasional.
-4. **Cold-read of default-dig** — accept CATO's review, or spawn a dedicated coldreader?
+3. **Bright Data provisioning** — registered **WQ-383** (PROME rec NOT NOW, due at the 10/17 pilot review / L599). Only for pointer-tweets with no screenshot + bot-walled source.
+4. **Cold-read of default-dig — RESOLVED (WQ-384): CATO's review counts.** No coldreader spawn. (`f2af81d44` fixes remain unreviewed — disclosed.)
 5. **YURI routing boundaries** — shipped as WALTER's placement; YURI can refine vs OSPREY/HAWK when it boots.
 
 ## FOLLOW-UP
@@ -47,7 +47,7 @@ Session: **2026-10-04, walter-f0 continuation (Claude Opus 4.8, terminal), "Hi W
 
 ## OPEN DESIGN DECISIONS
 - **X-bookmarks:** dig-by-default SHIPPED (fetch/surface); the READ (image-vision/body-fetch) stays a session step (§9a); auto-download of images is the next bounded step if wanted; Bright Data for no-screenshot bot-walled. Phase 1b lane-schedule collector HELD until the 10/17 review.
-- **Default-dig cold-read** (WQ-229) OPEN.
+- **Default-dig cold-read** — CLOSED (WQ-384: CATO counts); `f2af81d44` fixes unreviewed/disclosed.
 - **Carried process ideas** (unchanged): (k) independent end-of-session review · (t) re-search routed state-dependent stories before a sweep · (u) 9b liveness with in-process spawns · (a) WALTER on every data day · (w) lane-lateness check · (s) lane date ≠ event date · (q) harness preflight · (j) scanner coverage for BRENT boundary rows · (l) board_log source enum · (m) suffix-aware matcher · (n) mechanize dispatch timestamps · (o) intake_scan never surfaces plain NEW · (p) boot BOARD-count doctor check · (r) lane-row grammar · (v) route a figure past its owner for a basis check.
 
 ## CLOSEOUT RECEIPT
@@ -105,7 +105,7 @@ Session: **2026-10-04, walter-f0 continuation (Claude Opus 4.8, terminal), "Hi W
       },
       {
         "path": "AGENTS/WALTER/design/X_BOOKMARKS_ACCEPTANCE.md",
-        "sha256": "f1b3c0d8c9e4f068dc50af13adbd42d92c119193db81700b75cdc2664fd1950a",
+        "sha256": "698910a4ae892ffc9419be9b0ad32ab03c25a4028aa4a1bb0b860573583a1aac",
         "note": "\u00a79a dig-deeper rule + SHIPPED + CATO corrections"
       },
       {
@@ -115,13 +115,7 @@ Session: **2026-10-04, walter-f0 continuation (Claude Opus 4.8, terminal), "Hi W
       }
     ]
   },
-  "owed": [
-    "independent cold-read of default-dig (WQ-229)",
-    "HANS THRESHOLDS 103% owner-rotate (flagged)",
-    "FALCON adjudicate -005",
-    "Bright Data for no-screenshot bot-walled links",
-    "optional: scan auto-download images"
-  ],
+  "owed": ["post-review fixes f2af81d44 UNREVIEWED (WQ-384: CATO read covers original, not the fixes)", "HANS THRESHOLDS 103% owner-rotate (flagged)", "FALCON adjudicate -005", "Bright Data = WQ-383 (NOT NOW, due 10/17)", "optional: scan auto-download images"],
   "next_review": "2026-10-17"
 }
 END_CLOSEOUT_RECEIPT -->
