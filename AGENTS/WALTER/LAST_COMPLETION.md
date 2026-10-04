@@ -2,6 +2,14 @@
 
 Session: **2026-10-04, walter-f0 continuation (Claude Opus 4.8, terminal), "Hi Walter please boot up" → a Will-directed working block on the X-bookmark PROCESS + maintenance.** Full boot 0–9b, two owed re-attestations cleared, two Will-bookmark batches routed, the "dig by default" code change shipped + CATO-reviewed, the UKMTO 150-26 card read via a tweet-image screenshot (attributed, not source-authenticated), and the YURI routing row shipped. **TIER-2 CLOSEOUT.**
 
+## RE-BOOT ADDENDUM — 2026-10-04 ~15:53 ET (walter-f0 continuation, "please boot up")
+- **Clean boot 0–9b** on the same weekend state. Doctor at boot was 1 HIGH (version_drift) / 5 MED; **HIGH FIXED** → STATE.md §1 (ROUTING_TABLE v0.39→v0.40, FORMAT_SPEC v0.23→v0.24) + FORMAT_SPEC header v0.23→v0.24 reconciled to the shipped YURI domain. Commit `10f9375b9`.
+- **6c:** NO fire. HY 324 [FRED 10/01] still 1 of 3 on RED-FT-02/REG-T-03 (9/30 was 312, below band); CCC 1,215, VIX 15.31, WAL 76.38 all banked/inside; Monday 10/02 obs ~10:15 ET decides. HANS 17 rows (open: T-02/05/07/08/10; T-16 Sept flash 2.5% watch-candidate, takes final ~10/17).
+- **`SIG-W-20261004-009` (BOARD 1210→1211):** Micron Q4 FY26 archive record. Intake edgar feed flagged it red→VULCAN on 9/30 but mis-tagged `entity_class: other` → marked-seen with no BOARD dispatch (7e-d.1 class). Opened at SEC primary; VULCAN already had it (S2 graded, KB-186/187/188) ⇒ BOARD-archive gap, not a thesis miss. INFO to VULCAN/HENRY/VIOLET/WATT/RED, ROUTINE. **Lane entity_class mis-tag → flag PROME (owed).** Commit (BOARD+logs+INDEX+handoffs) this segment.
+- **Intake lane:** 8 WATCH_HITs all dedup'd to already-ours (OPEC+ `-002`, Hormuz `-005`, Ukraine refinery `-1003-017`, Nano Banc `-0927-004..6`, Russia diesel `-0921-002`) or below-significance (WGC gold stats post, TTF Barchart price-history page) → no dispatch (filter-health result); `--mark` reconciled.
+- **Push DEFERRED:** 2 new WALTER commits local-only; DAEDALUS tree is being written concurrently (Codex/harness, not a Claude session). Next clean-tree session pushes. Foreign dirty: `AGENTS/DAEDALUS/` (HANDOFF/STATUS/runs/GATE_LOG) — NOT swept.
+- **Still owed (carried):** FALCON adjudicate `-005`; HANS THRESHOLDS 103% (owner-rotate, flagged); Mon HY obs; lane entity_class fix → PROME.
+
 ## STATUS
 1. **Boot COMPLETE** (0–9b). Doctor 4 MED / 0 HIGH. 6c NO fire (weekend-frozen; HY 324 [FRED 10/01] = 1 of 3 on FT-02/REG-T-03). `git pull` blocked by concurrent foreign work (PROME/DAEDALUS) but HEAD current on origin per last refs.
 2. **READS + boot_basis re-attestation — DONE** (were the standing owed carries). boot_basis_check → MATCH (23 paths); PROME transcribed the READS attestation (reads_check no longer returns UNKNOWN; commit `c858c6ba3` carried it).
