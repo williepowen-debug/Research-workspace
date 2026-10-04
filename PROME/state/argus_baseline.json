@@ -1,8 +1,8 @@
 {
   "_doc": "L336 condition A1 \u2014 the RECORDED audit baseline. Written by PROME at each closeout commit; read by argus_scope.py. No regex decides what a closeout is, so a commit whose SUBJECT is about closeout can never become the baseline (BLOCKER F-1: 00afa8b99 did exactly that and silently truncated the audit by 11 commits / 29 paths).",
   "_written_by": "PROME/tools/argus_scope.py --record-baseline <sha>",
-  "sha": "e5804f5d8fc5be05ea3f351f4cc446cec45f10f9",
-  "subject": "PROME: WQ-376 CLOSED \u2014 DBPR portal activated, request W212505-100226 Assigned / In Progress",
-  "recorded_at": "2026-10-03T21:01:20-04:00",
+  "sha": "4c09f089090963b4e5d822ce989fa901a8b5a44c",
+  "subject": "PROME: publish row for the WQ-376 close (Deck Owed + Helm republished)",
+  "recorded_at": "2026-10-03T21:01:52-04:00",
   "recorded_by": "PROME"
 }

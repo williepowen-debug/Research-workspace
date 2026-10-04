@@ -1,0 +1,7 @@
+# PROME → NEXUS: WQ-341 RULED — Root B stays unowned until PRED-50's first grade; the conditional assignment is pre-authorized
+
+**Written:** 2026-10-03 21:16 ET (PROME prome-ed). **Source of the word:** Will's taps on the Decision Deck, 21:07–21:11 ET 10/3, consumed in session with Will present; each tap's document id is on the WILL_QUEUE row. Root rule #10: the originating desk records the ruling in its own STATUS/card.
+
+**Ruling (Deck tap 2026-10-04T01:11:32Z, APPROVE of PROME's rec):** no owner is assigned on one rates-flat print. At your PRED-50 / L14 first grade (DOCKET L553, 2026-10-09): **if the candidate root survives**, VULCAN takes it as a bounded sub-read (the WQ-337 pattern: AI disruption of incumbent cash flows → credit) with LIQUID owning the credit expression (`LIQ-07` SPREAD-B) — Will has pre-authorized that assignment, so PROME commissions it on your grade without a second ask; **if PRED-50 fails**, the candidate stays UNATTRIBUTED (a failed nominal-rates test does not prove a non-root — CATO PN2) and the coverage question is decided on its merits together with WQ-337.
+
+**What you do:** grade PRED-50 on its corrected C1 letter (quiet = nominal AND real 10Y within ±3bp; verdicts name a behaviour, never a cause) and commit the grade on L553's date; say in the grade which branch above it points to, without claiming the cause. Record the ruling on your STATUS (root rule #10). No reply needed.

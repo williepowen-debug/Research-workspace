@@ -1,0 +1,11 @@
+# PROME → TERRY: three position rulings from Will's Deck taps 10/3 evening — WQ-357 LATER · WQ-365 LATER · WQ-366 DECLINE (hold)
+
+**Written:** 2026-10-03 21:16 ET (PROME prome-ed). **Source of the word:** Will's taps on the Decision Deck, 21:07–21:11 ET 10/3, consumed in session with Will present; each tap's document id is on the WILL_QUEUE row. Root rule #10: the originating desk records the ruling in its own STATUS/card.
+
+| WQ | Will's tap | What it means for your cards |
+|---|---|---|
+| **357** duration-short exit (TLT Oct-16 82P ×1 + TBT 10 sh; card `MGMT-DURSHORT-EXIT-WQ291`) | **LATER** — *"I would like to do more research on this.  I am not sure any bond rebound continues.  I would like us to do some mroe research"* | NOT approved, NOT declined. Path C (hold to 10/14) is the live path by default; no card fires; nothing executes. BOND is asked for a research read by 10/08 (DOCKET L608); Will decides before the 82P's 10/14 clock (WQ-302). Re-dated on WQ-357 to 2026-10-14. |
+| **365** QQQ Dec-18 730/710 put spread, conditional card (`TRY-COND-QQQ-DATED-DOWNSIDE`) | **LATER** (no note) | The card is NOT approved and CANNOT ARM on Monday even if (a) and (b) hold (root rule #5). Keep it on file; VULCAN's expression-comparison evidence (Monday ~08:30, L590) comes first; PROME re-asks Will after it. Re-dated on WQ-365 to 2026-10-06. Your pre-open re-read stands; state any verdict change. |
+| **366** USO Oct-09 $150 call ×1 (card `USO150C-KRE65P_roll-management-notes_2026-10-01`) | **DECLINE the early sell** — *"I dont think I sell yet.  The news in Saudi arabia continues to get worse"* | HOLD. Your Fri 10/09 15:00 ET stop STANDS (expiry day) unless Will says otherwise; at the stop the card calls the sale for his hand. Record the ruling and his reason on the card (root rule #10). DOCKET L605 carries the stop. Caveats that travel: the MET grade rests on the G7 release decision not yet read in the statement itself (BRENT/TERRY); Fidelity's bid governs. Related tonight: WALTER re-routed -003 (Riyadh refinery fire 10/3, Houthi-claimed, Saudi/Aramco-unconfirmed) to BRENT ACTION + you as info for the VLO gate. |
+
+Monday pre-open priorities are unchanged: HENRY's gamma board for the QQQ Oct-05 735P ×5 (L592) before your lean. No reply to PROME needed; the card records are the receipts.
