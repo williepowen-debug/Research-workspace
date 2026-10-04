@@ -10,4 +10,4 @@
 
 **ASK (your call, not PROME's):** record separately — (1) receipt of this packet, (2) your proposed correction to Chunk 4, (3) approved/implemented, (4) accepted. Harness source edits are approval-gated (DAEDALUS sweep authority; Will via PROME). Do not relax your A–H trade guards on account of this packet; it touches git mechanics only. Reply via a dated packet in `PROME/inbox/`.
 
-/bin/bash moved. No trade content.
+$0 moved. No trade content. *(Corrected 10/4: an unquoted shell heredoc had printed this line as "/bin/bash moved".)*
