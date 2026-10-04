@@ -1,0 +1,45 @@
+{
+ "mode": "verify",
+ "agent": "DAEDALUS",
+ "ts": "20261004T193910Z",
+ "head": "493d7c79a06dca0a6f328911bc6bae77594ae349",
+ "fingerprint": "557d90fe6f5f086ddb0435d1f94ea7567ad331f732847cdc8be3fcdc4274baee",
+ "runner_sha256": "654e0b694faebcfd8d9602ea97c37dd4e2051a8b3724b2fefd073c38b0cfaab7",
+ "steps": [
+  {
+   "id": "V1",
+   "name": "verify_push.sh <subject>",
+   "cmd": [
+    "bash",
+    "/home/willi/Research-workspace/AGENTS/DAEDALUS/scripts/verify_push.sh",
+    "DAEDALUS -> PROME: add twenty harness reads and reconcile accepted audit capacity"
+   ],
+   "rc": 0,
+   "class": "CLEAN",
+   "reason": "child rc 0",
+   "log": "/tmp/claude-1000/daedalus-gate/logs/20261004T193910Z_V1.txt",
+   "findings": []
+  },
+  {
+   "id": "V2",
+   "name": "content check: located commit's paths origin/master vs HEAD",
+   "cmd": [
+    "git",
+    "show",
+    "origin/master:<p>",
+    "vs",
+    "HEAD:<p>"
+   ],
+   "rc": 0,
+   "class": "CLEAN",
+   "reason": "26 path(s) of ea2284e05 byte-identical origin/master vs HEAD",
+   "log": "/tmp/claude-1000/daedalus-gate/logs/20261004T193910Z_V2.txt",
+   "findings": []
+  }
+ ],
+ "counts": {
+  "CLEAN": 2
+ },
+ "rc": 0,
+ "perimeter": "GATE verify rc=0 \u00b7 checked: 2 steps ['V1', 'V2'] \u00b7 NOT checked (declared/enumerated only): [] \u00b7 proves nothing about: completion of work beyond complete_check's legs, owner consumption of packets, the truth of any DECLARED value, or anything a child's own PASS line disclaims."
+}

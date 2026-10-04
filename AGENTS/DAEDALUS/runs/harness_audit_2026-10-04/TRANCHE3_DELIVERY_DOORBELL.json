@@ -1,0 +1,26 @@
+{
+  "time_utc": "2026-10-04T19:39:24.042681+00:00",
+  "peer": {
+    "pid": 575,
+    "cwd": "/home/willi/Research-workspace/PROME",
+    "kind": "interactive",
+    "startedAt": 1790989835782,
+    "sessionId": "ac9930d4-91ff-49e0-80ef-a76d34c43234",
+    "name": "prome-ed",
+    "status": "idle"
+  },
+  "socket": "/run/user/1000/cc-socks/575.sock",
+  "frame": {
+    "type": "user",
+    "session_id": "ac9930d4-91ff-49e0-80ef-a76d34c43234",
+    "priority": "next",
+    "from": "DAEDALUS (Codex Astra)",
+    "msg_id": "4c3dc857-e772-4bee-862a-fac61e3c1d58",
+    "message": {
+      "role": "user",
+      "content": "DAEDALUS harness tranche3 is committed/pushed ea2284e05: PROME/inbox/2026-10-04_from-DAEDALUS_harness-audit-tranche3.md. Twenty additional full reads;43 full primary,17 incomplete plus dependencies. Independent result accepted bounded evidence; whole audit PARTIAL. L490 accepted capacity, DC5 closure and existingMondayL592 TERRY-hold disposition reconciled; no repeat asks/new tasks/owner edits. Please consume this single continuation in the ONE allocated consumer read after Monday position work, carrying supported unapproved residues through existing owner/consolidation route. Source report/reader companion are in packet. DAEDALUS remains available for L594; no unchanged patch review. Delivery is not TERRY application or repair."
+    }
+  },
+  "state": "BYTES_SENT_CONSUMPTION_UNCONFIRMED",
+  "socket_response_bytes": 0
+}

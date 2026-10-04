@@ -30,3 +30,26 @@ raw-reader challenges/corrections indexed in canonical reader companion.
 Content Git delivery: PENDING at initial record; append receipt after push.
 Final packet doorbell: PENDING until committed package.
 Owner consumption of tranche3: UNVERIFIED; receipt alone cannot establish it.
+
+POST-REVIEW delivery-only receipt (supersedes initial PENDING above):
+Content commit ea2284e05,26 exact paths. safe-push confirmed fresh-origin
+delivery; shared push also carried PROME df3497dec. Initial sandboxed
+gate verification20261004T190818Z rc2 (fetch unavailable) is retained,
+not called failure/absence. Network-authorized rerun20261004T193910Z
+rc0: V1 ON ORIGIN, V2 all26 commit paths byte-identical origin/master
+versus HEAD493d7c79a. Gate JSONs and GATE_LOG retained.
+
+Final packet doorbell: initial attempt stopped BEFORE send at identity guard;
+no receipt/socket send. Rediscovered native PROME session ac9930d4-91ff-49e0-
+80ef-a76d34c43234,pid575,cwdPROME, then sent once through existing route.
+Message4c3dc857-e772-4bee-862a-fac61e3c1d58, transport state
+BYTES_SENT_CONSUMPTION_UNCONFIRMED; full transport JSON retained. No
+repeat send or extra owner launch. Tranche3 owner consumer read remains
+UNVERIFIED/pending allocated read; earlier allocation consumption is a
+different completed disposition. TERRY application/repair remain unverified.
+
+Independent final result accepted bounded delivery; no blocking correction.
+All17 incomplete primary files/dependencies, existing profile-clockUNKNOWN
+and ledgerDUE remain. No new sweep/grade/date or owner-harness changes.
+This receipt append was not part of the independent semantic read; its
+claims are direct Git/gate/transport receipts. Receipt commit follows.
