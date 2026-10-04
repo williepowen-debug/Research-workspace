@@ -3592,19 +3592,19 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-10-04T14:52Z	SIG-W-20261004-006	OTTO	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/OTTO/inbox/WALTER/SIG-W-20261004-006.md	delivered	dark (weekend); Will 10/04 bookmark drop
 2026-10-04T14:52Z	SIG-W-20261004-006	LIQUID	INFO	CLAUDE_CODE	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20261004-006.md	delivered	dark (weekend); Will 10/04 bookmark drop
 2026-10-04T16:31Z	SIG-W-20261004-008	AEOLUS	INFO	CLAUDE_CODE	ROUTINE	AGENTS/AEOLUS/inbox/WALTER/SIG-W-20261004-008.md	delivered	dark (weekend); Will 10/04 3-item drop
-2026-10-04T20:08Z	SIG-W-20261004-009	VULCAN	INFO	CLAUDE_CODE	ROUTINE	AGENTS/VULCAN/inbox/WALTER/SIG-W-20261004-009.md	written_not_delivered_pending_push	dark (weekend); edgar archive record — owner VULCAN already graded (S2); lane entity_class mis-tag flagged PROME
-2026-10-04T20:08Z	SIG-W-20261004-009	HENRY	INFO	CLAUDE_CODE	ROUTINE	AGENTS/HENRY/inbox/WALTER/SIG-W-20261004-009.md	written_not_delivered_pending_push	dark (weekend); edgar archive record — owner VULCAN already graded (S2); lane entity_class mis-tag flagged PROME
-2026-10-04T20:08Z	SIG-W-20261004-009	VIOLET	INFO	CLAUDE_CODE	ROUTINE	AGENTS/VIOLET/inbox/WALTER/SIG-W-20261004-009.md	written_not_delivered_pending_push	dark (weekend); edgar archive record — owner VULCAN already graded (S2); lane entity_class mis-tag flagged PROME
-2026-10-04T20:08Z	SIG-W-20261004-009	WATT	INFO	CLAUDE_CODE	ROUTINE	AGENTS/WATT/inbox/WALTER/SIG-W-20261004-009.md	written_not_delivered_pending_push	dark (weekend); edgar archive record — owner VULCAN already graded (S2); lane entity_class mis-tag flagged PROME
-2026-10-04T20:36Z	SIG-W-20261004-010	FALCON	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/FALCON/inbox/WALTER/SIG-W-20261004-010.md	written_not_delivered_pending_push	dark (weekend); Will bookmark scan 7h + verify
-2026-10-04T20:36Z	SIG-W-20261004-010	HAWK	INFO	CLAUDE_CODE	PRIORITY	AGENTS/HAWK/inbox/WALTER/SIG-W-20261004-010.md	written_not_delivered_pending_push	dark (weekend); Will bookmark scan 7h + verify
-2026-10-04T20:36Z	SIG-W-20261004-010	BRENT	INFO	CLAUDE_CODE	PRIORITY	AGENTS/BRENT/inbox/WALTER/SIG-W-20261004-010.md	written_not_delivered_pending_push	dark (weekend); Will bookmark scan 7h + verify
-2026-10-04T20:36Z	SIG-W-20261004-010	SAM	INFO	CLAUDE_CODE	PRIORITY	AGENTS/SAM/inbox/WALTER/SIG-W-20261004-010.md	written_not_delivered_pending_push	dark (weekend); Will bookmark scan 7h + verify
-2026-10-04T20:36Z	SIG-W-20261004-011	BRENT	ACTION	CLAUDE_CODE	ROUTINE	AGENTS/BRENT/inbox/WALTER/SIG-W-20261004-011.md	written_not_delivered_pending_push	dark (weekend); Will bookmark scan 7h + verify
-2026-10-04T20:36Z	SIG-W-20261004-011	HAWK	INFO	CLAUDE_CODE	ROUTINE	AGENTS/HAWK/inbox/WALTER/SIG-W-20261004-011.md	written_not_delivered_pending_push	dark (weekend); Will bookmark scan 7h + verify
-2026-10-04T20:36Z	SIG-W-20261004-011	FALCON	INFO	CLAUDE_CODE	ROUTINE	AGENTS/FALCON/inbox/WALTER/SIG-W-20261004-011.md	written_not_delivered_pending_push	dark (weekend); Will bookmark scan 7h + verify
-2026-10-04T20:36Z	SIG-W-20261004-012	CARL	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/CARL/inbox/WALTER/SIG-W-20261004-012.md	written_not_delivered_pending_push	dark (weekend); Will bookmark scan 7h + verify
-2026-10-04T20:36Z	SIG-W-20261004-012	HENRY	INFO	CLAUDE_CODE	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20261004-012.md	written_not_delivered_pending_push	dark (weekend); Will bookmark scan 7h + verify
-2026-10-04T20:36Z	SIG-W-20261004-013	HENRY	ACTION	CLAUDE_CODE	ROUTINE	AGENTS/HENRY/inbox/WALTER/SIG-W-20261004-013.md	written_not_delivered_pending_push	dark (weekend); Will bookmark scan 7h + verify
-2026-10-04T20:36Z	SIG-W-20261004-013	BOND	INFO	CLAUDE_CODE	ROUTINE	AGENTS/BOND/inbox/WALTER/SIG-W-20261004-013.md	written_not_delivered_pending_push	dark (weekend); Will bookmark scan 7h + verify
-2026-10-04T20:36Z	SIG-W-20261004-013	VIOLET	INFO	CLAUDE_CODE	ROUTINE	AGENTS/VIOLET/inbox/WALTER/SIG-W-20261004-013.md	written_not_delivered_pending_push	dark (weekend); Will bookmark scan 7h + verify
+2026-10-04T20:08Z	SIG-W-20261004-009	VULCAN	INFO	CLAUDE_CODE	ROUTINE	AGENTS/VULCAN/inbox/WALTER/SIG-W-20261004-009.md	delivered	dark (weekend); edgar archive record — owner VULCAN already graded (S2); lane entity_class mis-tag flagged PROME
+2026-10-04T20:08Z	SIG-W-20261004-009	HENRY	INFO	CLAUDE_CODE	ROUTINE	AGENTS/HENRY/inbox/WALTER/SIG-W-20261004-009.md	delivered	dark (weekend); edgar archive record — owner VULCAN already graded (S2); lane entity_class mis-tag flagged PROME
+2026-10-04T20:08Z	SIG-W-20261004-009	VIOLET	INFO	CLAUDE_CODE	ROUTINE	AGENTS/VIOLET/inbox/WALTER/SIG-W-20261004-009.md	delivered	dark (weekend); edgar archive record — owner VULCAN already graded (S2); lane entity_class mis-tag flagged PROME
+2026-10-04T20:08Z	SIG-W-20261004-009	WATT	INFO	CLAUDE_CODE	ROUTINE	AGENTS/WATT/inbox/WALTER/SIG-W-20261004-009.md	delivered	dark (weekend); edgar archive record — owner VULCAN already graded (S2); lane entity_class mis-tag flagged PROME
+2026-10-04T20:36Z	SIG-W-20261004-010	FALCON	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/FALCON/inbox/WALTER/SIG-W-20261004-010.md	delivered	dark (weekend); Will bookmark scan 7h + verify
+2026-10-04T20:36Z	SIG-W-20261004-010	HAWK	INFO	CLAUDE_CODE	PRIORITY	AGENTS/HAWK/inbox/WALTER/SIG-W-20261004-010.md	delivered	dark (weekend); Will bookmark scan 7h + verify
+2026-10-04T20:36Z	SIG-W-20261004-010	BRENT	INFO	CLAUDE_CODE	PRIORITY	AGENTS/BRENT/inbox/WALTER/SIG-W-20261004-010.md	delivered	dark (weekend); Will bookmark scan 7h + verify
+2026-10-04T20:36Z	SIG-W-20261004-010	SAM	INFO	CLAUDE_CODE	PRIORITY	AGENTS/SAM/inbox/WALTER/SIG-W-20261004-010.md	delivered	dark (weekend); Will bookmark scan 7h + verify
+2026-10-04T20:36Z	SIG-W-20261004-011	BRENT	ACTION	CLAUDE_CODE	ROUTINE	AGENTS/BRENT/inbox/WALTER/SIG-W-20261004-011.md	delivered	dark (weekend); Will bookmark scan 7h + verify
+2026-10-04T20:36Z	SIG-W-20261004-011	HAWK	INFO	CLAUDE_CODE	ROUTINE	AGENTS/HAWK/inbox/WALTER/SIG-W-20261004-011.md	delivered	dark (weekend); Will bookmark scan 7h + verify
+2026-10-04T20:36Z	SIG-W-20261004-011	FALCON	INFO	CLAUDE_CODE	ROUTINE	AGENTS/FALCON/inbox/WALTER/SIG-W-20261004-011.md	delivered	dark (weekend); Will bookmark scan 7h + verify
+2026-10-04T20:36Z	SIG-W-20261004-012	CARL	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/CARL/inbox/WALTER/SIG-W-20261004-012.md	delivered	dark (weekend); Will bookmark scan 7h + verify
+2026-10-04T20:36Z	SIG-W-20261004-012	HENRY	INFO	CLAUDE_CODE	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20261004-012.md	delivered	dark (weekend); Will bookmark scan 7h + verify
+2026-10-04T20:36Z	SIG-W-20261004-013	HENRY	ACTION	CLAUDE_CODE	ROUTINE	AGENTS/HENRY/inbox/WALTER/SIG-W-20261004-013.md	delivered	dark (weekend); Will bookmark scan 7h + verify
+2026-10-04T20:36Z	SIG-W-20261004-013	BOND	INFO	CLAUDE_CODE	ROUTINE	AGENTS/BOND/inbox/WALTER/SIG-W-20261004-013.md	delivered	dark (weekend); Will bookmark scan 7h + verify
+2026-10-04T20:36Z	SIG-W-20261004-013	VIOLET	INFO	CLAUDE_CODE	ROUTINE	AGENTS/VIOLET/inbox/WALTER/SIG-W-20261004-013.md	delivered	dark (weekend); Will bookmark scan 7h + verify
