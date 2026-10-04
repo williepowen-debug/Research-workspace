@@ -1,0 +1,31 @@
+{
+  "runner_sha256": "654e0b694faebcfd8d9602ea97c37dd4e2051a8b3724b2fefd073c38b0cfaab7",
+  "scope": "Isolated receipt/fingerprint probes only; no production checks or owner writes",
+  "cases": {
+    "own_log_invalidates_receipt": {
+      "synthetic_run_rc": 0,
+      "verify_rc": 1,
+      "transcript": "GATE closeout \u2014 DAEDALUS \u00b7 20261004T213715Z \u00b7 HEAD bd247a4ad\n\nGATE closeout rc=0 \u00b7 checked: 0 steps [] \u00b7 NOT checked (declared/enumerated only): [] \u00b7 proves nothing about: completion of work beyond complete_check's legs, owner consumption of packets, the truth of any DECLARED value, or anything a child's own PASS line disclaims.\n  counts: \n  receipt: /tmp/cato-daedalus-receipt-zdolw1s5/receipts/20261004T213715Z_closeout.json (sha f00f8928) \u2014 fingerprint 33c3f1f5b1e9\n  logged: /tmp/cato-daedalus-receipt-zdolw1s5/repo/AGENTS/DAEDALUS/runs/GATE_LOG.tsv (the only tree write this runner makes)\n\u274c INVALIDATED \u2014 tree changed (own dir / scripts diff or untracked set). Re-run the gate; do not cite this receipt.\n"
+    },
+    "external_authored_packet_change": {
+      "fingerprint_unchanged": true
+    },
+    "own_content_negative_control": {
+      "fingerprint_changed": true
+    },
+    "unchanged_failed_receipt": {
+      "synthetic_run_rc": 1,
+      "verify_rc": 0,
+      "transcript": "GATE closeout \u2014 DAEDALUS \u00b7 20261004T213715Z \u00b7 HEAD bd247a4ad\n  \u274c X   BLOCKING        synthetic blocking result\n      \u21b3 fixture failure\n\nGATE closeout rc=1 \u00b7 checked: 1 steps ['X'] \u00b7 NOT checked (declared/enumerated only): [] \u00b7 proves nothing about: completion of work beyond complete_check's legs, owner consumption of packets, the truth of any DECLARED value, or anything a child's own PASS line disclaims.\n  counts: BLOCKING 1\n  receipt: /tmp/cato-daedalus-receipt-zdolw1s5/failed/20261004T213715Z_closeout.json (sha b7a81859) \u2014 fingerprint ddac1a0331df\n\u2705 VALID \u2014 receipt 20261004T213715Z closeout still describes this tree (HEAD bd247a4ad)\n"
+    }
+  },
+  "source_pin": "61d52336b",
+  "source_files": {
+    "AGENTS/DAEDALUS/CLAUDE.md": "8c26ecc613126c3fddbae55591e452d11c58cb3095f108da95e2468c7bff9847",
+    "AGENTS/DAEDALUS/scripts/daedalus_gate.py": "654e0b694faebcfd8d9602ea97c37dd4e2051a8b3724b2fefd073c38b0cfaab7",
+    "AGENTS/BOND/CLOSEOUT.md": "de072cebd2ac112cf80b907831878b03385c39c74410546713c3e5c8dabde952",
+    "AGENTS/BOND/monitors/closeout_run.py": "9685485273d5cf74d1f22277499aafd4dcadde920e97eb2dc04a23f99723c863",
+    "PROME/CLOSEOUT.md": "0206e5684af49370b48e1e2b685790adea117ec0fdbca9b465bfdd1b41045855",
+    "AGENTS/HANS/CLOSEOUT.md": "7851b84606a7811cf99f25a6ddf1b40842c6658cb396d1a4a82356ad4e9b6e57"
+  }
+}
