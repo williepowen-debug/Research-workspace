@@ -1,6 +1,6 @@
 {
  "attention_errors": [],
- "built": "2026-10-03 22:34",
+ "built": "2026-10-04 13:46",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -17,7 +17,6 @@
   "2026-09-25 \u2605 IRAN-OMAN PERMANENT-ROUTE WINDOW \u2014 the 8/26 finalised INTE",
   "2026-10-01 Fifth Plenum, 20th CPC Central Committee \u2014 15th Five-Year-Pl",
   "2026-10-01 \u2605 CORAL thesis re-test CONVERGENCE \u2014 the two instruments tha",
-  "2026-10-04 OPEC+ monthly meeting of the seven participating countries \u2014",
   "2026-10-05 BOND RESEARCH READ \u2014 WQ-357 LATER (Will 10/3 21:08 ET by Dec",
   "2026-10-05 CME Group + Silicon Data list cash-settled COMPUTE FUTURES o",
   "2026-10-05 DAEDALUS OWED SET carried from the 9/25 L290 spawn (DAEDALUS",
@@ -88,7 +87,12 @@
   "2026-10-22 READS ATTESTATION \u2014 STRICT FLIP of read_cap_check.py (WQ-236",
   "2026-10-22 VLY Q3-2026 release + deck (est. Thu 10/22, NOT announced) \u2192",
   "2026-10-23 FLG Q3-2026 release (~10/23 EST.) + Q3 10-Q (~11/9 EST.) \u2014 W",
-  "2026-10-24 WAL Q3 10-Q \u2014 \u26a0\ufe0f FRAME-BEFORE-FILING deadline = 10/24 earlie"
+  "2026-10-24 WAL Q3 10-Q \u2014 \u26a0\ufe0f FRAME-BEFORE-FILING deadline = 10/24 earlie",
+  "2026-10-25 GATES.tsv COMPACTION STEP 3 IS PAST DATE AND FAILING (third ",
+  "2026-10-25 WQ-299 10/25 REVIEW \u2014 THE PROCESS BACKLOG AS ONE DATED OBLIG",
+  "2026-10-25 \ud83d\udfe0 L294 REPAIR RESIDUE \u2014 five items the independent review na",
+  "2026-10-25 \ud83d\udfe0 RE-SPEC M1 SO IT STOPS MEASURING PROME'S FILING HABIT AND ",
+  "2026-10-25 \ud83d\udfe1 consumer_check.py --self FLAGS TWO CLASSES IT IS STRUCTURA"
  ],
  "fleet": {
   "AEOLUS": "watch",
@@ -124,7 +128,7 @@
   "WALTER": "ok",
   "WATT": "elev",
   "YURI": "ok",
-  "ZHAO": "ok"
+  "ZHAO": "watch"
  },
  "gates": {
   "GATE-BRENT-COT-35B": "live:LIVE",
@@ -164,6 +168,7 @@
  "pending": [
   "WQ-347 (10/5)",
   "WQ-365 (10/6)",
+  "WQ-382 (10/9)",
   "WQ-381 (10/9)",
   "WQ-380 (10/9)",
   "WQ-378 (10/9)",
@@ -185,6 +190,6 @@
   "WQ-274 (before trading\u2026)",
   "\u26d4 WQ-314 (10/9)"
  ],
- "split": "",
+ "split": "Break 20% \u00b7 Grind-lasts 47% \u00b7 Unresolved-divergence 33% \u2014 NEXUS 2\u20136wk judgment [10/1], predates 10/2; falsifier held, blind to credit",
  "v": 1
 }
