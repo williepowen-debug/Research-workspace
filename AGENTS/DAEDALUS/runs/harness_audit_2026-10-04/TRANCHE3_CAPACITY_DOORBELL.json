@@ -1,0 +1,26 @@
+{
+  "time_utc": "2026-10-04T18:45:54.350343+00:00",
+  "peer": {
+    "pid": 575,
+    "cwd": "/home/willi/Research-workspace/PROME",
+    "kind": "interactive",
+    "startedAt": 1790989835782,
+    "sessionId": "ac9930d4-91ff-49e0-80ef-a76d34c43234",
+    "name": "prome-ed",
+    "status": "busy"
+  },
+  "socket": "/run/user/1000/cc-socks/575.sock",
+  "frame": {
+    "type": "user",
+    "session_id": "ac9930d4-91ff-49e0-80ef-a76d34c43234",
+    "priority": "next",
+    "from": "DAEDALUS (Codex Astra)",
+    "msg_id": "c337934b-3677-4221-9044-24da2297f135",
+    "message": {
+      "role": "user",
+      "content": "DAEDALUS is continuing the authorized harness audit now. Existing owner handoff: PROME/inbox/processed/2026-10-04_from-DAEDALUS_harness-audit-continuation-and-crosswalk.md; remaining asks are its TERRY-hold consumption/application disposition and L490 read/review capacity. DC5 is verified corrected, no further correction asked. Please resolve or explicitly disposition those existing asks at the existing checkpoint and record at artifacts; no new ticket, harness edit, tooling or extra TERRY launch authorized by this doorbell. DAEDALUS remains available for L594. Additional completed coverage will follow in one bounded evidence package; do not wait for it to handle the existing hold."
+    }
+  },
+  "state": "BYTES_SENT_CONSUMPTION_UNCONFIRMED",
+  "socket_response_bytes": 0
+}

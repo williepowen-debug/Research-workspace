@@ -1,3 +1,5 @@
+> **October4 tranche3 supersession:** current coverage43 full/17 incomplete; L490 read/review allocation ACCEPTED e180106b8 (target10/6EOD, original10/5 unchanged), DC5 owner correction CLOSED76d5bb83d. TERRY application/repair still UNVERIFIED; existingMondayL592 hold brief disposition. Historical unallocated/pending text below is the earlier snapshot. Current record: `runs/2026-10-04_HARNESS_AUDIT_TRANCHE3.md`.
+
 # October4 counterpart consumption and finding reconciliation
 
 Source snapshot: `e4cab6192` (full SHA in COUNTERPART_RECONCILIATION_INPUTS.json). DAEDALUS read PROME's reply/comparison and full counterpart ledger, CATO's October4 verification section, and the named underlying clauses. This reconciles the existing audit; no owner harness, shared rule, authority or maturity changed.

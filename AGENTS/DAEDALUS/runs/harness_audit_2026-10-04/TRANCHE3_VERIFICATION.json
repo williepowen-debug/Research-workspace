@@ -1,0 +1,27 @@
+{
+  "checked_utc": "2026-10-04T19:03:49.827739+00:00",
+  "source_pin": "e63816cb5f8d5297340455a6839f8bec65028dbe",
+  "primary_and_nested_verified": 69,
+  "distinct_source_blobs_in_primary_and_raw_tables": 99,
+  "input_json_manifests_verified": [
+    "TRANCHE3_SHARED_INPUTS.json",
+    "TRANCHE3_OWNER_INPUTS.json"
+  ],
+  "errors": [],
+  "working_copy_primary_or_nested_different_from_pin": [],
+  "counts": {
+    "FULL_TEXT_READ_DISPOSITION_PROPOSED": {
+      "files": 43,
+      "whole_source_bytes": 1325694
+    },
+    "NOT_AUDITED": {
+      "files": 16,
+      "whole_source_bytes": 504478
+    },
+    "PARTIAL_CLAUSE_READ": {
+      "files": 1,
+      "whole_source_bytes": 19931
+    }
+  },
+  "meaning": "Identity/accounting verification only; not semantic read or runtime acceptance."
+}

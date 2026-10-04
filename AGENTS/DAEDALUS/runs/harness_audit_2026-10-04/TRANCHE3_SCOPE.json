@@ -1,0 +1,672 @@
+{
+  "head": "e63816cb5f8d5297340455a6839f8bec65028dbe",
+  "captured_utc": "2026-10-04T18:58:36.986329+00:00",
+  "original_manifest": "scope_snapshot.json",
+  "original_manifest_unchanged": true,
+  "primary_and_canon": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 4991,
+      "lines": 62,
+      "sha256": "9b126769cbc278fad34b97c7d51806f7ef8966486c305389896c983bbd86585e",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/AEOLUS/CLAUDE.md",
+      "bytes": 45374,
+      "lines": 348,
+      "sha256": "9ac73ee7e5f08e735358f7fd27a21e1cf86e732e23d00baf9e28c88f88644893",
+      "coverage": "NOT_AUDITED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/BARON/CLAUDE.md",
+      "bytes": 5018,
+      "lines": 139,
+      "sha256": "5a2c012094e9c0ddd0a86a77af2fa8c0bcb091a5a4c00c2d966f57eb346896ba",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "continuation_report": "NESTED_MANUAL_READER.md",
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/BOND/CLAUDE.md",
+      "bytes": 33143,
+      "lines": 246,
+      "sha256": "da51fabd147b1a72b7139840bac5f7401840a37d27bb016d0ad579d5aadc014f",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "continuation_report": "DOMAIN_CHARTER_CONTINUATION_READER.md",
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/BOND/CLOSEOUT.md",
+      "bytes": 10482,
+      "lines": 74,
+      "sha256": "de072cebd2ac112cf80b907831878b03385c39c74410546713c3e5c8dabde952",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/BRENT/CLAUDE.md",
+      "bytes": 31387,
+      "lines": 224,
+      "sha256": "d14868832ca65ae620206f587cbea7b1ce84dec23b415e85eff49604dd3067ff",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true,
+      "tranche3_report": "TRANCHE3_TRANSMISSION_READER.md"
+    },
+    {
+      "path": "AGENTS/BROCK/CLAUDE.md",
+      "bytes": 30957,
+      "lines": 271,
+      "sha256": "ef94ba4ed7c3b344302e759054355184e417b7d7612006a4eeaa925349917b8c",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true,
+      "tranche3_report": "TRANCHE3_MARKET_READER.md"
+    },
+    {
+      "path": "AGENTS/CARL/CLAUDE.md",
+      "bytes": 48543,
+      "lines": 290,
+      "sha256": "92b5156d8e78ecd3d0cc1af4093dd20d3316c7f7c6ecee00a2cfe196a48ee0ef",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true,
+      "tranche3_report": "TRANCHE3_CREDIT_READER.md"
+    },
+    {
+      "path": "AGENTS/CATO/AGENTS.md",
+      "bytes": 6465,
+      "lines": 36,
+      "sha256": "e4fa89ef81188f6eac626e7de6ba7537bbb4eae7deda4bcdb39a5080cf29823e",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "continuation_report": "NESTED_MANUAL_READER.md",
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/CATO/CHARTER.md",
+      "bytes": 9921,
+      "lines": 60,
+      "sha256": "1ec6c707f8fb054659ed904e5d0d5c536854abc982c3868fa26e1f1f85e4d9f3",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "continuation_report": "NESTED_MANUAL_READER.md",
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/CORAL/CLAUDE.md",
+      "bytes": 28659,
+      "lines": 243,
+      "sha256": "e57b9e3cea648a3b08038f6e25913bd108a5cad86e5f75b891dbca1a32b079ae",
+      "coverage": "NOT_AUDITED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/CREED/CLAUDE.md",
+      "bytes": 38108,
+      "lines": 234,
+      "sha256": "39f66cee5899e99033bd80c0ea2d3492fa51ee0937a3f3a85ccd4401ee3ba517",
+      "coverage": "NOT_AUDITED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/CRUISE/CLAUDE.md",
+      "bytes": 18181,
+      "lines": 280,
+      "sha256": "e12c0b8971211f976c14d4f3d939ccf4f06f2aa62d7819f71d951d97b492cd1e",
+      "coverage": "NOT_AUDITED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/CLAUDE.md",
+      "bytes": 33509,
+      "lines": 198,
+      "sha256": "8c26ecc613126c3fddbae55591e452d11c58cb3095f108da95e2468c7bff9847",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/DEWEY/CLAUDE.md",
+      "bytes": 31626,
+      "lines": 242,
+      "sha256": "35c1033b984b4b7717f38e53b5c2ec6e109fb671ddb7a9c4df354751f5808441",
+      "coverage": "NOT_AUDITED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/FALCON/CLAUDE.md",
+      "bytes": 50009,
+      "lines": 340,
+      "sha256": "a640316403d8869b47d9ebe21628c419a923189e84de11ace772875fc06e36ce",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true,
+      "tranche3_report": "TRANCHE3_TRANSMISSION_READER.md"
+    },
+    {
+      "path": "AGENTS/FERT/CLAUDE.md",
+      "bytes": 19931,
+      "lines": 192,
+      "sha256": "ebb4a04e01d27b1c45f5ed2f9405f9df016fbbf98f58ed61d9ee4ca0f442df37",
+      "coverage": "PARTIAL_CLAUSE_READ",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true,
+      "scope": "Supporting57,76\u201395 and challenger55\u201358 only; full three-leg disposition remains owed."
+    },
+    {
+      "path": "AGENTS/FLG/CLAUDE.md",
+      "bytes": 26500,
+      "lines": 228,
+      "sha256": "569e987f58cbf2752e757c31bb3ec6ce4a59666f6ec01b5955cd971abb28b3eb",
+      "coverage": "NOT_AUDITED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/HANS/CLAUDE.md",
+      "bytes": 24358,
+      "lines": 215,
+      "sha256": "20f607b4878679b42cb9ffe680bedf29bb7bc1928ec7f6cff3641ce08652f10c",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "continuation_report": "DOMAIN_CHARTER_CONTINUATION_READER.md",
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/HANS/CLOSEOUT.md",
+      "bytes": 8338,
+      "lines": 63,
+      "sha256": "7851b84606a7811cf99f25a6ddf1b40842c6658cb396d1a4a82356ad4e9b6e57",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/HAWK/CLAUDE.md",
+      "bytes": 28271,
+      "lines": 225,
+      "sha256": "f0ad39e1b5f5a933a40f0ba209ec33f0bb7abd3c65928258fc027650269fac9b",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true,
+      "tranche3_report": "TRANCHE3_TRANSMISSION_READER.md"
+    },
+    {
+      "path": "AGENTS/HENRY/CLAUDE.md",
+      "bytes": 35627,
+      "lines": 260,
+      "sha256": "b60dd9b91eecbbd64002f500d5ee82aad6fa1242b3b123c2e75e014bde17cd69",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true,
+      "tranche3_report": "TRANCHE3_CREDIT_READER.md"
+    },
+    {
+      "path": "AGENTS/HOMER/CLAUDE.md",
+      "bytes": 38411,
+      "lines": 277,
+      "sha256": "31bfe44995c363051e4597771113d486f653a5b125e550e0474e2b65c9b95399",
+      "coverage": "NOT_AUDITED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/LABOR/CLAUDE.md",
+      "bytes": 52995,
+      "lines": 313,
+      "sha256": "0834814f5b77bad2bab9cd691489d3af9c17c4edef0068f2493c2ae649b9c36f",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true,
+      "tranche3_report": "TRANCHE3_CREDIT_READER.md"
+    },
+    {
+      "path": "AGENTS/LIQUID/CLAUDE.md",
+      "bytes": 35551,
+      "lines": 238,
+      "sha256": "ea506adbc373eb84d7a02663e069efa1f4b0c87e2c8e9bbc3cfd0158e5f1ce58",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "continuation_report": "DOMAIN_CHARTER_CONTINUATION_READER.md",
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/LIQUID/CLOSEOUT.md",
+      "bytes": 12123,
+      "lines": 183,
+      "sha256": "766aad32b3bc36134dc5ec95a2b2b18adb5ca24c78db87a0f5d329b00b3724a3",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/MARCO/CLAUDE.md",
+      "bytes": 32617,
+      "lines": 273,
+      "sha256": "12bfc3a37db67f65eb16b73a2e835d120cf2f7a7d8b14bad3c374f6d76af0d76",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true,
+      "tranche3_report": "TRANCHE3_CREDIT_READER.md"
+    },
+    {
+      "path": "AGENTS/MIDAS/CLAUDE.md",
+      "bytes": 26438,
+      "lines": 250,
+      "sha256": "81e70c9bd59a7f0d3d17548bdc7266281e7282e2eb34cb6368b307ec1a1da97a",
+      "coverage": "NOT_AUDITED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/NEXUS/CLAUDE.md",
+      "bytes": 69924,
+      "lines": 363,
+      "sha256": "573cf81c5af677ac29aad894fbb0d8126efe68a8d2e194b6e332fbafa1c42097",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true,
+      "tranche3_report": "TRANCHE3_CREDIT_READER.md"
+    },
+    {
+      "path": "AGENTS/ORACLE/CLAUDE.md",
+      "bytes": 26709,
+      "lines": 284,
+      "sha256": "6436fad6aba47dca86517f9ca43281cb1379ccc8a0f9e3feee363a0445acfe02",
+      "coverage": "NOT_AUDITED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/OSPREY/CLAUDE.md",
+      "bytes": 48339,
+      "lines": 286,
+      "sha256": "c2325eebf1bf3f52c4cc9f178fb5138f5b2d39ca742f4685100eed09847e3c92",
+      "coverage": "NOT_AUDITED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/OTTO/CLAUDE.md",
+      "bytes": 42142,
+      "lines": 560,
+      "sha256": "df7f2df6b5bafbfa743dbab15d99f95073aa6395ff2c555bc14e650256c7d048",
+      "coverage": "NOT_AUDITED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/OZK/CLAUDE.md",
+      "bytes": 28236,
+      "lines": 268,
+      "sha256": "923c3de40a9a9775ae11e6665ec35d916170a4edb07139fcd25360e74cd7e5cc",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true,
+      "tranche3_report": "TRANCHE3_MARKET_READER.md"
+    },
+    {
+      "path": "AGENTS/RED/CLAUDE.md",
+      "bytes": 42457,
+      "lines": 352,
+      "sha256": "e3406674f3dbaaee5c384aca71fd72b96a08ae84edb535944dbcd106bb18b5ad",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true,
+      "tranche3_report": "TRANCHE3_MARKET_READER.md"
+    },
+    {
+      "path": "AGENTS/REGINALD/CLAUDE.md",
+      "bytes": 43200,
+      "lines": 331,
+      "sha256": "8d353ba70fb3d65385ae36951de6a02b9701f9f6f15ace3c90cd8a3398b1872f",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true,
+      "tranche3_report": "TRANCHE3_CREDIT_READER.md"
+    },
+    {
+      "path": "AGENTS/SAM/CLAUDE.md",
+      "bytes": 41591,
+      "lines": 301,
+      "sha256": "e684b27d2683fb115e6d6e6a82396ec1c9027cc22675d22e80672408c88f391c",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true,
+      "tranche3_report": "TRANCHE3_MARKET_READER.md"
+    },
+    {
+      "path": "AGENTS/SENTRY/CLAUDE.md",
+      "bytes": 6353,
+      "lines": 176,
+      "sha256": "96e531e3b97c8275f7c1042988a18b4680c72349e66637159776a83c45014401",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "continuation_report": "NESTED_MANUAL_READER.md",
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/SHADE/CLAUDE.md",
+      "bytes": 23407,
+      "lines": 172,
+      "sha256": "d86a527a423c7924ddb9b8fbdcb602755ccddad15bf30e182bdde1e2b4c4696d",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true,
+      "tranche3_report": "TRANCHE3_MARKET_READER.md"
+    },
+    {
+      "path": "AGENTS/TERRY/CLAUDE.md",
+      "bytes": 32288,
+      "lines": 243,
+      "sha256": "4f083562643b0d9434ca01eefd1771104896c4b8723a3ed404f89c57e4985644",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "continuation_report": "DOMAIN_CHARTER_CONTINUATION_READER.md",
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/TERRY/CLOSEOUT.md",
+      "bytes": 14275,
+      "lines": 128,
+      "sha256": "9f4da2e46cedce9a89495539b3104f5a4bdf7e09d5efac01ffe9df478817ed3b",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/VIOLET/CLAUDE.md",
+      "bytes": 27215,
+      "lines": 200,
+      "sha256": "7ada4238628ba5d3913f25a89841435378861743f747caf61e4c9e49d7b6b390",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true,
+      "tranche3_report": "TRANCHE3_MARKET_READER.md"
+    },
+    {
+      "path": "AGENTS/VULCAN/CLAUDE.md",
+      "bytes": 81862,
+      "lines": 278,
+      "sha256": "5f66a766074bb14b7aac2a10c812cdd7ed576803dc6dac7cb88adaaa3419cc0d",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true,
+      "tranche3_report": "TRANCHE3_TRANSMISSION_READER.md"
+    },
+    {
+      "path": "AGENTS/WAL/CLAUDE.md",
+      "bytes": 24262,
+      "lines": 191,
+      "sha256": "5c9748f67abb7e2764941dfbeeeca7dbf689d609e6a8f5c4c3c3e8b576bf10e4",
+      "coverage": "NOT_AUDITED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/WALTER/CLAUDE.md",
+      "bytes": 65767,
+      "lines": 198,
+      "sha256": "43a716ebab22596a33a09d50f6b4adf8baa3e759f5ec8527d68df7f8a20401d7",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "continuation_report": "WALTER_CONTINUATION_READER.md",
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/WALTER/design/BOOT_PROTOCOL.md",
+      "bytes": 68876,
+      "lines": 206,
+      "sha256": "247f5cd10107f58b012188d638d99a7c1bd90729730a6deb0f2a318ca5f61d89",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "continuation_report": "WALTER_CONTINUATION_READER.md",
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/WATT/CLAUDE.md",
+      "bytes": 18364,
+      "lines": 202,
+      "sha256": "6e1e14cec1addfd206287975f75e96974604bd5ce35e2eb208dbe0f4174b1953",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true,
+      "tranche3_report": "TRANCHE3_TRANSMISSION_READER.md"
+    },
+    {
+      "path": "AGENTS/YURI/CLAUDE.md",
+      "bytes": 14604,
+      "lines": 103,
+      "sha256": "1998964fce79f478e3240e5a4493497a44394250df1b4c459e5a77a3c186e212",
+      "coverage": "NOT_AUDITED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/ZHAO/CLAUDE.md",
+      "bytes": 32528,
+      "lines": 267,
+      "sha256": "9e0f464520032ab34e0a937a702ada0531392f527e11ee15fcd0fcded35e54ec",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true,
+      "tranche3_report": "TRANCHE3_TRANSMISSION_READER.md"
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 24199,
+      "lines": 133,
+      "sha256": "1b176d7b3c619a78dbabe4128f23451fa32a074554f391804707aec7623a3c73",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "MESSAGING/CROSS_SESSION_MESSAGING.md",
+      "bytes": 24388,
+      "lines": 77,
+      "sha256": "84bbe2f896360c24248b4be5c684bb3c26588717a4076d4a2981299380a8af04",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true,
+      "tranche3_report": "TRANCHE3_SHARED_READER.md"
+    },
+    {
+      "path": "PROME/AUTONOMY.md",
+      "bytes": 20339,
+      "lines": 102,
+      "sha256": "d438ea6ff3d526c01e6eb6dc730ec9f6d215b139ce252cefe4c66e67251d8f3c",
+      "coverage": "NOT_AUDITED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "PROME/BOOT.md",
+      "bytes": 24801,
+      "lines": 140,
+      "sha256": "b2385f70b0011de0467528e2869ecaee8bf379a820314d8ede16a6fca92901aa",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "PROME/CLAUDE.md",
+      "bytes": 34340,
+      "lines": 104,
+      "sha256": "87d02389837d47dc27960a23aeb57b998f4921f2392c256616c85a87a741f841",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "PROME/CLOSEOUT.md",
+      "bytes": 20001,
+      "lines": 121,
+      "sha256": "0206e5684af49370b48e1e2b685790adea117ec0fdbca9b465bfdd1b41045855",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "PROME/CLOSEOUT_PROCEDURES.md",
+      "bytes": 8820,
+      "lines": 59,
+      "sha256": "74a16b93aeece9bd87c3874451477b886d9aca489dfec499e60988533a1a9c7f",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "PROME/COMPLETION_SPEC.md",
+      "bytes": 15012,
+      "lines": 84,
+      "sha256": "38bcd93aa340d8e1dd6e5aa281695bfb7765f5b4197d055b0705d66f532be1c6",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "PROME/ORCHESTRATION_PLAYBOOK.md",
+      "bytes": 44353,
+      "lines": 270,
+      "sha256": "29c456cde4d886654b512dd17523c02eae9486d7b3b7b1fdfe10c8fec5f6c1b1",
+      "coverage": "NOT_AUDITED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "PROME/ROSTER.md",
+      "bytes": 62790,
+      "lines": 267,
+      "sha256": "1796721ce1f8233424232f8ab7c35561c1eb0ea99b572ce9b4590c45fb426aca",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true,
+      "tranche3_report": "TRANCHE3_SHARED_READER.md"
+    },
+    {
+      "path": "PROME/SYSTEM.md",
+      "bytes": 30433,
+      "lines": 231,
+      "sha256": "31eefb4f802938c57031e57eb81c1e46d25dfbe9d362f4bb4f2a8de72bbc72a3",
+      "coverage": "NOT_AUDITED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/RAV_CHARTER.md",
+      "bytes": 20695,
+      "lines": 189,
+      "sha256": "b9ea04ee70d1ae50997fb00286d089f12ac8f76cd6afade5f357da6fc2c326d9",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "unchanged_from_original_pin": true,
+      "unchanged_from_previous_pin": true
+    }
+  ],
+  "counts": {
+    "FULL_TEXT_READ_DISPOSITION_PROPOSED": {
+      "files": 43,
+      "whole_source_bytes": 1325694
+    },
+    "NOT_AUDITED": {
+      "files": 16,
+      "whole_source_bytes": 504478
+    },
+    "PARTIAL_CLAUSE_READ": {
+      "files": 1,
+      "whole_source_bytes": 19931
+    }
+  },
+  "nested": [
+    {
+      "path": "AGENTS/CARL/sub_agents/DOC/CLAUDE.md",
+      "bytes": 12540,
+      "sha256": "febd4b27fd1f7b840db25d5f85e03da6d97f4185b7700832220f3f62d72013d9",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "report": "NESTED_MANUAL_READER.md",
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/CARL/sub_agents/GIG/CLAUDE.md",
+      "bytes": 12048,
+      "sha256": "5a85018c983c465120906c2eb5c79f8c87798b2b0a82fc227d33152ececcc7bc",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "report": "NESTED_MANUAL_READER.md",
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/CARL/sub_agents/META/CLAUDE.md",
+      "bytes": 4894,
+      "sha256": "2a187d0654830a2b86cc904c43ec1b1265535ba446f249d8df96035bf38f9224",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "report": "NESTED_MANUAL_READER.md",
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/CARL/sub_agents/PHAN/CLAUDE.md",
+      "bytes": 11012,
+      "sha256": "370eb97000ed7fa3969ba0c39a6fc127bc2c0b415d3b35caccdfad34a4c7c64d",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "report": "NESTED_MANUAL_READER.md",
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/CARL/sub_agents/POLLY/CLAUDE.md",
+      "bytes": 12941,
+      "sha256": "8691dd18eee24a98a0767a57bb1e52b2cc7315a7274cd4a731ad27909142dec7",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "report": "NESTED_MANUAL_READER.md",
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/CARL/sub_agents/POP/CLAUDE.md",
+      "bytes": 13498,
+      "sha256": "1b64aab28746f26c9e6cb0336074675734b5e6b6e4ce20e70d1f46837788e95b",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "report": "NESTED_MANUAL_READER.md",
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/CARL/sub_agents/STUE/CLAUDE.md",
+      "bytes": 43585,
+      "sha256": "849a1251cfe884be065fa67a08adef986c047bd3dcf18756a2f330cfec34dc2e",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "report": "NESTED_MANUAL_READER.md",
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/MARCO/sub_agents/TOURISM/CLAUDE.md",
+      "bytes": 10115,
+      "sha256": "9f703d13f5f38dbdff9516295a5a7a4084a4e4e9ad6aec3cbf2a9081e05cd9bd",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "report": "NESTED_MANUAL_READER.md",
+      "unchanged_from_previous_pin": true
+    },
+    {
+      "path": "AGENTS/SAM/red/CLAUDE.md",
+      "bytes": 6407,
+      "sha256": "1ef8c775bd1061261e4f4cf5204c9cd8e021f25c57516a70d45968bbe76c1f73",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED",
+      "report": "NESTED_MANUAL_READER.md",
+      "unchanged_from_previous_pin": true
+    }
+  ],
+  "nested_count": 9,
+  "scope_note": "60-file denominator unchanged:43 full primary/canon,1 supporting partial(FERT),16 unaudited;17 incomplete. Nine nested charters full separately, dependencies partial. Twenty additional full primary dispositions in tranche3; hashing never read credit. Partial size is whole-source bytes, not bytes read. No agent/runtime certification or clock/grade reset.",
+  "support_evidence": "Four TRANCHE3 raw readers and three challenges with exact support depths/hashes; SHARED_INPUTS and OWNER_INPUTS JSON; owner pin distinct from source pin.",
+  "previous_manifest": "CONTINUATION_SCOPE.json",
+  "previous_pin": "e4cab61928bb29824b997bd5009f3be1643426fc"
+}

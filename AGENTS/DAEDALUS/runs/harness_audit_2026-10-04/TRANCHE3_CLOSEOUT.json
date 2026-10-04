@@ -1,0 +1,194 @@
+{
+  "mode": "closeout",
+  "agent": "DAEDALUS",
+  "ts": "20261004T190350Z",
+  "head": "df3497dec0e93ace2010b3aefc29436c1aa93537",
+  "fingerprint": "3a445daa84d0da223f27a0555fc24045f4d90ebbe69192a911734e5aebb5573c",
+  "runner_sha256": "654e0b694faebcfd8d9602ea97c37dd4e2051a8b3724b2fefd073c38b0cfaab7",
+  "steps": [
+    {
+      "id": "C0",
+      "name": "sweeps_due (SELF-ROW \u00b7 DIRECTORY-STALE \u00b7 cadence)",
+      "cmd": [
+        "/usr/bin/python3",
+        "/home/willi/Research-workspace/AGENTS/DAEDALUS/scripts/sweeps_due.py"
+      ],
+      "rc": 2,
+      "class": "UNKNOWN",
+      "reason": "child rc 2 = cannot-certify / outside its contract",
+      "log": "/tmp/claude-1000/daedalus-gate/logs/20261004T190350Z_C0.txt",
+      "findings": [
+        "\u23f0 DUE: Prose-Remedy Census (H-4: remedy carried as prose \u22652 sessions \u2192 code) \u2014 last run 30d ago (cadence 21d, +9d over) \u2192 sweeps/PROSE_REMEDY_SWEEP.md",
+        "\u23f0 DUE: PROME Spine & Will-Facing Surfaces (judgment tail) \u2014 last run 26d ago (cadence 21d, +5d over) \u2192 sweeps/PROME_SWEEP.md",
+        "PROFILE-CLOCK perimeter as-of 2026-10-04: 38 profile(s) attempted (includes retired); 29 dated clocks evaluated; 6 NO-DATED-CLOCK; 3 CANNOT-EVALUATE",
+        "PROFILE-CLOCK 2 CANNOT-EVALUATE \u2014 DAEDALUS: verify metadata or compare named owner stamp before certifying"
+      ]
+    },
+    {
+      "id": "C1",
+      "name": "orphan_check DAEDALUS",
+      "cmd": [
+        "bash",
+        "scripts/orphan_check.sh",
+        "DAEDALUS"
+      ],
+      "rc": 0,
+      "class": "DUE",
+      "reason": "1 self-authored packet(s) uncommitted \u2014 commit them (carve-out \u2460)",
+      "log": "/tmp/claude-1000/daedalus-gate/logs/20261004T190350Z_C1.txt",
+      "findings": [
+        "[likely YOURS] PROME/inbox/2026-10-04_from-DAEDALUS_harness-audit-tranche3.md",
+        "\ud83d\udd34 THE FLAGGED FILES LOOK LIKE PACKETS YOU AUTHORED."
+      ]
+    },
+    {
+      "id": "C2",
+      "name": "consumer_check (declaration-gated)",
+      "cmd": [
+        "python3",
+        "scripts/consumer_check.py",
+        "--agent",
+        "DAEDALUS",
+        "--old/--new",
+        "\u2026"
+      ],
+      "rc": null,
+      "class": "NOT-APPLICABLE",
+      "reason": "declared: no figure superseded this session (--no-superseded)",
+      "log": "/tmp/claude-1000/daedalus-gate/logs/20261004T190350Z_C2.txt",
+      "findings": []
+    },
+    {
+      "id": "C3",
+      "name": "ledger_staleness --nudge DAEDALUS",
+      "cmd": [
+        "/usr/bin/python3",
+        "/home/willi/Research-workspace/scripts/ledger_staleness.py",
+        "--nudge",
+        "DAEDALUS"
+      ],
+      "rc": 1,
+      "class": "DUE",
+      "reason": "child rc 1 = owed work per its contract",
+      "log": "/tmp/claude-1000/daedalus-gate/logs/20261004T190350Z_C3.txt",
+      "findings": []
+    },
+    {
+      "id": "C4",
+      "name": "memory (index-check per slug \u00b7 length cap)",
+      "cmd": [
+        "python3",
+        "scripts/memory_index_check.py",
+        "--strict",
+        "--slug",
+        "\u2026",
+        "&&",
+        "bash",
+        "scripts/check_memory_length.sh"
+      ],
+      "rc": 0,
+      "class": "CLEAN",
+      "reason": "index-check N/A: declared no auto-memory written (--no-memory)",
+      "log": "/tmp/claude-1000/daedalus-gate/logs/20261004T190350Z_C4.txt",
+      "findings": []
+    },
+    {
+      "id": "C5",
+      "name": "claim_check --check weekday",
+      "cmd": [
+        "python3",
+        "scripts/claim_check.py",
+        "--check",
+        "weekday",
+        "<existing paths>"
+      ],
+      "rc": 0,
+      "class": "CLEAN",
+      "reason": "no weekday mismatch in 4 paths",
+      "log": "/tmp/claude-1000/daedalus-gate/logs/20261004T190350Z_C5.txt",
+      "findings": []
+    },
+    {
+      "id": "C6",
+      "name": "PATTERNS_HOT conservation (read-only)",
+      "cmd": [
+        "compare",
+        "PATTERNS_HOT.md",
+        "vs",
+        "PATTERNS.tsv"
+      ],
+      "rc": 0,
+      "class": "CLEAN",
+      "reason": "conservation holds: 186 rows == 72+114 (generated 2026-10-03); NOT checked: whether a row's TEXT changed since generation",
+      "log": "/tmp/claude-1000/daedalus-gate/logs/20261004T190350Z_C6.txt",
+      "findings": []
+    },
+    {
+      "id": "C7",
+      "name": "read_cap_check --agent DAEDALUS (BLOCKING at closeout)",
+      "cmd": [
+        "/usr/bin/python3",
+        "/home/willi/Research-workspace/scripts/read_cap_check.py",
+        "--agent",
+        "DAEDALUS"
+      ],
+      "rc": 0,
+      "class": "CLEAN",
+      "reason": "child rc 0",
+      "log": "/tmp/claude-1000/daedalus-gate/logs/20261004T190350Z_C7.txt",
+      "findings": [
+        "READ-CAP [DAEDALUS] \u2014 cap 54,250 B \u00b7 budget 32,550 B (60%) \u00b7 ALL % BELOW ARE OF BUDGET (the number every verdict grades; \u2265100% = over) \u00b7 perimeter: DECLARED in PROME/registry/READS.tsv \u2014 9 cap-bearing (whole/programmatic) measured, 6 declared-not-counted (scoped/grep/summary), 25 manifest row(s) for this desk; 4 of the measured are MEMBERS of 1 cap-bearing CLASS row(s), each measured per member (rule 16); ATTESTED by the desk itself",
+        "\u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 227 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 1,401 B.",
+        "\u25a3 AGENTS/DAEDALUS/inbox/*.md                   declared `whole` \u00b7 CLASS row \u2014 cap-bearing PER MEMBER (rule 16 ruling 2026-09-24): 4 member(s) measured, 0 over budget, 0 over the CAP, largest 8,608 B (26% of budget)  (DAEDALUS:CLAUDE.md-SPAWN-3b)",
+        "READ-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=DAEDALUS reads=9 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_bytes=33509"
+      ]
+    },
+    {
+      "id": "C8",
+      "name": "complete_check (pairing \u00b7 pair-symmetry \u00b7 EVOLUTION placement \u00b7 claim walk-list)",
+      "cmd": [
+        "/usr/bin/python3",
+        "/home/willi/Research-workspace/AGENTS/DAEDALUS/scripts/complete_check.py"
+      ],
+      "rc": 0,
+      "class": "CLEAN",
+      "reason": "child rc 0",
+      "log": "/tmp/claude-1000/daedalus-gate/logs/20261004T190350Z_C8.txt",
+      "findings": []
+    },
+    {
+      "id": "C9",
+      "name": "STATUS stamped today (header + BOTTOM LINE)",
+      "cmd": [
+        "grep",
+        "STATUS.md"
+      ],
+      "rc": 0,
+      "class": "CLEAN",
+      "reason": "header and BOTTOM LINE both stamped today",
+      "log": "/tmp/claude-1000/daedalus-gate/logs/20261004T190350Z_C9.txt",
+      "findings": []
+    },
+    {
+      "id": "C10",
+      "name": "rule-declared-this-session (judgment, DECLARED only)",
+      "cmd": [
+        "declaration"
+      ],
+      "rc": null,
+      "class": "DECLARED",
+      "reason": "operator declares: no rule declared or amended this session",
+      "log": "/tmp/claude-1000/daedalus-gate/logs/20261004T190350Z_C10.txt",
+      "findings": []
+    }
+  ],
+  "counts": {
+    "UNKNOWN": 1,
+    "DUE": 2,
+    "NOT-APPLICABLE": 1,
+    "CLEAN": 6,
+    "DECLARED": 1
+  },
+  "rc": 2,
+  "perimeter": "GATE closeout rc=2 \u00b7 checked: 10 steps ['C0', 'C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8', 'C9'] \u00b7 NOT checked (declared/enumerated only): ['C10'] \u00b7 proves nothing about: completion of work beyond complete_check's legs, owner consumption of packets, the truth of any DECLARED value, or anything a child's own PASS line disclaims."
+}

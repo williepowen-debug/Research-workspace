@@ -1,0 +1,54 @@
+{
+  "head": "e63816cb5f8d5297340455a6839f8bec65028dbe",
+  "captured_utc": "2026-10-04T18:48:43.412820+00:00",
+  "inputs": [
+    {
+      "path": "PROME/ROSTER.md",
+      "bytes": 62790,
+      "sha256": "1796721ce1f8233424232f8ab7c35561c1eb0ea99b572ce9b4590c45fb426aca",
+      "read_depth": "FULL all61765 Unicode characters /267 lines, four consecutive nonoverlapping returns0:15000,15000:30000,30000:45000,45000:EOF; no truncation"
+    },
+    {
+      "path": "MESSAGING/CROSS_SESSION_MESSAGING.md",
+      "bytes": 24388,
+      "sha256": "84bbe2f896360c24248b4be5c684bb3c26588717a4076d4a2981299380a8af04",
+      "read_depth": "FULL all24113 Unicode characters, two returns0:12500,12500:EOF; no truncation"
+    },
+    {
+      "path": "PROME/proposals/2026-09-26_wq-batch-292-296-300-287-257-295-RULED.md",
+      "bytes": 13918,
+      "sha256": "2cdb56b9bdc19967dcc2c4c48e7de1c857b15f0bdfc5345a9f68675c45959bd1",
+      "read_depth": "FULL1:80; relevant R1 ruling19 and encode34; no domain reassessment"
+    },
+    {
+      "path": "PROME/proposals/2026-09-25_wq295-dark-desk-class-PROPOSAL.md",
+      "bytes": 10933,
+      "sha256": "ae988340f7343ba3b3691d08f74dc62fc932860baaae972764bcaca657db1e1d",
+      "read_depth": "PARTIAL disposition3 and R1 lines7:9; located by targeted search, not full proposal"
+    },
+    {
+      "path": "PROME/tools/spawn_list.py",
+      "bytes": 33301,
+      "sha256": "c22b12a9d22231b195ba07f5302ecce0315a7b50068bef4d71e93bf179202525",
+      "read_depth": "PARTIAL195:255 and302:325; read_cadence + collect invocation, not whole main/runtime/waiver"
+    },
+    {
+      "path": "AGENTS/FERT/CLAUDE.md",
+      "bytes": 19931,
+      "sha256": "ebb4a04e01d27b1c45f5ed2f9405f9df016fbbf98f58ed61d9ee4ca0f442df37",
+      "read_depth": "PARTIAL57 and76:95 POTASH scope/benchmark clause; no full charter audit"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/FLEET_DIRECTORY.md",
+      "bytes": 12210,
+      "sha256": "9dcb9551efd4fa8a80feb5f970d7575db532bf55bce608d4d7af5bf1a42763ad",
+      "read_depth": "FULL boot read, RAV presence/current grade locator only; not regrading"
+    },
+    {
+      "path": "AGENTS/RAV/README.md",
+      "bytes": 1809,
+      "sha256": "17baaac1eefe94b0afe715c734906b7af78019850101b83276a9a492a145de1f",
+      "read_depth": "Prior tranche full, current bytes must be compared; RAV existence source, not actual prompt runtime"
+    }
+  ]
+}

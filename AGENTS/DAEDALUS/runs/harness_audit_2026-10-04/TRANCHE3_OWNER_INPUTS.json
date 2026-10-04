@@ -1,0 +1,54 @@
+{
+  "head": "e180106b892f0f65687e6ce90f843fe5abee5b32",
+  "captured_utc": "2026-10-04T18:51:26.148545+00:00",
+  "inputs": [
+    {
+      "path": "PROME/DOCKET.tsv",
+      "bytes": 1315095,
+      "sha256": "3b6e54868576bae4ef64aa82456d3292da0eaaad94eccadf39afe806cdc3e514",
+      "scope": "actual L490 full capacity tail; L41,L309,L471 full; L594 state with NEXUS hosted acceptance; remaining rows not audited"
+    },
+    {
+      "path": "PROME/SCRATCH.md",
+      "bytes": 25693,
+      "sha256": "ed2d0cb25704abed9ca6db822546a5d179723ee82aef0fe95bf0737704cfba1e",
+      "scope": "hold carry21 and checkpoint23, selected context only"
+    },
+    {
+      "path": "PROME/reports/2026-10-04_harness-audit-counterpart-comparison.md",
+      "bytes": 6322,
+      "sha256": "d63ff8f2f4f1013a435dcd6877c259f682c33cc5fcaf7fab8a5b5d399376324e",
+      "scope": "FULL"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/inbox/processed/2026-10-04_from-PROME_harness-audit-counterpart-done.md",
+      "bytes": 2413,
+      "sha256": "64a2957beeb9e3013f27381f3ed43766c22f006dab0b70724cdb3cee73aa4ada",
+      "scope": "FULL"
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/2026-10-04_from-PROME_closeout-recovery-recipe-hold.md",
+      "bytes": 2248,
+      "sha256": "7ce8108b3779f1806773d4e187e07b584afca87ee11d6f6b31d1039b927b4b37",
+      "scope": "FULL"
+    },
+    {
+      "path": "AGENTS/TERRY/CLOSEOUT.md",
+      "bytes": 14275,
+      "sha256": "9f4da2e46cedce9a89495539b3104f5a4bdf7e09d5efac01ffe9df478817ed3b",
+      "scope": "reused prior full read unchanged; critical99 and104:117 unchanged"
+    },
+    {
+      "path": "AGENTS/TERRY/STATUS.md",
+      "bytes": 26588,
+      "sha256": "572958821e884ca280b03434b5b95cd567f959afa32e115bec5691e58c647d85",
+      "scope": "current session header and near-term wake block only; no owner-hold receipt found by targeted search, not full state audit"
+    },
+    {
+      "path": "AGENTS/CATO/runs/2026-10-03_1713_daedalus-catchup-review.md",
+      "bytes": 44661,
+      "sha256": "319fcf1f2dedfff11ea6b710b36ce9d07fc3a6598b2fd30dc176010d114c3075",
+      "scope": "October4 14:36 continuation verification FULL across bounded reads"
+    }
+  ]
+}

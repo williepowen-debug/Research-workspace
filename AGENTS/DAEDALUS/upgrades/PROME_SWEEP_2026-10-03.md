@@ -1,3 +1,5 @@
+> **October4 capacity supersession (L490 e180106b8):** read-only harness continuation is allocated through10/5, target10/6EOD plus ONE PROME consumer read after Monday position work; originalOctober5 remains, WQ379(c) implementation day still unnamed. H2/fullProse conditional overflow10/19 ahead of L603. DC5 corrected; TERRY hold rides existingMondayL592, application/repair unverified. Current detail `runs/2026-10-04_HARNESS_AUDIT_TRANCHE3.md`. No new judgment review/clock/grade or hosted acceptance.
+
 # PROME judgment review — October 3, 2026
 
 **BOUNDED PACKAGE COMPLETE — evidence, required review, delivery and truthful write-back done; whole sweep PARTIAL.** Seven supported, bounded findings; all five judgment legs inspected at the coverage below. Hosted access and complete historical consumer receipts remain UNKNOWN. The whole-sweep clock stays September 8; no clean L5 claim or grade change follows.

@@ -1,3 +1,5 @@
+> **October4 tranche3 supersession:** current coverage43 full/17 incomplete; L490 read/review allocation ACCEPTED e180106b8 (target10/6EOD, original10/5 unchanged), DC5 owner correction CLOSED76d5bb83d. TERRY application/repair still UNVERIFIED; existingMondayL592 hold brief disposition. Historical unallocated/pending text below is the earlier snapshot. Current record: `runs/2026-10-04_HARNESS_AUDIT_TRANCHE3.md`.
+
 # October 4 harness audit — counterpart reconciliation and second bounded tranche
 
 **Result: substantive progress, whole audit PARTIAL.** CATO independently substantiates the first tranche. PROME has consumed it, delivered TERRY an interim hold and completed the four-file counterpart with disclosed prior exposure. DAEDALUS corrected its comparison, completed ten more primary/canonical file reads and nine nested charter reads, and retained additional source-text conflicts with their counterexamples. No owner harness repair, new tool/control, maturity promotion or audit completion is claimed.
