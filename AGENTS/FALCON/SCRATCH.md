@@ -1,43 +1,40 @@
-# FALCON SCRATCH — 2026-10-02 (touch 1, early PM)
+# FALCON SCRATCH — 2026-10-04 (bounded PROME spawn, prome-ed, ~17:25–17:5x ET)
 
 ## CURRENT MARKS
-**B 1 / C 14 / D 85** (unchanged; HELD 10/02). Convergence 43/50 unchanged. **1 OPEN: FAL-06 (70%, to 11/05).** **Production rung D 85→92 REGISTERED 10/01 21:40 ET (WQ-355): ARMED, NOT FIRED** (Yanbu 10/01 is terminal class, OUT; no counting-source Ghawar found 10/02). GATE-FALCON-001 LIVE; **leg 2 PROVISIONAL letter (WQ-353): NOT FIRED** (TankerMap 23:19Z 10/01: 7d 80, +167% w/w — wrong sign; next review_by 10/06). WARRISK falsifier LIT; Bab AWRP row expired +60d. **Losses stay 3.** No settle-count clock; step 12b no-op.
+**B 1 / C 14 / D 85** (unchanged; HELD 10/04). Convergence 43/50 unchanged. **1 OPEN: FAL-06 (70%, to 11/05).** **Production rung D 85→92 (WQ-355): ARMED, NOT FIRED.** GATE-FALCON-001 LIVE; leg 2 PROVISIONAL, NOT FIRED at the last read (10/01); **review_by 10/06**. WARRISK falsifier LIT; 4 rows expire 10/06 (+2d), Bab AWRP row expired +62d. **Losses stay 3.** No settle-count clock; step 12b no-op.
 
-## CHANGES SINCE LAST SESSION (touch 3 ~21:5x ET 10/01 → touch 1 ~14:1x ET 10/02)
-- PROME-spawned Tier-2 bounded session: Will's "ok lets open up the rest of the agents you mentioned spawning earlier." Not Will-launched; spawned-mode discipline (no push, no pull on dirty tree).
-- 5 WALTER signals drained + 1 post-closeout-ask repair: -1002-003 Roosevelt relief + Makin Island +9-10K troops (noted); -1002-008 Houthi push on Taiz (noted); -1002-014 Yanbu port strike 10/01, projectile in port + fire near tank farm (acted); -1002-016 Yanbu correction, TERMINAL-WIDE suspension on stronger source (acted); -1002-017 UKMTO 147-26 = KAZIMAH III (KOTC VLCC) by trade press (acted); -1002-018 CORRECTION to -017: there WAS a new 10/02 1122Z Hormuz hit, unnamed outbound, afloat (acted, repair pass). All six grade NOTED by letter — nothing fires.
-- UKMTO 146-26 / 147-26 reconciled: 146 = AL RUWAIS (9/29 late report, by elimination); 147 = KAZIMAH III (10/01, 1750Z, named by trade press 10/02).
-- VI-2026-0042 identity UNIDENTIFIED → **KAZIMAH III** (Kuwait VLCC, KOTC); pattern-watch note: second KOTC VLCC in 4 days after AL FUNTAS.
-- KB-230..234; board_log ×5; inbox 5/5 `git mv`'d to `processed/`.
+## CHANGES SINCE LAST SESSION (10/02 ~14:4x ET → 10/04 ~17:25 ET)
+- 10/03: PROME read-only pre-fetch of SIG-W-20261003-012/-013 ("nothing fires", items left unconsumed by design).
+- 10/04: WALTER dispatched -005 (UKMTO 150-26 + closure restatement), -010 (Houthi Khurais CLAIM, disputed; Aramco plume S of Riyadh; Bab near-miss; Petroline PS-2 unconfirmed), -011 (Iraq VLCC bypass, info). CATO baseline §BF3; WALTER Bright Data fetch `7525bb064` (portal reached, 150-26 NOT obtained).
 
-## WHAT I DID THIS SESSION (PROME-spawned Tier-2, bounded, L0 drain + reconcile)
-- Explicit boot reads (root CLAUDE/AGENTS/USER, FALCON CLAUDE/STATUS/SCRATCH/MEMORY/HAS_MEMORY_CARRIED_OPEN). Ran 5a (FLOW +165d known), 5a-2 (WARRISK file ok +7d), 5a-3 (Bab AWRP row expired +60d, Will-ruled no re-pull), 5b-2 (Hormuz DEEPENING unchanged; print 9/27, 5d old), 5b-3 (Bypass HOLDING, trail 122,458 vs floor 29,590), 7b (clean on NAMED rows; 1 broadcast ALL-row warn, 9/25 non-blocking). SKIPPED: 5b baghdad (demoted), 5b-4 kharg (impeached), 5c sweep already through 10/01 (in-window; no new PRODUCTION rows for 10/01-10/02 — Yanbu is terminal class), CTP-ISW read (carried to 10/03).
-- Session report: `reports/2026-10-02_falcon-l0-drain-ukmto-reconcile-yanbu-grade.md` (grades each signal against the registered letter; reconcile 146/147; decision read for Will).
-- No PRODUCTION ledger write (no new production facility events; Yanbu 10/01 is terminal class, by STRIKES.tsv's own facilities-only scope + the production rung letter — not rowed).
-- NO pull (shared dirty tree held by PROME + DAEDALUS; SessionStart banner "5 path(s) — may be another agent's live work"; verified: all 5 are PROME/DAEDALUS paths). NO push (spawned mid-session discipline).
+## WHAT I DID THIS SESSION (bounded: ONE item, Will's word via PROME)
+- Adjudicated SIG-W-20261004-005 / UKMTO 150-26 → `reports/2026-10-04_falcon-ukmto-150-26-adjudication.md`.
+  - (a) Source: **CANNOT-AUTHENTICATE at primary** (ukmto.org Cloudflare 403 to curl + WebFetch, incl. the inferred product PDF URL and the search-indexed 148-26 URL; MSCIO mirror lags at 134-26; WALTER BD "0 reports" shell = NOT OBTAINED). **Content corroborated** by Arab Times (names 150-26), Reuters/MEE, Arab News. Event B2.
+  - (b) Identity: **NEW event, VI-2026-0045 (INFERRED)**. Event date UNKNOWN (TBC). **Found + fixed an own-ledger miss: 149-26 (10/02 2142Z, crude tanker ~4 nm E of Oman) backfilled as VI-2026-0044.** VI-0043 mapped to 148-26 (Ambrey: Panama flag → resolves WALTER -018's "Panama inbound", INFERRED).
+  - (c) Screenshot = STRIKE (not sinking, not mine). Account's "9 in 5 days" NOT SUPPORTED (8 hulls 9/28–10/04, max 7 in 5 days); "highest rate" contradicted (9/05–9/09 = 10). Fars-via-SBS IRGC 7-tanker claim = F3, watch.
+- KB-FALCON-236..239; VESSELS (2 new rows, 2 annotated, data clock 10/04); board_log ×2; 2 items `git mv`'d to processed.
+- Boot checks run: 5a (FLOW +166d, known), 5a-2/5a-3 (WARRISK rows +2d; Bab expired +62d), 5b-2 (Hormuz DEEPENING, newest print 9/25–9/27, no new prints), 5b-3 (bypass HOLDING 122,458 vs floor 29,590), 5c (STRIKES swept through 10/01; no new facility rows in scope), 7b (PASS). SKIPPED: 5b baghdad (demoted), 5b-4 kharg (impeached), web sweep beyond 150-26 (bounded scope), CTP-ISW Iraq read (still owed).
+- NO pull (shared dirty tree: WALTER + PROME paths). NO push (spawn order: PROME pushes).
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **2026-10-03:** CTP-ISW + Shafaq Iraq read for 9/30-10/03 (owed from 10/01, carried twice).
-2. **2026-10-06:** GATE-FALCON-001 review on PROVISIONAL leg-2 letter (TankerMap read; apply R1/R2/R3 as written).
+1. **BEFORE 2026-10-06:** consume SIG-W-20261004-010 — **Khurais = PRODUCTION class**: a counting-source (state/operator/CENTCOM/named wire) confirmation of a hostile hit FIRES the rung D 85→92, C 14→7 → PROME first line, same hour. WALTER verify found Aramco silent, coalition says "misleading", a plume at an Aramco facility S of Riyadh (not Khurais).
+2. **2026-10-06:** GATE-FALCON-001 review on the PROVISIONAL leg-2 letter (TankerMap read; R1/R2/R3 as written).
 3. **2026-10-08:** 7-day scenario review.
-4. Yanbu: any Aramco/MoE/SPA wire report of a terminal incident ⇒ IMMEDIATE to PROME + HAWK cc (route class, OUT of production rung by letter, but material to FAL-06 route-(b)/(c) watch).
-5. Ghawar/any Gulf production site: a counting source confirming a hostile strike ⇒ grade on EXIT §2a and message PROME FIRST LINE, same hour.
-6. Kpler/Vortexa weekly Saudi crude export print covering 9/29→ for FAL-06 route (c) grading.
-7. Pattern-watch (not a letter): any THIRD KOTC-linked hull hit ⇒ same-hour note to PROME + HAWK (Kuwait-specific targeting shift?).
+4. Drain the rest of `inbox/WALTER/` (10/02 -025/-026/-033; 10/03 -001/-003/-012/-013; 10/04 -010/-011) + PROME's 10/03 pre-fetch note.
+5. Watches from 10/04: 150-26 hull name / NUC / CTL; KAZIMAH III "Abandoned" (tertiary); Fars 7-tanker claim primary; 150-26 primary authentication (exact URL in the report — PROME's Bright Data call).
+6. CTP-ISW + Shafaq Iraq read (owed since 10/01, carried 3×).
 
 ## OPEN THREADS / WATCHES
 - 🔴 CARRIED OPEN (MEMORY.md): KB-168 Yanbu terminus proxy unbuilt.
-- GATES cell vs letter wording (sent to PROME 10/01, PROME's call).
-- FRESH_LEG_BASELINE.md over read cap; hot/cold split owed (not boot-read whole, but consumers' surface).
-- VESSELS backfill: El Gaia 9/13, St Helena 9/14, Trend 9/16, STI Steadfast 9/18. AL FUNTAS UKMTO number unknown.
-- VX sweep owed (rows stamped 9/08–9/11). HAWK 9/16 ask (b) carried. AL RUWAIS type/flag and MERSIN flag conflicts unresolved.
-- Petroline 5.5 mb/d one-source: watch for Aramco/MoE or second named vendor.
+- Pattern-watch: KOTC-concentrated hits (AL FUNTAS + KAZIMAH III); a 3rd Kuwait hit ⇒ same-hour note to PROME + HAWK. 150-26 hull unnamed.
+- Yanbu/Ghawar IMMEDIATE triggers unchanged (see STATUS Owed). Petroline 5.5 mb/d one-source. Kpler/Vortexa weekly Saudi print for FAL-06 route (c).
+- VESSELS backfill: El Gaia 9/13, St Helena 9/14, Trend 9/16, STI Steadfast 9/18; AL FUNTAS UKMTO number. VX sweep owed. FRESH_LEG_BASELINE hot/cold split owed.
 
 ## PREDICTIONS DUE / DECISIONS PENDING
-1 OPEN (FAL-06, 70%, 2026-11-05). No trade (WQ-192 holds). No Will decision pending from this desk tonight.
+1 OPEN (FAL-06, 70%, 2026-11-05) — 150-26 is a hull strike, not a crude-supply loss; unaffected. No trade (WQ-192). No Will decision from this desk. One PROME call offered: spend 1 Bright Data request on the exact 150-26 product URL.
 
 ## MAIL STATE
-Inbox 0 after the 10/02 drain + -018 repair (WALTER -003/-008/-014/-016/-017/-018). Out: `PROME/inbox/2026-10-02_from-FALCON_l0-drain-ukmto-reconcile-yanbu-grade.md` + follow-up `SendMessage` to PROME with the -018 amendment line.
+In: 2 consumed (PROME 150-26 packet; WALTER -005). 10 unconsumed (9 WALTER + PROME 10/03 note). Out: `PROME/inbox/2026-10-04_from-FALCON_ukmto-150-26.md` + SendMessage COMPLETION block.
 
 ## PENDING PUSH / GIT
-Exact-path commits by this desk; **NO auto-push** (spawned-mode discipline — root CLAUDE.md §Git Protocol and FALCON's spawn boot card §4). Dirty tree still holds PROME/DAEDALUS paths — not mine.
+Exact-path commits by this desk; **NOT pushed** (spawn order: PROME pushes the train at its closeout). Foreign dirty paths (WALTER bookmarks JSON, PROME WQ ledger) are not mine.
