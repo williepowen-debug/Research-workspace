@@ -1,4 +1,4 @@
-# WALTER Signal Format Specification v0.23
+# WALTER Signal Format Specification v0.24
 
 **v0.24 (2026-10-04):** Adds **`RU_STATE_ACTOR` (→ YURI)** — the 21st canonical domain. YURI (Russia actor-keyed intent desk, DAEDALUS-wired 2026-09-24 on Will's WQ-267 word) had been registered with **NO domain code and NO routing row**, so no domain line could route a Russia-state-actor signal to it — the same quiet mis-filing failure mode `EUROPE_MACRO` (v0.17) closed, one step earlier: here there was no lane at all, not a wrong one. Inline enum-add, small-change rule; **Will sign-off 2026-10-04 in-session ("yes go ahead").** Scope + the boundaries vs OSPREY's strike ledger (`GEOPOL_ENERGY`) and HAWK's NATO reaction are WALTER's placement from YURI's charter; YURI can refine them when it next boots. Propagates to ROUTING_TABLE v0.40 (routing row) + REGISTRY (YURI Domain cell) + STATE §1 (propagation flagged, not yet executed).
 
