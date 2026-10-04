@@ -1,0 +1,660 @@
+{
+  "pin": "e63816cb5f8d5297340455a6839f8bec65028dbe",
+  "counts": {
+    "FULL_TEXT_READ_DISPOSITION_PROPOSED": {
+      "files": 43,
+      "whole_source_bytes": 1325694
+    },
+    "NOT_AUDITED": {
+      "files": 16,
+      "whole_source_bytes": 504478
+    },
+    "PARTIAL_CLAUSE_READ": {
+      "files": 1,
+      "whole_source_bytes": 19931
+    }
+  },
+  "source_changes_since_continuation": [],
+  "coverage_changes": [
+    {
+      "path": "AGENTS/BRENT/CLAUDE.md",
+      "old": "NOT_AUDITED",
+      "new": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "AGENTS/BROCK/CLAUDE.md",
+      "old": "NOT_AUDITED",
+      "new": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "AGENTS/CARL/CLAUDE.md",
+      "old": "PARTIAL_CLAUSE_READ",
+      "new": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "AGENTS/FALCON/CLAUDE.md",
+      "old": "NOT_AUDITED",
+      "new": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "AGENTS/FERT/CLAUDE.md",
+      "old": "NOT_AUDITED",
+      "new": "PARTIAL_CLAUSE_READ"
+    },
+    {
+      "path": "AGENTS/HAWK/CLAUDE.md",
+      "old": "NOT_AUDITED",
+      "new": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "AGENTS/HENRY/CLAUDE.md",
+      "old": "NOT_AUDITED",
+      "new": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "AGENTS/LABOR/CLAUDE.md",
+      "old": "NOT_AUDITED",
+      "new": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "AGENTS/MARCO/CLAUDE.md",
+      "old": "PARTIAL_CLAUSE_READ",
+      "new": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "AGENTS/NEXUS/CLAUDE.md",
+      "old": "NOT_AUDITED",
+      "new": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "AGENTS/OZK/CLAUDE.md",
+      "old": "NOT_AUDITED",
+      "new": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "AGENTS/RED/CLAUDE.md",
+      "old": "PARTIAL_CLAUSE_READ",
+      "new": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "AGENTS/REGINALD/CLAUDE.md",
+      "old": "NOT_AUDITED",
+      "new": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "AGENTS/SAM/CLAUDE.md",
+      "old": "PARTIAL_CLAUSE_READ",
+      "new": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "AGENTS/SHADE/CLAUDE.md",
+      "old": "NOT_AUDITED",
+      "new": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "AGENTS/VIOLET/CLAUDE.md",
+      "old": "NOT_AUDITED",
+      "new": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "AGENTS/VULCAN/CLAUDE.md",
+      "old": "NOT_AUDITED",
+      "new": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "AGENTS/WATT/CLAUDE.md",
+      "old": "NOT_AUDITED",
+      "new": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "AGENTS/ZHAO/CLAUDE.md",
+      "old": "NOT_AUDITED",
+      "new": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "MESSAGING/CROSS_SESSION_MESSAGING.md",
+      "old": "PARTIAL_CLAUSE_READ",
+      "new": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "PROME/ROSTER.md",
+      "old": "PARTIAL_CLAUSE_READ",
+      "new": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    }
+  ],
+  "identity_errors": [],
+  "original_manifest_unchanged": true,
+  "receipts": [
+    {
+      "commit": "ea2284e05",
+      "on_origin": true,
+      "paths": [
+        "AGENTS/DAEDALUS/HANDOFF.md",
+        "AGENTS/DAEDALUS/STATUS.md",
+        "AGENTS/DAEDALUS/runs/2026-10-04_HARNESS_AUDIT_CONTINUATION.md",
+        "AGENTS/DAEDALUS/runs/2026-10-04_HARNESS_AUDIT_TRANCHE3.md",
+        "AGENTS/DAEDALUS/runs/2026-10-04_HARNESS_AUDIT_TRANCHE3_DELIVERY.txt",
+        "AGENTS/DAEDALUS/runs/2026-10-04_HARNESS_AUDIT_TRANCHE3_READER_REPORTS.md",
+        "AGENTS/DAEDALUS/runs/GATE_LOG.tsv",
+        "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/COUNTERPART_RECONCILIATION.md",
+        "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_CAPACITY_DOORBELL.json",
+        "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_CLOSEOUT.json",
+        "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_CREDIT_MARKET_CHALLENGE.md",
+        "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_CREDIT_READER.md",
+        "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_MARKET_READER.md",
+        "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_OWNER_INPUTS.json",
+        "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_RESULT_CHALLENGE.md",
+        "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_SCOPE.json",
+        "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_SHARED_CHALLENGE.md",
+        "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_SHARED_INPUTS.json",
+        "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_SHARED_READER.md",
+        "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_TRANSMISSION_CHALLENGE.md",
+        "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_TRANSMISSION_READER.md",
+        "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_VERIFICATION.json",
+        "AGENTS/DAEDALUS/sweeps/HARNESS_AUDIT_SWEEP.md",
+        "AGENTS/DAEDALUS/sweeps/REGISTRY.tsv",
+        "AGENTS/DAEDALUS/upgrades/PROME_SWEEP_2026-10-03.md",
+        "PROME/inbox/2026-10-04_from-DAEDALUS_harness-audit-tranche3.md"
+      ]
+    },
+    {
+      "commit": "9cb3b3c62",
+      "on_origin": true,
+      "paths": [
+        "AGENTS/DAEDALUS/runs/2026-10-04_HARNESS_AUDIT_TRANCHE3_DELIVERY.txt",
+        "AGENTS/DAEDALUS/runs/GATE_LOG.tsv",
+        "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_DELIVERY_DOORBELL.json",
+        "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_VERIFY.json",
+        "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_VERIFY_SANDBOX_UNKNOWN.json"
+      ]
+    }
+  ],
+  "origin": "a7e5077a0c73807e5bacbeb15a9a0f564fd59c7e",
+  "all_raw_table_entries": [
+    {
+      "report": "CREDIT",
+      "path": "AGENTS/CARL/CLAUDE.md",
+      "bytes": 48543,
+      "sha256": "92b5156d8e78ecd3d0cc1af4093dd20d3316c7f7c6ecee00a2cfe196a48ee0ef",
+      "match": true
+    },
+    {
+      "report": "CREDIT",
+      "path": "AGENTS/MARCO/CLAUDE.md",
+      "bytes": 32617,
+      "sha256": "12bfc3a37db67f65eb16b73a2e835d120cf2f7a7d8b14bad3c374f6d76af0d76",
+      "match": true
+    },
+    {
+      "report": "CREDIT",
+      "path": "AGENTS/LABOR/CLAUDE.md",
+      "bytes": 52995,
+      "sha256": "0834814f5b77bad2bab9cd691489d3af9c17c4edef0068f2493c2ae649b9c36f",
+      "match": true
+    },
+    {
+      "report": "CREDIT",
+      "path": "AGENTS/HENRY/CLAUDE.md",
+      "bytes": 35627,
+      "sha256": "b60dd9b91eecbbd64002f500d5ee82aad6fa1242b3b123c2e75e014bde17cd69",
+      "match": true
+    },
+    {
+      "report": "CREDIT",
+      "path": "AGENTS/REGINALD/CLAUDE.md",
+      "bytes": 43200,
+      "sha256": "8d353ba70fb3d65385ae36951de6a02b9701f9f6f15ace3c90cd8a3398b1872f",
+      "match": true
+    },
+    {
+      "report": "CREDIT",
+      "path": "AGENTS/NEXUS/CLAUDE.md",
+      "bytes": 69924,
+      "sha256": "573cf81c5af677ac29aad894fbb0d8126efe68a8d2e194b6e332fbafa1c42097",
+      "match": true
+    },
+    {
+      "report": "CREDIT",
+      "path": "CLAUDE.md",
+      "bytes": 24199,
+      "sha256": "1b176d7b3c619a78dbabe4128f23451fa32a074554f391804707aec7623a3c73",
+      "match": true
+    },
+    {
+      "report": "CREDIT",
+      "path": "AGENTS/DAEDALUS/sweeps/HARNESS_AUDIT_SWEEP.md",
+      "bytes": 2889,
+      "sha256": "0001687baea42583a7885f4541dc14f1db3a6e56139afacda3ddb43dbfd34951",
+      "match": true
+    },
+    {
+      "report": "CREDIT",
+      "path": "AGENTS/DAEDALUS/HARNESS_AUDIT_2026-07-07.md",
+      "bytes": 14096,
+      "sha256": "c41b14421996c461ac3313438e76c1135d3fc7486928a19c6912123763f4612d",
+      "match": true
+    },
+    {
+      "report": "CREDIT",
+      "path": "AGENTS/DAEDALUS/BLUEPRINTS/READ_CAP.md",
+      "bytes": 25080,
+      "sha256": "a326afd037cc5e037cd9673a011ad7c21bc5990156f9ae645af6f66576cf90a8",
+      "match": true
+    },
+    {
+      "report": "CREDIT",
+      "path": "AGENTS/CARL/scripts/boot.py",
+      "bytes": 11873,
+      "sha256": "b84922d9551f3ba21846873cb3c56910348f74c09b4f8300226a1303909ffbbb",
+      "match": true
+    },
+    {
+      "report": "CREDIT",
+      "path": "AGENTS/CARL/scripts/board_gap.py",
+      "bytes": 7806,
+      "sha256": "88cccecd7479ed33ebafa2843e7077165cb2868ad81909a97156fceff20d1087",
+      "match": true
+    },
+    {
+      "report": "CREDIT",
+      "path": "AGENTS/CARL/scripts/consistency_check.py",
+      "bytes": 60338,
+      "sha256": "542792009b9a1885c3d7eb4f9f5eb52be50d72350c136327d24ddd6907f60b88",
+      "match": true
+    },
+    {
+      "report": "CREDIT",
+      "path": "AGENTS/LABOR/scripts/boot.py",
+      "bytes": 10466,
+      "sha256": "d5bc7a04d667be81beed8006f0ac3ba38aa5d0f72e0999074a6cf83c8bca1a5e",
+      "match": true
+    },
+    {
+      "report": "CREDIT",
+      "path": "AGENTS/LABOR/scripts/spine_check.py",
+      "bytes": 10345,
+      "sha256": "4e206d3cb8d7fed656cd3b6178013ed4ebbd3a162a6eac0e1d171f5b0e9b3093",
+      "match": true
+    },
+    {
+      "report": "CREDIT",
+      "path": "scripts/corrections_boot_check.py",
+      "bytes": 25458,
+      "sha256": "a60120317679154b97390c3e6519d2255e6a43f7753215b08e19c13c820c1110",
+      "match": true
+    },
+    {
+      "report": "CREDIT",
+      "path": "AGENTS/HENRY/workbook/KB.tsv",
+      "bytes": 120320,
+      "sha256": "b357e382052951340a2d01b73f25e7e363c32d795735e5a4cf16e4c5f785330d",
+      "match": true
+    },
+    {
+      "report": "CREDIT",
+      "path": "AGENTS/MARCO/scripts/boot.py",
+      "bytes": 15857,
+      "sha256": "4960dcaba0abc4c45b262112ba435105b812116fca25dc9100ca78b7a9cc5126",
+      "match": true
+    },
+    {
+      "report": "MARKET",
+      "path": "AGENTS/SAM/CLAUDE.md",
+      "bytes": 41591,
+      "sha256": "e684b27d2683fb115e6d6e6a82396ec1c9027cc22675d22e80672408c88f391c",
+      "match": true
+    },
+    {
+      "report": "MARKET",
+      "path": "AGENTS/RED/CLAUDE.md",
+      "bytes": 42457,
+      "sha256": "e3406674f3dbaaee5c384aca71fd72b96a08ae84edb535944dbcd106bb18b5ad",
+      "match": true
+    },
+    {
+      "report": "MARKET",
+      "path": "AGENTS/VIOLET/CLAUDE.md",
+      "bytes": 27215,
+      "sha256": "7ada4238628ba5d3913f25a89841435378861743f747caf61e4c9e49d7b6b390",
+      "match": true
+    },
+    {
+      "report": "MARKET",
+      "path": "AGENTS/SHADE/CLAUDE.md",
+      "bytes": 23407,
+      "sha256": "d86a527a423c7924ddb9b8fbdcb602755ccddad15bf30e182bdde1e2b4c4696d",
+      "match": true
+    },
+    {
+      "report": "MARKET",
+      "path": "AGENTS/BROCK/CLAUDE.md",
+      "bytes": 30957,
+      "sha256": "ef94ba4ed7c3b344302e759054355184e417b7d7612006a4eeaa925349917b8c",
+      "match": true
+    },
+    {
+      "report": "MARKET",
+      "path": "AGENTS/OZK/CLAUDE.md",
+      "bytes": 28236,
+      "sha256": "923c3de40a9a9775ae11e6665ec35d916170a4edb07139fcd25360e74cd7e5cc",
+      "match": true
+    },
+    {
+      "report": "MARKET",
+      "path": "CLAUDE.md",
+      "bytes": 24199,
+      "sha256": "1b176d7b3c619a78dbabe4128f23451fa32a074554f391804707aec7623a3c73",
+      "match": true
+    },
+    {
+      "report": "MARKET",
+      "path": "AGENTS.md",
+      "bytes": 4991,
+      "sha256": "9b126769cbc278fad34b97c7d51806f7ef8966486c305389896c983bbd86585e",
+      "match": true
+    },
+    {
+      "report": "MARKET",
+      "path": "AGENTS/SAM/scripts/boot.py",
+      "bytes": 18654,
+      "sha256": "dcc953ac486cb399b233331327e25aa919eb878c71b749c37eec583ccc03cdde",
+      "match": true
+    },
+    {
+      "report": "MARKET",
+      "path": "AGENTS/SAM/scripts/lib/boot_context.py",
+      "bytes": 10909,
+      "sha256": "1a136cb14efd3e2b2de66ea23219042c8e53acae7eac11bb3059b98b0d125efc",
+      "match": true
+    },
+    {
+      "report": "MARKET",
+      "path": "AGENTS/SAM/scripts/closeout_check.py",
+      "bytes": 37191,
+      "sha256": "9a1b5bf9c20c2f6e5bcf94e8cd59f4873aa242a7df5b4f481b4bf212b97ea9b8",
+      "match": true
+    },
+    {
+      "report": "MARKET",
+      "path": "AGENTS/RED/scripts/boot.py",
+      "bytes": 31029,
+      "sha256": "e96db4daba3c74e7b8251c5b664f72e40e9ef55f59934dd8001d6f671225fcf0",
+      "match": true
+    },
+    {
+      "report": "MARKET",
+      "path": "AGENTS/RED/scripts/board_log_append.py",
+      "bytes": 5838,
+      "sha256": "8fcffa59a7ef18faeca0f5597632cbd7a4d1655b38301964e26d5898b510900e",
+      "match": true
+    },
+    {
+      "report": "MARKET",
+      "path": "AGENTS/RED/workbook/FLOW.tsv",
+      "bytes": 3296,
+      "sha256": "6ba3c7e26a84cc20be70004ec9cbdad52e1db4c74f204ea79bce7d50a26614d6",
+      "match": true
+    },
+    {
+      "report": "MARKET",
+      "path": "AGENTS/VIOLET/scripts/boot.py",
+      "bytes": 10526,
+      "sha256": "69965d868869d556710b98cc08b404a305635165c185640564f6c2565f97743e",
+      "match": true
+    },
+    {
+      "report": "MARKET",
+      "path": "AGENTS/VIOLET/scripts/closeout_guard.py",
+      "bytes": 9223,
+      "sha256": "e5e5a356344be4c37e9a662486414833ae9b8aeadc45c063e2b0a6670d67ed23",
+      "match": true
+    },
+    {
+      "report": "MARKET",
+      "path": "AGENTS/BROCK/scripts/brock_selfcheck.py",
+      "bytes": 6829,
+      "sha256": "dc8fa55787689012bb1a4df1c12e142a6a947c4a58865d167e04abcae8e4bb36",
+      "match": true
+    },
+    {
+      "report": "MARKET",
+      "path": "AGENTS/OZK/scripts/boot.py",
+      "bytes": 16751,
+      "sha256": "38b0f120680e0528a18ff8c67a01ce453c50134bd021f8b048fe9eea1ddb6ab8",
+      "match": true
+    },
+    {
+      "report": "TRANSMISSION",
+      "path": "AGENTS/VULCAN/CLAUDE.md",
+      "bytes": 81862,
+      "sha256": "5f66a766074bb14b7aac2a10c812cdd7ed576803dc6dac7cb88adaaa3419cc0d",
+      "match": true
+    },
+    {
+      "report": "TRANSMISSION",
+      "path": "AGENTS/ZHAO/CLAUDE.md",
+      "bytes": 32528,
+      "sha256": "9e0f464520032ab34e0a937a702ada0531392f527e11ee15fcd0fcded35e54ec",
+      "match": true
+    },
+    {
+      "report": "TRANSMISSION",
+      "path": "AGENTS/HAWK/CLAUDE.md",
+      "bytes": 28271,
+      "sha256": "f0ad39e1b5f5a933a40f0ba209ec33f0bb7abd3c65928258fc027650269fac9b",
+      "match": true
+    },
+    {
+      "report": "TRANSMISSION",
+      "path": "AGENTS/FALCON/CLAUDE.md",
+      "bytes": 50009,
+      "sha256": "a640316403d8869b47d9ebe21628c419a923189e84de11ace772875fc06e36ce",
+      "match": true
+    },
+    {
+      "report": "TRANSMISSION",
+      "path": "AGENTS/BRENT/CLAUDE.md",
+      "bytes": 31387,
+      "sha256": "d14868832ca65ae620206f587cbea7b1ce84dec23b415e85eff49604dd3067ff",
+      "match": true
+    },
+    {
+      "report": "TRANSMISSION",
+      "path": "AGENTS/WATT/CLAUDE.md",
+      "bytes": 18364,
+      "sha256": "6e1e14cec1addfd206287975f75e96974604bd5ce35e2eb208dbe0f4174b1953",
+      "match": true
+    },
+    {
+      "report": "TRANSMISSION",
+      "path": "CLAUDE.md",
+      "bytes": 24199,
+      "sha256": "1b176d7b3c619a78dbabe4128f23451fa32a074554f391804707aec7623a3c73",
+      "match": true
+    },
+    {
+      "report": "TRANSMISSION",
+      "path": "AGENTS/DAEDALUS/BLUEPRINTS/READ_CAP.md",
+      "bytes": 25080,
+      "sha256": "a326afd037cc5e037cd9673a011ad7c21bc5990156f9ae645af6f66576cf90a8",
+      "match": true
+    },
+    {
+      "report": "TRANSMISSION",
+      "path": "AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md",
+      "bytes": 32141,
+      "sha256": "8d8c279c4c56416e5fa34f77b088b6af96d7d34b8269c04c881423526e2f8955",
+      "match": true
+    },
+    {
+      "report": "TRANSMISSION",
+      "path": "AGENTS/WATT/boot.py",
+      "bytes": 13499,
+      "sha256": "f6d5aa2092d0d1d3c691053e229a9e9ac17bce673b3518e0888d34e0c77104ee",
+      "match": true
+    },
+    {
+      "report": "TRANSMISSION",
+      "path": "AGENTS/BRENT/scripts/boot.py",
+      "bytes": 25047,
+      "sha256": "821188a0d0f9ec9bb3d667853dfdfd96a977035722d67e1cb6ab7b08423f0c1d",
+      "match": true
+    },
+    {
+      "report": "TRANSMISSION",
+      "path": "AGENTS/ZHAO/scripts/boot.py",
+      "bytes": 13822,
+      "sha256": "9d30678c4ea8afcbf388be5c89df240c27cccaac921c9d5b2fcf84520ea929b1",
+      "match": true
+    },
+    {
+      "report": "TRANSMISSION",
+      "path": "AGENTS/VULCAN/boot.py",
+      "bytes": 21833,
+      "sha256": "7151b4228c08d68a09ea1102abef766eda23a369174dfc378c732a0e16662bf7",
+      "match": true
+    },
+    {
+      "report": "TRANSMISSION",
+      "path": "AGENTS/HAWK/scripts/derived_freshness.py",
+      "bytes": 5341,
+      "sha256": "6fbae2e7915272a339c5c12fcf71d8da34cb8b44dafac28b5692029d72a92ea5",
+      "match": true
+    },
+    {
+      "report": "TRANSMISSION",
+      "path": "AGENTS/HAWK/scripts/boot.py",
+      "bytes": 7673,
+      "sha256": "ed8f259825336871dc8a3a188b7207938f6ed0547a517549fffcc633b0cd62cd",
+      "match": true
+    },
+    {
+      "report": "TRANSMISSION",
+      "path": "AGENTS/FALCON/scripts/kharg_loadings_watch.py",
+      "bytes": 5996,
+      "sha256": "79a2577a6e3b8cdedfe8335054c94a3d4a1ec8b21874618292623cca4c0e1c51",
+      "match": true
+    },
+    {
+      "report": "TRANSMISSION",
+      "path": "scripts/read_cap_check.py",
+      "bytes": 121055,
+      "sha256": "ff77e3136e36ce474bc5338092afc2b422a32db8bf4d3e14a51ac6720d4e4c03",
+      "match": true
+    }
+  ],
+  "primary_nested_raw_unique_paths": 99,
+  "all_raw_table_errors": [],
+  "final_review_artifact_identities": [
+    {
+      "path": "AGENTS/DAEDALUS/runs/2026-10-04_HARNESS_AUDIT_TRANCHE3.md",
+      "match": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/2026-10-04_HARNESS_AUDIT_TRANCHE3_READER_REPORTS.md",
+      "match": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_SCOPE.json",
+      "match": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/CONTINUATION_SCOPE.json",
+      "match": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_CREDIT_MARKET_CHALLENGE.md",
+      "match": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_TRANSMISSION_CHALLENGE.md",
+      "match": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_SHARED_CHALLENGE.md",
+      "match": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_MARKET_READER.md",
+      "match": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_CREDIT_READER.md",
+      "match": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_TRANSMISSION_READER.md",
+      "match": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_SHARED_READER.md",
+      "match": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_OWNER_INPUTS.json",
+      "match": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_VERIFICATION.json",
+      "match": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_CLOSEOUT.json",
+      "match": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_CAPACITY_DOORBELL.json",
+      "match": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/sweeps/HARNESS_AUDIT_SWEEP.md",
+      "match": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/HARNESS_AUDIT_2026-07-07.md",
+      "match": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/UPGRADE_PROTOCOL.md",
+      "match": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/STATUS.md",
+      "match": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/HANDOFF.md",
+      "match": true
+    },
+    {
+      "path": "PROME/inbox/2026-10-04_from-DAEDALUS_harness-audit-tranche3.md",
+      "match": true
+    }
+  ],
+  "current_primary_nested_drift": [],
+  "review_as_of": "2026-10-04T20:02:05Z",
+  "support_manifests": {
+    "TRANCHE3_SHARED_INPUTS.json": {
+      "entries_checked": 8,
+      "errors": 0
+    },
+    "TRANCHE3_OWNER_INPUTS.json": {
+      "entries_checked": 8,
+      "errors": 0
+    }
+  },
+  "semantic_checks": {
+    "RED": "Charter 87/289 directs FLOW writes; FLOW header freezes maintenance. Supported instruction conflict, no post-freeze-write inference.",
+    "BROCK": "Charter 62 invokes selfcheck before prediction/KB/VX writes 63/64; inspected source checks those files. Static order gap; uninspected writer reruns UNKNOWN.",
+    "SAM": "Charter 80 is correctly post-commit, inventory 276 says default pre-commit; source 516-534 and 628-633 corroborates. Existing repair retained.",
+    "selected_other_findings": "LABOR rc2 wording, HENRY known-token validator and 14/15-field duplicate, WATT retired numerical allowance and actual callsite, VULCAN S1-S4/S1-S5, FALCON mandatory versus optional Kharg corroborated at source. Remaining route claims read at reports/challenges, not every clause independently rederived."
+  },
+  "owner_state": {
+    "capacity": "e180106b8 actual DOCKET L490 accepts continued read-only work through Oct5,targetOct6EOD; originalOct5 preserved; no hours guarantee.",
+    "consumer": "a7e5077a0 actual L490/SCRATCH explicitly allocate the ONE Monday consumer read to tranche3; current packet still top-level and UNCONSUMED. Final later evidence coverage is not established.",
+    "terry": "CLOSEOUT and hold packet unchanged against e180; top-level packet persists; no owner application/repair receipt established in bounded source/history inspection.",
+    "clocks": "Harness July7 / originalOct5; PROME Sept8; DAEDALUS L4/M Oct1 unchanged.",
+    "closeout": "Reported rc2 preserves profile-clock UNKNOWN and ledger DUE; packet DUE cleared by exact-path package commit; delivery verify rc0 does not clear maintenance."
+  },
+  "limits": "Artifact/source verification, not observation of every historical tool call or independent reread of all20 full primaries. No owner scripts executed, runtime or market data tests, hosted verification, edits, sends or launches."
+}
