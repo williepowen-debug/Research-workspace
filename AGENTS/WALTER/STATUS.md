@@ -46,7 +46,7 @@ Current work and next-owner actions: `LAST_COMPLETION.md`. Sweep evidence: `rese
 
 ### Today's routing + stale agents (REGISTRY refreshed 2026-10-04: BRENT/CRUISE/DAEDALUS rows updated from headers; YURI gains the `RU_STATE_ACTOR` domain; no new/retired agent)
 
-**Routed 10/04 (BOARD 1202 → 1210):** two Will-bookmark batches — BM-20261004-02 (`-001` FL property-tax · `-002` OPEC+ steady · `-003` trucking · `-004` Irkutsk aluminum · `-005` Iran-Hormuz cluster · `-006` Hertz) + BM-20261004-03 (`-007` CNBC consumer · `-008` Swiss glaciers). Handoffs: CORAL/HOMER/BRENT/HAWK/HENRY/MIDAS/FALCON/OTTO/LIQUID/AEOLUS; CARL/TERRY/RED/PROME via BOARD ID-diff. **Delivered (on origin, reconciled) ≠ consumed — all recipients weekend-dark.** 4 dark-action DOORBELL_LOG rows (CORAL/BRENT/FALCON/OTTO), all gate-FAIL → NO.
+**Routed 10/04:** two Will-bookmark batches — BM-20261004-02 (`-001` FL property-tax · `-002` OPEC+ steady · `-003` trucking · `-004` Irkutsk aluminum · `-005` Iran-Hormuz cluster · `-006` Hertz) + BM-20261004-03 (`-007` CNBC consumer · `-008` Swiss glaciers). Handoffs: CORAL/HOMER/BRENT/HAWK/HENRY/MIDAS/FALCON/OTTO/LIQUID/AEOLUS; CARL/TERRY/RED/PROME via BOARD ID-diff. **Delivered (on origin, reconciled) ≠ consumed — all recipients weekend-dark.** 4 dark-action DOORBELL_LOG rows (CORAL/BRENT/FALCON/OTTO), all gate-FAIL → NO.
 
 **Liveness through the session (`ListAgents`, re-checked):** only `prome-ed` live (idle); all domain desks weekend-dark; a DAEDALUS harness-audit (Codex/Astra, not a Claude session) ran read-only. **Re-read `ORCH_INFLIGHT` before EVERY doorbell / 'desk is dark' (MEMORY #41).**
 
