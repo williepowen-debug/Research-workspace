@@ -43,3 +43,23 @@ Re-pulled the junkbondanalyst posts (full text + attached images) after the init
 - **Near-term maturities: several billion of Term Loans due 2028 trade in the 50s** (junkbondanalyst). "More debt than pre-bankruptcy." "Chapter 22?" framing.
 - The "international operations" sale = **specifically the AUSTRALIAN arm** (AFR, screenshotted): Hertz Australia revenue $511.7M (FY to Dec 31), after-tax profit fell to $42.3M, 220+ locations, sell-side pitches being called.
 ⇒ Read-state: **body + both source-screenshot images read (paywall bypassed via the tweet screenshots).** Strengthens the OTTO (fleet/used-car) + LIQUID (distressed credit) read with named advisor, concrete maturity wall, and bond marks. Still verify the amend-and-extend at a filing before treating the restructuring as executed.
+
+## WALTER RECONCILIATION — 2026-10-04 (additive; vs `SIG-W-20261001-017`, per the PROME/CATO follow-through §BF1. Corrects the annotation above where marked 🔴.)
+**This card OVERLAPS the 10/1 Hertz card (`-017`), which LIQUID consumed 10/1 17:02:03Z (`board_log.tsv:354`, "noted" — single-name HY distress, breadth context, terminal-gated, no gate). Separating NEW from already-delivered so nothing re-dispatches unchanged:**
+
+**ALREADY DELIVERED on 10/1 (`-017`) — no new value in re-stating these:**
+- **PJT Partners hired for the amend-and-extend** (Bloomberg, "Hertz Taps PJT Partners to Extend Debt as Maturities Loom" — the SAME named story, read 10/1 from Will's Telegram screenshot).
+- The maturity wall: a **$200M 4.63% bond due Dec 1, 2026** AND, separately, **$2.7B of loans due 2028.** ⚠️ **The annotation above's "some debt due in ~2 months" is the Dec-1 BOND, not the 2028 loans — keep the two maturities SEPARATE; "debt due in two months" does not date the 2028 loan stack.**
+- 🔑 `-017` also carried **~$1B liquidity reported in August, enough to meet the December bond.** **This stands as COUNTEREVIDENCE to a simple imminent-maturity / forced-seller narrative** — it does not refute a later forced-sale claim, but it must travel beside it.
+
+**NEW on 10/4 (not in `-017`):**
+- The **Australian-arm sale** specifics (AFR screenshot): Hertz Australia revenue $511.7M (FY to Dec 31), after-tax profit $42.3M, 220+ locations, sell-side pitches being called. This is the concrete content behind "selling international operations."
+- **Distressed loan-price commentary:** the 2028 Term Loans "trade in the 50s," "more debt than pre-bankruptcy," the "Chapter 22?" / "forced seller" / "deep distressed" framing (junkbondanalyst, 10/4).
+
+**UNVERIFIED (candidate additions — truth, freshness and decision-relevance NOT established):**
+- The Australian-sale report (sell-side pitches) is commentator/AFR, **not an operator 8-K or wire.**
+- The "50s" loan marks and the "forced seller / deep distressed" characterization are **junkbondanalyst's read, not confirmed quotes/filings.**
+
+🔴 **CORRECTION to the annotation above — "strengthens the OTTO (fleet/used-car) channel" is WITHDRAWN as overclaimed.** **Selling the Australian BUSINESS is not, on its face, liquidating US vehicles** — a business-unit divestiture does not establish US fleet disposal, which is the only thing that bears on OTTO's used-car channel. OTTO's own `ML-OTTO-180` (July) already carries a qualified Hertz/used-car-collateral mechanism, but not this sale. ⇒ The OTTO fleet channel is a **WATCH** (does the sale extend to US fleet disposal?), **not a strengthened read.** The LIQUID distressed-credit read is unaffected.
+
+**No repeat dispatch.** OTTO / LIQUID (and per PROME, FALCON) get their judgments via PROME packets on their existing windows; WALTER routes nothing further on this card.
