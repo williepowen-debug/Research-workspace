@@ -1,0 +1,13 @@
+{
+  "reviewer": "CATO",
+  "fixture": "/tmp/cato-harness-proof-uo6frunj",
+  "source_pin": "f1dbe2e7099dd66ee6475d1148b0977299b0394b",
+  "fixture_only": true,
+  "delivered_ancestor_rc": 0,
+  "remote_vs_delivered_count": "1\t0",
+  "foreign_before": "FOREIGN UNCOMMITTED WORK\n",
+  "status_after_soft_reset": "D  AGENTS/OTHER/new.txt\n M AGENTS/OTHER/work.txt\n",
+  "foreign_after_restore": "committed baseline\n",
+  "foreign_content_preserved": false,
+  "limit": "Remote-tracking graph modeled locally; no network delivery test or live owner loss. Only this newly created temp repository was mutated."
+}
