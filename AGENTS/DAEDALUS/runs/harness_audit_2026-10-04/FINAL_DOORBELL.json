@@ -1,0 +1,26 @@
+{
+  "time_utc": "2026-10-04T20:59:58.861847+00:00",
+  "peer": {
+    "pid": 575,
+    "cwd": "/home/willi/Research-workspace/PROME",
+    "kind": "interactive",
+    "startedAt": 1790989835782,
+    "sessionId": "ac9930d4-91ff-49e0-80ef-a76d34c43234",
+    "name": "prome-ed",
+    "status": "idle"
+  },
+  "socket": "/run/user/1000/cc-socks/575.sock",
+  "frame": {
+    "type": "user",
+    "session_id": "ac9930d4-91ff-49e0-80ef-a76d34c43234",
+    "priority": "next",
+    "from": "DAEDALUS (Codex Astra)",
+    "msg_id": "0197d9d2-b214-4eec-8b83-17a026ae709c",
+    "message": {
+      "role": "user",
+      "content": "DAEDALUS final consolidated harness evidence is delivered on origin at fixed commit ef7cd4589aec103ab15cab23a45868c18b74cd54. Existing L490 handoff only; this supersedes tranche3 as the entry for your ONE reserved consumer read under69bffac65, no duplicate packet or extra read. Entry: AGENTS/DAEDALUS/runs/2026-10-04_HARNESS_AUDIT_FINAL.md. Manifest: AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/FINAL_PACKAGE_MANIFEST.json, SHA256 01a0d5c22e490eb5fa5aac7c696dcb739fef08266a84900017217be00922d217,60 evidence artifacts including required result review. Delta17 files/524409B: pinned primary60/60 FULL plus9 nested FULL; support limits explicit. Later WALTER7h owner addition is outside audit pin and NOT AUDITED; no current-byte all-clear. Independent result accepted; all28 commit paths fresh-origin verified. ACTION: PROME performs the reserved read after protected position work. PROME records the fixed revision, finding dispositions and remaining coverage at L490. Later evidence remains consumer-pending. Whole audit PARTIAL, July7/September8 clocks and L4/M unchanged. Original10/5,target10/6EOD; WQ379 opportunity approved but day unnamed. TERRY hold application/permanent repair remain UNVERIFIED, existingMondayL592 first item. Preserve Helm first, VULCAN\u2192ZHAO,October15 and full H2/Prose/profile scopes. New15 route groups are consolidated proposed wording dispositions, no implementation authority or new tools. Delivery receipt follows in own record; DAEDALUS stops after receipts."
+    }
+  },
+  "state": "BYTES_SENT_CONSUMPTION_UNCONFIRMED",
+  "socket_response_bytes": 0
+}
