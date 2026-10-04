@@ -1,0 +1,79 @@
+[
+  {
+    "agent": "HAWK",
+    "body_vintage": "2026-08-07",
+    "changed_non_inbox_paths": 136,
+    "excluding_archive_outbox_runs": 110,
+    "basis": "git log since body date through snapshot; paths not task-hours; retained deleted paths"
+  },
+  {
+    "agent": "FALCON",
+    "body_vintage": "2026-08-07",
+    "changed_non_inbox_paths": 83,
+    "excluding_archive_outbox_runs": 76,
+    "basis": "git log since body date through snapshot; paths not task-hours; retained deleted paths"
+  },
+  {
+    "agent": "VULCAN",
+    "body_vintage": "2026-09-05",
+    "changed_non_inbox_paths": 44,
+    "excluding_archive_outbox_runs": 33,
+    "basis": "git log since body date through snapshot; paths not task-hours; retained deleted paths"
+  },
+  {
+    "agent": "ZHAO",
+    "body_vintage": "2026-09-05",
+    "changed_non_inbox_paths": 38,
+    "excluding_archive_outbox_runs": 18,
+    "basis": "git log since body date through snapshot; paths not task-hours; retained deleted paths"
+  },
+  {
+    "agent": "MIDAS",
+    "body_vintage": "2026-09-05",
+    "changed_non_inbox_paths": 27,
+    "excluding_archive_outbox_runs": 27,
+    "basis": "git log since body date through snapshot; paths not task-hours; retained deleted paths"
+  },
+  {
+    "agent": "BROCK",
+    "body_vintage": "2026-09-17",
+    "changed_non_inbox_paths": 32,
+    "excluding_archive_outbox_runs": 24,
+    "basis": "git log since body date through snapshot; paths not task-hours; retained deleted paths"
+  },
+  {
+    "agent": "REGINALD",
+    "body_vintage": "2026-08-07",
+    "changed_non_inbox_paths": 259,
+    "excluding_archive_outbox_runs": 114,
+    "basis": "git log since body date through snapshot; paths not task-hours; retained deleted paths"
+  },
+  {
+    "agent": "AEOLUS",
+    "body_vintage": "2026-08-17",
+    "changed_non_inbox_paths": 60,
+    "excluding_archive_outbox_runs": 51,
+    "basis": "git log since body date through snapshot; paths not task-hours; retained deleted paths"
+  },
+  {
+    "agent": "HOMER",
+    "body_vintage": "2026-08-07",
+    "changed_non_inbox_paths": 63,
+    "excluding_archive_outbox_runs": 49,
+    "basis": "git log since body date through snapshot; paths not task-hours; retained deleted paths"
+  },
+  {
+    "agent": "WAL",
+    "body_vintage": "2026-08-07",
+    "changed_non_inbox_paths": 91,
+    "excluding_archive_outbox_runs": 57,
+    "basis": "git log since body date through snapshot; paths not task-hours; retained deleted paths"
+  },
+  {
+    "agent": "CREED",
+    "body_vintage": "2026-06-28",
+    "changed_non_inbox_paths": 140,
+    "excluding_archive_outbox_runs": 111,
+    "basis": "git log since body date through snapshot; paths not task-hours; retained deleted paths"
+  }
+]

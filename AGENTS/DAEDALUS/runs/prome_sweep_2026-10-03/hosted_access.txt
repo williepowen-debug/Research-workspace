@@ -1,0 +1,5 @@
+2026-10-04 UTC attempt via web open:
+https://claude.ai/artifact/WPpL1wzzBg3geo1wFhzCXj
+https://claude.ai/code/artifact/16655022-6e00-4cea-9916-7cb0ff304bca
+https://claude.ai/artifact/Wt4aYbC8gqQic2aLEtrWGr
+All returned: URL is not accessible via this tool. No authenticated Claude artifact reader is exposed in this session. Hosted content and supporting-file/version identity remain UNKNOWN. Local captures and publication logs are separate evidence.

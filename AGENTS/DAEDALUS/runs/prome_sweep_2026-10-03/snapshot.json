@@ -1,0 +1,9 @@
+{
+  "captured_utc": "2026-10-04T01:23:37.803995+00:00",
+  "head": "2c09a6365feddac2f4a172b5d9b1fcc166118384",
+  "base": "2f70fadab8965e7774979c447ae17d88485dcfda",
+  "base_basis": "last sweep artifact commit before end of September 8 Eastern",
+  "prome_touching_commits": 2042,
+  "changed_paths": 1169,
+  "dirty_start": " M PROME/state/argus_baseline.json\n?? AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/\n"
+}

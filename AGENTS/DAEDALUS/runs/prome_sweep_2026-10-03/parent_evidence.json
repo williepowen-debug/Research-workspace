@@ -1,0 +1,351 @@
+[
+  {
+    "path": "FORGE/position_management.tsv",
+    "snapshot_sha256": "66afa92af2881ef7f7d13fc8cd9b7352904fc8e264e83d897fc5c474ed0c6294",
+    "current_sha256": "66afa92af2881ef7f7d13fc8cd9b7352904fc8e264e83d897fc5c474ed0c6294",
+    "excerpts": [
+      {
+        "line": 19,
+        "text": "Fidelity\tQQQ\t$740P\t2026-10-02\tWill (his hand); TERRY card MGMT-QQQ740P-OCT02 = recommendation only\t2026-10-02 expiry \u2014 NEW 10/1: \u00d74, broker basis $890.65 ($2.23 avg), $2.32 / $928.00 (+$37.35) [10/1 post-close capture]; fill price and time NOT SHOWN (no Activity view); \u2248$2.03 OTM at QQQ \u2248$742.03 [vendor 10/1 16:06 ET]; payrolls Fri 08:30 ET, tradeable from 09:30; TERRY card (8f9e6b7d1) leans SELL in the first hour, hard stop 15:00 ET; D-60 (ITM expiry handling in the IRA) UNOBSERVED; WQ-347\tNOT_RECORDED\tUNKNOWN\tUNKNOWN\tWill sells or rolls the four before the Fri 10/02 15:00 ET stop (WQ-347; his standing practice: never hold into expiry). No order from this dashboard.\tWill's disposition recorded (sold or rolled, fill captured).\t\tFORGE/STATUS.md\t12922d68c8fde2389e983ec75cf8512c24f1ce7a9eaa12a89e65380d5fb5cf47\t2026-10-01"
+      }
+    ]
+  },
+  {
+    "path": "PROME/WILL_QUEUE.md",
+    "snapshot_sha256": "414e336634803ad1b39d537d0db1c2aa4d2084e90366504f01f671452be6c72d",
+    "current_sha256": "414e336634803ad1b39d537d0db1c2aa4d2084e90366504f01f671452be6c72d",
+    "excerpts": [
+      {
+        "line": 28,
+        "text": "| 347 | \u2696\ufe0f **THE QQQ PUTS \u2014 FOUR Oct-02 740P EXPIRE FRI 10/02 (payrolls 08:30 ET; tradeable from 09:30) and five Oct-05 735P expire Mon: SELL OR ROLL THE FOUR BY FRI 15:00 ET.** The four are NEW on your 10/1 end-of-day capture (basis $890.65, last $2.32); the four Oct-01 740P are gone, their exit UNBOOKED (FORGE D-71). *(The text below is the 9/30 registration, written for nine Oct-01 contracts \u2014 history; the receipts at the end of the Notes cell and TERRY's `MGMT-QQQ740P-OCT02` card carry the live four.)* Your 9/30 roll (Activity: nine QQQ 730P sold @ $0.01, nine Oct-01 740P bought @ $1.92 = $1,733.97; five Oct-05 735P bought @ $2.73 = $1,368.32; transcription `PROME/data/2026-09-30_broker-capture-TRANSCRIPTION.md`) puts fourteen QQQ puts on the book with no card. The Oct-01 nine are $0.23 ITM at the close (marked $2.97 / $2,673, +$939): if QQQ closes below 740 Thursday and they are still held, Fidelity auto-exercises \u21d2 the IRA is short 900 QQQ (~$666k) \u2014 the IRA cannot hold it and Fidelity's handling of an ITM expiry in this account is UNOBSERVED (D-60; every observed expiry-day liquidation was OTM). The Oct-05 five (735, $4.77 OTM at the close) reach the same decision Monday. | ACTION | 2026-10-05 (the Oct-02 four expired on the tape \u2014 your Fidelity Activity view books them; the Oct-05 five by Mon 10/05 15:00 ET, DOCKET L592) | 9/30 | **Rec: SELL or ROLL the FOUR Oct-02 740P before Fri 15:00 ET at Fidelity's live bid (TERRY's card leans SELL in the first hour after the open) \u2014 never hold an ITM put into this IRA's close while D-60 is unobserved; the same rule for the Oct-05 five on Monday. A roll is root rule #7's sanctioned form (duration, never size); the five ADDED contracts were new size by your own hand (recorded, root rule #5). TERRY writes the management card for both lines at its Thursday wake (packet in its inbox) \u2014 a card is a recommendation; the order is yours.** | Registered 2026-09-30 18:4x ET (prome-94) from Will's two captures (18:31 ET) after WQ-316's roll word (18:27). Broker facts only you can supply Thursday: the live bid \u00b7 any working orders. ANVIL reconciled FORGE to the capture 9/30 post-close (33bc8c293). **TERRY's cards are on file 2026-10-01 (the Oct-01 nine: `AGENTS/TERRY/setups/QQQ740P_oct01-sell-or-roll_2026-10-01.md`, 391bc5d95 + 4ee8783d4 \u2014 lean SELL before 15:00 ET; roll form 740P Oct-09 \u00d79 \u2248 $6.17/contract net, no debit above $6.50, \u2248 15\u00d7 the $500 card cap, a put bought on a red day; every option quote on it is vendor screening, Fidelity's bid governs \u00b7 the Oct-05 five: `\u2026/QQQ735P_oct05-sell-or-roll_2026-10-01.md`, lean SELL by Mon 15:00 ET, re-read Monday). PROME verified both at the artifact and concurs with SELL.** **Will 19:03 ET, verbatim: *\"I am always going to try to sell or roll positions before they expire worthless.\"* \u2014 a standing practice (USER.md; memory `feedback_will_sells_or_rolls_before_expiry`): the question is SELL OR ROLL, by Thu 15:00 ET; \"hold\" is not on his menu. The rec stands.** **+2026-10-01 12:34 ET sourced receipt (prome-0c): Will SOLD 5 of the nine Oct-01 740P on 10/1 \u2014 1 @ $3.44 \u00b7 1 @ $3.97 \u00b7 3 @ $3.72, proceeds $1,853.66, realized +$890.35 (broker Pending list, capture 12:24 ET; FORGE reconciled ANVIL dac72b4ae). FOUR REMAIN ($2.65 / $1,060.00 [10/1 intraday]) and still expire today \u2014 the 15:00 ET stop stands for the four; the Oct-05 735P \u00d75 unchanged.** **+2026-10-01 13:34 ET (prome-0c): TERRY's refreshed card for the FOUR (36959ad0f \u00b7 62df52473, 12:51 ET): lean still SELL at Fidelity's bid before 15:00, or ROLL to Oct-09 as one net-debit order (\u2248$2,484 for four, no chase above $6.50); value range \u2248$730 (vendor bid $1.83) to \u2248$1,060 (Fidelity's 12:24 mark $2.65) \u2014 only Fidelity's bid settles it; hold above 740 = \u2212$770.66, hold below 740 = a 400-share short (\u2248$296,000), \u2212$400 per $1 gap; if the four are rolled to Oct-09, Monday's five roll to Oct-16.** **Receipt 2026-10-01 16:2x ET (`prome-2f`): Will's end-of-day capture (16:15 ET; `PROME/data/2026-10-01b_broker-capture-TRANSCRIPTION.md`; mirror ANVIL d97eba708) shows the four Oct-01 740P GONE and FOUR NEW QQQ Oct-02 740P (basis $890.65, last $2.32) \u2014 they EXPIRE FRI 10/02 (payrolls 08:30 ET). How the Oct-01 four left is UNBOOKED (FORGE D-71; PROME's pending-change inference \u2248 net +$22.75 is not a fill \u2014 the Activity view settles it). The live question is now the Oct-02 four by Fri 15:00 ET, then the Oct-05 five Mon; TERRY (terry-b2, Will's window) holds the card ask.** **+2026-10-01 19:5x ET (`prome-2f`): TERRY's card for the Oct-02 four is on file (`AGENTS/TERRY/setups/QQQ740P_oct02-sell-or-roll_2026-10-01.md`, 8f9e6b7d1; PROME read the memo at the artifact): QQQ $742.03 close \u21d2 $2.03 OTM, all time value; breakeven $737.77; an ITM hold = 400 sh \u2248 $296,000 short over a WEEKEND, \u2212$400 per $1 Monday gap; lean SELL in the first hour, hard stop 15:00 ET; roll form Oct-09 \u2248 $1,736 for four (\u2248 5.3\u00d7 the $500 cap), no chase above $4.75; every quote is an after-hours vendor mark. `MGMT-QQQ740P-OCT01` is CLOSED with its disposition INFERRED. Will in TERRY's window ~19:0x ET, verbatim: *\"okay will probably sell those tomorrow. Lets close out\"* \u2014 an INTENT, not a ruling; TERRY could not tell whether \"those\" covers these four, the WQ-357 sleeve, or both (UNCONFIRMED). The row closes on the fill.** **Tap via Decision Deck 2026-10-01T21:04:45Z (17:04 ET; doc `347-20261001210445549-4wxfx6`): APPROVE, note verbatim: *\"this has been complete already - I rolled them.\"* \u2014 picked up at the `prome-e4` boot 2026-10-01 20:44 ET (it sat unconsumed through `prome-2f`, whose boot preceded it). The card tapped was v71 (built 14:44 ET), which asked about the FOUR Oct-01 740P \u21d2 his word answers THAT question: the Oct-01 four were ROLLED by his own hand, consistent with the 16:15 ET capture (four Oct-01 gone, four Oct-02 740P new). FORGE D-71's disposition is therefore a ROLL on Will's word; the fill prices stay UNBOOKED until the Activity view. \u26a0\ufe0f The tap predates this row's re-write to the Oct-02 four and does NOT answer it: the Oct-02 four still expire Fri 10/02 (stop 15:00 ET); the row closes on the fill.** \u00b7 **+2026-10-02 11:28 ET (`prome-70`): no fill reported; Will is HOLDING the four as a ~$20 ticket to the 15:00 ET hard stop, leaning SELL-not-roll (740P bid 0.06 at 10:45; QQQ all-time high $754.54, $749.05 at ~11:14). A FIFTH QQQ Oct-02 put sits in his ROBINHOOD account (strike and cost unconfirmed; not on the mirror) \u2014 same stop. TERRY (57352dc60 \u00b7 49e0ef1b2) WITHDREW its Oct-09 \u00d74 roll: NO roll; if he rolls anyway, ONE Oct-16 740P at \u2264 $4.99, recorded as 'sell three, roll one'. The dated alternative is WQ-365.** **+2026-10-02 21:2x ET (`prome-ed`): no fill reported through the close; QQQ $749.58 [10/2c] = $9.58 above 740 \u21d2 the four Oct-02 740P (Fidelity) and the Robinhood fifth put (strike unconfirmed) EXPIRED OUT OF THE MONEY on the tape \u2014 INFERRED, not booked: only your Fidelity Activity view (9/29\u219210/2) books them and closes D-71. Needed-by moved to Mon 10/05: the row now asks for the Activity view and carries the Oct-05 735P \u00d75 (L592; TERRY leans SELL at the pre-open, hard stop 15:00 ET; the order is yours). R4 triage this sitting: ALREADY RULED (sell-or-roll is your standing practice) \u2014 completion = the fills booked on the mirror; receipt = the Activity view.** |"
+      }
+    ]
+  },
+  {
+    "path": "PROME/registry/WQ_EXPLAINERS.tsv",
+    "snapshot_sha256": "db4f4df0bb528c76cb5213c232a4927b55c3fc550f13b9e82436cadaeb504dfe",
+    "current_sha256": "db4f4df0bb528c76cb5213c232a4927b55c3fc550f13b9e82436cadaeb504dfe",
+    "excerpts": [
+      {
+        "line": 111,
+        "text": "347\tThe QQQ puts: four expire Friday (payrolls day), sell or roll by 3 pm?\tOn Thursday you sold five of your nine Oct-1 740 puts for a gain of about $890. By the close the last four Oct-1 puts were gone and you held four new Oct-2 740 puts (cost $890.65, last $2.32). They expire Friday. QQQ closed near $742, so they are about $2 out of the money and all of their value is time value. The September jobs report lands at 8:30 am and the puts cannot be traded until 9:30. TERRY's card puts breakeven at QQQ $737.77. If QQQ closes below 740 and they are still held, Fidelity exercises them and the IRA is short 400 QQQ, about $296,000, over a weekend; what Fidelity does in that case in this account has never been observed. The five Oct-5 735 puts (last $2.27, down $650 on Thursday) face the same question Monday. How the four Oct-1 puts left the account is not on record yet: the pending balance implies about $22.75 net, which is my inference and not a fill.\tOrders on your account are yours alone; TERRY can write the card but not place the order.\tSell or roll the four Oct-2 puts before 3:00 pm Friday; TERRY leans to selling in the first hour after the open. A roll to Oct-9 costs about $1,736 for four, roughly five times the $500 cap, and should not be chased above $4.75 a contract. The same decision for the five Oct-5 puts by Monday 3:00 pm. TERRY records the fills; ANVIL updates the mirror.\tHold into expiry: above 740 the four expire worthless (their $890.65 cost is lost); below 740 they exercise and Fidelity's unobserved IRA process runs, with each $1 gap up on Monday costing $400.\tSame as holding: the four ride to Friday's close and whatever Fidelity does happens without a decision on record.\tNever hold an in-the-money put into this IRA's close while the exercise process is unobserved, and your own standing practice is to sell or roll before expiry. All option prices here are after-hours vendor marks, not your broker's bids. One thing would help the record: Thursday's Activity view, so the Oct-1 exit is booked as a fill."
+      }
+    ]
+  },
+  {
+    "path": "PROME/proposals/2026-09-25_wq295-dark-desk-class-PROPOSAL.md",
+    "snapshot_sha256": "26145f32e93d0cbc68ceb721b09bfe513e74544e5298db101d85624839fe1922",
+    "current_sha256": "26145f32e93d0cbc68ceb721b09bfe513e74544e5298db101d85624839fe1922",
+    "excerpts": [
+      {
+        "line": 1,
+        "text": "# WQ-295 \u2014 THE DARK-DESK CLASS: cadence for every desk \u00b7 cadence as a wake trigger \u00b7 watch terms for every query desk \u00b7 premise-disposition at registration \u2014 PROPOSAL (drafted 10:30 ET 2026-09-25, `prome-2e`, on Will's word *\"can I task you to do with the first?\"* 10:28 ET)"
+      },
+      {
+        "line": 2,
+        "text": ""
+      },
+      {
+        "line": 3,
+        "text": "**Why one record:** the three misses of 2026-09-25 were one shape. PJM's 4th emergency (9/16\u201318) reached no surface because WATT had no session 9/12\u20139/24 and no WATCH_FOR list existed for it; the US IEEPA '11/10 lapse' leg was VOID from 2026-02-24 and stayed live seven months because the owner re-verified the instrument's TEXT, never its DISPOSITION; CRMT's fourth bridge was caught only because a dated row happened to exist. Today's drivers key on DATED rows (WQ-184), aged ACTION lines (WQ-206) and aged waits (WQ-221). An EVENT at a dark owner falls through all three, and every due row this morning read *\"CANNOT-EVALUATE (desk absent from ROSTER cadence)\"* because the cadence table has been empty since it was built (2026-09-19). Standing guards that this record does NOT touch: cadence is never inferred from ACTIVITY (L292); planned quiet is never a completed grade; explicit due obligations stay visible regardless of cadence."
+      },
+      {
+        "line": 4,
+        "text": ""
+      },
+      {
+        "line": 5,
+        "text": "## R1 \u2014 PROVISIONAL CADENCE BY CLASS, owner-amendable (ROSTER \u00a7 DESK CADENCE; amends its own \u26d4 \"PROME will not populate this table\")"
+      },
+      {
+        "line": 6,
+        "text": "**Rule letter:** *PROME assigns every ACTIVE desk a PROVISIONAL cadence token from its ROSTER class \u2014 thesis/source owners `WEEKLY`; event/print specialists `EVENT-DRIVEN`; service and review lanes `ON-DEMAND` \u2014 marked `provisional (PROME, class-based, <date>)` in the Declared-by column. A provisional token is never inferred from activity and never a lapse claim; it is the DEFAULT the driver reads until the owner declares. An owner's declaration (packet to PROME, any token) replaces it on receipt. UNDECLARED disappears as a token for active desks.*"
+      },
+      {
+        "line": 7,
+        "text": "**Acceptance tests (written before the edit):** (1) ordinary \u2014 every active desk resolves to one token; (2) overlap \u2014 a desk with both a provisional token and a later owner declaration reads the owner's; (3) wrong owner \u2014 a retired/off-fleet name in the table is refused by `read_cadence` (the duplicate/unknown path stays); (4) missing information \u2014 a desk absent from the table still reads CANNOT-EVALUATE, never a silent WEEKLY; (5) concurrent \u2014 N/A (one writer, PROME, at closeout). Class map for the first fill: WEEKLY = SAM LIQUID VIOLET BRENT HENRY CARL LABOR BROCK HAWK TERRY REGINALD MARCO ORACLE BOND CORAL SHADE ZHAO AEOLUS WATT VULCAN MIDAS OSPREY FALCON HOMER YURI \u00b7 EVENT-DRIVEN = OZK WAL FLG CRUISE FERT \u00b7 ON-DEMAND = NEXUS RED WALTER (WALTER's own cadence is its charter's, daily in practice; ON-DEMAND here means \"no age claim by PROME\")."
+      },
+      {
+        "line": 8,
+        "text": ""
+      },
+      {
+        "line": 9,
+        "text": "## R2 \u2014 CADENCE AS A WAKE TRIGGER (Tier 1) \u2014 amends the cadence spec's \"annotation only\" (\u00a73/\u00a75/\u00a76) and adds one AUTONOMY row"
+      },
+      {
+        "line": 10,
+        "text": "**Rule letter:** *A desk whose cadence clock is PAST (WEEKLY > 7 calendar days since its last own commit; MONTHLY past the same day next month) with NO dated row naming it IS outcome \u2460 of the dark-owner triage: PROME spawns it Tier 1 at the first boot on/after the clock runs out, as an L0 drain of its whole inbox plus a cadence self-check (\"what did my domain do since my last session?\"), cap = the per-boot spawn budget, beyond \u2192 slate. EVENT-DRIVEN and ON-DEMAND desks never wake by age; a DATED row or a WATCH_FOR hit wakes them. A cadence wake never grades anything on the desk's behalf and never marks a BOARD item consumed. The exit-code contract of `spawn_list.py` is unchanged: a cadence wake is a NEW row class `CADENCE-DUE`, listed beside the dated rows, never in place of one.*"
+      },
+      {
+        "line": 11,
+        "text": "**Encode:** `spawn_list.py` (CLOSED today under the two-correction stop \u2014 encode at the next session AFTER the L455 residue row, same file, one reader) \u00b7 `AGENTS/DAEDALUS/design/2026-09-08_DESK_CADENCE_SPEC.md` \u00a73/\u00a75/\u00a76 amendment (DAEDALUS encodes from this record) \u00b7 `PROME/AUTONOMY.md` change-log row + `PROME/CLAUDE.md` Ask-First (the dark-owner doorbell paragraph gains one sentence)."
+      },
+      {
+        "line": 12,
+        "text": "**Acceptance tests:** (1) WEEKLY desk, last own commit 8 days ago, no dated row \u21d2 CADENCE-DUE, DARK; (2) overlap \u2014 same desk WITH a dated row due today \u21d2 the dated row governs (one wake, not two); (3) wrong owner \u2014 an EVENT-DRIVEN desk 30 days quiet \u21d2 NOT due (no age claim); (4) missing information \u2014 UNDECLARED/absent \u21d2 CANNOT-EVALUATE, never a wake; (5) concurrent \u2014 a live session of the desk at `ListAgents` \u21d2 doorbell, never spawn (existing preflight)."
+      },
+      {
+        "line": 13,
+        "text": ""
+      },
+      {
+        "line": 14,
+        "text": "## R3 \u2014 WATCH TERMS FOR EVERY QUERY DESK (RESEARCH-INTAKE `WATCH_FOR`) \u2014 no canon change; a fleet ask + a landing rule"
+      },
+      {
+        "line": 15,
+        "text": "**Rule letter:** *Every desk with a lane query carries a `WATCH_FOR[<DESK>]` list of 5\u201312 phrases keyed to its REGISTERED triggers (the letters in its GATES/DOCKET/registry rows), proposed by the OWNER, tested by WALTER on the real matcher over lane history (a phrase with >0 false hits is rejected by name), landed by PROME in RESEARCH-INTAKE with the test receipt in the config comment. A hit dispatches under WALTER's existing routing row for that desk; a hit at a DARK owner carries WALTER's spawn recommendation (rule 6b) and PROME wakes the desk Tier 1 under the existing dark-owner triage.* The 13 desks without a list today (WALTER census 04de1dac6): AEOLUS BRENT CORAL CRUISE FALCON HAWK HOMER MIDAS OSPREY SHADE VIOLET VULCAN ZHAO. Packets sent 10:30 ET."
+      },
+      {
+        "line": 16,
+        "text": ""
+      },
+      {
+        "line": 17,
+        "text": "**R3 addendum \u2014 the corpus clause, WALTER's words, 2026-09-25 12:3x ET (packet `PROME/inbox/processed/2026-09-25_from-WALTER_VULCAN-6-11-LIVE-tested-4-more-fail-and-R3-letter-sentence.md` \u00a73; PROME adopts it into R3's landing rule for Will's ruling, unchanged):** *\"A phrase is tested on a corpus that can contain its subject. Where no lane query fetches the subject, the test runs on a live sample of that subject (`watch_for_harness.py --live`), and a zero-hit result on a corpus that cannot contain the event is recorded as UNINFORMATIVE, never as clean.\"* Basis measured the same day: the lane-only method passed 8 phrases (4 VULCAN in the morning, 4 more at 12:3x) that live headlines then failed; every one scored a clean 0 on the lane because the lane never fetched the subject. The harness now warns on lane-only runs; a warning the tester can override is not the control, the letter is."
+      },
+      {
+        "line": 18,
+        "text": ""
+      },
+      {
+        "line": 19,
+        "text": "**R3 addendum 2 \u2014 the outlet-name hazard (WALTER, 12:4x ET, packet `PROME/inbox/processed/2026-09-25_from-WALTER_WATT-BRENT-landed-lists-LIVE-rechecked-remove-4.md` \u00a73):** Google-News titles end in `\" - <Outlet Name>\"` and the matcher reads the whole title, so outlet words count toward a phrase (*Discovery **Alert***, *Energy News*, *Oil Prices Today*). A phrase whose words include a common outlet word is tested against that failure by name. Live recheck of the two lane-informative lists (WATT, BRENT) removed 4 more phrases; the day's total is 12 phrases passed lane-only and failed live. \u26a0\ufe0f BRENT's Hormuz off-ramp trigger now has NO clean phrase \u2014 recorded as a counted gap, never as covered."
+      },
+      {
+        "line": 20,
+        "text": ""
+      },
+      {
+        "line": 21,
+        "text": "**R3 addendum 3 \u2014 the wake path was DEAD at the consumer until 13:0x ET 9/25 (WALTER `cc9c14017`, packet `PROME/inbox/processed/2026-09-25_from-WALTER_intake-scan-never-surfaced-WATCH_HIT-fixed-plus-old-lists-noise.md`):** WALTER's `intake_scan.py` built worklist records only from the `NEW_ALERT`/`NEW_WATCH` counts; `NEW_WATCH_HIT` and `DEVELOPMENT` items never reached its worklist (17 + 8 lost 9/18\u20139/24, incl. FLG's rent-freeze hits; no backfill owed \u2014 the refinery strikes reached OSPREY by its own collection). WALTER had described the consumer from the PRODUCER's code (`[[finding_record_of_an_action_is_not_the_action]]`, n+1: \"the lane surfaces them\" was read off the lane's alert list, never off the tool). Consequence for R3: every list landed today was inert until 13:0x and is live now; the ten PRE-WQ-295 lists (HENRY 82 hits over the full 65-day lane, ~1.3/day \u2014 PROME misquoted this as a weekly figure in its first HENRY packet and ack, corrected 13:0x \u00b7 SAM's `USD/JPY above 162` reduces to `USD/JPY` \u00b7 CARL 6 \u00b7 BROCK 2 \u00b7 FLG/REGINALD/LABOR fine \u00b7 LIQUID/MARCO/OTTO zero = uninformative) were packeted for an R3 re-test 13:0x ET, needed-by 10/02."
+      },
+      {
+        "line": 22,
+        "text": ""
+      },
+      {
+        "line": 23,
+        "text": "## R4 \u2014 PREMISE DISPOSITION AT REGISTRATION (SL-6, `AGENTS/DAEDALUS/BLUEPRINTS/SPEC_LETTER_STANDARD.md`; DAEDALUS encodes)"
+      },
+      {
+        "line": 24,
+        "text": "**Rule letter:** *SL-6 \u2014 A letter whose premise rests on a legal or administrative INSTRUMENT (an executive order, a rule, a notice, a court order, a statute's effective date) names the instrument AND its DISPOSITION SOURCE \u2014 the feed that records amendment, stay, termination or vacatur (Federal Register disposition notes, a court docket, a ministry gazette) \u2014 and every re-verification reads the disposition, not the text. A premise re-verified from the text alone is UNVERIFIED for grading. Registered letters older than 90 days with an instrument premise are re-read at the disposition source at the owner's next boot.* Origin: ZHA-16 (KB-ZHAO-131 read EO 14358's text on 9/2; EO 14389 had terminated the framework on 2/24)."
+      },
+      {
+        "line": 25,
+        "text": "**Acceptance tests:** (1) a letter naming EO + FR disposition source passes; (2) overlap \u2014 a letter naming the instrument twice with two sources \u21d2 the later-dated source governs, both named; (3) wrong owner \u2014 a press characterisation as the disposition source is refused; (4) missing information \u2014 instrument named, no disposition source \u21d2 REGISTRABLE, NOT GATE-CITABLE (the WQ-250 form); (5) concurrent \u2014 N/A."
+      },
+      {
+        "line": 26,
+        "text": ""
+      },
+      {
+        "line": 27,
+        "text": "## What PROME did without a ruling (10:30 ET) and what waits"
+      },
+      {
+        "line": 28,
+        "text": "DONE: packets to all 33 active desks (cadence declaration ask; WATCH_FOR proposal ask to the 13) + DAEDALUS (census + the dark-days-in-window check half of DOCKET's 10/02 row) \u00b7 WQ-295 registered \u00b7 this record. WAITS ON WILL: R1 (fills the table), R2 (spec + autonomy), R4 (canon). R3 needs no ruling. Encode order on approval: R1 at the next PROME boot (ROSTER) \u2192 R4 to DAEDALUS by packet \u2192 R2 at the session after the L455 residue lands in `spawn_list.py`."
+      }
+    ]
+  },
+  {
+    "path": "HEARTBEAT.md",
+    "snapshot_sha256": "cad92bcf61c948a0383c2852851946438647fff85f75aaf26b264be1fe9d7088",
+    "current_sha256": "cad92bcf61c948a0383c2852851946438647fff85f75aaf26b264be1fe9d7088",
+    "excerpts": [
+      {
+        "line": 18,
+        "text": "**FRED [10/1, first-published]: HY OAS 324 (+12) \u00b7 BB 204 \u00b7 B 329 \u00b7 CCC 1,215 (+36) \u00b7 IG 86 \u00b7 BBB 106 \u00b7 HY yield 8.22%.** **HY >320 \u2014 LIQUID's send line: ONE print = TAGGED, signal SENT 10/2 (its 'sustained' letter has no session count); RED FT-02 / REG-T-03 count to three \u2014 NEITHER owner has graded the 324 cell yet (their last grades: RED 0 of 3 on 312; REGINALD 9/29) \u2014 the 10/2 cell publishes Mon ~10:15 ET and RED + REGINALD wake on it; their STATUS files carry the count.** `LIQ-07` TRIGGER FIRED on the 9/30 cell \u2014 verdict 10/15\u201316, NOT a bear confirm \u00b7 `GATE-HY-REKILL` 0-of-2, 64bp above \u00b7 `GATE-LIQ-072` NOT FIRED (IG 86 vs >94; HY\u2212IG basis 238 vs <180) \u00b7 **X1 CLOSED regardless (BROCK 10/2, on the cells through 9/30: the wrapper leg FAILS).** **`GATE-LIQ-069` 2-of-2 [9/26]; the anchor re-base Will ruled is ENCODED (LIQUID 9fe811cb3): ISDA-converted prints, BOTH sign readings carried; a one-sign fire is AMBIGUOUS and goes to Will; review 10/15.** **`GATE-BRK-R2` leg (a) FIRED a second time 10/2 on Blue Owl's OCIC (~30% of a $3.1B tender satisfied; 8-K acc 0001193125-26-411315) \u2014 \u26a0\ufe0f the counter travels: requests are FALLING (21.9 \u2192 18.8 \u2192 16.8% of shares), a shrinking queue behind a cap, not accelerating flight; WQ-370 asks whether OTIC joins the population.** HYG 76.91 (+0.01%) \u00b7 BIZD 12.32 (\u22121.12%) \u00b7 APO 114.02 (\u22120.28%) [10/2c]. \u26d4 Bloomberg CCC \u2260 the fleet's ICE BofA CCC (\u00a7KOS). \u2192 cold **\u00a726.3** \u00b7 \u00a725.3."
+      },
+      {
+        "line": 55,
+        "text": "- **Closest live lines [dated as the level table]:** **HY >320 \u2014 THROUGH at 324 [10/1], 1 of 3 sustained** \u00b7 IG >94 (LIQ-072) \u2014 8bp \u00b7 USD/JPY \u00a5158.054 \u2014 0.22 below [10/2 vendor read] \u00b7 **HENRY 30Y 5.50 red \u2014 THROUGH at 5.63 [10/2 official]** \u00b7 CCC 1,100 \u2014 THROUGH (1,215) \u00b7 VULCAN breadth red (RSP\u2212SPY 63d \u2264 \u22127.5pp) \u2014 2.43pp \u00b7 UK 30Y 6.00 (HANS T-13) \u2014 9bp \u00b7 FLG RED $11.39 (REGINALD ladder) \u2014 2.6% \u00b7 VLO-HELD A $90.16 \u2014 $7.81 below the 10/2 proxy \u00b7 HY <260 \u00d72 \u2014 64bp \u00b7 ROLL70-EXIT \u2265$81.90 \u2014 $5.52 \u00b7 Cushing <20.0M \u2014 24.301M \u00b7 FERT-G5 \u2014 FERT's 10/07 grade \u00b7 **WQ-298 paid-data instruments CANNOT-FIRE until Will's pass.**"
+      }
+    ]
+  },
+  {
+    "path": "PROME/GIT_COORDINATION.md",
+    "snapshot_sha256": "48ae5e846bc77eff81d5d80b8f8215dc1aead13f7c658ba5662816f677fc6e95",
+    "current_sha256": "48ae5e846bc77eff81d5d80b8f8215dc1aead13f7c658ba5662816f677fc6e95",
+    "excerpts": [
+      {
+        "line": 4,
+        "text": "**Status:** Live coordination rail; push policy updated to auto-push 2026-06-26 \u00b7 **Updated:** 2026-10-02 (spine audit #15 \u2014 Hard-Rules bullet 5 YEYOU pointer; body edits are dated in place through 2026-09-12, `git log -p -- PROME/GIT_COORDINATION.md`)  "
+      },
+      {
+        "line": 5,
+        "text": "**Scope:** every agent operating in this shared repo/worktree (fleet size \u2192 `PROME/ROSTER.md`, the countless pointer [audit #10 \u2014 the hand-carried count had drifted 30\u219233]; PROME + YEYOU were the founding two)."
+      },
+      {
+        "line": 19,
+        "text": "- Local scoped commits use explicit pathspecs; **push is automated at closeout via `scripts/safe-push.sh`** (ff-gated, fails safe; serial multi-machine predicate). **Auto-push exceptions (full list, root canon):** ~~YEYOU manual/branch~~ (VOID 2026-09-05, retired \u2014 \u00a7 YEYOU; root's Scope note carried the name until the WQ-237 strike, executed at the spine-audit #15 root-doc sitting, DOCKET L503 \u2014 grep root for `YEYOU` to see the current state) \u00b7 TERRY self-sweeps \u00b7 WALTER architectural per `BOARD_CONSUMPTION_SPEC` \u00a77 (see Push Discipline)."
+      },
+      {
+        "line": 61,
+        "text": "### YEYOU"
+      },
+      {
+        "line": 63,
+        "text": "> **RETIRED 2026-09-05** (Will verbatim *\"retire yeyou\"* 11:56 ET, WQ-181 \u2460; `PROME/ROSTER.md` RETIRED, folder left in place). No YEYOU session runs; the branch-model exception below is **VOID**. This section, \u00a7 YEYOU Landing Rail, \u00a7 Reporting and the Boot-Integration bullet naming YEYOU stay verbatim as the record of the 6/25 landing rail \u2014 history, not live instructions."
+      },
+      {
+        "line": 65,
+        "text": "YEYOU is a repo-wide reviewer: read broadly, write narrowly."
+      },
+      {
+        "line": 67,
+        "text": "YEYOU may write:"
+      },
+      {
+        "line": 69,
+        "text": "- `AGENTS/YEYOU/`"
+      },
+      {
+        "line": 70,
+        "text": "- `AGENTS/YEYOU/reviews/`"
+      },
+      {
+        "line": 71,
+        "text": "- `AGENTS/YEYOU/outbox/`"
+      },
+      {
+        "line": 73,
+        "text": "YEYOU does not edit other agents' files, Prome docs, root state files, or live market/trade rails. Findings are proposals, not fixes."
+      },
+      {
+        "line": 78,
+        "text": "git commit -m \"YEYOU: <subject>\" -- AGENTS/YEYOU/<file>"
+      },
+      {
+        "line": 84,
+        "text": "git add -- AGENTS/YEYOU/<newfile>"
+      },
+      {
+        "line": 85,
+        "text": "git commit -m \"YEYOU: <subject>\" -- AGENTS/YEYOU/<newfile>"
+      },
+      {
+        "line": 90,
+        "text": "**Fail-stop batch (2026-09-09):** prefer `python3 PROME/tools/commit_check.py commit --stage --push -F <msg.txt> -- <exact paths>`. Stage, commit and verification must each pass before push; omit `--push` for intermediate batches. On any failure stop dependent commands and inspect state. Literal filenames only; directory and symlink scopes are refused. The shared intent file and moving HEAD still require the existing coordination protocol; this wrapper is not transaction isolation. Manual rules and closeout receipt: `PROME/CLOSEOUT.md` Chunk 4. Approval/review: `PROME/plans/2026-09-09_boot-hardening.md`. **Renames (2026-09-10):** `git mv` first, then name BOTH paths in the batch \u2014 `--stage` skips a path that is gone from disk and already staged (the mv source) and the pathspec commit records the rename; before the fix, `git add` on the vanished source aborted the whole batch (`test_commit_pipeline.py` carries the fixture)."
+      },
+      {
+        "line": 130,
+        "text": "**Non-ff abort (re-based 2026-08-03, CORAL packet + RED 7/31 precedent, Will-approved; prior 2026-07-01 framing said \"the other machine\"):** = **another SESSION pushed since this clone last fetched \u2014 usually a concurrent agent on the SAME box** (verified: same-box committers, zero path overlap; non-ff is a COMMIT-GRAPH property, not a file-path one \u2014 separate trees cannot prevent it, only per-agent branches could). Do NOT force; recovery = root `CLAUDE.md` Git Protocol session-end step 3 IN FULL: FIRST the dirty-path overlap check (incoming commits vs `git status --porcelain`; any overlap \u21d2 stop, flag PROME), THEN the autostash-rebase + re-push (`--autostash` stashes the WHOLE dirty tree, others' work included, restores byte-identical \u2014 RED-verified). The receipt is the line `Pushed. CONFIRMED: HEAD <sha> is on origin/master (fresh fetch).` \u2014 a bare `Pushed.` or a log tail is NOT a receipt (safe-push \u2466b, 2026-08-28) \u2014 and note the sweep **rewrites unpushed commit hashes** (verify by subject when a recorded hash goes missing). **Tripwire (escalate to Will, consider per-agent branches):** rebase conflicts outside your own dir, or non-ff **persisting through a completed rebase\u2192re-push cycle** \u2014 bare mid-session recurrence is routine concurrent traffic, and the old tripwire's false fire cost an unnecessary escalation (CORAL 8/3). **Post-`git mv` assertion (WALTER 8/3, adopted):** after any commit containing a rename, run `git status --porcelain -- AGENTS/<ME>/ | grep '^ D\\|^D '` \u2014 a stranded deletion = a FAILED commit, not residue (a rename is TWO paths; typed pathspecs alone don't guarantee both halves)."
+      },
+      {
+        "line": 132,
+        "text": "**YEYOU exception (Decision C, Will 2026-06-26) \u2014 VOID since 2026-09-05, YEYOU retired (banner at \u00a7 YEYOU):** YEYOU is a repo-wide reviewer on a branch model \u2014 it stays **manual/branch** (commits and branches locally, does **not** auto-push) until Will reviews."
+      },
+      {
+        "line": 134,
+        "text": "**Other auto-push exceptions (root canon \u2014 full list in root `CLAUDE.md` Git Protocol scope note):** **TERRY** (self-sweeps, live) and **WALTER** (architectural, per its `BOARD_CONSUMPTION_SPEC` \u00a77). *(Added 7/11 spine-audit \u2014 this doc had drifted to naming YEYOU alone.)*"
+      },
+      {
+        "line": 136,
+        "text": "## YEYOU Landing Rail \u2014 RESOLVED 2026-06-25"
+      },
+      {
+        "line": 138,
+        "text": "The 2026-06-24 landing situation (master ahead with HANS work; YEYOU branch at `origin/claude/busy-rubin-bo2hu5`; dirty `AGENTS/YEYOU/*`) was resolved 2026-06-25 via a Will-approved curated worktree landing \u2014 the branch is gone from origin (`[[finding_curated_worktree_branch_landing]]`). For any future YEYOU branch landing, reuse that pattern: isolated worktree, curate file-by-file, FF-only merge."
+      },
+      {
+        "line": 142,
+        "text": "YEYOU Phase 1 reports to Prome only:"
+      },
+      {
+        "line": 144,
+        "text": "- Write findings/proposals under `AGENTS/YEYOU/reviews/` or `AGENTS/YEYOU/outbox/`."
+      },
+      {
+        "line": 149,
+        "text": "Direct-to-Will YEYOU routing can be added later only after Will approves that escalation path."
+      },
+      {
+        "line": 156,
+        "text": "- YEYOU has active review or branch work."
+      }
+    ]
+  },
+  {
+    "path": "PROME/CLOSEOUT.md",
+    "snapshot_sha256": "0206e5684af49370b48e1e2b685790adea117ec0fdbca9b465bfdd1b41045855",
+    "current_sha256": "0206e5684af49370b48e1e2b685790adea117ec0fdbca9b465bfdd1b41045855",
+    "excerpts": [
+      {
+        "line": 89,
+        "text": "    python3 PROME/tools/commit_check.py commit --stage -F <msgfile> -- <exact paths>   # NO --push"
+      },
+      {
+        "line": 93,
+        "text": "    \u26d4 **`--push` on the commit wrapper is forbidden at this step.** It pushes inside the same command, so the delivery check would run *after* the bytes were already on origin \u2014 detecting an unreviewed delivery once it has shipped is not a control."
+      }
+    ]
+  },
+  {
+    "path": "memory/auto/feedback_defer_push_coordinate.md",
+    "snapshot_sha256": "b1b87e92f893ea824c5d48f7a24551811d239d1f632706da541bfd617d6ab00a",
+    "current_sha256": "b1b87e92f893ea824c5d48f7a24551811d239d1f632706da541bfd617d6ab00a",
+    "excerpts": [
+      {
+        "line": 14,
+        "text": "**How to apply:** at session end, commit with **pathspec from repo root** (`cd \"$(git rev-parse --show-toplevel)\"` first \u2014 pathspecs are cwd-relative; from an own-dir launch cwd, `git status -- AGENTS/<NAME>/` SILENTLY false-passes; root CLAUDE.md \"Before committing\" step 0). Never `git reset HEAD` or `git add <dir>` ([[finding_pathspec_commit_race_safety]]). Then safe-push as the closeout tail. **Non-ff abort \u2192 do NOT force; `git pull --rebase` + re-push (routine).** Escalate to Will (per-agent-branches tripwire) ONLY on out-of-own-dir rebase conflicts or mid-session recurrence \u2014 signatures of two machines running at once, which the protocol forbids ([[finding_two_machine_partition_clean_merge]], [[finding_forced_update_rebase_churn]]). Exceptions: **YEYOU** manual/branch (reviewer model). See [[finding_push_train_pattern]]."
+      }
+    ]
+  },
+  {
+    "path": "KERNEL/GATE_C_C7_RUNBOOK.md",
+    "snapshot_sha256": "e45f5b71807accaec4b38a8dea81760b71e8643f53872a75545190439757686e",
+    "current_sha256": "e45f5b71807accaec4b38a8dea81760b71e8643f53872a75545190439757686e",
+    "excerpts": [
+      {
+        "line": 25,
+        "text": "**The desk-commit grant (root carve-out \u2463) is scoped to the RULED WINDOW BOUNDS \u2014 the one temporal fact a desk can read from the ruling record \u2014 not to activation-instance liveness, which a desk cannot observe at commit time** (a 23-second-old revocation is invisible without a fetch between add and commit; a condition the complying party cannot evaluate at act time is a defect in the rule, not the party). **And on any mid-window pause or revocation, the custodian DOORBELLS every submitting desk so the window is affirmatively closed desk-side \u2014 symmetric with N3's ledger-side affirmative close.** The ledger's real protection is acceptance, which refuses after revocation regardless; submission files are inert by design. \u26a0\ufe0f The root `CLAUDE.md` carve-out-\u2463 mirror line rides the next Will-gated root edit \u2014 this section is the single home until then. Provenance: `AGENTS/DAEDALUS/reports/2026-08-27_KERNEL_SITTING2_SUBSTITUTION_REVIEW.md` \u00a72."
+      }
+    ]
+  },
+  {
+    "path": "PROME/CLAUDE.md",
+    "snapshot_sha256": "87d02389837d47dc27960a23aeb57b998f4921f2392c256616c85a87a741f841",
+    "current_sha256": "87d02389837d47dc27960a23aeb57b998f4921f2392c256616c85a87a741f841",
+    "excerpts": [
+      {
+        "line": 29,
+        "text": "2. **Then follow `PROME/BOOT.md` in full** (HANDOFF \u2192 SCRATCH \u2192 ACTIVE_DECISIONS \u2192 STATUS \u2192 market-data freshness gate) \u2014 **the `/boot` skill runs that sequence** (`PROME/.claude/skills/boot/SKILL.md`; invoke it, or it triggers on \"please boot up\"). Sibling skills: `/closeout` \u00b7 `/reconcile` \u00b7 `/coldread` \u00b7 `/spineaudit`. **Layering rule (8/29, both directions):** manuals (`BOOT.md`, `CLOSEOUT.md`) own rules + reasons; skills own sequence + commands and point back \u2014 a rule that exists only in a skill is a defect, **and a manual step absent from its runner is a defect** (the runner is what executes; `/boot` ran twice missing five BOOT.md steps while the copy-parity gate read green \u2014 parity compares copies, never a copy to its manual). **One canonical home per procedure:** a skill is either the home (`/reconcile` \u2014 carries its own rules, no manual exists) or an ordered index over one (`/boot`, `/closeout` \u2014 pointers + verbatim stable commands, NOTHING restated: every restated sentence measured as a divergence site, 4\u21927 \u274c across two enrich passes, 0 \u274c once index-shaped). Never both. Root and `PROME/.claude/` copies must stay identical (gate advisory). `PROME/SYSTEM.md` is **on-demand** architecture/trust reference \u2014 not a boot read. *(Bootstrap PLAN/TASKS + the old `CLAUDE_CODE_PROME.md` manual are retired to `PROME/archive/`; not boot-read.)*"
+      }
+    ]
+  },
+  {
+    "path": "PROME/plans/2026-10-02_heartbeat-26th-rebase-PLAN.md",
+    "snapshot_sha256": "dcab98884f7f562ffbd924a04c14b052410b1cb0d4b96c8d0ab16c38903a7c99",
+    "current_sha256": "dcab98884f7f562ffbd924a04c14b052410b1cb0d4b96c8d0ab16c38903a7c99",
+    "excerpts": [
+      {
+        "line": 20,
+        "text": "3. One-liner rewritten around the real-yield-led close, HY 324 as 1 of 3, the record QQQ close on narrow breadth, the G7 release, WQ-357's rule-vs-evidence split, and Monday's five 735 puts."
+      },
+      {
+        "line": 23,
+        "text": "6. \u00a73: the 10/1 cells; HY >320 at 1 of 3; BRK-R2's second fire with its counter; the LIQ-069 anchor encode."
+      },
+      {
+        "line": 35,
+        "text": "5. VLO: 1 of 3 filled @ $412 [9/18]; VLO-SCALE TERMINAL, both staged shares stand down, only Will's hand reverts; F1 <$95 = STAND-DOWN never a buy trigger; the day-colour kill STAYS LIVE; VLO-HELD-01 A/B1 as registered; November governs through 10/14."
+      },
+      {
+        "line": 45,
+        "text": "15. HY 324 is stated as 1 of 3 and never as a fire; LIQ-07 as a TRIGGER with its verdict date."
+      },
+      {
+        "line": 76,
+        "text": "**Plan read (coldreader `hb26-planread`, Opus, blind; ~17:40 ET; 77 claims: 55 \u2705 \u00b7 15 \u26a0\ufe0f \u00b7 7 \u274c; ledger `scratchpad/hb26/planread.md`).** \u274c fixed in ONE pass before install: \u274c1 the Pointers line still named \u00a725.x and \u00a7KOS.9 as \"this base's\" \u2192 \u00a726.x / \u00a7KOS.10 \u00b7 \u274c2 HY 324 called \"the FIRST print over 320\" \u2014 LIQUID's STATUS records 328 on 3/31 \u2192 \"highest since 3/31\" \u00b7 \u274c3 three different rules merged into \"1 of 3\" \u2192 split: LIQUID's send line is TAGGED on one print and its signal SENT (no session count); RED FT-02 / REG-T-03 count 1 of 3 (invariant 15 as written carried the same merge; the hot text governs) \u00b7 \u274c4 \"BROCK re-ran the wrapper half at 324\" \u2014 BROCK's 10/2 sitting used the cells through 9/30 \u2192 restated \u00b7 \u274c5 the FR2004 riders (a 3\u20136Y build is not proof of warehousing; the funding leg is ungraded by ruling) had dropped \u2192 restored in \u00a72 \u00b7 \u274c6 the kill entry and two book lines stated the Oct-02 puts' expiry as fact while the same file says Will's Activity view decides \u2192 all three now say INFERRED, no fill reported \u00b7 \u274c7 this plan's BOND pointer named a `processed/` memo that does not exist \u2192 `AGENTS/BOND/STATUS.md`, commit 0cbc87c63 (`ORCH_LOG.tsv` carries the same dead path in its BOND touch-2 row \u2014 NOT fixed here). Cheap \u26a0\ufe0f also fixed: \"VULCAN evidence 08:30\" (no owner confirmed the slot) \u2192 \"evidence owed (L590)\" \u00b7 \"Will names the strike\" removed (the card's rule picks it) \u00b7 the Bund move marked HANS-unconfirmed \u00b7 the breadth figure attributed to VULCAN's 10/2 slot. Paid for by demoting the nine named kill entries to a one-line pointer, and dropping two calendar items and two clauses."
+      },
+      {
+        "line": 81,
+        "text": "**Result read (coldreader, Opus, blind, on the INSTALLED working-tree file; ~17:49 ET; 68 claims: 48 \u2705 \u00b7 19 \u26a0\ufe0f \u00b7 1 \u274c; verdict \"yes, with caveats\"; 61 of 62 pointers resolve; all 16 positions match FORGE to the cent; every distance recomputes; ledger `scratchpad/hb26/resultread.md`).** \u274c fixed in ONE further edit, UNREVIEWED: \u274c6 the TERRY commit cited as 3f66ae504 is a rebase-orphaned object not in master's history \u2014 the master copy is 1857731ff (same subject and author time) \u2192 hot \u00a71 and cold \u00a726.1 now cite 1857731ff (BRENT's STATUS still carries the orphan hash \u2014 BRENT's file, flagged by packet at closeout). **In the SAME edit, three \u26a0\ufe0f the reader marked as able to mislead a decision were WITHHELD per `PROME/CLAUDE.md` \u00a7 Review budget \u2014 the claim replaced by a pointer to its owner, not re-asserted:** the HY \"1 of 3\" count (neither RED nor REGINALD has graded the 324 cell; the count now points at their STATUS files) \u00b7 the VULCAN breadth distance (the red band needs TWO legs; distances now point at VULCAN's STATUS) \u00b7 the USO 150C line (TERRY's early-sell condition state now points at the WQ-366 row and TERRY's card). None of the four changed a rule's meaning \u21d2 no third read. Three byte-trims paid for them (the file sits 22,7xx B \u2014 read `measure.py`). **Disposition: the base is INDEPENDENTLY VERIFIED-WITH-RESIDUE; the four edited clauses are IMPLEMENTED only.**"
+      }
+    ]
+  }
+]

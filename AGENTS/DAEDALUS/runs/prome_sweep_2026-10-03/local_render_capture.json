@@ -1,0 +1,18 @@
+[
+  {
+    "path": "/tmp/claude-1000/-home-willi-Research-workspace-PROME/e617878f-8a86-407f-9447-92b3017446b5/scratchpad/handbook.html",
+    "saved": "handbook.html.gz",
+    "sha256": "c6809c24be6715a0a68d565e740db61c9081e03f144dfff72136d081b63da9e3",
+    "bytes": 211784,
+    "capture_utc": "2026-10-04T01:25:30.080664+00:00",
+    "stability": "two consecutive reads equal; not proof of hosted version"
+  },
+  {
+    "path": "/tmp/claude-1000/-home-willi-Research-workspace-PROME/e617878f-8a86-407f-9447-92b3017446b5/scratchpad/docket.html",
+    "saved": "docket.html.gz",
+    "sha256": "6d02ea65d2c792c9a9d933e576210e2c080af05516343622859304574c558a80",
+    "bytes": 260688,
+    "capture_utc": "2026-10-04T01:25:30.093545+00:00",
+    "stability": "two consecutive reads equal; not proof of hosted version"
+  }
+]

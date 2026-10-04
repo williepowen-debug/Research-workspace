@@ -1,0 +1,73 @@
+{
+  "time_utc": "2026-10-04T01:43:16.827989+00:00",
+  "head": "fa9e51ab292ec636c1be35deb290d7dd89e8dca2",
+  "dirty": " M AGENTS/DAEDALUS/STATUS.md\n M AGENTS/WALTER/MEMORY.md\n M PROME/HANDOFF.md\n M PROME/SCRATCH.md\n M PROME/STATUS.md\n M PROME/state/ORCH_INFLIGHT.md\n M PROME/state/ORCH_LOG.tsv\n M PROME/state/argus_baseline.json\n M memory/2026-10-03.md\n M memory/auto/INDEX_COLD.md\n?? AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/\n?? AGENTS/DAEDALUS/upgrades/PROME_SWEEP_2026-10-03.md\n?? AGENTS/DAEDALUS/upgrades/PROME_SWEEP_2026-10-03_OUTPUT_READER.md\n?? AGENTS/DAEDALUS/upgrades/PROME_SWEEP_2026-10-03_READER_REPORTS.md\n?? AGENTS/DAEDALUS/upgrades/PROME_SWEEP_2026-10-03_SPINE_READER.md\n?? memory/auto/finding_a_pipe_masks_the_exit_code_that_matters.md\n",
+  "source_comparisons": [
+    {
+      "path": "FORGE/position_management.tsv",
+      "snapshot_sha256": "66afa92af2881ef7f7d13fc8cd9b7352904fc8e264e83d897fc5c474ed0c6294",
+      "precontact_sha256": "66afa92af2881ef7f7d13fc8cd9b7352904fc8e264e83d897fc5c474ed0c6294",
+      "matches_snapshot": true
+    },
+    {
+      "path": "PROME/WILL_QUEUE.md",
+      "snapshot_sha256": "414e336634803ad1b39d537d0db1c2aa4d2084e90366504f01f671452be6c72d",
+      "precontact_sha256": "414e336634803ad1b39d537d0db1c2aa4d2084e90366504f01f671452be6c72d",
+      "matches_snapshot": true
+    },
+    {
+      "path": "PROME/registry/WQ_EXPLAINERS.tsv",
+      "snapshot_sha256": "db4f4df0bb528c76cb5213c232a4927b55c3fc550f13b9e82436cadaeb504dfe",
+      "precontact_sha256": "db4f4df0bb528c76cb5213c232a4927b55c3fc550f13b9e82436cadaeb504dfe",
+      "matches_snapshot": true
+    },
+    {
+      "path": "PROME/proposals/2026-09-25_wq295-dark-desk-class-PROPOSAL.md",
+      "snapshot_sha256": "26145f32e93d0cbc68ceb721b09bfe513e74544e5298db101d85624839fe1922",
+      "precontact_sha256": "26145f32e93d0cbc68ceb721b09bfe513e74544e5298db101d85624839fe1922",
+      "matches_snapshot": true
+    },
+    {
+      "path": "HEARTBEAT.md",
+      "snapshot_sha256": "cad92bcf61c948a0383c2852851946438647fff85f75aaf26b264be1fe9d7088",
+      "precontact_sha256": "cad92bcf61c948a0383c2852851946438647fff85f75aaf26b264be1fe9d7088",
+      "matches_snapshot": true
+    },
+    {
+      "path": "PROME/GIT_COORDINATION.md",
+      "snapshot_sha256": "48ae5e846bc77eff81d5d80b8f8215dc1aead13f7c658ba5662816f677fc6e95",
+      "precontact_sha256": "48ae5e846bc77eff81d5d80b8f8215dc1aead13f7c658ba5662816f677fc6e95",
+      "matches_snapshot": true
+    },
+    {
+      "path": "PROME/CLOSEOUT.md",
+      "snapshot_sha256": "0206e5684af49370b48e1e2b685790adea117ec0fdbca9b465bfdd1b41045855",
+      "precontact_sha256": "0206e5684af49370b48e1e2b685790adea117ec0fdbca9b465bfdd1b41045855",
+      "matches_snapshot": true
+    },
+    {
+      "path": "memory/auto/feedback_defer_push_coordinate.md",
+      "snapshot_sha256": "b1b87e92f893ea824c5d48f7a24551811d239d1f632706da541bfd617d6ab00a",
+      "precontact_sha256": "b1b87e92f893ea824c5d48f7a24551811d239d1f632706da541bfd617d6ab00a",
+      "matches_snapshot": true
+    },
+    {
+      "path": "KERNEL/GATE_C_C7_RUNBOOK.md",
+      "snapshot_sha256": "e45f5b71807accaec4b38a8dea81760b71e8643f53872a75545190439757686e",
+      "precontact_sha256": "e45f5b71807accaec4b38a8dea81760b71e8643f53872a75545190439757686e",
+      "matches_snapshot": true
+    },
+    {
+      "path": "PROME/CLAUDE.md",
+      "snapshot_sha256": "87d02389837d47dc27960a23aeb57b998f4921f2392c256616c85a87a741f841",
+      "precontact_sha256": "87d02389837d47dc27960a23aeb57b998f4921f2392c256616c85a87a741f841",
+      "matches_snapshot": true
+    },
+    {
+      "path": "PROME/plans/2026-10-02_heartbeat-26th-rebase-PLAN.md",
+      "snapshot_sha256": "dcab98884f7f562ffbd924a04c14b052410b1cb0d4b96c8d0ab16c38903a7c99",
+      "precontact_sha256": "dcab98884f7f562ffbd924a04c14b052410b1cb0d4b96c8d0ab16c38903a7c99",
+      "matches_snapshot": true
+    }
+  ]
+}

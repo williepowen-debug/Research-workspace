@@ -1,0 +1,57 @@
+diff --git a/AGENTS.md b/AGENTS.md
+index 3cc4535a6..ab6207bf4 100644
+--- a/AGENTS.md
++++ b/AGENTS.md
+@@ -32,7 +32,7 @@ Do not recreate roster membership or responsibility classes here; when another s
+ |---|---|
+ | Credit | LABOR → CARL → REGINALD → repricing; CREED supplies national CRE/CMBS, CORAL geographic convergence, HENRY velocity, LIQUID amplification. Single-name bank depth: OZK, WAL, FLG → REGINALD; FLG also → {LIQUID, TERRY} |
+ | Private credit | BROCK → SHADE (insurance wrapper) → LIQUID / REGINALD |
+-| Energy shock / war | {OSPREY, FALCON} → HAWK (cross-war synthesis, no double-count) → BRENT → {HENRY, LIQUID, CARL}; acute theater signals go to BRENT direct, HAWK cc'd. BRENT fuel cost → CRUISE (event-driven) |
++| Energy shock / war | YURI (Russian state decision) → {OSPREY, HAWK} → {OSPREY, FALCON} → HAWK (cross-war synthesis, no double-count) → BRENT → {HENRY, LIQUID, CARL}; acute theater signals go to BRENT direct, HAWK cc'd. BRENT fuel cost → CRUISE (event-driven) |
+ | Japan / carry | SAM → {LIQUID, HENRY} — independent trigger via carry unwind |
+ | Credit → volatility | {BOND, BROCK, REGINALD} → VIOLET → {HENRY, LIQUID, RED} — VIOLET watches the lag: credit spreads widen and VIX hasn't caught up |
+ | Climate and power | AEOLUS → {BRENT, CORAL, MARCO}; AEOLUS → WATT → {HENRY, CARL}; BRENT (gas → power) → WATT |
+diff --git a/CLAUDE.md b/CLAUDE.md
+index da9c3768e..8959bf044 100644
+--- a/CLAUDE.md
++++ b/CLAUDE.md
+@@ -53,6 +53,8 @@ Coordination is file-based. **Write to `PROME/inbox/` (repo root — NOT under `
+ 
+ **Cost-bearing text & state tokens:** packet ACTION/ASK lines, script output messages, and gate/threshold/kill specs follow `AGENTS/DAEDALUS/BLUEPRINTS/STRICT_TEXT.md`. Machine-read state tokens come from `AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY.md` — new surfaces use canonical tokens; legacy is grandfathered. Prose, thesis docs and Will-facing synthesis are exempt.
+ 
++**Operator surface (Will-facing prose only — Telegram replies, boot reports, dispatch summaries):** the whole story first, in a few sentences; the thing in the world named plainly, its identifier in parentheses after it, never in its place; every item answers *so what*; jargon unpacked or dropped on first use; money in dollars, risk in plain words; the decisions that are his stand at the top as `USER.md`'s ⚖️ blocks, one per decision, each registered before it is shown, and the brief ends by naming the single most important one or saying there is none; then an offer of depth. A trade is proposed on TERRY's card (Trade construction = TERRY) and approved under root rule #5, never inside a brief. **Plain language, same rigour: every number keeps its date and basis; the tables and figures above govern the content, this clause governs the register.** ⛔ **Anti-laundering: a caveat that could change Will's decision survives simplification verbatim in substance, in plain words, in the brief, not in a file he has to open — it may be reworded, never dropped.** Test per caveat: *if this turned out to be the thing that mattered, would he say "you didn't tell me"?* Sourcing weakness, the direction of a conditional, who owns the call, and a known-unknown that gates the decision always survive. Dense surfaces — BOARD signals, handoffs, route and delivery logs, peer packets, design docs, every record — stay dense: this changes the message, never the record. Worked example: WALTER's `AGENTS/WALTER/design/OPERATOR_BRIEF_SPEC.md` (that desk's spec; the fleet rule is this clause).
++
+ ## Key Directories
+ 
+ | Path | Purpose |
+@@ -79,7 +81,7 @@ Agents share one working directory and branch. **GitHub is the single source of
+ 
+ **Gate C custody (PROME only).** PROME is the sole active acceptance custodian. Under an operator-approved activation packet PROME may explicitly stage and commit only: approved Kernel schemas and policy/registry versions; new accepted events at `KERNEL/shadow/events/YYYY/MM/<event_id>.json`; new rejected receipts at `KERNEL/audit/commands/YYYY/MM/<command_id>.json`; the four registered generated views under `KERNEL/views/`; and the sitting's governance records the approved runbook instructs (activation document incl. its `revoked_at`, sitting rulings, durable transcript, closeout/ruling packets). Accepted events and rejected receipts are **additions-only** — any modification, deletion, rename, overwrite or history rewrite is a blocking integrity failure. Views are generated replaceable projections, not authority, changed only through the registered deterministic renderer. Every stage and commit uses exact file pathspecs — never a submission, result, month directory, `KERNEL/`, `AGENTS/<NAME>/`, or `.rw/` as a directory; never `git add .`, `git add -A`, a computed path list, or `git commit -a`. Kernel tools never commit or push automatically. Before a Kernel commit: prove one active writer, inspect the exact staged paths, run the registered additions-only and durable-result checks, and stop on unrelated staged changes, an unapproved path, `EXCEPTION`, or `UNKNOWN`. A substitute custodian receives no standing grant — Will activates a pre-registered substitute for a named window and perimeter; it uses PROME's identical path limits, records its own `writer_id`, and loses the grant at window end. CI never becomes an acceptance writer. No timeout transfers custody.
+ 
+-**Scope note — who commits what:** **PROME** commits `PROME/`, plus `HEARTBEAT.md` and `FORGE/` PROME-standard, plus Will-gated shared/root docs (root `CLAUDE.md`, `AGENTS.md` core — **get Will's OK first**). Domain agents still flag HEARTBEAT and FORGE to PROME and never commit them. **Auto-push exceptions** (deviations in closeout/push MECHANICS only — no extra commit authority, no path-boundary bypass): TERRY (self-sweeps), WALTER (per `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` §7), YEYOU (manual/branch). Everyone else: own `AGENTS/<NAME>/` dir + auto-push at closeout.
++**Scope note — who commits what:** **PROME** commits `PROME/`, plus `HEARTBEAT.md` and `FORGE/` PROME-standard, plus Will-gated shared/root docs (root `CLAUDE.md`, `AGENTS.md` core — **get Will's OK first**). Domain agents still flag HEARTBEAT and FORGE to PROME and never commit them. **Auto-push exceptions** (deviations in closeout/push MECHANICS only — no extra commit authority, no path-boundary bypass): TERRY (self-sweeps), WALTER (per `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` §7). Everyone else: own `AGENTS/<NAME>/` dir + auto-push at closeout.
+ 
+ **At session start:** follow "Before pulling" below, then your normal boot.
+ 
+@@ -88,7 +90,7 @@ Agents share one working directory and branch. **GitHub is the single source of
+ 1b. **Orphan check:** `bash scripts/orphan_check.sh <YOUR_NAME>` — read-only advisory. `[likely YOURS]` = packets you authored → commit them (carve-out ①). `[not yours]` = flag to PROME, never sweep.
+ 1c. **Consumer check:** if this session superseded a figure others may cite (threshold, flip level, split, band): `python3 scripts/consumer_check.py --agent <YOUR_NAME> --old <old> --new <new>` and send each 🔴 STALE owner a packet — **never edit their files**. Repeat `--old` ONLY for prior vintages of the SAME figure; different metrics = separate runs or `--from-ledger`. If you superseded one of your OWN figures, also run `python3 scripts/consumer_check.py --agent <YOU> --self --old <old> --new <new>` (the cross-agent scan excludes your dir). Fix by pattern, not by the printed line list; 🟠 CANDIDATE = look, packet only on 🔴; confirm series AND unit first; send nothing on a bare 2-sig-fig figure.
+ 1c-bis. **Ledger nudge:** if your commit set includes `STATUS.md` but none of the ledgers your `AGENTS/<NAME>/workbook/LEDGER_GLOB` file declares: `python3 scripts/ledger_staleness.py --nudge <YOUR_NAME>` — freeze, refresh, or say why not in the commit message.
+-1d. **Memory-index check:** if you wrote or edited an auto-memory: `python3 scripts/memory_index_check.py --strict --slug <name>` (carve-out ③'s enforcement; exit 1 = commit the file or fix the ignore rule) **and** `bash scripts/check_memory_length.sh` — the boot-loaded index has a hard cap (~200 lines / 25,600 B) past which entries are silently dropped; rc=1 approaching, rc=2 over. **Do NOT compact `MEMORY.md` yourself — flag to PROME.** YEYOU exempt.
++1d. **Memory-index check:** if you wrote or edited an auto-memory: `python3 scripts/memory_index_check.py --strict --slug <name>` (carve-out ③'s enforcement; exit 1 = commit the file or fix the ignore rule) **and** `bash scripts/check_memory_length.sh` — the boot-loaded index has a hard cap (~200 lines / 25,600 B) past which entries are silently dropped; rc=1 approaching, rc=2 over. **Do NOT compact `MEMORY.md` yourself — flag to PROME.**
+ 1e. **Claim check:** `python3 scripts/claim_check.py --check weekday PROME/DOCKET.tsv PROME/GATES.tsv PROME/WILL_QUEUE.md AGENTS/<YOU>/workbook/CATALYSTS.tsv AGENTS/<YOU>/CALENDAR.md AGENTS/<YOU>/STATUS.md` (omit paths you lack). Flags a weekday asserted beside a date that isn't that weekday. A flag is a prompt to LOOK, never a find-replace — it may be a correctly-labeled quote of a corrected error.
+ 2. **Auto-push** via `scripts/safe-push.sh`. The receipt is the line `Pushed. CONFIRMED: HEAD <sha> is on origin/master (fresh fetch).` — a log tail or a bare `Pushed.` is not a receipt.
+ 3. **If safe-push aborts (non-ff), do NOT force.** A non-ff means another SESSION pushed since this clone last fetched — usually a concurrent agent on the SAME box; it is a property of the commit graph, not of file paths, so separate directories cannot prevent it. Recovery: `git pull --rebase --autostash` then re-push — **first check that incoming commits don't touch any dirty path**: `git fetch origin && git diff --name-only "$(git merge-base HEAD origin/master)..origin/master"` against `git status --porcelain` — any overlap ⇒ stop and flag to PROME (the autostash stashes the whole dirty tree, other agents' work included). Rebase rewrites unpushed commit hashes — verify by subject if a hash goes missing. **Escalate to Will only if** the rebase conflicts outside your own dir or non-ff persists through a completed rebase→re-push cycle; bare recurrence is ordinary traffic.
+diff --git a/USER.md b/USER.md
+index eb83c6d5d..eb793e3ef 100644
+--- a/USER.md
++++ b/USER.md
+@@ -37,6 +37,8 @@ Will challenges his own theses, uses RED-team reasoning, and checks primary sour
+ 
+ He thinks about agents as people with characteristic failure modes and designs workflows around the cold-boot experience.
+ 
++**Standing practice on expiries (2026-09-30 19:03 ET, verbatim):** *"I am always going to try to sell or roll positions before they expire worthless."* Cards, rulings and mirrors carry a **sell-or-roll rail** for every option line, never a hold-to-expiry or lapse rail; a sale or roll before expiry is his standing practice, not a deviation to record. Rolling keeps the bet and is the form root rule #7 sanctions; the desk's job is the card (bid, exercise arithmetic, day colour), the order is his.
++
+ ## Decisions and Attention
+ 
+ Anything requiring Will goes at the top of the message in a blockquote.

@@ -1,0 +1,217 @@
+38d1e705ca0387d8ee69de25dda5525019b933c1 2026-10-03T21:12:01-04:00 WALTER walter-f0: x-bookmarks LIVE TEST — tool caught 25 new, BM-20261004-01 CLOSED 25/25, 4 dispatches
+d2d1335f8c6e78f6fcf13f651ecd569bed77c187 2026-10-03T19:04:43-04:00 WALTER walter-f0: Will 6-image Telegram batch -> 5 dispatches (-012..-016), BM-20261003-03 CLOSED 6/6
+1e078e7ffe37045a06a61e2327eb9e4aeec3d710 2026-10-03T17:02:18-04:00 WALTER walter-f0 boot 10/3 PM + lane dispatch: SIG-W-20261003-011 (US principal confirms NO diesel-export ban -> closes -027 US-unconfirmed caveat; de-escalatory, VLO-gate-relevant)
+633a83fcf6f64dcef2865d92a26b13f4b200f7e2 2026-10-03T15:44:39-04:00 WALTER: route 2 dated research leads from bookmark diagnostic (-009 JPM oil, -010 Guggenheim); BOARD 1190->1192
+7219d454b6f83ac0442e708721564c0432b05887 2026-10-03T14:02:06-04:00 WALTER: X-bookmark backlog slice - route 6 (-003..-008), annotate -002; BOARD 1184->1190
+551c9750a457dd005853f1dc758975471e1ad0d1 2026-10-03T13:48:59-04:00 WALTER: dispatch + close BM-20261003-01 (8/8) - 2 signals, 3 dup, 1 no-action; BOARD 1182->1184
+feaec7407e638600b3d83c0e71cf3d8d5a0a7846 2026-10-03T13:18:11-04:00 WALTER boot 2026-10-03: regen BOARD/INDEX (HIGH fix), retire YEYOU row, consume WQ-237 packet
+5da3481b4323fe0991c1d9c23f093c56a1389ef0 2026-10-02T17:51:18-04:00 PROME: HEARTBEAT 26th re-base (post-close Fri 10/2) - am.#1 folded, chain 0, cold S26.x + KOS.10
+d45271c6a7fb98a8c721cfec8744d3d2d9bf7ad2 2026-10-02T17:40:51-04:00 WALTER: dispatch -034 Cable One distressed credit -> BROCK, LIQUID
+68aba4ec3ef1445ffb77057ba0f17402b5936f15 2026-10-02T17:13:54-04:00 WALTER: dispatch -033 FT Arctic routes boom (NSR) -> AEOLUS
+1c9ff2036f8b1fed87595f48ba35551703f50e1d 2026-10-02T17:11:26-04:00 PROME closeout 2026-10-02 prome-96 (Standard, EOD): 11 touches + spawn_slate wired + HEARTBEAT am.#1
+18d017f16c2c285ffa4e1b57f72288956c642258 2026-10-02T17:09:38-04:00 WALTER: dispatch -032 futures price just under one Fed hike by YE -> BOND
+6c8d78f91cb62b7f7fe871f7f7f606a722172935 2026-10-02T17:04:52-04:00 WALTER: dispatch -031 viral $396B delayed-DC table killed; ERCOT residue -> WATT/VULCAN
+305b9dade657ce7ffa8a6b6496b73321a77e79c6 2026-10-02T17:02:23-04:00 WALTER: dispatch -030 SW Florida water deficit (SWFWMD Sept report) -> CORAL
+42a5b3bf94246fd7594e6cd5eb805173fc4c5b23 2026-10-02T16:37:56-04:00 WALTER: -029 CORRECTION to -028 - Brent basis was post-settle; settle-window Brent flat, WTI ~-1.9% (BRENT caught)
+1be2ca661c837c7b1c75dd933d35912a161ea4c1 2026-10-02T16:36:42-04:00 WALTER: -028 close update - 10Y rally reversed (+4-5bp on a jobs miss), Brent erased G7 drop (BOND/BRENT)
+ea350e5c09dfd4b1327444ff9d26c4c173517c13 2026-10-02T16:00:57-04:00 WALTER: -027 CORRECTION to -023 - LatAm not established as 'non-allies' (BRENT caught); dispositions
+1350afb022a6f23a6001fac954f84524eaca93fd 2026-10-02T15:59:54-04:00 WALTER: -024 Toshiba HDD/STX-WDC -10% (VULCAN), -025 NYT Hormuz attack rate (FALCON), -026 summer tanker hack (FALCON)
+de8805031cdf51bbaab1ad83370be28f76b962dd 2026-10-02T15:57:41-04:00 WALTER: second 10/02 lane batch -> -023 US diesel-ban state (BRENT); 2 kills, 2 folds, 4 dups
+00affedf3ab11a38bd7c98b4d1d58c1c285ca93f 2026-10-02T14:50:52-04:00 WALTER: -022 route BROCK's GATE-BRK-R2 (a) FIRE #2 on OCIC -> LIQUID + OTTO; packet consumed
+357338f3d93e7fc8615f1bba68ad673eb10a990d 2026-10-02T14:34:45-04:00 WALTER: -021 IMMEDIATE Blue Owl Q3 OCIC 16.8% / OTIC 39% vs 5% caps - GATE-BRK-R2 (a) candidate
+c5ce07440c5c33943ecda7a98d46b10d2df78de1 2026-10-02T14:30:46-04:00 WALTER: -019 Hunterbrook Lennar->Millrose (HOMER), -020 FL very wet pattern (CORAL)
+9712522ba28abdeaa40fe817c40b52f5122b3d98 2026-10-02T14:12:24-04:00 WALTER: -018 CORRECTION to -017 - a NEW Hormuz tanker hit 10/02 1122Z (Will caught)
+1bc810893302229402b88cc03510f84255957966 2026-10-02T12:39:12-04:00 WALTER: -017 UKMTO 147-26 named Kazimah III (KOTC VLCC); no new 10/02 tanker attack found
+5775407c300cc763847b9a9d868d2f7ce929d296 2026-10-02T12:36:45-04:00 WALTER: -016 CORRECTION to -014 - Yanbu suspension TERMINAL-WIDE (BRENT caught)
+bf27866cab7ff78919a07da00e93da86a978c823 2026-10-02T12:34:30-04:00 WALTER: lane manual run -> -014 IMMEDIATE Yanbu port struck 10/01, -015 ECB pricing (HANS)
+ab68dd36f97842f20f69fd774e54bca7ccb95d53 2026-10-02T12:15:55-04:00 WALTER: Will Telegram batch BM-20261002-01 -> SIG-W-20261002-011..013, 3 kills, 1 dup
+555496a568226f2aa051a3c3c9d7055345f5eb33 2026-10-02T10:52:40-04:00 WALTER sweep part 2: -010 Ukraine hits Volgograd refinery + Samara hub (OSPREY)
+11570b77e9bf7e185f0fcec7bef7393019de1402 2026-10-02T10:40:21-04:00 WALTER: SIG-W-20261002-009 IMMEDIATE - G7 decided 100M bbl diesel+crude release over 4 months
+e1dc205c41f3f8a051339aef85805d0f0870479a 2026-10-02T10:38:38-04:00 WALTER news sweep: -006 CRE cases (CREED), -007 Jefferson (BOND), -008 Taiz (FALCON)
+a3d039fbb68995dcd1d4a9bfe64495a2b5b15f6c 2026-10-02T10:27:46-04:00 WALTER: SIG-W-20261002-005 IMMEDIATE - HY OAS 324 [10/01] one tagged print
+ef5856db01e052b4cac712a6b97df2521ffc9b73 2026-10-02T09:33:19-04:00 WALTER 10/02 AM: dispatch -001..-004 (NFP, EU diesel/oil, carrier relief, EA HICP)
+9c9b5497deb0b540d76c9922a590642cad2a5d6a 2026-10-01T18:06:34-04:00 WALTER: dispatch SIG-W-20261001-033..036 (UKMTO 147-26 + Yanbu video unverified; PBF; FedWatch; RSP)
+90e4fea86a3328d0c8dd7f48ab112601a43dd650 2026-10-01T17:14:10-04:00 WALTER: dispatch SIG-W-20261001-030..032 (CleanSpark/Meta HY; ECB pricing + NL storage; CA SB 951)
+43b7a66384ace72c4aabeeaebdcef3d4d95faeab 2026-10-01T17:10:46-04:00 WALTER: dispatch SIG-W-20261001-029 (CREED-relayed MF items for HOMER)
+e6e639b9e812589fd541a5202dc4bc43810cb82d 2026-10-01T17:09:31-04:00 WALTER: dispatch SIG-W-20261001-028 (NCLH Q3 pre-announce; FY26 reaffirmed; 2027 interest)
+33898a0791fb90bfb976e7ee0aeb309a6045a37c 2026-10-01T17:07:31-04:00 WALTER: dispatch SIG-W-20261001-027 (Petroline ~5.5 mb/d per Argus, one source)
+c9e3df4cdc42c382a57b2e04e71a8d989f3d7f4f 2026-10-01T16:47:31-04:00 WALTER: dispatch SIG-W-20261001-026 (US diesel-ban threat to France/Germany; Russia ban to Oct 31)
+62039c55647ff1c1a214e6704ddb7766ab015157 2026-10-01T16:45:48-04:00 WALTER: dispatch SIG-W-20261001-025 (PMMS 7.28%, +25bp, HOMER pre-registered HOLD)
+c0642a8f667ec6e8d6864ca6f671197a5e4ecea7 2026-10-01T16:41:15-04:00 PROME: HEARTBEAT 25th re-base (chain 0) - plan + result reads, snapshot, cold 25.x, mirror mapping
+b77dd7586e33e2f86a7a0fbcffc9ce5587d4b86e 2026-10-01T14:33:58-04:00 WALTER: dispatch SIG-W-20261001-021..024 (9/30 lane omissions: Fairford, Kaliningrad, Ukraine grid, UK cap)
+19e3515f9867afc0b6b75bbd73d021bc19cb72c5 2026-10-01T13:05:36-04:00 WALTER: Will Telegram batch BM-20261001-05 (6 items): -019 SPR, -020 Pacific hurricanes
+6425e97c18b5e2cb16002abbdca158ca4e8cbba3 2026-10-01T12:49:43-04:00 WALTER: Will Telegram batch BM-20261001-03 (8 items): -015..-018, 2 kills
+53e84a965e8ae27ddf2d47e743389d6d7b96c010 2026-10-01T12:46:23-04:00 WALTER: Will Telegram batch BM-20261001-02 (8 items): -012..-014, 2 kills
+e5f109f9bd4eca3b1caedc005c02eb8ea18d62d4 2026-10-01T12:37:09-04:00 WALTER: -011 update to -009 (HANS: flight-to-quality, not France-only); SHADE Group 1001 test
+b4ff538828315d7e6690f2665a286c8b71807e8d 2026-10-01T12:33:20-04:00 WALTER: CARL-DR-3 ledger row + BOARD record -010; file DEWEY and CARL packets
+cc5c6cdd9ac2d2a547cd7f6f40a1e66bd98ec8ce 2026-10-01T12:31:40-04:00 WALTER: Will Telegram batch BM-20261001-01 (7 items): -007, -008, -009 dispatched
+0f6d90f6d88dc9297db73617cccf2e5eef6a1b88 2026-10-01T12:22:28-04:00 WALTER: -006 correction to -004 (MOF sums true on different vintages)
+13629bff8d18f2e0a1e9897e7a068f0c5aef2304 2026-10-01T12:20:18-04:00 WALTER: dispatch -004 MOF weekly bar (SAM) and -005 LIQ-07 trigger (LIQUID)
+5afc4c1021fbdd4b338d0da6391d880206a8aa0b 2026-10-01T11:15:54-04:00 WALTER 10/01 Iran full sweep: -001..-003 to FALCON (Hormuz hits resumed, US response, Ghawar-area plume)
+aefafc80a205b80d6ffc8e51a7033bba7e151b67 2026-09-30T20:50:35-04:00 WALTER: BM-20260930-01 closed 8/8; -005..-007 (Abqaiq HYPOTHESIS, diesel, Radiant/JEF)
+11b419932d30be586b05470cd632f73df08d0417 2026-09-30T19:15:03-04:00 PROME: post-closeout addendum — the 9/30 roll closed on the mirror (ANVIL 33bc8c293): HEARTBEAT am.#3, WQ-316 done
+83d94f3961468a0f4cff0aca45f423e08eaeeae2 2026-09-30T19:03:48-04:00 WALTER: 9/30 -001..-004 (PCE -> CARL, HY 308 watch, ZHAO MOFCOM clocks, Trepp self-storage)
+7dafe21df2036bff7cd9bc04889c56fa1e6d4ec5 2026-09-30T18:17:38-04:00 PROME closeout 2026-09-30 prome-94: Standard — crash recovery, expiry grades, PCE, ZHA-16, OTTO L524
+92c3f15ce37215a0eff34928064f924c2ab79e02 2026-09-30T17:47:13-04:00 PROME: HEARTBEAT amendment #2 (post-close, chain 2) + projection; ZHAO cadence owner-declared; WALTER packet
+e00fa90ece5c140cbfe332e52bcf6301c602db6a 2026-09-30T11:22:18-04:00 PROME: reconcile six hashes rewritten by the 11:2x non-ff rebase (GATES/DOCKET/ORCH/HEARTBEAT)
+71d3922765382a5f085a853db952c01277e4a1c9 2026-09-30T11:19:18-04:00 PROME: HEARTBEAT amendment #1 on the 24th base (BRENT/TERRY 11:0x, Dec pin, WPSR, PCE, WQ-316)
+4efd780df5cb772b80225bf3330858f188db3155 2026-09-29T21:33:14-04:00 PROME: HEARTBEAT 24th re-base (post-close Tue 9/29, chain 0) — plan read 5 fixed, result read 0
+50864a264a6eee6fe12ce8732afd365d392a35b8 2026-09-29T19:55:02-04:00 WALTER: -016 PGIM CLO 15pct AI-debt cap (Bloomberg) -> BROCK; LIQUID/VULCAN info
+f7ea77fffa51b503658c6e8218a9dcb30b6777ad 2026-09-29T17:53:46-04:00 WALTER: -015 Houston office case (5400 Westheimer Ct) -> CREED; 2 CRE videos
+39127bf480e3fff92087c977e3242cc10eee1ec3 2026-09-29T17:47:19-04:00 WALTER: -014 Oct 1 trucker strike call -> CARL (Will's YouTube transcript drop)
+716e6bef2c7db317e3650d5348a9fa72e8cf4e15 2026-09-29T16:25:05-04:00 PROME: CATO PN3/PN4 applied (WQ-339 rewritten; one decision rule mirrored on L552); PN1/PN2/PN5 consumers re-worded
+2fb305ba97c28850bcdab2ad11b99fbfa52d31d5 2026-09-29T16:11:57-04:00 PROME closeout 2026-09-29 (prome-e6): Standard — L462, BOND review, WQ-340, FORGE reconciled
+58779553d7e4172322507fc90095586ce59c0f18 2026-09-29T15:16:08-04:00 WALTER: -013 Will-directed lead to CORAL (Fort Lauderdale apartments anecdote)
+b54d55e39fea884767e744add3b01b3ae72f0aba 2026-09-29T15:09:44-04:00 WALTER: -012 ADDENDUM to -001 (Oct hike odds ~70 -> ~50/50 mid-afternoon, cause unknown)
+e6e327a0bd292d592420c136cbec6583b3cf0cfa 2026-09-29T15:04:15-04:00 WALTER: dispatch -010 (Oracle layoffs) and -011 (Petroline pump-station imagery)
+352a0084ceac0bdeeb5adbc13838368aebd08bee 2026-09-29T14:28:31-04:00 WALTER: -009 CORRECTION to -004 (card deadline is Wed 9/30, not today)
+11fc82900454e769ea5239e83d979230469e7e1a 2026-09-29T14:26:31-04:00 WALTER: dispatch -004..-008 (7g inbox items routed)
+8ff7e3ddc0cfcc1fd8738ba2ea80c007f951f39f 2026-09-29T14:22:27-04:00 WALTER: dispatch -002 (ICE Kansas cattle slaughter) and -003 (credit tape sorted)
+1c5aadda1ce5795c6ac688f3d84c2ca7d4602d25 2026-09-29T13:29:23-04:00 WALTER: dispatch SIG-W-20260929-001 (BOND 9/29 gaps SEARCH-NOT-FOUND)
+8d6b4d19375158f685dd35e3a62d1704955b9456 2026-09-29T11:14:20-04:00 PROME: prome-82 closeout — HY 302 (L525 RESOLVED), HEARTBEAT am.#2, WQ-336 RULED, 6 declarations
+9a8e4cd9fb1fe6b7f49a46747fbf5bfa222e0787 2026-09-28T22:33:46-04:00 PROME closeout 2026-09-28 (prome-64): Standard — 23rd re-base landed, six of Will's desks consumed
+48cc9e3ad5d8cb22129e66bc74c47ab44b99d5e5 2026-09-28T21:02:01-04:00 WALTER: dispatch -025 (addendum to -023: Rhine freight now measured)
+5551593cec51485b62b94716f67c45d233cf1261 2026-09-28T20:51:11-04:00 PROME: HEARTBEAT TWENTY-THIRD re-base (post-close Mon 9/28) — chain 0; L489 resolved on HENRY
+f1760f7f10208c949097f46ded0370ae487cd301 2026-09-28T20:35:26-04:00 WALTER: dispatch -024 (PHL Variable RICO class suit vs Golden Gate/Nassau)
+1d6190e717f5f629bc82a1dc8771741effdc55fe 2026-09-28T20:24:10-04:00 WALTER: dispatch -022 (AI-fund unwind backfill) and -023 (Rhine record low, AEOLUS C5)
+9ef686295d11d3b50431ca35622bcf401ce91d3b 2026-09-28T19:17:02-04:00 PROME: prome-7f s3 closeout — CATO corrections, 7 rulings, SCRATCH/STATUS rotated, HEARTBEAT am.#3
+8f95cd07954de026998c33de906b0e35b927d874 2026-09-28T18:17:18-04:00 WALTER 9/28: -021 why Treasuries moved 9/28 -> BOND (WQ-327 item 7)
+09496db0e75a00d3ae267f64b6e4701b07aecc20 2026-09-28T18:09:16-04:00 WALTER 9/28 evening: -020 corrects -019 (Bloomberg original: Petroline flow ~3.5 mb/d)
+e8183ddaa864f2bd1c4a60e49d47d396249f0241 2026-09-28T17:32:32-04:00 WALTER 9/28 evening: -017 supersedes -016, -018 30Y official 5.56, -019 Yanbu exports
+0ee0d0dfdff0cc9fa0ac18bbf0e200fd7655ee32 2026-09-28T17:11:49-04:00 WALTER 9/28 (post-Tier-2): -016 US diesel export ban is live policy talk (BRENT answer to -010 B)
+77371677adc2b30aa1fd61093c6d0e5f5234f7f4 2026-09-28T16:29:15-04:00 WALTER 9/28: Will's 9-image batch + CORAL route -> -013 AI power, -014 Redfin FL, -015 FL enrollment
+5610c19b16f2aebed8684f17133788cf649c3f0a 2026-09-28T16:07:56-04:00 WALTER 9/28: Will's 8-image batch -> -008..-012 (Marines/IRGC, HENRY rungs, SPR+GS diesel, Nino, WSJ)
+986d52b81bb2d63fd153916e19fadccebe689aaf 2026-09-28T15:46:14-04:00 WALTER 9/28: -007 credit-weekly PDF -> LIQUID (CCC concentration; Bloomberg basis)
+e098965c322bfd5a823bd4637b38d687b6a123a1 2026-09-28T15:38:41-04:00 WALTER 9/28: -006 Trepp MF DQ by building age -> HOMER (CREED route, Will-directed)
+04a53b85ff525728f59728d922a18e95e67a7048 2026-09-28T14:51:23-04:00 WALTER 9/28 7f drop-zone: -004 agentic deposit-run frame -> REGINALD; -005 buyback debt-limit
+8dbd4355e1b2e8377227a613ba16a9499860eb93 2026-09-28T14:49:42-04:00 WALTER 9/28 7e lane: -003 Russian refinery halts -> OSPREY; 17 kills; lane marked
+e9925bba8d5561f4816496128e9189172d384fd4 2026-09-28T14:46:23-04:00 WALTER 9/28: -001 Iran meeting odds -> HAWK/BRENT; -002 HY 293 record; Fed-odds kill
+fbdd403147f941dcbbea4e80d379901a3bce2214 2026-09-28T12:40:41-04:00 HEARTBEAT amendment #2 (9/28 market session): HY 293/CCC 1,128, RED-FT-01 2 of 3, queue folded
+2f21cab313a244797e911d50db1ad111ce755b58 2026-09-27T18:15:23-04:00 WALTER: SIG-W-20260927-008 UBS merger report; COR-20260927-07 rent-freeze wording; Will batch 8/8
+7ef46bb9c234f5b53269344a71ba78f0a5000c4e 2026-09-27T12:52:25-04:00 WALTER: SIG-W-20260927-007 Iran 7-day Hormuz plan / Trump "not acceptable"; anchor diplomacy limb + rotation
+876f09c5f80fbc257f1ff2a38408978fa20dc0fd 2026-09-27T12:45:18-04:00 WALTER: SIG-W-20260927-006 CORRECTION 2 of -004 ($108M = 3 lenders; retained ~$215M; cite ~$120M/17%) + R3 queue row 5
+c6f0649899c025a5bd74bccfb98bd2c3ef54e32c 2026-09-27T12:37:39-04:00 WALTER: SIG-W-20260927-005 CORRECTION of -004 (Nano Banc liens senior to WAL)
+062578cef116508a18bbd1081fe7da438fc2f283 2026-09-27T12:27:03-04:00 WALTER: SIG-W-20260927-004 Nano Banc failure (9/25) to the commissioned desks + LIQUID
+07b52f6664eff9cd699d08357b5a2d1c32b5735c 2026-09-27T11:57:35-04:00 WALTER 9/27 boot: route LIQ-069 (with WQ-301), CCC/HY re-arm, CREED-T-08a; consume 4 packets
+ac5e9ba25d86ecb9c3a014f2fb359899972ef5ca 2026-09-26T18:39:22-04:00 PROME: boot-brief corrections on Will's word — CDS qualifiers, 004 value, schedule, packet vs done
+dff49236794b98f18fed2c9f6e9dcbc9c66e541e 2026-09-25T18:09:42-04:00 WALTER 9/25 Tier-2 closeout: -013 X1-CLOSED correction, -014 Brightline -> CORAL, full state regen
+f8b5fca1887b952dd2eff0f4641901e53fad84e7 2026-09-25T17:25:31-04:00 PROME: HEARTBEAT TWENTY-SECOND re-base (post-close Fri 9/25) — chain 0; folds am.#1 + queue ⑪–⑮; two blind reads
+396b80c3ec5cb34961b86136f3a3d9464cbadf3a 2026-09-25T13:16:26-04:00 WALTER: -012 GATE-BRK-R2 (a) fired (North Haven PIF, 3rd prorated qtr 43.8%) -> LIQUID+OTTO; BROCK watch terms live-tested
+15fcc40ead3d16bd1f18c714262540744539be0e 2026-09-25T13:07:26-04:00 WALTER: -011 HY OAS 280 [9/24] at the line (FT-01 exit 1/3; LIQUID X1 >280 strict not met); charter HY paraphrase corrected to the owner letter
+f61d5c0edffcd58d92c4c92acb87bdbe49d71780 2026-09-25T11:40:35-04:00 WALTER: -010 UK gilt near-trigger watch (HANS-T-06/-13 ~11bp) + HANS watch terms tested (10 clean, 2 rejected; no HANS lane query)
+41f0f0121524e1a818b30692655560552e9af1a9 2026-09-25T10:27:26-04:00 WALTER: batch BM-20260925-02 closed 6/6 (-009 Miami-Dade sales -> CORAL; 3 kills; 1 dup)
+309a88464c97f88d333b2470dfd853bdc0ad7824 2026-09-25T10:17:10-04:00 WALTER: Will 5-image batch BM-20260925-01 closed 5/5 (-006 breadth, -007 ORCL) + -008 BZ=F roll relay
+342b0319c2f526df0dcadc03513ffd5188b66b4b 2026-09-25T10:12:21-04:00 PROME closeout 2026-09-25 (prome-2e): Standard — 4 due-row spawns, 7 reader rounds, HEARTBEAT am.#1
+c7f19b782cb64a9a6f2a6b06808ffb7440375796 2026-09-25T09:40:39-04:00 WALTER: boot 7g inbox consumed (8), 4 relays -002..-005, register banner struck
+85506bc49385a80e646b216df2d74de19d121648 2026-09-25T09:37:14-04:00 WALTER: HANS-T-10 France compound fired 9/24 (SIG-W-20260925-001, IMMEDIATE)
+73049da27522045a3d85faa9c0501b5f68825c55 2026-09-24T22:08:26-04:00 PROME closeout 2026-09-24 (prome-1f b): Standard - HEARTBEAT 21st re-base, WQ-288, memory flow
+6b153a52fd19c1524237fbe3996b21023ddfc58d 2026-09-24T16:59:24-04:00 WALTER: SAM reply consumed; -025 relays SAM's CFTC yen datum (info)
+261bd1b2f2add708c9cd8ad2566a06e97a651fa2 2026-09-24T16:43:58-04:00 WALTER boot: lane batch BM-20260924-02 routed, -020..-024 + 12 handoffs
+edef8c15ee0120e48cf710190dfced31aef68e26 2026-09-24T15:41:16-04:00 WALTER -> SAM: -019 corrects -018 timing; fixes from the independent review
+44109976ac7599b56d7a2cfcff0de70a8fc42018 2026-09-24T15:23:27-04:00 WALTER -> SAM: -018 USD/JPY 158.9 above 9/18 rate-check level; Katayama readiness
+24c290efa0baffd6252d094a054ca1c92a28539c 2026-09-24T15:20:01-04:00 WALTER -> HENRY, MARCO, LABOR: -017 correction, grocery nominal sales not falling
+8ef85b276e690c3174bfe1c9abedf3452e9b9640 2026-09-24T15:17:06-04:00 WALTER: staleness sweep 2026-09-24, 2 lifecycle tags (Petroline pending/claim frames)
+e9843de21c3f3bc735ec669d6584ff622f8e0655 2026-09-24T15:10:49-04:00 WALTER -> BRENT: -016 update, Nov Brent 3:2:1 crack fell below 50 into 9/24 settle
+c7a7a681baa635d6eed105724c437e94171dc556 2026-09-24T13:57:08-04:00 WALTER: five corrections from an independent review of its own 9/24 work
+5ce79b47f7602de914213d56409131e045b944a5 2026-09-24T13:45:19-04:00 WALTER: Iran full sweep 9/24 -- Kataib Hezbollah named, Hormuz hits, ADD#26
+7973d469bfcdd00220de8aa38011f7e081a3101e 2026-09-24T13:26:19-04:00 WALTER -> REGINALD: correct -008 cause attribution on BOND's Treasury-verified reply
+b9165f734203aada55cbad682630c2c0c103f1c1 2026-09-24T13:22:28-04:00 WALTER: 9/24 catch-up dispatches, -011 correction, registry refresh, closeout
+dacacc61e559e116b0354613f83fb54acb1ff184 2026-09-24T13:14:37-04:00 WALTER: boundary #8 crack fire, Iran partial re-verify, US diesel export item
+e215d1a0679cdad4c1b9eceac83f23408ce0a6de 2026-09-23T20:57:42-04:00 PROME: consume BRENT delivery — HEARTBEAT am.#1 (007 sealed, 9/22 settle, WPSR), L461/L462, WQ-234 encoded
+01c8de0ac3d03ff3582a237c69f3206262be70ee 2026-09-23T17:46:07-04:00 PROME closeout 2026-09-23 (prome-da): Standard; ARGUS 5 ❌ fixed; not published
+ddf9d654a2b220ffe7f95a5c1a3e7a88b12eeee6 2026-09-23T17:37:26-04:00 PROME: HEARTBEAT bounded correction on CATO H3/H8/H2 + retrospective census
+0118600ed552c4be6d8a93f2cb205bee1c741de7 2026-09-22T10:31:13-04:00 PROME closeout 2026-09-22: 20th re-base delivered, L267 graded, three reviews consumed
+dbaaa7230790045a66a2a25855421d0d193c247a 2026-09-22T09:37:52-04:00 PROME: HEARTBEAT TWENTIETH re-base -- 32,315 -> 21,882 B (99% -> 67% of budget)
+e85393356fe866f4932afa1183d120fe85b3b052 2026-09-21T14:09:56-04:00 WALTER -> HAWK: notice that the reviewed checklist moved to v0.48; reviewed rows verified unchanged
+42c1af8e5ec7624ee5af7e9b2801829b4ff5e1d3 2026-09-21T13:37:55-04:00 WALTER -> HAWK: narrow the v0.47 review ask -- test the rule, do not design a clause
+f8c92155677060fe9789beaab19e58c0b99f526e 2026-09-21T13:33:30-04:00 WALTER -> HAWK: independent read of CHECKLIST v0.47, with CATO's two conditions built in
+1bd26327c4747df9ce6f645eb323aaeb5bea4a42 2026-09-21T12:56:05-04:00 WALTER: process CATO review -- 4 findings verified and corrected, 6 signals, 24 handoffs
+be60a93a2be1720ed0289331bc17a502a7c1419a 2026-09-21T11:27:06-04:00 WALTER: Will-Telegram batch BM-20260921-03 -- 3 dispatches, 14 handoffs, manifest CLOSED 6/6
+7362cdf2d5066d36ee44c4a73c5fe5934ce1229a 2026-09-21T11:23:02-04:00 WALTER: Iran anchor PARTIAL re-verify (diplomacy leg) + SIG-W-20260921-010; two rotations, conserved
+5862bf9a8668f69b9d4149d512400839c993367f 2026-09-21T11:18:25-04:00 WALTER: Will-Telegram batch BM-20260921-02 -- 3 dispatches, 11 handoffs, manifest CLOSED 7/7
+2f0af041ead5cbff6f9ccabd30f1e2040f778545 2026-09-21T11:14:50-04:00 WALTER: Will-Telegram batch BM-20260921-01 -- 5 dispatches, 19 handoffs, 1 kill, manifest CLOSED 9/9
+a24661b8b68e92c7de5d1f439fc75adbd83de2c4 2026-09-21T11:08:17-04:00 WALTER -> HENRY/LIQUID: SIG-W-20260921-001 yen rate-check + 3-day Tokyo closure
+748bfe6ffbd1e7c25c3035e7fa1f42ee785f0ede 2026-09-20T17:49:14-04:00 HEARTBEAT: correct stale ANVIL-pass cell (CATO point 2) — VLO/85P ARE in the mirror
+39f49d150db7394df709ccbd9e6888e7651cc535 2026-09-19T13:34:11-04:00 PROME closeout 2026-09-19 — weekend catch-up; 5 Will rulings executed, 7 own rows un-hidden
+d87c26f3bdff4ef194080a03e4e8de81b8089a41 2026-09-19T12:28:03-04:00 PROME: three of its own items FIXED, not noted — AGSI check, session_id, Article 4
+cc8ec7074831880e317abf5dae593919bae33d12 2026-09-19T11:18:33-04:00 PROME: HEARTBEAT NINETEENTH re-base — 21 blocking findings across two blind reads, all fixed
+7a276822a541add3ceb739685eb5fda693cea5e0 2026-09-19T11:08:52-04:00 WALTER: L208 unmet (no build) · inbox 4→0 · fill-forward settle-confirmed · WQ-247 spec v0.2
+06523cd7d5ff7508ab5d15f79fbd8e03589a5576 2026-09-18T16:34:26-04:00 PROME: HEARTBEAT amendment 3 (9/18 close, two owner grades, stale-bar guard) + projection 3
+5aaa998dd9e19430cd6b4e827b6c358f5672bb6e 2026-09-18T11:14:33-04:00 PROME: HEARTBEAT am.#2 — SAM L34 grade + dovish-dissent correction · RED FT-10 grade · L34 RESOLVED
+b43dd7546e8d35a77e335c0b20541cc4efde8b38 2026-09-18T10:31:26-04:00 PROME: HEARTBEAT am.#1 — BOJ +25bp 7–2, yen weaker anyway · SOFR−IORB −5bp clean · 9/17 credit cells
+657dcd6f8314069fbc7a7eee48105021554eb2b2 2026-09-17T22:07:24-04:00 PROME: HEARTBEAT EIGHTEENTH re-base (byte-flow, same-day) — two blind reads, WQ-165 stop, under 70%
+11a6a3f39b63b75f7fe83c1d92386e3a78bc9e61 2026-09-17T22:07:03-04:00 WALTER -> RED: two RED-FT rows grade on derived FRED series publishing provisional cells (SIG-W-20260917-011)
+08e665a8ef083b6e7f6c54ea026423f78813e9b7 2026-09-17T21:53:22-04:00 WALTER -> TERRY: cheap-tail 4/4 OPEN at the 9/17 settle (SIG-W-20260917-010) + doorbell
+8df955c3117b8afe52822e45145f25bff2bfc28f 2026-09-17T19:14:13-04:00 WALTER 9/17 news sweep (Will ask): -007 Sohar STS · -008 Section-301 delay/Bessent-He · -009 Boston Fed BDC
+f1382fbb50d91ae640272126c94b81708c733987 2026-09-17T19:02:32-04:00 WALTER 9/17 Tier-2: Iran FULL sweep + ADD#25 · 6 dispatches (-001..-006) · 2 doorbells · PR#6 asks done
+b8e717a83fe9c8f4a4ac9bf3e42063b7ba1fa727 2026-09-17T14:37:51-04:00 PROME: CATO 1413 accepted — "adequately-powered null" re-worded, L407/L408 status wording corrected, L408 reader spawned
+bdaa19a46aca3e0d159570736e4850882af05c96 2026-09-17T13:26:04-04:00 PROME: WQ-157 funding leg folded in — both halves measured, neither supports pairing; HEARTBEAT amendment #3
+2ab71c21ac813a6d9a63ee9c28ae76e93b22185e 2026-09-17T13:24:14-04:00 PROME: WQ-157 leg ② to Will — FR2004 join INVERTS (BOND 88c891470); L271 delivered early; HEARTBEAT amendment #2
+3d60a0e6e4fe3bd68972dd03785342c2a88ebb7c 2026-09-17T13:21:51-04:00 PROME: L407 CLOSED — second reader's 4 ❌ applied (crc rule re-stated, slate completed, 11 ledger stamps relabelled UNKNOWN)
+a050d09022ec7353c2e5ca1d134b0a17c9921fe5 2026-09-17T13:18:08-04:00 PROME: HEARTBEAT amendment #1 — L404 TIPS-R CLEAN on frozen bars, stop highest since Oct-2008; I′ tool line not the spec
+04dce15af001e340a85000b596ea31c7d45e04c5 2026-09-17T08:56:52-04:00 HEARTBEAT: SEVENTEENTH re-base — post-FOMC current state after the 9/16 crash; two blind reads; claims fold
+0951f361ef32afd93be7cf3e5185a7f7ec08f9ff 2026-09-15T13:29:07-04:00 WALTER -> owners: repair boot guards, reconcile history, route qualified evidence
+71ec15585329d02fb068c71f42827e3d7ae1c8d4 2026-09-14T19:48:53-04:00 PROME closeout prome-54: fetch.py contract identity, WQ-251 moderated, and two misreports retracted
+bbd4e4f8e5ca06fe3f9c5b088ebf8e849fd772e9 2026-09-14T19:29:05-04:00 HEARTBEAT: discharge the CL=F caveat my own refresh left stranded on a corrected value
+bfce451d3386434e4f5bebcce1a1bc9c3c83eaad 2026-09-14T19:28:53-04:00 HEARTBEAT: refresh the level surface to the 9/14 CLOSE; settle the $100 question negative
+8c8a144a88c3cdccea59271540887e6150c84ed0 2026-09-14T19:11:36-04:00 WALTER: SIG-027 — BAC -5.14% is conference GUIDANCE not credit, and WAL's CEO is on that stage Wednesday
+e9da4617f18dda14414dcd07cf19e79fa1a711d5 2026-09-14T19:10:08-04:00 PROME: correct "HEN-F1's two thresholds are ONE ROLL APART" -- the arithmetic refutes it
+5e54e149dc36a8ef3607725f83138e00842a75f0 2026-09-14T18:17:20-04:00 WALTER boot 9/14 PM — 3 lane dispatches; -020's diesel record claim corrected on the row itself
+a4f2aca5ea12ba64e7e28c1926b5b9ace6167f29 2026-09-14T16:53:59-04:00 PROME closeout prome-d4: 3 desks spawned and asked; 5 went dark before the ask, named
+61dda790691e3a9538a2983229ab46f1d577ceb6 2026-09-14T16:16:25-04:00 WALTER -> FALCON, OSPREY: SIG-W-20260914-023 — BOARD/INDEX.md is the same class, larger, and the loss shape is worse
+76017f42db209e032013d7b397a744456521362f 2026-09-14T16:07:44-04:00 PROME: HENRY's board + roll consumed; L381 takes three CODEX corrections, two against PROME's favour
+0361d241f1bd8da620f8d77874ff54a2d19abbe4 2026-09-14T16:04:46-04:00 PROME: withdraw "same damage class" — April was a 1-of-11 derate on a line that kept running
+6d1141fe5fb6805b7d8331978bd55863829299a4 2026-09-14T16:01:04-04:00 PROME: the crack collapse was 93% a contract roll; L380 re-worded at n=2
+c3ed53f00325b60ff3978a75665fa76ca1e906ba 2026-09-14T15:59:48-04:00 PROME: FALCON's on-date gate grade consumed; two HEARTBEAT correctness passes, byte cost declared
+315bb9ca7c7a9d9f407c1b20773c446cff5de422 2026-09-14T15:28:23-04:00 WALTER: DOCKET L351 — BCS v0.28 §5.2 + SIG-W-20260914-022 to the six exposed desks
+e112a42add66d8a42e0d8b13e01f7eaada74c9dc 2026-09-14T15:17:08-04:00 PROME: STANDARD closeout — ARGUS found 12, the gate found a 13th nobody's cold read did
+934c4e194dd89a228e6341750ab71b7b94d56c3e 2026-09-14T14:51:30-04:00 WALTER -> RED: SIG-W-20260914-021 CORRECTION (SELF) — VIXCLS did publish its 9/11 cell
+2255bfe8beb24268dbd99d5066a5dca8a4e617c4 2026-09-14T14:11:09-04:00 PROME: BOND withdrew the buyback inference — annotated in cold, guarded in hot
+2acf7cba4d1bfd028c74974d3eaf581d1fe302ca 2026-09-14T14:09:17-04:00 PROME: the guard cell regrew to its pre-split size inside one session, and I stopped 1,106 B short
+32402d60c462a120b1a95edd9ee2cfa8fedc2f8e 2026-09-14T14:08:29-04:00 PROME: register RED's FT-10 letter gap and the selectivity figure that understates Wednesday by 70x
+70ad79353f81801ea0be1e1dff9851befb3626c3 2026-09-14T14:06:37-04:00 WALTER: batch CLOSED 47/47 — $3.1tn off-balance-sheet, a near-zero private mark
+9c89e72f466eb5c8ef75347936b84da621973eb5 2026-09-14T14:04:15-04:00 WALTER: JOLTS fell through a week we spent on Iran, and a FIRMS citation done right
+284f4b9920df84e5f93ba7308342685b46b99bc5 2026-09-14T14:02:19-04:00 WALTER: "BoJ's @yutokanzakireal" — the two-word attribution was doing all the work
+7e4cd72f51f5fd603891f40bb6b407274b5a5e27 2026-09-14T14:01:06-04:00 WALTER: our own diesel signal carries one side of a contested record
+a7e200903ad389f523e2e744ffe4077cbfd6ffc4 2026-09-14T13:59:50-04:00 WALTER: the buyback underfilled — and I had called the bare result table a no-action
+55392c4a06098dee6c09efe9b6ab8c009a006116 2026-09-14T13:58:42-04:00 WALTER: the dry-bulk control is what makes the tanker move mean something
+6a105aa9b75e57a767a2f44bae5a6fb639e5d40f 2026-09-14T13:57:15-04:00 WALTER: Trump refused MBS twice — and the half nobody will carry is the targeting data
+4c9fd490168f7bfe8a297979647b18f4e142ceef 2026-09-14T13:55:58-04:00 WALTER: Abha was real and overstated; GPIF is capacity not a sale; the RSI rumor is an acrostic
+408d53555c0a9ad8b7d21fc95e688922fa96ce4d 2026-09-14T13:52:24-04:00 WALTER: the carry-trade post was right about the number and wrong about the cause
+ae22ec1e30c3b60d4f4b14d00b4ca74966a30280 2026-09-14T13:34:28-04:00 PROME: rule-17 audit on my own split found 12 live guards I had moved off the boot path
+09476a9cd206e2b43baea738840e1b8b83f03743 2026-09-14T13:31:58-04:00 PROME: result cold read found 6 blocking in the re-base — including a section I deleted and a level surface I broke
+a3bf909187f19444671d960cd5ef433254737fd1 2026-09-14T13:29:56-04:00 PROME: HEARTBEAT sixteenth re-base — 28,271 -> 20,651 B, and the deferral I declared was false
+e322eee4f60461af154b0a06272dc61b493509e4 2026-09-14T13:11:09-04:00 PROME: HEARTBEAT marks Perim/Mayyun CONTESTED — 7 secondary outlets, no primary, date is a range
+74d8f238f329f5f8cd1921941ef928569890aa6d 2026-09-14T13:10:41-04:00 WALTER: I called the collector dead and it was the weekday cron — corrected on the board
+4429b235255eff2939e20149ee5587a4c2054dab 2026-09-14T13:08:10-04:00 WALTER 9/14: the news lane was dead 3 days — 4 dispatches from a hand sweep
+6845fb0790e26e628e7fd24541934c14666d3bba 2026-09-14T13:06:15-04:00 PROME -> FALCON/BRENT/ORACLE: three owner packets from the Monday news catch-up
+4764328dff520e578982c2ba67da9d12e563a7ff 2026-09-14T10:22:50-04:00 PROME: STANDARD closeout — the clock rolled into an open market mid-session
+471b490acff21e7df752a1153f961713ac02311a 2026-09-13T20:40:31-04:00 PROME: the dead crack claim killed in BOTH rooms — a cold reader found it alive where §1 points
+742cccc7436f57f56d6fd3b66864b83ca9ed5eec 2026-09-13T20:26:35-04:00 PROME: a cold reader found 6 defects in tonight's own HEARTBEAT edit — all fixed, rotate line declared
+a3e0e52cd02bc3c944103280eb407322171114f4 2026-09-13T20:23:09-04:00 PROME: correcting my own §5 clause — VECTOR-2 is ANSWERED, not owed
+81bab94f4e371f667510778841db1c13e665bdb5 2026-09-13T20:21:57-04:00 PROME: the 9/11 close panel is folded in — and the FRED 9/11 officials still do not exist
+bd5a6142854ab02f3072a7c49f65e9a03476346b 2026-09-12T22:39:55-04:00 PROME: L244 consumer read established at the artifacts; ORCH_LOG zero_capital DECLINED with grounds
+b96bc0521c88a16593b8cb413a7db7d6bb26e8a3 2026-09-12T17:15:11-04:00 PROME: 15th HEARTBEAT re-base, spine audit #13, and a fire line nobody was watching
+6f7ddb2b766a5b01db447b1df3ce315e5d1c62c0 2026-09-12T13:59:20-04:00 HEARTBEAT: FT-10 is 1-of-4, not 0-of-4 — earliest fire 9/16, and 9/15 is retired
+aba428f62d943e3174548be8b15b501436ba3fda 2026-09-11T20:04:52-04:00 PROME: ARGUS findings applied — 6 fixed, 3 more self-caught by the diff
+dcbff3a5802596aba2b2f3157fd62140b2d0575c 2026-09-11T20:03:06-04:00 PROME: continuity-gap closeout — the prior session left no state
+98bd090fcf7ba92877e5ccec31dd8a8aeca00965 2026-09-11T19:41:16-04:00 WALTER: Codex review — 3 of 5 findings closed, 2 carried named; the options correction now delivered
+e4676ba56bea9e2c916731857c3fdca216af68a2 2026-09-11T18:12:22-04:00 WALTER: 6 dispatches — sell side flipped to a Sept hike; MoE shut the Petroline; FT-11 graded
+644ffeab5d62744644cf41a24c5f7de68a77ed87 2026-09-11T15:01:01-04:00 WALTER: cleared 4 MEDs, 3 of them defects I introduced this session — doctor 15 -> 1
+235d1792c8c2352ac9721e4cdd4eb86d94bfd426 2026-09-11T14:01:32-04:00 WALTER: inbox had 5 unread items incl. 2 corrections against my own BOARD — boot step 7g added
+fab0e77280c0c3b915a32ceba087ae86d68e1cb1 2026-09-11T13:53:18-04:00 WALTER: 3 dispatches (Ryazan capacity leg, Orange County FL enrollment, Yanbu/SuMed), 8 handoffs
+048ec6d23260b522d75f2bb7ea432e2fad175a04 2026-09-11T12:33:26-04:00 PROME: HEARTBEAT Am#1 cold read — 2 ❌ fixed, 5 ⚠️ declared
+9132969a0b817edc34cf30dcca47bcbde48cfe4b 2026-09-11T12:29:24-04:00 PROME: STANDARD closeout 2026-09-11 — 14th re-base day + XLE fill
+929dbd40ade8212f9c1c2ed5531d57f7389f5f7c 2026-09-11T10:36:17-04:00 PROME: HEARTBEAT 14th re-base — the Petroline night + five vectors folded, chain 0
+735e553877f015713e57823d955a87bd5022ad62 2026-09-10T19:33:15-04:00 WALTER: SIG-018/019/020/021 + BOND NOTE — Will 8-image batch (BM-06) + 9th DUP (BM-07)
+e1b5cbbd9f8834db91231a5473254361d102bea3 2026-09-10T18:55:35-04:00 WALTER: SIG-014/015/016/017 + FALCON note — Will 7-image batch 22:50Z (BM-05)
+fe80673eb1e2a3f5e200c5ff43d034f8bd27e175 2026-09-10T18:51:26-04:00 WALTER: SIG-012 Japan-sold-Treasuries + SIG-013 MS $3.1T off-BS + 2 NOTE-pings — Will 8-image batch 22:46Z
+98e1b2666fdd9c09098b35dbab1fb0007e0eada1 2026-09-10T18:11:40-04:00 WALTER: SIG-W-20260910-011 CORRECTION to -009 (BOND grade) + COR-20260910-02
+16a21b530dcb74ff568d1e2330fd0482663ff4f0 2026-09-10T18:07:47-04:00 WALTER: SIG-009 rates/Bessent-buyback + SIG-010 $9.6T triple witching — Will 7-image batch 22:00Z
+a8f6d270d875b282c57a0dc5800cad047e2eb90d 2026-09-10T16:40:29-04:00 PROME: closeout 9/10 evening — HEARTBEAT Am#1, state files, STATUS rotation, deck v12
+0e46be9fea28bd431e23d3d61567174c9bc70eaa 2026-09-10T12:34:18-04:00 WALTER: SIG-W-20260910-008 ERRATUM to -013 — 6,831 MW is the 28/29 BRA shortfall; July 31 is the RBP filing ER26-3380
+a05aef5c6a21059874c97fe957a8cdf865cee221 2026-09-10T12:26:08-04:00 PROME: HEARTBEAT THIRTEENTH re-base — current-state rewrite, chain 3 -> 0, two blind reads
+c7e593f095a9a94926fe01af7281f8f83dd280e3 2026-09-10T11:10:43-04:00 WALTER: full Iran primary sweep 9/10 — anchor re-verified, ADD#24, SIG-W-20260910-007 IMMEDIATE (two non-Iranian hulls hit 9/9)
+6a22a042296d63bbfe5f89ad9479a422720f3478 2026-09-10T10:45:51-04:00 WALTER: 9/10 boot — 6 dispatches (Riesco/Brent, Mokha, ECB, gilts near T-13, PPI, Kioxia), light closeout
+d4fad938fd83d53ddd6029caa390d651581639ea 2026-09-09T21:38:51-04:00 PROME: consume the 9/9 L0 wave — 4 owner grades, Am#3, WQ-200/201
+a12f6dafb0df8aa291e690fc2c3a38a57d3fc812 2026-09-09T13:12:46-04:00 PROME: repair dashboard amendment precedence and closed-position display
