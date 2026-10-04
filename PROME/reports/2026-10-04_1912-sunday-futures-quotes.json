@@ -1,0 +1,134 @@
+[
+  {
+    "symbol": "BZZ26.NYM",
+    "name": "Brent Crude Oil Last Day Financ",
+    "last": 102.63,
+    "asof": "2026-10-04T19:01:02-04:00",
+    "friday_last": [
+      "2026-10-02T16:59:00-04:00",
+      102.25
+    ],
+    "pct_vs_friday_bar": 0.372,
+    "vendor_previous": 102.25
+  },
+  {
+    "symbol": "CLX26.NYM",
+    "name": "Crude Oil Nov 26",
+    "last": 91.07,
+    "asof": "2026-10-04T19:01:26-04:00",
+    "friday_last": [
+      "2026-10-02T17:00:00-04:00",
+      91.11000061035156
+    ],
+    "pct_vs_friday_bar": -0.044,
+    "vendor_previous": 91.11
+  },
+  {
+    "symbol": "GCZ26.CMX",
+    "name": "Gold Dec 26",
+    "last": 4175.3,
+    "asof": "2026-10-04T19:01:26-04:00",
+    "friday_last": [
+      "2026-10-02T16:59:00-04:00",
+      4162.2998046875
+    ],
+    "pct_vs_friday_bar": 0.312,
+    "vendor_previous": 4162.3
+  },
+  {
+    "symbol": "HOX26.NYM",
+    "name": "Heating Oil Nov 26",
+    "last": 4.5472,
+    "asof": "2026-10-04T18:59:52-04:00",
+    "friday_last": [
+      "2026-10-02T16:59:00-04:00",
+      4.501100063323975
+    ],
+    "pct_vs_friday_bar": 1.024,
+    "vendor_previous": 4.5011
+  },
+  {
+    "symbol": "NQZ26.CME",
+    "name": "Nasdaq 100 Dec 26",
+    "last": 31156.25,
+    "asof": "2026-10-04T19:01:27-04:00",
+    "friday_last": [
+      "2026-10-02T16:59:00-04:00",
+      31061.75
+    ],
+    "pct_vs_friday_bar": 0.304,
+    "vendor_previous": 31061.75
+  },
+  {
+    "symbol": "RTYZ26.CME",
+    "name": "E-mini Russell 2000 Index Futur",
+    "last": 2856.9,
+    "asof": "2026-10-04T19:01:12-04:00",
+    "friday_last": [
+      "2026-10-02T16:59:00-04:00",
+      2850.89990234375
+    ],
+    "pct_vs_friday_bar": 0.21,
+    "vendor_previous": 2850.9
+  },
+  {
+    "symbol": "USDJPY=X",
+    "name": "USD/JPY",
+    "last": 157.725,
+    "asof": "2026-10-04T19:11:30-04:00",
+    "friday_last": [
+      "2026-10-02T17:01:00-04:00",
+      157.8300018310547
+    ],
+    "pct_vs_friday_bar": -0.067,
+    "vendor_previous": 157.83
+  },
+  {
+    "symbol": "YMZ26.CBT",
+    "name": "Mini Dow Jones Indus.-$5 Dec 26",
+    "last": 51522.0,
+    "asof": "2026-10-04T19:01:24-04:00",
+    "friday_last": [
+      "2026-10-02T16:59:00-04:00",
+      51477.0
+    ],
+    "pct_vs_friday_bar": 0.087,
+    "vendor_previous": 51477.0
+  },
+  {
+    "symbol": "ZBZ26.CBT",
+    "name": "U.S. Treasury Bond Futures,Dec-",
+    "last": 102.969,
+    "asof": "2026-10-04T19:01:20-04:00",
+    "friday_last": [
+      "2026-10-02T16:59:00-04:00",
+      102.75
+    ],
+    "pct_vs_friday_bar": 0.213,
+    "vendor_previous": 102.75
+  },
+  {
+    "symbol": "ZNZ26.CBT",
+    "name": "10-Year T-Note Futures,Dec-2026",
+    "last": 104.453125,
+    "asof": "2026-10-04T19:01:04-04:00",
+    "friday_last": [
+      "2026-10-02T16:59:00-04:00",
+      104.359375
+    ],
+    "pct_vs_friday_bar": 0.09,
+    "vendor_previous": 104.359375
+  },
+  {
+    "symbol": "ESZ26.CME",
+    "name": "E-Mini S&P 500 Dec 26",
+    "last": 7787.0,
+    "asof": "2026-10-04T19:01:05-04:00",
+    "friday_last": [
+      "2026-10-02T17:00:00-04:00",
+      7777.25
+    ],
+    "pct_vs_friday_bar": 0.125,
+    "vendor_previous": 7777.25
+  }
+]
