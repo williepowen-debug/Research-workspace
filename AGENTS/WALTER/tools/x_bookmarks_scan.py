@@ -41,7 +41,9 @@ HARD BOUNDARIES (acceptance §2)
   routing and survives in BOARD as WALTER's own paraphrase, never persisted verbatim.
 - TOKEN NEVER IN GIT. Secrets live in AGENTS/WALTER/.env (gitignored). A full token is
   never printed.
-- NO UNATTENDED RUNS. Launch-time only ("regularly between launches" = WQ-369, out of scope).
+- NO UNATTENDED RUNS. Launch-time only. ("Regularly between launches" is a separate,
+  UNREGISTERED WALTER-autonomy question, out of scope — NOT WQ-369, whose registered scope is
+  narrowly "PROME wakes a dark desk on urgent in-theater news".)
 
 USAGE
   python3 AGENTS/WALTER/tools/x_bookmarks_scan.py --authorize   # one-time, in Will's browser
