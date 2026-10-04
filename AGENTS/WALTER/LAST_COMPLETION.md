@@ -30,6 +30,8 @@ Session: **2026-10-04 (Sun) — walter-f0 continuation (Opus 4.8, terminal), "pl
 - **HANS THRESHOLDS.tsv 103% of budget** — HANS-owned rotation; flagged, HANS dark.
 - **CARL / HENRY / VIOLET / WATT / BOND / LIQUID / SAM / HAWK** consume their `-009`…`-013` handoffs on Monday boot (FALCON + OTTO already consumed theirs).
 
+- **POST-CLOSEOUT `-014` (FALCON relay via PROME, `e3bfd7c5a`):** Khurais-corridor FIRMS finding → BRENT+HAWK (before Monday open), TERRY info. New fresh fire at the 9/10 spot (25.252N 48.103E, 229 MW), facility UNIDENTIFIED; **production rung NOT fired, losses stay 3, do NOT price a production loss off satellite**; corrected `-010`'s conflation read. BOARD 1215→1216.
+
 ## WILL_NEEDS
 - **None pressing.** Monday ~10:15 ET: the FRED HY 10/02 obs decides RED-FT-02/REG-T-03 (2 of 3 or reset) — a watch, not a decision.
 - Carried: WQ-383 Bright Data 10/17 pilot review (L599) — now with a 2nd real use (UKMTO, REACHED-NO-TARGET) logged.
@@ -55,7 +57,7 @@ Session: **2026-10-04 (Sun) — walter-f0 continuation (Opus 4.8, terminal), "pl
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-04T21:44:46+00:00",
+  "as_of": "2026-10-04T21:55:52+00:00",
   "publication": [
     {
       "commit": "10f9375b9",
@@ -84,13 +86,17 @@ Session: **2026-10-04 (Sun) — walter-f0 continuation (Opus 4.8, terminal), "pl
     {
       "commit": "907e29ccc",
       "state": "pending"
+    },
+    {
+      "commit": "e3bfd7c5a",
+      "state": "pending"
     }
   ],
   "delivery": {
     "signal_date": "20261004",
-    "total": 28,
+    "total": 30,
     "delivered": 28,
-    "note": "-001..-013; 28 handoff rows all on origin and reconciled delivered; FALCON+OTTO consumed, rest weekend-dark (delivered != consumed)."
+    "note": "-001..-014; 30 handoff rows. 28 on origin+delivered; -014's 2 (BRENT/HAWK) pending-push (committed e3bfd7c5a, PROME pushes train tonight). FALCON+OTTO consumed; rest weekend-dark."
   },
   "push": {
     "walter_commits_on_origin": "all except 907e29ccc (CATO correction pass) + this closeout",
@@ -111,15 +117,15 @@ Session: **2026-10-04 (Sun) — walter-f0 continuation (Opus 4.8, terminal), "pl
       },
       {
         "path": "BOARD/SIG-W-20261004-010-iran-cluster-10-04-houthi-khurais-CLAIM-disputed-bab-el-mandeb-nearmiss-CONFIRMED-petroline-ps2-unconfirmed-FALCON.md",
-        "sha256": "790f6be00759fd8061473c4b1be77c086a1473358d4c33e1e08dbec7c5444775",
+        "sha256": "0740ef3f5e0c30204bdeb0f784ed2a55132caaac3f83abc935894b24022e1dd5",
         "note": "this session's artifact; sha256 bytes-current at closeout"
       }
     ]
   },
   "owed": [
-    "907e29ccc + closeout commit NOT on origin (push deferred)",
+    "907e29ccc + b72ac1c96 + e3bfd7c5a + closeout updates NOT on origin (PROME pushes train tonight)",
     "HANS THRESHOLDS 103% owner-rotate (flagged)",
-    "CARL/HENRY/VIOLET/WATT/BOND/LIQUID/SAM/HAWK consume -009..-013 on Monday boot",
+    "BRENT+HAWK consume -014 before Monday open; CARL/HENRY/VIOLET/WATT/BOND/LIQUID/SAM/TERRY consume -009..-013 Monday boot",
     "Mon 10/05 ~10:15 ET HY obs decides RED-FT-02/REG-T-03"
   ],
   "next_review": "2026-10-17"
