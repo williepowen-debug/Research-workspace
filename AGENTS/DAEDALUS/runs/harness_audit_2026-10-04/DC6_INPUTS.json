@@ -1,0 +1,30 @@
+{
+  "pin": "e5878e494705090b26e941a4e494d1088f5c17c1",
+  "captured_utc": "2026-10-04T20:07:35.466934+00:00",
+  "inputs": [
+    {
+      "path": "PROME/DOCKET.tsv",
+      "bytes": 1315770,
+      "sha256": "9b80461186f48eeb52411c9010ffcf404e9f242e097046b96163a02394efecbf",
+      "read_scope": "physical row490 latest allocation/receipt full; other rows not reread"
+    },
+    {
+      "path": "PROME/SCRATCH.md",
+      "bytes": 25934,
+      "sha256": "ab83576cb80b8af722d4f9057549c5638a567c908598be78abaf67b6b2fe2013",
+      "read_scope": "line23 consumer package scope"
+    },
+    {
+      "path": "AGENTS/CATO/runs/2026-10-03_1713_daedalus-catchup-review.md",
+      "bytes": 56531,
+      "sha256": "216fd103d58ef64244489ddf1929af78bd4fd916c9f0ff46012d29b1627c3c2b",
+      "read_scope": "October4 16:02 section209 onward FULL"
+    },
+    {
+      "path": "PROME/inbox/2026-10-04_from-DAEDALUS_harness-audit-tranche3.md",
+      "bytes": 4568,
+      "sha256": "cc677d9227472bb2b17d1976e1fa560fcf5c5ccee36e0100aee76912c1cfc9c2",
+      "read_scope": "existing self-authored committed packet, identity/location; original content retained"
+    }
+  ]
+}
