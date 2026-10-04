@@ -1,0 +1,179 @@
+{
+  "observed_utc": "2026-10-04T21:04:01.335552+00:00",
+  "pin": "b934cdf4eeaa7e28a632d11e50bd98a03efe6d9c",
+  "fresh_fetched_origin": "b934cdf4eeaa7e28a632d11e50bd98a03efe6d9c",
+  "pin_on_origin": true,
+  "files": [
+    {
+      "path": "BOARD/SIG-W-20261001-017-hertz-hires-pjt-partners-for-amend-and-extend-200m-4-63pct-bond-due-dec-1-2-7b-loans-due-2028-shares-near-post-bankruptcy-lows.md",
+      "sha256": "2cf44ec167388b32c1e6df588f133dd82b914d5168f87fce2681f866efe261b2",
+      "bytes": 3107,
+      "working_matches_pin": true,
+      "origin_matches_pin": true
+    },
+    {
+      "path": "BOARD/SIG-W-20261004-005-iran-hormuz-10-04-closure-conditions-more-tankers-struck-ukmto-150-26-FALCON.md",
+      "sha256": "c9da8b1a461bcd4defcff2b1db0bb99095dafb1348eac971f82dc2312f7c2954",
+      "bytes": 8143,
+      "working_matches_pin": true,
+      "origin_matches_pin": true
+    },
+    {
+      "path": "BOARD/SIG-W-20261004-006-hertz-forced-seller-international-sale-deep-distressed-capital-structure-OTTO-LIQUID.md",
+      "sha256": "cad3ed0778bf24ed2b1b219a5fdc0315c7221bdcb73086eeadcc4183c60c2184",
+      "bytes": 4505,
+      "working_matches_pin": true,
+      "origin_matches_pin": true
+    },
+    {
+      "path": "BOARD/SIG-W-20261004-010-iran-cluster-10-04-houthi-khurais-CLAIM-disputed-bab-el-mandeb-nearmiss-CONFIRMED-petroline-ps2-unconfirmed-FALCON.md",
+      "sha256": "ed44dfa1677a324a78229034e5a5d2c2fdfd351d6b7c0422f267dda235ceebb3",
+      "bytes": 5105,
+      "working_matches_pin": true,
+      "origin_matches_pin": true
+    },
+    {
+      "path": "AGENTS/WALTER/routed/delivery_log.tsv",
+      "sha256": "867cb2879ae765a61f9490f1256bcad98836efc44d75aaf4cb509cf731617672",
+      "bytes": 866221,
+      "working_matches_pin": true,
+      "origin_matches_pin": true
+    },
+    {
+      "path": "AGENTS/WALTER/registry/DOORBELL_LOG.tsv",
+      "sha256": "71a1d4e6720a766afe10f912eecbeff1738a57d2cc13a5362c31b00978216326",
+      "bytes": 170550,
+      "working_matches_pin": true,
+      "origin_matches_pin": true
+    },
+    {
+      "path": "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv",
+      "sha256": "ac5815e1f751876899159cf70986f9b29035b72e8da922773822ed2f4ccc6d9a",
+      "bytes": 147073,
+      "working_matches_pin": true,
+      "origin_matches_pin": true
+    },
+    {
+      "path": "AGENTS/FALCON/domain/vessel-incidents/VESSELS.tsv",
+      "sha256": "c37953dc3cf0525aac7563f4351634e7dc916980eb3884bd7d4c57b2d3f347e2",
+      "bytes": 46540,
+      "working_matches_pin": true,
+      "origin_matches_pin": true
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20261001-017.md",
+      "sha256": "78a0e33f0484fb9ab5348db61b7d7f71f45c3174b4fa6bfa13a616bea7df961b",
+      "bytes": 752,
+      "working_matches_pin": true,
+      "origin_matches_pin": true
+    },
+    {
+      "path": "AGENTS/OTTO/workbook/ML.tsv",
+      "sha256": "b5ad94b7449bfe5b1f89ded0308f0ddf42a5b84e9405472edb916d6094b215fc",
+      "bytes": 178184,
+      "working_matches_pin": true,
+      "origin_matches_pin": true
+    },
+    {
+      "path": "AGENTS/OTTO/CLAUDE.md",
+      "sha256": "df7f2df6b5bafbfa743dbab15d99f95073aa6395ff2c555bc14e650256c7d048",
+      "bytes": 42142,
+      "working_matches_pin": true,
+      "origin_matches_pin": true
+    },
+    {
+      "path": "AGENTS/OTTO/STATUS.md",
+      "sha256": "5b5410050fd7ccc9816c01bfa6512f5d12bc325b0c7a3e3536abf0adbbe2e740",
+      "bytes": 22959,
+      "working_matches_pin": true,
+      "origin_matches_pin": true
+    },
+    {
+      "path": "AGENTS/OTTO/board_log.tsv",
+      "sha256": "1b699c88af51442a6debf042e629ebd67c9664ac5fe133dc8d379ed84955d6d5",
+      "bytes": 4237,
+      "working_matches_pin": true,
+      "origin_matches_pin": true
+    },
+    {
+      "path": "AGENTS/OTTO/inbox/WALTER/SIG-W-20261004-006.md",
+      "sha256": "4c6c113f2828b4e1107fb205c85b4c1b09dc80cb8603bb5c6cfdd75701125592",
+      "bytes": 619,
+      "working_matches_pin": true,
+      "origin_matches_pin": true
+    },
+    {
+      "path": "AGENTS/LIQUID/CLAUDE.md",
+      "sha256": "ea506adbc373eb84d7a02663e069efa1f4b0c87e2c8e9bbc3cfd0158e5f1ce58",
+      "bytes": 35551,
+      "working_matches_pin": true,
+      "origin_matches_pin": true
+    },
+    {
+      "path": "AGENTS/LIQUID/STATUS.md",
+      "sha256": "e394a480a73b68f9b364dbc8c503e7b9d19f331d7ade6738c1cfc42fb5660755",
+      "bytes": 24347,
+      "working_matches_pin": true,
+      "origin_matches_pin": true
+    },
+    {
+      "path": "AGENTS/LIQUID/board_log.tsv",
+      "sha256": "89cce73dd51f2010cdc53563acb74d71a7ed479fa1a77273748886c3201a9f6c",
+      "bytes": 206677,
+      "working_matches_pin": true,
+      "origin_matches_pin": true
+    },
+    {
+      "path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261004-006.md",
+      "sha256": "e5fc952c64579134466baff9e8f53778120b74ee9ce7b305175e80f350f656f7",
+      "bytes": 474,
+      "working_matches_pin": true,
+      "origin_matches_pin": true
+    },
+    {
+      "path": "AGENTS/FALCON/CLAUDE.md",
+      "sha256": "a640316403d8869b47d9ebe21628c419a923189e84de11ace772875fc06e36ce",
+      "bytes": 50009,
+      "working_matches_pin": true,
+      "origin_matches_pin": true
+    },
+    {
+      "path": "AGENTS/FALCON/STATUS.md",
+      "sha256": "776c6cea9202d2bae2a5d9bb0e6787235a56a7c39a0ffbc8b3c4724cc318b1d3",
+      "bytes": 15818,
+      "working_matches_pin": true,
+      "origin_matches_pin": true
+    },
+    {
+      "path": "AGENTS/FALCON/board_log.tsv",
+      "sha256": "17a93ae26256ff5624c1e9bf98b8b972cf0287816c1068fafa0d21d2ec16d8e4",
+      "bytes": 109386,
+      "working_matches_pin": true,
+      "origin_matches_pin": true
+    },
+    {
+      "path": "AGENTS/FALCON/inbox/WALTER/SIG-W-20261004-005.md",
+      "sha256": "130b554cf344dbe539a9455669f7957393dbeb6cdb08f25d068487e3559eebf6",
+      "bytes": 692,
+      "working_matches_pin": true,
+      "origin_matches_pin": true
+    }
+  ],
+  "consumer_matches": {
+    "OTTO": {
+      "signal": "SIG-W-20261004-006",
+      "exact_id_rows": []
+    },
+    "LIQUID": {
+      "signal": "SIG-W-20261004-006",
+      "exact_id_rows": []
+    },
+    "FALCON": {
+      "signal": "SIG-W-20261004-005",
+      "exact_id_rows": []
+    }
+  },
+  "prior_liquid_receipt": [
+    "2026-10-01T17:02:03Z\tSIG-W-20261001-017\tnoted\tINBOX_WALTER\tHertz/PJT amend-and-extend; $200M 4.63% due 12/1/26 (Bloomberg, people familiar). Single-name HY distress; breadth context beside LIQ-07 (CCC 1,179 [9/30]); terminal-gated breadth, cannot weight it. No gate."
+  ]
+}
