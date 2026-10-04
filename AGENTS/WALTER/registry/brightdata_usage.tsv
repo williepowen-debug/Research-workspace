@@ -1,2 +1,4 @@
 date	url	zone	requests	result	signal	notes
 2026-10-04	https://www.cnbc.com/2026/10/04/the-consumer-isnt-cracking-yet-but-the-math-is-getting-worse.html	cli_unlocker	1	RESCUED	SIG-W-20261004-007	smoke test (WQ-383); 14.7KB body rescued, additive for CARL; WebFetch had 403d
+2026-10-04	https://www.ukmto.org	cli_unlocker	1	REACHED-NO-TARGET	SIG-W-20261004-005	UKMTO primary reached (bypassed the 403 that blocked WebFetch+curl); homepage only, links /recent-incidents; no 150-26. PROME ask / FALCON adjudication of -005
+2026-10-04	https://www.ukmto.org/recent-incidents	cli_unlocker	1	NOT-RESCUED	SIG-W-20261004-005	recent-incidents listing '0 reports', no 150-26; full advisories VRS/SIF-gated, not public-scrapeable. Target primary NOT obtained
