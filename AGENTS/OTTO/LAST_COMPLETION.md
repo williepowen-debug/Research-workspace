@@ -1,21 +1,21 @@
-# OTTO COMPLETION — 2026-09-30 (session 026)
+# OTTO COMPLETION — 2026-10-04 (session 027)
 
-> **One sentence for the next boot:** CATO's RC2 was true. OTTO-10 is now NEEDS_VERIFY (Equifax read through May, claim runs through Q3), OTTO-29 is VERIFIED on the full Ch.7 docket, and OTTO-06 is FALSIFIED but calibration-ineligible. The verified set is 1 of 2, mean Brier 0.2925 (n=2). The next work is the 10/1 cluster.
+> **One sentence for the next boot:** Hertz -006 is dispositioned ADDS A WATCH: the Australian business sale itself has no effect on US used-car supply, and the only route to a US fleet dump (an HVF III amortization event or a Hertz Ch.11) is now a dated ~12/1 CATALYSTS row. The 10/1 cluster is still owed.
 
 ## STATUS
-✅ PROME spawn on CATO RC2 + RC3 (`433084d2b`, packet `6ead07117`). Evidence re-check only; no outcome flipped. No trade, threshold, confidence cell, as-made or term changed. Packet consumed (board_log +1, moved to processed).
+✅ PROME explicit intake spawn (packet `60e6ccb36`, Will's word 17:23 ET), bounded to ONE item. Handoff + packet consumed (board_log +2, both moved to processed). No trade, threshold, prediction or confidence changed.
 
 ## CHANGED
-`thesis/PREDICTIONS.tsv` (06/10/29/32 Result + Notes; OTTO-10 Status → NEEDS_VERIFY) · `thesis/PREDICTIONS_ARCHIVE.md` (s026 correction) · `docket/CATALYSTS.tsv` (9/30 row corrected; new 12-15 OTTO-10 re-check) · `STATUS.md` + `STATUS_COLD.md` §13 · `workbook/ML.tsv` ML-OTTO-284…286 · `research/2026-09-30_RC2_evidence_receipts.md` · NEXUS_BRIEF (RC3) · MEMORY · board_log · WALTER packet · PROME memo.
+`workbook/ML.tsv` ML-OTTO-287 · `docket/CATALYSTS.tsv` (+1 row ~2026-12-01, Hertz watch) · `STATUS.md` (header, s027 pointer, timeline row) · `board_log.tsv` (+2) · `MEMORY.md` Session Notes · NEXUS_BRIEF stamp · PROME memo.
 
 ## RESULT
-OTTO-10 NEEDS_VERIFY (coverage through May 2026; nothing below 13% yet, May monthly balance share 13.1%) · OTTO-29 VERIFIED (Verita 1,448-entry docket, no distribution order; trustee's TFR projected 9/30/2030) · OTTO-06 calibration-ineligible · verified + eligible 1 of 2, mean 0.2925 · NEXUS brief First Brands statements reconciled, poll retired.
+Australian sale = owner change, not liquidation: fleet in Australia on its own ABS ($226M, 1.8% of Hertz vehicle debt; 10-Q Q2-26). US channel open at creation: $834.75M HVF III notes priced 8/27; liquidity ~$984M at Q2 end. No 8-K on the Australian sale (EDGAR 10/4). WALTER's withdrawal of "strengthens" confirmed.
 
 ## GAPS
-OTTO-10's June–September 2026 data are not published (expected Dec edition). OTTO-29: PACER not read, 3 entry numbers (pre-4/15) absent from both mirrors, trust-level pass-through unobservable (144A). OTTO-06's CPS/ACA/CACC perimeter unchecked. predictions_due.py does not surface NEEDS_VERIFY rows. No independent read of tonight's dispositions.
+The Australian-sale report and the "50s" loan marks are unverified (no filing, no wire read). The Q3 10-Q date is unverified. 10/1 fired rows not swept. WALTER handoffs -021/-022 unread. No independent read of the disposition.
 
 ## WILL_NEEDS
 None.
 
 ## FOLLOW-UP
-1. Oct 1: 10-D write + seasoning/upsert repair → CARL · Tricolor Counts 7–8 check · OTTO-12 re-search · read BROCK's L479 grade after it lands. 2. ~Dec 15: OTTO-10 re-grade at the covering Equifax edition (CATALYSTS row). 3. Recovery <28% trigger state still owed to CARL.
+1. The 10/1 cluster (10-D write + seasoning/upsert repair → CARL; Tricolor Counts 7–8; OTTO-12; BROCK's L479 grade). 2. Drain -021/-022. 3. ~12/1 Hertz watch; read the Q3 10-Q when filed. 4. Recovery <28% trigger state still owed to CARL.
