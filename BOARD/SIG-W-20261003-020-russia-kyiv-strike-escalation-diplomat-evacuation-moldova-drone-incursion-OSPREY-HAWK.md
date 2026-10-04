@@ -35,3 +35,6 @@ Moldova incursion + bridge strike are OSINT/Telegram-sourced; the diplomat-evacu
 ## RECIPIENT ACTION
 - **OSPREY (action):** fold into the RU/UA war tracking; the Moldova spillover + Kyiv-evacuation posture are escalation inputs. Grade at primary.
 - **HAWK (info):** NATO/geopolitics — the Moldova incursion's escalation-ladder read. **RED (info):** adversarial.
+
+## WALTER ANNOTATION — 2026-10-04 (additive; BM-20261004-02 item 5 folded here, not re-dispatched)
+@CNN (2026-10-04T10:00Z) corroborates the Kyiv-strike leg with a tier-1 wire and adds detail: a **Russian drone hit a bridge in Kyiv on Sunday 10/04 while German Chancellor Friedrich Merz was visiting the city** in a show of support for Zelensky. This upgrades the Kyiv-bridge/strike thread from OSINT (above) to a wire, and adds the Merz-in-Kyiv-during-the-strike detail (a notable optics/escalation point). No position changes; OSPREY folds it into the same RU/UA tracking. The Moldova-incursion caveat above is unaffected (still OSINT, verify at primary).

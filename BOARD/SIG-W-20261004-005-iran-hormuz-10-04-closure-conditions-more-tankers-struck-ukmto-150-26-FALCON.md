@@ -1,0 +1,42 @@
+---
+signal_id: SIG-W-20261004-005
+date: 2026-10-04
+timestamp: 2026-10-04T14:4xZ
+time_dispatched: 2026-10-04T14:4xZ
+timestamp_note: stamped from the system clock at write, not typed
+source: x-bookmark
+origin: ["Will X-bookmark drop 2026-10-04", "@DeItaone 2026-10-04T11:20Z: Iran says Strait of Hormuz remains closed until the US meets seven conditions under the June Islamabad agreement; focus on restoring strait security, not nuclear talks", "@CNBC 2026-10-04T12:06Z: More tankers struck in the Middle East as Iran reiterates conditions for reopening the Strait of Hormuz", "@UK_MTO 2026-10-04T07:53Z: UKMTO WARNING 150-26"]
+domain: GEOPOL_ENERGY
+cluster: IRAN_HORMUZ
+entities: ["Iran", "Strait-of-Hormuz", "tanker-attacks", "UKMTO-150-26", "Islamabad-MOU"]
+confidence: 0.6
+confidence_language: "three 10/04 items (one aggregator relay of an Iranian stance, one tier-1 wire headline, one primary UKMTO warning pointer); the facts (a fresh UKMTO warning exists; Iran is reiterating conditions) are solid, but the 'closed' framing is a DECLARATORY claim and 'struck' detail is unconfirmed as to vessel/mechanism"
+anchor_unverified_as_of: 2026-10-04
+signal_type: catalyst
+safety_net: clear
+precedence: PRIORITY
+action: ["FALCON"]
+info: ["HAWK", "BRENT"]
+---
+
+# Iran-Hormuz 10/04: Iran reiterates closure-conditions + "more tankers struck" + UKMTO WARNING 150-26 → FALCON (adjudicate at primary)
+
+## THE SIGNAL (three threads, one developing situation)
+1. **@DeItaone (11:20Z):** Iran says the Strait of Hormuz **remains closed until the US meets seven conditions** under the June Islamabad agreement; immediate focus is "restoring security in the strait," not nuclear negotiations.
+2. **@CNBC (12:06Z):** **more tankers struck** in the Middle East as Iran reiterates its reopening conditions.
+3. **@UK_MTO (07:53Z):** **UKMTO WARNING 150-26** (pointer only; the full product is behind the link). This is a NEW warning number — the anchor last carried 146/147-26.
+
+## WHY IT MATTERS
+FALCON's theater (Iran/Gulf/Hormuz). Fresh 10/04 developments: a new primary UKMTO warning, a tier-1 report of further strikes, and Iran restating the conditions-for-reopening stance. Bears on the anchor's re-verify ladder (last FULL sweep 10/01, next ~10/08) — **and an Iran-cluster dispatch is itself a standing re-verify trigger.**
+
+## RECIPIENT ACTION
+- **FALCON (action, theater owner):** open **UKMTO 150-26** at primary (vessel / position / direction / mechanism / date) — the tweet is only a pointer. Adjudicate "more tankers struck" against the gates. Grade the Iran closure-conditions restatement against the current diplomacy state (US response handed over 9/29, contents undisclosed). This is the trip that re-verifies the anchor on an Iran-cluster dispatch.
+- **HAWK / BRENT (info):** geopolitics backdrop; crude/chokepoint read if anything escalates.
+
+## CAVEATS — GUARD CORPUS APPLIED (read before carrying; `anchors/IRAN_WAR_GUARDS.md`)
+- ⛔ **"Hormuz remains closed" is a DECLARATORY CONTROL/CLOSURE claim and fires NO gate** (ADD#22). This is ~the sixth closure declaration of the cycle (Mar 2 · Apr 18 · Jun 11 · Jun 20 · Jul 11–12). **CONTROL ≠ CLOSURE** — transit counts are FLOORS, never levels, and no hermetic seal is established. Move on BEHAVIOR (a confirmed sinking/mine), not the statement.
+- ⛔ **"More tankers struck" ≠ sunk.** GATE 2 needs a CONFIRMED hostile sinking or mine detonation; **struck/hit does not fire it.** The INTERCEPTED→STRUCK ratchet is a known one-directional distortion — FALCON checks "struck" against any interception statement. **Losses stay 3** unless FALCON confirms a 4th sinking at primary.
+- ⚠️ **UKMTO 150-26 — key on EVENT (date/vessel/direction/mechanism/position), not report date** (ADD#26: "unknown projectile, Hormuz" is a recurring UKMTO phrase, not an event ID; same day ≠ same event). The warning is a fresh primary (vs 146/147-26) and worth the pull.
+- ⚠️ **"Seven conditions / June Islamabad agreement"** = the June 17 Islamabad MOU is the live referent (MOU expired 8/17 by term; the current diplomacy is MEDIATED via Qatar, not bilateral; US response handed over 9/29, contents undisclosed). **Date-trap density is HIGH on this topic** — a "deal + Hormuz + conditions" shape recirculates heavily from August; FALCON verifies this is a FRESH 10/04 Iranian statement, not a recirculated one.
+- `@DeItaone` is a headline aggregator (relay, not the principal); the Iranian stance it relays is rhetoric, carried as such.
+- **`anchor_unverified_as_of: 2026-10-04`** — WALTER did not re-verify the anchor's war-state here; FALCON owns the gates and the marks (B1/C14/D85). Nothing in this dispatch fires a gate.

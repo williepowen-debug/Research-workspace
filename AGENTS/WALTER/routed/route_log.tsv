@@ -1212,3 +1212,9 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-10-03	SIG-W-20261003-018	Will X-bookmark NEW scan 10/03	AI-infra FINANCING stress: Oracle/OpenAI NM data-center debt ~84c (distressed) + Meta $628B off-balance-sheet footnote. 	PRIORITY	VULCAN	BROCK,LIQUID,RED	0.5
 2026-10-03	SIG-W-20261003-019	Will X-bookmark NEW scan 10/03	Japanese fund (Sumitomo Mitsui DS) reportedly dumped ALL French OATs -> Bunds + JP paper + France protests escalating. U	PRIORITY	HANS	SAM,BOND,LIQUID,RED	0.5
 2026-10-03	SIG-W-20261003-020	Will X-bookmark NEW scan 10/03	Russia: Kyiv-strike escalation + 'diplomats leave Kyiv' (Reuters) + drone incursion into MOLDOVA (OSINT, 5 breaches). Mo	PRIORITY	OSPREY	HAWK,RED	0.5
+2026-10-04	SIG-W-20261004-001	Will X-bookmark 10/04	FL property-tax-cut realtor study: FL home values +up-to-9pct if cut (hypothetical, self-interested)	ROUTINE	CORAL	HOMER	0.4
+2026-10-04	SIG-W-20261004-002	Will X-bookmark 10/04	OPEC+ holds November output targets steady (CNBC)	ROUTINE	BRENT	HAWK	0.85
+2026-10-04	SIG-W-20261004-003	Will X-bookmark 10/04	WSJ: US trucking industry under tremendous pressure (freight/demand tell, qualitative)	ROUTINE	—	CARL,HENRY	0.55
+2026-10-04	SIG-W-20261004-004	Will X-bookmark 10/04	Irkutsk aluminum-plant plague quarantine (Moscow Times, single-source, unverified)	ROUTINE	—	MIDAS	0.3
+2026-10-04	SIG-W-20261004-005	Will X-bookmark 10/04	Iran-Hormuz 10/04: closure-conditions + more tankers struck + UKMTO 150-26 (closure=declaratory, no gate; losses stay 3)	PRIORITY	FALCON	HAWK,BRENT	0.6
+2026-10-04	SIG-W-20261004-006	Will X-bookmark 10/04	Hertz forced seller of intl ops, deep-distressed capital structure (junkbondanalyst)	PRIORITY	OTTO	LIQUID	0.7
