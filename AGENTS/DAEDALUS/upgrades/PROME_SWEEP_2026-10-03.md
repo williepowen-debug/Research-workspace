@@ -2,6 +2,8 @@
 
 **BOUNDED PACKAGE COMPLETE — evidence, required review, delivery and truthful write-back done; whole sweep PARTIAL.** Seven supported, bounded findings; all five judgment legs inspected at the coverage below. Hosted access and complete historical consumer receipts remain UNKNOWN. The whole-sweep clock stays September 8; no clean L5 claim or grade change follows.
 
+> **October4 qualification from later CATO review (c4b68aed4):** the owner-described standing exception for reference nonpublication below is **not established** by the cited September26 evidence and conflicts with current CLOSEOUT. Treat required publication as PARTIAL pending the actual approval basis or publication; Helm/Owed receipts stand, hosted UNKNOWN. CATO also flags cumulative process accounting across the same harness session (PC2). Source repairs remain supported; no new sweep or grade/clock change. See `AGENTS/CATO/runs/2026-10-03_2258_prome-closeout-verification.md` and `../runs/2026-10-04_DAEDALUS_STATUS_REVIEW.md`.
+
 ## Final owner receipts — supersedes the 22:24/22:29 in-flight observations below
 
 During Git delivery, PROME committed Standard closeout **`a2009b1ff`** and publication receipt **`07d7806de`**. The actual **L530/L538 state cells now carry the adopted clauses**. The narrow adoption-to-row gap is CLOSED; historical column6 test wording remains declared residue in the owner's second reader record, not a reason to undo the explicit state-cell disposition. **L530 remains literal every-path PARTIAL, reader measurement plus owner remedy; L538 isolated exemption acceptance stands independently of unrelated local breaches.** Both docket rows remain PENDING for their recorded residual scope; this is not whole-row completion.

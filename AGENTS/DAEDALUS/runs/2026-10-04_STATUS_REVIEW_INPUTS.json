@@ -1,0 +1,19 @@
+{
+  "as_of_utc": "2026-10-04T13:59:34.346237+00:00",
+  "head": "c4b68aed4e8c81747b80b011c1719b8db9d15638",
+  "origin": "c4b68aed4e8c81747b80b011c1719b8db9d15638",
+  "files": {
+    "AGENTS/DAEDALUS/STATUS.md": "6cd5a45ca3c0b08b1b97c803c7b7a84d76b4152b9ee3bf0d73ffe00587cbbb25",
+    "AGENTS/DAEDALUS/HANDOFF.md": "5a80964c51cda84ac2d522c5f1dfe4ea641990dd7b7e69e98d6fd05bc59c1275",
+    "AGENTS/DAEDALUS/FLEET_MAP.tsv": "e2491ffaee6921409e9e0c82f335dfc04cdcdba8f7a4fc8bd4e8a4130e78bcc8",
+    "AGENTS/DAEDALUS/sweeps/REGISTRY.tsv": "f521062a9a936b3b3d7803f50230b32d7f457b8d6ffae67b113ee442b80af31f",
+    "AGENTS/DAEDALUS/runs/2026-10-03_CATCHUP.md": "3559637284afb2034677ab22255352b5e7997b4f4bd0f0251d5e5e53cf1e2374",
+    "AGENTS/DAEDALUS/runs/2026-10-03_SCORECARD_2026-10-02_DELIVERY.md": "fd83979c242074fffafe561a487fd8349c0cb3482963e001105711b57af8847e",
+    "AGENTS/DAEDALUS/runs/2026-10-03_H2_RECEIPT_RECONCILIATION.md": "6974c91249deb5853087ce5a6618fd354178f8e904c8efc608ca1860c4ed1620",
+    "AGENTS/DAEDALUS/upgrades/PROME_SWEEP_2026-10-03.md": "b3733bf3b64c5db81bea59ecb5022a591c4b5e29914460ff13372c67fe28f02f",
+    "PROME/DOCKET.tsv": "5fa197e2d0caf13872641c1fde969348d03693d007f353ca836e60ae9c622ea0",
+    "PROME/WILL_QUEUE.md": "27ed13e86cce0bacf0092eafd6f54276d87f12561d410a81460a9fa07ea6ef68",
+    "AGENTS/CATO/runs/2026-10-03_2258_prome-closeout-verification.md": "90b12f3aa7330c9cb3a7c992544b6c15cfcd0c2194f945e4f9b609e4f539f5a2"
+  },
+  "scope": "Operational status and existing evidence read, not new implementation/whole fleet audit/grade assessment. No new test reruns."
+}
