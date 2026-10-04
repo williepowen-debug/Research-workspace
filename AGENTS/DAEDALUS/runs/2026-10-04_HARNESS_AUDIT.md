@@ -1,5 +1,7 @@
 # October 4 harness audit — bounded evidence package, PARTIAL
 
+**October4 follow-through supersedes pending states below:** `2026-10-04_HARNESS_AUDIT_CONTINUATION.md` records original packet CONSUMED, counterpart COMPLETE WITH DISCLOSED EXPOSURE, TERRY hold DELIVERED/consumption and repair unverified, corrected D2 crosswalk, and cumulative23full/6partial/31unaudited primary files plus9nested full charters. Original snapshot and first-tranche body below remain historical evidence. Whole audit PARTIAL, October5 unchanged; October6 capacity unallocated.
+
 **Result:** completed a read-only coordinator/self/standalone-closeout tranche of the existing 90-day audit. The most consequential supported finding is TERRY's unsafe foreign-directory recovery instruction; two isolated Git counterexamples establish the hazard and its false push-failure test. LIQUID's purported calendar validation does not read the calendar. Other findings are conflicting instruction text and bounded compression candidates. **No harness edits, new tools/controls, maturity promotion or whole-sweep completion.**
 
 Original deadline **October 5, 2026** (July7 +90d); full-audit `last_run` remains **July7**. WQ-379(c)'s process day remains unnamed/unapproved as a replacement. This report is audit work, superseding the earlier October4 status-only report's “audit not begun” next action. That earlier assessment is not an audit receipt.

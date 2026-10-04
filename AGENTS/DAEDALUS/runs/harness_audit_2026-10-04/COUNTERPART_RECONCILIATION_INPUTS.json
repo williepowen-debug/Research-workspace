@@ -1,0 +1,113 @@
+{
+  "head": "e4cab61928bb29824b997bd5009f3be1643426fc",
+  "inputs": [
+    {
+      "path": "PROME/reports/2026-10-04_harness-audit-blind-counterpart.md",
+      "bytes": 32108,
+      "sha256": "63f60f31aef6c45bb99bd398c75622f87217c254b6d6e01f12df9409314ef4a2",
+      "read_depth": "Cited sections only; counterpart ledger/comparison/reply full"
+    },
+    {
+      "path": "PROME/reports/2026-10-04_harness-audit-counterpart-comparison.md",
+      "bytes": 5150,
+      "sha256": "054110d5af35b1f9e80a5c0b4e1f4733b159797b3d5415bade67ed73173de2d9",
+      "read_depth": "Cited sections only; counterpart ledger/comparison/reply full"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/inbox/2026-10-04_from-PROME_harness-audit-counterpart-done.md",
+      "bytes": 1958,
+      "sha256": "22a87b487784b0653fc417b5f51facff5355628a44f6667cce4c271c5ba8b188",
+      "read_depth": "Cited sections only; counterpart ledger/comparison/reply full"
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/2026-10-04_from-PROME_closeout-recovery-recipe-hold.md",
+      "bytes": 2165,
+      "sha256": "5e93bd5fd8127598a944860b7fd7f9848ad0698c0b8ee4165d673709075e1c3a",
+      "read_depth": "Cited sections only; counterpart ledger/comparison/reply full"
+    },
+    {
+      "path": "AGENTS/CATO/runs/2026-10-03_1713_daedalus-catchup-review.md",
+      "bytes": 36362,
+      "sha256": "70fbd0ab0cf86c3a7d4e807a45377efb4f0d5b094ffda3c430cc758096cc3cd7",
+      "read_depth": "Cited sections only; counterpart ledger/comparison/reply full"
+    },
+    {
+      "path": "AGENTS/_NETWORK.md",
+      "bytes": 11459,
+      "sha256": "56ad8e8f56aedc320db1ec3103861fca11d05cdccfc6521d6e83b341c32b68ec",
+      "read_depth": "Cited sections only; counterpart ledger/comparison/reply full"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/REGISTRATION_CHECKLIST.md",
+      "bytes": 12312,
+      "sha256": "68c7f7a4ab176af4ab7250bc468b1e3a8ccaf5b63a878fbbc3b84b6809a9b5c7",
+      "read_depth": "Cited sections only; counterpart ledger/comparison/reply full"
+    },
+    {
+      "path": "AGENTS/RAV/README.md",
+      "bytes": 1809,
+      "sha256": "17baaac1eefe94b0afe715c734906b7af78019850101b83276a9a492a145de1f",
+      "read_depth": "Cited sections only; counterpart ledger/comparison/reply full"
+    },
+    {
+      "path": "AGENTS/_INDEX.md",
+      "bytes": 7711,
+      "sha256": "9f7fb5bd881e61d3c4c44a51b0b7718f02f9e1d5af336f80eb64438c82105931",
+      "read_depth": "Cited sections only; counterpart ledger/comparison/reply full"
+    },
+    {
+      "path": "AGENTS/_SYNTHESIS_OPS.md",
+      "bytes": 3012,
+      "sha256": "5b1ac55eddaf24b02d4d711c8888fa58f9291d145d3541cf37e6b9f5beefc6c0",
+      "read_depth": "Cited sections only; counterpart ledger/comparison/reply full"
+    },
+    {
+      "path": "PROME/codex/RAV_QC_WORKFLOW.md",
+      "bytes": 4215,
+      "sha256": "4045760031b6d8ffd97c779ae0c00b8fba310105dff60595b24744cc6bfcb722",
+      "read_depth": "Cited sections only; counterpart ledger/comparison/reply full"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/scripts/sweeps_due.py",
+      "bytes": 18147,
+      "sha256": "3d02bae3bb24ff130be14eb47f0d13a1e39e06b946f6de8d916585298940457e",
+      "read_depth": "Cited sections only; counterpart ledger/comparison/reply full"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/CLAUDE.md",
+      "bytes": 33509,
+      "sha256": "8c26ecc613126c3fddbae55591e452d11c58cb3095f108da95e2468c7bff9847",
+      "read_depth": "Cited sections only; counterpart ledger/comparison/reply full"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/UPGRADE_PROTOCOL.md",
+      "bytes": 15431,
+      "sha256": "d76c41222784f60a28c44c10ae74c376e8c20494730bdf96fb3425a019823596",
+      "read_depth": "Cited sections only; counterpart ledger/comparison/reply full"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/RAV_CHARTER.md",
+      "bytes": 20695,
+      "sha256": "b9ea04ee70d1ae50997fb00286d089f12ac8f76cd6afade5f357da6fc2c326d9",
+      "read_depth": "Cited sections only; counterpart ledger/comparison/reply full"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 4991,
+      "sha256": "9b126769cbc278fad34b97c7d51806f7ef8966486c305389896c983bbd86585e",
+      "read_depth": "Cited sections only; counterpart ledger/comparison/reply full"
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 24199,
+      "sha256": "1b176d7b3c619a78dbabe4128f23451fa32a074554f391804707aec7623a3c73",
+      "read_depth": "Cited sections only; counterpart ledger/comparison/reply full"
+    },
+    {
+      "path": "PROME/SCRATCH.md",
+      "bytes": 25647,
+      "sha256": "86b1ce19e004c2d12f20b3dedfe01781225d6b2c82f08298284ae294b54eaabe",
+      "read_depth": "Cited sections only; counterpart ledger/comparison/reply full"
+    }
+  ]
+}
