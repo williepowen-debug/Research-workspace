@@ -1,13 +1,13 @@
 # WALTER — LAST COMPLETION
 
-Session: **2026-10-04, walter-f0 continuation (Claude Opus 4.8, terminal), "Hi Walter please boot up" → a Will-directed working block on the X-bookmark PROCESS + maintenance.** Full boot 0–9b, two owed re-attestations cleared, two Will-bookmark batches routed, the "dig by default" code change shipped + CATO-reviewed, the UKMTO 150-26 primary recovered via vision, and the YURI routing row shipped. **TIER-2 CLOSEOUT.**
+Session: **2026-10-04, walter-f0 continuation (Claude Opus 4.8, terminal), "Hi Walter please boot up" → a Will-directed working block on the X-bookmark PROCESS + maintenance.** Full boot 0–9b, two owed re-attestations cleared, two Will-bookmark batches routed, the "dig by default" code change shipped + CATO-reviewed, the UKMTO 150-26 card read via a tweet-image screenshot (attributed, not source-authenticated), and the YURI routing row shipped. **TIER-2 CLOSEOUT.**
 
 ## STATUS
 1. **Boot COMPLETE** (0–9b). Doctor 4 MED / 0 HIGH. 6c NO fire (weekend-frozen; HY 324 [FRED 10/01] = 1 of 3 on FT-02/REG-T-03). `git pull` blocked by concurrent foreign work (PROME/DAEDALUS) but HEAD current on origin per last refs.
 2. **READS + boot_basis re-attestation — DONE** (were the standing owed carries). boot_basis_check → MATCH (23 paths); PROME transcribed the READS attestation (reads_check no longer returns UNKNOWN; commit `c858c6ba3` carried it).
 3. **Bookmark batches:** BM-20261004-02 (12/12 → `-001` FL property tax, `-002` OPEC+ steady, `-003` trucking, `-004` Irkutsk aluminum, `-005` Iran-Hormuz cluster, `-006` Hertz; + folds/notes); BM-20261004-03 (3/3 → `-007` CNBC consumer, `-008` Swiss glaciers; `-005` UKMTO fold). BOARD 1202 → **1210**, all reconciled.
 4. **"Dig by default" SHIPPED** — `x_bookmarks_scan` now fetches full text + media URLs + external links + DIG tags by default; triage runs on content, not headlines. 32 tests; dedup invariant locked.
-5. **UKMTO 150-26 primary RECOVERED** via a tweet-image screenshot (bot-walled PDF 403'd WebFetch + curl) — closed -005's open gap; struck tanker, crew safe, losses stay 3.
+5. **UKMTO 150-26 card READ via a tweet-image screenshot** — a screenshot ATTRIBUTED to UKMTO, NOT source-authenticated (bot-walled PDF 403'd WebFetch + curl) — closed -005's CONTENT gap; struck tanker, crew safe, losses stay 3; FALCON adjudicates + authenticates.
 6. **YURI routing row SHIPPED** — `RU_STATE_ACTOR` (FORMAT_SPEC v0.24 / ROUTING_TABLE v0.40 / REGISTRY), Will sign-off. **HANS flagged** (THRESHOLDS 103% of budget).
 
 ## CHANGED (this session)
@@ -54,7 +54,7 @@ Session: **2026-10-04, walter-f0 continuation (Claude Opus 4.8, terminal), "Hi W
 
 ## CLOSEOUT RECEIPT
 **Issued at the 2026-10-04 walter-f0 Tier-2.**
-- **8 BOARD dispatches** (`-001`…`-008`) + 3 annotations; **12 delivery handoffs** (CORAL/HOMER/BRENT/HAWK/HENRY/MIDAS/FALCON/OTTO/LIQUID/AEOLUS); CARL/TERRY/RED/PROME via BOARD ID-diff (pull-complete). All delivery rows `written_not_delivered_pending_push` (recipients weekend-dark).
+- **8 BOARD dispatches** (`-001`…`-008`) + 3 annotations; **12 delivery handoffs** (CORAL/HOMER/BRENT/HAWK/HENRY/MIDAS/FALCON/OTTO/LIQUID/AEOLUS); CARL/TERRY/RED/PROME via BOARD ID-diff (pull-complete). All 12 delivery rows reconciled to `delivered` (committed + on origin per last refs); recipients weekend-dark, so delivered ≠ consumed.
 - **DOORBELL_LOG +4** dark-action rows (CORAL/BRENT/FALCON/OTTO), all gate-FAIL → NO (nothing fires; weekend next-boot consume; ListAgents + foreign-dirty confirmed dark-not-IN-FLIGHT; only prome-ed live).
 - **Commits (local; on origin per last refs except where noted):** boot_basis+MEMORY `8f951a7da`, READS packet `d97013020` (both on origin via PROME train), dispatch batch `bcc78ca7b`, §9a `4e301b0b1`, dig-by-default code `6882d10b0`, 3-item routing `511a060b9`, CATO fixes `f2af81d44`, + this closeout commit. Only 2 local-pending commits are PROME's.
 - ⚠️ Does NOT claim: an independent cold-read happened (OWED); any recipient consumed (all dark); Bright Data provisioned (not); FALCON adjudicated -005 (owed).
@@ -90,7 +90,7 @@ Session: **2026-10-04, walter-f0 continuation (Claude Opus 4.8, terminal), "Hi W
     "signal_date": "20261004",
     "total": 12,
     "delivered": 12,
-    "note": "8 BOARD -001..-008; 12 handoffs all written_not_delivered_pending_push (recipients weekend-dark); CARL/TERRY/RED/PROME via BOARD ID-diff; no desk consumed."
+    "note": "8 BOARD -001..-008; 12 handoffs reconciled to delivered (on origin per last refs); recipients weekend-dark so delivered != consumed; CARL/TERRY/RED/PROME via BOARD ID-diff."
   },
   "push": {
     "walter_commits_on_origin_per_last_refs": true,
