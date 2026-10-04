@@ -14,3 +14,4 @@
 | Date | Scope | Findings | Dispositions |
 |---|---|---|---|
 | 2026-07-07 | 33 CLAUDE.md + PROME BOOT/CLOSEOUT + 3 standalone closeouts | strike-list S1-S6, rewrite-list R1-R5, 11 roadmap dispositions | S1/S4 output-canon consolidation + S2 git cite-don't-restate applied 7/8; R1 OTTO routed; R2 root git rewrite = Will/PROME lane; full record `HARNESS_AUDIT_2026-07-07.md` |
+| 2026-10-04 | PARTIAL:13 full primary/canon files +5 clause reads;42 primary files +9 nested scope/partial completion remain | TERRY recovery/receipt counterexamples, LIQUID coverage and source conflicts; full file dispositions and limits in runs/2026-10-04_HARNESS_AUDIT.md | Proposed only; independent result challenge complete, actual blind PROME counterpart pending; single owner handoff; no harness edits. last_runJuly7/original deadlineOctober5 unchanged; recommended overflow10/6 not approved replacement |

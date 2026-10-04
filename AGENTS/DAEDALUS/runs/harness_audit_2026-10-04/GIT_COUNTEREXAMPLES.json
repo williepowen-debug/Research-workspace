@@ -1,0 +1,22 @@
+{
+  "fixture_path": "/tmp/daedalus-harness-git-fixture-t55444j9",
+  "live_repo_mutated": false,
+  "source_snapshot": "f1dbe2e7099dd66ee6475d1148b0977299b0394b",
+  "source": "AGENTS/TERRY/CLOSEOUT.md:99,114-117",
+  "tests": [
+    {
+      "case": "delivered_commit_with_later_remote_successor",
+      "ancestor_rc": 0,
+      "origin_vs_delivered_count": "1\t0",
+      "result": "counterexample: delivered commit on origin with count != 0/0"
+    },
+    {
+      "case": "foreign_dir_restore_after_soft_realign",
+      "before": "FOREIGN UNCOMMITTED WORK\n",
+      "after": "committed baseline\n",
+      "uncommitted_content_preserved": false,
+      "result": "documented restore command discards foreign uncommitted content"
+    }
+  ],
+  "limit": "isolated git fixture only; proves instruction hazard, not an observed live loss; no Helm build/test executed"
+}

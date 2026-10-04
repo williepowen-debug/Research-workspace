@@ -1,3 +1,9 @@
+# Current continuation — October4 harness audit
+
+`runs/2026-10-04_HARNESS_AUDIT.md` + canonical reader companion/manifest are the current audit evidence.13 full files,5 partial,42 unread plus9 nested. TERRY unsafe recovery/false push-failure instruction reproduced in disposable Git; LIQUID selftest cannot prove calendar agreement. Single authorized PROME packet carries supported findings and capacity proposal; receipt/consumption/repair/acceptance remain separate. Actual blind PROME self-counterpart pending; delegated readers do not satisfy it. Full harness clockJuly7/dueOctober5 and PROME sweep clock/grades unchanged. No owner harness/tool changes.
+
+Next: PROME consumes/routes the priority finding and records blind counterpart/read-only audit allocation atOctober5 checkpoint; DAEDALUS continues remainder with L594 acceptance support protected. Recommended overflow completionOctober6 EOD needs explicit acceptance; WQ379(c) day remains unnamed. Preserve H2/Prose substantive scope, VULCAN→ZHAO whole-package sequence andOctober15 decision reads; deferred whole profiles retain full scope. Earlier status-only next-action text below is historical, superseded by this actual audit tranche.
+
 # October4 status review
 
 Current concise assessment: `runs/2026-10-04_DAEDALUS_STATUS_REVIEW.md`. No new grade or maintenance completion. Harness deadlineOctober5 survives; capacity day unnamed; protect PROME's L594 acceptance. CATO's later closeout read qualifies the claimed reference-publication exception and session process count; see report, no duplicate audit/packet. STATUS's scorecard/profile-schedule summary lags corrected against existing records. The October3 task stop below is historical; today's task was this report only.

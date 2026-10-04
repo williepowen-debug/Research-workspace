@@ -1,0 +1,1215 @@
+{
+  "head": "f1dbe2e7099dd66ee6475d1148b0977299b0394b",
+  "captured_utc": "2026-10-04T15:15:30.471548+00:00",
+  "agents": [
+    {
+      "agent": "PROME",
+      "kind": "ACTIVE",
+      "primary": [
+        "PROME/CLAUDE.md",
+        "PROME/BOOT.md",
+        "PROME/CLOSEOUT.md",
+        "PROME/CLOSEOUT_PROCEDURES.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "WALTER",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/WALTER/CLAUDE.md",
+        "AGENTS/WALTER/design/BOOT_PROTOCOL.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "NEXUS",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/NEXUS/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "RED",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/RED/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "SAM",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/SAM/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "LIQUID",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/LIQUID/CLAUDE.md",
+        "AGENTS/LIQUID/CLOSEOUT.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "VIOLET",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/VIOLET/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "BRENT",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/BRENT/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "HENRY",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/HENRY/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "CARL",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/CARL/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "LABOR",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/LABOR/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "BROCK",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/BROCK/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "HAWK",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/HAWK/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "TERRY",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/TERRY/CLAUDE.md",
+        "AGENTS/TERRY/CLOSEOUT.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "REGINALD",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/REGINALD/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "MARCO",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/MARCO/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "ORACLE",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/ORACLE/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "BOND",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/BOND/CLAUDE.md",
+        "AGENTS/BOND/CLOSEOUT.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "CORAL",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/CORAL/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "SHADE",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/SHADE/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "ZHAO",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/ZHAO/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "AEOLUS",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/AEOLUS/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "WATT",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/WATT/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "VULCAN",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/VULCAN/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "MIDAS",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/MIDAS/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "OSPREY",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/OSPREY/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "FALCON",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/FALCON/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "HOMER",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/HOMER/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "YURI",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/YURI/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "OZK",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/OZK/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "WAL",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/WAL/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "FLG",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/FLG/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "CRUISE",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/CRUISE/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "FERT",
+      "kind": "ACTIVE",
+      "primary": [
+        "AGENTS/FERT/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "CREED",
+      "kind": "TIER-2",
+      "primary": [
+        "AGENTS/CREED/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "DEWEY",
+      "kind": "TIER-2",
+      "primary": [
+        "AGENTS/DEWEY/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "HANS",
+      "kind": "TIER-2",
+      "primary": [
+        "AGENTS/HANS/CLAUDE.md",
+        "AGENTS/HANS/CLOSEOUT.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "OTTO",
+      "kind": "TIER-2",
+      "primary": [
+        "AGENTS/OTTO/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "SENTRY",
+      "kind": "DORMANT",
+      "primary": [
+        "AGENTS/SENTRY/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "BARON",
+      "kind": "DORMANT",
+      "primary": [
+        "AGENTS/BARON/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "DAEDALUS",
+      "kind": "SPECIAL",
+      "primary": [
+        "AGENTS/DAEDALUS/CLAUDE.md"
+      ],
+      "missing_charter": false
+    },
+    {
+      "agent": "RAV",
+      "kind": "SPECIAL",
+      "primary": [
+        "AGENTS/DAEDALUS/builds/RAV_CHARTER.md"
+      ],
+      "missing_charter": false,
+      "charter_resolution": "Ratified charter path from ROSTER SPECIAL; no top-level charter assumed."
+    },
+    {
+      "agent": "CATO",
+      "kind": "SPECIAL",
+      "primary": [
+        "AGENTS/CATO/AGENTS.md",
+        "AGENTS/CATO/CHARTER.md"
+      ],
+      "missing_charter": false
+    }
+  ],
+  "primary_and_canon": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 4991,
+      "lines": 62,
+      "sha256": "9b126769cbc278fad34b97c7d51806f7ef8966486c305389896c983bbd86585e",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "AGENTS/AEOLUS/CLAUDE.md",
+      "bytes": 45374,
+      "lines": 348,
+      "sha256": "9ac73ee7e5f08e735358f7fd27a21e1cf86e732e23d00baf9e28c88f88644893",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/BARON/CLAUDE.md",
+      "bytes": 5018,
+      "lines": 139,
+      "sha256": "5a2c012094e9c0ddd0a86a77af2fa8c0bcb091a5a4c00c2d966f57eb346896ba",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/BOND/CLAUDE.md",
+      "bytes": 33143,
+      "lines": 246,
+      "sha256": "da51fabd147b1a72b7139840bac5f7401840a37d27bb016d0ad579d5aadc014f",
+      "coverage": "PARTIAL_CLAUSE_READ"
+    },
+    {
+      "path": "AGENTS/BOND/CLOSEOUT.md",
+      "bytes": 10482,
+      "lines": 74,
+      "sha256": "de072cebd2ac112cf80b907831878b03385c39c74410546713c3e5c8dabde952",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "AGENTS/BRENT/CLAUDE.md",
+      "bytes": 31387,
+      "lines": 224,
+      "sha256": "d14868832ca65ae620206f587cbea7b1ce84dec23b415e85eff49604dd3067ff",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/BROCK/CLAUDE.md",
+      "bytes": 30957,
+      "lines": 271,
+      "sha256": "ef94ba4ed7c3b344302e759054355184e417b7d7612006a4eeaa925349917b8c",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/CARL/CLAUDE.md",
+      "bytes": 48543,
+      "lines": 290,
+      "sha256": "92b5156d8e78ecd3d0cc1af4093dd20d3316c7f7c6ecee00a2cfe196a48ee0ef",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/CATO/AGENTS.md",
+      "bytes": 6465,
+      "lines": 36,
+      "sha256": "e4fa89ef81188f6eac626e7de6ba7537bbb4eae7deda4bcdb39a5080cf29823e",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/CATO/CHARTER.md",
+      "bytes": 9921,
+      "lines": 60,
+      "sha256": "1ec6c707f8fb054659ed904e5d0d5c536854abc982c3868fa26e1f1f85e4d9f3",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/CORAL/CLAUDE.md",
+      "bytes": 28659,
+      "lines": 243,
+      "sha256": "e57b9e3cea648a3b08038f6e25913bd108a5cad86e5f75b891dbca1a32b079ae",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/CREED/CLAUDE.md",
+      "bytes": 38108,
+      "lines": 234,
+      "sha256": "39f66cee5899e99033bd80c0ea2d3492fa51ee0937a3f3a85ccd4401ee3ba517",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/CRUISE/CLAUDE.md",
+      "bytes": 18181,
+      "lines": 280,
+      "sha256": "e12c0b8971211f976c14d4f3d939ccf4f06f2aa62d7819f71d951d97b492cd1e",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/CLAUDE.md",
+      "bytes": 33509,
+      "lines": 198,
+      "sha256": "8c26ecc613126c3fddbae55591e452d11c58cb3095f108da95e2468c7bff9847",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "AGENTS/DEWEY/CLAUDE.md",
+      "bytes": 31626,
+      "lines": 242,
+      "sha256": "35c1033b984b4b7717f38e53b5c2ec6e109fb671ddb7a9c4df354751f5808441",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/FALCON/CLAUDE.md",
+      "bytes": 50009,
+      "lines": 340,
+      "sha256": "a640316403d8869b47d9ebe21628c419a923189e84de11ace772875fc06e36ce",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/FERT/CLAUDE.md",
+      "bytes": 19931,
+      "lines": 192,
+      "sha256": "ebb4a04e01d27b1c45f5ed2f9405f9df016fbbf98f58ed61d9ee4ca0f442df37",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/FLG/CLAUDE.md",
+      "bytes": 26500,
+      "lines": 228,
+      "sha256": "569e987f58cbf2752e757c31bb3ec6ce4a59666f6ec01b5955cd971abb28b3eb",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/HANS/CLAUDE.md",
+      "bytes": 24358,
+      "lines": 215,
+      "sha256": "20f607b4878679b42cb9ffe680bedf29bb7bc1928ec7f6cff3641ce08652f10c",
+      "coverage": "PARTIAL_CLAUSE_READ"
+    },
+    {
+      "path": "AGENTS/HANS/CLOSEOUT.md",
+      "bytes": 8338,
+      "lines": 63,
+      "sha256": "7851b84606a7811cf99f25a6ddf1b40842c6658cb396d1a4a82356ad4e9b6e57",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "AGENTS/HAWK/CLAUDE.md",
+      "bytes": 28271,
+      "lines": 225,
+      "sha256": "f0ad39e1b5f5a933a40f0ba209ec33f0bb7abd3c65928258fc027650269fac9b",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/HENRY/CLAUDE.md",
+      "bytes": 35627,
+      "lines": 260,
+      "sha256": "b60dd9b91eecbbd64002f500d5ee82aad6fa1242b3b123c2e75e014bde17cd69",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/HOMER/CLAUDE.md",
+      "bytes": 38411,
+      "lines": 277,
+      "sha256": "31bfe44995c363051e4597771113d486f653a5b125e550e0474e2b65c9b95399",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/LABOR/CLAUDE.md",
+      "bytes": 52995,
+      "lines": 313,
+      "sha256": "0834814f5b77bad2bab9cd691489d3af9c17c4edef0068f2493c2ae649b9c36f",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/LIQUID/CLAUDE.md",
+      "bytes": 35551,
+      "lines": 238,
+      "sha256": "ea506adbc373eb84d7a02663e069efa1f4b0c87e2c8e9bbc3cfd0158e5f1ce58",
+      "coverage": "PARTIAL_CLAUSE_READ"
+    },
+    {
+      "path": "AGENTS/LIQUID/CLOSEOUT.md",
+      "bytes": 12123,
+      "lines": 183,
+      "sha256": "766aad32b3bc36134dc5ec95a2b2b18adb5ca24c78db87a0f5d329b00b3724a3",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "AGENTS/MARCO/CLAUDE.md",
+      "bytes": 32617,
+      "lines": 273,
+      "sha256": "12bfc3a37db67f65eb16b73a2e835d120cf2f7a7d8b14bad3c374f6d76af0d76",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/MIDAS/CLAUDE.md",
+      "bytes": 26438,
+      "lines": 250,
+      "sha256": "81e70c9bd59a7f0d3d17548bdc7266281e7282e2eb34cb6368b307ec1a1da97a",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/NEXUS/CLAUDE.md",
+      "bytes": 69924,
+      "lines": 363,
+      "sha256": "573cf81c5af677ac29aad894fbb0d8126efe68a8d2e194b6e332fbafa1c42097",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/ORACLE/CLAUDE.md",
+      "bytes": 26709,
+      "lines": 284,
+      "sha256": "6436fad6aba47dca86517f9ca43281cb1379ccc8a0f9e3feee363a0445acfe02",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/OSPREY/CLAUDE.md",
+      "bytes": 48339,
+      "lines": 286,
+      "sha256": "c2325eebf1bf3f52c4cc9f178fb5138f5b2d39ca742f4685100eed09847e3c92",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/OTTO/CLAUDE.md",
+      "bytes": 42142,
+      "lines": 560,
+      "sha256": "df7f2df6b5bafbfa743dbab15d99f95073aa6395ff2c555bc14e650256c7d048",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/OZK/CLAUDE.md",
+      "bytes": 28236,
+      "lines": 268,
+      "sha256": "923c3de40a9a9775ae11e6665ec35d916170a4edb07139fcd25360e74cd7e5cc",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/RED/CLAUDE.md",
+      "bytes": 42457,
+      "lines": 352,
+      "sha256": "e3406674f3dbaaee5c384aca71fd72b96a08ae84edb535944dbcd106bb18b5ad",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/REGINALD/CLAUDE.md",
+      "bytes": 43200,
+      "lines": 331,
+      "sha256": "8d353ba70fb3d65385ae36951de6a02b9701f9f6f15ace3c90cd8a3398b1872f",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/SAM/CLAUDE.md",
+      "bytes": 41591,
+      "lines": 301,
+      "sha256": "e684b27d2683fb115e6d6e6a82396ec1c9027cc22675d22e80672408c88f391c",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/SENTRY/CLAUDE.md",
+      "bytes": 6353,
+      "lines": 176,
+      "sha256": "96e531e3b97c8275f7c1042988a18b4680c72349e66637159776a83c45014401",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/SHADE/CLAUDE.md",
+      "bytes": 23407,
+      "lines": 172,
+      "sha256": "d86a527a423c7924ddb9b8fbdcb602755ccddad15bf30e182bdde1e2b4c4696d",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/TERRY/CLAUDE.md",
+      "bytes": 32288,
+      "lines": 243,
+      "sha256": "4f083562643b0d9434ca01eefd1771104896c4b8723a3ed404f89c57e4985644",
+      "coverage": "PARTIAL_CLAUSE_READ"
+    },
+    {
+      "path": "AGENTS/TERRY/CLOSEOUT.md",
+      "bytes": 14275,
+      "lines": 128,
+      "sha256": "9f4da2e46cedce9a89495539b3104f5a4bdf7e09d5efac01ffe9df478817ed3b",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "AGENTS/VIOLET/CLAUDE.md",
+      "bytes": 27215,
+      "lines": 200,
+      "sha256": "7ada4238628ba5d3913f25a89841435378861743f747caf61e4c9e49d7b6b390",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/VULCAN/CLAUDE.md",
+      "bytes": 81862,
+      "lines": 278,
+      "sha256": "5f66a766074bb14b7aac2a10c812cdd7ed576803dc6dac7cb88adaaa3419cc0d",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/WAL/CLAUDE.md",
+      "bytes": 24262,
+      "lines": 191,
+      "sha256": "5c9748f67abb7e2764941dfbeeeca7dbf689d609e6a8f5c4c3c3e8b576bf10e4",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/WALTER/CLAUDE.md",
+      "bytes": 65767,
+      "lines": 198,
+      "sha256": "43a716ebab22596a33a09d50f6b4adf8baa3e759f5ec8527d68df7f8a20401d7",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/WALTER/design/BOOT_PROTOCOL.md",
+      "bytes": 68876,
+      "lines": 206,
+      "sha256": "247f5cd10107f58b012188d638d99a7c1bd90729730a6deb0f2a318ca5f61d89",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/WATT/CLAUDE.md",
+      "bytes": 18364,
+      "lines": 202,
+      "sha256": "6e1e14cec1addfd206287975f75e96974604bd5ce35e2eb208dbe0f4174b1953",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/YURI/CLAUDE.md",
+      "bytes": 14604,
+      "lines": 103,
+      "sha256": "1998964fce79f478e3240e5a4493497a44394250df1b4c459e5a77a3c186e212",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/ZHAO/CLAUDE.md",
+      "bytes": 32528,
+      "lines": 267,
+      "sha256": "9e0f464520032ab34e0a937a702ada0531392f527e11ee15fcd0fcded35e54ec",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 24199,
+      "lines": 133,
+      "sha256": "1b176d7b3c619a78dbabe4128f23451fa32a074554f391804707aec7623a3c73",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "MESSAGING/CROSS_SESSION_MESSAGING.md",
+      "bytes": 24388,
+      "lines": 77,
+      "sha256": "84bbe2f896360c24248b4be5c684bb3c26588717a4076d4a2981299380a8af04",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "PROME/AUTONOMY.md",
+      "bytes": 20339,
+      "lines": 102,
+      "sha256": "d438ea6ff3d526c01e6eb6dc730ec9f6d215b139ce252cefe4c66e67251d8f3c",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "PROME/BOOT.md",
+      "bytes": 24801,
+      "lines": 140,
+      "sha256": "b2385f70b0011de0467528e2869ecaee8bf379a820314d8ede16a6fca92901aa",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "PROME/CLAUDE.md",
+      "bytes": 34340,
+      "lines": 104,
+      "sha256": "87d02389837d47dc27960a23aeb57b998f4921f2392c256616c85a87a741f841",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "PROME/CLOSEOUT.md",
+      "bytes": 20001,
+      "lines": 121,
+      "sha256": "0206e5684af49370b48e1e2b685790adea117ec0fdbca9b465bfdd1b41045855",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "PROME/CLOSEOUT_PROCEDURES.md",
+      "bytes": 8820,
+      "lines": 59,
+      "sha256": "74a16b93aeece9bd87c3874451477b886d9aca489dfec499e60988533a1a9c7f",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "PROME/COMPLETION_SPEC.md",
+      "bytes": 15012,
+      "lines": 84,
+      "sha256": "38bcd93aa340d8e1dd6e5aa281695bfb7765f5b4197d055b0705d66f532be1c6",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    },
+    {
+      "path": "PROME/ORCHESTRATION_PLAYBOOK.md",
+      "bytes": 44353,
+      "lines": 270,
+      "sha256": "29c456cde4d886654b512dd17523c02eae9486d7b3b7b1fdfe10c8fec5f6c1b1",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "PROME/ROSTER.md",
+      "bytes": 62790,
+      "lines": 267,
+      "sha256": "1796721ce1f8233424232f8ab7c35561c1eb0ea99b572ce9b4590c45fb426aca",
+      "coverage": "PARTIAL_CLAUSE_READ"
+    },
+    {
+      "path": "PROME/SYSTEM.md",
+      "bytes": 30433,
+      "lines": 231,
+      "sha256": "31eefb4f802938c57031e57eb81c1e46d25dfbe9d362f4bb4f2a8de72bbc72a3",
+      "coverage": "NOT_AUDITED"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/builds/RAV_CHARTER.md",
+      "bytes": 20695,
+      "lines": 189,
+      "sha256": "b9ea04ee70d1ae50997fb00286d089f12ac8f76cd6afade5f357da6fc2c326d9",
+      "coverage": "FULL_TEXT_READ_DISPOSITION_PROPOSED"
+    }
+  ],
+  "auxiliary_snapshot_paths": [
+    ".claude/agents/anvil.md",
+    ".claude/agents/argus.md",
+    ".claude/agents/coldreader.md",
+    ".claude/agents/desk.md",
+    ".claude/settings.json",
+    ".claude/skills/boot/SKILL.md",
+    ".claude/skills/closeout/SKILL.md",
+    ".claude/skills/coldread/SKILL.md",
+    ".claude/skills/reconcile/SKILL.md",
+    ".claude/skills/spineaudit/SKILL.md",
+    "AGENTS/CARL/sub_agents/DOC/CLAUDE.md",
+    "AGENTS/CARL/sub_agents/GIG/CLAUDE.md",
+    "AGENTS/CARL/sub_agents/META/CLAUDE.md",
+    "AGENTS/CARL/sub_agents/PHAN/CLAUDE.md",
+    "AGENTS/CARL/sub_agents/POLLY/CLAUDE.md",
+    "AGENTS/CARL/sub_agents/POP/CLAUDE.md",
+    "AGENTS/CARL/sub_agents/STUE/CLAUDE.md",
+    "AGENTS/DAEDALUS/scripts/complete_check.py",
+    "AGENTS/DAEDALUS/scripts/coordination_scorecard.py",
+    "AGENTS/DAEDALUS/scripts/daedalus_gate.py",
+    "AGENTS/DAEDALUS/scripts/dark_window_check.py",
+    "AGENTS/DAEDALUS/scripts/docket_owed.py",
+    "AGENTS/DAEDALUS/scripts/falsification_scan.py",
+    "AGENTS/DAEDALUS/scripts/maturity_scan.py",
+    "AGENTS/DAEDALUS/scripts/profile_clock_check.py",
+    "AGENTS/DAEDALUS/scripts/read_cap_check.py",
+    "AGENTS/DAEDALUS/scripts/regen_patterns_hot.py",
+    "AGENTS/DAEDALUS/scripts/render_directory.py",
+    "AGENTS/DAEDALUS/scripts/scorecard.py",
+    "AGENTS/DAEDALUS/scripts/sweeps_due.py",
+    "AGENTS/DAEDALUS/scripts/test_render_directory_wf.py",
+    "AGENTS/DAEDALUS/scripts/tests/fixtures/profile_clock/BRENT.md",
+    "AGENTS/DAEDALUS/scripts/tests/fixtures/profile_clock/BROCK.md",
+    "AGENTS/DAEDALUS/scripts/tests/fixtures/profile_clock/CARL.md",
+    "AGENTS/DAEDALUS/scripts/tests/fixtures/profile_clock/CORAL.md",
+    "AGENTS/DAEDALUS/scripts/tests/fixtures/profile_clock/FERT.md",
+    "AGENTS/DAEDALUS/scripts/tests/fixtures/profile_clock/OSPREY.md",
+    "AGENTS/DAEDALUS/scripts/tests/fixtures/profile_clock/manifest.json",
+    "AGENTS/DAEDALUS/scripts/tests/test_profile_clock_check.py",
+    "AGENTS/DAEDALUS/scripts/verify_push.sh",
+    "AGENTS/DAEDALUS/scripts/walter_route_check.py",
+    "AGENTS/MARCO/sub_agents/TOURISM/CLAUDE.md",
+    "AGENTS/SAM/red/CLAUDE.md",
+    "PROME/.claude/agents/anvil.md",
+    "PROME/.claude/agents/argus.md",
+    "PROME/.claude/agents/coldreader.md",
+    "PROME/.claude/agents/desk.md",
+    "PROME/.claude/settings.json",
+    "PROME/.claude/skills/boot/SKILL.md",
+    "PROME/.claude/skills/closeout/SKILL.md",
+    "PROME/.claude/skills/coldread/SKILL.md",
+    "PROME/.claude/skills/reconcile/SKILL.md",
+    "PROME/.claude/skills/spineaudit/SKILL.md",
+    "PROME/tools/SESSION_PILOT.md",
+    "PROME/tools/agent_freshness.py",
+    "PROME/tools/argus_scope.py",
+    "PROME/tools/board_scan.py",
+    "PROME/tools/boot_read.py",
+    "PROME/tools/boot_reuse.py",
+    "PROME/tools/boot_session.py",
+    "PROME/tools/commit_check.py",
+    "PROME/tools/dashboard_build.json",
+    "PROME/tools/dashboard_parked.tsv",
+    "PROME/tools/dashboard_state.json",
+    "PROME/tools/decision_deck.py",
+    "PROME/tools/desk_activity.py",
+    "PROME/tools/desk_attention.py",
+    "PROME/tools/exempt_gap.py",
+    "PROME/tools/fleet_dashboard.py",
+    "PROME/tools/gates_leg2_apply_2026-09-04.py",
+    "PROME/tools/gates_step2_rotation_2026-09-03.py",
+    "PROME/tools/gates_step3_pass_2026-10-03.py",
+    "PROME/tools/heartbeat_projection.py",
+    "PROME/tools/hooks/commit_subject_guard.py",
+    "PROME/tools/hooks/forge_validate.py",
+    "PROME/tools/hooks/git_guard.py",
+    "PROME/tools/hooks/pipeline_rc_block.py",
+    "PROME/tools/hooks/prompt_clock.sh",
+    "PROME/tools/hooks/test_git_guard.py",
+    "PROME/tools/inbox_census.py",
+    "PROME/tools/index_cold_shard.py",
+    "PROME/tools/measure.py",
+    "PROME/tools/orch_closeout.py",
+    "PROME/tools/probe_futures_bars.py",
+    "PROME/tools/prome_gate.py",
+    "PROME/tools/queue_parser_selftest.py",
+    "PROME/tools/reads_check.py",
+    "PROME/tools/recurrence_rate.py",
+    "PROME/tools/rotation_bundle_2026-10-03.py",
+    "PROME/tools/rotation_integrity.py",
+    "PROME/tools/session_bridge.py",
+    "PROME/tools/session_identity.py",
+    "PROME/tools/session_presence.py",
+    "PROME/tools/spawn_list.py",
+    "PROME/tools/spawn_slate.py",
+    "PROME/tools/spine_audit.workflow.js",
+    "PROME/tools/table_check.py",
+    "PROME/tools/tests/ACCEPTANCE_agent_freshness_L294_F4.md",
+    "PROME/tools/tests/ACCEPTANCE_argus_r100_consumed_move_WQ289.md",
+    "PROME/tools/tests/ACCEPTANCE_board_scan_publication_2026-09-30.md",
+    "PROME/tools/tests/ACCEPTANCE_fetch_contract_identity_2026-09-14.md",
+    "PROME/tools/tests/ACCEPTANCE_fetch_evening_bar_L462_2026-09-29.md",
+    "PROME/tools/tests/ACCEPTANCE_helm_size_split_2026-10-03.md",
+    "PROME/tools/tests/ACCEPTANCE_newsweep_leg_counters_L569.md",
+    "PROME/tools/tests/ACCEPTANCE_presence_reader_contract_2026-09-19.md",
+    "PROME/tools/tests/ACCEPTANCE_prome_gate_citability_L417.md",
+    "PROME/tools/tests/ACCEPTANCE_queue_parsers_2026-09-18.md",
+    "PROME/tools/tests/ACCEPTANCE_spawn_list_dark_on_git_failure.md",
+    "PROME/tools/tests/ACCEPTANCE_spawn_list_desk_commit_attribution_L455.md",
+    "PROME/tools/tests/ACCEPTANCE_spawn_slate_2026-10-02.md",
+    "PROME/tools/tests/ACCEPTANCE_summons_ledger_VULCAN_2026-09-29.md",
+    "PROME/tools/tests/ACCEPTANCE_table_check_overcelled_rows.md",
+    "PROME/tools/tests/ACCEPTANCE_three_external_findings_2026-09-13.md",
+    "PROME/tools/tests/README.md",
+    "PROME/tools/tests/decision_deck_runtime.cjs",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/README.md",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/agree.py",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/c7.py",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/ce1_replace.py",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/ce2_crlf.py",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/ce3_p7.py",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/ce4_shadow.py",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/ce5_destinhead.py",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/ce6_arguscmd.py",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/ce7_originpath.py",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/ce8_posthoc.py",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/counterex.py",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/counterex_r2.py",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/cx.py",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/errpath.py",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/harness.py",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/hdr_drift.py",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/l417reader_ledger.md",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/l417reader_round2_ledger.md",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/l455reader_ledger.md",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/l455reader_round2_ledger.md",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/live_cmp.py",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/pop.py",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/r4_ces.py",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/r4_ces2.py",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/r4_ces3.py",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/r5_ces.py",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/r5_ces2.py",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/win.py",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/wq289reader3_ledger.md",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/wq289reader4_ledger.md",
+    "PROME/tools/tests/fixtures/2026-09-25_prome-2e_reader_rounds/wq289reader5_ledger.md",
+    "PROME/tools/tests/fixtures/HEARTBEAT_2026-09-08_am2.md",
+    "PROME/tools/tests/fixtures/HEARTBEAT_DASHBOARD_2026-09-08_am2.md",
+    "PROME/tools/tests/fixtures/desk_attention/AGENTS/TERRY/setups/TLT85P_approved-exit-tracking_2026-09-08.md",
+    "PROME/tools/tests/fixtures/desk_attention/FORGE/STATUS.md",
+    "PROME/tools/tests/fixtures/desk_attention/FORGE/position_management.tsv",
+    "PROME/tools/tests/fixtures/desk_attention/PROME/DOCKET.tsv",
+    "PROME/tools/tests/fixtures/desk_attention/PROME/GATES.tsv",
+    "PROME/tools/tests/fixtures/desk_attention/PROME/reports/2026-09-09_USO135C-sale-receipt.md",
+    "PROME/tools/tests/fixtures/desk_attention/PROME/reports/2026-09-09_morning-priorities.md",
+    "PROME/tools/tests/fixtures/wq_ledger/WILL_QUEUE.md",
+    "PROME/tools/tests/fixtures/wq_ledger/WILL_QUEUE_ROWS_2026-09-01_rolloff.md",
+    "PROME/tools/tests/gate_fixture.py",
+    "PROME/tools/tests/test_agent_freshness_L294_F4.py",
+    "PROME/tools/tests/test_agent_freshness_manual.py",
+    "PROME/tools/tests/test_argus_r100_consumed_move_WQ289.py",
+    "PROME/tools/tests/test_argus_scope.py",
+    "PROME/tools/tests/test_board_scan_publication.py",
+    "PROME/tools/tests/test_boot_coverage.py",
+    "PROME/tools/tests/test_boot_log_view.py",
+    "PROME/tools/tests/test_capability_class_WQ239.py",
+    "PROME/tools/tests/test_closeout_simplification_WQ240.py",
+    "PROME/tools/tests/test_contract_probe_acceptance.py",
+    "PROME/tools/tests/test_dashboard_build_receipt_L339.py",
+    "PROME/tools/tests/test_dashboard_marks_L409.py",
+    "PROME/tools/tests/test_decision_deck_split.py",
+    "PROME/tools/tests/test_desk_attention.py",
+    "PROME/tools/tests/test_docket_open_query_L368.py",
+    "PROME/tools/tests/test_exempt_gap.py",
+    "PROME/tools/tests/test_external_findings_2026_09_13.py",
+    "PROME/tools/tests/test_fetch_contract_repairs.py",
+    "PROME/tools/tests/test_fetch_evening_bar_L462.py",
+    "PROME/tools/tests/test_fred_vintage_L409.py",
+    "PROME/tools/tests/test_gate_fixture_cleanup.py",
+    "PROME/tools/tests/test_gate_isolation_L294_F7.py",
+    "PROME/tools/tests/test_git_guard_L294_F6.py",
+    "PROME/tools/tests/test_heartbeat_projection.py",
+    "PROME/tools/tests/test_helm_size_split.py",
+    "PROME/tools/tests/test_orch_closeout.py",
+    "PROME/tools/tests/test_parity_gate_L294_F3.py",
+    "PROME/tools/tests/test_presence_reader_contract.py",
+    "PROME/tools/tests/test_prome_gate_citability_L417.py",
+    "PROME/tools/tests/test_prome_gate_gates.py",
+    "PROME/tools/tests/test_repeat_boot.py",
+    "PROME/tools/tests/test_review_mechanism_WQ240b.py",
+    "PROME/tools/tests/test_spawn_list_desk_commit_attribution_L455.py",
+    "PROME/tools/tests/test_spawn_list_fail_closed.py",
+    "PROME/tools/tests/test_spawn_slate.py",
+    "PROME/tools/tests/test_table_check.py",
+    "PROME/tools/tests/test_wq_ledger_L336.py",
+    "PROME/tools/will_brief.py",
+    "PROME/tools/will_handbook.py",
+    "PROME/tools/willq_view.py",
+    "PROME/tools/wq_ledger.py",
+    "scripts/asmade_audit.py",
+    "scripts/canon_check.py",
+    "scripts/check_memory_length.sh",
+    "scripts/claim_check.py",
+    "scripts/consumer_check.py",
+    "scripts/corrections_boot_check.py",
+    "scripts/docket_view.py",
+    "scripts/env_doctor.py",
+    "scripts/fallback/session_start_sync.sh",
+    "scripts/fallback/stop_sync.sh",
+    "scripts/firetime_allowlist.tsv",
+    "scripts/firetime_check.py",
+    "scripts/gen_automemory_index.py",
+    "scripts/harness_caps.env",
+    "scripts/lane_coverage_check.py",
+    "scripts/ledger_staleness.py",
+    "scripts/link_automemory.sh",
+    "scripts/market.py",
+    "scripts/memory_citation_census.py",
+    "scripts/memory_index_check.py",
+    "scripts/memory_index_paths.py",
+    "scripts/orch_log.py",
+    "scripts/orphan_check.sh",
+    "scripts/pipeline_rc_guard.py",
+    "scripts/position_agreement_check.py",
+    "scripts/read_cap_check.py",
+    "scripts/safe-push.sh",
+    "scripts/session_banner.sh",
+    "scripts/tests/test_consumer_check.py",
+    "scripts/tsv_append.py",
+    "scripts/validate_all.py",
+    "scripts/validate_all_baseline.json",
+    "scripts/validate_all_gaps.tsv",
+    "scripts/wiring_census.py"
+  ],
+  "scope_note": "43 top-level roster entries; actual RAV charter resolved via ROSTER. 60 primary/canonical files includes 52 owner harness files and 8 shared canons. Nine nested helper charters require audit/liveness-scope reconciliation; no independent roster enrollment inferred. ATHENA archive-source and YEYOU retired excluded; OFF-FLEET/private excluded. Inactive/manual charters inventory does not grant launch, recurrence or repair authority. Counts are files read, not agents certified.",
+  "scope_expansion_candidates": [
+    {
+      "path": "AGENTS/ATHENA/CLAUDE.md",
+      "bytes": 3493,
+      "sha256": "d52baec99572e70d322e079b55b801a3ba17a31e1d465ab539aa165575911ffe",
+      "coverage": "EXCLUDED_RETIRED_OR_ARCHIVE_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/sub_agents/DOC/CLAUDE.md",
+      "bytes": 12540,
+      "sha256": "febd4b27fd1f7b840db25d5f85e03da6d97f4185b7700832220f3f62d72013d9",
+      "coverage": "NESTED_HARNESS_AUDIT_PENDING"
+    },
+    {
+      "path": "AGENTS/CARL/sub_agents/GIG/CLAUDE.md",
+      "bytes": 12048,
+      "sha256": "5a85018c983c465120906c2eb5c79f8c87798b2b0a82fc227d33152ececcc7bc",
+      "coverage": "NESTED_HARNESS_AUDIT_PENDING"
+    },
+    {
+      "path": "AGENTS/CARL/sub_agents/META/CLAUDE.md",
+      "bytes": 4894,
+      "sha256": "2a187d0654830a2b86cc904c43ec1b1265535ba446f249d8df96035bf38f9224",
+      "coverage": "NESTED_HARNESS_AUDIT_PENDING"
+    },
+    {
+      "path": "AGENTS/CARL/sub_agents/PHAN/CLAUDE.md",
+      "bytes": 11012,
+      "sha256": "370eb97000ed7fa3969ba0c39a6fc127bc2c0b415d3b35caccdfad34a4c7c64d",
+      "coverage": "NESTED_HARNESS_AUDIT_PENDING"
+    },
+    {
+      "path": "AGENTS/CARL/sub_agents/POLLY/CLAUDE.md",
+      "bytes": 12941,
+      "sha256": "8691dd18eee24a98a0767a57bb1e52b2cc7315a7274cd4a731ad27909142dec7",
+      "coverage": "NESTED_HARNESS_AUDIT_PENDING"
+    },
+    {
+      "path": "AGENTS/CARL/sub_agents/POP/CLAUDE.md",
+      "bytes": 13498,
+      "sha256": "1b64aab28746f26c9e6cb0336074675734b5e6b6e4ce20e70d1f46837788e95b",
+      "coverage": "NESTED_HARNESS_AUDIT_PENDING"
+    },
+    {
+      "path": "AGENTS/CARL/sub_agents/STUE/CLAUDE.md",
+      "bytes": 43585,
+      "sha256": "849a1251cfe884be065fa67a08adef986c047bd3dcf18756a2f330cfec34dc2e",
+      "coverage": "NESTED_HARNESS_AUDIT_PENDING"
+    },
+    {
+      "path": "AGENTS/MARCO/sub_agents/TOURISM/CLAUDE.md",
+      "bytes": 10115,
+      "sha256": "9f703d13f5f38dbdff9516295a5a7a4084a4e4e9ad6aec3cbf2a9081e05cd9bd",
+      "coverage": "NESTED_HARNESS_AUDIT_PENDING"
+    },
+    {
+      "path": "AGENTS/SAM/red/CLAUDE.md",
+      "bytes": 6407,
+      "sha256": "1ef8c775bd1061261e4f4cf5204c9cd8e021f25c57516a70d45968bbe76c1f73",
+      "coverage": "NESTED_HARNESS_AUDIT_PENDING"
+    },
+    {
+      "path": "AGENTS/YEYOU/CLAUDE.md",
+      "bytes": 16610,
+      "sha256": "a22f97ed3e88120f6398aa75634a1c64fbc07c6205b6e99c65c5a6e42f6bf51c",
+      "coverage": "EXCLUDED_RETIRED_OR_ARCHIVE_SOURCE"
+    },
+    {
+      "path": "AGENTS/YEYOU/CLOSEOUT.md",
+      "bytes": 12722,
+      "sha256": "cde809f561cceb7ded3202115e7c1d7eee16944fdca64868d978055d8fe1a399",
+      "coverage": "EXCLUDED_RETIRED_OR_ARCHIVE_SOURCE"
+    }
+  ],
+  "audited_support_manifest": [
+    {
+      "path": "AGENTS/DAEDALUS/UPGRADE_PROTOCOL.md",
+      "bytes": 15431,
+      "sha256": "d76c41222784f60a28c44c10ae74c376e8c20494730bdf96fb3425a019823596",
+      "coverage": "EXACT_READ_DEPTH_IN_READER_REPORT"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/HARNESS_AUDIT_2026-07-07.md",
+      "bytes": 14096,
+      "sha256": "c41b14421996c461ac3313438e76c1135d3fc7486928a19c6912123763f4612d",
+      "coverage": "EXACT_READ_DEPTH_IN_READER_REPORT"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/sweeps/HARNESS_AUDIT_SWEEP.md",
+      "bytes": 1862,
+      "sha256": "f7821435e9c3a4dcbada91ec240683e82484c7c789249ffd0bd83461297409a8",
+      "coverage": "EXACT_READ_DEPTH_IN_READER_REPORT"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/scripts/daedalus_gate.py",
+      "bytes": 30735,
+      "sha256": "654e0b694faebcfd8d9602ea97c37dd4e2051a8b3724b2fefd073c38b0cfaab7",
+      "coverage": "EXACT_READ_DEPTH_IN_READER_REPORT"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/scripts/sweeps_due.py",
+      "bytes": 18147,
+      "sha256": "3d02bae3bb24ff130be14eb47f0d13a1e39e06b946f6de8d916585298940457e",
+      "coverage": "EXACT_READ_DEPTH_IN_READER_REPORT"
+    },
+    {
+      "path": "PROME/.claude/skills/boot/SKILL.md",
+      "bytes": 3370,
+      "sha256": "98003a588f40e2173c88333d8704451a981e23362410fab07859c81c4b4a3105",
+      "coverage": "EXACT_READ_DEPTH_IN_READER_REPORT"
+    },
+    {
+      "path": "PROME/.claude/skills/closeout/SKILL.md",
+      "bytes": 3804,
+      "sha256": "77cf9c574faa6976e35197fe33273f04ae880f3744ce413aafcc6faf50b25cee",
+      "coverage": "EXACT_READ_DEPTH_IN_READER_REPORT"
+    },
+    {
+      "path": "PROME/tools/boot_session.py",
+      "bytes": 7453,
+      "sha256": "a908d7100d5d5c70386175561f2eabdc33aacc0e00714d15119ce42cec7908d1",
+      "coverage": "EXACT_READ_DEPTH_IN_READER_REPORT"
+    },
+    {
+      "path": "PROME/tools/prome_gate.py",
+      "bytes": 99383,
+      "sha256": "7b328a8fab7f4fd0eaf6411b0a059364667f7d00805c4b73407fd03a34d42a6c",
+      "coverage": "EXACT_READ_DEPTH_IN_READER_REPORT"
+    },
+    {
+      "path": "scripts/safe-push.sh",
+      "bytes": 7895,
+      "sha256": "61590eb930bf2f61aa50888d78369258cab2370a03a9e277a10b0e45b6bb6410",
+      "coverage": "EXACT_READ_DEPTH_IN_READER_REPORT"
+    },
+    {
+      "path": "AGENTS/BOND/monitors/closeout_run.py",
+      "bytes": 26129,
+      "sha256": "9685485273d5cf74d1f22277499aafd4dcadde920e97eb2dc04a23f99723c863",
+      "coverage": "EXACT_READ_DEPTH_IN_READER_REPORT"
+    },
+    {
+      "path": "AGENTS/BOND/monitors/closeout_check.py",
+      "bytes": 7736,
+      "sha256": "bdd9c5cda68ddd00b46baf15c3078dd125c85edae1d5f847595639aa48be2400",
+      "coverage": "EXACT_READ_DEPTH_IN_READER_REPORT"
+    },
+    {
+      "path": "AGENTS/BOND/monitors/mirror_check.py",
+      "bytes": 9656,
+      "sha256": "1cc07c21b88e04faa2de92d27c77dc679a2e13b4c849c7a6759ed8984b28d57f",
+      "coverage": "EXACT_READ_DEPTH_IN_READER_REPORT"
+    },
+    {
+      "path": "AGENTS/HANS/scripts/closeout_check.py",
+      "bytes": 9179,
+      "sha256": "a7a0948c341a8476a6cd8046b805bc4e970f475c1b121c8be6e4a0c04633b18c",
+      "coverage": "EXACT_READ_DEPTH_IN_READER_REPORT"
+    },
+    {
+      "path": "AGENTS/HANS/scripts/doc_audit.py",
+      "bytes": 46804,
+      "sha256": "6c554223d7230eada53ac0a0dbb10e561d3701c1404b33cc2c8593aa57d2907c",
+      "coverage": "EXACT_READ_DEPTH_IN_READER_REPORT"
+    },
+    {
+      "path": "AGENTS/HANS/scripts/test_hans.py",
+      "bytes": 76111,
+      "sha256": "65ed9ef15782c7f9ce38da2d172fa5513a15647181efc24fb639cf1c724515ae",
+      "coverage": "EXACT_READ_DEPTH_IN_READER_REPORT"
+    },
+    {
+      "path": "AGENTS/TERRY/scripts/ledger_sweep.py",
+      "bytes": 79280,
+      "sha256": "1ec0ecf3175c0bd5e1ca28b683c15dfc7fa2d7ca1716b07bf2535c5e6e9908cd",
+      "coverage": "EXACT_READ_DEPTH_IN_READER_REPORT"
+    },
+    {
+      "path": "AGENTS/TERRY/scripts/boot.py",
+      "bytes": 45730,
+      "sha256": "341dd815fc9754c88d34b7541018be1553d6a6d4b7f17bf0b7961d9e5cdfa6ba",
+      "coverage": "EXACT_READ_DEPTH_IN_READER_REPORT"
+    },
+    {
+      "path": "AGENTS/LIQUID/scripts/boot.py",
+      "bytes": 67731,
+      "sha256": "14ed9be985d26e2ea6795e40d7cdbadcba3638952a331677f95bd3fb987fa2e1",
+      "coverage": "EXACT_READ_DEPTH_IN_READER_REPORT"
+    },
+    {
+      "path": "docs/AUTO_MEMORY.md",
+      "bytes": 13192,
+      "sha256": "b1f5b5c05fcae2ca854f31113818264879593ed266b931f58d9e985c7e1406d2",
+      "coverage": "EXACT_READ_DEPTH_IN_READER_REPORT"
+    }
+  ]
+}
