@@ -1218,3 +1218,5 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-10-04	SIG-W-20261004-004	Will X-bookmark 10/04	Irkutsk aluminum-plant plague quarantine (Moscow Times, single-source, unverified)	ROUTINE	—	MIDAS	0.3
 2026-10-04	SIG-W-20261004-005	Will X-bookmark 10/04	Iran-Hormuz 10/04: closure-conditions + more tankers struck + UKMTO 150-26 (closure=declaratory, no gate; losses stay 3)	PRIORITY	FALCON	HAWK,BRENT	0.6
 2026-10-04	SIG-W-20261004-006	Will X-bookmark 10/04	Hertz forced seller of intl ops, deep-distressed capital structure (junkbondanalyst)	PRIORITY	OTTO	LIQUID	0.7
+2026-10-04	SIG-W-20261004-007	Will X-bookmark 10/04	CNBC: consumer not cracking yet but math getting worse (headline-triaged, body 403)	ROUTINE	—	CARL	0.5
+2026-10-04	SIG-W-20261004-008	Will X-bookmark 10/04	WaPo: Swiss glaciers -20pct ice since 2021 (Alpine hydro/Rhine channel)	ROUTINE	—	AEOLUS	0.6
