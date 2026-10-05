@@ -1,0 +1,56 @@
+{
+  "BOND": {
+    "thread": {
+      "id": "01a10c47-3216-73f1-9ba6-4358623c236f",
+      "kind": "codex",
+      "title": "Review startup instructions",
+      "preview": "You are BOND. Explicitly read the root CLAUDE.md, USER.md and AGENTS.md, then your local instructions and required startup files. Follow your boot procedure, preserve existing approvals, and report current priorities and unavailable capabilities. Do not assume Claude-specific tools are available.",
+      "status": {
+        "type": "active",
+        "activeFlags": []
+      },
+      "cwd": "/home/willi/Research-workspace/AGENTS/BOND",
+      "createdAt": 1791207354,
+      "updatedAt": 1791210423
+    },
+    "turns": [
+      {
+        "id": "01a10c65-6eb8-78b0-b9a4-e504e9646230",
+        "status": "inProgress",
+        "items": []
+      }
+    ]
+  },
+  "HENRY": {
+    "thread": {
+      "id": "01a10c34-b664-7021-b85f-5338a1bfcebe",
+      "kind": "codex",
+      "title": "HENRY — Monday gamma and ISM preparation",
+      "preview": "",
+      "status": {
+        "type": "active",
+        "activeFlags": [
+          "waitingOnApproval"
+        ]
+      },
+      "cwd": "/home/willi/Research-workspace/PROME",
+      "createdAt": 1791206143,
+      "updatedAt": 1791206205
+    },
+    "turns": [
+      {
+        "id": "01a10c34-b85f-7800-af4a-666da486d0b7",
+        "status": "inProgress",
+        "items": [
+          {
+            "type": "agentMessage",
+            "id": "msg_03ab360e94072757016ac3a302842487d1a142afbbb2c4178a",
+            "text": "I’ll load the repository rules and HENRY’s boot instructions, then check fresh gamma before preparing for ISM and handing the results to PROME.\n",
+            "phase": "commentary"
+          }
+        ]
+      }
+    ]
+  },
+  "observedAt": "2026-10-05 14:37:51 UTC"
+}

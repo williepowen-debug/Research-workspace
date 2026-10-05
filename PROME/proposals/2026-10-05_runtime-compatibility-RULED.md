@@ -11,8 +11,9 @@ Received directly in this PROME session, verbatim:
 
 Disposition: authorized encoding and tests; no new standing permission, process limit, unattended launch or owner replacement grant. The approved candidate below is retained as the plan history. Implementation and test evidence: `PROME/reports/2026-10-05_runtime-compatibility-results.md`.
 
-reads: 1
-- Plan read: October 5, 2026, `PROME/reports/2026-10-05_runtime-plan-independent-review.md`; B1/B2 corrected by author before ruling. Required result read pending; no second plan read.
+reads: 2
+- Plan read: October 5, 2026, `PROME/reports/2026-10-05_runtime-plan-independent-review.md`; B1/B2 corrected by author before ruling. No second plan read.
+- Result read: October 5, 2026, `PROME/reports/2026-10-05_runtime-result-independent-review.md`; no blockers, B1/B2 independently VERIFIED resolved. No canon correction followed this review. Runtime tests not certified.
 
 # Approved proposal snapshot
 
@@ -162,3 +163,9 @@ Declared residue, October 5, 2026: R1 — whole-inbox/full owner boot duties may
 - CATO's additional permission analysis: `AGENTS/CATO/runs/2026-10-05_0940_codex-approval-advice.md`; its suggested auto-review trial remains a separate untested option, not activated by this draft.
 - Today's Codex launches verified returned IDs and later active status, but did not establish Claude-side owner absence. They are not evidence that the current literal ListAgents rule was satisfied and are not precedent for a standing mixed-runtime preflight.
 - No compatibility test has passed in this proposal. No shared instruction file or desk charter was edited by this preparation. Existing assignments, position deadlines and approval conditions continue independently.
+
+## Implementation disposition — October 5, 2026
+
+IMPLEMENTED: approved eight-file instruction correction. TESTED: author invariants and independent text/manifest checks. INDEPENDENTLY VERIFIED: instruction implementation, including both plan-review blockers B1/B2, by the required result read. STILL UNRESOLVED: runtime compatibility, including actual Claude launch paths and mixed delivery/interruption; the spawned Codex owner is approval-blocked and manual Codex owner has not yet delivered the test receipt. The live outcomes remain in `PROME/reports/2026-10-05_runtime-compatibility-results.md`; no runtime PASS is implied by this ruling or review.
+
+Declared residue after result read: R1 whole-inbox owner cost; R2 dated observations; R3 cosmetic nested bold markers in messaging P0, nonblocking, left unchanged. No further independent read or scope expansion. Standing one-process-change limit unchanged; this sitting's extra PROCESS implementation is authorized only by the ruling above. Installed script permissions and existing research approvals unchanged.

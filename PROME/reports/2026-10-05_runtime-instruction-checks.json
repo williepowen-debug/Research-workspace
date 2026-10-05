@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-10-05",
+  "checks": {
+    "## Critical Rules unchanged": true,
+    "## Git Protocol unchanged": true,
+    "DM allowlist retained": true,
+    "standing process limit unchanged": true,
+    "messaging numbering unchanged": true,
+    "table boot steps present": true,
+    "B1 prohibited claims gone": true,
+    "B2 false DARK inference gone": true,
+    "P0 UNKNOWN explicit": true,
+    "same source refs exist": true
+  },
+  "instruction_hashes": {
+    "AGENTS.md": "aecdda8cfa113f1161d74abd78d3e8fa0e460a03c2e890ffd1f7321b92a0d5ae",
+    "CLAUDE.md": "609e423d7ea3cee6395854304f2b36a7d2f831061dbf02e29bbd1021aba43e9e",
+    "MESSAGING/CROSS_SESSION_MESSAGING.md": "ba606c7260bf0c3831888f071a3605db38a3edd81095c20e4242657544b2c0e2",
+    "PROME/AUTONOMY.md": "d39b18c842529b9a605084b608b00f7c73cda566ecb8507de984727b1b2d8771",
+    "PROME/BOOT.md": "3a75d0ccb5387fe2f40c6ae96c720224b17b2870f724d4fa6ae454f5dcb2e6e0",
+    "PROME/CLAUDE.md": "07efbb4c175965342a4fb4e47d8dbc1e9eb7cc4196926444b23452a5ddc20c6f",
+    "PROME/COMPLETION_SPEC.md": "d213e20eb75f65ab6953ec99d6430c56500744ea4fad8efd01d968228288a6ff",
+    "PROME/ORCHESTRATION_PLAYBOOK.md": "22c0750a022d7211fd017a94efe1db6f2525380db526972a2ee03b62b85b6d20"
+  }
+}
