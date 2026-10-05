@@ -1,3 +1,9 @@
+# FROZEN 2026-10-05 — HISTORICAL SNAPSHOT, preserved source body
+
+Archive wrapper added 2026-10-05 for consumer classification. All figures below are historical, never current. Paramount launch estimate $12.4B is SUPERSEDED by the 9/30 priced USD second-lien $11.4B; complete financing is in KB-BND-410. The original body follows byte-for-byte. Previously cited crc32 refers to this preserved body, not the added wrapper. Original-body crc32 319142979; SHA256 ba042d69e99882f4e0fcb21a095e028254f017a22506963a005e6cf7e73a29a4.
+
+---
+
 # BOND — Status
 
 **Agent:** BOND · **Domain:** US bond-market structure (+ MBS/FHLB + EU rates per the 6/27 extension; + the sovereign-credibility instrument set per the 8/10 forum — scope in `CLAUDE.md`)

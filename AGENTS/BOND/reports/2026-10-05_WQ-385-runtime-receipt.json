@@ -1,0 +1,76 @@
+{
+  "written_et": "2026-10-05T10:49:11-04:00",
+  "owner": "BOND",
+  "authority": "Will ruling 4090efccc; brief 14e9911b1; existing live-research task",
+  "runtime": "Codex",
+  "runtime_version": "0.160.0",
+  "provider": "OpenAI",
+  "model_family": "GPT-6 per developer identity",
+  "exact_served_model": "UNKNOWN; not exposed",
+  "session_id": "01a10c47-3216-73f1-9ba6-4358623c236f",
+  "initial_cwd": "/home/willi/Research-workspace/AGENTS/BOND",
+  "working_cwd": "/home/willi/Research-workspace/AGENTS/BOND",
+  "repository_root": "/home/willi/Research-workspace",
+  "launch_origin": "UNKNOWN; user-directed manual owner case per brief; launcher process not independently verified",
+  "permission_mode": "workspace-write; restricted filesystem and shell network; applicable installed command-prefix approvals preserved",
+  "instruction_reads": [
+    "CLAUDE.md (root, explicit)",
+    "USER.md (root, explicit)",
+    "AGENTS.md (root, explicit)",
+    "AGENTS/BOND/CLAUDE.md",
+    "AGENTS/BOND/STATUS.md",
+    "AGENTS/BOND/SCRATCH.md",
+    "AGENTS/BOND/MEMORY.md",
+    "AGENTS/BOND/CLOSEOUT.md",
+    "AGENTS/BOND/thesis/THESIS.md",
+    "AGENTS/BOND/thesis/PREDICTIONS.tsv",
+    "AGENTS/BOND/docket/CATALYSTS.tsv",
+    "AGENTS/BOND/workbook/SCHEMA.tsv",
+    "AGENTS/VOCABULARIES.tsv",
+    "PROME/COMPLETION_SPEC.md",
+    "PROME/ORCHESTRATION_PLAYBOOK.md runtime section",
+    "PROME/briefs/2026-10-05_WQ-385-existing-owner-test.md",
+    "PROME/proposals/2026-10-05_runtime-compatibility-RULED.md"
+  ],
+  "exposed_and_used": [
+    "exec_command",
+    "apply_patch",
+    "web search/open",
+    "Codex list_threads",
+    "Codex send_message_to_thread"
+  ],
+  "claude_specific_unavailable": [
+    "ListAgents",
+    "SendMessage",
+    "Opus coldreader",
+    "Telegram"
+  ],
+  "required_fetch": {
+    "command": "../../.venv/bin/python /tmp/bond_live_fetch_20261005.py",
+    "persisted_script": "analysis/2026-10-05_live-refresh/fetch_snapshot.py",
+    "source": "US Treasury daily nominal par curve CSV",
+    "observation_frontier": "2026-10-02",
+    "source_vintage": "retrieved 2026-10-05T10:23:01\u201310:23:52-04:00",
+    "outcome": "SUCCESS for this source; 10Y 5.28%, 30Y 5.63%",
+    "source_path": "AGENTS/BOND/analysis/2026-10-05_live-refresh/raw/daily_treasury_yield_curve.csv",
+    "sha256": "ec5cb4ec362ce5da0679b2ba16614b828b94b917fb0616438f7659309388c285",
+    "fetch_batch_elapsed_seconds": 50.897,
+    "individual_request_elapsed": "UNKNOWN; not measured separately"
+  },
+  "artifact": {
+    "path": "AGENTS/BOND/analysis/2026-10-05_WQ-357_rebound-research.md",
+    "sha256": "d43468f384f34fe093682a8a093d3531be24c8953ca18a91652e3059c6be8fdd",
+    "owned_commit": "Reported in verified final work-unit notification after closeout; not invented before commit"
+  },
+  "human_interventions": "One new network/script-prefix approval for the required one-off fetch; installed approvals reused. Exact elapsed approval-wait time UNKNOWN.",
+  "task_elapsed_at_receipt_seconds": 2402,
+  "notification": {
+    "recipient_task": "01a10c21-bf0c-7de1-a78a-6f57eb31aefe",
+    "progress_send": "ACCEPTED by exposed Codex tool",
+    "final_artifact_notice": "PENDING until local commit",
+    "recipient_acknowledgement": "UNKNOWN"
+  },
+  "closeout": "WORKING at receipt creation. Natural work-unit completion will cite registry/CLOSEOUT_LOG.tsv, freeze verification and owned commit in the final notice; Will session will not be terminated.",
+  "remaining_subprocesses": "None from research fetches at receipt creation; mechanical closeout still to run",
+  "compatibility_scope": "Only this existing Codex BOND owner case; no Claude or alternate-launch-path certification"
+}

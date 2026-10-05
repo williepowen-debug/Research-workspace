@@ -1,21 +1,21 @@
 # BOND Monitor — Credit Primary Market Function
 
 **Owner:** BOND
-**Last Updated:** 2026-10-05T10:38:00-04:00 — full current table to10/2, issuer pricing to9/30. Prior file snapshot: `domain/sources/2026-10-05_monitors_CREDIT_PRIMARY_MARKET.md_pre-live-refresh`.
+**Last Updated:** **2026-09-28 14:43 ET by BOND — pulled-deal/access row refreshed (`KB-BND-346`); levels unchanged from** **2026-09-28 13:14 ET by BOND — levels refreshed to the 9/25 close (FRED, cache-busted 9/28, one date); the 9/17 read below is SUPERSEDED (its "15bp from the 1100 escalation" line became false on 9/24).** · *prior:* **2026-09-17 ~10:0x ET by BOND — full refresh to the 9/15 close, whole table on ONE date, all levels cache-busted at write time.** 🔴 **AND THIS FILE JUST REPEATED ITS OWN RECORDED DEFECT, 21 DAYS THIS TIME INSTEAD OF FOUR — n+1 on the class named in the paragraph below, found again by an audit (Will-requested stale sweep) and again by no instrument.** `boot_recompute` and `closeout_check` both returned clean on this directory today, correctly: the numbers were internally consistent *with each other*, and neither check has a shape for *"this whole surface is three weeks behind its siblings."* **The fix that would actually bite is an age check on boot-unread surfaces, not another resolution to remember.** *(Prior header, 2026-08-27 ~12:2x ET, retained:)* **full refresh to the 8/26 close; the whole table sits on ONE date.** 🔴 **Found by a Will-directed inward audit, not by any instrument: this file sat on the 8/20 vintage for FOUR sessions while `STATUS` and `VX.tsv` were refreshed twice each.** ⚠️ **The reason is structural and worth naming — `monitors/` is NOT read at boot.** `boot_recompute` scans this directory for numeric drift and **passed clean**, because a drift check compares latest-on-surface to latest-at-source and this file's numbers were internally consistent *with each other*; it has no shape for *"this whole surface is four days behind its siblings."* **The boot-unread tier is where staleness lives, and the instruments confirm it is clean.**
 
-## Current Read — 2026-10-05, credit observation10/2
+## Current Read — 2026-09-28 13:14 ET (all credit levels **9/25**, one date, FRED cache-busted; `KB-BND-341/343`)
 
-| Metric | Level | Source/basis | Read |
-|---|---:|---|---|
-| HY |310bp|FRED10/2,first-published checked|−14d/d;40below350;row4markerremains3 |
-| CCC |1202bp|FRED10/2,first-published checked|−13d/d;1100escalationstillfired;legacy1200fieldthrough2 |
-| B / BB |312 /191bp|FRED10/2latest-vintage|−17/−13d/d |
-| IG / BBB |85 /104bp|FRED10/2;IGfirst-published,tierlatest|−1/−2d/d;IG35below120 |
-| CCC−BB |1011bp|same-date subtraction|tailstresspersists |
-| Primary access |Paramountfinalpriced9/30|issuerIR,KB-BND-410|41.4BUSD+885MEURsecurednotes;8.5BUSD+850MEURloans;USDsecondlien11.4B,coupons8.25/8.875/9.125%;closingexpected10/5notverified |
-| Pulled/flexed deals |coveragegap|LCD/Debtwire/IFRnotavailable|No census;nozero or broadfreeze claim |
+| Metric | Level | Date | vs threshold |
+|---|--:|---|---|
+| **HY OAS** | **293bp** | FRED **9/25** | **7bp** below the 300 watch · 57bp below the 350 freeze. **+25bp in 3 sessions** (268 [9/22] → 273 → 280 → 293) — a 3-session change met or beaten in 23 of 782 windows (2.9%). 2026 max 346 [3/30] |
+| **CCC OAS** | **1128bp** | FRED **9/25** | 🔴 **1100 escalation FIRED 9/24 (1112, first-published)** ⇒ `BND-27` FALSE. 2026 high; 9bp under span max 1137 [2025-04-07] |
+| **B OAS** | **300bp** | FRED **9/25** | +29bp in 3 sessions (271 → 300); 15-session Δ +23 (crossed its +9 p75 on 9/24) — the middle of HY joined |
+| **BB OAS** | **176bp** | FRED **9/25** | +20bp in 3 sessions (+12.8%, the fastest tier proportionally) |
+| **IG OAS · BBB** | **81 · 99bp** | FRED **9/25** | +4bp each in 3 sessions; 15-session Δ 0 — **IG has NOT joined**. 39bp below the 120 trigger |
+| **CCC−BB tail gap** | **952bp** | FRED **9/25** | new span max; but CCC/BB RATIO compressed 6.89 → 6.41 — BB/B widened faster in % terms |
+| **Pulled deals / access** | **NONE NAMED — search gap, NOT a zero** | web sweep **9/28 ~14:39–14:43 ET** (`KB-BND-346`, C3) | Access shown **OPEN by what priced**: SoftBank **$11.1B** HY 9/23–24 (book >$30B, 8.6–9.75%) · Paramount **~$12.4B** HY launched 9/28, **unpriced** (talk low-9%) = the next access test. Pulled/flexed-deal data (LCD/Debtwire/IFR) paywalled ⇒ the pull leg is **UNVERIFIABLE at free sources** — re-test: an accessible flex table, or Paramount final vs talk/size |
 
-**Read:** Friday relief in all tiers is recorded, not hidden by a monotonic-widening narrative. Tail escalation remains fired; HY/IG function letters unchanged. A large secured issuer priced financing; this demonstrates that issuer's access, not all borrowers'. FormalQ4grade remainsLIQUID's. TrueCDX/paidcreditcoverageabsent;HYG/IEFisrate-confounded cashproxy. Detailsandfrontiers→`../analysis/2026-10-05_WQ-357_rebound-research.md`.
+**Verdict: TAIL ESCALATION FIRED AND THE WIDENING SPREAD THROUGH HY IN SPEED (not level); IG untouched; primary access OPEN for large credits at 9–10% yields (SoftBank record deal 9/23–24) — pulled-deal leg unverifiable at free sources, NOT a clean zero (9/28 14:43 ET, `KB-BND-346`).** Formal L477 Q4 grade = LIQUID's. Expression if anything: single-name/CCC, never HYG (`BND-27` rider).
 
 ## Prior read — 2026-09-17 (SUPERSEDED 2026-09-28; retained as history)
 
@@ -75,7 +75,7 @@
 
 > ⚠️ **Pulled-deals row — how it may be graded (Will ruling 19:28 ET 9/28, `analysis/2026-09-28_WILL-RULING_pulled-deals-EDGAR-swap-spreads.md`):** this row is the GOVERNING DEFINITION for matrix row 4's "pulled-deal cluster", and it has **no count and no window**. Verified in-scope withdrawals CAN support it; incomplete coverage prevents a zero-withdrawal conclusion (no hits = GAP, never zero, never "market open"). **No automated grading** until Will rules on the prospective definition in the ruling record; hand-grade with a written rationale meanwhile.
 
-## SUPERSEDED Current Read (7/28) — **ACCESS intact, but "credit is inert" is RETIRED**
+## Current Read (7/28) — **ACCESS intact, but "credit is inert" is RETIRED**
 
 **🟡 The primary market is still open — but spreads have re-activated after a month flat, and this file carried the flat read for 26 days.** HY OAS **268 [7/22] → 277 [7/23] → 279 [7/24] = +11bp in two sessions**, out of a nine-session range (7/10–7/22) that never moved more than 5bp. CCC **996** (4bp from 1000), IG **80**.
 

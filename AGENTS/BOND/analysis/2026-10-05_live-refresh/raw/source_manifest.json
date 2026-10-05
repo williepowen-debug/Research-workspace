@@ -1,0 +1,87 @@
+{
+  "captured_et": "2026-10-05T10:23:01.950437-04:00",
+  "completed_et": "2026-10-05T10:23:52.847335-04:00",
+  "sources": {
+    "dts_operating_cash_balance.json": {
+      "sha256": "8ad9a0c554f1723ac7af4ca4297b4611e22e283b163928a2baac59e30324c040",
+      "bytes": 7226
+    },
+    "daily_treasury_real_yield_curve.csv": {
+      "sha256": "b6476ea4bbd27ddbd0ffb54e5a4ce383161784cf72b789f110794e22493de57b",
+      "bytes": 6882
+    },
+    "fed_funds_four_contracts.json": {
+      "sha256": "8c11ba8bb62d5e1b36ceb011f36c3326d79156b6ab2a3e301cee9190ed669606",
+      "bytes": 2560
+    },
+    "quotes.json": {
+      "sha256": "7ff093d9e29659da4e6aad6d74e78bd6bb32b0d6be24f2fcb96ac1db5cbe3a67",
+      "bytes": 931
+    },
+    "credit_first_published.json": {
+      "sha256": "71bd2d39a6a4e76593df079346fc79d5cdf846c469329bbdf61f9a439d9a86d3",
+      "bytes": 2836
+    },
+    "buyback_20261001_metrics.json": {
+      "sha256": "0e677237334ac96117d02552fa4be4fcc483ee739a0bd1b9f28adc8cafb73f9f",
+      "bytes": 972
+    },
+    "auction_schedule.pdf": {
+      "sha256": "3b83706a93592112b2cad32af0753a26a639df109cb889200c39319353b844bb",
+      "bytes": 17195
+    },
+    "jefferson.html": {
+      "sha256": "de1673df39f6f89ed5c26d16b380758f5ea5d19944877e520839940dc10f4d90",
+      "bytes": 95776
+    },
+    "fred_derived_histories.json": {
+      "sha256": "439820f9cf6adf8582fa4468975be6afa7f8cb5067022741090ba25ebf904e1e",
+      "bytes": 1906534
+    },
+    "ACM.xls": {
+      "sha256": "9c328d05615f7e7adcbf847d7eb2d3780de1b50609112b2dcb48588cae839e6e",
+      "bytes": 10154496,
+      "persistence": "Full input retained temporarily at /tmp/bond_20261005_ACM.xls; repository retains acm_last30.json extract and full-input hash, not the full workbook."
+    },
+    "treasurydirect_upcoming.json": {
+      "sha256": "45a920014e3d5339bb734785e09351f1d19b74bcf4ff4658b06aca10093178bd",
+      "bytes": 46496
+    },
+    "acm_last30.json": {
+      "sha256": "1586858d0758c173c8c051653d03e8c6787ad5434f4bb715df6cf20a58430311",
+      "bytes": 2067
+    },
+    "daily_treasury_yield_curve.csv": {
+      "sha256": "ec5cb4ec362ce5da0679b2ba16614b828b94b917fb0616438f7659309388c285",
+      "bytes": 15500
+    },
+    "kw_last30.json": {
+      "sha256": "5f7e14c6b351c8b924ad7d9562e5c64b285877715a5d3868580ddd83d75e3240",
+      "bytes": 1656
+    },
+    "nbim_bond_letter.html": {
+      "sha256": "32c4b0c6e39ccc9ab5197b3a0a10327a8b3c0adbe8a253f9bd261e3e3c7d921b",
+      "bytes": 109035
+    },
+    "summary.json": {
+      "sha256": "c29c645b8a7ab6e53f8b9f53fbbc11511a1f8ddca7b48dece00fb1054f8bd895",
+      "bytes": 30857
+    },
+    "buyback_20261001_details.json": {
+      "sha256": "cf3e8380033309529a4a903407141afaabb5d7bcf697dfd6afeb6774197ce405",
+      "bytes": 10685
+    },
+    "fred_latest_vintage.json": {
+      "sha256": "ee0ace702c2a88fb39ba717e68507290b8fc522db15defd2665cbe1ffefead23",
+      "bytes": 5852
+    },
+    "buyback_operations.json": {
+      "sha256": "f90990dd9e377baa234851cccf93efbb181bd201aded9f01c669261e751dafd2",
+      "bytes": 192197
+    },
+    "fr2004.json": {
+      "sha256": "ab1e27ed85c042fccc422ed9e078e4aa5434d2aa7fb950e20ab21cd18c58118d",
+      "bytes": 16460
+    }
+  }
+}

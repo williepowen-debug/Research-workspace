@@ -1,0 +1,50 @@
+{
+  "op_date": "2026-10-01",
+  "bucket": "10Y to 20Y",
+  "cap": "6000000000",
+  "offered": "46391000000.00",
+  "accepted_total_details": "6000000000.00",
+  "accepted_ops_row": "6000000000.00",
+  "n_acc": 2,
+  "n_elig": 41,
+  "recent_cut_vintage": "2023-08-31",
+  "vintage_missing": [],
+  "recent_share": "0E+2",
+  "legacy_share": "0.175",
+  "top3_share": "1",
+  "cover_vs_cap": "7.731833333333333333333333333",
+  "accepted_over_cap": "1.00",
+  "verdict": "OFF-THE-RUN (FT-11 v1.1 off-the-run branch ACTIVATES; the on-the-run flip did not occur)",
+  "top": [
+    [
+      "912810TH1",
+      "3.250",
+      "2042-05-15",
+      "4950000000.00"
+    ],
+    [
+      "912810SY5",
+      "2.250",
+      "2041-05-15",
+      "1050000000.00"
+    ],
+    [
+      "912810SR0",
+      "1.125",
+      "2040-05-15",
+      "0"
+    ],
+    [
+      "912810SQ2",
+      "1.125",
+      "2040-08-15",
+      "0"
+    ],
+    [
+      "912810ST6",
+      "1.375",
+      "2040-11-15",
+      "0"
+    ]
+  ]
+}

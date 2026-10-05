@@ -1,0 +1,34 @@
+{
+  "captured_et": "2026-10-05T10:23:03.784786-04:00",
+  "vendor": "yfinance",
+  "quotes": {
+    "TLT": {
+      "price": 77.25,
+      "prev": 77.48,
+      "change_pct": -0.3,
+      "name": "20Y+ Treasury ETF",
+      "volume": 9858375,
+      "asof": "2026-10-05",
+      "prev_asof": "2026-10-02",
+      "contract_month": null,
+      "contract_basis": "name-cut-confirmed-by-longName-at-31:'iShares 20+ Year Treasury Bond '",
+      "instrument_type": "ETF",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "TBT": {
+      "price": 42.8,
+      "prev": 42.54,
+      "change_pct": 0.61,
+      "name": "TBT",
+      "volume": 67958,
+      "asof": "2026-10-05",
+      "prev_asof": "2026-10-02",
+      "contract_month": null,
+      "contract_basis": "name-cut-inferred-from-width-at-31:'ProShares UltraShort Lehman 20 '",
+      "instrument_type": "ETF",
+      "is_future": false,
+      "contract_symbol": null
+    }
+  }
+}

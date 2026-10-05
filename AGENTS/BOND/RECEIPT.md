@@ -1,5 +1,9 @@
-# BOND startup receipt — 2026-10-05T09:59:13-04:00
+# BOND research receipt — 2026-10-05T10:49:11-04:00
 
-**WQ-357: Will ruled LATER on 2026-10-03 21:08 ET. Hold the existing sleeve on TERRY path C to the 10/14 clock; the exit is neither approved nor declined. Research is authorized and due TODAY 10/5 (PROME DOCKET line 608, re-dated from 10/8). Kill remains MET as an operational recommendation; unusual net inventory is not proof of warehousing, the funding window remains UNGRADED, and the rule makes no predictive claim. WQ-280 NO-ADD stands. WQ-339 approved card drafting only; WQ-360 execution remains unapproved.**
+L608/WQ-357 written rebound research is delivered in `PROME/inbox/2026-10-05_from-BOND_L608-WQ-357-rebound-research.md`. The overdue October 1 per-operation F2 read is delivered in `AGENTS/RED/inbox/2026-10-05_from-BOND_F2-2026-10-01-off-the-run-read.md`. These are durable artifacts; filing is not recipient acknowledgement.
 
-Nine WALTER signals read; seven integrated, two remain read-pending. See `reports/2026-10-05_BOOT.md` and `board_log.tsv` for exact dispositions. No general inbox sweep, no packet sent, no order. Research L608 remains due today. STANDARD closeout result: see registry/CLOSEOUT_LOG.tsv and the dated transcript; inherited enum errors repaired before final run. boot_recompute returned rc1 and its research/data findings remain open.
+WALTER-005 is integrated: the TGA amount is verified, but the proposed buyback attribution fails settlement timing and scale. Its delivery moves to processed. WALTER-032 remains PARTIAL: dated vendor-contract arithmetic was checked; independent dated CME/OIS comparison remains unavailable. Both dispositions are in `board_log.tsv` and KB-BND-406–408. No general inbox sweep or execution was performed in this research work unit.
+
+WQ-385 uses this existing production work. Runtime/source receipt: `reports/2026-10-05_WQ-385-runtime-receipt.json`; dated delivery: `PROME/inbox/2026-10-05_from-BOND_WQ-385-runtime-receipt.md`. The current PROME task was discovered by the exposed Codex tool. A progress message was accepted; consumption of the final artifacts and independent review remain separate. Claude-native coordination tools are not exposed.
+
+STANDARD content write-back; ADDENDUM mechanical tier for this mid-day second ending, under CLOSEOUT precedence. Actual run/verification results are in `registry/CLOSEOUT_LOG.tsv` and the dated transcript. Shared work outside BOND is dirty: commit locally and defer push under the root protocol. No remote or push receipt is claimed.
