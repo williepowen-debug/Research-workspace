@@ -1,0 +1,68 @@
+{
+  "status": "DRAFT_ONLY_NOT_REGISTERED",
+  "forecast_timestamp": "2026-10-04T20:00:47-04:00",
+  "knowledge_cutoff": "2026-10-04T20:00:47-04:00",
+  "release": "2026-10-05T10:00:00-04:00",
+  "observation_month": "2026-09",
+  "resolution_vintage": "FIRST_PUBLISHED",
+  "range_kind": "judgmental_not_statistical",
+  "scenario_probabilities": null,
+  "grading": "Each range inclusive; signed_error=actual-central; absolute_error=abs(signed_error). Missing/wrong vintage NO-VERDICT. Grade every directional predicate separately.",
+  "series": [
+    {
+      "series": "headline",
+      "prior": 55.4,
+      "central": 56,
+      "lower": 54,
+      "upper": 58,
+      "directional_hit": "actual > 55.4"
+    },
+    {
+      "series": "employment",
+      "prior": 47.8,
+      "central": 49.5,
+      "lower": 47,
+      "upper": 52,
+      "directional_hit": "actual > 47.8"
+    },
+    {
+      "series": "prices_paid",
+      "prior": 72.6,
+      "central": 74,
+      "lower": 70,
+      "upper": 78,
+      "directional_hit": "actual >= 70.0"
+    },
+    {
+      "series": "business_activity",
+      "prior": 61.7,
+      "central": 61,
+      "lower": 58,
+      "upper": 64,
+      "directional_hit": null
+    },
+    {
+      "series": "new_orders",
+      "prior": 60.9,
+      "central": 61.5,
+      "lower": 58,
+      "upper": 65,
+      "directional_hit": null
+    },
+    {
+      "series": "supplier_deliveries",
+      "prior": 51.3,
+      "central": 52,
+      "lower": 50,
+      "upper": 55,
+      "directional_hit": null
+    }
+  ],
+  "market_observation_rule": {
+    "baseline": "Latest actual observation 2026-10-05 09:58:00 <= t < 10:00:00 EDT",
+    "endpoint": "Closest to 10:30:00 actual observation within 10:29:00 <= t <= 10:31:00 EDT; ties earlier",
+    "provenance": "Disclose observation/retrieval timestamps, source and delay for both",
+    "missing": "Missing/stale baseline, missing endpoint or unknown actual timestamps => NO-VERDICT"
+  },
+  "helper_closeout": "CLOSED_READ_ONLY"
+}

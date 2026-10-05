@@ -1,0 +1,7 @@
+forecast_timestamp	knowledge_cutoff	series	prior	central	lower	upper	directional_hit
+2026-10-04T20:00:47-04:00	2026-10-04T20:00:47-04:00	headline	55.4	56	54	58	actual > 55.4
+2026-10-04T20:00:47-04:00	2026-10-04T20:00:47-04:00	employment	47.8	49.5	47	52	actual > 47.8
+2026-10-04T20:00:47-04:00	2026-10-04T20:00:47-04:00	prices_paid	72.6	74	70	78	actual >= 70.0
+2026-10-04T20:00:47-04:00	2026-10-04T20:00:47-04:00	business_activity	61.7	61	58	64	
+2026-10-04T20:00:47-04:00	2026-10-04T20:00:47-04:00	new_orders	60.9	61.5	58	65	
+2026-10-04T20:00:47-04:00	2026-10-04T20:00:47-04:00	supplier_deliveries	51.3	52	50	55	
