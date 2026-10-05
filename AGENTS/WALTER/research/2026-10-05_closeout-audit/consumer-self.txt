@@ -1,0 +1,55 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 294 files under AGENTS/WALTER/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded 324 → current 310
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (18)
+        AGENTS/WALTER/SESSION_LOG.md:27  [324]
+           ## 2026-10-04 ~15:53 ET — walter-f0 RE-BOOT (Opus 4.8, terminal, "please boot up") · **light-closeout — full deferred**. Clean boot 0–9b; fi
+        AGENTS/WALTER/SESSION_LOG.md:29  [324]
+           ## 2026-10-03 Sat — `walter-f0` (Opus 4.8, PM relaunch) · **TIER-2 CLOSEOUT** (2026-10-03T22:07:19Z from `date`, Will: "go ahead and proceed
+        AGENTS/WALTER/SESSION_LOG.md:60  [324]
+           ## 2026-10-02 Fri — `walter-61` **TIER-2 CLOSEOUT** (2026-10-02T15:56:45Z from `date`, Will: "Lets have WALTER close out here"). Booted ~09:
+        AGENTS/WALTER/research/2026-10-05_boot/prior-LAST_COMPLETION.md:6  [324]
+           1. **Boot COMPLETE (0–9b).** At-boot doctor was **1 HIGH (version_drift) + 5 MED → HIGH FIXED**; 6c NO fire (weekend; **HY 324 [FRED 10/01]
+        AGENTS/WALTER/research/2026-10-05_boot/prior-STATUS.md:3  [324]
+           **Updated 2026-10-04T19:41Z (from `date`), TIER-2 CLOSEOUT of the `walter-f0` continuation (Opus 4.8, terminal). BOARD 1202 → 1210.** **A Wi
+        AGENTS/WALTER/research/2026-10-05_boot/prior-STATUS.md:7  [324]
+           > 🟢 **RE-BOOT 2026-10-04 ~15:53 ET (Opus 4.8, terminal, walter-f0 continuation). BOARD 1210 → 1215.** Clean boot 0–9b, no registered trigger
+        AGENTS/WALTER/research/2026-10-05_boot/prior-STATUS.md:9  [324]
+           > 🟢 **SESSION 2026-10-04 (Opus 4.8, terminal) — HEADLINE: a working block on the bookmark pipeline, not a market day.** Nothing fired (weeke
+        AGENTS/WALTER/research/2026-10-05_boot/prior-STATUS.md:11  [324]
+           > 🆕 **TIER-1 after the evening REBOOT (2026-10-02T21:05:21Z from `date`; Will terminal "please boot up" ~16:53 ET, boot PARTIAL: boot_basis
+        AGENTS/WALTER/research/2026-10-05_boot/prior-STATUS.md:21  [324]
+           | RED-FT-01 / -02 / -12 · REG-T-03 / -04 (HY OAS) | 🔴 **324 bp [FRED obs 10/01, pub 10/02]** (9/30 312 · 9/29 308). **FT-02 / REG-T-03 `>320
+        AGENTS/WALTER/routed/delivery_log.tsv:3429  [324]
+           2026-10-02T14:27:32Z	SIG-W-20261002-005	RED	ACTION	CLAUDE_CODE	IMMEDIATE	AGENTS/RED/inbox/WALTER/SIG-W-20261002-005.md	delivered	HY OAS 324b
+        AGENTS/WALTER/routed/delivery_log.tsv:3430  [324]
+           2026-10-02T14:27:32Z	SIG-W-20261002-005	REGINALD	ACTION	CLAUDE_CODE	IMMEDIATE	AGENTS/REGINALD/inbox/WALTER/SIG-W-20261002-005.md	delivered	H
+        AGENTS/WALTER/routed/delivery_log.tsv:3431  [324]
+           2026-10-02T14:27:32Z	SIG-W-20261002-005	HENRY	ACTION	CLAUDE_CODE	IMMEDIATE	AGENTS/HENRY/inbox/WALTER/SIG-W-20261002-005.md	delivered	HY OAS
+        AGENTS/WALTER/routed/delivery_log.tsv:3432  [324]
+           2026-10-02T14:27:32Z	SIG-W-20261002-005	BROCK	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/BROCK/inbox/WALTER/SIG-W-20261002-005.md	delivered	HY OAS 32
+        AGENTS/WALTER/routed/delivery_log.tsv:3433  [324]
+           2026-10-02T14:27:32Z	SIG-W-20261002-005	VIOLET	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/VIOLET/inbox/WALTER/SIG-W-20261002-005.md	delivered	HY OAS
+        AGENTS/WALTER/routed/delivery_log.tsv:3434  [324]
+           2026-10-02T14:27:32Z	SIG-W-20261002-005	NEXUS	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/NEXUS/inbox/WALTER/SIG-W-20261002-005.md	delivered	HY OAS 32
+        AGENTS/WALTER/routed/delivery_log.tsv:3435  [324]
+           2026-10-02T14:27:32Z	SIG-W-20261002-005	LIQUID	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/LIQUID/inbox/WALTER/SIG-W-20261002-005.md	delivered	HY OAS
+        AGENTS/WALTER/routed/delivery_log.tsv:3436  [324]
+           2026-10-02T14:27:32Z	SIG-W-20261002-005	SHADE	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/SHADE/inbox/WALTER/SIG-W-20261002-005.md	delivered	HY OAS 32
+        AGENTS/WALTER/routed/route_log.tsv:1164  [324]
+           2026-10-02T14:27:32Z	SIG-W-20261002-005	LIQUID	HY OAS 324bp [FRED obs 10/01, pub 10/02], from 312: first print over 320 this leg. ONE print,
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (3)
+        AGENTS/WALTER/SESSION_LOG.md:54  [324]  (no unit/series context on line)
+           > **Friday 2026-10-02 stands at BOARD 1177 (29 signals, `-001`…`-029`; `-029` corrects `-028`'s Brent basis (post-settle; settle-window Bren
+        AGENTS/WALTER/anchors/IRAN_WAR_GUARDS.md:164  [324]  (no unit/series context on line)
+           <!-- verbatim · original L316-324 -->
+        AGENTS/WALTER/research/2026-10-05_boot/prior-STATUS.md:13  [324]  (no unit/series context on line)
+           **Friday 2026-10-02 closes at BOARD 1177 (29 signals, `-001`…`-029`); no WALTER-scanned registered trigger FIRED; one OWNER gate fired: BROC
+     🟢 cleared: marker-adjacent / next to new value / frozen file (4)  [--show-handled to audit]
+
+  🔴 18 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).
+==================================================================

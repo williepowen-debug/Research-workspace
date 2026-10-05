@@ -1,0 +1,62 @@
+[
+  {
+    "source": "AGENTS/WALTER/research/distilled/01_ESI_TRIAGE.md",
+    "destination": "AGENTS/WALTER/archive/2026-10-05_retired-distilled/01_ESI_TRIAGE.md",
+    "sha256": "b0c9963bdc0df235799aa7f54dbe3d4a8f1626f461b75fd75282743e20207d98",
+    "last_commit_date": "2026-04-06"
+  },
+  {
+    "source": "AGENTS/WALTER/research/distilled/02_MILITARY_MESSAGING.md",
+    "destination": "AGENTS/WALTER/archive/2026-10-05_retired-distilled/02_MILITARY_MESSAGING.md",
+    "sha256": "2158b6b4c6ebe7405f47194d97e15317c1a7560b0b7268237d82271b6aea97f1",
+    "last_commit_date": "2026-04-06"
+  },
+  {
+    "source": "AGENTS/WALTER/research/distilled/03_AIR_TRAFFIC_CONTROL.md",
+    "destination": "AGENTS/WALTER/archive/2026-10-05_retired-distilled/03_AIR_TRAFFIC_CONTROL.md",
+    "sha256": "ff3e1e72a538466eb0eeed78184fe3ca025072a35f7cca6d37df8e41d1d875fd",
+    "last_commit_date": "2026-04-06"
+  },
+  {
+    "source": "AGENTS/WALTER/research/distilled/04_PUB_SUB_BROKERS.md",
+    "destination": "AGENTS/WALTER/archive/2026-10-05_retired-distilled/04_PUB_SUB_BROKERS.md",
+    "sha256": "2cf1e701d975e13136f3636ac7ab5c6990eb67808d22c5790b2706c9cc56dbc3",
+    "last_commit_date": "2026-04-07"
+  },
+  {
+    "source": "AGENTS/WALTER/research/distilled/05_IC_DISSEMINATION.md",
+    "destination": "AGENTS/WALTER/archive/2026-10-05_retired-distilled/05_IC_DISSEMINATION.md",
+    "sha256": "46522bc6c707f079270053de750bc7d8ba26bb2b955a855a1dc46d9401846b04",
+    "last_commit_date": "2026-04-07"
+  },
+  {
+    "source": "AGENTS/WALTER/research/distilled/06_EMERGENCY_DISPATCH.md",
+    "destination": "AGENTS/WALTER/archive/2026-10-05_retired-distilled/06_EMERGENCY_DISPATCH.md",
+    "sha256": "aecf0706bb6fbb70ab68e6e0703c2ad985e82113329543ea16c8fcf7c79915d1",
+    "last_commit_date": "2026-04-07"
+  },
+  {
+    "source": "AGENTS/WALTER/research/distilled/07_SCIENTIFIC_ALERT_SYSTEMS.md",
+    "destination": "AGENTS/WALTER/archive/2026-10-05_retired-distilled/07_SCIENTIFIC_ALERT_SYSTEMS.md",
+    "sha256": "ae20accc00ec8f160fea40f855da94298e5b530220d02a1dad532eb1c7b4d8f3",
+    "last_commit_date": "2026-04-07"
+  },
+  {
+    "source": "AGENTS/WALTER/research/distilled/08_OPEN_OUTPUT_SYSTEMS.md",
+    "destination": "AGENTS/WALTER/archive/2026-10-05_retired-distilled/08_OPEN_OUTPUT_SYSTEMS.md",
+    "sha256": "55dd5cba5bf3c9c392cad2c21398506dac9ae50fa0f2ac9b55ecf3f4331ae53f",
+    "last_commit_date": "2026-06-26"
+  },
+  {
+    "source": "AGENTS/WALTER/research/distilled/09_NEWSROOM_EDITORIAL.md",
+    "destination": "AGENTS/WALTER/archive/2026-10-05_retired-distilled/09_NEWSROOM_EDITORIAL.md",
+    "sha256": "d7e8648779c8524f6dedd10fc0f5702b3a5e48f3a2529c4941d1765b6198d231",
+    "last_commit_date": "2026-04-07"
+  },
+  {
+    "source": "AGENTS/WALTER/research/distilled/10_TRADING_DESK.md",
+    "destination": "AGENTS/WALTER/archive/2026-10-05_retired-distilled/10_TRADING_DESK.md",
+    "sha256": "a4e02370c03234ba7f90bcf186fb1933aa178966bead38a0c09cbf07d1506192",
+    "last_commit_date": "2026-04-07"
+  }
+]

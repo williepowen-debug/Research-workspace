@@ -1,3 +1,7 @@
+## 2026-10-05T14:38:02Z — Will-requested closeout audit and repairs
+
+Original closeout incomplete: no fresh market pull, MEMORY104lines, weekday check scoped only toSTATUS, no retirement scan. Repaired: RED read-only10:34ET pull (HY310 [Oct2], >320 watch reset0/3); MEMORY100 nonblank content conserved; full existing-path weekday scan; ten old unreferenced research notes queued for exact-byte archive under root Data Hygiene. BRENT005/006 now logged DEFERRED/filed, integration owed. No fresh fire or trade change. Evidence and step audit: research/2026-10-05_closeout-audit/.
+
 ## 2026-10-05T14:30:10Z — Will-directed Tier-2 closeout
 
 Discharges the three October5 light-closeout breadcrumbs below. Six signals, nineteen handoffs, shipping batch5/5, manual tanker-cost/USO watch active. Registry header refresh precedes network regeneration; MEMORY and current receipt updated. BRENT005/006 jointly triaged, integration owed; owner committed packets in b70013c08; not consumed. Concurrent BOND/PROME work preserves publication deferral. No fresh market pull, threshold grading, trade or automation activation; boot coverage remains PARTIAL. Spec maintenance: routing companion version labels v0.39→v0.40 only, no routing change. Diagnostics: research/2026-10-05_closeout/.

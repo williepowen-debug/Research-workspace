@@ -1,0 +1,5 @@
+READ-ONLY REFRESH: .venv/bin/python3 AGENTS/RED/scripts/boot.py
+Tool timestamp 2026-10-05 10:34 ET-local; completed exit0. Selected observations transcribed from returned output, not the full raw transcript.
+HY OAS310bp [-14], FRED2026-10-02; prior324 [Oct1]. CCC OAS1202bp [-13], FRED2026-10-02. VIXCLS15.31 [Oct2]; latest5:15.31,16.39,16.34,16.04,16.07. SKEW144.88 [Oct2]; T5YIFR2.35% [Oct2]; claims197K [weekSep26].
+Intraday vendor quotes at this run: VIX15.63, KRE70.65, WAL76.24, USDJPY158.12. Brent101.38 shown by generic continuous quote; NOT substituted for named-month BZZ26.
+Canonical RED FT02 and REG-T03 rows reread: >320, three consecutive observations; latest310 resets to0/3. RED FT06 is already FIRED-BANKED (exit>=18 for5), FT07 banked>930 (exit<930 for3): no new fire or exit; do not reroute continued firing. FT08/FT11 manual legs remain ungraded.

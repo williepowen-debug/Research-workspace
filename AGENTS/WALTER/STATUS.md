@@ -6,20 +6,20 @@
 
 Shipping intake and tanker-cost research are saved. Will's manual tanker-cost watch is active for USO shares and calls: track freight/insurance separately from transmission to WTI. BRENT retains domain judgment. Existing position-management rails remain unchanged; the broker mirror is not current position truth. Manual threshold/filter coverage and read-basis attestation remain incomplete, so this closeout is not a full-board all-clear.
 
-## DATED MARKET OBSERVATIONS — boot pull 2026-10-05 13:07–13:09Z; NOT refreshed at closeout
+## DATED MARKET OBSERVATIONS — audited refresh 2026-10-05 10:34ET; retained older legs labelled
 
 | Row | Observation and limit |
 |---|---|
-| HY / RED-FT-02 / REG-T-03 | 324bp [FRED Oct1]; preceding312/308. One of three >320 observations. Oct2 observation not yet available in the boot pull; planned recheck around10:15ET. No new fire. |
-| CCC / RED-FT-07 | 1215bp [Oct1], existing banked state, not a fresh event. |
-| VIX / SKEW / T5YIFR | VIX16.18 [Oct5 intraday]; VIXCLS16.39 [Oct1]. CBOE SKEW144.88 [Oct2], below150; T5YIFR2.35 [Oct2]. Intraday quotes do not satisfy close-based sustain counts. |
-| Banks / FX | KRE70.78, WAL76.38 [Oct2 closes]; USDJPY158.28 [Oct5 intraday]. WAL fired-state exit not met. |
-| Energy / funding | BZZ26 Dec Brent102.41 [Oct5 intraday]; Cushing24.301M [week Sept25]; claims197K [week Sept26]; SOFR3.88, SOFR-IORB -2bp [Oct2]. |
-| HANS | Nov TTF74.01 [Oct5 indicative]; storage72.40% [gas dayOct3], mean gap-15.25pp; ongoing state. ECB AAA10Y3.464 [Oct2] and BoE par10Y5.3665 [Oct1] are proxies, not benchmark close grades. Registry17rows; EURUSD3M basis unfed. Remaining manual/compound grades not cleared. |
+| HY / RED-FT-02 / REG-T-03 | 310bp [FRED Oct2], down14 from324 [Oct1]. >320 three-observation watch RESET0/3. No new fire. |
+| CCC / RED-FT-07 | 1202bp [FRED Oct2], existing banked state; exit <930 for3 not met. |
+| VIX / SKEW / T5YIFR | VIX15.63 [Oct5 ~10:34ET intraday]; VIXCLS15.31 [Oct2], FT06 remains banked; exit>=18 for5 not met. CBOE SKEW144.88 [Oct2], below150; T5YIFR2.35 [Oct2]. Intraday quotes do not satisfy close-based sustain counts. |
+| Banks / FX | KRE70.65, WAL76.24, USDJPY158.12 [Oct5 ~10:34ET intraday]. WAL fired-state exit not met. |
+| Energy / funding — retained boot evidence | BZZ26 Dec Brent102.41 [Oct5 intraday]; Cushing24.301M [week Sept25]; claims197K [week Sept26]; SOFR3.88, SOFR-IORB -2bp [Oct2]. |
+| HANS — retained boot evidence | Nov TTF74.01 [Oct5 indicative]; storage72.40% [gas dayOct3], mean gap-15.25pp; ongoing state. ECB AAA10Y3.464 [Oct2] and BoE par10Y5.3665 [Oct1] are proxies, not benchmark close grades. Registry17rows; EURUSD3M basis unfed. Remaining manual/compound grades not cleared. |
 | CREED | Registries/fire log read; T08a owner fire9/26 preserved. No new September Trepp primary validated in this boot; periodic/event coverage incomplete. |
 | Iran | FALCON Oct4 adjudications: fresh heat at25.252N48.103E, facility/cause unknown; production rung NOT FIRED, losses3. UKMTO150-26 source authentication unresolved. Full anchor sweep lastOct1; later owner correction014 governs fresh-heat interpretation. |
 
-Shipping intake reviewed 2026-10-05T13:48:24Z: four qualified signals recorded; no new price observation or threshold adjudication. Dated levels above retain their original observation times. Receipt and current duties: [LAST_COMPLETION](LAST_COMPLETION.md).
+Shipping intake reviewed 2026-10-05T13:48:24Z: four qualified signals recorded; no new price observation or threshold adjudication. The audit refresh above supersedes the affected boot observations; untouched legs retain their observation times. Receipt and current duties: [LAST_COMPLETION](LAST_COMPLETION.md).
 
 Tanker-cost research 2026-10-05T14:13:08Z: public weekly assessments obtained; latest market observations October1/2, insurance September25. No daily feed or registered threshold update. Current receipt: LAST_COMPLETION.md.
 
