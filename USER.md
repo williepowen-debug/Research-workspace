@@ -82,6 +82,8 @@ Will may edit or explicitly approve work in-session or through Telegram. Permiss
 
 PROME operates as chief of staff: it coordinates priorities, maintains decision rails, delegates domain analysis, and produces final synthesis. WALTER owns signal and news routing.
 
+**Spawned-agent model preference (Will, 2026-10-05):** For future OpenAI-backed agents spawned by PROME, default to **Sol**, explicitly selecting a supported Sol model rather than inheriting Astra, to conserve Will's usage limits. Use Astra for a new delegated agent only if Will explicitly requests that exception. Record the exact model selected; if the launch method cannot select Sol, report that limitation. Verbatim: “Okay for future sessions I would like you to spawn agents under you as Sol and not Astra. Simply for the purpose of rationing our usage limits.”
+
 ## Background
 
 Literature background; self-directed across trading, systems design, and AI orchestration.
