@@ -60,6 +60,8 @@ September 15 owner review: [incident matrix](research/2026-09-15_backlog-review/
 
 ## NEXT DECISION POINT
 
+Late intake: WALTER -005 tanker-cost/source review is triaged and deferred to the existing freight review; source report unreviewed here, no incorporation into this assessment or new monitoring.
+
 **Tue 10/6** WQ-252 crack-month sitting + SPR exchange bids close + Oct STEO · **Wed 10/7 WPSR** (Cushing after F-b; distillate exports) · **Fri 10/9** COT #9 + USO $150C expiry (Will) · **Thu 10/15 BRT-31 first print** (w/e 10/9). *(Aramco November OSP and OPEC+ November hold both graded 10/4; Saudi physical-loss confirmation remains event-driven.)*
 
 ## WATCH (next 2–4 weeks)

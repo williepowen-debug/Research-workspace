@@ -36,6 +36,7 @@
 
 ## MAIL STATE
 
+- Late arrival WALTER `SIG-W-20261005-005` triaged: DEFERRED to the next existing freight review. Reconcile public tanker-cost snapshots and assess the weekly public source; packet/report not integrated, no new monitoring authorised. Packet stays in inbox; no consumed-file receipt or archive claimed.
 - Earlier morning intake: WALTER -001 noted, -002 acted, -004 noted; each archived/receipted. No intake work in this assessment-only follow-up; no recipient-consumption claim.
 
 ## CAPABILITIES / WORKBOOK HEALTH
