@@ -1,5 +1,5 @@
 # ORCHESTRATION PLAYBOOK
-**Created:** 2026-06-26 | **Updated:** 2026-09-15 10:54 ET (L381 bounded instruction reconciliation; existing authority preserved; plan/review record: `PROME/plans/2026-09-15_L381-reconciliation.md`). Prior: 2026-08-10 (+§Mode C — forum canonized as the third mode, Will-approved in-session; template = `FORUM/CHARTER_TEMPLATE.md`) | Prior: 2026-07-09 (+§Standard Fable session — session-design guide, Will-directed; Codex cross-vendor lane; verification tiers; record-vs-reality rule) | **Owner:** Prome | **Companion to:** `PROME/ORCHESTRAL_LAYER_DESIGN.md` (fleet-scan/ranking layer)
+**Created:** 2026-06-26 | **Updated:** 2026-10-05 (WQ-385 runtime compatibility; ruling: `PROME/proposals/2026-10-05_runtime-compatibility-RULED.md`). Prior: 2026-09-15 10:54 ET (L381 bounded instruction reconciliation; existing authority preserved; plan/review record: `PROME/plans/2026-09-15_L381-reconciliation.md`). Prior: 2026-08-10 (+§Mode C — forum canonized as the third mode, Will-approved in-session; template = `FORUM/CHARTER_TEMPLATE.md`) | Prior: 2026-07-09 (+§Standard Fable session — session-design guide, Will-directed; Codex cross-vendor lane; verification tiers; record-vs-reality rule) | **Owner:** Prome | **Companion to:** `PROME/ORCHESTRAL_LAYER_DESIGN.md` (fleet-scan/ranking layer)
 **Purpose:** Operating rules for running a multi-agent session. Read when Will says "let's orchestrate" / before spawning >1 agent. Born from the 2026-06-26 debrief: the orchestration layer works, but we were paying live-orchestration prices for fan-out work and absorbing a fragile-concurrency tax.
 
 ---
@@ -10,10 +10,10 @@ Every multi-agent task is one of two modes. **Decide the mode BEFORE spawning.**
 
 | | **Mode A — Fan-out execution** | **Mode B — Live orchestration** |
 |---|---|---|
-| **Tool** | `Workflow` (deterministic script) | teams-mode `Agent` (named) + `SendMessage` |
+| **Runtime mechanism** | Verified mechanism for independent batch work; select under Runtime mechanics. | Verified mechanism for iterative coordination; select under Runtime mechanics. |
 | **Use when** | tasks are independent, templated, no Will-decision between steps, collection/synthesis specifiable up front | cross-agent dependency resolves mid-flight, Will-decisions between rounds, next step depends on what an agent surfaces |
 | **Coordinator role** | author script, collect, synthesize | route, decide, relay, iterate |
-| **Concurrency** | serialized by the runtime → no git index races | N concurrent committers → index races (mitigate) |
+| **Concurrency** | Verify actual execution and commit concurrency under Runtime mechanics; mode alone grants no serialization or isolation. | Verify actual execution and commit concurrency under Runtime mechanics; mode alone grants no serialization or isolation. |
 | **6/26 examples** | the 5 arch self-reports, 5 inbox sweeps, 5 Tier-1 applies | gate-cluster ownership pivot, BROCK↔SHADE handoff, the CARL amendment |
 
 **Decision test — use Mode A (fan-out) if ALL are true:**
@@ -35,7 +35,7 @@ Every multi-agent task is one of two modes. **Decide the mode BEFORE spawning.**
 Don't pick one mode for the whole session. The common shape:
 
 1. **Scout inline** (Prome, no agents) — list the work, find the owners, scope the diff.
-2. **Fan-out the parallel part** (Mode A / Workflow) — fire N templated tasks, collect to files, synthesize.
+2. **Fan-out the independent part** (Mode A), using the selected verified runtime mechanism; collect artifacts and synthesize.
 3. **Live-orchestrate the decision spine** (Mode B) — route emergent findings, present Will-decisions, handle handoffs/amendments.
 
 6/26 done right would have been: scout → **Workflow** the triage + sweeps + arch-reports + Tier-1 applies → **live** only for the gate-cluster routing, the BROCK/SHADE spin-ups, and the addendum approval.
@@ -58,6 +58,31 @@ Don't pick one mode for the whole session. The common shape:
 **Measured costs (same assessment):** restatement volume (~1.5MB / 94 posts / 4 days; the headline finding restated ≥8×) and **candidate accumulation feeding Will's ruling backlog** — the pruning rule (template rule 8) exists for this. Compression to Will-facing form is PROME's job and does not scale past a few sessions/week.
 
 **Mechanics canon = `FORUM/README.md` + `FORUM/CHARTER_TEMPLATE.md`** (binding: blind Phase 0 · declared cross-read order · one concur/dissent per desk · PROME verification post · in-place FINAL revision · no live levels in charters · pruning rule · dated withdrawal test on the verdict · rulings-record post closes the tree). Concurrency: participant git barred, PROME commits at phase boundaries — zero index races across 3 sessions, incl. against concurrent Will-owned sessions.
+
+---
+
+## Runtime mechanics (WQ-385, 2026-10-05)
+
+| Mechanic | Claude Code lane | Codex lane | Shared constraint |
+|---|---|---|---|
+| Load identity | Verify root and local instructions for actual launch directory and available instruction loader. | Explicit root/local reads; the October 5, 2026 create_thread experiment inherited PROME cwd, so task identity cannot be inferred from cwd alone. | Same files and substantive owner contract. |
+| Discover | Use native Claude discovery when exposed and document its actual coverage. | Use exposed list/read tools and returned task IDs; the October 5, 2026 experiment list omitted our spawned tasks, while direct reads found them. | Neither lane alone establishes cross-runtime absence. |
+| Start or resume | Use supported owner-session mechanism after canonical preflight; respect existing Claude worker model rule. | Use a supported task/owner-session mechanism after preflight; follow actual schema and approved model choice. | Record actual identity/model and observe successful start; unsupported settings are not silently substituted. |
+| Notify and receive | Native messaging when verified for the exact pair. | Native task messaging when verified for the exact pair. | Save content first; distinguish send acknowledgment from recipient consumption. No raw socket guesses or permission bypass. |
+| Permissions | Claude Code session permissions. | Codex session permissions, including only installed applicable rules. | Assignment approval persists; technical grants do not transfer automatically. |
+| Close | Explicit ask and owner receipt, with actual lifecycle evidence. | Explicit ask and owner receipt, with actual lifecycle evidence. | Do not infer closeout from idle, clean files, or a process exit. |
+
+The table is a runtime selection guide, not a certification of every tool/provider combination. For models, keep the existing applicable selection authority. A supported tool that requires inheritance must have its inherited choice identified and checked against that authority; do not invent an Opus-to-OpenAI mapping or silently inherit a prohibited model. Owner sessions and read-only review helpers remain distinct roles regardless of provider.
+
+**Capability-specific consequences:**
+
+- **Messaging unavailable or awaiting technical approval:** an already-authorized owner may continue independent research and save its artifact under existing permissions. Notification and recipient consumption remain unverified until the actual read and acknowledgment. Do not bypass the pending technical approval by changing transport to perform the denied action.
+- **Owner discovery incomplete:** withhold a potentially duplicate writing launch. Continuing independent work does not authorize launching or taking over that desk. Resolve ownership under the canonical preflight before launch; do not infer inactivity from a blocked message.
+- **Required source access unavailable:** continue unrelated authorized work, but identify the missing source and withhold conclusions that depend on it. A prior quote is not a replacement for required current evidence.
+- **Persistence or closeout unavailable:** preserve the useful permitted output, report the exact incomplete step, and keep delivery/closeout pending. An idle task or saved file is not completion.
+
+
+Discovery authority is single-homed at `PROME/CLAUDE.md` § Desk-spawn preflight; messaging governance is `MESSAGING/CROSS_SESSION_MESSAGING.md`, including rule 6 and P0. October 5 observations: `PROME/reports/2026-10-05_morning-orchestration.json`; they are dated evidence, not permanent guarantees. Workflow/teams tool names and their historical serialization behavior are Claude-runtime examples; for every selected mechanism, establish its actual concurrency and file visibility before relying on those properties. Missing evidence does not authorize concurrent owner writes or a worktree migration.
 
 ---
 
@@ -102,7 +127,7 @@ The target shape for a PROME-on-Fable working session. Everything here is the *h
 2. **Boot-read list** — own `CLAUDE.md` + `STATUS.md` + task-specific files/inbox items *by path* (subagents auto-load nothing).
 3. Scoped task **with the tape numbers PROME already has** (don't make a Sonnet agent re-fetch what Fable already verified) — and with traps flagged (e.g. 7/9 LIQUID: "do NOT grade the pre-reg early, it's conditioned on Friday's close").
 4. Domain rules restated in one line: numbers > narrative · source + date every claim · no trade recommendations · **path scope and self-authored delivery packets per root `CLAUDE.md` Git Protocol, including its existing carve-outs**.
-5. Deliverables: artifacts and owner-state write-back → pathspec commits from repo root under root Git Protocol → delivery per `PROME/COMPLETION_SPEC.md`, with a **SendMessage summary ≤150–200 words**. The final touch runs the desk closeout specified in § Two-tier orchestrated-desk model; delivery alone does not establish closeout.
+5. Deliverables: artifacts and owner-state write-back → pathspec commits from repo root under root Git Protocol → delivery per `PROME/COMPLETION_SPEC.md`, with a **coordination summary ≤150–200 words via the verified Runtime mechanics channel**. The final touch runs the desk closeout specified in § Two-tier orchestrated-desk model; delivery alone does not establish closeout.
 6. The deliver-before-idle line, verbatim (§discipline 1).
 7. Web tools note when relevant: *"NOT autoloaded — ToolSearch 'select:WebSearch,WebFetch' first."*
 
@@ -116,7 +141,9 @@ The target shape for a PROME-on-Fable working session. Everything here is the *h
 ### Record-vs-reality rule (born 7/9 — TWO instances in one day)
 **Canon never asserts an artifact exists until it's been verified on disk** (`ls` / git history). "Routed" ≠ "built"; intent ≠ artifact. The 7/6 "fire-card PRE-BUILT" was an inbox packet with no card file for 3 days; the KB-VIO-110 packet-build was a fired gate with no execution for 7. Corollaries: registered action-gates → `PROME/GATES.tsv` **the same session they're approved** ([[finding_fired_gate_needs_owner_independent_ledger]]); when a spawn reports "X was never actually created," git-verify, then fix the canon that claimed otherwise.
 
-### Codex cross-vendor lane (validated ×2 on 7/9)
+### Codex review-helper lane (historical plugin lane validated ×2 on 7/9)
+
+This charter applies to review helpers invoked in this lane, not domain owners running in Codex. A Codex owner task keeps its desk charter and shared completion obligations; thread-local helpers remain distinct from own-window or PROME-created owner tasks (§ Runtime mechanics).
 - **A tool with a charter, not a fleet agent** — no ROSTER entry, no inbox, no STATUS. Invoke via the codex plugin (rescue subagent for delegated investigation; review commands for diffs). **Standing contract = `PROME/codex/CHARTER.md`** (harness home, built 7/9 Will-directed): every spawn prompt cites it near the top — *"Read `PROME/codex/CHARTER.md` first and operate under it."* The charter carries the delivery contract (final message = FULL findings, never idle without delivering — the 7/9 chase lesson), mode rules (read-only default; fix-mode path scope = scripts/ + FORGE/tools/ only), output format/severity rubric, and repo orientation.
 - **Best use:** silent-failure hunting on harness/infra code, and **pre-arm red-team of decision-rail logic** (fire-cards, gate definitions) — the places same-vendor blind spots cost most; run it the night BEFORE a gate grades, so fixes can still be pre-registered.
 - **Economics:** runs on Will's OpenAI subscription → zero Anthropic tokens for the review itself; PROME pays only the verification pass.
@@ -133,11 +160,9 @@ The target shape for a PROME-on-Fable working session. Everything here is the *h
 ## Operating disciplines (apply in BOTH modes)
 
 ### 1. Report-delivery contract (fixes the chase-the-idle-agent defect)
-Every agent's **last action before idling = deliver its result.** Never go idle "holding" without delivering. Two acceptable channels:
-- **Live (Mode B):** `SendMessage` the report to the coordinator as the final step.
-- **Fan-out (Mode A):** write to a known file (`AGENTS/<NAME>/<TASK>_REPORT.md`) + a ≤120-word reply; coordinator batch-collects. *(Workflow's `schema` option enforces this automatically — the agent's return value IS the structured result.)*
+Every agent's **last action before idling = deliver its result** under `PROME/COMPLETION_SPEC.md`. Save the owned artifact and dated packet, then report through the verified channel selected under Runtime mechanics. Mode A permits batch collection; Mode B uses iterative coordination. In both, notification acceptance does not establish recipient consumption or closeout.
 
-Put this line in every spawn prompt: *"Deliver your result (SendMessage + file) as your final action before idling — do not idle without delivering."*
+Put this line in every spawn prompt: *"Deliver your result under PROME/COMPLETION_SPEC.md as your final action before idling; report any unavailable delivery step explicitly."*
 
 **Closeout extension (2026-08-15, Will-approved off DAEDALUS's war-triad review):** for a RESIDENT domain-desk session (the agent itself spawned and kept warm across re-task rounds), delivery does NOT end the session — **before final release, PROME injects a closeout leg: "run your own closeout protocol now (derived surfaces and briefs re-stamped — NEXUS_BRIEF, SCRATCH, summary regens, staleness stamps), then enumerate any awaiting-Will / dated-clock / unrouted-proposal items in your tree."** Live orchestration at tempo breaks closeout write-backs: all three 8/15 war desks delivered excellent work AND skipped their derived-surface write-backs (a 5-day-stale NEXUS_BRIEF missing that morning's gate fire; a SCRATCH contradicting the desk's own encode), and ~16 Will-gated asks sat in owner trees with no queue row. The enumeration half feeds PROME's registration sweep — owners enumerate, PROME registers; never grep another desk's tree for its decisions.
 
@@ -149,8 +174,8 @@ The synthesis is the coordinator's job. Don't spawn an agent for work you'll red
 **Batch protocol** *(from retired root LESSONS #6–8, WQ-130 2026-08-29)*: **one spawn, one objective** — context is finite and a bundled spawn does the first job and drops the second (REGINALD P-002: inbox got done, the EARNINGS_PREP upgrade didn't move) · **dry-run one agent before a batch** — it catches file-path, date and context errors invisible from outside (missing KB.tsv; TIC Mar 18 not Mar 15) · **inject batch N's confirmed findings into batch N+1 as context** — never make later agents re-search them (saves tokens, prevents conflicting figures).
 
 ### 4. Concurrency / git hygiene
-- **Mode A (Workflow) serializes** the agent lifecycle → avoids the shared-`.git/index` race entirely. Prefer it for any write-heavy parallel work.
-- **Mode B (live, N concurrent committers)** → index races, dangling deletions, foreign pre-staged files. Mitigations: the canonical **pre-commit `git status -- AGENTS/<NAME>/` check** (root CLAUDE.md), staggered commits, or `isolation: worktree` per agent. A non-trivial Mode-B session is **standing evidence for the separate-clones / worktree migration** (deferred decision — SAM's proposal); log it.
+- Mode A describes work independence, not a serialization guarantee. Verify the chosen mechanism's execution and commit behavior under Runtime mechanics. Other live sessions may still share the Git index; apply root Git Protocol regardless of mode.
+- **Mode B (live, N concurrent committers)** → index races, dangling deletions, foreign pre-staged files. Mitigations: the canonical **pre-commit `git status -- AGENTS/<NAME>/` check** (root CLAUDE.md), staggered commits, or approved isolation supported by the actual runtime (`isolation: worktree` is a Claude tool example, not a universal option). A non-trivial Mode-B session is **standing evidence for the separate-clones / worktree migration** (deferred decision — SAM's proposal); log it.
 
 ### 5. Triage-first for domain work
 Spawn domain agents on a **report-before-execute** mandate so Will directs what gets actioned. Worked well 6/26 — keep it.
@@ -164,28 +189,28 @@ When a coordinator-driven session (forum slate, proxy spawn, fan-out) commits co
 ---
 
 ## Anti-patterns (seen 6/26 — don't repeat)
-- **Fan-out work run as live teams-mode** → babysitting, idle-chasing, index races. Use a Workflow.
+- **Fan-out work run as live teams-mode** → babysitting, idle-chasing, index races. Use a verified Mode-A mechanism selected under Runtime mechanics.
 - **Agents idling without delivering** → wasted round-trips pinging "where's your report?"
 - **Relaying every idle notification to Will** → attention tax with no decision content.
 - **Amendment racing execution** → I sent an amendment after CARL had already executed → reversions. In live mode, confirm an agent is *holding* (not mid-execute) before sending follow-on scope; or fan-out the corrected task fresh.
-- **N agents committing concurrently to the shared tree** → residue/duplicates. Serialize (Workflow) or worktree-isolate.
+- **N agents committing concurrently to the shared tree** → residue/duplicates. Verify commit serialization or approved isolation under Runtime mechanics and root Git Protocol; never assume either from the mode name.
 
 ---
 
 ## Quick checklist before spawning
 0. **Freshness from GROUND TRUTH, never narrative (Will-directed 2026-08-14):** `python3 PROME/tools/agent_freshness.py --agent <NAME>` — **rc=1 ⇒ STOP: drain the listed from-<NAME> packets out of `PROME/inbox/` and inspect any dirty paths BEFORE writing the brief.** SCRATCH's spawn-queue lines and HANDOFF watch lists are closeout snapshots that rot within hours on multi-window days; a brief written against undrained packets tasks work that may already be Will-ratified (8/14 case: HOMER's encode-confirms sat unread while PROME briefed rows 45/46 as pending — the agent was fresh, PROME's model of it was not). The fleet-wide sweep runs at every boot via `prome_gate` (`--gate` mode); own-surface age is a lower bound, not caught-up proof (`[[finding_freshness_audit_vs_caught_up]]`).
 1. **Scout done?** Do I know the work-list, the owners, the diff?
-2. **Mode?** Run the decision test → Mode A (fan-out/Workflow) for the parallel-identical part, Mode B (live) only for the decision spine.
+2. Mode selected by the decision test, and its mechanism selected under Runtime mechanics?
 3. **Delivery contract** in every prompt? (deliver-before-idle)
 4. **Will-decisions identified** up front so I can batch them, not drip them?
-5. **Concurrency safe?** Write-heavy parallel → Workflow or worktree, not N live committers.
+5. Actual execution/commit concurrency checked under Runtime mechanics and root Git Protocol?
 6. **Go-quiet plan:** what's the *next* thing worth interrupting Will for?
 
 ---
 
-## Cross-session coordination (harness `SendMessage`/`ListAgents` — first live use 2026-08-16; governance = `MESSAGING/CROSS_SESSION_MESSAGING.md`)
+## Cross-session coordination (verified runtime channels; governance = `MESSAGING/CROSS_SESSION_MESSAGING.md`)
 
-Independently-launched sessions on the same box can now message each other directly — a THIRD coordination mode beside file packets and teams-mode spawns. **The five rules live in the governance addendum (read it before first use); this section is the choreography.**
+Independently launched and PROME-created owner sessions use the verified transport selected under Runtime mechanics. The binding rules live in `MESSAGING/CROSS_SESSION_MESSAGING.md` (read before first use); delivery and recipient acknowledgment follow `PROME/COMPLETION_SPEC.md`. The August 16, 2026 Claude harness exchange below is a historical example, not universal tool availability.
 
 **The doorbell pattern (the validated shape — FERT registration, 8/16):**
 1. Sender commits the CONTENT as a normal packet/artifact and pushes.
@@ -194,11 +219,11 @@ Independently-launched sessions on the same box can now message each other direc
 4. Receiver executes within its own standing authorizations, **names the message trigger + the authorization in its commit**, pushes, and messages back only what unblocks the sender.
 5. Anything Will-gated in the chain HOLDS for Will's own word or his verbatim word in a verifiable artifact — a relay never clears it (rule 3). **When relaying gated text for an OK, present from the artifact or verify copy == artifact first** (a drifted convenience copy gets an OK on text that isn't the record).
 
-**When to use which channel:** file packet alone = default (durable, cross-machine, auditable). Packet + doorbell message = when a live counterpart session is blocked on your landing (PAT-047-ordered passes, handoffs, precondition fires). Message alone = pure coordination with zero decision content (status ping, "are you touching file X"). **Never message-alone anything a future session or the other machine needs** — the channel is same-box ephemeral. **Never route market signals here** (WALTER's lane, rule 4). **Cloud receiver ⇒ one-directional** — it cannot reply; read its result in its own transcript/artifacts, never wait on the doorbell's return leg.
+**When to use which channel:** file packet alone = default (durable, cross-machine, auditable). Packet + doorbell message = when a live counterpart session is blocked on your landing (PAT-047-ordered passes, handoffs, precondition fires). Message alone = pure coordination with zero decision content (status ping, "are you touching file X"). **Never message-alone anything a future session or the other machine needs** — the channel is same-box ephemeral. **Never route market signals here** (WALTER's lane, rule 4). **Historical August 16 Claude cloud-receiver observation:** replies were unavailable; verify the actual pair's directionality under Runtime mechanics before waiting for a reply.
 
 **Interrupt hygiene (norm, not machinery):** message only when it unblocks, corrects, or was asked for. Messages consume the receiver's context — a focused mid-grade session owes you nothing mid-round; they drain at its next tool round.
 
-**The discovery step (canonical home = `MESSAGING/CROSS_SESSION_MESSAGING.md` §2 rule 6, Will-ruled 8/16 late; this paragraph is the choreography MIRROR — born here `84509c868`, promoted to canon the same night):** the doorbell only fires if somebody looks — **at packet-commit time, when the packet carries an ASK of, or an answer owed to, a specific agent, run `ListAgents` (~free) and doorbell if that agent's session is live — recipient DARK → rule 6b's doorbell-PROME branch (amended 8/23: P0 in-flight check · desk-unit yield · leg 3b cadence-deadline; letter at MESSAGING).** The night this channel was ratified, PROME and DAEDALUS ran a full two-round ASK/disposition exchange as live concurrent sessions on pure file packets, and Will hand-carried the coordination between the two open windows — the exact operator-as-relay load the channel had removed hours earlier. Both sessions knew the canon; neither checked for a peer. A channel without a discovery habit is a doorbell nobody rings.
+**The discovery step:** at packet commit apply `MESSAGING/CROSS_SESSION_MESSAGING.md` §2 rule 6 through the verified Runtime mechanics channel. Its P0 distinguishes live, absent and UNKNOWN ownership; only established absence can take the rule-6b DARK branch. Discovery coverage and launch authority remain in `PROME/CLAUDE.md`; do not duplicate those rules here.
 
 ## Two-tier orchestrated-desk model (Will-ruled 2026-08-23, "approved"; record `PROME/proposals/2026-08-23_two-tier-orchestration-pilot-RULED.md` — SINGLE HOME for this workflow; DAEDALUS 5-amendment review folded at encode time)
 
@@ -206,25 +231,25 @@ Independently-launched sessions on the same box can now message each other direc
 
 | Tier | Transport | Criterion | Will's access |
 |---|---|---|---|
-| **Own-window** | Will-launched CC session (`cd AGENTS/<NAME> && claude`) | Work **outlives a PROME session** OR **Will's words land mid-flight** (trade construction, rulings) | Direct — sees it, types into it |
-| **Named subagent** | PROME-spawned persistent named agent (Agent tool, `name:`); re-ping via `SendMessage` resumes with context intact, no respawn; quiet when idle costs nothing | **Bounded, completable within PROME's session** (grading, drains, encodes, consumption touches) | Via PROME's task tree + the desk's commits/packets |
+| **Own-window** | Independently accessible Claude Code or Codex owner session, launched by Will or an approved PROME mechanism under Runtime mechanics | Work **outlives a PROME session** OR **Will's words land mid-flight** (trade construction, rulings) | Direct where the runtime exposes it; verify rather than assume |
+| **Named subagent** | PROME-spawned persistent owner task; verify resume/messaging/lifecycle under Runtime mechanics; helper scope alone is not a domain owner | **Bounded, completable within PROME's session** (grading, drains, encodes, consumption touches) | Via the available task view and desk commits/packets |
 
-**Day-scoped lifecycle:** subagents die with PROME's session (nightly closeout minimum, often sooner for context hygiene). **The repo is the memory; the transcript is intra-day convenience.** A fresh PROME session respawns what it needs and loses nothing — PROVIDED every touch delivered to disk. Between-ping drift is structurally small (short lifespans), with ONE exception the template guards: market/repo state at re-ping.
+**Day-scoped lifecycle:** bounded owner tasks are closed out and released explicitly at PROME's final touch (nightly minimum); whether the underlying runtime stops them with the parent must be observed, never assumed. **The repo is the memory; the transcript is convenience.** A fresh PROME session discovers and resumes an existing owner where present; a replacement requires canonical preflight and repo-state reconciliation. Re-anchor market/repo state at every re-ping.
 
 **Spawn/re-ping template (every tasking carries ALL of these — PAT-046: root canon does not reliably bind spawned agents; the prompt carries the rules):**
-1. **FIRST ACTION: read `AGENTS/<NAME>/CLAUDE.md` + `STATUS.md` + your own boot files** — a subagent never launches from the desk dir, so nothing auto-loads.
+1. **FIRST ACTION:** carry the exact explicit root/desk read brief and runtime selection from `PROME/COMPLETION_SPEC.md`; do not assume the launch directory loaded domain instructions.
 2. **Full owner session, never a read-only receiver** (§3.5.2): integrate into canonical state and COMMIT before filing anything to `processed/`. **Whole-inbox drain — every sender, not just the triggering item** (rule-6b mandate).
 3. **Re-anchor before acting: live data AND re-read your own STATUS + inbox** (amendment 2 — a resumed transcript is a snapshot; repo state moves between touches). On closed-market days: latest closes are final-for-period, cite dated, nothing is live.
 4. **Every delivery re-stamps the STATUS header it wrote under** (PROME hardening on PAT-112 — header covers newest content even if PROME dies before the final ping). **The LAST touch runs the desk's own FULL closeout per its protocol** (consumer_check · ledger nudge · orphan check · memory-index check · safe-push); the subagent cannot know which touch is last — **PROME says so in the final ping** (amendment 1).
 5. **Commit provenance: subjects lead `<DESK> (orch): ...`** (amendment 3 — keeps desk-cadence instruments honest; `git log -- AGENTS/X/` blindness runs both directions). Pathspec commits, own dir + carve-outs ①②③ only.
 6. **⛔ ALL Will-gated surfaces are OUT OF SCOPE** — not just trades: threshold registration, band edits, root/shared docs, roster changes. A subagent hears Will only as PROME's relay, and a relayed word never clears a Will-gated surface (rule 3). A gated need RETURNS to PROME → WILL_QUEUE/GATES on Will's own word (amendment 4). $0 moves; report-before-execute on anything trade-shaped.
-7. **Deliver-before-idle:** SendMessage the result to PROME AND write it to your own dir, as the final action before going quiet.
+7. **Deliver-before-idle:** follow `PROME/COMPLETION_SPEC.md` for owned artifact, dated delivery, verified notification, recipient consumption and separate closeout receipt.
 8. **Consumption-record rider (added 2026-08-23, WALTER ask, PROME-lane — verified at artifacts before adopting):** if the desk keeps **no `board_log.tsv`**, the touch **installs the `BOARD_CONSUMPTION_SPEC` §8.1 consume boot-step and opens the ledger** as part of its drain. Costs one line on a touch already draining the whole inbox; closes the rollout desk-by-desk instead of by sweep. **Why it matters:** without a consumption record, "never read" and "read but never filed" are indistinguishable on every surface either desk keeps — measured 8/23 at **32 backlog items (8 ACTION) across 5 desks** (ZHAO 18 / OTTO 7 / HANS 5 / WATT 1 / DEWEY 1), against 92 items the recipient's own board_log corroborated. **The sharp case, PROME-verified at ZHAO's own workbook:** `KB.tsv` and `VX.tsv` both APPLY WALTER's N5 capture-time rule while labelling it *"still UNPROCESSED in ZHAO's WALTER lane"* — content used, handoff unconsumed, both true at once. **Priority ZHAO then OTTO** (7 of the 8 untestable ACTION items, both ~30d). ⚠️ **A board_log is self-reported too — it does not make consumption PROVABLE, it makes it CROSS-CHECKABLE, one instrument to two** (WALTER's own caveat against its own ask; do not oversell it). Census 8/23: 19 of 45 registry agents keep one; **this is NOT a fleet-wide mandate** — only desks an orchestrated touch is already visiting.
-9. **Model: orchestrated-desk subagent sessions spawn `opus` — ⛔ NEVER Fable** (Will-ruled in-session 2026-08-23: *"we need to run these sub-agents as lower model. Lets go with OPUS instead"*, tightened same session: *"cannot spend that much on FABLE sub agents"* — this is the orchestrated-desk override of §Model tiering's sonnet default; haiku stays available for purely mechanical errands; PROME on Fable remains the verify layer for load-bearing findings). ⚠️ **The failure mode is OMISSION: a spawn with no `model:` param silently inherits PROME's Fable — always pass the model explicitly; an omitted model is a defect, not a default.** Each touch's model rides ORCH_LOG's notes column. **Fable-run salvage rule: output already paid for is consumed normally** (committed work, verified residue) — the prohibition is on NEW Fable spawns/resumes, not on reading what exists. Record: the 8/23 wave-1 Fable runs were spawned pre-ruling by omission; both were stopped/replaced on Will's word, their committed output consumed, SAM's uncommitted residue verify-then-integrated by its opus successor.
+9. **Claude-runtime worker lane only:** the following Opus/Fable rule has no implied OpenAI mapping; other runtime model selection follows § Runtime mechanics and its existing authority. **Model: orchestrated-desk subagent sessions spawn `opus` — ⛔ NEVER Fable** (Will-ruled in-session 2026-08-23: *"we need to run these sub-agents as lower model. Lets go with OPUS instead"*, tightened same session: *"cannot spend that much on FABLE sub agents"* — this is the orchestrated-desk override of §Model tiering's sonnet default; haiku stays available for purely mechanical errands; PROME on Fable remains the verify layer for load-bearing findings). ⚠️ **The failure mode is OMISSION: a spawn with no `model:` param silently inherits PROME's Fable — always pass the model explicitly; an omitted model is a defect, not a default.** Each touch's model rides ORCH_LOG's notes column. **Fable-run salvage rule: output already paid for is consumed normally** (committed work, verified residue) — the prohibition is on NEW Fable spawns/resumes, not on reading what exists. Record: the 8/23 wave-1 Fable runs were spawned pre-ruling by omission; both were stopped/replaced on Will's word, their committed output consumed, SAM's uncommitted residue verify-then-integrated by its opus successor.
 
 **Ledger:** every touch logs to `PROME/state/ORCH_LOG.tsv` (authoritative record for orchestrated work; feeds the 8/28 doorbell-soak review — one surface grades both mechanisms; standing post-8/28 reader = fleet_triage when it builds, amendment 5b).
 
-**Failure path (amendment 5b — written so the first real failure runs from a rule, not improvisation):** subagent dies mid-task ⇒ **STEP 0, before any respawn: CONFIRM DEATH — `ps` for the agent process AND `ListAgents` shows it absent AND the desk dir has had no writes for several minutes** *(the third limb is WALTER's, 8/23 packet, convergent-found within the hour: dirty paths are EVIDENCE ABOUT LIVENESS, not only about what to keep — SAM's residue was in-flight because the "dead" session was actively writing it)*. **A harness failure notice is NOT a death certificate** *(measured live 8/23, first day: SAM's "credit wall" notice arrived while the session never exited; it resumed on the credit reload and completed its tasking while PROME spawned a duplicate off the notice — the duplicate, correctly, halted itself at the process table and touched nothing; `[[finding_record_of_an_action_is_not_the_action]]` inverse form — a record of a failure is not the failure)*. Exit confirmed ⇒ respawn from repo state; check the desk dir for uncommitted residue — **residue is IN-FLIGHT work, not orphaned trash** (`[[finding_dirty_path_means_in_flight_not_orphaned]]`): the respawned desk integrates it, nobody sweeps it. ⛔ Never let two sessions path-scope-commit one desk tree (shared-`.git/index` race + two competing STATUS narratives).
+**Failure path:** before any replacement, resolve identity, liveness and cross-runtime coverage through `PROME/CLAUDE.md`'s canonical Desk-spawn preflight. A failed transport, idle/approval-blocked owner, missing list row or quiet desk tree does not establish death; incomplete evidence remains UNKNOWN and withholds a new writer. **A harness failure notice is NOT a death certificate** *(measured live 8/23, first day: SAM's "credit wall" notice arrived while the session never exited; it resumed on the credit reload and completed its tasking while PROME spawned a duplicate off the notice — the duplicate, correctly, halted itself at the process table and touched nothing; `[[finding_record_of_an_action_is_not_the_action]]` inverse form — a record of a failure is not the failure)*. Exit confirmed ⇒ respawn from repo state; check the desk dir for uncommitted residue — **residue is IN-FLIGHT work, not orphaned trash** (`[[finding_dirty_path_means_in_flight_not_orphaned]]`): the respawned desk integrates it, nobody sweeps it. ⛔ Never let two sessions path-scope-commit one desk tree (shared-`.git/index` race + two competing STATUS narratives).
 
 **PROME closeout hook:** follow `PROME/CLOSEOUT.md` § Pre-closeout item 3; idle status and committed delivery do not establish that the closeout ask occurred.
 

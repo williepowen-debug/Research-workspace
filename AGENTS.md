@@ -1,16 +1,14 @@
 # AGENTS.md
 
+**Runtime amendment:** 2026-10-05, WQ-385; `PROME/proposals/2026-10-05_runtime-compatibility-RULED.md`.
+
 Detect stress transmission early enough to position ahead of consensus.
 
 ## Operating model
 
-Every agent is an independent Claude Code session. Launch it from its own directory:
+A desk may run with an OpenAI or Anthropic model in Claude Code or Codex; its identity, responsibilities, owned paths and approved work remain the same. Identify the actual runtime and available tools at boot under `PROME/COMPLETION_SPEC.md`; select operational methods from `PROME/ORCHESTRATION_PLAYBOOK.md` § Runtime mechanics. Provider names do not establish tools or permissions.
 
-```
-cd AGENTS/<NAME> && claude
-```
-
-PROME is the one exception — it launches from `PROME/` (there is no `AGENTS/PROME/`). Launching in the agent directory loads the root operating rules **and** the agent's local instructions; launching from the repo root loads root only. If an agent seems to be missing its domain rules, check its working directory. PROME may also spawn agents via teams mode when orchestrating (mode-split rule → `PROME/ORCHESTRATION_PLAYBOOK.md`).
+Launch from the desk directory where the runtime supports it (`cd AGENTS/<NAME> && claude` is the Claude Code example). PROME uses `PROME/`; there is no `AGENTS/PROME/`. Verify root and local instruction loading explicitly under COMPLETION_SPEC, including when a spawned task inherits another cwd. PROME's mode selection and spawn mechanics remain in the playbook.
 
 Canonical agent paths stay flat as `AGENTS/<NAME>/`. Do not reorganize agent directories without a migration pass — scripts, docs and workflows depend on those paths.
 
@@ -18,7 +16,7 @@ Canonical agent paths stay flat as `AGENTS/<NAME>/`. Do not reorganize agent dir
 
 | Subject | Canonical source |
 |---|---|
-| Fleet operating and Git rules | root `CLAUDE.md` (auto-injected) |
+| Fleet operating and Git rules | root `CLAUDE.md` (verify loading for the actual runtime) |
 | Roster membership, Active / Tier-2 / dormant / special classification, responsibility classes | `PROME/ROSTER.md` |
 | Detailed transmission topology (mermaid map + route summary) | `AGENTS/_NETWORK.md` |
 | Grouped directory navigation | `AGENTS/_INDEX.md` |
