@@ -1,64 +1,42 @@
-# BRENT SCRATCH — October 4, 2026 (Sunday; PROME prome-ed L0 due-row spawn, D:L297; boot 11:36 ET, closeout 11:5x ET by `date`)
+# BRENT SCRATCH — October 4, 2026 (Sunday evening boot; 21:34–21:4x ET)
 
 ## CHANGES SINCE LAST SESSION
-- **Sat 10/3:**
-  - **Riyadh Aramco refinery fire.** Fire witnessed (Reuters, AFP); the Houthis claimed it; no Saudi or Aramco statement.
-  - **US diesel ban:** Trump "not going to be doing a diesel export ban" (Reuters 10/2 22:19 GMT, per WALTER).
-  - Also: the Camp David Iran meeting and the Zelenskyy refinery-strike step-up.
-- **Sun 10/4:**
-  - **OPEC+ (seven countries) held November** at September/October levels. Next meeting 1 Nov. The 68th JMMC also met; next JMMC 29 Nov.
-  - Iran restated its Hormuz closure conditions. UKMTO 150-26 issued. FALCON owns both.
-- **Markets were closed for the whole window.** No settle has printed since 10/2.
+- Futures reopened: crude initially rallied on the Houthi Saudi/Khurais claim, then fully faded below Friday vendor references by 21:33 ET; equities modestly green, gold/silver and Treasury futures firmer.
+- FALCON's own FIRMS pull establishes fresh heat at the 9/10 corridor spot, but the facility, cause and any production/throughput loss remain UNKNOWN.
+- Iraq's state-tanker VLCC is a commercial delivery change, not a Hormuz bypass. The viral IEA 325M figure is cumulative, not a fresh release.
+- Qatar's winter LNG warning is JERA CEO Yukio Kani's buyer-side expectation, not a QatarEnergy confirmation; force majeure is through November for Asia and December for Europe.
 
 ## WHAT I DID THIS SESSION
-- **OPEC+ graded at the Secretariat primary, day zero: OUTCOME (1) MET**, the second consecutive hold. → [note](research/2026-10-04_opec-november-grade/NOTE.md)
-  - **Spare re-pulled 0.02 mb/d** (EIA API, STEO 9/9 vintage, single-agency) ⇒ near-zero physical.
-  - Expected ⇒ no gap for Monday's open.
-- **CATALYSTS:** the 10/04 row graded; successors **11/01** (the December decision) and **11/29** (69th JMMC). Calendar re-rendered.
-- **L0:** 10 of 11 WALTER items logged in `board_log` and `git mv`'d. **-016 (Qatar LNG) left UNCONSUMED in the inbox:** its Bloomberg primary was not reached.
-- **STATUS:** rotated from 80% → 70% of budget. Receipt: `archive/STATUS_dated_2026-10-04_rotation.md` 3695 B, crc32 `31c9d64b`.
-- **Also updated:** CHANGELOG 10/04 entry (v5.11 unchanged) · TRACKER SCOPED-PARTIAL re-stamp · NEXUS_BRIEF banner + SENDING row.
-- **$0.** No trade, band, threshold or score change.
+- Ran full boot twice: sandbox run exposed DNS non-coverage; networked rerun completed. Live threshold board: Brent futures >$100; HY OAS 3.24% (10/1); retail gas $4.465 (9/28). EIA wk-9/25 complete. Boot remains FINDINGS because tanker-liveness is closed-market/stale, four ACTIVE incident rows need re-verification, and LESSONS_INDEX is stale.
+- Pulled named energy contracts and the equity/metals/rates futures complex at 21:33 ET; wrote [evening note](research/2026-10-04_evening-futures/NOTE.md).
+- Processed WALTER -016/-010/-011/-014: four board-log rows and four `git mv` archive moves. Corrections check passed (0 unreceipted).
+- Updated STATUS, TRACKER and NEXUS_BRIEF. No threshold, gate, prediction, thesis version or trade state moved. **$0.**
+- Git pull was prohibited: PROME and WALTER had uncommitted changes outside BRENT at boot. Local tree may not include an unpulled remote commit.
 
-## NEXT SESSION — ⏰ ARMED
-1. **Mon 10/5:** Aramco November OSPs (CATALYSTS 10/05).
-   - **Riyadh refinery:** watch for an operator statement. If damage is established, log it to INCIDENTS as ATTACKED/DAMAGED (check FALCON's Gulf STRIKES.tsv first).
-   - **-016 Qatar:** verify at the Bloomberg primary, then consume.
-2. **Tue 10/6:**
-   - Oct STEO: re-read `COPS_OPEC`. Does the 0.02 mb/d / Apr-2027 recovery path move?
-   - WQ-252 crack-month sitting (L471).
-   - SPR exchange bids close 12:00 ET.
-3. **Wed 10/7 10:30 WPSR:** Cushing, distillate stocks/exports, SPR draw.
-4. **~Thu 10/8:** China guidance. Before then, the 1-min bars for the 10/2 rows expire (already used).
-5. **Fri 10/9:**
-   - USO $150C expires (Will; sell-or-roll).
-   - COT-35B #9 (as-of 10/6). Grade it; never stack prints.
-6. **Wed 10/14:** IEA OMR. Also the VLO-HELD-01 leg A suspension date.
-7. **Thu 10/15 12:00:** WPSR + BRT-31 first print.
-8. **~10/22:** G7 first diesel window; VLO Q3 earnings.
-9. **Sun 11/1:** OPEC+ December decision (successor row; re-pull spare first).
-10. **Owed, carried:**
-    - INCIDENTS: Kuibyshev + Bashneft-UNPZ · Volgograd/Samara · Riyadh (above) · 4 ACTIVE rows past 60d.
-    - TANKER-LIVENESS human stamp: 60d old, boot BLOCKING.
-    - LESSONS_INDEX stale +8d.
-    - TRADE.md not re-checked against FORGE since `d97eba708`.
+## NEXT SESSION (dated, future-verifiable)
+1. **Mon 10/5:** Aramco November OSPs. Check for Aramco/MoE/SPA identification of the 25.252N 48.103E facility or a throughput/production statement; FIRMS alone never counts.
+2. **Mon 10/5 regular session:** confirm broker truth for USO Oct-09 $150C ×1 and VLO ×1; do not infer from the 10/1 capture.
+3. **Tue 10/6:** October STEO `COPS_OPEC`; WQ-252 crack-month sitting; SPR exchange bids close 12:00 ET.
+4. **Wed 10/7 10:30:** WPSR — Cushing, distillate stocks/exports, SPR draw.
+5. **~Thu 10/8:** China product-export guidance after Golden Week.
+6. **Fri 10/9:** USO $150C sell-or-roll hard stop 15:00 ET; COT-35B #9 (as-of 10/6) after ~15:30 ET.
+7. **Wed 10/14:** IEA OMR and VLO-HELD-01 leg-A suspension date; Thu 10/15 WPSR/BRT-31 first print.
+8. **Owed:** Kuibyshev/Bashneft-UNPZ + Volgograd/Samara + Riyadh incident follow-ups; four ACTIVE rows >60d; tanker-liveness human stamp; LESSONS_INDEX stale; TRADE/FORGE broker mirror after 10/1.
 
 ## OPEN THREADS / WATCHES
-- 🟠 **US diesel export ban:** principal-denied (Trump, 10/2, per WALTER); nothing signed either way.
-  - The B1 letter is unchanged: a signed restriction still fires.
-  - "Allies" scope (Mexico/USMCA) is unresolved.
-- 🟠 **Riyadh refinery:** damage UNKNOWN; not material to VLO-HELD-01 on present evidence.
-- 🟠 **G7 release mechanics:** split, volumes, start of draws.
-- 🟠 **China halt:** size UNKNOWN.
+- 🔴 **Saudi corridor heat:** wait for a counting source naming the facility class and loss. Do not price a production hit from FIRMS.
+- 🟠 **US diesel/export policy + G7 release:** 100M is the remaining March commitment over four months; diesel amount/split and actual draw schedule UNKNOWN. Principal denied a ban, but B1's signed-text letter remains live.
+- 🟠 **Qatar LNG:** buyer expects no quick recovery; force-majeure dates are established, full-winter outage is not Qatar-confirmed.
+- 🟠 **China product halt:** size UNKNOWN pending guidance/data.
 
 ## POSITION DECISIONS PENDING
-- **USO Oct-09 $150C ×1:** Will's hand (sell-or-roll; TERRY's 15:00 stop on 10/9).
-- **VLO 1 sh:** VLO-HELD-01 (TERRY grades).
-- **USO 37 sh:** hand-managed (WQ-200).
-- **WQ-192 STAND DOWN** stands.
-- The OPEC+ grade changes none of these.
+- **USO Oct-09 $150C ×1:** recorded open as of 10/1; Will's hand; sell-or-roll by Fri 10/9 15:00 ET. TERRY's 10/2 lean was SELL, but execution since 10/1 is UNKNOWN.
+- **VLO 1 sh:** VLO-HELD-01; Sunday rounded product quotes do not grade the settlement rule. B1 not fired.
+- **USO 37 sh:** hand-managed (WQ-200). **WQ-192 STAND DOWN** remains binding.
 
 ## MAIL STATE
-- **Inbox:** the WALTER lane has 1 item left (-016, deliberately unconsumed). Top level is empty.
-- **Sent:** PROME packet `PROME/inbox/2026-10-04_from-BRENT_L297-opec-november-grade.md`.
-- **Outbox:** nothing open.
+- **Inbox:** WALTER lane clear; top-level clear.
+- **Outbox:** clear.
+
+## WORKBOOK HEALTH
+- `workbook/LESSONS_INDEX.tsv` is 10d stale vs STATUS; boot nudge also names TRADE, INCIDENTS, COT_VINTAGES and REGISTRY as behind in STATUS-write count, though only LESSONS_INDEX breaches its time budget.

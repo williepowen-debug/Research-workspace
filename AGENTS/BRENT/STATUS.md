@@ -1,10 +1,17 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-10-04 11:4x ET — scoped to the OPEC+ grade only:** OPEC Secretariat 4 Oct statements (seven-country + 68th JMMC) · EIA STEO COPS_OPEC via API (9/9 vintage) · web checks on the 10/03 Riyadh fire. Everything else below is **2026-10-02 PM vintage — scoped:** 10/2 settle-window proxies (yfinance 1-min VWAP 14:28–29, NOT CME) · CFTC raw `f_disagg.txt` ×2 (9/29 vintage) · FRED Dated Brent/WTI spot (9/29) · GIE AGSI+ (9/30) · ATA Aug tonnage · Yanbu berth capture (9/30) · INCIDENTS re-verify sources (research/2026-10-02_incidents-reverify) · news to ~17:00 ET (G7 release, EU ally statement, OPEC+ preview, Aramco Oct OSP). Not re-verified: WPSR (wk-9/25), retail diesel, JWC (11:1x ET read stands), rigs (routine 456, secondary).
+**Last real data refresh: 2026-10-04 21:44 ET — scoped to Sunday-evening tape + new WALTER items:** named-contract vendor quotes 21:33 ET (forming Globex session, NOT settles) · Reuters 22:02Z attack-headline snapshot · G7 primary statement · Bloomberg licensed republications for Qatar LNG / Iraq VLCC · FALCON own FIRMS pull. Earlier today: OPEC Secretariat 4 Oct statements + EIA STEO COPS_OPEC (9/9 vintage). Everything else below is **2026-10-02 PM vintage — scoped:** settle-window proxies (NOT CME) · CFTC 9/29 · FRED spot 9/29 · GIE 9/30 · ATA Aug · Yanbu 9/30 · incident review. Not re-verified: WPSR beyond wk-9/25, retail diesel, JWC, rigs beyond 10/2.
 
 ---
 
 # ⚡ CURRENT STATE — *read this first. Dated blocks follow newest first; STANDING STATE is the hot half; ARCHIVE INDEX is history.*
+
+
+## October 4 (Sun, 21:44 ET) — **ATTACK-HEADLINE RALLY FULLY FADED; NO CONFIRMED NEW OIL LOSS**
+
+**Live, forming Globex session — vendor quotes, NOT settlements:** Dec Brent (`BZZ26.NYM`) **$101.67** vs Friday vendor ref $102.25 (−$0.58 / −0.57% [EST]) · Nov WTI (`CLX26.NYM`) **$90.24** vs $91.11 (−$0.87 / −0.95% [EST]) · Nov ULSD **$4.52/gal** vs $4.50 · Nov gas **$3.03** vs $3.04. Reuters captured the initial Houthi-claim rally at 18:02 ET: Brent **$103.06**, WTI **$91.57**. By 21:33 both were below Friday references ⇒ the headline premium faded ~**$1.39 / $1.33** from Reuters' snapshot. This does not prove no damage; it matches the evidence state: **fresh FIRMS heat, facility/cause UNKNOWN, no counting source and no measured production loss.** Cross-asset: ES +0.18% [EST], NQ +0.47%, gold +0.51%, silver +2.78%, 10Y-note price firmer. → [evening note](research/2026-10-04_evening-futures/NOTE.md)
+
+**Adjudications:** FALCON's new 10/03–04 FIRMS heat at 25.252N 48.103E is real (peak 229 MW), but **BG-02 R1 NOT MET** and the lapsed instance does not reopen · Iraq's ~2M-bbl state-tanker cargo still sails **through Hormuz** (marketing reach, NOT bypass capacity) · Qatar winter warning is **JERA CEO buyer-side expectation**, not QatarEnergy confirmation (FM Asia→Nov, Europe→Dec; Sep Qatar/UAE transit still 80% below Feb per Kpler/Bloomberg) · **IEA 325M is cumulative**, not a new Sunday release; live G7 item is the remaining 100M over four months with diesel front-loaded. **Nothing fires; THESIS v5.11 and WQ-192 STAND DOWN unchanged; $0.**
 
 
 ## October 4 (Sun, 11:4x ET by `date`; BRENT L0 spawn, D:L297) — **OPEC+ NOVEMBER HELD, outcome (1) · near-zero physical**
