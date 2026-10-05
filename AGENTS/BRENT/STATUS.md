@@ -1,19 +1,19 @@
 # BRENT STATUS
 
-**Live-deployment follow-up 2026-10-04 23:02 ET:** unresolved. This session has no Claude routine/RemoteTrigger CRUD or readback capability; no live prompt or connector changed. Exact four-routine manual handoff and normal-run acceptance criteria are in the [CATO correction report](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et). Saved repair remains complete; live deployment and first-run acceptance remain separate. No registered state moved.
+**Next-session research 2026-10-04 23:25 ET:** Aramco cut November Arab Light into Asia from **−$2 to −$5/bbl** vs Oman/Dubai, raised NW Europe and Mediterranean prices **$3**, and left U.S. prices unchanged. The regional split points to placement/logistics pressure rather than uniform Saudi scarcity and strengthens the “no confirmed new oil loss” read. It does not prove Petroline throughput or zero loss; Riyadh/Khurais damage remains unknown. Reuters 02:40 GMT: Brent **$101.59**, WTI **$90.12**, live quotes, not settles. Nothing registered moved. → [evidence](research/2026-10-04_aramco-november-osp/NOTE.md)
 
-**Correction closeout 2026-10-04 22:48 ET:** CATO BU1–BU7 dispositioned. Parser/IATA/OPEC/Riyadh surfaces repaired; saved routines corrected. Live prompt/connectors require Will's UI action. No registered state moved. → [report](audits/2026-10-04_cato-correction/REPORT.md)
+**Routine deployment is parked** at the [CATO correction handoff](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et) until a Claude session has working routine controls. Saved repair is complete; live deployment and first-run acceptance remain unresolved and separate.
 
-**Last real data refresh: 2026-10-04 21:44 ET — scoped to Sunday-evening tape + new WALTER items:** named-contract vendor quotes 21:33 ET (forming Globex session, NOT settles) · Reuters 22:02Z attack-headline snapshot · G7 primary statement · Bloomberg licensed republications for Qatar LNG / Iraq VLCC · FALCON own FIRMS pull. Earlier today: OPEC Secretariat 4 Oct statements + EIA STEO COPS_OPEC (9/9 vintage). Everything else below is **2026-10-02 PM vintage — scoped:** settle-window proxies (NOT CME) · CFTC 9/29 · FRED spot 9/29 · GIE 9/30 · ATA Aug · Yanbu 9/30 · incident review. Not re-verified: WPSR beyond wk-9/25, retail diesel, JWC, rigs beyond 10/2.
+**Last real data refresh: 2026-10-04 23:25 ET — scoped to Aramco November OSP, Reuters 02:40 GMT market/export update and Saudi-confirmation check.** Earlier Sunday evidence: named-contract quotes 21:33 ET · Reuters 22:02Z attack-headline snapshot · G7 primary · OPEC Secretariat · FALCON FIRMS. Everything else below is **2026-10-02 PM vintage — scoped:** WPSR wk-9/25 · CFTC 9/29 · FRED spot 9/29 · GIE 9/30 · ATA Aug · incident review. Not re-verified: retail diesel, JWC, rigs beyond 10/2.
 
 ---
 
 # ⚡ CURRENT STATE — *read this first. Dated blocks follow newest first; STANDING STATE is the hot half; ARCHIVE INDEX is history.*
 
 
-## October 4 — **NO CONFIRMED NEW OIL LOSS; OPEC+ NOVEMBER HOLD VERIFIED**
+## October 4 — **ARAMCO PRICES PLACEMENT, NOT UNIFORM SCARCITY; NO CONFIRMED NEW LOSS**
 
-Sunday named-contract vendor quotes (not settles) ended below Friday references after the attack-headline rally; FIRMS heat had no identified facility or measured loss, so BG-02 stayed NOT MET. OPEC's statement verified a second monthly paper-quota hold. EIA's 0.02 mb/d series is September-vintage and OPEC-only, so the seven-country physical effect and any event-window price gap remain unquantified. Riyadh fire damage/throughput/materiality remain UNKNOWN. Nothing fired; THESIS v5.11, WQ-192 and all registered lines stayed unchanged. **$0.** → [evening evidence](research/2026-10-04_evening-futures/NOTE.md) · [OPEC/Riyadh correction](research/2026-10-04_opec-november-grade/NOTE.md)
+November OSPs resolved the Monday question before the modeled date: Asia Arab Light was cut another $3 to **−$5**, Europe/Mediterranean were raised $3, and U.S. prices held. That is direct commercial evidence against immediate across-the-board Saudi scarcity and is consistent with resumed westbound optionality plus costly Asian placement. It is not a throughput measure. Riyadh/Khurais damage and loss remain UNKNOWN; no Saudi confirmation was found in Reuters' 02:40 GMT update. Nothing fired; THESIS v5.11, WQ-192 and registered state stay unchanged. **$0.** → [OSP evidence](research/2026-10-04_aramco-november-osp/NOTE.md) · [evening tape](research/2026-10-04_evening-futures/NOTE.md) · [OPEC/Riyadh](research/2026-10-04_opec-november-grade/NOTE.md)
 
 > **Rotated 2026-10-04 22:5x ET:** the detailed evening-tape and OPEC blocks → [archive](archive/STATUS_dated_2026-10-04_evening-and-opec.md), 2,424 UTF-8 payload bytes, crc32 `b3924829`; payload rule recorded in the archive header.
 
@@ -72,7 +72,7 @@ Sunday named-contract vendor quotes (not settles) ended below Friday references 
 | **Thu Oct 1** | ✅ EU STORAGE 80% FLOOR — DECISION DATE — GRADED 2026-10-02 14:10 ET: window OPENED at 71.64% (gas day 9/30) ⇒ 8.36pp BELOW the 80% floor; lowest of 6 years for the date (5y min 74.71%) | 🟠 |
 | **Fri Oct 2** | ✅ EU ENERGY TASKFORCE — meets on a possible release of emergency DIESEL stocks (US pressing FR/DE for 120M bbl over 6 months, WALTER SIG-W-20261001-026) — GRADED 2026-10-02 09:3x ET: MET,… | 🟠 |
 | **Sun Oct 4** | ✅ OPEC+ SEVEN-COUNTRY MONTHLY MEETING — November 2026 decision — GRADED 2026-10-04 11:3x ET: OUTCOME (1) NOVEMBER HELD at September/October required production (2nd consecutive monthly ho… | 🟠 |
-| **~Mon Oct 5** ⌁*modeled* | 🟠 ARAMCO NOVEMBER OSPs — first monthly price signal set entirely under the Petroline shut | 🟠 |
+| **~Mon Oct 5** ⌁*modeled* | ✅ ARAMCO NOVEMBER OSPs — GRADED 2026-10-04: Asia CUT to −$5; NW Europe/Mediterranean raised $3; US unchanged | 🟠 |
 | **Tue Oct 6** | EIA October STEO — successor same-series vintage read | 🟠 |
 | **Tue Oct 6** | SPR EXCHANGE (up to 40M bbl, Big Hill + Bryan Mound) — BIDS CLOSE 11:00 CT; awards follow | 🟠 |
 | **~Thu Oct 8** ⌁*modeled* | CHINA PRODUCT-EXPORT HALT — Beijing guidance after Golden Week (holiday ends 10/7) | 🟠 |
@@ -97,6 +97,6 @@ Sunday named-contract vendor quotes (not settles) ended below Friday references 
 
 ## SUMMARY FOR WILL
 
-*(2026-10-04, 22:48 ET; correction closeout, no new market refresh)* OPEC+ November hold verified; physical/price effect unquantified. Riyadh loss/materiality unknown. EIA parser and IATA August repaired/ingested; 70 tests pass. Saved routines corrected; live prompts/connectors require Will's UI reconciliation. USO Oct-09 $150C still needs broker confirmation and reaches its sell-or-roll deadline Friday. [Correction report](audits/2026-10-04_cato-correction/REPORT.md). No registered state moved. **$0.**
+*(2026-10-04, 23:25 ET)* **Monday's Aramco signal is not scarcity:** November Arab Light Asia **−$5** (October −$2), NW Europe/Mediterranean **+$3 m/m**, U.S. unchanged. This strengthens the no-confirmed-new-loss assessment but does not prove restored throughput; Riyadh/Khurais loss remains unknown. Next decisive observation is operator/counting evidence for sustained post-10/3 Saudi production/export or Petroline/Yanbu throughput. Routine deployment remains parked at the [CATO handoff](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et). No registered state moved. **$0.**
 
 *(Prior: 10/2 16:55 → [archive](archive/STATUS_summary-for-will_2026-10-02_PM.md), 894 B crc32 `8063742b`; 10/2 midday → [archive](archive/STATUS_dated_2026-10-02_midday.md); 10/2 AM → [archive](archive/STATUS_dated_2026-10-02_AM.md); 10/1 + 9/30 → [archive](archive/STATUS_summary-for-will_2026-10-01_and_09-30.md), 1699 B crc32 `4ef5c581`.)*

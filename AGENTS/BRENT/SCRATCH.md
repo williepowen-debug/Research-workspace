@@ -1,30 +1,29 @@
-# BRENT SCRATCH — October 4, 2026 (CATO live-deployment follow-up; 22:56–23:02 ET)
+# BRENT SCRATCH — October 4, 2026 (Aramco November OSP; 23:25 ET)
 
 ## CHANGES SINCE LAST SESSION
 
-- No new market, registered-line, gate, prediction, thesis or trade observation.
-- The requested live deployment could not be performed: this session exposes no Claude routine/RemoteTrigger list, read, update or export control.
+- Aramco's November slate printed before the modeled October 5 date: Arab Light Asia **−$5/bbl** vs Oman/Dubai, down $3 from October; NW Europe and Mediterranean prices rose $3; U.S. prices were unchanged.
+- Reuters' 02:40 GMT update still had no Saudi confirmation of the latest Riyadh/Khurais claim. Brent $101.59 and WTI $90.12 were live quotes, not settles.
 
 ## WHAT I DID THIS SESSION
 
-- Started from pushed commit `7a3829487`; preserved its repairs and concurrent WALTER/PROME work.
-- Audited the callable tool manifest, `claude --help`, `claude agents --json` and `claude mcp list`. Available automation tools address ChatGPT Pages/Sites, not Claude routines; the CLI has no routines command; no routine MCP server is configured.
-- Independently re-read and hashed all four corrected after-images. Their full SHA-256 values reproduce the registry.
-- Added the exact four-ID manual deployment table, prompt links, Thursday connector-removal list, live readback requirements and normal-run acceptance criteria to [the correction report](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et).
-- No extra acceptance run was launched. **$0.**
+- Parked live routine deployment at the existing CATO report handoff, per Will; no routine object or saved prompt changed.
+- Graded the Aramco OSP catalyst and wrote [the evidence note](research/2026-10-04_aramco-november-osp/NOTE.md), separating October baseline, current slate, live tape and inference.
+- Assessment: the regional split is consistent with Asian placement/freight pressure and restored westbound optionality, not uniform Saudi scarcity. It strengthens “no confirmed new loss” but does not prove full physical restoration.
+- No registered line, gate, prediction, thesis version or trade state moved. **$0.**
 
 ## NEXT SESSION (dated, future-verifiable)
 
-1. **Manual deployment:** at `https://claude.ai/code/routines`, replace each of the four prompts from the report table; preserve unrelated settings. On Thursday remove Gmail, Claude_Docs, Google_Drive, Quartr, Claude_Code_Remote and Canva.
-2. **Configuration verification:** save, reopen and export/re-fetch every live object; compare prompt bytes/hashes and confirm Thursday has zero connectors. Until then deployment is UNRESOLVED.
-3. **Normal-run acceptance only:** Mon 10/5 current thresholds/full Git receipt; Wed 10/7 one wk-10/2 core record; Thu 10/8 no duplicate core but supporting checks continue; Fri 10/9 current COT if posted; Wed 10/14 pending-publication → Thu 10/15 one wk-10/9 read.
+1. **Mon 2026-10-05:** check for an Aramco/Saudi Energy Ministry/SPA statement or a matched post-10/3 Saudi production/export/Petroline-Yanbu series. Keep Riyadh/Khurais loss UNKNOWN absent one.
+2. **Tue 2026-10-06:** read the October STEO successor vintage; keep OPEC-only coverage distinct from the seven OPEC+ participants.
+3. **Wed 2026-10-07 10:30 ET:** ingest WPSR wk-10/2 with the repaired structural parser during the normal run.
+4. **Routine deployment:** resume only in a Claude session with working routine controls, from the exact handoff in `audits/2026-10-04_cato-correction/REPORT.md`; first-run acceptance waits for normal scheduled runs.
 
 ## OPEN THREADS / WATCHES
 
-- Saved-file repair: complete.
-- Verified live deployment: unresolved on missing routine-control capability / Will UI action.
-- First-run acceptance: pending after verified deployment; no synthetic run authorized.
-- Existing OPEC/Riyadh evidence dependencies and market calendar are unchanged from the prior closeout.
+- 🔴 Saudi physical confirmation: actual facility, damage, sustained throughput/export loss and duration remain unknown.
+- 🟠 OSP inference needs physical confirmation: several matched export/loadings days can validate or reject the placement read.
+- 🟡 October 22 is the modeled end of the G7 release's first 20-day diesel window.
 
 ## POSITION DECISIONS PENDING
 
@@ -32,8 +31,9 @@
 
 ## MAIL STATE
 
-- No inbox packet consumed or authored. Unrelated WALTER/PROME dirty files remain untouched.
+- Inbox: no packet consumed.
+- Outbox: no packet authored; the NEXUS brief carries the cross-domain signal.
 
 ## WORKBOOK HEALTH
 
-- No ledger, registered line or workbook value changed. Frozen files remain untouched.
+- Aramco catalyst graded. Registered alert lines unchanged; next WPSR 10/7 and COT 10/9.
