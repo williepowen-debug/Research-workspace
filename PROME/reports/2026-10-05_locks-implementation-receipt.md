@@ -40,3 +40,17 @@ python3 scripts/install-claude-hooks.py
 ```
 
 The server protection already applies to both machines. Local settings/configuration do not travel via Git. Existing unrelated boot state and earlier review records are excluded from the implementation commit; no full session closeout is claimed by this receipt.
+
+## Subsequent verification supplied by Will, 2026-10-05
+
+Will pasted the reviewer's report of testing a clean checkout of implementation commit `2a72c60bc`, rather than this receipt. Reviewer reports: all 14 safeguard tests pass; claim-check on Python 3.11 passes 36/36; pipeline selftest passes 36/36; native install is idempotent; subject boundaries/multiline/comment/multibyte cases behave as intended; missing message/no argument refused; push ancestry/deletion cases behave as intended; advisory payload has no permissionDecision; all settings commands are scoped and retain conditional fallback. This supplies clean-checkout Python 3.11 evidence for the actual committed implementation; it is reviewer-performed, not a local 3.11 run. No new repair or commissioned review round follows from this sourced receipt.
+
+Reviewer confirms the agreed editor-comment limitation and warns to install on the laptop immediately after pulling: a custom hooksPath or active default hook deliberately prevents installation and makes safe-push abort until the conflict is resolved. Laptop configuration remains UNKNOWN from this desktop.
+
+Reviewer cannot inspect GitHub settings. PROME therefore obtained another direct GET of `repos/williepowen-debug/Research-workspace/branches/master/protection` using the authenticated GitHub CLI. Observed projection:
+
+```json
+{"deletions":false,"enforce_admins":true,"force_pushes":false,"linear_history":false,"required_pull_request_reviews":null,"required_status_checks":null,"restrictions":null}
+```
+
+This is settings readback, not a prohibited test push. No code, local configuration or server settings changed during this subsequent verification.
