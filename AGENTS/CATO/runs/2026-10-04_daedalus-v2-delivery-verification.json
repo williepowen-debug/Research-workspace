@@ -1,0 +1,112 @@
+{
+  "observed_head": "1d6b382638e4e1abf6eac35844d2f0df1796559f",
+  "origin_head": "1d6b382638e4e1abf6eac35844d2f0df1796559f",
+  "commit": "06d38a6afa2bff868b57a9821a5ea26558c5303d",
+  "parent": "f5e2516fbdb50de88ca937e1d9fbeb9f39e75db6",
+  "candidate_files": [
+    {
+      "path": "AGENTS/DAEDALUS/scripts/daedalus_gate.py",
+      "parent_match": true,
+      "commit_match": true,
+      "current_match": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/design/2026-09-17_DAEDALUS_GATE_SPEC.md",
+      "parent_match": true,
+      "commit_match": true,
+      "current_match": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/CLAUDE.md",
+      "parent_match": true,
+      "commit_match": true,
+      "current_match": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/STATUS.md",
+      "parent_match": true,
+      "commit_match": true,
+      "current_match": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/HANDOFF.md",
+      "parent_match": true,
+      "commit_match": true,
+      "current_match": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD.md",
+      "parent_match": true,
+      "commit_match": true,
+      "current_match": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_SELFTEST.txt",
+      "parent_match": true,
+      "commit_match": true,
+      "current_match": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_SCOPE.json",
+      "parent_match": true,
+      "commit_match": true,
+      "current_match": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_CALLERS.txt",
+      "parent_match": true,
+      "commit_match": true,
+      "current_match": true
+    }
+  ],
+  "review_evidence": [
+    {
+      "path": "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_REVIEW.md",
+      "commit_hash_match": true,
+      "current_equals_commit": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_REVIEW.json",
+      "current_equals_commit": true
+    }
+  ],
+  "delta_paths": [
+    "AGENTS/DAEDALUS/CLAUDE.md",
+    "AGENTS/DAEDALUS/HANDOFF.md",
+    "AGENTS/DAEDALUS/STATUS.md",
+    "AGENTS/DAEDALUS/design/2026-09-17_DAEDALUS_GATE_SPEC.md",
+    "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD.md",
+    "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD_REVIEW.md",
+    "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_CALLERS.txt",
+    "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_REVIEW.json",
+    "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_SCOPE.json",
+    "AGENTS/DAEDALUS/runs/2026-10-04_CLOSEOUT_BOUNDARY_SELFTEST.txt",
+    "AGENTS/DAEDALUS/runs/GATE_LOG.tsv",
+    "AGENTS/DAEDALUS/scripts/daedalus_gate.py"
+  ],
+  "unexpected_paths": [],
+  "missing_candidate_paths": [],
+  "receipt_sha256": "29d164f43bf399e06c70de2adb7e9c61b90b22a132453d3cd7b84598da369bf6",
+  "boundary_digest_match": true,
+  "receipt_before_after_equal": true,
+  "step_states": {
+    "C0": "UNKNOWN",
+    "C1": "CLEAN",
+    "C2": "NOT-APPLICABLE",
+    "C3": "DUE",
+    "C4": "CLEAN",
+    "C5": "CLEAN",
+    "C6": "CLEAN",
+    "C7": "CLEAN",
+    "C8": "CLEAN",
+    "C9": "CLEAN",
+    "C10": "DECLARED"
+  },
+  "fresh_origin_membership": {
+    "06d38a6af": true,
+    "254c397fc": true
+  },
+  "selftest_exit_code": 0,
+  "selftest_stdout": "GATE selftest \u2014 DAEDALUS \u00b7 20261005T003943Z \u00b7 HEAD d51e09b94\n  \u2705 T0  CLEAN           clean child\n      \u21b3 child rc 0\n  \u23f0 T1  DUE             DUE child (sweeps_due-shaped rc 1)\n      \u21b3 child rc 1 = owed work per its contract\n        \u00b7 DUE: x\n  \u2753 T2  UNKNOWN         cannot-certify child\n      \u21b3 child rc 2 = cannot-certify / outside its contract\n        \u00b7 CANNOT-CERTIFY\n  \u274c T3  BLOCKING        A5 pipe-proof: prints clean, exits 1\n      \u21b3 child rc 1 = defect per its contract\n  \u2753 T4  UNKNOWN         A1 missing child\n      \u21b3 child not runnable: [Errno 2] No such file or directory: '/nonexistent/check.py'\n\nGATE selftest rc=2 \u00b7 checked: 5 steps ['T0', 'T1', 'T2', 'T3', 'T4'] \u00b7 NOT checked (declared/enumerated only): [] \u00b7 proves nothing about: completion of work beyond complete_check's legs, owner consumption of packets, the truth of any DECLARED value, or anything a child's own PASS line disclaims.\n  counts: BLOCKING 1 \u00b7 CLEAN 1 \u00b7 DUE 1 \u00b7 UNKNOWN 2\n  receipt: /tmp/tmpyp3o1qs6/rcpt/20261005T003943Z_selftest.json (sha a9320c8c) \u2014 fingerprint 3b17513bd058\nGATE selftest-due \u2014 DAEDALUS \u00b7 20261005T003943Z \u00b7 HEAD d51e09b94\n  \u2705 T0  CLEAN           clean child\n      \u21b3 child rc 0\n  \u23f0 T1  DUE             DUE child (sweeps_due-shaped rc 1)\n      \u21b3 child rc 1 = owed work per its contract\n        \u00b7 DUE: x\n\nGATE selftest-due rc=0 \u00b7 checked: 2 steps ['T0', 'T1'] \u00b7 NOT checked (declared/enumerated only): [] \u00b7 proves nothing about: completion of work beyond complete_check's legs, owner consumption of packets, the truth of any DECLARED value, or anything a child's own PASS line disclaims.\n  counts: CLEAN 1 \u00b7 DUE 1\n  receipt: /tmp/tmpyp3o1qs6/rcpt/20261005T003943Z_selftest-due.json (sha e136c167) \u2014 fingerprint 3b17513bd058\n\u2705 VALID \u2014 receipt 20261005T003943Z selftest still matches this fingerprint (HEAD d51e09b94); IDENTITY ONLY, checks/review may have failed\n\u274c INVALIDATED \u2014 tree changed (own dir / scripts diff or untracked set). Re-run the gate; do not cite this receipt.\n\nSELFTEST PASS \u2014 A1 A3 A4 A5 A8 A12 + class map exercised (fixtures; \u00a73e real cases are in the build record)\n  PASS candidate: stable boundary and bookkeeping write\n  PASS candidate: authored external packet changed after checks\n  PASS candidate: substantive own output changed after checks\n  PASS candidate: required dependency changed after checks\n  PASS candidate: during-check external edit persists as invalid after restoration\n  PASS candidate: endpoint-only transient revert limitation disclosed\n  PASS candidate: matching bytes with BLOCKING is not acceptance\n  PASS candidate: mixed required UNKNOWN preserves BLOCKING details\n  PASS candidate: maintenance UNKNOWN plus BLOCKING remains blocked\n  PASS candidate: DUE and maintenance UNKNOWN stay explicit debt\n  PASS candidate: required UNKNOWN withholds eligibility\n  PASS candidate: review missing remains unknown\n  PASS candidate: review changed-report remains unknown\n  PASS candidate: review stale remains unknown\n  PASS candidate: review qualified remains unknown\n  PASS candidate: review exemption follows explicit scope policy\n  PASS candidate: malformed receipt legacy\n  PASS candidate: malformed receipt missing-row\n  PASS candidate: malformed receipt duplicate-row\n  PASS candidate: malformed receipt bad-class\n  PASS candidate: malformed receipt missing-reason\n  PASS candidate: malformed receipt digest\n  PASS candidate: malformed receipt scope\n  PASS candidate: reject scope unclassified\n  PASS candidate: reject scope excluded-substantive\n  PASS candidate: reject scope missing-input\n  PASS candidate: reject scope missing-step\n  PASS candidate: reject scope context-limit\n  PASS candidate: reject scope missing-new-candidate\n  PASS candidate: reject scope unsafe-path\n  PASS candidate: reject scope inside-receipts\n  PASS candidate: optional absence becoming present invalidates\n  PASS candidate: dependency glob membership addition invalidates\n  PASS candidate: executable mode drift invalidates\n  PASS candidate: tracked candidate deletion matches actual commit\n  PASS candidate: rename binds old deletion and new bytes\n  PASS candidate: symlink target bytes are bound\n  PASS candidate: directory symlink traversal rejected\n  PASS candidate: current day rollover invalidates\n  PASS candidate: historical day retained and explicitly disclosed\n  PASS candidate: relevant history drift despite identical current bytes\n  PASS candidate: unrelated HEAD before and after exact candidate commit\n  PASS candidate: actual commit mismatch extra\n  PASS candidate: actual commit mismatch missing\n  PASS candidate: actual commit mismatch staged-bytes\n  PASS candidate: actual commit mismatch staged-mode\n  PASS candidate: actual commit mismatch parent-mode\n  PASS candidate: actual commit mismatch missing-review\n  PASS candidate: fresh origin advanced\n  PASS candidate: fresh origin absent\n  PASS candidate: fresh origin fetch-failed\n  PASS candidate: real runner own log does not invalidate immediate verification\n  PASS candidate: real runner captures mutation during checks permanently\n  PASS candidate: real runner binds OLD NEW and memory slug declarations\n  PASS candidate: malformed historical context array returns UNKNOWN\n  PASS candidate: review report symlink cannot attest unchecked target bytes\n  PASS candidate: substantive runs report is not a directory-wide exclusion\n  PASS candidate: running checker source mutation invalidates boundary\n  PASS candidate: new untracked external candidate change invalidates\n  PASS candidate: required dependency disappears and remains UNKNOWN\n  PASS candidate: checker printing CLEAN while mutating dependency is rejected\n  PASS candidate: declared timezone context changes invalidate current reuse\n  PASS candidate: Git raw blob conversion rejected against checked bytes\n  PASS candidate: staged revert rejected despite matching working bytes\n  PASS candidate: unchanged included artifact binds commit tree\n  PASS candidate: DUE only remains owed with permitted delivery\nCANDIDATE SELFTEST: 66 passed, 0 failed\n",
+  "limits": "Independent author-suite rerun and bounded source/identity review. Not a fresh operational closeout or exhaustive dependency audit; no owner repairs/hosted content tested."
+}
