@@ -1,0 +1,31 @@
+M	AGENTS/HENRY/LAST_COMPLETION.md
+M	AGENTS/HENRY/MEMORY.md
+M	AGENTS/HENRY/NEXUS_BRIEF.md
+M	AGENTS/HENRY/STATUS.md
+M	AGENTS/HENRY/board_log.tsv
+R100	AGENTS/HENRY/inbox/WALTER/SIG-W-20261002-028.md	AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261002-028.md
+R100	AGENTS/HENRY/inbox/WALTER/SIG-W-20261002-029.md	AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261002-029.md
+R100	AGENTS/HENRY/inbox/WALTER/SIG-W-20261002-031.md	AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261002-031.md
+R100	AGENTS/HENRY/inbox/WALTER/SIG-W-20261002-032.md	AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261002-032.md
+R100	AGENTS/HENRY/inbox/WALTER/SIG-W-20261002-034.md	AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261002-034.md
+R100	AGENTS/HENRY/inbox/WALTER/SIG-W-20261003-011.md	AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261003-011.md
+R100	AGENTS/HENRY/inbox/WALTER/SIG-W-20261003-016.md	AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261003-016.md
+R100	AGENTS/HENRY/inbox/WALTER/SIG-W-20261004-003.md	AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261004-003.md
+R100	AGENTS/HENRY/inbox/WALTER/SIG-W-20261004-009.md	AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261004-009.md
+R100	AGENTS/HENRY/inbox/WALTER/SIG-W-20261004-012.md	AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261004-012.md
+R100	AGENTS/HENRY/inbox/WALTER/SIG-W-20261004-013.md	AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20261004-013.md
+A	AGENTS/HENRY/research/2026-10-04_ISM-services-owner-adoption/adoption.md
+A	AGENTS/HENRY/research/2026-10-04_ISM-services-owner-adoption/forecast.json
+A	AGENTS/HENRY/research/2026-10-04_ISM-services-owner-adoption/forecast.tsv
+A	AGENTS/HENRY/research/2026-10-04_ISM-services-owner-adoption/henry-cnbc-yields-probe.json
+A	AGENTS/HENRY/research/2026-10-04_ISM-services-owner-adoption/henry-owner-boot-20261004-network.txt
+A	AGENTS/HENRY/research/2026-10-04_ISM-services-owner-adoption/henry-qqq-chart-probe.json
+A	AGENTS/HENRY/research/2026-10-04_ISM-services-owner-adoption/henry-qqq-chart-probe2.json
+A	AGENTS/HENRY/research/2026-10-04_ISM-services-owner-adoption/henry-spx-chart-probe.json
+A	AGENTS/HENRY/research/2026-10-04_ISM-services-owner-adoption/inbox-dispositions.json
+A	AGENTS/HENRY/status_archive/2026-10-04_before-owner-adoption_LAST_COMPLETION.md
+A	AGENTS/HENRY/status_archive/2026-10-04_before-owner-adoption_MEMORY.md
+A	AGENTS/HENRY/status_archive/2026-10-04_before-owner-adoption_NEXUS_BRIEF.md
+A	AGENTS/HENRY/status_archive/2026-10-04_before-owner-adoption_STATUS.md
+M	AGENTS/HENRY/workbook/PREDICTIONS.tsv
+A	PROME/inbox/2026-10-04_from-HENRY_ISM-services-owner-adoption.md
