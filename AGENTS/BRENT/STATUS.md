@@ -68,7 +68,6 @@ AFP reports a pipeline halt; other reporting says flows continue. Named Aramco c
 | **Tue Sep 1** | RUSSIA producer-direct carve-out — September 8 Q1 read UNKNOWN-AT-PRIMARY | 🔴 |
 | **~Tue Sep 8** ⌁*modeled* | ✅ L198 September 8 owner read — GRADED 2026-10-02: CLOSED NO-VERDICT (① lag-test not runnable on matched weekly totals; ② PortWatch 8/31–9/1 rows never graded) | 🔴 |
 | **~Tue Sep 22** ⌁*modeled* | ✅ ATA truck tonnage AUGUST — GRADED 2026-10-02 14:10 ET: −1.6% y/y (index 112.7, −0.5% m/m; July revised 113.3) ⇒ INSIDE the band (not ≤−3% tell, not ≥0) — trucking NOT yet the destructio… | 🟡 |
-| **Fri Sep 25** | ✅ Petroline frame-breaker resolver WINDOW CLOSES 17:00 ET — BG-02 instance (4) — GRADED 2026-09-25 17:0x ET: NOT MET — LAPSED (premium, not destroyed capacity on the letter); closed, NOT… | 🔴 |
 | **Wed Sep 30** | ✅ XLE September 30 expiry — residual check — GRADED 2026-10-01: nothing residual (both 65C sold; last fill 9/11 @ $1.51, TRADE EXECUTION LOG) | 🟡 |
 | **Wed Sep 30** | ✅ RUSSIA PRODUCER DIESEL EXPORT BAN — current extension EXPIRES — GRADED 2026-10-01: EXTENDED to 10/31 (successor row 2026-10-31) | 🟠 |
 | **Thu Oct 1** | ✅ EU STORAGE 80% FLOOR — DECISION DATE — GRADED 2026-10-02 14:10 ET: window OPENED at 71.64% (gas day 9/30) ⇒ 8.36pp BELOW the 80% floor; lowest of 6 years for the date (5y min 74.71%) | 🟠 |
@@ -88,9 +87,9 @@ AFP reports a pipeline halt; other reporting says flows continue. Named Aramco c
 | **Sun Nov 29** | OPEC+ 69th JMMC — monitoring committee (watch for an ONOMM call / 2027-baseline language) | 🟡 |
 | **Sun Jan 31 2027** | RUSSIA FUEL EXPORT BAN — full expiry (gasoline all-participants + non-producer diesel) | 🟡 |
 
-*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 10 of 25 rows are modeled.*
+*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 10 of 24 rows are modeled.*
 
-*25 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
+*24 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
 
 <!-- CALENDAR:END -->
 **✅ FIRED & GRADED history:** canonical text remains in `docket/CATALYSTS.tsv`; it is not duplicated here.
@@ -99,6 +98,6 @@ AFP reports a pipeline halt; other reporting says flows continue. Named Aramco c
 
 ## SUMMARY FOR WILL
 
-*(October 5 assessment; data vintage unchanged)* **Less conviction in another crude spike; diesel/product tightness remains more resilient.** Refiner-margin evidence is stronger than the short-dated crude-rally case; confidence moderate. Demand collapse/Phase 2 unconfirmed. **Stand-down maintained.** [THESIS assessment](thesis/THESIS.md) · [evidence](research/2026-10-05_market-open/REPORT.md) · tasks → SCRATCH; holdings → TRADE.
+*(October 5; market vintage unchanged)* **Weaker crude-spike case; product tightness persists; Phase 2 unconfirmed. Stand-down maintained.** [THESIS](thesis/THESIS.md) · [evidence](research/2026-10-05_market-open/REPORT.md). Closeout bookkeeping corrected; research remains owed in [SCRATCH](SCRATCH.md). [Audit](audits/2026-10-05_closeout-check/REPORT.md); holdings → TRADE.
 
 *(Prior: 10/2 16:55 → [archive](archive/STATUS_summary-for-will_2026-10-02_PM.md), 894 B crc32 `8063742b`; 10/2 midday → [archive](archive/STATUS_dated_2026-10-02_midday.md); 10/2 AM → [archive](archive/STATUS_dated_2026-10-02_AM.md); 10/1 + 9/30 → [archive](archive/STATUS_summary-for-will_2026-10-01_and_09-30.md), 1699 B crc32 `4ef5c581`.)*

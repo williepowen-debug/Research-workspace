@@ -11,6 +11,14 @@
 > ⚠️ **This file has no length cap and needs none — it is cold. But it must never acquire an instruction.** If you find yourself writing "always do X" here, X belongs in `CLAUDE.md` or `TRADE.md`.
 
 
+## R-2026-10-05-FREIGHT-PRIORITY — operator research emphasis relayed by WALTER
+
+Recorded at closeout audit; this entry was omitted from the earlier closeout. Provenance is WALTER's [SIG-W-20261005-006](inbox/WALTER/processed/SIG-W-20261005-006.md) and [BOARD record](../../BOARD/SIG-W-20261005-006-will-prioritises-tanker-cost-watch-uso-pass-through.md), not a verbatim operator quote captured by BRENT. WALTER reports Will prioritised tanker-cost tracking despite recovering flows, covering both USO shares and calls.
+
+Why the research priority matters: regional delivered costs and WTI exposure need separate analysis; expensive freight alone does not establish USO price transmission. This extends the priority of the existing freight review. Source collection/cadence belongs to [WALTER's manual-watch charter](../WALTER/research/tanker-cost-watch/WATCH.md); BRENT's pending domain work is in [SCRATCH](SCRATCH.md). No completed source integration is claimed by receiving the instruction.
+
+No new numeric trigger, paid source, unattended routine or capital authority. Existing WQ-200 decline, call-management rules and WQ-192 stand-down stay at their governing owners. The word “both” supplies exposure scope, not current quantity or expiry. This entry records the reported research scope; it does not clear a Will-gated trade surface through a relay.
+
 ## R-2026-09-08 — BRENT cleanup approved and implemented
 
 Will approved the six cleanup items in this session ("okay I approve these"). The cleanup separates current rules from history, repairs their decision-time readers and exposes advisory boot findings. No trading permission or numerical gate changed. The binding letters now live in TRADE’s linked SPECS_GATES / SPECS_OFFRAMP_ENTRY / SPECS_TRADE_RULES; [inventory](workbook/TRADE_OBLIGATIONS.md) records each disposition and the full before-image checksum.
