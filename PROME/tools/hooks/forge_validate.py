@@ -8,7 +8,7 @@ Targets (by path suffix):
                       clean while emitting phantom positions; this hook makes that loud at save)
                     + read-cap byte meter (32,550 B) as a WARNING line
   PROME/GATES.tsv   → prome_gate token-vocabulary / fired / review_by checks (read-only funcs)
-  PROME/DOCKET.tsv  → prome_gate overdue-annotation check
+  PROME/DOCKET.tsv  → prome_gate overdue-annotation check + changed-row byte cap (docket_row_cap.py)
 
 Protocol: stdin JSON {tool_name, tool_input:{file_path}}. exit 2 + stderr = the message is
 shown to the model as an error it must fix; exit 0 = silent. Parse failure ⇒ exit 0.
@@ -48,6 +48,19 @@ def prome_gate_checks(which: str) -> list[str]:
             if not ok and sev == m.ADVISE]
 
 
+def docket_row_cap() -> list[str]:
+    """Changed-row byte cap at save time (rc 0 clean or DORMANT · 1 over · 2 could not establish → advisory).
+    Dormant (DOCKET_ROW_CAP_BYTES unset) is silent here by necessity: this hook's exit-0 stderr is not
+    shown to the model; the pre-commit hook and the closeout gate carry the notice."""
+    r = subprocess.run([sys.executable, str(ROOT / "PROME/tools/docket_row_cap.py"), "--quiet"],
+                       capture_output=True, text=True, cwd=ROOT, timeout=60)
+    if r.returncode == 1:
+        return ["⛔ " + r.stdout.strip()]
+    if r.returncode != 0:
+        return [f"⚠️ docket_row_cap could not establish (rc={r.returncode}): {(r.stdout + r.stderr).strip()[:200]}"]
+    return []
+
+
 def main() -> int:
     try:
         data = json.load(sys.stdin)
@@ -67,7 +80,7 @@ def main() -> int:
         elif fp.endswith("PROME/GATES.tsv"):
             msgs = prome_gate_checks("gates")
         elif fp.endswith("PROME/DOCKET.tsv"):
-            msgs = prome_gate_checks("docket")
+            msgs = prome_gate_checks("docket") + docket_row_cap()
         else:
             return 0
     except Exception as e:

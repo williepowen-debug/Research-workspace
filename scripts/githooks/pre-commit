@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Local safeguard, bypassable with --no-verify. Byte cap on CHANGED PROME/DOCKET.tsv rows.
+# Runs only when the docket is part of the commit; reads the index (GIT_INDEX_FILE-aware,
+# so `git commit <path>` sees the temporary index git builds for that commit). Fails closed.
+set -u
+root=$(git rev-parse --show-toplevel) || exit 1
+cd "$root" || exit 1
+git diff --cached --quiet -- PROME/DOCKET.tsv 2>/dev/null && exit 0   # docket not in this commit
+command -v python3 >/dev/null || { echo 'pre-commit: Python 3 unavailable; docket rows cannot be checked' >&2; exit 1; }
+[ -f PROME/tools/docket_row_cap.py ] || { echo 'pre-commit: PROME/tools/docket_row_cap.py missing; docket rows cannot be checked' >&2; exit 1; }
+python3 PROME/tools/docket_row_cap.py --staged --quiet >&2
+rc=$?
+[ "$rc" -eq 0 ] && exit 0
+if [ "$rc" -eq 1 ]; then
+    echo 'pre-commit: PROME/DOCKET.tsv changed row(s) over the byte cap; commit refused (shorten the row, never --no-verify)' >&2
+else
+    echo "pre-commit: docket row check could not run (rc=$rc); commit refused — fix the check, do not bypass" >&2
+fi
+exit 1

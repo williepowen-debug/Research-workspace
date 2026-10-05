@@ -4,7 +4,7 @@ set -eu
 root=$(git rev-parse --show-toplevel) || exit 1
 cd "$root"
 [ -f PROME/ROSTER.md ] || { echo 'git-hooks: wrong repository; NOT installed' >&2; exit 1; }
-for hook in commit-msg pre-push; do
+for hook in commit-msg pre-commit pre-push; do
     [ -x "scripts/githooks/$hook" ] || { echo "git-hooks: $hook missing/not executable; NOT installed" >&2; exit 1; }
 done
 rc=0
@@ -23,4 +23,4 @@ for existing in "$default"/*; do
     fi
 done
 git config --local core.hooksPath scripts/githooks || { echo 'git-hooks: config write failed; NOT installed' >&2; exit 1; }
-echo 'git-hooks: installed scripts/githooks (commit-msg, pre-push)'
+echo 'git-hooks: installed scripts/githooks (commit-msg, pre-commit, pre-push)'

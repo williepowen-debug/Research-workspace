@@ -22,8 +22,12 @@ DESIGN CONSTRAINTS (Will-approved, in the 7/28 disposition packet):
      keeps only the judgment tail a script cannot do.
 
 USAGE
-  python3 PROME/tools/prome_gate.py boot        # BOOT.md step-0/3/5 mechanical stack
-  python3 PROME/tools/prome_gate.py closeout    # closeout-tail mechanical stack
+  python3 PROME/tools/prome_gate.py boot                  # NON-ADVANCING: never records BOARD consumption
+  python3 PROME/tools/prome_gate.py boot --advance-board  # the one-shot gate: boot_session.py passes this
+      (a non-advancing boot still regenerates state-local, gitignored views — PROME/state/SPAWN_SLATE.md —
+       and the run's check logs; it writes no tracked file. Enumerated 2026-10-05 in a clean fixture.)
+  python3 PROME/tools/prome_gate.py closeout --tier <t> \
+      (--no-memory | --slug NAME ...) (--no-superseded | --superseded OLD NEW ...)
   (always from repo root: cd "$(git rev-parse --show-toplevel)" first — PAT-031)
 
 rc=0 all blocking gates pass (advisories may still print — read them);
@@ -33,9 +37,16 @@ rc=2 INCOMPLETE — one or more checks did NOT RUN, so their subjects are UNKNOW
      problem", 2 means "we did not look". rc=2 outranks rc=1 when both apply.
      (Added with the L294 F-7 isolation repair; this block documented only 0 and 1.)
 
-MANUAL-JUDGMENT STEPS THIS SCRIPT DOES NOT REPLACE (closeout): memory_index_check
---slug (needs the session's slugs) · consumer_check --old/--new (needs the
-superseded values) · the HANDOFF/SCRATCH judgment writes. It prints reminders.
+DECLARATION-GATED STEPS (closeout, since 2026-10-05): memory_index_check needs the
+session's slugs and consumer_check needs the superseded values, so the gate cannot
+derive them — but it can refuse to pass until they are DECLARED. `--no-memory` /
+`--slug NAME` and `--no-superseded` / `--superseded OLD NEW` are required at every
+tier; an undeclared pair is a BLOCKING row (the DAEDALUS gate's C2/C4 pattern). The
+reminder rows they replace were printed at 100% of closeouts and acted on at an
+unknown fraction — a reminder is not a check. claim_check (root step 1e) runs
+mechanically every closeout, advisory: a flag is a prompt to LOOK, never a
+find-replace (it may be a correctly-labelled quote of a corrected error).
+The HANDOFF/SCRATCH judgment writes remain manual.
 """
 import argparse
 import csv
@@ -1410,6 +1421,149 @@ def check_orch_closeout():
                "Reconcile --expected-key values from the tool record with --inventory-complete; "
                "without that attestation inventory coverage remains UNKNOWN. Reporting only, not BLOCK.")
 
+MEMORY_OWNER = "root CLAUDE.md carve-out ③ · scripts/memory_index_check.py --strict --slug <name>"
+CONSUMER_OWNER = "root CLAUDE.md step 1c + PROME/SYSTEM.md Mirror Map · scripts/consumer_check.py"
+
+
+def _dirty_memory_paths():
+    """memory/auto/ paths uncommitted in the working tree (a hint beside a --no-memory claim;
+    the tree is shared, so a dirty path is not proof the claim is false)."""
+    p = subprocess.run(["git", "status", "--porcelain", "--", "memory/auto/"], cwd=ROOT,
+                       capture_output=True, text=True, timeout=30)
+    if p.returncode != 0:
+        return None
+    return [l[3:] for l in p.stdout.splitlines() if l.strip()]
+
+
+def check_memory_declared(memory):
+    """Root step 1d, declaration-gated. `memory` is None (undeclared → BLOCK), [] (declared
+    none → pass, with the dirty-path hint), or the slugs written/edited this session (each
+    runs memory_index_check --strict --slug; rc 1 = index/file mismatch, BLOCKING; rc 2 =
+    cannot-certify, also BLOCKING — a check that could not run is not a passed one)."""
+    name = "memory_index_check (root step 1d)"
+    if memory is None:
+        record(BLOCK, name, False,
+               "UNDECLARED — pass --no-memory, or --slug <name> once per auto-memory written/edited this session",
+               MEMORY_OWNER)
+        return
+    if not memory:
+        dirty = _dirty_memory_paths()
+        hint = ("" if dirty is None else
+                f" · ⚠️ memory/auto/ has {len(dirty)} uncommitted path(s) — if any is yours, re-run with --slug"
+                if dirty else " · memory/auto/ clean")
+        record(BLOCK, name, True, "declared: no auto-memory written or edited this session" + hint, MEMORY_OWNER)
+        return
+    for slug in memory:
+        # memory_index_check scopes its forward leg to the slug's INDEX rows, so a slug with no
+        # row and no file returns rc 0 — a typo would pass. The file must exist in the tree.
+        if not (ROOT / "memory/auto" / f"{slug}.md").is_file():
+            record(BLOCK, f"memory_index_check --strict --slug {slug}", False,
+                   f"no memory/auto/{slug}.md in the working tree — a declared slug must name a file you wrote",
+                   MEMORY_OWNER)
+            continue
+        run_script(BLOCK, f"memory_index_check --strict --slug {slug}",
+                   [sys.executable, "scripts/memory_index_check.py", "--strict", "--slug", slug],
+                   MEMORY_OWNER + " — rc 1: commit the file or fix the ignore rule; rc 2: index unreadable, FLAG PROME-self")
+    run_script(ADVISE, "MEMORY.md hot-index length (root step 1d)",
+               ["bash", "scripts/check_memory_length.sh"],
+               "rc 1 approaching / rc 2 over the 25,600 B auto-load cap — PROME rotates; never a desk's job")
+
+
+def check_consumer_declared(superseded):
+    """Root step 1c, declaration-gated. `superseded` is None (undeclared → BLOCK), [] (declared
+    none → pass) or [(old, new), ...]; each pair runs consumer_check --agent PROME --strict
+    (cross-agent) and --self (own dir). A 🔴 STALE owner = packets owed before closeout."""
+    name = "consumer_check (root step 1c)"
+    if superseded is None:
+        record(BLOCK, name, False,
+               "UNDECLARED — pass --no-superseded, or --superseded OLD NEW once per published figure superseded "
+               "this session (same figure's prior vintages only; different metrics = separate pairs)",
+               CONSUMER_OWNER)
+        return
+    if not superseded:
+        record(BLOCK, name, True, "declared: no published figure superseded this session", CONSUMER_OWNER)
+        return
+    # Severity split (reviewer-2 gap 1): a 🔴 on ANOTHER desk's surface is discharged by sending the
+    # packet — root 1c forbids editing their file — so it cannot block PROME's closeout once sent:
+    # fleet scan = ADVISORY (packets owed). A 🔴 under AGENTS/PROME|PROME/ is PROME's own to fix in
+    # place this session: own-dir scan = BLOCKING. A 🟠 CANDIDATE is "needs verification", never
+    # "resolved" (gap 2): both rows fail on it, with the re-run instruction, and neither row reads
+    # the body for markers — quoted hit lines carry 🔴/🟠 characters of their own.
+    for old, new in superseded:
+        run_script(ADVISE, f"consumer_check {old}→{new} (fleet — packets owed on 🔴, LOOK on 🟠)",
+                   [sys.executable, "scripts/consumer_check.py", "--agent", "PROME", "--strict",
+                    "--old", old, "--new", new],
+                   CONSUMER_OWNER + " — 🔴 owner ⇒ send a packet, never edit their file; 🟠 ⇒ confirm series AND "
+                   "unit at the hit, re-run with --unit/--series; canon/threshold ⇒ --mirror-map",
+                   summarize=summarize_consumer)
+        # Own surfaces: a 🔴 is PROME's to fix in place → BLOCKING. A 🟠 is "needs verification", and
+        # the gate has no way to record that a match was checked and dismissed (an unrelated "320
+        # crates" would block a 320→321 metric update forever) → a separate ADVISORY row until a
+        # verification-receipt mechanism exists. (PROME v2 assessment, 2026-10-05 15:28.)
+        candidates = []
+
+        def own(body, rc):
+            stale, cand, clean = parse_consumer(body, rc)
+            if cand:
+                candidates.append(cand)
+            if stale:
+                return False, f"🔴 {stale} STALE on PROME's own surfaces" + (f" · 🟠 {cand} CANDIDATE" if cand else "")
+            return True, ("no stale reference on own surfaces"
+                          + (f" · 🟠 {cand} CANDIDATE (advisory row below)" if cand else ""))
+        run_script(BLOCK, f"consumer_check {old}→{new} (own dir — 🔴 fix in place)",
+                   [sys.executable, "scripts/consumer_check.py", "--agent", "PROME", "--strict",
+                    "--old", old, "--new", new, "--self"],
+                   CONSUMER_OWNER + " — you are the owner: fix by PATTERN this session", summarize=own)
+        if candidates:
+            record(ADVISE, f"consumer_check {old}→{new} (own dir — 🟠 needs verification)", False,
+                   f"🟠 {candidates[0]} CANDIDATE on own surfaces — LOOK: confirm series AND unit at each hit, "
+                   "re-run with --unit/--series; advisory until a verification receipt can be recorded",
+                   CONSUMER_OWNER)
+
+
+_CONSUMER_STALE = re.compile(r"^\s*🔴 (\d+) stale ", re.M)
+_CONSUMER_CAND = re.compile(r"^\s*🟠 (\d+) CANDIDATE", re.M)
+_CONSUMER_CLEAN = re.compile(r"^\s*✓ clean", re.M)
+
+
+def parse_consumer(body, rc):
+    """Footer-only parse of consumer_check → (stale, candidates, clean). The body is never scanned
+    for markers: quoted hit lines carry 🔴/🟠 characters of their own. No footer = no verdict →
+    ValueError (run_script records UNKNOWN, never a pass). --strict certifies stale as rc 1."""
+    stale = _CONSUMER_STALE.search(body)
+    cand = _CONSUMER_CAND.search(body)
+    clean = rc == 0 and bool(_CONSUMER_CLEAN.search(body))
+    if not (stale or cand or clean):
+        raise ValueError(f"no consumer_check verdict footer (rc={rc})")
+    # A candidate-only or clean footer is a verdict ONLY with rc 0: --strict exits 1 for stale and
+    # 2 for usage/environment, so a 🟠 footer beside rc 1/2 means the run did not finish the way
+    # it said (PROME v3 fault injection, 2026-10-05 15:5x) → UNKNOWN, never a pass.
+    if rc != 0 and not stale:
+        raise ValueError(f"consumer_check footer and rc disagree (rc={rc}, no stale footer) — UNKNOWN")
+    return (int(stale.group(1)) if stale else 0), (int(cand.group(1)) if cand else 0), clean
+
+
+def summarize_consumer(body, rc):
+    """Fleet scan summary: ok ⇔ clean. A 🟠 is needs-verification, not resolved; a 🔴 is a packet owed."""
+    stale, cand, clean = parse_consumer(body, rc)
+    if stale:
+        return False, f"🔴 {stale} STALE — packet(s) owed" + (f" · 🟠 {cand} CANDIDATE" if cand else "")
+    if cand:
+        return False, f"🟠 {cand} CANDIDATE — needs verification (series + unit), not resolved"
+    return True, "clean — every consumer current or flagged superseded"
+
+
+def check_claims():
+    """Root step 1e, mechanical. Advisory by design: a weekday flag may be a correctly-labelled
+    quote of a corrected error, and no allowlist exists to acknowledge one — blocking here
+    would force editing a correct quote. Measured 2026-10-05: 0 flags on PROME's four paths."""
+    cands = ["PROME/DOCKET.tsv", "PROME/GATES.tsv", "PROME/WILL_QUEUE.md", "PROME/STATUS.md",
+             "PROME/CALENDAR.md", "PROME/workbook/CATALYSTS.tsv"]
+    paths = [p for p in cands if (ROOT / p).exists()]
+    run_script(ADVISE, f"claim_check --check weekday over {len(paths)} PROME path(s) (root step 1e)",
+               [sys.executable, "scripts/claim_check.py", "--check", "weekday", "--quiet"] + paths,
+               "a flag is a prompt to LOOK at the line, never a find-replace")
+
 
 def mode_boot(advance_board=True):
     check_orch_closeout()
@@ -1499,7 +1653,7 @@ def mode_boot(advance_board=True):
     guard(check_byte_budgets)
 
 
-def mode_closeout(tier=None):
+def mode_closeout(tier=None, memory=None, superseded=None):
     check_orch_closeout()
     guard(check_review_manifest, tier)
     guard(check_publication_prereqs)
@@ -1536,16 +1690,22 @@ def mode_closeout(tier=None):
     run_script(BLOCK, "boot-read tables: no over-celled rows",
                [sys.executable, "PROME/tools/table_check.py", "--quiet"],
                "fix the ROW before committing — the named cells are DROPPED in every rendered read")
+    # 2026-10-05: the STATUS read cap moved the bytes into DOCKET.tsv (15 KB Jul → 1.3 MB Oct;
+    # avg row 430 B → 2,170 B). Same shape as the cap that worked: BLOCK at closeout, where the
+    # rows are written; the native pre-commit hook is the fail-closed twin for every runtime.
+    run_script(BLOCK, "DOCKET changed-row byte cap (worktree vs HEAD)",
+               [sys.executable, "PROME/tools/docket_row_cap.py", "--quiet"],
+               "shorten the ROW: narrative to the owner's file with a pointer; a rule-class row belongs in "
+               "a rules file, not the docket — PROME/tools/docket_row_cap.py",
+               summarize=lambda body, rc: (rc == 0, "DORMANT — DOCKET_ROW_CAP_BYTES unset in scripts/harness_caps.env "
+                                           "(policy pending; the mechanism decides nothing)" if "not configured" in body
+                                           else "within cap" if rc == 0 else body.strip().split("\n")[-1][:160]))
     guard(check_claude_dir_drift)   # root<->PROME skill/agent parity at CLOSEOUT too (REV 8/29): a closeout that edits one tree would otherwise ship drift and find it next boot
     run_script(ADVISE, "orphan_check (advisory by design)", ["bash", "scripts/orphan_check.sh", "PROME"],
                "[likely YOURS] = commit per carve-out ① · [not yours] = flag, never sweep")
-    record(ADVISE, "MANUAL: memory_index_check", True,
-           "if you wrote/edited an auto-memory: scripts/memory_index_check.py --strict --slug <name> (root step 1d)",
-           "root CLAUDE.md carve-out ③")
-    record(ADVISE, "MANUAL: consumer_check", True,
-           "if you superseded a published number: scripts/consumer_check.py --old <v> --new <v> (root step 1c); "
-           "canon/threshold change ⇒ add --mirror-map (T1-b)",
-           "root CLAUDE.md step 1c + PROME/SYSTEM.md Mirror Map")
+    guard(check_memory_declared, memory)        # root step 1d — BLOCKING until declared
+    guard(check_consumer_declared, superseded)  # root step 1c — BLOCKING until declared
+    guard(check_claims)                         # root step 1e — mechanical, advisory
     # 8/16 (RAV addition, Will-approved): the two WILL_QUEUE parsers duplicate
     # their visibility regexes by design — this synthetic-row test is what
     # keeps them agreeing (the lettered-ID fix shipped to the gate only and
@@ -1566,7 +1726,30 @@ def main():
     ap.add_argument("--tier", choices=["bounce", "light", "standard", "heavy"],
                     help="closeout tier; standard/heavy REQUIRE a recorded ARGUS review "
                          "(missing or unevaluable becomes BLOCKING)")
+    ap.add_argument("--advance-board", action="store_true",
+                    help="boot only: record BOARD consumption (board_scan --advance). Without it a boot "
+                         "is NON-ADVANCING (no tracked file written; the gitignored SPAWN_SLATE.md view is "
+                         "still regenerated) and safe to run by hand; boot_session.py passes it for the "
+                         "one-shot gate")
+    ap.add_argument("--slug", action="append", default=[], metavar="NAME",
+                    help="closeout: an auto-memory written/edited this session (repeatable)")
+    ap.add_argument("--no-memory", action="store_true",
+                    help="closeout: declare that no auto-memory was written or edited")
+    ap.add_argument("--superseded", action="append", nargs=2, default=[], metavar=("OLD", "NEW"),
+                    help="closeout: a published figure superseded this session (repeatable)")
+    ap.add_argument("--no-superseded", action="store_true",
+                    help="closeout: declare that no published figure was superseded")
     args = ap.parse_args()
+    if args.no_memory and args.slug:
+        ap.error("--no-memory contradicts --slug")
+    if args.no_superseded and args.superseded:
+        ap.error("--no-superseded contradicts --superseded")
+    if args.mode != "closeout" and (args.slug or args.no_memory or args.superseded or args.no_superseded):
+        ap.error("--slug/--no-memory/--superseded/--no-superseded are closeout flags")
+    if args.mode != "boot" and args.advance_board:
+        ap.error("--advance-board is a boot flag")
+    memory = args.slug if args.slug else ([] if args.no_memory else None)
+    superseded = [tuple(p) for p in args.superseded] if args.superseded else ([] if args.no_superseded else None)
     CHARTER_MODE = args.charter_mode
     results.clear()
     capabilities.clear()
@@ -1583,11 +1766,11 @@ def main():
     # summary is now printed in every path.
     try:
         if args.mode == "boot":
-            mode_boot()
+            mode_boot(advance_board=args.advance_board)   # default False since 2026-10-05: a bare boot never advances
         elif args.mode == "refresh":
             mode_boot(advance_board=False)
         else:
-            mode_closeout(args.tier)
+            mode_closeout(args.tier, memory=memory, superseded=superseded)
     except BaseException as e:
         record(ERROR, "GATE RUN ABORTED", False,
                f"{type(e).__name__}: {str(e)[:160]} — the run stopped OUTSIDE any single "

@@ -11,7 +11,8 @@ import unittest
 
 SOURCE = Path(__file__).resolve().parents[3]
 FILES = (
-    "scripts/githooks/commit-msg", "scripts/githooks/pre-push",
+    "scripts/githooks/commit-msg", "scripts/githooks/pre-commit", "scripts/githooks/pre-push",
+    "PROME/tools/docket_row_cap.py", "scripts/harness_caps.env",
     "scripts/install-git-hooks.sh", "scripts/install-claude-hooks.py",
     "scripts/session_banner.sh", "scripts/safe-push.sh", "scripts/claim_check.py",
     "scripts/pipeline_rc_guard.py", "PROME/tools/hooks/pipeline_rc_block.py",

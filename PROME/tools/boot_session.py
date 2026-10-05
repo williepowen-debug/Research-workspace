@@ -46,7 +46,8 @@ def run_once(run_dir, sessions_json=None, charter_mode="explicit"):
             print(f"UNKNOWN: claimed boot has no valid completion ({exc}). Inspect {run_dir}; NOT rerun.")
             return 2
     write_json(run_dir / "attempt.json", {**claim, "charter_mode": charter_mode, "attempted_at": dt.datetime.now(dt.timezone.utc).isoformat()})
-    command = [sys.executable, str(ROOT / "PROME/tools/prome_gate.py"), "boot",
+    # The ONLY advancing caller: a bare `prome_gate.py boot` is non-advancing since 2026-10-05.
+    command = [sys.executable, str(ROOT / "PROME/tools/prome_gate.py"), "boot", "--advance-board",
                "--log-dir", str(run_dir / "checks"), "--charter-mode", charter_mode]
     if sessions_json:
         command += ["--sessions-json", str(Path(sessions_json).resolve())]

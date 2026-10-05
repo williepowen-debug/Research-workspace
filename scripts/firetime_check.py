@@ -105,6 +105,47 @@ def parse_date_token(kind, groups, default_year):
     return None
 
 
+# An `artifacts_citing` cell is a LIST, not a filename. Fleet practice joins paths
+# with " · " (185 rows on 2026-10-05), " + " (236) or "; " (22), and decorates a
+# path with a locator — "§5", "L350", "row 107", ":312", "step 6.1", "(crc …)",
+# "(or its processed/ copy)" — or wraps it in backticks. Before 2026-10-05 the cell
+# was split on "+" only, so every other joined cell reached check_artifact() as ONE
+# path and flagged UNREADABLE: 11 of 22 flags at the 10/05 boot (DOCKET L593).
+# Rule: split on the three joiners, then keep the LEADING whitespace-free run of each
+# token (the path); everything after the first space is a locator and is dropped.
+# Bare `+` (no spaces) joined paths in the legacy splitter; keep that ONLY where the right-hand
+# side starts a repo path — 10 tracked filenames contain `+` (…_handles+drift.md) and the one
+# bare `+` in today's docket (L180, `11/05+11/07`) is a date pair, not a join.
+_ART_ROOTS = r"(?:PROME|AGENTS|FORGE|WILL|BOARD|FORUM|KERNEL|MESSAGING|scripts|memory|docs|skills|\.claude)/"
+_ART_JOIN_RE = re.compile(r"\s+·\s+|\s+\+\s+|;\s+|\+(?=" + _ART_ROOTS + ")")
+# Leading `.` admits `.claude/agents/argus.md` (DOCKET L333, L362); a trailing `:312` / `:L46`
+# line locator (27 cells on 2026-10-05) is stripped, so the path resolves and the locator is kept
+# out of the filename.
+_ART_PATH_RE = re.compile(r"^`?([A-Za-z0-9_.][^\s`()<>]*?)(?::L?\d+)?[`:,.;)]*(?=\s|$)")
+
+
+def split_artifact_cell(cell):
+    """Return the repo-path-shaped tokens of one docket `artifacts_citing` cell, in order,
+    deduplicated. Pure. A token with no '/' and no file extension is a locator or a
+    name ("L349", "WSJ", "reader ledgers"), not a path, and is dropped."""
+    out = []
+    for tok in _ART_JOIN_RE.split(cell or ""):
+        tok = tok.strip()
+        if not tok or tok == "-":
+            continue
+        m = _ART_PATH_RE.match(tok)
+        if not m:
+            continue
+        path = m.group(1).rstrip("`:,.;)")
+        if "/" not in path and not re.search(r"\.\w{2,4}$", path):
+            continue
+        if path.startswith(("http:", "https:", "www.")) or "<" in path:
+            continue
+        if path not in out:
+            out.append(path)
+    return out
+
+
 def load_docket():
     """Return (rows, dates): rows = list of dicts; dates = set of every date any row covers."""
     if not os.path.exists(DOCKET):
@@ -129,8 +170,7 @@ def load_docket():
                    if m.group(4) else start)
             row = {"start": start, "end": end, "catalyst": parts[1].strip(),
                    "owners": parts[2].strip(), "state": parts[3].strip(),
-                   "artifacts": [a.strip() for a in (parts[4].split("+") if len(parts) > 4 else [])
-                                 if a.strip() and a.strip() != "-"]}
+                   "artifacts": split_artifact_cell(parts[4]) if len(parts) > 4 else []}
             rows.append(row)
             d = start
             while d <= end:
@@ -234,6 +274,16 @@ def extract_repo_paths(text):
                 continue  # external URL written without a scheme
             out.add(tok)
     return sorted(out)
+
+
+def _gitignored(p):
+    """True when git would ignore `p` (an absent gitignored path is local-only, not dead)."""
+    try:
+        r = subprocess.run(["git", "-C", REPO, "check-ignore", "-q", "--", p],
+                           capture_output=True, timeout=10)
+        return r.returncode == 0
+    except (OSError, subprocess.SubprocessError):
+        return False
 
 
 def check_artifact(path, docket_rows, covered_dates, today):
@@ -343,6 +393,11 @@ def check_artifact(path, docket_rows, covered_dates, today):
             elif prefix_missing or full_missing:
                 dead.add(tok if full_missing else prefix2)
     for p in sorted(dead):
+        # A gitignored path (`AGENTS/WALTER/.env`, `WILL/private/`) is local-only by
+        # design: absent on a fresh clone or a cloud box, present on Will's. Not rot.
+        if _gitignored(p):
+            infos.append(f"gitignored (local-only, does not travel): `{p}` — not checked here")
+            continue
         flags.append(f"DEAD POINTER: `{p}` does not exist")
     for p in sorted(moved):
         infos.append(f"cited packet now in {moved[p]}/ — designed disposition, not rot: `{p}`")
