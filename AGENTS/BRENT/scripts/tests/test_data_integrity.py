@@ -152,6 +152,25 @@ class EIAIntegrity(unittest.TestCase):
             with patch.object(eia, 'EIA_DATA_DIR', root):
                 self.assertEqual(eia.find_latest_eia_file().name, 'eia_2026-09-02.md')
 
+    def test_latest_natural_language_saved_report_is_complete(self):
+        report = (eia.EIA_DATA_DIR / 'eia_2026-09-30.md').read_text()
+        m = eia.extract_metrics(report)
+        self.assertEqual(m['week_ending'], '2026-09-25')
+        self.assertEqual(m['report_date'], '2026-09-30')
+        self.assertEqual(m['commercial_crude'], 427.320)
+        self.assertEqual(m['commercial_crude_wow'], 0.922)
+        self.assertEqual(m['spr'], 283.767)
+        self.assertEqual(m['spr_wow'], -0.785)
+        self.assertEqual(m['cushing'], 24.301)
+        self.assertEqual(m['cushing_wow'], 0.553)
+        self.assertEqual(m['gasoline'], 204.362)
+        self.assertEqual(m['gasoline_wow'], -1.683)
+        self.assertEqual(m['distillate'], 105.180)
+        self.assertEqual(m['distillate_wow'], -2.251)
+        self.assertEqual(m['util'], 92.5)
+        self.assertEqual(m['gas_yoy_latest'], 0.3)
+        self.assertEqual(eia.coverage(m, today=date(2026, 10, 4)), [])
+
     def test_conflicting_duplicates_remain_unusable(self):
         rows = [{'date': WEEK.isoformat(), 'value': v} for v in (1, 2, 1)]
         self.assertIsNone(eia.dated_values(rows)[WEEK])

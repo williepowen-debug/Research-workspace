@@ -257,17 +257,36 @@ def extract_metrics(text):
         if m:
             metrics["report_date"] = m.group(1)
 
-    # September consolidated report: current/prior/WoW columns, never prose
-    # mentions of older values. Modern report header is ISO-dated.
+    # September consolidated reports: current/prior/WoW columns, never prose
+    # mentions of older values. The autonomous writer has emitted both an ISO
+    # header (`Week Ending 2026-09-25`) and a natural-language header
+    # (`week ending September 25, 2026`), so accept both shapes.
     modern = re.search(r"(?im)^# .*Week Ending (\d{4}-\d{2}-\d{2})\s*$", text)
+    if not modern:
+        modern = re.search(
+            r"(?im)^# .*week ending ([A-Z][a-z]+ \d{1,2}, \d{4})\s*$",
+            text,
+        )
     if modern:
         metrics = {"week_ending": modern.group(1)}
         released = re.search(r"\*\*Released:\*\*\s*(\d{4}-\d{2}-\d{2})", text)
+        if not released:
+            released = re.search(r"(?i)\breleased\s+(\d{4}-\d{2}-\d{2})\b", text)
         if released:
             metrics["report_date"] = released.group(1)
-        labels = {"commercial crude (excl spr)": "commercial_crude", "cushing, ok": "cushing",
-                  "spr": "spr", "total motor gasoline": "gasoline",
-                  "distillate fuel oil": "distillate", "refinery utilization": "util"}
+        labels = {
+            "commercial crude (excl spr)": "commercial_crude",
+            "commercial crude oil (ex-spr)": "commercial_crude",
+            "cushing, ok": "cushing",
+            "cushing, ok crude stocks": "cushing",
+            "spr": "spr",
+            "spr level": "spr",
+            "total motor gasoline": "gasoline",
+            "gasoline inventories": "gasoline",
+            "distillate fuel oil": "distillate",
+            "distillate inventories": "distillate",
+            "refinery utilization": "util",
+        }
         for line in text.splitlines():
             if not line.startswith("|"):
                 continue
@@ -284,10 +303,15 @@ def extract_metrics(text):
                     wow = re.match(r"([+−-]?[\d,.]+)M", cells[3])
                     if wow:
                         metrics[key + "_wow"] = float(wow.group(1).replace(",", "").replace("−", "-"))
-            if cells[0].lower() == "motor gasoline product supplied (4-wk avg)" and len(cells) >= 6:
-                yoy = re.match(r"([+−-]?[\d.]+)%", cells[5])
-                if yoy:
-                    metrics["gas_yoy_latest"] = float(yoy.group(1).replace("−", "-"))
+            if cells[0].lower() in {
+                "motor gasoline product supplied (4-wk avg)",
+                "gasoline product supplied, 4-wk avg",
+            }:
+                for cell in reversed(cells[1:]):
+                    yoy = re.search(r"([+−-]?[\d.]+)%\s*(?:YoY|year over year)?", cell, re.I)
+                    if yoy:
+                        metrics["gas_yoy_latest"] = float(yoy.group(1).replace("−", "-"))
+                        break
     observed = parse_date(metrics.get("week_ending"))
     if observed:
         metrics["week_ending"] = observed.isoformat()

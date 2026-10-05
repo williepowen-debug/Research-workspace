@@ -1,4 +1,4 @@
-# BRENT SCRATCH — October 4, 2026 (Sunday evening boot; 21:34–21:4x ET)
+# BRENT SCRATCH — October 4, 2026 (Sunday evening boot + file-integrity sweep; 21:34–22:21 ET)
 
 ## CHANGES SINCE LAST SESSION
 - Futures reopened: crude initially rallied on the Houthi Saudi/Khurais claim, then fully faded below Friday vendor references by 21:33 ET; equities modestly green, gold/silver and Treasury futures firmer.
@@ -10,6 +10,8 @@
 - Ran full boot twice: sandbox run exposed DNS non-coverage; networked rerun completed. Live threshold board: Brent futures >$100; HY OAS 3.24% (10/1); retail gas $4.465 (9/28). EIA wk-9/25 complete. Boot remains FINDINGS because tanker-liveness is closed-market/stale, four ACTIVE incident rows need re-verification, and LESSONS_INDEX is stale.
 - Pulled named energy contracts and the equity/metals/rates futures complex at 21:33 ET; wrote [evening note](research/2026-10-04_evening-futures/NOTE.md).
 - Processed WALTER -016/-010/-011/-014: four board-log rows and four `git mv` archive moves. Corrections check passed (0 unreceipted).
+- Swept BRENT files for broken/stale/incomplete state. Fixed the EIA local reader's false-incomplete result for the complete saved wk-9/25 report and added a regression test; repaired nine broken local Markdown links; rotated the stale 10/2 STATUS summary and removed the already-graded OPEC+ event from NEXUS's next-decision block. Full record: [audit report](audits/2026-10-04_file-sweep/REPORT.md).
+- Structural checks found one protected defect: frozen `workbook/KB.tsv` has three malformed historical rows (109/114/117). It was not edited. Maintained TSVs, identifiers, corrections, catalyst view, prediction-due and receipt scans are clean within scope. A full recursive navigation scan found 486 deeper archive/evidence links with move-induced relative-path drift; hot surfaces + workbook archives are 183/183 valid.
 - Updated STATUS, TRACKER and NEXUS_BRIEF. No threshold, gate, prediction, thesis version or trade state moved. **$0.**
 - Git pull was prohibited: PROME and WALTER had uncommitted changes outside BRENT at boot. Local tree may not include an unpulled remote commit.
 
@@ -21,7 +23,8 @@
 5. **~Thu 10/8:** China product-export guidance after Golden Week.
 6. **Fri 10/9:** USO $150C sell-or-roll hard stop 15:00 ET; COT-35B #9 (as-of 10/6) after ~15:30 ET.
 7. **Wed 10/14:** IEA OMR and VLO-HELD-01 leg-A suspension date; Thu 10/15 WPSR/BRT-31 first print.
-8. **Owed:** Kuibyshev/Bashneft-UNPZ + Volgograd/Samara + Riyadh incident follow-ups; four ACTIVE rows >60d; tanker-liveness human stamp; LESSONS_INDEX stale; TRADE/FORGE broker mirror after 10/1.
+8. **Owed:** four ACTIVE incident rows >60d, nine other aged present-tense rows, and the distinct successor-event gaps named in the audit report; tanker-liveness human stamp; substantive LESSONS_INDEX reconciliation; TRADE/FORGE broker mirror after 10/1.
+9. **Routine acceptance:** observe first live runs Thu 10/8, Fri 10/9, Wed 10/14 and Thu 10/15; remove the Thursday routine's six default connectors in the UI; reset UTC schedules for EST on 11/1.
 
 ## OPEN THREADS / WATCHES
 - 🔴 **Saudi corridor heat:** wait for a counting source naming the facility class and loss. Do not price a production hit from FIRMS.
@@ -36,7 +39,7 @@
 
 ## MAIL STATE
 - **Inbox:** WALTER lane clear; top-level clear.
-- **Outbox:** clear.
+- **Outbox:** no current send owed. Seventeen 9/8 evidence artifacts remain; two are linked from the market-docket owner-read note, so no bulk move was made.
 
 ## WORKBOOK HEALTH
-- `workbook/LESSONS_INDEX.tsv` is 10d stale vs STATUS; boot nudge also names TRADE, INCIDENTS, COT_VINTAGES and REGISTRY as behind in STATUS-write count, though only LESSONS_INDEX breaches its time budget.
+- `workbook/LESSONS_INDEX.tsv` is 10d stale vs STATUS; its 27/27 prose/index structure passes, so this needs a genuine reconciliation rather than a blind timestamp. Frozen `workbook/KB.tsv` rows KB-BRT-109/114/117 have an extra blank field and remain unchanged by rule. The saved EIA report is complete after the reader fix. Audit: `audits/2026-10-04_file-sweep/REPORT.md`.

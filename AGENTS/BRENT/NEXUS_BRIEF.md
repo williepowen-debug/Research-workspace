@@ -1,5 +1,6 @@
 # BRENT — NEXUS Brief
 
+> **2026-10-04 22:21 ET (BRENT file-integrity sweep) — C6 (b) SCOPED-PARTIAL.** RE-VERIFIED: current STATUS pointers, forward decision dates, saved wk-9/25 EIA report completeness through the repaired local reader, and structural integrity checks. NOT re-verified: market/WPSR/COT/rig values beyond the 21:44 banner and incident facts beyond their stated vintages. No market value, thesis, threshold, prediction or trade state moved.
 > **2026-10-04 21:44 ET (BRENT Sunday-evening boot) — C6 (b) SCOPED-PARTIAL.** RE-VERIFIED: live forming futures tape, new WALTER -010/-011/-014, Qatar LNG -016 against the Bloomberg licensed republication, and the G7 primary text. Updated Status/As-of and the new SENDING row. NOT re-verified: older SENDING/WAITING rows, physical/WPSR, incident states and calibration remain at their own stated vintages. No settlement printed tonight.
 > **2026-10-04 11:4x ET by `date` (BRENT, PROME prome-ed L0 spawn) — C6 (b) SCOPED-PARTIAL.** RE-VERIFIED today: the new SENDING row (OPEC+ grade, against the Secretariat text, EIA API and [grade note](research/2026-10-04_opec-november-grade/NOTE.md)) and the diesel-ban wording in it (WALTER -011, own search for the verbatim SEARCH-NOT-FOUND). NOT re-verified: Status, As-of, VIEW, CALIBRATION, WATCH and all older SENDING/WAITING rows stay at 10/2 PM vintage. Markets were closed, so no tape moved.
 > **2026-10-02 PM 16:56 ET by `date` (brent-08, Will-directed sweeps) — C6 (a) for Status, As-of, the new SENDING row, VIEW Price + Refiner, CALIBRATION 'Diverge' + tensions, NEXT, WATCH (each re-read against STATUS PM block, TRADE, TERRY `1857731ff`/`27d538bba`, CFTC raw file, CATALYSTS); (b) SCOPED-PARTIAL elsewhere — older SENDING/WAITING rows carried at their own vintages.**
@@ -11,7 +12,7 @@
 
 **Status:** 10/4 21:44 ET: **nothing fires.** Forming Sunday tape, NOT settles: BZZ26 **$101.67**, CLX26 **$90.24**; the early Saudi-attack rally (Reuters 18:02 ET: $103.06/$91.57) fully faded below Friday vendor references. Fresh FIRMS heat is real but facility/cause/loss UNKNOWN ⇒ BG-02 R1 NOT MET. Iraq cargo is not a Hormuz bypass; Qatar winter warning is JERA's buyer view, not Qatar confirmation; IEA 325M is cumulative, not new. Carried from 10/2 close: VLO-HELD-01 A/B1 NOT FIRED · COT-35B #8 JOINT NOT-SPENT · THESIS v5.11 · $0.
 **Domain:** Oil/energy physical balance, structure and transmission.
-**As of:** 2026-10-04 21:44 ET by `date` (scoped, see banner). Tape = live vendor quotes / forming Globex session, NOT settlements. EIA vintage wk-9/25 (next Wed 10/7 10:30; then Thu 10/15 12:00). Incident states remain 10/2 vintage; FIRMS heat is not logged as damage.
+**As of:** 2026-10-04 22:21 ET by `date` (operational sweep; market tape remains 21:44 ET, scoped per banners). Tape = live vendor quotes / forming Globex session, NOT settlements. EIA vintage wk-9/25 (next Wed 10/7 10:30; then Thu 10/15 12:00). Incident states remain 10/2 vintage; FIRMS heat is not logged as damage.
 
 ## CROSS-DOMAIN
 
@@ -61,14 +62,14 @@ September 15 owner review: [incident matrix](research/2026-09-15_backlog-review/
 
 ## NEXT DECISION POINT
 
-**Sun 10/4 OPEC+** (November number only; delegate sourcing 9/29 expects a HOLD — grade on the statement) · **~Mon 10/5 Aramco Nov OSP** (October was −$2.00, unchanged; Yanbu record-only) · **Tue 10/6** WQ-252 crack-month sitting + SPR exchange bids close + Oct STEO · **Wed 10/7 WPSR** (Cushing after F-b; distillate exports) · **Fri 10/9** COT #9 + USO $150C expiry (Will) · **Thu 10/15 BRT-31 first print** (w/e 10/9). *(COT-35B #8 graded 10/2 15:32: JOINT NOT-SPENT.)*
+**~Mon 10/5 Aramco Nov OSP** (October was −$2.00, unchanged; Yanbu record-only) · **Tue 10/6** WQ-252 crack-month sitting + SPR exchange bids close + Oct STEO · **Wed 10/7 WPSR** (Cushing after F-b; distillate exports) · **Fri 10/9** COT #9 + USO $150C expiry (Will) · **Thu 10/15 BRT-31 first print** (w/e 10/9). *(OPEC+ November HOLD graded 10/4; COT-35B #8 graded 10/2 15:32: JOINT NOT-SPENT.)*
 
 ## WATCH (next 2–4 weeks)
 
 | Date | Event | Threshold / signal |
 |---|---|---|
 | ~~Sep 30~~ | ✅ GRADED: BRT-29 FAILED · BRT-12 VOID · F-b FIRED · Russia ban EXTENDED to 10/31 · XLE nothing residual | — |
-| Oct 4 / 5 / 6 / 8 | OPEC+ Nov decision / Aramco Nov OSP / Oct STEO + SPR bids + WQ-252 sitting / China export guidance after Golden Week | OSP swing from −$2 = scarcity pricing of the shuttled barrel; China restart or extension read on named Nov cracks. |
+| Oct 5 / 6 / 8 | Aramco Nov OSP / Oct STEO + SPR bids + WQ-252 sitting / China export guidance after Golden Week | OPEC+ Nov HOLD graded 10/4; OSP swing from −$2 = scarcity pricing of the shuttled barrel; China restart or extension read on named Nov cracks. |
 | Oct 15 (Thu) | BRT-31 first window print (w/e 10/9) | Two consecutive ≤ −1.5% ⇒ MET; 3rd week of GASREGW YoY < +20% ⇒ NOT-FIRED. |
 | Oct 14 (~) | IEA OMR October | The 2nd collective release was DECIDED 10/02 (G7, IEA-coordinated, up to 100M bbl) — read per-country volumes + draw start; stock draw vs −95 mb; demand vs −2.5 mb/d. |
 | Oct 26 | BRT-30 | JWLA-034 baseline; fails only on a circular ≥036 removing the Gulf (035 did not). |
