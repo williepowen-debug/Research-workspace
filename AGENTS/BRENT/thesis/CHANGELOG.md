@@ -1,3 +1,7 @@
+## 2026-10-05 — explicit overall assessment; v5.11 unchanged
+
+Old presentation → new presentation: morning evidence described export recovery, disputed pipeline flow and product/buffer stress; the core thesis now leads with the resulting judgment. Less conviction in another broad crude spike; diesel tightness and the refiner-margin rationale remain better supported; confidence moderate, global demand collapse/Phase 2 unconfirmed. This is the synthesis already given to Will and supported by today's saved report, not another market-data refresh or an additional conviction revision. Existing stand-down remains appropriate. Reassessment inputs are qualitative, not new trigger letters. No version, probability, threshold, prediction, position, approval or deployment change.
+
 ## 2026-10-05 — market-open evidence and stale reader-path corrections; v5.11 unchanged
 
 Old → new: latest dated OSP/no-confirmed-loss read → disputed East–West reports, named operator capacity assurance, recovered regional exports on unmatched windows, and product/buffer stress. The official October 2 presidential denial replaces “no White House word”; no signed restriction identified in the bounded October 5 search. Evidence and limitations → [report](../research/2026-10-05_market-open/REPORT.md). No new phase, forecast, test or trade authority.

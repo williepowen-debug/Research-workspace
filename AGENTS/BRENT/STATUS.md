@@ -99,6 +99,6 @@ AFP reports a pipeline halt; other reporting says flows continue. Named Aramco c
 
 ## SUMMARY FOR WILL
 
-*(2026-10-05 market-open refresh)* **Crude softness has not removed product tightness.** Current observations and source conflicts → [report](research/2026-10-05_market-open/REPORT.md). Next: Saudi throughput evidence, crack settlement and October 6 STEO. October 7 WPSR is outside BRT-31; first eligible release October 15. USO expiry/action-state check → TRADE. All approvals and deployment deferrals preserved; **$0**.
+*(October 5 assessment; data vintage unchanged)* **Less conviction in another crude spike; diesel/product tightness remains more resilient.** Refiner-margin evidence is stronger than the short-dated crude-rally case; confidence moderate. Demand collapse/Phase 2 unconfirmed. **Stand-down maintained.** [THESIS assessment](thesis/THESIS.md) · [evidence](research/2026-10-05_market-open/REPORT.md) · expiry/holding rules → TRADE.
 
 *(Prior: 10/2 16:55 → [archive](archive/STATUS_summary-for-will_2026-10-02_PM.md), 894 B crc32 `8063742b`; 10/2 midday → [archive](archive/STATUS_dated_2026-10-02_midday.md); 10/2 AM → [archive](archive/STATUS_dated_2026-10-02_AM.md); 10/1 + 9/30 → [archive](archive/STATUS_summary-for-will_2026-10-01_and_09-30.md), 1699 B crc32 `4ef5c581`.)*

@@ -1,21 +1,17 @@
-# BRENT SCRATCH — October 5, 2026 (market-open refresh)
+# BRENT SCRATCH — October 5, 2026 (assessment write-back)
 
 ## CHANGES SINCE LAST SESSION
 
-- Softer crude with firmer diesel in 09:32–34 ET vendor quotes; equities 09:44 ET. Full contracts, timestamps, source links and raw data → `research/2026-10-05_market-open/REPORT.md`. Intraday observations, not settlements.
-- East–West reports conflict; named Aramco capacity assurance is counterevidence to blanket outage, but quantified current damage/loss remains UNKNOWN. Regional export recovery is dated all-route evidence, not Hormuz normalization. Nasser's buffer warning is attributed, not a BRENT forecast.
-- No new WPSR or FRED physical/retail observation; GIE advances to gas day 10/3. JWC index/primary PDF retain Gulf listing. October 2 presidential pool reports supersede “no White House word” on a diesel ban.
-- Three WALTER packets arrived: -002's preliminary monthly/per-route exports reconciled separately from rolling estimates; -001/-004 context noted. No Monday routine output at closeout scan; newest remains Friday 10/2, whose COT warning was superseded by grade #8.
+- No new market observations or broker evidence in this follow-up. The saved morning capture and source vintages remain the evidence base; no feed/routine rerun.
+- Will requested that the overall assessment be reflected in core files. Prior market-refresh commits: `701cd4e2f` and NEXUS `7b2b21e9a`.
 
 ## WHAT I DID THIS SESSION
 
-- Captured named futures/equities, EIA, lagged FRED physical/retail/broad HY context and GIE; saved raw JSONs and reader. No fresh sector-specific energy-credit or paid freight/AIS measurement claimed.
-- Updated STATUS, TRACKER, TRADE, THESIS/CHANGELOG, JWC verification stamp and board_log. Archived before-images with byte counts/crc32. Fixed stale BRT-31 draft-only/BRT-29 grade-owed reader paths against existing registrations; no prediction row or letter changed.
-- Corrected BRENT's stale TERRY ×2 claim: card already has October 1–2 ×1 addenda. Today's option feed is unusable (zero bid/ask, Friday last trade). Holding status requested from Will; no new receipt received in this pass.
-- Approved-network boot at 09:53 ET, 20.2 seconds, **rc=2**: Threshold/EIA/Catalyst/Predictions/Lesson conflict/Pending receipts/Derived views OK; Instrument WARNINGS; Ledger Staleness and Ledger Nudge FINDINGS. Receipt: `research/2026-10-05_market-open/boot.txt`.
-- LNG/VG/tanker quote coverage recovered and JWC stamp repaired. Three instrument advisories remain: WTI–Brent/diesel automatic probes cover one component; tanker owner grade belongs at/after 14:00 ET. Independent paired intraday capture does not certify settlements.
-- Three consumed WALTER packets = three board_log rows = three git-moved processed files. No outbound tool sends, agents spawned, or routine runs/deployment.
-- Preserved WQ-189/192 stand-down, retired deploy gate, WQ-234 evidence restrictions, WQ-330 held-VLO rules, WQ-213 staged shares, WQ-331/346 demand-test authority, WQ-264 shadow through 10/24, declined USO harvest and paid-data deferral. No trade, re-arm or new test.
+- Made the existing synthesis explicit at the top of THESIS and in STATUS's operator summary: less conviction in another broad crude spike, more resilient diesel/product tightness, stronger refiner-margin rationale than short-dated crude-rally case, moderate confidence, Phase 2 unconfirmed. Existing stand-down maintained.
+- Logged old presentation → new presentation in CHANGELOG. This is clarification of today's already-recorded interpretation, not a new forecast or additional conviction revision; v5.11 and all numeric calibration unchanged.
+- Named qualitative evidence that would change the assessment without registering new triggers. Position clocks and holding rules remain owned by TRADE; no new recommendation, receipt or approval.
+- TRACKER closeout explicitly retains the earlier data vintage. NEXUS is the final fold and pins the STATUS commit. No new packets consumed/sent, no agents spawned, no deployment.
+- Carried diagnostic receipt: market-open boot 09:53 ET rc=2, Ledger Staleness/Nudge FINDINGS and Instrument WARNINGS; `research/2026-10-05_market-open/boot.txt`. No new boot claimed.
 
 ## NEXT SESSION (dated, future-verifiable)
 
@@ -40,7 +36,7 @@
 
 ## MAIL STATE
 
-- WALTER -001 noted, -002 acted, -004 noted; each archived with matching ledger row. Top-level inbox/outbox empty at scan; no MSG receipt needed. NEXUS brief is publication surface; consumer read not claimed.
+- Earlier morning intake: WALTER -001 noted, -002 acted, -004 noted; each archived/receipted. No intake work in this assessment-only follow-up; no recipient-consumption claim.
 
 ## CAPABILITIES / WORKBOOK HEALTH
 
