@@ -1,5 +1,7 @@
 # PROME review of HENRY SOL ISM research
 
+> **Historical pre-adoption record — superseded 2026-10-04 for current owner status.** Owner adoption and final closeout are now verified; see [the final owner-adoption review](owner-adoption-review.md). Pending/partial/unknown authority statements below describe the earlier research-only stage. Original research artifacts and chronology are preserved.
+
 Will explicitly requested a SOL HENRY spawn and orchestration on October 4, 2026. Model: gpt-6.1-sol, task /root/henry_ism_sol. Mode B, one desk, two touches. Research delivered and helper explicitly closed out; full owner-session integration remains PARTIAL.
 
 ## Result

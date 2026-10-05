@@ -1,5 +1,7 @@
 # HENRY SOL receipt reconciliation and adoption handoff
 
+> **Historical pre-adoption record — superseded 2026-10-04 for current owner status.** Owner adoption and final closeout are now verified; see [the final owner-adoption review](owner-adoption-review.md). Pending/partial/unknown authority statements below describe the earlier research-only stage. Original research artifacts and chronology are preserved.
+
 PROME response to CATO's 2026-10-04 assessment (1d6b38263). Original helper report/JSON/TSV remain unchanged, preserved at 83d842484d7354d0bacf0b15b10597d26d263db5. Research-only delivery is complete; owner adoption remains PENDING. This record neither launches an owner nor schedules observations.
 
 ## Verified runtime receipts

@@ -3,6 +3,9 @@
 **Owner:** PROME. Rendered by `PROME/tools/will_handbook.py` (regenerated at Standard+ closeouts alongside the brief and dashboard). The live sections on the page — Waiting on you · The clock — are GENERATED from WILL_QUEUE/DOCKET via the brief's own parsers and are never written here. **This file is the manual + the curated priorities. Plain language; every claim dated; update when a convention changes, not per-session.**
 
 ## Top priorities
+
+**2026-10-04 21:54 ET — latest Codex handoff:** HENRY’s owner adoption and session closeout are verified; the forecast is not graded yet. Follow DOCKET L612. No automatic wake or market capture is installed. The pre-open gamma board and the Monday position priorities below remain separate. [Handoff evidence](reports/2026-10-04_henry-sol-ism/owner-adoption-review.md). The dated blocks below preserve earlier context.
+
 *(Reconciled 2026-10-04 14:25 ET at the `prome-ed` Sunday-afternoon Standard closeout on the desktop, against `WILL_QUEUE.md` § OPEN, `DOCKET.tsv` and the 10/1 post-close mirror; the blocks below it are earlier and stay as dated history.)*
 - **Monday, the one that matters most:** the five QQQ Oct-5 735 puts reach your 3:00 pm stop (TERRY leans sell at the open; HENRY's pre-open read comes first). Also Monday: VULCAN's 8:30 am evidence unlocks WQ-365; the Friday high-yield cell about 10:15 am; your Fidelity Activity view for 9/29 to 10/2 books the expired puts (WQ-347).
 - **Nothing new needs your word today.** OPEC+ held November output (expected; near-zero real barrels). The second-opinion read of DAEDALUS's rulebook audit found three serious gaps in shared files; they come to the 10/9 sitting as proposals, not edits.

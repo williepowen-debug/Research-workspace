@@ -11,11 +11,15 @@
 
 ## WRITTEN
 
-2026-10-04 14:25 ET — PROME (`prome-ed`, desktop, Sunday afternoon after a `/clear`; Standard closeout). Scope: OPEC+'s Sunday decision graded by BRENT; the second-opinion read on DAEDALUS's audit of the system's own rulebooks; a hold on one of TERRY's git steps; a reconciliation of PROME's own boot. No trade by PROME; $0 moved by PROME; no fill reported by you.
+2026-10-04 21:54 ET — PROME, Codex Sunday-evening closeout. HENRY’s prospective ISM forecast is adopted and its owner session closed. No trade or fill reported.
+
+*Prior written note:* 2026-10-04 14:25 ET — PROME (`prome-ed`, desktop, Sunday afternoon after a `/clear`; Standard closeout). Scope: OPEC+'s Sunday decision graded by BRENT; the second-opinion read on DAEDALUS's audit of the system's own rulebooks; a hold on one of TERRY's git steps; a reconciliation of PROME's own boot. No trade by PROME; $0 moved by PROME; no fill reported by you.
 
 *Prior:* 2026-10-03 17:3x ET — PROME (`prome-ed`, desktop, Saturday afternoon, the post-`/clear` sitting; Standard closeout). Scope: the boot report on what PROME owed; WALTER's bookmark follow-ons folded into one decision; PROME's own repair backlog ranked for your word; the gate ledger compacted and read twice; the five oversized boot-read files rotated. No trade by PROME; $0 moved by PROME; no fill reported by you; markets closed.
 
 ## HEADLINE
+
+**HENRY’s ISM forecast is registered; the result is still ahead.** The owner updates and final closeout were verified in Git and on the remote. The macro forecast can be graded independently; the market-reaction map remains exploratory because its observation source was not secured. No automatic wake or capture is installed. [Verification and remaining obligation](reports/2026-10-04_henry-sol-ism/owner-adoption-review.md); DOCKET L612 owns the dated follow-up. The Monday position priorities remain in the Helm.
 
 ## SINCE THE 17:3x BRIEF — 10/4 Sunday (2026-10-04 14:25 ET)
 
@@ -154,6 +158,8 @@ The picture is Friday's close, and the weekend changed none of it. Real yields l
 **Prior (10/1 night): No new broker capture tonight; the book below is the 4:15 pm reconcile.** One thing new: TERRY's TLT December 77 put ×2 card is on file and is NOT a position — no order, no fill, and it waits on your word (WQ-360). Your Deck note says the four Oct-1 puts were rolled; the fill prices are still not on record. **$0 moved by PROME; no trade proposed by PROME; no threshold set, moved or fired by PROME.** The mirror is reconciled to your 4:15 pm end-of-day capture (ANVIL, every row and the total to the cent): Fidelity $36,077.04, down $368.56 on the day; cash $14,147.60 plus $1,377.10 pending; Robinhood carried from 9/29. On the book: QQQ Oct-2 $740 puts ×4 (new today, expire Friday, WQ-347) and Oct-5 $735 puts ×5; USO Oct-9 $150 call ×1 (USO closed at the strike); TLT Oct-16 $82 put ×1 and TBT 10 shares (the duration shorts BOND recommends exiting, WQ-357); HBAN Oct-16 $16 puts ×2 (WQ-302 by 10/14); KRE Dec-31 $65 puts ×2 and Dec-18 $60 puts ×5; APO Dec-18 $95 put; WAL Dec-18 $70 put (Robinhood); USO 37 shares, GLD 17, AAPL 10, APD 2, VLO 1 (its two staged shares stand down; TERRY graded the held share's rule for 9/30 and 10/1 and neither leg fired). Not on record: how the four Oct-1 740 puts left (about $22.75 net by inference) and $53.54 of unexplained cash; one Activity view answers both. Stand-down on new energy capital holds; the concentration is accepted in writing; X1 is closed.
 
 ## WATCH
+
+**Latest, 2026-10-04 21:54 ET:** HENRY’s remaining forecast grade is DOCKET L612. Its pre-open gamma-board obligation is separate. Earlier dated watch notes below are history; the current docket governs.
 
 **Added 10/3 evening:** you ruled eight rows by tap at about 9:10 pm: the helper build deferred (374), the five closeout changes approved (367), the 'sustained' count approved (363), the USO call held to Friday's stop rather than sold (366, your words: the Saudi news keeps getting worse), Root B held to PRED-50's grade (341), CRU-11 approved (242); and two LATER: the duration-short exit (357, you want more research on whether the bond rebound continues, BOND owes a read by 10/8, the put's clock is 10/14) and the QQQ December spread (365, not approved, cannot arm Monday, re-asked after VULCAN). **Added 10/3 afternoon:** your word on WQ-377 and WQ-379, rulable any time; Monday pre-open, HENRY's gamma read before the 735 puts' stop; the 10/9 spine audit, which also sweeps three residue ledgers; the gate ledger's condition cells still need each desk's confirm (re-dated to the 10/25 review). **Added 10/2 evening:** Monday 8:30 am, VULCAN's comparison of the QQQ December spread against the alternatives (WQ-365); about 10:15 am, Friday's high-yield cell publishes and decides whether the three-print count reaches two or resets, with RED and REGINALD waking on it; 3:00 pm, the stop on the five QQQ Oct-5 735 puts; DAEDALUS and REGINALD have Monday wakes of their own; the news collector's two weekend runs wait for WALTER. Later: WALTER's and RAV's own encodes of the YEYOU retirement; your word on WQ-371.
 
