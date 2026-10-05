@@ -2,7 +2,9 @@
 """Tests for PROME/tools/docket_row_cap.py — throwaway repositories only; the live docket
 is never read or written. Five neighbour categories: ordinary · overlap (grandfathered
 rows, comments, multibyte) · wrong owner (other files staged) · missing information
-(no base, not a repo) · concurrent activity (pathspec commit uses a temporary index)."""
+(no base, not a repo; policy unset / absent from the index / unmerged / not UTF-8) ·
+concurrent activity (pathspec commit uses a temporary index; alternate GIT_INDEX_FILE).
+--staged reads the POLICY from the index too (CATO PR1, 2026-10-05)."""
 import os
 import pathlib
 import shutil
@@ -156,22 +158,144 @@ class Repo(unittest.TestCase):
         self.assertIn("cannot be checked", r.stderr)
 
     def test_unconfigured_cap_is_dormant_and_says_so(self):
+        # The policy change is COMMITTED WITH the candidate (A4): the hook reads the index.
         (self.repo / "scripts/harness_caps.env").write_text("# no docket key\n")
         self.docket.write_text(self.docket.read_text() + row(3, D + 50))
         r = self.check()
         self.assertEqual(r.returncode, 0)
         self.assertIn("not configured", r.stdout)
         self.assertEqual(self.check("--cap", str(D)).returncode, 1)         # explicit cap still works
-        r = self.git("commit", "-q", "PROME/DOCKET.tsv", "-m", "dormant")  # hook lets it through…
-        self.assertIn("not configured", r.stderr)                            # …and git relays the notice
+        r = self.git("commit", "-q", "PROME/DOCKET.tsv", "scripts/harness_caps.env", "-m", "dormant")
+        self.assertIn("not configured", r.stderr)                            # git relays the notice
+        self.assertIn("(index)", r.stderr)                                   # and names the source
 
     def test_malformed_cap_is_unknown_and_hook_refuses(self):
         (self.repo / "scripts/harness_caps.env").write_text("DOCKET_ROW_CAP_BYTES=abc\n")
         self.docket.write_text(self.docket.read_text() + row(3, 50))
         self.assertEqual(self.check().returncode, 2)
-        r = self.git("commit", "-q", "PROME/DOCKET.tsv", "-m", "x", check=False)
+        r = self.git("commit", "-q", "PROME/DOCKET.tsv", "scripts/harness_caps.env", "-m", "x", check=False)
         self.assertNotEqual(r.returncode, 0)
         self.assertIn("could not run", r.stderr)
+
+    # --- CATO PR1 (2026-10-05): --staged reads the policy from the index, never the worktree ---
+
+    def env(self, text):
+        (self.repo / "scripts/harness_caps.env").write_text(text)
+
+    def commits(self):
+        return self.git("log", "--oneline").stdout.count("\n")
+
+    def test_unstaged_policy_removal_or_raise_cannot_admit_an_over_cap_row(self):   # A2
+        self.docket.write_text(self.docket.read_text() + row(3, D + 50))
+        for unstaged in ("# docket key removed, not staged\n", f"DOCKET_ROW_CAP_BYTES={D * 5}\n"):
+            self.env(unstaged)
+            self.assertEqual(self.check().returncode, 0)   # worktree view: unset or 5× cap ⇒ passes
+            self.assertEqual(self.check("--staged").returncode, 0)   # docket not staged yet: base == index
+            r = self.git("commit", "-q", "PROME/DOCKET.tsv", "-m", "over", check=False)
+            self.assertNotEqual(r.returncode, 0, unstaged)
+            self.assertIn("NEW-OVER-CAP", r.stderr)
+            self.git("add", "--", "PROME/DOCKET.tsv")
+            r = self.git("commit", "-q", "-m", "over, plain", check=False)
+            self.assertNotEqual(r.returncode, 0, unstaged)
+            self.git("reset", "-q", "--", "PROME/DOCKET.tsv")
+        self.assertEqual(self.commits(), 1)
+        self.assertIn(f"DOCKET_ROW_CAP_BYTES={D}", self.git("show", "HEAD:scripts/harness_caps.env").stdout)
+
+    def test_unstaged_tighter_cap_does_not_block_a_valid_row(self):            # A3
+        self.env("DOCKET_ROW_CAP_BYTES=60\n")                                 # unstaged, tighter
+        self.docket.write_text(self.docket.read_text() + row(3, 80))         # 80 B: over 60, under D
+        self.assertEqual(self.check().returncode, 1)                          # worktree mode still sees 60
+        self.git("commit", "-q", "PROME/DOCKET.tsv", "-m", "valid under the committed cap")
+        self.assertEqual(self.commits(), 2)
+
+    def test_staged_policy_change_governs_its_own_commit(self):               # A4
+        self.docket.write_text(self.docket.read_text() + row(3, D + 50))
+        self.env(f"DOCKET_ROW_CAP_BYTES={D * 5}\n")                          # raise, staged with it
+        self.git("commit", "-q", "PROME/DOCKET.tsv", "scripts/harness_caps.env", "-m", "raise + row")
+        self.assertEqual(self.commits(), 2)
+        self.docket.write_text(self.docket.read_text() + row(4, 150))
+        self.env("DOCKET_ROW_CAP_BYTES=100\n")                               # tighten, staged with it
+        r = self.git("commit", "-q", "PROME/DOCKET.tsv", "scripts/harness_caps.env", "-m", "x", check=False)
+        self.assertNotEqual(r.returncode, 0)
+        self.assertEqual(self.commits(), 2)
+
+    def test_partially_staged_policy_uses_the_index_version(self):            # overlap
+        self.env("DOCKET_ROW_CAP_BYTES=100\n")
+        self.git("add", "--", "scripts/harness_caps.env")                     # index: 100
+        self.env(f"DOCKET_ROW_CAP_BYTES={D * 5}\n")                          # worktree: 10000
+        self.docket.write_text(self.docket.read_text() + row(3, 150))
+        self.git("add", "--", "PROME/DOCKET.tsv")
+        r = self.check("--staged")
+        self.assertEqual(r.returncode, 1)
+        self.assertIn("> cap 100", r.stdout)
+
+    def test_policy_file_absent_from_index_is_dormant_and_says_so(self):      # A5
+        self.git("rm", "-q", "--cached", "--", "scripts/harness_caps.env")   # file stays on disk
+        self.docket.write_text(self.docket.read_text() + row(3, D + 50))
+        self.git("add", "--", "PROME/DOCKET.tsv")
+        r = self.check("--staged")
+        self.assertEqual(r.returncode, 0)
+        self.assertIn("not configured", r.stdout)
+        self.assertIn("(index)", r.stdout)
+        self.assertEqual(self.check().returncode, 1)                          # worktree file still governs saves
+
+    def test_unmerged_or_non_utf8_policy_in_index_is_unknown(self):           # A5
+        blob = self.run_cmd("git", "hash-object", "-w", "--stdin", input="DOCKET_ROW_CAP_BYTES=9\n").stdout.strip()
+        # Simulate a conflicted policy file: stages 1 and 3, no stage 0.
+        r = subprocess.run(["git", "update-index", "--index-info"], cwd=self.repo, text=True, capture_output=True,
+                           input=f"0 {'0' * 40}\tscripts/harness_caps.env\n"
+                                 f"100644 {blob} 1\tscripts/harness_caps.env\n"
+                                 f"100644 {blob} 3\tscripts/harness_caps.env\n")
+        self.assertEqual(r.returncode, 0, r.stderr)
+        r = self.check("--staged")
+        self.assertEqual(r.returncode, 2)
+        self.assertIn("unmerged", r.stdout)
+        self.git("reset", "-q", "--", "scripts/harness_caps.env")
+        (self.repo / "scripts/harness_caps.env").write_bytes(b"DOCKET_ROW_CAP_BYTES=\xff\xfe\n")
+        self.git("add", "--", "scripts/harness_caps.env")
+        r = self.check("--staged")
+        self.assertEqual(r.returncode, 2)
+        self.assertIn("not UTF-8", r.stdout)
+
+    def test_non_regular_policy_entry_in_index_is_unknown(self):              # A5 (reader C5/C6)
+        real = self.repo / "scripts/caps.real"
+        real.write_text(f"DOCKET_ROW_CAP_BYTES={D}\n")
+        pol = self.repo / "scripts/harness_caps.env"
+        pol.unlink()
+        pol.symlink_to("caps.real")                                          # symlink blob = link text
+        self.git("add", "--", "scripts/harness_caps.env", "scripts/caps.real")
+        self.docket.write_text(self.docket.read_text() + row(3, D + 50))
+        self.git("add", "--", "PROME/DOCKET.tsv")
+        r = self.check("--staged")
+        self.assertEqual(r.returncode, 2, r.stdout)
+        self.assertIn("not a regular file", r.stdout)
+        self.git("rm", "-q", "--cached", "--", "scripts/harness_caps.env")
+        pol.unlink()
+        pol.mkdir()
+        (pol / "x").write_text("DOCKET_ROW_CAP_BYTES=9\n")
+        (pol / "y").write_text("DOCKET_ROW_CAP_BYTES=9\n")
+        self.git("add", "--", "scripts/harness_caps.env")                    # a directory of that name
+        r = self.check("--staged")
+        self.assertEqual(r.returncode, 2, r.stdout)
+        self.assertIn("not a single file", r.stdout)
+
+    def test_alternate_index_file_supplies_both_policy_and_rows(self):        # A6
+        alt = pathlib.Path(self.tmp.name) / "alt-index"
+        env = dict(os.environ, GIT_INDEX_FILE=str(alt))
+        self.assertEqual(subprocess.run(["git", "read-tree", "HEAD"], cwd=self.repo, env=env).returncode, 0)
+        self.docket.write_text(self.docket.read_text() + row(3, D + 50))
+        self.env("# removed in the worktree only\n")
+        subprocess.run(["git", "add", "--", "PROME/DOCKET.tsv"], cwd=self.repo, env=env, check=True)
+        r = subprocess.run([sys.executable, "PROME/tools/docket_row_cap.py", "--staged"], cwd=self.repo,
+                           env=env, capture_output=True, text=True)
+        self.assertEqual(r.returncode, 1, r.stdout)                           # alt index: cap D, oversize row
+        self.assertEqual(self.check("--staged").returncode, 0)                # default index: docket unchanged
+
+    def test_explicit_cap_overrides_index_policy(self):                       # A7
+        self.docket.write_text(self.docket.read_text() + row(3, 150))
+        self.git("add", "--", "PROME/DOCKET.tsv")
+        self.assertEqual(self.check("--staged").returncode, 0)
+        self.assertEqual(self.check("--staged", "--cap", "100").returncode, 1)
 
     def test_no_base_blob_is_unknown_not_clean(self):
         r = self.run_cmd(sys.executable, "PROME/tools/docket_row_cap.py", "--cap", "100", "--docket", "PROME/OTHER.tsv")

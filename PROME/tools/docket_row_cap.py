@@ -30,7 +30,9 @@ CONTRACT
   blob, unreadable candidate) — never read 2 as clean (CHECK_STANDARD §9).
 * The number is Will's and is NOT in this file: it is read from `scripts/harness_caps.env`
   (`DOCKET_ROW_CAP_BYTES=…`, the same shared-constants file the memory guards use), or
-  given explicitly with --cap. With neither, the mechanism is DORMANT (rc 0): the "not
+  given explicitly with --cap. With --staged the policy comes from the INDEX, the same
+  version as the candidate rows (CATO PR1, 2026-10-05: a working-tree read let an unstaged
+  edit to the policy decide what a commit could contain). With neither, the mechanism is DORMANT (rc 0): the "not
   configured" line is visible at the pre-commit hook (git relays hook stderr even on a
   successful commit) and in the closeout gate's row; the PostToolUse save hook stays SILENT
   when dormant — its exit-0 stderr does not reach the model (handoff finding, 2026-10-05).
@@ -51,12 +53,9 @@ CAPS_ENV = "scripts/harness_caps.env"
 CAP_KEY = "DOCKET_ROW_CAP_BYTES"
 
 
-def configured_cap(root: pathlib.Path):
-    """The policy number, or None when unset. Malformed ⇒ ValueError (never a silent default)."""
-    try:
-        text = (root / CAPS_ENV).read_text(encoding="utf-8")
-    except FileNotFoundError:
-        return None
+def parse_cap(text: str):
+    """The policy number in a harness_caps.env text, or None when the key is unset.
+    Malformed ⇒ ValueError (never a silent default)."""
     values = [l.split("=", 1)[1].strip() for l in text.splitlines() if l.startswith(CAP_KEY + "=")]
     if not values:
         return None
@@ -66,6 +65,45 @@ def configured_cap(root: pathlib.Path):
     if cap <= 0:
         raise ValueError(f"{CAP_KEY} must be positive, got {cap}")
     return cap
+
+
+def configured_cap(root: pathlib.Path):
+    """Working-tree policy (save hook, closeout gate). Absent file ⇒ None (dormant)."""
+    try:
+        text = (root / CAPS_ENV).read_text(encoding="utf-8")
+    except FileNotFoundError:
+        return None
+    return parse_cap(text)
+
+
+def staged_cap(root: pathlib.Path):
+    """Index policy for --staged (CATO PR1, 2026-10-05): the cap must come from the SAME index
+    as the docket candidate, or an unstaged edit to the shared policy file (another session's,
+    unfinished) decides what a commit may contain. Honours GIT_INDEX_FILE like `git show :path`.
+    Not in the index ⇒ None (dormant — the commit carries no policy file, same rule as an
+    absent working-tree file). Listed but unreadable, unmerged, not a regular file (symlink,
+    submodule, directory) or not UTF-8 ⇒ ValueError."""
+    listed = _git(["ls-files", "--stage", "--", CAPS_ENV], root)
+    if listed.returncode != 0:
+        raise ValueError(f"cannot list {CAPS_ENV} in the index")
+    entries = [e.split("\t", 1) for e in listed.stdout.decode("utf-8", "replace").splitlines()]
+    if not entries:
+        return None
+    if any(len(e) != 2 or e[1] != CAPS_ENV for e in entries):
+        raise ValueError(f"{CAPS_ENV} is not a single file in the index (a directory of that name?)")
+    if len(entries) != 1 or entries[0][0].split()[2] != "0":
+        raise ValueError(f"{CAPS_ENV} is unmerged in the index")
+    if entries[0][0].split()[0] not in ("100644", "100755"):    # independent reader C5/C7, 2026-10-05:
+        raise ValueError(f"{CAPS_ENV} in the index is not a regular file "   # a symlink's blob is its target
+                         f"(mode {entries[0][0].split()[0]})")              # text — reading it fails open
+    blob = read_blob(f":{CAPS_ENV}", root)
+    if blob is None:
+        raise ValueError(f"{CAPS_ENV} is in the index but unreadable")
+    try:
+        text = blob.decode("utf-8")
+    except UnicodeDecodeError:
+        raise ValueError(f"{CAPS_ENV} in the index is not UTF-8") from None
+    return parse_cap(text)
 
 
 def _git(args, cwd):
@@ -137,13 +175,14 @@ def main() -> int:
     root = pathlib.Path(top.stdout.decode().strip())
     cap = args.cap
     if cap is None:
+        source = f"{CAPS_ENV} (index)" if args.staged else CAPS_ENV
         try:
-            cap = configured_cap(root)
+            cap = staged_cap(root) if args.staged else configured_cap(root)
         except ValueError as exc:
             print(f"⚠️  DOCKET-ROW-CAP UNKNOWN — {exc}")
             return 2
         if cap is None:
-            print(f"·  DOCKET-ROW-CAP not configured — set {CAP_KEY}=<bytes> in {CAPS_ENV} to activate "
+            print(f"·  DOCKET-ROW-CAP not configured — set {CAP_KEY}=<bytes> in {source} to activate "
                   "(mechanism dormant; this line is the only effect)")
             return 0
     args.cap = cap
