@@ -9,12 +9,13 @@ from pathlib import Path
 PAGE_CHARS = 6000
 PAGE_TEXT_BYTES = 6000  # Serialized text only; leave room for the JSON envelope.
 ORCH_VIEW = "orch-compact-v1"
+ORCH_RENDER_REVISION = b"2"  # Matcher changes alter offsets even on unchanged source.
 ORCH_HEADER = re.compile(
     r"ORCH_LOG closeout evidence — \d{4}-\d{2}-\d{2} \+ unresolved prior touches; "
     r"attributed records, not native receipt authentication\n")
 GAP_REASON = "missing or duplicate structured closeout evidence"
 GAP_ROW = re.compile(
-    r"UNKNOWN: (\d{4}-\d{2}-\d{2} \S+ touch [1-9][0-9]*"
+    r"UNKNOWN: (\d{4}-\d{2}-\d{2} [^\r\n]*\S[^\r\n]* touch [1-9][0-9]*"
     r"(?:[A-Za-z][A-Za-z0-9_-]*|-[A-Za-z0-9_-]+)? \[[0-9a-f]{64}\]): "
     + GAP_REASON + r"\n")
 
@@ -56,7 +57,7 @@ def page(path, offset=0, expected_sha=None, view="full"):
     source_sha = hashlib.sha256(raw).hexdigest()
     # Bind offsets to BOTH the source and representation. A compact offset must
     # never silently resume in the original text (or vice versa).
-    sha = source_sha if view == "full" else hashlib.sha256(view.encode() + b"\0" + raw).hexdigest()
+    sha = source_sha if view == "full" else hashlib.sha256(view.encode() + b"\0" + ORCH_RENDER_REVISION + b"\0" + raw).hexdigest()
     if offset < 0 or (offset and not expected_sha):
         raise ValueError("Continuation requires a nonnegative offset and --sha256")
     if expected_sha is not None and sha != expected_sha:

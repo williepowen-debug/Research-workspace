@@ -34,6 +34,7 @@ AGENTS/**	EXCLUDED	another desk's own directory — its work, its closeout, its 
 BOARD/**	EXCLUDED	WALTER's signal board — WALTER owns signal/news routing (root CLAUDE.md)
 KERNEL/**	EXCLUDED	Gate C custody has its own additions-only checks and its own runbook; never folded into a closeout audit
 MESSAGING/**	EXCLUDED	ratified messaging canon — shared/root doc, Will-gated, not PROME closeout output
+scripts/read_cap_check.py	SHARED	shared read-budget instrument; Will authorized PROME runtime-charter coverage maintenance 2026-10-04; label shared and review the authorized change, never infer future authorship
 scripts/**	EXCLUDED	fleet-wide scripts — shared, not PROME's closeout output
 docs/**	EXCLUDED	shared root docs — Will-gated per root CLAUDE.md Ask-First
 reviews/**	EXCLUDED	external audit reports — written BY the auditor, read by PROME; auditing them would be auditing the auditor

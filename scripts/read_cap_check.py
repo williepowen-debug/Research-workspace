@@ -722,14 +722,20 @@ def charter_info(name):
         return os.path.relpath(ch, ROOT), None
 
 
-def charter_line(name):
+def charter_line(name, charter_mode="unspecified"):
     rel, b = charter_info(name)
     size = f"{b:,} B" if b is not None else "ABSENT"
-    return (f"charter {rel} = {size} — OUT OF PERIMETER by rule 20 (harness-injected, context cost not "
-            f"truncation; not graded here; composite-injection advisory is PROME/Will's)")
+    if charter_mode == "explicit":
+        return f"charter {rel} = {size} — explicit whole read; root and local charters INCLUDED"
+    basis = ("caller declares confirmed injection" if charter_mode == "injected" else
+             "injection UNCONFIRMED; explicit-read runtime coverage NOT assessed")
+    return (f"charter {rel} = {size} — OUT OF PERIMETER by rule 20 unless declared; "
+            f"{basis}; composite-injection context cost not graded here")
 
 
-def check_agent(name, quiet=False, require_manifest=False):
+def check_agent(name, quiet=False, require_manifest=False, charter_mode="unspecified"):
+    if charter_mode not in ("explicit", "injected", "unspecified"):
+        raise ValueError("Invalid charter mode")
     # R7-stage-2 precedence: a desk's own ATTESTED declaration beats a scan of its charter.
     cap_bearing, visible, problems, attested, dnote = declared_reads(name)
     if cap_bearing is UNAVAILABLE:
@@ -774,6 +780,26 @@ def check_agent(name, quiet=False, require_manifest=False):
         if not quiet:
             print(f"READ-CAP 2 CANNOT-EVALUATE [{name}]: {note}")
         return 2, None
+    # Runtime overlay, not a new desk attestation. Dictionary union prevents
+    # double counting a charter already declared as a whole read.
+    if charter_mode == "explicit":
+        for charter in (os.path.join(ROOT, "CLAUDE.md"),
+                        os.path.join(desk_home(name), "CLAUDE.md")):
+            try:
+                with open(charter, "rb") as stream:
+                    stream.read()
+            except OSError as exc:
+                if not quiet:
+                    print(f"READ-CAP 2 CANNOT-EVALUATE [{name}]: explicit charter {charter}: {exc}")
+                return 2, None
+            aliases = [p for p in files if os.path.normpath(p) == os.path.normpath(charter)]
+            sources = [files.pop(p) for p in aliases]
+            files[charter] = " | ".join(sources) if sources else "whole · runtime explicit charter"
+            for alias in aliases:
+                if alias != charter and alias in member_of:
+                    member_of.setdefault(charter, member_of.pop(alias))
+        visible = [(p, mode, src) for p, mode, src in visible
+                   if os.path.normpath(os.path.join(ROOT, p)) not in files]
     rows = []
     base = ROOT if declared else desk_home(name)      # declared rows are repo-relative + cross-agent
     for p in sorted(files, key=lambda x: -os.path.getsize(x)):
@@ -939,7 +965,8 @@ def check_agent(name, quiet=False, require_manifest=False):
         elif declared:
             print(f"✅ READ-CAP 0 [{name}]: every CAP-BEARING read in this desk's ATTESTED manifest is "
                   f"under budget ({len(rows)} measured, {len(visible)} declared-not-counted). "
-                  f"Perimeter = the desk's own declaration, not a scan.")
+                  f"Perimeter = the desk's own declaration"
+                  + (" plus explicit root/local charter reads." if charter_mode == "explicit" else ", not a scan."))
         else:
             print(f"✅ READ-CAP 0 [{name}]: every boot-mandated read this check found is under budget "
                   f"({len(rows)} file(s)). ⚠️ PERIMETER IS THE CHARTER HEURISTIC — this desk has no "
@@ -947,7 +974,7 @@ def check_agent(name, quiet=False, require_manifest=False):
                   f"scan found', NOT a clean bill. 29 of 37 desks delegate boot to a file it cannot see.")
         # RULE 20 — every assessed desk, every verdict, both perimeters: the count above EXCLUDES
         # the charter by design, and the reader must be told so on the same screen.
-        print(f"  ℹ️  {charter_line(name)}")
+        print(f"  ℹ️  {charter_line(name, charter_mode)}")
         # ── GENERATED PROJECTIONS: PRINTED AT EVERY REMEDY TIER, NOT ONLY INSIDE `if rc:` ──
         # Hoisted out of the rc branch 2026-09-14 (DOCKET L349). While it lived under `if rc:` it
         # could not reach a 🟡 rotate-tier row, which is rc 0 — and the live instance the row was
@@ -1577,12 +1604,21 @@ def main(argv):
         args = args[:i] + args[i + 2:]
         print(f"⚠️  TEST OVERRIDE: manifest = {READS_TSV} (NOT PROME/registry/READS.tsv) — "
               f"no verdict from this run is citable", file=sys.stderr)
+    charter_mode = "unspecified"
+    if "--charter-mode" in args:
+        i = args.index("--charter-mode")
+        if (args.count("--charter-mode") != 1 or i + 1 >= len(args) or args[i + 1] not in ("explicit", "injected", "unspecified")
+                or "--agent" not in args or "--fleet" in args):
+            print("READ-CAP 2 USAGE: --charter-mode explicit|injected|unspecified requires --agent")
+            return 2
+        charter_mode = args[i + 1]
+        args = args[:i] + args[i + 2:]
     require_manifest = "--require-manifest" in args
     if require_manifest:
         args = [a for a in args if a != "--require-manifest"]
     if "--agent" in args:
         name = args[args.index("--agent") + 1]
-        rc, res = check_agent(name, require_manifest=require_manifest)
+        rc, res = check_agent(name, require_manifest=require_manifest, charter_mode=charter_mode)
         if res is None:
             # rc 2: nothing was assessed. Every count below is ZERO because it is UNEARNED, not
             # because it is clean, and `assessed=0` is the flag that says so.
@@ -1590,6 +1626,7 @@ def main(argv):
             print(_result_line("agent", rc, 0, desk=name, reads=0, over_budget=0, over_cap=0,
                                manifest_defects=0, advisories=0, generated_flagged=0,
                                rotation_due=0, active_decisions_over_budget=0,
+                               charter_mode=charter_mode, charter_reads=0,
                                charter_bytes=_cb if _cb is not None else "NA"))
         else:
             _, n, nb, nc, _rows, defs, advs, gen, _cb = res
@@ -1600,6 +1637,8 @@ def main(argv):
                                active_decisions_over_budget=int(any(
                                    r[1] == "PROME/ACTIVE_DECISIONS.md" and r[2] >= BUDGET_BYTES
                                    for r in _rows)),
+                               charter_mode=charter_mode,
+                               charter_reads=2 if charter_mode == "explicit" else 0,
                                # APPENDED 2026-09-24 (rule 20). A MEASUREMENT, not a graded count —
                                # it never moves rc. Consumers verified key=value, not positional:
                                # validate_all.parse_rc_result, prome_gate.coverage_result.

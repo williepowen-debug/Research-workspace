@@ -13,6 +13,7 @@ import subprocess
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 
 TOOLS = Path(__file__).resolve().parents[1]
 
@@ -93,11 +94,50 @@ class LogView(unittest.TestCase):
     def test_unfamiliar_and_malformed_rows_stay_verbatim(self):
         novel = f'UNKNOWN: {identity(5)}: receipt contradicts owner; action still owed\n'
         malformed = gap(6).replace('touch 1-SPAWN', 'touch ?')
-        unusual = gap(7, desk='TWO WORDS')
+        unusual = gap(7, desk='')
         source = HEADER + gap(1) + gap(2) + novel + malformed + unusual
         self.put(source)
         text, _ = self.read_all()
         self.assertTrue(text.endswith(novel + malformed + unusual))
+
+    def test_full_labels_duplicate_keys_and_delimiter_like_text_preserve_identity(self):
+        fake_suffix = f'touch 9 [{"f" * 64}]: {REASON}'
+        labels = ['PROME cold reader', 'CATO (independent role)', '北極 research 🧭', ' spaced label ',
+                  f'RED {fake_suffix} still the same agent', 'CATO (independent role)']
+        identities = [identity(i, desk=label) for i, label in enumerate(labels)]
+        identities.insert(3, identities[1])  # An exact duplicate must not be deduplicated.
+        source = HEADER + ''.join(f'UNKNOWN: {item}: {REASON}\n' for item in identities)
+        self.put(source)
+        text, pages = self.read_all()
+        self.assertEqual(text, HEADER + GROUP + ''.join(f'  {item}\n' for item in identities))
+        self.assertEqual(pages[0]['compacted_groups'], 1)
+        self.assertEqual(self.path.read_text(), source)
+
+    def test_unfamiliar_reason_splits_runs_even_with_full_label(self):
+        first = gap(1, desk='ALPHA reviewer') + gap(2, desk='BETA role')
+        last = gap(3, desk='GAMMA reviewer') + gap(4, desk='DELTA role')
+        for boundary in (gap(5, desk='UNKNOWN role').replace(REASON, REASON + '; new condition'),
+                         gap(6).replace('touch 1-SPAWN', 'touch 0'),
+                         gap(7).replace('ALPHA', 'broken\nlabel'),
+                         '❌ unfamiliar failure: identity unknown\n'):
+            with self.subTest(boundary=boundary):
+                self.put(HEADER + first + boundary + last)
+                text, pages = self.read_all()
+                self.assertEqual(text, HEADER + GROUP + '  ' + identity(1, desk='ALPHA reviewer') +
+                                 '\n  ' + identity(2, desk='BETA role') + '\n' + boundary + GROUP +
+                                 '  ' + identity(3, desk='GAMMA reviewer') + '\n  ' +
+                                 identity(4, desk='DELTA role') + '\n')
+                self.assertEqual(pages[0]['compacted_groups'], 2)
+
+    def test_old_renderer_digest_and_changed_revision_refuse_continuation(self):
+        self.put(HEADER + ''.join(gap(i, desk='ALPHA reviewer') for i in range(100)))
+        first = reader.page(self.path, view=VIEW)
+        old_digest = hashlib.sha256(VIEW.encode() + b'\0' + self.path.read_bytes()).hexdigest()
+        with self.assertRaises(ValueError):
+            reader.page(self.path, first['next_offset'], old_digest, VIEW)
+        with patch.object(reader, 'ORCH_RENDER_REVISION', b'future'):
+            with self.assertRaises(ValueError):
+                reader.page(self.path, first['next_offset'], first['sha256'], VIEW)
 
     def test_wrong_header_other_check_and_singleton_fall_back_to_full(self):
         for source in ('other check\n' + gap(1) + gap(2),
@@ -180,8 +220,8 @@ class LogView(unittest.TestCase):
     def test_real_producer_fixture_retains_prior_unresolved_and_coverage(self):
         ledger = self.root / 'orch.tsv'
         rows = []
-        for i in range(3):
-            rows.append(['2020-01-01', f'DESK{i}', 'T1', '1', 'fixture',
+        for desk in ('DESK plain', 'DESK (role / reader)', '北極 reviewer'):
+            rows.append(['2020-01-01', desk, 'T1', '1', 'fixture',
                          'N/A', 'N/A', 'YES', '', 'N/A', 'N/A', 'N/A', '0'])
         evidence = {'owner':'PROME', 'session_id':'test', 'touch_at':'2020-01-01T12:00:00-05:00',
                     'observed_at':'2020-01-01T13:00:00-05:00', 'state':'ASKED_WORKING', 'ask':'still owed'}

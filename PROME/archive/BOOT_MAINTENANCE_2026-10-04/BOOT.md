@@ -1,14 +1,19 @@
+# Pre-maintenance snapshot: BOOT.md
+
+Captured 2026-10-04; applied 2026-10-05 under Will-authorized steps 1–2. Historical evidence, not live instructions. Payload measurement from measure.py: 24801 B; crc32 2040636303; crc32-no-final-nl 1920031525.
+
+<!-- ORIGINAL BEGIN -->
 # PROME Boot
 
-**Owner:** PROME · **Updated:** 2026-10-05 — maintenance; prior text and dated provenance: [boot snapshot](archive/BOOT_MAINTENANCE_2026-10-04/BOOT.md).
+**Owner:** PROME · **Updated:** 2026-10-02 18:2x ET (spine audit #15 — step-6 `board_scan.py` pointer re-keyed to the message string, no rule change. ⚠️ Stamp also covers the 2026-09-30 `e48219926` FORGE-reconcile flow change in the Conditional Modules table — operator OK RETIRED — which rode under the 9/21 stamp: a rule changed un-stamped.) Prior: 2026-09-21 ([Correction](plans/2026-09-21_boot-phase4-correction.md)). `git log -p -- PROME/BOOT.md`; old: `git show 4a0757370074:PROME/BOOT.md`; review: `PROME/plans/2026-09-09_boot-hardening.md`.
 
-**Goal:** become operational fast.
+**Goal:** become operational fast without loading manuals.
 
-**Auto-loaded context (Claude Code):** root/local/user-level `CLAUDE.md` and auto-memory `MEMORY.md`; re-read only for drift. `USER.md` must be explicitly read, subject only to the retained-context exception below; `AGENTS.md` is on-demand for roster/routing. Neither is auto-loaded. `SOUL.md` / `IDENTITY.md` do not exist.
+**Auto-loaded context (Claude Code):** only the `CLAUDE.md` files (root + `PROME/`, plus any `~/.claude/CLAUDE.md`) and the auto-memory `MEMORY.md` are genuinely auto-injected each session — don't re-read *those* unless debugging drift. **`AGENTS.md` and `USER.md` are NOT auto-loaded.** **`USER.md` = explicit `Read`, subject only to the retained-context exception below** (Will's operator model; `PROME/CLAUDE.md` step 1 owns this). `AGENTS.md` stays on-demand (roster/routing tasks only). `SOUL.md` / `IDENTITY.md` do not exist.
 
-On a runtime without confirmed context injection, explicitly read root `CLAUDE.md`, `PROME/CLAUDE.md` and `USER.md`. Do not assume Claude hooks ran. The gate defaults to `--charter-mode explicit`, assessing both charters in addition to declared reads. Only confirmed injection permits `--charter-mode injected`; pass the mode through `boot_session.py` (also on refresh). Saved verdicts retain their original coverage, never re-grade on retry. Standalone `scripts/read_cap_check.py --agent PROME --require-manifest --charter-mode explicit` checks that perimeter without a boot.
+On a runtime without confirmed context injection, explicitly read root `CLAUDE.md`, `PROME/CLAUDE.md` and `USER.md`. Do not assume Claude hooks ran.
 
-> **HEARTBEAT.md must be explicitly read at boot.** PROME owns this regime memo; domain agents do not read it. Trust map: `PROME/SYSTEM.md` → Boot Trust Stack.
+> ⚠️ **`HEARTBEAT.md` is NOT auto-injected** It is a **PROME-facing regime memo**: PROME writes it and must explicitly `Read` it at boot (the market-data freshness gate below) — don't assume it's in context; domain agents do not read it. Full trust-layer detail: `PROME/SYSTEM.md` → Boot Trust Stack.
 
 ---
 
@@ -17,13 +22,13 @@ On a runtime without confirmed context injection, explicitly read root `CLAUDE.m
 - **Repo state first:** run `git status --short` + ahead/behind before pull/rebase.
 - **No broad git operations:** never `git add .`, `git add -A`, `git reset HEAD`, force-push, or stash/reset unknown work.
 - **Pull only if safe:** safe = clean working tree, no staged files, no known concurrent-agent risk. If dirty/untracked, read local continuity first and ask/triage; do not force sync just to boot.
-- **Prices:** run `FORGE/tools/market-data/dashboard.py` or `fetch.py` before citing current levels.
+- **Prices need live data:** run `FORGE/tools/market-data/dashboard.py` or `fetch.py` before citing prices/levels.
 - **Weekend / repeated-respawn rule:** on weekends or market holidays, `HEARTBEAT.md` may be used as regime orientation, but do **not** describe its levels as fresh. Say “last HEARTBEAT/Fri close” or refresh with dashboard/FRED before making a market claim. Repeated same-day Prome respawns should not rewrite `HEARTBEAT.md` or churn other state files for hygiene alone — only when a real market/system event or user decision changed.
 - **FRED citation convention:** cite observation dates, e.g. `HY OAS 280bps [FRED 5/20 close]`.
 - **No agent edits** unless Will explicitly approves.
 - **No trade execution.** Trade rails are verification-required at every fire-time — root rule #4 (live prices, never STATUS marks) **plus** root position-truth canon (live broker book; FORGE is the stale mirror).
 - **External/public sends require approval.**
-- **Push auto at closeout:** ff-gated `scripts/safe-push.sh`, no per-push ask for own PROME work; shared/root docs need Will scope/approval. Non-ff is routine, never force; recovery/escalation → root Git Protocol.
+- **Push is auto at closeout** via ff-gated `scripts/safe-push.sh` — *not* per-push Will approval. Committing your own `PROME/` files is fine; **shared/root** docs still need Will scope/approval. Non-ff abort = **routine, never force**; the full recovery + escalation protocol lives in root `CLAUDE.md` Git Protocol.
 - **Shared repo coordination:** when another agent has local/branch work, use `PROME/GIT_COORDINATION.md` before committing, merging, or pushing.
 - **Multi-agent orchestration:** before spawning >1 agent, apply the **mode-split rule** (`PROME/ORCHESTRATION_PLAYBOOK.md`) — fan-out/Workflow for parallel-identical work, live teams-mode only for the decision spine. Carry the deliver-before-idle contract into every spawn prompt; go quiet to Will while agents work.
 
@@ -31,7 +36,7 @@ On a runtime without confirmed context injection, explicitly read root `CLAUDE.m
 
 ## Doc Ownership
 
-Ownership/trust map: `PROME/SYSTEM.md` → **Boot Trust Stack**. Facts live at their owner; everything else is on-demand.
+Canonical doc-ownership / trust map: `PROME/SYSTEM.md` → **Boot Trust Stack** (put facts in the owner file; point, don't copy). Everything not listed there is on-demand.
 
 ---
 
@@ -43,8 +48,8 @@ Ownership/trust map: `PROME/SYSTEM.md` → **Boot Trust Stack**. Facts live at t
 
 0. **Check repo state (and take the clock):**
    At the opening report, disclose whether this actual session exposes private Artifact ruling access and native fleet `ListAgents`/`SendMessage`, using the existing AVAILABLE / UNAVAILABLE / UNKNOWN capability states. Cite the session's tool evidence; a shell probe cannot establish connector availability. Record missing capabilities and dependent skipped steps in the boot receipt. Recheck at point of use. Missing tools withhold dependent work only; thread-local collaboration tools do not establish fleet presence. Credential presence remains distinct from authentication.
-   Use the prompt hook's `NOW: <day> <date> <time> ET` as clock (`PROME/.claude/settings.json`), never narrative. Without it, run `date` before any timestamp.
-   The SessionStart banner (`scripts/session_banner.sh`, local settings wiring) reports fetch, ahead/behind, dirty tree and env_doctor. No banner ⇒ flag to Will and run these checks manually; otherwise confirm them. Subdirectory hooks need local wiring.
+   Every prompt in a PROME session carries a `NOW: <day> <date> <time> ET` line injected by the UserPromptSubmit hook (wiring `PROME/.claude/settings.json`) — **that line is the clock; stamp from it, never from narrative.** No `NOW:` line ⇒ run `date` before writing any timestamp.
+   The SessionStart banner (`scripts/session_banner.sh`, wired in `PROME/.claude/settings.json`) reports fetch, ahead/behind, dirty tree and env_doctor. **No banner ⇒ flag to Will** and run the checks below manually; otherwise use them as confirmation. Subdirectory launches require local hook wiring (`finding_subdir_launch_hooks_dont_fire`).
    ```bash
    git status --short
    git diff --cached --name-only
@@ -63,14 +68,14 @@ Ownership/trust map: `PROME/SYSTEM.md` → **Boot Trust Stack**. Facts live at t
    - Explicit-`Read` `HEARTBEAT.md` (PROME-facing regime memo — not auto-injected).
    - If today is a weekend/holiday or markets are closed, use it as **orientation only** and preserve its observation dates.
    - Before citing any level as current, run the market dashboard / fetch tool.
-   - **Machine capabilities:** `cd "$(git rev-parse --show-toplevel)" && python3 scripts/env_doctor.py --quiet` (machine-local presence, no network). Gate class CAPABILITY withholds only dependent work: AVAILABLE = present, not authenticated (point of use decides); UNAVAILABLE = absent; UNKNOWN = crash/unreadable/unrecognised rc, establishes nothing. Report until RESTORED. A WILL_QUEUE follow-up past needed-by becomes URGENT for escalation, never a gate on unrelated work. Canon: `PROME/MACHINE_LOCAL.md`.
+   - **Machine capabilities (env_doctor):** `cd "$(git rev-parse --show-toplevel)" && python3 scripts/env_doctor.py --quiet` — machine-local key/infra presence (<1s, no network). Wrapped by `prome_gate` as a **CAPABILITY**, which **never gates work that does not use it**. Three states, never two: **AVAILABLE** (present — ⛔ *not* authenticated; the point of use stays the authority) · **UNAVAILABLE** · **UNKNOWN** (crash, unreadable config, unrecognised rc — the probe established nothing). **UNAVAILABLE and UNKNOWN both withhold dependent claims and both allow unrelated work.** Reported at every run until RESTORED; a follow-up `WILL_QUEUE` row past its needed-by raises the item to URGENT — **escalation urgency only, never a gate.** Inventory canon = `PROME/MACHINE_LOCAL.md`.
    - **Position-agreement gate (whenever live capital exists):** `cd "$(git rev-parse --show-toplevel)" && python3 scripts/position_agreement_check.py --all --quiet`. rc=1 ⇒ flag disagreement to the owner; STATUS is canonical and the trade surface gets fixed. Scope: TRY-* cards. This tests agreement, not merely age (`[[finding_freshness_check_cannot_catch_a_fresh_lie]]`).
    - **⚡ ONE-SHOT GATE:** `cd "$(git rev-parse --show-toplevel)" && python3 PROME/tools/boot_session.py --run-dir /tmp/prome-boot-<session-id>` runs the mechanical stack in `prome_gate.py boot`. Choose the run directory ONCE per boot and reuse it on retry. The receipt prevents another BOARD-advancing attempt through that directory; it is not a global lock. Completed retries return the saved verdict and observation time; incomplete attempts return UNKNOWN without rerunning. Inspect saved logs and independently runnable checks; never invent another directory or call the raw boot gate to bypass the guard. Read `gate.txt` and every named log to EOF using the bounded reader. Only the WQ-249 orchestration log may use `--view orch-compact-v1`: identical UNKNOWN reasons are grouped, every full identity and all other text retained, never converted to receipts. Continue with the same view and returned offset/digest; source/view changes require restart. `full-fallback`, missing view or rendering errors require full-text inspection; an unreadable original remains UNKNOWN. Originals remain drill-down evidence; previews never suffice. The gate's verdict block owns the check list and severity; rc=1 means blocking failure, rc=2 unknown execution. **New fleet-wide checks get added to the SCRIPT, not to this prose.** Optional `--sessions-json <path>` takes a fresh same-host `session_bridge.py` snapshot; otherwise presence is collected in the caller's visible namespace. A snapshot is scoped evidence, never proof a desk is absent or a substitute for the native same-minute spawn preflight. Acquisition details: `PROME/tools/SESSION_PILOT.md`.
    - **5b. R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" PROME` — rc 0/1/2 per `AGENTS/DAEDALUS/BLUEPRINTS/CHECK_STANDARD.md` §9; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `PROME/registry/corrections_receipts.tsv`. *(Also runs inside `prome_gate.py boot`.)*
    - **Fire-time gate:** `cd "$(git rev-parse --show-toplevel)" && python3 scripts/firetime_check.py --window 7 --quiet` — checks fire-path artifacts cited by `PROME/DOCKET.tsv` rows ≤7d out (dead pointers / date drift / canon-ordering). **A DATE flag ⇒ full logic re-read of the artifact** (a date fix can break gate sequencing), never a find-replace. **rc=1 always means act** — known-benign flags are suppressed by the **expiry-dated allowlist** (`scripts/firetime_allowlist.tsv`): expired rows re-flag themselves, so a clean quiet run = genuinely clean.
 6. **Decide conditional reads:**
    - Fleet-state reads (`PROME/ROSTER.md` classification + DAEDALUS `FLEET_MAP.tsv` maturity) only for fleet work, stale-state risk, or Will-requested audit. *(`FLEET_SCAN.md` = superseded snapshot, historical only.)*
-   - **BOARD diff-scan (every boot, ALREADY inside `prome_gate.py boot`):** run standalone ONLY if the gate was skipped: `cd "$(git rev-parse --show-toplevel)" && python3 PROME/tools/board_scan.py --advance`. A bare scan never writes the cursor; `--advance` writes `PROME/state/board_cursor.txt` ONLY with no undispositioned ACTION/unreadable lines. A held cursor is expected: disposition those lines, never use `--ack-actions` just to restore advancement. Scan the whole INDEX, every signal since cursor, never a tier/sample. **rc=1 ⇒ PROME is on an ACTION line; disposition before proceeding.** If the scan stops, the pull-complete exemption (`AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` §3.5) is void and must be handed back to WALTER.
+   - **BOARD diff-scan (every boot, ALREADY inside `prome_gate.py boot`):** run standalone ONLY if the gate was skipped: `cd "$(git rev-parse --show-toplevel)" && python3 PROME/tools/board_scan.py --advance`. ⛔ **CORRECTED 2026-09-12 (spine audit #13, blocking — the prior sentence read *"Every invocation advances the cursor"* and was false in BOTH directions): a bare `board_scan.py` run NEVER writes the cursor (only `--advance` does), and `--advance` DELIBERATELY WITHHOLDS it when ACTION lines are present (`PROME/tools/board_scan.py`, the hold message *"cursor NOT advanced — N ACTION / UNREADABLE line(s) above are undispositioned"* — grep the string; line numbers rot). A held cursor is the tool working, not a fault — disposition the ACTION lines; ⛔ do NOT reach for `--ack-actions` to restore "expected" behaviour.** The advancing invocation is `--advance` with no undispositioned ACTION lines, and it writes `PROME/state/board_cursor.txt`. Scan the whole INDEX, every signal since cursor, never a tier/sample. **rc=1 ⇒ PROME is on an ACTION line; disposition before proceeding.** If the scan stops, the pull-complete exemption (`AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` §3.5) is void and must be handed back to WALTER.
    - `AGENTS/*/outbox/*to-PROME*` reads are conditional on routing/signal work. **`PROME/inbox/` is PROME's SOLE delivery surface** (`MESSAGING/DIRECT_MESSAGING_V1_SPEC.md`). If `AGENTS/PROME/` reappears, read its contents, migrate to `PROME/inbox/`, and flag the sender; never service it in place.
    - Prome implementation/identity docs (`PROME/CLAUDE.md`, `PROME/SYSTEM.md`) only for implementation work.
    - `PROME/CLOSEOUT.md` before `/clear`, `/new`, or durable handoff.
@@ -78,8 +83,8 @@ Ownership/trust map: `PROME/SYSTEM.md` → **Boot Trust Stack**. Facts live at t
 8. **Report, then continue.** **Report:** catalysts within 24h · stale agents · pending decisions · blockers · **UNAVAILABLE or UNKNOWN capabilities** · a stale spine-audit stamp (`PROME/STATUS.md` header "Last spine audit" >7d — **or missing = stale** → `/spineaudit` this session or flag it) · **and a ranked one-line digest of owed prior-session work with the first action stated** (*"owed: A · B · C — starting A"*). **Then start it.** If Will directed no task, select the highest-priority authorized work and start it — announced as a statement, never offered as a menu.
    - **Interrupt test — ONE question: _is Will's ANSWER necessary for PROME's next action?_** Necessary = the next action **cannot be completed without it**: a decision only Will can make (a trade or spend consequent; a Will-gated surface the lane must edit; a ruling the lane's next step consumes), or a dependency PROME **can name** that blocks the directed lane. **YES ⇒ ask, and stop on that item only. NO ⇒ surface it and keep working.**
    - ★ Work that needs Will's **hands** but not his **answer** — a token to paste, a key to supply, a trade only he can place — is **surfaced, never asked**: PROME's own next action does not depend on it.
-   - ⛔ **Urgency is not an interrupt.** Surface dated/overdue items, urgent risks and missing capabilities prominently; urgency never decides whether work proceeds.
-   - ⛔ **Anti-scoping:** if ANY authorized next action on the same subject needs Will's answer, the item is an ask, whichever action PROME elects.
+   - ⛔ **Urgency is not an interrupt.** A dated item, an **overdue** item, an urgent risk and an unavailable capability are **surfaced**. Urgency sets where in the report an item appears and how loudly — **never whether work proceeds.**
+   - ⛔ **Anti-scoping.** PROME chooses its own next action, so it also fixes the term this test quantifies over. **If ANY authorized next action on the same subject would require Will's answer, the item is an ask — whichever action PROME elects.**
    - **Absent a YES, routine authorized maintenance is PROME's to run, not to ask about** — the tier is `PROME/AUTONOMY.md`'s, and Tier 1 already covers follow-up work inside an approved workstream.
    - A dated owed item reaching its third boot unrun leaves SCRATCH for a DOCKET `COVERED:` annotation or a WQ row.
    - Ruling record + acceptance tests: `PROME/proposals/2026-09-12_wq239-boot-interrupt-contract-RULED.md`.
@@ -129,6 +134,13 @@ Closeout is the write-back tail of boot: update only the owner docs whose state 
 **Already mechanized on PROME's boot path (pointer only — the step is the carrier):**
 - finding_fetch_before_trusting_boot_sync → step 0 (`git fetch` before ahead/behind) · feedback_scan_agent_outboxes_at_boot → step 6 (the every-boot carrier is the BOARD diff-scan inside the gate; the raw `outbox/*to-PROME*` read stays conditional — WALTER routes, the scan is the pull) · finding_freshness_audit_vs_caught_up → `prome_gate.py boot` (step 5) check "agent freshness (ground-truth vs narrative)", ADVISORY class — never stops boot (mtime-fresh ≠ caught-up on inbox backlog)
 
-**Reviving a stale desk (read at spawn time, not every boot):** procedure → `ORCHESTRAL_LAYER_DESIGN.md` § Revival-proxy v3 brief spec. At this trigger read `memory/auto/finding_revival_proxy_pattern.md` and `memory/auto/finding_revival_boot_doc_sweep.md` (the latter covers the full doc sweep after 30+ days stale).
+**Reviving a stale desk (read at spawn time, not every boot — the procedure is `ORCHESTRAL_LAYER_DESIGN.md` § Revival-proxy v3 brief spec):**
+- finding_revival_proxy_pattern — foreground subagent briefed as revival proxy → decision-grade catch-up + inbox-deposited packet for the desk's next boot
+- finding_revival_boot_doc_sweep — 30+ days stale: sweep CLAUDE/MEMORY/CALENDAR/STRATEGY/USER alongside STATUS; staleness compounds across all of them
 
-**Domain-desk boot-protocol patterns (read when hardening a desk's boot/closeout, not every boot):** read the corresponding `memory/auto/` lessons: `finding_boot_protocol_live_event_override.md`, `finding_boot_predictions_scan.md`, `finding_boot_closeout_hardening_recipe.md`, `finding_boot_py_cadence_skip_pattern.md`. DAEDALUS owns the blueprint class.
+**Domain-desk boot-protocol patterns (not PROME's boot — read when hardening a desk's boot/closeout; DAEDALUS blueprint class):**
+- finding_boot_protocol_live_event_override — SPAWN framing pulls a desk to CLOSEOUT mid-event; neutral "write-back" framing + explicit live-event override (VIOLET 6/5)
+- finding_boot_predictions_scan — a cheap boot-time PREDICTIONS due/stale scan; caught a 24d-stale MISS first run
+- finding_boot_closeout_hardening_recipe — phased: mirror → strip live-state → audit doc-ownership → deferred punch-list
+- finding_boot_py_cadence_skip_pattern — low-frequency-data desks: run-at-boot-defensively + mtime cadence-skip on fetchers, not a read-only/--pull split
+<!-- ORIGINAL END -->

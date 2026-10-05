@@ -1,0 +1,20 @@
+{
+  "historical_gaps_matched": 478,
+  "groups": 4,
+  "pages": 12,
+  "roundtrip": "exact",
+  "source": {
+    "path": "../AGENTS/CATO/runs/2026-10-04_prome-boot-evidence/orchestration-original.txt",
+    "bytes": 93391,
+    "lines": 531,
+    "crc32": 1725829515,
+    "crc32_no_final_nl": 3611308534
+  },
+  "render": {
+    "path": "/tmp/prome-maintenance-20261004/replayed-orchestration.txt",
+    "bytes": 66013,
+    "lines": 535,
+    "crc32": 1170200980,
+    "crc32_no_final_nl": 1877971201
+  }
+}

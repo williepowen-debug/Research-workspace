@@ -41,7 +41,7 @@ class BootTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             boot_read.page(path, 1)
         path.write_text(original + "changed")
-        with self.assertRaisesRegex(ValueError, "Source changed"):
+        with self.assertRaisesRegex(ValueError, "Source or view changed"):
             boot_read.page(path, offset, sha)
 
     def test_completed_boot_replays_verdict_without_another_gate(self):

@@ -1,0 +1,19 @@
+  ok  published crc32 vector: 1095738169
+  ok  no final newline: bytes: 43
+  ok  no final newline: lines (wc -l semantics): 0
+  ok  no final newline: crc equals no-final-nl crc: True
+  ok  agrees with wc -c: 43
+  ok  agrees with wc -l: 0
+  ok  unicode: bytes (7, not len()=6 chars): 7
+  ok  unicode: agrees with wc -c: 7
+  ok  unicode: bytes != character count: True
+  ok  multi-trailing-nl: bytes: 5
+  ok  multi-trailing-nl: strips exactly one: 1200128334
+  ok  empty: bytes: 0
+  ok  empty: crc32: 0
+  ok  post-edit remeasure: bytes moved: 33
+  ok  post-edit remeasure: crc moved: True
+  ok  post-edit remeasure: agrees with wc -c: 33
+  ok  identical: byte-for-byte copy: True
+  ok  identical: one extra newline detected: False
+SELFTEST PASS (all checks)

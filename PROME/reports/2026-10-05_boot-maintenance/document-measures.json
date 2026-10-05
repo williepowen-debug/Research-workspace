@@ -1,0 +1,44 @@
+[
+  {
+    "path": "CLAUDE.md",
+    "bytes": 22609,
+    "lines": 82,
+    "crc32": 4080355184,
+    "crc32_no_final_nl": 2203863102
+  },
+  {
+    "path": "BOOT.md",
+    "bytes": 22605,
+    "lines": 134,
+    "crc32": 1637621381,
+    "crc32_no_final_nl": 4169869042
+  },
+  {
+    "path": "SCRATCH.md",
+    "bytes": 22705,
+    "lines": 66,
+    "crc32": 1136049347,
+    "crc32_no_final_nl": 3493845316
+  },
+  {
+    "path": "/tmp/prome-maintenance-20261004/before/CLAUDE.md",
+    "bytes": 34340,
+    "lines": 104,
+    "crc32": 1811750354,
+    "crc32_no_final_nl": 2569426556
+  },
+  {
+    "path": "/tmp/prome-maintenance-20261004/before/BOOT.md",
+    "bytes": 24801,
+    "lines": 140,
+    "crc32": 2040636303,
+    "crc32_no_final_nl": 1920031525
+  },
+  {
+    "path": "/tmp/prome-maintenance-20261004/before/SCRATCH.md",
+    "bytes": 26585,
+    "lines": 63,
+    "crc32": 3741661440,
+    "crc32_no_final_nl": 1790751616
+  }
+]

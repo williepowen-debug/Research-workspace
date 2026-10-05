@@ -50,6 +50,7 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[2]
 LOG_DIR = None
+CHARTER_MODE = "explicit"
 SESSION_JSON = None
 
 GATES_STATES = ("LIVE", "FIRED-UNEXECUTED", "RESOLVED", "LAPSED", "RETIRED")
@@ -333,12 +334,19 @@ def coverage_result(body, prefix, rc, counts):
     return fields
 
 
-def summarize_read_cap(body, rc):
+def summarize_read_cap(body, rc, expected_charter_mode=None):
     counts = ("assessed", "reads", "over_budget", "over_cap", "manifest_defects",
               "advisories", "generated_flagged", "rotation_due", "active_decisions_over_budget")
     f = coverage_result(body, "READ-CAP-RESULT", rc, counts)
     if f.get("mode") != "agent" or f.get("desk") != "PROME" or f["assessed"] not in (0, 1):
         raise ValueError("expected agent/PROME result with assessed=0 or 1")
+    mode = f.get("charter_mode", "unspecified")
+    if expected_charter_mode is not None:
+        if mode != expected_charter_mode:
+            raise ValueError("read-cap charter mode missing or mismatched")
+        expected = "2" if f["assessed"] and mode == "explicit" else "0"
+        if f.get("charter_reads") != expected:
+            raise ValueError("read-cap charter coverage missing or mismatched")
     if not f["assessed"]:
         if rc != 2:
             raise ValueError("unassessed result requires rc=2")
@@ -350,7 +358,7 @@ def summarize_read_cap(body, rc):
     findings = bool(f["over_budget"] or f["manifest_defects"])
     if rc in (0, 1) and bool(rc) != findings:
         raise ValueError("rc contradicts size/manifest findings")
-    detail = "declared PROME perimeter · " + " · ".join(f"{key}={f[key]}" for key in counts)
+    detail = f"declared PROME perimeter · charter_mode={mode} · " + " · ".join(f"{key}={f[key]}" for key in counts)
     if rc == 2:
         detail = "CANNOT-CERTIFY · " + detail
     if f["active_decisions_over_budget"]:
@@ -1221,9 +1229,10 @@ def check_desk_catalyst_summons():
 def check_byte_budgets():
     """Declared read coverage plus the separately governed auto-memory cap."""
     run_script(ADVISE, "declared read budgets", [sys.executable,
-               "scripts/read_cap_check.py", "--agent", "PROME", "--require-manifest"],
+               "scripts/read_cap_check.py", "--agent", "PROME", "--require-manifest",
+               "--charter-mode", CHARTER_MODE],
                "READ_CAP.md · PROME/registry/READS.tsv · full output names affected reads",
-               summarize=summarize_read_cap)
+               summarize=lambda body, rc: summarize_read_cap(body, rc, CHARTER_MODE))
     # Keep memory independent: an unassessed manifest must not suppress its check.
     guard(check_memory_budget)
 
@@ -1547,15 +1556,18 @@ def mode_closeout(tier=None):
 
 
 def main():
-    global LOG_DIR, SESSION_JSON
+    global LOG_DIR, SESSION_JSON, CHARTER_MODE
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[1])
     ap.add_argument("mode", choices=["boot", "refresh", "closeout"])
+    ap.add_argument("--charter-mode", choices=("explicit", "injected"), default="explicit",
+                    help="Budget root/local explicit reads unless context injection is confirmed")
     ap.add_argument("--log-dir", type=Path, help="New directory for complete child-check output")
     ap.add_argument("--sessions-json", type=Path, help="Optional fresh same-host inventory for boot")
     ap.add_argument("--tier", choices=["bounce", "light", "standard", "heavy"],
                     help="closeout tier; standard/heavy REQUIRE a recorded ARGUS review "
                          "(missing or unevaluable becomes BLOCKING)")
     args = ap.parse_args()
+    CHARTER_MODE = args.charter_mode
     results.clear()
     capabilities.clear()
     if args.log_dir:

@@ -8,6 +8,8 @@
 - **Next:** SCRATCH ★ NEXT and DOCKET L612. No automatic wake or market capture; the pre-open gamma-board obligation remains separate.
 - **Risks / decisions:** forecast accuracy ungraded; market-reaction map unregistered; hosted publication blocked by absent native Artifact tools. No trade or new standing ruling. A bounded cross-runtime pilot remains a proposal after this handoff, not an implemented capability.
 
+- **Boot maintenance, Oct5:** user-authorized steps 1–2; matcher/charter coverage and verbatim document rotation → `PROME/tools/tests/ACCEPTANCE_BOOT_MAINTENANCE_2026-10-04.md`. Assess practical benefit during the next ordinary cold boot; no extra acceptance boot. Historical-read scope and missing native Artifact/fleet capabilities remain unchanged.
+
 ## October 4 evening — `prome-ed` second post-`/clear` sitting (LAPTOP `WilliePOwen`, Sun 14:40 → ~18:0x ET; Standard closeout): Bright Data live, five rulings, the L490 allocation, the bookmark follow-through run end to end
 
 - **Will's words:** boot (14:40) · *"CATO review does count."* (14:45, WQ-384) · Bright Data pricing → reputation → *"Okay we can check it out"* (15:00, WQ-383) · *"I will try to bring the API over to the desktop too"* (15:38 — this box is the LAPTOP) · *"WQ-380 i think just leave it as it is. WQ-377 a - yes, b - stop, c -yes WQ-379 yes approved"* (16:18) · CATO's workflow feedback + follow-through plan relayed (16:4x, 17:20) · *"Can you spawn and operate OTTO LIQUID FALCON to complete the flagged work?"* (17:23) · *"yes khurais"* (17:42). **No trade; $0 moved.**
