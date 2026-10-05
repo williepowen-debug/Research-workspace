@@ -20,13 +20,13 @@ HY324bp [Oct1] remains1/3 on RED-FT-02/REG-T-03. No new fire established by the 
 - **READS/boot-basis review:** three changed basis paths (CLAUDE.md, design/BOOT_PROTOCOL.md, scripts/read_cap_check.py); reads_check attestation UNKNOWN. No blind re-hash. HANS THRESHOLDS33544B exceeds32550B budget; owner remedy still owed.
 - **Receiving readiness:** doctor initially0HIGH/6MED, closing0HIGH/4MED after two stale-header repairs. Aged queue127 across22desks,23ACTION104INFO; oldestACTION7d. Basis delivery_log.timestamp_routed, two fallback mtimes in full scan. Legacy malformed/non-dispatch telemetry and overdue AI_INFRA_CAPEX coherence-review prompt retained; not new research authority.
 - **Capabilities:** Codex app-server lists WALTER/PROME/CATO active; wider/multi-runtime census UNKNOWN. Native Claude ListAgents/SendMessage/Opus/routine controls and Telegram unavailable here. Codex thread listing/reading/messaging now exposed (incoming PROME coordination received); no claim of equivalence to full Claude fleet controls. X token absent locally; `bdata` not in PATH. Shell/git/web/read-only market tools work with required approvals. No hosted Artifact publishing tool identified.
-- **Publication:** shipping signals and ten handoffs prepared for local commit; BRENT is active, so its three create-only handoffs remain uncommitted under the subtree rule. All thirteen await publication; no consumption claimed. No push under concurrent BRENT/PROME work. Boot commit b98a2223b remains separately tracked in the receipt.
+- **Publication:** shipping signals and ten handoffs committed in d338b81a2; BRENT subsequently read and filed its three in 701cd4e2f. Its ledger records -001 noted, -002 acted, -004 noted at09:56:07EDT, no threshold change. All thirteen await publication; consumption evidence covers BRENT only. No push under concurrent BRENT/PROME work. Boot commit b98a2223b remains separately tracked in the receipt.
 
 ## WILL_NEEDS
 Existing execution rail only: **QQQ735P Oct5 x5, if still held, sell-or-roll by15:00ET** per TERRY's approved-management workflow/card. Quantity and live bid must be reconciled at broker; Oct1 mirror is not position truth. This boot places no order and requests no new trade approval. No new research or process proposal.
 
 ## FOLLOW-UP
-0. Shipping: commit BRENT’s three new handoffs once its active session no longer prevents a subtree commit; then Will-coordinated publication and delivery reconciliation. HAWK/YURI readiness remains UNKNOWN across runtimes, not DARK. No automatic wake.
+0. Shipping: BRENT handoff duty discharged by its own 701cd4e2f and ledger. Will-coordinated publication and delivery reconciliation remain. HAWK/YURI readiness remains UNKNOWN across runtimes, not DARK. No automatic wake.
 1. Today: TERRY held-line check; HENRY ISM Services first print10:00ET, grade HEN48–56 by16ET; HY Oct2 observation around10:15ET. PROME reports HENRY/VULCAN/TERRY wakes planned, not verified running at this receipt.
 2. Finish the exact scan/filter/basis gaps above before claiming full boot or a full-board all-clear. HANS cap remedy remains owner-owned. Individual recipient consumption still needs owner evidence; HENRY's adoption must not blanket-clear others.
 3. Iran: fresh heat is real per FALCON; facility/cause/production loss unknown; full sweep~Oct8. Oct6 FALCON leg2 review / WQ252 / OctSTEO; Oct7 BRT31+Cushing; Oct8 claims+PMMS; Oct9 CableOneMBI+FDICNanoP&A; Oct13 KS WARN; Oct15–16 LIQ07; Oct17 pilot review; Oct28 450FifthSt; Oct29 ECB.
@@ -38,12 +38,12 @@ Approvals preserved: WQ377 launch-only bookmarks/default dig and financial-backl
 Carried process ideas unchanged: (k) end-of-session review; (t) re-search routed state-dependent stories; (u) liveness with in-process spawns; (a) WALTER on every data day; (s) lane date versus event date; (j) BRENT boundary scanner coverage; (p) boot BOARD-count check. These remain ideas, not newly authorized work.
 
 ## CLOSEOUT RECEIPT
-Dated evidence and diagnostics under `research/2026-10-05_boot/`. Publication list below retains prior Oct4 commitments plus the boot commit; current delivery scope is October 5 shipping (0/13 publication-proven). The intake commit is added after it exists. Earlier Oct4 deliveries30/30 were publication-proven, not consumption-proven. HASH-bound owner pointers retain manual scope. `closeout_check.py` output saved alongside the receipt; its PASS is limited to explicit checks and fetched origin.
+Dated evidence and diagnostics under `research/2026-10-05_boot/`. Publication list below retains prior Oct4 commitments plus the boot commit; current delivery scope is October 5 shipping (0/13 publication-proven). Intake d338b81a2 and BRENT integration701cd4e2f recorded below. Earlier Oct4 deliveries30/30 were publication-proven, not consumption-proven. HASH-bound owner pointers retain manual scope. `closeout_check.py` output saved alongside the receipt; its PASS is limited to explicit checks and fetched origin.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-05T13:48:24Z",
+  "as_of": "2026-10-05T14:03:59Z",
   "publication": [
     {
       "commit": "10f9375b9",
@@ -100,17 +100,25 @@ Dated evidence and diagnostics under `research/2026-10-05_boot/`. Publication li
     {
       "commit": "b98a2223b",
       "state": "published"
+    },
+    {
+      "commit": "d338b81a2",
+      "state": "pending"
+    },
+    {
+      "commit": "701cd4e2f",
+      "state": "pending"
     }
   ],
   "delivery": {
     "signal_date": "20261005",
     "total": 13,
     "delivered": 0,
-    "note": "Four shipping signals; 13 local handoffs, three BRENT subtree commits deferred while owner active; no recipient consumption asserted."
+    "note": "13 local handoffs committed across WALTER d338b81a2 and BRENT701cd4e2f; BRENT consumed its three per own ledger. Publication not yet proven; other recipient consumption unknown."
   },
   "push": {
     "all_walter_commits_on_origin": false,
-    "note": "Concurrent BRENT/PROME work; no push. New intake commit to be recorded after local commit."
+    "note": "Concurrent foreign work; no WALTER push. Intake and BRENT integration commits recorded explicitly."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -124,6 +132,11 @@ Dated evidence and diagnostics under `research/2026-10-05_boot/`. Publication li
         "path": "AGENTS/HENRY/STATUS.md",
         "sha256": "404a640ea8cf46890301342f6df54e1d2c14a4ce86342a2d3dea9f872655d053",
         "note": "FALCON finding read via full BOARD014 relay plus owner header; HENRY STATUS scoped first30 lines; no whole-domain review claimed."
+      },
+      {
+        "path": "AGENTS/BRENT/board_log.tsv",
+        "sha256": "3d9eb237f4d2d00a034defd7939713eb59a0a2e317011e3fa8bcb5dfc535de18",
+        "note": "Scoped Oct5 rows -001/-002/-004 read: noted/acted/noted; different export windows retained, no threshold grade changed. No blanket owner completion."
       }
     ]
   },
@@ -137,7 +150,7 @@ Dated evidence and diagnostics under `research/2026-10-05_boot/`. Publication li
     "Remaining recipient consumption verified per owner ledger, never blanket-cleared",
     "Iran full sweepOct8; facility identification and UKMTO authentication remain unknown",
     "X/BrightData pilot reviewOct17; local access gaps",
-    "Shipping intake: BRENT three handoff commits deferred during active session; coordinated publication of all thirteen and delivery-log reconciliation"
+    "Shipping intake: coordinated publication and delivery-log reconciliation; BRENT integration complete, other owner consumption unknown"
   ],
   "next_review": "2026-10-05"
 }

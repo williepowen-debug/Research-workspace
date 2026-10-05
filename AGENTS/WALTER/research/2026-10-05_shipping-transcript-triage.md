@@ -23,3 +23,7 @@ Hormuz names in the transcript are transcription-sensitive: the existing record 
 Four PRIORITY signals; no new gate/fire declaration, trade proposal, position update or owner-state overwrite. RED receives all four via its BOARD-diff exemption; PROME receives -003 the same way. Codex list shows BRENT active; HAWK and YURI readiness is UNKNOWN across runtimes, not DARK. ORCH_INFLIGHT and foreign-tree evidence checked; no owner wake or doorbell authorised by this evidence. BROADER fleet census and Claude controls unavailable.
 
 Thirteen create-only handoffs written. BRENT’s three remain uncommitted while its live session is active under WALTER’s subtree-commit restriction. Other packets and BOARD are prepared for local commit. All thirteen remain pending publication; writing a packet is not proof of receipt or integration. No push under concurrent foreign work.
+
+### Receiving update 2026-10-05T14:03:59Z
+
+Intake committed as d338b81a2. BRENT subsequently read all three packets, recorded noted/acted/noted in its own board_log at09:56:07EDT, and filed them in commit701cd4e2f. Its export reconciliation kept unlike observation windows separate and changed no threshold. The earlier subtree-commit deferral is discharged; publication remains pending. No other owner consumption inferred.
