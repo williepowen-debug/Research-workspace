@@ -1,0 +1,137 @@
+{
+  "installed_file": "/home/willi/.codex/rules/prome-research-fetch.rules",
+  "permission_install": "Approved through exec escalation and succeeded",
+  "checks": [
+    {
+      "command": [
+        "/home/willi/Research-workspace/.venv/bin/python3",
+        "/home/willi/Research-workspace/AGENTS/HENRY/scripts/boot.py"
+      ],
+      "result": {
+        "matchedRules": [
+          {
+            "prefixRuleMatch": {
+              "matchedPrefix": [
+                "/home/willi/Research-workspace/.venv/bin/python3",
+                "/home/willi/Research-workspace/AGENTS/HENRY/scripts/boot.py"
+              ],
+              "decision": "allow"
+            }
+          }
+        ],
+        "decision": "allow"
+      }
+    },
+    {
+      "command": [
+        "/home/willi/Research-workspace/.venv/bin/python3",
+        "/home/willi/Research-workspace/AGENTS/HENRY/scripts/gamma_flip.py"
+      ],
+      "result": {
+        "matchedRules": [
+          {
+            "prefixRuleMatch": {
+              "matchedPrefix": [
+                "/home/willi/Research-workspace/.venv/bin/python3",
+                "/home/willi/Research-workspace/AGENTS/HENRY/scripts/gamma_flip.py"
+              ],
+              "decision": "allow"
+            }
+          }
+        ],
+        "decision": "allow"
+      }
+    },
+    {
+      "command": [
+        "python3",
+        "/home/willi/Research-workspace/AGENTS/VULCAN/tools/edgar_watch.py"
+      ],
+      "result": {
+        "matchedRules": [
+          {
+            "prefixRuleMatch": {
+              "matchedPrefix": [
+                "python3",
+                "/home/willi/Research-workspace/AGENTS/VULCAN/tools/edgar_watch.py"
+              ],
+              "decision": "allow"
+            }
+          }
+        ],
+        "decision": "allow"
+      }
+    },
+    {
+      "command": [
+        "python3",
+        "/home/willi/Research-workspace/AGENTS/TERRY/scripts/chain_fetch.py"
+      ],
+      "result": {
+        "matchedRules": [
+          {
+            "prefixRuleMatch": {
+              "matchedPrefix": [
+                "python3",
+                "/home/willi/Research-workspace/AGENTS/TERRY/scripts/chain_fetch.py"
+              ],
+              "decision": "allow"
+            }
+          }
+        ],
+        "decision": "allow"
+      }
+    },
+    {
+      "command": [
+        "/home/willi/Research-workspace/.venv/bin/python3",
+        "/home/willi/Research-workspace/AGENTS/HENRY/scripts/gamma_flip.py",
+        "--days",
+        "35"
+      ],
+      "result": {
+        "matchedRules": [
+          {
+            "prefixRuleMatch": {
+              "matchedPrefix": [
+                "/home/willi/Research-workspace/.venv/bin/python3",
+                "/home/willi/Research-workspace/AGENTS/HENRY/scripts/gamma_flip.py"
+              ],
+              "decision": "allow"
+            }
+          }
+        ],
+        "decision": "allow"
+      }
+    },
+    {
+      "command": [
+        "python3",
+        "-c",
+        "print(1)"
+      ],
+      "result": {
+        "matchedRules": []
+      }
+    },
+    {
+      "command": [
+        "python3",
+        "/tmp/edgar_watch.py"
+      ],
+      "result": {
+        "matchedRules": []
+      }
+    },
+    {
+      "command": [
+        "python3",
+        "/home/willi/Research-workspace/AGENTS/VULCAN/tools/not_edgar_watch.py"
+      ],
+      "result": {
+        "matchedRules": []
+      }
+    }
+  ],
+  "live_session_effect": "Not established; pending approvals not retroactively accepted. Existing sessions may need rule reload/new session. No restart performed."
+}

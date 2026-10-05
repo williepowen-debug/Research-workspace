@@ -1,0 +1,6 @@
+# DRAFT ONLY: not installed or active. No permission is granted by this file.
+# Exact script prefixes; future script changes change what an approved invocation can do.
+prefix_rule(pattern=["/home/willi/Research-workspace/.venv/bin/python3", "/home/willi/Research-workspace/AGENTS/HENRY/scripts/boot.py"], decision="allow")
+prefix_rule(pattern=["/home/willi/Research-workspace/.venv/bin/python3", "/home/willi/Research-workspace/AGENTS/HENRY/scripts/gamma_flip.py"], decision="allow")
+prefix_rule(pattern=["python3", "/home/willi/Research-workspace/AGENTS/VULCAN/tools/edgar_watch.py"], decision="allow")
+prefix_rule(pattern=["python3", "/home/willi/Research-workspace/AGENTS/TERRY/scripts/chain_fetch.py"], decision="allow")

@@ -1,0 +1,140 @@
+[
+  {
+    "command": [
+      "/home/willi/Research-workspace/.venv/bin/python3",
+      "/home/willi/Research-workspace/AGENTS/HENRY/scripts/boot.py"
+    ],
+    "exit_code": 0,
+    "result": {
+      "matchedRules": [
+        {
+          "prefixRuleMatch": {
+            "matchedPrefix": [
+              "/home/willi/Research-workspace/.venv/bin/python3",
+              "/home/willi/Research-workspace/AGENTS/HENRY/scripts/boot.py"
+            ],
+            "decision": "allow"
+          }
+        }
+      ],
+      "decision": "allow"
+    }
+  },
+  {
+    "command": [
+      "/home/willi/Research-workspace/.venv/bin/python3",
+      "/home/willi/Research-workspace/AGENTS/HENRY/scripts/gamma_flip.py"
+    ],
+    "exit_code": 0,
+    "result": {
+      "matchedRules": [
+        {
+          "prefixRuleMatch": {
+            "matchedPrefix": [
+              "/home/willi/Research-workspace/.venv/bin/python3",
+              "/home/willi/Research-workspace/AGENTS/HENRY/scripts/gamma_flip.py"
+            ],
+            "decision": "allow"
+          }
+        }
+      ],
+      "decision": "allow"
+    }
+  },
+  {
+    "command": [
+      "python3",
+      "/home/willi/Research-workspace/AGENTS/VULCAN/tools/edgar_watch.py"
+    ],
+    "exit_code": 0,
+    "result": {
+      "matchedRules": [
+        {
+          "prefixRuleMatch": {
+            "matchedPrefix": [
+              "python3",
+              "/home/willi/Research-workspace/AGENTS/VULCAN/tools/edgar_watch.py"
+            ],
+            "decision": "allow"
+          }
+        }
+      ],
+      "decision": "allow"
+    }
+  },
+  {
+    "command": [
+      "python3",
+      "/home/willi/Research-workspace/AGENTS/TERRY/scripts/chain_fetch.py"
+    ],
+    "exit_code": 0,
+    "result": {
+      "matchedRules": [
+        {
+          "prefixRuleMatch": {
+            "matchedPrefix": [
+              "python3",
+              "/home/willi/Research-workspace/AGENTS/TERRY/scripts/chain_fetch.py"
+            ],
+            "decision": "allow"
+          }
+        }
+      ],
+      "decision": "allow"
+    }
+  },
+  {
+    "command": [
+      "/home/willi/Research-workspace/.venv/bin/python3",
+      "/home/willi/Research-workspace/AGENTS/HENRY/scripts/gamma_flip.py",
+      "--days",
+      "35"
+    ],
+    "exit_code": 0,
+    "result": {
+      "matchedRules": [
+        {
+          "prefixRuleMatch": {
+            "matchedPrefix": [
+              "/home/willi/Research-workspace/.venv/bin/python3",
+              "/home/willi/Research-workspace/AGENTS/HENRY/scripts/gamma_flip.py"
+            ],
+            "decision": "allow"
+          }
+        }
+      ],
+      "decision": "allow"
+    }
+  },
+  {
+    "command": [
+      "python3",
+      "-c",
+      "print(1)"
+    ],
+    "exit_code": 0,
+    "result": {
+      "matchedRules": []
+    }
+  },
+  {
+    "command": [
+      "python3",
+      "/tmp/edgar_watch.py"
+    ],
+    "exit_code": 0,
+    "result": {
+      "matchedRules": []
+    }
+  },
+  {
+    "command": [
+      "python3",
+      "/home/willi/Research-workspace/AGENTS/VULCAN/tools/not_edgar_watch.py"
+    ],
+    "exit_code": 0,
+    "result": {
+      "matchedRules": []
+    }
+  }
+]

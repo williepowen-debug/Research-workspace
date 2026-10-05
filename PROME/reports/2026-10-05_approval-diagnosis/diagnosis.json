@@ -1,0 +1,73 @@
+{
+  "observed_at": "2026-10-05T09:36:04-04:00",
+  "request": "Investigate recurring approvals and prepare concrete improvement; no live permission-policy activation.",
+  "installed_codex": "0.160.0",
+  "runtime": {
+    "approval_policy": "on-request",
+    "sandbox": "workspace-write",
+    "network_access": false,
+    "cwd": "/home/willi/Research-workspace/PROME",
+    "writable_roots": [
+      "/home/willi/Research-workspace"
+    ]
+  },
+  "blockers": [
+    {
+      "desk": "HENRY",
+      "thread": "01a10c34-b664-7021-b85f-5338a1bfcebe",
+      "last_pending_call_at": "2026-10-05T13:16:31.714Z",
+      "action": "../../.venv/bin/python3 scripts/boot.py",
+      "cwd": "/home/willi/Research-workspace/AGENTS/HENRY",
+      "type": "shell escalation for network",
+      "prefix_rule_requested": false
+    },
+    {
+      "desk": "VULCAN",
+      "thread": "01a10c3a-235c-7f50-a5bb-63d8ec008fdb",
+      "last_pending_call_at": "2026-10-05T13:24:11.797Z",
+      "action": "python3 tools/edgar_watch.py",
+      "cwd": "/home/willi/Research-workspace/AGENTS/VULCAN",
+      "type": "shell escalation after DNS failure",
+      "prefix_rule_requested": [
+        "python3",
+        "tools/edgar_watch.py"
+      ],
+      "side_effect": "EDGAR sweep may append its seen ledger; not a strictly read-only script."
+    },
+    {
+      "desk": "TERRY",
+      "thread": "01a10c3a-f6e1-7320-a5c0-38e73e993296",
+      "last_pending_call_at": "2026-10-05T13:24:06.403Z",
+      "action": "codex_tui.send_message_to_thread to PROME",
+      "type": "MCP coordination approval; preceding shell commands completed"
+    }
+  ],
+  "evidence": "Read-only inspection of the three exact rollout JSONL files plus native read_thread/wait_threads approval status. Pending actions inferred from unmatched calls and runtime waitingOnApproval; approval modal text is not exposed by the native status tool.",
+  "discovery_gap": "list_threads omitted newly created tasks; create_thread returned identities and direct read_thread confirmed them. Never use absence from list_threads alone as no-owner proof.",
+  "prepared": {
+    "file": "proposed-research-fetch.rules",
+    "state": "DRAFT NOT INSTALLED",
+    "validation": "codex execpolicy check: five expected command forms matched; three unrelated Python commands did not match. This checks prefix parsing only, not live approval persistence, sandbox safety or source correctness.",
+    "scope": "Four exact absolute-script prefixes, no generic Python/shell grant. Matching executions are outside the sandbox, not merely network-only. Rules do not hash scripts or restrict destinations.",
+    "activation_notes": "Requires explicit user acceptance through the permission mechanism; protected ~/.codex/rules write would need escalation. Future calls must use matching absolute paths; rules do not match current relative-path pending calls and do not accept pending prompts retroactively."
+  },
+  "mcp": "Generic per-tool approval configuration documented, but no codex_tui entry in user config and no verified persistent override for this injected built-in server. Do not install guessed settings or claim prompt removal.",
+  "next": "Resolve existing HENRY/VULCAN shell prompts and TERRY MCP prompt in their task UI. Test one full owner delivery, preserving returned task IDs. Any durable rules installation or process-contract amendment is separate from this investigation.",
+  "sources": [
+    "https://learn.chatgpt.com/docs/agent-configuration/rules",
+    "https://learn.chatgpt.com/docs/agent-approvals-security",
+    "https://learn.chatgpt.com/docs/extend/mcp?surface=cli"
+  ],
+  "changes": "Only new PROME report artifacts; no owner files, live config, rules, policies, processes, or approval decisions changed.",
+  "activation_followup": {
+    "at": "2026-10-05T09:45:18-04:00",
+    "status": "INSTALLED AND RULE-MATCH TESTED; LIVE UNBLOCK NOT VERIFIED",
+    "approval": "User approved sandbox escalation that explicitly named four outside-sandbox script grants.",
+    "file": "/home/willi/.codex/rules/prome-research-fetch.rules",
+    "validation": "Five intended forms matched; three unrelated forms unmatched. Agents sent exact command paths.",
+    "remaining": "Pending HENRY/VULCAN shell requests and TERRY MCP message need their existing UI responses. No verified built-in MCP persistent override. Live session rule reload not established.",
+    "process_change_count": 1,
+    "purpose_class": "PROCESS",
+    "scope": "Four research-script execution rules; no generic interpreter or shell rule, no global network toggle, no MCP policy change."
+  }
+}

@@ -2,7 +2,7 @@
 
 **Resume:** [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here). Five live entries. Archive index: `ls PROME/archive/HANDOFF*`; latest rotation [October 4 Codex archive](archive/HANDOFF_2026-10-04_codex.md) preserves the October 3 afternoon entry verbatim with a block crc. Older sittings remain in the daily memory and existing archives.
 
-**October 5 runtime-test continuation (Will-directed):** WQ-385 instructions independently reviewed and committed. Resume the pending owner receipts and Claude/mixed tests at the next suitable Claude Code session with verified tools; exact authority, test conditions, owner IDs and remaining technical prompt are in [the compatibility result record](reports/2026-10-05_runtime-compatibility-results.md). Existing approvals persist; no duplicate owner or unattended launch.
+**October 5 fresh-context bounce (Will-directed):** start at [bounce receipt](reports/2026-10-05_1140-bounce-closeout.md). HENRY/VULCAN/TERRY remain approval-blocked; closeout notices accepted but no release receipts or verified termination. BOND delivered and closed. WQ-385 instruction review passed; Claude/mixed tests remain deferred to a suitable verified Claude Code session. [Compatibility record](reports/2026-10-05_runtime-compatibility-results.md) owns authority/results. Existing approvals and installed permissions persist; future OpenAI spawns explicitly Sol (USER.md). No duplicate owner or unattended launch.
 
 ## October 4 night — Codex: HENRY owner handoff verified
 

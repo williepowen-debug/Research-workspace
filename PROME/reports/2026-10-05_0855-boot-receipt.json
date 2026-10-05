@@ -1,0 +1,69 @@
+{
+  "kind": "PROME_BOOT_RECEIPT",
+  "session": "codex-20261005-085556",
+  "clock_start": "2026-10-05T08:55:56-04:00",
+  "status": "PARTIAL",
+  "reason": "Local boot and gate completed; private Artifact rulings and native fleet presence/messaging unavailable in this session.",
+  "skill": "PROME/.claude/skills/boot/SKILL.md",
+  "run_dir": "/tmp/prome-boot-20261005-085556-codex",
+  "git": {
+    "opening_tree": "clean, no staged paths",
+    "fetch": "Succeeded after sandbox escalation; HEAD...origin/master = 0 0",
+    "pull": "SKIPPED: fetched refs already equal; native concurrent-fleet presence cannot be established",
+    "banner": "Not supplied; date, status, staged paths, fetch, ahead/behind and env_doctor run manually"
+  },
+  "capabilities": {
+    "private_artifact_rulings": "UNAVAILABLE: no native Artifact read_db/write_db ruling tools in actual tool inventory",
+    "native_fleet_presence_and_messaging": "UNAVAILABLE: thread-local collaboration is not fleet ListAgents/SendMessage",
+    "machine_credentials": "AVAILABLE per env_doctor rc=0; presence does not establish authentication",
+    "fleet_presence": "UNKNOWN; session-evidence snapshot is visible-namespace evidence only"
+  },
+  "read_coverage": {
+    "whole_eof": ["CLAUDE.md", "PROME/CLAUDE.md", "USER.md", "PROME/BOOT.md", "PROME/HANDOFF.md", "PROME/SCRATCH.md", "PROME/ACTIVE_DECISIONS.md", "PROME/STATUS.md", "HEARTBEAT.md"],
+    "scoped": ["PROME/WILL_QUEUE.md OPEN table, extracted verbatim to run-dir/will-queue-open.txt and paged through EOF", "AGENTS/WALTER/LAST_COMPLETION.md WILL_NEEDS: none pressing"],
+    "instrument_covered": ["PROME/GATES.tsv", "PROME/DOCKET.tsv"],
+    "gate_logs": "gate.txt and all 16 named logs read through EOF with boot_read.py; WQ-249 log read with orch-compact-v1 and digest-checked continuations",
+    "initial_read_deviations_recovered": "Initial combined cat truncated; explicit charter and BOOT reads recovered using bounded reader through EOF. A batch display truncated HEARTBEAT page 0; reread that page before continuation. Truncated OPEN-table sed replaced by full scoped bounded read."
+  },
+  "mechanical_result": {
+    "gate_rc": 0,
+    "blocking_checks": "10 passed",
+    "advisory_checks": 25,
+    "fired_unexecuted": "none",
+    "board": "nothing new since SIG-W-20261004-014; no additional advancing scan run",
+    "position_agreement": "PASS; agreement check is not a broker reconciliation",
+    "corrections": "no unreceipted NAMED correction for PROME",
+    "read_budget": "explicit-charter perimeter passed; no current rotation_due flag",
+    "spine_audit": "2026-10-02 stamp; not stale on 2026-10-05"
+  },
+  "advisories_retained": [
+    "CARL SIG-W-20261003-014 and RED SIG-W-20261002-005 have aged BOARD integration gaps; owner work remains owed.",
+    "Firetime reports 22 flags, including composite-path parser failures and prior owner pointer/date findings. No dates, gates or owner records changed. Existing carriers include L593 and SCRATCH owner-lane firetime flags.",
+    "WQ-249 historical UNKNOWN identities remain UNKNOWN; four ASKED-without-receipt records remain separate. No desk/helper spawned or pinged in this boot.",
+    "DAEDALUS tranche-3 packet remains unread, reserved for L490 final consumer read after position work. Both WALTER packets read; WQ-369 ruling already recorded, encoding/conflation cleanup remains owed.",
+    "BOOT/USER symmetry advisory remains open. Process changes this boot: zero."
+  ],
+  "market_and_book": {
+    "regime_source": "HEARTBEAT October 2 post-close base, October 4 owner-statement amendment; orientation only",
+    "price_attempt": "fetch.py price QQQ failed DNS in sandbox; escalated retry succeeded but returned 749.58 dated 2026-10-02, explicitly stale. No verified Monday premarket price or executable option bid established. Web finance lookup returned no usable response.",
+    "broker_basis": "FORGE header remains October 1 Fidelity end-of-day capture, Robinhood September 29 carry; no fresh broker book established",
+    "capital_posture": "Existing STAND DOWN WQ-192 and X1 CLOSED retained; no trade, order, fill, threshold change or new approval"
+  },
+  "position_first_work_completed": {
+    "scope": "Read-only preparation; retained here, not dispatched to a desk",
+    "qqq": "Read MGMT-QQQ735P-OCT05 whole through final October 2 addendum. Five October 5 $735 puts: standing sell-or-roll deadline 15:00 ET; historical TERRY lean SELL. Monday re-mark and fresh HENRY 14d/35d gamma remain owed; SPX gamma cannot establish QQQ/NDX gamma. Broker live bid and holdings govern. Friday dispositions remain unbooked pending Activity evidence.",
+    "vulcan_terry": "Owner STATUS still records VULCAN expression-comparison reply due 08:30 as owed. TERRY comparison final due before 09:30; WQ-365 remains LATER / not approved, cannot arm. LIQUID/BROCK evidence already folded per TERRY, Monday HY update is a later input.",
+    "ism": "HENRY owner adoption exists October 4; HEN48-56 first-print grading pending October 5 by 16:00. No automatic capture job. ISM primary confirms September Services release Monday October 5 at 10:00 ET: https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/services/august/",
+    "credit": "Expected FRED October 2 HY observation around 10:15 per owner records; RED FT-02 / REGINALD T-03 own their three-observation grades. Do not promote the October 1 324 print into a sustained fire.",
+    "terry_context": "FALCON October 4 Khurais packet read: fresh satellite heat, facility unidentified, zero counting sources, production rung NOT FIRED. Do not price production loss from heat. BRENT B1 denial context and TERRY recovery HOLD pointers remain in SCRATCH for the owner brief."
+  },
+  "skipped_dependent_steps": [
+    "Decision Deck pickup and consumption: private Artifact ruling tools unavailable; no claim of zero new rulings.",
+    "Native fleet preflight, desk launches and doorbells: tools unavailable; standing charter requires same-minute native ListAgents before writing-desk spawn. No substitution with thread-local collaboration.",
+    "Owner date-flag full-logic rechecks not undertaken in this boot; carried unresolved to their existing owner obligations, not treated as clean."
+  ],
+  "owed_ranked": ["QQQ expiry: HENRY fresh gamma and TERRY live re-mark", "VULCAN evidence then TERRY expression comparison / WQ-365", "HENRY ISM grading and RED/REGINALD credit grading", "BOND research L608", "DAEDALUS final consumer read L490", "WQ-369 encoding and authorized process backlog"],
+  "other_due_desks": "BOND, DAEDALUS, FERT, HENRY, REGINALD, TERRY, VULCAN flagged by git/date slate; this does not establish live presence or absence",
+  "done_without_asking": "Read-only position preparation and boot receipt; no C1-C7 ruling act, no new authority",
+  "delivery": "Local boot receipt written. Session remains open; closeout and hosted publication not performed by this boot."
+}
