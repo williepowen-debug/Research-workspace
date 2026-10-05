@@ -32,6 +32,8 @@ Session: **2026-10-04 (Sun) — walter-f0 continuation (Opus 4.8, terminal), "pl
 
 - **POST-CLOSEOUT `-014` (FALCON relay via PROME, `e3bfd7c5a`):** Khurais-corridor FIRMS finding → BRENT+HAWK (before Monday open), TERRY info. New fresh fire at the 9/10 spot (25.252N 48.103E, 229 MW), facility UNIDENTIFIED; **production rung NOT fired, losses stay 3, do NOT price a production loss off satellite**; corrected `-010`'s conflation read. BOARD 1215→1216.
 
+- **POST-CLOSEOUT TAIL (2026-10-04 PM → 10-05 00:0xZ), all committed + pushed:** CATO correction pass (ISM/Iraq fixes, provenance/read-state); loose-end cleanups Will flagged — X_BOOKMARKS §133 stale-OWED, BOOT_PROTOCOL duplicate-24 check-numbering (+ CLAUDE.md citations → names), WQ-369 conflation in WALTER's surfaces; **f2af81d44 scanner-fixes cold-read (Opus) = CLEAN, WQ-384 residual CLOSED**; **WQ-369 RULED (Will "yes" direct 00:00Z — dark-desk-spawn C8), relayed to PROME** (`8a2dbfa65`) for it to register; 2 PROME packets (WQ-369 conflation + ruling). safe-push confirmed HEAD on origin.
+
 ## WILL_NEEDS
 - **None pressing.** Monday ~10:15 ET: the FRED HY 10/02 obs decides RED-FT-02/REG-T-03 (2 of 3 or reset) — a watch, not a decision.
 - Carried: WQ-383 Bright Data 10/17 pilot review (L599) — now with a 2nd real use (UKMTO, REACHED-NO-TARGET) logged.
@@ -57,7 +59,7 @@ Session: **2026-10-04 (Sun) — walter-f0 continuation (Opus 4.8, terminal), "pl
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-04T21:55:52+00:00",
+  "as_of": "2026-10-05T00:26:22+00:00",
   "publication": [
     {
       "commit": "10f9375b9",
@@ -85,22 +87,42 @@ Session: **2026-10-04 (Sun) — walter-f0 continuation (Opus 4.8, terminal), "pl
     },
     {
       "commit": "907e29ccc",
-      "state": "pending"
+      "state": "published"
     },
     {
       "commit": "e3bfd7c5a",
-      "state": "pending"
+      "state": "published"
+    },
+    {
+      "commit": "8efc440aa",
+      "state": "published"
+    },
+    {
+      "commit": "f5e2516fb",
+      "state": "published"
+    },
+    {
+      "commit": "6702e225c",
+      "state": "published"
+    },
+    {
+      "commit": "9e737664b",
+      "state": "published"
+    },
+    {
+      "commit": "8a2dbfa65",
+      "state": "published"
     }
   ],
   "delivery": {
     "signal_date": "20261004",
     "total": 30,
-    "delivered": 28,
-    "note": "-001..-014; 30 handoff rows. 28 on origin+delivered; -014's 2 (BRENT/HAWK) pending-push (committed e3bfd7c5a, PROME pushes train tonight). FALCON+OTTO consumed; rest weekend-dark."
+    "delivered": 30,
+    "note": "-001..-014; 30 handoff rows ALL on origin + reconciled delivered. FALCON+OTTO consumed; rest consume Monday boot."
   },
   "push": {
-    "walter_commits_on_origin": "all except 907e29ccc (CATO correction pass) + this closeout",
-    "note": "push deferred under concurrent foreign writes (PROME/registry/WQ_LEDGER.*); next clean-tree session pushes"
+    "all_walter_commits_on_origin": true,
+    "note": "safe-push 2026-10-05T00:0xZ Will-coordinated; receipt HEAD 8a2dbfa65 on origin/master confirmed; 0 ahead."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -112,7 +134,7 @@ Session: **2026-10-04 (Sun) — walter-f0 continuation (Opus 4.8, terminal), "pl
       },
       {
         "path": "AGENTS/WALTER/tools/x_bookmarks_scan.py",
-        "sha256": "e0c457c2af25805b039b5f751ba194519721203f30158c7a6c1732904896766d",
+        "sha256": "37fe84063dbd726d8e7d4f30dbf9c098044c2a9113ff540f9dc26a758a02a1e7",
         "note": "this session's artifact; sha256 bytes-current at closeout"
       },
       {
@@ -123,9 +145,10 @@ Session: **2026-10-04 (Sun) — walter-f0 continuation (Opus 4.8, terminal), "pl
     ]
   },
   "owed": [
-    "907e29ccc + b72ac1c96 + e3bfd7c5a + closeout updates NOT on origin (PROME pushes train tonight)",
+    "PROME registers Will's WQ-369 APPROVE + implements the C8 (relay packet in PROME/inbox, on origin)",
+    "PROME reconciles the WQ-369 narrow-vs-umbrella usage + decides if unattended-runs needs its own WQ (packet on origin)",
     "HANS THRESHOLDS 103% owner-rotate (flagged)",
-    "BRENT+HAWK consume -014 before Monday open; CARL/HENRY/VIOLET/WATT/BOND/LIQUID/SAM/TERRY consume -009..-013 Monday boot",
+    "CARL/HENRY/VIOLET/WATT/BOND/LIQUID/SAM/TERRY consume -009..-014 Monday boot",
     "Mon 10/05 ~10:15 ET HY obs decides RED-FT-02/REG-T-03"
   ],
   "next_review": "2026-10-17"
