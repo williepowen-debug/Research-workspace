@@ -5,6 +5,10 @@ History: `PROME/archive/SCRATCH_ROTATED_*` (CRC receipts); earlier live pointer:
 
 ## ★ NEXT SESSION — START HERE
 
+**October 5 safeguards checkpoint:** [implementation/deployment receipt](reports/2026-10-05_locks-implementation-receipt.md) owns the changes, verification and laptop install commands. Implementation `2a72c60bc` and subsequent verification `7c4267c94` are on origin. Desktop hooks and GitHub protection installed; laptop local setup remains unverified. Existing owner recovery and position follow-ups below remain pending; this checkpoint changes none of their dispositions.
+
+**October 5 midday no-spawn boot:** [boot receipt](reports/2026-10-05_1202-boot-receipt.md). Direct reads now show the existing HENRY/VULCAN/TERRY tasks `notLoaded` with interrupted turns; no delivery/closeout receipt established. This supersedes only the bounce's approval-blocked observation below. No task resumed or replaced. Gate passed; dashboard refreshed, private Deck pickup unavailable and HEARTBEAT synthesis write-back pending.
+
 **October 5 11:40 ET — immediate fresh-context bounce (Will):** read [bounce receipt](reports/2026-10-05_1140-bounce-closeout.md) first; it supersedes the morning launch assumptions below.
 HENRY/VULCAN/TERRY remain approval-blocked at their existing Codex IDs; closeout-only notices accepted, receipt/termination NOT established. Reconcile those owners before any replacement.
 WQ-385 authority/tests and BOND delivery: [compatibility record](reports/2026-10-05_runtime-compatibility-results.md). Preserve existing permissions/research approvals; future OpenAI spawns explicitly **Sol** per USER.md.
