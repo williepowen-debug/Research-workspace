@@ -1,0 +1,166 @@
+{
+  "retrieved_utc": "2026-10-05T13:50:24.219795+00:00",
+  "fred": {
+    "DCOILBRENTEU": [
+      {
+        "date": "2026-09-29",
+        "value": "113.96"
+      },
+      {
+        "date": "2026-09-28",
+        "value": "119.97"
+      },
+      {
+        "date": "2026-09-25",
+        "value": "116.01"
+      }
+    ],
+    "DCOILWTICO": [
+      {
+        "date": "2026-09-29",
+        "value": "96.16"
+      },
+      {
+        "date": "2026-09-28",
+        "value": "99.37"
+      },
+      {
+        "date": "2026-09-25",
+        "value": "85.23"
+      }
+    ],
+    "DHHNGSP": [
+      {
+        "date": "2026-09-29",
+        "value": "3.18"
+      },
+      {
+        "date": "2026-09-28",
+        "value": "3.13"
+      },
+      {
+        "date": "2026-09-25",
+        "value": "3.21"
+      }
+    ],
+    "GASREGW": [
+      {
+        "date": "2026-09-28",
+        "value": "4.465"
+      },
+      {
+        "date": "2026-09-21",
+        "value": "4.478"
+      },
+      {
+        "date": "2026-09-14",
+        "value": "4.319"
+      }
+    ],
+    "GASDESW": [
+      {
+        "date": "2026-09-28",
+        "value": "6.382"
+      },
+      {
+        "date": "2026-09-21",
+        "value": "6.529"
+      },
+      {
+        "date": "2026-09-14",
+        "value": "6.285"
+      }
+    ],
+    "BAMLH0A0HYM2": [
+      {
+        "date": "2026-10-01",
+        "value": "3.24"
+      },
+      {
+        "date": "2026-09-30",
+        "value": "3.12"
+      },
+      {
+        "date": "2026-09-29",
+        "value": "3.08"
+      }
+    ]
+  },
+  "gie": {
+    "source": "https://agsi.gie.eu/api/data/eu",
+    "latest": [
+      {
+        "name": "EU",
+        "code": "eu",
+        "url": "eu",
+        "updatedAt": "2026-10-04 17:21:18",
+        "gasDayStart": "2026-10-03",
+        "gasDayEnd": "2026-10-04",
+        "gasInStorage": "819.8844",
+        "consumption": "3519",
+        "consumptionFull": "23.3",
+        "injection": "3238.11",
+        "withdrawal": "375.4",
+        "netWithdrawal": "-2862.7",
+        "workingGasVolume": "1132.3922",
+        "injectionCapacity": "11788.11",
+        "withdrawalCapacity": "19618.03",
+        "contractedCapacity": "1046.6576",
+        "availableCapacity": "91.9887",
+        "coveredCapacity": "100",
+        "status": "E",
+        "trend": "0.25",
+        "full": "72.4",
+        "info": []
+      },
+      {
+        "name": "EU",
+        "code": "eu",
+        "url": "eu",
+        "updatedAt": "2026-10-04 17:20:27",
+        "gasDayStart": "2026-10-02",
+        "gasDayEnd": "2026-10-03",
+        "gasInStorage": "817.032",
+        "consumption": "3519",
+        "consumptionFull": "23.22",
+        "injection": "2371.42",
+        "withdrawal": "484.8",
+        "netWithdrawal": "-1886.6",
+        "workingGasVolume": "1132.3922",
+        "injectionCapacity": "12254.01",
+        "withdrawalCapacity": "20003.71",
+        "contractedCapacity": "1046.8696",
+        "availableCapacity": "91.7767",
+        "coveredCapacity": "100",
+        "status": "E",
+        "trend": "0.17",
+        "full": "72.15",
+        "info": []
+      },
+      {
+        "name": "EU",
+        "code": "eu",
+        "url": "eu",
+        "updatedAt": "2026-10-04 17:20:06",
+        "gasDayStart": "2026-10-01",
+        "gasDayEnd": "2026-10-02",
+        "gasInStorage": "815.1329",
+        "consumption": "3519",
+        "consumptionFull": "23.16",
+        "injection": "3103.24",
+        "withdrawal": "320.7",
+        "netWithdrawal": "-2782.5",
+        "workingGasVolume": "1132.5122",
+        "injectionCapacity": "12253.6",
+        "withdrawalCapacity": "20004.38",
+        "contractedCapacity": "1046.9896",
+        "availableCapacity": "91.7767",
+        "coveredCapacity": "100",
+        "status": "E",
+        "trend": "0.39",
+        "full": "71.98",
+        "info": []
+      }
+    ]
+  }
+}

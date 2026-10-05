@@ -1,0 +1,413 @@
+{
+  "retrieved_utc": "2026-10-05T13:44:53.989422+00:00",
+  "quotes": {
+    "BZZ26.NYM": {
+      "price": 101.63,
+      "prev": 102.25,
+      "chg": -0.6063569682151604,
+      "date": "2026-10-05T13:34:50+00:00",
+      "symbol": "BZZ26.NYM",
+      "currency": "USD",
+      "source": "Yahoo regularMarketPrice",
+      "state": "RECENT_QUOTE",
+      "reason": "",
+      "expireDate": 1793577600,
+      "bid": 101.7,
+      "ask": 101.73
+    },
+    "BZF27.NYM": {
+      "price": 98.24,
+      "prev": 98.71,
+      "chg": -0.47614223482930207,
+      "date": "2026-10-05T13:34:40+00:00",
+      "symbol": "BZF27.NYM",
+      "currency": "USD",
+      "source": "Yahoo regularMarketPrice",
+      "state": "RECENT_QUOTE",
+      "reason": "",
+      "expireDate": 1796083200,
+      "bid": 98.22,
+      "ask": 98.25
+    },
+    "BZG27.NYM": {
+      "price": 95.43,
+      "prev": 95.93,
+      "chg": -0.5212133847597222,
+      "date": "2026-10-05T13:32:51+00:00",
+      "symbol": "BZG27.NYM",
+      "currency": "USD",
+      "source": "Yahoo regularMarketPrice",
+      "state": "RECENT_QUOTE",
+      "reason": "",
+      "expireDate": 1798675200,
+      "bid": 95.44,
+      "ask": 95.48
+    },
+    "CLX26.NYM": {
+      "price": 89.62,
+      "prev": 91.11,
+      "chg": -1.6353857973877672,
+      "date": "2026-10-05T13:34:50+00:00",
+      "symbol": "CLX26.NYM",
+      "currency": "USD",
+      "source": "Yahoo regularMarketPrice",
+      "state": "RECENT_QUOTE",
+      "reason": "",
+      "expireDate": 1792454400,
+      "bid": 89.67,
+      "ask": 89.68
+    },
+    "CLZ26.NYM": {
+      "price": 88.32,
+      "prev": 89.43,
+      "chg": -1.2411942301241319,
+      "date": "2026-10-05T13:34:50+00:00",
+      "symbol": "CLZ26.NYM",
+      "currency": "USD",
+      "source": "Yahoo regularMarketPrice",
+      "state": "RECENT_QUOTE",
+      "reason": "",
+      "expireDate": 1795132800,
+      "bid": 88.35,
+      "ask": 88.36
+    },
+    "HOX26.NYM": {
+      "price": 4.5523,
+      "prev": 4.5011,
+      "chg": 1.1374997222900918,
+      "date": "2026-10-05T13:34:48+00:00",
+      "symbol": "HOX26.NYM",
+      "currency": "USD",
+      "source": "Yahoo regularMarketPrice",
+      "state": "RECENT_QUOTE",
+      "reason": "",
+      "expireDate": 1793318400,
+      "bid": 4.5541,
+      "ask": 4.5548
+    },
+    "HOZ26.NYM": {
+      "price": 4.4201,
+      "prev": 4.3573,
+      "chg": 1.4412594955591551,
+      "date": "2026-10-05T13:34:48+00:00",
+      "symbol": "HOZ26.NYM",
+      "currency": "USD",
+      "source": "Yahoo regularMarketPrice",
+      "state": "RECENT_QUOTE",
+      "reason": "",
+      "expireDate": 1795996800,
+      "bid": 4.4201,
+      "ask": 4.4212
+    },
+    "RBX26.NYM": {
+      "price": 3.2586,
+      "prev": 3.3124,
+      "chg": -1.6241999758483283,
+      "date": "2026-10-05T13:34:47+00:00",
+      "symbol": "RBX26.NYM",
+      "currency": "USD",
+      "source": "Yahoo regularMarketPrice",
+      "state": "RECENT_QUOTE",
+      "reason": "",
+      "expireDate": 1793318400,
+      "bid": 3.258,
+      "ask": 3.2585
+    },
+    "NGX26.NYM": {
+      "price": 3.006,
+      "prev": 3.035,
+      "chg": -0.9555189456342816,
+      "date": "2026-10-05T13:34:50+00:00",
+      "symbol": "NGX26.NYM",
+      "currency": "USD",
+      "source": "Yahoo regularMarketPrice",
+      "state": "RECENT_QUOTE",
+      "reason": "",
+      "expireDate": 1793145600,
+      "bid": 3.006,
+      "ask": 3.007
+    },
+    "USO": {
+      "price": 144.69,
+      "prev": 147.41,
+      "chg": -1.845193677498136,
+      "date": "2026-10-05T13:44:16+00:00",
+      "symbol": "USO",
+      "currency": "USD",
+      "source": "Yahoo regularMarketPrice",
+      "state": "RECENT_QUOTE",
+      "reason": "",
+      "expireDate": null,
+      "bid": 144.59,
+      "ask": 144.64
+    },
+    "VLO": {
+      "price": 406.955,
+      "prev": 406.32,
+      "chg": 0.15628076392990575,
+      "date": "2026-10-05T13:44:18+00:00",
+      "symbol": "VLO",
+      "currency": "USD",
+      "source": "Yahoo regularMarketPrice",
+      "state": "RECENT_QUOTE",
+      "reason": "",
+      "expireDate": null,
+      "bid": 402.01,
+      "ask": 408.0
+    },
+    "MPC": {
+      "price": 423.27,
+      "prev": 422.22,
+      "chg": 0.24868551939745132,
+      "date": "2026-10-05T13:44:48+00:00",
+      "symbol": "MPC",
+      "currency": "USD",
+      "source": "Yahoo regularMarketPrice",
+      "state": "RECENT_QUOTE",
+      "reason": "",
+      "expireDate": null,
+      "bid": 419.9,
+      "ask": 424.79
+    },
+    "XLE": {
+      "price": 62.15,
+      "prev": 62.95,
+      "chg": -1.2708498808578272,
+      "date": "2026-10-05T13:44:53+00:00",
+      "symbol": "XLE",
+      "currency": "USD",
+      "source": "Yahoo regularMarketPrice",
+      "state": "RECENT_QUOTE",
+      "reason": "",
+      "expireDate": null,
+      "bid": 62.51,
+      "ask": 62.7
+    },
+    "STNG": {
+      "price": 86.32,
+      "prev": 86.19,
+      "chg": 0.15082956259426794,
+      "date": "2026-10-05T13:44:34+00:00",
+      "symbol": "STNG",
+      "currency": "USD",
+      "source": "Yahoo regularMarketPrice",
+      "state": "RECENT_QUOTE",
+      "reason": "",
+      "expireDate": null,
+      "bid": 87.51,
+      "ask": 89.7
+    },
+    "FRO": {
+      "price": 53.6325,
+      "prev": 52.735,
+      "chg": 1.7019057551910466,
+      "date": "2026-10-05T13:44:47+00:00",
+      "symbol": "FRO",
+      "currency": "USD",
+      "source": "Yahoo regularMarketPrice",
+      "state": "RECENT_QUOTE",
+      "reason": "",
+      "expireDate": null,
+      "bid": 54.29,
+      "ask": 54.44
+    },
+    "DHT": {
+      "price": 24.02,
+      "prev": 23.685,
+      "chg": 1.4143972978678532,
+      "date": "2026-10-05T13:44:52+00:00",
+      "symbol": "DHT",
+      "currency": "USD",
+      "source": "Yahoo regularMarketPrice",
+      "state": "RECENT_QUOTE",
+      "reason": "",
+      "expireDate": null,
+      "bid": 24.6,
+      "ask": 24.79
+    },
+    "LNG": {
+      "price": 268.045,
+      "prev": 269.89,
+      "chg": -0.6836118418614867,
+      "date": "2026-10-05T13:44:45+00:00",
+      "symbol": "LNG",
+      "currency": "USD",
+      "source": "Yahoo regularMarketPrice",
+      "state": "RECENT_QUOTE",
+      "reason": "",
+      "expireDate": null,
+      "bid": 267.0,
+      "ask": 269.99
+    },
+    "VG": {
+      "price": 12.89,
+      "prev": 13.125,
+      "chg": -1.7904761904761868,
+      "date": "2026-10-05T13:44:52+00:00",
+      "symbol": "VG",
+      "currency": "USD",
+      "source": "Yahoo regularMarketPrice",
+      "state": "RECENT_QUOTE",
+      "reason": "",
+      "expireDate": null,
+      "bid": 13.07,
+      "ask": 13.16
+    }
+  },
+  "tanker": {
+    "state": "DIAGNOSTIC",
+    "problems": [],
+    "window_open": false,
+    "quotes": {
+      "STNG": {
+        "price": 86.32,
+        "prev": 86.19,
+        "chg": 0.15082956259426794,
+        "date": "2026-10-05T13:44:34+00:00",
+        "symbol": "STNG",
+        "currency": "USD",
+        "source": "Yahoo regularMarketPrice",
+        "state": "RECENT_QUOTE",
+        "reason": "",
+        "expireDate": null,
+        "bid": 87.51,
+        "ask": 89.7
+      },
+      "FRO": {
+        "price": 53.6325,
+        "prev": 52.735,
+        "chg": 1.7019057551910466,
+        "date": "2026-10-05T13:44:47+00:00",
+        "symbol": "FRO",
+        "currency": "USD",
+        "source": "Yahoo regularMarketPrice",
+        "state": "RECENT_QUOTE",
+        "reason": "",
+        "expireDate": null,
+        "bid": 54.29,
+        "ask": 54.44
+      },
+      "DHT": {
+        "price": 24.02,
+        "prev": 23.685,
+        "chg": 1.4143972978678532,
+        "date": "2026-10-05T13:44:52+00:00",
+        "symbol": "DHT",
+        "currency": "USD",
+        "source": "Yahoo regularMarketPrice",
+        "state": "RECENT_QUOTE",
+        "reason": "",
+        "expireDate": null,
+        "bid": 24.6,
+        "ask": 24.79
+      }
+    },
+    "max_absolute_percent": 1.7019057551910466,
+    "reading": "vendor previous regular close to timestamped quote; sign discarded",
+    "limit": "No gate grade, day-0 inference or repeat-grade authorization. Owner reads complete BE-04 through BE-12, including C and close veto; grade once at/after 14:00 ET."
+  },
+  "spreads": {
+    "brent_dec_feb": {
+      "legs": [
+        "BZZ26.NYM",
+        "BZG27.NYM"
+      ],
+      "problems": [],
+      "value": 6.199999999999989,
+      "basis": "vendor timestamped quotes, not settlement; maximum skew 300s"
+    },
+    "brent_dec_jan": {
+      "legs": [
+        "BZZ26.NYM",
+        "BZF27.NYM"
+      ],
+      "problems": [],
+      "value": 3.3900000000000006,
+      "basis": "vendor timestamped quotes, not settlement; maximum skew 300s"
+    },
+    "dec_wti_brent": {
+      "legs": [
+        "CLZ26.NYM",
+        "BZZ26.NYM"
+      ],
+      "problems": [],
+      "value": -13.310000000000002,
+      "basis": "vendor timestamped quotes, not settlement; maximum skew 300s"
+    },
+    "nov_ulsd_wti": {
+      "legs": [
+        "HOX26.NYM",
+        "CLX26.NYM"
+      ],
+      "problems": [],
+      "value": 101.57659999999998,
+      "basis": "vendor timestamped quotes, not settlement; maximum skew 300s"
+    },
+    "dec_ulsd_wti": {
+      "legs": [
+        "HOZ26.NYM",
+        "CLZ26.NYM"
+      ],
+      "problems": [],
+      "value": 97.32419999999999,
+      "basis": "vendor timestamped quotes, not settlement; maximum skew 300s"
+    },
+    "nov_rbob_wti": {
+      "legs": [
+        "RBX26.NYM",
+        "CLX26.NYM"
+      ],
+      "problems": [],
+      "value": 47.24119999999999,
+      "basis": "vendor timestamped quotes, not settlement; maximum skew 300s"
+    }
+  },
+  "eia": {
+    "dates": {
+      "commercial_crude": "2026-09-25",
+      "commercial_crude_wow": "2026-09-25",
+      "spr": "2026-09-25",
+      "spr_wow": "2026-09-25",
+      "cushing": "2026-09-25",
+      "cushing_wow": "2026-09-25",
+      "gasoline": "2026-09-25",
+      "gasoline_wow": "2026-09-25",
+      "distillate": "2026-09-25",
+      "distillate_wow": "2026-09-25",
+      "util": "2026-09-25",
+      "gas_yoy_latest": "2026-09-25"
+    },
+    "errors": [],
+    "commercial_crude": 427.32,
+    "commercial_crude_wow": 0.922,
+    "spr": 283.767,
+    "spr_wow": -0.785,
+    "cushing": 24.301000000000002,
+    "cushing_wow": 0.553,
+    "gasoline": 204.362,
+    "gasoline_wow": -1.684,
+    "distillate": 105.18,
+    "distillate_wow": -2.251,
+    "util": 92.5,
+    "gas_yoy_latest": 0.2586578531398098,
+    "week_ending": "2026-09-25"
+  },
+  "uso_oct09_150c": [
+    {
+      "contractSymbol": "USO261009C00150000",
+      "lastTradeDate": "2026-10-02 19:59:49+00:00",
+      "strike": 150.0,
+      "lastPrice": 2.66,
+      "bid": 0.0,
+      "ask": 0.0,
+      "change": 0.0,
+      "percentChange": 0.0,
+      "volume": 1366.0,
+      "openInterest": 1612,
+      "impliedVolatility": 0.062509375,
+      "inTheMoney": false,
+      "contractSize": "REGULAR",
+      "currency": "USD"
+    }
+  ]
+}

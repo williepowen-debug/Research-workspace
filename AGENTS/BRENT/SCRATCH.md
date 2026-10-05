@@ -1,50 +1,50 @@
-# BRENT SCRATCH — October 5, 2026 (Codex boot; 2026-10-05 09:24 ET)
+# BRENT SCRATCH — October 5, 2026 (market-open refresh)
 
 ## CHANGES SINCE LAST SESSION
 
-- Startup and capability review only. No new Saudi production/export confirmation researched; October 4 OSP interpretation and Riyadh/Khurais loss UNKNOWN remain dated carry, not newly verified findings.
-- Newest saved scheduled output at boot: `demand_destruction/data/friday_2026-10-02.md`; no Monday 10/5 output yet. Its pre-release COT warning is superseded by the later 10/2 vintage #8 grade in STATUS/REGISTRY/COT_VINTAGES, not an outstanding missed grade.
-- Root pull blocked by other desks' dirty work (WALTER/PROME at boot; PROME still dirty at closeout). No pull, stash, or edits to their files. Local state is not certified synchronized with origin.
+- Softer crude with firmer diesel in 09:32–34 ET vendor quotes; equities 09:44 ET. Full contracts, timestamps, source links and raw data → `research/2026-10-05_market-open/REPORT.md`. Intraday observations, not settlements.
+- East–West reports conflict; named Aramco capacity assurance is counterevidence to blanket outage, but quantified current damage/loss remains UNKNOWN. Regional export recovery is dated all-route evidence, not Hormuz normalization. Nasser's buffer warning is attributed, not a BRENT forecast.
+- No new WPSR or FRED physical/retail observation; GIE advances to gas day 10/3. JWC index/primary PDF retain Gulf listing. October 2 presidential pool reports supersede “no White House word” on a diesel ban.
+- Three WALTER packets arrived: -002's preliminary monthly/per-route exports reconciled separately from rolling estimates; -001/-004 context noted. No Monday routine output at closeout scan; newest remains Friday 10/2, whose COT warning was superseded by grade #8.
 
 ## WHAT I DID THIS SESSION
 
-- Explicitly read root CLAUDE.md, USER.md and AGENTS.md, BRENT CLAUDE.md, STATUS, TRADE, SCRATCH, LESSONS, MEMORY, reference tables, thesis, open prediction rows, newest routine output and CATO deployment handoff. Read holding rules; no position recommendation made.
-- Ran full boot twice: sandbox run 09:17 ET rc=2 with DNS failures; approved network run 09:21 ET rc=2, 24.5 seconds. Network access recovered most feeds. Both runs completed; neither is a clean boot.
-- Approved-network summary: Threshold Monitor FINDINGS; EIA Weekly Monitor OK; Catalyst Countdown OK; Predictions-Due Scan OK; Lesson-Conflict Check OK; Pending-Receipts Check OK; Instrument Check FINDINGS; Ledger Staleness FINDINGS; Ledger Nudge OK; Derived Views OK.
-- Threshold coverage: LNG/VG ungraded. Instrument coverage: JWC last_verified 9/25 exceeds its 9-day budget; tanker quotes older than 30 minutes before regular open (freshness failure, not a proved publisher outage). WTI/Brent and diesel-crack probes each cover only one component; they do not certify the paired measurements.
-- Corrections check rc=0: zero unreceipted named corrections. Read-cap rc=0 within its charter-derived perimeter; this does not certify all implicit reads. Open BRT-07/30/31 rows reviewed: no passed outer deadline; no grade or date changed.
-- Checked TRADE pending markers against FORGE/STATUS: no unresolved execution receipt detected in the guard's scope. Mirror still October 1; whether the remaining USO call was subsequently sold is unestablished. Historical hourglass rows already have receipt_status=RESOLVED; missing fill times remain unknown.
-- Preserved all approvals and deferrals: WQ-189/192 stand-down, retired deploy gate, WQ-234 evidence restrictions, WQ-330 held-VLO rules, WQ-213 staged shares, WQ-331/WQ-346 demand-test authority, WQ-264 shadow run through 10/24, and paid-data deferral. No trade, re-arm, new rule or routine change.
+- Captured named futures/equities, EIA, lagged FRED physical/retail/broad HY context and GIE; saved raw JSONs and reader. No fresh sector-specific energy-credit or paid freight/AIS measurement claimed.
+- Updated STATUS, TRACKER, TRADE, THESIS/CHANGELOG, JWC verification stamp and board_log. Archived before-images with byte counts/crc32. Fixed stale BRT-31 draft-only/BRT-29 grade-owed reader paths against existing registrations; no prediction row or letter changed.
+- Corrected BRENT's stale TERRY ×2 claim: card already has October 1–2 ×1 addenda. Today's option feed is unusable (zero bid/ask, Friday last trade). Holding status requested from Will; no new receipt received in this pass.
+- Approved-network boot at 09:53 ET, 20.2 seconds, **rc=2**: Threshold/EIA/Catalyst/Predictions/Lesson conflict/Pending receipts/Derived views OK; Instrument WARNINGS; Ledger Staleness and Ledger Nudge FINDINGS. Receipt: `research/2026-10-05_market-open/boot.txt`.
+- LNG/VG/tanker quote coverage recovered and JWC stamp repaired. Three instrument advisories remain: WTI–Brent/diesel automatic probes cover one component; tanker owner grade belongs at/after 14:00 ET. Independent paired intraday capture does not certify settlements.
+- Three consumed WALTER packets = three board_log rows = three git-moved processed files. No outbound tool sends, agents spawned, or routine runs/deployment.
+- Preserved WQ-189/192 stand-down, retired deploy gate, WQ-234 evidence restrictions, WQ-330 held-VLO rules, WQ-213 staged shares, WQ-331/346 demand-test authority, WQ-264 shadow through 10/24, declined USO harvest and paid-data deferral. No trade, re-arm or new test.
 
 ## NEXT SESSION (dated, future-verifiable)
 
-1. **2026-10-05:** prioritize mechanical USO option status against the next broker evidence; preserve the existing sell-or-roll rail. Recheck tanker liveness in its specified decision window, and JWC circular content before refreshing its verification stamp.
-2. **2026-10-05:** seek Aramco/Saudi Energy Ministry/SPA confirmation or matched post-10/3 production/export/Petroline-Yanbu data. Keep Riyadh/Khurais loss UNKNOWN without it. Check the Monday routine output when its normal run lands.
-3. **2026-10-06:** October STEO successor; distinguish OPEC-only coverage from the seven OPEC+ participants. SPR exchange bids and WQ-252 crack-month sitting remain on the existing docket; November F1 basis is not switched by this boot.
-4. **2026-10-07 10:30 ET:** normal WPSR wk-10/2 read using the repaired parser. This week is outside BRT-31's window; first eligible data week is 10/9, release 10/15.
-5. **2026-10-09:** USO rail 15:00 ET; COT as-of 10/6 release about 15:30 ET. Normal scheduled-run acceptance remains separate from live routine deployment.
-6. **Routine deployment stays parked:** resume only under the existing Claude-session/working-controls condition in `audits/2026-10-04_cato-correction/REPORT.md`. Do not launch an extra acceptance run.
+1. **October 5:** establish remaining USO-call status from new broker evidence. TERRY's October 2 SELL lean is not approval/execution; October 9 15:00 ET rail stands. Zero bid/ask is not a current valuation.
+2. **October 5:** tanker liveness in its specified window; VLO November crack on prescribed settlement basis. Seek operator/state quantified Saudi loss or clean FALCON output-loss figure; anonymous conflict stays unresolved.
+3. **October 6:** STEO, SPR exchange bids, WQ-252 crack-month sitting. November F1 basis stays until owner changes it.
+4. **October 7 10:30 ET:** WPSR week 10/2, outside BRT-31. **October 15 noon ET:** first eligible BRT-31 release, week 10/9.
+5. **October 9:** USO rail 15:00 ET; COT as-of 10/6 about 15:30 ET. No stale-vintage grade.
+6. **Deployment remains parked** under `audits/2026-10-04_cato-correction/REPORT.md`: working Claude routine controls required. Saved repair complete; Thursday connector removal/live deployment and first-normal-run acceptance unresolved. No extra acceptance run.
 
 ## OPEN THREADS / WATCHES
 
-- Saudi facility, damage, sustained loss and duration remain unknown; Aramco OSP placement interpretation needs matched physical confirmation.
-- Existing incident-review debt: 4 ACTIVE rows over 60 days (RF-013/014/022/033), plus 9 stale rows in other present-tense statuses. Age is not evidence of restart; no automatic downgrade.
-- LESSONS_INDEX.tsv age alert +10 days; conflict check is clean but does not establish prose/index agreement. Existing substantive reconciliation remains open; no cosmetic timestamp refresh.
-- October 22 remains the modeled end of the G7 release's first 20-day diesel window.
+- Saudi loss/duration and matched throughput unknown. Regional exports do not satisfy dual-vendor/AIS-dark-share letter. Restart reports record-only through the WQ-264 shadow.
+- RF-013/014/022/033 ACTIVE over 60 days, nine other stale present-tense incident rows. No primary repair confirmation established in this bounded pass; age cannot manufacture restart or loss totals.
+- LESSONS_INDEX older than STATUS (boot +12 days); conflicts clean, substantive prose/index reconciliation incomplete. No cosmetic stamp. Existing COT/rig grades retained; no new release. No new docket catalyst registered; shipping event watch remains HAWK's.
+- October 22 remains modeled end of G7 release's first 20-day diesel window.
 
 ## POSITION DECISIONS PENDING
 
-- **Current inventory unknown after October 1 broker mirror.** That artifact still carries USO Oct-09 $150C ×1, USO 37 sh, VLO 1 sh. The call remains Will's hand with existing Fri 10/9 15:00 ET sell-or-roll rail; no new recommendation or approval requested.
-- WQ-192 STAND DOWN binds. VLO two additional shares are staged, not bought; TERRY owns scale/exit grading. No re-opening of declined USO harvest rules or permanently unknown sale-price questions.
+- Inventory after October 1 unconfirmed: mirror USO Oct-09 $150C ×1, USO 37 sh, VLO 1 sh. Broker truth off-repo; no fill inferred. TERRY owns held-VLO grading; Will executes.
+- WQ-192 stands; two extra VLO shares staged, not bought. Do not revive declined harvest or permanently unknown sale-price questions.
 
 ## MAIL STATE
 
-- Inbox top level, inbox/WALTER and outbox: zero top-level Markdown packets at boot. No MSG validation/receipt needed; no packet consumed, moved, authored or sent.
+- WALTER -001 noted, -002 acted, -004 noted; each archived with matching ledger row. Top-level inbox/outbox empty at scan; no MSG receipt needed. NEXUS brief is publication surface; consumer read not claimed.
 
 ## CAPABILITIES / WORKBOOK HEALTH
 
-- Available here: filesystem, shell, repository Python venv and boot kit; network feed access works with approved escalation; web retrieval tools are exposed but were not needed for this local-state report.
-- Not exposed: Claude RemoteTrigger/routine list/get/update/export, Claude cross-session SendMessage/ListAgents, or a broker view/execution channel. Codex child-agent tools do not discover or message independent Claude sessions. No agent spawned.
-- Worldscale and paid Kpler/Vortexa access are not established by this kit; retain the existing no-instrument/paid-data deferrals. Feed reachability is not proof of a valid composite or an executable trade.
-- Saved routine repairs remain complete per the CATO handoff; live deployment, Thursday connector removal and first-normal-run acceptance remain unresolved. No current live configuration verification claimed.
-- Scoped closeout updates only STATUS/SCRATCH/TRACKER/NEXUS. No observation, registered test or ledger row changed. Boot record committed locally as `ce4a67ae2`; push deferred under root Before pulling rule 2 while other desks' work is dirty. The next authorized sync must check overlap first.
+- Available: local files/shell/venv, approved feed scripts, web retrieval. Unavailable: broker view/execution, Claude RemoteTrigger/routine controls and independent-Claude-session discovery/messaging. Child agents do not substitute.
+- No paid Kpler/Vortexa or Worldscale instrument. Broad HY OAS is not energy-sector OAS. Lagged observations retain dates.
+- Local-only Git closeout under root Before pulling rule 2: other desks dirty. No pull/stash/foreign-file changes; push deferred. NEXUS fold is last write-back and pins STATUS commit.
+- No threshold/band/flip level changed; dated new observations do not supersede earlier observations' values. No numerical consumer scan required. Read-cap/weekday/calendar and diff checks are the closeout validation perimeter; no all-file certification claimed.
