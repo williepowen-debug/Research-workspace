@@ -48,16 +48,40 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-10-04T20:52:57-04:00, Will-approved SOL owner adoption
+### CHANGES SINCE LAST SESSION (2026-10-02 Fri 16:01 EDT (`date`) — PROME spawn `prome-96`, Tier-2 above-cap on Will's in-session word, bounded post-close)
 
-- Adopted preserved83d842484 macro values prospectively; HEN48–53 ranges +HEN54–56 direction registered. Actual registration timestamp in prediction rows/adoptionJSON; helper cutoff/last-write/commit are distinct receipts.
-- Market map declined official registration: exploratory/APPARATUS-INCOMPLETE. Yahoo429/CNBC access-denied; fetch.py daily history and cross-endpoint timestamp cannot meet rule. Macro scoring independent; no timer installed.
-- Whole inbox11 WALTER packets dispositioned, explicit git moves.012 corrected9/10 employment-rise and7/10 activity-fall are three-month unverified stats, no calibrated mass.013 TLT flow verificationDEFERRED; do not infer hedge/speculation/marginal buyer from volume.
-- Full boot outside sandbox20:47: no overdue rows/corrections0; one-horizon14d gamma~7712 positive UNPUBLISHED, walls withheld without35d. No existing letter/gate changed, no trade or threshold re-mark.
-- Prior whole STATUS/MEMORY/brief/closeout preserved under status_archive/2026-10-04_before-owner-adoption_*.md.
+- **Three grades at the 10/2 close.** (G1) **RSP 7th-week down streak = HIT** ($209.73 < $211.11 by $1.38; ties the only prior ≥7 run on price since 2003 = Apr–May 2022). (G2) **HEN-46 F1 = NOT STOOD DOWN** (matched Nov `HOX26×42 − CLX26` = $4.55×42 − $91.49 = **$99.61**, buffer $4.61 above $95; Dec step $95.43). F1 remains ACTIVE through 10/14. One-vendor read; 2nd-source cross-check owed. (G3) **Sep ISM Manufacturing read** from ismworld.org/pmi/september/: PMI 54.5 (−0.1), **Prices Paid 77.9 (+6.8pp through RED, first print this leg)**, Employment 52.7 (+1.5), Backlog 56.4 (+4.6). No HENRY row keyed to a Prices-Paid-RED breach; observation.
+- **Thesis — C-36 TWO-PART concur** (BOND's grade; HENRY's picture agrees). The 10Y 5.24 → 5.18 → 5.28 is PATH on the open (29K payrolls, Oct hike ≈20% at 09:46), PREMIUM reasserting into the close as the supply calendar (10/6/7/8 auctions, 11/4 QRA) stays unaddressed; ISM Prices-Paid 77.9 reinforces the premium side. Cash close: SPX **+0.74%** (opened +1.05%, faded 0.3%) · QQQ +1.02% · VIX 15.37 (−6.22%) · VIX9D 12.12 (−13.43%). Positive gamma at the close (both horizons, flip ~7,698, spot +25pt) is consistent — dealers dampen, which is the signature of the open-to-close fade.
+- **ARMED → re-keyed:** A1/A2 GRADED and retired. **B1 Mon pre-open gamma** (CBOE only; Will's 5 QQQ Oct-05 735P expire Mon) · **B2 FRED HY obs 10/02** (Mon ~10:15) + BOND co-sign + ACM 10/2 cell + F1 cross-vendor · **B3 WQ-252 10/6 sitting**.
+- **Inbox:** 5 WALTER signals (012/013/023/024/027) all INFO-no-ask; logged + git-moved to processed/. 013 (TD Securities Oct-off-base) corroborates HENRY's path-leg reading; 027 (BRENT correction to 023) confirms the F1 grade stands on crack math alone.
+- **CARRY from prome-70 (same date, AM) — not restated above:** FORUM-7 FINAL PREMIUM-ABSORPTION HENRY-graded 08:32–08:40 ET, BOND co-sign still PENDING (packet in BOND's inbox); WQ-252 steps filed early; WATCH_FOR R3 answered by name; the earlier `inbox/*.md` bulk `git mv` sweep lesson stands (**move by explicit name, never by glob, when the inbox is live**).
 
-### NEXT SESSION
+### CHANGES PRIOR SESSION — 2026-10-02 AM (prome-70, Tier 1 due-row wake, DOCKET L475; launched from PROME cwd)
 
-1. STATUS Next owner wake is canonical obligation list: Mondaypre09:30 gamma;10:00SeptemberISM; grade all9 rows by16:00; missing market legsNO-VERDICT.
-2. MondayHYobsOctober2/BONDco-sign/ACM/F1cross-vendor, TuesdayWQ252. Prior real-yield/KREMuse/breadth/confidence/CLAUDEKB/DGS30coverage/WATCH_FORR3 carry preserved in archived priorMEMORY; no retirement implied.
-3. No standing writer exception: authority bounded to this task, missing nativeListAgents disclosed; stop on conflicting writer evidence.
+- **FORUM-7 FINAL = PREMIUM-ABSORPTION** (s 0.685 · KW g 6.33bp · FR2004 3–6Y +$12.093B STRESS / long-end −$3.828B NONE). HEN-47 RESOLVED. **HENRY-graded, BOND co-sign PENDING** (packet in BOND inbox). NEXUS packeted. `research/2026-10-02_FORUM-7_FINAL-grade.md`. Lesson in the making: a disjunctive qualifier (D3a OR D3b) can fire on the leg that cuts against its own label's plain meaning — report the split beside the label.
+- **Gamma pre-open:** NEG both horizons on the 10/1 close (flip 7,692–7,695); indicated open ~7,703 just ABOVE ⇒ sign not robust. SPX-only; QQQ not measured. → TERRY packet.
+- **STATUS rotated WHOLE** → `status_archive/STATUS_ARCHIVE_2026-10.md` block 40 (crc32 `963fd474`); these notes' predecessors → block 41. STATUS now 53% of cap.
+- **WQ-252 filed early** (steps + Q1). ⚠️ **Self-correction: "calendar-matched incl. $90.16" was verified 9/1–9/11 only; 7/23 pair UNVERIFIED** (CL leg = CLU26 inferred; HO leg unknown). Withdrawn in the packet; `reports/2026-09-24_F1-basis-named.md` still carries the old sentence (historical report — not edited).
+- HEN-46 F3 recorded SPENT (WQ-344). WATCH_FOR R3 answered by name. RSP 7th week ARMED (< $211.11 at today's close); only prior ≥7 run on price since 2003 = Apr–May 2022 (verified). Inbox 6 + 16 drained, + LABOR's NFP packet that landed mid-session. ⚠️ **My bulk `git mv inbox/*.md` swept that packet to processed/ BEFORE I had read it.** I caught it at the pre-commit `git status`, then read and logged it. ⇒ **move by explicit name, never by glob, when the inbox is live.**
+
+- **09:5x post-open follow-up (Will's word 09:23):** payrolls +29K ⇒ rate relief (SPX +1.05%, 2Y −2.5bp, Oct ≈20%); **gamma POSITIVE at 09:48** (spot through an unchanged flip ~7,696). ⚠️ **Self-correction:** `gamma_flip.py` EXCLUDES same-day expiries (T ≤ 0), so my 08:4x "today's expiry rolls off → Monday differs" was wrong; it went to TERRY and is corrected. ⚠️ **The CBOE delayed chain is DEAD for ~15 min after the open** (prior-day price, iv=0 on every row) ⇒ the script silently falls back to yfinance, which is unstable (flip 7,785 vs 7,762 a minute apart). **Never read gamma before ~09:48 ET; check `source` == cboe.**
+
+### NEXT SESSION — in this order *(re-keyed at the 16:01 post-close closeout; the ARMED table in STATUS is the canonical list)*
+
+0. 🔴 **STATUS § ⏰ ARMED — B1 Monday 10/5 pre-open gamma (CBOE only, run before 09:30 ET; Will's 5 QQQ Oct-05 735P expire that day) · B2 FRED HY obs 10/02 (Mon ~10:15) + BOND FORUM-7 co-sign + ACM 10/2 cell + F1 cross-vendor on today's $99.61 · B3 WQ-252 10/6 sitting (HENRY conflicted — read any ruling packet in HENRY inbox).**
+1. ~~Sep ISM~~ READ (§ POST-CLOSE G3). ~~RSP 7th-week~~ GRADED HIT. ~~HEN-46 F1 settle~~ GRADED NOT STOOD DOWN. ~~Sep NFP cash reaction~~ READ.
+2. **FORUM-7:** read BOND's co-sign/contest when it lands; if BOND contests D3, only the qualifier can change (s, g cannot). HENRY-graded 10/2 AM; no new work owed until BOND lands.
+3. **10/6 WQ-252 sitting** (HENRY conflicted — measurements only, filed 10/2) · 10/6–10/8 auctions = the supply calendar FORUM-7 points at (C-36 TWO-PART's reversal risk).
+4. Carried: real-yield letter (must name BOTH TP models + the day-split) · KRE "Muse" deposit-flight candidate (REGINALD's) · breadth gap (Will's) · confidence backfill · `SIG-W-20260910-013` overlay · own `CLAUDE.md` KB count stale · DGS30 2002–06 coverage conflict (no 30Y superlative until resolved) · WATCH_FOR R3 to PROME.
+
+### Prior sessions 9/24 (22:41 → 03:32 · 21:19 · 16:40) — CHANGES / NEXT rotated verbatim → `status_archive/STATUS_ARCHIVE_2026-09.md` blocks 39 · 36 · 35.
+
+### Prior session (2026-09-21) — CHANGES / NEXT / CARRY rotated verbatim → `status_archive/STATUS_ARCHIVE_2026-09.md` block 33. Kill-on-sight list and carry rules live there; nothing retired.
+
+### Prior session (2026-09-18) — full CHANGES + CARRY archived → `status_archive/STATUS_ARCHIVE_2026-09.md` block 32. Load-bearing carry items promoted into the 9/21 CARRY block above:
+
+- Fill-forward-signature rule (SKEW `+0.00%` was fill-forward 9/18; SKEW `-0.00%` is mirror on real print 9/21 — same signature, different underlying state).
+- Grade-on-registered-instrument (VIXCLS-not-^VIX at 9/18, closed at 9/21 with VIXCLS 14.81).
+- Dead-discriminator rule (`KB-VIO-307`) — do not re-run 9/17-vs-9/18 mechanical split; both mechanisms remain unadjudicated by construction.
+- "A mirrored count always rots; a pointer cannot" (RED's 9/18 correction on my CROSS-AGENT table).
+- HEN-45 CONFIRM 9/18, both legs at primary sources (Leg 1 the document carried it; Leg 2 passed by 1bp = H.15 resolution).

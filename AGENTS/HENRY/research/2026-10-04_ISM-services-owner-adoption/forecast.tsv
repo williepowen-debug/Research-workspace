@@ -1,0 +1,7 @@
+registered_at	range_prediction_id	series	prior	central	lower	upper	directional_hit
+2026-10-04T20:52:57-04:00	HEN-48	headline	55.4	56	54	58	actual > 55.4
+2026-10-04T20:52:57-04:00	HEN-49	employment	47.8	49.5	47	52	actual > 47.8
+2026-10-04T20:52:57-04:00	HEN-50	prices_paid	72.6	74	70	78	actual >= 70.0
+2026-10-04T20:52:57-04:00	HEN-51	business_activity	61.7	61	58	64	
+2026-10-04T20:52:57-04:00	HEN-52	new_orders	60.9	61.5	58	65	
+2026-10-04T20:52:57-04:00	HEN-53	supplier_deliveries	51.3	52	50	55	

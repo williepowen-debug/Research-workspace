@@ -1,0 +1,122 @@
+
+================================================================
+  HENRY BOOT KIT (v1)   ·   Sunday, October 04, 2026  20:47
+================================================================
+
+────────────────────────────────────────────────────────────────
+  (a) LIVE TAPE   ·   pulled 2026-10-04 20:47:35 local
+────────────────────────────────────────────────────────────────
+  SPX          7,722.72   +0.73%
+  VIX             15.31   -6.59%
+  VIX9D           12.06   -13.86%
+  VIX3M           18.01   -3.07%
+  VVIX            87.02   -5.42%
+  SKEW           144.88   +1.48%
+  10Y              5.28   +0.76%
+  TLT             77.48   -0.30%
+  KRE             70.78   +1.19%
+  WAL             76.38   +0.90%
+  APO            114.02   -0.28%
+  ARES           117.55   +0.84%
+  Brent          102.08     [FUTURES BAR — not a settle]
+  USD/JPY        157.79   -0.02%
+
+  ⚠️  real-time/last quote — stamp THIS timestamp in STATUS, not 'close'.
+  ⚠️  N5 (i): Brent above is a DAILY BAR pulled after the 14:30 ET ICE settlement — it is NOT the settle. Dime precision; say 'bar' or source the settlement.
+
+────────────────────────────────────────────────────────────────
+  (b) GAMMA  ·  SPX dealer-gamma flip (gamma_flip.py, free-tier)
+────────────────────────────────────────────────────────────────
+  SPX 7,722.72 · flip ~7,712 · spot +10pts ABOVE → POS-gamma, dealers dampen
+  Net GEX +12.0B/1% · put wall 7,700 · call wall 7,750   [14d, 4166 contracts, src=cboe]
+  (free-tier: sign+flip robust, $B assumption-dependent · gamma_flip.py --days 35 for the definitive read)
+
+────────────────────────────────────────────────────────────────
+  (c) CREDIT  ·  FRED bifurcation (credit_monitor.py)
+────────────────────────────────────────────────────────────────
+  CREDIT BIFURCATION (quality BB vs distressed CCC — the K-shape)
+  BB  204bps   B-tier quality junk (healthy top)
+  HY  324bps   blended index [2026-10-01] (masks the tail)
+  CCC 1215bps   distressed tail [2026-10-01]
+  → GAP (CCC-BB) 1011bps   ratio 5.96x   Δgap 5d +63  20d +112  ~3mo +206
+  → 3mo trend: CCC +248bps  vs  BB +42bps
+  HY FUND-FLOW PROXY (ETF price / volume / vs IG)
+  HYG  $76.91   1d +0.01%   5d -0.78%   vol 1.37x20d
+  HYG/LQD (HY vs IG) 5d: +0.13%
+  ⚠ FLAGS:
+  → HY OAS 324 > 320 YELLOW — range break, bid giving way
+  → CCC-BB gap +63bps over 5d — acute tail stress
+  → BIFURCATION: CCC-BB gap +206bps over ~3mo — sustained K-shaped widening
+
+────────────────────────────────────────────────────────────────
+  (d) PREDICTIONS-DUE SCAN  ·  as of 2026-10-04
+────────────────────────────────────────────────────────────────
+  ✓ none overdue.
+
+────────────────────────────────────────────────────────────────
+  (e) LEDGER STALENESS  ·  mtime vs 2026-10-04
+────────────────────────────────────────────────────────────────
+  ✓  workbook/PREDICTIONS.tsv     2026-10-02  (2d)
+  ❄️  workbook/VX.tsv              FROZEN (not maintained)
+  ✓  workbook/KB.tsv              2026-09-30  (4d)
+  ❄️  workbook/FLOW.tsv            FROZEN (not maintained)
+  ✓  workbook/MARKET_DATA.tsv     2026-09-30  (4d)
+  ✓  board_log.tsv                2026-10-02  (2d)
+
+  ✓ all live ledgers fresh (<14d).
+
+────────────────────────────────────────────────────────────────
+  (f) INBOX TRIAGE  ·  filenames only — this is NOT processing
+────────────────────────────────────────────────────────────────
+  ✓ inbox clear.
+
+────────────────────────────────────────────────────────────────
+  (f2) WALTER LANE  ·  boot step 3a — unlogged signals, filenames only
+────────────────────────────────────────────────────────────────
+  🔴 11 unlogged signal(s) in the WALTER lane; oldest 2d.
+     Step 3a: read → append a board_log row (source=INBOX_WALTER) → git mv to processed/.
+         2d  SIG-W-20261002-028.md
+         2d  SIG-W-20261002-029.md
+         2d  SIG-W-20261002-031.md
+         2d  SIG-W-20261002-032.md
+         2d  SIG-W-20261002-034.md
+         1d  SIG-W-20261003-011.md
+         1d  SIG-W-20261003-016.md
+         0d  SIG-W-20261004-003.md
+       … and 3 more (filenames only; `ls inbox/WALTER/`)
+
+────────────────────────────────────────────────────────────────
+  (g) STALE-CONSUMER CHECK  ·  who still cites a number I superseded?
+────────────────────────────────────────────────────────────────
+  ⚠️  duplicate (metric, asof) in PUBLISHED.tsv: gamma_flip_35d_STALE @ 2026-09-04 — append order used as the tie-break; give the later row a timestamp asof to disambiguate.
+  ◦ gamma_flip_35d: scanning the 5 most recent superseded values; 13 older value(s) NOT scanned (pass them via --old to include).
+  ◦ net_gex_35d_Bn: scanning the 5 most recent superseded values; 13 older value(s) NOT scanned (pass them via --old to include).
+  ◦ gamma_flip_14d: scanning the 5 most recent superseded values; 5 older value(s) NOT scanned (pass them via --old to include).
+  ◦ net_gex_14d_Bn: scanning the 5 most recent superseded values; 6 older value(s) NOT scanned (pass them via --old to include).
+  ── gamma_flip_35d · superseded 7693, 7704, 7702, 7669, 7668 → current 7698
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (41)
+        AGENTS/NEXUS/STATUS_COLD.md:928  [7704]  (needle <5 sig digits)
+           | **M-04** | Vol/gamma — crack candidate | Med | **26%** | **↑3pp** | 09-29 | 🔑 **The arbiter I named (HENRY's board) came back NEGATIVE at 
+        AGENTS/NEXUS/STATUS_COLD.md:949  [7704]  (needle <5 sig digits)
+           | **R7 Concentration** | **Amplifier LIVE: gamma NEGATIVE both horizons [9/28]**, SPX below the 7,704–07 flip; `GATE-LIQ-076` conjunction ME
+        AGENTS/NEXUS/STATUS_COLD.md:1003  [7704]  (needle <5 sig digits)
+           | 🆕 **Gamma flip — NEGATIVE both horizons** | band 7,704–7,707; GEX −$16–17B/1% [9/28] | HENRY | 9/18 and 9/25 UNMEASURED. |
+        AGENTS/NEXUS/STATUS_COLD.md:1093  [7704]  (needle <5 sig digits)
+           | **M-04** | Vol/gamma — crack candidate | Med | **26%** | **↑3pp** | 09-29 | **HENRY board NEGATIVE both horizons [9/28]**: flip 7,704–7,70
+        AGENTS/NEXUS/STATUS_COLD.md:1166  [7704]  (needle <5 sig digits)
+           | **Gamma NEGATIVE both horizons** | 7,704–7,707; −$16–17B/1% [9/28] | HENRY | 9/18, 9/25 UNMEASURED. |
+        AGENTS/TERRY/board_log.tsv:50  [7704]  (needle <5 sig digits)
+           2026-09-30 08:12 ET	SIG-W-20260929-004	acted	BOARD	READ IN FULL with its correction -009. HENRY 9/28-close SPX dealer gamma NEGATIVE both ho
+        AGENTS/WALTER/routed/route_log.tsv:1104  [7704]  (needle <5 sig digits)
+           2026-09-29T18:26:31Z	SIG-W-20260929-004	HENRY packet 9/28 20:44 EDT (PUBLISHED.tsv 9/28)	SPX dealer gamma NEGATIVE both horizons 9/28 close;
+        AGENTS/NEXUS/analysis/2026-09-29_one-root-or-many.md:45  [7704]  (needle <5 sig digits)
+           | 9/28 close | **dealer gamma NEGATIVE at both horizons**, SPX 7,683 below the 7,704–07 flip | HENRY: net GEX −$16–17B / 1% — *"nothing mech
+        … +4 more 🟠 hit(s) on [7704] across 7 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+        AGENTS/NEXUS/STATUS.md:25  [7693]  (needle <5 sig digits)
+           | **M-04** | Vol/gamma — crack candidate | Med | **26%** | **—** | 09-29 | HELD. Gamma NEGATIVE both horizons again [9/30 pre-open]: flip 7,
+  … 368 more line(s) NOT SHOWN (cap 26) — rerun `python3 scripts/consumer_check.py --agent HENRY --from-ledger` for the full list.
+
+================================================================
+  boot brief done in 27.3s   (--verbose full credit · --quick skip gamma+credit · --selftest)
+================================================================
+

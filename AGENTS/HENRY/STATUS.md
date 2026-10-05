@@ -1,88 +1,30 @@
 # HENRY STATUS
 
-**Signal Status:** 🟡⚫ **10/2 POST-CLOSE (16:01 ET, PROME spawn `prome-96`) — 3 GRADES.** **(1) RSP 7th-week down streak = HIT** ($209.73 vs the $211.11 line; week 7 confirmed, ties the only prior ≥7 run on price since 2003 = Apr–May 2022). **(2) HEN-46 F1 at the 10/2 settle = NOT STOOD DOWN** (matched Nov crack `HOX26×42 − CLX26` = $4.55×42 − $91.49 = **$99.61**, $4.61 ABOVE the $95 line, $9.45 above $90.16 dead; Dec step $95.43). **(3) Sep ISM Manufacturing read — PRICES PAID 77.9 (+6.8pp) THROUGH RED** (yellow>60/orange>70/red>75); PMI 54.5 (−0.1), Employment 52.7 (+1.5), Backlog 56.4 (+4.6). Cash-session: SPX 7,722.93 **+0.74%** (opened +1.05%, faded 0.3% into the close) · QQQ 749.58 +1.02% · RSP 209.73 +0.35% · VIX 15.37 **−6.22%** · VIX9D 12.12 −13.43% · MOVE 107.65 −0.44% · KRE 70.76 +1.16% · HYG 76.91 flat · 10Y ^TNX 5.28 (round-trip 5.24→5.18→**5.28**, 2bp above the intraday reversal). **Post-close gamma: POSITIVE at both horizons (flip ~7,698; +$17.3B/$20.1B per 1%); walls withheld (put≡call=8,000).** FORUM-7 FINAL = PREMIUM-ABSORPTION (BOND co-sign still PENDING). ⛔ $0; no letter, score, confidence or threshold moved; Prices-Paid moved into RED on the OBSERVATION, not by a re-spec. **Last Updated:** 2026-10-02 16:01 EDT (`date`).
-**Pre-open (08:4x) + post-open (09:4x) narrative:** retained below for grading detail (§ POST-OPEN · § POST-CLOSE).
-**Rotation:** the whole 9/30 STATUS (crc32 `963fd474`) → `status_archive/STATUS_ARCHIVE_2026-10.md` **block 40**, verbatim. Earlier blocks: `STATUS_ARCHIVE_2026-09.md` 1–39.
+**Last owner update:** 2026-10-04T20:52:57-04:00 — bounded Will-approved SOL owner adoption. **Macro forecast:** headline56.0 / employment49.5 / prices74.0; ranges and falsifiers registered HEN48–56. Firm activity with partial hiring recovery, high costs; no unconditional equity call. No existing gated letter/threshold/confidence altered.
+**Prior whole STATUS preserved:** status_archive/2026-10-04_before-owner-adoption_STATUS.md. All market figures below are explicitly dated historical observations, not live Monday prices.
 
----
+## September ISM Services — owner adopted
 
-## ⏰ ARMED FOR THE NEXT HENRY WAKE — NOT DONE *(re-keyed 2026-10-02 16:01 ET at post-close closeout; A1/A2 GRADED this spawn, A3/A4 forward)*
+| Item | Status / instruction |
+|---|---|
+| HEN48–53 | Six inclusive range forecasts; central56/49.5/74/61/61.5/52. Full contract research/2026-10-04_ISM-services-owner-adoption/adoption.md |
+| HEN54–56 | Independent direction headline>55.4, employment>47.8, prices>=70. FIRST PRINT. No probabilities invented |
+| Release/grading | MondayOctober5 10:00EDT; CHOSEN same-day evaluation deadline16:00EDT; absent/wrong vintageNO-VERDICT; grade every row |
+| Market map | Exploratory/APPARATUS-INCOMPLETE; no gradeable return registration. No certified historical/live source route; missing legsNO-VERDICT. No capture job installed |
+| Source gaps | Consensus55.7 only single secondary calendar; subindices unavailable; S&P58.7 secondary but hiring/activity/cost direction publisher-verified |
+| Intake |11 WALTER packets integrated with dispositions.012 correction supports possible hiring catch-up;9/10 and7/10 unverified three-month sample, excluded calibration |
+| TLT positioning013 | DEFERRED verification: no primary flow/volume series reached; cannot infer hedge/speculation or marginal buyer from aggregate volume |
 
-| # | Item | Rule / basis | Data to pull | State |
-|---|---|---|---|---|
-| ~~A1~~ | ~~RSP 7th straight down week~~ | **GRADED HIT 10/2 16:00 ET** — $209.73 close < $211.11; see § BREADTH | — | ✅ RESOLVED this spawn |
-| ~~A2~~ | ~~HEN-46 F1 on the 10/2 settle~~ | **GRADED NOT STOOD DOWN 10/2 close** — matched Nov crack $99.61 > $95; see § F1 GRADE | — | ✅ RESOLVED this spawn (F1 remains ACTIVE through 10/14) |
-| B1 | **Monday 10/5 pre-open gamma board** (Will's 5 QQQ Oct-05 735 puts expire that day) | `gamma_flip.py --days 14` + `--days 35`, **CBOE source only** (check `source`; the CBOE chain is dead ~15 min after an open). Publish flip band + sign; walls only if horizons agree; state SPX-only scope. **Tonight's post-close read (reference only, OI stale by Mon open):** flip ~7,698 both horizons, POSITIVE, spot 7,728 (+30pt above) | Run before 09:30 ET Mon; spot = Fri close 7,722.93 |
-| B2 | Also due at Monday wake | FRED HY obs 10/02 (Mon ~10:15) vs 320 — 2nd print · BOND FORUM-7 co-sign · ACM 10/1–10/2 cells (decompose the payrolls-day move) · F1 cross-vendor check on today's $99.61 if a 2nd source is available | FRED / BOND / NY Fed | ARMED |
-| B3 | **WQ-252 10/6 sitting** (HENRY conflicted, measurements filed 10/2) | Read any ruling packet in the HENRY inbox at Tue wake; HENRY records only F1 moves triggered by it | PROME inbox | ARMED |
+## Next owner wake — outstanding
 
-## POST-CLOSE 10/2 — THREE GRADES *(PROME spawn `prome-96`, Tier-2 above-cap, Will's in-session authorization; 16:01 ET)*
+1. MondayOctober5 before09:30: fresh CBOE14d/35d gamma; SPX-only, walls only if both horizons agree. Today's20:47 boot14d display flip~7712 positive is UNPUBLISHED/one-horizon; Friday board below historical.
+2. MondayOctober5 10:00: primary SeptemberServices FIRST PRINT; grade HEN48–56 independently by16:00 and preserve release evidence. Optional09:45 S&P final informs a new timestamped amendment only.
+3. Monday~10:15: FRED HY obsOctober2; BOND FORUM7 co-sign; ACMOctober1–2; HEN46 cross-vendor. TuesdayOctober6 WQ252 ruling.
+4. Retain existing carry from archived prior STATUS/MEMORY: real-yield letter, KRE Muse candidate, breadth gap, confidence backfill, stale CLAUDE KB count, DGS30 coverage conflict, WATCH_FORR3. TLT013 verification at next positioning work.
 
-| # | Item | Grade | Figures (10/2 close) |
-|---|---|---|---|
-| G1 | **RSP 7th-week down streak** (WALTER −036) | **✅ HIT** — ties the only prior ≥7-week run on price since 2003 (Apr–May 2022, 7). | Close **$209.73** < $211.11; week 7 Fri-to-Fri 211.11 → 209.73 = **−0.65%**. Intraweek: Mon 209.74 · Tue 209.50 · Wed 208.02 · Thu 209.00 · Fri **209.73**. Source: yfinance RSP daily Close, `auto_adjust=False`, 10/2 16:01 ET. |
-| G2 | **HEN-46 F1 on the 10/2 settle** (matched Nov crack `HOX26×42 − CLX26`) | **✅ DOES NOT STAND DOWN. F1 remains ACTIVE** through 10/14. The G7 release decided ~100M bbl of diesel+crude; HO fell −1.90% (4.5529 → 4.5542?) but CL fell −1.49% and the crack **widened** by close vs the 10:31 ET intraday read ($95.81 → $99.61). | HOX26 **$4.55** × 42 = $191.10 · CLX26 **$91.49** ⇒ F1 = **$99.61**, $4.61 ABOVE the $95 stand-down line, $9.45 above $90.16 dead. **Dec step:** HOZ26 $4.41 × 42 − CLZ26 $89.79 = **$95.43** (Nov→Dec step $4.18, still above $95). Volumes: HOX 50,089 · CLX 322,105 (tier-2 finalization: both ≠ prior-day; the settle method is validated 9/23–9/25). ⚠️ Yahoo daily-close = settle method only; a 2nd vendor cross-check is owed (B2). |
-| G3 | **Sep 2026 ISM Manufacturing** (ISM, printed 10/1; pulled 10/2 from ismworld.org/pmi/september/) | **MIXED-HAWKISH: Prices Paid 77.9 (+6.8pp) through RED (first time this leg); headline PMI 54.5 (−0.1) still 9th month expanding; Employment 52.7 (+1.5) accelerating.** No HENRY row was keyed to a Prices-Paid-RED breach; the move is an observation. Combined with soft NFP +29K, the regime reads **STICKY INFLATION + SOFTENING LABOR** = premium case. | PMI **54.5** (vs 54.6, −0.1) · New Orders **55.3** (+1.6) · Production **56.7** (−1.6) · **Employment 52.7** (+1.5, 3rd mo growing) · Supplier Deliveries 59.0 (−0.3) · Inventories 48.6 (contracting from growing) · **Prices 77.9 (+6.8, 24th mo increasing)** · Backlog **56.4** (+4.6) · New Export Orders 50.9 (−2.3) · Imports 51.0 (−1.5). Commodities UP: Aluminum (34), Copper (15), Steel (11), Freight (7), Fuel (7), Diesel Fuel (2), Oil Based Products (6), Memory (7), Semiconductors (4). DOWN: NONE. |
+## Bounded boot and corrections
 
-### Thesis — C-36 TWO-PART regime (BOND 10/2 grade): HENRY concurs
-
-**C-36 TWO-PART signature (my restatement of BOND's grade — one paragraph):** the day's 10Y path 5.24 → 5.18 → 5.28 is the regime's calling card. The front half of the move was PATH (bull-steepener on a 29K payrolls print, Oct hike ≈20%, 2Y −2.5bp AM); the back half was PREMIUM reasserting into the close as the SUPPLY calendar (3Y 10/6, 10Y 10/7, 30Y 10/8, 11/4 QRA) stays unaddressed by any Fed move. Today's ISM Prices-Paid shock (77.9, +6.8pp — the hottest leg since this cycle's start) **reinforces the premium side**: a Fed that cannot accommodate 77.9 in prices paid cannot ratify the morning's path-easing without ratifying a stagflation drift. **HENRY's picture agrees with BOND's grade:** the FORUM-7 FINAL (PREMIUM-ABSORPTION, graded 10/2 AM) said the 9/23–9/24 jump sat on term premium, not path; the C-36 signature today says premium can **take back** path moves intraday. **This does not move my letter** (FORUM-7's A still holds for FOMC-week only), and I register no new prediction. The watch list leading with SUPPLY (10/6–10/8 auctions · 11/4 QRA) is the right place.
-
-**Gamma context (consistent):** the morning's +1.05% to +0.74% fade — about 30bp given back into the close — is the signature of a dealer book that opened near zero gamma and sat **just above the flip** all day (post-close flip ~7,698, close 7,722.93 = +25pt). Positive gamma dampens trajectory; it also dampens follow-through, which is what the tape did. Walls still unresolved (put≡call=8,000).
-
-## 10/2 — EARLIER SESSION *(PROME spawn `prome-70`, Tier 1 due-row wake, DOCKET L475 · 08:31 → 08:5x ET · launched from PROME cwd)*
-
-| # | What happened | Where |
-|---|---|---|
-| 1 | **FORUM-7 FINAL = PREMIUM-ABSORPTION.** All three legs re-pulled at the primaries, 08:32 ET. ACM vintage unchanged (9/22, 9/24 identical to 6dp). KW first read: g 6.33bp. FR2004 3–6Y $47.986B → $60.079B. **BOND co-sign PENDING** (dark) | `research/2026-10-02_FORUM-7_FINAL-grade.md` · `PREDICTIONS.tsv` HEN-47 RESOLVED |
-| 2 | **Gamma pre-open:** NEGATIVE both horizons on the 10/1-close spot → **09:48 re-read: POSITIVE** (spot through an unchanged flip). Walls withheld | § POST-OPEN · § GEX |
-| 3 | **HEN-46 F3 recorded SPENT** (WQ-344 RULED 9/30, PROME packet). No successor drafted | `PREDICTIONS.tsv` HEN-46 |
-| 4 | **WQ-252 (10/6 sitting):** per-candidate step measurements + the $90.16 calibration-pair answer filed to PROME, **3 days early.** ⚠️ **Self-correction:** my "calendar-matched at every calibration observation, including $90.16" was verified for 9/1–9/11 only. **The 7/23 pair is UNVERIFIED**: crude leg = Sep (INFERRED, strong), heating-oil leg UNKNOWN. It moves no line | `PROME/inbox/2026-10-02_from-HENRY_WQ-252-step-measurements-and-calibration-pair.md` |
-| 5 | **WATCH_FOR R3:** adopt/decline by name → PROME | `PROME/inbox/2026-10-02_from-HENRY_WATCH-FOR-R3-adopt-decline.md` |
-| 6 | **RSP 7th week:** verified on price since 2003 — the only prior ≥7-week run is 2022-04-08 → 05-20. ARMED for today's close | § BREADTH |
-| 7 | **Inbox drained:** 6 top-level + 16 WALTER, logged + consumed | `board_log.tsv` |
-| 8 | **Sep NFP logged from LABOR's packet** (arrived 08:4x, mid-session; BLS USDL-26-1549): **+29K**, revisions **−60K**, U-3 4.2%, AHE +0.1% m/m / 3.0% y/y ⇒ a soft print. Pre-open reaction: ES +0.47%, ^TNX 5.22, October odds ≈ 24% | § NFP below |
-| — | **NOT done:** Sep ISM (printed 10/1) **NOT read**; the gamma board and RSP grade at today's close | § GAPS below |
-
-## FORUM-7 — FINAL (HEN-47, 9/22→9/24 10Y +22bp)
-
-| Leg | Value | Source |
-|---|---|---|
-| s = ΔACMTP10 / ΔACMY10 | **+15.40 / +22.47 = 0.685** ⇒ PREMIUM (≥ 0.50) | NY Fed ACM Daily, pulled 10/2 08:32, sha `f174cbdd…` |
-| g = \|ΔTP_ACM − ΔTP_KW\| | **6.33bp** (KW +9.07) ≤ 18 ⇒ KW-CHECKED | FRED `THREEFYTP10`, 10/2 08:32, frontier 9/25 |
-| D3a 3–6Y | **+$12.093B** (47,986 → 60,079 $M) ≥ +$8.6B ⇒ STRESS | NY Fed `/api/pd` `PDPOSGSC-G3L6`, as-of 9/16 → 9/23 |
-| D3b long-end 7Y+ | **−$3.828B** ≤ +$0.5B ⇒ NONE | same, G7L11 + G11L21 + G21 |
-| A1 | s = **45th pct** of ACM's class (1990+, n=376) ⇒ an ordinary premium share | P1 file |
-
-⚠️ **The -ABSORPTION label came from the 5Y bucket alone.** Dealer duration overall fell (long-end −$3.8B, 6–7Y −$4.6B). BOND rider ①: net inventory ≠ proof of warehousing. ⚠️ **On 9/24 alone the models diverge in kind:** ACM share 1.16 vs KW 0.48.
-**Consequence (§7, frozen):** my (A) "higher for longer 2027–28" is **wrong for 9/23–9/24**. It holds for the FOMC week only. **The watch list now leads with SUPPLY: 3Y/10Y/30Y auctions 10/6–10/8 · 11/4 QRA · buyback ops.** No row moves. NEXUS letter untouched (CONCUR 10/1). BOND's D3b clause does not apply (NONE). B2 is BOND's call.
-
-## POST-OPEN 10/2 — payrolls reaction + gamma re-read *(PROME follow-up, Will's word 09:23 ET; read 09:46–09:49 ET)*
-
-**Payrolls** (BLS USDL-26-1549 via LABOR; consensus SECONDARY wires): **+29K vs ~84–90K** · revisions −60K · U-3 **4.2% vs 4.1%** · AHE **+0.1% m/m vs +0.3%, 3.0% y/y vs 3.2%** ⇒ soft on every headline. ⚠️ Late-Labor-Day seasonal caveat (Reuters).
-
-| 09:46 ET | Level | Δ vs 10/1 close | Source |
-|---|---|---|---|
-| SPX | **7,747.06** | **+1.05%** | `fetch.py` ^GSPC |
-| QQQ | **752.00** | **+1.34%** | `fetch.py` (NDX +1.36%) |
-| 2Y / 10Y / 30Y | **4.762 / 5.203 / 5.581%** | **−2.5 / −3.1 / −2.2bp** | CNBC/Tradeweb intraday (vendor, not the Treasury official curve) |
-| October +25bp | **≈ 20%** | 24% pre-open · 36% 9/30 | ZQX26 96.07; EFFR 3.88 [FRED 10/1]; vendor quote ±2pp |
-| VIX · RSP | 15.61 · 210.55 | −4.8% · +0.74% | `fetch.py` — RSP still < $211.11 |
-
-### 10:41 ET addendum — two signals (WALTER −005, −009), read against the post-open call
-
-- **HY 324 [FRED obs 10/01]** — over my 320 yellow on ONE print. ⚠️ **It amends my "no growth-fear tell":** checklist item (c) *"HY through 320 while yields fall"* was **met on 10/01** (that session: 10Y −5, 2Y −10, SPX +0.19%), i.e. **before** payrolls. Today's tape is still relief (10:41: SPX 7,750.88 +1.10% · HYG +0.44% · KRE +1.50% · VIX 15.56). ⇒ **Rate relief today; credit was already one print into the growth-fear set.** The decider is FRED obs 10/02 (Mon 10/05).
-- **G7 DECIDED up to 100M bbl diesel + crude over 4 months, diesel front-loaded in 20 days** — HEN-46's DENY side realized as a decision. **Matched Nov crack (HOX26×42 − CLX26) = $95.81 at the 10:31 ET bar** (4.3952 / 88.79; intraday, NOT a settle) ⇒ **$0.81 above F1's $95 stand-down, $5.65 above the $90.16 dead line**; Dec $92.09 (already < $95); step $3.72. **F1 grades on the CME settle (~14:30 ET); TERRY grades the VLO gate.** ⚠️ **Disclosed, not re-specced:** HEN-46 claims **Q3** (ended 9/30) fuel-cost lines. A 10/02 release cannot move Q3 realized cost, so a sub-$95 settle today would fire the spot instrument on a day the quarter claim did not change (LESSONS 9/14). No letter, confidence or threshold moved.
-- Oil −4–5% is disinflationary at the margin ⇒ it **supports** the rate-relief reading, it does not reverse it.
-
-### Gamma — re-read 09:48 ET: **POSITIVE at both horizons**
-
-`HENRY 2026-10-02 09:48 ET: flip ~7,696 (14d) / ~7,697 (35d) — UNCHANGED from pre-open (7,692/7,695); sign POSITIVE at both (CBOE spot 7,726.28, +29/+30pt above); net +$16.8B / +$18.6B per 1%; walls NOT PUBLISHABLE (put == call == 8,000 at both horizons).`
-
-- **Why the sign changed:** same source (CBOE), same OI (10/1 EOD); only spot moved — up THROUGH the flip. Live SPX 7,747 (09:46) is ~50pt (0.65%) above it.
-- **Today's expiry:** the registered method EXCLUDES it (T ≤ 0). ⚠️ **Correction to my 08:4x read** (STATUS, TERRY `5f82d6c7f`, PROME memo): "today's expiring contracts roll off, so Monday's board differs" was wrong. They were never in the board. Experimental variant including them (435 contracts, OI 766,596; T = time to 16:15): **flip stays ~7,692**; at 7,726 they add **+$21.5B**; at 7,666 **−$10.7B** ⇒ **today's expiry STEEPENS the profile on both sides of the same line.** ⚠️ Unvalidated variant — the sign and flip location agree with the registered method; the $B do not carry.
-- **QQQ:** SPX measurement only; QQQ's own dealer gamma is NOT measured. Data only (CBOE, 10/1 EOD OI): QQQ 10/2 740P **31,326** · 10/2 750C 18,773 · 10/5 735P **12,118**. *Geometry, INFERRED:* QQQ 740 is −1.6% from 752; at a QQQ/SPX beta near 1.2, that maps to SPX ≈ 7,650, which is **below** the ~7,692 flip ⇒ a path to 740 would pass from the dampened regime into the amplified one. Not a measurement of QQQ, not a trade view.
-- **Shelf life: this session.** Monday needs a fresh pre-open board (new OI).
+Full boot20:47 outside sandbox PASS; no overdue row, named corrections0. Sunday market quotes are last quotes (not today's cash closes); no threshold rebasing. Credit obsOctober1 unchanged HY324/BB204/CCC1215. Raw boot and failed market probes retained in adoption research directory. Pull skipped: unrelated dirtyWALTER/PROME tree; preserve others' work. No full fleet exclusion claim.
 
 ## GEX / GAMMA — POST-CLOSE 10/2 16:0x ET (reference only; OI is 10/2 EOD, re-pull Mon pre-open)
 
@@ -224,18 +166,4 @@
 
 ## BOTTOM LINE
 
-**1. 🟡 Breadth broke the 2003-era record TIE: RSP closed its 7th straight down week at $209.73** (vs the $211.11 line). The only prior ≥7 run on price since 2003 was April–May 2022 (7). An 8th week next Friday would be a new high-water mark for the series. No HENRY line is keyed to it; the tape tell is that equal-weighted paper is bleeding while cap-weight held +0.74% on the day.
-
-**2. 🔴 Sep ISM Prices Paid 77.9 (+6.8pp) through RED** (yellow>60/orange>70/red>75), 24th consecutive month increasing. Headline PMI 54.5 (−0.1) and Employment 52.7 (+1.5) stay expansionary. Combined with soft NFP +29K, the regime reads **sticky inflation + softening labor** — the C-36 TWO-PART story in a single release.
-
-**3. 🟢 Gamma POSITIVE at the close (both horizons, flip ~7,698, spot 7,722.93 = +25pt above).** Dealers dampen; the +1.05% open → +0.74% close fade is the signature. Walls still unresolved (put≡call=8,000). SPX scope only; QQQ's own gamma is not measured. Reference for Monday — re-pull OI pre-open.
-
-**4. 🔴 FORUM-7 FINAL stands: 9/23–9/24 was PREMIUM-ABSORPTION; today's 10Y round-trip 5.24→5.18→5.28 is the C-36 TWO-PART regime firing** — PATH on the AM print, PREMIUM reasserting into the close as the SUPPLY calendar (10/6/7/8 auctions, 11/4 QRA) stays unaddressed. BOND graded C-36 today; HENRY concurs. BOND FORUM-7 co-sign still PENDING.
-
-**5. HEN-46 F1 did NOT stand down at the 10/2 settle: matched Nov crack = $99.61** (HO×42 $191.10 − CL $91.49), $4.61 above the $95 line. F1 remains ACTIVE through 10/14. G7 release was already priced in intraday ($95.81 at 10:31 ET → $99.61 by close as HO rallied back and CL faded). Dec step holds too ($95.43 > $95).
-
-**6. October hike ≈ 20% [ZQX26 09:46] / ~24% [08:36]** — effectively priced out of the near-term hike case, but today's ISM Prices-Paid shock argues the Fed cannot ratify the easing even if the labor side is softening.
-
-**⛔ KILL ON SIGHT:** *"dealers warehoused the auctions"* (5Y bucket only; long-end fell) · *"FORUM-7 is final/co-signed"* (BOND PENDING) · *"the 10Y move was the Fed path"* for 9/23–9/24 · *"$90.16 was calibrated on a matched pair"* (7/23 UNVERIFIED) · any HENRY wall · *"October odds X%"* without basis · *"30Y highest since …"* (unresolved) · *"CCC 968"* as an ICE figure · *"RSP's 7-week run is unprecedented"* (there was one, 2022 Apr–May; this one TIES, does not exceed).
-
-**$0 moved. No card, no order, no trade proposed. No threshold set, moved or re-specced. Prices-Paid moved from ORANGE to RED on the OBSERVATION of the Sep print, not by a re-spec of the standing rule.**
+The next services release can show strong demand and improving hiring while costs stay high. Grade the data before treating this as a bearish market catalyst. Existing HEN46/FORUM7 and other gates remain unchanged; market reaction map has unresolved apparatus. No Will decision needed tonight.

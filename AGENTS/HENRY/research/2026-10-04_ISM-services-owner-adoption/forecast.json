@@ -1,0 +1,217 @@
+{
+  "status": "OWNER_ADOPTED_MACRO_ONLY",
+  "forecast_timestamp": "2026-10-04T20:52:57-04:00",
+  "knowledge_cutoff": "2026-10-04T20:52:57-04:00",
+  "release": "2026-10-05T10:00:00-04:00",
+  "observation_month": "2026-09",
+  "resolution_vintage": "FIRST_PUBLISHED",
+  "range_kind": "judgmental_not_statistical",
+  "scenario_probabilities": null,
+  "grading": "Each range inclusive; signed_error=actual-central; absolute_error=abs(signed_error). Missing/wrong vintage NO-VERDICT. Grade every directional predicate separately.",
+  "series": [
+    {
+      "series": "headline",
+      "prior": 55.4,
+      "central": 56,
+      "lower": 54,
+      "upper": 58,
+      "directional_hit": "actual > 55.4",
+      "range_prediction_id": "HEN-48",
+      "descriptive_baseline": {
+        "months": [
+          "2026-05",
+          "2026-06",
+          "2026-07",
+          "2026-08"
+        ],
+        "values": [
+          54.5,
+          54,
+          54.1,
+          55.4
+        ],
+        "range_hits": 4,
+        "N": 4,
+        "lower_ties": 1,
+        "upper_ties": 0,
+        "caveat": "Current August release vintage, not archived first-print backtest; no conditional calibration or gate-use",
+        "fixed_direction_operator": ">",
+        "fixed_direction_threshold": 55.4,
+        "fixed_direction_hits": 0,
+        "fixed_direction_threshold_ties": 1
+      }
+    },
+    {
+      "series": "employment",
+      "prior": 47.8,
+      "central": 49.5,
+      "lower": 47,
+      "upper": 52,
+      "directional_hit": "actual > 47.8",
+      "range_prediction_id": "HEN-49",
+      "descriptive_baseline": {
+        "months": [
+          "2026-05",
+          "2026-06",
+          "2026-07",
+          "2026-08"
+        ],
+        "values": [
+          47.9,
+          51.2,
+          47.4,
+          47.8
+        ],
+        "range_hits": 4,
+        "N": 4,
+        "lower_ties": 0,
+        "upper_ties": 0,
+        "caveat": "Current August release vintage, not archived first-print backtest; no conditional calibration or gate-use",
+        "fixed_direction_operator": ">",
+        "fixed_direction_threshold": 47.8,
+        "fixed_direction_hits": 2,
+        "fixed_direction_threshold_ties": 1
+      }
+    },
+    {
+      "series": "prices_paid",
+      "prior": 72.6,
+      "central": 74,
+      "lower": 70,
+      "upper": 78,
+      "directional_hit": "actual >= 70.0",
+      "range_prediction_id": "HEN-50",
+      "descriptive_baseline": {
+        "months": [
+          "2026-05",
+          "2026-06",
+          "2026-07",
+          "2026-08"
+        ],
+        "values": [
+          71.3,
+          67.7,
+          70.3,
+          72.6
+        ],
+        "range_hits": 3,
+        "N": 4,
+        "lower_ties": 0,
+        "upper_ties": 0,
+        "caveat": "Current August release vintage, not archived first-print backtest; no conditional calibration or gate-use",
+        "fixed_direction_operator": ">=",
+        "fixed_direction_threshold": 70,
+        "fixed_direction_hits": 3,
+        "fixed_direction_threshold_ties": 0
+      }
+    },
+    {
+      "series": "business_activity",
+      "prior": 61.7,
+      "central": 61,
+      "lower": 58,
+      "upper": 64,
+      "directional_hit": null,
+      "range_prediction_id": "HEN-51",
+      "descriptive_baseline": {
+        "months": [
+          "2026-05",
+          "2026-06",
+          "2026-07",
+          "2026-08"
+        ],
+        "values": [
+          57.7,
+          55.4,
+          59.1,
+          61.7
+        ],
+        "range_hits": 2,
+        "N": 4,
+        "lower_ties": 0,
+        "upper_ties": 0,
+        "caveat": "Current August release vintage, not archived first-print backtest; no conditional calibration or gate-use"
+      }
+    },
+    {
+      "series": "new_orders",
+      "prior": 60.9,
+      "central": 61.5,
+      "lower": 58,
+      "upper": 65,
+      "directional_hit": null,
+      "range_prediction_id": "HEN-52",
+      "descriptive_baseline": {
+        "months": [
+          "2026-05",
+          "2026-06",
+          "2026-07",
+          "2026-08"
+        ],
+        "values": [
+          57.3,
+          55.1,
+          57.2,
+          60.9
+        ],
+        "range_hits": 1,
+        "N": 4,
+        "lower_ties": 0,
+        "upper_ties": 0,
+        "caveat": "Current August release vintage, not archived first-print backtest; no conditional calibration or gate-use"
+      }
+    },
+    {
+      "series": "supplier_deliveries",
+      "prior": 51.3,
+      "central": 52,
+      "lower": 50,
+      "upper": 55,
+      "directional_hit": null,
+      "range_prediction_id": "HEN-53",
+      "descriptive_baseline": {
+        "months": [
+          "2026-05",
+          "2026-06",
+          "2026-07",
+          "2026-08"
+        ],
+        "values": [
+          55.2,
+          54.4,
+          52.8,
+          51.3
+        ],
+        "range_hits": 3,
+        "N": 4,
+        "lower_ties": 0,
+        "upper_ties": 0,
+        "caveat": "Current August release vintage, not archived first-print backtest; no conditional calibration or gate-use"
+      }
+    }
+  ],
+  "market_observation_rule": {
+    "baseline": "Latest actual observation 2026-10-05 09:58:00 <= t < 10:00:00 EDT",
+    "endpoint": "Closest to 10:30:00 actual observation within 10:29:00 <= t <= 10:31:00 EDT; ties earlier",
+    "provenance": "Disclose observation/retrieval timestamps, source and delay for both",
+    "missing": "Missing/stale baseline, missing endpoint or unknown actual timestamps => NO-VERDICT"
+  },
+  "owner": "HENRY",
+  "registered_at": "2026-10-04T20:52:57-04:00",
+  "origin_commit": "83d842484d7354d0bacf0b15b10597d26d263db5",
+  "origin_knowledge_cutoff": "2026-10-04T20:00:47-04:00",
+  "origin_last_write_completed_by": "2026-10-04T20:01:09.323-04:00",
+  "origin_commit_time": "2026-10-04T20:02:56-04:00",
+  "market_map_disposition": "EXPLORATORY_APPARATUS_INCOMPLETE_NOT_REGISTERED",
+  "grading_deadline": "2026-10-05T16:00:00-04:00",
+  "deadline_anchor": "CHOSEN: same-day evaluation deadline; absent release NO-VERDICT, no silent extension",
+  "directional_prediction_ids": {
+    "headline": "HEN-54",
+    "employment": "HEN-55",
+    "prices_paid": "HEN-56"
+  },
+  "specification_review_correction": {
+    "timestamp": "2026-10-04T20:58:12-04:00",
+    "scope": "Non-owner review: add same-operator fixed historical diagnostics; registration, forecast and grading unchanged"
+  }
+}
