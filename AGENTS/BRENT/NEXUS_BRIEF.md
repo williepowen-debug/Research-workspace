@@ -1,10 +1,12 @@
 # BRENT — NEXUS Brief
 
-> **2026-10-05 10:04 ET — C6 (b) SCOPED-PARTIAL; STATUS commit `701cd4e2f`.** Re-verified: 09:32–34 futures/09:44 equity quotes, EIA wk-9/25, lagged FRED, GIE gas day 10/3, JWC index/PDF, current Saudi/export/policy sources, TERRY card ×1 addenda and WALTER intake. Not re-verified: current broker holdings, official settlements, COT/rig grades, old incident facts and older SENDING rows. Prior banners/text preserved in [before-image](archive/2026-10-05_market-open_before_NEXUS_BRIEF.md): 24,189 UTF-8 payload bytes, crc32 `0acca8d2`; payload after first standalone separator, outer whitespace stripped. Deployment remains parked.
+> **Assessment fold 2026-10-05 10:14 ET — C6 (b) SCOPED-PARTIAL; STATUS commit `cf76a7638`.** THESIS/STATUS interpretation checked against the saved morning report: weaker broad crude-spike case, more resilient product tightness, moderate confidence, Phase 2 unconfirmed. No new feed pull, broker receipt or rule change. All market and source observations below retain the morning vintages; earlier verification scope follows.
 
-**Status:** 🟠 Crude softer, diesel firmer; Saudi pipeline reports conflict. No new gate or capital action.
+> **2026-10-05 10:04 ET — C6 (b) SCOPED-PARTIAL; prior data-refresh STATUS commit `701cd4e2f`.** Re-verified: 09:32–34 futures/09:44 equity quotes, EIA wk-9/25, lagged FRED, GIE gas day 10/3, JWC index/PDF, current Saudi/export/policy sources, TERRY card ×1 addenda and WALTER intake. Not re-verified: current broker holdings, official settlements, COT/rig grades, old incident facts and older SENDING rows. Prior banners/text preserved in [before-image](archive/2026-10-05_market-open_before_NEXUS_BRIEF.md): 24,189 UTF-8 payload bytes, crc32 `0acca8d2`; payload after first standalone separator, outer whitespace stripped. Deployment remains parked.
+
+**Status:** 🟠 Weaker crude-spike case; product tightness persists. Phase 2 unconfirmed; stand-down maintained.
 **Domain:** Oil/energy physical balance, structure and transmission.
-**As of:** 2026-10-05 10:04 ET | STATUS commit: `701cd4e2f`. Market observations 09:32–44 ET; supplemental source retrieval 09:50 ET. [Evidence](research/2026-10-05_market-open/REPORT.md).
+**As of:** assessment fold 2026-10-05 10:14 ET | STATUS commit: `cf76a7638`. Market observations 09:32–44 ET; supplemental retrieval 09:50 ET unchanged. [Evidence](research/2026-10-05_market-open/REPORT.md).
 
 ## CROSS-DOMAIN
 
@@ -40,6 +42,7 @@ September 15 owner review: [incident matrix](research/2026-09-15_backlog-review/
 
 ## VIEW
 
+- **Overall assessment (October 5, existing evidence):** less conviction in another broad crude spike; diesel/product constraints remain more resilient. Refiner-margin rationale is better supported than a short-dated crude-rally bet, with moderate confidence and no new trade recommendation. Demand collapse/Phase 2 unconfirmed; v5.11, calibration and stand-down unchanged. [Canonical assessment](thesis/THESIS.md).
 - **Physical (WPSR wk-9/25, read 9/30 at the EIA primary):** Cushing **24.301 M (+0.553), second build ⇒ F-b FIRED** · comm crude 427.320 M (+0.922) · SPR 283.767 M (−0.785) · distillate 105.180 M (−2.251), exports 1,529 kb/d (+198) · util 92.5%. ⚠️ seasonal + turnarounds + crude exports down: **US tanks, not world supply.** SPR: one last ≤40M exchange, Nov–Dec. *(Superseded 9/18–9/22 line, archived wording:* Cushing **23.75 M, +2.27 M** (wk-9/18, first build of the series' recent run) · distillate 107.4 M, exports 1.33 mb/d (4-wk 1.56) · SPR 284.6 M. Dated Brent **$114.89 vs Nov futures $99.25 (9/22) ⇒ +$15.64 physical premium**. That is a Phase-1 tightness reading, **not** a phase test.*
 - **Price (10/5 vendor intraday, 09:32–34 ET, NOT settles):** December Brent BZZ26 **$101.63**, November WTI CLX26 **$89.62**; December WTI−Brent **−$13.31**, December−February Brent **+$6.20**, November ULSD crack **$101.58**. Physical Dated Brent remains **$113.96 on 9/29**; no cross-date premium. Contract/timestamp validation in the [report](research/2026-10-05_market-open/REPORT.md); Friday missing BZG27 settlement-window bar remains missing.
 - **Phase:** BRT-31 registered October 1 under WQ-346; first eligible release October 15. October 7 WPSR is outside its window. Path A unchanged: Saudi resolver unregistered until after 10/24; current restart reports record-only. F-b already fired; no new phase transition from this refresh.
