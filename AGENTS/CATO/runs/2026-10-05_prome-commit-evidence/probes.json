@@ -1,0 +1,64 @@
+{
+  "unset_unstaged": {
+    "commit_rc": 0,
+    "stderr": "·  DOCKET-ROW-CAP not configured — set DOCKET_ROW_CAP_BYTES=<bytes> in scripts/harness_caps.env to activate (mechanism dormant; this line is the only effect)\n",
+    "committed_policy": "# fixture\nDOCKET_ROW_CAP_BYTES=2000\n",
+    "status": " M scripts/harness_caps.env\n"
+  },
+  "raised_unstaged": {
+    "commit_rc": 0,
+    "stderr": "",
+    "committed_policy": "# fixture\nDOCKET_ROW_CAP_BYTES=2000\n",
+    "status": " M scripts/harness_caps.env\n"
+  },
+  "normal": {
+    "commit_rc": 1,
+    "stderr": "❌ DOCKET-ROW-CAP PROME/DOCKET.tsv:L4 — NEW-OVER-CAP: 2,050 B > cap 2,000: desc3\n❌ DOCKET-ROW-CAP 1 finding(s) over 1 changed row(s) (cap 2,000 B per changed row; base HEAD) — shorten the ROW: move narrative to the owner's file and leave a pointer; a rule is not a docket row\npre-commit: PROME/DOCKET.tsv changed row(s) over the byte cap; commit refused (shorten the row, never --no-verify)\n",
+    "committed_policy": "# fixture\nDOCKET_ROW_CAP_BYTES=2000\n",
+    "status": " M PROME/DOCKET.tsv\n"
+  },
+  "boot_replay": {
+    "groups": 4,
+    "grouped_identities": 477,
+    "roundtrip_exact": true,
+    "pages": 12
+  },
+  "artifact_parser": {
+    ".claude/agents/argus.md + .claude/agents/coldreader.md": [
+      ".claude/agents/argus.md",
+      ".claude/agents/coldreader.md"
+    ],
+    "PROME/tools/prome_gate.py:312 (fired-unexecuted)": [
+      "PROME/tools/prome_gate.py"
+    ],
+    "PROME/DOCKET.tsv+PROME/GATES.tsv": [
+      "PROME/DOCKET.tsv",
+      "PROME/GATES.tsv"
+    ],
+    "`PROME/a_handles+drift.md` · `AGENTS/BOND/STATUS.md`": [
+      "PROME/a_handles+drift.md",
+      "AGENTS/BOND/STATUS.md"
+    ]
+  },
+  "untracked_unindexed_memory": {
+    "aggregate_rc": 1,
+    "rows": [
+      [
+        "BLOCKING",
+        "memory_index_check --strict --slug finding_cato_probe",
+        false,
+        "rc=1 ·    the GITIGNORED class, or add the index row for UNINDEXED) and re-run.\n       ↳ ❌ FAIL (--strict): 1 sync-breaking index condition(s).\n       full output: /tmp/tmpmtk490xe/00-memory-index-check-strict-slug-finding-cato-probe.txt",
+        "root CLAUDE.md carve-out ③ · scripts/memory_index_check.py --strict --slug <name> — rc 1: commit the file or fix the ignore rule; rc 2: index unreadable, FLAG PROME-self"
+      ],
+      [
+        "advisory",
+        "MEMORY.md hot-index length (root step 1d)",
+        true,
+        "rc=0\n       full output: /tmp/tmpmtk490xe/01-memory-md-hot-index-length-root-step-1d-.txt",
+        "rc 1 approaching / rc 2 over the 25,600 B auto-load cap — PROME rotates; never a desk's job"
+      ]
+    ],
+    "checker_output": "memory_index_check v2 — forward (index → committed file) + coverage (file → index)\n==============================================================================\n  0 slug(s) across both indexes · 0 in MEMORY.md · INDEX_COLD.md absent (normal pre-migration)\n  0 resolve to committed files · 0 committed memory file(s) on record\n\n  ✓ every index pointer resolves to a committed file, and every committed\n    file appears in exactly one index.\n\n  [HOT-INDEX SIZE]\n    ✓ MEMORY.md 15 bytes = 0% of the 25,600-byte cap (warn at 75%).\n\n  [SCOPED] gate limited to 1 named slug(s): 0 blocking.\n  [SCOPED] ⚠ 1 --slug name(s) appear in NEITHER index: finding_cato_probe\n           A memory with no index row is invisible at boot — add its one-line entry.\n\n❌ FAIL (--strict): 1 sync-breaking index condition(s).\n   An index loads at every agent boot, so a dangling row advertises a memory\n   whose file is absent on the other machine — and an UNINDEXED file is a\n   memory no agent will ever load. Commit the file (or fix the ignore rule for\n   the GITIGNORED class, or add the index row for UNINDEXED) and re-run.\n",
+    "tracked_memory": ""
+  }
+}

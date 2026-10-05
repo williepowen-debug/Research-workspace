@@ -2,7 +2,7 @@
 
 ## Current disposition
 
-**October 5 session close:** diagnosis delivered and owner response received through Will. CATO recommended bounded matcher/tests, document cleanup and explicit-read coverage repair; a changed historical-read contract remains a separate proposal. Local history now contains PROME's `39178712a` repair commit, but CATO has not reviewed its contents or tests, independently closed B8–B10, or observed the next cold boot. Runtime capability limits remain separate. [Latest disposition](#october-5-session-close--owner-response-and-resume-point). Orient and await Will; unrelated approvals survive untriggered.
+**October 5 commit review:** B8 matcher and B10 explicit-charter coverage CLOSED within the bounded repair scope at a441d4fa8; original saved log round-trips exactly in 12 pages and explicit mode assesses nine reads including both charters. B9's larger historical-reading cost remains; no live latency or complete archive-preservation certification. [Latest disposition](#october-5-commit-review--bounded-repair-acceptance). Await Will; unrelated approvals survive untriggered.
 
 ### October 4 diagnosis retained
 
@@ -237,3 +237,9 @@ At closeout, ordinary branch inspection found local HEAD `39178712a6369827c10c27
 
 
 **Closeout checks (October 5; also covers the continuing BRENT report):** verified all six weekday inputs exist/readable: PROME/DOCKET.tsv, PROME/GATES.tsv, PROME/WILL_QUEUE.md, CATO/CONTINUITY.md and the two continuing reports named in this closeout. Weekday check passed. Optional CATO STATUS/CALENDAR/workbook CATALYSTS remain absent and were omitted. Startup bytes: CATO AGENTS 6,465 / CHARTER 9,921 / CONTINUITY 19,395; root CLAUDE 24,199 / USER 4,626 / AGENTS 4,991, all below 32,550. Generic CATO read-cap remains rc2 CANNOT-EVALUATE because no local CLAUDE.md exists; not a pass. Orphan advisory named only WALTER registry bookmarks and PROME argus baseline, preserved and disclosed to Will; no CATO-authored outside packets or pending CATO files predated these closeout edits. Staged list empty. Scoped whitespace passed. No owner tests repeated for this documentation-only reconciliation; no STATUS, auto-memory, ledger or governing-figure replacement triggered conditional checks. Three exact CATO paths form delivery. Publication receipt belongs in-session; no claim of remote confirmation before safe-push's fresh fetch.
+
+## October 5 commit review — bounded repair acceptance
+
+Will requested review of today's recent PROME commits. [Full review, test inventory and independent probes](2026-10-05_1743_prome-commit-review.md) pins a441d4fa8 and checks the 39178712a repairs against the retained B8/B10 evidence. B8 CLOSED: original orchestration log expands exactly from the new compact view, 12 pages, with every identity/order/multiplicity preserved. B10 CLOSED: explicit root/local charter coverage passes the targeted suite and independent actual-perimeter invocation (nine assessed reads, two charters, no over-budget/over-cap/manifest defects; one rotation-due advisory).
+
+B9 remains a cost/contract question. This review does not accept a changed historical-read scope, certify all archival prose preservation, or infer live elapsed-time savings. No live boot, owner edits, sends or launches. The new review's separate PR1 concerns staged cap-policy consistency; it does not reopen B8/B10. Await Will or ordinary-use evidence rather than launch another acceptance boot.
