@@ -21,6 +21,8 @@ Monday priorities are the existing QQQ735P Oct5 sell-or-roll deadline, September
 
 Shipping intake reviewed 2026-10-05T13:48:24Z: four qualified signals recorded; no new price observation or threshold adjudication. Dated levels above retain their original observation times. Receipt and current duties: [LAST_COMPLETION](LAST_COMPLETION.md).
 
+Tanker-cost research 2026-10-05T14:13:08Z: public weekly assessments obtained; latest market observations October1/2, insurance September25. No daily feed or registered threshold update. Current receipt: LAST_COMPLETION.md.
+
 ## MISSION
 
 Routing + receiving-layer readiness; domain agents own evidence, state and judgment. COP retired. Charter IDENTITY governs.

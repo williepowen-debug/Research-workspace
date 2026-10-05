@@ -1,3 +1,7 @@
+## 2026-10-05T14:13:08Z — tanker-cost follow-up; light-closeout — full deferred
+
+Will-directed bounded research recovered Baltic/Gibson public weekly assessments and a historical Reuters charter. SIG-W-20261005-005; three packets, no gate or monitoring installation. Direct-Hormuz judgment caveat and dated insurance retained; publication pending.
+
 ## 2026-10-05T13:48:24Z — shipping intake; light-closeout — full deferred
 
 BM-20261005-01 closed 5/5; four PRIORITY signals, thirteen handoffs, one duplicate story and one retained no-action item. No gate change. BRENT active: three subtree commits deferred; publication deferred under concurrent foreign work. Boot PARTIAL gaps and approvals unchanged. Evidence: research/2026-10-05_shipping-transcript-triage.md.
