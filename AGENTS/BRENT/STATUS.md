@@ -1,5 +1,7 @@
 # BRENT STATUS
 
+**Live-deployment follow-up 2026-10-04 23:02 ET:** unresolved. This session has no Claude routine/RemoteTrigger CRUD or readback capability; no live prompt or connector changed. Exact four-routine manual handoff and normal-run acceptance criteria are in the [CATO correction report](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et). Saved repair remains complete; live deployment and first-run acceptance remain separate. No registered state moved.
+
 **Correction closeout 2026-10-04 22:48 ET:** CATO BU1–BU7 dispositioned. Parser/IATA/OPEC/Riyadh surfaces repaired; saved routines corrected. Live prompt/connectors require Will's UI action. No registered state moved. → [report](audits/2026-10-04_cato-correction/REPORT.md)
 
 **Last real data refresh: 2026-10-04 21:44 ET — scoped to Sunday-evening tape + new WALTER items:** named-contract vendor quotes 21:33 ET (forming Globex session, NOT settles) · Reuters 22:02Z attack-headline snapshot · G7 primary statement · Bloomberg licensed republications for Qatar LNG / Iraq VLCC · FALCON own FIRMS pull. Earlier today: OPEC Secretariat 4 Oct statements + EIA STEO COPS_OPEC (9/9 vintage). Everything else below is **2026-10-02 PM vintage — scoped:** settle-window proxies (NOT CME) · CFTC 9/29 · FRED spot 9/29 · GIE 9/30 · ATA Aug · Yanbu 9/30 · incident review. Not re-verified: WPSR beyond wk-9/25, retail diesel, JWC, rigs beyond 10/2.

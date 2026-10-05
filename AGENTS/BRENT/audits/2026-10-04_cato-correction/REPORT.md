@@ -32,4 +32,34 @@
 3. **OPEC physical effect:** a matched participant-level deliverability/counterfactual, not an OPEC-only aggregate, is needed to quantify barrels. The Oct 6 STEO updates the OPEC context but does not by itself close the non-OPEC coverage gap.
 4. **Riyadh:** an Aramco/Saudi/counting source establishing facility, actual throughput loss, duration and affected units is needed before materiality can be assessed.
 
+## Live-deployment follow-up — 2026-10-04 23:02 ET
+
+**Disposition: UNRESOLVED — exact capability blocker reproduced.** This session's callable-tool manifest has no Claude `RemoteTrigger` or routine list/get/update/export tool. The automation tools present are for ChatGPT Pages/Sites and cannot address Claude routines. The installed `claude` CLI exposes background-agent and MCP management but no `routines` command; `claude agents --json` lists background sessions only, and `claude mcp list` contains no RemoteTrigger/routine server. Therefore this session cannot read, mutate, save, reopen or export/refetch any of the four live routine objects. No live setting changed and no live-deployment verification is claimed.
+
+### Shortest complete manual handoff
+
+Open `https://claude.ai/code/routines`. For each row, open the exact routine ID, replace **prompt only** with the linked file, preserve schedule/model/repository/permissions/allowed tools and all unrelated settings, save, reopen, and copy/export the live object for comparison.
+
+| Routine | ID | Exact replacement prompt | Intended SHA-256 |
+|---|---|---|---|
+| BRENT Monday Market Open | `trig_01DHTJWiUSVYXY9vUeto57qr` | [after_monday.txt](../2026-10-02_routine-install/after_monday.txt) | `0ef41c90ae9d270e850ad49311bf6003c17c3232e899c5e96b19d0ef5379a679` |
+| BRENT Wednesday EIA | `trig_014CDR4kjWtc29mYxXspGAHF` | [after_wednesday.txt](../2026-10-02_routine-install/after_wednesday.txt) | `7661136cc643482bafb6bcfb4ba57f70963dd32043c6cd9c256a3bd41f5ce508` |
+| BRENT Thursday EIA fallback | `trig_01ALYRXtjDGbfHeubqdvyJdf` | [after_thursday.txt](../2026-10-02_routine-install/after_thursday.txt) | `0ff0bf2627d1e8eff6e57ec9509883c0acd82cb412f90fd83bbddc559bd76c63` |
+| BRENT Friday Close | `trig_01GBVYAq5TwPc6JQ4hbfYYMe` | [after_friday.txt](../2026-10-02_routine-install/after_friday.txt) | `68e0cd26f0f8952cda91ea125f5ea1cccfb33fa910a32cda9bb1eb3b1a1ab070` |
+
+On **Thursday only**, remove these six connectors/integrations: **Gmail, Claude_Docs, Google_Drive, Quartr, Claude_Code_Remote, Canva**. After saving, reopen and verify the connector list is empty. For all four, hash the exported prompt bytes or compare them byte-for-byte with the linked after-image; a UI success toast is not verification.
+
+### State separation and normal-run acceptance
+
+- **Saved-file repair:** complete and independently re-read this follow-up; all four full hashes above reproduce.
+- **Verified live deployment:** unresolved until the four reopened/exported live prompts match and Thursday reopens with zero connectors.
+- **First-run acceptance:** pending and separate from deployment. Do not launch an extra run. The next normal runs must show:
+  - **Mon 10/5:** normal Monday output uses current repo-owned thresholds and records the full fresh-fetch Git receipt.
+  - **Wed 10/7:** the wk-10/2 WPSR core observation is recorded once, with missing fields disclosed rather than substituted.
+  - **Thu 10/8:** if Wednesday already recorded the core week, output says `NO NEW CORE OBSERVATION` **and still checks/records later supporting files** without duplicating the core print.
+  - **Fri 10/9:** after the scheduled 16:15 ET start, the routine reads the COT as-of 10/6 if published and records the full fresh-fetch receipt.
+  - **Wed 10/14 → Thu 10/15 holiday pair:** Wednesday reports `PENDING PUBLICATION`; Thursday reads wk-10/9 after the noon release and does not duplicate Wednesday state.
+
+**Closeout boundary:** this follow-up changed deployment documentation only. The ledger nudge was reviewed; `REGISTRY.tsv`, `COT_VINTAGES.tsv`, `INCIDENTS.tsv`, `TRADE.md` and `LESSONS_INDEX.tsv` were not re-stamped because no registered state, observation, incident, position or lesson changed.
+
 Stop condition met: BU1–BU7 dispositioned; no wider audit opened.

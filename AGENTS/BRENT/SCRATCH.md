@@ -1,45 +1,39 @@
-# BRENT SCRATCH — October 4, 2026 (CATO BU1–BU7 bounded correction; 22:28–22:48 ET)
+# BRENT SCRATCH — October 4, 2026 (CATO live-deployment follow-up; 22:56–23:02 ET)
 
 ## CHANGES SINCE LAST SESSION
 
-- CATO supplied four parser/routine counterexamples and challenged two October 4 research inferences. No new market observation arrived during this correction pass.
-- IATA's August passenger report was already available: global RPK −0.8% YoY, ASK +0.3%, load factor 85.1%; the contraction was concentrated, with ex-Middle-East RPK +0.6%.
+- No new market, registered-line, gate, prediction, thesis or trade observation.
+- The requested live deployment could not be performed: this session exposes no Claude routine/RemoteTrigger list, read, update or export control.
 
 ## WHAT I DID THIS SESSION
 
-- Repaired the EIA local parser to identify consolidated tables from their columns, not date spelling. Missing YoY no longer absorbs WoW or trailing historical percentages; legacy April fields remain supported.
-- Extended regression coverage for CATO's September 2, September 30, April 29 and missing-YoY/trailing-percentage cases. Full BRENT suite: 70/70 pass; local September 30 report: complete.
-- Withdrew the unsupported Riyadh “1% of Saudi crude runs” and small/not-material outage claim. Current state: 126 kb/d nameplate is ~3.8% of EIA's dated 2023 Saudi domestic capacity; capacity is not throughput or confirmed loss, so damage and materiality remain unknown.
-- Preserved the verified OPEC+ November hold but removed “90% paper,” “near-zero physical” and zero-expectations-gap precision. EIA `COPS_OPEC` is September-vintage and OPEC-only; it omits Russia, Kazakhstan and Oman and cannot quantify the seven-country counterfactual.
-- Ingested the official August IATA release into the demand composite.
-- Corrected all four saved routine prompts: one root Git protocol only; Thursday checks later supporting files after an already-recorded core week. Live cloud objects remain unverified because no routine-control tool is exposed.
-- Full disposition record: [CATO correction report](audits/2026-10-04_cato-correction/REPORT.md). No threshold, gate, prediction, thesis version or trade state moved. **$0.**
+- Started from pushed commit `7a3829487`; preserved its repairs and concurrent WALTER/PROME work.
+- Audited the callable tool manifest, `claude --help`, `claude agents --json` and `claude mcp list`. Available automation tools address ChatGPT Pages/Sites, not Claude routines; the CLI has no routines command; no routine MCP server is configured.
+- Independently re-read and hashed all four corrected after-images. Their full SHA-256 values reproduce the registry.
+- Added the exact four-ID manual deployment table, prompt links, Thursday connector-removal list, live readback requirements and normal-run acceptance criteria to [the correction report](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et).
+- No extra acceptance run was launched. **$0.**
 
 ## NEXT SESSION (dated, future-verifiable)
 
-1. **Will UI action:** at `claude.ai/code/routines`, replace all four live prompts with their corrected saved after-images; on Thursday remove Gmail, Claude_Docs, Google_Drive, Quartr, Claude_Code_Remote and Canva; save, reopen and export/re-fetch for comparison.
-2. **Mon 10/5:** Aramco November OSPs; seek an Aramco/Saudi/counting source for the Riyadh facility and actual throughput loss. FIRMS/fire evidence alone does not establish an outage.
-3. **Tue 10/6:** October STEO. Update the OPEC-only context, but do not treat it as coverage of Russia/Kazakhstan/Oman.
-4. **Wed 10/7:** WPSR. Parser is ready; missing YoY must remain a coverage finding.
-5. **Routine acceptance remains separate:** Thu 10/8, Fri 10/9, Wed 10/14 and Thu 10/15 after live configuration reconciliation.
+1. **Manual deployment:** at `https://claude.ai/code/routines`, replace each of the four prompts from the report table; preserve unrelated settings. On Thursday remove Gmail, Claude_Docs, Google_Drive, Quartr, Claude_Code_Remote and Canva.
+2. **Configuration verification:** save, reopen and export/re-fetch every live object; compare prompt bytes/hashes and confirm Thursday has zero connectors. Until then deployment is UNRESOLVED.
+3. **Normal-run acceptance only:** Mon 10/5 current thresholds/full Git receipt; Wed 10/7 one wk-10/2 core record; Thu 10/8 no duplicate core but supporting checks continue; Fri 10/9 current COT if posted; Wed 10/14 pending-publication → Thu 10/15 one wk-10/9 read.
 
 ## OPEN THREADS / WATCHES
 
-- **Routine state:** saved prompts repaired; live prompt and connector state unresolved pending Will's UI work. First-run behavior untested.
-- **OPEC physical effect:** requires a matched participant-level counterfactual; no precision is defensible from `COPS_OPEC` alone.
-- **Riyadh:** facility/damage/throughput/duration/yield unknown; no materiality grade.
-- **Existing market obligations unchanged:** Mon OSP/broker confirmation; Tue STEO/SPR bids; Wed WPSR; Fri COT and USO $150C sell-or-roll rail.
+- Saved-file repair: complete.
+- Verified live deployment: unresolved on missing routine-control capability / Will UI action.
+- First-run acceptance: pending after verified deployment; no synthetic run authorized.
+- Existing OPEC/Riyadh evidence dependencies and market calendar are unchanged from the prior closeout.
 
 ## POSITION DECISIONS PENDING
 
-- **USO Oct-09 $150C ×1:** recorded open as of 10/1; Will's hand; sell-or-roll by Fri 10/9 15:00 ET. Broker truth after 10/1 remains unverified.
-- **VLO 1 sh:** VLO-HELD-01 unchanged; no Riyadh or OPEC inference moves it.
-- **USO 37 sh:** hand-managed. **WQ-192 STAND DOWN** remains binding.
+- Unchanged: USO Oct-09 $150C ×1 remains Will's hand with Fri 10/9 15:00 ET sell-or-roll rail; VLO 1 sh and USO 37 sh unchanged; WQ-192 STAND DOWN binds.
 
 ## MAIL STATE
 
-- Inbox unchanged; no new packet processed. Two board-log correction receipts supersede the October 4 Riyadh/OPEC overclaims.
+- No inbox packet consumed or authored. Unrelated WALTER/PROME dirty files remain untouched.
 
 ## WORKBOOK HEALTH
 
-- Frozen `workbook/KB.tsv` malformed historical rows remain untouched. `LESSONS_INDEX.tsv` substantive reconciliation remains a separate owed item; this bounded pass did not expand into it.
+- No ledger, registered line or workbook value changed. Frozen files remain untouched.
