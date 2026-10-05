@@ -1,12 +1,12 @@
 # BRENT — NEXUS Brief
 
-> **Session closeout 2026-10-05 10:29 ET — C6 (b) SCOPED-PARTIAL; STATUS commit `cbefb6676`.** Re-verified handoff and live inbox count: WALTER -005/-006 pending joint freight/WTI review, first research priority next session. Dated checks, maintenance debt, owner boundaries and deployment/paid-data deferrals saved in SCRATCH. No market, broker, source-integration or incident refresh; morning evidence retains its own vintage. Session closed, no unattended work started.
+> **Closeout corrected 2026-10-05 10:36 ET — C6 (b) SCOPED-PARTIAL; STATUS commit `882b58877`.** Audit repaired WALTER deferred intake/archive, graded-catalyst retention and the relayed research-priority decision record. -005/-006 are now receipted/archived as deferred; joint freight/WTI research remains first next-session work. [Audit](audits/2026-10-05_closeout-check/REPORT.md). No market, broker or incident refresh; morning observations retain their dates. All approvals and deployment/push deferrals stand.
 
 > **2026-10-05 10:04 ET — C6 (b) SCOPED-PARTIAL; prior data-refresh STATUS commit `701cd4e2f`.** Re-verified: 09:32–34 futures/09:44 equity quotes, EIA wk-9/25, lagged FRED, GIE gas day 10/3, JWC index/PDF, current Saudi/export/policy sources, TERRY card ×1 addenda and WALTER intake. Not re-verified: current broker holdings, official settlements, COT/rig grades, old incident facts and older SENDING rows. Prior banners/text preserved in [before-image](archive/2026-10-05_market-open_before_NEXUS_BRIEF.md): 24,189 UTF-8 payload bytes, crc32 `0acca8d2`; payload after first standalone separator, outer whitespace stripped. Deployment remains parked.
 
 **Status:** 🟠 Weaker crude-spike case; product tightness persists. Phase 2 unconfirmed; stand-down maintained.
 **Domain:** Oil/energy physical balance, structure and transmission.
-**As of:** closeout 2026-10-05 10:29 ET | STATUS commit: `cbefb6676` (unchanged). Market observations 09:32–44 ET; supplemental retrieval 09:50 ET. [Owed-task handoff](SCRATCH.md) · [evidence](research/2026-10-05_market-open/REPORT.md).
+**As of:** closeout correction 2026-10-05 10:36 ET | STATUS commit: `882b58877`. Market observations 09:32–44 ET; supplemental retrieval 09:50 ET unchanged. [Owed tasks](SCRATCH.md) · [evidence](research/2026-10-05_market-open/REPORT.md).
 
 ## CROSS-DOMAIN
 
@@ -60,7 +60,7 @@ September 15 owner review: [incident matrix](research/2026-09-15_backlog-review/
 
 ## NEXT DECISION POINT
 
-**First research priority:** WALTER -005/-006 jointly: reconcile public tanker costs and evaluate transmission to WTI/USO. Will-directed manual tracking; source integration still owed. WALTER collects; BRENT interprets. Exposure scope covers shares/calls, without a new quantity/expiry receipt. No trade or automatic-monitoring authority.
+**First research priority:** complete deferred WALTER -005/-006 freight/WTI research; packets are under `inbox/WALTER/processed/` with deferred receipts. Intake complete, source integration owed. WALTER collects; BRENT interprets. Shares/calls scope does not establish quantity/expiry. No trade or automatic-monitoring authority.
 
 **Tue 10/6** WQ-252 crack-month sitting + SPR exchange bids close + Oct STEO · **Wed 10/7 WPSR** (Cushing after F-b; distillate exports) · **Fri 10/9** COT #9 + USO $150C expiry (Will) · **Thu 10/15 BRT-31 first print** (w/e 10/9). *(Aramco November OSP and OPEC+ November hold both graded 10/4; Saudi physical-loss confirmation remains event-driven.)*
 
