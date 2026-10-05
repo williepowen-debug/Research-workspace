@@ -1,3 +1,7 @@
+## 2026-10-05T14:21:52Z — Will-directed tanker watch and USO explanation; light-closeout — full deferred
+
+Manual tracking ACTIVE, weekly primary freight + event-driven intake; next-boot STATUS instruction and state/review files.006 to BRENT, info HAWK/FALCON/TERRY/RED/PROME. Both shares/calls confirmed; current quantities unconfirmed. No trade/threshold/automation activation.
+
 ## 2026-10-05T14:13:08Z — tanker-cost follow-up; light-closeout — full deferred
 
 Will-directed bounded research recovered Baltic/Gibson public weekly assessments and a historical Reuters charter. SIG-W-20261005-005; three packets, no gate or monitoring installation. Direct-Hormuz judgment caveat and dated insurance retained; publication pending.

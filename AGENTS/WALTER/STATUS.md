@@ -29,6 +29,8 @@ Routing + receiving-layer readiness; domain agents own evidence, state and judgm
 
 ## STATE POINTERS
 
+**Active manual source watch — Will-directed October5:** at every boot read [tanker-cost-watch/WATCH.md](research/tanker-cost-watch/WATCH.md) and STATE.csv; check due dates, collect due weekly freight or new event evidence and route material changes. USO relevance must pass through WTI; costs and flows are separate. No unattended scheduler.
+
 Current work and next-owner actions: `LAST_COMPLETION.md`. Sweep evidence: `research/2026-09-17_iran-full-sweep.md`. Design directory: `design/STATE.md`. Durable triggers: `MEMORY.md`.
 
 ## NETWORK AWARENESS

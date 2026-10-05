@@ -1,0 +1,10 @@
+metric,observation,observation_time,basis,source,next_review,status
+TD3C,1221893 USD/day TCE; WS1145,2026-10-02,Baltic standard round trip,../2026-10-05_tanker-costs/observations.csv,2026-10-09,verified publisher assessment; not fixture
+TD34,823313 USD/day TCE; WS761.43,2026-10-02,Baltic Gulf of Oman-China,../2026-10-05_tanker-costs/observations.csv,2026-10-09,verified publisher assessment; not whole Hormuz chain
+Hormuz AWRP,6-9 percent hull value,2026-09-25 report; quote time unspecified,Reuters quoted range; unmatched cover,https://www.insurancejournal.com/news/international/2026/09/25/886769.htm,2026-10-09,dated; current negotiated premium unknown
+WTI curve,CLX26 89.62; CLZ26 88.32; Nov-Dec +1.30 USD/bbl,2026-10-05T09:34:50-04:00,named vendor contracts; WALTER subtraction of BRENT observations,AGENTS/BRENT/research/2026-10-05_market-open/REPORT.md,next existing BRENT market review,owner-sourced; not fresh pull or settlement
+Brent-WTI,December BZZ26-CLZ26 +13.31 USD/bbl,2026-10-05T09:34:50-04:00,same-month vendor quotes; inverse of BRENT WTI-Brent,AGENTS/BRENT/research/2026-10-05_market-open/REPORT.md,next existing BRENT market review,one snapshot; no attribution or constant USO conversion
+Cushing,24.301 million bbl; weekly +0.553 million,week ending 2026-09-25,EIA via BRENT owner capture,AGENTS/BRENT/research/2026-10-05_market-open/REPORT.md,2026-10-07T10:30:00-04:00,dated weekly evidence; not current-day inventory
+US exports,NOT extracted in this watch,UNKNOWN,needs owner report series and period,AGENTS/BRENT/research/2026-10-05_market-open/REPORT.md,next existing BRENT market review,open evidence gap; not zero exports
+USO current contracts,UNKNOWN,2026-10-05 retrieval,issuer holdings page returned no holdings rows,https://www.uscfinvestments.com/holdings/uso,before position-specific inference,methodology verified; current weights/roll dates not retrieved
+Will USO holdings,Both shares and calls confirmed; sizes/strikes/expiry not refreshed,2026-10-05 user message,October1 quantity mirror not assumed current,current conversation; owner TERRY,before position-specific management,no trade/position update inferred
