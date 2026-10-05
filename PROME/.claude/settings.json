@@ -5,9 +5,9 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash \"$(git rev-parse --show-toplevel)/scripts/session_banner.sh\"",
-            "timeout": 30,
-            "statusMessage": "Boot banner: repo sync + env flags (flag-not-force)"
+            "command": "R=$(git rev-parse --show-toplevel 2>/dev/null) || exit 0; [ -f \"$R/PROME/ROSTER.md\" ] || exit 0; bash \"$R/scripts/session_banner.sh\"",
+            "timeout": 150,
+            "statusMessage": "Boot banner: repo sync + env flags"
           }
         ]
       }
@@ -17,7 +17,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash \"$(git rev-parse --show-toplevel)/PROME/tools/hooks/prompt_clock.sh\"",
+            "command": "R=$(git rev-parse --show-toplevel 2>/dev/null) || exit 0; [ -f \"$R/PROME/ROSTER.md\" ] || exit 0; bash \"$R/PROME/tools/hooks/prompt_clock.sh\"",
             "timeout": 5,
             "statusMessage": "Clock stamp"
           }
@@ -30,21 +30,21 @@
         "hooks": [
           {
             "type": "command",
-            "command": "f=\"$(git rev-parse --show-toplevel 2>/dev/null)/PROME/tools/hooks/git_guard.py\"; if [ -f \"$f\" ]; then python3 \"$f\"; else echo \"\u26a0\ufe0f git_guard: hook script not found at $f \u2014 ALLOWING (fail-open, WQ-244)\" >&2; fi",
+            "command": "R=$(git rev-parse --show-toplevel 2>/dev/null) || exit 0; [ -f \"$R/PROME/ROSTER.md\" ] || exit 0; python3 \"$R/PROME/tools/hooks/git_guard.py\"",
             "timeout": 5,
-            "statusMessage": "git guard (root canon prohibitions)"
+            "statusMessage": "Git guard (root canon prohibitions)"
           },
           {
             "type": "command",
-            "command": "f=\"$(git rev-parse --show-toplevel 2>/dev/null)/PROME/tools/hooks/commit_subject_guard.py\"; if [ -f \"$f\" ]; then python3 \"$f\"; else echo \"\u26a0\ufe0f commit_subject_guard: hook script not found at $f \u2014 ALLOWING (fail-open, WQ-244)\" >&2; fi",
+            "command": "R=$(git rev-parse --show-toplevel 2>/dev/null) || exit 0; [ -f \"$R/PROME/ROSTER.md\" ] || exit 0; hp=$(git config --get core.hooksPath 2>/dev/null); if [ \"$hp\" = scripts/githooks ] && [ -x \"$R/scripts/githooks/commit-msg\" ]; then exit 0; fi; python3 \"$R/PROME/tools/hooks/commit_subject_guard.py\"",
             "timeout": 5,
-            "statusMessage": "commit-subject guard (root 4d, \u2264100 chars \u2014 BLOCKING, WQ-244)"
+            "statusMessage": "Subject guard fallback when native hooks unverified"
           },
           {
             "type": "command",
-            "command": "f=\"$(git rev-parse --show-toplevel 2>/dev/null)/PROME/tools/hooks/pipeline_rc_block.py\"; if [ -f \"$f\" ]; then python3 \"$f\"; else echo \"\u26a0\ufe0f pipeline_rc_block: hook script not found at $f \u2014 ALLOWING (fail-open, WQ-244)\" >&2; fi",
+            "command": "R=$(git rev-parse --show-toplevel 2>/dev/null) || exit 0; [ -f \"$R/PROME/ROSTER.md\" ] || exit 0; python3 \"$R/PROME/tools/hooks/pipeline_rc_block.py\"",
             "timeout": 5,
-            "statusMessage": "pipeline-rc guard (BLOCKING, WQ-244)"
+            "statusMessage": "Pipeline rc advisory (additionalContext; no approval)"
           }
         ]
       }
@@ -55,9 +55,9 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"$(git rev-parse --show-toplevel)/PROME/tools/hooks/forge_validate.py\"",
+            "command": "R=$(git rev-parse --show-toplevel 2>/dev/null) || exit 0; [ -f \"$R/PROME/ROSTER.md\" ] || exit 0; python3 \"$R/PROME/tools/hooks/forge_validate.py\"",
             "timeout": 90,
-            "statusMessage": "post-save validator (FORGE/STATUS \u00b7 GATES \u00b7 DOCKET)"
+            "statusMessage": "Post-save validator (FORGE/STATUS, GATES, DOCKET)"
           }
         ]
       }

@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Local ancestry safeguard, bypassable with --no-verify; not a force-flag detector.
+set -u
+while read -r local_ref local_sha remote_ref remote_sha; do
+    [[ "$remote_sha" =~ ^0+$ ]] && continue
+    if [[ "$local_sha" =~ ^0+$ ]]; then
+        echo "pre-push: deletion of $remote_ref refused" >&2
+        exit 1
+    fi
+    if git merge-base --is-ancestor "$remote_sha" "$local_sha"; then
+        continue
+    else
+        rc=$?
+    fi
+    if [ "$rc" -eq 1 ]; then
+        echo "pre-push: non-fast-forward update of $remote_ref refused; use scripts/safe-push.sh" >&2
+    else
+        echo "pre-push: ancestry of $remote_ref UNKNOWN (git rc=$rc); push refused" >&2
+    fi
+    exit 1
+done
+exit 0

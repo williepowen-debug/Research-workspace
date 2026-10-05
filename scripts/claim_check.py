@@ -477,7 +477,8 @@ def selftest():
         got = len(check_text("<selftest>", line, {"weekday"}, 2026))
         ok = got == want
         fails += not ok
-        print(f"  {'\u2713' if ok else '\u2717'} expect {want} got {got}  {line!r}")
+        mark = "\u2713" if ok else "\u2717"
+        print(f"  {mark} expect {want} got {got}  {line!r}")
     if fails:
         print(f"CLAIM-CHECK SELFTEST \u2717 {fails}/{len(SELFTEST)} case(s) FAILED \u2014 do not trust the weekday check")
         return 1

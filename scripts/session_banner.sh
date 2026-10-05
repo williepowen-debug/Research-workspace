@@ -7,12 +7,26 @@ set -u
 
 cd "$(git rev-parse --show-toplevel 2>/dev/null)" || exit 0
 
+HOOKS_RC=0
+bash scripts/install-git-hooks.sh >&2 || HOOKS_RC=$?
+
+# Repair shallow history only; checkout state and environment remain owner work.
+UNSHALLOW_RC=0
+SHALLOW=$(git rev-parse --is-shallow-repository 2>/dev/null) || SHALLOW=unknown
+if [ "$SHALLOW" = true ]; then
+    timeout 120 git fetch --unshallow origin --quiet 2>/dev/null
+    UNSHALLOW_RC=$?
+fi
 # Fetch = read-only vs working tree; timeout so a dead network never blocks boot.
 timeout 10 git fetch origin --quiet 2>/dev/null
 FETCH_RC=$?
+SHALLOW=$(git rev-parse --is-shallow-repository 2>/dev/null) || SHALLOW=unknown
 
 set -- $(git rev-list --left-right --count HEAD...origin/master 2>/dev/null || echo "? ?")
 AHEAD="${1:-?}"; BEHIND="${2:-?}"
+if [ "$UNSHALLOW_RC" -ne 0 ] || [ "$SHALLOW" != false ]; then
+    AHEAD=?; BEHIND=?
+fi
 
 # ⚠️ THE RC MUST NOT GO THROUGH A PIPE. Until 2026-09-12 this line read
 #   DIRTY=$(git status --porcelain 2>/dev/null | wc -l | tr -d ' ')
@@ -33,6 +47,9 @@ if [ -f scripts/env_doctor.py ]; then
 fi
 
 FLAGS=""
+[ "$HOOKS_RC" -ne 0 ] && FLAGS="$FLAGS [NATIVE HOOKS UNVERIFIED — installer failed rc=$HOOKS_RC; resolve existing hook configuration]"
+[ "$UNSHALLOW_RC" -ne 0 ] && FLAGS="$FLAGS [UNSHALLOW FAILED rc=$UNSHALLOW_RC — ancestry UNVERIFIED]"
+[ "$SHALLOW" != false ] && FLAGS="$FLAGS [SHALLOW STATE $SHALLOW — ancestry UNVERIFIED]"
 [ "$FETCH_RC" -ne 0 ] && FLAGS="$FLAGS [FETCH FAILED — sync state UNVERIFIED; do not trust 0/0]"
 # "?" = rev-list couldn't resolve HEAD...origin/master (renamed branch/ref, unborn
 # HEAD): sync state is UNKNOWN, never let it fall through to the all-clear line.

@@ -42,6 +42,10 @@
 
 set -euo pipefail
 
+root=$(git rev-parse --show-toplevel) || exit 1
+cd "$root"
+bash scripts/install-git-hooks.sh || { echo 'ABORT: native hook coverage unverified.'; exit 1; }
+
 REMOTE=origin
 BRANCH=master
 DRY_RUN=0

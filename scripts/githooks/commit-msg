@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+# Local safeguard, bypassable with --no-verify. Root Git Protocol 4d.
+# Comments are retained conservatively: editor/strip cleanup can cause a false block.
+set -eu
+command -v python3 >/dev/null || { echo 'commit-msg: Python 3 unavailable; subject cannot be checked' >&2; exit 1; }
+exec python3 - "${1:?commit-msg: message file required}" <<'PY'
+from pathlib import Path
+import subprocess
+import sys
+import unicodedata
+
+try:
+    message = Path(sys.argv[1]).read_bytes()
+    # Do not strip comments: -m/-F and verbatim cleanup can retain them.
+    cleaned = subprocess.run(["git", "stripspace"], input=message,
+                             capture_output=True, check=True).stdout.decode("utf-8")
+    paragraph = []
+    for line in cleaned.split("\n"):
+        if not line.strip():
+            if paragraph:
+                break
+            continue
+        paragraph.append(line.rstrip())
+    subject = unicodedata.normalize("NFC", " ".join(paragraph).rstrip())
+except (OSError, UnicodeError, subprocess.SubprocessError) as exc:
+    print("commit-msg: subject check failed: " + str(exc), file=sys.stderr)
+    sys.exit(1)
+
+if len(subject) > 100:
+    print("commit-msg: subject is %d characters; root Git Protocol 4d allows 100. "
+          "Move receipts and provenance after a blank line." % len(subject), file=sys.stderr)
+    sys.exit(1)
+PY

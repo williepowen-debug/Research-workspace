@@ -226,16 +226,24 @@ def _handle(data, guard_path=_GUARD):
         cmd = (ti or {}).get("command", "") or ""
         hit, msg, _ = verdict(cmd, guard_path)
     except Exception as e:
-        sys.stderr.write(f"⚠️ pipeline_rc_block: {type(e).__name__}: {e} — ALLOWING without a check. "
-                         "Fail-open, DECLARED (WQ-244).\n")
+        _advise(f"⚠️ pipeline_rc_block: {type(e).__name__}: {e} — ALLOWING without a check. "
+                "Fail-open, DECLARED (WQ-244).\n")
         return 0
     if hit:
         # WQ-263 (Will 2026-09-22 19:37 / 19:51 ET, "approved" + "with CATO fix"): this wrapper is ADVISORY. Five
         # independent reads found a false positive in every round, the last ones in the wrapper's OWN compensation
         # layer, so a confirmed hit now WARNS and exits 0. The diagnosis text is unchanged; only the verdict moved.
-        sys.stderr.write(msg.replace("   ⚠️ WARNING ONLY — nothing is blocked; re-run it however you like.\n", "") + _ADVISE_LINE)
+        _advise(msg.replace("   ⚠️ WARNING ONLY — nothing is blocked; re-run it however you like.\n", "") + _ADVISE_LINE)
         return 0
     return 0
+
+
+def _advise(text):
+    # Exit-0 stderr is debug-only in Claude; context must travel on stdout.
+    # No permissionDecision: an advisory must preserve the normal permission flow.
+    sys.stderr.write(text)
+    sys.stdout.write(json.dumps({"hookSpecificOutput": {
+        "hookEventName": "PreToolUse", "additionalContext": text}}) + "\n")
 
 
 EXPECTED_DRILLS = 36
@@ -249,13 +257,22 @@ def selftest():
         # hit, 0 = it must not — and a confirmed hit must now surface as an ADVISORY on stderr with rc 0.
         import io, contextlib
         err = io.StringIO()
+        out = io.StringIO()
         try:
-            with contextlib.redirect_stderr(err):
+            with contextlib.redirect_stderr(err), contextlib.redirect_stdout(out):
                 rc = _handle(data, path)
         except Exception as e:
             rc = f"raised {type(e).__name__}"
         advised = _ADVISE_LINE in err.getvalue()
         ok = (rc == 0 and advised) if want == 2 else (rc == 0 and not advised)
+        if err.getvalue():
+            try:
+                payload = json.loads(out.getvalue())["hookSpecificOutput"]
+                ok = ok and payload == {"hookEventName": "PreToolUse", "additionalContext": err.getvalue()}
+            except (ValueError, KeyError):
+                ok = False
+        else:
+            ok = ok and not out.getvalue()
         print(f"  {'✓' if ok else '✗'} rc={rc!s:4} advised={advised!s:5} want={'hit→advisory' if want == 2 else 'no-hit'}  {label}")
         if not ok: fails.append(label)
     bash = lambda c: {"tool_name": "Bash", "tool_input": {"command": c}}
@@ -297,9 +314,10 @@ def selftest():
     drill("r5 ❌4: the anti-pattern inside a heredoc BODY (writing a note) -> 0", 0, bash("cat > note.md <<'EOF'\npython3 scripts/validate_all.py 2>&1 | tail -1; echo $?\nEOF"))
     drill("r5 ❌5: ls scripts/{read_cap_check,validate_all}.py | wc -l; echo $? — brace EXPANSION -> 0", 0, bash('ls scripts/{read_cap_check,validate_all}.py | wc -l; echo $?'))
     drill("r5 ❌9: command python3 <gate> | tail; echo $? — `command X` runs X -> 2", 2, bash('command python3 scripts/validate_all.py 2>&1 | tail -1; echo $?'))
-    drill("r5 ❌10 PERIMETER (DAEDALUS recogniser): gate |& tail; echo $? -> 0 today, declared", 0, bash('python3 scripts/validate_all.py |& tail -1; echo $?'))
+    # The shared recognizer now understands |&; keep the real hit covered.
+    drill("gate |& tail; echo $? -> advisory", 2, bash('python3 scripts/validate_all.py |& tail -1; echo $?'))
     # --explain honesty (⚠️17): a suppressed raw hit is REPORTED
-    _, _, why = verdict('grep -rn "read_cap_check" AGENTS/ | head -20; echo $?')
+    _, _, why = verdict('python3 scripts/validate_all.py | tail -1; git status; echo $?')
     ok = why.startswith("raw hit suppressed"); print(f"  {'✓' if ok else '✗'} verdict() names a suppressed raw hit ({why[:60]!r})")
     if not ok: fails.append("suppression not reported")
     _, _, why = verdict('ls -la | head -3; echo $?')
@@ -325,7 +343,7 @@ def main(argv):
     try:
         data = json.load(sys.stdin)
     except Exception as e:
-        sys.stderr.write(f"⚠️ pipeline_rc_block: could not parse hook input ({type(e).__name__}) — ALLOWING. Fail-open, declared.\n")
+        _advise(f"⚠️ pipeline_rc_block: could not parse hook input ({type(e).__name__}) — ALLOWING. Fail-open, declared.\n")
         return 0
     return _handle(data)
 
