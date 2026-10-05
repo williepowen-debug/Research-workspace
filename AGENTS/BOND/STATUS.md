@@ -1,7 +1,7 @@
 # BOND — Status
 
 **Agent:** BOND · **Domain:** US bond-market structure (+ MBS/FHLB + EU rates per the 6/27 extension; + the sovereign-credibility instrument set per the 8/10 forum — scope in `CLAUDE.md`)
-**Last session:** 2026-10-05T10:38:00-04:00 — live primary-source research refresh; WQ-357/L608 written read delivered. Official rates through 10/2, credit through 10/2, dealer as-of 9/23, vendor quotes stamped individually. Full read: `analysis/2026-10-05_WQ-357_rebound-research.md`.
+**Last session:** 2026-10-05T11:01:48-04:00 — Will-requested session closeout addendum. Research commit ff0992bf1; PROME consumed L608 and exact WQ-385 artifact versions in 518baafa2. Official Treasury and credit observations through 10/2; dealer as-of 9/23; intraday quotes retain their capture timestamps.
 
 > 📕 **HOT/COLD SPLIT — NOTHING DELETED.** Pre-rotation snapshots (`domain/sources/`): **`2026-10-01_STATUS_full-snapshot_pre-refresh-rotation.md` (crc32 `735109674`)** · `2026-09-29b_…pre-intraday-rotation` (`2392892541`) · `2026-09-29_…pre-row4-rotation` (`2518256656`) · `2026-09-28e` (`2516058915`) · `2026-09-28d` (`319142979`) · `2026-09-28c` (`1800580424`) · `2026-09-28b` (`2552442073`) · older `2026-09-28_` · `2026-09-24`. **Budget 32,550 B; rotate-tier ≥75% — rotate, never raise.**
 
@@ -11,7 +11,7 @@
 
 ## 🔴 TOP OF FILE — what changed since 9/29
 
-**CURRENT PRIORITY — 2026-10-05T10:38:00-04:00. WQ-357 LATER stands: hold recorded sleeve on TERRY path C to 10/14, NO-ADD unchanged. L608 written rebound research delivered to PROME today; no new trade recommendation.** Latest completed evidence shows policy-path relief and Friday credit tightening, while long real yields remain high. Composite 17/35 unchanged; kill MET remains operational, funding window UNGRADED, inventory is not proof of warehousing. WQ-339 is card drafting only; WQ-360 fill unapproved. Research → `analysis/2026-10-05_WQ-357_rebound-research.md`.
+**CURRENT PRIORITY — 2026-10-05T11:01:48-04:00. Session closing at Will’s request. WQ-357 LATER stands: hold recorded sleeve on TERRY path C to 10/14, NO-ADD unchanged. L608 written rebound research consumed by PROME (518baafa2); no new trade recommendation.** Latest completed evidence shows policy-path relief and Friday credit tightening, while long real yields remain high. Composite 17/35 unchanged; kill MET remains operational, funding window UNGRADED, inventory is not proof of warehousing. WQ-339 is card drafting only; WQ-360 fill unapproved. Research → `analysis/2026-10-05_WQ-357_rebound-research.md`.
 
 **Fresh results:** HY 310 / CCC 1202 / IG 85bp [10/2]; Treasury 10Y 5.28 / 30Y 5.63%, real 10Y 2.92% [10/2]. The 10/1 F2 read is OFF-THE-RUN (newest-vintage share 0%); the full $6B cap was accepted and a durable RED packet filed. TGA draw verified at $90.347B, but the 10/1 operation settled 10/2, so the proposed same-day buyback attribution fails. Jefferson speech does not explicitly attribute yields to term premium; prior wording corrected. Prior event detail preserved at `domain/sources/2026-10-05_STATUS.md_pre-live-refresh` and dated reports.
 

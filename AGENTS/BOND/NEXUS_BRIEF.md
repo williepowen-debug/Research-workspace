@@ -1,5 +1,5 @@
 # BOND → NEXUS — standing rates pointers
-**Last refresh:** 2026-10-05T10:55:48-04:00 — primary-source research and current records reconciled.
+**Last refresh:** 2026-10-05T11:01:48-04:00 — final session closeout; PROME consumption verified at 518baafa2.
 
 <!-- bond-state: thesis=v1.2.11; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=HOLD-NO-ADD -->
 
@@ -13,4 +13,4 @@ WQ-357 LATER: TERRY path C to 10/14, NO-ADD. Kill MET remains an operational rec
 - Predictions: thesis/PREDICTIONS.tsv; next owed registration 10/21. Benchmark taxonomy is closed at primary; mandate / second-holder review remains 10/6.
 - WQ-385 bounded owner receipt: reports/2026-10-05_WQ-385-runtime-receipt.json; dated PROME delivery names remaining closeout/acknowledgement steps. Actual closeout results: registry/CLOSEOUT_LOG.tsv and dated transcript.
 
-Funding → LIQUID; foreign flows → ZHAO/SAM; EU rates → HANS; equity/vol → HENRY/VIOLET; trade construction → TERRY. Paid coverage and fresh broker truth remain unavailable. Claude-native tools are not exposed. Codex progress notification to the exact PROME task was accepted; recipient consumption and independent review are not inferred.
+Funding → LIQUID; foreign flows → ZHAO/SAM; EU rates → HANS; equity/vol → HENRY/VIOLET; trade construction → TERRY. Paid coverage and fresh broker truth remain unavailable. Claude-native tools are not exposed. Codex final notice was accepted; PROME verified exact receipt/research/source versions in 518baafa2 and closed its L608. RED/WALTER acknowledgement remains unverified; wider runtime compatibility is not claimed. Final closeout state and remaining obligations → RECEIPT.md and SCRATCH.md.
