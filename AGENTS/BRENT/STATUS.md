@@ -1,5 +1,7 @@
 # BRENT STATUS
 
+**Boot 2026-10-05 09:24 ET — SCOPED-PARTIAL:** boot.py completed rc=2: Threshold Monitor, Instrument Check and Ledger Staleness report FINDINGS. Network retry recovered most feeds; LNG/VG ungraded, JWC stamp overdue, tanker quotes stale pre-open. No fresh capital grade or approval. Research vintages below retained. [Boot receipt, priorities and capabilities](SCRATCH.md). Routine deployment remains parked.
+
 **Next-session research 2026-10-04 23:25 ET:** Aramco cut November Arab Light into Asia from **−$2 to −$5/bbl** vs Oman/Dubai, raised NW Europe and Mediterranean prices **$3**, and left U.S. prices unchanged. The regional split points to placement/logistics pressure rather than uniform Saudi scarcity and strengthens the “no confirmed new oil loss” read. It does not prove Petroline throughput or zero loss; Riyadh/Khurais damage remains unknown. Reuters 02:40 GMT: Brent **$101.59**, WTI **$90.12**, live quotes, not settles. Nothing registered moved. → [evidence](research/2026-10-04_aramco-november-osp/NOTE.md)
 
 **Routine deployment is parked** at the [CATO correction handoff](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et) until a Claude session has working routine controls. Saved repair is complete; live deployment and first-run acceptance remain unresolved and separate.
