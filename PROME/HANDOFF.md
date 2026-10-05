@@ -1,6 +1,6 @@
 # PROME HANDOFF
 
-**Resume:** [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here). Five live entries. Archive index: `ls PROME/archive/HANDOFF*`; latest rotation [October 4 Codex archive](archive/HANDOFF_2026-10-04_codex.md) preserves the October 3 afternoon entry verbatim with a block crc. Older sittings remain in the daily memory and existing archives.
+**Resume:** [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here), starting with the [October 5 systems closeout](reports/2026-10-05_reviewer-bundle-2-closeout.md). Five historical live entries below. Archive index: `ls PROME/archive/HANDOFF*`; latest rotation [October 4 Codex archive](archive/HANDOFF_2026-10-04_codex.md) preserves the October 3 afternoon entry verbatim with a block crc. Older sittings remain in the daily memory and existing archives.
 
 **October 5 fresh-context bounce (Will-directed):** start at [bounce receipt](reports/2026-10-05_1140-bounce-closeout.md). HENRY/VULCAN/TERRY remain approval-blocked; closeout notices accepted but no release receipts or verified termination. BOND delivered and closed. WQ-385 instruction review passed; Claude/mixed tests remain deferred to a suitable verified Claude Code session. [Compatibility record](reports/2026-10-05_runtime-compatibility-results.md) owns authority/results. Existing approvals and installed permissions persist; future OpenAI spawns explicitly Sol (USER.md). No duplicate owner or unattended launch.
 
