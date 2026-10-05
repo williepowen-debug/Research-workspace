@@ -1,5 +1,7 @@
 # BRENT STATUS
 
+**Correction closeout 2026-10-04 22:48 ET:** CATO BU1–BU7 dispositioned. Parser/IATA/OPEC/Riyadh surfaces repaired; saved routines corrected. Live prompt/connectors require Will's UI action. No registered state moved. → [report](audits/2026-10-04_cato-correction/REPORT.md)
+
 **Last real data refresh: 2026-10-04 21:44 ET — scoped to Sunday-evening tape + new WALTER items:** named-contract vendor quotes 21:33 ET (forming Globex session, NOT settles) · Reuters 22:02Z attack-headline snapshot · G7 primary statement · Bloomberg licensed republications for Qatar LNG / Iraq VLCC · FALCON own FIRMS pull. Earlier today: OPEC Secretariat 4 Oct statements + EIA STEO COPS_OPEC (9/9 vintage). Everything else below is **2026-10-02 PM vintage — scoped:** settle-window proxies (NOT CME) · CFTC 9/29 · FRED spot 9/29 · GIE 9/30 · ATA Aug · Yanbu 9/30 · incident review. Not re-verified: WPSR beyond wk-9/25, retail diesel, JWC, rigs beyond 10/2.
 
 ---
@@ -7,16 +9,11 @@
 # ⚡ CURRENT STATE — *read this first. Dated blocks follow newest first; STANDING STATE is the hot half; ARCHIVE INDEX is history.*
 
 
-## October 4 (Sun, 21:44 ET) — **ATTACK-HEADLINE RALLY FULLY FADED; NO CONFIRMED NEW OIL LOSS**
+## October 4 — **NO CONFIRMED NEW OIL LOSS; OPEC+ NOVEMBER HOLD VERIFIED**
 
-**Live, forming Globex session — vendor quotes, NOT settlements:** Dec Brent (`BZZ26.NYM`) **$101.67** vs Friday vendor ref $102.25 (−$0.58 / −0.57% [EST]) · Nov WTI (`CLX26.NYM`) **$90.24** vs $91.11 (−$0.87 / −0.95% [EST]) · Nov ULSD **$4.52/gal** vs $4.50 · Nov gas **$3.03** vs $3.04. Reuters captured the initial Houthi-claim rally at 18:02 ET: Brent **$103.06**, WTI **$91.57**. By 21:33 both were below Friday references ⇒ the headline premium faded ~**$1.39 / $1.33** from Reuters' snapshot. This does not prove no damage; it matches the evidence state: **fresh FIRMS heat, facility/cause UNKNOWN, no counting source and no measured production loss.** Cross-asset: ES +0.18% [EST], NQ +0.47%, gold +0.51%, silver +2.78%, 10Y-note price firmer. → [evening note](research/2026-10-04_evening-futures/NOTE.md)
+Sunday named-contract vendor quotes (not settles) ended below Friday references after the attack-headline rally; FIRMS heat had no identified facility or measured loss, so BG-02 stayed NOT MET. OPEC's statement verified a second monthly paper-quota hold. EIA's 0.02 mb/d series is September-vintage and OPEC-only, so the seven-country physical effect and any event-window price gap remain unquantified. Riyadh fire damage/throughput/materiality remain UNKNOWN. Nothing fired; THESIS v5.11, WQ-192 and all registered lines stayed unchanged. **$0.** → [evening evidence](research/2026-10-04_evening-futures/NOTE.md) · [OPEC/Riyadh correction](research/2026-10-04_opec-november-grade/NOTE.md)
 
-**Adjudications:** FALCON's new 10/03–04 FIRMS heat at 25.252N 48.103E is real (peak 229 MW), but **BG-02 R1 NOT MET** and the lapsed instance does not reopen · Iraq's ~2M-bbl state-tanker cargo still sails **through Hormuz** (marketing reach, NOT bypass capacity) · Qatar winter warning is **JERA CEO buyer-side expectation**, not QatarEnergy confirmation (FM Asia→Nov, Europe→Dec; Sep Qatar/UAE transit still 80% below Feb per Kpler/Bloomberg) · **IEA 325M is cumulative**, not a new Sunday release; live G7 item is the remaining 100M over four months with diesel front-loaded. **Nothing fires; THESIS v5.11 and WQ-192 STAND DOWN unchanged; $0.**
-
-
-## October 4 (Sun, 11:4x ET by `date`; BRENT L0 spawn, D:L297) — **OPEC+ NOVEMBER HELD, outcome (1) · near-zero physical**
-
-**OPEC+ graded at the Secretariat primary** (`pr-detail/1891616-4-october-2026.html`): November held at Sept/Oct required production, the **2nd consecutive hold**; next meeting **1 Nov**. **Spare re-pulled: 0.02 mb/d** Oct–Dec [CONF EIA STEO API 10/4; 9/9 vintage; one agency] ⇒ near-zero physical. Expected; **no registered line moved.** **Riyadh fire 10/03:** damage UNKNOWN; not material to VLO-HELD-01. **Diesel ban denied** ⇒ B1 odds lower (TERRY). **$0.** → [grade note](research/2026-10-04_opec-november-grade/NOTE.md)
+> **Rotated 2026-10-04 22:5x ET:** the detailed evening-tape and OPEC blocks → [archive](archive/STATUS_dated_2026-10-04_evening-and-opec.md), 2,424 UTF-8 payload bytes, crc32 `b3924829`; payload rule recorded in the archive header.
 
 > **Rotated 2026-10-04 (verbatim):** the 10/2 ARMED block (items 1–3 all DONE) + the [October 2 PM block](archive/STATUS_dated_2026-10-04_rotation.md) + prior-reconcile parentheticals and three provenance sentences (DATED-HISTORY row, COT row), 3695 B crc32 `31c9d64b`. Live from them: COT #8 NOT-SPENT (standing row) · 10/2 crack $97.97 ⇒ VLO-HELD-01 A NOT FIRED (TERRY `1857731ff`) · Yanbu port strike 10/01.
 
@@ -92,12 +89,12 @@
 *25 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
 
 <!-- CALENDAR:END -->
-**✅ FIRED & GRADED (full graded text retained in `docket/CATALYSTS.tsv`, not restated here):** Jul 22 EIA wk-7/17 · Jul 24 CPC leg-(b) · Jul 24 COT+Baker Hughes · Jul 28 OPEC JMMC · Jul 29 EIA wk-7/24 · Jul 29 FOMC · Jul 31 COT as-of 7/28 · Jul 31 Russia diesel-ban expiry · Aug 2 OPEC+ September quotas · Aug 3 the frozen behavioral settle test · Aug 5 EIA wk-7/31 · Aug 7 COT as-of 8/4.
+**✅ FIRED & GRADED history:** canonical text remains in `docket/CATALYSTS.tsv`; it is not duplicated here.
 
 ---
 
 ## SUMMARY FOR WILL
 
-*(2026-10-04, 22:21 ET; operational sweep, no new market refresh)* At 21:33 ET Brent Dec was $101.67 and WTI Nov $90.24, both below Friday vendor references after the early Saudi-attack move faded. Satellite heat is real; facility and loss remain unconfirmed. OPEC+ held November output; no registered line moved. The saved EIA wk-9/25 report is complete—the parser was broken and is repaired. **Sweep residuals:** 486 deep-archive relative-link failures, three malformed frozen-KB rows, four aged ACTIVE incidents, and broker truth after 10/1. → [audit](audits/2026-10-04_file-sweep/REPORT.md). USO Oct-09 $150C still needs Monday broker confirmation and reaches its sell-or-roll deadline Friday. No thesis, gate, prediction or trade state moved. **$0.**
+*(2026-10-04, 22:48 ET; correction closeout, no new market refresh)* OPEC+ November hold verified; physical/price effect unquantified. Riyadh loss/materiality unknown. EIA parser and IATA August repaired/ingested; 70 tests pass. Saved routines corrected; live prompts/connectors require Will's UI reconciliation. USO Oct-09 $150C still needs broker confirmation and reaches its sell-or-roll deadline Friday. [Correction report](audits/2026-10-04_cato-correction/REPORT.md). No registered state moved. **$0.**
 
 *(Prior: 10/2 16:55 → [archive](archive/STATUS_summary-for-will_2026-10-02_PM.md), 894 B crc32 `8063742b`; 10/2 midday → [archive](archive/STATUS_dated_2026-10-02_midday.md); 10/2 AM → [archive](archive/STATUS_dated_2026-10-02_AM.md); 10/1 + 9/30 → [archive](archive/STATUS_summary-for-will_2026-10-01_and_09-30.md), 1699 B crc32 `4ef5c581`.)*

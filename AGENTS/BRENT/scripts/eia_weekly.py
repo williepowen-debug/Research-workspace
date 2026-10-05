@@ -89,6 +89,65 @@ def find_latest_eia_file():
     return max(candidates)[2] if candidates else None
 
 
+def markdown_tables(text):
+    """Yield (headers, rows) for ordinary pipe-delimited Markdown tables."""
+    lines = text.splitlines()
+    index = 0
+    while index + 1 < len(lines):
+        header = lines[index].strip()
+        divider = lines[index + 1].strip()
+        if not header.startswith("|") or not divider.startswith("|"):
+            index += 1
+            continue
+        headers = [cell.replace("**", "").strip() for cell in header.strip("|").split("|")]
+        dividers = [cell.strip() for cell in divider.strip("|").split("|")]
+        if len(headers) != len(dividers) or not all(re.fullmatch(r":?-{3,}:?", cell) for cell in dividers):
+            index += 1
+            continue
+        rows = []
+        index += 2
+        while index < len(lines) and lines[index].strip().startswith("|"):
+            cells = [cell.replace("**", "").strip() for cell in lines[index].strip().strip("|").split("|")]
+            if len(cells) == len(headers):
+                rows.append(cells)
+            index += 1
+        yield headers, rows
+
+
+def structured_current_table(text):
+    """Return the positively identified current/prior/WoW table, if present.
+
+    Date wording is deliberately irrelevant. A table qualifies only when its
+    columns identify a current observation, a prior observation and a WoW
+    comparison. This keeps natural-language-dated legacy tables on the legacy
+    reader while allowing both ISO- and prose-dated consolidated reports.
+    """
+    candidates = []
+    for headers, rows in markdown_tables(text):
+        normalized = [re.sub(r"\s+", " ", cell).strip().lower() for cell in headers]
+        if not normalized or normalized[0] != "metric":
+            continue
+        current = next(
+            (i for i, cell in enumerate(normalized)
+             if cell == "current" or cell.startswith("this week") or re.fullmatch(r"wk[- ][^ ]+", cell)),
+            None,
+        )
+        prior = next(
+            (i for i, cell in enumerate(normalized)
+             if cell.startswith("prior") or (i != current and re.fullmatch(r"wk[- ][^ ]+", cell))),
+            None,
+        )
+        wow = next((i for i, cell in enumerate(normalized) if cell == "wow" or cell.startswith("wow ")), None)
+        if None in (current, prior, wow) or not (current < prior < wow):
+            continue
+        yoy = next((i for i, cell in enumerate(normalized) if "yoy" in cell), None)
+        candidates.append((len(rows), headers, rows, current, prior, wow, yoy))
+    if not candidates:
+        return None
+    _, headers, rows, current, prior, wow, yoy = max(candidates, key=lambda item: item[0])
+    return headers, rows, current, prior, wow, yoy
+
+
 def extract_metrics(text):
     """Parse an eia_*.md report into headline metrics.
 
@@ -235,14 +294,17 @@ def extract_metrics(text):
     if m:
         metrics["spr"] = float(m.group(1))
 
-    # ---- Week ending ----
+    # ---- Week ending (metadata only; never selects the table schema) ----
     # Legacy: `**Week ending:** April 10, 2026`
     m = re.search(r"\*\*Week ending:\*\* (\w+ \d+,? \d+)", text)
     if m:
         metrics["week_ending"] = m.group(1)
     else:
-        # Consolidated H1: `# EIA WPSR — Week Ending April 24, 2026`
-        m = re.search(r"[Ww]eek [Ee]nding\s+(\w+ \d+,? \d+)", text)
+        # Consolidated H1, either natural-language or ISO date.
+        m = re.search(
+            r"[Ww]eek [Ee]nding\s+((?:[A-Z][a-z]+ \d{1,2},? \d{4})|(?:\d{4}-\d{2}-\d{2}))",
+            text,
+        )
         if m:
             metrics["week_ending"] = m.group(1)
 
@@ -256,24 +318,18 @@ def extract_metrics(text):
         m = re.search(r"\*\*Released:\*\*\s+(\w+ \d+,? \d+)", text)
         if m:
             metrics["report_date"] = m.group(1)
+        else:
+            m = re.search(r"(?i)(?:\*\*Released:\*\*|\breleased)\s+(\d{4}-\d{2}-\d{2})\b", text)
+            if m:
+                metrics["report_date"] = m.group(1)
 
-    # September consolidated reports: current/prior/WoW columns, never prose
-    # mentions of older values. The autonomous writer has emitted both an ISO
-    # header (`Week Ending 2026-09-25`) and a natural-language header
-    # (`week ending September 25, 2026`), so accept both shapes.
-    modern = re.search(r"(?im)^# .*Week Ending (\d{4}-\d{2}-\d{2})\s*$", text)
-    if not modern:
-        modern = re.search(
-            r"(?im)^# .*week ending ([A-Z][a-z]+ \d{1,2}, \d{4})\s*$",
-            text,
-        )
-    if modern:
-        metrics = {"week_ending": modern.group(1)}
-        released = re.search(r"\*\*Released:\*\*\s*(\d{4}-\d{2}-\d{2})", text)
-        if not released:
-            released = re.search(r"(?i)\breleased\s+(\d{4}-\d{2}-\d{2})\b", text)
-        if released:
-            metrics["report_date"] = released.group(1)
+    # Consolidated current/prior/WoW tables. Schema selection is structural,
+    # not date-spelling based. Once positively identified, the table replaces
+    # legacy numeric matches so older prose cannot leak into the current row.
+    structured = structured_current_table(text)
+    if structured:
+        _, rows, current_index, _, wow_index, yoy_index = structured
+        table_metrics = {}
         labels = {
             "commercial crude (excl spr)": "commercial_crude",
             "commercial crude oil (ex-spr)": "commercial_crude",
@@ -287,31 +343,29 @@ def extract_metrics(text):
             "distillate inventories": "distillate",
             "refinery utilization": "util",
         }
-        for line in text.splitlines():
-            if not line.startswith("|"):
-                continue
-            cells = [cell.replace("**", "").strip() for cell in line.strip("|").split("|")]
-            if len(cells) < 4:
-                continue
+        for cells in rows:
             key = labels.get(cells[0].lower())
             if key:
                 unit = "%" if key == "util" else "M"
-                current = re.match(r"([+−-]?[\d,.]+)" + unit, cells[1])
+                current = re.match(r"~?([+−-]?[\d,.]+)\s*" + unit, cells[current_index])
                 if current:
-                    metrics[key] = float(current.group(1).replace(",", "").replace("−", "-"))
+                    table_metrics[key] = float(current.group(1).replace(",", "").replace("−", "-"))
                 if key != "util":
-                    wow = re.match(r"([+−-]?[\d,.]+)M", cells[3])
+                    wow = re.match(r"([+−-]?[\d,.]+)\s*([MK])", cells[wow_index])
                     if wow:
-                        metrics[key + "_wow"] = float(wow.group(1).replace(",", "").replace("−", "-"))
+                        value = float(wow.group(1).replace(",", "").replace("−", "-"))
+                        if wow.group(2) == "K":
+                            value /= 1000.0
+                        table_metrics[key + "_wow"] = value
             if cells[0].lower() in {
                 "motor gasoline product supplied (4-wk avg)",
                 "gasoline product supplied, 4-wk avg",
-            }:
-                for cell in reversed(cells[1:]):
-                    yoy = re.search(r"([+−-]?[\d.]+)%\s*(?:YoY|year over year)?", cell, re.I)
-                    if yoy:
-                        metrics["gas_yoy_latest"] = float(yoy.group(1).replace("−", "-"))
-                        break
+            } and yoy_index is not None:
+                yoy = re.search(r"([+−-]?[\d.]+)%", cells[yoy_index])
+                if yoy:
+                    table_metrics["gas_yoy_latest"] = float(yoy.group(1).replace("−", "-"))
+        metadata = {key: metrics[key] for key in ("week_ending", "report_date") if key in metrics}
+        metrics = {**metadata, **table_metrics}
     observed = parse_date(metrics.get("week_ending"))
     if observed:
         metrics["week_ending"] = observed.isoformat()

@@ -11,7 +11,7 @@
 |---|---|---|
 | **1** | **The Q4 path was NOT decided. Outcome (3).** The statement decides **October only** and hands November/December to the **4 Oct 2026** meeting. | The Phase-2 flush timeline is **unmoved** — an undecided Q4 is the information state the row started in. Nothing to re-time. |
 | **2** | **Increments did NOT continue into October.** The 8/2 statement's **+188 kb/d** September adjustment was **not repeated**. Outcome (2) is **refuted for October**. | The "OPEC+ has already paused" relay framing was **directionally right and scope-wrong**. It is not a Q4 pause. |
-| **3** | **At ~0.02 mb/d effective spare the whole decision is near-zero physical, in BOTH directions.** 188 kb/d is **~9× the spare** ⇒ the September increment was ~90% paper; not repeating it removes ~nothing. | **This is the position-relevant sentence.** Do not size anything off an OPEC+ supply narrative this quarter. A **cut** would be real; a hold and a rise are announcements. |
+| **3** | **Capacity evidence was population-mismatched.** EIA `COPS_OPEC` estimated ~0.02 mb/d for OPEC, but the seven-country decision also included Russia, Kazakhstan and Oman. | **Correction 2026-10-04:** the series is conditional OPEC context only; it cannot quantify the seven-country physical counterfactual. Do not size from it without matched participant data. |
 | **4** | **The group runs a MONTH-BY-MONTH mechanism and takes no quarterly decisions at these meetings.** Both 8/2 and 9/6 decide exactly one month and set the next monthly date. | The row's own premise ("THIS IS THE ACTUAL Q4 DECISION POINT") was **wrong and could not have been right**. Never register another row as "the meeting where the quarter is decided." |
 | **5** | **Nothing registered moved.** M1−M3 **+$7.13** [9/4 closes] vs the +$3.50 floor · Cushing **22.51M** [wk-8/28] vs <20M · BRT-26 **449** vs 457 · BRT-04 mechanism unchanged · COT-FUEL-35B **NO-VERDICT**. | No gate arms, no falsifier fires, no re-sizing follows from this event. |
 
@@ -52,12 +52,8 @@
 
 ⛔ **The one way to misgrade this is to call it (1).** The letter says in terms: **"Do not read a deferral as a pause."** The hold is a *fact about October*; the *pause* is a claim about Q4 that no sentence in the statement supports.
 
-### The deliverability gate, applied — it binds all three and it is the whole read
-Effective OPEC spare **~0.02 mb/d (~20 kb/d)** [EIA STEO `COPS_OPEC` 2026Q3/Q4 = 0.020, graded at the primary 2026-08-13]. ⚠️ **Single-agency** — neither the August MOMR nor the August IEA OMR published a spare figure; stop describing it as consensus.
-
-- **188 kb/d ÷ ~20 kb/d ≈ 9×.** The September increment was **~90% paper** when it was announced.
-- ⇒ **Not repeating it for October removes ~nothing physical.**
-- ⇒ **The October hold is a near-zero physical event in both directions.** Reading it as genuine Q4 supply support is the **LESSONS #10 error with the sign flipped** — the letter warned about outcome (2); the same trap sits under (3).
+### The deliverability gate, corrected 2026-10-04
+EIA `COPS_OPEC` estimated OPEC spare at **~0.02 mb/d** [2026-08-13 vintage]. It was single-agency and, more importantly, did not cover participating Russia, Kazakhstan or Oman. The earlier arithmetic that treated this OPEC-only denominator as the seven-country deliverability set is withdrawn. The verified grade remains the October paper-quota hold; its physical effect was not quantified. A matched participant-level counterfactual is required before assigning a delivered-barrel share.
 
 ---
 
@@ -89,7 +85,7 @@ Effective OPEC spare **~0.02 mb/d (~20 kb/d)** [EIA STEO `COPS_OPEC` 2026Q3/Q4 =
 **XLE $65C Sep-30 ×2 — WQ-168 row ⑦ (DOCKET L252/L253). The OPEC+ outcome does NOT change the oil read for this leg.**
 
 1. The 9/8 test needs **XLE ≥ $66.50 on the close**. From the **9/4 close $64.06** that is **+3.81% in ONE session** (9/7 is Labor Day, so 9/8 is the very next session) — roughly a 3σ day for XLE in this regime.
-2. The outcome is a **near-zero physical event** (§3): mildly supportive in narrative, **zero barrels either way**. It is not a repricing catalyst; it cannot carry +3.81%.
+2. The outcome is a verified paper-quota hold; its physical and repricing effects were not measured (§3). It did not move a registered line.
 3. **Transmission is weak by this desk's own measurement:** `#BRENT-02` demoted XLE at **12% / 38.6% / negative** Brent-move capture across three sessions in both directions.
 4. **It is already visible in the tape:** across 9/1→9/4 `BZX26` rose **94.65 → 96.28 (+1.7%)** while **XLE fell 64.77 → 64.06 (−1.1%)**. Crude up, XLE down, same four sessions — the demotion thesis running live, into the meeting.
 5. **`^OVX` 49.13 → 44.96 (−8.5%) over the same four sessions** — falling crude vol compresses the extrinsic on a near-ATM long call, working against the leg independent of direction.
@@ -106,8 +102,7 @@ The check named **13 governing lessons, 12 of them NOT CITED.** Most are off-poi
 
 **⚠️ L11 + L16 vs THE DELIVERABILITY GATE — THE TENSION, STATED RATHER THAN LEFT SILENT.**
 **L11:** *"Phase 2 price crash triggers at ANNOUNCEMENT, not delivery… the market is forward-looking. Waiting for barrels means missing 80% of the move."* **L16:** *"exit on announcement, not delivery."*
-**These cut against how §1/§3 read.** The deliverability gate concludes the October hold is *"mostly announcement"* and therefore near-zero — while L11/L16 say **an announcement is exactly what moves price.**
-**⇒ HONOURED, NOT OVERRIDDEN, and the reconciliation is a scope distinction the grade must carry:** the deliverability gate is a claim about **BARRELS**, not about **PRICE**. **"~90% paper" means the physical supply path is unchanged; it does NOT mean the tape cannot react.** L11 governs the price channel and is untouched here. ⇒ ⛔ **Do not read this grade as "the market will ignore it."** It says the **supply thesis** does not move — **the Phase-2 flush timeline is unmoved because no barrels changed hands**, which is a statement about the mechanism, not a forecast of Monday's tape. `[[finding_market_ignoring_is_not_market_refuting]]`
+**Correction 2026-10-04:** the original deliverability inference used an OPEC-only series for a seven-country decision and therefore did not establish the physical counterfactual. L11/L16 still require price and barrels to be evaluated separately. No event-window pricing test was run here, and no physical quantity should be inferred from the paper-quota grade alone. `[[finding_market_ignoring_is_not_market_refuting]]`
 
 **✅ L17 — CITED AND IT BINDS THIS GRADE HARDER THAN ANY OTHER.** *"The OPEC+ '5-6M bpd spare' narrative is wrong — never accept cartel self-reporting without cross-referencing."* The entire deliverability read rests on **one number from one agency** (EIA STEO `COPS_OPEC`), and **neither the August MOMR nor the August IEA OMR published a spare figure.** **L17's instruction is to pressure-test, and I could not — the cross-reference does not exist this cycle.** ⇒ **the ~0.02 mb/d figure is the weakest load-bearing input in this grade, and the 10/4 successor row requires a fresh pull rather than carrying it forward.**
 

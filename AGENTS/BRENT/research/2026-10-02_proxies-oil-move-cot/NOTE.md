@@ -84,7 +84,7 @@ The overnight low was 96.61 (01:00 ET), so "slipped >1% early, then rebounded" (
 
 The seven-country group sets **November only**. My letter grades on the Secretariat statement text: (1) a second consecutive hold, the first point at which "pause" is a defensible word; (2) a resumed increment; (3) no decision.
 - **Pre-meeting sourcing** (Bloomberg, two delegates, via investingLive / Yahoo / Investing.com): **hold November quotas steady**; "no final decision"; "most continue to produce below their output targets". That is delegate sourcing, never a grade.
-- **My pre-registered read:** outcome (1), a hold, is the base case. Even a resumed increment would be mostly paper. Producers below target plus the Gulf export disruption mean deliverability, not quota, binds. The **spare-capacity figure must be re-pulled at a primary before grading** (the 0.02 mb/d EIA STEO is 8/13 vintage; the Oct STEO lands Tue 10/6).
+- **My pre-registered read:** outcome (1), a hold, is the base case. Deliverability may bind, but the OPEC-only `COPS_OPEC` series does not cover participating Russia, Kazakhstan or Oman and cannot quantify the seven-country physical counterfactual. The **spare-capacity figure must be re-pulled at a primary before grading** and its population matched to the decision set (the 0.02 mb/d EIA STEO is 8/13 vintage; the Oct STEO lands Tue 10/6).
 - **What would surprise:** an increment with a deliverability claim attached, or an explicit statement on Gulf export restoration (Saudi/Kuwait/Iraq).
 - **Resolution:** at opec.org (root-page entry; press-releases.html 403s) within 2 trading days. A BRENT session on Mon 10/5 should grade it, or PROME should spawn one.
 

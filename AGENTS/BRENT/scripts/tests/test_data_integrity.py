@@ -171,6 +171,55 @@ class EIAIntegrity(unittest.TestCase):
         self.assertEqual(m['gas_yoy_latest'], 0.3)
         self.assertEqual(eia.coverage(m, today=date(2026, 10, 4)), [])
 
+    def test_table_schema_not_date_spelling_preserves_legacy_april_report(self):
+        report = (eia.EIA_DATA_DIR / 'eia_2026-04-29.md').read_text()
+        self.assertIsNone(eia.structured_current_table(report))
+        m = eia.extract_metrics(report)
+        expected = {
+            'commercial_crude': 459.5,
+            'commercial_crude_wow': -6.2,
+            'cushing': 29.8,
+            'cushing_wow': -0.796,
+            'gasoline_wow': -6.1,
+            'gas_yoy_latest': 1.2,
+            'util': 89.6,
+            'week_ending': '2026-04-24',
+            'report_date': '2026-04-29',
+        }
+        for key, value in expected.items():
+            self.assertEqual(m[key], value, key)
+
+    def test_iso_dated_september_table_still_reproduces_all_supported_fields(self):
+        report = (eia.EIA_DATA_DIR / 'eia_2026-09-02.md').read_text()
+        self.assertIsNotNone(eia.structured_current_table(report))
+        m = eia.extract_metrics(report)
+        expected = {
+            'commercial_crude': 424.460, 'commercial_crude_wow': -4.450,
+            'cushing': 22.508, 'cushing_wow': 0.080,
+            'spr': 286.604, 'spr_wow': -3.122,
+            'gasoline': 205.669, 'gasoline_wow': -1.173,
+            'distillate': 104.187, 'distillate_wow': 0.796,
+            'util': 98.0, 'gas_yoy_latest': -1.6,
+        }
+        for key, value in expected.items():
+            self.assertEqual(m[key], value, key)
+
+    def test_missing_yoy_never_falls_back_to_wow_or_trailing_history(self):
+        report = (eia.EIA_DATA_DIR / 'eia_2026-09-30.md').read_text()
+        rows = report.splitlines()
+        for index, row in enumerate(rows):
+            if row.startswith('| **Gasoline product supplied, 4-wk avg**'):
+                rows[index] = ('| **Gasoline product supplied, 4-wk avg** | **8.721M b/d** | — '
+                               '| **+2.0% WoW** | UNKNOWN YoY |')
+                break
+        else:
+            self.fail('gasoline product-supplied row missing from fixture')
+        rows.append('Historical context only: gasoline demand was +9.9% YoY in 2024.')
+        m = eia.extract_metrics('\n'.join(rows))
+        self.assertNotIn('gas_yoy_latest', m)
+        self.assertIn('missing gas_yoy_latest', eia.coverage(m, today=date(2026, 10, 4)))
+        self.assertEqual(m['gasoline_wow'], -1.683)
+
     def test_conflicting_duplicates_remain_unusable(self):
         rows = [{'date': WEEK.isoformat(), 'value': v} for v in (1, 2, 1)]
         self.assertIsNone(eia.dated_values(rows)[WEEK])

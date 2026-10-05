@@ -1,45 +1,45 @@
-# BRENT SCRATCH — October 4, 2026 (Sunday evening boot + file-integrity sweep; 21:34–22:21 ET)
+# BRENT SCRATCH — October 4, 2026 (CATO BU1–BU7 bounded correction; 22:28–22:48 ET)
 
 ## CHANGES SINCE LAST SESSION
-- Futures reopened: crude initially rallied on the Houthi Saudi/Khurais claim, then fully faded below Friday vendor references by 21:33 ET; equities modestly green, gold/silver and Treasury futures firmer.
-- FALCON's own FIRMS pull establishes fresh heat at the 9/10 corridor spot, but the facility, cause and any production/throughput loss remain UNKNOWN.
-- Iraq's state-tanker VLCC is a commercial delivery change, not a Hormuz bypass. The viral IEA 325M figure is cumulative, not a fresh release.
-- Qatar's winter LNG warning is JERA CEO Yukio Kani's buyer-side expectation, not a QatarEnergy confirmation; force majeure is through November for Asia and December for Europe.
+
+- CATO supplied four parser/routine counterexamples and challenged two October 4 research inferences. No new market observation arrived during this correction pass.
+- IATA's August passenger report was already available: global RPK −0.8% YoY, ASK +0.3%, load factor 85.1%; the contraction was concentrated, with ex-Middle-East RPK +0.6%.
 
 ## WHAT I DID THIS SESSION
-- Ran full boot twice: sandbox run exposed DNS non-coverage; networked rerun completed. Live threshold board: Brent futures >$100; HY OAS 3.24% (10/1); retail gas $4.465 (9/28). EIA wk-9/25 complete. Boot remains FINDINGS because tanker-liveness is closed-market/stale, four ACTIVE incident rows need re-verification, and LESSONS_INDEX is stale.
-- Pulled named energy contracts and the equity/metals/rates futures complex at 21:33 ET; wrote [evening note](research/2026-10-04_evening-futures/NOTE.md).
-- Processed WALTER -016/-010/-011/-014: four board-log rows and four `git mv` archive moves. Corrections check passed (0 unreceipted).
-- Swept BRENT files for broken/stale/incomplete state. Fixed the EIA local reader's false-incomplete result for the complete saved wk-9/25 report and added a regression test; repaired nine broken local Markdown links; rotated the stale 10/2 STATUS summary and removed the already-graded OPEC+ event from NEXUS's next-decision block. Full record: [audit report](audits/2026-10-04_file-sweep/REPORT.md).
-- Structural checks found one protected defect: frozen `workbook/KB.tsv` has three malformed historical rows (109/114/117). It was not edited. Maintained TSVs, identifiers, corrections, catalyst view, prediction-due and receipt scans are clean within scope. A full recursive navigation scan found 486 deeper archive/evidence links with move-induced relative-path drift; hot surfaces + workbook archives are 183/183 valid.
-- Updated STATUS, TRACKER and NEXUS_BRIEF. No threshold, gate, prediction, thesis version or trade state moved. **$0.**
-- Git pull was prohibited: PROME and WALTER had uncommitted changes outside BRENT at boot. Local tree may not include an unpulled remote commit.
+
+- Repaired the EIA local parser to identify consolidated tables from their columns, not date spelling. Missing YoY no longer absorbs WoW or trailing historical percentages; legacy April fields remain supported.
+- Extended regression coverage for CATO's September 2, September 30, April 29 and missing-YoY/trailing-percentage cases. Full BRENT suite: 70/70 pass; local September 30 report: complete.
+- Withdrew the unsupported Riyadh “1% of Saudi crude runs” and small/not-material outage claim. Current state: 126 kb/d nameplate is ~3.8% of EIA's dated 2023 Saudi domestic capacity; capacity is not throughput or confirmed loss, so damage and materiality remain unknown.
+- Preserved the verified OPEC+ November hold but removed “90% paper,” “near-zero physical” and zero-expectations-gap precision. EIA `COPS_OPEC` is September-vintage and OPEC-only; it omits Russia, Kazakhstan and Oman and cannot quantify the seven-country counterfactual.
+- Ingested the official August IATA release into the demand composite.
+- Corrected all four saved routine prompts: one root Git protocol only; Thursday checks later supporting files after an already-recorded core week. Live cloud objects remain unverified because no routine-control tool is exposed.
+- Full disposition record: [CATO correction report](audits/2026-10-04_cato-correction/REPORT.md). No threshold, gate, prediction, thesis version or trade state moved. **$0.**
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **Mon 10/5:** Aramco November OSPs. Check for Aramco/MoE/SPA identification of the 25.252N 48.103E facility or a throughput/production statement; FIRMS alone never counts.
-2. **Mon 10/5 regular session:** confirm broker truth for USO Oct-09 $150C ×1 and VLO ×1; do not infer from the 10/1 capture.
-3. **Tue 10/6:** October STEO `COPS_OPEC`; WQ-252 crack-month sitting; SPR exchange bids close 12:00 ET.
-4. **Wed 10/7 10:30:** WPSR — Cushing, distillate stocks/exports, SPR draw.
-5. **~Thu 10/8:** China product-export guidance after Golden Week.
-6. **Fri 10/9:** USO $150C sell-or-roll hard stop 15:00 ET; COT-35B #9 (as-of 10/6) after ~15:30 ET.
-7. **Wed 10/14:** IEA OMR and VLO-HELD-01 leg-A suspension date; Thu 10/15 WPSR/BRT-31 first print.
-8. **Owed:** four ACTIVE incident rows >60d, nine other aged present-tense rows, and the distinct successor-event gaps named in the audit report; tanker-liveness human stamp; substantive LESSONS_INDEX reconciliation; TRADE/FORGE broker mirror after 10/1.
-9. **Routine acceptance:** observe first live runs Thu 10/8, Fri 10/9, Wed 10/14 and Thu 10/15; remove the Thursday routine's six default connectors in the UI; reset UTC schedules for EST on 11/1.
+
+1. **Will UI action:** at `claude.ai/code/routines`, replace all four live prompts with their corrected saved after-images; on Thursday remove Gmail, Claude_Docs, Google_Drive, Quartr, Claude_Code_Remote and Canva; save, reopen and export/re-fetch for comparison.
+2. **Mon 10/5:** Aramco November OSPs; seek an Aramco/Saudi/counting source for the Riyadh facility and actual throughput loss. FIRMS/fire evidence alone does not establish an outage.
+3. **Tue 10/6:** October STEO. Update the OPEC-only context, but do not treat it as coverage of Russia/Kazakhstan/Oman.
+4. **Wed 10/7:** WPSR. Parser is ready; missing YoY must remain a coverage finding.
+5. **Routine acceptance remains separate:** Thu 10/8, Fri 10/9, Wed 10/14 and Thu 10/15 after live configuration reconciliation.
 
 ## OPEN THREADS / WATCHES
-- 🔴 **Saudi corridor heat:** wait for a counting source naming the facility class and loss. Do not price a production hit from FIRMS.
-- 🟠 **US diesel/export policy + G7 release:** 100M is the remaining March commitment over four months; diesel amount/split and actual draw schedule UNKNOWN. Principal denied a ban, but B1's signed-text letter remains live.
-- 🟠 **Qatar LNG:** buyer expects no quick recovery; force-majeure dates are established, full-winter outage is not Qatar-confirmed.
-- 🟠 **China product halt:** size UNKNOWN pending guidance/data.
+
+- **Routine state:** saved prompts repaired; live prompt and connector state unresolved pending Will's UI work. First-run behavior untested.
+- **OPEC physical effect:** requires a matched participant-level counterfactual; no precision is defensible from `COPS_OPEC` alone.
+- **Riyadh:** facility/damage/throughput/duration/yield unknown; no materiality grade.
+- **Existing market obligations unchanged:** Mon OSP/broker confirmation; Tue STEO/SPR bids; Wed WPSR; Fri COT and USO $150C sell-or-roll rail.
 
 ## POSITION DECISIONS PENDING
-- **USO Oct-09 $150C ×1:** recorded open as of 10/1; Will's hand; sell-or-roll by Fri 10/9 15:00 ET. TERRY's 10/2 lean was SELL, but execution since 10/1 is UNKNOWN.
-- **VLO 1 sh:** VLO-HELD-01; Sunday rounded product quotes do not grade the settlement rule. B1 not fired.
-- **USO 37 sh:** hand-managed (WQ-200). **WQ-192 STAND DOWN** remains binding.
+
+- **USO Oct-09 $150C ×1:** recorded open as of 10/1; Will's hand; sell-or-roll by Fri 10/9 15:00 ET. Broker truth after 10/1 remains unverified.
+- **VLO 1 sh:** VLO-HELD-01 unchanged; no Riyadh or OPEC inference moves it.
+- **USO 37 sh:** hand-managed. **WQ-192 STAND DOWN** remains binding.
 
 ## MAIL STATE
-- **Inbox:** WALTER lane clear; top-level clear.
-- **Outbox:** no current send owed. Seventeen 9/8 evidence artifacts remain; two are linked from the market-docket owner-read note, so no bulk move was made.
+
+- Inbox unchanged; no new packet processed. Two board-log correction receipts supersede the October 4 Riyadh/OPEC overclaims.
 
 ## WORKBOOK HEALTH
-- `workbook/LESSONS_INDEX.tsv` is 10d stale vs STATUS; its 27/27 prose/index structure passes, so this needs a genuine reconciliation rather than a blind timestamp. Frozen `workbook/KB.tsv` rows KB-BRT-109/114/117 have an extra blank field and remain unchanged by rule. The saved EIA report is complete after the reader fix. Audit: `audits/2026-10-04_file-sweep/REPORT.md`.
+
+- Frozen `workbook/KB.tsv` malformed historical rows remain untouched. `LESSONS_INDEX.tsv` substantive reconciliation remains a separate owed item; this bounded pass did not expand into it.

@@ -1,0 +1,14 @@
+# STATUS rotation — October 4 evening tape + OPEC grade
+
+**Rotated:** 2026-10-04 22:5x ET during the bounded CATO correction closeout. **Payload rule:** from the `## October 4 (Sun, 21:44 ET)` heading through the final newline immediately before the existing `> Rotated 2026-10-04 (verbatim)` receipt; exact text after outer trailing whitespace normalization. **Payload:** 2,424 UTF-8 bytes; CRC32 `b3924829`. Current compressed state remains in STATUS; evidence notes remain canonical.
+
+## October 4 (Sun, 21:44 ET) — **ATTACK-HEADLINE RALLY FULLY FADED; NO CONFIRMED NEW OIL LOSS**
+
+**Live, forming Globex session — vendor quotes, NOT settlements:** Dec Brent (`BZZ26.NYM`) **$101.67** vs Friday vendor ref $102.25 (−$0.58 / −0.57% [EST]) · Nov WTI (`CLX26.NYM`) **$90.24** vs $91.11 (−$0.87 / −0.95% [EST]) · Nov ULSD **$4.52/gal** vs $4.50 · Nov gas **$3.03** vs $3.04. Reuters captured the initial Houthi-claim rally at 18:02 ET: Brent **$103.06**, WTI **$91.57**. By 21:33 both were below Friday references ⇒ the headline premium faded ~**$1.39 / $1.33** from Reuters' snapshot. This does not prove no damage; it matches the evidence state: **fresh FIRMS heat, facility/cause UNKNOWN, no counting source and no measured production loss.** Cross-asset: ES +0.18% [EST], NQ +0.47%, gold +0.51%, silver +2.78%, 10Y-note price firmer. → [evening note](research/2026-10-04_evening-futures/NOTE.md)
+
+**Adjudications:** FALCON's new 10/03–04 FIRMS heat at 25.252N 48.103E is real (peak 229 MW), but **BG-02 R1 NOT MET** and the lapsed instance does not reopen · Iraq's ~2M-bbl state-tanker cargo still sails **through Hormuz** (marketing reach, NOT bypass capacity) · Qatar winter warning is **JERA CEO buyer-side expectation**, not QatarEnergy confirmation (FM Asia→Nov, Europe→Dec; Sep Qatar/UAE transit still 80% below Feb per Kpler/Bloomberg) · **IEA 325M is cumulative**, not a new Sunday release; live G7 item is the remaining 100M over four months with diesel front-loaded. **Nothing fires; THESIS v5.11 and WQ-192 STAND DOWN unchanged; $0.**
+
+
+## October 4 (Sun, 11:4x ET by `date`; BRENT L0 spawn, D:L297) — **OPEC+ NOVEMBER HELD, outcome (1) · physical effect unquantified**
+
+**OPEC+ graded at the Secretariat primary** (`pr-detail/1891616-4-october-2026.html`): November held at Sept/Oct required production, the **2nd consecutive hold**; next meeting **1 Nov**. **EIA spare context: 0.02 mb/d** Oct–Dec [9/9 STEO vintage; OPEC only, omits Russia/Kazakhstan/Oman] ⇒ limited-OPEC-deliverability context, **not** a seven-country physical estimate. Pre-meeting sources expected a hold; price/signaling effects were not measured. **No registered line moved.** **Riyadh fire 10/03:** fire witnessed; damage, throughput loss and materiality UNKNOWN. **Diesel ban denied** ⇒ B1 odds lower (TERRY). **$0.** → [grade note](research/2026-10-04_opec-november-grade/NOTE.md)

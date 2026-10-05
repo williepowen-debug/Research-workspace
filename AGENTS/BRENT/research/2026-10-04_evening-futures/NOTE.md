@@ -24,7 +24,7 @@
 
 ## News adjudication
 
-1. **OPEC+ November hold:** seven countries held required output for a second month; next meeting 1 Nov. Already graded from the OPEC Secretariat primary. Deliverable spare remains **0.02 mb/d** on the EIA September STEO vintage, so the decision is mostly paper and was expected before the open.
+1. **OPEC+ November hold:** seven countries held required output for a second month; next meeting 1 Nov. Already graded from the OPEC Secretariat primary. EIA's September STEO estimates **0.02 mb/d** of OPEC spare capacity, but that series omits Russia, Kazakhstan and Oman and does not quantify the seven-country counterfactual. Pre-meeting sourcing expected a hold; no event-window pricing or signaling effect was measured.
 2. **Saudi/Khurais corridor:** FALCON's own NASA FIRMS pull establishes a **new** fire at 25.252N 48.103E beginning 10/03 22:01Z and peaking at 229 MW. The facility and cause are unidentified. No Aramco/MoE/SPA source names a Petroline throughput cut, so **BG-02 R1 is NOT MET**; the lapsed instance is not reopened. Do not convert heat into a production loss.
 3. **G7 stocks:** the primary statement says **100M bbl over four months**, accounting for earlier fulfillment, with a substantial diesel release front-loaded within 20 days. This is implementation of the March commitment, not 100M entirely new barrels. The viral **325M released** figure is cumulative progress, not a fresh Sunday catalyst.
 4. **Iraq VLCC:** Iraq's state tanker company arranged a ~2M-bbl cargo and took responsibility for delivery beyond the Gulf. The vessel still sails **through** Hormuz. This may expand Iraq's marketing reach and reduce the discount needed to induce buyers to lift at Basra, but it is not physical bypass capacity.
