@@ -1,0 +1,123 @@
+{
+  "captured_at": "2026-10-04T22:16:20.061998-04:00",
+  "head": "54fd82ae8caba09c90b0d2ea1439abbb6f4335a6",
+  "scope": "Hashes identify inspected inputs, not whole-file or external-truth certification. BRENT continued editing during review.",
+  "files": [
+    {
+      "path": "AGENTS/BRENT/CLAUDE.md",
+      "sha256": "d14868832ca65ae620206f587cbea7b1ce84dec23b415e85eff49604dd3067ff"
+    },
+    {
+      "path": "AGENTS/BRENT/NEXUS_BRIEF.md",
+      "sha256": "112081a0c2d242feff94382e1ffc3c5b380a35bd47f5b2cae90c8d00cb4a5f4a"
+    },
+    {
+      "path": "AGENTS/BRENT/RULINGS.md",
+      "sha256": "92cfc227cc27a02720c0594f59b69d1f78557d6713bbdbbbbdcadc531d51d797"
+    },
+    {
+      "path": "AGENTS/BRENT/SCHEDULED_RUNS.md",
+      "sha256": "c29ede0dce1a097da0b793c48cf2dc661f14f161da57b59667952a85568c83e2"
+    },
+    {
+      "path": "AGENTS/BRENT/SCRATCH.md",
+      "sha256": "c99efc365d73f545122e8fce51362384168577fc658844129bfd1370c8a1dadd"
+    },
+    {
+      "path": "AGENTS/BRENT/STATUS.md",
+      "sha256": "bee6271c59a76f45b3e2e86ed0b65d70e7ac601e64de6808bff7875849dd4448"
+    },
+    {
+      "path": "AGENTS/BRENT/archive/STATUS_summary-for-will_2026-10-02_PM.md",
+      "sha256": "5824f2333ec23c85bacbe7edab8639e349c73f1c64e84b2c2bdcefe66b2ccf7b"
+    },
+    {
+      "path": "AGENTS/BRENT/audits/2026-10-02_routine-install/after_thursday.txt",
+      "sha256": "b1c9c21ff5810876e047945d9fc8c63c52f702fa508581869d8dceb1059c1a70"
+    },
+    {
+      "path": "AGENTS/BRENT/audits/2026-10-04_file-sweep/REPORT.md",
+      "sha256": "7f4f206acc4999e38d2e8db62062f92aa0299b61dbc18ac146c0d9fd65092156"
+    },
+    {
+      "path": "AGENTS/BRENT/board_log.tsv",
+      "sha256": "7230ecef6d34953210ca8a1f2e6c64e4f4d00da8239c00af22b9d3c498e50534"
+    },
+    {
+      "path": "AGENTS/BRENT/demand_destruction/DEMAND_COMPOSITE.md",
+      "sha256": "3dd76ba38e578046ef6b7127ab4a1b655bbed9875323cb244b2fd1ea22211fbc"
+    },
+    {
+      "path": "AGENTS/BRENT/demand_destruction/TRACKER.md",
+      "sha256": "13e56d220daa86e7e879169bace1c6f9c791a5c12cd90b6efc0c9a3a7c4678d5"
+    },
+    {
+      "path": "AGENTS/BRENT/demand_destruction/data/eia_2026-04-29.md",
+      "sha256": "c76369a1fe5a0a46c2903b39a423109e1eb4e9247077603076436ddc3510fb9f"
+    },
+    {
+      "path": "AGENTS/BRENT/demand_destruction/data/eia_2026-09-02.md",
+      "sha256": "8cdb1802700d925795b71dd8999d0c90524519332358e8b076cc4b3cc99b55de"
+    },
+    {
+      "path": "AGENTS/BRENT/demand_destruction/data/eia_2026-09-30.md",
+      "sha256": "f2af80ad7be4465bd4144e05d6450f918cccc5f98c19b0e99296c498905bcf9e"
+    },
+    {
+      "path": "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "sha256": "b12c729f187fa613ca711d079aa8da8866131f720e9e8907ef02c023272716c0"
+    },
+    {
+      "path": "AGENTS/BRENT/research/2026-10-04_evening-futures/NOTE.md",
+      "sha256": "3ed4e2153efaed52bd6d13c649816d366c6b6d81dff8cd1c6bf76895fefd5ced"
+    },
+    {
+      "path": "AGENTS/BRENT/research/2026-10-04_opec-november-grade/NOTE.md",
+      "sha256": "f35d3467eedc3f2072bfab0bbe31a71016b319408db476fd1ecc837e19d60a36"
+    },
+    {
+      "path": "AGENTS/BRENT/research/2026-10-04_opec-november-grade/eia_api_COPS_OPEC.json",
+      "sha256": "711f6a170d0af43d6a2e4c5a73384d86e877ba76057554e9e6d1678bc1b2153b"
+    },
+    {
+      "path": "AGENTS/BRENT/scripts/eia_weekly.py",
+      "sha256": "91d9346a8d3e0b61e4d72f28ec7917aad3c5f010d89772d4f5afdf108d0170ae"
+    },
+    {
+      "path": "AGENTS/BRENT/scripts/tests/test_data_integrity.py",
+      "sha256": "2d461895af11d2a68ed334962255ec647a584c726f5860a44ff5fe29381eee38"
+    },
+    {
+      "path": "AGENTS/BRENT/setups/SPECS_GATES.md",
+      "sha256": "855ac4c5250a1fa3cae509cd131265378c7fad93e251cff5b330554e874fd6bd"
+    },
+    {
+      "path": "AGENTS/BRENT/thesis/CHANGELOG.md",
+      "sha256": "9c3cb8bdbf1add3339317eea591b4d291be0ffbb375df5084d2b5abb3bab69c2"
+    },
+    {
+      "path": "AGENTS/BRENT/workbook/NEXUS_BRIEF_archive_20260821_correction_banners.md",
+      "sha256": "18c04d2ba839ae5aef866bd17ce97382b88f36b93b6d4007a9704358ddb3c780"
+    },
+    {
+      "path": "AGENTS/BRENT/workbook/STATUS_archive_20260821_standing_blocks_aug4_aug13.md",
+      "sha256": "1acd7f7d6b9a8890da0bcb6729c62c7e42958aca1cf4af32ad9093fd207a65de"
+    },
+    {
+      "path": "AGENTS/BRENT/workbook/STATUS_archive_20260821_superseded_rows_aug2_aug14.md",
+      "sha256": "49e47a114912c8b95b906a91ff7594c7a7f1604e31b66fde6dd0fbc5090affac"
+    },
+    {
+      "path": "AGENTS/BRENT/workbook/STATUS_archive_20260827_dated_history_cut.md",
+      "sha256": "826a4b7ec626b8cdb082523fe78ff345e4098eb057843725c02ca5f88ca381b7"
+    },
+    {
+      "path": "AGENTS/BRENT/workbook/STATUS_archive_20260828_dated_history_wave2.md",
+      "sha256": "d9fd71d92f4e72af7660b1fe299ef6167be833cb6fa0a36ba277eb36ef12c72b"
+    },
+    {
+      "path": "AGENTS/FALCON/reports/2026-10-04b_falcon-khurais-010-adjudication.md",
+      "sha256": "7f9157ed194be380399cd3f25a520cccba90159e8c9241ab0371b8427d626478"
+    }
+  ]
+}

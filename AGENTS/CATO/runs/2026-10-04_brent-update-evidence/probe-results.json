@@ -1,0 +1,185 @@
+{
+  "head": "54fd82ae8caba09c90b0d2ea1439abbb6f4335a6",
+  "script_sha256": "91d9346a8d3e0b61e4d72f28ec7917aad3c5f010d89772d4f5afdf108d0170ae",
+  "cases": [
+    {
+      "file": "eia_2026-04-29.md",
+      "old": {
+        "commercial_crude": 459.5,
+        "commercial_crude_wow": -6.2,
+        "cushing": 29.8,
+        "cushing_wow": -0.796,
+        "gasoline_wow": -6.1,
+        "gas_yoy_latest": 1.2,
+        "util": 89.6,
+        "week_ending": "2026-04-24",
+        "report_date": "2026-04-29",
+        "dates": {
+          "commercial_crude": "2026-04-24",
+          "commercial_crude_wow": "2026-04-24",
+          "cushing": "2026-04-24",
+          "cushing_wow": "2026-04-24",
+          "gasoline_wow": "2026-04-24",
+          "gas_yoy_latest": "2026-04-24",
+          "util": "2026-04-24"
+        }
+      },
+      "new": {
+        "week_ending": "2026-04-24",
+        "gasoline": 222.3,
+        "dates": {
+          "gasoline": "2026-04-24"
+        }
+      },
+      "lost_keys": [
+        "commercial_crude",
+        "commercial_crude_wow",
+        "cushing",
+        "cushing_wow",
+        "gas_yoy_latest",
+        "gasoline_wow",
+        "report_date",
+        "util"
+      ],
+      "coverage_new": [
+        "missing commercial_crude",
+        "missing spr",
+        "missing cushing",
+        "missing distillate",
+        "missing util",
+        "missing commercial_crude_wow",
+        "missing spr_wow",
+        "missing cushing_wow",
+        "missing gasoline_wow",
+        "missing distillate_wow",
+        "missing gas_yoy_latest",
+        "gasoline: STALE observation 2026-04-24"
+      ]
+    },
+    {
+      "file": "eia_2026-09-02.md",
+      "old": {
+        "week_ending": "2026-08-28",
+        "report_date": "2026-09-02",
+        "commercial_crude": 424.46,
+        "commercial_crude_wow": -4.45,
+        "cushing": 22.508,
+        "cushing_wow": 0.08,
+        "spr": 286.604,
+        "spr_wow": -3.122,
+        "gasoline": 205.669,
+        "gasoline_wow": -1.173,
+        "distillate": 104.187,
+        "distillate_wow": 0.796,
+        "util": 98.0,
+        "gas_yoy_latest": -1.6,
+        "dates": {
+          "commercial_crude": "2026-08-28",
+          "commercial_crude_wow": "2026-08-28",
+          "cushing": "2026-08-28",
+          "cushing_wow": "2026-08-28",
+          "spr": "2026-08-28",
+          "spr_wow": "2026-08-28",
+          "gasoline": "2026-08-28",
+          "gasoline_wow": "2026-08-28",
+          "distillate": "2026-08-28",
+          "distillate_wow": "2026-08-28",
+          "util": "2026-08-28",
+          "gas_yoy_latest": "2026-08-28"
+        }
+      },
+      "new": {
+        "week_ending": "2026-08-28",
+        "report_date": "2026-09-02",
+        "commercial_crude": 424.46,
+        "commercial_crude_wow": -4.45,
+        "cushing": 22.508,
+        "cushing_wow": 0.08,
+        "spr": 286.604,
+        "spr_wow": -3.122,
+        "gasoline": 205.669,
+        "gasoline_wow": -1.173,
+        "distillate": 104.187,
+        "distillate_wow": 0.796,
+        "util": 98.0,
+        "gas_yoy_latest": -1.6,
+        "dates": {
+          "commercial_crude": "2026-08-28",
+          "commercial_crude_wow": "2026-08-28",
+          "cushing": "2026-08-28",
+          "cushing_wow": "2026-08-28",
+          "spr": "2026-08-28",
+          "spr_wow": "2026-08-28",
+          "gasoline": "2026-08-28",
+          "gasoline_wow": "2026-08-28",
+          "distillate": "2026-08-28",
+          "distillate_wow": "2026-08-28",
+          "util": "2026-08-28",
+          "gas_yoy_latest": "2026-08-28"
+        }
+      },
+      "lost_keys": [],
+      "coverage_new": [
+        "commercial_crude: STALE observation 2026-08-28",
+        "spr: STALE observation 2026-08-28",
+        "cushing: STALE observation 2026-08-28",
+        "gasoline: STALE observation 2026-08-28",
+        "distillate: STALE observation 2026-08-28",
+        "util: STALE observation 2026-08-28",
+        "commercial_crude_wow: STALE observation 2026-08-28",
+        "spr_wow: STALE observation 2026-08-28",
+        "cushing_wow: STALE observation 2026-08-28",
+        "gasoline_wow: STALE observation 2026-08-28",
+        "distillate_wow: STALE observation 2026-08-28",
+        "gas_yoy_latest: STALE observation 2026-08-28"
+      ]
+    },
+    {
+      "file": "eia_2026-09-30.md",
+      "old": {
+        "util": 92.5,
+        "week_ending": "2026-09-25",
+        "dates": {
+          "util": "2026-09-25"
+        }
+      },
+      "new": {
+        "week_ending": "2026-09-25",
+        "report_date": "2026-09-30",
+        "commercial_crude": 427.32,
+        "commercial_crude_wow": 0.922,
+        "cushing": 24.301,
+        "cushing_wow": 0.553,
+        "spr": 283.767,
+        "spr_wow": -0.785,
+        "gasoline": 204.362,
+        "gasoline_wow": -1.683,
+        "distillate": 105.18,
+        "distillate_wow": -2.251,
+        "util": 92.5,
+        "gas_yoy_latest": 0.3,
+        "dates": {
+          "commercial_crude": "2026-09-25",
+          "commercial_crude_wow": "2026-09-25",
+          "cushing": "2026-09-25",
+          "cushing_wow": "2026-09-25",
+          "spr": "2026-09-25",
+          "spr_wow": "2026-09-25",
+          "gasoline": "2026-09-25",
+          "gasoline_wow": "2026-09-25",
+          "distillate": "2026-09-25",
+          "distillate_wow": "2026-09-25",
+          "util": "2026-09-25",
+          "gas_yoy_latest": "2026-09-25"
+        }
+      },
+      "lost_keys": [],
+      "coverage_new": []
+    }
+  ],
+  "missing_yoy_probe": {
+    "gas_yoy_latest": 2.0,
+    "coverage": [],
+    "expected": "YoY missing; do not substitute WoW"
+  }
+}
