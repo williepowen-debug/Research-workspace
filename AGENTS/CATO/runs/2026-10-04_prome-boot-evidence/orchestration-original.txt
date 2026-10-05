@@ -1,0 +1,531 @@
+ORCH_LOG closeout evidence — 2026-10-04 + unresolved prior touches; attributed records, not native receipt authentication
+ASKED → receipt: 12
+  2026-10-04 BRENT (brent-1004) touch 1-SPAWN [db1b0727c7196eefd62212c9056a6f2f79487d8261b402ac1c5b09e3263c66f7]: ask: SendMessage closeout ask 11:45 ET after artifact verification | receipt: 11:46 ET by SendMessage: nothing uncommitted, git status clean for AGENTS/BRENT/ + PROME/inbox/, -016 left unconsumed on purpose, going idle
+  2026-10-04 OTTO (otto-1004, desk agent) touch 1-SPAWN [9d2b69e290b8eedff07f9d28b3364adfbcebdd270048365644f8c885c35418ca]: ask: SendMessage closeout ask 17:33 ET after artifact verification of ab12815c6 + 881538664 | receipt: 17:33 ET by SendMessage: nothing unsaved · no uncommitted paths (AGENTS/OTTO/ + memo clean; last commits 881538664, ab12815c6) · no further work pending; going idle
+  2026-10-04 LIQUID (liquid-1004, desk agent) touch 1-SPAWN [d1e63f207fdf287761ae89756404be08ebd4fe598f30b0e9fe7dbed50cb4bd0a]: ask: SendMessage closeout ask 17:28 ET after artifact verification of b325e3e3a | receipt: 17:28 ET by SendMessage: nothing unsaved · no uncommitted paths (AGENTS/LIQUID/ + memo clean, nothing staged; last commit b325e3e3a) · no further work pending; going idle
+  2026-10-04 FALCON (falcon-1004, desk agent) touch 1-SPAWN [7d6640d01fc9e3d640b2c295a9afaca8eb0b009ad48b5e1f7a1a443497fd3a1d]: ask: SendMessage closeout ask 17:50 ET after artifact verification of all six commits (asked once, after touch 2) | receipt: 17:50 ET by SendMessage: nothing unsaved · no uncommitted paths (AGENTS/FALCON/ + both memos clean, nothing staged) · no further work pending; going idle
+  2026-10-04 FALCON (falcon-1004, desk agent) touch 2-DOORBELL [494093295b08a3d32e26c60693d75feca7544bbb5d10427700aae5b73987065b]: ask: SendMessage closeout ask 17:50 ET after artifact verification of all six commits (asked once, after touch 2) | receipt: 17:50 ET by SendMessage: nothing unsaved · no uncommitted paths (AGENTS/FALCON/ + both memos clean, nothing staged) · no further work pending; going idle
+  2026-10-04 HENRY (henry_ism_sol, Codex read-only research) touch 1-SPAWN [d71164b68b72082cfd8b8ccc32ae9a3b1064a184df1fb73e06b4e19cf8eaa203]: ask: collaboration.followup_task touch2 explicitly requested final read-only closeout | receipt: helper confirms final3 /tmp artifacts, HENRY tree clean, inbox unchanged, no remaining helper work
+  2026-10-04 HENRY (henry_ism_sol, Codex read-only research) touch 2-CLOSEOUT-PING [f3c467819b9ffded277a6cae50134cb04719949dbd21e227008f7661f6266a82]: ask: collaboration.followup_task touch2 explicitly requested final read-only closeout | receipt: helper confirms final3 /tmp artifacts, HENRY tree clean, inbox unchanged, no remaining helper work
+  2026-10-04 HENRY (henry_ism_sol, SOL authorized owner follow-up) touch 3-OWNER-ADOPTION [2bdab21cc60d4a399406cdf434e1f7e6da1cdce06b43cc414c23e989508900d6]: ask: collaboration.followup_task at21:26:36.884 explicitly requested final closeout | receipt: HENRY final receipt: adoption2bb57dddb and closeouta6d92e537 pushed; no owner pending files/current-session work; assigned writer released; future grading pending
+  2026-10-04 HENRY grade reader (henry_grade_reader) touch 1-GRADE-READ [e15b2d000f6a0325be2044da27e350d763f89f8c81d62fb339fb99280c7bbc89]: ask: Explicit collaboration.followup_task20:56:15.383 closeout request, no further review | receipt: Reviewer confirmed complete /tmp report, no repo edits/outstanding work; no further review
+  2026-10-04 HENRY grade reader (henry_grade_reader) touch 2-CLOSEOUT-PING [b4c3026afb6bc29563991991e6981e451f4fd1cb1a6f54ced4078f5733ac4d0a]: ask: Explicit collaboration.followup_task20:56:15.383 closeout request, no further review | receipt: Reviewer confirmed complete /tmp report, no repo edits/outstanding work; no further review
+  2026-10-04 HENRY (henry_ism_sol, SOL authorized owner follow-up) touch 4-CLOSEOUT-PING [c42c09e3d4d7e7ffbeef32fe073555d7affa203dffe051ce5b8cc3c6b1087710]: ask: collaboration.followup_task at21:26:36.884 explicitly requested final closeout | receipt: HENRY final receipt: adoption2bb57dddb and closeouta6d92e537 pushed; no owner pending files/current-session work; assigned writer released; future grading pending
+  2026-10-04 ARGUS (Codex closeout 1004) touch 1-SPAWN [160c012490c9c5a1c3e38a8d1f20383237456e248e550ec0484428f31bc1461c]: ask: Initial spawn explicitly requests final no-writes/no-work closeout and release | receipt: Final audit: 1 blocking defect found and fixed/verified, 0 unresolved; 5 advisories. No files written, no Git mutation/external sends, no current-session work; read-only assignment released.
+ASKED → still working: 4
+  2026-09-19 ARGUS touch 1-SPAWN [af048ad727de0daaae39457c5c99a35e2785f041b6d937adeb566d4fc2fa03cb]: ask: 2026-09-19T17:30:00+00:00 | pending; no completion receipt established
+  2026-09-30 TERRY (terry-0930) touch 1-SPAWN [33e14a17dc2913bef10ad24887fb0e73c2d9a0ab144f5074d2c3b260895c72b9]: ask: closeout ask sent 10:5x ET 9/30; no receipt before the 12:07 TaskStop on Will's word; its uncommitted work was committed by terry-61 (Will's window) at 10:24 | pending; no completion receipt established
+  2026-09-30 ANVIL (anvil-0930) touch 1-SPAWN [ba555bcdd86d5fead1efe0ab6a095615c261c98040f9a88259a2826eab6ffc7a]: ask: closeout ask 19:1x ET after its commit 33bc8c293; asked twice (19:1x, 19:3x), NO RECEIPT at the write; nothing of ANVIL's unsaved on disk (git status clean outside Will's windows; its only file FORGE/STATUS.md committed 33bc8c293); stopped 19:3x | pending; no completion receipt established
+  2026-10-01 TERRY (terry-1001b) touch 1-SPAWN [b009965a95b1b61796ef3f87c68af7d0def01f4ae92993674a7943b0e067421e]: ask: shutdown_request 16:20 ET (Will opened his own TERRY window, terry-b2, one minute after this spawn) and again 17:01 ET, each asking it to name any file written; NO reply to either; AGENTS/TERRY showed no uncommitted path of its own before or after; stopped by TaskStop 17:0x ET. The work was done by terry-b2 (8f9e6b7d1). No receipt exists, so this is not ASKED_RECEIPT. | pending; no completion receipt established
+ALREADY CLOSED OUT: 0
+WENT DARK BEFORE THE ASK: 11
+  2026-09-19 coldreader/hb19plan touch 1-SPAWN [e445a1dafb950aee749495fbe5463e96cce177aa65bcf739b00ac02eaedbc27d]: presence: read-only helper; completed and exited before PROME's closeout enumeration. NOT ASKED — recorded as the rule requires rather than omitted
+  2026-09-19 coldreader/hb19result touch 1-SPAWN [ea51aae593b1913c642a9991f0d0821f3e48d30aadff658a47ef58d7e37c1956]: presence: read-only helper; completed and exited before PROME's closeout enumeration. NOT ASKED
+  2026-09-19 coldreader/l423 touch 1-SPAWN [350f14251c8f57fd8d2441d97c8b39d1214355e125f965a5bc9cae1a7a1ea164]: presence: read-only helper; completed and exited before PROME's closeout enumeration. NOT ASKED
+  2026-09-19 presence-verify touch 1-SPAWN [9f2fcace7832b45707b40831c617d8e15bdd667a4e64b305770415220a1cdae8]: presence: ListAgents at 18:2x ET listed it as a teammate, but its own delivery said 'SendMessage is unavailable this session, so the summary is my final text' — it could not receive a closeout ask, so none was made and PROME holds no receipt. Named, not omitted.
+  2026-09-20 coldreader touch 1-SPAWN [db2004a3202a8f56aa0c3d214a657eea7ccbff1a07e5135c8c4f3f27800c3914]: presence: coldreader has no SendMessage tool, so it could not receive a closeout ask and none was made; its final result self-reported closed, read-only, nothing pending. Named, not omitted.
+  2026-09-23 coldreader/catopf-result touch 1-SPAWN [1f40aae1706a988cec7be267a7fe8f6b39f1861929b20ee0f9e0fa50127446dd]: presence: read-only coldreader with no SendMessage tool; delivered its ledger 2026-09-24T01:50:33.610Z (idle notification) and self-reported closed with nothing pending; could not receive a closeout ask, none was made — NAMED per the rule, not omitted
+  2026-09-24 ARGUS touch 1-SPAWN [b33df0a017dad571420c39155ceb411628cf4a2418cb15dada4573c238f69875]: presence: read-only auditor with no SendMessage tool: delivered its 3-segment ledger as its final result text (Agent completion notification ~09:30 ET) and exited; could not receive a closeout ask, none was made — NAMED per the rule, not omitted
+  2026-09-30 HENRY (henry-0930) touch 2-DOORBELL [9fb6646c634d07f4fbb9bce72866988f86fe437a261e003e809976f5af325d28]: presence: no HENRY commit after 2885c83de 08:15; the box crashed after ~15:05 ET (reboot 17:19); ListAgents 17:28 showed no session — the doorbell was in flight, no ask was possible; re-spawned 17:33 as henry-0930b
+  2026-10-04 harness-blind-counterpart (read-only) touch 1-SPAWN [8774a863ad3d054b958186c5db406a6d39c69171c537a5dee86baf60bcc852bc]: presence: read-only general-purpose helper; delivered its ledger + COMPLETION block (DONE) as its final result at ~11:45 ET and exited before PROME's closeout enumeration; NOT ASKED — named, not omitted
+  2026-10-04 ARGUS (closeout audit, prome-ed Sunday-afternoon sitting) touch 1-SPAWN [8ed1353a7088ad9ac92bbcca89f79465972e9eac55ba8bef96d7c60940cd2188]: presence: read-only closeout auditor with no SendMessage tool; delivered its ledger (❌8 ⚠️9 ✅31) as its final result at ~14:33 ET and exited before PROME's closeout enumeration; NOT ASKED — named, not omitted
+  2026-10-04 ARGUS (closeout audit, prome-ed Sunday-evening sitting) touch 1-SPAWN [c87922b3aa143903fcac49a7ca46c6ccfc0f044d38b9fe3bf13d39c7249474b6]: presence: read-only closeout auditor with no SendMessage tool; delivered its ledger as its final result at ~18:04 ET and exited before PROME closeout enumeration; NOT ASKED — named, not omitted
+UNKNOWN: 2026-09-01 REGINALD touch 1 [88f40a14198935a6efb6a72f8abc2ed1b8ff037c3940b8d3c93e8fa2773b8b22]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-01 TERRY touch 1 [9e1da1c3bfda51ac6c4210b231713f24b088eceee9710293fdc6f937db370dd2]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-01 BRENT+FALCON touch 1 [c8255358ce32e34ec0cf0c2b8d634c30de7b4edd47b68db9224ba53c8fd96250]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-02 TERRY touch 1 [f8d6aaf0b956d60210eb92e75b6ebc881f955563324f1a9215d48c41d6a44178]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-02 BOND touch 1 [75a175cbe1290d7f79aaa24ff68755b89c5b32f3a4c5e6876aad69c4b4ab6f59]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-02 BROCK touch 1 [bafb4a75c1bda14259990935129fa901ccf55fea1277b68a9ab031ffc06cc5d7]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-02 DEWEY touch 1 [6ceadfc3ecaacf35af1c0566b70e60fee9dab6b7e8e41e859c96842d557c338b]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-02 LABOR touch 1 [643888fe7df8e8739a3b011afc72a40cfb8ae379c70d41d7a1f571499c12fdf4]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-02 HAWK touch 1 [8f5ef98ace7342191257420baf0d8fb6b5ed038be52503e73144c7debfc4a4c8]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-02 ZHAO touch 1 [0aa30c140982965a8fb633adc009bb54c8ebb85d34185afec7f264f2da87752a]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-02 VIOLET touch 1 [8ae1f0dedfc5686545d4fc898f2ee83a02c983a02ffe086baaf7d56756442f5b]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-02 HENRY touch 1 [4c00d7ac569770bfba412d0728507753755fc2ad0840782e8dc5f2b35371e350]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-02 NEXUS touch 1 [ca3fbd06877ea75a3d1949da93b8d9e0510a5df2335892f18ab83c67917049b7]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-02 LIQUID touch 1 [6e2dd4802491e59aaf722bec27ee4f2711fbea7ea05c629e49053fa1534aef57]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-02 OTTO touch 1 [5123ebaad3ef700b7b39076e169a4644cc9d24510e21fbc93bd515f83c06f407]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-02 HOMER touch 1 [43daefb54ad47f7250abd574938365f3181b0af6d87ad7d0cd0a17746326f22a]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-02 CREED touch 1 [6822fad93abd9e401f039944287a4863b9c4947474d583f198fe7305f9d6ce24]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-02 DAEDALUS touch 1 [c1fa80a8c8137624f75a106e5bf6179d07378261e7d47db0871bd3315fcb5cf2]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-02 FERT touch 1 [f13d30b65cc37fc5d62bbc3c75ae7b3e48ba264b2dccdfe1891ed427dab01189]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-02 CORAL touch 1 [0fb18bee9a49389cabff0faa7fbab92515a311660e2a8822cf7c97fc2e5b1fc2]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-02 CRUISE touch 1 [7cf8f40704eb9dc458edc46b5c52985f1b11969ca280af890b2c4f9cf8e5183f]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-02 OSPREY touch 1 [3f7c6e44e6dbc6e6215eceb22810c5d1c9366fd830c2dc13c3797e8175987f8b]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-02 CARL touch 1 [17bee5b65235b19df13258c4ae8fab51216fa02ccb55957ddeed0f38a81750f5]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-02 MARCO touch 1 [7d31f4601d0fd5f30b43a54d10f035311f06179fcf93ee71cc2d1dbaf7f33448]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-02 WATT touch 1 [a89e68569aa5f65365dcd76fa5839dbfe13ffc9163dc4575bf023d2f47503d4c]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-02 VULCAN touch 1 [62ecc2cc82222991fe600edf5c0cc1e0991932608edfa33a4add96a0547c8b8f]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-02 WAL touch 1 [94128e55d8ea277808de48be398351f15c32e124f601ded07fabd4b07459b4f2]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-02 RED touch 1 [6cc84166cd04795624ffe3fc24dc0736ac0c8752157b1fff2fe9241cc36acdba]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-03 SAM touch 2 [ed772e752a9e39df27023116cebed42859c3a22e953ad7c013bbe0434ddd17b0]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-03 TERRY touch 2 [c4ff860bff26e5c55993eaffc6b27a68a275e05362aed732c79237e48fa367a6]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-03 LABOR touch 3 [874a6806ade5de5e58ed9999cca73c5226284b210e83b2591154e690af0c9938]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-03 TERRY touch 3 [92a0814da688ceec47cd9741819ed4acad6add3d554186dea3e635d83fc769a9]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-03 LABOR touch 4 [5cf4e8b84ed0806548349693a489b03acca1563a27c4afdf188ddc638cdc75e0]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-03 BROCK touch 2 [9848e8afb8df8149584b7176c3d3d78888639131d08946670542ca8b34981339]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-03 NEXUS touch 1 [acecc6a65744a87bf7d07ea706e763b24086a1a4194f3b974a92b0418490cd2d]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-03 LIQUID touch 1 [57e21f792cc4925c837f5161754a11e753298b6d993ec7a3c32af3265d8212e8]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-04 LABOR touch 5 [708ca2fc0f5883eb98233e8dd7c2ff18ab6eef4702c142f6293b0df5d80baa77]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-04 DAEDALUS touch 1 [1191141437531e5f4549e2d1d3e3d20b8f0e330594a5d5c30906b8347f0c5c2b]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-04 BOND touch 1 [c3fd744bc39e2b64ea67204013ff34b4a843c1cb013faa23677615913c1512cf]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-04 SAM touch 1 [366ad48c788605b4fcaf530715bddce64e07adc3510036d9b3eadbe1a30debe7]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-04 VIOLET touch 1 [504ba0ac6403f9d50c0ced5e8607c673038af1516e1c976b5cf19efb0637f7e6]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-04 ORACLE touch 1 [c3f421c98defce17923ee235a459120ecda1c4e191db0856af8817452c1aec56]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-04 HENRY touch 1 [dbb1d50b2edd922c03b4d02cc3deb2ec9be639fd4e1057272fe93a896ce0dd6e]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-04 DAEDALUS touch 2 [b986d60d194082aa8f01b2068e86c61cceaba4b2b08759e37f02e98295ca71f4]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-05 MIDAS touch 1 [c9e7dace12d8aa9493fa911c70c64311056e9920a882a7bb90bc01a1a5f0e53d]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-05 TERRY touch 1 [5afc8d5e12d2e9e2d706e5fd7c6ae20de0415726c3b359fe1e9658f1ed53d3c4]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-05 FERT touch 1 [0dc66987d82ba6088cee00072294852384c475bfc9e22d790ff86330c1d58dbf]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-06 BRENT touch 1 [c824d26fa05f36b1e5a388bebe811b205db9364b54bcba8a42f13a3eb2bf3722]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-06 VIOLET touch 1 [20daafe069d5a2af614ae6327da4d7bd2d97e30ffe250a8c385d9e3eaab4a2b6]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-06 RED touch 1 [0e41211cb992ffce6085cfe4817723221ddd031046820a5d554889878abbdbf8]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-06 VIOLET touch 2 [f14355ab2c54045262605df1583982bc835cc3d58aa148728f239bf3ce4e93d5]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-06 DAEDALUS touch 1 [ce68183af8260c3b9fbd363e4e73aba73ef301cd740b0447689128d3e3ff0a66]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-07 BRENT touch 1 [7ebf8153308044e363ce6c40dff81056801fba62706a7d42c609dcea0519627f]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-07 FALCON touch 1 [904f27a8bd01f8da8ceedca14db851df314a317fc515416caf968dbcbc7f12e3]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-07 NEXUS touch 1 [417ad53f61371ee220b90e17380152130f2fca9ceea23fc7daefb9462f240fd2]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-07 ORACLE touch 1 [c6c2c8d2b4ad91c0a8869017426277bdeeebf1fbd035cef41a94ffa2318c031c]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-07 NEXUS touch 2 [4b209f679fff8b72e8cbf2336c4ba610be40700b1fb46889f4f2ed9e3aac9239]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-07 BRENT touch 2 [4e7be666ff10df280a1cd1b37430f46f92f5cd9607d0254bda3066a5bc4c2f6f]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-07 LABOR touch 1 [e797b8b475eb8b2abad79be9358fc911cd8507ee6cd7238d1c99d54df32eae5d]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-08 TERRY touch 1 [770e43d5ac51e671003e0c6ee37ec5b4a23c3282c2de7064323c522ca2b70d1d]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-08 HAWK touch 1 [31cb325b85b822323f06d87253d13cd5081cad61eec2c3481a97499261c92405]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-08 BRENT touch 1 [db198e34fd51c24484492a1d8ea8b25e55021445d41e1aefe59639984b9548a9]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-08 TERRY touch 2 [2724f0c4454eacaa99feaa97a20372a905a6767cbdc26ee0df690e7408941ebf]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-08 WALTER touch 1 [ff1502c21aa408b8eb423f2a852a4c2323506da07b63c44b767abc9334f57a77]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-08 TERRY touch 3 [3db534e79d137acfa0f2b99ffd19170f75c47398d1e6740a2a5c662da04176ab]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-08 HAWK touch 2 [e44189685e8de5310399de39bc4b339043f99ad970203e8648f2e451d90e7c0e]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-08 BRENT touch 2 [1c44335fa75f8819bc5b8921421d176953f9b13915e5cfc6c56c30e8a8f07cd6]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-09 BROCK touch 1 [785505b26c28d648a551deb483338bbf4eb5a905cf78ac994e815b943f96743c]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-09 FERT touch 1 [e77a9bec2349c3309fbe6c39bc6f7d1c023fd5adddca0df331213fa110f30b7d]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-09 RED touch 1 [a1db113de29f649900f85b882ed6a0a33abb9cdf4d8d7824fc92e677e81750fa]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-09 TERRY touch 1 [5bec22a4ab3597c7946c167c3117810549e6477ef818e8bbb0f8f45bd959b51a]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-10 HANS touch 1 [488d0ec469cf22026987270971a366b735d481a936b5dee4b3ca540c2faac7b6]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-10 DAEDALUS touch 1 [30f1990f9f27880b29d590d8fddc1f46ded5c92b34fbc1d9c4b80d639a5fa4b3]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-10 LABOR touch 1 [58c86d39b429a73ceb5661e4315dff8edfec3789859402fe65ced602dec80bdc]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-10 FALCON touch 1 [24b2644a2730ea6650753af1a1a9613c173cd98614c63a44ba82c885d5f3be51]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-10 WATT touch 1 [ff49e73b81629fd9bce80309509c934c9b08ee012ec006c458ed950814efcac3]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-10 HAWK touch 1 [3188031715f9470444c49786515f46eed193f2e9f939303a5f4ff220d9ae5cc6]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-10 CARL touch 1 [c49d79a298f8a365a66b10fea05303a20bc3e44fcda5a4b5bf82acc1b19954d6]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-10 TERRY touch 1 [460a6f95b86b6f0c38d5232ce3b111fc4005fb3a46e341d4631afed40fc81b6c]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-10 RED touch 1 [4a673e5d2b8dc7b9e1574a3459e56cebe988bd22b2edede3a66bcffa1d170a7b]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-10 WATT touch 2 [65d61228b56d5b78ab3a35a510bd05b608546e4a14d7b620fb186a92f4d161d6]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-10 HAWK touch 2 [c8c166727c13ec2b103e43c7389687e7f3f2d2fb36b98433ff185b904f46b17f]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-10 CARL touch 2 [875a0365153704e4920590875aa8a71960ae3ebc49722265d65396fe135ca1e2]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-10 TERRY touch 2 [8e13ecaee8b95346131b4dc1e18cefc220312f68a94c62dac3ef3df7e7606101]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-10 RED touch 2 [4b7a8c3871795e8fc26d1cc0b6590b667b9fa86a700ce428132ced0cec24067c]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-10 ANVIL touch 1 [30fe05a6ed93e631b58b097bbec83e0a1570eb9428890eeed3eab3001dc18c38]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-10 PHAN touch 1 [78bb3156518f834daac9d44bbddee880ec7078e3029fb27d0c41e39413917b74]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-10 HAWK touch 1 [056fb21e9746747e6a5b047743e12605d0333e6cc217d857f02a9c813261d6b6]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-10 LABOR touch 1 [1036b58ec5f5e3cfa0671b660ff7542357677cc295e95832359b83cce01e19fe]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-10 CRUISE touch 1 [8c0cb42da066b75bd9cdd1e438e368e4bd9640207166eae19315710ed0be0186]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-10 CARL touch 1 [01db3ca16e1a0fa3531d8880f83b4a399df7cd4d7248dd5d7ad129f6ffe7b37f]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-10 HAWK touch 2 [b7c3efacf7766d9ded291a6082006f4a2658cfbbfb8ad778296f8a9829ab7f13]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-10 CRUISE touch 2 [dca823e40bed1cc8d2879cbec4d44d9f5bd11faa793e836368750b87e194df30]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-10 OSPREY touch 1 [8692e3316d61f9c10b380ac8b57f46e9f258dd112664d2b4225fb52e3c57e244]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-10 FALCON touch 2 [ac6f9ba1ea814963f7bd91b54e7064b2b1584ddb3f11979a1427990bedcc22c0]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-10 BRENT touch 1 [1c005ef7821b3cdc7d3478761304cd9e82aaeaa5329fe93c65a5cea6542d42bd]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-11 HAWK touch 1 [702fc65e234a9709d5bf442d98315e6c23f0fb43a2acbb823d01ef162162eed9]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-11 HENRY touch 1 [4e0f769cdc07280caf8fded402aef6ebcde0d60eaedc34e46c5b3f942979262d]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-11 MIDAS touch 1 [b17c2060b5f47b3a12f99e37249b67c6df154a31a142d6938828ff5953803b49]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-11 VIOLET touch 1 [ff2dc7442f779878ca90780b17b2accf5ff269ca76bd7a8624c80219412d28d9]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-11 SAM touch 1 [ac77a07eef6cae7ff4f0e5b410824ede1250c7ecd4f40f841e4cc7c1fc766bc4]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-11 WATT touch 1 [d41cf4117ff0370ccc04e82fc28d8e707fecd1ee9e155f24131b57a883910940]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-11 CARL touch 1 [987636c5e850f76e76af4ca225c6e344e539fec9866f58d638c66979c6bf3b13]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-11 NEXUS touch 1 [b508a9035a97ea48f74ad1e97f8dee4f0e815ef1998233381fcc1d2072c70275]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-11 TERRY touch 1 [9568c8fab7be3ade9489266adf42a3227122c1734af408405e0e2efe8d182423]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-11 VULCAN touch 1 [93f903538ba96e44038af88c7370680e0f9e425bc2704b68e7c7d7a30cb085f4]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-11 HOMER touch 1 [7b9c86a6076d66e496c0296c51b02ac8721fdb369a261ac149903ebb937f2416]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-11 REGINALD touch 1 [c70154d56451b92314d946f82afca45c8faae6446a8940d090b1ed9566d9daa6]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-11 AEOLUS touch 1 [d9f88a335a5158de1b519c2085eefb5562863ecb5d5305eb0f50bfd8c55ae98c]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-11 TERRY touch 2 [a5e2d10ac70798705070dbda2b847b4e1bcd2ab84ae0c1cf355a033077ac112f]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-11 OSPREY touch 1 [a1252ae2958b21eb61f273c29854640f5b51d68aab369fe8c408dab9a8ddd123]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-12 BRENT touch 1 [2cf85f7b551b42fa4d0c5b79b002bfc72c5b73d133b18e1b96ab2082b847bae0]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-12 RED touch 1 [9f6d7f68f450536fe90333ee99628b723bff540ad6ee377b90d1cb5a8cdcb657]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-12 BROCK touch 1 [2df8a4ddec1c434bdd42b5c34fdb386726d769f6520e072b75849cdb42a0a0a8]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-12 OTTO touch 1 [e7d4a9140de126dc35d5f5696b263379dadd6f139d999960ea8147bd4189c6e5]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-12 DAEDALUS touch 1 [5866105cdb4c4550461283f3be4da6a699ffe5ec785b4fe8ba92d9868237ad53]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-12 LIQUID touch 1 [3813ffdbd1948683c7b33bc24c8537a2428b050b50a04aa0b2950365776e0b63]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-12 COLDREADER touch 1 [2061657b05c12ac43ba379b29299c5c9d583e90a3627b5ee3d34c2b9593f9eaa]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-12 COLDREADER touch 2 [15f7d8b9f5c49df4aea7a4543fe0ce12c5c422eb76f4a5acbf9cd0565f0fce17]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-13 CORAL touch 1 [fb6dafe9a94c96563f8212c5efc39ee7f802d4d977b8a68646639aa3f9147e19]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-13 CRUISE touch 1 [0a10f8300f48dadc51c7e8086538c51c96a79b1b59eb4bd0eeb070a5d4c348bd]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-13 VULCAN touch 1 [e11a89f72e57202773946dcc00d93e7409b58b56832cdb6aaed70d972cb8f48c]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-13 HENRY touch 1 [b266aace259105c6d0268e32892e5619eb2c738cf84635e81f1086f6ebb806bc]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-14 TERRY touch 1 [3bcf803a429faa774770b75cb78023083b1bea8f0c2186659ca86f6e97b3cc12]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-14 BOND touch 2 [72c282c72ba9ea5c9ca9628b5169bb6e9590ff7ea62d1bcf9bef29778bf9caee]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-14 DAEDALUS touch 1 [2476c0f06a595677e03263ecae7df0476d1c7d4c5cdf8178fb9388718929cf00]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-14 RED touch 2 [6882dae0e687a7f2b832500f00bf277640cfc10ce87ed4142720be3114a894c0]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-14 HOMER touch 1 [26718430e3e632ce2d8df56c6d6fde935b361e08583c1639db0a5ea0a41b88d8]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-14 HENRY touch 1 [30754cb830512e7074ac2d7aef1fc88e0e25e9b862a3177fe7e24bb203b40110]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-14 TERRY touch 1 [97d0c692ce9decdd7cbc1e78fc3571c2ebd58e7c87f397314c5b36128ca5ad51]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-14 FALCON touch 1 [5e776761cc6fc92562d5289b4e7cd92d3329ac47d1c53bd981554abee37539f3]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-14 REGINALD touch 1-DOORBELL [b557db249e26796dc3858eec7584c73479b2187db7d96ff82ece611adba134e2]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-14 BRENT touch 1-COORD [f81366afeee5a2299da439c54e0839454365fafe273c1f5b0df4941100b446f1]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-14 fetch-reviewer touch 1-SPAWN [3e790f41e98f4bea631c63c3b9fdb66a32185b34518b08f9d290c0f9c1384484]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-14 WALTER touch 1-PACKET [1ccb6b3d50646278c8bf5cad8edb3d3dc12f57b1b5b6f9d1d55a2d413f1e135b]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-14 REGINALD touch 2-HANDOFF [3f3763fb269ddd306c18af69eb2c2552afa20aa9064770e2c06263fc7e6e157d]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-15 BOND touch 1-SPAWN [8985f8782efbbc7aca05d4ed70765b8596cea8e014ef377b4a911f11f64f42ae]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-15 OSPREY touch 1-SPAWN [49d719bc95f7e421f037c415a48d5369322194a82f04636e45dbaf221fb661ed]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-15 FERT touch 1-SPAWN [fadcc91f518d8d5b0787f0a68c1cd88311670d26b93e8675101c8545387a1c1a]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-15 plancold touch 1-SPAWN [233eac3285bf117dbb429f0c267843cde867688d5624d46ddb0cea3386940017]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-15 resultcold touch 1-SPAWN [fa97c657e2457b07243c8d8b4bc0cecdfc03d2f28969ee03249a3fa56460ecb0]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-15 argus touch 1-SPAWN [ba3f0d1f64dc47994a55c5c93ba554f66d655ddc5c2ed021557eb64c4372545d]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-17 l407cold touch 1-SPAWN [3f246e7ecc0f3a7d8f67c98a38d509820192437d290e632f0fd550ca86514a07]: Invalid isoformat string: '2026-09-17T13:5x+00:00'
+UNKNOWN: 2026-09-17 l407fixcold touch 1-SPAWN [11db56f2be76d1c0e94e4f178529bc1f7552beca16815c8fd379ef20c3a5c687]: Invalid isoformat string: '2026-09-17T14:1x+00:00'
+UNKNOWN: 2026-09-17 BOND touch 1-DOORBELL [17a6bcaceb27072ef8a140f709b591c82e57407970421b485672d31368ddc41a]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-17 l408cold touch 1-SPAWN [e952cb42dcc85c7c8bd7db395c531375c06ca11eac9f93f49b0f51ccd95faa15]: Invalid isoformat string: '2026-09-17T18:3x+00:00'
+UNKNOWN: 2026-09-17 argus touch 1-SPAWN [11105f6938f4c62007c1548bf4e856c5e6e3609082a86786dc013f307f8cac49]: Invalid isoformat string: '2026-09-17T20:0x+00:00'
+UNKNOWN: 2026-09-17 argus touch 1-SPAWN [01b871984d871ba5c548ed860074b315e262375c203e814def28338cc8d7bc19]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-17 hb18plancold touch 1-SPAWN [0564dcf8d1c8e7c18de6b3e34ed48e558833269f4382225c65f04534cc2fb113]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-17 hb18resultcold touch 1-SPAWN [41926d56d7586223381298faac60775ab348c6adfc079ad574013cebe86efde6]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-17 scratchrotcold touch 1-SPAWN [d35c62f8f4808b8b9af0a918ab60193bcb1baddb5bf886f51cee826599e3e842]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-17 scratchrotcold touch 2-RESPAWN [21ffec8a5007f1bee9a0842f7e11a55c6f41614370af502e37b6c9d65e70cd30]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 adrotplancold touch 1-SPAWN [4aa0dbcc5669e661967a99db7eaafdc2e051e045917ff64a67f581efcaa27eff]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 adrotresultcold touch 1-SPAWN [9d5437726671c946545db3809683f2f960df9bb902ca585f1b7994f84357f8ca]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 adrotthirdcold touch 1-SPAWN [1c9552d03adf4f86ec3bd9f204dff70588585a858c331ab44af442731598e862]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 RED touch 1-SPAWN [04608b1aa2f9568a62754d60d797a2f570ec8a32384c3a2d0ee341094570fdfb]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 wq244cold touch 1-SPAWN [039f1b0a54180c1c8077229948724e644eb88e26f3ae9b9699b3ff2b831980ff]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 wq250plancold touch 1-SPAWN [14770ecf098088e2fd360d784ca71d26867f903a343618fca14d6ae649a9e285]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 wq247plancold touch 1-SPAWN [fa7b02be5fa1c0728bf8cf4201bab351584013ed9f1e2b54ace2edcf26adb10c]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 wq244cold2 touch 1-SPAWN [0dee9d6fd2026f430d041a6a7641f4e98d1213e75d4f91dd8f31b984ce08eb44]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 wq250resultcold touch 1-SPAWN [bc84893f53bdadcfeb649165804504c3ee1ce01586f595d2ec124064d9cfb70d]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 wq247resultcold touch 1-SPAWN [f1c2ad08c634bb4b49609e3fe6a207a5713df9f70f2ce7c622c6a3929e79a105]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 scratchrot3cold touch 1-SPAWN [abd76bc6fe7821441bb2acda82f189e991bfa0bf5ffdcf69e2e1f1d4e4cae5dd]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 wq244cold3 touch 1-SPAWN [30b6e8f33d6e5c8661b39d26edffe056bc26bc69619d1c22388f2ea70a498bfd]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 wq250thirdcold touch 1-SPAWN [62fd0dab3c063d4e324b7bf1e48b58bc5c494c1c1108d14a9e0bd7d5b625d347]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 wq247thirdcold touch 1-SPAWN [43183f3a09afeb1e7c8001c91dd0f9cdbc204b6696be00f3450d2d1dca3da9c3]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 scratchrot4cold touch 1-SPAWN [c2c7ec104a011977557b91c715df136468938920a571a44b7c0950a7cd43001a]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 wq244cold4 touch 1-SPAWN [08c3e41f4b6bc6866266d7eec6eecbbb5cd3bb11f896a1a289bcbc9f7a2d9212]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 BROCK touch 1-SPAWN [9f4f7074a123ad3f5acd35c23729c887d2c79c24c6e7b5bc61b985e36f7ad34f]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 scratchrot5cold touch 1-SPAWN [25376e829e0d8b1c3b217e48ee27dae4e34e556d5a8439df18cc4758f5d416e3]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 wq244cold5 touch 1-SPAWN [f2d057d90903dd68184df40f143e3112353d6a908cc6f0878d8f59947a99c985]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 scratchrot6cold touch 1-SPAWN [a4b593e066bd2b2734409700bcc04e8ee9cb07061c611680c89565fde2db148a]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 scratchrot7cold touch 1-SPAWN [90bff5a2988e7eb4d9f71f03e8f8f6b669f63cfa963f90930dc9c22d8aab728d]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 statusplancold touch 1-SPAWN [c23d421afcc899bf7e2f9ca2aa5631eef909cf9414933e8682ab80d104b87884]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 parserfixcold touch 1-SPAWN [da1b512634f0e5d686920c8820164bc1ace29575adad52520eab321c56e26706]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 statusresultcold touch 1-SPAWN [88ad5abe6412b2f765038c30d4475e52ff8549caa0c5d236015ca056bec36422]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 parserfix2cold touch 1-SPAWN [a684771647eeb65bf9e5adfb2b207a70ad70bb500ad7a614a7db7cd09f99baa0]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 scratchrot8cold touch 1-SPAWN [24ef4fb10aca60044028b1037227d4d3748d9c1df7eaca3b9447e62b6b77c145]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 ARGUS touch 1-SPAWN [96c753167d0f656c815fc3bb96019c7f5198dce6722eeb6c49b4b2211682cc90]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 HENRY touch 1-SPAWN [723a940cf5f4184c77ed942bc9da2061ce7d5e8ed410f3acdbdee086f038cb9b]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 VIOLET touch 1-SPAWN [116a167352668c2a4fbe356d8033705cce9ee454ad53ce8a074a7e2ce2a4d8ee]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 AEOLUS touch 1-SPAWN [6fa4a1b359ed10fbb719e432f5e6ae7128a94c3bd4cec59246f4cb5e30d167ec]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 BRENT touch 1-SPAWN [c5afaacd97155f6d5242e3316af8f21db82a140db417e8458e65bd812403c6ba]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 docketplancold touch 1-SPAWN [9ebf91ef405b1ef73b58bfc19e5f02b2021f4f3f997351a9e2fa556e99b58d2a]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 ARGUS touch 1-SPAWN [1defff9d4575d375c2997cb17a416e10814d8a4a60cf5a2964239c1c2140b9d0]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 HAWK touch 1-SPAWN [9d2a4dcd3aa02ce2282668fae803ebb2b9c1f105484ec4ddfe85e7a4dc56177b]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 OSPREY touch 1-SPAWN [0a4a48153056a07460862779c5627728bd51d509e0533dddbfea392764bc7cd8]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-18 ARGUS touch 1-SPAWN [90ad75c3250ee6f024fedc85c20cb86eefc7b7f2612436aafcac5f99e01893c4]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-20 ANVIL touch 1-SPAWN [81a40002a9a49736ccf8f064c6f8032d78a6a9a08507da17f421fef62f258c57]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-21 ARGUS touch 1-SPAWN [d94c188edbcb7c72aafe6c1820f66c44e6343a4367850616b999c8964e47a163]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-21 ARGUS touch 1-SPAWN [c4a06ef8cf823dbced1e19b0d25b1d975d240061b8d00ed24f50e04deb7786f8]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-21 coldreader/boot_plan_review touch 1-CLOSEOUT [9dd63102d382dca3cdbfffb229696885b279e28f9e74cabb6b9ad393237321a0]: Extra data: line 1 column 439 (char 438)
+UNKNOWN: 2026-09-21 coldreader/boot_result_review touch 1-SPAWN [e28b2e9260df5854020a643990ed0d9f5d14cfeba9556bbfdd6a9dbd3d0675e0]: Extra data: line 1 column 458 (char 457)
+UNKNOWN: 2026-09-21 coldreader/prose_date_review touch 1-SPAWN [7ca2d9a2a0525f8848de5376befc0a432a4ea5c650fb249cb25237735ca323e4]: Extra data: line 1 column 531 (char 530)
+UNKNOWN: 2026-09-21 coldreader/phase2_plan_review touch 1-SPAWN [19c721b7e5adcae6c30a87ef6b5b303657b54411da40154202b898a9a44de82e]: Extra data: line 1 column 474 (char 473)
+UNKNOWN: 2026-09-21 coldreader/phase2_result_review touch 1-SPAWN [7d2cc902c4b1f7408d8b0d7b14f35b5f51a2021ee9db6c9965e626c071b964f1]: Extra data: line 1 column 553 (char 552)
+UNKNOWN: 2026-09-21 coldreader/phase3_plan_review touch 1-SPAWN [f0f316030c4de1d072d04dfd83a557b6e6da43d4bd4013ab9372d7ba316398fe]: Extra data: line 1 column 481 (char 480)
+UNKNOWN: 2026-09-21 coldreader/phase3_result_review touch 1-SPAWN [6ad7675d76f9c2d79da605b687ac9e01df231229a550cc8f600497c82a4e6942]: Extra data: line 1 column 557 (char 556)
+UNKNOWN: 2026-09-21 coldreader/phase4_plan_review touch 1-SPAWN [6db9b4a793a5e3c78c2308dc59b3d3d5e6495eb304db75dd61fdf7bb0f28d170]: Extra data: line 1 column 484 (char 483)
+UNKNOWN: 2026-09-21 coldreader/phase4_result_review touch 1-SPAWN [7da0cfd9e363cd51cf3431192ffe3efe9f34885100a5e9938eed21c816f74491]: Extra data: line 1 column 561 (char 560)
+UNKNOWN: 2026-09-22 coldreader/rebase_plan_review touch 1-SPAWN [80381e125ea4122f6f9691972c546712e068ef158f7343d45a0975be91ec8519]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-22 coldreader/rebase_result_review touch 1-SPAWN [f88a8c422c4af62fe1ac77827f8d15f9eb1bb4bd83cb1bdb429b1a90f95b94ae]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-22 TERRY touch 1-SPAWN [006e2678ca47cd757b4d947bc922cc92efa82b34471063c60628ae1e49afa4b7]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-22 FALCON touch 1-SPAWN [1f9149bdfa6bbdf5a74290abc37981550cee14787f6087ce2fe2afd4e833efc8]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-22 FERT touch 1-SPAWN [5acbd8aa9996eeaf42a80bf1a20ac3e72acbe26cdca328bbac943cb022f3d62b]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-22 inbox-triage touch 1-SPAWN [75ffb27ea6f436a77cf28cbd5354081c20e69773c0032738acdaa456a5cc45fa]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-22 LIQUID touch 1-SPAWN [69fe17c32f4ab5b90fb37a78d6b299376987d36db86b250cc9f4164702925b93]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-22 HAWK touch 1-SPAWN [0222a80c3969d88277caec34f4a2e77bcb2b26a624268650cc104621ebb7422a]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-22 coldreader/cruiseplancold touch 1-SPAWN [01360f809f3873fc68db54956fae262ec208ec16f4255ef1eef6bd4d6d2e8f7d]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-22 coldreader/l409plancold touch 1-SPAWN [9f06d3dc028a1a8c87382038cab52708d7df693923bf0fa76e9b5252d4d8be76]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-22 coldreader/wq263cold touch 1-SPAWN [49504ab8329440e11d9099be65086a3b7543358da0ab746b47cb88d225e29554]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-22 ARGUS touch 1-SPAWN [e5d5e950fc089f4384de7af83cd27b56a46458fa0cb14d2d8f9044d57aab2097]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-22 coldreader/l409v2plancold touch 1-SPAWN [f68cecba556e4b36c0596917d47b081ccd046ad9d96cee9425df322871012b54]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-23 LIQUID touch 1-SPAWN [934fff3ecc47b471454716519353efb9eae3bab28b904f2dae593634f2865405]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-23 FERT touch 1-SPAWN [dec46476b3fe6c4bec23968980ebc8e1c352e272ba2795df8e5fd472f465751f]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-23 explore/l429sweep touch 1-SPAWN [529ce4e51509401e8063beb4e4739bc6ea2c90408b08cea8062726daae629260]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-23 explore/l441sweep touch 1-SPAWN [7a9475d54b601b91994596759939da29c09ea69ed9c92a37739398621ef813e1]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-23 general/l446reader touch 1-SPAWN [785eaace20ea218c48d9550ff6bd364999e3c5f1df3e7f0b9bee6945bbcea42a]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-23 ARGUS touch 1-SPAWN [f8e43e2581130c9c04c792a4792c7b392fe993c4c6dcb9beab5e7f01afa5aa0c]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-23 ARGUS touch 1-SPAWN [fb8746bc50606c5c20a8dd3f3da55bf0105ddc6f8d9d605745f5beca73399541]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-24 DEWEY touch 1-SPAWN [e34a48a59bbb4ce0547e58a400e71b1fcb0e81b089888b7939c6b566ca65fa4a]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-24 ARGUS touch 1-SPAWN [e23f385bca9a858a47ace6ac0cb2bd79a59cac0e5bbf2a9a4c8840f757b93957]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-24 coldreader/scratchrot-26 touch 1-SPAWN [48ec78a46b96ccc340da0e1ee75f6d53e5657b9528184419efb9b0e52fd1d018]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-24 LABOR touch 1-SPAWN [286202c0195ea75cf79258a84ecb7c0c8ee0586c4653a65c594c0f46e2b36a18]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-24 OTTO touch 1-SPAWN [b3da18a732eb8030c6e52ccefb75741a66298c15b58789303f5ec7141e5d0bfa]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-24 NEXUS touch 1-SPAWN [853138c08a47edbb386207615f0db360ac4bc783df7a454d37fdd9e4c7f619ea]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-24 ORACLE touch 1-SPAWN [278645bad1c8f729b424713fa01736e876b9ab8c27352278cbe1bba5793ce1a1]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-24 coldreader/scratchrot-3f touch 1-SPAWN [b46517c6968f9324ab84ceef0ab6ff0345a491e0a12bd11e16be8f837c5f5802]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-24 TERRY touch 1-DOORBELL [81a6a62c9b58a05b534c5c4145a65f6cf270b10da5304ebbeab55df7f799d2c8]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-24 CARL touch 1-DOORBELL [92438f005ffecdbe13e39d9cfafbcd9fbf8177f72a4b0835e9cf1025de30ae95]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-24 MARCO touch 1-SPAWN [92ccd45182e5e0f882c59970bb6719aedaa5b369599a33f6570bae423a314462]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-24 DEWEY touch 1-SPAWN [3e5b2c1fc054e31863d6c53d118b63a19aa7c1e99dea1aa48ada8a539ef7bb7c]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-24 HENRY touch 1-SPAWN [bb3b05f8c4fb3112bd7427730860e4993b62ef9a558e6ed2e32996592b2b23e5]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-24 DAEDALUS touch 1-DOORBELL [3c8d9ae3c7f77d48c2e4185f4d40d1325ded3231e1d4b6b7090eb02de35deddb]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-24 NEXUS touch 1-SPAWN [8eed4a2ab3f2bc6d2f3096afbaa4f3202047ffac6f5fde3557d55a9b52e57644]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-24 coldreader/scratchrot-f5 touch 1-SPAWN [96f680532730cb66aeadbcd9936f433dd9eb2d6d6b44edb41e6bbf3ea1ccb938]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-24 coldreader/hb21plan touch 1-SPAWN [86f77cdb602750754823d51f6911aeaa28134ea20cfc4c115582886d6da4351d]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-24 coldreader/hb21result touch 1-SPAWN [fa8efae3c6561b9ee7529483f9d71fbe7e6766c333559f39642e21da2be29905]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-24 coldreader/scratchrot-1f touch 1-SPAWN [1a15c86fd681282b8013998297783e08ff63c63263bdb7fcfaf263fd45002e4f]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-24 argus/argus-1f touch 1-SPAWN [bf79a0a4ce0beae9ab408384a789e5a7f5ab6d8262ac42ee8057b12536c18507]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-24 coldreader/wq288plan touch 1-SPAWN [335407de7b88e1a9643f23272e0bd2e78825d6da9d0ac153cbdc463b38801fef]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-24 coldreader/wq288result touch 1-SPAWN [51f909832c2b9f8fd97405017009e033bae3453a7e0f77d728895935c5a34532]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-24 argus/argus-1f-b touch 1-SPAWN [c0973504478550a8c1feb1931ee43588f6cb797ae974606f9041a764e73d871d]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-24 coldreader/adrot24plan touch 1-SPAWN [13d82ed081f0097fcc6c95d54acdb9065726cadbc8fbed1d62a529e32fe835cc]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-24 coldreader/adrot24result touch 1-SPAWN [af41b8754d757cb6170a2e29dc6946ca13f31bca0b40eb6a34fdeaa308a31329]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-24 argus/argus-1f-c touch 1-SPAWN [7e60dfa19d1d5cd5066f73ca296088aa43dd3c06011133c6e30ec36b91507cff]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-24 argus/argus-1f-d touch 1-SPAWN [1ab536bc46523aef2bd4371f392b5b41f235a9ac7ff6cc10814f8a815820598a]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 VIOLET (Will's session, directed) touch 1-DOORBELL [6a002f70fa34869c1876de1faff152a85fd065f41d5b84a61afbf0cec3427fc5]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 HENRY (Will's session, directed) touch 1-DOORBELL [f947cf1b104c997b8d830dcf717bd850983ce33304f3f3a578f7a58a5306b79c]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 BOND (Will's session, directed) touch 1-DOORBELL [fbf8e20b85af48ae915a9b7f7e6e83839698179482f8547cafe468bb07e9df68]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 LIQUID (Will's session, directed) touch 1-DOORBELL [0d9195e8a37e300894b5c311e22364e065a6bb9113a5d70e0b753bb99aae3505]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 ORACLE (Will's session, directed) touch 1-DOORBELL [ded8c117937eba6dd16aec52deed8912b3104947075c5396a74785bec88a4627]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 coldreader/wq289reader touch 1-SPAWN [f6687a0bce88d830c17ff369dc9cb0b39a3b108c878e8d545fabb942cc46cf0a]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 coldreader/wq289reader2 touch 1-SPAWN [9d9fc9d5ab620ae1c092b00d137e78d7c1779e3338646e49ce0bf87d851f7591]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 HENRY (Will's session, directed) touch 2-DOORBELL [d27d05369c896f417aa50e916b3abcb42474319bc1c2895e342675c00c258164]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 BOND (Will's session, directed) touch 2-DOORBELL [594c6848edd1610234605e38665f35e503b3885d19fe665378a4d79e10002bba]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 HENRY (Will's session, directed) touch 3-DOORBELL [df5f5ca707a4a3353251f6291c83dbc65bd4c6f15e7f6d389f0c258e8ce0e702]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 BOND (Will's session, directed) touch 3-DOORBELL [b3c618a59e6a3f3b900f5b8bf1df33b6de17f36e0b818f239c7c1c6350d15d64]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 LIQUID (Will's session, directed) touch 2-DOORBELL [a37209ed1139ee4e08174ce504cf1b7a79b44c91033f75a5ded97c80363b34a0]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 VIOLET (Will's session, directed) touch 2-DOORBELL [7bc0029d49ec18fdffd8fe6c3ba1900f6a143dbacc29f27840e24c65dced5045]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 TERRY touch 1-SPAWN [664bd3648e0178ea9139d928b495ef6fd788cdde9070b80ef3694b523cfed0b4]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 BRENT touch 1-SPAWN [bd944218a10b0523bf18a53c79054214d920934aafd7b1dfdb86d9dbec6e50e3]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 BROCK touch 1-SPAWN [a9c431b86b48f334d5dfb3ec165d45989d591591aae480ea17998b2964c0ab16]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 RED touch 1-SPAWN [948eb9a21b8739ff1fdd60472eb71919fbf2111400b475f6932400b6056281ce]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 YURI touch 1-SPAWN [69dd80b331abe0524e88d6c25ed0eff4f6395a645c1bf909390b49625fda4fb9]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 ZHAO touch 1-SPAWN [3203d6e4c2eb671ab776b051ea183355f7951b2908c615cff976aaed67cbc9bc]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 PROME-reader (wq289reader3) touch 1-SPAWN [0dc2d8cd7cdb2c58c4f8c2c7fffaeb3aa20f86beb8a645cd75d9873a12ae5eac]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 PROME-reader (l455reader) touch 1-SPAWN [af453c6f6acb1ec77f632dfc08a8181f0ede2ad613af38222e9f2693b1223a8e]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 PROME-reader (l417reader) touch 1-SPAWN [c20de7b7a377ac294d3f381ea3c18cca39e45fa22d526678413121fa92648802]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 PROME-reader (wq289reader4) touch 1-SPAWN [b72b58f7aa1f40a13d5ec5ac93c39d5881be4e691418758b07a7e11fa15f7d14]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 PROME-reader (l455reader) touch 2 [7572c246014389f33ae00291e5e0f79a782fc20c88bb26785dc424d7d305565a]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 PROME-reader (l417reader) touch 2 [31485b21ed26042d40b613f473eaf213ee1d5ae687a76720e62b4c48c9bc689f]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 RED touch 2 [4d78cda2e3146ac3ad743179b4af1f68716eae57df3b4148f9b4622190f21c3a]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 PROME-reader (wq289reader5) touch 1-SPAWN [8eba6293bac237fd523fd9fbb4a2d142a142522799feb6364ab06abf88fcb52c]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 ARGUS (argus-2e) touch 1-SPAWN [bd49fc893ed069d29d908111fde502ad1a499c7e58813ef2b8fb84bc56e3d7f8]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 HANS touch 1-SPAWN [93f8dd4c04c510809dc8c65d136e33f88dc83b95286952f8c08dbc38909757a7]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 DAEDALUS touch 1-SPAWN [2ad9defd56237101a6594caaceb4a32e1f4b98c8edc037ccfc72c026559d916a]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 HAWK touch 1-SPAWN [b479716ce0436e3762c8f959c3f4837420d47ee29d0bf5be30c496c5d1b27933]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 PROME-reader (cruiseplan2) touch 1-SPAWN [bea42922a530148065325b98ab001a51d9ff3237cb31d08b3bd532421bcb3497]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 PROME-reader (cruiseresult2) touch 1-SPAWN [3ebf9e252038f5c3893d11d6b3466bac113ca5deffdb788b07d6cc83b58e92e9]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 LIQUID touch 1-SPAWN [5bb967ae636f66e616cccae5963f3e4bd3543c544b5ef599f243eb1c30e98f1a]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 BROCK touch 1-SPAWN [62be7833a9567af1c34361330351bdda68c1d9992eac2f97807fd61c253d7d2c]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 TERRY touch 1-SPAWN [43f11921bdb851694805accaa34122bacc1b14f9982872641344997798d84872]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 PROME-reader (hb22plan) touch 1-SPAWN [080df05aef21c0141d3465e5a878cbf89d3ca77c8372571897a505a04bb6ecca]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 PROME-reader (hb22result) touch 1-SPAWN [6f2d2173d2958104cd7a57ecd5e1e8644ede2cf9a1393409cb0849c32cab94e8]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 PROME-reader (scratchread3) touch 1-SPAWN [5e3838a5d3dd9225de453abf29ce73572af78d9c0df8e20267332038a80fdc64]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 PROME-reader (scratchread4) touch 1-SPAWN [28c6b5a77b2a0c4e7073e5614623ad9a6ef20b356542b53d2e7d6988b767dc63]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-25 ARGUS (argus-2e3) touch 1-SPAWN [b1f70693de7aa8f9ed55ad27d9e8177aae369e6a8952bd37101880a1959a3490]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 PROME-reader (wq299result) touch 1-SPAWN [a1f4852da191dab7c7876bfdefda284e95883606df119ecd657d22857fba3151]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 PROME-reader (bytefloweread1) touch 1-SPAWN [1a937e15cca26768515565a36efbcf53e2be496b9f9548b2b8d4f1388e51cb0c]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 PROME-reader (bytefloweread2) touch 1-SPAWN [3c783bae26a7bc997b71130b1742ec624178de858b0c30f1713f58c9784b774f]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 PROME-reader (bytefloweread3) touch 1-SPAWN [5d48ca125845afbde615fe4e7df5740f837335a1a557ed0f4ba03590de6add3f]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 ARGUS (argus-1d) touch 1-SPAWN [98032a9fa9519c4e59682f5e31c9acf494994171c2bf27c6d6665433a05c90ba]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 HAWK touch 1-SPAWN [582f886a09a833d6292d25264d04290670631ce2f605db825b257167eb4984df]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 LIQUID touch 1-SPAWN [e5df6c4b05665ab5e569a8562fc5d3d86a53090cf1915b5e8fa4bc95d8d35cbd]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 BROCK touch 1-SPAWN [e2c444cb71798c79a3c22436979502c80493c993eb903590eb30c6d96c186ba6]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 DEWEY touch 1-SPAWN [7828c63705e32a36eb1b5b184d5aacbb0bf46249005ce31d932dddce0c6c7b18]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 PROME-helper (pricelookup) touch 1-SPAWN [4739aa897eec66a294846df2b9da664ec89d6b4e10b285eaf3fa7f2db0b59562]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 PROME-helper (publish1) touch 1-SPAWN [73345458a99bc1aee9b2245cbd52b4ac49fc46a10e3f17540d1210c2668e782a]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 PROME-helper (publish2) touch 1-SPAWN [f31bd2f7a50889390e79e7535412d8e12eb5a05415080e63f45135631eb899bf]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 PROME-helper (restore) touch 1-SPAWN [26a7972a03b35bc6f18cc84c24dac75c04c0ed2bb5ce3fb5427080974fc09385]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 TERRY touch 1-SPAWN [63e5bac1676babee019fd907e232e61ef2728142cf8059a8dcd5aec0c908b159]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 LIQUID touch 1-SPAWN [10d73bcf2f395385d3133b58197bfb32a6aa13537b992474fe6897417c65d776]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 HAWK touch 1-SPAWN [1d5633b0255a7e04916f54c5c8ad4776c904ab396091804a0f0c6cf47d846ca0]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 BOND touch 1-SPAWN [772bb007aabd8a11f842eae7b0997ffb8f67f31f4be3fccaff432d366b52d48d]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 YURI touch 1-SPAWN [e3ca877f4e916d660e443a370c4a491ed001d316404eda1f0969411da9d4778d]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 TERRY touch 2-RESPAWN [e2c65ad4eb136505cce6a8839d88536dce6ca3894ca39a6ca8a482c1e79f7af0]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 PROME-reader (bytefloweread4) touch 1-SPAWN [25f8c398f09fe7bd403ac648af9ade580a1135dcad5a51174f16b72cb06485f6]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 PROME-helper (publish3) touch 1-SPAWN [a81b62cb488fdbb362e8c611064df4f2f1ffc61102e148d9f587eae894e42fca]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 PROME-reader (bytefloweread5) touch 1-SPAWN [6797b8037720f46d7038f48a561593aafe82f6fea7eb38b3f71eecb5bd2ada70]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 PROME-reader (bytefloweread6) touch 1-SPAWN [0aaa822735c0adb70a09798bf9131d449d9df242694d5aa77f5dbb173a4c7102]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 PROME-reader (bytefloweread7) touch 1-SPAWN [0185ec12d72fc11a0304669f22784f19c478263cb81789338c54c7223334fe5c]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 PROME-reader (bytefloweread8) touch 1-SPAWN [7c1a3c3b563943f7211ba8454d00027352519f5a96a184c80b09f05d37b0e75b]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 PROME-reader (bytefloweread9) touch 1-SPAWN [fd4f903fccaffb0d005184fec3facbdcbf05792aa39d65b9865f32b619e9ffe4]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 PROME-reader (bytefloweread10) touch 1-SPAWN [3004afa0844ed36e273586e6de42c451ae5d94f2a2a1facf1d223758518c5a2e]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 PROME-reader (bytefloweread11) touch 1-SPAWN [f1465129fc389ed0fa3c18dae050c5ae75568c04cf04fc4bfdea5a172cb8fbe3]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 ARGUS (argus-1d2) touch 1-SPAWN [6895e2fba6aac333e9f33b23191f79b96880fe45a9d2183fa72088946b6295e4]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 PROME-helper (publish4) touch 1-SPAWN [8a563a4e485589f074d5b4f35daed2cc5b72db5de2629bd858c775934c81b006]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 coldreader (l511result) touch 1-SPAWN [16478a05c3d245db467ad4c024425fa3d015191f44ef564429593dea21933307]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 general-purpose (l511exec) touch 1-SPAWN [edb36fe0c5bf56eff0450cb73cb4eb50727f3a137f978d3ed0b4604e257655be]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 Explore (rotplan) touch 1-SPAWN [b363b2f84dc7879f3712c2fe9717dce346bc57181dfbe96c84bc1d144ae33c05]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 Explore (rotresult) touch 1-SPAWN [03496bd06a3b38d13853135386b00dffac484942df5e2d6e12073efbac5d0f71]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 ARGUS (argus-br) touch 1-SPAWN [0654e878870e34359f85749a413d1267a94c5b500ee2b5c23e457298773bf40b]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-26 PROME-helper (publish-br) touch 1-SPAWN [dbad3719ae7a25a567f5867eabec49c968cb98bfc9a9074f8d836c5625b60b19]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 ARGUS (argus-b09b) touch 1-SPAWN [c180708b7a1dd47074f2a8d9f736aa7459e7dc39562e29171c8315e8c14df027]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 PROME-helper (publish-b09b) touch 1-SPAWN [39e44ff21b48ce028602ff21ad3ae69f6ec6b5618d678bb009bbc9031a1fb34f]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 REGINALD (reginald-ec) touch 1-DOORBELL [153041b6645ae19209297b16aa4cca22bf3d30e77884d565c8fb45efad4209c7]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 CREED (creed-ad) touch 1-DOORBELL [0206031b855c9ca3e6699366a734df131696ccc79448cc1a6e600ef5765bfa42]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 WAL (wal-f5) touch 1-DOORBELL [7e1f60bd0780dfc22517fa08bc1e395d5b8936d2c5a727ab44ab03ff9d5aea87]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 DEWEY (dewey-6c) touch 1-DOORBELL [c71eb98f5d004af6b0ec668c919eafa0d148d46a7aab3bec1c9821264c562f27]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 ORACLE (oracle-c4) touch 1-DOORBELL [5fa22917a5af3efe08a2dee1560df01b3f926239692c8593aca0639090094557]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 COLDREADER (coldread-plan3) touch 1-SPAWN [2be00e35692910f6a4d1120f35918330b9c0cdebd9e2b8570f3e61f7fc94f87b]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 COLDREADER (coldread-synthesis) touch 1-SPAWN [989c24f58b70be2f92599c4e8a8f8f6436211e54319f72361e73dcb64e8876c0]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 COLDREADER (coldread-addB) touch 1-SPAWN [324ac3f4d843d597a84c91ed29be5e3255432469beb5ca3ad0eaf618efe956ca]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 COLDREADER (coldread-handoff-plan) touch 1-SPAWN [57739d2e8baa60914b7e42957d9fce4e0032b197ced0c9393e381fbbfc7b20e0]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 EXPLORE (handoff-result-read) touch 1-SPAWN [46edbcd0ea2affee48499386b0e3a7449f62037258fb3a7ed299e9efc2cc9d77]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 ARGUS (argus-prome09) touch 1-SPAWN [150344e01e92d1176f4fe8acdceb082e323a7d17b0c7620df3f6a819cfb74d09]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 PROME-helper (publish-prome09) touch 1-SPAWN [b093c4200d97eb73cb3fbd503651e5262d50605b21aec6ce08cbb48135c7a2c3]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 ANVIL (anvil-0927) touch 1-SPAWN [fb815ffd58688ae781c986e207bfeea1fed5d889dadc2ce80415e604e4b1cdb3]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 REGINALD (reginald-47) touch 1 [fea3e072a11361e53eb1314db01237e25a4626e8ed883273c1be19328a3396dd]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 CREED (creed-9d) touch 1 [bf25e6489485d7d9051d59312237441002e34edf448ca805625509179df2f34e]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 OZK (ozk-17) touch 1 [c15a19880ed760daf843e22136f7f725aa2faa29d8ecd51197f18e1c61dc661e]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 FLG (flg-ec) touch 1 [64fdc408ae747b9c628934a1c2d9028280d28fee6145d24b06dc7fb8d9b4114c]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 WAL (wal-e0) touch 1 [c8200c71627df1ef4fbd6621697dcb8a056c8e4f4f729c96e8082b91b0ed5f7c]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 CREED (creed-9d) touch 2 [8069676eba15e37ad38bb444662008853f28755f0d224140b8163a8f7f04f015]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 FLG (flg-ec) touch 2 [e6d6abb2bb2ab1b4ecdefae26588b53cda549680f984b926e40d1ed5c387ebb0]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 REGINALD (reginald-47) touch 3 [68f0afeb717f0f90957995f30d941858c737bd6a74f8a2700ae62c7a2a3b8925]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 CREED (creed-9d) touch 3 [58216dc2698daed2b73f88024f466d73953fb2bc52ddf3ab8b145d7cb6b03f79]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 FLG (flg-ec) touch 3 [26a88b0386e5dd0f47226114beaa46a9a366d2dbd5554caa45c2186688c919fc]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 REGINALD (reginald-47) touch 4 [e7e0fa329f7811653d971a98ecdf1d4e92c996f8148bfb8da52b08a72cc652be]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 CREED (creed-9d) touch 4 [635c461a0ecf7079882aac83b3c21e57da3d1e4ca1202f918f141bc1b7240d30]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 REGINALD (reginald-47) touch 5 [80e954bb006def60976fe3d7dddffba6f016f21fbac0fe77ad3bb849f6dc1b47]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 OZK (ozk-17) touch 2 [f93ed39025561ff0893b6928ed1d522cb80f30c2ceea480a317a96e11daa3b50]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 FLG (flg-ec) touch 4 [452fa9ff0eb91814ba74a9b3c7b944c9d40e631a80c15ee85ee502513740e371]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 WAL (wal-e0) touch 2 [5e3ac5e8c31e95b29eb7cfe826d92642f6e5ddf6824aabd5d1d00e0fd4a03d6b]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 CREED (creed-9d) touch 5 [d3d3abc1a8aeb7d6561d0436e3dcd90dbf2a844c4191e50491177fbcc9df91f1]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 REGINALD (reginald-47) touch 6-CLOSEOUT-PING [ea556f3319e0d9cf04fcdb49a71eb44aeb230a16b09833d8278ce1bad9f30477]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 CREED (creed-9d) touch 6-CLOSEOUT-PING [4418ca3e78f79704eb851bced867ddee632ab9d6fc7e1dcad5797afaff2fce1e]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 OZK (ozk-17) touch 3-CLOSEOUT-PING [84edc97dde3568d74686b6d0dd8dddbab065dc4511cc6af5b9b6c65d1a2f68ff]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 FLG (flg-ec) touch 5-CLOSEOUT-PING [2c2c906a0b64803478b60977628c3fc54debe696d365d79e53f9f57df61d3065]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 WAL (wal-e0) touch 3-CLOSEOUT-PING [352150ca9667f5ad3f0a65400a73d4a70aebffc5fe140ed59551473d71832218]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 ARGUS (argus-prome9b-eve) touch 1-SPAWN [84c5c29187028e4b8fe66349b3b8d18e63d9ed639badbdc670ca67e75f80a864]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 PROME-helper (publish-prome9b-eve) touch 1-SPAWN [703647d7965c8a01541bcdee7e15a32ba7c7d4cfd61f93ef8461d51b62a83cdd]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 ARGUS (argus-prome9b-eve) touch 2 [4cb1e1d0a8c5879e6d642d54d5045522738a136fc7b9dc988a751ed295114eb8]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-27 PROME-helper (publish-prome9b-eve-2) touch 1-SPAWN [1ce56852e249ad6ebdefdbadefbe9ab0fb36153b70b652e4a8e4df5585a1cab1]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 OTTO touch 1-SPAWN [b3d24606c361f8099ee74dfaade94c9fce515f54a37d2fa0deaf0d1d4e9a889d]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 LIQUID touch 1-SPAWN [7356735fb7d66b7cada061270da926cf927a2d3ee2c3b73af821f6ddab2b59c5]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 ORACLE touch 1-SPAWN [a36c4d41468698fca3b7eb55589bde5a8ff8bf15057e4df766fd56a24c61a791]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 TERRY touch 1-SPAWN [ce543db7bf503bbf20545e09751f03ee262a3f9ac52c3b373fd3f54f55224f4a]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 LIQUID touch 2-DOORBELL [d3e108c1f0e3aee2877eb17993b506aa085259d8532aa65047d065061dfe7dc2]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 LIQUID touch 3-RESPAWN [65adc22335191e165b9e4f9d5391c098fb53af8f9fd981c444b31ea2d3933ed3]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 coldreader/scratchrot-plan touch 1-SPAWN [eadbfad966b0e7c967ccbbe2bf53046408f8b7e15f4244b0e3be3c94f2a41995]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 coldreader/scratchrot-result touch 1-SPAWN [3727ac87a996959e336c2d0054f0240325527f55e25eb8d5332ff183bafc55d5]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 ARGUS (argus-prome7f) touch 1-SPAWN [ebceb08bf01729897145df529163c5dce4bab71254c39110d642364baba6df81]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 PROME-helper (publish-prome7f) touch 1-SPAWN [c49644bb31fe84fd988e367733e1277bbc98ce8a7b6a2e75e8a37ddff6165b0e]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 CORAL touch 2-DOORBELL [999693f715f6fc1a506c665c8d6f0d6b89c7a66fb90f71c92c8c444a539f43bc]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 BRENT touch 2-DOORBELL [850d75d0e992e9a64e319c8da51aa6b1fa052ecbca7fde749ba1f9f854dd14b5]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 HAWK touch 2-DOORBELL [a96afe595c0e94b4c3bb446a52297948fea76fce4014a1f8ca9eeef1ad53ed6f]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 WAL touch 2-DOORBELL [cdcb34eeae9c0af07fd38782de11c5900d07cf548b416c32d9dbac5451bf2f42]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 WALTER touch 2-DOORBELL [76dbb2cb52cbfa869caaf2a13674b164570135a1c98a1733c39b4e0e0bb74fd5]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 BOND touch 2-DOORBELL [2a40e8f9cf7e4dcf20e2c232b17e79949d369cd922a9c649c9549845ba1138ad]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 CORAL touch 3-DOORBELL [9e44b53202612f51f6aef1659ab5e7b86cac2a0578c9ce55f08affb79596db26]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 CORAL touch 4-DOORBELL [3787a4300dbfcd4b484f588a4ba97ffbea376a7acd94fad22186fba97d8720f1]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 CREED touch 2-DOORBELL [e5fc507acd4acaeb4e4504179405167c22abd609185e43ec7c3165639408c275]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 PROME-helper (publish-deck-1527) touch 1-SPAWN [e7d2626ca384f68c1962fb85a1129328c6b5ba1ede85fe6879aebd451b971a7f]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 ARGUS (argus-prome7f-2) touch 1-SPAWN [526b7388d78202cd2cc45f6fe361903d6caebdf52cc6235f63560f3824ab6485]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 PROME-helper (publish-prome7f-2) touch 1-SPAWN [9f1ecfdd223f85bdbd8cf770ddeee26ab76cf37ba35b1279a869533bd17e7852]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 WAL (wal-6d, Will-launched, live idle) touch 1-DOORBELL [f405f0f867ea99d70aab5121d23234ecb1e6104bc2cc3c84990ebce765301c5c]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 BOND (bond-d6, Will-launched, live busy) touch 1-DOORBELL [dab59cb80a74c9301ee7c078955638c828b82ddba0bfe2d91235e900b3e3b209]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 ANVIL (anvil-fills-0928) touch 1-SPAWN [b6bc1daad3c53772f6173d2dd9923aa339de8b30cc424a0361baad5c932b5ca8]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 TERRY (terry-vlo-0928) touch 1-SPAWN [d9e03a68d60bd352e2385c5309db341aa1e25021b1f16e3ebf23cb07a60a7553]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 coldreader/rot-s3-plan touch 1-SPAWN [916b59bc09aeb326660a12ef55ee3fd8976a4111ee3d12e0808e48d2c5932b59]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 ARGUS (argus-prome7f-3) touch 1-SPAWN [588ef98621c74b86ed7b86e0cd3f9a0d68c9941e4b9beaafb5813805e8850ea0]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 ARGUS (argus-prome7f-3r2) touch 1-SPAWN [b87fe76ea02bb0ba714cae8503314901e43c95e7292502c709c84ffc98bc738c]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 ARGUS (argus-prome7f-3r3) touch 1-SPAWN [e5916f1bf7c2e7720a2359b6415da1e7dd0a206b0f41da9b6b26a4a16b93dd58]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 PROME-helper (publish-prome7f-3) touch 1-SPAWN [6c8194dc57b21094d3902cb9187a737949c9667ff615801142c625434691e209]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 coldreader/hb23plan touch 1-SPAWN [535682900b035a30523c08008e2a473373654f89e2ee06abdd5fad1b11ad1327]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 coldreader/hb23result touch 1-SPAWN [66b0e014f2d3e6e22f0a7f288f9148b7acee3747572bd55de938fdd230ec7377]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 ARGUS (argus-prome64) touch 1-SPAWN [6c203c723e12a25b7348465ee36ae10ccc9d9159a1e89376072a847ceb18ec16]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 coldreader/rot-prome64 touch 1-SPAWN [212565f2e6322aef9693a7c1cc4e7d495da52b62ae53dac2d63a79c1d952744c]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 ARGUS (argus-prome64-r2) touch 1-SPAWN [5864a6d1ffeb65b4e2e6ddb8b1825fdadfb1314844dd6141e5fc012e33107726]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 ARGUS (argus-prome64-r3) touch 1-SPAWN [ada8814e8dc4ce972fe5bafbb6f9b7065041807bda35c90edae25991144ee3f0]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-28 PROME-helper (publish-prome64) touch 1-SPAWN [e6ab53de3c927fa020784b71f7e495bd03a5b12dfa0f0ab619ae5e0524bc98e3]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 CRUISE (cruise-l221) touch 1-SPAWN [ad3968a278fa533de52c292dc74e2c1b1b7de35d5a0ce2334b3f2add9d18d092]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 RED (red-l525) touch 1-SPAWN [dd77da965baa7f609e36b478199c7c63ca58d64661612e0feb37f147e82bf8a3]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 BOND (bond-l525) touch 1-SPAWN [1da82b13a7506cff30a23e29ef81c583baab1406e42fcee5cd2313620958eba9]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 ARGUS (argus-prome82-r1) touch 1-SPAWN [8472009b85bd7df15bcef4251cb6d70f8787cab1ef19186cb7fe582f9161d0dc]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 ARGUS (argus-prome82-r2) touch 1-SPAWN [df080c930444a196ef993125fae27ff4336c46bbe0afffb2a8753570a3498dff]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 PROME-helper (publish-prome82) touch 1-SPAWN [9f02f855c57959e838526c11f45230ea72736885591aeca8784b389dd2986a58]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 CRUISE (cruise-l221b) touch 1-SPAWN [39b2504b5d58a3219df1033360bce73d5f444355ec62f25c226b18c87a451c85]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 BOND (bond-1e, Will-launched, live idle) touch 1-DOORBELL [bdde15114311f03de731ce9fadbc92643fb41285ae4871543abb0eac8f255102]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 BOND (bond-1e, Will-launched, live idle) touch 2-DOORBELL [e0f716fe955fe8e91c220a5442d768d689d3df10f69d161206ac1d6505d4de39]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 NEXUS (nexus-46, Will-launched, live busy at boot) touch 1-DOORBELL [6f521f268dc0fcd90c5fc868110c63ac3fadeff1bd5c4d6e81f0e22e09f0f176]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 WALTER (walter-7d, Will-launched, live idle) touch 1-DOORBELL [ad4cbd6395c643de56692e80668335709023dfcb9efd85028f39f472460fb70f]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 coldreader/bondbriefcold touch 1-SPAWN [509d88b3aee51c124e73f1bb9f2c790c903e190213b71ffc6fb2cba4fba7d84a]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 coldreader/bondauctioncold touch 1-SPAWN [a70880bcf32e3455f88d0d3ccb9e5b4af7cebbd94c6003a83fcf16b84f229786]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 ANVIL (anvil-0929) touch 1-SPAWN [dfe501bda972092ecca71ece14b645583c965b839b6eb5a44e7e5e82c1d5b8c7]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 coldreader/l462plancold touch 1-SPAWN [c98ab4ddbc65e06b0314d9508965ff910c485723b1d7a5067d155ebe54b8d6aa]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 coldreader/l462resultcold touch 1-SPAWN [0b308619d17a4150c0d225cea7f9081ac7f234a59d22b1862dba73c977420a71]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 BOND (bond-1e, Will-launched, live idle) touch 3-DOORBELL [678369ed4c783030e4776b9e8e7ae35368cf3b42b68e44322f31a57e86185965]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 BOND (bond-1e, Will-launched, live idle) touch 4-DOORBELL [997b6a63fce13210729e13689ff3b442b0586045e5d72b3c0543c7fa616d04e3]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 NEXUS (nexus-46, Will-launched, live busy) touch 2-DOORBELL [6f216f5244e11b47b6341cbca04fa09f961c0a8b1d401dcf075214e54acceac6]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 ARGUS (argus-prome-e6-r1) touch 1-SPAWN [fc1b90bfc33f60394920d151d1238542692c3516065fd11ecc00f80dfcae7b61]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 ARGUS (argus-prome-e6-r2) touch 1-SPAWN [5ce13ddd081795ffbbc8103524bf6318bb1d2d759e661389f2a42e0c8b4577fb]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 NEXUS (nexus-46, Will-launched, live busy) touch 3-DOORBELL [102b6c0d4f4a28faecda27b65bc8308bb3a594167d9942174c341dcb4080b36c]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 coldreader/nexuschartercold touch 1-SPAWN [f6909252f383525edb8fe5bcd05cc2bd7cfad317f2d10e529e69a383e6386883]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 NEXUS (nexus-46, Will-launched, live) touch 4-DOORBELL [77cb685113501e5315e836a7c183e7a96788bef6b3a5b41f6047bd9410203366]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 NEXUS (nexus-46, Will-launched, live) touch 5-DOORBELL [a41c5c0c57cda7d36c78b4ffded2255886ca3ebdbfaf23c56a1a194db80850de]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 NEXUS (nexus-46, Will-launched, live) touch 6-DOORBELL [38d0fd601d37c73f30d6699598f497eb15e37076992332629292f68515f2065a]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 NEXUS (nexus-46, Will-launched, live) touch 7-DOORBELL [89479789988c0a0ae0b97f18b4adc17af0dcab6c3d57eb107c77277a13a3e52d]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 NEXUS (nexus-46, Will-launched, live) touch 8-DOORBELL [a0e8bced52bba317d9b26bf35ed3be3da4b2f8e4f9f9af53bdff0846a579e414]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 NEXUS (nexus-46, Will-launched, live) touch 9-DOORBELL [593ec6085548a0f7d46ae1ebdf5d8056ca91de5c6eef182dd6dfc7b1498abde7]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 NEXUS (nexus-46, Will-launched, live) touch 10-DOORBELL [e23663fd4b5e886720a698e426fb8bb2fc41946a3b14ad0b4623b375e53196d9]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 ARGUS (argus-prome-e6-r3) touch 1-SPAWN [202402430852a9c111041dc5564d8a3a0e96a25360995cbcf6a39f07ec366ca1]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 COLDREADER (hb24-planread) touch 1-SPAWN [1c20978a8f2aa99e69e4985a3897911bbebaadf0c0224cb5a4fad507ee266b34]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 COLDREADER (hb24-resultread) touch 1-SPAWN [deadb24962d104680282a0f50396d67ededd021a900b9ddbf510c43c6961f324]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 COLDREADER (nexus-charter-read2) touch 1-SPAWN [dd3bccc65d8caf754891f2737579fa2c656bb53c35ea74611a9b5528cbd22882]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 ARGUS (argus-prome-f4-r1) touch 1-SPAWN [71339b7aad4799c4036bfa9d6e7842feda45f9dbb779a86e0a889a067c789d19]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 ARGUS (argus-prome-f4-r2) touch 1-SPAWN [2afb1adeca04119ed6c4d65b788f0e931384d663e2df850b327358f1a9a6c366]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 ARGUS (argus-prome-f4-r3) touch 1-SPAWN [da71423aea92eb071585a5f587a88da907c7e561fe8ff84db762e61e59b463e5]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 READER (creed-stale-pass) touch 1-SPAWN [ae80e5d04baf93144e714c43ec2a19c783f74af5ea6fa5cf1eb9cceb04115865]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-29 CREED (creed-77, Will-launched, live idle) touch 1-DOORBELL [3026cf829cf03fae68833cea7275a2dec94ebdeb72b23627b11e1ee4848d62fb]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-30 TERRY (terry-0930b) touch 1-SPAWN [cf72f78c6cb681af12ae3ce97c675831315b618d9533c3c1458a79b385800664]: Extra data: line 1 column 310 (char 309)
+UNKNOWN: 2026-09-30 HENRY (henry-0930b) touch 3-RESPAWN [ca887145d47fb35b7ca9d5663c287827c170b36e9a208ee04d39180f041aab0f]: Extra data: line 1 column 296 (char 295)
+UNKNOWN: 2026-09-30 OTTO (otto-0930) touch 1-SPAWN [203b7f5eff285ecea7aa41e79641fb7b1d231db747a2e3786100495aeb078d18]: Extra data: line 1 column 288 (char 287)
+UNKNOWN: 2026-09-30 ZHAO (zhao-0930) touch 1-SPAWN [c8e8cc154a15ed8cc8fe865dfeab91659a8b6ddeba563ed29778a1805310661c]: Extra data: line 1 column 294 (char 293)
+UNKNOWN: 2026-10-01 WALTER (walter-54, Will-launched, live busy) touch 1-DOORBELL [3b85aea94a22d07035e3b715f7485e3fdc3cd94f2cd9e56d0dc77c93feb88899]: Extra data: line 1 column 158 (char 157)
+UNKNOWN: 2026-10-01 WALTER (walter-54, Will-launched, live) touch 2-DOORBELL [dbeeeccc797459fbb1a29d5dbd7e2d65ee088b4ff8b22810e4dce0700c3ddfa4]: Extra data: line 1 column 158 (char 157)
+UNKNOWN: 2026-10-01 WALTER + CREED (walter-54 · creed-d3, Will-launched, live idle) touch 3-DOORBELL [a07d090a2f73d496b11b16d85efdcf0e891db4f1387934b073f6da59e8057cdc]: Extra data: line 1 column 158 (char 157)
+UNKNOWN: 2026-10-02 DAEDALUS (daedalus-1002c) touch 1-SPAWN [23487786dde280e3aa59f1d4945a07ee8a91782d35edce4b842cabc90d60f67f]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-02 coldreader (coldread-wq237-plan) touch 1-SPAWN [2f217daa55a15cca5d8400af19940845ba113e7056996ba2a18efd597330f7d0]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-02 coldreader (coldread-wq237-result) touch 1-SPAWN [9755794a5b513d45c85cb94ebf33f55b0a48fb07377ba21cf9e23ab5ce84ea47]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-02 ARGUS (argus-prome-dc) touch 1-SPAWN [30273baf8935fe2536b6a393007866f39ffa62e9582b75962f787b3be8c1a06d]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread-x-bookmarks-build) touch 1-SPAWN [76695d974f3a339b87cd3f1d0d9aba73952aa58b842d0813a45eac4575df9550]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread2-x-bookmarks-build) touch 1-SPAWN [45924d308b26018e3f9526ba335ba87685e5f8a3331be51d57b8f209d442969a]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread2-x-bookmarks-build) touch 2 [98401950fa283d23b7c62a4686329cf845b352398d20175dfd616fe59ef97acf]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread3-x-bookmarks-build) touch 1-SPAWN [b38f2121ea2048c0f50ec476efc4ff232f866d6df22856445e5e1abeff7ad8b7]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread3-x-bookmarks-build) touch 2 [60814eeb4a96a4dda04f7986684efe13d5ecc5373940b6fedfb22f8f66e86e79]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread-closeout-plan) touch 1-SPAWN [6aba384f7959a441073690daf71f2383834a77ff1456bbfcf8aa34a76e3c120b]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 CRUISE (cruise-1003) touch 1-SPAWN [d2a00be5969278564725db6836e62ec39cf50b43c3ef71f38ca752d7e468c476]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 CRUISE (cruise-1003) touch 2 [3265b90bd1cf020447d1fd430ef659db41c426f783d5a133ebac11c9afb44f4e]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 general-purpose (reader-helm-split) touch 1-SPAWN [c34bbbca5a163708f9cbaeca36558f086d89cc66341da7c039fa63023f8b8cc1]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 general-purpose (reader-helm-split) touch 2 [79252d2d13b21f22c466f4466c358a03394614dd188f4b7d6f416527226b998c]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 general-purpose (read3-helm-split-fixes) touch 1-SPAWN [51629c655e68f581605840881d98e5d710ded82d891a425d3c750de25fa8b683]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 general-purpose (reader2-helm-snapshot) touch 1-SPAWN [2615f6c2f12cb5ccd0781159323cdeb299c61051c6c3db546c3759a74b704f71]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 general-purpose (reader2-helm-snapshot) touch 2 [034e48d546a5ffa1d824375a7b8904c930789faa1dddfe9a6cd1f3b77d4e52ad]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 argus (addendum-5) touch 1-SPAWN [29e21bf25069a069fb2c808e561b4ca77ce6f1a4a25123639afad7cb8b7f1a10]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread-l600-ranked-table) touch 1-SPAWN [06e3ade40a86fed7e9d194beddf55b0771207c0fe30933d504c89021f3f63bec]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread-l600-ranked-table) touch 2 [7d248e4d8884c471db49f473d2a9ab656bc6c0df3c2f566b1d90fe1a8c1961f7]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread2-l600-ranked-table) touch 1-SPAWN [cf9722b540d673c27e70878f9c7d49ee2bfbf9a0d8cc803300af999e0efc54fa]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread-gates-step3-plan) touch 1-SPAWN [f45faa5156262bb5cf42c88914cf1969026e8b3af0d212e4291f7f59995d8f98]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread2-l600-ranked-table) touch 2 [5ef59f243c9b20adb562cf1cbd5b6f3be369e9cdfeb1104baadc9bd487b6fea4]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread-gates-step3-plan) touch 2 [b4134306442b7168b6fabbe68ca456fabd28b8c2220860ed672ac120b8db86e0]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread2-gates-step3-result) touch 1-SPAWN [4d219dda7205b2d9104f4601dc7bf3c78b229066dbd186b66568b453ed23fd1c]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread2-gates-step3-result) touch 2 [0614a5ccdc105d30a9de4bc7e2d11df136ccc85a2bea779d2f69b7685f5c9378]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread-rotation-bundle-plan) touch 1-SPAWN [8165def4de40ed739e4411a4079a5ce61e04b9016fbc417b199781bcc8106218]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread-rotation-bundle-plan) touch 2 [b83b2e1ff342e4c024b7b35041de31403396bc6a40285c89c484e0e324b505e9]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 ARGUS (closeout audit, prome-ed post-/clear sitting) touch 1-SPAWN [d9f61ea42ca49df37b3a2d2bab88d525ca3214ae56c7ea97d676c448e89fe410]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 ARGUS (closeout audit, prome-ed post-/clear sitting) touch 2 [15ec0c0e651ef96636f058cee9739589902d12cca82540a5f4aadc467a0acaeb]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread-wq377-rereview) touch 1-SPAWN [069e046061a10dea0fa38f8a3a186ef5d95f1514aaeec3135ca0e31b57ebe18b]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread-wq377-rereview) touch 2 [1d1b29a240f92e07dd0caa066b4304ca855e288d61277b5fd51613cd7ae4806b]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 WALTER (walter-f0, Will’s window) touch 1 [d80418dd8a60577aec0942e43a06438f9aaaa202655f4aef8a2ee2b14a5fd650]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 general-purpose (accretive-trial-opus) touch 1-SPAWN [a709bdf059d8ce3df9377b29f4b62cfb570365c4c9a9d721e76527f5160bd7b2]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 general-purpose (accretive-trial-sonnet) touch 1-SPAWN [d3a71e577fa0906e0c3ed27917360f6a08fc33a0d90298a8dab717e9a4c746dd]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 FALCON pre-fetch (read-only, outcome ②) touch 1-SPAWN [85dc71f1d583dd88609ddb2427d7fae93370a49eb9424e38e72a9b6a7fb933b5]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 FALCON pre-fetch (read-only, outcome ②) touch 2 [a5e49d9fe1837f77ea5dc913aa2f716ed4219ffc3e8bb0f1d38509fb56cea364]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread-wq380-correction) touch 1-SPAWN [f8c59cd10d13e6192dd368e7ae2459f15044f0ea155c20b18d88957157dde98e]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread-wq380-correction) touch 2 [bac508dc8eb0f315e3343d6def695a4985485fb2e262474e1c998adf5edf93cb]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread-wq379-row) touch 1-SPAWN [185d2cc77771ecccad7442a4897c5667885474594baa7f8d35082e9347222f1f]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread-wq379-row) touch 2 [a328e09a34af6fc7737424bdfc928f9c46f7e5fec4353090ce4d13af58dde710]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread2-wq379-row) touch 1-SPAWN [a718e046ff1291f8fdb78e8bc990b460c1d3385844c8725f9d9b48fd1b5feab3]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread2-wq379-row) touch 2 [d467764ea580a3105935a9895995c9e84a756a45c769c40293a1c2ed23da45d6]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread-resume-evening) touch 1-SPAWN [c23e32e730cfab59c57c6ab63da64211fff3f36b41807895b57d8c9ae62587e6]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread-resume-evening) touch 2 [9c59f5bc354aefb7fb19b4cf30c3882b325a57afe1f5b92c3759640213cdd0b9]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 ARGUS (closeout audit, prome-ed Saturday-evening second sitting) touch 1-SPAWN [938b214da9cdd53dc942527ddf6bc495521f6308b6ae0e6e877ea5938bb41f43]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 ARGUS (closeout audit, prome-ed Saturday-evening second sitting) touch 2 [cf6e465f1d0e2feb48f21bb555e3b9ff5d425cf6fb504f10cecff58c48385d47]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread-argus-fixes-evening2) touch 1-SPAWN [443ec07333b1bbb2d951fe866877b482332a3000ba5b6dce734d04995f5a6df9]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-10-03 coldreader (coldread-argus-fixes-evening2) touch 2 [e0c254020d3c445b898d71b8443f3d6160269caeb9ae8d074fe51ec10169aaff]: missing or duplicate structured closeout evidence
+UNKNOWN: spawn inventory coverage UNKNOWN; ledger absence cannot prove no spawns

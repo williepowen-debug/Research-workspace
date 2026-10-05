@@ -1,0 +1,65 @@
+[
+  {
+    "path": "CLAUDE.md",
+    "bytes": 24199,
+    "lines": 133,
+    "crc32": 2662368348,
+    "crc32_no_final_nl": 3682307883
+  },
+  {
+    "path": "USER.md",
+    "bytes": 4626,
+    "lines": 87,
+    "crc32": 1064727127,
+    "crc32_no_final_nl": 3424582282
+  },
+  {
+    "path": "PROME/CLAUDE.md",
+    "bytes": 34340,
+    "lines": 104,
+    "crc32": 1811750354,
+    "crc32_no_final_nl": 2569426556
+  },
+  {
+    "path": "PROME/BOOT.md",
+    "bytes": 24801,
+    "lines": 140,
+    "crc32": 2040636303,
+    "crc32_no_final_nl": 1920031525
+  },
+  {
+    "path": "PROME/HANDOFF.md",
+    "bytes": 12239,
+    "lines": 42,
+    "crc32": 2150414833,
+    "crc32_no_final_nl": 1186220729
+  },
+  {
+    "path": "PROME/SCRATCH.md",
+    "bytes": 26585,
+    "lines": 63,
+    "crc32": 3741661440,
+    "crc32_no_final_nl": 1790751616
+  },
+  {
+    "path": "PROME/ACTIVE_DECISIONS.md",
+    "bytes": 22755,
+    "lines": 45,
+    "crc32": 1973993699,
+    "crc32_no_final_nl": 3439923182
+  },
+  {
+    "path": "PROME/STATUS.md",
+    "bytes": 21078,
+    "lines": 83,
+    "crc32": 3575886852,
+    "crc32_no_final_nl": 1285525518
+  },
+  {
+    "path": "HEARTBEAT.md",
+    "bytes": 24267,
+    "lines": 72,
+    "crc32": 2252780339,
+    "crc32_no_final_nl": 2584451068
+  }
+]

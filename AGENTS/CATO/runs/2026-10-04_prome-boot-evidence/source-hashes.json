@@ -1,0 +1,78 @@
+{
+  "head": "5f7233fb7c5c1473d232ded65c1320affd3d06ea",
+  "files": [
+    {
+      "path": "CLAUDE.md",
+      "sha256": "1b176d7b3c619a78dbabe4128f23451fa32a074554f391804707aec7623a3c73"
+    },
+    {
+      "path": "USER.md",
+      "sha256": "dd29984e63dc988ecd31fd043287c87ca0fc611362c40e9feb493ae842bde538"
+    },
+    {
+      "path": "PROME/CLAUDE.md",
+      "sha256": "87d02389837d47dc27960a23aeb57b998f4921f2392c256616c85a87a741f841"
+    },
+    {
+      "path": "PROME/BOOT.md",
+      "sha256": "b2385f70b0011de0467528e2869ecaee8bf379a820314d8ede16a6fca92901aa"
+    },
+    {
+      "path": "PROME/HANDOFF.md",
+      "sha256": "b3a4d0653c82b9a5af1dc5f08c760b3548fbf90a70e4104492eb1bd7744a75d4"
+    },
+    {
+      "path": "PROME/SCRATCH.md",
+      "sha256": "6d23b076eccb32e88076d58c6649bf2ac0200ca85be2f5022fcd9b7f4566fdf2"
+    },
+    {
+      "path": "PROME/ACTIVE_DECISIONS.md",
+      "sha256": "3ac901d4db226de56597016f089e2dd14d0f77f5e117b9b751c3058e2f04f5aa"
+    },
+    {
+      "path": "PROME/STATUS.md",
+      "sha256": "63e9e16304f3741752734e70432ece1640e30150b7b30e0cee102f1e0c3aadfb"
+    },
+    {
+      "path": "HEARTBEAT.md",
+      "sha256": "68a66504a032dd5b52a5147829a62d5a1d52551da2b3119eb94da2ec0f2e01af"
+    },
+    {
+      "path": "PROME/.claude/skills/boot/SKILL.md",
+      "sha256": "98003a588f40e2173c88333d8704451a981e23362410fab07859c81c4b4a3105"
+    },
+    {
+      "path": "PROME/registry/READS.tsv",
+      "sha256": "08089da3eb98eaf5285a14c90039eeda09166237fee81942878bef555bc32f38"
+    },
+    {
+      "path": "PROME/tools/boot_read.py",
+      "sha256": "503fd9378ecc6ff7872a58567f43c56d4ad00c53a4a0f2806a13d448d3e05860"
+    },
+    {
+      "path": "PROME/tools/orch_closeout.py",
+      "sha256": "fd6b48390d1fb021ee771128e6bb6577991cabc4bd06e74a3dd53933f3c567c8"
+    },
+    {
+      "path": "PROME/tools/SESSION_PILOT.md",
+      "sha256": "519e32298f78ba71bba51de84e854e89f414122f55893592678650339b8715e4"
+    },
+    {
+      "path": "PROME/tools/decision_deck.py",
+      "sha256": "af701b83d54a3b4013f1b50fea42796b77d70586afed46ae963719a48b7e2f78"
+    },
+    {
+      "path": "PROME/tools/will_handbook.py",
+      "sha256": "d30da1100625e33bad130ca67ff81a1291804c55600cb48f59c3fe3128d56285"
+    },
+    {
+      "path": "PROME/reports/2026-10-04_2210-boot-receipt.md",
+      "sha256": "8aa9f1b9b7964a3cdfd8f431717316b962101af7f599b11a8a4193cdb04abc08"
+    },
+    {
+      "path": "PROME/plans/2026-09-21_boot-phase3-log-reads.md",
+      "sha256": "31413720938d1512209d237d366f62b01585f65768942c19ea589412b83eb90f"
+    }
+  ],
+  "scope": "Selected clauses/code/outputs reviewed; hashes do not certify full-file content or tool access in another session."
+}

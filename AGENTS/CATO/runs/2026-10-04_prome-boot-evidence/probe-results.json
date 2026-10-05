@@ -1,0 +1,69 @@
+{
+  "pinned_reader": "5f7233fb7c5c1473d232ded65c1320affd3d06ea",
+  "groups": 14,
+  "repeated_gap_rows": 478,
+  "regex_matches": 285,
+  "not_matched": 193,
+  "dates": {
+    "2026-09-01": 3,
+    "2026-09-02": 25,
+    "2026-09-03": 8,
+    "2026-09-04": 8,
+    "2026-09-05": 3,
+    "2026-09-06": 5,
+    "2026-09-07": 7,
+    "2026-09-08": 8,
+    "2026-09-09": 4,
+    "2026-09-10": 25,
+    "2026-09-11": 15,
+    "2026-09-12": 8,
+    "2026-09-13": 4,
+    "2026-09-14": 13,
+    "2026-09-15": 6,
+    "2026-09-17": 6,
+    "2026-09-18": 36,
+    "2026-09-20": 1,
+    "2026-09-21": 2,
+    "2026-09-22": 13,
+    "2026-09-23": 7,
+    "2026-09-24": 27,
+    "2026-09-25": 41,
+    "2026-09-26": 36,
+    "2026-09-27": 41,
+    "2026-09-28": 38,
+    "2026-09-29": 39,
+    "2026-10-02": 4,
+    "2026-10-03": 45
+  },
+  "pages": {
+    "full": 16,
+    "orch-compact-v1": 14
+  },
+  "measures": [
+    {
+      "path": "original",
+      "bytes": 93391,
+      "lines": 531,
+      "crc32": 1725829515,
+      "crc32_no_final_nl": 3611308534
+    },
+    {
+      "path": "compact",
+      "bytes": 78159,
+      "lines": 545,
+      "crc32": 1860749103,
+      "crc32_no_final_nl": 2360064187
+    }
+  ],
+  "fixture_results": {
+    "VIOLET": {
+      "groups": 1,
+      "all_identities_preserved": true
+    },
+    "VIOLET (Will's session, directed)": {
+      "groups": 0,
+      "all_identities_preserved": true
+    }
+  },
+  "meaning": "Presentation-cost limitation; data preserved. No live boot or receipt repair."
+}

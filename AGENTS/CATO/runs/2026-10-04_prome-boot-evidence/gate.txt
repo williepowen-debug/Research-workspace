@@ -1,0 +1,74 @@
+
+======================================================================
+  PROME GATE · BOOT · ✅ PASS (10 blocking / 25 advisory)
+======================================================================
+  ⚠️  [advisory] orchestrated touch closeout evidence (WQ-249): rc=1 · UNKNOWN: spawn inventory coverage UNKNOWN; ledger absence cannot prove no spawns
+       full output: /tmp/prome-boot-20261004-2210-codex/checks/00-orchestrated-touch-closeout-evidence-wq-249-.txt
+       → Enumerate ORCH_LOG touches, including read-only helpers. Request closeout via the actual runtime before handoff; record evidence in notes. UNKNOWN is not DARK or a receipt. Reconcile --expected-key values from the tool record with --inventory-complete; without that attestation inventory coverage remains UNKNOWN. Reporting only, not BLOCK.
+  ✅ [BLOCKING] position_agreement: rc=0
+       full output: /tmp/prome-boot-20261004-2210-codex/checks/01-position-agreement.txt
+  ✅ [BLOCKING] board_scan: rc=0
+       full output: /tmp/prome-boot-20261004-2210-codex/checks/02-board-scan.txt
+  ⚠️  [advisory] exempt-desk BOARD gap (§3.5 pull-complete desks vs their ledgers): rc=1 · → 1 desk(s) flagged. Rule: the ledger is the DESK's to fill — packet/doorbell it (§3.5.2: a reader who cannot 
+       ↳ ⚠️  RED: ledgers [AGENTS/RED/board_log.tsv, AGENTS/RED/archive/board_log_pre-2026-08-28.tsv, AGENTS/RED/archive/board_lo… [preview]
+       full output: /tmp/prome-boot-20261004-2210-codex/checks/03-exempt-desk-board-gap-3-5-pull-complete-desks-vs-their-ledgers-.txt
+       → the ledger is the DESK's to fill (§3.5.2) — packet/doorbell the desk; no ledger ⇒ the desk owes one; never grade on its behalf
+  ⚠️  [advisory] firetime (owner-routed flags persist): rc=1 · → 20 flag(s). Rule: a DATE flag means FULL LOGIC RE-READ of the artifact (a date fix can break gate sequencing
+       ↳ ⚠️  PROME/DOCKET.tsv L471 · PROME/proposals/2026-09-24_wq-batch-284-252-285-286-RULED.md · AGENTS/HENRY/reports/2026-09-… [preview]
+       ↳ ⚠️  UNREADABLE: [Errno 2] No such file or directory: '/home/willi/Research-workspace/PROME/DOCKET.tsv L471 · PROME/propo… [preview]
+       ↳ ⚠️  …_from-DAEDALUS_cadence-and-watch-terms.md · AGENTS/DAEDALUS/runs/2026-09-25_INBOX_DISPOSITIONS.md
+       ↳ 32 additional flag(s); read full log
+       full output: /tmp/prome-boot-20261004-2210-codex/checks/04-firetime-owner-routed-flags-persist-.txt
+       → scripts/firetime_allowlist.tsv · DATE flag = full logic re-read, never find-replace
+  ⚠️  [advisory] agent freshness (ground-truth vs narrative): rc=1 · unread from-agent packets in PROME/inbox: DAEDALUS×1, WALTER×2 — drain before briefing/spawning those agents
+       full output: /tmp/prome-boot-20261004-2210-codex/checks/05-agent-freshness-ground-truth-vs-narrative-.txt
+       → run PROME/tools/agent_freshness.py --agent <NAME> before ANY launch brief; drain first
+  ✅ [advisory] R1 corrections check (FORUM-6 ①): rc=0
+       full output: /tmp/prome-boot-20261004-2210-codex/checks/06-r1-corrections-check-forum-6-.txt
+  ✅ [BLOCKING] GATES fired-unexecuted: none
+  ✅ [BLOCKING] GATES token vocabulary: 20 rows all lead with enumerated tokens
+  ✅ [advisory] GATES consumed_by (consumer passed / cell empty): all LIVE rows have live consumers or declared NONE
+  ✅ [BLOCKING] GATES review_by passed — LIVE INSTRUMENT rows: no live INSTRUMENT row past its review date
+  ✅ [advisory] GATES review_by passed — LIVE JUDGEMENT rows: no live JUDGEMENT row past its review date
+  ✅ [advisory] GATES last_checked blank on LIVE INSTRUMENT rows: every live INSTRUMENT row carries a last_checked
+  ✅ [BLOCKING] GATES gate-citability (WQ-250 ③, L417): 0 hits over 22 files · condition cells: 0 · 18 of 18 LIVE rows' letters read
+  ✅ [advisory] DOCKET overdue-unannotated: every past-dated PENDING row carries an OVERDUE annotation
+  ✅ [BLOCKING] DOCKET buried state token (row invisible to the canonical reader): every row containing PENDING leads with a state token
+  ✅ [advisory] generated calendar freshness: rc=0 · FRESH generated block · assessed=1 · as_of=2026-10-04 · snapshot identities in full output
+       full output: /tmp/prome-boot-20261004-2210-codex/checks/16-generated-calendar-freshness.txt
+  ✅ [advisory] handwritten calendar coverage: rc=0 · EMPTY dated scope · matched=0 · assessed=0 · unassessed=0 · ignored=0 · generated content EXCLUDED
+       full output: /tmp/prome-boot-20261004-2210-codex/checks/17-handwritten-calendar-coverage.txt
+  ⚠️  [advisory] WILL_QUEUE fresh + nothing due/passed/aging: ROLL-OFF **292 TWO ITM PUTS INTO OCT-16 (done 8d ago)
+       → PROME/WILL_QUEUE.md (act on DUE TODAY; reconcile PASSED; date/decline AGING)
+  ✅ [advisory] aged waits (WQ-221): ⛔-waits rows whose blocker is dark ≥7d: no ⛔-waits row has a blocker dark ≥7d without a dated deliverable
+  ✅ [advisory] willq_view drift (SCRATCH Pending-Will block vs WILL_QUEUE OPEN): rc=0
+       full output: /tmp/prome-boot-20261004-2210-codex/checks/20-willq-view-drift-scratch-pending-will-block-vs-will-queue-open-.txt
+  ✅ [advisory] HEARTBEAT amendment chain (<4): chain at 1 amendment(s) (header-declared count agrees)
+  ✅ [advisory] boot-read tables: no over-celled rows: rc=0
+       full output: /tmp/prome-boot-20261004-2210-codex/checks/22-boot-read-tables-no-over-celled-rows.txt
+  ✅ [BLOCKING] dashboard state is the product of the latest build (L339): last build 2026-10-04 21:56 succeeded and produced this snapshot
+  ✅ [BLOCKING] dashboard panels nonempty: one-liner/channels/levels populated
+  ✅ [advisory] dashboard vintage ≤72h: built 2026-10-04 21:56 (0h ago)
+  ✅ [advisory] dashboard content assertions (PAT-105): one-liner sane · split populated · tile floor met · grid agrees with freshness
+  ⚠️  [advisory] boot↔closeout symmetry: boot-reads with no symmetry row: BOOT.md, USER.md
+       → PROME/CLOSEOUT.md symmetry table (add paired-write row or declare one-way)
+  ✅ [BLOCKING] .claude/{agents,skills} root↔PROME parity: 9 agent/skill definition(s) identical
+  ⚠️  [advisory] desk catalyst summons (BD-02): VULCAN 2026-10-05 [P2] CME + Silicon Data list cash-settled COMPUTE  (in 1d)
+       → WQ-184 L0 applies: a due desk-ledger row with a dark owner is a Tier-1 spawn (ListAgents first) — never grade on the owner's behalf; registry = SUMMONS_LEDGERS above
+  ✅ [advisory] spawn list — L0 due-row candidates (WQ-184): rc=0
+       full output: /tmp/prome-boot-20261004-2210-codex/checks/30-spawn-list-l0-due-row-candidates-wq-184-.txt
+  ✅ [advisory] spawn slate — prepared stanzas (advisory; RETURN FOUND is a pointer, not a grade): rc=0
+       full output: /tmp/prome-boot-20261004-2210-codex/checks/31-spawn-slate-prepared-stanzas-advisory-return-found-is-a-pointer-not-a-.txt
+  ✅ [advisory] session evidence beside ALL due rows — fleet presence UNKNOWN: rc=0
+       full output: /tmp/prome-boot-20261004-2210-codex/checks/32-session-evidence-beside-all-due-rows-fleet-presence-unknown.txt
+  ⚠️  [advisory] declared read budgets: rc=0 · declared PROME perimeter · assessed=1 · reads=7 · over_budget=0 · over_cap=0 · manifest_defects=0 · advisories=0 · generated_flagged=0 · rotation_due=2 · active_decisions_over_budget=0 — rotation due (READ_CAP.md rule 5)
+       full output: /tmp/prome-boot-20261004-2210-codex/checks/33-declared-read-budgets.txt
+       → READ_CAP.md · PROME/registry/READS.tsv · full output names affected reads
+  ✅ [advisory] auto-memory byte budget: MEMORY.md 17912 B / 25600 B (69%)
+  ------------------------------------------------------------------
+  CAPABILITIES — never gate unrelated work; reported every run until RESTORED
+  ✅ [AVAILABLE  ] machine credentials (env_doctor): present (NOT authenticated — the point of use is the authority)
+       full output: /tmp/prome-boot-20261004-2210-codex/checks/cap-machine-credentials-env-doctor-.txt
+======================================================================
+  ✅ all blocking gates pass — advisories above are judgment calls, read them.
+
