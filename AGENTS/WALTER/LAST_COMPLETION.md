@@ -1,11 +1,12 @@
 # WALTER — LAST COMPLETION
 
-Session: **2026-10-05 Codex, Will-launched boot**. Receipt 2026-10-05T13:17:29Z. Prior completion preserved verbatim in `research/2026-10-05_boot/prior-LAST_COMPLETION.md`.
+Session: **2026-10-05 Codex, Will-launched boot + shipping-transcript intake**. Receipt 2026-10-05T13:17:29Z. Prior completion preserved verbatim in `research/2026-10-05_boot/prior-LAST_COMPLETION.md`.
 
 ## STATUS
-**PARTIAL.** Explicit root CLAUDE.md, USER.md, AGENTS.md, local CLAUDE.md and named memory/startup sources read. Own STATUS/MEMORY/LAST_COMPLETION/REGISTRY, routing table/overlays, four threshold registries and fire logs, Iran anchor, event-window state and ORCH_INFLIGHT loaded. Root and Research-Intake pulls succeeded after filesystem escalation. Intake0new; no correction packets/DEWEY/drop-zone/REQ; phone lane0items. X scan reported no local token. No new dispatch, kill, verification spawn, trade or changed gate.
+**PARTIAL.** Explicit root CLAUDE.md, USER.md, AGENTS.md, local CLAUDE.md and named memory/startup sources read. Own STATUS/MEMORY/LAST_COMPLETION/REGISTRY, routing table/overlays, four threshold registries and fire logs, Iran anchor, event-window state and ORCH_INFLIGHT loaded. Root and Research-Intake pulls succeeded after filesystem escalation. Intake0new; no correction packets/DEWEY/drop-zone/REQ; phone lane0items. X scan reported no local token. At boot: no new dispatch, kill, verification spawn, trade or changed gate. Subsequent shipping intake added four signals; boot coverage remains PARTIAL.
 
 ## CHANGED
+- Shipping continuation: BM-20261005-01 closed 5/5; four PRIORITY BOARD signals (-001 through -004), thirteen create-only handoffs. One duplicate attack recap and one no-action piracy disposition retained in `research/2026-10-05_shipping-transcript-triage.md`. No new trade, gate or owner-state change.
 - Dated market observations, registry headers and boot continuity refreshed; previous state archived verbatim. Owner risk/status colors and approvals preserved.
 - Intake baseline reconciled (+0/-0).
 - Stale carry reconciled:907e29ccc is an ancestor of origin/master; FALCON005/010 adjudications completed; HENRY owner adoption exists; WQ369 ruling already registered by PROME (encoding/review distinct). WQ384 scanner cold-read completion is recorded in the prior reconciled tail; no new independent code review claimed here.
@@ -19,12 +20,13 @@ HY324bp [Oct1] remains1/3 on RED-FT-02/REG-T-03. No new fire established by the 
 - **READS/boot-basis review:** three changed basis paths (CLAUDE.md, design/BOOT_PROTOCOL.md, scripts/read_cap_check.py); reads_check attestation UNKNOWN. No blind re-hash. HANS THRESHOLDS33544B exceeds32550B budget; owner remedy still owed.
 - **Receiving readiness:** doctor initially0HIGH/6MED, closing0HIGH/4MED after two stale-header repairs. Aged queue127 across22desks,23ACTION104INFO; oldestACTION7d. Basis delivery_log.timestamp_routed, two fallback mtimes in full scan. Legacy malformed/non-dispatch telemetry and overdue AI_INFRA_CAPEX coherence-review prompt retained; not new research authority.
 - **Capabilities:** Codex app-server lists WALTER/PROME/CATO active; wider/multi-runtime census UNKNOWN. Native Claude ListAgents/SendMessage/Opus/routine controls and Telegram unavailable here. Codex thread listing/reading/messaging now exposed (incoming PROME coordination received); no claim of equivalence to full Claude fleet controls. X token absent locally; `bdata` not in PATH. Shell/git/web/read-only market tools work with required approvals. No hosted Artifact publishing tool identified.
-- **Publication:** this boot is local work; no push under concurrent foreign PROME work. Existing named Oct4 publication commitments were verified at fetched origin. Final local commit is recorded by Git history; no new delivery rows.
+- **Publication:** shipping signals and ten handoffs prepared for local commit; BRENT is active, so its three create-only handoffs remain uncommitted under the subtree rule. All thirteen await publication; no consumption claimed. No push under concurrent BRENT/PROME work. Boot commit b98a2223b remains separately tracked in the receipt.
 
 ## WILL_NEEDS
 Existing execution rail only: **QQQ735P Oct5 x5, if still held, sell-or-roll by15:00ET** per TERRY's approved-management workflow/card. Quantity and live bid must be reconciled at broker; Oct1 mirror is not position truth. This boot places no order and requests no new trade approval. No new research or process proposal.
 
 ## FOLLOW-UP
+0. Shipping: commit BRENT’s three new handoffs once its active session no longer prevents a subtree commit; then Will-coordinated publication and delivery reconciliation. HAWK/YURI readiness remains UNKNOWN across runtimes, not DARK. No automatic wake.
 1. Today: TERRY held-line check; HENRY ISM Services first print10:00ET, grade HEN48–56 by16ET; HY Oct2 observation around10:15ET. PROME reports HENRY/VULCAN/TERRY wakes planned, not verified running at this receipt.
 2. Finish the exact scan/filter/basis gaps above before claiming full boot or a full-board all-clear. HANS cap remedy remains owner-owned. Individual recipient consumption still needs owner evidence; HENRY's adoption must not blanket-clear others.
 3. Iran: fresh heat is real per FALCON; facility/cause/production loss unknown; full sweep~Oct8. Oct6 FALCON leg2 review / WQ252 / OctSTEO; Oct7 BRT31+Cushing; Oct8 claims+PMMS; Oct9 CableOneMBI+FDICNanoP&A; Oct13 KS WARN; Oct15–16 LIQ07; Oct17 pilot review; Oct28 450FifthSt; Oct29 ECB.
@@ -36,12 +38,12 @@ Approvals preserved: WQ377 launch-only bookmarks/default dig and financial-backl
 Carried process ideas unchanged: (k) end-of-session review; (t) re-search routed state-dependent stories; (u) liveness with in-process spawns; (a) WALTER on every data day; (s) lane date versus event date; (j) BRENT boundary scanner coverage; (p) boot BOARD-count check. These remain ideas, not newly authorized work.
 
 ## CLOSEOUT RECEIPT
-Dated evidence and diagnostics under `research/2026-10-05_boot/`. Publication list below is the prior reconciled Oct4 scope; this boot0 dispatches and0 handoffs. Oct4 deliveries30/30 publication-proven, not consumption-proven. HASH-bound owner pointers retain manual scope. `closeout_check.py` output saved alongside the receipt; its PASS is limited to explicit checks and fetched origin.
+Dated evidence and diagnostics under `research/2026-10-05_boot/`. Publication list below retains prior Oct4 commitments plus the boot commit; current delivery scope is October 5 shipping (0/13 publication-proven). The intake commit is added after it exists. Earlier Oct4 deliveries30/30 were publication-proven, not consumption-proven. HASH-bound owner pointers retain manual scope. `closeout_check.py` output saved alongside the receipt; its PASS is limited to explicit checks and fetched origin.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-05T13:17:29+00:00",
+  "as_of": "2026-10-05T13:48:24Z",
   "publication": [
     {
       "commit": "10f9375b9",
@@ -94,17 +96,21 @@ Dated evidence and diagnostics under `research/2026-10-05_boot/`. Publication li
     {
       "commit": "8a2dbfa65",
       "state": "published"
+    },
+    {
+      "commit": "b98a2223b",
+      "state": "published"
     }
   ],
   "delivery": {
-    "signal_date": "20261004",
-    "total": 30,
-    "delivered": 30,
-    "note": "Oct4 historical scope:30/30 publication-proven; does not establish recipient consumption. This boot0 new handoffs."
+    "signal_date": "20261005",
+    "total": 13,
+    "delivered": 0,
+    "note": "Four shipping signals; 13 local handoffs, three BRENT subtree commits deferred while owner active; no recipient consumption asserted."
   },
   "push": {
     "all_walter_commits_on_origin": false,
-    "note": "Prior named publication commits verified against fetched origin/master. This boot work awaits local commit and Will-coordinated publication; foreign work present, no push."
+    "note": "Concurrent BRENT/PROME work; no push. New intake commit to be recorded after local commit."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -130,7 +136,8 @@ Dated evidence and diagnostics under `research/2026-10-05_boot/`. Publication li
     "HANS registry read-cap remedy",
     "Remaining recipient consumption verified per owner ledger, never blanket-cleared",
     "Iran full sweepOct8; facility identification and UKMTO authentication remain unknown",
-    "X/BrightData pilot reviewOct17; local access gaps"
+    "X/BrightData pilot reviewOct17; local access gaps",
+    "Shipping intake: BRENT three handoff commits deferred during active session; coordinated publication of all thirteen and delivery-log reconciliation"
   ],
   "next_review": "2026-10-05"
 }

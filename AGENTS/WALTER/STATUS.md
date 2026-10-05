@@ -19,6 +19,8 @@ Monday priorities are the existing QQQ735P Oct5 sell-or-roll deadline, September
 | CREED | Registries/fire log read; T08a owner fire9/26 preserved. No new September Trepp primary validated in this boot; periodic/event coverage incomplete. |
 | Iran | FALCON Oct4 adjudications: fresh heat at25.252N48.103E, facility/cause unknown; production rung NOT FIRED, losses3. UKMTO150-26 source authentication unresolved. Full anchor sweep lastOct1; later owner correction014 governs fresh-heat interpretation. |
 
+Shipping intake reviewed 2026-10-05T13:48:24Z: four qualified signals recorded; no new price observation or threshold adjudication. Dated levels above retain their original observation times. Receipt and current duties: [LAST_COMPLETION](LAST_COMPLETION.md).
+
 ## MISSION
 
 Routing + receiving-layer readiness; domain agents own evidence, state and judgment. COP retired. Charter IDENTITY governs.

@@ -1,3 +1,7 @@
+## 2026-10-05T13:48:24Z — shipping intake; light-closeout — full deferred
+
+BM-20261005-01 closed 5/5; four PRIORITY signals, thirteen handoffs, one duplicate story and one retained no-action item. No gate change. BRENT active: three subtree commits deferred; publication deferred under concurrent foreign work. Boot PARTIAL gaps and approvals unchanged. Evidence: research/2026-10-05_shipping-transcript-triage.md.
+
 ## 2026-10-05T13:17:29Z — Codex Will-launched boot, Tier-2 continuity refresh; PARTIAL coverage
 
 Zero new dispatches/kills/spawns. Root/local startup and operational scans run; manual threshold/filter reads remain incomplete, read-basis attestation UNKNOWN. Existing approvals preserved. Old summaries archived verbatim in `research/2026-10-05_boot/`; exact current duties in LAST_COMPLETION. No process/code change; no push.
