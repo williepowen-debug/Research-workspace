@@ -1,12 +1,12 @@
 # BRENT — NEXUS Brief
 
-> **Task audit 2026-10-05 10:25 ET — C6 (b) SCOPED-PARTIAL; STATUS commit `cbefb6676`.** Re-verified inbox inventory, receipt/prediction/correction checks and owner task records only. WALTER -005/-006 await joint freight/WTI interpretation; -006 carries Will-directed manual-watch priority. No market, broker or incident refresh. Morning data and assessment below retain their original vintages; all approvals/deployment deferrals stand.
+> **Session closeout 2026-10-05 10:29 ET — C6 (b) SCOPED-PARTIAL; STATUS commit `cbefb6676`.** Re-verified handoff and live inbox count: WALTER -005/-006 pending joint freight/WTI review, first research priority next session. Dated checks, maintenance debt, owner boundaries and deployment/paid-data deferrals saved in SCRATCH. No market, broker, source-integration or incident refresh; morning evidence retains its own vintage. Session closed, no unattended work started.
 
 > **2026-10-05 10:04 ET — C6 (b) SCOPED-PARTIAL; prior data-refresh STATUS commit `701cd4e2f`.** Re-verified: 09:32–34 futures/09:44 equity quotes, EIA wk-9/25, lagged FRED, GIE gas day 10/3, JWC index/PDF, current Saudi/export/policy sources, TERRY card ×1 addenda and WALTER intake. Not re-verified: current broker holdings, official settlements, COT/rig grades, old incident facts and older SENDING rows. Prior banners/text preserved in [before-image](archive/2026-10-05_market-open_before_NEXUS_BRIEF.md): 24,189 UTF-8 payload bytes, crc32 `0acca8d2`; payload after first standalone separator, outer whitespace stripped. Deployment remains parked.
 
 **Status:** 🟠 Weaker crude-spike case; product tightness persists. Phase 2 unconfirmed; stand-down maintained.
 **Domain:** Oil/energy physical balance, structure and transmission.
-**As of:** task audit 2026-10-05 10:25 ET | STATUS commit: `cbefb6676`. Market observations 09:32–44 ET; supplemental retrieval 09:50 ET unchanged. [Task handoff](SCRATCH.md) · [evidence](research/2026-10-05_market-open/REPORT.md).
+**As of:** closeout 2026-10-05 10:29 ET | STATUS commit: `cbefb6676` (unchanged). Market observations 09:32–44 ET; supplemental retrieval 09:50 ET. [Owed-task handoff](SCRATCH.md) · [evidence](research/2026-10-05_market-open/REPORT.md).
 
 ## CROSS-DOMAIN
 
