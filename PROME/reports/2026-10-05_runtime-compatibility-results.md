@@ -43,3 +43,17 @@ Human intervention: one confirmed technical Git grant for the scoped commit wrap
 Instruction commit: `a7dca2602` (exact eight-file scope; pathspec wrapper verified). Author verified committed instruction blobs against the independently reviewed hashes. Ruling/plan authority was committed at `4090efccc`; existing-owner brief at `14e9911b1`. Local persistence is established; this task does not claim a full PROME session closeout or remote push receipt.
 
 At 10:37:51 ET, direct native follow-up still found HENRY waitingOnApproval and BOND active in its production turn, with no returned test receipt (`2026-10-05_runtime-compatibility-owner-followup.json`). Thus manual Codex remains PENDING (request accepted, execution/consumption/closeout not demonstrated); spawned Codex remains BLOCKED / NOT RUN. Claude manual/spawned and mixed handoff/recovery remain BLOCKED / NOT RUN. No end-to-end compatibility case has passed, and no live interrupted-message recovery was performed. The approved remaining work retains its authority and current owners; no further rule approval is being requested.
+
+## Will's follow-through direction — October 5, 2026, 10:45 ET pickup
+
+Will directly instructed:
+
+> 1. Answer HENRY’s existing technical prompt if it matches the intended research command.
+> 2. Let BOND finish production work, then collect its compatibility result.
+> 3. Complete the Claude and mixed-runtime tests during the next suitable Claude Code session with verified tools.
+
+HENRY command check: MATCH to the already-approved boot/current-market/gamma research. The exact pending request observed in its rollout at `2026-10-05T13:16:31.714Z` is `../../.venv/bin/python3 scripts/boot.py`, cwd `/home/willi/Research-workspace/AGENTS/HENRY`, `sandbox_permissions=require_escalated`, with justification requesting current CBOE and market data. The boot script calls market/gamma/credit helpers; its research data/cache side effects remain within the existing script authorization. This is not a trade instruction. Native direct status remains waitingOnApproval. PROME has the user's authority to answer this matching request, but no exposed tool can respond to another session's pending shell approval. App/plugin permission tools do not answer that dialog. NO approval response was submitted; no restart, substitute execution or permission expansion attempted. Required UI action remains the matching prompt in HENRY's existing window.
+
+BOND acknowledged reading the WQ-385 brief and committed authority via native message, while explicitly still working on production research and checking/committing its records. It will reuse the already-required fetch and owned artifact and report natural work-unit closeout without ending Will's session. This acknowledgment establishes brief consumption, not completed test delivery. PROME waits for the actual artifact/receipt before grading.
+
+Claude manual/spawned and mixed bidirectional/interrupted-notice tests are now explicitly deferred by Will to the next suitable Claude Code session with verified tools. Preserve WQ-385 authority and acceptance conditions; verify owner coverage and actual launch paths at that time, do not re-request approval of the same tests. This is a future-session resume obligation, not a scheduled unattended job or a compatibility PASS.
