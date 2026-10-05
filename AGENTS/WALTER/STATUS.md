@@ -1,12 +1,12 @@
 # WALTER STATUS
 
-**Updated 2026-10-05T13:17:29Z — Codex, Will-launched startup. Boot PARTIAL; exact coverage and operational gaps in [LAST_COMPLETION.md](LAST_COMPLETION.md).** BOARD 1216; no new signals this boot. Prior STATUS preserved verbatim in research/2026-10-05_boot/prior-STATUS.md. No approval, threshold, routing contract or owner grade changed.
+**Updated 2026-10-05T14:30:10Z — Will-directed Tier-2 closeout.** BOARD1222; today six dispatches, zero kill-log additions, zero verification spawns, one cluster-mediating signal (below five). Boot remains PARTIAL; [LAST_COMPLETION.md](LAST_COMPLETION.md) owns coverage, publication and next-owner duties. No approval, threshold or owner grade changed.
 
 ## BOTTOM LINE
 
-Monday priorities are the existing QQQ735P Oct5 sell-or-roll deadline, September ISM Services owner grading, the next dated HY observation, and Saudi facility identification. HY324bp [Oct1] remains one of three qualifying observations, not a new fire. FALCON established fresh heat, not production loss. Intake found zero new breaches. Read-basis attestation and manual scan coverage remain incomplete; this is not a full-board all-clear.
+Shipping intake and tanker-cost research are saved. Will's manual tanker-cost watch is active for USO shares and calls: track freight/insurance separately from transmission to WTI. BRENT retains domain judgment. Existing position-management rails remain unchanged; the broker mirror is not current position truth. Manual threshold/filter coverage and read-basis attestation remain incomplete, so this closeout is not a full-board all-clear.
 
-## DATED MARKET OBSERVATIONS — checked 2026-10-05 13:07–13:09Z
+## DATED MARKET OBSERVATIONS — boot pull 2026-10-05 13:07–13:09Z; NOT refreshed at closeout
 
 | Row | Observation and limit |
 |---|---|
@@ -35,15 +35,15 @@ Current work and next-owner actions: `LAST_COMPLETION.md`. Sweep evidence: `rese
 
 ## NETWORK AWARENESS
 
-### Routing and receiving readiness — observed 2026-10-05T13:17:29Z
+### Routing and receiving readiness — observed 2026-10-05T14:30:10Z
 
-No new dispatches, kills, verification spawns or cluster-mediating signals this boot. BOARD 1216. Header-only refresh updated PROME, BRENT, HENRY, NEXUS, OTTO, FALCON and WALTER; owner risk statuses preserved.
+BOARD1222; October5 has six dispatches, zero kill-log additions and zero verification spawns. One cluster-mediating signal; no network-uncertainty-peak trigger. Shipping batch closed5/5; cost research and the manual watch are separate follow-ups. Clusters represented: IRAN_HORMUZ, INFLATION_TRANSMISSION and MISC.
 
-Codex app-server listing: WALTER, PROME and CATO active. Other runtime/window visibility UNKNOWN; no desk inferred DARK from absence. ORCH_INFLIGHT has 19 open touches, a ledger state rather than proof of running workers. Foreign PROME receipt appeared during boot; preserve concurrent work. PROME's incoming coordination message describes HENRY/VULCAN/TERRY wakes as planned, not verified active.
+REGISTRY refreshed before this block: owner date/focus changes for BRENT, BOND, BROCK and DAEDALUS plus WALTER; owner risk colors preserved. Scoped header candidate review across registry paths; unchanged/missing headers retain prior dates, not a whole-domain reread.
 
-Doctor's aged consumption queue: 127 items across 22 desks, 23 ACTION / 104 INFO; oldest ACTION 7 days. Age basis is delivery_log.timestamp_routed; doctor reports two mtime fallbacks across its full scan. Consumption is not established by publication. Exact diagnostics and limits: research/2026-10-05_boot/.
+Codex app-server shows WALTER/PROME/BOND active and BRENT/CATO idle. Other runtimes UNKNOWN. ORCH_INFLIGHT lists19 open touches; this is a ledger state, not proof of running workers. No automatic wake. Receiving backlog/structural diagnostics are saved in research/2026-10-05_closeout/doctor.txt; owner consumption is separate from publication.
 
-Registry dates older than seven days: YEYOU 2026-09-05, RAV 2026-08-02, MARCO 2026-09-24, ATHENA 2026-03-14, DARWIN 2026-02-18, SENTRY 2026-09-24, DEWEY 2026-09-10, WATT 2026-09-25. These dates are freshness markers, not liveness verdicts. CATO remains manual-only outside this registry; no lifecycle change.
+Registry dates older than seven days: YEYOU 2026-09-05, RAV 2026-08-02, MARCO 2026-09-24, ATHENA 2026-03-14, DARWIN 2026-02-18, SENTRY 2026-09-24, DEWEY 2026-09-10, WATT 2026-09-25. These are freshness markers, not liveness verdicts. Retired/dormant/special classifications remain governed by PROME/ROSTER.md.
 
 ## Active LIAISON channels
 

@@ -92,13 +92,13 @@
 - **Bright Data Web Unlocker (WQ-383 pilot, LIVE 2026-10-04):** `bdata scrape <url>` for a 403'd no-screenshot bookmark link; free tier 5k/mo HARD STOP, Web-Unlocker-only, key in gitignored `.env` (per-machine). Full method+limits+ledger: `design/X_BOOKMARKS_ACCEPTANCE.md` §9a.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION — 2026-10-05 Codex startup
+### CHANGES SINCE LAST SESSION — 2026-10-05 full closeout
 
-Startup receipt and exact gaps: `LAST_COMPLETION.md`; prior notes preserved verbatim in `research/2026-10-05_boot/prior-memory-session-notes.md`. Updated dated observations and stale registry headers; zero new dispatches. Older push/adjudication/review carries reconciled. No standing approval changed.
+Boot plus shipping/tanker follow-ups closed to durable records; six signals and nineteen handoffs. Manual tanker-cost/USO watch is now Will-authorised. LAST_COMPLETION owns publication, owner integration and coverage gaps. No standing approval or trade rule changed.
 
 ### NEXT SESSION
-1. `LAST_COMPLETION.md` owns open duties, including manual scan/read-basis gaps.
-2. Recheck HY observation date; Oct1 324bp is only 1 of 3.
-3. Codex app-server session metadata is available; it is not a complete multi-runtime fleet census. Re-read ORCH_INFLIGHT and foreign tree before any doorbell.
-4. X-bookmark approval stands; this machine lacks its token. Bright Data approval stands; `bdata` is absent from PATH here.
-5. HANS owns its over-budget registry remedy. Preserve launch-only versus unattended-run boundary.
+1. Read LAST_COMPLETION and the linked tanker-cost WATCH.md + STATE.csv; check due dates. Next freight review October9; BRENT's EIA review October7. Manual sessions only.
+2. Verify recipient integration and coordinated publication separately; BRENT005/006 were jointly triaged, not consumed. Reconcile delivery log only against origin evidence.
+3. Recheck HY observation date and outstanding threshold/filter/read-basis gaps; October1 324bp remains dated evidence, not a fresh closeout pull.
+4. Use app-server metadata, ORCH_INFLIGHT and foreign-tree evidence together; wider fleet visibility remains UNKNOWN.
+5. Preserve X-bookmark launch-only approval, free Bright Data limits and local token/CLI gaps. HANS owns its registry read-cap remedy.

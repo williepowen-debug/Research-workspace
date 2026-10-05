@@ -1,3 +1,7 @@
+## 2026-10-05T14:30:10Z — Will-directed Tier-2 closeout
+
+Discharges the three October5 light-closeout breadcrumbs below. Six signals, nineteen handoffs, shipping batch5/5, manual tanker-cost/USO watch active. Registry header refresh precedes network regeneration; MEMORY and current receipt updated. BRENT005/006 jointly triaged, integration owed; owner committed packets in b70013c08; not consumed. Concurrent BOND/PROME work preserves publication deferral. No fresh market pull, threshold grading, trade or automation activation; boot coverage remains PARTIAL. Spec maintenance: routing companion version labels v0.39→v0.40 only, no routing change. Diagnostics: research/2026-10-05_closeout/.
+
 ## 2026-10-05T14:21:52Z — Will-directed tanker watch and USO explanation; light-closeout — full deferred
 
 Manual tracking ACTIVE, weekly primary freight + event-driven intake; next-boot STATUS instruction and state/review files.006 to BRENT, info HAWK/FALCON/TERRY/RED/PROME. Both shares/calls confirmed; current quantities unconfirmed. No trade/threshold/automation activation.
