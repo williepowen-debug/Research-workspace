@@ -1,7 +1,7 @@
 # BOND — Status
 
 **Agent:** BOND · **Domain:** US bond-market structure (+ MBS/FHLB + EU rates per the 6/27 extension; + the sovereign-credibility instrument set per the 8/10 forum — scope in `CLAUDE.md`)
-**Last session:** 2026-10-05T11:01:48-04:00 — Will-requested session closeout addendum. Research commit ff0992bf1; PROME consumed L608 and exact WQ-385 artifact versions in 518baafa2. Official Treasury and credit observations through 10/2; dealer as-of 9/23; intraday quotes retain their capture timestamps.
+**Last session:** 2026-10-07T16:27:32-04:00 — Will-requested STANDARD closeout. October 7 catch-up PARTIAL; primary auction grades and FOMC-minutes synthesis remain owed. Research commit ff0992bf1 remains consumed by PROME in 518baafa2. Dashboard below retains October 5 analysis and observations through 10/2; it is NOT a current October 7 grade. New boot observations and gaps: `reports/2026-10-07_catchup-checkpoint.md`. October 7 broker capture confirms TLT Oct-16 82P ×1 and TBT 10; exact capture time and Activity unavailable. WQ-357/path C to 10/14 and NO-ADD unchanged. re-test: October 8 obtain updated broker/Activity evidence if supplied; do not infer fills.
 
 > 📕 **HOT/COLD SPLIT — NOTHING DELETED.** Pre-rotation snapshots (`domain/sources/`): **`2026-10-01_STATUS_full-snapshot_pre-refresh-rotation.md` (crc32 `735109674`)** · `2026-09-29b_…pre-intraday-rotation` (`2392892541`) · `2026-09-29_…pre-row4-rotation` (`2518256656`) · `2026-09-28e` (`2516058915`) · `2026-09-28d` (`319142979`) · `2026-09-28c` (`1800580424`) · `2026-09-28b` (`2552442073`) · older `2026-09-28_` · `2026-09-24`. **Budget 32,550 B; rotate-tier ≥75% — rotate, never raise.**
 
@@ -15,7 +15,7 @@
 
 **Fresh results:** HY 310 / CCC 1202 / IG 85bp [10/2]; Treasury 10Y 5.28 / 30Y 5.63%, real 10Y 2.92% [10/2]. The 10/1 F2 read is OFF-THE-RUN (newest-vintage share 0%); the full $6B cap was accepted and a durable RED packet filed. TGA draw verified at $90.347B, but the 10/1 operation settled 10/2, so the proposed same-day buyback attribution fails. Jefferson speech does not explicitly attribute yields to term premium; prior wording corrected. Prior event detail preserved at `domain/sources/2026-10-05_STATUS.md_pre-live-refresh` and dated reports.
 
-**Next:** 10/6–8 $119B coupon auctions; frozen two-decimal hand-grading selected while the tool tie-band defect stays open. FOMC minutes 10/7 at 14:00 ET; FR2004 and F2 operation 10/8; CPI and held-position clock 10/14.
+**Next:** October 6 3Y and October 7 10Y grades remain UNGRADED; October 7 minutes synthesis and October 6 VX-20 review are owed. October 8 30Y/FR2004/F2/PMMS and VX-19; CPI and held-position clock October 14. Frozen two-decimal hand-grading and known tie-band defect unchanged.
 
 ## Regime (one-line)
 <!-- bond-state: thesis=v1.2.11; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=HOLD-NO-ADD -->

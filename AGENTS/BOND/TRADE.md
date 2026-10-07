@@ -19,7 +19,7 @@
 
 **4. Credit marker and capital gates remain separate.** Index watch remains fired; Friday relief is logged. Paramount's final issuer pricing verifies access for one large secured issuer and supersedes its launch estimate. Comprehensive pulled-deal coverage is unavailable. HYG sizing remains LIQUID/BROCK/TERRY/Will's gate; CCC expression restriction stands.
 
-**5. Recorded sleeve: TLT Oct-16 82P×1 plus TBT10shares**, per10/1mirror, not new broker verification. Sep-30 77P was sold9/30. WQ280NO-ADD stands. WQ339 authorized card drafting only; WQ360 execution remains unapproved. Existing TERRY exit/management cards and10/14sell-or-roll clock govern; BOND executes nothing.
+**5. Recorded sleeve: TLT Oct-16 82P×1 plus TBT10shares**, confirmed by the user-dated October 7 intraday capture (PROME/data/2026-10-07_broker-capture-TRANSCRIPTION.md); exact time UNKNOWN, Activity absent, no executable marks. Sep-30 77P was sold9/30. WQ280NO-ADD stands. WQ339 authorized card drafting only; WQ360 execution remains unapproved. Existing TERRY exit/management cards and10/14sell-or-roll clock govern; BOND executes nothing.
 
 ---
 
