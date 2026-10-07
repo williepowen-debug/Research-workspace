@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-07T22:26:55.530532+00:00",
+  "as_of": "2026-10-07T22:37:45.031970+00:00",
   "publication": "PENDING: live GitHub DNS failed, foreign work prevents pull/push; origin ref is dated",
   "commits": [
     {
@@ -13,6 +13,14 @@
     {
       "commit": "813ee8a05",
       "scope": "4 BRENT handoffs after observed native idle"
+    },
+    {
+      "commit": "6fb34e0fc",
+      "scope": "owned report, evidence, watch and light continuity"
+    },
+    {
+      "commit": "8d34732eb",
+      "scope": "exact ten-line PROME completion packet"
     }
   ],
   "handoffs": {
@@ -28,7 +36,12 @@
   "consumption": {
     "PROME": "Explicit native acknowledgement of report received; final exact completion packet still due",
     "BRENT": "Whole current report read;003/004/014/015 integrated; archiving separately",
-    "BOND": "Native report says002 integrated,006 logged; final owned report not yet consumed"
+    "BOND": "Native report says002 integrated,006 logged; final owned report not yet consumed",
+    "BRENT_archive": {
+      "commit": "d10bf9503",
+      "receipt": "AGENTS/BRENT/research/2026-10-07_news-catchup/archive-receipt.json",
+      "scope": "Whole receipt read:4 matching rows,3acted/1noted,unchanged payloads. Report updated after previous owner SHA; previous pointer names dated source integration."
+    }
   },
   "checks": {
     "index": "PASS 1239 identical,0 hand-only markers",
@@ -39,5 +52,13 @@
     "continuity": "REVIEW:3 processed-only old BRENT origin paths not resolved by checker; exact independent proofs show Oct5 19/19",
     "boot": "PARTIAL as detailed in REPORT.md"
   },
-  "closeout": "Light continuity only; full closeout not requested"
+  "closeout": "Light continuity only; full closeout not requested",
+  "late_BOND_input": {
+    "batch": "BM-20261007-04 CLOSED1/1 FOLD",
+    "report": "AGENTS/BOND/analysis/2026-10-07_catchup/REPORT.md",
+    "sha256": "738aa32260299cec139366e5b9e44b4ba9e5d527b897396cae0105a6a6f00e06",
+    "read": "whole61lines9690bytes",
+    "claims": "3Y I-prime rarity fired;OLD/cover unmet.10Y clean;composite17/35 unchanged. July yen operation Treasury fiscal agency, excludesSOMA; FIMA/UST liquidation not established. Exact8 owner packets already written; no duplicate BOARD dispatch",
+    "archive": "await sender tracked persistence, never commit foreign authored packet"
+  }
 }

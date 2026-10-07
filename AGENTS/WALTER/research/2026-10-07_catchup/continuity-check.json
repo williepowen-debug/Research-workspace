@@ -6,7 +6,7 @@
     "SIG-W-20261005-004/BRENT: ledger/origin disagree; reconcile or investigate",
     "delivery receipt mismatch: actual 16/19"
   ],
-  "as_of": "2026-10-07T22:07:21Z",
+  "as_of": "2026-10-07T22:49:22.649669+00:00",
   "origin_ref": "9e2a93285895ae5897840daed7f5bf379da13e66",
   "delivery_scope": "20261005",
   "delivered": 16,

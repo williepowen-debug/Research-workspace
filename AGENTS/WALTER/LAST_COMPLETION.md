@@ -50,7 +50,7 @@ Final diagnostics under `research/2026-10-05_closeout/`; boot evidence under `re
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-07T22:07:21Z",
+  "as_of": "2026-10-07T22:49:22.649669+00:00",
   "publication": [
     {
       "commit": "ec8fd6f08",
@@ -98,8 +98,8 @@ Final diagnostics under `research/2026-10-05_closeout/`; boot evidence under `re
       },
       {
         "path": "AGENTS/BRENT/research/2026-10-07_news-catchup/REPORT.md",
-        "sha256": "174176d4c0af7c33dc3792cf7ad03e171a5161d102dede018b09ca322fc9a702",
-        "note": "Whole Oct7 owner report read in two bounded chunks; deferred Oct5 freight work and Oct7 EIA/pipeline substance integrated; four Oct7 handoffs sender-committed813ee8a05; recipient archival and origin proof remain separate."
+        "sha256": "ce420c1bb529cca6b022ea7dd760915f2b3e2761d66da14772ea7885f45b5668",
+        "note": "Whole updated d10bf9503 report read; October5 freight and October7 EIA/pipeline integrated;4 recipient archives verified in whole archive receipt,3acted/1noted unchanged payloads. Origin proof remains pending."
       }
     ]
   },
@@ -117,5 +117,4 @@ Final diagnostics under `research/2026-10-05_closeout/`; boot evidence under `re
   ],
   "next_review": "2026-10-09"
 }
-
 END_CLOSEOUT_RECEIPT -->
