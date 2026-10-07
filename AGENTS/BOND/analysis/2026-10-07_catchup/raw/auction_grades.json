@@ -1,0 +1,134 @@
+[
+  {
+    "print": {
+      "date": "2026-10-06",
+      "cusip": "91282CRQ6",
+      "term": "3-Year",
+      "secterm": "3-Year",
+      "tips": false,
+      "reopening": false,
+      "btc": 2.62,
+      "hy": "4.9320",
+      "offering": 58000000000.0,
+      "comp": 56995537500.0,
+      "ind": 57.59484240323201,
+      "dir": 31.66495271669295,
+      "dlr": 10.74020488007504,
+      "src": "TA_WS"
+    },
+    "benchmark": {
+      "n": 12,
+      "from": "2025-10-07",
+      "to": "2026-09-08",
+      "btc": {
+        "median": 2.645,
+        "mean": 2.6550000000000002,
+        "min": 2.54,
+        "max": 2.85
+      },
+      "ind": {
+        "median": 62.959175338839586,
+        "mean": 63.87354229488499,
+        "min": 56.500657185113845,
+        "max": 74.80827889716294
+      },
+      "dlr": {
+        "median": 11.338725451443526,
+        "mean": 12.480403498253336,
+        "min": 7.741634203465297,
+        "max": 19.50061939411113
+      },
+      "tips": false,
+      "ind_p15": 58.898472825653066,
+      "ind_p15_reopen_only": null,
+      "n_reopen": 0
+    },
+    "frozen": {
+      "Iprime": 58.9,
+      "alt": null,
+      "old_min": 56.5,
+      "old_max": 19.5,
+      "cover": 2.54
+    },
+    "grade": {
+      "Iprime": true,
+      "alt": null,
+      "old": false,
+      "cover": false,
+      "downgrade_qualifies": false
+    },
+    "margins": {
+      "Iprime_pp": -1.305157596767991,
+      "alt_pp": null,
+      "old_ind_pp": 1.0948424032320077,
+      "old_dlr_pp": -8.75979511992496,
+      "cover": 0.08000000000000007
+    }
+  },
+  {
+    "print": {
+      "date": "2026-10-07",
+      "cusip": "91282CRF0",
+      "term": "10-Year",
+      "secterm": "9-Year 10-Month",
+      "tips": false,
+      "reopening": true,
+      "btc": 2.77,
+      "hy": "5.3000",
+      "offering": 39000000000.0,
+      "comp": 38665438000.0,
+      "ind": 80.33851317034092,
+      "dir": 17.116578376792216,
+      "dlr": 2.544908452866873,
+      "src": "TA_WS"
+    },
+    "benchmark": {
+      "n": 12,
+      "from": "2025-10-08",
+      "to": "2026-09-09",
+      "btc": {
+        "median": 2.505,
+        "mean": 2.506666666666667,
+        "min": 2.39,
+        "max": 2.71
+      },
+      "ind": {
+        "median": 69.9414734802128,
+        "mean": 71.46423836782431,
+        "min": 63.95067111437866,
+        "max": 81.49486850448241
+      },
+      "dlr": {
+        "median": 9.278965819356381,
+        "mean": 9.435124998934532,
+        "min": 4.310844537373377,
+        "max": 13.375743757876688
+      },
+      "tips": false,
+      "ind_p15": 65.05031904482946,
+      "ind_p15_reopen_only": 66.32060848335537,
+      "n_reopen": 12
+    },
+    "frozen": {
+      "Iprime": 65.05,
+      "alt": 66.32,
+      "old_min": 63.95,
+      "old_max": 13.38,
+      "cover": 2.39
+    },
+    "grade": {
+      "Iprime": false,
+      "alt": false,
+      "old": false,
+      "cover": false,
+      "downgrade_qualifies": true
+    },
+    "margins": {
+      "Iprime_pp": 15.28851317034092,
+      "alt_pp": 14.018513170340924,
+      "old_ind_pp": 16.388513170340914,
+      "old_dlr_pp": -10.835091547133128,
+      "cover": 0.3799999999999999
+    }
+  }
+]

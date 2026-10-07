@@ -2,6 +2,8 @@
 
 **Owner:** BOND
 
+**Current grade update10/7:** October6 3Y I-prime FIRED on frozen58.90 (ind57.594842), OLD/cover NOT MET. October7 10Y-R clean on65.05/66.32 (ind80.338513,dlr2.544908,BTC2.77). Downgrade counter1. Full primary/frozen2dp audit: `analysis/2026-10-07_catchup/REPORT.md`. Older counters below are dated record; STATUS owns current counter.
+
 > ## ⛔ BANNER 2026-09-29 (~13:4x ET) — READ FIRST · what is LIVE in this file and what is RECORD (PROME cold read 13:4x ET, 49 claims 17✅/21⚠️/11❌; ledger `analysis/2026-09-29_PROME-coldread_AUCTION_HEALTH_ledger.md`)
 > **No verdict moves:** the 9/23 5Y (indirect **54.31**) fires under every 5Y bar this file prints — 59.24 (OLD min), 59.48 (clean `I'`), 60.27 (struck, contaminated) alike. What follows is about the FILE, not the grade.
 > 1. **§"Corpus" (L160–L166) is STALE-FALSE, retained as record:** the corpus is refreshed **through 2026-09-24, 405 rows** (`8308eff78`), and the write-safety fix (write-to-`.tmp` + validate + `os.replace`) landed at `c9704fdb6`. The "DO NOT RUN THE REFRESH SCRIPT" instruction is **RETRACTED**. The DAEDALUS sweep it cites lives at `AGENTS/DAEDALUS/sweeps/SILENT_FALLBACK_GREEN_SWEEP_2026-08-17.md` (the bare path below is dead).

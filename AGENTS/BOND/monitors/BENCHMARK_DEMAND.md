@@ -1,6 +1,6 @@
 # BENCHMARK DEMAND — mandated-holder index reweightings
 **Vector:** `VX-BND-20` (Benchmark-Driven Structural UST Demand) · **Channel:** `FL-BND-14` (LATENT) · **MBS leg:** `VX-BND-17`
-**Opened:** 2026-09-04 at Will's direction. **Owner:** BOND. **Last primary read: 2026-10-05 — taxonomy only; mandate check remains open**
+**Opened:** 2026-09-04 at Will's direction. **Owner:** BOND. **Last primary read: 2026-10-07 — bounded mandate/second-holder review serviced; no qualifying change located, absence not proven. Score2/FL14LATENT; next review10/14oronissuernews.**
 
 > ## ⚠️ WHY THIS SURFACE EXISTS — read before using it
 > **On 2026-09-04 BOND told Will the pension-UST-divestment topic was a stale January story, and added *"if you see it again this week, it's recycled."* NBIM's submission was dated 1 September and hit the wires that morning.** The desk had no vector for announced **benchmark** demand changes, so the largest such event on record arrived and was nearly filed as old news.

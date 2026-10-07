@@ -1,7 +1,13 @@
-# BOND closeout receipt — 2026-10-07T16:27:32-04:00
+# BOND catch-up receipt — 2026-10-07T18:25:20.836183-04:00
 
-Will directly requested closeout and confirmation of GitHub sync/window safety. STANDARD tier. October 7 catch-up is PARTIAL: successful boot observations saved, two primary auction grades, primary minutes synthesis, overdue VX-20 and whole-wave intake/routing remain owed. No new signal marked consumed. Dated owned result: reports/2026-10-07_catchup-checkpoint.md; create-only delivery: PROME/inbox/2026-10-07_from-BOND_news-catchup.md.
+Research continuation; session open, not closeout. Primary October6/7 auctions graded, minutes fetched/synthesized, Treasury10/7 and credit10/6 integrated; VX20 review serviced. Report: analysis/2026-10-07_catchup/REPORT.md; KB416–424. BOARD001–017 whole wave plus two older additive corrections read; all dispositions in board_log.tsv. Whole current inbox = WALTER032/002/006; general non-WALTER inbox empty at check.
 
-Actual existing owner gpt-6.1-sol/Codex verified; source frontiers and capabilities recorded in report. October 7 broker quantities unchanged; WQ-357 LATER/path C October 14, NO-ADD, WQ-339 drafting only and WQ-360 unapproved fill preserved. No trade execution. Last analytical composite/counter are not freshly regraded.
+| Packet | Action | State |
+|---|---|---|
+| WALTER032 | PARTIAL; vendor arithmetic updated, independent dated CME/OIS missing | Retained pending source |
+| WALTER10/7-002 | INTEGRATED, primary minutes KB420/421 | Sender handoff untracked at read; archive after sender commit |
+| WALTER10/7-006 | LOG_ONLY, attributed August gold KB424 | Sender handoff untracked at read; archive after sender commit |
 
-PROME accepted coordination notice and confirmed no competing push; recipient consumption of this report remains unverified at writing. This direct user closeout request supersedes waiting for PROME's ask. No research subprocess remains in observed PID namespace. Standard run/verify evidence: registry/CLOSEOUT_LOG.tsv and registry/closeout_runs/2026-10-07.transcript.md. Commit/push pending at writing; only literal fresh-fetch confirmation certifies GitHub persistence. Other desks' staged/dirty work is preserved, with no pull/stash/rebase/global staging.
+No new decision for Will. WQ357pathC10/14/NOADD preserved. Substantive delivery and routing prepared; commit/notification/consumption recorded only after actual evidence. Runtime gpt-6-astra/Codex verified, no helper launched. Closeout awaits Will.
+
+Eight recipient copies saved; exact research commit pending. PROME owns coordinated publication. WALTER002/006 archive deferred until sender commits after BOND yields idle. All four consistency components passed; no full session closeout claimed.

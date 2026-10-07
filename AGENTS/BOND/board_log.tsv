@@ -26,3 +26,23 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-05T13:59:13+00:00	SIG-W-20261004-013	integrated	INBOX_WALTER	Retail-flow and options-volume figures are commentary-account claims; attached charts were not vision-read by WALTER. Primary validation owed to HENRY; no demand-failure or trading inference.
 2026-10-05T10:38:00-04:00	SIG-W-20261002-032	PARTIAL	BOARD/SIG-W-20261002-032	Ownvendorbasisreplicateddecline,butstrictYEheadlineborderline25.43vs24.7;CMEembedaccesserror/OISunavailable;independentcomparisonpending;analysis/2026-10-05_WQ-357_rebound-research.md
 2026-10-05T10:38:00-04:00	SIG-W-20261003-005	INTEGRATED	BOARD/SIG-W-20261003-005	DTSdraw90.347Bverified;10/1buybacksettles10/2,same-daycausalityunsupported;officialyieldfallnotuniform10-12bp;analysis/2026-10-05_WQ-357_rebound-research.md
+2026-10-07T18:25:20.836183-04:00	SIG-W-20261007-001	INTEGRATED	BOARD	Own Paramount correction propagated;no duplicate evidence.
+2026-10-07T18:25:20.836183-04:00	SIG-W-20261007-002	INTEGRATED	BOARD	Primaryminutes retrieved;KB420/421;conditionalYEhike/pathvsTP/funding separated.
+2026-10-07T18:25:20.836183-04:00	SIG-W-20261007-003	LOG_ONLY	BOARD	Whole signal read;outside BOND action scope;owner retains interpretation and original caveats;no BONDstatechange.
+2026-10-07T18:25:20.836183-04:00	SIG-W-20261007-004	LOG_ONLY	BOARD	Whole signal read;outside BOND action scope;owner retains interpretation and original caveats;no BONDstatechange.
+2026-10-07T18:25:20.836183-04:00	SIG-W-20261007-005	LOG_ONLY	BOARD	Whole signal read;outside BOND action scope;owner retains interpretation and original caveats;no BONDstatechange.
+2026-10-07T18:25:20.836183-04:00	SIG-W-20261007-006	LOG_ONLY	BOARD	KB424 attributedAugustgoldtransactions;MIDASowns;noUSTflowinference.
+2026-10-07T18:25:20.836183-04:00	SIG-W-20261007-007	LOG_ONLY	BOARD	Whole signal read;outside BOND action scope;owner retains interpretation and original caveats;no BONDstatechange.
+2026-10-07T18:25:20.836183-04:00	SIG-W-20261007-008	LOG_ONLY	BOARD	Whole signal read;outside BOND action scope;owner retains interpretation and original caveats;no BONDstatechange.
+2026-10-07T18:25:20.836183-04:00	SIG-W-20261007-009	LOG_ONLY	BOARD	Whole signal read;outside BOND action scope;owner retains interpretation and original caveats;no BONDstatechange.
+2026-10-07T18:25:20.836183-04:00	SIG-W-20261007-010	LOG_ONLY	BOARD	Whole signal read;outside BOND action scope;owner retains interpretation and original caveats;no BONDstatechange.
+2026-10-07T18:25:20.836183-04:00	SIG-W-20261007-011	LOG_ONLY	BOARD	Whole signal read;outside BOND action scope;owner retains interpretation and original caveats;no BONDstatechange.
+2026-10-07T18:25:20.836183-04:00	SIG-W-20261007-012	LOG_ONLY	BOARD	Metadata correction008 read;officialconfirmationstillabsent.
+2026-10-07T18:25:20.836183-04:00	SIG-W-20261007-013	LOG_ONLY	BOARD	Whole signal read;outside BOND action scope;owner retains interpretation and original caveats;no BONDstatechange.
+2026-10-07T18:25:20.836183-04:00	SIG-W-20261007-014	LOG_ONLY	BOARD	Whole signal read;outside BOND action scope;owner retains interpretation and original caveats;no BONDstatechange.
+2026-10-07T18:25:20.836183-04:00	SIG-W-20261007-015	LOG_ONLY	BOARD	Whole signal read;outside BOND action scope;owner retains interpretation and original caveats;no BONDstatechange.
+2026-10-07T18:25:20.836183-04:00	SIG-W-20261007-016	LOG_ONLY	BOARD	Whole signal read;outside BOND action scope;owner retains interpretation and original caveats;no BONDstatechange.
+2026-10-07T18:25:20.836183-04:00	SIG-W-20261007-017	LOG_ONLY	BOARD	Metadata correction013 read;no BONDgrade.
+2026-10-07T18:25:20.836183-04:00	SIG-W-20261002-032	PARTIAL	INBOX_WALTER	CME page loaded,embedaccesserror;vendorYE24.93bp10/7notindependentOIS/FedWatch;retained.
+2026-10-07T18:25:20.836183-04:00	SIG-W-20260928-007	CORRECTION_READ	BOARD_DIFF	AdditiveParamountfinalpricing supersession matches ownKB410;no duplicategrade.
+2026-10-07T18:25:20.836183-04:00	SIG-W-20260929-003	CORRECTION_READ	BOARD_DIFF	AdditiveParamountfinalpricing supersession matches ownKB410;no duplicategrade.

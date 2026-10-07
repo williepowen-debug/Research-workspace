@@ -1,0 +1,40 @@
+[grade] corpus: 45 FRN row(s) EXCLUDED from the 2Y pool (floating-rate notes are not nominal 2Y)
+[grade] ⚠️ TA_WS returned 250 rows = AT CAP. Its date filter is inoperative; this feed is used for RECENT PRINTS ONLY, never for benchmarks.
+[grade] corpus: 360 rows through 2026-09-24 | +2 newer print(s) overlaid from TA_WS
+==============================================================================
+GRADE — 2026-10-07  9-Year 10-Month  91282CRF0  $39B  tips=False  reopening=True
+  BTC 2.77 | indirect 80.34% | direct 17.12% | dealer 2.54% | high yield 5.3000
+  (percentages are of COMPETITIVE ACCEPTED = $38.665B)
+
+  BENCHMARK — 10-Year
+    method : trailing-12 SAME-TENOR SAME-TIPS auctions, strictly prior,
+             % of COMPETITIVE ACCEPTED (PD+direct+indirect)
+    window : 2025-10-08 -> 2026-09-09   n=12
+    BTC        median    2.50 | mean    2.51 | min    2.39 | max    2.71
+    indirect%  median   69.94 | mean   71.46 | min   63.95 | max   81.49
+    dealer%    median    9.28 | mean    9.44 | min    4.31 | max   13.38
+
+    ⇒ COMPOSITION-FAILURE test : indirect < 63.95%  AND  dealer > 13.38%
+    ⇒ COVER-MARKER test        : BTC < 2.39 with composition intact
+    ⛔ I' (MATRIX_V2, 8/27) NOT COMPUTED — ModuleNotFoundError: No module named 'numpy'
+       THIS IS NOT A PASS. I' is the GOVERNING composition test; the OLD
+       conjunctive line above is retained only for the TLT-put ADD re-arm.
+       Re-run inside the repo venv (source .venv/bin/activate) before grading.
+
+  LEG MARGINS (v1.1.4(e) — every leg, always):
+    BTC           2.77   vs median   +0.27   vs mean   +0.26   
+    indirect%    80.34   vs median  +10.40   vs mean   +8.87   
+    dealer%       2.54   vs median   -6.73   vs mean   -6.89   
+
+  VERDICT
+    indirect below trailing-12 MIN ? NO  (80.34 vs 63.95, margin +16.39pp)
+    dealer  above trailing-12 MAX ? NO  (2.54 vs 13.38, margin -10.83pp)
+    BTC     below trailing-12 MIN ? NO  (2.77 vs 2.39, margin +0.38)
+    ⛔ I' indirect below P15 (MATRIX_V2) ? NOT COMPUTED — ModuleNotFoundError: No module named 'numpy'
+       ⚠️ THE GOVERNING TEST DID NOT RUN. Do not read the verdict above as 'nothing fired'.
+
+  🟢 CLEAN — no cover marker, no composition failure, both legs inside their bars.
+
+  ⛔ NO TAIL IS COMPUTED OR REPORTED. TreasuryDirect publishes no when-issued yield;
+     a tail is unscoreable from primaries and may never fire a gate (retired 2026-07-28).
+==============================================================================

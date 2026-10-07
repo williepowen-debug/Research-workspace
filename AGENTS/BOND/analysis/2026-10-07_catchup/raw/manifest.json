@@ -1,0 +1,13 @@
+{
+  "captured_et": "2026-10-07T18:11:20.943154-04:00",
+  "sources": {
+    "ta_ws_frn.json": "https://www.treasurydirect.gov/TA_WS/securities/search?type=FRN&format=json",
+    "ta_ws_auctioned.json": "https://www.treasurydirect.gov/TA_WS/securities/auctioned?format=json&dateFieldName=auctionDate&startDate=2022-06-01&endDate=2030-01-01",
+    "daily_treasury_yield_curve": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&_format=csv",
+    "daily_treasury_real_yield_curve": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_real_yield_curve&_format=csv",
+    "nbim.html": "https://www.nbim.no/en/news-and-insights/submissions-to-ministry/2026/the-government-pension-fund-global--analyses-and-assessments-of-the-investment-strategy-for-bonds/"
+  },
+  "gaps": {
+    "ministry.html": "HTTP Error 403: Forbidden"
+  }
+}

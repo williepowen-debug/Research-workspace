@@ -75,7 +75,7 @@
 
 | BOND signal | Confirmed by | Who needs it |
 |---|---|---|
-| Composition failure — **FIRED 9/23 5Y (OLD test)**; `I'` fires 9/15 · 9/23 · 9/24 = markers | LIQUID owns funding interpretation. Latest shared-date SOFR−IORB = −2bp [10/2], context only; the 9/23 auction funding window remains **UNGRADED** by ruling · **FR2004 3–6Y as-of 9/23 = the mechanism leg (WQ-291): ✅ MET 10/1, $60.079B vs $56.586B (`KB-BND-383`) ⇒ kill letter MET ⇒ rec via TERRY + Will** | PROME, LIQUID, TERRY |
+| Composition failure — **FIRED 9/23 5Y (OLD test)**; `I'` fires 9/15 · 9/23 · 9/24 = markers | LIQUID owns funding interpretation. Latest shared-date SOFR−IORB = 0bp [10/6], context only; the 9/23 auction funding window remains **UNGRADED** by ruling · **FR2004 3–6Y as-of 9/23 = the mechanism leg (WQ-291): ✅ MET 10/1, $60.079B vs $56.586B (`KB-BND-383`) ⇒ kill letter MET ⇒ rec via TERRY + Will** | PROME, LIQUID, TERRY |
 | JGB-FX transmission | SAM (BOJ/MOF/yen) | SAM, HENRY, LIQUID |
 | Issuance freeze (dormant) | REGINALD refi burden / BROCK private marks | REGINALD, BROCK, HENRY |
 | Long-end break | HENRY vol regime + LIQUID funding | PROME, LIQUID, HENRY |
@@ -85,9 +85,9 @@
 
 ## Next Review — live items only
 
-- 10/6–8 auctions: frozen2dp hand-grade fallback; disclose unrounded tool disagreement. Tie-band repair still open.
-- 10/6 VX20 mandate/second-holder review; agency taxonomy closed at primary10/5.
-- 10/7 FOMCminutes14:00;10/8 FR2004andF2op;VX19qualifier review.
+- 10/6 3Y marker and10/7 10Y clean graded; counter1. Next10/8 30Y uses frozen2dp manual fallback; tie-band repair remains open.
+- VX20 bounded review serviced10/7; no adoption/secondholder located,absence not proven. Next10/14oronissuernews.
+- 10/7minutes integrated;10/8FR2004,F2,PMMS andVX19qualifier review.
 - 10/14 CPI and WQ357/TERRYheld-positiondecisionclock;10/15F2op.
 - 10/21 FOMCcurve-shape prediction registration;10/28 FOMC.
 - 11/4 QRA F1/F3;futureF2ops on standing carrier.

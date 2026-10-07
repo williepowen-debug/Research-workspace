@@ -1,0 +1,13 @@
+{
+  "source": "Treasury official par/real CSV",
+  "asof": "10/07/2026",
+  "n2026": 193,
+  "DGS30_2026_count_ge5": 82,
+  "DGS30_2026_scan_run_ge5": 66,
+  "DFII10_2026_scan_run_ge2_5": 20,
+  "curve_2s10s_bp": 51,
+  "curve_2s30s_bp": 90,
+  "BE10": 2.36,
+  "BE30": 2.31,
+  "YE_FF_bp": 24.9318
+}
