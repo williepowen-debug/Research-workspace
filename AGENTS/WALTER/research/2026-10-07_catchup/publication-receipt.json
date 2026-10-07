@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-07T22:37:45.031970+00:00",
+  "as_of": "2026-10-07T23:36:54.762903+00:00",
   "publication": "PENDING: live GitHub DNS failed, foreign work prevents pull/push; origin ref is dated",
   "commits": [
     {
@@ -21,6 +21,10 @@
     {
       "commit": "8d34732eb",
       "scope": "exact ten-line PROME completion packet"
+    },
+    {
+      "commit": "07ecfec25",
+      "scope": "late BOND FOLD disposition and current BRENT archive review"
     }
   ],
   "handoffs": {
@@ -34,7 +38,16 @@
     "reason": "BOND active; pause/yield requested, no concurrent-subtree commit"
   },
   "consumption": {
-    "PROME": "Explicit native acknowledgement of report received; final exact completion packet still due",
+    "PROME": {
+      "state": "EXPLICIT_ACKNOWLEDGED",
+      "thread": "01a1182c-1dad-75f2-8929-93d093e7478e",
+      "packet": "PROME/inbox/2026-10-07_from-WALTER_news-catchup.md",
+      "packet_commit": "8d34732eb",
+      "report_commit": "6fb34e0fc",
+      "packet_sha256": "66b394844edb97d73f431160ca5b228b0af097173e700d982db24e017a002836",
+      "report_sha256": "c1f6f1c8054413190e8b2cbf583ae1c7e2c471cda387850ea0444fcf9fd02882",
+      "ack": "PROME explicitly acknowledged full exact completion and final report revision,49/49 lane,8/8manual,1/1private,17outputs/66handoffs/24ACTION,16NOTE gaps,GIE estimate E,boot PARTIAL,69MED and processed-only path limit. This is report/packet consumption, not publication or full closeout."
+    },
     "BRENT": "Whole current report read;003/004/014/015 integrated; archiving separately",
     "BOND": "Native report says002 integrated,006 logged; final owned report not yet consumed",
     "BRENT_archive": {
@@ -59,6 +72,7 @@
     "sha256": "738aa32260299cec139366e5b9e44b4ba9e5d527b897396cae0105a6a6f00e06",
     "read": "whole61lines9690bytes",
     "claims": "3Y I-prime rarity fired;OLD/cover unmet.10Y clean;composite17/35 unchanged. July yen operation Treasury fiscal agency, excludesSOMA; FIMA/UST liquidation not established. Exact8 owner packets already written; no duplicate BOARD dispatch",
-    "archive": "await sender tracked persistence, never commit foreign authored packet"
+    "archive": "await sender tracked persistence, never commit foreign authored packet",
+    "sender_commit": "fd84bb90d"
   }
 }
