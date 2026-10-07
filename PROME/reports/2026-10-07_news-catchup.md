@@ -166,3 +166,25 @@ AI financing news pointed to MORE spending: an OpenAI $30B raise at $1.4T (in ta
     - Metals: GC 4,113 (−1.8%) · SI 59.99.
     - Rates and FX: ^TNX 5.345 · USD/JPY 158.28 · DXY 102.42.
   - FRED cache-busted CSV `BAMLH0A0HYM2` / `DGS10` / `DFII10` through 10/5.
+
+## 8. Addendum 09:3x ET — gap-close sweep (one sequential read-only Opus helper; all 12 gaps searched, ~46 tool calls, searches returned throughout)
+
+| # | Gap | Finding (grade) |
+|---|---|---|
+| 1 | US government funding | **Funded — no shutdown.** CR at FY2026 levels through **Fri 2026-12-11**. Senate 90-6 (8/8); House 370-48; signed ~9/2. Sources: spacepolicyonline 9/1; NASFAA headline (MULTI). The next shutdown risk is December. |
+| 2 | Fed speakers 10/5–10/7 | Content **SEARCH-NOT-FOUND**. Board list shows only Bowman 10/6, a regulation speech (PRIMARY; text not read for policy). Context from before the window (Reuters 10/1, SINGLE): policy 3.75–4.00% after the September hike; October hike odds ~25%; a December hike expected; Logan wants ≥50bp more; Williams sees one more hike late this year. |
+| 3 | AI credit prints | No web print after 9/26 (SEARCH-NOT-FOUND). OpenAI/Stargate debt NOT-SEARCHED. ⚠️ **The helper's "stale since July" is a public-web observation only.** The fleet holds fresher prints: GATE-LIQ-069 rests on DTCC trades from 9/23–9/24 (LIQUID), and BOARD SIG-W-20261003-006 has Oracle 5Y ~230bp (9/26). One rejected snippet ("368→643 by Friday") is impossible for 2026. |
+| 4 | Florida | Nothing dated 10/2–10/7 on condos or Florida banks (SEARCH-NOT-FOUND). Citizens ~255K policies as of 9/18 (SINGLE). Miami-Dade condo median $400K (−1.5% YoY), 12 months of supply (July data, SINGLE). |
+| 5 | Oil | **USO $146.67 at 09:31:53 ET 10/7** (+1.21%, Yahoo, SINGLE) — still needs about +2.3% to reach the $150 strike before Friday's stop. G7 release: up to 100M bbl over four months, diesel-focused, IEA-coordinated, substantial diesel within 20 days (MULTI). Country shares SEARCH-NOT-FOUND. **IEA board meets today** (SINGLE). SPR 40M bbl exchange: award results SEARCH-NOT-FOUND; whether it counts toward the G7 100M is UNVERIFIED. |
+| 6 | Tariffs | Canada's counter-tariffs (15–50% on CA$27.6B) in force since 9/8; no change in the window (Canada.ca PRIMARY). No US tariff court ruling in the window. |
+| 7 | China Fifth Plenum | **Oct 26–29, Beijing** (MULTI). ⚠️ **Framing correction for ZHAO's DOCKET L223:** the reported agenda is Party discipline plus the Politburo work report. The 15th Five-Year Plan recommendations were adopted at the Fourth Plenum (Oct 2025). Owner ZHAO grades the row. |
+| 8 | FLG | Closes $11.57 [10/5] and **$11.56 [10/6]**; **$11.42 intraday 10/7 09:31 ET** (Yahoo, SINGLE). ⚠️ **$0.03 above REGINALD's RED $11.39 line** on the intraday print; already below ORANGE $12.10. Only REGINALD's close-basis grade counts. |
+| 9 | Russian mobilisation | No new decree found (SEARCH-NOT-FOUND). Putin ordered troop strength raised to 1.55M (Moscow Times 9/29, outside the window). |
+| 10 | Consumer delinquency | Nothing dated in the window (SEARCH-NOT-FOUND). |
+| 11 | UKMTO numbers after 156-26 | Numbers SEARCH-NOT-FOUND. Incidents confirmed (MULTI): four warnings plus an advisory in ~4h on 10/5; Lipsi 10/4; LPG and crude tankers 10/4; explosions near a tanker 60nm south of Al Mukha 10/4. |
+| 12 | Mag-7 share of S&P | **~34% "as of September 2026"** (search summary, likely Schwab; UNVERIFIED) — under VULCAN's ≥40% breadth leg. |
+
+**Net change to §2:**
+- REGINALD's FLG RED $11.39 line joins the "could cross today" list.
+- The government-funding risk is pushed to 12/11.
+- Oil was firming at the open despite the release.
