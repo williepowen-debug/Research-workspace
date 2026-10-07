@@ -173,3 +173,33 @@ That makes the call a cheap, five-session option on the "no decision" outcome. I
 **Lean: SELL the 150C ×1 at Fidelity's bid TODAY** (limit at the bid; a $0.05 step toward it is enough on a 1,458-OI strike). **No roll:** BRENT holds STAND DOWN (WQ-192), no trigger has fired, and the roll's buy leg would pay ≈ $141 to keep a path that was just closed. The hard stop stays **Fri 10/09 15:00 ET** if Will declines.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution.**
+
+---
+
+## ADDENDUM-4 2026-10-07 Wed 11:0x–11:1x ET: `MGMT-USO150C-OCT09` ×1 — WQ-366 DECLINE recorded; Tropical Storm Isaias folded in (PROME wave-2 spawn, cloud session). ADDENDUM-3 stands as the dated record
+
+**Ruling recorded (root rule #10):** Will **DECLINED the early sell** on the Decision Deck, 10/3 ~21:10 ET, verbatim: *"I dont think I sell yet.  The news in Saudi arabia continues to get worse"* (PROME packet `inbox/processed/2026-10-03_from-PROME_WQ-357-365-366-rulings.md`; DOCKET L605). ADDENDUM-3's SELL-TODAY lean is superseded by his ruling. **The Fri 10/09 15:00 ET stop STANDS.** Caveat still travelling: the 10/2 MET grade rested on the G7 decision as reported, not on the statement read at the primary.
+
+**Live re-mark (SCREENING; Fidelity's bid governs; position as of the 10/1 capture, nothing later reported):**
+
+| Item | Value |
+|---|---|
+| USO | **$144.92 (+0.01%)** at 11:07 ET (`fetch.py`); closes 10/2 $147.37 · 10/5 $143.99 · 10/6 $144.91 |
+| Strike distance | **$5.08 (3.5%) out of the money**, about 2.2 sessions to the stop |
+| 150C Oct-09 bid / ask | **0.53 / 0.65** (IV 44.3%, OI 2,111; `chain_fetch.py --no-cache`, no quote defects) ⇒ one at the bid ≈ **$52.35 ⇒ ≈ −$247 against $299.66** |
+| Forward max loss | the remaining mark, ≈ $53 (0.11× the $500 cap) |
+
+**The new fact — Isaias (NHC Advisory 4, 10:00 CDT 10/7, read by TERRY at nhc.noaa.gov 11:1x ET, PRIMARY):** 45 mph, 22.4N 93.6W, moving ENE; **hurricane and storm-surge watches issued for the northern Gulf coast**; hurricane by Thursday. Forecast centre: 23.4N 90.8W Thu 08:00 ET → 24.6N 89.2W Thu 20:00 → **26.6N 88.1W at 95 kt Fri 08:00** → 29.2N 87.5W Fri 20:00 → inland Sat. The track crosses the eastern half of the deepwater producing area **Thu night to Fri morning, before the 15:00 stop** (BOARD `SIG-W-20261007-002`, AEOLUS/CORAL/BRENT action).
+
+**What it changes on this card (construction only; the oil read is BRENT's and AEOLUS's):**
+1. **The stop does not move.** Sell at Fidelity's bid by **Fri 10/09 15:00 ET** whatever the day's colour (root rule #6 is a cost preference; it does not override a time stop). Never hold past it: a close above $150 means the IRA buys 100 USO for $15,000, and IRA cash is UNKNOWN since the 10/1 capture (exercise handling UNOBSERVED, FORGE D-60).
+2. **The storm is the one dated catalyst inside the line's life, and it lands before the stop.** Operator evacuations and shut-ins usually start 48–72 hours ahead, so headlines can come Thu–Fri. That **supports Will's hold to Friday**; it is not a reason to hold past it.
+3. **The storm is NOT a clean call catalyst — two signs, unmodeled.** Offshore shut-ins remove crude supply (supportive of WTI). The forecast landfall zone (Mobile Bay / western Panhandle) also holds Gulf-coast refining (Chevron Pascagoula sits west of Mobile Bay — INFERRED from public plant locations, not checked today); a refinery outage removes crude demand (negative for WTI) and supports product cracks. Net sign and size: BRENT/AEOLUS. The NHC track has been public since Advisory 1, so the 44% implied vol already prices some of it.
+4. **New early-exit branch (sell-into-strength, the right colour):** if USO trades **at or above $150 before the stop**, sell then rather than wait for 15:00 Friday. Storm premium usually leaves crude once a track is fixed or the storm makes landfall, and the stop day is also the day of the strongest crossing. A sale on a green USO day is the right colour for selling a call.
+5. **Still no roll.** An Oct-16 150C would straddle the Saturday landfall, so its buy leg pays storm premium that every desk can see. BRENT holds STAND DOWN (WQ-192), and no trigger has fired (durable finding 1). If Will rolls anyway, buy the leg on a red USO session.
+
+**Will's decision and deadline, plainly:** sell the one USO call by **Friday 10/9 at 3:00 PM ET** (or earlier, if USO reaches $150 first). Today it is worth about $52 at the vendor bid, against $299.66 paid.
+
+`$0` MOVED · NO ORDER · no gate moved.
+
+**APPROVAL REQUIRED — Will must approve/reject before execution** (no action is proposed; the sale is his order).

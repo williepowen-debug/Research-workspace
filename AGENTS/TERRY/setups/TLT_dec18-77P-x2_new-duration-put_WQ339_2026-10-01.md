@@ -159,3 +159,23 @@ Puts trade from 09:30 ET; the print lands before any fill is possible, so **no l
 **HENRY's FORUM-7 (PREMIUM-ABSORPTION, BOND co-sign pending) leaves the verdict and the structure unchanged.** It points to the **10/6–10/8 auctions as the direct test** of a premium driven by supply. That makes **Variant E2** (a BOND-graded auction failure, then the first green session) the better-evidenced trigger than today's colour. Today's green is a soft-payrolls rally against the thesis (construction rule #15). **Verdict stays CONDITIONAL.**
 
 **APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**
+
+---
+
+## ADDENDUM 2026-10-07 Wed 11:0x–11:1x ET: grade against §4 (WQ-360). **PENDING WILL, NOT APPROVED. This re-mark fills nothing and approves nothing.** §§1–8 and the 10/2 addendum stand as written
+
+| # | Condition | 10/7 11:07–11:09 ET | State |
+|---|---|---|---|
+| E-1 | Will's [Approve] (and his WQ-357 choice) | WQ-360 unruled; WQ-357 LATER (10/3) | ✗ |
+| E-2 | window to **Wed 10/14 15:00 ET** | open, 6 sessions left incl. today (bond market closed Mon 10/12) | ✓ |
+| E-3 | TLT GREEN at the fill, TBT RED | TLT **$77.00 (−0.37%)**, TBT **+0.94%** | ✗ **not a fill day** |
+| E-4 | no entry into a red tape | red | ✗ |
+| E-5 | no official DGS10 < 4.50 | **5.31 [10/5]** (FRED) | ✓ |
+| E-6 | TLT ≥ $74.50 | $77.00 | ✓ |
+| E-7 | strike at/just below TLT, ask ≤ $2.45 | **77P Dec-18 2.20 / 2.24** (OI 38,358; `chain_fetch.py --no-cache`, SCREENING, no defects) ⇒ ×2 + fees = **$449.30** | ✓ |
+
+**Read:** fillable on the first GREEN TLT session to 10/14 if Will approves; today is not one. BOND's 10/5 read (`ff0992bf1`) keeps **REAFFIRM EXIT** and NO-ADD (WQ-280) — the card still bets against its domain owner, on its face. Variant E2's auction tests are today (10Y reopening 13:00) and tomorrow (30Y 13:00); a BOND-graded composition failure there is the better-evidenced entry (3Y 10/6: indirects 57.6% per vendor reports, `SIG-W-20261007-005` — above the OLD-test indirect bar 56.50 in BOND's 10/5 table, so on vendor figures the 3Y does not look like an E2 fire; BOND grades, TERRY does not). If approved together with WQ-357 A, **sell the 82P and TBT first, then buy.** Verdict unchanged: **CONDITIONAL.**
+
+**Will's decision and deadline, plainly:** approve or reject buying two TLT December puts (about $449) by **Wednesday 10/14 at 3:00 PM ET**, after which the card lapses.
+
+**APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**

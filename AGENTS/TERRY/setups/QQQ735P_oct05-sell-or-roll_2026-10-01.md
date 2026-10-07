@@ -109,3 +109,18 @@ Nothing is owed today. **Monday by 15:00 ET: SELL at Fidelity's bid (desk lean, 
 **Lean: SELL. Today is better than Monday on the arithmetic.** Almost all of what's left is time value, and Monday's session holds about one day of it. Unless QQQ falls about 2.3% by Monday, most of it runs off over the weekend. Selling a put on a green QQQ day gets a lower price, but it's not a root rule #6 break, because the rule governs buys. The hard stop stays **Mon 10/05 15:00 ET**. If the 740P ×4 are rolled to Oct-09 today, any roll of these five goes to **Oct-16**.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution.**
+
+---
+
+## ADDENDUM 2026-10-07 Wed 11:1x ET: DOCKET L592 — the expiry date has passed; the OUTCOME IS UNKNOWN to this desk (PROME wave-2 spawn, cloud session). The text above stands as written
+
+| Item | Value | Basis |
+|---|---|---|
+| Expiry | **Mon 10/05** (the 15:00 ET stop on this card was the last sale point) | card § 3 |
+| QQQ close 10/5 | **$756.20** ⇒ the 735 strike was **$21.20 (2.8%) out of the money** at the close | yfinance daily, `auto_adjust=False`, pulled 10/7 11:0x ET |
+| What the tape says | Zero intrinsic value at the close. A contract still held at the close had no exercise path (out of the money). Whatever was realized depends on whether, when and at what bid Will sold before 15:00 | arithmetic |
+| Broker record | **NONE.** No broker capture has reached this desk since the 10/1 end-of-day view. The 10/2–10/6 fills are unbooked on `FORGE/STATUS.md` | PROME spawn brief 10/7 |
+
+⛔ **Not recorded as fact:** neither a sale nor an expiry. **State: outcome pending Will's Fidelity Activity view (WQ-347).** When it lands: book the fill or the expiry row here, on `setups/INDEX.md`, in `STATUS.md`, and in `POSTMORTEMS.md` (root rule #10). Basis for the P/L: $1,368.32 for five (§ 1).
+
+`$0` MOVED · NO ORDER · no gate moved.

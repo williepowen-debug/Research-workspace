@@ -105,3 +105,31 @@ The best reason not to exit: the 3–6Y build is belly evidence and the long end
 **Lean unchanged: A. Sell the 82P (limit at Fidelity's bid, floor intrinsic − $0.10) and sell all 10 TBT, today by 15:00 ET.** If WQ-360 is also approved, **sell these first, then buy.**
 
 **APPROVAL REQUIRED — Will must approve/reject before execution.** Memo: `PROME/inbox/2026-10-02_from-TERRY_open-remarks-WQ347-357-360.md`.
+
+---
+
+## ADDENDUM 2026-10-07 Wed 11:0x–11:1x ET: WQ-357 LATER recorded; BOND's 10/5 research read folded in; re-mark before today's 10Y and tomorrow's 30Y reopenings (PROME wave-2 spawn, cloud session). §§1–8 and the 10/2 addendum stand as written
+
+**Ruling recorded (root rule #10):** Will tapped **WQ-357 LATER**, 10/3 21:08 ET, verbatim: *"I would like to do more research on this.  I am not sure any bond rebound continues.  I would like us to do some mroe research"* (PROME packet `inbox/processed/2026-10-03_from-PROME_WQ-357-365-366-rulings.md`). Not approved, not declined. **Path C (hold to 10/14) is the live path by default.**
+
+**BOND's research read, delivered 10/5** (`AGENTS/BOND/analysis/2026-10-05_WQ-357_rebound-research.md`, `ff0992bf1`; DOCKET L608 RESOLVED), in substance: *completed observations do not establish a sustained long-end rebound*; the 10/2 session gave back Thursday's rally; real yields stay elevated; ACM term premium +17.8bp over 5 observations. **BOND's REAFFIRM EXIT recommendation is unchanged**, the kill stays MET, and BOND makes no claim that bond prices must keep falling. ⇒ Will's doubt ("not sure any bond rebound continues") and BOND's evidence point the same way on the tape; BOND's exit rule still says exit.
+
+**Live re-mark (SCREENING; Fidelity governs; position as of the 10/1 capture):**
+
+| Line | Live 11:07 ET | ≈ vs basis |
+|---|---|---|
+| TLT $82P Oct-16 ×1 | TLT **$77.00 (−0.37%)** ⇒ **$5.00 in the money**; 82P bid/ask **5.10 / 5.20** (OI 1,414; no quote defects) ⇒ time value at the bid **+$0.10**; delta ≈ −0.97 to −0.99 (model) | ≈ **$509 ⇒ +$342** vs $167.67 |
+| TBT 10 sh | **$43.16 (+0.94%)** | ≈ **$432 ⇒ +$85** vs $346.46 |
+| Sleeve | ≈ $941 | **≈ +$427**; ≈ $84 per 1% TLT move (82P ≈ $75 at delta −0.98 on $77 · TBT ≈ $9), against the lines when TLT rises |
+
+Official curve (FRED): 10Y 5.28 [10/2] → **5.31 [10/5]**; 30Y 5.63 → **5.66 [10/5]**; 30Y real 3.37 [10/5], a cycle high (`SIG-W-20261007-005`, info). TLT closes since the card: 10/1 $77.71 → 10/7 $77.00 intraday. **Holding has paid ≈ +$100 since Thursday's figures.**
+
+**What the next eight sessions hold:** **10Y $39B reopening today 13:00 ET** · FOMC minutes 14:00 · **30Y $22B reopening Thu 10/8 13:00** · CPI Wed 10/14 08:30 · the 82P expires Fri 10/16. Holding through the reopenings is a held view on supply against BOND's MET kill — Will's to take, not the desk's to recommend.
+
+**Desk view (unchanged in form):** A — sell both. Two construction facts hold whatever the view:
+1. **The 82P must leave the IRA before the 10/16 close.** It carries $0.10 of time value, so waiting earns nothing but delta, and an in-the-money expiry runs into Fidelity's unobserved handling (D-60; `MGMT-TLT82P-OCT16` § 4).
+2. **Sell on a RED TLT session** (puts bid, TBT up): today is red, the right colour for both legs. If Will wants to keep a duration-short view past 10/14, the dated form is the separate WQ-360 card (TLT Dec-18 77P ×2, fills only on a GREEN TLT session), not a roll of a $5-in-the-money October put. **Sell these first, then buy.**
+
+**Will's decision and deadline, plainly:** sell (or keep) the one TLT October put and the 10 TBT shares by **Wednesday 10/14 at the close**; the put must be gone before **Friday 10/16, 4:00 PM ET** in any case.
+
+`$0` MOVED · NO ORDER. **APPROVAL REQUIRED — Will must approve/reject before execution.**

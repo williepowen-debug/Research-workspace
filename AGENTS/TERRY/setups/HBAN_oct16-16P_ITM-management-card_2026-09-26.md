@@ -163,3 +163,23 @@
   - The construction-rule #18 envelope (regional-bank 1-day moves: median 2–3%) applies to peers' read-through at most.
   - **No lean change is made here.** Re-mark at the 10/14 decision point at the live chain.
 - `$0` MOVED · NO ORDER.
+
+---
+
+## ADDENDUM 2026-10-07 Wed 11:0x–11:1x ET: re-mark for the WQ-302 decision (PROME wave-2 spawn, cloud session). The text above stands as written
+
+**Framing update:** Will's standing practice (`USER.md`, 9/30 19:03 ET) puts a **sell-or-roll rail** on every option line and never a lapse rail. That retires the 7/18 "rides to expiry" letter as a default; the line is managed as sell-or-roll. Re-ruling it is still Will's word (WQ-302).
+
+| Item | Value | Basis |
+|---|---|---|
+| HBAN | **$15.05 (−1.86%)** at 11:07 ET; closes 10/2 $15.33 · 10/5 $15.29 · 10/6 $15.33 | `fetch.py`; yfinance daily |
+| Moneyness | **$0.95 in the money** ⇒ intrinsic ×2 ≈ **$190** vs the **$192** paid | arithmetic |
+| 16P Oct-16 bid / ask | **0.85 / 1.10** (23% wide, OI 14,134; last trade ~10:06 ET) — the bid sits **below** intrinsic, so the quote is stale or wide; SCREENING ONLY | `chain_fetch.py` |
+| Today's tape | Regional banks sold off: WAL −3.7%, KRE −2.0%, FLG under REGINALD's RED line intraday (`SIG-W-20261007-001`, info) | BOARD |
+| Calendar | Bank prints JPM/WFC/C 10/13 · BAC/MS 10/14 · USB 10/15 · MTB/TFC/CFG/RF the expiry morning 10/16. **HBAN's own print, Thu 10/22, falls AFTER expiry** | ADDENDUM 10/2 |
+
+**Desk lean: SELL both (R-A), at a limit at or above intrinsic, on a RED HBAN session, by Wed 10/14 at the close.** Today is red — the right colour to sell a put. Work a limit inside a ~23%-wide market; never a market order. **No roll:** a roll past 10/22 would be a new bet on HBAN's own print, and the 7/18 ruling bars re-entry as a stress vehicle. Holding past 10/14 buys only peer read-through plus the IRA expiry-day exercise risk (Fidelity's handling UNOBSERVED, D-60). Position truth: ×2 per the 10/1 mirror; nothing later reported.
+
+**Will's decision and deadline, plainly:** sell the two HBAN puts by **Wednesday 10/14 at the close** (hard backstop Friday 10/16 before 4:00 PM ET). They are worth about $190 in intrinsic value today, roughly what he paid.
+
+`$0` MOVED · NO ORDER. **APPROVAL REQUIRED — Will must approve/reject before execution.**

@@ -728,3 +728,25 @@ Context (BRENT, not graded): Dec matched `HOZ26×42 − CLZ26` = `$93.56` (repro
 **Held share:** VLO **`$407.35` (−0.27%)** at 14:42 (`fetch.py`) vs `$412.00` = **−`$4.65` / −1.1%** (was −`$18.81` at 10:42). **2 STAGED shares:** terminal since F1 9/25, unchanged. **Construction rule #23:** the G7 release is still the named bearish-distillate driver; today it took the crack to within `$0.81` of the notice line intraday and it settled `$2.97` above it. `$0` moved · no order · no gate moved or shaved. **Next grade:** Mon 10/5 settle window, plus the 10/2 ② row on its T+1 re-pull.
 
 **⑫-ter · B1 scope note · 2026-10-02 15:58 ET (`date`) · on BRENT's FYI (WALTER `-023`, info).** EU (von der Leyen via RTÉ 10/02): the G7 decided *"not to impose any export bans on allies"* — no White House confirmation, "allies" undefined, the wording is not in the quoted G7 statement. **The B1 letter (`VLO-SHARE_management-proposal_2026-09-28.md` l.93) names NO destination: a signed text that bans, caps or licenses US distillate/diesel exports fires B1 whether it covers all destinations or only non-allies.** ~Half of US distillate exports go outside Europe (BRENT: Mexico ~220 kb/d, Chile ~119 kb/d). ⇒ The headline lowers the odds of a full ban; **it does not narrow or retire B1, and no line moves.** BRENT's reading CONCURRED. `$0` moved.
+
+### ⑫-quater `GATE-TERRY-VLO-HELD-01` owner grade for 10/5 + 10/6, the 10/2 ② T+1 row, and a 10/7 intraday read · 2026-10-07 Wed 11:0x–11:1x ET (`date` 11:07:01 at the price pull) · PROME wave-2 spawn (cloud session). **A NOT FIRED, no A-notice (10/5, 10/6) · B1 NOT FIRED · B2 none. HOLD the share. `$0` MOVED.**
+
+**Leg A — matched November pair `HOX26×42 − CLX26`, yfinance rows dated to the session (source ②; CME ① not read):**
+
+| Session | HOX26 | CLX26 | Crack | vs $90.16 sell | vs $95 notice | Grade |
+|---|---|---|---|---|---|---|
+| 10/2 (② T+1, owed from ⑫-bis) | 4.5011 | 91.11 | **$97.94** | +$7.78 | +$2.94 | ② agrees with the ③ reads $97.94 / $97.97 within $0.03 ⇒ **⑫-bis stands** |
+| 10/5 | 4.5452 | 89.43 | **$101.47** | +$11.31 | +$6.47 | **NOT FIRED, no notice** |
+| 10/6 | 4.5694 | 89.44 | **$102.47** | +$12.31 | +$7.47 | **NOT FIRED, no notice** |
+| 10/7 10:58 ET (intraday, NOT a grade) | 4.7194 | 89.54 | $108.67 | +$18.51 | +$13.67 | diesel +3.3% on the day |
+
+These reproduce PROME's 10/7 consumer read ($101.47 / $102.47) to the cent. Single vendor, not a CME settle; every row is more than $6 from either line, so the ±$0.15 UNKNOWN band is not in play.
+
+**Leg B1 — signed US distillate export-restriction text at primary:** Federal Register API, published since 10/2, queried 11:10 ET 10/7: *diesel export* 0 · *distillate export* 0 · *petroleum product export* 0. **Negative control:** *export* returns 26 (an LNG export application, ADCVD results), so the API answered. Presidential documents published 10/2–10/7: 7, none on fuel exports. **Trump's 10/5 diesel EO** ("Emergency Tax Relief on Diesel Fuel") defers the dyed-diesel excise tax; per PROME's and WALTER's reads of whitehouse.gov (`SIG-W-20261007-008`, PRIMARY to them; TERRY did not re-read it), its nine sections never use the word "export". A federal diesel excise-tax suspension is on the B1 letter's own NOT-B1 list. ⇒ **NOT FIRED.** **B2:** no Valero curb on record. **B3 (context):** EIA weekly due 10:30 today, not read.
+
+**Sign notes carried:**
+- **BRENT (`SIG-W-20261003-011`; PROME/inbox/processed/2026-10-04_from-BRENT_L297-opec-november-grade.md §2):** the US principal's on-record denial of a diesel export ban **lowers B1's odds**. It does not narrow or retire B1; the letter is unchanged. The threat is not dead in the press (FT 10/5 "diesel export coercion"; National Interest 10/6).
+- **Leg A's month:** the 10/06 contract-month sitting (DOCKET L471) was **NOT held**. On the letter, **leg A SUSPENDS after Wed 10/14** unless the sitting sets the month. After that the share's only exit rail is B1. That is Will's sitting to hold, not this desk's to extend.
+- **Isaias (context, not graded):** a Gulf-coast refinery outage near the forecast landfall would support product cracks, which is the share's direction. Unmodeled; BRENT/AEOLUS.
+
+**Held share:** VLO **$423.10 (+0.93%)** at 11:07 ET (`fetch.py`) vs the $412.00 fill = **+$11.10 / +2.7%**. The 2 staged shares are terminal since F1 9/25, unchanged. **Owner grade: LIVE — hold; no SELL recommendation.** Next touch: the Fri 10/09 session (the USO stop, L605), then 10/14 when leg A suspends. `$0` moved · no order · no gate moved or shaved.

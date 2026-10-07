@@ -172,3 +172,32 @@ The trigger fires on a **red close** (a2 is a fall back through $748.65). **The 
 > ⚠️ The failed-breakout base rate (n = 12) is against a large move. Today's tape is a rate-relief rally with no growth-fear signal. This card is the SAME bet as the bank and private-credit puts, not a hedge to them.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**
+
+---
+
+## ADDENDUM 2026-10-07 Wed 11:0x–11:1x ET: DOCKET L589 grade, the WQ-365 ruling recorded, and §7.4–7.5 re-read against VULCAN's 10/2 preview (PROME wave-2 spawn, cloud session). §§0–8 stand as written
+
+**Ruling recorded (root rule #10):** Will tapped **WQ-365 LATER** on the Decision Deck, 10/3 21:07–21:11 ET, no note (PROME packet `inbox/processed/2026-10-03_from-PROME_WQ-357-365-366-rulings.md`). **The card is NOT approved and cannot arm** (root rule #5). PROME re-dated the row to 10/06 and has told Will its recommendation is DECLINE.
+
+**Grade against §3's letter (live reads 11:07–11:09 ET; FRED cache-busted CSV pulled 11:08 ET; yfinance daily closes, unadjusted):**
+
+| Leg | Letter | Measured | State |
+|---|---|---|---|
+| (a1) | first regular-session close ≥ $748.65 on or after 10/2 | **10/2 close $749.58** | **SET 10/2** |
+| (a2) | a LATER close < $748.65 inside the window | 10/5 **$756.20** · 10/6 **$759.66** (record closes) · 10/7 **$754.36** intraday (11:07) | **NOT MET** — needs a further −0.8% from here on a close |
+| (b) | the two latest PUBLISHED HY OAS cells (`BAMLH0A0HYM2`) both ≥ 321bp | **310 [10/2] · 312 [10/5]**; the 10/6 cell was not yet posted at 11:08 ET | **NOT MET.** Earliest re-qualification: the 10/6 AND 10/7 cells both ≥ 321, readable ~10/8 at the soonest. No HY cell for Mon 10/12 (bond market closed) |
+| Kill — credit withdrawn | a published cell ≤ 312bp ⇒ sell a HELD spread | **TOUCHED twice (310, 312) on the same series and basis this card names** | Nothing to sell (no fill). On the card's own thesis axis (§5: *"credit un-leading is the thesis broken"*), **the premise is absent today** |
+| Kill — breakout vindicated | two closes ≥ $763.62 | highest close $759.66 | not met |
+| Window | 10/05 09:45 → **Fri 10/16 15:00 ET**, then LAPSES | 8 sessions left incl. today (equities trade Mon 10/12) | open |
+| Structure (moment property) | long strike nearest 97% of QQQ, short −$20, ≤ $4.90 | QQQ $754.36 ⇒ **730/710: 16.36 − 11.63 = $4.73 natural ⇒ $474.30** (mid $4.67); `chain_fetch.py --no-cache`, SCREENING, no quote defects | inside the limit |
+
+**§7.4–7.5 re-read against VULCAN's 10/2 16:0x ACK** (`inbox/processed/2026-10-02_from-VULCAN_ack-deferred-expression-ask.md`; VULCAN calls it a preview, not an answer; VULCAN has been dark since). **It strengthens the case AGAINST, and changes no letter:**
+- VULCAN: QQQ's link to the AI-debt thesis is **"LOOSE"**. The stress reaches QQQ **"by DRAG, not by DIRECT HOLDING"**: a priced-issue shock hits CRWV, Meta-leased HY and insurer-held SPV debt first, equity second.
+- VULCAN: AI-infra primary is **OPEN** (CleanSpark $2.23B HY ~4.4× covered; SoftBank $11.1B; CRWV converts upsized). Micron's FQ1 guide is up. Since then (BOARD `SIG-W-20261007-012`): an OpenAI $30B raise in talks, Google–Constellation 3.59 GW, Marvell's FY28 target raised. **No dated capex-cut or ROI signal at a QQQ constituent** — the one input §8 said would change the verdict.
+- ⚠️ **Conflict, not resolved here:** VULCAN lists ORCL among "AI-debt names in QQQ". §7.5 holds ORCL is NYSE-listed (yfinance `NYQ`) and so outside the Nasdaq-100 (INFERRED from the index rule). The desk keeps §7.5; VULCAN owns the holdings question.
+
+**Verdict:** **CONDITIONAL — UNARMED** (a2 ✗, b ✗); the window runs to Fri 10/16 15:00 ET, then the card lapses. **Desk view on WQ-365, one line: DECLINE — concur with PROME: the card's own credit leg has un-led (310/312, at or below its own 312 kill), QQQ has extended to record closes, and VULCAN's preview makes QQQ the loosest wrapper for the AI-debt bet; declining costs only the automatic arm if HY re-widens ≥ 321 twice by 10/16, and a re-card at live marks would then be cheap.**
+
+`$0` MOVED · NO ORDER · NOTHING APPROVED · no gate or threshold moved.
+
+**APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**
