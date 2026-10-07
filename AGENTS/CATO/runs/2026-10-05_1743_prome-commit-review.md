@@ -2,7 +2,7 @@
 
 ## Current assessment
 
-Retain the installed boot/runtime/Git improvements. Make one bounded correction to the dormant docket cap before activating it: its commit hook checks staged rows against an unstaged policy file. No rollback of the rest of the bundle is warranted by this review. Will requested review of today's recent PROME commits; this is review and advice, not authorization to change PROME's active files or select a cap.
+October 7 follow-up: PR1 is CLOSED within its original staged-policy scope at `7d15d5c92`. Retain the repair. New PR2 requires a bounded owner correction: hash-provenance prose appended after two ORCH_LOG JSON objects makes their closeout evidence unreadable. Preserve the correction text but place it before `closeout_v1=`. Current VLO consumer edits reproduce numerically and retain material limits; no new material draft defect found in the inspected scope. Existing expired QQQ instruction and publication/owner-state residue remain unresolved. Review/advice only; no PROME edits or cap activation authorized.
 
 Pinned revision: `a441d4fa8ccf20b64e45d976ce2b5400635a5bda`, master, October 5, 2026. Inventoried 16 PROME-subject commits dated October 5 ET. Deep review focused on the consequential product changes in `39178712a` (boot/coverage), `2a72c60bc` (Git/hooks), `a441d4fa8` (closeout/cap/parser), and the WQ-385 instruction/acceptance records. Supporting delivery/boot records were checked for claimed versus demonstrated outcomes. This is not line-by-line certification of every generated render, source figure, old ledger row, or every historical clause moved into archives.
 
@@ -58,3 +58,45 @@ Implemented by CATO: this review, evidence and continuity updates only. Tested: 
 Review complete; recommended next action is the single PR1 correction before cap activation, then its specific staged-policy counterexamples. No additional broad audit or recurring check proposed. Return to Will and await direction. Other pending CATO work, the desk-closeout proposal and forecast-pilot approval remain at their existing resume points.
 
 Closeout checks: all six weekday inputs were first verified readable, then passed: PROME/DOCKET.tsv, GATES.tsv, WILL_QUEUE.md, CATO/CONTINUITY.md, this report and the continuing boot report. Optional CATO STATUS/CALENDAR/CATALYSTS files remain absent and were omitted. Direct startup measurements: CATO AGENTS 6,465 B, CHARTER 9,921 B, CONTINUITY 22,111 B; root CLAUDE 24,961 B, USER 5,200 B, AGENTS 5,313 B, all below 32,550 B. Generic CATO read-cap returned rc2 CANNOT-EVALUATE for absent local CLAUDE.md, not PASS. Orphan advisory exposed only the preserved owner files already dirty in PROME and shared daily memory; CATO authored no outside packets or shared-log rows. Scoped whitespace clean; staged list empty before delivery staging. No STATUS/ledger, auto-memory, or shared threshold change triggered additional conditional checks. Exact Git receipt is delivered in-session; no hosted publication applies to this local review.
+
+
+## October 7 — recent commits and current edits
+
+Will requested “previous commits and 3edits,” clarified as recent commits plus current edits. Scope: the three commits after the prior CATO review (`30f188348`, `f0df79db4`, `7d15d5c92`), through HEAD `7d15d5c9200e802d0c702884c6655f6e6d53ef7d`; current PROME/SCRATCH.md addition and seven staged files under PROME/reviews/2026-10-07_VLO/. Shared owner work was present throughout; no pull, owner edit, send, launch or production-script execution. Tests used disposable repositories. This is a bounded source/record review, not hosted publication verification, a full financial-source search, or a TERRY owner grade.
+
+### PR1 — CLOSED: staged policy repair
+
+Reviewed policy lookup and acceptance contract. Re-ran all 28 docket-cap tests: PASS. Independently replayed the original actual-hook/pathspec examples with a 2,000-byte committed cap and 2,050-byte new row: unchanged cap, unstaged removal, and unstaged raise all refused (rc1). An unstaged tightening to 10 did not block an otherwise valid 80-byte new row (rc0). Tests cover deliberately staged changes and alternate index. The cap key remains unset. No cap selection or live activation accepted; declared whitespace/BOM parsing and working-tree directory-path residue remain outside PR1 closure.
+
+### PR2 — Medium: hash corrections break two structured closeout records
+
+Introduced by `30f188348`, still present at HEAD. `PROME/state/ORCH_LOG.tsv:779` and `:780` append ` · +2026-10-05 ... CORRECTION` AFTER the final `closeout_v1={...}` object. `PROME/tools/orch_closeout.py:81` feeds the entire suffix to json.loads; the format contract requires a final JSON object.
+
+Independent read-only reproduction calling the actual disposition reader on the historical/current rows:
+
+| Revision | BOND L779 | HENRY L780 |
+|---|---|---|
+| 7df535004, before correction | OUT_OF_SCOPE (Will-owned) | ASKED_WORKING |
+| 30f188348 and HEAD | UNKNOWN, Extra data at character 622 | UNKNOWN, Extra data at character 414 |
+
+Consequence: usable ownership/closeout evidence is downgraded to UNKNOWN; the previously out-of-scope BOND touch now persists as an unresolved prior-date record. This does not prove a live owner or failed research, and the reader is advisory, not a new launch blocker. Correction: retain dated hash provenance, move it before the marker, leaving the JSON last; do not weaken the parser or delete evidence. An in-memory reorder restores exactly OUT_OF_SCOPE and ASKED_WORKING. Closure requires owner edit of these two notes and rerun against actual saved rows. No implementation by CATO.
+
+### Other committed records
+
+L490 now records the final-package consumer read and retains remaining coverage and October 9 disposition; the prior CATO continuity statement that the read was still pending is superseded by this owner receipt. This review does not independently repeat the entire DAEDALUS audit. L593 correctly distinguishes the delivered multi-path split from remaining title-cell acceptance. Runtime hash correction preserves historical text, subject to PR2's formatting defect. Publication record explicitly qualifies the unrepublished reference as PARTIAL; hosted Owed/Helm content remains unverified here.
+
+Existing consequential residue remains: the generated Decision Deck still describes the October 5 15:00 QQQ action prospectively although its build is 16:37. The closeout report already discloses this; do not count it as a newly discovered regression. Owner should reconcile the current operator card to deadline passed/outcome UNKNOWN without inferring a fill. Historical owner statuses, incomplete live runtime tests and the disclosed review perimeter limits remain; no broad audit or rollback recommended.
+
+### Current VLO edits — bounded checks hold
+
+Read the draft review, capture script and evidence JSON; independently recomputed the six relevant minute windows from the raw CSVs. All windows contain the three registered 14:28–14:30 ET bars. Computed cracks: October 2 97.9376288564563; October 5 101.44596956035747; October 6 102.50577202172208 dollars/barrel. They match the draft. October 6 window volumes reproduce at HO 1,613 and CL 12,478. Daily CSVs confirm duplicated October 5/6 volumes, and the draft rejects that daily source. Captured expiry epochs decode to October 30 and October 20. These validate captured vendor data and arithmetic, not official settlements or current broker holdings.
+
+Compared the result and missing-data treatment against TERRY's approved management card; read HENRY's October 2 calibration correction and checked L471/L472. The draft preserves the fixed-November end date, incomplete B2 coverage, missing owner grade, unknown holdings and the uncertain original $90.16 contract composition. Its L472 stale-delivery observation is supported; the memo/prep/ruling obligations should remain distinct in any owner reconciliation. The draft does not authorize a month extension or trade.
+
+Opened the signed primary diesel order directly: https://www.whitehouse.gov/presidential-actions/2026/10/emergency-tax-relief-on-diesel-fuel/ (accessed October 7). Its operative provisions support the draft's tax-relief classification; no export restriction in that text. Saved Federal Register results contain the stated three zero counts and nine control results. Did not certify exhaustive absence of other policy measures or repeat the Valero/SEC search. The first local arithmetic script finished all price calculations then hit a None-results logging error on a zero-result response; the corrected inspection handles null results and confirms the counts. Did not rerun pull.py, which would replace owner evidence.
+
+### Delivery / stopping condition
+
+Recommendation: preserve PR1 repair; make the two-note PR2 owner correction; retain the VLO draft's qualified conclusions. Existing expired-action correction and the VLO month ruling/owner-grade work remain with their owners. No new collection, repair project or recurring check assigned. CATO implemented only this report follow-up and its continuity update; demonstrated benefit is closure of the original reproduction and detection of the record regression, not live workflow performance.
+
+October 7 delivery checks: weekday check passed after readability verification for PROME/DOCKET.tsv, PROME/GATES.tsv, PROME/WILL_QUEUE.md, CATO/CONTINUITY.md and this report. Startup byte sizes: CATO AGENTS 6,465; CHARTER 9,921; CONTINUITY 22,200; root CLAUDE 24,961; USER 5,200; AGENTS 5,313 — all below 32,550. Generic read-cap rc2 CANNOT-EVALUATE remains the known absent local CLAUDE.md limitation, not a pass. Orphan advisory lists only the preserved PROME edits reviewed above; none authored by CATO. Scoped whitespace passed. No ledger, auto-memory or shared threshold change; conditional checks not triggered. Delivery includes only the two CATO documents; publication not applicable. Git receipt supplied in-session.
