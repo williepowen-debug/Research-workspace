@@ -27,3 +27,7 @@ BRENT sent a live recovery notice: original session, served gpt-6.1-sol/high ver
 ## BOND consumed and closed — October 7, 16:39 ET
 
 PROME read the exact packet and checkpoint at `259bd8578`, checked owned state changes and clean BOND tree, and independently fetched origin then verified the commit is its ancestor. Owner explicit receipt reports STANDARD rc0 at16:32, FREEZE MATCH and literal safe-push confirmation; native read is completed/idle. BOND is closed at Will request; this is a PARTIAL research handoff, not a completed rates catch-up. Remaining work is registered at DOCKET L617, October8; current decisions unchanged. No immediate BOND restart or replacement. WALTER/BRENT assignments remain separate and pending. This record acknowledges consumption without reopening the closed owner just for an acknowledgment.
+
+## BOND new context — October7, 16:46 ET
+
+Will reports clearing and booting BOND again. New exact thread `01a1181a-7aa4-7882-9d7d-df300b6b4665` is active/inProgress in AGENTS/BOND; old thread remains idle with its earlier explicit closeout. PROME sent the committed BOND_RESUME.md continuation brief (`9e2a93285`) to the new owner; native transport accepted. Actual consumption/model receipt pending. Will owns this window; do not reopen the old task. DOCKET L617 now records current remainder in progress and October8 outcomes still future. BRENT reports its Will-requested push published37461d206/9e2a93285, retried transient DNS and confirmed origin equality; its research remains untracked and unfinished.
