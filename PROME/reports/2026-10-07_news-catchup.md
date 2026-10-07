@@ -146,7 +146,7 @@ AI financing news pointed to MORE spending: an OpenAI $30B raise at $1.4T (in ta
 1. El Niño probability: CPC 9/10 says >90% very strong / 75% record, not the 81% (7/25) carried by the fleet. Owner AEOLUS.
 2. Compute futures did not list on 10/5; the CFTC extended its review to 11/9 → DOCKET L250 (VULCAN/WATT/DEWEY) premise has slid.
 3. Petroline: the helper's "could fire" is withdrawn by PROME; BG-02 LAPSED 9/25 (see § 2).
-4. Blue Owl OTIC 39%-of-shares request (10/2 release) may be missing from the BRK-R2 tally, which records OCIC only. Owner BROCK.
+4. Blue Owl OTIC 39%-of-shares request (10/2 release) may be missing from the BRK-R2 tally, which records OCIC only. Owner BROCK. ⚠️ **WITHDRAWN 2026-10-07 11:0x ET on WALTER's dedupe:** the OTIC request is already on the BOARD (SIG-W-20261002-021/-022), and its population question is WQ-370 with Will. PROME's "may be missing" was wrong; the §2 BRK-R2 row is superseded by this line.
 
 ## 6. Gaps (SEARCH-NOT-FOUND — search budget exhausted)
 - **Macro:** Fed speaker content 10/6; US government funding status; Canadian counter-tariff status; tariff court rulings; Fifth Plenum date; ECB.
