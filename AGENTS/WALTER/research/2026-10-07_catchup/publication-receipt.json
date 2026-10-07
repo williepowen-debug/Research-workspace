@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-07T23:36:54.762903+00:00",
+  "as_of": "2026-10-07T23:44:44.463620+00:00",
   "publication": "PENDING: live GitHub DNS failed, foreign work prevents pull/push; origin ref is dated",
   "commits": [
     {
@@ -25,17 +25,22 @@
     {
       "commit": "07ecfec25",
       "scope": "late BOND FOLD disposition and current BRENT archive review"
+    },
+    {
+      "commit": "188440ea6",
+      "scope": "exact PROME acknowledgement hashes and conserved late BOND intake archive"
+    },
+    {
+      "commit": "2144da1ad",
+      "scope": "final2 BOND sender handoffs after observed native idle"
     }
   ],
   "handoffs": {
     "written": 66,
-    "sender_committed": 64,
+    "sender_committed": 66,
     "origin_proven": 0,
-    "remaining": [
-      "AGENTS/BOND/inbox/WALTER/SIG-W-20261007-002.md",
-      "AGENTS/BOND/inbox/WALTER/SIG-W-20261007-006.md"
-    ],
-    "reason": "BOND active; pause/yield requested, no concurrent-subtree commit"
+    "remaining": [],
+    "reason": "All66 exact sender paths committed, after active recipient yields; origin remains separately pending"
   },
   "consumption": {
     "PROME": {
@@ -49,7 +54,7 @@
       "ack": "PROME explicitly acknowledged full exact completion and final report revision,49/49 lane,8/8manual,1/1private,17outputs/66handoffs/24ACTION,16NOTE gaps,GIE estimate E,boot PARTIAL,69MED and processed-only path limit. This is report/packet consumption, not publication or full closeout."
     },
     "BRENT": "Whole current report read;003/004/014/015 integrated; archiving separately",
-    "BOND": "Native report says002 integrated,006 logged; final owned report not yet consumed",
+    "BOND": "Native ack002 integrated from primary,006 logged; final two sender paths2144da1ad notified for recipient archives. Research report read whole,owner thresholds/capital preserved.",
     "BRENT_archive": {
       "commit": "d10bf9503",
       "receipt": "AGENTS/BRENT/research/2026-10-07_news-catchup/archive-receipt.json",
@@ -61,7 +66,7 @@
     "weekday": "PASS 3 named files",
     "diff": "PASS owned WALTER/BOARD",
     "archive_pairs": "PASS 2 staged moves",
-    "doctor": "0HIGH/69MED:64 publication warnings+5 retained structural/backlog/review prompts",
+    "doctor": "Saved checkpoint0HIGH/69MED:64publication warnings+5retained. Final2sender commits subsequently2144da1ad; no new BOARD/source/grade or all-clear inferred.",
     "continuity": "REVIEW:3 processed-only old BRENT origin paths not resolved by checker; exact independent proofs show Oct5 19/19",
     "boot": "PARTIAL as detailed in REPORT.md"
   },
@@ -72,7 +77,7 @@
     "sha256": "738aa32260299cec139366e5b9e44b4ba9e5d527b897396cae0105a6a6f00e06",
     "read": "whole61lines9690bytes",
     "claims": "3Y I-prime rarity fired;OLD/cover unmet.10Y clean;composite17/35 unchanged. July yen operation Treasury fiscal agency, excludesSOMA; FIMA/UST liquidation not established. Exact8 owner packets already written; no duplicate BOARD dispatch",
-    "archive": "await sender tracked persistence, never commit foreign authored packet",
+    "archive": "Own byte-identical git-mv in188440ea6 with whole-source consumption receipt",
     "sender_commit": "fd84bb90d"
   }
 }
