@@ -1,0 +1,8 @@
+## COMPLETION — BRENT — 2026-10-07
+STATUS: ⚠️ PARTIAL
+CHANGED: AGENTS/BRENT/research/2026-10-07_news-catchup/REPORT.md + primary evidence; STATUS/TRADE/THESIS/CHANGELOG/RULINGS/TRACKER/docket/SCRATCH/board_log/NEXUS_BRIEF; verbatim STATUS archive.
+RESULT: October5–7 energy catch-up integrated: EIA Q4Brent105 vs91 but draws0.7 vs1.7mbd; WPSR crude−3.186M with thirdCushingbuild; gasoline−0.29256% outsideBRT31; Novcrack105.81538 EST. Dated freight/WTI incidence analyzed; WQ386 applied only heldVLO1 and extra2 stooddown; no new trade/test/deployment.
+GAPS: Officialsettles/currentUSOweights/liveinsurance/quantifiedSaudiloss unobtained; no causal freightbeta. Four WALTER sender-authored packets untracked: archive must wait for sendercommit while BRENT idle; integration receipted. Eight historical STANDING stamps predate STEO grade (generator advisory); no fresh rawCOT/rig/JWC/incident verification.
+WILL_NEEDS: Existing USOOctober9 15:00ET sell-or-roll action; broaderWQ252/HEN46 basis sitting; WQ378October9 lead-lag decision. No new proposal/paiddata/deployment approval asked.
+FOLLOW-UP: PROME read exact report/core version, record disposition and coordinate publication; WALTER commit003/004/014/015 then notify sameBRENT owner for archival. October8 policy/China/SPR checks; October9freight/COT; October15noonBRT31; November18/19heldVLO basis. Await explicit closeout after delivery.
+VERSION: Core/evidence fd9a422e3; late-intake/STATUS88364423e; NEXUS and packet in following scoped commit. Sameowner01a10c35-32d7-73f2-92cf-601e74814af6, Codex/OpenAI actualgpt-6.1-sol/high. Deploy controls/paidfeeds/broker unavailable; foreignstaging preserved.
