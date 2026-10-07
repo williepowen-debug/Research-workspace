@@ -5,9 +5,9 @@ Research continuation; session open, not closeout. Primary October6/7 auctions g
 | Packet | Action | State |
 |---|---|---|
 | WALTER032 | PARTIAL; vendor arithmetic updated, independent dated CME/OIS missing | Retained pending source |
-| WALTER10/7-002 | INTEGRATED, primary minutes KB420/421 | Sender handoff untracked at read; archive after sender commit |
-| WALTER10/7-006 | LOG_ONLY, attributed August gold KB424 | Sender handoff untracked at read; archive after sender commit |
+| WALTER10/7-002 | INTEGRATED, primary minutes KB420/421 | Sender committed2144da1ad; byte-identical archive in inbox/processed, verified2026-10-07T19:45:29.250814-04:00 |
+| WALTER10/7-006 | LOG_ONLY, attributed August gold KB424 | Sender committed2144da1ad; byte-identical archive in inbox/processed, verified2026-10-07T19:45:29.250814-04:00 |
 
 No new decision for Will. WQ357pathC10/14/NOADD preserved. Substantive delivery and routing prepared; commit/notification/consumption recorded only after actual evidence. Runtime gpt-6-astra/Codex verified, no helper launched. Closeout awaits Will.
 
-Eight recipient copies saved; exact research commit pending. PROME owns coordinated publication. WALTER002/006 archive deferred until sender commits after BOND yields idle. All four consistency components passed; no full session closeout claimed.
+Research and eight recipient copies committed fd84bb90d. PROME owns coordinated publication. WALTER002/006 sender persistence verified at2144da1ad and archives completed byte-identically. All four consistency components passed; no full session closeout claimed.

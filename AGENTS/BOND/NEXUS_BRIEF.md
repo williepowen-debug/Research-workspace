@@ -1,5 +1,5 @@
 # BOND → NEXUS — standing rates pointers
-**Last refresh:** 2026-10-07T18:49:59.228650-04:00 — substantive October7 continuation; session open.
+**Last refresh:** 2026-10-07T19:45:29.250814-04:00 — substantive October7 continuation; session open.
 <!-- bond-state: thesis=v1.2.11; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=HOLD-NO-ADD -->
 
 WQ357LATER/pathCtoOctober14;NOADD. Prior operationalkillMET;netinventory≠warehousing andfundingwindowUNGRADED. October7brokerquantities unchanged;no executablemarks. Construction→TERRY.
@@ -13,4 +13,4 @@ WQ357LATER/pathCtoOctober14;NOADD. Prior operationalkillMET;netinventory≠wareh
 
 re-test:October8datedCME/OISandpaid-dataavailabilityonlyasneeded;trueCDX/MBSOAS/failed-dealcensusgapsremain. Funding→LIQUID;foreignflows→ZHAO/SAM;EU→HANS;metals→MIDAS;equity/vol→HENRY/VIOLET.
 
-Persistence: PROME coordinates push after BOND exactcommit and WALTERhandoffs. WALTER002/006 archive awaits sendercommit; BONDyieldingidle,notclosing.
+Persistence: research fd84bb90d; WALTER handoffs2144da1ad verified and archived byte-identically. PROME coordinates publication. This archive update changes no analysis; window remains open.
