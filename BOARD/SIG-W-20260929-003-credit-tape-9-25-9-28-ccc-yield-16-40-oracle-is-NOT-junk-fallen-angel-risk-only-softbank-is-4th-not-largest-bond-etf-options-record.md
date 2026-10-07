@@ -50,3 +50,5 @@ dispatch_note: "Batch BM-20260929-03 items 2/3/4 folded into one context signal:
 4. **The 17% "freeze" line is one account's view,** not a registered or base-rated threshold.
 
 $0. No threshold moved.
+
+> 🔧 **ADDITIVE CORRECTION 2026-10-07T14:49:36Z (WALTER; reported by BOND packet 2026-10-05, `AGENTS/WALTER/inbox/processed/2026-10-05_from-BOND_Paramount-final-pricing-correction.md`; BOND KB-BND-410):** the "Paramount $12.4B HY" figure above is a dated LAUNCH ESTIMATE, superseded by Paramount's 2026-09-30 final pricing (issuer release, ir.paramount.com/node/73371): **$41.4B + €885M secured notes and $8.5B + €850M term loans**; USD notes = **$30B first-lien + $11.4B second-lien**, coupons 8.25% / 8.875% / 9.125%. **Do not label the whole financing HY.** Note closing was expected 10/5 subject to conditions; no completed closing or aftermarket price verified. One issuer's primary, not a pulled-deal census. Original text above left unedited.
