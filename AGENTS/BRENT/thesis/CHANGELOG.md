@@ -1,3 +1,9 @@
+## 2026-10-07 — STEO/WPSR/freight catch-up; v5.11 unchanged
+
+Old → new evidence: October 5 export/route and product split → October STEO raises prices while revising global draws lower; WPSR week 10/2 national draw/export jump with a third Cushing build; three matched Nov/Dec crack estimates and dated public freight assessments. Assessment unchanged: product tightness more resilient than immediate crude-scarcity acceleration, moderate confidence, no demonstrated freight-to-WTI beta. Model cutoff excludes the G7 announcement; implementation and physical flows remain distinct. BRT-31's window has not started; F-b remains fired and F-a ungraded on incomplete paired data. [Report](../research/2026-10-07_news-catchup/REPORT.md).
+
+WQ-386 held-VLO-only amendment applied at TRADE with its fixed month/window, missing-data, sunset and prior-exit conditions; TERRY remains grader. October 7 holdings evidence reconciled, no Activity/fill inferred; USO early-sale decline and October 9 15:00 ET rail preserved. Two additional VLO shares corrected from stale STAGED to terminal STOOD DOWN. No new threshold, probability, prediction grade, capital authority or deployment.
+
 ## 2026-10-05 — explicit overall assessment; v5.11 unchanged
 
 Old presentation → new presentation: morning evidence described export recovery, disputed pipeline flow and product/buffer stress; the core thesis now leads with the resulting judgment. Less conviction in another broad crude spike; diesel tightness and the refiner-margin rationale remain better supported; confidence moderate, global demand collapse/Phase 2 unconfirmed. This is the synthesis already given to Will and supported by today's saved report, not another market-data refresh or an additional conviction revision. Existing stand-down remains appropriate. Reassessment inputs are qualitative, not new trigger letters. No version, probability, threshold, prediction, position, approval or deployment change.

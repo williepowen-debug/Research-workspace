@@ -1,6 +1,6 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-10-05 09:50 ET — SCOPED-PARTIAL.** Named futures quotes 09:32–34 ET; equity quotes 09:44 ET; EIA API still wk-9/25; FRED spot still 9/29, retail fuel 9/28; GIE gas day 10/3; JWC index + primary PDF and current Saudi/policy news checked. COT/rig grades and incident states retain their earlier vintages. [Raw data and evidence](research/2026-10-05_market-open/REPORT.md).
+**Last real data refresh: 2026-10-07 16:33 ET; writeback 2026-10-07 17:41 ET — SCOPED-PARTIAL.** WPSR week 10/2 at API/XLS; October/September STEO PDFs; freight October 2; named quote capture 16:15–17 ET and October 5–7 settlement-window estimates; FRED spot 10/6, retail 10/5; GIE gas day 10/6 estimated; Will-confirmed 10/7 holdings, exact capture time unknown. Official settlements, current USO weights and quantified Saudi loss unavailable. COT/rig/JWC and incident states retain their earlier vintages. [Evidence and limitations](research/2026-10-07_news-catchup/REPORT.md).
 
 **Routine deployment stays parked** at the [CATO handoff](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et); saved repair is complete, live deployment/normal-run acceptance unresolved. No trade approval changed. Position status and USO card correction → [TRADE](TRADE.md).
 
@@ -9,19 +9,15 @@
 # ⚡ CURRENT STATE — *read this first. Dated blocks follow newest first; STANDING STATE is the hot half; ARCHIVE INDEX is history.*
 
 
-## October 5 — CRUDE SOFTER, DIESEL FIRMER; PIPELINE REPORTS CONFLICT
+## October 7 — PRODUCT TIGHTNESS, IMPROVING CRUDE AVAILABILITY
 
-[CONF vendor 09:32–34 ET, NOT settles] December Brent **$101.63**, November WTI **$89.62**; December WTI–Brent **−$13.31**; December–February Brent **+$6.20**. November ULSD crack **$101.58** intraday; no settlement-rule grade. [CONF primary] EU storage **72.40%**, gas day **10/3**; WPSR still wk-9/25. Retail diesel **$6.382**, gasoline **$4.465**, both **9/28** FRED observations. [Evidence/basis](research/2026-10-05_market-open/REPORT.md).
+[CONF EIA WPSR 10/7, week 10/2] Commercial crude **424.134M bbl (−3.186M)**, SPR **282.983M (−0.784M)**, Cushing **24.745M (+0.444M, third build)**; distillate **105.138M (−0.042M)**, exports **1.764 mb/d**; refinery use **92.7%**. Gasoline four-week supplied **−0.29256% YoY**, outside BRT-31's window; first eligible release **10/15 noon ET**. Earlier F-b fire remains. [Source/calculation](research/2026-10-07_news-catchup/REPORT.md#five-release-findings).
 
-AFP reports a pipeline halt; other reporting says flows continue. Named Aramco capacity assurances are counterevidence to a total-outage claim, not measured throughput. New Saudi loss remains **UNKNOWN**. Regional exports recovered on dated, unmatched vendor windows; no Hormuz-normalization or BG-02 grade follows. US presidential denial of a diesel ban supersedes the old “no White House word” path; B1's signed-text rule remains. JWC Gulf listing retained. THESIS v5.11/WQ-192 unchanged; **$0**.
+[EST EIA October STEO] Q4 Brent forecast **$105 vs $91**, but global draws **Q3 1.9/Q4 0.7 mb/d vs 3.0/1.7**: higher price forecast does not mean faster depletion. Cutoff **10/1** excludes G7 **10/2** action. [CONF captured vendor, 16:15–17 ET, not settles] December Brent **$101.04**, November WTI **$89.10**, December WTI−Brent **−$12.82**, WTI Nov−Dec **+$0.88**. Brent Dec−Feb **NOT MEASURABLE** on the required paired basis; no new F-a grade. [EST single-vendor 14:28–30 proxy] Nov/Dec diesel crack **$105.81538/$100.42309**; TERRY owns held-share grading.
 
-> **Before-image:** prior dashboard, dated OSP and summary text preserved in [archive](archive/2026-10-05_market-open_before_STATUS.md): 23,824 UTF-8 payload bytes, crc32 `6a08bac2`; payload after first standalone separator, outer whitespace stripped. November OSP regional split remains dated evidence at its [owner note](research/2026-10-04_aramco-november-osp/NOTE.md).
+Freight remains historically expensive but October 2 Baltic WS assessments eased WoW; no freight-to-WTI causal beta established. October 5 diesel-tax and Texas sulfur relief are not export restrictions under the inspected B1 letter. G7 implementation/split, SPR awards and new Saudi quantified loss remain UNKNOWN. Refiner rationale better supported than a short-dated crude rally; THESIS **v5.11**, calibration and WQ-192 unchanged. Holdings/ruling application → [TRADE](TRADE.md); report → [catch-up](research/2026-10-07_news-catchup/REPORT.md).
 
-> **Rotated 2026-10-04 22:5x ET:** the detailed evening-tape and OPEC blocks → [archive](archive/STATUS_dated_2026-10-04_evening-and-opec.md), 2,424 UTF-8 payload bytes, crc32 `b3924829`; payload rule recorded in the archive header.
-
-> **Rotated 2026-10-04 (verbatim):** the 10/2 ARMED block (items 1–3 all DONE) + the [October 2 PM block](archive/STATUS_dated_2026-10-04_rotation.md) + prior-reconcile parentheticals and three provenance sentences (DATED-HISTORY row, COT row), 3695 B crc32 `31c9d64b`. Live from them: COT #8 NOT-SPENT (standing row) · 10/2 crack $97.97 ⇒ VLO-HELD-01 A NOT FIRED (TERRY `1857731ff`) · Yanbu port strike 10/01.
-
-> **Rotation receipts + carry pointers** (10/2 AM block, 10/1+9/30 blocks, 9/28 PM carries incl. the Brent graded-contract rule → REGISTRY header and WQ-264 → 10/24, all older crc32 receipts) → [archive/STATUS_rotation_receipts_2026-10.md](archive/STATUS_rotation_receipts_2026-10.md) 2711 B crc32 `6837be32`.
+> **Rotated October7:** dated October5 block and historical rotation pointers → [archive](archive/STATUS_dated_2026-10-07_rotation.md), 2387 UTF-8 payload bytes, crc32 `8d9934d0`; payload after first standalone separator, outer whitespace stripped. Standing constraints remain below.
 
 ## 📌 STANDING STATE — *current values, live rules and active obligations. Read this; it is the hot half.*
 
@@ -74,22 +70,26 @@ AFP reports a pipeline halt; other reporting says flows continue. Named Aramco c
 | **Fri Oct 2** | ✅ EU ENERGY TASKFORCE — meets on a possible release of emergency DIESEL stocks (US pressing FR/DE for 120M bbl over 6 months, WALTER SIG-W-20261001-026) — GRADED 2026-10-02 09:3x ET: MET,… | 🟠 |
 | **Sun Oct 4** | ✅ OPEC+ SEVEN-COUNTRY MONTHLY MEETING — November 2026 decision — GRADED 2026-10-04 11:3x ET: OUTCOME (1) NOVEMBER HELD at September/October required production (2nd consecutive monthly ho… | 🟠 |
 | **~Mon Oct 5** ⌁*modeled* | ✅ ARAMCO NOVEMBER OSPs — GRADED 2026-10-04: Asia CUT to −$5; NW Europe/Mediterranean raised $3; US unchanged | 🟠 |
-| **Tue Oct 6** | EIA October STEO — successor same-series vintage read | 🟠 |
+| **Tue Oct 6** | ✅ EIA October STEO — GRADED 2026-10-07: release and same-series comparison MET | 🟠 |
 | **Tue Oct 6** | SPR EXCHANGE (up to 40M bbl, Big Hill + Bryan Mound) — BIDS CLOSE 11:00 CT; awards follow | 🟠 |
 | **~Thu Oct 8** ⌁*modeled* | CHINA PRODUCT-EXPORT HALT — Beijing guidance after Golden Week (holiday ends 10/7) | 🟠 |
 | **~Sat Oct 10** ⌁*modeled* | 🟠 IRAN-OMAN PERMANENT-ROUTE WINDOW — 30-60d after 8/26 interim framework | 🟠 |
+| **Sat Oct 10** | DIESEL TAX RELIEF — five-day implementation directive from October5 order | 🟠 |
 | **~Wed Oct 14** ⌁*modeled* | 🟠 IEA OMR OCTOBER — second collective-action watch + global stock draw (successor to the Sept OMR read 9/18) | 🟠 |
 | **~Thu Oct 22** ⌁*modeled* | G7 STOCK RELEASE — end of the first 20-day window for the 'substantial diesel release' (decided 10/02, up to 100M bbl diesel + crude over 4 months, IEA-coordinated) | 🟠 |
+| **Sat Oct 24** | TEXAS DIESEL WAIVER — existing 20-day window ends | 🟠 |
 | **Sat Oct 31** | RUSSIA PRODUCER DIESEL EXPORT BAN — extended expiry (successor to the 9/30 row) | 🟠 |
 | **~Sun Nov 1** ⌁*modeled* | 🟠 EU GAS STORAGE — RESOLVED 2026-08-13: the target, the DATE and the pace are now all verified | 🟠 |
 | **Sun Nov 1** | ROUTINE CRONS — DST RE-SET (EST begins): move all four BRENT routines +1h UTC | 🟠 |
 | **Sun Nov 1** | 🟠 OPEC+ SEVEN-COUNTRY MONTHLY MEETING — the December 2026 production decision (successor to the 10/4 row) | 🟠 |
+| **Wed Nov 18** | WQ-386 HELD VLO — review next crack basis | 🟠 |
+| **Thu Nov 19** | WQ-386 HELD VLO — last authorized December leg-A observation | 🟠 |
 | **Sun Nov 29** | OPEC+ 69th JMMC — monitoring committee (watch for an ONOMM call / 2027-baseline language) | 🟡 |
 | **Sun Jan 31 2027** | RUSSIA FUEL EXPORT BAN — full expiry (gasoline all-participants + non-producer diesel) | 🟡 |
 
-*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 10 of 24 rows are modeled.*
+*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 10 of 28 rows are modeled.*
 
-*24 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
+*28 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
 
 <!-- CALENDAR:END -->
 **✅ FIRED & GRADED history:** canonical text remains in `docket/CATALYSTS.tsv`; it is not duplicated here.
@@ -98,6 +98,6 @@ AFP reports a pipeline halt; other reporting says flows continue. Named Aramco c
 
 ## SUMMARY FOR WILL
 
-*(October 5; market vintage unchanged)* **Weaker crude-spike case; product tightness persists; Phase 2 unconfirmed. Stand-down maintained.** [THESIS](thesis/THESIS.md) · [evidence](research/2026-10-05_market-open/REPORT.md). Closeout bookkeeping corrected; research remains owed in [SCRATCH](SCRATCH.md). [Audit](audits/2026-10-05_closeout-check/REPORT.md); holdings → TRADE.
+*(October 7 catch-up)* **Product tightness persists while crude availability improves; Phase 2 unconfirmed. Stand-down maintained.** High freight alone does not establish a timely WTI/USO gain. Deferred freight research integrated; current source gaps and dated follow-ups → [SCRATCH](SCRATCH.md). [THESIS](thesis/THESIS.md) · [evidence](research/2026-10-07_news-catchup/REPORT.md); holdings/approved VLO month extension → [TRADE](TRADE.md). Publication and coordinator consumption require separate receipts.
 
 *(Prior: 10/2 16:55 → [archive](archive/STATUS_summary-for-will_2026-10-02_PM.md), 894 B crc32 `8063742b`; 10/2 midday → [archive](archive/STATUS_dated_2026-10-02_midday.md); 10/2 AM → [archive](archive/STATUS_dated_2026-10-02_AM.md); 10/1 + 9/30 → [archive](archive/STATUS_summary-for-will_2026-10-01_and_09-30.md), 1699 B crc32 `4ef5c581`.)*

@@ -11,6 +11,10 @@
 > ⚠️ **This file has no length cap and needs none — it is cold. But it must never acquire an instruction.** If you find yourself writing "always do X" here, X belongs in `CLAUDE.md` or `TRADE.md`.
 
 
+## R-2026-10-07-WQ-386 — held-share month extension
+
+Will directly approved the reviewed one-share amendment October 7 at 14:24:57 ET, verbatim “okay approved”; committed provenance [PROME ruling § Approved amendment](../../PROME/proposals/2026-10-07_VLO-december-management-RULED.md#approved-amendment). Fixed December removes dependence on an expiring November contract and knowingly accepts a possible month-switch-only exit. Original calibration identity remains unknown; retaining the number is an operational choice, not new calibration evidence. Binding letter is applied at [TRADE § WQ-386](TRADE.md#wq-386--approved-amendment-applied-to-held-vlo-1); TERRY owner-card integration remains separate. No add, execution, HEN-46 or terminal-scale revival approved.
+
 ## R-2026-10-05-FREIGHT-PRIORITY — operator research emphasis relayed by WALTER
 
 Recorded at closeout audit; this entry was omitted from the earlier closeout. Provenance is WALTER's [SIG-W-20261005-006](inbox/WALTER/processed/SIG-W-20261005-006.md) and [BOARD record](../../BOARD/SIG-W-20261005-006-will-prioritises-tanker-cost-watch-uso-pass-through.md), not a verbatim operator quote captured by BRENT. WALTER reports Will prioritised tanker-cost tracking despite recovering flows, covering both USO shares and calls.

@@ -1,12 +1,25 @@
 # BRENT TRADE.md — domain trade surface
 
-**Updated: 2026-10-05 (TERRY card reader correction and unusable option-quote check). Last real position data refresh: 2026-10-01**, from the canonical mirror, not a broker view: `FORGE/STATUS.md` (ANVIL **9/30 post-close reconcile `33bc8c293`** + ANVIL **10/1 intraday reconcile `dac72b4ae`** + ANVIL **10/1 end-of-day reconcile `d97eba708`**, which leaves every BRENT line as below: USO 37 sh, VLO 1 sh, USO Oct-09 $150C ×1; no 10/2 capture yet, both from PROME's transcriptions of Will's Fidelity captures). **Broker truth stays off-repo. FORGE marks are 10/1-intraday vintage; never cite them as live (root rule #4).** No order, no recommendation, no rule change is made here. *(Prior: 2026-09-28 ~18:3x Will-approved cleanup, before-image preserved.)*
+**Updated: 2026-10-07. Last real position data refresh: 2026-10-07 intraday, exact capture time UNKNOWN**, Will-confirmed holdings via [PROME transcription](../../PROME/data/2026-10-07_broker-capture-TRANSCRIPTION.md) and FORGE/STATUS. USO 37 shares, VLO 1 share, USO Oct-09 $150C ×1; no Activity/Orders supplied and no fill inferred. Screenshot and vendor marks are dated observations, not executable broker bids.
 
-> ⚖️ **WITH WILL NOW:**
-> - **USO Oct-09 $150C ×1 expires Fri 10/09.** Will's hand; **his standing practice is SELL-OR-ROLL before expiry** (`USER.md`, 9/30 19:03 ET). TERRY card `MGMT-USO150C-OCT09` (October 1–2 ×1 addenda read October 5; the prior “still ×2 / D-70” claim was stale) carries the rail *"Hard stop Fri 10/09 15:00 ET"*; no harvest rule registered. ⚠️ WQ-297 A ties it to the USO stock line (one oil bet) — PROME's read, not adjudicated.
-> - **Held VLO share:** exit rule **`GATE-TERRY-VLO-HELD-01` REGISTERED 9/28 18:36 ET** (WQ-330, Will "both"): leg A Nov crack settlement < $90.16 ⇒ SELL rec · leg B1 a signed US distillate export-restriction text ⇒ SELL. TERRY grades; Will executes. Letter: `PROME/GATES.tsv`.
+**Existing management:** USO early-sale **DECLINE WQ-366** preserved; sell-or-roll rail **Friday October 9 15:00 ET** remains. Held VLO **WQ-386 approved October 7** modifies leg A only; two extra VLO shares **STOOD DOWN**, scale gate terminal. No new sale, add, re-entry or order approved.
 
-**October 5 status check:** TERRY's October 2 ADDENDUM-3 leaned SELL the remaining call after its early-sell condition; that is neither approval nor execution. No later broker receipt has been established here; current holding status requested from Will. Vendor chain at 09:44 ET has zero bid/ask and a Friday last trade, so **no current mark or executable ticket**. The existing October 9 15:00 ET rail and all approvals remain; no new trade recommendation. [Evidence](research/2026-10-05_market-open/REPORT.md).
+### WQ-386 — approved amendment applied to held VLO ×1
+
+Canonical ruling: [PROME § Approved amendment](../../PROME/proposals/2026-10-07_VLO-december-management-RULED.md#approved-amendment). TERRY owns canonical card integration and grades; Will executes. Exact approved operational letter reproduced for this reader path; rationale at [RULINGS](RULINGS.md#r-2026-10-07-wq-386--held-share-month-extension).
+
+> For GATE-TERRY-VLO-HELD-01 leg A only, November matched HOX26×42−CLX26 governs through the October 14, 2026 settlement. December matched HOZ26×42−CLZ26 governs the settlement observations dated October 15 through November 19, 2026, inclusive. Verify named-contract identity on each pull; a continuous ticker or wrong delivery month is rejected. No automatic January roll is authorized.
+>
+> The held-share thresholds remain strictly below $95 per barrel for notice only and strictly below $90.16 per barrel for TERRY's SELL recommendation. The stock price is not the crack and is not a new stop. The switch is unconditional on the two months agreeing: an accepted December reading below $90.16 may trigger the exit even if November remains above it. No offset, persistence requirement, roll-window suppression or threshold recalibration is adopted.
+>
+> Preserve the existing source order and observation standard: (1) CME settlement; (2) the vendor daily row dated to that session, finalized and accepted only within $0.15 of (3); (3) 14:28–14:30 ET one-minute volume-weighted settlement-window proxy, labelled ESTIMATE. Reject duplicated-volume/provisional daily rows. If only (3) is available within ±$0.15 of $90.16, or a required leg/window/identity is missing, the observation is UNKNOWN, not a fire. Do not substitute a later session's value or a stale expired-contract value. Re-read at the next touch under the existing missing-data rule. This extension creates no automatic monitor or guaranteed touch cadence.
+>
+> An exit established under the prior governing November observation remains owed after the switch; an outstanding exit is not cancelled by a higher December reading, missing data or the end of the observation window. TERRY writes the recommendation at its next touch; Will executes at the next regular session under the existing card. No order is placed by the desk.
+>
+> Review the next basis by November 18, 2026. If no further ruling is made, new leg-A observations become SUSPENDED/UNKNOWN after the November 19 settlement. An already-established exit still remains owed. Policy legs B1–B3 and their existing execution limitations continue unchanged until sale or withdrawal. This is authority to maintain the existing share's management rule, not to buy or re-enter.
+
+
+**October 7 evidence:** November/December matched 14:28–30 ET close-VWAP cracks $105.81538/$100.42309 [EST single vendor], above the existing notice/exit levels; these are BRENT diagnostics, not a new TERRY grade. December remains diagnostic until October 15. Official settles unavailable and duplicated-volume vendor daily rows rejected. [Source/basis](research/2026-10-07_news-catchup/REPORT.md). HEN-46 and broader WQ-252 sitting remain unchanged/unresolved.
 
 ## CURRENT STANCE (THESIS v5.11; v5.8 numerical calibration retained)
 
@@ -35,14 +48,14 @@ Thesis and calibration: `thesis/THESIS.md`. **WQ-189/192 STAND DOWN; no live dep
 
 ## POSITIONS (live)
 
-*Refreshed 2026-10-01 from FORGE (`dac72b4ae`; re-checked 2026-10-02 against the 10/1 end-of-day reconcile `d97eba708`: no BRENT line changed); broker truth off-repo. ⚠️ Keep the heading above exact: `scripts/pending_receipts.py` matches it literally and fails closed without it (renamed 9/28 → boot could not certify until the 9/30 restore, PROME packet 2026-09-29).*
+*Refreshed 2026-10-07 from the Will-confirmed holdings capture (exact time UNKNOWN); broker truth off-repo. ⚠️ Keep the heading above exact: `scripts/pending_receipts.py` matches it literally and fails closed without it (renamed 9/28 → boot could not certify until the 9/30 restore, PROME packet 2026-09-29).*
 
 | Position | Account | Status (source) | Existing rule / owner |
 |---|---|---|---|
-| **USO 37 sh** | Fidelity | Held per the 10/1 intraday capture; cost $122.28/sh `[FORGE 10/1 intraday]` | **WQ-200 DECLINED by Will 9/10: no harvest/give-back rule live; Will manages by hand.** The share risk scaffold remains UNRATIFIED. |
-| **VLO 1 sh** | Fidelity | **Bought 9/18 @ $412.00** (ledger row 7; fill TIME unknown, D-55); held per the 10/1 capture `[FORGE 10/1 intraday]` | WQ-213: 1 of 3. The entry condition was a refiners-red-vs-oil day; **there was no crack filter at entry**. TERRY card [`BRENT_refiner-distillate-strong-leg_2026-08-27.md`](../TERRY/setups/BRENT_refiner-distillate-strong-leg_2026-08-27.md). **Exit rule: `GATE-TERRY-VLO-HELD-01`** (banner above; TERRY grades). |
-| **VLO 2 sh STAGED** | — | Not bought. `GATE-TERRY-VLO-SCALE`: (A OR B) AND NOT F1; 9/25 NOT MET; review_by 10/14 | TERRY grades → Will. **F1 stays on the matched NOVEMBER basis (HOX26×42 − CLX26) until the 10/06 sitting (L471/WQ-252)**, independent of the 9/30 Brent pin switch (Will 9/28, scope item 1). |
-| **USO Oct-09 $150C ×1** expiry=2026-10-09 | Fidelity | **OPEN ×1** after a 10/1 partial sale-to-close of 1 of 2 (EXECUTION LOG); broker basis on the remaining ×1 **$299.66** `[FORGE 10/1 intraday, dac72b4ae]` | **Will's hand; sell-or-roll before expiry** (USER.md). TERRY `MGMT-USO150C-OCT09` rail *"Hard stop Fri 10/09 15:00 ET"*; no harvest rule. Opened 9/30 ×2 @ $2.99 as the roll leg out of the Sep-30 $159C. |
+| **USO 37 sh** | Fidelity | Held ×37 per October 7 capture; displayed average cost $122.28/sh `[FORGE 10/7 received]` | **WQ-200 DECLINED by Will 9/10: no harvest/give-back rule live; Will manages by hand.** The share risk scaffold remains UNRATIFIED. |
+| **VLO 1 sh** | Fidelity | **Bought 9/18 @ $412.00** (ledger row 7; fill TIME unknown, D-55); held ×1 per October 7 capture `[FORGE 10/7 received]` | WQ-213: 1 of 3. The entry condition was a refiners-red-vs-oil day; **there was no crack filter at entry**. TERRY card [`BRENT_refiner-distillate-strong-leg_2026-08-27.md`](../TERRY/setups/BRENT_refiner-distillate-strong-leg_2026-08-27.md). **Exit rule: `GATE-TERRY-VLO-HELD-01`** (banner above; TERRY grades). |
+| **VLO 2 sh STOOD DOWN** | — | Not bought; GATE-TERRY-VLO-SCALE RESOLVED(TERMINAL), F1 fired for September 25; TERRY owner grade 4ad672c43, PROME/GATES current row checked October 7 | No live add. WQ-386 governs the existing share only; no scale-gate revival or HEN-46 amendment. |
+| **USO Oct-09 $150C ×1** expiry=2026-10-09 | Fidelity | **OPEN ×1 confirmed October 7** after a 10/1 partial sale-to-close of 1 of 2 (EXECUTION LOG); broker basis on the remaining ×1 **$299.66** `[FORGE 10/1 intraday, dac72b4ae]` | **WQ-366 early-sale DECLINE preserved; Will's hand, sell-or-roll before expiry** (USER.md). TERRY `MGMT-USO150C-OCT09` rail *"Hard stop Fri 10/09 15:00 ET"*; no harvest rule. Opened 9/30 ×2 @ $2.99 as the roll leg out of the Sep-30 $159C. |
 | USO Sep-16 $165C ×1 (RH) | Robinhood | **Not held**: past expiry and absent from the 9/27 RH card. Disposition (sold / expired / misread) **UNKNOWN, not inferred** | FORGE D-57 · PROME WQ-169. |
 | STNG | — | **Tracked, never held** (Stage-A tanker-liveness composite). FORGE D-17: absent from every capture since 8/2 | — |
 
@@ -54,7 +67,7 @@ Thesis and calibration: `thesis/THESIS.md`. **WQ-189/192 STAND DOWN; no live dep
 
 | ID | Fact | Owner / route |
 |---|---|---|
-| — | **Current state of every line since the 10/1 post-close capture (posted 16:15 ET, FORGE `d97eba708`).** Includes whether the USO 150C was sold 10/2 (TERRY lean SELL today, WQ-366). Capture clock not shown; Robinhood not captured 9/30 or 10/1 | Will's next broker view → PROME/ANVIL |
+| — | October 7 holdings established for the three BRENT lines; exact capture time unknown. Activity/fill times and working orders not supplied; Robinhood remains stale | Broker evidence → PROME/FORGE; no repeated current-quantity ask |
 | — | Fill TIMES of the 9/30 159C sale, the 9/30 150C buy and the 10/1 150C sale (no Fidelity view shows them) | Will, low priority |
 | D-60 | Fidelity expiry-day "OPTION LIQUIDATION" rows: mechanism (moot for the 159C — sold before expiry) | Will / Fidelity |
 | D-55 | VLO fill time (date 9/18 known) | Will, low priority |
@@ -101,6 +114,8 @@ Read the COMPLETE named spec, including caveats and unresolved clauses. A health
 ## BINDING WILL RULINGS
 
 - **Current scope/tenor and approval clauses:** [BG-01 through BG-08](setups/SPECS_GATES.md).
+- **WQ-386 (10/7 14:24:57 ET):** "okay approved" on held-share-only December amendment; exact letter above. No HEN-46, add or deployment authority.
+- **WQ-366 (10/3):** early-sale DECLINE on remaining USO call; October 9 15:00 ET rail preserved.
 - **WQ-330 (9/28 18:36):** "both" ⇒ `GATE-TERRY-VLO-HELD-01` legs A and B on the held VLO share (TERRY's letter, `PROME/GATES.tsv`).
 - **WQ-316:** the Sep-30 $159C was Will's hand; discharged by his 9/30 sale-to-close (EXECUTION LOG).
 - **Standing practice (Will 9/30 19:03 ET, `USER.md`):** sell or roll every option line before expiry; never a hold-to-expiry rail.
@@ -131,3 +146,7 @@ Read the COMPLETE named spec, including caveats and unresolved clauses. A health
 - **2026-09-28 before-image** (26,511 B, whole file, SHA-256 `29b0b63f…ae108371`, crc32 `7cb1efe4`): [archive/2026-09-28_cleanup/TRADE.md](archive/2026-09-28_cleanup/TRADE.md) + [manifest](archive/2026-09-28_cleanup/manifest.json). It holds the full frame-breaker reasoning (dual-tracker defect, readability pre-registration, 9/12 re-grade) and the staged leg-(b) and breach-branch text verbatim. What moved: [TRADE_OBLIGATIONS § 2026-09-28](workbook/TRADE_OBLIGATIONS.md).
 - **2026-09-08 before-image:** [archive/2026-09-08_cleanup/TRADE.md](archive/2026-09-08_cleanup/TRADE.md) · [manifest](archive/2026-09-08_cleanup/manifest.json).
 - Archives supply provenance only; current rules are reached by the read paths above. Ordinary closeout updates holdings, action state and receipts here; dated analysis goes to an evidence note.
+
+## Lesson reconciliation — October 7 ruling application
+
+L06/L08/L09/L10: matched products and dated inventory/supplied data remain distinct from crude, consumption and paper quotas; no new event grade from those proxies. L11/L16/L18/L19: announcement, tanker liveness and physical delivery retain separate clocks; no new entry, tanker/off-ramp grade or operational reopening inferred. L17: OPEC-only forecast capacity is not physically deliverable OPEC+ spare; no capacity figure grades an entry here. L15: holding-specific Will rulings govern this existing share/call; no new structure/tenor proposed. L21/L22/L23: WQ-386 retains its approved named-month windows, source hierarchy, strict levels, uncertainty and sunset; no continuous ticker, roll exception or calibration repair. L25: failed settlement/holdings requests remain unavailable, not publisher outages. No lesson overridden; binding specs reached by Decision read paths retain their own caveats.

@@ -1,0 +1,40 @@
+{
+  "desk": "BRENT",
+  "date": "2026-10-07",
+  "runtime": "Codex",
+  "provider": "OpenAI",
+  "model": "gpt-6.1-sol",
+  "effort": "high",
+  "session_id": "01a10c35-32d7-73f2-92cf-601e74814af6",
+  "initial_clock_utc": "2026-10-07 19:34:26 UTC",
+  "explicit_reads": [
+    "CLAUDE.md",
+    "USER.md",
+    "AGENTS.md",
+    "AGENTS/BRENT/CLAUDE.md",
+    "PROME/COMPLETION_SPEC.md",
+    "PROME/tasks/2026-10-07_catchup/BRENT.md"
+  ],
+  "discovery": "Native list is truncated and includes older active statuses; direct read confirms this exact owner turn. Host inventory: codex PID1, python3 PID8; does not establish cross-runtime absence. Will confirmed no other research desks before PROME resume; no duplicate owner launched.",
+  "git_boot": "PROME dirty; no pull/stash",
+  "boot_rc": 2,
+  "boot_findings": [
+    "EIA mixed or missing metric observation weeks",
+    "LESSONS_INDEX +11d"
+  ],
+  "boot_advisories": [
+    "Instrument partial coverage and owner grade required",
+    "4 ACTIVE incident rows older than60d;9 other stale present-tense rows"
+  ],
+  "predictions_due": "none flagged",
+  "pending_receipts": "none flagged",
+  "lesson_conflicts": "none flagged",
+  "derived_views": "passed",
+  "capabilities": "shell/venv/web/feed retrieval; Codex task list/read/send exposed and PROME notice acknowledged. Broker execution/view, Claude routine controls, native Claude discovery/messaging and paid freight/AIS/energy-sector credit feeds unavailable. Native list absence not certified.",
+  "recovery_clock_et": "2026-10-07 17:43 ET",
+  "recovery_task": "PROME/tasks/2026-10-07_catchup/CRASH_RECOVERY.md",
+  "recovery_coordinator": "01a1182c-1dad-75f2-8929-93d093e7478e",
+  "subsequent_eia_recovery": "API/XLS all required metrics week2026-10-02; gasoline raw-sum -0.292563767539622%; boot rc2 preserved",
+  "corrections_check": "October7 rc0, zero unreceipted NAMED",
+  "board_delta": "all7BRENT-routedOct5\u20137signals whole-body read; latest003/004sameEIAlineage"
+}

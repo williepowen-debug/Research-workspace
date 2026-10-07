@@ -1,0 +1,382 @@
+U.S. Energy Information Administration (EIA)
+Skip to sub-navigation
+U.S. Energy Information Administration - EIA - Independent Statistics and Analysis
+Menu
+Statistics
+Analysis
+Tools
+Education
+News
+Search
+Petroleum & Other Liquids
+Skip to page content
+Overview
+Browse Data
+Summary
+Prices
+Crude reserves and production
+Refining and processing
+Imports/exports
+Movements
+Stocks
+Consumption/sales
+Search by Tag
+Major Topics
+Find by
+Most popular
+Consumption/demand
+Exports/imports
+Forecasts/projections
+Inventories/stocks
+Prices
+Production/supply
+Refining
+Reserves
+All reports
+Alphabetical
+Recurring
+Tag Cloud
+Glossary
+FAQS
+See All Petroleum Reports
+Weekly Petroleum Status Report
+Data for week ending
+Release Date:
+Next Release Date:
+Previous Issues
+Select Week
+dropdown arrow
+October 7, 2026
+September 30, 2026
+September 23, 2026
+September 16, 2026
+September 10, 2026
+September 2, 2026
+August 26, 2026
+August 19, 2026
+prior issues
+Crude Oil Production Re-benchmarking Notice:
+Each month, when we publish the
+Short-Term Energy Outlook
+(STEO), we review weekly 
+				estimates of domestic crude oil production to spot any 	differences between recent survey-based production trends reported in the
+Petroleum Supply Monthly
+(PSM) and other current data. If we identify 
+				a significant discrepancy between these sources, we may re-benchmark the weekly production estimate during the STEO release week. 
+				For this week, the domestic crude oil production estimate includes a re-benchmarking adjustment that increased estimated volumes by less than 
+				50,000 barrels per day, or about 0.36% of this week's estimated production total.
+XLS
+XLS
+CSV
+CSV
+JSON
+JSON
+PDF
+PDF
+Totals may not equal sum of components because of independent rounding.
+Released at
+10:30 a.m.
+1:00 p.m.
+Summary
+Weekly Petroleum Status Report Summary
+TXT
+Tables
+Data Overview (Combined Table 1 and Table 9)
+PDF
+1
+U.S. Petroleum Balance Sheet
+CSV
+XLS
+PDF
+2
+U.S. Inputs and Production by PAD
+										District
+CSV
+XLS
+PDF
+3
+Refiner
+and
+Blender
+Net Production
+CSV
+XLS
+PDF
+4
+Stocks of Crude Oil by PAD District,
+										and Stocks of Petroleum Products, U.S. Totals
+CSV
+XLS
+PDF
+5
+Stocks of Total Motor
+										Gasoline and Fuel Ethanol by PAD District
+CSV
+XLS
+PDF
+5A
+Stocks of Total Motor Gasoline and Fuel Ethanol by PAD District with Total Gasoline
+									by Sub-PADD
+CSV
+XLS
+6
+Stocks of Distillate,
+										Kerosene-Type Jet Fuel, Residual Fuel Oil, and Propane/Propylene by PAD
+										District
+CSV
+XLS
+PDF
+7
+Imports and Exports of Crude Oil and Products
+CSV
+XLS
+PDF
+8
+Preliminary Crude Imports by Country of
+										Origin
+CSV
+XLS
+PDF
+9
+U.S. and PAD District Weekly
+										Estimates
+CSV
+XLS
+PDF
+Prices
+10
+U.S. World Crude Oil Prices
+(Discontinued after January 12, 2011)
+11
+Spot Prices of Crude Oil, Motor Gasoline,
+										and Heating Oil
+CSV
+XLS
+PDF
+12
+Spot Prices of Ultra-Low Sulfur Diesel
+										Fuel, Kerosene-Type Jet Fuel, and Propane
+CSV
+XLS
+PDF
+13
+NYMEX Futures Prices of Crude Oil, Motor
+										Gasoline, and No. 2 Heating Oil (Discontinued after April 5, 2024)
+14
+U.S. Retail Motor Gasoline and
+										On-Highway Diesel Fuel Prices
+CSV
+XLS
+PDF
+Notice:
+Certain static files previously listed as Appendices, Sources, and Glossary do not change week-to-week and have been moved to the Methodology and Related sidebars of this webpage.
+Appendices
+A
+Petroleum Supply Summary
+PDF
+B
+Explanatory Notes (
+Stock Ranges
+)
+PDF
+C
+Northeast Reserves
+PDF
+Release Schedule
+Sign up for email updates
+Automated retrieval policy
+Methodology
+Statistical Methodology of Estimating Petroleum Exports
+Table data dictionary
+Errata (
+PDF
+,
+XLS
+)
+Sources
+Related
+EIA Glossary
+Heating Oil and Propane Update Weekly (October-March)
+About EIA
+Open Data
+Legacy
+Contact Us
+U.S. Energy Information Administration
+1000 Independence Ave., SW
+Washington, DC 20585
+Policies
+Privacy/Security
+Copyright & Reuse
+Accessibility
+Information Quality
+Freedom of Information Act (FOIA)
+Related Sites
+usa.gov
+U.S. Department of Energy
+Stay Connected
+Facebook
+X
+Youtube
+LinkedIn
+Email Updates
+RSS Feeds
+Statistics
+Analysis
+Tools
+Education
+News
+Petroleum & Other Liquids
+Crude oil, gasoline, heating oil, diesel, propane, and other liquids including biofuels and natural gas liquids.
+Natural Gas
+Exploration and reserves, storage, imports and exports, production, prices, sales.
+Electricity
+Sales, revenue and prices, power plants, fuel use, stocks, generation, trade, demand & emissions.
+Coal
+Reserves, production, prices, employment and productivity, distribution, stocks, imports and exports.
+Nuclear & Uranium
+Uranium fuel, nuclear reactors, generation, spent fuel.
+Renewable & Alternative Fuels
+Includes hydropower, solar, wind, geothermal, biomass and ethanol.
+EIA Survey Forms
+Forms EIA uses to collect energy data including descriptions, links to survey instructions, and additional information.
+Total Energy
+Comprehensive data summaries, comparisons, analysis, and projections integrated across all energy sources.
+Monthly Energy Review
+Consumption & Efficiency
+Energy use in homes, commercial buildings, manufacturing, and transportation.
+Residential Energy Consumption Survey (RECS)
+Commercial Buildings Energy Consumption Survey (CBECS)
+Manufacturing Energy Consumption Survey (MECS)
+U.S. States
+State energy information, including overviews, rankings, data, and analyses.
+International
+International energy information, including overviews, rankings, data, and analyses.
+Environment
+Greenhouse gas data, voluntary reporting, electric power plant emissions.
+U.S. Energy-Related Carbon Dioxide Emissions
+Energy-Related Carbon Dioxide Emissions at the State Level
+Analysis and Projections
+Monthly and yearly energy forecasts, analysis of energy topics, financial analysis, congressional reports.
+Short-Term Energy Outlook
+Annual Energy Outlook
+Special Reports
+Special market analysis and/or data requests.
+EIA-112 Residential Utility Disconnections
+SHIP Act
+Energy & Financial Markets: What Drives Crude Oil Prices?
+International
+International energy analyses.
+Regional Analysis Briefs
+Country Analysis Briefs
+World Oil Transit Chokepoints
+OPEC Revenue
+Global Energy Security Data
+Data Tools, Apps, & Maps
+Tools to customize searches, view specific data sets, study detailed documentation, and access time-series data.
+Open Data
+EIA's free and open data available as API, Excel add-in, bulk files, and widgets
+EIA Beta
+Come test out some of the products still in development and let us know what you think!
+Open Source Code
+EIA's open source code, available on GitHub.
+All Reports & Products
+Email Updates
+Sign up for email subscriptions to receive messages about specific EIA products
+RSS Feeds
+Subscribe to feeds for updates on EIA products including Today in Energy and What's New.
+Follow us. . .
+A-Z Index
+A
+|
+B
+|
+C
+|
+D
+|
+E
+|
+F
+|
+G
+|
+H
+|
+I
+|
+J
+|
+K
+|
+L
+|
+M
+|
+N
+|
+O
+|
+P
+|
+Q
+|
+R
+|
+S
+|
+T
+|
+U
+|
+V
+|
+W
+|
+XYZ
+Energy Explained
+What is Energy?
+Units & Calculators
+U.S. Energy Facts
+Use of Energy
+Energy & Environment
+Petroleum
+Hydrocarbon Gas Liquids
+Natural Gas
+Coal
+Nuclear
+Electricity
+Hydrogen
+Hydropower
+Biofuels
+Biomass
+Wind
+Geothermal
+Solar
+For Teachers
+Lesson plans, science fair experiments, field trips, teacher guide, and career corner.
+Glossary
+FAQs
+Coal
+Conversion & Equivalents
+Oil/Petroleum
+Diesel
+Electricity
+Environment
+Gasoline
+General Energy
+Natural Gas
+Nuclear
+Prices
+Renewables
+What's New?
+Annual State Historical Spreadsheets for 2025
+Oct 07, 2026
+Final 2025 Annual Electric Sales and Revenue Data
+Oct 07, 2026
+Short-Term Energy Outlook
+Oct 06, 2026
+Press Room
+Press Releases
+Congressional Testimony
+Presentations
+Events
