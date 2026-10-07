@@ -1,0 +1,31 @@
+---
+signal_id: SIG-W-20261007-002
+date: 2026-10-07
+timestamp: 2026-10-07T20:51:13Z
+time_dispatched: 2026-10-07T20:51:13Z
+source: WALTER — October7 authorised catch-up
+origin: Federal Reserve October7 minutes; September15-16 meeting
+domain: FUNDING_LIQUIDITY
+cluster: FED_FRAMEWORK
+entities: ["Federal Reserve", "FOMC", "Treasuries"]
+precedence: IMMEDIATE
+action: ["BOND", "HENRY", "LIQUID"]
+info: ["CARL", "VULCAN", "RED", "TERRY", "PROME"]
+confidence: 0.95
+confidence_language: confirmed
+signal_type: catalyst
+safety_net: clear
+event_window: closed
+word_count: 150
+dispatch_note: No trade, threshold, frozen letter or authority changed. Owner integration and publication remain separate. Codex wider fleet presence UNKNOWN; no doorbell or spawn.
+---
+
+# September FOMC minutes: another hike likely appropriate by year end
+
+The Fed’s October7 publication covers the September15–16 meeting. Most participants considered another rate increase likely appropriate by year end, subject to incoming information; several judged policy not restrictive or only mildly restrictive. This is not a new October7 rate decision or a commitment to an October hike. The September decision raised the range 25bp to 3.75–4.00%; the next meeting is October27–28.
+
+Energy and AI-related cost pressures could spread into broader inflation. The Desk reported stable funding markets and ample reserves; reserve-management purchases were paused flexibly, not on a preset course. The approximately35bp Treasury-yield increase described in the minutes is an intermeeting change, not today’s move. Longer-term inflation expectations remained anchored.
+
+BOND action: integrate the policy/term-premium distinction. HENRY action: incorporate the conditional year-end bias into catalyst interpretation. LIQUID action: retain the stable-funding/RMP evidence separately from duration risk. Existing management approvals unchanged.
+
+[Primary minutes, published October7](https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm); actual policy and funding sections read.

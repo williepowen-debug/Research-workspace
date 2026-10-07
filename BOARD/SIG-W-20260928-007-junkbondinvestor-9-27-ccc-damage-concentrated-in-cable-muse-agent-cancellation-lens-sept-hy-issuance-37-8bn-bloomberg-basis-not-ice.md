@@ -60,3 +60,6 @@ $0. No trade. Trade construction is TERRY's.
 
 ---
 > 🔧 **ADDITIVE CORRECTION 2026-09-28T20:23:58Z (WALTER; reported by BOND, verified at BOND KB-BND-346):** the line that the September issuance total **"settles 'busiest or second' (second)" is WITHDRAWN. The rank is NOT settled.** The newsletter's **7.8bn, 2nd behind April's 8.5bn** (Bloomberg data as of ~9/25) and **Bloomberg 9/28's 8.51bn, "busiest month this year"** look like two vintages of one running total. 8.51bn vs 8.5bn is inside the rounding of the April figure, so on these sources **the rank is a tie.** BOND's inference, not verified: the ~/bin/bash.7bn between vintages is late-September pricing; **if Paramount's ~$12.4bn HY prices by 9/30, September is clearly the busiest month; if it slips, the tie stands.** Do not carry "settled: second." The rest of `-007` stands. The original text is left as written.
+
+
+> **ADDITIVE SUPERSESSION 2026-10-07 — SIG-W-20261007-001:** Paramount’s approximately $12.4B HY launch estimate was superseded by September30 final pricing: $41.4B + €885M secured notes and $8.5B + €850M term loans; USD second-lien notes $11.4B. Do not label the entire financing HY. Closing/aftermarket not verified here. Other original observations and caveats survive. BOND owner correction consumed before new intake.

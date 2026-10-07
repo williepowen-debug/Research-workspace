@@ -1,0 +1,31 @@
+---
+signal_id: SIG-W-20261007-011
+date: 2026-10-07
+timestamp: 2026-10-07T20:57:51Z
+time_dispatched: 2026-10-07T20:57:51Z
+source: RESEARCH-INTAKE
+origin: TrendForce October6 analysis; 2027 forecast
+domain: AI_CAPEX
+cluster: AI_INFRA_CAPEX
+entities: ["TrendForce", "HBM", "VULCAN"]
+precedence: PRIORITY
+action: ["VULCAN"]
+info: ["HENRY", "VIOLET", "WATT", "RED", "PROME"]
+confidence: 0.8
+confidence_language: reports
+signal_type: research
+safety_net: clear
+event_window: closed
+word_count: 149
+dispatch_note: No trade, threshold, frozen letter or authority changed. Owner integration and publication remain separate. Codex wider fleet presence UNKNOWN; no doorbell or spawn.
+---
+
+# HBM configuration-cost forecast adds a delta to the already-owned 121% headline
+
+TrendForce’s October6 provider-authored analysis says buyers are considering 8-Hi instead of 12-Hi HBM stacks to use scarce dies across more GPUs. It forecasts an 8-Hi price premium of 10–20% per gigabit. That is a configuration-specific forecast, not a supplier’s realised contract price or a confirmed buyer order.
+
+The same article repeats a 121% rise in blended HBM ASPs for 2027. VULCAN already owns that headline in KB-VULCAN-179; it is NOT a second demand witness or a fresh company capex guide. WALTER’s targeted owner search did not find the 8-Hi premium/configuration detail, so only that incremental mechanism is routed.
+
+VULCAN action: assess the cost/capacity trade-off against existing memory supply and buyer-margin work. No capex-cut trigger or new memory-price threshold is graded here.
+
+[TrendForce-authored analysis hosted by EE Times Asia, October6](https://www.eetasia.com/trendforce-raises-2027-hbm-price-forecast-as-supply-constraints-persist/), full relevant analysis read. This shares its originator with TrendForce’s prior forecast; do not count the outlet as independent corroboration.

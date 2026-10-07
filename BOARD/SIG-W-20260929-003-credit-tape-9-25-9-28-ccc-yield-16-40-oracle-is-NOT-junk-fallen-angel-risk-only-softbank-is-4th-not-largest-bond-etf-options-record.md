@@ -50,3 +50,6 @@ dispatch_note: "Batch BM-20260929-03 items 2/3/4 folded into one context signal:
 4. **The 17% "freeze" line is one account's view,** not a registered or base-rated threshold.
 
 $0. No threshold moved.
+
+
+> **ADDITIVE SUPERSESSION 2026-10-07 — SIG-W-20261007-001:** Paramount’s approximately $12.4B HY launch estimate was superseded by September30 final pricing: $41.4B + €885M secured notes and $8.5B + €850M term loans; USD second-lien notes $11.4B. Do not label the entire financing HY. Closing/aftermarket not verified here. Other original observations and caveats survive. BOND owner correction consumed before new intake.
