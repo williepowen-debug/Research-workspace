@@ -15,3 +15,7 @@ State: firstwave IN-FLIGHT; laterdeskpriorities awaitmaterialoutputs. No fleet-c
 ## Technical handoff — October 7, 15:42 ET
 
 Exact native reads now show WALTER, BOND and BRENT active/inProgress with waitingOnApproval. Their pending command details are not exposed to PROME. Will has been advised to open these existing windows and review each pending request; no new desk windows or duplicate owners are needed. These are runtime permissions, not a request to reapprove the research assignment. No substantive completion packet has been received, and no closeout has been claimed or requested while their assigned work remains pending. TERRY is prepared only and has not been resumed. Continue by checking these same thread IDs, consuming actual reports, then advancing the next wave. SOURCE_LEADS.md contains a read-only primary-source scout; it does not substitute for owner analysis.
+
+## Recovery observation — October 7, 16:06 ET
+
+WALTER sent a live recovery notice from its original thread and the exact native read shows active/inProgress with no approval flag. It verified served gpt-6.1-sol and is reading corrections before intake. PROME replied that foreign staged VLO paths remain preserved; exact-path owned commits under the root Git protocol need not sweep or wait for the whole shared index, and technical permissions still apply. No substantive report consumed yet. BOND and BRENT latest direct reads still show waitingOnApproval. User was given exact codex resume commands for the existing sessions; no replacement owners launched.
