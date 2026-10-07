@@ -1,6 +1,6 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-10-05 09:50 ET — SCOPED-PARTIAL.** Named futures quotes 09:32–34 ET; equity quotes 09:44 ET; EIA API still wk-9/25; FRED spot still 9/29, retail fuel 9/28; GIE gas day 10/3; JWC index + primary PDF and current Saudi/policy news checked. COT/rig grades and incident states retain their earlier vintages. [Raw data and evidence](research/2026-10-05_market-open/REPORT.md).
+**Last real data refresh: 2026-10-07 11:12 ET — SCOPED-PARTIAL.** Named futures quotes 11:02 ET, equities 11:12 ET (vendor, not settles); EIA WPSR wk-10/2 read at the ir.eia.gov CSV primary (API key absent); NHC Advisory 4; MMA/BSEE 10/6 shut-in release. FRED, GIE, JWC, COT/rig grades and incident states keep their earlier vintages. [Evidence](research/2026-10-07_news-catchup/NOTE.md); prior 10/5 capture [report](research/2026-10-05_market-open/REPORT.md).
 
 **Routine deployment stays parked** at the [CATO handoff](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et); saved repair is complete, live deployment/normal-run acceptance unresolved. No trade approval changed. Position status and USO card correction → [TRADE](TRADE.md).
 
@@ -8,6 +8,12 @@
 
 # ⚡ CURRENT STATE — *read this first. Dated blocks follow newest first; STANDING STATE is the hot half; ARCHIVE INDEX is history.*
 
+
+## October 7 — DIESEL BID, CRUDE FLAT; ISAIAS HURRICANE WATCH COVERS PASCAGOULA
+
+[CONF vendor 11:02 ET, NOT settles] December Brent **$101.65**, November WTI **$89.47**; December WTI–Brent **−$13.01**; December–February Brent **+$5.43** (10/5 +$6.20). **November ULSD crack settle-window proxy (14:28–14:30 ET VWAP, ESTIMATE): 10/2 $97.99 · 10/5 $101.40 · 10/6 $102.55; ~$108.5 intraday 10/7** — distillate-only (RBOB crack +$0.7, WTI flat); driver not established. VLO-HELD-01 leg A far from $90.16/$95 (TERRY grades). [CONF EIA primary wk-10/2] crude **424.134M (−3.186M)**, Cushing **24.745M (+0.444M)** ⇒ the <20.0M line is NOT re-activated, distillate **105.138M (−0.042M)**, utilization **92.7%**.
+
+Isaias (NHC Adv 4): 95 kt Fri 08:00 ET at 26.6N 88.1W; Hurricane Watch Bay St. Louis–Indian Pass. [CONF MMA/BSEE 10/6 11:30 CDT] **185,120 b/d (9.24%) shut in, 0 of 371 platforms evacuated, one company's report.** Sally 2020 analog peak 27.48%. Read: a crack catalyst more than a WTI one; USO needs +3.5% by Fri 15:00 ET (TERRY's card). Khurais pump-station hit ~10/4: conflicting flow reports, minister ~5.8 mb/d; new Saudi loss **UNKNOWN**; BG-02 lapsed 9/25 cannot fire; no new letter. THESIS v5.11/WQ-192 unchanged; **$0**. [Evidence](research/2026-10-07_news-catchup/NOTE.md).
 
 ## October 5 — CRUDE SOFTER, DIESEL FIRMER; PIPELINE REPORTS CONFLICT
 
@@ -77,6 +83,7 @@ AFP reports a pipeline halt; other reporting says flows continue. Named Aramco c
 | **Tue Oct 6** | EIA October STEO — successor same-series vintage read | 🟠 |
 | **Tue Oct 6** | SPR EXCHANGE (up to 40M bbl, Big Hill + Bryan Mound) — BIDS CLOSE 11:00 CT; awards follow | 🟠 |
 | **~Thu Oct 8** ⌁*modeled* | CHINA PRODUCT-EXPORT HALT — Beijing guidance after Golden Week (holiday ends 10/7) | 🟠 |
+| **~Fri Oct 9** ⌁*modeled* | HURRICANE ISAIAS — forecast Cat 2 landfall Mobile Bay / western FL Panhandle late Fri 10/9–early Sat 10/10 (NHC Adv 4, 10/7) | 🟠 |
 | **~Sat Oct 10** ⌁*modeled* | 🟠 IRAN-OMAN PERMANENT-ROUTE WINDOW — 30-60d after 8/26 interim framework | 🟠 |
 | **~Wed Oct 14** ⌁*modeled* | 🟠 IEA OMR OCTOBER — second collective-action watch + global stock draw (successor to the Sept OMR read 9/18) | 🟠 |
 | **~Thu Oct 22** ⌁*modeled* | G7 STOCK RELEASE — end of the first 20-day window for the 'substantial diesel release' (decided 10/02, up to 100M bbl diesel + crude over 4 months, IEA-coordinated) | 🟠 |
@@ -87,9 +94,9 @@ AFP reports a pipeline halt; other reporting says flows continue. Named Aramco c
 | **Sun Nov 29** | OPEC+ 69th JMMC — monitoring committee (watch for an ONOMM call / 2027-baseline language) | 🟡 |
 | **Sun Jan 31 2027** | RUSSIA FUEL EXPORT BAN — full expiry (gasoline all-participants + non-producer diesel) | 🟡 |
 
-*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 10 of 24 rows are modeled.*
+*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 11 of 25 rows are modeled.*
 
-*24 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
+*25 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
 
 <!-- CALENDAR:END -->
 **✅ FIRED & GRADED history:** canonical text remains in `docket/CATALYSTS.tsv`; it is not duplicated here.
@@ -98,6 +105,6 @@ AFP reports a pipeline halt; other reporting says flows continue. Named Aramco c
 
 ## SUMMARY FOR WILL
 
-*(October 5; market vintage unchanged)* **Weaker crude-spike case; product tightness persists; Phase 2 unconfirmed. Stand-down maintained.** [THESIS](thesis/THESIS.md) · [evidence](research/2026-10-05_market-open/REPORT.md). Closeout bookkeeping corrected; research remains owed in [SCRATCH](SCRATCH.md). [Audit](audits/2026-10-05_closeout-check/REPORT.md); holdings → TRADE.
+*(October 5; the October 7 block supersedes its market vintage, not its stance)* **Weaker crude-spike case; product tightness persists; Phase 2 unconfirmed. Stand-down maintained.** [THESIS](thesis/THESIS.md) · [evidence](research/2026-10-05_market-open/REPORT.md). Closeout bookkeeping corrected; research remains owed in [SCRATCH](SCRATCH.md). [Audit](audits/2026-10-05_closeout-check/REPORT.md); holdings → TRADE.
 
 *(Prior: 10/2 16:55 → [archive](archive/STATUS_summary-for-will_2026-10-02_PM.md), 894 B crc32 `8063742b`; 10/2 midday → [archive](archive/STATUS_dated_2026-10-02_midday.md); 10/2 AM → [archive](archive/STATUS_dated_2026-10-02_AM.md); 10/1 + 9/30 → [archive](archive/STATUS_summary-for-will_2026-10-01_and_09-30.md), 1699 B crc32 `4ef5c581`.)*
