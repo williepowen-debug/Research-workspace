@@ -1,16 +1,11 @@
 {
-  "status": "REVIEW",
-  "findings": [
-    "SIG-W-20261005-001/BRENT: ledger/origin disagree; reconcile or investigate",
-    "SIG-W-20261005-002/BRENT: ledger/origin disagree; reconcile or investigate",
-    "SIG-W-20261005-004/BRENT: ledger/origin disagree; reconcile or investigate",
-    "delivery receipt mismatch: actual 16/19"
-  ],
-  "as_of": "2026-10-07T22:49:22.649669+00:00",
-  "origin_ref": "9e2a93285895ae5897840daed7f5bf379da13e66",
-  "delivery_scope": "20261005",
-  "delivered": 16,
-  "total": 19,
+  "status": "PASS",
+  "findings": [],
+  "as_of": "2026-10-07T23:46:18.589062+00:00",
+  "origin_ref": "f8a60d961e14ae17d89fb4c3f329580962fb5e9f",
+  "delivery_scope": "20261007",
+  "delivered": 66,
+  "total": 66,
   "next_review": "2026-10-09",
   "limits": "Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review."
 }

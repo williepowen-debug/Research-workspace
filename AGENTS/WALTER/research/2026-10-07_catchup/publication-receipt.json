@@ -1,46 +1,54 @@
 {
-  "as_of": "2026-10-07T23:44:44.463620+00:00",
-  "publication": "PENDING: live GitHub DNS failed, foreign work prevents pull/push; origin ref is dated",
+  "as_of": "2026-10-07T23:46:18.589062+00:00",
+  "publication": "VERIFIED: GitHub ls-remote equals origin/master at9ed4cdb99;9ed ancestor checkPASS. All source/report/handoff commits below published. Post-push ledger/receipt reconciliation commit pending separate coordinator push.",
   "commits": [
     {
       "commit": "df0d849eb",
-      "scope": "17 BOARD outputs, index, route and delivery ledgers"
+      "scope": "17 BOARD outputs, index, route and delivery ledgers",
+      "state": "published"
     },
     {
       "commit": "7cb9a4b1f",
-      "scope": "60 exact sender-authored handoffs, excluding active BOND/BRENT"
+      "scope": "60 exact sender-authored handoffs, excluding active BOND/BRENT",
+      "state": "published"
     },
     {
       "commit": "813ee8a05",
-      "scope": "4 BRENT handoffs after observed native idle"
+      "scope": "4 BRENT handoffs after observed native idle",
+      "state": "published"
     },
     {
       "commit": "6fb34e0fc",
-      "scope": "owned report, evidence, watch and light continuity"
+      "scope": "owned report, evidence, watch and light continuity",
+      "state": "published"
     },
     {
       "commit": "8d34732eb",
-      "scope": "exact ten-line PROME completion packet"
+      "scope": "exact ten-line PROME completion packet",
+      "state": "published"
     },
     {
       "commit": "07ecfec25",
-      "scope": "late BOND FOLD disposition and current BRENT archive review"
+      "scope": "late BOND FOLD disposition and current BRENT archive review",
+      "state": "published"
     },
     {
       "commit": "188440ea6",
-      "scope": "exact PROME acknowledgement hashes and conserved late BOND intake archive"
+      "scope": "exact PROME acknowledgement hashes and conserved late BOND intake archive",
+      "state": "published"
     },
     {
       "commit": "2144da1ad",
-      "scope": "final2 BOND sender handoffs after observed native idle"
+      "scope": "final2 BOND sender handoffs after observed native idle",
+      "state": "published"
     }
   ],
   "handoffs": {
     "written": 66,
     "sender_committed": 66,
-    "origin_proven": 0,
+    "origin_proven": 66,
     "remaining": [],
-    "reason": "All66 exact sender paths committed, after active recipient yields; origin remains separately pending"
+    "reason": "Post-push reconciler:66pending\u2192delivered,0real orphans; sender publication proven,consumption separate."
   },
   "consumption": {
     "PROME": {
@@ -66,8 +74,8 @@
     "weekday": "PASS 3 named files",
     "diff": "PASS owned WALTER/BOARD",
     "archive_pairs": "PASS 2 staged moves",
-    "doctor": "Saved checkpoint0HIGH/69MED:64publication warnings+5retained. Final2sender commits subsequently2144da1ad; no new BOARD/source/grade or all-clear inferred.",
-    "continuity": "REVIEW:3 processed-only old BRENT origin paths not resolved by checker; exact independent proofs show Oct5 19/19",
+    "doctor": "Post-publication0HIGH/5MED; all66 new publication warnings discharged. Remaining5 historical schema/index/backlog/coherence prompts retained.",
+    "continuity": "PASS,scopeOct7,66/66,0findings; checks local origin only,not full source/owner/closeout validation.",
     "boot": "PARTIAL as detailed in REPORT.md"
   },
   "closeout": "Light continuity only; full closeout not requested",
@@ -79,5 +87,13 @@
     "claims": "3Y I-prime rarity fired;OLD/cover unmet.10Y clean;composite17/35 unchanged. July yen operation Treasury fiscal agency, excludesSOMA; FIMA/UST liquidation not established. Exact8 owner packets already written; no duplicate BOARD dispatch",
     "archive": "Own byte-identical git-mv in188440ea6 with whole-source consumption receipt",
     "sender_commit": "fd84bb90d"
+  },
+  "remote_proof": {
+    "checked_at": "2026-10-07T23:46:18.589062+00:00",
+    "method": "own approved git ls-remote,local origin equality and merge-base ancestry",
+    "github_master": "9ed4cdb99e72151a43aaf32ad6b578803e9d163e",
+    "origin_master": "9ed4cdb99e72151a43aaf32ad6b578803e9d163e",
+    "published_through": "9ed4cdb99",
+    "coordinator": "PROME standing shared publication"
   }
 }

@@ -24,7 +24,7 @@ Audit refresh: HY310bp [Oct2] resets RED-FT-02/REG-T-03 >320 watch to0/3; prior3
 - **READS/boot-basis review:** three changed basis paths (CLAUDE.md, design/BOOT_PROTOCOL.md, scripts/read_cap_check.py); reads_check attestation UNKNOWN. No blind re-hash. HANS THRESHOLDS33544B exceeds32550B budget; owner remedy still owed.
 - **Receiving readiness:** doctor initially0HIGH/6MED, boot closing0HIGH/4MED after two stale-header repairs. Final closeout doctor:0HIGH/20MED, comprising16 publication warnings and4 carried structural/backlog/review prompts. Aged queue121 across21desks,20ACTION101INFO; oldestACTION7d. See research/2026-10-05_closeout/doctor.txt. Basis delivery_log.timestamp_routed, two fallback mtimes in full scan. Legacy malformed/non-dispatch telemetry and overdue AI_INFRA_CAPEX coherence-review prompt retained; not new research authority.
 - **Capabilities:** Closeout Codex app-server lists WALTER/PROME/BOND active and BRENT/CATO idle; wider/multi-runtime census UNKNOWN. Native Claude ListAgents/SendMessage/Opus/routine controls and Telegram unavailable here. Codex thread listing/reading/messaging now exposed (incoming PROME coordination received); no claim of equivalence to full Claude fleet controls. X token absent locally; `bdata` not in PATH. Shell/git/web/read-only market tools work with required approvals. No hosted Artifact publishing tool identified.
-- **Publication:** Oct5 shipping/cost/watch/closeout/audit published and19/19 handoffs now origin-proven, including3 directly committed processed BRENT copies. Oct7 output separate and pending; current live DNS proof failed. Whole Oct7 BRENT report confirms earlier freight integration; remaining owner consumption not blanket-cleared.
+- **Publication:** Oct5 shipping/cost/watch/closeout/audit published and19/19 handoffs now origin-proven, including3 directly committed processed BRENT copies. Oct7 core/report/all66 handoffs published through9ed4cdb99, own live GitHub proof verified after PROME shared push; post-push reconciliation receipt publication remains separate. Whole Oct7 BRENT report confirms earlier freight integration; remaining owner consumption not blanket-cleared.
 
 ## WILL_NEEDS
 Existing execution duties: October7 Fidelity holdings show USO Oct9 150C×1 with the already registered Friday15ET stop (WQ366 early-sell DECLINE preserved) and QQQ Oct9 755P×2 under sell-or-roll-before-expiry practice. Exact capture time and live order status UNKNOWN; no new trade approval requested. October5 QQQ735P deadline is elapsed history, not a live today instruction; Activity disposition remains a broker-reconciliation question.
@@ -45,12 +45,12 @@ Approvals preserved: WQ377 launch-only bookmarks/default dig and financial-backl
 Carried process ideas unchanged: (k) end-of-session review; (t) re-search routed state-dependent stories; (u) liveness with in-process spawns; (a) WALTER on every data day; (s) lane date versus event date; (j) BRENT boundary scanner coverage; (p) boot BOARD-count check. These remain ideas, not newly authorized work.
 
 ## CLOSEOUT RECEIPT
-Final diagnostics under `research/2026-10-05_closeout/`; boot evidence under `research/2026-10-05_boot/`. Original closeout omitted the market refresh; audit reran the read-only RED pull at10:34ET. Earlier live remote proof obtained October7; delivery-time DNS retries failed, so local origin evidence is dated. Registry/header, memory and status continuity refreshed; routing files and read caps checked. Publication list below retains prior Oct4 commitments plus the boot commit; current delivery scope is October5 shipping/cost research (19/19 origin-proven); Oct7 0/66 publication-proven. Intake d338b81a2 and BRENT integration701cd4e2f recorded below. Earlier Oct4 deliveries30/30 were publication-proven, not consumption-proven. HASH-bound owner pointers retain manual scope. `closeout_check.py` output saved alongside the receipt: REVIEW, because it checks the original inbox paths and cannot recognise the three BRENT packets committed directly to processed paths. The exact processed-path origin bodies and SHA proofs are in prior-delivery-proof.json; no new checker or silent relaxation is introduced.
+Final diagnostics under `research/2026-10-05_closeout/`; boot evidence under `research/2026-10-05_boot/`. Original closeout omitted the market refresh; audit reran the read-only RED pull at10:34ET. Own live remote proof now equals origin/master9ed4cdb99; earlier DNS failure resolved at publication verification. Registry/header, memory and status continuity refreshed; routing files and read caps checked. Publication list below retains prior Oct4 commitments plus the boot commit; current delivery scope is October5 shipping/cost research (19/19 origin-proven); Oct7 66/66 publication-proven at9ed4cdb99. Intake d338b81a2 and BRENT integration701cd4e2f recorded below. Earlier Oct4 deliveries30/30 were publication-proven, not consumption-proven. HASH-bound owner pointers retain manual scope. `closeout_check.py` now scopes the actual October7 delivery66/66. Its earlier Oct5 REVIEW is retained in history: original-only resolver did not recognise3processed-only proofs in prior-delivery-proof.json. No checker changed and no full closeout inferred.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-07T22:49:22.649669+00:00",
+  "as_of": "2026-10-07T23:46:18.589062+00:00",
   "publication": [
     {
       "commit": "ec8fd6f08",
@@ -71,17 +71,53 @@ Final diagnostics under `research/2026-10-05_closeout/`; boot evidence under `re
     {
       "commit": "e59826fa4",
       "state": "published"
+    },
+    {
+      "commit": "df0d849eb",
+      "state": "published"
+    },
+    {
+      "commit": "7cb9a4b1f",
+      "state": "published"
+    },
+    {
+      "commit": "813ee8a05",
+      "state": "published"
+    },
+    {
+      "commit": "6fb34e0fc",
+      "state": "published"
+    },
+    {
+      "commit": "8d34732eb",
+      "state": "published"
+    },
+    {
+      "commit": "07ecfec25",
+      "state": "published"
+    },
+    {
+      "commit": "188440ea6",
+      "state": "published"
+    },
+    {
+      "commit": "2144da1ad",
+      "state": "published"
+    },
+    {
+      "commit": "9ed4cdb99",
+      "state": "published"
     }
   ],
   "delivery": {
-    "signal_date": "20261005",
-    "total": 19,
-    "delivered": 19,
-    "note": "16 original handoffs verified at origin;3 BRENT packets verified at exact processed origin paths. See prior-delivery-proof.json. Oct7 0/66 publication-proven; separate sweep packet."
+    "signal_date": "20261007",
+    "total": 66,
+    "delivered": 66,
+    "note": "Own live GitHub proof9ed4cdb99; reconciler66pending\u2192delivered,0orphans. Oct5 historical19/19 includes3processed-only exact proofs."
   },
   "push": {
     "all_walter_commits_on_origin": false,
-    "note": "Oct5 listed work previously published. Oct7 pending; foreign writes plus current DNS failure. Last live remote proof earlierOct7; local origin ref not a fresh fetch."
+    "note": "All substantive/core/handoff work through9ed4cdb99 published and own live proof verified. New post-push reconciliation/receipt commit will require separate coordinator publication; do not label it already pushed."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -112,8 +148,8 @@ Final diagnostics under `research/2026-10-05_closeout/`; boot evidence under `re
     "Iran full sweepOct8; facility identification and UKMTO authentication remain unknown",
     "X/BrightData pilot reviewOct17; local access gaps",
     "USO Oct9 150C stop15ET / QQQ755P before expiry, existing rules; exact order status unknown",
-    "Oct7 catch-up commits, coordinated origin publication and owner acknowledgement; source/boot gaps in REPORT",
-    "Manual freight reviewOct9; EIA nextOct15 noonET holiday exception; current USO weights unknown"
+    "Manual freight reviewOct9; EIA nextOct15 noonET holiday exception; current USO weights unknown",
+    "Post-push reconciliation receipt publication; source/boot gaps unchanged,full closeout separate."
   ],
   "next_review": "2026-10-09"
 }

@@ -88,81 +88,16 @@ WALTER doctor — 2026-10-07
 
 [delivered_but_unconsumed]
   · LOW  CONSUMED but never filed to processed/ — the recipient's OWN board_log records these, so they are filing hygiene, NOT a consume-gap: BOND 1, OTTO 1 — excluded from the unconsumed count below (they were being counted)
-  ⚠ MED  161 unconsumed >2d across 24 agents (of 245 in flight — the rest are within the grace period, NOT evidence they are consumed) — 33 ACTION / 128 INFO, oldest ACTION 9d · oldest INFO 12d: FALCON 8(6A/2I); CORAL 6(4A/2I); OSPREY 5(4A/1I); HAWK 39(2A/37I); LIQUID 13(2A/11I); AEOLUS 6(2A/4I); VULCAN 5(2A/3I); MARCO 3(2A/1I); REGINALD 14(1A/13I); HANS 13(1A/12I); WATT 8(1A/7I); SHADE 6(1A/5I); HOMER 3(1A/2I); CREED 2(1A/1I); OTTO 1(1A/0I); CARL 1(1A/0I); RED 1(1A/0I); SAM 12; VIOLET 8; ZHAO 2; NEXUS 2; MIDAS 1; BROCK 1; YURI 1 [age from delivery_log.timestamp_routed, 2 on mtime across the full delivered-file scan (not the aged-warning denominator; no delivery_log row)] — ACTION items are the risk; install recipient consume boot-step (CC self-apply set) to clear
+  ⚠ MED  161 unconsumed >2d across 24 agents (of 239 in flight — the rest are within the grace period, NOT evidence they are consumed) — 33 ACTION / 128 INFO, oldest ACTION 9d · oldest INFO 12d: FALCON 8(6A/2I); CORAL 6(4A/2I); OSPREY 5(4A/1I); HAWK 39(2A/37I); LIQUID 13(2A/11I); AEOLUS 6(2A/4I); VULCAN 5(2A/3I); MARCO 3(2A/1I); REGINALD 14(1A/13I); HANS 13(1A/12I); WATT 8(1A/7I); SHADE 6(1A/5I); HOMER 3(1A/2I); CREED 2(1A/1I); OTTO 1(1A/0I); CARL 1(1A/0I); RED 1(1A/0I); SAM 12; VIOLET 8; ZHAO 2; NEXUS 2; MIDAS 1; BROCK 1; YURI 1 [age from delivery_log.timestamp_routed, 2 on mtime across the full delivered-file scan (not the aged-warning denominator; no delivery_log row)] — ACTION items are the risk; install recipient consume boot-step (CC self-apply set) to clear
 
 [board_log_path_divergence]
   ✓ INFO REGINALD: consumption record read from `board/BOARD_LOG.tsv`, NOT the canonical `board_log.tsv` — resolved by fallback and reported so the divergence is visible; the desk is free to keep its own layout
 
 [written_but_undelivered]
-  ⚠ MED  AEOLUS: SIG-W-20261007-005.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  · LOW  BOND: SIG-W-20261007-006.md written, uncommitted (mid-session)
-  · LOW  BOND: SIG-W-20261007-002.md written, uncommitted (mid-session)
-  ⚠ MED  BRENT: SIG-W-20261007-003.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  BRENT: SIG-W-20261007-015.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  BRENT: SIG-W-20261007-014.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  BRENT: SIG-W-20261007-004.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  BROCK: SIG-W-20261007-012.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  BROCK: SIG-W-20261007-008.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  BROCK: SIG-W-20261007-016.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  CARL: SIG-W-20261007-009.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  FALCON: SIG-W-20261007-015.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  FALCON: SIG-W-20261007-014.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  FERT: SIG-W-20261007-005.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  HAWK: SIG-W-20261007-003.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  HAWK: SIG-W-20261007-015.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  HAWK: SIG-W-20261007-014.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  HAWK: SIG-W-20261007-004.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  HENRY: SIG-W-20261007-003.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  HENRY: SIG-W-20261007-010.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  HENRY: SIG-W-20261007-013.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  HENRY: SIG-W-20261007-006.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  HENRY: SIG-W-20261007-014.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  HENRY: SIG-W-20261007-017.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  HENRY: SIG-W-20261007-004.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  HENRY: SIG-W-20261007-009.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  HENRY: SIG-W-20261007-001.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  HENRY: SIG-W-20261007-011.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  HENRY: SIG-W-20261007-002.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  LABOR: SIG-W-20261007-013.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  LABOR: SIG-W-20261007-017.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  LIQUID: SIG-W-20261007-012.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  LIQUID: SIG-W-20261007-003.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  LIQUID: SIG-W-20261007-008.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  LIQUID: SIG-W-20261007-006.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  LIQUID: SIG-W-20261007-014.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  LIQUID: SIG-W-20261007-004.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  LIQUID: SIG-W-20261007-016.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  LIQUID: SIG-W-20261007-001.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  LIQUID: SIG-W-20261007-002.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  MARCO: SIG-W-20261007-005.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  MIDAS: SIG-W-20261007-006.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  OTTO: SIG-W-20261007-009.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  REGINALD: SIG-W-20261007-012.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  REGINALD: SIG-W-20261007-008.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  REGINALD: SIG-W-20261007-009.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  REGINALD: SIG-W-20261007-007.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  REGINALD: SIG-W-20261007-016.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  SHADE: SIG-W-20261007-012.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  SHADE: SIG-W-20261007-008.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  SHADE: SIG-W-20261007-016.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  VIOLET: SIG-W-20261007-010.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  VIOLET: SIG-W-20261007-011.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  VULCAN: SIG-W-20261007-012.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  VULCAN: SIG-W-20261007-003.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  VULCAN: SIG-W-20261007-010.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  VULCAN: SIG-W-20261007-008.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  VULCAN: SIG-W-20261007-013.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  VULCAN: SIG-W-20261007-017.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  VULCAN: SIG-W-20261007-001.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  VULCAN: SIG-W-20261007-011.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  VULCAN: SIG-W-20261007-002.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  WAL: SIG-W-20261007-007.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  WATT: SIG-W-20261007-003.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  WATT: SIG-W-20261007-010.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
-  ⚠ MED  WATT: SIG-W-20261007-011.md committed but NOT on origin — recipient can't pull it (needs §3.4 scoped-push)
+  ✓ INFO all WALTER handoffs delivered (on origin)
 
 [delivery_claim_vs_git]
-  ✓ INFO 3297 row(s) point at a path that no longer exists but WAS in git (consumed-by-delete, or a retired inbox dir) — delivery confirmed, path stale; log hygiene, not a gap
+  ✓ INFO 3303 row(s) point at a path that no longer exists but WAS in git (consumed-by-delete, or a retired inbox dir) — delivery confirmed, path stale; log hygiene, not a gap
 
 [deep_research_pending_overdue]
   ✓ INFO no overdue deep-research flags (1 open)
@@ -205,7 +140,7 @@ WALTER doctor — 2026-10-07
   ✓ INFO TERRY override ratio 3/16 over the trailing 90d window (SIG-W-20260811-002, SIG-W-20260820-003, SIG-W-20260822-002) — lane CLOSED by the §3.5.5 revert 2026-08-26; log read at revert; rolls off with the window
 
 [filed_vs_consumed]
-  ✓ INFO processed/ moves in 90d: 192 declared-consumed, 47 pre-grammar (upper bound only, not graded), 0 undeclared since 2026-08-20
+  ✓ INFO processed/ moves in 90d: 195 declared-consumed, 34 pre-grammar (upper bound only, not graded), 0 undeclared since 2026-08-20
 
 [entities_at_dispatch]
   · LOW  SIG-W-20260828-016-RESOLVED-the-bls-gate...: no `entities:` header on a post-2026-08-19 signal — mandatory at dispatch per FORMAT_SPEC v0.18
@@ -222,4 +157,4 @@ WALTER doctor — 2026-10-07
   ✓ INFO generated INDEX fresh (rowset 68853cd1101e, 1239 signals; 1239 live rows hashed and matched — banner AND content)
 
 ========================================================================
-✗ 69 item(s) need attention (HIGH/MED). See punch-list above.
+✗ 5 item(s) need attention (HIGH/MED). See punch-list above.
