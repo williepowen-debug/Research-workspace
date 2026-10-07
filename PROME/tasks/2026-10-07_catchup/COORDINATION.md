@@ -1,0 +1,13 @@
+# October7 recent-events catch-up — coordination receipt
+
+Will authorized: “Lets work on getting the agents caught up to speed on recent events and news”. When asked about other owners, Will confirmed “No other research desks are running.” Later offered separate windows; PROME explained existing-session coordination is underway and no extra manual windows needed yet. This instruction authorizes bounded current-domain catch-up; no trade, new threshold, paid spend, dormant revival or unattended service.
+
+Mode: independent domain work in parallel, then dependent routing/synthesis. Resume existing known sessions rather than duplicate their owners. Select gpt-6.1-sol explicitly. First active wave: WALTER news intake/routing; BOND current auctions/FOMC/rates; BRENT tanker transmission/STEO/WPSR. Native accepted allthree resumes and direct reads confirm active inProgress desk acknowledgments. Host discovery only sees visiblePIDnamespace; cross-runtimeabsence is Will-supplied, not inferred from missing tool rows. ORCH_LOG is per-touch live receipt.
+
+Next: TERRY exact held-option management and VLO ownerintegration; triage WALTER returned material into affected desks, especially FALCON/OSPREY/HAWK, HENRY/LIQUID/VIOLET/VULCAN, REGINALD/WAL/OZK and BROCK/FERT/WATT dated work. Do not spawn every desk by age alone. CREED remains explicit-name permission restricted; dormant/retired/special manual seats not swept into this research program. CATO already produced a read-only work inventory at AGENTS/CATO/runs/2026-10-07_1500_fleet-work-sweep.md; use as pointers, verifycurrentownerfacts, not launchauthority or sourcegrades.
+
+Immediate evidence changes: broker mirror e8fd99acf confirms Oct7holdings; VLO WQ386approved5d978cf73. FidelityActivityabsent, oldQQQdispositionsUNKNOWN. FOMCminutes release seeninsearchOctober7; primarycontentsnotyetverifiedbyPROME; BOND assigned primaryread. EIAOctoberSTEOprimaryPDF located; BRENT assigned actualrelease/cutoffverification. No freshdeskgrade asserted by thiscoordinationreceipt.
+
+Source packets read: BOND Oct5runtime receipt (alreadyconsumed/acknowledged in priorproductionreport518baafa2, not newresearch); WALTER Oct4WQ369conflation (C8darktheatercapdistinctfromunattendedruns; registrarcleanup separate). Both preserved, no newauthority inferred.
+
+State: firstwave IN-FLIGHT; laterdeskpriorities awaitmaterialoutputs. No fleet-caught-up claim until evidence is integrated by owners and closeoutreceiptsreceived. No fullPROMEboot/sessioncloseout claimed. Existingunrelateddirty/stagedfilespreserved. Eachownerdelivers datedresearch,updatesownedstate,scopedcommits,notifiesPROME; PROMEreadsandacknowledges actualartifacts beforeclaimingconsumption andasks explicitcloseout.
