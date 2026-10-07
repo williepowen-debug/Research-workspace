@@ -19,3 +19,11 @@ Exact native reads now show WALTER, BOND and BRENT active/inProgress with waitin
 ## Recovery observation — October 7, 16:06 ET
 
 WALTER sent a live recovery notice from its original thread and the exact native read shows active/inProgress with no approval flag. It verified served gpt-6.1-sol and is reading corrections before intake. PROME replied that foreign staged VLO paths remain preserved; exact-path owned commits under the root Git protocol need not sweep or wait for the whole shared index, and technical permissions still apply. No substantive report consumed yet. BOND and BRENT latest direct reads still show waitingOnApproval. User was given exact codex resume commands for the existing sessions; no replacement owners launched.
+
+## Owner updates — October 7, 16:28 ET
+
+BRENT sent a live recovery notice: original session, served gpt-6.1-sol/high verified, boot feeds and assigned catch-up running. No pull/stash/push. BOND reports a direct Will closeout request and is preparing a PARTIAL handoff; auction/FOMC primary grading remains unfinished. PROME yielded the push window to BOND and requested the actual report, explicit closeout and literal fresh-fetch push receipt. None has been consumed yet. WALTER continues. Do not treat this as a fleet completion or create a replacement BOND while the owner is closing.
+
+## BOND consumed and closed — October 7, 16:39 ET
+
+PROME read the exact packet and checkpoint at `259bd8578`, checked owned state changes and clean BOND tree, and independently fetched origin then verified the commit is its ancestor. Owner explicit receipt reports STANDARD rc0 at16:32, FREEZE MATCH and literal safe-push confirmation; native read is completed/idle. BOND is closed at Will request; this is a PARTIAL research handoff, not a completed rates catch-up. Remaining work is registered at DOCKET L617, October8; current decisions unchanged. No immediate BOND restart or replacement. WALTER/BRENT assignments remain separate and pending. This record acknowledges consumption without reopening the closed owner just for an acknowledgment.
