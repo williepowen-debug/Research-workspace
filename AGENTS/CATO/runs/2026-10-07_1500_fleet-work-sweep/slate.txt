@@ -1,0 +1,324 @@
+# SPAWN SLATE — generated 2026-10-07 14:55 EDT · as-of 2026-10-07 (Wed) · horizon +7d · HEAD 5d978cf73 · 47,508 B = 146% of the 32,550 B whole-read budget · ⛔ OVER BUDGET — read by section, never truncated
+
+> **GENERATED — do not edit.** Advisory only: PROME spawns, after ListAgents in the same minute. Sources: DOCKET · GATES · ROSTER · ORCH_LOG (working tree) and owner returns from committed history at the HEAD above. This file keeps no state of its own. ⛔ `RETURN FOUND` points at what to read; it does NOT say the row is answered. Terms are defined at the bottom.
+
+## Read this first
+
+- **Spawn candidates, in slate order (⏱ = the row carries timing words; read them before waking):** DAEDALUS (slot 1 of 4; D:L472, D:L490, D:L594, D:L530, D:L538, D:L548); FERT (slot 2 of 4; D:L288, D:L576); HENRY (slot 3 of 4; D:L612); REGINALD (slot 4 of 4; D:L527); TERRY ⏱ (slot 5; D:L589, D:L590, D:L592); VULCAN ⏱ (slot 6; D:L250); NEXUS (slot 7; D:L554, D:L36); OSPREY (slot 8; D:L309); BROCK (slot 9; D:L480); LIQUID (slot 10; D:L568)
+- **⛔ Unknown / not launchable:** none
+- **Read first — the owner returned something citing the row, and the row is still open:** FERT G:GATE-FERT-G5; FALCON G:GATE-FALCON-001
+- **Receipt gap — owner in session since, nothing cites the row:** NEXUS G:GATE-NEXUS-SEAT-01 (NO CITING RETURN)
+- **ORCH_LOG shows an open (IN-FLIGHT) touch today — a return may be half-written; check liveness:** none
+- **Not yet due, inside the horizon:** BRENT; CORAL; WAL; WATT; ZHAO; CRUISE; DEWEY
+- **PROME's own due rows:** 30 (oldest 20d overdue) · **Will-owned:** 2 — these get no stanza; each is a line in the census at the bottom.
+- **Cap context:** ORCH_LOG shows 0 `1-SPAWN` row(s) dated 2026-10-07; how many belong to THIS boot is PROME's knowledge, so a slot number below is slate order, not a free slot.
+- **Conservation:** 71 rows in = 39 desk-owned (18 desk(s)) + 30 PROME + 2 WILL + 0 unowned · census rows 71 · OK
+
+## Desk stanzas (11)
+
+### DAEDALUS — SPAWN CANDIDATE — Tier 1, WQ-184 L0 due row · slot 1 of 4
+
+- **Desk:** ROSTER class SPECIAL (its ROSTER row says who may launch it) · cadence WEEKLY — within cadence (3d) · lane WQ-184 L0
+- **Tier check (PROME's judgement):** a row uses trade/position words — a trade or spend consequent stays Tier 3 whatever this slate says.
+- **Why now:**
+  - `D:L472` [DARK] — 2d overdue (was due Mon 10/05); last self-commit 2026-10-04 (3d ago, 254c397fc) < row start 2026-10-05 — nobody has run it.
+  - `D:L490` [DARK] — 2d overdue (was due Mon 10/05); last self-commit 2026-10-04 (3d ago, 254c397fc) < row start 2026-10-05 — nobody has run it.
+  - `D:L594` [DARK] — 2d overdue (was due Mon 10/05); last self-commit 2026-10-04 (3d ago, 254c397fc) < row start 2026-10-05 — nobody has run it.
+  - `D:L530` [DARK] — due today (Wed 10/07); last self-commit 2026-10-04 (3d ago, 254c397fc) < row start 2026-10-07 — nobody has run it.
+  - `D:L538` [DARK] — due today (Wed 10/07); last self-commit 2026-10-04 (3d ago, 254c397fc) < row start 2026-10-07 — nobody has run it.
+  - `D:L548` [DARK] — due today (Wed 10/07); last self-commit 2026-10-04 (3d ago, 254c397fc) < row start 2026-10-07 — nobody has run it.
+  - `D:L495` [LANDS-IN-2d] — lands in 2d (Fri 10/09); not yet due — owner last self-commit 2026-10-04 (3d ago, 254c397fc).
+  - `D:L496` [LANDS-IN-2d] — lands in 2d (Fri 10/09); not yet due — owner last self-commit 2026-10-04 (3d ago, 254c397fc).
+  - `D:L499` [LANDS-IN-2d] — lands in 2d (Fri 10/09); not yet due — owner last self-commit 2026-10-04 (3d ago, 254c397fc).
+  - `D:L593` [LANDS-IN-2d] — lands in 2d (Fri 10/09); not yet due — owner last self-commit 2026-10-04 (3d ago, 254c397fc).
+  - `D:L526` [LANDS-IN-5d] — lands in 5d (Mon 10/12); not yet due — owner last self-commit 2026-10-04 (3d ago, 254c397fc).
+- **Pre-check at the owner's artifact:** n/a — no owner self-commit since the row's start date (that is what DARK means)
+  - `D:L490`: PROME annotated the row 2026-10-05 (words round the newest stamp only — read the state cell): "[…] that read. Whole audit PARTIAL; TERRY hold application UNVERIFIED (Monday L592 first item). · +2026-10-05 17:4x ET CONSUMER READ — THE ONE RESERVED READ (PROME prome-95, Claude Code; after position work — L592's 15:00 deadline had passed, outcome UNKNOWN pending Will): read AGENTS/DAEDALUS/runs/2026-10-04_HARNESS_AUDIT_FINAL.md at […]"
+- **Bounded assignment** (112 words; quotes are verbatim from the rows, so a multi-desk row quotes every desk's leg):
+  > DAEDALUS: 6 registered rows due — in this order. 1) D:L472 (due Mon 10/05): "WQ-252 SITTING PREP — DAEDALUS options memo for" […] read D:L472 whole. 2) D:L490 (due Mon 10/05): "DAEDALUS OWED SET carried from the 9/25 L290" […] read D:L490 whole. 3) D:L594 (due Mon 10/05): "WQ-372 BUILD — fold Fleet-Ops' two unique panels" […] read D:L594 whole. 4) D:L530 (due Wed 10/07): "🟠 **`read_cap_check.py` PERIMETER GAP — a boot-read-WHOLE surface" […] read D:L530 whole. 5) D:L538 (due Wed 10/07): "🟡 **`scripts/read_cap_check.py` has no EXTERNAL-repo exemption — a" […] read D:L538 whole. Then, read whole: D:L548. Return: your own record updated + one packet to PROME/inbox/ citing each row key.
+  - Inputs (from the rows' source cells): `PROME/DOCKET.tsv` · `PROME/proposals/2026-09-24_wq-batch-284-252-285-286-RULED.md` · `AGENTS/HENRY/reports/2026-09-24_F1-basis-named.md` · `PROME/inbox/processed/2026-09-25_from-DAEDALUS_L290-render-4-inbox-drain-wq295-doorbell-close.md` · `AGENTS/DAEDALUS/runs/2026-09-25_INBOX_DISPOSITIONS.md` (+13 more)
+- **If the read shows a row is still owed:** re-ping with the row's own words (`D:L495`, `D:L496`, `D:L499`, `D:L593`, `D:L526`) and say which leg is missing — no text is prepared, because what is missing is what the read finds.
+- **Must travel (verbatim from the row — a caveat is never dropped):**
+  - `D:L548`: ⛔ Not built by PROME 9/29 — the session's one process change was the registry line (R1).
+- **Would also fit (not why-now; rows landing within +14d):**
+  - `D:L603` due Mon 10/19 (in 12d): DAEDALUS EVALUATION — WALTER's system-improvement candidates from Will's
+  - names this desk as a non-first owner (co-grader or only informed — the row says which): `D:L41` (10-06), `D:L210` (10-05), `D:L309` (10-06), `D:L350` (09-19), `D:L381` (09-17), `D:L423` (10-07), `D:L459` (10-07), `D:L465` (09-28), `D:L473` (09-25), `D:L546` (10-08), `D:L557` (10-05), `D:L604` (10-05)
+- **Inbox:** 5 packet(s), oldest 2026-10-02 — a spawn drains the WHOLE inbox
+
+### FERT — SPAWN CANDIDATE — Tier 1, WQ-184 L0 due row · slot 2 of 4
+
+- **Desk:** ROSTER class ACTIVE · cadence EVENT-DRIVEN — no age clock; the due row governs · lane WQ-184 L0
+- **Why now:**
+  - `D:L288` [DARK] — 2d overdue (was due Mon 10/05); last self-commit 2026-10-02 (5d ago, 959ab471f) < row start 2026-10-05 — nobody has run it.
+  - `D:L576` [DARK] — due today (Wed 10/07); last self-commit 2026-10-02 (5d ago, 959ab471f) < row start 2026-10-07 — nobody has run it.
+  - `G:GATE-FERT-G5` [ACTIVE] — due today (Wed 10/07); the owner has returned something citing it and the row is still open — read that return; it may answer the row, one leg of it, or only say why it cannot be answered yet.
+- **Pre-check at the owner's artifact (a pointer to what to read, not a verdict):**
+  - `G:GATE-FERT-G5` → **RETURN FOUND**
+    - ⚠ the newest strong return is dated 2026-10-01, BEFORE the due date 2026-10-07 — it may be a plan or the previous cycle
+    - packet `PROME/inbox/processed/2026-10-01_from-FERT_G5-grade.md` (2026-10-01, carried by `7fd64fe79`) cites key G:GATE-FERT-G5 · hint words anywhere in the packet: 'armed', 'not published', 'pending', 'not yet'
+    - commit `7fd64fe79` (2026-10-01) cites key G:GATE-FERT-G5: "FERT -> PROME: G5 graded NOT FIRED 7-of-7 (DTN 9/30) + WQ-295 cadence and watch terms" · `PROME/inbox/2026-10-01_from-FERT_G5-grade.md`
+    - commit `52e56c6cd` (2026-10-01) cites key G:GATE-FERT-G5: "FERT 10/01 due-row: GATE-FERT-G5 NOT FIRED 7-of-7 on DTN 9/30; WQ-257 encoded; inbox drain" · `AGENTS/FERT/STATUS.md`
+    - other packets from FERT since 2026-10-01 that do NOT cite the row (the answer may be in one): `2026-10-02 pink-sheet-october-T11` · `2026-10-01 wake-coverage-ask-ride-alongs-plus-CF-Q3-row` · `2026-10-01 CORRECTION-DOCKET-L576-reopen-line-is-600-not-500` · `2026-10-01 news-sweep-IPL-tender-docket-ask-plus-potash-triage` · `2026-10-01 R3-watch-for-verdicts` · `2026-10-01 cadence-and-watch-terms`
+- **Bounded assignment** (117 words; quotes are verbatim from the rows, so a multi-desk row quotes every desk's leg):
+  > FERT: 2 registered rows due — in this order. 1) D:L288 (due Mon 10/05): "FERT T11 — World Bank Pink Sheet OCTOBER 2026 edition (September data): VERIFY PUBLICATION FIRST at thedocs.worldbank.org (the document hash rotates monthly — a stale path 404s), THEN grade FERT-11 (rock re-plateaus at exactly $170.0, 72%; its ledger" […] read D:L288 whole. 2) D:L576 (due Wed 10/07): "FERT WAKE — INDIA's IPL UREA TENDER (1.0 Mt West Coast + 0.7 Mt East Coast): PRICE BIDS OPEN 10/07 12:30 (presumably IST; offers valid to 10/15, sailing by 12/01; Rural Voice 2026-09-26, `KB-FERT-055`). FERT reads the lowest" […] read D:L576 whole. Return: your own record updated + one packet to PROME/inbox/ citing each row key.
+  - Inputs (from the rows' source cells): `AGENTS/FERT/workbook/PREDICTIONS.tsv` · `AGENTS/FERT/workbook/TRIGGERS.tsv` · `PROME/inbox/processed/2026-10-01_from-FERT_news-sweep-IPL-tender-docket-ask-plus-potash-triage.md` · `AGENTS/FERT/workbook/KB.tsv`
+- **If the read shows a row is still owed:** re-ping with the row's own words (`G:GATE-FERT-G5`) and say which leg is missing — no text is prepared, because what is missing is what the read finds.
+- **Must travel (verbatim from the row — a caveat is never dropped):**
+  - `D:L576`: ⛔ The EXIT_PROTOCOL nitrogen re-open test keys on the AWARDED CFR, which follows days later — the 10/07 offers are a READ, never a fire.
+- **Would also fit (not why-now; rows landing within +14d):**
+  - `D:L577` due Thu 10/15 (in 8d): FERT WAKE — `GATE-FERT-G3` review_by (the China urea re-read, FERT T10) 
+  - `G:GATE-FERT-G3` due Thu 10/15 (in 8d): review_by [JUDGEMENT] — EVENT GATE (un-base-rateable, n≈2 policy regime changes/
+- **Inbox:** 2 packet(s) — a spawn drains the WHOLE inbox
+
+### HENRY — SPAWN CANDIDATE — Tier 1, WQ-184 L0 due row · slot 3 of 4
+
+- **Desk:** ROSTER class ACTIVE · cadence WEEKLY — within cadence (3d) · lane WQ-184 L0
+- **Why now:**
+  - `D:L612` [DARK] — 2d overdue (was due Mon 10/05); last self-commit 2026-10-04 (3d ago, a6d92e537) < row start 2026-10-05 — nobody has run it.
+- **Pre-check at the owner's artifact:** n/a — no owner self-commit since the row's start date (that is what DARK means)
+- **Bounded assignment** (58 words; quotes are verbatim from the rows, so a multi-desk row quotes every desk's leg):
+  > HENRY: 1 registered row due. 1) D:L612 (due Mon 10/05): "ISM Services September 10:00 ET — owner review/adoption or decline of SOL research draft BEFORE release; if adopted, register prospective forecast then grade first-published values and separate market-reaction observations. No retroactive adoption after release." Return: your own record updated + one packet to PROME/inbox/ citing each row key.
+  - Inputs (from the rows' source cells): `AGENTS/HENRY/research/2026-10-04_ISM-services-owner-adoption/adoption.md` · `PROME/reports/2026-10-04_henry-sol-ism/owner-adoption-review.md`
+- **Would also fit (not why-now; rows landing within +14d):**
+  - names this desk as a non-first owner (co-grader or only informed — the row says which): `D:L471` (10-06), `D:L472` (10-05), `D:L576` (10-07), `D:L589` (10-05), `D:L592` (10-05)
+- **Inbox:** 2 packet(s), oldest 2026-10-07 — a spawn drains the WHOLE inbox
+
+### REGINALD — SPAWN CANDIDATE — Tier 1, WQ-184 L0 due row · slot 4 of 4
+
+- **Desk:** ROSTER class ACTIVE · cadence WEEKLY — REVIEW HINT, past cadence (8d) · lane WQ-184 L0
+- **Tier check (PROME's judgement):** a row uses trade/position words — a trade or spend consequent stays Tier 3 whatever this slate says.
+- **Why now:**
+  - `D:L527` [DARK] — 2d overdue (was due Mon 10/05); last self-commit 2026-09-29 (8d ago, c2888c22e) < row start 2026-10-05 — nobody has run it.
+  - `D:L516` [LANDS-IN-2d] — lands in 2d (Fri 10/09); not yet due — owner last self-commit 2026-09-29 (8d ago, c2888c22e).
+- **Pre-check at the owner's artifact:** n/a — no owner self-commit since the row's start date (that is what DARK means)
+- **Bounded assignment** (88 words; quotes are verbatim from the rows, so a multi-desk row quotes every desk's leg):
+  > REGINALD: 1 registered row due. 1) D:L527 (due Mon 10/05): "REGINALD WAKE — WQ-318 FUNDING-vs-NONBANK-EXPOSURE BASELINE (Will APPROVED 9/28 14:1x ET with riders): six-bank table (CUBI · CFG · WAL · OZK; FLG · EGBN as CRE contrasts) on the June-30 common baseline + later disclosures in a SEPARATE column + a PRE-COMMITTED Q3 observation list (up / down / inconclusive per bank, exact disclosure line named), August's negative result" […] read D:L527 whole. Return: your own record updated + one packet to PROME/inbox/ citing each row key.
+  - Inputs (from the rows' source cells): `AGENTS/REGINALD/inbox/2026-09-28_from-PROME_WQ-318-funding-vs-nonbank-baseline.md` · `AGENTS/CATO/runs/2026-09-28_1249_regional-bank-channel-brainstorm.md` · `AGENTS/REGINALD/workbook/NDFI_COHORT.tsv`
+- **If the read shows a row is still owed:** re-ping with the row's own words (`D:L516`) and say which leg is missing — no text is prepared, because what is missing is what the read finds.
+- **Would also fit (not why-now; rows landing within +14d):**
+  - names this desk as a non-first owner (co-grader or only informed — the row says which): `D:L350` (09-19)
+- **Inbox:** 27 packet(s), oldest 2026-09-28, 4 aged ≥7d (WQ-206 lane if any is an `action:` handoff — not classified here) — a spawn drains the WHOLE inbox
+
+### TERRY — SPAWN CANDIDATE — Tier 1, WQ-184 L0 due row · slot 5 — beyond the ordinary cap of 4 → Will's slate, unless the C6 terms hold (PROME's judgement) · ⏱ the row carries timing words: check them before waking
+
+- **Desk:** ROSTER class ACTIVE · cadence WEEKLY — within cadence (5d) · lane WQ-184 L0
+- **Tier check (PROME's judgement):** a row uses trade/position words — a trade or spend consequent stays Tier 3 whatever this slate says.
+- **Why now:**
+  - `D:L589` [DARK] — 2d overdue (was due Mon 10/05); last self-commit 2026-10-02 (5d ago, 27d538bba) < row start 2026-10-05 — nobody has run it.
+  - `D:L590` [DARK] — 2d overdue (was due Mon 10/05); last self-commit 2026-10-02 (5d ago, 27d538bba) < row start 2026-10-05 — nobody has run it.
+  - `D:L592` [DARK] — 2d overdue (was due Mon 10/05); last self-commit 2026-10-02 (5d ago, 27d538bba) < row start 2026-10-05 — nobody has run it.
+  - `D:L605` [LANDS-IN-2d] — lands in 2d (Fri 10/09); not yet due — owner last self-commit 2026-10-02 (5d ago, 27d538bba).
+- **Pre-check at the owner's artifact:** n/a — no owner self-commit since the row's start date (that is what DARK means)
+- **Bounded assignment** (116 words; quotes are verbatim from the rows, so a multi-desk row quotes every desk's leg):
+  > TERRY: 3 registered rows due — in this order. 1) D:L589 (due Mon 10/05): "QQQ DATED DOWNSIDE CARD — COMMISSIONED by Will 2026-10-02 10:34 ET (verbatim: "yes commission the card"): TERRY builds ONE defined-risk QQQ downside" […] read D:L589 whole. 2) D:L590 (due Mon 10/05): "EXPRESSION COMPARISON for Will's AI-debt thesis — COMMISSIONED by Will 2026-10-02 11:09 ET (verbatim: "commission it"): TERRY compares, at the same ≤" […] read D:L590 whole. 3) D:L592 (due Mon 10/05): "QQQ Oct-05 735P ×5 EXPIRY — Will's hard stop $735 / sell by 15:00 ET (WQ-347 family; TERRY's guidance SELL at Mon" […] read D:L592 whole. Return: your own record updated + one packet to PROME/inbox/ citing each row key.
+  - Inputs (from the rows' source cells): `AGENTS/TERRY/inbox/2026-10-02_from-PROME_COMMISSION-QQQ-dated-downside-card.md` · `AGENTS/TERRY/inbox/2026-10-02_from-PROME_COMMISSION-expression-comparison-AI-debt-thesis.md` · `PROME/WILL_QUEUE.md` · `AGENTS/TERRY` · `PROME/SCRATCH.md`
+- **If the read shows a row is still owed:** re-ping with the row's own words (`D:L605`) and say which leg is missing — no text is prepared, because what is missing is what the read finds.
+- **⏱ Timing words in the row (PROME judges whether a wake now is early or a second wake is owed):** `D:L589`: "…ts; VULCAN's evidence packet is asked at its post-close wake. A NO-BUILD with reasons is a valid del…" · `D:L592`: "…35P ×5 EXPIRY — Will's hard stop $735 / sell by 15:00 ET (WQ-347 family; TERRY's guidance SELL at Mon…"
+- **Would also fit (not why-now; rows landing within +14d):**
+  - names this desk as a non-first owner (co-grader or only informed — the row says which): `D:L471` (10-06), `D:L472` (10-05)
+- **Inbox:** 4 packet(s), oldest 2026-10-02 — a spawn drains the WHOLE inbox
+
+### VULCAN — SPAWN CANDIDATE — Tier 1, WQ-184 L0 due row · slot 6 — beyond the ordinary cap of 4 → Will's slate, unless the C6 terms hold (PROME's judgement) · ⏱ the row carries timing words: check them before waking
+
+- **Desk:** ROSTER class ACTIVE · cadence WEEKLY — within cadence (5d) · lane WQ-184 L0
+- **Why now:**
+  - `D:L250` [DARK] — 2d overdue (was due Mon 10/05); last self-commit 2026-10-02 (5d ago, fbb97d895) < row start 2026-10-05 — nobody has run it.
+- **Pre-check at the owner's artifact:** n/a — no owner self-commit since the row's start date (that is what DARK means)
+- **Bounded assignment** (88 words; quotes are verbatim from the rows, so a multi-desk row quotes every desk's leg):
+  > VULCAN: 1 registered row due. 1) D:L250 (due Mon 10/05): "CME Group + Silicon Data list cash-settled COMPUTE FUTURES on NYMEX (H100 and B200 Rental Index Futures, one month of GPU rental per contract, settled against the Silicon Data indices) — the re-decide date for the fleet's spot/contract GPU-price instrument (DEWEY REQ-001's recommended leading instrument; WATT 9/3: the on-demand tier is SIGN-INVERTING vs the forward/contract tier — H100 1-yr contract" […] read D:L250 whole. Return: your own record updated + one packet to PROME/inbox/ citing each row key.
+  - Inputs (from the rows' source cells): `AGENTS/WATT/outbox/2026-09-02_to-PROME_P1-fired-live-PJM-emergency-WATT-02-HIT-and-the-GPU-instrument-ownership-answer.md`
+- **⏱ Timing words in the row (PROME judges whether a wake now is early or a second wake is owed):** `D:L250`: "…first `GPU_SERIES.tsv` row is the Fri 10/02 post-close reading (DOCKET L564).…"
+- **Would also fit (not why-now; rows landing within +14d):**
+  - names this desk as a non-first owner (co-grader or only informed — the row says which): `D:L548` (10-07), `D:L589` (10-05), `D:L590` (10-05)
+- **Inbox:** 6 packet(s), oldest 2026-10-02 — a spawn drains the WHOLE inbox
+
+### NEXUS — SPAWN CANDIDATE — Tier 1, WQ-184 L0 due row · slot 7 — beyond the ordinary cap of 4 → Will's slate, unless the C6 terms hold (PROME's judgement)
+
+- **Desk:** ROSTER class ACTIVE · cadence ON-DEMAND — no age clock; the due row governs · lane WQ-184 L0
+- **Why now:**
+  - `D:L554` [DARK] — 1d overdue (was due Tue 10/06); last self-commit 2026-10-01 (6d ago, b9203fdff) < row start 2026-10-06 — nobody has run it.
+  - `D:L36` [DARK] — due today (Wed 10/07); last self-commit 2026-10-01 (6d ago, b9203fdff) < row start 2026-10-07 — nobody has run it.
+  - `G:GATE-NEXUS-SEAT-01` [ACTIVE] — due today (Wed 10/07); nothing from the owner cites this row — a receipt gap, an answer that never named the row, or an owner dark this cycle.
+  - `D:L553` [LANDS-IN-2d] — lands in 2d (Fri 10/09); not yet due — owner last self-commit 2026-10-01 (6d ago, b9203fdff).
+- **Pre-check at the owner's artifact (a pointer to what to read, not a verdict):**
+  - `G:GATE-NEXUS-SEAT-01` → **NO CITING RETURN**
+    - 11 owner self-commit(s) since 2026-10-01, none cites G:GATE-NEXUS-SEAT-01
+    - other packets from NEXUS since 2026-10-01 that do NOT cite the row (the answer may be in one): `2026-10-01 review-receipt-root-count-ruled` · `2026-10-01 charter-fix-ef23c5351-and-L572-redate` · `2026-10-01 resolver-grades-and-wake-dates`
+- **Bounded assignment** (116 words; quotes are verbatim from the rows, so a multi-desk row quotes every desk's leg):
+  > NEXUS: 3 registered rows due — in this order. 1) D:L554 (due Tue 10/06): "NEXUS WEEKLY WAKE (TUESDAY) — WQ-343 RULED APPROVE (Will 2026-09-29 17:16 ET, verbatim "Approve WQ-343"): a dated weekly Tuesday wake for NEXUS" […] read D:L554 whole. 2) D:L36 (due Wed 10/07): "GATE-NEXUS-SEAT-01 grades (Will-registered 8/8, dissent round): 60d count of Will-decisions with a NEXUS-product as PROXIMATE input — >=3 layer pays / 0-1" […] read D:L36 whole. 3) G:GATE-NEXUS-SEAT-01 (due Wed 10/07): "FROZEN SPEC at the dissent post (zero re-tuning): count Will's decisions 2026-08-08→10-07 whose PROXIMATE input was a NEXUS product; ≥3 = the" […] read G:GATE-NEXUS-SEAT-01 whole. Return: your own record updated + one packet to PROME/inbox/ citing each row key.
+  - Inputs (from the rows' source cells): `PROME/WILL_QUEUE.md` · `AGENTS/NEXUS/proposals/2026-09-29_session-debrief-fixes.md` · `PROME/ROSTER.md` · `FORUM/2026-08-07_system-review/08_dissent/02_NEXUS_the-layer-that-cannot-name-its-decision.md`
+- **If the read shows a row is still owed:** re-ping with the row's own words (`D:L553`) and say which leg is missing — no text is prepared, because what is missing is what the read finds.
+- **Would also fit (not why-now; rows landing within +14d):**
+  - `D:L571` due Thu 10/15 (in 8d): NEXUS PRED-48 RESIDUAL RE-CHECK — the CA/NY insured-unemployment cells f
+  - `D:L558` due Fri 10/16 (in 9d): WQ-342 REVISIT — a SUCCESSOR duration-split gate with a CREDIT LEG and i
+  - `G:GATE-NEXUS-T12S-DFII10` due Mon 10/19 (in 12d): review_by [JUDGEMENT] — DFII10 (FRED, first-published) vs anchor L = the 2026-09
+  - names this desk as a non-first owner (co-grader or only informed — the row says which): `D:L304` (10-06)
+- **Inbox:** 4 packet(s), oldest 2026-10-02 — a spawn drains the WHOLE inbox
+
+### OSPREY — SPAWN CANDIDATE — Tier 1, WQ-184 L0 due row · slot 8 — beyond the ordinary cap of 4 → Will's slate, unless the C6 terms hold (PROME's judgement)
+
+- **Desk:** ROSTER class ACTIVE · cadence WEEKLY — REVIEW HINT, past cadence (8d) · lane WQ-184 L0
+- **Why now:**
+  - `D:L309` [DARK] — 1d overdue (was due Tue 10/06); last self-commit 2026-09-29 (8d ago, 69bd5209b) < row start 2026-10-06 — nobody has run it.
+- **Pre-check at the owner's artifact:** n/a — no owner self-commit since the row's start date (that is what DARK means)
+- **Bounded assignment** (35 words; quotes are verbatim from the rows, so a multi-desk row quotes every desk's leg):
+  > OSPREY: 1 registered row due. 1) D:L309 (due Tue 10/06): "OSPREY strike-feed four-week evaluation: owner recall result and DAEDALUS review disposition." Return: your own record updated + one packet to PROME/inbox/ citing each row key.
+  - Inputs (from the rows' source cells): `AGENTS/OSPREY/PLAN_2026-09-08_remediation.md`
+- **Would also fit (not why-now; rows landing within +14d):**
+  - `D:L544` due Thu 10/15 (in 8d): OSPREY WQ-276 SUCCESSOR — Channel 1 (refineries/products) 5→4 DOWNGRADE 
+  - `G:GATE-OSPREY-001` due Sun 10/18 (in 11d): review_by [JUDGEMENT] — CPC Channel-2 UPGRADE tripwire, ANY: (a) CPC SPM buoy ST
+- **Inbox:** 8 packet(s), oldest 2026-10-01 — a spawn drains the WHOLE inbox
+
+### BROCK — SPAWN CANDIDATE — Tier 1, WQ-184 L0 due row · slot 9 — beyond the ordinary cap of 4 → Will's slate, unless the C6 terms hold (PROME's judgement)
+
+- **Desk:** ROSTER class ACTIVE · cadence WEEKLY — within cadence (5d) · lane WQ-184 L0
+- **Why now:**
+  - `D:L480` [DARK] — due today (Wed 10/07); last self-commit 2026-10-02 (5d ago, 3d55c826e) < row start 2026-10-07 — nobody has run it.
+  - `D:L585` [LANDS-IN-1d] — lands in 1d (Thu 10/08); not yet due — owner last self-commit 2026-10-02 (5d ago, 3d55c826e).
+- **Pre-check at the owner's artifact:** n/a — no owner self-commit since the row's start date (that is what DARK means)
+- **Bounded assignment** (88 words; quotes are verbatim from the rows, so a multi-desk row quotes every desk's leg):
+  > BROCK: 1 registered row due. 1) D:L480 (due Wed 10/07): "CRMT ITEM 1.01 BACKSTOP #2 — last day for an agreement dated ≤2026-10-01 to reach Form 8-K (four business days: Fri 10/2 · Mon 10/5 · Tue 10/6 · Wed 10/7). Grade at the FULL submissions feed (every form type). Silence THROUGH 10/7 NARROWS and is still not a grade of 'no extension'. Observed disclosure latency 0d (n=4, bridges 1–4)" […] read D:L480 whole. Return: your own record updated + one packet to PROME/inbox/ citing each row key.
+  - Inputs (from the rows' source cells): `AGENTS/BROCK/workbook/KB.tsv`
+- **If the read shows a row is still owed:** re-ping with the row's own words (`D:L585`) and say which leg is missing — no text is prepared, because what is missing is what the read finds.
+- **Would also fit (not why-now; rows landing within +14d):**
+  - `D:L586` due Thu 10/15 (in 8d): CRMT ITEM 1.01 BACKSTOP #3 — last day for an agreement dated ≤2026-10-08
+  - names this desk as a non-first owner (co-grader or only informed — the row says which): `D:L527` (10-05), `D:L590` (10-05)
+- **Inbox:** 2 packet(s), oldest 2026-10-03 — a spawn drains the WHOLE inbox
+
+### LIQUID — SPAWN CANDIDATE — Tier 1, WQ-184 L0 due row · slot 10 — beyond the ordinary cap of 4 → Will's slate, unless the C6 terms hold (PROME's judgement)
+
+- **Desk:** ROSTER class ACTIVE · cadence WEEKLY — within cadence (3d) · lane WQ-184 L0
+- **Tier check (PROME's judgement):** a row uses trade/position words — a trade or spend consequent stays Tier 3 whatever this slate says.
+- **Why now:**
+  - `D:L568` [DARK] — due today (Wed 10/07); last self-commit 2026-10-04 (3d ago, b325e3e3a) < row start 2026-10-07 — nobody has run it.
+  - `G:GATE-LIQ-076` [LANDS-IN-2d] — lands in 2d (Fri 10/09); not yet due — owner last self-commit 2026-10-04 (3d ago, b325e3e3a).
+- **Pre-check at the owner's artifact:** n/a — no owner self-commit since the row's start date (that is what DARK means)
+- **Bounded assignment** (88 words; quotes are verbatim from the rows, so a multi-desk row quotes every desk's leg):
+  > LIQUID: 1 registered row due. 1) D:L568 (due Wed 10/07): "🟠 **LIQUID DOLLAR SWAP-LINE INSTRUMENT (`AGENTS/LIQUID/scripts/usd_swapline.py`) — WITHHELD FROM USE; FIX PASS + THE LAST READ.** Built 10/1 on Will's "go for the six" to measure European dollar-funding stress (Fed swap-line usage; the euro–dollar basis LEVEL is not reachable free). Read 1 (Opus, independent): 8 ❌. Fix pass 9813865aa. Read 2 (Opus, fresh): all 8 CLOSED, 5 NEW ❌ —" […] read D:L568 whole. Return: your own record updated + one packet to PROME/inbox/ citing each row key.
+  - Inputs (from the rows' source cells): `AGENTS/LIQUID/inbox/processed/2026-10-01_from-PROME_usd-swapline-result-read-2-WITHHELD.md` · `AGENTS/LIQUID/inbox/processed/2026-10-01_from-PROME_usd-swapline-independent-read-8-defects.md` · `AGENTS/LIQUID/analysis/2026-10-01_eurusd-basis-instrument.md` · `PROME/inbox/processed/2026-10-01_from-HANS_touch2-T12-basis-sources-official-yields-preregistration.md`
+- **If the read shows a row is still owed:** re-ping with the row's own words (`G:GATE-LIQ-076`) and say which leg is missing — no text is prepared, because what is missing is what the read finds.
+- **Would also fit (not why-now; rows landing within +14d):**
+  - `G:GATE-LIQ-069` due Thu 10/15 (in 8d): review_by [JUDGEMENT] — AI-HY cohort re-arm, ANY ONE of 5 legs: BB>220-while-CCC
+  - names this desk as a non-first owner (co-grader or only informed — the row says which): `D:L350` (09-19), `D:L495` (10-09), `D:L546` (10-08), `D:L553` (10-09), `D:L589` (10-05), `D:L590` (10-05)
+- **Inbox:** 14 packet(s), oldest 2026-10-03 — a spawn drains the WHOLE inbox
+
+### FALCON — READ FIRST — spawn_list classes the row ACTIVE (an owner commit since its start date); the row is still open
+
+- **Desk:** ROSTER class ACTIVE · cadence WEEKLY — within cadence (3d) · lane WQ-184 L0
+- **Why now:**
+  - `G:GATE-FALCON-001` [ACTIVE] — 1d overdue (was due Tue 10/06); the owner has returned something citing it and the row is still open — read that return; it may answer the row, one leg of it, or only say why it cannot be answered yet.
+- **Pre-check at the owner's artifact (a pointer to what to read, not a verdict):**
+  - `G:GATE-FALCON-001` → **RETURN FOUND**
+    - ⚠ the newest strong return is dated 2026-10-04, BEFORE the due date 2026-10-06 — it may be a plan or the previous cycle
+    - packet `PROME/inbox/processed/2026-10-04_from-FALCON_ukmto-150-26.md` (2026-10-04, carried by `59886f0c1`) cites key G:GATE-FALCON-001 · hint words anywhere in the packet: 'unpublished'
+    - commit `c4f1c68c5` (2026-10-04) cites key G:GATE-FALCON-001: "FALCON: UKMTO 150-26 adjudicated - new hull strike, primary unauthenticated, losses stay 3" · `AGENTS/FALCON/SCRATCH.md`
+    - packet `PROME/inbox/processed/2026-10-02_from-FALCON_l0-drain-ukmto-reconcile-yanbu-grade.md` (2026-10-02, carried by `5040c2204`) cites key G:GATE-FALCON-001 · hint words anywhere in the packet: 'armed'
+    - (+6 more citing return(s) since 2026-09-30)
+    - other packets from FALCON since 2026-09-30 that do NOT cite the row (the answer may be in one): `2026-10-04 khurais-010` · `2026-10-01 l540-production-rung-fal06-rewrite` · `2026-10-01 wq295-r3-watch-verdicts`
+- **If the read shows a row is still owed:** re-ping with the row's own words (`G:GATE-FALCON-001`) and say which leg is missing — no text is prepared, because what is missing is what the read finds.
+- **Inbox:** 12 packet(s), oldest 2026-10-03 — a spawn drains the WHOLE inbox
+
+## Not yet due — lands inside the horizon (slate at closeout; the spawn waits for the first boot on/after the date)
+
+| Desk | Rows | Owner's last self-commit | ROSTER | Inbox |
+|---|---|---|---|---|
+| BRENT | `G:GATE-BRENT-COT-35B` Fri 10/09 | 2026-10-05 (2d ago, 7ba94134b) | class ACTIVE | 0 packets |
+| CORAL | `G:GATE-CORAL-MSI-01` Fri 10/09 | 2026-10-01 (6d ago, fee6267a0) | class ACTIVE | 10 packet(s), oldest 2026-10-01 |
+| WAL | `D:L534` Fri 10/09 | 2026-09-28 (9d ago, df0759802) | class ACTIVE | 3 packet(s), oldest 2026-09-28, 2 aged ≥7d (WQ-206 lane if any is an `action:` handoff |
+| WATT | `D:L595` Fri 10/09 | 2026-09-25 (12d ago, a521269db) | class ACTIVE | 10 packet(s), oldest 2026-09-28, 1 aged ≥7d (WQ-206 lane if any is an `action:` handoff |
+| ZHAO | `D:L482` Fri 10/09 | 2026-09-30 (7d ago, 15af886dd) | class ACTIVE | 3 packet(s), oldest 2026-10-01 |
+| CRUISE | `D:L452` Mon 10/12 | 2026-10-03 (4d ago, d09d5e55c) | class ACTIVE | 3 packet(s), oldest 2026-10-03 |
+| DEWEY | `D:L566` Mon 10/12 | 2026-10-01 (6d ago, 06e9fdaae) | class TIER-2 | 2 packet(s), oldest 2026-10-01 |
+
+## Census rows that name a second desk (spawn_list reads the FIRST owner only)
+
+`D:L41` PROME + DAEDALUS · `D:L210` PROME + DAEDALUS · `D:L250` VULCAN + WATT, DEWEY · `D:L304` PROME + NEXUS · `D:L309` OSPREY + DAEDALUS · `D:L350` PROME + CARL, REGINALD, MARCO, CREED, LIQUID, DAEDALUS · `D:L381` PROME + DAEDALUS · `D:L392` PROME + BRENT · `D:L413` PROME + VIOLET · `D:L423` PROME + DAEDALUS · `D:L429` PROME + HANS · `D:L431` PROME + HANS · `D:L441` PROME + HANS · `D:L442` PROME + HANS · `D:L452` CRUISE + WALTER · `D:L459` PROME + DAEDALUS · `D:L465` PROME + DAEDALUS · `D:L467` PROME + FLG, WALTER · `D:L471` DAEDALUS + HENRY, TERRY · `D:L472` DAEDALUS + HENRY, TERRY · `D:L473` PROME + DAEDALUS · `D:L482` ZHAO + WATT · `D:L495` DAEDALUS + WALTER, LIQUID · `D:L516` REGINALD + CREED, WAL, DEWEY · `D:L526` DAEDALUS + BRENT · `D:L527` REGINALD + BROCK, CATO · `D:L530` DAEDALUS + CREED, HANS · `D:L534` WAL + CREED · `D:L546` PROME + DAEDALUS, LIQUID · `D:L548` DAEDALUS + VULCAN, LABOR · `D:L553` NEXUS + LIQUID · `D:L557` PROME + CATO, DAEDALUS · `D:L566` DEWEY + HANS · `D:L568` LIQUID + HANS · `D:L576` FERT + CARL, HENRY · `D:L589` TERRY + VULCAN, LIQUID, HENRY · `D:L590` TERRY + LIQUID, VULCAN, BROCK · `D:L592` TERRY + HENRY · `D:L597` PROME + CORAL · `D:L604` PROME + DAEDALUS · `D:L610` PROME + WALTER
+
+*A second-named desk may be a co-grader or only informed — the owner cell says which; this list cannot.*
+
+## Mechanical census
+
+```
+spawn_list · as-of 2026-10-07 · horizon +7d · 71 row(s): DARK 19 · ACTIVE 3 · lands-ahead 17 · PROME 30 · WILL 2
+key	due	Δd	owner	class	basis	cadence	catalyst
+⚠️ D:L250	2026-10-05	2	VULCAN	DARK	last self-commit 2026-10-02 (5d ago, fbb97d895) < row start 2026-10-05	WEEKLY — within cadence (5d)	CME Group + Silicon Data list cash-settled COMPUTE FUTURES on NYMEX (H10
+⚠️ D:L288	2026-10-05	2	FERT	DARK	last self-commit 2026-10-02 (5d ago, 959ab471f) < row start 2026-10-05	EVENT-DRIVEN — no age clock; the due row governs	FERT T11 — World Bank Pink Sheet OCTOBER 2026 edition (September data): 
+⚠️ D:L472	2026-10-05	2	DAEDALUS	DARK	last self-commit 2026-10-04 (3d ago, 254c397fc) < row start 2026-10-05	WEEKLY — within cadence (3d)	WQ-252 SITTING PREP — DAEDALUS options memo for the 10/06 crack contract
+⚠️ D:L490	2026-10-05	2	DAEDALUS	DARK	last self-commit 2026-10-04 (3d ago, 254c397fc) < row start 2026-10-05	WEEKLY — within cadence (3d)	DAEDALUS OWED SET carried from the 9/25 L290 spawn (DAEDALUS cadence WEE
+⚠️ D:L527	2026-10-05	2	REGINALD	DARK	last self-commit 2026-09-29 (8d ago, c2888c22e) < row start 2026-10-05	WEEKLY — REVIEW HINT, past cadence (8d)	REGINALD WAKE — WQ-318 FUNDING-vs-NONBANK-EXPOSURE BASELINE (Will APPROV
+⚠️ D:L589	2026-10-05	2	TERRY	DARK	last self-commit 2026-10-02 (5d ago, 27d538bba) < row start 2026-10-05	WEEKLY — within cadence (5d)	QQQ DATED DOWNSIDE CARD — COMMISSIONED by Will 2026-10-02 10:34 ET (verb
+⚠️ D:L590	2026-10-05	2	TERRY	DARK	last self-commit 2026-10-02 (5d ago, 27d538bba) < row start 2026-10-05	WEEKLY — within cadence (5d)	EXPRESSION COMPARISON for Will's AI-debt thesis — COMMISSIONED by Will 2
+⚠️ D:L592	2026-10-05	2	TERRY	DARK	last self-commit 2026-10-02 (5d ago, 27d538bba) < row start 2026-10-05	WEEKLY — within cadence (5d)	QQQ Oct-05 735P ×5 EXPIRY — Will's hard stop $735 / sell by 15:00 ET (WQ
+⚠️ D:L594	2026-10-05	2	DAEDALUS	DARK	last self-commit 2026-10-04 (3d ago, 254c397fc) < row start 2026-10-05	WEEKLY — within cadence (3d)	WQ-372 BUILD — fold Fleet-Ops' two unique panels (agent-freshness table 
+⚠️ D:L612	2026-10-05	2	HENRY	DARK	last self-commit 2026-10-04 (3d ago, a6d92e537) < row start 2026-10-05	WEEKLY — within cadence (3d)	ISM Services September 10:00 ET — owner review/adoption or decline of SO
+⚠️ D:L309	2026-10-06	1	OSPREY	DARK	last self-commit 2026-09-29 (8d ago, 69bd5209b) < row start 2026-10-06	WEEKLY — REVIEW HINT, past cadence (8d)	OSPREY strike-feed four-week evaluation: owner recall result and DAEDALU
+⚠️ D:L554	2026-10-06	1	NEXUS	DARK	last self-commit 2026-10-01 (6d ago, b9203fdff) < row start 2026-10-06	ON-DEMAND — no age clock; the due row governs	NEXUS WEEKLY WAKE (TUESDAY) — WQ-343 RULED APPROVE (Will 2026-09-29 17:1
+⚠️ D:L36	2026-10-07	0	NEXUS	DARK	last self-commit 2026-10-01 (6d ago, b9203fdff) < row start 2026-10-07	ON-DEMAND — no age clock; the due row governs	GATE-NEXUS-SEAT-01 grades (Will-registered 8/8, dissent round): 60d coun
+⚠️ D:L480	2026-10-07	0	BROCK	DARK	last self-commit 2026-10-02 (5d ago, 3d55c826e) < row start 2026-10-07	WEEKLY — within cadence (5d)	CRMT ITEM 1.01 BACKSTOP #2 — last day for an agreement dated ≤2026-10-01
+⚠️ D:L530	2026-10-07	0	DAEDALUS	DARK	last self-commit 2026-10-04 (3d ago, 254c397fc) < row start 2026-10-07	WEEKLY — within cadence (3d)	🟠 **`read_cap_check.py` PERIMETER GAP — a boot-read-WHOLE surface at 84%
+⚠️ D:L538	2026-10-07	0	DAEDALUS	DARK	last self-commit 2026-10-04 (3d ago, 254c397fc) < row start 2026-10-07	WEEKLY — within cadence (3d)	🟡 **`scripts/read_cap_check.py` has no EXTERNAL-repo exemption — a scope
+⚠️ D:L548	2026-10-07	0	DAEDALUS	DARK	last self-commit 2026-10-04 (3d ago, 254c397fc) < row start 2026-10-07	WEEKLY — within cadence (3d)	🟠 **`prome_gate.check_desk_catalyst_summons` HIDES THE ROWS IT EXISTS TO
+⚠️ D:L568	2026-10-07	0	LIQUID	DARK	last self-commit 2026-10-04 (3d ago, b325e3e3a) < row start 2026-10-07	WEEKLY — within cadence (3d)	🟠 **LIQUID DOLLAR SWAP-LINE INSTRUMENT (`AGENTS/LIQUID/scripts/usd_swapl
+⚠️ D:L576	2026-10-07	0	FERT	DARK	last self-commit 2026-10-02 (5d ago, 959ab471f) < row start 2026-10-07	EVENT-DRIVEN — no age clock; the due row governs	FERT WAKE — INDIA's IPL UREA TENDER (1.0 Mt West Coast + 0.7 Mt East Coa
+G:GATE-FALCON-001	2026-10-06	1	FALCON	ACTIVE	last self-commit 2026-10-04 (3d ago, f8e5261b7) ≥ row start 2026-07-21	WEEKLY — within cadence (3d)	review_by [JUDGEMENT] — Bab el-Mandeb EXECUTION tripwire, ANY of 3: (1) UKMTO/Am
+G:GATE-FERT-G5	2026-10-07	0	FERT	ACTIVE	last self-commit 2026-10-02 (5d ago, 959ab471f) ≥ row start 2026-08-17	EVENT-DRIVEN — no age clock; the due row governs	review_by [JUDGEMENT] — DTN retail DAP OR MAP > $1,000/ton (instrument = DTN Pro
+G:GATE-NEXUS-SEAT-01	2026-10-07	0	NEXUS	ACTIVE	last self-commit 2026-10-01 (6d ago, b9203fdff) ≥ row start 2026-08-08	ON-DEMAND — no age clock; the due row governs	review_by [JUDGEMENT] — FROZEN SPEC at the dissent post (zero re-tuning): count 
+D:L381	2026-09-17	20	PROME	PROME-OWNED	do it, never spawn	n/a	🔴 **CODEX ORCHESTRATION REVIEW — RECONCILE THE INSTRUCTIONS, DO NOT ADD 
+D:L350	2026-09-19	18	PROME	PROME-OWNED	do it, never spawn	n/a	🟠 **FIVE DESKS HAVE A BOOT READ OVER BUDGET — the first fleet-wide measu
+D:L368	2026-09-19	18	PROME	PROME-OWNED	do it, never spawn	n/a	🔴 **`spawn_list.py` SUPPRESSED ALL THREE DOCKET ROWS DUE TODAY — third i
+D:L378	2026-09-19	18	PROME	PROME-OWNED	do it, never spawn	n/a	MECHANIZE THE SPAWN-CLOSEOUT ASK (WQ-249, Will-ruled 2026-09-14 15:36 ET
+D:L392	2026-09-19	18	PROME	PROME-OWNED	do it, never spawn	n/a	CALIBRATE contract_probe STALE_S — the 900-second constant is uncalibrat
+D:L402	2026-09-19	18	PROME	PROME-OWNED	do it, never spawn	n/a	🔴 **THE ARGUS `OWNED` LANE SAYS "PROME's OWN OUTPUT" BUT CLASSIFIES BY P
+D:L413	2026-09-19	18	PROME	PROME-OWNED	do it, never spawn	n/a	🟠 **A DESK ALERT PRINTS A ROUTE PROME NEVER CAUSED — VIOLET's `cheap_tai
+D:L431	2026-09-25	12	PROME	PROME-OWNED	do it, never spawn	n/a	🟠 **A METRIC-NAME SPLIT IN `PUBLISHED.tsv` ORPHANS THE NEW VALUE *AND* L
+D:L442	2026-09-25	12	PROME	PROME-OWNED	do it, never spawn	n/a	🟠 **TWO CODE PATHS THAT AGREE IN EVERY NORMAL RUN AND DIVERGE EXACTLY AT
+D:L458	2026-09-25	12	PROME	PROME-OWNED	do it, never spawn	n/a	🟠 **CLOSEOUT STEP 12 STRANDS A FILE AND THE SWITCHING CHECKLIST SAYS NOT
+D:L473	2026-09-25	12	PROME	PROME-OWNED	do it, never spawn	n/a	WQ-289 (b) ENCODE — the narrow L367 form in `PROME/tools/argus_scope.py`
+D:L444	2026-09-28	9	PROME	PROME-OWNED	do it, never spawn	n/a	🟠 **CLASSIFY `PROME/state/ORCH_LOG.tsv` SPAWNS AS CAP-BEARING vs CAP-EXE
+D:L450	2026-09-28	9	PROME	PROME-OWNED	do it, never spawn	n/a	🔴 **THE BURIED-STATE-TOKEN GUARD PASSES A DEFECT OF EXACTLY THE CLASS IT
+D:L465	2026-09-28	9	PROME	PROME-OWNED	do it, never spawn	n/a	WQ-256 (a) SL-5 CANON AMENDMENT — draft the EXACT clause: a quantifier w
+D:L429	2026-09-30	7	PROME	PROME-OWNED	do it, never spawn	n/a	🔴 **L409 SCOPE WIDENED — THE CONTINUATION-TICKER DEFECT IS NOT ONLY DAY-
+D:L441	2026-09-30	7	PROME	PROME-OWNED	do it, never spawn	n/a	🔴 **FLEET SWEEP — WHICH DERIVED METRICS ARE GRADED AGAINST A HARDCODED B
+D:L210	2026-10-05	2	PROME	PROME-OWNED	do it, never spawn	n/a	FORUM-6 WITHDRAWAL CHECKPOINT (binding on the verdict): grade legs a/b/d
+D:L557	2026-10-05	2	PROME	PROME-OWNED	do it, never spawn	n/a	L462 RESIDUAL REPAIRS EB1–EB3 (from CATO's Will-authorized independent r
+D:L604	2026-10-05	2	PROME	PROME-OWNED	do it, never spawn	n/a	SPAWN SLATE B1/B2 — DAEDALUS's standards-slate reader findings (10/3): B
+D:L304	2026-10-06	1	PROME	PROME-OWNED	do it, never spawn	n/a	S1 RE-OPEN CHECK (WQ-191 lapse rider, NEXUS's pre-registered condition, 
+D:L41	2026-10-06	1	PROME	PROME-OWNED	do it, never spawn	n/a	Delegation-tier falsifier grades: ONE Will-reversal of any self-ruling w
+D:L423	2026-10-07	0	PROME	PROME-OWNED	do it, never spawn	n/a	FOURTH INDEPENDENT READ of the WILL_QUEUE-table parser repair chain (813
+D:L459	2026-10-07	0	PROME	PROME-OWNED	do it, never spawn	n/a	🟠 **L446 RESIDUE — `spawn_list.py` cadence-reader defects the independen
+D:L467	2026-10-07	0	PROME	PROME-OWNED	do it, never spawn	n/a	FLG RENT-FREEZE INTAKE TERM — RETIRE OR DROP TO ROUTINE: the `flg-rent-f
+D:L546	2026-10-08	-1	PROME	PROME-OWNED	do it, never spawn	n/a	🟠 **FLOAT-TIE CLASS IN `FORGE/tools/market-data/config.py::classify` — a
+D:L591	2026-10-09	-2	PROME	PROME-OWNED	do it, never spawn	n/a	ARGUS AUDIT-PERIMETER ROW FOR `USER.md` — OWED since 2026-09-30 (prome-2
+D:L601	2026-10-09	-2	PROME	PROME-OWNED	do it, never spawn	n/a	PROME tool suite: `tests/test_heartbeat_projection.py::test_missing_comp
+D:L602	2026-10-09	-2	PROME	PROME-OWNED	do it, never spawn	n/a	Helm size split — declared residue from the 10/3 independent read (`PROM
+D:L607	2026-10-09	-2	PROME	PROME-OWNED	do it, never spawn	n/a	WQ-367 ENCODE — the five closeout-process changes RULED APPROVE (Will 10
+D:L610	2026-10-09	-2	PROME	PROME-OWNED	do it, never spawn	n/a	RESEARCH-INTAKE edgar_8k ENTITY-CLASS MIS-TAG — a megacap filed as `enti
+D:L471	2026-10-06	1	WILL	WILL-OWNED	WILL_QUEUE / re-present, never spawn	n/a	WQ-252 SITTING — CRACK CONTRACT-MONTH LETTER DESIGN (HEN-F1 / GATE-TERRY
+D:L585	2026-10-08	-1	BROCK	LANDS-IN-1d	owner last self-commit 2026-10-02 (5d ago, 3d55c826e)	WEEKLY — within cadence (5d)	CRMT BRIDGE-5 STD — the fifth bridge's Scheduled Termination Date (8-K 0
+D:L482	2026-10-09	-2	ZHAO	LANDS-IN-2d	owner last self-commit 2026-09-30 (7d ago, 15af886dd)	WEEKLY — within cadence (7d)	BESSENT '2027-01-10' EXTENSION — INSTRUMENT RE-CHECK: has ANY official d
+D:L495	2026-10-09	-2	DAEDALUS	LANDS-IN-2d	owner last self-commit 2026-10-04 (3d ago, 254c397fc)	WEEKLY — within cadence (3d)	RECEIVER-SIDE CANARY for every routing path (Will 9/25 14:08 ET "proceed
+D:L496	2026-10-09	-2	DAEDALUS	LANDS-IN-2d	owner last self-commit 2026-10-04 (3d ago, 254c397fc)	WEEKLY — within cadence (3d)	UNATTENDED-INSTRUMENT REGISTER (Will 9/25 "proceed in order", system ite
+D:L499	2026-10-09	-2	DAEDALUS	LANDS-IN-2d	owner last self-commit 2026-10-04 (3d ago, 254c397fc)	WEEKLY — within cadence (3d)	CANON ENCODE of the WQ-298 STANDING RULE (Will 9/25): "a desk that finds
+D:L516	2026-10-09	-2	REGINALD	LANDS-IN-2d	owner last self-commit 2026-09-29 (8d ago, c2888c22e)	WEEKLY — REVIEW HINT, past cadence (8d)	FDIC POSTS THE NANO BANC PURCHASE-AND-ASSUMPTION AGREEMENT (Sunwest Bank
+D:L534	2026-10-09	-2	WAL	LANDS-IN-2d	owner last self-commit 2026-09-28 (9d ago, df0759802)	EVENT-DRIVEN — no age clock; the due row governs	WQ-328 WAL HOTEL EXPOSURE READ (Will APPROVE 17:43 ET 9/28): ONE bounded
+D:L553	2026-10-09	-2	NEXUS	LANDS-IN-2d	owner last self-commit 2026-10-01 (6d ago, b9203fdff)	ON-DEMAND — no age clock; the due row governs	NEXUS PRED-50 / L14 FIRST GRADE — the WQ-340 CANDIDATE-second-cause clai
+D:L593	2026-10-09	-2	DAEDALUS	LANDS-IN-2d	owner last self-commit 2026-10-04 (3d ago, 254c397fc)	WEEKLY — within cadence (3d)	🟡 `scripts/firetime_check.py` reads a multi-path `artifacts_citing` cell
+D:L595	2026-10-09	-2	WATT	LANDS-IN-2d	owner last self-commit 2026-09-25 (12d ago, a521269db)	WEEKLY — REVIEW HINT, past cadence (12d)	WATT WAKE — WATT-12 coverage duty ('boots ≤14 days apart'; last WATT ses
+D:L597	2026-10-09	-2	WILL	WILL-OWNED	WILL_QUEUE / re-present, never spawn	n/a	DBPR GovQA PORTAL CHECK — status of CORAL's Step-1 records request (requ
+D:L605	2026-10-09	-2	TERRY	LANDS-IN-2d	owner last self-commit 2026-10-02 (5d ago, 27d538bba)	WEEKLY — within cadence (5d)	USO Oct-09 $150 CALL (×1) — TERRY's Fri 10/09 15:00 ET STOP STANDS after
+G:GATE-BRENT-COT-35B	2026-10-09	-2	BRENT	LANDS-IN-2d	owner last self-commit 2026-10-05 (2d ago, 7ba94134b)	WEEKLY — within cadence (2d)	review_by [INSTRUMENT] — Fuel-spent band 35b (ruled 8/12): crude MM gross shorts 
+G:GATE-CORAL-MSI-01	2026-10-09	-2	CORAL	LANDS-IN-2d	owner last self-commit 2026-10-01 (6d ago, fee6267a0)	WEEKLY — within cadence (6d)	review_by [JUDGEMENT] — AMENDED LETTER 2026-09-28 (Will, WQ-241 RULED 15:17 ET w
+G:GATE-LIQ-076	2026-10-09	-2	LIQUID	LANDS-IN-2d	owner last self-commit 2026-10-04 (3d ago, b325e3e3a)	WEEKLY — within cadence (3d)	review_by [JUDGEMENT] — Dealer-positioning nexus, 2-of-3 within 2wk: (a) SOFR-3M
+D:L452	2026-10-12	-5	CRUISE	LANDS-IN-5d	owner last self-commit 2026-10-03 (4d ago, d09d5e55c)	EVENT-DRIVEN — no age clock; the due row governs	🟠 **CRUISE PRE-COMMITTED A FALSIFIER ON ITS OWN LANE AND IT HAD NO CARRI
+D:L526	2026-10-12	-5	DAEDALUS	LANDS-IN-5d	owner last self-commit 2026-10-04 (3d ago, 254c397fc)	WEEKLY — within cadence (3d)	🟡 **BRENT AUTONOMOUS-ROUTINE FALSE-FORK — FIFTH RECURRENCE (9/11 · 9/18 
+D:L566	2026-10-12	-5	DEWEY	LANDS-IN-5d	owner last self-commit 2026-10-01 (6d ago, 06e9fdaae)	ON-DEMAND — no age clock; the due row governs	DEWEY WAKE — re-run DR-4 (the European gas-storage model) for HANS's HNS
+```
+
+## Terms
+
+- **[DARK] / [ACTIVE]** (row class, from `spawn_list`): has the owner made a commit of its own on or after the row's start date (a window's first day; else the due date; for a gate, its registration date)? No = DARK, yes = ACTIVE. Not the same word as **ROSTER class ACTIVE**, which is the desk's standing in `PROME/ROSTER.md`.
+- **RETURN FOUND**: the owner committed something that cites the row. It is a pointer to what to read, NOT a finding that the row is answered — an independent read on 10/02 found 2 of 4 such rows unanswered. **Strong** = names the row key, or carries a row identifier in a commit subject / packet filename; **body mention** = an identifier only inside the text. **hint words** are keyword matches near the citation; they decide nothing.
+- **Cap**: 4 due-row spawns per PROME boot (one boot = one PROME session start; `PROME/CLAUDE.md` spawn block). C6 raises it to 8 only when every desk woken that boot is woken on a due catalyst/review row. Whether a re-ping counts is unruled (DOCKET L444). A slot number here is slate ORDER, not proof a slot is free.
+- **Re-ping**: a SendMessage to a live desk session; if the desk has no session it is a packet to its inbox or a spawn — PROME's call.
+- **Lane WQ-184 L0**: a registered dated row with a dark owner. The aged-ACTION (WQ-206) and aged-waits (WQ-221) lanes are not computed here.
+- **Inherited limits**: desk attribution and first-owner parsing are `spawn_list`'s (open residue: DOCKET L455, L459).

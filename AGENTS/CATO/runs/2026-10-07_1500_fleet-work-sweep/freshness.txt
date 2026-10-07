@@ -1,0 +1,46 @@
+agent       own-age  inbox  →PROME  dirty   flags
+ATHENA      206.9d      0       0      0   STALE>7d
+_archive    102.2d      0       0      0   STALE>7d
+RAV          63.2d      6       0      0   STALE>7d
+SENTRY       13.3d      0       0      0   STALE>7d
+MARCO        12.8d     10       0      0   STALE>7d
+WATT         12.1d     10       0      0   STALE>7d
+ORACLE        9.2d      4       0      0   STALE>7d
+HAWK          8.9d     48       0      0   STALE>7d
+WAL           8.9d      4       0      0   STALE>7d
+AEOLUS        8.7d      9       0      0   STALE>7d
+VIOLET        8.6d     10       0      0   STALE>7d
+OSPREY        8.2d      8       0      0   STALE>7d
+REGINALD      7.8d     27       0      0   STALE>7d
+ZHAO          6.9d      3       0      0   
+FLG           6.2d      3       0      0   
+DEWEY         6.1d      3       0      0   
+SAM           6.1d     14       0      0   
+SHADE         6.1d      7       0      0   
+CREED         6.0d      3       0      0   
+CORAL         6.0d     11       0      0   
+RED           5.8d      3       0      0   
+NEXUS         5.8d      4       0      0   
+OZK           5.2d      1       0      0   
+FERT          5.2d      2       0      0   
+LABOR         5.2d      0       0      0   
+CARL          5.2d      1       0      0   
+YURI          5.1d      4       0      0   
+HOMER         5.0d     11       0      0   
+HANS          5.0d     17       0      0   
+MIDAS         5.0d      2       0      0   
+TERRY         5.0d      7       0      0   
+VULCAN        4.9d      6       0      0   
+BROCK         4.9d      2       0      0   
+BARON         4.9d      1       0      0   
+YEYOU         4.8d      5       0      0   
+CRUISE        4.1d      3       0      0   
+LIQUID        2.9d     14       0      0   
+OTTO          2.9d      2       0      0   
+FALCON        2.9d     12       0      0   
+DAEDALUS      2.8d      5       0      0   
+HENRY         2.7d      2       0      0   
+WALTER        2.2d      6       1      0   DRAIN-FIRST
+BRENT         2.2d      0       0      0   
+BOND          2.2d      1       1      0   DRAIN-FIRST
+CATO          0.1d      0       0      0   
