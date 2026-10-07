@@ -36,5 +36,5 @@
   "recovery_coordinator": "01a1182c-1dad-75f2-8929-93d093e7478e",
   "subsequent_eia_recovery": "API/XLS all required metrics week2026-10-02; gasoline raw-sum -0.292563767539622%; boot rc2 preserved",
   "corrections_check": "October7 rc0, zero unreceipted NAMED",
-  "board_delta": "all7BRENT-routedOct5\u20137signals whole-body read; latest003/004sameEIAlineage"
+  "board_delta": "all9BRENT-routedOct5\u20137signals through014/015 whole-body read; latest named statement unit/capacity caveats retained"
 }

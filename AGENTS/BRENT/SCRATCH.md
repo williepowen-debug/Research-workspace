@@ -6,6 +6,7 @@
 - October6 STEO and October7 WPSR now integrated; forecast cutoff and opposing crude/product evidence at [REPORT](research/2026-10-07_news-catchup/REPORT.md).
 - Deferred October5 freight interpretation completed on dated Baltic/Gibson sources; no measured freight-to-WTI beta. WALTER remains collector, BRENT interpreter.
 - Will-confirmed October7 holdings replace the stale current-quantity question. WQ-386 held-VLO-only month extension applied; scale2 remains terminal STOOD DOWN. USO early-sale DECLINE preserved.
+- Late WALTER014 named-minister recovery integrated with flow/capacity/unit caveats; WALTER015 Rabigh/Jeddah fire claim unconfirmed, FALCON verifies.
 - October5 diesel-tax and Texas fuel-quality relief added with scope limits; G7 product/supply perimeter discrepancy retained, no additive barrel total.
 
 ## WHAT I DID THIS SESSION
@@ -36,7 +37,7 @@
 
 ## MAIL STATE
 - October5 WALTER005/006: source integration completed; prior deferred receipts retained as history, acted receipts added for this report. Files already processed; no repeat move.
-- October7 WALTER003/004: fully read/integrated, same EIA lineage as owner evidence. Sender-authored files currently untracked; WALTER asked to commit them before recipient git-mv archive. Two acted board_log receipts recorded; archival PENDING, not claimed complete. No other live mail at recovery scan; final sweep before delivery.
+- October7 WALTER003/004/014/015: fully read/integrated, 003/004 same EIA lineage; 014 named recovery remains record-only, 015 unconfirmed. Sender-authored files currently untracked; WALTER asked to commit them before recipient git-mv archive. Three acted plus one noted board_log receipts recorded; archival PENDING, not claimed complete. No other live mail at recovery scan; final sweep before delivery.
 - Outbox: no new outgoing signal packet; steady-state findings in NEXUS. One create-only completion packet to PROME per task, publication/consumption separately receipted.
 
 ## WORKBOOK HEALTH / CAPABILITIES
