@@ -1,2 +1,3 @@
 reviewed_utc	authority	result	next_freight_review	scope_limits
 2026-10-05T14:21:52Z	Will emphasis on tracking; both USO shares/calls	ACTIVE_MANUAL; seed primary freight plus existing owner market evidence	2026-10-09	no unattended task; holdings rows unavailable; exports not extracted; no new gate
+2026-10-07T15:00:46Z	WALTER boot due-date check (PROME wave 10/7)	NO NEW COLLECTION: freight due 2026-10-09 (not yet); Cushing/EIA weekly 10/7 10:30 ET is BRENT owner capture (EIA unavailable in this cloud container); Gulf-export recovery (Kpler 18.3 mb/d) and continuing Hormuz hits routed in SIG-W-20261007-007; USO $145.14 ~10:46 ET intraday and Isaias Gulf track in -002	2026-10-09	no freight pull this session; holdings rows still unavailable; no new gate

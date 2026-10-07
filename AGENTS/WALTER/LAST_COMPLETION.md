@@ -1,5 +1,7 @@
 # WALTER — LAST COMPLETION
 
+> **Tier-1 LIGHT addendum, 2026-10-07 (PROME-spawned Claude Code cloud session, Will-directed news-catch-up wave):** 17 dispatches SIG-W-20261007-001…017, 78 handoffs, 14 kills, 2 inbox packets consumed (PROME catch-up; BOND Paramount correction). The new owed items lead the FOLLOW-UP section (2026-10-07 block a–h); WILL_NEEDS is refreshed. Everything below this box is the 10/5 Tier-2 record. It is retained because a full rewrite is deferred, so its dated items are history unless the 10/7 block re-carries them.
+
 Session: **2026-10-05 Codex, Will-directed Tier-2 closeout: boot, shipping intake, tanker costs and USO watch**. Receipt 2026-10-05T14:38:02Z. Prior completion preserved verbatim in `research/2026-10-05_boot/prior-LAST_COMPLETION.md`.
 
 ## STATUS
@@ -27,9 +29,19 @@ Audit refresh: HY310bp [Oct2] resets RED-FT-02/REG-T-03 >320 watch to0/3; prior3
 - **Publication:** shipping signals and ten handoffs committed in d338b81a2; BRENT subsequently read and filed its three in 701cd4e2f. Its ledger records -001 noted, -002 acted, -004 noted at09:56:07EDT, no threshold change. All thirteen await publication; consumption evidence covers BRENT only. No push under concurrent BOND/PROME work. Watch commit df0d21244 is local; BRENT now logs005/006 DEFERRED at10:33:21EDT and filed them under processed; source integration remains owed. Packet commits do not prove consumption. Boot commit b98a2223b remains separately tracked in the receipt.
 
 ## WILL_NEEDS
-Existing execution rail only: **QQQ735P Oct5 x5, if still held, sell-or-roll by15:00ET** per TERRY's approved-management workflow/card. Quantity and live bid must be reconciled at broker; Oct1 mirror is not position truth. This boot places no order and requests no new trade approval. Will-directed manual tanker-cost watch is authorised; no new trade proposal.
+*(Tier-1 edit 2026-10-07)* No new Will decision from WALTER. The 10/5 QQQ735P sell-or-roll rail is PAST (expiry 10/5). WALTER holds no evidence of its outcome; that is the broker's and TERRY's record. Position-adjacent clocks routed on 10/7 (TERRY's lines, no trade proposed): USO $150C stop Fri 10/9 15:00 ET (-002), HBAN $16P Oct-16 deeper ITM (-001), APO put vs Apollo prelim Q3 (-010), the WQ-365 QQQ card kill leg HY ≤312 touched on FRED 10/5 (-010). The Will-directed manual tanker-cost watch stays authorised.
 
 ## FOLLOW-UP
+**🆕 2026-10-07 (PROME-spawned cloud session; Tier-1 LIGHT; full LAST_COMPLETION rewrite deferred):**
+- a. **Publication:** commits dff426e2f + ffcdf5706 + the closeout commit are LOCAL on branch `claude/quirky-tesla-gn53yd`; PROME pushes. 78 handoffs read `written_not_delivered_pending_push`; run `reconcile_delivery_log.py --apply` after the push lands on origin/master. That step was not run here.
+- b. **Doorbells (pointer in `PROME/inbox/2026-10-07_from-WALTER_news-routing.md`):** CORAL (Isaias landfall + MSI-01 10/09) and BOND (T-13 close today; 10Y/30Y reopenings 10/7–10/8). WALTER never spawns.
+- c. **Stale IN-FLIGHT rows:** ORCH_INFLIGHT still lists HENRY, TERRY and VULCAN as 10/5 Codex windows "approval-blocked, no closeout". Will attests nobody is writing, so they are likely stale. PROME should close or refresh them, which un-gates P0 for HENRY and VULCAN.
+- d. **HANS UK Budget date:** HANS carries 11/26; a 10/7 search summary says "28 October" (UNVERIFIED). HANS settles it at primary (-003).
+- e. **Iran FULL SWEEP owed ~10/08** (last 10/01). -007 carries anchor_unverified_as_of 2026-10-04; IRAN_WAR_GUARDS was read scoped, not whole.
+- f. **6c gaps this session:** FRED T+1 (HY/CCC/IG through 10/5); no 10/6 HY print. HANS TTF/storage/Bund/EURUSD not re-pulled. RED FT-08/FT-10/FT-11 manual rows not graded. CREED periodic rows not graded beyond Trepp's secondary. Cushing/EIA unavailable.
+- g. **Deferred lower-priority items:** none dropped. Every packet row and intake item is dispositioned in BM-20261007-01/02/03. Not routed as separate signals (folded or noted in the memo): the CR funding status through 12/11, unchanged Canada counter-tariffs, no tariff court ruling, and the absence of new Russian mobilisation.
+- h. **Tanker watch:** due-date check logged in REVIEWS.tsv 10/7; freight due 10/9; Cushing/EIA 10/7 is BRENT's capture.
+
 0b. Active manual tanker watch: read research/tanker-cost-watch/WATCH.md + STATE.csv next boot; weekly freight dueOct9, EIA owner updateOct7; route new relevant evidence. BRENT005/006 source integration remains owed; its board_log acknowledges both as DEFERRED priority work. BRENT committed both handoffs in b70013c08; now logged DEFERRED and filed, without source integration. Current USO month weights and broker holding details unverified.
 0a. Tanker-cost packet005: owner triage confirmed, source review still owed; 005 source-suitability stage is superseded in authority by Will-directed006 manual tracking emphasis; no automatically installed feed.
 0. Shipping: BRENT handoff duty discharged by its own 701cd4e2f and ledger. Will-coordinated publication and delivery reconciliation remain. HAWK/YURI readiness remains UNKNOWN across runtimes, not DARK. No automatic wake.

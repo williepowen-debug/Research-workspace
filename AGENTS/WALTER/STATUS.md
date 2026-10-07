@@ -1,23 +1,24 @@
 # WALTER STATUS
 
-**Updated 2026-10-05T14:30:10Z — Will-directed Tier-2 closeout.** BOARD1222; today six dispatches, zero kill-log additions, zero verification spawns, one cluster-mediating signal (below five). Boot remains PARTIAL; [LAST_COMPLETION.md](LAST_COMPLETION.md) owns coverage, publication and next-owner duties. No approval, threshold or owner grade changed.
+**Updated 2026-10-07T15:01:16Z — PROME-spawned cloud session (Will-directed news-catch-up wave), Tier-1 LIGHT closeout.** BOARD1239; today 17 dispatches (SIG-W-20261007-001…017), 14 kill-log additions, zero verification spawns (no Agent tool in this container), one cluster-mediating signal (-007; below five). Boot PARTIAL; [LAST_COMPLETION.md](LAST_COMPLETION.md) owns coverage and next-owner duties (Tier-1 edit; full rewrite deferred). No approval, threshold or owner grade changed.
 
 ## BOTTOM LINE
 
-Shipping intake and tanker-cost research are saved. Will's manual tanker-cost watch is active for USO shares and calls: track freight/insurance separately from transmission to WTI. BRENT retains domain judgment. Existing position-management rails remain unchanged; the broker mirror is not current position truth. Manual threshold/filter coverage and read-basis attestation remain incomplete, so this closeout is not a full-board all-clear.
+The two-day news gap is closed on the BOARD. The 10/7 regional-bank selloff (FLG below REGINALD's RED $11.39 line intraday; the close decides), Isaias (Florida Panhandle landfall forecast Sat 10/10) and the UK 30Y gilt at 6.026% intraday (HANS-T-13 decides on the close) went out first as IMMEDIATE, followed by 14 PRIORITY/ROUTINE items. Owners grade every line; nothing here is a fire. CORAL and BOND were doorbelled to PROME. The broker mirror is not position truth. Threshold coverage is partial (FRED T+1, manual/compound rows not graded), so this is not a full-board all-clear.
 
-## DATED MARKET OBSERVATIONS — audited refresh 2026-10-05 10:34ET; retained older legs labelled
+## DATED MARKET OBSERVATIONS — refreshed 2026-10-07 ~10:45–10:51 ET (cloud session; FRED via cache-busted CSV, no API key; EIA unavailable)
 
 | Row | Observation and limit |
 |---|---|
-| HY / RED-FT-02 / REG-T-03 | 310bp [FRED Oct2], down14 from324 [Oct1]. >320 three-observation watch RESET0/3. No new fire. |
-| CCC / RED-FT-07 | 1202bp [FRED Oct2], existing banked state; exit <930 for3 not met. |
-| VIX / SKEW / T5YIFR | VIX15.63 [Oct5 ~10:34ET intraday]; VIXCLS15.31 [Oct2], FT06 remains banked; exit>=18 for5 not met. CBOE SKEW144.88 [Oct2], below150; T5YIFR2.35 [Oct2]. Intraday quotes do not satisfy close-based sustain counts. |
-| Banks / FX | KRE70.65, WAL76.24, USDJPY158.12 [Oct5 ~10:34ET intraday]. WAL fired-state exit not met. |
-| Energy / funding — retained boot evidence | BZZ26 Dec Brent102.41 [Oct5 intraday]; Cushing24.301M [week Sept25]; claims197K [week Sept26]; SOFR3.88, SOFR-IORB -2bp [Oct2]. |
-| HANS — retained boot evidence | Nov TTF74.01 [Oct5 indicative]; storage72.40% [gas dayOct3], mean gap-15.25pp; ongoing state. ECB AAA10Y3.464 [Oct2] and BoE par10Y5.3665 [Oct1] are proxies, not benchmark close grades. Registry17rows; EURUSD3M basis unfed. Remaining manual/compound grades not cleared. |
-| CREED | Registries/fire log read; T08a owner fire9/26 preserved. No new September Trepp primary validated in this boot; periodic/event coverage incomplete. |
-| Iran | FALCON Oct4 adjudications: fresh heat at25.252N48.103E, facility/cause unknown; production rung NOT FIRED, losses3. UKMTO150-26 source authentication unresolved. Full anchor sweep lastOct1; later owner correction014 governs fresh-heat interpretation. |
+| HY / RED-FT-02 / REG-T-03 / FT-12 | 312bp [FRED Oct5] (310 [Oct2], 324 [Oct1]). >320 s=3 watch 0/3; <260 not near. No 10/6 print posted at ~10:45 ET (T+1). X1 >280 still-true, suppressed. |
+| CCC / RED-FT-07 | 1211bp [FRED Oct5]; FIRING-BANKED; exit <930 ×3 not met. IG 84 [Oct5]. |
+| VIX / T5YIFR / 30Y | VIXCLS 15.01 [Oct6] (FT-06 banked; exit ≥18 ×5 not met); ^VIX 15.70 intraday [Oct7 ~10:46 ET]. T5YIFR 2.35 [Oct6]. DFII30 3.37 [Oct5] cycle high; DGS30 5.66 [Oct5]. |
+| Banks | FLG 11.30 · WAL 73.24 · KRE 68.55 [Oct7 ~10:51 ET intraday]; HBAN 15.06 [~10:46]. FLG below REGINALD VX-REG-6.03 RED 11.39 intraday only (close-basis). REG-T-02 fired state since 9/1, exit not met. REG-T-01 <60 not near. |
+| FX / funding | USDJPY H.10 157.81 [Oct2]; vendor 158.31 [Oct6 close] vs SAM 158.054 (basis question, -006). SOFR 3.90 = IORB 3.90 [Oct6] → 0bp. Claims 197K [week Sept26]. |
+| Energy | BZ=F 101.46 [Oct7, session unverified]; USO 145.14 [Oct7 ~10:46 ET]; Nov ULSD crack ≈107.5–108 [Oct7 pre-mkt, vendor via PROME]. Cushing 24.301M [week Sept25]; Oct7 EIA not pulled (no EIA key). |
+| HANS | UK 30Y 6.026% intraday [Oct7, single vendor] vs T-13 >6.00 close-basis (last owner grade 5.91 [Oct2]). OAT–Bund 134bp [Oct7, single vendor]; T-10 FIRED. TTF/storage/Bund/EURUSD not re-pulled this session. T-12 UNINSTRUMENTED. |
+| CREED | Trepp Sept office 12.16% (secondary) vs CREED-T-01a >12 s=2; Aug 12.00 ⇒ leg 1 of 2 at most if confirmed (-011). Owner grades. |
+| Iran | Anchor full sweep last Oct1; NEXT ~Oct8 (NOT run). Limbs Oct4. Khurais pump station hit ~Oct4; Hormuz hits through Oct6 (none sunk, losses 3); Bab el-Mandeb offensive control UNVERIFIED (-007, anchor_unverified_as_of 2026-10-04). |
 
 Shipping intake reviewed 2026-10-05T13:48:24Z: four qualified signals recorded; no new price observation or threshold adjudication. The audit refresh above supersedes the affected boot observations; untouched legs retain their observation times. Receipt and current duties: [LAST_COMPLETION](LAST_COMPLETION.md).
 
