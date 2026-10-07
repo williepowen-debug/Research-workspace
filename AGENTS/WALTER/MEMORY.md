@@ -88,13 +88,13 @@
 - **Bright Data Web Unlocker (WQ-383 pilot, LIVE 2026-10-04):** `bdata scrape <url>` for a 403'd no-screenshot bookmark link; free tier 5k/mo HARD STOP, Web-Unlocker-only, key in gitignored `.env` (per-machine). Full method+limits+ledger: `design/X_BOOKMARKS_ACCEPTANCE.md` §9a.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION — 2026-10-05 full closeout
+### CHANGES SINCE LAST SESSION — 2026-10-07 news catch-up; full closeout deferred
 
-Boot plus shipping/tanker follow-ups closed to durable records; six signals and nineteen handoffs. Manual tanker-cost/USO watch is now Will-authorised. LAST_COMPLETION owns publication, owner integration and coverage gaps. No standing approval or trade rule changed.
+October5→7 catch-up saved17BOARD outputs/66handoffs;49lane+8manual+1private items accounted. REPORT owns current source gaps/next48h; LAST_COMPLETION keeps running duties. Oct5 publication reconciled; Oct7 publication/owner acknowledgement separate. Manual watch/approvals unchanged.
 
 ### NEXT SESSION
-1. Read LAST_COMPLETION and the linked tanker-cost WATCH.md + STATE.csv; check due dates. Next freight review October9; BRENT's EIA review October7. Manual sessions only.
-2. Verify recipient integration and coordinated publication separately; BRENT005/006 are owner-logged DEFERRED; filing is not research integration. Reconcile delivery log only against origin evidence.
-3. Recheck HY observation date and outstanding threshold/filter/read-basis gaps; October2 HY310bp resets the >320 three-observation watch to0/3.
+1. Read LAST_COMPLETION and the linked tanker-cost WATCH.md + STATE.csv; check due dates. Next freight review October9; EIA next release October15 noonET under holiday exception; October7 reviewed. Manual sessions only.
+2. Verify recipient integration and coordinated publication separately; BRENT005/006 research integrated in its whole October7 report; remaining owners need their own evidence. Reconcile delivery log only against origin evidence.
+3. Recheck HY observation date and outstanding threshold/filter/read-basis gaps; October6 HY303bp keeps the >320 three-observation watch to0/3.
 4. Use app-server metadata, ORCH_INFLIGHT and foreign-tree evidence together; wider fleet visibility remains UNKNOWN.
 5. Preserve X-bookmark launch-only approval, free Bright Data limits and local token/CLI gaps. HANS owns its registry read-cap remedy.

@@ -1,2 +1,3 @@
 reviewed_utc	authority	result	next_freight_review	scope_limits
 2026-10-05T14:21:52Z	Will emphasis on tracking; both USO shares/calls	ACTIVE_MANUAL; seed primary freight plus existing owner market evidence	2026-10-09	no unattended task; holdings rows unavailable; exports not extracted; no new gate
+2026-10-07T22:04:25Z	Existing Will-directed manual watch / Oct7 catch-up	EIA_WEEK_OCT02_PRIMARY; exports gap closed; privateOct7 holdings refreshed; no newer freight quote obtained	2026-10-09	freightOct2/insuranceSept25 retained; current USO weights UNKNOWN; no causality or new rule

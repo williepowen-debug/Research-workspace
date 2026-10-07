@@ -1,0 +1,938 @@
+[
+  {
+    "title": "Carnival Corp\u2019s Record Bookings Suggest Cruising Less Fuel Sensitive - Open Jaw",
+    "source": "Open Jaw",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRUxOa2Qwc0x5Y2RqXzFVRERIa2RiWDJzclo0UDlTeEQxeV92QVEzTk1zQ1FSWkdsendiVkV5NHhsa09fcGttX1kxNzFDS1o2WjdXYURwZVlXdzBUalZZM21ZV3ktc1lhRjRucHZ6S0d0cXR0Y25HVm9ERERqNV9NRkRFeGRVajM2YkthdkphZWttUWhGMVBuRmhYWkNCUkpLSktSeWowdzlrU0ZZX0xOVWF0R2tVdw?oc=5",
+    "date": "Mon, 05 Oct 2026 12:49:41 GMT",
+    "classification": "DEVELOPMENT",
+    "level": "normal",
+    "keyword": null,
+    "entity": "Carnival Corp",
+    "watch_hits": [],
+    "agents": [
+      "CRUISE"
+    ],
+    "label": "cruise-operators",
+    "lane_day": "2026-10-05"
+  },
+  {
+    "title": "US Diesel Export Ban Update: G7 Stock Release Eases Risk - ResourceWise",
+    "source": "ResourceWise",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOazZuRHVaa1REMUZkeDJVQXJFdzhPZXM1SzlUUGQ4SWhxV2JjOUw0dXBWYWZKWFlJaFpnVVRoZ2p5d1M2NVI0SGxEQzdlZU1MU1VsVEVrLVVXZmFzV3FONXVfUmJHSkxzWVNjZ1BxVEtTaVhOTkEwOHZTRFRKNW00M2pIMjRXU3VyWjJ3X2VzVEtKeVJFVUliNGRncVZoclhj0gGjAUFVX3lxTE91QlVJeDNtNnFqaUJGR2ExZ0prRFVhQzRrbXcxQnFxSGM1eGE2djFoQXZRUGdDT1otYUdLNFVZNnJrOHU5LWY1NDlVZ2IxNWNiNXU5S04xeXFFcUZjdlk1UHBHcUVKTkJPWERGd3dGb0NCOGwtRWpJSjR4TkFLZjlDYm1pb0dtbWc0TXlQQnFBWGlMT3M5NWRjdm80MTFDYVFBT28?oc=5",
+    "date": "Mon, 05 Oct 2026 15:57:04 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "BRENT",
+        "US diesel export"
+      ]
+    ],
+    "agents": [
+      "BRENT",
+      "TERRY",
+      "HENRY"
+    ],
+    "label": "diesel-export-policy",
+    "lane_day": "2026-10-05"
+  },
+  {
+    "title": "Trump: No diesel export ban - The Fence Post",
+    "source": "The Fence Post",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9PVmNBNjdCUGJmV0lFNlJFbkZLUFFRQURvQXN5YXFpNU9WSE9VQnVHYXpmM2JnM080WndKUjF5NkdXbkMyU25SODJwVUxfTWFlYmp1VDZKVnEyRzBmczRMUFR4YkFqNV9Hblc5cmN3?oc=5",
+    "date": "Mon, 05 Oct 2026 17:42:18 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "BRENT",
+        "Trump diesel export"
+      ]
+    ],
+    "agents": [
+      "BRENT",
+      "TERRY",
+      "HENRY"
+    ],
+    "label": "diesel-export-policy",
+    "lane_day": "2026-10-05"
+  },
+  {
+    "title": "Donald Trump\u2019s diesel export coercion will not strengthen the US - Financial Times",
+    "source": "Financial Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZ1dfa2xLX3JqRmJBaEItSzFLV1M0TTJRaXpGZ3dZazYtTm1FRWl6TEJGZGJWU0pkc2o5VVg4TnpKVWhOUGlmZVhHUDRGN29QbnpMR1YxcEtEWnJQUXVnbE5ubk11aVcxMTFfQS1CcjI4ZUxuQ1Zmb0E2U2ZCNGd5ellQay0?oc=5",
+    "date": "Mon, 05 Oct 2026 11:35:09 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "BRENT",
+        "Trump diesel export"
+      ],
+      [
+        "BRENT",
+        "US diesel export"
+      ]
+    ],
+    "agents": [
+      "BRENT",
+      "TERRY",
+      "HENRY"
+    ],
+    "label": "diesel-export-policy",
+    "lane_day": "2026-10-05"
+  },
+  {
+    "title": "NYC rent freeze lawsuit: Judge demands to see communications between City Hall and Rent Guidelines Board - amny.com",
+    "source": "amny.com",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcjV0MlNUSHlzWDBpRG96c1FRSGtBNVJGdDI5ZjRSX2tlWlYxZWNZNS1RbTlFX3lxRC12N2pYa0lUcjA5UFVHTkNScENiRkhHU3R5YS03OVZYcjV5STlTTTc5YjFVN2lZT1R6QWdfOTZOcnNvbTRJczhoeGgtVTFiUzdNOA?oc=5",
+    "date": "Wed, 16 Sep 2026 07:00:00 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "FLG",
+        "Rent Guidelines Board lawsuit"
+      ]
+    ],
+    "agents": [
+      "FLG"
+    ],
+    "label": "flg-rent-freeze-litigation",
+    "lane_day": "2026-10-05"
+  },
+  {
+    "title": "Private credit roundup: Blue Owl redemptions ease, tech and refinancing risks persist - Reuters",
+    "source": "Reuters",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaUxSbWJzY2VXZmYtVXN6VUR5ZEQ2OHBVY19QVXRONlFxOVppTks1ZlNrSEFfMlQxRm5CNEdkZE9nTjZuVVJwQ2hsMThyVTJxZElVZnFBMDdNLWN5VVY4N3MzZ0FpTVNnTkROSWdmMGhvb0IyZDNxaEllWDNrS3dkMkE5dDY4Y1VwdS1NYlp6VTBoSW9ERzZ3VkU3cDRKVHJXVVNUVzVnc05SbVVmU1R2SEZYOVd4d2xQZXlLU3NnWlNVdTJzRFU0Q19QSWkyZjZ3?oc=5",
+    "date": "Mon, 05 Oct 2026 17:50:03 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": "Blue Owl",
+    "watch_hits": [
+      [
+        "BROCK",
+        "Blue Owl redemptions"
+      ]
+    ],
+    "agents": [
+      "BROCK",
+      "LIQUID"
+    ],
+    "label": "private-credit",
+    "lane_day": "2026-10-05"
+  },
+  {
+    "title": "Private credit roundup: Blue Owl redemptions ease, tech and refinancing risks persist - TradingView",
+    "source": "TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQX3lzMHVlbmwzbWtHNmgybFRFdm1hUG91aW5MQjAzMVRzWjBYMTZFbzN3cFpPUTFLY2dMNHlpWTY2YnNUOGc4enV5SVdja0c2UHlYV01fUzBUbHlmNUJDQVU0dUhFWTBMdE5jT095WGwyS1IxcVZNSUFZQXhaTThWU0E5ak5TYUNDMXhwMlVfc25lbjBFVnBDNFRRMmk0Q0hDWUN6MW1zWmprbXJoLTlaVjBZVmcyUWZpelpNOTZRbFZ5NkdqdEEtM184V0VkcWZJMGE2MHlzdXVmMXMxYzJvQ2JkRmpHNTc3?oc=5",
+    "date": "Mon, 05 Oct 2026 13:22:45 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": "Blue Owl",
+    "watch_hits": [
+      [
+        "BROCK",
+        "Blue Owl redemptions"
+      ]
+    ],
+    "agents": [
+      "BROCK",
+      "LIQUID"
+    ],
+    "label": "bdc-names",
+    "lane_day": "2026-10-05"
+  },
+  {
+    "title": "Iran insists it controls Hormuz as rial hits record low and exports dry up - Euronews.com",
+    "source": "Euronews.com",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVV9kaHRYTW5lcEtnLVBxaUZiMnBRN3YwM3JoM3JzaUNfSHl3TGxsM3hKYTNObFNiU3RLYm9ua1BxSGlMSTRMNHlZMGdKTWN6d1B2aU9lOGMyTlRiOC1uYnJjVXphbFdNTjRQNk9PVnJfOUNYVHBZaFpUd3dDdERmZjhieWRXbjdHeXZERDZDOHFGUzBUQUE2aTZfNWp2UVJfVmNNZ1hDZldMQW00RXNZ?oc=5",
+    "date": "Mon, 05 Oct 2026 12:35:12 GMT",
+    "classification": "DEVELOPMENT",
+    "level": "normal",
+    "keyword": null,
+    "entity": "Hormuz",
+    "watch_hits": [],
+    "agents": [
+      "HENRY",
+      "BRENT",
+      "SAM"
+    ],
+    "label": "oil-energy",
+    "lane_day": "2026-10-05"
+  },
+  {
+    "title": "Possible Fire Reported at Saudi Refinery as Attack Claims Circulate - Crude Oil Prices Today | OilPrice.com",
+    "source": "Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMW1iSk56U0lMMVpfZzdsRzdHeWptV0ZQWWVscEVUeUF1NjlFcHpjY0JweGloZ0h1SGplRnFwYmZkWjlwYkNEYmp1cVRSRy1VQWhBem5XdjFZaDVpVmZyRkstYU1FbjVEWDhvbno1SmpYR1lnZkRubDBoejZLR0N2UjFBNWh4T2RNYU5tMVlWQTY0eDVxOFYwcGxBNEhWRW9OMFRib2kwZTFtYTRFZjd4b3RzRzYwOFVOZzlkUjRQWlDSAcYBQVVfeXFMTmFuckdULURKa3JKQ05tY2xQSWphekFpTFU1V0VkOWRkdDgzb3NXYXFFS2lxOG9wOFh5Sm43cHB6X1V3d29rMmdXSzR1anptZ3EzOUVwZUlzU1FRcWFuNXFQZHlZamhCTlJwVlUxSVU2M0pVUXhoSW5iMGJfalRNT0dQMWlZQllUWDI5UTFaOGVkSVdwQ0pRUTcwU0NodUZzZEM5MUFIS21pbnRFOFlWZzEyNzBoRk4tV2VBeUdWRWpBS2U1RUtR?oc=5",
+    "date": "Mon, 05 Oct 2026 15:31:00 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "HENRY",
+        "refinery attack"
+      ]
+    ],
+    "agents": [
+      "HENRY",
+      "BRENT"
+    ],
+    "label": "gas-supply",
+    "lane_day": "2026-10-05"
+  },
+  {
+    "title": "AVK: Junk Bonds Are Hurting Overall Performance (NYSE:AVK) - seekingalpha.com",
+    "source": "seekingalpha.com",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSlNuYXliTFJYb3loWEZ4bGx2NTFGTTdDSDdiM1lwZXlteVdreWdDU0R2a3FycnItZVNjV1NoaTc5UGhiUnhSRnBaNHZYMWxQelY3UHl5WU02NlgxR2ZsTlo3ZWxPbUZybFRuRVJnbnNIMjdQYUFMTDJhSFJZWU1EUzVyZ2lMb1JrUGgwemtkbko?oc=5",
+    "date": "Tue, 29 Sep 2026 10:06:50 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "junk bond",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "LIQUID"
+    ],
+    "label": "credit-spreads",
+    "lane_day": "2026-10-05"
+  },
+  {
+    "title": "Don\u2019t Toss Junk Bonds Out With Private-Credit Debt - WSJ",
+    "source": "WSJ",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcTlOUXE1R1hoT1BEakthMVk1N1V2VmM0bmZxcDVsOWxRWGNEUEhNb1Vpb0I3Q0ozNC1meEFBTVdodjc4cXBtQVByNk5GMk1VelZkMVdIY1VWM01GWWtuWUpuNklxUzV0a3FMQjJXc0Z5bnhiWGJ4TWg1MThnaEVEMkFfNUluMHFyZHdVV3JNQQ?oc=5",
+    "date": "Tue, 07 Apr 2026 07:00:00 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "junk bond",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "LIQUID"
+    ],
+    "label": "credit-spreads",
+    "lane_day": "2026-10-05"
+  },
+  {
+    "title": "Fed updates statement on supervisory operating principles for bank examiners, following report on 2023 bank failure - JDSupra",
+    "source": "JDSupra",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbnBrRGVEcGNLNlhVMGxKbnJxalAtc1ZjQ0x0T0FHWlBVU3AxNXdsYVd0WlJHdnRtVF9JaEdNemlPcHJXWVBTV0pib3duNTNnWjVzeUVNOXlpZGItZ1hid0FIblliZkVQcHN2c184VjhoeEo0S29MNTg5Y1YzWlRlUG5ZSU93UQ?oc=5",
+    "date": "Mon, 05 Oct 2026 17:20:17 GMT",
+    "classification": "NEW_ALERT",
+    "level": "alert",
+    "keyword": "bank failure",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "REGINALD",
+      "LIQUID"
+    ],
+    "label": "bank-stress",
+    "lane_day": "2026-10-05"
+  },
+  {
+    "title": "Polymarket Bank-Failure Bets Spark Fears of Self-Fulfilling Bank Runs - Casino.org",
+    "source": "Casino.org",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdHhOZE9HcFJwVEd3eUlJLTZyWjBmeml4Z0FYMGh1VVJLUmtPb1dwS1FVT1FXMTFwLVYxWVljYnZvOXlOUWViZmFKeUNZNFAxb3JGSGJ5UVg0dW9US09RM3BOcmdtNnN0S29mNWRTRGVVREw3aE80dGRpUFVFaVB6ZENScXk0RzJuTEtXeFJqU3A0SElxNDNRRGJ0QVljMUE?oc=5",
+    "date": "Mon, 05 Oct 2026 19:29:15 GMT",
+    "classification": "NEW_ALERT",
+    "level": "alert",
+    "keyword": "bank run",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "REGINALD",
+      "LIQUID"
+    ],
+    "label": "bank-stress",
+    "lane_day": "2026-10-05"
+  },
+  {
+    "title": "Fifth Bank Failure This Year Underscores Struggle Among Smaller Lenders - Law.com",
+    "source": "Law.com",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSlZ6TjV5QnI0MlBxQnAzYUoyaWlCdEtJZkkzMTlybllLTldKdWE1OWh6NjNFZDIweHBSZzFVVVlIYW9nLXM0bGpVdjVmRXN0cmt1SkdEcG1BZzIteEZ2TUNlb0VUUGxkc21RT3ZGc0J3Vk5MZ19xU1NBNXlYUUdGNDVvV3hqbXdlMW1LUVh2b182TWxLYi1wVUpCZHI0c0pZRVFQQjZWRDhMR3o1VWtiQW5XRi1udw?oc=5",
+    "date": "Wed, 26 Aug 2026 07:00:00 GMT",
+    "classification": "NEW_ALERT",
+    "level": "alert",
+    "keyword": "bank failure",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "REGINALD",
+      "LIQUID"
+    ],
+    "label": "bank-stress",
+    "lane_day": "2026-10-05"
+  },
+  {
+    "title": "Subprime auto dealer America\u2019s Car-Mart on the brink - Transport Topics",
+    "source": "Transport Topics",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5yRmtVb3hJTzc4X0JUb3NmN1c0TUhnMTdZaVlHSDliaUlDcVlTRjJhbVNDM0pJTmlrQVNlOXVtUjZSWlNYa2lkbXQxRUdmMWt3bDBHMWNzVXppbFgtYTRHRUlaaEFIUQ?oc=5",
+    "date": "Tue, 21 Jul 2026 07:00:00 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "subprime",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "CARL"
+    ],
+    "label": "consumer-stress",
+    "lane_day": "2026-10-05"
+  },
+  {
+    "title": "Weekly Radar 004: DRAM Tightness Is Becoming an Enterprise SSD Constraint - TrendForce",
+    "source": "TrendForce",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE85SnZXNHZpX3RBOVJ2WW9RbkpReVlMYTVXUEU5YldwV21OUEdsTFlTUW1vVllSVWxRbDh5X1hmWV9yZnpVX1ZUb2dyVURCdEwyaFUyV2RxM2FZMXdNbm5v?oc=5",
+    "date": "Mon, 05 Oct 2026 10:03:38 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "TrendForce",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "VULCAN"
+    ],
+    "label": "memory-cycle",
+    "lane_day": "2026-10-05"
+  },
+  {
+    "title": "[News] TSMC Earnings Preview: Terafab Talks, Price Hikes and A14-Intel Race Lead Five Key Themes - TrendForce",
+    "source": "TrendForce",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNVAyMTZfNTdsQko5WUxJTG96TlVmYzRpRERwZDRTRWxQTW9CLU9Va2pLb21vU1ZrOTZTSTUzcjlxXzZ0eTlTbkM0bjBZWkdBd1dWemRERVRxaGJ6WDkwTnhDbEl6YXVPQkk4Tmw4OXhWeERQSzFfeWp5VUpMckpxM0pXc1ZyQ01veHQ1bG9zdGVOeVpjM0JnZFhnMzdxMlA1UG05amR2YWI2NXBDUF91eDloZ3BpR0JqNFVTUEdJRzNNMkVlckpyM2ZsZm5NRGg2TFE?oc=5",
+    "date": "Mon, 05 Oct 2026 03:31:36 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "TrendForce",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "VULCAN"
+    ],
+    "label": "memory-cycle",
+    "lane_day": "2026-10-05"
+  },
+  {
+    "title": "Libya vs. Yanbu \u2014 a tug of war for Europe's barrels - Kpler",
+    "source": "Kpler",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMXltQTBKNWNJUnBhcTJZVFR6cjA4alpmcnFSN2tTYzhtbi02Q1hiWi12UkNUQnRTUlVGUk9maHN1dndBSnlHNXkzTjI5d1doUHB6S0dXRmV6SkR3M0VSNXRHejM0SFFINXRPWUhiWTdReXBzWVVVbVAyZk5RTC1ucFBhTV9SMDA?oc=5",
+    "date": "Sun, 04 Oct 2026 03:31:45 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "Yanbu",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "FALCON",
+      "BRENT"
+    ],
+    "label": "saudi-redsea",
+    "lane_day": "2026-10-05"
+  },
+  {
+    "title": "Saudi Arabia Resumes Yanbu Crude Loadings as East-West Pipeline Partially Restarts - News and Statistics - IndexBox",
+    "source": "IndexBox",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZEttNFZPeVJpMDhrUE1TUFFjdTZoNW9lU2I3VkhYTzNSNEp4UC05dFZfUnZWOWR0VmtabEhJZi1qLVJONmFmMGZXVUZWMFpIcUJoVjlCcVVNbmE0cFhkN0Z4SVdXY2l1bFhhR2otcWtkbDVhaWp4YnhwbDNFSG11aHNkMXdJdGxqcnNUR0tLZm1oUXhBUUFpcGczVmhhUDlIQjV2NHdUT2lDQQ?oc=5",
+    "date": "Sat, 03 Oct 2026 04:30:59 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "watch",
+    "keyword": "Yanbu",
+    "entity": null,
+    "watch_hits": [
+      [
+        "FALCON",
+        "Yanbu loadings"
+      ],
+      [
+        "FALCON",
+        "East-West pipeline"
+      ],
+      [
+        "BRENT",
+        "restarts East-West pipeline"
+      ],
+      [
+        "BRENT",
+        "East-West pipeline resume"
+      ],
+      [
+        "BRENT",
+        "Yanbu loading"
+      ]
+    ],
+    "agents": [
+      "FALCON",
+      "BRENT"
+    ],
+    "label": "saudi-redsea",
+    "lane_day": "2026-10-05"
+  },
+  {
+    "title": "Saudi Yanbu oil terminal reportedly hit in aerial attack - safety4sea.com",
+    "source": "safety4sea.com",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdksyNVp0VHZ1LWNuZHdJeHJOYUg0ZzNqRG55aGZlNGhYZFRMOWxweThvcUJXR3BHNzBzMzZHLWhGZklRZHFMQjRUVS1nU19PZF90dHZhdl96N2xCN2Y1U3pKalpINHMydnMwUUVvTFM0djdpOHJGT2JVQUdXY2N6UWQtVXZqcUk?oc=5",
+    "date": "Fri, 02 Oct 2026 10:40:20 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "watch",
+    "keyword": "Yanbu",
+    "entity": null,
+    "watch_hits": [
+      [
+        "HAWK",
+        "Yanbu terminal"
+      ]
+    ],
+    "agents": [
+      "FALCON",
+      "BRENT"
+    ],
+    "label": "saudi-redsea",
+    "lane_day": "2026-10-05"
+  },
+  {
+    "title": "Yemeni sources report an attack on an oil refinery in Jeddah, Saudi Arabia, Tasnim reports - Newsquawk",
+    "source": "Newsquawk",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdFdSZ052ajJsVUxoYlpzQWVLV3BPYTBLWmJ3TkF5SmlONlNGb05vU1lXWkk0enlGMEp0OE5LaTFkaVpxbTM0RkpDSDE1NVA5enpnMUdpUklmTEd4Yk1XQThPc2QwcGNwN0p1S0NtX2FjN185RmpyZFUzVUU2cElnTWN5bEwyd2RHZl9sT0J5aUplMmktM3JybWJ6RlJGY190ZXVuRmlyYUIwdjZyNVNqTnpuNTIzZ1I2Uko2dUlNTUZ2QQ?oc=5",
+    "date": "Mon, 05 Oct 2026 13:48:59 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "HENRY",
+        "refinery attack"
+      ]
+    ],
+    "agents": [
+      "FALCON",
+      "HAWK"
+    ],
+    "label": "war-risk-insurance",
+    "lane_day": "2026-10-05"
+  },
+  {
+    "title": "Memory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027, Says TrendForce - TrendForce",
+    "source": "TrendForce",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SRVlJV3pmcjVfNUtpM3R2alVnTUp5UjFnT3RyOGlQWGV0c0J5N3ZqZm8yZWhBeDFyODZWZERGTFVnVkFNY0xwaHlMWWU2dTI1YjlQZWMyM0ZYd1VKQ19Bd1pXTGg4RWUtWXllbUhvM3g?oc=5",
+    "date": "Tue, 25 Aug 2026 07:00:00 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "TrendForce",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "VULCAN"
+    ],
+    "label": "memory-pricing",
+    "lane_day": "2026-10-05"
+  },
+  {
+    "title": "All six passengers presumed dead after plane went missing off US coast",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/cmze4g8r6nr9o?at_medium=RSS&at_campaign=rss",
+    "date": "Mon, 05 Oct 2026 04:00:35 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "SUMED",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [],
+    "label": "BBC World",
+    "lane_day": "2026-10-05"
+  },
+  {
+    "title": "Carnival Corp. reports record third-quarter results and updates 2026 outlook - AD HOC NEWS",
+    "source": "AD HOC NEWS",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQ1BrTlVHZGp2N09YbFI4U0hjNmF6ek5xTVZSeklFQ25MMEk1ckc4QVpuNmZaR291MDZYNi02cTZEcGdtMzNxQ2NIbzYzUHVaMWJxMTJCTVpyQ3hRTUptRWE1VDBsY1p5OENqU3d6S2V4ckFnZE5KR0xMaU1aa0lxckZqRFJpa25uQ2dVYk84QnR3cnY1M0NNd2FpTUs0cF9kVG1Ldy1uWFlHSzQ5Q1UzLTJwRGVhV2daejNERWc3MHNqbTQ?oc=5",
+    "date": "Wed, 30 Sep 2026 06:34:30 GMT",
+    "classification": "DEVELOPMENT",
+    "level": "normal",
+    "keyword": null,
+    "entity": "Carnival Corp",
+    "watch_hits": [],
+    "agents": [
+      "CRUISE"
+    ],
+    "label": "cruise-fundamentals",
+    "lane_day": "2026-10-06"
+  },
+  {
+    "title": "How Europe Can Talk Donald Trump Out of a Diesel Export Ban - The National Interest",
+    "source": "The National Interest",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONzcxLWR0NVJNNG5pVFNmSGpndThsRGJDWUZZOVluWTZ0NjZ2b1VuNEhRTlM0Zl80ZUlGQ2xIR1ZjLVV2UnNDZEd3RlZWOW1qb3BFcDF1Zy1rY1YxUUEzN2pYQXY3NnJWbWhnWFR1Q3B3eE94QWp3eDR5aTZKOXg4c2Jrd0NLcDc3eWVrWjBIOUZVZHhsdmQtVm9tRkZWNDZoZ25PeTdMbXUydw?oc=5",
+    "date": "Tue, 06 Oct 2026 18:41:51 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "BRENT",
+        "Trump diesel export"
+      ]
+    ],
+    "agents": [
+      "BRENT",
+      "TERRY",
+      "HENRY"
+    ],
+    "label": "diesel-export-policy",
+    "lane_day": "2026-10-06"
+  },
+  {
+    "title": "The diesel export ban may be lifted in October for some Russian companies, according to IFX - Newsquawk",
+    "source": "Newsquawk",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcHdHYnRTQk9CYlFRUVNqVkNDbVFkNGdiZk44LWVERjNvd2k5SEFrUzgtVFpEYWVBQ294OU92T1RKeUNaWVZzMzQxWGVLOFVsWW5ndWFPM3gyZ0RzOXVNeEIzT2VKemxIanVJT0xJSXFiMzlsQ0tmQ3hTNXBJWXB3YjJ5alUyOUI2UEpBNmxBdlRFVk1DSWl4MWF4OUR4WmJ6c2J6SUdVTW5UWXhoWFh3OW1VU2V5ZURSLUF1YTFfNFluQWRK?oc=5",
+    "date": "Tue, 06 Oct 2026 09:57:14 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "BRENT",
+        "Russia diesel export"
+      ]
+    ],
+    "agents": [
+      "BRENT",
+      "TERRY",
+      "HENRY"
+    ],
+    "label": "diesel-export-policy",
+    "lane_day": "2026-10-06"
+  },
+  {
+    "title": "NY Fed reportedly investigating major banks' private credit loans - Yahoo Finance",
+    "source": "Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQV016M0RSX0tsX25acTY3QnRmbDZHel9tZDFuOXc1S19nMDZoZklfMWpvUDR0TUpQdjRLVG83RER1M2VmWUtwaEJnWXV2ZU80Y1VvQzZta3BOdDJPbjc5VmhMMFdKbEV6bWE5R1F0U0tSMXFQMnBUWUxyWW5LaFhfY0xtYlU5YmZOb2lUSw?oc=5",
+    "date": "Tue, 06 Oct 2026 15:19:47 GMT",
+    "classification": "NEW_ALERT",
+    "level": "alert",
+    "keyword": "gating",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "BROCK"
+    ],
+    "label": "private-credit",
+    "lane_day": "2026-10-06"
+  },
+  {
+    "title": "Private credit roundup: Blue Owl redemptions ease, tech and refinancing risks persist - KSL News",
+    "source": "KSL News",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMllsbG51MnV3WEF4RTAxNURxNzRZdFV0cml2SUFVcDBlMWJoQ0hGMFIybjFfc2ZtejE3SHR6OEpjbWRmeXU4NUgyemNnS2hjUG05UC1iNWRuY1VrdFYtQV9UazB3bnd3elNtbXJET0FQMHM5QV92MnNLcWcyamRWeU5DTWhaR0ZJempJQms5R0hjcUN5UjBNdFVQaExvX1djbTdCTjdPR09NbElBdkJoMEd3Um1KaW11RV9GOA?oc=5",
+    "date": "Mon, 05 Oct 2026 15:41:10 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": "Blue Owl",
+    "watch_hits": [
+      [
+        "BROCK",
+        "Blue Owl redemptions"
+      ]
+    ],
+    "agents": [
+      "BROCK",
+      "LIQUID"
+    ],
+    "label": "bdc-names",
+    "lane_day": "2026-10-06"
+  },
+  {
+    "title": "Tri-Valley employers implement mass layoffs - Pleasanton Weekly",
+    "source": "Pleasanton Weekly",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcG1kZ1gwelNaeGpLWGY5bVMtRDdzR2tGQ3p2QVhKTnUteUYtUFJIeWw5ZmxkN1VULUhTdEFHNVU2WUlVRkpjLWs1LXU1OGdRQU5qUzk0RzZiVjFtdjFoSk14ZkhNRVdkYm95RTZSWDVPOE9DSXE4V2tRc1pTWDlFU1NScWZNcE5qaEVuTUsyTldFNE90RTM3aEJCb193dw?oc=5",
+    "date": "Tue, 06 Oct 2026 16:35:48 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "mass layoff",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "LABOR"
+    ],
+    "label": "labor-layoffs",
+    "lane_day": "2026-10-06"
+  },
+  {
+    "title": "Harvard FAS Launches 25 Faculty Searches, Loosening Hiring Freeze - The Harvard Crimson",
+    "source": "The Harvard Crimson",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBKUHhQcE5BNGJSdFNjMko4LUFHek9oWHJ2RDZzMjlVTWtVZHpPdWFHLXFIZjlpT2pFRDdOVUZTN2lYUTFTZnRyTlF6X1NWaUFUc0RwdjRaZDdOcVhsc0hmTEdBdGRZbDh0WEo4MU1iUGhqN2l2VlFPdQ?oc=5",
+    "date": "Tue, 06 Oct 2026 12:00:16 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "hiring freeze",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "LABOR"
+    ],
+    "label": "labor-layoffs",
+    "lane_day": "2026-10-06"
+  },
+  {
+    "title": "AI Agents Could Speed Deposit Flight, But Experts See Bank-Run Risk As Limited - CU Today",
+    "source": "CU Today",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdDRncV8xUmwtdFRGdHVENjFwOE8yRWliYjBCakxyVGtEcnhfeFRCSktBUzYyOTJDUndnVy1rZGl0V2dhSHNNbjdCTEdPVmpzb0Zacnd5ZV82RWdHdzk3Z3kxbHhCdkQyaGVnZG5mZHFZWERZSktKQ1p4clE1YzJhQ015aHI3empYX3BHTjV5YjhpNGtiRzRna1I2dnotcW5USU1SUzNYVjJQTHFsRE10cm5vWU8?oc=5",
+    "date": "Mon, 05 Oct 2026 22:39:05 GMT",
+    "classification": "NEW_ALERT",
+    "level": "alert",
+    "keyword": "deposit flight",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "REGINALD",
+      "LIQUID"
+    ],
+    "label": "bank-stress",
+    "lane_day": "2026-10-06"
+  },
+  {
+    "title": "Financials Friday: State AGs Could Target Realtors as Fees Remain Unchanged Two Years After Settlement; Kalshi Applies for Margin Trading; New York Files Second Bombshell Prediction Market Suit, This Time Against Polymarket; Subprime Auto Lender A - The Capitol Forum",
+    "source": "The Capitol Forum",
+    "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNOS1KTmxpQlVYR2M0NFY5dEFPYnE1RFRvYjZFM19FRzd0WFFfYmJ5SDNPN0REY29QZ2N3Y1BndlV4eVc5ejRLbGw3MEo3aWtYQzJzc0VMdGZCYmctU2xiQUNBdWR5bHZweW1fdnB5VVpTWVlkdE1sZkQzaFgtMVZIa2R6UnJrZi1WaTZCaDEyRTBndmJEVUYyOGdLQnFJczNYTnBsZ19DTmQxVjBGMFdzYV9NVnJoVnhnVlIwZzJTaXgzNm51RjN1dlhsZTE4Yl9SdkpIUjBDN2VwZzBERE9nR1lwbTU5Z3FwS3lQTEZwYm5EOFZfRDRjeVBIVXdSNFZRckdxaExVWFhPWGhmNTExU3pSSGJBYlByZ3NqQ1YtbHY1YU03UXdfR0JfVjA1MHo0VUFTNTJ3Z2FobE5Vdm4tdkJ5VWtvTnM?oc=5",
+    "date": "Fri, 25 Sep 2026 07:00:00 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "subprime",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "CARL"
+    ],
+    "label": "consumer-stress",
+    "lane_day": "2026-10-06"
+  },
+  {
+    "title": "Flagship returns to subprime auto-bond market - Green Street News",
+    "source": "Green Street News",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOemQxbnM3Z0NJNXFlVkJYcHJnNkRsTk9OYjRJLU5qcVdyWnZ3WlFLeDlfTGluWEN1dEJjbWp4WU9pWGRaNTVLcUpCeUl4b29qMVN5a3RBZmJDYmp1ak9GQWxGY2UxQk9uaTFaUXZBelBpTkVhTjlmWkUtdHQ1bkVuZk9uM2ZOakFaSWc?oc=5",
+    "date": "Fri, 25 Sep 2026 08:24:17 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "subprime",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "CARL"
+    ],
+    "label": "consumer-stress",
+    "lane_day": "2026-10-06"
+  },
+  {
+    "title": "Western Alliance Bancorporation Announces Third Quarter 2026 Earnings Release Date, Conference Call and Webcast - Business Wire",
+    "source": "Business Wire",
+    "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOYnlSM0ZtLWVvbHVVZHc0UjhQbG5GaEhpcVJSVkhoN0VtLXRFcEdGaU9RYzFIdVhoZkFOVk52dHl4amVfS19CcWkwZnNsdGRrNmdXYlJCWWQxSkRnMDNSaURqdTNWUnYyWHV3bkl6eTJ5Q2tfdmNyelZHNDUyN0RwMHFJSTR3RVpZNG1hOWUzajJkUmlhTnNkOGpNSE9YRWo2bVZLRElZSGVfc0ZJNV9mUGZld3VOd2kxT0dmSUo3WGtYRXNLakx5dmdoM2tlMGU0dXI4d2N2bzFZQWxicFlSWUtqTjZpTE1SVEdBb29sdTFQcDBNYnJkajRDVQ?oc=5",
+    "date": "Tue, 06 Oct 2026 13:00:00 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": "WAL",
+    "watch_hits": [
+      [
+        "TERRY",
+        "Western Alliance third quarter"
+      ]
+    ],
+    "agents": [
+      "REGINALD",
+      "WAL"
+    ],
+    "label": "position-banks",
+    "lane_day": "2026-10-06"
+  },
+  {
+    "title": "[News] AMD\u2019s Lisa Su Visits TSMC, AI Supply Chain Partners as Company Locks In Capacity 3\u20135 Years Ahead - TrendForce",
+    "source": "TrendForce",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPRFFZVkJhbWZ2MlFua3lhalhScnNnZnBOenNyOXFhVmNmQVRhUHJ0X25ob0hyLU1GTllPcUFlZ0N0VHNXdzEwNW9aMUNzRlAzTWZNUlZSWDZ5NUUwZl9lVzNENnZXUFBWOGFrV1pXN2xIY3VYeUtzWGNRanFfUW9xTC1sWWN3TnQtZXZNTVNJZVhST0I4MlF3Y0tha3hvQWk2RVZVVzNqNUFjY2NFZlI4RklMREhqaVpFN0NxSHpUUVdkSzRiRjdvRXpWYWVSTHBEemptcUJKZmNFeE0?oc=5",
+    "date": "Tue, 06 Oct 2026 10:10:20 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "TrendForce",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "VULCAN"
+    ],
+    "label": "memory-cycle",
+    "lane_day": "2026-10-06"
+  },
+  {
+    "title": "[News] Qualcomm, Apple, MediaTek Battle It Out on TSMC 2nm: Inside Their Flagship AI Strategies - TrendForce",
+    "source": "TrendForce",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNb0ZBMWFQVzgyNHA5QU9JNnIwYnFYeTROeVBGX0VtVFFHdWc4b2h3Y1BXZmpyX2V4cW4tc01yYTN5cDItZWpUWFBZcUlqaDkxZnpJeE1ZUmFvc295VExjNEdsbXU0N2pZNzRXcXpvWmh3ZTJZM0tfc21CT19lczdZR05BRWN3bFJHa0xuRGw2RExqc09UVmNjQ1QydVBIYVdlRkxHRDh4UHg1Zlc5dmlFQWI1S0JubUs4MmJEcU9vcnVORkdOdEowS1ZNZjRKMFE?oc=5",
+    "date": "Tue, 06 Oct 2026 01:03:13 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "TrendForce",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "VULCAN"
+    ],
+    "label": "memory-cycle",
+    "lane_day": "2026-10-06"
+  },
+  {
+    "title": "[News] JEDEC Unveils First Industry-Wide Silicon Photonics Reliability Standard, Setting Rules Across Four Key Areas - TrendForce",
+    "source": "TrendForce",
+    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNOW1Zc2V4cjFEZ0cyNExYMnlRZlVvaWhzWGhvVFU5eFE3alUyM1NBSkg3YWlNRGk3YW9iSGhuVXpRZDRmQnQzN1AwQ0MzT3VyaG9ZWkRxX0x1WlVWZ2pGTE1aZmRyR3NrMWZJcDVlUXQySTc3N0hYU2poVzVISVlROXVFZ19SMjB4MVU3S000TmM3TDB2bzAxYVNnYmFKTlpJdFNaVHpJWnBvY3R2ZHZsMmQxbWJIejltM2RXbXpfb01OMTNtcUJ1QlFhOTE1alBvZTFlWnF5aDQyT3pQLWwwWmFYeTI0ZWhuRE5hejZB?oc=5",
+    "date": "Tue, 06 Oct 2026 04:04:03 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "TrendForce",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "VULCAN"
+    ],
+    "label": "memory-cycle",
+    "lane_day": "2026-10-06"
+  },
+  {
+    "title": "[News] Micron Sees Tighter Memory Supply Through FY28: When Will the Big Three\u2019s New Capacity Arrive? - TrendForce",
+    "source": "TrendForce",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSkVSNUh1OU1jdmJZcUZyMFgwREtqMkN3cVNOSVlGa3J6Z0NGM0RNSExwZEh4bHpzWWNQMkRhR1UzTnNHNkJQVjViVGVXVXRlcGFFOUxPa3VMYUgyaldLVHZCc0Z1Qlg0X21nZ0czM2NwaXBYWlhPY0dhcHE2RXdkSUJpRTFFWmV3b1RkQ1FNS2FiZUw0T19CZlFBcldESkstS2Jvb2wyRmVpMXowTnJRT0dZN0tPZFpHbjcyYlFycVJrTzBmU1RFQTNJdzNKUGVZODZEOGFqOA?oc=5",
+    "date": "Tue, 06 Oct 2026 00:13:12 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "TrendForce",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "VULCAN"
+    ],
+    "label": "memory-cycle",
+    "lane_day": "2026-10-06"
+  },
+  {
+    "title": "[News] Seagate, Toshiba Reportedly Vie for TDK\u2019s HDD Head Unit, a Key Independent Supply Source - TrendForce",
+    "source": "TrendForce",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQR291c1k4ME9ZdkVKZTBfejFKVjk5MmRDcEpwOC13MEpqUklEZXluV3hocndtQlR2bmMzSlBHQVhkX3dDMTlnYmNkUEFjLTZheHpzUmxybll5d2U3dmZHZkRSLUVuaXYyZ29xRFZZMjlrNTFjOHVfOWxQYVdCOER0MlFSU2paM2Jtc3g1Z0tUZXR6eUgzMDlwM1JDcnB2V0JNTFFmSjByMkRJcGo1dllLSnlLT3pZNHlBTXQ4ajVDXzl0bVRpa203Q2pZQ2xHcnM?oc=5",
+    "date": "Tue, 06 Oct 2026 10:10:20 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "TrendForce",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "VULCAN"
+    ],
+    "label": "memory-cycle",
+    "lane_day": "2026-10-06"
+  },
+  {
+    "title": "Central Bank Gold Statistics: Central banks continue summer spree in August | Post by Marissa Salim | Insights - World Gold Council",
+    "source": "World Gold Council",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQ2FISHMxN1ZCSUQwdE9kQVhva1hiRzludFBBOU03aHd0MjdlcldFZDhwUWNjcWl1d25wNUdBa1VpMkpKMjI3YnROUndkT1FjTUxWQnhpUFhULWZjN01IdE8zT2JFUmVTWGJfdTMyc1VaVWRiSWQ1MldyMGRVcmhQTzh5Z0pPT3FDeVMtdTJYbko3WVV0cWJKT3NSV2ZlT29BVUNhSnNvejlDSFhFSjRFeWpsN3BjVzBUeFBj?oc=5",
+    "date": "Tue, 06 Oct 2026 08:01:18 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "MIDAS",
+        "Central bank gold statistics"
+      ]
+    ],
+    "agents": [
+      "MIDAS"
+    ],
+    "label": "metals",
+    "lane_day": "2026-10-06"
+  },
+  {
+    "title": "Copper Price: Navigating Near-Term Volatility and Long-Term Bullish Trends - deVere Group",
+    "source": "deVere Group",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5iR19yTVRLNWdQWTdndExpQzFoUDA1ZzQ1S1hOMzktMVA1cFBaQkxYNXByTXhaSElMbHFRWGFwQ2JpNkdLSElwTm1za011czVCcF9TaQ?oc=5",
+    "date": "Tue, 06 Oct 2026 07:01:16 GMT",
+    "classification": "NEW_ALERT",
+    "level": "alert",
+    "keyword": "gating",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "MIDAS"
+    ],
+    "label": "metals",
+    "lane_day": "2026-10-06"
+  },
+  {
+    "title": "Saudi energy minister says oil pumped through East-West pipeline reached 5.8 million barrels - Reuters",
+    "source": "Reuters",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOGhwS0d6Y0FFQWI2RTNHYXE1eG1RRTBWWWp2SDFrZUVMSG1EcHNwN3lpMURoaktVTHh0bEQ2eDMyUkg0ZGMzUldHV1ZTSXFYbXo0UFI2Vmk3SWU2NzdTYk9WZUlqZmpCam9uVFl1TjRST0FlY1hRSjVFVkt3TGU5NTNDczZvS2hMUldFbGRaQ2c2QlJTdUFRbUtGRmhBaUFiOFh4ZW0yR2hvUEUyNlZXQkxNZDJfNDMyVXVPX21LN0lGbWRUOGc?oc=5",
+    "date": "Tue, 06 Oct 2026 09:42:09 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "FALCON",
+        "East-West pipeline"
+      ]
+    ],
+    "agents": [
+      "FALCON",
+      "BRENT"
+    ],
+    "label": "saudi-redsea",
+    "lane_day": "2026-10-06"
+  },
+  {
+    "title": "Yemen's Houthis claim to have launched missiles, drones at Riyadh, Aramco facilities in Yanbu - The Jerusalem Post",
+    "source": "The Jerusalem Post",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBiVXZQZ3hVQkZhejQxeEU4QnNnSktFai1Hc0RMdUJuU29ETGE5SS02bVl6OTEzTmNRUW5HckRCRlQwek0xb3VOTG52bzhzSXUta3hBQjFuMmFKNXJv?oc=5",
+    "date": "Thu, 24 Sep 2026 07:00:00 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "Yanbu",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "FALCON",
+      "BRENT"
+    ],
+    "label": "saudi-redsea",
+    "lane_day": "2026-10-06"
+  },
+  {
+    "title": "From Yanbu to Sohar: Tracking Saudi Arabia\u2019s alternative oil routes - Al Jazeera",
+    "source": "Al Jazeera",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTTloQUtCSlh4UWxLNkt6TXZzeWFWamxxdFRSOEdoV2R2VGhWR2llNGViSG0wYnFhRUVpSmJ3Vy1FdUFXbTB3cXpvS3BJX3pTUGRnUVBjaU1CeFJoZG9MZ3VSNFNSR0NnVTBMTzNuUWlSOThPN1lFU2ttSU9aaVZHaUNRY1g1cC1XWkdYXzA1OVB0ZHpoNnhRd2ZJakNtdlg4VmxaT0FVN1hwQdIBrwFBVV95cUxQTXBBYjhQNjVIbl9kbnJQU3YwWkdDN0ZXZF9hSVltc3hwMDM2NmpmdmFmQTlHUllvbjg5SktlRWw1N09teGN2Rmd0eXhvRVRPRHlMQmlIaWhTbnB5Z2xZdzZyMm1tVHVhMHBfVFZocTB3ajhlSEg2aVc2cGdsaHFZcmt5NlRidFNrUV9FVm8wY2Vmcm5tYkMwQm52TUgyOWhMYldWNGttbk9heFBhNUtn?oc=5",
+    "date": "Thu, 17 Sep 2026 07:00:00 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "Yanbu",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "FALCON",
+      "BRENT"
+    ],
+    "label": "saudi-redsea",
+    "lane_day": "2026-10-06"
+  },
+  {
+    "title": "Saudi East-West Pipeline Moves 5.8 Million Barrels as Red Sea Route Recovers - Crude Oil Prices Today | OilPrice.com",
+    "source": "Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONF9VR3Rjb1BQTGZiMWZYMWxaZk9wTDF6R3M5c1l5UTk1OGY3YWVMbGdrX19Sa0NRZ3EwQ0R4OFBYMDZxemdGcFdKdlJ5TktELWdOMEgzM0VHb3JFM1dQclB4ZndYTkt6a2xJcXdaeFpsRnl6YW9BWkVpd244S1NPdThsN1BCczNtWmFwRWgyRFRRUDg3S0VSX3hIckNsVWtNM1JqUGExVFVrM1dOeHdWOVV4SlRRNFFIVW5VMEFWNlp6UEV6T2V3NjE5b0pseXQ50gHQAUFVX3lxTE40X1VHdGNvUFBMZmIxZlgxbFpmT3BMMXpHczlzWXlROTU4ZjdhZUxsZ2tfX1JrQ1FncTBDRHg4UFgwNnF6Z0ZwV0p2UnlOS0QtZ04wSDMzRUdvckUzV1ByUHhmd1hOS3prbElxd1p4WmxGeXphb0FaRWl3bjhLU091OGw3UEJzM21aYXBFaDJEVFFQODdLRVJfeEhyQ2xVa00zUmpQYTFUVWszV054d1Y5VXhKVFE0UUhVblUwQVY2WnpQRXpPZXc2MTlvSmx5dDk?oc=5",
+    "date": "Tue, 06 Oct 2026 16:30:00 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "FALCON",
+        "East-West pipeline"
+      ]
+    ],
+    "agents": [
+      "FALCON",
+      "HAWK"
+    ],
+    "label": "war-risk-insurance",
+    "lane_day": "2026-10-06"
+  },
+  {
+    "title": "Russian diesel exports via the Black Sea fall to zero for the first time on record - https://theins.press/en",
+    "source": "https://theins.press/en",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBveUVHRmxHcUVLRXptbTVfQ3FyT0hqZUEwRGFPS0ktSVhFZURKSkNRdlhHTlNRZEFGUEliZ1pucFU1b3pTbE1GTWdfUQ?oc=5",
+    "date": "Thu, 01 Oct 2026 16:19:05 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "BRENT",
+        "Russia diesel export"
+      ]
+    ],
+    "agents": [
+      "FALCON",
+      "HAWK"
+    ],
+    "label": "war-risk-insurance",
+    "lane_day": "2026-10-06"
+  },
+  {
+    "title": "TrendForce Raises 2027 HBM Price Forecast as Supply Constraints Persist - EE Times Asia",
+    "source": "EE Times Asia",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdFVIUFozcjdMLWVZcXhUVFJKc01qeDA3QzJDWkdwNTNNZmw4cXgxOU81clU3YXhIVzYydzFubERKSERuaHFWa3k1dXNlN2RYNU1BTUFuOXlVSDAxSTAzVFBlZGRHMXAzS3NnRUVld0o3NkU2M0FZZUlCNWQ1d3poWHpCSlVfRzdoX0R6NlV3OUt1dENIb3RwQ0F0WmY?oc=5",
+    "date": "Tue, 06 Oct 2026 00:14:42 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "TrendForce",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "VULCAN"
+    ],
+    "label": "memory-pricing",
+    "lane_day": "2026-10-06"
+  },
+  {
+    "title": "Russia Extends Diesel Export Ban Through End of October, Tightening Global Fuel Supply - BigGo Finance",
+    "source": "BigGo Finance",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ZLXdWa25adFZpYllIM2g2WFhvbnRwY1RaVTN4NlJJV2JhMy1tOVh6c2pDdUhqMTM5RDlfZ2RQNUZjSlE5NGY0em1WNVM5VTZUX0JVWHBaTGVGcnQ0WmE3b2lMWTdBNDl6eGxtb1l0OG15WWlhM3c?oc=5",
+    "date": "Wed, 30 Sep 2026 09:55:00 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "BRENT",
+        "Russia diesel export"
+      ]
+    ],
+    "agents": [
+      "HENRY",
+      "OSPREY",
+      "BRENT"
+    ],
+    "label": "russia-fuel-export-ban",
+    "lane_day": "2026-10-06"
+  },
+  {
+    "title": "RUSSIA EXTENDS DIESEL EXPORT BAN THROUGH OCTOBER - REPORTS - CGTN",
+    "source": "CGTN",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fUkMxelA1VWVBOGlueEpOUzRqaWVPODB1Y0pQWHJiZGlDN2NRQm1jS1c2ZkRoY05malRPMGYxYU1qaWJlMlRRRjd4RkVpM0M1LVlWLUVrS3hNNjdZci1YY3NSalJhSmVqTThnMnln?oc=5",
+    "date": "Wed, 30 Sep 2026 07:00:39 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "BRENT",
+        "Russia diesel export"
+      ]
+    ],
+    "agents": [
+      "HENRY",
+      "OSPREY",
+      "BRENT"
+    ],
+    "label": "russia-fuel-export-ban",
+    "lane_day": "2026-10-06"
+  }
+]

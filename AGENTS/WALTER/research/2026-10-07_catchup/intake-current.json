@@ -1,0 +1,274 @@
+{
+  "health": [
+    [
+      "OK",
+      "last_run 2026-10-06T19:56:26Z (1 missed weekday runs, 1 calendar days)"
+    ],
+    [
+      "OK",
+      "news search items saved: 209 (trailing median 150 over 10 batches)"
+    ]
+  ],
+  "new": [
+    {
+      "feed": "newsweep",
+      "key": "news:NEW_ALERT:data/2026-10-06/news.json",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "(per-item agents field)"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "3 NEW_ALERT item(s) \u2014 read data/2026-10-06/news.json",
+      "label": "3 NEW_ALERT",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:NEW_WATCH:data/2026-10-06/news.json",
+      "band": null,
+      "gate": "INFO",
+      "owners": [
+        "(per-item agents field)"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "12 NEW_WATCH item(s) \u2014 read data/2026-10-06/news.json",
+      "label": "12 NEW_WATCH",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:DEVELOPMENT:0616c8ca8d9a",
+      "band": null,
+      "gate": "INFO",
+      "owners": [
+        "CRUISE"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "Carnival Corp. reports record third-quarter results and updates 2026 outlook - AD HOC NEWS",
+      "label": "DEVELOPMENT [known entity Carnival Corp + escalation qualifier]",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:f145f390e8df",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "How Europe Can Talk Donald Trump Out of a Diesel Export Ban - The National Interest",
+      "label": "WATCH_HIT [BRENT:'Trump diesel export']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:da8de6976164",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "The diesel export ban may be lifted in October for some Russian companies, according to IFX - Newsquawk",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:66770891ef9a",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BROCK"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Private credit roundup: Blue Owl redemptions ease, tech and refinancing risks persist - KSL News",
+      "label": "WATCH_HIT [BROCK:'Blue Owl redemptions']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:ea65f0a86938",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "TERRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Western Alliance Bancorporation Announces Third Quarter 2026 Earnings Release Date, Conference Call and Webcast - Business Wire",
+      "label": "WATCH_HIT [TERRY:'Western Alliance third quarter']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:eb9bb157a8e0",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "MIDAS"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Central Bank Gold Statistics: Central banks continue summer spree in August | Post by Marissa Salim | Insights - World Gold Council",
+      "label": "WATCH_HIT [MIDAS:'Central bank gold statistics']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:7a7351169529",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "FALCON"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Saudi energy minister says oil pumped through East-West pipeline reached 5.8 million barrels - Reuters",
+      "label": "WATCH_HIT [FALCON:'East-West pipeline']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:c945a072a3d4",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "FALCON"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Saudi East-West Pipeline Moves 5.8 Million Barrels as Red Sea Route Recovers - Crude Oil Prices Today | OilPrice.com",
+      "label": "WATCH_HIT [FALCON:'East-West pipeline']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:e47a2fbe79c5",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russian diesel exports via the Black Sea fall to zero for the first time on record - https://theins.press/en",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:cb59f8d5ae3e",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia Extends Diesel Export Ban Through End of October, Tightening Global Fuel Supply - BigGo Finance",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:0ebd5ab48cf8",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "RUSSIA EXTENDS DIESEL EXPORT BAN THROUGH OCTOBER - REPORTS - CGTN",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export']",
+      "onset": true
+    }
+  ],
+  "suppressed": [
+    {
+      "feed": "fred",
+      "key": "fred:UMCSENT:orange",
+      "band": "orange",
+      "gate": "INFO",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "UMCSENT UMich sentiment=51.7 [orange]",
+      "label": "",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:MORTGAGE30US:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "PROME"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "MORTGAGE30US 30yr mortgage rate %=7.28 [red]",
+      "label": "",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:BAMLH0A0HYM2:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "LIQUID",
+        "PROME"
+      ],
+      "info_cc": [
+        "HENRY"
+      ],
+      "precedence": "IMMEDIATE",
+      "raw": "BAMLH0A0HYM2 HY OAS bps=312.0 [red]",
+      "label": "X1-trigger breach (credit-bear arm)",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:BAMLH0A0HYM2:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "LIQUID",
+        "PROME"
+      ],
+      "info_cc": [
+        "HENRY"
+      ],
+      "precedence": "IMMEDIATE",
+      "raw": "BAMLH0A0HYM2 HY OAS=312bps [red] >=280 X1-trigger breach (LIQUID half of X1; sustain-check owner LIQUID; BROCK wrapper-half must also fire)",
+      "label": "X1-trigger breach (credit-bear arm)",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:MU_2026_09_30_2_02_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "VULCAN"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "MU 2026-09-30 ['2.02', '9.01']",
+      "label": "critical 8-K [other]",
+      "onset": false
+    }
+  ]
+}

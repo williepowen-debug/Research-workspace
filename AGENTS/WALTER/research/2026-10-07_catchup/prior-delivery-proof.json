@@ -1,0 +1,27 @@
+{
+  "as_of": "2026-10-07T22:07:21Z",
+  "limits": "local origin ref; earlier live remote proof Oct7; latest DNS retries failed",
+  "processed_only_proofs": [
+    {
+      "signal_id": "SIG-W-20261005-001",
+      "recipient": "BRENT",
+      "origin_processed_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261005-001.md",
+      "sha256": "066d2e6a68323734b96e5ae2de020d4b425c3eb89a9f397844164f5ecb34fa91",
+      "origin_ref": "9e2a93285895ae5897840daed7f5bf379da13e66"
+    },
+    {
+      "signal_id": "SIG-W-20261005-002",
+      "recipient": "BRENT",
+      "origin_processed_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261005-002.md",
+      "sha256": "dee285fb157645be9b37f07933ce477cf55b59cc49f68b94e573046d99cac970",
+      "origin_ref": "9e2a93285895ae5897840daed7f5bf379da13e66"
+    },
+    {
+      "signal_id": "SIG-W-20261005-004",
+      "recipient": "BRENT",
+      "origin_processed_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261005-004.md",
+      "sha256": "358ad4ce260f18e29d4ec4a9724f2b7e23e792a94bbb821a8910f1335ea8d1a3",
+      "origin_ref": "9e2a93285895ae5897840daed7f5bf379da13e66"
+    }
+  ]
+}

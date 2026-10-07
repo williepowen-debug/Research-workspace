@@ -1,0 +1,43 @@
+{
+  "as_of": "2026-10-07T22:26:55.530532+00:00",
+  "publication": "PENDING: live GitHub DNS failed, foreign work prevents pull/push; origin ref is dated",
+  "commits": [
+    {
+      "commit": "df0d849eb",
+      "scope": "17 BOARD outputs, index, route and delivery ledgers"
+    },
+    {
+      "commit": "7cb9a4b1f",
+      "scope": "60 exact sender-authored handoffs, excluding active BOND/BRENT"
+    },
+    {
+      "commit": "813ee8a05",
+      "scope": "4 BRENT handoffs after observed native idle"
+    }
+  ],
+  "handoffs": {
+    "written": 66,
+    "sender_committed": 64,
+    "origin_proven": 0,
+    "remaining": [
+      "AGENTS/BOND/inbox/WALTER/SIG-W-20261007-002.md",
+      "AGENTS/BOND/inbox/WALTER/SIG-W-20261007-006.md"
+    ],
+    "reason": "BOND active; pause/yield requested, no concurrent-subtree commit"
+  },
+  "consumption": {
+    "PROME": "Explicit native acknowledgement of report received; final exact completion packet still due",
+    "BRENT": "Whole current report read;003/004/014/015 integrated; archiving separately",
+    "BOND": "Native report says002 integrated,006 logged; final owned report not yet consumed"
+  },
+  "checks": {
+    "index": "PASS 1239 identical,0 hand-only markers",
+    "weekday": "PASS 3 named files",
+    "diff": "PASS owned WALTER/BOARD",
+    "archive_pairs": "PASS 2 staged moves",
+    "doctor": "0HIGH/69MED:64 publication warnings+5 retained structural/backlog/review prompts",
+    "continuity": "REVIEW:3 processed-only old BRENT origin paths not resolved by checker; exact independent proofs show Oct5 19/19",
+    "boot": "PARTIAL as detailed in REPORT.md"
+  },
+  "closeout": "Light continuity only; full closeout not requested"
+}

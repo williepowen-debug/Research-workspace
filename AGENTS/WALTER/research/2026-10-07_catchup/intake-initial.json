@@ -1,0 +1,315 @@
+{
+  "health": [
+    [
+      "MED",
+      "lane STALE: 3 missed weekday runs, 3 calendar days \u2014 collector likely down; flag PROME"
+    ],
+    [
+      "OK",
+      "news search items saved: 96 (trailing median 154 over 10 batches)"
+    ]
+  ],
+  "new": [],
+  "suppressed": [
+    {
+      "feed": "fred",
+      "key": "fred:UMCSENT:orange",
+      "band": "orange",
+      "gate": "INFO",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "UMCSENT UMich sentiment=51.7 [orange]",
+      "label": "",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:MORTGAGE30US:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "PROME"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "MORTGAGE30US 30yr mortgage rate %=7.28 [red]",
+      "label": "",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:BAMLH0A0HYM2:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "LIQUID",
+        "PROME"
+      ],
+      "info_cc": [
+        "HENRY"
+      ],
+      "precedence": "IMMEDIATE",
+      "raw": "BAMLH0A0HYM2 HY OAS bps=324.0 [red]",
+      "label": "X1-trigger breach (credit-bear arm)",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:BAMLH0A0HYM2:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "LIQUID",
+        "PROME"
+      ],
+      "info_cc": [
+        "HENRY"
+      ],
+      "precedence": "IMMEDIATE",
+      "raw": "BAMLH0A0HYM2 HY OAS=324bps [red] >=280 X1-trigger breach (LIQUID half of X1; sustain-check owner LIQUID; BROCK wrapper-half must also fire)",
+      "label": "X1-trigger breach (credit-bear arm)",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:MU_2026_09_30_2_02_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "VULCAN"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "MU 2026-09-30 ['2.02', '9.01']",
+      "label": "critical 8-K [other]",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:NEW_ALERT:data/2026-10-04/news.json",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "(per-item agents field)"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "4 NEW_ALERT item(s) \u2014 read data/2026-10-04/news.json",
+      "label": "4 NEW_ALERT",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:NEW_WATCH:data/2026-10-04/news.json",
+      "band": null,
+      "gate": "INFO",
+      "owners": [
+        "(per-item agents field)"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "6 NEW_WATCH item(s) \u2014 read data/2026-10-04/news.json",
+      "label": "6 NEW_WATCH",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:8101c7d25763",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "EU Opposes US Threat to Halt Diesel Exports Over Fuel Stocks - Egypt Oil & Gas",
+      "label": "WATCH_HIT [BRENT:'US diesel export']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:958582091443",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Trump\u2019s proposed ban on diesel exports could have unintended consequences for Texas refineries - texastribune.org",
+      "label": "WATCH_HIT [BRENT:'Trump diesel export']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:24c68e7d1f43",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "President Donald Trump Is \"Very Seriously\" Thinking About Curbing Diesel Exports, but the Repercussions Could Be Disastrous - Yahoo Finance",
+      "label": "WATCH_HIT [BRENT:'Trump diesel export']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:357e199d8933",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Trump rules out U.S. diesel export ban after G7 release - ttnews.com",
+      "label": "WATCH_HIT [BRENT:'Trump diesel export'; BRENT:'U.S. diesel export']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:7ed7d8de6ece",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Trump 'thinking about' diesel export ban, but says it could have 'negative impact' on gasoline - CNBC",
+      "label": "WATCH_HIT [BRENT:'Trump diesel export']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:eb4ab699ec3f",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Trump: not going to be doing diesel export ban - Centre Daily Times",
+      "label": "WATCH_HIT [BRENT:'Trump diesel export']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:d922c7c60833",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "More tankers struck in the Middle East as Iran reiterates conditions for reopening the Strait of Hormuz - CNBC",
+      "label": "WATCH_HIT [HENRY:'Hormuz reopening']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:e4aeef76fbd2",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "OPEC+ agrees to keep November oil output targets steady - Reuters",
+      "label": "WATCH_HIT [BRENT:'OPEC agrees']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:20c61ca70561",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Ukraine war briefing: Kyiv to increase oil refinery attacks because of Moscow\u2019s winter strategy, Zelenskyy says - The Guardian",
+      "label": "WATCH_HIT [HENRY:'refinery attack']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:062ab3a89bef",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "MIDAS"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Central Bank Gold Statistics: Central banks make positive headlines on gold | Post by Marissa Salim | Insights - World Gold Council",
+      "label": "WATCH_HIT [MIDAS:'Central bank gold statistics']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:c1dfb7eb9458",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "CREED"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Failed Bank Information for Nano Banc, Irvine, CA - fdic.gov",
+      "label": "WATCH_HIT [CREED:'Nano Banc']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:d3df21ecef62",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia Extends Diesel Export Ban Until Oct. 31 - kyivpost.com",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:33e7e88194f6",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia extends producers\u2019 diesel, marine fuel and gasoil export ban through October 31, 2026 - \u041c\u0435\u0436\u0430. \u041d\u043e\u0432\u0438\u043d\u0438 \u0423\u043a\u0440\u0430\u0457\u043d\u0438.",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:112c8889b88f",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HANS"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Dutch TTF Gas - TAS Nov '26 Futures Price History - Barchart.com",
+      "label": "WATCH_HIT [HANS:'Dutch gas price']",
+      "onset": false
+    }
+  ]
+}

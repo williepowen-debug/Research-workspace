@@ -1,0 +1,16 @@
+{
+  "status": "REVIEW",
+  "findings": [
+    "SIG-W-20261005-001/BRENT: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261005-002/BRENT: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261005-004/BRENT: ledger/origin disagree; reconcile or investigate",
+    "delivery receipt mismatch: actual 16/19"
+  ],
+  "as_of": "2026-10-07T22:07:21Z",
+  "origin_ref": "9e2a93285895ae5897840daed7f5bf379da13e66",
+  "delivery_scope": "20261005",
+  "delivered": 16,
+  "total": 19,
+  "next_review": "2026-10-09",
+  "limits": "Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review."
+}

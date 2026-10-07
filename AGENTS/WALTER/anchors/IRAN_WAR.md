@@ -13,6 +13,8 @@
 
 > **SIZE CHECK:** measure this file at every Tier-2 closeout and any session adding an addendum. Re-rotate at ≥24,412 B (75% of the 32,550 B budget), stopping below 22,785 B (70%). Next mandatory dated check: 2026-10-09 (rotated 10/02 Tier-2: 24,416 B → see `wc -c`). Previous rotation narratives are preserved in `IRAN_WAR_HISTORY.md`, including the September 15 maintenance rotation. This is an executable check, not a standing claim of leanness. **The full primary sweep due about 9/17 is separate and never discharged by rotation.**
 
+> **2026-10-07 QUALIFIED LIMBS — NOT A FULL SWEEP:** SIG-W-20261007-014 recovers the October6 named Saudi minister statement that Petroline is operational; The National calls 5.8 million barrels/day flow, Reuters recovered copy omits the daily unit, Saudi Gazette says restored operational capacity. No independent metered daily series or export-liftings confirmation; no WALTER re-grade. SIG-W-20261007-015 retains October5 Rabigh/Jeddah fire/attack claims with facility/cause/damage unauthenticated; refining is not automatically production. FALCON/BRENT owner integration requested. Whole 27-block guard corpus read; full-sweep clock stays October1 → approximately October8.
+
 ## 📕 THE THREE FILES — read the right one
 
 | File | When | Boot? |

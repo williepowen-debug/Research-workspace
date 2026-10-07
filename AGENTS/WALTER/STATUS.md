@@ -1,27 +1,22 @@
 # WALTER STATUS
 
-**Updated 2026-10-05T14:30:10Z — Will-directed Tier-2 closeout.** BOARD1222; today six dispatches, zero kill-log additions, zero verification spawns, one cluster-mediating signal (below five). Boot remains PARTIAL; [LAST_COMPLETION.md](LAST_COMPLETION.md) owns coverage, publication and next-owner duties. No approval, threshold or owner grade changed.
+**Updated 2026-10-07T22:04:25Z — October7 authorised news catch-up; light-closeout, full deferred.** BOARD1239; today17 dispatches (14 news/research,3 corrections), zero kill-log additions or verification spawns. Boot PARTIAL. [REPORT](research/2026-10-07_catchup/REPORT.md) owns current evidence; LAST_COMPLETION retains running obligations. Publication and owner consumption separately unverified.
 
 ## BOTTOM LINE
 
-Shipping intake and tanker-cost research are saved. Will's manual tanker-cost watch is active for USO shares and calls: track freight/insurance separately from transmission to WTI. BRENT retains domain judgment. Existing position-management rails remain unchanged; the broker mirror is not current position truth. Manual threshold/filter coverage and read-basis attestation remain incomplete, so this closeout is not a full-board all-clear.
+October5→7 news catch-up saved: actual Fed minutes, EIA forecast/inventory, consumer credit, fertilizer, gold and issuer/labour evidence; qualified pipeline, fire, private-credit and AI supply leads routed. Freight/insurance remain dated despite recovering oil flows. Manual USO watch active; Oct7 holdings basis current with exact time UNKNOWN. No new trade or gate. Full threshold/filter/read-basis coverage remains incomplete.
 
-## DATED MARKET OBSERVATIONS — audited refresh 2026-10-05 10:34ET; retained older legs labelled
+## DATED MARKET OBSERVATIONS — October7 pull; vintages explicit
 
 | Row | Observation and limit |
 |---|---|
-| HY / RED-FT-02 / REG-T-03 | 310bp [FRED Oct2], down14 from324 [Oct1]. >320 three-observation watch RESET0/3. No new fire. |
-| CCC / RED-FT-07 | 1202bp [FRED Oct2], existing banked state; exit <930 for3 not met. |
-| VIX / SKEW / T5YIFR | VIX15.63 [Oct5 ~10:34ET intraday]; VIXCLS15.31 [Oct2], FT06 remains banked; exit>=18 for5 not met. CBOE SKEW144.88 [Oct2], below150; T5YIFR2.35 [Oct2]. Intraday quotes do not satisfy close-based sustain counts. |
-| Banks / FX | KRE70.65, WAL76.24, USDJPY158.12 [Oct5 ~10:34ET intraday]. WAL fired-state exit not met. |
-| Energy / funding — retained boot evidence | BZZ26 Dec Brent102.41 [Oct5 intraday]; Cushing24.301M [week Sept25]; claims197K [week Sept26]; SOFR3.88, SOFR-IORB -2bp [Oct2]. |
-| HANS — retained boot evidence | Nov TTF74.01 [Oct5 indicative]; storage72.40% [gas dayOct3], mean gap-15.25pp; ongoing state. ECB AAA10Y3.464 [Oct2] and BoE par10Y5.3665 [Oct1] are proxies, not benchmark close grades. Registry17rows; EURUSD3M basis unfed. Remaining manual/compound grades not cleared. |
-| CREED | Registries/fire log read; T08a owner fire9/26 preserved. No new September Trepp primary validated in this boot; periodic/event coverage incomplete. |
-| Iran | FALCON Oct4 adjudications: fresh heat at25.252N48.103E, facility/cause unknown; production rung NOT FIRED, losses3. UKMTO150-26 source authentication unresolved. Full anchor sweep lastOct1; later owner correction014 governs fresh-heat interpretation. |
-
-Shipping intake reviewed 2026-10-05T13:48:24Z: four qualified signals recorded; no new price observation or threshold adjudication. The audit refresh above supersedes the affected boot observations; untouched legs retain their observation times. Receipt and current duties: [LAST_COMPLETION](LAST_COMPLETION.md).
-
-Tanker-cost research 2026-10-05T14:13:08Z: public weekly assessments obtained; latest market observations October1/2, insurance September25. No daily feed or registered threshold update. Current receipt: LAST_COMPLETION.md.
+|HY / CCC|FRED HY303bpOct6; >320 watch0/3. CCC1214bpOct6, existing banked state. Automated legs only.|
+|VIX / SKEW|VIXCLS15.01 and SKEW141.21Oct6; FT06 existing state; no close-based trigger inferred from intraday data.|
+|Energy / inventory|EIA weekOct2: US commercial424.134M−3.186M; Cushing24.745M+0.444M; exports4.765mb/d weekly,4.112four-week. No new owner fire or freight-causality grade.|
+|Freight / insurance|Latest public assessmentsOct2; insurance quoteSept25. Next public weekly reviewOct9. Current USO contract weights UNKNOWN.|
+|HANS|NovTTF78.53EUR/MWh indicative; GIE72.97%Oct6, mean gap−15.10pp. Proxy yields/manual rows not fresh owner grades.|
+|Funding|SOFR3.90,IORB3.90Oct6, gap0bp. Dashboard score is not an owner grade.|
+|Iran|Full sweepOct1, next~Oct8. QualifiedOct7 pipeline/fire limbs and guards read; no authenticated new production loss/rung or incident census.|
 
 ## MISSION
 
@@ -31,11 +26,11 @@ Routing + receiving-layer readiness; domain agents own evidence, state and judgm
 
 **Active manual source watch — Will-directed October5:** at every boot read [tanker-cost-watch/WATCH.md](research/tanker-cost-watch/WATCH.md) and STATE.csv; check due dates, collect due weekly freight or new event evidence and route material changes. USO relevance must pass through WTI; costs and flows are separate. No unattended scheduler.
 
-Current work and next-owner actions: `LAST_COMPLETION.md`. Sweep evidence: `research/2026-09-17_iran-full-sweep.md`. Design directory: `design/STATE.md`. Durable triggers: `MEMORY.md`.
+Current catch-up: `research/2026-10-07_catchup/REPORT.md`; running duties: `LAST_COMPLETION.md`. Sweep evidence: `research/2026-09-17_iran-full-sweep.md`. Design directory: `design/STATE.md`. Durable triggers: `MEMORY.md`.
 
 ## NETWORK AWARENESS
 
-### Routing and receiving readiness — observed 2026-10-05T14:30:10Z
+### Prior full-closeout network snapshot — observed 2026-10-05T14:30:10Z (historical; October7 report governs current routing)
 
 BOARD1222; October5 has six dispatches, zero kill-log additions and zero verification spawns. One cluster-mediating signal; no network-uncertainty-peak trigger. Shipping batch closed5/5; cost research and the manual watch are separate follow-ups. Clusters represented: IRAN_HORMUZ, INFLATION_TRANSMISSION and MISC.
 

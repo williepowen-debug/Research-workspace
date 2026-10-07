@@ -1,0 +1,79 @@
+========================================================================
+ RED BOOT KIT — 2026-10-07 16:27 ET-local
+========================================================================
+
+① TAPE — live anchors 2026-10-07
+   VIX                         15.08    +0.47%
+   SPY                        777.22    -0.24%
+   Regional Banks ETF          68.89    -1.68%
+   Western Alliance            74.35    -2.29%
+   Bank OZK                    43.56    -2.29%
+   Russell 2000 ETF           277.70    -1.29%
+   20Y+ Treasury ETF           77.14    -0.17%
+   HY Bond ETF                 77.18    -0.12%
+   Brent Crude                101.09    +0.51%
+   USD/JPY                    158.06    -0.06%
+   10Y Treasury Yield           5.28    +0.15%
+   ^SKEW (CBOE, publisher)     141.21 (-1.83)  [CBOE bar 10/06/2026]
+   VIX close (CBOE/FRED)       15.01 (-0.51)  [FRED 2026-10-06]
+   HY OAS                        303bps (-9)  [FRED 2026-10-06]
+   CCC OAS                     1,214bps (+3)  [FRED 2026-10-06]
+   Initial Claims                197K (-1)  [FRED 2026-09-26]
+   5y5y Breakeven               2.35% (-0.01)  [FRED 2026-10-06]
+
+② TRIGGER CHECK
+   — registry (hard, WALTER auto-fire) —
+   🟢 RED-FT-01  HY-OAS <280 s=3  clear    live 303.00 vs <280 (dist +23.00)
+   🟢 RED-FT-02  HY-OAS >320 s=3  clear    live 303.00 vs >320 (dist -17.00)
+   🟢 RED-FT-03  BRENT-PAPER >130 s=5  clear    live 101.09 vs >130 (dist -28.91)
+   🟢 RED-FT-04  BRENT-PAPER <75 s=3  clear    live 101.09 vs <75 (dist +26.09)
+   🟢 RED-FT-05  INITIAL-CLAIMS >250 s=1  clear    live 197.00 vs >250 (dist -53.00)
+   🟠 RED-FT-06  VIX <16 s=5  FIRING*  live 15.01 vs <16 (dist -0.99) — condition true, sustain 5 NOT yet met (trail ['15.01', '15.52', '15.31', '16.39', '16.34'])
+   🔴 RED-FT-07  CCC-OAS >930 s=1  FIRING   live 1,214.00 vs >930 (dist +284.00)
+   ⚪ RED-FT-08  CORE-CPI-3MO-ANN — unmapped metric, manual check
+   🟢 RED-FT-09  BREAKEVEN-5Y5Y >2.55 s=5  clear    live 2.35 vs >2.55 (dist -0.20)
+   🟢 RED-FT-10  SKEW-CBOE >=150 s=4  clear    live 141.21 [CBOE bar 10/06/2026] vs >=150 (dist -8.79) — run 0-of-4
+   ⚪ RED-FT-11  UST-30Y-RALLY-ATTRIBUTION — unmapped metric, manual check
+   🟢 RED-FT-12  HY-OAS <260 s=3  clear    live 303.00 vs <260 (dist +43.00)
+   — watch lines (soft, docket/WATCHLINES.tsv) —
+   🟢 WL-01      VIX >23      clear    live 15.08 vs >23 (dist -7.92) — VIX>23 sustained 5 closes — TAIL-STOP role (matches VIOLET KB-VIO-088, S18 self-correction)
+   🟢 WL-02      VIX >20      clear    live 15.08 vs >20 (dist -4.92) — VIX >20 single close — generic risk-off escalation tag (was: Jun-stack window-trigger; stack expired 6/18)
+   🔴 WL-03      HY-OAS >=280     FIRING   live 303.00 vs >=280 (dist +23.00) — sustained 3 obs ['303', '312', '310'] — FT-01 un-fire re-cross (sustain-window-respect)
+   🟢 WL-04      HY-OAS <260     clear    live 303.00 vs <260 (dist +43.00) — Credit canary fully dead
+   🔴 WL-05      CCC-OAS >955     FIRING   live 1,214.00 vs >955 (dist +259.00) — VIOLET CCC gate (9.55)
+   🔴 WL-06      CCC-OAS >1000    FIRING   live 1,214.00 vs >1,000 (dist +214.00) — CCC 2016-analog threshold (10.00)
+   🟡 WL-07      USDJPY >160     NEAR     live 158.06 vs >160 (dist -1.94) — MOF #3 hard-trigger zone (SAM)
+   🟡 WL-08      KRE <67      NEAR     live 68.89 vs <67 (dist +1.89) — KRE <67 — cohort-stress tag (was: Jun30 KRE puts in-frame; expired 6/30. Live vehicle = KRE Dec $60P x7)
+   🟡 WL-09      WAL <74      NEAR     live 74.35 vs <74 (dist +0.35) — WAL <74 — name-stress tag (was: Jun-stack window-trigger WAL leg; stack expired)
+   🟢 WL-10      SPY-DAY <-2      clear    live -0.24 vs <-2 (dist +1.76) — SPY day <-2pct — tape-stress tag (was: Jun-stack window-trigger SPY leg)
+   🟢 WL-11      BRENT <95      clear    live 101.09 vs <95 (dist +6.09) — CHG-RED-027 sub-trigger (d) price leg
+   🟡 WL-12      USDJPY <155     NEAR     live 158.06 vs <155 (dist +3.06) — SAM convexity-tail firing / yen-haven re-couple watch
+
+③ CATALYST COUNTDOWN (pending, ≤14d)
+      T-14  2026-10-21   🔴 IQHQ RaDD maturity RESOLUTION (Aug maturity itself likely passes with 
+      T-9   2026-10-16   🟡 HBAN/TLT Oct expire
+      T-7   2026-10-14   🔴 September CPI [DATE VERIFIED 7/24: Wed 10/14 08:30 ET, not ~10/13] - C
+      T-14  2026-10-21   HIGH EGBN Q3 2026 - CHG-027 successor discriminator (clearing vs deteriorat
+      T-9   2026-10-16   medium LIQUID LIQ-07 S1/S2 verdict (10th published session after the 9/30 tri
+      T-13  2026-10-20   medium CARL Q3 discriminators for the DR-3 premium leg due before the Q3 prin
+   🔴 OVERDUE 5d 2026-10-02   high September NFP + household survey - FEEDS the S50 hypothesis-weight — resolve with outcome
+
+④ DUE-SCAN (boot step 3 / resolve at W2)
+   ⚠️  RED-25 timeframe 'when DEWEY or CARL runs the test; re-review 2026-10-31 if unrun' unparseable — MANUAL CHECK
+   — open challenges (every non-RESOLVED status; leading Resolved_Date = re-review) —
+   • CHG-RED-027 [ACTIVE-GRADED] (147d, re-review 2026-10-22, Self-bifurcation-framing): Pre-registered self-falsifier on "structural confirms / pape
+   • CHG-RED-028 [LIVE-RE-ANCHORED] (147d, re-review 2026-11-10, Stagflation-realization): April CPI HOT (3.8pct YoY, Core 2.8pct, MoM 0.4pct, Energy +
+   • CHG-RED-044 [ACTIVE-CONCEDED] (68d, re-review 2026-11-30, BROCK (BRK-32 spec + register escalation): BRK-32 red-team (BROCK-invited 7/27, RED-assigned register).
+   • CHG-RED-045 [ACTIVE] (56d, re-review 2026-11-15, CARL (HHDC full-thesis kill rule, THESIS): RULING DELIVERED PRE-DATA AT CARL'S OWN INVITATION: GRADE TH
+   • CHG-RED-049 [ACTIVE] (41d, re-review 2026-10-20, CARL (inverse-configuration auto-DQ read): The inverse-configuration read is a legitimate HYPOTHESIS an
+   • CHG-RED-051 [ACTIVE] (41d, re-review 2026-10-31, SELF - APPARATUS (RED's own registry/FAL): RED'S FIRST APPARATUS-CLASS SELF-CHALLENGE (ML-185 obligatio
+
+(5) BOARD DISPOSITION GAP (boot 1.5 obligation - log what you consume)
+   board_log.tsv size: 8,780 B = 27.0% of 32,550  OK  [append via scripts/board_log_append.py]
+   ledgers read      : 6 (5 archived) - 221 ids logged
+   BOARD signals     : 1222 scanned, 52 carry no routing key
+   ALERT 1 action-addressed signal(s) UNLOGGED - 1 aged >=2d, oldest 5d
+      SIG-W-20261002-005     5d  SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED
+   -> append a row per id to board_log.tsv (timestamp/signal_id/disposition/source/notes); one word is a legitimate row
+
+Done. (read-only — no state written; resolve DUE rows at W2)

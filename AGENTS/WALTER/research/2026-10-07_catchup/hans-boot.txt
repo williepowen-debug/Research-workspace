@@ -1,0 +1,108 @@
+
+==========================================================================
+ HANS BOOT — 2026-10-07
+==========================================================================
+
+[1] LIVE PULL
+  ℹ️  HANS-T-07 graded on NAMED TTFX26.NYM (expires 2026-10-29, 22d)
+  🟠 TTF front-month (EUR/MWh)         78.53   L2 ORANGE >=66  [HANS-T-07]
+  ⚪ TTF continuation (TTF=F)          78.53   context only — no HANS band
+  🟢 EUR/USD                            1.12   no stress
+  🟢 DXY                              102.29   normal
+  ⚪ GBP/USD                            1.32   context only — no HANS band
+  ⚪ Henry Hub ($/MMBtu)                3.21   context only — no HANS band
+  ⚪ Euro Stoxx 50                  6,180.29   context only — no HANS band
+  ⚪ DAX                           25,104.36   context only — no HANS band
+  ⚪ FTSE 100                      10,458.50   context only — no HANS band
+
+[2] EUROPEAN PRIMARY PULL
+
+  EUROPEAN PRIMARY PULL — ECB Data Portal (keyless) + GIE AGSI+
+  🟡 Euro-area AAA 10Y    3.519%  [2026-10-06]  (prev 3.502 on 2026-10-05)   HANS-T-05 bands 3.00/3.75/4.50
+     ⚠️  AAA CURVE, not Germany specifically — a proxy. Referent stated on purpose.
+
+  Per-country 10Y (MONTHLY convergence series) + spreads vs DE:
+     DE  3.185%  [2026-08]
+     IT  3.986%  [2026-08]   spread   80.1bp  T-09 spread>200 AND BTP>5.50
+     FR  4.000%  [2026-08]   spread   81.5bp  T-10 spread>100 AND OAT>4.50
+     ES  3.630%  [2026-08]   spread   44.5bp
+     ⚠️  MONTHLY. Lags a daily print by weeks — cross-check, not a live level.
+
+  EU gas storage (GIE AGSI+):
+     72.97% full  [gas day 2026-10-06] trend +0.13pp/d   ✅ PRIMARY (GIE AGSI+)
+  🟠 GAP TO 5-YR NORM -15.10pp  (vs 88.07% norm)   HANS-T-08 bands -15 orange / -25 red
+     ✅ SINGLE-SOURCE: fill AND norm both GIE AGSI+, same gas day 10-06 across 5 prior years [2021, 2022, 2023, 2024, 2025].
+     ⚠️ norm mean 88.07 vs median 90.38 differ by 2.31pp — the 5-yr window is SKEWED; gap on the median basis is -17.41pp.
+
+  UK — Bank of England IADB (DAILY, keyless):
+     UK 10Y gilt (par)     5.3634%  [05 Oct 2026]  (2d old)   cross-check on VX-HANS-3.06 — NOT a T-06 trigger  🟢 below the T-06 orange line on this basis
+     UK 20Y gilt (par)     5.7371%  [05 Oct 2026]  (2d old)   proxy only — NOT T-13
+     BoE Bank Rate         3.7500%  [06 Oct 2026]  (1d old)   VX-HANS-4.02
+     ⚠️  NOMINAL PAR YIELDS — a different basis from a benchmark/spot quote;
+        expect a few bp against TradingEconomics. Name the basis, never average.
+
+  🔴 STILL MANUAL — named so this file cannot imply coverage:
+     UK 30Y gilt (HANS-T-13) — IADB publishes 5/10/20y par yields and NO 30y.
+     The 20y above is a PROXY and is NOT the 30y: do not read it into T-13.
+
+  ⚠️  PERIMETER: a clean [1]+[2] still does NOT clear the board. Event-driven rows
+     (ECB/BoE decisions, monthly PMI) have no feed by nature — check the calendar:
+  •  UK 30Y gilt                        HANS-T-13 (LDI instrument)     IADB has 5/10/20y par yields and NO 30y — the 20y is a PROXY, never T-13
+  •  ECB deposit rate                   HANS-T-04                      ecb.europa.eu/press/pr  (8 GovC dates/yr)
+  •  German/EU flash PMI                HANS-T-01/02/03                pmi.spglobal.com  (~22nd-24th monthly)
+
+[3] REGISTRY STATE
+  5 OPEN fire(s) of 6 logged:
+    🔥 HANS-T-05    WATCH (>3.00)      2026-08-28  val 3.29
+    🔥 HANS-T-07    L2 (>66)           2026-08-28  val 66.19
+    🔥 HANS-T-08    ORANGE (>15pp)     2026-08-28  val -17.6
+    🔥 HANS-T-02    MET (>52, sustain 2) 2026-08-21  val 54.1
+    🔥 HANS-T-10    MET (spread >100bp AND OAT >4.50, sustain 1) 2026-09-24  val 109.9bp / 4.67
+  6 of 17 rows are daily-scannable · 1 UNINSTRUMENTED (cannot fire — excluded from any clean-board count)
+  integrity perimeter: 3 breach(es) observed this run across Yahoo + ECB + AGSI → ['HANS-T-05', 'HANS-T-07', 'HANS-T-08']
+
+[4] KEY-FIGURE AGE
+  🟢 VX-HANS-3.05    German 10Y Bund Yield (LEVEL)         5d  = 3.4656
+  🟢 VX-HANS-3.06    UK 10Y Gilt Yield (LEVEL)             5d  = 5.3786
+  🟢 VX-HANS-3.08    UK 30Y Gilt Yield (LEVEL)             5d  = 5.91
+  🔴 VX-HANS-8.01    TTF Natural Gas Price                19d  = 79.38
+  🔴 VX-HANS-8.07    EU Gas Storage GAP to 5-yr Norm (p   18d  = -15.99
+  🟢 VX-HANS-8.06    German Manufacturing PMI              6d  = 53.9
+  🔴 VX-HANS-4.01    ECB Deposit Rate                     19d  = 2.50
+  🔴 VX-HANS-4.02    BoE Bank Rate                        18d  = 3.75
+  🔴 VX-HANS-2.01    EUR/USD                              19d  = 1.1489
+
+[5] PREDICTIONS — DUE / OVERDUE
+  🟢 HNS-07   2026-11-01   due in 25d
+  🟢 HNS-09   2026-11-30   due in 54d
+  🟢 HNS-08   2026-12-31   due in 85d
+
+[6] LEDGER STALENESS (live rows only; FROZEN/RETIRED excluded by design)
+  41 live / 71 total vectors (30 parked)
+  🔴 2 live vector(s) over 21d:
+     VX-HANS-10.07   Euro Area GDP QoQ (%)                  32d
+     VX-HANS-7.07    EU bank UNDRAWN warehouse / subscripti 32d
+
+[7] KB EXPIRY (facts past their own Stale_By)
+  71 live fact(s) · 70 carry an expiry · 35 parked
+  🔴 15 EXPIRED — re-verify or supersede:
+     KB-HANS-096    ENERGY       +15d  OPEN QUESTION, NOT ESTABLISHED: AGSI publication lag
+     KB-HANS-061    ENERGY       +12d  TTF front-month EUR79.38/MWh [own fetch.py 9/18, +3.
+     KB-HANS-063    FX           +12d  EUR/USD 1.1489, DXY 100.21, GBP/USD 1.3394 [own pull
+     KB-HANS-078    MARKETS      +12d  BRENT, AT NAMED CONTRACTS - replaces the withdrawn g
+     KB-HANS-079    INSTRUMENT   +12d  🔴 GENERIC CONTINUATION TICKERS CARRY A MECHANICAL JU
+     KB-HANS-081    INSTRUMENT   +12d  LOCAL ENUMERATION of continuation-ticker exposure, r
+     KB-HANS-022    ENERGY       +7d  Ukraine's campaign against Russian refining has INTE
+     KB-HANS-040    MARKETS      +7d  INFO-ONLY, SAM OWNS IT: yen ~159 and the JGB 10Y at 
+     KB-HANS-086    ECB_POLICY   +6d  Euro-area annual HICP August 2026 FINAL 3.2%, up fro
+     KB-HANS-098    GROWTH       +5d  German Mfg FLASH PMI Sept 2026 = 53.8 (Aug final 54.
+     KB-HANS-049    ENERGY       +2d  QatarEnergy force majeure EXTENDED INTO NOVEMBER (Eu
+     KB-HANS-073    ENERGY       +2d  PETROLINE (East-West pipeline, ~7 mb/d nameplate, ~5
+     KB-HANS-074    ENERGY       +2d  TWO CLAIMS AT DIFFERENT EVIDENTIAL STRENGTHS - DO NO
+     KB-HANS-082    INSTRUMENT   +2d  🔴 THE COMPOUNDING CASE: VX-HANS-8.04 (TTF/Henry-Hub,
+     KB-HANS-044    GROWTH       +1d  German factory orders +2.5% m/m in JULY, THIRD conse
+  ·  1 seed/metadata row(s) without an expiry — expected, not flagged
+
+  EXIT 1 — 🟡 ATTENTION
+  (attention, not blocking: a boot report informs a session, it does not refuse to start one)
+
