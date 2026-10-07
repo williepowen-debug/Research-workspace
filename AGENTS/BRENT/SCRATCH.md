@@ -1,6 +1,6 @@
 # BRENT SCRATCH — October 7, 2026 (catch-up delivery checkpoint)
 
-**Written 2026-10-07 17:43 ET. Same owner recovered after crash; substantive catch-up saved. Explicit coordinator closeout not yet requested. Existing approvals/deployment deferrals preserved.**
+**Archive follow-up 2026-10-07 18:27 ET; substantive data capture unchanged. Written 2026-10-07 17:43 ET. Same owner recovered after crash; substantive catch-up saved. Explicit coordinator closeout not yet requested. Existing approvals/deployment deferrals preserved.**
 
 ## CHANGES SINCE LAST SESSION
 - October6 STEO and October7 WPSR now integrated; forecast cutoff and opposing crude/product evidence at [REPORT](research/2026-10-07_news-catchup/REPORT.md).
@@ -13,7 +13,7 @@
 - Recovered saved primary PDFs/XLS/JSON/bars; no duplicate data-pull replay. Wrote report, STATUS, THESIS/CHANGELOG, TRADE, RULINGS, TRACKER, docket and NEXUS update with explicit source vintages.
 - Reproduced raw gasoline four-week sums and three complete named crack windows; rejected duplicated-volume daily rows. No new prediction, Phase-2 grade, threshold or trade recommendation.
 - Boot rc2 retains its original findings; subsequent EIA same-week XLS/API coverage recovered. Corrections register check passed October7; no due prediction or pending recorded execution receipt flagged by boot.
-- Full BRENT-routed October5–7 BOARD delta and whole live inbox read. New WALTER003/004 integrated; receipt/archive persistence status at MAIL STATE.
+- Full BRENT-routed October5–7 BOARD delta and whole live inbox read. WALTER003/004/014/015 integrated; four archives complete, matching existing recipient receipts. MAIL STATE carries the verification boundary.
 - Prior direct Will push: fresh-fetch retry verified HEAD/origin equal at 9e2a93285; includes October5 BRENT closeout7ba94134b. October7 delivery/publication needs its own receipt. No deployment acceptance inferred.
 
 ## NEXT SESSION (dated, future-verifiable)
@@ -37,7 +37,7 @@
 
 ## MAIL STATE
 - October5 WALTER005/006: source integration completed; prior deferred receipts retained as history, acted receipts added for this report. Files already processed; no repeat move.
-- October7 WALTER003/004/014/015: fully read/integrated, 003/004 same EIA lineage; 014 named recovery remains record-only, 015 unconfirmed. Sender-authored files currently untracked; WALTER asked to commit them before recipient git-mv archive. Three acted plus one noted board_log receipts recorded; archival PENDING, not claimed complete. No other live mail at recovery scan; final sweep before delivery.
+- October7 WALTER003/004/014/015: fully read/integrated, 003/004 same EIA lineage; 014 named recovery remains record-only, 015 unconfirmed. Sender persistence verified at813ee8a05; four git-mv archives match three acted plus one noted board_log receipts. Payloads match sendercommit byte-for-byte; live recursive inbox Markdown empty at2026-10-07 18:27 ET. [Receipt](research/2026-10-07_news-catchup/archive-receipt.json).
 - Outbox: no new outgoing signal packet; steady-state findings in NEXUS. One create-only completion packet to PROME per task, publication/consumption separately receipted.
 
 ## WORKBOOK HEALTH / CAPABILITIES

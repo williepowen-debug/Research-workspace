@@ -1,0 +1,43 @@
+{
+  "checked_et": "2026-10-07 18:27 ET",
+  "sender_commit": "813ee8a052c4eca9af934ea8151d7ec00cc60668",
+  "moves": 4,
+  "matching_existing_recipient_rows": 4,
+  "payloads_unchanged": true,
+  "live_inbox_markdown": [],
+  "packets": [
+    {
+      "signal_id": "SIG-W-20261007-003",
+      "disposition": "acted",
+      "old_path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261007-003.md",
+      "new_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261007-003.md",
+      "sha256": "253fe35790aaa564a73a272f23a7817206e58399d6208a11491ed39a68ca2e5c",
+      "bytes": 2300
+    },
+    {
+      "signal_id": "SIG-W-20261007-004",
+      "disposition": "acted",
+      "old_path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261007-004.md",
+      "new_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261007-004.md",
+      "sha256": "8ca61fdb2c095aa4d5525b77c2257ef2f56682b9db360f1c28cdea6e4b8b638c",
+      "bytes": 2051
+    },
+    {
+      "signal_id": "SIG-W-20261007-014",
+      "disposition": "acted",
+      "old_path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261007-014.md",
+      "new_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261007-014.md",
+      "sha256": "2ef11092c066c95d035ed1d60b3ef0e6eecce71abb3369763bc1d4729ffb1477",
+      "bytes": 2790
+    },
+    {
+      "signal_id": "SIG-W-20261007-015",
+      "disposition": "noted",
+      "old_path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261007-015.md",
+      "new_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261007-015.md",
+      "sha256": "40c61bc05a64d973016e956747f2683fc837aaa80664b39cb25b01282a1131e6",
+      "bytes": 2348
+    }
+  ],
+  "scope": "Mail persistence/archive only; no source pull, figure, gate or deployment changed. Publication/consumption/closeout separately receipted."
+}

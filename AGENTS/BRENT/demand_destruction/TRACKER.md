@@ -1,6 +1,7 @@
 # DEMAND DESTRUCTION TRACKER
 
 > # 📟 **REGISTERED ALERT LINES — THIS BLOCK IS READ AT RUN TIME BY THE FOUR CLOUD ROUTINES. IT IS THE SINGLE POINT OF TRUTH FOR WHAT THEY WATCH.**
+> **Mail-only checkpoint 2026-10-07 18:27 ET — SCOPED-PARTIAL:** four received packets archived against existing receipts; no feed, registered-line observation or grade refreshed. Re-verified mail/payload persistence only; all line/source limitations in the prior data stamp below remain. No deployment.
 > **RE-STAMP 2026-10-07 17:41 ET — SCOPED-PARTIAL.** RE-VERIFIED: lines 1–6 week 10/2 primary XLS/API, FRED spot 10/6 and retail 10/5, named quote capture 16:15–17 ET, Oct5–7 crack windows; WQ-386 held-share letter and Oct7 broker quantities. NOT re-verified: official settlements, raw COT/rig/JWC/incident facts, current USO weights. Line 11 is NOT MEASURABLE on required pair; no substitute curve grade. Freight research integrated, no new threshold/monitor/deployment. [Evidence](../research/2026-10-07_news-catchup/REPORT.md).
 
 > **Closeout correction 2026-10-05 10:34 ET — SCOPED-PARTIAL:** two freight packets receipted/archived as deferred; research still owed. One expired graded catalyst archived; generated calendar reconciled. No feed pull, observation or grade changed. Morning market vintages, stand-down and deployment deferrals preserved.
