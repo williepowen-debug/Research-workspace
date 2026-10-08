@@ -139,6 +139,23 @@ A first row taken from an unspecified panel **silently becomes the series' basel
 
 **🔴 CADENCE EXTENSION: REGISTERED TODAY, NOT ON 10/05.** The registered cadence ends at **10/02**, and that reading is now the first row. Renewing after seeing reading 4 would be selecting the series. By this desk's renewal rule (extend **before** the last committed slot fires; see `mag7.py` in `CLAUDE.md`), the extension is registered **2026-09-29**. **Eight post-close Fridays: 10/09 · 10/16 · 10/23 · 10/30 · 11/06 · 11/13 · 11/20 · 11/27**, sharing the `mag7.py` Friday slot. It is independent of the basis decision: R-H governs which panel the rows carry, not whether they are taken. *(This supersedes my own note an hour earlier in the 9/25 register row, which had "put the extension to the 10/05 re-decide". That would have placed the renewal after reading 4 and broken the renewal rule. Corrected before it was acted on.)*
 
+### 7b. ✅ §7a APPLIED 2026-10-08 (DOCKET L250, three days after the date — the desk was dark 10/03–10/07) — **R-A ON BOTH TRACKS, AS PRE-STATED**
+
+Inputs read at the primaries on 2026-10-08, and nothing else (KB-193/194):
+
+| Track | Trading? (R-A) | Service condition disclosed? (R-B) | Primary |
+|---|---|---|---|
+| **CME / NYMEX** — Silicon Data H100 + B200 Rental Index Futures (GPU1 / GPU2) | **NO.** CFTC Division of Market Oversight letter 2026-09-21 extends the Reg 40.3 review of Submission 26-370 / 26-370S by 45 days *"until the end of November 9, 2026"* (novel or complex issues; the pending compute-derivatives RFC, 91 FR 54259, comments close 2026-10-20). CFTC product pages: *"Approval Pending (90)"*. The submission's *"trade date Monday, October 5, 2026"* was *"Subject to Commission approval"* | **YES, in the rulebook text:** Floating Price = average of *"SD-H100 on-demand settlement prices"*; technical configuration *"Geography: United States"*. Segment not named in the rule | CFTC Industry Filings 62544/62545 + the executed DMO letter + NYMEX Submission 26-370 (CFTC-hosted PDFs) |
+| **ICE Futures U.S.** — OCPI H100 (HPR) + B200 (BKL) | **NO.** Notice 2026-09-29: listing *"pending completion of the request for comment period"*; *"no listing date or timeline has been set"*. From 10/05 ICE publishes OCPI reference data with **hypothetical** daily settlements | **NO** in the spec (*"hourly GPU prices published for the OCPI H100 Index"*); OCPI's transacted-price basis stands as before, term not established here | ICE notice PDF |
+
+**Applied:** R-A both tracks ⇒ no `source_class` change, no primary, **no `GPU-PANEL-02`** (R-H), no settlement cell (R-F's add-on needs a TRADING contract), **no threshold** (R-G). The pre-stated expected branch was *"R-F, or R-A if CME's contract is not yet trading"* ⇒ **R-A, not news.** The re-decide is **not** re-dated to a guessed day: R-A registers it only once a first trade date is announced. A **check row at 2026-11-09** (the CFTC's own deadline) is registered instead.
+
+**Timing words judged:** the DOCKET cell's *"first `GPU_SERIES.tsv` row is the Fri 10/02 post-close reading"* bears on **R-G (threshold)**, not on this decision. §7a's inputs are listing status and spec text, not series rows ⇒ **gradeable today, no second wake owed for L250.** R-G's earliest point stays 10/23 and only if 10/09 · 10/16 · 10/23 are all taken.
+
+**Pre-stated now, before the event — the first-trade-date branch:** if CME trades on the submitted terms, its construction passes A + B as **`spot`** (on-demand, US) ⇒ R-C ① ranks it after any disclosed `12mo` construction ⇒ absent one, **R-E: primary for the spot basis only**, comparable to tiers A/B, shipped as `GPU-PANEL-02`, never differenced against a `term_normalized` row. ⚠️ **The panel's existing `SDH100RT` cell is NOT shown to be that configuration:** Silicon Data's public page calls SDH100RT the *"Neo-Cloud index"*, standardized for *"rental terms"* across on-demand and reserved commitments, and names no single service condition ⇒ it stays `term_normalized` until a source says otherwise.
+
+⚠️ **Hand-reading trap found 10/08:** the SDH100RT page shows a dated header level **and** a static FAQ sentence quoting **$2.53** (the 9/13 freeze level). Read the HEADER with its as-of date. (The 10/08 header, 2.81 as of 10/07, is NOT a reading — off-cadence.)
+
 ## 8. Provenance
 
 - **PROME ruling** 2026-09-03 07:3x ET — `inbox/2026-09-03_from-PROME_RULED-you-own-the-GPU-rental-price-instrument...`

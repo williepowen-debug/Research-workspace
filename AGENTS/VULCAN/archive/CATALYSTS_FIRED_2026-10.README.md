@@ -24,3 +24,8 @@ crc32 of the TSV: `0xfc5aeb7c` (computed by the command at write time). Conserva
 ## 2026-10-02 close-of-session additions (PROME-spawned Tier-2, DOCKET L564 FRIDAY POST-CLOSE SLOT)
 - **mag7.py POST-CLOSE slot 4** (date 2026-10-02, confirmed): FIRED and SWEPT this session. Result: Mag-7 34.5445%, breadth RSP-SPY 63d −5.07pp (3.7th pctile), band YELLOW held. Slots 5-8 (10/09 · 10/16 · 10/23 · 10/30) remain in CATALYSTS as separate rows.
 - **GPU-rental panel reading 4** (date 2026-10-02, confirmed): FIRED and SWEPT this session; the FIRST GPU_SERIES.tsv row (10 rows written). On-demand mean $4.64/GPU-hr; indices SDH100RT $2.77 (+9.5% vs 9/13 freeze), OCPI-H100 $2.92 (+5.0%); contract tier EMPTY (sentinel). V6 recorded, no band (base rate pending ≥4 rows). Readings 5-12 (10/09 → 11/27) remain in CATALYSTS.
+
+## 2026-10-08 additions (PROME-spawned Tier-1 wake, WQ-389 / DOCKET L250)
+- **CME + Silicon Data compute futures listing** (date 2026-10-05): FIRED and §7a APPLIED this session — neither CME nor ICE is trading (CFTC DMO extension letter 2026-09-21 → review ends 2026-11-09; ICE notice 2026-09-29: no listing date). Branch R-A on both tracks. Forward commitment re-homed to the live register as the **2026-11-09 CFTC check row** [KB-193/194].
+- **TSMC September revenue 6-K** (date 2026-10-09, external): FIRED early (filed 2026-10-08) and SWEPT — cumulative Jan-Sep +41.1%, no-stress [KB-195]. Forward commitment re-homed as the **2026-11-10 TSMC October 6-K row**.
+- Conservation: 27 live rows before − 2 archived + 2 new = 27 live after. Archived by ROW, each read for a forward commitment first; both had one and both were re-homed.

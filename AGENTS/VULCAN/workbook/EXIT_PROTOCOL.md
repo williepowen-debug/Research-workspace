@@ -137,6 +137,13 @@ The 8/3 S2 upgrade 2 → 3 rested on **two** stated legs. **One of them has fail
 - **§4 RESOLVED (CONFIRMED on the letter, composition disagreeing); §4b is the live flip.** Channel kills: none died; **S2 moved closer to its kill** (conjunct 1 at 1 of 4 quarters) while its SCORE fell — a channel can be less stressed and still alive.
 - **Dated rewrite trigger: FIRED 9/30; Micron half executed today; next = the FIRST of {§4b resolves ~10/28 · 2026-11-15}.**
 
+### THESIS-KILL RE-EVALUATION 2026-10-08 (PROME-spawned Tier-1 wake, WQ-389; closeout step 3): **STILL 1 of 4 — re-read leg by leg, nothing moved.**
+- **Leg 1 — FY27 aggregate capex guide ≥ +40% YoY: NOT satisfied.** No hyperscaler guided 10/01 → 10/08; the build slips logged this session (Abilene, ERCOT pause, Stargate WI, Finland) are DELAYS on builds kept [KB-197/199].
+- **Leg 2 — Mag-7 ≤28% held 3+ months: NO.** Slot 4 (10/01 holdings) 34.5445%; 10/08 off-cadence dry-run 34.9722% (10/07 holdings) — the leg is moving AWAY from kill [KB-203].
+- **Leg 3 — memory stays healthy: TRUE, and a 2nd major agrees.** Samsung Q3 OP ~KRW107.40T, +20.0% QoQ (issuer primary) [KB-196].
+- **Leg 4 — financing structure de-risks: NOT satisfied.** No T1 8-K at ORCL/NVDA/CRWV since 10/01 (`edgar_watch.py` 10/08); the structure strand grew by commentator-sourced items only (Jupiter debt ~84c, Anthropic/Broadcom converts) [KB-198/199].
+- **Dated rewrite trigger: NOT DUE** — the FIRST of {§4b ~10/28 · 2026-11-15}. Unchanged.
+
 ---
 
 ## 8. 🆕 PRE-MU HALF-REWRITE — 2026-09-29 (Will-directed, before the 9/30 print)
