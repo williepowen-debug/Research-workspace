@@ -1,24 +1,26 @@
 # WALTER STATUS
 
-**Updated 2026-10-08 ~12:1x ET — second 10/8 session (`walter-71`, Claude Code, Opus 5.5, laptop); Tier-1 light after Will's broad news sweep; full closeout deferred.** BOARD 1271; 32 outputs today (SIG-W-20261008-001…032 — **-032 HANS/BOND gilt grade input went out 12:12 ET, AFTER the 12:08 flush; this line read 1270/31 until the 14:5x desktop boot caught it by the STATUS-vs-INDEX count, MEMORY #29 n=7**): this session -017 (OZK RaDD bridge), -018 (Iraq correction to FALCON/HAWK), -019 Isaias HURRICANE (IMMEDIATE), -020 Iran/Gulf PM (IMMEDIATE), -021 CORRECTION JGB labels (MOF basis), -022…-031 broad-sweep cards; 41-bookmark batch BM-20261008-03 CLOSED 41/41 (3 kills). **Near-trigger: FRED HY OAS 309bp [obs 10/7], 3.4% under >320 (0 of 3).** **USO $150.13 at 15:43Z, above Will's Oct-9 $150C strike (TERRY told).** UK gilt closes: HANS grading (hans-1008); a WALTER card only on a genuine gap. Boot coverage PARTIAL (LAST_COMPLETION). Later commits local; PROME serializes push.
+**Updated 2026-10-08 ~17:1x ET — TIER-2 FULL CLOSEOUT of the 10/8 desktop session (`walter-62`, Claude Code, Opus 5.5, DESKTOP-BC6EF81).** BOARD 1279; 40 outputs today (SIG-W-20261008-001…040), 5 kills. This session: `-033` fleet WQ-399 receipt-command notice; afternoon sweep `-034`…`-040` (Iran late limb, Isaias 62.89% shut-in, 30Y auction, gilt grade input, OpenAI revenue gap, Kyiv blackout, Pembroke Lakes case lead). **Near-trigger: FRED HY OAS 309bp [obs 10/7], 3.4% under >320 (0 of 3).** Boot coverage, duties and receipts: `LAST_COMPLETION.md`.
 
 ## BOTTOM LINE
 
-Oil jumped ~5% overnight (Dec Brent ~$104.7) on three named drivers — a record Hormuz tanker-strike week, an anonymous Axios report that CENTCOM was told to finish strike preparations (no decision), and Hurricane Isaias (25% of Gulf oil shut in). The 10/08 Iran full sweep fired nothing on the ladder (losses 3, GATE 1 holds) but the hull war widened to the central Gulf (158-26 off Qatar). UK long gilts sit at HANS's two lines into today's close; the UK Budget is 10/28, not 11/26. Wakes beyond PROME's eight sit on Will's WQ-391 slate; AEOLUS woken. No trade, gate or threshold moved by WALTER.
+Oil ended 10/8 up about 4% (WTI Nov settled $91.49) after giving back part of the gain when Trump posted that the US will not attack Iran before the Nov 3 midterms — a stated intent (tape), silent on after Nov 3, with no Iranian confirmation of talks. Hurricane Isaias has 62.89% of Gulf oil shut in (BSEE, 11:00 CDT) ahead of a late-Friday landfall. The 30Y auction cleared at 5.618%, the highest since at least 2001, with dealers taking 3x September's share. Nothing on any registered ladder or threshold fired; HY OAS sits 3.4% under its 320bp line. No trade, gate or threshold moved by WALTER.
 
-## DATED MARKET OBSERVATIONS — October 8 boot pull (~12:00Z); vintages explicit
+## DATED MARKET OBSERVATIONS — October 8 close; vintages explicit
 
 | Row | Observation and limit |
 |---|---|
-|HY / CCC|FRED HY **309bp [obs 10/7]** (303 [10/6]; 324 on 10/1, run reset) → >320 watch 0/3; **3.4% from the line = NEAR-TRIGGER** (routed `-030`). CCC **1,229bp [10/7]**, RED-FT-07 FIRING-BANKED; IG 82bp. FRED is T+1.|
-|VIX / SKEW|VIXCLS 15.08 [10/7]; ^VIX 15.58–15.73 intraday 10/8 (second witness only). SKEW 141.84 [10/7]. FT-06 FIRED-BANKED, exit ≥18 0/5.|
-|Claims / 5y5y|ICSA **197,000 [w/e 10/3, DOL release 10/8 08:30 ET, graded by LABOR at primary 08:36 ET]**; 4-wk MA 198,000; CC 1,716,000. RED-FT-05 (>250K) and REG-T-05 (>300K) not fired. T5YIFR 2.35 [10/7].|
-|Rates|DGS30 5.64 / DGS10 5.27 [10/6]; FT-11 30Y 5-session Δ +5bp (no precondition). SOFR 3.90 [10/6] vs IORB 3.90 → 0bp.|
-|Oil (named contracts)|BZZ26 $104.86 / CLX26 $92.44 / CLZ26 $91.38, ~+4.7% at ~12:57Z 10/8 (fetch.py; BZ identity UNKNOWN by name-cut). Boundaries #6/#8 NOT computed (month basis). Cushing 24.745M [w/e 10/2]; next WPSR Thu 10/15 noon.|
-|Freight|TD3C verified $1,221,893/day [10/2]; secondary chart ~$1.33M (record, posted 10/7). Weekly publisher review due Fri 10/9.|
-|Banks|KRE $68.89, WAL $74.35, OZK $43.56 [10/7 closes]. REG-T-02 cycle 2 FIRED 9/1, still inside (re-entries). OZK below its own <$45 band 10/6–10/7 (-003).|
-|HANS|UK 30Y ~6.00% (TE 5.996–6.01, page internally inconsistent) / UK 10Y 5.48% intraday ~13:0xZ 10/8 (TE; prior closes 5.98 / 5.43 [10/7]) vs T-13 >6.00 / T-06 >5.50 on the CLOSE — today's London close decides; HANS/BOND grade. Bund 3.51% (watch open; orange 3.75). TTF Nov 79.25 ~13:00Z. TTF Nov 79.14 (L1/L2 open). EURUSD 1.12. Storage gap NOT pulled today (−15.10pp [gas day 10/6] carried).|
-|Iran|FULL SWEEP 2026-10-08 (-014); next ~10/15. Anchor re-stamped 20,926 B.|
+|HY / CCC|FRED HY **309bp [obs 10/7]** (303 [10/6]) → >320 watch 0/3; **3.4% from the line = NEAR-TRIGGER** (`-030`). CCC **1,229bp [10/7]**, RED-FT-07 FIRING-BANKED; IG 82bp [10/7]. FRED is T+1: the 10/8 prints were not out at closeout.|
+|VIX / SKEW|VIXCLS 15.08 [10/7]; ^VIX 15.49 at 16:04 ET 10/8 (a vendor print, not the official close). SKEW 141.84 [10/7]. FT-06 FIRED-BANKED, exit ≥18 0/5.|
+|Claims / 5y5y|ICSA **197,000 [w/e 10/3, LABOR-graded 10/8]**; RED-FT-05 (>250K) and REG-T-05 (>300K) not fired. T5YIFR 2.35 [10/7].|
+|Rates|30Y reopening 10/8: high yield **5.618%**, BTC 2.54, indirect 72.32% / dealers 6.79% of competitive [Treasury primary]; $6B 20Y–30Y buyback filled 100% [Treasury primary]. CBOE 30Y 5.606% / 10Y 5.231% at 14:59 ET 10/8. **DGS30 5.67% [10/7] = the high close**; DGS10 5.27 [10/6]. SOFR 3.88 [10/7] vs IORB 3.90 → −2bp.|
+|Oil (named contracts)|WTI Nov **CLX26 settled $91.49 (+$3.21)** [Newsquawk, 10/8]. Brent ~$104.28 close per NBC, contract NOT named; BRENT holds the settle-window bars (its STATUS, 16:37 ET). Boundaries #6/#8 NOT computed (month basis; Will's ruling pending). Cushing 24.745M [w/e 10/2]; next WPSR Thu 10/15 noon.|
+|Gulf supply|Isaias: **1,282,879 b/d oil (62.89%) / 1,127 MMcf/d gas (57.35%) shut in**, 121 of 371 platforms evacuated [BSEE, 11:00 CDT 10/8]. NHC 8A (1 PM CDT): 85 mph, 975 mb.|
+|Freight|TD3C verified $1,221,893/day [10/2]; secondary chart ~$1.33M [posted 10/7]. Weekly publisher review due Fri 10/9.|
+|Banks|KRE $69.59, WAL $75.50, OZK $44.86 [10/8 closes, Yahoo]. REG-T-02 cycle 2 (fired 9/1) still inside (exit ≥$81.90 ×3). OZK's third close under its own $45 band (OZK grades); RaDD bridge matures Fri 10/9 (`-017`).|
+|HANS|UK 30Y TE **5.9384%** / 10Y **5.4238%** (vendor, read ~16:2x ET, AFTER the London close) vs T-13 >6.00 / T-06 >5.50. On a London-close basis 10/8 is still inside the vendor gap (HANS's CNBC path 5.9914 → 6.0015 at 16:30 BST). HANS grades; DOCKET L637 = the 10/9 read (`-037`). Italy–Germany 111bp [ANSA close]; EURUSD 1.12. Storage gap NOT pulled (−15.10pp [gas day 10/6] carried).|
+|Iran|Full sweep 10/8 (`-014`) + PM limb (`-020`) + late limb (`-034`): nothing fired; next full sweep ~10/15. Anchor 22,940 B.|
+|Will's Friday expiries|USO $147.58 / QQQ $747.58 [10/8 closes]: USO 150C ~$2.42 OTM · QQQ 755P ×1 ~$7.42 ITM · QQQ 750C ×1 ~$2.42 OTM — all expire Fri 10/9 (TERRY's cards; Will executes).|
 
 ## MISSION
 
@@ -28,15 +30,15 @@ Routing + receiving-layer readiness; domain agents own evidence, state and judgm
 
 **Active manual source watch — Will-directed October5:** at every boot read [tanker-cost-watch/WATCH.md](research/tanker-cost-watch/WATCH.md) and STATE.csv; check due dates, collect due weekly freight or new event evidence and route material changes. USO relevance must pass through WTI; costs and flows are separate. No unattended scheduler.
 
-Current catch-up: `research/2026-10-07_catchup/REPORT.md`; running duties: `LAST_COMPLETION.md`. Sweep evidence: `research/2026-09-17_iran-full-sweep.md`. Design directory: `design/STATE.md`. Durable triggers: `MEMORY.md`.
+Today's sweeps: `research/2026-10-08_broad-sweep/` (morning) and `research/2026-10-08_afternoon-sweep/` (12:00–16:20 ET); running duties: `LAST_COMPLETION.md`. Design directory: `design/STATE.md`. Durable triggers: `MEMORY.md`.
 
 ## NETWORK AWARENESS
 
-### October 8 routing and receiving snapshot — Tier-1 light closeout ~08:5x ET
+### October 8 routing and receiving snapshot — Tier-2 full closeout ~17:1x ET
 
-BOARD 1255; 16 outputs (14 news/research + 2 additive corrections), 2 kills, 1 verify spawn, 0 cluster-mediating; no network-uncertainty-peak trigger. 24 recipient desks, **53 handoffs (19 ACTION / 34 INFO)**; delivery/publication evidence lives in LAST_COMPLETION, not here. Routing pressure: BRENT 3A/2I; HENRY 0A/5I; LIQUID 1A/4I; CREED 1A/3I; HAWK 0A/3I; BOND 2A/1I; VULCAN 1A/2I; WATT 0A/2I; SHADE, FALCON, HANS, BROCK, YURI 1A/1I; REGINALD, SAM 0A/2I; AEOLUS, CORAL, OZK, CARL, OSPREY, ZHAO 1A/0I; HOMER, MIDAS, VIOLET 0A/1I. CARL/RED/PROME/TERRY INFO via BOARD id-diff (exempt).
+BOARD 1279; 40 outputs (incl. 4 additive corrections `-007`/`-016`/`-018`/`-021` and the `-033` fleet notice), 5 kills, 0 cluster-mediating; no network-uncertainty-peak trigger. 36 recipient desks, 188 handoff rows (89 ACTION / 99 INFO); delivery evidence lives in LAST_COMPLETION, not here. Routing pressure: BRENT 9A/4I; BOND 8A/3I; HANS, FALCON, CORAL, AEOLUS 5A; VULCAN 4A/3I; OSPREY 4A; LIQUID 3A/10I; CREED, BROCK 3A/5I; OZK 3A/1I; CARL 3A; HENRY 2A/13I; HAWK 2A/8I; SAM 2A/5I; SHADE 2A/4I; YURI, HOMER 2A/3I; ZHAO 2A/2I; REGINALD 1A/8I; WATT 1A/5I; VIOLET 1A/3I; ORACLE, MIDAS, LABOR, FERT 1A/1I; WAL, RED, OTTO, NEXUS, MARCO, FLG, DEWEY, CRUISE 1A (the `-033` fleet notice); DAEDALUS 1I. CARL/RED/PROME/TERRY INFO via BOARD ID-diff (exempt).
 
-**Receiving layer (10/8 ~08:5x ET):** live sessions = PROME (`prome-fc`, Claude Code) + WALTER. PROME woke VULCAN, LABOR, BROCK, NEXUS, HENRY, OSPREY, LIQUID, DAEDALUS (WQ-389) + AEOLUS (WQ-369 C8); Will approved BRENT, HANS, OZK, BOND under WQ-391 (FALCON NOT NOW; CORAL at its Friday wake). In-process spawns are invisible to `ListAgents` — re-read `PROME/state/ORCH_LOG.tsv` 10/8 rows + foreign dirty tree before any dark verdict. Doorbell rows + dispositions: `registry/DOORBELL_LOG.tsv` (10/8). REGISTRY: 5 stale rows header-refreshed at boot + WALTER self row; others not re-read (header-only, not liveness). Doctor aged backlog: 150 unconsumed >2d at boot (oldest ACTION 10d, delivery_log basis) — several desks drained today.
+**Receiving layer (10/8 ~17:0x ET):** live sessions = PROME (`prome-7c`) + DAEDALUS (`daedalus-4e`) + WALTER. PROME woke today: VULCAN, LABOR, BROCK, NEXUS, HENRY, OSPREY, LIQUID, DAEDALUS, AEOLUS ×2, BRENT ×2 (PM wake on `-035`), OZK, TERRY, HANS, CORAL, BOND (PM wake on `-036`; the morning WQ-390 wake never ran), ANVIL. AEOLUS and CORAL stay on their Saturday rows (L627/L638); FALCON holds to 10/14 absent a strike signal. Doctor aged backlog at closeout: 116 unconsumed >2d across 16 desks (19 ACTION / 97 INFO; oldest ACTION 10d, delivery_log basis). Doorbell rows + dispositions: `registry/DOORBELL_LOG.tsv` (10/8). REGISTRY: CORAL refreshed at boot, BRENT/BOND/TERRY at closeout (header-only; not liveness).
 
 ## Active LIAISON channels
 

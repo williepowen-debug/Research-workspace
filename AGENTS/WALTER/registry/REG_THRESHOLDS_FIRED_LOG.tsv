@@ -1,6 +1,6 @@
 # ⚠️ FIRE-ONLY LOG — NOT AUTHORITATIVE FOR CURRENT TRIGGER STATE. Banner added 2026-08-12 by WALTER on DAEDALUS's 6c array audit (finding 1). Same defect class as FALSIFICATION_FIRED_LOG.tsv; see that file's banner.
 # LIVE ledger. Cadence: EVENT-DRIVEN (a row appears only when a REG-T trigger FIRES; declared 2026-09-17 on DAEDALUS PR#6 ask 1 — the scan had read this file as FROZEN off a header word, which it is not: cycle-2 REG-T-02 was appended 2026-09-01).
-# Last re-pull ATTEMPTED: 2026-09-17 (boot 6c scan: KRE 72.74 / WAL 79.43 [9/17 intraday], SOFR-IORB -28bp [9/16], HY 270 [9/16]; no REG-T fire; REG-T-02 cycle 2 remains FIRED, exit 0/3)
+# Last re-pull ATTEMPTED: 2026-10-08 (boot 6c scan + closeout re-pull: KRE 69.59 / WAL 75.50 [10/8 closes, Yahoo], SOFR-IORB -2bp [10/7], HY 309bp [10/7], ICSA 197K [w/e 10/3]; no REG-T fire; REG-T-02 cycle 2 remains FIRED, exit 0/3)
 # Current-state source: REGINALD/registry/NOTES.md and owner exit ledgers. Cycle 2 fire is recorded below (2026-09-01); this ledger records fires, not exits.
 # HISTORICAL 2026-08-12 structural findings, NOT current schema: (a) and (b) below were superseded by owner exit/instrument/basis fields. Read the current owner registry at boot; (c) remains a duplicate-chain check:
 #   (a) REGINALD/registry/THRESHOLDS.tsv has NO exit_* columns AT ALL (8 of 8 rows) — structurally incapable of carrying an exit, so no un-fire is even expressible.

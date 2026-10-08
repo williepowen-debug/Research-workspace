@@ -249,3 +249,7 @@
 21. `[[finding_board_lags_agents_not_vice_versa]]` — ahead/behind is **per-LEG, not per-agent**; carry which of the owner's own registered premises the news breaks.
 22. `[[finding_roster_change_propagates_to_all_surfaces]]` — after any promotion, ask whether a trigger in the PARENT's registries names the promoted entity as its METRIC.
 23. `[[finding_push_train_hides_a_failed_commit]]` — **path existence is NOT a push receipt**; use the ahead/behind count + a content grep.
+
+## Rotated 2026-10-08 (MEMORY.md 227 B under the 24,412 B trigger before a Tier-2 addition; finding already has its owning surface `design/X_BOOKMARKS_ACCEPTANCE.md` §9; verbatim)
+
+44. **"Can't assess" without trying cheap retrieval = premature rejection; `not-assessed` ≠ `rejected`.** 10/03: two bookmarked image/link items flagged "unassessable" were recovered as high-value research by expanding the fetch + Read-vision — bottleneck was effort, not retrieval. Pull media/link metadata by default; attempt content when relevance plausible; keep relevance-bucket × assessment-status separate; video = "no transcript via the route"; n=2 = the MODE not prevalence (owners judge value). → owning surface `design/X_BOOKMARKS_ACCEPTANCE.md` §9 · `research/2026-10-03_x-bookmark-backlog-triage.md`
