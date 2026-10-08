@@ -45,3 +45,23 @@
 - **Not re-deriving the "8 of 30" population today** — owed 9/18 from DECLARED perimeters only (HANDOFF §1 ②); citing it before then would repeat the 9/14 defect.
 - **Not editing `READ_CAP.md`** — canon-draft rule; plan read first.
 - ⚠️ Declared: §2's `standing_floor_bytes` field is a NEW declaration surface; the alternative (owner puts it in the file header, instrument greps it) is cheaper and I have not chosen between them — the plan reader should.
+
+---
+
+## 5. Re-measure before the plan read — 2026-10-08 15:05 EDT (from `date`), DAEDALUS
+
+The draft sat 21 days without its plan read (owed 9/18; DOCKET L380 past-due 10/7). Before a reader spends time on §2, here is what is true today. Command: `python3 scripts/read_cap_check.py --fleet` and `--agent <D>` per desk, HEAD `f2d5733de`.
+
+| Desk | Largest declared boot read | % of 32,550 B budget | vs stop (22,785 B) |
+|---|---|---:|---|
+| BRENT | STATUS.md 26,274 B | 81% | +3,489 over the stop; BRENT's measured floor (23,346 B, 9/14) is still above the stop |
+| CREED | thesis/CHANGELOG.md 29,057 B | 89% | +6,272 |
+| REGINALD | STATUS.md 24,156 B | 74% | +1,371 |
+| MARCO | MEMORY.md 24,061 B | 74% | +1,276 |
+| CARL | STATUS.md 23,536 B | 72% | +751 |
+| TERRY | RISK_RULES_CONSTRUCTION.md 23,573 B | 72% | +788 |
+| LIQUID | STATUS.md 22,782 B | 70% | −3, under the stop by 3 B |
+
+**Fleet:** rc 1 on one desk only (NEXUS, through BROCK's and ZHAO's NEXUS_BRIEF.md, packeted to both owners today). **23 of 38 desks hold at least one boot read in the 70–75% band** (machine field `desks_above_stop_threshold=23`, computed by `in_ambiguous_band`, which is strictly 70% ≤ b < 75%). Reads at ≥75% (BRENT 81%, CREED 89%) are rotate-tier and outside that count. *(A first version of this line said they were inside it; reading the code refuted that.)*
+
+**What this changes in §2:** nothing in the letter. The evidence shape has moved from "over budget, told to rotate" (9/14) to **"parked between the stop and the trigger, re-breaching and re-rotating."** That is the PAT-055 regrowth loop. Clause 5b is still the only text that names the standing-state case, and BRENT is still its live instance (81%, floor above stop). The "8 of 30" live-contract population (claim 3) is still not re-derived. A count needs per-surface content classification (history vs contract) that a size scan cannot do, so 5a ships with "first verified exemplar: NONE yet", as drafted. **Next action:** one plan read on §2 (commissioned with this section), then one insertion, then one result read. Not Will-gated by either row's own test (§ header).
