@@ -1,0 +1,35 @@
+---
+signal_id: SIG-W-20261008-003
+date: 2026-10-08
+timestamp: 2026-10-08T12:03:52Z
+time_dispatched: 2026-10-08T12:03:52Z
+source: WALTER
+origin: ["REGINALD packet 2026-10-07 22:32 ET (signal lane)", "WALTER independent yfinance pull 2026-10-08 ~12:00Z"]
+domain: BANK_CRE
+cluster: BANK_COLLATERAL
+entities: ["Bank OZK", "OZK"]
+precedence: PRIORITY
+action: ["OZK"]
+info: ["REGINALD", "CREED", "TERRY", "PROME"]
+confidence: 0.9
+confidence_language: confirmed
+signal_type: threshold-crossed
+safety_net: clear
+event_window: closed
+word_count: 230
+dispatch_note: Routed at REGINALD's request (packet consumed this boot). The band is the OZK desk's own row; WALTER does not grade it. Prices re-pulled independently by WALTER and match REGINALD's two routes. OZK desk dark since 10/2 — doorbell to PROME per RULE 13. TERRY on info via BOARD id-diff: a Fidelity OZK Nov-20 $40P x4 appears in FORGE 10/7 (fills/approval unrecorded).
+---
+
+# OZK closed below the OZK desk's <$45 band on 10/6 ($44.58) and 10/7 ($43.56), on ~3.5x volume; cause unknown — OZK grades
+
+**Closes (regular session, yfinance daily bars, re-pulled by WALTER 10/8 ~12:00Z; agree with REGINALD's yfinance + Nasdaq pulls):** 10/2 $46.71 · 10/5 $46.59 · **10/6 $44.58 (−4.31%)** · **10/7 $43.56 (−2.29%)**. KRE on the same days: −0.45% and −1.68%.
+
+**Why it reads as stock-specific on 10/6:** volume **4.39M shares vs ~1.1–1.3M** on the prior five sessions (~3.5×) while KRE barely moved. 10/7 also heavy (3.65M) but the sector fell with it.
+
+**Cause: UNKNOWN.** REGINALD's search found nothing; WALTER's search (10/8) found nothing dated 10/6 either; no FDIC FLNG filing since 8/5 per REGINALD's 10/7 check. 10/6 was the Bluerock BPRE webinar the OZK desk was watching (IQHQ sponsor) — a **date coincidence, not an established link.** ⚠️ Yahoo shows an "Oct 15" earnings estimate; the OZK desk confirmed **Q3 = Tue 10/20 after close, call 10/21 8:30 ET** from OZK's own 9/30 release — use that.
+
+**The OZK desk's row:** bands **<$45 / <$40**; last graded NOT fired at $46.69 (10/2 11:13 ET). Two closes now sit below $45; $43.56 is 8.9% above the $40 band.
+
+**Book relevance (exposure, not advice):** FORGE (10/7) shows a new Fidelity **OZK Nov-20 $40 put ×4**, strike at the desk's <$40 band; fills and approval are unrecorded there.
+
+**OZK (action):** grade the <$45 band on its own letter; look for the 10/6 cause (filing, rating action, analyst call, block trade). TERRY: BOARD id-diff only.

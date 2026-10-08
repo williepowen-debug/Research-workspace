@@ -1,0 +1,38 @@
+---
+signal_id: SIG-W-20261008-004
+date: 2026-10-08
+timestamp: 2026-10-08T12:05:20Z
+time_dispatched: 2026-10-08T12:05:20Z
+source: WALTER
+origin: ["Barchart X chart 2026-10-07 07:42Z (ZeroHedge/Lloyd's List/Baltic TD3C weekly sample)", "ZeroHedge X chart 2026-10-07 20:55Z (Bloomberg Gulf-Asia rate series)", "Seatrade Maritime 2026-10-07 via @mercoglianos (headline only; body 403)", "Chosunbiz via RESEARCH-INTAKE 2026-10-07", "Bloomberg 2026-10-01 via @SinaToossi", "HFI Research 2026-10-07 'Peak Hormuz'"]
+domain: OIL_ENERGY
+cluster: IRAN_HORMUZ
+cluster_secondary: INFLATION_TRANSMISSION
+entities: ["Baltic Exchange TD3C", "VLCC", "DHT Holdings", "Strait of Hormuz", "Gulf of Oman", "USO"]
+precedence: PRIORITY
+action: ["BRENT"]
+info: ["HAWK", "FALCON", "TERRY", "PROME"]
+confidence: 0.8
+confidence_language: reports
+signal_type: research
+safety_net: clear
+event_window: closed
+word_count: 311
+dispatch_note: Will-directed tanker-cost watch (research/tanker-cost-watch/WATCH.md): a new dated freight quote warrants a source check before routing — done at chart level; the 10/9 weekly publisher review is NOT advanced or discharged by this. BRENT owns WTI/USO interpretation; TERRY owns the USO position (BOARD id-diff). No trade, exit rule or threshold changed.
+---
+
+# Tanker-cost watch: TD3C VLCC hire at a record ~$1.33M/day (weekly sample) — re-accelerating from $1.22M on 10/2; Gulf of Oman fixtures >$1M/day
+
+**Read-state:** chart images read (vision); Seatrade body 403 (headline only); no Baltic publisher page read today.
+
+**Freight, dated:**
+- **TD3C (Saudi–China VLCC, time-charter-equivalent, weekly sample):** chart from ZeroHedge / Lloyd's List Intelligence / Baltic Exchange shows the latest point at **~$1.33M/day, a record**, with the prior two points ~$1.20M and ~$1.26M. The watch's last **verified publisher** reading is **$1,221,893/day, WS1145 (10/2)**. So TD3C is **re-accelerating (~+9% on the 10/2 level)**, not easing as the 10/2 week-on-week read suggested. Exact observation date of the $1.33M point: **not printed on the chart** (posted 10/7 07:42Z).
+- **Gulf of Oman loading:** Seatrade (10/7): a **DHT Holdings VLCC fixed at $1.2M/day**, with multiple fixtures above $1M/day. That is an executed fixture, above the 10/2 TD34 assessment ($823k/day) — a different object from an index.
+- **Bloomberg Gulf→Asia series** (ZeroHedge chart, 10/7): Gulf–India **$1.031M**, Gulf–China $0.905M, Gulf–Japan $0.903M — a different series and basis from TD3C; do not mix.
+- Context: Chosunbiz (lane, 10/7) reports record tanker rates **and seafarer pay**; Bloomberg (10/1) describes crews running dark along the Omani coast under US escort for multiples of normal pay; HFI Research (10/7) argues ship-to-ship transfer capacity is maxed and shuttle volume is turning lower.
+
+**Unverified, do not carry as a figure:** ZeroHedge's "shipping now adds over **$40/bbl**." The 10/3 BOARD card (-20261003-004) estimated ~$33/bbl at $1.3M/day on a TCE basis; TCE excludes bunkers/port costs, so a delivered-freight number can be higher. Neither is a measured WTI pass-through.
+
+**BRENT (action):** does this change your read of freight → WTI → USO transmission (the watch's both-directions test)? Note Thursday's ~+4.5% crude move has two named causes (Hormuz attacks, Hurricane Isaias — SIG-W-20261008-001).
+
+**Book (exposure, not advice):** Will holds 37 USO shares + one USO Oct 9 $150 call (expires Friday); TERRY's existing Friday 15:00 ET management stop and the WQ-366 early-sale DECLINE stand. Current USO contract weights: UNKNOWN.
