@@ -1,5 +1,5 @@
---- a/scripts/read_cap_check.py	2026-10-08 14:59:18.804155643 -0400
-+++ b/scripts/read_cap_check.py	2026-10-08 14:59:18.805217828 -0400
+--- a/scripts/read_cap_check.py
++++ b/scripts/read_cap_check.py
 @@ -363,6 +363,14 @@
      return _HIST_CACHE[key]
  
@@ -25,7 +25,7 @@
                  if not members:
                      # Discriminated by HISTORY (see class_history): drained => ADVISORY, never
                      # matched or history unavailable => DEFECT (fail closed, PAT-155).
-@@ -556,6 +563,82 @@
+@@ -556,6 +563,67 @@
      return cap_bearing, visible, problems, attested, note
  
  
@@ -54,18 +54,8 @@
 +    sub_rel = home_rel + "sub_agents/"          # sub-agent desks own their own subtree (A5)
 +
 +    def under_home(rel):
-+        # W1 (independent read 2026-10-08): a `sub_agents/<S>/` subtree leaves the parent ONLY when S
-+        # is a chartered desk (CLAUDE.md present, desk_home's own test). A charterless S (MARCO has
-+        # four) resolves nowhere, so excluding it here hid a foreign read from EVERY run and printed a
-+        # false clean line. A file sitting directly in `sub_agents/` likewise stays with the parent.
 +        rel = rel.replace(os.sep, "/")
-+        if not rel.startswith(home_rel):
-+            return False
-+        if rel.startswith(sub_rel):
-+            parts = rel[len(sub_rel):].split("/", 1)
-+            if len(parts) == 2 and os.path.isfile(os.path.join(base_root, sub_rel, parts[0], "CLAUDE.md")):
-+                return False
-+        return True
++        return rel.startswith(home_rel) and not rel.startswith(sub_rel)
 +
 +    entries, findings = {}, []
 +    for r in rows:
@@ -82,12 +72,7 @@
 +            targets = [(m, False) for m in _class_members(pth, base_root)]
 +        else:
 +            full = os.path.normpath(os.path.join(base_root, pth))
-+            # W2 (independent read 2026-10-08): "missing" = does not exist (declared_reads' test). A
-+            # directory exists, is not cap-bearing, and is the reader's run's to show — never "DOES
-+            # NOT EXIST" here.
-+            if os.path.isdir(full):
-+                continue
-+            targets = [(full, not os.path.exists(full))]
++            targets = [(full, not os.path.isfile(full))]
 +        oc = (r.get("owner") or "").strip()
 +        for full, missing in targets:
 +            rel = os.path.relpath(full, base_root)
@@ -108,7 +93,7 @@
  # ── GENERATED-FILE DETECTOR (added 2026-09-12, RED's report, and it is a REMEDY-ROUTING question) ──
  # PAT-161's remedy — rotate, or collapse pointers into one index — is WRONG for a GENERATED file, and
  # wrong in the worst way: rotation is MEANINGLESS (the next generator run restores every byte, because
-@@ -733,9 +816,11 @@
+@@ -733,9 +801,11 @@
              f"{basis}; composite-injection context cost not graded here")
  
  
@@ -121,7 +106,7 @@
      # R7-stage-2 precedence: a desk's own ATTESTED declaration beats a scan of its charter.
      cap_bearing, visible, problems, attested, dnote = declared_reads(name)
      if cap_bearing is UNAVAILABLE:
-@@ -800,6 +885,17 @@
+@@ -800,6 +870,17 @@
                      member_of.setdefault(charter, member_of.pop(alias))
          visible = [(p, mode, src) for p, mode, src in visible
                     if os.path.normpath(os.path.join(ROOT, p)) not in files]
@@ -139,7 +124,7 @@
      rows = []
      base = ROOT if declared else desk_home(name)      # declared rows are repo-relative + cross-agent
      for p in sorted(files, key=lambda x: -os.path.getsize(x)):
-@@ -1007,6 +1103,56 @@
+@@ -1007,6 +1088,56 @@
                        f"        generator. Ask its owner who regenerates it; do NOT infer the owner from the\n"
                        f"        file's location, which names the READER, not the source.")
  
@@ -196,16 +181,16 @@
      # W3: `problems` travels with the result. main() previously inferred the REASON for rc from
      # the over-budget counts, which is what produced the mark bug and then repeated it in the
      # label one line later. One instance did mean two; the fix is to stop inferring.
-@@ -1045,7 +1191,7 @@
+@@ -1045,7 +1176,7 @@
  # So: EXPECTED is a CONSTANT compared against the count derived from the SAME if/else that sets
  # the verdict, and the mismatch is appended to the SAME failure list that drives rc. One number,
  # one verdict, no second accumulator to drift. Falsify it by deleting a check, never by trusting it.
 -EXPECTED_LEGS = 112   # +6 at L538 (C12, 2026-10-02)
-+EXPECTED_LEGS = 127   # +6 at L538 (C12, 2026-10-02) · +13 at L530 owner notice (N1–N8, 2026-10-08) · +2 W1/W2 (N9–N10, 2026-10-08)
++EXPECTED_LEGS = 125   # +6 at L538 (C12, 2026-10-02) · +13 at L530 owner notice (N1–N8, 2026-10-08)
  
  
  def selftest():
-@@ -1546,6 +1692,114 @@
+@@ -1546,6 +1677,98 @@
              chk("R20 --fleet: per-desk charter line AND a summary that says the totals EXCLUDE charters",
                  ("OUT OF PERIMETER by rule 20" in _kb.getvalue(),
                   "EXCLUDE every charter by design" in _kb.getvalue(), krc), (True, True, 0))
@@ -261,7 +246,7 @@
 +                f"{OA}\tOW\n{OWN}\tOW\n"
 +                "READ\tRD\tAGENTS/OW/x.md\twhole\tRD:7\tRD\t2026-10-08\t-\tZZ\n"
 +                "READ\tRD\tAGENTS/OW/sub_agents/S/y.md\twhole\tRD:8\tRD\t2026-10-08\t-\t\n")
-+            for rel in ("AGENTS/OW/x.md", "AGENTS/OW/sub_agents/S/y.md", "AGENTS/OW/sub_agents/S/CLAUDE.md"):
++            for rel in ("AGENTS/OW/x.md", "AGENTS/OW/sub_agents/S/y.md"):
 +                os.makedirs(os.path.dirname(os.path.join(t, rel)), exist_ok=True)
 +                open(os.path.join(t, rel), "w").write("y" * 50)
 +            READS_TSV = man
@@ -269,24 +254,8 @@
 +            chk("N5 owner-column/path disagreement REPORTED and not attributed (owner_notices=0)",
 +                ("OWNER/PATH DISAGREE" in nout and "AGENTS/OW/x.md" in nout, "owner_notices=0 " in nml),
 +                (True, True))
-+            chk("N5 CHARTERED sub-agent subtree NOT attributed to the parent desk",
++            chk("N5 sub-agent subtree NOT attributed to the parent desk",
 +                "sub_agents/S/y.md" in nout, False)
-+            # N9 W1 CHARTERLESS SUB-AGENT DIR (capable): S2 has no CLAUDE.md, so it is no desk and its
-+            # file stays with OW — the foreign read is NOTICED, never a false clean line.
-+            rel9 = "AGENTS/OW/sub_agents/S2/z.md"
-+            os.makedirs(os.path.dirname(os.path.join(t, rel9)), exist_ok=True)
-+            open(os.path.join(t, rel9), "w").write("z" * (BUDGET_BYTES + 5))
-+            READS_TSV = _fixture(t, [OA, OWN, f"READ\tRD\t{rel9}\twhole\tRD:10\tRD\t2026-10-08\t-"], sz)
-+            nrc, nout, nml = _run("--agent", "OW")
-+            chk("N9 charterless sub_agents/<S2>/ file read whole by another desk: NOTICED, no clean line",
-+                (rel9 in nout, "is loaded whole by another desk" in nout,
-+                 "owner_notices=1 owner_notices_over_budget=1" in nml), (True, False, True))
-+            # N10 W2 DIRECTORY ROW: a foreign whole row naming a DIRECTORY under OW is not 'DOES NOT EXIST'.
-+            os.makedirs(os.path.join(t, "AGENTS/OW/adir"), exist_ok=True)
-+            READS_TSV = _fixture(t, [OA, OWN, "READ\tRD\tAGENTS/OW/adir\twhole\tRD:11\tRD\t2026-10-08\t-"], sz)
-+            nrc, nout, nml = _run("--agent", "OW")
-+            chk("N10 foreign whole row naming a directory: no DOES NOT EXIST, owner_notices=0, rc 0",
-+                ("DOES NOT EXIST" in nout, "owner_notices=0 " in nml, nrc), (False, True, 0))
 +            # N6 MISSING FILE: a foreign concrete row pointing at a file that is gone prints as the
 +            # reader's defect, never as 0 B, and is not counted over budget.
 +            READS_TSV = _fixture(t, [OA, OWN, "READ\tRD\tAGENTS/OW/gone.tsv\twhole\tRD:9\tRD\t2026-10-08\t-"], sz)
@@ -320,7 +289,7 @@
          finally:
              READS_TSV, ROOT = sav_r, sav_root
  
-@@ -1557,7 +1811,7 @@
+@@ -1557,7 +1780,7 @@
      for f in fail:
          print(f"  ❌ {f}")
      print(f"{'✅' if not fail else '❌'} READ-CAP SELFTEST {ok}/{total} leg(s) pass "
@@ -329,7 +298,7 @@
      return 0 if not fail else 1
  
  
-@@ -1616,9 +1870,16 @@
+@@ -1616,9 +1839,16 @@
      require_manifest = "--require-manifest" in args
      if require_manifest:
          args = [a for a in args if a != "--require-manifest"]
@@ -347,7 +316,7 @@
          if res is None:
              # rc 2: nothing was assessed. Every count below is ZERO because it is UNEARNED, not
              # because it is clean, and `assessed=0` is the flag that says so.
-@@ -1627,9 +1888,11 @@
+@@ -1627,9 +1857,11 @@
                                 manifest_defects=0, advisories=0, generated_flagged=0,
                                 rotation_due=0, active_decisions_over_budget=0,
                                 charter_mode=charter_mode, charter_reads=0,
@@ -359,7 +328,7 @@
              print(_result_line("agent", rc, 1, desk=name, reads=n, over_budget=nb, over_cap=nc,
                                 manifest_defects=len(defs), advisories=len(advs),
                                 generated_flagged=len(gen),
-@@ -1639,6 +1902,10 @@
+@@ -1639,6 +1871,10 @@
                                     for r in _rows)),
                                 charter_mode=charter_mode,
                                 charter_reads=2 if charter_mode == "explicit" else 0,

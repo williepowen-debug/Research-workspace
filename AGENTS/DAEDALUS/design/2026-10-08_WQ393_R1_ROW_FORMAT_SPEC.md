@@ -1,6 +1,6 @@
 # WQ-393 item 2 — the R1 correction row, one-line format (DAEDALUS spec, 2026-10-08)
 
-**Ask:** PROME packet `inbox/2026-10-08_from-PROME_WQ-393-RULED-R1-register-write-leg.md` (Will 2026-10-08 ~08:44 ET, verbatim *"393 - approved"*). Delivered 10/8 afternoon, one session early — WALTER is live today. **Basis:** register `AGENTS/WALTER/registry/CORRECTIONS.tsv` and `BOARD/` read at HEAD `1b208f5a6`, 2026-10-08 ~15:10 ET.
+**Ask:** PROME packet `inbox/2026-10-08_from-PROME_WQ-393-RULED-R1-register-write-leg.md` (Will 2026-10-08 ~08:44 ET, verbatim *"393 - approved"*). Delivered 10/8 afternoon, one session early — WALTER is live today. **Basis:** register `AGENTS/WALTER/registry/CORRECTIONS.tsv` and `BOARD/` read at HEAD `1b208f5a6`, 2026-10-08, before commit b7ec4568a (14:56:31 EDT; an earlier typed "~15:10 ET" here was a narrative stamp ahead of the clock, caught by WALTER).
 
 ## 1. Verdict: no new column
 
@@ -43,7 +43,7 @@ python3 scripts/corrections_boot_check.py --write-compliance [--since YYYY-MM-DD
 - **SHORT-TARGETS:** a row whose pointer names its original (`-to-…`) and whose `targets` miss a recipient of that original. `ALL` passes.
 - **rc:** 0 OK · 1 OWED, every instance printed · 2 CANNOT-EVALUATE (register missing or unparseable, BOARD missing, **or zero signals in the window**: an empty population is not compliance, PAT-155).
 
-**Verified (CHECK_STANDARD §3), 10/8 ~15:10 ET:** live default window → rc 1, the two SHORT-TARGETS rows above · live `--since 2026-09-28` → rc 1, 13 NO-ROW + 2 SHORT-TARGETS · `--since 2027-01-01` → rc 2 · fixtures: clean row → rc 0; original also routed to BOND/PROME → rc 1 naming both; `ALL` targets → rc 0; exempt note, type-only, title-only and no-frontmatter cases each classified as intended; missing register → rc 2 · existing `--selftest` 21/21. **Limit:** the new mode has no `--selftest` cases yet. Its verification is the run above, not a standing regression test. Originals named any other way than `-to-…` are counted as "not checkable", never passed.
+**Verified (CHECK_STANDARD §3), 10/8, before 14:56 EDT:** live default window → rc 1, the two SHORT-TARGETS rows above · live `--since 2026-09-28` → rc 1, 13 NO-ROW + 2 SHORT-TARGETS · `--since 2027-01-01` → rc 2 · fixtures: clean row → rc 0; original also routed to BOND/PROME → rc 1 naming both; `ALL` targets → rc 0; exempt note, type-only, title-only and no-frontmatter cases each classified as intended; missing register → rc 2 · existing `--selftest` 21/21. **Limit:** the new mode has no `--selftest` cases yet. Its verification is the run above, not a standing regression test. Originals named any other way than `-to-…` are counted as "not checkable", never passed.
 
 ## 4. Backfill beyond the nine named — PROME's call
 

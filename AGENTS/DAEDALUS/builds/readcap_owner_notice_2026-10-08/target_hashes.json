@@ -1,8 +1,11 @@
 {
   "scripts/read_cap_check.py": {
     "before": "b5fbd2fd3b108a3d375731f30dd4470bdd4ad7fbfecf3f1a295aa5fc30279180",
-    "after": "ecd31652b7d8e108a52e76925d693ea1983c05b810a43ee4e03a133cfc532f80",
+    "after": "e7f511e131c9768d9b738b78022bc43efdb7de2c6650a1b72a535ae6b667abc2",
     "before_last_commit": "39178712a (2026-10-05 08:14:52 -0400)",
-    "patch": "AGENTS/DAEDALUS/builds/readcap_owner_notice_2026-10-08/owner-notice.patch"
+    "patch": "AGENTS/DAEDALUS/builds/readcap_owner_notice_2026-10-08/owner-notice.patch",
+    "after_v1": "ecd31652b7d8e108a52e76925d693ea1983c05b810a43ee4e03a133cfc532f80",
+    "patch_v1": "AGENTS/DAEDALUS/builds/readcap_owner_notice_2026-10-08/owner-notice_v1.patch",
+    "v2_note": "v2 = v1 + W1/W2 fixes + selftest N9/N10 (EXPECTED_LEGS 125->127); same base hash"
   }
 }
