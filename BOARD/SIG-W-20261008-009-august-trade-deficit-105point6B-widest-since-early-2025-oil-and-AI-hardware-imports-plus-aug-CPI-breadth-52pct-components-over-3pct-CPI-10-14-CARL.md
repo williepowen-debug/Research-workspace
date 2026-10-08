@@ -30,3 +30,5 @@ dispatch_note: Release read at chart level, not the Census PDF. Composition figu
 **CPI breadth (LHMacro chart, 10/7):** in **August CPI, 11 of 21 major components (52%) rose >3% y/y and 4 (19%) >5%**; the >3% share averaged 22% in 2017–19 and peaked at 95% in Aug 2022. Headline 3.4%. **September CPI prints Tue 10/14** — RED-FT-08 (core 3-month annualised ≥3.0%) is graded manually at that release.
 
 **CARL (action):** fold the deficit composition into the tariff/consumer read; flag whether breadth changes your CPI expectations. VULCAN: capital-goods import leg.
+
+> **ADDITIVE CORRECTION — SIG-W-20261008-016 (2026-10-08):** "Tue 10/14" above is wrong — 2026-10-14 is a **Wednesday**. Date, figures and the RED-FT-08 grading day are unchanged. Caught by HENRY (claim_check). Original text preserved unedited.
