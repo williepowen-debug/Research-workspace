@@ -104,3 +104,45 @@ TD3C ~$1.33M/day on a chart point with no printed observation date, against $1,2
 
 ## Sources read this session
 NHC Intermediate Advisory 7A (nhc.noaa.gov, read 08:3x ET) · MMA/BSEE release "MMA monitors Gulf response, Isaias" (bsee.gov) · EIA Refinery Capacity 2026 `refcap26.xlsx` (eia.gov) · Rigzone 10/8 07:02 ET · ZeroHedge Isaias/refineries (undated page) · OilPrice 10/8 05:46 CDT · CNN 10/8 via ABC17 syndication · Yahoo Finance 10/7 08:26 ET (Wednesday context) · China export halt: The Standard / Yahoo relays (pre-holiday) · WALTER `research/2026-10-08_iran-full-sweep.md` · AEOLUS packet 2026-10-08 08:34 ET (`b154f4231`).
+
+---
+
+## §10 — Isaias transmission channels and weekend scenarios
+
+**Added 2026-10-08 11:06 EDT, second BRENT session (WQ-391 follow-on; Claude Code Opus 4.8, laptop `WilliePOwen`, sole writer).** $0; no trade, threshold, grade or gate change. Web search returns only the 2020 Atlantic storm of the same name — NOT this event — and was deliberately NOT used as evidence. Built entirely on the §1–9 primaries above (NHC #7/7A, MMA 10/7, AEOLUS theater packet, EIA refcap26/WPSR). **This is the explicit grading basis for the CATALYSTS 10/10 Isaias row.**
+
+**Live-tape confirm [CONF vendor, 09:09 ET]:** `fetch.py` BZ=F $104.39 (+4.18%), CL=F `CLX26` $92.11 (+4.34%) — the overnight jump holds, ~$0.8 off the 08:24 highs; no material change to §1. Boot threshold monitor flagged `DCOILBRENTEU` 125.44 (FRED, 10/6) as a structural breach — **a feed artifact, not a real level**: it contradicts our own 10/6 front-month (~$101) by ~$21. Advisory only; flagged for data review, not acted on.
+
+### The crack asymmetry (why this is not a simple bullish-crude story)
+Isaias acts on two physically separate things that push the **crack** in opposite directions:
+- **Offshore (crude):** platforms shut in → less crude produced → crude-bullish.
+- **Onshore (refining):** refineries shut/damaged → less crude *consumed* AND less product *made* → crude-bearish locally, product-bullish ⇒ **the crack WIDENS**.
+
+So the governing question is *offshore story vs refining story*, because those have near-opposite signatures for the refiner leg (VLO) and the diesel crack we actually track.
+
+### Channel A — offshore crude (real, small, transient)
+25.08% Gulf oil shut in = 511,619 b/d [CONF MMA 10/7 11:00 CDT]; Gulf ~2.04 MMb/d ≈ 14% of US crude. Magnitude trivial vs stocks: 511 kb/d × ~7 d ≈ 3.6 MMbbl [EST]; GOMsmart mean expected loss 9.55 MMbbl [CONF ESA via Rigzone 10/8] — ~0.85%–2.3% of commercial crude (424.1 MMbbl, WPSR wk 10/2). **The tape confirms this is not the driver:** a US-offshore loss should NARROW WTI−Brent, but it WIDENED ~$0.98 [EST] ⇒ Hormuz, not the storm, owns the level. Grade = Mars-class medium-sour; a few-day tightening only.
+
+### Channel B — onshore refining (the channel that touches the book); status = GAP
+Warning-zone atmospheric crude capacity [CONF EIA refcap26; zones NHC 7A]: Chevron Pascagoula 356,440 (inside Hurricane Warning) · Vertex Saraland 88,000 (Hurricane Warning + 5–7 ft Mobile Bay surge) · PBF Chalmette 190,000 and **Valero Meraux 125,000** (TS-warning edge, inland on river). Hurricane-warning sum **444,440 b/cd ≈ 2.4%** of US operable; with the TS edge **759,440 ≈ 4.2%** [EST]. **No shutdown reported = GAP, not a clear.** The market is NOT yet pricing a refinery hit — products LAG crude today (ULSD +4.2%, RBOB +3.8% vs WTI +4.9%); today's crack firmness is the *other* diesel story (Cardón, Volgograd, Russia ban), not Isaias.
+
+### Storm geometry — where the damage tail lives
+[CONF NHC #7/7A via AEOLUS, ~09Z] 70 kt now; **forecast peak 95 kt 10/9 06Z** (Cat 2, one notch below Cat 3), then 90 kt to the coast, inland ~10/10 06Z near the AL/NW-FL line. Opposing caveats: RI possible (+35 kt/24h) vs 40–50 kt shear pre-landfall (could knock to TS). **Core tracks EAST of 89°W:** eastern deepwater hubs (Mars/Olympus/Ursa/Appomattox, ~29N 87W) carry **35% odds of 64-kt winds**; central-Gulf platforms (28N 89W) only **14%**. The strong side threatens the deepwater complex and the Pascagoula/Mobile coast — the high-value crude infrastructure and the biggest refinery.
+
+### Weekend scenarios (the fork the 10/10 row grades against)
+| | Trigger | Crude | Crack / refiner leg | Durability |
+|---|---|---|---|---|
+| **1. Base (most likely)** | Track holds, precautionary shut + clean restart, no major damage | Premium fades ~1 wk | Little Isaias effect | Transient |
+| **2. Damage tail** | RI to Cat 3 + eastern track hits deepwater hubs and/or Pascagoula/Saraland | Durable sour loss (deepwater restarts slow) | **Cracks WIDEN → refiner-leg bullish** | Weeks |
+| **3. Bust** | Shear wins, weakens to TS pre-landfall | Premium unwinds fully | Removes a support | — |
+
+### What to watch, and when
+1. **Fri 10/9 — refinery precautionary-shutdown headlines** (the GAP closing): Pascagoula/Saraland/Chalmette/Meraux; MMA ~11:00 CDT update (shut-in likely RISES into landfall).
+2. **Fri night–Sat — landfall intensity/location** (AEOLUS grades): resolves deepwater-hub damage.
+3. **Sat–Mon — restart data:** MMA restart %, BSEE, company damage statements (undamaged back immediately; damaged longer).
+4. **The tell for the book: watch the CRACK, not crude.** Cracks widening faster than crude on shutdown news = Scenario 2, the refiner-leg-bullish path.
+
+### Position implications (stand-down holds; TERRY owns construction)
+- **No arm:** precautionary shut-ins and an un-landed storm are not destroyed capacity; BG-02 head clause reads zero, WQ-192 stand-down holds (consistent with §8).
+- **VLO double-edged if Meraux shuts:** lost throughput is near-term equity-negative, but a refinery outage is a crack-*widener* (margin-positive); net depends on severity/duration. BRENT supplies the refinery read; TERRY grades the card.
+- **WQ-386 not at risk from this:** November crack is $19.51 above the $90.16 SELL line (§3) — whether Isaias widens or compresses cracks, no near-term exit pressure.
