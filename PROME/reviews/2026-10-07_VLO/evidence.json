@@ -1,0 +1,507 @@
+{
+  "retrieved_utc": "2026-10-07T17:07:15.872497+00:00",
+  "quotes": {
+    "HOX26.NYM": {
+      "identity": {
+        "symbol": "HOX26.NYM",
+        "shortName": "Heating Oil Nov 26",
+        "expireDate": 1793318400,
+        "regularMarketPrice": 4.6169,
+        "regularMarketTime": 1791392233
+      },
+      "windows": {
+        "2026-09-30": {
+          "bars": [
+            "14:28",
+            "14:29",
+            "14:30"
+          ],
+          "volume": 1564,
+          "typical_vwap": 4.6898630812751465,
+          "close_vwap": 4.689691292965199
+        },
+        "2026-10-01": {
+          "bars": [
+            "14:28",
+            "14:29",
+            "14:30"
+          ],
+          "volume": 1271,
+          "typical_vwap": 4.64284778110255,
+          "close_vwap": 4.643609989355344
+        },
+        "2026-10-02": {
+          "bars": [
+            "14:28",
+            "14:29",
+            "14:30"
+          ],
+          "volume": 2184,
+          "typical_vwap": 4.501890586918819,
+          "close_vwap": 4.502022188443404
+        },
+        "2026-10-05": {
+          "bars": [
+            "14:28",
+            "14:29",
+            "14:30"
+          ],
+          "volume": 2006,
+          "typical_vwap": 4.544204609066833,
+          "close_vwap": 4.541317442003062
+        },
+        "2026-10-06": {
+          "bars": [
+            "14:28",
+            "14:29",
+            "14:30"
+          ],
+          "volume": 1613,
+          "typical_vwap": 4.569887993921546,
+          "close_vwap": 4.570869405891906
+        }
+      },
+      "daily": [
+        {
+          "Date": "2026-10-01 00:00:00-04:00",
+          "Open": 4.694499969482422,
+          "High": 4.783100128173828,
+          "Low": 4.553599834442139,
+          "Close": 4.642000198364258,
+          "Adj Close": 4.642000198364258,
+          "Volume": 52243,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-02 00:00:00-04:00",
+          "Open": 4.644999980926514,
+          "High": 4.677999973297119,
+          "Low": 4.3846001625061035,
+          "Close": 4.501100063323975,
+          "Adj Close": 4.501100063323975,
+          "Volume": 61416,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-05 00:00:00-04:00",
+          "Open": 4.570099830627441,
+          "High": 4.657800197601318,
+          "Low": 4.490499973297119,
+          "Close": 4.545199871063232,
+          "Adj Close": 4.545199871063232,
+          "Volume": 45682,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-06 00:00:00-04:00",
+          "Open": 4.509900093078613,
+          "High": 4.6082000732421875,
+          "Low": 4.35129976272583,
+          "Close": 4.569399833679199,
+          "Adj Close": 4.569399833679199,
+          "Volume": 45682,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-07 00:00:00-04:00",
+          "Open": 4.604000091552734,
+          "High": 4.760300159454346,
+          "Low": 4.584400177001953,
+          "Close": 4.6168999671936035,
+          "Adj Close": 4.6168999671936035,
+          "Volume": 34302,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        }
+      ]
+    },
+    "CLX26.NYM": {
+      "identity": {
+        "symbol": "CLX26.NYM",
+        "shortName": "Crude Oil Nov 26",
+        "expireDate": 1792454400,
+        "regularMarketPrice": 88.72,
+        "regularMarketTime": 1791392235
+      },
+      "windows": {
+        "2026-09-30": {
+          "bars": [
+            "14:28",
+            "14:29",
+            "14:30"
+          ],
+          "volume": 8944,
+          "typical_vwap": 90.43183536848001,
+          "close_vwap": 90.40903113097326
+        },
+        "2026-10-01": {
+          "bars": [
+            "14:28",
+            "14:29",
+            "14:30"
+          ],
+          "volume": 9868,
+          "typical_vwap": 92.9111316965941,
+          "close_vwap": 92.95182825188236
+        },
+        "2026-10-02": {
+          "bars": [
+            "14:28",
+            "14:29",
+            "14:30"
+          ],
+          "volume": 15235,
+          "typical_vwap": 91.14177579413409,
+          "close_vwap": 91.09021517005873
+        },
+        "2026-10-05": {
+          "bars": [
+            "14:28",
+            "14:29",
+            "14:30"
+          ],
+          "volume": 16893,
+          "typical_vwap": 89.41062402044952,
+          "close_vwap": 89.3325212754471
+        },
+        "2026-10-06": {
+          "bars": [
+            "14:28",
+            "14:29",
+            "14:30"
+          ],
+          "volume": 12478,
+          "typical_vwap": 89.42952372298292,
+          "close_vwap": 89.42572357341597
+        }
+      },
+      "daily": [
+        {
+          "Date": "2026-10-01 00:00:00-04:00",
+          "Open": 90.4000015258789,
+          "High": 93.68000030517578,
+          "Low": 88.79000091552734,
+          "Close": 92.87000274658203,
+          "Adj Close": 92.87000274658203,
+          "Volume": 337181,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-02 00:00:00-04:00",
+          "Open": 93.45999908447266,
+          "High": 93.51000213623047,
+          "Low": 88.05999755859375,
+          "Close": 91.11000061035156,
+          "Adj Close": 91.11000061035156,
+          "Volume": 355302,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-05 00:00:00-04:00",
+          "Open": 91.7699966430664,
+          "High": 91.87999725341797,
+          "Low": 88.73999786376953,
+          "Close": 89.43000030517578,
+          "Adj Close": 89.43000030517578,
+          "Volume": 274982,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-06 00:00:00-04:00",
+          "Open": 89.2699966430664,
+          "High": 90.05000305175781,
+          "Low": 86.86000061035156,
+          "Close": 89.44000244140625,
+          "Adj Close": 89.44000244140625,
+          "Volume": 274982,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-07 00:00:00-04:00",
+          "Open": 89.95999908447266,
+          "High": 90.9800033569336,
+          "Low": 88.45999908447266,
+          "Close": 88.72000122070312,
+          "Adj Close": 88.72000122070312,
+          "Volume": 177746,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        }
+      ]
+    }
+  },
+  "federal_register": {
+    "diesel export": {
+      "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=diesel+export&conditions%5Bpublication_date%5D%5Bgte%5D=2026-10-02&per_page=100&order=newest",
+      "count": 0,
+      "results": null
+    },
+    "distillate export": {
+      "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=distillate+export&conditions%5Bpublication_date%5D%5Bgte%5D=2026-10-02&per_page=100&order=newest",
+      "count": 0,
+      "results": null
+    },
+    "petroleum product export": {
+      "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=petroleum+product+export&conditions%5Bpublication_date%5D%5Bgte%5D=2026-10-02&per_page=100&order=newest",
+      "count": 0,
+      "results": null
+    },
+    "export control": {
+      "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=export+control&conditions%5Bpublication_date%5D%5Bgte%5D=2026-10-02&per_page=100&order=newest",
+      "count": 9,
+      "results": [
+        {
+          "title": "Airworthiness Directives; Airbus SAS Airplanes",
+          "type": "Proposed Rule",
+          "abstract": "The FAA is revising a notice of proposed rulemaking (NPRM) to supersede Airworthiness Directive (AD) 2014-16-22 and AD 2017-25-13, which apply to certain Airbus SAS Model A330-200, A330-200 Freighter, A330-300, A340-200, A340-300, A340-500, and A340-600 series airplanes; and AD 2024-25-11, which applies to certain Airbus SAS Model A330-200, A330-200 Freighter, A330-300, A330-800 and A330-900 series airplanes. This action revises the NPRM by referencing later service information with new or more restrictive airworthiness limitations and expanding the applicability. The FAA is proposing this airworthiness directive (AD) to address the unsafe condition on these products. Since these actions would impose an additional burden over those in the NPRM, the FAA is requesting comments on this SNPRM.",
+          "document_number": "2026-20543",
+          "html_url": "https://www.federalregister.gov/documents/2026/10/07/2026-20543/airworthiness-directives-airbus-sas-airplanes",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-10-07/pdf/2026-20543.pdf",
+          "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-20543.pdf?1791290715",
+          "publication_date": "2026-10-07",
+          "agencies": [
+            {
+              "raw_name": "DEPARTMENT OF TRANSPORTATION",
+              "name": "Transportation Department",
+              "id": 492,
+              "url": "https://www.federalregister.gov/agencies/transportation-department",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/492",
+              "parent_id": null,
+              "slug": "transportation-department"
+            },
+            {
+              "raw_name": "Federal Aviation Administration",
+              "name": "Federal Aviation Administration",
+              "id": 159,
+              "url": "https://www.federalregister.gov/agencies/federal-aviation-administration",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/159",
+              "parent_id": 492,
+              "slug": "federal-aviation-administration"
+            }
+          ],
+          "excerpts": "to address the failure of system components. The unsafe condition, if not addressed, could reduce the <span class=\"match\">controllability</span> of the airplane. \n \n The FAA issued an NPRM to amend 14 CFR part 39 by adding an AD to supersede AD 2014-16-22, AD 2017-25-13, and AD 2024-25-11 that would have applied to Airbus SAS Model A330-200, A330-200 Freighter, A330-300, A330-800, and A330-900 series airplanes with an original airworthiness certificate or original <span class=\"match\">export</span> certificate of airworthiness issued on or before October 1, 2024. The NPRM was published in the \n Federal"
+        },
+        {
+          "title": "Notice of OFAC Sanctions Actions",
+          "type": "Notice",
+          "abstract": "The U.S. Department of the Treasury's Office of Foreign Assets Control (OFAC) is publishing the names of one or more persons whose property and interests in property have been unblocked and who have been removed from the Specially Designated Nationals and Blocked Persons List (SDN List). OFAC is also publishing the names of blocked property and persons whose property and interests in property remain blocked and on the SDN List or subject to the prohibitions of the Non-SDN Palestinian Legislative Council (NS-PLC) List, or the Sectoral Sanctions Identifications (SSI) List, but whose duplicate entries have been removed from OFAC sanctions lists. OFAC is also publishing updates to the identifying information of one or more persons or property currently included on the SDN List, NS-PLC List, or SSI List whose property and interests in property remain blocked or subject to the prohibitions of those lists, as applicable.",
+          "document_number": "2026-20526",
+          "html_url": "https://www.federalregister.gov/documents/2026/10/07/2026-20526/notice-of-ofac-sanctions-actions",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-10-07/pdf/2026-20526.pdf",
+          "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-20526.pdf?1791290713",
+          "publication_date": "2026-10-07",
+          "agencies": [
+            {
+              "raw_name": "DEPARTMENT OF THE TREASURY",
+              "name": "Treasury Department",
+              "id": 497,
+              "url": "https://www.federalregister.gov/agencies/treasury-department",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+              "parent_id": null,
+              "slug": "treasury-department"
+            },
+            {
+              "raw_name": "Office of Foreign Assets Control",
+              "name": "Foreign Assets Control Office",
+              "id": 203,
+              "url": "https://www.federalregister.gov/agencies/foreign-assets-control-office",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/203",
+              "parent_id": 497,
+              "slug": "foreign-assets-control-office"
+            }
+          ],
+          "excerpts": "ACTION: \n Notice. \n \n \n SUMMARY: \n \n The U.S. Department of the Treasury's Office of Foreign Assets <span class=\"match\">Control</span> (OFAC) is publishing the names of one or more persons whose property and interests in property have been \n \n unblocked and who have been removed from the Specially Designated Nationals and Blocked Persons List (SDN List). OFAC is also publishing the names of blocked property and persons whose property and interests in property remain blocked and on the SDN List or subject to the prohibitions of the Non-SDN Palestinian Legislative Council (NS-PLC)"
+        },
+        {
+          "title": "Basin Regulations; Water Code",
+          "type": "Proposed Rule",
+          "abstract": "The Commission proposes to amend its Water Code and Comprehensive Plan to require water supply systems serving the public (purveyors) to report water use by their largest customers.",
+          "document_number": "2026-20480",
+          "html_url": "https://www.federalregister.gov/documents/2026/10/06/2026-20480/basin-regulations-water-code",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-10-06/pdf/2026-20480.pdf",
+          "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-20480.pdf?1791204320",
+          "publication_date": "2026-10-06",
+          "agencies": [
+            {
+              "raw_name": "DELAWARE RIVER BASIN COMMISSION",
+              "name": "Delaware River Basin Commission",
+              "id": 112,
+              "url": "https://www.federalregister.gov/agencies/delaware-river-basin-commission",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/112",
+              "parent_id": null,
+              "slug": "delaware-river-basin-commission"
+            }
+          ],
+          "excerpts": "water supply systems serving the public in water use across the Basin. It also wishes to better quantify consumptive uses of water\u2014those uses that do not involve return of the water to a surface or ground water source after its use but instead involve evaporative loss or <span class=\"match\">export</span> of the water from the Basin.\n \n \n \n Excluding out-of-basin diversions, withdrawals by purveyors in 2024 comprised the second largest water use and second largest consumptive water use in the Delaware River Basin, equal to approximately 15 percent (833 million gallons per"
+        },
+        {
+          "title": "Proposal of Special Measure Prohibiting the Transmittal of Funds Regarding Transactions Involving the A7 Network's Sub-Agents",
+          "type": "Proposed Rule",
+          "abstract": "FinCEN is issuing a finding and notice of proposed rulemaking, pursuant to section 9714(a) of the Combating Russian Money Laundering Act (Public Law 116-283), as amended by section 6106(b) of the National Defense Authorization Act for Fiscal Year 2022 (Public Law 117-81), finding transactions involving any company operating outside of the United States that is controlled by the A7 Network, a sanctions evasion and money laundering service with ties to Russia, leveraged by a wide range of illicit actors, including Iran and its terrorist proxies, to be a class of transactions of primary money laundering concern in connection with Russian illicit finance and proposing the imposition of a prohibition on certain transmittals of funds, by any covered financial institution, involving that class of transactions.",
+          "document_number": "2026-20371",
+          "html_url": "https://www.federalregister.gov/documents/2026/10/05/2026-20371/proposal-of-special-measure-prohibiting-the-transmittal-of-funds-regarding-transactions-involving",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-10-05/pdf/2026-20371.pdf",
+          "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-20371.pdf?1790945120",
+          "publication_date": "2026-10-05",
+          "agencies": [
+            {
+              "raw_name": "DEPARTMENT OF THE TREASURY",
+              "name": "Treasury Department",
+              "id": 497,
+              "url": "https://www.federalregister.gov/agencies/treasury-department",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/497",
+              "parent_id": null,
+              "slug": "treasury-department"
+            },
+            {
+              "raw_name": "Financial Crimes Enforcement Network",
+              "name": "Financial Crimes Enforcement Network",
+              "id": 194,
+              "url": "https://www.federalregister.gov/agencies/financial-crimes-enforcement-network",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/194",
+              "parent_id": 497,
+              "slug": "financial-crimes-enforcement-network"
+            }
+          ],
+          "excerpts": "sanctions by illicit actors, including Russian and Iranian persons that have been designated by Treasury's Office of Foreign Assets <span class=\"match\">Control</span> (OFAC), such as the Islamic Revolutionary Guard Corps (IRGC), and intended to support illicit activities, including sanctions evasion involving or benefitting Russian and Iranian clients.\n \n \n \n 1 \n \u2009On October 1, 2026, the Department of the Treasury's Office of Foreign Assets <span class=\"match\">Control</span> (OFAC) sanctioned the A7 Network pursuant to Executive Order 13581, as amended by Executive Order 13863, for being a foreign person"
+        },
+        {
+          "title": "Exemptions From Materials Licensing",
+          "type": "Rule",
+          "abstract": "The U.S. Nuclear Regulatory Commission (NRC) is amending several regulations for byproduct, source, and special nuclear material by expanding how certain nuclear material can be safely used without a license. This action is responsive to the NRC's mission to enable safe, efficient, and reliable licensing and consistent with several Executive orders. These changes are deregulatory in nature, eliminating the need to obtain licenses for certain materials uses and quantities.",
+          "document_number": "2026-20336",
+          "html_url": "https://www.federalregister.gov/documents/2026/10/05/2026-20336/exemptions-from-materials-licensing",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-10-05/pdf/2026-20336.pdf",
+          "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-20336.pdf?1790945115",
+          "publication_date": "2026-10-05",
+          "agencies": [
+            {
+              "raw_name": "NUCLEAR REGULATORY COMMISSION",
+              "name": "Nuclear Regulatory Commission",
+              "id": 383,
+              "url": "https://www.federalregister.gov/agencies/nuclear-regulatory-commission",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/383",
+              "parent_id": null,
+              "slug": "nuclear-regulatory-commission"
+            }
+          ],
+          "excerpts": "similar to the NRC's radiation protection program in 10 CFR part 20 and provides protection of public health and safety and security <span class=\"match\">controls</span>. The DOE contractors typically conduct multiple training activities and exercises each year, submitting multiple, nearly identical, exemption requests. These training activities generally involve quantities of radioactive material which do not require additional security <span class=\"match\">controls</span> beyond 10 CFR part 20 requirements. In limited cases, the NRC has approved exemptions involving quantities that fall under security"
+        },
+        {
+          "title": "Exemptions From Materials Licensing",
+          "type": "Proposed Rule",
+          "abstract": "The U.S. Nuclear Regulatory Commission (NRC) is proposing to amend several regulations for byproduct, source, and special nuclear material by expanding how certain nuclear material can be safely used without a license. This proposed action would be responsive to the NRC's mission to enable safe, efficient, and reliable licensing and consistent with several Executive orders. These changes would be deregulatory in nature, eliminating the need to obtain licenses for certain materials uses and quantities.",
+          "document_number": "2026-20335",
+          "html_url": "https://www.federalregister.gov/documents/2026/10/05/2026-20335/exemptions-from-materials-licensing",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-10-05/pdf/2026-20335.pdf",
+          "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-20335.pdf?1790945115",
+          "publication_date": "2026-10-05",
+          "agencies": [
+            {
+              "raw_name": "NUCLEAR REGULATORY COMMISSION",
+              "name": "Nuclear Regulatory Commission",
+              "id": 383,
+              "url": "https://www.federalregister.gov/agencies/nuclear-regulatory-commission",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/383",
+              "parent_id": null,
+              "slug": "nuclear-regulatory-commission"
+            }
+          ],
+          "excerpts": "Radiation protection, Reporting and recordkeeping requirements, Whistleblowing. \n \n Criminal penalties, <span class=\"match\">Exports</span>, Government contracts, Hazardous materials transportation, Hazardous waste, Nuclear energy, Nuclear materials, Penalties, Reporting and recordkeeping requirements, Source material, Uranium, Whistleblowing. \n \n Classified information, Criminal penalties, Emergency medical services, Hazardous materials transportation, Material <span class=\"match\">control</span> and accounting, Nuclear energy, Nuclear materials, Packaging and containers, Penalties, Radiation protection"
+        },
+        {
+          "title": "Clarification to the Applicability of Emergency Exemptions; Response to Petitions for Reconsideration",
+          "type": "Rule",
+          "abstract": "FMCSA amends its emergency declaration regulations to revise from 14 days to 30 days the length of the relief automatically triggered subsequent to a regional declaration of emergency by a Governor of a State, the Governor's authorized representative, or FMCSA. This action is in response to several petitions for reconsideration received after publication of a final rule in October 2023.",
+          "document_number": "2026-20325",
+          "html_url": "https://www.federalregister.gov/documents/2026/10/05/2026-20325/clarification-to-the-applicability-of-emergency-exemptions-response-to-petitions-for-reconsideration",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-10-05/pdf/2026-20325.pdf",
+          "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-20325.pdf?1790945114",
+          "publication_date": "2026-10-05",
+          "agencies": [
+            {
+              "raw_name": "DEPARTMENT OF TRANSPORTATION",
+              "name": "Transportation Department",
+              "id": 492,
+              "url": "https://www.federalregister.gov/agencies/transportation-department",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/492",
+              "parent_id": null,
+              "slug": "transportation-department"
+            },
+            {
+              "raw_name": "Federal Motor Carrier Safety Administration",
+              "name": "Federal Motor Carrier Safety Administration",
+              "id": 181,
+              "url": "https://www.federalregister.gov/agencies/federal-motor-carrier-safety-administration",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/181",
+              "parent_id": 492,
+              "slug": "federal-motor-carrier-safety-administration"
+            }
+          ],
+          "excerpts": "Unleashing Prosperity Through Deregulation, issued on January 31, 2025 (90 FR 9065), requires that, for every new regulation issued by an agency, at least 10 prior regulations be identified for elimination, and that the cost of planned regulations be prudently managed and <span class=\"match\">controlled</span> through a budgeting process. This rulemaking is expected to have total \n \n costs less than zero and therefore is considered an E.O. 14192 deregulatory action.\n \n C. Congressional Review Act \n \n This rule is not a \n major rule \n as defined under the Congressional Review"
+        },
+        {
+          "title": "Agency Information Collection Activities; Court-Ordered Refunds Under the International Emergency Economic Powers Act Worksheet",
+          "type": "Notice",
+          "abstract": "The Department of Homeland Security, U.S. Customs and Border Protection (CBP) will be submitting the following information collection request to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995 (PRA). The information collection is published in the Federal Register to obtain comments from the public and affected agencies.",
+          "document_number": "2026-20228",
+          "html_url": "https://www.federalregister.gov/documents/2026/10/05/2026-20228/agency-information-collection-activities-court-ordered-refunds-under-the-international-emergency",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-10-05/pdf/2026-20228.pdf",
+          "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-20228.pdf?1790877608",
+          "publication_date": "2026-10-05",
+          "agencies": [
+            {
+              "raw_name": "DEPARTMENT OF HOMELAND SECURITY",
+              "name": "Homeland Security Department",
+              "id": 227,
+              "url": "https://www.federalregister.gov/agencies/homeland-security-department",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/227",
+              "parent_id": null,
+              "slug": "homeland-security-department"
+            },
+            {
+              "raw_name": "U.S. Customs and Border Protection",
+              "name": "U.S. Customs and Border Protection",
+              "id": 501,
+              "url": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/501",
+              "parent_id": 227,
+              "slug": "u-s-customs-and-border-protection"
+            }
+          ],
+          "excerpts": "unable to process the refunds owed in a timely or efficient manner using the existing process. \n The CAPE tool may be accessed through CBP's Automated Commercial Environment (ACE), which is the CBP-operated system used to report, manage, process, and track U.S. imports and <span class=\"match\">exports</span>. \n The CAPE tool allows CBP to process multiple entry summaries by the same importer on a single submission, which will lead to a single refund for a given importer rather than multiple refund transactions. Importers are able to file as many CAPE Declarations as they need"
+        },
+        {
+          "title": "Submission for OMB Review; Comment Request",
+          "type": "Notice",
+          "abstract": null,
+          "document_number": "2026-20237",
+          "html_url": "https://www.federalregister.gov/documents/2026/10/02/2026-20237/submission-for-omb-review-comment-request",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-10-02/pdf/2026-20237.pdf",
+          "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-20237.pdf?1790858718",
+          "publication_date": "2026-10-02",
+          "agencies": [
+            {
+              "raw_name": "DEPARTMENT OF AGRICULTURE",
+              "name": "Agriculture Department",
+              "id": 12,
+              "url": "https://www.federalregister.gov/agencies/agriculture-department",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/12",
+              "parent_id": null,
+              "slug": "agriculture-department"
+            }
+          ],
+          "excerpts": "collection of information unless the collection of information displays a currently valid OMB <span class=\"match\">control</span> number and the agency informs potential persons who are to respond to the collection of information that such persons are not required to respond to the collection of information unless it displays a currently valid OMB <span class=\"match\">control</span> number. \n National Agricultural Statistics Service (NASS) \n \n Title: \n Field Crops Production\u2014Substantive Change.\n \n \n OMB <span class=\"match\">Control</span> Number: \n 0535-0002.\n \n \n Summary of Collection: \n General authority for these data collection"
+        }
+      ]
+    }
+  }
+}
