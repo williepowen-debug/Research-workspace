@@ -1,6 +1,6 @@
 # WALTER STATUS
 
-**Updated 2026-10-08 ~08:3x ET — Will-launched boot (Claude Code, Opus 5.5, laptop), mid-session Tier-1 flush; full closeout deferred.** BOARD 1254; 15 outputs today (SIG-W-20261008-001…015: 14 news/research + 1 additive correction), 2 kills, 1 verify-research spawn (Iran full sweep); 0 cluster-mediating. Bookmark batch BM-20261008-01 97/97 and lane batch BM-20261008-02 14/14 CLOSED. Boot coverage PARTIAL (named in LAST_COMPLETION addendum). Commits local; PROME serializes push.
+**Updated 2026-10-08 08:4x ET — Will-launched boot (Claude Code, Opus 5.5, laptop), Tier-1 light closeout before Will's fresh-context reboot; full closeout deferred.** BOARD 1255; 16 outputs today (SIG-W-20261008-001…016: 14 news/research + 2 additive corrections), 2 kills, 1 verify-research spawn (Iran full sweep); 0 cluster-mediating. **Next session first: UK gilt CLOSES → HANS/BOND card (LAST_COMPLETION addendum).** Bookmark batch BM-20261008-01 97/97 and lane batch BM-20261008-02 14/14 CLOSED. Boot coverage PARTIAL (named in LAST_COMPLETION addendum). Commits local; PROME serializes push.
 
 ## BOTTOM LINE
 
@@ -12,7 +12,7 @@ Oil jumped ~5% overnight (Dec Brent ~$104.7) on three named drivers — a record
 |---|---|
 |HY / CCC|FRED HY 303bp [obs 10/6] (324 on 10/1, one print >320, run reset) → >320 watch 0/3; 5.3% from the line. CCC 1,214bp [10/6], RED-FT-07 FIRING-BANKED. Pre-16:00 ET boot: T+1 prints.|
 |VIX / SKEW|VIXCLS 15.01 [10/6]; ^VIX 15.73 intraday 10/8 (second witness only). SKEW 141.84 [10/7]. FT-06 FIRED-BANKED, exit ≥18 0/5.|
-|Claims / 5y5y|ICSA 197K [w/e 9/26]; new print 08:30 ET 10/8 not yet on FRED at flush. T5YIFR 2.35 [10/7].|
+|Claims / 5y5y|ICSA **197,000 [w/e 10/3, DOL release 10/8 08:30 ET, graded by LABOR at primary 08:36 ET]**; 4-wk MA 198,000; CC 1,716,000. RED-FT-05 (>250K) and REG-T-05 (>300K) not fired. T5YIFR 2.35 [10/7].|
 |Rates|DGS30 5.64 / DGS10 5.27 [10/6]; FT-11 30Y 5-session Δ +5bp (no precondition). SOFR 3.90 [10/6] vs IORB 3.90 → 0bp.|
 |Oil (named contracts)|BZZ26 $104.70 / CLX26 $92.37, ~+4.5% at ~12:00Z 10/8 (fetch.py; BZ identity UNKNOWN by name-cut). Boundaries #6/#8 NOT computed (month basis). Cushing 24.745M [w/e 10/2]; next WPSR Thu 10/15 noon.|
 |Freight|TD3C verified $1,221,893/day [10/2]; secondary chart ~$1.33M (record, posted 10/7). Weekly publisher review due Fri 10/9.|

@@ -32,7 +32,10 @@ No new decision requested. Existing Will/TERRY execution duties remain: USO37sha
 - **Receiving layer:** PROME live (prome-fc) woke 8 desks (WQ-389) + AEOLUS (WQ-369). Doorbelled CORAL/AEOLUS/BRENT/OZK/HANS/FALCON; dispositions in DOORBELL_LOG (WQ-391 slate is Will's; CORAL at Friday MSI-01 wake). Late-landing handoffs to the eight flagged; PROME nudged re-scan.
 - **Boot PARTIAL — not run/graded:** HANS T-08 storage gap (not pulled), CREED monthly rows (Sept Trepp via relay only), boundaries #6/#8 (month basis), FILTER_SPEC boot-context scoped reads, READS attestation stale since root CLAUDE.md 10/5, HANS THRESHOLDS 33,544 B (103%, HANS-owned).
 - **Publication:** 10/7 closeout `1d9ce780e` and `c1bdeb6e2` verified ON origin this boot (carried item #1 discharged). Today's commits LOCAL; push deferred to PROME (foreign dirty DAEDALUS GATE_LOG). Today's 20261008 delivery rows `written_not_delivered_pending_push` until push + reconcile.
-- **Open today:** UK London close (~11:30 ET) grades HANS-T-13 (>6.00) and T-06 (>5.50) → one grade-input card; claims 08:30 ET (LABOR owns; RED-FT-05 >250K / REG-T-05 >300K scan); Samsung Q3 prelim (VULCAN); 30Y auction 13:00 ET (BOND, WQ-390).
+- **Resolved later this session:** claims w/e 10/3 = **197,000** (LABOR graded at DOL primary 08:36 ET; MA 198,000; CC 1,716,000) → RED-FT-05 / REG-T-05 NOT fired. Samsung Q3 OP ~KRW 107.4T (+20% QoQ, issuer primary) already logged by VULCAN 08:34 ET (KB-196) — no route needed. HENRY's 08:27 packet (-009 said "Tue 10/14"; 10/14 is **Wednesday**) → additive correction **SIG-W-20261008-016**; claim_check over all 10/8 cards: the only other flag (-013 "Tue 10/6") is a checker false positive. At Will's 08:3x question: bookmarks 0 new, lane 0 new, DEWEY/drop zone empty; **phone sweep (7e(f)) had been SKIPPED at boot — run late, `phone_inbox/` absent (not an error).**
+- **⏭ NEXT SESSION, FIRST (Will rebooting fresh mid-day 10/8, ~08:45 ET):** after the London close (~11:30 ET) pull the UK 30Y and 10Y **CLOSES** (TE or a close source; intraday 10/8 was 30Y 6.007% / 10Y 5.49%) and send ONE grade-input card to **HANS + BOND** (HANS-T-13 >6.00 orange; HANS-T-06 >5.50 orange; both graded on the daily CLOSE; LIQUID cc LDI). The background timer for this was STOPPED at closeout. Also: BOND's WQ-390 wake (after 13:15 ET) and the 30Y auction 13:00 ET are BOND's; Friday freight review 10/9 (tanker watch); USO $150C / QQQ $755P expire Fri (TERRY cards, Will executes).
+- **Size:** `MEMORY.md` 24,343 B after adding finding #45 — **69 B under the 24,412 B rotation trigger**; the next Tier-2 (or any further MEMORY addition) must rotate first. Iran anchor 20,926 B.
+- **Push/reconcile:** commits `45b320134`, `4608a0e78`, `a233971b5` + this closeout commit are LOCAL; PROME serializes safe-push. After they reach origin run `tools/reconcile_delivery_log.py --apply` (doctor shows ~33 "committed but NOT on origin" MEDs until then — expected).
 
 ## FOLLOW-UP
 1. ~~**Nextboot:** verify exact final publication~~ — ✅ DISCHARGED 10/8 boot (`1d9ce780e`, `c1bdeb6e2` on origin). Still read this list + tanker-cost-watch WATCH.md/STATE.csv each boot.
@@ -140,8 +143,8 @@ Checks and exact path/commit evidence: research/2026-10-07_closeout/RECEIPT.md. 
       },
       {
         "path": "AGENTS/HENRY/STATUS.md",
-        "sha256": "404a640ea8cf46890301342f6df54e1d2c14a4ce86342a2d3dea9f872655d053",
-        "note": "FALCON finding read via full BOARD014 relay plus owner header; HENRY STATUS scoped first30 lines; no whole-domain review claimed."
+        "sha256": "401ecb5a5e88c10e17041f5b53facea1ce16a3f7552e54f0ab358dbd169a68a8",
+        "note": "Re-read 2026-10-08 (WALTER Tier-1, Claude Code): HENRY graded DOCKET L612 Sept ISM Services HEN-48-56 at 08:27 ET (046ee4763; ranges 5/6, directions 2/3). The carried HENRY ISM grading obligation is DISCHARGED by the owner; header lines 1-6 read."
       },
       {
         "path": "AGENTS/BRENT/research/2026-10-07_news-catchup/REPORT.md",
@@ -155,13 +158,14 @@ Checks and exact path/commit evidence: research/2026-10-07_closeout/RECEIPT.md. 
     "HANS registry read-cap remedy; on-demand Iran guards oversized",
     "Remaining owner consumption requires per-owner evidence; no automatic wake",
     "Iran full sweepaboutOct8; operator/UKMTO fire and loss authentication missing",
-    "Oct8 claims/PMMS/30Y/CRMT clocks; past HENRY ISM grading still unverified",
+    "Oct8: claims graded 197K by LABOR; PMMS/30Y/CRMT clocks; HENRY ISM L612 graded 10/8 (046ee4763)",
     "Oct9 manual freight,FERT11,COT,FDICNano/CableOne checks; nextEIAOct15noonET",
     "Existing USOOct9 150C15ET stop and QQQ755Pbefore-expiry duty,Will executes;Activity/currentUSOweights unknown",
     "TLT/TBTpathC+HBAN managementOct14;VLO1 WQ386 and broaderWQ252/HEN46 sitting preserved",
     "Pilot reviewOct17; unattendedWALTER remains undecided; WQ369 encode/review separate",
     "Boundaries6/8,AIcluster/coherence,verdict-letter F1/F2 and carried process proposals remain unresolved",
-    "Full closeout exact commit publication and final owner receipt pending coordinator push"
+    "Full closeout exact commit publication and final owner receipt pending coordinator push",
+    "10/8 next session FIRST: UK 30Y/10Y CLOSES -> one HANS+BOND grade-input card (HANS-T-13 >6.00, T-06 >5.50)"
   ],
   "next_review": "2026-10-08"
 }

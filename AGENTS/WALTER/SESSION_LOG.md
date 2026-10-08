@@ -1,6 +1,6 @@
 ## 2026-10-08T12:24:32Z — 10/8 Will-launched boot (Claude Code, Opus 5.5, laptop); light-closeout — full deferred
 
-Boot PARTIAL (named in LAST_COMPLETION addendum). 15 dispatches SIG-W-20261008-001..015 incl. Iran FULL sweep (-014, anchor re-stamped, next ~10/15), Isaias IMMEDIATE (-001), HANS gilt near-fire + UK Budget date fix (-005). 97 X-bookmarks + 14 lane items dispositioned (BM-20261008-01/-02 CLOSED). 2 kills. Doorbells -> PROME; AEOLUS woken, rest on WQ-391 slate. Commits local; push via PROME.
+Boot PARTIAL (named in LAST_COMPLETION addendum). Closed 08:4x ET for Will's fresh-context reboot. 16 dispatches SIG-W-20261008-001..016 (016 = HENRY-caught weekday correction to 009) incl. Iran FULL sweep (-014, anchor re-stamped, next ~10/15), Isaias IMMEDIATE (-001), HANS gilt near-fire + UK Budget date fix (-005). 97 X-bookmarks + 14 lane items dispositioned (BM-20261008-01/-02 CLOSED). 2 kills. Doorbells -> PROME; AEOLUS woken, rest on WQ-391 slate. Claims 197K (LABOR). Phone sweep skipped at boot, run late. OPEN: UK gilt closes -> HANS/BOND card. Commits local; push via PROME.
 
 ## 2026-10-07 FULL CLOSEOUT — 2026-10-07T20:40:39.869781-04:00, Codex gpt-6.1-sol, Will via PROME
 
