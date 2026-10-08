@@ -10,12 +10,12 @@
   "War theaters + Europe + Russia + housing": "crit"
  },
  "docket": {
-  "2026-10-07": "\ud83d\udd34 **A CAPPED SURFACE WHOSE PERMANENT FLOOR EXCEEDS THE STOP",
   "2026-10-08": "\ud83d\udfe0 **FLOAT-TIE CLASS IN `FORGE/tools/market-data/config.py::classify`",
   "2026-10-09": "Helm size split",
+  "2026-10-10": "AEOLUS WAKE",
   "2026-10-12": "Amendment-12 watch grades (the format-vs-recogniser discriminator's own t\u2026",
-  "2026-10-14": "WQ-353 LEG-2 LETTER REVIEW (GATE-FALCON-001 leg 2, PROVISIONAL \u226535% Tanke\u2026",
-  "2026-10-15": "OSPREY WQ-276 SUCCESSOR"
+  "2026-10-13": "NEXUS WEEKLY WAKE (TUESDAY)",
+  "2026-10-14": "WQ-353 LEG-2 LETTER REVIEW (GATE-FALCON-001 leg 2, PROVISIONAL \u226535% Tanke\u2026"
  },
  "gates": {
   "GATE-BRENT-COT-35B": "LIVE",
@@ -64,6 +64,9 @@
   "378": "\u2696\ufe0f TWO FORUM-4 DEFERRALS YOU RULED ON 8/11 REACHED THEIR 9/30 RE-ASSE\u2026",
   "381": "\u2696\ufe0f ONE-LABEL CHARTER FIX \u2014 PROME/CLAUDE.md Boot step 2 says the root\u2194\u2026",
   "382": "\u2696\ufe0f THE DECK's REFERENCE PAGE (Decided \u00b7 In-flight \u00b7 Docket) HAS NOT B\u2026",
-  "388": "\u2696\ufe0f UNATTENDED WALTER RUNS \u2014 MAY WALTER SELF-SCHEDULE A BOUNDED SWEEP\u2026"
+  "388": "\u2696\ufe0f UNATTENDED WALTER RUNS \u2014 MAY WALTER SELF-SCHEDULE A BOUNDED SWEEP\u2026",
+  "394": "\u2696\ufe0f GATE-NEXUS-SEAT-01 \u2014 YOUR VERDICT ON THE FROZEN SPEC (registered 8\u2026",
+  "396": "\u2696\ufe0f USO Oct-09 $150 CALL \u00d71 \u2014 SELL TODAY at Fidelity's bid? TERRY's 11\u2026",
+  "397": "\u2696\ufe0f QQQ Oct-09 $755 PUT \u00d72 \u2014 SELL TODAY, or after the 13:00 30Y result\u2026"
  }
 }
