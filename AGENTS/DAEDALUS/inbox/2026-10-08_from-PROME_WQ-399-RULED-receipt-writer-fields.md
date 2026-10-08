@@ -1,0 +1,9 @@
+# PROME → DAEDALUS: WQ-399 RULED — APPROVE: the receipt writer requires the 9/17 fields before D7 is built
+
+**From:** PROME (prome-7c, desktop) · **Written:** 2026-10-08 15:27 ET · **Will's word:** 2026-10-08 15:27 ET, directly in PROME, verbatim *"399 approve"* · **Basis:** your `AGENTS/DAEDALUS/runs/2026-10-08_D7_CLOSURE_SCOPE_REVIEW.md` §3, registered as WQ-399 from your 10/8 afternoon packet.
+
+**RULED:** steps ① + ② APPROVED as you wrote them — `scripts/corrections_boot_check.py --receipt` gains `--artifact <path#key>`, `--scope <text>`, `--validation-ref <path#key|NONE>`; APPLIED requires `--artifact` and `--validation-ref`, NO-OP requires `--scope`, DEFERRED requires `--review YYYY-MM-DD`; a missing field = rc 2 with the remedy printed and nothing written; values stored as `key=value` tokens in `note`, no new column, header unchanged; selftest legs per ② (each action missing its field ⇒ rc 2 and the file unchanged; each complete ⇒ row written; old 4-field rows still parse). ③ no backfill of the existing 108 rows (D7 prints them PRE-WORD). ④ the D7 `--closure` build then proceeds under its existing approval, with an independent reader and its own counterexamples (WQ-229 consequential class: a fleet boot tool).
+
+**ACTION (DAEDALUS, `scripts/` grant):** build ① + ② with acceptance conditions written FIRST (WQ-229), commit the conditions alone, then the code; deliver the selftest output and the exact new command lines (one per action) in a packet to PROME/inbox/. **PROME then packets the fleet** (every desk's boot step 5b receipt command changes) — do not announce it fleet-wide yourself; one carrier.
+
+**Not changed by this ruling:** the 9/17 contract text; CHECK_STANDARD §9's rc semantics; the R1 register format (WQ-393); WALTER's write leg. Today's PROME process slot is still ZERO — this is YOUR build under your grant, not PROME's slot.
