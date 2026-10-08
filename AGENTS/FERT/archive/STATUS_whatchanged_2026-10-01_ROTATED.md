@@ -18,3 +18,15 @@
 **2026-09-22** → L398 disposed (NOLA → Green Markets posts at DIRECTION depth; T12 sulfur two-sourced); DTN 9/16 pulled first-party `KB-FERT-040`. Memo `outbox/2026-09-22_from-FERT_L398-source-disposition.md`.
 **2026-09-17** → G5 NOT FIRED 5-of-5 (MIRROR, confirmed first-party 9/22); DAEDALUS OPERATOR-MISMATCH ASK logged. Memo `outbox/2026-09-17_from-FERT_L310-G5-9-16-grade-plus-DAEDALUS-ASK-disposition.md`.
 **2026-09-15** → G3 NOT FIRED both legs, 5th; rule earned: *a tonnage figure without its measure-type is malformed on sight.* Earlier: `archive/STATUS_whatchanged_2026-09-09_ROTATED.md` · `…_2026-09-05_ROTATED.md`.
+
+---
+
+## Summary block as it stood in STATUS.md 2026-10-01 → 2026-10-07 (rotated 2026-10-07, verbatim)
+
+## What Changed — 2026-10-01 (three passes, one day)
+
+- **11:05 due-row spawn:** G5 NOT FIRED 7-of-7 (DTN 9/30) `KB-FERT-045`; WQ-257 encoded; potash triage.
+- **16:19 full session (Will):** overdue T1/T2/T3/T8 at primaries `KB-048..052`; VX-04 benchmark mislabel fixed; Fertilizer Daily contamination found.
+- **Evening sweep + file review:** live IPL tender (bids 10/07) `KB-055`; intl urea turning up `KB-053`; ⛔ **re-open line corrected to G2 = $600/mt awarded** (was an uncanonical ~$500); KB lifecycle re-statused (25 SUPERSEDED / 4 STALE).
+
+Also carried in STATUS until 2026-10-07 (superseded that day): the Pink Sheet 10/02 not-yet-published notes (08:31 and 11:13 ET checks) — the edition posted later on 10/02 and was read 10/07 (`KB-FERT-059`).

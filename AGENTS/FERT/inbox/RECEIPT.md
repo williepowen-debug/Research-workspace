@@ -1,24 +1,28 @@
-# Inbox Processing Receipt — 2026-10-01 20:29 UTC
-## Agent: FERT (full session, Will-launched, 2026-10-01 afternoon)
+# Inbox Processing Receipt — 2026-10-08 02:03 UTC (2026-10-07 22:03 ET)
+## Agent: FERT (WQ-184 due-row spawn by PROME `prome-0e`; runtime Claude Code, model Opus via the `desk` agent definition)
+
+### Census at boot
+`PROME/tools/inbox_census.py FERT` → top-level 2 · WALTER/ 1. The two top-level files are this desk's own standing infrastructure (`PROTOCOL.md`, `RECEIPT.md`), not inbound packets — nothing to drain there. One inbound item: the WALTER signal below.
 
 ### Signals Processed
 | # | Signal File | Action | KB Entries Created | VX/FLOW Changes |
 |---|-------------|--------|-------------------|-----------------|
-| 1 | 2026-10-01_from-PROME_WQ-351-G5-clarification-ENCODED.md | INTEGRATE — G5 grading terms mirrored on workbook/GATE_GRADES.md + STATUS, PROME's caveat kept | — | — |
-| 2 | 2026-10-01_from-WALTER_R3-watch-for-verdicts.md | INTEGRATE — verdicts by name to PROME/inbox/2026-10-01_from-FERT_R3-watch-for-verdicts.md; live-test hits dated at source (all old) | KB-FERT-052 | VX-FERT-01 note |
+| 1 | WALTER/SIG-W-20261007-005.md (Oct-2026 Pink Sheet available; rock Sep $170.0) | INTEGRATE — every cell re-read at the primary first (PDF + xlsx, curl 21:43 ET); FERT-11 graded HIT by FERT; WALTER's urea-label note confirmed and adopted; a second mislabel (KCl) found and corrected | KB-FERT-059, -060, -061 (+ KB-028/029 CORRECTED) | VX-FERT-02 root note; VX-FERT-04 label + Sep urea note |
 
-### Also worked this session (overdue wake triggers, not inbox)
-T1 closed + re-scoped (KB-FERT-048, Fertilizer Daily contamination) · T2 ERS 9/25 (KB-FERT-049) · T3 Aug CPI (KB-FERT-050) · T8 NASS 9/28 (KB-FERT-051).
+### Also worked this session (due rows, not inbox)
+DOCKET L288 / T11 (Pink Sheet, FERT-11 HIT) · `GATE-FERT-G5` / T4 (DTN 10/07, NOT FIRED 8-of-8; KB-FERT-062/063) · DOCKET L576 / T1 (IPL offers SEARCH-NOT-FOUND; KB-FERT-064, China 4th quota round KB-FERT-065, Nutrien Trinidad KB-FERT-066). T10 / G3 NOT run (10/15; no inbox item forced it).
 
 ### STATUS.md Changes
-- VX-FERT-04 CORRECTED: value cell held DTN retail $/ton in a NOLA $/st row → NOLA $450–455/st, YELLOW at lower edge
-- Vector 5: tender closed, award price never published; Vector 6: Aug FAH +0.03% m/m SA
+- G5: 7-of-7 → **8-of-8 NOT FIRED**; MAP $970 → **$974**, DAP $926 → **$934**; next review_by 10/07 → **10/14**
+- FERT-11: OPEN → **HIT**; FERT-12 headroom $5 → **$1**
+- Pink Sheet panel rolled to Sep data; two benchmark labels corrected (urea = Middle East FOB prill; KCl = Brazil CFR granular)
 
 ### Outbox Signals Written
-- to-PROME (PROME/inbox): WQ-295 R3 FERT phrase verdicts, 10-phrase set to land
+- to-PROME (PROME/inbox): `2026-10-07_from-FERT_T11-IPL-G5-grades.md` — grades, G5 review_by, DOCKET L576 re-date ask, potash triage flag
 
 ### Files Modified
-KB.tsv, VX.tsv, FLOW.tsv, TRIGGERS.tsv, GATE_GRADES.md, board_log.tsv (+ workbook/board_log.tsv FROZEN as orphan), CLAUDE.md (stale present-state lines), STATUS.md
+KB.tsv, VX.tsv, TRIGGERS.tsv, PREDICTIONS.tsv, GATE_GRADES.md, board_log.tsv, STATUS.md, archive/STATUS_whatchanged_2026-10-01_ROTATED.md, inbox/WALTER/processed/ (git mv)
 
 ### Skipped / Issues
-- Uberaba (Mosaic Brazil) "September hibernation" claim — search-summary only, unverified; left for T12 (10/16).
+- IPL 10/07 offers not obtainable from free sources at 21:51 ET — re-read 10/09, award by 10/15.
+- NOLA barge level: a Profercy "$430s/st" read (w/c 9/28) noted but VX-04 State held YELLOW (cross-publisher, intermittent).

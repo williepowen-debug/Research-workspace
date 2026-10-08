@@ -1,6 +1,6 @@
 # FERT — Registered gate grade history
 
-**LIVE — Last real data refresh: 2026-10-01** (9/30 print appended + 8-print rate cut) | Staleness sweep: 2026-10-01
+**LIVE — Last real data refresh: 2026-10-07** (10/7 print appended + 9-print rate cut) | Staleness sweep: 2026-10-07
 **Split out of `STATUS.md` 2026-09-15** (read-cap remedy, hot/cold split). STATUS carries the **current** grade and the rate; this file carries the **print-by-print history**. GATE letters are canonical at `PROME/GATES.tsv` — never restated here.
 
 ## GATE-FERT-G5 — DTN retail DAP **or** MAP > $1,000/ton ($/ton, DTN Progressive Farmer weekly)
@@ -23,6 +23,7 @@
 | **9/16/26** | **Sep 7–11** | **$923** | **$962** | **MAP** | **$38 · +3.95%** | **NOT FIRED** — graded 9/17 on MIRROR; **confirmed first-party at dtnpf.com 9/22** (`KB-FERT-040`) |
 | **9/23/26** | **Sep 14–18** | **$925** | **$967** | **MAP** | **$33 · +3.41%** | **NOT FIRED** — PRIMARY, first-party curl at dtnpf.com 9/23 (`KB-FERT-043`) |
 | **9/30/26** | **Sep 21–25** | **$926** | **$970** | **MAP** | **$30 · +3.09%** | **NOT FIRED** (7 of 7 graded) — PRIMARY, first-party curl at dtnpf.com 2026-10-01 11:06 ET (`KB-FERT-045`) |
+| **10/7/26** | **Sep 28–Oct 2** | **$934** | **$974** | **MAP** | **$26 · +2.67%** | **NOT FIRED** (8 of 8 graded) — PRIMARY, first-party curl at dtnpf.com 2026-10-07 21:44 ET (`KB-FERT-062`); strictly-greater, whole-dollar, US national average as printed |
 
 🔑 **The APPROACH RATE is the finding, and it is stated here as a rate — a gate row shows distance, never rate.**
 
@@ -51,4 +52,13 @@ Both legs are now above the ~+0.50 %/mo registration base rate; most of the move
 
 Third consecutive up-print on both legs; the w/w pace slowed (MAP +$5 → +$3, DAP +$2 → +$1). A last-three-prints window (9/9 → 9/30) puts MAP at ~+1.65 %/mo (~1.8 months to the line), but three prints is a window, not a trend, and is not used for the grade or the score.
 
-**Next grade: 2026-10-07 DTN weekly** (T4 wake; find the slug on the dtnpf.com crops index, then curl the article).
+**Approach rate, 9-print cut (8/12 → 10/7, 8 weeks) — supersedes the 8-print cut for current use** (log basis, 4.35 wk/mo, same method):
+
+| Leg | 8/12 baseline | 10/7 print | Move over 56 days | Realised approach rate | Implied time-to-fire at that rate |
+|---|---|---|---|---|---|
+| **MAP (binding)** | $959 | $974 | +$15 · +1.564% | **~+0.84 %/mo** (+0.194 %/wk) | **~3.1 months** (≈ mid-Jan 2027) |
+| DAP (second) | $917 | $934 | +$17 · +1.854% | **~+1.00 %/mo** (+0.230 %/wk) | ~6.8 months (≈ early May 2027) |
+
+Fourth consecutive up-print on both legs. W/w: MAP +$4 (pace held, +$3 → +$4), DAP **+$8** (pace jumped, +$1 → +$8 — the largest DAP weekly move in the series). Both legs are each the highest of the 14 monthly rows in DTN's own 10/7 table. A last-five-prints window (9/9 → 10/7) puts MAP at ~+1.69 %/mo (~1.6 months to the line) — a window, not a trend, not used for the grade or the score. Root context: Pink Sheet rock **flat** at $170.0/mt for Jul–Sep (FERT-11 HIT) while Gulf DAP rose +0.9% m/m — the retail run is not rock-fed.
+
+**Next grade: 2026-10-14 DTN weekly** (T4 wake; owner-set `review_by` for `G:GATE-FERT-G5`; find the slug on the dtnpf.com crops index, then curl the article).
