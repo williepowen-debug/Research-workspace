@@ -105,3 +105,25 @@ The best reason not to exit: the 3–6Y build is belly evidence and the long end
 **Lean unchanged: A. Sell the 82P (limit at Fidelity's bid, floor intrinsic − $0.10) and sell all 10 TBT, today by 15:00 ET.** If WQ-360 is also approved, **sell these first, then buy.**
 
 **APPROVAL REQUIRED — Will must approve/reject before execution.** Memo: `PROME/inbox/2026-10-02_from-TERRY_open-remarks-WQ347-357-360.md`.
+
+---
+
+## ADDENDUM 2026-10-07 Wed 22:0x ET: Will's WQ-357 LATER recorded; path C is the live path; sleeve re-marked at tonight's close (PROME `prome-0e`, Tier 1, WQ-302 / C5). §§1–8 and the 10/2 addendum stand as written
+
+**Ruling recorded (root rule #10).** WQ-357, Will's Decision Deck tap 2026-10-03 21:08 ET (doc `357-20261004010840647-ybl15k`), **LATER**, verbatim: *"I would like to do more research on this.  I am not sure any bond rebound continues.  I would like us to do some mroe research"*. Source: PROME packet `inbox/processed/2026-10-03_from-PROME_WQ-357-365-366-rulings.md`. ⇒ **Not approved, not declined. Lean A (sell both Fri 10/02) closed unused at 15:00 ET that day. Path C (hold both to the WQ-302 date, Wed 10/14) is the live path by default; nothing fires on this card.** BOND's research read is delivered (`ff0992bf1`, `AGENTS/BOND/analysis/2026-10-05_WQ-357_rebound-research.md`, DOCKET L608 RESOLVED); the decision is Will's before the 82P's clock. **No new ask is made here.** The § 7 desk view on C ("⛔ holding a killed thesis's main leg") is the desk's view at the time; Will's LATER is the ruling and this card records it, not re-litigates it.
+
+**Position (capture received 10/7, Will's word "yes today", time UNKNOWN):** TLT 82P Oct-16 ×1, last $4.70 ⇒ $470.00 (+$302.33 vs $167.67) · TBT 10 sh, last $42.855 ⇒ $428.55 (+$82.09 vs $346.46). Quantities unchanged since 10/1.
+
+| Live read 21:45 ET (after the close; SCREENING, Fidelity governs) | Value |
+|---|---|
+| TLT | **$77.15 close (−0.17%)**; 10/1 $77.71 · 10/2 $77.48 · 10/5 $77.11 · 10/6 $77.28 (yfinance) |
+| 82P Oct-16 | intrinsic **$4.85**; vendor **4.75 / 4.95** (OI 1,414) ⇒ **time value at the bid −$0.10**. Sold at the bid after the fee ≈ **$474.35 (+$306.68)** |
+| TBT ×10 | **$42.98 close (+0.51%) ⇒ $429.80 (+$83.34)** |
+| Sleeve | ≈ **$904 at marks, ≈ +$390 vs $514.13** |
+| Rates context (BOND packet 10/7, primary TreasuryDirect/Treasury/Fed) | 30Y 5.67% (+3bp) · 2Y 4.77% (−2bp) · real 10Y 2.92% · the 10Y auction cleared clean · the September minutes left a further hike conditional. BOND: WQ-357 LATER / path C and NO-ADD unchanged |
+
+**What path C holds between now and Wed 10/14** (dates: BOND `docket/CATALYSTS.tsv`): Thu 10/08 13:00 30-year reopening · Mon 10/12 Columbus Day (TLT trades; the cash Treasury market is closed — SIFMA's usual calendar, INFERRED, not read today; expect a wider TLT quote that day) · **Wed 10/14 08:30 September CPI**, the morning of the decision date itself. ⇒ **A 10/14 sale under C happens after CPI**; the decision is made on a tape that has just absorbed it.
+
+**Mechanics, unchanged:** the 82P has no time value to earn (−$0.10 at the bid), so holding is a directional bet on ≈ $8.2k of TLT-equivalent short exposure (the put ≈ $7.3k at a model delta ≈ −0.95, plus TBT ≈ $0.9k at −2× daily), ≈ $82 per 1% TLT move, against the lines when TLT rises. Day colour has no convexity object on this sale: it fills at about intrinsic minus a dime whatever the colour. If held into Fri 10/16 in the money ⇒ the IRA sells 100 TLT at $82 = $8,200 short, Fidelity's handling UNOBSERVED (D-60); the 10/16 16:00 backstop on WQ-302 exists for that. **WQ-360** (the TLT Dec-18 77P card, `TRY-COND-TLTPUT-WQ339`) stays pending, its window lapsing Wed 10/14 15:00 ET; if both are acted on the same day, **sell these first, then buy**.
+
+`$0` MOVED · NO ORDER · NO NEW ASK. **APPROVAL REQUIRED — Will must approve/reject before execution.**

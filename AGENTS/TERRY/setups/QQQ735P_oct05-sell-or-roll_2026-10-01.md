@@ -2,7 +2,7 @@
 
 **Date:** 2026-10-01 Thu, written 11:10 ET (live read `date` 11:09:14). **Spawn:** PROME `prome-2a`, Tier 1, WQ-347 (Monday's half). **Id:** `MGMT-QQQ735P-OCT05` (management card; no SETUPS row).
 **Thesis owner:** Will (no agent thesis on file — off-thesis class).
-**Terry verdict:** 🟡 **SELL-OR-ROLL BY MON 10/05 15:00 ET — no action owed today.** Hold-to-expiry is not on the menu (worthless above 735; a 500-share short in the IRA below it). Today's figures are a moment read (construction rule #14); **re-read Monday morning** before Will acts.
+**Terry verdict:** 🔒 **CLOSED — LEFT THE ACCOUNT: absent from Will's Fidelity capture received 2026-10-07 (`PROME/data/2026-10-07_broker-capture-TRANSCRIPTION.md`). How it left (sold, rolled or expired) and at what price is UNKNOWN until the Activity view (WQ-347; FORGE D-72). Nothing is booked here; no exit result is inferred.** The 10/7 lines (`MGMT-QQQ755P-OCT09`, `MGMT-QQQ745P-OCT15`, `MGMT-QQQ740P-OCT15`) are NEW identities and do not continue this card. *(was: 🟡 **SELL-OR-ROLL BY MON 10/05 15:00 ET — no action owed today.** Hold-to-expiry is not on the menu (worthless above 735; a 500-share short in the IRA below it). Today's figures are a moment read (construction rule #14); **re-read Monday morning** before Will acts.)*
 **Confidence in the read:** Medium (vendor option quotes are screening grade; the live bid is Fidelity's).
 **`$0` MOVED · NO ORDER · NO NEW TRADE PROPOSED · NO GATE OR THRESHOLD MOVED.**
 
@@ -109,3 +109,9 @@ Nothing is owed today. **Monday by 15:00 ET: SELL at Fidelity's bid (desk lean, 
 **Lean: SELL. Today is better than Monday on the arithmetic.** Almost all of what's left is time value, and Monday's session holds about one day of it. Unless QQQ falls about 2.3% by Monday, most of it runs off over the weekend. Selling a put on a green QQQ day gets a lower price, but it's not a root rule #6 break, because the rule governs buys. The hard stop stays **Mon 10/05 15:00 ET**. If the 740P ×4 are rolled to Oct-09 today, any roll of these five goes to **Oct-16**.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution.**
+
+---
+
+## CLOSING NOTE 2026-10-07 Wed 22:1x ET (PROME `prome-0e`)
+
+The line is absent from the 10/7 Fidelity holdings capture. **Disposition and proceeds UNKNOWN — Activity view needed (WQ-347, FORGE D-72); never assumed worthless, never assumed rolled.** D-60 (Fidelity's in-the-money handling) remains UNOBSERVED unless the Activity view shows otherwise. Postmortem owed once the Activity view lands. `$0` MOVED.

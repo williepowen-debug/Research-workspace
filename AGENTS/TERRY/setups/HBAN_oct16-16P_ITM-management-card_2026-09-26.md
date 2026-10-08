@@ -163,3 +163,21 @@
   - The construction-rule #18 envelope (regional-bank 1-day moves: median 2–3%) applies to peers' read-through at most.
   - **No lean change is made here.** Re-mark at the 10/14 decision point at the live chain.
 - `$0` MOVED · NO ORDER.
+
+## ADDENDUM 2026-10-07 Wed 22:0x ET: re-marked at tonight's close for the WQ-302 clock (PROME `prome-0e`, Tier 1, C5). The text above stands
+
+**Position (capture received 10/7, Will's word "yes today", time UNKNOWN):** HBAN Oct-16 $16P ×2, last $0.85 ⇒ $170.00 (−$21.34 vs $191.34).
+
+| Live read 21:45 ET (after the close; SCREENING, Fidelity governs) | Value |
+|---|---|
+| HBAN | **$15.17 close (−1.04%)** ⇒ the put is **$0.83 in the money**; 10/1 $15.19 · 10/2 $15.33 · 10/5 $15.29 · 10/6 $15.33 (yfinance) |
+| 16P Oct-16 | vendor **0.70 / 1.05** (40% wide, OI 14,134, last trade 15:47) |
+| Two sold, after $1.30 fees | at the vendor bid ≈ **$138.70 (−$52.64)** · at intrinsic ≈ **$164.70 (−$26.64)** |
+
+- **The quote is the cost, not the price:** the bid sits $0.13 under intrinsic. **Work a limit at or near intrinsic (about $0.80–0.83), never the bid** — on two contracts the difference is ≈ $26.
+- **Exercise path if held in the money to Fri 10/16:** the IRA sells 200 HBAN at $16 = **$3,200 short**; an IRA cannot carry it; Fidelity's handling **UNOBSERVED (D-60)**.
+- **The rulings, as they now stand:** the 7/18 *"rides to expiry, do not pay to close"* ruling is still the letter on WQ-302, but Will's **standing practice since 9/30** (`USER.md`, verbatim: *"I am always going to try to sell or roll positions before they expire worthless"*) puts every option line on a sell-or-roll rail. Both point to **R-A, sell before expiry**, which is also this card's rec. **No new ask; WQ-302's Wed 10/14 decision (backstop Fri 10/16 before 16:00) stands.**
+- **Events to the expiry, unchanged from the 10/2 addendum:** JPM/WFC/Citi/GS Tue 10/13 · CPI and BAC/MS Wed 10/14 · USB 10/15 · MTB/TFC/CFG/RF on the expiry morning · HBAN's own print Thu 10/22 09:00 ET, after the expiry.
+- Day colour: a put SALE; root rule #6 governs buys. A red HBAN day fetches more.
+
+`$0` MOVED · NO ORDER. **APPROVAL REQUIRED — Will must approve/reject before execution.**

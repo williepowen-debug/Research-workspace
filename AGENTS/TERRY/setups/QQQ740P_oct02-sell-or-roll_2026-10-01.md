@@ -3,7 +3,7 @@
 **Date:** 2026-10-01 Thu, written from 16:23 ET (`date` 16:23:06; live reads 16:19:17–16:23:01 below). **Session:** TERRY interactive (Will in the window) on PROME `prome-2f`'s ask 1 (WQ-347 workstream).
 **Id:** `MGMT-QQQ740P-OCT02` (management card on a line Will opened by his own hand; no SETUPS row — that ledger is at 97.8% of its read budget, rotation owed by Mon 10/05).
 **Thesis owner:** Will (no agent thesis on file — off-thesis class, `FORGE/STATUS.md` § Off-thesis).
-**Terry verdict:** 🔴 **SELL-OR-ROLL BY FRI 10/02 15:00 ET — desk lean SELL in the first hour after the 09:30 open.** Holding into Friday's close is BAD STRUCTURE: worthless above 740, and below 740 an exercise into a 400-share QQQ short ($296,000) that sits in the IRA over a **weekend**. If Will keeps the bet, the roll that fits root rule #7 and construction rule #21 is **740P Oct-09 ×4** (≈ $4.34/ct net on tonight's screening marks, ≈ $1,736) — never another one-day roll.
+**Terry verdict:** 🔒 **CLOSED — LEFT THE ACCOUNT: absent from Will's Fidelity capture received 2026-10-07 (`PROME/data/2026-10-07_broker-capture-TRANSCRIPTION.md`). How it left (sold, rolled or expired) and at what price is UNKNOWN until the Activity view (WQ-347; FORGE D-72). Nothing is booked here; no exit result is inferred.** The 10/7 lines (`MGMT-QQQ755P-OCT09`, `MGMT-QQQ745P-OCT15`, `MGMT-QQQ740P-OCT15`) are NEW identities and do not continue this card. *(was: 🔴 **SELL-OR-ROLL BY FRI 10/02 15:00 ET — desk lean SELL in the first hour after the 09:30 open.** Holding into Friday's close is BAD STRUCTURE: worthless above 740, and below 740 an exercise into a 400-share QQQ short ($296,000) that sits in the IRA over a **weekend**. If Will keeps the bet, the roll that fits root rule #7 and construction rule #21 is **740P Oct-09 ×4** (≈ $4.34/ct net on tonight's screening marks, ≈ $1,736) — never another one-day roll.)*
 **Confidence in the read:** Medium (vendor option quotes are screening grade; the 740P read moved 2.43 → 2.29 between 16:19 and 16:22 with the spot print unchanged — §2).
 **`$0` MOVED · NO ORDER · NO NEW TRADE PROPOSED · NO GATE OR THRESHOLD MOVED.** A card is a recommendation; the order is Will's (root rule #5).
 
@@ -156,3 +156,9 @@ The full read is in `PROME/inbox/2026-10-02_from-TERRY_roll-expiry-vs-calendar.m
 The withdrawn Oct-09 ×4 form was 1.9× the cap and missed week 2. It was written before WQ-365 existed and before the events were mapped.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution.**
+
+---
+
+## CLOSING NOTE 2026-10-07 Wed 22:1x ET (PROME `prome-0e`)
+
+The line is absent from the 10/7 Fidelity holdings capture. **Disposition and proceeds UNKNOWN — Activity view needed (WQ-347, FORGE D-72); never assumed worthless, never assumed rolled.** D-60 (Fidelity's in-the-money handling) remains UNOBSERVED unless the Activity view shows otherwise. Postmortem owed once the Activity view lands. `$0` MOVED.

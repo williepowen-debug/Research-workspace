@@ -173,3 +173,35 @@ That makes the call a cheap, five-session option on the "no decision" outcome. I
 **Lean: SELL the 150C ×1 at Fidelity's bid TODAY** (limit at the bid; a $0.05 step toward it is enough on a 1,458-OI strike). **No roll:** BRENT holds STAND DOWN (WQ-192), no trigger has fired, and the roll's buy leg would pay ≈ $141 to keep a path that was just closed. The hard stop stays **Fri 10/09 15:00 ET** if Will declines.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution.**
+
+---
+
+## ADDENDUM 2026-10-07 Wed 22:03 ET: `MGMT-USO150C-OCT09` ×1 — Will's WQ-366 DECLINE recorded; Friday re-marked at tonight's close (PROME `prome-0e`, Tier 1, C5 + DOCKET L605). The text above stands as written
+
+**Ruling recorded (root rule #10).** WQ-366, Will's Decision Deck tap 2026-10-03 21:10 ET (doc `366-20261004011010023-wclrjd`), **DECLINE the early sell**, verbatim: *"I dont think I sell yet.  The news in Saudi arabia continues to get worse"*. Source: PROME packet `inbox/processed/2026-10-03_from-PROME_WQ-357-365-366-rulings.md`. ⇒ ADDENDUM-3's SELL-TODAY lean (10/2) is **declined, not withdrawn**; the call is HELD; the **Fri 10/09 15:00 ET stop STANDS** (DOCKET L605). **No new rail is added here.** Caveat that travels from ADDENDUM-3: its MET grade rests on the G7 release decision, whose statement neither BRENT nor TERRY has read at the primary.
+
+**Position (capture received 10/7, Will's word "yes today", exact time UNKNOWN; `PROME/data/2026-10-07_broker-capture-TRANSCRIPTION.md`):** ×1, basis $299.66, last $0.26 ⇒ $26.00 (−$273.66). The $0.26 is a last trade at an unknown time, not a bid.
+
+| Live read 21:45 ET (after the close; SCREENING, Fidelity governs) | Value |
+|---|---|
+| USO | **$143.91 close (−0.69%)** ⇒ the 150 strike is **$6.09 (4.2%) out of the money**, two sessions left |
+| USO path since the decision was declined | 10/2 $147.37 · 10/5 $143.99 · 10/6 $144.91 · 10/7 $143.91 (yfinance closes). The tape has not priced a worsening |
+| 150C Oct-09 bid / ask | **0.35 / 0.43** (IV 51.4%, OI 2,111, last trade 15:59; 20% wide). One at the bid ≈ **$34.35 net ⇒ ≈ −$265.31 against $299.66** |
+| Model chance of finishing above $150 | **≈ 18%** (vendor IV, two sessions; needs about +4.2%) |
+
+**What the 15:00 ET stop means at these marks** (MODEL, Black–Scholes at ~51%; shape, not price):
+
+| USO at Fri 15:00 | 150C ≈ | What the stop does |
+|---|---|---|
+| unchanged ($143.91) | ≈ $0.00 (a cent or two, if any bid) | Recovers a few dollars at most. Its job is to keep the line from lapsing unattended, Will's standing practice |
+| +3% (≈ $148.2) | ≈ $0.17 | ≈ $17 before the $0.65 fee |
+| +5% (≈ $151.1) | ≈ $1.44 + | Sells the intrinsic before an exercise the account cannot fund (below) |
+
+- **The exercise path got worse since 10/1:** a close above $150.00 ⇒ the IRA **buys 100 USO = $15,000** against **$12,993.82 cash − $1,572.64 pending ≈ $11,421** (capture) ⇒ **≈ $3,579 short of funding it** (on 10/1 the headroom was ≈ +$525). Fidelity's handling: **UNOBSERVED (D-60)**. It would also add 100 shares to the 37 held (WQ-297 A). ⇒ If USO is above $150 at 15:00 Friday, the sale at the stop is not optional in substance.
+- **Earlier is Will's choice, not a card instruction** (L605): a USO-up session before Friday 15:00 sells a call into strength, the right colour for a call SALE (root rule #6 governs buys; selling a call on a red USO day fetches less).
+- **No roll** (unchanged from ADDENDUM-2/3): BRENT holds STAND DOWN (WQ-192), no trigger has fired. Tonight's screening roll to the 150C Oct-16 would be 1.85 − 0.35 = **$1.50 net ≈ $150**.
+- The Saudi news Will cited (WALTER `-003` Riyadh refinery fire 10/3, Houthi-claimed, operator-unconfirmed; `-014` FALCON Khurais-corridor FIRMS finding 10/4) is BRENT's to weigh; this desk does not re-underwrite oil.
+
+**`MGMT-KRE65P-DEC31` (§ B), capture marks only, not re-read:** ×2 last $1.41 ⇒ $282.00 (−$55.33); KRE $68.89 close (−1.68%). Stop Thu 12/31 15:00 ET unchanged; C5 card due by Tue 12/29.
+
+**APPROVAL REQUIRED — Will must approve/reject before execution** (no new action is proposed; the 15:00 ET Friday sale is his order).

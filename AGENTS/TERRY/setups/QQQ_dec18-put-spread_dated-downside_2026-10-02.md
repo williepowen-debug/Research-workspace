@@ -3,7 +3,7 @@
 **Date:** 2026-10-02 Fri, written 10:38–11:0x ET (`date` 10:35:20 at the packet read; live reads 10:36–10:38 ET below) · **Id:** `TRY-COND-QQQ-DATED-DOWNSIDE` (NEW card; registered in `setups/INDEX.md`; no `SETUPS.tsv` / `TRADE_BOOK.md` row — both ledgers sit at the read-cap rotate tier, rotation owed by Mon 10/05)
 **Asked by:** Will, through PROME `prome-70`, 10:34 ET, verbatim *"yes commission the card"*. Packet: `inbox/processed/2026-10-02_from-PROME_COMMISSION-QQQ-dated-downside-card.md`. **A commission to PREPARE a card. It does not approve a fill.**
 **Thesis owner:** **Will.** No agent owns a QQQ-down thesis. The evidence desks are cited at their own artifacts in §8: LIQUID (credit), HENRY (tape, gamma, rates), BROCK (private credit), VULCAN (AI capex; its packet arrives after today's close and §8 is re-read then). **Construction:** TERRY. **Approval:** Will (root rule #5), $500 per card (Will 6/26).
-**Terry verdict:** **CONDITIONAL — buildable, liquid, and the right TENOR for the view. NO FILL before (i) Will's [Approve] on THIS card, (ii) §4's two-condition trigger (a failed breakout, AND credit persisting above 320), and (iii) a green QQQ session at the fill.** Today's tape argues against it, and §7 says so plainly.
+**Terry verdict:** **CONDITIONAL — NOT ARMABLE at the 2026-10-07 marks, and NOT APPROVED (Will tapped LATER 10/3 21:07 ET, root rule #5). Both trigger legs moved AWAY this week: (a2) no close back below $748.65 (QQQ closed $756.20 · $759.66 · $757.73 on 10/5–10/7); (b) HY OAS 310 · 312 · 303 on 10/2 · 10/5 · 10/6, every cell under 321 and at or under the card's own 312 credit-kill line. Desk lean: let it LAPSE at Fri 10/16 15:00 ET on its own letter; a new window needs a re-card.** See ADDENDUM 2026-10-07 at the foot. *(was: **CONDITIONAL — buildable, liquid, and the right TENOR for the view. NO FILL before (i) Will's [Approve] on THIS card, (ii) §4's two-condition trigger (a failed breakout, AND credit persisting above 320), and (iii) a green QQQ session at the fill.** Today's tape argues against it, and §7 says so plainly.)*
 **Confidence in the structure:** Medium-High (strikes, tenor, liquidity and cap checked on the live chain). **Confidence the trigger fires:** Low to Medium. The base rate in §7 is small (n = 12) and is against a large move even when the trigger does fire.
 **`$0` MOVED · NO ORDER · NO GATE OR THRESHOLD CREATED OR MOVED ON ANY OTHER DESK.** §4's conditions are this card's own construction. They do not grade or amend LIQUID's ">320 sustained" letter, X1, or any HENRY line.
 
@@ -172,3 +172,28 @@ The trigger fires on a **red close** (a2 is a fall back through $748.65). **The 
 > ⚠️ The failed-breakout base rate (n = 12) is against a large move. Today's tape is a rate-relief rally with no growth-fear signal. This card is the SAME bet as the bank and private-credit puts, not a hedge to them.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**
+
+---
+
+## ADDENDUM 2026-10-07 Wed 22:1x ET — DOCKET L589 status read at tonight's marks (PROME `prome-0e`, Tier 1). No new build; the trigger, kill and window letters are UNCHANGED
+
+**Ruling on file:** WQ-365 **LATER** (Will's Decision Deck tap 2026-10-03 21:07 ET, doc `365-20261004010726615-uq7z4x`; PROME packet `inbox/processed/2026-10-03_from-PROME_WQ-357-365-366-rulings.md`). ⇒ **NOT approved; cannot arm even if (a) and (b) both held** (root rule #5). Recorded here (root rule #10).
+
+| Leg | Letter | Tonight | Read |
+|---|---|---|---|
+| (a1) breakout close | first close ≥ $748.65 on/after 10/2 | **10/2 close $749.58** (yfinance daily) | SET on 10/2 |
+| (a2) failed breakout | a later close < $748.65 | 10/5 **$756.20** · 10/6 **$759.66** · 10/7 **$757.73** | **NOT MET** — QQQ is $9.08 (1.2%) above the line |
+| (b) credit persisting | two latest published HY OAS cells both ≥ 321bp | FRED `BAMLH0A0HYM2`: 10/1 324 · **10/2 310 · 10/5 312 · 10/6 303** | **NOT MET** — the last two are 312 and 303 |
+| Kill — credit withdrawn | a cell ≤ 312 ⇒ sell at the next session's bid | 310 · 312 · 303 | **Printed three sessions running.** Nothing to sell (no fill); on the card's own construction-rule-#23 reading, credit has un-led |
+| Kill — breakout vindicated | two consecutive closes ≥ $763.62 | high close $759.66 | NOT MET |
+| Window | Mon 10/05 09:45 → **Fri 10/16 15:00 ET** | 7 sessions left | Lapses then on its own letter |
+
+**§7.4–7.5 re-read against VULCAN's evidence (DOCKET L589's ask).** VULCAN never sent the tightened packet (dark since 10/2); its **10/2 16:0x ACK** (`inbox/processed/2026-10-02_from-VULCAN_ack-deferred-expression-ask.md`) carried a pre-view, read in full:
+- **It agrees with §7.4:** Micron FQ4 at the primary (revenue $54.2B, FQ1 guide $61.5B up), AI-infra primary markets OPEN (CleanSpark $2.23B HY ~4.4× covered; CRWV $4.2B converts upsized; AMZN's $8B SPV aimed at IG buyers), and ORCL +3.23% on the SPV news. VULCAN's words: the strain is *"REAL in STRUCTURE … but NOT YET PRICED into levels."*
+- **It agrees with the thrust of §7.5:** QQQ's link to the AI-debt thesis is **"LOOSE"** — it reaches QQQ *"by DRAG, not by DIRECT HOLDING"*; CRWV is not in QQQ.
+- ⚠️ **One factual conflict, UNRESOLVED:** VULCAN lists ORCL among QQQ's direct AI-debt names; §7.5 says ORCL is NYSE-listed and so outside the Nasdaq-100 (yfinance `exchange = NYQ`; index rule INFERRED, methodology page not read). **The verdict does not depend on it.**
+- Its dated catalyst: the **~10/28 hyperscaler cluster** (MSFT / GOOGL / META / AMZN), *"the single most likely ≥15% event in the window"* by VULCAN's words — after this card's 10/16 lapse, inside a Dec-18 expiry.
+
+⇒ **Verdict change: CONDITIONAL → CONDITIONAL, NOT ARMABLE; desk lean LAPSE.** Nothing in the evidence moved toward the card, and the credit leg moved against it. If Will still wants a dated QQQ downside expression for the ~10/28 cluster, that is a **new card with a new window** (moment properties re-marked; tenor re-checked against construction rule #21's band), not a re-dating of this one.
+
+`$0` MOVED · NO ORDER · NO GATE, LEVEL OR WINDOW CHANGED. **APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**

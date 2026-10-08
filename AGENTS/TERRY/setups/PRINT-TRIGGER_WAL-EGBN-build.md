@@ -71,3 +71,15 @@ ZONE 3 — TRIGGER CONFIRM + DECISION
 **Decision:**  [ ] APPROVE   [ ] REJECT   [ ] REWORK: ____
 
 **APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**
+
+---
+
+## ADDENDUM 2026-10-07 Wed 22:1x ET — the dated re-examination's condition (i) has ARRIVED (REGINALD packet `fe37dd785`, read in full, consumed this session; PROME `prome-0e`)
+
+| Name | Q3 release | Call | Source (REGINALD's read) |
+|---|---|---|---|
+| **WAL** | **Mon 10/19/2026, after the close** (REGINALD's pattern estimate Tue 10/20 was one day wrong; the lock is the release, as registered) | Tue 10/20, 12:00 ET | Business Wire, PHOENIX, 10/06/2026 09:00, issuer text read in full via StockTitan syndication |
+| **EGBN** | **Wed 10/21, after the close** | Thu 10/22, 10:00 ET | EagleBank IR / GlobeNewswire 10/7 |
+
+**State tonight:** ZONE 1 stays **UNLOCKED**; card stays **STAGED / PROPOSE-ONLY**, `$0` at risk, no build. Per the 9/2 decision above, the re-lock question must now be RE-ASKED with **CRL-21's vintage-projection leg as the instrument** (CARL) and construction rule #18 binding on any structure. **That read is OWED, not done in this spawn** (scope: held-option cards); it needs CARL's current CRL-21 read **before Mon 10/19** and is carried to PROME. If no premise read arrives by the print week, the card's own fallback stands: archive un-graded, Will's call. ⚠️ Not to be confused with Will's new **Fidelity WAL Dec-18 65P ×4** (`NOTE-WAL65P-DEC18`), which is his own hand and not this card's build. `$0` MOVED.
+

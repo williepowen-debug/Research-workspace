@@ -4,22 +4,21 @@
 Activity detail lives in commit messages, daytrading/JOURNAL.md, and `memory/auto/`.
 Keep this load-bearing: append a Durable Finding only when it survives the episode.
 
-## Current Session — 2026-10-02 Fri (PROME `prome-70` spawn 09:24; Will's commissions 10:34 + 11:09; closeout 11:1x ET)
+## Current Session — 2026-10-07 Wed (PROME `prome-0e` spawn 21:40 ET; laptop; Claude Opus 5.5 via `desk`)
 
-**Delivered:** open re-marks after payrolls (WQ-347/357/360, 735P, USO) · NEW `TRY-COND-QQQ-DATED-DOWNSIDE` (WQ-365) · G7 release ⇒ USO 150C early-sell MET (WQ-366) · roll-vs-calendar read (no roll; Oct-16 ×1 if rolled; own Oct-09 ×4 withdrawn) · AI-debt expression comparison v1.1 (lean NONE) · D-68 / D-71 records · HENRY's $90.16 correction applied. **Pending:** everything ARMED in STATUS ★ CURRENT STATE (L590 comparison final, L589 VULCAN re-read, VLO leg A on the 10/2 settle, Will's 10/2 fills, Mon 735P re-mark). **Lesson kept on the cards, not promoted:** the option feeds were dark at the open until 09:47, so a "within 15 minutes of the open" deliverable needs a fallback plan (spot-only facts + the broker's bid) written into the spawn ask.
+**Delivered:** C5 sell-or-roll cards for the five new Fidelity identities (`MGMT-QQQ755P-OCT09` Fri 10/09 · `MGMT-QQQ745P-OCT15` / `MGMT-QQQ740P-OCT15` Thu 10/15 · notes `NOTE-WAL65P-DEC18` / `NOTE-OZK40P-NOV20`) · USO / TLT-exit / HBAN re-marks · WQ-357 LATER, WQ-365 LATER, WQ-366 DECLINE recorded · **WQ-386 encoded verbatim** (VLO card § 2-bis) · L589 status (not armable; lapse lean) · L590 FINAL (NONE) · D-68 verified already corrected · STATUS rotation `_2026-10-07` · inbox 7/7. **Pending:** STATUS ★ CURRENT STATE ⏰ list. **Lesson kept on the cards, not promoted:** a positions-only capture creates new identities whose entries are unrecoverable — card them as new (construction rule #20), never as continuations of the old lines.
 
-*Prior session (10/1, `prome-2a` / `prome-0c` / `prome-e4`), one-line digest: WQ-347 cards on the 740P / 735P; Will sold 5 of 9 740P and 1 of 2 USO 150C, then rolled 740P ×4 to Oct-02; `TRY-COND-TLTPUT-WQ339` built; duration exit card (WQ-291/357). Detail lives in `STATUS.md`'s demoted 10/1 blocks.*
+*Prior session (10/2, `prome-70`), one-line digest: open re-marks after payrolls; `TRY-COND-QQQ-DATED-DOWNSIDE` built (WQ-365); USO early-sell MET on the G7 release (WQ-366, later DECLINED); L590 v1.1; D-68 / D-71 records. Detail in `STATUS.md`'s demoted 10/2 block.*
 
 ## Next Session
 
-1. 🔴 **Rotate `SETUPS.tsv` (97.8% of the 32,550 B budget, 708 B left) and `TRADE_BOOK.md` (85.7%) FIRST, then write.** `boot.py` now flags read-cap proximity itself (L391, 10/01) — read its "Read-cap proximity" block before any append. Expiry-day grades: state the TAPE, leave the DISPOSITION `PENDING BROKER ACTIVITY` until the Activity view lands (10/01 postmortem — a candidate rule, not adopted).
-1b. **Live sell-or-roll stops (as of the 10/1 capture; 10/2 fills not yet booked):** QQQ 740P Oct-02 ×4 + Robinhood ×1 (expired / sold 10/2, book Will's fills) · QQQ 735P ×5 Mon 10/05 15:00 ET (pre-open re-mark) · USO 150C ×1 Fri 10/09 15:00 ET (lean SELL 10/2, WQ-366) · TLT 82P Oct-16 (WQ-357 exit lean A; WQ-302 10/14) · HBAN 16P ×2 Oct-16 (HBAN prints 10/22, after expiry) · KRE 65P ×2 Thu 12/31 15:00 ET.
-1c. **`TRY-COND-TLTPUT-WQ339`:** record Will's [Approve]/reject and his WQ-357 choice; before any fill re-read the card's §3 sleeve from the mirror and take every price from Fidelity; the entry window lapses Wed 10/14 15:00 ET.
-1d. **ARMED 10/2 (see STATUS ★):** L590 comparison FINAL before Mon 09:30 (fold VULCAN + the 10/2 HY cell) · L589 WQ-365 §7.4–7.5 re-read vs VULCAN · VLO-HELD-01 leg A on the 10/2 settle · `TRY-COND-QQQ-DATED-DOWNSIDE` window opens Mon 10/05 09:45.
-2. **WQ-213 is Will's, not ours** — re-affirm or withdraw before 9/18 (FOMC 9/15–16 inside the window). Do not re-raise the 9/14 timing objection: it was **REFUTED**, not merely spent (below).
-3. **Any crack/spread figure: resolve BOTH legs' `expireDate` at the pull, plus a negative control.** Grading clauses, all three: **① at least one roll step · ② do NOT assume self-cancellation · ③ do NOT assume the step is constant.** `DOCKET L384`.
-4. Two-correction stop reached on `SIGNALS.tsv` and well past it on `STATUS.md` — **both need an independent cold read before further edits.**
-5. `research/PENDING_RISK_RULES_AMENDMENT_2026-09-14_two-pull-rule.md` — **PROPOSED, not adopted, not citable as a rule.** Adopt, fold, or **reject** (rejection is a real outcome).
+1. 🔴 **Rotate `SETUPS.tsv` (97.8%) and `TRADE_BOOK.md` (85.7%) FIRST, then write** — 004's closed rows and the 10/1–10/7 cards are still missing there (INDEX carries them). `boot.py`'s read-cap block is the instrument.
+1b. **Clocks (all sell-or-roll; Will's hand):** Fri 10/09 QQQ 755P ×2 (proposed 09:45–10:30) + USO 150C 15:00 stop · Tue 10/13 C5 re-mark Oct-15 745P/740P · Wed 10/14 TLT 82P path C / HBAN 16P (WQ-302) / Oct-15 lines after CPI / WQ-360 lapses 15:00 · Thu 10/15 VLO leg A first December observation · before Mon 10/19 TRY-FIRE-002 re-lock question (CARL CRL-21) · C5 cards OZK by 11/18, WAL by 12/16, KRE 65P by 12/29.
+1c. **Activity view (WQ-347):** book the Oct-02 740P ×4 / Oct-05 735P ×5 exits, the five new entries, D-71/D-72/D-73 — never infer them.
+2. Any crack/spread figure: resolve BOTH legs' `expireDate` at the pull, plus a negative control (DOCKET L384). From 10/15 leg A reads matched December (WQ-386).
+3. `research/PENDING_RISK_RULES_AMENDMENT_2026-09-14_two-pull-rule.md` — PROPOSED, not adopted. Adopt, fold, or reject.
+4. `CLOSEOUT.md` Chunk 4 C1/C2: correction proposed 10/7 (memo); edit only on DAEDALUS / Will approval; root Git Protocol steps 2–3 govern until then.
+5. Two-correction stop on `SIGNALS.tsv` (carried since mid-September): an independent cold read before its next edit. *(The parallel STATUS.md carry is retired: every session since has written STATUS as new blocks, not corrections.)*
 
 ## Mandate (one line)
 
