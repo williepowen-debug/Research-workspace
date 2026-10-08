@@ -90,13 +90,13 @@
 - **Bright Data Web Unlocker (WQ-383 pilot, LIVE 2026-10-04):** `bdata scrape <url>` for a 403'd no-screenshot bookmark link; free tier 5k/mo HARD STOP, Web-Unlocker-only, key in gitignored `.env` (per-machine). Full method+limits+ledger: `design/X_BOOKMARKS_ACCEPTANCE.md` §9a.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION — 2026-10-07 FULL closeout
+### CHANGES SINCE LAST SESSION — 2026-10-08 Tier-1 light closeout (Claude Code, Opus 5.5, laptop)
 
-October5→7 catch-up saved17BOARD outputs/66handoffs;49lane+8manual+1private+1lateFOLD inputs accounted. Full continuity closes Oct7 light deferrals; REPORT owns source findings and LAST_COMPLETION all running obligations. Core/document work throughc1bdeb6e2 is published and PROME acknowledged exact report/map; final closeout publication is coordinated separately. Manual watch/approvals unchanged.
+Will-launched boot: 16 BOARD outputs (SIG-W-20261008-001…016) incl. Iran FULL sweep (-014; anchor re-stamped, next ~10/15), Isaias IMMEDIATE (-001), HANS gilt near-fire + UK Budget 10/28 fix (-005). 97 X-bookmarks + 14 lane items closed; 2 kills; 53 handoffs delivered. Full Tier-2 still owed.
 
 ### NEXT SESSION
-1. Read LAST_COMPLETION and the linked tanker-cost WATCH.md + STATE.csv; check due dates. Next freight review October9; EIA next release October15 noonET under holiday exception; October7 reviewed. Manual sessions only.
-2. Read closeout RECEIPT and check exact publication separately from owner integration; BRENT/BOND named items integrated and archived. Remaining owner consumption needs its own evidence; reconcile delivery only against origin.
-3. Recheck HY observation date and outstanding threshold/filter/read-basis gaps; October6 HY303bp keeps the >320 three-observation watch to0/3.
-4. Use app-server metadata, ORCH_INFLIGHT and foreign-tree evidence together; wider fleet visibility remains UNKNOWN.
-5. Preserve X-bookmark launch-only approval, free Bright Data limits and local token/CLI gaps. HANS owns its registry read-cap remedy.
+1. 7g first: WQ-393 RULED packet (publisher writes the R1 CORRECTIONS.tsv row in the same commit; DAEDALUS specs the line 10/9; 9 backfills). Decide whether -007/-016 (published before the 08:44 ruling) need rows.
+2. UK gilt CLOSES 10/8: HANS/BOND approved (WQ-391) and grade them on their own letters; a WALTER grade-input card is optional — check their surfaces first.
+3. Read LAST_COMPLETION (10/8 addendum) + tanker WATCH.md/STATE.csv: freight review Fri 10/9; EIA Thu 10/15 noon ET.
+4. Run EVERY boot step incl. 7e(f) phone sweep (skipped 10/8); claim_check weekday before the first commit (#45).
+5. MEMORY.md sits ~70 B under its rotation trigger — rotate before adding. X token + bdata CLI work on this laptop. HANS owns its read-cap remedy.

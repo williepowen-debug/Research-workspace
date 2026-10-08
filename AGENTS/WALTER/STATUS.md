@@ -32,15 +32,11 @@ Current catch-up: `research/2026-10-07_catchup/REPORT.md`; running duties: `LAST
 
 ## NETWORK AWARENESS
 
-### October7 routing and receiving snapshot — full closeout 2026-10-07T20:40:39.869781-04:00
+### October 8 routing and receiving snapshot — Tier-1 light closeout ~08:5x ET
 
-BOARD1239;17 outputs,0 kills/verification spawns,0 cluster-mediating outputs; no network-uncertainty-peak trigger. Nine canonical clusters plus the preserved013 historical LABOR_DOWN metadata label corrected by017: BANK_COLLATERAL:2; FED_FRAMEWORK:1; INFLATION_TRANSMISSION:2; HYDROCARBON_INFRA:1; MISC:1; PC_STRESS:3; CONSUMER_STAGFLATION:2; AI_INFRA_CAPEX:2; LABOR_DOWN:1; IRAN_HORMUZ:2. No new taxonomy bucket.
+BOARD 1255; 16 outputs (14 news/research + 2 additive corrections), 2 kills, 1 verify spawn, 0 cluster-mediating; no network-uncertainty-peak trigger. 24 recipient desks, **53 handoffs (19 ACTION / 34 INFO)**; delivery/publication evidence lives in LAST_COMPLETION, not here. Routing pressure: BRENT 3A/2I; HENRY 0A/5I; LIQUID 1A/4I; CREED 1A/3I; HAWK 0A/3I; BOND 2A/1I; VULCAN 1A/2I; WATT 0A/2I; SHADE, FALCON, HANS, BROCK, YURI 1A/1I; REGINALD, SAM 0A/2I; AEOLUS, CORAL, OZK, CARL, OSPREY, ZHAO 1A/0I; HOMER, MIDAS, VIOLET 0A/1I. CARL/RED/PROME/TERRY INFO via BOARD id-diff (exempt).
 
-20 recipient desks,66 handoffs (24ACTION/42INFO), all origin-proven; detailed paths/counts in research/2026-10-07_closeout/routing-summary.json. Routing pressure: LIQUID 2A/7I; HENRY 1A/10I; VULCAN 2A/7I; BOND 1A/1I; BRENT 3A/1I; WATT 1A/2I; HAWK 0A/4I; FERT 1A/0I; AEOLUS 0A/1I; MARCO 0A/1I; MIDAS 1A/0I; WAL 1A/0I; REGINALD 3A/2I; BROCK 3A/0I; SHADE 0A/3I; CARL 1A/0I; OTTO 0A/1I; VIOLET 0A/2I; LABOR 2A/0I; FALCON 2A/0I. Actual named owner integration is scoped in LAST_COMPLETION; publication does not establish other desks' consumption.
-
-REGISTRY refreshed BEFORE this block from41 owner headers, with historical-date traps reviewed and roles/tiers/risk colors preserved. Header evidence only, not a whole-domain/filter scan. Rows older than7days: REGINALD 2026-09-29, WAL 2026-09-28, HAWK 2026-09-28, VIOLET 2026-09-28, YEYOU 2026-09-05, RAV 2026-08-02, MARCO 2026-09-24, ORACLE 2026-09-28, ATHENA 2026-03-14, DARWIN 2026-02-18, SENTRY 2026-09-24, DEWEY 2026-09-10, AEOLUS 2026-09-28, WATT 2026-09-25, OSPREY 2026-09-29. These dates are freshness markers, not liveness verdicts. CATO is roster SPECIAL/manual-only underWQ255, excluded from automatic routing/enrolment; _archive is navigation.
-
-Verified Codex cohort: WALTER/PROME/BOND/BRENT active on closeout; wider/multi-runtime presence UNKNOWN. ORCH_INFLIGHT generatedOct5 still has19 open touches; ledger entries are not live-worker proof and never authorize a doorbell. Foreign PROME VLO staging/prior boot report excluded. No automatic wake. Final doctor uses delivery_log.timestamp_routed for aged warnings, with2mtime fallbacks only in the full-file scan; exact count/age is saved in closeout/doctor.txt.
+**Receiving layer (10/8 ~08:5x ET):** live sessions = PROME (`prome-fc`, Claude Code) + WALTER. PROME woke VULCAN, LABOR, BROCK, NEXUS, HENRY, OSPREY, LIQUID, DAEDALUS (WQ-389) + AEOLUS (WQ-369 C8); Will approved BRENT, HANS, OZK, BOND under WQ-391 (FALCON NOT NOW; CORAL at its Friday wake). In-process spawns are invisible to `ListAgents` — re-read `PROME/state/ORCH_LOG.tsv` 10/8 rows + foreign dirty tree before any dark verdict. Doorbell rows + dispositions: `registry/DOORBELL_LOG.tsv` (10/8). REGISTRY: 5 stale rows header-refreshed at boot + WALTER self row; others not re-read (header-only, not liveness). Doctor aged backlog: 150 unconsumed >2d at boot (oldest ACTION 10d, delivery_log basis) — several desks drained today.
 
 ## Active LIAISON channels
 
