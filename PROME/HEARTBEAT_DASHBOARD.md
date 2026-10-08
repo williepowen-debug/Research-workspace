@@ -39,3 +39,22 @@ This companion keeps render metadata outside the boot-read byte budget.
   }
 }
 ```
+
+*Twenty-seventh base — AMENDMENT #2 (2026-10-08 11:43 ET, PROME prome-fc) — projection #2 (chain 1→2):*
+*source_sha256: `705de46c76fd6c9e5e94146469252510918b51773068a5c6c2a7f39ee53b46be` (over the exact `> **AMENDMENT #2 — ...` paragraph without its trailing newline)*
+*Affects: the one-liner (HY 309 [10/7] replaces 303 as the latest cell; both Friday expiries in the money at 11:03 ET with TERRY's SELL-TODAY leans and WQ-396/397; OZK's band fire named) and the Credit channel body (the 10/7 cells). No gate, level or blocking row changes — owner grades mirrored. UNREVIEWED as every amendment is.*
+
+```dashboard-amendment
+{
+  "amendment": 2,
+  "source_sha256": "705de46c76fd6c9e5e94146469252510918b51773068a5c6c2a7f39ee53b46be",
+  "set": {
+    "one": "🔴 THE CREDIT PRINT CAME BACK UNDER THE LINE AND THE LONG END DID NOT: HY OAS 309 [10/7] (303 [10/6]) after ONE 324 print [10/1] — the 10/2 cell (310) RESET the >320 count (REG-T-03 graded 0 of 3); the official 30Y closed 5.67 and the 30Y REAL 3.36 [10/7 official; the window high was 3.37 on 10/5] — while the 10Y auction cleared STRONG and the September minutes lean to ANOTHER HIKE by year-end; EIA lifted Q4 Brent to $105 (cutoff 10/1) and CUT the draws; a THIRD Cushing build; the November crack ESTIMATE $105.82 [10/7, BRENT] — nothing fires; QQQ 757.73 [10/7c] above the 10/2 record on breadth NOBODY has re-measured since 10/2; BANKS SOLD WEDNESDAY — KRE −1.7%, WAL and OZK −2.3%, FLG 11.30 BROKE REGINALD's $11.39 red rung (graded; nothing gated), OZK's <$45 band FIRED (43.56 [10/7c]; the RaDD bridge matures Fri 10/9); the book has TWO FRIDAY EXPIRIES (QQQ 755P ×2 · USO 150C ×1), BOTH IN THE MONEY at 11:03 ET 10/8 (QQQ $754.27 · USO $150.27) — TERRY leans SELL TODAY, roll NONE, WQ-396/397 (Will's hand) and NEW, uncarded bank puts (WAL Dec-18 65P ×4 · OZK Nov-20 40P ×4). X1 stays CLOSED (8/28). Book mirror = the 10/7 INTRADAY capture (ANVIL e8fd99acf); NO Activity, NO fills booked. $0 moved by PROME; STAND DOWN holds (WQ-192).",
+    "channels": {
+      "Credit": {
+        "body": "FRED [first-published, cache-busted 11:03 ET 10/8]: HY OAS 324 [10/1] → 310 [10/2] → 312 [10/5] → 303 [10/6] → 309 [10/7] · CCC 1,229 · IG 82 · BBB 102 · BB 189 · B 308 [10/7]. HY >320: ONE print (10/1); the count stays 0 (REG-T-03 owner-graded 0-of-3 at the 10/6 cell; the 10/7 cell does not restart it). GATE-HY-REKILL 0-of-2, 49bp above · GATE-LIQ-072 NOT FIRED (IG 82 vs >94; HY−IG 227 vs <180). CCC−BB gap 1,040bp [10/7] …"
+      }
+    }
+  }
+}
+```
