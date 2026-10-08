@@ -1,12 +1,30 @@
 # AEOLUS · HURRICANE — live dossier
 
-**As-of: 2026-09-28 for §00 below; §0–§6 are 2026-09-18 vintage and are SUPERSEDED wherever §00 gives a newer figure.** **C1 score: 1 as last held by AEOLUS 2026-09-11 (drain session) — a worker does not score; nothing below re-grades it.**
+**As-of: 2026-10-08 for §000 below; 2026-09-28 for §00; §0–§6 are 2026-09-18 vintage and are SUPERSEDED wherever a newer section gives a newer figure.** **C1 score: 2 as set by AEOLUS 2026-10-08 (VX-AEO-39) — a worker does not score; nothing below re-grades it.**
 
-> **Last real data refresh: 2026-09-28**  ·  **Dossier written: 2026-09-28**
+> **Last real data refresh: 2026-10-08**  ·  **Dossier written: 2026-10-08**
 > *Two-clock header (PAT-044) — `scripts/ledger_staleness.py` reads the first line. **The data date, not the edit date**: a hygiene edit must NOT bump it.*
 > **Observations → `hurricane/workbook/SERIES.tsv`** · findings → central `workbook/KB.tsv` · synthesis → `STATUS.md`. **Flow is one-way.**
 > **Feeds:** C1
 **The climatological peak (~Sep 10) has PASSED.** *(CSU's own 9/16 words: "This period immediately follows the climatological peak of the season.")* Peak season runs to mid-Oct.
+
+---
+
+## 000. 2026-10-08 — HURRICANE ISAIAS (AEOLUS directly, bounded dispatch session; no worker)
+
+**AL09 Isaias — the first 2026 hurricane and the first Gulf/FL system of the season.** Genesis Bay of Campeche 10/4 18Z (22.0N 96.5W — the second western genesis after Edouard); TD 10/6 18Z; TS 10/7 06Z; **HU 10/8 0330Z**; **+35 kt in 24 h** through ~20 kt westerly shear on 30 °C water.
+| | NHC (read 10/8 08:22 ET) |
+|---|---|
+| Now (Adv 7A, 12Z) | 70 kt / 975 mb, 23.7N 90.6W, ENE 060/9 mph |
+| Forecast (#7, 09Z) | 85 kt 08/18Z → **95 kt 09/06Z** ("just shy of major") → 90 kt 09/18Z 28.4N 87.6W → **inland 55 kt 10/06Z 31.0N 87.6W** → post-tropical, Tennessee Valley |
+| Warnings | **HU Warning Ocean Springs MS – Bay/Gulf County Line FL**; Surge Warning Mississippi mouth – Steinhatchee; TS Warnings either side |
+| Surge | 5–7 ft Ocean Springs – Indian Pass & Mobile Bay · 4–6 Indian Pass – Steinhatchee · 3–5 Mississippi mouth – Ocean Springs |
+| Wind odds 34/50/64 kt | Pensacola 69/29/7 · Mobile 51/18/4 · Destin 49/15/3 · Panama City 38/8/2 · Gulfport 23/7/1 · offshore 29N 87W 91/64/35 |
+| Timing | hurricane conditions Fri night → early Sat 10/10 |
+**Escalation line:** the Gulf/FL WATCH condition is MET (a hurricane under a FL warning). **The C1 upgrade trigger — a peak-season Gulf/FL MAJOR landfall — is ARMED, not fired:** forecast peak 95 kt over water, weakening in 40–50 kt shear before landfall. Grade at the NHC landfall statement (CALENDAR 10/9–10).
+**ACE through 2026100812 = 12.6675** (AL01–09; Isaias 1.8725 provisional) = **12.37%** of the Oct-8 inclusive to-date normal 102.4190 (exclusive 101.7153 → 12.45%). Lowest of 59 by 0.095 over 1994 — **expires within ~1 day as Isaias accrues; do not carry it.**
+**Loss leg:** no modeler estimate yet. Cat-bond spread **4.57% [9/25]**, lowest since 2020, −16.6% YoY (pre-storm). Energy theater (MMA 10/7): 25.08% of Gulf oil shut in → BRENT. FL → CORAL (packet 10/8).
+Rows: `workbook/STORMS.tsv` · `SERIES.tsv` · `LOG.tsv` 10/8 · central KB-AEO-164/165/166.
 
 ---
 

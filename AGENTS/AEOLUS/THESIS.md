@@ -14,8 +14,8 @@
 
 | Stage | Mechanism | State (confirmed/open/falsified) |
 |---|---|---|
-| 1 | Active season / major landfall → insured losses spike | **open, benign-leaning, deepened** — CSU cut further to 9/4/1 (from 11/5/2 on 6/10), fewest storms since 2014; zero active storms, none expected 7 days [NHC/CSU 7/9] |
-| 2 | Losses exceed cat budgets → reinsurance ROL ↑ at next renewal (Jan/Jun) | **falsified-direction** — ROL DOWN 15-30% YoY at Jun-1 renewal (soft market) [6/28] |
+| 1 | Active season / major landfall → insured losses spike | **open — LIVE TEST 10/9–10/10:** Hurricane Isaias, the season's first hurricane (70 kt [NHC 7A, 10/8 12Z], forecast peak 95 kt, just under major), lands on the northern Gulf near the AL/FL line Fri night–early Sat under a Hurricane Warning Ocean Springs MS – Bay/Gulf line FL. Season ACE 12.67 = 12.4% of the to-date normal [10/8] — the season stays record-quiet; ONE storm is now the whole test. KB-AEO-164 |
+| 2 | Losses exceed cat budgets → reinsurance ROL ↑ at next renewal (Jan/Jun) | **falsified-direction** — soft market at the Jun-1 renewal. **Florida figure (ONE, reconciled with CORAL 10/8): Guy Carpenter −15/−20% risk-adjusted**; Citizens' own program −29% (net ROL 8.46% vs 11.95%, one program only). *(Superseded wording: "ROL DOWN 15-30% YoY" [6/28] — a three-publisher envelope, not a Florida number. KB-AEO-167.)* Cat-bond spread 4.57% [9/25], lowest since 2020 — still softening into Isaias (KB-AEO-166) |
 | 3 | Higher ceded cost → primary insurer margin/solvency stress; some exit markets | open — soft market, no stress |
 | 4 | Coastal insurability collapse → property values / mortgage availability hit | open → hand FL specifics to CORAL (FL stabilizing [6/28]) |
 

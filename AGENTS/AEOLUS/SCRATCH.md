@@ -11,6 +11,29 @@
 **Trade posture (Will-agreed 8/3):** HOLD, no build now — reinsurance-landfall tail fights my own El-Niño-suppression base case (would bleed theta in a quiet season, no edge). Pre-registered BUILD trigger: **CSU 8/5 or NOAA ~8/6-7 revise season UP, OR NHC lights a Gulf/FL system** → the tail goes live (breaks the suppression thesis). C4 down-stack (property→muni/WUI) is the slower expression, REGINALD-owned (ZION the one weak name), not ready.
 **★ STAGED 8/3 (Will-directed):** card handed to **TERRY** (inbox packet) — build unarmed/decision-ready: OTM Sep-Oct puts on FL primaries **UVE $44 / HRTG $30 / HCI $178** (clean solvency-convex shorts; NOT diversified reinsurers RNR/EG/ACGL/AXS — they V-shape on post-cat hardening). Gate = TERRY's options-liquidity/borrow/IV read on the small-caps (HRTG the risk). **PROME informed** (inbox packet) — tracking 8/5 + 8/6-7 as decision checkpoints. NEXT SESSION: check TERRY's liquidity read + whether either Aug update fired the trigger.
 
+## 🔴 NEXT SESSION — START HERE (2026-10-08 08:35 ET, BOUNDED dispatch session — Hurricane Isaias, WQ-369 narrow C8, spawned by PROME `prome-fc`)
+
+*(The 9/28 block below is still the pickup for everything this session did NOT touch — read both.)*
+
+### THE ONE THING
+**Grade Isaias' landfall against my C1 trigger letter: "a peak-season Gulf/FL MAJOR landfall" (ARMED 10/8).** NHC #7: peak 95 kt 10/9 06Z over water (1 kt under major), 90 kt at 28.4N 87.6W 10/9 18Z, inland 55 kt 10/10 06Z at 31.0N 87.6W → landfall Fri night–early Sat near the AL/FL line. **≥96 kt AT landfall (NHC landfall statement/TCU) = FIRED; else NOT FIRED.** Same read resolves the C1 exit rule's leg 2. Then the post-landfall reads in `CALENDAR.md` row 10/9–10 (MMA restart · modeler loss estimates → C1 loss leg + C4 >$10B leg, ONE event · Citizens/FLOIR via CORAL · cat-bond weekly points · final AL09 ACE · outages → WATT).
+
+### DONE 10/8
+- Isaias at primaries: NHC 7A/#7, MMA 10/7 (25.08% oil / 16.37% gas; **no 10/8 release found** — index "Access denied"), FL EO 26-202 (25 counties), ACE 12.6675 = 12.37% (Oct-8 normal 102.4190; the "lowest of 59" rank dies ~10/9). **C1 1→2** (VX-39). Composite 19/30. KB-164…173.
+- Packets: **CORAL** (FL figures + 5 Friday asks) · **BRENT** (theater only; refinery state is BRENT's gap) · **PROME** R3 adopt/decline.
+- FL reinsurance renewal = CORAL's **−15/−20% GC** (my −15–30% retired as a FL number; THESIS C1 stage 2 re-worded). KB-167.
+- 6c scan: **C5 still FIRED, no exit 9/29–10/7** (run 20 days; Kaub low −4.802 [10/1]); C6 legs not fired (Mead 1,037.69 [10/7]; Powell 3,519.04 [10/6]).
+- Inbox drained to EMPTY: 8 WALTER + 2 direct, all in `board_log.tsv`.
+
+### OWED — NOT DONE (bounded session)
+1. 🔴 **10/01 cluster OVERDUE:** NIFC October outlook (AEO-09) · Colorado 2027-28 Guidelines effective · CSU 9/30 two-week (and **10/14 final**).
+2. 🔴 **CPC 10/08 ENSO discussion + ONI/RONI JAS** — released today ~09:00 ET, not read.
+3. C2/C3/C4 refresh; Contargo surcharge, Danube, Panama (ACP Sept summary ~10/10), Mississippi + USDA barge week.
+4. **AEO-03 instrument** (name Guy Carpenter Jan-1 ROL — PREDICTION_DISCIPLINE adjudication, OWED #13) · **TRADE.md / THESIS C2–C6 refresh** (OWED #14) — both from DAEDALUS PR#7.
+5. **October 24MS ~10/15** (AEO-10, 30%).
+
+---
+
 ## 🔴 NEXT SESSION — START HERE (2026-09-28 full session, Will-directed data refresh)
 
 *(Supersedes the 9/18 crash-recovery block and the 9/11 drain block — both rotated VERBATIM → `archive/SCRATCH_ARCHIVE_2026-09-28_pickup-blocks.md`, crc in banner. The standing Will river directive above is UNCHANGED — and it is the headline this session.)*

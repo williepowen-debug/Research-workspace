@@ -107,6 +107,19 @@ curl -s -A "Mozilla/5.0" -L "https://www.artemis.bm/catastrophe-bond-market-yiel
 > ⚠️ **TWO CAVEATS THAT TRAVEL WITH EVERY CITATION.** **① It is NOT rate-on-line** — a cat-bond spread and a reinsurance ROL are different instruments on different perimeters, correlated but not interchangeable. **NEVER enter it against the ROL threshold row.** **② It refreshes MONTHLY**, so the newest point runs ~3 weeks behind and **a landfall would not show for up to a month.** It is a between-renewals price surface, **not an event detector**.
 > 🔴 **UN-BASE-RATED — and unlike the C5 Rhine trigger, this one CAN be base-rated before it is keyed (827 points exist). Build the base rate FIRST; do not register a band off the current level.**
 
+> **Re-pull 2026-10-08:** 831 points, latest **2026-09-25** (4 new WEEKLY points since 8/28: 4.91 / 4.79 / 4.66 / **4.57**). The series is weekly; the PAGE refreshes in batches (~monthly) — so the lag is "up to ~4 weeks", not a monthly series. Year-ago 2025-09-26 = 5.48 → −16.6% YoY; 4.57 is the lowest point since 2020.
+
+### ✅ VERIFIED 2026-10-08 — offshore SHUT-IN releases (energy theater; BRENT prices them)
+```bash
+curl -s -A "Mozilla/5.0" -L "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-response-isaias"
+# strip tags; the table sits after "Total Percentage of GOA": platforms evacuated, rigs, Oil BOPD shut-in + %, Gas MMCFD + %
+```
+**Issuer since 2026-07-10 = Marine Minerals Administration (BOEM + BSEE reunified), still on bsee.gov.** Read 10/8 (release dated 10/7, data as of 11:00 a.m. CDT): oil 511,619 BOPD = 25.08% · gas 350.25 MMCFD = 16.37% · 8 of 371 platforms.
+⚠️ **The press-release INDEX returns "Access denied" (HTTP 200 shell)** — a missing later release is SEARCH-NOT-FOUND, never a verified absence. Update releases have taken new slugs in past seasons (`bsee-monitors-gulf-of-america-oil-and-48`, `…-53`); guessed Isaias update slugs 404'd 10/8. ⚠️ The issuer's rig table carried two slips on 10/7 (2/11 printed 18.8%; a 17-rig DP denominator labelled "non-dynamically positioned") — record as printed, flag, never "correct" silently.
+
+### ✅ VERIFIED 2026-10-08 — Florida emergency orders (geography of a Florida event)
+`https://www.flgov.com/eog/news/executive-orders` lists EOs with PDF links (`/eog/sites/default/files/executive-orders/2026/EO%2026-NNN.pdf`); extract the county list from Section 1 with pdfminer. EO 26-202 (10/6/2026, "Tropical Depression Nine") = 25 north-Florida counties. FDEM `floridadisaster.org` carries the storm update page.
+
 ### ⚠️ UNRESOLVED — no verified primary command exists for these
 | Source | Gives | State 2026-09-18 |
 |---|---|---|
