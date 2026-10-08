@@ -24,3 +24,13 @@
 
 ## Dispositions
 Packet-only, one consolidated packet per desk. Falsification lines go to HANS · LIQUID · FLG · REGINALD · FERT · CRUISE · SHADE · ZHAO · AEOLUS · OSPREY · BROCK · HOMER · OTTO · VULCAN · CARL (PHAN/POLLY/DOC) · MARCO · WATT · CORAL · FALCON. No falsification surface edited.
+
+## Self-inclusion leg — run by DAEDALUS itself, 2026-10-08 16:39 EDT (from `date`); bounded, not independent
+Scope: my own claims about the falsification standard and its instrument, checked against the script and today's reader findings. Not covered: a full PATTERNS-rows-still-true review.
+| # | My claim | Today | Verdict | Action |
+|---|---|---|---|---|
+| S1 | `STATE_VOCABULARY.md:261`: the scanner "gains the per-leg CANNOT-FIRE render" at sweep #3 ~9/14 | `grep -c CANNOT-FIRE scripts/falsification_scan.py` = **0** | **FALSE for 24 days**: a plan stated as fact | Text corrected today; the build is owed |
+| S2 | `BLUEPRINTS/market-agent.md:68` prescribes `Kill rail re-derived: YYYY-MM-DD` as a rail's dated home | the scanner never reads it (0 occurrences); 5 desks that complied print "no surface" | **My instrument does not honour my standard** | Scanner fix owed (with F-A..F-E, LEDGERS.tsv) |
+| S3 | `CHECKS.tsv` falsification_scan row: PASS = "all surfaces scanned", last verified 8/17 | coverage gaps above | **Overclaims** | Row annotated today; re-verify after the fix |
+| S4 | Market ladder L3 requires a "dated falsification surface" | 10/10 bucket desks hold rails in local form; 5 already carry the labelled stamp | Grading must not use the scanner's buckets as L3 evidence until S2 is fixed | Note for PR#8 (10/15) |
+**Leg verdict:** RUN (bounded, self-run). With it, run #4's scope is complete, so the registry clock advances.
