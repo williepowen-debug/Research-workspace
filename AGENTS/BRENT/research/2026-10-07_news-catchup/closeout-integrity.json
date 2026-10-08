@@ -1,0 +1,22 @@
+{
+  "STATUS_archive_20260828_dated_history_wave2.md": {
+    "bytes": 88876,
+    "crc32": "4bb7aad6",
+    "equals_pre_link_repair": true,
+    "payload_rule": "after first standalone ---; outer whitespace stripped"
+  },
+  "STATUS_archive_20260821_standing_blocks_aug4_aug13.md": {
+    "bytes": 9970,
+    "crc32": "d82761d3",
+    "equals_pre_link_repair": true,
+    "payload_rule": "after first standalone ---; outer whitespace stripped"
+  },
+  "mail": {
+    "payloads_match_sender": 4,
+    "matching_dispositions": 4,
+    "new_moves": 0,
+    "live_inbox": [],
+    "live_outbox": []
+  },
+  "standing_right_hand_claims_unchanged": 8
+}

@@ -1,48 +1,44 @@
-# BRENT SCRATCH — October 7, 2026 (catch-up delivery checkpoint)
+# BRENT SCRATCH — October 7, 2026 (final closeout handoff)
 
-**Archive follow-up 2026-10-07 18:27 ET; substantive data capture unchanged. Written 2026-10-07 17:43 ET. Same owner recovered after crash; substantive catch-up saved. Explicit coordinator closeout not yet requested. Existing approvals/deployment deferrals preserved.**
-
-**Document verification 2026-10-07 20:02 ET:** October7 catch-up through `d10bf9503` published and consumed by PROME. Independently checked origin ancestry through `f8a60d961`; coordinator's fresh-fetch publication receipts and exact report/archive acknowledgment are in [recovery record](../../PROME/reports/2026-10-07_crash-recovery.md). This is a documentation checkpoint, not a new market capture or full closeout. [Findings-to-files map](research/2026-10-07_news-catchup/DOCUMENT_WRITEBACK.md).
+**Closeout writeback 2026-10-07 20:39 ET; source/position clocks unchanged.** Will's explicit closeout ask via PROME's [task](../../PROME/tasks/2026-10-07_catchup/CLOSEOUT.md) supersedes keep-open instructions. [Full accounting](research/2026-10-07_news-catchup/CLOSEOUT.md). Final owned commits await PROME's serialized push, independent origin verification and explicit window-ready receipt. No new research, trade or deployment authority.
 
 ## CHANGES SINCE LAST SESSION
-- October6 STEO and October7 WPSR now integrated; forecast cutoff and opposing crude/product evidence at [REPORT](research/2026-10-07_news-catchup/REPORT.md).
-- Deferred October5 freight interpretation completed on dated Baltic/Gibson sources; no measured freight-to-WTI beta. WALTER remains collector, BRENT interpreter.
-- Will-confirmed October7 holdings replace the stale current-quantity question. WQ-386 held-VLO-only month extension applied; scale2 remains terminal STOOD DOWN. USO early-sale DECLINE preserved.
-- Late WALTER014 named-minister recovery integrated with flow/capacity/unit caveats; WALTER015 Rabigh/Jeddah fire claim unconfirmed, FALCON verifies.
-- October5 diesel-tax and Texas fuel-quality relief added with scope limits; G7 product/supply perimeter discrepancy retained, no additive barrel total.
+- October6 STEO/October7 WPSR integrated: higher price forecast with slower draws; national draw versus third Cushing build. Cutoff/lineage and opposing channels at [REPORT](research/2026-10-07_news-catchup/REPORT.md).
+- Deferred freight interpretation completed on dated Baltic/Gibson sources; no measured freight-to-WTI beta or timely call-rescue case. WALTER collects; BRENT interprets.
+- October7 Will-confirmed quantities reconciled; WQ386 heldVLO1 only, scale2 terminal STOOD DOWN. USO declines and sell-or-roll rail preserved.
+- Named-minister recovery retains flow/capacity/unit conflict; Rabigh/Jeddah fire unconfirmed, FALCON verifies. Diesel-tax/Texas relief scope and G7 perimeter discrepancy retained.
 
 ## WHAT I DID THIS SESSION
-- Recovered saved primary PDFs/XLS/JSON/bars; no duplicate data-pull replay. Wrote report, STATUS, THESIS/CHANGELOG, TRADE, RULINGS, TRACKER, docket and NEXUS update with explicit source vintages.
-- Reproduced raw gasoline four-week sums and three complete named crack windows; rejected duplicated-volume daily rows. No new prediction, Phase-2 grade, threshold or trade recommendation.
-- Boot rc2 retains its original findings; subsequent EIA same-week XLS/API coverage recovered. Corrections register check passed October7; no due prediction or pending recorded execution receipt flagged by boot.
-- Full BRENT-routed October5–7 BOARD delta and whole live inbox read. WALTER003/004/014/015 integrated; four archives complete, matching existing recipient receipts. MAIL STATE carries the verification boundary.
-- Prior direct Will push: fresh-fetch retry verified HEAD/origin equal at9e2a93285, including October5 BRENT closeout7ba94134b. October7 publication separately confirmed through9ed4cdb99 thenf8a60d961, including all four BRENT catch-up commits throughd10bf9503; PROME read/acknowledged the exact report and archive receipt. No deployment acceptance inferred.
+- Recovered same owner after crash; wrote evidence, STATUS/TRADE/THESIS/CHANGELOG/RULINGS/TRACKER/docket/intake/NEXUS. Substantive/archival commits throughd10bf9503 and document map b85b829b9 published and explicitly consumed by PROME; coordinator confirmed publication throughc1bdeb6e2.
+- Reproduced gasoline sums and named crack windows; rejected duplicated/provisional daily bars. No new prediction, phase grade, threshold or trade recommendation.
+- Full closeout: reconciled eight STANDING rows against saved canon; COT metadata now reflects its existing9/29 vintage. Restored two historical payloads changed by October4 link repairs, preserving original bytes/checksums with current navigation above the payload. Corrected THESIS's stale source/future wording and TRACKER's next-release clock.
+- Re-stamped routine alert block with saved-source/not-re-verified boundaries; reviewed forward state, promotion, retirement and both-direction mail. Final NEXUS fold follows the final STATUS commit.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **October8 / next live session:** China export guidance, Treasury/IRS implementation and SPR awards. Preserve UNKNOWN if no authenticated evidence; no new automatic watch.
-2. **October9 15:00 ET:** existing USO call sell-or-roll rail; Will executes, TERRY reprices broker bid/ticket. **About15:30ET:** COT as-of10/6; do not reuse old vintage. WALTER weekly Baltic/Gibson/insurance source review due10/9 after publication.
-3. **October15 noon ET:** first eligible BRT-31 release, dataweek10/9. **October24:** WQ264 shadow endpoint; resolver unregistered before completion, Texas waiver ends. **October26:** BRT30 frozen JWLA034 baseline.
-4. **November18:** WQ386 next held-share basis review; **November19 settlement** final authorized December A observation, absent further ruling. No automatic January roll.
-5. **Maintenance after current-state work:** reconcile eight dated STANDING-row stamps against their canonical sources; current calendar check retains this advisory. Primary review of RF013/014/022/033 and nine other stale present-tense incident rows; substantive LESSONS_INDEX/prose reconciliation. Age is not evidence of restart; no cosmetic stamps.
-6. **Deferred deployment:** live routine installation, Thursday connector removal, first-normal-run acceptance at [CATO handoff](audits/2026-10-04_cato-correction/REPORT.md). Saved repair complete; working Claude controls required. No extra acceptance run or background service. Paid data still deferred.
+1. **October8 / next live session:** China export guidance, Treasury/IRS implementation, SPR awards. Keep UNKNOWN without authenticated evidence; no automatic watch. BroaderWQ252/HEN46 October6 sitting is overdue, carried as open owner debt.
+2. **October9 15:00 ET:** held USOcall sell-or-roll rail; Will executes, TERRY reprices broker ticket. **~15:30ET:** COT as-of10/6, raw-primary grade before next release; rigs record-only, no retired alert. WALTER Baltic/Gibson/insurance review after publication. WQ378 study decision remains Will's, no study authorized.
+3. **October15 noon ET:** BRT31 first release, dataweek10/9. **October24:** WQ264 shadow endpoint; resolver still unregistered until completion, Texas waiver ends. **October26:** BRT30 frozen JWLA034 baseline; listing is not throughput.
+4. **November18:** WQ386 basis review. **November19 settlement:** final authorized December A observation absent new ruling; no automatic January roll. Prior exit survives missing data/switch/sunset.
+5. **Maintenance after current-state work:** primary review RF013/014/022/033 and nine other stale incident rows; substantive LESSONS_INDEX/prose reconciliation. Structural check passed, semantic agreement not certified. No cosmetic stamps.
+6. **Deployment deferred:** routine installation, Thursday connector removal and first-normal-run acceptance at [CATO handoff](audits/2026-10-04_cato-correction/REPORT.md). Saved repair complete, working Claude controls required. Paid data remain deferred; no new acceptance run/service.
 
 ## OPEN THREADS / WATCHES
-- Source gaps: official settlements/currentUSOweights/comparableinsurance/quantifiedSaudiloss. F-a NOT MEASURABLE on required paired data; never substitute Dec–Jan.
-- Broader WQ252/HEN46 October6 basis sitting remains overdue/open; WQ386 resolves only held-share management. TERRY canonical card integration separately owed.
-- Registrar reconciliation remains foreign-owned: PROME L427 PENDING despite reported ALREADY DISCHARGED; L198 old publication wait after October2 CLOSED NO-VERDICT. No foreign ledger edited.
-- PROME L392 quote-age calibration; DAEDALUS L380 read-cap and L526 shallow-checkout debt. WQ378 lead-lag study waits for Will's October9 decision; no study authorized here.
-- G7 first diesel window modeled endOctober22; split and deliveries unmeasured. Incident/restoration states retain their vintages. No new unrouted proposal created.
+- Official settlements/currentUSOweights/comparableinsurance/quantifiedSaudiloss unobtained; F-a NOT MEASURABLE, no Dec-Jan substitute. No causal freight beta.
+- BroaderWQ252/HEN46 and TERRY canonical WQ386 card integration separately owed. BRENT's approved letter is applied at TRADE; no extra buy/grade authority.
+- PROME physical docket198/427 still PENDING despite owner completion/discharge evidence; registrar correction foreign-owned. PROME L392 quote-age calibration; DAEDALUS L380 read-cap and L526 shallow-checkout debt retained with owners.
+- G7 first diesel window modeled endOctober22; split/deliveries unmeasured. No authenticated new incident/restart/normalization grade. No new unrouted proposal.
 
 ## POSITION DECISIONS PENDING
-- October7 holdings: USO37 shares/VLO1 share/USOOct9$150C×1, exact capturetime unknown. No Activity/Orders. Existing historical broker facts stay at TRADE; do not re-ask permanently unknown sale prices.
-- WQ366 early-sale DECLINE and October9 15:00rail; WQ200 harvest DECLINE; WQ192 STAND DOWN. No new buy/sale/roll approval. TERRY grades held-VLO rule; Will executes.
+- October7 holdings USO37sh/VLO1sh/USOOct9$150C×1; capturetime UNKNOWN, no Activity/Orders/new fill inference. TRADE owns broker receipts and permanently unknown facts.
+- WQ366 early-sale DECLINE, WQ200 harvest DECLINE, WQ192 STAND DOWN retained. October9 rail requires Will's sell-or-roll action; TERRY grades held-share management. No desk order.
 
-## MAIL STATE
-- October5 WALTER005/006: source integration completed; prior deferred receipts retained as history, acted receipts added for this report. Files already processed; no repeat move.
-- October7 WALTER003/004/014/015: fully read/integrated, 003/004 same EIA lineage; 014 named recovery remains record-only, 015 unconfirmed. Sender persistence verified at813ee8a05; four git-mv archives match three acted plus one noted board_log receipts. Payloads match sendercommit byte-for-byte; live recursive inbox Markdown empty at2026-10-07 18:27 ET. [Receipt](research/2026-10-07_news-catchup/archive-receipt.json).
-- Outbox: no new outgoing signal packet; steady-state findings in NEXUS. Original create-only completion packet remains historical; PROME's subsequent exact report/archive acknowledgment closes consumption, and the train receipts close publication throughd10bf9503.
+## MAIL STATE (one line per signal)
+- Inbox: recursive live Markdown empty at closeout; no new intake/move. October7-003/004/014/015 four archives/four matching receipts, three acted/one noted, payloads match sender813ee8a05; [receipt](research/2026-10-07_news-catchup/archive-receipt.json).
+- October5-005/006: deferred history retained; interpretation now acted/completed, files already processed, no repeat archive.
+- Outbox: no live Markdown; steady-state NEXUS. Original completion packet remains historical; new final-closeout packet to PROME. Tool acceptance alone is not consumption.
 
 ## WORKBOOK HEALTH / CAPABILITIES
-- Boot rc2, ledger age and incident advisories remain qualified. COT8/rig/JWC prior grades not rerun. No threshold/band supersession; new observation dates do not change prior vintages.
-- Codex/OpenAI same owner01a10c35-32d7-73f2-92cf-601e74814af6; actual gpt-6.1-sol/high. Root/local startup read; verified task coordination available. Broker execution/view, Claude routine controls/nativeClaude discovery, paid AIS/freight/energy-sectorOAS unavailable.
-- Foreign staged/dirty work preserved. Exact own paths only; coordinate new publication with recovered PROME01a1182c-1dad-75f2-8929-93d093e7478e. Await explicit closeout after delivery.
+- Last full boot rc2 preserved; later same-week API/XLS recovery does not turn it green. Focused closeout checks/limits at CLOSEOUT; saved-record reconciliation does not refresh raw feeds.
+- Frozen KB/VX/FLOW/TIMELINE untouched. No numeric test supersession/due prediction grade/new lesson or memory registration; incident/lesson source debt retained.
+- Codex/OpenAI sameowner01a10c35-32d7-73f2-92cf-601e74814af6, actualgpt-6.1-sol/high; root/local instructions explicitly read. Shell/venv/web/verified Codex coordination available; broker execution/view, Claude routine controls/discovery, paid AIS/freight/energyOAS unavailable.
+- Exact owned/self-authored Git paths only; foreign VLO staging/other work/prior PROME boot report preserved. PROME owns final push; no competing push/pull/stash.
