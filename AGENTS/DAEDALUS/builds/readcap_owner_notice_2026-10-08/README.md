@@ -62,4 +62,12 @@ Fresh-context Opus reader, 23 own counterexample legs + an independent re-implem
 - **W2:** a foreign concrete row naming a directory is skipped (not cap-bearing; the reader's run shows it); "missing" now means `not os.path.exists`.
 - **Tests:** N5 fixture now gives S a CLAUDE.md (the chartered case). New **N9** (charterless sub-agent file read whole → noticed, no clean line) and **N10** (directory row → no DOES NOT EXIST). `EXPECTED_LEGS` 125 → 127.
 **Watched:** v2 selftest 127/127 ✅. The same tests with only the two code fixes reverted fail exactly N9 and N10 (125/127), so both tests can fail. Live before/after on 43 FLEET_DIRECTORY desks: rc identical 43/43. Owners with an over-budget foreign read are BROCK (NEXUS_BRIEF 106%) and ZHAO (NEXUS_BRIEF 122%), both read by NEXUS:6; both were packeted today (`AGENTS/{BROCK,ZHAO}/inbox/2026-10-08_from-DAEDALUS_NEXUS_BRIEF-over-read-budget.md`). HANS = 0 over: HANS rotated THRESHOLDS 103% → 68% today, ae7bf8d27.
-**State:** IMPLEMENTED · TESTED · v1 INDEPENDENTLY READ · **v2 delta result read: see below**. W3–W8 remain declared residue, unchanged.
+**State:** IMPLEMENTED · TESTED · v1 INDEPENDENTLY READ · v2 delta INDEPENDENTLY READ (below). W3–W8 remain declared residue, unchanged.
+
+## v2 delta result read — 2026-10-08 (patch byte-unchanged since the read)
+Fresh-context Opus reader, 16 own fixtures run on v1 and v2 + selftest + 51-desk live comparison: **ACCEPT-WITH-RESIDUE, ❌ 0 · ⚠️ 3 · ✅ 17**. **W1 FIXED · W2 FIXED.** `--fleet` byte-identical unpatched/v1/v2; live rc identical on 51 desks. Ledger `INDEPENDENT_READ_V2_2026-10-08.md`.
+Declared residue (not fixed, so the artifact stays byte-stable under its read):
+- **X1** (latent, inherited from v1): the sub-agent test is "CLAUDE.md present", not "desk_home resolves here". Three layouts would still hide a foreign read: a top-level desk with the sub-agent's name, one name under two parents, chartered-in-chartered. 0 exist today. The reader's resolver-based variant passes 127/127. Fix at the next touch, with its own read.
+- **X2** (cosmetic, cannot occur in a committed tree): FIFO and trailing-slash rows disagree between owner and reader runs.
+- **X3** (text): the selftest pass line still says "N1–N8".
+**READY TO APPLY (PROME's slot):** `owner-notice.patch` (v2) onto live base `b5fbd2fd…` gives result `e7f511e1…`. Notice-only default; the opt-in blocking flag stays a canon question (A9/W7).
