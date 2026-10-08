@@ -13,7 +13,7 @@ The bear case lives here. FL is a fortress, office losses are being taken (Bosto
 
 | Layer | Amount | Rate / Terms | Status |
 |-------|--------|-------------|--------|
-| OZK Senior | $915M ($555M funded) | ~$360M "good news" unfunded | Current. **Matures Aug 2026.** |
+| OZK Senior | $915M ($555M funded) | ~$360M "good news" unfunded | **Stated maturity 2026-08-26 → bridged to 2026-10-09** by a Fifth Modification signed 9/30–10/1 (Citi 10/6, single-source; dated 2026-10-08) → `IQHQ_PLAYBOOK.md` |
 | Mezzanine (2024) | $75M | 15% PIK — accruing ~$76M by 2026 | Debt growing automatically |
 | IIP Preferred | $270M | 14%+ wtd avg (revolver + preferred) | Senior to all common equity |
 | Bluerock PIK | $246M ($160M @13.5% Dec'27 + $86M @14% Aug'28) | PIK ~$8-9M/qtr accrual | Interest not paid, capitalizing. Holder = **Bluerock Total Income+ (TI+)** interval fund [entity corrected 7/4 — not "Bluerock Homes Trust"]; TI+ also holds ~$488M first-loss equity → **TI+ NAV mark = leading indicator** (→ `../PRIVATE_CREDIT/COUNTERPARTY_WATCH.md`) |
@@ -56,7 +56,7 @@ Full detail + severity math → `../SEVEN_CREDIT_DEEP_DIVE.md`.
 
 | Loan | Amount | Status |
 |------|--------|--------|
-| **RaDD** | $915M ($555M funded) | 🔴 97% vacant, 94% submarket vacancy. Aug 2026 maturity. |
+| **RaDD** | $915M ($555M funded) | 🔴 97% vacant, 94% submarket vacancy. Maturity 8/26 → **10/9 bridge** (2026-10-08 update). |
 | **Aperture Del Mar** | $475M | 🟢 Pre-leased Neurocrine through 2036 |
 | **Pacific Center** | $265M commit / $100M funded | ⚪ SOLD Q4'25 (TRD reported 1/7/26) to distressed buyer SVP — "largest whole-loan disposition in bank history." **Q4'25 Mgmt Comments: FULL principal repayment on $0.10B funded [primary, confirmed 7/6]** — par exit, no loss; $165M unfunded commitment de-risked [KB-095/199 corrected]. |
 | **Bioterra** | **$165M commit** [corrected 7/6 from "$202M" — old figure ≈ Atrium's $203M as-market VALUE, likely value/loan transposition; KB-209] | 🔴 Vacant (0% leased Aug'25), Longfellow sponsor, orig Nov'22, +1 prior lender. Atrium as-market $203M (81% LTV commit) |

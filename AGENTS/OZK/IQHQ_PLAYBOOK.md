@@ -1,7 +1,7 @@
 # IQHQ / RaDD Resolution Playbook
 
-**Written:** 2026-04-22 (REGINALD deep-dive #2) · **Last updated:** 2026-09-24 (TL;DR + calendar re-based past the Aug window; §6 position text retired; Spur facts corrected; weights/EL untouched) | **Credit:** Bank OZK's single-largest loan
-**Facts:** $915M commitment / $555M funded / $360M unfunded ("good news funding") / **matured August 2026 — window closed swept-and-empty 8/31; extension + recap in negotiation (7/22 call), report-back due on the Q3 call** / collateral: 1.5M SF lab+office+retail campus in downtown San Diego / **3.3% leased** (JCVI 50K SF only)
+**Written:** 2026-04-22 (REGINALD deep-dive #2) · **Last updated:** 2026-10-08 (Facts + TL;DR 1 + stack row: the Fifth Modification bridged the **2026-08-26** maturity to **2026-10-09** [Citi 10/6, single-source terms]; weights/EL/OZK-09 untouched; P-OZK-6 proposed) · prior 2026-09-24 (TL;DR + calendar re-based past the Aug window; §6 position text retired; Spur facts corrected; weights/EL untouched) | **Credit:** Bank OZK's single-largest loan
+**Facts:** $915M commitment / $555M funded / $360M unfunded ("good news funding") / **stated maturity 2026-08-26; bridged by a "Fifth Modification of Construction Leasehold Deed of Trust" to 2026-10-09** (effective 8/26, signed OZK 9/30 / IQHQ 10/1, filed SD County 10/2 — Citi 10/6 via Seeking Alpha + Bisnow; terms SINGLE-SOURCE; OZK CCO 10/7: "short-term extensions routinely occur as the parties finalize documentation for longer-term extensions"); multi-year extension + recap in negotiation (7/22 call); report-back due on the Q3 call 10/21 / collateral: 1.5M SF lab+office+retail campus in downtown San Diego / **3.3% leased** (JCVI 50K SF only)
 
 > **⚖️ 2026-07-23 — REWEIGHT + OZK-09 RE-MARK (Will-approved in-session).** Scenario weights A20→**30** / B50→**45** / C12→**8** / D18→**17**; OZK-09 re-marked 52%→**45%**; weighted EL ~$140M→**~$129M**. Trigger = Q2 print (7/21) + call (7/22) evidence: extension+recap in live negotiation w/ sponsor AND mezz engaged ("~92 days" → Q3 call), back-loading now mgmt-stated plan. **Recognition-window RULING frozen same session (Option-2 event-anchored)** — see §4. Full evidence table + falsifiers: `outbox/2026-07-23_to-PROME_ozk09-remark-proposal.md`. Sections below updated in place with [REVISED 7/23] tags. §2 sponsor/portfolio narrative is the 4/22 vintage except where dated.
 
@@ -11,11 +11,11 @@
 
 ## TL;DR (re-based 2026-09-24)
 
-1. **Where it stands:** the Aug-2026 maturity passed **without a disclosure event** — FDIC filings, press and the 10-Q were swept and empty on 8/31 (the SD recorder leg was never checked). That is exactly the path the 7/22 call described: a **multi-year extension + recap in negotiation** with the sponsor and the mezz lender, "will remain a pass-rated credit," interest paid from pre-established reserves, and **"~92 days" to more disclosure → the Q3 call (~mid/late Oct)**. Intent, not execution — nothing is resolved until an extension is executed and disclosed (Z10).
+1. **Where it stands (re-based 10/8):** the **8/26** maturity passed without a disclosure event (swept and empty 8/31), but **not without a document**: a ~6-week bridge to **Fri 10/9** was signed 9/30–10/1, retroactive to 8/26, and filed 10/2 (Citi 10/6; recorder 403 to scripts, so the terms are SINGLE-SOURCE). OZK calls it documentation timing; Citi calls it distress. **A bridge is not Scenario A** (A = a 1–2 year extension with new money); OZK-09 stays OPEN on the desk's reading — **P-OZK-6, Will-gated**. Both fit the path the 7/22 call described: a **multi-year extension + recap in negotiation** with the sponsor and the mezz lender, "will remain a pass-rated credit," interest paid from pre-established reserves, and **"~92 days" to more disclosure → the Q3 call (~mid/late Oct)**. Intent, not execution — nothing is resolved until an extension is executed and disclosed (Z10).
 2. **Scenario weights (7/23, Will-approved): A-extend 30% / B-substandard 45% / C-takeout 8% / D-foreclosure 17%. Weighted lifetime EL ~$129M on $555M funded (~21% of Q2'26 ACL $617.8M). OZK-09 = P($140M+ recognition in the Option-2 window, through the Q4'26 print) = 45%.** Recognition is appraisal-gated and back-loaded — a B migration can book a near-$0 initial reserve (§3 re-derivation).
 3. **Campus at Horton is the comp.** AllianceBernstein's **$130M credit bid on a $399M loan (Sep 2025) = 67% severity**; $169/SF × RaDD 1.5M SF ≈ $253M → the D band $275-360M holds as a **terminal/disposition** loss. Whether Horton has leased since is an **owed, unrun check** — it is what holds the D-severity band **50–65% ($275–360M on $555M funded; top end anchored by Horton's 67%)** — label corrected 9/27, was "65-70%", which never matched the band's own dollars.
 4. **Sponsor strain is still building:** no fresh 2026 IQHQ capital found; Aimco's $50M Chancery suit (no ruling found as of 9/24); IQHQ gave **Spur Ph I (S. San Francisco, 330K SF, vacant)** back to **Apollo** by deed-in-lieu on 9/17 after falling behind on a $275M loan [The Real Deal — single-source] — its first building handed back to a lender. Context, not a grade: RaDD is senior-secured at OZK with a different stack.
-5. **What would move the weights:** executed extension terms at the Q3 call (curtailment / new equity → A firms; extension without cure + reserve → B), a Bluerock/BPRE IQHQ mark (10/6 webinar), a >100K SF RaDD lease, or the mezz walking from the recap (→ D). **No position:** the Aug-21 puts expired worthless 8/21 (§6); any new expression is TERRY's, Will-approved.
+5. **What would move the weights:** executed extension terms at the Q3 call (curtailment / new equity → A firms; extension without cure + reserve → B), a Bluerock/BPRE IQHQ mark (10/6 webinar), a >100K SF RaDD lease, or the mezz walking from the recap (→ D). **Positions:** the Aug-21 puts expired worthless 8/21 (§6). Will holds a Fidelity Nov-20 $40P ×4, observed 10/7 (acquisition unknown; no card — TERRY's). The RaDD outcome (10/9 bridge maturity, 10/21 call) lands inside that tenor. This desk supplies evidence only.
 
 ---
 
@@ -29,7 +29,7 @@
 
 | Layer | Amount | Rate | Status |
 |---|---|---|---|
-| OZK Senior (RaDD) | $915M commitment / $555M funded / $360M unfunded "good news" | — | Matured Aug 2026 — extension + recap in negotiation (7/22 call); interest from reserves |
+| OZK Senior (RaDD) | $915M commitment / $555M funded / $360M unfunded "good news" | — | Stated maturity 2026-08-26 → **bridged to 2026-10-09** (Fifth Modification, Citi 10/6, single-source); multi-year extension + recap in negotiation (7/22 call); interest from reserves |
 | Mezzanine (2024) | $75M | 15% PIK (accruing ~$76M by 2026) | Current |
 | IIP Preferred | $270M ($100M revolver + $170M preferred) | 16.5% wtd-avg | Aug 2025 — drawn |
 | Bluerock PIK | $246M ($160M @ 13.5% + $86M @ 14%) | **PIK — NOT PAID**, accruing ~$8-9M/qtr | Maturing Dec 2027 / Aug 2028 |
@@ -250,7 +250,7 @@ The Apr-Aug position reads that stood here are retired (text → git history). *
 ### 🟠 To CREED — SD downtown lab severity comp
 **Signal:** Campus at Horton closed Sep 2025 at **$130M AllianceBernstein credit bid on $399M senior construction loan = 67% severity.** This is the single most important comp for any downtown SD lab distressed exit. Cross-reference against CREED CMBS life sci DQ data and other distressed SD/Boston/Bay Area life sci asset tracking. Priority: 🟠
 
-*(CARL: no intersection. FORGE: position signal retired with §6 — no positions.)*
+*(CARL: no intersection. FORGE: position signal retired with §6; the 10/7 Nov-20 $40P line is carried at `POSITIONS.md` and TERRY's `NOTE-OZK40P-NOV20`, not here.)*
 
 ---
 

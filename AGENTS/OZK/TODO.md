@@ -1,6 +1,6 @@
 # OZK — Research TODO / Backlog
 
-**Last updated:** 2026-10-01 (D1 coupon part CLOSED, 10/2 = FLNG + press only; D2 re-dated; C1 gets CHECK-BY 2026-10-14 + a recall-unproven lane phrase) · prior 2026-09-27 (C1/C3/R5 status notes from the 9/27 sweep; +R6 playbook severity-band conflict; +R7 PROME CRE-transmission leg delivered) · prior 2026-09-24 (full rebuild: every open item from the old sections — Aug-23 queue, 8/28 sweep S1-S9, 8/7 proposals, 7/18 carry-forwards, April priorities — de-duplicated into ONE queue; ~25 done/obsolete items retired to git history). Older versions → `git log -p -- AGENTS/OZK/TODO.md`.
+**Last updated:** 2026-10-08 (+D7 RaDD stopgap read on/after Fri 10/9; D3 card + RaDD 9/30 rating/past-due leg; C2 recorder attempted, 403 to scripts; G1 + P-OZK-6; G2 discharged — Aug-21 legs absent from the 10/7 Fidelity capture; +T1 boot.py WALTER-lane blind spot) · prior 2026-10-01 (D1 coupon part CLOSED, 10/2 = FLNG + press only; D2 re-dated; C1 gets CHECK-BY 2026-10-14 + a recall-unproven lane phrase) · prior 2026-09-27 (C1/C3/R5 status notes from the 9/27 sweep; +R6 playbook severity-band conflict; +R7 PROME CRE-transmission leg delivered) · prior 2026-09-24 (full rebuild: every open item from the old sections — Aug-23 queue, 8/28 sweep S1-S9, 8/7 proposals, 7/18 carry-forwards, April priorities — de-duplicated into ONE queue; ~25 done/obsolete items retired to git history). Older versions → `git log -p -- AGENTS/OZK/TODO.md`.
 **Dated items also live in `CALENDAR.md`; this file is the research queue.**
 **▶ WORK ORDER (set 2026-09-24, CATO: evidence before restructuring): C1 Horton → R1 reserve re-derivation → D2/D3 Q3 date + card → D1 10/2 read.**
 
@@ -14,8 +14,9 @@
 |---|---|---|---|
 | D1 | ✅ **DONE 10/2 08:31 ET** — reset HAPPENED, uncontradicted (FLNG rc0 182 + press empty; thread §5, KB-242) · ~~Sub-notes 10/1 read~~ (DOCKET L463) | **Fri 10/2 AM** | Coupon CLOSED 10/1 (≈6.19%, ≈+$12.3M/yr — `research/threads/2026-10-01_SUBNOTES_RESET.md`); 10/2 = `flng_watch.py` + one press search only: rc 0 = SCHEDULED-UNCONTRADICTED (never "confirmed") · rc 1 = read filing; redemption/refi = 🟠 REGINALD · rc 2 = UNKNOWN, re-run |
 | D2 | ✅ **DONE 10/2** — Q3 release Tue 10/20 after close, call Wed 10/21 8:30 ET (OZK release 9/30); CALENDAR + boot.py set · ~~Q3 date~~ | (the 10/1 'not announced' was wrong — FLNG omits press releases) | Aggregators guess ~10/15 |
-| D3 | **Build the Q3 scoring card** — **before Tue 10/20 after close** (date CONFIRMED 10/2) (pattern: `workbook/Q2_2026_SCORING_CARD.md`, pre-registered legs + grading rule) | before Q3 print | Legs: RaDD report-back (executed extension? curtailment? equity? reserve?) · **SpecMention $616M reversal rate** · NCO vs "back under industry" · provision "drift down" · $330M pending-sale credit · Boston Life Sci $169M (sale or title) · mods counter (unanswered at Q2) · Portal 405 / 777 Industrial appearing in the substandard table · classified+criticized vs RESG (grade off the printed "Total Classified and Criticized Assets" line — never the 10-Q loan-only basis; Z2 rule) |
+| D3 | **Build the Q3 scoring card** — **before Tue 10/20 after close** (date CONFIRMED 10/2) (pattern: `workbook/Q2_2026_SCORING_CARD.md`, pre-registered legs + grading rule) | before Q3 print | Legs: RaDD report-back (executed extension? **term? (the Fifth Modification was a ~6-week bridge to 10/9)** curtailment? equity? reserve?) · **RaDD 9/30 risk rating + past-due status** (stated maturity 8/26; nothing signed until 9/30) · **P-OZK-6 ruling status** (how OZK-09 reads a stopgap) · **SpecMention $616M reversal rate** · NCO vs "back under industry" · provision "drift down" · $330M pending-sale credit · Boston Life Sci $169M (sale or title) · mods counter (unanswered at Q2) · Portal 405 / 777 Industrial appearing in the substandard table · classified+criticized vs RESG (grade off the printed "Total Classified and Criticized Assets" line — never the 10-Q loan-only basis; Z2 rule) |
 | ~~D4~~ | ✅ **DONE 9/24 — Q2'26 10-Q full read** → `research/threads/Q2_2026_10Q_READ.md` (+ Q2 MC credit pages). Roster turned over; Dec 18 misattribution found; RIAD5409 attribution inferred; RaDD pass-rated by elimination | — | ⭐ The Q1 read produced the debt-on-debt pillar and the $250.4M-at-$0-ALL deferral finding; the Q2 one is unread (keyword pass only). Q2'25 + Q3'25 10-Qs are local too |
+| D7 | **RaDD stopgap maturity read — on/after Fri 10/9** (added 10/8) | Fri 10/9 → Mon 10/12 | Sixth modification (multi-year? equity? curtailment?) vs another bridge vs default/forbearance vs silence. Sources: OZK/Citi statements, Bisnow/SD Business Journal, recorder (browser only). Default/forbearance language = 🔴 REGINALD/BROCK/PROME. → `research/threads/2026-10-08_BAND_FIRE_CAUSE_RADD_STOPGAP.md` §3 |
 | D3b | **PROME DOCKET L520 — Q3 workout follow-through** (CHECK-BY 10/31): re-grade `2026-09-27_Q2_WORKOUT_CHECK_OZK.md` W1–W14 on the Q3 print — OREO sale price vs carrying · Boston · RaDD terms · SM migration · buyback run-rate. No OREO sale priced ⇒ record "no OREO sale priced in Q3" (hypothesis stays open) | Q3 print | Fold into the D3 scoring card |
 | D5 | **Insider pull after the Q3 print** (FDIC EFR cert 110) | post-print | Last pull 9/24: zero buys since 7/6 |
 | D6 | **Q3 Call Report pull** (LOG-ONLY) | ~Nov 1-10 | ⏰ **FFIEC JWT expires 11/5 — Will action.** `RIAD5409` continuation · `RCON2746` vs Q3 10-Q debt-on-debt · Memo-10 PV05-09 |
@@ -25,7 +26,7 @@
 | # | Item | Status | Note |
 |---|---|---|---|
 | C1 | **Campus at Horton leasing** (downtown SD, 770K SF, lender AllianceBernstein) | 🔴 owed since late Jul · **CHECK-BY 2026-10-14** (set 10/1: before the ~10/15 Q3 window, so the RaDD report-back is read against a known Horton state) | 9/24 + 9/27 web searches empty ≠ discharged. 9/27: the only listing (Cushman, Bldg 200, 204,842 SF "Available") is undated and names pre-foreclosure owner Stockdale → stale page, proves nothing. Needs SD Business Journal / Bisnow SD / CoStar (browser) or an AB/owner release. Holds the RaDD severity band (see R6). 10/1: lane phrase `Campus at Horton` landed (RESEARCH-INTAKE 52b3ae6) — RECALL-UNPROVEN (0 lane / 0 live, WALTER 4e51f69ee); a silent phrase never discharges this check |
-| C2 | **SD County Recorder — RaDD assignments / notices** | ⚪ never run | The one UNKNOWN leg of the 8/31 sweep |
+| C2 | **SD County Recorder — RaDD assignments / notices** | 🟠 **attempted 10/8: 403 to scripts** (curl + WebFetch) | Citi read a recorded **Fifth Modification** (filed 10/2: maturity 8/26 → **10/9**) — the leg is productive but browser-only. Pull `IQHQ-RADD` / `BANK OZK` from 10/1; a sixth modification after 10/9 is the next document |
 | C3 | **Aimco v. IQHQ** motion-to-dismiss ruling | 🟡 none found (as of 9/27, web only) | Direct docket pull (courts.delaware.gov) |
 | C4 | **Severity comp refresh** (KB-OZK-177 bands) | 🟠 stale since 7/31 | Q2-Q3 distressed CRE transactions; Spur deed-in-lieu (9/17) is a new data point |
 | C5 | **Affinius $2.7B bond maturity — verify or remove** (Oct 2026) | 🟠 open since Apr 22 | Possible Affinius / USAA Capital conflation; CREED asked 4/22, no reply found. CUSIP search or drop from CALENDAR |
@@ -38,7 +39,7 @@
 | R2 | **Refresh the 4 subdomain STATUS files** — LIFE_SCI · GEOGRAPHY · INSIDERS · PRIVATE_CREDIT (was S2) | 🟠 | All pre-Q2-print; INSIDERS/SELLING got the 9/24 pull only. Largest body of work |
 | R3 | **Reconcile the $87M IQHQ injection date** (KB-OZK-086; up to 3 dates in TIMELINE) (was S3) | 🟡 | Needs a primary re-check |
 | R4 | **Does OZK populate MI3 from the debt-on-debt book only?** | 🟡 | MI3 ≡ PV09 every quarter ⇒ zero CRE-purpose ever reported from item 4 |
-| R5 | **Bluerock BPRE / IQHQ marks** | 🟡 | Last marks H2'25 vintage; BPRE webinar 10/6. **BPRE ~47% below NAV @9/3 (derived, KB-239), widened from ~38% at the Dec-25 listing.** A Bluerock trade idea is a **TERRY/BROCK** question, not this desk's |
+| R5 | **Bluerock BPRE / IQHQ marks** | 🟡 | Last marks H2'25 vintage; BPRE webinar held 10/6 4 PM ET (after the close); replay posted 10/7 is video, content UNKNOWN; IQHQ = 5.1% warrant equity + 2.6% equity of BPRE gross assets at 8/31. **BPRE ~47% below NAV @9/3 (derived, KB-239), widened from ~38% at the Dec-25 listing.** A Bluerock trade idea is a **TERRY/BROCK** question, not this desk's |
 | R6 | **OZK-04 roster freshness** — its numerator is our own SEVEN_CREDIT roster | 🟡 before Q4 print | Gradeable at the Q4'26 print only if the roster is current |
 | R7 | MI3 path (a): Q3'25 transcript | ⚪ optional | Only an explicit statement on the Q3'25 debt-on-debt change would move "reclassification not excluded" |
 | R8 | Consumer RV/Marine NCO tracking (0.42%, super-prime) → PREDICTIONS row? | ⚪ low | Inflection = consumer-channel leading indicator |
@@ -48,14 +49,20 @@
 
 | # | Item | Owner | Status |
 |---|---|---|---|
-| G1 | **P-OZK-1** (MI3 basis) · **P-OZK-4** (kill-§1 bucket-invariant re-spec) · **P-OZK-5** (OZK-03 RESG-vs-bank-wide NCO scope) | Will / PROME / REGINALD | Not applied. P-OZK-5 should be fixed **before** the Q4 print, not at the grade. (P-OZK-2 ruled 8/23; P-OZK-3 done) |
-| G2 | Broker-export confirm of the Aug-21 $0 settle | FORGE export ask | Both legs must be ABSENT from the next capture |
+| G1 | **P-OZK-1** (MI3 basis) · **P-OZK-4** (kill-§1 bucket-invariant re-spec) · **P-OZK-5** (OZK-03 RESG-vs-bank-wide NCO scope) · **P-OZK-6** (10/8: a ~6-week stopgap is NOT an "executed extension" for OZK-09; the row stays OPEN — thread §3) | Will / PROME / REGINALD | Not applied. P-OZK-5 should be fixed **before** the Q4 print, not at the grade. **P-OZK-6 wants a ruling before the 10/21 call** (pre-registration value is lost once the outcome is known). (P-OZK-2 ruled 8/23; P-OZK-3 done) |
+| ~~G2~~ | ✅ **DISCHARGED 10/8** — both Aug-21 legs are ABSENT from the 10/7 Fidelity positions table (the only OZK line is the Nov-20 $40P ×4; `PROME/data/2026-10-07_broker-capture-TRANSCRIPTION.md` l.25); account continuity with *****1326 is INFERRED there | — | Closure is broker-consistent; the $0 settle stays tape-inferred (both strikes were OTM at the 8/21 close $49.42) |
 | G3 | Two boot.py items owed to DAEDALUS (STANDING_WATCH instance; ⑯ doc-age ≠ ledger-age) (was S6) | OZK → DAEDALUS | Delivery unverified — check DAEDALUS's tree before re-sending |
 | G4 | `workbook/PREDICTIONS_ARCHIVE` seed (5 resolved rows) — last PAT-044 leg | OZK | Not seeded; headers + ledger_staleness wiring are done |
 
+## 4b. Tooling
+
+| # | Item | Priority | Note |
+|---|---|---|---|
+| T1 | **`scripts/boot.py` INBOX section lists `inbox/*.md` only — it does NOT see `inbox/WALTER/`** | 🟠 | 10/8 boot showed "1 unprocessed" while an ACTION signal (SIG-W-20261008-003) sat in the WALTER lane. Add the lane (and keep `.gitkeep` out of the count). Note: `PROME/tools/inbox_census.py` counts `.gitkeep` as a top-level file (10/8: "top-level 2" = 1 packet + `.gitkeep`) — PROME's tool, flagged in the 10/8 memo |
+
 ## 5. Standing
 
-- **Short interest** — refresh at each FINRA settlement (Nasdaq API) [KB-214]. Last: 16.21M / ~16% float @ 8/31.
+- **Short interest** — refresh at each FINRA settlement (Nasdaq API) [KB-214]. Last: 16.51M / ~16.3% float, DTC 17.6 @ 9/15 (checked 10/8; the 9/30 settlement is not yet published).
 - **NDFI-contagion regime** — consume REGINALD/BROCK reads; OZK trades as a beta name (C8).
 - **FDIC filings** — `flng_watch.py` runs in every boot.
 
