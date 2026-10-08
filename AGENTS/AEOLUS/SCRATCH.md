@@ -11,6 +11,13 @@
 **Trade posture (Will-agreed 8/3):** HOLD, no build now — reinsurance-landfall tail fights my own El-Niño-suppression base case (would bleed theta in a quiet season, no edge). Pre-registered BUILD trigger: **CSU 8/5 or NOAA ~8/6-7 revise season UP, OR NHC lights a Gulf/FL system** → the tail goes live (breaks the suppression thesis). C4 down-stack (property→muni/WUI) is the slower expression, REGINALD-owned (ZION the one weak name), not ready.
 **★ STAGED 8/3 (Will-directed):** card handed to **TERRY** (inbox packet) — build unarmed/decision-ready: OTM Sep-Oct puts on FL primaries **UVE $44 / HRTG $30 / HCI $178** (clean solvency-convex shorts; NOT diversified reinsurers RNR/EG/ACGL/AXS — they V-shape on post-cat hardening). Gate = TERRY's options-liquidity/borrow/IV read on the small-caps (HRTG the risk). **PROME informed** (inbox packet) — tracking 8/5 + 8/6-7 as decision checkpoints. NEXT SESSION: check TERRY's liquidity read + whether either Aug update fired the trigger.
 
+## 🔴 NEXT SESSION — START HERE (2026-10-08 11:57 ET, aeolus-1008b — second bounded Isaias wake, cut short by PROME's closeout ask)
+
+- **Pre-landfall read at NHC #8 (15Z):** HU 75 kt/975 mb; fcst peak 95 kt 09/12Z, **85 kt at 10/00Z 29.6N 87.4W** (last over-water), inland 10/12Z. **Cat 2 forecast at landfall — 11 kt under the ≥96 kt line; NO grade** (KB-174). L627 grades Sat 10/10 on the operational TCU/advisory.
+- **Big Bend:** surge warning to the Suwannee (3–5 ft), watch to Yankeetown; repeat-hit reach (Idalia/Debby/Helene, HURDAT2); **Levy County not in EO 26-202** (KB-175).
+- **MMA:** no 10/8 release by 11:52 ET per `bsee.gov/rss.xml` (new working instrument — register in `hurricane/SOURCES.md`); KB-165 RB figure superseded (KB-176).
+- **SKIPPED (closeout ask):** STATUS/NEXUS_BRIEF/DOSSIER/SOURCES/CALENDAR not updated for #8 — STATUS C1 cells still carry 7A/#7. Do them first at the L627 wake. Packets sent to BRENT + CORAL; inbox drained (2 items).
+
 ## 🔴 NEXT SESSION — START HERE (2026-10-08 08:35 ET, BOUNDED dispatch session — Hurricane Isaias, WQ-369 narrow C8, spawned by PROME `prome-fc`)
 
 *(The 9/28 block below is still the pickup for everything this session did NOT touch — read both.)*
