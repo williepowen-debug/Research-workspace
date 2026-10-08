@@ -3,7 +3,7 @@
 **Date:** 2026-10-01 Thu, written 11:11 ET (live reads `date` 11:09:14–11:09:58). **Spawn:** PROME `prome-2a`, Tier 1 (packet `inbox/processed/2026-09-30_from-PROME_sep30-lines-were-ROLLED-not-expired_fills-and-card-asks.md`, ask 3).
 **Ids:** `MGMT-USO150C-OCT09` · `MGMT-KRE65P-DEC31` (management notes; no SETUPS rows).
 **Terry verdict:** 🟡 **RECORDED — Will's own hand (root rule #5); sell-or-roll rails set, no action owed today.** These notes record the lines and their rails; they do not re-litigate the rolls.
-**⏩ CURRENT for `MGMT-USO150C-OCT09` (2026-10-08 09:5x ET): desk lean SELL TODAY at Fidelity's bid — the move Will held for has arrived (USO $150.27, +4.42%, 11:03 — now IN the money; Friday exercise UNFUNDABLE and ≈ 53% likely if held). The Fri 10/09 15:00 ET stop is the fallback. No roll. Figures: ADDENDUM 2026-10-08 at the foot.** *(The "no action owed today" above is dated 10/1.)*
+**⏩ CURRENT for `MGMT-USO150C-OCT09` (2026-10-08 19:0x ET, ADDENDUM 2026-10-08 EVENING at the foot): NOT SOLD Thursday (broker Activity 10/2–10/8 shows no USO option row; FORGE `ef2bc83f1`) ⇒ ×1 HELD. The Fri 10/09 15:00 ET HARD STOP STANDS (WQ-366 DECLINE; DOCKET L605). Exercise is UNFUNDABLE: $15,000 against ≈ $11,421 cash. USO $147.58 [10/8c] ⇒ $2.42 out of the money. An earlier Friday sale is Will's choice; the card does not instruct it. No roll.** *(was, 10/8 09:5x: ~~desk lean SELL TODAY at Fidelity's bid~~ — not taken; Thursday is over. The 09:5x line, kept as the dated record:)* ~~desk lean SELL TODAY at Fidelity's bid — the move Will held for has arrived (USO $150.27, +4.42%, 11:03 — now IN the money; Friday exercise UNFUNDABLE and ≈ 53% likely if held). The Fri 10/09 15:00 ET stop is the fallback. No roll. Figures: ADDENDUM 2026-10-08 at the foot.~~ *(The "no action owed today" above is dated 10/1.)*
 **`$0` MOVED · NO ORDER · NO NEW TRADE PROPOSED · NO GATE OR THRESHOLD MOVED.** Cents from `FORGE/STATUS.md` (ANVIL `33bc8c293`); option quotes are vendor SCREENING marks — the live bid is Fidelity's (`RISK_RULES.md` durable finding 5b).
 
 ---
@@ -262,3 +262,23 @@ That makes the call a cheap, five-session option on the "no decision" outcome. I
 - **Desk lean CONFIRMED: SELL the 150C ×1 TODAY at Fidelity's bid.** The Fri 15:00 stop is the fallback. `[POSITION_STATE_UNKNOWN]` for today: if Will has already acted during the outage, his fill governs and gets recorded (root rule #10).
 
 **APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**
+
+## ADDENDUM 2026-10-08 EVENING, written 19:07 ET (`date` 19:07:30): `MGMT-USO150C-OCT09` ×1 NOT SOLD Thursday. The Fri 15:00 ET stop stands. PROME spawn `terry-1008pm`. The text above stands as written
+
+**`$0` MOVED · NO ORDER · NO GATE OR THRESHOLD MOVED.** Broker facts: `PROME/data/2026-10-08_broker-capture-TRANSCRIPTION.md` and `git show ef2bc83f1:FORGE/STATUS.md`.
+
+- **Booked (root rule #10): no fill.** The 10/8 Activity (pending, plus the past 30 days from 10/2) shows **no USO option row**. The positions view shows **×1 held**: basis $299.66, last $0.66 ⇒ $66.00 (−$233.66) `[10/8 rcv]`. The morning's SELL-TODAY lean (ADDENDUM 2026-10-08, RE-PULL 11:03) was not taken. That was Will's call, and it is recorded, not graded.
+- **The rail for Friday is unchanged: the Fri 10/09 15:00 ET HARD STOP STANDS** (WQ-366 DECLINE, Will 10/3 21:10 ET; DOCKET L605). Sell at Fidelity's bid no later than 15:00 ET. A sale earlier on Friday is Will's choice and is outside the DECLINE's content; the card does not instruct it.
+- ⛔ **Exercise is still UNFUNDABLE.** A Friday close above $150.00 ⇒ the IRA buys 100 USO = **$15,000** against **$11,421.19 cash** (≈ $12,705 counting the +$1,283.98 pending from the three QQQ fills) `[10/8 rcv]`. Fidelity's handling is UNOBSERVED (D-60). If USO is above $150 at 15:00, the sale at the stop is not optional in substance.
+
+| At the 10/8 close (closes and screening marks, NEVER bids) | Value |
+|---|---|
+| USO | **$147.58 [10/8c]** (+2.55% vs $143.91 [10/7c]; day range $146.06–$150.48) ⇒ the 150 strike is **$2.42 (1.6%) out of the money**. Post-market $147.50 at 18:47 ET (not a close) |
+| 150C Oct-09, vendor end-of-session | **0.58 / 0.65**, IV 35.8%, OI 2,362, volume 5,167, last trade 15:59 ⇒ ×1 ≈ $57.35 at that bid, ≈ −$242.31 vs $299.66 (INFERRED, not a Friday bid) |
+| Model (trading-hour clock, calibrated to the 0.615 mid at 41%; shape, not price), at an unchanged USO | ≈ $0.59 at Fri 09:45 · $0.52 at 10:30 · $0.36 at 12:00 · **$0.03 at the 15:00 stop** ⇒ at an unchanged USO the stop forfeits ≈ $56 against a 09:45 sale |
+| Model at Fri 15:00 by level | USO $148 ⇒ 0.06 · $149 ⇒ 0.23 · $150 ⇒ 0.61 · $151 ⇒ 1.23 · $152 ⇒ 2.07. Chance of a Friday close above $150 ≈ **26%** (model) |
+
+- **Root rule #6:** the sale is an EXIT, and the rule governs buys. A green USO session gets a better price for a call sale. Neither colour is a break.
+- **Roll: NONE** (unchanged). There is no fired trigger: BRENT's 10/8 read is not a new event-class arm and WQ-192 holds (durable finding 1). The 11:03 RE-PULL's #21 form (Oct-16 150C ×1, do-not-chase $2.75) remains Will's to take on his own word, not a desk recommendation, and must be re-priced on Fidelity's chain.
+
+**APPROVAL REQUIRED — Will must approve/reject before execution** (no new action is proposed; the Friday sale at or before 15:00 ET is his order).

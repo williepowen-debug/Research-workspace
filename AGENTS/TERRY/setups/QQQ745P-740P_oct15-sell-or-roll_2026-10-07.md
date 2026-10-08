@@ -1,9 +1,9 @@
-# SELL-OR-ROLL CARD — QQQ $745P Oct-15-2026 ×2 and $740P Oct-15-2026 ×4 (Fidelity IRA) — expire THURSDAY 10/15
+# SELL-OR-ROLL CARD — QQQ $745P Oct-15-2026 ×1 (was ×2; Will sold 1 on 10/8) and $740P Oct-15-2026 ×4 (Fidelity IRA) — expire THURSDAY 10/15
 
 **Date:** 2026-10-07 Wed, written from 22:01 ET (`date` 22:01:32; live reads 21:44–21:56 ET, all after the 16:00 close). **Session:** PROME `prome-0e` spawn (Tier 1, C5 commission; WQ-347 / DOCKET L615). Model: Claude Opus 5.5 (`desk` agent definition).
 **Ids:** `MGMT-QQQ745P-OCT15` (×2) · `MGMT-QQQ740P-OCT15` (×4). Management cards on lines Will opened by his own hand; no SETUPS rows (management-card convention); registered in `setups/INDEX.md`. ⛔ **New identities.** They do not continue `MGMT-QQQ740P-OCT02` or `MGMT-QQQ735P-OCT05`. Whether either of those was rolled into these, and at what prices, is UNKNOWN until the Activity view (WQ-347). Nothing here books an exit for them.
 **Thesis owner:** Will (no agent thesis on file; off-thesis class).
-**Terry verdict:** 🟡 **SELL-OR-ROLL BEFORE THURSDAY 10/15. No action owed tonight. Desk lean: SELL both lines at Fidelity's bid on Wed 10/14 after the CPI open settles, 09:45–10:30 ET, no later than Thu 10/15 12:00 ET. No roll.** Re-mark at the C5 line, **Tue 10/13** (two sessions before expiry). The times are a PROPOSAL for Will; nothing registers them as a deadline until he adopts them.
+**Terry verdict:** 🟡 **SELL-OR-ROLL BEFORE THURSDAY 10/15 — 745P NOW ×1 (§ 9, 2026-10-08: Will SOLD 1 of 2 @ $6.06, +$605.32; the rule below now covers 745P ×1 + 740P ×4). No action owed before the Tue 10/13 re-mark. Desk lean: SELL both lines at Fidelity's bid on Wed 10/14 after the CPI open settles, 09:45–10:30 ET, no later than Thu 10/15 12:00 ET. No roll.** Re-mark at the C5 line, **Tue 10/13** (two sessions before expiry). The times are a PROPOSAL for Will; nothing registers them as a deadline until he adopts them.
 **Confidence in the read:** Medium. Vendor marks after the close; Fidelity's chain governs.
 **`$0` MOVED · NO ORDER · NO NEW TRADE PROPOSED · NO GATE OR THRESHOLD MOVED.**
 
@@ -90,7 +90,26 @@
 
 ## Decision
 
-> **For Will:** sell the QQQ $745P Oct-15 ×2 and $740P Oct-15 ×4 at Fidelity's bid on **Wed 10/14, 09:45–10:30 ET, after the CPI open** (desk lean), no later than **Thu 10/15 12:00 ET**; or sooner if CPI is not why you hold them (holding to CPI costs about $1,000 of tonight's ≈ $1,188 at an unchanged QQQ). **No roll is the desk's lean**; the $500 cap allows rolling one contract to Oct-23, not the lines.
+> **For Will:** sell the QQQ $745P Oct-15 **×1** *(was ~~×2~~; 1 sold 10/8 @ $6.06, § 9)* and $740P Oct-15 ×4 at Fidelity's bid on **Wed 10/14, 09:45–10:30 ET, after the CPI open** (desk lean), no later than **Thu 10/15 12:00 ET**; or sooner if CPI is not why you hold them (holding to CPI costs about $1,000 of tonight's ≈ $1,188 at an unchanged QQQ). **No roll is the desk's lean**; the $500 cap allows rolling one contract to Oct-23, not the lines.
 > ⚠️ Vendor marks after the close; Fidelity governs. The desk re-marks these on Tue 10/13.
+
+**APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**
+
+---
+
+## 9. ADDENDUM 2026-10-08 Thu, written 19:07 ET (`date` 19:07:06): FILL BOOKED (root rule #10). `MGMT-QQQ745P-OCT15` is now ×1. PROME spawn `terry-1008pm`
+
+**`$0` MOVED · NO ORDER · NO GATE OR THRESHOLD MOVED.** Broker facts come from `PROME/data/2026-10-08_broker-capture-TRANSCRIPTION.md` (ties to the cent, $34,650.69) and `git show ef2bc83f1:FORGE/STATUS.md` (ANVIL).
+
+| Line | 10/8 broker activity | Remaining `[10/8 rcv]` |
+|---|---|---|
+| **745P Oct-15** | **Sell to Close 1, limit $6.02 (Day), filled at $6.06 ⇒ +$605.32.** Realized ≈ **+$321.65** ($605.32 − the $283.67 lot basis; derived by ANVIL from the broker's lot basis) | **×1**, basis $283.66 (avg $2.84), last $5.73 ⇒ $573.00 |
+| 740P Oct-15 | none | ×4, basis $2,122.65, last $4.05 ⇒ $1,620.00 |
+
+- The fill time is UNKNOWN, so there is no execution grade (durable finding 6). On record: $6.06 is above the ≥ $5.68 harvest level that § 8 suggested and Will never adopted. Will sold before the card's Wed 10/14 lean, which is his call; the lean was a proposal.
+- **§ 1's ⚠️ on the 740P basis is RESOLVED.** The 10/8 Activity shows "YOU BOUGHT OPENING TRANSACTION PUT (QQQ) OCT 15 26 $740" on **10/2 for −$2,122.65**. So the $5.31 average is a real opening debit and **not a carried roll basis** (FORGE D-73, CLOSED). The per-contract fill price and time are not shown.
+- **At the 10/8 close** (closes and screening marks, NEVER bids): QQQ **$747.58 [10/8c]**. The 745P is **$2.58 out of the money**, quoted at 5.22 / 5.27 (last trade 16:13), ⇒ ×1 ≈ $521.35 net, ≈ +$237.69 vs $283.66. The 740P is **$7.58 out of the money**, quoted at 3.63 / 3.67 (last trade 16:07), ⇒ ×4 ≈ $1,449.40, ≈ −$673.25 vs $2,122.65. Source: vendor end-of-session quotes, `chain_fetch.py` 19:04 ET, SCREENING ONLY; the figures are INFERRED.
+- **Exercise path if held to Thursday's close, re-sized:** 745P ×1 below $745 ⇒ 100 QQQ = $74,500 short. 740P ×4 below $740 ⇒ 400 QQQ = $296,000 short. Both ⇒ **$370,500** (was $445,000). Fidelity's handling is UNOBSERVED (D-60). Exercise is not a plan.
+- **Everything else stands as written:** the C5 re-mark on **Tue 10/13**, the lean to **SELL both lines at Fidelity's bid on Wed 10/14, 09:45–10:30 ET, after the CPI open**, no later than Thu 10/15 12:00 ET, and **no roll**. The harvest suggestions in § 8 (745P ×1 at a bid ≥ $5.68 · 740P ×4 at a bid ≥ $5.31) remain suggestions only.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**

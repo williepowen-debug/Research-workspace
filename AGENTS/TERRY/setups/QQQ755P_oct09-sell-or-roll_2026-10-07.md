@@ -1,9 +1,9 @@
-# SELL-OR-ROLL CARD — QQQ $755P Oct-09-2026 ×2 (Fidelity IRA) — expires FRIDAY 10/09
+# SELL-OR-ROLL CARD — QQQ $755P Oct-09-2026 ×1 (was ×2; Will sold 1 on 10/8) (Fidelity IRA) — expires FRIDAY 10/09
 
 **Date:** 2026-10-07 Wed, written from 21:58 ET (`date` 21:58:33; live reads 21:44–21:56 ET below, all after the 16:00 close). **Session:** PROME `prome-0e` spawn (Tier 1, C5 commission: every option line Will holds gets a sell-or-roll card at least two sessions before expiry; WQ-347 / DOCKET L614). Model: Claude Opus 5.5 (`desk` agent definition).
 **Id:** `MGMT-QQQ755P-OCT09` (management card on a line Will opened by his own hand; no SETUPS row, by convention for management cards; registered in `setups/INDEX.md`). ⛔ **A new identity.** It does not continue `MGMT-QQQ740P-OCT02` or `MGMT-QQQ735P-OCT05`; how those left the account is UNKNOWN (no Activity view).
 **Thesis owner:** Will (no agent thesis on file; off-thesis class).
-**Terry verdict:** 🔴 **SELL-OR-ROLL BEFORE FRIDAY'S CLOSE. Desk lean (REVISED 2026-10-08 09:5x ET, § 8): SELL both at Fidelity's bid TODAY, the earlier the cheaper; holding for the 13:00 30-year auction is Will's call (then 14:00–15:30 ET). Do not carry into Friday. No roll.** *(was: ~~SELL both at Fidelity's bid on Fri 10/09 between 09:45 and 10:30 ET, and no later than 12:00 ET~~ — superseded because the put went in the money and into profit with no harvest rule on file; § 8.)* Holding to Friday's close is BAD STRUCTURE: worthless above $755, and below $755 an exercise into a 200-share QQQ short (≈ $151,000) sitting in the IRA over a weekend. **The times above are a PROPOSAL for Will to adopt or change. Nothing registers them as a deadline until he does.**
+**Terry verdict:** 🔴 **SELL-OR-ROLL BEFORE FRIDAY'S CLOSE — NOW ×1 (§ 9, 2026-10-08 19:0x ET: Will SOLD 1 of 2 on 10/8 @ $8.36; ONE remains, ≈ $7.42 in the money at the $747.58 close [10/8c]). Desk lean: SELL the remaining ×1 at Fidelity's bid on Fri 10/09, morning preferred (09:45–10:30 ET); NEVER into Friday's close (≈ $75,500 assignment branch). No roll. With the new `MGMT-QQQ750C-OCT09` also held, every Friday close leaves at least one of the two lines in the money (§ 9).** *(was, 10/8 09:5x: ~~SELL both at Fidelity's bid TODAY, the earlier the cheaper; holding for the 13:00 30-year auction is Will's call (then 14:00–15:30 ET)~~ — Will sold one of the two; § 8 is the dated record. Was, 10/7: ~~SELL both at Fidelity's bid on Fri 10/09 between 09:45 and 10:30 ET, and no later than 12:00 ET~~ — superseded 10/8 09:5x because the put went in the money and into profit with no harvest rule on file.)* Holding to Friday's close is BAD STRUCTURE: worthless above $755, and below $755 an exercise into a 100-share QQQ short (≈ $75,500; was ≈ $151,000 on ×2) sitting in the IRA over a weekend. **The times above are a PROPOSAL for Will to adopt or change. Nothing registers them as a deadline until he does.**
 **Confidence in the read:** Medium. Every option figure is a vendor screening mark taken after the close; Fidelity's chain at the open governs.
 **`$0` MOVED · NO ORDER · NO NEW TRADE PROPOSED · NO GATE OR THRESHOLD MOVED.** The order is Will's (root rule #5).
 
@@ -80,6 +80,7 @@
 
 ## Decision
 
+> ⛔ **SUPERSEDED 2026-10-08 19:0x ET by § 9 below** (Will sold 1 of 2 on 10/8; the decision now covers ONE contract on Friday). Kept as the dated record:
 > **For Will (REVISED 2026-10-08, § 8):** sell the QQQ $755P Oct-09 ×2 at Fidelity's bid **TODAY** — now is the desk lean (11:03 screening bid **2.42–2.57** ⇒ ≈ **$482.70–$512.70 net, +$5 to +$35** vs $477.33; it was +$181.37 at 09:3x — **the profit went in an hour**, which is why the line needs a harvest rule it does not have); **14:00–15:30 ET after the 13:00 30-year auction result** if you want that session (≈ $70–90 of decay for the two at an unchanged QQQ, against a ≈ ±$335 one-sd swing). **Do not carry it into Friday:** it is in the money, and a slipped sale lands on the ≈ $151,000 assignment branch. **No roll is the desk's lean**; if you roll anyway, roll **one** to the **755P Oct-16** as one net-debit order at no more than **$4.85/ct** on a **green** QQQ session (today is red), and sell the other. *(was: ~~Fri 10/09, 09:45–10:30 ET, no later than 12:00 ET~~.)*
 > ⚠️ Every quote here is a vendor mark taken after the close; Fidelity's chain at the open governs. Holding to the close risks an assignment into a ≈ $151,000 short the IRA cannot carry.
 
@@ -130,5 +131,42 @@
 - **Model** (calibrated to the 2.425 mid at 8.5%; shape, not price): at an unchanged QQQ one put ≈ $2.21 at 13:15, **$2.09 at 14:30**, $1.87 at Fri 10:00, $1.05 at Fri 15:00. One-sd QQQ move to 14:30 ≈ **±$3.05** ⇒ ≈ **±$335** on the pair (delta ≈ −0.55). Chance of finishing below $755 ≈ **56%** ⇒ the Friday assignment branch is better than even if the sale slips.
 - **Lean CONFIRMED: SELL both TODAY, now preferred; after the auction result (14:00–15:30) is Will's call.** ★ **Durable finding 9 measured in one hour:** at 09:3x the line was +$181 in profit with no rule that would take it; by 11:03 it was ≈ breakeven. That is the cost of a profit zone without a harvest rule — recorded as a datum, not a grade of Will's hand.
 - **Roll: NONE** (unchanged — no agent thesis, no fired trigger; a put buy on a red QQQ day is wrong-colour with no refuting measurement on file). `[POSITION_STATE_UNKNOWN]` for today: if Will has already acted, his fill governs and gets recorded (root rule #10).
+
+**APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**
+
+---
+
+## 9. ADDENDUM 2026-10-08 Thu, written 19:06 ET (`date` 19:06:47): FILL BOOKED (root rule #10). The card now governs ONE contract. PROME spawn `terry-1008pm` (C5 / WQ-348 + Tier-1 follow-up of PROME's 15:32 ET booking packet)
+
+**`$0` MOVED · NO ORDER · NO GATE OR THRESHOLD MOVED.** Broker facts come from `PROME/data/2026-10-08_broker-capture-TRANSCRIPTION.md` (ties to the cent, $34,650.69) and the reconciled mirror `git show ef2bc83f1:FORGE/STATUS.md` (ANVIL).
+
+**Fill (Will's own hand, Activity "Pending", 10/8):**
+
+| Order | Status | Net |
+|---|---|---|
+| Sell to Close 1 QQQ Oct-9 755 Put, limit $8.28 (Day) | **Filled at $8.36** | **+$835.32** |
+| Sell to Close 1 QQQ Oct-9 755 Put, limit $8.50 (Day) | **Verified Canceled** | — |
+
+- **Realized on the sold lot ≈ +$596.65** ($835.32 − the $238.67 lot basis; derived from the broker's lot basis by ANVIL `ef2bc83f1`, not shown as a single figure by the broker). **ONE contract remains:** basis $238.66 (average $2.39), capture last $7.85 ⇒ $785.00 `[10/8 rcv]`.
+- **The fill time is UNKNOWN**, so no execution grade is possible (durable finding 6: grade only against marks taken at the same time). On record: $8.36 is 3.5× the $2.39 average and above the ≥ $4.78 harvest level that § 7 suggested and Will never adopted.
+- Selling one of two is a trim in root rule #7's vocabulary. There is no agent thesis on this line for a trim to signal as broken, so it is recorded, not graded.
+- Both 10/8 sell orders were Day orders, so neither carries into Friday. Any other working order is UNKNOWN.
+
+**The remaining ×1, at the 10/8 close.** These are closes and screening marks, NEVER bids:
+
+| Item | Value | Basis |
+|---|---|---|
+| QQQ | **$747.58 [10/8c]** (−1.34%) ⇒ the put is **≈ $7.42 IN the money** | `fetch.py` 19:00 ET (`regularMarketTime` 16:00:00) |
+| Vendor 755P Oct-09 | 7.08 / 7.30, last trade 16:14. The bid sits *below* the 16:00 intrinsic of $7.42 because the quote was struck against QQQ ≈ $748.00 at 16:14, where intrinsic is $7.00 (post-close print, yfinance 1-min) | `chain_fetch.py --no-cache` 19:00 ET, SCREENING ONLY |
+| ×1 at that screening bid, after $0.65 | ≈ $707.35 ⇒ ≈ +$468.69 vs $238.66 (INFERRED, not a Friday bid) | arithmetic |
+| Post-market | QQQ $748.92–748.99 at 18:55–19:00 ET (not a close) | yfinance |
+
+- **Model** (calibrated to the 7.19 mid at QQQ $748.00; shape, not price): at an unchanged QQQ the put is ≈ $7.56 at Fri 09:45 and ≈ $7.42 by 14:00. Almost all of it is intrinsic, so **waiting costs only ≈ $15 of time value. The risk is direction:** delta ≈ −0.94, so each +$1 in QQQ costs ≈ $94. The model puts the chance of a Friday close below $755 at **≈ 85%**.
+- ⛔ **Never into Friday's close, now for ONE contract.** In the money at the close ⇒ an exercise that **sells 100 QQQ at $755 = ≈ $75,500 short** (was ≈ $151,000 on ×2). The IRA holds 0 QQQ and ≈ $11,421 cash (+$1,283.98 pending), and an IRA cannot carry a short. Fidelity's handling is **UNOBSERVED (FORGE D-60)**. **Exercise is not a plan; the sale is.**
+- 🆕 **The new `MGMT-QQQ750C-OCT09` (Will bought it on 10/8; Will has declared no link to this put and none is inferred) changes the close arithmetic.** With both lines held, below $750 this put is at least $5 in the money, above $755 the call is, and between the two strikes both are. **No Friday close leaves both out of the money.** The pair is never safer than at QQQ $752.50, where each line is still $2.50 in the money. Full branch, including the on-paper netting that is UNOBSERVED at Fidelity: `setups/QQQ750C_oct09-sell-or-roll_2026-10-08.md` § 4.
+- **Root rule #6:** the sale is an EXIT. A red QQQ session gets a better price for a put sale and a green one a worse price. Neither is a break. Selling both Oct-09 lines in one session puts one leg on each side of the colour.
+- **Roll: NONE** (unchanged). There is no agent thesis and no fired trigger (durable finding 1), and WQ-365's dated alternative is still not armable. The construction rule #21 form in §§ 5 / 8 is a dated record, to be re-priced at any order.
+
+> **For Will (CURRENT, 2026-10-08 19:0x ET):** sell the **remaining QQQ $755P Oct-09 ×1** at **Fidelity's bid on Fri 10/09, morning preferred (09:45–10:30 ET)**, in the same window as the $750C ×1. **Never into Friday's close.** It is ≈ $7.42 in the money [10/8c], and a slipped sale lands on the ≈ $75,500 assignment branch, which is ≈ 85% likely at an unchanged QQQ (model). **No roll.** ⚠️ Every figure here is a close or a vendor end-of-session quote. Fidelity's bid at the open governs.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**
