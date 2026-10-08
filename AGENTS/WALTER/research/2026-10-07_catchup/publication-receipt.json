@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-07T23:46:18.589062+00:00",
+  "as_of": "2026-10-08T00:03:31.667013+00:00",
   "publication": "VERIFIED: GitHub ls-remote equals origin/master at9ed4cdb99;9ed ancestor checkPASS. All source/report/handoff commits below published. Post-push ledger/receipt reconciliation commit pending separate coordinator push.",
   "commits": [
     {
@@ -61,8 +61,8 @@
       "report_sha256": "c1f6f1c8054413190e8b2cbf583ae1c7e2c471cda387850ea0444fcf9fd02882",
       "ack": "PROME explicitly acknowledged full exact completion and final report revision,49/49 lane,8/8manual,1/1private,17outputs/66handoffs/24ACTION,16NOTE gaps,GIE estimate E,boot PARTIAL,69MED and processed-only path limit. This is report/packet consumption, not publication or full closeout."
     },
-    "BRENT": "Whole current report read;003/004/014/015 integrated; archiving separately",
-    "BOND": "Native ack002 integrated from primary,006 logged; final two sender paths2144da1ad notified for recipient archives. Research report read whole,owner thresholds/capital preserved.",
+    "BRENT": "003/004/014/015 integrated,3acted/1noted;byte-identical archive d10bf9503 published9ed4cdb99,whole report+receipt read.",
+    "BOND": "002 integrated,006 logged;byte-identical archive reported d2f034178,archived original path history published in prior train;new archive publication separately pending. Whole61line research report read and FOLD into8existing owner packets.",
     "BRENT_archive": {
       "commit": "d10bf9503",
       "receipt": "AGENTS/BRENT/research/2026-10-07_news-catchup/archive-receipt.json",
@@ -95,5 +95,6 @@
     "origin_master": "9ed4cdb99e72151a43aaf32ad6b578803e9d163e",
     "published_through": "9ed4cdb99",
     "coordinator": "PROME standing shared publication"
-  }
+  },
+  "document_writeback": "Findings-to-files verification at DOCUMENT_WRITEBACK.md in this directory: live storage estimate/publication qualifiers fixed; existing owner-captured curve moved into manual current STATE. No new source/threshold/trade. Immutable report and packet retain dated checkpoint; this current receipt overrides historical pending labels."
 }

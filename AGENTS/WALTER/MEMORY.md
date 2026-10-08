@@ -90,7 +90,7 @@
 
 ### CHANGES SINCE LAST SESSION — 2026-10-07 news catch-up; full closeout deferred
 
-October5→7 catch-up saved17BOARD outputs/66handoffs;49lane+8manual+1private items accounted. REPORT owns current source gaps/next48h; LAST_COMPLETION keeps running duties. Oct5 publication reconciled; Oct7 publication/owner acknowledgement separate. Manual watch/approvals unchanged.
+October5→7 catch-up saved17BOARD outputs/66handoffs;49lane+8manual+1private items accounted. REPORT owns current source gaps/next48h; LAST_COMPLETION keeps running duties. Oct5 publication reconciled; Oct7 core/all66 handoffs published9ed4cdb99 and exact PROME report/packet acknowledged. Post-push/doc receipts await coordinated next push; other owner consumption separate. Manual watch/approvals unchanged.
 
 ### NEXT SESSION
 1. Read LAST_COMPLETION and the linked tanker-cost WATCH.md + STATE.csv; check due dates. Next freight review October9; EIA next release October15 noonET under holiday exception; October7 reviewed. Manual sessions only.

@@ -30,7 +30,7 @@ Audit refresh: HY310bp [Oct2] resets RED-FT-02/REG-T-03 >320 watch to0/3; prior3
 Existing execution duties: October7 Fidelity holdings show USO Oct9 150C×1 with the already registered Friday15ET stop (WQ366 early-sell DECLINE preserved) and QQQ Oct9 755P×2 under sell-or-roll-before-expiry practice. Exact capture time and live order status UNKNOWN; no new trade approval requested. October5 QQQ735P deadline is elapsed history, not a live today instruction; Activity disposition remains a broker-reconciliation question.
 
 ## FOLLOW-UP
-0c. October7 catch-up: REPORT and exact completion packet are current; recipient integration/commit/origin proof separate. Metadata corrections012/017 accompany008/013. Next48h clocks and retained source leads in REPORT.
+0c. October7 catch-up: REPORT and exact completion packet were explicitly acknowledged by PROME; all66 handoffs/core report origin-proven9ed4cdb99. Post-push receipt63f6e4311 and current doc pass await the coordinated next push; remaining owner integration is separately scoped. Metadata corrections012/017 accompany008/013. Next48h clocks and retained source leads in REPORT.
 0b. Active manual tanker watch: read research/tanker-cost-watch/WATCH.md + STATE.csv next boot; weekly freight dueOct9, EIA owner updateOct7; route new relevant evidence. BRENT005/006 source integration completed in BRENT’s whole October7 report; historical DEFERRED ledger state does not override that actual source work. BRENT committed both handoffs in b70013c08; its historical DEFERRED ledger predates the source work now evidenced in the October7 report. Current USO month weights unverified; October7 intraday Fidelity holdings confirmed by Will, exact time UNKNOWN, no Activity fills inferred.
 0a. Tanker-cost packet005: owner source review evidenced in the whole October7 BRENT report; 005 source-suitability stage is superseded in authority by Will-directed006 manual tracking emphasis; no automatically installed feed.
 0. Shipping: BRENT handoff duty discharged by its own 701cd4e2f and ledger. October5 publication and delivery reconciliation are discharged by the exact origin proofs; October7 publication is separate. HAWK/YURI readiness remains UNKNOWN across runtimes, not DARK. No automatic wake.
@@ -45,12 +45,12 @@ Approvals preserved: WQ377 launch-only bookmarks/default dig and financial-backl
 Carried process ideas unchanged: (k) end-of-session review; (t) re-search routed state-dependent stories; (u) liveness with in-process spawns; (a) WALTER on every data day; (s) lane date versus event date; (j) BRENT boundary scanner coverage; (p) boot BOARD-count check. These remain ideas, not newly authorized work.
 
 ## CLOSEOUT RECEIPT
-Final diagnostics under `research/2026-10-05_closeout/`; boot evidence under `research/2026-10-05_boot/`. Original closeout omitted the market refresh; audit reran the read-only RED pull at10:34ET. Own live remote proof now equals origin/master9ed4cdb99; earlier DNS failure resolved at publication verification. Registry/header, memory and status continuity refreshed; routing files and read caps checked. Publication list below retains prior Oct4 commitments plus the boot commit; current delivery scope is October5 shipping/cost research (19/19 origin-proven); Oct7 66/66 publication-proven at9ed4cdb99. Intake d338b81a2 and BRENT integration701cd4e2f recorded below. Earlier Oct4 deliveries30/30 were publication-proven, not consumption-proven. HASH-bound owner pointers retain manual scope. `closeout_check.py` now scopes the actual October7 delivery66/66. Its earlier Oct5 REVIEW is retained in history: original-only resolver did not recognise3processed-only proofs in prior-delivery-proof.json. No checker changed and no full closeout inferred.
+Final diagnostics under `research/2026-10-05_closeout/`; boot evidence under `research/2026-10-05_boot/`. Original closeout omitted the market refresh; audit reran the read-only RED pull at10:34ET. Own live remote proof now equals origin/master9ed4cdb99; earlier DNS failure resolved at publication verification. Registry/header, memory and status continuity refreshed; routing files and read caps checked. Publication list below retains prior Oct4 commitments plus the boot commit; historical October5 delivery19/19 origin-proven; current delivery scopeOctober7 is66/66 publication-proven at9ed4cdb99. Intake d338b81a2 and BRENT integration701cd4e2f recorded below. Earlier Oct4 deliveries30/30 were publication-proven, not consumption-proven. HASH-bound owner pointers retain manual scope. `closeout_check.py` now scopes the actual October7 delivery66/66. Its earlier Oct5 REVIEW is retained in history: original-only resolver did not recognise3processed-only proofs in prior-delivery-proof.json. No checker changed and no full closeout inferred.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-07T23:46:18.589062+00:00",
+  "as_of": "2026-10-08T00:04:39.996837+00:00",
   "publication": [
     {
       "commit": "ec8fd6f08",
@@ -134,8 +134,8 @@ Final diagnostics under `research/2026-10-05_closeout/`; boot evidence under `re
       },
       {
         "path": "AGENTS/BRENT/research/2026-10-07_news-catchup/REPORT.md",
-        "sha256": "ce420c1bb529cca6b022ea7dd760915f2b3e2761d66da14772ea7885f45b5668",
-        "note": "Whole updated d10bf9503 report read; October5 freight and October7 EIA/pipeline integrated;4 recipient archives verified in whole archive receipt,3acted/1noted unchanged payloads. Origin proof remains pending."
+        "sha256": "8721dcdf4da231ba7d199781dfbed659d1c67451eb39a7c9d2311003061df0b5",
+        "note": "Whole d10bf9503 report read,then complete subsequent diff read: documentation checkpoint and publication/consumption confirmed,source clocks/findings unchanged. Four archive rows3acted/1noted byte-identical. Eight standing-row reconciliations remain owner debt; no new source grade."
       }
     ]
   },

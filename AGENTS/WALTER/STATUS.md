@@ -1,6 +1,6 @@
 # WALTER STATUS
 
-**Updated 2026-10-07T22:04:25Z — October7 authorised news catch-up; light-closeout, full deferred.** BOARD1239; today17 dispatches (14 news/research,3 corrections), zero kill-log additions or verification spawns. Boot PARTIAL. [REPORT](research/2026-10-07_catchup/REPORT.md) owns current evidence; LAST_COMPLETION retains running obligations. Publication and owner consumption separately unverified.
+**Updated 2026-10-08T00:03:31.667013+00:00 — October7 authorised news catch-up; light-closeout, full deferred.** BOARD1239; today17 dispatches (14 news/research,3 corrections), zero kill-log additions or verification spawns. Boot PARTIAL. [REPORT](research/2026-10-07_catchup/REPORT.md) owns current evidence; LAST_COMPLETION retains running obligations. Current publication and named owner-consumption evidence: LAST_COMPLETION.md and research/2026-10-07_catchup/publication-receipt.json. Boot/source coverage stays partial; no full-board clearance.
 
 ## BOTTOM LINE
 
@@ -14,7 +14,7 @@ October5→7 news catch-up saved: actual Fed minutes, EIA forecast/inventory, co
 |VIX / SKEW|VIXCLS15.01 and SKEW141.21Oct6; FT06 existing state; no close-based trigger inferred from intraday data.|
 |Energy / inventory|EIA weekOct2: US commercial424.134M−3.186M; Cushing24.745M+0.444M; exports4.765mb/d weekly,4.112four-week. No new owner fire or freight-causality grade.|
 |Freight / insurance|Latest public assessmentsOct2; insurance quoteSept25. Next public weekly reviewOct9. Current USO contract weights UNKNOWN.|
-|HANS|NovTTF78.53EUR/MWh indicative; GIE72.97%Oct6, mean gap−15.10pp. Proxy yields/manual rows not fresh owner grades.|
+|HANS|NovTTF78.53EUR/MWh indicative; GIE72.97% gasdayOct6 (publisher estimated,E), mean gap−15.10pp. Proxy yields/manual rows not fresh owner grades.|
 |Funding|SOFR3.90,IORB3.90Oct6, gap0bp. Dashboard score is not an owner grade.|
 |Iran|Full sweepOct1, next~Oct8. QualifiedOct7 pipeline/fire limbs and guards read; no authenticated new production loss/rung or incident census.|
 
