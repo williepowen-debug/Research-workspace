@@ -1,0 +1,14 @@
+--- a/scripts/fetch_fred.py
++++ b/scripts/fetch_fred.py
+@@ -179,7 +179,10 @@
+                 # FRED serves these series in PERCENT (2.75 = 275bps); the fleet
+                 # speaks bps — convert the whole series once so value/prior/
+                 # change/alerts stay unit-consistent (thresholds above are bps).
+-                obs = [{**o, "value": str(float(o["value"]) * 100)} for o in obs]
++                # Round to integer bps BEFORE any comparison: FRED publishes 2dp percent, so x100 is an
++                # exact integer, but binary float is not (2.20*100 = 220.00000000000003) and an
++                # on-edge print could land on either side of a band (DAEDALUS L546, 2026-10-08).
++                obs = [{**o, "value": str(round(float(o["value"]) * 100))} for o in obs]
+             if not obs:
+                 out[sid] = {"label": label, "error": "no observations"}
+                 errors.append(sid)
