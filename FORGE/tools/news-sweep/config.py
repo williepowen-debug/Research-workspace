@@ -412,6 +412,41 @@ WATCH_FOR = {
         "Kenilworth Holdings",         # the petitioner
         "Lantry rent freeze",          # the judge
     ],
+    "AEOLUS": [                        # added 2026-10-08 08:51 ET (WQ-295 R3, set 10) — AEOLUS-proposed 12 (9/28), WALTER live-tested 10/1 (AGENTS/WALTER/research/2026-10-01_R3/groupD.md §2),
+                                       # owner adopt/decline BY NAME 10/8 (PROME/inbox/processed/2026-10-08_from-AEOLUS_R3-watch-for-adopt-decline.md; KB-AEO-173). Rule: reject at >0 FALSE.
+                                       # ⛔ REJECTED by name: "Lake Mead elevation" (alt "Lake Mead record" DECLINED — USBR 921/49 is the instrument) · "Mississippi River low water" ·
+                                       # "Preparedness Level 5" (both replaced by the alternates below). Replaced for recall: "Lake Powell elevation"→record · "Colorado River Operating Guidelines"→guidelines.
+                                       # ⚠️ three adopted alternates pass on precision with 0–1 live hits (recall untested): barge restrictions · highest preparedness level · Panama Canal reduces draft.
+        "Lake Powell record",
+        "24-Month Study",
+        "Colorado River guidelines",
+        "Panama Canal draft restriction",
+        "Panama Canal reduces draft",
+        "Gatun Lake level",
+        "Rhine Kaub",
+        "Mississippi River barge restrictions",
+        "hurricane landfall Florida",
+        "highest preparedness level",
+        "reinsurance renewal rates",
+        "Energy Emergency Alert Level 2",
+    ],
+    "OSPREY": [                        # added 2026-10-08 08:51 ET (WQ-295 R3, set 11) — OSPREY-proposed 11 (9/29), WALTER live-tested 10/1 (groupD.md §4), owner adopt/decline BY NAME 10/8
+                                       # (PROME/inbox/processed/2026-10-08_from-OSPREY_R3-watch-for-adoption.md; DOCKET L565). ⛔ REJECTED by name: "Ust-Luga" (1 false) · "Tuapse" (2 false; →refinery) ·
+                                       # "Sea Baby" (3 false; alt "Baby drones" DECLINED) · "Black Sea war risk" (9 false; →both alternates) · "energy ceasefire" (36 false; →takes effect) ·
+                                       # "Russian diesel export ban" (1 false, recall ~19 missed; →extends). 5 UNTESTED alternates NOT landed — sent to WALTER's harness (PROME packet 10/8):
+                                       # "Caspian Pipeline Consortium" · "Ust-Luga drone" · "Ust-Luga strike" · "Tuapse port" · "Russia lift diesel export ban". YURI boundary noted: the diesel-ban
+                                       # INSTRUMENT is YURI's decision, its consequence OSPREY's (KB-OSPREY-136) — the term stays here at the owner's word; WALTER routes the thread to YURI.
+        "Sheskharis",
+        "CPC Marine Terminal",
+        "Tengiz force majeure",
+        "Primorsk oil terminal",
+        "Tuapse refinery",
+        "Novorossiysk tanker",
+        "Black Sea war-risk",
+        "Black Sea insurers",
+        "energy ceasefire takes effect",
+        "Russia extends diesel export ban",
+    ],
 }
 
 # ---------------------------------------------------------------------------
