@@ -15,7 +15,7 @@
 ## What the word does NOT cover (carried)
 
 - **Boot-step wiring** — adding the scan to WALTER's boot is a WALTER protocol change (its RULE 8). Asked of Will in the same message as this ruling; WALTER wires only on that word.
-- **Unattended WALTER runs** — out of scope; the autonomy question is WQ-369.
+- **Unattended WALTER runs** — out of scope. *(Corrected 2026-10-07 21:59 ET, PROME `prome-0e`, on WALTER's 2026-10-04 packet: this line originally said "the autonomy question is WQ-369"; WQ-369 is the NARROW dark-desk-spawn cap-override and never covered unattended runs — that question is registered separately as WQ-388.)*
 - **Unconfirmed facts** — X's minimum credit purchase; whether empty reads are billed (WALTER's plan §2).
 
 ## The access mechanism (Will asked: "Do I just give WALTER my login?")
