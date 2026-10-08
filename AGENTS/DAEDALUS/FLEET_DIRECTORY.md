@@ -1,13 +1,13 @@
 # FLEET DIRECTORY — what every agent is, does, and is missing
 
-> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-10-03.
+> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-10-08.
 
 > ⚑ **THIS IS THE BOOT-READ HOT INDEX (SPAWN PROTOCOL step 2, re-homed 2026-08-23).** `FLEET_MAP.tsv` is the COLD full register — it holds the complete Gaps/Next_upgrade text and is read PER-AGENT on demand (`grep -P '^AGENT\t' FLEET_MAP.tsv`) or whole at a Production Review. Why: FLEET_MAP hit **121% of the harness single-read token cap** and had been truncating at every boot for ~6 days (PAT-111 recurring on its third file). Rotating the accumulated Gaps narrative to `FLEET_MAP_HISTORY.tsv` cut it 65,725 → 43,006 B, which is **not enough** — squeezing it under the budget would have meant deleting live gap content from the rich rows. So the register went cold and this generated view became the read, the same hot/cold split `PATTERNS_HOT.md` uses. ⛔ Never answer a cap breach by raising the budget: the read cap is not ours to move.
 
 *One source of truth per column (PAT-006): **what it does** + **status** ← ROSTER (PROME); **class** + **maturity level** + **Cf** (confidence: H=read-verified, M=read+mechanical, L=mechanical-only) + **Scored** (last-scored date) + **missing/next** ← FLEET_MAP (DAEDALUS). "Missing / next" is a truncated one-liner — full gap detail in `FLEET_MAP.tsv` + `upgrades/<AGENT>_CARD.md`. Dormant agents are un-graded → blank grade cells; an ACTIVE/TIER-2 agent missing its FLEET_MAP row renders ⚠️ UNGRADED and the generator exits nonzero — a blank there is never by-design. PROME graded 2026-07-28 (Will-ratified, judgment-read only — the scripted floor cannot see a root-level agent).*
 
 **WF:** configured phrase-list entries at render time, not hits or routing health. `0` = explicit empty list; `—` = no list; `n/a` = owner-declared non-query desk; `UNKNOWN` = source unavailable/unsupported. Regenerate after lane edits; the existing directory-age guard watches ROSTER/FLEET_MAP only.
-WF source: `/home/willi/Research-Intake/scripts/newsweep_config.py` · SHA256 `1d5a88fb5e3f8cfa1297764cce79b19a3f711180a35443894349960983cba0b7`.
+WF source: `/home/willi/Research-Intake/scripts/newsweep_config.py` · SHA256 `99837825dd5258f2b9a7f4d15a72b11056c68c7e8fe8974e67f433cd4b8a7ddb`.
 
 ## 🟢 ACTIVE — persistent domain owners
 
@@ -34,11 +34,11 @@ WF source: `/home/willi/Research-Intake/scripts/newsweep_config.py` · SHA256 `1
 | CORAL | Market | L4 | M | 2026-10-01 | Florida (whole-state, 10 pillars) | L5 at the next CORAL session: read_cap_check --agent CORAL rotation_due… | 16 |
 | SHADE | Market | L3 | H | 2026-10-01 | Insurer-lender / PE-insurance-captive | L4 at SHADE's self-dated 2026-10-08 session (needs a PROME spawn): a DE… | 10 |
 | ZHAO | Market | L4 | H | 2026-10-01 | China macro — UST demand / capital flows / Korea | L5 at the first ZHAO session after the August TIC print (Fri 2026-10-16 | — |
-| AEOLUS | Market | L3 | M | 2026-10-01 | Climate → economy (macro; insurance/ag/energy-demand channels) | L4 at the next WEEKLY session (~10/05): TRADE.md rows 1/3 and THESIS.md… | — |
+| AEOLUS | Market | L3 | M | 2026-10-01 | Climate → economy (macro; insurance/ag/energy-demand channels) | L4 at the next WEEKLY session (~10/05): TRADE.md rows 1/3 and THESIS.md… | 12 |
 | WATT | Market | L4 | H | 2026-10-01 | Power/grid — PJM stress → wholesale price → industrial/data-center cost | L5 on two consecutive clean WEEKLY cycles, the first a boot by 10/09 (W… | 21 |
 | VULCAN | Market | L4 | H | 2026-10-01 | AI-capex / semiconductor / memory cycle → systemic risk (concentration, memory, power-demand, Taiwan chokepoint) | L5 on two consecutive WEEKLY cycles that take every registered slot (fi… | 11 |
 | MIDAS | Market | L4 | H | 2026-10-01 | Metals — monetary (gold/silver: debasement, real-rates) + industrial (copper/PGM: growth, China, supply) | L5 on a second consecutive clean WEEKLY cycle after 10/01 (≤10/08) with… | 11 |
-| OSPREY | Market | L3 | H | 2026-10-01 | Russia/Ukraine war theater — energy-strike campaign, crude-vs-products channel, shadow-fleet kinetic strikes, Baltic/Black-Sea ports | L4 at OSPREY's next session: a DECLARED-FLAT TRADE.md whose explicit un… | — |
+| OSPREY | Market | L3 | H | 2026-10-01 | Russia/Ukraine war theater — energy-strike campaign, crude-vs-products channel, shadow-fleet kinetic strikes, Baltic/Black-Sea ports | L4 at OSPREY's next session: a DECLARED-FLAT TRADE.md whose explicit un… | 10 |
 | FALCON | Market | L4 | H | 2026-10-01 | US/Israel/Iran-Gulf war theater — A/B/C/D ladder, Hormuz, Gulf targeting, Bab-al-Mandab/Houthi, Baghdad watch | L5 on one closeout cycle (from the 10/08 7-day review) with no outside… | 10 |
 | HOMER | Market | L2 | H | 2026-10-01 | Housing — asset market + housing credit structure (pipeline, GSE+CMBS multifamily, builders, HPI, mortgage-rate surface) | L3 on building 3c into thesis/THESIS.md with CARL's three labels, HOMER… | — |
 | YURI | Market | L2 | M | 2026-10-01 | **Russia — ACTOR-KEYED: what the Russian state DECIDES, across all channels, as one actor** (mobilisation, asset seizure, force posture, export instruments). ⛔ **NOT Russia macro** — the name follows the fleet's human-first-name convention for geography desks and reads narrower than the charter; the charter scope is the authority, not the name. | Conf M→H at the next YURI session (needs a PROME spawn | — |
@@ -68,7 +68,7 @@ WF source: `/home/willi/Research-Intake/scripts/newsweep_config.py` · SHA256 `1
 
 | Agent | Class | Lvl | Cf | Scored | What it does | Missing / next | WF |
 |---|---|---|---|---|---|---|---|
-| DAEDALUS | Meta | L4 | M | 2026-10-01 | Fleet architect — design / structure / maturity / lifecycle | Finish owed outputs and owner-dependent dispositions on STATUS dated bo… | n/a |
+| DAEDALUS | Meta | L4 | M | 2026-10-08 | Fleet architect — design / structure / maturity / lifecycle | PR#8 2026-10-15: adjudicate L5 legs only after the sweep backlog above… | n/a |
 | RAV | Meta | L2 | M | 2026-10-01 | Deep factual/analytical reviewer + bounded repair (Codex, Will-driven) | L3 on the first §5 run report in AGENTS/RAV/runs/ | — |
 | CATO | — | — | — | — | Will's manual Codex/Astra adviser + independent reviewer | UNGRADED BY RULING (WQ-255, 2026-09-26): manual-only — no launch, no routing, no ladder row | — |
 
