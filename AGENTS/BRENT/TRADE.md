@@ -1,6 +1,6 @@
 # BRENT TRADE.md — domain trade surface
 
-**Updated: 2026-10-07. Last real position data refresh: 2026-10-07 intraday, exact capture time UNKNOWN**, Will-confirmed holdings via [PROME transcription](../../PROME/data/2026-10-07_broker-capture-TRANSCRIPTION.md) and FORGE/STATUS. USO 37 shares, VLO 1 share, USO Oct-09 $150C ×1; no Activity/Orders supplied and no fill inferred. Screenshot and vendor marks are dated observations, not executable broker bids.
+**Updated: 2026-10-08 (evidence lines only; holdings unchanged). Last real position data refresh: 2026-10-07 intraday, exact capture time UNKNOWN**, Will-confirmed holdings via [PROME transcription](../../PROME/data/2026-10-07_broker-capture-TRANSCRIPTION.md) and FORGE/STATUS. USO 37 shares, VLO 1 share, USO Oct-09 $150C ×1; no Activity/Orders supplied and no fill inferred. Screenshot and vendor marks are dated observations, not executable broker bids.
 
 **Existing management:** USO early-sale **DECLINE WQ-366** preserved; sell-or-roll rail **Friday October 9 15:00 ET** remains. Held VLO **WQ-386 approved October 7** modifies leg A only; two extra VLO shares **STOOD DOWN**, scale gate terminal. No new sale, add, re-entry or order approved.
 
@@ -19,6 +19,8 @@ Canonical ruling: [PROME § Approved amendment](../../PROME/proposals/2026-10-07
 > Review the next basis by November 18, 2026. If no further ruling is made, new leg-A observations become SUSPENDED/UNKNOWN after the November 19 settlement. An already-established exit still remains owed. Policy legs B1–B3 and their existing execution limitations continue unchanged until sale or withdrawal. This is authority to maintain the existing share's management rule, not to buy or re-enter.
 
 
+**October 8 evidence:** intraday matched quotes at 08:24 ET give November/December cracks of $109.67/$103.91 [EST single vendor]. These are a diagnostic, not a leg-A observation under the source order above. November is $19.51 above $90.16 and $14.67 above $95. Today's 14:28–30 ET proxy was not produced; TERRY grades. Warning-zone refining status is a GAP. [Report §3–4](research/2026-10-08_isaias-hormuz/REPORT.md).
+
 **October 7 evidence:** November/December matched 14:28–30 ET close-VWAP cracks $105.81538/$100.42309 [EST single vendor], above the existing notice/exit levels; these are BRENT diagnostics, not a new TERRY grade. December remains diagnostic until October 15. Official settles unavailable and duplicated-volume vendor daily rows rejected. [Source/basis](research/2026-10-07_news-catchup/REPORT.md). HEN-46 and broader WQ-252 sitting remain unchanged/unresolved.
 
 ## CURRENT STANCE (THESIS v5.11; v5.8 numerical calibration retained)
@@ -29,6 +31,7 @@ Thesis and calibration: `thesis/THESIS.md`. **WQ-189/192 STAND DOWN; no live dep
 
 - **Instance (4), the Petroline strike 9/10: LAPSED 2026-09-25 17:0x ET ⇒ NOT MET** (premium, not destroyed capacity). Closed; **not re-opened on a later relay of the same satellite data.** A lapse is not evidence the outage was small. Grade: [PREP + grade](setups/2026-09-25_BG-02-grade-PREP.md).
   - The 9/28 Yanbu restart report (Bloomberg, anonymous) binds nothing.
+  - **10/08 record only:** Minister Abdulaziz bin Salman (10/06, Manama, via Reuters/Al Jazeera relays) said use of the pipeline resumed "within five or six days" after the attack, about 9/15–17. That conflicts with the 9/22 restart report (Reuters, three unnamed sources, "pumping at a low rate"). "5.8 million barrels" carries no daily unit. No operator time series settles it. Graded nothing and re-opened nothing; FAL-05 is FALCON's. [Report §7](research/2026-10-08_isaias-hormuz/REPORT.md).
   - Historical grades: [9/11](setups/2026-09-11_petroline-frame-breaker-adjudication.md) (its "verified absence" of a state statement was RETRACTED 9/12) · [9/12 four quantities + resolver defect](setups/2026-09-12_petroline-four-quantities-and-resolver-defect.md).
 - **WQ-234 RULED C** (Will, 9/22 19:20, verbatim *"C"*), encoded 9/23 as **BG-02 C1–C6**: AIS-derived instruments **corroborate, never fire**; a fire needs **R1** (Aramco/MoE/SPA statement) or **R4** (a clean FAL-01 with an output figure).
 - **Owner reading standard, retained (strictly restrictive; it can only refuse):** for any tracker read offered as corroboration:

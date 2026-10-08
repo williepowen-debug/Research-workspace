@@ -1,6 +1,6 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-10-07 16:33 ET; writeback 2026-10-07 17:41 ET — SCOPED-PARTIAL.** WPSR week 10/2 at API/XLS; October/September STEO PDFs; freight October 2; named quote capture 16:15–17 ET and October 5–7 settlement-window estimates; FRED spot 10/6, retail 10/5; GIE gas day 10/6 estimated; Will-confirmed 10/7 holdings, exact capture time unknown. Official settlements, current USO weights and quantified Saudi loss unavailable. COT/rig/JWC and incident states retain their earlier vintages. [Evidence and limitations](research/2026-10-07_news-catchup/REPORT.md).
+**Last real data refresh: 2026-10-08 08:24 ET (named-contract vendor quotes; pre-market ETF/equity 08:34–08:41 ET); writeback 2026-10-08 08:45 ET — SCOPED-PARTIAL.** Re-read today: NHC 7A, MMA 10/7 release, EIA refcap26, named futures quotes. Not re-read: WPSR (week 10/2, no new print), STEO, freight publisher pages, FRED, GIE, COT/rig/JWC, incident rows. Official settlements and current USO weights unavailable. [10/8 evidence](research/2026-10-08_isaias-hormuz/REPORT.md); 10/7 basis [catch-up](research/2026-10-07_news-catchup/REPORT.md).
 
 **Routine deployment stays parked** at the [CATO handoff](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et); saved repair is complete, live deployment/normal-run acceptance unresolved. No trade approval changed. Position status and USO card correction → [TRADE](TRADE.md).
 
@@ -8,6 +8,14 @@
 
 # ⚡ CURRENT STATE — *read this first. Dated blocks follow newest first; STANDING STATE is the hot half; ARCHIVE INDEX is history.*
 
+
+## October 8 — HORMUZ LEADS THE JUMP, ISAIAS TRANSIENT UNLESS DAMAGE
+
+[CONF single-vendor quotes 08:24 ET, not settles] Dec Brent `BZZ26` **$105.22 (+$5.02)**, Nov WTI `CLX26` **$92.64 (+$4.36)**, Dec WTI−Brent **−$13.63** (prior basis −$12.65), Brent Dec−Jan **+$3.38** (+$0.63). [INFERRED] Driver = both. The tape leans Hormuz for the level: Brent outran WTI, and products lagged crude in percent. Hormuz leg (record strikes, 158-26 off Qatar, transit floor) persists until measured change. Isaias leg transient: GOMsmart mean loss 9.55M bbl; Enki ≤1 week if the track holds.
+
+[CONF MMA primary] Isaias shut-in **511,619 b/d = 25.08%** (10/7 11:00 CDT); 10/8 update NOT FOUND. NHC 7A Hurricane Warning covers Pascagoula (356,440 b/cd) and Mobile Bay (Saraland 88,000); Chalmette/Meraux sit on the TS edge (EIA refcap26). **No refinery shutdown reported = GAP, not a clear.** [EST single vendor, intraday diagnostic, not a WQ-386 observation] Nov/Dec diesel crack **$109.67/$103.91**; Nov is $19.51 above $90.16 (10/7 proxy $105.82 ⇒ $15.66). TERRY grades.
+
+Petroline minister "five or six days" (~9/15–17) vs the 9/22 unnamed restart: recorded only; BG-02 (4) stays NOT MET. **Not a new event-class arm**; WQ-192 holds. COT #9 armed Fri 10/9 ~15:30 ET. [Evidence](research/2026-10-08_isaias-hormuz/REPORT.md).
 
 ## October 7 — PRODUCT TIGHTNESS, IMPROVING CRUDE AVAILABILITY
 
@@ -74,6 +82,7 @@ Freight remains historically expensive but October 2 Baltic WS assessments eased
 | **Tue Oct 6** | ✅ EIA October STEO — GRADED 2026-10-07: release and same-series comparison MET | 🟠 |
 | **Tue Oct 6** | SPR EXCHANGE (up to 40M bbl, Big Hill + Bryan Mound) — BIDS CLOSE 11:00 CT; awards follow | 🟠 |
 | **~Thu Oct 8** ⌁*modeled* | CHINA PRODUCT-EXPORT HALT — Beijing guidance after Golden Week (holiday ends 10/7) | 🟠 |
+| **~Sat Oct 10** ⌁*modeled* | HURRICANE ISAIAS — northern Gulf landfall (late Fri 10/9 – early Sat 10/10) and offshore/refinery restart read | 🟠 |
 | **~Sat Oct 10** ⌁*modeled* | 🟠 IRAN-OMAN PERMANENT-ROUTE WINDOW — 30-60d after 8/26 interim framework | 🟠 |
 | **Sat Oct 10** | DIESEL TAX RELIEF — five-day implementation directive from October5 order | 🟠 |
 | **~Wed Oct 14** ⌁*modeled* | 🟠 IEA OMR OCTOBER — second collective-action watch + global stock draw (successor to the Sept OMR read 9/18) | 🟠 |
@@ -88,9 +97,9 @@ Freight remains historically expensive but October 2 Baltic WS assessments eased
 | **Sun Nov 29** | OPEC+ 69th JMMC — monitoring committee (watch for an ONOMM call / 2027-baseline language) | 🟡 |
 | **Sun Jan 31 2027** | RUSSIA FUEL EXPORT BAN — full expiry (gasoline all-participants + non-producer diesel) | 🟡 |
 
-*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 10 of 28 rows are modeled.*
+*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 11 of 29 rows are modeled.*
 
-*28 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
+*29 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
 
 <!-- CALENDAR:END -->
 **✅ FIRED & GRADED history:** canonical text remains in `docket/CATALYSTS.tsv`; it is not duplicated here.
@@ -98,6 +107,8 @@ Freight remains historically expensive but October 2 Baltic WS assessments eased
 ---
 
 ## SUMMARY FOR WILL
+
+*(October 8)* **Hormuz hull-war escalation leads a ~5% crude jump; Isaias shut 25% of Gulf output, transient unless refinery or platform damage; warning-zone refinery status is a GAP. Stand-down maintained; not an event-class arm.** [Evidence](research/2026-10-08_isaias-hormuz/REPORT.md).
 
 *(October 7 catch-up)* **Product tightness persists while crude availability improves; Phase 2 unconfirmed. Stand-down maintained.** High freight alone does not establish a timely WTI/USO gain. Deferred freight research integrated; current source gaps and dated follow-ups → [SCRATCH](SCRATCH.md). [THESIS](thesis/THESIS.md) · [evidence](research/2026-10-07_news-catchup/REPORT.md); holdings/approved VLO month extension → [TRADE](TRADE.md). Publication/closeout receipts → [SCRATCH](SCRATCH.md).
 

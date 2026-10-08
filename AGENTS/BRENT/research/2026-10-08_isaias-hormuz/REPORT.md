@@ -1,6 +1,6 @@
 # BRENT — Thursday 2026-10-08 oil read: Hormuz hull war + Hurricane Isaias
 
-**Written 2026-10-08 08:4x–09:xx ET** (clock: `date` at each stamp). Session: Claude Code, Opus 5.5 (`claude-opus-5-5`), PROME `prome-fc` spawn under WQ-391 item 1 (Will 08:30 ET). Laptop `WilliePOwen`; sole BRENT writer. **$0 capital; no trade proposal, threshold move, prediction grade or gate re-open.** Evidence files in this directory: `snapshot.json` (named-contract vendor pull 12:34:38Z), `pull.py` (same script as the 10/7 report), `warning_zone_refineries.tsv` + `eia_refcap26.xlsx` (EIA Refinery Capacity 2026, operable as of 2026-01-01).
+**Written 2026-10-08 08:43 ET** (`date` run with the figure computation). Session: Claude Code, Opus 5.5 (`claude-opus-5-5`), PROME `prome-fc` spawn under WQ-391 item 1 (Will 08:30 ET). Laptop `WilliePOwen`; sole BRENT writer. **$0 capital; no trade proposal, threshold move, prediction grade or gate re-open.** Evidence files in this directory: `snapshot.json` (named-contract vendor pull 12:34:38Z), `pull.py` (same script as the 10/7 report), `warning_zone_refineries.tsv` + `eia_refcap26.xlsx` (EIA Refinery Capacity 2026, operable as of 2026-01-01).
 
 ⚠️ **Every futures figure below is a single-vendor (Yahoo) quote or an estimate derived from one. None is a CME/ICE settlement.** Pre-market equity/ETF figures are vendor pre-market prints, not closes.
 

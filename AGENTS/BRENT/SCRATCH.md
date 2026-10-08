@@ -1,44 +1,40 @@
-# BRENT SCRATCH — October 7, 2026 (final closeout handoff)
+# BRENT SCRATCH — October 8, 2026 (WQ-391 wake closeout)
 
-**Closeout writeback 2026-10-07 20:39 ET; source/position clocks unchanged.** Will's explicit closeout ask via PROME's [task](../../PROME/tasks/2026-10-07_catchup/CLOSEOUT.md) supersedes keep-open instructions. [Full accounting](research/2026-10-07_news-catchup/CLOSEOUT.md). Final owned commits await PROME's serialized push, independent origin verification and explicit window-ready receipt. No new research, trade or deployment authority.
+**Closeout writeback 2026-10-08 08:46 EDT; source clocks: futures 08:24 ET vendor quotes, MMA 10/7 11:00 CDT, NHC 7A 10/8 07:00 CDT.** PROME `prome-fc` spawn under WQ-391 item 1 (Will 08:30 ET). Claude Code, Opus 5.5 (`claude-opus-5-5`), laptop `WilliePOwen`, sole BRENT writer (desktop closed). [Evidence](research/2026-10-08_isaias-hormuz/REPORT.md). $0; no trade, threshold, grade or gate change.
 
 ## CHANGES SINCE LAST SESSION
-- October6 STEO/October7 WPSR integrated: higher price forecast with slower draws; national draw versus third Cushing build. Cutoff/lineage and opposing channels at [REPORT](research/2026-10-07_news-catchup/REPORT.md).
-- Deferred freight interpretation completed on dated Baltic/Gibson sources; no measured freight-to-WTI beta or timely call-rescue case. WALTER collects; BRENT interprets.
-- October7 Will-confirmed quantities reconciled; WQ386 heldVLO1 only, scale2 terminal STOOD DOWN. USO declines and sell-or-roll rail preserved.
-- Named-minister recovery retains flow/capacity/unit conflict; Rabigh/Jeddah fire unconfirmed, FALCON verifies. Diesel-tax/Texas relief scope and G7 perimeter discrepancy retained.
+- Crude +~5% overnight: Dec Brent `BZZ26` $105.22, Nov WTI `CLX26` $92.64 (08:24 ET single-vendor quotes, not settles). Wires cite both Hormuz tanker attacks and Hurricane Isaias.
+- Hormuz: 158-26 off Qatar 10/07 with casualties, Kpler 10 struck 9/28–10/04, 7 transits 10/06; Axios anonymous CENTCOM-prep report. FALCON: nothing fired, review 10/14.
+- Isaias: MMA 25.08% Gulf oil shut in (10/7); NHC 7A Hurricane Warning Ocean Springs MS – Bay/Gulf FL; landfall late Fri 10/9 – early Sat 10/10.
+- IEA 10/7 accelerates remaining ~100 mb, no new volume; Cardón (310 kb/d) and Volgograd (~280 kb/d) refining down (nameplate).
 
 ## WHAT I DID THIS SESSION
-- Recovered same owner after crash; wrote evidence, STATUS/TRADE/THESIS/CHANGELOG/RULINGS/TRACKER/docket/intake/NEXUS. Substantive/archival commits throughd10bf9503 and document map b85b829b9 published and explicitly consumed by PROME; coordinator confirmed publication throughc1bdeb6e2.
-- Reproduced gasoline sums and named crack windows; rejected duplicated/provisional daily bars. No new prediction, phase grade, threshold or trade recommendation.
-- Full closeout: reconciled eight STANDING rows against saved canon; COT metadata now reflects its existing9/29 vintage. Restored two historical payloads changed by October4 link repairs, preserving original bytes/checksums with current navigation above the payload. Corrected THESIS's stale source/future wording and TRACKER's next-release clock.
-- Re-stamped routine alert block with saved-source/not-re-verified boundaries; reviewed forward state, promotion, retirement and both-direction mail. Final NEXUS fold follows the final STATUS commit.
+- Oil read at named contracts. Driver = both; tape leans Hormuz (Dec WTI−Brent −$13.63 widened ~$0.98; Brent Dec−Jan +$3.38). Persistence: Hormuz until measured change; Isaias transient unless damage.
+- Nov/Dec diesel crack $109.67/$103.91 intraday diagnostic (not a WQ-386 observation); Nov $19.51 above $90.16. Today's 14:28–30 proxy not produced.
+- Warning-zone refining from EIA refcap26 (Pascagoula 356,440; Saraland 88,000; Chalmette 190,000; Meraux 125,000 b/cd); status = GAP.
+- Petroline minister-vs-9/22 restart conflict recorded only (TRADE FRAME-BREAKER STATE, REPORT §7). Not an event-class arm.
+- Drain 6/6: SIG-W-20261008-001/-004/-014/-015 acted, -010 info-only, AEOLUS packet acted; reply packet to AEOLUS (RB=F is RBZ26). Isaias catalyst row added 10/10 (modeled); calendar regenerated.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **October8 / next live session:** China export guidance, Treasury/IRS implementation, SPR awards. Keep UNKNOWN without authenticated evidence; no automatic watch. BroaderWQ252/HEN46 October6 sitting is overdue, carried as open owner debt.
-2. **October9 15:00 ET:** held USOcall sell-or-roll rail; Will executes, TERRY reprices broker ticket. **~15:30ET:** COT as-of10/6, raw-primary grade before next release; rigs record-only, no retired alert. WALTER Baltic/Gibson/insurance review after publication. WQ378 study decision remains Will's, no study authorized.
-3. **October15 noon ET:** BRT31 first release, dataweek10/9. **October24:** WQ264 shadow endpoint; resolver still unregistered until completion, Texas waiver ends. **October26:** BRT30 frozen JWLA034 baseline; listing is not throughput.
-4. **November18:** WQ386 basis review. **November19 settlement:** final authorized December A observation absent new ruling; no automatic January roll. Prior exit survives missing data/switch/sunset.
-5. **Maintenance after current-state work:** primary review RF013/014/022/033 and nine other stale incident rows; substantive LESSONS_INDEX/prose reconciliation. Structural check passed, semantic agreement not certified. No cosmetic stamps.
-6. **Deployment deferred:** routine installation, Thursday connector removal and first-normal-run acceptance at [CATO handoff](audits/2026-10-04_cato-correction/REPORT.md). Saved repair complete, working Claude controls required. Paid data remain deferred; no new acceptance run/service.
+1. **Fri 10/9 15:00 ET:** USO Oct-09 $150C sell-or-roll rail (TERRY's stop; WQ-366 DECLINE; Will executes). **~15:30 ET:** COT #9 (as-of 10/6) — `cot_grade.py --expect 2026-10-06` + raw `f_disagg.txt`; grade before the next release. Rigs record-only.
+2. **Sat 10/10 – Mon 10/12:** Isaias restart read — MMA post-storm releases, platform/refinery damage reports (Pascagoula, Saraland, Chalmette, Meraux), AEOLUS landfall packet. Grade the CATALYSTS 10/10 row transient vs persistent.
+3. **By 10/14 settlement:** November governs WQ-386 leg A; TERRY grades; BRENT supplies proxy/settlement only if asked. **10/14 (modeled):** IEA OMR October.
+4. **10/15 noon ET:** BRT-31 first release (data week 10/9). December governs WQ-386 from 10/15.
+5. **10/24:** WQ-264 shadow endpoint; resolver still unregistered; Texas waiver ends. **10/26:** BRT-30 on JWLA-034 baseline.
+6. Carried from 10/7: China post-holiday guidance (NOT FOUND 10/8, UNKNOWN), Treasury/IRS diesel-tax implementation (10/10), SPR exchange awards; broader WQ-252/HEN-46 owner debt; incident re-verify RF-013/014/022/033 + nine; LESSONS_INDEX semantic reconciliation; routine deployment parked at the CATO handoff.
 
 ## OPEN THREADS / WATCHES
-- Official settlements/currentUSOweights/comparableinsurance/quantifiedSaudiloss unobtained; F-a NOT MEASURABLE, no Dec-Jan substitute. No causal freight beta.
-- BroaderWQ252/HEN46 and TERRY canonical WQ386 card integration separately owed. BRENT's approved letter is applied at TRADE; no extra buy/grade authority.
-- PROME physical docket198/427 still PENDING despite owner completion/discharge evidence; registrar correction foreign-owned. PROME L392 quote-age calibration; DAEDALUS L380 read-cap and L526 shallow-checkout debt retained with owners.
-- G7 first diesel window modeled endOctober22; split/deliveries unmeasured. No authenticated new incident/restart/normalization grade. No new unrouted proposal.
+- 🔴 Hormuz strike rate and transit floor (FALCON owns rungs); Isaias track/intensity to landfall.
+- 🟠 Diesel balance: release barrels mostly not new; product losses unmeasured in runs. Forties >$140 relay not carried.
+- 🟠 Freight: TD3C ~$1.33M/day chart point undated; no freight-to-WTI beta. WALTER Baltic/Gibson weekly review 10/9.
+- 🟡 Official settlements, current USO weights, quantified Saudi loss: unavailable.
 
 ## POSITION DECISIONS PENDING
-- October7 holdings USO37sh/VLO1sh/USOOct9$150C×1; capturetime UNKNOWN, no Activity/Orders/new fill inference. TRADE owns broker receipts and permanently unknown facts.
-- WQ366 early-sale DECLINE, WQ200 harvest DECLINE, WQ192 STAND DOWN retained. October9 rail requires Will's sell-or-roll action; TERRY grades held-share management. No desk order.
+- USO 37 sh / VLO 1 sh / USO Oct-09 $150C ×1 per 10/7 capture (time unknown). Pre-market 10/8: USO $149.10 ($0.90 below strike), VLO $430.49. Option card and stop = TERRY; order = Will. WQ-366/WQ-200/WQ-192 unchanged.
 
 ## MAIL STATE (one line per signal)
-- Inbox: recursive live Markdown empty at closeout; no new intake/move. October7-003/004/014/015 four archives/four matching receipts, three acted/one noted, payloads match sender813ee8a05; [receipt](research/2026-10-07_news-catchup/archive-receipt.json).
-- October5-005/006: deferred history retained; interpretation now acted/completed, files already processed, no repeat archive.
-- Outbox: no live Markdown; steady-state NEXUS. Original completion packet remains historical; new final-closeout packet to PROME. Tool acceptance alone is not consumption.
+- Inbox: clear at closeout (5 WALTER + 1 AEOLUS consumed, six board_log rows == six git mv).
+- Outbox: no live packets; reply to AEOLUS delivered to its inbox; delivery memo to PROME/inbox.
 
-## WORKBOOK HEALTH / CAPABILITIES
-- Last full boot rc2 preserved; later same-week API/XLS recovery does not turn it green. Focused closeout checks/limits at CLOSEOUT; saved-record reconciliation does not refresh raw feeds.
-- Frozen KB/VX/FLOW/TIMELINE untouched. No numeric test supersession/due prediction grade/new lesson or memory registration; incident/lesson source debt retained.
-- Codex/OpenAI sameowner01a10c35-32d7-73f2-92cf-601e74814af6, actualgpt-6.1-sol/high; root/local instructions explicitly read. Shell/venv/web/verified Codex coordination available; broker execution/view, Claude routine controls/discovery, paid AIS/freight/energyOAS unavailable.
-- Exact owned/self-authored Git paths only; foreign VLO staging/other work/prior PROME boot report preserved. PROME owns final push; no competing push/pull/stash.
+## WORKBOOK HEALTH
+- Boot rc=2: TANKER-LIVENESS DEAD pre-market (equity quotes stale before open) + stale stamp 8/5; THESIS-WTI-BRENT/DIESEL-CRACK partial coverage; 4 ACTIVE incident rows past 60d; LESSONS_INDEX stale +13d. Corrections check 0. Frozen KB/VX/FLOW/TIMELINE untouched.
