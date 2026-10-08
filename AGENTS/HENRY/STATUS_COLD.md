@@ -204,3 +204,72 @@
 
 **VERDICT:** the asymmetry is intact and has a **cost** face as well as a credit face. **Blended HY 270 is reached by COMPOSITION, not by healing — read the tranches before reading the kill.** 🆕 **And the August CPI says the cost shock has NOT reached core (HEN-44 CONFIRM) — which is what makes it an equity/margin story rather than a Fed story, and is exactly why HEN-46 expresses it in EQUITIES.** ⚠️ **The gamma sign flipped NEGATIVE on the 9/13 board and has a one-session shelf life.**
 
+
+
+---
+
+## §ROT-10/8 — moved VERBATIM out of STATUS 2026-10-08T08:24:10-04:00 (HENRY WQ-389 wake), superseded by the 10/8 write-back. Historical only: the 10/4 ISM-adoption block (now GRADED → research/2026-10-08_ISM-services-september-grade/GRADE.md), the 10/2 gamma boards (superseded by the 10/8 pre-open board), RSP week-7 HIT detail, Sep NFP block, 10/2 GAPS and BOTTOM LINE. Payload 7239 B · crc32 35cb8ecc.
+
+## September ISM Services — owner adopted
+
+| Item | Status / instruction |
+|---|---|
+| HEN48–53 | Six inclusive range forecasts; central56/49.5/74/61/61.5/52. Full contract research/2026-10-04_ISM-services-owner-adoption/adoption.md |
+| HEN54–56 | Independent direction headline>55.4, employment>47.8, prices>=70. FIRST PRINT. No probabilities invented |
+| Release/grading | MondayOctober5 10:00EDT; CHOSEN same-day evaluation deadline16:00EDT; absent/wrong vintageNO-VERDICT; grade every row |
+| Market map | Exploratory/APPARATUS-INCOMPLETE; no gradeable return registration. No certified historical/live source route; missing legsNO-VERDICT. No capture job installed |
+| Source gaps | Consensus55.7 only single secondary calendar; subindices unavailable; S&P58.7 secondary but hiring/activity/cost direction publisher-verified |
+| Intake |11 WALTER packets integrated with dispositions.012 correction supports possible hiring catch-up;9/10 and7/10 unverified three-month sample, excluded calibration |
+| TLT positioning013 | DEFERRED verification: no primary flow/volume series reached; cannot infer hedge/speculation or marginal buyer from aggregate volume |
+
+## Next owner wake — outstanding
+
+1. MondayOctober5 before09:30: fresh CBOE14d/35d gamma; SPX-only, walls only if both horizons agree. Today's20:47 boot14d display flip~7712 positive is UNPUBLISHED/one-horizon; Friday board below historical.
+2. MondayOctober5 10:00: primary SeptemberServices FIRST PRINT; grade HEN48–56 independently by16:00 and preserve release evidence. Optional09:45 S&P final informs a new timestamped amendment only.
+3. Monday~10:15: FRED HY obsOctober2; BOND FORUM7 co-sign; ACMOctober1–2; HEN46 cross-vendor. TuesdayOctober6 WQ252 ruling.
+4. Retain existing carry from archived prior STATUS/MEMORY: real-yield letter, KRE Muse candidate, breadth gap, confidence backfill, stale CLAUDE KB count, DGS30 coverage conflict, WATCH_FORR3. TLT013 verification at next positioning work.
+
+## Bounded boot and corrections
+
+Full boot20:47 outside sandbox PASS; no overdue row, named corrections0. Sunday market quotes are last quotes (not today's cash closes); no threshold rebasing. Credit obsOctober1 unchanged HY324/BB204/CCC1215. Raw boot and failed market probes retained in adoption research directory. Pull skipped: unrelated dirtyWALTER/PROME tree; preserve others' work. No full fleet exclusion claim.
+
+## GEX / GAMMA — POST-CLOSE 10/2 16:0x ET (reference only; OI is 10/2 EOD, re-pull Mon pre-open)
+
+`HENRY 2026-10-02 post-close: flip ~7,698 (14d, 4,010 contracts) / ~7,698 (35d, 7,146 contracts), src=CBOE; spot 7,722.93 close → +25/+24pt ABOVE at both. Sign POSITIVE at both horizons; Net GEX +$17.3B / +$20.1B per 1%. Walls withheld (put ≡ call ≡ 8,000 at both horizons).`
+
+**Reading:** the dealer book closes positive gamma with ~25pt (0.32%) of cushion above the flip. **Shelf life ends on Mon's open OI pull.** For Mon's QQQ-put planning: SPX would need a −0.33% gap on the open to put dealers back short of gamma — not a prediction, just the arithmetic distance. **QQQ scope caveat stands:** NDX dealer gamma is NOT measured by this method.
+
+## GEX / GAMMA — PRIOR BOARDS (pre-open 08:3x NEG both; 09:48 POS both at flip 7,696/7,697) — SUPERSEDED BY POST-CLOSE. Trajectory: 9/21 strongly POS → 9/24 ≈0 → 9/28/30 NEG → 10/2 pre-open NEG → 10/2 09:48 POS → 10/2 close POS +25pt cushion. Full prior-board detail: archive block 40 + earlier §POST-OPEN below.
+
+## BREADTH — RSP weekly run **✅ HIT** *(WALTER SIG-W-20261001-036, ACTION — GRADED 10/2 close)*
+
+| | Value | Source |
+|---|---|---|
+| Six completed down weeks | Fri closes 8/14 $222.77 → 8/21 221.67 → 8/28 220.69 → 9/04 219.00 → 9/11 214.87 → 9/18 212.29 → **9/25 211.11** | yfinance RSP daily Close, `auto_adjust=False` |
+| Week 7 (10/2 close) | Mon 209.74 · Tue 209.50 · Wed 208.02 · Thu 209.00 · **Fri 209.73** → **week close 209.73 < 211.11 by $1.38 (−0.65%)** ⇒ 7th-week down streak confirmed | yfinance RSP daily Close, pulled 10/2 16:01 ET |
+| **GRADE: HIT** | Ties the only prior ≥7-week run on weekly price closes since 2003 (2022-04-08 → 2022-05-20 = 7). No prior ≥8 run exists on price in the series | HENRY-verified 10/2 AM, re-stated here at the grade |
+| Dividend caveat (restated) | Ex-div $0.795 on 9/21 fell inside week 6; on total return week 6 was still down. Week 7 has no ex-div ⇒ price and TR agree on the HIT | yfinance dividends |
+| What it means | **A tape-level breadth tell, no HENRY threshold keyed to it.** It supports the C-36 TWO-PART reading from the breadth side (equal-weighted paper is bleeding while cap-weighted SPX held +0.74% on the day — the mega-cap bid is where the index flow is). No letter, score or confidence changed | — |
+
+## NFP — Sep 2026 (BLS USDL-26-1549, Fri 10/2 08:30 ET; via LABOR packet `f8eca24fc`, figures LABOR's from the BLS primary — LABOR owns the print)
+
+| Release | Actual | Consensus | Prior | Market reaction (pre-open, 08:36 ET) | Thesis implication |
+|---|---|---|---|---|---|
+| NFP | **+29K** | NOT READ | Aug revised +133K (was +162K) · Jul −10K (was +21K) ⇒ **net revisions −60K** | ES +0.47% · NQ +0.67% · ^TNX 5.22 (Treasury 10/1 close 5.24) · ZQX26 96.06 ⇒ October ≈ **24%** | Soft labor ⇒ the path leg eases further. **It does not touch the premium leg FORUM-7 just graded.** No HENRY row moves |
+| U-3 · LFPR | 4.2% · 61.8% (labor force +485K) | — | — | — | LABOR's triggers did not fire (T-06 missed only on U-3 4.2 vs 4.3) |
+| AHE | +0.1% m/m · **3.0% y/y** (from 3.1) | — | — | — | Wage pressure easing |
+
+⚠️ Consensus not read this session, so "soft" is relative to the trend and the revisions, not to a forecast. The reaction is a pre-open futures read, not the cash session.
+
+## GAPS (post-close spawn, this session)
+
+- ~~**Sep ISM Manufacturing (10/1)**~~ — **READ this spawn** (§ POST-CLOSE G3). The three threshold rows now carry September values.
+- ~~**RSP 7th-week grade**~~ — **GRADED HIT this spawn** (§ BREADTH).
+- ~~**HEN-46 F1 settle**~~ — **GRADED NOT STOOD DOWN this spawn** (§ POST-CLOSE G2); F1 remains ACTIVE through 10/14.
+- ~~**Sep NFP cash-session reaction**~~ — **READ this spawn** (SPX +0.74% close, +1.05% open then faded; 2Y net rallied, 10Y round-tripped higher by close; see § POST-CLOSE Thesis).
+- **Still owed:** Monday 10/5 pre-open gamma (B1 above; the 5 QQQ Oct-05 735P expire that day) · FRED HY obs 10/02 publishes Mon ~10:15 (B2) · BOND co-sign on FORUM-7 (B2) · 10/2 ACM cells (next pull; the premium path through 10/2 close is unread) · F1 cross-vendor check on $99.61 if a 2nd settle source is available.
+- **Residue carried in:** real-yield letter (unregistered) · KRE "Muse" deposit-flight (REGINALD's) · own `CLAUDE.md` KB count stale · DGS30 2002–06 coverage conflict (no 30Y superlative) · WATCH_FOR R3 to PROME.
+
+## BOTTOM LINE
+
+The next services release can show strong demand and improving hiring while costs stay high. Grade the data before treating this as a bearish market catalyst. Existing HEN46/FORUM7 and other gates remain unchanged; market reaction map has unresolved apparatus. No Will decision needed tonight.

@@ -34,6 +34,8 @@
 - [2026-06-23] **When a load-bearing CORROBORATION tell breaks, flag it loud — don't keep citing it as intact.** For weeks the structural-axis read leaned on "the alts/PC complex shows ZERO public stress" (APO/ARES entrenched, gapping) as evidence the bifurcation was dormant/not-transmitting. This week that tell BROKE: ARES −15% over the 8-day gap, APO −7%, both cracking on the AI/semi risk-off + standing PC/AI-displacement vulnerability. The structural axis is now *starting to transmit* via the alts complex (ahead of late-Jul BDC Q2 marks). A corroboration that flips from "confirms dormant" to "confirms transmitting" is a thesis-state change, not noise — surface it, re-mark the axis, don't let the old framing ride.
 - [2026-06-23] **Catch-up boots after a multi-day gap: run a VERIFY pass on the single most consequential gap event.** 8-day gap (FOMC/BOJ/triple-witch/AI-unwind). The workflow's adversarial-verify pinned the FOMC = HOLD-with-hawkish-dots (not a hike), against WALTER's ambiguous "cut→HIKE 6/17" board shorthand. **Caveat learned the hard way (Will called it):** don't escalate "an ambiguous relay phrasing" into "the FLEET believes the false thing" — the consumers (SAM/RED/REGINALD) had it right; I over-claimed a fleet error. Verify the FACT, but check the actual consumer-state before asserting a fleet-wide misconception. (General rule in LESSONS.)
 
+- [2026-10-08] **A CHOSEN same-day grading deadline with no registered WAKE is a letter its owner cannot meet.** HEN-48–56 fixed 10/5 16:00 EDT as the grading deadline while stating "no automatic wake or capture"; the desk stayed dark and the grade landed ~64h late, leaving a live ambiguity over whether a late evaluation is NO-VERDICT. **Next time a letter names an evaluation deadline, register the wake in the same edit (a DOCKET row dated AT the release, owner named), and write the late-evaluation disposition into the letter's NO-VERDICT list explicitly.** Cf. `finding_a_warning_dated_on_its_own_event_fires_too_late`.
+
 ## References
 
 - [2026-04-17] Live refresh: `source .venv/bin/activate && python3 FORGE/tools/market-data/fetch.py price ^GSPC ^VIX ^SKEW ^VIX3M ^VIX9D ^VVIX KRE WAL JPY=X ^TNX TLT APO`. Use `^GSPC`/`^VIX` (SPX/VIX bare fail). **.venv works on this surface** (Will's "no venv" note was a different container 6/3).
@@ -48,16 +50,17 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-10-04T20:52:57-04:00, Will-approved SOL owner adoption
+### CHANGES SINCE — 2026-10-08T08:25:56-04:00, PROME WQ-389 due-row wake (Claude Code desk spawn, `prome-fc`)
 
-- Adopted preserved83d842484 macro values prospectively; HEN48–53 ranges +HEN54–56 direction registered. Actual registration timestamp in prediction rows/adoptionJSON; helper cutoff/last-write/commit are distinct receipts.
-- Market map declined official registration: exploratory/APPARATUS-INCOMPLETE. Yahoo429/CNBC access-denied; fetch.py daily history and cross-endpoint timestamp cannot meet rule. Macro scoring independent; no timer installed.
-- Whole inbox11 WALTER packets dispositioned, explicit git moves.012 corrected9/10 employment-rise and7/10 activity-fall are three-month unverified stats, no calibrated mass.013 TLT flow verificationDEFERRED; do not infer hedge/speculation/marginal buyer from volume.
-- Full boot outside sandbox20:47: no overdue rows/corrections0; one-horizon14d gamma~7712 positive UNPUBLISHED, walls withheld without35d. No existing letter/gate changed, no trade or threshold re-mark.
-- Prior whole STATUS/MEMORY/brief/closeout preserved under status_archive/2026-10-04_before-owner-adoption_*.md.
+- **L612 GRADED:** Sept ISM Services first print 54.9 / activity 56.5 / orders 59.8 / employment 50.1 / deliveries 53.2 / prices 74.0 (ISM PDF `rain202609svcs.pdf`, ismworld.org; the HTML page is reCAPTCHA-walled, the PDF under `globalassets/pub/research-and-surveys/rob/nmi/` is not). HEN-48–56 RESOLVED: 7 HIT / 2 MISS (activity range, headline >55.4). Graded ~64h late — disclosed; evaluator-timing reading open for PROME. GRADE.md in `research/2026-10-08_ISM-services-september-grade/`. KB ML-HEN-177.
+- **Gamma 10/8 pre-open:** POS both horizons, flip 7,746–7,750, spot 7,801.77 [10/7 close]; walls withheld. PUBLISHED.tsv rows annotated (gamma_flip.py appends on its own when run directly; boot.py does not).
+- **Rates:** Treasury official 30Y 5.67 [10/7] = high of the 2023→ Treasury par window (n=942). 30Y real 3.36 [10/7] is NOT a high — 3.37 [10/5]; HEARTBEAT's "NEW CYCLE HIGH" tag is false and was routed to PROME. 10Y BE flat 2.36 all sessions. Oct hike ~20% [ZQX26 96.07, 10/8].
+- **Credit:** HY 303 [10/6] back under the 320 yellow; CCC 1,214, gap 1,029 (+61/5d): the tail widened under a tighter index.
+- **Inbox:** 19 logged (16 WALTER + 2 top-level + late −015); all 19 git-moved by explicit name (−015 after WALTER committed it in 4608a0e78). WALTER −009 carries a wrong weekday ("Tue 10/14", but it is Wed) — packeted. BOND co-signed FORUM-7 on 10/2 (KB-BND-389) — HEN-47 receipt added.
+- STATUS superseded blocks → STATUS_COLD §ROT-10/8 verbatim. MARKET_DATA 10/7 row appended.
 
 ### NEXT SESSION
 
-1. STATUS Next owner wake is canonical obligation list: Mondaypre09:30 gamma;10:00SeptemberISM; grade all9 rows by16:00; missing market legsNO-VERDICT.
-2. MondayHYobsOctober2/BONDco-sign/ACM/F1cross-vendor, TuesdayWQ252. Prior real-yield/KREMuse/breadth/confidence/CLAUDEKB/DGS30coverage/WATCH_FORR3 carry preserved in archived priorMEMORY; no retirement implied.
-3. No standing writer exception: authority bounded to this task, missing nativeListAgents disclosed; stop on conflicting writer evidence.
+1. **Fri 10/9 close:** grade RSP week 8 (< $209.73 continues the streak; 210.60 [10/7]). **Wed 10/14:** Sept CPI is a HENRY-owned release — log actual/consensus/prior/reaction; F1 November basis ends (HEN-46). Thu 10/15 PPI.
+2. Re-pull gamma pre-open at the next wake (both horizons; walls only if they agree). ACM 10/1–10/7 cells are owed; HEN-46 F1 crack not re-measured by me (BRENT's $105.82 estimate [10/7]).
+3. If PROME rules the late-grade reading as evaluator-timing, flip HEN-48–56 to NO-VERDICT and keep the observed values. Carry-ins: real-yield letter, KRE Muse, CLAUDE.md KB count (now ML-HEN-177), DGS30 coverage, TLT −013 verification, wall cross-horizon gap E2.

@@ -1,0 +1,8 @@
+url	https://www.ismworld.org/globalassets/pub/research-and-surveys/rob/nmi/rain202609svcs.pdf
+retrieved_utc	2026-10-08T12:16:51Z (server Date header)
+http	200 application/pdf 370959 bytes
+sha256	a953539cfa5db31bf0c252c9dfcdd7f04b3537078c210c98a2f0f00374c28c74
+pdf_CreationDate	D:20260930084034-07'00'
+pdf_ModDate	D:20260930114524-07'00' (metadata ModDate precedes the 2026-10-05 10:00 EDT release — consistent with an unmodified first-published file; metadata is not a cryptographic vintage proof)
+html_report_page	https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/services/september/ returned a reCAPTCHA wall (HTTP 200, 922 bytes) at 2026-10-08T12:15:40Z — not read
+corroboration	investingLive 'ISM non-manufacturing PMI 54.9 versus 55.2 estimate', stamped 05/10/2026 14:04 GMT (10:04 EDT 10/5): all six graded values identical

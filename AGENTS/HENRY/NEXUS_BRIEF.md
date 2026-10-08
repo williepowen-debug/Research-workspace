@@ -1,22 +1,20 @@
 # HENRY — NEXUS Brief
 
-**Owner fold:** 2026-10-04T20:54:26-04:00; after final STATUS write. Bounded Will-approved SOL adoption. SeptemberServices releaseMondayOctober5 10:00EDT; data forecast **headline56.0, employment49.5, prices74.0**, with ranges and independent falsifiers in HEN48–56. No calibrated probability. Official owner registration20:52:57EDT; durable freeze is commit receipt, not helper cutoff.
+**Owner fold:** 2026-10-08T08:26:17-04:00 — after the final STATUS write (PROME WQ-389 wake). Prior fold (10/4 ISM adoption) is superseded; history in git.
 
 ## VIEW
-Firm demand with partial hiring catch-up and high input costs. S&P September23 publisher evidence of stronger hiring challenges weak-labor bias; October2 official weakjobs/wages constrains a confident hiring boom. Competition limits cost pass-through. Base forecast does not imply QQQ declines.
+September services **did not confirm strong demand** (activity 56.5, −5.2) but **did confirm both hawkish legs**: employment 50.1 (back over 50) and prices 74.0 (highest since Jul-2022). The bond market agrees: official 30Y 5.67 [10/7] is the high of the 2023→ Treasury par window, on real yield, with the 10Y breakeven flat at 2.36 every session. Equity is calm. The credit tail widens under a tighter index.
 
-## CALIBRATION / FALSE CONDITIONS
-Headline range54–58; employment47–52; prices70–78. Direction headline>55.4, employment>47.8, prices>=70; first-published September nationalISM, integer tenths. Grade all nine rows independently by chosenOctober5 16:00deadline; absent/wrong releaseNO-VERDICT. No probabilities or Brier scoring. Six supporting series in forecastJSON; marginal ranges are not a joint forecast region.
+## GRADED (DOCKET L612)
+HEN-48–56 against the 10/4 frozen letter: ranges 5/6 HIT (business activity MISS), directions 2/3 HIT (headline >55.4 MISS). ⚠️ **Graded ~64h after the letter's chosen 10/5 16:00 deadline** (disclosed; a strict evaluator-timing reading makes all nine NO-VERDICT, open for PROME). ⚠️ The ranges were wide (17/24 prior cells inside), so 5/6 is weak skill evidence. The market map was never registered: reaction is observation only (a ~1bp yield dip, round-tripped in 30 min). Detail: `research/2026-10-08_ISM-services-september-grade/GRADE.md`.
 
-## CROSS-DOMAIN / SOURCE LIMITS
-Consensus55.7 single secondary calendar, poll provenance missing. S&P58.7 services exact value secondary; activity/hiring/cost direction primary. WALTER012 historical9/10/7/10 are unverified THREE-month stats and excluded calibration. TLT013 sourceverificationDEFERRED; volume cannot identify hedge/speculation/marginal buyer. Other inbox items integrated as attributed context, not new quantforecast evidence.
+## CURRENT BASIS (dated)
+- **Gamma [10/8 08:18 ET pre-open; OI 10/7 EOD]:** POSITIVE at both horizons, flip ~7,746–7,750, SPX 7,801.77 [10/7 close] +52/+56pt above. Walls WITHHELD (near-tie and cross-horizon disagreement). +GEX cushions a level move, not a duration shock.
+- **Rates [Treasury 10/7]:** 2Y 4.77 · 10Y 5.28 · 30Y 5.67 · 10Y real 2.92 · 30Y real 3.36. ⛔ **3.36 is NOT a cycle high: 3.37 on 10/5.** Oct +25bp ≈ 20% [ZQX26 vendor 10/8, ±2pp]; minutes = a conditional year-end hike.
+- **Credit [FRED 10/6]:** HY 303 (back under the 320 yellow) · BB 185 · CCC 1,214 · gap 1,029 (+61/5d).
+- **Vol:** VIX 15.08 [10/7 close], 15.77 pre-market 10/8; 15.01 on 10/6 missed the <15 kill leg by 0.01. Triad JOINT 0.
 
-Market map remains exploratory/APPARATUS-INCOMPLETE, no official return registration. Yahoo429/CNBCdenied; dailyfeeds and cross-endpoint quote/time pairing fail provenance rule. Missing qualifyingSPX/QQQ/US2Y/US10Y observationsNO-VERDICT; no timer installed.
+## FORWARD
+Thu 10/8 30Y auction (BOND's) · Fri 10/9 RSP week-8 close (streak at risk: 210.60 vs 209.73) · Isaias landfall 10/9–10/10 · **Wed 10/14 Sept CPI (HENRY-owned)** + HEN-46 F1 November basis ends · Thu 10/15 PPI · FOMC 10/27–28.
 
-## CURRENT BASIS
-No Mondaylive market state claimed. Sunday20:47 boot14d CBOE flip~7712 positive UNPUBLISHED (no35d confirmation, walls withheld). Friday published board is historical; next pre-open measure mandatory. Credit latestOctober1 HY324/BB204/CCC1215 unchanged. HEN46/FORUM7/gatedletters unchanged. Existing authoritative threshold cells and prior market observations remain STATUS; do not cite their stale levels as live.
-
-## NEXT DECISION POINT / FORWARD CATALYSTS
-Mondaypre09:30 gamma;10:00Services grading;~10:15HYobsOctober2. BONDco-sign/ACM/F1cross-vendor remain due. TuesdayOctober6 WQ252 ruling plus3Yauction;October7/8 longer auctions;October14CPI/F1basisend. No Will decision required tonight.
-
-**Evidence/home:** research/2026-10-04_ISM-services-owner-adoption/adoption.md + forecast.json; STATUSNextownerwake carries outstanding tasks. Prior brief preserved verbatim status_archive/2026-10-04_before-owner-adoption_NEXUS_BRIEF.md. This fold changes forecast ownership and intake, not old letters or market thresholds.
+**Unchanged:** HEN-46 (ACTIVE; WQ-386 did not amend it), every threshold, gate and letter. No Will decision.
