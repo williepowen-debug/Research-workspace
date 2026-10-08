@@ -1,8 +1,8 @@
 # REGINALD — TRADE SURFACE
 
-> **LIVE — rebuilt 2026-09-29 ~19:3x ET (stamp corrected at closeout against `date`; first written as ~20:1x from narrative) on Will's word (*"Do it now"*), replacing the March-2026 document (FROZEN 7/09; archived verbatim → `archive/TRADE_frozen_2026-03-07_archived_2026-09-29.md`, crc32 `ab819e73`).** This file carries the trade THESIS, the triggers by name, the refuters and the anti-trades. It carries **no marks and restates no strike it does not own**: position truth is off-repo (Will/broker); the structured mirror is `FORGE/STATUS.md` (PROME/ANVIL, last reconcile **2026-09-29 intraday**); this desk's structural ledger is `POSITIONS.md`. **Trade construction = TERRY; approval = Will (root rule #5).** Re-check size at any append (READ_CAP budget 32,550 B).
+> **LIVE — rebuilt 2026-09-29 ~19:3x ET (stamp corrected at closeout against `date`; first written as ~20:1x from narrative) on Will's word (*"Do it now"*), replacing the March-2026 document (FROZEN 7/09; archived verbatim → `archive/TRADE_frozen_2026-03-07_archived_2026-09-29.md`, crc32 `ab819e73`).** This file carries the trade THESIS, the triggers by name, the refuters and the anti-trades. It carries **no marks and restates no strike it does not own**: position truth is off-repo (Will/broker); the structured mirror is `FORGE/STATUS.md` (PROME/ANVIL, last reconcile **2026-10-07 intraday Fidelity capture**; Robinhood last 9/29); this desk's structural ledger is `POSITIONS.md`. **Trade construction = TERRY; approval = Will (root rule #5).** Re-check size at any append (READ_CAP budget 32,550 B).
 
-## 1. What this desk's trades are a bet on (state 2026-09-29)
+## 1. What this desk's trades are a bet on (state 2026-09-29; §2–§3 refreshed 2026-10-07)
 
 **Thesis (STATUS-canonical since 8/13):** regional-bank credit stress is **CONCENTRATED, not tier-wide** — 3 elevated names of 14 (FLG 6 · EGBN 5 · AMTB 5, matrix v2.0), the CRE cut narrows to FLG · EGBN · OZK, and the cross-bank Q2 filings showed CRE bad-loan rates FALLING (2.46% → 2.23%). The index expression (KRE) is therefore **tail insurance on a sector repricing**, not a directional call on cohort credit.
 
@@ -14,32 +14,34 @@
 
 | Leg | Owner of the record | State (per FORGE 9/29 reconcile) | Guard / rule |
 |---|---|---|---|
-| `KRE $60P Dec-18-2026 ×5` | `POSITIONS.md` · FORGE | LIVE, 80 DTE, deep OTM (KRE $69.83 [9/29]) | `REG-T-01` KRE <$60 UN-FIRED; tripwire close ≤$66 → TERRY |
-| `KRE $60P Sep-30-2026 ×2` | `POSITIONS.md` · FORGE | **Expires Wed 9/30 — LAPSE ruled (WQ-168 ⑥)**, −14.1% OTM | Write back 10/1 from the broker export, never the tape |
-| `WAL $70P Dec-18-2026 ×1` (RH) | `../WAL/` · FORGE | LIVE, the ROLL70 duration roll (filled 9/02 @ $2.20) | `GATE-TERRY-ROLL70-EXIT` = `REG-T-02` exit: WAL ≥ $81.90 ×3 closes — **0-of-3 after 20 graded closes** (`registry/REG_T02_EXIT_LOG.tsv`) |
-| `HBAN $16P Oct-16-2026 ×2` | `POSITIONS.md` · FORGE | **ITM** (HBAN $15.27 [9/29]); the 7/18 "exit-thesis dust, rides to expiry" premise FAILED | Card `MGMT-HBAN16P-OCT16`; **Will rules by Wed 10/14 (WQ-302)** |
-| `APO $95P Dec-18-2026 ×1` | `POSITIONS.md` · FORGE | LIVE, 80 DTE; BROCK thesis vehicle | Will ruled HOLD 8/13; vehicle-mismatch flag live (BROCK) |
+| `KRE $60P Dec-18-2026 ×5` | `POSITIONS.md` · FORGE | LIVE, 72 DTE, deep OTM (KRE $68.89 [10/7]) | `REG-T-01` KRE <$60 UN-FIRED; tripwire close ≤$66 → TERRY |
+| `KRE $65P Dec-31-2026 ×2` | FORGE (`MGMT-KRE65P-DEC31`, `5ce609f80`) | **NEW 9/30 — Will's own roll:** the Sep-30 $60P ×2 was SOLD 9/30 @ $0.01 (−$451.48, leg 1) and these bought @ $1.68 (leg 2) | TERRY rail: hard stop Thu 12/31 15:00 ET (not a price gate) |
+| `WAL $70P Dec-18-2026 ×1` (RH) | `../WAL/` · FORGE | LIVE, the ROLL70 duration roll (filled 9/02 @ $2.20); RH not re-captured since 9/29 | `GATE-TERRY-ROLL70-EXIT` = `REG-T-02` exit: WAL ≥ $81.90 ×3 closes — **0-of-3 after 26 graded closes through 10/7** (`registry/REG_T02_EXIT_LOG.tsv`) |
+| `WAL $65P Dec-18-2026 ×4` (Fidelity) | FORGE D-74 | **NEW vs the 10/1 mirror** (fill/date/approval UNRECORDED); 12.6% OTM at $74.35 [10/7]; spans the 10/19 print + Q3 10-Q | No card. ROLL70's gate does NOT transfer to this line. Thesis read → memo `PROME/inbox/2026-10-07_from-REGINALD_WQ318-baseline-T03-and-ladder.md` |
+| `OZK $40P Nov-20-2026 ×4` (Fidelity) | FORGE D-74 · `../OZK/` | **NEW vs the 10/1 mirror** (fill/date/approval UNRECORDED); 8.2% OTM at $43.56 [10/7]; spans the 10/20 print + FDIC 10-Q | No card. OZK desk thesis (RESERVOIR) + its own <$45 band; thesis read → same memo |
+| `HBAN $16P Oct-16-2026 ×2` | `POSITIONS.md` · FORGE | ITM since 9/26 (mark $0.85 [10/7 rcv]); the 7/18 "rides to expiry" premise FAILED | Card `MGMT-HBAN16P-OCT16`; **Will rules by Wed 10/14 (WQ-302)**. HBAN prints 10/22, AFTER expiry (OZK desk calendar) |
+| `APO $95P Dec-18-2026 ×1` | `POSITIONS.md` · FORGE | LIVE, 72 DTE; BROCK thesis vehicle | Will ruled HOLD 8/13; vehicle-mismatch flag live (BROCK) |
 | `KRE $25P Jan-15-2027 ×1` (RH) | FORGE only | Deep-OTM lottery, entry never recorded (D-54) | Not thesis-scope |
 
-**Open card(s):** **KRE-put ADD — Will asked 9/29 (~18:2x, ~19:5x ET); two REGINALD packets in `AGENTS/TERRY/inbox/` (`f6a95855b`… `8a850dc9f`); TERRY constructs at its 9/30 wake (DOCKET L255). Loop closes here + `POSITIONS.md` when the card id and Will's decision land (root rule #10).**
+**Open card(s):** **KRE-put ADD (Will asked 9/29) → TERRY built `TRY-COND-KREADD` 9/30 08:12 ET (`AGENTS/TERRY/setups/KRE_add-puts_conditional-card_2026-09-30.md`): CONDITIONAL, NO FILL.** Arms only on a REGINALD instrument (`REG-T-03` ×3 with the bank-credit cross-check, a FAILED L180 breadth test, or `REG-T-01`) **plus** X1 open or Will's Tier-3 word **plus** a green day. **State 10/7: NOT ARMED on my legs** — `REG-T-03` 0-of-3 (peak run 1, 10/1), `REG-T-01` UN-FIRED, L180 grades 11/07. No Will decision is owed until it arms (root rule #10 loop: proposal recorded; decision pending the arm). Separately, Will rolled the Sep-30 KRE leg himself (row above).
 
 ## 3. Triggers this desk grades (levels live in `STATUS.md` §THRESHOLD STATUS — never here)
 
 | Trigger | Letter | State 9/29 | Consequence |
 |---|---|---|---|
-| `REG-T-01` | KRE < $60 | UN-FIRED, 14.1% away | 🔴 to ALL; the KRE puts' thesis level |
-| `REG-T-02` | WAL < $78 | **FIRED since 9/1 (cycle 2)**; exit ≥ $81.90 ×3, run 0-of-3 | Guards ROLL70; 2-of-3 → packet TERRY |
-| `REG-T-03` / `-04` | HY OAS > 320 ×3 / > 350 | 302 [9/28] — 18bp / 48bp away | Credit transmission — **run the bank-credit cross-check first** (`reports/2026-07-30_bank-side-HY-attribution.md`) |
-| `VX-REG-18.04` / `18.05` | CCC/HY > 3.6× ×3 · B-tier > 300 / 330 / 380 | HARD-FIRE (3.795×) · **B 309 = YELLOW, first >300 9/28** | Escalation SENT 9/26; watch, not re-escalate (Will 9/26) |
-| `VX-REG-6.03` | FLG ladder −10 / −15 / −20% vs $14.24 | **ORANGE** ($12.04 [9/28]; RED $11.39) | RED → packet PROME + FLG same session |
+| `REG-T-01` | KRE < $60 | UN-FIRED, 12.9% away (KRE $68.89 [10/7]) | 🔴 to ALL; the KRE puts' thesis level |
+| `REG-T-02` | WAL < $78 | **FIRED since 9/1 (cycle 2)**; exit ≥ $81.90 ×3, run 0-of-3 (26 rows, 10/7 $74.35) | Guards ROLL70; 2-of-3 → packet TERRY |
+| `REG-T-03` / `-04` | HY OAS > 320 ×3 / > 350 | **0-of-3** at the 10/6 cell (303); 324 [10/1] was 1 of 3, reset by 310 [10/2] | Credit transmission — **run the bank-credit cross-check first** (`reports/2026-07-30_bank-side-HY-attribution.md`) |
+| `VX-REG-18.04` / `18.05` | CCC/HY > 3.6× ×3 · B-tier > 300 / 330 / 380 | HARD-FIRE (4.007× [10/6], HY-tightening-led) · B 302 [10/6] = YELLOW; peak 329 [10/1], 1bp under ORANGE | Escalation SENT 9/26; watch, not re-escalate (Will 9/26) |
+| `VX-REG-6.03` | FLG ladder −10 / −15 / −20% vs $14.24 | **🔴 RED — broke on the 10/7 close $11.30** (−20.6%) | Packets PROME + FLG sent 10/7 (`018af9846`); no band beyond RED |
 | `REG-T-06` | FHLB advances > $700B ×3 qtrs | leg 2 of 3 ($810.7B [6/30]) | Q3 print (~Nov) fires it — a LEVEL, not a signal, without composition |
-| Claims (LABOR) | > 300K | 197K [w/e 9/19] | all ORANGE banks → RED |
+| Claims (LABOR) | > 300K | → `STATUS.md` (LABOR owns) | all ORANGE banks → RED |
 
 **Exit rules** (STATUS §EXIT RULES, unchanged): HY < 260 is a REVIEW trigger, not an auto-exit (Will 6/19); BTFP-2.0 = thesis broken (auto-exit); CRE-channel anchors (WAL NCO ex-fraud < 25bp AND no office migration; office CMBS-DQ flows reversing 2 prints + bank CRE-DQ tier-creep reversing).
 
 ## 4. Refuters for any bank put on this desk (write them on the card)
 
-B-tier OAS back **< 300** (a 9/15-style reversal) · HY back **< 280** · KRE reclaims **$72.74** (the 9/16 gap-down close) · a clean Q3 print cluster (no mid-pack breadth, L180) · H.8 non-bank lending re-accelerating with small-bank deposits stable · LABOR's bull-side kill firing (Sep NFP ≥ +150K, 10/2) removes the labor leg entirely.
+B-tier OAS back **< 300** (a 9/15-style reversal) · HY back **< 280** · KRE reclaims **$72.74** (the 9/16 gap-down close) · a clean Q3 print cluster (no mid-pack breadth, L180) · H.8 non-bank lending re-accelerating with small-bank deposits stable · ~~LABOR's bull-side kill (Sep NFP ≥ +150K, 10/2)~~ did NOT fire: payrolls +29K, net revisions −60K (WALTER -20261002-001) — the labor leg stands.
 
 ## 5. Anti-trades (tempting, and the evidence says no)
 
@@ -48,7 +50,7 @@ B-tier OAS back **< 300** (a 9/15-style reversal) · HY back **< 280** · KRE re
 - **Treating the March document as live.** Its eight-channel frame, its April earnings plan and every leg in it are dead (archived with crc above). Cite `STATUS.md` for thesis state.
 - **Reading a HY level as bank transmission.** The 7/27–29 sustain over 280 was BANK-ABSENT; HY sits downstream of bank credit in my chain. Cross-check first.
 - **Trimming for size when the thesis is intact.** Root rule #7: roll duration, don't trim (trimming = thesis broken). Any roll rides on TERRY's card.
-- **Chasing the deposit-flight narrative with a trade.** "Agentic bank run" (Slok 9/27) is a mechanism frame with no flow data; it is a WQ-318 question (deliver 10/9), not a card input.
+- **Chasing the deposit-flight narrative with a trade.** "Agentic bank run" (Slok 9/27) is a mechanism frame with no flow data; it was a WQ-318 question, answered 10/7: no NIB-share decline at any of the six banks through 6/30 (`reports/2026-10-07_WQ318_funding-vs-nonbank-baseline.md`), so nothing to grade yet.
 
 ## 6. History — what this desk's names have done to the book
 

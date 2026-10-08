@@ -1,6 +1,6 @@
 # WQ-318 — Funding vs non-bank exposure: six-bank baseline (6/30/26) + pre-committed Q3 observation list
 
-**Written:** 2026-10-07 Wed, ~22:0x–23:xx ET (stamps from `date`), REGINALD, PROME-spawned DOCKET L527 session (Opus).
+**Written:** 2026-10-07 Wed, ~21:5x–22:3x ET (window from `date`), REGINALD, PROME-spawned DOCKET L527 session (Opus).
 **Authority:** WQ-318, Will APPROVED 2026-09-28 14:1x ET with riders (verbatim in `inbox/processed/2026-09-28_from-PROME_WQ-318-funding-vs-nonbank-baseline.md`). Delivered **2 days before the 10/09 deadline; 2 days after the 10/05 wake date.**
 **Question (CATO, 17b4977fd):** which regional banks could lose cheap deposits just as customers and funds draw more credit?
 **Bounds:** existing public disclosures + fleet evidence only. **No score, threshold, ladder level or trade moved.** The Q3 classification lines in Deliverable 2 are lines for THIS observation list only — they are not registered triggers and nothing routes on them. Q3 is allowed to remain inconclusive (Will).

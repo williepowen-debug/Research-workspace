@@ -71,3 +71,18 @@ KRE since 9/14: 12 sessions, 7 down / 4 up / 1 flat; 74.11 → 69.83. **Yes, a s
 **Will 18:4x ET: "why are the banks selling off — what does our research tell us?"** Answer given from the fleet record (NEXUS WQ-340 one-root read 9/29 · LIQUID §1 NOW 9/29 · BOND KB-BND-367 · HENRY KRE row · my 9/24 AOCI + 9/27 cross-bank + blind-spot thread): (1) ESTABLISHED — the price of money: real 10Y +27bp 9/22→9/28, 30Y highest since 2004, bear steepener; AOCI/TBV is the bank mechanism, ~−$2.6B to −$4.3B cohort-wide at D=3–5 (assumed), ZION most exposed; (2) FIRED THIS WEEK — credit broadening: HY 302 / B 309 / BB 183, LIQUID 'BROADENS 3rd print', composition unmeasured (cable-led 9/25); reaches banks via fund-finance/NDFI lending, none visible in bank data before Q3; (3) CANDIDATE, UNOWNED — AI-disruption / 'Muse' agentic deposit-flight narrative (BKX −3.5%/5d, cable −10 to −21%), WQ-341 open, PRED-50 tests 9/29→10/8; (4) AMPLIFIER — dealer gamma negative both horizons since 9/28 (HENRY); (5) WHAT IT IS NOT — not labor (claims 197K), not funding (SOFR−IORB 0), not a bank-credit print (Q2 cross-bank CRE bad-loan rate FELL; no 8-Ks; Nano n=1). Told Will plainly: my desk's instruments are blind to (2)–(3) until ~10/20; the 8/14→9/14 leg is still unattributed. No file changed beyond this note.
 
 **Will 18:5x ET: "job openings report was bad today though — read LABOR status/NEXUS."** Read both. LABOR graded JOLTS Aug on its NET rule (+122K ⇒ benign, v4 3→2, LEG C MET) and neither STATUS nor brief states the OPENINGS level; KB-LAB-193 has it: **openings 7,079K [Aug P] vs 7,335K Jul (−256K), rate 4.3%, consensus ~7,228K ⇒ −149K miss; lowest since Mar (6,887K).** Both true: benign on flow (low-fire), weak on demand (openings). Sent LABOR a 🟡 packet (no binding ask). For my chain: nothing moves — layoffs 1.0%, claims 197K; the bank ORANGE→RED trigger (claims >300K) is 103K away.
+
+## 2026-10-07 PM — L527 session (PROME-spawned, Opus): working notes
+
+**Instrument notes (not yet promoted):**
+- FFIEC CDR JWT WORKS on the laptop (token in `FORGE/tools/market-data/.env` since 9/22) — the CALENDAR 11/05 row's "desktop-only" remark is stale; regeneration before 11/05 is still Will's.
+- `fetch.py fred` CDN-stale class: used the cache-busted `fredgraph.csv?...&nocache=` route + `fred_fetch_vintage(basis='first-published')`; identical on every HY/CCC/B/BB cell 9/25–10/6.
+- Independent price route that works from this box: `api.nasdaq.com/api/quote/<T>/historical` (UA + Accept json). Stooq now serves a JS proof-of-work page — dead for curl.
+- RC-K average IB deposits ÷ period-end IB: ~1.33× EGBN every quarter, ~1.1× OZK, 1.34× CUBI in 2025 → [CR] deposit cost INCOMPARABLE there (KB ML-REG-180; lesson 42). Cause not chased.
+- `firetime_check.py` reads quarter labels like `[12/24]` as day dates (Nano report: 3 flags, all quarter labels → KEEP). A detector false positive class worth telling DAEDALUS if it recurs.
+
+**Things I noticed but did not dig into:**
+- OZK −4.31% on 10/6 vs KRE −0.45%, no news found (one search). OZK desk's own <$45 band closed below 10/6 ($44.58) and 10/7 ($43.56) — the OZK desk grades it; OZK desk last committed 10/2.
+- CFG FHLB advances 0.01B [9/30/25] → 6.36B [6/30/26]; +3.85B in Q2 alone, while CFG cut ~$1.5B Treasury brokered (INFERENCE: substitution). It is in the WQ-318 F3 line.
+- STLFSI4 +0.34 in the week to 10/2. One week; not a level signal.
+- Sub-reader side finding (NOT verified by me): VLY 8-K dated 2026-09-28 announces a merger agreement to acquire Bluevine Inc. (small-business fintech). If true, it touches my BaaS/sponsor-bank perimeter (WQ-228). Read the 8-K before citing.
