@@ -4,7 +4,7 @@
 
 ## Top priorities
 
-**2026-10-04 21:54 ET — latest Codex handoff:** HENRY’s owner adoption and session closeout are verified; the forecast is not graded yet. Follow DOCKET L612. No automatic wake or market capture is installed. The pre-open gamma board and the Monday position priorities below remain separate. [Handoff evidence](reports/2026-10-04_henry-sol-ism/owner-adoption-review.md). The dated blocks below preserve earlier context.
+**2026-10-07 — resume after crash recovery:** use [SCRATCH’s operator card](SCRATCH.md#operator-card), the generated clock and pending-decision list. [Recovery closeout](reports/2026-10-07_crash-recovery.md) records three completed owner sessions and their remaining source gaps. The October 7 holdings capture supersedes older holdings snapshots; missing positions are not evidence of a fill. Due NEXUS review and FLG intake maintenance remain unfinished in DOCKET. All earlier blocks below are dated history.
 
 *(Reconciled 2026-10-04 14:25 ET at the `prome-ed` Sunday-afternoon Standard closeout on the desktop, against `WILL_QUEUE.md` § OPEN, `DOCKET.tsv` and the 10/1 post-close mirror; the blocks below it are earlier and stay as dated history.)*
 - **Monday, the one that matters most:** the five QQQ Oct-5 735 puts reach your 3:00 pm stop (TERRY leans sell at the open; HENRY's pre-open read comes first). Also Monday: VULCAN's 8:30 am evidence unlocks WQ-365; the Friday high-yield cell about 10:15 am; your Fidelity Activity view for 9/29 to 10/2 books the expired puts (WQ-347).

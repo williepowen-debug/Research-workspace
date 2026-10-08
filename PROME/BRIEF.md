@@ -11,15 +11,11 @@
 
 ## WRITTEN
 
-2026-10-04 21:54 ET — PROME, Codex Sunday-evening closeout. HENRY’s prospective ISM forecast is adopted and its owner session closed. No trade or fill reported.
-
-*Prior written note:* 2026-10-04 14:25 ET — PROME (`prome-ed`, desktop, Sunday afternoon after a `/clear`; Standard closeout). Scope: OPEC+'s Sunday decision graded by BRENT; the second-opinion read on DAEDALUS's audit of the system's own rulebooks; a hold on one of TERRY's git steps; a reconciliation of PROME's own boot. No trade by PROME; $0 moved by PROME; no fill reported by you.
-
-*Prior:* 2026-10-03 17:3x ET — PROME (`prome-ed`, desktop, Saturday afternoon, the post-`/clear` sitting; Standard closeout). Scope: the boot report on what PROME owed; WALTER's bookmark follow-ons folded into one decision; PROME's own repair backlog ranked for your word; the gate ledger compacted and read twice; the five oversized boot-read files rotated. No trade by PROME; $0 moved by PROME; no fill reported by you; markets closed.
+2026-10-07 — crash recovery and closeout. BOND, BRENT and WALTER delivered their October 5–7 catch-up work and updated relevant owner documents. Their final closeout commits are verified on GitHub. No new trade, fill, threshold or authority from PROME.
 
 ## HEADLINE
 
-**HENRY’s ISM forecast is registered; the result is still ahead.** The owner updates and final closeout were verified in Git and on the remote. The macro forecast can be graded independently; the market-reaction map remains exploratory because its observation source was not secured. No automatic wake or capture is installed. [Verification and remaining obligation](reports/2026-10-04_henry-sol-ism/owner-adoption-review.md); DOCKET L612 owns the dated follow-up. The Monday position priorities remain in the Helm.
+**The recovered research is saved; source gaps remain explicit.** [Verified deliveries and owner closeout evidence](reports/2026-10-07_crash-recovery.md) links the full reports. BOND’s independent FedWatch/OIS comparison remains unavailable; BRENT retains official-settlement, USO-weight and quantified-loss gaps; WALTER retains source and coverage limits. The October 7 broker transcription and the dated obligations in DOCKET govern the next position review. The blocks below are earlier dated history, not fresh quotes or current instructions.
 
 ## SINCE THE 17:3x BRIEF — 10/4 Sunday (2026-10-04 14:25 ET)
 
