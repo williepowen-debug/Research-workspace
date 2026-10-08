@@ -28,6 +28,33 @@ Facts checked before writing (my pulls, 10/8 08:1x ET): `--baserate` at `9813865
 
 **Out of scope — read 2's ⚠️, not fixed (fix ❌ only):** W1 quarter-end draws ≤ $15B read WATCH (design trade-off; goes to Will) · W2 term draws age out of the 14-day headline · W3 zero-bid weeks ⇒ UNGRADEABLE (568 days 2010–15) · W4 7 holiday UNGRADEABLE days · W5 the dead `isinstance(rows, dict)` guard and the lost FRED error text · W6 unknown counterparties not printed · W7 currency / malformed fields · W11 per-row "quiet" · C1 the tenor-onset leg in no script · C2 is answered in the letter only · the deferred `isSmallValue = Y` exclusion · first-read residue #5–#9, #21–#26, #28.
 
-## B. Result
+## B. Result (one pass, 2026-10-08 ~08:2x ET)
 
-*(filled after the edit)*
+**Commits:** conditions `a3e8af6fa` → code `9004d5450` (the script only) → this note + the analysis restatement + the letter (the commit that adds this text).
+
+| AC | Implemented as | Test evidence (the author's own) |
+|---|---|---|
+| AC-X1 | `ops_leg()` / `swpt_leg()` grade each leg alone; `assess()` combines (ALERT from any leg with data is never UNGRADEABLE; PARTIAL rc 3; UNGRADEABLE rc 2 with each leg's state); `run_live()` fetches the legs in separate try blocks and prints a `… leg DOWN` line instead of omitting one | selftest: all 10 cases in §A plus 2 `run_live()` cases (NY Fed down + SWPT $50,000M ⇒ SWPT line + ALERT rc 3; FRED down + $20B op ⇒ op row + "SWPT leg DOWN" + ALERT rc 3). **Real-data regression, daily 2014-01-01 → 2026-10-07 (4,663 days, posting lags applied):** old vs new verdict identical on every day the old code graded; 309 days differ only in the wording of an UNGRADEABLE line. **Real-data outage replay:** on the 266 real ALERT days, `9813865aa` printed UNGRADEABLE under either outage on all 266; the new code keeps the working leg's grade — FRED down: 82 ALERT · 42 ORANGE · 32 WATCH (all rc 3) and 110 UNGRADEABLE, where the ALERT lived only on SWPT; NY Fed down: 245 ALERT (rc 3) and 21 UNGRADEABLE, where it lived only on the ops. On 229 WATCH and 21 ORANGE days the same holds. **0 violations** (no working-leg grade hidden; no "below backstop lines" off a partial) |
+| AC-X2 | `baserate()` fetches both histories first; < 1,000 NY Fed ops since 2010 or < 900 SWPT rows since 2007, or any exception ⇒ `UNGRADEABLE: --baserate <leg> leg failed …`, rc 2, no counts; returns `RC_OK` on success; `main()` returns an int on every path | selftest: FRED stubbed down ⇒ rc 2, no "weeks ALERT since" line; NY Fed stubbed down ⇒ rc 2, no counts. Live `--baserate` (prefixed, WITHHELD) ⇒ underlying rc 0, figures equal to the pre-edit run |
+| AC-X3 | the code comment at `SWPT_TURN_ALERT_M` now says "CALM years only" and names the suppressed stress weeks; `--baserate` prints `SWPT turn-window cost (X3): 248 of 1031 weeks (24.1%) …` with the 10 weeks, and an UN-adjusted comparison line (episode starts 2007-12-26 · 2008-04-02 · 2011-12-14 · 2017-12-27 · 2020-03-25 · 2020-12-16 · 2022-10-26 — no 2012-10 start). No line moved | live `--baserate` output matches §A's fact check exactly |
+| AC-X4 | `analysis/2026-10-01_eurusd-basis-instrument.md`: §4 header, acceptance #2, #3, #6, "235" → 236, §5 rows and heading, §7a AC7 row (X3), WITHHELD block pointer (`inbox/` → `inbox/processed/`) | grep: every remaining "excluded" in that file is dated history (the WITHHELD block's description of X4, §3's "the original 'excluded by design'", §4 #2's pointer to history, §7a's "Letter clause, re-settled") |
+| AC-X5 | `analysis/2026-10-08_usd-swapline-LETTER.md` — supersedes the three 10/1 texts by name; HANS's legs tagged; the turn bound and the $0.1B floor marked not seen / not agreed by HANS; the tenor onset UNREVIEWED; §6 carries read 2's plain-words risks; §7 maps each clause to a function or to "not computed by any script" | read against the code by me, clause by clause (§7) |
+| AC-D2 | `WITHHELD = True` + `WITHHELD_WHY`; `main()` refuses first (no network), rc 4; `--baserate` / `--force-withheld-test` run through `_prefixed()`, every line `WITHHELD-TEST:`, rc 4; `--selftest` unchanged in behaviour | selftest: refusal with all three network paths raising ⇒ rc 4, zero network calls; real-ALERT feeds while WITHHELD ⇒ refusal, no "ALERT" text; `--force-withheld-test` ⇒ every line prefixed, rc 4. **CATO's own probe, pinned at `9004d5450` (my copy re-pointed at that sha, otherwise unchanged): `return_code 4`, `withheld_banner true`** (at `dc4c37b43`: 0 / false). Live default run ⇒ refusal, rc 4 |
+
+**`--selftest`: 48/48** (32 pre-existing, unchanged, all pass + 16 new).
+
+**The four states (WQ-229), never merged:**
+- **IMPLEMENTED:** ✅ X1 · X2 · X3 · X4 · X5 · D2.
+- **TESTED:** ✅ by the author. That means the selftest, a real-data daily regression, a real-data outage replay, the live runs and CATO's probe, re-pointed. These are my tests, so they establish *implemented*, not *verified*.
+- **INDEPENDENTLY VERIFIED:** ❌ **NO.** That waits on PROME's read 3, the LAST read of this episode. A change after read 3 is unreviewed and will be labelled so; the row then closes on a disposition, not a fourth read.
+- **STILL UNRESOLVED:**
+  - every ⚠️ listed in §A "Out of scope";
+  - HANS has not answered the 10/1 floor / turn-bound packet (still unconsumed in `AGENTS/HANS/inbox/` at 08:2x ET 10/8);
+  - the tenor-onset leg is in no script;
+  - the KB-LIQ-142 cached-copy class on SWPT inside 10 days is not detected;
+  - the instrument stays **WITHHELD**.
+
+**What read 3 should try to break (the author's guess at the weak points, offered, not a scope):**
+- the `label()` STALE wording when BOTH legs read ALERT and one is stale (it names no STALE, because a fresh ALERT exists);
+- the 1,000 / 900 history floors in `--baserate` (chosen against 1,560 NY Fed ops since 2010 and 1,031 SWPT rows since 2007, both counted 10/8);
+- whether ORANGE from a healthy ops leg should outrank a STALE SWPT ALERT (today ALERT wins).

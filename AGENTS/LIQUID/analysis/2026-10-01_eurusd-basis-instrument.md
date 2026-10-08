@@ -2,7 +2,9 @@
 
 *(Title changed 2026-10-02 08:3x ET. It ended "today quiet", a reading the WITHHELD block below withdraws. CATO D2 found the same text in the STATUS header, which was reconciled the same day.)*
 
-⛔ **WITHHELD 2026-10-01 13:3x ET (PROME result read 2, `AGENTS/LIQUID/inbox/2026-10-01_from-PROME_usd-swapline-result-read-2-WITHHELD.md`, commit 2493065a9): `scripts/usd_swapline.py` and its proposed letter are NOT for operational use and are NOT to be cited as a reading.** The read closed all 8 first-read defects but found 5 new ones: 2 ACTION, both created by the fix pass (X1 fail-closed ordering prints UNGRADEABLE over a real ALERT when the other leg is down or stale; X2 `--baserate` passes silently with FRED down), and 3 BASIS (X3 the SWPT turn window hides the 2007-12 and 2012-09/10 stress weeks, unsaid; X4 stale "excluded" text beside the new rule; X5 no single consolidated letter). **Fix pass + ONE consolidated letter + the LAST read = DOCKET L568, dated 10/07.** The EUR→USD funding read stays UNMEASURED until then. Last reliable state: the §1 negatives (no free quoted basis) hold; no instrument is in use.
+⛔ **WITHHELD 2026-10-01 13:3x ET (PROME result read 2, `AGENTS/LIQUID/inbox/processed/2026-10-01_from-PROME_usd-swapline-result-read-2-WITHHELD.md`, commit 2493065a9): `scripts/usd_swapline.py` and its proposed letter are NOT for operational use and are NOT to be cited as a reading.** The read closed all 8 first-read defects but found 5 new ones: 2 ACTION, both created by the fix pass (X1 fail-closed ordering prints UNGRADEABLE over a real ALERT when the other leg is down or stale; X2 `--baserate` passes silently with FRED down), and 3 BASIS (X3 the SWPT turn window hides the 2007-12 and 2012-09/10 stress weeks, unsaid; X4 stale "excluded" text beside the new rule; X5 no single consolidated letter). **Fix pass + ONE consolidated letter + the LAST read = DOCKET L568, dated 10/07.** The EUR→USD funding read stays UNMEASURED until then. Last reliable state: the §1 negatives (no free quoted basis) hold; no instrument is in use.
+
+**L568 fix pass, 2026-10-08 (LIQUID):** acceptance conditions `a3e8af6fa` (committed before the code) → code `9004d5450` (X1 · X2 · X3 · CATO D2; the tool now refuses a default run, exit 4) → this file's §4–§5 and §7a restated (X4/X3) → **the ONE consolidated letter: `analysis/2026-10-08_usd-swapline-LETTER.md`** (X5). Change note with the four states: `analysis/2026-10-08_usd-swapline-L568-change-note.md`. **States: IMPLEMENTED · TESTED (author's own). NOT independently verified. Still WITHHELD until PROME's read 3, the last of the episode's budget.**
 
 **LIQUID · 2026-10-01 ~13:0x ET · PROME touch 4 on Will's word ("go for the six", 12:49 ET).** Co-owned with HANS: proposed split sent by SendMessage at 12:50 (LIQUID = US side / usage; HANS = European side / any quoted basis, HANS-T-12); my pulls sent to HANS at 12:59. No reply from HANS at writing. $0 · no trade · no threshold registered · X1 CLOSED.
 
@@ -40,27 +42,27 @@ The swap line lends at **OIS + 25bp** (the 9/23 op priced 4.15% against SOFR 3.8
 
 ## 4. PROPOSED lines (⛔ NOT registered; Will's word)
 
-| Line | Rule (European counterparty, single op, short turn ops excluded) | Hits 2021H2→now (327 non-turn ops) | Hits 2014–19 (235) |
+| Line | Rule (European counterparty, single op; turn ops graded on their own TURN lines, never dropped) | Hits 2021H2→now (non-turn ops; n reprints from `--baserate`, 328 on 2026-10-08) | Hits 2014–19 (236 non-turn ops) |
 |---|---|---|---|
 | **WATCH** (a look, no route) | non-turn op ≥ **$1.0B** and < $5B · turn op ≥ $5.0B | **1** (SNB $3.10B [2022-10-05]) | 15 non-turn (Apr 2016 → Mar 2017; 8 in Aug–Dec 2016) + 3 turn |
 | **ALERT** (route via WALTER) | non-turn op ≥ **$5.0B** · turn op ≥ **$15.0B** · SWPT ≥ **$10,000M** outside a turn window (≥ $15,000M inside one: as-of QE −7 … +14 days) | **2 ops + SWPT 2022-10-26, one episode** (SNB Oct 2022) | **0** (under the old un-adjusted SWPT rule: 1 episode, the 2017 year-end, 2017-12-27 → 2018-01-10, $12.0B, ❌#13) |
 
 **Acceptance conditions, written before any registration (WQ-229 shape):**
 1. Fires on 2020-03 and on Oct 2022 (✓ both at ALERT). The 2023-03 miss is stated on every grade.
-2. Never grades a short quarter-end turn op (✓ 2014–19 turn hits removed; the 9/23 op is labelled "turn op, excluded").
-3. Fails closed: a failed fetch prints `UNGRADEABLE`, never "quiet" (✓ observed twice today, live).
+2. Turn ops (term ≤ 21 days, settle ≤ QE < maturity) are graded on their own lines, TURN-WATCH ≥ $5.0B · TURN-ALERT ≥ $15.0B, and are never dropped; the 9/23 op prints "turn op, below turn lines". *(Replaced 2026-10-08, L568 X4; the original "never grades … excluded" text is history, §7.)*
+3. Fails closed, leg by leg (L568 X1): each leg (NY Fed ops · FRED SWPT) is graded on its own. A leg that is down or stale never produces "below backstop lines"; with no WATCH-or-above on a working leg the verdict is `UNGRADEABLE` (exit 2); a working leg's WATCH/ORANGE/ALERT survives a dead leg as `PARTIAL` (exit 3), and a stale leg's ALERT is printed as ALERT, labelled STALE.
 4. Grades on the trade date and states the posting lag. An op is visible about T+1, and SWPT only on Thursday.
 5. Prints PROPOSED on every line until Will rules (✓).
-6. **Not yet done:** an independent reader (a consequential instrument under WQ-229) and a `--selftest` set. Both are owed before any registration.
+6. `--selftest` exists (48 checks at `9004d5450`). Independent reads 1 and 2 ran 10/1; **read 3, the last of the budget, is PROME's and is still owed** before any registration.
 
-## 5. Today's reading
+## 5. The 10/1 reading (historical: written before the WITHHELD ruling; ⛔ not a current reading, not to be cited)
 
 | Read | Value | Grade |
 |---|---|---|
-| ECB 7-day op, trade 9/23 (matures 10/1) | **$0.197B @ 4.15%** | turn op (spans 9/30), excluded; ≈ the 2024–26 p95 for an ordinary op anyway |
+| ECB 7-day op, trade 9/23 (settles 9/24, matures 10/1) | **$0.197B @ 4.15%** | turn op (spans 9/30), below turn lines; ≈ the 2024–26 p95 for an ordinary op anyway |
 | ECB 7-day op, trade 9/16 | $0.072B @ 4.11% | quiet |
-| BoE, trade 9/23 | $0.010B | turn op, excluded |
-| SWPT as-of 9/23 | **$72M** (lowest of the last 13 weeks; $94M [9/16]) | quiet |
+| BoE, trade 9/23 | $0.010B | turn op, below turn lines |
+| SWPT as-of 9/23 | **$72M** (lowest of the last 13 weeks; $94M [9/16]) | below line (turn window) |
 
 **⇒ Nothing. No European draw on the Fed line through 9/23.** ⚠️ **The reading cannot yet see 10/01's periphery widening.** The 9/30 op (posts ~16:00 ET today) was bid before the move. **The first op that can show it trades 10/7 and posts 10/8;** SWPT as-of 10/7 publishes 10/8. And because usage is ceiling-bound, a quiet read after 10/7 would mean "the basis has not reached the backstop", not "no dollar strain".
 
@@ -102,7 +104,7 @@ The reader read a2933c095 and was re-pointed at 7ad941929. **Checked each ❌ ag
 | AC4 | ✅ | **real-data replays**: 2020-03-27 (31 European ops) and 2020-03-31 (36) → ALERT. The live run prints all 10 European ops in 60 days (no row cap); the headline names the newest European op and the SWPT as-of |
 | AC5 | ✅ | selftest; real 2020-03-31 ECB $2.95B and BoE $3.50B (trade 3/31, settle 4/1) now grade WATCH, not turn |
 | AC6 | ✅ | `--baserate`: TURN-ALERT = 2011-12-21 $33.0B, 2020-03-25 $17.27B only; the calm max $11.91B is TURN-WATCH |
-| AC7 | ✅ | `--baserate`: SWPT episodes 2008-01, 2008-04, 2011-12, 2012-10, 2020-03, 2020-12 (the tail of the 2020 regime, $10.0B), 2022-10. The 2017 year-end is no longer an ALERT |
+| AC7 | ✅ | `--baserate`: SWPT episodes 2008-01, 2008-04, 2011-12, 2012-10, 2020-03, 2020-12 (the tail of the 2020 regime, $10.0B), 2022-10. The 2017 year-end is no longer an ALERT. ⚠️ **Restated 2026-10-08 (read 2 ❌ X3, figures from `--baserate` at `9004d5450`):** the turn window also suppresses stress weeks. **2007-12-26 $14,000M** (the first GFC draw week) reads below line, so the GFC onset reads **2008-01-02, one week late**; **2012-09-26 … 10-10 ($12.5–14.7B)** read below line, which splits the 2011–12 episode — **"2012-10" is NOT a new episode** (on the un-adjusted $10B line the 2011-12-14 episode runs straight through). The window holds **248 of 1,031 weeks (24.1%)** since 2007. The $15B in-window line stands as PROPOSED; Will rules it knowing this |
 | AC8 | ✅ | §3 and §4 restated in place (replaced, with the reason inline) |
 
 **States (WQ-229): IMPLEMENTED ✅ · TESTED ✅** (selftest 32/32, live, `--baserate`, two real-data replays) · **INDEPENDENTLY VERIFIED: NO**, pending PROME's result read (read 2 of 3) · **STILL UNRESOLVED:** the ⚠️ residue below, and the turn bound is not yet seen by HANS.
