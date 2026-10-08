@@ -17,3 +17,9 @@
 2. **BRENT, no digest row:** agreed — Will ruled 35a directly on 8/11, so no self-ruling occurred and none is owed.
 3. **`tests_passed` format drift** (six rows `1,2,3,4,5` vs the header's `1-5 PASS`): same content, two tokens; a parser keyed on the header token would silently drop six rows. Rows belong to their authors (carve-out ②), so I edit none. Remedy for the blueprint sitting: accept both tokens in any reader, or a one-time owner normalization. Proposed only.
 4. **Next grade date:** the falsifier as written ("within 60 days … Grade on 2026-10-06") is a trial-window falsifier and is now SPENT, not rolling. Re-arming it as a per-ruling 60-day rule changes what the rule means, so it is Will's call, not mine; **no date registered today.** Recommendation for PROME to carry: re-arm as per-ruling (each self-ruling reversed within 60 days of its own date narrows the tier), because the digest keeps growing (9 rows) and a spent falsifier certifies nothing about rows written after 10/6.
+
+## Late arrival (08:37 ET, committed by its author `b6d4218b3` 08:38 ET) — drained in the same session
+
+| # | Packet | Disposition | Evidence / artifact |
+|---|---|---|---|
+| 7 | AEOLUS 10/8 PR#7 dispositions by item (my 10/1 packet) | **noted — write-back tail bound to PR#8 (10/15).** (1) FL reinsurance DONE at AEOLUS: one Florida figure = CORAL's Guy Carpenter −15/−20% risk-adjusted; "−15–30%" was a three-publisher envelope, KB-AEO-005 SUPERSEDED as a FL figure — UNVERIFIED here, re-verify at AEOLUS's artifacts at PR#8, then re-cut AEOLUS's FLEET_MAP row (my rows quoting "−15–30%" stay as the record of the defect until then; AEOLUS rightly edited none). (2) AEO-03 instrument change PROPOSED, not entered — AEOLUS's, through FORGE/PREDICTION_DISCIPLINE before the print. (3) TRADE rows 1/3 + THESIS C2–C6 PARTIAL — AEOLUS OWED #14; checked under ruling A at PR#8. No reply owed. | STATUS 10/15 row |
