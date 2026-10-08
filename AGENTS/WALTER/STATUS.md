@@ -1,6 +1,6 @@
 # WALTER STATUS
 
-**Updated 2026-10-08 08:4x ET — Will-launched boot (Claude Code, Opus 5.5, laptop), Tier-1 light closeout before Will's fresh-context reboot; full closeout deferred.** BOARD 1255; 16 outputs today (SIG-W-20261008-001…016: 14 news/research + 2 additive corrections), 2 kills, 1 verify-research spawn (Iran full sweep); 0 cluster-mediating. **Next session first: UK gilt CLOSES → HANS/BOND card (LAST_COMPLETION addendum).** Bookmark batch BM-20261008-01 97/97 and lane batch BM-20261008-02 14/14 CLOSED. Boot coverage PARTIAL (named in LAST_COMPLETION addendum). Commits local; PROME serializes push.
+**Updated 2026-10-08 ~10:0x ET — second 10/8 session (`walter-71`, Claude Code, Opus 5.5, laptop; booted 08:53 ET after Will's fresh-context reboot); Tier-1 light, full closeout deferred.** BOARD 1257; 18 outputs today (SIG-W-20261008-001…018: 14 news/research, 2 additive corrections, the OZK cause update `-017`, the Iraq correction re-delivery `-018`), 2 kills, 1 verify-research spawn; 0 cluster-mediating. **UK gilt closes: HANS/BOND grade them on their own letters; a WALTER card only if a genuine input gap remains (CONDITIONAL — LAST_COMPLETION).** WQ-393 encoded + backfilled. **No broad news sweep since the 10/7 catch-up (cutoff 18:04 ET).** Boot coverage PARTIAL (named in LAST_COMPLETION). Later commits local; PROME serializes push.
 
 ## BOTTOM LINE
 
@@ -14,10 +14,10 @@ Oil jumped ~5% overnight (Dec Brent ~$104.7) on three named drivers — a record
 |VIX / SKEW|VIXCLS 15.01 [10/6]; ^VIX 15.73 intraday 10/8 (second witness only). SKEW 141.84 [10/7]. FT-06 FIRED-BANKED, exit ≥18 0/5.|
 |Claims / 5y5y|ICSA **197,000 [w/e 10/3, DOL release 10/8 08:30 ET, graded by LABOR at primary 08:36 ET]**; 4-wk MA 198,000; CC 1,716,000. RED-FT-05 (>250K) and REG-T-05 (>300K) not fired. T5YIFR 2.35 [10/7].|
 |Rates|DGS30 5.64 / DGS10 5.27 [10/6]; FT-11 30Y 5-session Δ +5bp (no precondition). SOFR 3.90 [10/6] vs IORB 3.90 → 0bp.|
-|Oil (named contracts)|BZZ26 $104.70 / CLX26 $92.37, ~+4.5% at ~12:00Z 10/8 (fetch.py; BZ identity UNKNOWN by name-cut). Boundaries #6/#8 NOT computed (month basis). Cushing 24.745M [w/e 10/2]; next WPSR Thu 10/15 noon.|
+|Oil (named contracts)|BZZ26 $104.86 / CLX26 $92.44 / CLZ26 $91.38, ~+4.7% at ~12:57Z 10/8 (fetch.py; BZ identity UNKNOWN by name-cut). Boundaries #6/#8 NOT computed (month basis). Cushing 24.745M [w/e 10/2]; next WPSR Thu 10/15 noon.|
 |Freight|TD3C verified $1,221,893/day [10/2]; secondary chart ~$1.33M (record, posted 10/7). Weekly publisher review due Fri 10/9.|
 |Banks|KRE $68.89, WAL $74.35, OZK $43.56 [10/7 closes]. REG-T-02 cycle 2 FIRED 9/1, still inside (re-entries). OZK below its own <$45 band 10/6–10/7 (-003).|
-|HANS|UK 30Y 6.007% / UK 10Y 5.49% intraday 10/8 (TE) vs T-13 >6.00 / T-06 >5.50 on the CLOSE — today's London close decides. Bund 3.51% (watch open; orange 3.75). TTF Nov 79.14 (L1/L2 open). EURUSD 1.12. Storage gap NOT pulled today (−15.10pp [gas day 10/6] carried).|
+|HANS|UK 30Y ~6.00% (TE 5.996–6.01, page internally inconsistent) / UK 10Y 5.48% intraday ~13:0xZ 10/8 (TE; prior closes 5.98 / 5.43 [10/7]) vs T-13 >6.00 / T-06 >5.50 on the CLOSE — today's London close decides; HANS/BOND grade. Bund 3.51% (watch open; orange 3.75). TTF Nov 79.25 ~13:00Z. TTF Nov 79.14 (L1/L2 open). EURUSD 1.12. Storage gap NOT pulled today (−15.10pp [gas day 10/6] carried).|
 |Iran|FULL SWEEP 2026-10-08 (-014); next ~10/15. Anchor re-stamped 20,926 B.|
 
 ## MISSION
