@@ -1,5 +1,8 @@
 # Falsification Freshness Sweep — RUN #3, 2026-09-17 (Thu) — DAEDALUS (cadence 21d, +4d over; on Will's 09:2x word)
 
+> ⚠️ **CORRECTIONS (2026-10-08 16:34 EDT, from run #4 `runs/2026-10-08_FALSIFICATION_SWEEP_04.md`):** (1) This record names CREED, ZHAO and HANS as negative-resolution owners, but no packet carried the ask (ZHAO's and HANS's packets omitted it; CREED had no packet). HANS's ask went out 10/8. (2) The SHADE verdict counted the `CLAUDE.md:48` "Kill Paths" as a falsification rail. They are confirm-side (how the bear thesis plays out), so SHADE carried no thesis-level falsifier. (3) The conclusion that the scanner now catches only header lag no longer holds (run #4 F-E). The text below is unchanged.
+
+
 **Playbook:** `sweeps/FALSIFICATION_SWEEP.md`. **Method:** mechanized detection first (`scripts/falsification_scan.py`, raw output → session scratchpad, verdict table reproduced below), then a **judgment read of every flag by a non-owner reader** — the six Production Review #6 cohort readers carried step 5 (flag reads, F1 bucket, F5 bucket) and step 6 (the negative-resolution leg, deferred from run #2) for their desks; DAEDALUS re-verified the two withdrawals at the artifact headers. Evidence: `upgrades/PRODUCTION_REVIEW_2026-09-17_READER_R1…R6*.md` (per-desk §5 and §6).
 
 ## 0. Verdict in one line
