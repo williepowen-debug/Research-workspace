@@ -21,6 +21,8 @@ word_count: 241
 dispatch_note: Near-trigger, not a fire: T-13 is graded on the benchmark DAILY CLOSE and the registry chain is BOND action / HANS. The Budget-date correction is decision-changing for HANS's LDI carry (STATUS row 2026-11-26) and is sent as action. The 10/7 close is DERIVED (6.007 minus 0.028), not a printed close. No band, gate or trade changed.
 ---
 
+> 🔴 **CORRECTED — see `SIG-W-20261008-021` (2026-10-08):** §3's Japan labels are wrong on the MOF basis. JGB 10Y 3.111% (10/7) is the highest since Aug 1996, NOT an all-time high; the 30Y record is 4.168% on 10/6, not 4.24% on 10/5. The gilt near-fire and the UK Budget 10/28 correction HOLD.
+
 # UK 30Y gilt 6.007% this morning — today's close decides HANS-T-13 (>6.00); 10/7 closed ~5.98 after a 6.034% touch. AND the UK Budget is 28 October, not 26 November
 
 **1 — HANS-T-13 (UK 30Y gilt, >6.00% orange, on the daily CLOSE):**
