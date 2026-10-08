@@ -6,6 +6,11 @@
 
 ## Changelog
 
+### 2026-10-08 (a) — STATE_VOCABULARY corrected for an unbuilt scanner render; standards-adjacent changes from the 10/08 sweeps (PAIRING RECORDED LATE)
+- **Late pairing, stated rather than hidden:** commit `d90042830` (Falsification #4 self-inclusion leg) edited `BLUEPRINTS/STATE_VOCABULARY.md:261` without this file in the same commit (PAT-101 rule ii). `complete_check` caught it at closeout; this entry documents the change, and the historical failure stays visible in today's window by design.
+- **The change:** `STATE_VOCABULARY.md:261` said `falsification_scan.py` "gains the per-leg CANNOT-FIRE render" at sweep #3 (~9/14). `grep -c CANNOT-FIRE` on the script = 0: a plan stated as fact for 24 days. Replaced with "NOT BUILT", owed with the scanner fixes (`runs/2026-10-08_FALSIFICATION_SWEEP_04.md` self-inclusion S1).
+- **Related, not blueprint files (so no pairing owed), recorded for the standard's history:** sweep playbooks gained four method rules (Wiring ⑰ i–iv incl. "a next step is a packet or it did not happen"; Falsification write-back check "every named owner appears in a packet carrying the ask"; Gate-Basis perimeter = published-series-keyed regardless of the `scannable` tag, strangers read STATUS when it is the definition surface, ALFRED compared on values, step 6 threshold ≤80%). Two new shared checks: `corrections_boot_check.py --write-compliance` (WQ-393) and `scripts/brief_pin_check.py` (amendment 11); the receipt writer requires the 9/17 fields (WQ-399, Will).
+
 ### 2026-10-03 (a) — October 2 SL-6 and ladder readings recorded late; registration consumer reconciled
 
 **PAIRING, LATE:** `0cc007f28` encoded SL-6 on October 2 without EVOLUTION in the same commit. This entry restores the change record; it does not rewrite that commit or make `complete_check --since 2026-10-02` clean. Will authorized catch-up steps 1–2 October 3. Provenance: WQ-295 R4 (Will September 26, preserve conflicting evidence; later publication date alone never decides authority); WQ-354 (Will October 1, adjudicator named by PROME and not the owner; recurring 90 days since last disposition check); WQ-358 ratifies PR#7 ladder readings A/B. Primary artifacts and counterexamples are in `runs/2026-10-03_STANDARDS_SLATE_READER_REPORTS.md` §A.
