@@ -161,6 +161,13 @@ Schedule RI-B Part II, FLG, 2026 H1 — **ties to the dollar**: begin $1,029,999
 
 ---
 
+## 3e. NOTES FROM THE 9/27 CRE→BANK WORK (written back 2026-10-07). **No score moved.**
+
+1. **VLY concentration is flattered UP by co-ops.** About **25pp of VLY's ~320% SR 07-1 ratio is co-op lending at a 12% LTV** ($1.8B ÷ implied capital ≈ $7.1B; DERIVED). Co-ops are regulated as CRE but are low-loss blanket mortgages. **Ex-co-ops the ratio is ~292%, under the 300% line.** VLY's channel-1 points are unchanged by rule (the matrix scores the regulatory ratio); a reader comparing VLY to FLG/EGBN should know the gap. Source: `reports/2026-09-27_VLY_CRE_transmission.md` §(2) [VLY Q2 deck s4/s29].
+2. **PFBC (Preferred Bank, cert 33539) is OUTSIDE this cohort and would carry channel-1 points** (CRE 357% + uninsured 50%, FDIC API Call Report 6/30/26). It surfaced through the Nano Banc forensics (shared Makhijani collateral), not through this screen — **a blind-spot example of cohort selection** (§7 "cohort ≠ population"; ROADMAP cohort-selection thread; `KB ML-REG-173`). Not added: a mid-instrument re-cut silently changes what every prior figure means; decide at the 11/07 run.
+
+---
+
 ## 4. 🔴 REPORTED, NOT SCORED — and a 0 here is NOT a clean bill of health
 
 **These are measured at the primary and carried on every row, but they DO NOT enter the score, because no defensible band exists.** Scoring them would be inventing a threshold.
