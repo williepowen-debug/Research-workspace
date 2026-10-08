@@ -11,7 +11,7 @@ Steps 12–16 run in charter order (registry before network). Boot coverage rema
 - **Instruments:** `tools/closeout_check.py` now runs R1 write-compliance (rc 1 → REVIEW, rc 2 → UNKNOWN); `walter_doctor.py` gained `full_closeout_owed` (DAEDALUS Prose-Remedy #1). Both exercised on fixtures before commit.
 - **Will's Fidelity capture (15:26 ET):** transcribed verbatim, tied to the cent ($34,650.69), routed to PROME; ANVIL reconciled (`ef2bc83f1`), PROME relayed the fills to TERRY. Batch BM-20261008-04 CLOSED 2/2.
 - **X token:** installed from Will's USB stick into the gitignored `AGENTS/WALTER/.env`; the first scan rotated it; refreshed copy written back to `E:\walter-env.txt` (hash-matched). Rule recorded at `design/X_BOOKMARKS_ACCEPTANCE.md` (Token never in git).
-- **Laptop evening (`walter-c9`):** X token re-installed from Will's USB stick (`E:\walter-env.txt`, written 17:20 ET, after the desktop's 17:19 scan). Windows and WSL sha256 matched, and only the two X token values differed (Bright Data key unchanged). The 7h scan did not rotate the token, so the stick stays current. BOND packet (step 7g, before intake) → `-041` CORRECTION to `-036`: 5.618% is the highest 30Y stop since 2000-08-10 (5.697%), re-queried at Treasury directly; R1 row COR-20261008-41 in the same commit. Lane batch 20:24Z → BM-20261008-06 CLOSED 18/18 (BM-20261008-05 closed as a superseded miscount: declared 17, actual 18). A verify-research subagent (Opus) read the bodies (`research/2026-10-08_laptop-evening/intake-verify.md`) → `-042` refining (Dallas Fed + Will's Isaias bookmark), `-043` Yanbu "study phase", `-044` Broadcom–OpenAI financing with an open basis question on `-006`'s $42B. 8 DUP, 3 KILL. REGISTRY HANS row refreshed from its 10/8 commit. The delivery log for `-041` was reconciled after PROME's push.
+- **Laptop evening (`walter-c9`):** X token re-installed from Will's USB stick (`E:\walter-env.txt`, written 17:20 ET, after the desktop's 17:19 scan). Windows and WSL sha256 matched, and only the two X token values differed (Bright Data key unchanged). The 7h scan did not rotate the token, so the stick stays current. BOND packet (step 7g, before intake) → `-041` CORRECTION to `-036`: 5.618% is the highest 30Y stop since 2000-08-10 (5.697%), re-queried at Treasury directly; R1 row COR-20261008-41 in the same commit. Lane batch 20:24Z → BM-20261008-06 CLOSED 18/18 (BM-20261008-05 closed as a superseded miscount: declared 17, actual 18). A verify-research subagent (Opus) read the bodies (`research/2026-10-08_laptop-evening/intake-verify.md`) → `-042` refining (Dallas Fed + Will's Isaias bookmark), `-043` Yanbu "study phase", `-044` Broadcom–OpenAI financing with an open basis question on `-006`'s $42B. 8 DUP, 3 KILL. REGISTRY HANS row refreshed from its 10/8 commit. The delivery log for `-041` was reconciled after PROME's push. **After the light closeout, on CATO's review (relayed by Will at 19:23 ET):** `-045` ROUTINE, information to the union of `-006` and `-044` (VULCAN, BROCK, CREED, WATT, HENRY, LIQUID; PROME via ID-diff). `-006`'s "up to $42B Broadcom convertible notes" HOLDS per Reuters' review of the prospectus (CNBC 10/1). It is separate from the $42B senior tranche of Bloomberg's $60B bank package, and no source links the two. A BOARD-only additive note on `-042` says the 6–8 mb/d already lost and the ~0.5 mb/d exposed to Isaias must not be added. CATO's report that `3b6121e7f` was pushed was verified by fresh fetch.
 - **Continuity:** REGISTRY (CORAL at boot; BRENT/BOND/TERRY at closeout) · STATUS re-cut (bottom line, dated levels, regenerated network) · SESSION_LOG full entry · MEMORY finding #44 rotated verbatim (split_verify CONSERVED), #29 n=7, session notes · Iran anchor 10/08 LATE LIMB (22,940 B) · tanker STATE.csv holdings row → 10/8 capture · delivery_log reconciled 188/188.
 
 ## RESULT
@@ -29,7 +29,7 @@ No new decision requested by WALTER. Existing execution duties, all Will's on TE
 
 ## FOLLOW-UP
 1. **Fri 10/9:** weekly tanker freight/insurance review (`research/tanker-cost-watch/WATCH.md`); Isaias landfall late Fri (BRENT; AEOLUS/CORAL on their Saturday rows L627/L638); OZK RaDD bridge maturity (`-017`); FERT11 owner grade; CFTC 10/6 vintage ~15:30 ET; FDIC Nano P&A / Cable One MBI evidence clocks. HANS grades the 10/8 gilt closes (DOCKET L637). **Laptop evening adds:** check CBOE's 10/8 SKEW print (Yahoo provisional 149.19) against RED-FT-10 ≥150 (RED grades; VIOLET/PROME on the chain); BRENT to flag any refinery announcement before Isaias landfall (`-042`).
-2. **CORAL:** confirm or kill the Pembroke Lakes foreclosure claim (`-040`). **VULCAN/BROCK:** check `-006`'s "up to $42B Broadcom convertible notes" at the Anthropic filing (`-044` item 2). **WALTER:** Wymore 360 (Altamonte Springs, $33M, BMO 2024-5C8) HELD at grade C, so check the trust's EDGAR distribution report before routing.
+2. **CORAL:** confirm or kill the Pembroke Lakes foreclosure claim (`-040`). **`-044` item 2 is discharged by `-045`** at the level of Reuters' review of the prospectus. WALTER has not read the prospectus or Broadcom's 10-Q; open either if a figure becomes load-bearing. **WALTER:** Wymore 360 (Altamonte Springs, $33M, BMO 2024-5C8) HELD at grade C, so check the trust's EDGAR distribution report before routing.
 3. **Later:** 10/10 MEMORY.md size check · 10/12 PROME lands the L546 `fetch_fred.py` rounding patch (DOCKET L546; the lane's X1 `>=280` vs LIQUID's `>280` strict, settle at the lane's next touch) · 10/13 KS WARN; NEXUS S1 spec (DOCKET L639): WALTER re-argues its FORUM `08_dissent/04` §5 veto at the artifact · 10/14 Wed CPI; TLT/TBT/HBAN management · 10/15 noon WPSR; next full Iran sweep ~10/15; anchor size check · 10/15–16 LIQ-07 · 10/16 expiries · 10/17 pilot review · WAL Q3 10/19 AMC / call 10/20 noon ET · 10/28 UK Budget; "FifthSt/Fed" (carried verbatim from the 10/7 list; referent not re-established) · 10/29 ECB.
 4. **Source/coverage and owners:** complete the named boot gaps before any full-board clearance; HANS owns its cap remedy. Per-owner evidence is needed for integration of the 10/8 corrections (`-007`, `-016`, `-018`, `-021`) and the WQ-399 notice (`-033`).
 5. **PROME carry:** WQ-369 narrow C8 ruling exists, encode/review separate. Unattended WALTER = WQ-388, UNDECIDED; 10/17 pilot review. CATO roster SPECIAL/manual-only (WQ-255): do not auto-enrol it in routing.
@@ -45,7 +45,7 @@ Publication is bounded to the named commits; delivery is bounded to the 10/8 sig
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-08T22:55:48.415655+00:00",
+  "as_of": "2026-10-08T23:26:46.317427+00:00",
   "publication": [
     {
       "commit": "fe4b8b93e",
@@ -98,17 +98,21 @@ Publication is bounded to the named commits; delivery is bounded to the 10/8 sig
     {
       "commit": "58e46b47f",
       "state": "published"
+    },
+    {
+      "commit": "3b6121e7f",
+      "state": "published"
     }
   ],
   "delivery": {
     "signal_date": "20261008",
-    "total": 202,
+    "total": 208,
     "delivered": 202,
-    "note": "All 202 10/8 handoff paths proven on origin: desktop 188 at its closeout; laptop evening -041 (4) and -042..-044 (10) after PROME's pushes, reconcile_delivery_log --apply, 0 orphans. Delivery is not consumption."
+    "note": "202 proven on origin (desktop 188; laptop -041..-044 14, reconciled after PROME's pushes). -045's 6 rows were written after CATO's review and wait for the next push. Delivery is not consumption."
   },
   "push": {
     "all_walter_commits_on_origin": false,
-    "note": "Every walter-c9 dispatch commit (dd727425f, 58e46b47f) is on origin via PROME's pushes. This light-closeout commit is written after the receipt and rides the next push; WALTER push is Will-coordinated (BOARD_CONSUMPTION_SPEC 7)."
+    "note": "dd727425f, 58e46b47f and 3b6121e7f are on origin (3b6121e7f pushed by CATO, verified by fresh fetch). The -045 commit is written after this receipt and rides the next push; WALTER push is Will-coordinated (BOARD_CONSUMPTION_SPEC 7)."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -125,8 +129,8 @@ Publication is bounded to the named commits; delivery is bounded to the 10/8 sig
       },
       {
         "path": "FORGE/STATUS.md",
-        "sha256": "18075a846ab454343e78486b52367f4dbd29605c36cdcbb16d62d5df0b8c054a",
-        "note": "ANVIL 10/8 reconcile ef2bc83f1 to Will's 15:26 ET capture (755P 2->1, 745P 2->1, NEW 750C); WALTER transcription was the input. Mirror is PROME-owned."
+        "sha256": "964ffd1fccaf231d962d114d3ab1c406daf6d7246b4277531294eb5b1d552272",
+        "note": "ANVIL 10/8 reconcile ef2bc83f1 to Will's 15:26 ET capture (755P 2->1, 745P 2->1, NEW 750C); WALTER transcription was the input. Mirror is PROME-owned. Re-pinned 10/8 ~19:3x ET after PROME's rotation b684f5d33 (10 chunks to _archive): EXPIRING line unchanged (Fri 10/9 QQQ 755P x1 / QQQ 750C x1 / USO 150C x1; Thu 10/15 745P x1 + 740P x4; Fri 10/16 TLT 82P x1 + HBAN 16P x2), so the carried WILL_NEEDS hold."
       }
     ]
   },
@@ -139,7 +143,7 @@ Publication is bounded to the named commits; delivery is bounded to the 10/8 sig
     "Next full Iran sweep ~10/15; MEMORY.md size check 10/10",
     "Boot PARTIAL gaps (all-desk STATUS filter context, HANS storage gap, CREED monthly rows, boundaries 6/8, READS attestation)",
     "Unattended WALTER undecided (WQ-388); 10/17 pilot review",
-    "Laptop evening: CBOE 10/8 SKEW vs RED-FT-10 >=150 (Yahoo provisional 149.19); BRENT refinery announcements before Isaias landfall (-042); VULCAN/BROCK check -006's $42B at the Anthropic filing (-044)",
+    "Laptop evening: CBOE 10/8 SKEW vs RED-FT-10 >=150 (Yahoo provisional 149.19); BRENT refinery announcements before Isaias landfall (-042); -044 item 2 discharged by -045 (-006 holds; prospectus itself not read)",
     "Full closeout deferred: 1 stacked light-closeout breadcrumb (laptop evening); boot_basis re-attestation (8 paths REVIEW REQUIRED)"
   ],
   "next_review": "2026-10-09"
