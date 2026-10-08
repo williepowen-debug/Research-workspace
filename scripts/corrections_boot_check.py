@@ -11,6 +11,9 @@ Boot check:    python3 scripts/corrections_boot_check.py <AGENT>
 Write receipt: python3 scripts/corrections_boot_check.py <AGENT> --receipt <COR-id> \
                    --action APPLIED|NO-OP|DEFERRED|CONTESTED [--note "..."]
 Coverage:      python3 scripts/corrections_boot_check.py --coverage
+Write leg:     python3 scripts/corrections_boot_check.py --write-compliance [--since YYYY-MM-DD]
+                   (WQ-393: correction-class BOARD signals with no register row; default since =
+                   the 2026-10-08 ruling; rc 0 OK / 1 OWED / 2 CANNOT-EVALUATE incl. empty window)
 Fixture overrides (SS3 testing, never mutate real files): --register P --receipts P --today YYYY-MM-DD
 
 rc contract (CHECK_STANDARD SS9):
@@ -272,6 +275,128 @@ def cmd_coverage(root, reg_path):
     return 0
 
 
+# WQ-393 (Will 2026-10-08 ~08:44 ET, "393 - approved"): the R1 row is written by the PUBLISHER in
+# the same commit as the correcting signal. The L210 grade measured the write leg at 51.4-60.0%
+# because the step lived only in prose; this mode is the mechanical half of the re-rule, so a
+# missed row is printed by name at the publisher's closeout instead of found by a 30-day audit.
+WQ393_RULING_DATE = "2026-10-08"
+SIG_FILE_RE = re.compile(r"^(SIG-W-(\d{4})(\d{2})(\d{2})-\d{3})")
+TITLE_MARK_RE = re.compile(r"CORRECTION|RETRACT|ERRATUM|ERRATA|WITHDRAW", re.I)
+EXEMPT_RE = re.compile(r"not correction-class", re.I)
+# A correcting signal named `...-to-YYYYMMDD-NNN-...` identifies the signal it corrects. The desks
+# that RECEIVED the wrong figure are that original's action+info; a row targeting only the
+# correction's own routing misses them (10/8: BRENT on -1004-011, HENRY on -1008-009).
+CORRECTS_RE = re.compile(r"-to-(?:(\d{8})-)?(\d{3})\b")  # same-day form `-to-NNN` = the correcting date
+ROUTE_RE = re.compile(r"^(action|info):\s*\[(.*)\]\s*$")
+
+
+def board_frontmatter(path):
+    """signal_type + dispatch_note from the leading '---' block; ({}, False) if there is none."""
+    lines = path.read_text(errors="replace").splitlines()
+    if not lines or lines[0].strip() != "---":
+        return {}, False
+    fm = {}
+    for ln in lines[1:80]:
+        if ln.strip() == "---":
+            return fm, True
+        k, sep, v = ln.partition(":")
+        if sep and k.strip() in ("signal_type", "dispatch_note"):
+            fm[k.strip()] = v.strip()
+    return fm, False
+
+
+def cmd_write_compliance(board_dir, reg_path, since):
+    """Every correction-class BOARD signal dated >= since must have its id in a register pointer.
+    Correction-class = frontmatter `signal_type: correction` OR a title marker (either alone
+    counts: on 8/27-10/08 21 typed corrections carried no title marker and 5 title-marked ones
+    carried another type). Exempt = `not correction-class` in dispatch_note (BOARD_CONSUMPTION_SPEC
+    v0.33 §3.6 item 4: an UPDATE that changes no published figure says so there)."""
+    rows = load_register(reg_path)
+    registered = {}
+    for r in rows:
+        for sid in re.findall(r"SIG-W-\d{8}-\d{3}", r.get("pointer") or ""):
+            registered[sid] = r
+    if not board_dir.is_dir():
+        die2(f"BOARD dir not found at {board_dir}")
+
+    def recipients(sid):
+        hits = sorted(board_dir.glob(f"{sid}-*.md")) or sorted(board_dir.glob(f"{sid}.md"))
+        if not hits:
+            return None
+        got = set()
+        for ln in hits[0].read_text(errors="replace").splitlines()[:80]:
+            m2 = ROUTE_RE.match(ln.strip())
+            if m2:
+                got.update(t.strip().strip("\"'").upper() for t in m2.group(2).split(",") if t.strip())
+        return got
+
+    short_targets, unresolved = [], 0
+    scanned, owed, exempt, ok_rows, no_fm = 0, [], [], 0, 0
+    for f in sorted(board_dir.iterdir()):
+        m = SIG_FILE_RE.match(f.name)
+        if not m or f.suffix != ".md":
+            continue
+        try:
+            d = date(int(m.group(2)), int(m.group(3)), int(m.group(4)))
+        except ValueError:
+            die2(f"impossible date in BOARD filename {f.name}")
+        if d < since:
+            continue
+        scanned += 1
+        fm, closed = board_frontmatter(f)
+        if not closed:
+            no_fm += 1
+        typed = fm.get("signal_type", "").lower() == "correction"
+        titled = bool(TITLE_MARK_RE.search(f.name))
+        if not (typed or titled):
+            continue
+        sid = m.group(1)
+        basis = "type+title" if typed and titled else ("type" if typed else "title")
+        if sid in registered:
+            ok_rows += 1
+            cm = CORRECTS_RE.search(f.name)
+            orig_id = f"{cm.group(1) or sid[6:14]}-{cm.group(2)}" if cm else None
+            orig = recipients(f"SIG-W-{orig_id}") if cm else None
+            tgt = registered[sid].get("targets") or ""
+            if orig is None:
+                unresolved += 1
+            elif tgt.strip().upper() != "ALL":
+                missing = sorted(orig - {t.strip().upper() for t in tgt.split(",") if t.strip()})
+                if missing:
+                    short_targets.append((sid, registered[sid].get("correction_id", "?"), orig_id, missing))
+        elif EXEMPT_RE.search(fm.get("dispatch_note", "")):
+            exempt.append((sid, basis))
+        else:
+            owed.append((sid, basis, f.name))
+    if scanned == 0:
+        # PAT-155: an empty population passes every universal check. Zero signals in the window
+        # means a wrong --since or an unreadable BOARD, never "fully compliant".
+        die2(f"0 SIG-W files dated >= {since} in {board_dir} — window or BOARD path wrong; "
+             f"an empty population is not compliance")
+    corr = ok_rows + len(exempt) + len(owed)
+    head = (f"since {since} · {scanned} BOARD signal(s) scanned · {corr} correction-class "
+            f"(signal_type: correction OR title marker) · {ok_rows} with a register row · "
+            f"{len(exempt)} exempt (dispatch_note 'not correction-class') · "
+            f"{no_fm} without a closed frontmatter block (title-only basis) · "
+            f"{ok_rows - unresolved} row(s) target-checked against the corrected signal's recipients, "
+            f"{unresolved} not checkable (pointer names no '-to-YYYYMMDD-NNN' original, or it is not on BOARD)")
+    if owed or short_targets:
+        print(f"R1-WRITE 1 OWED: {len(owed)} correction-class signal(s) with NO register row · "
+              f"{len(short_targets)} row(s) whose targets miss a recipient of the corrected signal — {head}")
+        for sid, basis, name in owed:
+            print(f"  ⛔ NO-ROW {sid} [{basis}] {name[:120]}")
+        for sid, cid, orig, missing in short_targets:
+            print(f"  ⛔ SHORT-TARGETS {cid} ({sid} corrects SIG-W-{orig}): received the wrong figure, "
+                  f"not targeted: {','.join(missing)}")
+        print("  → NO-ROW: write the row (BOARD_CONSUMPTION_SPEC §3.6 item 4, same commit as the signal), or put "
+              "'not correction-class: <why>' in its dispatch_note if it changes no published figure. "
+              "SHORT-TARGETS: add the named desks to `targets` (corrected ∪ correcting recipients)")
+        return 1
+    print(f"R1-WRITE 0 OK: every correction-class signal has a register row and every checkable row "
+          f"targets the corrected signal's recipients — {head}")
+    return 0
+
+
 def cmd_selftest():
     """Guard-of-the-guard for the 2026-09-05 header-validation fix (CHECK_STANDARD §3: the
     alert must fire on a capable case AND the clean line print on a clean case). Builds temp
@@ -406,6 +531,8 @@ def main():
     p.add_argument("agent", nargs="?")
     p.add_argument("--receipt"); p.add_argument("--action"); p.add_argument("--note", default="")
     p.add_argument("--coverage", action="store_true")
+    p.add_argument("--write-compliance", action="store_true")
+    p.add_argument("--since", default=WQ393_RULING_DATE); p.add_argument("--board")
     p.add_argument("--selftest", action="store_true")
     p.add_argument("--register"); p.add_argument("--receipts"); p.add_argument("--today")
     a = p.parse_args()
@@ -414,6 +541,9 @@ def main():
     reg = Path(a.register) if a.register else ROOT / "AGENTS/WALTER/registry/CORRECTIONS.tsv"
     if a.coverage:
         sys.exit(cmd_coverage(ROOT, reg))
+    if a.write_compliance:
+        board = Path(a.board) if a.board else ROOT / "BOARD"
+        sys.exit(cmd_write_compliance(board, reg, parse_day("--since", a.since, "cli")))
     if not a.agent:
         p.error("agent name required (or --coverage)")
     # R4 (independent read 2026-09-24): the token was uppercased for validation but not for the
