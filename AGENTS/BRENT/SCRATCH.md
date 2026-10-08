@@ -22,7 +22,7 @@
 7. Carried: China post-holiday guidance (NOT FOUND 10/8, UNKNOWN), Treasury/IRS diesel-tax implementation (10/10), SPR exchange awards; broader WQ-252/HEN-46 owner debt; incident re-verify RF-013/014/022/033 + nine; LESSONS_INDEX semantic reconciliation; routine deployment parked at the CATO handoff.
 
 ## OPEN THREADS / WATCHES
-- 🔴 Hormuz strike rate and transit floor (FALCON owns rungs); Isaias **now a hurricane (85 mph, NHC Adv #8), Cat-2 peak forecast, landfall AL/FL line late Fri–early Sat** (RI harbinger closed-eye vs pre-landfall shear). ⚠️ Reported deepwater evacuations (Shell Mars/Olympus/Ursa/Vito/Appomattox + Chevron 4) are UNVERIFIED single-Substack — evacuation≠damage; verify at companies/BSEE over the weekend. Nudges Scenario-2 readiness; nothing confirmed.
+- 🔴 Hormuz strike rate and transit floor (FALCON owns rungs); Isaias **now a hurricane (85 mph, NHC Adv #8), Cat-2 peak forecast, landfall AL/FL line late Fri–early Sat** (RI harbinger closed-eye vs pre-landfall shear). ⚠️ Reported deepwater evacuations (Shell Mars/Olympus/Ursa/Vito/Appomattox + Chevron 4) are UNVERIFIED single-Substack — evacuation≠damage; verify at companies/BSEE over the weekend. Nudges Scenario-2 readiness; nothing confirmed. AEOLUS primary (Adv#8): deepwater 64-kt odds 35→48% (offshore side up), but Pascagoula on the WEAK side at current track (refinery-damage risk lower unless westward shift) — the two sides of Scenario 2 now diverge.
 - 🟠 Isaias refinery GAP — unresolved until Fri shutdown headlines / weekend restart data. Meraux is Valero's ⇒ double-edged for VLO (throughput − vs crack-margin +); TERRY grades.
 - 🟠 Diesel balance: release barrels mostly not new; product losses unmeasured in runs. Forties >$140 relay not carried.
 - 🟠 Freight: TD3C ~$1.33M/day chart point undated; no freight-to-WTI beta. WALTER Baltic/Gibson weekly review 10/9.
@@ -33,7 +33,7 @@
 - USO 37 sh / VLO 1 sh / USO Oct-09 $150C ×1 per 10/7 capture (time unknown). **USO $150.13 at 15:43Z (WALTER) — now ABOVE the Oct-9 $150 strike** (pre-market was $149.10). Tomorrow's 15:00 ET sell-or-roll rail is TERRY's card (WQ-366 DECLINE), told directly; order = Will. WQ-366/WQ-200/WQ-192 unchanged. No position/rule change this session.
 
 ## MAIL STATE (one line per signal)
-- Inbox: clear at boot; mid-session TWO WALTER ACTION cards arrived and were processed ACTED (board_log rows + git mv to processed/): **SIG-W-20261008-019** (Isaias hurricane upgrade) and **SIG-W-20261008-020** (Iran/Gulf PM: Houthi all-facilities threat, tape +5.6%, USO above strike, Rabigh/Fujairah FALCON items). One correction (COR-20260921-16) receipted NO-OP.
+- Inbox: clear at boot; mid-session THREE cards arrived, all processed ACTED (board_log rows + git mv): WALTER **SIG-W-20261008-019** (Isaias hurricane upgrade), WALTER **SIG-W-20261008-020** (Iran/Gulf PM: Houthi all-facilities threat, tape +5.6%, USO above strike, Rabigh/Fujairah FALCON items), AEOLUS **isaias-adv8-theater-update** (primary NHC read refining the storm geometry — deepwater 64-kt odds 35→48%, Pascagoula on the WEAK side at current track). One correction (COR-20260921-16) receipted NO-OP.
 - Outbox: no live packets.
 
 ## WORKBOOK HEALTH
