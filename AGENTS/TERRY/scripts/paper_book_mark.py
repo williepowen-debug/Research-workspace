@@ -455,8 +455,16 @@ def compute_mark(match, today, now_str):
 
 
 def mark_row(row, today, now_str, fetch=_fetch_chain, spot_fetch=_fetch_spot):
-    """Return (new_mark, new_asof, status_note). Non-fatal on any error."""
-    parsed = parse_legs(row.get("structure"), today)
+    """Return (new_mark, new_asof, status_note). Non-fatal on any error.
+
+    Expiry resolves against the row's OPENED date (same rule as _wf_event_key), and a
+    row past its expiry is NEVER marked. 2026-10-08: resolving "Sep-30" against TODAY
+    rolled an expired 2026 contract to Sep-30-2027 and marked PB-0001 at the 2027 77P's
+    4.25 (was 0.015) with STALE reporting clean — a mark on a different instrument."""
+    opened = _asof_date(row.get("opened"))
+    parsed = parse_legs(row.get("structure"), opened or today)
+    if parsed and parsed.get("expiry") and date.fromisoformat(parsed["expiry"]) < today:
+        return None, None, f"EXPIRED:{parsed['expiry']} — close the row at its expiry outcome"
     if not parsed:
         eq = parse_equity(row.get("structure"))
         if not eq:
@@ -797,6 +805,18 @@ def selftest():
     ]
     got2 = would_fire_90d(post_expiry, date(2026, 10, 5))
     assert got2 == (1, 2), got2
+
+    # 2026-10-08 regression: an expired row must not be marked, and must never be
+    # resolved forward a year (live defect: PB-0001 marked off the Sep-30-2027 77P).
+    def never_fetch(ticker, expiry, opt_type):
+        raise AssertionError(f"expired row pulled a chain: {ticker} {expiry}")
+    mk, asof, note = mark_row(post_expiry[0], date(2026, 10, 8), now, fetch=never_fetch)
+    assert mk is None and note.startswith("EXPIRED:2026-09-30"), (mk, note)
+    mk, asof, note = mark_row(post_expiry[1], date(2026, 10, 8), now, fetch=never_fetch)
+    assert mk is None and note.startswith("EXPIRED:2026-09-30"), (mk, note)
+    # expiry day itself still marks (the contract trades until the close)
+    mk, asof, note = mark_row(post_expiry[0], date(2026, 9, 30), now, fetch=stub_fetch)
+    assert mk == 0.11, (mk, note)
 
     # Fallbacks: unparseable structure -> card_id; no card_id -> paper_id with the
     # split-letter suffix stripped (PB-0009a/PB-0009b -> one event).
