@@ -1,0 +1,335 @@
+  ℹ️  multiple --old against one --new: correct ONLY if all are prior vintages of the SAME figure. To check several DIFFERENT metrics, run separate invocations or --from-ledger (which pairs each metric's own old→current) — mis-pairing manufactures false 🔴s (VIOLET 8/20, 3-of-3).
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 310 files under AGENTS/WALTER/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── HY OAS dated observation · superseded 324, 310 → current 303
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (136)
+        AGENTS/WALTER/SESSION_LOG.md:35  [324]
+           ## 2026-10-04 ~15:53 ET — walter-f0 RE-BOOT (Opus 4.8, terminal, "please boot up") · **light-closeout — full deferred**. Clean boot 0–9b; fi
+        AGENTS/WALTER/SESSION_LOG.md:37  [324]
+           ## 2026-10-03 Sat — `walter-f0` (Opus 4.8, PM relaunch) · **TIER-2 CLOSEOUT** (2026-10-03T22:07:19Z from `date`, Will: "go ahead and proceed
+        AGENTS/WALTER/SESSION_LOG.md:62  [324]
+           > **Friday 2026-10-02 stands at BOARD 1177 (29 signals, `-001`…`-029`; `-029` corrects `-028`'s Brent basis (post-settle; settle-window Bren
+        AGENTS/WALTER/SESSION_LOG.md:68  [324]
+           ## 2026-10-02 Fri — `walter-61` **TIER-2 CLOSEOUT** (2026-10-02T15:56:45Z from `date`, Will: "Lets have WALTER close out here"). Booted ~09:
+        AGENTS/WALTER/research/2026-10-05_boot/prior-LAST_COMPLETION.md:6  [324]
+           1. **Boot COMPLETE (0–9b).** At-boot doctor was **1 HIGH (version_drift) + 5 MED → HIGH FIXED**; 6c NO fire (weekend; **HY 324 [FRED 10/01] 
+        AGENTS/WALTER/research/2026-10-05_boot/prior-STATUS.md:3  [324]
+           **Updated 2026-10-04T19:41Z (from `date`), TIER-2 CLOSEOUT of the `walter-f0` continuation (Opus 4.8, terminal). BOARD 1202 → 1210.** **A Wi
+        AGENTS/WALTER/research/2026-10-05_boot/prior-STATUS.md:7  [324]
+           > 🟢 **RE-BOOT 2026-10-04 ~15:53 ET (Opus 4.8, terminal, walter-f0 continuation). BOARD 1210 → 1215.** Clean boot 0–9b, no registered trigger
+        AGENTS/WALTER/research/2026-10-05_boot/prior-STATUS.md:9  [324]
+           > 🟢 **SESSION 2026-10-04 (Opus 4.8, terminal) — HEADLINE: a working block on the bookmark pipeline, not a market day.** Nothing fired (weeke
+        AGENTS/WALTER/research/2026-10-05_boot/prior-STATUS.md:11  [324]
+           > 🆕 **TIER-1 after the evening REBOOT (2026-10-02T21:05:21Z from `date`; Will terminal "please boot up" ~16:53 ET, boot PARTIAL: boot_basis 
+        AGENTS/WALTER/research/2026-10-05_boot/prior-STATUS.md:13  [324]
+           **Friday 2026-10-02 closes at BOARD 1177 (29 signals, `-001`…`-029`); no WALTER-scanned registered trigger FIRED; one OWNER gate fired: BROC
+        AGENTS/WALTER/research/2026-10-05_boot/prior-STATUS.md:21  [324]
+           | RED-FT-01 / -02 / -12 · REG-T-03 / -04 (HY OAS) | 🔴 **324 bp [FRED obs 10/01, pub 10/02]** (9/30 312 · 9/29 308). **FT-02 / REG-T-03 `>320
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:10  [324]
+           | 2026-10-02 | LIQUID | ALL (via WALTER) | 🔴 | **HY OAS 324bp [FRED obs 10/1, pub 10/2] > 320 send line, ONE print = TAGGED, not "sustained"
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:14  [324]
+           | **Mon Oct 5** 🔴 | **HY >320 PERSISTENCE read: the 10/2 ICE cell** (HY 324 [10/1] = ONE print over the 320 send line, TAGGED, not sustained
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:20  [324]
+           - 🔴 **HY 324 > the 320 send line: ONE print = TAGGED, not "sustained"** (KILL_MEMO CONFIRMATION letter = ">320 sustained"; no session count,
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:26  [324]
+           | **Mon 10/5 ~10:15 ET** | 🔴 **The 10/2 ICE cell: does HY hold >320?** (324 [10/1] = ONE print, TAGGED; signal sent 10/2). Fresh cache or ca
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:28  [324]
+           2026-10-02T14:41:00Z	SIG-W-20261002-005	noted	INBOX_WALTER	My own HY 324 [10/1] signal routed back (de0501531). Checked faithful: ONE print,
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:36  [324]
+           🔴 **[FRED 10/01, pub 10/02 — via LIQUID/WALTER −005, WALTER re-pull] HY 324 · BB 204 · CCC 1,215 · gap 1,011** — every tier wider (+12 / +10
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:38  [324]
+           **LEG STATE [10/2]:** **Leg 1 HY <260 — 324 [FRED 10/01] = 0 of 5, 64bp away and moving away** (⛔ NON-KILL OBSERVABLE, WQ-106) · **Leg 2 VIX
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:40  [324]
+           | HY OAS | **324 [FRED 10/01, pub 10/02]** · 312 [9/30] · 308 [9/29] | >320 | >400 | >500 | 🟡 **OVER YELLOW — ONE print** (first this leg; +
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:42  [324]
+           | HY kill leg ⛔ *observable, H-2* | 324 [FRED 10/01] | <290 | <270 | <260 sust. 5 | NOT FIRED — 0 of 5 |
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:44  [324]
+           | Mon 10/5 → | HY >320 ×3 (RED-FT-02 / REG-T-03, 1 of 3 at 324 [10/1]) — LIQUID/RED own the count; **my watch = CCC/BB 5.956 [10/1] vs FORUM
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:48  [324]
+           - BOARD 10/02: G7 decided up to 100M bbl diesel+crude over 4 months, diesel front-loaded; oil −3–5% (`SIG-W-20261002-009`). HY 324bp on one
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:54  [324]
+           a3d039fbb68995dcd1d4a9bfe64495a2b5b15f6c 2026-10-02T10:27:46-04:00 WALTER: SIG-W-20261002-005 IMMEDIATE - HY OAS 324 [10/01] one tagged prin
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:56  [324]
+           b5c3919a90a5bceb9689cc5af8594e150c516550 2026-10-02T10:26:41-04:00 LIQUID: 10/1 ICE cell graded - HY 324 over 320 (one print), REKILL 0-of-2
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:60  [324]
+           **Status [10/2 10:41 ET]:** 🟡 **HY OAS 324 [FRED 10/01] over 320 on ONE print** (the pre-NFP session, while yields fell — credit is one prin
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:62  [324]
+           - **HY 324 [FRED obs 10/01]** — over my 320 yellow on ONE print. ⚠️ **It amends my "no growth-fear tell":** checklist item (c) *"HY through
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:64  [324]
+           🔴 **[FRED 10/01, pub 10/02 — via LIQUID/WALTER −005, WALTER re-pull] HY 324 · BB 204 · CCC 1,215 · gap 1,011** — every tier wider (+12 / +10
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:66  [324]
+           **LEG STATE [10/2]:** **Leg 1 HY <260 — 324 [FRED 10/01] = 0 of 5, 64bp away and moving away** (⛔ NON-KILL OBSERVABLE, WQ-106) · **Leg 2 VIX
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:68  [324]
+           | HY OAS | **324 [FRED 10/01, pub 10/02]** · 312 [9/30] · 308 [9/29] | >320 | >400 | >500 | 🟡 **OVER YELLOW — ONE print** (first this leg; +
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:70  [324]
+           | HY kill leg ⛔ *observable, H-2* | 324 [FRED 10/01] | <290 | <270 | <260 sust. 5 | NOT FIRED — 0 of 5 |
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:72  [324]
+           **Rates near multi-decade highs on real yields and premium; credit widening in both tiers (HY 324 crossed yellow on 10/01, CCC 1,215 red); d
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:76  [324]
+           HY  324bps   blended index [2026-10-01] (masks the tail)
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:78  [324]
+           → HY OAS 324 > 320 YELLOW — range break, bid giving way
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:84  [324]
+           6. **Credit is one print.** HY 324 on 10/1 crossed LIQUID's 320 send line **once**; LIQUID calls it "TAGGED, not sustained", and a retrace o
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:86  [324]
+           | BAMLH0A0HYM2, broad HY OAS | October 1 | 3.24% / 324bp |
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:92  [324]
+           - **Am.#1 §3 as written (verbatim):** **§3 Credit:** **HY OAS 324 on the 10/01 cell** (one tagged print >320 send line; RED FT-02 / REG-T-03
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:96  [324]
+           4. **~10:15 ET** — the FRED HY cell for 10/02 publishes: RED (FT-02) and REGINALD (T-03) grade the 324 [10/1] and 10/02 cells against their
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:98  [324]
+           4. **~10:15 ET** — the FRED HY cell for 10/02 publishes: RED-FT-02 / REG-T-03 count to 2-of-3 or RESET from the 324 print [10/1]; RED + REGI
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:100  [324]
+           3. One-liner rewritten around the real-yield-led close, HY 324 as 1 of 3, the record QQQ close on narrow breadth, the G7 release, WQ-357's r
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:102  [324]
+           15. HY 324 is stated as 1 of 3 and never as a fire; LIQ-07 as a TRIGGER with its verdict date.
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:108  [324]
+           SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED-not-sustained-FT02-REGT03-1-of-3-CCC-1215	I	e8964e08bdcef395af1fcd6ffbaf2fd
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:111  [324]
+           BOARD/SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED-not-sustained-FT02-REGT03-1-of-3-CCC-1215.md:8  [324]
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:112  [324]
+           origin: ["LIQUID packet AGENTS/WALTER/inbox/2026-10-02_from-LIQUID_SIGNAL-HY-OAS-324-crossed-320-send-line-single-print.md (de0501531; FRED
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:113  [324]
+           BOARD/SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED-not-sustained-FT02-REGT03-1-of-3-CCC-1215.md:17  [324]
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:114  [324]
+           verdict: "HY OAS 324bp [FRED obs 10/01, pub 10/02], from 312: first print over 320 this leg. ONE print, TAGGED, not sustained: RED-FT-02 and
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:115  [324]
+           BOARD/SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED-not-sustained-FT02-REGT03-1-of-3-CCC-1215.md:26  [324]
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:116  [324]
+           **Short version:** The high-yield credit spread printed **324bp for 10/01** (FRED `BAMLH0A0HYM2`, published 10/02; WALTER re-pulled it at 10
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:117  [324]
+           BOARD/SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED-not-sustained-FT02-REGT03-1-of-3-CCC-1215.md:30  [324]
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:118  [324]
+           | **RED-FT-02** (RED) | HY >320, sustain 3, PATH-B-CONFIRM | 324 | **1 of 3, NOT fired** |
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:119  [324]
+           BOARD/SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED-not-sustained-FT02-REGT03-1-of-3-CCC-1215.md:31  [324]
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:120  [324]
+           | **REG-T-03** (REGINALD) | HY >320, sustain 3, CREDIT-CANARY | 324 | **1 of 3, NOT fired** |
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:121  [324]
+           BOARD/SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED-not-sustained-FT02-REGT03-1-of-3-CCC-1215.md:32  [324]
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:122  [324]
+           | REG-T-04 (REGINALD) | HY >350 s3 | 324 | 26bp away |
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:123  [324]
+           BOARD/SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED-not-sustained-FT02-REGT03-1-of-3-CCC-1215.md:36  [324]
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:124  [324]
+           **LIQUID's cell (obs 10/01, d/d):** HY 324 (+12) · BB 204 (+10) · B 329 (+13) · **CCC 1,215 (+36)** · IG 86 (+2) · BBB 106 (+3). Every tier
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-self.txt:16  [324]
+           1. **Boot COMPLETE (0–9b).** At-boot doctor was **1 HIGH (version_drift) + 5 MED → HIGH FIXED**; 6c NO fire (weekend; **HY 324 [FRED 10/01]
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-self.txt:26  [324]
+           | RED-FT-01 / -02 / -12 · REG-T-03 / -04 (HY OAS) | 🔴 **324 bp [FRED obs 10/01, pub 10/02]** (9/30 312 · 9/29 308). **FT-02 / REG-T-03 `>320
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-self.txt:28  [324]
+           2026-10-02T14:27:32Z	SIG-W-20261002-005	RED	ACTION	CLAUDE_CODE	IMMEDIATE	AGENTS/RED/inbox/WALTER/SIG-W-20261002-005.md	delivered	HY OAS 324b
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-self.txt:44  [324]
+           2026-10-02T14:27:32Z	SIG-W-20261002-005	LIQUID	HY OAS 324bp [FRED obs 10/01, pub 10/02], from 312: first print over 320 this leg. ONE print,
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/market-refresh.txt:3  [310, 324]
+           HY OAS310bp [-14], FRED2026-10-02; prior324 [Oct1]. CCC OAS1202bp [-13], FRED2026-10-02. VIXCLS15.31 [Oct2]; latest5:15.31,16.39,16.34,16.04
+        AGENTS/WALTER/research/2026-10-07_catchup/red-boot.txt:76  [324]
+           SIG-W-20261002-005     5d  SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:11  [324]
+           | 2026-10-02 | LIQUID | ALL (via WALTER) | 🔴 | **HY OAS 324bp [FRED obs 10/1, pub 10/2] > 320 send line, ONE print = TAGGED, not "sustained"
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:15  [324]
+           | **Mon Oct 5** 🔴 | **HY >320 PERSISTENCE read: the 10/2 ICE cell** (HY 324 [10/1] = ONE print over the 320 send line, TAGGED, not sustained
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:21  [324]
+           - 🔴 **HY 324 > the 320 send line: ONE print = TAGGED, not "sustained"** (KILL_MEMO CONFIRMATION letter = ">320 sustained"; no session count,
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:27  [324]
+           | **Mon 10/5 ~10:15 ET** | 🔴 **The 10/2 ICE cell: does HY hold >320?** (324 [10/1] = ONE print, TAGGED; signal sent 10/2). Fresh cache or ca
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:29  [324]
+           2026-10-02T14:41:00Z	SIG-W-20261002-005	noted	INBOX_WALTER	My own HY 324 [10/1] signal routed back (de0501531). Checked faithful: ONE print,
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:37  [324]
+           🔴 **[FRED 10/01, pub 10/02 — via LIQUID/WALTER −005, WALTER re-pull] HY 324 · BB 204 · CCC 1,215 · gap 1,011** — every tier wider (+12 / +10
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:39  [324]
+           **LEG STATE [10/2]:** **Leg 1 HY <260 — 324 [FRED 10/01] = 0 of 5, 64bp away and moving away** (⛔ NON-KILL OBSERVABLE, WQ-106) · **Leg 2 VIX
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:41  [324]
+           | HY OAS | **324 [FRED 10/01, pub 10/02]** · 312 [9/30] · 308 [9/29] | >320 | >400 | >500 | 🟡 **OVER YELLOW — ONE print** (first this leg; +
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:43  [324]
+           | HY kill leg ⛔ *observable, H-2* | 324 [FRED 10/01] | <290 | <270 | <260 sust. 5 | NOT FIRED — 0 of 5 |
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:45  [324]
+           | Mon 10/5 → | HY >320 ×3 (RED-FT-02 / REG-T-03, 1 of 3 at 324 [10/1]) — LIQUID/RED own the count; **my watch = CCC/BB 5.956 [10/1] vs FORUM
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:55  [324]
+           - BOARD 10/02: G7 decided up to 100M bbl diesel+crude over 4 months, diesel front-loaded; oil −3–5% (`SIG-W-20261002-009`). HY 324bp on one
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:61  [324]
+           a3d039fbb68995dcd1d4a9bfe64495a2b5b15f6c 2026-10-02T10:27:46-04:00 WALTER: SIG-W-20261002-005 IMMEDIATE - HY OAS 324 [10/01] one tagged prin
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:63  [324]
+           b5c3919a90a5bceb9689cc5af8594e150c516550 2026-10-02T10:26:41-04:00 LIQUID: 10/1 ICE cell graded - HY 324 over 320 (one print), REKILL 0-of-2
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:65  [310]
+           - HY OAS: 310 bps → 580 bps (Jun-Jul 2022)
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:67  [310]
+           | HY OAS 270–310 range | Hold / monitor | No action |
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:71  [310]
+           PHM	Q1 2026 Gross Margin	24.4%	27.5% (Q1'25)	2026-Q1 (Apr 23)	PHM Earnings	R	-310bps YoY MISS. Incentives 10.9% of price (+290bps YoY). Q2 g
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:73  [324]
+           **Status [10/2 10:41 ET]:** 🟡 **HY OAS 324 [FRED 10/01] over 320 on ONE print** (the pre-NFP session, while yields fell — credit is one prin
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:75  [324]
+           - **HY 324 [FRED obs 10/01]** — over my 320 yellow on ONE print. ⚠️ **It amends my "no growth-fear tell":** checklist item (c) *"HY through
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:77  [324]
+           🔴 **[FRED 10/01, pub 10/02 — via LIQUID/WALTER −005, WALTER re-pull] HY 324 · BB 204 · CCC 1,215 · gap 1,011** — every tier wider (+12 / +10
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:79  [324]
+           **LEG STATE [10/2]:** **Leg 1 HY <260 — 324 [FRED 10/01] = 0 of 5, 64bp away and moving away** (⛔ NON-KILL OBSERVABLE, WQ-106) · **Leg 2 VIX
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:81  [324]
+           | HY OAS | **324 [FRED 10/01, pub 10/02]** · 312 [9/30] · 308 [9/29] | >320 | >400 | >500 | 🟡 **OVER YELLOW — ONE print** (first this leg; +
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:83  [324]
+           | HY kill leg ⛔ *observable, H-2* | 324 [FRED 10/01] | <290 | <270 | <260 sust. 5 | NOT FIRED — 0 of 5 |
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:85  [324]
+           **Rates near multi-decade highs on real yields and premium; credit widening in both tiers (HY 324 crossed yellow on 10/01, CCC 1,215 red); d
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:89  [324]
+           HY  324bps   blended index [2026-10-01] (masks the tail)
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:91  [324]
+           → HY OAS 324 > 320 YELLOW — range break, bid giving way
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:99  [310]
+           - PHM GM 24.4% MISS (-310bps from 27.5% Q1'25). Incentives +290bps to 10.9%. Q2 GM guided 24.1-24.4% = sequential compression. **PHM managem
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:111  [324]
+           6. **Credit is one print.** HY 324 on 10/1 crossed LIQUID's 320 send line **once**; LIQUID calls it "TAGGED, not sustained", and a retrace o
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:113  [324]
+           "Refiner and Blender Net Inputs ","East Coast (PADD 1)","325","326","321","324","329","329"
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:115  [324]
+           | BAMLH0A0HYM2, broad HY OAS | October 1 | 3.24% / 324bp |
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:117  [310]
+           KB-BND-402	2026-10-05	CREDIT_SPREADS	ICE credit cross-section	10/2 HY 310, CCC 1202, IG 85, BBB 104, BB 191, B 312bp; Friday moves -14/-13/-
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:119  [310]
+           KB-BND-403	2026-10-05	CREDIT_SPREADS	Credit thresholds	HY 310 leaves 40bp to 350; IG85 leaves35 to120; lead +47 from263 leaves28-53 to338-36
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:121  [310]
+           VX-BND-07	Credit-Equity Lead Timing	CURRENT 2026-10-05: HY310[10/2]=+47from263,28-53bp to338-363 lead band. Inactive; VIX ownerVIOLET, not i
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:123  [310]
+           | HY |310bp|FRED10/2,first-published checked|−14d/d;40below350;row4markerremains3 |
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:125  [310]
+           | HY / CCC / IG OAS | 310 / 1202 / 85bp | Friday −14 / −13 / −1bp | FRED 10/2; first-published and latest-vintage agree |
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:129  [310]
+           **Fresh results:** HY 310 / CCC 1202 / IG 85bp [10/2]; Treasury 10Y 5.28 / 30Y 5.63%, real 10Y 2.92% [10/2]. The 10/1 F2 read is OFF-THE-RUN
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:131  [310, 324]
+           | **HY OAS** | **310bp** [10/2] | 🟠 | [CONF FRED first-published=latest-vintage,10/5] −14d/d from324;10bp through300,40bp below350;row4 rema
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:133  [310]
+           | Credit-equity lead (HY+75–100from263,VIX<20) | **28–53bp** | 🟡 HY310[10/2]=+47; below338–363; VIX→VIOLET |
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:135  [310]
+           | 4 | HY market function | **3** = | 🟠 | `VX-BND-02` ·`VX-BND-11` | HY310/CCC1202[10/2];Fridayrelief recorded. Paramount9/30 securedfinancin
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:137  [310]
+           VX-BND-02	HY Spread Level	CURRENT 2026-10-05: HY310bp[10/2],-14on day;40bp below350. Row4 marker remains3, no capital reopen. Large-issuer a
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:139  [310]
+           VX-BND-07	Credit-Equity Lead Timing	CURRENT 2026-10-05: HY310[10/2]=+47from263,28-53bp to338-363 lead band. Inactive; VIX ownerVIOLET, not i
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:145  [324]
+           - **Am.#1 §3 as written (verbatim):** **§3 Credit:** **HY OAS 324 on the 10/01 cell** (one tagged print >320 send line; RED FT-02 / REG-T-03
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:151  [324]
+           4. **~10:15 ET** — the FRED HY cell for 10/02 publishes: RED (FT-02) and REGINALD (T-03) grade the 324 [10/1] and 10/02 cells against their
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:153  [324]
+           4. **~10:15 ET** — the FRED HY cell for 10/02 publishes: RED-FT-02 / REG-T-03 count to 2-of-3 or RESET from the 324 print [10/1]; RED + REGI
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:155  [324]
+           3. One-liner rewritten around the real-yield-led close, HY 324 as 1 of 3, the record QQQ close on narrow breadth, the G7 release, WQ-357's r
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:157  [324]
+           15. HY 324 is stated as 1 of 3 and never as a fire; LIQ-07 as a TRIGGER with its verdict date.
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:163  [324]
+           SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED-not-sustained-FT02-REGT03-1-of-3-CCC-1215	I	e8964e08bdcef395af1fcd6ffbaf2fd
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:173  [310]
+           The disparity between Cable TV OAS (641 bps **in the broad index**) versus the overall HY index at 310 bps illustrates the degree of distres
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:176  [324]
+           BOARD/SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED-not-sustained-FT02-REGT03-1-of-3-CCC-1215.md:8  [324]
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:177  [324]
+           origin: ["LIQUID packet AGENTS/WALTER/inbox/2026-10-02_from-LIQUID_SIGNAL-HY-OAS-324-crossed-320-send-line-single-print.md (de0501531; FRED
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:178  [324]
+           BOARD/SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED-not-sustained-FT02-REGT03-1-of-3-CCC-1215.md:17  [324]
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:179  [324]
+           verdict: "HY OAS 324bp [FRED obs 10/01, pub 10/02], from 312: first print over 320 this leg. ONE print, TAGGED, not sustained: RED-FT-02 and
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:180  [324]
+           BOARD/SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED-not-sustained-FT02-REGT03-1-of-3-CCC-1215.md:24  [324]
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:181  [324]
+           # High-yield spread 324bp (10/01) is over 320 on ONE print, tagged, not sustained: RED-FT-02 / REG-T-03 at 1 of 3; CCC 1,215
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:182  [324]
+           BOARD/SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED-not-sustained-FT02-REGT03-1-of-3-CCC-1215.md:26  [324]
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:183  [324]
+           **Short version:** The high-yield credit spread printed **324bp for 10/01** (FRED `BAMLH0A0HYM2`, published 10/02; WALTER re-pulled it at 10
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:184  [324]
+           BOARD/SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED-not-sustained-FT02-REGT03-1-of-3-CCC-1215.md:30  [324]
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:185  [324]
+           | **RED-FT-02** (RED) | HY >320, sustain 3, PATH-B-CONFIRM | 324 | **1 of 3, NOT fired** |
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:186  [324]
+           BOARD/SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED-not-sustained-FT02-REGT03-1-of-3-CCC-1215.md:31  [324]
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:187  [324]
+           | **REG-T-03** (REGINALD) | HY >320, sustain 3, CREDIT-CANARY | 324 | **1 of 3, NOT fired** |
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:188  [324]
+           BOARD/SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED-not-sustained-FT02-REGT03-1-of-3-CCC-1215.md:32  [324]
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:189  [324]
+           | REG-T-04 (REGINALD) | HY >350 s3 | 324 | 26bp away |
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:190  [324]
+           BOARD/SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED-not-sustained-FT02-REGT03-1-of-3-CCC-1215.md:36  [324]
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:191  [324]
+           **LIQUID's cell (obs 10/01, d/d):** HY 324 (+12) · BB 204 (+10) · B 329 (+13) · **CCC 1,215 (+36)** · IG 86 (+2) · BBB 106 (+3). Every tier
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:229  [310, 324]
+           AGENTS/OZK/GEOGRAPHY/EXPOSURE_MAP.md:109  [310, 324]  (no unit/series context on line)
+        AGENTS/WALTER/research/2026-10-07_closeout/prior-LAST_COMPLETION.md:19  [324]
+           Audit refresh: HY310bp [Oct2] resets RED-FT-02/REG-T-03 >320 watch to0/3; prior324bp [Oct1] is history. No new fire established by the evalu
+        AGENTS/WALTER/research/2026-10-07_closeout/prior-LAST_COMPLETION.md:37  [310]
+           1. Historical October5 duty (owner completion still to verify): TERRY held-line check; HENRY ISM Services first print10:00ET, grade HEN48–56
+        AGENTS/WALTER/routed/delivery_log.tsv:3429  [324]
+           2026-10-02T14:27:32Z	SIG-W-20261002-005	RED	ACTION	CLAUDE_CODE	IMMEDIATE	AGENTS/RED/inbox/WALTER/SIG-W-20261002-005.md	delivered	HY OAS 324b
+        AGENTS/WALTER/routed/delivery_log.tsv:3430  [324]
+           2026-10-02T14:27:32Z	SIG-W-20261002-005	REGINALD	ACTION	CLAUDE_CODE	IMMEDIATE	AGENTS/REGINALD/inbox/WALTER/SIG-W-20261002-005.md	delivered	H
+        AGENTS/WALTER/routed/delivery_log.tsv:3431  [324]
+           2026-10-02T14:27:32Z	SIG-W-20261002-005	HENRY	ACTION	CLAUDE_CODE	IMMEDIATE	AGENTS/HENRY/inbox/WALTER/SIG-W-20261002-005.md	delivered	HY OAS 
+        AGENTS/WALTER/routed/delivery_log.tsv:3432  [324]
+           2026-10-02T14:27:32Z	SIG-W-20261002-005	BROCK	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/BROCK/inbox/WALTER/SIG-W-20261002-005.md	delivered	HY OAS 32
+        AGENTS/WALTER/routed/delivery_log.tsv:3433  [324]
+           2026-10-02T14:27:32Z	SIG-W-20261002-005	VIOLET	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/VIOLET/inbox/WALTER/SIG-W-20261002-005.md	delivered	HY OAS 
+        AGENTS/WALTER/routed/delivery_log.tsv:3434  [324]
+           2026-10-02T14:27:32Z	SIG-W-20261002-005	NEXUS	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/NEXUS/inbox/WALTER/SIG-W-20261002-005.md	delivered	HY OAS 32
+        AGENTS/WALTER/routed/delivery_log.tsv:3435  [324]
+           2026-10-02T14:27:32Z	SIG-W-20261002-005	LIQUID	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/LIQUID/inbox/WALTER/SIG-W-20261002-005.md	delivered	HY OAS 
+        AGENTS/WALTER/routed/delivery_log.tsv:3436  [324]
+           2026-10-02T14:27:32Z	SIG-W-20261002-005	SHADE	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/SHADE/inbox/WALTER/SIG-W-20261002-005.md	delivered	HY OAS 32
+        AGENTS/WALTER/routed/route_log.tsv:1164  [324]
+           2026-10-02T14:27:32Z	SIG-W-20261002-005	LIQUID	HY OAS 324bp [FRED obs 10/01, pub 10/02], from 312: first print over 320 this leg. ONE print,
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (217)
+        AGENTS/WALTER/anchors/IRAN_WAR_GUARDS.md:164  [324]  (no unit/series context on line)
+           <!-- verbatim · original L316-324 -->
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:9  [324]  (no unit/series context on line)
+           AGENTS/SIGNALS.md:46  [324]
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:11  [324]  (no unit/series context on line)
+           AGENTS/LIQUID/MEMORY.md:9  [324]
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:13  [324]  (no unit/series context on line)
+           AGENTS/LIQUID/CALENDAR.md:39  [324]
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:15  [324]  (no unit/series context on line)
+           AGENTS/LIQUID/STATUS.md:2  [324]
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:17  [324]  (no unit/series context on line)
+           AGENTS/LIQUID/STATUS.md:8  [324]
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:19  [324]  (no unit/series context on line)
+           AGENTS/LIQUID/STATUS.md:9  [324]
+        AGENTS/WALTER/research/2026-10-05_closeout-audit/consumer-peer.txt:21  [324]  (no unit/series context on line)
+           AGENTS/LIQUID/STATUS.md:13  [324]
+        … +144 more 🟠 hit(s) on [324] across 4 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+        AGENTS/WALTER/design/BOARD_INDEX_GENERATION_DESIGN.md:7  [310]  (no unit/series context on line)
+           **Generate `BOARD/INDEX.md` in place from signal frontmatter, keep its exact structure (preamble · cluster ToC · `## CLUSTER (N)` sections ·
+        AGENTS/WALTER/design/pilot_runs/ARM_CONTROL_RAW.md:19  [310]  (no unit/series context on line)
+           /tmp/claude-1000/-home-willi-Research-workspace-AGENTS-WALTER/d310c787-f183-41a8-8ca9-bb110566f205/scratchpad/pilot/fixture
+        AGENTS/WALTER/design/pilot_runs/ARM_CONTROL_RAW.md:46  [310]  (no unit/series context on line)
+           "command": "cat \"/tmp/claude-1000/-home-willi-Research-workspace-AGENTS-WALTER/d310c787-f183-41a8-8ca9-bb110566f205/scratchpad/pilot/fixtur
+        AGENTS/WALTER/design/pilot_runs/ARM_CONTROL_RAW.md:79  [310]  (no unit/series context on line)
+           "command": "cd \"/tmp/claude-1000/-home-willi-Research-workspace-AGENTS-WALTER/d310c787-f183-41a8-8ca9-bb110566f205/scratchpad/pilot/fixture
+        AGENTS/WALTER/design/pilot_runs/ARM_CONTROL_RAW.md:108  [310]  (no unit/series context on line)
+           "command": "cd \"/tmp/claude-1000/-home-willi-Research-workspace-AGENTS-WALTER/d310c787-f183-41a8-8ca9-bb110566f205/scratchpad/pilot/fixture
+        AGENTS/WALTER/design/pilot_runs/ARM_CONTROL_RAW.md:133  [310]  (no unit/series context on line)
+           "command": "cd \"/tmp/claude-1000/-home-willi-Research-workspace-AGENTS-WALTER/d310c787-f183-41a8-8ca9-bb110566f205/scratchpad/pilot/fixture
+        AGENTS/WALTER/design/pilot_runs/ARM_CONTROL_RAW.md:179  [310]  (no unit/series context on line)
+           "command": "cd \"/tmp/claude-1000/-home-willi-Research-workspace-AGENTS-WALTER/d310c787-f183-41a8-8ca9-bb110566f205/scratchpad/pilot/fixture
+        AGENTS/WALTER/design/pilot_runs/ARM_CONTROL_RAW.md:207  [310]  (no unit/series context on line)
+           1. `cat "/tmp/claude-1000/-home-willi-Research-workspace-AGENTS-WALTER/d310c787-f183-41a8-8ca9-bb110566f205/scratchpad/pilot/fixture/AGENTS/
+        … +50 more 🟠 hit(s) on [310] across 7 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:130  [310, 324]  (no unit/series context on line)
+           AGENTS/BOND/domain/sources/2026-10-07_STATUS_pre-continuation.md:42  [310, 324]
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:227  [310, 324]  (no unit/series context on line)
+           AGENTS/WAL/research/audit_2026-09-28/B_thesis.md:32  [310, 324]  (no unit/series context on line)
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:228  [310, 324]  (no unit/series context on line)
+           | F-17 | Q2_10Q_READ_2026-08-07.md:305-310, :324 | "P2/P3/P4 **PROPOSED**"; "P5 Register the FFIEC CDR account … **UNCHANGED — Will-side**";
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:231  [310, 324]  (no unit/series context on line)
+           AGENTS/BRENT/research/2026-09-09_squeeze-review/wpsr-table9.csv:163  [310, 324]  (no unit/series context on line)
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:232  [310, 324]  (no unit/series context on line)
+           "Refiner and Blender Net Production ","Residual Fuel Oil","392","324","360","296","343","310"
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:233  [310, 324]  (no unit/series context on line)
+           AGENTS/BRENT/research/2026-09-09_squeeze-review/wpsr-table2.csv:51  [310, 324]  (no unit/series context on line)
+        AGENTS/WALTER/research/2026-10-07_closeout/consumer-peers.txt:234  [310, 324]  (no unit/series context on line)
+           "Refiner and Blender Net Production ","Residual Fuel Oil","392","324","68","360","9.1","296","32.5","343","310","10.6"
+     🟢 cleared: marker-adjacent / next to new value / frozen file (14)  [--show-handled to audit]
+
+  🔴 136 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).
+==================================================================
+

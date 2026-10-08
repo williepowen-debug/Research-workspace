@@ -1,10 +1,10 @@
 # WALTER STATUS
 
-**Updated 2026-10-07T20:40:39.869781-04:00 — Will-requested FULL closeout of October7 catch-up.** BOARD1239;17 outputs (14 news/research,3 additive corrections),0 kills,0 verification spawns;0 cluster-mediating outputs. Boot/source coverage PARTIAL. Current duties and exact publication/owner evidence: LAST_COMPLETION.md and research/2026-10-07_closeout/RECEIPT.md.
+**Updated 2026-10-08T00:03:31.667013+00:00 — October7 authorised news catch-up; light-closeout, full deferred.** BOARD1239; today17 dispatches (14 news/research,3 corrections), zero kill-log additions or verification spawns. Boot PARTIAL. [REPORT](research/2026-10-07_catchup/REPORT.md) owns current evidence; LAST_COMPLETION retains running obligations. Current publication and named owner-consumption evidence: LAST_COMPLETION.md and research/2026-10-07_catchup/publication-receipt.json. Boot/source coverage stays partial; no full-board clearance.
 
 ## BOTTOM LINE
 
-October5→7 news and document writeback are complete within the declared perimeter; full desk continuity is refreshed for window closure. Oil availability and delivered costs remain separate: freight/insurance are dated, and WTI transmission is mixed. Manual USO watch and existing approvals remain intact. Missing source authentication, manual threshold/filter/basis coverage and remaining owner integration stay explicit; no new trade, gate or unattended service.
+October5→7 news catch-up saved: actual Fed minutes, EIA forecast/inventory, consumer credit, fertilizer, gold and issuer/labour evidence; qualified pipeline, fire, private-credit and AI supply leads routed. Freight/insurance remain dated despite recovering oil flows. Manual USO watch active; Oct7 holdings basis current with exact time UNKNOWN. No new trade or gate. Full threshold/filter/read-basis coverage remains incomplete.
 
 ## DATED MARKET OBSERVATIONS — October7 pull; vintages explicit
 
@@ -30,15 +30,15 @@ Current catch-up: `research/2026-10-07_catchup/REPORT.md`; running duties: `LAST
 
 ## NETWORK AWARENESS
 
-### October7 routing and receiving snapshot — full closeout 2026-10-07T20:40:39.869781-04:00
+### Prior full-closeout network snapshot — observed 2026-10-05T14:30:10Z (historical; October7 report governs current routing)
 
-BOARD1239;17 outputs,0 kills/verification spawns,0 cluster-mediating outputs; no network-uncertainty-peak trigger. Nine canonical clusters plus the preserved013 historical LABOR_DOWN metadata label corrected by017: BANK_COLLATERAL:2; FED_FRAMEWORK:1; INFLATION_TRANSMISSION:2; HYDROCARBON_INFRA:1; MISC:1; PC_STRESS:3; CONSUMER_STAGFLATION:2; AI_INFRA_CAPEX:2; LABOR_DOWN:1; IRAN_HORMUZ:2. No new taxonomy bucket.
+BOARD1222; October5 has six dispatches, zero kill-log additions and zero verification spawns. One cluster-mediating signal; no network-uncertainty-peak trigger. Shipping batch closed5/5; cost research and the manual watch are separate follow-ups. Clusters represented: IRAN_HORMUZ, INFLATION_TRANSMISSION and MISC.
 
-20 recipient desks,66 handoffs (24ACTION/42INFO), all origin-proven; detailed paths/counts in research/2026-10-07_closeout/routing-summary.json. Routing pressure: LIQUID 2A/7I; HENRY 1A/10I; VULCAN 2A/7I; BOND 1A/1I; BRENT 3A/1I; WATT 1A/2I; HAWK 0A/4I; FERT 1A/0I; AEOLUS 0A/1I; MARCO 0A/1I; MIDAS 1A/0I; WAL 1A/0I; REGINALD 3A/2I; BROCK 3A/0I; SHADE 0A/3I; CARL 1A/0I; OTTO 0A/1I; VIOLET 0A/2I; LABOR 2A/0I; FALCON 2A/0I. Actual named owner integration is scoped in LAST_COMPLETION; publication does not establish other desks' consumption.
+REGISTRY refreshed before this block: owner date/focus changes for BRENT, BOND, BROCK and DAEDALUS plus WALTER; owner risk colors preserved. Scoped header candidate review across registry paths; unchanged/missing headers retain prior dates, not a whole-domain reread.
 
-REGISTRY refreshed BEFORE this block from41 owner headers, with historical-date traps reviewed and roles/tiers/risk colors preserved. Header evidence only, not a whole-domain/filter scan. Rows older than7days: REGINALD 2026-09-29, WAL 2026-09-28, HAWK 2026-09-28, VIOLET 2026-09-28, YEYOU 2026-09-05, RAV 2026-08-02, MARCO 2026-09-24, ORACLE 2026-09-28, ATHENA 2026-03-14, DARWIN 2026-02-18, SENTRY 2026-09-24, DEWEY 2026-09-10, AEOLUS 2026-09-28, WATT 2026-09-25, OSPREY 2026-09-29. These dates are freshness markers, not liveness verdicts. CATO is roster SPECIAL/manual-only underWQ255, excluded from automatic routing/enrolment; _archive is navigation.
+Codex app-server shows WALTER/PROME/BOND active and BRENT/CATO idle. Other runtimes UNKNOWN. ORCH_INFLIGHT lists19 open touches; this is a ledger state, not proof of running workers. No automatic wake. Receiving backlog/structural diagnostics are saved in research/2026-10-05_closeout/doctor.txt; owner consumption is separate from publication.
 
-Verified Codex cohort: WALTER/PROME/BOND/BRENT active on closeout; wider/multi-runtime presence UNKNOWN. ORCH_INFLIGHT generatedOct5 still has19 open touches; ledger entries are not live-worker proof and never authorize a doorbell. Foreign PROME VLO staging/prior boot report excluded. No automatic wake. Final doctor uses delivery_log.timestamp_routed for aged warnings, with2mtime fallbacks only in the full-file scan; exact count/age is saved in closeout/doctor.txt.
+Registry dates older than seven days: YEYOU 2026-09-05, RAV 2026-08-02, MARCO 2026-09-24, ATHENA 2026-03-14, DARWIN 2026-02-18, SENTRY 2026-09-24, DEWEY 2026-09-10, WATT 2026-09-25. These are freshness markers, not liveness verdicts. Retired/dormant/special classifications remain governed by PROME/ROSTER.md.
 
 ## Active LIAISON channels
 

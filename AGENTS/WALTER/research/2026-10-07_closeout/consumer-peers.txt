@@ -1,0 +1,240 @@
+  ℹ️  multiple --old against one --new: correct ONLY if all are prior vintages of the SAME figure. To check several DIFFERENT metrics, run separate invocations or --from-ledger (which pairs each metric's own old→current) — mis-pairing manufactures false 🔴s (VIOLET 8/20, 3-of-3).
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/WALTER/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── HY OAS dated observation · superseded 324, 310 → current 303
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (91)
+        AGENTS/SIGNALS.md:46  [324]
+           | 2026-10-02 | LIQUID | ALL (via WALTER) | 🔴 | **HY OAS 324bp [FRED obs 10/1, pub 10/2] > 320 send line, ONE print = TAGGED, not "sustained"
+        AGENTS/LIQUID/MEMORY.md:9  [324]
+           **Delivered:** ① **WQ-301 (b) encoded** in KB-LIQ-069 + STATUS §2: 069 L2 anchor re-based on the DTCC tape with the ISDA model, **both sign 
+        AGENTS/LIQUID/CALENDAR.md:39  [324]
+           | **Mon Oct 5** 🔴 | **HY >320 PERSISTENCE read: the 10/2 ICE cell** (HY 324 [10/1] = ONE print over the 320 send line, TAGGED, not sustained
+        AGENTS/LIQUID/STATUS.md:2  [324]
+           **Last Updated:** 2026-10-02 11:1x ET Fri (`date` 11:15, Standard closeout; after it: BROCK L494 consumed · 4+1 WALTER/TERRY items · events 
+        AGENTS/LIQUID/STATUS.md:8  [324]
+           **Credit ladder [FRED ICE BofA OAS, obs 10/1, published 10/2 ~10:15 ET; cache-busted pull 10/2 10:24 ET, 3 paths agree (2 fredgraph URL vari
+        AGENTS/LIQUID/STATUS.md:9  [324]
+           - 🔴 **HY 324 > the 320 send line: ONE print = TAGGED, not "sustained"** (KILL_MEMO CONFIRMATION letter = ">320 sustained"; no session count,
+        AGENTS/LIQUID/STATUS.md:13  [324]
+           **X1 (LIQUID HY level leg, letter `>280 sustained`, strict):** 280.0 [9/24] does not count · 293 [9/25] ✓ · 302 [9/28] ✓ · 308 [9/29] ✓ · 31
+        AGENTS/LIQUID/STATUS.md:31  [324]
+           | **GATE-HY-REKILL** (<260bp strictly, ×2 consecutive published closes, as-first-published; **TERMINAL on fire**) | **NOT FIRED 0-of-2.** HY
+        AGENTS/LIQUID/STATUS.md:43  [324]
+           | **Mon 10/5 ~10:15 ET** | 🔴 **The 10/2 ICE cell: does HY hold >320?** (324 [10/1] = ONE print, TAGGED; signal sent 10/2). Fresh cache or ca
+        AGENTS/LIQUID/board_log.tsv:368  [324]
+           2026-10-02T14:41:00Z	SIG-W-20261002-005	noted	INBOX_WALTER	My own HY 324 [10/1] signal routed back (de0501531). Checked faithful: ONE print,
+        AGENTS/LIQUID/board_log.tsv:370  [324]
+           2026-10-02T15:12:27Z	2026-10-02_from-TERRY_expression-comparison-evidence-ask	acted	INBOX_TOPLEVEL	Answered same day: AGENTS/TERRY/inbox/202
+        AGENTS/HENRY/NEXUS_BRIEF.md:17  [324]
+           No Mondaylive market state claimed. Sunday20:47 boot14d CBOE flip~7712 positive UNPUBLISHED (no35d confirmation, walls withheld). Friday pub
+        AGENTS/HENRY/STATUS.md:27  [324]
+           Full boot20:47 outside sandbox PASS; no overdue row, named corrections0. Sunday market quotes are last quotes (not today's cash closes); no 
+        AGENTS/HENRY/STATUS.md:78  [324]
+           🔴 **[FRED 10/01, pub 10/02 — via LIQUID/WALTER −005, WALTER re-pull] HY 324 · BB 204 · CCC 1,215 · gap 1,011** — every tier wider (+12 / +10
+        AGENTS/HENRY/STATUS.md:96  [324]
+           **LEG STATE [10/2]:** **Leg 1 HY <260 — 324 [FRED 10/01] = 0 of 5, 64bp away and moving away** (⛔ NON-KILL OBSERVABLE, WQ-106) · **Leg 2 VIX
+        AGENTS/HENRY/STATUS.md:114  [324]
+           | HY OAS | **324 [FRED 10/01, pub 10/02]** · 312 [9/30] · 308 [9/29] | >320 | >400 | >500 | 🟡 **OVER YELLOW — ONE print** (first this leg; +
+        AGENTS/HENRY/STATUS.md:119  [324]
+           | HY kill leg ⛔ *observable, H-2* | 324 [FRED 10/01] | <290 | <270 | <260 sust. 5 | NOT FIRED — 0 of 5 |
+        AGENTS/BROCK/STATUS.md:16  [324]
+           | Mon 10/5 → | HY >320 ×3 (RED-FT-02 / REG-T-03, 1 of 3 at 324 [10/1]) — LIQUID/RED own the count; **my watch = CCC/BB 5.956 [10/1] vs FORUM
+        AGENTS/BROCK/STATUS.md:74  [310]
+           | **Tape-substance divergence** | 🔴(4) | — | X1 = wrapper-leads-DOWN **AND** HY >280 sustained. **L494 sitting 10/2: HY leg four closes >280
+        AGENTS/BROCK/STATUS.md:89  [324]
+           - ~~HY OAS <260bps for 10+ sessions~~ **— RETIRED AS A KILL 2026-09-02 (WQ-106, Will 9/1). Now an OBSERVABLE only.** ⇒ **THE kill on 260 is 
+        AGENTS/BROCK/board_log.tsv:155  [310]
+           2026-10-02T12:37:37Z	SIG-W-20260928-002	acted	INBOX_WALTER	Used in the L494 sitting: HY 293 [9/25] was the first >280; series now 293/302/30
+        AGENTS/BROCK/board_log.tsv:168  [310]
+           2026-10-02T14:41:16Z	SIG-W-20261002-005	acted	INBOX_WALTER	HY 324 [FRED 10/1] (5th consecutive >280: 293/302/308/312/324). X1 test (b) RE-RU
+        AGENTS/CARL/SCRATCH.md:11  [324]
+           - BOARD 10/02: G7 decided up to 100M bbl diesel+crude over 4 months, diesel front-loaded; oil −3–5% (`SIG-W-20261002-009`). HY 324bp on one 
+        AGENTS/TERRY/board_log.tsv:65  [324]
+           2026-10-02 11:16 ET	2026-10-02_from-LIQUID_expression-comparison-evidence-answer	acted	INBOX_LIQUID	READ IN FULL. CRWV CDS ~847bp [9/24], OR
+        AGENTS/DAEDALUS/upgrades/PROME_SWEEP_2026-10-03_OUTPUT_READER.md:29  [324]
+           `HEARTBEAT.md:18` says neither RED nor REGINALD has graded the 324 cell; owners' STATUS files own the count. `PROME/plans/2026-10-02_heartbe
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/rebase_commits.txt:31  [324]
+           a3d039fbb68995dcd1d4a9bfe64495a2b5b15f6c 2026-10-02T10:27:46-04:00 WALTER: SIG-W-20261002-005 IMMEDIATE - HY OAS 324 [10/01] one tagged prin
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/window_commits.txt:146  [324]
+           b5c3919a90a5bceb9689cc5af8594e150c516550 2026-10-02T10:26:41-04:00 LIQUID: 10/1 ICE cell graded - HY 324 over 320 (one print), REKILL 0-of-2
+        AGENTS/VIOLET/thesis/VIX_THESIS.md:344  [310]
+           - HY OAS: 310 bps → 580 bps (Jun-Jul 2022)
+        AGENTS/LIQUID/thesis/THESIS.md:63  [310]
+           | HY OAS 270–310 range | Hold / monitor | No action |
+        AGENTS/LIQUID/reports/2026-09-17_session.md:63  [324]
+           **★ EIGHT DEFECTS FOUND AND FIXED TONIGHT, ALL ON SURFACES I OWN — numbered inline so the count is AUDITABLE, not asserted (⑥ is one class a
+        AGENTS/HOMER/workbook/BUILDER.tsv:32  [310]
+           PHM	Q1 2026 Gross Margin	24.4%	27.5% (Q1'25)	2026-Q1 (Apr 23)	PHM Earnings	R	-310bps YoY MISS. Incentives 10.9% of price (+290bps YoY). Q2 g
+        AGENTS/HENRY/status_archive/2026-10-04_before-owner-adoption_NEXUS_BRIEF.md:4  [324]
+           **Status [10/2 10:41 ET]:** 🟡 **HY OAS 324 [FRED 10/01] over 320 on ONE print** (the pre-NFP session, while yields fell — credit is one prin
+        AGENTS/HENRY/status_archive/2026-10-04_before-owner-adoption_STATUS.md:74  [324]
+           - **HY 324 [FRED obs 10/01]** — over my 320 yellow on ONE print. ⚠️ **It amends my "no growth-fear tell":** checklist item (c) *"HY through 
+        AGENTS/HENRY/status_archive/2026-10-04_before-owner-adoption_STATUS.md:136  [324]
+           🔴 **[FRED 10/01, pub 10/02 — via LIQUID/WALTER −005, WALTER re-pull] HY 324 · BB 204 · CCC 1,215 · gap 1,011** — every tier wider (+12 / +10
+        AGENTS/HENRY/status_archive/2026-10-04_before-owner-adoption_STATUS.md:154  [324]
+           **LEG STATE [10/2]:** **Leg 1 HY <260 — 324 [FRED 10/01] = 0 of 5, 64bp away and moving away** (⛔ NON-KILL OBSERVABLE, WQ-106) · **Leg 2 VIX
+        AGENTS/HENRY/status_archive/2026-10-04_before-owner-adoption_STATUS.md:172  [324]
+           | HY OAS | **324 [FRED 10/01, pub 10/02]** · 312 [9/30] · 308 [9/29] | >320 | >400 | >500 | 🟡 **OVER YELLOW — ONE print** (first this leg; +
+        AGENTS/HENRY/status_archive/2026-10-04_before-owner-adoption_STATUS.md:177  [324]
+           | HY kill leg ⛔ *observable, H-2* | 324 [FRED 10/01] | <290 | <270 | <260 sust. 5 | NOT FIRED — 0 of 5 |
+        AGENTS/HENRY/status_archive/2026-10-04_before-owner-adoption_LAST_COMPLETION.md:55  [324]
+           **Rates near multi-decade highs on real yields and premium; credit widening in both tiers (HY 324 crossed yellow on 10/01, CCC 1,215 red); d
+        AGENTS/HENRY/research/2026-10-04_ISM-services-owner-adoption/adoption.md:29  [324]
+           Full existing boot run20:47 EDT: none overdue; corrections-check0 forHENRY. Sunday quotes are last-vendor readings, not a new cash session o
+        AGENTS/HENRY/research/2026-10-04_ISM-services-owner-adoption/henry-owner-boot-20261004-network.txt:39  [324]
+           HY  324bps   blended index [2026-10-01] (masks the tail)
+        AGENTS/HENRY/research/2026-10-04_ISM-services-owner-adoption/henry-owner-boot-20261004-network.txt:47  [324]
+           → HY OAS 324 > 320 YELLOW — range break, bid giving way
+        AGENTS/FERT/workbook/TRIGGERS.tsv:8  [310]
+           T4	DTN weekly retail fertilizer article	dtnpf.com weekly crops article	2026-10-07	weekly (Wed)	Benchmark refresh: urea retail + DAP/MAP TIGH
+        AGENTS/BROCK/catchups/2026-10-02.md:8  [310]
+           **Updated:** 2026-10-02 Fri 14:51 ET (FULL CLOSEOUT on PROME's WQ-249 ask; PUBLISHED.tsv re-cut to current (CCC/BB 5.956, convergence 58); m
+        AGENTS/BROCK/workbook/KB.tsv:299  [310]
+           KB-BRK-310	2026-10-02	X1 / L494 SITTING	X1 wrapper half - L494 re-adjudication sitting RULED: STRUCTURE UNCHANGED, NOT ARMED	Sitting (BROCK 
+        AGENTS/CARL/thesis/CHANGELOG.md:1615  [310]
+           - PHM GM 24.4% MISS (-310bps from 27.5% Q1'25). Incentives +290bps to 10.9%. Q2 GM guided 24.1-24.4% = sequential compression. **PHM managem
+        AGENTS/CARL/board/BOARD_LOG.tsv:927  [324]
+           SIG-W-20261002-005	2026-10-02	FUNDING_LIQUIDITY	IMMEDIATE	noted		2026-10-02	10/02 closeout: guard run vs OPEN list: no CRL (CRL-25 keys on B
+        AGENTS/CARL/sub_agents/GIG/workbook/ML.tsv:18  [310]
+           ML-GIG-17	2026-04-17	GIG Apr17 Refresh	VX-GIG-3.05	DAVE	Financial	Dave Q1 2026 earnings confirmed May 7. Q1 EPS est $3.09. Citizens raised P
+        AGENTS/RED/workbook/ML.tsv:59  [310]
+           ML-RED-058	2026-05-06	RED-011	Portfolio	METHODOLOGY	Exit-Window Framework Will-approved (Session 11). Mechanical "close now" recommendations
+        AGENTS/RED/workbook/ML.tsv:70  [310]
+           ML-RED-069	2026-05-21	RED-013	Macro-positioning	OBSERVATION	5/9 image batch (Will via Telegram, WALTER-routed) surfaces 4 market-structure-f
+        AGENTS/TERRY/setups/QQQ_dec18-put-spread_dated-downside_2026-10-02.md:41  [324]
+           | **(b)** | **Credit persisting:** the two most recently PUBLISHED FRED ICE BofA HY OAS cells (`BAMLH0A0HYM2`) are **both ≥ 321bp**, read at
+        AGENTS/TERRY/setups/QQQ_dec18-put-spread_dated-downside_2026-10-02.md:145  [324]
+           6. **Credit is one print.** HY 324 on 10/1 crossed LIQUID's 320 send line **once**; LIQUID calls it "TAGGED, not sustained", and a retrace o
+        AGENTS/BRENT/research/2026-09-16_cross-war-oil/table9.csv:60  [324]
+           "Refiner and Blender Net Inputs ","East Coast (PADD 1)","325","326","321","324","329","329"
+        AGENTS/BRENT/research/2026-10-05_market-open/REPORT.md:51  [324]
+           | BAMLH0A0HYM2, broad HY OAS | October 1 | 3.24% / 324bp |
+        AGENTS/BOND/workbook/KB.tsv:403  [310]
+           KB-BND-402	2026-10-05	CREDIT_SPREADS	ICE credit cross-section	10/2 HY 310, CCC 1202, IG 85, BBB 104, BB 191, B 312bp; Friday moves -14/-13/-
+        AGENTS/BOND/workbook/KB.tsv:404  [310]
+           KB-BND-403	2026-10-05	CREDIT_SPREADS	Credit thresholds	HY 310 leaves 40bp to 350; IG85 leaves35 to120; lead +47 from263 leaves28-53 to338-36
+        AGENTS/BOND/workbook/VX.tsv:8  [310]
+           VX-BND-07	Credit-Equity Lead Timing	CURRENT 2026-10-05: HY310[10/2]=+47from263,28-53bp to338-363 lead band. Inactive; VIX ownerVIOLET, not i
+        AGENTS/BOND/monitors/CREDIT_PRIMARY_MARKET.md:10  [310]
+           | HY |310bp|FRED10/2,first-published checked|−14d/d;40below350;row4markerremains3 |
+        AGENTS/BOND/analysis/2026-10-05_WQ-357_rebound-research.md:14  [310]
+           | HY / CCC / IG OAS | 310 / 1202 / 85bp | Friday −14 / −13 / −1bp | FRED 10/2; first-published and latest-vintage agree |
+        AGENTS/BOND/reports/2026-10-05_BOOT.md:27  [324]
+           boot_recompute 10/5 09:42 ET: FRED H.15 frontier 10/1, DGS2 4.78, DGS5 5.01, DGS10 5.24, DGS30 5.61, DFII10 2.88 percent. These lag the prio
+        AGENTS/BOND/domain/sources/2026-10-07_STATUS_pre-continuation.md:16  [310]
+           **Fresh results:** HY 310 / CCC 1202 / IG 85bp [10/2]; Treasury 10Y 5.28 / 30Y 5.63%, real 10Y 2.92% [10/2]. The 10/1 F2 read is OFF-THE-RUN
+        AGENTS/BOND/domain/sources/2026-10-07_STATUS_pre-continuation.md:42  [310, 324]
+           | **HY OAS** | **310bp** [10/2] | 🟠 | [CONF FRED first-published=latest-vintage,10/5] −14d/d from324;10bp through300,40bp below350;row4 rema
+        AGENTS/BOND/domain/sources/2026-10-07_STATUS_pre-continuation.md:64  [310]
+           | Credit-equity lead (HY+75–100from263,VIX<20) | **28–53bp** | 🟡 HY310[10/2]=+47; below338–363; VIX→VIOLET |
+        AGENTS/BOND/domain/sources/2026-10-07_STATUS_pre-continuation.md:75  [310]
+           | 4 | HY market function | **3** = | 🟠 | `VX-BND-02` ·`VX-BND-11` | HY310/CCC1202[10/2];Fridayrelief recorded. Paramount9/30 securedfinancin
+        AGENTS/BOND/analysis/2026-10-07_catchup/VX_pre-continuation.tsv:3  [310]
+           VX-BND-02	HY Spread Level	CURRENT 2026-10-05: HY310bp[10/2],-14on day;40bp below350. Row4 marker remains3, no capital reopen. Large-issuer a
+        AGENTS/BOND/analysis/2026-10-07_catchup/VX_pre-continuation.tsv:8  [310]
+           VX-BND-07	Credit-Equity Lead Timing	CURRENT 2026-10-05: HY310[10/2]=+47from263,28-53bp to338-363 lead band. Inactive; VIX ownerVIOLET, not i
+        AGENTS/CATO/runs/2026-09-24_1045_ozk-changes-review.md:24  [324]
+           **Verified externally:** [OZK Q2 2026 Management Comments, printed p.33](https://ir.ozk.com/2Q26_Management_Comments) describes $350M notes,
+        AGENTS/HAWK/workbook/FLOW.tsv:10  [324]
+           FLOW-HAWK-21	Chokepoint ton-miles -> freight INDEX -> listed tanker/gas-carrier EQUITY (the transmission BREAKS at the index/realization joi
+        PROME/HEARTBEAT_COLD.md:888  [324]
+           - **Am.#1 §3 as written (verbatim):** **§3 Credit:** **HY OAS 324 on the 10/01 cell** (one tagged print >320 send line; RED FT-02 / REG-T-03
+        PROME/HEARTBEAT_COLD.md:908  [324]
+           - **Am.#1 stress-dashboard paragraph as written (verbatim; ⚠️ its '$99.61 [10/02 settle, TERRY]' carries the §26.1 misattribution):** **Stre
+        PROME/SCRATCH.md:29  [310]
+           **Monday 10/5 priorities — HISTORY as of 17:4x ET 10/5 (ARGUS ❌2): items 1–4b are past their times and superseded by the October 5 systems-c
+        PROME/SCRATCH.md:33  [324]
+           4. **~10:15 ET** — the FRED HY cell for 10/02 publishes: RED (FT-02) and REGINALD (T-03) grade the 324 [10/1] and 10/02 cells against their 
+        PROME/plans/2026-10-03_closeout-rotations-PLAN.md:58  [324]
+           4. **~10:15 ET** — the FRED HY cell for 10/02 publishes: RED-FT-02 / REG-T-03 count to 2-of-3 or RESET from the 324 print [10/1]; RED + REGI
+        PROME/plans/2026-10-02_heartbeat-26th-rebase-PLAN.md:20  [324]
+           3. One-liner rewritten around the real-yield-led close, HY 324 as 1 of 3, the record QQQ close on narrow breadth, the G7 release, WQ-357's r
+        PROME/plans/2026-10-02_heartbeat-26th-rebase-PLAN.md:45  [324]
+           15. HY 324 is stated as 1 of 3 and never as a fire; LIQ-07 as a TRIGGER with its verdict date.
+        PROME/plans/2026-10-02_heartbeat-26th-rebase-PLAN.md:76  [324]
+           **Plan read (coldreader `hb26-planread`, Opus, blind; ~17:40 ET; 77 claims: 55 ✅ · 15 ⚠️ · 7 ❌; ledger `scratchpad/hb26/planread.md`).** ❌ f
+        PROME/plans/2026-10-02_heartbeat-26th-rebase-PLAN.md:81  [324]
+           **Result read (coldreader, Opus, blind, on the INSTALLED working-tree file; ~17:49 ET; 68 claims: 48 ✅ · 19 ⚠️ · 1 ❌; verdict "yes, with cav
+        PROME/state/board_consumed.tsv:1156  [324]
+           SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED-not-sustained-FT02-REGT03-1-of-3-CCC-1215	I	e8964e08bdcef395af1fcd6ffbaf2fd
+        PROME/registry/WQ_LEDGER.tsv:708  [324]
+           363	REGISTERED	2026-10-02	DEFINE "SUSTAINED" ON THE PRIVATE-CREDIT TRIGGER (X1): three consecutive published high-yield readings strictly ab
+        PROME/reports/2026-10-05_1202-boot-receipt.md:40  [310]
+           HEARTBEAT's 10/02 base is stale (>48h during a market week); its 10/04 amendment added no fresh market observations. A direct dashboard refr
+        PROME/reports/2026-09-17_L408-coldread-ledger.md:33  [310]
+           ⚠️ 10 ":13 consumed_by date moved, its prose did not" — the cell now reads `2026-09-23 … (T4 wake, Wednesdays; weekly thereafter — 9/16 is a
+        PROME/reports/2026-09-17_L408-coldread-ledger.md:38  [310]
+           POINTERS: 22/22 tested resolve; dead: none. (Resolved: KILL_MEMO_HY_OAS_260.md:45-49 — exactly the header+letter+"Verbatim from…" note · DEA
+        FORGE/timing/research/CCC_SECTOR_DECOMPOSITION_PERPLEXITY.md:71  [310]
+           The disparity between Cable TV OAS (641 bps **in the broad index**) versus the overall HY index at 310 bps illustrates the degree of distres
+        BOARD/SIG-W-20260626-012-601w-chicago-office-distress-aon-center-58pct-bxmt-default.md:23  [310]
+           **One line:** The same borrower — **601W Companies** — is in distress across **two** trophy Chicago office towers: (1) **the Aon Center (200
+        BOARD/SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED-not-sustained-FT02-REGT03-1-of-3-CCC-1215.md:8  [324]
+           origin: ["LIQUID packet AGENTS/WALTER/inbox/2026-10-02_from-LIQUID_SIGNAL-HY-OAS-324-crossed-320-send-line-single-print.md (de0501531; FRED 
+        BOARD/SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED-not-sustained-FT02-REGT03-1-of-3-CCC-1215.md:17  [324]
+           verdict: "HY OAS 324bp [FRED obs 10/01, pub 10/02], from 312: first print over 320 this leg. ONE print, TAGGED, not sustained: RED-FT-02 and
+        BOARD/SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED-not-sustained-FT02-REGT03-1-of-3-CCC-1215.md:24  [324]
+           # High-yield spread 324bp (10/01) is over 320 on ONE print, tagged, not sustained: RED-FT-02 / REG-T-03 at 1 of 3; CCC 1,215
+        BOARD/SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED-not-sustained-FT02-REGT03-1-of-3-CCC-1215.md:26  [324]
+           **Short version:** The high-yield credit spread printed **324bp for 10/01** (FRED `BAMLH0A0HYM2`, published 10/02; WALTER re-pulled it at 10
+        BOARD/SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED-not-sustained-FT02-REGT03-1-of-3-CCC-1215.md:30  [324]
+           | **RED-FT-02** (RED) | HY >320, sustain 3, PATH-B-CONFIRM | 324 | **1 of 3, NOT fired** |
+        BOARD/SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED-not-sustained-FT02-REGT03-1-of-3-CCC-1215.md:31  [324]
+           | **REG-T-03** (REGINALD) | HY >320, sustain 3, CREDIT-CANARY | 324 | **1 of 3, NOT fired** |
+        BOARD/SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED-not-sustained-FT02-REGT03-1-of-3-CCC-1215.md:32  [324]
+           | REG-T-04 (REGINALD) | HY >350 s3 | 324 | 26bp away |
+        BOARD/SIG-W-20261002-005-HY-OAS-324-on-10-01-over-320-ONE-PRINT-TAGGED-not-sustained-FT02-REGT03-1-of-3-CCC-1215.md:36  [324]
+           **LIQUID's cell (obs 10/01, d/d):** HY 324 (+12) · BB 204 (+10) · B 329 (+13) · **CCC 1,215 (+36)** · IG 86 (+2) · BBB 106 (+3). Every tier 
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (465)
+        AGENTS/CORAL/STATUS_DETAIL.md:489  [324]  (no unit/series context on line)
+           ⛔ District counts vs FLDOE Survey 2 disagree for the same year (Broward −10,834 vs −7,289; Lee −2,315 vs −1,167; Manatee +300 vs −324) — cit
+        AGENTS/WAL/INDEX.md:107  [324]  (no unit/series context on line)
+           5. **Lender-finance quality-of-names** (2,000 obligors) — V3 residual, unresolved since Q1. ⚠️ **PRIORITY RESTORED 8/7:** the "contracting b
+        AGENTS/WAL/NEXUS_BRIEF.md:6  [324]  (no unit/series context on line)
+           **As of:** **2026-09-28 (late)** — owner re-pin, **WAL session #10** (Nano branches + 9/29 read-sheet; then a Will-directed desk audit + rep
+        AGENTS/WAL/NEXUS_BRIEF.md:18  [324]  (no unit/series context on line)
+           5. **NDFI (V3) moved both ways:** Crestline 8-K 9/18 — **Western Alliance Bank joined a DB-agented private-credit SPV facility as a LENDER**
+        AGENTS/WAL/NEXUS_BRIEF.md:141  [324]  (no unit/series context on line)
+           | **Will** | ✅ **Ruled and executed:** FFIEC registration (8/7) · bear-fast 10→2% (8/20) · WAL-01/02 spec repairs (8/20) · v2.3.1 rejected ·
+        AGENTS/WAL/NEXUS_BRIEF.md:153  [324]  (no unit/series context on line)
+           - *(8/7 record — resolved 9/28: V3 re-scored 3/5, WQ-324)* **8/7 — with anyone citing V3 at 1/5:** the score is **held but under challenge**
+        AGENTS/WAL/MEMORY.md:3  [324]  (no unit/series context on line)
+           ## ⛔ RAISE WITH WILL AT BOOT (re-stated 2026-09-28 late, after Will's WQ-324/325 rulings)
+        AGENTS/WAL/MEMORY.md:6  [324]  (no unit/series context on line)
+           - ~~V3 score decision~~ ✅ **WQ-324: re-scored 1/5 → 3/5 (9/28).** ~~Print-frame rule gaps~~ ✅ **WQ-325: registered as print frame §10 (9/28)
+        … +140 more 🟠 hit(s) on [324] across 76 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+        AGENTS/DAEDALUS/PATTERNS.tsv:44  [310]  (no unit/series context on line)
+           PAT-042	2026-07-10	CLASSIFICATION-LABEL DRIFT: a fleet-level roster label (the one-phrase domain descriptor) can drift from the agent's OWN 
+        AGENTS/VIOLET/STATUS.md:30  [310]  (no unit/series context on line)
+           | Adjusted M1:M2 | **+4.36%** VX/V6→VX/X6 | Sep 28 settle | [CONF] `thresholds.py`. BELOW_AVG vs 5.6 (KB-VIO-310). 9/25 m1m2 blank (backfill
+        AGENTS/VIOLET/board_log.tsv:83  [310]  (no unit/series context on line)
+           2026-09-02T20:31:29-04:00	SIG-W-20260828-042	acted	INBOX_WALTER	$11.7M OTM VIX call print at 'spot 18.62' -- WALTER's guard is CORRECT and I
+        AGENTS/VIOLET/board_log.tsv:159  [310]  (no unit/series context on line)
+           2026-09-24T04:46:03+00:00	PROME-20260923-L441-m1m2-avg-frozen	acted	INBOX_ROOT	PROME asks for the spec behind FORGE vix_futures.py AVG_STEEP
+        AGENTS/WAL/INDEX.md:7  [310]  (no unit/series context on line)
+           **Thesis v2.4** (2026-08-20; `THESIS.md` owns it) · Bear-fast **2%** / Bear-medium **16%** / Base **45%** / Bull **30%** / Tail **7%** · **E
+        AGENTS/WAL/THESIS.md:377  [310]  (no unit/series context on line)
+           > 🧊 **v2.2-era table (pre-7/22) — not the live ledger.** LIVE: **WAL-01 (ex-REG-24) 25% · WAL-02 (ex-REG-25) 50%**, both OPEN to Q3 (re-spec
+        AGENTS/WAL/NEXUS_BRIEF.md:19  [310]  (no unit/series context on line)
+           6. ✅ **BOTH Q3 FRAMES PRE-REGISTERED 9/24**: print → `Q3_PRINT_GRADING_FRAME_2026-09-24.md` (19 days before 10/13) · 10-Q → `Q3_10Q_GRADING_
+        AGENTS/WAL/CLAUDE.md:36  [310]  (no unit/series context on line)
+           - **Critical semantics:** the frozen grading frames (`Q2_GRADING_FRAME_2026-07-21.md`, `PREPRINT_RECON_2026-07-17.md`; and from their filing
+        … +305 more 🟠 hit(s) on [310] across 143 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+        AGENTS/WAL/research/audit_2026-09-28/B_thesis.md:32  [310, 324]  (no unit/series context on line)
+           | F-17 | Q2_10Q_READ_2026-08-07.md:305-310, :324 | "P2/P3/P4 **PROPOSED**"; "P5 Register the FFIEC CDR account … **UNCHANGED — Will-side**";
+        AGENTS/OZK/GEOGRAPHY/EXPOSURE_MAP.md:109  [310, 324]  (no unit/series context on line)
+           **Miami ($3.96B):** Largest concentration but best protected. 14 condo loans totaling $2.47B with WA LTC 45.9%, LTV 39.1%. 11 of 14 have pre
+        AGENTS/BRENT/research/2026-09-09_squeeze-review/wpsr-table9.csv:163  [310, 324]  (no unit/series context on line)
+           "Refiner and Blender Net Production ","Residual Fuel Oil","392","324","360","296","343","310"
+        AGENTS/BRENT/research/2026-09-09_squeeze-review/wpsr-table2.csv:51  [310, 324]  (no unit/series context on line)
+           "Refiner and Blender Net Production ","Residual Fuel Oil","392","324","68","360","9.1","296","32.5","343","310","10.6"
+     🟡 in MAIL, point-in-time — usually no action (15: CARL, FERT, NEXUS, RED, REGINALD, SHADE, VIOLET)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (70)  [--show-handled to audit]
+
+  🔴 91 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================
+

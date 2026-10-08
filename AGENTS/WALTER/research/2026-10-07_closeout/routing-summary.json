@@ -1,0 +1,124 @@
+{
+  "signals": 17,
+  "paths": [
+    "BOARD/SIG-W-20261007-001-paramount-final-pricing-supersedes-launch.md",
+    "BOARD/SIG-W-20261007-002-fomc-minutes-year-end-hike-bias.md",
+    "BOARD/SIG-W-20261007-003-october-steo-recovering-flows-higher-price-forecast.md",
+    "BOARD/SIG-W-20261007-004-wpsr-us-crude-draw-cushing-build.md",
+    "BOARD/SIG-W-20261007-005-pink-sheet-published-phosphate-root-flat.md",
+    "BOARD/SIG-W-20261007-006-wgc-reported-august-gold-buying.md",
+    "BOARD/SIG-W-20261007-007-wal-q3-calendar-confirmed.md",
+    "BOARD/SIG-W-20261007-008-nyfed-private-credit-review-reported.md",
+    "BOARD/SIG-W-20261007-009-g19-revolving-credit-contracts-august.md",
+    "BOARD/SIG-W-20261007-010-tdk-hdd-head-business-bidding-reported.md",
+    "BOARD/SIG-W-20261007-011-hbm-stack-configuration-cost-delta.md",
+    "BOARD/SIG-W-20261007-012-nyfed-report-confidence-metadata-correction.md",
+    "BOARD/SIG-W-20261007-013-workday-september-reorganization-primary-recovered.md",
+    "BOARD/SIG-W-20261007-014-petroline-named-minister-operational-report.md",
+    "BOARD/SIG-W-20261007-015-rabigh-jeddah-fire-claim-unconfirmed.md",
+    "BOARD/SIG-W-20261007-016-metrics-redemption-suspension-september-event.md",
+    "BOARD/SIG-W-20261007-017-workday-cluster-metadata-correction.md"
+  ],
+  "clusters_as_archived": {
+    "BANK_COLLATERAL": 2,
+    "FED_FRAMEWORK": 1,
+    "INFLATION_TRANSMISSION": 2,
+    "HYDROCARBON_INFRA": 1,
+    "MISC": 1,
+    "PC_STRESS": 3,
+    "CONSUMER_STAGFLATION": 2,
+    "AI_INFRA_CAPEX": 2,
+    "LABOR_DOWN": 1,
+    "IRAN_HORMUZ": 2
+  },
+  "historical_metadata": "013 LABOR_DOWN is corrected by017 CONSUMER_STAGFLATION; no new bucket",
+  "cluster_mediating": [],
+  "handoffs": 66,
+  "roles": {
+    "ACTION": 24,
+    "INFO": 42
+  },
+  "by_recipient": {
+    "LIQUID": {
+      "ACTION": 2,
+      "INFO": 7
+    },
+    "HENRY": {
+      "ACTION": 1,
+      "INFO": 10
+    },
+    "VULCAN": {
+      "ACTION": 2,
+      "INFO": 7
+    },
+    "BOND": {
+      "ACTION": 1,
+      "INFO": 1
+    },
+    "BRENT": {
+      "ACTION": 3,
+      "INFO": 1
+    },
+    "WATT": {
+      "ACTION": 1,
+      "INFO": 2
+    },
+    "HAWK": {
+      "ACTION": 0,
+      "INFO": 4
+    },
+    "FERT": {
+      "ACTION": 1,
+      "INFO": 0
+    },
+    "AEOLUS": {
+      "ACTION": 0,
+      "INFO": 1
+    },
+    "MARCO": {
+      "ACTION": 0,
+      "INFO": 1
+    },
+    "MIDAS": {
+      "ACTION": 1,
+      "INFO": 0
+    },
+    "WAL": {
+      "ACTION": 1,
+      "INFO": 0
+    },
+    "REGINALD": {
+      "ACTION": 3,
+      "INFO": 2
+    },
+    "BROCK": {
+      "ACTION": 3,
+      "INFO": 0
+    },
+    "SHADE": {
+      "ACTION": 0,
+      "INFO": 3
+    },
+    "CARL": {
+      "ACTION": 1,
+      "INFO": 0
+    },
+    "OTTO": {
+      "ACTION": 0,
+      "INFO": 1
+    },
+    "VIOLET": {
+      "ACTION": 0,
+      "INFO": 2
+    },
+    "LABOR": {
+      "ACTION": 2,
+      "INFO": 0
+    },
+    "FALCON": {
+      "ACTION": 2,
+      "INFO": 0
+    }
+  },
+  "published": 66
+}

@@ -1,0 +1,930 @@
+{
+  "source": "first8 STATUS lines only; risk colors,roles,tiers unchanged; no header date inferred from filesystem",
+  "headers": {
+    "PROME": {
+      "path": "PROME/STATUS.md",
+      "lines": [
+        "# PROME STATUS.md",
+        "**Updated:** 2026-10-04 21:53 ET \u2014 Codex Standard closeout. HENRY owner handoff verified; remaining grading obligation \u2192 DOCKET L612 and `reports/2026-10-04_henry-sol-ism/owner-adoption-review.md`. Hosted publication BLOCKED: native Artifact tools unavailable. Prior stamps \u2192 Git history; session account \u2192 `memory/2026-10-04.md`.",
+        "**Last spine audit:** 2026-10-02 (fifteenth run \u2014 9 readers / 17 files: **4 blocking** [CLOSEOUT.md step 6 dropped root 1c-bis and mis-labelled PROME's own 1d-bis flow rule as a root step \u00b7 STATUS header mirrored HEARTBEAT's count and called the 26th re-base owed after prome-72 had done it \u00b7 SCRATCH said the same in three places \u00b7 SCRATCH claimed the intake collector skips weekends when it runs daily] \u2014 all four FIXED same session; **~45 minors** [stamp ride-unders \u00d75 (CLOSEOUT, BOOT, SYSTEM, MACHINE_LOCAL, GIT_COORDINATION) \u00b7 stale line-number and bare-filename pointers \u00b7 overtaken sub-states in STATUS/SCRATCH/ACTIVE_DECISIONS \u00b7 DOCKET source-field paths \u00d74 \u00b7 a WILL_QUEUE cell whose leading \u26d4 fooled the view parser \u00b7 HEARTBEAT's one undocketed Monday expiry \u2192 L592 \u00b7 mirror-map drift on the HY-watch home \u2192 re-homed] \u2014 fixed or delete-and-pointed; residue: the eight owner-lane fire-time flags (the 9/27 Nano Banc reports + one TERRY placeholder pointer) and the WQ-299 C2\u2013C4 consolidation = WQ-371. Re-run when >7d.) Prior: 2026-09-20 (fourteenth run \u2014 8 readers / 16 files; blocking + minors per `git log -p -- PROME/STATUS.md`; residue DOCKET L358). Historical findings \u2192 `PROME/archive/STATUS_HISTORY.md`. The historical WQ-272/full-reconcile wording is superseded: WQ-274 owns transaction/current-book verification.",
+        "**Companion reads (this file does not restate them):** continuity \u2192 `PROME/HANDOFF.md` \u00b7 next-session state \u2192 `PROME/SCRATCH.md` \u2605 NEXT \u00b7 Will's items \u2192 `PROME/WILL_QUEUE.md` \u00b7 catalysts + dates \u2192 `PROME/DOCKET.tsv` \u00b7 fire-ledger \u2192 `PROME/GATES.tsv` \u00b7 regime \u2192 `HEARTBEAT.md`.",
+        "",
+        "---",
+        "",
+        "## Current Work Queue \u2014 PROME's own actions"
+      ]
+    },
+    "CARL": {
+      "path": "AGENTS/CARL/STATUS.md",
+      "lines": [
+        "# CARL STATUS",
+        "**Updated:** 2026-10-02 \u2014 PROME due-row spawn (prome-70): V16 drop-back graded on the September NFP, NOT satisfied (S=+29K, R=\u221260K), count 0 of 2, V16 holds 4, score unchanged. Prior 2026-10-01 \u2014 PROME due-row spawn (L0 inbox drain, 16 items). **53/70 (76%), thesis v2.6.6, unchanged.** CRL-08 graded MISSED at its 7/06 fire (28%); CRL-27 retired unscored \u2192 successor CRL-31 (WQ-287 A); saving rate re-based to BEA's 9/30 vintage. Prior full refresh 9/24: `domain/sources/2026-09-24_data-catchup.md`.",
+        "**Overall:** \ud83d\udd34 CRITICAL under the registered score. Evidence is mixed: September fuel pressure and tighter Fed policy versus August retail rebound and improving credit at some issuers. **The operative full-thesis kill is NOT one more decline in card stock.** v2.6.6 requires claims <220K for 8 weeks AND two quarterly declines in Page 14 card flow into 90+, totaling \u2265100bp in one report vintage. Q2 flow path 7.13\u21927.10\u21926.97% falls only16bp: floor unmet. The retired stock rule is retained only as the mandatory shadow (Q2 decline1of2); escalate any future divergence to Will. V1 separately needs stock <12% for two quarters;12.92% has not started that clock. V16 holds4, drop-back1of2 on as-published vintages, resolver~10/2; revised positive July payrolls weaken the evidence but do not regrade the approved score.",
+        "",
+        "**History:** `status_archive/` and `archive/2026-09-16_closeout/STATUS.md`; never cite archived observations as current.",
+        "",
+        "---",
+        ""
+      ]
+    },
+    "REGINALD": {
+      "path": "AGENTS/REGINALD/STATUS.md",
+      "lines": [
+        "# REGINALD STATUS",
+        "**\ud83d\udfe0 9/29 TUE \u2014 CREDIT WIDENING REACHED THE B TIER; FLG LADDER ORANGE; NOTHING MOVED.** FRED [9/28]: HY **302** (280 \u2192 293 \u2192 302; `REG-T-03` >320 is 18bp away), **B 309 = first print over `VX-REG-18.05`'s >300 band** (five straight widenings from 271 [9/22]), BB 183, CCC **1,146** (highest in FRED's public window; ratio 3.795\u00d7, HARD-FIRE continues, escalation NOT repeated \u2014 sent 9/26 on the re-arm; LIQUID grades it broad/BB-led). Tape 9/29 close: KRE **$69.83** (\u22121.02%), WAL **$75.76** (\u22121.03%; exit run **0-of-3**, 20 rows), FLG **$11.84** (2nd close below ORANGE $12.10; RED $11.39 is 3.8% away; **packets PROME + FLG sent**, `f6a95855b`), EGBN \u22121.72%, 10Y **5.26%** (cycle high). `KRE $60P Sep-30 \u00d72` expires tomorrow \u221214.1% OTM (lapse on track). **No score, threshold or trade moved.** WQ-318 funding baseline packet received (wake 10/5, deliver by 10/9, after the 9/27 write-backs).",
+        "*9/27 SUN PM headline (CRE\u2192bank transmission, WQ-311/312/313: cross-bank CONCENTRATED at 6/30; VLY NEITHER + one flag; EGBN Fairfax not observable pre-Q3) \u2192 `archive/STATUS_rotation_2026-09-29.md` BLOCK T2, crc32 `f6ecc80f`. Reports canonical in `reports/2026-09-27_*.md`; Q3 checks on CALENDAR.*",
+        "*9/27 SUN headline (Nano Banc failure forensics: shared SCENARIO \u2248 $120M \u2248 17% [9/22 base]; lookalike screen none of my 14; ML-REG-044 C&D date corrected) + the 9/26 rotation note \u2192 BLOCK T3, crc32 `5e5aecf1`. Report canonical: `reports/2026-09-27_nano-banc-failure-forensics.md`.*",
+        "*Headlines 9/1, 9/2 (2nd session), 9/11 and 9/14 rotated VERBATIM \u2192 `archive/STATUS_rotation_2026-09-24.md` (crc-stamped, recompute before trusting).*",
+        "*\ud83d\udcc1 **Archived headline entries** \u2192 `archive/STATUS_aug10_aug27_2026_headlines.md` (8/10 \u2192 8/27, rotated 2026-08-28 per P1 read-cap; verbatim + crc32 52518bc6, 23,050 B) \u00b7 `archive/STATUS_aug20_2026.md` \u00b7 `archive/STATUS_aug13_4thpass_2026.md` \u00b7 `archive/STATUS_jul25_aug12_2026.md` \u00b7 `archive/STATUS_jul09_jul22_2026.md`. **History only \u2014 grades are canon in `reports/`.***",
+        "**Last Updated:** **2026-09-29 Tue ~19:4x ET (final closeout)** \u2014 evening: Will-directed selloff attribution (leg 1 beta, leg 2 size-led financials; pre-print observables \ud83d\udfe2), two KRE-put card-input packets to TERRY, LABOR openings-gap packet, NEXUS size-sort input, **`TRADE.md` rebuilt LIVE + `POSITIONS.md` current to FORGE 9/29 (HBAN $16P ITM \u2192 WQ-302 by 10/14; Aug-21 absence-confirm CLOSED)**. Earlier closeout ~17:5x: boot + settled-close pass; FRED through 9/28, tape through the 9/29 close; FLG ORANGE routed; BOTTOM LINE 9/24 rotated (BLOCK T1). Prior: **2026-09-27 Sun ~21:2x ET (closeout)** \u2014 PM: CRE\u2192bank transmission work (WQ-311/312/313), no market data changed (weekend). Prior: **2026-09-27 Sun ~12:5x ET (closeout)** \u2014 Nano Banc forensics (PROME-commissioned, Will-directed); no market data changed (weekend). Prior stamp: 2026-09-26 Sat ~21:4x ET (closeout) \u2014 CRE top-3 + loss bridge (`reports/2026-09-26_CRE_top3_loss_bridge.md`); catch-up through the 9/25 close.",
+        ""
+      ]
+    },
+    "WAL": {
+      "path": "AGENTS/WAL/STATUS.md",
+      "lines": [
+        "# WAL STATUS",
+        "",
+        "**Last Updated:** **2026-09-28** (WAL session #10, Will-launched boot + PROME `prome-7f` doorbell: Nano senior-lien net restated with ownership branches OPEN + 9/29 hearing read-sheet \u2192 research \u00a79/\u00a710; **price RE-BASED 9/28 evening to the Mon 9/28 close $76.55 (Will's word)**; earlier the same day only an intraday read existed ($76.71 at 14:35 ET). **Same session, later: audit repair pass** (`research/AUDIT_2026-09-28.md` \u00a7REPAIR RECEIPT) \u2014 Sep-18 booking recorded, valuation-sign and window fixes, Nano/Marcil holder language, catalysts completed, V3 evidence corrected (score NOT moved \u2014 see V3 row). *Prior 2026-09-27:* WAL session #9, Will-launched, LAPTOP: boot + fold of the 9/27 peer corrections [DEWEY 27b O1 \u2192 conditional; CATO NB6/NB3; COR-05/06 receipted APPLIED] + regional-bank scan \u2192 KB-209 life-science CRE. *Prior same day: session #8 boot + PROME-commissioned Nano Banc leg.*) *Prior: 2026-09-24 session #7 rotated the 9/2 surface VERBATIM to `STATUS_ARCHIVE.md` \u00a7FULL STATUS SNAPSHOT (`sha256(first16)=6ef10add72c95e2d`) and rewrote this file lean.* Session narrative \u2192 `MEMORY.md`; thesis moves \u2192 `CHANGELOG.md`. \u26d4 **Header carries STATE, not story; boot-read and byte-capped.**",
+        "",
+        "**Price:** **$76.55** (**Mon 2026-09-28 CLOSE**, yfinance daily, pulled 9/28 17:43 ET; = Will's Robinhood screen; \u22121.37% on the day vs KRE \u22121.40% \u2014 **the first session after the Nano Banc failure, and WAL moved exactly with the index**; prior closes 9/25 $77.61 \u00b7 9/24 $76.26 \u00b7 9/23 $75.60) | **Threshold:** **$78** | **Gap:** **\u2212$1.45**. \u26d4 **State the basis, never a bare percent:** **+1.89% = the move WAL must MAKE to regain $78** (\u0394\u00f7close) \u00b7 **\u22121.86% = how far BELOW the line** (\u0394\u00f7threshold). **The $78 line is TERMINAL: `GATE-REG-T02` FIRED on the Tue 2026-09-01 close ($77.26, cycle 2) and is RESOLVED** (`PROME/GATES.tsv`). \u26d4 **A close under $78 is never a fresh fire.** **The LIVE guard is `GATE-TERRY-ROLL70-EXIT`: WAL official close \u2265 $81.90 on 3 consecutive sessions \u2014 the 9/28 close ($76.55) is below it, so still 0-of-3; +6.99% to the first qualifying close (\u0394\u00f7close). The last close \u2265 $81.90 was Fri 8/14 ($82.32).** REGINALD grades (`../REGINALD/registry/REG_T02_EXIT_LOG.tsv`, 18 rows through 9/25 at last read); it guards the Dec-18 $70P and dies with it at the 12/04 time stop. **Sub-$78 closes 9/16 \u00b7 9/22 \u00b7 9/23 \u00b7 9/24 \u00b7 9/25 \u00b7 9/28 are SUPPRESSED RE-ENTRIES \u2014 not signalled.** *The 9/22 daily bar is $77.75 = the substitute graded 9/24 (`KB-WAL-189`).*",
+        "",
+        "\u2605\u2605 **SPOT vs EV \u2014 ~at it: $76.55 [Mon 2026-09-28 close] vs v2.4 EV $75.96 \u21d2 +0.78% over the central estimate (\u0394\u00f7EV).** Series: 18.8% \u2192 12.4% \u2192 5.4% (8/20) \u2192 4.16% (9/2) \u2192 \u22120.47% (9/23) \u2192 +2.17% (9/25) \u2192 **+0.78% (9/28)**; the 9/24 intraday low $74.60 was 1.8% below EV. **The margin of safety is ~nil on this desk's own arithmetic** \u2014 spot sits just above the top of the PT band ($52-76) and inside the Base range ($74-82). **EV has not moved since v2.4 (8/20); every move since then is PRICE.** \u26d4 *A valuation fact, not a thesis move.*",
+        ""
+      ]
+    },
+    "SAM": {
+      "path": "AGENTS/SAM/STATUS.md",
+      "lines": [
+        "# SAM STATUS",
+        "",
+        "**Last written: 2026-10-01 12:3x ET (from `date`): PROME-spawned L0 wake (DOCKET L551), prior block 2026-09-29.** \ud83d\udfe0 **Five facts moved: (1) The MOF monthly for Aug-27\u2192Sep-28 = \u00a50 (`20260930e.html`).** The 9/18 rate check and the 9/25\u201328 joint US\u2013Japan campaign were WORDS only, now on the official record. KB-SAM-258 promoted. **(2) The BOJ meeting-OIS for October fell 36%\u219218%** (Totan 10/1 15:15 JST, SAM-reviewed) after the Summary of Opinions and the Tankan; December rose 72\u219284%. The market now sits BELOW SAM-42's as-made 25%. Neither re-mark trigger fired, so no re-mark. **(3) The delayed MOF weekly posted: foreign LT debt wk 9/13\u201319 = \u2212\u00a51,904.9B net SELLING, which TRIPS SAM's >\u00a51.5T one-week bar.** 9/20\u201326 \u2212\u00a5684.5B. Signal \u2192 WALTER (`4171d2c43`). All residents, NOT a Channel-1 print. **(4) SAM-33 un-fired through 10/1.** The Oct\u2013Dec schedule is a scheduled taper (\u00a52.50T\u2192\u00a52.30T/month) with the 25Y+ bucket held flat; no unscheduled op. **(5) USD/JPY held 157.4 on completed closes**, ~0.5 yen under the 9/18 check high (158.054). \u26d4 **Nothing re-arms: book FLAT, v1.7 stands.** Boot 12/13 (boj_ois SSL timeout, then reviewed by hand).",
+        "",
+        "**Post-delivery, 10/1 12:2x\u201312:5x ET (closeout on Will's word via PROME 12:52 ET):** \u2460 **RED graded CH-009 CLOSED \u2014 RESOLVED-DISMISSED** (`0ad317cfc`, packet `bd53336ee`). SAM's readings matched MOF to 3dp. CH-012 is unchanged. \u2461 WALTER dispatched SAM's MOF-weekly signal as **SIG-W-20261001-004** (`13629bff8`). WALTER's check corrected SAM's \"7 of 9\" to **11 more-negative weeks** and withdrew \"on-cycle\" (SAM `31d94f42c`). \u2462 \ud83d\udfe0 **WALTER SIG-W-20261001-012 (ACTION; Will's LSEG screenshot, undated, read as the 10/1 close): JGB 10Y 3.109 (+5.8) \u00b7 20Y 3.968 (+8.6) \u00b7 30Y 4.192 (+7.1) \u00b7 40Y 4.236 (+7.1).** SAM's PROVISIONAL grade is in the JGB row. \u2463 SIG-W-20261001-007 (a carrier to CENTCOM, third vs relief CONTESTED) is INFO, with no SAM surface. \u2464 SAM's R3 set (12 phrases) is with PROME to land, PENDING at 12:53 ET.",
+        "",
+        "**Signal Status:** \u26b0\ufe0f **CARRY-CONVEXITY TAIL \u2014 RETIRED TO LOW (THESIS v1.7, 2026-08-07). Leg-1 SPF FIRED. Position FLAT; $0 was at risk.** \u00b7 **v2.0 KILLED 8/20\u201327** (BIS K1 fired; RED killed it four more ways \u2014 `thesis/V20_CROSSREAD_2026-08-27.md`; nothing was owed to Will). \u00b7 \ud83d\udd6f\ufe0f **v1.8 is a CANDIDATE in a SEPARATE document** (`thesis/V18_CANDIDATE_PILLAR1.md`), gated on SAM-41 + a separately-registered FX co-condition + RED pass + Will sign-off \u2014 **never on BIS.** SAM-41 historically confirmed but current gaps sit back above both bars (**0/5**); use its dated rider, not the archived Aug-7 case. \u26d4 **NO SUCCESSOR FRAME DECLARED \u2014 v1.7 stands, and that is the honest state, not a gap to be filled.**",
+        ""
+      ]
+    },
+    "RED": {
+      "path": "AGENTS/RED/STATUS.md",
+      "lines": [
+        "# RED STATUS",
+        "**Last Updated:** 2026-10-01 12:2x ET (S49, PROME Tier-1 due-row spawn prome-0c \u2014 DOCKET L484 + whole-inbox L0 drain) \u2014 \u2705 **SAM-rail CH-009 CLOSED \u2014 RESOLVED-DISMISSED (RED right)** on the pre-written rule: MOF 30Y 9/25 **4.112** \u00b7 9/28 **4.122** \u00b7 9/29 **4.126** \u00b7 9/30 **4.098**, all <4.300 (own MOF pull 10/01; SAM's readings match to 3dp). Won on the 8/17-refreshed line; the original range leg had failed against RED 8/17. **RED-04 \u2192 CORRECT** (modal non-occurrence; Fed HIKED 9/16). **FT-02 (>320 s=3) ARMED, 0 of 3: HY 312 [FRED 9/30], 8bp away, NOT fired**; widening slowing (+9/+6/+4). The FT-01 tie-atom caveat is retired: 9/29 = 308 completes even the strict count. **No weight, threshold or sustain count moved; $0.** Inbox 0 + 0 (census). NEXUS_BRIEF rotated 41,136 \u2192 8,797 B (verbatim to `reports/`).",
+        "**Addendum S49b 2026-10-01 12:5x ET (prome-0c touch 2, Will \"go for the six\"):** two red-team packets, **no weight moved, $0.** (A) LIQUID LIQ-07 S2 lean **SURVIVES** on today's evidence (CP, swap lines, foreign repo all quiet), but its three funding legs see only reserve-scarcity loops; the S1 base-rate date is mis-attributed (10/31 is outside both \u00b110 windows); HYG redemptions are unread \u2192 ML-RED-270. (B) CARL's \"K converging downward\" premium reading **does not survive** as a read of DR-3: PREM\u2212MID is a sign-flipping tie, and as phrased the reading cannot lose; it has a live but untested post-7/24 price case \u2192 ML-RED-271.",
+        "**Close-out state 2026-10-01 12:5x ET (S49 full closeout, Will's word 12:52 ET):** **DOCKET L484 RESOLVED** (PROME, on `0ad317cfc`). SAM late packet: matches. **Follow-ups (dated, `docket/CATALYSTS.tsv`):** LIQUID's 4 asks beside the LIQ-07 S1/S2 verdict **10/15\u201310/16** \u00b7 CARL's Q3 premium-leg discriminators before the prints **~10/20** \u00b7 **RED-25** (registered 10/01: DEWEY permutation p on PREM\u2212MID > 0.30 in every cut, 70%) grades when the test runs, re-review **10/31**. **Owed (dated, RED's own):** \u2460 hypothesis-weight + counter-signal re-derivation (weights are S29 8/12 / S41 9/6 vintage) **by 10/09**, before the 10/14 CPI \u00b7 \u2461 `CALENDAR.md` narrative rebuild (8/20 vintage; W4 mirror divergent) **by 10/09** \u00b7 \u2462 the `board_log.tsv` pre-append size gate **by 10/06** (the rotation itself was DONE at this closeout: rows 9/15\u20139/24 \u2192 `archive/board_log_pre-2026-09-25.tsv`, verbatim). STATUS rotated too (\u2192 `reports/2026-10-01_S49_status_rotation_folded.md`). Prediction tally **10W / 13C / 2A** (RED-23, RED-25).",
+        "**Addendum S50 2026-10-01 16:18 ET (Will boot, same-day re-boot):** **no weight, threshold or sustain count moved; $0.** Boot tape: HY **312 [FRED 9/30]** (FT-02 still 8bp, 0 of 3), CCC 1,179, VIX 16.34, SKEW 141.92 [9/30]. No new fire. **LIQUID's LIQ-07 reply: RED CONCEDES one line.** \"Never read on a non-calendar date\" is refuted by their z leg; RED reproduced all 8 cited z values on LIQUID's own script. The core point (the legs only read in a reserve-scarcity regime) survives \u2192 ML-RED-272, with a basis note sent back on pair-series vs SOFR session counting. COR-20260925-13 receipted NO-OP. Inbox 0.",
+        "**Addendum S50b 2026-10-01 19:1x ET (Will: sweep \u2192 \"approved, proceed\"):** cleared the overdue A block of `reports/2026-10-01_S50_todo_sweep.md`. **No weight moved; $0.** FT-06 8/11 outcome **CORRECT** (22d late; no VIX \u226523 since the fire). **CHG-044 re-reviewed: RED withdraws E3b's \"fires decisively on 5/29\" validation claim** (BROCK retired the CCLFX framing at primary 9/3) \u2192 re-dated 11/30. CHG-049 canon was stale (CARL accepted 8/27) \u2192 re-dated 10/20. 5 limbo challenge rows closed. 7 overdue catalysts resolved (**Aug CPI core +0.29 MoM / 3-mo 1.97% \u21d2 FT-08 no fire**; FOMC +25bp). EGBN Q3 re-dated to ~10/21 AMC (est.). **boot.py DUE-scan widened** so none of this can hide again \u2192 ML-RED-273.",
+        "**Addendum S50c (same evening): 10/14 CPI tree PRE-WRITTEN** \u2192 `research/2026-10-14_SEPT_CPI_DECISION_TREE.md`. **FT-08 fires on a published Sept core 0.3** (Table A 3-mo 3.25; 0.2 gives 2.84). Cleveland nowcast core +0.20 \u21d2 **P(fire) \u2248 25\u201335%**. On fire: **Stag +3 = Managed \u22122 / Soft \u22121** (offset pre-registered today) \u2192 net-bear 61. Basis ruled pre-data: Table A governs; index is the cross-check. CHG-028's two-print resolver is now numeric. No weight moved. ML-RED-274.",
+        "**Addendum S50d/e (same evening):** counter-signals **RE-PULLED** (10Y real **2.93** / 30Y **5.64** [9/30]; the bear's structural pile widened; see COUNTER-SIGNALS). **Weights re-derived AFTER Fri 10/2 NFP, by 10/09.** The board_log size gate, WL-03 `>=` and the CALENDAR rebuild are done. Left: KB/VX review debt, TIMELINE/FLOW. $0."
+      ]
+    },
+    "BROCK": {
+      "path": "AGENTS/BROCK/STATUS.md",
+      "lines": [
+        "# BROCK \u2014 STATUS",
+        "",
+        "**Updated:** 2026-10-02 Fri 17:28 ET \u2014 **hot/cold split executed** (CREED pattern, Will 10/2). **Session narrative \u2192 the CURRENT catch-up named in `catchups/INDEX.md`**; pre-split bytes \u2192 `archive/STATUS_PRESPLIT_2026-10-02.md` (crc32 `d78e04c9`).",
+        "",
+        "---",
+        "",
+        "## \ud83c\udfaf STANDING OBLIGATIONS \u2014 boot read",
+        "*An owed action leaves this table only by being DONE or by its owner's ruling, never by a rotation. Full dated docket \u2192 `docket/CATALYSTS.tsv`. Codes: `L###` = row in `PROME/DOCKET.tsv` \u00b7 `WQ-###` = row in `PROME/WILL_QUEUE.md` \u00b7 W1/W2/W3 = FORUM-5 standing tests (below) \u00b7 X1 = the tape-substance divergence instrument (matrix).*"
+      ]
+    },
+    "BRENT": {
+      "path": "AGENTS/BRENT/STATUS.md",
+      "lines": [
+        "# BRENT STATUS",
+        "",
+        "**Last real data refresh: 2026-10-07 16:33 ET; writeback 2026-10-07 17:41 ET \u2014 SCOPED-PARTIAL.** WPSR week 10/2 at API/XLS; October/September STEO PDFs; freight October 2; named quote capture 16:15\u201317 ET and October 5\u20137 settlement-window estimates; FRED spot 10/6, retail 10/5; GIE gas day 10/6 estimated; Will-confirmed 10/7 holdings, exact capture time unknown. Official settlements, current USO weights and quantified Saudi loss unavailable. COT/rig/JWC and incident states retain their earlier vintages. [Evidence and limitations](research/2026-10-07_news-catchup/REPORT.md).",
+        "",
+        "**Routine deployment stays parked** at the [CATO handoff](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et); saved repair is complete, live deployment/normal-run acceptance unresolved. No trade approval changed. Position status and USO card correction \u2192 [TRADE](TRADE.md).",
+        "",
+        "---",
+        ""
+      ]
+    },
+    "LIQUID": {
+      "path": "AGENTS/LIQUID/STATUS.md",
+      "lines": [
+        "# LIQUID STATUS",
+        "**Last Updated:** 2026-10-02 11:1x ET Fri (`date` 11:15, Standard closeout; after it: BROCK L494 consumed \u00b7 4+1 WALTER/TERRY items \u00b7 events memo for Will's QQQ roll \u00b7 TERRY evidence answer \u00b7 KB-LIQ-142; inbox 13 \u2192 0). Opened 08:3x \u2014 PROME `prome-70` WQ-184 due-row wake (DOCKET L493). **10:2x ET (PROME doorbell): 10/1 ICE cell GRADED: \ud83d\udd34 HY 324 > 320 send line, ONE print (TAGGED, not sustained); signal sent via WALTER; REKILL 0-of-2; 072 not fired; `LIQ-07` spread condition 4th print, funding none (S2-so-far); \u00a71c BROADENS reaches IG/BBB p95.** (At 08:30\u201308:35 ET the cell was not yet published.) \u00b7 funding 10/1 read (SRF $0.000B, SOFR\u2212IORB \u22123) \u00b7 **WQ-301 (b) ENCODED: 069 anchor re-based on both sign readings** \u00b7 CATO D2 reproduced, its AC written, held to the L568 pass \u00b7 RED basis note added to the LIQ-07 erratum \u00b7 inbox 7 \u2192 0. *Prior headers \u2192 `archive/status_snapshots/STATUS_ROTATION_2026-10-02.md`.* Book **FLAT \u00b7 $0**.",
+        "",
+        "> **How to read this file.** Levels here are **dated snapshots**, each with its own observation date. **`scripts/boot.py` is the live source**; quote from it, not from here. Basis is latest-revised FRED unless stated (see \u00a75). One fact, one place: if a figure appears twice, one copy is a defect.",
+        "",
+        "## 1. NOW",
+        "",
+        "**Credit ladder [FRED ICE BofA OAS, obs 10/1, published 10/2 ~10:15 ET; cache-busted pull 10/2 10:24 ET, 3 paths agree (2 fredgraph URL variants + API via `fetch.py` with a fresh cache dir); obs date checked on every series; first publication, so = first-published]:** IG **86** \u00b7 BBB **106** \u00b7 BB **204** \u00b7 B **329** \u00b7 CCC **1,215** \u00b7 HY **324** (d/d +2/+3/+10/+13/+36/+12; 15-session vs 9/10: +6/+8/+49/+49/+145/+54). Prior: HY 302 [9/28] \u00b7 308 [9/29] \u00b7 312 [9/30]. CCC\u2212B **886** (+23 d/d, 99.1st pct). Every d/d at or above its own 96.6th pct (`transmission_check.py`)."
+      ]
+    },
+    "HENRY": {
+      "path": "AGENTS/HENRY/STATUS.md",
+      "lines": [
+        "# HENRY STATUS",
+        "",
+        "**Last owner update:** 2026-10-04T20:52:57-04:00 \u2014 bounded Will-approved SOL owner adoption. **Macro forecast:** headline56.0 / employment49.5 / prices74.0; ranges and falsifiers registered HEN48\u201356. Firm activity with partial hiring recovery, high costs; no unconditional equity call. No existing gated letter/threshold/confidence altered.",
+        "**Prior whole STATUS preserved:** status_archive/2026-10-04_before-owner-adoption_STATUS.md. All market figures below are explicitly dated historical observations, not live Monday prices.",
+        "",
+        "## September ISM Services \u2014 owner adopted",
+        "",
+        "| Item | Status / instruction |"
+      ]
+    },
+    "LABOR": {
+      "path": "AGENTS/LABOR/STATUS.md",
+      "lines": [
+        "# LABOR STATUS",
+        "**Last Updated:** 2026-10-02 11:15 ET *(PROME-spawned, `prome-70`, WQ-184 due-row DOCKET L287; FULL CLOSEOUT on Will's word via PROME 11:13 ET \u2014 1c consumer check run: RED packeted (Aug +162K stale at its STATUS:46); events-10/2\u201310/16 memo for PROME)* \u00b7 \u2705 **NFP SEP GRADED at the BLS primary (USDL-26-1549) off the frozen card: +29K; Jul \u221210K / Aug +133K (net \u221260K); U-3 4.2%, LFPR 61.8%, EPOP 59.2%. Bull-side kill (v2 LEG A, bar re-solved +177K) NOT fired; Kill A 0/3; T-03/T-04/T-06/T-08/T-13 not fired; v8 counter reset 0 of 2; LAB-18 15\u219210%, LAB-19 60\u219281%. Score unchanged 28/75.** Inbox drained (1: SB 951 signed 9/30). *Prior:* 2026-10-01 12:56 ET *(PROME-spawned, `prome-0c` slate, WQ-184 \u2014 FULL CLOSEOUT on Will's word 12:52 ET; post-delivery receipts = PICKUP 10)* \u00b7 \u2705 **Claims w/e Sep 26 + Challenger Sep GRADED at primary; LAB-03 \u274c resolved; 10/8 claims card frozen; 10/2 NFP card ARMED (Amendment 2, no band moved); inbox drained (2).** Score unchanged **28/75**. *Prior:* 2026-09-29 13:50 ET \u00b7 \u2705 **JOLTS Aug GRADED same day** (printed 9/29 vs a docketed `~Oct 6`): NET `5,192 \u2212 5,070 = +122K` \u21d2 **v4 3 \u2192 2** on its pre-registered band; Jul NET revised \u221218K \u2192 +18K \u21d2 **freeze-thaw LEG C MET. Score 29 \u2192 28/75.** 10/2 card amended pre-print. Challenger Aug + FL UR caught up; parked items folded; news sweep (no 10/1 lapse). **READ-CAP TRIM executed 9/29** (see banner).",
+        "**Status:** \ud83d\udfe0 **LOW-FIRE / LOW-HIRE \u2014 the flow side turned (JOLTS NET >0 two months).** Claims 197K / MA 200,000 \u00b7 CC 1,701K \u00b7 JOLTS hires 5,192K / 3.3% \u00b7 layoffs rate 1.0% \u00b7 NFP Sep **+29K** (Jul rev \u221210K, Aug rev +133K) \u00b7 U-3 4.2% on LFPR 61.8% \u00b7 EPOP 59.2%. **Bull-side kill (freeze-thaw v2) did NOT fire 10/2** (needed \u2265+177K on the revised bar); LEG A is the open leg again \u2014 next draw Nov 6.",
+        "",
+        "> \ud83d\udd12 **HOT/COLD SPLIT** (2026-09-02): this file is **canonical for every live figure, band, score and open grade**; `STATUS_DETAIL.md` is the cold half \u2014 **on demand, NOT a boot read**. \ud83d\udd12 **TRIMMED 2026-09-29 from 31,125 B:** the pre-trim file is preserved **byte-for-byte** at `STATUS_DETAIL.md` \u00a7 `status-pretrim-20260929` (blob `d7a0f26`) \u2014 every shortened row is there word-for-word; no live figure was dropped. Older rotations: \u00a7 `hotcold-split-inventory`.",
+        "> \ud83d\udcc5 **READ_CAP rule 7:** re-measure at every closeout append (`python3 scripts/read_cap_check.py --agent LABOR`). The dated **2026-10-02** re-trigger was discharged **2026-10-01** (whichever-first) at the 10/1 closeout \u2014 both files below the rotate tier, no rotation (re-measure with the command above; this line carries no size figure). Budget **32,550 B**; rotate at \u226524,412 B; stop <22,785 B.",
+        "",
+        "> \ud83d\udd12 CORE TENSION \u2192 `STATUS_DETAIL.md` \u00a7 `core-tension`. Supply-side context (MARCO) \u2192 \u00a7 `cross-domain`. Bearish-core shape (8/7) \u2192 \u00a7 `matrix-bearish-shape`."
+      ]
+    },
+    "HAWK": {
+      "path": "AGENTS/HAWK/STATUS.md",
+      "lines": [
+        "# HAWK STATUS",
+        "**Last Updated:** 2026-09-28 Mon 15:31 ET (from `date`). \u2705 **WILL RULED in-session: WQ-319 IRAQ-01 RED \u2192 YELLOW** (SOMO Aug 2026 report, pub 9/6: 2,377.020 kb/d exports; GREEN unmet; 8/10 correction kept; KB-HAWK-422). **WQ-320 narrow definition encoded on FININFRA-01**: bank-serving cloud counts where physical damage is documented to interrupt a named bank; grading needs bank, function, causal evidence, date and restoration. The March AWS/ADCB/Emirates NBD event is **not graded ORANGE, because the causal link is undocumented**; YELLOW holds; the \"evacuation reversed\" wording is struck; RED is unchanged (KB-HAWK-423). **Recycled-headline rule amended** (KB-HAWK-424). *Earlier:* closeout 14:53 ET per git, `95a195af9` (**Will-launched boot + catch-up; PROME `prome-7f` doorbell: Iran 7-day plan read + DOCKET L491**). \u2705 **L491 DONE: HAW-19 \u2192 DEFECTIVE-INSTRUMENT, no calibration credit** (`2d3bb96df`, KB-HAWK-415). LEG A NOT FIRED. LEG B **UNDETERMINED**: B.1 appears met on FALCON's ledger (six named Gulf-of-Oman hulls 9/5\u20139/8, **only if sunk counts as disabled**), and B.5 needs Kpler AND Vortexa, which are unreachable. **The 9/29\u201330 LEG-B residual stays observed**; a fire gets appended and the disposition does not change. Successor = HAW-22 (window opens 10/01). \u2696\ufe0f **Three dormant re-sweeps (IRAQ 49d, FININFRA 49d, SULPHUR 44d); one wants Will's word:** **IRAQ-01 evidence supports RED \u2192 YELLOW** (Aug exports ~2.34\u20132.38 mb/d; production 2.75 mb/d on 8/9; no FM lift), NOT self-moved, KB-HAWK-417. \u26d4 My own 8/10 \"no restart\" negative was wrong at its date. FININFRA YELLOW holds on events, with an open **definition question** (Iranian strikes on AWS UAE/Bahrain data centres that served banks: Orange-class *if* bank-serving cloud counts). SULPHUR RED holds on a **mine-gate** $840/t (Ivanhoe), not delivered-Kolwezi. **War-risk:** the first dated Gulf quotes since July \u2014 **Yanbu ~3% of hull (from <1% in early July), Hormuz 6\u20139%, southern Saudi Red Sea ports up to 7%** (Reuters via Insurance Journal 9/25), broker quotes, owner adoption pending (KB-HAWK-420). $0; no other mark, band, threshold or confidence moved.",
+        "",
+        "**IRAN 7-DAY PLAN \u2014 HAWK read (KB-HAWK-416), timeline of record, weekdays checked:** Thu 9/24 Araghchi private remarks at the UNGA sidelines (AP 9/25, one attendee) \u00b7 **Fri 9/25 07:14 EDT** public confirmation that the plan went to mediators (CBS live) \u00b7 Fri 9/25 Pezeshkian CBS interview recorded (aired 9/27) \u00b7 **Sat 9/26 11:12 EDT Trump: \"I'm rejecting their deal\"** (CBS live; WSJ 02:51 EDT) \u00b7 Sun 9/27: Araghchi says it was a \"first reaction\" and nothing has come via mediators \u00b7 **Sun 9/27 14:37 EDT Trump to Axios: expects talks to resume THIS WEEK, \"not the deal that I want\"** (CBS relay read; Axios 403) \u00b7 Mon 9/28 Saudi FM\u2013Rubio talks; CENTCOM disputes Iranian claims of control over the Strait. \u26d4 **Weekday errors caught today:** PROME's doorbell (\"Fri 9/26\"), BRENT's routine (same), and **my own \"Thu 9/25\"** (inherited from WALTER -007, fixed by WALTER). ABC's 9/28 \"8 Marines hurt\" is a **9/14 event**, not a new one. **Instruments:** no HAWK registered line moves. The nearest exposure is **HAW-20 leg (c)**: the Majlis withdrawing or tabling the 7% Hormuz toll bill by 10/31 would FAIL it, and a deal is a named path to that; the rejection keeps it unfired. HAW-22 is not a grade input. The both-theater de-escalation broadcast is NOT triggered. **8/28 date trap** (WALTER LAST_COMPLETION `dff492367` FOLLOW-UP #1: unreconciled 8/28 \"Hormuz reopens\" / \"mines cleared\" headlines): **in play as a contamination risk.** The plan promises reopening \"within 7 days\", so recycled 8/28 copy would read as execution. **Rule (amended by Will 9/28, KB-HAWK-424): verify the ORIGINAL publication date and the EVENT date of any reopening copy. A reopening before formal acceptance is NOT automatically recycled, since a partial or unilateral reopening can happen without a deal.** Separately, the plan's 7-day clock cannot start before acceptance. **Falsifier for \"the rejection stands\"** (instrument-grade, not tape): \u2460 a US reply conveyed via Qatar/Oman accepting the plan or giving dated counter-terms; \u2461 an OFAC general license or waiver on Iranian oil; \u2462 a CENTCOM-announced blockade pause, or the redirect/disable tally going flat on a stated policy. The Axios remark already narrows the claim to **\"the rejection of THIS text stands; the channel is open.\"** **Polymarket \"next senior meeting by 10/31\" 50 \u2192 75.5 (WALTER -001):** the likeliest driver is the **Sun 9/27 Axios remark plus Qatari shuttle diplomacy**, which is newer than -007. That is a timing inference, not established cause, and the contract's resolution criteria were not read. BRENT owns price (shared timeline agreed with `brent-d2`).",
+        "",
+        "**Prior headers 2026-09-18 \u2192 2026-09-26** (9/26 HAW-22 registered; 9/25 L321 not-registered + L433 UNDETERMINED + IEEPA-void correction; EURMIL-01 registration, 9/19 correction-propagation n=4 and Channel-3 circularity notes, L432 grade, covert-claim rule revision): archived verbatim at `archive/2026-09-28_STATUS_prior-headers_0918-0922.md`.",
+        "",
+        ""
+      ]
+    },
+    "NEXUS": {
+      "path": "AGENTS/NEXUS/STATUS.md",
+      "lines": [
+        "# NEXUS STATUS",
+        "",
+        "**Updated:** 2026-10-01 Thu 16:24 EDT \u00b7 **+19:08 late-mover ANNOTATION #1 (BOND 17:05: 15\u219217/35, rows 1+2 on ONE print = one class (Disc-H); TERRY card lean: sell both Fri 10/2; WQ-357 PENDING) + HENRY `T10YIE` >2.40 line. **+19:55 9c ANNOTATION #2 (last tonight): Will to TERRY 19:09 \"will probably sell those tomorrow\" = INTENT, not [Approve]; WQ-339 stood down; RED-FT-08 fires on Sept core CPI 0.3 (RED P\u224825\u201335%, 10/14).** Annotated, not re-swept.** \u2014 **CATCH-UP (9/29 \u2192 10/1).** Rotation: 9/29 file \u2192 `STATUS_COLD.md` **\u00a7H13** (`crc32 e9461aed`). **Resolver grades: PRED-37 \u274c \u00b7 PRED-43 \u274cF \u00b7 PRED-48 \u274c \u00b7 PRED-24 \u2192 conditional watch \u00b7 PRED-45 re-registered (11/20) \u00b7 PRED-38/41 RE-SPEC'd, PRED-40 RETIRED (10/1 late).** **1 re-mark (M-08 \u21913, registered).**",
+        "**Last full matrix review: 2026-09-29** *(this pass = delta, every row re-read, one re-marked)*. \ud83d\udce6 COLD: \u00a7A\u2013\u00a7H13 \u00b7 `PREDICTIONS_COLD.md` \u00a7P5.",
+        "",
+        "> ## Probability split, 2\u20136wk: **Break 20% (\u2014) \u00b7 Grind-lasts 47% (\u2014) \u00b7 Unresolved-divergence 33% (\u2014)**",
+        "> **Falsifier (Disc-J) = `DFII10` banded letter, L13.** Anchor 2.85 [9/24] \u21d2 UP \u22652.95 \u00d75 \u00b7 DOWN \u22642.75 \u00d75. **Cells 1\u20134 = 2.83 \u00b7 2.90 \u00b7 2.91 \u00b7 2.93 [9/25\u20139/30 FRED]: neither (0 of 5 either way); 2bp under the UP edge.** 15 cells \u2248 10/16. **HELD \u2014 the falsifier has not fired.** \u26a0\ufe0f **The letter still cannot see CREDIT** (HY 312 \u00b7 B 316 \u00b7 CCC 1,179 [9/30]); credit leg = **WQ-342 RULED NOT NOW** (9/30) \u2014 successor gate is mine to draft at the 10/16 grade (DOCKET L558), and it must admit a credit-class candidate if PRED-50 is OBSERVED.",
+        "> **PRED-50 (L14) running tally, 2 of 8 cells:** quiet sessions n=2 \u00b7 W=1 (9/29: B +7) \u00b7 F=1 (9/30: B 0; nominal \u0394 +3.0bp sits ON the inclusive boundary \u2014 a revision flips it). Not graded; window to 10/8, grade ~10/9 (DOCKET L553)."
+      ]
+    },
+    "WALTER": {
+      "path": "AGENTS/WALTER/STATUS.md",
+      "lines": [
+        "# WALTER STATUS",
+        "",
+        "**Updated 2026-10-08T00:03:31.667013+00:00 \u2014 October7 authorised news catch-up; light-closeout, full deferred.** BOARD1239; today17 dispatches (14 news/research,3 corrections), zero kill-log additions or verification spawns. Boot PARTIAL. [REPORT](research/2026-10-07_catchup/REPORT.md) owns current evidence; LAST_COMPLETION retains running obligations. Current publication and named owner-consumption evidence: LAST_COMPLETION.md and research/2026-10-07_catchup/publication-receipt.json. Boot/source coverage stays partial; no full-board clearance.",
+        "",
+        "## BOTTOM LINE",
+        "",
+        "October5\u21927 news catch-up saved: actual Fed minutes, EIA forecast/inventory, consumer credit, fertilizer, gold and issuer/labour evidence; qualified pipeline, fire, private-credit and AI supply leads routed. Freight/insurance remain dated despite recovering oil flows. Manual USO watch active; Oct7 holdings basis current with exact time UNKNOWN. No new trade or gate. Full threshold/filter/read-basis coverage remains incomplete.",
+        ""
+      ]
+    },
+    "VIOLET": {
+      "path": "AGENTS/VIOLET/STATUS.md",
+      "lines": [
+        "# VIOLET STATUS",
+        "",
+        "**As of:** 2026-09-28 20:46 ET (`date`), **post-close**. Market basis: the **September 28 session close** for the VIX complex (Cboe delayed-quote; **Cboe history confirmed through 9/25**) and MOVE; FRED credit **9/25**; CFTC report **9/22**. Every cell dated otherwise says so. Thesis **v4.1.1**. Dark 9/25 03:00 \u2192 9/28 20:39 ET; this session caught up Fri 9/25 and Mon 9/28. Prior state (9/24 basis) is in git.",
+        "",
+        "\u2705 **Cboe history caught up.** `backfill.py --spot-only`: 2579 cells agreed, **0 corrected**, 9/23 and 9/24 stamped SETTLE, **9/25 row created** (was missing \u2014 dark day). `vx_daily_gapcheck` rc=0. Leg 2 KILL now rests on the publisher of record (KB-VIO-316). 9/28 is ahead of the publisher frontier and stays provisional.",
+        "",
+        "## BOTTOM LINE",
+        ""
+      ]
+    },
+    "YEYOU": {
+      "path": "AGENTS/YEYOU/STATUS.md",
+      "lines": [
+        "# YEYOU \u2014 STATUS",
+        "",
+        "**Updated:** 2026-08-20 (FIRST EVER REVIEW PASS \u2014 Will-ruled \"watermark YEYOU at today and spawn it\"; DAEDALUS set *DEFAULT* watermark `fdb466786` + spawned) | **Runtime:** Claude Code session, teams-mode spawn | **Phase:** 1 (digest-to-PROME only)",
+        "",
+        "> Review agent (meta). Exempt from domain-agent sections (Convergence Matrix / EXIT / TRADE). Dashboard = `reviews/REVIEW_LOG.tsv`.",
+        "",
+        "---",
+        ""
+      ]
+    },
+    "ZHAO": {
+      "path": "AGENTS/ZHAO/STATUS.md",
+      "lines": [
+        "# ZHAO STATUS",
+        "",
+        "**Updated:** 2026-09-30 (see commit time). **Session: PROME-spawned (WQ-184 due-row, DOCKET L481) \u2014 ZHA-16 graded at window close + whole-inbox drain (2 items).** *(9/25 session line: summit read at primary, L222.)*",
+        "\ud83d\udd12 **9/30 \u2014 ZHA-16 GRADED MISS by its letter (Brier 0.2025).** No instrument with an effective date beyond 11/10 at WH / FR (incl. public inspection, now 200) / govinfo / MOFCOM \u516c\u544a (KB-190). \ud83c\udd95 **MOFCOM 9/28 put 2027-01-10 IN WRITING** (\u7f8e\u5927\u53f8 interpretation \u00a7\u516b: both sides agreed to extend the Kuala Lumpur arrangement to 1/10 as the basis for further talks) \u2014 an official statement, **still not an instrument** (KB-189). *(9/19 header lines verbatim \u2192 `archive/STATUS_COLD_20260925.md` \u00a7\u24d0.)*",
+        "\ud83d\udd34 **9/25 \u2014 THE SUMMIT HAPPENED, NO INSTRUMENT MOVED, AND ONE OF MY THREE 11/10 CLOCKS WAS NEVER LIVE.** Xi in Washington 9/23-25, official readouts both sides (KB-181). Xinhua: \u300c\u8fbe\u6210\u4e86\u4e00\u4efd\u65b0\u7684\u8054\u5408\u5b89\u6392\u300d \u2014 **a new joint arrangement, NO terms published.** Bessent (Fox 9/23): \"Busan Agreement\" extended to **2027-01-10** \u2014 **VERBAL ONLY; no WH action/fact sheet, no FR notice, no MOFCOM notice as of 9/25 ~09:3x ET** (KB-182). \u2605\ud83d\udd34 **ZHAO's own premise error: the US IEEPA reciprocal \"lapse\" has had no duty behind it since 2026-02-24** \u2014 *Learning Resources v. Trump* (S.Ct. 2/20) + **EO 14389** ended the IEEPA duties under EO 14257-as-amended and EO 14195; EO 14358's 11/10 suspension sits inside that frame. **My 9/2 \"re-verification\" read EO 14358 and never checked its later disposition** (KB-183; KB-131 \u2192 CORRECTED).",
+        "**Overall Status:** \ud83d\udfe0 ELEVATED \u2014 **29/60 (+1, Vector 8 \u2192 4 on the gas leg; BRENT 9/6).** **July TIC (released 9/16, own pull 9/17): China $618.0B (\u2212$15.4B), LT/coupon net \u2212$7.7B \u2014 a SECOND consecutive month of duration selling, at half June's pace.** ZHA-17 resolves **NO** on its own boundary rule (\u2212$10B \u2265 LT > \u2212$5B \u21d2 NO): *continued but decelerating.* Belgium **sold alongside** (\u2212$20.4B); proxy stays falsified (rho +0.067, n=42); rotation refuted again (Agency \u2212$36.1B TTM). **Official sector as a whole BOUGHT coupons (+$25.5B) while private sold (\u2212$29.1B) \u2014 June's split reversed.**",
+        "",
+        "> \ud83e\uddca **READ-CAP rotations (verbatim moves, nothing deleted):** #1 `archive/STATUS_COLD_20260902.md` \u00b7 #2 `\u2026_20260917.md` \u00b7 #3 `\u2026_20260918.md` (\u00a7\u2460\u2013\u325a) \u00b7 **#4 `\u2026_20260918b.md` (\u00a7\u24d0\u2013\u24da)**. \u00b7 **#7 `\u2026_20260925.md` (\u00a7\u24d0\u2013\u24d6)**"
+      ]
+    },
+    "HANS": {
+      "path": "AGENTS/HANS/STATUS.md",
+      "lines": [
+        "# HANS STATUS.md",
+        "**Updated:** 2026-10-02 (Fri) \u2014 **PROME Tier-2 spawn (Will-authorized, bounded; above the 4-cap): T-10 state UNCHANGED MET-OPEN (TE spread 140.0bp, OAT 4.866; i-i unreachable; France-only NOT back in play \u2014 periphery UNWIND today, not fresh French stress) \u00b7 T-13 UK 30Y 5.91 EASED 9bp under \u00b7 T-16 flash 2.5% AT line but FINAL+sustain-2 letter unchanged \u00b7 T-04 state unchanged (event-driven) with CATALYST probability further weakened (money-market pricing no longer fully prices one more hike by year-end) \u00b7 5% TE headline on OAT NOT cross-vendor confirmed (Investing.com day high 4.994).** *Prior:* 2026-10-01 (Thu) \u2014 **PROME Tier-1 spawn (DOCKET L549, WQ-317): EU/UK rows shipped to BOND \u00b7 \ud83d\udd34 `T-10` DEEPENED to 130.3bp / 4.90 (France-idiosyncratic) and its EXIT is now registered \u00b7 `T-13` UK 30Y closed 5.943, 6bp under, after an intraday touch of 6.03 \u00b7 whole inbox drained.** *Prior:* 2026-09-25 (Fri) \u2014 **PROME Tier-1 spawn (WQ-294): `HANS-T-10` FRANCE FIRED 2026-09-24 (`HANS-F-006`), `HNS-06` graded HIT, whole inbox drained (17 items), TTF ladder pinned to a named contract.** *Prior:* 2026-09-19 (Sat, market closed) \u2014 **narrative for this session lives in `SESSION_LOG.md`; below is state only.** **(owed-board catch-up + CATO correction pass): THE ESRB REPORT IS READ AT PRIMARY AND IT SAYS THE SUPERVISOR CANNOT SEE THE EXPOSURE MY OWN FIRE ROW WAITS ON.** Two fires/predictions got fail-closed exit rules; a BANKING vector had been measuring a broad index for three weeks. Sessions 1\u20133 digested below; every block has a verbatim file.",
+        "**Boot:** rc1 \u00b7 `doc_audit.py` **0 findings** \u00b7 **67 tests OK** \u00b7 R1 **rc=0** \u00b7 mail lanes not processed (normal spawn). I own **`EUROPE_MACRO`** (BOND = time-critical backup). **UK leg: MINE.**",
+        "",
+        "---",
+        "",
+        "## \ud83d\udd34 CARRY FORWARD \u2014 the live consequences of 2026-09-18/19, **9/25, 10/01 and 10/02**. **Narrative \u2192 `SESSION_LOG.md`** \u00b7 verbatim \u2192 `workbook/`",
+        ""
+      ]
+    },
+    "MARCO": {
+      "path": "AGENTS/MARCO/STATUS.md",
+      "lines": [
+        "# MARCO STATUS",
+        "**Last Updated:** 2026-09-24 ~16:xx ET (session 30 \u2014 Will-directed boot + stale-info sweep) | **Thesis:** v3.2 | **Status:** \ud83d\udfe0 ELEVATED",
+        "**This session in one line:** **s30 (Will: boot + stale sweep, then all stale VX rows, then a full band audit) \u2014 no thesis move.** Stale rows refreshed on primaries; voter-reg counter-signal re-based (midterm cycle); mislabels fixed; 5 files archived. Detail \u2192 SCRATCH + `_archive/STATUS_s29_header_20260924.md`. **s30d (full band audit, 36 live rows, 3 blind Opus readers + MARCO adjudication):** 22 rows followed cleanly; re-graded `APT-01` ELEVATED\u2192**CRITICAL** (declared basis; confounded, duplicates `1.04`), `CA-02` CRITICAL\u2192**UNSCORED**, `1.03` \u2192 ELEVATED (12-month-actual rule); `2.01` BREACHED **confirmed on fresh TRAC data** (June arrests \u22654.2\u00d7 FY24); Census Vintage-2025 fixes to `3.04` (\u221256.5% was cross-vintage \u2192 **\u221237.0%**; CORAL packeted), `TX-04`, `SBMD-01`. s30b/s30c detail + prior header \u2192 `_archive/STATUS_s29_header_20260924.md`.",
+        "## \ud83c\udfeb FL ENROLLMENT \u2192 cold (`_archive/STATUS_cold_20260924.md`): OCPS \u22123.97% YoY; migration share \u22642,032, confounded.",
+        "",
+        "## \ud83c\udf41 CANADA \u2192 cold: **Q2 BOP (StatCan 8/27, pulled 9/24): Canadians' US travel spend C$6,513M, +1.2% YoY / \u221213.5% 2-yr; rest-of-world +35.1% 2-yr, US share 52.3\u219241.3%** \u2014 decline stopped deepening, no recovery (`KB-CAN-48`; the carried Q1 \"+$1.3B travel\" was the total-services surplus). US \u00a7338 +50% live 8/22; Canadian counter-tariff live 9/8 (629 items, CA$27.6B = import coverage, currency INFERRED); no employment effect inferred; Channel-2 conviction UNCHANGED.",
+        "",
+        "## SIGNAL DASHBOARD"
+      ]
+    },
+    "SHADE": {
+      "path": "AGENTS/SHADE/STATUS.md",
+      "lines": [
+        "# SHADE STATUS",
+        "",
+        "**Last Updated:** 2026-10-01 13:01 ET (FULL CLOSEOUT on Will's word via PROME, after two touches) \u2014 **PROME-spawned session (`prome-0c`, WQ-184 due-row spawn), first since 8/28 (34 days dark).** **Task:** FORUM-5 W1 legs (a)+(b) \u00b7 DOCKET L241 origin \u00b7 catch-up \u00b7 whole-inbox drain (25 items). **Yield:** **W1 leg (a) FOUND** \u2014 Athene publishes its own US statutory statements, quarterly + annual, free (`ir.athene.com/financial-information/statutory-filings`) \u00b7 **leg (b) NOT FOUND** as pre-stated (AARe Related Parties note has no allocation) \u00b7 \ud83d\udd11 **but ~$7.4B of ARI loans visibly landed at AAIA on the 4/24 close date (Schedule B Pt 2; attribution INFERRED)** \u2014 \u00a72.8 survives only at the ECONOMIC level \u00b7 **`T-SHADE-01` level leg LIVE 4-of-5, sign leg NOT MET \u21d2 NOT ARMED** \u00b7 **Delaware Life remediation sized (secondary): TWG to buy up to $6.5B of affiliated assets.** **NO band, threshold, kill-line, vector score or confidence moved.** Full delta \u2192 `research/W1_OPACITY_LEGS_AND_CATCHUP_2026-10-01.md`.",
+        "**Prior sessions:** 8/28 (Delaware Life distribution pause, marker (0) MET; pre-pause flow baseline; P1 rotation) \u00b7 8/13 (M-11 finals; FORUM 5) \u00b7 7/27 (vector #1 \u2192 FIRING). **Chain \u2192 `archive/STATUS_PRE-ROTATION_2026-10-01.md` (32,462 B, crc32 `8f171d07`, `tail -n +5` reproduces it) and `archive/STATUS_PRE-ROTATION_2026-08-28.md`.**",
+        "",
+        "**Signal Status:** \ud83d\udfe0 **STRUCTURAL / LATENT INSURER-WRAPPER STRESS, ONE vector FIRING (single-name, Delaware Life).** Private-credit fund stress confirmed by BROCK; HY widening 263 \u2192 312 (8/27 \u2192 9/30) is **manager-led** on the tape, not wrapper-led. SHADE's job: test whether fund stress is being absorbed, hidden, financed or amplified through PE-owned insurers, offshore/captive reinsurance, funding-agreement channels and rated wrappers.",
+        "**\u26a0\ufe0f KB WARNING:** `domain/sources/` 01\u201308 are Mar'26 vintage \u2014 check `LAST_REVIEWED` before citing.",
+        ""
+      ]
+    },
+    "OTTO": {
+      "path": "AGENTS/OTTO/STATUS.md",
+      "lines": [
+        "# OTTO STATUS",
+        "",
+        "**Signal Status:** \ud83d\udd34\ud83d\udd34 fraud-leg CRITICAL (**both thesis mechanisms criminally charged; First Brands CONVERTED TO CH.7 \u2014 order ENTERED 9/1, VERIFIED at Dkt 3748**) / \ud83d\udfe0 systemic-funding-leg DISCONFIRMED | **Last Updated:** 2026-10-04 EDT (**session 027** \u2014 PROME explicit intake of Hertz SIG-W-20261004-006: ADDS A WATCH, Australian sale itself no relevant effect) \u00b7 prior s026 2026-09-30 (CATO RC2/RC3)",
+        "",
+        "> **\ud83d\udccc Session 027 (Oct 4, Sun \u2014 PROME explicit intake, ONE item: Hertz `SIG-W-20261004-006`). Disposition: ADDS A WATCH.** The reported sale of Hertz's **Australian** business has **no relevant effect** on the US used-car channel: that fleet stays in Australia on its own ABS ($226M, 1.8% of Hertz vehicle debt) `[CONF 10-Q Q2-26]`. The only route to a US fleet dump is an **HVF III amortization event or a Hertz Ch.11**; the fleet platform priced $834.75M of notes on 8/27 `[CONF 8-K]`. Dated test **~Dec 1** (CRITICAL TIMELINE). No 8-K on the Australian sale (EDGAR, 10/4). ML-OTTO-287. **No trade, threshold, prediction or confidence changed.** \u26a0\ufe0f The 10/1 rows below were NOT swept this session (bounded spawn) \u2014 still owed.",
+        "> **\ud83d\udccc Session 026 (Sep 30, Wed late \u2014 PROME spawn on CATO RC2 + RC3, `433084d2b`). Evidence re-check of the 9/30 grades. No outcome flipped.** s025 pointer \u2192 `STATUS_COLD.md` \u00a713.",
+        "> - **Verified + calibration-eligible set is now 2 rows, 1 of 2, mean Brier 0.2925:** OTTO-29 \u274c on window (0.5625) and OTTO-32 \u2705 (0.0225). \u26a0\ufe0f **n=2 is not a calibration statistic, and it reads better than 0.3744 only because two misses left on evidence grounds.**",
+        "> - **OTTO-10 \u2192 NEEDS_VERIFY.** CATO was right: the grade read Equifax data through March against a claim that runs through Q3. The July and August editions **did exist** (full month names; s025's 404s were guessed URLs). Coverage now runs through May: YTD account share 18.1%, balance share 15.2%, nothing below 13% on any reading. **But the May monthly balance share is 13.1%, 0.1pp above the line after three monthly declines.** Re-check at the edition covering September (expected Dec, `CATALYSTS` 12-15)."
+      ]
+    },
+    "BOND": {
+      "path": "AGENTS/BOND/STATUS.md",
+      "lines": [
+        "# BOND \u2014 Status",
+        "",
+        "**Agent:** BOND \u00b7 **Domain:** US bond-market structure. **Last session update:** 2026-10-07T20:35:10-04:00 \u2014 standard closeout requested by Will; research/documentation published through c1bdeb6e2; final runner/commit/publication receipt pending. **Last real data refresh: 2026-10-07.**",
+        "",
+        "October7 primary Treasury curve and October6 credit observations below are separate frontiers. Full evidence, auction arithmetic, primary minutes and source gaps: `analysis/2026-10-07_catchup/REPORT.md`. Prior dashboard preserved at `domain/sources/2026-10-07_STATUS_pre-continuation.md`; interrupted checkpoint retained unchanged.",
+        "",
+        "## Current judgment",
+        ""
+      ]
+    },
+    "ORACLE": {
+      "path": "AGENTS/ORACLE/STATUS.md",
+      "lines": [
+        "# ORACLE STATUS",
+        "",
+        "**Live dashboard: prediction-market probabilities, divergences, alerts.**",
+        "**9/28 PARTIAL UPDATE (Mon, PROME-spawned L299 roll + inbox drain):** pulls 2026-09-28T13:48Z/13:49Z (PM 52+53 rows, Kalshi 14/14, rc=0). **Re-read and rewritten this session: alert 0, alert 5, the oil rows, the derived series.** Every other alert/table row below is the **9/27 read** and says so. **9/27 basis \u2014 Last pull:** 2026-09-27T16:20Z (Sun 12:20 ET). Polymarket `pull --log` 52 rows \u00b7 Kalshi `pull --log` 14/14 (**authed lane LIVE, rc=0**) \u00b7 `disruption_supply_spread.py` (v5 row 3). Event drill-ins (Iran \u00d73, Fed count, CPI, 10Y, 30Y, end-2026 rate, named banks) 16:2x\u201316:4xZ. **Box:** DESKTOP. Lane state is per-box, never a fleet fact.",
+        "**Session:** 2026-09-27 (Sun) boot + pull + **PROME-commissioned bank-failure-markets read** (Nano Banc, `prome-09`) \u2192 `analysis/2026-09-27_bank-failure-markets.md`. `history --write`, `movers` and `coverage` were **not** run this session (coverage next due ~10/01).",
+        "",
+        "> **Prices here are a LOG, not a live quote.** Never cite this file as the current price; re-pull. Every figure carries platform/date/volume. Thin books (<$5K liq) are flagged \u26a0\ufe0f and never marked on one print.",
+        "> **\u03947d** = Polymarket's own 7-day change (Gamma). **\"was\"** = my 2026-09-25T01:35Z pull. Kalshi depth proxy = **open interest**. Oil and 10Y spot are **Fri 9/25 closes** (Sunday)."
+      ]
+    },
+    "FERT": {
+      "path": "AGENTS/FERT/STATUS.md",
+      "lines": [
+        "# FERT \u2014 Status",
+        "",
+        "**Domain:** Fertilizer supply/price/policy \u2192 food-CPI transmission \u2192 CF Industries positioning",
+        "**Class:** Market domain \u2014 EVENT-DRIVEN SPECIALIST (wakes on named triggers; no standing daily desk)",
+        "**Last real data refresh:** 2026-10-01 PM (full session: **four overdue triggers worked at primaries** \u2014 ERS Food Price Outlook 9/25 \u00b7 CPI food-at-home Aug via FRED API \u00b7 NASS Crop Progress 9/28 \u00b7 India RCF tender closed out. *Morning, same day: DTN 9/30 retail article pulled FIRST-PARTY, G5 graded print 7; Green Markets 9/25 NOLA urea level. Pink Sheet = 9/2 edition \u2014 October edition due 10/02; **re-checked 10/02 08:31 ET and 11:13 ET: NOT YET PUBLISHED** (CMO page still 'Next update: October 2, 2026', October PDF 404, xlsx still 'Updated on September 02, 2026') \u2014 T11 ARMED for the next wake (DOCKET L288; FERT-11 Resolve_By 10/09).*)",
+        "**Session wall clock:** 2026-10-02 08:31 Friday (boot.py; Pink Sheet check-only spawn, re-check 11:13 ET) \u00b7 prior session 2026-10-01 16:19",
+        "**Situation Tier:** \ud83d\udfe1 MONITORING \u2014 **third consecutive up-print at the DTN retail phosphate end, but slower**: MAP +$3 to **$970**, DAP +$1 to **$926** \u2014 MAP $30 short of the G5 line. **Retail nitrogen moved up across the board in one print** (urea +$16, anhydrous +$32, UAN32 +$21 w/w). No vector rescore: the Pink Sheet September data (10/02) is the root read both moves wait on. **Afternoon reads changed nothing on the demand/transmission side:** August food-at-home CPI **+0.03% m/m**, ERS cut its 2027 grocery forecast to **1.8%** and still names no fertilizer, and corn harvest is on pace.",
+        ""
+      ]
+    },
+    "ATHENA": {
+      "path": "AGENTS/ATHENA/STATUS.md",
+      "lines": [
+        "# ATHENA \u2014 Status",
+        "",
+        "**Created:** 2026-03-14",
+        "**Purpose:** Reading companion, knowledge compounder, cross-pollinator.",
+        "",
+        "## Currently Reading",
+        "",
+        "| Book | Author | Started | Status | Notes |"
+      ]
+    },
+    "CRUISE": {
+      "path": "AGENTS/CRUISE/STATUS.md",
+      "lines": [
+        "# CRUISE \u2014 STATUS",
+        "",
+        "*Last updated: **2026-10-03 Sat 13:1x ET** (PROME Tier-1 WQ-184 wake, DOCKET L454 only: **CRU-09 GRADED FAILED** \u2014 targeted edits to the L454 row, the CRU-09 row, owed item \u2461 and the BOTTOM LINE caveat; nothing else re-read). Prior: **2026-10-02 Fri ~11:5x ET** (PROME Tier-1 spawn cruise-02a; `date`-stamped). Scope: L0 drain + DOCKET L502 (CRU-11 ratio-form successor drafted) + L454 (CRU-09 Saturday-grade plan) + NCLH 9/30 8-K thesis read. Prior: **2026-09-29 Tue ~11:4x ET** (CCL Q3 FY26 print graded, successor spawn of DOCKET L221). Older corrections context (9/20 PM) is preserved below \u2014 every conclusion in that block has been through at least one withdrawal.*",
+        "",
+        "> ## \u2696\ufe0f STATE \u2014 2026-10-02 Fri, **L0 DRAIN + L502 CRU-11 DRAFTED + NCLH 9/30 8-K READ** (both primaries at SEC: NCLH acc 0001104659-26-112116 + NCLC acc 0001104659-26-112118). $0, no trade, no threshold moved.",
+        "> | Item | Done | Receipt |",
+        "> |---|---|---|",
+        "> | **L502 ratio-form successor to CRU-05** | **CRU-11 registered** \u2014 predicate \"NCLH underperforms RCL on cum TR from 2026-10-02 close by \u22655pp at 2026-11-14 close\", 50%, OPEN, resolver + six WQ-162 elements frozen in-cell | PREDICTIONS line 12; KB-CRU-140; `PROME/inbox/2026-10-02_from-CRUISE_L502-cru11-ratio-form-successor-drafted.md`. \u26d4 **DISTINCT from VX-CRU-06** (CCL-over-RCL through CCL Q3 print, now closed): CRU-11 is NCLH-over-RCL forward through 11/14; different pair, different window. **Returns WQ-242 off \u26d4 waits: CRUISE to Will's queue for one approve.** |"
+      ]
+    },
+    "OZK": {
+      "path": "AGENTS/OZK/STATUS.md",
+      "lines": [
+        "# OZK \u2014 Dashboard",
+        "",
+        "**Updated:** 2026-10-02 Fri (PROME WQ-184 spawn, DOCKET L463 10/2 read: FLNG rc0 182 filings + one press search empty \u21d2 **sub-notes reset HAPPENED \u2014 uncontradicted, not filing-confirmed**; **Q3 date CONFIRMED 10/20 AMC / call 10/21 8:30 ET** [OZK 9/30 release] \u2014 the 10/1 'not announced' line was wrong, FLNG omits press releases; inbox 1\u21920 (lane query A `when:7d \"IQHQ\"` ADOPTED); + PROME events ask 10:50 \u2192 regional-bank calendar 10/2\u201310/16 filed (`PROME/inbox/2026-10-02_from-OZK_events-10-02-to-10-16.md`: HBAN prints 10/22, after the HBAN Oct-16 puts expire; MTB/TFC/CFG/RF report 10/16 pre-open); zero grades/thresholds/weights/conviction moved) \u00b7 prior 2026-10-01 Thu (PROME L0 spawn, DOCKET L126 reprice day: **reset coupon \u22486.19% from the indenture + 3M Term SOFR 4.09580% [9/29]**, drag re-based \u2248+$11.2M \u2192 **\u2248+$12.3M/yr**; FLNG rc 0; inbox 3\u21920, then WALTER's R3 verdicts consumed (IQHQ + Campus at Horton adopted, BPRE declined; PROME landed them 52b3ae6; IQHQ/Bluerock lane query still OWED by PROME) \u00b7 L126 RESOLVED \u00b7 Horton CHECK-BY 10/14 \u2192 `research/threads/2026-10-01_SUBNOTES_RESET.md`; zero grades/thresholds/weights/conviction moved) \u00b7 prior 2026-09-27 (Sun catch-up: quiet) \u00b7 prior 2026-09-24 (catch-up + PROME tasks + STATUS rebuild + CATO fixes + **Q2 10-Q full read** \u2192 `research/threads/Q2_2026_10Q_READ.md`; **zero grades/thresholds/weights/conviction moved**) \u2014 session detail \u2192 `MEMORY.md` \u00b7 evidence \u2192 `research/threads/2026-09-24_CATCHUP_SWEEP.md` \u00b7 older header history \u2192 `git log -p -- AGENTS/OZK/STATUS.md`",
+        "**Price:** **$46.69** [**live 2026-10-02 11:13 ET** \u2014 FORGE fetch.py asof 2026-10-02; +0.76% vs 10/1 close $46.34] \u00b7 <$45 band **3.6% away, NOT fired** \u00b7 \u22126.4% since 8/31 ($49.08) vs KRE \u2248\u22125.4% ($73.14 adj. 8/31 \u2192 $69.21 live 10/1) \u2014 still mostly beta | **TBV:** **$48.41** [Q2'26, 8-K bundle] | **P/TBV:** **~0.95\u00d7** (on $45.96)",
+        "**Thesis:** RESERVOIR v1.5 \u2014 **Q2 DIRECTIONALLY CONFIRMED** (adverse selection: classified $1,215M\u2192$1,282M UP while RESG $27.8B\u2192$25.7B DOWN; NCO 0.69% above kill; NPA 1.42%) | **Conviction:** \ud83d\udd34\ud83d\udd34 HIGH | **OZK-09** 45% \u00b7 A30/B45/C8/D17 \u00b7 Option-2 window FROZEN | **KB:** 242 rows / 37 groups",
+        "**Short interest:** **~16.3% of float** (16.51M sh, **9/15/26** FINRA via Nasdaq API; float % derived on the 6/30 basis), **DTC 17.6** \u2014 up from 16.21M / 16.0 (8/31) and 14.7% / 11.7 (6/30); 12-mo peak 18.3%. Crowded into Q3 (C8). [refresh at each settlement]",
+        "**Next:** **Oct 6** Bluerock BPRE webinar \u00b7 **Tue 10/20 after close** Q3 earnings + **Wed 10/21 8:30 ET** call [CONFIRMED, OZK release 9/30] = mgmt's \"~92-day\" RaDD report-back \u00b7 **~Nov 1-10** Q3 Call Report (FFIEC JWT expires **11/5**)",
+        ""
+      ]
+    },
+    "CORAL": {
+      "path": "AGENTS/CORAL/STATUS.md",
+      "lines": [
+        "# CORAL \u2014 Florida Real Estate Stress Monitor",
+        "## Comprehensive Florida Agent | 10 pillars (real estate \u00b7 insurance \u00b7 banks \u00b7 migration \u00b7 tourism \u00b7 fiscal \u00b7 labor \u00b7 climate)",
+        "",
+        "**Last Updated:** 2026-10-01 ~14:xx ET (Thu) \u2014 **CATCH-UP 9/28 late \u2192 10/1, Will-launched.** No colour moves: no new FL insurer failure, no new association Ch.11, no storm, no watchlist credit 8-K. New: Citizens **254,918 (9/25, prelim)** \u00b7 Case-Shiller **Tampa \u22120.73% YoY** (Jul, SF) \u00b7 Dockside **amended plan pending** (correction) \u00b7 Columbus Center = **closed 2025 receiver sale** \u00b7 Fort Lauderdale apartments lead **checked: occupancy holds, rents soften** \u00b7 Parcl pull **NOT a reading** (mixed stamps). Evidence \u2192 `STATUS_DETAIL.md` \u00a7 R. *(Prior: 9/28 ~20:xx late pass, \u00a7 M\u2013Q.)*",
+        "",
+        "**File map (read-cap split 2026-09-02; rotated 2026-09-28):** **`STATUS.md`** = state, colours, live levels, every owed action (boot-read whole) \u00b7 **`STATUS_DETAIL.md`** = evidence rows, sources, vintages, basis caveats \u2014 **\u00a7 \"2026-09-28 session evidence\"** for today; \u00a7 \"2026-09-13 STATUS hot-surface blocks \u2014 ROTATED\" holds the 9/13 blocks verbatim (crc `5ff2d9aa`) \u00b7 **`archive/STATUS_SESSIONS_20260721-20260823.md`** = session narrative 7/17\u21928/23. **State disagreement \u21d2 this file wins; provenance disagreement \u21d2 `STATUS_DETAIL.md` wins; either is a defect to fix.** \u00b7 **`TRADE.md`** = DECLARED FLAT (9/28) \u00b7 **`tools/bkcy/`** = bankruptcy instrument.",
+        "",
+        "---"
+      ]
+    },
+    "CREED": {
+      "path": "AGENTS/CREED/STATUS.md",
+      "lines": [
+        "# CREED STATUS",
+        "",
+        "**Updated:** 2026-10-01 (Thu) early \u2014 night session 9/30 ~21:50 ET \u2192 10/01, all Will-directed: CATO RC4/RC5 fixed \u00b7 **Will's CRE loss-sales workbook adopted whole (v4): cases 55 \u2192 134** \u00b7 pattern analysis (cold-read; v2 purchase-year claim RETRACTED) \u00b7 **loss \u2192 listed-holder map** (Arbor \u224837% of equity the one material listed lender; OZK 3.4% CET1; FBRT \u22641.4%) + packets to HOMER/LIQUID/OZK \u00b7 **S8a 9/30 close \u22129.14 TR recorded** \u00b7 5 KB rows marked STALE. \u26a0\ufe0f CREED's 3000 Post Oak $68.6M is probably wrong (B17 10-D: balance at loss $74.58M); settle on the October 10-Ds. **No score, band, trigger or prediction moved; 27/45.** Record: `catchups/2026-09-30.md` \u00a7\u2468. PRIOR: 2026-09-30 (Wed) EVENING \u2014 crash-lost industrial row redone (`KB-049`) + `KB-050` office opex outgrew revenue 2021\u201325 + Will-approved refinancing-screen follow-up (WIP page `research/2026-09-30_REFI_SCREENS_FOLLOWUP.md`, F1\u2013F10; research agents lost in the ~19:50 crash) + `scripts/trepptalk_sweep.py` (not wired). **No score, band, trigger or prediction moved; 27/45.** Record: `catchups/2026-09-30.md` \u00a7\u2467. EARLIER 9/30: boot + CATO review follow-through, all Will-directed: **S8a held at 4 (Will)** \u00b7 PROME READS.tsv block declared + corrected \u00b7 CW5 counter validation finished (23/23 tests) \u00b7 **THESIS split 145% \u2192 64%** with current sections corrected (CATO CK1\u2013CK3, CD5) \u00b7 July pack now on demand \u00b7 `KB-CREED-048` (Trepp self-storage, context only). **No score, band, trigger or prediction moved; 27/45.** September Trepp not yet out. Record: `catchups/2026-09-30.md`. Prior: 2026-09-29 (Tue) \u2014 boot + **`PRED-CREED-005` graded HIT** (ARI stockholders approved liquidation 9/29; 8-K Item 5.07 PRIMARY-READ; Brier 0.09; mean Brier 0.37375 \u2192 0.317, n=5) + **`cases/` ledger built (Will-directed) and WALTER's seed adopted after a 3-agent verification: 55 cases, 3 held** + `KB-CREED-015` corrected ($8.5M = OZK Atlanta, not Seattle). **No score, band or trigger moved.** \u26a0\ufe0f That session **crashed before closeout**; the recovery session (9/29 evening) recovered all known committed work (unsaved state cannot be established, CATO CD4) and wrote the record: `catchups/2026-09-29.md`. **Late 9/29: CATO case-ledger corrections (CD1\u2013CD3) and the workbook consistency pass (CW1\u2013CW5) are done**: VX-1.02 and 4.02 recoloured YELLOW (4.02 refreshed to 145.6%, FDIC Q2); Q2 bank and insurer rows refreshed; the n=12 counter implemented; selfcheck check \u2462 added. No band, trigger, score or prediction term moved. Prior: 2026-09-28 (Mon, second session) \u2014 **`registry/THRESHOLDS.tsv` read-cap rotation** (84% \u2192 42%, Will-approved; verbatim history \u2192 `registry/THRESHOLDS_NOTES.md`; three stale units repaired) + **WQ-328 hotel CMBS supply packet to WAL** (Will-approved, held rows only). **No score, band, trigger or prediction moved.** Detail: `catchups/2026-09-28.md` \u00a7\u2465. Earlier 9/28 session: **Will RULED WQ-303 + WQ-304** (verbatim *\"Approve WQ-303 at 4 and WQ-304 option B\"*, `PROME/WILL_QUEUE.md` @`47623f8b1`): **S8a 2 \u2192 4, convergence 25/45 \u2192 27/45**; **`PRED-004` HIT / `PRED-007` MISS graded on CREED's own ledger**; two owed wording corrections applied (PROME clearing-price narrowing; CATO NB6/NB1 on Nano); `PRED-003` row repaired; **`KB-CREED-046` 3000 Post Oak** (Houston CMBS REO sale, trusts net $11.4M on $80M senior) and Trepp's MF build-year split routed to HOMER via WALTER. Detail: `catchups/2026-09-28.md`. Prior: 2026-09-27 (Sun) \u2014 boot + Nano Banc (WQ, `prome-09`) + **6 PROME CRE\u2192bank-transmission legs** (WQ-309 Signature economics, WQ-311 VLY, WQ-312 workout-funding observability, the property-comparable transfer test, and 3 peer corrections adopted \u2014 REGINALD \u00d72, OZK \u00d71). Detail: **`catchups/2026-09-27.md`**. Prior: 2026-09-26 Will-launched catch-up (dark 9/02 \u2192 9/26), `catchups/2026-09-26.md`.",
+        "**Status:** \ud83d\udfe0 **ELEVATED** \u2014 base case *selective CRE recognition accelerating* **HOLDS.** Convergence **27/45 (60.0%)** \u2014 S8a 2 \u2192 4, **Will-ruled 2026-09-28** (WQ-303). \u26a0\ufe0f Caveat travels: rate-led fire (10y 4.38 \u2192 5.18% official [9/24]); ~2.2pp of the \u221213.06pp [9/25 TR] depth is 3-month window roll \u2014 argues against 5, does not lower the 4. \u26a0\ufe0f **Still PRE-BANK-TRANSMISSION** (`T-03` not fired; next test FDIC Q3 QBP ~late Nov).",
+        "**Tier:** 2 (spawned-as-needed). **Cadence declared EVENT-DRIVEN 2026-09-26** (PROME packet). Do not spawn without explicit Will permission.",
+        "**Owner:** CREED after boot; PROME owns future topology/migration decisions only with Will approval.",
+        "**\u25b6 \ud83d\udd34 NEW FIRE \u2014 `CREED-T-08a` (S8a, VNQ vs SPY 3-mo TOTAL-RETURN `< \u221210`): 9/24 \u221210.12pp \u00b7 9/25 \u221213.06pp**, effective 9/24, adjudicated 9/26. XLRE/IYR confirm. **A RATE FIRE FIRST** \u2014 10y 4.38 \u2192 5.18% on the window, **FOMC +25bp 9/16**; property leg also met (Trepp Aug SS 11.42%, highest since Feb 2013). Tenant demand (S7) not deteriorating; ~2.2pp of the depth is window mechanics. \u2705 **S8a scored 4 (Will, 9/28).** \ud83c\udd95 **9/30 close: \u22129.14pp TR (price-only \u22129.69; 10-session \u03c3 2.85pp) \u2014 still INSIDE the \u221210 band, 0.86pp from it** (9/29 \u22127.89, 9/28 \u221210.48). The 9/29 \u2192 9/30 step (\u22121.25pp) is inside noise. **T-08a stays FIRED (an event); S8a=4 is Will's ruling. Caveat carried to Will 9/29** (PROME B1). \u2705 **2026-09-30: Will, verbatim *\"Hold S8a at 4\"* \u2014 the optional post-fire revisit is CLOSED.** Record: `registry/CREED_T_FIRED_LOG.tsv`.",
+        "**\u25b6 \ud83d\udd34 PRIOR FIRES:** `CREED-T-02` (S2, effective June, fired 8/20) \u2014 **spent**; Aug share 81% is not a re-fire. `CREED-T-06b` (SREIT gate, effective 4/29, fired 8/27) \u2014 **S6 HELD at 3, Will-ruled**; count still 1 after a positive-controlled census (never written as corroborated beyond that census)."
+      ]
+    },
+    "SENTRY": {
+      "path": "AGENTS/SENTRY/STATUS.md",
+      "lines": [
+        "# SENTRY \u2014 Status",
+        "",
+        "> \u26d4 **DORMANT \u2014 RETIREMENT BANNER, dated 2026-09-24 (WQ-256 (d), Will verbatim *\"Approve WQ-264 and WQ-256 with your recs\"*, 08:50 ET; written by PROME as registrar \u2014 no live owner).** This desk has been human-idle since 2026-06-02 and DORMANT since 2026-06-27 (`PROME/ROSTER.md` is the class of record; this banner changes no class). Its RSS/CI signal pipeline was killed; **the TODO/ROADMAP items in this directory are HISTORICAL and must NOT be executed \u2014 rebuilding the pipeline is a Will ruling, not a task.** Do not launch, task or audit this desk as a fleet agent. Live signal routing is WALTER's (`AGENTS/WALTER/`). Last real commit: `58c9e02aa` 2026-05-09.",
+        "",
+        "**Agent:** SENTRY | **Domain:** Cross-domain signal synthesis",
+        "**State:** \ud83d\udfe2 OPERATIONAL (Phase 1) \u2014 pipeline live with 2 feeds + 15-entry CIK watchlist (REGINALD-thesis-aligned); CI verified end-to-end 5/9 20:45 UTC (commit `d1a789f4`)",
+        "**Last Updated:** 2026-05-09 (Saturday evening \u2014 CIK watchlist expansion 1\u219215)",
+        ""
+      ]
+    },
+    "TERRY": {
+      "path": "AGENTS/TERRY/STATUS.md",
+      "lines": [
+        "# TERRY STATUS",
+        "",
+        "> ### \ud83d\udccf DECLARED SIZE CAP (DAEDALUS YEY-004, declared 2026-08-23 from POST-ARCHIVE measured density \u2014 see \u00a7 at the foot of this block)",
+        "> **BYTE BUDGET `150,000 B` (soft `117,000 B` = 78%) \u00b7 LINE CAP `480` (soft `374`). BYTES BIND FIRST, BY CONSTRUCTION.** **Rotations to date: `archive/STATUS_ARCHIVE_2026-08-23.md` \u00b7 `_2026-08-27.md` \u00b7 `_2026-09-01.md` \u00b7 `_2026-09-02.md` (9/2: the 9/1 and 8/27 session blocks, crc32 `0f2990ee` / `b13f2966`) \u00b7 **`_2026-09-03.md` (9/3: the 9/2 session block, crc32 `f252664a`, 10,124 B \u2014 Will-approved; live legs verified on the ROLL70/USO135C cards FIRST)**.** \u26a0\ufe0f The fleet READ-CAP (32,550 B, `scripts/read_cap_check.py`) binds ABOVE this owner budget \u2014 it is the one that forced the 9/1 and 9/2 rotations. **`_2026-09-11.md` (9/11: the 2026-09-09 session block, crc32 `6cd06ab7`, 8,844 B \u2014 cut because only 1,252 B stood between STATUS and the 32,550 B fleet READ-CAP; every leg verified on \u22653 live surfaces FIRST)** \u00b7 **`_2026-09-10.md` (9/10: the 2026-09-08 owner catch-up block, pre-rotation lines 33\u201354, crc32 `de7827c1`, 6,871 B \u2014 discharged the 9/9 residue).** \u00b7 **`_2026-09-14d.md` (9/14 16:0x, THIRD cut of 9/14: this banner's OWN accumulated residue \u2014 the 2026-09-10 declared residue + the superseded-and-discharged 2026-09-09 one nested in it, crc32 `9b9e3d3c`, 1,427 B \u2014 forced by THIS session's post-close write hitting 102% of the READ-CAP; both live legs verified present elsewhere IN CODE before the cut).** Check with `wc -l -c AGENTS/TERRY/STATUS.md`. **Over soft \u21d2 rotate self-declared history into `archive/STATUS_ARCHIVE_<date>.md`, verbatim + crc32, contiguous-only. NEVER rotate live state to hit a number** \u2014 if the target is not met on history alone, the tier binds higher.",
+        "> \u2705 **ROTATION DISCHARGED 2026-09-14** \u2014 the 9/11 banner's instruction (*ROTATE FIRST, WRITE SECOND*) was executed: the **2026-09-10** block \u2192 `archive/STATUS_ARCHIVE_2026-09-14.md`, verbatim + contiguous, **13,472 B, crc32 `d68cce0e`** (body only, no trailing newline). `STATUS.md` went **32,536 B \u2192 20,000 B** before this session's write. \u26d4 **No live state was rotated to hit a number** \u2014 every leg was verified on \u22653 live surfaces first and the archive header lists each with its surfaces. *(Superseded: ~~\ud83d\udd34 NEXT SESSION: ROTATE FIRST, WRITE SECOND. 9/11 closed at 32,437 B, 113 B under the 32,550 B READ-CAP.~~)* **Still owed at the next FULL session: `SETUPS.tsv` and `TRADE_BOOK.md` history rotations** (flagged 9/10, both grew again today). \u2705 **ROTATION DISCHARGED AGAIN 2026-09-18** \u2014 the 2026-09-14 block \u2192 `archive/STATUS_ARCHIVE_2026-09-18.md` (24,687 B, crc32 `91f74606`), rotated FIRST at 32,526 B (24 B under the cap), written SECOND.",
+        "",
+        "> \u26d4 **SUPERSEDED 2026-09-24 \u2014 `GATE-TERRY-007` TERMINATED `MOOT \u21d2 NO-VERDICT` (DGS10 9/22 = 4.96); the 9/21 cell is discharged; the chain feed recovered. Current state is the 2026-09-24 block below. Kept only as the dated record of the L267 grade.**",
+        "> ## \u2605 2026-09-22 Tue 09:12\u219209:45 ET \u2014 **L267 GRADED. `GATE-TERRY-007` IS EXECUTABLE TODAY AND ONLY TODAY** (streak starting today publishes its 5th cell Tue 9/29 post-close \u21d2 ONE session left, Wed 9/30 = expiry day; dead from the 9/23 close). \u26d4 WALTER's *\"arithmetically dead\"* **NOT ADOPTED \u2014 one day early.** Both live branches need a **\u226551bp one-day `DGS10` fall: `0` of `2,929` bars since 2015** \u21d2 live on the LETTER, ~zero on MEASUREMENT; `MOOT \u21d2 NO-VERDICT` expected. Counter `0 of 5`; **9/21 cell UNKNOWN/OWED ~16:15 today.** \ud83d\udd34 **LIVE OPTION MARKS UNAVAILABLE, none fabricated** (all TLT strikes `0.00/0.00 DEAD` 09:34 & 09:42; newest VERIFIED `77P` mark is 9/18 `0.01/0.02`, **4 sessions old**). **004 keeps its harvest + expiry rails; forward risk unchanged; roll REFUSED.** `$0` MOVED \u00b7 NO PROPOSAL \u00b7 NO GATE MOVED OR SHAVED. **\u21d2 FULL GRADE, ARITHMETIC AND SOURCES: `setups/FLOW-TRIGGER_duration-TLT-put.md` \u00a7 OWNER GRADE 2026-09-22.** \u23f3 OWED: this file + `SETUPS.tsv`/`TRADE_BOOK.md` ROTATIONS (POINTER ONLY by design \u2014 a full block breaches the READ-CAP, and live state is not rotated under pressure to make room)."
+      ]
+    },
+    "DAEDALUS": {
+      "path": "AGENTS/DAEDALUS/STATUS.md",
+      "lines": [
+        "# DAEDALUS STATUS",
+        "",
+        "**Last Updated: 2026-10-04 (Sunday) \u2014 DC7 bounded closeout implementation; harness audit PARTIAL, no grade change.** Codex/Astra session; PROME and WALTER active in separate Claude windows. Report and reviewed repair acceptance: `runs/2026-10-03_CATCHUP.md`; plan: `runs/2026-10-03_CATCHUP_PLAN.txt`. The full prior STATUS is conserved at `archive/STATUS_ARCHIVE_2026-10.md` block AY (CRC in that header), including older archive pointers. No fleet-wide sweep or profile refresh is claimed by this catch-up.",
+        "",
+        "**Class:** Meta (fleet architect). **Recorded grade:** L4 / M, last assessed at PR#7 on 2026-10-01; no promotion today. Self-row refreshed for artifact currency only. **Authority:** own directory and root `scripts/` grant; other agents require express scope and an idle target. PROME's active code is read-only today.",
+        "",
+        "## Current capabilities and operating limits",
+        ""
+      ]
+    },
+    "AEOLUS": {
+      "path": "AGENTS/AEOLUS/STATUS.md",
+      "lines": [
+        "# AEOLUS STATUS",
+        "",
+        "**Last Updated:** 2026-09-28 ~20:30 ET (**full session**, Will-directed \"update with latest data\"; 10 days dark 9/18\u21929/28). **Rebuilt from scratch** \u2014 the 9/18 file (crash-recovery vintage, matrix never refreshed) is rotated VERBATIM \u2192 `archive/STATUS_ARCHIVE_2026-09-18_full.md` (31,545 B \u00b7 crc32 2962173118 \u2014 recompute it).",
+        "**Status:** \ud83d\udd34\ud83d\udd34 **C5 \u2014 the Rhine is below its all-time record low at both graded gauges; C5 \u21925 FIRES ON ITS LETTER 9/28.** \ud83d\udd34 **C6 \u2014 Mead 1,037.79 ft [9/27], 2.79 ft above Hoover 1,035, running BELOW USBR's September path.**",
+        "**Class:** Market-agent (climate \u2192 economy) \u00b7 **Self-level:** L2",
+        "**Session:** Inbox drained to EMPTY \u2014 PROME (WQ-295 cadence/watch terms \u2192 **WEEKLY** + 12 phrases), WATT (C3 heat ask \u2192 answered), WALTER SIG-W-20260928-011 (weekly Ni\u00f1o +3.1 \u2192 verified). **Workers spawned (Opus): `water/ hurricane/ wildfire/ regime/` + `seismic/` (dark-window scan only) + a C3 heat-measurement worker.** Boot rule 6c ran on a 10-day gap and **caught a live fire whose onset (9/18) no surface of mine had recorded.**",
+        "",
+        "> Data is primary-sourced and dated below. Per Critical Rule #3, verify against the primaries (CPC/NHC/USBR/WSV/ACP/NIFC/NWPS) before any trade use. No naked numbers."
+      ]
+    },
+    "WATT": {
+      "path": "AGENTS/WATT/STATUS.md",
+      "lines": [
+        "# WATT \u2014 STATUS",
+        "",
+        "**Last Updated:** 2026-09-25 09:36 ET (eleventh session \u2014 Will-directed boot + catch-up; **desk was DARK 9/12\u20139/24**) \u00b7 **Status:** \ud83d\udd34 **P1 3\u21925 RECORDED 9/25 on the registered RED letter \u2014 PJM ran a second autumn capacity emergency 9/16\u20139/18 while this desk was dark.** 9/16 evening PJM-RTO 5-min held **~$3,710/MWh** (29 intervals \u2265$1,000); 9/17 **EEA-1** (Max Gen / Load Mgmt Alert) + Pre-Emergency/Emergency DR + DOE \u00a7202(c) **202-26-45** (9/17\u20139/18, lapsed unrenewed). **WATT-11 MISS.** The fire is SPENT \u2014 de-escalation eligible at the first boot \u22659/26. Composite **14\u219216/20**",
+        "**Class:** Market-agent (grid stress \u2192 power price \u2192 power cost) \u00b7 **Spawnable by:** PROME or Will \u00b7 **Maturity:** **L4 (Conf H)** *(DAEDALUS 2026-09-05)*",
+        "**Read-cap budget:** **32,550 B** per boot-read surface (root `CLAUDE.md` \u00a7Data Hygiene; binding above any owner number). Old \"64,000 B\" line retired \u2192 archive Block BG.",
+        "**Superseded content \u2192** `status_archive/STATUS_ARCHIVE_2026-09.md` (Sept rotations, per-block bytes + crc32 in its manifests; Blocks L\u2013AC moved 9/11; **AD\u2013AW moved 9/25**) \u00b7 `status_archive/STATUS_ARCHIVE_2026-08.md` (**CLOSED**) \u00b7 `archive/SCRATCH_ARCHIVE_2026-07-08.md`",
+        "",
+        "**Read-cap:** read the figure from `boot.py` leg 3 / `PROME/tools/measure.py`, never from this sentence. 9/25 rotations: Blocks AD\u2013BG verbatim, bytes + crc32 in the archive manifest. Rotation, never deletion."
+      ]
+    },
+    "VULCAN": {
+      "path": "AGENTS/VULCAN/STATUS.md",
+      "lines": [
+        "# VULCAN \u2014 STATUS",
+        "",
+        "**Last Updated:** **2026-10-02 (Fri) \u2014 PROME-spawned Tier-2 session (DOCKET L564 FRIDAY POST-CLOSE SLOT; above-cap under Will's in-session authorization), boot 16:01 ET (`date`), markets closed.** **Session product (bounded):** `mag7.py` slot 4 WRITTEN \u00b7 `gpu_panel.py` reading 4 = the **FIRST GPU_SERIES.tsv row** WRITTEN (10 rows) \u00b7 5 WALTER signals consumed and board-logged. \ud83d\udd34 **ONE MATERIAL READING: 63d breadth RSP\u2212SPY went +3.70pp \u2192 \u22125.07pp (3.7th pctile) between 9/01 and 10/01** \u2014 within **2.43pp** of the red band's collapse leg (\u2264 \u22127.5pp); Mag-7 **34.5445%** (up from 33.5528%, still 5.5pp from the 40% leg), NVDA 8.4545%, band stays YELLOW because the band is AND, both legs required. **GPU indices BOTH UP since the 9/13 freeze: SDH100RT $2.53 \u2192 $2.77 (+9.5%), OCPI-H100 $2.78 \u2192 $2.92 (+5.0%)**; on-demand mean $4.64 (driven by Nebius $3.85 \u2192 $4.50, +16.9%, effective 10/01) \u2014 contract/term H100 pricing is RISING, consistent with the Micron memory read. **No score, band or trigger moved; composite 14/25 held.** AMZN $8B SPV sale-leaseback (-012, S5 structure n=2, no band fire) and Toshiba HDD cap-add (-024, STX/WDC \u221210%; storage-cycle crack OUTSIDE S2's cell, memory read unchanged) consumed and logged (KB-191/192). Levels (**10/02 close**, own `fetch.py` 16:06 ET \u2014 re-pull before citing): MU **$1,074.89** (+0.92% vs 9/30 close $1,065.11) \u00b7 NVDA **$233.95** (+1.34%) \u00b7 ORCL **$142.52** (+3.23%) \u00b7 CRWV not pulled this run \u00b7 AMZN **$251.52** (+1.33%) \u00b7 STX **$848.99** (\u221210.21%) \u00b7 WDC **$415.29** (\u221210.22%) \u00b7 META **$728.08** (+0.30%). *(Previous: 2026-10-01 PROME-spawned grade.)*",
+        "",
+        "**Class:** Market-agent (AI-capex/semi/memory \u2192 systemic risk) \u00b7 **Spawnable by:** PROME or Will \u00b7 **Maturity:** **L4** (DAEDALUS `FLEET_MAP.tsv` since 2026-09-05; Last_scored 2026-09-17, `7bfee0060`)",
+        "",
+        "> ## \ud83d\udcd6 WHERE THINGS LIVE (READ-CAP split 2026-09-02; rotated again 2026-09-25)",
+        "> | Surface | Holds | Boot path? |"
+      ]
+    },
+    "MIDAS": {
+      "path": "AGENTS/MIDAS/STATUS.md",
+      "lines": [
+        "# MIDAS \u2014 STATUS",
+        "",
+        "**Last Updated:** 2026-10-02 ~15:3x ET (Fri), PROME re-ping for the 9/29 CFTC COT vintage (`prome-96` \u2192 MIDAS, same session chain as the morning WQ-352 encode). **COT 9/29 consumed: net/OI 53.79% = 97.81th pct, \u22120.92pp WoW; first post-shock de-crowding; still top 2.2% of history. No registered test consumes it (M1 has no live test). ARMED-state, no line crossed.** Composite **8/20 UNCHANGED**. $0. *Prior:* 2026-10-02 ~11:5x ET (Fri), PROME-spawned WQ-184 L0 session (`prome-96` \u2192 MIDAS, DOCKET L582). **WQ-352 ENCODED: silver / Pt / Pd standalone bands are ADOPTED, LIVE-BUT-UNSCORED on Will's 2026-10-01 21:40 ET ruling (verbatim *\"all with your recs\"*, PROME rec = MIDAS's \u00a7A4 amendment); charter THRESHOLDS carries the three-leg table, the 2026-11-01 window end, and the day-31 CROSSING reading; one open question (WQ-368) flagged to PROME for Will (CROSSING vs CALENDAR).** No score moves from the ruling. M2 stays `1 \u26aa BAND-BLIND` and I2 stays `2 \ud83d\udfe1`; composite **8/20 UNCHANGED**. $0. *Prior:* 2026-10-01 ~12:3x ET (Thu), PROME-spawned due-row session (`prome-0c`, DOCKET L231/L176). **MIDAS-01 + MIDAS-02 RESOLVED HIT on their frozen letters, every basis printed** (`analysis/2026-10-01_MIDAS-01-02-RESOLUTION.md`, KB-119) \u00b7 WT-1 record-closed (superseded 8/11, never fired) \u00b7 COT 9/22 consumed (KB-120) \u00b7 `FRONT_MONTHS` platinum rolled to `PLF27`. **Scores, composite 8/20, bands and thresholds UNCHANGED. $0.** The marks table below is still the 9/24 page except where a 9/30 figure is marked. *Prior:* 2026-09-25 ~11:44 ET (Fri), CLOSEOUT. **WILL-DIRECTED BOOT after 14 dark days: news catch-up, silver/Pt/Pd made first-class coverage (Will's word), full-page STATUS re-base.** The 9/11 page is preserved verbatim at `analysis/STATUS_ARCHIVE_2026-09.md` \u00a7\u2469, off the boot path, and every obligation on it is re-homed below. **M1 holds 4. Composite 8/20 UNCHANGED. Zero capital. No card, no order, no band or threshold moved.**",
+        "**Class:** Market-agent (metals as macro tells) \u00b7 **Spawnable by:** PROME or Will \u00b7 **Fleet maturity: L4** (FLEET_MAP since 2026-09-08; DAEDALUS PR6 9/17 \u2014 this line read L3 until today) \u00b7 **Cadence: WEEKLY** (declared 9/25, WQ-295) \u00b7 **Instrument coverage: tier 2** *(spot/yield/GSR/LME + the contract-identity guard via `metals_watch.py`; gold COT via `cot_gold.py` = boot leg 3; **silver/Pt/Pd COT via `cot_metals.py`, new 9/25, on-demand**; one-shot graders on-demand by design)*",
+        "",
+        "> ### \ud83d\udd34 LIVE MARKS \u2014 explicit contract months, settled closes [9/24 unless stated]. Never the `=F` pointer.",
+        "> | Metal | Contract | 9/24 | since 9/9 | since 9/10 | ETF (9/24) | ETF off its 2026 high |",
+        "> |---|---|---|---|---|---|---|"
+      ]
+    },
+    "OSPREY": {
+      "path": "AGENTS/OSPREY/STATUS.md",
+      "lines": [
+        "# OSPREY STATUS",
+        "**Last Updated:** 2026-09-29 (Tue) ~ET midday \u2014 Will-directed boot + catch-up sweep 9/21\u21929/29. **Scores 5 / 5 / 3 \u2014 C1 UPGRADED 4\u21925 (WQ-276, Will 9/24, executed today). Band ~30% [EST] UNCHANGED.**",
+        "**Evidence:** `STRIKES.tsv` +7 rows (mark stays 9/20, NOT certified \u2014 Palaemon 21-27 unpublished); KB-OSPREY-158\u2026168; CLAUDE.md \u00a71b C1 5\u21924 successor. Prior top block rotated VERBATIM \u2192 `archive/STATUS_ROTATED_2026-09-29.md` (crc32 a14d6a6c).",
+        "",
+        "## ACTIVE \u2014 decision-relevant changes (2026-09-29)",
+        "",
+        "1. \u2705 **C1 UPGRADED 4\u21925 (WQ-276 shape iii, Will 9/24 14:59 ET).** Carried on the row permanently: (a) trigger met on END-AUGUST S&P/CERA only (~50% offline, pub 9/3) \u2014 **September independent aggregate still SEARCH-NOT-FOUND (re-checked 9/29)**; (b) the Moscow read weakens the export-ban mechanism, not the trigger arithmetic; (c) **NEW:** the 9/28 data decree (item 3) may starve the instrument the downgrade reads. **5\u21924 successor registered** (CLAUDE.md \u00a71b): independent aggregate <40% on 2 prints + 14d no refinery row; 60-day blackout \u21d2 flag UNREACHABLE. **First evaluation 10/15.** KB-159.",
+        "2. \ud83d\udd25 **REFINERY HALTS KEPT COMING THROUGH 9/26, THEN STOPPED.** Verified halts: **Novoshakhtinsk 9/25** (governor, ~100 kb/d nameplate per Reuters; outlets range ~3.3-7.5 Mt/yr) \u00b7 **Perm/Lukoil 9/25** (Reuters industry sources; 2024 run ~252 kb/d, Russia's 7th-largest). **Ilsky 9/26** struck (GS), three crude units + tank farm per imagery; **halt is belligerent-only (Fire Point, the drone maker)**. Plant tally: 8 September halts by 9/25 \u2014 a COUNT, not capacity. **Nothing refinery-class found 9/27-9/29**; 9/28 hit four Krasnodar depots. \u26d4 All CAPACITY, not barrels. KB-158."
+      ]
+    },
+    "FALCON": {
+      "path": "AGENTS/FALCON/STATUS.md",
+      "lines": [
+        "# FALCON STATUS",
+        "",
+        "**Last updated:** 2026-10-04 ~17:5x ET (PROME-spawned, prome-ed, on Will's direct word 17:23 ET; BOUNDED one-item session: UKMTO 150-26 / SIG-W-20261004-005 adjudicated: source status, event identity, strike-vs-tally; 149-26 backfilled). Report: [10/04 150-26 adjudication](reports/2026-10-04_falcon-ukmto-150-26-adjudication.md). **Extension ~17:43 ET (Will \"yes khurais\"): SIG-W-20261004-010 adjudicated** \u2014 [Khurais / Bab / PS-2](reports/2026-10-04b_falcon-khurais-010-adjudication.md). *Prior:* 2026-10-02 ~14:1x ET (touch 1, PROME-spawned Tier-2 bounded single session on Will's \"ok lets open up the rest of the agents you mentioned spawning earlier\"; L0 drain + UKMTO 146/147 reconcile + Yanbu grade; 5 WALTER signals consumed; VI-2026-0042 identity resolved to KAZIMAH III (KOTC VLCC) by trade press). Report: [10/02 drain + reconcile](reports/2026-10-02_falcon-l0-drain-ukmto-reconcile-yanbu-grade.md). *Prior:* 2026-10-01 ~21:5x ET (touch 3; WQ-353/355 ruled and encoded). *Prior:* 2026-09-28 (`592823066`).",
+        "**Decision read (10/04 ~18:0x ET, after the -010 extension):** **Production rung NOT FIRED \u2014 the Houthi Khurais claim has NO counting source** (no Aramco/MoE/SPA/MoD/CENTCOM/named-wire; the coalition called the RIYADH claim \"misleading\"). \u26a0\ufe0f **But my own FIRMS shows a NEW large heat source at 25.252N 48.103E from 10/03 22:01Z, max 229 MW (10/04 06:16Z) \u2014 the SAME spot as the 9/10 Riyadh-zone fire; the PS-2 \"2nd strike\" post's 88 MW is a real NOAA-20 detection there (09:34Z 10/04).** Both claims point at one fire. **Decisive unknown = the FACILITY at that spot:** a Khurais production facility (IN \u2192 a counting source fires D 85\u219292) vs a Petroline pumping station (OUT \u2192 BRENT BG-02 / FAL-06). Riyadh refinery fire 10/03 = OUT class. Bab near-miss 10/04 (VI-0046): leg 1 already fired, leg 2 left to the 10/06 review. B 1 / C 14 / D 85 HELD; losses 3. **Nothing fires. B 1 / C 14 / D 85 HELD. Losses stay 3. GATE-FALCON-001 untouched (review 10/06). Production rung ARMED, NOT FIRED.** UKMTO 150-26 (tanker struck by an unknown projectile in Hormuz, engine-room damage, crew safe, issued 10/04, report time TBC) is a **NEW hull strike \u2014 VI-2026-0045, INFERRED** \u2014 **not authenticated at the UKMTO primary** (Cloudflare 403 to this desk; WALTER Bright Data `7525bb064` reached the portal, warning not obtained) but **content-corroborated** by Arab Times (names 150-26), Reuters/MEE and Arab News. Strike \u2260 sinking \u2260 mine. The OSINT \"9th vessel in 5 days\" tally is **NOT SUPPORTED** (ledger: 8 struck hulls 9/28\u201310/04, max 7 in any 5 days). **Own-ledger miss found and fixed:** UKMTO 149-26 (2nd 10/02 hull, crude tanker ~4 nm E of Oman) was missing \u2014 backfilled VI-2026-0044. \u26a0\ufe0f **Not consumed, flagged to PROME:** SIG-W-20261004-010 Houthi **Khurais** strike CLAIM (disputed) \u2014 Khurais is PRODUCTION class; a counting-source confirmation would fire the rung. *Prior (10/02 14:1x):* **Nothing fires. B 1 / C 14 / D 85 HELD. Production rung ARMED, NOT FIRED. GATE-FALCON-001 leg 2 NOT FIRED (wrong sign). FAL-06 OPEN at 70%. Losses stay 3.** All five WALTER signals grade NOTED by letter: Roosevelt is CARRIER RELIEF, not addition (count stays 2) + 9-10K troops arrive by end-Nov (positioning); Houthi push on Taiz is inland (no maritime interdiction, TankerMap +167% w/w wrong sign); Yanbu port strike 10/01 is TERMINAL class \u2014 OUT of the production rung by letter \u2014 on trade-primary sources (Vanguard via Maritime Executive), terminal-wide suspension on the stronger source; UKMTO 147-26 = KAZIMAH III (KOTC VLCC, trade-press ID), second KOTC VLCC in 4 days after AL FUNTAS, afloat. **Pattern-watch (not a letter):** KOTC-concentrated hits may be a Kuwait-specific shift \u2014 logged, not graded. **No framework delivered; no counting-source Ghawar confirmation found this session.** *Prior (10/01 21:5x):* Will ruled WQ-353/355; nothing fired.",
+        "",
+        "## Current marks and authority",
+        "",
+        "| State | Current disposition |"
+      ]
+    },
+    "HOMER": {
+      "path": "AGENTS/HOMER/STATUS.md",
+      "lines": [
+        "# HOMER STATUS \u2014 HOT SURFACE",
+        "",
+        "*Promoted from CARL sub-agent 2026-07-12 (Will-directed).*",
+        "",
+        "> \u26a0\ufe0f Rotated 2026-09-14 \u2014 pre-rotation file preserved byte-for-byte at `archive/STATUS_2026-09-14_pre-catchup-VERBATIM.md`. Evidence lives in `workbook/` (the record); `STATUS_COLD.md` FROZEN 9/2 (**this file wins**). The 9/14 BOTTOM LINE's full synthesis \u2192 `reports/2026-09-14_three-week-catchup-release-ledger.md`.",
+        "> \u26d4 **VALUES + BANDS + OBLIGATIONS ONLY.** Target: `read_cap_check.py` <70% of budget (22,785 B).",
+        "",
+        "---"
+      ]
+    },
+    "FLG": {
+      "path": "AGENTS/FLG/STATUS.md",
+      "lines": [
+        "# FLG STATUS",
+        "",
+        "**Last Updated:** 2026-10-01 11:1x ET Thursday \u2014 **T-08 fire grade (PROME Tier-1 spawn on GATE-FLG-T08 / DOCKET L236): the rent freeze is in force; graded on the letter.** Prior: 2026-09-27 catch-up; 2026-09-24 catch-up; 2026-08-28 first live session.",
+        "",
+        "\u2705 **FIRST-LIVE-SESSION BANNER STRUCK.** The build banner said every figure here was MIRROR-grade \u2014 extracted from REGINALD, never pulled by FLG. **That is no longer true.** FLG pulled its own EDGAR primary this session (10-Q Q2-2026, Flagstar Bank N.A., acc `0000910073-26-000068`, filed 2026-08-06) and re-verified the load-bearing figures first-hand. `CLAUDE.md \u00a7 FIRST LIVE SESSION` is **SPENT 2026-08-28**. \u26a0\ufe0f **One residual, named not hidden:** the MDRM-level MI3 cells were **not** re-pulled at FFIEC CDR and stay MIRROR-grade \u2014 `MI3_FLG.tsv` marks this per row.",
+        "",
+        "**Class:** Market domain \u2014 print-driven single-name specialist \u00b7 **Level:** L1 \u00b7 **Thesis:** `THESIS.md` **v1.0 \u2014 THESIS OF RECORD** (promoted from v0.1 skeleton this session)",
+        ""
+      ]
+    },
+    "YURI": {
+      "path": "AGENTS/YURI/STATUS.md",
+      "lines": [
+        "# YURI STATUS",
+        "",
+        "**Last Updated: 2026-10-02 (Fri, 11:5x ET, from `date`)**: third YURI session (spawned by PROME prome-96, Tier 1, under WQ-184 L0 driver \u2014 DOCKET L434 due today). *Prior:* 2026-09-26 15:2x ET (prome-1d, Tier 1, DOCKET L510, WQ-293 ruling); 2026-09-25 09:1x ET (prome-2e, first session). The wiring state of record is `2113b2734`.",
+        "",
+        "**Class:** Market (feeder/intent; never proposes trades) \u00b7 **Byte budget:** 32,550 B (rotate at \u226575%) \u00b7 **Convergence handle `Score (1\u20135)`: 2**, unchanged \u2014 no new evidence of a decision moving the actor-escalation state. Through 02 October the state's actions on the custodial track are additive-and-procedural: a THIRD Decree-302 list amendment (\u2116 689 of 28.09) extends the external-management list, but no decree disposes of the Nestl\u00e9/Auchan/Lemana Pro/FM Logistic operations; title has not moved. On the mobilisation track YUR-004 is now REGISTERED (replacing YUR-001 per Will's WQ-293) with weekly reads through 10/31; the window opens at a 0-mobilisation-titles baseline.",
+        "",
+        "## Live intent-reads (`workbook/INTENT_LEDGER.tsv` is canonical; this table mirrors it)",
+        ""
+      ]
+    }
+  },
+  "unregistered": [
+    "_archive",
+    "CATO"
+  ],
+  "registered_paths_with_missing_STATUS": [
+    "RAV",
+    "DARWIN",
+    "BARON",
+    "HERMES",
+    "DEWEY"
+  ],
+  "date_exceptions_reviewed": [
+    "WALTER: historical/banner/real-data date not substituted for session/retirement date",
+    "YEYOU: historical/banner/real-data date not substituted for session/retirement date",
+    "FERT: historical/banner/real-data date not substituted for session/retirement date",
+    "TERRY: historical/banner/real-data date not substituted for session/retirement date",
+    "HOMER: historical/banner/real-data date not substituted for session/retirement date"
+  ],
+  "unregistered_disposition": {
+    "_archive": "navigation/archive container,not live desk",
+    "CATO": "PROME/ROSTER.md SPECIAL underWQ255; no automatic launch or signal-routing eligibility. Do not auto-enrol; flagged in receipt."
+  },
+  "final_dates": {
+    "PROME": "2026-10-04",
+    "CARL": "2026-10-02",
+    "REGINALD": "2026-09-29",
+    "WAL": "2026-09-28",
+    "SAM": "2026-10-01",
+    "RED": "2026-10-01",
+    "BROCK": "2026-10-02",
+    "BRENT": "2026-10-07",
+    "LIQUID": "2026-10-02",
+    "HENRY": "2026-10-04",
+    "LABOR": "2026-10-02",
+    "HAWK": "2026-09-28",
+    "NEXUS": "2026-10-01",
+    "WALTER": "2026-10-07",
+    "VIOLET": "2026-09-28",
+    "YEYOU": "2026-09-05",
+    "RAV": "2026-08-02",
+    "ZHAO": "2026-09-30",
+    "HANS": "2026-10-02",
+    "MARCO": "2026-09-24",
+    "SHADE": "2026-10-01",
+    "OTTO": "2026-10-04",
+    "BOND": "2026-10-07",
+    "ORACLE": "2026-09-28",
+    "FERT": "2026-10-02",
+    "ATHENA": "2026-03-14",
+    "CRUISE": "2026-10-03",
+    "DARWIN": "2026-02-18",
+    "OZK": "2026-10-02",
+    "CORAL": "2026-10-01",
+    "CREED": "2026-10-01",
+    "BARON": "\u2014",
+    "HERMES": "\u2014",
+    "SENTRY": "2026-09-24",
+    "DEWEY": "2026-09-10",
+    "TERRY": "2026-10-02",
+    "DAEDALUS": "2026-10-04",
+    "AEOLUS": "2026-09-28",
+    "WATT": "2026-09-25",
+    "VULCAN": "2026-10-02",
+    "MIDAS": "2026-10-02",
+    "OSPREY": "2026-09-29",
+    "FALCON": "2026-10-04",
+    "HOMER": "2026-10-02",
+    "FLG": "2026-10-01",
+    "YURI": "2026-10-02"
+  },
+  "header_limit": "8line headers,scoped FERT/HOMER16lines and TERRY9\u201315 recovery; no all-desk30\u201350line filter certification.",
+  "provisional_parse_changes_reviewed": [
+    {
+      "agent": "PROME",
+      "before_date": "2026-10-04",
+      "after_date": "2026-10-04",
+      "platform": "Codex"
+    },
+    {
+      "agent": "WALTER",
+      "before_date": "2026-10-07",
+      "after_date": "2026-10-08",
+      "platform": "Codex"
+    },
+    {
+      "agent": "YEYOU",
+      "before_date": "2026-09-05",
+      "after_date": "2026-08-20",
+      "platform": "OC (GLM)"
+    },
+    {
+      "agent": "FERT",
+      "before_date": "2026-10-02",
+      "after_date": "2026-10-01",
+      "platform": "CC"
+    },
+    {
+      "agent": "TERRY",
+      "before_date": "2026-10-02",
+      "after_date": "2026-08-23",
+      "platform": "CC"
+    },
+    {
+      "agent": "HOMER",
+      "before_date": "2026-10-02",
+      "after_date": "2026-07-12",
+      "platform": "CC"
+    }
+  ],
+  "final_changes": [
+    {
+      "agent": "PROME",
+      "changed_fields": [
+        "Platform",
+        "Focus"
+      ],
+      "before_date": "2026-10-04",
+      "after_date": "2026-10-04"
+    },
+    {
+      "agent": "CARL",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-10-02",
+      "after_date": "2026-10-02"
+    },
+    {
+      "agent": "REGINALD",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-09-29",
+      "after_date": "2026-09-29"
+    },
+    {
+      "agent": "WAL",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-09-28",
+      "after_date": "2026-09-28"
+    },
+    {
+      "agent": "SAM",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-10-01",
+      "after_date": "2026-10-01"
+    },
+    {
+      "agent": "RED",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-10-01",
+      "after_date": "2026-10-01"
+    },
+    {
+      "agent": "BROCK",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-10-02",
+      "after_date": "2026-10-02"
+    },
+    {
+      "agent": "BRENT",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-10-07",
+      "after_date": "2026-10-07"
+    },
+    {
+      "agent": "LIQUID",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-10-02",
+      "after_date": "2026-10-02"
+    },
+    {
+      "agent": "HENRY",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-10-04",
+      "after_date": "2026-10-04"
+    },
+    {
+      "agent": "LABOR",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-10-02",
+      "after_date": "2026-10-02"
+    },
+    {
+      "agent": "HAWK",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-09-28",
+      "after_date": "2026-09-28"
+    },
+    {
+      "agent": "NEXUS",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-10-01",
+      "after_date": "2026-10-01"
+    },
+    {
+      "agent": "WALTER",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-10-07",
+      "after_date": "2026-10-07"
+    },
+    {
+      "agent": "VIOLET",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-09-28",
+      "after_date": "2026-09-28"
+    },
+    {
+      "agent": "ZHAO",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-09-30",
+      "after_date": "2026-09-30"
+    },
+    {
+      "agent": "HANS",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-10-02",
+      "after_date": "2026-10-02"
+    },
+    {
+      "agent": "MARCO",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-09-24",
+      "after_date": "2026-09-24"
+    },
+    {
+      "agent": "SHADE",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-10-01",
+      "after_date": "2026-10-01"
+    },
+    {
+      "agent": "OTTO",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-10-04",
+      "after_date": "2026-10-04"
+    },
+    {
+      "agent": "BOND",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-10-07",
+      "after_date": "2026-10-07"
+    },
+    {
+      "agent": "FERT",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-10-02",
+      "after_date": "2026-10-02"
+    },
+    {
+      "agent": "CRUISE",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-10-03",
+      "after_date": "2026-10-03"
+    },
+    {
+      "agent": "OZK",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-10-02",
+      "after_date": "2026-10-02"
+    },
+    {
+      "agent": "CORAL",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-10-01",
+      "after_date": "2026-10-01"
+    },
+    {
+      "agent": "CREED",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-10-01",
+      "after_date": "2026-10-01"
+    },
+    {
+      "agent": "DAEDALUS",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-10-04",
+      "after_date": "2026-10-04"
+    },
+    {
+      "agent": "AEOLUS",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-09-28",
+      "after_date": "2026-09-28"
+    },
+    {
+      "agent": "WATT",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-09-25",
+      "after_date": "2026-09-25"
+    },
+    {
+      "agent": "VULCAN",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-10-02",
+      "after_date": "2026-10-02"
+    },
+    {
+      "agent": "MIDAS",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-10-02",
+      "after_date": "2026-10-02"
+    },
+    {
+      "agent": "OSPREY",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-09-29",
+      "after_date": "2026-09-29"
+    },
+    {
+      "agent": "FALCON",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-10-04",
+      "after_date": "2026-10-04"
+    },
+    {
+      "agent": "FLG",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-10-01",
+      "after_date": "2026-10-01"
+    },
+    {
+      "agent": "YURI",
+      "changed_fields": [
+        "Focus"
+      ],
+      "before_date": "2026-10-02",
+      "after_date": "2026-10-02"
+    }
+  ]
+}
