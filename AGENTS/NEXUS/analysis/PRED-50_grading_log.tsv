@@ -11,3 +11,17 @@ obs_date	series	value	pulled_at_ET	pull_source	note
 2026-09-30	DGS10	5.29	2026-10-01T16:18-04:00	fredgraph.csv	cell 2: dDGS10 +3.0bp = ON the inclusive <=3.0 boundary (quiet; computed 529-526 in integer bp, no float)
 2026-09-30	DFII10	2.93	2026-10-01T16:18-04:00	fredgraph.csv	cell 2: dDFII10 +2.0bp (quiet) => QUIET session (boundary on the nominal leg; a +1bp revision to 5.30 flips it to not-quiet -> grade both vintages per C1)
 2026-09-30	BAMLH0A2HYB	316	2026-10-01T16:18-04:00	fredgraph.csv	cell 2: dB 0 => F. Running tally after 2 of 8 cells: n=2 W=1 T=0 F=1 (rule 2 needs W>=2 AND W>T; NOT graded - window open to 10/8)
+2026-10-01	DGS10	5.24	2026-10-08T08:24-04:00	fredgraph.csv (cosd, cache-busted)	cell 3: dDGS10 -5.0bp (524-529) => NOT quiet
+2026-10-01	DFII10	2.88	2026-10-08T08:24-04:00	fredgraph.csv (cosd, cache-busted)	cell 3: dDFII10 -5.0bp => NOT quiet (both legs)
+2026-10-01	BAMLH0A2HYB	329	2026-10-08T08:24-04:00	fredgraph.csv (cosd, cache-busted)	cell 3: dB +13 on a rates-ACTIVE session => not counted (outside Q)
+2026-10-02	DGS10	5.28	2026-10-08T08:24-04:00	fredgraph.csv (cosd, cache-busted)	cell 4: dDGS10 +4.0bp => NOT quiet
+2026-10-02	DFII10	2.92	2026-10-08T08:24-04:00	fredgraph.csv (cosd, cache-busted)	cell 4: dDFII10 +4.0bp => NOT quiet
+2026-10-02	BAMLH0A2HYB	312	2026-10-08T08:24-04:00	fredgraph.csv (cosd, cache-busted)	cell 4: dB -17 on a rates-ACTIVE session => not counted
+2026-10-05	DGS10	5.31	2026-10-08T08:24-04:00	fredgraph.csv (cosd, cache-busted)	cell 5: dDGS10 +3.0bp (531-528) = ON the inclusive <=3.0 boundary => quiet
+2026-10-05	DFII10	2.95	2026-10-08T08:24-04:00	fredgraph.csv (cosd, cache-busted)	cell 5: dDFII10 +3.0bp (295-292) = ON the boundary => QUIET session (both legs on the boundary; a +1bp revision to either flips it to not-quiet -> grade both vintages per C1)
+2026-10-05	BAMLH0A2HYB	314	2026-10-08T08:24-04:00	fredgraph.csv (cosd, cache-busted)	cell 5: dB +2 => F
+2026-10-06	DGS10	5.27	2026-10-08T08:24-04:00	fredgraph.csv (cosd, cache-busted)	cell 6: dDGS10 -4.0bp => NOT quiet
+2026-10-06	DFII10	2.91	2026-10-08T08:24-04:00	fredgraph.csv (cosd, cache-busted)	cell 6: dDFII10 -4.0bp => NOT quiet
+2026-10-06	BAMLH0A2HYB	302	2026-10-08T08:24-04:00	fredgraph.csv (cosd, cache-busted)	cell 6: dB -12 on a rates-ACTIVE session => not counted. Re-pull of 9/28-9/30 cells: unchanged (no revision). Running tally after 6 of 8 cells: n=3 W=1 T=0 F=2 (rule 2 needs W>=2 AND W>T; n>=2 so rule 1 is out unless revision removes quiet cells)
+2026-10-07	DGS10	5.28	2026-10-08T08:24-04:00	Treasury Daily Par Yield Curve (early copy; FRED cell unpublished at pull)	cell 7 rates leg, early copy: dDGS10 +1.0bp; FRED governs on publication
+2026-10-07	DFII10	2.92	2026-10-08T08:24-04:00	Treasury Daily Real Yield Curve (early copy; FRED cell unpublished at pull)	cell 7 rates leg, early copy: dDFII10 +1.0bp => QUIET on the early copy. B cell for 10/7 unpublished at pull: dB >= +5 (B >= 307) => W => W=2>T=0 => OBSERVED; dB <= -5 => T; else F
