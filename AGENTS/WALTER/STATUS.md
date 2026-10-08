@@ -1,6 +1,6 @@
 # WALTER STATUS
 
-**Updated 2026-10-08 ~10:0x ET — second 10/8 session (`walter-71`, Claude Code, Opus 5.5, laptop; booted 08:53 ET after Will's fresh-context reboot); Tier-1 light, full closeout deferred.** BOARD 1257; 18 outputs today (SIG-W-20261008-001…018: 14 news/research, 2 additive corrections, the OZK cause update `-017`, the Iraq correction re-delivery `-018`), 2 kills, 1 verify-research spawn; 0 cluster-mediating. **UK gilt closes: HANS/BOND grade them on their own letters; a WALTER card only if a genuine input gap remains (CONDITIONAL — LAST_COMPLETION).** WQ-393 encoded + backfilled. **No broad news sweep since the 10/7 catch-up (cutoff 18:04 ET).** Boot coverage PARTIAL (named in LAST_COMPLETION). Later commits local; PROME serializes push.
+**Updated 2026-10-08 ~12:1x ET — second 10/8 session (`walter-71`, Claude Code, Opus 5.5, laptop); Tier-1 light after Will's broad news sweep; full closeout deferred.** BOARD 1270; 31 outputs today (SIG-W-20261008-001…031): this session -017 (OZK RaDD bridge), -018 (Iraq correction to FALCON/HAWK), -019 Isaias HURRICANE (IMMEDIATE), -020 Iran/Gulf PM (IMMEDIATE), -021 CORRECTION JGB labels (MOF basis), -022…-031 broad-sweep cards; 41-bookmark batch BM-20261008-03 CLOSED 41/41 (3 kills). **Near-trigger: FRED HY OAS 309bp [obs 10/7], 3.4% under >320 (0 of 3).** **USO $150.13 at 15:43Z, above Will's Oct-9 $150C strike (TERRY told).** UK gilt closes: HANS grading (hans-1008); a WALTER card only on a genuine gap. Boot coverage PARTIAL (LAST_COMPLETION). Later commits local; PROME serializes push.
 
 ## BOTTOM LINE
 
@@ -10,8 +10,8 @@ Oil jumped ~5% overnight (Dec Brent ~$104.7) on three named drivers — a record
 
 | Row | Observation and limit |
 |---|---|
-|HY / CCC|FRED HY 303bp [obs 10/6] (324 on 10/1, one print >320, run reset) → >320 watch 0/3; 5.3% from the line. CCC 1,214bp [10/6], RED-FT-07 FIRING-BANKED. Pre-16:00 ET boot: T+1 prints.|
-|VIX / SKEW|VIXCLS 15.01 [10/6]; ^VIX 15.73 intraday 10/8 (second witness only). SKEW 141.84 [10/7]. FT-06 FIRED-BANKED, exit ≥18 0/5.|
+|HY / CCC|FRED HY **309bp [obs 10/7]** (303 [10/6]; 324 on 10/1, run reset) → >320 watch 0/3; **3.4% from the line = NEAR-TRIGGER** (routed `-030`). CCC **1,229bp [10/7]**, RED-FT-07 FIRING-BANKED; IG 82bp. FRED is T+1.|
+|VIX / SKEW|VIXCLS 15.08 [10/7]; ^VIX 15.58–15.73 intraday 10/8 (second witness only). SKEW 141.84 [10/7]. FT-06 FIRED-BANKED, exit ≥18 0/5.|
 |Claims / 5y5y|ICSA **197,000 [w/e 10/3, DOL release 10/8 08:30 ET, graded by LABOR at primary 08:36 ET]**; 4-wk MA 198,000; CC 1,716,000. RED-FT-05 (>250K) and REG-T-05 (>300K) not fired. T5YIFR 2.35 [10/7].|
 |Rates|DGS30 5.64 / DGS10 5.27 [10/6]; FT-11 30Y 5-session Δ +5bp (no precondition). SOFR 3.90 [10/6] vs IORB 3.90 → 0bp.|
 |Oil (named contracts)|BZZ26 $104.86 / CLX26 $92.44 / CLZ26 $91.38, ~+4.7% at ~12:57Z 10/8 (fetch.py; BZ identity UNKNOWN by name-cut). Boundaries #6/#8 NOT computed (month basis). Cushing 24.745M [w/e 10/2]; next WPSR Thu 10/15 noon.|
