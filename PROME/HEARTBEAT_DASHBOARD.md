@@ -46,3 +46,17 @@ This companion keeps render metadata outside the boot-read byte budget.
   }
 }
 ```
+
+*Twenty-eighth base — AMENDMENT #2 (2026-10-08 19:15 ET, PROME prome-07, laptop) — projection #2 (chain 1→2):*
+*source_sha256: `314a406f9edd35b5b9f0d0e8f336bde6c940dcfb8a97c702ea1ada05ae031770` (over the exact `> **AMENDMENT #2 — ...` paragraph without its trailing newline)*
+*Affects: the one-liner only (the NEW 750C is now carded; both QQQ Oct-09 lines sell Friday morning). No channel, ticker, split or blocking change: the fills were already in the base's book line, the mirror rotation changes no level, and the NEXUS PRED-50 staging is not a grade. UNREVIEWED as every amendment is.*
+
+```dashboard-amendment
+{
+  "amendment": 2,
+  "source_sha256": "314a406f9edd35b5b9f0d0e8f336bde6c940dcfb8a97c702ea1ada05ae031770",
+  "set": {
+    "one": "🔴 OIL JUMPED ON A THREAT; THE 30Y REOPENING PRINTED UNDER THE SECONDARY: Brent Dec $105.22 (+5.0%) [BRENT 08:24] / $103.81 (+3.6%) [PROME 16:10], single-vendor QUOTES, after the Houthis told staff at ALL Saudi oil facilities to leave — a THREAT, no strike — with Hurricane Isaias (Cat-2 forecast, lands late Fri; Gulf oil shut-ins 62.89% [BSEE 11:00 CDT]) behind it; the 30Y reopening cleared 5.618% (the highest 30Y stop since Aug-2000) and BOND graded it CLEAN on its letters (indirect 72% of competitive; counter 2 of 3) while Waller said \"additional hikes\"; HY OAS 309 [10/7] is 11bp UNDER the >320 line (count 0 of 3), CCC 1,229 a window high, IG 82 calm [10/7]; PMMS 7.40% [10/8]; the UK 30Y sat under 6.00 on vendor closes (HANS grades the official close Fri); QQQ 747.58 (−1.34%) [10/8c]: Will SOLD 1 of the 2 Oct-09 755P @ $8.36 and holds the other ($7.42 IN the money) plus a NEW Oct-09 750C ×1 @ $1.56 — CARDED 19:05 ET (TERRY): sell BOTH QQQ Oct-09 lines Fri 09:45–10:30 ET, never into the close, since at ANY Friday close at least one of them is in the money; USO 147.61 (+2.57%) [10/8c] left the unsold Oct-09 150C $2.39 OUT — the three Oct-09 lines expire TOMORROW, his hand; OZK's <$45 band FIRED [10/6c] on its own desk's letter (the $915M RaDD bridge matures Fri); nothing on the fire-ledger fired. X1 stays CLOSED (8/28). Book mirror = the 10/8 INTRADAY capture (ANVIL ef2bc83f1). $0 moved by PROME; STAND DOWN holds (WQ-192)."
+  }
+}
+```
