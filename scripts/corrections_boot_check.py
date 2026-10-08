@@ -215,7 +215,9 @@ def cmd_check(agent, reg_path, rcpt_path, today):
               f" ({len(dead_named)} of them DEAD-AT-CAP):")
         for cid, ptr, st, d in named_block:
             print(f"       {cid} [{st}] {d} -> read {ptr}, then receipt: "
-                  f"corrections_boot_check.py {agent} --receipt {cid} --action <APPLIED|NO-OP|DEFERRED|CONTESTED>")
+                  f"corrections_boot_check.py {agent} --receipt {cid} --action <A> + WQ-399 fields "
+                  f"(APPLIED: --artifact <path#key> --validation-ref <path#key|NONE> · NO-OP: --scope <text> · "
+                  f"DEFERRED: --review YYYY-MM-DD)")
         return 1
     print(f"CORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for {agent} "
           f"(register {len(rows)} row(s), {len(all_warn)} ALL-warn, {len(dead_all)} ALL-row(s) past cap "
@@ -235,44 +237,81 @@ FLAG = {"artifact": "--artifact <path#key>", "validation_ref": "--validation-ref
         "scope": "--scope <text>", "review": "--review YYYY-MM-DD"}
 
 
-def receipt_tokens(action, artifacts, validation_ref, scope, review, today):
-    """Validate the WQ-399 fields and return the `key=value; ` prefix for `note`. die2 on any defect,
-    BEFORE the receipts file is opened, so a refused receipt never leaves a partial row."""
-    given = {"artifact": artifacts or [], "validation_ref": validation_ref, "scope": scope, "review": review}
+# Independent read 2026-10-08 (design/2026-10-08_WQ399_INDEPENDENT_READ.md) ❌ C10: a value carrying
+# `\r`, U+2028, `\x85` or `\x0c` was written with rc 0 and then broke that desk's boot check (rc 2,
+# misattributed to receipt_date) — `"$(cat f)"` from a CRLF file on this box keeps the `\r`. Any char
+# str.splitlines() breaks on, a tab, or `;` is refused in a FIELD; in the free --note such chars are
+# replaced by a space (the note's long-standing tab/newline behaviour, widened to every line break).
+_BREAKS = "\t\n\r\x0b\x0c\x1c\x1d\x1e\x85\u2028\u2029"
+ALLOWED_FIELDS = {"APPLIED": {"artifact", "validation_ref", "scope"}, "NO-OP": {"scope", "artifact"},
+                  "DEFERRED": {"review", "scope"}, "CONTESTED": {"scope", "artifact"}}
+TOKEN_KEYS = ("artifact", "validation_ref", "scope", "review")
+_TOKEN_LEAD = re.compile(r"^\s*(?:%s)=" % "|".join(TOKEN_KEYS))
+_REVIEW_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+
+def _utf8_ok(v):
+    try:
+        v.encode("utf-8")
+        return True
+    except UnicodeEncodeError:
+        return False
+
+
+def receipt_tokens(action, artifacts, validation_ref, scope, review, today, note=""):
+    """Validate the WQ-399 fields and return (prefix, clean_note). die2 on any defect, BEFORE the
+    receipts file is opened, so a refused receipt never leaves a partial row or creates the file.
+    validation_ref / scope / review accept a str or a list (CLI flags append); more than one is refused."""
+    def as_list(v):
+        return [] if v is None else (list(v) if isinstance(v, (list, tuple)) else [v])
+    given = {"artifact": as_list(artifacts), "validation_ref": as_list(validation_ref),
+             "scope": as_list(scope), "review": as_list(review)}
+    for k, vals in given.items():
+        for v in vals:
+            if not _utf8_ok(v):
+                die2(f"receipt refused: {FLAG[k]} value is not valid UTF-8. Nothing written.")
+            if any(c in v for c in _BREAKS + ";"):
+                die2(f"receipt refused: {FLAG[k]} value {v!r} contains ';', a tab, a carriage return or another "
+                     f"line break (it would break key=value parsing or the receipts file). Nothing written.")
+        given[k] = [v.strip() for v in vals if v.strip()]       # whitespace-only = not given
+    for k in ("validation_ref", "scope", "review"):
+        if len(given[k]) > 1:
+            die2(f"receipt refused: {FLAG[k]} given {len(given[k])} times ({given[k]!r}); give it once. Nothing written.")
     missing = [k for k in REQUIRED_FIELDS.get(action, ()) if not given[k]]
     if missing:
         die2(f"receipt refused: {action} requires {' and '.join(FLAG[k] for k in missing)} "
              f"(WQ-399, Will 2026-10-08). Nothing written. Re-run with the field(s); see "
              f"AGENTS/DAEDALUS/design/2026-10-08_WQ399_RECEIPT_WRITER_ACCEPTANCE.md")
-    for k, vals in (("artifact", artifacts or []), ("validation_ref", [validation_ref] if validation_ref else []),
-                    ("scope", [scope] if scope else []), ("review", [review] if review else [])):
-        for v in vals:
-            if any(c in v for c in ";\t\n"):
-                die2(f"receipt refused: {FLAG[k]} value {v!r} contains ';', a tab or a newline "
-                     f"(would break key=value parsing). Nothing written.")
-    for a in artifacts or []:
+    stray = [k for k in TOKEN_KEYS if given[k] and k not in ALLOWED_FIELDS.get(action, set())]
+    if stray:
+        die2(f"receipt refused: {' and '.join(FLAG[k] for k in stray)} does not belong on a {action} receipt "
+             f"(a later parser would read it as evidence). Nothing written.")
+    for a in given["artifact"]:
         if not PTR_RE.match(a):
             die2(f"receipt refused: --artifact {a!r} is not path#key (e.g. AGENTS/X/workbook/KB.tsv#KB-X-12). "
                  f"Nothing written.")
-    if validation_ref and validation_ref != "NONE" and not PTR_RE.match(validation_ref):
-        die2(f"receipt refused: --validation-ref {validation_ref!r} is neither NONE nor path#key. Nothing written.")
-    if review:
-        d = parse_day("--review", review, "cli")
+    vr = given["validation_ref"][0] if given["validation_ref"] else None
+    if vr and vr != "NONE" and not PTR_RE.match(vr):
+        die2(f"receipt refused: --validation-ref {vr!r} is neither NONE nor path#key. Nothing written.")
+    rv = given["review"][0] if given["review"] else None
+    if rv:
+        if not _REVIEW_RE.match(rv):
+            die2(f"receipt refused: --review {rv!r} is not YYYY-MM-DD. Nothing written.")
+        d = parse_day("--review", rv, "cli")
         if d < today:
-            die2(f"receipt refused: --review {review} is before today {today} — a review date already past "
+            die2(f"receipt refused: --review {rv} is before today {today} — a review date already past "
                  f"is not a deferral. Nothing written.")
-    parts = [f"artifact={a}" for a in artifacts or []]
-    if validation_ref:
-        parts.append(f"validation_ref={validation_ref}")
-    if scope:
-        parts.append(f"scope={scope}")
-    if review:
-        parts.append(f"review={review}")
-    if action == "DEFERRED":      # review first for DEFERRED (acceptance W12), scope first for NO-OP (W11)
-        parts.sort(key=lambda p: not p.startswith("review="))
-    elif action == "NO-OP":
-        parts.sort(key=lambda p: not p.startswith("scope="))
-    return "".join(p + "; " for p in parts)
+    note = note or ""
+    if not _utf8_ok(note):
+        die2("receipt refused: --note is not valid UTF-8. Nothing written.")
+    if _TOKEN_LEAD.match(note):
+        die2(f"receipt refused: --note may not begin with a field token ({', '.join(k + '=' for k in TOKEN_KEYS)}); "
+             f"use the matching flag so the writer validates it. Nothing written.")
+    note = "".join(" " if c in _BREAKS else c for c in note)
+    lead = {"DEFERRED": "review", "NO-OP": "scope"}.get(action)
+    order = ([lead] if lead else []) + [k for k in ("artifact", "validation_ref", "scope", "review") if k != lead]
+    parts = [f"{k}={v}" for k in order for v in given[k]]
+    return "".join(p + "; " for p in parts), note
 
 
 def cmd_receipt(agent, reg_path, rcpt_path, cid, action, note, artifacts=None, validation_ref=None,
@@ -282,14 +321,15 @@ def cmd_receipt(agent, reg_path, rcpt_path, cid, action, note, artifacts=None, v
         die2(f"receipt refused: {cid} not in register {reg_path} — a receipt must reference a real row")
     if action not in ACTIONS:
         die2(f"action {action!r} not in {ACTIONS} (A3 enum; CONTESTED escalates via PROME rails)")
-    note = receipt_tokens(action, artifacts, validation_ref, scope, review, today or date.today()) + (note or "")
+    prefix, note = receipt_tokens(action, artifacts, validation_ref, scope, review, today or date.today(), note)
+    note = prefix + note
     stamp = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%MZ")  # A2: exact-minute, machine-parseable
     new = not rcpt_path.exists()
     rcpt_path.parent.mkdir(parents=True, exist_ok=True)
     with open(rcpt_path, "a") as f:
         if new:
             f.write("\t".join(RECEIPT_HEADER) + "\n")
-        f.write("\t".join([stamp, cid, action, (note or "").replace("\t", " ").replace("\n", " ")]) + "\n")
+        f.write("\t".join([stamp, cid, action, note]) + "\n")
     print(f"RECEIPT WRITTEN: {cid} {action} @ {stamp} -> {rcpt_path}"
           + ("  (file created with header)" if new else ""))
     if action == "CONTESTED":
@@ -599,6 +639,8 @@ def cmd_selftest():
                 except SystemExit as e:
                     rc = e.code
             after = rcpt.read_bytes() if rcpt.exists() else None
+            run_w.prefix_ok = (before is None or after is None or after.startswith(before))
+            run_w.out = buf
             last = after.decode().rstrip("\n").split("\n")[-1].split("\t") if after else []
             chk_rc = None
             if after is not None:
@@ -635,13 +677,35 @@ def cmd_selftest():
         ("W13 CONTESTED with no fields -> 0 (unchanged)", "CONTESTED", dict(note="disputed"), OLD, 0, False, "disputed"),
         ("W15 unknown COR-id -> 2 (no regression)", "NO-OP", dict(scope="s", cid="COR-20990101-01"), OLD, 2, True, None),
     ]
+    # Legs added after the independent read (mutation testing showed W1–W4/W9/W11/W14/W15 vacuous):
+    # each refusal must NAME its cause (msg), and every break character is tested, not only ';'.
+    MSG = {"W1": "--artifact", "W2": "--validation-ref", "W3": "--scope", "W4": "--review"}
+    w399 += [
+        ("W9t tab in --scope -> 2", "NO-OP", dict(scope="a\tb"), OLD, 2, True, None),
+        ("W9n newline in --scope -> 2", "NO-OP", dict(scope="a\nb"), OLD, 2, True, None),
+        ("W9r carriage return in --artifact (CRLF paste) -> 2", "APPLIED", dict(artifacts=["A/x.tsv#k\r"], validation_ref="NONE"), OLD, 2, True, None),
+        ("W9u U+2028 in --validation-ref -> 2", "APPLIED", dict(artifacts=["A/x#k"], validation_ref="A/y#k\u2028z"), OLD, 2, True, None),
+        ("W9x non-UTF-8 (surrogate) in --scope -> 2, no file created", "NO-OP", dict(scope="a\udcffb"), None, 2, True, None),
+        ("W9note CR and U+2028 in --note -> 0, replaced by spaces", "NO-OP", dict(scope="s", note="a\rb\u2028c"), OLD, 0, False, "scope=s; a b c"),
+        ("W11b NO-OP scope + artifact -> scope first", "NO-OP", dict(scope="AGENTS/SAM/**", artifacts=["AGENTS/SAM/k.tsv#K1"]), OLD, 0, False,
+         "scope=AGENTS/SAM/**; artifact=AGENTS/SAM/k.tsv#K1; "),
+        ("W15b bad action -> 2", "APPLY", dict(artifacts=["A/x#k"], validation_ref="NONE"), OLD, 2, True, None),
+        ("W17 whitespace-only --scope counts as missing -> 2", "NO-OP", dict(scope="   "), OLD, 2, True, None),
+        ("W18 --validation-ref given twice -> 2", "APPLIED", dict(artifacts=["A/x#k"], validation_ref=["p#q", "NONE"]), OLD, 2, True, None),
+        ("W19 --review on an APPLIED receipt -> 2 (stray field)", "APPLIED", dict(artifacts=["A/x#k"], validation_ref="NONE", review="2026-10-15"), OLD, 2, True, None),
+        ("W20 --note beginning artifact= -> 2 (forged token)", "NO-OP", dict(scope="s", note="artifact=fake#1; x"), OLD, 2, True, None),
+        ("W21 --review with a time suffix -> 2", "DEFERRED", dict(review="2026-10-15T23:59Z"), OLD, 2, True, None),
+    ]
     print("SELFTEST WQ-399 — the receipt writer requires the 9/17 fields; a refusal writes nothing:")
     for label, action, kw, prior, want, unchanged, note_want in w399:
         kw = dict(kw); cid = kw.pop("cid", "COR-20260920-02")
         got, same, note_got, out, chk_rc = run_w(action, prior, cid=cid, **kw)
         good = got == want and same == unchanged and (note_want is None or note_got == note_want)
-        if want == 0:    # W14: the old free-text row and the new token row still parse together
-            good = good and chk_rc == 0
+        need = MSG.get(label.split()[0])
+        if need:         # W1–W4: the refusal names the missing flag and writes nothing
+            good = good and need in out and "Nothing written" in out
+        if want == 0:    # W14: the old free-text row and the new token row still parse together,
+            good = good and chk_rc == 0 and run_w.prefix_ok    # and every prior byte is preserved
         ok = ok and good
         npass += good
         extra = "" if good else f" | unchanged={same} note={note_got!r} check_rc={chk_rc} out={out.strip()[:160]!r}"
@@ -655,8 +719,8 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument("agent", nargs="?")
     p.add_argument("--receipt"); p.add_argument("--action"); p.add_argument("--note", default="")
-    p.add_argument("--artifact", action="append"); p.add_argument("--validation-ref")
-    p.add_argument("--scope"); p.add_argument("--review")
+    p.add_argument("--artifact", action="append"); p.add_argument("--validation-ref", action="append")
+    p.add_argument("--scope", action="append"); p.add_argument("--review", action="append")
     p.add_argument("--coverage", action="store_true")
     p.add_argument("--write-compliance", action="store_true")
     p.add_argument("--since", default=WQ393_RULING_DATE); p.add_argument("--board")
@@ -681,8 +745,10 @@ def main():
     rcpt = Path(a.receipts) if a.receipts else receipts_path(a.agent, ROOT)
     today = parse_day("--today", a.today, "cli") if a.today else date.today()
     if a.receipt:
+        # The write path ignores --today: a fixture override must not admit a past --review into a real
+        # receipts file (independent read 2026-10-08 ⚠️). Selftests pass `today` to cmd_receipt directly.
         sys.exit(cmd_receipt(a.agent, reg, rcpt, a.receipt, a.action or "", a.note, a.artifact,
-                             a.validation_ref, a.scope, a.review, today))
+                             a.validation_ref, a.scope, a.review, None))
     sys.exit(cmd_check(a.agent, reg, rcpt, today))
 
 
