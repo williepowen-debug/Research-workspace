@@ -18,6 +18,8 @@ action: ["BRENT"]
 info: ["HAWK", "FALCON"]
 ---
 
+> 🔴 **CORRECTED — see `SIG-W-20261008-018` (2026-10-08):** §1's "Hormuz bypass" and Saudi-pipeline analogy are WRONG. The VLCC sails THROUGH the strait; this is a commercial/logistics step, not a route around it. §2 (IEA 325M = cumulative of the March 400M program) HOLDS. The in-place correction at the end of this file (10/4) says the same; this banner was added so a reader arriving here sees it first.
+
 # Iraq arranges a VLCC to ship crude PAST Hormuz → BRENT · + kills the viral "IEA released 325M barrels" misframe
 
 ## 1. IRAQ MOVES TO SHIP CRUDE OUTSIDE THE GULF (Bloomberg, confirmed)
