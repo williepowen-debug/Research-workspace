@@ -22,8 +22,21 @@ SOURCES (both free, both pulled here; fail closed on any fetch error)
 THRESHOLDS: ⛔ PROPOSED, NOT REGISTERED. Setting a threshold is Will's word. The lines
 below are printed as context and labelled PROPOSED on every line. Base rates are in
 the analysis file and reproduce with --baserate.
+
+EXIT CODES (L568 pass 2026-10-08): 0 both legs healthy and graded · 1 --selftest failure ·
+2 UNGRADEABLE · 3 PARTIAL (one leg not healthy, and a leg with data reads WATCH or above) ·
+4 WITHHELD (default run refused; --baserate / --force-withheld-test computed while WITHHELD).
 """
-import json, sys, urllib.request, datetime as dt, time, csv, io
+import json, sys, urllib.request, datetime as dt, time, csv, io, contextlib
+
+# ⛔ CATO D2 / AC-D2 (analysis 2026-10-01 §7b): ONE switch. While True, a default run prints the
+# refusal below and NO reading, before any network call. Clearing it is the release step after
+# PROME's LAST independent read (DOCKET L568) — never a side effect of a fix.
+WITHHELD = True
+WITHHELD_WHY = ("WITHHELD — not for operational use; disposition: PROME DOCKET L568 / "
+                "AGENTS/LIQUID/analysis/2026-10-01_eurusd-basis-instrument.md §WITHHELD "
+                "(PROME read 2: AGENTS/LIQUID/inbox/processed/2026-10-01_from-PROME_usd-swapline-result-read-2-WITHHELD.md)")
+RC_OK, RC_SELFTEST_FAIL, RC_UNGRADEABLE, RC_PARTIAL, RC_WITHHELD = 0, 1, 2, 3, 4
 
 EU = ("European Central Bank", "Swiss National Bank", "Bank of England")
 WATCH_B = 1.0     # PROPOSED: one European NON-turn op >= $1.0B
@@ -35,7 +48,11 @@ ALERT_B = 5.0     # PROPOSED: one European NON-turn op >= $5.0B
 TURN_WATCH_B = 5.0
 TURN_ALERT_B = 15.0
 SWPT_ALERT_M = 10_000       # PROPOSED: SWPT >= $10B ($ millions) outside a turn window
-SWPT_TURN_ALERT_M = 15_000  # inside a turn window (as-of QE-7..QE+14); calm max $12,067M (2018-01-03)
+SWPT_TURN_ALERT_M = 15_000  # inside a turn window (as-of QE-7..QE+14). Max in-window reading in CALM years
+# only: $12,067M (2018-01-03). ⚠️ X3 (read 2): in-window STRESS weeks also sit under this line and are
+# suppressed — 2007-12-26 $14,000M (the first GFC draw week; onset reads 2008-01-02, one week late) and
+# 2012-09-26..10-10 $12.5-14.7B (splits 2011-12; the '2012-10-17' episode start is an artifact). The
+# window holds ~1 week in 4. --baserate prints the share and every suppressed week. Line = Will's word.
 MAX_OP_AGE_D = 22    # newest European op older than this -> UNGRADEABLE (longest normal ECB gap = 3-week year-end op)
 MAX_SWPT_AGE_D = 10  # SWPT as-of older than this -> UNGRADEABLE (weekly + a holiday-delayed H.4.1)
 HEADLINE_D = 14      # the headline grade covers European ops traded in the last 14 days
@@ -116,16 +133,39 @@ def swpt(a, limit=20):
 
 
 def baserate():
-    allops = []
-    for y in range(2010, dt.date.today().year + 1):
-        allops += ops(f"{y}-01-01", f"{y}-12-31")
+    """Replays the lines over history. Fails CLOSED (X2, read 2 2026-10-01): with either source
+    down it prints UNGRADEABLE and returns 2 — never a count off an empty leg."""
+    try:
+        allops = []
+        for y in range(2010, dt.date.today().year + 1):
+            allops += ops(f"{y}-01-01", f"{y}-12-31")
+        if len(allops) < 1000:
+            raise RuntimeError(f"NY Fed history returned {len(allops)} ops since 2010 (expected > 1,000)")
+    except Exception as e:
+        print(f"UNGRADEABLE: --baserate NY Fed leg failed ({e.__class__.__name__}: {e}) — no counts printed")
+        return RC_UNGRADEABLE
+    try:
+        sw = swpt("2007-01-01", limit=2000)
+        if len(sw) < 900:
+            raise RuntimeError(f"SWPT returned {len(sw)} usable weekly rows since 2007 (expected > 900)")
+    except Exception as e:
+        print(f"UNGRADEABLE: --baserate SWPT leg failed ({e.__class__.__name__}: {e}) — no counts printed")
+        return RC_UNGRADEABLE
     tur = [o for o in allops if o["cp"] in EU and is_turn(o)]
     print(f"turn ops 2010-now: {len(tur)} | TURN-WATCH hits {[(o['trade'], o['cp'][:3], round(o['bn'], 2)) for o in tur if TURN_WATCH_B <= o['bn'] < TURN_ALERT_B]} | "
           f"TURN-ALERT hits {[(o['trade'], o['cp'][:3], round(o['bn'], 2)) for o in tur if o['bn'] >= TURN_ALERT_B]}")
-    sw = swpt("2007-01-01", limit=2000)
+
+    def episodes(hits):
+        return [h for k, h in enumerate(hits) if k == 0 or (dt.date.fromisoformat(h[0]) - dt.date.fromisoformat(hits[k - 1][0])).days > 21]
     hits = [(d, v) for d, v in sw if swpt_grade(d, v).startswith("ALERT")]
-    eps = [h for k, h in enumerate(hits) if k == 0 or (dt.date.fromisoformat(h[0]) - dt.date.fromisoformat(hits[k - 1][0])).days > 21]
-    print(f"SWPT leg (turn-adjusted): {len(hits)} weeks ALERT since 2007; episode starts {[(d, int(v)) for d, v in eps]}")
+    print(f"SWPT leg (turn-adjusted): {len(hits)} weeks ALERT since 2007; episode starts {[(d, int(v)) for d, v in episodes(hits)]}")
+    # X3: the turn window's cost, computed rather than asserted
+    inw = [(d, v) for d, v in sw if swpt_in_turn_window(d)]
+    supp = [(d, int(v)) for d, v in inw if SWPT_ALERT_M <= v < SWPT_TURN_ALERT_M]
+    flat = [(d, v) for d, v in sw if v >= SWPT_ALERT_M]
+    print(f"SWPT turn-window cost (X3): {len(inw)} of {len(sw)} weeks ({100 * len(inw) / len(sw):.1f}%) sit inside the window; "
+          f"weeks >= ${SWPT_ALERT_M:,}M it suppresses (read 'below line'): {supp}")
+    print(f"SWPT for comparison, UN-adjusted (${SWPT_ALERT_M:,}M everywhere): {len(flat)} weeks; episode starts {[(d, int(v)) for d, v in episodes(flat)]}")
     for a, b, lab in (("2014-01-01", "2019-12-31", "2014-19"), ("2021-07-01", "2099-12-31", "2021H2-now")):
         w = [o for o in allops if o["cp"] in EU and a <= o["trade"] <= b]
         nonqe = [o for o in w if not is_turn(o)]
@@ -146,6 +186,7 @@ def baserate():
         w = [o for o in allops if o["cp"] in EU and a <= o["trade"] <= b]
         m = max(w, key=lambda o: o["bn"]) if w else None
         print(f"{lab}: max EU op " + (f"${m['bn']:.2f}B {m['cp']} {m['trade']} -> {grade(m)}" if m else "none"))
+    return RC_OK
 
 
 def cadence_switch(oplist):
@@ -179,33 +220,94 @@ def swpt_grade(asof, v_m):
     return "ALERT-PROPOSED" if v_m >= line else "below line"
 
 
-def verdict(oplist, swpt_rows, today):
-    """One overall line. Fails CLOSED on empty, non-European-only or stale inputs."""
+_RANK = {"ALERT": 3, "ORANGE": 2, "WATCH": 1, "below": 0}
+
+
+def ops_leg(oplist, today, err=None):
+    """OPS leg on its own (X1). state OK / STALE / DOWN; grade ALERT / ORANGE / WATCH / below."""
+    leg = dict(name="OPS", state="DOWN", reason="", grade=None, cad=[], newest=None)
+    if err is not None:
+        leg["reason"] = f"NY Fed fetch failed ({err})"
+        return leg
     if not oplist:
-        return "UNGRADEABLE: NY Fed returned 0 operations in the window (ECB normally trades weekly)"
+        leg["reason"] = "NY Fed returned 0 operations in the window (ECB normally trades weekly)"
+        return leg
     eu = [o for o in oplist if o["cp"] in EU]
     if not eu:
-        return "UNGRADEABLE: no European operation in the window"
+        leg["reason"] = "no European operation in the window"
+        return leg
     newest = max(o["trade"] for o in eu)
-    if (today - dt.date.fromisoformat(newest)).days > MAX_OP_AGE_D:
-        return f"UNGRADEABLE: newest European op {newest} is older than {MAX_OP_AGE_D} days"
-    if not swpt_rows:
-        return "UNGRADEABLE: SWPT returned no rows"
-    last_sw_date, last_sw = swpt_rows[-1]
-    if (today - dt.date.fromisoformat(last_sw_date)).days > MAX_SWPT_AGE_D:
-        return f"UNGRADEABLE: SWPT as-of {last_sw_date} is older than {MAX_SWPT_AGE_D} days"
+    leg["newest"] = newest
     recent = [o for o in eu if (today - dt.date.fromisoformat(o["trade"])).days <= HEADLINE_D]
     grades = [grade(o) for o in recent]
     cad = cadence_switch([o for o in oplist if (today - dt.date.fromisoformat(o["trade"])).days <= HEADLINE_D])
-    if any(g.startswith("ALERT") for g in grades) or swpt_grade(last_sw_date, last_sw).startswith("ALERT"):
-        v = "ALERT-PROPOSED"
-    elif cad:
-        v = "ORANGE-PROPOSED (cadence switch: " + "; ".join(cad[:3]) + ")"
-    elif any(g.startswith("WATCH") for g in grades):
-        v = "WATCH-PROPOSED"
+    leg["cad"] = cad
+    leg["grade"] = ("ALERT" if any(g.startswith("ALERT") for g in grades) else "ORANGE" if cad
+                    else "WATCH" if any(g.startswith("WATCH") for g in grades) else "below")
+    if (today - dt.date.fromisoformat(newest)).days > MAX_OP_AGE_D:
+        leg["state"], leg["reason"] = "STALE", f"newest European op {newest} is older than {MAX_OP_AGE_D} days"
     else:
-        v = "below backstop lines (no draw signal; NOT 'no dollar strain')"
-    return f"{v} · newest European op {newest} · SWPT as-of {last_sw_date}"
+        leg["state"] = "OK"
+    return leg
+
+
+def swpt_leg(swpt_rows, today, err=None):
+    """SWPT leg on its own (X1). state OK / STALE / DOWN; grade ALERT / below."""
+    leg = dict(name="SWPT", state="DOWN", reason="", grade=None, asof=None, value=None)
+    if err is not None:
+        leg["reason"] = f"FRED SWPT fetch failed ({err})"
+        return leg
+    if not swpt_rows:
+        leg["reason"] = "SWPT returned no usable rows"
+        return leg
+    d, v = swpt_rows[-1]
+    leg["asof"], leg["value"] = d, v
+    leg["grade"] = "ALERT" if swpt_grade(d, v).startswith("ALERT") else "below"
+    if (today - dt.date.fromisoformat(d)).days > MAX_SWPT_AGE_D:
+        leg["state"], leg["reason"] = "STALE", f"SWPT as-of {d} is older than {MAX_SWPT_AGE_D} days"
+    else:
+        leg["state"] = "OK"
+    return leg
+
+
+def assess(oplist, swpt_rows, today, ops_err=None, swpt_err=None):
+    """(verdict text, rc, legs). X1 (read 2): each leg graded on its own. A known ALERT is never
+    printed as UNGRADEABLE (a STALE leg's ALERT is named STALE with its as-of); "below backstop
+    lines" is never printed off a partial; PARTIAL carries rc 3, UNGRADEABLE rc 2."""
+    legs = [ops_leg(oplist, today, ops_err), swpt_leg(swpt_rows, today, swpt_err)]
+    opl, swl = legs
+    with_data = [l for l in legs if l["state"] in ("OK", "STALE")]
+    not_ok = [l for l in legs if l["state"] != "OK"]
+    top = max((_RANK[l["grade"]] for l in with_data), default=-1)
+
+    def label(g):
+        src = [l for l in with_data if l["grade"] == g]
+        stale = [l for l in src if l["state"] == "STALE"]
+        if g == "ALERT":
+            t = "ALERT-PROPOSED"
+            if src and len(stale) == len(src):   # ALERT known only from a STALE leg
+                t += " (" + "; ".join(f"{l['name']} STALE, last reading as-of {l.get('asof') or l.get('newest')}" for l in stale) + ")"
+            return t
+        if g == "ORANGE":
+            return "ORANGE-PROPOSED (cadence switch: " + "; ".join(opl["cad"][:3]) + ")"
+        if g == "WATCH":
+            return "WATCH-PROPOSED"
+        return "below backstop lines (no draw signal; NOT 'no dollar strain')"
+
+    tail = f"newest European op {opl['newest'] or 'n/a'} · SWPT as-of {swl['asof'] or 'n/a'}"
+    grade_name = {v: k for k, v in _RANK.items()}.get(top)
+    if not not_ok:
+        return f"{label(grade_name)} · {tail}", RC_OK, legs
+    partial = "PARTIAL: " + "; ".join(f"{l['name']} {l['state']} ({l['reason']})" for l in not_ok)
+    if top >= _RANK["WATCH"]:
+        return f"{label(grade_name)} · {partial} · {tail}", RC_PARTIAL, legs
+    seen = "; ".join(f"{l['name']} {l['state']} reads below its line" for l in with_data) or "no leg has data"
+    return f"UNGRADEABLE: {partial} · {seen} — no overall reading · {tail}", RC_UNGRADEABLE, legs
+
+
+def verdict(oplist, swpt_rows, today, ops_err=None, swpt_err=None):
+    """One overall line (text only; rc via assess)."""
+    return assess(oplist, swpt_rows, today, ops_err, swpt_err)[0]
 
 
 def selftest():
@@ -266,49 +368,151 @@ def selftest():
     chk("cadence: daily ECB ops -> switch", bool(cadence_switch(daily)), True)
     chk("cadence: weekly ECB ops -> none", cadence_switch(wk), [])
     chk("cadence: single isolated 1d op -> none", cadence_switch([mk("2024-05-15", "2024-05-15", "2024-05-16", BOE, 0.01, 1)]), [])
-    # fetch failure -> rc 2
-    global _get
-    real = _get
-    def boom(*a, **k):
-        raise TimeoutError("synthetic")
-    _get = boom
+    # ---- L568 pass (2026-10-08): AC-X1 · AC-X2 · AC-D2 (change note analysis/2026-10-08_usd-swapline-L568-change-note.md §A)
+    t2 = dt.date(2026, 10, 16)
+    big = [mk("2026-10-14", "2026-10-15", "2026-10-22", ECB, 20.0, 7), mk("2026-10-07", "2026-10-08", "2026-10-15", ECB, 0.1, 7)]
+    quiet = [mk("2026-10-14", "2026-10-15", "2026-10-22", ECB, 0.1, 7), mk("2026-10-07", "2026-10-08", "2026-10-15", ECB, 0.1, 7)]
+    sw_ok = [("2026-10-14", 72.0)]
+    def A(*a, **k):
+        v, rc, _ = assess(*a, **k)
+        return (v.split(" · ")[0].split(" (")[0], "PARTIAL" in v, rc)
+    chk("X1 $20B ECB op + FRED down -> ALERT, PARTIAL, rc 3", A(big, [], t2, swpt_err="TimeoutError"), ("ALERT-PROPOSED", True, 3))
+    chk("X1 $20B ECB op + SWPT 12d old -> ALERT, PARTIAL, rc 3", A(big, [("2026-10-04", 72.0)], t2), ("ALERT-PROPOSED", True, 3))
+    chk("X1 SWPT $50,000M fresh + NY Fed down -> ALERT, PARTIAL, rc 3", A([], [("2026-10-14", 50000.0)], t2, ops_err="TimeoutError"), ("ALERT-PROPOSED", True, 3))
+    r327 = [mk("2020-03-18", "2020-03-19", "2020-06-11", ECB, 75.82, 84), mk("2020-03-25", "2020-03-26", "2020-06-18", ECB, 27.81, 84)]
+    chk("X1 real-shape 2020-03-27 ops + SWPT as-of 2020-03-11 (stale) -> ALERT, PARTIAL, rc 3",
+        A(r327, [("2020-03-11", 45.0)], dt.date(2020, 3, 27)), ("ALERT-PROPOSED", True, 3))
+    chk("X1 quiet ops + FRED down -> UNGRADEABLE rc 2 (never 'below' off a partial)", A(quiet, [], t2, swpt_err="x")[0::2], ("UNGRADEABLE: PARTIAL: SWPT DOWN", 2))
+    chk("X1 quiet SWPT + NY Fed down -> UNGRADEABLE rc 2", A([], sw_ok, t2, ops_err="x")[0::2], ("UNGRADEABLE: PARTIAL: OPS DOWN", 2))
+    chk("X1 both down -> UNGRADEABLE rc 2", assess([], [], t2, ops_err="x", swpt_err="y")[1], 2)
+    v_st = verdict(quiet, [("2026-10-04", 50000.0)], t2)
+    chk("X1 STALE SWPT $50,000M + quiet fresh ops -> ALERT named STALE, PARTIAL, rc 3",
+        (v_st.startswith("ALERT-PROPOSED (SWPT STALE, last reading as-of 2026-10-04)"), "PARTIAL" in v_st, assess(quiet, [("2026-10-04", 50000.0)], t2)[1]), (True, True, 3))
+    chk("X1 both OK and quiet -> below backstop lines, rc 0", A(quiet, sw_ok, t2), ("below backstop lines", False, 0))
+    chk("X1 both OK, $20B op -> ALERT, no PARTIAL, rc 0", A(big, sw_ok, t2), ("ALERT-PROPOSED", False, 0))
+    # separate try blocks through run_live: NY Fed raising must not hide a $50B SWPT line
+    g = globals()
+    real_ops, real_swpt, real_get = g["ops"], g["swpt"], g["_get"]
+    calls = []
+    def ops_boom(*a, **k):
+        calls.append("ops"); raise TimeoutError("synthetic")
+    def swpt_boom(*a, **k):
+        calls.append("swpt"); raise TimeoutError("synthetic")
+    def get_boom(*a, **k):
+        calls.append("_get"); raise TimeoutError("synthetic")
+    def run(fn, *a):
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            rc = fn(*a)
+        return buf.getvalue(), rc
     try:
-        rc = main(_argv=[])
+        g["ops"], g["swpt"] = ops_boom, (lambda *a, **k: [("2026-10-14", 50000.0)])
+        out, rc = run(run_live, t2)
+        chk("X1 run_live: NY Fed down, SWPT $50,000M -> SWPT line printed + ALERT verdict, rc 3",
+            ("$50,000M as-of 2026-10-14" in out, "VERDICT (PROPOSED lines): ALERT-PROPOSED" in out, rc), (True, True, 3))
+        g["ops"], g["swpt"] = (lambda *a, **k: big), swpt_boom
+        out, rc = run(run_live, t2)
+        chk("X1 run_live: FRED down, $20B op -> op row + SWPT DOWN line + ALERT verdict, rc 3",
+            ("$20.000B" in out, "SWPT leg DOWN" in out, "VERDICT (PROPOSED lines): ALERT-PROPOSED" in out, rc), (True, True, True, 3))
+        # AC-X2: --baserate fails closed on either source
+        g["ops"], g["swpt"] = (lambda *a, **k: [mk("2014-01-08", "2014-01-09", "2014-01-16", ECB, 0.1, 7)] * 100), (lambda *a, **k: [])
+        out, rc = run(baserate)
+        chk("X2 --baserate, FRED down -> UNGRADEABLE rc 2, no SWPT count line", (rc, "UNGRADEABLE" in out, "weeks ALERT since" in out), (2, True, False))
+        g["ops"] = ops_boom
+        out, rc = run(baserate)
+        chk("X2 --baserate, NY Fed down -> UNGRADEABLE rc 2, no counts", (rc, out.startswith("UNGRADEABLE"), "turn ops" in out), (2, True, False))
+        # AC-D2: WITHHELD refuses before any network call, leaks no grade, exit 4
+        if WITHHELD:
+            del calls[:]
+            g["ops"], g["swpt"], g["_get"] = ops_boom, swpt_boom, get_boom
+            out, rc = run(main, [])
+            chk("D2 default run while WITHHELD, network failing -> refusal, rc 4, no network call",
+                ("WITHHELD" in out, "VERDICT" in out, rc, calls), (True, False, 4, []))
+            g["ops"], g["swpt"] = (lambda *a, **k: big), (lambda *a, **k: [("2026-10-14", 50000.0)])
+            out, rc = run(main, [])
+            chk("D2 default run while WITHHELD on REAL-ALERT feeds -> refusal only, no ALERT text, rc 4",
+                ("WITHHELD" in out, "ALERT" in out, rc), (True, False, 4))
+            g["ops"], g["swpt"] = (lambda *a, **k: quiet), (lambda *a, **k: sw_ok)
+            out, rc = run(main, ["--force-withheld-test"])
+            lines = [l for l in out.splitlines() if l.strip()]
+            chk("D2 --force-withheld-test -> computes, EVERY line prefixed WITHHELD-TEST:, rc 4",
+                (all(l.startswith("WITHHELD-TEST: ") for l in lines), any("VERDICT" in l for l in lines), rc), (True, True, 4))
     finally:
-        _get = real
-    chk("fetch failure -> main rc 2", rc, 2)
+        g["ops"], g["swpt"], g["_get"] = real_ops, real_swpt, real_get
     print(f"selftest: {'OK' if not fails else str(fails) + ' FAIL'}")
-    return 1 if fails else 0
+    return RC_SELFTEST_FAIL if fails else RC_OK
+
+
+def run_live(today):
+    """One live reading. X1: the two legs are fetched in SEPARATE try blocks, so one source
+    failing never hides the other leg's line or grade."""
+    o = s = None
+    oerr = serr = None
+    try:
+        o = ops(str(today - dt.timedelta(days=60)), str(today))
+    except Exception as e:
+        oerr = f"{e.__class__.__name__}: {e}"[:200]
+    try:
+        s = swpt(str(today - dt.timedelta(days=120)))
+    except Exception as e:
+        serr = f"{e.__class__.__name__}: {e}"[:200]
+    print("⛔ Lines are PROPOSED, NOT REGISTERED (Will's word). Usage = ceiling-binding, not a basis level.")
+    if oerr:
+        print(f"NY Fed USD swap operations: FETCH FAILED ({oerr}) — OPS leg DOWN")
+    else:
+        eu = [x for x in o if x["cp"] in EU]
+        print(f"NY Fed USD swap operations, last 60 days: {len(o)} ops ({len(eu)} European, all printed; "
+              f"{len(o) - len(eu)} non-European not graded). Posted at settlement:")
+        for x in sorted(eu, key=lambda x: x["trade"]):
+            print(f"  trade {x['trade']} settle {x['settle']} {x['term']:>3}d {x['cp'][:24]:<24} ${x['bn']:.3f}B @ {x['rate']}%  -> {grade(x)}")
+    if serr:
+        print(f"FRED SWPT: FETCH FAILED ({serr}) — SWPT leg DOWN")
+    elif s:
+        d, v = s[-1]
+        lab = swpt_grade(d, v) + (" (turn window)" if swpt_in_turn_window(d) else "")
+        if (today - dt.date.fromisoformat(d)).days > MAX_SWPT_AGE_D:
+            lab += f" — STALE (> {MAX_SWPT_AGE_D} days)"
+        print(f"FRED SWPT (H.4.1, Wed level, ALL counterparties — global, not European): ${v:,.0f}M as-of {d} -> {lab}; prior: " +
+              ", ".join(f"{dd[5:]} {vv:,.0f}" for dd, vv in s[-5:-1]))
+    else:
+        print("FRED SWPT: no usable rows — SWPT leg DOWN")
+    v, rc, _ = assess(o or [], s or [], today, oerr, serr)
+    print(f"VERDICT (PROPOSED lines): {v}")
+    return rc
+
+
+def _prefixed(fn, *a):
+    """Run fn with stdout captured; re-emit every line prefixed WITHHELD-TEST: (AC-D2 #3).
+    Output is flushed even if fn raises."""
+    buf = io.StringIO()
+    rc = None
+    try:
+        with contextlib.redirect_stdout(buf):
+            rc = fn(*a)
+    finally:
+        for line in buf.getvalue().splitlines():
+            print(f"WITHHELD-TEST: {line}")
+    return rc
 
 
 def main(_argv=None):
     argv = sys.argv[1:] if _argv is None else _argv
     if "--selftest" in argv:
         return selftest()
-    if "--baserate" in argv:
-        return baserate()
-    today = dt.date.today()
-    try:
-        o = ops(str(today - dt.timedelta(days=60)), str(today))
-        s = swpt(str(today - dt.timedelta(days=120)))
-    except Exception as e:  # fail closed: never print a quiet reading off a failed pull
-        print(f"UNGRADEABLE: fetch failed ({e.__class__.__name__}: {e}) — no reading")
-        return 2
-    print("⛔ Lines are PROPOSED, NOT REGISTERED (Will's word). Usage = ceiling-binding, not a basis level.")
-    eu = [x for x in o if x["cp"] in EU]
-    print(f"NY Fed USD swap operations, last 60 days: {len(o)} ops ({len(eu)} European, all printed; "
-          f"{len(o) - len(eu)} non-European not graded). Posted at settlement:")
-    for x in sorted(eu, key=lambda x: x["trade"]):
-        print(f"  trade {x['trade']} settle {x['settle']} {x['term']:>3}d {x['cp'][:24]:<24} ${x['bn']:.3f}B @ {x['rate']}%  -> {grade(x)}")
-    if s:
-        d, v = s[-1]
-        lab = swpt_grade(d, v) + (" (turn window)" if swpt_in_turn_window(d) else "")
-        print(f"FRED SWPT (H.4.1, Wed level, ALL counterparties — global, not European): ${v:,.0f}M as-of {d} -> {lab}; prior: " +
-              ", ".join(f"{dd[5:]} {vv:,.0f}" for dd, vv in s[-5:-1]))
-    v = verdict(o, s, today)
-    print(f"VERDICT (PROPOSED lines): {v}")
-    return 2 if v.startswith("UNGRADEABLE") else 0
+    research = "--baserate" in argv or "--force-withheld-test" in argv
+    if WITHHELD and not research:
+        # refusal FIRST: no network call, no grade, no verdict line (CATO D2)
+        print(f"⛔ {WITHHELD_WHY}")
+        print("No reading is printed while WITHHELD. Isolated testing only: --selftest · --baserate · "
+              f"--force-withheld-test (every line prefixed WITHHELD-TEST:, exit {RC_WITHHELD}).")
+        return RC_WITHHELD
+    fn, args = (baserate, ()) if "--baserate" in argv else (run_live, (dt.date.today(),))
+    if not WITHHELD:
+        return fn(*args)
+    rc = _prefixed(fn, *args)
+    print(f"WITHHELD-TEST: underlying rc {rc}; exit {RC_WITHHELD} because the instrument is {WITHHELD_WHY}")
+    return RC_WITHHELD
 
 
 if __name__ == "__main__":
-    sys.exit(main() or 0)
+    sys.exit(main())
