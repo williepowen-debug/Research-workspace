@@ -1,22 +1,24 @@
 # WALTER STATUS
 
-**Updated 2026-10-07T20:40:39.869781-04:00 — Will-requested FULL closeout of October7 catch-up.** BOARD1239;17 outputs (14 news/research,3 additive corrections),0 kills,0 verification spawns;0 cluster-mediating outputs. Boot/source coverage PARTIAL. Current duties and exact publication/owner evidence: LAST_COMPLETION.md and research/2026-10-07_closeout/RECEIPT.md.
+**Updated 2026-10-08 ~08:3x ET — Will-launched boot (Claude Code, Opus 5.5, laptop), mid-session Tier-1 flush; full closeout deferred.** BOARD 1254; 15 outputs today (SIG-W-20261008-001…015: 14 news/research + 1 additive correction), 2 kills, 1 verify-research spawn (Iran full sweep); 0 cluster-mediating. Bookmark batch BM-20261008-01 97/97 and lane batch BM-20261008-02 14/14 CLOSED. Boot coverage PARTIAL (named in LAST_COMPLETION addendum). Commits local; PROME serializes push.
 
 ## BOTTOM LINE
 
-October5→7 news and document writeback are complete within the declared perimeter; full desk continuity is refreshed for window closure. Oil availability and delivered costs remain separate: freight/insurance are dated, and WTI transmission is mixed. Manual USO watch and existing approvals remain intact. Missing source authentication, manual threshold/filter/basis coverage and remaining owner integration stay explicit; no new trade, gate or unattended service.
+Oil jumped ~5% overnight (Dec Brent ~$104.7) on three named drivers — a record Hormuz tanker-strike week, an anonymous Axios report that CENTCOM was told to finish strike preparations (no decision), and Hurricane Isaias (25% of Gulf oil shut in). The 10/08 Iran full sweep fired nothing on the ladder (losses 3, GATE 1 holds) but the hull war widened to the central Gulf (158-26 off Qatar). UK long gilts sit at HANS's two lines into today's close; the UK Budget is 10/28, not 11/26. Wakes beyond PROME's eight sit on Will's WQ-391 slate; AEOLUS woken. No trade, gate or threshold moved by WALTER.
 
-## DATED MARKET OBSERVATIONS — October7 pull; vintages explicit
+## DATED MARKET OBSERVATIONS — October 8 boot pull (~12:00Z); vintages explicit
 
 | Row | Observation and limit |
 |---|---|
-|HY / CCC|FRED HY303bpOct6; >320 watch0/3. CCC1214bpOct6, existing banked state. Automated legs only.|
-|VIX / SKEW|VIXCLS15.01 and SKEW141.21Oct6; FT06 existing state; no close-based trigger inferred from intraday data.|
-|Energy / inventory|EIA weekOct2: US commercial424.134M−3.186M; Cushing24.745M+0.444M; exports4.765mb/d weekly,4.112four-week. No new owner fire or freight-causality grade.|
-|Freight / insurance|Latest public assessmentsOct2; insurance quoteSept25. Next public weekly reviewOct9. Current USO contract weights UNKNOWN.|
-|HANS|NovTTF78.53EUR/MWh indicative; GIE72.97% gasdayOct6 (publisher estimated,E), mean gap−15.10pp. Proxy yields/manual rows not fresh owner grades.|
-|Funding|SOFR3.90,IORB3.90Oct6, gap0bp. Dashboard score is not an owner grade.|
-|Iran|Full sweepOct1, next~Oct8. QualifiedOct7 pipeline/fire limbs and guards read; no authenticated new production loss/rung or incident census.|
+|HY / CCC|FRED HY 303bp [obs 10/6] (324 on 10/1, one print >320, run reset) → >320 watch 0/3; 5.3% from the line. CCC 1,214bp [10/6], RED-FT-07 FIRING-BANKED. Pre-16:00 ET boot: T+1 prints.|
+|VIX / SKEW|VIXCLS 15.01 [10/6]; ^VIX 15.73 intraday 10/8 (second witness only). SKEW 141.84 [10/7]. FT-06 FIRED-BANKED, exit ≥18 0/5.|
+|Claims / 5y5y|ICSA 197K [w/e 9/26]; new print 08:30 ET 10/8 not yet on FRED at flush. T5YIFR 2.35 [10/7].|
+|Rates|DGS30 5.64 / DGS10 5.27 [10/6]; FT-11 30Y 5-session Δ +5bp (no precondition). SOFR 3.90 [10/6] vs IORB 3.90 → 0bp.|
+|Oil (named contracts)|BZZ26 $104.70 / CLX26 $92.37, ~+4.5% at ~12:00Z 10/8 (fetch.py; BZ identity UNKNOWN by name-cut). Boundaries #6/#8 NOT computed (month basis). Cushing 24.745M [w/e 10/2]; next WPSR Thu 10/15 noon.|
+|Freight|TD3C verified $1,221,893/day [10/2]; secondary chart ~$1.33M (record, posted 10/7). Weekly publisher review due Fri 10/9.|
+|Banks|KRE $68.89, WAL $74.35, OZK $43.56 [10/7 closes]. REG-T-02 cycle 2 FIRED 9/1, still inside (re-entries). OZK below its own <$45 band 10/6–10/7 (-003).|
+|HANS|UK 30Y 6.007% / UK 10Y 5.49% intraday 10/8 (TE) vs T-13 >6.00 / T-06 >5.50 on the CLOSE — today's London close decides. Bund 3.51% (watch open; orange 3.75). TTF Nov 79.14 (L1/L2 open). EURUSD 1.12. Storage gap NOT pulled today (−15.10pp [gas day 10/6] carried).|
+|Iran|FULL SWEEP 2026-10-08 (-014); next ~10/15. Anchor re-stamped 20,926 B.|
 
 ## MISSION
 
