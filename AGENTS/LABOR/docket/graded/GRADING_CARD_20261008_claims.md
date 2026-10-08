@@ -135,3 +135,39 @@ Current **1,701,000** [w/e Sep 19]; `1,750,000 − 1,701,000 = 49,000` inside. S
 ## §9 — GRADE (write 2026-10-08 off this frozen card — never re-read a band)
 
 *Blank until print. Order: ① regenerate the three §4 quantities on the as-published vintage · ② apply the revised-vintage rule, grade §2 · §5a · §5b · §5c separately · ③ write into `STATUS.md` (KEY THRESHOLDS, matrix v7/v13, score, calendar) · ④ `git mv` to `docket/graded/` and build the 10/15 card the same session.*
+
+### §9 GRADE — written 2026-10-08 08:3x ET (PROME-spawned session `prome-fc`, WQ-389 Tier-1 due-row wake) off the frozen card
+
+**Primary:** DOL/ETA news release 2026-10-08 08:30 ET, `dol.gov/ui/data.pdf?release=20261008` fetched 08:30:20 by bare `curl` (`file`: PDF 1.7, 484,181 B), text-extracted with pdfminer; embargo line *"8:30 A.M. (Eastern) Thursday, October 8, 2026"* checked; every figure below grepped in the extracted text (saved: `domain/sources/2026-10-08_DOL_UI_claims_release_text.txt`). FRED ICSA/CCSA had **not** updated at 08:31 (still the 10/1 vintage) — DOL primary only. KB-LAB-205.
+
+**① Three quantities regenerated on the as-published vintage BEFORE reading the level (the window DID revise — w/e Sep 26 197,000 → 199,000):**
+
+| Quantity | Card (10/1 vintage) | As-published 10/8 | Moved? |
+|---|---|---|---|
+| `R` (w/e Sep 5) | 207,000 | 207,000 | no ⇒ **`ΔMA = (X − 207,000)/4` exact** |
+| Retained trio `W2+W3+W4` | 593,000 | `198,000 + 198,000 + 199,000 = 595,000` | **+2,000** |
+| `MA_next(197,000)` | 197,500 | `(595,000 + 197,000)/4 = 792,000/4 = 198,000` = **published 198,000 exactly** | **+500 — the vintage-dependent column rotted a third week running (L-31)** |
+| `ΔMA(197,000)` | −2,500 | `(197,000 − 207,000)/4 = −2,500` vs revised prior MA `(207,000 + 198,000 + 198,000 + 199,000)/4 = 802,000/4 = 200,500` = **published −2,500** | exact ✅ |
+| T-01 MA bound | `X > 407,000` | `X > 1,000,000 − 595,000 = 405,000` | −2,000 |
+
+**② Five axes, graded separately (X = 197,000 w/e Oct 3; CC = 1,716,000 w/e Sep 26):**
+
+| Axis | Read | Band | Assignment |
+|---|---|---|---|
+| §2 single print | 197,000 | **B** (186,000–229,000) | **NO ACTION** |
+| §5a T-01 MA basis | 197,000 ≤ 405,000 | **T01-a** | T-01 does not fire; MA 198,000 is `250,000 − 198,000 = 52,000` below |
+| §5b v13 `<200,000` | revised run Sep 12 198,000 · Sep 19 198,000 · **Sep 26 199,000 (rev +2,000; margin now 1,000)** — all three still `<200,000`; w/e Sep 5 207,000 bounds the run | **V13-a** | **counter 4 of 4 ⇒ v13 2 → 1 (score −1).** Executed as the pre-registered drop letter |
+| §5c v7 CC `<1,750,000` | revised run Sep 5 1,717,000 · Sep 12 1,712,000 · **Sep 19 1,699,000 (rev −2,000)**; new week Sep 26 **1,716,000** (+17,000) — `1,750,000 − 1,716,000 = 34,000` inside; w/e Aug 29 1,765,000 bounds the run | **CC-1** | **counter 4 of 4 ⇒ v7 3 → 2 (score −1).** §4's v2 caveat does not bite: freeze-thaw v2 did NOT fire on 10/2, so v7 was live and its letter executes |
+| Kill B | 197,000 > 185,000 | — | 0 of 5 |
+
+**Score 28 → 26/75** (`26/75 = 34.7%`).
+
+🔴 **Reading rule applied (§3):** the as-published MA is **198,000 — below 200,000, mechanically.** The whole −2,500 is the 207,000 roll-off. The new week (197,000) equals last week's *first* print; the headline "−2,000" exists only because last week was revised up to 199,000. **No improvement is claimed.**
+
+⚠️ **Margins, stated so the drop is not over-read:** the v13 streak survived its 4th week with **1,000** to spare on the revised w/e Sep 26 (it was 3,000 a week ago) — the run is real on the as-published vintage, and thin. **Graded on the 10/8 vintage per §5b; a later revision of w/e Oct 3 does not re-grade it — no such letter exists.** Both drops are *threshold* de-escalations of *level* letters, not a mechanism call (§6): the realization channel stayed quiet for four weeks; it says nothing about why.
+
+**Routing (§7):** V13-a + CC-1 completions ⇒ STATUS score + NEXUS brief + **direct 🟡 note to CARL** (its kill-rule leg 1 reads claims). Bands A/B ⇒ no WALTER signal. Nothing fired.
+
+**Colour, graded by nothing:** NSA initial 170,333 (+11,994, +7.6% vs seasonal +8.7% expected); yr-ago 207,124 · NSA insured unemployment 1,504,800 (+7,579 vs seasonal −6,798 expected); yr-ago 1,683,703 · UCFE initial 395 (w/e Sep 26) · largest state increases w/e Sep 26: Michigan +739, Nevada +167. Quarter-start week (§4): no attribution made either way.
+
+**§8 defect log at grade:** ① L-31 two-clocks split worked again — `ΔMA` exact, `MA_next` off by +500 (third straight week the retained trio revised up), caught because it was regenerated. ② The §3 sentence about a 197,000 repeat ("MA 197,500") was wrong by the same +500; the conditional reading rule ("only if the as-published MA is actually below 200,000") held because it was written on the condition, not the number. No band affected.
