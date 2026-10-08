@@ -1,8 +1,8 @@
 # VULCAN — NEXUS Brief
 
-**Status:** 🟠 Four channels at 3, S2 at 2 (10/01 downgrade held); composite **14/25**; fired-count **0 of 5**; thesis-kill **1 of 4**. 🆕 **2026-10-02 slot 4: Mag-7 34.5445%, breadth RSP−SPY 63d −5.07pp (3.7th pctile), 8.77pp move toward collapse in 30d — band stays YELLOW on the AND (Mag-7 still 5.5pp from 40%), but the leading breadth leg's runway to the red threshold is now ~2.4pp.** GPU_SERIES first row written: on-demand mean $4.64/GPU-hr (Nebius +16.9% effective 10/01), both indices UP vs the 9/13 freeze (SDH100RT +9.5%, OCPI +5.0%) — contract/term H100 pricing rising, consistent with Micron. **AMZN $8B GB SPV in talks (-012):** capex FUNDED DIFFERENTLY, NOT CUT; S5 structure strand n=2 at hyperscaler layer, no band fire. **Toshiba HDD cap-add (-024, STX/WDC −10%):** storage-cycle crack OUTSIDE S2's cell — memory read unchanged. Next: Mon 10/05 compute-futures §7a decide + TERRY ask reply; Fri 10/09 four-instrument cluster; late-Oct hyperscaler cluster = §4b flip.
+**Status:** 🟠 Four channels at 3, S2 at 2; composite **14/25**; fired-count **0 of 5**; thesis-kill **1 of 4**. 🆕 **2026-10-08: DOCKET L250 graded — compute futures are NOT trading on either exchange (CFTC review of CME's contracts extended to 11/09; ICE no date) ⇒ GPU spec §7a R-A, no primary, no threshold.** Breadth off-cadence check −4.47pp (4.7th pctile, holdings 10/07), eased from −5.07pp; band YELLOW.
 **Domain:** AI-capex / semiconductor / memory cycle as a systemic-risk transmission — channels S1–S5. Not a chip-earnings desk.
-**As of:** 2026-10-02 (Fri) 16:0x ET (`date`), PROME-spawned Tier-2 session (DOCKET L564, above-cap under Will's in-session authorization), CLOSEOUT | **STATUS commit:** pending-this-commit *(Amendment 11 `pin-follows-STATUS-HEAD`; prior pin `bbd75b2e7 → 87b83ff89 → 98d815913 → 45f3fa7f2 → 461d388e9 → c4c586aac → c0fe1d3ba`)*. Levels (**10/02 close**): MU $1,074.89 · NVDA $233.95 · ORCL $142.52 · AMZN $251.52 · STX $848.99 (−10.21%) · WDC $415.29 (−10.22%) · META $728.08 [own `fetch.py` 2026-10-02 16:06 ET].
+**As of:** 2026-10-08 (Thu) 08:34 ET (`date` at write), PROME-spawned Tier-1 wake (WQ-389, DOCKET L250), CLOSEOUT | **STATUS commit:** 00a13c4c1 *(Amendment 11 `pin-follows-STATUS-HEAD`; prior pin `bbd75b2e7 → 87b83ff89 → 98d815913 → 45f3fa7f2 → 461d388e9 → c4c586aac → c0fe1d3ba → fbb97d895`)*. Levels (**10/07 close**, `fetch.py` 10/08 08:19 ET): QQQ $757.73 · NVDA $237.47 · MU $1,088.00 · ORCL $143.56 · CRWV $88.45.
 **Variant:** FULL; section order per amendment 12 (CROSS-DOMAIN → VIEW → CALIBRATION → NEXT DECISION POINT → WATCH). No `Thesis version:` line, deliberately.
 
 > 🔁 **ROTATED 2026-09-25** (PROME read-cap notice 9/24: 137,282 B = 4.2× NEXUS's budget). The whole prior brief is at **`archive/NEXUS_BRIEF_ARCHIVE_2026-09.md`** (verbatim, crc `0xadc7bff2`). The cut was audited by OBLIGATION: every standing desk item and every forward date was carried below or lives in `docket/CATALYSTS.tsv`. **This table is canonical over anything in the archive.** Measure length with `wc -c` at read time.
@@ -10,6 +10,15 @@
 ---
 
 ## CROSS-DOMAIN
+
+### 🆕 2026-10-08 — compute futures not trading; a QQQ-membership correction; memory keeps rising
+
+| To | What | Strength |
+|---|---|---|
+| **WATT · DEWEY · PROME** | **DOCKET L250 applied (GPU spec §7a → R-A both tracks).** CFTC Division of Market Oversight letter **2026-09-21** extends the review of NYMEX Submission 26-370/370S (Silicon Data H100/B200 Rental Index Futures) to the **end of 2026-11-09** (novel or complex issues; compute-derivatives RFC closes 10/20). ICE: *"no listing date or timeline"* (9/29). ⇒ no exchange primary, no panel change, no threshold; check **11/09**. The NYMEX rulebook settles on *"SD-H100 on-demand"*, Geography US — an **on-demand-tier** construction, never a contract-tier one | CFTC letter + filings 62544/62545 + NYMEX 26-370 + ICE notice, all primary [KB-193/194] |
+| 🔄 **TERRY · VIOLET · HENRY** | **Correction: CoreWeave IS a Nasdaq-100 member (since 2026-06-22); Oracle is NOT (NYSE).** My 10/02 packet to TERRY had both backwards. QQQ therefore holds one debt-funded neocloud directly — weight unmeasured (Invesco 406s) | CoreWeave release 6/12 (issuer) [KB-202] |
+| **HENRY · CARL** | Samsung Q3 guidance: operating profit ~KRW107.40T, **+20.0% QoQ** — a second memory major printing a rising quarter after Micron; KOSPI −2.62% on the day is a thermometer, not a memory-price datum | Samsung newsroom 10/08 [KB-196] |
+| **ZHAO · HAWK** | TSMC September: cumulative Jan-Sep **+41.1%** (from +39.3%) — re-accelerating, no-stress | SEC 6-K 10/08 [KB-195] |
 
 ### 🆕 2026-10-01 — Micron graded; one VULCAN figure moves (🔄)
 
@@ -73,7 +82,7 @@
 - **AI-capex is still being RAISED, not cut.** The labs' pacing calls (9/12–14) and now **OpenAI's frontier pause (9/25, no resume date)** moved prices; no hyperscaler guided, and none changed a contract or site. 🆕 The pause is the first **demand** datum from the safety turn — watch for a contract deferral, not the pause itself. S1 NOT-FIRED at yellow.
 - **The live fragility is S5 STRUCTURE, and it now has a mechanism on the tape:** a tenant can push power-delay risk onto a developer and its lenders by contract (FL-VULCAN-13, n=1). The same week, the lease book grew $28B and the guaranty counterparty could not price an IPO. **Stronger-evidenced 3, still 3:** priced deals cleared (SoftBank, CRWV) and AI notes re-tightened.
 - **Memory has not rolled; it is decelerating upward — now on primary data** (Micron FQ4; TrendForce 4Q +10–15%). 🆕 **S2 at 2 because my equity-leads call was falsified, not because memory weakened**; Micron's margin rose through its own contractual price caps.
-- **The Taiwan chokepoint runs hot, not stressed** (+39.3% cum). The live policy binary is the pair of 11/10 perimeter-widening rules, which widen with ZERO new listings.
+- **The Taiwan chokepoint runs hot, not stressed** (+41.1% cum, Jan-Sep). The live policy binary is the pair of 11/10 perimeter-widening rules, which widen with ZERO new listings.
 
 ## CALIBRATION
 
@@ -85,7 +94,7 @@
 
 ## NEXT DECISION POINT
 
-- **What:** take the **10/02 post-close** instruments (`mag7.py` slot 4 + the FIRST GPU-rental row); **apply** the pre-written 10/05 compute-futures basis rule (GPU spec §7a); then the **late-Oct hyperscaler cluster = the live flip** (`EXIT_PROTOCOL.md` §4b) and the next kill-rail rewrite.
+- **What:** take the **10/09 post-close** instruments (`mag7.py` slot 5 + GPU reading 5, ARMED on GPU-PANEL-01 — the 10/05 compute-futures rule was APPLIED 10/08 as R-A); then the **late-Oct hyperscaler cluster = the live flip** (`EXIT_PROTOCOL.md` §4b) and the next kill-rail rewrite.
 - **What changes my view at the cluster:** a stock FALLS on a capex RAISE in ≥2 prints, OR management cites inference-price / open-weight / ROI pressure, OR any capex CUT YoY ⇒ fragility confirmed (S1). ≥2 RAISE and are rewarded with no cut anywhere ⇒ falsified for that cluster. No new threshold.
 - **Second node:** `VULCAN-17` reading 1 at NVDA's Q3 FY27 10-Q (~11/19): commitment level ≥ $108,529M = build phase; a withdrawal with no successor = the Lucent signal ⇒ level-to-Will via PROME.
 
@@ -96,17 +105,19 @@
 | When | What | Whose |
 |---|---|---|
 | ~~9/25 – 10/01~~ | **SWEPT 10/01:** 9/25 and 9/29 slots MISSED (S2: 0 of 8 taken) · MU FQ4 graded (02 HIT · 11 FALSIFIED · 12 HIT · 14 HIT) · re-arm rule UNGRADEABLE + moot · kill-rail rewrite (Micron half) done · ORCL $3.3B guarantee re-dated → ~12/15 | VULCAN |
-| 2026-10-02 | GPU reading 4 — the FIRST row (cadence extended 10/09→11/27, registered 9/29) + `mag7.py` · WALTER R3 re-test of VULCAN's 11 candidate phrases | VULCAN · PROME, WATT, DEWEY |
-| 2026-10-05 | CME / ICE compute futures: **APPLY the pre-written basis rule (GPU spec §7a; expected R-F = no primary)**. GPU cadence already extended 10/09→11/27 | VULCAN · PROME, WATT |
+| ~~2026-10-02~~ | **DONE 10/02:** GPU reading 4 (first row) + `mag7.py` slot 4 | VULCAN |
+| ~~2026-10-05~~ | **APPLIED 10/08 — R-A both tracks:** neither CME nor ICE is trading; CFTC review to **11/09** | VULCAN · PROME, WATT |
+| 2026-10-09 | `mag7.py` slot 5 + GPU reading 5 (ARMED, GPU-PANEL-01), post-close | VULCAN · PROME, WATT |
 | ~2026-10-09 | 🆕 MU FY26 10-K (window ~10/09–10/19): re-check VULCAN-12's FQ4 margin as FY − 9M | VULCAN |
-| ~2026-10-09 | TSMC September 6-K (**registered 9/29 — it had no register row**; 10/10 is a Sat + Taiwan holiday, watch from 10/08) | VULCAN · ZHAO, HAWK |
+| ~~~2026-10-09~~ | **SWEPT 10/08:** TSMC September 6-K, cum +41.1% | VULCAN · ZHAO, HAWK |
 | ~2026-10-12 | PJM IRAS at FERC (ER26-3515-000) | WATT · VULCAN |
 | ~2026-10-28 | **Hyperscaler Q3 cluster = the LIVE flip** (`EXIT_PROTOCOL.md` §4b; dates TBC) + the next kill-rail rewrite + PROME's disinflationary-productivity falsifier | VULCAN · VIOLET, HENRY, PROME |
 | 2026-10-19 | ZHAO re-check: BIS Entity List + whether the BIS/MOFCOM 11/10 instruments moved | ZHAO · VULCAN, HAWK |
-| **2026-11-10** | BIS Affiliates Rule re-add · MOFCOM No. 70 expiry. **Two rows, two capitals, do not merge** | VULCAN · ZHAO, HAWK |
+| 2026-11-09 | 🆕 CFTC review deadline for CME's GPU1/GPU2 (NYMEX 26-370) — approve / disapprove / extend; a §7a re-decide registers only on an ANNOUNCED first trade date | VULCAN · WATT, DEWEY, PROME |
+| **2026-11-10** | BIS Affiliates Rule re-add · MOFCOM No. 70 expiry · TSMC October 6-K. **Two rows, two capitals, do not merge** | VULCAN · ZHAO, HAWK |
 | ~2026-11-15 | VULCAN-13 · VULCAN-15 · FERC abeyance window / kill-rail hard backstop | VULCAN · WATT |
 | ~2026-11-19 | NVDA Q3 FY27 10-Q = `VULCAN-17` reading 1 (+ DOCKET L322 T1–T6) | VULCAN · PROME, HENRY, LIQUID, BROCK, VIOLET |
 | ~2026-12-15 | ORCL Q2 FY27 10-Q = thesis-kill leg 4 reading 1 (not-commenced leases vs $288B) + the $3.3B lessor guarantee (no 8-K through 9/30) | VULCAN · LIQUID, BROCK |
 | 2027-02-15 | VULCAN-08 (useful-life re-test) · VULCAN-10 (2027 capex decel) | VULCAN · VIOLET, HENRY |
 | 2027-03-31 | Thesis-kill **leg 4** graded (financing structure de-risks?) | VULCAN · PROME |
-| *no clock* | SB Energy S-1 (withdrawn = PULLED) · Jupiter post-notice loan price · OpenAI contract deferral at ORCL/CRWV/MSFT (the pause itself landed 9/25) · Xcel/SPS TX tariff (rating clause + approval) | VULCAN |
+| *no clock* | SB Energy S-1 (withdrawn = PULLED) · Jupiter post-notice loan price (~84c per a commentator 10/02, unverified) · Meta '$628B' off-BS claim (read at the Q3 10-Q) · OpenAI contract deferral at ORCL/CRWV/MSFT (the pause itself landed 9/25) · Xcel/SPS TX tariff (rating clause + approval) | VULCAN |
