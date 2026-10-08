@@ -1,14 +1,17 @@
 # BRENT — NEXUS Brief
 
-> **October7 catch-up delivery 2026-10-07 18:04 ET — C6(b) SCOPED-PARTIAL; STATUS commit `88364423e`.** Re-verified: October/September STEO primary PDFs, WPSR week10/2 API/XLS, dated Baltic/Gibson, FRED spot10/6 and retail10/5, GIE gasday10/6 publisher-estimated, named Oct5–7 crack windows, October7 holdings and WQ386 ruling, WALTER003/004/014/015. NOT re-verified: official settlements, USO current weights, comparable live insurance, raw COT/rig/JWC/new incident loss, older SENDING/WAITING rows. Eight historical STANDING-row reconciliation stamps predate the STEO grade; calendar generator flags this advisory, not a wrong figure. No all-file freshness claim. [Evidence](research/2026-10-07_news-catchup/REPORT.md), [handoff](SCRATCH.md). Publication/consumption/explicit closeout separate.
+**Status:** 🟠 Weaker crude-spike case; product tightness persists. Phase 2 unconfirmed; stand-down maintained.
+**Domain:** Oil/energy physical balance, structure and transmission.
+**As of:** 2026-10-07 20:45 ET | STATUS commit `13516563b`. Final closeout fold; source/holding clocks unchanged. Quotes retain16:15–17ET capture, not live now; holdings intraday exacttime unknown. Routine deployment deferred.
+
+> **Final closeout — C6(b) SCOPED-PARTIAL:** re-verified current STATUS/TRADE/THESIS, registered alert block against saved October7 API/XLS/FRED, closed BRT26 note, COT ledger/frozen letter, saved JWC receipt, all8 standing rows and archive bytes, docket/calendar, mail and publication/consumption evidence. NOT re-verified: fresh quotes/settlements, raw COT/rig/JWC/incident sources, current USO weights, comparable insurance, older SENDING/WAITING rows. The earlier standing-stamp advisory below is superseded by saved-record reconciliation, not a raw-source refresh. Will's explicit full-closeout ask supersedes keep-open; final owned publication/owner receipt coordinated by PROME. [Accounting](research/2026-10-07_news-catchup/CLOSEOUT.md), [handoff](SCRATCH.md).
+
+> **Historical October7 catch-up delivery 2026-10-07 18:04 ET — C6(b) SCOPED-PARTIAL; STATUS commit `88364423e`.** Re-verified: October/September STEO primary PDFs, WPSR week10/2 API/XLS, dated Baltic/Gibson, FRED spot10/6 and retail10/5, GIE gasday10/6 publisher-estimated, named Oct5–7 crack windows, October7 holdings and WQ386 ruling, WALTER003/004/014/015. NOT re-verified: official settlements, USO current weights, comparable live insurance, raw COT/rig/JWC/new incident loss, older SENDING/WAITING rows. Eight historical STANDING-row reconciliation stamps predate the STEO grade; calendar generator flags this advisory, not a wrong figure. No all-file freshness claim. [Evidence](research/2026-10-07_news-catchup/REPORT.md), [handoff](SCRATCH.md). Publication/consumption/explicit closeout separate.
 
 > **Mail-only follow-up 2026-10-07 18:27 ET:** sendercommit813ee8a05 verified; four archives/four prior receipts and unchanged payloads, live inbox empty. [Archive receipt](research/2026-10-07_news-catchup/archive-receipt.json). Market/spec/incident vintages and the C6(b) limits above unchanged; publication/consumption/explicit closeout still separately receipted.
 
-> **Documentation checkpoint 2026-10-07 20:02 ET:** catch-up through `d10bf9503` published; PROME read/acknowledged the exact report/archive receipt. Independent origin ancestry confirms the `9ed4cdb99`/`f8a60d961` publication train. [Current continuity and proof](SCRATCH.md), [findings-to-files map](research/2026-10-07_news-catchup/DOCUMENT_WRITEBACK.md). Analytical as-of and C6(b) source boundaries above unchanged; explicit closeout remains unrequested.
+> **Historical documentation checkpoint 2026-10-07 20:02 ET:** catch-up through `d10bf9503` published; PROME read/acknowledged the exact report/archive receipt. Independent origin ancestry confirms the `9ed4cdb99`/`f8a60d961` publication train. [Current continuity and proof](SCRATCH.md), [findings-to-files map](research/2026-10-07_news-catchup/DOCUMENT_WRITEBACK.md). Analytical as-of and C6(b) source boundaries above unchanged; explicit closeout remains unrequested.
 
-**Status:** 🟠 Weaker crude-spike case; product tightness persists. Phase 2 unconfirmed; stand-down maintained.
-**Domain:** Oil/energy physical balance, structure and transmission.
-**As of:** 2026-10-07 18:04 ET | STATUS commit `88364423e`. Quotes retain16:15–17ET capture, not live now; holdings intraday exacttime unknown. Current result below; older rows remain dated history. Routine deployment deferred.
 
 ## CROSS-DOMAIN
 
@@ -66,7 +69,7 @@ September 15 owner review: [incident matrix](research/2026-09-15_backlog-review/
 
 Deferred October5 WALTER005/006 interpretation **completed**; manual collection remains WALTER's10/9review, not a BRENT service. Four new October7 packets integrated and archived after sender persistence; payloads and receipt counts independently compared. Live inbox empty at archive follow-up.
 
-**October8 / next live touch:** China guidance, Treasury/IRS implementation, SPRawards. **October9 15:00 ET:** existing USOcall sell-or-roll rail (Will); **~15:30ET:** new COT as-of10/6. **October15 noonET:** BRT31 first print. **November18/19:** approved held-VLO basis review/last December observation. Existing WQ378 decision and broaderWQ252 sitting stay registered with their owners; no new unrouted proposal. Catch-up publication and PROME consumption confirmed; explicit coordinator closeout remains unrequested.
+**October8 / next live touch:** China guidance, Treasury/IRS implementation, SPRawards. **October9 15:00 ET:** existing USOcall sell-or-roll rail (Will); **~15:30ET:** new COT as-of10/6. **October15 noonET:** BRT31 first print. **November18/19:** approved held-VLO basis review/last December observation. Existing WQ378 decision and broaderWQ252 sitting stay registered with their owners; no new unrouted proposal. Catch-up publication and PROME consumption confirmed. Explicit full-closeout ask received; owned final writebacks complete, awaiting PROME publication notice and independent final owner receipt.
 
 ## WATCH (next 2–4 weeks)
 
