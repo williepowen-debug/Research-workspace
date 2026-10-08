@@ -4,6 +4,13 @@
 
 ## Top priorities
 
+**2026-10-08 12:09 ET — Thursday midday closeout:**
+- **Today, your hand (WQ-396 · WQ-397):** sell the USO Oct-9 150 call at Fidelity's bid (27 cents in the money at 11:03 am; exercising it is not fundable from the account's cash) and sell the two QQQ Oct-9 755 puts (73 cents in the money; selling after the 1 pm 30-year result is your call; never into Friday, where assignment would be about $151,000 of QQQ the account cannot carry). Tell PROME any fill so it is booked.
+- **Friday:** HANS reads last night's UK 30-year close against 6.00% (armed; the after-close quotes sat 0.2 to 0.9 basis points under); BOND's 30-year auction read runs Friday because today's window closed before 1 pm; the OZK bridge loan matures; the Friday-dated rulings (WQ-382, 381, 378, 371, 370, 347, 204, 187); the USO call's 3 pm stop if unsold.
+- **The storm:** Isaias is a hurricane with a Category 2 forecast at an Alabama/Florida landfall late Friday; AEOLUS's major-landfall trigger needs Category 3 and grades Saturday on the landfall statement; CORAL wrote the rule for Friday's Florida reading before the number exists. Published Panhandle insurer exposure is a floor (Citizens alone 8,882 policies, over $3.2B insured).
+- **Next Wednesday 10/14:** unchanged (the October-15 QQQ puts after CPI, WQ-302, WQ-357 path C, the WQ-360 card lapsing at 3 pm) plus WQ-394, the NEXUS seat verdict, which now carries CATO's census limit: the '1 of 370' counts classified rows, not distinct decisions.
+*(Reconciled 2026-10-08 12:09 ET at the `prome-fc` Standard closeout on the laptop, against `WILL_QUEUE.md` § OPEN, `DOCKET.tsv`, the 10/7 intraday capture and HEARTBEAT amendment #2; the blocks below are earlier and stay as dated history.)*
+
 **2026-10-07 22:53 ET — Wednesday evening, after the laptop closeout:**
 - **Friday, your hand:** the two QQQ 755 puts (TERRY leans sell at Fidelity's bid 9:45–10:30 am, proposed times, no roll; Thursday after the 1 pm 30-year auction is as good) and the USO 150 call at its 3:00 pm stop (exercise is not fundable from the account's cash). Your Fidelity Activity view for 9/29–10/7 books the old QQQ exits and the five new entries (WQ-347); the new WAL 65 and OZK 40 puts have no card, and if bought 10/7 that was a red day for both names (TERRY's rule to read).
 - **Thursday, on your word (23:20 pm, WQ-389): all eight due desks wake at boot** (VULCAN, NEXUS, LABOR, BROCK, DAEDALUS, HENRY, OSPREY, LIQUID), after the host check; ORACLE waits for Friday. Nothing else needs your word Thursday: weekly claims 8:30 am, the 30-year auction 1 pm, the mortgage-rate print, the CRMT bridge date in the evening filings. The 10/7 credit cells land about 10:15 am.
