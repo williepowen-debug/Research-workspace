@@ -37,3 +37,7 @@ The token form matches the receipts already on disk (`key=value; key=value; free
 **Invariants:** the boot-check rc contract (CHECK_STANDARD §9) is unchanged; nothing in `cmd_check` changes; validation happens before any file open for append, so rc 2 never leaves a partial row.
 
 **Not in scope:** path-existence checks on `--artifact` (that is D7 leg 1's job at closure time, not the writer's); backfill of the 108 existing rows (③, ruled no); the fleet announcement (PROME carries it).
+
+## Amendment after the conditions commit — 2026-10-08 15:30 EDT (from `date`)
+Building turned up one defect in the *conditions*: `path#key` was implemented with a whitespace-free key, which refused `AGENTS/SAM/STATUS.md#BOTTOM LINE`. Markdown section keys routinely contain spaces. **Amended:** the key must be non-empty and start with a non-space character, and may contain spaces (still no `;`, tab or newline, per W9). Two legs added: **W10b** (spaced key → rc 0, written verbatim) and **W7b** (`path#`, empty key → rc 2). Selftest 38/38.
+**Capable case (CHECK_STANDARD §3), watched:** the pre-change writer (HEAD `git show HEAD:scripts/corrections_boot_check.py`, loaded with ROOT set to the repo) accepts `--action APPLIED --note x` with no fields: rc 0, row written. The new writer refuses the same input: rc 2, no file created.
