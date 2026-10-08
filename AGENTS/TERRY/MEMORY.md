@@ -4,16 +4,17 @@
 Activity detail lives in commit messages, daytrading/JOURNAL.md, and `memory/auto/`.
 Keep this load-bearing: append a Durable Finding only when it survives the episode.
 
-## Current Session — 2026-10-07 Wed (PROME `prome-0e` spawn 21:40 ET; laptop; Claude Opus 5.5 via `desk`)
+## Current Session — 2026-10-08 Thu (Will's own window `terry-01`, 09:17–~12:00 ET; laptop; Claude Opus 5.5; sole TERRY writer, PROME-acked)
 
-**Delivered:** C5 sell-or-roll cards for the five new Fidelity identities (`MGMT-QQQ755P-OCT09` Fri 10/09 · `MGMT-QQQ745P-OCT15` / `MGMT-QQQ740P-OCT15` Thu 10/15 · notes `NOTE-WAL65P-DEC18` / `NOTE-OZK40P-NOV20`) · USO / TLT-exit / HBAN re-marks · WQ-357 LATER, WQ-365 LATER, WQ-366 DECLINE recorded · **WQ-386 encoded verbatim** (VLO card § 2-bis) · L589 status (not armable; lapse lean) · L590 FINAL (NONE) · D-68 verified already corrected · STATUS rotation `_2026-10-07` · inbox 7/7. **Pending:** STATUS ★ CURRENT STATE ⏰ list. **Lesson kept on the cards, not promoted:** a positions-only capture creates new identities whose entries are unrecoverable — card them as new (construction rule #20), never as continuations of the old lines.
+**Delivered (all pushed):** C5 re-mark of the two Friday lines at the open, re-pulled after a wifi outage (USO 150C ×1 + QQQ 755P ×2 → lean SELL TODAY; PROME registered WQ-396/397) · `paper_book_mark.py` fix (yearless expiry resolved against TODAY marked expired PB-0001 off the Sep-30-**2027** contract) + PB-0001 closed at expiry · SETUPS 97.8 → 63% / TRADE_BOOK 85.7 → 64% rotations, stale 004 + REFINER rows fixed · SIGNALS decay sweep (8 retired, 3 re-scoped) · CARL CRL-21 ask (due 10/15) · OZK note ← WALTER `-017` · STATUS rotation `_2026-10-08`. **Pending:** Will's two sells (fills unknown at closeout). **Own errors, corrected in place:** a hand-typed "11:1x" stamp (finding 6b); the 09:5x "roll = chase" line superseded at 11:03 when the measurement moved; a yfinance `previousClose` that was the 10/6 close, not 10/7.
 
-*Prior session (10/2, `prome-70`), one-line digest: open re-marks after payrolls; `TRY-COND-QQQ-DATED-DOWNSIDE` built (WQ-365); USO early-sell MET on the G7 release (WQ-366, later DECLINED); L590 v1.1; D-68 / D-71 records. Detail in `STATUS.md`'s demoted 10/2 block.*
+*Prior session (10/7, `prome-0e`), one-line digest: C5 cards for the five new Fidelity identities; WQ-357/365 LATER, WQ-366 DECLINE recorded; WQ-386 encoded verbatim (VLO § 2-bis); L590 FINAL (NONE). Detail in `STATUS.md`'s demoted 10/7 block.*
 
 ## Next Session
 
-1. 🔴 **Rotate `SETUPS.tsv` (97.8%) and `TRADE_BOOK.md` (85.7%) FIRST, then write** — 004's closed rows and the 10/1–10/7 cards are still missing there (INDEX carries them). `boot.py`'s read-cap block is the instrument.
-1b. **Clocks (all sell-or-roll; Will's hand):** Fri 10/09 QQQ 755P ×2 (proposed 09:45–10:30) + USO 150C 15:00 stop · Tue 10/13 C5 re-mark Oct-15 745P/740P · Wed 10/14 TLT 82P path C / HBAN 16P (WQ-302) / Oct-15 lines after CPI / WQ-360 lapses 15:00 · Thu 10/15 VLO leg A first December observation · before Mon 10/19 TRY-FIRE-002 re-lock question (CARL CRL-21) · C5 cards OZK by 11/18, WAL by 12/16, KRE 65P by 12/29.
+1. **Book Will's 10/8–10/9 fills** for USO 150C ×1 / QQQ 755P ×2 the moment they are relayed (root rule #10); if unsold, the USO Fri 15:00 stop. `[POSITION_STATE_UNKNOWN]` until then.
+1a. 🔴 **DOCKET L372** class-fix PROPOSAL (owed since 9/14) · 🔴 **`ledger_sweep.py` check A:** `COMPATIBLE {CLOSED, FIRED}` hides a ledger that never recorded a close — narrow with selftests, never widen.
+1b. **Clocks (all sell-or-roll; Will's hand):** Fri 10/9 OZK RaDD bridge outcome (OZK desk) · Tue 10/13 C5 re-mark Oct-15 745P/740P · Wed 10/14 TLT 82P path C / HBAN 16P (WQ-302) / Oct-15 lines after CPI / WQ-360 lapses 15:00 · **Thu 10/15 16:00 CARL's CRL-21 reply due**; VLO leg A first December observation · **Fri 10/16 12:00 TRY-FIRE-002 re-lock or archive** (its own 9/2 rule) · C5 cards OZK by 11/18, WAL by 12/16, KRE 65P by 12/29.
 1c. **Activity view (WQ-347):** book the Oct-02 740P ×4 / Oct-05 735P ×5 exits, the five new entries, D-71/D-72/D-73 — never infer them.
 2. Any crack/spread figure: resolve BOTH legs' `expireDate` at the pull, plus a negative control (DOCKET L384). From 10/15 leg A reads matched December (WQ-386).
 3. `research/PENDING_RISK_RULES_AMENDMENT_2026-09-14_two-pull-rule.md` — PROPOSED, not adopted. Adopt, fold, or reject.
