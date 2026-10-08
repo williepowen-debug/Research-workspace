@@ -138,7 +138,7 @@ Current **1,701,000** [w/e Sep 19]; `1,750,000 − 1,701,000 = 49,000` inside. S
 
 ### §9 GRADE — written 2026-10-08 08:3x ET (PROME-spawned session `prome-fc`, WQ-389 Tier-1 due-row wake) off the frozen card
 
-**Primary:** DOL/ETA news release 2026-10-08 08:30 ET, `dol.gov/ui/data.pdf?release=20261008` fetched 08:30:20 by bare `curl` (`file`: PDF 1.7, 484,181 B), text-extracted with pdfminer; embargo line *"8:30 A.M. (Eastern) Thursday, October 8, 2026"* checked; every figure below grepped in the extracted text (saved: `domain/sources/2026-10-08_DOL_UI_claims_release_text.txt`). FRED ICSA/CCSA had **not** updated at 08:31 (still the 10/1 vintage) — DOL primary only. KB-LAB-205.
+**Primary:** DOL/ETA news release 2026-10-08 08:30 ET, `dol.gov/ui/data.pdf?release=20261008` fetched 08:30:20 by bare `curl` (`file`: PDF 1.7, 484,181 B), text-extracted with pdfminer; embargo line *"8:30 A.M. (Eastern) Thursday, October 8, 2026"* checked; every figure below grepped in the extracted text (saved: `domain/sources/2026-10-08_DOL_UI_claims_release_text.txt`). FRED ICSA/CCSA had **not** updated at 08:31 (still the 10/1 vintage) — graded on the DOL primary only. *Receipt 08:38 ET: FRED now agrees — ICSA 197,000 (w/e Oct 3) / 199,000 (w/e Sep 26 rev); CCSA 1,716,000 (w/e Sep 26) / 1,699,000 (w/e Sep 19 rev).* KB-LAB-205.
 
 **① Three quantities regenerated on the as-published vintage BEFORE reading the level (the window DID revise — w/e Sep 26 197,000 → 199,000):**
 

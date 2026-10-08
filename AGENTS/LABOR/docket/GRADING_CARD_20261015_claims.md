@@ -23,7 +23,7 @@
 | v7 CC `<1,750,000` streak (record-only) | **4** (Sep 5 · Sep 12 · Sep 19 · Sep 26) — v7 at 2 | — | graded 10/8 |
 
 **Reconciliation (division written):** `(198,000 + 198,000 + 199,000 + 197,000) / 4 = 792,000 / 4 = 198,000` ✅ **equals the published MA exactly.**
-**Vintage note:** FRED ICSA/CCSA had not updated at 08:31 ET on 10/8 (still the 10/1 vintage) — §1 is built from the DOL primary alone. The 10/8 print revised w/e Sep 26 197,000 → **199,000** (initial) and w/e Sep 19 CC 1,701,000 → **1,699,000**. Expect `W4` (197,000) to revise at the 10/15 print.
+**Vintage note:** §1 is built from the DOL primary; FRED ICSA/CCSA, not yet updated at 08:31 ET, agreed on every §1 figure by 08:38 ET on 10/8. The 10/8 print revised w/e Sep 26 197,000 → **199,000** (initial) and w/e Sep 19 CC 1,701,000 → **1,699,000**. Expect `W4` (197,000) to revise at the 10/15 print.
 
 ---
 
