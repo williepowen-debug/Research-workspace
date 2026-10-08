@@ -56,4 +56,17 @@ Read: `design/2026-10-08_WQ399_INDEPENDENT_READ.md`, ACCEPT-WITH-RESIDUE ❌1 �
 | `--today` admitted a past review into a real file | the CLI write path ignores `--today` | (CLI; selftests pass `today` directly) |
 | Vacuous legs W1–W4, W9, W11, W14, W15 | message names the flag + "Nothing written"; each break char tested; two-token ordering (W11b); prior bytes preserved on append; bad action (W15b) | as listed |
 | Boot-check remedy printed the old command | names the WQ-399 fields per action | — |
-Selftest **51/51**. The ❌ was reproduced on `8bf9a3625` (write rc 0, boot check rc 2) and is refused on the new code (rc 2, no file). Live boot check identical to `8bf9a3625` on SAM, HAWK, PROME, DAEDALUS, WALTER and BRENT. The docs at `AGENTS/SAM/CLAUDE.md:50` and `PROME/BOOT.md:69` still show the old command; PROME's fleet announcement is the ruled carrier.
+Selftest **51/51**. The ❌ was reproduced on `8bf9a3625` (write rc 0, boot check rc 2) and is refused on the new code (rc 2, no file). ~~Live boot check identical to `8bf9a3625` on SAM, HAWK, PROME, DAEDALUS, WALTER and BRENT.~~ ⛔ Overstated, see Amendment 3: rc is identical on all six, but output is byte-identical only on DAEDALUS and WALTER; the rc 1 desks differ on their BLOCK remedy line, which is the intended change. The docs at `AGENTS/SAM/CLAUDE.md:50` and `PROME/BOOT.md:69` still show the old command; PROME's fleet announcement is the ruled carrier.
+
+## Amendment 3 — delta read and declared residue (2026-10-08 15:44 EDT, from `date`)
+Delta read `design/2026-10-08_WQ399_DELTA_READ.md`: **ACCEPT-WITH-RESIDUE ❌0 ⚠️10 ✅27**. The first read's ❌ C10 is closed in code (6/6 variants rc 2, file unchanged). Regression over 45 names: rc and stderr identical; the 26 rc 1 desks differ only on the `then receipt:` remedy line (intended). `--coverage` and `--write-compliance` are identical. The invariant "nothing in `cmd_check` changes" is **amended**: only the BLOCK remedy text changed.
+
+**No third correction pass on this file today** (two-correction stop; the parserfix 9/18 precedent). Declared residue, owner DAEDALUS, carried into the **D7 build**, which is where the tokens are first parsed:
+| Id | Residue | Why it can wait | Where it is fixed |
+|---|---|---|---|
+| N06 / F4 | `--note` can still carry a token after the first position (`; artifact=…`) or in another case (`Scope=`) | no reader parses tokens yet | **D7 parser contract: evidence tokens are read ONLY from the leading `key=value; ` run the writer emits (exact-case keys); anything after the first non-token segment is free text.** Optionally the writer also refuses a token anywhere in the note, case-insensitive, at the next touch |
+| N08 | `--review` accepts non-ASCII digits (`\d` without `re.ASCII`) | `date.fromisoformat` rejects them, so latent until D7 | next touch: `[0-9]` |
+| N02 | CONTESTED now refuses `--review` / `--validation-ref`; the Interface row said "optional tokens if given" | the ruling defines no CONTESTED fields; narrower is the safe side | **Interface row amended:** CONTESTED takes `--scope` / `--artifact` only |
+| F7 | `PROME/tools/prome_gate.py:1604` prints the field-less command | PROME's file | PROME's fleet announcement packet names it |
+| F12 / W15b | W15b cannot fail (its fields are rejected as stray first); no legs for non-UTF-8 `--note`, the CLI ignoring `--today`, lower-case `none` | code behaves correctly; test gap only | next touch: W15b with no fields, plus three legs |
+| minor | zero-width-space-only `--scope` satisfies NO-OP; the remedy's `<A>` omits CONTESTED; docstring says "CONTESTED (none new)" without the `--today` note | cosmetic | next touch |
