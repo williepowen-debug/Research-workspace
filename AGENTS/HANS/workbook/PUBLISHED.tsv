@@ -103,3 +103,4 @@ ITALY_GERMANY_10Y_SPREAD_BP	114.0	2026-10-02	CURRENT — TE-derived 4.606-3.4656
 UK_10Y_GILT_PCT	5.3786	2026-10-02	CURRENT — TE 10/02 ~flat d/d. T-06 12bp under >5.50 orange on the close. Supersedes 5.40 [10/01].	VX-HANS-3.06
 UK_30Y_GILT_PCT	5.91	2026-10-02	CURRENT — TE 10/02 (-3bp d/d close). T-13 9bp under >6.00 orange close line (headroom WIDENED from 6bp 10/01). Supersedes 5.943 [10/01].	VX-HANS-3.08
 UK_GILT_UST_10Y_SPREAD_BP	9.9	2026-10-02	CURRENT — UK 10Y 5.3786 [TE 10/02] minus US 10Y 5.28 [^TNX 10/02]; COMPRESSED 19.3bp vs 29.2 [9/18]. 10bp UNDER Yellow(20); through first band toward Orange(0). ⚠️ Cross-vendor TE+Yahoo, basis named.	VX-HANS-3.04
+FRANCE_10Y_OAT_PCT	4.90	2026-10-08	CURRENT — ideal-investisseur 10/08 (17h09 CEST); CNBC 4.8984, TE 4.8850. T-10 level leg met by 40bp. Supersedes 4.866 [10/02 TE].	VX-HANS-3.07
