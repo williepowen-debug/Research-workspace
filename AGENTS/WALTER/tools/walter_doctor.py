@@ -36,6 +36,7 @@ Checks:
   boot_protocol_xref     every [→ BP §x] pointer resolves to a real BOOT_PROTOCOL section (and back)
   status_spine_overflow  STATUS.md dated-lead count vs the ~5 cap (protocol §12 spine-trim guard)
   status_bottom_line     STATUS.md `## BOTTOM LINE` is a STANDALONE heading with a body (lost twice: deleted 7/23, ABSORBED into prose 9/3)
+  full_closeout_owed     stacked `full deferred` SESSION_LOG headers since the last full closeout (>=3 = Tier-2 owed; DAEDALUS Prose-Remedy #1, 10/8)
   restated_set_drift     prose restatements of a SET/COUNT vs canonical source (3 seeds; see docstring)
   cluster_review_overdue  days since each large cluster's last coherence review (cadence prompt)
   registered_but_unrouted agent has a REGISTRY row but zero ROUTING_TABLE presence
@@ -1638,6 +1639,34 @@ def check_status_spine_overflow():
     return [(INFO, f"STATUS.md spine at {n} lead(s) (≤{CAP})")]
 
 
+def check_full_closeout_owed():
+    """CLAUDE.md closeout tiers: a boot that finds >=3 stacked `full deferred`
+    breadcrumbs owes a Tier-2 FULL closeout. That rule lived only in prose and was
+    never counted (DAEDALUS Prose-Remedy census #1, 2026-10-08: 47 tags in
+    SESSION_LOG.md, none ever tallied). SESSION_LOG entries are PREPENDED, so walk
+    the `## ` headers newest-first, count `full deferred` headers, and stop at the
+    first full-closeout header (FULL CLOSEOUT / TIER-2 CLOSEOUT). Fails CLOSED: no
+    full-closeout header found => MED, never a quiet zero. Added 2026-10-08."""
+    text = _read(WALTER / "SESSION_LOG.md")
+    if text is None:
+        return [(MED, "SESSION_LOG.md unreadable — stacked `full deferred` count unverifiable")]
+    stacked, last_full = 0, None
+    for h in re.findall(r"^## .*$", text, flags=re.M):
+        if re.search(r"full deferred", h, flags=re.I):
+            stacked += 1
+        elif re.search(r"full closeout|tier-2 closeout", h, flags=re.I):
+            last_full = h[3:90]
+            break
+    if last_full is None:
+        return [(MED, f"no full-closeout header found in SESSION_LOG.md ({stacked} `full deferred` "
+                      f"header(s) counted) — cannot establish the stack; treat a Tier-2 as owed")]
+    if stacked >= 3:
+        return [(MED, f"{stacked} stacked `full deferred` breadcrumbs since the last full closeout "
+                      f"({last_full!r}) — Tier-2 FULL closeout owed (CLAUDE.md closeout tiers)")]
+    return [(INFO, f"{stacked} stacked `full deferred` breadcrumb(s) since the last full closeout "
+                   f"({last_full!r}) — under the >=3 trigger")]
+
+
 def _read(p: Path) -> str | None:
     try:
         return p.read_text(encoding="utf-8", errors="replace")
@@ -2858,6 +2887,7 @@ CHECKS = [
     ("dropzone_pending", check_dropzone_pending),
     ("boot_protocol_xref", check_boot_protocol_xref),
     ("status_spine_overflow", check_status_spine_overflow),
+    ("full_closeout_owed", check_full_closeout_owed),
     ("status_bottom_line", check_status_bottom_line),
     ("cluster_review_overdue", check_cluster_review_overdue),
     ("registered_but_unrouted", check_registered_but_unrouted),
