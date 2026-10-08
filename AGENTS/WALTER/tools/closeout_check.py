@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Read-only WALTER closeout check. No fetch, writes, or owner-state inference.
 
-Checks the explicit receipt in LAST_COMPLETION and duplicate status claims.
+Checks the explicit receipt in LAST_COMPLETION and duplicate status claims, and
+runs the WQ-393 R1 write-compliance check (scripts/corrections_boot_check.py).
 A pass is scoped to these checks and the local origin ref, not arbitrary prose,
 remote freshness, semantic owner integration, or all obligations being complete.
 """
@@ -106,6 +107,16 @@ def inspect(repo=ROOT):
         raw = (repo/path).read_bytes()
         if hashlib.sha256(raw).hexdigest() != item['sha256']:
             problems.append(f'owner evidence changed: {path}; reassess carried obligations')
+    # WQ-393 R1 write leg (BOARD_CONSUMPTION_SPEC v0.34 §3.6 item 4; DAEDALUS packet 2026-10-08):
+    # every correction-class signal has a register row targeting the corrected AND correcting recipients.
+    # rc 1 = owed/short -> REVIEW; rc 2 or anything else = cannot evaluate -> UNKNOWN, never a pass.
+    r1 = subprocess.run(['python3', 'scripts/corrections_boot_check.py', '--write-compliance'],
+                        cwd=repo, capture_output=True, text=True)
+    if r1.returncode == 1:
+        problems.append('R1 write compliance OWED: ' + ' | '.join(
+            l.strip() for l in r1.stdout.splitlines() if l.strip())[:600])
+    elif r1.returncode != 0:
+        raise ValueError(f'R1 write compliance could not evaluate (rc {r1.returncode})')
     return problems, {'as_of':receipt['as_of'],'origin_ref':origin,
                       'delivery_scope':day,'delivered':proven,'total':len(selected),
                       'next_review':receipt['next_review'],
