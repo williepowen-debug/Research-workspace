@@ -1,52 +1,50 @@
 # Agent Profile — VULCAN
 
-**Built by:** DAEDALUS · **Body:** 2026-08-07, **refreshed 2026-09-05** · **Method:** solo read + the consumption leg verified **at each reader's own STATUS**, not by filename count
-**Staleness:** **DATED TRIGGER ADDED** (the prior body had none — it was UNEVALUABLE): refresh at the **MU FQ4 print (owner-confirmed 2026-09-30; grade 10/01)** or **21d** → checkpoint **2026-09-26**
-
-> **📈 CONFIDENCE M → H this pass.** The single named gate — *"one reader-side consumption confirmed at the reader's artifact"* — is met by **four** readers carrying VULCAN's figures as canonical in their own live state. §3.
-
-> **Correction 2026-09-08:** the September 5 reader-consumption evidence did not validate the adopted population definition. WATT and VULCAN now distinguish aggregate utility-reported forecast from firm coincident-peak contribution; neither is queue nameplate. Confidence stays H for the verified structural consumption leg, not as independent verification of market figures. Before this update: `archive/2026-09-08_INBOX_PROFILE_BEFORE_IMAGES.json` (verbatim bodies + SHA-256). Evidence and dispositions: `runs/2026-09-08_INBOX_DISPOSITIONS.md`.
+**Built by:** DAEDALUS · **Body:** 2026-08-07, refreshed 2026-09-05, **WHOLE refresh 2026-10-08** (2026-10-08 16:52 EDT from `date`; pulled forward from the owner-dated 10/12 slot, L490) · **Method:** Mode-A, three fresh Opus readers over file clusters (V1 core docs + consumption leg · V2 ledgers, docket, registry, code, guards run both directions · V3 delta since 9/05, every 9/05 claim re-graded), DAEDALUS synthesis + spot-verification. Reader slices (PAT-100 companions): `VULCAN_REFRESH_2026-10-08_READER_V{1,2,3}.md`. Prior body: `_prior/VULCAN_2026-09-05.md` (26 claims: 7 still true · 16 changed · 2 false · 1 unverifiable).
+**Staleness trigger:** refresh at the **10/28 EXIT_PROTOCOL §7 re-derivation** or **21 days (2026-10-29)**, whichever first; or at once if a kill-rail leg fires.
 
 ## 1. Identity
-**AI-capex / semiconductor / memory cycle → systemic risk** — concentration, memory, power-demand, Taiwan chokepoint. Market class, ACTIVE, L4. Divides labour with WATT by explicit agreement: **"VULCAN sizes MW, WATT prices the grid."** **Spawnable by:** PROME / Will.
+Market desk: the AI-capex / semiconductor / memory cycle as **systemic-risk transmission** through five channels S1–S5 (concentration · memory · power demand · Taiwan chokepoint · financing). Composite **14/25** (from 15 at the 10/01 MU FQ4 grade, S2 3→2), no channel fired, thesis-kill count **1 of 4** (the 4th leg, financing, was ADDED 9/29, so 1/3→1/4 is by addition, not evidence) (`STATUS.md:30,54,72`; `EXIT_PROTOCOL.md:21-26`).
 
-## 2. State
-Last session **2026-09-03** (an **amendment to its own GPU-instrument recommendation, filed *before* the Production Review** — a desk correcting itself ahead of the audit rather than at it). STATUS **122 ln**. 11.4k-line build-out: `tools/edgar_watch.py`, `mag7.py`, `scripts/catalyst_countdown.py` (the P3 consolidation donor). Kill rail LIVE at `EXIT_PROTOCOL.md:28-30`, re-read not restated.
+## 2. File anatomy — where the richness lives
+| File | Size / role |
+|---|---|
+| `THESIS.md` | 62.6 KB: stage tables + the NVDA guaranty mechanism. Richest analysis. ⚠️ `:64` contradicts `STATUS.md:75` on which S1 test is live |
+| `CLAUDE.md` | 82 KB: its FILES table (`:229-273`) works as the engineering log. ⚠️ `:259` says the GPU ledger has 0 rows (it has 10 since 10/02) |
+| `LESSONS.md` | L-01…L-42 (L-42 added 10/08: Nasdaq-100 membership had CRWV/ORCL backwards) |
+| `STATUS.md` | 106 lines, the matrix (`:20-30`) and the exit triad |
+| `EXIT_PROTOCOL.md` | the kill rail. ⚠️ header `:3` "Newest entry 10/01" while a 10/08 entry sits at `:140` (same defect VULCAN fixed 9/25) |
+| `TRADE.md` | "No book … not yet" (`:3`); unchanged since 8/27 (42 days), still says every channel = 3 |
+| `workbook/` | 10 data ledgers + SCHEMA. **No `Last real data refresh:` header and no `LEDGER_GLOB` anywhere.** `S2_SERIES.tsv` 45 days stale (8/24), unbannered, 0 of 8 scheduled readings taken |
+| `tools/` | `mag7.py`, `semi_watch.py`, `edgar_watch.py`, `gpu_panel.py`; `boot.py` at root |
 
-## 3. The Conf M→H gate — MET, at four readers' artifacts
-The gate was **one** confirmed reader-side consumption. Found four, each a reader carrying VULCAN's output in **its own STATUS as load-bearing state**, not merely a delivered packet:
+## 3. Per-dimension local representation
+- **Convergence:** 5-channel 0–5 matrix in STATUS, composite /25.
+- **Predictions:** 17 registered · 12 resolved · **5 OPEN** (08, 10, 13, 15, 17). MU FQ4 graded 10/01: 02 HIT · **11 FALSIFIED** · 12 HIT (composition disagreement recorded) · 14 HIT; the sheet was written before the print and untouched above its grades afterwards (V3, git-verified). The four graded rows are still in the live file (archive owed, self-listed).
+- **Falsification (§3b inventory, V2):** 26 surfaces: 18 CURRENT · 5 stale by own stamp · 1 unstamped · 2 spent/frozen. **S2 kill leg part 2 is unmeasurable** while `S2_SERIES` is stale.
+- **Trade:** no book; per-channel "Trigger to propose" cells exist but are 42 days stale.
+- **Signals / consumers:** WATT (55/32 GW wording current), NEXUS (14/25, 34.54% / −5.07pp current), TERRY (card L590; took the 10/08 correction). **ZHAO and VIOLET no longer credit VULCAN** (the 9/05 profile's two other proofs are gone; VIOLET now says "HENRY owns" equity concentration). **VIOLET's last absorbed VULCAN read is 9/02's "32.87% falling, breadth +5.17pp" (`board_log.tsv:96`); VULCAN now reads 34.54% and rising, breadth −5.07pp; VULCAN's 10/01 packet is unread in VIOLET's inbox** (verified).
 
-| Reader | The citation | Why it counts |
+## 4. Deviations from standard (+why)
+No two-clock ledger headers or LEDGER_GLOB (predates the convention; never adopted) · rail header kept by hand · the GPU instrument's contract tier has no public quote, so the spread it was designed for cannot be graded (built 9/06, panel frozen 9/13, first rows 10/02).
+
+## 5. DO NOT TOUCH
+The pre-committed Friday `mag7.py` cadence slots (5 of 8 on 10/09) · the GPU-panel freeze (9/13) · the MU FQ4 grading sheet above its grades section · the Will-approval language anywhere a trade path is named.
+
+## 6. Maturity snapshot (input to PR#8, 10/15; not a re-grade)
+| Leg | Evidence | Read |
 |---|---|---|
-| **WATT** | `STATUS:38` — *"**32 GW is the firm figure** (PJM's vetted system-coincident peak growth)"*; `STATUS:79` — *"🟡 **Owed to VULCAN:** the hedged-vs-floating share of neocloud load"* | Carries the seam figure **and** an open two-way obligation back |
-| **VULCAN↔WATT seam** | `VULCAN/STATUS.md` S3, corrected wording read 2026-09-08: aggregate utility-reported forecast versus firm coincident-peak contribution; historical misquote preserved in the before-images archive | A **closed, dated, verbatim-adoption** seam with an anti-averaging instruction — consumption evidence; population wording was wrong at the September 5 read and corrected September 6 |
-| **ZHAO** | `STATUS:18` — *"High-tech mfg 52.9 — held in expansion — **VULCAN's leg**"* | A named lane inside another desk's convergence grid |
-| **VIOLET** | `STATUS:94` — *"Equity concentration **(VULCAN-owned)**"* | Ownership acknowledged in a peer's live matrix |
+| L3 | matrix + exit triad + predictions resolving (12 of 17) + dated rewrite trigger (EXIT §7 ~10/28) | MET |
+| L4 (ruling A) | "No book … not yet": passes only on "signals reach a consumer" (WATT, NEXUS, TERRY verified); TRADE.md's stale "every channel = 3" is the cell a ruling-A check reads | **AT RISK at 10/15**: holds on the consumer leg, fails if TRADE is read as the surface |
+| L5 | S2 series 45 days stale; TRADE stale; an outside desk (TERRY) caught an error before VULCAN did (10/08) | NOT MET |
+| Conf | gate "one reader-side consumption confirmed at the reader's artifact": still met (3 readers) | **H holds** |
 
-Volume corroborates but does not carry the verdict: 8 VULCAN artifacts in WATT's `processed/`, 7 VIOLET, 4 ZHAO, 4 HENRY, 3 NEXUS.
-
-**⚠️ My prior row said the consumption legs were UNVERIFIED and that "WATT dark."** Both false now — WATT ran 9/3 and is the strongest consumer on the list.
-
-## 4. Grade — **L4, Conf M → H**
-| Leg | Verdict | Basis |
-|---|---|---|
-| L1–L2 floor | **PASS** | STATUS + BOTTOM LINE; ledgers accruing |
-| L3 convergence / exit / predictions | **PASS** | kill rail LIVE and **re-read, not restated** (the desk caught itself writing "still 1 of 3" into three commit messages without opening the file, fixed the *practice*, then re-evaluated leg-by-leg 8/24 + 8/27 ×2) |
-| L3 dated falsification surface | **PASS** | `EXIT_PROTOCOL.md:28-30`; Falsification sweep #2 graded the rail **the retrofit exemplar** |
-| L4 TRADE feeding proposals | **PASS** | `TRADE.md` present |
-| **L4 signals flowing AND consumed** | **PASS — 4 readers** | §3 |
-| L5 clean closeouts / current | **PARTIAL** | current ✅ (2d); needs a second consecutive clean cycle |
-
-**Next-upgrade line:** *L5 on two consecutive clean cycles. The consumption gate is closed; Conf is H.*
-
-## 5. Findings
-**F-1 — candidate, n=1; review 2026-09-12, not a new rule:** `STATUS:8` — *"a tripwire dated later than its event cannot catch it"* (an 8/31 tripwire against a 10-Q filed 8/26). This is a clean statement of a real class and it belongs in fleet canon. **Candidate for a PATTERNS row at my next sweep — dedup first against PAT-115** (a resolver dated to an expected event inherits its slip risk), which is the *sibling*, not the same: PAT-115 is about a resolver's date **slipping**; this one is about a tripwire dated **after** the event it watches, whose preventive function is late even though the detector can fire.
-
-**F-2 — owner confirmation consumed 2026-09-08.** S4_SERIES latest stored month is July 2026; owner confirms monthly cadence, next edition expected around September 10. STATUS-write count does not establish overdue publication. Do not freeze a monthly live ledger on that count; freshness against the next source edition remains the owner’s task.
-
-**🟢 F-3 — the profile now has a dated trigger.** The prior body had none, which made its own staleness UNEVALUABLE — a comprehension file that cannot say when it goes stale. Keyed to the MU FQ4 print (~9/30) since that is the desk's own dated rewrite trigger (owner STATUS dated rewrite trigger: 2026-09-30; the old 9/17 window is withdrawn).
-
-## 6. DO NOT TOUCH
-1. **The WATT seam figures — `~55 GW aggregate utility-reported forecast / ~32 GW firm coincident peak`. "Adopt verbatim, never net or average."** Two quantities, two meanings; averaging them destroys both. This is the seam's own instruction and it binds readers.
-2. **The kill rail is re-read, not restated** — the desk's own hard-won practice after writing rail status from memory three times. Never summarize the rail from a prior commit message.
-3. **`catalyst_countdown.py` is the P3 consolidation donor** — the fleet-wide consolidation reads from here; changing its interface is a fleet change.
+## 7. Findings and open questions (route to VULCAN unless marked)
+1. `tools/edgar_watch.py` assumes MU FY ended 8/27; it was a **53-week year ending 9/03**, so the 10-K window is computed 10/02–10/22 instead of 10/09–10/29, and from 10/23 to 10/29 an unfiled 10-K reads "not open" rather than overdue (V2 recalculated; the test suite has no 53-week case). Tomorrow's MU 10-K re-check row depends on this window.
+2. **6 named corrections unreceipted** for VULCAN (two from September); `boot.py` doesn't run the corrections check.
+3. Silent-pass guards (V2 broken-input tests, 6 of 26): impossible date passes the schema validator; the catalyst neighbour scan prints ✓ after failing to read HAWK's file, and misses a `Date`-cased header; `gpu_panel.py` accepts a 26-day-old hand price as new.
+4. Stale state in boot-read files: `CLAUDE.md:259` and `GPU_INSTRUMENT_SPEC.md:4` (0 rows vs 10); `EXIT_PROTOCOL.md:3` header; `NEXUS_BRIEF.md:64,70` standing table (VIOLET Mag-7 33.55% as of 9/1; HAWK's August TSMC figure).
+5. `semi_watch.py:200` stamps UTC, not the ET trade date; no saved row is wrong yet (all runs before 8 p.m. ET).
+6. **DAEDALUS's own:** the 10/01 PR#7 re-score was never sent to VULCAN (`STATUS.md:5` still cites 9/17); the tripwire candidate (old profile F-1) went unruled at 9/12 and PR#7.
+7. **For L628 (PROME's row):** the live register now carries 3 rows on 10/09, not 4; see `builds/summons_fix_2026-10-08/README.md` apply-time note.
+Open: does VIOLET's live concentration view depend on the 9/02 read (VIOLET's to answer)? Will ZHAO re-cite VULCAN or has ownership moved?
