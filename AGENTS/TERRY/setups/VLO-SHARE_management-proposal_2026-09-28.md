@@ -123,6 +123,19 @@
 
 ⇒ **At these levels the 10/15 switch moves leg A from ≈ $7.5 above the $95 notice line to ≈ $2.3 above it**, and ≈ $7.2 above the $90.16 exit. On 10/2's levels December would have read a NOTICE. The last owner grade under the letter remains **10/2: A NOT FIRED, no notice** (parent card § ⑫-bis); **10/5–10/7 were not graded by this desk** (no touch) and stay UNKNOWN, never back-filled.
 
+**2026-10-08 Thu touch (written 08:55 ET, `date`; PROME `prome-fc` C5 wake, laptop). Leg A under the letter, source order ① → ② → ③. `$0` · no order · no gate, level or threshold moved.**
+
+| Item | Value | Basis |
+|---|---|---|
+| ① CME settlement, 10/7 | not reachable by desk tools | — |
+| ② vendor daily row dated 10/7 | **REJECTED: duplicated volume.** `HOX26` 41,943 on both the 10/6 and 10/7 rows; `CLX26` 265,937 on both | own pull 08:54 ET 10/8 |
+| ③ 10/7 14:28–14:30 ET one-minute VWAP, ESTIMATE | **$105.79** (typical-price VWAP) · **$105.82** (close VWAP). 3 bars per leg: `HOX26` 4.62063 × 42 − `CLX26` 88.27381. BRENT's own proxy was $105.82 | own pull 08:54–08:55 ET 10/8; identity `HOX26` expires 2026-10-30, `CLX26` 2026-10-20 (`expireDate`, both legs) |
+| **Last VALID observation** | **10/7, ③ ESTIMATE ≈ $105.8: $15.6 above $90.16 and $10.8 above $95 ⇒ leg A NOT FIRED, no notice.** It is far outside the ±$0.15 UNKNOWN band | the letter, § 2-bis |
+| 10/8 intraday $109.67 (BRENT, 08:24 ET) | **DIAGNOSTIC ONLY, not graded.** It is not a settlement-window value, and BRENT produced no settlement-window proxy for that session | BRENT memo `330999913` |
+
+- **Correction to the paragraph above, which this desk wrote on 10/7:** it said 10/5–10/7 *"stay UNKNOWN, never back-filled."* That was too broad. The "never back-filled" rule forbids putting a LATER session's number in place of a missing one; it does not forbid reading a session's OWN settlement-window value at the next touch, which is how the action-timing rule works. 10/7 is now graded on its own ③ value (above). BRENT's ③ values for **10/5 $101.40 and 10/6 $102.55** exist (BRENT 10/7 catch-up report; not reproduced here) and are also far above both lines. **No exit and no notice was established on any session from 10/2 to 10/7.**
+- **Next valid observation:** any TERRY touch after 14:31 ET on a session, through 10/14 on November. The first December observation is the 10/15 settlement. No automatic monitor exists (§ 2-bis).
+
 ---
 
 ## 3. FORM B — POLICY/EVENT-BASED: the US diesel export-restriction path
