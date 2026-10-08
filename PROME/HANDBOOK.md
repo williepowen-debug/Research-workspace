@@ -4,6 +4,13 @@
 
 ## Top priorities
 
+**2026-10-07 22:53 ET — Wednesday evening, after the laptop closeout:**
+- **Friday, your hand:** the two QQQ 755 puts (TERRY leans sell at Fidelity's bid 9:45–10:30 am, proposed times, no roll; Thursday after the 1 pm 30-year auction is as good) and the USO 150 call at its 3:00 pm stop (exercise is not fundable from the account's cash). Your Fidelity Activity view for 9/29–10/7 books the old QQQ exits and the five new entries (WQ-347); the new WAL 65 and OZK 40 puts have no card, and if bought 10/7 that was a red day for both names (TERRY's rule to read).
+- **Thursday, nothing needs your word:** weekly claims 8:30 am, the 30-year auction 1 pm, the mortgage-rate print, the CRMT bridge date in the evening filings. The 10/7 credit cells land about 10:15 am.
+- **Next Wednesday 10/14:** the October-15 QQQ puts (sell after the CPI open, TERRY's lean), the TLT 82 put and the HBAN 16 puts (WQ-302), BOND's exit recommendation on the duration shorts (WQ-357; your LATER ruling is path C, hold to 10/14), and the TLT December put card lapses at 3 pm (WQ-360). The QQQ December spread card lapses Friday 10/16 (WQ-365, cannot arm).
+- **Still yours by 10/9:** WQ-382 (the Deck's reference page: refresh at ~100,000 tokens a time, or on your word only), WQ-378, WQ-381, WQ-371, WQ-370, WQ-204, WQ-187. New, by 10/17: WQ-388 (may WALTER start a sweep on its own schedule? PROME says not now).
+*(Reconciled 2026-10-07 22:53 ET at the `prome-0e` Standard closeout on the laptop, against `WILL_QUEUE.md` § OPEN, `DOCKET.tsv`, the 10/7 intraday capture and the rebuilt HEARTBEAT; the blocks below are earlier and stay as dated history.)*
+
 **2026-10-07 — resume after crash recovery:** use [SCRATCH’s operator card](SCRATCH.md#operator-card), the generated clock and pending-decision list. [Recovery closeout](reports/2026-10-07_crash-recovery.md) records three completed owner sessions and their remaining source gaps. The October 7 holdings capture supersedes older holdings snapshots; missing positions are not evidence of a fill. Due NEXUS review and FLG intake maintenance remain unfinished in DOCKET. All earlier blocks below are dated history.
 
 *(Reconciled 2026-10-04 14:25 ET at the `prome-ed` Sunday-afternoon Standard closeout on the desktop, against `WILL_QUEUE.md` § OPEN, `DOCKET.tsv` and the 10/1 post-close mirror; the blocks below it are earlier and stay as dated history.)*
