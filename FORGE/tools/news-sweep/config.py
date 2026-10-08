@@ -37,12 +37,13 @@ GOOGLE_NEWS_QUERIES = [
     # ACCEPTED 9/24 (lane read-only to WALTER; PROME encodes), PROME-landed 2026-09-24 14:4x ET.
     # Action = FLG; info-cc REGINALD/HOMER is WALTER's routing, not a delivery target here.
     # EXPIRY 2026-10-07 or a merits ruling, whichever first (DOCKET row) -> drop to routine or retire.
+    # 2026-10-08 (PROME, DOCKET L467 letter): no merits ruling by 10/07 -> priority high->low (the config's routine token); RETIRE at the next PROME config touch after FLG reports the ruling.
     # Best-effort read, not a detector (FLG's own stated limit): a stay/injunction/annulment that never
     # reaches Google News is not caught; FLG's T-12 row carries that gap.
     {
         "query": '"Rent Guidelines Board" OR "Kenilworth Holdings" OR "rent freeze lawsuit" OR "rent freeze injunction" OR "rent freeze ruling" OR "rent freeze court"',
         "agents": ["FLG"],
-        "priority": "high",
+        "priority": "low",
         "label": "flg-rent-freeze-litigation",
     },
     # BROCK domain — private credit / BDC / insurance
