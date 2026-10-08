@@ -3,7 +3,7 @@
 **Date:** 2026-10-07 Wed, written from 21:58 ET (`date` 21:58:33; live reads 21:44–21:56 ET below, all after the 16:00 close). **Session:** PROME `prome-0e` spawn (Tier 1, C5 commission: every option line Will holds gets a sell-or-roll card at least two sessions before expiry; WQ-347 / DOCKET L614). Model: Claude Opus 5.5 (`desk` agent definition).
 **Id:** `MGMT-QQQ755P-OCT09` (management card on a line Will opened by his own hand; no SETUPS row, by convention for management cards; registered in `setups/INDEX.md`). ⛔ **A new identity.** It does not continue `MGMT-QQQ740P-OCT02` or `MGMT-QQQ735P-OCT05`; how those left the account is UNKNOWN (no Activity view).
 **Thesis owner:** Will (no agent thesis on file; off-thesis class).
-**Terry verdict:** 🔴 **SELL-OR-ROLL BEFORE FRIDAY'S CLOSE. Desk lean: SELL both at Fidelity's bid on Fri 10/09 between 09:45 and 10:30 ET, and no later than 12:00 ET. No roll.** Holding to Friday's close is BAD STRUCTURE: worthless above $755, and below $755 an exercise into a 200-share QQQ short (≈ $151,000) sitting in the IRA over a weekend. **The times above are a PROPOSAL for Will to adopt or change. Nothing registers them as a deadline until he does.**
+**Terry verdict:** 🔴 **SELL-OR-ROLL BEFORE FRIDAY'S CLOSE. Desk lean (REVISED 2026-10-08 09:5x ET, § 8): SELL both at Fidelity's bid TODAY, the earlier the cheaper; holding for the 13:00 30-year auction is Will's call (then 14:00–15:30 ET). Do not carry into Friday. No roll.** *(was: ~~SELL both at Fidelity's bid on Fri 10/09 between 09:45 and 10:30 ET, and no later than 12:00 ET~~ — superseded because the put went in the money and into profit with no harvest rule on file; § 8.)* Holding to Friday's close is BAD STRUCTURE: worthless above $755, and below $755 an exercise into a 200-share QQQ short (≈ $151,000) sitting in the IRA over a weekend. **The times above are a PROPOSAL for Will to adopt or change. Nothing registers them as a deadline until he does.**
 **Confidence in the read:** Medium. Every option figure is a vendor screening mark taken after the close; Fidelity's chain at the open governs.
 **`$0` MOVED · NO ORDER · NO NEW TRADE PROPOSED · NO GATE OR THRESHOLD MOVED.** The order is Will's (root rule #5).
 
@@ -80,7 +80,55 @@
 
 ## Decision
 
-> **For Will:** sell the QQQ $755P Oct-09 ×2 at Fidelity's bid **Fri 10/09, 09:45–10:30 ET, no later than 12:00 ET** (desk lean; Thursday 14:00–15:30 ET, after the 30-year auction result, is an equally good form), or **Thursday morning** if you no longer want Thursday's session (holding it costs ≈ $160 for the two at an unchanged QQQ). **No roll is the desk's lean**; if you roll anyway, roll **one** to the **755P Oct-16** as one net-debit order at no more than **$4.85/ct**, on a green QQQ session, and sell the other.
+> **For Will (REVISED 2026-10-08, § 8):** sell the QQQ $755P Oct-09 ×2 at Fidelity's bid **TODAY** — now is the desk lean (11:03 screening bid **2.42–2.57** ⇒ ≈ **$482.70–$512.70 net, +$5 to +$35** vs $477.33; it was +$181.37 at 09:3x — **the profit went in an hour**, which is why the line needs a harvest rule it does not have); **14:00–15:30 ET after the 13:00 30-year auction result** if you want that session (≈ $70–90 of decay for the two at an unchanged QQQ, against a ≈ ±$335 one-sd swing). **Do not carry it into Friday:** it is in the money, and a slipped sale lands on the ≈ $151,000 assignment branch. **No roll is the desk's lean**; if you roll anyway, roll **one** to the **755P Oct-16** as one net-debit order at no more than **$4.85/ct** on a **green** QQQ session (today is red), and sell the other. *(was: ~~Fri 10/09, 09:45–10:30 ET, no later than 12:00 ET~~.)*
 > ⚠️ Every quote here is a vendor mark taken after the close; Fidelity's chain at the open governs. Holding to the close risks an assignment into a ≈ $151,000 short the IRA cannot carry.
+
+**APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**
+
+---
+
+## 8. ADDENDUM 2026-10-08 Thu, written 09:54 ET (`date` 09:54:30) — C5 re-mark at the open (Will's direct session `terry-01`, sole TERRY writer, PROME-acked; completes the 09:00 pre-open memo's §0 checklist)
+
+**`$0` MOVED · NO ORDER · NO GATE OR THRESHOLD MOVED.** Every option figure is a vendor SCREENING mark (durable finding 5b): pulled **09:52:37 ET**, but the quotes' last trades are **09:34–09:37**, so they are ≈ 15 min old against the spot. **Fidelity's live bid governs.** Local clock checked against two external HTTP `Date` headers at 09:52:56 ET — agreement to the second.
+
+| Item | Value | Basis |
+|---|---|---|
+| QQQ | **$753.57** (09:52 ET) vs $757.73 [10/7c] = **−0.55%, RED** ⇒ the 755P is **$1.43 IN the money** | yfinance `fast_info` |
+| 755P Oct-09 | **3.30 / 3.31**, last 3.34, IV 11.1%, OI 4,246, vol 1,713 | `chain_fetch.fetch_chain`, last trade 09:36 |
+| Intrinsic / time value | $1.43 / **$1.87** per contract | arithmetic at the screening bid |
+| ×2 at the bid, after $1.30 fees | **≈ $658.70 ⇒ +$181.37 (+38.0%) vs $477.33** (INFERRED, not a fill) | arithmetic |
+| ≥ $4.78 harvest suggestion (10/7, never adopted) | **NOT reached** — needs QQQ ≈ $751 or lower with today's time value | card § 7 |
+| 755P Oct-16 (roll leg) | 7.39 / 7.48, OI 9,671 ⇒ roll ≈ **$4.18/ct** (7.48 − 3.30) ⇒ ×1 ≈ $419.30 incl. fees (inside $500) · ×2 ≈ $838.60 (fails the cap) | screening |
+
+**What waiting costs, at an unchanged QQQ** (MODEL, Black–Scholes calibrated to the 3.305 mid at 10.0%, trading-hour clock; shape, not price — the spot and the quote are ≈ 15 min apart):
+
+| When | One put ≈ | Two ≈ (gross) |
+|---|---|---|
+| Now (screening bid) | $3.30 | $660 |
+| Thu 13:15, after the auction result | $2.94 | $588 |
+| Thu 14:30 | $2.80 | $560 |
+| Fri 10:00 | $2.55 | $510 |
+| Fri 15:00 | $1.65 | $330 |
+
+- One-sd QQQ move to Thu 14:30 at that vol ≈ **±$3.90** (≈ ±$470 on the pair at the put's delta); model chance of finishing below $755 ≈ **59%**.
+- **Why the lean moved from "today after the auction" to "now":** the line is **in profit (+38%) and no harvest rule exists on it** — durable finding 9's exact gap (every profit zone needs its own harvest rule; the card's management was keyed to dates, not to P/L). Holding to 14:30 pays ≈ $100 of decay for a coin-flip-sized session swing, and **no agent thesis stands behind the put** (thesis owner: Will). The auction is a real dated event; holding for it is **Will's view to state, not the desk's**, and 14:00–15:30 remains a legitimate form.
+- **Do not carry it into Friday:** in the money at Friday's close ⇒ exercise into a 200-share QQQ short (≈ $151,000) the IRA cannot carry (§ 4; D-60 UNOBSERVED).
+- **Root rule #6:** the sale is an EXIT; the rule governs buys. A red QQQ day is the favourable colour to SELL a put. A roll's buy leg today would be a **wrong-colour put buy** (QQQ red) with no refuting measurement on file ⇒ not a break.
+- **Roll: NONE** — no agent thesis, no fired trigger (durable finding 1); WQ-365 still NOT ARMABLE (HY OAS **303** [10/6], FRED own pull 09:23 ET; the 10/7 cell unpublished).
+
+**APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**
+
+### § 8-bis RE-PULL 2026-10-08 11:03 ET (`date` 11:02:58; external `Date` 15:02:56 GMT agrees) — after a wifi outage; § 8's 09:52 marks are a dated record, NOT current
+
+| Item | 11:03 value | vs 09:52 |
+|---|---|---|
+| QQQ | **$754.27 (−0.46% vs $757.73 [10/7c]), RED ⇒ $0.73 in the money** | was $753.57, $1.43 ITM |
+| 755P Oct-09 | **2.42 / 2.43** (scan 11:03:03, last trade 10:47) and **2.57 / 2.59** (`chain_fetch.py --no-cache --legs 755`, seconds later: ✓ usable, rc 0; `DIRINC` advisory fired — the vendor quote is lagging the spot) ⇒ quoted as a RANGE | was 3.30 / 3.31 |
+| ×2 at the bid, after $1.30 | **≈ $482.70–$512.70 ⇒ +$5.37 to +$35.37 vs $477.33** (INFERRED) | was +$181.37 |
+| 755P Oct-16 (roll leg) | 6.69 / 6.70 ⇒ roll ≈ **$4.13–4.28/ct** (×1 inside $500, ×2 fails) | was $4.18 |
+
+- **Model** (calibrated to the 2.425 mid at 8.5%; shape, not price): at an unchanged QQQ one put ≈ $2.21 at 13:15, **$2.09 at 14:30**, $1.87 at Fri 10:00, $1.05 at Fri 15:00. One-sd QQQ move to 14:30 ≈ **±$3.05** ⇒ ≈ **±$335** on the pair (delta ≈ −0.55). Chance of finishing below $755 ≈ **56%** ⇒ the Friday assignment branch is better than even if the sale slips.
+- **Lean CONFIRMED: SELL both TODAY, now preferred; after the auction result (14:00–15:30) is Will's call.** ★ **Durable finding 9 measured in one hour:** at 09:3x the line was +$181 in profit with no rule that would take it; by 11:03 it was ≈ breakeven. That is the cost of a profit zone without a harvest rule — recorded as a datum, not a grade of Will's hand.
+- **Roll: NONE** (unchanged — no agent thesis, no fired trigger; a put buy on a red QQQ day is wrong-colour with no refuting measurement on file). `[POSITION_STATE_UNKNOWN]` for today: if Will has already acted, his fill governs and gets recorded (root rule #10).
 
 **APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**

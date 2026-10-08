@@ -3,6 +3,7 @@
 **Date:** 2026-10-01 Thu, written 11:11 ET (live reads `date` 11:09:14–11:09:58). **Spawn:** PROME `prome-2a`, Tier 1 (packet `inbox/processed/2026-09-30_from-PROME_sep30-lines-were-ROLLED-not-expired_fills-and-card-asks.md`, ask 3).
 **Ids:** `MGMT-USO150C-OCT09` · `MGMT-KRE65P-DEC31` (management notes; no SETUPS rows).
 **Terry verdict:** 🟡 **RECORDED — Will's own hand (root rule #5); sell-or-roll rails set, no action owed today.** These notes record the lines and their rails; they do not re-litigate the rolls.
+**⏩ CURRENT for `MGMT-USO150C-OCT09` (2026-10-08 09:5x ET): desk lean SELL TODAY at Fidelity's bid — the move Will held for has arrived (USO $150.27, +4.42%, 11:03 — now IN the money; Friday exercise UNFUNDABLE and ≈ 53% likely if held). The Fri 10/09 15:00 ET stop is the fallback. No roll. Figures: ADDENDUM 2026-10-08 at the foot.** *(The "no action owed today" above is dated 10/1.)*
 **`$0` MOVED · NO ORDER · NO NEW TRADE PROPOSED · NO GATE OR THRESHOLD MOVED.** Cents from `FORGE/STATUS.md` (ANVIL `33bc8c293`); option quotes are vendor SCREENING marks — the live bid is Fidelity's (`RISK_RULES.md` durable finding 5b).
 
 ---
@@ -205,3 +206,59 @@ That makes the call a cheap, five-session option on the "no decision" outcome. I
 **`MGMT-KRE65P-DEC31` (§ B), capture marks only, not re-read:** ×2 last $1.41 ⇒ $282.00 (−$55.33); KRE $68.89 close (−1.68%). Stop Thu 12/31 15:00 ET unchanged; C5 card due by Tue 12/29.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution** (no new action is proposed; the 15:00 ET Friday sale is his order).
+
+## ADDENDUM 2026-10-08 Thu, written 09:5x ET (`date` 09:54:30): `MGMT-USO150C-OCT09` ×1 re-marked at the open — lean SELL TODAY (C5; Will's direct session `terry-01`, sole TERRY writer, PROME-acked; completes the 09:00 pre-open memo's §0). The text above stands as written
+
+**`$0` MOVED · NO ORDER · NO GATE OR THRESHOLD MOVED.** Vendor SCREENING marks (durable finding 5b): pulled **09:52:37 ET**, quotes' last trades **09:30–09:37** ⇒ ≈ 15 min old against the spot. **Fidelity's live bid governs.** Clock checked against two external HTTP `Date` headers 09:52:56 ET (agree to the second).
+
+| Item | Value | Basis |
+|---|---|---|
+| USO | **$148.82** (09:52 ET) vs $143.91 [10/7c] = **+3.41%, GREEN** ⇒ **$1.18 below the strike** (pre-market $148.20 at 09:19, $149.46 at 08:51) | yfinance |
+| Crude | `CLX26` $92.21 · `BZZ26` $104.49 (09:09 ET, single-vendor quotes, NOT settles); driver per BRENT 10/8: Hormuz leads, Isaias transient absent damage; **not an event-class arm, WQ-192 holds** | yfinance; BRENT memo `330999913` |
+| 150C Oct-09 | **1.14 / 1.24**, last 1.21, IV 39.8%, OI 2,362, vol 187 (was 0.35 / 0.43 at the 10/7 close) | `chain_fetch.fetch_chain`, last trade 09:35 |
+| Intrinsic / time value | **$0 / $1.14** — the whole bid is time value | arithmetic |
+| ×1 at the bid, after $0.65 | **≈ $113.35 ⇒ −$186.31 vs $299.66** (INFERRED, not a fill) | arithmetic |
+| 150C Oct-16 (roll leg) | 3.30 / 3.50, OI 6,467 ⇒ roll ≈ **$2.36/ct** (3.50 − 1.14) ≈ $237 incl. fees | screening |
+| Oct-16 strike with ask ≤ the Oct-09 bid | **160C ask 0.90** (155C ask 1.75 does not qualify) ⇒ a strike change = a **NEW DEPLOYMENT** under construction rule #21, needs its own trigger | screening |
+
+**Sell today vs the Fri 15:00 stop** (MODEL, Black–Scholes calibrated to the 1.19 mid at 32.1% on a trading-hour clock; shape, not price; spot and quote ≈ 15 min apart):
+
+| At an unchanged USO ($148.82) | 150C ≈ |
+|---|---|
+| Now (screening bid) | $1.14 |
+| Thu 14:30 | $0.84 |
+| Fri 10:00 | $0.67 |
+| **Fri 15:00 (the stop)** | **$0.10** |
+
+| USO at Fri 15:00 | $148.00 | $149.50 | $150.00 | $151.00 | **$151.14** | $152.00 | $153.00 |
+|---|---|---|---|---|---|---|---|
+| 150C ≈ | 0.02 | 0.27 | 0.48 | 1.14 | **1.25** | 2.03 | 3.01 |
+
+- **Holding to the stop beats selling now only if USO is at or above ≈ $151.1 at Fri 15:00 (+1.6% from here).** At an unchanged USO the stop forfeits ≈ **$104** of today's bid. Model chance of finishing above $150 ≈ 39%.
+- **Hurricane Isaias landfall is forecast late Fri 10/9–early Sat 10/10 — AFTER this call's last trading minute.** The call cannot hold that event; only the shares and the VLO share carry it.
+- **What WQ-366's DECLINE fixed (10/3 21:10 ET, verbatim "I dont think I sell yet. The news in Saudi arabia continues to get worse"):** it declined the 10/2 SELL-TODAY lean and HELD the call; the Fri 15:00 stop stands "unless Will says otherwise" (L605). **A Thursday sale is outside the DECLINE's content** — it neither forbids nor authorizes one; it is a new Will decision on new facts. **The reason Will held — worsening Mideast news — is the move that came overnight** (WALTER `-014`: tanker strikes spread to the central Gulf, casualties off Qatar; CENTCOM preparation reported, no decision).
+- ⛔ **Exercise stays UNFUNDABLE:** a Friday close above $150.00 ⇒ the IRA buys 100 USO = $15,000 against ≈ $11,421 cash net of pending [10/7 capture]. **The sale is the plan; exercise is not.**
+- **Root rule #6:** the sale is an EXIT — the rule governs buys and does not bind it; a green USO day is the favourable colour to SELL a call. **A roll's call buy today is wrong-colour (USO green), and the refuting measurement does not exist:** the Oct-16 150C's implied vol at the ask is **40.2% at USO $148.82 / 43.1% at $148.20** (trading-day convention) against the **42.6%** 10/7 red-day bar (reproduced exactly) — it straddles the bar inside the quote-age noise, so it does not refute the proxy ⇒ a roll today would be a chase, not a break. **⚠️ SUPERSEDED 11:03 ET — at the re-pull the same leg reads 34.9–37.4% (below the bar beyond the noise); see RE-PULL below.**
+- **Roll: NONE** — no fired trigger (BRENT 10/8: not a new event-class arm; WQ-192 holds; durable finding 1); construction rule #21(b) (near the money, 100% extrinsic, decaying) argues for closing; the oil exposure stays via the 37 USO shares and the 1 VLO share.
+
+**Desk lean: SELL the 150C ×1 TODAY at Fidelity's bid** (the sooner the less decay); the **Fri 10/09 15:00 ET stop stays the fallback.** The order is Will's (root rule #5).
+
+**APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**
+
+### RE-PULL 2026-10-08 11:03 ET (`date` 11:02:58; external `Date` 15:02:56 GMT agrees) — after a wifi outage; the 09:52 marks above are a dated record, NOT current
+
+| Item | 11:03 value | vs 09:52 |
+|---|---|---|
+| USO | **$150.27 (+4.42% vs $143.91 [10/7c]) ⇒ $0.27 IN the money** | was $148.82, $1.18 OTM |
+| 150C Oct-09 | **1.36 / 1.45**, last 1.42, vol 1,813; `chain_fetch.py --no-cache --legs 150` ⇒ ✓ usable two-sided (rc 0); last trade 10:47 (≈ 16 min old) | was 1.14 / 1.24 |
+| Intrinsic / time value | $0.27 / $1.09 | was $0 / $1.14 |
+| ×1 at the bid, after $0.65 | **≈ $135.35 ⇒ −$164.31 vs $299.66** (INFERRED) | was ≈ $113.35 |
+| 150C Oct-16 (roll leg) | 3.45 / 3.65 ⇒ roll ≈ **$2.29/ct** (≈ $230 incl. fees); strike with ask ≤ the Oct-09 bid = 160C (0.90) ⇒ NEW DEPLOYMENT | was $2.36 |
+
+- **Model** (calibrated to the 1.405 mid at 24.5%, trading-hour clock; shape, not price): at an unchanged USO the call is ≈ $1.18 at Thu 14:30, $1.04 at Fri 10:00, **$0.52 at the Fri 15:00 stop** ⇒ the stop forfeits ≈ $84. **Holding beats selling now only if USO is ≥ ≈ $151.4 at Fri 15:00 (+0.7%).**
+- ⛔ **The exercise branch is now a coin flip:** model chance of a Friday close above $150 ≈ **53%** ⇒ the IRA buys 100 USO = $15,000 against ≈ $11,421 cash — **UNFUNDABLE.** A slipped stop is no longer a small risk.
+- **Root rule #6 for a roll — the measurement now EXISTS:** Oct-16 150C implied vol at the 3.65 ask = **34.9% at USO $150.27 / 37.4% at $149.80** (trading-day convention) vs the **42.6%** 10/7 red-day bar ⇒ the structure is **cheaper** than on the clean-colour day, by more than the spot/quote-age noise. **A roll today would NOT be a chase on day-colour grounds** (it would need these figures re-taken on Fidelity's chain and written before the fill).
+- **Roll lean stays NONE — now on the trigger, not the colour:** no fired trigger (BRENT 10/8: not a new event-class arm; WQ-192 holds; durable finding 1 — fresh capital only on a fired trigger); construction rule #21(b); the oil exposure stays via 37 USO + 1 VLO. If Will wants to keep the bet over the hurricane weekend anyway, the #21 form is **Oct-16 150C ×1 as one net-debit order, ≈ $2.29/ct now, do-not-chase $2.75**, on his word — a new decision, not a desk rec.
+- **Desk lean CONFIRMED: SELL the 150C ×1 TODAY at Fidelity's bid.** The Fri 15:00 stop is the fallback. `[POSITION_STATE_UNKNOWN]` for today: if Will has already acted during the outage, his fill governs and gets recorded (root rule #10).
+
+**APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**
