@@ -2,6 +2,8 @@
 
 **Archive follow-up 2026-10-07 18:27 ET; substantive data capture unchanged. Written 2026-10-07 17:43 ET. Same owner recovered after crash; substantive catch-up saved. Explicit coordinator closeout not yet requested. Existing approvals/deployment deferrals preserved.**
 
+**Document verification 2026-10-07 20:02 ET:** October7 catch-up through `d10bf9503` published and consumed by PROME. Independently checked origin ancestry through `f8a60d961`; coordinator's fresh-fetch publication receipts and exact report/archive acknowledgment are in [recovery record](../../PROME/reports/2026-10-07_crash-recovery.md). This is a documentation checkpoint, not a new market capture or full closeout. [Findings-to-files map](research/2026-10-07_news-catchup/DOCUMENT_WRITEBACK.md).
+
 ## CHANGES SINCE LAST SESSION
 - October6 STEO and October7 WPSR now integrated; forecast cutoff and opposing crude/product evidence at [REPORT](research/2026-10-07_news-catchup/REPORT.md).
 - Deferred October5 freight interpretation completed on dated Baltic/Gibson sources; no measured freight-to-WTI beta. WALTER remains collector, BRENT interpreter.
@@ -14,14 +16,14 @@
 - Reproduced raw gasoline four-week sums and three complete named crack windows; rejected duplicated-volume daily rows. No new prediction, Phase-2 grade, threshold or trade recommendation.
 - Boot rc2 retains its original findings; subsequent EIA same-week XLS/API coverage recovered. Corrections register check passed October7; no due prediction or pending recorded execution receipt flagged by boot.
 - Full BRENT-routed October5–7 BOARD delta and whole live inbox read. WALTER003/004/014/015 integrated; four archives complete, matching existing recipient receipts. MAIL STATE carries the verification boundary.
-- Prior direct Will push: fresh-fetch retry verified HEAD/origin equal at 9e2a93285; includes October5 BRENT closeout7ba94134b. October7 delivery/publication needs its own receipt. No deployment acceptance inferred.
+- Prior direct Will push: fresh-fetch retry verified HEAD/origin equal at9e2a93285, including October5 BRENT closeout7ba94134b. October7 publication separately confirmed through9ed4cdb99 thenf8a60d961, including all four BRENT catch-up commits throughd10bf9503; PROME read/acknowledged the exact report and archive receipt. No deployment acceptance inferred.
 
 ## NEXT SESSION (dated, future-verifiable)
 1. **October8 / next live session:** China export guidance, Treasury/IRS implementation and SPR awards. Preserve UNKNOWN if no authenticated evidence; no new automatic watch.
 2. **October9 15:00 ET:** existing USO call sell-or-roll rail; Will executes, TERRY reprices broker bid/ticket. **About15:30ET:** COT as-of10/6; do not reuse old vintage. WALTER weekly Baltic/Gibson/insurance source review due10/9 after publication.
 3. **October15 noon ET:** first eligible BRT-31 release, dataweek10/9. **October24:** WQ264 shadow endpoint; resolver unregistered before completion, Texas waiver ends. **October26:** BRT30 frozen JWLA034 baseline.
 4. **November18:** WQ386 next held-share basis review; **November19 settlement** final authorized December A observation, absent further ruling. No automatic January roll.
-5. **Maintenance after current-state work:** primary review of RF013/014/022/033 and nine other stale present-tense incident rows; substantive LESSONS_INDEX/prose reconciliation. Age is not evidence of restart; no cosmetic stamps.
+5. **Maintenance after current-state work:** reconcile eight dated STANDING-row stamps against their canonical sources; current calendar check retains this advisory. Primary review of RF013/014/022/033 and nine other stale present-tense incident rows; substantive LESSONS_INDEX/prose reconciliation. Age is not evidence of restart; no cosmetic stamps.
 6. **Deferred deployment:** live routine installation, Thursday connector removal, first-normal-run acceptance at [CATO handoff](audits/2026-10-04_cato-correction/REPORT.md). Saved repair complete; working Claude controls required. No extra acceptance run or background service. Paid data still deferred.
 
 ## OPEN THREADS / WATCHES
@@ -38,7 +40,7 @@
 ## MAIL STATE
 - October5 WALTER005/006: source integration completed; prior deferred receipts retained as history, acted receipts added for this report. Files already processed; no repeat move.
 - October7 WALTER003/004/014/015: fully read/integrated, 003/004 same EIA lineage; 014 named recovery remains record-only, 015 unconfirmed. Sender persistence verified at813ee8a05; four git-mv archives match three acted plus one noted board_log receipts. Payloads match sendercommit byte-for-byte; live recursive inbox Markdown empty at2026-10-07 18:27 ET. [Receipt](research/2026-10-07_news-catchup/archive-receipt.json).
-- Outbox: no new outgoing signal packet; steady-state findings in NEXUS. One create-only completion packet to PROME per task, publication/consumption separately receipted.
+- Outbox: no new outgoing signal packet; steady-state findings in NEXUS. Original create-only completion packet remains historical; PROME's subsequent exact report/archive acknowledgment closes consumption, and the train receipts close publication throughd10bf9503.
 
 ## WORKBOOK HEALTH / CAPABILITIES
 - Boot rc2, ledger age and incident advisories remain qualified. COT8/rig/JWC prior grades not rerun. No threshold/band supersession; new observation dates do not change prior vintages.

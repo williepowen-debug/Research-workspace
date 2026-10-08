@@ -4,6 +4,8 @@
 
 > **Mail-only follow-up 2026-10-07 18:27 ET:** sendercommit813ee8a05 verified; four archives/four prior receipts and unchanged payloads, live inbox empty. [Archive receipt](research/2026-10-07_news-catchup/archive-receipt.json). Market/spec/incident vintages and the C6(b) limits above unchanged; publication/consumption/explicit closeout still separately receipted.
 
+> **Documentation checkpoint 2026-10-07 20:02 ET:** catch-up through `d10bf9503` published; PROME read/acknowledged the exact report/archive receipt. Independent origin ancestry confirms the `9ed4cdb99`/`f8a60d961` publication train. [Current continuity and proof](SCRATCH.md), [findings-to-files map](research/2026-10-07_news-catchup/DOCUMENT_WRITEBACK.md). Analytical as-of and C6(b) source boundaries above unchanged; explicit closeout remains unrequested.
+
 **Status:** 🟠 Weaker crude-spike case; product tightness persists. Phase 2 unconfirmed; stand-down maintained.
 **Domain:** Oil/energy physical balance, structure and transmission.
 **As of:** 2026-10-07 18:04 ET | STATUS commit `88364423e`. Quotes retain16:15–17ET capture, not live now; holdings intraday exacttime unknown. Current result below; older rows remain dated history. Routine deployment deferred.
@@ -64,7 +66,7 @@ September 15 owner review: [incident matrix](research/2026-09-15_backlog-review/
 
 Deferred October5 WALTER005/006 interpretation **completed**; manual collection remains WALTER's10/9review, not a BRENT service. Four new October7 packets integrated and archived after sender persistence; payloads and receipt counts independently compared. Live inbox empty at archive follow-up.
 
-**October8 / next live touch:** China guidance, Treasury/IRS implementation, SPRawards. **October9 15:00 ET:** existing USOcall sell-or-roll rail (Will); **~15:30ET:** new COT as-of10/6. **October15 noonET:** BRT31 first print. **November18/19:** approved held-VLO basis review/last December observation. Existing WQ378 decision and broaderWQ252 sitting stay registered with their owners; no new unrouted proposal. Explicit coordinator closeout and fresh-fetch publication receipt still required.
+**October8 / next live touch:** China guidance, Treasury/IRS implementation, SPRawards. **October9 15:00 ET:** existing USOcall sell-or-roll rail (Will); **~15:30ET:** new COT as-of10/6. **October15 noonET:** BRT31 first print. **November18/19:** approved held-VLO basis review/last December observation. Existing WQ378 decision and broaderWQ252 sitting stay registered with their owners; no new unrouted proposal. Catch-up publication and PROME consumption confirmed; explicit coordinator closeout remains unrequested.
 
 ## WATCH (next 2–4 weeks)
 
