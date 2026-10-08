@@ -61,7 +61,7 @@
 
 ## Current Read
 
-NYFedprimary current series break resolved dynamicallySBN2024;pulled10/5. Latestcommonas-of9/23;next9/30expected10/8,notassumedpublished. Stock score2 unchanged.
+NYFed primary, series break resolved dynamically SBN2024; pulled 10/8 16:37 ET. Latest common as-of 2026-09-30: long end $133.1B (−$7.5B w/w; 7–11Y 38.6 / 11–21Y 57.0 / >21Y 37.5); 3–6Y $52.885B (−$7.194B from the 9/23 $60.079B build, unrevised); 2–3Y $22.396B; 6–7Y $23.304B. Falling inventory with firm indirect at the 10/7–10/8 auctions = the BENIGN-distribution pattern. Next as-of 10/7 expected Thu 10/15. Stock score 2 unchanged (KB-BND-427).
 
 | Bucket ($B) |9/16|9/23|w/w|
 |---|---:|---:|---:|

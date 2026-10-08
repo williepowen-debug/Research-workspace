@@ -75,7 +75,7 @@
 
 | BOND signal | Confirmed by | Who needs it |
 |---|---|---|
-| Composition failure — **FIRED 9/23 5Y (OLD test)**; `I'` fires 9/15 · 9/23 · 9/24 · 10/6 = markers | LIQUID owns funding interpretation. Latest shared-date SOFR−IORB = 0bp [10/6], context only; the 9/23 auction funding window remains **UNGRADED** by ruling · **FR2004 3–6Y as-of 9/23 = the mechanism leg (WQ-291): ✅ MET 10/1, $60.079B vs $56.586B (`KB-BND-383`) ⇒ kill letter MET ⇒ rec via TERRY + Will** | PROME, LIQUID, TERRY |
+| Composition failure — **FIRED 9/23 5Y (OLD test)**; `I'` fires 9/15 · 9/23 · 9/24 · 10/6 = markers | LIQUID owns funding interpretation. Latest shared-date SOFR−IORB = −2bp [10/7], context only; the 9/23 auction funding window remains **UNGRADED** by ruling · **FR2004 3–6Y as-of 9/23 = the mechanism leg (WQ-291): ✅ MET 10/1, $60.079B vs $56.586B (`KB-BND-383`) ⇒ kill letter MET ⇒ rec via TERRY + Will** (corrected 2026-10-08: that window is closed and stays MET on the first-published cell; latest as-of 2026-09-30 3–6Y $52.885B, −$7.194B, not re-graded, `KB-BND-427`) | PROME, LIQUID, TERRY |
 | JGB-FX transmission | SAM (BOJ/MOF/yen) | SAM, HENRY, LIQUID |
 | Issuance freeze (dormant) | REGINALD refi burden / BROCK private marks | REGINALD, BROCK, HENRY |
 | Long-end break | HENRY vol regime + LIQUID funding | PROME, LIQUID, HENRY |

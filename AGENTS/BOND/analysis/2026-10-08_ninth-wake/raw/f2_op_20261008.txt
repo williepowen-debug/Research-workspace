@@ -1,0 +1,18 @@
+[buyback_f2] 2026-10-08 Nominal Coupons / 20Y to 30Y / Liquidity Support -> IN SCOPE
+# BOND -> RED · 2026-10-08 · F2 read, buyback op 2026-10-08 (20Y to 30Y) — OFF-THE-RUN (FT-11 v1.1 off-the-run branch ACTIVATES; the on-the-run flip did not occur)
+
+**Signal:** F2 per-op CUSIP concentration for the 2026-10-08 stepped-up long-end op: recent_share **0.00%** vs the >50% on-the-run cut ⇒ **OFF-THE-RUN (FT-11 v1.1 off-the-run branch ACTIVATES; the on-the-run flip did not occur)**.
+**Op:** 20Y to 30Y · cap $6.0B · offered $14.886B · accepted $6.000B (100.00% of cap) · 10 of 34 eligible · offer-to-cover vs cap 2.48x.
+**Metric:** recent_share = accepted par in eligible CUSIPs ORIGINALLY ISSUED ≥ 2024-05-15 (newest quartile of the eligible list by original issue date, TreasuryDirect; ranked by maturity until 2026-09-24) ÷ total accepted, exact Decimal. Companions (descriptive, never a verdict): legacy (coupon ≤2.50%) 94.70% · top-3 86.25%.
+**Top accepted CUSIPs:**
+| CUSIP | coupon | maturity | par | share |
+|---|---|---|---:|---:|
+| 912810SJ8 | 2.250 | 2049-08-15 | $2,623M | 43.72% |
+| 912810SZ2 | 2.000 | 2051-08-15 | $1,851M | 30.85% |
+| 912810SX7 | 2.375 | 2051-05-15 | $701M | 11.68% |
+| 912810SU3 | 1.875 | 2051-02-15 | $501M | 8.35% |
+| 912810SF6 | 3.000 | 2049-02-15 | $316M | 5.27% |
+**Source:** FiscalData `od/buybacks_operations` + `od/buybacks_security_details`, operation_date=2026-10-08, re-fetched cache-busted at read time (both endpoints; ops row NOT a cached capture — KB-BND-272 lesson).
+**Priority:** 🟡 · Instrument: `AGENTS/BOND/monitors/buyback_f2.py --op 2026-10-08` · ledger `AGENTS/BOND/registry/f2_reads.tsv`.
+⛔ Cut is BOND-declared (base rate 0/52), not Will-ruled; a fire is a marker, never a YCC-lite verdict.
+

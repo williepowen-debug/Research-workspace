@@ -46,3 +46,15 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-07T18:25:20.836183-04:00	SIG-W-20261002-032	PARTIAL	INBOX_WALTER	CME page loaded,embedaccesserror;vendorYE24.93bp10/7notindependentOIS/FedWatch;retained.
 2026-10-07T18:25:20.836183-04:00	SIG-W-20260928-007	CORRECTION_READ	BOARD_DIFF	AdditiveParamountfinalpricing supersession matches ownKB410;no duplicategrade.
 2026-10-07T18:25:20.836183-04:00	SIG-W-20260929-003	CORRECTION_READ	BOARD_DIFF	AdditiveParamountfinalpricing supersession matches ownKB410;no duplicategrade.
+2026-10-08T16:44:09-04:00	SIG-W-20261008-036	acted	INBOX_WALTER	30Y/buyback re-graded at primaries KB425/426/428; WALTER "2000 lacks" contradicted (5.697 2000-08-10) -> packet WALTER; tail UNVERIFIED unscoreable.
+2026-10-08T16:44:09-04:00	SIG-W-20261008-030	acted	INBOX_WALTER	Credit re-pulled FRED 10/7 KB433, PMMS at Freddie KB431; HY near-trigger is LIQUID/RED; Waller/Musalem path context only, HENRY owns.
+2026-10-08T16:44:09-04:00	SIG-W-20261008-013	acted	INBOX_WALTER	Verified Fiscal Data KB429: 2Y-3Y $1.327B/$4B max (33pct), acc/off 8.99pct 2nd lowest of 10; out of F2 scope.
+2026-10-08T16:44:09-04:00	SIG-W-20261008-005	acted	INBOX_WALTER	Gilt leg read-across REPORT s7; HANS grades T-13 close; UK Budget 10/28 noted on BOND 10/28 row; Japan labels superseded by -021.
+2026-10-08T16:44:09-04:00	SIG-W-20261008-022	acted	INBOX_WALTER	Gilt intraday through-lines vendor; US 30Y cleared +8.43pp same afternoon -> no US auction transmission; HANS grades.
+2026-10-08T16:44:09-04:00	SIG-W-20261008-032	acted	INBOX_WALTER	Gilt vendor closes under both lines; HANS close source governs; DOCKET L637 10/9.
+2026-10-08T16:44:09-04:00	SIG-W-20261008-037	acted	INBOX_WALTER	Update to -032: TE 5.9384/5.4238 post-London-close; too close on London-close basis; HANS grades.
+2026-10-08T16:44:09-04:00	SIG-W-20261008-021	noted	INBOX_WALTER	JGB labels corrected (MOF 30Y 4.168 10/6); BOND carried no Japan figure from -005; receipt COR-20261008-21 NO-OP.
+2026-10-08T16:44:09-04:00	SIG-W-20261008-011	info-only	INBOX_WALTER	CTD 6pct switch logged KB434 C3; duration figures unverified; no contract data.
+2026-10-08T16:44:09-04:00	SIG-W-20261008-034	info-only	INBOX_WALTER	Iran/oil tape; BRENT/FALCON own; yields-with-oil context only.
+2026-10-08T16:44:09-04:00	SIG-W-20261008-033	acted	INBOX_WALTER	WQ-399 receipt form adopted: 7 receipts written with required fields; charter step 7b line updated (C4 own-charter).
+2026-10-08T16:44:09-04:00	SIG-W-20261002-032	acted	INBOX_WALTER	PARTIAL (gap stated): Independent dated FedWatch/OIS never obtained; own vendor strip 10/8 YE ~+24.2bp not settlement; filed with gap stated.

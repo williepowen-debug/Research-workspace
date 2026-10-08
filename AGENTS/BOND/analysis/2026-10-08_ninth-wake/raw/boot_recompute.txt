@@ -1,0 +1,123 @@
+[boot_recompute] cache entries busted: 35
+[boot_recompute] run 2026-10-08 16:41 local
+
+== LEVELS (latest published) ==
+   DGS2               4.77   [2026-10-07]   n=12,585  span 1976-06-01→2026-10-07
+   DGS5               5.03   [2026-10-07]   n=16,177  span 1962-01-02→2026-10-07
+   DGS10              5.28   [2026-10-07]   n=16,177  span 1962-01-02→2026-10-07
+   DGS30              5.67   [2026-10-07]   n=12,407  span 1977-02-15→2026-10-07
+   DFII5              2.66   [2026-10-07]   n=5,946  span 2003-01-02→2026-10-07
+   DFII10             2.92   [2026-10-07]   n=5,946  span 2003-01-02→2026-10-07
+   T10YIE             2.36   [2026-10-07]   n=5,946  span 2003-01-02→2026-10-07
+   T5YIFR             2.35   [2026-10-07]   n=5,946  span 2003-01-02→2026-10-07
+   BAMLH0A0HYM2       3.09   [2026-10-07]   n=786  span 2023-10-09→2026-10-07
+   BAMLH0A3HYC       12.29   [2026-10-07]   n=786  span 2023-10-09→2026-10-07
+   BAMLC0A0CM         0.82   [2026-10-07]   n=785  span 2023-10-09→2026-10-07
+
+== GATE DISTANCES (the numbers that drive decisions) ==
+   DFII10     2.92 vs  2.50  TLT add-gate             🔴 BREACHED   [2026-10-07]
+   T5YIFR     2.35 vs  2.50  inflation-unanchor red      15bp away   [2026-10-07]
+   DGS30      5.67 vs  5.00  long-end level           🔴 BREACHED   [2026-10-07]
+   DGS10      5.28 vs  4.50  arm-#2 line              🔴 BREACHED   [2026-10-07]
+
+== DERIVED: 30Y regime statistics ==
+   method: DGS30 · session closes · threshold ≥5.00 · MAXIMAL run · WHOLE-SERIES scan
+   2026 days ≥5.00      : 82   (of 193 sessions)
+   current run         : 66 consecutive
+   longest run, series : 5398
+   2026 max             : ('2026-10-07', 5.67)
+   series max          : ('1981-10-26', 15.21)
+
+== DERIVED: percentiles (method: full-series rank of the latest close) ==
+   DGS30      5.67  full  52.8th (n=12,407, from 1977-02-15)   post-2010 100.0th
+   DGS10      5.28  full  49.2th (n=16,177, from 1962-01-02)   post-2010  99.9th
+   DFII10     2.92  full  99.6th (n=5,946, from 2003-01-02)   post-2010  99.9th
+
+== GATE TABLE  (TRADE.md — printed here because boot never reads that file) ==
+   | **(a) DFII10 >2.5 sustained** | 🔴 **LEVEL LEG THROUGH EVERY PUBLISHED SESSION SINCE 9/10 — live distance → `STATUS.md` gate table (posture file, no …
+   | **(b) 30Y >5.0 / 10Y >4.6 held 5 sessions + a weak auction** | 🔴 **MET 2026-09-23 — and SPENT.** The level leg has been met since July; the auction …
+   | **(c) Composition failure at the 7/28 7Y · (d) hawkish FOMC repricing 7/29** | ❌ RESOLVED, DID NOT FIRE (7/28 · 7/29). Record → archive. |
+
+   ✅ no unguarded drift on TRADE.md / monitors / NEXUS_BRIEF
+
+   🔴 FR2004 VINTAGE DRIFT — TRADE.md:78 names as-of 9/23; latest published is 2026-09-30
+      | Composition failure — **FIRED 9/23 5Y (OLD test)**; `I'` fires 9/15 · 9/23 · 9/24 · 10/6 = markers | LIQUID owns funding interpretation. Latest shar
+
+   🔴 FR2004 VINTAGE DRIFT — CATALYSTS.tsv:22 names as-of 9/23; latest published is 2026-09-30
+      recurring-Wed	FR2004 dealer positions — weekly, via `monitors/fr2004_fetch.py` (resolves the API series break at runtime; fails loud on empty/stale)	L
+
+   🔴 FR2004 VINTAGE DRIFT — THESIS.md:102 names as-of 9/23; latest published is 2026-09-30
+      - 🔴 **DEALER LEG FOR A 5Y `I'` FIRE: WQ-291, Will-ruled 2026-09-26 15:54 ET** (*"Approve the exact proposed letter as a recommendation through TERRY's
+
+   🔴 FR2004 VINTAGE DRIFT — AUCTION_HEALTH.md:10 names as-of 9/23; latest published is 2026-09-30
+      > 2. **The paired kill is NOT in this file by design — it lives at `STATUS.md` §Exit 1:** `I'` + a NON-AUCTION mechanism (WQ-157 leg ① **RULED 9/4**; 
+
+   🔴 FR2004 VINTAGE DRIFT — DEALER_CAPACITY.md:64 names as-of 9/23; latest published is 2026-09-30
+      NYFedprimary current series break resolved dynamicallySBN2024;pulled10/5. Latestcommonas-of9/23;next9/30expected10/8,notassumedpublished. Stock score2
+
+== MISSING-WATCHER CHECKS (date-gates - retirements - derived distances) ==
+
+   -- A · DATE-GATES (calendar vs a declared checkpoint) --
+      ok  (nothing DECLARED fired — not a certificate; see module docstring)
+
+   -- B · RETIRED TOKENS (a retirement has no publisher) --
+      ok  (nothing DECLARED fired — not a certificate; see module docstring)
+
+   -- C · DERIVED DISTANCES (a distance never inherits a level fix) --
+      ok  (nothing DECLARED fired — not a certificate; see module docstring)
+
+== BUYBACK F2 PER-OP CARRIER (DOCKET L401 · ledger registry/f2_reads.tsv) ==
+   window 2026-09-10 -> 2026-11-04 · scope = LS + nominal + {10Y-20Y, 20Y-30Y} · ledger registry/f2_reads.tsv
+   ✅ 2026-09-10  10Y to 20Y  PUBLISHED, read ROUTED -> RED (AGENTS/RED/inbox/processed/2026-09-10_from-BOND_F2-READ-first-long-end-buyback-op-5-187B-of-6B-cap-75pct-into-low-coupon-deep-discount-OFF-THE-RUN.md) verdict OFF-THE-RUN; recent 1.79%
+   ℹ️  2026-09-15  TIPS / 10Y to 30Y / Liquidity Support -> OUT OF SCOPE, no F2 read owed (security_type 'TIPS' (F2 reads NOMINAL long-end ops; FT-11 reads nominal benchmarks))
+   ℹ️  2026-09-17  Nominal Coupons / 7Y to 10Y / Liquidity Support -> OUT OF SCOPE, no F2 read owed (bucket '7Y to 10Y' is not a stepped-up sector (sb0607 = 10Y-20Y and 20Y-30Y only))
+   ✅ 2026-09-24  20Y to 30Y  PUBLISHED, read ROUTED -> RED (AGENTS/RED/inbox/processed/2026-09-24_from-BOND_F2-READ-20-30Y-buyback-op-4-078B-of-6B-cap-recent-share-0-02pct-OFF-THE-RUN.md) verdict OFF-THE-RUN; recent 0.02%
+   ℹ️  2026-09-29  TIPS / 1Y to 10Y / Liquidity Support -> OUT OF SCOPE, no F2 read owed (security_type 'TIPS' (F2 reads NOMINAL long-end ops; FT-11 reads nominal benchmarks))
+   ✅ 2026-10-01  10Y to 20Y  PUBLISHED, read ROUTED -> RED (AGENTS/RED/inbox/2026-10-05_from-BOND_F2-2026-10-01-off-the-run-read.md) verdict OFF-THE-RUN; recent 0.00%
+   ℹ️  2026-10-06  Nominal Coupons / 2Y to 3Y / Liquidity Support -> OUT OF SCOPE, no F2 read owed (bucket '2Y to 3Y' is not a stepped-up sector (sb0607 = 10Y-20Y and 20Y-30Y only))
+   🔴 2026-10-08  20Y to 30Y  PUBLISHED and no ledger row -> F2 READ OWED TO RED NOW. recent_share 0.00% -> OFF-THE-RUN (FT-11 v1.1 off-the-run branch ACTIVATES; the on-the-run flip did not occur).  Run: --op 2026-10-08
+   📅 2026-10-15  10Y to 20Y  >= $4 billion  SCHEDULED (issuer PDF 9/9); preliminary CUSIP list D-1 11:00 ET, op 1:40-2:00 PM ET
+   📅 2026-10-27  20Y to 30Y  >= $4 billion  SCHEDULED (issuer PDF 9/9); preliminary CUSIP list D-1 11:00 ET, op 1:40-2:00 PM ET
+   📅 2026-11-04  10Y to 20Y  >= $4 billion  SCHEDULED (issuer PDF 9/9); preliminary CUSIP list D-1 11:00 ET, op 1:40-2:00 PM ET
+   [buyback_f2] NOT A PASS -- OWED reads: 1 (route to RED before closeout) · DATA GAPS: 0 (verify at the primary). Count returned = 1.
+
+== FED PATH (CBOT fed funds futures · vendor bars, NOT settlement · HENRY owns the series, BOND consumes) ==
+   today's EVOLVING bar 2026-10-08 (session open; captured 2026-10-08 16:41 ET) — not a close; vendor bar, NOT settlement
+   anchor EFFR 3.88 [2026-10-07] · newest bar 2026-10-08 · 16 live contracts · STALE (excluded): 2028-02
+   month     implied   Δ1obs   Δ5obs   vs EFFR
+   2026-10     3.882    -0.3    -0.3     +0.2bp
+   2026-11     3.925    +0.0    -1.5     +4.5bp
+   2026-12     4.065    +0.0    -0.5    +18.5bp
+   2027-01     4.135    +1.0    +0.0    +25.5bp
+   2027-02     4.215    +1.0    +0.0    +33.5bp
+   2027-03     4.290    +1.5    +0.0    +41.0bp
+   2027-04     4.385    +1.5    +0.0    +50.5bp
+   2027-05     4.470    +1.5    +0.0    +59.0bp
+   2027-06     4.530    +0.5    -1.5    +65.0bp
+   2027-07     4.565    +0.5    -2.0    +68.5bp
+   2027-08     4.600    +0.5    -2.5    +72.0bp
+   2027-09     4.615    -0.5    -3.5    +73.5bp
+   2027-10     4.640    +0.0    -3.0    +76.0bp
+   2027-11     4.655    +0.5    -2.5    +77.5bp
+   2027-12     4.690    +4.5    +2.5    +81.0bp
+   2028-01     4.620    -3.0    -4.5    +74.0bp
+   PEAK OF AVAILABLE STRIP (2026-10→2028-01, max over live contracts): 4.690 in 2027-12 = +81.0bp vs EFFR ≈ 3.2 × 25bp; 2028-01 is -7.0bp from the peak
+   next FOMC 2026-10-28 (docket checked against the RECORDED issuer calendar): +4.5bp priced ≈ 18% of a 25bp HIKE (hold-or-+25 reading) · method next-month (2026-11 avg; no 2026-11 meeting); assumes EFFR holds at 3.88 until then
+
+== TERM PREMIUM (two MODELS — name the model in every TP claim) ==
+   ACM 10Y TP (NY Fed ACM Daily, ACMTP10) 0.9848 [2026-10-07]  Δ1obs +3.9bp  Δ5obs +10.0bp  age 1d
+   KW 10Y TP (FRED THREEFYTP10)            1.0847 [2026-10-02]  Δ1obs +2.0bp  Δ5obs +6.4bp  age 6d
+   ℹ️ ACM, KW and the FF strip cover DIFFERENT windows and horizons: co-movement is consistent with both channels, NOT a causal decomposition (CATO 9/28).
+
+== VX-BND-17 RE-ARM WATCHER (MBS relay DORMANT since 8/18; spread leg only; weekly survey − daily Treasury) ==
+   2026-09-24  PMMS 30Y 7.03 − DGS10 5.18 [2026-09-24] = 185bp  → INSIDE 180–230bp
+   2026-10-01  PMMS 30Y 7.28 − DGS10 5.24 [2026-10-01] = 204bp  → INSIDE 180–230bp
+   2026-10-08  PMMS 30Y 7.40 − DGS10 5.28 [2026-10-07] = 212bp  → INSIDE 180–230bp
+   ✅ spread leg not fired (32bp above the low edge, 18bp below the high edge).
+   ⚠️ NOT watched by this tool: the GSE-release-execution and active-Fed-MBS-sales legs of the re-arm trigger.
+
+⚠️  Paste-check these against STATUS. Any figure on a BOND surface that is NOT
+    in this block, or disagrees with it, is a CARRIED figure — recompute or drop it.
+
+[boot_recompute] rc=1 — 6 unguarded drift finding(s) on boot-unread surfaces. NOT a pass: fix by PATTERN across the tree, never by the line list above.
+rc=1

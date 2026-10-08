@@ -2,3 +2,10 @@ receipt_date	correction_id	action	note
 2026-09-10T01:45Z	COR-20260908-01	APPLIED	
 2026-09-14T17:15Z	COR-20260910-02	APPLIED	
 2026-09-28T19:22Z	COR-20260925-13	APPLIED	Late: dismissed at the 9/28 boot as not-BOND's; BOND surfaces (STATUS/TRADE/THESIS/SCRATCH) said a >300 close 'reopens' HYG sizing. Corrected 2026-09-28 15:22 ET on PROME's relay: X1 CLOSED 8/28, reopens only via BROCK 10/02 sitting. KB-BND-348.
+2026-10-08T20:44Z	COR-20260904-02	APPLIED	artifact=AGENTS/BOND/workbook/KB.tsv#KB-BND-239; validation_ref=AGENTS/BOND/workbook/KB.tsv#KB-BND-282; sign-inverted 50bp-cut relay refuted at 9/4; hike pricing adopted
+2026-10-08T20:44Z	COR-20260914-21	APPLIED	artifact=AGENTS/BOND/workbook/KB.tsv#KB-BND-295; validation_ref=NONE; six-series H.15 outage, VIXCLS live; consumed 9/17
+2026-10-08T20:44Z	COR-20261001-11	APPLIED	artifact=AGENTS/BOND/workbook/KB.tsv#KB-BND-379; validation_ref=NONE; HANS flight-to-quality correction integrated 10/1
+2026-10-08T20:44Z	COR-20261007-01	APPLIED	artifact=AGENTS/BOND/workbook/KB.tsv#KB-BND-410; validation_ref=NONE; Paramount final pricing supersession propagated 10/7 (board_log)
+2026-10-08T20:44Z	COR-20261001-06	NO-OP	scope=KB-BND-378 already carries both MOF vintages (revised -1.38T and first print -1.39T), BOND 4wk watch line unaffected; 
+2026-10-08T20:44Z	COR-20261002-29	NO-OP	scope=BOND used only the 10Y leg of -028 (KB-BND-394), oil basis is BRENT's, no BOND oil figure carried; 
+2026-10-08T20:44Z	COR-20261008-21	NO-OP	scope=BOND carried no Japan level from -005, -005 and -021 consumed together 10/8; 

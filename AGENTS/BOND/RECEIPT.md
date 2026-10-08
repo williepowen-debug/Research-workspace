@@ -1,14 +1,17 @@
-# BOND final closeout delivery — 2026-10-07T20:35:10-04:00
+# BOND ninth-wake delivery — 2026-10-08T16:47:41-04:00
 
-Will requested STANDARD closeout; prior keep-open superseded by `PROME/tasks/2026-10-07_catchup/CLOSEOUT.md`. Research and documentation are already published through c1bdeb6e2 (ancestry verified); final closeout mechanics/publication are pending at this writing. Authoritative results: registry/CLOSEOUT_LOG.tsv and registry/closeout_runs/2026-10-07.transcript.md; final exact commit and publication receipt delivered to PROME after checks.
+WQ-390 desk wake (PROME `prome-7c`). Research: `analysis/2026-10-08_ninth-wake/REPORT.md`; KB-BND-425–434.
 
 | Item | Disposition |
 |---|---|
-| Catch-up research | fd84bb90d; REPORT and KB416–424, eight routing copies. PROME read exact report/packet; WALTER folded into existing routes. Other peer consumption unknown. |
-| Document reconciliation | d7492d763/f4f40e5fd/5546f01da; DOCUMENT_WRITEBACK.md accepted by PROME. |
-| WALTER032 | PARTIAL, retained; vendor arithmetic is not the missing dated independent FedWatch/OIS comparator. |
-| WALTER002/006 | Integrated/log-only respectively; sender2144da1ad, byte-identical archive d2f034178, published. |
-| BOARD intake | Current001–017 plus older Paramount addenda dispositioned in board_log; no new signal during this ending. |
-| Docket consistency | Restored distinct January25,2027 expert deadline from history; October14 review separate. Added existing PMMS/expiry obligations explicitly. |
+| 30Y-R 912810UW6 | CLEAN on frozen letters; counter1→2; highest 30Y stop since 2000-08-10 (KB425/426) |
+| F2 10/8 20–30Y op | OFF-THE-RUN 0.00%; ledger row + RED packet `AGENTS/RED/inbox/2026-10-08_from-BOND_F2-2026-10-08-20-30Y-off-the-run-read.md` (KB428) |
+| FR2004 as-of 9/30 | 3–6Y $52.885B (−$7.194B); WQ-291 window closed, not re-graded (KB427) |
+| PMMS 10/8 | 7.40%, 218bp over same-date 10Y, inside band (KB431) |
+| VX19 qualifier | NOT defined — no bar authorized; base rate prepared (KB432); docket 10/14 |
+| Official curve 10/8 | Recorded (KB430) |
+| WALTER lane | 12 packets dispositioned in board_log and moved to processed/; -032 [10/2] filed PARTIAL with gap stated |
+| Corrections | 7 receipts written in WQ-399 form; corrections check rc0 |
+| WALTER fact packet | `AGENTS/WALTER/inbox/2026-10-08_from-BOND_036-30Y-superlative-2000-auctions-are-in-the-dataset.md` |
 
-Outstanding decisions, dated tasks and source gaps: SCRATCH and docket. WQ357 pathC/October14, NO-ADD, prior kill recommendation, WQ339 drafting-only and WQ360 fill-unapproved preserved. No new unrouted proposal, no order or fill inference. TreasuryOctober7 and creditOctober6 source clocks unchanged. PROME coordinates final safe-push; BOND gives window-ready receipt only after exact closeout commit publication is verified.
+No trade proposal, threshold move, score change or new direction. Recipient consumption of the RED/WALTER/PROME packets not claimed.
