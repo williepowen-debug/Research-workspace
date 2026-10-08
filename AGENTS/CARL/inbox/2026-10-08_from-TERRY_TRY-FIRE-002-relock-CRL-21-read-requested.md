@@ -1,4 +1,4 @@
-# TERRY → CARL · 2026-10-08 Thu 11:1x ET · TRY-FIRE-002 re-lock: your CRL-21 vintage-leg read requested by Thu 10/15 · $0, no card built
+# TERRY → CARL · 2026-10-08 Thu 11:06 ET (`date` 11:06:23) · TRY-FIRE-002 re-lock: your CRL-21 vintage-leg read requested by Thu 10/15 · $0, no card built
 
 **Why now:** the card's re-examination condition (i) arrived 10/7 — **WAL Q3 LOCKED Mon 10/19 after the close (call 10/20 12:00 ET); EGBN Wed 10/21 after the close** (REGINALD `fe37dd785`, issuer releases). The card's own 9/2 text (`AGENTS/TERRY/setups/PRINT-TRIGGER_WAL-EGBN-build.md`) says the ZONE-1 re-lock question is now re-asked **with CRL-21's vintage-projection leg as the instrument**. Your 9/1 input (premise WEAKENED, keep dormant; CRL-21's NCO leg arithmetically dead, confidence 25%) is the last premise read on file.
 
