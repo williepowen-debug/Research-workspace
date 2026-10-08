@@ -1,5 +1,6 @@
 # TERRY CALIBRATION.tsv — LIVE (not frozen). Pre-registered probability calls and their grades.
 # Last real data refresh: 2026-09-05
+# Last staleness check: 2026-10-08 (TERRY) — no new row owed: grep of setups/ + options/ files changed since 9/5 for p_forecast / CAL- / pre-registered-probability / desk-forecast phrasings = 0 hits. Card model odds (P(ITM) etc.) are model outputs, not desk forecasts, and are not rows (§5). Scope = that grep, not every surface.
 # OWNER TERRY. Spec = RISK_SCORING.md §5 (fields + Brier). Created 2026-09-05 draining DOCKET L115:
 #   the desk had TWO graded pre-registered calls and NO ledger — both sat in prose inside long files
 #   (card §11.C-RESOLVED / POSTMORTEMS.md), which is how a correct call silently becomes no call at all.

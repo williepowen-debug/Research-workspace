@@ -1,5 +1,5 @@
 # TERRY daytrading/LEDGER.tsv — day-trade review ledger. LIVE (not frozen). Subordinate to the thesis book (Will 6/27); standing loop, not trigger-gated.
-# Last real data refresh: 2026-08-03  |  Last staleness check: 2026-08-20 (TERRY)
+# Last real data refresh: 2026-08-03  |  Last staleness check: 2026-10-08 (TERRY) — still BLOCKED ON INPUT: inbox/WILL/ holds only its README. Open question to Will 2026-10-08: do the short-dated QQQ puts in the Fidelity captures (Oct-02 740P x4, Oct-05 735P x5, Oct-09 755P x2, Oct-15 745P x2 / 740P x4) belong in this loop? Reviewing them needs the Activity view (fills, times). · prior check 2026-08-20
 # BLOCKED ON INPUT, NOT ON THIS DESK: rows are cut from Will's captures dropped to inbox/WILL/. That zone has been EMPTY since 2026-06-27;
 #   the last review row is 2026-08-03. 'day-trade captures since 8/4' is already a STILL-OPEN-ON-WILL item, so the gap is the SAME gap, not a second one.
 # Not FROZEN on purpose: the loop is standing per Will and resumes the moment a capture lands. This two-clock header exists so the staleness is
