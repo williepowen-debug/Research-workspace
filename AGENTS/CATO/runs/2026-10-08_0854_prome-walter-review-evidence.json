@@ -1,0 +1,199 @@
+{
+  "as_of": "2026-10-08T12:57:11.343069+00:00",
+  "revision": "33099991361fdc34436188eb95135fcff75b7f34",
+  "late_revision": "84b1490ac",
+  "manifest": {
+    "PROME/DOCKET.tsv": "55bf229215124e4283d1bc0f5ff94fa0f1c290ac46d5ef9eec55e8e8411edfb0",
+    "PROME/GATES.tsv": "2bf28a3ed601452b65880ff9c8f144ac882dd818cd45472984928599978da48d",
+    "PROME/WILL_QUEUE.md": "d9069d95eca712d28e71c87f84c604a0348e915b98df64cfcb2c973f08094b83",
+    "PROME/state/ORCH_LOG.tsv": "f727758d7c783b0b9d21236837528ae077a54819beddfc5260dc314542886452",
+    "PROME/CLAUDE.md": "07efbb4c175965342a4fb4e47d8dbc1e9eb7cc4196926444b23452a5ddc20c6f",
+    "PROME/tasks/2026-10-08_wakes/COMMON.md": "34aa306fc2c5ec203605a5a8b6428bede5e74b5f99d18f6dd9250fa889b865a2",
+    "PROME/reports/2026-10-07_nexus-seat-01-candidate-list.md": "01aa5bdd065d57d1d869da0ad5ae2f3ad826fad778b11e9655fc1f560009355d",
+    "PROME/inbox/processed/2026-10-08_from-NEXUS_L554-wake-seat-01-contest-pred-50-armed.md": "a5e4fdf5129828bd4b9f9042ee41b66dd991bd94c48a3cb00d72d1b356c833a1",
+    "PROME/inbox/processed/2026-10-08_from-HENRY_L612-ISM-services-graded-gamma-drain.md": "5fe24cd9a894cd4053592b74abddcb3a3374a907ce01a23ac92d8c18a7f780dc",
+    "PROME/inbox/processed/2026-10-07_from-TERRY_held-option-cards-and-WQ386-integration.md": "c5f23c26b2e0717ce7077ff53aa61593c37a864221f8df1da5dc63e2e92e8678",
+    "PROME/proposals/2026-10-07_VLO-december-management-RULED.md": "3314bfb0c80f549c7df39c3152f53066ce48e1ef5a1a9d6b77ae5e6033de5355",
+    "AGENTS/TERRY/setups/VLO-SHARE_management-proposal_2026-09-28.md": "80dea46d745aa4c052a35048f657be5c163683a9d29fdbe73a6c14c6bd4a121a",
+    "AGENTS/WALTER/STATUS.md": "a8005b104fd19952365bccb11f0d629af1e2a84016bad1ba2299d8d70177c4a5",
+    "AGENTS/WALTER/LAST_COMPLETION.md": "e8e1da858bf7f7d9cb115ed46db2fd32cd508bb532c209909538c883d33ed198",
+    "AGENTS/WALTER/CLAUDE.md": "245e936b5a28a775bd99e7e516c0d65cad413b6ae1de82eed18886042adb4395",
+    "AGENTS/WALTER/MEMORY.md": "e68cbbc8f22e0c60e4e1b4a3643908f3915a5e5f5c3cdacd156ee3366639f04e",
+    "AGENTS/WALTER/research/2026-10-08_iran-full-sweep.md": "7ca0a40ed4e70e69fe51092b107d251ee1960864a6afca1cf56f41832f50fd23",
+    "AGENTS/WALTER/routed/delivery_log.tsv": "2d487ec8a7707f900f913d1f66c3eea1167194c79215015de4057dacaaea1ca3",
+    "AGENTS/WALTER/routed/route_log.tsv": "4acf9bffdac5815c255633e1d15795e681ff05265278ba156344239c9d378c9d",
+    "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv": "ce712888d7dd6de555e2bc4662c28a315c21501277b5c21c17c0e8b741530c32",
+    "AGENTS/CARL/inbox/WALTER/SIG-W-20261004-012.md": "761ddba9adfc0a9643977c22fae500aa1adb5cb6563bfc67cea896cdf7d484b6",
+    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261004-011.md": "bcf046ef2a67a7adcdf63eec3715540aa4c862f4a6ab71bbdde6ffa298ecc05b",
+    "AGENTS/FALCON/inbox/WALTER/processed/SIG-W-20261004-011.md": "ed05132301379c838fe9e2c4f1f040d1763d995f0112137e0826cb87b33ceb2d",
+    "AGENTS/HAWK/inbox/WALTER/SIG-W-20261004-011.md": "6e201cb333aa8c79f92fdab46966276ad8460c7108f86da6b85dbf8dc5f16d0f",
+    "BOARD/SIG-W-20261004-011-iraq-arranges-vlcc-to-ship-crude-past-hormuz-plus-IEA-325M-is-cumulative-of-march-400M-program-not-new-BRENT.md": "73f0c639e218203ad759168acee12322c244da6efc4a89f3c88ad349d0cf2f0b",
+    "BOARD/SIG-W-20261004-012-ISM-services-activity-61-7-vs-employment-47-8-13-9pt-gap-7th-widest-sept-survey-monday-CARL.md": "1bc9c40e1c72383d326cd01c7de3f13b8d28133f886b1b35f2ff25b753808bad",
+    "BOARD/SIG-W-20261008-001-hurricane-isaias-northern-gulf-landfall-fri-sat-25pct-gulf-oil-shut-in-FL-panhandle-warning-AEOLUS-CORAL-BRENT.md": "f1d1c82965b7401c31f730d0a8ac116d37d06398d19514cb0e0bf67157d99641",
+    "BOARD/SIG-W-20261008-005-HANS-T-13-UK-30Y-gilt-6point007-intraday-10-08-close-decides-fire-plus-UK-Budget-is-OCT-28-not-NOV-26-plus-JGB-records-HANS-BOND.md": "e69fc2fab0ac24817328a81579a3496176cb04e421022b08b0cf8195103a4bbe",
+    "BOARD/SIG-W-20261008-006-ai-infra-week-anthropic-ipo-filing-125B-TPU-lease-42B-broadcom-convertible-60B-blackstone-syndicate-ares-573B-loop-finland-google-halt-stargate-wi-grid-2029-samsung-prelim-today-VULCAN-BROCK.md": "78793df9a4b44fcf64f0e5ee473eb2aeb0e91fee830d28f0b083b5739905e790",
+    "BOARD/SIG-W-20261008-014-iran-full-sweep-10-08-no-ladder-fire-losses-3-gate1-holds-hull-war-rate-and-geography-escalate-158-26-off-qatar-casualties-centcom-prep-reported-no-strike-FALCON.md": "5b1c8e4c8a8ca79bfb85f5348d49ec2340039cf8b4f1fe3663b2eb09d0a512ef",
+    "BOARD/SIG-W-20261008-015-diesel-products-IEA-accelerates-remaining-100mb-no-new-volume-france-germany-G7-release-mostly-old-barrels-cardon-310kbd-shut-forties-140-not-a-record-aramco-inventories-BRENT.md": "46a5f223c1ec5b02e2f9004c2654e1c6d46826eb0ab2366d31165b01aa5d61fd",
+    "BOARD/SIG-W-20261008-016-CORRECTION-to-20261008-009-CPI-is-WEDNESDAY-10-14-not-Tuesday-label-only.md": "e82168b13c48de4dc094039343cf13c4b57febeb2384da578b08a1ad94aa3f26",
+    "AGENTS/FALCON/board_log.tsv": "93d435a672396915c9557aa09ed0f87d92c4af7cbb04cc676c960213c79b922b",
+    "AGENTS/FALCON/reports/2026-10-07_gate001-review-and-inbox-drain.md": "dfb2c21ffc36376d04786671d8ed93027a440da2fd07e2f92ce09fb75cc8fda6",
+    "PROME/tools/spawn_list.py": "c22b12a9d22231b195ba07f5302ecce0315a7b50068bef4d71e93bf179202525",
+    "scripts/docket_view.py": "84dad878bd199ba082c0f816ce251beadca1884dd2b35f689c58b1ce7c134d9d",
+    "PROME/tools/orch_closeout.py": "fd6b48390d1fb021ee771128e6bb6577991cabc4bd06e74a3dd53933f3c567c8"
+  },
+  "PR2": {
+    "779": {
+      "desk": "BOND",
+      "actual": [
+        "UNKNOWN",
+        "Extra data: line 1 column 623 (char 622)"
+      ],
+      "in_memory_reorder": "OUT_OF_SCOPE"
+    },
+    "780": {
+      "desk": "HENRY",
+      "actual": [
+        "UNKNOWN",
+        "Extra data: line 1 column 415 (char 414)"
+      ],
+      "in_memory_reorder": "ASKED_WORKING"
+    }
+  },
+  "PR3": {
+    "row": 554,
+    "actual": [],
+    "in_memory_date_and_state_fix": [
+      [
+        "D:L554",
+        "2026-10-13",
+        0,
+        "NEXUS",
+        "DARK",
+        "last self-commit 2026-10-08 (5d ago, fixture) < row start 2026-10-13",
+        "CANNOT-EVALUATE (no ROSTER cadence section)",
+        "NEXUS WEEKLY WAKE (TUESDAY) — WQ-343 RULED APPROVE (Will 2026-09-29 17:1"
+      ]
+    ],
+    "liveness": "stub used solely to isolate date/state eligibility; no native presence assertion"
+  },
+  "VLO_exact_letter": {
+    "matching": true,
+    "bytes": 2305
+  },
+  "delivery": {
+    "20261007": {
+      "total": 66,
+      "roles": {
+        "ACTION": 24,
+        "INFO": 42
+      },
+      "recipient_desks": 20,
+      "written_states": {
+        "delivered": 66
+      },
+      "present_on_fresh_origin": 64,
+      "missing_from_live_or_processed": [
+        "AGENTS/BOND/inbox/WALTER/SIG-W-20261007-002.md",
+        "AGENTS/BOND/inbox/WALTER/SIG-W-20261007-006.md"
+      ],
+      "additional_owner_archive_paths": [
+        {
+          "original": "AGENTS/BOND/inbox/WALTER/SIG-W-20261007-002.md",
+          "archive": "AGENTS/BOND/inbox/processed/SIG-W-20261007-002.md",
+          "byte_identical": true,
+          "sha256": "b0fa6e15470333cff9e184d45db48722fcb5f1bd1ca651133b3bd527ca6b6654"
+        },
+        {
+          "original": "AGENTS/BOND/inbox/WALTER/SIG-W-20261007-006.md",
+          "archive": "AGENTS/BOND/inbox/processed/SIG-W-20261007-006.md",
+          "byte_identical": true,
+          "sha256": "ed066e699672988371dbec3caa8ccd38746e99764e650ebdb43e47e0d085f00a"
+        }
+      ],
+      "total_confirmed_with_owner_archive_fallback": 66
+    },
+    "20261008": {
+      "total": 53,
+      "roles": {
+        "ACTION": 19,
+        "INFO": 34
+      },
+      "recipient_desks": 24,
+      "written_states": {
+        "delivered": 53
+      },
+      "present_on_fresh_origin": 53,
+      "missing_from_live_or_processed": []
+    }
+  },
+  "fresh_fetched_origin": "f6c6be9911e05b49a73d4633f54b71b951fb43eb",
+  "batches": [
+    {
+      "id": "BM-20261008-01",
+      "declared": "97",
+      "state": "CLOSED",
+      "unique_items": 97,
+      "complete_sequence": true
+    },
+    {
+      "id": "BM-20261008-02",
+      "declared": "14",
+      "state": "CLOSED",
+      "unique_items": 14,
+      "complete_sequence": true
+    }
+  ],
+  "late_manifest": {
+    "PROME/tasks/2026-10-08_wakes/TERRY.md": "45ee0808ba3c201e0118e508b259608b3e0f73cb78ef734352c7f9c198d2f563",
+    "PROME/state/ORCH_LOG.tsv": "b316d7c3848847ca24b730c2243c7ba274a468c44aa19fc7fe9d23ce7218e398",
+    "PROME/DOCKET.tsv": "c25b9dfc6680044110baa54790d0f32379147c871ceeecbd65e5f66f35a0e93c"
+  },
+  "WP21_counterexample": {
+    "cases": "6 cases: employment +0.1/activity -10; 3: employment +0.1/activity 0; 1: employment 0/activity -10",
+    "employment_rises": 9,
+    "activity_falls": 7,
+    "hiring_contribution_to_total_gap_closure": 0.9,
+    "activity_contribution_to_total_gap_closure": 70,
+    "purpose": "logical counterexample only; not historical ISM data"
+  },
+  "WP22_recipient_correction": {
+    "BRENT": "Iraq arranged a VLCC to market/deliver ~2M bbl crude to buyers OUTSIDE the Gulf (Bloomberg). ⚠️ **CORRECTED 10/4 (CATO): this is a commercial/logistics step — the tanker still TRANSITS Hormuz; it is NOT a bypass and NOT like the Saudi East-West pipeline.** Significance = Iraq expanding where it offers crude, not reduced Hormuz dependence. + 'IEA 325M released' is the CUMULATIVE tally of the March 400M program, NOT a new release (G7 100M on 10/02 = -1002-009 is the real catalyst). Don't price the inflated figure.",
+    "FALCON": "Hormuz-bypass theater context (Iraq by sea, like the Saudi East-West line).",
+    "HAWK": "Hormuz-bypass theater context."
+  },
+  "public_sources": [
+    {
+      "url": "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-response-isaias",
+      "date": "2026-10-07",
+      "checked": "25.08% oil, 16.37% gas; table 511619 b/d, 350.25 MMcf/d; estimates as of 11:00 CDT"
+    },
+    {
+      "url": "https://www.aramco.com/en/news-media/speeches/2026/remarks-by-amin-h-nasser-at-energy-intelligence-2026",
+      "date": "2026-10-05",
+      "checked": "Attributed inventory estimates, replenishment horizon and 2019 Abqaiq/Khurais reference match"
+    },
+    {
+      "url": "https://www.dol.gov/ui/data.pdf",
+      "date": "2026-10-08",
+      "checked": "197000 initial w/e Oct3; 198000 MA; 1716000 continuing w/e Sep26; rolling URL"
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/chancellor-letter-to-the-treasury-select-committee-tsc-budget-2026-date",
+      "date": "2026-07-31",
+      "checked": "Budget scheduled October28,2026"
+    },
+    {
+      "url": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-second-quarter-2026",
+      "date": "2026-07-07",
+      "checked": "89.4T KRW Q2 operating profit guidance; Q3 figure not independently primary-verified in this review"
+    }
+  ],
+  "WP22_scope": "Named FALCON/HAWK live/processed inboxes, WALTER outbox and October7 catchup files; no matching separate targeted correction found; no private-message absence claimed.",
+  "final_targeted_check": {
+    "at": "2026-10-08T13:03:56.745846+00:00",
+    "head": "2921a1fabe0d0afb331be897c78e96cff68e2c8e",
+    "L554_date": "2026-10-06",
+    "L554_state_prefix": "RESOLVED 2026-10-08 08:45 ET (PROME consumed NEXUS's WQ-389 wake memo 5fb20c5bf; desk eac4e605a): the weekly wake ran 10/8 (two days late — no wake ex",
+    "WALTER_LAST_COMPLETION_unchanged_from_pin": true
+  }
+}
