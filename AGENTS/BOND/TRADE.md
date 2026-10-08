@@ -1,23 +1,23 @@
 # BOND — Trade Recommendations
 
-**Last Updated:** 2026-10-05T10:38:00-04:00 — existing approvals and research reconciled. Posture/gates only; marks → STATUS. Pre-refresh full snapshot: `domain/sources/2026-10-05_TRADE.md_pre-live-refresh`.
+**Last Updated:** 2026-10-07T19:48:50.620577-04:00 — document write-back verified; evidence through October 7, approvals unchanged. Posture/gates only; marks → STATUS. Pre-refresh full snapshot: `domain/sources/2026-10-05_TRADE.md_pre-live-refresh`.
 **Regime:** 🟠 ELEVATED — `thesis/THESIS.md` **v1.2.11** (C-36 TWO-PART, ruled 9/1: policy-path channel alive · term premium drove the July delta) · STATUS carries the same. *(This line read "🟡 WATCH escalating · v1.2.3" until 9/29 — a stale header, not a disagreement.)*
 <!-- bond-state: thesis=v1.2.11; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=HOLD-NO-ADD -->
 
-**Approval reconciliation 2026-10-05T09:47:58-04:00:** **WQ-357: Will ruled LATER on 2026-10-03 21:08 ET. Hold the existing sleeve on TERRY path C to the 10/14 clock; the exit is neither approved nor declined. Research is authorized and due TODAY 10/5 (PROME DOCKET line 608, re-dated from 10/8). Kill remains MET as an operational recommendation; unusual net inventory is not proof of warehousing, the funding window remains UNGRADED, and the rule makes no predictive claim. WQ-280 NO-ADD stands. WQ-339 approved card drafting only; WQ-360 execution remains unapproved.**
+**Approval reconciliation 2026-10-05T09:47:58-04:00:** **WQ-357: Will ruled LATER on 2026-10-03 21:08 ET. Hold the existing sleeve on TERRY path C to the 10/14 clock; the exit is neither approved nor declined. L608 research was delivered October 5 and consumed by PROME (ff0992bf1 / 518baafa2). The October 14 decision clock remains open. Kill remains MET as an operational recommendation; unusual net inventory is not proof of warehousing, the funding window remains UNGRADED, and the rule makes no predictive claim. WQ-280 NO-ADD stands. WQ-339 approved card drafting only; WQ-360 execution remains unapproved.**
 **Registered predictions covering this book:** OPEN 0; BND-30/31 TRUE on 10/1. Tally: 16 TRUE / 13 FALSE / 1 VOID. Ledger canonical; next curve-shape registration by10/21.
 
 ---
 
-## The view (2026-10-05)
+## The view (October 7 evidence; approvals unchanged)
 
 **1. Operational letter and analytical evidence stay separate.** The 9/23 5Y OLD fire was confirmed clean on10/1; its WQ291 dealer leg MET. The rule's exit recommendation remains in force, but Will ruled LATER10/3, path C to10/14. Net inventory is not proof of auction warehousing, funding window UNGRADED, no predictive claim.
 
-**2. Authorized L608 research is delivered.** `analysis/2026-10-05_WQ-357_rebound-research.md` weighs weaker jobs/policy relief, credit tightening and buyback support against the long real-yield/term-premium evidence. No sustained long-end rebound is yet established in completed observations; this does not predict an inevitable further fall. Regime and conviction unchanged; no new trade recommendation.
+**2. Authorized L608 research is delivered.** `analysis/2026-10-05_WQ-357_rebound-research.md` weighs weaker jobs/policy relief, credit tightening and buyback support against the long real-yield/term-premium evidence. No sustained long-end rebound is yet established in completed observations; this does not predict an inevitable further fall. October 7 continuation (`analysis/2026-10-07_catchup/REPORT.md`) adds a clean 10Y auction, a standalone 3Y rarity marker and front-end relief with long-end selling. The minutes preserve a conditional year-end hike bias; the independent dated FedWatch/OIS comparison remains unavailable. Regime and conviction unchanged; no new trade recommendation.
 
 **3. Treasury's official bid is real but bounded.** Three current stepped-up operations read OFF-THE-RUN under the original-issue-date rank; latest10/1 read delivered to RED. Full cap utilization is not yield control or a price-cap finding. F1/F3 await11/4.
 
-**4. Credit marker and capital gates remain separate.** Index watch remains fired; Friday relief is logged. Paramount's final issuer pricing verifies access for one large secured issuer and supersedes its launch estimate. Comprehensive pulled-deal coverage is unavailable. HYG sizing remains LIQUID/BROCK/TERRY/Will's gate; CCC expression restriction stands.
+**4. Credit marker and capital gates remain separate.** Index watch remains fired; October 6 broad HY tightening coexists with CCC widening (KB-BND-419). Paramount's final issuer pricing verifies access for one large secured issuer and supersedes its launch estimate. Comprehensive pulled-deal coverage is unavailable. HYG sizing remains LIQUID/BROCK/TERRY/Will's gate; CCC expression restriction stands.
 
 **5. Recorded sleeve: TLT Oct-16 82P×1 plus TBT10shares**, confirmed by the user-dated October 7 intraday capture (PROME/data/2026-10-07_broker-capture-TRANSCRIPTION.md); exact time UNKNOWN, Activity absent, no executable marks. Sep-30 77P was sold9/30. WQ280NO-ADD stands. WQ339 authorized card drafting only; WQ360 execution remains unapproved. Existing TERRY exit/management cards and10/14sell-or-roll clock govern; BOND executes nothing.
 
@@ -75,7 +75,7 @@
 
 | BOND signal | Confirmed by | Who needs it |
 |---|---|---|
-| Composition failure — **FIRED 9/23 5Y (OLD test)**; `I'` fires 9/15 · 9/23 · 9/24 = markers | LIQUID owns funding interpretation. Latest shared-date SOFR−IORB = 0bp [10/6], context only; the 9/23 auction funding window remains **UNGRADED** by ruling · **FR2004 3–6Y as-of 9/23 = the mechanism leg (WQ-291): ✅ MET 10/1, $60.079B vs $56.586B (`KB-BND-383`) ⇒ kill letter MET ⇒ rec via TERRY + Will** | PROME, LIQUID, TERRY |
+| Composition failure — **FIRED 9/23 5Y (OLD test)**; `I'` fires 9/15 · 9/23 · 9/24 · 10/6 = markers | LIQUID owns funding interpretation. Latest shared-date SOFR−IORB = 0bp [10/6], context only; the 9/23 auction funding window remains **UNGRADED** by ruling · **FR2004 3–6Y as-of 9/23 = the mechanism leg (WQ-291): ✅ MET 10/1, $60.079B vs $56.586B (`KB-BND-383`) ⇒ kill letter MET ⇒ rec via TERRY + Will** | PROME, LIQUID, TERRY |
 | JGB-FX transmission | SAM (BOJ/MOF/yen) | SAM, HENRY, LIQUID |
 | Issuance freeze (dormant) | REGINALD refi burden / BROCK private marks | REGINALD, BROCK, HENRY |
 | Long-end break | HENRY vol regime + LIQUID funding | PROME, LIQUID, HENRY |

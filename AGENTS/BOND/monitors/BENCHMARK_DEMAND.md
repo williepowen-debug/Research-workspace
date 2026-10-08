@@ -126,11 +126,11 @@ NBIM footnote 3 defines MBS as agency MBS throughout the letter; the proposed 13
 
 | Owed | By | Why it matters |
 |---|---|---|
-| Is the ~13% MBS **agency-only or inclusive of non-agency**? | **2026-10-06** | **Decides whether the ~$82B bid is BOND's lane (`VX-BND-17`) or credit's.** Taxonomy closed10/5 atNBIMfootnote3;implementationstillconditional. |
+| Agency-MBS taxonomy | **COMPLETED October 5** | NBIM footnote3 resolves agency MBS; KB-BND-411. Implementation remains conditional; no open taxonomy task. |
 | GPFG **fixed-income sleeve size** at the primary | opportunistic | Every $ figure here is [EST] off one anchor; publication ⇒ re-derive |
 | ZHAO objection / scope confirmation | routed **2026-09-04** | If ZHAO claims the vector, BOND keeps only the MBS leg |
 | Ministry of Finance response | unscheduled — **watch** | First point at which "proposal" could become "mandate" |
 | **Expert group report** | **2027-01-25** | Hard checkpoint; on `docket/CATALYSTS.tsv` |
 | Base rate for the vector class | before any prediction | See §5 |
 
-**Review checkpoint: 2026-10-06.** Refresh this surface at the Ministry response, at any second-holder announcement, and at the 2027-01-25 report.
+**Review checkpoint: October 6 serviced October 7; next October 14.** Bounded search located no adopted mandate or qualifying second holder; this does not prove absence (KB-BND-422). Refresh on a Ministry response or second-holder announcement, and at the January 25, 2027 expert report.

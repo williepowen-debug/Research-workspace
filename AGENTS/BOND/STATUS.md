@@ -1,6 +1,6 @@
 # BOND — Status
 
-**Agent:** BOND · **Domain:** US bond-market structure. **Last session update:** 2026-10-07T18:14:23.838977-04:00 — catch-up continuation delivered in owned files; session remains open. **Last real data refresh: 2026-10-07.**
+**Agent:** BOND · **Domain:** US bond-market structure. **Last session update:** 2026-10-07T18:14:23.838977-04:00 — catch-up continuation delivered and consumed by PROME at fd84bb90d; session remains open. **Last real data refresh: 2026-10-07.**
 
 October7 primary Treasury curve and October6 credit observations below are separate frontiers. Full evidence, auction arithmetic, primary minutes and source gaps: `analysis/2026-10-07_catchup/REPORT.md`. Prior dashboard preserved at `domain/sources/2026-10-07_STATUS_pre-continuation.md`; interrupted checkpoint retained unchanged.
 
@@ -74,10 +74,10 @@ Outside composite: VX-BND-15=2; VX-BND-17=1; VX-BND-18=2; VX-BND-19=3 with undef
 | Date | Catalyst | What BOND watches |
 |---|---|---|
 | **Mon10/5 ✅ delivered ·Wed10/14 decision** | L608writtenreboundread delivered;WQ357LATER/pathC | Existing recommendation unchanged;Will/TERRYreview10/14 |
-| **Tue10/6** | COMPLETED: VX-BND-20 review; 3Y graded marker | VX-BND-20 held2; no mandate located. 3Y I-prime only; counter0 |
+| **Tue10/6 event; serviced10/7** | COMPLETED: 3Y graded marker; VX-BND-20 review serviced10/7 | VX-BND-20 held2; no mandate located. 3Y I-prime only; counter0 after that auction |
 | **Wed10/7** | 10Y-R$39B91282CRF0 13:00;FOMCminutes14:00 | COMPLETED: 10Y clean, counter1; minutes integrated |
 | **Thu10/8** | 30Y-R$22B912810UW6;F2op;FR2004as-of9/30;VX-BND-19qualifier | Publishedprimary results;noanticipatorygrade |
-| **Wed10/14 ·Thu10/15** | CPI08:30;BeigeBook14:00;heldpositionclock;F2op10/15 | Same-date real/nominal split;Will/TERRYreview |
+| **Wed10/14 ·Thu10/15** | CPI08:30;BeigeBook14:00;heldpositionclock;VX-BND-20 review;F2op10/15 | Same-date real/nominal split;Will/TERRYreview |
 | **10/21 ·10/22 ·10/26–29** | 20Y-R;5YTIPS;2Y/5Y/FRN/7Ycluster | IssuerPDFvisuallyverified10/5;barsatannouncements;FRNexcludedfromI-prime |
 | **Wed10/28 14:00** | OctoberFOMC | Registercurve-shaperowwithbaserateby10/21;livepath→dashboard |
 | **10/27 ·11/4** | F2op;QRAandF2op11/4 | F1/F3;schedulewindowends |
