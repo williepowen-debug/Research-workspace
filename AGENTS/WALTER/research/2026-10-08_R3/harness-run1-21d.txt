@@ -1,0 +1,42 @@
+WATCH_FOR harness — desk OSPREY · 5 phrase(s) · 11830 unique headlines over 78 lane days 2026-06-29 → 2026-10-07 · real matcher, in memory
+
+[   4] Caspian Pipeline Consortium   ← 4 hit(s) — CLASSIFY each true/false
+        2026-07-20 | Caspian Pipeline Consortium Oil Loadings Suspended After Drone Attacks On Tankers - gCaptain
+        2026-07-27 | Caspian Pipeline Consortium resumes Kazakh oil shipments through Novorossiysk port - Межа. Новини України.
+        2026-07-27 | Caspian pipeline consortium resumes oil exports via Novorossiysk terminal - Caliber.Az
+        2026-07-30 | Caspian Pipeline Consortium reports further attack on oil tankers at its Black Sea terminal - Anadolu Ajansı
+
+[   0] Ust-Luga drone   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Ust-Luga strike   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Tuapse port   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   2] Russia lift diesel export ban   ← 2 hit(s) — CLASSIFY each true/false
+        2026-10-06 | The diesel export ban may be lifted in October for some Russian companies, according to IFX - Newsquawk
+        2026-10-07 | Russia May Partially Lift Diesel Export Ban Amid Overproduction Risks - Global Banking & Finance Review
+
+=== LIVE sample: 271 unique Google-News headlines, 8 query(ies), last 21d ===
+[   0] Caspian Pipeline Consortium   ← 0 live hits
+[   0] Ust-Luga drone   ← 0 live hits
+[   0] Ust-Luga strike   ← 0 live hits
+[   0] Tuapse port   ← 0 live hits
+[   4] Russia lift diesel export ban
+        | Russia will consider partial lifting of diesel export ban in case of overproduction, Novak says - Reuters
+        | The diesel export ban may be lifted in October for some Russian companies, according to IFX - Newsquawk
+        | Russia will consider partial lifting of diesel export ban in case of overproduction, Novak says - Devdiscourse
+        | Russia to consider lifting diesel export curbs on overproduction - scanx.trade
+
+SYNTHETIC control: Caspian Pipeline Consortium halts oil exports after drone attack on Novorossiysk terminal -> ['Caspian Pipeline Consortium']
+
+SYNTHETIC control: Ukrainian drones strike Ust-Luga port, fire at Novatek complex -> ['Ust-Luga drone', 'Ust-Luga strike']
+
+SYNTHETIC control: Drone strike sparks fire at Ust-Luga oil terminal -> ['Ust-Luga drone', 'Ust-Luga strike']
+
+SYNTHETIC control: Tuapse port halts loadings after drone attack -> ['Tuapse port']
+
+SYNTHETIC control: Russia lifts diesel export ban for producers from November -> ['Russia lift diesel export ban']
+
+SYNTHETIC control: Russia lets diesel export ban lapse -> []
+
+Verdict rule (WQ-295 R3): reject by name any phrase with >0 FALSE hits; the reader classifies, not this tool.

@@ -1,0 +1,66 @@
+WATCH_FOR harness — desk OSPREY · 5 phrase(s) · 11830 unique headlines over 78 lane days 2026-06-29 → 2026-10-07 · real matcher, in memory
+
+[   0] Ust-Luga drone   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Ust-Luga strike   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Tuapse port   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   4] Caspian Pipeline Consortium   ← 4 hit(s) — CLASSIFY each true/false
+        2026-07-20 | Caspian Pipeline Consortium Oil Loadings Suspended After Drone Attacks On Tankers - gCaptain
+        2026-07-27 | Caspian Pipeline Consortium resumes Kazakh oil shipments through Novorossiysk port - Межа. Новини України.
+        2026-07-27 | Caspian pipeline consortium resumes oil exports via Novorossiysk terminal - Caliber.Az
+        2026-07-30 | Caspian Pipeline Consortium reports further attack on oil tankers at its Black Sea terminal - Anadolu Ajansı
+
+[   0] Russia lifts diesel export ban   ← 0 hits (zero noise; recall UNPROVEN)
+
+=== LIVE sample: 219 unique Google-News headlines, 7 query(ies), last 45d ===
+[  16] Ust-Luga drone
+        | Ukrainian Drone Attack Sparks Fire at Ust-Luga Port - The Moscow Times
+        | Drones attack Ust-Luga port in Leningrad region, fire breaks out – media - Ukrinform
+        | Fire at Russia’s Ust-Luga Extinguished After Drone Attack - Bloomberg.com
+        | Ukraine confirms drone strike on Russia’s Ust-Luga port - The Kyiv Independent
+        | Drone Attack Sparks Fire at Russia’s Key Baltic Oil Port of Ust-Luga - Kyiv Post
+        | Drone strike sparks fresh fire at Russia’s Ust-Luga port - Splash 24/7
+        | Ukrainian drone attack damages Russia’s Ust-Luga port - safety4sea
+        | DRONE ATTACK DAMAGES PORT AREA IN RUSSIA'S UST-LUGA, GOVERNOR SAYS - CGTN
+        | Ukraine Hits Ust-Luga Port With Drones as Fire Breaks Out in Russia’s Leningrad Region - UNITED24 Media
+        | Ukraine Attacks Russia’s Ust-Luga Port With 52 Drones as NATO Jets Scramble Over Estonia - Kyiv Post
+        | Fire reported following drone attack on the port of Ust-Luga in Russia - Українські Національні Новини (УНН)
+        | Drone attack sparks fire at Russia's Ust-Luga port - Quantum Commodity Intelligence
+        | Ukrainian Drones Strike Russia’s Ust-Luga Port, Fires Break Out in Port Zone - Межа. Новини України.
+        | Drone attack sparks fire across Ust-Luga port zone in Leningrad Oblast - video - The New Voice of Ukraine
+        | Drone attack on Russia: fire at port of Ust-Luga and explosions in Togliatti. VIDEO+PHOTO - Цензор.НЕТ
+        | Drone strike sparks massive fire at Russia's strategic Ust-Luga port - RBC-Ukraine
+[  10] Ust-Luga strike
+        | Ukraine confirms drone strike on Russia’s Ust-Luga port - The Kyiv Independent
+        | Drone strike sparks fresh fire at Russia’s Ust-Luga port - Splash 24/7
+        | Ukraine confirms strike hit Novatek fuel plant at Russia’s Ust-Luga port - Euromaidan Press
+        | DIU confirms strike on Novatek-Ust-Luga complex - Ukrinform
+        | Ukraine's Defence Intelligence strikes Russian Novatek-Ust-Luga oil refinery supporting war against Ukraine – photo, videos - Yahoo
+        | General Staff confirms strike on Novatek-Ust-Luga refinery in Russia’s Leningrad region - Ukrinform
+        | Ukrainian Drones Strike Russia’s Ust-Luga Port, Fires Break Out in Port Zone - Межа. Новини України.
+        | ​Ukraine Strikes Novatek-Ust-Luga Oil-Processing Complex in russia's Leningrad Region - Defense Express
+        | Ukraine strike damages Ust-Luga port, sparks fire - Breakingthenews.net
+        | Drone strike sparks massive fire at Russia's strategic Ust-Luga port - RBC-Ukraine
+[   0] Tuapse port   ← 0 live hits
+[   0] Caspian Pipeline Consortium   ← 0 live hits
+[   0] Russia lifts diesel export ban   ← 0 live hits
+
+SYNTHETIC control: General Staff confirms strike on Novatek-Ust-Luga refinery in Russia's Leningrad region -> ['Ust-Luga strike']
+
+SYNTHETIC control: Kazakhstan boosts oil exports via Novorossiysk, reduces those through Ust-Luga in August -> []
+
+SYNTHETIC control: Tuapse residents report water and gas outages -> ['Tuapse port']
+
+SYNTHETIC control: Tuapse refinery resumes exports after repairs -> ['Tuapse port']
+
+SYNTHETIC control: Support for Tuapse families after flooding -> ['Tuapse port']
+
+SYNTHETIC control: Ust-Luga dockworkers go on strike over pay -> ['Ust-Luga strike']
+
+SYNTHETIC control: Russia lifts diesel export ban for producers from November -> ['Russia lifts diesel export ban']
+
+SYNTHETIC control: Russia may partially lift diesel export ban amid overproduction risks -> []
+
+Verdict rule (WQ-295 R3): reject by name any phrase with >0 FALSE hits; the reader classifies, not this tool.
