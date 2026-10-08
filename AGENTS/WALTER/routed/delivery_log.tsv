@@ -3752,5 +3752,5 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-10-08T13:07:23Z	SIG-W-20261008-017	REGINALD	INFO	UNKNOWN	IMMEDIATE	AGENTS/REGINALD/inbox/WALTER/SIG-W-20261008-017.md	delivered	Create-only; owner integration unverified
 2026-10-08T13:07:23Z	SIG-W-20261008-017	BROCK	INFO	UNKNOWN	IMMEDIATE	AGENTS/BROCK/inbox/WALTER/SIG-W-20261008-017.md	delivered	Create-only; owner integration unverified
 2026-10-08T13:07:23Z	SIG-W-20261008-017	CREED	INFO	UNKNOWN	IMMEDIATE	AGENTS/CREED/inbox/WALTER/SIG-W-20261008-017.md	delivered	Create-only; owner integration unverified
-2026-10-08T13:55:08Z	SIG-W-20261008-018	FALCON	ACTION	UNKNOWN	PRIORITY	AGENTS/FALCON/inbox/WALTER/SIG-W-20261008-018.md	written_not_delivered_pending_push	Create-only; correction re-delivery (CATO WP22); owner integration unverified
-2026-10-08T13:55:08Z	SIG-W-20261008-018	HAWK	ACTION	UNKNOWN	PRIORITY	AGENTS/HAWK/inbox/WALTER/SIG-W-20261008-018.md	written_not_delivered_pending_push	Create-only; correction re-delivery (CATO WP22); owner integration unverified
+2026-10-08T13:55:08Z	SIG-W-20261008-018	FALCON	ACTION	UNKNOWN	PRIORITY	AGENTS/FALCON/inbox/WALTER/SIG-W-20261008-018.md	delivered	Create-only; correction re-delivery (CATO WP22); owner integration unverified
+2026-10-08T13:55:08Z	SIG-W-20261008-018	HAWK	ACTION	UNKNOWN	PRIORITY	AGENTS/HAWK/inbox/WALTER/SIG-W-20261008-018.md	delivered	Create-only; correction re-delivery (CATO WP22); owner integration unverified
