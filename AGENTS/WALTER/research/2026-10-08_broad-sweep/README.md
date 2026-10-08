@@ -1,0 +1,5 @@
+# Broad news sweep — 2026-10-08 (Will-requested ~11:0x ET, second WALTER session `walter-71`)
+
+Window: 2026-10-07 22:04Z (last broad sweep cutoff) → ~16:00Z 2026-10-08. Four Opus sweep agents by theme (A energy/war · B rates/credit/banks/CRE · C US macro/equities/AI/Florida · D Europe/Asia/Russia) plus one verify-research agent on 15 claims from Will's 41 new X-bookmarks (batch `BM-20261008-03`, closed 41/41). Agents were read-only toward the repo; these files are their verbatim reports. WALTER re-read at primary before dispatch where marked in each card (NHC #8, Insurance Journal, Naharnet/AFP, Bloomberg-via-Yahoo Iraq article, Japan MOF CSVs, fetch.py prices).
+
+Dispatched from this sweep: SIG-W-20261008-018 (CATO WP22 correction, separate ask) · -019 Isaias hurricane · -020 Iran/Gulf PM · -021 CORRECTION JGB labels · -022 Europe · -023 RU/UA energy · -024 AI financing · -025 consumer/tariffs · -026 housing · -027 ENSO · -028 freight · -029 Asia/EM · -030 rates/credit/positioning · -031 CRE cases. Kills: 3 bookmark items (kill_log 10/8). Limits: UKMTO, CNBC, Bloomberg, FT, WSJ largely 403/paywalled — relays are labelled in the cards.
