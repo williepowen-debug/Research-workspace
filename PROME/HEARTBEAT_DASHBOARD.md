@@ -19,16 +19,4 @@ This companion keeps render metadata outside the boot-read byte budget.
 
 *Twenty-sixth base 2026-10-02 (post-close, PROME prome-72) — chain 0: the twenty-fifth base's amendment #1 was folded into the base at the re-base, so its projection is REMOVED; zero projections stand. The folded projection is preserved in this file's commit history (`git log -p -- PROME/HEARTBEAT_DASHBOARD.md`).*
 
-*Twenty-sixth base — AMENDMENT #1 (2026-10-04 13:46 ET, PROME prome-ed) — projection #1 (chain 0→1):*
-*source_sha256: `7b6e2672cf626e186b17bd9af6f372364f5e04959255ee7a31b8df51dcea8e6e` (over the exact `> **AMENDMENT #1 — ...` paragraph without its trailing newline)*
-*Affects: split only (the NEXUS panel); one-liner, channels, tickers and blocking rows unchanged — the amendment moves no level. UNREVIEWED as every amendment is.*
-
-```dashboard-amendment
-{
-  "amendment": 1,
-  "source_sha256": "7b6e2672cf626e186b17bd9af6f372364f5e04959255ee7a31b8df51dcea8e6e",
-  "set": {
-    "split": "Break 20% · Grind-lasts 47% · Unresolved-divergence 33% — NEXUS 2–6wk judgment [10/1], predates 10/2; falsifier held, blind to credit"
-  }
-}
-```
+*Twenty-seventh base 2026-10-07 (post-close, PROME prome-0e) — chain 0: the twenty-sixth base's amendment #1 (the NEXUS split restored, 10/4) was folded into the base at the re-base, so its projection is REMOVED; zero projections stand. The split now renders from the base text itself (hot §5). The folded projection is preserved in this file's git history and in `PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-10-07.md`.*
