@@ -2,7 +2,51 @@
 
 ## Session Notes
 
-### CURRENT SESSION (2026-10-02 Fri 08:30–11:1x ET — PROME `prome-70` Tier-1 WQ-184 due-row wake (DOCKET L493), then four PROME doorbells. STANDARD: 🔴 HY >320 send line crossed (one print) · WQ-301 (b) encoded · 1 KB · inbox 13 → 0 · 0 thresholds moved)
+### CURRENT SESSION (2026-10-08 Thu 08:14–08:4x ET — PROME `prome-fc` Tier-1 WQ-184 due-row wake under WQ-389 (DOCKET L568, 1 day overdue), laptop. STANDARD: L568 fix pass delivered (still WITHHELD) · 076 state for the 10/9 review · WQ-363 encoded · inbox 29 → 0 · 1 KB · 0 thresholds moved)
+
+**Context:** Book FLAT, $0. X1 CLOSED. No `git pull` (the tree carried WALTER's uncommitted work; origin was even at fetch). Eight desks woke in parallel.
+
+**Delivered:** ① **L568, one pass**, with the acceptance conditions committed BEFORE the code (`a3e8af6fa`), then the code (`9004d5450`), then the letter and change note (`dba78f384`). The fixes:
+- X1: per-leg grading, PARTIAL = exit 3, a known ALERT never printed as UNGRADEABLE.
+- X2: `--baserate` fails closed.
+- X3: the window's cost is computed — 248/1,031 weeks (24.1%), 10 suppressed ≥$10B weeks incl. 2007-12-26.
+- X4: one live turn rule in the analysis file.
+- X5: ONE letter (`analysis/2026-10-08_usd-swapline-LETTER.md`).
+- D2: `WITHHELD = True`; a default run refuses before any network call, exit 4.
+
+Tests:
+- selftest 48/48;
+- daily real-data regression 2014→2026: 0 graded days changed;
+- outage replay on 266 real ALERT days: the old code went UNGRADEABLE on all 266, the new code has 0 violations;
+- CATO's probe at `9004d5450`: rc 4, banner true.
+
+**IMPLEMENTED · TESTED, NOT verified; WITHHELD until PROME's read 3.**
+
+② **GATE-LIQ-076: 1 of 3, NOT MET** in the window 9/24→10/7.
+- W1 [as-of 9/29]: −2,410,343, w/w +34,643.
+- W2 [as-of 9/23]: G10 −8,189 · G5L10 +1,176.
+- W3: met on every session.
+- No re-arm, so no 2nd write-up is owed whatever Friday prints. Next review_by recommended: 10/30.
+
+③ **WQ-363 encoded** on the X1 card. The HY leg is MET at 9/29 and holds through 303 [10/6]; that is a leg state only.
+
+④ **Q3 persistence:** every leg read is NOT MET. ARMED on WRESBAL as-of 10/7 (16:30 ET 10/8): SEASONAL unless < $2,800.0B.
+
+⑤ **Drain of 29 packets** (`0734364ed`): 6 acted, 23 noted. Acted:
+- OCIC fire = wrapper evidence, not a re-arm;
+- CABO added to breadth;
+- Paramount kill strings: none carried;
+- FOMC minutes: funding kept separate from duration;
+- the FT channel answered;
+- WQ-363.
+
+**Found:**
+- ① **BIZD's first close under $12.50 (10/1) is its $0.437 ex-dividend.** A raw-close wrapper-vs-manager comparison across 10/1 carries the dividend; named for BROCK via the PROME memo.
+- ② **The read-2 X1 class, measured on real history** (KB-LIQ-143): a fail-closed check that returns before grading turns every real ALERT into UNGRADEABLE under a one-source outage — 266 of 266 days.
+
+**NEXT SESSION entry point:** the NEXT SESSION block below, then STATUS §3.
+
+### PRIOR SESSION (2026-10-02 Fri 08:30–11:1x ET — PROME `prome-70` Tier-1 WQ-184 due-row wake (DOCKET L493), then four PROME doorbells. STANDARD: 🔴 HY >320 send line crossed (one print) · WQ-301 (b) encoded · 1 KB · inbox 13 → 0 · 0 thresholds moved)
 
 **Context:** Book FLAT, $0. X1 CLOSED. Spawned with no pull/stash/push (PROME pushes once for everyone).
 
@@ -351,6 +395,17 @@
 ---
 
 ### NEXT SESSION
+
+**RE-CUT 2026-10-08 08:4x ET (closeout). ⛔ The OWED list lives ONCE, in STATUS §3. This block is only the entry sequence.**
+1. **Thu 10/8:**
+   - The 10/7 ICE cell (~10:15 ET), unless this session already read it (STATUS header). Use the cache-busted CSV (KB-LIQ-142); the X1 leg resets only at ≤ 280.0. The >320 counts are RED's and REGINALD's.
+   - WRESBAL as-of 10/7 (~16:30 ET): the Q3 persistence verdict, SEASONAL unless < $2,800.0B.
+2. **Fri 10/9 ~15:30 ET: GATE-LIQ-076 W1** as-of 10/6, plus W2 as-of 9/30. No 2nd write-up is owed: no re-arm.
+3. **L568:** PROME runs read 3, the LAST. Do NOT clear `WITHHELD` except as the release step after a clean read 3. Any change after read 3 is unreviewed and is labelled so.
+4. **10/15–16:** the LIQ-07 S1/S2 verdict (both session lists; RED's context rows) and the 069 review. August TIC lands 10/16.
+5. Everything else → STATUS §3.
+
+### NEXT SESSION — 10/02 11:1x RE-CUT (SUPERSEDED 2026-10-08 08:4x; history only)
 
 **RE-CUT 2026-10-02 11:1x ET (closeout). ⛔ The OWED list lives ONCE, in STATUS §3. This block is only the entry sequence.**
 1. **Mon 10/5 ~10:15 ET: the 10/2 ICE cell.** Pull with `FORGE_CACHE_DIR=$(mktemp -d)` or a cache-busted fredgraph URL (KB-LIQ-142); confirm the obs DATE on every series. HY ≥321 = a 2nd print over 320: report the COUNT, never "confirmed" (">320 sustained" has no count; PROME's ruling question). ≤320 = retrace. Also SOFR99−IORB and SRF for 10/2 (Q3-end persistence legs; LIQ-07 SRF leg).
