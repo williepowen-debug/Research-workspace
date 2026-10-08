@@ -40,9 +40,9 @@
   "GATE-TERRY-VLO-SCALE": "RESOLVED"
  },
  "money": {
-  "cash": "40.74",
-  "total": "31,898.27",
-  "vintage": "2026-10-07"
+  "cash": "32.96",
+  "total": "34,650.69",
+  "vintage": "2026-10-08"
  },
  "queue": {
   "187": "Will APPROVED 2026-09-10 11:18 ET (tap via Decision Deck 15:18Z) \u2014 ha\u2026",
@@ -67,6 +67,8 @@
   "388": "\u2696\ufe0f UNATTENDED WALTER RUNS \u2014 MAY WALTER SELF-SCHEDULE A BOUNDED SWEEP\u2026",
   "394": "\u2696\ufe0f GATE-NEXUS-SEAT-01 \u2014 YOUR VERDICT ON THE FROZEN SPEC (registered 8\u2026",
   "396": "\u2696\ufe0f USO Oct-09 $150 CALL \u00d71 \u2014 SELL TODAY at Fidelity's bid? TERRY's 11\u2026",
-  "397": "\u2696\ufe0f QQQ Oct-09 $755 PUT \u00d72 \u2014 SELL TODAY, or after the 13:00 30Y result\u2026"
+  "397": "\u2696\ufe0f QQQ Oct-09 $755 PUT \u00d72 \u2014 SELL TODAY, or after the 13:00 30Y result\u2026",
+  "398": "\u2696\ufe0f LIQUID's DOLLAR SWAP-LINE INSTRUMENT (usd_swapline.py, L568) \u2014 THE\u2026",
+  "400": "\u2696\ufe0f BOND's VX-BND-19 \"DISORDERLY\" QUALIFIER \u2014 DEFINE IT (BOND's candid\u2026"
  }
 }
