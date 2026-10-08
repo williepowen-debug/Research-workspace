@@ -196,7 +196,11 @@ def main():
         elif len(items) < int(src.get("expect_min_items", 0) or 0):
             out_rows.append([today.isoformat(), "", sid, f"PARSER_STALE ({len(items)} items < expect_min_items {src['expect_min_items']} — the parser, not the source, is the likely cause; treat as NOT fully read)", src["url"], "", "", ""])
         for it in items:
-            if it["date"] and it["date"] < cutoff:
+            # follow_newest (the dated-window BULLETIN) is NEVER age-filtered (L309 evaluation 2026-10-08):
+            # its date is guessed from the slug and a within-month bulletin is dated by its FIRST day, so a
+            # bulletin read ~10 days after its week opened was silently dropped with no row — the same class
+            # as DAEDALUS finding (3): a source that yields no row looks like a quiet week.
+            if it["date"] and it["date"] < cutoff and not src.get("follow_newest"):
                 continue
             note, carry, lfac = "", [], ""
             text = it["title"] + " " + it["summary"]

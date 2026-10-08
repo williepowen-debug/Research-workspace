@@ -1,6 +1,14 @@
 # OSPREY STATUS
-**Last Updated:** 2026-09-29 (Tue) ~ET midday — Will-directed boot + catch-up sweep 9/21→9/29. **Scores 5 / 5 / 3 — C1 UPGRADED 4→5 (WQ-276, Will 9/24, executed today). Band ~30% [EST] UNCHANGED.**
-**Evidence:** `STRIKES.tsv` +7 rows (mark stays 9/20, NOT certified — Palaemon 21-27 unpublished); KB-OSPREY-158…168; CLAUDE.md §1b C1 5→4 successor. Prior top block rotated VERBATIM → `archive/STATUS_ROTATED_2026-09-29.md` (crc32 a14d6a6c).
+**Last Updated:** 2026-10-08 (Thu) 08:33 ET — PROME Tier-1 wake (WQ-389): DOCKET L309 evaluation + whole-inbox drain 9/9. **Scores 5 / 5 / 3 UNCHANGED. Band ~30% [EST] UNCHANGED. No mark moved.** Prior update 2026-09-29.
+**Evidence:** `STRIKES.tsv` +6 rows by targeted confirmation, NOT a sweep (mark stays 9/20; 9/30→10/8 land UNSWEPT); KB-OSPREY-172…176; `domain/energy-strikes/L309_STRIKE_FEED_EVALUATION_2026-10-08.md`. 9/29 block below kept as written.
+
+## ACTIVE — 2026-10-08 (no mark moved)
+
+1. ✅ **L309 strike-feed evaluation DONE.** Recall PASS by the letter: the 9/8 run found Kstovo 8/26, which the certified sweep had missed. But the 9/19 independent backfill found ARMADA LEADER 9/12, which the feed missed. **By class (rows 9/8–9/23): refineries 9/9, vessels 2/9, gas plants 0/2, all 14/27.** Precision on audited runs 9/11, 0 silent deletions; the 9/15 and 9/29 runs cannot be audited. ⇒ **RETAINED for land, NOT for Channel 3.** Three tool repairs: MATCHES re-committed (a 9/15 gitignore line had reversed the 9/10 fix), militarnyi URL fixed, Palaemon bulletin no longer dropped. KB-172.
+2. 🔥 **Refinery campaign RESUMED after the 9/27–29 depot pause:** Volgograd 10/2, Samara Transneft LPDS 10/2 (crude-transit node; 10/7 new fire), Salavat 10/8 (newest C1 anchor). ⚠️ **The Volgograd HALT (WALTER relay of Reuters 10/6) is NOT verified at primary** and carries a vintage-trap risk. Zelensky 10/3 said strikes would be stepped up. ⇒ **L544 (C1 5→4, 10/15): the 14-day no-refinery-row leg cannot be met on 10/15** (a fact, not a grade). KB-174.
+3. ⚠️ **C3: a QUALIFYING CANDIDATE, AFRAMAX RIO 10/6.** A crude Aframax on Ukraine's shadow-fleet list was hit by "unmanned boats" (Russian Transport Ministry) ~11 km off Sochi. Hull and geography are met; the **attacker is INFERRED, not claimed.** At the ledger C3 = 26/21 from ARMADA LEADER 9/12 (limb-1 date 10/3 passed). If RIO qualifies: 2/21 and limb-1 moves to 10/27. **Palaemon 21 Sep–4 Oct read: no Ukraine-side tanker strike, no Russian port attack.** A 10/6 sinking inside Bulgaria's EEZ (Russia-attributed) plus a Bulgarian PM insurance warning points toward limb-2 repricing (HAWK's grade). **No C3 kill is writable.** KB-175.
+4. **C2: 29/30 from Novorossiysk 9/9; limb-1 date TOMORROW 10/9.** No in-geography event found 9/21–10/8 (Palaemon + feed). Bloomberg 4-wk to 9/27 = **3.71** (BRENT relay), so limb 2's number leg reads met, but the **shut-in leg is still open.** ⛔ **A C2 kill needs a fresh mechanism-level sweep (§1), which this session did NOT run.** KB-173.
+5. GATE-OSPREY-001: **no inbox item changes CPC SPM / Tengiz state** (Samara is not the CPC route). Diesel ban EXTENDED to 10/31 (BRENT, Interfax 9/30; not verified at pravo.gov.ru). Russia-on-Ukraine grid campaign NOT added to the ledger (scope; KB-176).
 
 ## ACTIVE — decision-relevant changes (2026-09-29)
 
@@ -16,9 +24,9 @@
 ## THREE-CHANNEL DASHBOARD
 | Channel | Score | Mark state | Current evidence / upgrade test | Clock / downgrade test |
 |---|---:|---|---|---|
-| Refineries/products | **5** | **UPGRADED 9/29 on Will's word (WQ-276)** — caveats (a) end-Aug data only, (b) Moscow weakens ban mechanism, (c) 9/28 data decree | 9/20-9/26: Moscow, Kuibyshev, Novoshakhtinsk, Perm HALTED (verified); Ilsky struck (halt belligerent); UNPZ 9/22 fire. Prior tape: Kirishi halted since 8/30; TANECO ~52%; Syzran+Saratov. ⛔ **CAPACITY, NOT BARRELS** — only Perm has a throughput figure and it is 2024-annual. September independent aggregate SEARCH-NOT-FOUND. | **3/30 from Ilsky 9/26** (as of 9/29). **5→4:** independent aggregate <40% ×2 + 14d no refinery row (§1b; first eval 10/15; 60d blackout ⇒ UNREACHABLE flag). 4→3 runs limb unchanged. |
-| Crude-export terminals | **5** | HELD-ON-EVIDENCE | Bloomberg 3.54 (to 9/13) / 3.53 (to 9/20, relay) — below 3.9 downgrade limb. Novorossiysk departure halt week to 9/20, cause UNESTABLISHED; Kommersant: owners avoiding port on safety. No in-geography strike 9/21-9/29. | **20/30 from Novorossiysk fuel-oil terminal 9/9; limb-1 kill 10/09.** Limb 2 needs ≥3.5 4-wk AND no shut-in — the halt cause must be settled first; plus a fresh mechanism sweep before any kill. |
-| Shadow-fleet tankers | **3** | HELD-ON-EVIDENCE | Letter (9/19): merchant tanker, Ukraine-side, in-geography. None found 9/13-9/29 (9/21-29 not certified). Russian strikes on cargo ships off Odesa all excluded. Zelensky 9/28 Black Sea target open. | **17/21 from `RU-20260912-ARMADA-LEADER`; limb-1 10/03.** Limb 2 REPRICED 9/18 (HAWK 9/21) ⇒ earliest both-clear **10/9** (10/12 if the Platts 9/21 print verifies). LESSONS 8: within one sweep-interval — distrust the quiet. |
+| Refineries/products | **5** | **UPGRADED 9/29 on Will's word (WQ-276)** — caveats (a) end-Aug data only, (b) Moscow weakens ban mechanism, (c) 9/28 data decree | Resumed 10/2: Volgograd 10/2 (halt UNVERIFIED), Salavat 10/8; Samara LPDS 10/2 is midstream. 9/20–9/26: Moscow, Kuibyshev, Novoshakhtinsk, Perm HALTED; Ilsky struck. ⛔ **CAPACITY, NOT BARRELS.** September independent aggregate SEARCH-NOT-FOUND (not re-searched 10/8). | **0/30 from Salavat 10/8.** **5→4 (§1b, L544, first eval 10/15):** aggregate <40% ×2 AND 14d no refinery row — the 14d leg cannot be met on 10/15. 60d blackout ⇒ UNREACHABLE flag. |
+| Crude-export terminals | **5** | HELD-ON-EVIDENCE | Bloomberg 4-wk **3.71 to 9/27** (final week 3.99; BRENT via MT relay) — below the 3.9 downgrade limb. Novorossiysk halt cause UNESTABLISHED (Kommersant: owners avoiding port). No in-geography strike 9/21–10/8 (Palaemon + feed; land not swept 9/30–10/8). | **29/30 from Novorossiysk fuel-oil terminal 9/9; limb-1 date 10/09.** Limb 2: ≥3.5 reads met, no-shut-in UNSETTLED. A fresh mechanism sweep is required before any kill. |
+| Shadow-fleet tankers | **3** | HELD-ON-EVIDENCE | Letter (9/19): merchant tanker, Ukraine-side, in-geography. Palaemon 21 Sep–4 Oct: none. **AFRAMAX RIO 10/6 off Sochi = candidate, attacker INFERRED.** Russia-attacked hulls (Odesa, Bulgaria EEZ 10/6) excluded. | **26/21 from `RU-20260912-ARMADA-LEADER` at the ledger (2/21 if RIO qualifies).** Limb 2 earliest both-clear 10/9 (10/12 if Platts 9/21 verifies); the 10/6 Bulgaria-EEZ sinking points toward repricing. No kill writable while RIO is unresolved. |
 
 **⛔ C2 COMPANION WATCH (out-of-geography, resets nothing):** `RU-20260910-MAKHACHKALA` · `RU-20260919-KASPIYSK` (Caspian) · inland pipeline newest `RU-20260722-TUYMAZY-PUMP`. Nothing new 9/21-9/29. Inland depots 9/24, 9/28 are depot-class (no channel clock).
 
@@ -32,7 +40,7 @@
 - **Feed / sweep (9/29):** `strike_feed.py` 23 rows, 21 NONE all dispositioned in the feed file (gitignored, OWED-45); militarnyi RSS EMPTY_FEED (3rd run) — **but the WEBSITE read fine in the PM sweep**: read the site, not the feed (OWED-34 residual). Day-by-day name-free sweep 9/21→9/29 + maritime + policy sweeps run. **Mark stays 9/20** — Palaemon 21-27 unpublished; Reuters/Bloomberg read only via relays. Vintage traps rejected: six 2025 stories re-served as current (listed in the ledger header).
 
 ## Predictions
-**OSP-06 OPEN, 45%, deadline 10/15.** 3.54 to 9/13 does not fail it; missing intermediate prints prevent a complete in-window audit. Instrument continues to publish: VOID not armed. Dated search obligation 10/8–15 retained. Other rows resolved; no prediction due today.
+**OSP-06 OPEN, 45%, deadline 10/15.** Bloomberg 4-wk 3.71 to 9/27 does not fail it, but **the final week printed 3.99**, so risk is RISING. 10/8 search for the 4-wk to 10/4: SEARCH-NOT-FOUND (paywall; unreadable is not dark). VOID not armed. Dated search obligation 10/8–15: day 1 done. Other rows resolved.
 
 ## OWED REGISTER — every live obligation, dated
 *(READ_CAP rule 18 census — **9/15 session: 36 named obligations in → 35 carried + 1 CLOSED BY NAME (OWED-1, on a negative) + 3 new (37/38/39) = 38, 0 dropped.** L308 discharged out of the dated table. This table IS the backlog.)* *(Prior, third rotation: 26 in → 26 carried or closed by name + 1 new (36), 0 dropped.)*
@@ -46,13 +54,13 @@
 | **9/21** | **DOCKET L432** — Russian mobilisation window | ✅ **CONSUMER READ 9/29:** no mobilisation declared; Putin 9/29 decree +15,500 authorised to 1,550,500 (KB-168). No manpower step-change bearing on the strike campaign. HAWK owns. |
 | **10/1** | **Swedish Club amended war-risk terms take effect** | Consumer read. HAWK's 9/19 reply rejected only **JWLA-035's geography** as price; this **Swedish Club** material is **ungraded** (pending). Limb 2 UNDETERMINED. |
 | **9/25–9/27** | **+5d re-reads** | ⚠️ **PARTIAL 9/29:** Moscow — no restart AND no still-down report found (barrels open, OWED-43). Kuibyshev — Reuters halt; **conflict:** Reuters says both CDUs, imagery shows tanks/pumps/feed lines only. Ufa 9/23 — stays UNCONFIRMED (TPP smoke possible). UNPZ date may be 9/21 not 9/22 (outlets split) — anchors nothing now. |
-| **~9/28 → OPEN** | **Palaemon 21-27 Sep bulletin** — UNPUBLISHED at 9/29 13:00 UTC | Mine. Certifies 9/21→9/27 vessel coverage; also check Zelensky's 9/28 Black Sea target. **Must be read before 10/3.** |
-| **10/3** | **Channel-3 limb-1 date** (17/21 as of 9/29, at ledger) | Mine. No kill writable (limb 2 REPRICED 9/18 ⇒ earliest both-clear 10/9; 10/12 if Platts 9/21 verifies). |
-| **10/9** | **Channel-2 limb-1 kill date** (20/30 as of 9/29, at ledger) | Mine. Needs limb 2 (≥3.5, **no shut-in** — Novorossiysk halt cause + Kommersant safety-avoidance must be settled) + a fresh mechanism sweep. |
-| **10/6** | **Strike-feed acceptance test closes (DOCKET L309)** | **Recall leg has passed on THREE runs now** (9/8, 9/15, 9/19 — 9/19 surfaced the 9/17 Tanzania-flagged hull that forced the attacker limb). ⛔ **Precision is the untested leg and 9/19 gave it its first adverse datum** (OWED-45). |
-| **9/30** | **Russian producer diesel-ban text in force lapses** (Res. 954/1097) | Mine. Check government.ru / pravo.gov.ru for the signed extension (KB-162). Lapse = C1 companion kill-tell moves. |
-| **10/2** | **WALTER tests my 11 WATCH_FOR terms** (PROME DOCKET L543; 'Russian diesel export ban' collision named) | WALTER/PROME. Cadence WEEKLY is on ROSTER. |
-| **~10/8** | **Data decree product list due** (10 days from 9/28) | Mine. Which categories go dark decides C1-downgrade reachability (KB-160). |
+| **✅ 10/8** | **Palaemon 21-27 Sep + 28 Sep-4 Oct READ** | No Ukraine-side tanker strike; no Russian port/terminal attack; one unnamed "possibly tanker" 9/30 (type unestablished, rowed). C3 vessel coverage 9/21→10/4 is instrument-read. |
+| **10/3 → passed** | **Channel-3 limb-1 date** | At the ledger 26/21 on 10/8. AFRAMAX RIO 10/6 is a candidate reset (attacker INFERRED) — **settle the attribution before any C3 kill.** |
+| **10/9** | **Channel-2 limb-1 kill date** (29/30 on 10/8, at ledger) | Mine. **Needs a session ON/AFTER 10/9:** mechanism-level sweep 9/30→10/9 + the shut-in question (Novorossiysk) + Bloomberg 3.71 read as limb 2's number leg. |
+| **✅ 10/8** | **L309 strike-feed evaluation DONE** | See ACTIVE 1 / KB-172 / the L309 record. |
+| **✅ 9/30** | **Diesel-ban text: EXTENDED to 10/31** | Per BRENT (Interfax 9/30 signed resolution); NOT verified at pravo.gov.ru. 10/2 "partial lift" headline routed to YURI (SIG-W-20261008-010). |
+| **✅ 10/8** | **R3 WATCH_FOR verdicts answered by name** | `PROME/inbox/2026-10-08_from-OSPREY_R3-watch-for-adoption.md` — 10 to land + 5 UNTESTED. |
+| **~10/8 → OPEN** | **Data decree product list due** (10 days from 9/28) | Mine. **NOT checked 10/8.** It decides whether the C1 downgrade stays reachable (KB-160). |
 | **10/15** | **OSP-06 deadline** | OPEN 45%. Dated search obligation 10/8–15. |
 | **10/15** | **C1 5→4 successor — first dated evaluation** (WQ-276; CLAUDE.md §1b; **PROME DOCKET L544**, caveats a/b/c travel) | Mine. Any independent aggregate <40%? Any refinery row in prior 14d? Blackout count from 9/3. |
 | **~10/18** | **H.R. 5334 implementation deadline** (30 days from 9/18) | Consumer read → BRENT/HAWK. Waivers are the observable (KB-164). |
@@ -81,13 +89,12 @@
 Prior cross-agent blocks (9/19-9/24) rotated VERBATIM → `archive/STATUS_ROTATED_2026-09-29.md` Part 2. Delivery is on commit; receiver integration UNKNOWN. I do not edit `GATES.tsv`.
 
 ## BOTTOM LINE
-**The refinery channel is now 5 of 5.** Will approved it 9/24 and it was executed today. The caveat stays on the row: the trigger rests on end-August data, and no independent September figure exists. Ukraine halted four more refineries 9/20-9/25 (Moscow, Kuibyshev, Novoshakhtinsk, Perm) and hit Ilsky 9/26. **No refinery strikes 9/27-9/29 (checked to ~15:00 ET 9/29), and no restarts either.** Depots were hit instead, just as Trump pressed Kyiv to "take it easy on the refineries". Kyiv says it will stop only for a mutual truce, and nothing is agreed. **Three blind spots:**
-- Russia's 9/28 decree hides refinery and export data.
-- ~12 spring pipeline pump-station strikes were never on this ledger (OWED-51).
-- The Novorossiysk loading drop may be tanker owners staying away, which would block the 10/9 Channel-2 kill.
+**No mark moved. The refinery campaign is running again:** Volgograd 10/2, Salavat 10/8, and a Transneft crude hub at Samara 10/2. Zelensky said on 10/3 that strikes would be stepped up. **The strike feed passed its four-week test for refineries and failed as a ship-strike instrument** (refineries 9/9 caught, vessels 2/9). The ship channel keeps its bulletin-first sweep. **Two clocks need a real session soon:**
+- **Channel 2's 30-day kill date is 10/9.** A kill needs a fresh sweep and the Novorossiysk shut-in answer; neither was done today.
+- **Channel 3 is 26/21 at the ledger, but the 10/6 AFRAMAX RIO hit off Sochi may reset it.** Who attacked is not established. No C3 kill is writable until it is.
 
 **Watch:**
-- whether refinery strikes resume (the truce signal);
-- Palaemon 21-27 before the 10/3 Channel-3 date;
-- the diesel-ban text lapsing 9/30;
-- the Bloomberg export print to 9/27.
+- the Volgograd halt at primary (vintage risk);
+- the Bloomberg 4-wk print to 10/4 (OSP-06, deadline 10/15);
+- the data-decree product list;
+- the 10/15 L544 evaluation, whose 14-day leg is already unmet.

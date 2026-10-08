@@ -1,0 +1,6 @@
+# OSPREY strike feed — COMMITTED match audit trail, run 2026-09-24. One row per candidate the diff absorbed into an existing strike_id.
+# ledger: 119 data lines, 118 usable, 1 skipped (RU-202605xx-SYZRAN: unparseable date '2026-05-??'); 21 generic tokens dropped at df>=4: baltic,bashkortostan,kapotnya,moscow,nizhnekamsk,nizhny,novgorod,novorossiysk,odesa,primorsk,re-struck,rosneft,rostov,russian-flagged,samara,saratov,sheskharis,siberia,taneco,tatarstan,yaroslavl
+# Each row is a CLAIM. Precision leg of the acceptance test: of N rows here, M confirmed at the named ledger facility.
+run_date	pub_date	source	title	url	ledger_match	carrying_tokens	ledger_facility
+2026-09-24	2026-09-17	moscowtimes	Ukrainian Drone Attack Sparks Fire at Yaroslavl Oil Refinery	https://www.themoscowtimes.com/2026/09/17/ukrainian-drone-attack-sparks-fire-at-yaroslavl-oil-refinery-a93733	RU-20260917-YANOS-YAROSLAVL	slavneft-yanos	Slavneft-YANOS (Yaroslavl refinery / Slavneft-Yaroslavnefteo
+2026-09-24	2026-09-16	moscowtimes	Syzran and Saratov Oil Refineries Halt Operations After Drone Attacks, Sources Say	https://www.themoscowtimes.com/2026/09/16/syzran-and-saratov-oil-refineries-halt-operations-after-drone-attacks-sources-say-a93726	RU-20260915-SYZRAN	syzran	Syzran Oil Refinery (Rosneft)

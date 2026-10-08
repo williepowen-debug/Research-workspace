@@ -2,7 +2,7 @@
 
 **`FEED_CANDIDATES_YYYY-MM-DD.tsv`** — every kept candidate. **Git-ignored** (`AGENTS/OSPREY/.gitignore`): a working file, not the record.
 
-**`MATCHES_YYYY-MM-DD.tsv`** — **COMMITTED** (added 2026-09-10). One row per candidate the diff absorbed into an existing `strike_id`, with the tokens that carried the match and the matched row's facility. *Why it exists:* `FEED_CANDIDATES` is ignored, so before this file the **precision** side of the feed was unfalsifiable after the run — a false `<strike_id>` produces no `NONE` row, no KB mention and no artifact, so a recall-only acceptance test cannot see it (DAEDALUS review 2026-09-10, finding (b)).
+**`MATCHES_YYYY-MM-DD.tsv`** — **COMMITTED** (added 2026-09-10; ⚠ silently git-ignored 2026-09-15 → 2026-10-08 by a `.gitignore` line, re-committed 10/8). One row per candidate the diff absorbed into an existing `strike_id`, with the tokens that carried the match and the matched row's facility. *Why it exists:* `FEED_CANDIDATES` is ignored, so before this file the **precision** side of the feed was unfalsifiable after the run — a false `<strike_id>` produces no `NONE` row, no KB mention and no artifact, so a recall-only acceptance test cannot see it (DAEDALUS review 2026-09-10, finding (b)).
 
 ## Reading a file
 
@@ -27,3 +27,11 @@ Ledger tokens are **proper-noun tokens of the raw Facility+Region cell** (capita
 
 1. **Recall** (original): the feed surfaces ≥1 event the manual sweep missed, or an independent backfill finds 0 misses. *(Met on run 1: Kstovo/NORSI 8/26, Novorossiysk terminal 9/8-9.)*
 2. **Precision** (added 2026-09-10, DAEDALUS ACTION 4): of the N `<strike_id>` rows in the committed `MATCHES_*.tsv` files over the four weeks, **M were confirmed at the named ledger facility**. Without this leg a 15–37% false-absorption rate would run the full window and be recorded as a PASS.
+
+## RESULT — evaluated 2026-10-08 (DOCKET L309) → `../L309_STRIKE_FEED_EVALUATION_2026-10-08.md`
+
+**Recall: PASS on the first disjunct, and the second fails** (the 9/19 independent backfill found ARMADA LEADER 9/12 and others). **Precision: PASS on the audited runs**, 9/11 rows confirmed and 0 silent deletions; the 9/15 and 9/29 runs cannot be audited. **Retained as a LAND (refinery) instrument: 9/9 refinery rows surfaced. NOT a maritime instrument: 2/9 vessel rows surfaced.** Three things changed on 10/8:
+- `MATCHES_*.tsv` is committed again. A 9/15 `.gitignore` line had silently reversed the 9/10 fix.
+- militarnyi was repointed to `/en/news/feed/`. The old URL served an itemless stub on every run.
+- The `follow_newest` bulletin is never age-filtered. A within-month bulletin is dated by its first day and was being dropped with no row.
+
