@@ -31,3 +31,5 @@ dispatch_note: "Auction high yield/BTC and buyback amounts verified by WALTER at
 6. **Data update to `-030`:** FRED has since published **DGS30 5.67% for 10/7**, above the 5.66% [10/5] that `-030` called the high. `-030` was right on the data available at 11:57 ET (FRED runs T+1). New high close: **5.67% [10/7]**.
 
 **BOND:** auction/buyback read. RED-FT-11 is RED's to grade (needs the 10/8 FRED close). **ZHAO:** indirect share −7pp is a foreign-demand composition read. Credit: FRED 10/8 HY not yet out; 309bp [10/7] near-trigger stands (`-030`).
+
+> **ADDITIVE CORRECTION — SIG-W-20261008-041:** item 1's "Treasury's dataset lacks 2000 auctions" is FALSE (BOND packet 10/8; WALTER re-queried Treasury Fiscal Data directly). The 2000 auctions are present under non-literal term strings; 5.618% is the highest 30-year stop since 2000-08-10 (5.697%). The headline "since at least 2001" HOLDS; "since 1999" is false. All other figures hold. Immutable handoffs require -041 alongside -036.

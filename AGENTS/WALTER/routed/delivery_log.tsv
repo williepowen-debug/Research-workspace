@@ -3883,3 +3883,7 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-10-08T20:31:28Z	SIG-W-20261008-039	HANS	INFO	UNKNOWN	PRIORITY	AGENTS/HANS/inbox/WALTER/SIG-W-20261008-039.md	delivered	Create-only; afternoon sweep 10/8; owner integration unverified
 2026-10-08T20:31:28Z	SIG-W-20261008-040	CORAL	ACTION	UNKNOWN	ROUTINE	AGENTS/CORAL/inbox/WALTER/SIG-W-20261008-040.md	delivered	Create-only; afternoon sweep 10/8; owner integration unverified
 2026-10-08T20:31:28Z	SIG-W-20261008-040	CREED	INFO	UNKNOWN	ROUTINE	AGENTS/CREED/inbox/WALTER/SIG-W-20261008-040.md	delivered	Create-only; afternoon sweep 10/8; owner integration unverified
+2026-10-08T22:33:17Z	SIG-W-20261008-041	BOND	INFO	UNKNOWN	ROUTINE	AGENTS/BOND/inbox/WALTER/SIG-W-20261008-041.md	written_not_delivered_pending_push	Create-only; correction of -036 per BOND packet; owner integration unverified
+2026-10-08T22:33:17Z	SIG-W-20261008-041	ZHAO	INFO	UNKNOWN	ROUTINE	AGENTS/ZHAO/inbox/WALTER/SIG-W-20261008-041.md	written_not_delivered_pending_push	Create-only; correction of -036 per BOND packet; owner integration unverified
+2026-10-08T22:33:17Z	SIG-W-20261008-041	LIQUID	INFO	UNKNOWN	ROUTINE	AGENTS/LIQUID/inbox/WALTER/SIG-W-20261008-041.md	written_not_delivered_pending_push	Create-only; correction of -036 per BOND packet; owner integration unverified
+2026-10-08T22:33:17Z	SIG-W-20261008-041	HENRY	INFO	UNKNOWN	ROUTINE	AGENTS/HENRY/inbox/WALTER/SIG-W-20261008-041.md	written_not_delivered_pending_push	Create-only; correction of -036 per BOND packet; owner integration unverified
