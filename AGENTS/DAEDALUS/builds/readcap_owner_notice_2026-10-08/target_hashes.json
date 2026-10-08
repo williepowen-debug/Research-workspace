@@ -1,0 +1,8 @@
+{
+  "scripts/read_cap_check.py": {
+    "before": "b5fbd2fd3b108a3d375731f30dd4470bdd4ad7fbfecf3f1a295aa5fc30279180",
+    "after": "ecd31652b7d8e108a52e76925d693ea1983c05b810a43ee4e03a133cfc532f80",
+    "before_last_commit": "39178712a (2026-10-05 08:14:52 -0400)",
+    "patch": "AGENTS/DAEDALUS/builds/readcap_owner_notice_2026-10-08/owner-notice.patch"
+  }
+}

@@ -1,0 +1,341 @@
+--- a/scripts/read_cap_check.py
++++ b/scripts/read_cap_check.py
+@@ -363,6 +363,14 @@
+     return _HIST_CACHE[key]
+ 
+ 
++def _class_members(pth, base_root):
++    """Rule-16 CLASS-row expansion: every FILE the glob matches, repo-root-relative to `base_root`,
++    normalised and sorted. ONE helper shared by declared_reads (the reader's perimeter) and
++    foreign_reads (the owner's notice, L530) so the two can never expand one glob two ways."""
++    return sorted(os.path.normpath(f) for f in glob.glob(os.path.join(base_root, pth), recursive=True)
++                  if os.path.isfile(f))
++
++
+ def load_reads(path=None):
+     """(rows, error). Parse failure => an error string, NEVER an empty row list: READS.tsv lives in
+     PROME/ and PROME edits it, so a half-written file must surface as rc 2, not as 'no rows'."""
+@@ -467,8 +475,7 @@
+             # relative) and measure each file exactly like a single-file row. `scoped`/`grep`/
+             # `summary` class rows stay declared-and-visible, never counted (unchanged).
+             if mode in CAP_BEARING_MODES:
+-                members = sorted(os.path.normpath(f) for f in glob.glob(os.path.join(base_root, pth), recursive=True)
+-                                 if os.path.isfile(f))
++                members = _class_members(pth, base_root)
+                 if not members:
+                     # Discriminated by HISTORY (see class_history): drained => ADVISORY, never
+                     # matched or history unavailable => DEFECT (fail closed, PAT-155).
+@@ -556,6 +563,67 @@
+     return cap_bearing, visible, problems, attested, note
+ 
+ 
++# ── OWNER-DIRECTED NOTICE (DOCKET L530 open leg, DAEDALUS 2026-10-08 — READ_CAP rule 15) ──────────
++# Rule 15 counts a cross-agent whole read in the READER's perimeter and promises the OWNER a notice.
++# Until this, the notice existed only in prose: the breach printed in the READER's run (and turned
++# the READER red), while the owner — the only desk that can rotate the bytes (rule 4) — ran its own
++# check and never saw the file. Measured 2026-10-08: `--agent WALTER` showed AGENTS/HANS/registry/
++# THRESHOLDS.tsv at 103% of budget (WALTER:6b); `--agent HANS` never named it.
++# ⛔ NOT CAP-BEARING HERE: the notice never enters the owner's totals and never moves its rc by
++# default — moving the verdict onto the owner is a CANON question (`--owner-notice-blocking`, opt-in,
++# unadopted). Owner = the desk whose home contains the path; READS.tsv has no `owner` column today,
++# and if one is ever populated a disagreement with the path is REPORTED, never silently resolved.
++def foreign_reads(name, path=None, root=None):
++    """(entries, findings) or (UNAVAILABLE, err).
++    entries:  {abs_path: {"readers": [reader:step (mode), ...], "missing": bool}} — every file under
++              `name`'s home that ANOTHER reader's cap-bearing READ row loads (CLASS rows expanded per
++              member with the SAME helper as declared_reads).
++    findings: [str] — OWNER/PATH disagreements (A5); never attributed either way."""
++    rows, err = load_reads(path)
++    if rows is None:
++        return UNAVAILABLE, err
++    base_root = root or ROOT
++    home = os.path.normpath(desk_home(name))
++    home_rel = os.path.relpath(home, ROOT).replace(os.sep, "/").rstrip("/") + "/"
++    sub_rel = home_rel + "sub_agents/"          # sub-agent desks own their own subtree (A5)
++
++    def under_home(rel):
++        rel = rel.replace(os.sep, "/")
++        return rel.startswith(home_rel) and not rel.startswith(sub_rel)
++
++    entries, findings = {}, []
++    for r in rows:
++        if r.get("row_kind") != "READ" or (r.get("reader") or "").strip() == name:
++            continue
++        mode = (r.get("mode") or "").strip()
++        pth = (r.get("path") or "").strip()
++        if not pth or mode not in CAP_BEARING_MODES or pth.startswith(EXTERNAL_ROOTS):
++            continue                                # RETIRED / visible / bad-mode rows: the reader's run owns them
++        rdr, step = (r.get("reader") or "?").strip(), (r.get("source_boot_step") or "?").strip()
++        who = (step if step.startswith(rdr + ":") else f"{rdr}:{step}") \
++              + ("" if mode == "whole" else f" ({mode})")
++        if "*" in pth or "?" in pth:
++            targets = [(m, False) for m in _class_members(pth, base_root)]
++        else:
++            full = os.path.normpath(os.path.join(base_root, pth))
++            targets = [(full, not os.path.isfile(full))]
++        oc = (r.get("owner") or "").strip()
++        for full, missing in targets:
++            rel = os.path.relpath(full, base_root)
++            mine = under_home(rel)
++            if oc and (oc == name) != mine:
++                findings.append(f"OWNER/PATH DISAGREE: `{rel}` ({who}) — owner column `{oc}`, path "
++                                f"{'IS' if mine else 'is NOT'} under {home_rel} — not attributed; the "
++                                f"reader fixes the row")
++                continue
++            if not mine:
++                continue
++            e = entries.setdefault(full, {"readers": [], "missing": missing})
++            if who not in e["readers"]:
++                e["readers"].append(who)
++    return entries, findings
++
++
+ # ── GENERATED-FILE DETECTOR (added 2026-09-12, RED's report, and it is a REMEDY-ROUTING question) ──
+ # PAT-161's remedy — rotate, or collapse pointers into one index — is WRONG for a GENERATED file, and
+ # wrong in the worst way: rotation is MEANINGLESS (the next generator run restores every byte, because
+@@ -733,9 +801,11 @@
+             f"{basis}; composite-injection context cost not graded here")
+ 
+ 
+-def check_agent(name, quiet=False, require_manifest=False, charter_mode="unspecified"):
++def check_agent(name, quiet=False, require_manifest=False, charter_mode="unspecified",
++                owner_notice_blocking=False):
+     if charter_mode not in ("explicit", "injected", "unspecified"):
+         raise ValueError("Invalid charter mode")
++    check_agent.owner_notice = None             # (n, n_over_budget) or "UNKNOWN"; reset EVERY call
+     # R7-stage-2 precedence: a desk's own ATTESTED declaration beats a scan of its charter.
+     cap_bearing, visible, problems, attested, dnote = declared_reads(name)
+     if cap_bearing is UNAVAILABLE:
+@@ -800,6 +870,17 @@
+                     member_of.setdefault(charter, member_of.pop(alias))
+         visible = [(p, mode, src) for p, mode, src in visible
+                    if os.path.normpath(os.path.join(ROOT, p)) not in files]
++    # ── OWNER-DIRECTED NOTICE (L530 / rule 15): other desks' cap-bearing reads of THIS desk's files.
++    # Overlap (A4): a file this desk also reads itself is annotated ONCE in its own row, not repeated.
++    fr, fr_findings = foreign_reads(name)
++    notice = []                                  # [(abs_path, readers, missing)] — NOT in this perimeter
++    if fr is not UNAVAILABLE:
++        own = {os.path.normpath(p): p for p in files}
++        for full, e in sorted(fr.items()):
++            if full in own:
++                files[own[full]] = f"{files[own[full]]} · ALSO read whole by {', '.join(e['readers'])}"
++            else:
++                notice.append((full, e["readers"], e["missing"]))
+     rows = []
+     base = ROOT if declared else desk_home(name)      # declared rows are repo-relative + cross-agent
+     for p in sorted(files, key=lambda x: -os.path.getsize(x)):
+@@ -1007,6 +1088,56 @@
+                       f"        generator. Ask its owner who regenerates it; do NOT infer the owner from the\n"
+                       f"        file's location, which names the READER, not the source.")
+ 
++    n_notice_over = 0
++    nrows = []
++    for full, readers, missing in notice:
++        if missing:
++            nrows.append((None, full, None, None, None, readers))
++            continue
++        b = os.path.getsize(full)
++        mark, util, why = grade(b)
++        n_notice_over += mark in ("🔴", "🟠")
++        nrows.append((mark, full, b, util, why, readers))
++    nrows.sort(key=lambda r: -(r[2] or -1))
++    check_agent.owner_notice = "UNKNOWN" if fr is UNAVAILABLE else (len(notice), n_notice_over)
++    if not quiet:
++        home_rel = os.path.relpath(desk_home(name), ROOT).replace(os.sep, "/") + "/"
++        if fr is UNAVAILABLE:
++            print(f"  ⛔ OWNER-DIRECTED NOTICE UNKNOWN [{name}] (READ_CAP rule 15): {fr_findings} — cannot say "
++                  f"whether another desk's declared boot read loads a file under {home_rel} whole. "
++                  f"This is NOT a clean result.")
++        elif not notice and not fr_findings:
++            n_also = len(fr) - len(notice)
++            print(f"  ℹ️  OWNER-DIRECTED NOTICE [{name}] (READ_CAP rule 15): no file under {home_rel} is "
++                  f"loaded whole by another desk OUTSIDE this desk's own perimeter (manifest scanned, CLASS "
++                  f"rows expanded)" + (f"; {n_also} file(s) this desk also reads are annotated `ALSO read "
++                  f"whole by` in the table above" if n_also else "") + " — nothing further to report.")
++        else:
++            print(f"  ✉️  OWNER-DIRECTED NOTICE [{name}] (READ_CAP rule 15): {len(notice)} file(s) under "
++                  f"{home_rel} that OTHER desks' declared boot reads load WHOLE — counted in THOSE "
++                  f"readers' perimeters, NOT in this desk's totals or rc. The bytes are this desk's to "
++                  f"rotate (rule 4); a breach here is also turning the READER's check red.")
++            for mark, full, b, util, why, readers in nrows:
++                rel = os.path.relpath(full, ROOT)
++                if mark is None:
++                    print(f"     ⛔ {rel:<34}{'—':>9}  DOES NOT EXIST on disk — the reader's manifest defect "
++                          f"(declared by {', '.join(readers)})")
++                    continue
++                print(f"     {mark} {rel:<34}{b:>9,} B  {util:>5.0%} of budget  {why or 'under 75% of budget'}"
++                      f"  ← read whole by {', '.join(readers)}")
++            for f in fr_findings:
++                print(f"     ⚠️  {f}")
++    if owner_notice_blocking:
++        # ⚠️ OPT-IN, UNADOPTED: rule 15 keeps the verdict in the READER's perimeter. Making the OWNER
++        # red for another desk's read is a CANON question for PROME/Will, not this patch's to decide.
++        bump = 2 if fr is UNAVAILABLE else (1 if n_notice_over else 0)
++        if bump > rc:
++            rc = bump
++        if not quiet:
++            print(f"  ⚠️  --owner-notice-blocking (OPT-IN · CANON QUESTION for PROME/Will, NOT adopted): "
++                  + ("notice UNKNOWN ⇒ rc 2" if fr is UNAVAILABLE else
++                     f"{n_notice_over} foreign-read file(s) over budget ⇒ rc {rc}"))
++
+     # W3: `problems` travels with the result. main() previously inferred the REASON for rc from
+     # the over-budget counts, which is what produced the mark bug and then repeated it in the
+     # label one line later. One instance did mean two; the fix is to stop inferring.
+@@ -1045,7 +1176,7 @@
+ # So: EXPECTED is a CONSTANT compared against the count derived from the SAME if/else that sets
+ # the verdict, and the mismatch is appended to the SAME failure list that drives rc. One number,
+ # one verdict, no second accumulator to drift. Falsify it by deleting a check, never by trusting it.
+-EXPECTED_LEGS = 112   # +6 at L538 (C12, 2026-10-02)
++EXPECTED_LEGS = 125   # +6 at L538 (C12, 2026-10-02) · +13 at L530 owner notice (N1–N8, 2026-10-08)
+ 
+ 
+ def selftest():
+@@ -1546,6 +1677,98 @@
+             chk("R20 --fleet: per-desk charter line AND a summary that says the totals EXCLUDE charters",
+                 ("OUT OF PERIMETER by rule 20" in _kb.getvalue(),
+                  "EXCLUDE every charter by design" in _kb.getvalue(), krc), (True, True, 0))
++
++            # ── OWNER-DIRECTED NOTICE (L530 open leg / READ_CAP rule 15, 2026-10-08) — PUBLIC path ──
++            # Each leg runs on the unpatched file too and FAILS there by assertion (no crash): the
++            # notice text, the machine keys and the opt-in flag do not exist before the change.
++            def _run(*argv):
++                _b = io.StringIO()
++                with contextlib.redirect_stdout(_b):
++                    _rc = main(["x", *argv])
++                return _rc, _b.getvalue(), _b.getvalue().strip().splitlines()[-1]
++            OA = "ATTESTATION\tOW\t.\tmanifest-complete\ts\tOW\t2026-10-08\tok"
++            OWN = "READ\tOW\tAGENTS/OW/own.md\twhole\tOW:1\tOW\t2026-10-08\t-"
++            FOREIGN = "READ\tRD\tAGENTS/OW/reg/T.tsv\twhole\tRD:6b\tRD\t2026-10-08\tanother desk reads it whole"
++            sz = {"AGENTS/OW/own.md": 100, "AGENTS/OW/reg/T.tsv": BUDGET_BYTES + 10}
++            # N1 ORDINARY (capable): another desk's whole read of an over-budget OW file is NOTICED in
++            # OW's run, and OW's own verdict/rc does not move (rule 15: counted in the READER's perimeter).
++            READS_TSV = _fixture(t, [OA, OWN, FOREIGN], sz)
++            nrc, nout, nml = _run("--agent", "OW")
++            chk("N1 notice does NOT move the owner's rc or its own over_budget count",
++                (nrc, " over_budget=0 " in nml), (0, True))
++            chk("N1 notice names the file, its band and the foreign reader:step",
++                ("OWNER-DIRECTED NOTICE [OW]" in nout, "AGENTS/OW/reg/T.tsv" in nout,
++                 "← read whole by RD:6b" in nout, "🟠" in nout), (True, True, True, True))
++            chk("N1 machine line carries the notice counts; charter_bytes stays LAST",
++                ("owner_notices=1 owner_notices_over_budget=1" in nml, nml.split()[-1].startswith("charter_bytes=")),
++                (True, True))
++            # N2 OPT-IN VARIANT: --owner-notice-blocking makes the owner red and says it is a canon question.
++            nrc, nout, nml = _run("--agent", "OW", "--owner-notice-blocking")
++            chk("N2 --owner-notice-blocking: rc 1 and labelled a CANON QUESTION, not adopted",
++                (nrc, "CANON QUESTION" in nout), (1, True))
++            # N3 OVERLAP: the owner reads the file itself AND two foreign readers load it (one concrete,
++            # one CLASS row) => ONE line, in the owner's own table, annotated with BOTH readers.
++            READS_TSV = _fixture(t, [OA, "READ\tOW\tAGENTS/OW/reg/T.tsv\twhole\tOW:2\tOW\t2026-10-08\t-",
++                                     FOREIGN, "READ\tR2\tAGENTS/*/reg/T.tsv\twhole\tR2:3\tR2\t2026-10-08\tclass"], sz)
++            nrc, nout, nml = _run("--agent", "OW")
++            chk("N3 overlap: annotated once in the owner's own row with BOTH foreign readers",
++                "ALSO read whole by R2:3, RD:6b" in nout or "ALSO read whole by RD:6b, R2:3" in nout, True)
++            chk("N3 overlap: never repeated in the notice (file printed once; owner_notices=0)",
++                (nout.count("AGENTS/OW/reg/T.tsv"), "owner_notices=0 " in nml), (1, True))
++            # N4 CLEAN: no foreign cap-bearing read => an explicit clean line, never silence.
++            READS_TSV = _fixture(t, [OA, OWN], sz)
++            nrc, nout, nml = _run("--agent", "OW")
++            chk("N4 clean: explicit clean notice line and owner_notices=0",
++                ("no file under AGENTS/OW/ is loaded whole by another desk" in nout,
++                 "owner_notices=0 owner_notices_over_budget=0" in nml), (True, True))
++            # N5 WRONG OWNER: an `owner` column that disagrees with the path is REPORTED, never attributed;
++            # a sub-agent's subtree belongs to the sub-agent, not the parent.
++            man = os.path.join(t, "READS_owner.tsv")
++            open(man, "w", encoding="utf-8").write(
++                "row_kind\treader\tpath\tmode\tsource_boot_step\tdeclared_by\tdeclared_on\tnotes\towner\n"
++                f"{OA}\tOW\n{OWN}\tOW\n"
++                "READ\tRD\tAGENTS/OW/x.md\twhole\tRD:7\tRD\t2026-10-08\t-\tZZ\n"
++                "READ\tRD\tAGENTS/OW/sub_agents/S/y.md\twhole\tRD:8\tRD\t2026-10-08\t-\t\n")
++            for rel in ("AGENTS/OW/x.md", "AGENTS/OW/sub_agents/S/y.md"):
++                os.makedirs(os.path.dirname(os.path.join(t, rel)), exist_ok=True)
++                open(os.path.join(t, rel), "w").write("y" * 50)
++            READS_TSV = man
++            nrc, nout, nml = _run("--agent", "OW")
++            chk("N5 owner-column/path disagreement REPORTED and not attributed (owner_notices=0)",
++                ("OWNER/PATH DISAGREE" in nout and "AGENTS/OW/x.md" in nout, "owner_notices=0 " in nml),
++                (True, True))
++            chk("N5 sub-agent subtree NOT attributed to the parent desk",
++                "sub_agents/S/y.md" in nout, False)
++            # N6 MISSING FILE: a foreign concrete row pointing at a file that is gone prints as the
++            # reader's defect, never as 0 B, and is not counted over budget.
++            READS_TSV = _fixture(t, [OA, OWN, "READ\tRD\tAGENTS/OW/gone.tsv\twhole\tRD:9\tRD\t2026-10-08\t-"], sz)
++            nrc, nout, nml = _run("--agent", "OW")
++            chk("N6 missing foreign file: DOES NOT EXIST line, counted 1 notice / 0 over budget, rc 0",
++                ("AGENTS/OW/gone.tsv" in nout and "DOES NOT EXIST" in nout,
++                 "owner_notices=1 owner_notices_over_budget=0" in nml, nrc), (True, True, 0))
++            # N7 MANIFEST UNAVAILABLE AT NOTICE TIME (concurrent writer): UNKNOWN, fail-closed wording,
++            # never a clean line; the default rc is unchanged, the opt-in variant goes to rc 2.
++            READS_TSV = _fixture(t, [OA, OWN], sz)
++            _real_lr, _calls = load_reads, []
++            def _flaky(path=None):
++                _calls.append(1)
++                return _real_lr(path) if len(_calls) == 1 else (None, "manifest mid-write (test)")
++            globals()["load_reads"] = _flaky
++            try:
++                nrc, nout, nml = _run("--agent", "OW")
++                _calls.clear()
++                brc, _bo, _bm = _run("--agent", "OW", "--owner-notice-blocking")
++            finally:
++                globals()["load_reads"] = _real_lr
++            chk("N7 unreadable manifest at notice time: UNKNOWN printed, machine UNKNOWN, no clean line",
++                ("OWNER-DIRECTED NOTICE UNKNOWN [OW]" in nout, "owner_notices=UNKNOWN" in nml,
++                 "is loaded whole by another desk" in nout), (True, True, False))
++            chk("N7 ...default rc unchanged (0); opt-in blocking variant fails closed to rc 2",
++                (nrc, brc), (0, 2))
++            # N8 USAGE: the opt-in flag is --agent only.
++            nrc, nout, _nml = _run("--fleet", "--owner-notice-blocking")
++            chk("N8 --owner-notice-blocking without --agent is a USAGE error, rc 2",
++                (nrc, "requires --agent" in nout), (2, True))
+         finally:
+             READS_TSV, ROOT = sav_r, sav_root
+ 
+@@ -1557,7 +1780,7 @@
+     for f in fail:
+         print(f"  ❌ {f}")
+     print(f"{'✅' if not fail else '❌'} READ-CAP SELFTEST {ok}/{total} leg(s) pass "
+-          f"(R7-stage-2 manifest consumer: C1–C12 + rc contract, frozen tempdir fixtures)")
++          f"(R7-stage-2 manifest consumer: C1–C12 + N1–N8 owner notice + rc contract, frozen tempdir fixtures)")
+     return 0 if not fail else 1
+ 
+ 
+@@ -1616,9 +1839,16 @@
+     require_manifest = "--require-manifest" in args
+     if require_manifest:
+         args = [a for a in args if a != "--require-manifest"]
++    owner_notice_blocking = "--owner-notice-blocking" in args
++    if owner_notice_blocking:
++        if "--agent" not in args or "--fleet" in args:
++            print("READ-CAP 2 USAGE: --owner-notice-blocking requires --agent (opt-in canon-question variant)")
++            return 2
++        args = [a for a in args if a != "--owner-notice-blocking"]
+     if "--agent" in args:
+         name = args[args.index("--agent") + 1]
+-        rc, res = check_agent(name, require_manifest=require_manifest, charter_mode=charter_mode)
++        rc, res = check_agent(name, require_manifest=require_manifest, charter_mode=charter_mode,
++                              owner_notice_blocking=owner_notice_blocking)
+         if res is None:
+             # rc 2: nothing was assessed. Every count below is ZERO because it is UNEARNED, not
+             # because it is clean, and `assessed=0` is the flag that says so.
+@@ -1627,9 +1857,11 @@
+                                manifest_defects=0, advisories=0, generated_flagged=0,
+                                rotation_due=0, active_decisions_over_budget=0,
+                                charter_mode=charter_mode, charter_reads=0,
++                               owner_notices=0, owner_notices_over_budget=0,
+                                charter_bytes=_cb if _cb is not None else "NA"))
+         else:
+             _, n, nb, nc, _rows, defs, advs, gen, _cb = res
++            _on = check_agent.owner_notice or "UNKNOWN"
+             print(_result_line("agent", rc, 1, desk=name, reads=n, over_budget=nb, over_cap=nc,
+                                manifest_defects=len(defs), advisories=len(advs),
+                                generated_flagged=len(gen),
+@@ -1639,6 +1871,10 @@
+                                    for r in _rows)),
+                                charter_mode=charter_mode,
+                                charter_reads=2 if charter_mode == "explicit" else 0,
++                               # APPENDED 2026-10-08 (L530 owner notice, rule 15). NOT graded
++                               # counts — they never move rc unless --owner-notice-blocking is set.
++                               owner_notices=(_on if _on == "UNKNOWN" else _on[0]),
++                               owner_notices_over_budget=(_on if _on == "UNKNOWN" else _on[1]),
+                                # APPENDED 2026-09-24 (rule 20). A MEASUREMENT, not a graded count —
+                                # it never moves rc. Consumers verified key=value, not positional:
+                                # validate_all.parse_rc_result, prome_gate.coverage_result.
