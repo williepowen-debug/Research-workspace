@@ -30,11 +30,10 @@
 - ⚠️ `DCOILBRENTEU` FRED feed shows 125.44 (10/6) — anomalous vs ~$101 front-month; threshold-monitor data issue to flag, not a real breach.
 
 ## POSITION DECISIONS PENDING
-- USO 37 sh / VLO 1 sh / USO Oct-09 $150C ×1 per 10/7 capture (time unknown). Pre-market 10/8: USO $149.10 (vendor), VLO $430.49. Option card and stop = TERRY; order = Will. WQ-366/WQ-200/WQ-192 unchanged. No position/rule change this session.
+- USO 37 sh / VLO 1 sh / USO Oct-09 $150C ×1 per 10/7 capture (time unknown). **USO $150.13 at 15:43Z (WALTER) — now ABOVE the Oct-9 $150 strike** (pre-market was $149.10). Tomorrow's 15:00 ET sell-or-roll rail is TERRY's card (WQ-366 DECLINE), told directly; order = Will. WQ-366/WQ-200/WQ-192 unchanged. No position/rule change this session.
 
 ## MAIL STATE (one line per signal)
-- Inbox: clear at boot; mid-session WALTER ACTION card **SIG-W-20261008-019** (Isaias hurricane upgrade) arrived → disposition ACTED, board_log row appended, git mv'd to inbox/WALTER/processed/. One correction (COR-20260921-16) receipted NO-OP.
-- Incoming (peer notice, not yet in inbox): WALTER sweep items — Houthi Saudi-evac threat (HAWK/FALCON domain, threat≠attack) + Bloomberg VLCC $1.4M/day (NOT TD3C). Record-only when the cards land.
+- Inbox: clear at boot; mid-session TWO WALTER ACTION cards arrived and were processed ACTED (board_log rows + git mv to processed/): **SIG-W-20261008-019** (Isaias hurricane upgrade) and **SIG-W-20261008-020** (Iran/Gulf PM: Houthi all-facilities threat, tape +5.6%, USO above strike, Rabigh/Fujairah FALCON items). One correction (COR-20260921-16) receipted NO-OP.
 - Outbox: no live packets.
 
 ## WORKBOOK HEALTH
