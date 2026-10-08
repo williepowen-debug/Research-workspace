@@ -3,3 +3,9 @@ receipt_date	correction_id	action	note
 2026-09-25T07:03Z	COR-20260924-11	APPLIED	
 2026-10-01T17:32Z	COR-20260925-13	NO-OP	
 2026-10-08T13:20Z	COR-20260921-16	NO-OP	
+2026-10-08T20:38Z	COR-20261008-18	NO-OP	scope=BRENT not on action line. BRENT already carries 'Iraq VLCC transits Hormuz (not bypass)' at NEXUS_BRIEF.md 10/04 row, no BRENT surface says bypass; checked STATUS SCRATCH NEXUS_BRIEF THESIS TRADE 2026-10-08 16:4x ET
+2026-10-08T20:38Z	COR-20260928-20	NO-OP	scope=info-only for BRENT. No BRENT surface carries 'rate undisclosed'. Petroline ~3.5 mb/d is one-source flow vs ~7 mb/d capacity, BG-02 letter unchanged (NOT MET); 
+2026-10-08T20:38Z	COR-20261002-16	NO-OP	scope=BRENT caught it (card says so). No BRENT surface carries one-vessel or resumed. Yanbu liftings 10/01-02 stay UNKNOWN; 
+2026-10-08T20:38Z	COR-20261002-18	NO-OP	scope=info-only for BRENT, ACTION FALCON. No BRENT surface carries the no-separate-10/02-hit absence claim. Losses stay 3, GATE 2 untouched; 
+2026-10-08T20:38Z	COR-20261002-27	NO-OP	scope=BRENT authored the correct framing. VLO-HELD-01 B1 NOT fired, letter unchanged. No BRENT surface carries Latin-America-as-non-allies; 
+2026-10-08T20:38Z	COR-20261002-29	NO-OP	scope=BRENT caught it (settle-window proxy is BRENT's own). The 102.88 post-settle figure is not carried on any BRENT surface; 
