@@ -22,7 +22,7 @@
 7. Carried: China post-holiday guidance (NOT FOUND 10/8, UNKNOWN), Treasury/IRS diesel-tax implementation (10/10), SPR exchange awards; broader WQ-252/HEN-46 owner debt; incident re-verify RF-013/014/022/033 + nine; LESSONS_INDEX semantic reconciliation; routine deployment parked at the CATO handoff.
 
 ## OPEN THREADS / WATCHES
-- 🔴 Hormuz strike rate and transit floor (FALCON owns rungs); Isaias track/intensity to landfall (RI vs 40–50kt shear — NHC "tricky").
+- 🔴 Hormuz strike rate and transit floor (FALCON owns rungs); Isaias **now a hurricane (85 mph, NHC Adv #8), Cat-2 peak forecast, landfall AL/FL line late Fri–early Sat** (RI harbinger closed-eye vs pre-landfall shear). ⚠️ Reported deepwater evacuations (Shell Mars/Olympus/Ursa/Vito/Appomattox + Chevron 4) are UNVERIFIED single-Substack — evacuation≠damage; verify at companies/BSEE over the weekend. Nudges Scenario-2 readiness; nothing confirmed.
 - 🟠 Isaias refinery GAP — unresolved until Fri shutdown headlines / weekend restart data. Meraux is Valero's ⇒ double-edged for VLO (throughput − vs crack-margin +); TERRY grades.
 - 🟠 Diesel balance: release barrels mostly not new; product losses unmeasured in runs. Forties >$140 relay not carried.
 - 🟠 Freight: TD3C ~$1.33M/day chart point undated; no freight-to-WTI beta. WALTER Baltic/Gibson weekly review 10/9.
@@ -33,7 +33,8 @@
 - USO 37 sh / VLO 1 sh / USO Oct-09 $150C ×1 per 10/7 capture (time unknown). Pre-market 10/8: USO $149.10 (vendor), VLO $430.49. Option card and stop = TERRY; order = Will. WQ-366/WQ-200/WQ-192 unchanged. No position/rule change this session.
 
 ## MAIL STATE (one line per signal)
-- Inbox: clear (top-level, MSG-*, WALTER lane all empty at boot). One correction (COR-20260921-16) receipted NO-OP.
+- Inbox: clear at boot; mid-session WALTER ACTION card **SIG-W-20261008-019** (Isaias hurricane upgrade) arrived → disposition ACTED, board_log row appended, git mv'd to inbox/WALTER/processed/. One correction (COR-20260921-16) receipted NO-OP.
+- Incoming (peer notice, not yet in inbox): WALTER sweep items — Houthi Saudi-evac threat (HAWK/FALCON domain, threat≠attack) + Bloomberg VLCC $1.4M/day (NOT TD3C). Record-only when the cards land.
 - Outbox: no live packets.
 
 ## WORKBOOK HEALTH
