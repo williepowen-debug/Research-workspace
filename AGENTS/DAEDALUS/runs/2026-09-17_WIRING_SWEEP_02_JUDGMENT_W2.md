@@ -1,5 +1,8 @@
 # WIRING SWEEP #2 — JUDGMENT LEGS, part W2
 
+> ⚠️ **CORRECTIONS (2026-10-08 15:12 EDT, from ⑰ run #3, `runs/2026-10-08_WIRING_SWEEP_17_RUN3.md` §5 asks 3–4). The text below is unchanged; read these first:** (1) "481/829 = 58% FROZEN" is **380/829 = 46%** by `is_frozen()`: CREED, HAWK and MARCO (101 LIVE rows) were filed as FROZEN. (2) "6 of 8 desks are CONVENTION defects" is **5** (AEOLUS, FALCON, ORACLE, RED, REGINALD), with MIDAS the clean control. Of the 5, RED and REGINALD already carry the convention in `registry/`. (3) BRK-013 is **mixed-metric** (dividend coverage x vs asset coverage %), not an inverted ladder. (4) FALCON's header does have Source and Last_Updated columns. (5) The drawn 40-row sample was not saved and cannot be reconstructed.
+
+
 **Run date:** 2026-09-17 (Thu) · **Owner:** DAEDALUS · **Reader:** W2 (read-only)
 **Register:** `AGENTS/DAEDALUS/sweeps/WIRING_SWEEP.md` — legs ⑧ ⑩ ⑰ ⑲ ㉓ ㉕ ㉗, deferred from the 9/4 detection pass to a judgment sitting due 9/12, run today.
 **Standing:** read-only. Nothing edited outside this file. Every owner ask below is a FLAG for DAEDALUS to packet — W2 sent nothing.

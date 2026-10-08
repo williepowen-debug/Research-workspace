@@ -54,7 +54,7 @@ The draft sat 21 days without its plan read (owed 9/18; DOCKET L380 past-due 10/
 
 | Desk | Largest declared boot read | % of 32,550 B budget | vs stop (22,785 B) |
 |---|---|---:|---|
-| BRENT | STATUS.md 26,274 B | 81% | +3,489 over the stop; BRENT's measured floor (23,346 B, 9/14) is still above the stop |
+| BRENT | STATUS.md 26,274 B | 81% | +3,489 over the stop. ~~BRENT's measured floor (23,346 B, 9/14) is still above the stop~~ ⛔ false, see §6 |
 | CREED | thesis/CHANGELOG.md 29,057 B | 89% | +6,272 |
 | REGINALD | STATUS.md 24,156 B | 74% | +1,371 |
 | MARCO | MEMORY.md 24,061 B | 74% | +1,276 |
@@ -64,4 +64,23 @@ The draft sat 21 days without its plan read (owed 9/18; DOCKET L380 past-due 10/
 
 **Fleet:** rc 1 on one desk only (NEXUS, through BROCK's and ZHAO's NEXUS_BRIEF.md, packeted to both owners today). **23 of 38 desks hold at least one boot read in the 70–75% band** (machine field `desks_above_stop_threshold=23`, computed by `in_ambiguous_band`, which is strictly 70% ≤ b < 75%). Reads at ≥75% (BRENT 81%, CREED 89%) are rotate-tier and outside that count. *(A first version of this line said they were inside it; reading the code refuted that.)*
 
-**What this changes in §2:** nothing in the letter. The evidence shape has moved from "over budget, told to rotate" (9/14) to **"parked between the stop and the trigger, re-breaching and re-rotating."** That is the PAT-055 regrowth loop. Clause 5b is still the only text that names the standing-state case, and BRENT is still its live instance (81%, floor above stop). The "8 of 30" live-contract population (claim 3) is still not re-derived. A count needs per-surface content classification (history vs contract) that a size scan cannot do, so 5a ships with "first verified exemplar: NONE yet", as drafted. **Next action:** one plan read on §2 (commissioned with this section), then one insertion, then one result read. Not Will-gated by either row's own test (§ header).
+**What this changes in §2:** nothing in the letter. The evidence shape has moved from "over budget, told to rotate" (9/14) to **"parked between the stop and the trigger, re-breaching and re-rotating."** That is the PAT-055 regrowth loop. ~~Clause 5b is still the only text that names the standing-state case, and BRENT is still its live instance (81%, floor above stop).~~ **⛔ FALSE, see §6.** The "8 of 30" live-contract population (claim 3) is still not re-derived. A count needs per-surface content classification (history vs contract) that a size scan cannot do, so 5a ships with "first verified exemplar: NONE yet", as drafted. **Next action:** one plan read on §2 (commissioned with this section), then one insertion, then one result read. Not Will-gated by either row's own test (§ header).
+
+---
+
+## 6. Plan read result and disposition — 2026-10-08 15:12 EDT (from `date`)
+
+**Plan read:** `design/2026-10-08_READ_CAP_RULE5_PLAN_READ.md`, fresh Opus reader, **NOT-READY ❌3 ⚠️9 ✅8**.
+
+**§5 correction (my error):** BRENT's 9/14 floor was carried forward without a re-check. Verified at the commits (`git cat-file -s <c>:AGENTS/BRENT/STATUS.md`): **22,218 B at `8658a7306` (9/28) and 21,805 B at `13516563b` (10/07)**, both below the claimed 23,346 B floor and below the 22,785 B stop, reached by plain rotation. REGINALD: **21,138 B at `d2309c9df` (9/24)** against a claimed 45,888 B floor. **Both measured floors were refuted within 14 days.** BRENT's 81% today is regrowth (21,805 → 26,274 B in about 15 hours), which rule 19 already covers.
+
+**Disposition (DAEDALUS, design owner):**
+| Part | Decision | Why |
+|---|---|---|
+| 5b standing-state floor | **WITHDRAWN** | Premise refuted 2/2. An instrument that told those desks `split-tier` would have stopped rotations that worked (reader ❌2). Re-open only on a declared floor that survives a re-measure. |
+| 5a(iii) "declare over budget" | **WITHDRAWN** | Contradicts READ_CAP rules 1, 2 and 4 and overlaps P5, which is Will's call (reader ❌1). |
+| 5a(i)(ii) live-contract surfaces | **HELD**, no insertion | The one candidate (CREED VX.tsv) was resolved 9/26 under the existing rule 4(b) (`72303435c`). No live instance. |
+| β ≥95% headroom line | **BUILD, instrument only** (`read_cap_check.py`, mine; no canon change, rc unchanged) | Two live instances today the draft never named: CRUISE STATUS.md 32,105 B (99%), SHADE MEMORY.md 31,745 B (98%), both rc 0 and yellow. Reader's form: print the bytes of headroom (not "next append crosses"), threshold 30,922 B, plus a machine field. Its own build/test/read. |
+| α split-tier, γ live-contract marker | **NOT BUILT** | α depends on 5b. γ in `mode` would be a DEFECT row (`read_cap_check.py:449–452`). |
+
+**L380 route:** the row's class claim ("the fleet-wide instruction is WRONG rather than merely unmet") is **REFUTED on both measured instances**. I recommend PROME grade L380 RESOLVED-REFUTED with β as its only residue. That is PROME's row to grade; I do not close it.
