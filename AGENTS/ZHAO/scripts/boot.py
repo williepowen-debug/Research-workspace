@@ -17,6 +17,7 @@ Sections (printed most-actionable first):
                          Fired rows surface REGARDLESS of priority (OTTO/PAT-116).
   [5] OPEN PREDICTIONS — from PREDICTIONS.tsv
   [6] LEDGER STALENESS — count + oldest rows across all of VX.tsv
+  [7] NEXUS_BRIEF CAPS — ≤100 lines and ≤32,550 B (READ_CAP in NEXUS's perimeter)
 
 MUST be run with the repo venv (yfinance lives there, not system python3):
   .venv/bin/python AGENTS/ZHAO/scripts/boot.py
@@ -302,6 +303,30 @@ def section_ledger_staleness():
     return alerts
 
 
+BRIEF = ZHAO_DIR / "NEXUS_BRIEF.md"
+BRIEF_MAX_LINES = 100     # CLAUDE.md CLOSEOUT 4 / FILES row: "≤100 lines" (DAEDALUS PROSE-REMEDY, 2026-10-09)
+BRIEF_MAX_BYTES = 32550   # READ_CAP budget in NEXUS's boot perimeter (DAEDALUS rule-15 notice 2026-10-08)
+
+
+def section_brief_caps():
+    """[7] The two caps on NEXUS_BRIEF.md, typed so they stop living only in prose.
+    Lines = newline count (wc -l); bytes = raw on-disk size (wc -c). Each breach = 1 alert."""
+    print(f"\n[7] NEXUS_BRIEF CAPS  (≤{BRIEF_MAX_LINES} lines · ≤{BRIEF_MAX_BYTES:,} B)")
+    if not BRIEF.exists():
+        print("    🔴 NEXUS_BRIEF.md MISSING")
+        return 1
+    raw = BRIEF.read_bytes()
+    n_lines, n_bytes = raw.count(b"\n"), len(raw)
+    alerts = 0
+    for label, val, cap in (("lines", n_lines, BRIEF_MAX_LINES), ("bytes", n_bytes, BRIEF_MAX_BYTES)):
+        bad = val > cap
+        alerts += bad
+        print(f"    {'🔴 OVER' if bad else '✓'} {label}: {val:,} / {cap:,}")
+    if alerts:
+        print("    → rotate the oldest blocks VERBATIM to archive/ (never reword, never raise the cap)")
+    return alerts
+
+
 def main():
     quick = "--quick" in sys.argv
     print("=" * 60)
@@ -314,6 +339,7 @@ def main():
         ("catalysts",       section_catalysts()),
         ("predictions",     section_predictions()),
         ("ledger",          section_ledger_staleness()),
+        ("brief caps",      section_brief_caps()),
     ]
     legs = [(n, v if isinstance(v, int) else 0) for n, v in legs]
     total = sum(v for _, v in legs)

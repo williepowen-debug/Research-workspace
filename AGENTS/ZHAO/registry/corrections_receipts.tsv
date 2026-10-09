@@ -1,2 +1,3 @@
 receipt_date	correction_id	action	note
 2026-09-17T12:48Z	COR-20260908-01	NO-OP	ZHAO carries neither the Ex99.2 nor the 10-Q wording nor a copied absence verdict (grep over AGENTS/ZHAO excl inbox/archive, 0 hits, VERIFIED 9/17); two-document form logged KB-ZHAO-141; board_log SIG-W-20260908-001 acted
+2026-10-09T14:35Z	COR-20261008-41	NO-OP	scope=ZHAO carries neither 'since 2001' nor 'the dataset lacks 2000 auctions' nor the 5.618 stop - grep over AGENTS/ZHAO excl. inbox/ = 0 files, 2026-10-09 EDT. -036 was INFO to ZHAO and no ZHAO surface consumed it; SIG-W-20261008-041 consumed, board_log row 2026-10-09
