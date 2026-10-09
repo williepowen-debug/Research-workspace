@@ -70,9 +70,11 @@ Sources: `fetch.py price TLT TBT` 16:19:17 ET; `chain_fetch.py TLT 2026-10-16 --
 
 | # | Choice | What it does | Desk view |
 |---|---|---|---|
-| **A** | **Exit both Friday** (§4–§6) | Takes the sleeve to $0 exposure; ≈ +$327 realized vs basis at tonight's marks; ends the D-60 path | ✅ **Desk lean.** BOND's recommendation in TERRY's construction |
-| B | Exit the 82P Friday, keep TBT | Removes ~90% of the duration exposure and the whole IRA-expiry problem; keeps a $422 linear short with no expiry and no rule | ⚠️ Keeps a slice of a killed thesis with no management rule on it (FORGE: *"no management rule"*). Only if Will wants a residual view against BOND's kill |
-| C | Hold both to the WQ-302 date (10/14) | Keeps the exposure ~8 more sessions | ⛔ Holding a killed thesis's main leg — exactly what a pre-registered kill exists to stop. The put earns no time value by waiting |
+| **A** | **Exit both at the next session, by Wed 10/14 15:00 ET** (§4–§6) | Takes the sleeve to $0 exposure; ≈ +$390 vs the $514.13 basis at the 10/7 close marks (≈ +$327 at the 10/1 marks); ends the D-60 path | ✅ **Desk lean.** BOND's recommendation in TERRY's construction |
+| B | Exit the 82P at the next session, by Wed 10/14 15:00 ET; keep TBT | Removes ~90% of the duration exposure and the whole IRA-expiry problem; keeps a ≈ $430 linear short (TBT ×10 at the 10/7 close) with no expiry and no rule | ⚠️ Keeps a slice of a killed thesis with no management rule on it (FORGE: *"no management rule"*). Only if Will wants a residual view against BOND's kill |
+| C | Hold both to the WQ-302 date (Wed 10/14), then decide after the 08:30 CPI | Keeps the exposure to Wed 10/14 (live path since Will's WQ-357 LATER, 10/3) | ⛔ Holding a killed thesis's main leg — exactly what a pre-registered kill exists to stop. The put earns no time value by waiting |
+
+*Choice text re-dated to the live clock on 2026-10-09 13:4x ET (TERRY, PROME packet DOCKET L660, card wording only): "Friday" meant Fri 10/02, which closed unused (ADDENDUM 2026-10-07). Figures re-based to the **10/7 close** marks already on this card (ADDENDUM 2026-10-07: sleeve ≈ $904, TBT ×10 $429.80; SCREENING, Fidelity governs); no new quote was pulled. Labels A/B/C, the desk view and every consequence are unchanged; no level moved. §§4–6 and the Decision line below keep the Fri 10/02 timing written on 10/1, as the dated record. Prior wording: `git show 76c75516b:AGENTS/TERRY/setups/DURATION-SHORTS_exit-card_WQ291_2026-10-01.md`.*
 
 ## 8. Why not / counter-case
 

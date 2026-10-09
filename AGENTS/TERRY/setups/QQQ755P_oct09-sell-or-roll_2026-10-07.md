@@ -170,3 +170,12 @@
 > **For Will (CURRENT, 2026-10-08 19:0x ET):** sell the **remaining QQQ $755P Oct-09 ×1** at **Fidelity's bid on Fri 10/09, morning preferred (09:45–10:30 ET)**, in the same window as the $750C ×1. **Never into Friday's close.** It is ≈ $7.42 in the money [10/8c], and a slipped sale lands on the ≈ $75,500 assignment branch, which is ≈ 85% likely at an unchanged QQQ (model). **No roll.** ⚠️ Every figure here is a close or a vendor end-of-session quote. Fidelity's bid at the open governs.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**
+
+---
+
+## 10. NOTE 2026-10-09 Fri, written 13:4x ET: this line's Friday disposition is UNKNOWN to the desk. PROME spawn (prome-75, Tier 1, DOCKET L660)
+
+- Will's 09:52 ET Fidelity screenshot (relayed by PROME) shows **only** the sale of the `MGMT-QQQ750C-OCT09` ×1 (@ $2.38, booked on that card § 8). **Whether this 755P ×1 was sold on 10/9, and at what price, is UNKNOWN. Nothing is inferred and nothing is booked here.**
+- **What changed:** the call is closed, so § 9's pair caveat ("no Friday close leaves both lines out of the money") no longer applies. **If this put is still held, its own rail stands unchanged: SELL at Fidelity's bid, never into Friday's close** (in the money at the close ⇒ the IRA sells 100 QQQ at $755 ≈ $75,500 short; Fidelity's handling UNOBSERVED, D-60). Any fill is booked on Will's next screenshot or Activity view (root rule #10).
+
+**APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**

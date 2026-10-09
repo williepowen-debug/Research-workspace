@@ -3,7 +3,7 @@
 **Date:** 2026-10-08 Thu, written from 19:05 ET (`date` 19:05:09; reads 19:00–19:04 ET, all after the 16:00 close). **Session:** PROME spawn `terry-1008pm` (PROME's C5 commission, WQ-348, plus Tier-1 follow-up of PROME's 15:32 ET booking packet). Model: Claude Opus 5.5 (`claude-opus-5-5`).
 **Id:** `MGMT-QQQ750C-OCT09`. A management card on a line Will opened by his own hand. No SETUPS row (management-card convention); registered in `setups/INDEX.md`. ⛔ **A new identity.** It does not continue any earlier QQQ card.
 **Thesis owner:** Will. No agent thesis is on file, so this is the off-thesis class. Will has not declared any link to the `MGMT-QQQ755P-OCT09` put, and this card infers none. § 4 states only what happens mechanically when both lines are held together.
-**Terry verdict:** 🔴 **SELL BEFORE FRIDAY'S CLOSE. Desk lean: SELL at Fidelity's bid on Fri 10/09, 09:45–10:30 ET, and no later than 12:00 ET. Do not carry it into the close. No roll.** Holding to the close is BAD STRUCTURE. Above $750 the IRA would have to buy 100 QQQ (≈ $75,000) with ≈ $11.4K of cash. Below $750 the call expires worthless. **Held alongside the 755P ×1, at least one of the two lines finishes in the money at ANY Friday close** (§ 4). **The times are a PROPOSAL for Will. Nothing registers them as a deadline until he adopts them.**
+**Terry verdict:** 🔒 **CLOSED 2026-10-09 — SOLD TO CLOSE ×1 @ $2.38 by Will's own hand (limit $2.32 Day; proceeds $237.34; realized ≈ +$80.68 vs the $156.66 basis). Fill booked in § 8 (root rule #10). Nothing left on this line.** *(The 10/8 19:05 ET verdict — sell before Friday's close, morning window, no roll — is the dated record: `git show beb763aa3:AGENTS/TERRY/setups/QQQ750C_oct09-sell-or-roll_2026-10-08.md`.)*
 **Confidence in the read:** Medium on structure, Low on marks. After hours the option quotes are dead, so tonight's figures are vendor end-of-session screening quotes, and Friday's marks come from Fidelity's bid at the open.
 **`$0` MOVED · NO ORDER · NO NEW TRADE PROPOSED · NO GATE OR THRESHOLD MOVED.** The order is Will's (root rule #5).
 
@@ -89,5 +89,23 @@
 
 > **For Will:** sell the QQQ $750C Oct-09 ×1 at **Fidelity's bid on Fri 10/09, 09:45–10:30 ET** (desk lean), **no later than 12:00 ET**. At an unchanged QQQ it is worth ≈ $172 at 09:45, ≈ $120 at noon and ≈ $28 at 15:00 (model), and it gets the $156.66 basis back only if QQQ is above ≈ $747.3 at 10:00. **Do not carry it into the close.** Above $750 the IRA would buy 100 QQQ for ≈ $75,000 against ≈ $12.7K of cash. With the 755P ×1 also held, **no Friday close leaves both lines out of the money**, so sell both lines that morning. **No roll is the desk's lean.**
 > ⚠️ Tonight's figures are the 10/8 close and vendor end-of-session quotes, not bids. Fidelity's chain at the open governs. Fidelity's handling of an in-the-money option in this IRA has never been observed (D-60).
+
+**APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**
+
+---
+
+## 8. FILL BOOKED 2026-10-09 Fri, written 13:4x ET (`date` 13:45:36): the line is CLOSED. Root rule #10, a record. PROME spawn (prome-75, Tier 1, DOCKET L660)
+
+**`$0` MOVED BY THE DESK · NO ORDER · NO GATE OR THRESHOLD MOVED.** Source: Will's Fidelity screenshot of 09:52 ET 10/9, relayed by PROME in the spawn brief (PROME's transcription; the screenshot itself is not on this desk's surfaces).
+
+| Order (Will's own hand) | Status | Net |
+|---|---|---|
+| Sell to Close 1 QQQ Oct 9 2026 750 Call, limit $2.32 (Day) | **FILLED at $2.38** | **+$237.34** |
+
+- **Realized ≈ +$80.68** ($237.34 − the $156.66 basis, § 1) ≈ **+51.5%**. Gross $238.00 − net $237.34 ⇒ **$0.66 of fees** (the $0.65 commission plus ≈ $0.01 Options Fee; INFERRED from gross minus net). The fill was $0.06 above the limit.
+- **Fill time: not shown.** The screenshot is 09:52 ET, so the fill is at or before 09:52; whether it fell inside the 09:45–10:30 ET window of § 3 is UNKNOWN. **No execution grade** (durable finding 6: grade only against marks taken at the same time). The § 3 model values are not compared to the fill for the same reason.
+- **On record, not graded:** $2.38 is below the ≥ $3.14 harvest level § 3 suggested and Will never adopted; it is above the 10/8 end-of-session screening bid of 1.92. The sale came before the close, so the § 4 exercise branch (buy 100 QQQ ≈ $75,000, UNFUNDABLE) is **void for this line**.
+- **Not known to the desk at this write, and NOT inferred:** whether the **`MGMT-QQQ755P-OCT09` ×1** was sold on 10/9, and at what price · whether the **`MGMT-USO150C-OCT09` ×1** was sold (its Fri 15:00 ET hard stop stands). Both are UNKNOWN until Will's next screenshot or Activity view.
+- **What this changes on the 755P card:** § 4's "no Friday close is safe with both lines held" was a property of the PAIR. With the call closed, it no longer applies. **If the 755P ×1 is still held, its own rail stands unchanged: never into Friday's close** (in the money at the close ⇒ the IRA sells 100 QQQ at $755 ≈ $75,500 short; D-60).
 
 **APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**

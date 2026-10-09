@@ -282,3 +282,9 @@ That makes the call a cheap, five-session option on the "no decision" outcome. I
 - **Roll: NONE** (unchanged). There is no fired trigger: BRENT's 10/8 read is not a new event-class arm and WQ-192 holds (durable finding 1). The 11:03 RE-PULL's #21 form (Oct-16 150C ×1, do-not-chase $2.75) remains Will's to take on his own word, not a desk recommendation, and must be re-priced on Fidelity's chain.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution** (no new action is proposed; the Friday sale at or before 15:00 ET is his order).
+
+---
+
+## NOTE 2026-10-09 Fri, written 13:4x ET: `MGMT-USO150C-OCT09` ×1 — Friday disposition UNKNOWN to the desk. PROME spawn (prome-75, Tier 1, DOCKET L660). The text above stands as written
+
+Will's 09:52 ET Fidelity screenshot (relayed by PROME) shows only the QQQ 750C Oct-09 sale. **Whether this USO 150C ×1 has been sold is UNKNOWN; nothing is inferred and nothing is booked.** The **Fri 10/09 15:00 ET hard stop stands** (WQ-366 DECLINE; DOCKET L605), and exercise in the money stays UNFUNDABLE ($15,000 against ≈ $11.4K cash, 10/8 capture). Any fill is booked on Will's next screenshot or Activity view (root rule #10). `$0` MOVED · NO NEW ASK.
