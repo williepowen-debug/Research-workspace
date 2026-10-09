@@ -1241,7 +1241,7 @@ SIG-W-20261007-015-rabigh-jeddah-fire-claim-unconfirmed	I	474a2402faeaedd0efaf6c
 SIG-W-20261007-016-metrics-redemption-suspension-september-event	I	bdac05933e77956875a7081f62a7c309e14d4ba5
 SIG-W-20261007-017-workday-cluster-metadata-correction	I	71290a3d39e06bc1cbbcf66660653bf0a28d0c43
 SIG-W-20261008-001-hurricane-isaias-northern-gulf-landfall-fri-sat-25pct-gulf-oil-shut-in-FL-panhandle-warning-AEOLUS-CORAL-BRENT	I	21cca88662276f77558aa17b1da69025bc0130a5
-SIG-W-20261008-002-trepp-september-office-cmbs-dq-12point2-relay-second-highest-not-record-CREED-T-01a-leg1-CREED-grade-on-PREREG	I	42ebc2571264ed601f05ef9e25a968c5c6e1ae59
+SIG-W-20261008-002-trepp-september-office-cmbs-dq-12point2-relay-second-highest-not-record-CREED-T-01a-leg1-CREED-grade-on-PREREG	I	de8d3c2ef7fb01c6f26ce24fe7f4643763d751e6
 SIG-W-20261008-003-OZK-closes-below-own-45-band-10-06-and-10-07-on-3x-volume-cause-unknown-OZK-grade	I	9e2a86707d9adbb7e7367567ad7389890e6c7f67
 SIG-W-20261008-004-tanker-cost-watch-TD3C-record-1point33M-per-day-reaccelerating-vs-1point22M-oct2-DHT-1point2M-gulf-of-oman-fixture-BRENT	I	0f767a0a3d50ace7d81d4cbd81980feb2c43168c
 SIG-W-20261008-005-HANS-T-13-UK-30Y-gilt-6point007-intraday-10-08-close-decides-fire-plus-UK-Budget-is-OCT-28-not-NOV-26-plus-JGB-records-HANS-BOND	I	8850776b783aa46fd64bd99c4c0d83e0c3e7d5e0
@@ -1292,3 +1292,13 @@ SIG-W-20261008-049-fed-discount-window-9-965B-wed-10-07-highest-since-jan-2024-a
 SIG-W-20261008-050-cre-cases-wymore-360-altamonte-springs-fl-33M-multifamily-special-servicing-foreclosure-strategy-dscr-0-65-st-lukes-office-allentown-intel-exit-CORAL-CREED	O	fefda78f2d23a1d07eed90053a65c7d7c8d4d699
 SIG-W-20261008-051-gilt-grade-input-cnbc-prior-close-uk-30y-5-9972-under-hans-t13-6-00-by-0-3bp-on-that-basis-both-vendor-closes-under-HANS-BOND	O	7048ad17fe00f8b4815e7b102803c55c4caf99dc
 SIG-W-20261008-052-japan-overnight-jgb-30y-4-073-minus-11bp-at-tokyo-open-cause-unknown-mof-30y-auction-10-08-4-121pct-household-spending-minus-3-1pct-SAM	O	56b95155af5b0f09aea905342471965b7e51954a
+SIG-W-20261009-001-HY-OAS-315bp-obs-10-8-now-1point6pct-under-the-320-line-NEAR-TRIGGER-not-a-fire-CCC-1252bp-new-window-high-LIQUID	I	2e755e7c730522e5c7f8b8ceea05c479f78ec1c7
+SIG-W-20261009-002-trepp-september-primary-office-dq-12point16-overall-8point02-highest-since-nov-2020-multifamily-8point04-CREED-T-01a-leg1-CREED-HOMER	I	e40baa69dfa130de6e5eddcbf99561cf02399894
+SIG-W-20261009-003-private-credit-valuation-suits-semafor-aggregation-SEC-staff-fair-value-statement-9-28-kellermeyer-marks-10c-to-par-OTF-PIK-share-is-of-NII-not-income-BROCK	I	fb66a2dc66b7ff1a97635b92ec3b1117017ff5d6
+SIG-W-20261009-004-isaias-MAJOR-hurricane-cat3-120mph-959mb-beat-NHC-peak-forecast-landfall-tonight-MS-to-FL-panhandle-surge-6-9ft-pensacola-destin-AEOLUS-CORAL-BRENT	I	3dc315c57848494060223779d73c9f4fd14634d1
+SIG-W-20261009-005-iran-morning-limb-UKMTO-160-26-vessel-hit-13nm-W-of-al-jazeera-UAE-IRGC-claims-NV-Sunshine-LPG-strike-NOT-merged-saudi-GACA-confirms-KKIA-hit-3-dead-10-8-FALCON	I	1a2a0ec65b88016bb4b669b968d0ac7f30d072d5
+SIG-W-20261009-006-morning-markets-JGB-30Y-rally-held-4point06-close-vendor-openai-projects-70B-by-end-2026-delta-cuts-FY-on-6B-fuel-ukhta-claim-SAM-VULCAN	O	b356ad68343465b006ba75852a4ea4e1e830eb40
+SIG-W-20261009-007-WAL-Q3-results-mon-10-19-after-close-call-tue-10-20-noon-ET-business-wire-10-06-WAL-header-says-unannounced-WAL	I	58caed2ecbc35fc68ca2173aa53b44468ebf87ef
+SIG-W-20261009-008-boundary-6-8-RULED-by-Will-8-nearest-common-named-month-3-official-settles-restart-at-switch-6-spike-50-kept-30-recross-retired-BRENT	I	299c381f8666af3cdecc39ab4facca3e3e247f96
+SIG-W-20261009-009-firmus-WITHDREW-ASX-IPO-10-09-public-market-refused-AI-datacentre-equity-at-30B-resolves-1008-024-cut-or-pull-VULCAN	I	c93dfd6be53d3041ff185055288330e6a24cc7e0
+SIG-W-20261009-010-CORRECTION-WFC-Q3-is-TUE-10-13-not-WED-10-14-bank-Q3-calendar-issuer-verified-BROCK-BRK-31-frame-frozen-CARL	I	ad4773ae8dd928dffbb95f8dee815a4a9f00de3b
