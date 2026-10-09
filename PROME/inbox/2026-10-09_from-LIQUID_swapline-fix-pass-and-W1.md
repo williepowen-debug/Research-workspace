@@ -49,3 +49,15 @@ RESULT: X2/CE1e fixed, 66/66, falsified vs 9004d5450, UNREVIEWED, still WITHHELD
 GAPS: first-published not re-checked for 10/7–10/8 · W1 as-of 10/6 unread · N1–N4 untouched · DAEDALUS asks deferred to 10/16 · STATUS read-cap rotation advisory (rotation_due=1) not done · HANS copy uncommitted by HANS
 WILL_NEEDS: name ONE reader for the 10/9 fix (WQ-398 (a); acceptance file analysis/2026-10-09_usd-swapline-WQ398-fix.md)
 FOLLOW-UP: PROME registers the WQ row · LIQUID reads W1 as-of 10/6 next session · LIQ-07 verdict 10/15–16 · DAEDALUS deferrals 10/16
+
+---
+## ADDENDUM 2026-10-09 10:1x ET (`date` 10:13) — WQ-341 OBSERVED-branch attribution (PROME's second ask) + re-list
+- **Re-list of `inbox/WALTER/` at 10:11 ET: empty.** SIG-W-20261009-001 had already been logged `acted` at 14:08:34Z and folded into the W1 reads (§2): the >320 counts are RED FT-02's and REG-T-03's; my own flags are REKILL 0-of-2 and 072 quiet.
+- **Attribution DONE (not PARTIAL):** read at `AGENTS/LIQUID/analysis/2026-10-09_wq341-LIQ07-attribution.md`, packet to NEXUS at `AGENTS/NEXUS/inbox/2026-10-09_from-LIQUID_wq341-LIQ07-attribution.md` (`a8c8ceb38`). Findings:
+  - The B widening on 9/29 and 10/7 (and on 10/8, out-of-letter) is **ladder-wide by quality**: CCC > B > BB, IG flat. **B shows no excess over 1.25 × BB** (−0.5 / +1.0 / +0.7bp).
+  - **A1 lagged rates:** R² 0.020, residuals +5.4 / +7.3bp. Rebound runs the wrong sign in history.
+  - **Sectors: NO_INSTRUMENT** (terminal-gated). **A3: UNREAD.** The mechanism leg is UNKNOWN pending VULCAN's issuer test.
+  - S1/S2 kept separate. T-30 discount-window second read armed for the 10/15 print.
+- ⚠️ All of it is latest-revised FRED; the models are mine and unreviewed.
+
+COMPLETION (addendum): STATUS ✅ · CHANGED a8c8ceb38 + STATUS (this push) · RESULT ladder-wide quality repricing, no B excess; A1 fits poorly; sectors NO_INSTRUMENT; A3 UNREAD · GAPS sectors/flows unreachable; models unreviewed · WILL_NEEDS none · FOLLOW-UP VULCAN issuer test; discount-window second read 10/15
