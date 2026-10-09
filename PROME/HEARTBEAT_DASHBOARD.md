@@ -60,3 +60,31 @@ This companion keeps render metadata outside the boot-read byte budget.
   }
 }
 ```
+
+*Twenty-eighth base — AMENDMENT #3 (2026-10-09 11:16 ET, PROME prome-75, desktop, mid-session closeout) — projection #3 (chain 2→3):*
+*source_sha256: `7af9def004b1031b36fbe341a52463c2a689a878da366048fc06386c82475b30` (over the exact `> **AMENDMENT #3 — ...` paragraph without its trailing newline)*
+*Affects: the one-liner (Friday's desk grades, the 750C fill, HY 315 0-of-3, PRED-50 OBSERVED without mechanism, S5 FIRED, Isaias MAJOR) and the Credit, AI-capex and War/Europe/Russia/housing channel headlines/bodies — owner grades mirrored; the fire-ledger fired nothing; no level, operator or blocking row changes by PROME. UNREVIEWED as every amendment is.*
+
+```dashboard-amendment
+{
+  "amendment": 3,
+  "source_sha256": "7af9def004b1031b36fbe341a52463c2a689a878da366048fc06386c82475b30",
+  "set": {
+    "one": "🔴 OIL JUMPED ON A THREAT; THE 30Y REOPENING PRINTED UNDER THE SECONDARY; FRIDAY'S DESKS GRADED NOTHING FIRED ON THE LEDGER: Brent Dec $103.36 (−0.9%) [vendor 09:43 10/9] after Thursday's threat-driven jump; Hurricane Isaias is now MAJOR (Cat 3, 120 mph, 959 mb at 7:20 CDT), landfall tonight — AEOLUS/CORAL grade Sat; HY OAS 315 [10/8] is 5bp UNDER the >320 line (RED and REGINALD both 0 of 3; the 10/1 324 was reset by 10/2), CCC 1,252 a window high, IG 82; NEXUS PRED-50 ✅ OBSERVED (B widened on quiet-rate days) but the attribution reads (LIQUID ladder-wide, VULCAN incumbents flat) found no mechanism — Root B stays a CANDIDATE; VULCAN S5 FIRED (Firmus withdrew its ~$4.9B ASX IPO; composite 15/25, the first fire on the book; n=1, equity not debt); the UK 30Y did NOT fire on the 10/8 close (TE 5.9384 vs 6.000; 5.954 live 10/9, still contested to the 10/28 Budget); FALCON's ladder HELD on the Riyadh airport hits and the Houthi threat; QQQ 748.68 [09:51 10/9]: Will SOLD the Oct-09 750C @ $2.38 (09:52 ET) and holds the 755P ×1 + the USO 150C (15:00 stop) — his hand; the Fed Oct hike is priced OUT (PM 15.5 / Kalshi 18.0); discount-window credit $9.965B [10/7], highest since at least Jan 2024, one print. X1 stays CLOSED (8/28). Book mirror = the 10/8 INTRADAY capture (ANVIL ef2bc83f1) + the 750C fill unreconciled. $0 moved by PROME; STAND DOWN holds (WQ-192).",
+    "channels": {
+      "Credit": {
+        "headline": "HY 315 [10/8], 5bp under 320; FT-02 and REG-T-03 both 0 of 3; CCC 1,252 window high; nothing fires",
+        "body": "RED 13af858d2 / REGINALD 53021ba16 (10/9): the 10/1 324 print was above 320 and 10/2's 310 RESET the run; first-published = latest-revised on every cell. RED net-bear 58→60 (discretionary), confidence 70. NEXUS PRED-50 OBSERVED (n=4 W=2 T=0 F=2, thin); LIQUID: ladder-wide repricing, no B excess, lagged rates R² 0.02; VULCAN: named B incumbents FLAT ⇒ mechanism leg FAILS on the letter, Root B stays a CANDIDATE. Discount-window primary credit $9.965B [10/7], one print; LIQUID's 2nd read 10/15. X1 CLOSED."
+      },
+      "AI capex": {
+        "headline": "S5 FIRED — Firmus withdrew its ~US$4.9B ASX IPO; composite 14→15/25, first fire on the book",
+        "body": "VULCAN 0ae869cf9 (10/9): graded PULLED on the 9/25 SB Energy rule, basis chosen by Will ~11:05 ET; fired-count 1 of 5; caveats n=1 · equity not debt · valuation refusal · private capital still open. MU FQ4 GM 86.76% re-checked at the 10-K, no correction. mag7 slot 5 + GPU #5 post-close ARMED (WQ-406)."
+      },
+      "War theaters + Europe + Russia + housing": {
+        "headline": "UK 30Y NOT FIRED on the 10/8 close (5.9384 vs 6.000), 5.954 live; FALCON ladder HELD; Isaias MAJOR; C2 killed on letter",
+        "body": "HANS 9d97586a3: T-13/T-06 NOT-FIRED 10/08 on TE closes (CNBC 0.3bp/1.5bp under on the London basis; both under, no straddle); contested to the 10/28 Budget. FALCON ba8bb15cf: B1/C14/D85 HELD — KKIA (3 killed) is an airport, the Houthi order a threat, hulls excluded. OSPREY fd547eaf4: C2 KILLED (mark ⚪1; feed leg UNVERIFIED pending L624 read 2; 3.76 print unconfirmed), C3 reset to RIO 3/21. Isaias Cat 3 / 120 mph / 959 mb at 7:20 CDT; landfall tonight; AEOLUS/CORAL Sat. WAL hotel $4,958M / 48.1% / LTV 54.0%, print Mon 10/19 AMC. Nano Banc retained-pool scenario 32–42% (REGINALD, supersedes 51–56%)."
+      }
+    }
+  }
+}
+```

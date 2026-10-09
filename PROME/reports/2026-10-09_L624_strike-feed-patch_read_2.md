@@ -1,0 +1,47 @@
+COLDREADER · OSPREY fix 04d8f06be — AGENTS/OSPREY/scripts/strike_feed.py (+ tests/test_strike_feed_L624.py, fixtures/palaemon_index_2026-10-09_anchors.html, feed/README.md) vs ACCEPTANCE_L624 (19308e88e) · 24 claims
+Stamp: Fri Oct 9 11:09:20 EDT 2026 (`date`). READ 2 of the episode (DOCKET L624, WQ-229 consequential). Read-only: tests ran under `-B` against scratch copies (`git show <rev>:…/strike_feed.py`) via STRIKE_FEED_PATH; counterexamples ran through the test file's own `run()` harness (fetch + date injected, temp ledger/out_dir); no network; `git status --short -- AGENTS/OSPREY/` empty after.
+SCORE: 16/24 ✅ · 7 ⚠️ · 1 ❌
+
+❌ 8 "the real newest is never dropped with no trace" (read-1 ❌10, second half) — closed for document order only, reopened by date defects. Side A, ACCEPTANCE:8 "A source that yields no row, or a row indistinguishable from a fresh read, looks like a quiet week" and :11 "the real newest is dropped with no trace (X2)"; strike_feed.py:121-122 "document order put an older 'most read' link first and the real newest was dropped with no trace". Side B, ACCEPTANCE:49 (residue 3) "the link sorts as old, a genuinely older bulletin is followed, and the typo'd one is dropped with no note". In the code, a link with an unusable date is skipped with no note (:134-135 `if s is None: continue`). Only FUTURE links get named (:139-140), and :250 then writes "newest of {n_index} index links" on the older item. Observed in CX1, CX1b and CX2 below: the PREVIOUS week's bulletin gets `BULLETIN — read manually`, NOT_READ=0, note "…newest of 2 index links", and the real newest appears nowhere in the output. That is exactly the "row indistinguishable from a fresh read". It is wider than the declared residue: a newest whose date does not parse at all (format drift, "Oct", "Week 41") fails OPEN, while AC5:20 says "freshness unknown fails closed". So residue 3 is a ❌ in disguise: a declared limit standing in for a fix, of the class this episode exists to end. The real index is newest-first in document order (test :120), so a followed item ≠ items[0] is a free tell, and the code discards it. Owner needs: any matching link outranking the followed one in document order, or undated/past-dated, is named in the note and fails closed (NOT_READ), not silently skipped.
+
+⚠️ 15 ACCEPTANCE:44 "AC7's four regression tests pass on all three versions" — class AC7 has THREE tests (test :236, :252, :258). The 1009 regression (:100) is AC4's class. The count is off by one, or the basis is unstated.
+⚠️ 16 pub_date column vs window: in CX3 (live mis-slug `…7th-13th-september-2026-1`), pub_date = 2026-09-07 (the legacy slug date, :290 `it["date"]`), but the note says "window 2026-09-14..2026-09-20 (title)". For within-month bulletins pub_date is the first day, while staleness keys on END. A stranger reading the TSV sees two dates for one bulletin and is not told which one governs.
+⚠️ 17 stdout summary on the body-fetch-failure path: CX4 (X1, fresh) prints "palaemon: 2 items, 0 kept (followed: BULLETIN)" (:294 uses f_label) beside a FETCH_FAILED row. NOT_READ=1 is correct, but the summary label reads like a successful read.
+⚠️ 18 BULLETIN_STALE cause text (:246) asserts "publisher stopped, or index cached". With `--days 3` (CX5b) the on-time 28 Sep–4 Oct bulletin read 10/9 is labelled STALE "publisher stopped". days_back is both the candidate window and the publisher-cadence test. This fails loud, in the safe direction, but the stated cause is wrong whenever days_back is less than about 7 d plus publication lag.
+⚠️ 19 README:38 still carries "The `follow_newest` bulletin is never age-filtered…" with a "⚠ Superseded 2026-10-09" tail appended to the same bullet. It is a change-log line, but a stranger skimming reads the old rule first.
+⚠️ 21 Residue 2 (cross-year slug with the year mid-string does not parse): this is a legitimate limit taken alone. Combined with title-first it is what lets CX1 fail. The correct slug cannot rescue a year-typo'd title, because the title wins whenever it parses.
+⚠️ 22 Residue 4 (body cut at 20,000 chars, script-dominated): pre-existing and declared. `matched_tokens` on the BULLETIN row come from script text, not the report, and a stranger can read them as report content. Fair as out-of-scope residue.
+
+✅ 1 Fixed code 20/20: `STRIKE_FEED_PATH=<04d8f06be copy> python3 -B -W error::ResourceWarning -m unittest …` gives "Ran 20 tests … OK". The copy is byte-identical to the worktree (cmp). pytest is not installed. `python3 -I -m unittest <path>` gives ImportError (`No module named 'AGENTS'`; -I drops cwd from sys.path, which is a harness artefact). `python3 -I -B <test file>` gives OK 20.
+✅ 2 46d6f6dea gives FAILED (failures=12): AC1×3, AC2×2, AC3×2, AC5×3, AC6×2, as claimed. The suite discriminates the reviewed patch.
+✅ 3 46d6f6dea^ gives FAILED (failures=11, errors=2). AC4 `test_within_month_bulletin_start_before_cutoff_end_inside` FAILS. The errors are test_real_slug_defect_window_from_title and the boundary test, both from 0 rows (silent drop).
+✅ 4 Read-1 ❌3 closed: AC4 (:92) is discriminating evidence (pre 0 rows, fixed 1 fresh row). The 10/9 shape is labelled non-discriminating (:101).
+✅ 5 Read-1 ❌9 closed in code, not just in the test: :257-262 make the body-failure path emit ONE FETCH_FAILED (newest post) row and set `items = []`. The exemption at :273 is keyed `it.get("followed")`, which is set only at :241.
+✅ 6 Read-1 ❌10 stale half: :245-246 with NOT_READ_MATCHES :146/:313 gives d_stale_months = BULLETIN_STALE with dates, NOT_READ=1. The boundary (END == cutoff is fresh) is tested at :186.
+✅ 7 Read-1 ❌10 document-order half (X2 as posed): max by END (:141-142); the June most-read link is not emitted.
+✅ 9 AC5 all-undated gives BULLETIN_UNDATED, counted (:243-244).
+✅ 10 AC5 future typo is ineligible and named (:136-140); a future-only index gives UNDATED.
+✅ 11 AC6: the warning goes to `note` (:254-256, :281) with the char count; EMPTY is distinguished.
+✅ 12 AC7: stale RSS and stale non-follow html_index items are still filtered (:273 is unchanged for non-followed items). COLS (:28) is unchanged. EMPTY_FEED/PARSER_STALE now key on n_index (:266-269), so the one-item narrowing cannot trip them.
+✅ 13 AC9: stdlib only, fixtures in TemporaryDirectory, absolute ledger/out_dir (os.path.join(ROOT, abs) = abs), fetch/date injected; no live-tree read.
+✅ 14 Real fixture: all 14 live titles parse to a window via bulletin_window (verified one by one). The `-1` slug reads 14–20 Sep from its title.
+✅ 20 Residue 1 (the 9/19–9/24 evidence base is not on disk): a genuine evidence limit; no code fix exists. Not disguised.
+✅ 23 Residue 5 (network used once, for the fixture only): a disclosure, consistent with the fixture header.
+✅ 24 Owner state IMPLEMENTED · TESTED · NOT INDEPENDENTLY VERIFIED: correctly unmerged (ACCEPTANCE:43-45).
+
+DESIGN CHALLENGE (END-of-window staleness, title read before slug):
+- END vs start: END is right when the dates are honest. A start-day test re-creates the L309 false drop (AC4). The boundary is correct. Silent-direction latency: a stopped publisher is flagged only when last END < today−10, roughly 2–3 d after the next bulletin was due. That is a design tolerance, not a wrong answer.
+- Wrong answer exists, from title-first combined with trusting self-reported dates over the index's own newest-first order. CX1 (January year typo, the most common date typo): newest titled "29th December - 4th January 2026" (slug correct, …-2027), read 2027-01-07. The title parses to 2025-12-29..2026-01-04 and sorts a year old, so the 22–28 Dec bulletin is followed as fresh, NOT_READ=0, and the real newest has no trace. Slug-first would have followed it (legacy date 2026-12-29 > 12-28). → ❌ 8.
+
+COUNTEREXAMPLES (new; run through the test file's harness, fixed code 04d8f06be)
+CX1 title year-typo on cross-year newest · run 2027-01-07 · observed: 22–28 Dec row "BULLETIN — read manually", NOT_READ=0, note "newest of 2 index links", typo'd newest absent · expected: newest flagged/named, NOT_READ≥1 · ❌
+CX1b past-year typo title+slug (declared residue 3) · run 2026-10-13 · observed: 28 Sep–4 Oct as fresh, NOT_READ=0, 5–11 Oct (typo'd 2025) absent · expected: named + fails closed · ❌
+CX2 format drift, newest "5th - 11th Oct 2026" / slug …-oct-2026 · run 2026-10-13 · observed: last week's bulletin as fresh, NOT_READ=0, newest absent · expected: unparsed newest ⇒ UNDATED-class, fails closed · ❌ (undeclared)
+CX2b newest "Week 41, 2026" · same as CX2 · ❌
+CX3 live mis-slug, title wins · observed pub_date 2026-09-07 vs note window 09-14..09-20 · expected one governing date · ⚠️
+CX4 X1 body 503, fresh · observed 1 FETCH_FAILED row ✅, summary "(followed: BULLETIN)" · ⚠️
+CX5b days_back=3, on-time bulletin · observed BULLETIN_STALE "publisher stopped", NOT_READ=1 · loud false cause · ⚠️
+CX6 title missing year, slug fine · observed window from slug, fresh, correct · ✅ (title-first falls back correctly)
+
+POINTERS: 8/8 resolve (read-1 ledger, ACCEPTANCE, test file, fixture, README, commits 04d8f06be / 19308e88e [acceptance alone, 1 file] / 46d6f6dea); dead: none.
+VERDICT: STILL UNRESOLVED. Read-1 ❌3 and ❌9 are closed, and so are ❌10's stale half and its document-order half. The suite discriminates as claimed (20 OK · 12 F · 11 F + 2 E). But pick_newest drops a real newest whose date is past-year-typo'd, title-typo'd or unparseable with no note and labels last week's bulletin fresh (NOT_READ=0). Declared residue 3 is that silence, not a limit (CX1/CX1b/CX2).
