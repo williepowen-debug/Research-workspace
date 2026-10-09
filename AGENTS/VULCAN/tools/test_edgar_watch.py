@@ -95,6 +95,31 @@ check("stale result carries how far behind it is", bool(nwo and nwo.get("behind_
 check("a HEALTHY series is not flagged stale", E.next_window(q, date(2026, 4, 1), fy, "10-Q").get("stale"),
       False, "the stale guard must not fire on a live series [guard must be specific]")
 
+# ── 4b. 52/53-WEEK FISCAL YEAR (added 2026-10-09, DAEDALUS PROSE-REMEDY (7)) ─────
+# MU's real FY ends. FY2026 was a 53-week year ending 2026-09-03; a 364-day step projected
+# 2026-08-27 and opened the 10-K window a week early.
+mu_fy = [date(2022, 9, 1), date(2023, 8, 31), date(2024, 8, 29), date(2025, 8, 28)]
+check("pre-FY26 history CANNOT identify the 52/53 case -> both candidates",
+      E.fy_end_candidates(mu_fy, 2026), [date(2026, 8, 27), date(2026, 9, 3)],
+      "anchor bounded to Aug 29-31 from history; Aug 31 picks 9/03, Aug 29-30 pick 8/27 — "
+      "picking one would repeat the 9/02 confident-derivation error")
+check("with FY26 filed the anchor is pinned -> FY27 end unique",
+      E.fy_end_candidates(mu_fy + [date(2026, 9, 3)], 2027), [date(2027, 9, 2)],
+      "Thursday closest to Aug 31, 2027 is Sep 2")
+check("non-52/53 filer (calendar month-ends) is left alone",
+      E.fy_end_candidates([date(2024, 5, 31), date(2025, 5, 31), date(2026, 5, 31)], 2027),
+      None, "spacing 365 is not a 52/53-week pattern; the guard must be specific")
+mu_k = [mk("2023-08-31", "2023-10-06"), mk("2024-08-29", "2024-10-04"),
+        mk("2025-08-28", "2025-10-03")]
+nwk = E.next_window(mu_k, date(2026, 9, 20), mu_fy, "10-K")
+check("MU 10-K window WIDENED across both FY ends when unidentified",
+      (nwk["period_end"], nwk["period_end_alt"], nwk["ambiguous_53wk"]),
+      (date(2026, 8, 27), date(2026, 9, 3), True),
+      "the real 10-K filed 2026-10-09 off a 9/03 period end must fall inside the window")
+check("the real MU FY26 10-K (filed 2026-10-09) lands INSIDE the widened window",
+      nwk["earliest"] <= date(2026, 10, 9) <= nwk["latest"], True,
+      "a window that excludes the observed filing is the defect, not a tolerance")
+
 # ── 5. TIERING MUST FAIL TOWARD VISIBILITY ───────────────────────────────────
 check("8-K is tier 1", E.tier("8-K"), 1, "material-agreement disclosures must surface")
 check("10-Q is tier 1", E.tier("10-Q"), 1, "")

@@ -247,6 +247,51 @@ def backtest(hist):
             f"(from n={w['n']}, med {w['med']}d, max {w['max']}d)")
 
 
+def fy_end_candidates(fy_ends, year):
+    """52/53-WEEK FISCAL YEARS — the FY end a 364-day step gets WRONG one year in ~6.
+
+    Added 2026-10-09 (DAEDALUS PROSE-REMEDY (7): carried as an "ignore the printed window"
+    caveat for 7 sessions). MU's FY2026 ended 2026-09-03, a 53-week year; a 364-day step
+    off 2025-08-28 projected 2026-08-27 and opened the 10-K window a week early.
+
+    A 52/53-week filer ends its year on the SAME WEEKDAY closest to a fixed anchor date
+    (MU: the Thursday closest to Aug 31). The anchor is not filed as data, so it is bounded
+    from the issuer's OWN history, zero free parameters: every observed end lies within
+    ±3 days of the anchor, so the anchor lies in [max(offset) − 3, min(offset) + 3].
+    Returns:
+      None            — not a 52/53-week filer (spacings not all in {364, 371}) or n < 2;
+      [d]             — the history identifies the target-year end uniquely;
+      [d, d + 7]      — the history CANNOT tell the 52- and 53-week cases apart. The caller
+                        must WIDEN the window across both, never pick one: picking is the
+                        9/02 error (a confident derivation off an unidentified parameter).
+    """
+    fy = sorted(set(fy_ends or []))
+    if len(fy) < 2:
+        return None
+    if any((b - a).days not in (364, 371) for a, b in zip(fy, fy[1:])):
+        return None
+    wd = fy[-1].weekday()
+    ref_m, ref_d = fy[-1].month, fy[-1].day
+
+    def off(d):  # signed days from the reference month-day in d's own year
+        return (d - date(d.year, ref_m, ref_d)).days
+
+    offs = [off(d) for d in fy]
+    lo, hi = max(offs) - 3, min(offs) + 3          # feasible anchor offsets
+    if lo > hi:                                     # history inconsistent with the rule
+        return None
+    base = date(year, ref_m, ref_d)
+
+    def nearest(anchor_off):
+        a = base + timedelta(days=anchor_off)
+        back = (a.weekday() - wd) % 7               # days back to the prior same-weekday
+        cand = a - timedelta(days=back)
+        return cand if back <= 3 else cand + timedelta(days=7)
+
+    c = sorted({nearest(o) for o in range(lo, hi + 1)})
+    return c
+
+
 def next_window(hist, today, fy_ends=None, form=""):
     """When can the NEXT filing of this form land? Derived, never inferred.
 
@@ -309,10 +354,31 @@ def next_window(hist, today, fy_ends=None, form=""):
             rolled += 1
             continue
         break
-    return {"period_end": nxt, "skipped_fy_quarter": skipped, "stale": False,
+    # 52/53-week correction (2026-10-09): if the step from the last period end to `nxt`
+    # crosses a fiscal-year end, re-derive that FY end from the weekday rule and shift.
+    alt, ambiguous = None, False
+    fy_sorted = sorted(set(fy_ends or []))
+    if fy_sorted and spacing >= 60:
+        naive_fy = None
+        for k in range(1, 3):
+            cand = fy_sorted[-1] + timedelta(days=364 * k)
+            if ends[-1] < cand <= nxt + timedelta(days=12):
+                naive_fy = cand
+                break
+        if naive_fy:
+            c = fy_end_candidates(fy_sorted, naive_fy.year)
+            if c:
+                near = min(c, key=lambda d: abs((d - naive_fy).days))
+                if abs((near - naive_fy).days) <= 7:
+                    nxt = nxt + (c[0] - naive_fy)
+                    if len(c) > 1:
+                        alt, ambiguous = nxt + (c[-1] - c[0]), True
+    last = alt or nxt
+    return {"period_end": nxt, "period_end_alt": alt, "ambiguous_53wk": ambiguous,
+            "skipped_fy_quarter": skipped, "stale": False,
             "earliest": nxt + timedelta(days=w["min"]),
             "typical": nxt + timedelta(days=w["med"]),
-            "latest": nxt + timedelta(days=w["max"]), **w}
+            "latest": last + timedelta(days=w["max"]), **w}
 
 
 def earnings_cadence(filings, today):
@@ -358,13 +424,21 @@ def earnings_cadence(filings, today):
     nxt_end = ends[-1] + timedelta(days=91)
     is_q4 = any(abs((f_ + timedelta(days=364 * k) - nxt_end).days) <= 10
                 for f_ in fy for k in range(0, 4))
+    # 52/53-week correction (2026-10-09) — same rule as next_window: a Q4 period end is a
+    # FY end, so re-derive it from the weekday rule; widen across both if unidentified.
+    alt_end = None
+    if is_q4:
+        c = fy_end_candidates(fy, nxt_end.year)
+        if c and abs((min(c, key=lambda d: abs((d - nxt_end).days)) - nxt_end).days) <= 7:
+            nxt_end, alt_end = c[0], (c[-1] if len(c) > 1 else None)
     use = q4 if (is_q4 and len(q4) >= 2) else pairs
     L = [p[2] for p in use]
-    return {"next_period_end": nxt_end, "is_q4": is_q4, "n": len(L),
+    return {"next_period_end": nxt_end, "next_period_end_alt": alt_end,
+            "is_q4": is_q4, "n": len(L),
             "min": min(L), "med": int(statistics.median(L)), "max": max(L),
             "earliest": nxt_end + timedelta(days=min(L)),
             "typical": nxt_end + timedelta(days=int(statistics.median(L))),
-            "latest": nxt_end + timedelta(days=max(L)),
+            "latest": (alt_end or nxt_end) + timedelta(days=max(L)),
             "basis": "FQ4-only" if use is q4 else "all-quarters",
             "recent": pairs[-4:]}
 
@@ -447,7 +521,8 @@ def main():
             if d_open <= 45:
                 earn_lines.append(
                     f"    {mark} {tick:<5} {lbl} EARNINGS 8-K (item 2.02) — period end "
-                    f"~{ec['next_period_end']}, release window "
+                    f"~{ec['next_period_end']}"
+                    f"{(' or ~' + str(ec['next_period_end_alt']) + ' (52/53-week unidentified)') if ec.get('next_period_end_alt') else ''}, release window "
                     f"{ec['earliest']} … {ec['latest']} (typical {ec['typical']}); "
                     f"lag n={ec['n']} min {ec['min']}d med {ec['med']}d max {ec['max']}d, "
                     f"basis {ec['basis']}")
@@ -477,11 +552,13 @@ def main():
                 cadence_lines.append(
                     f"    🔔 {tick:<5} {form:<5} WINDOW OPEN since {nw['earliest']} "
                     f"({-d_open}d) — typical {nw['typical']}, latest {nw['latest']}. "
-                    f"Period end ~{nw['period_end']}. CHECK NOW.")
+                    f"Period end ~{nw['period_end']}"
+                    f"{(' or ~' + str(nw['period_end_alt']) + ' (52/53-WEEK YEAR NOT IDENTIFIED BY HISTORY — window spans both)') if nw.get('ambiguous_53wk') else ''}. CHECK NOW.")
             elif 0 < d_open <= 21:
                 cadence_lines.append(
                     f"    ⏳ {tick:<5} {form:<5} window opens {nw['earliest']} (in {d_open}d) "
                     f"— typical {nw['typical']}. Period end ~{nw['period_end']}"
+                    f"{(' or ~' + str(nw['period_end_alt']) + ' (52/53-week year unidentified; window spans both)') if nw.get('ambiguous_53wk') else ''}"
                     f"{' (FY quarter skipped — covered by the annual report)' if nw['skipped_fy_quarter'] else ''}. "
                     f"⚠️ Watch from the EARLIEST date, not the typical one [L-22].")
 

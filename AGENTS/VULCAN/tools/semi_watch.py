@@ -197,7 +197,11 @@ def build_row() -> tuple[dict, int]:
     now = _dt.datetime.now(_dt.timezone.utc)
     row = {c: "" for c in COLUMNS}
     row["asof_utc"] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
-    row["trade_date"] = now.strftime("%Y-%m-%d")
+    # trade_date = the US EQUITY SESSION date (America/New_York), never the UTC run date:
+    # a post-close run at 20:00-24:00 ET is already tomorrow in UTC and would stamp the
+    # wrong session [L-38; fixed 2026-10-09 per DAEDALUS PROSE-REMEDY (3)].
+    from zoneinfo import ZoneInfo
+    row["trade_date"] = now.astimezone(ZoneInfo("America/New_York")).strftime("%Y-%m-%d")
 
     spot = fetch_spot()
     row.update(spot)
