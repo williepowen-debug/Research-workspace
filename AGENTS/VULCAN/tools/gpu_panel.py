@@ -38,6 +38,11 @@ VALIDATIONS (§9.6) — refuse to write, never degrade silently
   V4 spread    spread_pct written ONLY when both legs carry an identical
                declared price_basis; else the literal UNGRADEABLE.
   V5 n-floor   a cell under its floor writes an ERR: sentinel, not a number.
+  V7 fresh     every hand-read cell is from THIS slot: a dated vintage must lie in
+               [reading_date - 7d, reading_date + 1d] (7d = one weekly cadence
+               interval, derived); vintage UNSPECIFIED requires `read_on` within
+               +-1d of reading_date. A stale carry-forward is the L-16 failure —
+               drop the vendor and let V5 write the sentinel.       REFUSE
   V6 cross     dispersion between the two index constructions is RECORDED every
                reading. NO BAND IS SET — §6 forbids any threshold on this
                instrument until >=4 rows exist AND a base rate is stated. A band
@@ -71,8 +76,38 @@ TIER_D_INDICES = ("SDH100RT", "OCPI-H100")
 GPU_MODEL      = "H100_SXM"
 UNIT           = "USD_per_GPU_hour"
 
-# registered cadence (docket/CATALYSTS.tsv). Reading 1 (2026-09-11) was MISSED.
-CADENCE = ("2026-09-11", "2026-09-18", "2026-09-25", "2026-10-02")
+# registered cadence. Reading 1 (2026-09-11) was MISSED.
+# ⚠️ FIXED 2026-10-09: this was a hardcoded tuple ending 2026-10-02, so every slot of
+# the 9/29 extension (10/09 → 11/27) would have been stamped OFF-CADENCE — a dated carry
+# item that went stale without saying so. The cadence is now READ from the register it is
+# registered in (live + fired archives); the seed below is only the original four.
+CADENCE_SEED = ("2026-09-11", "2026-09-18", "2026-09-25", "2026-10-02")
+CADENCE_MARK = "gpu-rental panel reading"
+
+
+def load_cadence():
+    """Registered slot dates from docket/CATALYSTS.tsv + archive/CATALYSTS_FIRED_*.tsv.
+    Returns (set_of_dates, error_or_None). An unreadable register is REPORTED, never
+    treated as 'everything is on cadence'."""
+    dates, err = set(CADENCE_SEED), None
+    paths = [HERE / "docket" / "CATALYSTS.tsv"] + sorted((HERE / "archive").glob("CATALYSTS_FIRED_*.tsv"))
+    try:
+        for pth in paths:
+            for line in pth.read_text(encoding="utf-8").splitlines()[1:]:
+                f = line.split("\t")
+                if len(f) > 1 and CADENCE_MARK in f[1].lower():
+                    dates.add(f[0].strip()[:10])
+    except Exception as e:  # noqa: BLE001 — report, never swallow
+        err = f"CADENCE-REGISTER-UNREADABLE:{type(e).__name__}"
+    return dates, err
+
+
+CADENCE, CADENCE_ERR = load_cadence()
+
+# --- V7 freshness (added 2026-10-09, DAEDALUS profile refresh item 6: the tool accepted a
+# 26-day-old hand-read price as a new reading). The bound is DERIVED, not picked: the cadence
+# is weekly, so a hand-read older than one cadence interval belongs to an earlier slot.
+MAX_AGE_DAYS = 7
 
 VAST_URL = ("https://console.vast.ai/api/v0/bundles/?q=" + urllib.parse.quote(json.dumps(
     {"gpu_name": {"eq": "H100 SXM"}, "rentable": {"eq": True},
@@ -149,6 +184,36 @@ def v4_spread(leg_a, leg_b):
     return d, f"{round(100.0 * d / base, 2)}"
 
 
+def v7_fresh(cells, reading_date):
+    from datetime import date as _date, timedelta as _td
+    rd = _date.fromisoformat(reading_date)
+
+    def parse(v, what, c):
+        try:
+            return _date.fromisoformat(str(v)[:10])
+        except ValueError:
+            raise Refuse(f"V7 fresh: {c['vendor']} {what}={v!r} is not an ISO date")
+
+    for c in cells:
+        v = c.get("vintage", "")
+        if str(v).upper() == "UNSPECIFIED":
+            if "read_on" not in c:
+                raise Refuse(f"V7 fresh: {c['vendor']} vintage UNSPECIFIED and no read_on — "
+                             f"nothing proves the level was read at this slot")
+            ro = parse(c["read_on"], "read_on", c)
+            if abs((ro - rd).days) > 1:
+                raise Refuse(f"V7 fresh: {c['vendor']} read_on {ro} is {abs((ro - rd).days)}d "
+                             f"from reading_date {rd} (allowed +-1d)")
+            continue
+        vd = parse(v, "vintage", c)
+        if vd > rd + _td(days=1):
+            raise Refuse(f"V7 fresh: {c['vendor']} vintage {vd} is AFTER reading_date {rd} — typo?")
+        if (rd - vd).days > MAX_AGE_DAYS:
+            raise Refuse(f"V7 fresh: {c['vendor']} vintage {vd} is {(rd - vd).days}d old at "
+                         f"reading_date {rd} (max {MAX_AGE_DAYS}d) — a stale carry-forward; "
+                         f"re-read the page or drop the vendor [L-16]")
+
+
 def v5_floor(n, floor, label):
     return None if n >= floor else f"ERR:UNGRADEABLE-n{n}-below-floor{floor}-{label}"
 
@@ -166,9 +231,11 @@ def build_rows(reading_date, tier_a, tier_d, vast_asks, now=None):
     now = now or datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     offc = "" if reading_date in CADENCE else \
         " OFF-CADENCE: reading_date is not a registered slot — whoever chooses the run times chooses the readings [L-21]."
+    if CADENCE_ERR:
+        offc += f" {CADENCE_ERR}: on/off-cadence status UNVERIFIED."
 
     cells = list(tier_a) + list(tier_d)
-    v1_unit(cells); v2_model(cells); v3_purity(cells)
+    v1_unit(cells); v2_model(cells); v3_purity(cells); v7_fresh(cells, reading_date)
 
     rows = []
 
@@ -328,7 +395,8 @@ def selftest():
                       [dict(base, vendor=v, price=p) for v, p in
                        zip(TIER_A_VENDORS, (3.99, 6.155, 3.85, 3.90))],
                       [dict(base, vendor="SDH100RT", tier="index", price_basis="term_normalized",
-                            price=2.53, segment="neo-cloud", vintage="UNSPECIFIED"),
+                            price=2.53, segment="neo-cloud", vintage="UNSPECIFIED",
+                            read_on="2026-09-18"),
                        dict(base, vendor="OCPI-H100", tier="index", price_basis="term_normalized",
                             price=2.78, segment="all", vintage="2026-09-18")],
                       [1.7356, 1.8022, 1.8455, 1.8689, 2.0022, 2.6681], now="T")
@@ -337,11 +405,40 @@ def selftest():
     chk("no row is blank in a required column",
         all(all(r[i].strip() for i in (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 13, 14, 15)) for r in rows))
     chk("off-cadence reading_date is declared in notes",
-        "OFF-CADENCE" in build_rows("2026-09-14", [dict(base, vendor=v, price=1.0) for v in TIER_A_VENDORS],
+        "OFF-CADENCE" in build_rows("2026-09-14", [dict(base, vendor=v, price=1.0, vintage="2026-09-14") for v in TIER_A_VENDORS],
                                     [dict(base, vendor="SDH100RT", tier="index",
                                           price_basis="term_normalized", price=2.5,
-                                          segment="neo-cloud", vintage="U")],
+                                          segment="neo-cloud", vintage="2026-09-14")],
                                     [1.0] * 6, now="T")[0][16])
+    # V7 must FIRE on the exact defect DAEDALUS found: a 26-day-old hand price
+    def v7(cells, rd):
+        try:
+            v7_fresh(cells, rd); return False
+        except Refuse:
+            return True
+    chk("V7 fires on a 26-day-old vintage (the DAEDALUS case)",
+        v7([dict(base, vintage="2026-09-13")], "2026-10-09"))
+    chk("V7 passes exactly AT the bound (7d)", not v7([dict(base, vintage="2026-10-02")], "2026-10-09"))
+    chk("V7 fires one day past the bound (8d)", v7([dict(base, vintage="2026-10-01")], "2026-10-09"))
+    chk("V7 fires on a future vintage", v7([dict(base, vintage="2026-10-12")], "2026-10-09"))
+    chk("V7 fires on UNSPECIFIED with no read_on", v7([dict(base, vintage="UNSPECIFIED")], "2026-10-09"))
+    chk("V7 fires on UNSPECIFIED read 3 days off-slot",
+        v7([dict(base, vintage="UNSPECIFIED", read_on="2026-10-06")], "2026-10-09"))
+    chk("V7 passes UNSPECIFIED read at the slot",
+        not v7([dict(base, vintage="UNSPECIFIED", read_on="2026-10-09")], "2026-10-09"))
+    chk("V7 fires on a garbage vintage", v7([dict(base, vintage="last week")], "2026-10-09"))
+    # the shipped TEMPLATE is the 9/13 freeze — fed unedited at a later slot it must be REFUSED
+    try:
+        tpl = json.loads((HERE / "workbook" / "GPU_PANEL_INPUT_TEMPLATE.json").read_text(encoding="utf-8"))
+        chk("the unedited template is REFUSED at the 10/09 slot (stale carry-forward)",
+            v7(tpl["tier_a"] + tpl["tier_d"], "2026-10-09"))
+    except Exception as e:  # noqa: BLE001
+        chk(f"template readable for the V7 test ({type(e).__name__})", False)
+    # cadence must come from the register: the 9/29 extension slots are ON-cadence
+    chk("cadence register readable", CADENCE_ERR is None)
+    chk("2026-10-09 (reading 5) is a registered slot", "2026-10-09" in CADENCE)
+    chk("2026-11-27 (reading 12) is a registered slot", "2026-11-27" in CADENCE)
+    chk("an unregistered Saturday is NOT on cadence", "2026-10-10" not in CADENCE)
     print("SELFTEST", "PASS" if ok else "FAIL")
     return 0 if ok else 1
 
