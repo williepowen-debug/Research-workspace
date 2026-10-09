@@ -3959,3 +3959,5 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-10-09T14:05:38Z	SIG-W-20261009-006	BRENT	INFO	UNKNOWN	ROUTINE	AGENTS/BRENT/inbox/WALTER/SIG-W-20261009-006.md	written_not_delivered_pending_push	Create-only; 10/9 morning sweep residue; owner integration unverified
 2026-10-09T14:05:38Z	SIG-W-20261009-006	OSPREY	INFO	UNKNOWN	ROUTINE	AGENTS/OSPREY/inbox/WALTER/SIG-W-20261009-006.md	written_not_delivered_pending_push	Create-only; 10/9 morning sweep residue; owner integration unverified
 2026-10-09T14:05:38Z	SIG-W-20261009-006	BROCK	INFO	UNKNOWN	ROUTINE	AGENTS/BROCK/inbox/WALTER/SIG-W-20261009-006.md	written_not_delivered_pending_push	Create-only; 10/9 morning sweep residue; owner integration unverified
+2026-10-09T14:07:36Z	SIG-W-20261009-007	WAL	ACTION	UNKNOWN	PRIORITY	AGENTS/WAL/inbox/WALTER/SIG-W-20261009-007.md	written_not_delivered_pending_push	Create-only; dated catalyst; owner integration unverified
+2026-10-09T14:07:36Z	SIG-W-20261009-007	REGINALD	INFO	UNKNOWN	PRIORITY	AGENTS/REGINALD/inbox/WALTER/SIG-W-20261009-007.md	written_not_delivered_pending_push	Create-only; dated catalyst; owner integration unverified
