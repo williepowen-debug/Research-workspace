@@ -185,6 +185,7 @@ class DeckSplit(unittest.TestCase):
         self._expl10('A = Sell it now :: ≈ $100 || B = Hold to 10/14 :: nothing', 'cards/x.md#3')
         r, owed, reference = self.build()
         self.assertEqual(r['options_rows'], ['1']); self.assertEqual(r['options_warnings'], [])
+        self.assertNotIn('<dt>If yes</dt>', owed)                     # every unit has options ⇒ the buttons replace If yes / If no
         for frag in ('id="ch-1-A"', 'id="ch-1-B"', 'data-did="1"', 'class="otext">Sell it now<', '<span class="ocons">≈ $100<',
                      'id="lt-1"', 'id="note-1"', 'Full nothing', 'Full recommendation', 'cards/x.md</code> §3'):
             self.assertIn(frag, owed)
@@ -339,8 +340,10 @@ class DeckSplit(unittest.TestCase):
         self._expl10('PLAIN :: buttons held :: APPROVE=A — exit both at the live clock :: DECLINE=C — hold', '')
         r, owed, _ = self.build()
         for frag in ('id="tap-1" data-wq="1" data-did="1"', '<span class="otext" data-for="APPROVE">A — exit both at the live clock</span>',
-                     '<span class="otext" data-for="DECLINE">C — hold</span>', 'id="ap-1"', 'id="dc-1"', 'id="lt-1"'):
+                     '<span class="otext" data-for="DECLINE">C — hold</span>', 'id="ap-1"', 'id="dc-1"', 'id="lt-1"',
+                     '<dt>If yes</dt><dd>Full yes</dd>', '<dt>If no</dt><dd>Full no</dd>', '<dt>If nothing</dt>'):   # ep2 read 1 ❌1: all five lines survive on a PLAIN row
             self.assertIn(frag, owed)
+        self.assertNotIn('rule this decision only', owed)
         self.assertEqual(r['options_warnings'], [])
         self._expl10('PLAIN :: buttons held', '')                                      # no meanings ⇒ today's plain card
         r, owed, _ = self.build()

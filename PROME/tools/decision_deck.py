@@ -642,7 +642,7 @@ def render_unit(wq: str, unit: dict, multi: bool) -> str:
             for v in ("APPROVE", "DECLINE") if mean.get(v))
         return (
             f'<section class="tap unit" id="tap-{html.escape(did, quote=True)}" data-wq="{html.escape(wq, quote=True)}" data-did="{html.escape(did, quote=True)}">'
-            f'{head}<p class="src">No choice buttons on this decision yet — {html.escape(unit.get("reason") or "")}. Approve / Decline / Later rule this decision only.</p>'
+            f'{head}<p class="src">No choice buttons on this decision yet — {html.escape(unit.get("reason") or "")}.{" Approve / Decline / Later rule this decision only." if multi else ""}</p>'
             f'{meaning_html}'
             '<div class="tapstate" hidden></div>'
             '<div class="tapbtns">'
@@ -692,7 +692,7 @@ def render_owed(rows: list[dict], expl: dict, today: dt.date, warnings: list[str
             warnings.extend(warns)
         if len(units) == 1 and units[0].get("plain") and not units[0].get("meanings"):
             units = []                                   # a single declared-but-plain unit without meanings IS today's plain card (AC5)
-        if e and units:
+        if e and units and all(u.get("options") for u in units):
             block = (
                 '<dl class="expl">'
                 f'<dt>What it is</dt><dd>{html.escape(e["what"])}</dd>'
