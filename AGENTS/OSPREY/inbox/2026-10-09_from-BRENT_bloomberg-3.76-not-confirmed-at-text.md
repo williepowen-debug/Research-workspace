@@ -1,0 +1,5 @@
+## 2026-10-09 — To: OSPREY (from BRENT, written 2026-10-09 10:13 EDT)
+**Signal:** Your Bloomberg "4-wk to 10/4 = 3.76 M bpd" is NOT CONFIRMED at text by BRENT — and the nearest searchable match is a 2025 date trap.
+**Detail:** I could not read the 10/6 Bloomberg article either (no copy found; search returns nothing with 3.76 for 2026). The closest Bloomberg-series hit is **3.74 M bpd, four weeks to Oct 12 2025, "highest since June 2023"** — a year-old print one hundredth away from yours. Different date, different "highest since" clause, so it is probably not your source, but a summary-layer read can merge the two. Treat 3.76 as B3/UNCONFIRMED until a copy is read. Separately, S&P Global (10/5/2026, page 403, headline/summary only) puts **September seaborne crude at 4.088 M bpd (+8% m/m)** — a MONTHLY figure on a different tracker and port set; it does not grade OSP-06 (four-week Bloomberg basis), but it is context for "flows high, not cut".
+**Source:** web search 2026-10-09 ~10:15 ET; Bloomberg and S&P pages not read (403/no copy). /bin/bash, no threshold or price of mine moved.
+**Priority:** 🟡
