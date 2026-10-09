@@ -165,8 +165,13 @@ def checks(base):
     rec("1 STATUS updated", "desk", "PASS" if changed_since(base, "STATUS.md") or not touched else "FAIL",
         "STATUS.md changed since base" if changed_since(base, "STATUS.md") else "desk files changed but STATUS did not")
     sz = len(st_now.encode())
-    rec("1 STATUS read-cap headroom", "root Data Hygiene", "LOOK" if sz > 0.85 * STATUS_BUDGET else "PASS",
-        f"{sz:,} B = {100*sz/STATUS_BUDGET:.0f}% of the {STATUS_BUDGET:,} B budget (rotate before 100%)")
+    over = sz > 0.85 * STATUS_BUDGET
+    dfr = over and deferral_covers(st_now, "STATUS read-cap", t)
+    hard = sz > STATUS_BUDGET            # over budget: a deferral never covers this
+    rec("1 STATUS read-cap headroom", "root Data Hygiene",
+        "FAIL" if hard else ("LOOK" if over and not dfr else "PASS"),
+        f"{sz:,} B = {100*sz/STATUS_BUDGET:.0f}% of the {STATUS_BUDGET:,} B budget"
+        + (" — rotation DEFERRED with a date in STATUS" if dfr and not hard else " (rotate before 100%)"))
 
     # 2 workbook (validator)
     rc, out = run_cmd([sys.executable, str(DESK / "scripts" / "validate_workbook.py")])
