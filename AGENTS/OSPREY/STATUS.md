@@ -1,5 +1,5 @@
 # OSPREY STATUS
-**Last Updated:** 2026-10-09 (Fri) ~10:45 ET. PROME Tier-1 due-row wake (DOCKET L623, prome-75): C2 kill evaluation, C3 RIO attribution, whole-inbox drain 7/7. **Scores 5 / ⚪1 KILLED (C2, dormant-armed; last live mark 5) / 3. Band ~30% [EST] UNCHANGED.** Prior update 2026-10-08.
+**Last Updated:** 2026-10-09 (Fri) 13:04 ET (from `date`): PROME spawn (prome-75), DOCKET L624 fix pass 2 only; item 5 below. The ~10:45 ET header that follows is unchanged otherwise. PROME Tier-1 due-row wake (DOCKET L623, prome-75): C2 kill evaluation, C3 RIO attribution, whole-inbox drain 7/7. **Scores 5 / ⚪1 KILLED (C2, dormant-armed; last live mark 5) / 3. Band ~30% [EST] UNCHANGED.** Prior update 2026-10-08.
 **Evidence:**
 - `domain/energy-strikes/C2_KILL_EVAL_2026-10-09.md` (the verdict record) and KB-OSPREY-177…181.
 - `STRIKES.tsv`: +6 rows and 2 updated in place. **The swept-complete mark is ADVANCED 9/20 → 10/07 on a BOUNDED pass** (limits listed in the ledger header).
@@ -32,9 +32,11 @@
    - **Ukhta 10/9** (Zelensky-confirmed): the **newest C1 anchor, 0/30**.
    - **Midstream:** Volodarskaya products LPDS (Moscow region) 10/6, plus Samara LPDS 10/2 and 10/7. That is the C2 companion watch; it resets nothing.
    - **L544 (10/15):** the 14-day leg is unmet. KB-179.
-4. **Data-decree goods list (~10/8): SEARCH-NOT-FOUND.** Only the 9/28 decree's list of information categories exists. Bloomberg still printed on 10/6, so the export instrument is alive. **OSP-06:** 3.76 to 10/4 does not fail it, and search day 2 is done. KB-180.
-5. **Strike feed (for L624; NOT re-patched):**
-   - The bulletin row is present on 10/9, so the patch held, and there is no new silent drop.
+4. **Data-decree goods list (~10/8): SEARCH-NOT-FOUND.** Only the 9/28 decree's list of information categories exists. Bloomberg still printed on 10/6, so the export instrument is alive. **OSP-06:** 3.76 to 10/4 does not fail it, and search day 2 is done. KB-180. ⚠️ **3.76 is B3/UNCONFIRMED:** BRENT could not read it at text either. The nearest searchable hit is 3.74 to 12 Oct **2025**, a date trap. Limb 2 does not rest on it. KB-182.
+5. **Strike feed (DOCKET L624): ⛔ `strike_feed.py` WITHHELD from operational use until READ 3 is clean.**
+   - **10/9 PM:** READ 2 found STILL UNRESOLVED (1 ❌: a real newest with a bad date was dropped with no trace). **Fix pass 2 `4ea2b4539`** (acceptance first, `88d715d03`) names any possibly-newer link and fails it closed (`BULLETIN_NEWEST_UNSURE`, NOT_READ). Tests: 32 OK fixed, 14 F on `04d8f06be`.
+   - Not independently verified. This was the second correction pass, so the two-correction stop has tripped. The C2 feed leg stays UNVERIFIED.
+   - The 10/9 run's bulletin row is present, but that run cannot test the patch (read 1).
    - RIO was matched on the generic token `telegram`.
    - **`MATCHES_2026-09-15/16/29.tsv` were RECOVERED** (untracked on this host) and committed: 6/6 precise. The 9/16 Saratov half was absorbed into Syzran. KB-181.
 6. **§5 30-day EXIT RULES re-read DONE** (it was due 10/8):

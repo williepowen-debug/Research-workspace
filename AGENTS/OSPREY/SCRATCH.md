@@ -3,6 +3,13 @@
 ## CURRENT MARKS
 C1 / C2 / C3 = **5 / ⚪1 KILLED (dormant-armed; last live mark 5) / 3**. Band **~30%, 25–35% EST**, unchanged. Prices come from BRENT. This was a PROME Tier-1 due-row wake (DOCKET L623, prome-75). Full state: STATUS; verdict record: `domain/energy-strikes/C2_KILL_EVAL_2026-10-09.md`.
 
+## 10/9 PM: L624 FIX PASS 2 (PROME spawn prome-75, ~12:55–13:05 ET; this task only)
+- READ 2 found STILL UNRESOLVED (1 ❌8). Acceptance was committed first (`88d715d03`), then the fix (`4ea2b4539`). Any link that could be newer than the followed bulletin is now named and fails closed (`BULLETIN_NEWEST_UNSURE`).
+- Tests: 32 OK on the fixed code, 14 F on `04d8f06be`. The residue block is in `scripts/tests/ACCEPTANCE_L624_strike_feed_follow_newest.md`.
+- ⛔ **Two-correction stop TRIPPED on `strike_feed.py`.** No third pass of my own; any change goes through PROME's READ 3. The feed is **WITHHELD** until READ 3 is clean, and the C2 feed leg stays UNVERIFIED.
+- BRENT 10/9: 3.76 is not confirmed at text, and there is a 2025 3.74 date trap. It stays B3; no cell moved (KB-182, C2 record §2 receipt).
+- Inbox: 3 packets consumed (PROME read-1, PROME read-2, BRENT) and moved to `processed/`.
+
 ## CHANGES SINCE LAST SESSION (10/8)
 - ⚪ **C2 KILLED on its letter.** Limb 1 is 30/30 (Novorossiysk 9/9). Limb 2: the Bloomberg 4-wk was ≥ 3.5 throughout (3.76 to 10/4), and there is no shut-in signal (the 9/20 halt was offtake deterrence and reversed).
 - 🔄 **C3: AFRAMAX RIO QUALIFIES.** Zelensky's 10/7 "response in the Black Sea" post carries the tanker's video. **3/21; the earliest kill is 10/27.**

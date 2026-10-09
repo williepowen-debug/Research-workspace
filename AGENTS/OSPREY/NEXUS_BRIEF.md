@@ -3,6 +3,7 @@
 **Status:** Elevated, active Russia/Ukraine energy campaign. **2026-10-09: scores 5 / ⚪1 KILLED (C2, dormant-armed) / 3.** C2 killed on its letter (30/30 since Novorossiysk 9/9; 4-wk ≥3.5, 3.76 to 10/4; no shut-in signal). C3 clock reset to AFRAMAX RIO 10/6 (Zelensky 10/7 claim by video) = 3/21, earliest kill 10/27. Refineries still being hit (Volgograd halt verified, Omsk 10/8, Ukhta 10/9). Band ~30% unchanged.
 **Domain:** Russia/Ukraine military and energy-infrastructure evidence; prices owned by BRENT.
 **As of:** 2026-10-09 | **STATUS commit: see `git log -1 -- AGENTS/OSPREY/STATUS.md`**
+**10/9 PM addendum (13:04 ET):** no score moved. ⚠️ Bloomberg 3.76 (4-wk to 10/4) is **B3/UNCONFIRMED**: BRENT could not read it at text either, and the nearest hit is a 2025 print (KB-182). C2 limb 2 does not rest on it. `strike_feed.py` L624 fix pass 2 is committed (`4ea2b4539`), and the feed stays **WITHHELD** until PROME's READ 3.
 
 🆕 **2026-10-09 (PROME Tier-1, DOCKET L623: C2 kill eval + C3 RIO attribution + inbox 7/7) — READ FIRST; supersedes the clocks below:**
 1. ⚪ **C2 (crude-export terminals) KILLED 10/9.** It re-arms at 5 on the next in-geography crude-terminal, pipeline or oil-port row. ⚠️ A missed in-geography event dated after 9/9 voids the kill as of its date. The port-level Novorossiysk restart is inferred, not read.
