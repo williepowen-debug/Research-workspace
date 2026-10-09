@@ -56,7 +56,12 @@ SWPT_TURN_ALERT_M = 15_000  # inside a turn window (as-of QE-7..QE+14). Max in-w
 MAX_OP_AGE_D = 22    # newest European op older than this -> UNGRADEABLE (longest normal ECB gap = 3-week year-end op)
 MAX_SWPT_AGE_D = 10  # SWPT as-of older than this -> UNGRADEABLE (weekly + a holiday-delayed H.4.1)
 HEADLINE_D = 14      # the headline grade covers European ops traded in the last 14 days
-API = "https://markets.newyorkfed.org/api/fxs/usdollar/search.json?startDate={a}&endDate={b}"
+# WQ-398 (a) AC-X2b (2026-10-09, UNREVIEWED until Will's named read): --baserate history floors, measured
+# 10/9 on real data — European trade dates have no gap > 21d since 2015-06-10 (before it, use was dormant
+# for months at a time); SWPT is weekly from 2007-01-03 with every gap exactly 7 days.
+CONTINUOUS_FROM = "2015-06-10"
+SWPT_FIRST_MAX = "2007-01-10"
+API ="https://markets.newyorkfed.org/api/fxs/usdollar/search.json?startDate={a}&endDate={b}"
 
 
 def _get(url, timeout=90, tries=3):
@@ -132,13 +137,102 @@ def swpt(a, limit=20):
     return sorted(out)
 
 
-def baserate():
-    """Replays the lines over history. Fails CLOSED (X2, read 2 2026-10-01): with either source
-    down it prints UNGRADEABLE and returns 2 — never a count off an empty leg."""
+def _isodate(v, what):
+    if not isinstance(v, str):
+        raise ValueError(f"malformed field {what}={v!r}")
     try:
-        allops = []
-        for y in range(2010, dt.date.today().year + 1):
-            allops += ops(f"{y}-01-01", f"{y}-12-31")
+        return dt.date.fromisoformat(v)
+    except ValueError:
+        raise ValueError(f"malformed field {what}={v!r}") from None
+
+
+def _num(v, what):
+    if isinstance(v, bool) or not isinstance(v, (int, float)) or v != v or v in (float("inf"), float("-inf")) or v < 0:
+        raise ValueError(f"malformed field {what}={v!r}")
+
+
+def check_ops(oplist):
+    """AC-X1p (WQ-398 a): every field the OPS leg reads must parse, or the WHOLE leg is DOWN.
+    A malformed op is never dropped-and-the-rest-graded: it could be the ALERT op."""
+    for x in oplist:
+        try:
+            who = f" (op traded {x.get('trade')!r}, {str(x.get('cp'))[:24]!r})"
+            if not isinstance(x.get("cp"), str) or not x["cp"]:
+                raise ValueError(f"malformed field cp={x.get('cp')!r}")
+            for k in ("trade", "settle", "mat"):
+                _isodate(x.get(k), k)
+            _num(x.get("bn"), "bn")
+            if isinstance(x.get("term"), bool) or not isinstance(x.get("term"), int) or x["term"] < 0:
+                raise ValueError(f"malformed field term={x.get('term')!r}")
+        except ValueError as e:
+            raise ValueError(f"{e}{who}") from None
+        except Exception as e:   # not a dict, etc.
+            raise ValueError(f"malformed op row {x!r}"[:200]) from None
+
+
+def check_swpt(rows):
+    """AC-X1p: every SWPT row must be (ISO as-of, finite non-negative number), or the leg is DOWN."""
+    for r in rows:
+        try:
+            d, v = r
+        except Exception:
+            raise ValueError(f"malformed SWPT row {r!r}"[:200]) from None
+        _isodate(d, "SWPT as-of")
+        _num(v, f"SWPT value (as-of {d!r})")
+
+
+def check_ops_history(by_year, today):
+    """AC-X2b (1)-(5): the NY Fed history is complete enough to count on, or raise naming the gap."""
+    for y, ol in by_year.items():
+        check_ops(ol)
+        out = [o["trade"] for o in ol if not (f"{y}-01-01" <= o["trade"] <= f"{y}-12-31")]
+        if out:
+            raise RuntimeError(f"the {y} request returned {len(out)} ops traded outside {y} (e.g. {out[0]}) — not {y}'s history")
+        if y < today.year and not any(o["cp"] in EU for o in ol):
+            raise RuntimeError(f"NY Fed returned no European op for {y} (every year 2010-2025 had >= 16 on 2026-10-09)")
+    seen = set()
+    for ol in by_year.values():
+        for o in ol:
+            k = (o["trade"], o["settle"], o["mat"], o["cp"], o["bn"], o["term"])
+            if k in seen:
+                raise RuntimeError(f"duplicate op across year fetches: {k}")
+            seen.add(k)
+    ds = sorted({dt.date.fromisoformat(o["trade"]) for ol in by_year.values() for o in ol
+                 if o["cp"] in EU and o["trade"] >= CONTINUOUS_FROM})
+    if not ds:
+        raise RuntimeError(f"no European op since {CONTINUOUS_FROM}")
+    for a, b in zip(ds, ds[1:]):
+        if (b - a).days > MAX_OP_AGE_D:
+            raise RuntimeError(f"European ops missing between {a} and {b} ({(b - a).days} days > {MAX_OP_AGE_D}; "
+                               f"continuous since {CONTINUOUS_FROM}) — partial history")
+    if (today - ds[-1]).days > MAX_OP_AGE_D:
+        raise RuntimeError(f"newest European op {ds[-1]} is older than {MAX_OP_AGE_D} days — truncated or stale history")
+
+
+def check_swpt_history(sw, today):
+    """AC-X2b (6)-(9): SWPT weekly history from the start of 2007, no missing week, current."""
+    check_swpt(sw)
+    if not sw:
+        raise RuntimeError("SWPT returned no usable rows")
+    if sw[0][0] > SWPT_FIRST_MAX:
+        raise RuntimeError(f"SWPT history starts {sw[0][0]}, after {SWPT_FIRST_MAX} — the GFC onset would be missing")
+    for (a, _), (b, _) in zip(sw, sw[1:]):
+        gap = (dt.date.fromisoformat(b) - dt.date.fromisoformat(a)).days
+        if gap != 7:
+            raise RuntimeError(f"SWPT weeks missing or misaligned between {a} and {b} ({gap} days, weekly series)")
+    if (today - dt.date.fromisoformat(sw[-1][0])).days > MAX_SWPT_AGE_D:
+        raise RuntimeError(f"SWPT newest as-of {sw[-1][0]} is older than {MAX_SWPT_AGE_D} days — truncated or stale history")
+
+
+def baserate(today=None):
+    """Replays the lines over history. Fails CLOSED (X2, read 2 2026-10-01; X2-residual, read 3
+    2026-10-08): with either source down OR PARTIAL (an empty year, a gap, a late start, a stale
+    tail, a malformed field) it prints UNGRADEABLE and returns 2 — never a count off part of a leg."""
+    today = today or dt.date.today()
+    try:
+        by_year = {y: ops(f"{y}-01-01", f"{y}-12-31") for y in range(2010, today.year + 1)}
+        check_ops_history(by_year, today)
+        allops = [o for ol in by_year.values() for o in ol]
         if len(allops) < 1000:
             raise RuntimeError(f"NY Fed history returned {len(allops)} ops since 2010 (expected > 1,000)")
     except Exception as e:
@@ -146,11 +240,14 @@ def baserate():
         return RC_UNGRADEABLE
     try:
         sw = swpt("2007-01-01", limit=2000)
+        check_swpt_history(sw, today)
         if len(sw) < 900:
             raise RuntimeError(f"SWPT returned {len(sw)} usable weekly rows since 2007 (expected > 900)")
     except Exception as e:
         print(f"UNGRADEABLE: --baserate SWPT leg failed ({e.__class__.__name__}: {e}) — no counts printed")
         return RC_UNGRADEABLE
+    print(f"history coverage (AC-X2b floor): European ops per year {[(y, sum(o['cp'] in EU for o in ol)) for y, ol in by_year.items()]}; "
+          f"none missing > {MAX_OP_AGE_D}d since {CONTINUOUS_FROM} · SWPT {sw[0][0]} -> {sw[-1][0]}, {len(sw)} weeks, no missing week")
     tur = [o for o in allops if o["cp"] in EU and is_turn(o)]
     print(f"turn ops 2010-now: {len(tur)} | TURN-WATCH hits {[(o['trade'], o['cp'][:3], round(o['bn'], 2)) for o in tur if TURN_WATCH_B <= o['bn'] < TURN_ALERT_B]} | "
           f"TURN-ALERT hits {[(o['trade'], o['cp'][:3], round(o['bn'], 2)) for o in tur if o['bn'] >= TURN_ALERT_B]}")
@@ -227,10 +324,15 @@ def ops_leg(oplist, today, err=None):
     """OPS leg on its own (X1). state OK / STALE / DOWN; grade ALERT / ORANGE / WATCH / below."""
     leg = dict(name="OPS", state="DOWN", reason="", grade=None, cad=[], newest=None)
     if err is not None:
-        leg["reason"] = f"NY Fed fetch failed ({err})"
+        leg["reason"] = f"NY Fed fetch or field check failed ({err})"
         return leg
     if not oplist:
         leg["reason"] = "NY Fed returned 0 operations in the window (ECB normally trades weekly)"
+        return leg
+    try:
+        check_ops(oplist)   # AC-X1p: a malformed row marks THIS leg DOWN, never raises
+    except ValueError as e:
+        leg["reason"] = f"NY Fed {e}"
         return leg
     eu = [o for o in oplist if o["cp"] in EU]
     if not eu:
@@ -255,10 +357,15 @@ def swpt_leg(swpt_rows, today, err=None):
     """SWPT leg on its own (X1). state OK / STALE / DOWN; grade ALERT / below."""
     leg = dict(name="SWPT", state="DOWN", reason="", grade=None, asof=None, value=None)
     if err is not None:
-        leg["reason"] = f"FRED SWPT fetch failed ({err})"
+        leg["reason"] = f"FRED SWPT fetch or field check failed ({err})"
         return leg
     if not swpt_rows:
         leg["reason"] = "SWPT returned no usable rows"
+        return leg
+    try:
+        check_swpt(swpt_rows)   # AC-X1p
+    except ValueError as e:
+        leg["reason"] = f"FRED {e}"
         return leg
     d, v = swpt_rows[-1]
     leg["asof"], leg["value"] = d, v
@@ -421,6 +528,86 @@ def selftest():
         g["ops"] = ops_boom
         out, rc = run(baserate)
         chk("X2 --baserate, NY Fed down -> UNGRADEABLE rc 2, no counts", (rc, out.startswith("UNGRADEABLE"), "turn ops" in out), (2, True, False))
+        # ---- WQ-398 (a) pass (2026-10-09, UNREVIEWED): AC-X2b · AC-X1p (analysis/2026-10-09_usd-swapline-WQ398-fix.md §A)
+        T = dt.date(2026, 10, 9)
+        def wednesdays(a, b):
+            d = a
+            while d <= b:
+                yield d
+                d += dt.timedelta(7)
+        def hist_ops(end, drop=lambda d: False):
+            out = []
+            for d in wednesdays(dt.date(2010, 1, 6), end):
+                if drop(d):
+                    continue
+                s, m = d + dt.timedelta(1), d + dt.timedelta(8)
+                out += [mk(str(d), str(s), str(m), ECB, 0.1, 7), mk(str(d), str(s), str(m), SNB, 0.05, 7)]
+            return out
+        def ops_from(hist, override=None):
+            def f(a, b):
+                if override and a[:4] in override:
+                    return override[a[:4]]
+                return [o for o in hist if a <= o["trade"] <= b]
+            return f
+        def hist_sw(a, b, drop=lambda d: False):
+            return [(str(d), 0.0) for d in wednesdays(a, b) if not drop(d)]
+        H, SWH = hist_ops(dt.date(2026, 10, 7)), hist_sw(dt.date(2007, 1, 3), dt.date(2026, 10, 7))
+        def BR(o, s, today=T):
+            g["ops"], g["swpt"] = o, (lambda *a, **k: s)
+            return run(baserate, today)
+        out, rc = BR(ops_from(H), SWH)
+        chk("X2b healthy synthetic history -> rc 0, coverage line + counts", (rc, "history coverage" in out, "turn ops" in out, "weeks ALERT since" in out), (0, True, True, True))
+        out, rc = BR(ops_from(H, {"2020": []}), SWH)
+        chk("X2b CE2a NY Fed empty for 2020 only -> rc 2 naming 2020, no counts", (rc, "for 2020" in out, "turn ops" in out), (2, True, False))
+        out, rc = BR(ops_from(H), hist_sw(dt.date(2008, 10, 1), dt.date(2026, 10, 7)))
+        chk("X2b CE2b SWPT starts 2008-10 -> rc 2, no SWPT count line", (rc, "starts 2008-10-01" in out, "weeks ALERT since" in out), (2, True, False))
+        out, rc = BR(ops_from(H), hist_sw(dt.date(2007, 1, 3), dt.date(2026, 10, 7), drop=lambda d: d == dt.date(2008, 10, 1)))
+        chk("X2b SWPT one week missing (2008-10-01) -> rc 2 naming the gap", (rc, "between 2008-09-24 and 2008-10-08" in out, "weeks ALERT since" in out), (2, True, False))
+        out, rc = BR(ops_from(H), hist_sw(dt.date(2007, 1, 3), dt.date(2026, 9, 9)))
+        chk("X2b SWPT newest as-of 30 days old -> rc 2", (rc, "newest as-of 2026-09-09" in out, "weeks ALERT since" in out), (2, True, False))
+        out, rc = BR(ops_from(hist_ops(dt.date(2026, 10, 7), drop=lambda d: dt.date(2016, 7, 1) <= d <= dt.date(2016, 12, 31))), SWH)
+        chk("X2b 2016 truncated after June -> rc 2 naming the gap", (rc, "missing between 2016-06-29 and 2017-01-04" in out, "turn ops" in out), (2, True, False))
+        out, rc = BR(ops_from(H, {"2020": [o for o in H if o["trade"][:4] == "2019"]}), SWH)
+        chk("X2b the 2020 request answered with 2019's ops -> rc 2", (rc, "traded outside 2020" in out, "turn ops" in out), (2, True, False))
+        y19 = [o for o in H if o["trade"][:4] == "2019"]
+        out, rc = BR(ops_from(H, {"2019": y19 + y19[:1]}), SWH)
+        chk("X2b one op returned twice -> rc 2 duplicate", (rc, "duplicate op" in out, "turn ops" in out), (2, True, False))
+        out, rc = BR(ops_from(hist_ops(dt.date(2026, 12, 16))), hist_sw(dt.date(2007, 1, 3), dt.date(2026, 12, 30)), dt.date(2027, 1, 5))
+        chk("X2b run 2027-01-05, 2027 empty, newest op 2026-12-16 -> NOT failed for the current year", (rc, "turn ops" in out), (0, True))
+        bad_h = [dict(o, mat="") if o["trade"] == "2018-05-02" and o["cp"] == ECB else o for o in H]
+        out, rc = BR(ops_from(bad_h), SWH)
+        chk("X2b malformed op in history -> rc 2, field named", (rc, "malformed field mat=''" in out, "turn ops" in out), (2, True, False))
+        out, rc = BR(ops_from(H), [])
+        chk("X2b healthy NY Fed + FRED empty -> rc 2 on the SWPT leg", (rc, "SWPT leg failed" in out, "weeks ALERT since" in out), (2, True, False))
+        # AC-X1p: a malformed field marks only its own leg DOWN (CE1e / CE1f, read 3)
+        ce1e = [dict(big[0], mat="")] + quiet
+        g["ops"], g["swpt"] = (lambda *a, **k: ce1e), (lambda *a, **k: [("2026-10-14", 50000.0)])
+        out, rc = run(run_live, t2)
+        chk("X1p CE1e European op mat='' + SWPT $50,000M -> SWPT line + ALERT · PARTIAL OPS DOWN, rc 3",
+            ("$50,000M as-of 2026-10-14" in out, "VERDICT (PROPOSED lines): ALERT-PROPOSED" in out, "PARTIAL: OPS DOWN" in out, "malformed field mat=''" in out, rc), (True, True, True, True, 3))
+        g["ops"], g["swpt"] = (lambda *a, **k: big), (lambda *a, **k: [("2026-13-01", 72.0)])
+        out, rc = run(run_live, t2)
+        chk("X1p CE1f SWPT as-of '2026-13-01' + $20B op -> op row + SWPT DOWN + ALERT, rc 3",
+            ("$20.000B" in out, "SWPT leg DOWN" in out, "VERDICT (PROPOSED lines): ALERT-PROPOSED" in out, rc), (True, True, True, 3))
+        raw = json.dumps({"fxSwaps": {"operations": [dict(tradeDate="2026-10-14", settlementDate="2026-10-15", maturityDate="2026-10-22",
+                          counterparty=ECB, amount=None, interestRate=4.15, termInDays=7)]}})
+        g["ops"], g["_get"], g["swpt"] = real_ops, (lambda *a, **k: raw), (lambda *a, **k: sw_ok)
+        out, rc = run(run_live, t2)
+        chk("X1p raw NY Fed amount=null through real ops() -> OPS DOWN, SWPT printed, rc 2",
+            ("OPS leg DOWN" in out, "$72M as-of 2026-10-14" in out, "VERDICT (PROPOSED lines): UNGRADEABLE" in out, rc), (True, True, True, 2))
+        g["_get"] = real_get
+        g["ops"], g["swpt"] = (lambda *a, **k: quiet + [mk("2026-10-13", "2026-10-14", "", "Bank of Japan", 0.1, 7)]), (lambda *a, **k: sw_ok)
+        out, rc = run(run_live, t2)
+        chk("X1p non-European op mat='' + quiet legs -> OPS DOWN, UNGRADEABLE rc 2 (fail closed)",
+            ("OPS leg DOWN" in out, "VERDICT (PROPOSED lines): UNGRADEABLE" in out, rc), (True, True, 2))
+        chk("X1p SWPT value NaN + $20B op (assess) -> ALERT, PARTIAL SWPT DOWN, rc 3",
+            A(big, [("2026-10-14", float("nan"))], t2), ("ALERT-PROPOSED", True, 3))
+        g["ops"], g["swpt"] = (lambda *a, **k: ce1e), (lambda *a, **k: [("", 50000.0)])
+        out, rc = run(run_live, t2)
+        chk("X1p both legs malformed -> verdict printed, UNGRADEABLE rc 2, no traceback",
+            ("VERDICT (PROPOSED lines): UNGRADEABLE" in out, rc), (True, 2))
+        v_m, rc_m, legs_m = assess(ce1e, sw_ok, t2)
+        chk("X1p assess() direct with a malformed op -> returns, OPS DOWN, rc 2", (legs_m[0]["state"], "malformed field mat" in v_m, rc_m), ("DOWN", True, 2))
         # AC-D2: WITHHELD refuses before any network call, leaks no grade, exit 4
         if WITHHELD:
             del calls[:]
@@ -448,32 +635,44 @@ def run_live(today):
     failing never hides the other leg's line or grade."""
     o = s = None
     oerr = serr = None
+    # AC-X1p (WQ-398 a): each leg's FIELD CHECK sits inside that leg's own try, so a malformed
+    # field marks only that leg DOWN (CE1e/CE1f, read 3: it used to crash after the try blocks).
     try:
         o = ops(str(today - dt.timedelta(days=60)), str(today))
+        check_ops(o)
     except Exception as e:
-        oerr = f"{e.__class__.__name__}: {e}"[:200]
+        o, oerr = None, f"{e.__class__.__name__}: {e}"[:200]
     try:
         s = swpt(str(today - dt.timedelta(days=120)))
+        check_swpt(s)
     except Exception as e:
-        serr = f"{e.__class__.__name__}: {e}"[:200]
+        s, serr = None, f"{e.__class__.__name__}: {e}"[:200]
     print("⛔ Lines are PROPOSED, NOT REGISTERED (Will's word). Usage = ceiling-binding, not a basis level.")
     if oerr:
-        print(f"NY Fed USD swap operations: FETCH FAILED ({oerr}) — OPS leg DOWN")
+        print(f"NY Fed USD swap operations: FETCH OR FIELD CHECK FAILED ({oerr}) — OPS leg DOWN")
     else:
-        eu = [x for x in o if x["cp"] in EU]
-        print(f"NY Fed USD swap operations, last 60 days: {len(o)} ops ({len(eu)} European, all printed; "
-              f"{len(o) - len(eu)} non-European not graded). Posted at settlement:")
-        for x in sorted(eu, key=lambda x: x["trade"]):
-            print(f"  trade {x['trade']} settle {x['settle']} {x['term']:>3}d {x['cp'][:24]:<24} ${x['bn']:.3f}B @ {x['rate']}%  -> {grade(x)}")
+        try:
+            eu = [x for x in o if x["cp"] in EU]
+            print(f"NY Fed USD swap operations, last 60 days: {len(o)} ops ({len(eu)} European, all printed; "
+                  f"{len(o) - len(eu)} non-European not graded). Posted at settlement:")
+            for x in sorted(eu, key=lambda x: x["trade"]):
+                print(f"  trade {x['trade']} settle {x['settle']} {x['term']:>3}d {x['cp'][:24]:<24} ${x['bn']:.3f}B @ {x['rate']}%  -> {grade(x)}")
+        except Exception as e:
+            o, oerr = None, f"{e.__class__.__name__}: {e}"[:200]
+            print(f"NY Fed USD swap operations: GRADING FAILED ({oerr}) — OPS leg DOWN")
     if serr:
-        print(f"FRED SWPT: FETCH FAILED ({serr}) — SWPT leg DOWN")
+        print(f"FRED SWPT: FETCH OR FIELD CHECK FAILED ({serr}) — SWPT leg DOWN")
     elif s:
-        d, v = s[-1]
-        lab = swpt_grade(d, v) + (" (turn window)" if swpt_in_turn_window(d) else "")
-        if (today - dt.date.fromisoformat(d)).days > MAX_SWPT_AGE_D:
-            lab += f" — STALE (> {MAX_SWPT_AGE_D} days)"
-        print(f"FRED SWPT (H.4.1, Wed level, ALL counterparties — global, not European): ${v:,.0f}M as-of {d} -> {lab}; prior: " +
-              ", ".join(f"{dd[5:]} {vv:,.0f}" for dd, vv in s[-5:-1]))
+        try:
+            d, v = s[-1]
+            lab = swpt_grade(d, v) + (" (turn window)" if swpt_in_turn_window(d) else "")
+            if (today - dt.date.fromisoformat(d)).days > MAX_SWPT_AGE_D:
+                lab += f" — STALE (> {MAX_SWPT_AGE_D} days)"
+            print(f"FRED SWPT (H.4.1, Wed level, ALL counterparties — global, not European): ${v:,.0f}M as-of {d} -> {lab}; prior: " +
+                  ", ".join(f"{dd[5:]} {vv:,.0f}" for dd, vv in s[-5:-1]))
+        except Exception as e:
+            s, serr = None, f"{e.__class__.__name__}: {e}"[:200]
+            print(f"FRED SWPT: GRADING FAILED ({serr}) — SWPT leg DOWN")
     else:
         print("FRED SWPT: no usable rows — SWPT leg DOWN")
     v, rc, _ = assess(o or [], s or [], today, oerr, serr)
