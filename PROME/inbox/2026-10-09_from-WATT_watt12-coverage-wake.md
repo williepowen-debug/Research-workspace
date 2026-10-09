@@ -34,3 +34,5 @@ RESULT: 10/7 PJM 5-min $2,978/MWh at ~94 GW with 70.3 GW offline ⇒ WATT-12 HIT
 GAPS: AEOLUS interchange test + power_watch.py:178 float fix deferred to 10/23 (scope: wake, not build). Metered-vs-DR figures SECONDARY (not read at source). SIG-W-20261009-004 left unmoved (WALTER uncommitted).
 WILL_NEEDS: None.
 FOLLOW-UP: PROME registers the ② row verbatim; consider a 10/12 wake (Capacity Advisory day) — WATT's own next boot is due ≤10/16 and de-escalation ≥10/15.
+
+*Receipt 2026-10-09 10:08 ET: SIG-W-20261009-004 MOVED to processed after WALTER committed it (8100f74f8); WATT consume commit in the push receipt. WATT inbox census now 0 · 0.*
