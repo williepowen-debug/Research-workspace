@@ -41,7 +41,7 @@ The `follow_newest` source (Palaemon's weekly maritime-security bulletin, client
 ## Completion states (never merged) — filled 2026-10-09 11:01 EDT (from `date`)
 
 - **IMPLEMENTED:** `strike_feed.py` — `bulletin_window()` (window START..END from the anchor TITLE first, slug second; cross-year by month order; span 0–14 d else unparsed), `pick_newest()` (latest END, ties → document order, START after run date ineligible and named), the followed-bulletin block moved out of the index `try` (one followed item on body success; on body failure ONE `FETCH_FAILED (newest post)` row carrying the followed date, its stale/undated label and window, `items = []`), the age-filter exemption keyed on the ITEM (`it.get("followed")`), labels `BULLETIN_STALE` / `BULLETIN_UNDATED`, body warning to `note` (char count; `EMPTY` distinguished), `NOT_READ` counts `NOT_READ_TITLES` (title) + `NOT_READ_MATCHES` (ledger_match), EMPTY_FEED / PARSER_STALE keyed on the INDEX count (`n_index`) so narrowing to one item cannot trip them, summary names the followed label. Also one pre-existing line: config read via `with open(...)` (the unclosed handle made the `-W error::ResourceWarning` run noisy). README labels updated.
-- **TESTED:** `python3 -W error::ResourceWarning -m unittest AGENTS/OSPREY/scripts/tests/test_strike_feed_L624.py` → **Ran 20, OK** (`grep -c 'def test_'` = 20). **Fails first (AC8):** same file with `STRIKE_FEED_PATH` = `git show 46d6f6dea:…/strike_feed.py` → **12 failures** (AC1 ×3, AC2 ×2, AC3 ×2, AC5 ×3, AC6 ×2); with `46d6f6dea^` → **11 failures + 2 errors** (the AC4 within-month reproduction FAILS there, as required; the 2 errors are IndexError on 0 rows = the silent drop). The 10/9-shape test passes on all three versions and is labelled non-discriminating. AC7's four regression tests pass on all three versions (no change elsewhere). Real fixture: all 14 live titles parse to a window; the live mis-slugged link (`…7th-13th-september-2026-1`) reads 14–20 Sep from its title.
+- **TESTED:** `python3 -W error::ResourceWarning -m unittest AGENTS/OSPREY/scripts/tests/test_strike_feed_L624.py` → **Ran 20, OK** (`grep -c 'def test_'` = 20). **Fails first (AC8):** same file with `STRIKE_FEED_PATH` = `git show 46d6f6dea:…/strike_feed.py` → **12 failures** (AC1 ×3, AC2 ×2, AC3 ×2, AC5 ×3, AC6 ×2); with `46d6f6dea^` → **11 failures + 2 errors** (the AC4 within-month reproduction FAILS there, as required; the 2 errors are IndexError on 0 rows = the silent drop). The 10/9-shape test passes on all three versions and is labelled non-discriminating. AC7's three regression tests pass on all three versions (no change elsewhere). *(Corrected in pass 2, read-2 ⚠️15: this line said "four". The class has three: wrong_owner, index_404_and_empty, columns_unchanged. The 10/9-shape test is AC4's.)* Real fixture: all 14 live titles parse to a window; the live mis-slugged link (`…7th-13th-september-2026-1`) reads 14–20 Sep from its title.
 - **INDEPENDENTLY VERIFIED:** **NO — pending READ 2** (PROME commissions; WQ-229 consequential class). Passing the author's suite establishes TESTED only.
 - **STILL UNRESOLVED / declared residue (⚠️, not fixed):**
   1. Read-1 ⚠️7 stands: the 9/19–9/24 missing-bulletin runs are not on disk and the on-disk 9/29 run has no palaemon row, so "the patch covers every observed absence" is not established from disk. No code change can repair that evidence base.
@@ -102,3 +102,36 @@ The live index is newest-first in document order (real fixture). So a followed i
 | 3 | Wrong owner | the doubt rule runs only on `follow_newest` sources. A non-follow `html_index` with an undated link listed first is unchanged: no UNSURE, NOT_READ 0. Tested. |
 | 4 | Missing information | an unparseable link BELOW the followed one ⇒ still a doubt link (the index's newest is unknown) ⇒ UNSURE. A future-start link below ⇒ UNSURE. Tested. Duplicate hrefs keep their first position (pre-existing dedup, unchanged; not re-tested). |
 | 5 | Concurrent activity | N/A, as in pass 1: a single-writer CLI with one dated output pair per run. |
+
+## Completion states, pass 2 (never merged). Filled 2026-10-09 13:02 EDT (from `date`)
+
+- **IMPLEMENTED** (`strike_feed.py`):
+  - `pick_newest()` records each link's document position. It collects **doubt links**: links above the followed one, plus any link with no parseable date or a FUTURE start, anywhere on the index. It returns `(followed, eligible, doubts, n_dated)`.
+  - New label `BULLETIN_NEWEST_UNSURE`, added to `NOT_READ_MATCHES`. Its note names every doubt link and its reason (5 shown, then "+N more"). When the followed bulletin is also stale, the label carries `BULLETIN_STALE` inside it.
+  - The note says "latest window END of K dated index link(s), position P of N in document order". "newest of N" is gone.
+  - `pub_date` = window END for the followed row (⚠️16).
+  - The summary reads `(followed: FETCH_FAILED (newest post))` on a body failure (⚠️17).
+  - The STALE text names `run − days_back N d`. Below `CADENCE_DAYS` = 10 it says an on-time bulletin can read STALE, and gives no publisher cause. With a doubt link present it names the doubt link as a possible cause (⚠️18).
+  - On a body failure, the FETCH_FAILED note carries every `BULLETIN_*` state token.
+  - The output-file header lists the new label.
+  - README: the `BULLETIN_NEWEST_UNSURE` row, the `BULLETIN` and `BULLETIN_STALE` rows reworded, and the follow_newest bullet now leads with the current rule, with history after it (⚠️19).
+- **TESTED:** `python3 -B -W error::ResourceWarning -m unittest AGENTS/OSPREY/scripts/tests/test_strike_feed_L624.py` gives **Ran 32, OK**, and `python3 -I -B <test file>` also gives OK. That is 12 new tests (AC10 ×9, AC11 ×3) plus 3 pass-1 tests changed by design (X2, X3, real index).
+  - **Fails first (AC12):** `STRIKE_FEED_PATH` = `git show 04d8f06be:…/strike_feed.py` gives **14 failures**: 11 of the 12 new tests, plus all 3 changed tests.
+  - ⚠️ **AC12 as written over-claimed "every new pass-2 test FAILS".** `test_wrong_owner_non_follow_index_unchanged` passes on `04d8f06be` by design: it is a must-not-reach neighbour test, labelled NON-DISCRIMINATING in its docstring, like pass 1's 10/9-shape test.
+  - Older versions for the record: `46d6f6dea` gives 23 F, and `46d6f6dea^` gives 20 F + 4 E.
+  - Reader CX1 / CX1b / CX2 / CX2b each give `BULLETIN_NEWEST_UNSURE`, NOT_READ = 1, with the real newest named in the note. CX5b gives STALE with `days_back 3 … on-time`.
+  - The real 10/9 index stays fresh, NOT_READ = 0, at "position 1 of 14", with no UNSURE.
+- **INDEPENDENTLY VERIFIED: NO.** READ 3 is PROME's to commission, and it is the episode's last read. ⛔ This is OSPREY's second correction pass on this file, so the two-correction stop has tripped. Any further change needs READ 3's independent eye. `strike_feed.py` stays **WITHHELD** from operational use until READ 3 is clean.
+- **STILL UNRESOLVED / declared residue (pass 2):** each of READ 2's seven ⚠️ is named, then the new items.
+  - ⚠️15: **FIXED**. The pass-1 TESTED line is corrected in place, with a marker.
+  - ⚠️16, ⚠️17, ⚠️18: **FIXED** (AC11, tested).
+  - ⚠️19: **FIXED** (README).
+  - ⚠️21: **CLOSED IN EFFECT on a newest-first page.** CX1 now fails closed through AC10(a), because the typo'd newest sits above the followed link. Title-first and pass-1 residue 2 (a cross-year slug with the year mid-string does not parse) are **unchanged**. Remaining limit: on a page that is NOT newest-first, a year-typo'd real newest placed BELOW the followed link looks the same as an older bulletin and is still skipped. No order signal exists to catch it.
+  - ⚠️22: **DECLARED out of scope; pass-1 residue 4 stands.** The `matched_tokens` on the BULLETIN row come from the first 20,000 chars of a script-dominated page, not from the report. The row still says read manually.
+  - Pass-1 residue 3 (past-year typo): **SUPERSEDED.** AC10 closes it for the newest-first case, and the remaining limit is the same as ⚠️21's.
+  - Pass-1 residue 1 (the 9/19–9/24 evidence base is not on disk) and residue 5 stand.
+  - **N1, false alarms in the loud direction.** A pinned or featured older post, or a non-bulletin URL matching `link_pattern` above the newest, makes every run `BULLETIN_NEWEST_UNSURE` until the page changes. The live 10/9 index has none (real-fixture test). If it appears, the repair is `link_pattern`, never loosening AC10.
+  - **N2.** `WIN_RE` has no left digit boundary, so `\d{1,2}` can start inside a year. For example, `…2026-4th-january-2027` is tried as day 26. The 0–14-day span check rejects the one case found. No wrong window is known. Not fixed: noticed in pass 2 and outside ❌8.
+  - **N3.** `BULLETIN_NEWEST_UNSURE`, like pass 1's `BULLETIN_STALE` and `BULLETIN_UNDATED`, is a script-output token. It is not registered in `AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY.md`, which is DAEDALUS's to rule.
+  - **N4.** AC10's reading of "past-dated" (detectable only through order) is OSPREY's. READ 3 may contest it.
+  - **N5.** No network was used in pass 2, and no live `strike_feed.py` run was made.

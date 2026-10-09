@@ -121,29 +121,42 @@ def pick_newest(items, today):
     """L624 (read-1 X2): the followed bulletin is the link with the latest window END, never items[0] --
     document order put an older 'most read' link first and the real newest was dropped with no trace.
     Window read from the anchor TITLE first, slug second (a live slug, ...-7th-13th-september-2026-1, is
-    titled 14th-20th September). A START after the run date is a typo, ineligible as newest, and named.
-    Returns (item, eligible, notes); eligible=False => no usable date => the row reads BULLETIN_UNDATED."""
-    dated, future, notes = [], [], []
+    titled 14th-20th September). A START after the run date is a typo and ineligible as newest.
+    L624 pass 2 (read-2 ❌8): a date defect on the REAL newest (past-year typo, title year typo, format drift)
+    must never be skipped silently. The live index is newest-first in document order, so every matching link
+    ABOVE the followed one, and every link with no usable date anywhere on the index, is a DOUBT link: it could
+    be newer than what was followed. Doubt links are returned for naming; the caller fails the row closed.
+    Returns (item, eligible, doubts, n_dated); doubts = [(link, [reasons])] in document order;
+    eligible=False => no usable date => the row reads BULLETIN_UNDATED."""
+    dated, unusable = [], {}
     for i, it in enumerate(items):
         s, e = bulletin_window(it["title"]); basis = "title"
         if s is None:
             s, e = bulletin_window(it["url"]); basis = "slug"
         if s is None and it["date"]:
             s = e = it["date"]; basis = "slug date"
-        it["win"], it["win_basis"] = (s, e), basis
+        it["win"], it["win_basis"], it["pos"] = (s, e), basis, i
         if s is None:
-            continue
+            unusable[i] = "no parseable date"; continue
         if s > today:
-            future.append(it); continue
+            unusable[i] = f"FUTURE start {s.isoformat()}"; continue
         dated.append((e, -i, it))
-    if future:
-        notes.append(f"{len(future)} link(s) with a FUTURE date ignored as newest: " + ", ".join(f["url"] for f in future[:3]))
     if dated:
-        return max(dated, key=lambda x: (x[0], x[1]))[2], True, notes
-    return items[0], False, notes
+        followed, eligible = max(dated, key=lambda x: (x[0], x[1]))[2], True
+    else:
+        followed, eligible = items[0], False
+    doubts = []
+    for i, it in enumerate(items):
+        if it is followed:
+            continue
+        why = (["above the followed link"] if i < followed["pos"] else []) + ([unusable[i]] if i in unusable else [])
+        if why:
+            doubts.append((it, why))
+    return followed, eligible, doubts, len(dated)
 
 NOT_READ_TITLES = ("FETCH_FAILED", "EMPTY_FEED", "PARSER_STALE")
-NOT_READ_MATCHES = ("BULLETIN_STALE", "BULLETIN_UNDATED")
+NOT_READ_MATCHES = ("BULLETIN_STALE", "BULLETIN_UNDATED", "BULLETIN_NEWEST_UNSURE")
+CADENCE_DAYS = 10   # weekly bulletin (7 d) + ~3 d publication lag: below this days_back, an on-time bulletin can read STALE
 
 DF_MAX = 4          # a token shared by >=4 ledger rows is a CATEGORY, not an identity (DAEDALUS 9/10)
 CAND_RE = r"[a-z\u0430-\u044f\u0451\u0456\u0457\u0454\u04390-9\-]{5,}"
@@ -222,7 +235,7 @@ def main():
     out_rows, summary, match_rows = [], [], []
     for src in cfg["sources"]:
         sid = src["id"]
-        followed, f_notes, f_label = None, [], ""
+        followed, f_notes, f_label, f_sum = None, [], "", ""
         try:
             txt = fetch(src["url"])
             if src["kind"] == "rss":
@@ -237,17 +250,33 @@ def main():
             # L624: ONE followed bulletin -- the newest by window END (pick_newest). Every other index link is
             # dropped here, on body success AND on body failure (read-1 X1: on failure the whole index used to
             # bypass the age filter). Its freshness is LABELLED, never silently assumed (read-1 X2/d_stale).
-            followed, eligible, f_notes = pick_newest(items, today)
+            followed, eligible, doubts, n_dated = pick_newest(items, today)
             followed["followed"] = True
             s, e = followed["win"]
+            stale = ""
+            if eligible:
+                followed["date"] = e   # read-2 ⚠️16: ONE governing date per bulletin -- the window END staleness keys on
+                if e < cutoff:
+                    cause = (("the real newest may be a named doubt link, or " if doubts else "") + "publisher stopped, or index cached" if days >= CADENCE_DAYS else
+                             f"days_back {days} < {CADENCE_DAYS} (weekly cadence + publication lag), so an on-time bulletin can read STALE at this window; re-run at the default days_back before reading this as a stopped publisher")
+                    stale = (f"latest dated bulletin window ends {e.isoformat()} < cutoff {cutoff.isoformat()} = run − days_back {days} d"
+                             f" ({(today - e).days} d before run): {cause}")
             if not eligible:
                 f_label = "BULLETIN_UNDATED — read manually; no usable bulletin date, freshness unknown: treat as NOT read until opened"
-            elif e < cutoff:
-                f_label = f"BULLETIN_STALE — newest bulletin window ends {e.isoformat()} < cutoff {cutoff.isoformat()} ({(today - e).days} d before run): publisher stopped, or index cached — treat as NOT read"
+            elif doubts:
+                f_label = (f"BULLETIN_NEWEST_UNSURE — {len(doubts)} index link(s) could be newer than the followed bulletin and were NOT read"
+                           " (named in note): open the index and the named link(s) — treat as NOT read" + (f"; the followed bulletin is also BULLETIN_STALE ({stale})" if stale else ""))
+            elif stale:
+                f_label = f"BULLETIN_STALE — {stale} — treat as NOT read"
             else:
                 f_label = "BULLETIN — read manually"
+            f_sum = f_label.split(" — ")[0]
             if eligible:
-                f_notes.append(f"window {s.isoformat()}..{e.isoformat()} ({followed['win_basis']}); newest of {n_index} index links")
+                f_notes.append(f"window {s.isoformat()}..{e.isoformat()} ({followed['win_basis']}); pub_date = window END;"
+                               f" latest window END of {n_dated} dated index link(s), position {followed['pos'] + 1} of {n_index} in document order")
+            if doubts:
+                f_notes.append(f"{len(doubts)} doubt link(s), NOT read: " + "; ".join(f"{d['url']} [{', '.join(why)}]" for d, why in doubts[:5])
+                               + (f"; +{len(doubts) - 5} more" if len(doubts) > 5 else ""))
             try:
                 body = norm(fetch(followed["url"]))
                 followed["summary"] = body[:20000]
@@ -256,10 +285,11 @@ def main():
                                    + ("; EMPTY — possible bot-block stub" if not body else "") + ")")
                 items = [followed]
             except Exception as ex:
-                stale = "" if f_label.startswith("BULLETIN —") else " | " + f_label.split(" — ")[0]
+                states = " + ".join(re.findall(r"BULLETIN_[A-Z_]+", f_label))
                 out_rows.append([today.isoformat(), followed["date"].isoformat() if followed["date"] else "", sid, "FETCH_FAILED (newest post)", followed["url"], "", "",
-                                 str(ex)[:120] + stale + " | " + "; ".join(f_notes)])
+                                 str(ex)[:120] + (" | " + states if states else "") + " | " + "; ".join(f_notes)])
                 items = []  # the FETCH_FAILED row IS this source's one row
+                f_sum = "FETCH_FAILED (newest post)"   # read-2 ⚠️17: the summary must not read like a successful read
         kept = 0
         # Guard applies to EVERY source kind (DAEDALUS finding (3)): an html_index yielding
         # zero items used to emit no row at all — a dead scraper looked like a quiet week.
@@ -291,11 +321,11 @@ def main():
             if carry:
                 match_rows.append([today.isoformat(), it["date"].isoformat() if it["date"] else "", sid, it["title"][:200], it["url"], match, ",".join(carry), lfac])
             kept += 1
-        summary.append(f"{sid}: {n_index} items, {kept} kept" + (f" (followed: {f_label.split(' — ')[0]})" if followed is not None else ""))
+        summary.append(f"{sid}: {n_index} items, {kept} kept" + (f" (followed: {f_sum})" if followed is not None else ""))
     os.makedirs(os.path.join(ROOT, cfg["out_dir"]), exist_ok=True)
     outp = os.path.join(ROOT, cfg["out_dir"], f"FEED_CANDIDATES_{today.isoformat()}.tsv")
     with open(outp, "w", encoding="utf-8", newline="") as f:
-        f.write("# OSPREY strike feed — fetch-and-diff output. NONE = no STRIKES.tsv row within ±1 day sharing a PROPER-NOUN facility/vessel token (df<4): a human rows it or dismisses it with a reason. A <strike_id> row is a CLAIM, not a fact — its note carries the tokens that made the match; confirm the named ledger facility is the one in the headline before dismissing. FETCH_FAILED / EMPTY_FEED / PARSER_STALE (title) and BULLETIN_STALE / BULLETIN_UNDATED (ledger_match) mean the source was NOT read (absent ≠ quiet; stale ≠ quiet).\n")
+        f.write("# OSPREY strike feed — fetch-and-diff output. NONE = no STRIKES.tsv row within ±1 day sharing a PROPER-NOUN facility/vessel token (df<4): a human rows it or dismisses it with a reason. A <strike_id> row is a CLAIM, not a fact — its note carries the tokens that made the match; confirm the named ledger facility is the one in the headline before dismissing. FETCH_FAILED / EMPTY_FEED / PARSER_STALE (title) and BULLETIN_STALE / BULLETIN_UNDATED / BULLETIN_NEWEST_UNSURE (ledger_match) mean the source was NOT read (absent ≠ quiet; stale ≠ quiet; a possibly-newer link not read ≠ quiet).\n")
         w = csv.writer(f, delimiter="\t", lineterminator="\n"); w.writerow(COLS)
         for r in out_rows: w.writerow([str(x).replace("\t", " ") for x in r])
     # The COMMITTED audit trail: one line per <strike_id> match with its carrying evidence.

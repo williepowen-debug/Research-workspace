@@ -3,6 +3,7 @@
 
 Acceptance conditions (written first, committed alone): ACCEPTANCE_L624_strike_feed_follow_newest.md (same dir).
 Read-1 ledger these answer: PROME/reports/2026-10-09_L624_strike-feed-patch_read_1.md (fixtures X1-X4).
+Read-2 ledger (pass 2, AC10-AC12): PROME/reports/2026-10-09_L624_strike-feed-patch_read_2.md (CX1, CX1b, CX2, CX2b, CX5b).
 
 Run (stdlib only, no network, never reads the live ledger or feed dir):
     python3 -W error::ResourceWarning -m unittest AGENTS/OSPREY/scripts/tests/test_strike_feed_L624.py -v
@@ -114,7 +115,11 @@ class AC1_NewestByDateNotDocumentOrder(unittest.TestCase):
         p = src_rows(rows)
         self.assertEqual([r["url"] for r in p], [OCT[0]])
         self.assertFalse(any(JUN[0] == r["url"] for r in rows))
-        self.assertEqual(nr, 0)
+        # PASS 2 (AC10), superseded BY DESIGN: an older link ABOVE the followed one = date and order disagree
+        # => named in the note and NOT read (was nr == 0 in pass 1).
+        self.assertTrue(p[0]["ledger_match"].startswith("BULLETIN_NEWEST_UNSURE"), p[0]["ledger_match"])
+        self.assertIn(JUN[0], p[0]["note"])
+        self.assertEqual(nr, 1)
 
     def test_real_index_2026_10_09(self):
         """REAL fixture (live index, trimmed): newest-first document order, 14 bulletin links."""
@@ -127,6 +132,9 @@ class AC1_NewestByDateNotDocumentOrder(unittest.TestCase):
         self.assertTrue(p[0]["ledger_match"].startswith("BULLETIN — read manually"))
         self.assertIn("window 2026-09-28..2026-10-04 (title)", p[0]["note"])
         self.assertEqual(nr, 0)
+        # PASS 2 (AC10 must-not-fire): the live newest-first index raises no doubt
+        self.assertNotIn("NEWEST_UNSURE", p[0]["ledger_match"] + p[0]["note"])
+        self.assertIn("position 1 of 14", p[0]["note"]); self.assertNotIn("newest of", p[0]["note"])
         # same real index, read 10/20 with no newer post: the publisher looks stopped -> labelled, counted
         rows, nr, _ = run("2026-10-20", {src["url"]: html_, newest: BODY_OK}, sources=(src,))
         p = src_rows(rows)
@@ -208,7 +216,10 @@ class AC5_UndatedOrImplausible(unittest.TestCase):
         p = src_rows(rows)
         self.assertEqual([r["url"] for r in p], [OCT[0]])
         self.assertIn("FUTURE", p[0]["note"]); self.assertIn(typo[0], p[0]["note"])
-        self.assertEqual(nr, 0)
+        # PASS 2 (AC10), superseded BY DESIGN: a future-typo link above the followed one may be the real newest
+        # => NOT read (was nr == 0 in pass 1).
+        self.assertTrue(p[0]["ledger_match"].startswith("BULLETIN_NEWEST_UNSURE"), p[0]["ledger_match"])
+        self.assertEqual(nr, 1)
 
     def test_only_future_typo_is_undated(self):
         typo = (post("5th-11th-october-2062"), "Maritime Security Report: 5th - 11th October 2062")
@@ -258,6 +269,107 @@ class AC7_NoChangeElsewhere(unittest.TestCase):
     def test_columns_unchanged(self):
         rows, _, _ = run("2026-10-09", {BASE: index(OCT), OCT[0]: BODY_OK})
         self.assertEqual(list(rows[0].keys()), ["run_date", "pub_date", "source", "title", "url", "matched_tokens", "ledger_match", "note"])
+
+
+# ---------------------------------------------------------------- PASS 2 (READ 2 ❌8, ⚠️16-18) ----
+DEC = (post("22nd-28th-december-2026"), "Maritime Security Report: 22nd - 28th December 2026")
+CX1_NEW = (post("29th-december-2026-4th-january-2027"), "Maritime Security Report: 29th December - 4th January 2026")  # title year typo
+CX1B_NEW = (post("5th-11th-october-2025"), "Maritime Security Report: 5th - 11th October 2025")   # past-year typo, title + slug
+CX2_NEW = (post("5th-11th-oct-2026"), "Maritime Security Report: 5th - 11th Oct 2026")          # format drift
+CX2B_NEW = (post("week-41-2026"), "Maritime Security Report: Week 41, 2026")                    # format drift
+
+
+class AC10_DoubtLinksNamedAndFailClosed(unittest.TestCase):
+    def _unsure(self, rows, nr, named, followed_url=None):
+        p = src_rows(rows)
+        self.assertEqual(len(p), 1, [r["url"] for r in p])
+        self.assertTrue(p[0]["ledger_match"].startswith("BULLETIN_NEWEST_UNSURE"), p[0]["ledger_match"])
+        self.assertIn(named, p[0]["note"])
+        if followed_url: self.assertEqual(p[0]["url"], followed_url)
+        self.assertEqual(nr, 1)
+        return p[0]
+
+    def test_CX1_title_year_typo_on_cross_year_newest(self):
+        rows, nr, _ = run("2027-01-07", {BASE: index(CX1_NEW, DEC), CX1_NEW[0]: BODY_OK, DEC[0]: BODY_OK})
+        r = self._unsure(rows, nr, CX1_NEW[0], DEC[0])
+        self.assertIn("above the followed link", r["note"])
+
+    def test_CX1b_past_year_typo_title_and_slug(self):
+        rows, nr, _ = run("2026-10-13", {BASE: index(CX1B_NEW, OCT), CX1B_NEW[0]: BODY_OK, OCT[0]: BODY_OK})
+        r = self._unsure(rows, nr, CX1B_NEW[0], OCT[0])
+        self.assertNotIn("BULLETIN_STALE", r["ledger_match"])   # OCT ends 10/4 >= cutoff 10/3: the doubt alone fails it closed
+
+    def test_CX2_format_drift_month_abbrev(self):
+        rows, nr, _ = run("2026-10-13", {BASE: index(CX2_NEW, OCT), CX2_NEW[0]: BODY_OK, OCT[0]: BODY_OK})
+        r = self._unsure(rows, nr, CX2_NEW[0], OCT[0])
+        self.assertIn("no parseable date", r["note"])
+
+    def test_CX2b_format_drift_week_number(self):
+        rows, nr, _ = run("2026-10-13", {BASE: index(CX2B_NEW, OCT), CX2B_NEW[0]: BODY_OK, OCT[0]: BODY_OK})
+        r = self._unsure(rows, nr, CX2B_NEW[0], OCT[0])
+        self.assertIn("no parseable date", r["note"])
+
+    def test_overlap_doubt_and_stale_one_row_both_named(self):
+        rows, nr, _ = run("2026-10-20", {BASE: index(CX1B_NEW, OCT), CX1B_NEW[0]: BODY_OK, OCT[0]: BODY_OK})
+        r = self._unsure(rows, nr, CX1B_NEW[0], OCT[0])
+        self.assertIn("BULLETIN_STALE", r["ledger_match"])
+
+    def test_overlap_doubt_and_body_fetch_fails(self):
+        rows, nr, _ = run("2026-10-13", {BASE: index(CX2_NEW, OCT), OCT[0]: Err("HTTP Error 503: Service Unavailable")})
+        p = src_rows(rows)
+        self.assertEqual(len(p), 1)
+        self.assertTrue(p[0]["title"].startswith("FETCH_FAILED (newest post)"))
+        self.assertIn("BULLETIN_NEWEST_UNSURE", p[0]["note"]); self.assertIn(CX2_NEW[0], p[0]["note"])
+        self.assertEqual(nr, 1)
+
+    def test_missing_info_unparseable_link_below_followed(self):
+        below = (post("week-39-2026"), "Maritime Security Report: Week 39")
+        rows, nr, _ = run("2026-10-09", {BASE: index(OCT, below), OCT[0]: BODY_OK})
+        r = self._unsure(rows, nr, below[0], OCT[0])
+        self.assertIn("no parseable date", r["note"])
+
+    def test_missing_info_future_link_below_followed(self):
+        typo = (post("5th-11th-october-2062"), "Maritime Security Report: 5th - 11th October 2062")
+        rows, nr, _ = run("2026-10-09", {BASE: index(OCT, typo), OCT[0]: BODY_OK})
+        r = self._unsure(rows, nr, typo[0], OCT[0])
+        self.assertIn("FUTURE", r["note"])
+
+    def test_wrong_owner_non_follow_index_unchanged(self):
+        """NON-DISCRIMINATING by design (passes on 04d8f06be too): the doubt rule must not reach a non-follow source."""
+        ww = index(("https://ww.example/blog/tanker-hit-novorossiysk", "Tanker hit off Novorossiysk"),
+                   ("https://ww.example/blog/tanker-hit-novorossiysk-7th-october-2026", "Tanker hit off Novorossiysk"))
+        srcs = (PAL, {"id": "ww", "kind": "html_index", "url": "https://ww.example/blog", "link_pattern": "ww.example/blog/", "follow_newest": False})
+        rows, nr, _ = run("2026-10-09", {BASE: index(OCT), OCT[0]: BODY_OK, "https://ww.example/blog": ww}, sources=srcs)
+        self.assertFalse(any("NEWEST_UNSURE" in (r["ledger_match"] + r["note"]) for r in rows))
+        self.assertEqual(len(src_rows(rows, "ww")), 2)
+        self.assertEqual(nr, 0)
+
+
+class AC11_ReadTwoWarningsFixed(unittest.TestCase):
+    def test_w16_pub_date_is_window_end(self):
+        rows, _, _ = run("2026-09-22", {BASE: index((post("7th-13th-september-2026-1"), "Maritime Security Report: 14th - 20th September 2026"),
+                                                    (post("7th-13th-september-2026"), "Maritime Security Report: 7th - 13th September 2026")),
+                                        post("7th-13th-september-2026-1"): BODY_OK})
+        p = src_rows(rows)
+        self.assertEqual(p[0]["pub_date"], "2026-09-20")
+        self.assertIn("pub_date = window END", p[0]["note"])
+
+    def test_w17_summary_on_body_failure(self):
+        _, _, out = run("2026-10-09", {BASE: index(OCT, SEP), OCT[0]: Err("HTTP Error 503: Service Unavailable")})
+        self.assertIn("(followed: FETCH_FAILED (newest post))", out)
+        self.assertNotIn("(followed: BULLETIN)", out)
+
+    def test_w18_short_days_back_does_not_blame_the_publisher(self):
+        """CX5b: --days 3, the on-time 28 Sep-4 Oct bulletin read 10/9. Still NOT read (safe), cause stated right."""
+        rows, nr, _ = run("2026-10-09", {BASE: index(OCT), OCT[0]: BODY_OK}, days=3)
+        lm = src_rows(rows)[0]["ledger_match"]
+        self.assertTrue(lm.startswith("BULLETIN_STALE"), lm)
+        self.assertIn("days_back 3", lm); self.assertIn("on-time", lm); self.assertNotIn("publisher stopped", lm)
+        self.assertEqual(nr, 1)
+        # default window: the cause is the publisher/index, and the basis is named
+        rows, nr, _ = run("2026-10-09", {BASE: index(JUN), JUN[0]: BODY_OK})
+        lm = src_rows(rows)[0]["ledger_match"]
+        self.assertIn("publisher stopped", lm); self.assertIn("days_back 10", lm)
 
 
 if __name__ == "__main__":
