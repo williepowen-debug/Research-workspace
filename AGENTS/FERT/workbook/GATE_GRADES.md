@@ -1,13 +1,13 @@
 # FERT — Registered gate grade history
 
 **LIVE — Last real data refresh: 2026-10-07** (10/7 print appended + 9-print rate cut) | Staleness sweep: 2026-10-07
-**Split out of `STATUS.md` 2026-09-15** (read-cap remedy, hot/cold split). STATUS carries the **current** grade and the rate; this file carries the **print-by-print history**. GATE letters are canonical at `PROME/GATES.tsv` — never restated here.
+**Split out of `STATUS.md` 2026-09-15** (read-cap remedy, hot/cold split). STATUS carries the **current** grade and the rate; this file carries the **print-by-print history**. GATE letters are never restated here. **Letter homes:** `GATE-FERT-G5` → `workbook/TRIGGERS.tsv` row **T4** (`Why_It_Wakes_You` cell, encoded 2026-10-09 verbatim from the GATES cell — closes the circular pointer DAEDALUS Gate-Basis #2 ② found; PROME re-points the GATES cell); `GATE-FERT-G3` → `PROME/GATES.tsv` (unchanged).
 
 ## GATE-FERT-G5 — DTN retail DAP **or** MAP > $1,000/ton ($/ton, DTN Progressive Farmer weekly)
 
 ⛔ Never Pink Sheet $/mt, never NOLA $/st — different instruments, hundreds of dollars apart, and the gate does not name them.
 
-**Grading terms — mirrored 2026-10-01 from `PROME/GATES.tsv` GATE-FERT-G5 (WQ-351, PROME-encoded 10/01 under Will's 13:54 ET "safe queue rows" instruction; FERT's own §3 text; level, operator, instrument UNCHANGED).** The letter itself stays canonical in GATES — this block mirrors the clarification only, so a grader here reads the same terms:
+**Grading terms — mirrored 2026-10-01 from `PROME/GATES.tsv` GATE-FERT-G5 (WQ-351, PROME-encoded 10/01 under Will's 13:54 ET "safe queue rows" instruction; FERT's own §3 text; level, operator, instrument UNCHANGED).** The letter itself lives at `TRIGGERS.tsv` T4 (since 2026-10-09; before that, the GATES cell) — this block mirrors the clarification only, so a grader here reads the same terms:
 - **Geography:** DTN **US national average** retail, as printed in the weekly article.
 - **Tie:** strictly **> $1,000/ton** at DTN's whole-dollar precision — **a $1,000 print does NOT fire.**
 - **Base rate:** the Pink Sheet DAP $781.3/mt = 93rd-percentile figure is registration **CONTEXT, not this gate's base rate** (different instrument, unit, cadence and operator).

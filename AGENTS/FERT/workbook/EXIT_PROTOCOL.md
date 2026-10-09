@@ -2,6 +2,7 @@
 
 **Kill rail re-derived: 2026-08-17** (first live session under the 2026-08-16 re-charter)
 **Definitions tightened: 2026-09-05** — §0 gained *"pre-break plateau level"* and *"stall ≠ reversal"* after the T11 grade found a STATUS paraphrase of Channel B leg 1 sitting above the letter. **The kill rails themselves are UNCHANGED** — this was a definition repair, not a re-derivation, and it does not reset the clock below.
+**Amended 2026-10-01 (`f3a4b8028`, rules UNCHANGED):** §1A "what killed it" distance re-stated against the G2 $600/mt AWARDED line (was an uncanonical ~$500), and an instrument note added that the NOLA leg is ungradeable while T5 is retired — so nitrogen re-opens only through an India AWARD. *(Header line added 2026-10-09 per DAEDALUS Falsification #4 flag 1.)*
 **Next mandatory re-derivation: 2026-11-15** — or immediately on any channel state change below.
 
 > This file carries the DURABLE RULES. It deliberately carries **no live values** — the live read lives in `STATUS.md` with `[src M/D]` (anti-drift split, blueprint §3). If you are reading a price here, the file is malformed.
@@ -60,7 +61,7 @@ Stated as one instrument so it cannot be satisfied by narrative:
 | **Bullish flip** (fertilizer re-tightens; transmission becomes live again) | **China's 2026 export quota revised DOWN, or the guidance floor reimposed at a level above prevailing international FOB** — read at MOFCOM/NDRC relay or CF commentary | It is the only variable that has *demonstrably* moved global urea 50% in either direction this year. Everything else (Hormuz, Qatar, India demand) was already true while price collapsed. |
 | **Bearish flip** (domain goes quiet; FERT should stand down) | **Phosphate rock returns to its plateau AND retail MAP rolls over** (Channel B kill, both legs) — with nitrogen already dead | With A dead and B killed, no priced channel remains; C alone does not justify a live desk at weekly-to-monthly cadence. |
 
-**Both are testable at a named next trigger date** (T10 monthly re-read; T4/T5 weekly; Pink Sheet monthly).
+**Both are testable at a named next trigger date** (T10 monthly re-read; T4 weekly — T5 RETIRED-PENDING-REPLACEMENT since 2026-09-26, WQ-257, struck 2026-10-09; Pink Sheet monthly).
 
 ---
 

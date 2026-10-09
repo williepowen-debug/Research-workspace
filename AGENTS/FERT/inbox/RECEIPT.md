@@ -1,28 +1,31 @@
-# Inbox Processing Receipt — 2026-10-08 02:03 UTC (2026-10-07 22:03 ET)
-## Agent: FERT (WQ-184 due-row spawn by PROME `prome-0e`; runtime Claude Code, model Opus via the `desk` agent definition)
+# Inbox Processing Receipt — 2026-10-09 14:0x UTC (2026-10-09 10:0x ET)
+## Agent: FERT (WQ-184 due-row spawn by PROME `prome-75`, DOCKET L576; runtime Claude Code, model Opus)
 
 ### Census at boot
-`PROME/tools/inbox_census.py FERT` → top-level 2 · WALTER/ 1. The two top-level files are this desk's own standing infrastructure (`PROTOCOL.md`, `RECEIPT.md`), not inbound packets — nothing to drain there. One inbound item: the WALTER signal below.
+`ls` of `inbox/` top level = 4 files: 2 inbound packets + this desk's own `PROTOCOL.md` and `RECEIPT.md` (standing infrastructure). `inbox/WALTER/` = 2 signals. Matches PROME's 09:56 ET census (top-level 4 · WALTER/ 2). All 4 inbound items drained.
 
 ### Signals Processed
 | # | Signal File | Action | KB Entries Created | VX/FLOW Changes |
 |---|-------------|--------|-------------------|-----------------|
-| 1 | WALTER/SIG-W-20261007-005.md (Oct-2026 Pink Sheet available; rock Sep $170.0) | INTEGRATE — every cell re-read at the primary first (PDF + xlsx, curl 21:43 ET); FERT-11 graded HIT by FERT; WALTER's urea-label note confirmed and adopted; a second mislabel (KCl) found and corrected | KB-FERT-059, -060, -061 (+ KB-028/029 CORRECTED) | VX-FERT-02 root note; VX-FERT-04 label + Sep urea note |
+| 1 | 2026-10-08_from-DAEDALUS_sweeps-gatebasis2-falsif4-prose1.md | INTEGRATE — line 2 done (G5 letter → T4); line 1: header + T5 strike done, 25-vs-13 editions reconcile DEFERRED to 11/03 (dated in STATUS) | — | — |
+| 2 | 2026-10-08_from-PROME_G5-clarified-letter-needs-its-owner-home-in-TRIGGERS-T4.md | INTEGRATE — letter written verbatim into TRIGGERS T4; GATE_GRADES pointer updated | — | — |
+| 3 | WALTER/SIG-W-20261008-027.md (CPC El Niño) | LOG (info-only, board_log) | — | — |
+| 4 | WALTER/SIG-W-20261008-033.md (WQ-399 receipt form) | INTEGRATE — charter step 2b receipt line rewritten | — | — |
 
-### Also worked this session (due rows, not inbox)
-DOCKET L288 / T11 (Pink Sheet, FERT-11 HIT) · `GATE-FERT-G5` / T4 (DTN 10/07, NOT FIRED 8-of-8; KB-FERT-062/063) · DOCKET L576 / T1 (IPL offers SEARCH-NOT-FOUND; KB-FERT-064, China 4th quota round KB-FERT-065, Nutrien Trinidad KB-FERT-066). T10 / G3 NOT run (10/15; no inbox item forced it).
+### Also worked this session (due row, not inbox)
+DOCKET L576 / T1 — IPL offers READ: lowest $352.10 E / $356.25 W a ton [Bloomberg 10/8, MIRROR] → KB-FERT-067 (KB-064 SUPERSEDED), discard log KB-FERT-068; VX-FERT-05 value updated, state GREEN. T8 not consumed, re-dated 10/13.
 
 ### STATUS.md Changes
-- G5: 7-of-7 → **8-of-8 NOT FIRED**; MAP $970 → **$974**, DAP $926 → **$934**; next review_by 10/07 → **10/14**
-- FERT-11: OPEN → **HIT**; FERT-12 headroom $5 → **$1**
-- Pink Sheet panel rolled to Sep data; two benchmark labels corrected (urea = Middle East FOB prill; KCl = Brazil CFR granular)
+- India CFR panel row: SEARCH-NOT-FOUND → lowest offers $352.10 E / $356.25 W (award pending)
+- VX-5: 🟡 → 🟢 (level), score held 2; T1 next 10/13
+- G5 letter home named (T4); What Changed rotated (10/07 block → archive)
 
 ### Outbox Signals Written
-- to-PROME (PROME/inbox): `2026-10-07_from-FERT_T11-IPL-G5-grades.md` — grades, G5 review_by, DOCKET L576 re-date ask, potash triage flag
+- to-PROME (PROME/inbox): `2026-10-09_from-FERT_ipl-urea-tender-offers-read.md`
 
 ### Files Modified
-KB.tsv, VX.tsv, TRIGGERS.tsv, PREDICTIONS.tsv, GATE_GRADES.md, board_log.tsv, STATUS.md, archive/STATUS_whatchanged_2026-10-01_ROTATED.md, inbox/WALTER/processed/ (git mv)
+KB.tsv, VX.tsv, TRIGGERS.tsv, GATE_GRADES.md, EXIT_PROTOCOL.md, STATUS.md, CLAUDE.md, board_log.tsv, archive/STATUS_whatchanged_2026-10-07_ROTATED.md, inbox/ (git mv ×4)
 
 ### Skipped / Issues
-- IPL 10/07 offers not obtainable from free sources at 21:51 ET — re-read 10/09, award by 10/15.
-- NOLA barge level: a Profercy "$430s/st" read (w/c 9/28) noted but VX-04 State held YELLOW (cross-publisher, intermittent).
+- IPL award / counter-offers not in free sources at 10:00 ET 10/09; offers are single-sourced (Bloomberg) and their CFR basis is inferred.
+- T8 (USDA Crop Production, 12:00 ET today) not consumed — outside this spawn's scope.
