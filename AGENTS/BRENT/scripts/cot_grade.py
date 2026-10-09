@@ -65,6 +65,7 @@ import os
 import sys
 import time
 import urllib.request
+from fractions import Fraction
 
 LEDGER_DEFAULT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "workbook", "COT_VINTAGES.tsv")
 
@@ -121,8 +122,13 @@ def leg_a(shorts):
     return "NOT-SPENT"
 
 
-def leg_b(share_pct):
-    return "SPENT" if share_pct <= LEG_B_BAR_PCT else "NOT-SPENT"
+def leg_b(shorts, oi):
+    # EXACT rational compare (DAEDALUS L546, 2026-10-09): float shorts/oi*100 can land an
+    # exactly-on-edge share on the wrong side (368 of the 3,001 bars 4.000..7.000 do; 4.909
+    # happens not to). Rounding to the bar's 3 dp was rejected: it would admit up to 4.9095
+    # as SPENT and so move the letter. Fraction(str) keeps the bar exactly as written.
+    share = Fraction(shorts * 100, oi)
+    return "SPENT" if share <= Fraction(str(LEG_B_BAR_PCT)) else "NOT-SPENT"
 
 
 def joint(a, b):
@@ -209,7 +215,7 @@ def main():
 
     shorts = int(r[I_MM_SHORT]); longs = int(r[I_MM_LONG]); oi = int(r[I_OI])
     share = shorts / oi * 100.0
-    va, vb = leg_a(shorts), leg_b(share)
+    va, vb = leg_a(shorts), leg_b(shorts, oi)
     v = joint(va, vb)
 
     print(f"\n  MM gross shorts : {shorts:>10,}")
