@@ -1,29 +1,26 @@
 # HANS LAST_COMPLETION — overwrite each session
 
-**STATUS:** ✅ DONE — 2026-10-09 (Fri) hans-1009, PROME Tier-1 wake (DOCKET L637, WQ-184/C6; WQ-391 covers the re-spawn). Opus 5.5, Claude Code Agent-tool spawn.
+**STATUS:** ✅ DONE (one test still red, named below) — 2026-10-09 (Fri) hans-1009b, PROME prome-75 Tier-1 follow-up (Will 10:24 ET idle-desk list #10). Opus 5.5, Claude Code Agent-tool spawn. Prior session hans-1009 (9d97586a3 + 55e54588e) closed out.
 
 **CHANGED:**
-- `registry/THRESHOLDS.tsv` — T-13 / T-06 state = NOT-FIRED 10/08 (armed rule applied); current_value 5.9384 / 5.4238. Superseded ARMED cells → `registry/THRESHOLDS_HISTORY.tsv` verbatim (crc32, byte-identity checked against HEAD).
-- `workbook/VX.tsv` (3.06, 3.08) · `workbook/PUBLISHED.tsv` (2 rows + header vintage) · `workbook/FLOW.tsv` FLOW-HANS-5 + `workbook/KB.tsv` KB-HANS-064 (Budget 10/28, was 11/26).
-- `scripts/fetch_eu.py` `spread_bp()` (L546 float tie) + 2 tests in `scripts/test_hans.py`.
-- `registry/corrections_receipts.tsv` — 6 receipts in the WQ-399 form; R1 rc=0.
-- `CLAUDE.md` 1a receipt line (WQ-399, C4 own-charter).
-- `STATUS.md` rotated 75% → ~64%; verbatim → `workbook/STATUS_ROTATED_2026-10-09.md`; `SESSION_LOG.md` narrative; `DISPATCH_LOG.md` 4 pointers → processed/.
-- `board_log.tsv` +31 rows; 31 inbox files → processed/ (5 top-level + 26 WALTER lane).
-- Packets: `PROME/inbox/2026-10-09_from-HANS_liquid-floor-and-turn-bound-answer.md` (+ LIQUID copy) · `PROME/inbox/2026-10-09_from-HANS_READS-declaration.md` · `AGENTS/WALTER/inbox/2026-10-09_from-HANS_THRESHOLDS-rotated-no-repoint.md` · memo `PROME/inbox/2026-10-09_from-HANS_armed-rule-grade-t13-t06.md`.
+- `scripts/doc_audit.py` `published()` — the current value is never also "retired" (a value that recurs is not a stale value); 4 new tests in `scripts/test_hans.py`.
+- `STATUS.md` — header, one CARRY FORWARD bullet, consumed-packet path → `PROME/inbox/processed/` (C7).
+- `research/2026-10-01_T12_BASIS_AND_OFFICIAL_YIELD_SOURCES.md` — CORRECTION banner + 3 false clauses replaced (ECB USD history reaches 2007, not 2022-11).
+- `workbook/PUBLISHED.tsv` — `ECB_USD_OPS_HISTORY_COUNT` 220 (WITHDRAWN) → 1179 (CURRENT) + header vintage.
+- `SESSION_LOG.md` · `DISPATCH_LOG.md` (2 rows) · `outbox/delivered/` copy.
+- Packets: `PROME/inbox/2026-10-09_from-HANS_READS-attestation.md` · `AGENTS/LIQUID/inbox/2026-10-09_from-HANS_ecb-usd-history-correction.md` · memo `PROME/inbox/2026-10-09_from-HANS_attestation-ecb-bidders-docaudit.md`.
 
-**RESULT:** T-13 NOT-FIRED 10/08 (TE close 5.9384, 6.2bp under; CNBC London-close 5.9972, 0.3bp under). T-06 NOT-FIRED (TE 5.4238; CNBC 5.4852). 10/9 live: 30Y 5.954, 10Y 5.445 — line still contested into the 10/28 Budget. T-10 MET-OPEN 139.8bp unchanged. Whole inbox drained.
+**RESULT:** ECB op 20260089 (settled 10/08): $205mn, 3 bidders, 4.13%, 7-day — quiet. The 10/01 "history only from 2022-11" claim was false: 1,179 USD ops from 2007; bidders ≥8 fired 2020-03-18 (22/44) and at 12 other pre-2022 ops, 0 since 2022. doc_audit 0 findings. READS attestation filed (13 rows).
 
 **GAPS:**
-- DAEDALUS falsification #4: KILL_TREE re-grade (owed #27) and HNS-09 definitions (owed #28), dated 2026-10-16.
-- Pre-existing, named not fixed: doc_audit C2 flags VX-HANS-3.07 = 4.90 (a recurring value, not a stale one), which also fails 5 tests that assert a clean desk; C12 legacy ML dup IDs (owed #23).
-- ECB 10/8 USD op bidder count not obtained (OMO index page lacks it).
-- CLAUDE.md at ~75% of budget (C6 rotate-tier boundary).
+- `test_C2_is_SERIES_QUALIFIED_not_bare_value` still RED: `OAT_BUND_SPREAD_BP` and `FRANCE_GERMANY_10Y_SPREAD_BP` both declare VX-HANS-3.02 and both retire 96.8 (9/18 chain repair published one series under two names). A separate defect, not fixed.
+- PUBLISHED.tsv has no row for the 10/08 i-i spread 139.8bp that STATUS carries.
+- 15 KB facts past Stale_By (owed #29); owed #27/#28 dated 10/16.
+- STATE_VOCABULARY.md (DAEDALUS) 37,540 B — over budget, a conditional HANS whole-read.
 
-**WILL_NEEDS:** None — no fire, no trade, no threshold move.
+**WILL_NEEDS:** None from this desk — the letter (WQ-398) is already his; this session changes evidence behind one leg, not a threshold.
 
 **FOLLOW-UP:**
-- Each UK close into 10/28: grade T-13 on TE (snapped after the London close), CNBC cross-check.
-- 2026-10-13: France budget debate + strike (T-10). ~2026-10-17: EA HICP Sept FINAL (T-16, T-15 b).
-- 2026-10-16: owed #27/#28. 2026-10-26: TTF X26/Z26 expiry re-verify (owed #26).
-- 2026-10-28: UK Budget (T-13 LDI date). 2026-10-29: ECB GovC (T-04; poll says the hike is December). 2026-11-01: HNS-07.
+- Grade T-13/T-06 on TE's 10/9 close at next wake (not re-graded here).
+- Fix the 3.02 alias (one metric name, or an alias declaration in doc_audit) — design choice, needs its own episode.
+- 2026-10-13 France budget/strike (T-10) · ~10-17 EA HICP Sept FINAL · 10-16 owed #27/#28 · 10-26 TTF expiries · 10-28 UK Budget · 10-29 ECB · 11-01 HNS-07.

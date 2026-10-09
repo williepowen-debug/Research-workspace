@@ -155,10 +155,20 @@ def published():
         if ivec is not None and len(r) > ivec and r[ivec].strip():
             vecs.setdefault(r[im], set()).update(
                 x.strip() for x in r[ivec].split(',') if x.strip())
+    # ⚠️ A RECURRING VALUE IS NOT A STALE VALUE (fixed 2026-10-09, hans-1009b).
+    # FRANCE_10Y_OAT_PCT printed 4.90 on 10/01, 4.866 on 10/02, and 4.90 AGAIN on 10/08.
+    # The old list was "every row but the newest", so 4.90 was simultaneously the CURRENT
+    # value and a RETIRED one, and C2 flagged the correct live VX cell as superseded (5 tests
+    # red on a correct refresh). ACCEPTANCE, written before the edit: a value is retired iff it
+    # was published for the series AND is not the series' current value. The exclusion keys
+    # on the CURRENT value only — never on "the value appeared more than once" — so a value
+    # that recurred and was then superseded again (a, a, b) stays retired and still fires.
     out = {}
     for m, e in by.items():
         e.sort()
-        out[m] = (e[-1][2], [v for _, _, v in e[:-1]], sorted(vecs.get(m, ())))
+        cur = e[-1][2]
+        out[m] = (cur, [v for _, _, v in e[:-1] if v.strip() != cur.strip()],
+                  sorted(vecs.get(m, ())))
     return out
 
 def _ever_existed(relpath):

@@ -491,6 +491,62 @@ class TestDocAudit(unittest.TestCase):
         self.assertIn("54.1", olds, "the flash MUST be on the ledger as superseded")
         self.assertIn("VX-HANS-8.06", vecs, "the metric must declare its surface")
 
+    def _ledger(self, rows):
+        """A synthetic PUBLISHED.tsv in a temp HANS root; never touches the real ledger."""
+        import tempfile
+        d = Path(tempfile.mkdtemp()); (d / "workbook").mkdir()
+        (d / "workbook/PUBLISHED.tsv").write_text(
+            "# synthetic\nmetric\tvalue\tasof\tnote\tvectors\n" +
+            "".join(f"M\t{v}\t{a}\t\tVX-T-1\n" for v, a in rows))
+        real, self.da.HANS = self.da.HANS, d
+        try:
+            return self.da.published()["M"]
+        finally:
+            self.da.HANS = real
+
+    def test_C2_a_RECURRING_value_is_not_a_STALE_value(self):
+        """2026-10-09: OAT printed 4.90 [10/01], 4.866 [10/02], 4.90 [10/08]. 'Every row but
+        the newest' listed the live 4.90 as retired and C2 flagged a correct VX cell."""
+        cur, olds, _ = self._ledger([("4.90", "2026-10-01"), ("4.866", "2026-10-02"),
+                                     ("4.90", "2026-10-08")])
+        self.assertEqual(cur, "4.90")
+        self.assertNotIn("4.90", olds, "the current value recurred — it is not retired")
+        self.assertIn("4.866", olds, "the value it superseded stays retired")
+
+    def test_C2_recurred_then_superseded_STILL_retired(self):
+        """The counterexample a 'seen twice => exempt' fix would get wrong: a, a, b."""
+        cur, olds, _ = self._ledger([("4.90", "2026-10-01"), ("4.90", "2026-10-08"),
+                                     ("4.95", "2026-10-09")])
+        self.assertEqual(cur, "4.95")
+        self.assertIn("4.90", olds, "a value that recurred and was then superseded is retired")
+
+    def test_C2_same_date_tie_is_APPEND_order(self):
+        """Overlap: two rows on one date — the later-appended row is current."""
+        cur, olds, _ = self._ledger([("1.0", "2026-10-08"), ("2.0", "2026-10-08")])
+        self.assertEqual((cur, olds), ("2.0", ["1.0"]))
+
+    def test_C2_live_recurrence_clears_but_a_retired_value_still_fires(self):
+        """End to end on the real VX-HANS-3.07: its live 4.90 must pass C2, and injecting the
+        genuinely retired 4.866 into the same cell must fire C2 (the guard is not disarmed)."""
+        cur, _, vecs = self.da.published()["FRANCE_10Y_OAT_PCT"]
+        self.assertIn("VX-HANS-3.07", vecs)
+        p = self.da.HANS / "workbook/VX.tsv"
+        txt = p.read_text()
+        lines = txt.split("\n")
+        hdr = lines[0].split("\t"); iv, ic = hdr.index("Vector_ID"), hdr.index("Current_Value")
+        k = next(i for i, l in enumerate(lines) if l.split("\t")[iv:iv + 1] == ["VX-HANS-3.07"])
+        def c2_hits():
+            return [m for c, m in self.da.audit() if c == "C2-SUPERSEDED" and "VX-HANS-3.07" in m]
+        try:
+            r = lines[k].split("\t"); r[ic] = cur; lines[k] = "\t".join(r)
+            p.write_text("\n".join(lines))
+            self.assertEqual(c2_hits(), [], "the CURRENT value must pass C2")
+            r[ic] = "4.866"; lines[k] = "\t".join(r)
+            p.write_text("\n".join(lines))
+            self.assertTrue(c2_hits(), "a genuinely retired value must still fire C2")
+        finally:
+            p.write_text(txt)
+
     def test_C3_compares_compound_rows_PER_LEG(self):
         """T-09 is 'spread AND level'. A one-leg comparison silently ignores the leg that
         had no metric surface at all until 9/5."""

@@ -105,3 +105,5 @@
 | **PROME** | `PROME/inbox/processed/2026-10-01_from-HANS_CORRECTION-addendum-L549.md` | Addendum to the L549 memo |
 | **PROME** (touch 2) | `PROME/inbox/processed/2026-10-01_from-HANS_touch2-T12-basis-sources-official-yields-preregistration.md` | T-12 source test, official FR/IT yield reachability, 10/02 pre-registration; T-12 replacement PROPOSED (Will's word needed) |
 | **PROME** (cc WALTER) | `PROME/inbox/processed/2026-10-01_from-HANS_lane-query-adopt-decline-WQ295.md` | WQ-295 lane queries adopted/declined by name |
+| **LIQUID** 🟠 (cc PROME) | `AGENTS/LIQUID/inbox/2026-10-09_from-HANS_ecb-usd-history-correction.md` | 10/09 hans-1009b: CORRECTS my 10/01 "ECB USD history only from 2022-11" (letter line 68) — 1,179 ops from 2007; bidders ≥8 fired 2020-03-18; 10/08 op 3 bidders |
+| **PROME** | `PROME/inbox/2026-10-09_from-HANS_READS-attestation.md` · `PROME/inbox/2026-10-09_from-HANS_attestation-ecb-bidders-docaudit.md` | 10/09 hans-1009b: READS attestation (13 rows) + delivery memo |

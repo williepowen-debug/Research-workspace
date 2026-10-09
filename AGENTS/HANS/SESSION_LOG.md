@@ -142,3 +142,11 @@ CATO reviewed the day's work and produced counterexamples against several of thi
 **Drain.** 31 files (5 top-level + 26 WALTER lane), read one at a time, each moved after its own read. Two answers owed for a week (LIQUID's floor, WALTER's read-cap) are now packets. One ACTION item (`-1003-019`, a Japanese fund dumping OATs) failed at primary — crypto-account relays only — and is not carried.
 
 **Fix.** DAEDALUS's L546 float tie in `fetch_eu.py`: the spread is rounded to 0.1bp before the strict legs compare; two tests inject the defect.
+
+### 2026-10-09 — hans-1009b (PROME prome-75 Tier-1 follow-up, ~10:55–11:15 ET)
+
+**Bidders.** The 10/8 op's bidder count is on its per-tender page (`20260089`: 3 bidders, $205mn). Pulling `tops.zip` to cross-check turned up a larger thing: the history I called "2022-11 onward" on 10/01 runs to 2007. The 2022-11 edge is where the ECB started filling an operation-category label; the currency column goes back the whole way. The bidders ≥8 watch I proposed fires in March 2020 (22 and 44 bidders on 3/18) — and at pre-2022 year-ends, so a bidder count alone does not separate a year-end from a squeeze before 2022. Corrected in the research note and to LIQUID; nothing re-banded.
+
+**doc_audit C2.** OAT printed 4.90, then 4.866, then 4.90 again; the ledger reader treated every non-newest row as retired, so the live value was "retired". Fixed in `published()` by excluding the current value — keyed on the current, never on "seen twice", so a, a, b still retires a (test). The fleet `consumer_check.read_ledger` already behaved this way. The one red test left is a different defect: two metric names on VX-HANS-3.02 both retire 96.8 (the 9/18 chain repair) — not fixed, reported.
+
+**READS.** Attestation filed; the gap was conditional reads (STATE_VOCABULARY, finding_check, mail lanes) and script-internal reads (receipts). STATE_VOCABULARY is over the byte budget — DAEDALUS's file, flagged via PROME.
