@@ -4,7 +4,7 @@
 
 ---
 
-## S51 — 2026-10-09 ~11:xx ET — **WEIGHT MOVED: net-bear 58 → 60 (+2, ALL DISCRETIONARY, labelled). Confidence 70 unchanged. The re-derivation owed since S41 is done.**
+## S51 — 2026-10-09 10:25–10:35 ET (from `date`) — **WEIGHT MOVED: net-bear 58 → 60 (+2, ALL DISCRETIONARY, labelled). Confidence 70 unchanged. The re-derivation owed since S41 is done.**
 
 Old view (S29 8/12 base + S41 9/6 moves): Managed 32 · Stag 32 · Acute 13 · War 13 · Soft 6 · Rescue 4 → **new: Managed 31 · Stag 32 · Acute 14 · War 14 · Soft 5 · Rescue 4.**
 - **Acute +1, discretionary: the real-rate leg, counted ONCE** across rates, banks and HY (one antecedent, the 9/22→9/30 long-end sell-off). DFII10 rose +51bp in four weeks and **held** 2.88–2.95 for seven sessions [to 10/7]. KRE −7.6% · WAL −8.6% · OZK −11.2% since 9/3. This is not the credit leg: FT-02 keeps its own +3 and is not pre-empted.
