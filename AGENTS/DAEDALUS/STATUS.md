@@ -1,6 +1,6 @@
 # DAEDALUS STATUS
 
-**Last Updated: 2026-10-09 — OpenAI Codex; exact model/session ID UNKNOWN.** Current assignment: approved closeout presentation changes (1/2/4); options3/5 are proposals only. Current disposition is in BOTTOM LINE; approvals and L4/M unchanged.
+**Last Updated: 2026-10-09 — OpenAI Codex; exact model/session ID UNKNOWN.** Current assignment: Will-approved charter split and candidate preparation/batching; live evidence reuse remains blocked. Approvals and L4/M unchanged.
 
 **October 8 work:** completion and remaining work summarized below; four historical rows conserved at archive block BA. Full prior October 4 state is conserved at `archive/STATUS_ARCHIVE_2026-10.md` block AZ. Sweep completions and VULCAN's refresh are recorded below; no new sweep or profile reset in this October 9 boot pass.
 
@@ -82,7 +82,7 @@ Five of the six overdue sweeps ran today: Gate-Basis, Falsification (complete wi
 
 ## BOTTOM LINE — 2026-10-09
 
-**WORK:** Boot repairs/cuts and closeout presentation complete; session stopping after persistence. Options3/5 proposed only; no new independent patch review required for presentation.
-**CHECKS:** Closeout170638Z: C8/C9 CLEAN; C7 BLOCKING (charter35,698 B); C0/C3 DUE. No clearance or waiver.
-**DELIVERY:** Local save: this file's containing commit; publication/consumption unverified. Short packet: `PROME/inbox/2026-10-09_from-DAEDALUS_closeout-presentation.md`; evidence: `runs/2026-10-09_BOOT_RELIABILITY.md`.
-**OPEN:** PROME L655 plus separate closeout counterpart pending; charter/BR1 remain separately scoped. Final inbox check17:04 UTC: NEXUS verification and unrelated due work pending. L658: DAEDALUS vocabulary rotation due October12, pending separate work; no unrelated work started.
+**WORK:** Charter split preserves4 sections verbatim; CLAUDE20,200 B + mandatory OPERATIONS17,433 B, each below22,785 B. Preparation/batching adopted; session awaiting final review/publication.
+**CHECKS:** Local cap clean; shared proposed-manifest test clean with root rotation DUE. Candidate capture/reuse BLOCKED (unsupported C1/C8 global context); ordinary checks cannot grant candidate clearance. Evidence: `runs/2026-10-09_CHARTER_SPLIT.md`.
+**DELIVERY:** Exact authored package prepared for one implementation/review commit; publication and owner consumption not yet certified. PROME READS split delta/receipt pending; earlier43-row application remains complete.
+**OPEN:** PROME L655 and closeout counterpart L664 (both October12) remain pending; BR1, NEXUS verification, L658 vocabulary rotation (DAEDALUS, October12) L661 optional token registration (October16), and unrelated due work untouched. Final inbox check18:58 UTC adds VULCAN profile update pending next touch; no unrelated work started.

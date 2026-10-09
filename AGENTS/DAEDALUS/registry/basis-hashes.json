@@ -6,7 +6,7 @@
   "publication_at_capture": "PROME live registry replacement pending owner application",
   "sha256": {
     "CLAUDE.md": "609e423d7ea3cee6395854304f2b36a7d2f831061dbf02e29bbd1021aba43e9e",
-    "AGENTS/DAEDALUS/CLAUDE.md": "1e28df1328c3a6dfa9de902bdc658cf3373f56f8ee2a24bb8cd9163df663f3c5",
+    "AGENTS/DAEDALUS/CLAUDE.md": "72eb4aa54ffb6f8731c7adcf63be82c23fd4be3a1af734937b7d5e93017e3656",
     "AGENTS/DAEDALUS/scripts/sweeps_due.py": "a09caad656f356546c2c64b475cde313cc4262893eb417778e2a8edefbbf27eb",
     "AGENTS/DAEDALUS/scripts/profile_clock_check.py": "fcb42a0ec2154eb099b90a0ad1d0d022e6f9b7011e83e7b84491c65682819644",
     "scripts/corrections_boot_check.py": "db69634350a304386e77eab0220c1a2efb4ee47aaeba58a2e45435bc21bf8f0e",
@@ -22,7 +22,8 @@
     "PROME/COMPLETION_SPEC.md": "d213e20eb75f65ab6953ec99d6430c56500744ea4fad8efd01d968228288a6ff",
     "PROME/ORCHESTRATION_PLAYBOOK.md": "22c0750a022d7211fd017a94efe1db6f2525380db526972a2ee03b62b85b6d20",
     "AGENTS/DAEDALUS/scripts/docket_owed.py": "555b1c7d5d1e05261eac38551419e09ac39a1edd21c6fd09578d5873db557e3e",
-    "scripts/docket_view.py": "84dad878bd199ba082c0f816ce251beadca1884dd2b35f689c58b1ce7c134d9d"
+    "scripts/docket_view.py": "84dad878bd199ba082c0f816ce251beadca1884dd2b35f689c58b1ce7c134d9d",
+    "AGENTS/DAEDALUS/OPERATIONS.md": "a4082fc62b903cc26b1866c943503ec127ee7ccd8e6037e52349d4ed320a940d"
   },
-  "charter_identity_update": "2026-10-09: historical archival followed by Will-approved closeout presentation (1/2/4); required markers, read modes, guard/review/clearance semantics unchanged. Only charter hash refreshed; other hashes retain repair snapshot46fc8444e."
+  "charter_identity_update": "2026-10-09: Will-approved preservation split into mandatory CLAUDE.md and OPERATIONS.md; only these instruction identities refreshed/added. Other hashes retain their prior reviewed snapshots. Additive owner delta: registry/2026-10-09_READS_SPLIT_DELTA.tsv; live application not inferred."
 }

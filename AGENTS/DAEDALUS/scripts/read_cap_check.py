@@ -68,6 +68,7 @@ WARN_UTILISATION = 0.50
 # DOCUMENTING A PERIMETER IS NOT THE SAME AS POPULATING IT (PAT-129, refined on its own author).
 # That is why --all exists: do not rely on this list alone to answer "did we get it all?"
 DEFAULTS = [os.path.normpath(os.path.join(ROOT, f)) for f in (
+    "OPERATIONS.md",        # SPAWN step 0 — active charter companion, whole every boot
     "STATUS.md",            # SPAWN step 1
     "FLEET_DIRECTORY.md",   # SPAWN step 2 -- the HOT index. Re-homed 2026-08-23: FLEET_MAP.tsv
                             # was the step-2 read at 121% of the cap, truncating every boot for

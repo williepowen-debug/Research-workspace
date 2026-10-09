@@ -1,0 +1,4 @@
+row_kind	reader	path	mode	source_boot_step	declared_by	declared_on	notes
+READ	DAEDALUS	AGENTS/DAEDALUS/OPERATIONS.md	whole	DAEDALUS:CLAUDE.md-SPAWN-0	DAEDALUS	2026-10-09	Required every boot. Active charter companion; four sections moved verbatim. No reduction in total boot bytes claimed.
+BASIS	DAEDALUS	AGENTS/DAEDALUS/OPERATIONS.md	boot-defining	DAEDALUS:CLAUDE.md-SPAWN-0	DAEDALUS	2026-10-09	Active instructions preserved from charter; whole mandatory read. Preservation and consumer review: runs/2026-10-09_CHARTER_SPLIT.md.
+ATTESTATION	DAEDALUS	AGENTS/DAEDALUS/CLAUDE.md	manifest-complete	DAEDALUS:runtime/SPAWN-0-5c	DAEDALUS	2026-10-09	October9 prior declaration retained plus required whole OPERATIONS.md and its BASIS. Charter companion split preserves active rules; owner application and publication require separate evidence. No full-code or whole-closeout assurance.

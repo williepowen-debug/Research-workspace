@@ -6,6 +6,10 @@
 
 ## Changelog
 
+### 2026-10-09 (c) — Active charter split and existing candidate workflow
+
+Will: “Proceed with options 3 and 5 using the existing candidate-v2 mechanism” and “Finish the charter-size remediation through a bounded preservation-based rotation or split.” Four charter sections move verbatim into mandatory whole-read OPERATIONS.md; original section headings forward there. No duty, authority or review is retired. The READS owner delta adds READ/BASIS and replaces only our attestation; local file-list DEFAULTS gains the companion. Substantive summaries precede capture; eligible exact files batch; reuse requires valid inputs. C1/C8 unsupported global Git context remains UNKNOWN, not waived. Applies immediately; old receipts remain historical. REVIEW: required for read-boundary consumers; /root/charter_boundary_review initial R1–R6 remedy qualified, final candidate read owed. Preservation, obligations, limits and final review evidence: runs/2026-10-09_CHARTER_SPLIT.md. Original paired entries unchanged.
+
 ### 2026-10-09 (b) — Closeout presentation, no clearance change
 
 Will: “Proceed with 1, 2 and 4 as one bounded presentation change, replacing existing summaries and preserving required markers.” SPAWN8 and BOTTOM LINE now require a short evidence-linked packet with existing COMPLETION fields/caveats/recipient actions; four STATUS lines distinguish work, checks, delivery and open items. One final inbox check records unrelated arrivals pending. This applies from this turn; historical reports stay historical. Gate tokens, candidate boundaries, review requirements and blockers are unchanged; publication or stopping never grants clearance. Options3/5 remain proposals only in `runs/2026-10-09_BOOT_RELIABILITY.md`. REVIEW: not-required — presentation only; consumer checks retain C9 markers and docket citations. Reciprocal closeout-analysis read requested from PROME separately under UPGRADE_PROTOCOL1; no completed counterpart claimed.

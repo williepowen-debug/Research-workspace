@@ -1,0 +1,183 @@
+{
+  "schema": 1,
+  "purpose": "Reproduce fail-closed refusal with honest C1/C8 limitations. This provisional inventory is NOT complete input assurance and is NOT an activated reusable boundary. No receipt can be produced by this scope.",
+  "candidates": [
+    {
+      "path": "AGENTS/DAEDALUS/CLAUDE.md",
+      "reason": "Authorized charter split, consumer alignment, preparation/batching or delivery evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/OPERATIONS.md",
+      "reason": "Authorized charter split, consumer alignment, preparation/batching or delivery evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/EVOLUTION.md",
+      "reason": "Authorized charter split, consumer alignment, preparation/batching or delivery evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/STATUS.md",
+      "reason": "Authorized charter split, consumer alignment, preparation/batching or delivery evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/scripts/read_cap_check.py",
+      "reason": "Authorized charter split, consumer alignment, preparation/batching or delivery evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/registry/basis-hashes.json",
+      "reason": "Authorized charter split, consumer alignment, preparation/batching or delivery evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/registry/2026-10-09_READS_SPLIT_DELTA.tsv",
+      "reason": "Authorized charter split, consumer alignment, preparation/batching or delivery evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/2026-10-09_CHARTER_SPLIT.md",
+      "reason": "Authorized charter split, consumer alignment, preparation/batching or delivery evidence."
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/2026-10-09_CHARTER_SPLIT_CANDIDATE_SCOPE.json",
+      "reason": "Authorized charter split, consumer alignment, preparation/batching or delivery evidence."
+    },
+    {
+      "path": "PROME/inbox/2026-10-09_from-DAEDALUS_charter-split-owner-apply.md",
+      "reason": "Authorized charter split, consumer alignment, preparation/batching or delivery evidence."
+    }
+  ],
+  "bookkeeping": [
+    {
+      "path": "AGENTS/DAEDALUS/runs/GATE_LOG.tsv",
+      "reason": "Only the existing runner-owned append log exclusion."
+    }
+  ],
+  "separate": [
+    {
+      "path": "AGENTS/DAEDALUS/runs/2026-10-09_CHARTER_SPLIT_READER_REPORTS.md",
+      "reason": "Finite independent review and diagnostic evidence; capture already refused, never candidate clearance."
+    }
+  ],
+  "review_required": true,
+  "review_policy": "UPGRADE_PROTOCOL rules4/4a/4b: read-boundary consumers require independent remedy and final content review. Candidate acceptance cannot exist when capture refuses.",
+  "dependencies": {
+    "C0": {
+      "paths": [
+        "AGENTS/DAEDALUS/scripts/sweeps_due.py",
+        "AGENTS/DAEDALUS/scripts/profile_clock_check.py",
+        "AGENTS/DAEDALUS/sweeps/REGISTRY.tsv",
+        "AGENTS/DAEDALUS/FLEET_MAP.tsv",
+        "AGENTS/DAEDALUS/FLEET_DIRECTORY.md",
+        "PROME/ROSTER.md"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks."
+    },
+    "C1": {
+      "paths": [
+        "scripts/orphan_check.sh"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks.",
+      "limitations": [
+        "orphan_check executes unscoped global git status; existing exact-path context cannot bind all possible top-level untracked paths."
+      ]
+    },
+    "C2": {
+      "paths": [],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks."
+    },
+    "C3": {
+      "paths": [
+        "scripts/ledger_staleness.py",
+        "AGENTS/DAEDALUS/workbook/LEDGER_GLOB",
+        "AGENTS/DAEDALUS/STATUS.md"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks."
+    },
+    "C4": {
+      "paths": [
+        "scripts/check_memory_length.sh",
+        "MEMORY.md"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks."
+    },
+    "C5": {
+      "paths": [
+        "scripts/claim_check.py",
+        "PROME/DOCKET.tsv",
+        "PROME/GATES.tsv",
+        "PROME/WILL_QUEUE.md",
+        "AGENTS/DAEDALUS/STATUS.md"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks."
+    },
+    "C6": {
+      "paths": [
+        "AGENTS/DAEDALUS/PATTERNS_HOT.md",
+        "AGENTS/DAEDALUS/PATTERNS.tsv"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks."
+    },
+    "C7": {
+      "paths": [
+        "scripts/read_cap_check.py",
+        "PROME/registry/READS.tsv",
+        "CLAUDE.md",
+        "AGENTS/DAEDALUS/CLAUDE.md",
+        "AGENTS/DAEDALUS/OPERATIONS.md"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks."
+    },
+    "C8": {
+      "paths": [
+        "AGENTS/DAEDALUS/scripts/complete_check.py",
+        "AGENTS/DAEDALUS/EVOLUTION.md"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks.",
+      "limitations": [
+        "complete_check selects DAEDALUS commits from unscoped global git log, including empty/outside-root commits; named-path history is not equivalent."
+      ]
+    },
+    "C9": {
+      "paths": [
+        "AGENTS/DAEDALUS/STATUS.md"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks."
+    },
+    "C10": {
+      "paths": [
+        "AGENTS/DAEDALUS/CLAUDE.md"
+      ],
+      "optional_paths": [],
+      "globs": [],
+      "context": [],
+      "completeness": "Provisional named inputs only; no activation completeness attested. Known unsupported global context prevents capture before checks."
+    }
+  }
+}
