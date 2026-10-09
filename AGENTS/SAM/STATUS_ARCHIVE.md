@@ -8,6 +8,14 @@
 
 ---
 
+## 🧊 STATUS header block 2026-10-01 — rotated out 2026-10-09 (verbatim, no edits)
+
+**Last written: 2026-10-01 12:3x ET (from `date`): PROME-spawned L0 wake (DOCKET L551), prior block 2026-09-29.** 🟠 **Five facts moved: (1) The MOF monthly for Aug-27→Sep-28 = ¥0 (`20260930e.html`).** The 9/18 rate check and the 9/25–28 joint US–Japan campaign were WORDS only, now on the official record. KB-SAM-258 promoted. **(2) The BOJ meeting-OIS for October fell 36%→18%** (Totan 10/1 15:15 JST, SAM-reviewed) after the Summary of Opinions and the Tankan; December rose 72→84%. The market now sits BELOW SAM-42's as-made 25%. Neither re-mark trigger fired, so no re-mark. **(3) The delayed MOF weekly posted: foreign LT debt wk 9/13–19 = −¥1,904.9B net SELLING, which TRIPS SAM's >¥1.5T one-week bar.** 9/20–26 −¥684.5B. Signal → WALTER (`4171d2c43`). All residents, NOT a Channel-1 print. **(4) SAM-33 un-fired through 10/1.** The Oct–Dec schedule is a scheduled taper (¥2.50T→¥2.30T/month) with the 25Y+ bucket held flat; no unscheduled op. **(5) USD/JPY held 157.4 on completed closes**, ~0.5 yen under the 9/18 check high (158.054). ⛔ **Nothing re-arms: book FLAT, v1.7 stands.** Boot 12/13 (boj_ois SSL timeout, then reviewed by hand).
+
+**Post-delivery, 10/1 12:2x–12:5x ET (closeout on Will's word via PROME 12:52 ET):** ① **RED graded CH-009 CLOSED — RESOLVED-DISMISSED** (`0ad317cfc`, packet `bd53336ee`). SAM's readings matched MOF to 3dp. CH-012 is unchanged. ② WALTER dispatched SAM's MOF-weekly signal as **SIG-W-20261001-004** (`13629bff8`). WALTER's check corrected SAM's "7 of 9" to **11 more-negative weeks** and withdrew "on-cycle" (SAM `31d94f42c`). ③ 🟠 **WALTER SIG-W-20261001-012 (ACTION; Will's LSEG screenshot, undated, read as the 10/1 close): JGB 10Y 3.109 (+5.8) · 20Y 3.968 (+8.6) · 30Y 4.192 (+7.1) · 40Y 4.236 (+7.1).** SAM's PROVISIONAL grade is in the JGB row. ④ SIG-W-20261001-007 (a carrier to CENTCOM, third vs relief CONTESTED) is INFO, with no SAM surface. ⑤ SAM's R3 set (12 phrases) is with PROME to land, PENDING at 12:53 ET.
+
+---
+
 ## 🧊 CONFIRMATION LADDER (7/30-31 ops) — hot/cold split out of `STATUS.md` 2026-09-04 (verbatim, no edits)
 
 ### 🔧 CONFIRMATION LADDER — settled; full record → `thesis/INTERVENTION_2026-07-30_CONFIRMATION.md` and `STATUS_ARCHIVE.md`
