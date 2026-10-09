@@ -106,6 +106,19 @@ class DeckSplit(unittest.TestCase):
                 self.build(reference_out=ref)
             self.assertEqual(self.out.read_text(), 'preserve')
 
+    def test_hosted_reference_note_present_missing_malformed(self):
+        # WQ-382 (a) (2026-10-08): AC1 present -> built + version; AC2 missing/malformed -> UNKNOWN, no crash.
+        import json as _json, tempfile as _tf
+        from pathlib import Path as _P
+        with _tf.TemporaryDirectory() as d:
+            ok = _P(d) / "ok.json"; ok.write_text(_json.dumps({"built": "2026-09-26 16:03", "version": "v12"}), encoding="utf-8")
+            self.assertEqual(D._hosted_reference_note(ok), "hosted build 2026-09-26 16:03 (v12); refreshes on Will's word or at a spine audit")
+            self.assertIn("hosted build UNKNOWN", D._hosted_reference_note(_P(d) / "absent.json"))
+            bad = _P(d) / "bad.json"; bad.write_text("{not json", encoding="utf-8")
+            self.assertIn("hosted build UNKNOWN", D._hosted_reference_note(bad))
+            empty = _P(d) / "empty.json"; empty.write_text(_json.dumps({"built": "", "version": "v1"}), encoding="utf-8")
+            self.assertIn("hosted build UNKNOWN", D._hosted_reference_note(empty))
+
     def test_history_growth_stays_out_of_owed(self):
         history = 'HISTORY_ONLY_' * 10000
         D.Q.write_text(D.Q.read_text() + f'| 5 More history | 2026-09-14 | {history} |\n')

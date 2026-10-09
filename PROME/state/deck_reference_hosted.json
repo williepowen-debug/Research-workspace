@@ -1,0 +1,9 @@
+{
+  "artifact": "https://claude.ai/artifact/Wt4aYbC8gqQic2aLEtrWGr",
+  "version": "v12",
+  "built": "2026-09-26 16:03",
+  "published": "2026-09-26 16:07 ET",
+  "rule": "WQ-382 (a), Will 2026-10-08 20:09 ET: the Deck reference page republishes ONLY on Will's word or at a spine audit; the sitting that republishes it updates this file (built = the page's own 'built' stamp, version = the hosted version) in the same sitting; the Owed page's link renders these values",
+  "source": "PROME/STATUS.md publication row at the 10/8 closeout (Deck reference last v12, 9/26 16:07, Wt4aYbC8gqQic2aLEtrWGr); build stamp 16:03 per WQ-382's row (verified by reading the hosted page 10/4)",
+  "seeded": "2026-10-08 20:12 ET by PROME prome-07"
+}

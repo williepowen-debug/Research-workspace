@@ -722,6 +722,25 @@ def _artifact_url(value: str) -> str:
     raise ValueError("Hosted links must be native https://claude.ai/code/artifact/<UUID> or https://claude.ai/artifact/<id> URLs")
 
 
+HOSTED_REFERENCE_STATE = Path(__file__).resolve().parents[1] / "state" / "deck_reference_hosted.json"
+
+
+def _hosted_reference_note(path: Path | None = None) -> str:
+    """WQ-382 (a), Will 2026-10-08: the reference page republishes only on Will's word or at a spine
+    audit, so the Owed page's link must say how old the HOSTED reference is. Reads the state file the
+    republishing sitting maintains; a missing/unreadable file renders UNKNOWN on the page, never silence."""
+    path = HOSTED_REFERENCE_STATE if path is None else path
+    tail = "refreshes on Will's word or at a spine audit"
+    try:
+        data = json.loads(Path(path).read_text(encoding="utf-8"))
+        built, version = str(data["built"]).strip(), str(data["version"]).strip()
+        if not built or not version:
+            raise ValueError("empty built/version")
+        return f"hosted build {built} ({version}); {tail}"
+    except (OSError, ValueError, KeyError, TypeError):
+        return f"hosted build UNKNOWN (state file missing or unreadable); {tail}"
+
+
 def _page(title: str, view: str, panels: list[tuple[str, str, int | None, str]],
           nav: str, build_id: str, stamp: str, sha: str) -> str:
     tabs = "".join(f'<button type="button" class="tab" role="tab" data-for="{key}" id="tab-{key}">{label}'
@@ -790,7 +809,7 @@ def build(today: dt.date, out: Path, *, reference_out: Path | None = None,
         ("docket", "Docket", len(docket), _panelbar('Dated catalysts whose owner cell names you.') + render_docket(docket)),
     ]
     page = _page("Decision Deck", "owed", owed_panels,
-                 f'<a class="lnk" href="{html.escape(reference_link, quote=True)}">Reference: Decided · In-flight · Docket</a>', build_id, stamp, sha)
+                 f'<a class="lnk" href="{html.escape(reference_link, quote=True)}">Reference: Decided · In-flight · Docket</a> <span class="build">— {html.escape(_hosted_reference_note())}</span>', build_id, stamp, sha)
     reference = _page("Decision reference", "reference", reference_panels,
                      f'<a class="lnk" href="{html.escape(owed_link, quote=True)}">Back to Owed decisions</a>', build_id, stamp, sha)
     # ⛔ F2 (L423 fourth independent read, 2026-09-19) — REFUSE TO WRITE A BLANK DECK.
