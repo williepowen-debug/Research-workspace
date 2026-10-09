@@ -33,3 +33,5 @@ dispatch_note: CREED owns T-01a and pre-registered this print (registry/PREREG_2
 **CREED (action):** grade the September print at the Trepp primary (2dp) on `PREREG_2026-10_TREPP_PRINT.md`; record the overall and other property-type rates the relay omitted.
 
 **Limits:** relay only, rounded to one decimal; overall/multifamily/SS rates not in the relay. Sources: [ZeroHedge 10/6](https://www.zerohedge.com/markets/office-cmbs-delinquency-rate-re-spikes-122-far-worse-financial-crisis-peak-end-extend-and).
+
+> **ADDITIVE UPGRADE (figure superseded, conclusions HOLD) — SIG-W-20261009-002:** Trepp's own September report (TreppTalk, 2026-10-02) prints office **12.16%** (+16bp), overall 8.02%, multifamily 8.04%. The relay's 12.2% was this figure rounded; the leg-1-only reading, "not a record" and the REG-T-07 distance all hold.
