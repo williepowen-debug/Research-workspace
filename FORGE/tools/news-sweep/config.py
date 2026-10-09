@@ -465,6 +465,24 @@ WATCH_FOR = {
         "Mahender Makhijani",
         "Preferred Bank nonaccrual",
     ],
+    "ZHAO": [                          # added 2026-10-09 10:42 ET (WQ-295 R3, set 13) — ZHAO-proposed 9 (9/2x), WALTER live-tested 10/1 (AGENTS/WALTER/research/2026-10-01_R3/groupC.md §4; lane 79d, live 512+481 headlines/30d)
+                                       # + "HKMA buys" tested 10/9 (groupC-addendum-2026-10-09-HKMA-buys.md: lane 12,063 = 0, live 53/3 queries/365d = 0, synthetic fires); ZHAO adopt/decline BY NAME 10/9
+                                       # (PROME/inbox/processed/2026-10-09_from-ZHAO_R3-watch-for-adopt-decline.md, e67fa6452); WALTER cleared all 11 by message 10/9. ⛔ REJECTED by name: "rare earth export controls"
+                                       # → the two verb-bound forms; "gallium" (62 FALSE) → "China gallium export"; "Kuala Lumpur joint arrangement" → "Kuala Lumpur arrangement"; "CXMT" / "YMTC" rejected, their
+                                       # "… Entity List" replacements DECLINED by ZHAO (VULCAN's live "adds Entity List" / "added to Entity List" cover the event shape). Caveats carried: `rule` also matches "rules";
+                                       # other Busan agreements (plastics treaty) are a latent hazard; recall UNPROVEN on the 0/0 phrases (#5 #6 #9 #11); the long form "Hong Kong Monetary Authority buys" cannot match (HKMA = required token, no alias).
+        "Affiliates Rule",                 # 0 lane / 0 live (zero noise); recall missed the WSJ "50% Rule" headline → next line
+        "Rule China truce",                # 1 TRUE live / 0 lane
+        "Busan Agreement",                 # 6 TRUE / 0 FALSE live
+        "Kuala Lumpur arrangement",        # 1 TRUE live / 0 lane
+        "rare earth controls suspension",  # 0/0; synthetic fires; recall unproven
+        "reimposes rare earth",            # 0/0; synthetic fires; recall unproven
+        "Fifth Plenum",                    # 1 TRUE; recall missed the Reuters/SCMP plenum-date wording → next line
+        "Central Committee plenum",        # 3 TRUE / 0 FALSE
+        "weak-side convertibility",        # 0/0; recall unproven
+        "HKMA buys",                       # 0/0 (tested 10/9); synthetic fires; recall unproven
+        "China gallium export",            # 0/0; synthetic fires; replaces the rejected "gallium"
+    ],
 }
 
 # ---------------------------------------------------------------------------
