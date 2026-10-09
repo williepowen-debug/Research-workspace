@@ -446,6 +446,15 @@ WATCH_FOR = {
         "Black Sea insurers",
         "energy ceasefire takes effect",
         "Russia extends diesel export ban",
+        # --- set 11 ALTERNATES landed 2026-10-09 10:15 ET (WQ-295 R3): WALTER live-tested 10/8 (AGENTS/WALTER/research/2026-10-08_R3/OSPREY-alternates.md; lane corpus 11,830 headlines 6/29→10/7
+        # + Google News 21d/45d), OSPREY adopt/decline BY NAME 10/9 (PROME/inbox/processed/2026-10-09_from-OSPREY_c2-kill-eval-c3-rio-attribution.md), WALTER confirmed by message 10/9.
+        # ⛔ DECLINED by name: "Tuapse port" (the `port` substring hits report/exports/support) · "Russia lift diesel export ban" (5 FALSE / 0 TRUE, all talk) → the realized-lift form below.
+        # Caveats carried: unhyphenated "Ust Luga" cannot match; a labour strike at Ust-Luga would match (synthetic only); CPC lane hits include REVERSALS ("resumes exports") —
+        # GATE-OSPREY-001 says resumption does not un-fire (owner-confirmed); "lets the ban lapse" wording is not seen; the diesel-ban INSTRUMENT is YURI's (no YURI set yet).
+        "Ust-Luga drone",                  # 16 TRUE / 0 FALSE (45d live)
+        "Ust-Luga strike",                 # 10 TRUE / 0 FALSE (45d live)
+        "Caspian Pipeline Consortium",     # 0 FALSE; lane 4 = 2 TRUE + 2 REVERSAL
+        "Russia lifts diesel export ban",  # 0/0 (no realized lift in window); synthetic realized lift matches, "may partially lift" does not
     ],
     "WAL": [                           # added 2026-10-09 10:12 ET (WQ-295 R3, set 12) — WAL-proposed 4 (PROME pointer 9/27), WALTER live-tested 10/1 (AGENTS/WALTER/research/2026-10-01_R3/groupA.md § WAL),
                                        # owner adopt/decline BY NAME 10/9 (PROME/inbox/2026-10-09_from-WAL_R3-watch-for-verdicts.md, WAL e9faeb066; WALTER concurred by message 10/9).
