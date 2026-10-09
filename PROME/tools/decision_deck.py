@@ -754,10 +754,57 @@ def render_owed(rows: list[dict], expl: dict, today: dt.date, warnings: list[str
     chips = "".join(f'<button type="button" class="chipbtn" data-chip="{k}">{k}<span class="n">{kinds[k]}</span></button>' for k in chip_order)
     chips += "".join(f'<button type="button" class="chipbtn dom" data-chip="{html.escape(d, quote=True)}">{html.escape(d)}<span class="n">{doms[d]}</span></button>' for d in sorted(doms))
     if chips:
-        npin = sum(1 for r in rows if r.get("_pin"))
+        npin = sum(1 for r in rows if (r["_pin"] if "_pin" in r else is_pinned(r, (dt.date.fromisoformat(r["by"]) - today).days if r["by"] else None)))
         out.append('<div class="chipbar" title="Filters are a convenience: anything due, clocked or money-moving stays PINNED and visible under every chip. Domain labels are PROME-declared.">'
                    f'<button type="button" class="chipbtn on" data-chip="All">All</button>{chips}'
-                   + (f'<span class="chipnote">{npin} pinned card(s) stay visible, each on top of its group, under every chip</span>' if npin else '') + '</div>')
+                   + (f'<span class="chipnote">{npin} pinned card(s) stay visible, each on top of its group, under every chip — except \'Waiting on others\', the one whole-group view without them</span>' if npin else '') + '</div>')
+    # Change C (WQ-407 A, ACCEPTANCE_deck_changeC_2026-10-09.md): view switch + presets + the two overviews +
+    # the peek shell. The table/grid rows carry the SAME data-attrs as cards so one filter governs all views;
+    # clicking a row/tile relocates the REAL card node into the peek (AC-C4) — never a copy.
+    GRPLBL = {"owed": "you", "answered": "hands owed", "blocked": "waiting"}
+    trows, tiles = [], []
+    for r in rows:
+        g = "blocked" if r["blocked"] else ("answered" if r.get("answered") else "owed")
+        d = (dt.date.fromisoformat(r["by"]) - today).days if r["by"] else None
+        pn = r["_pin"] if "_pin" in r else is_pinned(r, d)   # same fallback as the card (the selftest renders without build's pre-pass)
+        e1 = expl.get(r["n"])
+        nm = (e1["name"] if e1 and e1.get("name") else r["name"])
+        dm = " ".join(x for x in ((e1.get("domains") or "").replace("·", " ").split() if e1 else []) if x.lower() not in _RESERVED_LC)
+        attrs = (f'data-wq="{r["n"]}" data-kchip="{kind_chip(r["kind"])}" data-dom="{html.escape(dm, quote=True)}"'
+                 f' data-pin="{"1" if pn else "0"}" data-due="{html.escape(r["by"] or "9999-12-31", quote=True)}"'
+                 f' data-grp="{g}" data-since="{html.escape(r["since"], quote=True)}"')
+        pill = due_pill(r["by"], d, r["blocked"], r.get("blocker"), clock_of(r))
+        trows.append(f'<tr class="ovrow" {attrs} tabindex="0"><td class="c-wq">WQ-{r["n"]}</td>'
+                     f'<td class="c-pin">{"📌" if pn else ""}</td><td class="c-title">{html.escape(nm)}</td>'
+                     f'<td class="c-who">{GRPLBL[g]}</td><td class="c-kind">{kind_chip(r["kind"])}</td>'
+                     f'<td class="c-due">{pill}</td><td class="c-since">{html.escape(r["since"])}</td></tr>')
+        tiles.append(f'<button type="button" class="ovtile" {attrs}><span class="t-top"><span class="num">WQ-{r["n"]}</span>'
+                     f'{"<span class=\"pill pin\">PINNED</span>" if pn else ""}</span>{pill}'
+                     f'<span class="t-kind">{kind_chip(r["kind"])} · {GRPLBL[g]}</span><span class="t-title">{html.escape(nm)}</span></button>')
+    out.append(
+        '<div class="viewbar">'
+        '<span class="vb-lbl">View</span>'
+        '<button type="button" class="vbtn on" data-view="list">List</button>'
+        '<button type="button" class="vbtn" data-view="table">Table</button>'
+        '<button type="button" class="vbtn" data-view="board">Board</button>'
+        '<span class="vb-lbl vb-sep">Show</span>'
+        '<button type="button" class="pbtn on" data-preset="all" title="Every card">Everything</button>'
+        '<button type="button" class="pbtn" data-preset="today" title="Pinned + due today/overdue only">My action today</button>'
+        '<button type="button" class="pbtn" data-preset="waiting" title="The blocked group only — the one view where pinned cards of other groups are absent, by design">Waiting on others</button>'
+        '</div>'
+        '<div class="ov ovtable" hidden><table><thead><tr>'
+        '<th data-sort="wq" title="Plain ascending by number — pinned-first applies on the Deadline sort only">WQ</th><th title="Pinned">📌</th><th>Decision</th><th>Who acts</th><th>Type</th>'
+        '<th data-sort="due" class="sorted" title="Default — pinned first, then date">Deadline</th><th title="Not sortable — these dates carry no year">Open since</th>'
+        '</tr></thead><tbody>' + "".join(trows) + '</tbody></table></div>'
+        '<div class="ov ovgrid" hidden>' + "".join(tiles) + '</div>'
+        '<p class="ovempty" hidden></p>'
+        '<aside id="peek" hidden><div class="peekbar">'
+        '<button type="button" class="pk" id="pk-prev" title="Previous card">←</button>'
+        '<button type="button" class="pk" id="pk-next" title="Next card">→</button>'
+        '<span class="pk-pos" id="pk-pos"></span>'
+        '<button type="button" class="pk" id="pk-close" title="Close (Esc)">Close ✕</button>'
+        '</div><div id="peekbody"></div></aside>'
+        '<div id="listwrap">')
     seen = set()
     for r in rows:
         grp = "blocked" if r["blocked"] else ("answered" if r.get("answered") else "owed")
@@ -876,6 +923,7 @@ def render_owed(rows: list[dict], expl: dict, today: dt.date, warnings: list[str
             f'{block}{detail}{ctl}'
             '</div></article>'
         )
+    out.append('</div>')                                  # /listwrap (Change C)
     return "\n".join(out)
 
 def render_decided(rows: list[dict]) -> str:
@@ -1013,6 +1061,31 @@ details.raw code,.expl code,.key code{font:12.5px/1.4 "IBM Plex Mono",monospace;
 .chipbtn .n{margin-left:6px;color:var(--muted)}
 .chipbtn.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}.chipbtn.on .n{color:var(--accent-ink)}
 .chipnote{font:11.5px/1.4 "IBM Plex Mono",monospace;color:var(--muted);align-self:center}
+.viewbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0 4px}
+.vb-lbl{font:600 11px/1.4 "IBM Plex Sans",sans-serif;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.vb-sep{margin-left:10px}
+.vbtn,.pbtn{font:500 12.5px/1 "IBM Plex Mono",monospace;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:4px;padding:7px 11px;cursor:pointer}
+.vbtn.on,.pbtn.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.ovhide{display:none}
+.ovtable{margin:12px 0}.ovtable table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line);border-radius:6px}
+.ovtable th{font:600 11px/1.5 "IBM Plex Sans",sans-serif;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);cursor:default}
+.ovtable th[data-sort]{cursor:pointer}.ovtable th.sorted{color:var(--accent)}
+.ovtable td{font:13.5px/1.45 "IBM Plex Sans",sans-serif;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+.ovrow{cursor:pointer}.ovrow:hover td,.ovrow:focus-visible td{background:var(--chip)}
+.c-wq{font:600 13px/1.4 "IBM Plex Mono",monospace;color:var(--accent);white-space:nowrap}
+.c-title{max-width:34ch}.c-kind,.c-who,.c-since{font:12px/1.5 "IBM Plex Mono",monospace;color:var(--muted);white-space:nowrap}
+.ovgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px;margin:12px 0}
+@media (max-width:560px){.ovgrid{grid-template-columns:repeat(2,minmax(0,1fr))}.ovtile{padding:9px}}
+.ovempty{color:var(--muted);font-size:14px;margin:12px 0}
+.ovtile{display:flex;flex-direction:column;align-items:flex-start;gap:7px;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:12px;cursor:pointer;font:inherit;color:var(--ink)}
+.ovtile:hover,.ovtile:focus-visible{border-color:var(--accent)}
+.t-top{display:flex;gap:8px;align-items:center}.t-kind{font:11.5px/1.4 "IBM Plex Mono",monospace;color:var(--muted)}
+.t-title{font:600 14.5px/1.35 "IBM Plex Sans",sans-serif;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+#peek{position:fixed;top:0;right:0;width:min(600px,100vw);height:100vh;overflow:auto;background:var(--bg);border-left:1px solid var(--line);z-index:9;padding:14px 16px;box-shadow:-6px 0 24px rgba(0,0,0,.18)}
+.peekbar{display:flex;gap:8px;align-items:center;margin-bottom:10px;position:sticky;top:0;background:var(--bg);padding:4px 0;z-index:1}
+.pk{font:600 13px/1 "IBM Plex Mono",monospace;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:4px;padding:8px 12px;cursor:pointer}
+#pk-close{margin-left:auto}.pk-pos{font:12px/1.4 "IBM Plex Mono",monospace;color:var(--muted)}
+#peekbody .card{display:flex !important;margin-bottom:0}
 .chiphide{display:none}
 .pill.pin{background:var(--warn);color:#fff}
 .asof{font:12px/1.5 "IBM Plex Mono",monospace;color:var(--muted);margin:6px 0 0}
@@ -1070,24 +1143,52 @@ UI_JS = r"""
       Array.prototype.slice.call(panel.querySelectorAll('.card')).forEach(function(c){ setMin(c, on, true); });
     });
   });
-  // Change B (AC-B2/B3/B4): chip filter. Pinned cards are exempt STRUCTURALLY — the show test reads
-  // data-pin before anything else, so no saved filter can ever hide one.
+  // Change B chips + Change C views/presets/peek (WQ-407 A; ACCEPTANCE_deck_changeC_2026-10-09.md).
+  // ONE filter governs cards, table rows and tiles: show = presetAllows && (pinnedNow || chip match).
+  // Pinned exemption stays STRUCTURAL (read first) — only the explicit 'Waiting on others' preset, a
+  // whole-group view, omits pinned cards of other groups (stated on its button).
   var bar = document.querySelector ? document.querySelector('.chipbar') : null;
   if (bar) {
     var chips = Array.prototype.slice.call(bar.querySelectorAll('.chipbtn'));
+    var pbtns = Array.prototype.slice.call(document.querySelectorAll('.pbtn'));
     var chipKey = 'deck.chip.' + document.body.dataset.view;
-    var applyChip = function(val, save){
+    var presetKey = 'deck.preset.' + document.body.dataset.view;
+    var curChip = 'All', curPreset = 'all';
+    function etToday(){ try { return new Intl.DateTimeFormat('en-CA',{timeZone:'America/New_York',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date()); } catch(e){ var d = new Date(); return d.getFullYear() + '-' + ('0'+(d.getMonth()+1)).slice(-2) + '-' + ('0'+d.getDate()).slice(-2); } }
+    function allUnits(){ return Array.prototype.slice.call(document.querySelectorAll('#owed .card, #owed .ovrow, #owed .ovtile')); }
+    var applyFilters = function(chipVal, preset, save){
       if (save === undefined) save = true;
-      chips.forEach(function(c){ c.classList.toggle('on', c.dataset.chip === val); });
-      // read 2 ⚠️3: "due today" is an ET fact — compute today in America/New_York, never viewer-local
-      var todayLocal = (function(){ try { return new Intl.DateTimeFormat('en-CA',{timeZone:'America/New_York',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date()); } catch(e){ var d = new Date(); return d.getFullYear() + '-' + ('0'+(d.getMonth()+1)).slice(-2) + '-' + ('0'+d.getDate()).slice(-2); } })();
-      Array.prototype.slice.call(document.querySelectorAll('#owed .card')).forEach(function(card){
-        // pin exemption first; a card whose due date has arrived since the build counts as pinned too (read 1 ⚠️3)
-        var pinNow = card.dataset.pin === '1' || (card.dataset.due && card.dataset.due <= todayLocal);
-        var show = pinNow || val === 'All' || card.dataset.kchip === val ||
-          (' ' + (card.dataset.dom || '') + ' ').indexOf(' ' + val + ' ') >= 0;
-        card.classList.toggle('chiphide', !show);
+      curChip = chipVal; curPreset = preset;
+      chips.forEach(function(c){ c.classList.toggle('on', c.dataset.chip === chipVal); });
+      pbtns.forEach(function(b){ b.classList.toggle('on', b.dataset.preset === preset); });
+      var todayLocal = etToday();
+      allUnits().forEach(function(el){
+        var pinNow = el.dataset.pin === '1' || (el.dataset.due && el.dataset.due <= todayLocal);
+        var presetOk = preset === 'all' ? true
+                     : preset === 'today' ? (pinNow)
+                     : (el.dataset.grp ? el.dataset.grp === 'blocked' : el.classList.contains('blocked'));
+        var chipOk = pinNow || chipVal === 'All' || el.dataset.kchip === chipVal ||
+          (' ' + (el.dataset.dom || '') + ' ').indexOf(' ' + chipVal + ' ') >= 0;
+        if (preset === 'waiting') chipOk = true;           // the whole-group view ignores chips
+        el.classList.toggle('chiphide', !(presetOk && chipOk));
       });
+      refreshGroups();
+      var emptyEl = document.querySelector('.ovempty');
+      if (emptyEl) {
+        var anyVisible = allUnits().some(function(el){ return !el.classList.contains('chiphide'); });
+        emptyEl.hidden = anyVisible;
+        if (!anyVisible) {                                 // read 2 ❌1: the note names the CAUSE and counts LIVE — nothing baked
+          var nCards = document.querySelectorAll('#owed .card').length;
+          emptyEl.textContent = 'Nothing matches this view — ' +
+            (preset === 'waiting' ? '"Waiting on others" shows only the blocked group, and it is empty right now.' :
+             preset === 'today' ? 'nothing is pinned or due today under this filter.' : 'this filter hides every card.') +
+            ' Tap Everything to see all ' + nCards + ' cards.';
+        }
+      }
+      refreshPeekPos();                                    // read 1 ⚠️11: the position line follows the live view
+      if (save) { try{ localStorage.setItem(chipKey, chipVal); localStorage.setItem(presetKey, preset); }catch(e){} }
+    };
+    function refreshGroups(){                              // read 1 ❌7: re-run after any relocation too
       Array.prototype.slice.call(document.querySelectorAll('#owed .grp')).forEach(function(g){
         var el = g.nextElementSibling, any = false;
         while (el && !(el.classList && el.classList.contains('grp'))) {
@@ -1096,14 +1197,121 @@ UI_JS = r"""
         }
         g.classList.toggle('chiphide', !any);
       });
-      if (save) { try{ localStorage.setItem(chipKey, val); }catch(e){} }
-    };
-    chips.forEach(function(c){ c.addEventListener('click', function(){ applyChip(c.dataset.chip); }); });
-    var sv = 'All';
-    try{ var s2 = localStorage.getItem(chipKey); if (s2 && chips.some(function(c){ return c.dataset.chip === s2; })) sv = s2; }catch(e){}
-    applyChip(sv);
-    // read 1 ⚠️2 + read 2 ❌2: a deep link to a hidden card shows All WITHOUT saving — the viewer's saved chip survives the visit
-    if (location.hash) { var tgt = document.getElementById(location.hash.slice(1)); if (tgt && tgt.classList && tgt.classList.contains('chiphide')) applyChip('All', false); }
+    }
+    chips.forEach(function(c){ c.addEventListener('click', function(){ applyFilters(c.dataset.chip, curPreset); }); });
+    pbtns.forEach(function(b){ b.addEventListener('click', function(){
+      var blankNow = !allUnits().some(function(el){ return !el.classList.contains('chiphide'); });
+      // read 3 ❌1: from a blank page, Everything is the escape hatch the note names — it resets the chip
+      // too, so "see all N cards" is literally what the tap shows.
+      applyFilters(blankNow && b.dataset.preset === 'all' ? 'All' : curChip, b.dataset.preset);
+    }); });
+    var sv = 'All', sp = 'all';
+    try{ var s2 = localStorage.getItem(chipKey); if (s2 && chips.some(function(c){ return c.dataset.chip === s2; })) sv = s2;
+         var s3 = localStorage.getItem(presetKey); if (s3 === 'today' || s3 === 'waiting') sp = s3; }catch(e){}
+    applyFilters(sv, sp);
+    if (!allUnits().some(function(el){ return !el.classList.contains('chiphide'); })) {
+      applyFilters(sv, 'all', false);                      // read 1 ❌5: a saved view may never open a BLANK page
+    }
+    if (location.hash) { var tgt = document.getElementById(location.hash.slice(1)); if (tgt && tgt.classList && tgt.classList.contains('chiphide')) applyFilters('All', 'all', false); }
+
+    // --- view toggle (AC-C1) ---
+    var vbtns = Array.prototype.slice.call(document.querySelectorAll('.vbtn'));
+    var ovTable = document.querySelector('.ovtable'), ovGrid = document.querySelector('.ovgrid');
+    var listWrap = document.getElementById('listwrap');
+    var viewKey = 'deck.viewmode.' + document.body.dataset.view;
+    var curView = 'list';
+    function setView(v, save){
+      curView = v;
+      vbtns.forEach(function(b){ b.classList.toggle('on', b.dataset.view === v); });
+      if (ovTable) ovTable.hidden = (v !== 'table');
+      if (ovGrid) ovGrid.hidden = (v !== 'board');
+      if (listWrap) listWrap.classList.toggle('ovhide', v !== 'list');
+      closePeek();                                       // read 1 ⚠️12: a view switch always closes the peek — its order belongs to one view
+      if (save === undefined || save) { try{ localStorage.setItem(viewKey, v); }catch(e){} }
+    }
+    vbtns.forEach(function(b){ b.addEventListener('click', function(){ setView(b.dataset.view); }); });
+    var v0 = 'list'; try{ var vs = localStorage.getItem(viewKey); if (vs === 'table' || vs === 'board') v0 = vs; }catch(e){}
+
+    // --- table sort (AC-C2 as re-cut): due default (pinned first), wq; open-since is not sortable ---
+    function sortTable(key){
+      if (!ovTable || !ovTable.querySelector) return;
+      var tb = ovTable.querySelector('tbody'); if (!tb) return;
+      var rows = Array.prototype.slice.call(tb.querySelectorAll('.ovrow'));
+      var todayS = etToday();
+      function pinNowOf(el){ return el.dataset.pin === '1' || (el.dataset.due && el.dataset.due <= todayS); }
+      rows.sort(function(a, b){
+        if (key === 'wq') return parseInt(a.dataset.wq, 10) - parseInt(b.dataset.wq, 10);
+        var p = pinNowOf(b) - pinNowOf(a);                 // read 1 ⚠️10: the sort's pin = the filter's pin
+        return p !== 0 ? p : String(a.dataset.due).localeCompare(String(b.dataset.due));
+      });
+      rows.forEach(function(r){ tb.appendChild(r); });
+      Array.prototype.slice.call(ovTable.querySelectorAll('th[data-sort]')).forEach(function(h){ h.classList.toggle('sorted', h.dataset.sort === key); });
+    }
+    if (ovTable && ovTable.querySelectorAll) Array.prototype.slice.call(ovTable.querySelectorAll('th[data-sort]')).forEach(function(h){ h.addEventListener('click', function(){ sortTable(h.dataset.sort); }); });
+
+    // --- the peek (AC-C4): relocate the REAL card node; return it to its exact slot on close ---
+    var peek = document.getElementById('peek'), peekBody = document.getElementById('peekbody'), pkPos = document.getElementById('pk-pos');
+    var peekAnchor = null, peekedCard = null, peekedWasMin = false;
+    function refreshPeekPos(){
+      if (!peekedCard || !pkPos) return;
+      var ord = visOrder(), i = ord.indexOf(peekedCard.dataset.wq);
+      pkPos.textContent = (i >= 0 ? (i + 1) + ' of ' + ord.length + ' in view' : 'WQ-' + peekedCard.dataset.wq + ' (filtered out of this view)');
+    }
+    function visOrder(){
+      var src = curView === 'table' ? '#owed .ovrow' : '#owed .ovtile';
+      return Array.prototype.slice.call(document.querySelectorAll(src)).filter(function(el){ return !el.classList.contains('chiphide'); }).map(function(el){ return el.dataset.wq; });
+    }
+    function closePeek(){
+      if (!peekedCard) return;
+      if (peekAnchor && peekAnchor.parentNode) { peekAnchor.parentNode.insertBefore(peekedCard, peekAnchor); peekAnchor.parentNode.removeChild(peekAnchor); }
+      peekedCard.classList.remove('peeked');
+      if (peekedWasMin) peekedCard.classList.add('min');   // read 1 ❌4: a minimized card goes back minimized
+      peekAnchor = null; peekedCard = null; peekedWasMin = false;
+      if (peek) peek.hidden = true;
+      refreshGroups();                                     // read 1 ❌7: headings recount after the node returns
+    }
+    function openPeek(wq){
+      var card = document.getElementById('wq-' + wq); if (!card || !card.parentNode || !peekBody) return;
+      closePeek();
+      peekAnchor = document.createComment ? document.createComment('peek-' + wq) : null;
+      if (peekAnchor) card.parentNode.insertBefore(peekAnchor, card);
+      peekBody.appendChild(card);                          // the SAME node — taps/options/tapstate all live (AC-C4)
+      peekedWasMin = card.classList.contains('min');
+      card.classList.add('peeked'); card.classList.remove('min');
+      peekedCard = card; peek.hidden = false;
+      var ord = visOrder(), i = ord.indexOf(wq);
+      if (pkPos) pkPos.textContent = (i >= 0 ? (i + 1) + ' of ' + ord.length + ' in view' : 'WQ-' + wq);
+    }
+    function peekStep(dir){
+      if (!peekedCard) return;
+      var ord = visOrder(), i = ord.indexOf(peekedCard.dataset.wq);
+      var nx = ord[i + dir]; if (nx !== undefined) openPeek(nx);
+    }
+    allUnits().forEach(function(el){
+      if (el.classList.contains('card')) return;
+      var act = function(){ openPeek(el.dataset.wq); };
+      el.addEventListener('click', act);
+      el.addEventListener('keydown', function(ev){ if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); act(); } });
+    });
+    var pkPrev = document.getElementById('pk-prev'), pkNext = document.getElementById('pk-next'), pkClose = document.getElementById('pk-close');
+    if (pkPrev) pkPrev.addEventListener('click', function(){ peekStep(-1); });
+    if (pkNext) pkNext.addEventListener('click', function(){ peekStep(1); });
+    if (pkClose) pkClose.addEventListener('click', closePeek);
+    if (document.addEventListener) document.addEventListener('keydown', function(ev){
+      if (!peekedCard) return;
+      var tg = ev.target;                                  // read 1 ❌3: never hijack keys while the operator types
+      if (tg && (tg.tagName === 'INPUT' || tg.tagName === 'TEXTAREA' || tg.isContentEditable)) return;
+      if (ev.key === 'Escape') closePeek();
+      else if (ev.key === 'ArrowLeft') peekStep(-1);
+      else if (ev.key === 'ArrowRight') peekStep(1);
+    });
+    setView(v0, false);
+    sortTable('due');
+    // read 1 ❌6: a deep link still lands when the saved view hides the list — open the card in the peek
+    if (location.hash && curView !== 'list') {
+      var dlCard = document.getElementById(location.hash.slice(1));
+      if (dlCard && dlCard.classList && dlCard.classList.contains('card') && dlCard.dataset.wq) openPeek(dlCard.dataset.wq);
+    }
   }
 })();
 """
@@ -1163,7 +1371,7 @@ RULING_JS = r"""
           if (typeof x.disposition === 'string' && x.disposition) {
             tail = ' · ③ Disposition recorded' + (typeof x.disposition_ts === 'string' ? ' ' + fmt(x.disposition_ts) : '') + ': ' + x.disposition;
           } else if (typeof x.recorded_as === 'string' && x.recorded_as) {
-            tail = ' · ③ Recorded in the queue as: ' + x.recorded_as;   // read 2 ⚠️9: the store field is the queue record line, labelled as such
+            tail = ' · ③ Recorded in the queue as: ' + x.recorded_as + ' — execution follows that record, never the tap itself';   // read 2 ⚠️9 + DP6
           } else {
             tail = ' · receipt is not execution — a disposition shows here only once PROME records one';
           }
@@ -1428,7 +1636,14 @@ def selftest() -> int:
     bgs = _re.findall(r'<details class="more">.*?</details>', page_html, _re.S)
     bad_bg = [b[:60] for b in bgs if _re.search(r"⚠|⛔|caveat|known[- ]unknown", b, _re.I)]
     chk("no caveat marker hides behind a Background expander (read 1 ❌2)", not bad_bg, "; ".join(bad_bg)[:200] or f"{len(bgs)} backgrounds clean")
-    chk("every pinned card carries data-pin=1 in the render (AC-B3)", page_html.count('data-pin="1"') == len(pinned), f"{page_html.count('data-pin=' + chr(34) + '1' + chr(34))} rendered vs {len(pinned)}")
+    chk("every pinned card carries data-pin=1 on card+row+tile (AC-B3/C2/C3)", page_html.count('data-pin="1"') == 3 * len(pinned), f"{page_html.count('data-pin=' + chr(34) + '1' + chr(34))} rendered vs 3×{len(pinned)} pinned")
+    # Change C (AC-C1–C4): the overviews, the view bar and the peek shell render; counts line up.
+    # ⚠️ This selftest renders the NON-BLOCKED live rows only (its own fixture choice); the real build
+    # passes every row, blocked included — the counts below compare against the list actually rendered.
+    chk("view bar + presets render (AC-C1/C5)", all(x in page_html for x in ('class="viewbar"', 'data-view="table"', 'data-view="board"', 'data-preset="today"', 'data-preset="waiting"')))
+    chk("table rows == rendered rows (AC-C2; selftest renders non-blocked)", page_html.count('class="ovrow"') == len(live), f"{page_html.count('class=' + chr(34) + 'ovrow' + chr(34))} vs {len(live)}")
+    chk("grid tiles == rendered rows (AC-C3; same basis)", page_html.count('class="ovtile"') == len(live), f"{page_html.count('class=' + chr(34) + 'ovtile' + chr(34))} vs {len(live)}")
+    chk("peek shell + listwrap render (AC-C4)", all(x in page_html for x in ('id="peek"', 'id="peekbody"', 'id="pk-prev"', 'id="listwrap"')))
     print("SELFTEST", "PASS" if rc == 0 else "FAIL")
     return rc
 

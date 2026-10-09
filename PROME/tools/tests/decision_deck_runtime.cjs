@@ -162,7 +162,9 @@ function chipTest() {
   const ctx={document:{body:{dataset:{view:'owed'}},
       querySelector:s=>s==='.chipbar'?bar:null,
       querySelectorAll:s=>({'.tab':[], '.panel':[], '.card':[], '.lnk[data-all]':[],
-                            '#owed .card':[pinned,ruleCard,domCard], '#owed .grp':[grp]}[s]||[]),
+                            '#owed .card':[pinned,ruleCard,domCard],
+                            '#owed .card, #owed .ovrow, #owed .ovtile':[pinned,ruleCard,domCard],
+                            '#owed .grp':[grp]}[s]||[]),
       getElementById:()=>null},
     localStorage:{getItem:k=>storage.get(k),setItem:(k,v)=>storage.set(k,v)},location:{hash:''},window:{}};
   vm.runInNewContext(source.ui,ctx);
@@ -184,7 +186,9 @@ function chipTest() {
   const ctx2={document:{body:{dataset:{view:'owed'}},
       querySelector:s=>s==='.chipbar'?bar:null,
       querySelectorAll:s=>({'.tab':[], '.panel':[], '.card':[], '.lnk[data-all]':[],
-                            '#owed .card':[pinned,ruleCard,domCard], '#owed .grp':[grp]}[s]||[]),
+                            '#owed .card':[pinned,ruleCard,domCard],
+                            '#owed .card, #owed .ovrow, #owed .ovtile':[pinned,ruleCard,domCard],
+                            '#owed .grp':[grp]}[s]||[]),
       getElementById:id=>id==='wq-11'?ruleCard:null},
     localStorage:{getItem:k=>storage.get(k),setItem:(k,v)=>storage.set(k,v)},location:{hash:'#wq-11'},window:{},
     Intl:Intl, Date:Date};
@@ -193,4 +197,100 @@ function chipTest() {
   assert.equal(storage.get('deck.chip.owed'),'Credit','the saved chip must survive a deep-link visit');
 }
 
-rulingTest().then(unitTapTest).then(pipelineTest).then(chipTest).then(()=>console.log('UI, ruling, unit-tap, pipeline and chip runtime fixtures passed')).catch(e=>{console.error(e);process.exitCode=1;});
+// Change C (ACCEPTANCE_deck_changeC AC-C1/C2/C4/C5/C6): view toggle persists, table sorts, the peek
+// relocates the REAL node and returns it, a preset never hides a pinned card.
+function viewTest() {
+  let keyFn=null;
+  function container(){ const kids=[]; const c={children:kids,
+    insertBefore(n,ref){ if(n.parentNode&&n.parentNode.removeChild)n.parentNode.removeChild(n); const i=kids.indexOf(ref); kids.splice(i<0?kids.length:i,0,n); n.parentNode=c; },
+    appendChild(n){ if(n.parentNode&&n.parentNode.removeChild)n.parentNode.removeChild(n); kids.push(n); n.parentNode=c; },
+    removeChild(n){ const i=kids.indexOf(n); if(i>=0)kids.splice(i,1); n.parentNode=null; }}; return c; }
+  const listC=container(), peekC=container();
+  const cardA=element('wq-7',{wq:'7',pin:'0',kchip:'Rule',dom:'',due:'2099-01-01',grp:'owed'}); cardA.classList.add('card');
+  const cardB=element('wq-8',{wq:'8',pin:'1',kchip:'Trade',dom:'',due:'2026-10-09',grp:'owed'}); cardB.classList.add('card');
+  listC.appendChild(cardA); listC.appendChild(cardB);
+  const tileA=element('t7',{wq:'7',pin:'0',kchip:'Rule',dom:'',due:'2099-01-01',grp:'owed'}); tileA.classList.add('ovtile');
+  const tileB=element('t8',{wq:'8',pin:'1',kchip:'Trade',dom:'',due:'2026-10-09',grp:'owed'}); tileB.classList.add('ovtile');
+  // table stub with two sortable rows
+  const tb=container();
+  const rowA=element('r7',{wq:'7',pin:'0',due:'2099-01-01',since:'9/1',grp:'owed'}); rowA.classList.add('ovrow');
+  const rowB=element('r8',{wq:'8',pin:'1',due:'2026-10-09',since:'10/1',grp:'owed'}); rowB.classList.add('ovrow');
+  tb.appendChild(rowA); tb.appendChild(rowB);
+  const thWq=element('',{sort:'wq'}), thDue=element('',{sort:'due'}); thDue.classList.add('sorted');
+  const ovTable={hidden:false,querySelector:s=>s==='tbody'?{querySelectorAll:()=>tb.children.slice()}:null,
+    querySelectorAll:s=>s==='th[data-sort]'?[thWq,thDue]:[]};
+  // patch: sortTable appends into tb via each row's reinsertion — emulate by giving tbody appendChild
+  ovTable.querySelector=s=>s==='tbody'?Object.assign(tb,{querySelectorAll:()=>tb.children.slice()}):null;
+  const ovGrid={hidden:false}; const listWrap=element('listwrap');
+  const peekEl={hidden:true}; const pkPos=element('pk-pos');
+  const chipAll=element('',{chip:'All'}); const bar={querySelectorAll:()=>[chipAll]};
+  const pAll=element('',{preset:'all'}), pToday=element('',{preset:'today'});
+  const vList=element('',{view:'list'}), vTable=element('',{view:'table'}), vBoard=element('',{view:'board'});
+  const storage=new Map();
+  const units=[cardA,cardB,rowA,rowB,tileA,tileB];
+  const ctx={document:{body:{dataset:{view:'owed'}},
+      querySelector:s=>({'.chipbar':bar,'.ovtable':ovTable,'.ovgrid':ovGrid}[s]||null),
+      querySelectorAll:s=>({'.tab':[], '.panel':[], '.card':[], '.lnk[data-all]':[],
+        '.pbtn':[pAll,pToday], '.vbtn':[vList,vTable,vBoard],
+        '#owed .card, #owed .ovrow, #owed .ovtile':units,
+        '#owed .ovrow':[rowA,rowB], '#owed .ovtile':[tileA,tileB], '#owed .grp':[]}[s]||[]),
+      getElementById:id=>({'listwrap':listWrap,'peek':peekEl,'peekbody':peekC,'pk-pos':pkPos,'wq-7':cardA,'wq-8':cardB}[id]||null),
+      createComment:()=>({parentNode:null}), addEventListener:(k,fn)=>{ if(k==='keydown') keyFn=fn; }},
+    localStorage:{getItem:k=>storage.get(k),setItem:(k,v)=>storage.set(k,v)},location:{hash:''},window:{},Intl:Intl,Date:Date};
+  vm.runInNewContext(source.ui,ctx);
+  // AC-C1: toggle persists
+  vBoard.listeners.click();
+  assert.equal(storage.get('deck.viewmode.owed'),'board'); assert.equal(ovGrid.hidden,false); assert.equal(ovTable.hidden,true);
+  assert(listWrap.classList.contains('ovhide'));
+  // AC-C2: sort by wq re-orders ascending; default due sort had put pinned/due row first
+  assert.equal(tb.children[0].dataset.wq,'8','due sort: pinned+due row first');
+  thWq.listeners.click();
+  assert.equal(tb.children[0].dataset.wq,'7','wq sort ascending');
+  // AC-C4: peek relocates the SAME node and returns it to its slot
+  tileA.listeners.click();
+  assert.equal(peekC.children[0],cardA,'peek holds the identical node'); assert.equal(peekEl.hidden,false);
+  assert(cardA.classList.contains('peeked'));
+  tileB.listeners.click();
+  assert.equal(peekC.children[0],cardB,'peek swaps to the next real node');
+  assert.equal(listC.children.indexOf(cardA),0,'first card returned to its original slot');
+  vList.listeners.click();                               // switching to list closes the peek
+  assert.equal(peekEl.hidden,true);
+  assert.equal(listC.children.indexOf(cardB),1,'second card returned on close');
+  assert(!cardB.classList.contains('peeked'));
+  // read 1 ❌5: a saved 'waiting' preset with zero blocked rows must fall back to Everything, unsaved
+  const storage2=new Map([['deck.preset.owed','waiting']]);
+  const cardC=element('wq-9',{wq:'9',pin:'1',kchip:'Trade',dom:'',due:'2026-10-09',grp:'owed'}); cardC.classList.add('card');
+  const empty2={hidden:true};
+  const ctx3={document:{body:{dataset:{view:'owed'}},
+      querySelector:s=>({'.chipbar':{querySelectorAll:()=>[element('',{chip:'All'})]},'.ovempty':empty2}[s]||null),
+      querySelectorAll:s=>({'.pbtn':[], '.vbtn':[], '#owed .card, #owed .ovrow, #owed .ovtile':[cardC],
+        '#owed .ovrow':[], '#owed .ovtile':[], '#owed .grp':[], '.tab':[], '.panel':[], '.card':[], '.lnk[data-all]':[]}[s]||[]),
+      getElementById:()=>null, addEventListener:()=>{}, createComment:()=>({parentNode:null})},
+    localStorage:{getItem:k=>storage2.get(k),setItem:(k,v)=>storage2.set(k,v)},location:{hash:''},window:{},Intl:Intl,Date:Date};
+  vm.runInNewContext(source.ui,ctx3);
+  assert.equal(cardC.classList.contains('chiphide'),false,'the blank saved view must fall back to Everything');
+  assert.equal(storage2.get('deck.preset.owed'),'waiting','the fallback must NOT overwrite the saved preset');
+  // read 1 ❌3: arrow keys are ignored while the target is an input
+  // (the real exercise is viewTest's keyFn calls against the production handler)
+  // read 1 ❌3/❌4: typing guard + minimize restore, against the production handler
+  cardA.classList.add('min');
+  tileA.listeners.click();                                  // peek the minimized card
+  assert(!cardA.classList.contains('min'),'peek expands the card');
+  assert(keyFn,'keydown handler captured');
+  keyFn({key:'ArrowRight',target:{tagName:'INPUT'}});       // typing in a note box: must NOT step
+  assert.equal(peekC.children[0],cardA,'arrow key ignored while typing');
+  keyFn({key:'Escape',target:{tagName:'DIV'}});             // Esc outside an input closes
+  assert.equal(peekEl.hidden,true);
+  assert(cardA.classList.contains('min'),'minimized card restored minimized (read 1 ❌4)');
+  cardA.classList.remove('min');
+  // AC-C5: the today preset hides the non-pinned future card everywhere, never the pinned one
+  pToday.listeners.click();
+  assert.equal(cardB.classList.contains('chiphide'),false,'pinned card visible under My action today');
+  assert.equal(cardA.classList.contains('chiphide'),true);
+  assert.equal(tileA.classList.contains('chiphide'),true); assert.equal(rowA.classList.contains('chiphide'),true);
+  assert.equal(storage.get('deck.preset.owed'),'today');
+  pAll.listeners.click();
+  assert.equal(cardA.classList.contains('chiphide'),false);
+}
+
+rulingTest().then(unitTapTest).then(pipelineTest).then(chipTest).then(viewTest).then(()=>console.log('UI, ruling, unit-tap, pipeline, chip and view runtime fixtures passed')).catch(e=>{console.error(e);process.exitCode=1;});
