@@ -126,7 +126,7 @@ The live index is newest-first in document order (real fixture). So a followed i
   - ⚠️15: **FIXED**. The pass-1 TESTED line is corrected in place, with a marker.
   - ⚠️16, ⚠️17, ⚠️18: **FIXED** (AC11, tested).
   - ⚠️19: **FIXED** (README).
-  - ⚠️21: **CLOSED IN EFFECT on a newest-first page.** CX1 now fails closed through AC10(a), because the typo'd newest sits above the followed link. Title-first and pass-1 residue 2 (a cross-year slug with the year mid-string does not parse) are **unchanged**. Remaining limit: on a page that is NOT newest-first, a year-typo'd real newest placed BELOW the followed link looks the same as an older bulletin and is still skipped. No order signal exists to catch it.
+  - ⚠️21: **CLOSED IN EFFECT on a newest-first page.** CX1 now fails closed through AC10(a), because the typo'd newest sits above the followed link. Title-first and pass-1 residue 2 (a cross-year slug with the year mid-string does not parse) are **unchanged**. Remaining limit: on a page that is NOT newest-first, a year-typo'd real newest placed BELOW the followed link looks the same as an older bulletin and is still skipped. An order signal does exist for every such link except the LAST one on the page (see N6; READ 3 ⚠️2).
   - ⚠️22: **DECLARED out of scope; pass-1 residue 4 stands.** The `matched_tokens` on the BULLETIN row come from the first 20,000 chars of a script-dominated page, not from the report. The row still says read manually.
   - Pass-1 residue 3 (past-year typo): **SUPERSEDED.** AC10 closes it for the newest-first case, and the remaining limit is the same as ⚠️21's.
   - Pass-1 residue 1 (the 9/19–9/24 evidence base is not on disk) and residue 5 stand.
@@ -135,3 +135,8 @@ The live index is newest-first in document order (real fixture). So a followed i
   - **N3.** `BULLETIN_NEWEST_UNSURE`, like pass 1's `BULLETIN_STALE` and `BULLETIN_UNDATED`, is a script-output token. It is not registered in `AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY.md`, which is DAEDALUS's to rule.
   - **N4.** AC10's reading of "past-dated" (detectable only through order) is OSPREY's. READ 3 may contest it.
   - **N5.** No network was used in pass 2, and no live `strike_feed.py` run was made.
+  - **N6 (added 2026-10-09 after READ 3 ⚠️2; text only, no code change).** Two signals are unused.
+    - **Order:** on a page that is not newest-first, a date-typo'd newest below the followed link breaks the monotone run of window ENDs down the page. READ 3 R3-Q ran 10-04, then 2025-10-11, then 09-27. That breaks the monotone run for every such link except the last. The real 10/9 fixture's 14 ENDs are monotone non-increasing, so a "dated link below the followed one whose END is later than an earlier link's" doubt rule would not fire on the live page.
+    - **Dedup:** `parse_html_index` keeps a duplicate's FIRST position, which loses the list position.
+    - A title-vs-slug year disagreement (READ 3 ⚠️4) is a second unused tell.
+    - Not fixed here: the two-correction stop has tripped on `strike_feed.py`. PROME registers a DOCKET row for an out-of-order-date check as a later, separate episode. READ 3 ⚠️3/⚠️5/⚠️6/⚠️7 travel with it.
