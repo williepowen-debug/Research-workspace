@@ -75,6 +75,7 @@
 | **~Wed Oct 14** ⌁*modeled* | 🟠 IEA OMR OCTOBER — second collective-action watch + global stock draw (successor to the Sept OMR read 9/18) | 🟠 |
 | **~Thu Oct 22** ⌁*modeled* | G7 STOCK RELEASE — end of the first 20-day window for the 'substantial diesel release' (decided 10/02, up to 100M bbl diesel + crude over 4 months, IEA-coordinated) | 🟠 |
 | **Sat Oct 24** | TEXAS DIESEL WAIVER — existing 20-day window ends | 🟠 |
+| **Fri Oct 30** | BZZ26 LAST TRADING DAY — boundary #8 (Brent 3:2:1) month switch: Dec legs BZZ26/RBZ26/HOZ26 → Jan BZF27/RBF27/HOF27 from the FIRST SESSION AFTER (Mon 11/2) | 🟡 |
 | **Sat Oct 31** | RUSSIA PRODUCER DIESEL EXPORT BAN — extended expiry (successor to the 9/30 row) | 🟠 |
 | **~Sun Nov 1** ⌁*modeled* | 🟠 EU GAS STORAGE — RESOLVED 2026-08-13: the target, the DATE and the pace are now all verified | 🟠 |
 | **Sun Nov 1** | ROUTINE CRONS — DST RE-SET (EST begins): move all four BRENT routines +1h UTC | 🟠 |
@@ -84,9 +85,9 @@
 | **Sun Nov 29** | OPEC+ 69th JMMC — monitoring committee (watch for an ONOMM call / 2027-baseline language) | 🟡 |
 | **Sun Jan 31 2027** | RUSSIA FUEL EXPORT BAN — full expiry (gasoline all-participants + non-producer diesel) | 🟡 |
 
-*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 7 of 20 rows are modeled.*
+*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 7 of 21 rows are modeled.*
 
-*20 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
+*21 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
 
 <!-- CALENDAR:END -->
 **✅ FIRED & GRADED history:** canonical text remains in `docket/CATALYSTS.tsv`; it is not duplicated here.
