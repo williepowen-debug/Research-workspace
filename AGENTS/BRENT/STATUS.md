@@ -17,6 +17,8 @@
 
 **Dallas Fed (10/8, via WALTER -042):** global refining capacity down "as much as 10%" (6–8 mb/d) since late spring — **their estimate, not adopted**; BRENT carries no current global aggregate (7 estimates withdrawn 9/15). **SPR basis disagreement [CONF EIA WCSSTUS1 via API 10:14 ET]:** stocks 282.983M (10/2); weekly draws −0.405 to −0.785M bbl over the last 4 weeks (≈0.06–0.11 mb/d), 13-wk avg ≈0.40 mb/d, peak −6.1M (wk 8/7 ≈0.87 mb/d). The paper's "~1.2 mb/d, under six months to 80 mb" is **not visible in EIA weekly data through 10/2** — likely a scheduled/combined rate; at observed rates the 80 mb floor is >1 year away.
 
+**⛔ SELF-CORRECTION: Dated Brent >$120 is a REAL breach, not a feed anomaly.** SCRATCH 10/8 called `DCOILBRENTEU` 125.44 "anomalous … not a real breach". That was wrong. [CONF EIA RBRTE at the EIA API 10:3x ET; FRED republishes it, same lineage] Europe Brent spot FOB: **125.44 (10/6) · 125.51 (10/5) · 135.51 (10/2)**. It has been >$110 every print since 9/9 and >$120 on 9/10, 9/14–17, 9/24, 10/2, 10/5 and 10/6. ⇒ REGISTRY `FRED-DCOILBRENTEU-ABOVE-120` ("physical scarcity confirmed", stress) reads ABOVE its line on the 10/6 print; thresholds.py already shows it so; >$140 not reached. [INFERRED] There is a ~$25 premium of physical prompt cargoes over Dec futures (BZZ26 ~$100 on 10/6), consistent with the Forties >$140 relay. A premium is not proof of barrels lost (the row's own letter). Stand-down unchanged; no capital trigger.
+
 **NEXUS ask (L553, M-06 anchor):** ⛔ **official ICE 10/8 `BZZ26` settle: NO SETTLE SOURCE AVAILABLE TO BRENT.** Closest evidence, both NOT settles: 14:28–30 ET window VWAP $104.273 [EST single vendor, thin vol 706]; NBC "Brent closed ~$104.28" (contract unnamed). **USO** $147.67 (10:11 ET) = **$2.33 below the Oct-9 $150 strike**; call screening bid/ask $0.14/$0.15 (chain_fetch, not broker); TERRY's 15:00 ET rail, Will's hand.
 
 ## October 8 — HORMUZ LEADS THE JUMP, ISAIAS TRANSIENT UNLESS DAMAGE
@@ -85,16 +87,7 @@ Freight remains historically expensive but October 2 Baltic WS assessments eased
 
 | Date | Release | Priority |
 |------|---------|----------|
-| **~Mon Aug 17** ⌁*modeled* | ✅ CPC understanding — GRADED 2026-10-02: CLOSED NO-VERDICT (window ended 8/17; breach-or-hold through 8/17 never establishable on the cargo-origin definition) | 🟠 |
-| **Mon Aug 24** | ✅ Treasury Operation Economic Outcast — GRADED 2026-10-02: ANNOUNCEMENT MET (treasury.gov sb0614); mechanism test (buyers/registries/STS hubs) CLOSED NO-VERDICT | 🔴 |
-| **~Sun Aug 30** ⌁*modeled* | ✅ Jazan August 30 modeled restart — GRADED 2026-10-02: SLIP branch — restart NEVER confirmed; 'no exports recorded in August' (FT via OilPrice 9/07); re-hit 9/7 and 'taken offline' (WSJ s… | 🟠 |
 | **Tue Sep 1** | RUSSIA producer-direct carve-out — September 8 Q1 read UNKNOWN-AT-PRIMARY | 🔴 |
-| **~Tue Sep 8** ⌁*modeled* | ✅ L198 September 8 owner read — GRADED 2026-10-02: CLOSED NO-VERDICT (① lag-test not runnable on matched weekly totals; ② PortWatch 8/31–9/1 rows never graded) | 🔴 |
-| **~Tue Sep 22** ⌁*modeled* | ✅ ATA truck tonnage AUGUST — GRADED 2026-10-02 14:10 ET: −1.6% y/y (index 112.7, −0.5% m/m; July revised 113.3) ⇒ INSIDE the band (not ≤−3% tell, not ≥0) — trucking NOT yet the destructio… | 🟡 |
-| **Wed Sep 30** | ✅ XLE September 30 expiry — residual check — GRADED 2026-10-01: nothing residual (both 65C sold; last fill 9/11 @ $1.51, TRADE EXECUTION LOG) | 🟡 |
-| **Wed Sep 30** | ✅ RUSSIA PRODUCER DIESEL EXPORT BAN — current extension EXPIRES — GRADED 2026-10-01: EXTENDED to 10/31 (successor row 2026-10-31) | 🟠 |
-| **Thu Oct 1** | ✅ EU STORAGE 80% FLOOR — DECISION DATE — GRADED 2026-10-02 14:10 ET: window OPENED at 71.64% (gas day 9/30) ⇒ 8.36pp BELOW the 80% floor; lowest of 6 years for the date (5y min 74.71%) | 🟠 |
-| **Fri Oct 2** | ✅ EU ENERGY TASKFORCE — meets on a possible release of emergency DIESEL stocks (US pressing FR/DE for 120M bbl over 6 months, WALTER SIG-W-20261001-026) — GRADED 2026-10-02 09:3x ET: MET,… | 🟠 |
 | **Sun Oct 4** | ✅ OPEC+ SEVEN-COUNTRY MONTHLY MEETING — November 2026 decision — GRADED 2026-10-04 11:3x ET: OUTCOME (1) NOVEMBER HELD at September/October required production (2nd consecutive monthly ho… | 🟠 |
 | **~Mon Oct 5** ⌁*modeled* | ✅ ARAMCO NOVEMBER OSPs — GRADED 2026-10-04: Asia CUT to −$5; NW Europe/Mediterranean raised $3; US unchanged | 🟠 |
 | **Tue Oct 6** | ✅ EIA October STEO — GRADED 2026-10-07: release and same-series comparison MET | 🟠 |
@@ -115,9 +108,9 @@ Freight remains historically expensive but October 2 Baltic WS assessments eased
 | **Sun Nov 29** | OPEC+ 69th JMMC — monitoring committee (watch for an ONOMM call / 2027-baseline language) | 🟡 |
 | **Sun Jan 31 2027** | RUSSIA FUEL EXPORT BAN — full expiry (gasoline all-participants + non-producer diesel) | 🟡 |
 
-*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 11 of 29 rows are modeled.*
+*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 7 of 20 rows are modeled.*
 
-*29 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
+*20 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
 
 <!-- CALENDAR:END -->
 **✅ FIRED & GRADED history:** canonical text remains in `docket/CATALYSTS.tsv`; it is not duplicated here.
