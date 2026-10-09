@@ -1,6 +1,6 @@
 # DAEDALUS STATUS
 
-**Last Updated: 2026-10-09 — current session, OpenAI Codex; exact model/session ID UNKNOWN:** Will closed this session after the six-finding boot-reliability pass and three documentation cuts (`design/2026-10-09_BOOT_RELIABILITY_PASS.md`). Code fixes implemented; independent result review accepted after two repairs. Clean closeout remains BLOCKING on charter size. Existing approvals and L4/M remain unchanged. PROME/WALTER/CATO active in Claude per Will; inbox-only coordination. Independent Codex review is separate from PROME’s reciprocal counterpart: **L655**, registered by PROME for October 12, pending review; request receipt verified at DOCKET L655.
+**Last Updated: 2026-10-09 — OpenAI Codex; exact model/session ID UNKNOWN.** Current assignment: approved closeout presentation changes (1/2/4); options3/5 are proposals only. Current disposition is in BOTTOM LINE; approvals and L4/M unchanged.
 
 **October 8 work:** completion and remaining work summarized below; four historical rows conserved at archive block BA. Full prior October 4 state is conserved at `archive/STATUS_ARCHIVE_2026-10.md` block AZ. Sweep completions and VULCAN's refresh are recorded below; no new sweep or profile reset in this October 9 boot pass.
 
@@ -80,6 +80,9 @@ Done and delivered; evidence `runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD.md` and it
 
 Five of the six overdue sweeps ran today: Gate-Basis, Falsification (complete with my own self-check), Prose-Remedy, PROME's spine, and the Harness changelist, which awaits Will's ruling. VULCAN's profile was refreshed four days early. The most important finding was Will-facing: two hosted Deck cards showed Will a stale recommendation (WQ-365 "approve" when the row said lapse) ahead of Friday's expiries. PROME fixed both at the registry within minutes and is republishing. The biggest structural item now in Will's hands is the Harness batch: one of its Tier-1 lines is TERRY's recovery recipe that can overwrite another desk's uncommitted work, held but uncorrected since 10/04. My own recurring defect today, found twice: a "next step" written in a record is not a packet sent. A write-back check now enforces it. L4/M unchanged.
 
-## BOTTOM LINE — 2026-10-09 boot pass
+## BOTTOM LINE — 2026-10-09
 
-The bounded pass repairs lost warnings, stale next actions/read declarations, Git-error wording and due-today reporting; the reading method now accounts for returned coverage. No scorecard, sweep, D7 build or other carried work is started. Tests pass; C7 still BLOCKING on charter size. READS applied by PROME (2c2feca60); all43 live rows match. Reciprocal L655 remains pending. The separate sweep/profile aggregation defect remains out of scope. No further work running. History archived and repair report condensed; record: `runs/2026-10-09_BOOT_RELIABILITY.md`.
+**WORK:** Boot repairs/cuts and closeout presentation complete; session stopping after persistence. Options3/5 proposed only; no new independent patch review required for presentation.
+**CHECKS:** Closeout170638Z: C8/C9 CLEAN; C7 BLOCKING (charter35,698 B); C0/C3 DUE. No clearance or waiver.
+**DELIVERY:** Local save: this file's containing commit; publication/consumption unverified. Short packet: `PROME/inbox/2026-10-09_from-DAEDALUS_closeout-presentation.md`; evidence: `runs/2026-10-09_BOOT_RELIABILITY.md`.
+**OPEN:** PROME L655 plus separate closeout counterpart pending; charter/BR1 remain separately scoped. Final inbox check17:04 UTC: NEXUS verification and unrelated due work pending. L658: DAEDALUS vocabulary rotation due October12, pending separate work; no unrelated work started.

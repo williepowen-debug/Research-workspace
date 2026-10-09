@@ -6,6 +6,10 @@
 
 ## Changelog
 
+### 2026-10-09 (b) — Closeout presentation, no clearance change
+
+Will: “Proceed with 1, 2 and 4 as one bounded presentation change, replacing existing summaries and preserving required markers.” SPAWN8 and BOTTOM LINE now require a short evidence-linked packet with existing COMPLETION fields/caveats/recipient actions; four STATUS lines distinguish work, checks, delivery and open items. One final inbox check records unrelated arrivals pending. This applies from this turn; historical reports stay historical. Gate tokens, candidate boundaries, review requirements and blockers are unchanged; publication or stopping never grants clearance. Options3/5 remain proposals only in `runs/2026-10-09_BOOT_RELIABILITY.md`. REVIEW: not-required — presentation only; consumer checks retain C9 markers and docket citations. Reciprocal closeout-analysis read requested from PROME separately under UPGRADE_PROTOCOL1; no completed counterpart claimed.
+
 ### 2026-10-09 (a) — Bounded boot-reliability repair
 
 Will authorized the six findings from `runs/2026-10-09_BOOT_DIAGNOSTIC.md` in-session: “Proceed with the bounded boot-reliability pass, subject to the required blind review. Preserve existing approvals and safeguards.” Charter SPAWN now requires bounded returned-range coverage and explicit runtime/root/local reads; chunking stays whole in the read declaration. This applies at the next boot; no prior truncated read is retroactively certified. Runner read-cap reporting preserves actionable warning blocks and maps validated rc0 rotation obligations to DUE; malformed success results stay UNKNOWN. Native rc1/2 and downstream DUE eligibility remain unchanged. Git errors retain actual diagnostics; dated sweep obligations use Eastern dates and distinguish today from past due. STATUS completion claims and the proposed READS/basis refresh are reconciled to evidence without changing approvals, grades or clocks.
