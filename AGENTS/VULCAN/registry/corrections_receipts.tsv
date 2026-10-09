@@ -1,2 +1,8 @@
 receipt_date	correction_id	action	note
 2026-09-11T14:46Z	COR-20260910-01	NO-OP	NO-OP: VULCAN never carried the commission's $29B as customer-directed. KB-VULCAN-124 reconciled the two 10-Q tables AT THE FILING on 2026-08-27 ($29B = own-use R&D cloud, $36B = customer-directed AI-cloud take-or-pay; use $36B for S5), and NEXUS_BRIEF.md carried the same split since 8/27. Re-verified 2026-09-11 at own EDGAR pull of 10-Q acc 0001045810-26-000075 (two tables, Additional Commitments $56B = $36B + $20B). DEWEY REQ-002 §1B is an independent second read at the filing (n=2, agreeing). Nothing to strike, nothing to add.
+2026-10-09T14:14Z	COR-20260910-08	NO-OP	scope=VULCAN carries IRAS docket ER26-3515-000 only (KB-162) and never carried a 6831 MW backstop - grep of AGENTS/VULCAN 2026-10-09 clean; 
+2026-10-09T14:14Z	COR-20260921-17	NO-OP	scope=Nippon Life carry question is not a VULCAN surface - grep of AGENTS/VULCAN 2026-10-09 clean; 
+2026-10-09T14:14Z	COR-20261008-16	NO-OP	scope=VULCAN never carried the CPI 10/14 weekday label - grep of AGENTS/VULCAN 2026-10-09 clean; 
+2026-10-09T14:14Z	COR-20261007-01	NO-OP	scope=Paramount financing not carried in any VULCAN ledger or STATUS - grep 2026-10-09 clean; 
+2026-10-09T14:14Z	COR-20261007-12	NO-OP	scope=NYFed private-credit visit confidence metadata not carried by VULCAN - info-only recipient; 
+2026-10-09T14:14Z	COR-20261007-17	NO-OP	scope=Workday cluster label not carried by VULCAN - info-only recipient; 
