@@ -4,6 +4,16 @@
 
 ---
 
+## S51 — 2026-10-09 ~11:xx ET — **WEIGHT MOVED: net-bear 58 → 60 (+2, ALL DISCRETIONARY, labelled). Confidence 70 unchanged. The re-derivation owed since S41 is done.**
+
+Old view (S29 8/12 base + S41 9/6 moves): Managed 32 · Stag 32 · Acute 13 · War 13 · Soft 6 · Rescue 4 → **new: Managed 31 · Stag 32 · Acute 14 · War 14 · Soft 5 · Rescue 4.**
+- **Acute +1, discretionary: the real-rate leg, counted ONCE** across rates, banks and HY (one antecedent, the 9/22→9/30 long-end sell-off). DFII10 rose +51bp in four weeks and **held** 2.88–2.95 for seven sessions [to 10/7]. KRE −7.6% · WAL −8.6% · OZK −11.2% since 9/3. This is not the credit leg: FT-02 keeps its own +3 and is not pre-empted.
+- **War +1, discretionary:** the Hormuz workaround became a target (Yanbu struck 10/1, a new Hormuz tanker hit 10/2, per WALTER). **Dated Brent 135.51 [10/2]**, 125.44 [10/6], vs paper ~$104. Against it, OVX 52 → 48 and paper flat. That is why the move is +1 and not more.
+- **Soft −1, discretionary inside a pre-committed band:** the 10/2 NFP band's bear branch was MET (LFPR 61.6 → 61.8 with U-3 4.1 → 4.2). 3-mo +51K (was +71K), Jul+Aug revised −60K. Half of S41's +2 given back. The band carried no magnitude (ML-RED-277).
+- **Stag held on purpose:** wages decelerated again (AHE 3-mo 2.36%) and physical oil spiked. Its registered test runs 10/14 + 11/10. The 10/14 tree is confirmed; a fire now takes net-bear 60 → 63.
+- **FT-02: 0 of 3 at the 10/8 obs, not fired** (1 of 3 on 324 [10/1], reset by 310 [10/2]; 315 [10/8]). A non-fire scores nothing.
+Derivation, symmetry test and bull steelman: `reports/2026-10-09_S51_weight_rederivation.md`.
+
 ## S50 — 2026-10-01 evening — **NO WEIGHT MOVED (net-bear 58, confidence 70 stand). FT-08's FIRE MAGNITUDE got its offset, and its basis was ruled, PRE-DATA for 10/14.**
 
 **Old view → new view.** Weights unchanged (Managed 32 · Stag 32 · Acute 13 · War 13 · Soft 6 · Rescue 4). Logged under A4 because a registered trigger's ACTION was completed. FT-08 said "Stag +3" and never said where the 3 comes from. **Now pre-registered: Managed −2 / Soft −1**, written 13 days before the data while nothing rides on it.

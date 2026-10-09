@@ -2,7 +2,7 @@
 
 *Updated each session. Adversarial perspective: what confirms, what challenges, what kills the thesis.*
 
-**Last Updated:** 2026-10-01 (**Session 50**, a rebuild: the narrative layer was 8/20 vintage and its event set had diverged from canon). **NO WEIGHT MOVED: HOLD 70 / net-bear 58.** The 8/20 header and imminent lists, the standing guards (8/20 + 8/7) and the 7/31 scoring windows are folded **verbatim** → [`archive/CALENDAR_S32-S49_narrative_folded_2026-10-01.md`](archive/CALENDAR_S32-S49_narrative_folded_2026-10-01.md). **Event set below = every `pending` row in `docket/CATALYSTS.tsv` at 10/01 (14 rows); canon wins on conflict.**
+**Last Updated:** 2026-10-09 (**S51**: the 10/2 NFP row resolved; weights re-derived, **net-bear 60 / HOLD 70**; event set otherwise unchanged; canon wins). **Prior:** 2026-10-01 (**Session 50**, a rebuild: the narrative layer was 8/20 vintage and its event set had diverged from canon). **NO WEIGHT MOVED: HOLD 70 / net-bear 58.** The 8/20 header and imminent lists, the standing guards (8/20 + 8/7) and the 7/31 scoring windows are folded **verbatim** → [`archive/CALENDAR_S32-S49_narrative_folded_2026-10-01.md`](archive/CALENDAR_S32-S49_narrative_folded_2026-10-01.md). **Event set below = every `pending` row in `docket/CATALYSTS.tsv` at 10/01 (14 rows); canon wins on conflict.**
 
 **[Prior] headers (Sessions 21 → 30)** → [`archive/CALENDAR_frozen_sections_2026-09-14.md`](archive/CALENDAR_frozen_sections_2026-09-14.md).
 
@@ -12,7 +12,7 @@
 
 | When | Event | What RED does | Adversarial framing |
 |---|---|---|---|
-| 🔴 **Fri 10/2 08:30** | Sept NFP + household | **No trigger.** The hypothesis-weight re-derivation (owed by 10/09) runs AFTER it, on the 3-mo avg (10/2 vintage) with CES and CPS counted as two witnesses | LABOR owns the grade (armed card). Not RED-23's resolving vintage (that is the third print of Aug, ~Nov). A strong print does not license reading the 10Y-real +51bp as benign |
+| ✅ **Fri 10/2 08:30 — RESOLVED S51 10/09: bear branch met (LFPR up with U-3 up); Soft 6→5, net-bear 58→60 on the re-derivation** | Sept NFP + household | **No trigger.** The hypothesis-weight re-derivation (owed by 10/09) runs AFTER it, on the 3-mo avg (10/2 vintage) with CES and CPS counted as two witnesses | LABOR owns the grade (armed card). Not RED-23's resolving vintage (that is the third print of Aug, ~Nov). A strong print does not license reading the 10Y-real +51bp as benign |
 | 🔴 **Wed 10/14 08:30** | Sept CPI | **FT-08 fires on a published core 0.3** (Table A 3-mo 3.25); P ≈ 25–35% (Cleveland nowcast core +0.20). On fire: Stag +3 = Managed −2 / Soft −1. CHG-028 leg 1 recorded | Pre-written → `research/2026-10-14_SEPT_CPI_DECISION_TREE.md`. **Headline will print hot on energy; headline is not the metric.** A fire is weakly informative (≥3.0 in 8/19 months since 2025) and is applied anyway |
 | 🟡 10/15–16 | LIQUID LIQ-07 S1/S2 verdict | Check LIQUID's 4 accepted asks beside the verdict; the z-leg concession (ML-272) stands | S2 means "no reserve-channel loop observed", not "no loop" |
 | 🟡 Fri 10/16 | HBAN / TLT Oct expiry | none (position truth is off-repo) | the TLT Oct-16 82P ×1 sits in a 30Y move of +39bp since 9/3 |

@@ -231,9 +231,14 @@ def _arm_date_note(row):
 def flag(ratio: float | None) -> str:
     if ratio is None:
         return "  "
+    # L546 (DAEDALUS 2026-10-08, fixed S51 2026-10-09): ratio = r120*100/recorded is a float
+    # quotient, so an exact-on-edge tie could land on either side (33/120*100/55.0 =
+    # 0.5000000000000001 missed 🔴; 2/120*100/2.5 = 0.6666666666666667 missed 🟠 against
+    # 1/1.5 = 0.6666666666666666). Round to 6dp BEFORE comparing; edges are typed literals.
+    ratio = round(ratio, 6)
     if ratio >= 2.0 or ratio <= 0.5:
         return "🔴"
-    if ratio >= 1.5 or ratio <= (1 / 1.5):
+    if ratio >= 1.5 or ratio <= 0.666667:
         return "🟠"
     return "🟢"
 

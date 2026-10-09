@@ -3,3 +3,26 @@ receipt_date	correction_id	action	note
 2026-09-10T20:11Z	COR-20260908-03	APPLIED	
 2026-09-25T13:17Z	COR-20260924-04	APPLIED	
 2026-10-01T20:18Z	COR-20260925-13	NO-OP	No live RED surface carries the kill-strings (grep 10/01, 16:18 ET); sole hit = processed LIQUID 8/27 inbox packet, a dated artifact. RED FT-01 exit executed on canon >= 9/29, independent of X1.
+2026-10-09T14:29Z	COR-20260904-02	NO-OP	scope=RED live surfaces (STATUS, NEXUS_BRIEF, CALENDAR, CATALYSTS, registry, VX, KB, 10-01 repull, 10-14 tree) carry no figure from this signal - grep 2026-10-09 S51; 
+2026-10-09T14:29Z	COR-20260910-08	NO-OP	scope=RED live surfaces (STATUS, NEXUS_BRIEF, CALENDAR, CATALYSTS, registry, VX, KB, 10-01 repull, 10-14 tree) carry no figure from this signal - grep 2026-10-09 S51; 
+2026-10-09T14:29Z	COR-20260911-11	NO-OP	scope=RED live surfaces (STATUS, NEXUS_BRIEF, CALENDAR, CATALYSTS, registry, VX, KB, 10-01 repull, 10-14 tree) carry no figure from this signal - grep 2026-10-09 S51; 
+2026-10-09T14:29Z	COR-20260914-21	NO-OP	scope=RED live surfaces (STATUS, NEXUS_BRIEF, CALENDAR, CATALYSTS, registry, VX, KB, 10-01 repull, 10-14 tree) carry no figure from this signal - grep 2026-10-09 S51; 
+2026-10-09T14:29Z	COR-20260921-15	NO-OP	scope=RED live surfaces (STATUS, NEXUS_BRIEF, CALENDAR, CATALYSTS, registry, VX, KB, 10-01 repull, 10-14 tree) carry no figure from this signal - grep 2026-10-09 S51; 
+2026-10-09T14:29Z	COR-20260921-16	NO-OP	scope=RED live surfaces (STATUS, NEXUS_BRIEF, CALENDAR, CATALYSTS, registry, VX, KB, 10-01 repull, 10-14 tree) carry no figure from this signal - grep 2026-10-09 S51; 
+2026-10-09T14:29Z	COR-20260921-17	NO-OP	scope=RED live surfaces (STATUS, NEXUS_BRIEF, CALENDAR, CATALYSTS, registry, VX, KB, 10-01 repull, 10-14 tree) carry no figure from this signal - grep 2026-10-09 S51; 
+2026-10-09T14:29Z	COR-20260924-17	NO-OP	scope=RED live surfaces (STATUS, NEXUS_BRIEF, CALENDAR, CATALYSTS, registry, VX, KB, 10-01 repull, 10-14 tree) carry no figure from this signal - grep 2026-10-09 S51; 
+2026-10-09T14:29Z	COR-20260928-17	NO-OP	scope=RED live surfaces (STATUS, NEXUS_BRIEF, CALENDAR, CATALYSTS, registry, VX, KB, 10-01 repull, 10-14 tree) carry no figure from this signal - grep 2026-10-09 S51; 
+2026-10-09T14:29Z	COR-20260929-05	NO-OP	scope=RED live surfaces (STATUS, NEXUS_BRIEF, CALENDAR, CATALYSTS, registry, VX, KB, 10-01 repull, 10-14 tree) carry no figure from this signal - grep 2026-10-09 S51; 
+2026-10-09T14:29Z	COR-20260929-09	NO-OP	scope=RED live surfaces (STATUS, NEXUS_BRIEF, CALENDAR, CATALYSTS, registry, VX, KB, 10-01 repull, 10-14 tree) carry no figure from this signal - grep 2026-10-09 S51; 
+2026-10-09T14:29Z	COR-20261001-06	NO-OP	scope=RED live surfaces (STATUS, NEXUS_BRIEF, CALENDAR, CATALYSTS, registry, VX, KB, 10-01 repull, 10-14 tree) carry no figure from this signal - grep 2026-10-09 S51; 
+2026-10-09T14:29Z	COR-20261001-11	NO-OP	scope=RED live surfaces (STATUS, NEXUS_BRIEF, CALENDAR, CATALYSTS, registry, VX, KB, 10-01 repull, 10-14 tree) carry no figure from this signal - grep 2026-10-09 S51; 
+2026-10-09T14:29Z	COR-20261002-16	NO-OP	scope=RED live surfaces (STATUS, NEXUS_BRIEF, CALENDAR, CATALYSTS, registry, VX, KB, 10-01 repull, 10-14 tree) carry no figure from this signal - grep 2026-10-09 S51; 
+2026-10-09T14:29Z	COR-20261002-18	NO-OP	scope=RED live surfaces (STATUS, NEXUS_BRIEF, CALENDAR, CATALYSTS, registry, VX, KB, 10-01 repull, 10-14 tree) carry no figure from this signal - grep 2026-10-09 S51; 
+2026-10-09T14:29Z	COR-20261002-27	NO-OP	scope=RED live surfaces (STATUS, NEXUS_BRIEF, CALENDAR, CATALYSTS, registry, VX, KB, 10-01 repull, 10-14 tree) carry no figure from this signal - grep 2026-10-09 S51; 
+2026-10-09T14:29Z	COR-20261002-29	NO-OP	scope=RED live surfaces (STATUS, NEXUS_BRIEF, CALENDAR, CATALYSTS, registry, VX, KB, 10-01 repull, 10-14 tree) carry no figure from this signal - grep 2026-10-09 S51; 
+2026-10-09T14:29Z	COR-20261007-01	NO-OP	scope=RED live surfaces (STATUS, NEXUS_BRIEF, CALENDAR, CATALYSTS, registry, VX, KB, 10-01 repull, 10-14 tree) carry no figure from this signal - grep 2026-10-09 S51; 
+2026-10-09T14:29Z	COR-20261007-12	NO-OP	scope=RED live surfaces (STATUS, NEXUS_BRIEF, CALENDAR, CATALYSTS, registry, VX, KB, 10-01 repull, 10-14 tree) carry no figure from this signal - grep 2026-10-09 S51; 
+2026-10-09T14:29Z	COR-20261007-17	NO-OP	scope=RED live surfaces (STATUS, NEXUS_BRIEF, CALENDAR, CATALYSTS, registry, VX, KB, 10-01 repull, 10-14 tree) carry no figure from this signal - grep 2026-10-09 S51; 
+2026-10-09T14:29Z	COR-20261008-41	NO-OP	scope=RED live surfaces (STATUS, NEXUS_BRIEF, CALENDAR, CATALYSTS, registry, VX, KB, 10-01 repull, 10-14 tree) carry no figure from this signal - grep 2026-10-09 S51; 
+2026-10-09T14:29Z	COR-20261008-16	NO-OP	scope=RED surfaces already carry Wed 10/14 (CATALYSTS row, 10-14 tree title, STATUS) - label-only correction, nothing to change; 
+2026-10-09T14:29Z	COR-20260906-03	APPLIED	artifact=AGENTS/RED/workbook/ML.tsv#ML-RED-225; artifact=AGENTS/RED/workbook/ML.tsv#ML-RED-186; validation_ref=NONE; scope=FT-06 fire record - one source queried twice is ONE observation; applied S41 2026-09-06, receipted late S51 2026-10-09

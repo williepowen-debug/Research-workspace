@@ -4,6 +4,23 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## S51 — 2026-10-09 10:25–10:34 ET (start from `date` at boot; end from `date` at this write)
+
+**Trigger:** PROME prome-75 Tier-1 spawn on Will's word 10:24 ET: FT-02 grade, the owed weight re-derivation, and a whole-inbox drain (6 + 2).
+
+**What changed (structural only):**
+- `scripts/base_rate_review.py` `flag()`: the ratio is rounded to 6dp before comparison and the 🟠 edge is typed as a literal (DAEDALUS L546). New `scripts/test_base_rate_flag.py` (9 cases; fails exactly the 2 tie cases on the pre-fix code).
+- `CLAUDE.md` (C4 own-charter edits, no authority moves): boot 9e receipt line now shows the WQ-399 field form. W1 names `wc -l` + `read_cap_check.py --agent RED` as the binding ≤200-line check (DAEDALUS prose-remedy #1, item 2).
+- `workbook/VX.tsv`: VX-RED-001 Flip_If declares OR with FRED ids; VX-RED-002 Flip_If names AHETPI − CPIAUCSL (DAEDALUS wiring-17 run 3).
+- `registry/FALSIFICATION_TRIGGERS.tsv`: RED-FT-02 `state` ARMED → `ARMED; 0-of-3` plus S51 `state_detail` (a state record, not a letter change); SCAN view regenerated, `--check` current.
+- STATUS: S49/S50 header block folded VERBATIM → `reports/2026-10-09_S51_status_header_folded.md`.
+
+**Files touched:** the above plus `reports/2026-10-09_S51_weight_rederivation.md`, CATALYSTS, CALENDAR, CHANGELOG, OUTBOX, NEXUS_BRIEF, ML (277–279), VX_HISTORY, board_log, `registry/corrections_receipts.tsv` (23 receipts), and inbox moves to `processed/`.
+
+**Boot-impact:** none to the sequence. `schema_check.py` ALL CONFORM; `gen_trigger_scan.py --check` current; `read_cap_check.py --agent RED` rc 0.
+
+**Not done, named:** METRIC_MAP ↔ instrument_basis check (deferred to the CHG-051 review 10/31) · FT-02 vintage pin (same review) · KB/VX review debt beyond VX-RED-001 · TIMELINE/FLOW · the PR#7 state-token draft (target 10/16) · the boot 1.5 b3/b4 BOARD read (b2 action-addressed only).
+
 ## S50 — 2026-10-01 16:16–19:11 ET (session start from boot.py stamp; end from `date` at this write)
 
 **Trigger:** Will-launched same-day re-boot. Will asked for a to-do sweep (`reports/2026-10-01_S50_todo_sweep.md`), then approved working it.
