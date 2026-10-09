@@ -6,7 +6,7 @@ Session: **October 9, 2026 TIER-1 LIGHT CLOSEOUT** of the desktop morning sessio
 Boot ran 0 → 9b. Will then directed "take care of the boot gaps first" and all six named gaps were closed (below). Boot is COMPLETE except the weekly tanker freight review, which is time-gated (publishers post Friday afternoon) and NOT RUN. No trade, gate, threshold or band was moved by WALTER; the one letter change (boundary #6/#8) is Will's ruling.
 
 ## CHANGED
-- **POST-/CLEAR LEG (~10:57–11:03 ET, same session `walter-50`):** boot re-run 0→9b (no HIGH; lane 0 new breaches; inbox only the NEXUS S1 packet, still deliberately unconsumed). X-bookmarks BM-20261009-02 CLOSED 6/6 → **`-009` Firmus WITHDREW its ASX IPO** (VULCAN action, doorbelled by SendMessage; BROCK/LIQUID/HENRY info; resolves `-1008-024` cut-or-pull), 1 DUP (`-004`, NHC adv #12 read), 1 NO-ACTION, 3 KILL; `--mark` run. REGISTRY header-only refresh: WATT, WAL, ORACLE, ZHAO, RED. Commit `6c7b16032` reached origin inside a peer's push (VULCAN closeout `eb73976dc`), verified by fresh fetch; `reconcile_delivery_log --apply` flipped the 4 rows to delivered (0 orphans). This touch commit is local; WALTER push stays Will-coordinated (BROCK/HANS trees being written in-flight).
+- **POST-/CLEAR LEG (~10:57–11:03 ET, same session `walter-50`):** boot re-run 0→9b (no HIGH; lane 0 new breaches; inbox only the NEXUS S1 packet, still deliberately unconsumed). X-bookmarks BM-20261009-02 CLOSED 6/6 → **`-009` Firmus WITHDREW its ASX IPO** (VULCAN action, doorbelled by SendMessage; BROCK/LIQUID/HENRY info; resolves `-1008-024` cut-or-pull), 1 DUP (`-004`, NHC adv #12 read), 1 NO-ACTION, 3 KILL; `--mark` run. REGISTRY header-only refresh: WATT, WAL, ORACLE, ZHAO, RED. **`-010` CORRECTION on PROME's request:** WFC Q3 is Tue 10/13 ~07:00 ET, not 10/14 (BROCK KB-BRK-327, WFC newsroom 2/20); R1 COR-20261009-10 targets CARL, TERRY (cap 10/23); CARL action (dark, logged, not rung), REGINALD info; carries the issuer-verified bank Q3 calendar + BRK-31 frame frozen. Commit `6c7b16032` reached origin inside a peer's push (VULCAN closeout `eb73976dc`), verified by fresh fetch; `reconcile_delivery_log --apply` flipped the 4 rows to delivered (0 orphans). This touch commit is local; WALTER push stays Will-coordinated (BROCK/HANS trees being written in-flight).
 - **Dispatched 10/9: 8 BOARD outputs (`-001`…`-008`), 4 kills, 36 handoff rows, all delivered (on origin, reconciled 36/36).**
   - `-001` HY OAS 315bp [10/8] near-trigger, 1.6% under >320 (LIQUID).
   - `-002` Trepp September PRIMARY: office 12.16% (T-01a leg 1 of 2), overall 8.02%, multifamily 8.04% (CREED, HOMER). Upgrades the `-1008-002` relay; R1 row COR-20261009-02.
@@ -82,7 +82,7 @@ No new decision requested by WALTER (#6/#8 ruled; WQ-402 overtaken by Will's own
    - FALCON places 160-26 / rules on NV Sunshine (`-005`).
    - CREED grades Trepp September (`-002`).
 4. **Later:**
-   - 10/13: bank Q3 (JPM, GS, C, WFC); KS WARN.
+   - 10/13: bank Q3 (JPM ~07:00, WFC ~07:00 — NOT 10/14, `-010`; C ~08:00; GS); KS WARN. MTB/CFG 10/16.
    - 10/14: CPI 08:30 ET (BLS-verified).
    - 10/15: WPSR noon; next full Iran sweep; anchor + MEMORY.md size check.
    - 10/15–16: LIQ-07.
@@ -116,7 +116,7 @@ Publication is bounded to the named commits. Delivery is bounded to the 10/9 sig
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-09T15:03:23+00:00",
+  "as_of": "2026-10-09T15:05:39+00:00",
   "publication": [
     {"commit": "ff6c08b43", "state": "published"},
     {"commit": "131bc0b77", "state": "published"},
@@ -129,9 +129,9 @@ Publication is bounded to the named commits. Delivery is bounded to the 10/9 sig
   ],
   "delivery": {
     "signal_date": "20261009",
-    "total": 40,
-    "delivered": 40,
-    "note": "All 40 10/9 handoff paths proven on origin (36 via PROME's pushes; 4 for -009 via VULCAN's closeout push eb73976dc); reconcile --apply wrote 36 + 4, 0 orphans. Delivery is not consumption."
+    "total": 42,
+    "delivered": 42,
+    "note": "All 40 10/9 handoff paths proven on origin (36 via PROME's pushes; 4 for -009 via VULCAN's closeout push eb73976dc; 2 for -010 via PROME's push 11d12758c); reconcile --apply wrote 36 + 4 + 2, 0 orphans. Delivery is not consumption."
   },
   "push": {
     "all_walter_commits_on_origin": false,
