@@ -8,7 +8,7 @@
 
 ---
 
-**⚠️ Open question #1 — margin of safety ~nil; every move since 8/20 is PRICE.** Spot **$76.55 [Mon 9/28 close] = +0.78%** vs v2.4 EV $75.96 (+2.17% at 9/25; −0.47% at 9/23). First post-Nano session: WAL −1.37% vs KRE −1.40% — no WAL-specific read. Since the 8/4 peak WAL −9.2% vs KRE −9.4% as the 10Y rose 61bp (KB-215); lower highs, ~$77 support broke 9/23-24 (low $74.60). EV unmoved since 8/20; no score moved. Resolution trade on the Q3 print (~10/20–10/28, unannounced) + the $99M appraisal.
+**⚠️ Open question #1 — margin of safety ~nil; every move since 8/20 is PRICE.** Spot **$76.55 [Mon 9/28 close] = +0.78%** vs v2.4 EV $75.96 (+2.17% at 9/25; −0.47% at 9/23). First post-Nano session: WAL −1.37% vs KRE −1.40% — no WAL-specific read. Since the 8/4 peak WAL −9.2% vs KRE −9.4% as the 10Y rose 61bp (KB-215); lower highs, ~$77 support broke 9/23-24 (low $74.60). EV unmoved since 8/20; no score moved. Resolution trade on the Q3 print (**Mon 10/19 after close / Tue 10/20 call, KB-217**) + the $99M appraisal. **10/9: $74.40 intraday = −2.05% vs EV** (below the central estimate again).
 
 **⚠️ Open question #1b — Nano's four liens: branches OPEN (research Nano file §9).** A = WAL senior · B1 = FDIC-retained (disposition seller) · B2 = Sunwest (not a forced seller) · U = unresolved (**all four today**) · C = extinguished pre-failure. Ontario senior stack per debtor 9/8: Preferred ~$23.13M + Nano ~$5.13M. **Same discipline now applies to Nano's ~$27.7M Marcil loans** (holder after 9/25 unproven; Sunwest assumed ~$227M of Nano loans, Banking Dive 9/28, NEWS). Perimeter unchanged: $72.4M gross Cantor residual + $64M liens; $173.0M Stupin claim ≠ booked exposure.
 
@@ -18,7 +18,14 @@
 
 ---
 
-**LAST SESSION (2026-09-28 Mon — WAL session #10, Will-launched, LAPTOP):**
+**LAST SESSION (2026-10-09 Fri — WAL session #11, PROME `prome-75` spawn, Tier 1, WQ-184 due row L534, DESKTOP):**
+
+- **WQ-328 hotel read DELIVERED** → `research/2026-10-09_hotel-exposure-read-WQ328.md` + 10-Q frame §8 note (O1–O5, non-gating) + KB-216. ★ **The 10-Q carries hotel as its own SEGMENT ("Hotel franchise finance", $4,582M): nonaccrual $0 · classified $44M · SM $31M · ACL 0.93% · C/O $0, three 10-Qs running.** That is a different perimeter from property-type Hotel $4,958M (gap $376M, UNKNOWN). The 2027 $2,972M is total CRE-NOO; **hotel maturity = GAP** (not disclosed). No score moved. CREED supply packet used as context.
+- **Q3 date PINNED: Mon 10/19 after close, call Tue 10/20 12:00 ET** (issuer IR PDF, KB-217; print frame §9). Resolve_By 11/15 unchanged. The spawn prompt's "Tue 10/13" was L170's window-open date, flagged to PROME.
+- **Inbox drained (6 files):** CREED + PROME WQ-328 packets consumed · WALTER R3 → verdict packet `PROME/inbox/2026-10-09_from-WAL_R3-watch-for-verdicts.md` (adopt both rejections, adopt `Mahender Makhijani`) · Fidelity **Dec-18 $65P ×4** recorded in POSITIONS (date/price/card UNKNOWN; ROLL70 guard NOT transferred) · 2 WALTER SIGs rowed in board_log · WQ-399 charter receipt line fixed (C4).
+- **Gaps:** Quartr needs re-auth (Q2 deck/transcript not reached); EDGAR exhibit index 403 without a contact UA. **NOT done (out of scope):** N-1 hearing consume, N-3 Nano P&A, short-interest 9/30 refresh, NEXUS-only items.
+
+**PRIOR SESSION (2026-09-28 Mon — WAL session #10, Will-launched, LAPTOP):**
 
 - **Boot:** pulled clean; checks at known state. Live 14:35 ET WAL $76.71 (−1.16%), KRE −1.00%, 10Y 5.24%.
 - **PROME `prome-7f` doorbell (L517):** Nano senior-lien net RESTATED with ownership branches OPEN (research §9) + **pre-registered 9/29 hearing read-sheet** (research §10, rows H1-H11) → `899f4952a`; memo + NEXUS re-pin `5920f49e6`.
@@ -33,16 +40,16 @@
 
 **NEXT SESSION — ranked 2026-09-28 (session #10):**
 
-**★N-WQ328. Hotel exposure read (Will-approved 9/28 17:43 ET; packet in `inbox/2026-09-28_from-PROME_WQ-328-hotel-exposure-read.md`; DOCKET L534, by 10/09).** One page → a dated 10-Q frame §8 note, no cell changed; CREED context by packet only (GAP if none arrives); the DEWEY building search stays deferred. ⚠️ **The packet calls $2.97B a "2027 HOTEL wall" — WRONG: KB-163's $2,972M is TOTAL CRE-NOO 2027 maturities** (WAL's own ambiguous gap-list wording started it; correction sent to PROME 9/28 ~17:5x). Held: hotel $4,958M = 48.1% of CRE-NOO, LTV 54.0% (Q2 10-Q, `Q2_10Q_READ` :127) vs office $2,139M / 20.8%. **No hotel-specific maturity figure is held — find it in the filings or mark GAP.**
+~~**★N-WQ328.**~~ ✅ **DONE 10/9 (session #11).** ~~Hotel exposure read (Will-approved 9/28 17:43 ET; packet in `inbox/2026-09-28_from-PROME_WQ-328-hotel-exposure-read.md`; DOCKET L534, by 10/09).** One page → a dated 10-Q frame §8 note, no cell changed; CREED context by packet only (GAP if none arrives); the DEWEY building search stays deferred. ⚠️ **The packet calls $2.97B a "2027 HOTEL wall" — WRONG: KB-163's $2,972M is TOTAL CRE-NOO 2027 maturities** (WAL's own ambiguous gap-list wording started it; correction sent to PROME 9/28 ~17:5x). Held: hotel $4,958M = 48.1% of CRE-NOO, LTV 54.0% (Q2 10-Q, `Q2_10Q_READ` :127) vs office $2,139M / 20.8%. No hotel-specific maturity figure is held. Find it in the filings or mark GAP.~~ **Next hotel act: read O1–O5 at the Q3 10-Q (10-Q frame §8).**
 **★N-1. Consume the 9/29 Plaza Continental hearing per research §10 (H1-H11) — mechanical. Docket may lag: re-check through Fri 10/2, then NO-VERDICT.** Only Ontario moves. KB-205 Stale_By is 9/30 for exactly this.
-**★N-2. ⏱ From Fri 10/2: WAL IR feed + EDGAR for the Q3 date every business day;** on announcement pin print frame §9 and re-pin WAL-01/02 `Resolve_By` (check it still clears the 11/9 10-Q deadline).
+~~**★N-2.**~~ ✅ **DONE 10/9: Q3 date = Mon 10/19 after close (KB-217); Resolve_By unchanged.** ~~WAL IR feed + EDGAR for the Q3 date every business day;** on announcement pin print frame §9 and re-pin WAL-01/02 `Resolve_By` (check it still clears the 11/9 10-Q deadline).~~
 **★N-3. Nano P&A posting ~10/5–10/9** → narrows B1/B2 by category only (research §9a).
 ~~**★N-4. Refresh short interest**~~ ✅ **DONE 9/28 (KB-214):** FINRA 9/15 5.97M short, 5.48% of shares out, days to cover 6.4 (series high). **Next: the 9/30 settlement ~10/9** (KB-214 Stale_By 10/12; FINRA API `consolidatedShortInterest`, date-range filter).
 ✅ **N-5 partly DONE 9/28 (KB-213):** consensus EPS $2.43 (Nasdaq) / $2.44 (Yahoo), revenue $989.0M; NCO/NPL/NIM consensus UNAVAILABLE. **★N-5 now: RE-SNAPSHOT the day before the print** (Nasdaq API `api.nasdaq.com/api/analyst/WAL/earnings-forecast` + yfinance `earnings_estimate`), and re-verify the Barclays 9/16 quotes at a primary if one appears. **WAL's own rate-sensitivity table pulled (KB-212) and handed to REGINALD for WQ-318.**
 **★N-6. Identify the $99M building** (LEED × gateway-market press; county assessor) — sets the appraisal prior. Highest-value research gap.
 **★N-7. Consume REGINALD's WQ-318 baseline (due 10/09)** for the funding side; do not duplicate it.
 **★N-8. Weekly EDGAR 8-K sweep for the $99M appraisal** (clean to 9/28: latest WAL filings = the 9/17 Form 4s). Silence grades nothing.
-**★N-9. ~10/13: raise the FFIEC JWT with Will.** DESKTOP session before 11/02 (KB-008..013 Stale_By): Q3 RC-R + MI3 + NDFI nonaccrual; re-derive KB-048/049.
+**★N-9. DUE NOW (print date pinned 10/9): raise the FFIEC JWT with Will** (carried in the 10/9 PROME memo WILL_NEEDS). DESKTOP session before 11/02 (KB-008..013 Stale_By): Q3 RC-R + MI3 + NDFI nonaccrual; re-derive KB-048/049.
 **★N-10. Litigation dockets never watched:** NYSCEF index numbers (WAL v. Jefferies + countersuit) · adversary 8:26-ap-01076 remand outcome · a claim objection to WAL's $173.0M · Cantor V receiver (Trigild) sales · First Brands estate recovery route (OTTO lane). Jefferies FQ3 results likely imminent (inference).
 **★N-0. ⚠️ NEXUS_BRIEF is 32,453 B — 97 B under the 32,550 read cap: TRIM (e.g. the dead 8/7 'Recent pivot' paragraph) before adding anything.** Consumer check on the composite 11/25→13/25 was all date false-positives (bare needle) — no packets owed. PROME 9/28: Will's fills today were TLT/QQQ only, nothing on WAL.
 **★N-11. Read the 2026 DEF 14A — it is ON DISK: `sources/q1_2026/14A.pdf`** (gitignored, this box).
