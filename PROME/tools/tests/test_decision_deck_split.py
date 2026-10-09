@@ -152,14 +152,34 @@ class DeckSplit(unittest.TestCase):
         m = re.search(rf'<article class="card[^"]*" id="wq-{wq}".*?</article>', html_text, re.S)
         return m.group(0)
 
-    def test_ac1_plain_card_byte_identical_with_empty_options_columns(self):
-        _, owed8, _ = self.build()
-        before = self._article(owed8, '1')
-        self._expl10()
+    PARENT = 'efd67fbf0^'   # the last pre-Change-A generator (read 1, ❌1: compare against the PARENT render, never new-vs-new)
+
+    def _parent_articles(self, wqs):
+        """Render the same fixture with the pre-Change-A generator (git show) and return its plain articles."""
+        import importlib.util
+        repo = Path(__file__).resolve().parents[3]
+        src = subprocess.run(['git', '-C', str(repo), 'show', f'{self.PARENT}:PROME/tools/decision_deck.py'], capture_output=True, text=True)
+        if src.returncode != 0:
+            self.skipTest('parent generator not available from git history')
+        mod_path = self.root / 'parent_decision_deck.py'; mod_path.write_text(src.stdout)
+        spec = importlib.util.spec_from_file_location('parent_decision_deck', mod_path)
+        P = importlib.util.module_from_spec(spec); spec.loader.exec_module(P)
+        for k in ('ROOT', 'Q', 'AD', 'DOCKET', 'EXPL', 'LEDGER'):
+            setattr(P, k, getattr(D, k))
+        P.ARCH = []; P.days_dark = lambda desk: None
+        out = self.root / 'parent' / 'owed.html'
+        P.build(self.today, out)
+        text = out.read_text()
+        return {wq: self._article(text, wq) for wq in wqs}
+
+    def test_ac1_plain_card_byte_identical_to_the_parent_render(self):
+        self._expl10()                                   # 10-column sidecar, options empty
         r, owed10, _ = self.build()
-        self.assertEqual(before, self._article(owed10, '1'))
+        parent = self._parent_articles(['1', '2'])
+        for wq in ('1', '2'):
+            self.assertEqual(parent[wq], self._article(owed10, wq), f'plain card wq-{wq} differs from the pre-Change-A render')
         self.assertEqual(r['options_rows'], [])
-        self.assertIn('id="tap-1" data-wq="1" data-did="1"', owed10)
+        self.assertIn('<div class="tap" data-wq="1">', owed10)
 
     def test_ac2_options_render_verbatim_with_consequences_and_no_approve(self):
         self._expl10('A = Sell it now :: ≈ $100 || B = Hold to 10/14 :: nothing', 'cards/x.md#3')
@@ -199,7 +219,41 @@ class DeckSplit(unittest.TestCase):
                 self._expl10('A = Sell it now || B = Hold to 10/14', source)
                 r, owed, _ = self.build()
                 self.assertIn('id="ap-1"', owed); self.assertNotIn('id="ch-1-A"', owed)
+                self.assertIn('<div class="tap" data-wq="1">', owed)       # the whole-row plain card, parent markup
                 self.assertEqual(len(r['options_warnings']), 1); self.assertIn('WQ-1', r['options_warnings'][0])
+
+    def test_ac4_ac6_partial_drop_in_a_two_unit_row_keeps_both_decision_ids(self):
+        # read 1 ❌4: one unit's source unreadable ⇒ that unit renders PLAIN controls under ITS OWN id; the other keeps its options
+        self._expl10('TLT: A = Sell it now || B = Hold to 10/14 ;; HBAN: R-A = permit a sale || R-B = ride, close 10/16',
+                     'TLT=cards/moved.md#3 ;; HBAN=cards/h.md#3')
+        r, owed, _ = self.build()
+        self.assertEqual(len(r['options_warnings']), 1); self.assertIn('WQ-1.TLT', r['options_warnings'][0])
+        for frag in ('id="tap-1.TLT" data-wq="1" data-did="1.TLT"', 'id="ap-1.TLT"', 'id="dc-1.TLT"', 'id="lt-1.TLT"', 'id="note-1.TLT"',
+                     'id="tap-1.HBAN" data-wq="1" data-did="1.HBAN"', 'id="ch-1.HBAN-R-A"', '<span class="did">1.TLT</span>'):
+            self.assertIn(frag, owed)
+        self.assertNotIn('id="ch-1.TLT-A"', owed); self.assertNotIn('id="ap-1"', owed); self.assertNotIn('data-did="1"', owed)
+
+    def test_declared_plain_unit_renders_plain_controls_under_its_own_id(self):
+        self._expl10('TLT: PLAIN :: owner card re-cut owed ;; HBAN: R-A = permit a sale || R-B = ride, close 10/16', 'HBAN=cards/h.md#3')
+        r, owed, _ = self.build()
+        self.assertEqual(r['options_warnings'], [])
+        for frag in ('id="ap-1.TLT"', 'owner card re-cut owed', 'id="ch-1.HBAN-R-B"'):
+            self.assertIn(frag, owed)
+        # a single declared PLAIN unit is simply today's plain card
+        self._expl10('PLAIN :: held', '')
+        r, owed, _ = self.build()
+        self.assertIn('<div class="tap" data-wq="1">', owed); self.assertNotIn('class="tap unit"', owed)
+
+    def test_ac2_consequence_must_be_verbatim_from_the_card_cells(self):
+        # read 1 ❌2: a paraphrased consequence refuses the build; verbatim cells (+ a [PROME: …] bracket) pass
+        self._expl10('A = Sell it now :: ≈ $100 [PROME: 9/26 marks] || B = Hold to 10/14 :: nothing', 'cards/x.md#3')
+        r, owed, _ = self.build()
+        self.assertIn('≈ $100 [PROME: 9/26 marks]', owed)
+        self._expl10('A = Sell it now :: about one hundred dollars || B = Hold to 10/14 :: nothing', 'cards/x.md#3')
+        self.out.unlink()                                 # the passing build above wrote it; the refusal must not
+        with self.assertRaises(SystemExit) as cm:
+            self.build()
+        self.assertIn('consequence', str(cm.exception)); self.assertFalse(self.out.exists())
 
     def test_malformed_options_cell_is_promes_defect_and_raises(self):
         for options in ('A Sell it now', 'a = lower label', 'A = x || A = y', 'A = x ;; B = y'):
@@ -210,8 +264,8 @@ class DeckSplit(unittest.TestCase):
 
     def test_offered_options_reads_only_label_shaped_rows_of_the_numbered_section(self):
         self._expl10()
-        self.assertEqual(D.offered_options('cards/x.md', '3'), [{'label': 'A', 'text': 'Sell it now (§4)'}, {'label': 'B', 'text': 'Hold to 10/14'}])
-        self.assertEqual(D.offered_options('cards/h.md', '3'), [{'label': 'R-A', 'text': 'permit a sale'}, {'label': 'R-B', 'text': 'ride, close 10/16'}])
+        self.assertEqual(D.offered_options('cards/x.md', '3'), [{'label': 'A', 'text': 'Sell it now (§4)', 'cells': '≈ $100'}, {'label': 'B', 'text': 'Hold to 10/14', 'cells': 'nothing'}])
+        self.assertEqual(D.offered_options('cards/h.md', '3'), [{'label': 'R-A', 'text': 'permit a sale', 'cells': '$90'}, {'label': 'R-B', 'text': 'ride, close 10/16', 'cells': 'spirit'}])
         self.assertIsNone(D.offered_options('cards/x.md', '2'))
         self.assertIsNone(D.offered_options('cards/x.md', '4'))
 

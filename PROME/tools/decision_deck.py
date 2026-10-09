@@ -202,6 +202,13 @@ def parse_options(cell: str, wq: str = "?") -> list[dict]:
         if m:
             unit, raw = m.group(1), raw[m.end():]
         opts = []
+        if raw.strip().startswith(PLAIN_UNIT) and (raw.strip() == PLAIN_UNIT or raw.strip().startswith(PLAIN_UNIT + " ::")):
+            # "UNIT: PLAIN :: reason" — a declared decision unit whose options are deliberately NOT offered yet
+            # (e.g. the owner card is stale and its re-cut is owed); it renders plain Approve/Decline/Later controls
+            # under its own decision_id so the row's other unit can still be ruled separately (AC5/AC6).
+            reason = raw.strip().partition("::")[2].strip()
+            units.append({"unit": unit, "options": [], "plain": True, "reason": reason or "options withheld by PROME"})
+            continue
         for piece in raw.split("||"):
             piece = piece.strip()
             if not piece:
@@ -222,7 +229,7 @@ def parse_options(cell: str, wq: str = "?") -> list[dict]:
             raise ValueError(f"WQ-{wq}: an options block carries no option")
         if len(set(labels)) != len(labels):
             raise ValueError(f"WQ-{wq}: duplicate option labels {labels}")
-        units.append({"unit": unit, "options": opts})
+        units.append({"unit": unit, "options": opts, "plain": False, "reason": ""})
     if len(units) > 1 and any(u["unit"] is None for u in units):
         raise ValueError(f"WQ-{wq}: a row with several decision units must name every unit ('UNIT: …')")
     if len({u["unit"] for u in units}) != len(units):
@@ -284,37 +291,61 @@ def offered_options(path: str, section: str) -> list[dict] | None:
             continue
         label = m.group(1)
         text = _norm(m.group(2)) if m.group(2) else _norm(c[1])
-        out.append({"label": label, "text": text})
+        rest = c[1:] if m.group(2) else c[2:]            # the row's other cells = the owner's own consequence columns
+        out.append({"label": label, "text": text, "cells": " · ".join(_norm(x) for x in rest if _norm(x))})
     return out or None
+
+
+_PROME_BRACKET_RE = re.compile(r"\s*\[PROME:[^\]]*\]")
+PLAIN_UNIT = "PLAIN"
+
+
+def consequence_source(consequence: str) -> str:
+    """The consequence with every marked PROME annotation ("[PROME: …]") removed — what must be verbatim from the card."""
+    return _norm(_PROME_BRACKET_RE.sub("", consequence or ""))
 
 
 def validate_options(wq: str, units: list[dict], sources: dict) -> tuple[list[dict], list[str]]:
     """AC4/AC5: returns (units that may render, warnings). A readable source with a label-for-label or text
     mismatch FAILS THE BUILD (SystemExit names the diff); an unreadable one drops the unit with a warning."""
     keep, warns = [], []
+    def plain(u, reason):
+        return {"unit": u["unit"], "options": [], "plain": True, "reason": reason, "source": None}
     for u in units:
         key = u["unit"]
-        src = sources.get(key) if key in sources else (sources.get(None) if len(units) == 1 else None)
         tag = f"WQ-{wq}" + (f".{key}" if key else "")
-        if not src:
-            warns.append(f"{tag}: no options_source — options NOT rendered (plain card)")
+        if u.get("plain"):
+            keep.append(plain(u, u.get("reason") or "options withheld by PROME"))
             continue
+        src = sources.get(key) if key in sources else (sources.get(None) if len(units) == 1 else None)
+        if not src:
+            warns.append(f"{tag}: no options_source — options NOT rendered (plain controls)")
+            keep.append(plain(u, "no options_source registered")); continue
         offered = offered_options(*src)
         if offered is None:
-            warns.append(f"{tag}: options_source {src[0]}#{src[1]} unreadable (file, section or label-shaped rows missing) — options NOT rendered (plain card)")
-            continue
+            warns.append(f"{tag}: options_source {src[0]}#{src[1]} unreadable (file, section or label-shaped rows missing) — options NOT rendered (plain controls)")
+            keep.append(plain(u, f"owner card {src[0]} §{src[1]} unreadable at build")); continue
         off = {o["label"]: o["text"] for o in offered}
+        cells = {o["label"]: o["cells"] for o in offered}
         deck = {o["label"]: o["text"] for o in u["options"]}
         missing = [l for l in off if l not in deck]
         extra = [l for l in deck if l not in off]
         if missing or extra:
             raise SystemExit(f"DECK REFUSED TO BUILD: {tag} option set differs from the OFFERED set at {src[0]}#{src[1]} — "
                              f"offered-but-missing {missing} · deck-but-not-offered {extra}")
-        for l, t in deck.items():
+        for o in u["options"]:
+            l, t = o["label"], o["text"]
             if not off[l].startswith(_norm(t)):
                 raise SystemExit(f"DECK REFUSED TO BUILD: {tag} option {l} text is not a prefix of the offered text at "
                                  f"{src[0]}#{src[1]} — deck '{_norm(t)[:60]}' vs offered '{off[l][:60]}'")
-        keep.append({"unit": key, "options": u["options"], "source": src})
+            # ❌2 of read 1 (2026-10-09): the consequence is the CARD's own cells, verbatim; PROME's words live only
+            # inside a marked "[PROME: …]" bracket. Anything else is a paraphrase and refuses the build.
+            src_text = consequence_source(o["consequence"])
+            if src_text and src_text not in cells[l]:
+                raise SystemExit(f"DECK REFUSED TO BUILD: {tag} option {l} consequence is not a verbatim copy of the card's "
+                                 f"row cells at {src[0]}#{src[1]} (PROME words belong in a '[PROME: …]' bracket) — "
+                                 f"deck '{src_text[:70]}' vs cells '{cells[l][:70]}'")
+        keep.append({"unit": key, "options": u["options"], "plain": False, "reason": "", "source": src})
     return keep, warns
 
 
@@ -555,6 +586,20 @@ def due_pill(by: str | None, days: int | None, blocked: bool, blocker: str | Non
 def render_unit(wq: str, unit: dict, multi: bool) -> str:
     did = f"{wq}.{unit['unit']}" if multi else wq
     head = (f'<div class="unit-h"><span class="did">{html.escape(did)}</span></div>' if multi else "")
+    if unit.get("plain"):
+        # a declared unit without offered options: today's plain controls under ITS OWN decision_id (❌4 of read 1)
+        return (
+            f'<section class="tap unit" id="tap-{html.escape(did, quote=True)}" data-wq="{html.escape(wq, quote=True)}" data-did="{html.escape(did, quote=True)}">'
+            f'{head}<p class="src">No choice buttons on this decision yet — {html.escape(unit.get("reason") or "")}. Approve / Decline / Later rule this decision only.</p>'
+            '<div class="tapstate" hidden></div>'
+            '<div class="tapbtns">'
+            f'<button type="button" class="btn approve" data-v="APPROVE" id="ap-{html.escape(did, quote=True)}">Approve</button>'
+            f'<button type="button" class="btn decline" data-v="DECLINE" id="dc-{html.escape(did, quote=True)}">Decline</button>'
+            f'<button type="button" class="btn later" data-v="LATER" id="lt-{html.escape(did, quote=True)}">Later</button>'
+            '</div>'
+            f'<input type="text" class="note" id="note-{html.escape(did, quote=True)}" placeholder="Note to PROME (optional)" maxlength="400">'
+            '</section>'
+        )
     path, sec = unit["source"]
     opts = "".join(
         f'<li class="opt" data-label="{html.escape(o["label"], quote=True)}">'
@@ -565,7 +610,7 @@ def render_unit(wq: str, unit: dict, multi: bool) -> str:
         for o in unit["options"])
     return (
         f'<section class="tap unit" id="tap-{html.escape(did, quote=True)}" data-wq="{html.escape(wq, quote=True)}" data-did="{html.escape(did, quote=True)}">'
-        f'{head}<p class="src">Options copied from <code>{html.escape(path)}</code> §{html.escape(sec)} · validated label-for-label against the card at build</p>'
+        f'{head}<p class="src">Options copied from <code>{html.escape(path)}</code> §{html.escape(sec)} · labels, texts and consequences checked verbatim against the card at build; a [PROME: …] bracket is PROME\'s note</p>'
         f'<ul class="opts">{opts}</ul>'
         '<div class="tapstate" hidden></div>'
         '<div class="tapbtns">'
@@ -592,6 +637,8 @@ def render_owed(rows: list[dict], expl: dict, today: dt.date, warnings: list[str
         units, warns = ([], []) if r["blocked"] or r.get("answered") else options_for(e, r["n"])
         if warnings is not None:
             warnings.extend(warns)
+        if len(units) == 1 and units[0].get("plain"):
+            units = []                                   # a single declared-but-plain unit IS today's plain card (AC5)
         if e and units:
             block = (
                 '<dl class="expl">'
@@ -628,7 +675,7 @@ def render_owed(rows: list[dict], expl: dict, today: dt.date, warnings: list[str
             ctl = "".join(render_unit(r["n"], u, len(units) > 1) for u in units)
         elif r.get("answered") and not r["blocked"]:
             ctl = (
-                f'<div class="tap" id="tap-{r["n"]}" data-wq="{r["n"]}" data-did="{r["n"]}">'
+                f'<div class="tap" data-wq="{r["n"]}">'
                 '<div class="tapstate" hidden></div>'
                 '<div class="tapbtns">'
                 f'<button type="button" class="btn approve" data-v="DONE" id="dn-{r["n"]}">Done — hands complete</button>'
@@ -639,7 +686,7 @@ def render_owed(rows: list[dict], expl: dict, today: dt.date, warnings: list[str
             )
         else:
           ctl = "" if r["blocked"] else (
-              f'<div class="tap" id="tap-{r["n"]}" data-wq="{r["n"]}" data-did="{r["n"]}">'
+              f'<div class="tap" data-wq="{r["n"]}">'
               '<div class="tapstate" hidden></div>'
               '<div class="tapbtns">'
               f'<button type="button" class="btn approve" data-v="APPROVE" id="ap-{r["n"]}">Approve</button>'
