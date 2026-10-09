@@ -447,6 +447,15 @@ WATCH_FOR = {
         "energy ceasefire takes effect",
         "Russia extends diesel export ban",
     ],
+    "WAL": [                           # added 2026-10-09 10:12 ET (WQ-295 R3, set 12) — WAL-proposed 4 (PROME pointer 9/27), WALTER live-tested 10/1 (AGENTS/WALTER/research/2026-10-01_R3/groupA.md § WAL),
+                                       # owner adopt/decline BY NAME 10/9 (PROME/inbox/2026-10-09_from-WAL_R3-watch-for-verdicts.md, WAL e9faeb066; WALTER concurred by message 10/9).
+                                       # ⛔ REJECTED by name: "Makhijani" (3 FALSE/365d: Pooja/Mamta Makhijani) → replaced by "Mahender Makhijani" (13 TRUE / 0 FALSE, groupA.md L252-255);
+                                       # "Cantor Group V" (13 FALSE: the 1-char "V" is dropped, phrase = cantor+group) — NO replacement; coverage rides on "Mahender Makhijani".
+                                       # Accepted misses (owner + WALTER): surname-only / case-caption headlines; hyphenated "non-accrual". "Nano Banc loan sale" is subsumed by CREED's "Nano Banc" and kept at the owner's word.
+        "Nano Banc loan sale",
+        "Mahender Makhijani",
+        "Preferred Bank nonaccrual",
+    ],
 }
 
 # ---------------------------------------------------------------------------
