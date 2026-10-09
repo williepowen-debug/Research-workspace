@@ -1,5 +1,11 @@
 # NEXUS — LAST COMPLETION
 
+## 2026-10-09 Fri 09:28 ET — LIGHT tail of the 10/8 22:12 ET boot (Will: switching to desktop, "no need to do a full close out") — NO board write
+
+Short boot ran (0a · 0b carried from 10/8 · 1 · 2 · 3 · 4 · 7 · 7a · fleet-freshness scan); no fleet commit after `2f15fff96` until PROME's 10/9 AM rows; inbox 0 / WALTER 0; corrections rc 0; STATUS 22,779 B = 69.98% (rotate before any write). **Owed at the desktop boot, found by READING WALTER `SIG-W-20261008-049` (dispatched 20:43 ET 10/8; my 20:5x 9c logged that commit as "NEXUS lane 0" without reading the content — a lane check is not a content read):** (a) **T-15** — CRMT lenders extended the bridge a SIXTH time, to 10/15 (8-K accepted 16:05:15 ET 10/8; company cites experienced/anticipated events of default); BROCK's DOCKET L585 read finds it; my row's "no extension 8-K at 08:32" is true-as-of and now superseded. (b) **Funding counter-signal** — Fed discount-window primary credit $9.965B Wed 10/7, highest since ≥Jan 2024 (H.4.1 10/8; weekly average up 5 of the last 6 weeks); no registered threshold, LIQUID action ⇒ carry against the cluster verdict's "stopped at FUNDING" as a tension, tag needs-2nd-print (Wednesday levels noisy; 9/30 week = quarter-end). Then the 10/9 docket as written: PRED-50 grade (DOCKET L553) · letter anchors · T-15 read. **skipped (Light, Will's word): 9 · 9b · 9c · 10 · 11 (nothing to move) · 14 · 15 full block · 15a (nothing rewritten) · 9a (due 10/27); root 1b + 1e run; 1c / 1c-bis / 1d do not apply (no figure superseded, no LEDGER_GLOB, no memory written).**
+
+---
+
 ## 2026-10-08 Thu 20:18→20:50 ET — THIRD TOUCH (Will: "continue our work") — HEAVY tier (rule-5-class rotations ⇒ 15a ×2)
 
 **Long form:** `research/2026-10-08_pass_record_PM.md` § Third touch. **Delivery:** `PROME/inbox/2026-10-08_from-NEXUS_S1-design-DELIVERED-EARLY-L639-dewey-miss-was-untyped-peer-packets.md` · `AGENTS/WALTER/inbox/2026-10-08_from-NEXUS_S1-design-at-the-artifact-re-argue-your-sec-5-veto-by-10-13.md`. Runtime: Claude Code, `claude-fable-5-1`; two Opus `coldreader` spawns; no digest readers (nothing on the fleet moved after my 19:40 commit except CATO's acceptance and PROME's two commits).
@@ -76,22 +82,4 @@
 
 ---
 
-## 2026-10-01 Thu 16:17→19:55 ET — CATCH-UP PASS + Will-asked follow-ons (brief reads · file update · stale sweep) — CLOSED on Will's word
-
-**Long form (files read, every work unit, cold-read results, counterexamples, 9c late movers, promotion scan):** `research/2026-10-01_pass_record.md` (verbatim, crc32 `58a836d9`). **Prior blocks:** `archive/LAST_COMPLETION_COLD_2026-10-01.md` (9/29, crc32 `84bd5e64`) · `archive/LAST_COMPLETION_COLD_2026-09-29*.md`.
-
-**What changed, in one screen:**
-- **Board:** BOOT 0a rotation (§H13, crc32 e9461aed) · **M-08 ↑3 → 79%** on its registered condition, re-registered ±4 to 10/30 · M-09 falsifier registered · split HELD 20/47/33 (L13 cells 1–4 neither, 2bp under UP) · **Disc-J banner: 8 of 10 rows have no falsifier = judgment, not estimate (L15)** · T-29 Ghawar P0 · `T10YIE` >2.40 line (4bp) · 2 late-mover annotations (cap reached).
-- **Predictions:** PRED-37 ❌ · 43 ❌F · 48 ❌ (residual ≥10/15) · 24 → conditional watch · 45 re-registered 11/20 · **38/41 RE-SPEC'd · 40 RETIRED** · PRED-50 tally n=2 W=1 F=1.
-- **Charter:** cold-read-2's six ❌ fixed; cold read #3: six RESOLVED, five new ❌ from the fix pass fixed **UNREVIEWED** (4th read needs Will). Ledgers in `recon/2026-10-01_coldread*`.
-- **Sweep:** brief template synced to schema am. 7/9/10/11/12 · 7 old files → `archive/` · BOND over-CAP flag cleared.
-- **Packets:** HENRY (FORUM-7 §7 CONCUR) · PROME ×3 (grades + wakes → DOCKET L571–L575; charter receipt + L572 re-date; L572 body-text nit by doorbell).
-- **Memory (carve-out ③):** extended `finding_a_correction_pass_is_unreviewed_work` (n+5) and `finding_frozen_spec_and_the_surfaces_describing_it_drift_apart`.
-
-**Post-closeout addendum 20:01 EDT — PROME review of this session (packet `inbox/2026-10-01_from-PROME_review-of-nexus-4f-commits-one-rule-change-three-smaller.md`, Will-asked):** clean on substance. **① Will RULED in-session: the convergence alarm counts ROOT CAUSES** — Framework 1 now gates on ONE count (Disc-F roots on the antecedent map), desk + class counts stated beside it; routing-table labels "agent" → "root"; Disc-H alert line aligned. ② PRED-38/41 as-made date → 2026-10-01. ③ three-way odds written into both rows (PRED-38 35/35/30 · PRED-41 20/70/10; ⚪ modal on 41 — band redesign at DOCKET L554); note: PRED-38's Q3 k is 0 today (WAL's First Brands charge-off was H1). ④ STATUS already under the stop after the closeout trim (22,734 B = 69.8%). **Disclosure:** a `git pull --ff-only` was run while PROME had uncommitted files — a protocol breach; it was a no-op (HEAD unchanged, reflog checked).
-
-**Open for Will (not NEXUS's):** **WQ-357** duration-short exit (TERRY card; Will's 19:09 intent "will probably sell those tomorrow" — not an [Approve]) · FALCON rung D 85→92 + leg-2 basis · optional 4th charter read.
-
-**Next wake:** Fri 10/2 if asked (NFP 08:30 → M-01 + chain head · HEN-47 → M-03) · **DOCKET L554 Tue 10/6** (L15 letters ×8 · T-28 close · cold-read-3 residue) · DOCKET L553 ~10/9 PRED-50 · L571 10/15 · L558 + L13 cell 15 10/16 · L573 10/30 · L575 ~11/6 · L572 11/10 · L574 11/20.
-
-**Closeout checks:** 9 STATUS sanity (151 lines · Δ held rows keep true dates · docket pruned · thresholds BREACHED→PROXIMATE→NOT CONFIRMING · new paths exist) · 9b from each change (PRED states on PREDICTIONS/COLD/STATUS/CONFIRMED C-05; Disc-J defect on STATUS + L15) · 9c run 19:54 · 10 no item went past-trigger mid-session · 11 inbox 0 · 14 two extensions · 15 this block ≤6 KB, whole file rotated (24,681 B → this) · 15a cold reads ×2 (STATUS, charter) · root 1b–1e in the commit body.
+## 📦 Prior blocks → `archive/LAST_COMPLETION_COLD_2026-10-09.md` (the 10/01 session, crc32 `1b8a6531`; its chain names the 9/29 cold files). Rotated 2026-10-09 Fri 09:29 ET under closeout 15 (76% → under the stop).
