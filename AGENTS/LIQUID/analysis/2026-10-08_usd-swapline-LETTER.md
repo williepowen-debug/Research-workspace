@@ -27,14 +27,14 @@ Banks draw on the Fed's central-bank swap lines only when market dollars, includ
 
 ## 3. Lines (PROPOSED)
 
-A **turn op** is an operation with a term of 21 days or less whose funds are out over a quarter-end: settle ≤ QE < maturity, keyed on **settlement**. A trade of 9/30 that settles 10/1 is not a turn op. A long operation over a quarter-end (e.g. 84 days) is not one either. **[The turn bound — the TURN lines and the SWPT window — is LIQUID's post-read change; HANS has NOT seen it.]**
+A **turn op** is an operation with a term of 21 days or less whose funds are out over a quarter-end: settle ≤ QE < maturity, keyed on **settlement**. A trade of 9/30 that settles 10/1 is not a turn op. A long operation over a quarter-end (e.g. 84 days) is not one either. **[The turn bound is LIQUID's post-read change. HANS SAW it 10/9 and AGREES the 21-day bound for the tenor-onset exclusion (HANS's leg). The TURN lines and the SWPT window sit on LIQUID's amount legs, which HANS says are not HANS's to agree or decline (HANS packet `AGENTS/LIQUID/inbox/2026-10-09_from-HANS_liquid-floor-and-turn-bound-answer.md`, 10:05 ET).]**
 
 | Grade | Condition | Who computes it |
 |---|---|---|
 | **WATCH** (a look, no route) | one non-turn European op ≥ **$1.0B** · OR one turn op ≥ **$5.0B** | script |
 | | OR one ECB USD tender with ≥ **8 bidders** | **[HANS]** |
 | **ORANGE** | a European central bank moves to **daily** USD operations: HANS is primary, on the ECB announcement or tender page; the script's cross-check is one counterparty trading on ≥ 3 distinct dates inside 7 days | **[HANS]** + script cross-check |
-| | OR a **tenor onset**. This is HANS's amendment (c) plus LIQUID's replay qualifiers: the ONSET (no such op by that counterparty in the prior 90 days) of a USD operation ≥ 28 days, or of a non-weekly tenor (outside 5–8 days) that does not span a quarter-end. Excluded: NY Fed small-value test operations (`isSmallValue = Y`) and ≤ 21-day operations spanning a quarter-end. **≥ $0.1B floor: LIQUID-proposed, NOT agreed by HANS.** HANS has not answered the 10/1 packet. The qualifiers were added in LIQUID's re-replay. | **NOT computed by any script** |
+| | OR a **tenor onset**. This is HANS's amendment (c) plus LIQUID's replay qualifiers: the ONSET (no such op by that counterparty in the prior 90 days) of a USD operation ≥ 28 days, or of a non-weekly tenor (outside 5–8 days) that does not span a quarter-end. Excluded: NY Fed small-value test operations (`isSmallValue = Y`) and ≤ 21-day operations spanning a quarter-end. **≥ $0.1B floor: LIQUID-proposed, AGREED by HANS 10/9, ties inclusive** (HANS packet `AGENTS/LIQUID/inbox/2026-10-09_from-HANS_liquid-floor-and-turn-bound-answer.md`, 10:05 ET). It is in-sample: it was fitted after the hit, on one positive episode. The qualifiers were added in LIQUID's re-replay. | **NOT computed by any script** |
 | **ALERT** (route via WALTER) | one non-turn European op ≥ **$5.0B** · OR one turn op ≥ **$15.0B** · OR `SWPT` ≥ **$10,000M** with the as-of outside a turn window, ≥ **$15,000M** inside one (as-of within QE −7 … +14 days) | script |
 
 Precedence: ALERT > ORANGE > WATCH > below backstop lines.
@@ -83,7 +83,7 @@ Precedence: ALERT > ORANGE > WATCH > below backstop lines.
 5. **Usage is a late, ceiling-priced signal.** The first possible ALERT in 2020 was 3/19, after the coordinated Fed action of 3/15; that date is from memory and was not checked. The swap-line price changed over the base-rate window (OIS+100 → +50 → +25, also not checked here), so hit counts across eras are not like-for-like.
 6. **SWPT is global.** A SWPT ALERT can be Japanese; the BoJ was the largest drawer in 2020.
 7. **Same-day operations are not summed per counterparty.** ECB 2020-04-15 summed to $7.07B, which crosses ALERT; neither operation alone does.
-8. **The tenor-onset leg is in no script**, and its base rate comes from an ad hoc replay nobody has reviewed. **HANS has not seen the turn bound and has not agreed the $0.1B floor.**
+8. **The tenor-onset leg is in no script**, and its base rate comes from an ad hoc replay nobody has reviewed. **HANS agreed the $0.1B floor and the 21-day bound on 10/9.** HANS also named one fact: the UK gilt-LDI crisis of 23–28 Sep 2022 falls inside the quarter-end window (QE −7…−2). A draw in that week would have graded on the $15B turn lines and missed. The bidders ≥ 8, daily-ops and tender-page legs are HANS's, read by hand each HANS session, with no script.
 9. **The X1 repair is author-tested only.** That repair keeps a working leg's ALERT when the other source fails. It stays unverified until read 3.
 
 *Receipt 2026-10-09 (LIQUID; source: PROME read-3 packet `inbox/2026-10-08_from-PROME_usd-swapline-read-3-STILL-UNRESOLVED-budget-spent.md`, 10/8 15:16 ET). Read 3 found two more risks, added here as written in its ledger. Both are labelled **UNREVIEWED-FIX-PENDING**: LIQUID fixed them on 10/9 under WQ-398 (a) (conditions `4bbbb0563`, code `23977aec5`, record `analysis/2026-10-09_usd-swapline-WQ398-fix.md`), and nobody has read that fix. It stays unverified until the one further read Will names.*
@@ -110,4 +110,4 @@ Precedence: ALERT > ORANGE > WATCH > below backstop lines.
 3. PROME registers ONE WQ row carrying §6.
 4. Will rules on the lines.
 
-Nothing is registered and nothing routes before step 4. HANS's answer on the floor and the turn bound is still owed.
+Nothing is registered and nothing routes before step 4. HANS answered on the floor and the turn bound on 10/9 (folded into §3 and §6 item 8).
