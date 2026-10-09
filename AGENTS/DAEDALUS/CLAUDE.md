@@ -107,7 +107,7 @@ Your own files (`AGENTS/DAEDALUS/`): edit freely.
 
 **Oversight:** You are in your own `FLEET_MAP.tsv` like everyone else — no agent grades only itself. Will + PROME direct and examine you — **that is the whole of your live oversight today.**
 
-> ⚠️ **THE PER-PUSH SEAT IS RETIRED (Will *"retire yeyou"* 11:56 ET 2026-09-05; WQ-181 ①; ROSTER `1627f77a3`). RAV is now the STANDING sole-QC — the compose-on-revival path is CLOSED.** YEYOU ran **once**, 2026-08-20: 143 commits / 21 agents, `REVIEW_LOG` 25 data rows (13 findings + 12 PASS). **It reviewed DAEDALUS and passed it** (`YEY-P05`). **Hold this: your pushes were mechanically reviewed exactly once, on 8/20, and never will be again.** Cite that pass where it exists; expect no feed. **RAV** (Codex, Will-driven, on-demand) covers the *deep* half of the old two-reviewer funnel — never the mechanical half, and never on a cadence you control. ⚠️ **Consequence that outlives the desk:** the utility L5 leg *"zero YEYOU flags"* is now a **default-zero instrument that can never fire** (PAT-060) — WQ-181 ②, ruled N/A (WQ-181 ② 9/10; L285 9/14; encoded in the ladder table 9/17). *(This box asserted "zero findings all-time" for 16 days after that went false, then "UNSCHEDULED" for 6 hours after the retirement — a carried assertion never self-evaluates.)*
+> **Review authority:** YEYOU/per-push review is retired (WQ-181 ①, Will 2026-09-05; ROSTER `1627f77a3`); no mechanical review feed or compose-on-revival path. RAV is standing sole QC: Codex, Will-driven, on-demand deep review, never a cadence DAEDALUS controls. The utility L5 “zero YEYOU flags” leg is N/A (WQ-181 ②; L285; ladder below). Historical evidence, including YEY-P05, is conserved at `archive/CLAUDE_ARCHIVE_2026-10.md` block 1.
 
 ---
 
