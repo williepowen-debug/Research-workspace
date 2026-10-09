@@ -1,0 +1,62 @@
+X-BOOKMARK scan — Will's new bookmarks
+================================================================
+
+[14 new bookmarks since last launch, M dispatched]   (M = how many you route below)
+
+[NEW bookmarks to ROUTE — 14]  source: x-bookmark  (Will-originated — do not kill on Novelty without reading the body)
+
+  1. 2108644920542031918  @ClaudeCodeLog  2026-10-09T19:45:00.000Z  [DIG: media]
+     │ Claude Code 2.1.296 has been released.  79 CLI changes  Highlights: • Read tool adds allow_large option to let it ingest a large text file in one call when context allows • Managed-settings PreToolUse/prompt hooks now refuse denied tool calls and end the turn, stopping actions • Fix: redaction strips data after empty keys from shared transcrs & debug logs, incl shell JSON, stopping leaks  Full details available in thread ↓
+     🖼  video: https://pbs.twimg.com/ext_tw_video_thumb/2108644895497781248/pu/img/cKYaxPWBKjGYNo7Z.jpg
+
+  2. 2108621476538781878  @ClaudeDevs  2026-10-09T18:11:50.000Z  [DIG: media]
+     │ We just let in every Pro and Max user from the Claude Code Projects waitlist!  If you're new to Claude Code Projects, here's a 4 minute walkthrough to get you started: https://t.co/aewDkvvOcq
+     🖼  video: https://pbs.twimg.com/amplify_video_thumb/2108616285760499712/img/ESduThxQJik4m9hs.jpg
+
+  3. 2108561168893706467  @CNBC  2026-10-09T14:12:12.000Z  [DIG: link, pointer]
+     │ Americans' debt problems are flashing a warning not seen since the Great Recession https://t.co/RoKqzuG60b
+     🔗 https://www.cnbc.com/2026/10/09/american-debt-delinquency.html?taid=6ac8f63cc6ee1a0001abb7ce&utm_campaign=trueanthem&utm_content=main&utm_medium=social&utm_source=twitter
+
+  4. 2108591328732856655  @ClaudeDevs  2026-10-09T16:12:03.000Z  [DIG: media]
+     │ Claude Managed Agents dynamic workflows are now available in public beta. It's a new type of multiagent orchestration, built for your most ambitious workloads.  A lead agent writes a plan that runs across many agents in phases, combining the results at the end. https://t.co/hEExShsVku
+     🖼  video: https://pbs.twimg.com/amplify_video_thumb/2108590358581874688/img/CmAWQ1NbRCbwON3y.jpg
+
+  5. 2108277300731248867  @rdd147  2026-10-08T19:24:13.000Z
+     │ Woopsie. OpenAI tells Lordstown, Ohio county officials it’s cancelled plans for a multi-gigawatt data center at the Foxconn site. $ORCL $AMD  1. SoftBank’s written admission to Lordstown officials  Lordstown council members specifically asked whether a full-scale data center was planned.  SoftBank’s response described a small proof-of-concept installation using existing infrastructure.  It also stated:  “No, we are not building a large-scale data center at the Lordstown facility.”
+
+  6. 2108506045156917497  @rcwhalen  2026-10-09T10:33:09.000Z  [DIG: link, pointer]
+     │ Foreclosure looms for Brookfield’s Pembroke Lakes Mall after alleged $260M loan default https://t.co/BBCg0bv33w
+     🔗 https://therealdeal.com/miami/2026/10/08/pembroke-lakes-mall-faces-260-million-foreclosure/
+
+  7. 2108241123047047530  @zerohedge  2026-10-08T17:00:27.000Z  [DIG: media]
+     │ That's ok, OpenAI only has $1.5 trillion in commitments to.... checks circular financing diagram... EVERYONE https://t.co/pVyheUhTlS https://t.co/r2F1yyvZ95
+     🖼  photo: https://pbs.twimg.com/media/HUH6GTcWMAAn-L3.jpg
+
+  8. 2108582782645481896  @FT  2026-10-09T15:38:05.000Z  [DIG: media, link]
+     │ FT Exclusive: Bond giant Pimco's chief investment officer said that a further sharp rise in 10-year Treasury yields is 'feasible' as investors are forced to ditch their losing bets on bonds following weeks of heavy selling in the $32tn market. https://t.co/jdZFpnNFrV https://t.co/fS03uuhwb6
+     🖼  photo: https://pbs.twimg.com/media/HUMw3CDXQAAUSc_.jpg
+     🔗 https://ft.trib.al/DnBb2D7
+
+  9. 2108583012422107387  @unusual_whales  2026-10-09T15:39:00.000Z
+     │ Trucking industry hit by string of bankruptcy filings as diesel costs surge, per FOX
+
+  10. 2108251652784349261  @zerohedge  2026-10-08T17:42:18.000Z
+     │ *ORACLE MAY TRUCK GAS TO SITE IN PLACE OF DELAYED PIPELINE *ORACLE SHARES EXTEND DECLINE TO AS MUCH AS 6.1%  Did OpenAI come up with that? https://t.co/z1k6Di49DN
+
+  11. 2108559181699539337  @IranObserver0  2026-10-09T14:04:18.000Z  [DIG: media]
+     │ ⚡️BREAKING: Iran has Officially Announced that it is Widening the Blockade of the Strait of Hormuz   The IRGC Navy stated that violating vessels will now be targeted throughout the region, beyond the Strait of Hormuz   Tankers have been already hit as far as Qatar https://t.co/TLJSAMzzAi
+     🖼  photo: https://pbs.twimg.com/media/HUMbZgGW8AAedl0.jpg
+
+  12. 2108533947336413278  @MattDevittWX  2026-10-09T12:24:02.000Z  [DIG: media]
+     │ #BREAKING: Isaias has strengthened to a Category 3, Major Hurricane in the Gulf with winds of 120 mph. 1st Major Hurricane of the 2026 Atlantic Hurricane Season. Some weakening is expected at landfall tonight along the Florida Panhandle, but the NHC is still currently calling for a Category 2 landfall with hurricane-force gusts, 5 - 7 feet of storm surge, flooding, power outages and isolated tornadoes. Hurricane preps need to be completed this morning. If told to evacuate, please do so. I'll be with you every step of the way with no hype, just the facts 24/7. - Matt
+     🖼  photo: https://pbs.twimg.com/media/HUMEa2LXwAAmDKS.jpg
+
+  13. 2108546403634917507  @MattDevittWX  2026-10-09T13:13:32.000Z  [DIG: media]
+     │ NEW: Storm surge forecast increased to 6 - 9 feet after the recent uptick in intensity. Life-threatening storm surge expected, take it seriously. You don't want to mess with surge, trust me. If told to evacuate, do it. #Isaias https://t.co/bYBp2VfKvP https://t.co/jMInvfcc6K
+     🖼  photo: https://pbs.twimg.com/media/HUMPgXPWoAI4xRf.jpg
+
+  14. 2108312361291706381  @TheInsiderPaper  2026-10-08T21:43:32.000Z  [DIG: media]
+     │ ALERT - A powerful M6.86 solar flare has triggered a radio blackout and sent coronal mass ejections (CMEs) toward Earth, signaling an elevated risk of geomagnetic unrest over the coming days https://t.co/2jCbfcdx2R
+     🖼  photo: https://pbs.twimg.com/media/HUI66lXaYAA-GNm.jpg
+
+After routing, run:  python3 AGENTS/WALTER/tools/x_bookmarks_scan.py --mark
