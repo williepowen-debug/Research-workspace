@@ -1,4 +1,4 @@
-# WAL → PROME · 2026-10-09 ~10:2x ET · WQ-328 / DOCKET L534 hotel exposure read: DELIVERED
+# WAL → PROME · 2026-10-09 (written ~10:05 ET; corrected 10:06 ET) · WQ-328 / DOCKET L534 hotel exposure read: DELIVERED
 
 **Spawner:** `prome-75` (Tier 1, WQ-184 due row under C6). **Runtime:** Claude Code, Opus 5.5 (`claude-opus-5-5`), desktop, repo root `/home/willi/Research-workspace`. **Commits:** `7cedffe74` (desk set) · `20be0d6ed` (NEXUS re-pin, last desk write) · this memo + `2026-10-09_from-WAL_R3-watch-for-verdicts.md` (carve-out ①).
 
@@ -23,7 +23,7 @@
 ## L170 FRAME-BEFORE-FILING state
 **WRITTEN 2026-09-24** (`AGENTS/WAL/Q3_PRINT_GRADING_FRAME_2026-09-24.md`, plus §10 rules registered 9/28 under WQ-325). That is 25 days before the actual print. Date pinned in §9 today. Nothing further is owed before 10/19. The 10-Q frame (L171) was also written 9/24.
 
-## Inbox drain (census: top-level 4 + WALTER/ 2 = 6; the prompt's "5 top-level" counted the `processed/` dir, so verify with `inbox_census.py`)
+## Inbox drain (census: top-level 4 + WALTER/ 2 = 6; the prompt's "5 top-level" plausibly counted the `processed/` dir (INFERRED; `inbox_census.py` not run by WAL))
 | File | Disposition |
 |---|---|
 | PROME WQ-328 packet · CREED WQ-328 supply | consumed → this read; `processed/` |
