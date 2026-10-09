@@ -1,0 +1,79 @@
+{
+  "head": "216ec260dd81efbeecee548d475c084ecde9f912",
+  "reviewed_change": "46c6b938b",
+  "basis": {
+    "PROME/tools/decision_deck.py": "fcf593eb05d778ddbe4fee3afa365ad0af11e812c2a1f3ba345290a67101bc98",
+    "PROME/artifacts/decision_deck.html": "530514ac68ea475cf40b586c11b1d3f5f56d66cf975bd07a480286ae92ae2bca",
+    "PROME/registry/WQ_EXPLAINERS.tsv": "eb09a60a669e2f0a372a82af69252247f9a9b18e3c0debda61ab99a51406c21e",
+    "PROME/WILL_QUEUE.md": "2f4bc81a1ae122cb5c75f41676b3d615b6eb95116567ff800dcf0a7d80ba05b9",
+    "PROME/BOOT.md": "23f036ce7c597c89d8f4a7c8fea7402550e7b4975793b050e0aa44c5add12cd9",
+    "PROME/tools/tests/ACCEPTANCE_deck_changeB_2026-10-09.md": "dd62a5d506508b98bf3ea7ce9a9be83b87f3cd34477d62a59e17560646283191"
+  },
+  "preserved_functions": [
+    "parse_options",
+    "offered_options",
+    "validate_options",
+    "render_unit"
+  ],
+  "preserved_fragments": {
+    "ul.opts": 3,
+    "p.src": 3,
+    ".tapbtns": 23
+  },
+  "saved_page_scripts_equal_tested_code": true,
+  "cards": 22,
+  "cards_removed_since_prior_saved_page": [
+    "wq-406"
+  ],
+  "pinned": [
+    "396",
+    "397",
+    "347",
+    "204",
+    "382",
+    "360",
+    "357",
+    "314",
+    "302",
+    "365",
+    "274",
+    "187"
+  ],
+  "expanded_caveat_cards": [
+    "397",
+    "382",
+    "360",
+    "394",
+    "401"
+  ],
+  "card_source_links": [],
+  "pinned_first_in_each_group": true,
+  "front_examples": {
+    "314": "WQ-314 5d left · 2026-10-14 · 20:00 EDT PINNED Minimize Expand RULE (a gate letter on a prediction-market leg; levels unchanged) + a spawn-cadence decision open since 9/28 ORACLE's October oil-odds alert levels: approve once the counting rules are defined? If yes The levels are encoded once ORACLE's counting rules are on file; nothing arms before the liquidity bar. If no The October leg keeps being read with no alert levels; ORACLE proposes again. If nothing Nothing arms today either way; the leg has only $3.3K liquidity. PROME rec Approve (b) once the counting and reset rules are written; a higher chance of oil touching $110 is a price-event signal, not proof of lost supply. Approve Decline Later",
+    "375": "WQ-375 6d left · 2026-10-15 Minimize Expand RULE open since 10/2 Ratify two rulings DAEDALUS applied in its October fleet review about how desks are graded on the maturity ladder? If yes Both readings become the standing rule for every review from PR#8 on 10/15; the five unverified desks are checked under A then. If no CORAL and FERT go back a rung and the five held desks are re-graded under the old two-way reading. If nothing DAEDALUS keeps applying its readings as reviewer rulings with no ratification behind them. PROME rec PROME recommends ratifying both as written. A ends grading the same rung two ways in one review; B judges substance over heading. Disclosed: this ask sat in DAEDALUS's 10/1 packet for a day without a queue row, a PROME miss named here. Approve Decline Later"
+  },
+  "clock_counterexamples": {
+    "2026-10-14 (re-dated 10/9 17:06 ET; no deadline time set)": {
+      "clock": "17:06 ET",
+      "pill": "<span class=\"pill ok\">5d left · 2026-10-14 · 17:06 ET</span>"
+    },
+    "2026-10-14 09:45–10:30 ET": {
+      "clock": "09:45–10:30 ET",
+      "pill": "<span class=\"pill ok\">5d left · 2026-10-14 · 09:45–10:30 ET</span>"
+    },
+    "2026-10-14 9:45am–10:30 ET": {
+      "clock": "10:30 ET",
+      "pill": "<span class=\"pill ok\">5d left · 2026-10-14 · 10:30 ET</span>"
+    }
+  },
+  "rebuild_matches_saved_except_build_identity": true,
+  "independent_runtime": {
+    "filter_checks": 286,
+    "received": "② Received by PROME (probe) 10/9, 5:15 PM ET — ① recorded 10/9, 5:00 PM ET: APPROVE · receipt is not execution — a disposition shows here only once PROME records one",
+    "recorded": "② Received by PROME (probe) 10/9, 5:15 PM ET — ① recorded 10/9, 5:00 PM ET: APPROVE · ③ Recorded in the queue as: WQ-7 APPROVED; owner action pending",
+    "recorded_time_labels": [
+      "10/9, 5:15 PM ET",
+      "10/9, 5:00 PM ET"
+    ]
+  }
+}
