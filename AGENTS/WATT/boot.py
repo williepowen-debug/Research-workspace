@@ -174,6 +174,13 @@ def predictions_due():
 # check is what let that run for six weeks.
 READ_CAP_BUDGET = 32_550          # 60% of the ~54,250 B harness single-read cap
 READ_CAP_PHYSICAL = 54_250        # past this a Read returns a partial file, silently
+# Rotation tiers in INTEGER BYTES, truncated the way READ_CAP.md §5 states them
+# (start >=75% = 24,412 B, stop <70% = 22,785 B). A float-percent test (pct >= 75.0)
+# was silent at exactly 24,412 B (= 74.998%) — DOCKET L546 float-tie class,
+# DAEDALUS packet 2026-10-08; fixed 2026-10-09 on TERRY's boot.py pattern.
+READ_CAP_ROTATE_AT = int(READ_CAP_BUDGET * 0.75)    # 24,412
+READ_CAP_ROTATE_STOP = int(READ_CAP_BUDGET * 0.70)  # 22,785
+assert (READ_CAP_ROTATE_AT, READ_CAP_ROTATE_STOP) == (24_412, 22_785)
 BOOT_READ_SURFACES = ("STATUS.md", "SCRATCH.md", "workbook/PREDICTIONS.tsv")
 STATUS_ARCHIVE_DIR = HERE / "status_archive"
 
@@ -202,8 +209,8 @@ def status_byte_budget():
                   f"{READ_CAP_PHYSICAL:,} B CAP — a boot Read of this file returns a PARTIAL "
                   f"FILE WITH NO ERROR. Split it before trusting anything read from it.")
             rc = max(rc, 1)
-        elif pct >= 75.0:
-            target = int(READ_CAP_BUDGET * 0.70)
+        elif b >= READ_CAP_ROTATE_AT:
+            target = READ_CAP_ROTATE_STOP
             print(f"  \u26a0\ufe0f {rel} {b:,} B = {pct:.0f}% of the {READ_CAP_BUDGET:,} B read-cap "
                   f"budget ({lines} lines, {dens:.0f} B/line) — ROTATE oldest superseded blocks "
                   f"verbatim into archive until < {target:,} B. Rotation, never deletion; "
