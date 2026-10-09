@@ -1,0 +1,7 @@
+publication_date,observation_date_or_basis,publisher,route,measure,value,prior_same_series,prior_date,unit,limitations,url
+2026-10-09,2026-10-08,Gibson,TD3C VLCC AG-China,spot_WS,1319,1145,2026-10-01,Worldscale points,Gibson broker assessment; round voyage market speed eco non-scrubber,https://www.gibsons.co.uk/report/damage-control/
+2026-10-09,2026-10-08,Gibson,TD3C VLCC AG-China,spot_TCE,1478500,1277000,2026-10-01,USD/day,modeled round-voyage TCE; not an executed fixture; NOT Baltic basis,https://www.gibsons.co.uk/report/damage-control/
+2026-10-09,2026-10-08,Gibson,TD3C VLCC AG-China,FFA_Q4_TCE,1397750,,,USD/day,paper Q4 average; below spot,https://www.gibsons.co.uk/report/damage-control/
+2026-10-09,2026-10-08,Gibson,TD3C VLCC AG-China,FFA_Q4_WS,1258,,,Worldscale points,paper Q4,https://www.gibsons.co.uk/report/damage-control/
+2026-10-09,2026-10-08,Gibson,Fujairah VLSFO,bunker,955,952,2026-10-01,USD/tonne,Gibson bunker table,https://www.gibsons.co.uk/report/damage-control/
+2026-10-09,week 41,Baltic,TD3C and TD34,assessment,NOT OBTAINED,,,,site bot-challenge to curl and WebFetch; bdata pilot laptop-only,https://www.balticexchange.com/en/data-services/WeeklyRoundup/tanker/news/2026/tanker-report-week-41.html
