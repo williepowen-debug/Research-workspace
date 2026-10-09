@@ -1,0 +1,44 @@
+# Decision Deck — selectable options + grouping · PROPOSAL
+**Written:** 2026-10-09 12:20 ET (`prome-75`, desktop) on Will's words 12:09 ET (*"When a decision has choices - I think they should be represented and selectable for me as well on the Deck"*) and 12:18 ET (*"plan out how you would update the Deck and implement your changes … brainstorm possible ideas … divided up by categories or domain"*). **Status:** PROPOSAL — nothing built; a PROCESS change (Will-facing surface, WQ-299 R1 one per session; consequential ⇒ independent read before publish, WQ-229). **Owner:** PROME. **Record on the word:** rename `…-RULED.md`.
+
+## 1. What exists (verified at `PROME/tools/decision_deck.py`, 893 lines, 2026-10-09 12:20 ET)
+- Cards are built from `WILL_QUEUE.md` § OPEN rows + `PROME/registry/WQ_EXPLAINERS.tsv` (columns: wq · name · what · why_yours · if_yes · if_no · if_nothing · rec_reason).
+- Three groups only (`:404-409`): **Needs your ruling** (owed) · **Answered — hands owed** · **Waiting on others** (blocked, no taps).
+- Tap controls (`:440-456`): Approve / Decline / Later (owed rows) or Done / Later (answered rows), plus a 400-char note. A tap writes ONE document to the artifact's `db` store, collection `rulings`: `{wq, verdict, note, ts, build, consumed:false, source}` (`:697`). PROME consumes by hand at boot step 3b (`PROME/BOOT.md:59`): latest `ts` per WQ rules; written verbatim into the queue; `consumed:true`.
+- The "type" pill is free text from the queue's Type column (RULE · TRADE / EXIT · [Approve] · ACTION · BROKER · SCORE RULE …) — not a controlled vocabulary.
+
+## 2. Change A — options as buttons (Will's ask)
+**Rule:** a card whose decision has named choices renders ONE button per choice, in the owner desk's own labels, verbatim — never PROME's paraphrase — plus **Later**. Rows without named choices keep Approve / Decline / Later unchanged. The note field stays for amendments.
+1. **Data:** add column `options` to `WQ_EXPLAINERS.tsv` — `LABEL=short text` pairs separated by ` || `, e.g. `A=Sell before expiry || B=Hold to expiry (runs through the Fidelity unknown) || C=Hold, then sell by 10/14`. The LABEL is the token the owner's card/letter uses (TERRY's A/B/C; MIDAS CROSSING/CALENDAR; FORUM STRICT/FUNCTIONAL). PROME copies it from the owner's artifact and cites the artifact in `rec_reason`. Empty ⇒ no change to the card.
+2. **Render:** `data-v="CHOICE"` + `data-choice="<LABEL>"` buttons; the chosen label is shown in the tap state exactly as tapped.
+3. **Store:** the tap document gains `choice: "<LABEL>"` and `options_shown: ["A","B","C"]` (the set rendered at that build), so a tap stays interpretable after the options change at a later publish. `verdict` stays `"CHOICE"` for the existing consumer code path.
+4. **Consume:** BOOT.md 3b gains one sentence: a `CHOICE` tap is written as *"tap via Decision Deck <ts>: CHOICE = <LABEL> (of <options_shown>) <note>"*; the WQ row's disposition names the label; the owner desk's record (root rule #10) receives the label, not a paraphrase.
+5. **First rows to carry options** (as of 2026-10-09 12:20 ET, labels to be copied from the owner artifacts at build time, not from this list): WQ-302 (TLT A/B/C + HBAN R-A/R-B — two option sets on one row ⇒ split into two cards or two rows), WQ-357 (A sell both / B the 82P only / C hold to 10/14), WQ-360 (ADD vs ROLL framing — options only if TERRY's card names them), WQ-364 (STRICT / FUNCTIONAL), WQ-368 (CROSSING / CALENDAR), WQ-394 (count 1 → DISSOLVE / count 2 → NO-VERDICT / count 3 → PAYS, with the named borderline cases), WQ-314 (b) (APPROVE / APPROVE WITH LEVELS … only if ORACLE's letter offers a split).
+6. **Acceptance conditions (written before the edit, WQ-229):** (a) a row with an empty `options` cell renders byte-identically to today's card; (b) a tap on option B stores `choice="B"` and `options_shown` equal to the rendered set; (c) a label absent from the owner artifact fails the build (the generator greps the cited artifact for the token — a label PROME invented cannot ship); (d) the reference page shows the chosen label in the decided view; (e) the selftest (`--selftest`) covers one options row and one plain row. **Neighbours considered:** ordinary (plain row) · overlap (two option sets on one row — WQ-302) · wrong owner (label not in the cited artifact — (c)) · missing information (no explainer row — card unchanged) · concurrent (a tap on an old build after a republish changed the options — `options_shown` makes it readable).
+7. **Independent read** (one Opus coldreader, counterexample of its own) on the generator diff + one rendered page BEFORE publish; the page is published only after the read is clean or its ❌ are fixed and re-read.
+
+## 3. Change B — grouping by category or domain (Will's idea)
+- **Data:** two controlled columns on `WQ_EXPLAINERS.tsv`: `kind` ∈ {TRADE (money moves, your hand) · GATE (a level, operator or consequence) · RULE (how the fleet works) · HANDS (credentials, captures, forms)} and `domain` ∈ {Energy · Rates · Credit · Banks & CRE · AI capex · FX & Asia · Climate & Florida · Fleet process}. PROME sets both at registration; the generator fails on a value outside the vocabulary (STATE_VOCABULARY-style — a token, never prose).
+- **Render:** the three groups stay (owed / answered / blocked — they encode WHO acts). Inside "Needs your ruling": chips across the top (`All · Trade · Gate · Rule · Hands` and the domains); a chip filters cards client-side; the current filter is remembered per viewer (localStorage, a convenience only). Default view = today's order (due date, money first).
+- **Why not more groups:** a fourth top-level section would hide a due trade behind a domain heading; the filter keeps the due-today order visible under every chip.
+
+## 4. Brainstorm — other ideas (none committed; each is its own change)
+1. **"Since your last visit" strip:** cards new, re-dated or re-recommended since the previous publish (from `PROME/state/brief_changes.jsonl`), so a glance shows what moved.
+2. **The case against, as its own line:** every rec line gets an `against` cell (the strongest reason to rule the other way), rendered beside the rec — today it is buried in the raw row.
+3. **Money-at-stake tag** on every TRADE card (premium, max loss, cash needed to exercise), copied from TERRY's card; sort-by-money chip.
+4. **Due TIME, not just date** (15:00 ET stops, 15:45 words) with a live countdown on due-today cards.
+5. **Rails reminder on trade cards:** the standing rules the tap touches (root rule #5 your hand · #6 green/red day · the $500 new-risk norm) as a one-line footer, so a tap is never a surprise override.
+6. **Owner chip with a link** to the owner desk's card file on GitHub (the card you would open to check the letter).
+7. **Batch "no change" taps for no-money RULE rows** — DECLINED by PROME: one tap ruling several rows is the laundering shape the Deck was built to avoid; per-row taps stay.
+8. **Pickup latency shown on the page** (*"last picked up <ts>"*) — honest about the fact that a tap waits for a PROME boot; a scheduled pickup is WQ-388's question, not this one.
+9. **Decided-today strip on the Owed page** (what you tapped today and whether PROME has consumed it) — today only on the reference page.
+10. **Option-aware explainers:** `if_yes / if_no` become `if_<LABEL>` once options exist (one consequence line per option) — a follow-on to Change A, not part of it.
+
+## 5. Plan, in order (one process change per session)
+| Session | Change | Reads | Publish |
+|---|---|---|---|
+| Sat 10/10 (spine-audit sitting) or the first session with no due domain row | **A** (options) — generator + TSV column + BOOT 3b sentence + selftest | plan read of this record (done by Will's word) · result read of the diff + one rendered page | Owed page republished only after a clean read |
+| the next PROME session after A is live | **B** (kind/domain chips) + vocabulary | result read | republish |
+| on Will's pick | one of §4 items 1–6, 8–10 | per change | per change |
+
+**Cost:** $0; no capital path; nothing executes off a tap (unchanged). **Not in scope:** sharing the artifact (a tap is Will's word only while private), scheduled pickup (WQ-388), the reference page's refresh cadence (WQ-382 b).
