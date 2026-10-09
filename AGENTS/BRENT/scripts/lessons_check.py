@@ -80,6 +80,22 @@ def parse_asserts(s):
     return out
 
 
+def malformed(rows):
+    """Separator lint (2026-10-09; supersedes: none — extends parse_asserts). Only '|' splits
+    concepts and asserts; a ';' or ',' joiner silently merges keys. Found live: L05's
+    'price_freshness,bar_finality' made L05 invisible to every --spec sweep, and L05/L27's
+    ';'-joined asserts hid 3 keys from the contradiction scan."""
+    bad = []
+    for r in rows:
+        for c in (r["concepts"] or "").split("|"):
+            if re.search(r"[,;\s]", c.strip()):
+                bad.append(f"{r['id']} concept '{c}' contains a non-'|' separator")
+        for k, v in parse_asserts(r["asserts"]).items():
+            if "=" in v:
+                bad.append(f"{r['id']} assert '{k}' value swallows another key: '{v}'")
+    return bad
+
+
 def find_contradictions(rows):
     """Two lessons sharing an assert KEY with different VALUES."""
     hits = []
@@ -195,9 +211,13 @@ def main():
                     help="C2: verify LESSONS.md prose against the index (drift check)")
     a = ap.parse_args()
     rows = load()
+    bad = malformed(rows)
+    for b in bad:
+        print(f"  🔴 MALFORMED INDEX ROW: {b}")
 
     if a.prose:
-        return check_prose(rows)
+        rc = check_prose(rows)
+        return 1 if bad else rc
 
     if a.concept:
         c = a.concept.lower()
@@ -254,6 +274,8 @@ def main():
     if undeclared:
         print(f"\n  🔴 {len(undeclared)} pair(s) with NO declared tension — the silent-default class.")
     print()
+    if bad:
+        return 2  # desk convention: 2 = ran correctly, real FINDINGS (boot renders 1 as FAIL)
     if a.strict and unresolved:
         return 1
     return 0
