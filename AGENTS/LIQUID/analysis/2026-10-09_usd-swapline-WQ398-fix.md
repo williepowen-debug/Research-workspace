@@ -32,6 +32,31 @@
 
 **Out of scope — not touched in the script this pass (ruling (a) names X2 + CE1e; the diff the reader gets stays minimal):** N1 (row label "outside 14-day headline") · N2 (rc 1 = selftest failure AND any crash; after this pass a malformed field no longer crashes, but an unforeseen exception still exits 1) · N3 (`WITHHELD_WHY` points at a heading that does not exist; the target is the ⛔ block at analysis L5) · N4 (two untagged letter figures) · every read-2 ⚠️ listed as out of scope in `analysis/2026-10-08_usd-swapline-L568-change-note.md` §A · a per-year truncation in 2010–2015 that leaves ≥ 1 European op in the year (no continuity there to test against — declared residue, printed per-year counts are the only tell).
 
-## B. Result
+## B. Result (one pass, 2026-10-09 ~10:05 ET)
 
-*(written after the code commit)*
+**Commits:** conditions `4bbbb0563` (10:02:38, alone) → code `23977aec5` (10:05:22, the script only) → this §B + letter §6 receipt items 10–11 (the commit that adds this text).
+
+| AC | Implemented as | Test evidence (the author's own) |
+|---|---|---|
+| AC-X2b | `check_ops_history()` (per-year window · empty complete year · duplicates · field check · continuity ≤ 22 d since `CONTINUOUS_FROM = 2015-06-10` · newest op ≤ 22 d) and `check_swpt_history()` (field check · first as-of ≤ `SWPT_FIRST_MAX = 2007-01-10` · every gap = 7 d · newest ≤ 10 d), both inside `baserate()`'s per-leg try blocks; old sum/count floors kept; `baserate(today=None)` takes a date so the current-year case is testable; one coverage line printed | selftest: 11 X2b checks: healthy synthetic ⇒ rc 0 · CE2a · CE2b · missing week · stale tail · 2016 truncated · wrong-window response · duplicate · 2027-01-05 current-year-empty NOT failed · malformed op in history · healthy NY Fed + FRED empty. **Falsified:** the same checks on `9004d5450` give rc 0 with counts on 7 of them (CE2a, CE2b, missing week, stale tail, 2016 truncated, wrong window, duplicate), the healthy case fails only for want of the coverage line, and the malformed-history case crashes (the run stopped there; the FRED-empty case was not reached on old code). **Live `--baserate` (WITHHELD-prefixed):** underlying rc 0; `diff` against the pre-edit run is exactly ONE added line, the coverage line (per year 2010→2026: 22, 30, 65, 33, 16, 28, 46, 54, 53, 58, 231, 80, 68, 71, 65, 64, 57; SWPT 2007-01-03 → 2026-10-07, 1,032 weeks). Every pre-existing count line is identical |
+| AC-X1p | `check_ops()` / `check_swpt()` (ISO dates, finite non-negative numbers, int term, non-empty counterparty; the error names the field and the op) called inside each leg's own try in `run_live()`; the per-leg print-and-grade sections are each in their own try (a failure there prints the leg DOWN and sets its error); `ops_leg()` / `swpt_leg()` call the same checks and return DOWN instead of raising; the DOWN reason now reads "fetch or field check failed" | selftest: 7 X1p checks: CE1e through `run_live` (SWPT line + `ALERT-PROPOSED · PARTIAL: OPS DOWN (… malformed field mat='' …)`, rc 3) · CE1f (op row + SWPT DOWN + ALERT, rc 3) · raw JSON `amount: null` through the real `ops()` with a stubbed `_get` (OPS DOWN, SWPT printed, UNGRADEABLE rc 2) · non-European malformed op (UNGRADEABLE rc 2, fail closed) · SWPT NaN (ALERT · PARTIAL rc 3) · both legs malformed (verdict printed, rc 2) · `assess()` direct (returns, OPS DOWN). **Falsified:** CE1e on `9004d5450` raises `ValueError: Invalid isoformat string: ''` from `spans_qe`, the read-3 symptom. Live `--force-withheld-test`: underlying rc 0, no leg DOWN |
+
+**`--selftest`: 66/66, rc 0** (the 48 pre-existing checks unchanged and passing + 18 new). ⚠️ One pre-existing check lost its meaning: "X2 --baserate, FRED down" stubs the NY Fed with 100 copies of one 2014 op, so the NY Fed leg now fails first. The check still passes, but it no longer exercises the FRED-down path. The new "healthy NY Fed + FRED empty" check covers that path. The old check is left as it was, so the 48 stay unchanged.
+
+**The four states (WQ-229), never merged:**
+- **IMPLEMENTED:** ✅ AC-X2b · AC-X1p.
+- **TESTED:** ✅ by the author only: the selftest, falsification against `9004d5450`, the live `--baserate` diff and the live `--force-withheld-test`. This establishes *implemented*, not *verified*. Not run: a live-vs-pre-edit comparison of the `--force-withheld-test` output line by line. The well-formed path differs only by the added check calls.
+- **INDEPENDENTLY VERIFIED:** ❌ **NO.** L568's three reads are spent. This pass is UNREVIEWED until the ONE further read Will names (WQ-398 (a); PROME registers the row).
+- **STILL UNRESOLVED:**
+  - N1 · N2 · N3 · N4 (out of scope, §A);
+  - a 2010–2015 year truncated part-way that keeps ≥ 1 European op;
+  - the KB-LIQ-142 cached-copy class inside 10 days;
+  - every read-2 ⚠️ declared on 10/8;
+  - HANS's open floor / turn-bound packet;
+  - the instrument stays **WITHHELD**.
+
+**Where the next reader should try to break it (offered, not a scope):**
+- the `CONTINUOUS_FROM` anchor is fitted on today's history;
+- the exact-7-day SWPT cadence rule against a future FRED re-dating;
+- whether "one malformed non-European op ⇒ whole OPS leg DOWN" is too strict;
+- the run_live print-section `except` that converts an unexpected error into DOWN, which could also mask a coding error as an outage.

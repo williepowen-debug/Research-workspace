@@ -86,6 +86,11 @@ Precedence: ALERT > ORANGE > WATCH > below backstop lines.
 8. **The tenor-onset leg is in no script**, and its base rate comes from an ad hoc replay nobody has reviewed. **HANS has not seen the turn bound and has not agreed the $0.1B floor.**
 9. **The X1 repair is author-tested only.** That repair keeps a working leg's ALERT when the other source fails. It stays unverified until read 3.
 
+*Receipt 2026-10-09 (LIQUID; source: PROME read-3 packet `inbox/2026-10-08_from-PROME_usd-swapline-read-3-STILL-UNRESOLVED-budget-spent.md`, 10/8 15:16 ET). Read 3 found two more risks, added here as written in its ledger. Both are labelled **UNREVIEWED-FIX-PENDING**: LIQUID fixed them on 10/9 under WQ-398 (a) (conditions `4bbbb0563`, code `23977aec5`, record `analysis/2026-10-09_usd-swapline-WQ398-fix.md`), and nobody has read that fix. It stays unverified until the one further read Will names.*
+
+10. **X2-residual: the base-rate replay could count on partial history and still report success.** At `9004d5450` the `--baserate` floors were a sum (≥ 1,000 NY Fed ops) and a count (≥ 900 SWPT rows). One empty NY Fed year, or a SWPT history starting 2008-10, still printed counts with exit 0. If 2016 had come back empty, "2014–19 WATCH 15" would have printed **3**. *The 10/9 fix fails closed on any empty complete year, on any European-op gap > 22 days since 2015-06-10, and on a SWPT history that starts after 2007-01-10, misses a week or is more than 10 days stale. **The floor it cannot see:** a 2010–2015 year cut part-way that still holds one European op passes.*
+11. **CE1e/CE1f: one bad field on one leg hid the OTHER leg's ALERT.** At `9004d5450` a single European op with an empty maturity date crashed the run after both fetches. The run printed no SWPT line and no verdict, with exit 1, even with a fresh $50,000M SWPT reading. A malformed SWPT date crashed the run the same way. *Under the 10/9 fix, the malformed leg is marked DOWN and the other leg still prints and grades. One malformed op takes the WHOLE ops leg down, because it could be the ALERT op.*
+
 ## 7. Clause → code (X5 check)
 
 | Clause | Where it is computed |
