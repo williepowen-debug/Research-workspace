@@ -1,5 +1,27 @@
 # NEXUS — LAST COMPLETION
 
+## 2026-10-09 Fri 18:42 ET — EVENING FRED TOUCH (PROME Tier-1 spawn; SCRATCH ★ NEXT "FRED 10/8 cells") — STANDARD tier
+
+Runtime: Claude Code, `claude-opus-5-5`; no subagents. Pass record: `research/2026-10-09_pass_record_PM_fred.md`. Delivery: `PROME/inbox/2026-10-09_from-NEXUS_evening-fred-cells.md`.
+
+- **Pull:** FRED API via `fetch.py` at 18:38 ET. `fredgraph.csv` failed (curl rc 92, then rc 28 on all 13 series), so the method deviation is recorded in the PRED-50 log source column. The 10/8 H.15 cells published: DGS2 4.75 · DGS10 5.22 · DGS30 5.60 · DFII10 2.87 · DFII30 3.31; T10YIE 2.33 and T5YIFR 2.32 [10/9]. The 10/9 ICE/VIX cells are unpublished.
+- **Letters:** L13 cell 10 confirmed neither, so it grades Mon 10/19 on every branch · M-03 L = 5.22 FIXED (edges 5.37 / 5.07) · PRED-50 cell 8 rates legs confirmed −6/−5, outside Q, grade unchanged; inputs only, re-pull 10/13. Nothing graded, no Conf % moved, split HELD.
+- **Inbox 2 → processed:** LIQUID WQ-341 attribution → T-27 (neither shows nor refutes; VULCAN's issuer test decides) · VULCAN 15/25 → M-09/R4. Both logged in board_log. WALTER lane 0.
+- **Rotation:** replaced STATUS lines verbatim to `STATUS_COLD.md` §H19 `e227a22a` + §H19b `5b750ac3` (both reproduce). STATUS is at 73%, 144 lines. This block put LAST_COMPLETION at 75%, so the 10/08 18:32 block moved to `archive/LAST_COMPLETION_COLD_2026-10-09.md` Rotation 3 `a47c93c5` (reproduces; hot file now 58%).
+
+**Closeout checks:**
+- 9: no row date bumped.
+- 9b: grepped PROVISIONAL / 14/25 / unpublished / vendor / 10/7 marks. Four residues fixed (§H19b). PREDICTIONS:16 "unpublished at grade" = RETAINED-HISTORY with the confirmation appended. PROME mirrors not edited: GATES row 19 state cell still reads "cells 1–8 … cell 9 early copy", which is PROME's to refresh, and the memo carries it.
+- 9c (18:41): late movers CATO/PROME deck work only.
+- 10: nothing past-trigger.
+- 11: done.
+- 14: none this pass.
+- 15b: no new dated obligation.
+
+**skipped:** 9a (due 10/27) · 15a (no whole-file rewrite) · 1c (no figure superseded; the anchor was fixed at its registered value) · 1c-bis (no LEDGER_GLOB) · 1d (no memory) · push (PROME's train carries it, per the spawn).
+
+---
+
 ## 2026-10-09 Fri 10:05 ET — DOCKET L553 WAKE: PRED-50 FIRST GRADE (PROME `prome-75` Tier-1 spawn, WQ-184/C6) — STANDARD tier
 
 Runtime: Claude Code, `claude-opus-5-5`; no subagents (one-letter grade, no brief loop). **Delivery:** `PROME/inbox/2026-10-09_from-NEXUS_pred50-first-grade.md` · WQ-341 asks `PROME/inbox/2026-10-09_from-NEXUS_wq341-observed-branch-attribution-asks.md` · BRENT ask `AGENTS/BRENT/inbox/2026-10-09_from-NEXUS_bzz26-10-08-settle-for-M-06-anchor.md`.
@@ -58,23 +80,4 @@ Short boot ran (0a · 0b carried from 10/8 · 1 · 2 · 3 · 4 · 7 · 7a · fle
 
 ---
 
-## 2026-10-08 Thu 18:32→18:54 ET — EVENING DELTA (Will-asked: "catch up with live data and updated info from agents") — STANDARD tier
-
-**Long form:** `research/2026-10-08_pass_record_PM.md`. **Delivery:** `PROME/inbox/2026-10-08_from-NEXUS_PM-delta-pred-50-rule-2-met-anchors-dispositions.md` · reply `AGENTS/DAEDALUS/inbox/2026-10-08_from-NEXUS_pin-check-adopted-unpinned-ruling-t12s-deferral-readcap-named.md`. Runtime: Claude Code, `claude-fable-5-1`; no subagents (same-day delta, late movers read by diff).
-
-**What changed, in one screen:**
-- **PRED-50 (L14): cell 7 (10/7) published 18:34 ET — quiet on both legs (+1/+1), B 302 → 308 ⇒ W.** Tally 7 of 8: n=4 · W=2 · T=0 · F=2 ⇒ **rule 2 SATISFIED on the logged vintage; cell 8 cannot reverse it.** NOT graded — the letter grades at the first boot after the 10/8 cell (DOCKET L553, 10/9) with a revision re-pull. Disc-A caveat on every surface (the W follows the 10/6 −12; a retrace satisfies the letter; OBSERVED names the behavior, never the cause). PROME pre-notified to stage the WQ-341 OBSERVED branch (VULCAN sub-read + LIQUID `LIQ-07`). PRED-50 Conf ~~~55 → ~95%~~ **CORRECTED 19:3x (CATO review): the as-made ~55% stays the graded forecast; the post-hit state is state, not a new forecast.**
-- **Board (no Conf % moved; split 20/47/33 HELD, L13 cells 1–9 neither):** 10/7 FRED cells across the matrix (HY 309 · B 308 · CCC **1,229 new window high** · BB 189 · IG **82 tightest since 9/28** · 10Y 5.28 · real 2.92 · VIX 15.08) · 30Y-R 10/8 stop 5.618% CLEAN (BOND, counter 2; long end +7bp) · OZK <$45 FIRED 10/6, RaDD $915M bridge matures **Fri 10/9** (Citi, single-source) · Isaias US Gulf shut-in 62.89% / 1.28 mb/d, landfall AL/FL Fri night (BRENT: transient unless damage) · OpenAI revenue-basis item, AI-infra −3–8% (VULCAN grades) · UK 30Y/10Y under HANS lines on vendor closes, UK Budget 10/28 · 10/8 closes (SPX 7,765 −0.47%, QQQ −1.34%, KRE 69.59, OZK 44.86). Chain: ~~REGINALD → repricing gets one day of counter-evidence (bank equity bounced while credit widened 10/7)~~ **CORRECTED 19:3x (CATO review): dates were mismatched (10/8 equity vs 10/7 credit); same-date 10/7 both moved the bear way; no inference until the 10/8 credit cell publishes.** T-25 / T-28 closed rows dropped.
-- **Letters (L15 anchors):** M-05 KRE **L = $69.59** [10/8 close] ⇒ ≤$64.02 / ≥$75.16 ×2. M-06 BZZ26 **deferred to 10/9** (18:35 vendor bar = evening session, tool flag). FRED-series anchors = the 10/8 observations (publish 10/9) — reading fixed before publication.
-- **Drain 4/4:** DAEDALUS pin check (tool adopted at BOOT 6; UNPINNED 8 = §4.1 gap; A10 struck at next fold; carrier = DAEDALUS wiring line) · DAEDALUS sweeps (T12S precision/backtest/actionable-life = dated deferral to the next registration, on L13; `read_cap_check.py` named at closeout 15) · PROME **S1 design (DOCKET L639) deferred to the 10/13 wake** · SIG-W-033 WQ-399 (charter 7a receipt form rewritten; rc 0, nothing owed). BRIEFS_MAP ★10/8 PM. `brief_fallback_log` CORAL `stale`.
-- **Read-cap:** STATUS 21,583 → 25,693 B after the edits (78.9%) ⇒ rule-5 rotation ×4, verbatim to `STATUS_COLD.md` §H15 `80d8787a` · §H15b `788962fe` · §H15c `1d0da0b0` · §H15d `327bfa4b` ⇒ **22,782 B = 70.0% (3 B under the stop).** ⚠️ **The 10/9 boot owes a STRUCTURAL rotation before writing five anchors — a trim will not hold.**
-
-**Open for Will (not NEXUS's):** SEAT-01 verdict (L9) · WQ-357 duration exit (path C to 10/14) · WQ-400 VX19 qualifier · 10/9 expiries (TERRY cards).
-
-**Next wake:** **Fri 10/9 — PRED-50 grade (DOCKET L553) + anchors (10/8 FRED cells · BZZ26 settle) + structural STATUS rotation first** · L554 + **L639 S1 design** Tue 10/13 · L571 ≥10/15 · L558 10/16 (TIC + L13 cell 15 + successor gate; T12S precision items there) · T12S review 10/19 · L555 10/27 · 10/29 M-06 · 10/30 M-08/M-09 · 11/05 five letters · 11/20 M-11/PRED-45.
-
-**Closeout checks:** 9 STATUS sanity (151 lines; Δ held rows keep true dates — nothing bumped tonight; docket pruned + residue row; thresholds ordered; new paths exist) · 9b from each change (PRED-50 on L14 + row + split block + log + packet; L13 cell 9 on both; anchors on L15 + M-05/M-06 + packet; residue grep: one RESIDUE fixed — threshold header "FRED obs 10/6" → 10/7; PREDICTIONS:4 "ARMED" inside the labelled AM-wake record and :36 "was ~55%" = RETAINED-HISTORY; COLD/letters/log/LAST_COMPLETION hits = history; PROME mirror DOCKET L553 "nominal-only quiet" vs the letter's both-legs — packeted, not edited) · **9c 18:54: three commits landed during the session — WALTER −041 (18:33, corrects −036 to "since Aug 2000" = BOND's figure already on the board, no change) · CATO 18:41 (own files) · PROME prome-07 18:51 (DOCKET/WILL_QUEUE trims; my AM packet now in `PROME/inbox/processed/` = consumption receipt); annotated here, not re-swept; no STATUS touch** · 10 nothing went past-trigger mid-session · 11 inbox 0 / WALTER 0 · 14 none this pass · 15 this block (≤6 KB; file ~9.7 KB) · 15a n/a (exact-string edits + verbatim rotations; no whole-file rewrite) · 15b n/a (no new dated obligation) · root 1b run (2 own packets → carve-out ①; `[not yours]` = PROME live files, untouched) · 1e `claim_check --check weekday` ✓ clean on STATUS · PREDICTIONS · BRIEFS_MAP · both packets · pass record · this file. **skipped:** 1c (no fleet-cited figure superseded; PRED-50's own Conf is not one) · 1c-bis (no `LEDGER_GLOB`) · 1d (no memory written) · 9a (rollup not due; DOCKET L555 10/27) — each does not APPLY; nothing required was left unrun.
-
----
-
-## 📦 Prior blocks → `archive/LAST_COMPLETION_COLD_2026-10-09.md` (the 10/01 session, crc32 `1b8a6531`; + Rotation 2 2026-10-09 Fri 10:05 ET: the 10/08 08:13 L554 wake block, crc32 `efa7e796`; its chain names the 9/29 cold files). Rotated 2026-10-09 Fri 09:29 ET under closeout 15 (76% → under the stop).
+## 📦 Prior blocks → `archive/LAST_COMPLETION_COLD_2026-10-09.md` (the 10/01 session, crc32 `1b8a6531`; + Rotation 2 2026-10-09 Fri 10:05 ET: the 10/08 08:13 L554 wake block, crc32 `efa7e796`; + Rotation 3 2026-10-09 Fri 18:42 ET: the 10/08 18:32 evening-delta block, crc32 `a47c93c5`; its chain names the 9/29 cold files). Rotated 2026-10-09 Fri 09:29 ET under closeout 15 (76% → under the stop).
