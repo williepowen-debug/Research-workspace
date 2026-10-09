@@ -26,11 +26,17 @@ import datetime
 import os
 import re
 import sys
+from zoneinfo import ZoneInfo
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REGISTRY = os.path.normpath(os.path.join(HERE, "..", "sweeps", "REGISTRY.tsv"))
 FLEETMAP = os.path.normpath(os.path.join(HERE, "..", "FLEET_MAP.tsv"))
 SELF_ROW_MAX_DAYS = 5  # the defect recurred at 5d twice (8/12, 8/17) — set from measurement
+
+
+def today_et():
+    """Dated obligations use Will's Eastern calendar, independent of host timezone."""
+    return datetime.datetime.now(ZoneInfo("America/New_York")).date()
 
 
 def check_self_row(today):
@@ -72,7 +78,7 @@ def _last_change(path_rel):
         dirty = subprocess.run(["git", "status", "--porcelain", "--", path_rel], cwd=REPO,
                                capture_output=True, text=True, timeout=20).stdout.strip()
         if dirty:
-            return datetime.date.today()
+            return today_et()
         return d
     except Exception:
         return None
@@ -141,7 +147,7 @@ def selftest():
     fire PLAYBOOK MISSING (rc 2); a row whose playbook exists must not. Built 2026-09-03 after
     sweeps/GATE_BASIS_SWEEP.md sat absent for a day behind a row this script read as clean."""
     import tempfile, subprocess
-    today = datetime.date.today().isoformat()
+    today = today_et().isoformat()
     hdr = "task\tcadence_days\tlast_run\tplaybook\tstatus\tresolve_by\tlast_findings\n"
     fails = 0
     with tempfile.TemporaryDirectory() as td:
@@ -158,7 +164,7 @@ def selftest():
                            capture_output=True, text=True)
         clean = p.returncode == 0 and "PLAYBOOK MISSING" not in p.stdout
         print(f"  {'✓' if clean else '✗'} present playbook ⇒ clean, rc 0 (rc={p.returncode})"); fails += not clean
-    dated_ok = selftest_dated(datetime.date.today())
+    dated_ok = selftest_dated(today_et())
     fails += not dated_ok
     print("sweeps_due SELFTEST " + ("✓ 5/5" if not fails else f"✗ {fails}/5 FAILED"))
     return 1 if fails else 0
@@ -171,7 +177,7 @@ def main():
     if "--registry" in sys.argv:
         REGISTRY = sys.argv[sys.argv.index("--registry") + 1]
     no_pc = "--no-profile-clock" in sys.argv
-    today = datetime.date.today()
+    today = today_et()
     due, tracked, skipped = [], 0, []
     missing_pb = []   # playbook path in the row does not exist (2026-09-03 guard)
     overdue, skipped_rb = [], []   # resolve_by: dated obligations, independent of cadence
@@ -275,8 +281,11 @@ def main():
 
     if overdue:
         for task, over, rb, pb in sorted(overdue, key=lambda r: r[1], reverse=True):
-            print(f"🔴 RESOLVE_BY PASSED: {task} — dated obligation {rb} is {over}d past "
-                  f"(this is NOT a cadence miss; the cadence clock may be perfectly fine) → {pb}")
+            if over == 0:
+                print(f"⏰ DUE TODAY: {task} — dated obligation {rb} (Eastern date; no intraday deadline specified) → {pb}")
+            else:
+                print(f"🔴 RESOLVE_BY PASSED: {task} — dated obligation {rb} is {over}d past "
+                      f"(this is NOT a cadence miss; the cadence clock may be perfectly fine) → {pb}")
     if due:
         for task, age, cad, pb in sorted(due, key=lambda r: r[1] - r[2], reverse=True):
             print(f"⏰ DUE: {task} — last run {age}d ago (cadence {cad}d, +{age - cad}d over) → {pb}")

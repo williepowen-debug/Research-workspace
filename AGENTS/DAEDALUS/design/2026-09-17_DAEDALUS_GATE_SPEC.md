@@ -12,8 +12,8 @@
 ## 2. Classes (five, kept distinct — CATO's requirement)
 | Class | Meaning | Moves rc? |
 |---|---|---|
-| `CLEAN` | child rc 0 | no |
-| `DUE` | child reports OWED WORK (sweeps_due rc 1 = a sweep is due; orphan_check `[likely YOURS]`; ledger nudge rc 1; consumer_check 🔴 owners; memory-length rc 1/2 = flag PROME) | **no** — listed loudly; the closeout message must carry it |
+| `CLEAN` | child rc 0 with no separately reported obligation; read-cap requires a valid assessed result with rotation_due=0 | no |
+| `DUE` | child reports OWED WORK (sweeps_due rc 1 = a sweep is due; read-cap rc 0 with rotation_due>0; orphan_check `[likely YOURS]`; ledger nudge rc 1; consumer_check 🔴 owners; memory-length rc 1/2 = flag PROME) | **no** — listed loudly; the closeout message must carry it |
 | `ADVISORY` | child rc 1 whose contract says advisory (claim_check; read_cap at BOOT) | no |
 | `BLOCKING` | child rc 1 whose contract means a defect the desk must fix before closing (corrections unreceipted; read_cap at CLOSEOUT; complete_check pairing/symmetry/placement; memory_index_check --strict; verify_push NOT-ON-ORIGIN; PATTERNS_HOT conservation broken) | rc → 1 |
 | `UNKNOWN` | child rc 2, child missing/unrunnable/timeout, an UNDECLARED conditional, or a runner-internal read failure | rc → 2 (**dominates**, §9) |
@@ -23,11 +23,13 @@
 Overall rc: **2** if any UNKNOWN · else **1** if any BLOCKING · else **0**. DUE never lowers to "clean" and never raises to "fail"; it is the third thing.
 
 ## 3. Step registry (in the SCRIPT — the charter names the runner, the runner owns the list)
-BOOT: git-state (fetch · ahead/behind · dirty-outside-own-dir) → `sweeps_due.py` → `corrections_boot_check.py DAEDALUS` → inbox enumerate (with positive control: the directory exists and was listed) → `read_cap_check.py --agent DAEDALUS` (ADVISORY at boot).
-CLOSEOUT: `sweeps_due.py` (self-row · directory-stale) → `orphan_check.sh DAEDALUS` → consumer_check (declaration-gated) → `ledger_staleness.py --nudge DAEDALUS` → memory (`memory_index_check --strict --slug` per declared slug, or `--no-memory`; `check_memory_length.sh` always) → `claim_check.py --check weekday <existing paths>` → PATTERNS_HOT conservation (read-only) → `read_cap_check.py --agent DAEDALUS` (BLOCKING) → `complete_check.py` → STATUS stamped today → rule-declared (DECLARED).
+BOOT: git-state (fetch · ahead/behind · dirty-outside-own-dir) → `sweeps_due.py` → `corrections_boot_check.py DAEDALUS` → inbox enumerate (with positive control: the directory exists and was listed) → `read_cap_check.py --agent DAEDALUS --charter-mode explicit` (rc1 ADVISORY at boot; rc0 rotation DUE) → `docket_owed.py` (B5, October 1 addition; citation is acknowledgement, not completion).
+CLOSEOUT: `sweeps_due.py` (self-row · directory-stale) → `orphan_check.sh DAEDALUS` → consumer_check (declaration-gated) → `ledger_staleness.py --nudge DAEDALUS` → memory (`memory_index_check --strict --slug` per declared slug, or `--no-memory`; `check_memory_length.sh` always) → `claim_check.py --check weekday <existing paths>` → PATTERNS_HOT conservation (read-only) → `read_cap_check.py --agent DAEDALUS --charter-mode explicit` (BLOCKING) → `complete_check.py` → STATUS stamped today → rule-declared (DECLARED).
 VERIFY (post-push): `verify_push.sh "<subject>"` → content check: every path of the located commit compared `origin/master:<p>` vs `HEAD:<p>` by sha256.
 
 ## 4. Receipt
+**October 9 reporting repair:** native child rc is retained. B4/C7 use the existing `--charter-mode explicit` option because the charter now requires explicit root/local reads, including while owner application of READS is pending. A successful read-cap child must emit exactly one final `READ-CAP-RESULT v1` line with mode=agent, desk=DAEDALUS, rc=0, assessed=1 and nonnegative integer rotation_due. Missing, malformed, duplicate or mismatched results are UNKNOWN; additional keys are allowed. Native rc1/2 retain their previous class mappings. All actionable warning blocks, including indented continuations, survive in receipt findings and console without line-count or 160-character clipping; only secondary context is capped. Git fetch failure names its actual error and labels ahead/behind CACHED, preserving the foreign-dirty pull hold. Dated sweep obligations use Eastern dates: today is DUE TODAY, earlier is RESOLVE_BY PASSED; the due rc remains 1.
+
 `<receipt-dir>/<UTC-stamp>_<mode>.json` + `logs/<step>.txt`. Fields: mode · ts · HEAD · **fingerprint** (sha256 over HEAD + `git diff HEAD -- AGENTS/DAEDALUS scripts` + sorted untracked list under AGENTS/DAEDALUS + sha256 of the runner file) · steps[] {id, name, cmd, rc, class, reason, log, finding lines} · counts by class · perimeter line. `verify-receipt <path>` recomputes the fingerprint: `VALID` or `INVALIDATED (head|tree|runner changed)`. Default receipt-dir = the session scratchpad (`$CLAUDE_SCRATCHPAD` or `/tmp/claude-1000/daedalus-gate/`); receipts are NOT committed — the one-row `runs/GATE_LOG.tsv` append is the committed trace (date · mode · HEAD7 · rc · counts · receipt sha8).
 
 ## 5. Acceptance set — each item names its drill; §3(a)/(b)/(e) real cases named by path

@@ -120,10 +120,65 @@ def child_step(sid, name, argv, rc_map, cwd_rel="."):
     return Step(sid, name, run), argv
 
 
+def read_cap_step(sid, name, argv, rc_map):
+    """Native rc is unchanged; the producer's separate rotation obligation is DUE."""
+    step, argv = child_step(sid, name, argv, rc_map)
+    child = step.fn
+
+    def run(ctx):
+        cls, reason, out, rc = child(ctx)
+        if rc != 0:
+            return cls, reason, out, rc
+        lines = [line for line in out.splitlines() if line.startswith("READ-CAP-RESULT")]
+        try:
+            if len(lines) != 1 or not lines[0].startswith("READ-CAP-RESULT v1 "):
+                raise ValueError("expected one v1 result")
+            if lines[0] != out.rstrip().splitlines()[-1]:
+                raise ValueError("result is not the final line")
+            pairs = [part.split("=", 1) for part in lines[0].split()[2:]]
+            fields = dict(pairs)
+            if len(fields) != len(pairs):
+                raise ValueError("duplicate result key")
+            if any(fields.get(k) != v for k, v in
+                   {"mode": "agent", "desk": AGENT, "rc": "0", "assessed": "1"}.items()):
+                raise ValueError("result mode/desk/rc/assessment mismatch")
+            if not re.fullmatch(r"[0-9]+", fields.get("rotation_due", "")):
+                raise ValueError("missing or invalid rotation_due")
+            rotation = int(fields["rotation_due"])
+        except (ValueError, TypeError) as exc:
+            return UNKNOWN, f"child rc 0; read-cap result cannot certify: {exc}", out, rc
+        if rotation:
+            return DUE, f"child rc 0; rotation_due={rotation} — maintenance owed (see paths below)", out, rc
+        return cls, reason, out, rc
+
+    step.fn = run
+    return step, argv
+
+
 def finding_lines(out, n=4):
-    keys = ("DUE:", "CANNOT", "❌", "🔴", "⏰", "🟠", "STALE", "FINDINGS", "likely YOURS", "over", "NOT ON ORIGIN", "UNKNOWN")
-    ls = [l.strip() for l in out.splitlines() if any(k in l for k in keys)]
-    return ls[:n]
+    """Keep all warning blocks; n bounds secondary context, never required actions."""
+    keys = ("DUE:", "CANNOT", "❌", "🔴", "⏰", "🟠", "🟡", "⚠", "⛔",
+            "STALE", "FINDINGS", "likely YOURS", "NOT ON ORIGIN", "UNKNOWN")
+    warnings, context, results = [], [], []
+    warning_indent = None
+    for raw in out.splitlines():
+        line = raw.strip()
+        indent = len(raw) - len(raw.lstrip())
+        if line.startswith("READ-CAP-RESULT"):
+            results.append(line)
+            warning_indent = None
+        elif any(k in line for k in keys):
+            warnings.append(line)
+            # A deeper marked continuation does not start a new block: subsequent
+            # unmarked actions may be siblings at that same deeper indentation.
+            warning_indent = indent if warning_indent is None else min(warning_indent, indent)
+        elif line and warning_indent is not None and (indent > warning_indent or line.startswith("↳")):
+            warnings.append(line)
+        elif line:
+            warning_indent = None
+            if "over" in line:
+                context.append(line)
+    return list(dict.fromkeys(warnings + context[:n] + results))
 
 
 # ---------------------------------------------------------------- registries
@@ -138,7 +193,8 @@ def boot_registry(ctx):
         if rc2 != 0 or rc3 != 0:
             return UNKNOWN, "git state unreadable", f + ab + st, None
         outside = [l for l in st.splitlines() if l[3:] and not l[3:].startswith(AGENT_DIR + "/")]
-        note = ("fetch FAILED (offline?) — ahead/behind is against the CACHED ref; " if rc != 0 else "")
+        error = f.strip() or f"no diagnostic output (rc={rc!r})"
+        note = (f"fetch FAILED: {error} — ahead/behind is against the CACHED ref; " if rc != 0 else "")
         note += f"ahead/behind {ab.strip().replace(chr(9), '/')} · dirty outside own dir: {len(outside)}"
         if outside:
             note += " ⛔ do NOT pull (root 'Before pulling' 2)"
@@ -165,8 +221,8 @@ def boot_registry(ctx):
         return ENUM, f"{n} packet(s) to read whole (SPAWN 3b) — positive control: dir listed, {len(sub)} subdir(s)", detail, 0
     steps.append((Step("B3", "inbox enumerate", inbox), ["listdir", "inbox/"]))
 
-    steps.append(child_step("B4", "read_cap_check --agent DAEDALUS (ADVISORY at boot; BLOCKING at closeout)",
-                            [sys.executable, os.path.join(root, "scripts/read_cap_check.py"), "--agent", AGENT], {0: CLEAN, 1: ADVISORY, 2: UNKNOWN}))
+    steps.append(read_cap_step("B4", "read_cap_check --agent DAEDALUS (rotation DUE; rc1 ADVISORY at boot)",
+                            [sys.executable, os.path.join(root, "scripts/read_cap_check.py"), "--agent", AGENT, "--charter-mode", "explicit"], {0: CLEAN, 1: ADVISORY, 2: UNKNOWN}))
     # B5 (2026-10-01): the DOCKET -> DAEDALUS hop. Four rows assigned 9/28-9/29 never reached STATUS
     # because no boot step read the DOCKET for rows naming DAEDALUS (record runs/2026-10-01_DOCKET_OWED_BUILD.md).
     steps.append(child_step("B5", "docket_owed (open DOCKET rows naming DAEDALUS, uncited in STATUS)",
@@ -268,8 +324,8 @@ def closeout_registry(ctx):
         return CLEAN, f"conservation holds: {data_rows} rows == {m.group(2)}+{m.group(3)} (generated {m.group(1)}); NOT checked: whether a row's TEXT changed since generation", "", 0
     steps.append((Step("C6", "PATTERNS_HOT conservation (read-only)", hot_conservation), ["compare", "PATTERNS_HOT.md", "vs", "PATTERNS.tsv"]))
 
-    steps.append(child_step("C7", "read_cap_check --agent DAEDALUS (BLOCKING at closeout)",
-                            [sys.executable, os.path.join(root, "scripts/read_cap_check.py"), "--agent", AGENT], {0: CLEAN, 1: BLOCKING, 2: UNKNOWN}))
+    steps.append(read_cap_step("C7", "read_cap_check --agent DAEDALUS (rotation DUE; rc1 BLOCKING at closeout)",
+                            [sys.executable, os.path.join(root, "scripts/read_cap_check.py"), "--agent", AGENT, "--charter-mode", "explicit"], {0: CLEAN, 1: BLOCKING, 2: UNKNOWN}))
     cc = [sys.executable, os.path.join(HERE, "complete_check.py")] + (["--since", a.complete_since] if getattr(a, "complete_since", None) else [])
     steps.append(child_step("C8", "complete_check (pairing · pair-symmetry · EVOLUTION placement · claim walk-list)", cc, {0: CLEAN, 1: BLOCKING, 2: UNKNOWN}))
 
@@ -665,7 +721,7 @@ def run(mode, steps, ctx, receipt_dir, log_row=True):
                         "class": cls, "reason": reason, "log": logp, "findings": fl})
         print(f"  {GLYPH[cls]} {step.sid:<3} {cls:<15} {step.name}\n      ↳ {reason}")
         for l in fl:
-            print(f"        · {l[:160]}")
+            print(f"        · {l}")
     counts = {}
     for r in results:
         counts[r["class"]] = counts.get(r["class"], 0) + 1

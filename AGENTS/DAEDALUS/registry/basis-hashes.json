@@ -1,18 +1,27 @@
 {
- "attested_on": "2026-09-17",
- "attester": "DAEDALUS",
- "sha256": {
-  "CLAUDE.md": "09bc5feb3877f4fbebd989781b774727463c954622cad6d9ec3089c01cd5782b",
-  "AGENTS/DAEDALUS/CLAUDE.md": "9edeb69ec87a19040b5233f67d3f3909a12c8aa8414053624350514caddc94da",
-  "AGENTS/DAEDALUS/scripts/sweeps_due.py": "3d02bae3bb24ff130be14eb47f0d13a1e39e06b946f6de8d916585298940457e",
-  "AGENTS/DAEDALUS/scripts/profile_clock_check.py": "fcb42a0ec2154eb099b90a0ad1d0d022e6f9b7011e83e7b84491c65682819644",
-  "scripts/corrections_boot_check.py": "3a88a236b6a9b8419ab58658c410a653293a56383d781ba15b2403549ce26651",
-  "scripts/read_cap_check.py": "91ceeae7421096cc3a9ea9eeba0f2b012dc74a4a31b6b1ff136380afc6dc1ef3",
-  "AGENTS/DAEDALUS/scripts/complete_check.py": "0edd1b6e3605a6e627da4553d6df18d81fa8a1da1a1f1ead9344275d519c66e4",
-  "AGENTS/DAEDALUS/scripts/verify_push.sh": "53c57c6eb10bac7998658f7558510e8c50a63becfa3358d49467b6db920513f3",
-  "AGENTS/DAEDALUS/scripts/daedalus_gate.py": "68c5fff8596d2888a840382ecdcb8b1235bd152f969bdd8c3ada3722fabdbf7c",
-  "AGENTS/DAEDALUS/scripts/render_directory.py": "085d256e9674543a527aaddc666637204eee665985b538f016e0b6850982f3df",
-  "AGENTS/DAEDALUS/scripts/regen_patterns_hot.py": "5271d0b4ca5070f4ce24ae3fc6edca18504254201e47e45fb05fc45ebf3892a1",
-  "PROME/ROSTER.md": "3a6427a6f146016ea09a758fa0e5c396943bad67c0a93f41408d7206ee37902b"
- }
+  "attested_on": "2026-10-09",
+  "attester": "DAEDALUS",
+  "declaration": "AGENTS/DAEDALUS/registry/2026-10-09_READS_PROPOSED.tsv",
+  "review_scope": "Boot input/mode/invocation coverage; not a full implementation or closeout dependency audit. See runs/2026-10-09_BOOT_RELIABILITY.md. Hashes identify versions, not correctness.",
+  "publication_at_capture": "PROME live registry replacement pending owner application",
+  "sha256": {
+    "CLAUDE.md": "609e423d7ea3cee6395854304f2b36a7d2f831061dbf02e29bbd1021aba43e9e",
+    "AGENTS/DAEDALUS/CLAUDE.md": "55ec839d746e9456cb774b3ec5a7349e7e881bf1006999a9d8f2daeb95f756f3",
+    "AGENTS/DAEDALUS/scripts/sweeps_due.py": "a09caad656f356546c2c64b475cde313cc4262893eb417778e2a8edefbbf27eb",
+    "AGENTS/DAEDALUS/scripts/profile_clock_check.py": "fcb42a0ec2154eb099b90a0ad1d0d022e6f9b7011e83e7b84491c65682819644",
+    "scripts/corrections_boot_check.py": "db69634350a304386e77eab0220c1a2efb4ee47aaeba58a2e45435bc21bf8f0e",
+    "scripts/read_cap_check.py": "b5fbd2fd3b108a3d375731f30dd4470bdd4ad7fbfecf3f1a295aa5fc30279180",
+    "AGENTS/DAEDALUS/scripts/complete_check.py": "e944d6db07190560c4fd96ef11af0d097f02d1621f25088af5067d89ebdf5d9a",
+    "AGENTS/DAEDALUS/scripts/verify_push.sh": "53c57c6eb10bac7998658f7558510e8c50a63becfa3358d49467b6db920513f3",
+    "AGENTS/DAEDALUS/scripts/daedalus_gate.py": "b280a9108858e66f81d3d2ec631c25b24e3b7d38477adc1b5c575a29d489bcc9",
+    "AGENTS/DAEDALUS/scripts/render_directory.py": "666110836dee09c1ba7b9c3d1ed9fd2490013a5ed3e273978cea33db0e313a00",
+    "AGENTS/DAEDALUS/scripts/regen_patterns_hot.py": "5271d0b4ca5070f4ce24ae3fc6edca18504254201e47e45fb05fc45ebf3892a1",
+    "PROME/ROSTER.md": "1796721ce1f8233424232f8ab7c35561c1eb0ea99b572ce9b4590c45fb426aca",
+    "AGENTS.md": "aecdda8cfa113f1161d74abd78d3e8fa0e460a03c2e890ffd1f7321b92a0d5ae",
+    "USER.md": "f698a7b528ee3242ee75f3650f1cd58860a3c935c57a1ee1abdcbc9fe28f6a7c",
+    "PROME/COMPLETION_SPEC.md": "d213e20eb75f65ab6953ec99d6430c56500744ea4fad8efd01d968228288a6ff",
+    "PROME/ORCHESTRATION_PLAYBOOK.md": "22c0750a022d7211fd017a94efe1db6f2525380db526972a2ee03b62b85b6d20",
+    "AGENTS/DAEDALUS/scripts/docket_owed.py": "555b1c7d5d1e05261eac38551419e09ac39a1edd21c6fd09578d5873db557e3e",
+    "scripts/docket_view.py": "84dad878bd199ba082c0f816ce251beadca1884dd2b35f689c58b1ce7c134d9d"
+  }
 }
