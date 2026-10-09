@@ -72,3 +72,28 @@ HENRY assumed the roll steps *"roughly cancel over a cycle"*, **checked, could n
 
 ## §INSTRUMENT — and it upgrades the PROME packet
 ⛔ **`FORGE/tools/market-data/fetch.py` returns `ERROR 'currentTradingPeriod'` on EVERY dated contract** (`CLX26`, `BZX26`, `HOX26`, all `RB*`) — a KeyError surfaced as an opaque failure. ✅ **But the data EXISTS: `CLX26.NYM` returns 97.480**, corroborating BRENT's 97.52 at a different pull time. ⇒ **the fix is SMALLER than the packet said — accept the `.NYM`-suffixed form and stop crashing — not build a new capability.** 🔑 **And ADD#23 has been telling the fleet to "quote named contracts" for 14 days while the shared tool could not fetch one.**
+
+---
+
+# ADDENDUM 2026-10-09 ~10:2x ET — BRENT's answer (asked on Will's direct instruction; brent-58 by SendMessage), recorded verbatim in substance
+
+**Whose call:** WILL'S. Both letters are Will-signed (5/8); picking a month changes what the alarm reads = a re-spec. BRENT owns the measurement and basis advice only. Neither BRENT nor WALTER can amend the letter. BRENT bias disclosed: held VLO thesis likes wide cracks; neither alarm touches its exit rule (WQ-386 reads the diesel crack).
+
+**#8 (3:2:1 > $50, 2–3 sessions) — BRENT AGREES with "nearest month in which all three legs trade", plus three conditions:**
+(a) named-contract identity check on every pull (BZZ26/RBZ26/HOZ26); continuous tickers rejected (today RB=F printed −5.41% labelled RBX26 at 3.1365 vs RBX26.NYM 3.2825 = a different contract);
+(b) per-session SETTLE basis for the persistence count; vendor prev_close is NOT a settle (CLX26 prev 90.43 vs 10/8 settle 91.49). Source order: exchange settle → vendor daily row only within $0.15 of → a 14:28–14:30 ET one-minute VWAP labelled ESTIMATE; within ±$0.15 of $50 on the estimate alone = UNKNOWN, not a fire;
+(c) name the month switch in the letter: Dec→Jan when BZZ26 expires (~end-Oct) though RBZ/HOZ trade to end-Nov (step ~−$0.61 today).
+BRENT holds NO settle-basis #8 level and will not invent one; can produce a 14:28–30 ESTIMATE on request.
+
+**#6 — BRENT AGREES it is a redesign. Split:** SPIKE ≥$50 half stays live on the front MATCHED month (RBX26×42 − CLX26; Nov $46.29 at 10:12 ET, BRENT pull). RE-CROSS ≥$30 half: a flat bar on a seasonal V crosses routinely every winter; precedent = BRENT's own identical "gasoline crack >$30" line RETIRED 2026-07-31 (F4, Will-ruled): "if a crack tripwire is ever wanted again it is a NEW REGISTRATION with base rates — not a re-level." Options for Will: (i) retire the ≥$30 half the same way, or (ii) commission a seasonal/change-rule redesign with base rates (needs realized expired-contract history, not free). Interim fire-plus-decomposition rule stays until Will picks.
+
+**Status:** DECISION PENDING WILL (two asks, below in WALTER's 10/9 brief). Nothing re-specced.
+
+---
+
+# ✅ DECIDED — Will, 2026-10-09 ~10:29 ET, in-session ("okay confirmed go ahead"), after WALTER's two clarifications
+
+Will's ruling text (pasted 10:27 ET, confirmed with WALTER's session-count and month-switch proposals 10:29 ET): *"Approve #8's nearest common named-contract month, with official settlements for the persistence count. Estimates remain provisional. Before activating the revision, make the exact session count and month-switch treatment explicit. For #6, keep the $50 spike trigger and retire the $30 re-cross trigger. Record this as retirement of an insufficiently validated alert—not a proven annual false alarm. Your existing routing correction says the curve did not establish annual crossings. No replacement study is commissioned now; a future proposal needs historical evidence and a clear decision use. Preserve the historical records and existing position exit rules."*
+Explicit terms confirmed: #8 fires on the 3rd consecutive official settle strictly > $50.00; 2 = near-trigger watch; estimates never complete a count; a no-settle session neither counts nor resets; switch on the first session after the Brent leg's last trading day; a count spanning a switch restarts at zero.
+⚠️ Correction to this memo's own 9/14 addendum: its "crossed essentially every winter, as routine" overstated the evidence (corrected 9/15 in ROUTING_OVERLAYS: the curve did not establish annual crossings). Will's ruling records the retirement on the accurate basis.
+Encoded: ROUTING_OVERLAYS/ROUTING_TABLE/ROUTING_CARVEOUTS v0.41, STATE.md; prior text verbatim in design/history/BOUNDARY_6_8_BEFORE_2026-10-09.md (split_verify CONSERVED, 1 adjudicated H1 edit). Owed: BRENT records the Dec→Jan switch date in row #8's record.
