@@ -1,6 +1,6 @@
 # ORACLE — NEXUS Brief
 
-**As of:** oil/v5 + 9/28 movers **2026-09-28T13:49Z (Mon 09:49 ET)**; all other levels **2026-09-27T16:20Z** | **STATUS commit:** `279b7aec1` | **Box:** DESKTOP, authed Kalshi lane LIVE (rc=0).
+**As of:** oil/v5 + Fed **2026-10-09T14:26Z (Fri 10:26 ET, prome-75 L0 wake)**; 9/28 movers 2026-09-28T13:49Z; all other levels **2026-09-27T16:20Z** (NOT re-read 10/9) | **STATUS commit:** see `git log -1 -- AGENTS/ORACLE/STATUS.md` | **Box:** DESKTOP, authed Kalshi lane LIVE (rc=0).
 **Status:** 🟠. The bank-failure axis has **no instrument left**; the Fed and CPI repricing eased a notch; the Iran deadline is priced as leverage.
 **Domain:** Prediction-market monitoring (Polymarket + Kalshi): crowd-implied probabilities and crowd-vs-thesis divergence. Inbound routed by WALTER.
 **Constraint honored:** no trade implied, no P&L, no position language. No new gate registered.
@@ -8,13 +8,13 @@
 > **★ THE ONE THING: A US BANK FAILED AND THE PREDICTION MARKETS DID NOT SEE IT COMING. NOTHING NOW PRICES THE NEXT ONE.**
 > PM any-bank "US bank failure by Dec 31, 2026?" (**$4.1K lifetime vol**) **resolved YES on Nano Banc** (FDIC close 9/25; closed 2026-09-26T01:12Z). It traded 50.5–57.5 through 18:25 ET; the first repricing trade came at **19:08 ET**, before Sunwest's 19:45 ET release and American Banker's 21:17 ET story. **The regulator release time is unverified.** It priced ~55%, **below** the 2026 base-rate pace (≈94%), about the 2024-25 pace (≈51%). This is thin-market pricing, not a crowd view. **No count market and no successor exist on either venue** (Kalshi certified 0 over 13,018 events). The named-bank EOY event (0.9–4.4%) did not move. (KB-ORC-101; `analysis/2026-09-27_bank-failure-markets.md`)
 >
-> **★ FED OCTOBER: SECOND READ BELOW THE ALERT LINE.** PM hike **64.5** ($3.7M) / Kalshi `>4.00` **63.0** (OI 33.4K); the 9/25 PM 66.5 (>66% alert cell) stays one print. Two more hikes by Dec: Kalshi **48.0**. Count ladder 2 hikes 53.0 / 3 hikes 39.1. Futures comparison only in expected bp at a matched time (KB-ORC-100).
+> **★ FED OCTOBER HIKE PRICED OUT (10/9 14:26Z):** PM hike-at-Oct **15.5** ($7.1M; 9/28 65.5) / Kalshi `KXFED-26OCT >4.00` **18.0** (OI 61.3K; 9/28 69.0), `>4.25` 1.0 — venues within 2.5pp; VX-ORC-08 >66% no longer crossed. The hike moved to **December**: PM Dec-meeting 74.5 / Kalshi Dec `>4.00` 82.0 (cumulative — not like-for-like). One read after an 11-day dark gap (KB-ORC-103; → LIQUID packet).
 >
 > **★ SEPT CPI (10/14) COOLED:** Kalshi `>3.6%` **36.5 mid** (was 46.0) · `>3.5%` 78.0 · P(3.6%) ≈ 41.5. PM modal 3.6% 47.0 (thin).
 >
 > **★ IRAN ~9/29 DEADLINE PRICED AS LEVERAGE:** ceasefire thru 9/30 **94.5%** ($1.8M; was 85.5) · blockade-end by 9/30 4.2 / 12/31 59.1 · next senior meeting by 12/31 **77.5** (was 69.0). Hormuz-normal-by-Dec 20.5 (PortWatch PRINT basis). HAWK owns the reality.
 >
-> **★ OIL v5 (9/28):** rolled to the **October $110 leg** (DOCKET L299): first row **+51.0pp** @ 2026-09-28T13:49Z, supply leg **25.5% on $3.3K liq ⚠️ thin**; REGIME segment `v5-oct26-icewti110`, **never differenced vs Sept** (+75.1 → +51.0 is days-to-touch). ⛔ October resolves on **ICE WTI (CLL), not CME** — disclosed, Will's call via PROME. Active Month Nov→Dec **8:00 PM ET 10/14** (ICE LTD 10/19, verified) = ~$3.95 downward level step. Talks: US–Iran meeting by 10/31 **75.5** (9/27 50.0).
+> **★ OIL v5 (10/9):** October $110 leg **8.5%** (vol $74.8K, liq **$41.0K** — first non-thin October read; 9/28 25.5% was thin), path 38 → 12.5 → 4.5–9.5 since 9/28 (CLOB bars, context). Spread **+73.0pp** (PortWatch-basis 81.5 − 8.5), segment `v5-oct26-icewti110`. CLX26 $91.27 ⇒ $110 is +20.5%. **WQ-314 (b) observation + reset rules delivered** (one read per business day, thin read resets, Active-Month switch **2026-10-15T00:00Z** resets; November leg ~10/25) — levels unchanged, NOT encoded (`analysis/2026-10-09_wq314b-v5-observation-and-reset-rules.md`, KB-ORC-102). ⚠️ A touch-odds rise is a price event, not lost supply.
 
 ---
 

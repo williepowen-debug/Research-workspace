@@ -1,22 +1,36 @@
 # ORACLE — SCRATCH (canonical session handoff)
 
-**Last updated:** 2026-09-28 (Mon) 09:5x ET · **Box:** DESKTOP, authed Kalshi lane LIVE (`kalshi.py status` rc=0) · Session: PROME-spawned (`prome-7f`, Tier-1 follow-up), DOCKET L299 October roll + whole-inbox drain. Market open.
+**Last updated:** 2026-10-09 (Fri) 10:3x ET · **Box:** DESKTOP-BC6EF81, authed Kalshi lane LIVE (`kalshi.py status` rc=0) · Session: PROME-spawned (`prome-75`, Opus), L0 drain-only wake under WQ-221 (DOCKET L618): WQ-314 (b) + whole-inbox drain. Market open. ORACLE was DARK 9/28 → 10/9 (11 days).
 
-## CHANGES SINCE LAST SESSION (9/27 12:3x ET → 9/28 09:45 ET)
+## CHANGES SINCE LAST SESSION (9/28 13:50Z → 10/9 14:26Z)
 
-- October WTI ladder deepened a little ($9.1K → $19.9K event). The Oct $110 leg is 25.5% on $224 vol / $3.3K liq, still THIN.
-- **US–Iran talks jumped:** the meeting-by-10/31 leg went 50.0 → 75.5 and the 9/30 leg 38.0 → 66.5 (the 9/30 leg is thin). Fed Oct hike: Kalshi 63 → 69, PM 64.5 → 65.5.
+- **Oct $110 leg 25.5 → 8.5%**, and its book deepened ($3.3K → **$41.0K liq**, $224 → $74.8K vol). CLX26 ~$94 → $91.27. Spread +51.0 → **+73.0pp**.
+- **Fed Oct hike priced out:** PM 65.5 → 15.5 · Kalshi `>4.00` 69 → 18. Dec-meeting hike PM 74.5.
+- Will DROPPED DOCKET L173/L175 (Forum-4 N11-ii/N13, WQ-378, 10/9): the N13 provenance-token kill ORACLE pre-accepted is ruled; no action.
+- WQ-399 (10/8): the correction-receipt writer refuses an incomplete receipt.
 
-## WHAT I DID
+## WHAT I DID (10/9)
 
-1. **Boot:** 0 behind origin. PROME's two state files were dirty (not mine), so no pull. Corrections rc=1: COR-20260927-05/06 receipted **NO-OP** (ORACLE never carried the WAL/$108M claims) and then rc=0. Kalshi rc=0.
-2. **Pull** 13:48Z (PM 52, Kalshi 14/14), then the last Sept-segment spread row **+75.1pp** (supply 1.4%).
-3. **DOCKET L299, all three items:** ① Oct $110 **pinned** (id 4936102). ② Month-roll rule named first: it **stays v5** per WQ-260 record row 260, and the roll opens a new REGIME segment `v5-oct26-icewti110`. ③ Active Month **verified at ICE**: Nov26 LTD 10/19 ⇒ the switch is at **8:00 PM ET Wed 10/14**, not ~10/16. ⛔ **Found:** the October market resolves on **ICE WTI (CLL)**, while September resolved on CME. That goes to Will via PROME (rec: stays v5). First Oct-segment row **+51.0pp** @ 13:49Z, THIN.
-4. **v5 threshold PROPOSAL** to PROME (in the memo and the VX-ORC-04 Alert cell, **NOT encoded**): arm after 3 consecutive reads with liq ≥$5K; Alert ≥40% sustained 3 reads; Critical ≥60% sustained 3 reads, or YES.
-5. **Inbox drain, 4/4:** the CATO NB5 relabel is done (§3 of the 9/27 analysis + KB-ORC-101: "depth" → lifetime volume per instance). SIG-W-20260927-004/005/006 noted. board_log +4, all moved to processed.
-6. STATUS partial update (alert 0 movers, alert 5 oil), NEXUS_BRIEF oil line + catalysts, VX-ORC-04, MAINTENANCE 2026-09-28.
+1. **Boot:** HEAD 2 ahead of origin (others' commits). The tree carried other desks' dirty work, so no pull. Corrections rc=1 → **COR-20260904-02 receipted NO-OP** (WQ-399 form; artifact KB-ORC-075) → rc=0. Kalshi rc=0.
+2. **Pulls** 14:26Z: PM rc=0, Kalshi 14/14, spread row +73.0pp, Kalshi Fed Oct/Dec event drill-ins.
+3. **WQ-314 (b) delivered:** `analysis/2026-10-09_wq314b-v5-observation-and-reset-rules.md`: observation rule O1–O8, resets R1–R4, the resolution record, the November roll. ICE LTDs were re-verified at ice.com (Nov26 10/19 · Dec26 11/19 · Jan27 12/18). VX-ORC-04 cells + KB-ORC-102. **Levels unchanged and NOT encoded.**
+4. **Inbox drain 7/7 logged** (board_log +7): 6 consumed → processed. **1 DEFERRED, left in the inbox:** DAEDALUS wiring ⑰ (VX row→command map, ORC-07 window, ORC-08 venue; items 2 and 3 change what fires).
+5. L546: `kalshi.py` rounding fix + `scripts/test_mid_flag_edge.py` 7/7. WQ-305: charter quarterly re-check. WQ-399: charter receipt line. LIQUID reply packet (late: its 9/30 ask). KB-ORC-103 (Fed).
+6. STATUS partial (alerts 2 and 5 only; the rest is 9/27–9/28 and labelled), NEXUS_BRIEF floor + Fed and oil bullets, MAINTENANCE 2026-10-09.
 
 ## NEXT SESSION (dated, priority-flagged)
+
+**10/9 adds (highest first):**
+- **🔴 Oct $110 reads on separate business days.** Under the proposed rule today is run=1. The **2026-10-15T00:00Z Active-Month switch resets the run.** Without near-daily pulls the bands never arm (cadence caveat named to PROME).
+- **🔴 ~10/25–10/31: pin the November $110 leg** (expected to list ~10/25T04:0xZ). Do it in ONE edit: pin, REGIME `v5-nov26-icewti110` (only if strike, venue and rule are unchanged, else put it to Will), relabel the Oct pin to drop `war premium`, MAINTENANCE. Read the November resolution text first.
+- **🟠 If Will approves WQ-314 (b): encode it in VX-ORC-04** and decide whether a run counter is built (`tools/`), test first.
+- **🟠 DAEDALUS wiring ⑰ packet (deferred 10/9, still in inbox):** row→command map; ORC-07 window; ORC-08 venue. Items 2 and 3 change what fires, so they go to Will via PROME.
+- **🟠 Roll the resolved pins `pull` flagged 10/9:** Sept 10Y/30Y, Hormuz Sept ladders (weekly, avg-transits, any-day), Sept $110 (resolution record), Hormuz on-date stale. Kalshi Sept U3 + Brent Sep-30 are finalized.
+- **🟠 Sat 10/10: Sept CPI T-4 re-read** (Kalshi `>3.6%` 39.0 @ 10/9; prints 10/14).
+- **🟡 2026-12-15: Kalshi gap-fill quarterly re-check** (KXCREDEFMAX · KXCCDELINQ · KXCCCHGOFF · KXFEDFACILITY; WQ-305).
+- 🟡 Coverage sweep is OVERDUE (last ~9/22; due ~10/01) + `history --write` + `movers`.
+
+**Carried from 9/28 (not re-worked 10/9):**
 
 0. ✅ **DONE 9/28: DOCKET L299** (see WHAT I DID 3). **Owed next:** re-read the Oct $110 leg on 3 separate days before any mark (thin), and watch the **10/14 20:00 ET** Active-Month step. Superseded text follows: Market exists: `will-wti-reach-110-in-october-2026` (24.5% @9/27, $9.1K event, **thin**). ⚠️ **Pinning it auto-rolls the supply leg** (`SUPPLY_PREFIX` match in `tools/disruption_supply_spread.py`) **without a REGIME bump**. So in ONE edit: pin + bump `REGIME` (v4 precedent: every month roll bumped it; a fresh month-start contract is structurally higher) + a MAINTENANCE entry. Verify the Active-Month switch (~10/16; CLX26 last trade 10/20) at the contract. The thin October book affects the spread's quality; state it on the first row.
 1. **🔴 ~Tue 9/29: Iran deadline.** Re-read the ceasefire / blockade-end / next-meeting ladders with `event` (the dashboard top leg is wrong for all three). The 9/30 legs resolve Wed.
@@ -35,7 +49,7 @@
 
 ## CARRY-FORWARD
 
-- **Push state (9/28):** see the 9/28 commit + safe-push receipt in PROME/inbox/2026-09-28_from-ORACLE memo. **Prior:** `db4c7a588`, `0ccb6c527`, `c1d4b4a98`, `d59ecb124` PUSHED. safe-push CONFIRMED HEAD `d59ecb124` on origin/master 2026-09-27 ~12:4x ET. The completion-pass commit is pushed next; its receipt is in the reply to Will.
+- **Push state (10/9):** this session's commit shas + the safe-push receipt are in `PROME/inbox/2026-10-09_from-ORACLE_wq314b-observation-reset-rules.md` and the SendMessage to prome-75. (9/28 commits were pushed per the 9/28 memo.)
 - **Concurrent sessions live on this box** (PROME `prome-09`, REGINALD, CREED, WALTER). Path-scoped commits only.
 - **Standing framing (do not re-derive):**
   - Fed hiked 25bp to 3.75–4.00% on 2026-09-16 (KB-ORC-083). Venue-vs-futures only in expected bp at a matched time (KB-ORC-100).

@@ -194,10 +194,15 @@ def fmt_row(label, m, tier=""):
     # (bid 0 / ask 100), so "mid" is a meaningless 50.0. Flagging dead rows would train
     # readers to ignore the marker on the live ones it exists for. Suppressed on a
     # degenerate/absent book (spread >= 99c) and on any non-active status.
-    _book_ok = sp is not None and 0.03 <= sp < 0.99
+    # L546 float-tie fix (DAEDALUS packet 2026-10-08): prices are whole/half cents, so
+    # 0.29-0.28 = 0.009999999999999981 fell UNDER the 0.01 edge and hid the marker on
+    # 18 of 98 exact one-cent gaps. Round to 4 dp (finer than the half-cent grid)
+    # BEFORE every edge comparison; an exact one-cent gap now flags, per the letter (>=).
+    _sp = round(sp, 4) if sp is not None else None
+    _book_ok = _sp is not None and 0.03 <= _sp < 0.99
     _live = (st is None or st == "active")
     if (_book_ok and _live and mid is not None and yes is not None
-            and abs(yes - mid) >= 0.01):
+            and round(abs(yes - mid), 4) >= 0.01):
         spread += f" ⚠mid {mid*100:.1f}"
     dp = m.get("d_prev")
     dprev = f"{dp:+5.1f}" if dp is not None else "  —  "

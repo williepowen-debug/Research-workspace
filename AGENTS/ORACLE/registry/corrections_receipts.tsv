@@ -1,3 +1,4 @@
 receipt_date	correction_id	action	note
 2026-09-28T13:50Z	COR-20260927-05	NO-OP	
 2026-09-28T13:50Z	COR-20260927-06	NO-OP	
+2026-10-09T14:29Z	COR-20260904-02	NO-OP	scope=ORACLE never carried the sign-inverted 50bp-cut / CME 74.5% line as its own figure - its only mention is KB-ORC-075, the 9/4 instrument read that REFUTED it (PM/Kalshi any-cut ~0.6%) - grep of STATUS, NEXUS_BRIEF, SCRATCH, TRADE on 2026-10-09 found 0 hits; artifact=AGENTS/ORACLE/workbook/KB.tsv#KB-ORC-075; drained in prome-75 L0 wake 2026-10-09
