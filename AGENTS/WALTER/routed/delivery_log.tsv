@@ -3964,3 +3964,7 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-10-09T14:31:51Z	SIG-W-20261009-008	BRENT	ACTION	UNKNOWN	PRIORITY	AGENTS/BRENT/inbox/WALTER/SIG-W-20261009-008.md	delivered	Create-only; Will ruling on #6/#8; owner integration unverified
 2026-10-09T14:31:51Z	SIG-W-20261009-008	HENRY	INFO	UNKNOWN	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20261009-008.md	delivered	Create-only; Will ruling on #6/#8; owner integration unverified
 2026-10-09T14:31:51Z	SIG-W-20261009-008	REGINALD	INFO	UNKNOWN	PRIORITY	AGENTS/REGINALD/inbox/WALTER/SIG-W-20261009-008.md	delivered	Create-only; Will ruling on #6/#8; owner integration unverified
+2026-10-09T15:01:38Z	SIG-W-20261009-009	VULCAN	ACTION	UNKNOWN	PRIORITY	AGENTS/VULCAN/inbox/WALTER/SIG-W-20261009-009.md	written_not_delivered_pending_push	Create-only; Firmus IPO withdrawal; owner integration unverified
+2026-10-09T15:01:38Z	SIG-W-20261009-009	BROCK	INFO	UNKNOWN	PRIORITY	AGENTS/BROCK/inbox/WALTER/SIG-W-20261009-009.md	written_not_delivered_pending_push	Create-only; Firmus IPO withdrawal; owner integration unverified
+2026-10-09T15:01:38Z	SIG-W-20261009-009	LIQUID	INFO	UNKNOWN	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20261009-009.md	written_not_delivered_pending_push	Create-only; Firmus IPO withdrawal; owner integration unverified
+2026-10-09T15:01:38Z	SIG-W-20261009-009	HENRY	INFO	UNKNOWN	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20261009-009.md	written_not_delivered_pending_push	Create-only; Firmus IPO withdrawal; owner integration unverified
