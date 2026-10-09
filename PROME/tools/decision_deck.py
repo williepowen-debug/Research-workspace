@@ -183,7 +183,13 @@ _UNIT_PREFIX_RE = re.compile(r"^([A-Za-z][A-Za-z0-9_-]{0,15}):\s+(?=\S)")
 
 
 def _norm(s: str) -> str:
-    return re.sub(r"\s+", " ", strip_md(s or "")).strip()
+    """Comparison form: struck text (~~…~~) is ABSENT (a withdrawn card figure never ships as live text — episode 2 E3),
+    then markdown stripped, whitespace collapsed."""
+    s = re.sub(r"~~.*?~~", "", s or "", flags=re.S)
+    return re.sub(r"\s+", " ", strip_md(s)).strip()
+
+
+_MD_MARKER_RE = re.compile(r"\*\*|~~|`")
 
 
 def parse_options(cell: str, wq: str = "?") -> list[dict]:
@@ -210,12 +216,21 @@ def parse_options(cell: str, wq: str = "?") -> list[dict]:
             # must store that meaning — so a multi-unit PLAIN block REQUIRES both meanings.
             parts = [x.strip() for x in raw.strip().split("::")]
             reason, meanings = "", {}
+            tag = f"WQ-{wq}" + (f".{unit}" if unit else "")
             for x in parts[1:]:
-                m2 = re.match(r"^(APPROVE|DECLINE)=(.+)$", x, re.S)
+                m2 = re.match(r"^(APPROVE|DECLINE)=(.*)$", x, re.S)
                 if m2:
+                    if m2.group(1) in meanings:
+                        raise ValueError(f"{tag}: duplicate {m2.group(1)}= meaning on a PLAIN unit")
+                    if not m2.group(2).strip():
+                        raise ValueError(f"{tag}: empty {m2.group(1)}= meaning on a PLAIN unit")
                     meanings[m2.group(1)] = m2.group(2).strip()
-                elif not reason:
+                elif not reason and not meanings:
                     reason = x
+                else:
+                    raise ValueError(f"{tag}: unexpected '::' part '{x[:40]}' on a PLAIN unit (only reason :: APPROVE=… :: DECLINE=…; a '::' inside a meaning is not allowed)")
+            if meanings and not ({"APPROVE", "DECLINE"} <= set(meanings)):
+                raise ValueError(f"{tag}: a PLAIN unit with meanings must state BOTH APPROVE= and DECLINE=")
             units.append({"unit": unit, "options": [], "plain": True, "reason": reason or "options withheld by PROME",
                           "meanings": meanings})
             continue
@@ -233,6 +248,8 @@ def parse_options(cell: str, wq: str = "?") -> list[dict]:
             text, cons = text.strip(), cons.strip()
             if not text:
                 raise ValueError(f"WQ-{wq}: option {label} has no text")
+            if _MD_MARKER_RE.search(text) or _MD_MARKER_RE.search(_PROME_BRACKET_RE.sub("", cons, count=1)):
+                raise ValueError(f"WQ-{wq}: option {label} carries markdown markers (** ~~ `) — the sidecar holds plain text copied after markdown-strip")
             opts.append({"label": label, "text": text, "consequence": cons})
         labels = [o["label"] for o in opts]
         if not opts:
@@ -311,13 +328,15 @@ def offered_options(path: str, section: str) -> list[dict] | None:
     return out or None
 
 
-_PROME_BRACKET_RE = re.compile(r"\s*\[PROME:[^\]]*\]")
+_PROME_BRACKET_RE = re.compile(r"\s*\[PROME:[^\]]*\]\s*$")
 PLAIN_UNIT = "PLAIN"
 
 
 def consequence_source(consequence: str) -> str:
-    """The consequence with every marked PROME annotation ("[PROME: …]") removed — what must be verbatim from the card."""
-    return _norm(_PROME_BRACKET_RE.sub("", consequence or ""))
+    """The consequence with ONE trailing marked PROME annotation ("[PROME: …]" at the END) removed — what must be
+    verbatim from the card. A bracket anywhere else is not an annotation: it stays in the text and fails equality
+    (episode 2 E2), so PROME's words can never sit inside the owner's sentence."""
+    return _norm(_PROME_BRACKET_RE.sub("", consequence or "", count=1))
 
 
 def validate_options(wq: str, units: list[dict], sources: dict) -> tuple[list[dict], list[str]]:
@@ -340,13 +359,16 @@ def validate_options(wq: str, units: list[dict], sources: dict) -> tuple[list[di
             keep.append(plain(u, u.get("reason") or "options withheld by PROME"))
             continue
         src = sources.get(key) if key in sources else (sources.get(None) if len(units) == 1 else None)
-        if not src:
-            warns.append(f"{tag}: no options_source — options NOT rendered (plain controls)")
-            keep.append(plain(u, "no options_source registered")); continue
-        offered = offered_options(*src)
+        offered = offered_options(*src) if src else None
         if offered is None:
-            warns.append(f"{tag}: options_source {src[0]}#{src[1]} unreadable (file, section or label-shaped rows missing) — options NOT rendered (plain controls)")
-            keep.append(plain(u, f"owner card {src[0]} §{src[1]} unreadable at build")); continue
+            why = "no options_source registered" if not src else f"options_source {src[0]}#{src[1]} unreadable (file, section or label-shaped rows missing)"
+            if len(units) > 1:
+                # episode 2 E1 (read 3 ❌X3): a bare-verb fallback on a multi-decision row would show Will buttons with
+                # no stated meaning and store choice.text "" — refuse instead; declare the unit PLAIN with meanings to ship it.
+                raise SystemExit(f"DECK REFUSED TO BUILD: {tag} {why} — on a multi-decision row a unit never falls back to bare verbs; "
+                                 f"declare it 'UNIT: PLAIN :: reason :: APPROVE=… :: DECLINE=…' or fix the source")
+            warns.append(f"{tag}: {why} — options NOT rendered (plain card)")
+            keep.append(plain(u, why)); continue
         off = {o["label"]: o["text"] for o in offered}
         cells = {o["label"]: o["cells"] for o in offered}
         deck = {o["label"]: o["text"] for o in u["options"]}
@@ -668,8 +690,8 @@ def render_owed(rows: list[dict], expl: dict, today: dt.date, warnings: list[str
         units, warns = ([], []) if r["blocked"] or r.get("answered") else options_for(e, r["n"])
         if warnings is not None:
             warnings.extend(warns)
-        if len(units) == 1 and units[0].get("plain"):
-            units = []                                   # a single declared-but-plain unit IS today's plain card (AC5)
+        if len(units) == 1 and units[0].get("plain") and not units[0].get("meanings"):
+            units = []                                   # a single declared-but-plain unit without meanings IS today's plain card (AC5)
         if e and units:
             block = (
                 '<dl class="expl">'
@@ -704,6 +726,8 @@ def render_owed(rows: list[dict], expl: dict, today: dt.date, warnings: list[str
         )
         if units:
             ctl = "".join(render_unit(r["n"], u, len(units) > 1) for u in units)
+            if len(units) > 1:
+                ctl = f'<div class="tapstate rowstate" id="rowstate-{r["n"]}" hidden></div>' + ctl
         elif r.get("answered") and not r["blocked"]:
             ctl = (
                 f'<div class="tap" data-wq="{r["n"]}">'
@@ -879,6 +903,7 @@ details.raw code,.expl code,.key code{font:12.5px/1.4 "IBM Plex Mono",monospace;
 .opt.chosen .btn.choice{background:var(--accent);color:var(--accent-ink)}
 .opt .olbl{font-weight:600;margin:0}.opt .cons{margin:2px 0 0;color:var(--muted);font-size:14px}.opt .cons b{color:var(--ink);font-weight:600}
 .card.ruled-choice{background:var(--tint-ok);border-color:var(--tint-ok-line)}.card.ruled-choice .tapstate{color:var(--ok)}
+.tapstate.rowstate{border:1px dashed var(--line);background:transparent;margin-top:12px}
 .empty{color:var(--muted)}
 .key h2{font:600 19px/1.25 "Fraunces",Georgia,serif;margin:18px 0 8px}
 .key p{max-width:68ch}
@@ -937,12 +962,20 @@ RULING_JS = r"""
   // (`.tap.unit`, data-did = "<wq>.<UNIT>"); state is keyed by decision id, the tint by the card.
   function wrapOf(did){ return document.getElementById('tap-'+did); }
   function cardOf(did, wrap){ var c = wrap && wrap.closest ? wrap.closest('.card') : null; return c || document.getElementById('wq-'+String(did).split('.')[0]); }
-  function setState(did, cls, text, verdict, label){
+  var TINT_TS = {};
+  function setState(did, cls, text, verdict, label, ts){
     var wrap = wrapOf(did); var card = cardOf(did, wrap); if(!card) return;
-    var st = (wrap && wrap.querySelector && wrap.querySelector('.tapstate')) || card.querySelector('.tapstate'); if(!st) return;
-    st.className = 'tapstate ' + cls; st.textContent = text; st.hidden = false;
-    card.classList.remove('ruled-approve','ruled-decline','ruled-later','ruled-choice');
-    if (cls === 'sent' && verdict) card.classList.add('ruled-' + String(verdict).toLowerCase());
+    // episode 2 E6: a document with NO unit on a multi-unit card goes to the card-level line, never into a unit
+    var rowline = document.getElementById('rowstate-' + String(did).split('.')[0]);
+    var st = (wrap && wrap.querySelector && wrap.querySelector('.tapstate')) || rowline || card.querySelector('.tapstate'); if(!st) return;
+    st.className = 'tapstate ' + cls + (st === rowline ? ' rowstate' : ''); st.textContent = (st === rowline ? 'Whole-row tap (no unit): ' : '') + text; st.hidden = false;
+    // the card tint follows the LATEST document by ts among the card's units and row, not iteration order
+    var ck = card.id || String(did); var t = ts || '';
+    if (cls === 'sent' && verdict && t >= (TINT_TS[ck] || '')) {
+      TINT_TS[ck] = t;
+      card.classList.remove('ruled-approve','ruled-decline','ruled-later','ruled-choice');
+      card.classList.add('ruled-' + String(verdict).toLowerCase());
+    } else if (cls === 'err') { card.classList.remove('ruled-approve','ruled-decline','ruled-later','ruled-choice'); }
     if (wrap && wrap.querySelectorAll) { var opts = wrap.querySelectorAll('.opt'); for (var i = 0; i < opts.length; i++) { opts[i].classList.toggle('chosen', !!label && opts[i].dataset.label === label); } }
   }
   function fmt(iso){ try{ return new Date(iso).toLocaleString(undefined,{month:'numeric',day:'numeric',hour:'numeric',minute:'2-digit'}); }catch(e){ return iso; } }
@@ -961,8 +994,8 @@ RULING_JS = r"""
         var x = latest[k];
         var when = x.ts ? fmt(x.ts) : '';
         var lab = x.choice && x.choice.label;
-        if (x.consumed) setState(k, 'sent', 'Ruled by tap ' + when + ': ' + describe(x) + (x.note ? ' — ' + x.note : '') + ' · picked up by PROME', x.verdict, lab);
-        else setState(k, 'sent', 'Tapped ' + when + ': ' + describe(x) + (x.note ? ' — ' + x.note : '') + ' · awaiting PROME pickup', x.verdict, lab);
+        if (x.consumed) setState(k, 'sent', 'Ruled by tap ' + when + ': ' + describe(x) + (x.note ? ' — ' + x.note : '') + ' · picked up by PROME', x.verdict, lab, x.ts);
+        else setState(k, 'sent', 'Tapped ' + when + ': ' + describe(x) + (x.note ? ' — ' + x.note : '') + ' · awaiting PROME pickup', x.verdict, lab, x.ts);
       });
     }, function(e){ storeLine.textContent = 'Ruling store error: ' + (e && e.code ? e.code : 'unknown'); });
     buttons.forEach(function(b){
@@ -1000,8 +1033,8 @@ RULING_JS = r"""
         }
         var shown = describe(doc);
         col.doc(id).set(doc)
-          .then(function(){ toast('Recorded: WQ-' + did + ' ' + shown); setState(did, 'sent', 'Tapped ' + fmt(ts) + ': ' + shown + (note ? ' — ' + note.trim() : '') + ' · awaiting PROME pickup · the LATEST tap rules', verdict, label); for (var i2 = 0; i2 < sibs.length; i2++) { sibs[i2].disabled = false; } })
-          .catch(function(e){ for (var i3 = 0; i3 < sibs.length; i3++) { sibs[i3].disabled = false; } var c = (e && e.code) || 'error'; setState(did, 'err', 'Not recorded (' + c + '). Rule by message instead.', null, null); toast('Not recorded: ' + c); });
+          .then(function(){ toast('Recorded: WQ-' + did + ' ' + shown); setState(did, 'sent', 'Tapped ' + fmt(ts) + ': ' + shown + (note ? ' — ' + note.trim() : '') + ' · awaiting PROME pickup · the LATEST tap rules', verdict, label, ts); for (var i2 = 0; i2 < sibs.length; i2++) { sibs[i2].disabled = false; } })
+          .catch(function(e){ for (var i3 = 0; i3 < sibs.length; i3++) { sibs[i3].disabled = false; } var c = (e && e.code) || 'error'; setState(did, 'err', 'Not recorded (' + c + '). Rule by message instead.', null, null, ts); toast('Not recorded: ' + c); });
       });
     });
   }).catch(function(){ storeLine.textContent = 'Tap-to-rule unavailable in this view. Reading only.'; });
@@ -1199,8 +1232,10 @@ def selftest() -> int:
             plain_rows.append(r["n"])
     chk("options rows validate against their owner artifacts (label-for-label, text prefix)", not opt_fail, " · ".join(opt_fail)[:300] or f"{len(opt_rows)} row(s): {opt_rows}")
     chk("options rows render (no unit dropped by an unreadable source)", not opt_warn, " · ".join(opt_warn)[:300] or "none dropped")
-    if ncol == 10:
-        chk("≥1 options row AND ≥1 plain row in the live OPEN set (AC8)", bool(opt_rows) and bool(plain_rows), f"options {opt_rows} · plain {len(plain_rows)}")
+    if ncol == 10 and opt_rows:
+        chk("≥1 options row AND ≥1 plain row in the live OPEN set (AC8)", bool(plain_rows), f"options {opt_rows} · plain {len(plain_rows)}")
+    elif ncol == 10:
+        chk("options WITHHELD on every row (10-column sidecar, no options cell filled) — the page renders plain cards", True, f"plain {len(plain_rows)}")
     chk("md() escapes HTML before styling", md("<b>x</b> **y**") == "&lt;b&gt;x&lt;/b&gt; <strong>y</strong>")
     print("SELFTEST", "PASS" if rc == 0 else "FAIL")
     return rc

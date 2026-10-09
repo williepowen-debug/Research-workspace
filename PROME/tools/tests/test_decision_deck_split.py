@@ -160,7 +160,7 @@ class DeckSplit(unittest.TestCase):
         repo = Path(__file__).resolve().parents[3]
         src = subprocess.run(['git', '-C', str(repo), 'show', f'{self.PARENT}:PROME/tools/decision_deck.py'], capture_output=True, text=True)
         if src.returncode != 0:
-            self.skipTest('parent generator not available from git history')
+            self.fail('parent generator not available from git history — AC1 cannot be verified here (episode 2 E7: fail, never skip)')
         mod_path = self.root / 'parent_decision_deck.py'; mod_path.write_text(src.stdout)
         spec = importlib.util.spec_from_file_location('parent_decision_deck', mod_path)
         P = importlib.util.module_from_spec(spec); spec.loader.exec_module(P)
@@ -223,11 +223,16 @@ class DeckSplit(unittest.TestCase):
                 self.assertEqual(len(r['options_warnings']), 1); self.assertIn('WQ-1', r['options_warnings'][0])
 
     def test_ac4_ac6_partial_drop_in_a_two_unit_row_keeps_both_decision_ids(self):
-        # read 1 ❌4: one unit's source unreadable ⇒ that unit renders PLAIN controls under ITS OWN id; the other keeps its options
+        # read 1 ❌4 (a dropped unit re-keyed the survivor to the whole row) — episode 2 E1 supersedes the bare-verb fallback:
+        # an unreadable unit on a multi-decision row REFUSES the build; a DECLARED plain unit keeps its own id beside the other
         self._expl10('TLT: A = Sell it now :: ≈ $100 || B = Hold to 10/14 :: nothing ;; HBAN: R-A = permit a sale :: $90 || R-B = ride, close 10/16 :: spirit',
                      'TLT=cards/moved.md#3 ;; HBAN=cards/h.md#3')
+        with self.assertRaises(SystemExit):
+            self.build()
+        self._expl10('TLT: PLAIN :: card moved :: APPROVE=sell :: DECLINE=hold ;; HBAN: R-A = permit a sale :: $90 || R-B = ride, close 10/16 :: spirit',
+                     'HBAN=cards/h.md#3')
         r, owed, _ = self.build()
-        self.assertEqual(len(r['options_warnings']), 1); self.assertIn('WQ-1.TLT', r['options_warnings'][0])
+        self.assertEqual(r['options_warnings'], [])
         for frag in ('id="tap-1.TLT" data-wq="1" data-did="1.TLT"', 'id="ap-1.TLT"', 'id="dc-1.TLT"', 'id="lt-1.TLT"', 'id="note-1.TLT"',
                      'id="tap-1.HBAN" data-wq="1" data-did="1.HBAN"', 'id="ch-1.HBAN-R-A"', '<span class="did">1.TLT</span>'):
             self.assertIn(frag, owed)
@@ -282,6 +287,70 @@ class DeckSplit(unittest.TestCase):
         self.assertEqual(D.offered_options('cards/h.md', '3'), [{'label': 'R-A', 'text': 'permit a sale', 'cells': '$90'}, {'label': 'R-B', 'text': 'ride, close 10/16', 'cells': 'spirit'}])
         self.assertIsNone(D.offered_options('cards/x.md', '2'))
         self.assertIsNone(D.offered_options('cards/x.md', '4'))
+
+    # ---- Episode 2 (DOCKET L662): ACCEPTANCE_deck_options_episode2_2026-10-09.md ----
+    def test_e1_unreadable_unit_on_a_multi_decision_row_refuses_the_build(self):
+        self._expl10('TLT: A = Sell it now :: ≈ $100 || B = Hold to 10/14 :: nothing ;; HBAN: R-A = permit a sale :: $90 || R-B = ride, close 10/16 :: spirit',
+                     'TLT=cards/moved.md#3 ;; HBAN=cards/h.md#3')
+        with self.assertRaises(SystemExit) as cm:
+            self.build()
+        self.assertIn('WQ-1.TLT', str(cm.exception)); self.assertIn('never falls back', str(cm.exception)); self.assertFalse(self.out.exists())
+        # a single-decision row keeps AC5: plain card + warning
+        self._expl10('A = Sell it now :: ≈ $100 || B = Hold to 10/14 :: nothing', 'cards/moved.md#3')
+        r, owed, _ = self.build()
+        self.assertIn('<div class="tap" data-wq="1">', owed); self.assertEqual(len(r['options_warnings']), 1)
+
+    def test_e2_prome_bracket_only_at_the_end(self):
+        self._expl10('A = Sell it now :: ≈ $100 [PROME: marks 9/26] || B = Hold to 10/14 :: nothing', 'cards/x.md#3')
+        self.build()
+        for bad in ('≈ [PROME: not] $100', '[PROME: x] ≈ $100', '≈ $100 [PROME: a] [PROME: b]'):
+            with self.subTest(consequence=bad):
+                self._expl10(f'A = Sell it now :: {bad} || B = Hold to 10/14 :: nothing', 'cards/x.md#3')
+                with self.assertRaises(SystemExit):
+                    self.build()
+
+    def test_e3_struck_card_text_is_absent_and_markers_refuse(self):
+        self._expl10()
+        (self.root / 'cards' / 'x.md').write_text(self.CARD.replace('| **A** | **Sell it now** (§4) | ≈ $100 |', '| **A** | **Sell it now** (§4) | ~~≈ $600~~ ≈ $100 |'))
+        struck = self.CARD.replace('| **A** | **Sell it now** (§4) | ≈ $100 |', '| **A** | **Sell it now** (§4) | ~~≈ $600~~ ≈ $100 |')
+        self._expl10('A = Sell it now :: ≈ $100 || B = Hold to 10/14 :: nothing', 'cards/x.md#3'); (self.root / 'cards' / 'x.md').write_text(struck)
+        self.build()                                                                   # struck text absent on both sides
+        self._expl10('A = Sell it now :: ≈ $600 ≈ $100 || B = Hold to 10/14 :: nothing', 'cards/x.md#3'); (self.root / 'cards' / 'x.md').write_text(struck)
+        with self.assertRaises(SystemExit):
+            self.build()                                                               # reproducing the withdrawn figure refuses
+        for cell in ('A = **Sell it now** :: ≈ $100', 'A = Sell it now :: ~~≈ $600~~ ≈ $100', 'A = `Sell it now` :: ≈ $100'):
+            with self.subTest(cell=cell):
+                self._expl10(f'{cell} || B = Hold to 10/14 :: nothing', 'cards/x.md#3')
+                with self.assertRaises(ValueError):
+                    self.build()
+
+    def test_e4_plain_syntax_errors_raise(self):
+        for options in ('TLT: PLAIN :: why :: APPROVE=a :: APPROVE=b :: DECLINE=c',       # duplicate
+                        'TLT: PLAIN :: why :: APPROVE=a :: DECLINE=c :: extra',           # stray part
+                        'TLT: PLAIN :: why :: APPROVE=sell :: now :: DECLINE=c',          # :: inside a meaning
+                        'TLT: PLAIN :: why :: APPROVE= :: DECLINE=c',                    # empty meaning
+                        'TLT: PLAIN :: why :: APPROVE=a'):                               # one of two
+            with self.subTest(options=options):
+                self._expl10(options + ' ;; HBAN: R-A = permit a sale :: $90 || R-B = ride, close 10/16 :: spirit', 'HBAN=cards/h.md#3')
+                with self.assertRaises(ValueError):
+                    self.build()
+
+    def test_e5_single_row_plain_with_meanings_renders_a_unit_and_stores_the_letter(self):
+        self._expl10('PLAIN :: buttons held :: APPROVE=A — exit both at the live clock :: DECLINE=C — hold', '')
+        r, owed, _ = self.build()
+        for frag in ('id="tap-1" data-wq="1" data-did="1"', '<span class="otext" data-for="APPROVE">A — exit both at the live clock</span>',
+                     '<span class="otext" data-for="DECLINE">C — hold</span>', 'id="ap-1"', 'id="dc-1"', 'id="lt-1"'):
+            self.assertIn(frag, owed)
+        self.assertEqual(r['options_warnings'], [])
+        self._expl10('PLAIN :: buttons held', '')                                      # no meanings ⇒ today's plain card
+        r, owed, _ = self.build()
+        self.assertIn('<div class="tap" data-wq="1">', owed); self.assertNotIn('class="tap unit"', owed)
+
+    def test_e6_multi_unit_card_has_a_row_level_state_line(self):
+        self._expl10('TLT: PLAIN :: held :: APPROVE=sell :: DECLINE=hold ;; HBAN: R-A = permit a sale :: $90 || R-B = ride, close 10/16 :: spirit', 'HBAN=cards/h.md#3')
+        _, owed, _ = self.build()
+        self.assertIn('<div class="tapstate rowstate" id="rowstate-1" hidden></div>', owed)
+        self.assertEqual(owed.count('id="rowstate-1"'), 1)
 
 
 if __name__ == '__main__':

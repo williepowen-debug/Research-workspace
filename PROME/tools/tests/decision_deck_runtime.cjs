@@ -116,5 +116,17 @@ async function unitTapTest() {
   assert.deepEqual(JSON.parse(JSON.stringify(writes[0].payload.choice)),{label:'APPROVE',text:'sell it (card A)',consequence:''});
   assert.equal(writes[0].payload.decision_id,'2.HBAN'); assert.deepEqual(JSON.parse(JSON.stringify(writes[0].payload.options_shown)),[]);
   assert.match(state.textContent,/APPROVE — sell it \(card A\)/);
+  // episode 2 E6: a whole-row document (no decision_id) on a multi-unit card lands on the ROW line, never in a unit;
+  // the card tint follows the latest ts across units and row
+  const rowline=element('rowstate-2'); rowline.classList.add('tapstate','rowstate');
+  ctx.document.getElementById=id=>({'store':store,'toast':toast,'wq-2':card,'tap-2.TLT':wrap,'note-2.TLT':note,'tap-2.HBAN':wrapP,'note-2.HBAN':{value:''},'rowstate-2':rowline}[id]);
+  let snap2; const db2={collection(){return {onSnapshot(fn){snap2=fn;},doc(id){return {set(p){return Promise.resolve();}}}};}};
+  ctx.window={claude:{use(){return Promise.resolve(db2);}}};
+  vm.runInNewContext(source.rulings,ctx); await new Promise(setImmediate);
+  snap2({docs:[{data:()=>({wq:'2',verdict:'APPROVE',ts:'2026-10-01T00:00:00Z',consumed:true})},
+               {data:()=>({wq:'2',decision_id:'2.TLT',verdict:'CHOICE',choice:{label:'B',text:'Hold'},ts:'2026-10-09T17:00:00Z'})}]});
+  assert.match(rowline.textContent,/Whole-row tap \(no unit\): Ruled by tap .*APPROVE/);
+  assert.equal(rowline.hidden,false);
+  assert(card.classList.contains('ruled-choice')); assert(!card.classList.contains('ruled-approve'));   // latest ts wins
 }
 rulingTest().then(unitTapTest).then(()=>console.log('UI, ruling and unit-tap runtime fixtures passed')).catch(e=>{console.error(e);process.exitCode=1;});
