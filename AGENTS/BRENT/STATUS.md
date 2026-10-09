@@ -19,6 +19,8 @@
 
 **⛔ SELF-CORRECTION: Dated Brent >$120 is a REAL breach, not a feed anomaly.** SCRATCH 10/8 called `DCOILBRENTEU` 125.44 "anomalous … not a real breach". That was wrong. [CONF EIA RBRTE at the EIA API 10:3x ET; FRED republishes it, same lineage] Europe Brent spot FOB: **125.44 (10/6) · 125.51 (10/5) · 135.51 (10/2)**. It has been >$110 every print since 9/9 and >$120 on 9/10, 9/14–17, 9/24, 10/2, 10/5 and 10/6. ⇒ REGISTRY `FRED-DCOILBRENTEU-ABOVE-120` ("physical scarcity confirmed", stress) reads ABOVE its line on the 10/6 print; thresholds.py already shows it so; >$140 not reached. [INFERRED] There is a ~$25 premium of physical prompt cargoes over Dec futures (BZZ26 ~$100 on 10/6), consistent with the Forties >$140 relay. A premium is not proof of barrels lost (the row's own letter). Stand-down unchanged; no capital trigger.
 
+**China fuel exports RESUME (graded 10/9; CATALYSTS):** [CONF wire] Reuters Singapore 10/9 (posted 23:27 ET 10/8): October gasoline+diesel+jet exports approved at **~3.7 Mt** combined (unofficial; four traders + two participants; NDRC silent), vs Sep ~4 Mt expected / Aug 4.6 Mt actual ⇒ [EST] ≈0.94 vs ≈1.16 mb/d. Approval = paper, not shipments; sizing at GAC ~11/20. **SPR exchange (bids 10/6): awards still UNPUBLISHED** — row stays open.
+
 **NEXUS ask (L553, M-06 anchor):** ⛔ **official ICE 10/8 `BZZ26` settle: NO SETTLE SOURCE AVAILABLE TO BRENT.** Closest evidence, both NOT settles: 14:28–30 ET window VWAP $104.273 [EST single vendor, thin vol 706]; NBC "Brent closed ~$104.28" (contract unnamed). **USO** $147.67 (10:11 ET) = **$2.33 below the Oct-9 $150 strike**; call screening bid/ask $0.14/$0.15 (chain_fetch, not broker); TERRY's 15:00 ET rail, Will's hand.
 
 > **Rotated October9:** dated October8 (Hormuz-led jump; Isaias 25%→62.89% shut-in; settle-window crack $113.58; COT-35B Leg-B 4.909% re-reproduced) and October7 (WPSR wk-10/2; STEO) blocks → [archive](archive/STATUS_dated_2026-10-09_rotation.md), 6595 UTF-8 payload bytes, crc32 `ae600c46`; payload after first standalone separator, outer whitespace stripped. Isaias weekend 3-way fork stays at [REPORT §10](research/2026-10-08_isaias-hormuz/REPORT.md#10--isaias-transmission-channels-and-weekend-scenarios).
@@ -68,7 +70,7 @@
 | **~Mon Oct 5** ⌁*modeled* | ✅ ARAMCO NOVEMBER OSPs — GRADED 2026-10-04: Asia CUT to −$5; NW Europe/Mediterranean raised $3; US unchanged | 🟠 |
 | **Tue Oct 6** | ✅ EIA October STEO — GRADED 2026-10-07: release and same-series comparison MET | 🟠 |
 | **Tue Oct 6** | SPR EXCHANGE (up to 40M bbl, Big Hill + Bryan Mound) — BIDS CLOSE 11:00 CT; awards follow | 🟠 |
-| **~Thu Oct 8** ⌁*modeled* | CHINA PRODUCT-EXPORT HALT — Beijing guidance after Golden Week (holiday ends 10/7) | 🟠 |
+| **~Thu Oct 8** ⌁*modeled* | ✅ CHINA PRODUCT-EXPORT HALT — GRADED 2026-10-09: GUIDANCE MET (unofficial) — October exports APPROVED ~3.7 Mt gasoline+diesel+jet combined, below Sep ~4 Mt expected and Aug 4.6 Mt actual;… | 🟠 |
 | **~Sat Oct 10** ⌁*modeled* | HURRICANE ISAIAS — northern Gulf landfall (late Fri 10/9 – early Sat 10/10) and offshore/refinery restart read | 🟠 |
 | **~Sat Oct 10** ⌁*modeled* | 🟠 IRAN-OMAN PERMANENT-ROUTE WINDOW — 30-60d after 8/26 interim framework | 🟠 |
 | **Sat Oct 10** | DIESEL TAX RELIEF — five-day implementation directive from October5 order | 🟠 |
@@ -82,12 +84,13 @@
 | **Sun Nov 1** | 🟠 OPEC+ SEVEN-COUNTRY MONTHLY MEETING — the December 2026 production decision (successor to the 10/4 row) | 🟠 |
 | **Wed Nov 18** | WQ-386 HELD VLO — review next crack basis | 🟠 |
 | **Thu Nov 19** | WQ-386 HELD VLO — last authorized December leg-A observation | 🟠 |
+| **~Fri Nov 20** ⌁*modeled* | CHINA GAC OCTOBER PRODUCT EXPORTS — physical sizing of the October quota (successor to the 10/08 halt row) | 🟡 |
 | **Sun Nov 29** | OPEC+ 69th JMMC — monitoring committee (watch for an ONOMM call / 2027-baseline language) | 🟡 |
 | **Sun Jan 31 2027** | RUSSIA FUEL EXPORT BAN — full expiry (gasoline all-participants + non-producer diesel) | 🟡 |
 
-*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 7 of 21 rows are modeled.*
+*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 8 of 22 rows are modeled.*
 
-*21 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
+*22 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
 
 <!-- CALENDAR:END -->
 **✅ FIRED & GRADED history:** canonical text remains in `docket/CATALYSTS.tsv`; it is not duplicated here.
