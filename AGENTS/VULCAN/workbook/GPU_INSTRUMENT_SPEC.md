@@ -1,7 +1,7 @@
 # GPU-RENTAL PRICE INSTRUMENT — SPEC
 
 **Owner:** VULCAN (PROME coordination ruling, Tier 1, **2026-09-03**; WATT and DEWEY cc, nothing owed by them)
-**Status:** 🟢 **PANEL FROZEN 2026-09-13 — `GPU-PANEL-01` is SEALED (§9). CADENCE PRE-COMMITTED · ZERO ROWS WRITTEN — still deliberately: the freeze is NOT a reading, and 2026-09-13 is not a cadence date. First row is reading 2, **2026-09-18 post-close**.**
+**Status:** 🟢 **PANEL FROZEN 2026-09-13 — `GPU-PANEL-01` is SEALED (§9). CADENCE PRE-COMMITTED (10/09 → 11/27 registered 9/29).** ~~ZERO ROWS WRITTEN… first row is reading 2, 2026-09-18 post-close.~~ 🔴 **CORRECTED 2026-10-09: readings 1–3 were MISSED; the FIRST rows were written at reading 4, 2026-10-02 post-close (10 ledger rows). 🆕 `gpu_panel.py` V7 (10/09) refuses a hand price >7d old; its cadence is now read from the register (the hardcoded list ended 10/02).**
 **2026-09-11:** 🔴 **`GPU-PANEL-01` NOT FROZEN at the 9/11 deadline — READING 1 IS RECORDED AS MISSED** (see §4 addendum). ✅ **PROME's 9/6 AMENDMENT to ruling para. 3 is ENCODED — §3 below and the ruling now AGREE** (①a index LIVE, ①b futures 10/05; `term_normalized` + segment accepted into the registry vocabulary; PROME concurs; cc reached WATT/DEWEY as files) [KB-VULCAN-159].
 **Ledger:** `workbook/GPU_SERIES.tsv` (11th ledger; schema declared in `workbook/SCHEMA.tsv`, enforced by `scripts/validate_workbook.py` boot leg 7)
 **Register:** `docket/CATALYSTS.tsv` — readings ~~**2026-09-11 · 09-18 · 09-25**~~ (all MISSED) · **10-02** (now the FIRST row) · 🆕 **extension registered 2026-09-29: 10-09 · 10-16 · 10-23 · 10-30 · 11-06 · 11-13 · 11-20 · 11-27** · re-decide **2026-10-05** (rule pre-written in §7a)

@@ -1,4 +1,24 @@
-> # ⛔ 2026-10-08 (Thu) — READ THIS BLOCK FIRST. PROME-spawned Tier-1 wake (WQ-389 due-row wake, DOCKET L250; spawner `prome-fc`, laptop), boot 08:13 ET (`date`), pre-market. Task: L250 re-decide · weekly refresh · whole-inbox drain · arm Fri reading 5. **All four done.**
+> # ⛔ 2026-10-09 (Fri) — READ THIS BLOCK FIRST. Will-launched in-folder session, boot 10:11 ET → closeout ~11:15 ET (`date`), market open. Window CLOSED BEFORE 16:00 (Will: "We will reboot before 4 PM") ⇒ tonight's slots were NOT taken here.
+>
+> ## ONE LINE: **No score moved (14/25).** The 10/08 AI selloff was OpenAI revenue on a narrower counting basis, not lost sales [KB-206]; Apple's memory-cost iPhone order cut supports S2 at 2 [KB-205]; S5 structure n+2, no band [KB-207]; MU 10-K GM re-check CLEAN [KB-204]; WQ-341 Disc-A = incumbents flat ⇒ in-letter only.
+>
+> ## ▶ START HERE NEXT SESSION
+> 1. 🔴 **IF IT IS 10/09 16:00–20:00 ET: run the two ARMED slots NOW.** (a) `.venv/bin/python tools/mag7.py` = slot 5 (write even if DUPLICATE-VINTAGE). (b) GPU reading 5: copy `workbook/GPU_PANEL_INPUT_TEMPLATE.json`, re-read EVERY URL at the slot, set each `vintage` (and `read_on` for an undated page), then `python3 tools/gpu_panel.py --reading-date 2026-10-09 --input <file>` (dry) → `--write`. ⚠️ **NEW V7 refuses any hand price >7 days old — the unedited template is refused by design.** SDH100RT: the dated HEADER, never the FAQ $2.53. A partial run is a FAILED run. If the window is missed: mark both rows MISSED, never cure off-cadence [L-21]. Then sweep both rows to `archive/CATALYSTS_FIRED_2026-10.tsv` plus the DONE MU 10-K row.
+> 2. **By 10/14: re-cut `TRADE.md`** (says "every channel = 3"; S2 is 2; the 10/15 review reads it).
+> 3. **10/16 (slot 6) + DAEDALUS deferrals** (all listed with dates in STATUS ①d): `boot.py` corrections leg · S2_SERIES FROZEN-or-new-cadence decision · validator impossible-date + neighbour-scan ✓-after-TypeError (HAWK file). **By 11/08:** VULCAN-13 search venue + dated sweep.
+> 4. **Owed from the 10/09 flag sweep (Will asked for it; not executed):** archive the four 10/01-graded PREDICTIONS rows by ROW · THESIS (62.6 KB) and CHANNEL_DETAIL (120 KB) and LESSONS (61 KB) are over the 54,250 B physical read cap · CLAUDE.md is 82 KB auto-loaded (propose a slim to PROME/Will) · transport-gap test needs a date.
+> 5. **~10/28 hyperscaler cluster** = §4b flip + kill-rail rewrite + PROME falsifier + Meta 10-Q commitments footnote.
+>
+> ## WHAT THIS SESSION DID
+> - **Git:** did not pull (HANS/DAEDALUS/LIQUID/PROME uncommitted work); 6 local commits; **safe-push SKIPPED by me — PROME pushes (its offer, prome-75)**.
+> - **Inbox 10 → 0:** 8 WALTER in `board_log.tsv` with reasons; 2 DAEDALUS packets answered in STATUS ①d and filed. 6 correction receipts NO-OP (WQ-399 form), rc 0.
+> - **Tools:** `edgar_watch.py` 52/53-week FY (`fy_end_candidates`, widens when history cannot identify; 22/22) · `semi_watch.py` ET trade_date · `gpu_panel.py` V7 freshness + register-read cadence (the hardcoded list ended 10/02) — every new guard injection-falsified, then restored.
+> - **Register:** mag7 cadence renewed, slots 9–16 = 11/06…12/18 + 12/24 (12/25 NYSE holiday, pre-stated). EDGAR swept 10/09 (MU 10-K acc 0000723125-26-000023).
+> - **WQ-341:** `reports/2026-10-09_wq341-disruption-attribution.md` + PROME memo; PROME consumed (DOCKET L553 note); NEXUS integrates 10/13. ⚠️ Equity proxy; a lagged catch-up is NOT excluded; AI-infra 6/6 down 10/7 named not attributed.
+> - **Housekeeping:** 6 July outbox packets → `archive/outbox/` (Will-directed, >60d). Stale lines fixed: THESIS:64, EXIT_PROTOCOL freshness, GPU spec status, CLAUDE.md GPU row + step 8b receipt form, NEXUS_BRIEF VIOLET/HAWK rows. A full flag-only sweep (25 items) was reported to Will in-session; its owed items are carried above and in STATUS.
+> - ⚠️ My spawn prompt to the verification agent called 9/29 a Monday; it is a **Tuesday** — caught by the agent, not carried.
+
+> # 2026-10-08 (Thu) — *(superseded by the 2026-10-09 block above; kept as record)*. PROME-spawned Tier-1 wake (WQ-389 due-row wake, DOCKET L250; spawner `prome-fc`, laptop), boot 08:13 ET (`date`), pre-market. Task: L250 re-decide · weekly refresh · whole-inbox drain · arm Fri reading 5. **All four done.**
 >
 > ## ONE LINE: **L250 GRADED — compute futures are NOT trading on either exchange** (CFTC extended its review of CME's GPU1/GPU2 to **11/09**, primary letter 9/21; ICE: no listing date) ⇒ §7a **R-A**, as pre-stated: no primary, no GPU-PANEL-02, no threshold; **11/09 check row** registered. The CME rulebook settles on **"SD-H100 on-demand"**, US — a `spot` construction once it trades. **No score moved; 14/25.**
 >
@@ -15,7 +35,7 @@
 > - **Inbox 17 → 0:** 16 WALTER in `board_log.tsv` with reasons (6 acted · 5 noted · 5 info-only); TERRY's 10/02 ask CLOSED as overtaken by its L590 FINAL, with a **CORRECTION: CRWV IS in the Nasdaq-100 (since 6/22), ORCL is NOT** — my 10/02 pre-view had both backwards [KB-202, L-41]. Packets out: TERRY (correction) · WATT (L250 outcome) · PROME (memo).
 > - **READ-CAP:** STATUS 27,196 → under 70% (six long cells → `CHANNEL_DETAIL.md` §F verbatim); SCRATCH 9/25 + 9/13 blocks → `archive/SCRATCH_ARCHIVE_2026-09.md` verbatim.
 
-> # ⛔ 2026-10-02 (Fri) — READ THIS BLOCK FIRST. PROME-spawned Tier-2 session (DOCKET L564 FRIDAY POST-CLOSE SLOT, prome-96, above-cap under Will's in-session authorization), boot 16:01 ET (`date`), markets closed. Task: `mag7.py` slot 4 + GPU reading 4 + consume -012 + consume -024 + close out. **All five done; +3 lower-priority WALTER signals consumed; +1 PROME packet; +1 TERRY ACK/starter packet.**
+> # 2026-10-02 (Fri) — *(superseded by the 2026-10-09 block above; kept as record)*. PROME-spawned Tier-2 session (DOCKET L564 FRIDAY POST-CLOSE SLOT, prome-96, above-cap under Will's in-session authorization), boot 16:01 ET (`date`), markets closed. Task: `mag7.py` slot 4 + GPU reading 4 + consume -012 + consume -024 + close out. **All five done; +3 lower-priority WALTER signals consumed; +1 PROME packet; +1 TERRY ACK/starter packet.**
 >
 > ## ONE LINE: **Breadth 63d RSP−SPY went +3.70pp → −5.07pp in 30d — 8.77pp into the collapse neighbourhood, 2.4pp from the red band's leg. Mag-7 34.5445% (still 5.5pp from 40%), band stays YELLOW on the AND. Composite 14/25 HELD, no score moved.** GPU_SERIES first row written: indices BOTH UP since 9/13 freeze (SDH100RT +9.5%, OCPI +5.0%); on-demand mean $4.64/GPU-hr (Nebius +16.9% effective 10/01). AMZN $8B SPV (-012) = capex funded differently NOT cut; Toshiba HDD (-024) = storage crack OUTSIDE S2's memory cell.
 >
