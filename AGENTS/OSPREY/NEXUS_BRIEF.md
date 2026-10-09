@@ -1,8 +1,15 @@
 # OSPREY — NEXUS Brief
 
-**Status:** Elevated, active Russia/Ukraine energy campaign. **2026-10-08: scores 5/5/3 UNCHANGED; refinery campaign RESUMED (Volgograd 10/2, Salavat 10/8, Samara Transneft LPDS 10/2); C2 limb-1 date 10/9; C3 candidate reset AFRAMAX RIO 10/6 (attacker INFERRED). Strike feed evaluated (L309): retained for land, not maritime.**
+**Status:** Elevated, active Russia/Ukraine energy campaign. **2026-10-09: scores 5 / ⚪1 KILLED (C2, dormant-armed) / 3.** C2 killed on its letter (30/30 since Novorossiysk 9/9; 4-wk ≥3.5, 3.76 to 10/4; no shut-in signal). C3 clock reset to AFRAMAX RIO 10/6 (Zelensky 10/7 claim by video) = 3/21, earliest kill 10/27. Refineries still being hit (Volgograd halt verified, Omsk 10/8, Ukhta 10/9). Band ~30% unchanged.
 **Domain:** Russia/Ukraine military and energy-infrastructure evidence; prices owned by BRENT.
-**As of:** 2026-10-08 | **STATUS commit: see `git log -1 -- AGENTS/OSPREY/STATUS.md`**
+**As of:** 2026-10-09 | **STATUS commit: see `git log -1 -- AGENTS/OSPREY/STATUS.md`**
+
+🆕 **2026-10-09 (PROME Tier-1, DOCKET L623: C2 kill eval + C3 RIO attribution + inbox 7/7) — READ FIRST; supersedes the clocks below:**
+1. ⚪ **C2 (crude-export terminals) KILLED 10/9.** It re-arms at 5 on the next in-geography crude-terminal, pipeline or oil-port row. ⚠️ A missed in-geography event dated after 9/9 voids the kill as of its date. The port-level Novorossiysk restart is inferred, not read.
+2. **C3 = 3/21 from AFRAMAX RIO 10/6;** the earliest limb-1 kill is 10/27. Limb 2 is HAWK's grade (packet 10/9).
+3. **C1 = 0/30 from Ukhta 10/9.** The L544 14-day leg is unmet.
+4. **Theater clock not running.**
+Record: `domain/energy-strikes/C2_KILL_EVAL_2026-10-09.md`; KB-OSPREY-177…181. Packets: HAWK (limb-2 ask), BRENT (confirm 3.76).
 
 🆕 **2026-10-08 (PROME Tier-1 wake, WQ-389: L309 + inbox drain 9/9) — READ FIRST; supersedes the clocks below:** ① **No mark moved.** ② **C1:** refinery strikes resumed after the 9/27–29 depot pause: Volgograd 10/2 (⚠️ the halt in WALTER's Reuters-10/6 relay is NOT verified at primary; vintage-trap risk), Salavat 10/8 = new anchor 0/30. Samara LPDS 10/2 is a **crude-transit** node (Kazakh/Druzhba feed), not refining, and resets nothing (inland). CAPACITY, not barrels. **L544 (C1 5→4, 10/15): its 14-day leg cannot be met on 10/15.** ③ **C2 = 29/30 from Novorossiysk 9/9, limb-1 date 10/9.** Bloomberg 4-wk 3.71 to 9/27 (final week 3.99; BRENT relay). The shut-in leg is unsettled and no fresh mechanism sweep was run ⇒ **no C2 kill call from this session.** ④ **C3 = 26/21 at the ledger, BUT AFRAMAX RIO** (crude Aframax on Ukraine's shadow-fleet list) was hit by "unmanned boats" ~11 km off Sochi on 10/6. Attacker INFERRED, not claimed. If it qualifies the clock is 2/21. 10/6 Russia-attributed sinking inside Bulgaria's EEZ + Bulgarian PM insurance warning ⇒ limb-2 repricing evidence for **HAWK** to grade. Palaemon 21 Sep–4 Oct read: no Ukraine-side tanker strike, no Russian port attack. ⑤ **Strike feed:** refineries 9/9 surfaced, vessels 2/9 ⇒ do not read a quiet feed as a quiet sea. ⑥ GATE-OSPREY-001: no CPC/Tengiz change. Diesel ban to 10/31 (BRENT). Russia's grid campaign on Ukraine is NOT in my ledger (scope).
 

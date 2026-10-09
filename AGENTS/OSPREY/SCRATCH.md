@@ -1,39 +1,39 @@
-# OSPREY SCRATCH — 2026-10-08 (Thu)
+# OSPREY SCRATCH — 2026-10-09 (Fri)
 
 ## CURRENT MARKS
-C1/C2/C3 **5 / 5 / 3**, UNCHANGED. Band **~30%, 25–35% EST**, unchanged. Prices come from BRENT. This was a PROME Tier-1 wake (WQ-389): the L309 evaluation and a whole-inbox drain. **NOT a gap sweep.** Full state: STATUS.
+C1 / C2 / C3 = **5 / ⚪1 KILLED (dormant-armed; last live mark 5) / 3**. Band **~30%, 25–35% EST**, unchanged. Prices come from BRENT. This was a PROME Tier-1 due-row wake (DOCKET L623, prome-75). Full state: STATUS; verdict record: `domain/energy-strikes/C2_KILL_EVAL_2026-10-09.md`.
 
-## CHANGES SINCE LAST SESSION (9/29)
-- 🔥 Refinery strikes RESUMED: Volgograd 10/2 (halt claim UNVERIFIED, vintage risk), Samara Transneft LPDS 10/2 (+10/7 fire), Salavat 10/8. Zelensky 10/3 (Reuters): strikes will be stepped up.
-- ⚠️ AFRAMAX RIO (crude Aframax, Ukraine shadow-fleet list) hit by "unmanned boats" ~11 km off Sochi 10/6. **Attacker INFERRED.** It is a C3 reset candidate.
-- 10/6: a Russia-attributed sinking (ALFA WATAN) inside Bulgaria's EEZ, plus a Bulgarian PM warning on insurance costs (C3 limb-2 context, HAWK's grade).
-- Bloomberg 4-wk to 9/27 = 3.71 (final week 3.99; BRENT). Diesel ban EXTENDED to 10/31 (BRENT/Interfax).
-- Palaemon 21-27 Sep + 28 Sep-4 Oct: no Ukraine-side tanker strike, no Russian port attack.
+## CHANGES SINCE LAST SESSION (10/8)
+- ⚪ **C2 KILLED on its letter.** Limb 1 is 30/30 (Novorossiysk 9/9). Limb 2: the Bloomberg 4-wk was ≥ 3.5 throughout (3.76 to 10/4), and there is no shut-in signal (the 9/20 halt was offtake deterrence and reversed).
+- 🔄 **C3: AFRAMAX RIO QUALIFIES.** Zelensky's 10/7 "response in the Black Sea" post carries the tanker's video. **3/21; the earliest kill is 10/27.**
+- Volgograd halt VERIFIED (Reuters factbox, 10/2). Omsk 10/8. **Ukhta 10/9 = C1 anchor (0/30).** Volodarskaya products LPDS 10/6.
+- Swept-complete mark **9/20 → 10/07 (BOUNDED)**.
 
 ## WHAT I DID
-- **L309 DONE:** `domain/energy-strikes/L309_STRIKE_FEED_EVALUATION_2026-10-08.md` and KB-172. Recall PASS by the letter. By class: refineries 9/9, vessels 2/9. Precision 9/11, 0 silent deletions. RETAINED for land, not maritime. DAEDALUS items: ①②④ hold · ③ a new silent drop (Palaemon bulletin) PATCHED + fixture test · ⑤ CONTESTED on evidence (20/22 same-day) and closed · ⑥ note · (b) regression found (9/15 gitignore) and re-fixed · (c) militarnyi URL fixed.
-- STRIKES +6 rows (targeted confirmation; **mark stays 9/20**). KB-172…176. Inbox 9/9 consumed (board_log). R3 WATCH_FOR answer → PROME. C4: 4 dead charter pointers fixed (+1 wrong `feed/` path).
+- Ran `strike_feed.py` (33 rows, 26 NONE, all dispositioned in the feed file) and a mechanism-level sweep (EN+RU, name-free plus nine ports, Reuters factbox).
+- STRIKES: +6 rows, 2 updated in place. KB-177…181. VX refreshed (UKR-01, SHADOW-01).
+- **Feed residue decision:** `MATCHES_2026-09-15/16/29.tsv` are the designed audit trail, not residue, so they are **COMMITTED**, not trashed. They are 6/6 precise (KB-181).
+- Inbox drained 7/7 (DAEDALUS items 1 and 2 DONE; WALTER R3 adopt/decline sent to PROME; WQ-399 receipt line fixed in CLAUDE.md).
+- Packets: HAWK (C3 limb-2 grade ask) and BRENT (confirm the 3.76 print). Memo to PROME.
 
 ## ⛔ THE THING NEXT SESSION MUST NOT FORGET
-**C2's limb-1 date is 10/9 and C3's anchor may have moved to 10/6.** Before writing ANY kill:
-- (a) run a mechanism-level, name-free sweep 9/30→today (land is UNSWEPT 9/30-10/8);
-- (b) settle who hit AFRAMAX RIO;
-- (c) settle the Novorossiysk shut-in question for C2 limb 2.
+**The C2 kill is void-on-backfill.** If any in-geography crude-terminal, pipeline or oil-port strike dated **after 9/9** surfaces, C2 re-arms at 5 as of that date. First checks:
+- the **Palaemon 5–11 Oct** bulletin (unpublished on 10/9);
+- a **port-level Novorossiysk** figure for late September and October, since the restart is only inferred.
 
 ## NEXT SESSION
-1. **On/after 10/9:** C2 kill evaluation (sweep + shut-in + Bloomberg 3.71 as the number leg). C3: RIO attribution + SBU "Mamai" LOUISE 1/BANDA lead (date unknown).
-2. **10/8–10/15:** OSP-06 search obligation (Bloomberg 4-wk to 10/4 and 10/11). The final week printed 3.99, so the risk is real.
-3. **~10/8, OPEN:** data-decree product list (KB-160); NOT checked today.
-4. **10/15:** L544 C1 5→4 first evaluation. The 14-day leg cannot be met (Salavat 10/8). Still check the aggregate leg and the 60-day blackout count from 9/3.
-5. Escalated feed candidates, not rowed: Volodarsk LPDS 10/6 (unverified) · Russia-hit cargo ships 10/3, 10/4, 10/5 · UK shadow-fleet sanctions 10/8 · a possible September Salavat strike missing from the ledger.
-6. Carried: OWED-30 write-up · 42/50 basis pair · 43 Moscow barrels · 44 Ust-Luga condensate · 45 FEED_CANDIDATES dispositions still git-ignored · 48 AWRP · 51 midstream backfill (Samara LPDS is the same class).
+1. **10/8–10/15, OSP-06:** Bloomberg 4-wk to 10/11 (~10/13). 3.76 to 10/4 does not fail it; ≥ 3.9 would.
+2. **10/15, L544 C1 5→4 first evaluation:** the 14-day leg is unmet (Ukhta 10/9). Check the aggregate leg, the blackout count from 9/3, and the **data-decree goods list (SEARCH-NOT-FOUND 10/9)**.
+3. **10/27:** the earliest C3 limb-1 kill date (RIO anchor). HAWK owes the limb-2 grade.
+4. **Unidentified:** Zelensky's 10/6–7 "oil facilities in Samara, Astrakhan, Perm" (inland or Caspian, so they cannot move C2).
+5. **Carried:** OWED-30 write-up · 42/50 basis pair · 43 Moscow barrels · 44 Ust-Luga condensate · 45 FEED_CANDIDATES dispositions still git-ignored · 48 AWRP · 51 midstream backfill (now live in October: Samara, Volodarskaya).
 
 ## PREDICTIONS / DECISIONS
-OSP-06 OPEN 45%, deadline 10/15, risk rising. **No Will-gated decision open.** Scope note: Russia's grid campaign on Ukraine was declined for this ledger. Tracking it would be a Tier-2 new direction.
+OSP-06 is OPEN at 45%, deadline 10/15. **No Will-gated decision is open.** The C2 kill is a letter-fired channel kill (§1), executed by the owner: no threshold moved and no capital path.
 
 ## MAIL STATE
-- Inbox: 9/9 consumed this session (top-level 2 + WALTER lane 7). Re-listed at closeout.
-- Sent 10/8: **PROME** ×2 (L309/drain memo; R3 WATCH_FOR adoption). No outbox signal (no 🔴 trigger fired).
+- Inbox 7/7 consumed; the re-census reads 0 / 0.
+- Sent 10/9: HAWK, BRENT, and the PROME memo `PROME/inbox/2026-10-09_from-OSPREY_c2-kill-eval-c3-rio-attribution.md`.
 
 ## PENDING PUSH / GIT
-Committed path-scoped; pushed via safe-push. Receipt in the PROME memo/SendMessage. `MATCHES_*.tsv` is committed again; `FEED_CANDIDATES_*.tsv` stays git-ignored (OWED-45).
+Committed path-scoped. Push via safe-push; the receipt is in the PROME memo or the SendMessage.

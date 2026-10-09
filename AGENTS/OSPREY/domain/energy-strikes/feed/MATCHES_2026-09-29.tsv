@@ -1,0 +1,5 @@
+# OSPREY strike feed — COMMITTED match audit trail, run 2026-09-29. One row per candidate the diff absorbed into an existing strike_id.
+# ledger: 126 data lines, 125 usable, 1 skipped (RU-202605xx-SYZRAN: unparseable date '2026-05-??'); 24 generic tokens dropped at df>=4: baltic,bashkortostan,bashneft-unpz,established,kapotnya,moscow,nizhnekamsk,nizhny,novgorod,novorossiysk,odesa,primorsk,re-struck,rosneft,rostov,russian-flagged,samara,saratov,sheskharis,siberia,taneco,tanker,tatarstan,yaroslavl
+# Each row is a CLAIM. Precision leg of the acceptance test: of N rows here, M confirmed at the named ledger facility.
+run_date	pub_date	source	title	url	ledger_match	carrying_tokens	ledger_facility
+2026-09-29	2026-09-22	moscowtimes	One Killed as Ukraine Strikes Refineries in Samara and Bashkortostan	https://www.themoscowtimes.com/2026/09/22/one-killed-as-ukraine-strikes-refineries-in-samara-and-bashkortostan-a93765	RU-20260922-KUIBYSHEV	kuibyshev	Kuibyshev Oil Refinery

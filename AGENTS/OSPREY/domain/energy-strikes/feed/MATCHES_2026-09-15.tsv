@@ -1,0 +1,4 @@
+# OSPREY strike feed — COMMITTED match audit trail, run 2026-09-15. One row per candidate the diff absorbed into an existing strike_id.
+# ledger: 100 data lines, 99 usable, 1 skipped (RU-202605xx-SYZRAN: unparseable date '2026-05-??'); 13 generic tokens dropped at df>=4: baltic,bashkortostan,nizhnekamsk,nizhny,novgorod,novorossiysk,re-struck,russian-flagged,samara,saratov,sheskharis,tatarstan,yaroslavl
+# Each row is a CLAIM. Precision leg of the acceptance test: of N rows here, M confirmed at the named ledger facility.
+run_date	pub_date	source	title	url	ledger_match	carrying_tokens	ledger_facility
