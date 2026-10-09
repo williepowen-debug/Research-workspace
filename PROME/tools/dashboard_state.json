@@ -1,6 +1,6 @@
 {
  "attention_errors": [],
- "built": "2026-10-09 11:31",
+ "built": "2026-10-09 14:35",
  "channels": {
   "AI capex": "elev",
   "Credit": "watch",
@@ -34,7 +34,6 @@
   "2026-10-09 \ud83d\udfe0 read_cap_check.py PERIMETER GAP \u2014 a boot-read-WHOLE surfac",
   "2026-10-10 AEOLUS WAKE \u2014 grade the C1 MAJOR-LANDFALL trigger at NHC's l",
   "2026-10-10 CORAL \u2014 POST-LANDFALL WAKE (Isaias; Sat 10/10 or the first b",
-  "2026-10-10 INDEPENDENT READ \u2014 OSPREY's strike_feed.py bulletin-row sile",
   "2026-10-10 WQ-371 ENCODE \u2014 PROME/CLAUDE.md CONSOLIDATION C2 \u00b7 C3 \u00b7 C4 (",
   "2026-10-12 ARGUS AUDIT-PERIMETER ROW FOR USER.md \u2014 OWED since 2026-09-3",
   "2026-10-12 Amendment-12 watch grades (the format-vs-recogniser discrimi",
@@ -77,8 +76,10 @@
   "2026-10-15 \ud83d\udfe1 FORGE/STATUS.md WRITE MODE \u2014 the mirror re-breaches its re",
   "2026-10-16 August TIC (Treasury, Fri 10/16 ~16:00 ET) = ZHA-18 third-mo",
   "2026-10-16 CFG Q3-2026 PRINT (Fri 10/16, call 09:00 ET) \u2014 WQ-318 gradin",
+  "2026-10-16 DECISION DECK CHANGE A \u2014 RESIDUE EPISODE 3 (reads: 0; no liv",
   "2026-10-16 FLG T-03 CHECK HAS NO WAKE \u2014 FLG's TRIGGERS.tsv T-03 (the Q3",
   "2026-10-16 FORUM-5 W1 opacity enumeration DUE \u2014 4 legs (SHADE gated-US-",
+  "2026-10-16 OSPREY strike_feed.py \u2014 READ 3 RESIDUE, a NEW episode (reads",
   "2026-10-16 WQ-342 REVISIT \u2014 a SUCCESSOR duration-split gate with a CRED",
   "2026-10-17 WQ-373 PHASE 1 \u2014 TWO-WEEK PILOT REVIEW (provisional date = 1",
   "2026-10-19 BESSENT '2027-01-10' EXTENSION \u2014 INSTRUMENT RE-CHECK: has AN",
