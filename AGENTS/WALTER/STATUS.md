@@ -1,6 +1,6 @@
 # WALTER STATUS
 
-**Updated 2026-10-09 ~10:5x ET — TIER-1 LIGHT CLOSEOUT of the 10/9 morning session (`walter-50`, Claude Code, Opus 5.5, desktop), on Will's word 10:51 ET ("lets close out here. I will reboot us immediately") — full deferred.** BOARD 1299; 8 outputs today (SIG-W-20261009-001…008), 4 kills (X-bookmark batch BM-20261009-01 CLOSED 11/11). **Near-triggers: FRED HY OAS 315bp [obs 10/8], 1.6% under >320 (0 of 3); Brent 3:2:1 Dec ~$48.43 [intraday vendor 10/9, not a settle] vs #8 >$50 on 3 official settles (new letter).** Boot gaps closed (see LAST_COMPLETION); duties and receipts: `LAST_COMPLETION.md`.
+**Updated 2026-10-09 ~11:03 ET — post-/clear boot of `walter-50` (Claude Code, Opus 5.5, desktop) after the 10:5x Tier-1 light closeout; light touch, full closeout still deferred.** BOARD **1300**; 9 outputs today (`-001`…`-009`; `-009` = Firmus withdrew its ASX IPO, VULCAN), 7 kills (X-bookmark batches BM-20261009-01 11/11 and -02 6/6 both CLOSED). **Near-triggers: FRED HY OAS 315bp [obs 10/8], 1.6% under >320 (0 of 3); Brent 3:2:1 Dec ~$48.6 [vendor intraday ~10:59 ET 10/9, 2-decimal legs, not a settle] vs #8 >$50 on 3 official settles.** Isaias NHC adv #12 (10 AM CDT): 120 mph / 959 mb, 195 mi S of Pensacola, NNE 16 mph, landfall W Florida Panhandle THIS EVENING, no warning changes. Duties and receipts: `LAST_COMPLETION.md`.
 
 ## BOTTOM LINE
 

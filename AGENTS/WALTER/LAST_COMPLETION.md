@@ -6,6 +6,7 @@ Session: **October 9, 2026 TIER-1 LIGHT CLOSEOUT** of the desktop morning sessio
 Boot ran 0 → 9b. Will then directed "take care of the boot gaps first" and all six named gaps were closed (below). Boot is COMPLETE except the weekly tanker freight review, which is time-gated (publishers post Friday afternoon) and NOT RUN. No trade, gate, threshold or band was moved by WALTER; the one letter change (boundary #6/#8) is Will's ruling.
 
 ## CHANGED
+- **POST-/CLEAR LEG (~10:57–11:03 ET, same session `walter-50`):** boot re-run 0→9b (no HIGH; lane 0 new breaches; inbox only the NEXUS S1 packet, still deliberately unconsumed). X-bookmarks BM-20261009-02 CLOSED 6/6 → **`-009` Firmus WITHDREW its ASX IPO** (VULCAN action, doorbelled by SendMessage; BROCK/LIQUID/HENRY info; resolves `-1008-024` cut-or-pull), 1 DUP (`-004`, NHC adv #12 read), 1 NO-ACTION, 3 KILL; `--mark` run. REGISTRY header-only refresh: WATT, WAL, ORACLE, ZHAO, RED. Commit `6c7b16032` reached origin inside a peer's push (VULCAN closeout `eb73976dc`), verified by fresh fetch; `reconcile_delivery_log --apply` flipped the 4 rows to delivered (0 orphans). This touch commit is local; WALTER push stays Will-coordinated (BROCK/HANS trees being written in-flight).
 - **Dispatched 10/9: 8 BOARD outputs (`-001`…`-008`), 4 kills, 36 handoff rows, all delivered (on origin, reconciled 36/36).**
   - `-001` HY OAS 315bp [10/8] near-trigger, 1.6% under >320 (LIQUID).
   - `-002` Trepp September PRIMARY: office 12.16% (T-01a leg 1 of 2), overall 8.02%, multifamily 8.04% (CREED, HOMER). Upgrades the `-1008-002` relay; R1 row COR-20261009-02.
@@ -115,7 +116,7 @@ Publication is bounded to the named commits. Delivery is bounded to the 10/9 sig
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-09T14:53:25+00:00",
+  "as_of": "2026-10-09T15:03:23+00:00",
   "publication": [
     {"commit": "ff6c08b43", "state": "published"},
     {"commit": "131bc0b77", "state": "published"},
@@ -128,9 +129,9 @@ Publication is bounded to the named commits. Delivery is bounded to the 10/9 sig
   ],
   "delivery": {
     "signal_date": "20261009",
-    "total": 36,
-    "delivered": 36,
-    "note": "All 36 10/9 handoff paths proven on origin after PROME's pushes; reconcile_delivery_log --apply wrote 36, 0 orphans. Delivery is not consumption."
+    "total": 40,
+    "delivered": 40,
+    "note": "All 40 10/9 handoff paths proven on origin (36 via PROME's pushes; 4 for -009 via VULCAN's closeout push eb73976dc); reconcile --apply wrote 36 + 4, 0 orphans. Delivery is not consumption."
   },
   "push": {
     "all_walter_commits_on_origin": false,
@@ -141,7 +142,7 @@ Publication is bounded to the named commits. Delivery is bounded to the 10/9 sig
     "evidence": [
       {"path": "FORGE/STATUS.md", "sha256": "73b763990129dafc7c90fad538645a999f22f351a92f3272231811d27f92507d", "note": "Read at boot: 10/8 ANVIL reconcile; expiring Fri 10/9 QQQ 755P x1 / QQQ 750C x1 / USO 150C x1. PROME reports the 750C sold 09:52 ET at 2.38; mirror is PROME-owned."},
       {"path": "AGENTS/TERRY/STATUS.md", "sha256": "4c5d4d044aaec863b7cc53fe3f9bdf6aa043a9e64891bb4a6b40f60db20f8eeb", "note": "Header not re-read this session; hash for change detection only."},
-      {"path": "AGENTS/BRENT/STATUS.md", "sha256": "240fe6c7ecbac4f0937da70cf6889c6c1567a80638282dcc0b1bb134862bb168", "note": "BRENT live (brent-58) since ~10:11 ET; consumed -008 and recorded the BZZ26 10/30 switch in its CATALYSTS.tsv."}
+      {"path": "AGENTS/BRENT/STATUS.md", "sha256": "a65836982672e898365b89d4ef953796fee35dc748bc0dc0328d246c925eb316", "note": "BRENT live (brent-58); STATUS changed again after the 10:5x receipt (BRENT work continues); hash re-taken 10/9 post-/clear for change detection only."}
     ]
   },
   "owed": [
