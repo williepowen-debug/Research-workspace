@@ -1,5 +1,19 @@
 # NEXUS — LAST COMPLETION
 
+## 2026-10-09 Fri 10:05 ET — DOCKET L553 WAKE: PRED-50 FIRST GRADE (PROME `prome-75` Tier-1 spawn, WQ-184/C6) — STANDARD tier
+
+Runtime: Claude Code, `claude-opus-5-5`; no subagents (one-letter grade, no brief loop). **Delivery:** `PROME/inbox/2026-10-09_from-NEXUS_pred50-first-grade.md` · WQ-341 asks `PROME/inbox/2026-10-09_from-NEXUS_wq341-observed-branch-attribution-asks.md` · BRENT ask `AGENTS/BRENT/inbox/2026-10-09_from-NEXUS_bzz26-10-08-settle-for-M-06-anchor.md`.
+
+- **PRED-50 (L14) GRADED ✅ QUIET-SESSION WIDENING OBSERVED (C1 rule 2):** n=4 · W=2 (9/29 +7 · 10/7 +6) · T=0 · F=2. FRED re-pull 10/9 09:57 ET: all 27 logged cells unchanged ⇒ single vintage. Cell 8: B 315 (+7) FRED; rates −6/−5 on the Treasury early copy (FRED cells unpublished) ⇒ outside Q — verdict invariant either way. Correction's effect on the window: none on the counts (nominal-only original gives the same four quiet sessions); C1 changed the meaning (behavior, no N_eff move). Disc-A ungraded → WQ-341 reads. Revision re-pull 10/13 (rides DOCKET L554), then L14 → COLD. Not promoted to `CONFIRMED.md`: a behavior test, not a convergence.
+- **Anchors (L15):** M-01 HY 315 · M-04 VIX 15.41 · M-07 IG 82 FIXED [10/8 FRED] · M-03 PROVISIONAL (FRED `DGS10` 10/8 unpublished; Treasury 5.22) · **M-06 UNKNOWN** (no BRENT-published settle; BRENT asked; no source ⇒ DEFECTIVE at 10/13).
+- **L13 consequence:** cell 10 early copy 2.87 ⇒ once FRED confirms, L13 grades Mon 10/19 on every branch (the 10/16 fire case is gone); the DOCKET L558 successor must admit a credit-class candidate (rider binds). WQ-342 not otherwise touched.
+- **`SIG-W-20261008-049` consumed via BOARD_SCAN:** T-15 sixth CRMT bridge to 10/15; new T-30 discount-window tension (needs-2nd-print). `-20261009-001` noted.
+- **Rotations (verbatim, crc32):** page §Per line → `archive/2026-10-09_one-root-or-many_COLD.md` `ae7b654e` (page 78% → 63%) · STATUS replaced lines → `STATUS_COLD.md` §H18 `795bf462` (STATUS 71%, under the 75% trigger) · this block put LAST_COMPLETION at 75.6% ⇒ the 10/08 08:13 block → `archive/LAST_COMPLETION_COLD_2026-10-09.md` Rotation 2 `efa7e796` (hot file 68.6%).
+
+**Closeout checks:** 9 STATUS 144 lines; no Conf % moved, no row date bumped; docket 10/9 row closed ✅ · 9b from each change (PRED-50 on L14 + ACTIVE row + header + split + R4 + T-27 + bottom line + page; L13 "cell 14 / fire case" residue fixed on STATUS docket + L13 row; "grades 10/9" agent-data residue fixed; PREDICTIONS:4 "ARMED" = RETAINED-HISTORY in the labelled 10/8 record; L14 10/8 PM tally text = labelled history; PROME mirrors DOCKET L553/L558 read, not edited — the memo carries the grade) · 9c 10:04: late movers WALTER `-20261009-004` (Isaias Cat 3) and `-005` (Iran morning limb; uncommitted at scan) — not read, deferred to the 10/13 wake; LIQUID/DAEDALUS/PROME commits are their own files · 10 nothing else past-trigger · 11 inbox 0 / WALTER 0 · 14 none this pass · 15a n/a (string replacements + verbatim rotations, no whole-file write) · 15b revision re-pull rides DOCKET L554 (named in the memo) · root 1b run (3 own packets/paths → carve-out ①; `[not yours]` WALTER `-005` + WAL packet untouched) · 1e weekday: 2 flags, both RETAINED (2026-10-07 is Wed; 2026-09-28 is Mon — checker mis-resolved the year). **skipped:** 1c (no cited figure superseded) · 1c-bis (no LEDGER_GLOB) · 1d (no memory) · 9a (due 10/27) — none applies.
+
+---
+
 ## 2026-10-09 Fri 09:28 ET — LIGHT tail of the 10/8 22:12 ET boot (Will: switching to desktop, "no need to do a full close out") — NO board write
 
 Short boot ran (0a · 0b carried from 10/8 · 1 · 2 · 3 · 4 · 7 · 7a · fleet-freshness scan); no fleet commit after `2f15fff96` until PROME's 10/9 AM rows; inbox 0 / WALTER 0; corrections rc 0; STATUS 22,779 B = 69.98% (rotate before any write). **Owed at the desktop boot, found by READING WALTER `SIG-W-20261008-049` (dispatched 20:43 ET 10/8; my 20:5x 9c logged that commit as "NEXUS lane 0" without reading the content — a lane check is not a content read):** (a) **T-15** — CRMT lenders extended the bridge a SIXTH time, to 10/15 (8-K accepted 16:05:15 ET 10/8; company cites experienced/anticipated events of default); BROCK's DOCKET L585 read finds it; my row's "no extension 8-K at 08:32" is true-as-of and now superseded. (b) **Funding counter-signal** — Fed discount-window primary credit $9.965B Wed 10/7, highest since ≥Jan 2024 (H.4.1 10/8; weekly average up 5 of the last 6 weeks); no registered threshold, LIQUID action ⇒ carry against the cluster verdict's "stopped at FUNDING" as a tension, tag needs-2nd-print (Wednesday levels noisy; 9/30 week = quarter-end). Then the 10/9 docket as written: PRED-50 grade (DOCKET L553) · letter anchors · T-15 read. **skipped (Light, Will's word): 9 · 9b · 9c · 10 · 11 (nothing to move) · 14 · 15 full block · 15a (nothing rewritten) · 9a (due 10/27); root 1b + 1e run; 1c / 1c-bis / 1d do not apply (no figure superseded, no LEDGER_GLOB, no memory written).**
@@ -63,23 +77,4 @@ Short boot ran (0a · 0b carried from 10/8 · 1 · 2 · 3 · 4 · 7 · 7a · fle
 
 ---
 
-## 2026-10-08 Thu 08:13→08:42 ET — DOCKET L554 WEEKLY WAKE (WQ-389 spawn, PROME `prome-fc`) — STANDARD tier
-
-**Long form:** `research/2026-10-08_pass_record.md`. **Delivery:** `PROME/inbox/2026-10-08_from-NEXUS_L554-wake-seat-01-contest-pred-50-armed.md`.
-
-**What changed, in one screen:**
-- **Board:** 10/1 file → `STATUS_COLD.md` §H14 (crc32 `c7f706de`); STATUS rewritten as a DELTA (no Conf % moved; M-01 + M-03 arbiters resolved with no registered consequence ⇒ held; M-04's 9/29 gamma basis reversed — disclosed, held). **Split re-dated 10/8, HELD 20/47/33** (L13 cells 1–8 neither + cell 9 early copy). 15a cold read run.
-- **Disc-J:** eight row letters registered (`research/2026-10-08_disc-J_letters.md`) ⇒ L15 DISCHARGED; all ten rows carry falsifiers.
-- **Predictions:** PRED-50 6 of 8 cells (n=3 W=1 T=0 F=2) — ARMED for 10/9 · PRED-38 classification note · PRED-41 band KEPT · L9 contest delivered.
-- **SEAT-01:** contest to PROME — ONE YES claimed (WQ-341); S/N rows not claimed; two list misses raised unclaimed.
-- **Drain:** 5/5 (3 top-level + 2 WALTER) logged + `git mv`. C-36 evidence note (FORUM-7 FINAL co-signed). BRIEFS_MAP 10/8 delta.
-
-**Open for Will (not NEXUS's):** SEAT-01 verdict · WQ-357 duration exit (path C to 10/14) · optional 4th charter read.
-
-**Next wake:** **Fri 10/9 PRED-50 grade (DOCKET L553)** · L554 Tue 10/13 · L571 ≥10/15 · L558 10/16 (TIC + L13 cell 15 + successor gate) · T12S review 10/19 · L555 10/27 · 10/29 M-06 · 10/30 M-08/M-09 · 11/05 five letters · 11/20 M-11/PRED-45. **First boot after the 10/8 cells publish: log each new letter's anchor L.**
-
-**Closeout checks:** 9 STATUS sanity (152 lines; Δ held rows keep true dates — M-01/M-03 bumped for resolved arbiters; docket pruned; thresholds BREACHED→PROXIMATE→NOT CONFIRMING; new paths exist) · 9b from each change (L15 discharged on STATUS banner + PREDICTIONS; C-36 note on CONFIRMED + STATUS pointer; residue grep: "judgment, not estimate" hits only in the 10/1 block below and COLD = RETAINED-HISTORY) · 9c 08:41, two annotations · 10 nothing went past-trigger mid-session (PRED-50 window still open) · 11 inbox 0 · 14 none this pass · 15 this block · 15a cold read `recon/2026-10-08_coldread_status_ledger.md` (3 ❌ + 21 ⚠️ fixed, 2 ⚠️ residue declared in the pass record) · root 1b–1e in the commit body.
-
----
-
-## 📦 Prior blocks → `archive/LAST_COMPLETION_COLD_2026-10-09.md` (the 10/01 session, crc32 `1b8a6531`; its chain names the 9/29 cold files). Rotated 2026-10-09 Fri 09:29 ET under closeout 15 (76% → under the stop).
+## 📦 Prior blocks → `archive/LAST_COMPLETION_COLD_2026-10-09.md` (the 10/01 session, crc32 `1b8a6531`; + Rotation 2 2026-10-09 Fri 10:05 ET: the 10/08 08:13 L554 wake block, crc32 `efa7e796`; its chain names the 9/29 cold files). Rotated 2026-10-09 Fri 09:29 ET under closeout 15 (76% → under the stop).

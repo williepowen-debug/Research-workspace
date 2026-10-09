@@ -23,3 +23,28 @@
 **Next wake:** Fri 10/2 if asked (NFP 08:30 → M-01 + chain head · HEN-47 → M-03) · **DOCKET L554 Tue 10/6** (L15 letters ×8 · T-28 close · cold-read-3 residue) · DOCKET L553 ~10/9 PRED-50 · L571 10/15 · L558 + L13 cell 15 10/16 · L573 10/30 · L575 ~11/6 · L572 11/10 · L574 11/20.
 
 **Closeout checks:** 9 STATUS sanity (151 lines · Δ held rows keep true dates · docket pruned · thresholds BREACHED→PROXIMATE→NOT CONFIRMING · new paths exist) · 9b from each change (PRED states on PREDICTIONS/COLD/STATUS/CONFIRMED C-05; Disc-J defect on STATUS + L15) · 9c run 19:54 · 10 no item went past-trigger mid-session · 11 inbox 0 · 14 two extensions · 15 this block ≤6 KB, whole file rotated (24,681 B → this) · 15a cold reads ×2 (STATUS, charter) · root 1b–1e in the commit body.
+
+
+---
+
+# Rotation 2 — 2026-10-09 Fri 10:05 ET (closeout 15: the PRED-50 grade block put the hot file at 75.6%): the 2026-10-08 08:13 ET L554 wake block, verbatim, crc32 `efa7e796` over the block below this heading.
+
+## 2026-10-08 Thu 08:13→08:42 ET — DOCKET L554 WEEKLY WAKE (WQ-389 spawn, PROME `prome-fc`) — STANDARD tier
+
+**Long form:** `research/2026-10-08_pass_record.md`. **Delivery:** `PROME/inbox/2026-10-08_from-NEXUS_L554-wake-seat-01-contest-pred-50-armed.md`.
+
+**What changed, in one screen:**
+- **Board:** 10/1 file → `STATUS_COLD.md` §H14 (crc32 `c7f706de`); STATUS rewritten as a DELTA (no Conf % moved; M-01 + M-03 arbiters resolved with no registered consequence ⇒ held; M-04's 9/29 gamma basis reversed — disclosed, held). **Split re-dated 10/8, HELD 20/47/33** (L13 cells 1–8 neither + cell 9 early copy). 15a cold read run.
+- **Disc-J:** eight row letters registered (`research/2026-10-08_disc-J_letters.md`) ⇒ L15 DISCHARGED; all ten rows carry falsifiers.
+- **Predictions:** PRED-50 6 of 8 cells (n=3 W=1 T=0 F=2) — ARMED for 10/9 · PRED-38 classification note · PRED-41 band KEPT · L9 contest delivered.
+- **SEAT-01:** contest to PROME — ONE YES claimed (WQ-341); S/N rows not claimed; two list misses raised unclaimed.
+- **Drain:** 5/5 (3 top-level + 2 WALTER) logged + `git mv`. C-36 evidence note (FORUM-7 FINAL co-signed). BRIEFS_MAP 10/8 delta.
+
+**Open for Will (not NEXUS's):** SEAT-01 verdict · WQ-357 duration exit (path C to 10/14) · optional 4th charter read.
+
+**Next wake:** **Fri 10/9 PRED-50 grade (DOCKET L553)** · L554 Tue 10/13 · L571 ≥10/15 · L558 10/16 (TIC + L13 cell 15 + successor gate) · T12S review 10/19 · L555 10/27 · 10/29 M-06 · 10/30 M-08/M-09 · 11/05 five letters · 11/20 M-11/PRED-45. **First boot after the 10/8 cells publish: log each new letter's anchor L.**
+
+**Closeout checks:** 9 STATUS sanity (152 lines; Δ held rows keep true dates — M-01/M-03 bumped for resolved arbiters; docket pruned; thresholds BREACHED→PROXIMATE→NOT CONFIRMING; new paths exist) · 9b from each change (L15 discharged on STATUS banner + PREDICTIONS; C-36 note on CONFIRMED + STATUS pointer; residue grep: "judgment, not estimate" hits only in the 10/1 block below and COLD = RETAINED-HISTORY) · 9c 08:41, two annotations · 10 nothing went past-trigger mid-session (PRED-50 window still open) · 11 inbox 0 · 14 none this pass · 15 this block · 15a cold read `recon/2026-10-08_coldread_status_ledger.md` (3 ❌ + 21 ⚠️ fixed, 2 ⚠️ residue declared in the pass record) · root 1b–1e in the commit body.
+
+---
+
