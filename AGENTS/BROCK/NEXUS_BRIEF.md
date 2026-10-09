@@ -11,7 +11,7 @@
 ## VIEW
 
 - **Substance keeps firming; transmission keeps not happening.** Redemption queues at the Blue Owl and North Haven vehicles are now three quarters deep behind 5% caps (OCIC requests 21.9→18.8→16.8% of shares — a queue, not a run), but REGINALD's bank read is 11-for-11 negative on PC/NDFI reserve builds and wrappers did not lead managers on the 280→312 HY widening (7th wrong-sign print). The PC stress I measure is real and contained so far.
-- **The channel actually open is duration.** 10Y 5.28 [FRED 10/7]; NAV pressure through rates, not through credit recognition. Bank Q3 (JPM/C 10/13, WFC 10/14) is the next test of whether banks start building reserves against PC/NDFI (BRK-31).
+- **The channel actually open is duration.** 10Y 5.28 [FRED 10/7]; NAV pressure through rates, not through credit recognition. Bank Q3 (JPM/C/WFC all Tue 10/13 — WFC corrected from 10/14 on 10/9) is the next test of whether banks start building reserves against PC/NDFI (BRK-31).
 - **Bifurcation is measurement-basis-sensitive.** OBDC non-accruals rose at amortized cost (2.3→2.8%) while falling at fair value (1.1→0.8%) over the same quarters; MFIC same shape. Always ask cost or fair value before reading a non-accrual figure.
 - **Distressed PC-financed names are rolling, not breaking.** Car-Mart (Silver Point facility) has rolled its lender bridge six times since 9/7, one week at a time — now to Thu 10/15 — with the same "significant progress towards a transaction" text and no permanent waiver. Cable One's MBI close (GTCR put) was due 10/9: nothing filed by 09:58 ET, stock −22.7% intraday, cause not found at primary.
 
@@ -36,7 +36,7 @@
 | **NEXUS / PROME** | **CRMT sixth bridge (L585 graded 10/9):** STD 10/8 → **Thu 10/15**, 8-K 0001171843-26-006538 (10/8 16:05 ET). Next: the 10/15 STD read; Item 1.01 backstop #4 Wed 10/21 | 🟠 | PC-to-subprime-consumer join stays live and unresolved; silence never grades "no extension" |
 | **LIQUID / REGINALD** | **GATE-BRK-R2 (a) FIRED ×2** (North Haven 9/25 · OCIC 10/2); next reads OCIC Q3 final ~late Oct and North Haven final ~11/05 (leg (b) <25%), BCRED Q4 letter ~12/03 | 🔴 | Non-traded BDC redemption-gate stress; scored once (one wave) |
 | **LIQUID** | CCC/BB **6.454 [FRED 10/8]**: HY widened 303→315 while CCC/BB FELL — my "CCC/BB up during a widening" leg NOT met | 🟡 | X1 test (b) needs both |
-| **REGINALD** | **BRK-31** — a PC/NDFI-attributable reserve BUILD at 1 of the 11 in Q3/Q4 is the falsifier for my NDFI downgrade | 🟠 | Bank Q3 10/13–10/14 |
+| **REGINALD** | **BRK-31** — a PC/NDFI-attributable reserve BUILD at 1 of the 11 in Q3/Q4 is the falsifier for my NDFI downgrade | 🟠 | Bank Q3 10/13–10/22 (frame frozen 10/9) |
 | **PROME / Will** | **Draft GATE-BRK-OTIC** (pre-data; Leg R requests >45.0% of shares o/s, Leg S no offer/<5%/suspension; first graded Q4-2026) — needs Will's word before OTIC's Q3 final ~10/23 | 🟠 | A threshold is Will's |
 
 **WAITING FOR:**
@@ -45,7 +45,7 @@
 |------|-------|-------------|------------------------|
 | **EDGAR (CRMT)** | Seventh bridge / waiver / transaction / acceleration | Thu 10/15 (16:05 ET pattern) | A transaction or acceleration closes the case; another roll changes nothing |
 | **EDGAR (CABO)** | MBI close 8-K or extension; who writes the new money | Tue 10/13, backstop Fri 10/16 | A PC-funded rescue priming the 2030 notes = a PC rescue-financing case; no vector keyed |
-| **REGINALD / banks** | Q3 PC/NDFI reserve commentary | Tue 10/13 · Wed 10/14 | A BUILD re-escalates NDFI 3→4 |
+| **REGINALD / banks** | Q3 PC/NDFI reserve commentary | Tue 10/13 (JPM/WFC/C) → 10/22 | A BUILD re-escalates NDFI 3→4 |
 | **LIQUID** | HY >320 ×3 (RED-FT-02) and the 2-close `GATE-HY-REKILL` | Open | HY 315 [FRED 10/8], 1.6% under 320 |
 | **Primary (OCIC / North Haven)** | Q3 FINAL tender results | ~late Oct · ~11/05 | R2 leg (b) on <25% |
 
@@ -54,7 +54,7 @@
 ## NEXT DECISION POINT
 
 - **What:** bank Q3 prints (BRK-31) and the R2 (b) finals are the only near-dated items that can move a vector. CRMT and CABO are case evidence, not vector movers.
-- **When:** Tue 10/13 (JPM, C) · Wed 10/14 (WFC) · Thu 10/15 (CRMT STD) · ~10/23–10/27 (OCIC/OTIC Q3 finals) · Sat 10/31 (GATE-BRK-R2 review).
+- **When:** Tue 10/13 (JPM, WFC, C) · Thu 10/15 (CRMT STD) · ~10/23–10/27 (OCIC/OTIC Q3 finals) · Sat 10/31 (GATE-BRK-R2 review).
 - **What would change my view — 🟢 de-escalate:** a named vehicle clearing ≥80% two quarters running (R2 downgrade rule) · OTF Q3 NII covering the dividend · a second consecutive quarterly decline in default rates at a top-tier name.
 - **🔴 escalate:** a PC/NDFI-attributable bank reserve build (BRK-31) · an arm's-length sub-90¢ loan print (BRK-25, count 2) · a first formal SEC enforcement filing on PC valuation (BRK-26 — the SEC staff's 9/28 fair-value statement is guidance, not enforcement).
 
@@ -63,7 +63,7 @@
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
 | 🟠 Tue 10/13 | CABO MBI close read (backstop Fri 10/16) | Who funds the rescue |
-| 🟠 Tue 10/13 · Wed 10/14 | Bank Q3: JPM, C · WFC | BRK-31 reserve BUILD |
+| 🟠 Tue 10/13 | Bank Q3: JPM, WFC, C (frame frozen 10/9) | BRK-31 reserve BUILD |
 | 🔴 Thu 10/15 | CRMT sixth-bridge STD | Seventh bridge / waiver / deal / acceleration |
 | 🟠 Wed 10/21 | CRMT Item 1.01 backstop #4 | Silence narrows only |
 | 🟡 Thu 10/22 | BX Q3 call | BCRED flows commentary |

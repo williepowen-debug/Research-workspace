@@ -1,6 +1,6 @@
 # BROCK — STATUS
 
-**Updated:** 2026-10-09 Fri ~10:10 ET — Tier-1 due-row wake (PROME prome-75, WQ-184/C6): **L585 GRADED — a SIXTH CRMT bridge, STD → Thu 10/15** · CABO no filing on close day · WQ-370 OTIC gate letter DRAFTED (pre-data) → PROME · drain 17/17 · NEXUS_BRIEF re-folded. **Session narrative → the CURRENT catch-up named in `catchups/INDEX.md`**.
+**Updated:** 2026-10-09 Fri 11:00 ET — Tier-1 bounded spawn (PROME prome-75): Kellermeyer on FSK's SOI CONFIRMED (KB-BRK-325) · BRK-31 bank-Q3 frame FROZEN · WFC Q3 = Tue 10/13 (KB-BRK-327) · BRK-26 spec question (KB-BRK-326). Narrative → CURRENT catch-up (`catchups/INDEX.md`).
 
 ---
 
@@ -12,7 +12,7 @@
 | **Thu 10/15** (read ~16:30 ET or 10/16 AM) | **CRMT SIXTH-bridge STD** — L585 graded 10/9: 8-K 0001171843-26-006538 (10/8 16:05:15 ET) STD + relief → 10/15 (KB-BRK-321) | Full feed `CIK0000799850`, every form type, document text; acceptance time from the EDGAR INDEX page (JSON clock +4h again on 10/9). Silence on the day grades nothing |
 | Thu 10/15 · Wed 10/21 | CRMT Item 1.01 backstop **L586** (≤10/8 — the bridge-6 agreement HAS filed; live only for some OTHER agreement) · **backstop #4 Wed 10/21** for any agreement dated ≤10/15 (CATALYSTS). Mon 10/12 Columbus Day, INFERRED EDGAR-closed | silence narrows, never grades "no extension" |
 | **Tue 10/13** (backstop Fri 10/16) | **Cable One (CABO) MBI close** was due Fri 10/9 — **NO filing at 09:58 ET 10/9**; stock −22.7% intraday, cause UNEXPLAINED at primary (KB-BRK-322) | Full CABO feed; who writes the new money? |
-| Tue 10/13 · Wed 10/14 | Bank Q3 (JPM/C 10/13 · WFC 10/14 verified): **BRK-31** — any PC/NDFI-attributable reserve BUILD at 1 of the 11 | Bank warehouse/NDFI vector 🟠3 moves only on a BUILD |
+| **Tue 10/13** JPM/WFC/C (verified 10/9) → 10/22 | Bank Q3: **BRK-31** — read ONLY against FROZEN `research/2026-10-09_BRK-31_bank-Q3_frame_FROZEN.md`; Q3 cannot resolve FALSE | Bank warehouse/NDFI vector 🟠3 moves only on a BUILD |
 | Mon 10/5 → | HY >320 ×3 (RED-FT-02 / REG-T-03) — LIQUID/RED own the count; HY **315 [FRED 10/8]** (303 10/6 · 309 10/7), 1.6% under 320. **My watch: CCC/BB 6.454 [FRED 10/8]** (6.562 10/6 · 6.503 10/7) — HY WIDENING 303→315 while CCC/BB FELL: CCC +3.1% (12.14→12.52) vs BB +4.9% (1.85→1.94); FORUM W3 "≤5.93 ×2 obs" (grades 11/30) not met | MY signal only if CCC/BB turns UP DURING a widening — 10/6→10/8: widening, ratio DOWN ⇒ not met (X1 test (b) needs both) |
 | Thu 10/22 · ~late Oct · 10/31 · ~11/3–11/5 | BX Q3 (verified) · **OCIC Q3 final** grades R2 **(b) only** ((a) fired 10/2; ~30% > 25) · **North Haven Q3 final ~11/05** grades R2 (b) (prelim 43.8%; (a) fired 9/25) · **GATE-BRK-R2 review 10/31** · APO Q3 (EST.) | R2: (a) on the first issuer-stated figure (any form type — watch 8-K 7.01 letters), (b) on the FINAL |
 | ~mid-Nov | **BCRED Q3 10-Q** — the FINAL DOLLAR value of the Q3 tender (Valuation Date 9/30/26) | no Q3 dollar figure exists before it |
@@ -104,7 +104,7 @@
 - **BRK-30 — ✅ RESOLVED-TRUE, graded 2026-09-03** (`workbook/PREDICTIONS.tsv`; BCRED Q3 ~50% satisfaction; calibration ≈0 — its letter was already true at registration, LESSONS #32). *Pre-grade record + the 10/2 RED correction → `catchups/2026-10-02.md`.*
 - **BRK-32 (11/30):** Q3 demand vs frozen baseline L1 12.92% / L2 13.39%. ⚠️ **BCRED = 46.1% of L2 ⇒ a BCRED-only move gives lens disagreement ⇒ NO-CALL.** 🆕 **BCRED net assets $45.04B → $42.78B (Q2) — the L2 weight needs re-basing before this resolves.**
 - **BRK-25 (arms-length sub-90¢ print, 12/31, 45%): COUNT STAYS AT 2.** External defect — resolves by counting misses. 🆕 A plausible **emitter** named (Delaware Life, verdict 4). **An emitter is not a print: count and confidence unmoved.**
-- **BRK-26 (first SEC enforcement FILING, 12/31, 55% HELD):** mechanism hardened again (Delaware Life distribution pause; SEC v. Chu charges three named Tricolor execs — ⚠️ **Tricolor is ABS, not PC valuation/disclosure, and does NOT grade BRK-26**). **NO CHARGES on any PC-valuation matter. Threshold unmet.**
+- **BRK-26 (first SEC enforcement FILING, 12/31, 55% HELD):** mechanism hardened again (Delaware Life distribution pause; SEC v. Chu charges three named Tricolor execs — ⚠️ **Tricolor is ABS, not PC valuation/disclosure, and does NOT grade BRK-26**). **NO PC-valuation charges since registration (5/1). Unmet.** ⚠️ A 2/25/26 order predates it (KB-BRK-326) — spec question, PROME.
 
 ### 5. TRIGGER LADDER — rotated (full table + state paragraph: `archive/STATUS_ROTATED_2026-09-02.md` / `_2026-09-18.md`; pointer text in `catchups/2026-10-02.md`). Live status of every row is in §1–§4.
 
@@ -112,4 +112,4 @@
 STEP 2 needs 2 of 3 reversals to override. ① BCRED gate + NA declining — ❌ (first-ever 5% gate; Q3 cap held; 8/28 primary: NA 2.4→2.2% but distribution CUT 10% and NAV −2.23%). ② FSK/OBDC Q2 NA reversing — ❌ (FSK NAV −2.81%, FV/Cost .9171→.9059; OBDC −1.04%). ③ OTF software-exit — ❌ not observed. **⇒ 0/3, substance does not override.** ⚠️ STEP 2 applies only once the literal trigger fires (0/10 <260 — authorises nothing either direction).
 ## BOTTOM LINE
 
-**2026-10-09 — Car-Mart's lenders rolled the bridge a sixth time, to Thu 10/15 (8-K 10/8 16:05 ET), same "significant progress" text, no deal or waiver.** Cable One's MBI close was due today: nothing filed, stock ~−23%, no primary cause found. The OTIC gate Will asked for is drafted pre-data and with PROME. R2 FIRED ×2, no score moved, $0. *Earlier bottom lines → `catchups/`.*
+**2026-10-09 — Kellermeyer sits on FSK's books as Semafor said: FSK controls it; one first-lien loan at 98.4¢ accruing PIK, the other at 10.1¢ on non-accrual, equity $0 (Q2-26 10-Q).** One name; no vector moves. The BRK-31 frame is frozen before JPM, WFC and C all print Tue 10/13. *Earlier → `catchups/`.*
