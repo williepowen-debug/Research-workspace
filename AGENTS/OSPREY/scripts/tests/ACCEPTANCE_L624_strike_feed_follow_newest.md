@@ -1,7 +1,7 @@
 # ACCEPTANCE — DOCKET L624: `strike_feed.py` follow_newest bulletin (written BEFORE the fix edit)
 
 **Owner:** OSPREY · **Class:** WQ-229 consequential (a RECURRED dead-source-looks-quiet defect) ⇒ an independent reader devises ≥1 counterexample of its own before this is called fixed. · **Written:** 2026-10-09 10:56 EDT (from `date`), OSPREY fix-pass session. · **Committed alone, before any edit to `strike_feed.py`.**
-**reads: 1** — read 1: coldread-l624 (Opus, PROME prome-75), 2026-10-09 10:30 EDT, ledger `PROME/reports/2026-10-09_L624_strike-feed-patch_read_1.md` → STILL UNRESOLVED (3 ❌ · 4 ⚠️). The fix that answers it is UNREVIEWED until READ 2.
+**reads: 2** — read 1: coldread-l624 (Opus, PROME prome-75), 2026-10-09 10:30 EDT, ledger `PROME/reports/2026-10-09_L624_strike-feed-patch_read_1.md` → STILL UNRESOLVED (3 ❌ · 4 ⚠️). Read 2: coldread-l624-2, 2026-10-09 11:09 EDT, ledger `PROME/reports/2026-10-09_L624_strike-feed-patch_read_2.md` → STILL UNRESOLVED (1 ❌ · 7 ⚠️) — answered by **PASS 2** below; READ 3 (the episode's last) is PROME's to commission.
 
 ## The defect, in its own terms
 
@@ -49,3 +49,56 @@ The `follow_newest` source (Palaemon's weekly maritime-security bulletin, client
   3. A PAST-year typo on the real newest (2025 for 2026) is not caught: the link sorts as old, a genuinely older bulletin is followed, and the typo'd one is dropped with no note. The future-date guard covers only START > run date.
   4. The followed body is cut at 20,000 chars; the live page normalises to 715,081 chars, script-dominated, with the incident list at char ~480,659 — so `matched_tokens` on the bulletin row are not read from the report text. Pre-existing; out of L624 scope; the row still says read manually.
   5. Network was used once, only to build the real fixture (index 200, 1,160,782 B; one post 200, 909,909 B). No live `strike_feed.py` run was made in this session.
+
+---
+
+# PASS 2 — READ 2 ❌8 (acceptance written BEFORE the pass-2 edit)
+
+**Written:** 2026-10-09 12:58 EDT (from `date`), OSPREY fix-pass-2 session (PROME prome-75 spawn). **Committed alone, before any pass-2 edit to `strike_feed.py`.**
+**reads: 2** — read 2: coldread-l624-2 (Opus, PROME prome-75), 2026-10-09 11:09 EDT, ledger `PROME/reports/2026-10-09_L624_strike-feed-patch_read_2.md`. It found **STILL UNRESOLVED** (24 claims: 16 ✅ · 7 ⚠️ · 1 ❌) against fix `04d8f06be`. ⚠️ **This is OSPREY's SECOND correction pass on this file, so the two-correction stop trips after it.** Any later change needs READ 3, the episode's last read. `strike_feed.py` stays **WITHHELD** from operational use until READ 3 is clean.
+
+## The defect (❌8, in its own terms)
+
+`pick_newest()` skips a link with an unusable date and leaves no note (`if s is None: continue`). It names only FUTURE links. Then the note writes "newest of N index links" on an older item. So when the real newest has a date defect, last week's bulletin is followed and labelled fresh (`BULLETIN — read manually`, NOT_READ=0), and the real newest appears nowhere. This is the "row indistinguishable from a fresh read" that AC3/AC5 exist to end. Pass-1 residue 3 (past-year typo) was this silence written down as a limit. The four failing cases:
+- **CX1:** title year typo on a cross-year newest ("29th December - 4th January 2026", slug `…-2027`).
+- **CX1b:** past-year typo in title AND slug.
+- **CX2:** format drift ("5th - 11th Oct 2026").
+- **CX2b:** "Week 41, 2026".
+
+The live index is newest-first in document order (real fixture). So a followed item that is not the first matching link is a free tell, and the code threw it away.
+
+## Acceptance conditions (pass 2)
+
+- **AC10: no matching link that could be newer than the followed bulletin is skipped silently.** A **doubt link** is any matching index link of a `follow_newest` source, other than the followed one, that meets either test:
+  - **(a)** it sits ABOVE the followed link in document order; or
+  - **(b)** it has no usable window date, anywhere on the index. That covers an unparseable date (format drift) and a START after the run date (future typo).
+
+  If one or more doubt links exist and the followed bulletin is dated, the row is handled as follows:
+  - its `ledger_match` reads `BULLETIN_NEWEST_UNSURE …`, and NOT_READ counts it;
+  - its `note` names every doubt link (URL plus the reason: *above the followed link* / *no parseable date* / *FUTURE start*), up to 5, then "+N more";
+  - if the followed bulletin is also stale, the label says `BULLETIN_STALE` inside it. It is still one row, counted once.
+
+  If no eligible dated link exists, the row is `BULLETIN_UNDATED` as before, and the note names the other unusable links. On a body-fetch failure, the one `FETCH_FAILED (newest post)` row's note carries the same tokens and names. The note never says "newest" for the followed item. It says "latest window END of K dated links, position P of N".
+  - **Counterexamples that must fail closed:** CX1 · CX1b · CX2 · CX2b ⇒ `BULLETIN_NEWEST_UNSURE`, NOT_READ = 1, the real newest's URL in the note.
+  - **Pass-1 expectations SUPERSEDED BY DESIGN, stated so a reader does not read them as regressions:**
+    - X2 (a June "most read" link above the real newest) changes NOT_READ 0 → 1.
+    - X3 (a 2062 future typo above the real newest) changes NOT_READ 0 → 1.
+
+    In both, date and document order disagree, and the safe direction is NOT read. AC1 still holds: the followed row is the 28 Sep–4 Oct link, and no older link is emitted as a row.
+  - **Must NOT fire (no crying wolf):** the real 10/9 index (14 links, newest-first) read 10/9 ⇒ fresh, NOT_READ = 0, no `NEWEST_UNSURE`. Dated links BELOW the followed one are not doubt links.
+  - **Interpretation, stated because the reader can contest it:** the owner's "past-dated" is detectable only through order. A past-typo'd real newest sits ABOVE the followed link on a newest-first page, so (a) catches it. A past-typo'd link BELOW the followed one looks the same as an honest older bulletin. That case is declared residue, not fixed.
+- **AC11: the three READ-2 ⚠️ that are code (16, 17, 18) are fixed.**
+  - **⚠️16:** the followed row's `pub_date` = the window END (the date staleness keys on), and the note says `pub_date = window END`. Live mis-slug fixture: `pub_date` 2026-09-20, not 2026-09-07.
+  - **⚠️17:** on a body-fetch failure, the stdout summary reads `(followed: FETCH_FAILED (newest post))`, never `(followed: BULLETIN)`.
+  - **⚠️18:** `BULLETIN_STALE` names its cutoff basis (`run − days_back N d`). When `days_back` < 10, it says an on-time weekly bulletin can read STALE at that window, and it does not give "publisher stopped" as the cause. CX5b: `--days 3`, 28 Sep–4 Oct read 10/9 ⇒ `BULLETIN_STALE` (still NOT_READ, the safe direction) with `days_back 3` and `on-time` in the label.
+- **AC12: the prior code fails first (AC8, pass 2).** Every new pass-2 test FAILS with `STRIKE_FEED_PATH` = a copy of `04d8f06be`'s `strike_feed.py`. The fixed code passes the whole file, old tests included.
+
+## Neighbours (pass 2; CONSIDER all five)
+
+| # | Category | Disposition |
+|---|---|---|
+| 1 | Ordinary | real 10/9 index ⇒ fresh, NOT_READ 0, no UNSURE. Older dated links BELOW the followed one (AC7 `index(OCT, JUN)`, AC2 body-success) ⇒ no doubt. Tested. |
+| 2 | Overlap | doubt + stale followed bulletin ⇒ one row, `NEWEST_UNSURE` naming the doubt link AND carrying `BULLETIN_STALE`, NOT_READ 1. doubt + body-fetch failure ⇒ one `FETCH_FAILED (newest post)` row whose note carries `BULLETIN_NEWEST_UNSURE` and the name, NOT_READ 1. Tested. |
+| 3 | Wrong owner | the doubt rule runs only on `follow_newest` sources. A non-follow `html_index` with an undated link listed first is unchanged: no UNSURE, NOT_READ 0. Tested. |
+| 4 | Missing information | an unparseable link BELOW the followed one ⇒ still a doubt link (the index's newest is unknown) ⇒ UNSURE. A future-start link below ⇒ UNSURE. Tested. Duplicate hrefs keep their first position (pre-existing dedup, unchanged; not re-tested). |
+| 5 | Concurrent activity | N/A, as in pass 1: a single-writer CLI with one dated output pair per run. |
