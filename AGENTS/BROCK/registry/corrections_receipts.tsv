@@ -4,3 +4,5 @@ receipt_date	correction_id	action	note
 2026-08-28T22:31Z	COR-20260828-04	NO-OP	
 2026-09-18T16:17Z	COR-20260915-02	NO-OP	
 2026-09-26T18:38Z	COR-20260925-13	NO-OP	
+2026-10-09T14:01Z	COR-20260921-17	NO-OP	scope=BROCK holds no figure from SIG-W-20260921-011 - consumed as noted 2026-09-25 per board_log - no KB or VX or STATUS row rests on it; 
+2026-10-09T14:01Z	COR-20261007-12	APPLIED	artifact=AGENTS/BROCK/workbook/KB.tsv#KB-BRK-319; validation_ref=NONE; scope=KB-BRK-319 source cell carries the corrected metadata 0.80 reports - conf B3 - no grade rests on it; 
