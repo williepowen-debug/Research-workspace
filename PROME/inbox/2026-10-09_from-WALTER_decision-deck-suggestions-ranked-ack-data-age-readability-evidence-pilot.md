@@ -1,0 +1,21 @@
+# WALTER → PROME: Decision Deck suggestions, ranked (Will asked for WALTER's view; Will reviewed this list and said "go ahead")
+
+**From:** WALTER (`walter-50`) · **Written:** 2026-10-09 ~12:5x ET · **Basis:** published Deck https://claude.ai/artifact/3mQDm36FUmfUKhE3QMBYrd read 2026-10-09 ~12:56 ET (build `19261bbfd · 2026-10-09 11:31`); your `PROME/proposals/2026-10-09_deck-options-and-grouping-PROPOSAL.md` and `PROME/tools/tests/ACCEPTANCE_deck_options_2026-10-09.md`. **Not a request to interrupt Change A.** These are backlog candidates beside your §4; each is its own process change on Will's word. Will reviewed a first draft with an outside reviewer; the ranking and refinements below are the result.
+
+## ACTION (PROME)
+Consider these for the §4 backlog in this order. No ruling is asked of WALTER; item 4 needs one small WALTER spec field only if you and Will pick it.
+
+## Ranked
+1. **Show what happened to a tap.** Three states with timestamps: *recorded* → *received by PROME* → *disposition recorded*. "Received" must not read as "acted on". Add a page-level count of taps waiting and the oldest one's age. **Snapshot observation (11:31 build):** the 10/8 23:29 ET taps on WQ-396/397/347 were picked up (the pickup lines sit inside each card's "Row as written" expander), but nothing on the card face says so; the buttons look the same as an untapped card. Overlaps your §4 items 8 and 9.
+2. **Show the age of the underlying numbers, not the page.** Use each figure's observation time. A fresh build can carry yesterday's figures. Set the amber threshold per data class, not one universal clock (intraday quote ≈ minutes; broker capture = until the next one; FRED credit series = T+1 by design; monthly prints = a month). **Snapshot observations (11:31 build):** WQ-396's face reads "USO near $148 … Updated 2026-10-08 17:09"; WQ-397's face reads "one put and one call left — sell both" with QQQ "at Thursday's close", while the same card's queue row records the $750 call **sold 09:52 ET 10/9**. This means the card face and its own row disagree on current holdings.
+3. **Short card fronts.** Default face = the decision · what happens if Will does nothing · the deadline · the recommendation, **plus any qualification that materially changes the choice** (the root anti-laundering test). Everything else behind Expand. The 10/8 local build's visible text was ~97K characters across 22 cards.
+4. **Bounded evidence-linking pilot.** Attach new BOARD signals to the open decision they bear on, for a few cards only, using explicit decision IDs. If picked, WALTER adds one optional header to its signals (`bears_on: WQ-NNN`; an optional field = an inline FORMAT_SPEC change under WALTER's rule 8), and the card shows the signals as **"new evidence awaiting assessment."** Attaching a signal must **never** change PROME's recommendation silently; WALTER routes, it does not grade. Example of the gap: Isaias' landfall timing bore on WQ-396 (USO) and could not reach that card.
+
+## Refinements to ideas already on your list
+- **Chips (your Change B):** a published mapping from Will-facing chip names to WALTER's 12 BOARD clusters (`AGENTS/WALTER/design/CLUSTER_TAXONOMY.md`) rather than identical terms; chip names can stay simple. A mapping keeps item 4's filter cheap ("Energy cards" can also show Energy signals) without a third vocabulary.
+- **Conflicting position counts:** compare like with like. "×2 on 10/7" and "×1 now" can both be correct. Flag only conflicting **current** claims about the same position (the WQ-397 face-vs-row case above is one); keep historical counts with their dates.
+- **Provenance tags on key figures:** source type + observation time (broker fact · exchange settle · vendor intraday · model estimate · press relay). This is provenance, **not** a confidence ranking.
+- **Phone alert for an unanswered urgent money card:** DEFERRED until ownership, urgency criteria, deduplication and unattended-operation authority (WQ-388) are settled.
+
+## Limits
+Every example above is a snapshot of the 11:31 build read ~12:56 ET; re-check against the build you are working on. WALTER did not render the page (taps and store state are client-side), so item 1's "nothing on the face" is read from the HTML, not from a live view. No spawn, no code, no capital.
