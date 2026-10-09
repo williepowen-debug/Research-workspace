@@ -61,7 +61,7 @@
 
 | Asset | CREED / market evidence | How the mark compares | Base extra write-down | Stress extra write-down |
 |---|---|---|---|---|
-| Seattle office $56.1M | Downtown vacancy ~37%; conversions uneconomic; "clearest genuine cash-flow market" (MAP:25, :45). Vacant Seattle office trades at $100–180/SF (KB-OZK-177). OZK's own 760 Aloha exit was at 58% of appraisal | **$234/SF is 30–130% above the vacant band.** Carried at 95% of the appraisal | **15%** ($8.4M): appraisal-to-exit gap of 80%, the Boston-office analog | **40%** ($22.4M): 760 Aloha's 58%-of-appraisal outcome ≈ $180/SF |
+| Seattle office $56.1M | Downtown vacancy ~37%; conversions uneconomic; "clearest genuine cash-flow market" (MAP:25, :45). Vacant Seattle office trades at $100–180/SF (KB-OZK-177). OZK's own 760 Aloha was marked to an offer at 58% of appraisal (a mark to an offer, n=1, not a completed sale; closing UNCONFIRMED — corrected 2026-10-09 per OZK 10/8) | **$234/SF is 30–130% above the vacant band.** Carried at 95% of the appraisal | **15%** ($8.4M): appraisal-to-exit gap of 80%, the Boston-office analog | **40%** ($22.4M): 760 Aloha's 58%-of-appraisal outcome ≈ $180/SF |
 | Santa Monica office $44.8M | Glendale Plaza sold −61% vs 2017 (MAP:44, S). Santa Monica availability 34.6% (SEVEN §11) | **$689/SF on a building 15% leased.** Appraisal 11 months old | **20%** ($9.0M) | **45%** ($20.2M) |
 | Atlanta office $36.6M | No Atlanta comp in MAP. National office DQ 12.0%, SS 16.9% (MAP:25) | Already **43% of the $85.5M loan** and 100% of a **fresh** Jun'26 appraisal | **10%** ($3.7M): cost to sell plus drift | **35%** ($12.8M) |
 | Seattle life-sci $48.5M | Seattle A+C (MAP:45) | **Below Atrium's office-conversion value ($58M)** | **5%** ($2.4M) | **25%** ($12.1M) |
@@ -161,7 +161,7 @@ A **new $200M buyback** was authorized 6/29/26, effective 7/1/26–7/1/27 (10Q p
 ---
 
 ## BOTTOM LINE
-1. **Nothing has sold, so nothing has tested the marks.** H1 OREO sales were $6.9M at a −$16K result (`RIAD5415`). Six RESG assets ($288.0M) are carried at **86–100% of as-is appraisals**. **OZK's only disclosed vacant-Seattle-office exit cleared at 58% of appraisal.**
+1. **Nothing has sold, so nothing has tested the marks.** H1 OREO sales were $6.9M at a −$16K result (`RIAD5415`). Six RESG assets ($288.0M) are carried at **86–100% of as-is appraisals**. **OZK's only disclosed vacant-Seattle-office data point is a mark to an offer at 58% of appraisal (a mark to an offer, n=1, not a completed sale; closing UNCONFIRMED — corrected 2026-10-09 per OZK 10/8).**
 2. **The largest single risk is Boston 10 Prospect ($169.3M).** It has a **$0 allowance**, a 91% LTV on a Nov'25 appraisal, a 9% cushion, sits in a 26.4%-vacancy lab market, and its $330M "sale" does not reconcile. Base loss **$51M**, stress **$85M**.
 3. **Office OREO ($137.5M) is marked at $234–689/SF against a $100–180/SF band for vacant Seattle office** and −61% to −72% realized comps. Base **15%**, stress **40%**. The two OREO labs are already near their office-conversion values (base **5%**).
 4. **Named book $539.9M:** base **$78M**, stress **$202M**. Stress is **0.19× TTM PPNR ($1.08B)** and **~35bp of CET1** (11.80%). **Earnings drag, not capital.** OREO declines hit non-interest expense, not the provision, so the provision line understates the cost.
