@@ -1,6 +1,6 @@
 {
  "attention_errors": [],
- "built": "2026-10-09 14:35",
+ "built": "2026-10-09 19:37",
  "channels": {
   "AI capex": "elev",
   "Credit": "watch",
@@ -9,7 +9,7 @@
   "Japan / carry": "watch",
   "Metals": "elev",
   "Rates": "crit",
-  "War theaters + Europe + Russia + housing": "crit"
+  "War + Europe + Russia + housing": "crit"
  },
  "docket": [
   "2026-09-21 \ud83d\udd34 RUSSIAN MOBILISATION DECISION WINDOW OPENS \u2014 the Duma elec",
@@ -44,6 +44,7 @@
   "2026-10-12 FERC order on PJM IRAS petition (filed ~8/13, acceptance req",
   "2026-10-12 L462 RESIDUAL REPAIRS EB1\u2013EB3 (from CATO's Will-authorized i",
   "2026-10-12 OZK \u2014 RaDD BRIDGE OUTCOME READ: the $915M RaDD construction ",
+  "2026-10-12 PROME BLIND COUNTERPART READ OF DAEDALUS's CLOSEOUT at 71839",
   "2026-10-12 PROME BLIND COUNTERPART READ OF DAEDALUS's STARTUP PROCESS (",
   "2026-10-12 PROME PROCESS SLOT \u2014 the receipt command changed (WQ-399, DA",
   "2026-10-12 PROME R1 SLOT \u2014 APPLY DAEDALUS's summons fix (L548 patch, AG",
@@ -128,7 +129,7 @@
   "PROME": "ok",
   "RED": "ok",
   "REGINALD": "ok",
-  "SAM": "elev",
+  "SAM": "ok",
   "SHADE": "elev",
   "TERRY": "ok",
   "VIOLET": "elev",
@@ -162,25 +163,24 @@
  },
  "heartbeat_errors": [],
  "levels": {
-  "10Y Yield": 5.27,
-  "CCC OAS": 1229.0,
+  "10Y Yield": 5.28,
+  "CCC OAS": 1252.0,
   "Cushing": 24.744999999999997,
-  "HY OAS": 309.0,
-  "MOVE": 100.7,
-  "OZK": 44.86,
-  "USD/JPY": 157.87,
-  "VIX": 15.58,
-  "WAL": 75.5
+  "HY OAS": 315.0,
+  "MOVE": 98.52,
+  "OZK": 44.41,
+  "USD/JPY": 158.24,
+  "VIX": 14.83,
+  "WAL": 74.28
  },
- "one": "\ud83d\udd34 OIL JUMPED ON A THREAT; THE 30Y REOPENING PRINTED UNDER THE SECONDARY; FRIDAY'S DESKS GRADED NOTHING FIRED ON THE LEDGER: Brent Dec $103.36 (\u22120.9%) [vendor 09:43 10/9] after Thursday's threat-driven jump; Hurricane Isaias is now MAJOR (Cat 3, 120 mph, 959 mb at 7:20 CDT), landfall tonight \u2014 AEOLUS/CORAL grade Sat; HY OAS 315 [10/8] is 5bp UNDER the >320 line (RED and REGINALD both 0 of 3; the 10/1 324 was reset by 10/2), CCC 1,252 a window high, IG 82; NEXUS PRED-50 \u2705 OBSERVED (B widened on quiet-rate days) but the attribution reads (LIQUID ladder-wide, VULCAN incumbents flat) found no mechanism \u2014 Root B stays a CANDIDATE; VULCAN S5 FIRED (Firmus withdrew its ~$4.9B ASX IPO; composite 15/25, the first fire on the book; n=1, equity not debt); the UK 30Y did NOT fire on the 10/8 close (TE 5.9384 vs 6.000; 5.954 live 10/9, still contested to the 10/28 Budget); FALCON's ladder HELD on the Riyadh airport hits and the Houthi threat; QQQ 748.68 [09:51 10/9]: Will SOLD the Oct-09 750C @ $2.38 (09:52 ET) and holds the 755P \u00d71 + the USO 150C (15:00 stop) \u2014 his hand; the Fed Oct hike is priced OUT (PM 15.5 / Kalshi 18.0); discount-window credit $9.965B [10/7], highest since at least Jan 2024, one print. X1 stays CLOSED (8/28). Book mirror = the 10/8 INTRADAY capture (ANVIL ef2bc83f1) + the 750C fill unreconciled. $0 moved by PROME; STAND DOWN holds (WQ-192).",
+ "one": "\ud83d\udd34 NOTHING FIRED ON THE FIRE-LEDGER FRIDAY, BUT TWO DESK LETTERS DID (VULCAN S5 \u2014 the composite's first fire; WATT-12 HIT, PJM $2,978/MWh \u2014 desk letters, never ledger fires); the diesel crack RETRACED to Nov EST $107.16 (\u2212$6.42 d/d, still $17.00 clear of the $90.16 sell line; an ESTIMATE, TERRY grades); BRENT WITHDREW its \"Dated Brent >$120 anomaly\" label (the premium is REAL); Isaias (Cat 3, 120 mph) lands on the Gulf TONIGHT with 71.51% of Gulf oil shut in; HY OAS 315 [10/8] is 5bp UNDER the >320 line, both owners' counts 0 of 3; the 30Y reopening graded CLEAN (BOND); the UK 30Y did NOT fire 10/08 (HANS; the 10/9 close is HANS's); PRED-50's widening OBSERVED but its mechanism leg FAILED (Root B stays a CANDIDATE); COT #9 JOINT NOT-SPENT, 3rd consecutive; and on expiry day the 750C was SOLD $2.38 [10/9 scr] while the 755P \u00d71 and USO 150C dispositions are UNKNOWN until Will's capture \u2014 assignment (\u2248$75,500 QQQ short) / exercise ($15,000, unfundable) are CHECKED there, never inferred. X1 stays CLOSED (8/28). Mirror = the 10/8 INTRADAY capture (ANVIL ef2bc83f1) + the 09:52 screenshot. $0 moved by PROME; STAND DOWN holds (WQ-192).",
  "pending": [
-  "WQ-406 (10/9)",
-  "WQ-397 (10/9)",
-  "WQ-396 (10/9)",
   "WQ-382 (10/9)",
   "WQ-347 (10/9)",
   "WQ-204 (10/9)",
   "WQ-187 (10/9)",
+  "WQ-397 (10/10)",
+  "WQ-396 (10/13)",
   "WQ-404 (10/14)",
   "WQ-401 (10/14)",
   "WQ-394 (10/14)",

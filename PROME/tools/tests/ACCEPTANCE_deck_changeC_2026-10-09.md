@@ -26,6 +26,7 @@
 selftest (extended) → pytest → node harness (extended: peek node-identity case, preset-pin case, toggle persistence) → build → fragment diff vs live baseline → independent Opus read(s) to ❌ = 0 (ceiling 3) → republish → records.
 
 ## Closing section (2026-10-09 ~19:1x ET, prome-15 — written BEFORE read 3 so the final read grades the as-shipped contracts)
+**State update (2026-10-09 post-read-3, recorded at closeout after ARGUS ❌7):** read 3 DELIVERED, verdict SHIP at 1 ❌ · 5 ⚠️ — NO read of this episode returned ❌=0; the read-3 ❌ was fixed AFTER the final read (the one allowed post-read-3 ❌-only edit) and that fix is UNREVIEWED · shipped as Owed v98 (b8eb4118a). The line below records the state BEFORE read 3 and is superseded by this one.
 **State at this write: IMPLEMENTED · TESTED (26 pytest + 33 subtests + the extended node harness incl. production-handler key-guard/min-restore/blank-fallback cases + the selftest — count per its own run, never this line) · read 3 PENDING (the ship gate).** Episode: read 1 (coldread-deckC) 7 ❌ · 8 ⚠️ → all 7 fixed + ⚠️9–12/14; read 2 (coldread-deckC2) verified all seven closed with its own counterexamples, found 1 NEW ❌ (the fix pass hardcoded "12 pinned" into the blank-view note — the false-count class again) · 9 ⚠️ → the ❌ fixed (note built live, preset-aware, no baked number) + ⚠️3/⚠️8.
 
 **AC re-cuts (supersede the text above):**

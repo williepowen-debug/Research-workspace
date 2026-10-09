@@ -68,6 +68,40 @@ details.raw code,.expl code,.key code{font:12.5px/1.4 "IBM Plex Mono",monospace;
 .tapstate{font:13px/1.5 "IBM Plex Mono",monospace;padding:8px 10px;border-radius:4px;background:var(--chip)}
 .tapstate.sent{color:var(--ok)}.tapstate.err{color:var(--crit)}
 .grp{font:600 12px/1.6 "IBM Plex Mono",monospace;color:var(--muted);letter-spacing:.04em;margin:18px 0 8px}
+.chipbar{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 4px}
+.chipbtn{font:500 12.5px/1 "IBM Plex Mono",monospace;background:var(--chip);color:var(--ink);border:1px solid var(--line);border-radius:999px;padding:7px 12px;cursor:pointer}
+.chipbtn .n{margin-left:6px;color:var(--muted)}
+.chipbtn.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}.chipbtn.on .n{color:var(--accent-ink)}
+.chipnote{font:11.5px/1.4 "IBM Plex Mono",monospace;color:var(--muted);align-self:center}
+.viewbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0 4px}
+.vb-lbl{font:600 11px/1.4 "IBM Plex Sans",sans-serif;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.vb-sep{margin-left:10px}
+.vbtn,.pbtn{font:500 12.5px/1 "IBM Plex Mono",monospace;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:4px;padding:7px 11px;cursor:pointer}
+.vbtn.on,.pbtn.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.ovhide{display:none}
+.ovtable{margin:12px 0}.ovtable table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line);border-radius:6px}
+.ovtable th{font:600 11px/1.5 "IBM Plex Sans",sans-serif;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);cursor:default}
+.ovtable th[data-sort]{cursor:pointer}.ovtable th.sorted{color:var(--accent)}
+.ovtable td{font:13.5px/1.45 "IBM Plex Sans",sans-serif;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+.ovrow{cursor:pointer}.ovrow:hover td,.ovrow:focus-visible td{background:var(--chip)}
+.c-wq{font:600 13px/1.4 "IBM Plex Mono",monospace;color:var(--accent);white-space:nowrap}
+.c-title{max-width:34ch}.c-kind,.c-who,.c-since{font:12px/1.5 "IBM Plex Mono",monospace;color:var(--muted);white-space:nowrap}
+.ovgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px;margin:12px 0}
+@media (max-width:560px){.ovgrid{grid-template-columns:repeat(2,minmax(0,1fr))}.ovtile{padding:9px}}
+.ovempty{color:var(--muted);font-size:14px;margin:12px 0}
+.ovtile{display:flex;flex-direction:column;align-items:flex-start;gap:7px;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:12px;cursor:pointer;font:inherit;color:var(--ink)}
+.ovtile:hover,.ovtile:focus-visible{border-color:var(--accent)}
+.t-top{display:flex;gap:8px;align-items:center}.t-kind{font:11.5px/1.4 "IBM Plex Mono",monospace;color:var(--muted)}
+.t-title{font:600 14.5px/1.35 "IBM Plex Sans",sans-serif;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+#peek{position:fixed;top:0;right:0;width:min(600px,100vw);height:100vh;overflow:auto;background:var(--bg);border-left:1px solid var(--line);z-index:9;padding:14px 16px;box-shadow:-6px 0 24px rgba(0,0,0,.18)}
+.peekbar{display:flex;gap:8px;align-items:center;margin-bottom:10px;position:sticky;top:0;background:var(--bg);padding:4px 0;z-index:1}
+.pk{font:600 13px/1 "IBM Plex Mono",monospace;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:4px;padding:8px 12px;cursor:pointer}
+#pk-close{margin-left:auto}.pk-pos{font:12px/1.4 "IBM Plex Mono",monospace;color:var(--muted)}
+#peekbody .card{display:flex !important;margin-bottom:0}
+.chiphide{display:none}
+.pill.pin{background:var(--warn);color:#fff}
+.asof{font:12px/1.5 "IBM Plex Mono",monospace;color:var(--muted);margin:6px 0 0}
+details.more{margin:8px 0 0}details.more summary{cursor:pointer;font:500 13px/1.5 "IBM Plex Sans",sans-serif;color:var(--muted)}
 .unit{gap:10px}.unit+.unit{margin-top:14px}
 .unit-h .did{font:600 12px/1.4 "IBM Plex Mono",monospace;color:var(--accent)}
 .src{font:12px/1.5 "IBM Plex Mono",monospace;color:var(--muted);margin:0;overflow-wrap:anywhere}
@@ -86,10 +120,12 @@ details.raw code,.expl code,.key code{font:12.5px/1.4 "IBM Plex Mono",monospace;
 .toast.on{opacity:1}
 @media (max-width:560px){.expl{grid-template-columns:1fr;gap:2px 0}.expl dd{margin-bottom:8px}}
 @media (prefers-reduced-motion:reduce){.toast{transition:none}}
-</style></head><body data-view="reference" data-build="6514b7c6b·2026-10-09 14:35">
-<header class="top"><div class="wrap"><div class="brand"><h1>Decision reference</h1><span class="build">built 2026-10-09 14:35 · 6514b7c6b</span></div>
-<nav aria-label="Decision views"><a class="lnk" href="https://claude.ai/code/artifact/16655022-6e00-4cea-9916-7cb0ff304bca">Back to Owed decisions</a></nav><div class="tabs" role="tablist"><button type="button" class="tab" role="tab" data-for="decided" id="tab-decided">Decided<span class="n">354</span></button><button type="button" class="tab" role="tab" data-for="flight" id="tab-flight">In-flight<span class="n">11</span></button><button type="button" class="tab" role="tab" data-for="docket" id="tab-docket">Docket<span class="n">64</span></button></div></div></header>
-<main class="wrap"><section class="panel" id="decided" role="tabpanel"><div class="panelbar"><p class="store">Every ruled or done row, newest first. Your word is quoted verbatim where it was recorded.</p><span class="panelctl"><button type="button" class="lnk" data-all="min">Collapse all</button><button type="button" class="lnk" data-all="max">Expand all</button></span></div><article class="card done" id="wq-405"><div class="rail"><span class="num">WQ-405</span><span class="pill soft" title="ledger ← WILL_QUEUE.md § RECENTLY DONE">done 2026-10-09 · ledger</span><button type="button" class="tg" aria-expanded="true" title="Minimize or expand this card"><span class="tg-min">Minimize</span><span class="tg-max">Expand</span></button></div><div class="body"><h2>WALTER BOUNDARY ROWS #6 / #8 CONTRACT-MONTH BASIS (the 9/14 escalation) — RULED in WALTER&#x27;s window 10:29 ET 10/9, recor…</h2><details class="raw" open><summary>Ruling / record</summary><p>Encoded by WALTER the same sitting: ROUTING_OVERLAYS / ROUTING_TABLE / ROUTING_CARVEOUTS v0.41 + STATE.md (e3e34991e, pushed by PROME's train); prior letters verbatim in design/history/BOUNDARY_6_8_BEFORE_2026-10-09.md. Terms: #8 fires on the 3rd consecutive OFFICIAL settle strictly &gt; $50.00 on the…</p></details></div></article>
+</style></head><body data-view="reference" data-build="6bda77f30·2026-10-09 19:36 ET">
+<header class="top"><div class="wrap"><div class="brand"><h1>Decision reference</h1><span class="build">built 2026-10-09 19:36 ET · 6bda77f30</span></div>
+<nav aria-label="Decision views"><a class="lnk" href="https://claude.ai/code/artifact/16655022-6e00-4cea-9916-7cb0ff304bca">Back to Owed decisions</a></nav><div class="tabs" role="tablist"><button type="button" class="tab" role="tab" data-for="decided" id="tab-decided">Decided<span class="n">356</span></button><button type="button" class="tab" role="tab" data-for="flight" id="tab-flight">In-flight<span class="n">11</span></button><button type="button" class="tab" role="tab" data-for="docket" id="tab-docket">Docket<span class="n">64</span></button></div></div></header>
+<main class="wrap"><section class="panel" id="decided" role="tabpanel"><div class="panelbar"><p class="store">Every ruled or done row, newest first. Your word is quoted verbatim where it was recorded.</p><span class="panelctl"><button type="button" class="lnk" data-all="min">Collapse all</button><button type="button" class="lnk" data-all="max">Expand all</button></span></div><article class="card done" id="wq-407"><div class="rail"><span class="num">WQ-407</span><span class="pill soft" title="ledger ← WILL_QUEUE.md § RECENTLY DONE">done 2026-10-09 · ledger</span><button type="button" class="tg" aria-expanded="true" title="Minimize or expand this card"><span class="tg-min">Minimize</span><span class="tg-max">Expand</span></button></div><div class="body"><h2>DECK CHANGE C OVERVIEW PACKAGE — RULED A (Will in-session 2026-10-09 18:48 ET, verbatim &quot;WQ-407 A approved&quot;): build BOT…</h2><details class="raw" open><summary>Ruling / record</summary><p>Encoded the same evening (prome-15): acceptance file FIRST (ACCEPTANCE_deck_changeC_2026-10-09.md; the generator at its two-correction stop) → build → three independent Opus reads 7 ❌ → 1 ❌ → 1 ❌, read-3 verdict SHIP — NO read returned ❌=0; the read-3 ❌ (the from-blank Everything tap left a stale c…</p></details></div></article>
+<article class="card done" id="wq-406"><div class="rail"><span class="num">WQ-406</span><span class="pill soft" title="ledger ← WILL_QUEUE.md § RECENTLY DONE">done 2026-10-09 · ledger</span><button type="button" class="tg" aria-expanded="true" title="Minimize or expand this card"><span class="tg-min">Minimize</span><span class="tg-max">Expand</span></button></div><div class="body"><h2>VULCAN&#x27;s TWO POST-CLOSE READINGS 10/9 — CLOSED EXECUTED, no word needed: PROME&#x27;s re-wake RAN BOTH slots (the your-windo…</h2><details class="raw" open><summary>Ruling / record</summary><p>Re-wake vulcan-1009pm (Opus, Tier 1 on the ARMED CATALYSTS rows) spawned 15:58–16:00 ET: mag7 slot 5 RUN 16:00 ET — Mag-7 34.7494% [SPY fund wt, holdings 10/8], breadth −3.44pp (from −5.07pp), YELLOW, not fired · GPU panel reading 5 RUN, every URL re-read at the slot — on-demand mean 4.64 flat, SDH…</p></details></div></article>
+<article class="card done" id="wq-405"><div class="rail"><span class="num">WQ-405</span><span class="pill soft" title="ledger ← WILL_QUEUE.md § RECENTLY DONE">done 2026-10-09 · ledger</span><button type="button" class="tg" aria-expanded="true" title="Minimize or expand this card"><span class="tg-min">Minimize</span><span class="tg-max">Expand</span></button></div><div class="body"><h2>WALTER BOUNDARY ROWS #6 / #8 CONTRACT-MONTH BASIS (the 9/14 escalation) — RULED in WALTER&#x27;s window 10:29 ET 10/9, recor…</h2><details class="raw" open><summary>Ruling / record</summary><p>Encoded by WALTER the same sitting: ROUTING_OVERLAYS / ROUTING_TABLE / ROUTING_CARVEOUTS v0.41 + STATE.md (e3e34991e, pushed by PROME's train); prior letters verbatim in design/history/BOUNDARY_6_8_BEFORE_2026-10-09.md. Terms: #8 fires on the 3rd consecutive OFFICIAL settle strictly &gt; $50.00 on the…</p></details></div></article>
 <article class="card done" id="wq-402"><div class="rail"><span class="num">WQ-402</span><span class="pill soft" title="ledger ← WILL_QUEUE.md § RECENTLY DONE">done 2026-10-09 · ledger</span><button type="button" class="tg" aria-expanded="true" title="Minimize or expand this card"><span class="tg-min">Minimize</span><span class="tg-max">Expand</span></button></div><div class="body"><h2>TWO AFTERNOON WAKES PAST THE EIGHT (BRENT · VULCAN) — CLOSED OVERTAKEN BY WILL&#x27;S OWN HAND: he launched VULCAN (vulcan-f…</h2><details class="raw" open><summary>Ruling / record</summary><p>PROME doorbelled both by SendMessage 2026-10-09 10:15 ET with the registered items: VULCAN = its three 10/9 CATALYSTS rows + the WQ-341 OBSERVED-branch half; BRENT = COT #9 (GATE-BRENT-COT-35B review today) · Isaias/BSEE/Pascagoula pre-landfall read (L633, SIG -004) · NEXUS's M-06 settle ask · OSPR…</p></details></div></article>
 <article class="card done" id="wq-400"><div class="rail"><span class="num">WQ-400</span><span class="pill soft" title="ledger ← WILL_QUEUE.md § RECENTLY DONE">done 2026-10-09 · ledger</span><button type="button" class="tg" aria-expanded="true" title="Minimize or expand this card"><span class="tg-min">Minimize</span><span class="tg-max">Expand</span></button></div><div class="body"><h2>BOND&#x27;s VX-BND-19 &quot;DISORDERLY&quot; QUALIFIER — RULED: DEFINE it at a 5-session Bund 10Y rise &gt;17bp STRICT (the fitted-series…</h2><details class="raw" open><summary>Ruling / record</summary><p>Encode = BOND writes the bar into its VX-BND-19 score row at its next wake (DOCKET L617 → 10/14) and confirms by commit; a threshold set by Will's word, so BOND changes no number itself. Packet in BOND's inbox 10/9. Latest 5-session rise −9bp [BOND 10/8] ⇒ would NOT fire today. Prior OPEN row verba…</p></details></div></article>
 <article class="card done" id="wq-399"><div class="rail"><span class="num">WQ-399</span><span class="pill soft" title="ledger ← WILL_QUEUE.md § RECENTLY DONE">done 2026-10-08 · ledger</span><button type="button" class="tg" aria-expanded="true" title="Minimize or expand this card"><span class="tg-min">Minimize</span><span class="tg-max">Expand</span></button></div><div class="body"><h2>CORRECTION RECEIPTS — THE WRITER REQUIRES THE 9/17 FIELDS BEFORE D7 — RULED: APPROVE ① + ② (DAEDALUS adds --artifact / …</h2><details class="raw" open><summary>Ruling / record</summary><p>Packet: DAEDALUS (live window daedalus-4e, doorbelled + AGENTS/DAEDALUS/inbox/2026-10-08_from-PROME_WQ-399-RULED-receipt-writer-fields.md); DELIVERED by DAEDALUS 2026-10-08 15:46 ET (scripts/corrections_boot_check.py 112ccb908; selftest 51/51; independent + delta reads ❌0 ⚠️10, residue to D7); flee…</p></details></div></article>
@@ -551,5 +587,175 @@ details.raw code,.expl code,.key code{font:12.5px/1.4 "IBM Plex Mono",monospace;
       Array.prototype.slice.call(panel.querySelectorAll('.card')).forEach(function(c){ setMin(c, on, true); });
     });
   });
+  // Change B chips + Change C views/presets/peek (WQ-407 A; ACCEPTANCE_deck_changeC_2026-10-09.md).
+  // ONE filter governs cards, table rows and tiles: show = presetAllows && (pinnedNow || chip match).
+  // Pinned exemption stays STRUCTURAL (read first) — only the explicit 'Waiting on others' preset, a
+  // whole-group view, omits pinned cards of other groups (stated on its button).
+  var bar = document.querySelector ? document.querySelector('.chipbar') : null;
+  if (bar) {
+    var chips = Array.prototype.slice.call(bar.querySelectorAll('.chipbtn'));
+    var pbtns = Array.prototype.slice.call(document.querySelectorAll('.pbtn'));
+    var chipKey = 'deck.chip.' + document.body.dataset.view;
+    var presetKey = 'deck.preset.' + document.body.dataset.view;
+    var curChip = 'All', curPreset = 'all';
+    function etToday(){ try { return new Intl.DateTimeFormat('en-CA',{timeZone:'America/New_York',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date()); } catch(e){ var d = new Date(); return d.getFullYear() + '-' + ('0'+(d.getMonth()+1)).slice(-2) + '-' + ('0'+d.getDate()).slice(-2); } }
+    function allUnits(){ return Array.prototype.slice.call(document.querySelectorAll('#owed .card, #owed .ovrow, #owed .ovtile')); }
+    var applyFilters = function(chipVal, preset, save){
+      if (save === undefined) save = true;
+      curChip = chipVal; curPreset = preset;
+      chips.forEach(function(c){ c.classList.toggle('on', c.dataset.chip === chipVal); });
+      pbtns.forEach(function(b){ b.classList.toggle('on', b.dataset.preset === preset); });
+      var todayLocal = etToday();
+      allUnits().forEach(function(el){
+        var pinNow = el.dataset.pin === '1' || (el.dataset.due && el.dataset.due <= todayLocal);
+        var presetOk = preset === 'all' ? true
+                     : preset === 'today' ? (pinNow)
+                     : (el.dataset.grp ? el.dataset.grp === 'blocked' : el.classList.contains('blocked'));
+        var chipOk = pinNow || chipVal === 'All' || el.dataset.kchip === chipVal ||
+          (' ' + (el.dataset.dom || '') + ' ').indexOf(' ' + chipVal + ' ') >= 0;
+        if (preset === 'waiting') chipOk = true;           // the whole-group view ignores chips
+        el.classList.toggle('chiphide', !(presetOk && chipOk));
+      });
+      refreshGroups();
+      var emptyEl = document.querySelector('.ovempty');
+      if (emptyEl) {
+        var anyVisible = allUnits().some(function(el){ return !el.classList.contains('chiphide'); });
+        emptyEl.hidden = anyVisible;
+        if (!anyVisible) {                                 // read 2 ❌1: the note names the CAUSE and counts LIVE — nothing baked
+          var nCards = document.querySelectorAll('#owed .card').length;
+          emptyEl.textContent = 'Nothing matches this view — ' +
+            (preset === 'waiting' ? '"Waiting on others" shows only the blocked group, and it is empty right now.' :
+             preset === 'today' ? 'nothing is pinned or due today under this filter.' : 'this filter hides every card.') +
+            ' Tap Everything to see all ' + nCards + ' cards.';
+        }
+      }
+      refreshPeekPos();                                    // read 1 ⚠️11: the position line follows the live view
+      if (save) { try{ localStorage.setItem(chipKey, chipVal); localStorage.setItem(presetKey, preset); }catch(e){} }
+    };
+    function refreshGroups(){                              // read 1 ❌7: re-run after any relocation too
+      Array.prototype.slice.call(document.querySelectorAll('#owed .grp')).forEach(function(g){
+        var el = g.nextElementSibling, any = false;
+        while (el && !(el.classList && el.classList.contains('grp'))) {
+          if (el.classList && el.classList.contains('card') && !el.classList.contains('chiphide')) { any = true; break; }
+          el = el.nextElementSibling;
+        }
+        g.classList.toggle('chiphide', !any);
+      });
+    }
+    chips.forEach(function(c){ c.addEventListener('click', function(){ applyFilters(c.dataset.chip, curPreset); }); });
+    pbtns.forEach(function(b){ b.addEventListener('click', function(){
+      var blankNow = !allUnits().some(function(el){ return !el.classList.contains('chiphide'); });
+      // read 3 ❌1: from a blank page, Everything is the escape hatch the note names — it resets the chip
+      // too, so "see all N cards" is literally what the tap shows.
+      applyFilters(blankNow && b.dataset.preset === 'all' ? 'All' : curChip, b.dataset.preset);
+    }); });
+    var sv = 'All', sp = 'all';
+    try{ var s2 = localStorage.getItem(chipKey); if (s2 && chips.some(function(c){ return c.dataset.chip === s2; })) sv = s2;
+         var s3 = localStorage.getItem(presetKey); if (s3 === 'today' || s3 === 'waiting') sp = s3; }catch(e){}
+    applyFilters(sv, sp);
+    if (!allUnits().some(function(el){ return !el.classList.contains('chiphide'); })) {
+      applyFilters(sv, 'all', false);                      // read 1 ❌5: a saved view may never open a BLANK page
+    }
+    if (location.hash) { var tgt = document.getElementById(location.hash.slice(1)); if (tgt && tgt.classList && tgt.classList.contains('chiphide')) applyFilters('All', 'all', false); }
+
+    // --- view toggle (AC-C1) ---
+    var vbtns = Array.prototype.slice.call(document.querySelectorAll('.vbtn'));
+    var ovTable = document.querySelector('.ovtable'), ovGrid = document.querySelector('.ovgrid');
+    var listWrap = document.getElementById('listwrap');
+    var viewKey = 'deck.viewmode.' + document.body.dataset.view;
+    var curView = 'list';
+    function setView(v, save){
+      curView = v;
+      vbtns.forEach(function(b){ b.classList.toggle('on', b.dataset.view === v); });
+      if (ovTable) ovTable.hidden = (v !== 'table');
+      if (ovGrid) ovGrid.hidden = (v !== 'board');
+      if (listWrap) listWrap.classList.toggle('ovhide', v !== 'list');
+      closePeek();                                       // read 1 ⚠️12: a view switch always closes the peek — its order belongs to one view
+      if (save === undefined || save) { try{ localStorage.setItem(viewKey, v); }catch(e){} }
+    }
+    vbtns.forEach(function(b){ b.addEventListener('click', function(){ setView(b.dataset.view); }); });
+    var v0 = 'list'; try{ var vs = localStorage.getItem(viewKey); if (vs === 'table' || vs === 'board') v0 = vs; }catch(e){}
+
+    // --- table sort (AC-C2 as re-cut): due default (pinned first), wq; open-since is not sortable ---
+    function sortTable(key){
+      if (!ovTable || !ovTable.querySelector) return;
+      var tb = ovTable.querySelector('tbody'); if (!tb) return;
+      var rows = Array.prototype.slice.call(tb.querySelectorAll('.ovrow'));
+      var todayS = etToday();
+      function pinNowOf(el){ return el.dataset.pin === '1' || (el.dataset.due && el.dataset.due <= todayS); }
+      rows.sort(function(a, b){
+        if (key === 'wq') return parseInt(a.dataset.wq, 10) - parseInt(b.dataset.wq, 10);
+        var p = pinNowOf(b) - pinNowOf(a);                 // read 1 ⚠️10: the sort's pin = the filter's pin
+        return p !== 0 ? p : String(a.dataset.due).localeCompare(String(b.dataset.due));
+      });
+      rows.forEach(function(r){ tb.appendChild(r); });
+      Array.prototype.slice.call(ovTable.querySelectorAll('th[data-sort]')).forEach(function(h){ h.classList.toggle('sorted', h.dataset.sort === key); });
+    }
+    if (ovTable && ovTable.querySelectorAll) Array.prototype.slice.call(ovTable.querySelectorAll('th[data-sort]')).forEach(function(h){ h.addEventListener('click', function(){ sortTable(h.dataset.sort); }); });
+
+    // --- the peek (AC-C4): relocate the REAL card node; return it to its exact slot on close ---
+    var peek = document.getElementById('peek'), peekBody = document.getElementById('peekbody'), pkPos = document.getElementById('pk-pos');
+    var peekAnchor = null, peekedCard = null, peekedWasMin = false;
+    function refreshPeekPos(){
+      if (!peekedCard || !pkPos) return;
+      var ord = visOrder(), i = ord.indexOf(peekedCard.dataset.wq);
+      pkPos.textContent = (i >= 0 ? (i + 1) + ' of ' + ord.length + ' in view' : 'WQ-' + peekedCard.dataset.wq + ' (filtered out of this view)');
+    }
+    function visOrder(){
+      var src = curView === 'table' ? '#owed .ovrow' : '#owed .ovtile';
+      return Array.prototype.slice.call(document.querySelectorAll(src)).filter(function(el){ return !el.classList.contains('chiphide'); }).map(function(el){ return el.dataset.wq; });
+    }
+    function closePeek(){
+      if (!peekedCard) return;
+      if (peekAnchor && peekAnchor.parentNode) { peekAnchor.parentNode.insertBefore(peekedCard, peekAnchor); peekAnchor.parentNode.removeChild(peekAnchor); }
+      peekedCard.classList.remove('peeked');
+      if (peekedWasMin) peekedCard.classList.add('min');   // read 1 ❌4: a minimized card goes back minimized
+      peekAnchor = null; peekedCard = null; peekedWasMin = false;
+      if (peek) peek.hidden = true;
+      refreshGroups();                                     // read 1 ❌7: headings recount after the node returns
+    }
+    function openPeek(wq){
+      var card = document.getElementById('wq-' + wq); if (!card || !card.parentNode || !peekBody) return;
+      closePeek();
+      peekAnchor = document.createComment ? document.createComment('peek-' + wq) : null;
+      if (peekAnchor) card.parentNode.insertBefore(peekAnchor, card);
+      peekBody.appendChild(card);                          // the SAME node — taps/options/tapstate all live (AC-C4)
+      peekedWasMin = card.classList.contains('min');
+      card.classList.add('peeked'); card.classList.remove('min');
+      peekedCard = card; peek.hidden = false;
+      var ord = visOrder(), i = ord.indexOf(wq);
+      if (pkPos) pkPos.textContent = (i >= 0 ? (i + 1) + ' of ' + ord.length + ' in view' : 'WQ-' + wq);
+    }
+    function peekStep(dir){
+      if (!peekedCard) return;
+      var ord = visOrder(), i = ord.indexOf(peekedCard.dataset.wq);
+      var nx = ord[i + dir]; if (nx !== undefined) openPeek(nx);
+    }
+    allUnits().forEach(function(el){
+      if (el.classList.contains('card')) return;
+      var act = function(){ openPeek(el.dataset.wq); };
+      el.addEventListener('click', act);
+      el.addEventListener('keydown', function(ev){ if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); act(); } });
+    });
+    var pkPrev = document.getElementById('pk-prev'), pkNext = document.getElementById('pk-next'), pkClose = document.getElementById('pk-close');
+    if (pkPrev) pkPrev.addEventListener('click', function(){ peekStep(-1); });
+    if (pkNext) pkNext.addEventListener('click', function(){ peekStep(1); });
+    if (pkClose) pkClose.addEventListener('click', closePeek);
+    if (document.addEventListener) document.addEventListener('keydown', function(ev){
+      if (!peekedCard) return;
+      var tg = ev.target;                                  // read 1 ❌3: never hijack keys while the operator types
+      if (tg && (tg.tagName === 'INPUT' || tg.tagName === 'TEXTAREA' || tg.isContentEditable)) return;
+      if (ev.key === 'Escape') closePeek();
+      else if (ev.key === 'ArrowLeft') peekStep(-1);
+      else if (ev.key === 'ArrowRight') peekStep(1);
+    });
+    setView(v0, false);
+    sortTable('due');
+    // read 1 ❌6: a deep link still lands when the saved view hides the list — open the card in the peek
+    if (location.hash && curView !== 'list') {
+      var dlCard = document.getElementById(location.hash.slice(1));
+      if (dlCard && dlCard.classList && dlCard.classList.contains('card') && dlCard.dataset.wq) openPeek(dlCard.dataset.wq);
+    }
+  }
 })();
 </script></body></html>
