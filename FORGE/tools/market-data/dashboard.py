@@ -280,6 +280,12 @@ def fetch_all(series_list):
         if entry["value"] is None or entry["prev"] is None:
             entry["change"] = None
 
+        # L546: a converted series with no declared precision is a visible gap, never a silent
+        # default — flagged here, after EVERY source branch (fred, eia, ...), not inside one of them
+        # (read 1 refuted the FRED-only placement: Cushing is an EIA series).
+        if s.get("multiply", 1) != 1 and s.get("precision") is None:
+            entry["flags"].append("⚠precision undeclared (L546)")
+
         # Classify
         if entry["value"] is not None:
             entry["zone"] = classify(entry["value"], s)

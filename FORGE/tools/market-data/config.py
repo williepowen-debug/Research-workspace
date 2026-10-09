@@ -5,6 +5,8 @@ Agent mapping, thresholds, and signal classification.
 Lens: MARKET STRESS (🔴 = conditions worsening, regardless of position P&L)
 Approved: Will, Mar 28 2026
 """
+import sys
+
 
 # ---------------------------------------------------------------------------
 # Threshold definitions
@@ -45,6 +47,7 @@ SERIES = [
         "kill_below": 260,  # documented secondary check; classify() ignores this
         "notes": ">280 sustained, level leg only (X1); <260x2closes=bear-axis kill; 350=issuance freeze",
         "multiply": 100,
+        "precision": 0,  # L546: bp are integers — classify() rounds to this before any edge compare
     },
     {
         "name": "CCC OAS",
@@ -57,6 +60,7 @@ SERIES = [
         "yellow": (900, 1000),
         "red": (1000, None),
         "multiply": 100,
+        "precision": 0,  # L546: bp are integers — classify() rounds to this before any edge compare
         "notes": "Forced selling regime",
     },
     {
@@ -191,6 +195,7 @@ SERIES = [
         "yellow": (20.0, 25.0),
         "red": (None, 20.0),
         "multiply": 0.001,  # EIA returns thousand barrels -> M bbl
+        "precision": 3,  # L546: M bbl to the thousand barrels EIA publishes — classify() rounds to this before any edge compare (found by the self-test guard, not by the row's enumeration)
         "notes": "<20M bbl = operational min / WTI dislocation (ROUTING_TABLE Boundary #3)",
     },
 
@@ -365,10 +370,30 @@ SERIES = [
 # Helpers
 # ---------------------------------------------------------------------------
 
+def undeclared_precision(series):
+    """Names of series that declare `multiply` without `precision` (L546: a declared defect, never a silent default)."""
+    return [s["name"] for s in series if "multiply" in s and "precision" not in s]
+
+
+def _edge_value(value, series_def):
+    """Round a converted value to the series' declared precision before any band comparison.
+
+    L546 (2026-10-08): a FRED percent ×100 is not always exact in binary (1.13*100 =
+    112.99999999999999), so a print exactly ON a whole-bp edge could land on either side
+    of a band — in the false-all-clear direction under the `<` tests below. `precision` =
+    decimal places of the CONVERTED unit (bp ⇒ 0). With no `precision` declared the raw
+    value is compared unchanged — nothing is silently rounded; `undeclared_precision()`
+    (self-test below, dashboard flag) names the gap instead.
+    """
+    prec = series_def.get("precision")
+    return value if prec is None else round(value, prec)
+
+
 def classify(value, series_def):
     """Return 'green', 'yellow', or 'red' for a given value."""
     if value is None:
         return "unknown"
+    value = _edge_value(value, series_def)
 
     g = series_def["green"]
     y = series_def["yellow"]
@@ -460,10 +485,29 @@ if __name__ == "__main__":
         ("KRE", 58, "red"),         # lost $60 major support
         ("KRE", 65, "yellow"),
         ("KRE", 75, "green"),
+        # L546 on-edge regression — today's FORGE edges convert exactly (2.65*100 == 265.0 etc.),
+        # so these pass before and after the rounding; the binary-tie cases live in
+        # PROME/tools/tests/test_l546_float_tie.py (synthetic edges 113 / 201).
+        ("HY OAS", 2.65 * 100, "yellow"),
+        ("HY OAS", 2.80 * 100, "red"),
+        ("CCC OAS", 9.00 * 100, "yellow"),
+        ("CCC OAS", 10.00 * 100, "red"),
     ]
     print("Classification tests:")
+    failures = 0
     for name, val, expected in test_cases:
         s = next(x for x in SERIES if x["name"] == name)
         result = classify(val, s)
         status = "✅" if result == expected else "❌"
+        failures += result != expected
         print(f"  {status} {name}={val} → {get_emoji(result)} {result} (expected {expected})")
+
+    # L546: every series that converts units must declare the precision classify() rounds to.
+    missing = undeclared_precision(SERIES)
+    print()
+    if missing:
+        print(f"❌ Precision declarations (L546): multiply without precision: {missing}")
+    else:
+        print("✅ Precision declarations (L546): every multiply-series declares precision")
+    if failures or missing:
+        sys.exit(1)

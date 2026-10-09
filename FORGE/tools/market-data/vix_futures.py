@@ -155,6 +155,9 @@ def compute_steepness(contracts: list[dict], as_of: date) -> dict:
         adjusted_reason = "no roll adjustment needed"
 
     def classify(pct: float) -> str:
+        # Callers pass the SAME 3-dp value the JSON publishes (L546, 2026-10-08): the unrounded
+        # ratio×100 mis-landed 8 of 8 reachable exact-5.6% pairs ((13.20-12.50)/12.50*100 =
+        # 5.599999999999994 → BELOW_AVG at exactly average), so label and number disagreed.
         if pct < 0:
             return "BACKWARDATION"
         if pct < AVG_STEEPNESS:
@@ -170,13 +173,13 @@ def compute_steepness(contracts: list[dict], as_of: date) -> dict:
             "back": m2,
             "steepness_pct": round(strict, 3),
             "m1_days_to_expiry": m1_dte,
-            "classification": classify(strict),
+            "classification": classify(round(strict, 3)),  # L546: label the 3-dp value published above
         },
         "adjusted": {
             "front": adjusted_front,
             "back": adjusted_back,
             "steepness_pct": round(adjusted, 3),
-            "classification": classify(adjusted),
+            "classification": classify(round(adjusted, 3)),  # L546: same rounded value as steepness_pct
             "reason": adjusted_reason,
         },
         "thresholds": {
