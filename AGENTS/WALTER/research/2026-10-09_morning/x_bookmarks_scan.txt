@@ -1,0 +1,56 @@
+X-BOOKMARK scan — Will's new bookmarks
+================================================================
+
+[11 new bookmarks since last launch, M dispatched]   (M = how many you route below)
+
+[NEW bookmarks to ROUTE — 11]  source: x-bookmark  (Will-originated — do not kill on Novelty without reading the body)
+
+  1. 2107963161471242403  @SunWeatherMan  2026-10-07T22:35:56.000Z  [DIG: media]
+     │ 100% a sign that the weakening magnetic field is allowing solar plasma to penetrate deeper and deeper. https://t.co/egmCqarrTA
+     🖼  photo: https://pbs.twimg.com/media/HUD9TrWaoAAt4f4.jpg
+
+  2. 2108117567470485853  @randgroup  2026-10-08T08:49:29.000Z  [DIG: media]
+     │ This time is different, right? https://t.co/CZagp4RRKy
+     🖼  photo: https://pbs.twimg.com/media/HUGJuVCWwAAkeNi.jpg
+
+  3. 2108375472400720178  @Hannibal9972485  2026-10-09T01:54:18.000Z  [DIG: media, link]
+     │ More Peter Thiel and Epstein emails showing PLOT to  REDESIGN the FINANCIAL system of UNITED STATES  with digital currency. 🚨  Larry Summers was recruited by Jeffrey Epstein to join a secret digital currency initiative with Peter Thiel.   This   initiative spans both Democratic and Republican power structures. 🚨  Larry Summers who was Secretary of the Treasury under President Bill Clinton (1999-2001)🚨   was the architect of the financial deregulation of the late 1990s that fundamentally reshaped the global financial system. He is one of the most influential economic policymakers of the past 50 years. 🚨 Epstein is telling Thiel that Larry Summers has agreed to join their initiative to "rethink the financial system" and develop "digital currency" policy.🚨  Epstein was courting Summers and has now secured his commitment.  reshaping the global financial system —- This was after August 2009 Epstein in which Epstein proposes a "new financial alternative" connected to PayPal's cryptographic origins. This was 26 days after his release from jail.🚨  And then Epstein tells Thiel he has access to the five most powerful US financial regulators to discuss digital currency policy. He offers to bring Thiel's questions to the regulators. 🚨  This DIGITAL CURRENCIES push are BRAIN CHILD of a parallel financial policy apparatus operating outside of government channels, run by a convicted sex offender EPSTEIN 🚨🚨  @RepThomasMassie   https://t.co/Ff2ZDJVjCi
+     🖼  photo: https://pbs.twimg.com/media/HUJ0T-0WYAAX__D.jpg
+     🖼  photo: https://pbs.twimg.com/media/HUJ0T-3XQAE52mS.jpg
+     🖼  photo: https://pbs.twimg.com/media/HUJ0T-2XkAA6kN1.jpg
+     🔗 https://www.justice.gov/epstein/files/DataSet%209/EFTA00830272.pdf
+
+  4. 2108354272383430928  @CNN  2026-10-09T00:30:04.000Z  [DIG: link]
+     │ Tech stocks dropped on Thursday after a news report that OpenAI’s annualized revenue is about $20 billion less than previously reported. https://t.co/6BlH6NBFYU
+     🔗 https://www.cnn.com/2026/10/08/investing/openai-nasdaq-stocks?Date=20261009&Profile=CNN&utm_content=1791505803&utm_medium=social&utm_source=twitter
+
+  5. 2108248571430547886  @TamithaSkov  2026-10-08T17:30:03.000Z  [DIG: media]
+     │ Our Sun continues to dazzle with an M6.7-flare from Region 4549! Radio operators are still feeling the effects from this R2-level radio blackout on the dayside of Earth. It also launched a solar storm. This is now the fourth big solar storm headed towards Earth. Expect more to come from this highly unstable region. It could continue firing like this until it disappears behind the west limb!
+     🖼  animated_gif: https://pbs.twimg.com/tweet_video_thumb/HUIAx2qXkAAfjsy.jpg
+
+  6. 2108305176713191656  @SunWeatherMan  2026-10-08T21:14:59.000Z  [DIG: media]
+     │ From the ejection expanse you can tell today’s eruption was big. Mega shockwaves. Full update coming before bedtime in the USA. https://t.co/0UwFF1KrG9
+     🖼  video: https://pbs.twimg.com/amplify_video_thumb/2108247561786249217/img/P6eelgHjx6XTcST2.jpg
+
+  7. 2108009993219842443  @spacewxwatch  2026-10-08T01:42:01.000Z  [DIG: media]
+     │ NEW: A solar storm was launched from the Sun yesterday and is on the way to Earth.   NOAA has issued a Moderate Geomagnetic Storm Watch for Friday, October 9 due to anticipated arrival.  Community consensus on the arrival of this CME is around the first half of the UTC day on Friday, but our in-house model has the storm arriving near Earth a bit later, closer to 15 UTC. Expected Kp range between 4 and 6.  #spaceweather
+     🖼  video: https://pbs.twimg.com/amplify_video_thumb/2108008598399758337/img/jluHJdwvLGxWmw3Q.jpg
+
+  8. 2108228013577936951  @a_dose_of_wx  2026-10-08T16:08:22.000Z  [DIG: media]
+     │ You have 68 hours to purchase non perishable food and solar panels https://t.co/h5SS0iBKXx
+     🖼  photo: https://pbs.twimg.com/media/HUHuNI5XwAEo5u-.jpg
+
+  9. 2107984326293921891  @jonbrooks  2026-10-08T00:00:02.000Z  [DIG: media]
+     │ First they stop paying credit cards   Then they stop paying their mortgages      Then we see more short sale and foreclosures https://t.co/rmbijMHYhC
+     🖼  photo: https://pbs.twimg.com/media/HT_8jG6XYAAKXEm.jpg
+
+  10. 2108354971531973028  @dani_avila7  2026-10-09T00:32:51.000Z  [DIG: media, link]
+     │ Jev Skill Typeahead is fully open source  Feel free to explore the code, contribute improvements, and help make skill predictions even more accurate  GitHub: https://t.co/wTOIfMGgd3 https://t.co/aB7EX2qwGD https://t.co/1clelfeG1l
+     🖼  photo: https://pbs.twimg.com/media/HUJhrAkWcAAsKJP.jpg
+     🔗 https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/mods/productivity/jev-skill-typeahead
+
+  11. 2108324559636046103  @HedgieMarkets  2026-10-08T22:32:00.000Z  [DIG: media]
+     │ 🦔Lawsuits accuse private credit funds run by KKR, Ares and Blue Owl of keeping their loan values high to collect bigger fees, Semafor reports. Last week the SEC warned accountants to bring more rigor to how these funds value their loans.  My Take Private credit means investment firms lending straight to companies, mostly midsize ones, with no bank in the middle. Those loans never trade on a public market, so the fund managers largely decide what they're worth, and their fees go up when that number goes up. One company named in the suits is a big janitorial firm whose stock has been written down to zero, while its main lender values different loans to it anywhere from about 10 cents on the dollar to nearly full price.  Some borrowers can't pay interest in cash, so they pay with more IOUs instead, and the funds still charge fees on that interest. Blue Owl's tech lending fund got more than a third of its reported income that way last year. Wall Street now sells funds like these to regular investors, and the Fed is reportedly looking at the banks that lend to them. I expect more writedowns over the next year, and if I owned a private credit fund I'd want to know what it holds before those values catch up.  Hedgie🤗
+     🖼  photo: https://pbs.twimg.com/media/HUIc3DMXgAA1eCb.jpg
+
+After routing, run:  python3 AGENTS/WALTER/tools/x_bookmarks_scan.py --mark
