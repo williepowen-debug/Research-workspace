@@ -18,7 +18,12 @@
 
 ---
 
-**LAST SESSION (2026-10-09 Fri — WAL session #11, PROME `prome-75` spawn, Tier 1, WQ-184 due row L534, DESKTOP):**
+**LAST SESSION (2026-10-09 Fri ~10:55–11:1x ET — WAL session #12, PROME `prome-75` re-spawn, Tier 1 inside WQ-328, Will's 10:24 word, DESKTOP, one bounded task):**
+
+- **Hotel perimeter: OUTCOME = GAP with the cause named** → research §6 + KB-218 + 10-Q frame §8 (O6–O8, non-gating). FY2025 10-K: segments pooled by **originating business line** (HFF = "originated within this business line"), and property type = **collateral** split of loan-type CRE-NOO. The 10-K Item 1 table and Note 4 tie only at the total ($58,677M). **≥$376M of hotel collateral sits outside HFF** (lower bound), with no hotel-separated credit line (INFERRED home Other CRE-NOO). **Missing: a segment × property-type crosswalk** (absent from the 10-Q and the 10-K). Gap stable at $352–376M across four dates, 12/31/24 to 6/30/26.
+- WALTER SIG-W-20261009-007 rowed `noted` (duplicate of -20261007-007). **REGINALD packet `inbox/2026-10-09_from-REGINALD_nano-banc-bid-summary-O1-not-resolved.md` NOT processed** (out of scope; next session).
+
+**EARLIER SAME DAY (2026-10-09 Fri — WAL session #11, PROME `prome-75` spawn, Tier 1, WQ-184 due row L534, DESKTOP):**
 
 - **WQ-328 hotel read DELIVERED** → `research/2026-10-09_hotel-exposure-read-WQ328.md` + 10-Q frame §8 note (O1–O5, non-gating) + KB-216. ★ **The 10-Q carries hotel as its own SEGMENT ("Hotel franchise finance", $4,582M): nonaccrual $0 · classified $44M · SM $31M · ACL 0.93% · C/O $0, three 10-Qs running.** That is a different perimeter from property-type Hotel $4,958M (gap $376M, UNKNOWN). The 2027 $2,972M is total CRE-NOO; **hotel maturity = GAP** (not disclosed). No score moved. CREED supply packet used as context.
 - **Q3 date PINNED: Mon 10/19 after close, call Tue 10/20 12:00 ET** (issuer IR PDF, KB-217; print frame §9). Resolve_By 11/15 unchanged. The spawn prompt's "Tue 10/13" was L170's window-open date, flagged to PROME.
@@ -39,6 +44,8 @@
 ---
 
 **NEXT SESSION — ranked 2026-09-28 (session #10):**
+
+**★N-0 (added 10/9 s#12).** Process the REGINALD 10/9 Nano bid-summary packet in `inbox/` (Nano P&A not posted; feeds N-3).
 
 ~~**★N-WQ328.**~~ ✅ **DONE 10/9 (session #11).** ~~Hotel exposure read (Will-approved 9/28 17:43 ET; packet in `inbox/2026-09-28_from-PROME_WQ-328-hotel-exposure-read.md`; DOCKET L534, by 10/09).** One page → a dated 10-Q frame §8 note, no cell changed; CREED context by packet only (GAP if none arrives); the DEWEY building search stays deferred. ⚠️ **The packet calls $2.97B a "2027 HOTEL wall" — WRONG: KB-163's $2,972M is TOTAL CRE-NOO 2027 maturities** (WAL's own ambiguous gap-list wording started it; correction sent to PROME 9/28 ~17:5x). Held: hotel $4,958M = 48.1% of CRE-NOO, LTV 54.0% (Q2 10-Q, `Q2_10Q_READ` :127) vs office $2,139M / 20.8%. No hotel-specific maturity figure is held. Find it in the filings or mark GAP.~~ **Next hotel act: read O1–O5 at the Q3 10-Q (10-Q frame §8).**
 **★N-1. Consume the 9/29 Plaza Continental hearing per research §10 (H1-H11) — mechanical. Docket may lag: re-check through Fri 10/2, then NO-VERDICT.** Only Ontario moves. KB-205 Stale_By is 9/30 for exactly this.
