@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "findings": [],
+  "as_of": "2026-10-09T00:46:50.229403+00:00",
+  "origin_ref": "c04730ace390d29d71e374167f8d50231c81cf2e",
+  "delivery_scope": "20261008",
+  "delivered": 208,
+  "total": 233,
+  "next_review": "2026-10-09",
+  "limits": "Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review."
+}
