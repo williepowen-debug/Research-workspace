@@ -203,11 +203,21 @@ def parse_options(cell: str, wq: str = "?") -> list[dict]:
             unit, raw = m.group(1), raw[m.end():]
         opts = []
         if raw.strip().startswith(PLAIN_UNIT) and (raw.strip() == PLAIN_UNIT or raw.strip().startswith(PLAIN_UNIT + " ::")):
-            # "UNIT: PLAIN :: reason" — a declared decision unit whose options are deliberately NOT offered yet
-            # (e.g. the owner card is stale and its re-cut is owed); it renders plain Approve/Decline/Later controls
-            # under its own decision_id so the row's other unit can still be ruled separately (AC5/AC6).
-            reason = raw.strip().partition("::")[2].strip()
-            units.append({"unit": unit, "options": [], "plain": True, "reason": reason or "options withheld by PROME"})
+            # "UNIT: PLAIN :: reason :: APPROVE=<meaning> :: DECLINE=<meaning>" — a declared decision unit whose options
+            # are deliberately NOT offered yet (e.g. the owner card is stale and its re-cut is owed); it renders plain
+            # Approve/Decline/Later controls under its own decision_id so the row's other unit can still be ruled
+            # separately (AC5/AC6). Read 2 ❌X2: a plain verb on a unit must say what it MEANS on that unit, and the tap
+            # must store that meaning — so a multi-unit PLAIN block REQUIRES both meanings.
+            parts = [x.strip() for x in raw.strip().split("::")]
+            reason, meanings = "", {}
+            for x in parts[1:]:
+                m2 = re.match(r"^(APPROVE|DECLINE)=(.+)$", x, re.S)
+                if m2:
+                    meanings[m2.group(1)] = m2.group(2).strip()
+                elif not reason:
+                    reason = x
+            units.append({"unit": unit, "options": [], "plain": True, "reason": reason or "options withheld by PROME",
+                          "meanings": meanings})
             continue
         for piece in raw.split("||"):
             piece = piece.strip()
@@ -219,7 +229,7 @@ def parse_options(cell: str, wq: str = "?") -> list[dict]:
             label = label.strip()
             if not OPTION_LABEL_RE.match(label):
                 raise ValueError(f"WQ-{wq}: option label '{label}' is not a label token (A · R-A · 12)")
-            text, _, cons = rest.partition(" :: ")
+            text, _, cons = rest.partition("::")         # "LABEL = text :: consequence"; an empty consequence is allowed syntactically and refused at validation when the card row has cells
             text, cons = text.strip(), cons.strip()
             if not text:
                 raise ValueError(f"WQ-{wq}: option {label} has no text")
@@ -232,6 +242,11 @@ def parse_options(cell: str, wq: str = "?") -> list[dict]:
         units.append({"unit": unit, "options": opts, "plain": False, "reason": ""})
     if len(units) > 1 and any(u["unit"] is None for u in units):
         raise ValueError(f"WQ-{wq}: a row with several decision units must name every unit ('UNIT: …')")
+    if len(units) > 1:
+        for u in units:
+            if u.get("plain") and not ({"APPROVE", "DECLINE"} <= set(u.get("meanings", {}))):
+                raise ValueError(f"WQ-{wq}.{u['unit']}: a PLAIN unit on a multi-decision row must state what APPROVE and "
+                                 f"DECLINE mean on that unit ('UNIT: PLAIN :: reason :: APPROVE=… :: DECLINE=…')")
     if len({u["unit"] for u in units}) != len(units):
         raise ValueError(f"WQ-{wq}: duplicate decision units")
     return units
@@ -310,7 +325,14 @@ def validate_options(wq: str, units: list[dict], sources: dict) -> tuple[list[di
     mismatch FAILS THE BUILD (SystemExit names the diff); an unreadable one drops the unit with a warning."""
     keep, warns = [], []
     def plain(u, reason):
-        return {"unit": u["unit"], "options": [], "plain": True, "reason": reason, "source": None}
+        return {"unit": u["unit"], "options": [], "plain": True, "reason": reason, "source": None, "meanings": u.get("meanings", {})}
+    # read 2 ⚠️W6 (the ❌4 class, reachable by one sidecar edit): the units the `options` cell declares and the units
+    # `options_source` names must agree, or a named unit vanishes and the survivor re-keys to the whole row.
+    declared = {u["unit"] for u in units}
+    named = {k for k in sources if k is not None}
+    if named and (named - declared or (len(units) > 1 and declared - named - {u["unit"] for u in units if u.get("plain")})):
+        raise SystemExit(f"DECK REFUSED TO BUILD: WQ-{wq} options_source names units {sorted(named)} but the options cell "
+                         f"declares {sorted(x for x in declared if x)} — the two must agree unit-for-unit")
     for u in units:
         key = u["unit"]
         tag = f"WQ-{wq}" + (f".{key}" if key else "")
@@ -341,10 +363,13 @@ def validate_options(wq: str, units: list[dict], sources: dict) -> tuple[list[di
             # ❌2 of read 1 (2026-10-09): the consequence is the CARD's own cells, verbatim; PROME's words live only
             # inside a marked "[PROME: …]" bracket. Anything else is a paraphrase and refuses the build.
             src_text = consequence_source(o["consequence"])
-            if src_text and src_text not in cells[l]:
-                raise SystemExit(f"DECK REFUSED TO BUILD: {tag} option {l} consequence is not a verbatim copy of the card's "
-                                 f"row cells at {src[0]}#{src[1]} (PROME words belong in a '[PROME: …]' bracket) — "
-                                 f"deck '{src_text[:70]}' vs cells '{cells[l][:70]}'")
+            # read 2 ❌X1: a SUBSTRING test let a partial copy pass (the ⛔ half of a desk-view cell dropped, a max-loss
+            # cell omitted, a bracket-only or one-character consequence). The consequence is the WHOLE of the row's
+            # remaining cells, verbatim, or nothing ships.
+            if src_text != cells[l]:
+                raise SystemExit(f"DECK REFUSED TO BUILD: {tag} option {l} consequence is not the WHOLE of the card row's "
+                                 f"remaining cells at {src[0]}#{src[1]} (verbatim, in order; PROME words only inside "
+                                 f"'[PROME: …]') — deck '{src_text[:70]}' vs cells '{cells[l][:70]}'")
         keep.append({"unit": key, "options": u["options"], "plain": False, "reason": "", "source": src})
     return keep, warns
 
@@ -587,10 +612,16 @@ def render_unit(wq: str, unit: dict, multi: bool) -> str:
     did = f"{wq}.{unit['unit']}" if multi else wq
     head = (f'<div class="unit-h"><span class="did">{html.escape(did)}</span></div>' if multi else "")
     if unit.get("plain"):
-        # a declared unit without offered options: today's plain controls under ITS OWN decision_id (❌4 of read 1)
+        # a declared unit without offered options: today's plain controls under ITS OWN decision_id (❌4 of read 1);
+        # each verb carries its stated meaning on this unit (❌X2 of read 2), stored with the tap as `choice.text`.
+        mean = unit.get("meanings") or {}
+        meaning_html = "".join(
+            f'<p class="olbl">{html.escape(v.title())} — <span class="otext" data-for="{v}">{html.escape(mean[v])}</span></p>'
+            for v in ("APPROVE", "DECLINE") if mean.get(v))
         return (
             f'<section class="tap unit" id="tap-{html.escape(did, quote=True)}" data-wq="{html.escape(wq, quote=True)}" data-did="{html.escape(did, quote=True)}">'
             f'{head}<p class="src">No choice buttons on this decision yet — {html.escape(unit.get("reason") or "")}. Approve / Decline / Later rule this decision only.</p>'
+            f'{meaning_html}'
             '<div class="tapstate" hidden></div>'
             '<div class="tapbtns">'
             f'<button type="button" class="btn approve" data-v="APPROVE" id="ap-{html.escape(did, quote=True)}">Approve</button>'
@@ -915,7 +946,7 @@ RULING_JS = r"""
     if (wrap && wrap.querySelectorAll) { var opts = wrap.querySelectorAll('.opt'); for (var i = 0; i < opts.length; i++) { opts[i].classList.toggle('chosen', !!label && opts[i].dataset.label === label); } }
   }
   function fmt(iso){ try{ return new Date(iso).toLocaleString(undefined,{month:'numeric',day:'numeric',hour:'numeric',minute:'2-digit'}); }catch(e){ return iso; } }
-  function describe(x){ return x.verdict === 'CHOICE' && x.choice ? 'CHOICE ' + x.choice.label + ' — ' + x.choice.text : String(x.verdict); }
+  function describe(x){ if (x.choice && x.choice.text) { return (x.verdict === 'CHOICE' ? 'CHOICE ' + x.choice.label : String(x.verdict)) + ' — ' + x.choice.text; } return String(x.verdict); }
   if (!(window.claude && window.claude.use)) { storeLine.textContent = 'Tap-to-rule is off in this view (no runtime). Reading only.'; return; }
   storeLine.textContent = 'Connecting to the ruling store…';
   window.claude.use('db').then(function(db){
@@ -961,6 +992,10 @@ RULING_JS = r"""
             label = b.dataset.label;
             var li = b.closest('.opt');
             doc.choice = {label: label, text: ((li && li.querySelector('.otext')) || {}).textContent || '', consequence: ((li && li.querySelector('.ocons')) || {}).textContent || ''};
+          } else if (verdict === 'APPROVE' || verdict === 'DECLINE') {
+            // a PLAIN unit: the verb's stated meaning on THIS unit travels with the tap (read 2 ❌X2)
+            var mt = wrap.querySelector('.otext[data-for="' + verdict + '"]');
+            doc.choice = {label: verdict, text: (mt && mt.textContent) || '', consequence: ''};
           } else { doc.choice = null; }
         }
         var shown = describe(doc);
@@ -1156,7 +1191,7 @@ def selftest() -> int:
             try:
                 units, warns = options_for(ex, r["n"])
                 opt_warn.extend(warns)
-                if units:
+                if any(u.get("options") for u in units):
                     opt_rows.append(r["n"])
             except (SystemExit, ValueError) as err:
                 opt_fail.append(f"WQ-{r['n']}: {err}")

@@ -103,5 +103,18 @@ async function unitTapTest() {
   assert.match(state.textContent,/: LATER — after CPI/);
   assert(opts[0].classList.contains('chosen')===false); // LATER was the last tap: no option highlighted
   assert(card.classList.contains('ruled-later'));
+  // read 2 ❌X2: a PLAIN unit's APPROVE stores the verb's stated meaning as choice.text
+  const btnAp=element('ap-2.HBAN',{v:'APPROVE'}), meaning={textContent:'sell it (card A)'};
+  const wrapP=element('tap-2.HBAN',{wq:'2',did:'2.HBAN'}); wrapP.classList.add('tap','unit');
+  wrapP.querySelectorAll=s=>s==='.opt'?[]:[btnAp]; wrapP.querySelector=s=>s==='.tapstate'?state:(s==='.otext[data-for="APPROVE"]'?meaning:null);
+  btnAp.closest=()=>wrapP;
+  ctx.document.getElementById=id=>({'store':store,'toast':toast,'wq-2':card,'tap-2.TLT':wrap,'note-2.TLT':note,'tap-2.HBAN':wrapP,'note-2.HBAN':{value:''}}[id]);
+  ctx.document.querySelectorAll=()=>[btnA,btnLater,btnAp];
+  writes.length=0; vm.runInNewContext(source.rulings,ctx); await new Promise(setImmediate);
+  btnAp.listeners.click(); await new Promise(setImmediate);
+  assert.equal(writes.length,1);
+  assert.deepEqual(JSON.parse(JSON.stringify(writes[0].payload.choice)),{label:'APPROVE',text:'sell it (card A)',consequence:''});
+  assert.equal(writes[0].payload.decision_id,'2.HBAN'); assert.deepEqual(JSON.parse(JSON.stringify(writes[0].payload.options_shown)),[]);
+  assert.match(state.textContent,/APPROVE — sell it \(card A\)/);
 }
 rulingTest().then(unitTapTest).then(()=>console.log('UI, ruling and unit-tap runtime fixtures passed')).catch(e=>{console.error(e);process.exitCode=1;});

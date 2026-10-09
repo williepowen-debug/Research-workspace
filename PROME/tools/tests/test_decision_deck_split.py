@@ -193,7 +193,7 @@ class DeckSplit(unittest.TestCase):
         self.assertNotIn('data-v=', reference)
 
     def test_ac6_two_decision_units_on_one_row(self):
-        self._expl10('TLT: A = Sell it now || B = Hold to 10/14 ;; HBAN: R-A = permit a sale || R-B = ride, close 10/16',
+        self._expl10('TLT: A = Sell it now :: ≈ $100 || B = Hold to 10/14 :: nothing ;; HBAN: R-A = permit a sale :: $90 || R-B = ride, close 10/16 :: spirit',
                      'TLT=cards/x.md#3 ;; HBAN=cards/h.md#3')
         r, owed, _ = self.build()
         self.assertEqual(r['options_warnings'], [])
@@ -203,9 +203,9 @@ class DeckSplit(unittest.TestCase):
             self.assertIn(frag, owed)
 
     def test_ac4_mismatch_fails_the_build_and_writes_nothing(self):
-        for options in ('A = Sell it now || B = Hold to 10/14 || C = Invented',   # deck-but-not-offered
-                        'A = Sell it now',                                         # offered-but-missing
-                        'A = Sell it later || B = Hold to 10/14'):                # text not a prefix
+        for options in ('A = Sell it now :: ≈ $100 || B = Hold to 10/14 :: nothing || C = Invented :: x',   # deck-but-not-offered
+                        'A = Sell it now :: ≈ $100',                                                      # offered-but-missing
+                        'A = Sell it later :: ≈ $100 || B = Hold to 10/14 :: nothing'):                  # text not a prefix
             with self.subTest(options=options):
                 self._expl10(options, 'cards/x.md#3')
                 with self.assertRaises(SystemExit) as cm:
@@ -224,7 +224,7 @@ class DeckSplit(unittest.TestCase):
 
     def test_ac4_ac6_partial_drop_in_a_two_unit_row_keeps_both_decision_ids(self):
         # read 1 ❌4: one unit's source unreadable ⇒ that unit renders PLAIN controls under ITS OWN id; the other keeps its options
-        self._expl10('TLT: A = Sell it now || B = Hold to 10/14 ;; HBAN: R-A = permit a sale || R-B = ride, close 10/16',
+        self._expl10('TLT: A = Sell it now :: ≈ $100 || B = Hold to 10/14 :: nothing ;; HBAN: R-A = permit a sale :: $90 || R-B = ride, close 10/16 :: spirit',
                      'TLT=cards/moved.md#3 ;; HBAN=cards/h.md#3')
         r, owed, _ = self.build()
         self.assertEqual(len(r['options_warnings']), 1); self.assertIn('WQ-1.TLT', r['options_warnings'][0])
@@ -234,11 +234,21 @@ class DeckSplit(unittest.TestCase):
         self.assertNotIn('id="ch-1.TLT-A"', owed); self.assertNotIn('id="ap-1"', owed); self.assertNotIn('data-did="1"', owed)
 
     def test_declared_plain_unit_renders_plain_controls_under_its_own_id(self):
-        self._expl10('TLT: PLAIN :: owner card re-cut owed ;; HBAN: R-A = permit a sale || R-B = ride, close 10/16', 'HBAN=cards/h.md#3')
+        self._expl10('TLT: PLAIN :: owner card re-cut owed :: APPROVE=sell it (card A) :: DECLINE=hold it (card C) ;; HBAN: R-A = permit a sale :: $90 || R-B = ride, close 10/16 :: spirit', 'HBAN=cards/h.md#3')
         r, owed, _ = self.build()
         self.assertEqual(r['options_warnings'], [])
-        for frag in ('id="ap-1.TLT"', 'owner card re-cut owed', 'id="ch-1.HBAN-R-B"'):
+        for frag in ('id="ap-1.TLT"', 'owner card re-cut owed', 'id="ch-1.HBAN-R-B"',
+                     '<span class="otext" data-for="APPROVE">sell it (card A)</span>', '<span class="otext" data-for="DECLINE">hold it (card C)</span>'):
             self.assertIn(frag, owed)
+        # read 2 ❌X2: a PLAIN unit on a multi-decision row must state both meanings
+        self._expl10('TLT: PLAIN :: owner card re-cut owed ;; HBAN: R-A = permit a sale :: $90 || R-B = ride, close 10/16 :: spirit', 'HBAN=cards/h.md#3')
+        with self.assertRaises(ValueError):
+            self.build()
+        # read 2 ⚠️W6 (the ❌4 class): options_source naming a unit the options cell lacks refuses the build
+        self._expl10('HBAN: R-A = permit a sale :: $90 || R-B = ride, close 10/16 :: spirit', 'TLT=cards/x.md#3 ;; HBAN=cards/h.md#3')
+        with self.assertRaises(SystemExit) as cm:
+            self.build()
+        self.assertIn('unit-for-unit', str(cm.exception))
         # a single declared PLAIN unit is simply today's plain card
         self._expl10('PLAIN :: held', '')
         r, owed, _ = self.build()
@@ -249,11 +259,15 @@ class DeckSplit(unittest.TestCase):
         self._expl10('A = Sell it now :: ≈ $100 [PROME: 9/26 marks] || B = Hold to 10/14 :: nothing', 'cards/x.md#3')
         r, owed, _ = self.build()
         self.assertIn('≈ $100 [PROME: 9/26 marks]', owed)
-        self._expl10('A = Sell it now :: about one hundred dollars || B = Hold to 10/14 :: nothing', 'cards/x.md#3')
-        self.out.unlink()                                 # the passing build above wrote it; the refusal must not
-        with self.assertRaises(SystemExit) as cm:
-            self.build()
-        self.assertIn('consequence', str(cm.exception)); self.assertFalse(self.out.exists())
+        # read 2 ❌X1: a paraphrase, a PARTIAL copy, a bracket-only, an empty and a one-character consequence all refuse
+        for bad in ('about one hundred dollars', '$100', '[PROME: only a note]', '', '$'):
+            with self.subTest(consequence=bad):
+                self._expl10(f'A = Sell it now :: {bad} || B = Hold to 10/14 :: nothing', 'cards/x.md#3')
+                if self.out.exists():
+                    self.out.unlink()                     # a passing build above wrote it; the refusal must not
+                with self.assertRaises(SystemExit) as cm:
+                    self.build()
+                self.assertIn('consequence', str(cm.exception)); self.assertFalse(self.out.exists())
 
     def test_malformed_options_cell_is_promes_defect_and_raises(self):
         for options in ('A Sell it now', 'a = lower label', 'A = x || A = y', 'A = x ;; B = y'):
