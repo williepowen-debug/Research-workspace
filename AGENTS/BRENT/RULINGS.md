@@ -11,6 +11,17 @@
 > ⚠️ **This file has no length cap and needs none — it is cold. But it must never acquire an instruction.** If you find yourself writing "always do X" here, X belongs in `CLAUDE.md` or `TRADE.md`.
 
 
+## R-2026-10-09-B68 — boundary #6/#8 month basis (Will ~10:27–10:29 ET 10/9, in WALTER's session)
+
+Received by SendMessage from walter-50 and [SIG-W-20261009-008](inbox/WALTER/processed/SIG-W-20261009-008.md); WALTER's letter of record is `AGENTS/WALTER/ROUTING_OVERLAYS.md` v0.41. **The binding letter lives there; this entry records why.**
+- **Who decides:** BRENT told WALTER the month choice was Will's call, because both letters were Will-signed on 5/8 and picking a month changes what the alarm reads. BRENT owns the measurement and the basis advice only.
+- **#8:** BRENT's three conditions were adopted:
+  - named-contract identity checked on every pull;
+  - a settle source order (settle → vendor row within $0.15 → 14:28–30 ESTIMATE), because a vendor `prev_close` is not a settle (10/9 measured: CLX26 90.43 vs settle 91.49);
+  - a stated switch date. BRENT supplied it: BZZ26 last trading day **Fri 2026-10-30** (ICE 2026 Expiry Calendar, primary); January legs from **Mon 11/2**; docket row `2026-10-30`.
+- **#6:** the <$30 re-cross is retired as *"retirement of an insufficiently validated alert — not a proven annual false alarm"* (Will's phrasing; carry it verbatim). This is consistent with BRENT's own F4 retirement of the identical line on 7/31. The ≥$50 spike stays on the front matched month.
+- **Convention note:** REGISTRY Brent level lines switch ON expiry day; #8 switches the session AFTER. Both are explicit; do not merge them.
+
 ## R-2026-10-07-WQ-386 — held-share month extension
 
 Will directly approved the reviewed one-share amendment October 7 at 14:24:57 ET, verbatim “okay approved”; committed provenance [PROME ruling § Approved amendment](../../PROME/proposals/2026-10-07_VLO-december-management-RULED.md#approved-amendment). Fixed December removes dependence on an expiring November contract and knowingly accepts a possible month-switch-only exit. Original calibration identity remains unknown; retaining the number is an operational choice, not new calibration evidence. Binding letter is applied at [TRADE § WQ-386](TRADE.md#wq-386--approved-amendment-applied-to-held-vlo-1); TERRY owner-card integration remains separate. No add, execution, HEN-46 or terminal-scale revival approved.

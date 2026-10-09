@@ -1,3 +1,12 @@
+## 2026-10-09 — AM evidence log + self-correction; v5.11 unchanged, no band, threshold or calibration change
+
+**Old → new:**
+- Dated Brent (`DCOILBRENTEU`) at 125.44 had been filed as a feed anomaly. It is now recognised as a real physical premium. EIA RBRTE confirms it (one lineage): >$110 every print since 9/9, 135.51 on 10/2. REGISTRY's >$120 'physical scarcity' line reads above. This is consistent with the existing Phase-1 product/physical-tightness assessment, so no version bump.
+- China product exports: from 'halted, no guidance' to approved ~3.7 Mt for October (Reuters 10/9, unofficial), below September and August. Modest Asian distillate relief on paper; sized at GAC ~11/20.
+- New measured context: forward-curve WTI−Brent −13.84 (Dec26) → −6.46 (Dec27) vs 2025 −3.58; diesel crack 104.5 → 69.4 vs 32.45. The market prices partial normalisation of both. See [research note](../research/2026-10-09_structural-cost-trade-shape.md).
+
+**No prediction changed. BRT-30 (10/26) and BRT-31 (10/15) unchanged.**
+
 ## 2026-10-07 — STEO/WPSR/freight catch-up; v5.11 unchanged
 
 Old → new evidence: October 5 export/route and product split → October STEO raises prices while revising global draws lower; WPSR week 10/2 national draw/export jump with a third Cushing build; three matched Nov/Dec crack estimates and dated public freight assessments. Assessment unchanged: product tightness more resilient than immediate crude-scarcity acceleration, moderate confidence, no demonstrated freight-to-WTI beta. Model cutoff excludes the G7 announcement; implementation and physical flows remain distinct. BRT-31's window has not started; F-b remains fired and F-a ungraded on incomplete paired data. [Report](../research/2026-10-07_news-catchup/REPORT.md).

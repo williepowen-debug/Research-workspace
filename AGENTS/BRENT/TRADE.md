@@ -1,6 +1,6 @@
 # BRENT TRADE.md — domain trade surface
 
-**Updated: 2026-10-08 (evidence lines only; holdings unchanged). Last real position data refresh: 2026-10-07 intraday, exact capture time UNKNOWN**, Will-confirmed holdings via [PROME transcription](../../PROME/data/2026-10-07_broker-capture-TRANSCRIPTION.md) and FORGE/STATUS. USO 37 shares, VLO 1 share, USO Oct-09 $150C ×1; no Activity/Orders supplied and no fill inferred. Screenshot and vendor marks are dated observations, not executable broker bids.
+**Updated: 2026-10-09 (evidence lines only; holdings unchanged). Last real position data refresh: 2026-10-07 intraday, exact capture time UNKNOWN**, Will-confirmed holdings via [PROME transcription](../../PROME/data/2026-10-07_broker-capture-TRANSCRIPTION.md) and FORGE/STATUS. USO 37 shares, VLO 1 share, USO Oct-09 $150C ×1; no Activity/Orders supplied and no fill inferred. Screenshot and vendor marks are dated observations, not executable broker bids.
 
 **Existing management:** USO early-sale **DECLINE WQ-366** preserved; sell-or-roll rail **Friday October 9 15:00 ET** remains. Held VLO **WQ-386 approved October 7** modifies leg A only; two extra VLO shares **STOOD DOWN**, scale gate terminal. No new sale, add, re-entry or order approved.
 
@@ -18,6 +18,8 @@ Canonical ruling: [PROME § Approved amendment](../../PROME/proposals/2026-10-07
 >
 > Review the next basis by November 18, 2026. If no further ruling is made, new leg-A observations become SUSPENDED/UNKNOWN after the November 19 settlement. An already-established exit still remains owed. Policy legs B1–B3 and their existing execution limitations continue unchanged until sale or withdrawal. This is authority to maintain the existing share's management rule, not to buy or re-enter.
 
+
+**October 9 evidence (BRENT session closed 11:2x ET, before the 15:00 rail):** USO **$148.81** (11:14 ET vendor) = $1.19 below the Oct-9 $150 strike. The expiring call screens at **$0.23/$0.25** (chain_fetch; not broker, read ~10% high on the bid before). Indicative same-strike roll asks: Oct-16 $2.98 · Nov-20 $8.85 · Dec-18 $11.55. ⚠️ If held to the close and USO ends above $150, auto-exercise ≈ $15k of shares. **Decision = Will's hand on TERRY's `MGMT-USO150C-OCT09` rail; no BRENT proposal.** Will stated an escalation view ("not seen the last of the war heating up"); a Nov/Dec roll at ~$885–1,155 would exceed the ~$500 norm for new oil risk, so TERRY was suggested for a spread-priced roll. Will closed the session without asking for it; not sent. Nov matched diesel crack $109.15 at 10:12 ET [EST intraday diagnostic, not a leg-A observation]; TERRY grades.
 
 **October 8 evidence:** intraday matched quotes at 08:24 ET give November/December cracks of $109.67/$103.91 [EST single vendor]. These are a diagnostic, not a leg-A observation under the source order above. November is $19.51 above $90.16 and $14.67 above $95. Today's 14:28–30 ET proxy was not produced; TERRY grades. Warning-zone refining status is a GAP. [Report §3–4](research/2026-10-08_isaias-hormuz/REPORT.md).
 
