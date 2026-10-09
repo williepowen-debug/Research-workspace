@@ -375,6 +375,60 @@ def edgar_sweep():
     return rc, "\n".join(out)
 
 
+def corrections_leg():
+    """Leg 9 (added 2026-10-09, DAEDALUS profile-refresh item 2): the R1 corrections check
+    ran only as a hand step (boot step 8b). rc 1 = a NAMED correction is unreceipted."""
+    try:
+        p = subprocess.run([sys.executable, str(ROOT / "scripts" / "corrections_boot_check.py"), "VULCAN"],
+                           cwd=str(ROOT), capture_output=True, text=True)
+    except Exception as e:  # noqa: BLE001
+        return 2, f"  🔴 corrections check FAILED to launch: {e}"
+    out = (p.stdout or "").strip().splitlines()
+    head = [l for l in out if "CORRECTIONS-CHECK" in l] or out[-1:]
+    if p.returncode == 0:
+        return 0, "  ✓ " + (head[-1][:150] if head else "corrections check rc 0")
+    if p.returncode == 1:
+        return 1, "  ⚠️ NAMED correction(s) unreceipted — receipt in the WQ-399 form (step 8b):\n" + "\n".join(out[:8])
+    return 2, "  🔴 corrections check CANNOT-EVALUATE (rc 2) — do NOT read as clean:\n" + "\n".join(out[:4])
+
+
+def prior_day_unpushed(lines, today):
+    """Pure: from `%h %cs %s` lines, those committed BEFORE `today` (a date). Unparseable
+    lines count as prior-day — an unreadable stamp must not read as 'fresh'."""
+    old = []
+    for l in lines:
+        parts = l.split()
+        try:
+            d = date.fromisoformat(parts[1])
+        except (IndexError, ValueError):
+            old.append(l)
+            continue
+        if d < today:
+            old.append(l)
+    return old
+
+
+def push_leg():
+    """Leg 10 (added 2026-10-09, closeout review item 8): a push DELEGATED to a coordinator
+    is a claim until origin carries it. Uses the LOCAL origin ref (no fetch — boot stays
+    offline-safe), so 'ahead' can be a stale ref; that is said, not hidden."""
+    try:
+        out = subprocess.run(["git", "log", "--format=%h %cs %s", "origin/master..HEAD", "--", "AGENTS/VULCAN"],
+                             cwd=str(ROOT), capture_output=True, text=True).stdout.strip().splitlines()
+    except Exception as e:  # noqa: BLE001
+        return 2, f"  🔴 push leg FAILED: {e}"
+    if not out:
+        return 0, "  ✓ no VULCAN commit ahead of origin/master (local ref — `git fetch` refreshes it)"
+    old = prior_day_unpushed(out, date.today())
+    msg = f"  {'⚠️' if old else 'ℹ️ '} {len(out)} VULCAN commit(s) not on origin/master (local ref)"
+    if old:
+        msg += f" — {len(old)} from a PRIOR day: a delegated push did not land, or the ref is stale. `git fetch` then re-check; if still ahead, run scripts/safe-push.sh"
+        for l in old[:4]:
+            msg += f"\n      {l[:100]}"
+        return 1, msg
+    return 0, msg + " — all from today (this session's own, pending push)"
+
+
 def main():
     print("=" * 72)
     print("  VULCAN BOOT — staleness · predictions · series · catalysts · schema")
@@ -429,6 +483,16 @@ def main():
     eg_rc, eg_msg = edgar_sweep()
     print(eg_msg)
     rcs.append(eg_rc)
+
+    print("\n--- 9. R1 corrections receipts (was a hand step) ---")
+    co_rc, co_msg = corrections_leg()
+    print(co_msg)
+    rcs.append(co_rc)
+
+    print("\n--- 10. push landed? (VULCAN commits vs origin/master, local ref) ---")
+    pu_rc, pu_msg = push_leg()
+    print(pu_msg)
+    rcs.append(pu_rc)
 
     print("\n" + "=" * 72)
     if 2 in rcs:
