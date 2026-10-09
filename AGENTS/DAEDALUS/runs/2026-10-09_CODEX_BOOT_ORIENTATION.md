@@ -1,0 +1,17 @@
+# DAEDALUS — boot orientation, 2026-10-09
+
+Scope: Will requested startup, orientation to current work and approvals, and a short suggested next step. No queued implementation, sweep, grading, routing or cross-agent edits started.
+
+Runtime: OpenAI Codex; exact model identifier UNKNOWN; task identity `/root`; external session ID UNKNOWN. Repository/worktree `/home/willi/Research-workspace`, launch directory `AGENTS/DAEDALUS`. Shell/file execution and thread-local collaboration tools are exposed. Cross-runtime fleet discovery and peer messaging are not verified; thread-local tools do not prove fleet presence. No helpers launched or messages sent.
+
+Explicitly read root CLAUDE.md, AGENTS.md, USER.md; DAEDALUS CLAUDE.md, SPEC.md (historical; charter wins), STATUS.md, FLEET_DIRECTORY.md, PATTERNS_HOT.md; the one current inbox packet; COMPLETION_SPEC and playbook Runtime mechanics. No additional AGENTS.md exists in the desk ancestry below root. EVOLUTION is conditional and not needed for orientation. Consulted roster identity/cadence, current docket rows and approval records.
+
+Boot receipt: `/tmp/claude-1000/daedalus-gate/20261009T135134Z_boot.json`; committed-trace destination `runs/GATE_LOG.tsv` (locally appended by the runner). Original rc=2: Git fetch UNKNOWN; cadence DUE; corrections, read-cap and docket acknowledgment checks CLEAN; inbox ENUMERATED. Successful authorized `git fetch origin` subsequently resolved the fetch uncertainty; fresh comparison at HEAD `ff6c08b43c6a7f8f456f057ec8363d3fdb9de9e2` was ahead 1 / behind 0. Original receipt remains unchanged. Pull deferred under root Before pulling rule 2: WALTER tracked changes and OSPREY/WALTER untracked work exist. No push or closeout claimed.
+
+Current state: recorded grade L4/M; October 8 completed work must not be repeated from stale older STATUS bullets. Weekly scorecard due October 9; harness audit and profile-refresh queue remain DUE. Blueprint sitting L495/L496/L499 and L263 follow-up remain named. WQ-399 receipt-writer approval is recorded as delivered; D7 closure build remains a separate next implementation with independent review. L530 v2 is recorded ready for PROME's apply slot; beta headroom work waits for that apply. Cross-agent mutation still requires express scope and an idle target. Gate C activation is not inferred.
+
+Inbox disposition: read `2026-10-08_from-NEXUS_pin-check-adopted-unpinned-ruling-t12s-deferral-readcap-named.md` whole. NEXUS reports shared check adoption and read-cap invocation, requests hash-pin/A10 routing at the next brief fold, and dates T12S changes to next registration. Keep packet pending for the bounded follow-up: owner artifacts and the full map/card/batch write-back chain have not been verified in this orientation. No completion receipt or processed move asserted.
+
+Suggested next assignment: October 9 coordination scorecard render, then the dated blueprint sitting. No new approval requested by this boot. Boot notes and gate trace are local pending session closeout.
+
+October 9 diagnostic addendum: the later `2026-10-09_BOOT_DIAGNOSTIC.md` qualifies the read-completeness statement above. Truncated tool returns were not fully range-accounted, so complete read coverage was not established. B4's rc0 also carried EVOLUTION rotation_due=1, omitted by the wrapper. Fetch failure was specifically read-only `.git/FETCH_HEAD`, not established network failure. Will redirected this session to inward diagnosis; scorecard work has not started.

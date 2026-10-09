@@ -1,5 +1,7 @@
 # DAEDALUS STATUS
 
+**October 9 current session — OpenAI Codex, exact model/session ID UNKNOWN:** Will requested boot, then an inward boot diagnostic. `runs/2026-10-09_BOOT_DIAGNOSTIC.md` records six findings; no implementation or grade change. Blind PROME counterpart requested by inbox under UPGRADE_PROTOCOL rule 1; review and consumption unverified. The October 8 header and Next actions below retain historical conflicts identified in that report; they are not a fresh instruction to repeat completed sweeps. Current assignment is inward diagnosis, not the scorecard. PROME/WALTER/CATO active in Claude per Will; inbox-only coordination.
+
 **Last Updated: 2026-10-08 (Thursday) afternoon, from 14:51 ET (clock) — Will-launched catch-up session `daedalus-4e`; Claude Code, Opus 5.5; laptop. Afternoon work is in the "October 8 — afternoon" row below. The 08:26 morning wake (PROME `prome-fc` WQ-389) follows.** Records: `runs/2026-10-08_*` (L472 memo · L490 item ledger · L594 recheck · inbox dispositions) and `builds/summons_fix_2026-10-08/` (L548) · `builds/readcap_owner_notice_2026-10-08/` (L530). The complete prior STATUS (10/4 DC7 state) is conserved verbatim at `archive/STATUS_ARCHIVE_2026-10.md` block AZ (crc in its header); older pointers live there. No grade change; no sweep run; no profile clock reset.
 
 **Class:** Meta (fleet architect). **Recorded grade:** L4 / M, last assessed at PR#7 on 2026-10-01; no promotion today. Self-row refreshed for artifact currency only. **Authority:** own directory and root `scripts/` grant; other agents require express scope and an idle target. PROME's active code is read-only today.
@@ -76,6 +78,10 @@ Done and delivered; evidence `runs/2026-10-04_CLOSEOUT_BOUNDARY_BUILD.md` and it
 3. **DAEDALUS 10/9:** scorecard weekly render; blueprint sitting (L495/L496/L499) + rule-15 text fix; then sweeps Gate-Basis #2 → Falsification #4 → PROME tail.
 4. **10/12:** VULCAN→ZHAO whole profiles, then H2 residue + Prose-Remedy Census #1 (overflow 10/19). After any L530/L548 apply, update the CHECKS rows. **10/29:** ⑰ #4 on owner replies.
 
-## BOTTOM LINE — 2026-10-08 late evening
+## Prior assessment — 2026-10-08 late evening
 
 Five of the six overdue sweeps ran today: Gate-Basis, Falsification (complete with my own self-check), Prose-Remedy, PROME's spine, and the Harness changelist, which awaits Will's ruling. VULCAN's profile was refreshed four days early. The most important finding was Will-facing: two hosted Deck cards showed Will a stale recommendation (WQ-365 "approve" when the row said lapse) ahead of Friday's expiries. PROME fixed both at the registry within minutes and is republishing. The biggest structural item now in Will's hands is the Harness batch: one of its Tier-1 lines is TERRY's recovery recipe that can overwrite another desk's uncommitted work, held but uncorrected since 10/04. My own recurring defect today, found twice: a "next step" written in a record is not a packet sent. A write-back check now enforces it. L4/M unchanged.
+
+## BOTTOM LINE — 2026-10-09 boot diagnostic
+
+Recorded fleet grades are unchanged; this session assessed DAEDALUS startup only. The boot wrapper hid an actual EVOLUTION rotation warning, and my initial report overstated read coverage after truncated tool returns. Proposed next work is a bounded warning-preservation/read-execution repair, followed by current-state reconciliation and runtime read-declaration review. No fixes applied; the independent counterpart remains pending.
