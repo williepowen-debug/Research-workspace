@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated October 8, 2026.** [CHARTER](CHARTER.md) governs authority. Read this short resume point at startup; use the [task and approval index](TASK_INDEX.md) only for the current assignment. Saved approval is not a command to start unrelated work.
+**Updated October 9, 2026.** [CHARTER](CHARTER.md) governs authority. Read this short resume point at startup; use the [task and approval index](TASK_INDEX.md) only for the current assignment. Saved approval is not a command to start unrelated work.
 
 ## Resume point
+
+**October 9 DAEDALUS boot repair accepted within scope; await Will.** [Review](runs/2026-10-09_1030_daedalus-boot-repair-review.md), pin46fc8444e, fresh-origin confirmed: six corrections accepted, no new implementation blocker. CATO reran12 regressions/5 sweep/66 candidate tests; original warning/C7 replay,18 basis hashes and5,035B archive conservation verified. **DB1:** own charter35,598B blocks closeout; **DB2:** existing BR1 independently reproduced (due work skips profile child; unexpected child exit can become clean), separate bounded fix recommended. **DB3:** PROME READS apply and L655 October12 counterpart pending; patch already published despite owner's earlier local-only report. Lower-impact CATO-as-Claude metadata carry remains. No owner edits/sends/launches or new repair authority; other work/approvals untriggered.
 
 **October 8 NEXUS corrections checked; await Will.** [Follow-up](runs/2026-09-29_1550_prome-nexus-session-review.md#october-8-1945-follow-up--owner-corrections-accepted-within-scope), `6e6321fdc` / PROME `0932c324a`: **PN7/PN8 CLOSED** in checked scope: cross-date counter-evidence withdrawn, owed cold-read ledger delivered and seven error fixes checked in final STATUS. Original55% explicitly the graded forecast; post-hit state separate. Attribution-first staged for October9 grade; PROME L553 consumes it, WQ341 research approval needs no repeat ask. PRED-50 log/tally unchanged; no raw market certification or full warning/archive recertification. **Working room remains deferred:** STATUS22,708B,77B below owner70% target; owner owes another block rotation before Friday anchors. Stop tonight's correction cycle; next useful result is the grade and authorized attribution read. No owner edits/sends/launches; other approvals and assignments survive untriggered.
 
