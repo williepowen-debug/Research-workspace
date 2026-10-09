@@ -1,3 +1,7 @@
 receipt_date	correction_id	action	note
 2026-09-01T21:39Z	COR-20260828-01	APPLIED	
 2026-09-29T01:05Z	COR-20260924-15	APPLIED	
+2026-10-09T14:30Z	COR-20261008-18	APPLIED	artifact=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-263; artifact=AGENTS/FALCON/reports/2026-10-07_gate001-review-and-inbox-drain.md#Correction note 2026-10-09; artifact=AGENTS/FALCON/board_log.tsv#SIG-W-20261004-011 2026-10-09 correction row; validation_ref=NONE; scope=Iraq VLCC reading - through Hormuz, not a bypass - no grade affected; 
+2026-10-09T14:30Z	COR-20260928-20	APPLIED	artifact=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-206; validation_ref=AGENTS/FALCON/board_log.tsv#SIG-W-20260928-020; scope=applied 2026-09-28 (Bloomberg ~3.5 mb/d one source) - receipted late in WQ-399 form; 
+2026-10-09T14:30Z	COR-20261002-16	APPLIED	artifact=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-233; validation_ref=AGENTS/FALCON/board_log.tsv#SIG-W-20261002-016; scope=applied 2026-10-02 (Yanbu suspension terminal-wide, both versions carried) - receipted late; 
+2026-10-09T14:30Z	COR-20261002-18	APPLIED	artifact=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-235; artifact=AGENTS/FALCON/domain/vessel-incidents/VESSELS.tsv#VI-2026-0043; validation_ref=AGENTS/FALCON/board_log.tsv#SIG-W-20261002-018; scope=applied 2026-10-02 (new 10/02 1122Z Hormuz hit) - receipted late; 

@@ -96,7 +96,7 @@ Membership test by `grep -F` on `board_log.tsv` (never a read). 14 inbox items, 
 | SIG-W-20261003-003 | WALTER | noted | Superseded by my 10/04 adjudication (Riyadh refinery heat real, cause unestablished, refinery OUT) |
 | SIG-W-20261003-012 | WALTER | noted | Camp David 10/02 meeting verified at Axios by PROME's pre-fetch; carriers = positioning (KB-230); no IMMEDIATE |
 | SIG-W-20261003-013 | WALTER | acted | "Abandoned VLCC still burning" = KAZIMAH III (147-26, 10/01, date wrong in the OSINT): crew EVACUATED; no sinking, CTL or tow found ⇒ losses stay 3 (VI-0042 annotated) |
-| SIG-W-20261004-011 | WALTER | info-only | Iraq VLCC bypass + IEA figure (BRENT lane); Iraq outside FAL-06 |
+| SIG-W-20261004-011 | WALTER | info-only | Iraq VLCC bypass + IEA figure (BRENT lane); Iraq outside FAL-06 ⚠️ **CORRECTED 2026-10-09 (COR-20261008-18, WALTER SIG-W-20261008-018):** the VLCC sails THROUGH Hormuz, a commercial/logistics step — not a bypass, not like the Saudi pipeline; the IEA leg holds. See the correction note at the end of this report and KB-FALCON-263 |
 | SIG-W-20261005-002 | WALTER | info-only | September Gulf export recovery is an all-route estimate; consistent with "route loss, not barrel loss" |
 | SIG-W-20261005-005 | WALTER | noted | Freight/TCE = BRENT lane; the insurance half is my WARRISK (9/25 quote; 10/07 re-pull SEARCH-NOT-FOUND) |
 | SIG-W-20261005-006 | WALTER | noted | Will-directed tanker-cost/USO watch (`b3677b25d`): **ADOPT the shipping-security half** (VESSELS hit ledger + WARRISK are the security evidence it consumes; 158-26 off Qatar flagged as a relevant insurance event); **DECLINE freight/WTI/USO** as a FALCON instrument (charter OIL HANDOFF; BRENT/TERRY lanes). No trade, no threshold |
@@ -124,3 +124,7 @@ Membership test by `grep -F` on `board_log.tsv` (never a read). 14 inbox items, 
 - **CTP-ISW 10/01–10/07 and Shafaq** not read (index lag); STRIKES.tsv sweep 10/02→ owed (mark stays 10/01; no candidate meets the row rule); VESSELS backfill (four mid-September hulls) carried.
 - **Saree's Telegram, JMIC, Ambrey, MSCHOA** not readable from this desk; a Telegram-only Houthi maritime claim after ~10/07 12Z could be missed.
 - Prices: BRENT-owned and not re-pulled; no capital grade in this session.
+
+---
+
+**Correction note, 2026-10-09 (FALCON, PROME-spawned; L619 / CATO WP22):** the §4 row for `SIG-W-20261004-011` carried WALTER's pre-correction reading, "Iraq VLCC **bypass**". WALTER corrected -011 on 10/4 (re-delivered to this desk as `SIG-W-20261008-018`): Iraqi Oil Tankers Co. arranged for a ~2M bbl VLCC to sail **through** the Strait of Hormuz to sell outside the Gulf (Bloomberg, 2026-10-04). That is a commercial/logistics step, **not** a physical route around the chokepoint and **not** comparable to Saudi's East-West pipeline. The interpretation is withdrawn. Effect: none on any grade — Iraq was outside FAL-06's perimeter, and GATE-FALCON-001 leg 2 is a Bab TankerMap measure that never used it; leg 2 is not re-graded before its 10/14 review. Record: `KB-FALCON-263`; receipt `COR-20261008-18`. The rest of this report stands as written on 10/07.
