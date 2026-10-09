@@ -172,14 +172,53 @@ class DeckSplit(unittest.TestCase):
         text = out.read_text()
         return {wq: self._article(text, wq) for wq in wqs}
 
-    def test_ac1_plain_card_byte_identical_to_the_parent_render(self):
+    def test_ac1_plain_card_content_preserved_under_changeB(self):
+        # SUPERSEDES the byte-identity-to-parent form (Change A's AC1): Will's 2026-10-09 17:06 ET assignment
+        # item 2 reshapes plain-card FRONTS by design (ACCEPTANCE_deck_changeB_2026-10-09.md AC-B5), so the
+        # surviving invariant is CONTENT preservation — every explainer string still renders, If-nothing and
+        # the rec stay on the front, What/Why/If-yes/If-no sit behind the Background expander, and the tap
+        # controls are unchanged. The parent-render helper is retired with the old form.
         self._expl10()                                   # 10-column sidecar, options empty
         r, owed10, _ = self.build()
-        parent = self._parent_articles(['1', '2'])
-        for wq in ('1', '2'):
-            self.assertEqual(parent[wq], self._article(owed10, wq), f'plain card wq-{wq} differs from the pre-Change-A render')
+        art = self._article(owed10, '1')
+        for s in ('Full what', 'Full why', 'Full yes', 'Full no', 'Full nothing', 'Full recommendation'):
+            self.assertIn(s, art, f'explainer string dropped: {s}')
+        front = art.split('<details class="more"', 1)[0]
+        # read 1 ⚠️11 contract: If yes / If no (what the buttons DO) stay on the FRONT with If-nothing + rec;
+        # only What-it-is / Why-it-is-yours sit behind Background.
+        for s in ('Full yes', 'Full no</dd>', 'Full nothing', 'Full recommendation'):
+            self.assertIn(s, front, f'{s} belongs on the front')
+        for s in ('Full what', 'Full why'):
+            self.assertNotIn(s, front, f'{s} should sit behind Background, not on the front')
+        self.assertIn('<details class="more"><summary>Background', art)
         self.assertEqual(r['options_rows'], [])
         self.assertIn('<div class="tap" data-wq="1">', owed10)
+        self.assertIn('data-kchip=', art); self.assertIn('data-pin=', art)
+        art2 = self._article(owed10, '2')                 # read 1 ⚠️14: the second plain card asserted too
+        self.assertIn('data-kchip=', art2); self.assertIn('<div class="tap" data-wq="2">', owed10)
+
+    def test_changeB_pin_predicate_fixture(self):
+        # read 1 ⚠️10: the selftest pin check repeats the predicate; this fixture states EXPECTED pins.
+        import datetime as _dt
+        today = _dt.date(2026, 10, 9)
+        cases = [
+            (dict(kind='RULE', by='2026-10-09', by_raw='2026-10-09', item='x', blocked=False), True),   # due today
+            (dict(kind='RULE', by='2026-10-01', by_raw='2026-10-01', item='x', blocked=False), True),   # overdue
+            (dict(kind='TRADE / EXIT', by='2026-11-01', by_raw='2026-11-01', item='x', blocked=False), True),  # money
+            (dict(kind='[Approve]', by=None, by_raw='', item='x', blocked=False), True),                # money
+            (dict(kind='BROKER', by=None, by_raw='', item='x', blocked=False), True),                   # money
+            (dict(kind='RULE', by='2026-10-14', by_raw='2026-10-14 (by 15:00 ET)', item='x', blocked=False), True),  # clocked
+            (dict(kind='RULE', by='2026-10-14', by_raw='2026-10-14', item='registered 20:33 ET stamp', blocked=False), False),  # ❌1: Item stamps never pin
+            (dict(kind='RULE', by='2026-10-14', by_raw='2026-10-14', item='x', blocked=False), False),  # plain future rule
+            (dict(kind='TRADE / EXIT', by='2026-10-01', by_raw='2026-10-01', item='x', blocked=True), True),   # ❌4: blocked money+overdue pins
+        ]
+        for r, want in cases:
+            days = (_dt.date.fromisoformat(r['by']) - today).days if r['by'] else None
+            self.assertEqual(D.is_pinned(r, days), want, f'pin predicate wrong for {r}')
+        # clock extraction: Needed-by only, ranges whole, ellipsis when more clocks follow
+        self.assertEqual(D.clock_of(dict(by_raw='2026-10-09 (Fri morning, 09:45\u201310:30 ET; the call no later than 12:00)', item='')), '09:45\u201310:30 ET\u2026')
+        self.assertEqual(D.clock_of(dict(by_raw='before the 20:00 EDT Active-Month switch', item='')), '20:00 EDT')
+        self.assertIsNone(D.clock_of(dict(by_raw='2026-10-14', item='delivered 20:33 ET')))
 
     def test_ac2_options_render_verbatim_with_consequences_and_no_approve(self):
         self._expl10('A = Sell it now :: ≈ $100 || B = Hold to 10/14 :: nothing', 'cards/x.md#3')

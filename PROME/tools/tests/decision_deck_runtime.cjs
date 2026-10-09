@@ -63,7 +63,7 @@ async function rulingTest() {
   assert(buttons.every(b=>!b.disabled));
   snapshot({docs:[{data:()=>({wq:'1',verdict:'DECLINE',ts:'2026-09-15T12:01:00Z',consumed:true})},
                   {data:()=>({wq:'1',verdict:'APPROVE',ts:'2026-09-15T12:00:00Z'})}]});
-  assert.match(state.textContent,/DECLINE.*picked up/);
+  assert.match(state.textContent,/② Received by PROME \(pickup stamp not recorded\).*DECLINE.*receipt is not execution/);
   buttons[0].listeners.click();assert(buttons.every(b=>b.disabled));
   await new Promise(setImmediate);
   buttons[1].listeners.click();await new Promise(setImmediate);
@@ -125,8 +125,72 @@ async function unitTapTest() {
   vm.runInNewContext(source.rulings,ctx); await new Promise(setImmediate);
   snap2({docs:[{data:()=>({wq:'2',verdict:'APPROVE',ts:'2026-10-01T00:00:00Z',consumed:true})},
                {data:()=>({wq:'2',decision_id:'2.TLT',verdict:'CHOICE',choice:{label:'B',text:'Hold'},ts:'2026-10-09T17:00:00Z'})}]});
-  assert.match(rowline.textContent,/Whole-row tap \(no unit\): Ruled by tap .*APPROVE/);
+  assert.match(rowline.textContent,/Whole-row tap \(no unit\): ② Received by PROME .*APPROVE/);
   assert.equal(rowline.hidden,false);
   assert(card.classList.contains('ruled-choice')); assert(!card.classList.contains('ruled-approve'));   // latest ts wins
 }
-rulingTest().then(unitTapTest).then(()=>console.log('UI, ruling and unit-tap runtime fixtures passed')).catch(e=>{console.error(e);process.exitCode=1;});
+// Change B (ACCEPTANCE_deck_changeB_2026-10-09.md AC-B7/AC-B11): pipeline stamps + disposition render.
+async function pipelineTest() {
+  const store=element('store'), toast=element('toast'), card=element('wq-7'), state=element();
+  const buttons=[]; let snap;
+  const db={collection(){return {onSnapshot(fn){snap=fn;},doc(){return {set(){return Promise.resolve();}}}};}};
+  const ctx={document:{body:{dataset:{build:'b'}},querySelectorAll:()=>buttons,
+      getElementById:id=>({'store':store,'toast':toast,'wq-7':card}[id])},
+    setTimeout:()=>0,clearTimeout:()=>{},window:{claude:{use(){return Promise.resolve(db);}}}};
+  card.querySelector=()=>state;
+  vm.runInNewContext(source.rulings,ctx); await new Promise(setImmediate);
+  // ② with a pickup stamp
+  snap({docs:[{data:()=>({wq:'7',verdict:'APPROVE',ts:'2026-10-09T21:00:00Z',consumed:true,picked_up:'2026-10-09T22:30:00Z'})}]});
+  assert.match(state.textContent,/② Received by PROME /); assert.doesNotMatch(state.textContent,/stamp not recorded/);
+  assert.match(state.textContent,/receipt is not execution/);
+  // ③ disposition rendered only because the doc carries it
+  snap({docs:[{data:()=>({wq:'7',verdict:'APPROVE',ts:'2026-10-09T23:00:00Z',consumed:true,picked_up:'2026-10-09T23:10:00Z',disposition:'encoded at GATES row',disposition_ts:'2026-10-09T23:20:00Z'})}]});
+  assert.match(state.textContent,/③ Disposition recorded .*: encoded at GATES row/);
+  assert.doesNotMatch(state.textContent,/receipt is not execution/);
+}
+
+// Change B — AC-B2/B3/B4: the chip filter never hides a pinned card, saved chips restore, headings follow.
+function chipTest() {
+  function cardEl(id,pin,kchip,dom){const c=element(id,{pin,kchip,dom});return c;}
+  const pinned=cardEl('wq-10','1','Trade',''), ruleCard=cardEl('wq-11','0','Rule',''), domCard=cardEl('wq-12','0','Chore','Credit');
+  const grp=element('g1'); grp.classList.add('grp');
+  grp.nextElementSibling=pinned; pinned.nextElementSibling=ruleCard; ruleCard.nextElementSibling=domCard; domCard.nextElementSibling=null;
+  pinned.classList.add('card'); ruleCard.classList.add('card'); domCard.classList.add('card');
+  const chipAll=element('',{chip:'All'}), chipTrade=element('',{chip:'Trade'}), chipCredit=element('',{chip:'Credit'});
+  const bar={querySelectorAll:()=>[chipAll,chipTrade,chipCredit]};
+  const storage=new Map([['deck.chip.owed','Credit']]);              // a SAVED domain chip
+  const ctx={document:{body:{dataset:{view:'owed'}},
+      querySelector:s=>s==='.chipbar'?bar:null,
+      querySelectorAll:s=>({'.tab':[], '.panel':[], '.card':[], '.lnk[data-all]':[],
+                            '#owed .card':[pinned,ruleCard,domCard], '#owed .grp':[grp]}[s]||[]),
+      getElementById:()=>null},
+    localStorage:{getItem:k=>storage.get(k),setItem:(k,v)=>storage.set(k,v)},location:{hash:''},window:{}};
+  vm.runInNewContext(source.ui,ctx);
+  // saved 'Credit' applied on load: pinned stays visible, Rule card hidden, Credit-domain card visible
+  assert.equal(pinned.classList.contains('chiphide'),false,'a saved chip must never hide a pinned card (AC-B3/B4)');
+  assert.equal(ruleCard.classList.contains('chiphide'),true);
+  assert.equal(domCard.classList.contains('chiphide'),false);
+  assert.equal(grp.classList.contains('chiphide'),false);
+  // tap Trade: pinned visible (matches anyway), others hidden; heading survives via the pinned card
+  chipTrade.listeners.click();
+  assert.equal(pinned.classList.contains('chiphide'),false);
+  assert.equal(domCard.classList.contains('chiphide'),true);
+  assert.equal(storage.get('deck.chip.owed'),'Trade');
+  // All restores
+  chipAll.listeners.click();
+  assert.equal(ruleCard.classList.contains('chiphide'),false);
+  // read 2 ❌2: a deep link to a hidden card shows All WITHOUT overwriting the saved chip
+  storage.set('deck.chip.owed','Credit');
+  const ctx2={document:{body:{dataset:{view:'owed'}},
+      querySelector:s=>s==='.chipbar'?bar:null,
+      querySelectorAll:s=>({'.tab':[], '.panel':[], '.card':[], '.lnk[data-all]':[],
+                            '#owed .card':[pinned,ruleCard,domCard], '#owed .grp':[grp]}[s]||[]),
+      getElementById:id=>id==='wq-11'?ruleCard:null},
+    localStorage:{getItem:k=>storage.get(k),setItem:(k,v)=>storage.set(k,v)},location:{hash:'#wq-11'},window:{},
+    Intl:Intl, Date:Date};
+  vm.runInNewContext(source.ui,ctx2);
+  assert.equal(ruleCard.classList.contains('chiphide'),false,'deep-linked card must be visible');
+  assert.equal(storage.get('deck.chip.owed'),'Credit','the saved chip must survive a deep-link visit');
+}
+
+rulingTest().then(unitTapTest).then(pipelineTest).then(chipTest).then(()=>console.log('UI, ruling, unit-tap, pipeline and chip runtime fixtures passed')).catch(e=>{console.error(e);process.exitCode=1;});

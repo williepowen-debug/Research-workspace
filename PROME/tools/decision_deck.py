@@ -626,7 +626,47 @@ def days_dark(desk: str | None) -> int | None:
             _DARK_CACHE[desk] = None
     return _DARK_CACHE[desk]
 
-def due_pill(by: str | None, days: int | None, blocked: bool, blocker: str | None = None) -> str:
+# ---- Change B (Will 2026-10-09 17:06 ET assignment; ruled spec PROME/proposals/2026-10-09_deck-options-and-grouping-RULED.md
+# §2d + §3; acceptance PROME/tools/tests/ACCEPTANCE_deck_changeB_2026-10-09.md) ----
+_CLOCK_ET = re.compile(r"\b(\d{1,2}:\d{2}(?:[–-]\d{1,2}:\d{2})?\s*(?:ET|EDT|EST))\b")
+_MONEY_KIND = re.compile(r"TRADE|\[APPROVE\]|BROKER", re.I)
+
+def clock_of(r: dict) -> str | None:
+    """AC-B6 (re-cut at read 1 ❌1): an explicit clock from the row's NEEDED-BY cell ONLY — the Item text
+    carries registration/approval stamps that are NOT deadlines (the 10/9 read found four invented ones).
+    Ranges (09:45–10:30 ET) are captured whole; a Needed-by holding FURTHER clock-like tokens beyond the
+    match gets an ellipsis so one extracted clock never poses as the whole clause (the full cell is in
+    the card's detail)."""
+    cell = r.get("by_raw") or ""
+    m = _CLOCK_ET.search(cell)
+    if not m:
+        return None
+    rest = cell[:m.start()] + cell[m.end():]
+    more = re.search(r"\b\d{1,2}:\d{2}\b", rest)
+    return m.group(1) + ("\u2026" if more else "")
+
+_RESERVED = {"All", "Trade", "Gate", "Rule", "Hands", "Launch", "Chore"}
+_RESERVED_LC = {x.lower() for x in _RESERVED}
+
+def kind_chip(kind: str) -> str:
+    """Deterministic Type-cell -> chip map (AC-B1). Order matters: a 'RULE / register a gate' row IS a gate
+    decision; money kinds pin separately (AC-B3) whatever their chip."""
+    k = kind.upper()
+    if "GATE" in k: return "Gate"
+    if _MONEY_KIND.search(k): return "Trade"
+    if k.startswith("RULE") or "/ RULE" in k or " RULE" in k: return "Rule"
+    if "ACTION" in k or "HANDS" in k: return "Hands"
+    if "LAUNCH" in k: return "Launch"
+    return "Chore"
+
+def is_pinned(r: dict, days: int | None) -> bool:
+    """The ruled §2d amendment: due today/overdue · an explicit ET clock · money-moving Type.
+    Pinned cards stay visible under EVERY chip, saved ones included; chips filter only the rest."""
+    # read 1 ❌4: the ruling says ANY card — a blocked due/money card pins too (it has no tap controls,
+    # but it must never vanish under a chip).
+    return (days is not None and days <= 0) or bool(clock_of(r)) or bool(_MONEY_KIND.search(r.get("kind") or ""))
+
+def due_pill(by: str | None, days: int | None, blocked: bool, blocker: str | None = None, clock: str | None = None) -> str:
     if blocked:
         if blocker:
             dd = days_dark(blocker)
@@ -637,13 +677,14 @@ def due_pill(by: str | None, days: int | None, blocked: bool, blocker: str | Non
         return '<span class="pill soft">no hard date</span>'
     if days is None:
         return f'<span class="pill soft">{html.escape(by)}</span>'
+    ck = ("" if not clock else (f" · {clock[:-1]}\u2026" if clock.endswith("\u2026") else f" · {clock}"))
     if days < 0:
-        return f'<span class="pill crit">overdue {-days}d · {by}</span>'
+        return f'<span class="pill crit">overdue {-days}d · {by}{ck}</span>'
     if days == 0:
-        return f'<span class="pill crit">due today · {by}</span>'
+        return f'<span class="pill crit">due today · {by}{ck}</span>'
     if days <= 2:
-        return f'<span class="pill warn">{days}d left · {by}</span>'
-    return f'<span class="pill ok">{days}d left · {by}</span>'
+        return f'<span class="pill warn">{days}d left · {by}{ck}</span>'
+    return f'<span class="pill ok">{days}d left · {by}{ck}</span>'
 
 def render_unit(wq: str, unit: dict, multi: bool) -> str:
     did = f"{wq}.{unit['unit']}" if multi else wq
@@ -688,8 +729,35 @@ def render_unit(wq: str, unit: dict, multi: bool) -> str:
     )
 
 
+# read 2 ❌1: the guard keys on MARKERS, not meaning — restated contract: every MARKED caveat renders on
+# the front; the marker set errs toward showing; FORWARD RULE (acceptance closing): PROME marks any
+# decision-relevant caveat in a sidecar what/why cell with ⚠️ or the word "caveat".
+_CAVEAT = re.compile(r"⚠|⛔|caveat|known[- ]unknown|unobserved|not proof|overrides your|does not yet show", re.I)
+
 def render_owed(rows: list[dict], expl: dict, today: dt.date, warnings: list[str] | None = None) -> str:
     out = []
+    # AC-B1 chip bar: kind chips from the Type cell; domain chips ONLY from the sidecar's declared `domains`
+    # column (PROME-declared convenience labels, never owner classifications). Counts are card counts.
+    kinds: dict[str, int] = {}
+    doms: dict[str, int] = {}
+    reserved = _RESERVED
+    for r in rows:                                     # counts cover ALL rows incl. blocked (supersedes AC-B1's
+        kinds[kind_chip(r["kind"])] = kinds.get(kind_chip(r["kind"]), 0) + 1   # "non-blocked" — blocked cards render under chips too)
+        e0 = expl.get(r["n"])
+        for d in ((e0.get("domains") or "") if e0 else "").replace("·", " ").split():
+            if d.lower() in _RESERVED_LC:                 # read 1 ⚠️4 + read 2 ⚠️7: case-insensitive collision guard
+                if warnings is not None:                  # would double a chip — dropped loudly, never rendered
+                    warnings.append(f"WQ-{r['n']}: domain token {d!r} collides with a reserved chip name — dropped")
+                continue
+            doms[d] = doms.get(d, 0) + 1
+    chip_order = [k for k in ("Trade", "Gate", "Rule", "Hands", "Launch", "Chore") if k in kinds]
+    chips = "".join(f'<button type="button" class="chipbtn" data-chip="{k}">{k}<span class="n">{kinds[k]}</span></button>' for k in chip_order)
+    chips += "".join(f'<button type="button" class="chipbtn dom" data-chip="{html.escape(d, quote=True)}">{html.escape(d)}<span class="n">{doms[d]}</span></button>' for d in sorted(doms))
+    if chips:
+        npin = sum(1 for r in rows if r.get("_pin"))
+        out.append('<div class="chipbar" title="Filters are a convenience: anything due, clocked or money-moving stays PINNED and visible under every chip. Domain labels are PROME-declared.">'
+                   f'<button type="button" class="chipbtn on" data-chip="All">All</button>{chips}'
+                   + (f'<span class="chipnote">{npin} pinned card(s) stay visible, each on top of its group, under every chip</span>' if npin else '') + '</div>')
     seen = set()
     for r in rows:
         grp = "blocked" if r["blocked"] else ("answered" if r.get("answered") else "owed")
@@ -707,26 +775,53 @@ def render_owed(rows: list[dict], expl: dict, today: dt.date, warnings: list[str
             warnings.extend(warns)
         if len(units) == 1 and units[0].get("plain") and not units[0].get("meanings"):
             units = []                                   # a single declared-but-plain unit without meanings IS today's plain card (AC5)
+        # AC-B5 (re-cut at read 1 ❌2/⚠️11): the front = the decision, If yes / If no (what the buttons DO,
+        # beside the buttons), If nothing, the rec, and EVERY caveat. Only What-it-is / Why-it-is-yours move
+        # behind Background — and ONLY when they carry no caveat marker; a card whose background text holds
+        # ⚠/⛔/"caveat" renders in FULL on the front (fail toward showing, never toward hiding).
         if e and units and all(u.get("options") for u in units):
-            block = (
-                '<dl class="expl">'
-                f'<dt>What it is</dt><dd>{html.escape(e["what"])}</dd>'
-                f'<dt>Why it is yours</dt><dd>{html.escape(e["why_yours"])}</dd>'
-                f'<dt>If nothing</dt><dd>{html.escape(e["if_nothing"])}</dd>'
-                '</dl>'
-                f'<p class="rec"><span class="lbl">PROME rec</span> {html.escape(e["rec_reason"])}</p>'
-            )
+            bg_src = e["what"] + " " + e["why_yours"]
+            if _CAVEAT.search(bg_src):
+                block = (
+                    '<dl class="expl">'
+                    f'<dt>What it is</dt><dd>{html.escape(e["what"])}</dd>'
+                    f'<dt>Why it is yours</dt><dd>{html.escape(e["why_yours"])}</dd>'
+                    f'<dt>If nothing</dt><dd>{html.escape(e["if_nothing"])}</dd></dl>'
+                    f'<p class="rec"><span class="lbl">PROME rec</span> {html.escape(e["rec_reason"])}</p>'
+                )
+            else:
+                bg = (f'<dt>What it is</dt><dd>{html.escape(e["what"])}</dd>'
+                      f'<dt>Why it is yours</dt><dd>{html.escape(e["why_yours"])}</dd>')
+                block = (
+                    f'<dl class="expl"><dt>If nothing</dt><dd>{html.escape(e["if_nothing"])}</dd></dl>'
+                    f'<p class="rec"><span class="lbl">PROME rec</span> {html.escape(e["rec_reason"])}</p>'
+                    f'<details class="more"><summary>Background — what it is · why it is yours</summary>'
+                    f'<dl class="expl">{bg}</dl></details>'
+                )
         elif e:
-            block = (
-                '<dl class="expl">'
-                f'<dt>What it is</dt><dd>{html.escape(e["what"])}</dd>'
-                f'<dt>Why it is yours</dt><dd>{html.escape(e["why_yours"])}</dd>'
-                f'<dt>If yes</dt><dd>{html.escape(e["if_yes"])}</dd>'
-                f'<dt>If no</dt><dd>{html.escape(e["if_no"])}</dd>'
-                f'<dt>If nothing</dt><dd>{html.escape(e["if_nothing"])}</dd>'
-                '</dl>'
-                f'<p class="rec"><span class="lbl">PROME rec</span> {html.escape(e["rec_reason"])}</p>'
-            )
+            bg_src = e["what"] + " " + e["why_yours"]
+            if _CAVEAT.search(bg_src):
+                block = (
+                    '<dl class="expl">'
+                    f'<dt>What it is</dt><dd>{html.escape(e["what"])}</dd>'
+                    f'<dt>Why it is yours</dt><dd>{html.escape(e["why_yours"])}</dd>'
+                    f'<dt>If yes</dt><dd>{html.escape(e["if_yes"])}</dd>'
+                    f'<dt>If no</dt><dd>{html.escape(e["if_no"])}</dd>'
+                    f'<dt>If nothing</dt><dd>{html.escape(e["if_nothing"])}</dd></dl>'
+                    f'<p class="rec"><span class="lbl">PROME rec</span> {html.escape(e["rec_reason"])}</p>'
+                )
+            else:
+                bg = (f'<dt>What it is</dt><dd>{html.escape(e["what"])}</dd>'
+                      f'<dt>Why it is yours</dt><dd>{html.escape(e["why_yours"])}</dd>')
+                block = (
+                    '<dl class="expl">'
+                    f'<dt>If yes</dt><dd>{html.escape(e["if_yes"])}</dd>'
+                    f'<dt>If no</dt><dd>{html.escape(e["if_no"])}</dd>'
+                    f'<dt>If nothing</dt><dd>{html.escape(e["if_nothing"])}</dd></dl>'
+                    f'<p class="rec"><span class="lbl">PROME rec</span> {html.escape(e["rec_reason"])}</p>'
+                    f'<details class="more"><summary>Background — what it is · why it is yours</summary>'
+                    f'<dl class="expl">{bg}</dl></details>'
+                )
         else:
             block = ('<p class="owed-note">Explainer owed — PROME writes the plain-English block at the next touch. '
                      'The row text is below.</p>'
@@ -766,9 +861,14 @@ def render_owed(rows: list[dict], expl: dict, today: dt.date, warnings: list[str
               f'<input type="text" class="note" id="note-{r["n"]}" placeholder="Note to PROME (optional) — e.g. 200 = 1+3, or a different level" maxlength="400">'
               '</div>'
           )
+        pin = r["_pin"] if "_pin" in r else is_pinned(r, days)
+        dom = " ".join(d for d in ((e.get("domains") or "").replace("·", " ").split() if e else [])
+                       if d.lower() not in _RESERVED_LC)   # read 2 ❌3: the card attr honors the same guard
+        pin_pill = '<span class="pill pin" title="Due, clocked or money-moving: visible under every filter">PINNED</span>' if pin else ""
         out.append(
-            f'<article class="card{" blocked" if r["blocked"] else ""}" id="wq-{r["n"]}" data-wq="{r["n"]}">'
-            f'<div class="rail"><span class="num">WQ-{r["n"]}</span>{due_pill(r["by"], days, r["blocked"], r.get("blocker"))}{TOGGLE}</div>'
+            f'<article class="card{" blocked" if r["blocked"] else ""}" id="wq-{r["n"]}" data-wq="{r["n"]}"'
+            f' data-kchip="{kind_chip(r["kind"])}" data-dom="{html.escape(dom, quote=True)}" data-pin="{"1" if pin else "0"}" data-due="{html.escape(r["by"] or "", quote=True)}">'
+            f'<div class="rail"><span class="num">WQ-{r["n"]}</span>{due_pill(r["by"], days, r["blocked"], r.get("blocker"), clock_of(r))}{pin_pill}{TOGGLE}</div>'
             '<div class="body">'
             f'<div class="meta"><span class="pill type">{html.escape(r["kind"])}</span>'
             f'<span class="since">open since {html.escape(r["since"])}</span></div>'
@@ -908,6 +1008,15 @@ details.raw code,.expl code,.key code{font:12.5px/1.4 "IBM Plex Mono",monospace;
 .tapstate{font:13px/1.5 "IBM Plex Mono",monospace;padding:8px 10px;border-radius:4px;background:var(--chip)}
 .tapstate.sent{color:var(--ok)}.tapstate.err{color:var(--crit)}
 .grp{font:600 12px/1.6 "IBM Plex Mono",monospace;color:var(--muted);letter-spacing:.04em;margin:18px 0 8px}
+.chipbar{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 4px}
+.chipbtn{font:500 12.5px/1 "IBM Plex Mono",monospace;background:var(--chip);color:var(--ink);border:1px solid var(--line);border-radius:999px;padding:7px 12px;cursor:pointer}
+.chipbtn .n{margin-left:6px;color:var(--muted)}
+.chipbtn.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}.chipbtn.on .n{color:var(--accent-ink)}
+.chipnote{font:11.5px/1.4 "IBM Plex Mono",monospace;color:var(--muted);align-self:center}
+.chiphide{display:none}
+.pill.pin{background:var(--warn);color:#fff}
+.asof{font:12px/1.5 "IBM Plex Mono",monospace;color:var(--muted);margin:6px 0 0}
+details.more{margin:8px 0 0}details.more summary{cursor:pointer;font:500 13px/1.5 "IBM Plex Sans",sans-serif;color:var(--muted)}
 .unit{gap:10px}.unit+.unit{margin-top:14px}
 .unit-h .did{font:600 12px/1.4 "IBM Plex Mono",monospace;color:var(--accent)}
 .src{font:12px/1.5 "IBM Plex Mono",monospace;color:var(--muted);margin:0;overflow-wrap:anywhere}
@@ -961,6 +1070,41 @@ UI_JS = r"""
       Array.prototype.slice.call(panel.querySelectorAll('.card')).forEach(function(c){ setMin(c, on, true); });
     });
   });
+  // Change B (AC-B2/B3/B4): chip filter. Pinned cards are exempt STRUCTURALLY — the show test reads
+  // data-pin before anything else, so no saved filter can ever hide one.
+  var bar = document.querySelector ? document.querySelector('.chipbar') : null;
+  if (bar) {
+    var chips = Array.prototype.slice.call(bar.querySelectorAll('.chipbtn'));
+    var chipKey = 'deck.chip.' + document.body.dataset.view;
+    var applyChip = function(val, save){
+      if (save === undefined) save = true;
+      chips.forEach(function(c){ c.classList.toggle('on', c.dataset.chip === val); });
+      // read 2 ⚠️3: "due today" is an ET fact — compute today in America/New_York, never viewer-local
+      var todayLocal = (function(){ try { return new Intl.DateTimeFormat('en-CA',{timeZone:'America/New_York',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date()); } catch(e){ var d = new Date(); return d.getFullYear() + '-' + ('0'+(d.getMonth()+1)).slice(-2) + '-' + ('0'+d.getDate()).slice(-2); } })();
+      Array.prototype.slice.call(document.querySelectorAll('#owed .card')).forEach(function(card){
+        // pin exemption first; a card whose due date has arrived since the build counts as pinned too (read 1 ⚠️3)
+        var pinNow = card.dataset.pin === '1' || (card.dataset.due && card.dataset.due <= todayLocal);
+        var show = pinNow || val === 'All' || card.dataset.kchip === val ||
+          (' ' + (card.dataset.dom || '') + ' ').indexOf(' ' + val + ' ') >= 0;
+        card.classList.toggle('chiphide', !show);
+      });
+      Array.prototype.slice.call(document.querySelectorAll('#owed .grp')).forEach(function(g){
+        var el = g.nextElementSibling, any = false;
+        while (el && !(el.classList && el.classList.contains('grp'))) {
+          if (el.classList && el.classList.contains('card') && !el.classList.contains('chiphide')) { any = true; break; }
+          el = el.nextElementSibling;
+        }
+        g.classList.toggle('chiphide', !any);
+      });
+      if (save) { try{ localStorage.setItem(chipKey, val); }catch(e){} }
+    };
+    chips.forEach(function(c){ c.addEventListener('click', function(){ applyChip(c.dataset.chip); }); });
+    var sv = 'All';
+    try{ var s2 = localStorage.getItem(chipKey); if (s2 && chips.some(function(c){ return c.dataset.chip === s2; })) sv = s2; }catch(e){}
+    applyChip(sv);
+    // read 1 ⚠️2 + read 2 ❌2: a deep link to a hidden card shows All WITHOUT saving — the viewer's saved chip survives the visit
+    if (location.hash) { var tgt = document.getElementById(location.hash.slice(1)); if (tgt && tgt.classList && tgt.classList.contains('chiphide')) applyChip('All', false); }
+  }
 })();
 """
 
@@ -993,7 +1137,7 @@ RULING_JS = r"""
     } else if (cls === 'err') { card.classList.remove('ruled-approve','ruled-decline','ruled-later','ruled-choice'); }
     if (wrap && wrap.querySelectorAll) { var opts = wrap.querySelectorAll('.opt'); for (var i = 0; i < opts.length; i++) { opts[i].classList.toggle('chosen', !!label && opts[i].dataset.label === label); } }
   }
-  function fmt(iso){ try{ return new Date(iso).toLocaleString(undefined,{month:'numeric',day:'numeric',hour:'numeric',minute:'2-digit'}); }catch(e){ return iso; } }
+  function fmt(iso){ if (typeof iso !== 'string') return ''; try{ return new Date(iso).toLocaleString('en-US',{month:'numeric',day:'numeric',hour:'numeric',minute:'2-digit',timeZone:'America/New_York'}) + ' ET'; }catch(e){ return iso; } }
   function describe(x){ if (x.choice && x.choice.text) { return (x.verdict === 'CHOICE' ? 'CHOICE ' + x.choice.label : String(x.verdict)) + ' — ' + x.choice.text; } return String(x.verdict); }
   if (!(window.claude && window.claude.use)) { storeLine.textContent = 'Tap-to-rule is off in this view (no runtime). Reading only.'; return; }
   storeLine.textContent = 'Connecting to the ruling store…';
@@ -1009,8 +1153,23 @@ RULING_JS = r"""
         var x = latest[k];
         var when = x.ts ? fmt(x.ts) : '';
         var lab = x.choice && x.choice.label;
-        if (x.consumed) setState(k, 'sent', 'Ruled by tap ' + when + ': ' + describe(x) + (x.note ? ' — ' + x.note : '') + ' · picked up by PROME', x.verdict, lab, x.ts);
-        else setState(k, 'sent', 'Tapped ' + when + ': ' + describe(x) + (x.note ? ' — ' + x.note : '') + ' · awaiting PROME pickup', x.verdict, lab, x.ts);
+        // AC-B7: three stages, each stamped. ① recorded ② received by PROME (receipt, NEVER execution)
+        // ③ disposition — rendered ONLY when PROME's pickup wrote it; the page never invents one.
+        if (x.consumed) {
+          var stampv = x.consumed_at || x.picked_up || x.pickup;   // consumed_at is what pickups actually write (store-verified 10/9)
+          var fs = (typeof stampv === 'string' && fmt(stampv)) || '(pickup stamp not recorded)';   // read 2 ⚠️8: a non-string stamp never renders blank
+          var by = (typeof x.consumed_by === 'string' && x.consumed_by) ? ' (' + x.consumed_by + ')' : '';
+          var tail;
+          if (typeof x.disposition === 'string' && x.disposition) {
+            tail = ' · ③ Disposition recorded' + (typeof x.disposition_ts === 'string' ? ' ' + fmt(x.disposition_ts) : '') + ': ' + x.disposition;
+          } else if (typeof x.recorded_as === 'string' && x.recorded_as) {
+            tail = ' · ③ Recorded in the queue as: ' + x.recorded_as;   // read 2 ⚠️9: the store field is the queue record line, labelled as such
+          } else {
+            tail = ' · receipt is not execution — a disposition shows here only once PROME records one';
+          }
+          setState(k, 'sent', '② Received by PROME' + by + ' ' + fs + ' — ① recorded ' + when + ': ' + describe(x) + (x.note ? ' — ' + x.note : '') + tail, x.verdict, lab, x.ts);
+        }
+        else setState(k, 'sent', '① Recorded ' + when + ': ' + describe(x) + (x.note ? ' — ' + x.note : '') + ' · awaiting PROME pickup', x.verdict, lab, x.ts);
       });
     }, function(e){ storeLine.textContent = 'Ruling store error: ' + (e && e.code ? e.code : 'unknown'); });
     buttons.forEach(function(b){
@@ -1048,7 +1207,7 @@ RULING_JS = r"""
         }
         var shown = describe(doc);
         col.doc(id).set(doc)
-          .then(function(){ toast('Recorded: WQ-' + did + ' ' + shown); setState(did, 'sent', 'Tapped ' + fmt(ts) + ': ' + shown + (note ? ' — ' + note.trim() : '') + ' · awaiting PROME pickup · the LATEST tap rules', verdict, label, ts); for (var i2 = 0; i2 < sibs.length; i2++) { sibs[i2].disabled = false; } })
+          .then(function(){ toast('Recorded: WQ-' + did + ' ' + shown); setState(did, 'sent', '① Recorded ' + fmt(ts) + ': ' + shown + (note ? ' — ' + note.trim() : '') + ' · awaiting PROME pickup · the LATEST tap rules', verdict, label, ts); for (var i2 = 0; i2 < sibs.length; i2++) { sibs[i2].disabled = false; } })
           .catch(function(e){ for (var i3 = 0; i3 < sibs.length; i3++) { sibs[i3].disabled = false; } var c = (e && e.code) || 'error'; setState(did, 'err', 'Not recorded (' + c + '). Rule by message instead.', null, null, ts); toast('Not recorded: ' + c); });
       });
     });
@@ -1142,10 +1301,14 @@ def build(today: dt.date, out: Path, *, reference_out: Path | None = None,
     text = Q.read_text(encoding="utf-8")
     expl = load_explainers()
     owed = parse_open(text)
-    owed.sort(key=lambda r: (r["blocked"], bool(r.get("answered")), r["by"] or "9999-99-99"))
+    for r in owed:                                        # read 1 ❌3: pin BEFORE the sort so pinned cards sit
+        d = (dt.date.fromisoformat(r["by"]) - today).days if r["by"] else None   # AT THE TOP of their group
+        r["_pin"] = is_pinned(r, d)                       # (the ruled three groups stay; §2d "at the top")
+    owed.sort(key=lambda r: (r["blocked"], bool(r.get("answered")), not r["_pin"], r["by"] or "9999-99-99"))
     decided, active, docket = parse_decided(), parse_active(), parse_docket(today)
     sha = subprocess.run(["git", "rev-parse", "--short", "HEAD"], capture_output=True, text=True, cwd=ROOT).stdout.strip()
-    stamp = dt.datetime.now().strftime("%Y-%m-%d %H:%M")
+    from zoneinfo import ZoneInfo
+    stamp = dt.datetime.now(ZoneInfo("America/New_York")).strftime("%Y-%m-%d %H:%M") + " ET"  # AC-B8 (read 1 ⚠️9: explicit TZ)
     build_id = f"{sha}·{stamp}"
     actionable = [r for r in owed if not r["blocked"] and not r.get("answered")]
     answered = [r for r in owed if not r["blocked"] and r.get("answered")]
@@ -1157,6 +1320,7 @@ def build(today: dt.date, out: Path, *, reference_out: Path | None = None,
     option_rows = sorted({r["n"] for r in owed if (expl.get(r["n"]) or {}).get("options", "").strip()}, key=lambda n: int(re.match(r"\d+", n).group(0)))
     owed_panels = [
         ("owed", "Owed", len(actionable), _panelbar('<span class="dot"></span> Reading only.', store=True)
+         + f'<p class="asof">Built {html.escape(stamp)} · figures carry their own observation dates — a freshly built page does not refresh them; an undated figure is a defect to report.</p>'
          + (f'<p>{len(answered)} answered — hands or a dated action still owed.</p>' if answered else "")
          + (owed_html or '<p class="empty">Nothing owed.</p>')),
         ("key", "Key", None, KEY),
@@ -1228,7 +1392,7 @@ def selftest() -> int:
     chk("docket rows carry a physical line number", all(r["L"] > 2 for r in k))
     e = load_explainers()
     ncol = len(EXPL.read_text(encoding="utf-8").splitlines()[0].split("\t")) if EXPL.exists() else 0
-    chk("explainer sidecar header is 8 or 10 columns and every row matches it", ncol in (8, 10) and all(len(v) == ncol for v in e.values()), f"{len(e)} rows · {ncol} columns")
+    chk("explainer sidecar header is 10 or 11 columns and every row matches it", ncol in (10, 11) and all(len(v) == ncol for v in e.values()), f"{len(e)} rows · {ncol} columns")
     # Change A (L660): every OPEN row with options validates against its owner artifact; ≥1 options row and ≥1 plain row covered
     opt_rows, plain_rows, opt_fail, opt_warn = [], [], [], []
     for r in o:
@@ -1252,6 +1416,19 @@ def selftest() -> int:
     elif ncol == 10:
         chk("options WITHHELD on every row (10-column sidecar, no options cell filled) — the page renders plain cards", True, f"plain {len(plain_rows)}")
     chk("md() escapes HTML before styling", md("<b>x</b> **y**") == "&lt;b&gt;x&lt;/b&gt; <strong>y</strong>")
+    # Change B (AC-B10): pins + chips on the live sources
+    today0 = dt.date.today()
+    live = [r for r in o if not r["blocked"]]
+    owes_pin = [r["n"] for r in live if ((dt.date.fromisoformat(r["by"]) - today0).days <= 0 if r["by"] else False) or _MONEY_KIND.search(r["kind"] or "") or clock_of(r)]
+    pinned = [r["n"] for r in live if is_pinned(r, (dt.date.fromisoformat(r["by"]) - today0).days if r["by"] else None)]
+    chk("every due-today/overdue, clocked or money row is pinned (AC-B3)", set(owes_pin) <= set(pinned), f"pin-owed {owes_pin} vs pinned {pinned}")
+    page_html = render_owed(live, e, today0, [])
+    chk("chip bar renders when ≥1 non-blocked row exists (AC-B1)", ('class="chipbar"' in page_html) == bool(live))
+    import re as _re
+    bgs = _re.findall(r'<details class="more">.*?</details>', page_html, _re.S)
+    bad_bg = [b[:60] for b in bgs if _re.search(r"⚠|⛔|caveat|known[- ]unknown", b, _re.I)]
+    chk("no caveat marker hides behind a Background expander (read 1 ❌2)", not bad_bg, "; ".join(bad_bg)[:200] or f"{len(bgs)} backgrounds clean")
+    chk("every pinned card carries data-pin=1 in the render (AC-B3)", page_html.count('data-pin="1"') == len(pinned), f"{page_html.count('data-pin=' + chr(34) + '1' + chr(34))} rendered vs {len(pinned)}")
     print("SELFTEST", "PASS" if rc == 0 else "FAIL")
     return rc
 
@@ -1266,7 +1443,8 @@ if __name__ == "__main__":
     a = ap.parse_args()
     if a.selftest:
         sys.exit(selftest())
-    today = dt.date.fromisoformat(a.today) if a.today else dt.date.today()
+    from zoneinfo import ZoneInfo as _ZI
+    today = dt.date.fromisoformat(a.today) if a.today else dt.datetime.now(_ZI("America/New_York")).date()
     try:
         r = build(today, Path(a.out), reference_out=Path(a.reference_out) if a.reference_out else None,
                   owed_url=a.owed_url, reference_url=a.reference_url)
