@@ -133,6 +133,88 @@ class DeckSplit(unittest.TestCase):
                                 capture_output=True, text=True)
         self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
 
+    # ---- Change A (DOCKET L660): selectable options — ACCEPTANCE_deck_options_2026-10-09.md ----
+    CARD = ('# Card\n## 2. Context\n| a | b |\n|---|---|\n| x | y |\n'
+            '## 3. The choices\n| # | choice | what you get |\n|---|---|---|\n'
+            '| **A** | **Sell it now** (§4) | ≈ $100 |\n| B | Hold to 10/14 | nothing |\n| **No re-rule** | letter stands | — |\n'
+            '## 4. After\ntext\n')
+    HCARD = '# H\n## 3. Re-rule\n| option | effect |\n|---|---|\n| **R-A: permit a sale** | $90 |\n| **R-B: ride, close 10/16** | spirit |\n'
+
+    def _expl10(self, options='', source=''):
+        D.EXPL.write_text('wq\tname\twhat\twhy_yours\tif_yes\tif_no\tif_nothing\trec_reason\toptions\toptions_source\n'
+                          f'1\tExplained name\tFull what\tFull why\tFull yes\tFull no\tFull nothing\tFull recommendation\t{options}\t{source}\n')
+        (self.root / 'cards').mkdir(exist_ok=True)
+        (self.root / 'cards' / 'x.md').write_text(self.CARD)
+        (self.root / 'cards' / 'h.md').write_text(self.HCARD)
+
+    @staticmethod
+    def _article(html_text, wq):
+        m = re.search(rf'<article class="card[^"]*" id="wq-{wq}".*?</article>', html_text, re.S)
+        return m.group(0)
+
+    def test_ac1_plain_card_byte_identical_with_empty_options_columns(self):
+        _, owed8, _ = self.build()
+        before = self._article(owed8, '1')
+        self._expl10()
+        r, owed10, _ = self.build()
+        self.assertEqual(before, self._article(owed10, '1'))
+        self.assertEqual(r['options_rows'], [])
+        self.assertIn('id="tap-1" data-wq="1" data-did="1"', owed10)
+
+    def test_ac2_options_render_verbatim_with_consequences_and_no_approve(self):
+        self._expl10('A = Sell it now :: ≈ $100 || B = Hold to 10/14 :: nothing', 'cards/x.md#3')
+        r, owed, reference = self.build()
+        self.assertEqual(r['options_rows'], ['1']); self.assertEqual(r['options_warnings'], [])
+        for frag in ('id="ch-1-A"', 'id="ch-1-B"', 'data-did="1"', 'class="otext">Sell it now<', '<span class="ocons">≈ $100<',
+                     'id="lt-1"', 'id="note-1"', 'Full nothing', 'Full recommendation', 'cards/x.md</code> §3'):
+            self.assertIn(frag, owed)
+        for frag in ('id="ap-1"', 'id="dc-1"', 'Full yes', 'Full no<'):
+            self.assertNotIn(frag, owed)
+        self.assertNotIn('data-v=', reference)
+
+    def test_ac6_two_decision_units_on_one_row(self):
+        self._expl10('TLT: A = Sell it now || B = Hold to 10/14 ;; HBAN: R-A = permit a sale || R-B = ride, close 10/16',
+                     'TLT=cards/x.md#3 ;; HBAN=cards/h.md#3')
+        r, owed, _ = self.build()
+        self.assertEqual(r['options_warnings'], [])
+        self.assertEqual(owed.count('id="wq-1"'), 1)
+        for frag in ('id="tap-1.TLT" data-wq="1" data-did="1.TLT"', 'id="tap-1.HBAN" data-wq="1" data-did="1.HBAN"',
+                     'id="ch-1.HBAN-R-A"', 'id="note-1.TLT"', 'id="note-1.HBAN"', '<span class="did">1.HBAN</span>'):
+            self.assertIn(frag, owed)
+
+    def test_ac4_mismatch_fails_the_build_and_writes_nothing(self):
+        for options in ('A = Sell it now || B = Hold to 10/14 || C = Invented',   # deck-but-not-offered
+                        'A = Sell it now',                                         # offered-but-missing
+                        'A = Sell it later || B = Hold to 10/14'):                # text not a prefix
+            with self.subTest(options=options):
+                self._expl10(options, 'cards/x.md#3')
+                with self.assertRaises(SystemExit) as cm:
+                    self.build()
+                self.assertIn('WQ-1', str(cm.exception))
+                self.assertFalse(self.out.exists())
+
+    def test_ac5_unreadable_source_falls_back_to_the_plain_card_with_a_warning(self):
+        for source in ('cards/x.md#9', 'cards/missing.md#3', 'cards/x.md#2', ''):
+            with self.subTest(source=source):
+                self._expl10('A = Sell it now || B = Hold to 10/14', source)
+                r, owed, _ = self.build()
+                self.assertIn('id="ap-1"', owed); self.assertNotIn('id="ch-1-A"', owed)
+                self.assertEqual(len(r['options_warnings']), 1); self.assertIn('WQ-1', r['options_warnings'][0])
+
+    def test_malformed_options_cell_is_promes_defect_and_raises(self):
+        for options in ('A Sell it now', 'a = lower label', 'A = x || A = y', 'A = x ;; B = y'):
+            with self.subTest(options=options):
+                self._expl10(options, 'cards/x.md#3')
+                with self.assertRaises(ValueError):
+                    self.build()
+
+    def test_offered_options_reads_only_label_shaped_rows_of_the_numbered_section(self):
+        self._expl10()
+        self.assertEqual(D.offered_options('cards/x.md', '3'), [{'label': 'A', 'text': 'Sell it now (§4)'}, {'label': 'B', 'text': 'Hold to 10/14'}])
+        self.assertEqual(D.offered_options('cards/h.md', '3'), [{'label': 'R-A', 'text': 'permit a sale'}, {'label': 'R-B', 'text': 'ride, close 10/16'}])
+        self.assertIsNone(D.offered_options('cards/x.md', '2'))
+        self.assertIsNone(D.offered_options('cards/x.md', '4'))
+
 
 if __name__ == '__main__':
     unittest.main()

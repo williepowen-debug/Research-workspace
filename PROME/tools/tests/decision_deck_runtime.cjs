@@ -74,4 +74,34 @@ async function rulingTest() {
   rejectWrite=true;buttons[0].listeners.click();await new Promise(setImmediate);
   assert.match(state.textContent,/Not recorded \(DENIED\)/);assert(buttons.every(b=>!b.disabled));
 }
-rulingTest().then(()=>console.log('UI and ruling runtime fixtures passed')).catch(e=>{console.error(e);process.exitCode=1;});
+
+// Change A (L660) — AC3: a tap on a decision UNIT stores the exact terms shown; a unit LATER stores choice=null.
+async function unitTapTest() {
+  const store=element('store'), toast=element('toast'), card=element('wq-2'), state=element();
+  const note={value:' after CPI '};
+  const otext=a=>({textContent:a}), opt=(label,text,cons)=>{const o=element('',{label});const t=otext(text),c=otext(cons);o.querySelector=s=>s==='.otext'?t:s==='.ocons'?c:null;return o;};
+  const opts=[opt('A','Sell it now','≈ $100'),opt('B','Hold to 10/14','nothing')];
+  const btnA=element('ch-2.TLT-A',{v:'CHOICE',label:'A'}), btnLater=element('lt-2.TLT',{v:'LATER'});
+  const wrap=element('tap-2.TLT',{wq:'2',did:'2.TLT'}); wrap.classList.add('tap','unit');
+  wrap.querySelectorAll=s=>s==='.opt'?opts:[btnA,btnLater]; wrap.querySelector=s=>s==='.tapstate'?state:null;
+  btnA.closest=s=>s==='.opt'?opts[0]:wrap; btnLater.closest=()=>wrap; card.querySelector=()=>state;
+  let writes=[];
+  const db={collection(){return {onSnapshot(fn){fn({docs:[]});},doc(id){return {set(p){writes.push({id,payload:p});return Promise.resolve();}}}};}};
+  const ctx={document:{body:{dataset:{build:'fixture-build'}},querySelectorAll:()=>[btnA,btnLater],
+      getElementById:id=>({'store':store,'toast':toast,'wq-2':card,'tap-2.TLT':wrap,'note-2.TLT':note}[id])},
+    setTimeout:()=>0,clearTimeout:()=>{},window:{claude:{use(){return Promise.resolve(db);}}}};
+  ctx.Date=class extends Date {constructor(...args){super(...(args.length?args:['2026-10-09T17:00:00.500Z']));}};
+  vm.runInNewContext(source.rulings,ctx); await new Promise(setImmediate);
+  btnA.listeners.click(); await new Promise(setImmediate);
+  assert.match(state.textContent,/CHOICE A — Sell it now — after CPI/); assert(opts[0].classList.contains('chosen')); assert(card.classList.contains('ruled-choice'));
+  btnLater.listeners.click(); await new Promise(setImmediate);
+  assert.equal(writes.length,2);
+  assert.deepEqual(JSON.parse(JSON.stringify(writes[0].payload)),{wq:'2',verdict:'CHOICE',note:'after CPI',ts:'2026-10-09T17:00:00.500Z',build:'fixture-build',consumed:false,source:'decision-deck',
+    decision_id:'2.TLT',options_shown:[{label:'A',text:'Sell it now'},{label:'B',text:'Hold to 10/14'}],choice:{label:'A',text:'Sell it now',consequence:'≈ $100'}});
+  assert.equal(writes[1].payload.verdict,'LATER'); assert.equal(writes[1].payload.choice,null); assert.equal(writes[1].payload.decision_id,'2.TLT');
+  assert.match(writes[0].id,/^2-20261009170000500-/);
+  assert.match(state.textContent,/: LATER — after CPI/);
+  assert(opts[0].classList.contains('chosen')===false); // LATER was the last tap: no option highlighted
+  assert(card.classList.contains('ruled-later'));
+}
+rulingTest().then(unitTapTest).then(()=>console.log('UI, ruling and unit-tap runtime fixtures passed')).catch(e=>{console.error(e);process.exitCode=1;});

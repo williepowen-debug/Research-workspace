@@ -171,6 +171,161 @@ def load_explainers() -> dict[str, dict]:
         out[c[0].strip()] = dict(zip(hdr, c))
     return out
 
+# ---- Change A (DOCKET L660, Will 2026-10-09 12:09/12:32/12:35 ET): selectable options, copied VERBATIM from the
+# owner card and validated against the OFFERED set at build time. Acceptance: tests/ACCEPTANCE_deck_options_2026-10-09.md.
+# Sidecar columns (optional, header-driven): `options` = one block per decision unit, blocks joined by " ;; ",
+#   a block = optional "UNIT: " prefix + options joined by " || ", an option = "LABEL = text :: consequence".
+#   `options_source` = "<path>#<section number>" (single unit) or "UNIT=<path>#<n> ;; UNIT=<path>#<n>".
+# Shape "table": a markdown table inside the numbered section whose FIRST cell is `LABEL` or `LABEL: text`
+#   (TERRY's §3 / §7 choice tables). Any other shape ⇒ fail closed: no buttons, a named warning (AC5).
+OPTION_LABEL_RE = re.compile(r"^(?:[A-Z]{1,3}(?:-[A-Z]{1,3})?|\d{1,2})$")
+_UNIT_PREFIX_RE = re.compile(r"^([A-Za-z][A-Za-z0-9_-]{0,15}):\s+(?=\S)")
+
+
+def _norm(s: str) -> str:
+    return re.sub(r"\s+", " ", strip_md(s or "")).strip()
+
+
+def parse_options(cell: str, wq: str = "?") -> list[dict]:
+    """`options` cell → [{"unit": str|None, "options": [{"label","text","consequence"}]}].
+    A malformed cell is PROME's defect, so it raises (the build fails and names the WQ)."""
+    cell = (cell or "").strip()
+    if not cell:
+        return []
+    units = []
+    for raw in cell.split(";;"):
+        raw = raw.strip()
+        if not raw:
+            continue
+        unit = None
+        m = _UNIT_PREFIX_RE.match(raw)
+        if m:
+            unit, raw = m.group(1), raw[m.end():]
+        opts = []
+        for piece in raw.split("||"):
+            piece = piece.strip()
+            if not piece:
+                continue
+            if " = " not in piece:
+                raise ValueError(f"WQ-{wq}: option '{piece[:40]}' lacks 'LABEL = text'")
+            label, rest = piece.split(" = ", 1)
+            label = label.strip()
+            if not OPTION_LABEL_RE.match(label):
+                raise ValueError(f"WQ-{wq}: option label '{label}' is not a label token (A · R-A · 12)")
+            text, _, cons = rest.partition(" :: ")
+            text, cons = text.strip(), cons.strip()
+            if not text:
+                raise ValueError(f"WQ-{wq}: option {label} has no text")
+            opts.append({"label": label, "text": text, "consequence": cons})
+        labels = [o["label"] for o in opts]
+        if not opts:
+            raise ValueError(f"WQ-{wq}: an options block carries no option")
+        if len(set(labels)) != len(labels):
+            raise ValueError(f"WQ-{wq}: duplicate option labels {labels}")
+        units.append({"unit": unit, "options": opts})
+    if len(units) > 1 and any(u["unit"] is None for u in units):
+        raise ValueError(f"WQ-{wq}: a row with several decision units must name every unit ('UNIT: …')")
+    if len({u["unit"] for u in units}) != len(units):
+        raise ValueError(f"WQ-{wq}: duplicate decision units")
+    return units
+
+
+def parse_options_source(cell: str) -> dict:
+    """`options_source` cell → {unit_or_None: (path, section)}. Malformed entries are skipped (fail closed at validation)."""
+    out = {}
+    for raw in (cell or "").split(";;"):
+        raw = raw.strip()
+        if not raw:
+            continue
+        unit = None
+        if "=" in raw and "#" in raw and raw.index("=") < raw.index("#"):
+            unit, raw = raw.split("=", 1)
+            unit, raw = unit.strip(), raw.strip()
+        if "#" not in raw:
+            continue
+        path, sec = raw.rsplit("#", 1)
+        out[unit] = (path.strip(), sec.strip().lstrip("§"))
+    return out
+
+
+def offered_options(path: str, section: str) -> list[dict] | None:
+    """The OFFERED set read from the owner artifact: table rows in the numbered section whose first cell is a
+    label token (or `LABEL: text`). None when the file, the section or any label-shaped row is missing."""
+    try:
+        text = (ROOT / path).read_text(encoding="utf-8")
+    except OSError:
+        return None
+    lines = text.splitlines()
+    head = re.compile(r"^(#{1,6})\s*§?\s*" + re.escape(section) + r"(?:[.\s:)]|$)")
+    start = level = None
+    for i, ln in enumerate(lines):
+        m = head.match(ln)
+        if m:
+            start, level = i + 1, len(m.group(1))
+            break
+    if start is None:
+        return None
+    body = []
+    for ln in lines[start:]:
+        hm = re.match(r"^(#{1,6})\s", ln)
+        if hm and len(hm.group(1)) <= level:
+            break
+        body.append(ln)
+    out = []
+    for ln in body:
+        if not ln.lstrip().startswith("|"):
+            continue
+        c = split_cells(ln)
+        if len(c) < 2 or is_separator(c):
+            continue
+        first = _norm(c[0])
+        m = re.match(r"^([A-Z0-9-]{1,7})(?::\s*(.+))?$", first)
+        if not m or not OPTION_LABEL_RE.match(m.group(1)):
+            continue
+        label = m.group(1)
+        text = _norm(m.group(2)) if m.group(2) else _norm(c[1])
+        out.append({"label": label, "text": text})
+    return out or None
+
+
+def validate_options(wq: str, units: list[dict], sources: dict) -> tuple[list[dict], list[str]]:
+    """AC4/AC5: returns (units that may render, warnings). A readable source with a label-for-label or text
+    mismatch FAILS THE BUILD (SystemExit names the diff); an unreadable one drops the unit with a warning."""
+    keep, warns = [], []
+    for u in units:
+        key = u["unit"]
+        src = sources.get(key) if key in sources else (sources.get(None) if len(units) == 1 else None)
+        tag = f"WQ-{wq}" + (f".{key}" if key else "")
+        if not src:
+            warns.append(f"{tag}: no options_source — options NOT rendered (plain card)")
+            continue
+        offered = offered_options(*src)
+        if offered is None:
+            warns.append(f"{tag}: options_source {src[0]}#{src[1]} unreadable (file, section or label-shaped rows missing) — options NOT rendered (plain card)")
+            continue
+        off = {o["label"]: o["text"] for o in offered}
+        deck = {o["label"]: o["text"] for o in u["options"]}
+        missing = [l for l in off if l not in deck]
+        extra = [l for l in deck if l not in off]
+        if missing or extra:
+            raise SystemExit(f"DECK REFUSED TO BUILD: {tag} option set differs from the OFFERED set at {src[0]}#{src[1]} — "
+                             f"offered-but-missing {missing} · deck-but-not-offered {extra}")
+        for l, t in deck.items():
+            if not off[l].startswith(_norm(t)):
+                raise SystemExit(f"DECK REFUSED TO BUILD: {tag} option {l} text is not a prefix of the offered text at "
+                                 f"{src[0]}#{src[1]} — deck '{_norm(t)[:60]}' vs offered '{off[l][:60]}'")
+        keep.append({"unit": key, "options": u["options"], "source": src})
+    return keep, warns
+
+
+def options_for(expl_row: dict | None, wq: str) -> tuple[list[dict], list[str]]:
+    """Units that render for this row (validated) + warnings. Empty when the sidecar carries no options."""
+    if not expl_row or not (expl_row.get("options") or "").strip():
+        return [], []
+    units = parse_options(expl_row["options"], wq)
+    return validate_options(wq, units, parse_options_source(expl_row.get("options_source", "")))
+
+
 # Blocked keys on the DOCUMENTED declaration in the NOTES cell only — WILL_QUEUE Rules block: blocked rows carry
 # "⛔ waits: <who>" at the START of Notes. 2026-09-10 (WQ-221): a whole-LINE search for "⛔ wait" matched the
 # ITEM prose of the row proposing the aged-waits rule ("a ⛔ waits row whose …") and filed it under "waiting on
@@ -397,7 +552,30 @@ def due_pill(by: str | None, days: int | None, blocked: bool, blocker: str | Non
         return f'<span class="pill warn">{days}d left · {by}</span>'
     return f'<span class="pill ok">{days}d left · {by}</span>'
 
-def render_owed(rows: list[dict], expl: dict, today: dt.date) -> str:
+def render_unit(wq: str, unit: dict, multi: bool) -> str:
+    did = f"{wq}.{unit['unit']}" if multi else wq
+    head = (f'<div class="unit-h"><span class="did">{html.escape(did)}</span></div>' if multi else "")
+    path, sec = unit["source"]
+    opts = "".join(
+        f'<li class="opt" data-label="{html.escape(o["label"], quote=True)}">'
+        f'<button type="button" class="btn choice" data-v="CHOICE" data-label="{html.escape(o["label"], quote=True)}" id="ch-{html.escape(did, quote=True)}-{html.escape(o["label"], quote=True)}">{html.escape(o["label"])}</button>'
+        f'<div><p class="olbl">{html.escape(o["label"])} — <span class="otext">{html.escape(o["text"])}</span></p>'
+        + (f'<p class="cons"><b>Then:</b> <span class="ocons">{html.escape(o["consequence"])}</span></p>' if o["consequence"] else '<p class="cons"><span class="ocons"></span></p>')
+        + '</div></li>'
+        for o in unit["options"])
+    return (
+        f'<section class="tap unit" id="tap-{html.escape(did, quote=True)}" data-wq="{html.escape(wq, quote=True)}" data-did="{html.escape(did, quote=True)}">'
+        f'{head}<p class="src">Options copied from <code>{html.escape(path)}</code> §{html.escape(sec)} · validated label-for-label against the card at build</p>'
+        f'<ul class="opts">{opts}</ul>'
+        '<div class="tapstate" hidden></div>'
+        '<div class="tapbtns">'
+        f'<button type="button" class="btn later" data-v="LATER" id="lt-{html.escape(did, quote=True)}">Later</button>'
+        f'<input type="text" class="note" id="note-{html.escape(did, quote=True)}" placeholder="Note to PROME (optional) — e.g. A, but after the 10/14 CPI print" maxlength="400">'
+        '</div></section>'
+    )
+
+
+def render_owed(rows: list[dict], expl: dict, today: dt.date, warnings: list[str] | None = None) -> str:
     out = []
     seen = set()
     for r in rows:
@@ -411,7 +589,19 @@ def render_owed(rows: list[dict], expl: dict, today: dt.date) -> str:
         r["days"] = days
         e = expl.get(r["n"])
         name = e["name"] if e and e.get("name") else r["name"]
-        if e:
+        units, warns = ([], []) if r["blocked"] or r.get("answered") else options_for(e, r["n"])
+        if warnings is not None:
+            warnings.extend(warns)
+        if e and units:
+            block = (
+                '<dl class="expl">'
+                f'<dt>What it is</dt><dd>{html.escape(e["what"])}</dd>'
+                f'<dt>Why it is yours</dt><dd>{html.escape(e["why_yours"])}</dd>'
+                f'<dt>If nothing</dt><dd>{html.escape(e["if_nothing"])}</dd>'
+                '</dl>'
+                f'<p class="rec"><span class="lbl">PROME rec</span> {html.escape(e["rec_reason"])}</p>'
+            )
+        elif e:
             block = (
                 '<dl class="expl">'
                 f'<dt>What it is</dt><dd>{html.escape(e["what"])}</dd>'
@@ -434,9 +624,11 @@ def render_owed(rows: list[dict], expl: dict, today: dt.date) -> str:
             + (f'<p><span class="lbl">Notes</span> {md(r["notes"])}</p>' if r["notes"] else "")
             + '</details>'
         )
-        if r.get("answered") and not r["blocked"]:
+        if units:
+            ctl = "".join(render_unit(r["n"], u, len(units) > 1) for u in units)
+        elif r.get("answered") and not r["blocked"]:
             ctl = (
-                f'<div class="tap" data-wq="{r["n"]}">'
+                f'<div class="tap" id="tap-{r["n"]}" data-wq="{r["n"]}" data-did="{r["n"]}">'
                 '<div class="tapstate" hidden></div>'
                 '<div class="tapbtns">'
                 f'<button type="button" class="btn approve" data-v="DONE" id="dn-{r["n"]}">Done — hands complete</button>'
@@ -447,7 +639,7 @@ def render_owed(rows: list[dict], expl: dict, today: dt.date) -> str:
             )
         else:
           ctl = "" if r["blocked"] else (
-              f'<div class="tap" data-wq="{r["n"]}">'
+              f'<div class="tap" id="tap-{r["n"]}" data-wq="{r["n"]}" data-did="{r["n"]}">'
               '<div class="tapstate" hidden></div>'
               '<div class="tapbtns">'
               f'<button type="button" class="btn approve" data-v="APPROVE" id="ap-{r["n"]}">Approve</button>'
@@ -526,7 +718,7 @@ KEY = """
 <dt>Types</dt><dd><strong>[Approve]</strong> a trade or proposal · <strong>RULE</strong> a canon or disposition ruling · <strong>ACTION</strong> your hands · <strong>BROKER</strong> exports and confirms · <strong>LAUNCH</strong> open a desk · <strong>chore</strong> PROME housekeeping parked here so it has a home.</dd>
 </dl>
 <h2>How a tap works</h2>
-<p>Approve, Decline, or Later writes one record to this page's private store: the row number, your verdict, your note, the time. Nothing executes off a tap. At PROME's next boot it reads the store, writes your word into the queue verbatim as <em>"tap via Decision Deck"</em>, and marks the record picked up. The card shows its tap state until the next publish removes it. Trade and spend consequents still follow their own rails; a tap is your word arriving through a page instead of a message.</p>
+<p>Approve, Decline, or Later writes one record to this page's private store: the row number, your verdict, your note, the time. Nothing executes off a tap. When a decision has named choices, the card shows one button per choice in the owner desk's own words, copied from its card and checked against it at build; a tap records the exact label, text and consequence you saw, and the full set shown. A row that holds two decisions records each on its own. At PROME's next boot it reads the store, writes your word into the queue verbatim as <em>"tap via Decision Deck"</em>, and marks the record picked up. The card shows its tap state until the next publish removes it. Trade and spend consequents still follow their own rails; a tap is your word arriving through a page instead of a message.</p>
 <h2>The privacy rule</h2>
 <p>The page cannot tell who tapped. A tap counts as your word only because this artifact is private to your account. It is never shared. If it were, taps would stop being authenticated and PROME would stop consuming them.</p>
 <h2>Where this comes from</h2>
@@ -599,6 +791,16 @@ details.raw code,.expl code,.key code{font:12.5px/1.4 "IBM Plex Mono",monospace;
 .tapstate{font:13px/1.5 "IBM Plex Mono",monospace;padding:8px 10px;border-radius:4px;background:var(--chip)}
 .tapstate.sent{color:var(--ok)}.tapstate.err{color:var(--crit)}
 .grp{font:600 12px/1.6 "IBM Plex Mono",monospace;color:var(--muted);letter-spacing:.04em;margin:18px 0 8px}
+.unit{gap:10px}.unit+.unit{margin-top:14px}
+.unit-h .did{font:600 12px/1.4 "IBM Plex Mono",monospace;color:var(--accent)}
+.src{font:12px/1.5 "IBM Plex Mono",monospace;color:var(--muted);margin:0;overflow-wrap:anywhere}
+.opts{display:grid;gap:8px;margin:0;padding:0;list-style:none}
+.opt{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:start;border:1px solid var(--line);border-radius:6px;padding:10px;min-width:0}
+.opt .btn.choice{min-width:44px;padding:8px 10px;font:600 13px/1 "IBM Plex Mono",monospace;border-color:var(--accent);color:var(--accent);background:transparent}
+.opt.chosen{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.opt.chosen .btn.choice{background:var(--accent);color:var(--accent-ink)}
+.opt .olbl{font-weight:600;margin:0}.opt .cons{margin:2px 0 0;color:var(--muted);font-size:14px}.opt .cons b{color:var(--ink);font-weight:600}
+.card.ruled-choice{background:var(--tint-ok);border-color:var(--tint-ok-line)}.card.ruled-choice .tapstate{color:var(--ok)}
 .empty{color:var(--muted)}
 .key h2{font:600 19px/1.25 "Fraunces",Georgia,serif;margin:18px 0 8px}
 .key p{max-width:68ch}
@@ -653,14 +855,20 @@ RULING_JS = r"""
   var storeLine = document.getElementById('store');
   var buttons = Array.prototype.slice.call(document.querySelectorAll('.btn'));
   buttons.forEach(function(b){ b.disabled = true; });
-  function setState(wq, cls, text, verdict){
-    var card = document.getElementById('wq-'+wq); if(!card) return;
-    var st = card.querySelector('.tapstate'); if(!st) return;
+  // Change A (L660): a tap wrap is a whole card (`.tap`, data-did = the WQ) or ONE decision unit inside a card
+  // (`.tap.unit`, data-did = "<wq>.<UNIT>"); state is keyed by decision id, the tint by the card.
+  function wrapOf(did){ return document.getElementById('tap-'+did); }
+  function cardOf(did, wrap){ var c = wrap && wrap.closest ? wrap.closest('.card') : null; return c || document.getElementById('wq-'+String(did).split('.')[0]); }
+  function setState(did, cls, text, verdict, label){
+    var wrap = wrapOf(did); var card = cardOf(did, wrap); if(!card) return;
+    var st = (wrap && wrap.querySelector && wrap.querySelector('.tapstate')) || card.querySelector('.tapstate'); if(!st) return;
     st.className = 'tapstate ' + cls; st.textContent = text; st.hidden = false;
-    card.classList.remove('ruled-approve','ruled-decline','ruled-later');
+    card.classList.remove('ruled-approve','ruled-decline','ruled-later','ruled-choice');
     if (cls === 'sent' && verdict) card.classList.add('ruled-' + String(verdict).toLowerCase());
+    if (wrap && wrap.querySelectorAll) { var opts = wrap.querySelectorAll('.opt'); for (var i = 0; i < opts.length; i++) { opts[i].classList.toggle('chosen', !!label && opts[i].dataset.label === label); } }
   }
   function fmt(iso){ try{ return new Date(iso).toLocaleString(undefined,{month:'numeric',day:'numeric',hour:'numeric',minute:'2-digit'}); }catch(e){ return iso; } }
+  function describe(x){ return x.verdict === 'CHOICE' && x.choice ? 'CHOICE ' + x.choice.label + ' — ' + x.choice.text : String(x.verdict); }
   if (!(window.claude && window.claude.use)) { storeLine.textContent = 'Tap-to-rule is off in this view (no runtime). Reading only.'; return; }
   storeLine.textContent = 'Connecting to the ruling store…';
   window.claude.use('db').then(function(db){
@@ -670,18 +878,19 @@ RULING_JS = r"""
     var col = db.collection('rulings');
     col.onSnapshot(function(snap){
       var latest = {};
-      snap.docs.forEach(function(d){ var x = d.data() || {}; if (!x.wq) return; if (!latest[x.wq] || (x.ts||'') > (latest[x.wq].ts||'')) latest[x.wq] = x; });
-      Object.keys(latest).forEach(function(wq){
-        var x = latest[wq];
+      snap.docs.forEach(function(d){ var x = d.data() || {}; var k = x.decision_id || x.wq; if (!k) return; if (!latest[k] || (x.ts||'') > (latest[k].ts||'')) latest[k] = x; });
+      Object.keys(latest).forEach(function(k){
+        var x = latest[k];
         var when = x.ts ? fmt(x.ts) : '';
-        if (x.consumed) setState(wq, 'sent', 'Ruled by tap ' + when + ': ' + x.verdict + (x.note ? ' — ' + x.note : '') + ' · picked up by PROME', x.verdict);
-        else setState(wq, 'sent', 'Tapped ' + when + ': ' + x.verdict + (x.note ? ' — ' + x.note : '') + ' · awaiting PROME pickup', x.verdict);
+        var lab = x.choice && x.choice.label;
+        if (x.consumed) setState(k, 'sent', 'Ruled by tap ' + when + ': ' + describe(x) + (x.note ? ' — ' + x.note : '') + ' · picked up by PROME', x.verdict, lab);
+        else setState(k, 'sent', 'Tapped ' + when + ': ' + describe(x) + (x.note ? ' — ' + x.note : '') + ' · awaiting PROME pickup', x.verdict, lab);
       });
     }, function(e){ storeLine.textContent = 'Ruling store error: ' + (e && e.code ? e.code : 'unknown'); });
     buttons.forEach(function(b){
       b.addEventListener('click', function(){
-        var wrap = b.closest('.tap'); var wq = wrap.dataset.wq; var verdict = b.dataset.v;
-        var note = (document.getElementById('note-'+wq) || {}).value || '';
+        var wrap = b.closest('.tap'); var wq = wrap.dataset.wq; var did = wrap.dataset.did || wq; var verdict = b.dataset.v;
+        var note = (document.getElementById('note-'+did) || {}).value || '';
         var ts = new Date().toISOString();
         // L336 B3 (external audit F4): the id truncated the timestamp to SECONDS and the write is doc().set(),
         // so two taps on one WQ inside one second targeted the SAME document and the second overwrote the
@@ -694,9 +903,23 @@ RULING_JS = r"""
         // disable BOTH verdicts on this card while a write is in flight — courtesy, not correctness
         var sibs = wrap.querySelectorAll('button[data-v]');
         for (var si = 0; si < sibs.length; si++) { sibs[si].disabled = true; }
-        col.doc(id).set({wq: wq, verdict: verdict, note: note.trim(), ts: ts, build: BUILD, consumed: false, source: 'decision-deck'})
-          .then(function(){ toast('Recorded: WQ-' + wq + ' ' + verdict); setState(wq, 'sent', 'Tapped ' + fmt(ts) + ': ' + verdict + (note ? ' — ' + note.trim() : '') + ' · awaiting PROME pickup · the LATEST tap rules', verdict); for (var i2 = 0; i2 < sibs.length; i2++) { sibs[i2].disabled = false; } })
-          .catch(function(e){ for (var i3 = 0; i3 < sibs.length; i3++) { sibs[i3].disabled = false; } var c = (e && e.code) || 'error'; setState(wq, 'err', 'Not recorded (' + c + '). Rule by message instead.'); toast('Not recorded: ' + c); });
+        var doc = {wq: wq, verdict: verdict, note: note.trim(), ts: ts, build: BUILD, consumed: false, source: 'decision-deck'};
+        var label = null;
+        if (wrap.classList && wrap.classList.contains('unit')) {
+          // a decision UNIT: the exact terms shown travel with the tap (AC3) — label, text, consequence, and the whole set
+          var opts = Array.prototype.slice.call(wrap.querySelectorAll('.opt'));
+          doc.decision_id = did;
+          doc.options_shown = opts.map(function(o){ return {label: o.dataset.label, text: (o.querySelector('.otext') || {}).textContent || ''}; });
+          if (verdict === 'CHOICE') {
+            label = b.dataset.label;
+            var li = b.closest('.opt');
+            doc.choice = {label: label, text: ((li && li.querySelector('.otext')) || {}).textContent || '', consequence: ((li && li.querySelector('.ocons')) || {}).textContent || ''};
+          } else { doc.choice = null; }
+        }
+        var shown = describe(doc);
+        col.doc(id).set(doc)
+          .then(function(){ toast('Recorded: WQ-' + did + ' ' + shown); setState(did, 'sent', 'Tapped ' + fmt(ts) + ': ' + shown + (note ? ' — ' + note.trim() : '') + ' · awaiting PROME pickup · the LATEST tap rules', verdict, label); for (var i2 = 0; i2 < sibs.length; i2++) { sibs[i2].disabled = false; } })
+          .catch(function(e){ for (var i3 = 0; i3 < sibs.length; i3++) { sibs[i3].disabled = false; } var c = (e && e.code) || 'error'; setState(did, 'err', 'Not recorded (' + c + '). Rule by message instead.', null, null); toast('Not recorded: ' + c); });
       });
     });
   }).catch(function(){ storeLine.textContent = 'Tap-to-rule unavailable in this view. Reading only.'; });
@@ -797,10 +1020,15 @@ def build(today: dt.date, out: Path, *, reference_out: Path | None = None,
     actionable = [r for r in owed if not r["blocked"] and not r.get("answered")]
     answered = [r for r in owed if not r["blocked"] and r.get("answered")]
     missing = [r["n"] for r in owed if r["n"] not in expl]
+    option_warnings: list[str] = []
+    owed_html = render_owed(owed, expl, today, option_warnings)   # AC4: a mismatch raises SystemExit BEFORE any write
+    for w in option_warnings:
+        print(f"⚠️ decision_deck: {w}", file=sys.stderr)
+    option_rows = sorted({r["n"] for r in owed if (expl.get(r["n"]) or {}).get("options", "").strip()}, key=lambda n: int(re.match(r"\d+", n).group(0)))
     owed_panels = [
         ("owed", "Owed", len(actionable), _panelbar('<span class="dot"></span> Reading only.', store=True)
          + (f'<p>{len(answered)} answered — hands or a dated action still owed.</p>' if answered else "")
-         + (render_owed(owed, expl, today) or '<p class="empty">Nothing owed.</p>')),
+         + (owed_html or '<p class="empty">Nothing owed.</p>')),
         ("key", "Key", None, KEY),
     ]
     reference_panels = [
@@ -843,7 +1071,8 @@ def build(today: dt.date, out: Path, *, reference_out: Path | None = None,
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(content, encoding="utf-8")
     return {"owed": len(owed), "actionable": len(actionable), "answered_hands": len(answered), "decided": len(decided), "active": len(active),
-            "docket": len(docket), "explainers_missing": missing, "bytes": len(page.encode()), "out": str(out),
+            "docket": len(docket), "explainers_missing": missing, "options_rows": option_rows,
+            "options_warnings": option_warnings, "bytes": len(page.encode()), "out": str(out),
             "reference_out": str(reference_out), "reference_bytes": len(reference.encode()), "link_mode": link_mode}
 
 def selftest() -> int:
@@ -868,7 +1097,28 @@ def selftest() -> int:
     chk("DOCKET Will-owner rows parse", len(k) >= 1, f"{len(k)} rows")
     chk("docket rows carry a physical line number", all(r["L"] > 2 for r in k))
     e = load_explainers()
-    chk("explainer sidecar has the 8 columns", all(len(v) == 8 for v in e.values()), f"{len(e)} rows")
+    ncol = len(EXPL.read_text(encoding="utf-8").splitlines()[0].split("\t")) if EXPL.exists() else 0
+    chk("explainer sidecar header is 8 or 10 columns and every row matches it", ncol in (8, 10) and all(len(v) == ncol for v in e.values()), f"{len(e)} rows · {ncol} columns")
+    # Change A (L660): every OPEN row with options validates against its owner artifact; ≥1 options row and ≥1 plain row covered
+    opt_rows, plain_rows, opt_fail, opt_warn = [], [], [], []
+    for r in o:
+        if r["blocked"] or r.get("answered"):
+            continue
+        ex = e.get(r["n"])
+        if ex and (ex.get("options") or "").strip():
+            try:
+                units, warns = options_for(ex, r["n"])
+                opt_warn.extend(warns)
+                if units:
+                    opt_rows.append(r["n"])
+            except (SystemExit, ValueError) as err:
+                opt_fail.append(f"WQ-{r['n']}: {err}")
+        else:
+            plain_rows.append(r["n"])
+    chk("options rows validate against their owner artifacts (label-for-label, text prefix)", not opt_fail, " · ".join(opt_fail)[:300] or f"{len(opt_rows)} row(s): {opt_rows}")
+    chk("options rows render (no unit dropped by an unreadable source)", not opt_warn, " · ".join(opt_warn)[:300] or "none dropped")
+    if ncol == 10:
+        chk("≥1 options row AND ≥1 plain row in the live OPEN set (AC8)", bool(opt_rows) and bool(plain_rows), f"options {opt_rows} · plain {len(plain_rows)}")
     chk("md() escapes HTML before styling", md("<b>x</b> **y**") == "&lt;b&gt;x&lt;/b&gt; <strong>y</strong>")
     print("SELFTEST", "PASS" if rc == 0 else "FAIL")
     return rc
