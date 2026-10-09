@@ -30,36 +30,33 @@
 ## Session Notes
 
 ### CHANGES SINCE LAST SESSION
-*(Prior block Tue 9/29. This block: Thu 10/1, PROME-spawned L0 wake (DOCKET L551), boot 12:10 ET.)*
-- **MOF monthly Aug-27→Sep-28 = ¥0** (`feio/monthly/20260930e.html`). Words only, officially. KB-SAM-258 promoted.
-- **Totan OIS 10/1 15:15 JST: Oct 36→18% · Dec 72→84% · cum 2.48→2.23** after SoO (split, no October named) + Tankan (large mfr 24, non-mfr 35).
-- **MOF weekly wk 9/13–19 −¥1,904.9B LT-debt selling = one-week bar TRIPPED** (late week; 9/20–26 −¥684.5B). Oct–Dec BOJ schedule: taper ¥2.50T→¥2.30T/mo, 25Y+ flat.
-- USD/JPY completed closes 157.359 / 157.434 (9/29–30); 10/1 live 157.56. MOF 30Y 4.098 (9/30).
+*(Prior block Thu 10/1. This block: Fri 10/9, PROME-spawned post-close touch after the ~15:31 ET machine crash; desk dark 10/2–10/8.)*
+- **USD/JPY pinned ~157.8–158.5 for seven sessions; closes above 158.054 on 10/6 (158.159) and 10/9 (158.246, prov.)**, after 9/23–9/24. No fast leg, no intervention reported.
+- **JGB MOF-basis records 30Y 4.168 / 40Y 4.196 on 10/6; 10Y 3.111 (10/7) highest since 1996.** BOJ did not cap. 10/9 vendor rally −12bp on the 30Y.
+- **Totan Oct 18→10%, Dec 84→80%.** 30Y auction 10/8 NEITHER bar. CFTC Oct-6 +62,325 long. MOF weekly 9/27–10/3 −¥347.6B.
+- METI Aug: Kuwait/Qatar back from zero at part-cargo scale (letter-only reversal).
 
 ### LAST SESSION
-L0 drain on PROME's spawn (four packet items + yen grade + whole inbox). **No thesis change: v1.7 stands, book FLAT, nothing re-armed, no re-mark.**
-- **No `git pull`:** the shared tree carried other desks' live work (PROME state, LIQUID, CARL, etc.); fetch showed 0 behind. Every commit was explicitly pathed.
-- **SAM-33** ops audited through 10/1; the Oct–Dec schedule is a scheduled taper (excluded). **SAM-42** evidence appended, NO re-mark; sidecar re-stamped after a field-level check that only Notes moved. Totan chart reviewed by hand (boot `boj_ois` SSL-timed out first).
-- **Inbox:** WALTER R3 verdicts answered by name → `PROME/inbox/2026-10-01_from-SAM_R3-...` (accepted both rejections, net 12 phrases incl. 1r + 11b). 2 WALTER INFO signals logged and moved. No MSG-*.md.
-- **Sent:** RED CH-009 rail figures (`4171d2c43`, addendum `5fe07cb67`). WALTER 🟠 MOF-weekly signal + SIGNALS.md row. Doorbelled red-1001 and walter-90.
-- Docket pruned (Sep-30 / Oct-1 rows), OIS expiry moved to Mon Oct-5. TIMELINE + CHANGELOG 2026-10-01.
-- 🔧 **Found: `mof_flows.py` evaluates its one-week bar on the LATEST week only.** A late week landing with the next one is never alerted. 9/13–19 was found by reading the ledger, not the alert (defect #3 in the script's lineage, cf. #1 8/22).
-- **After first delivery (12:2x–12:5x ET):** WALTER's check of -004 caught my carried "7 of 9" (true: 11) → corrected `31d94f42c` + packet. ⚠️ **Lesson: a rank or count derived for one observation does not transfer to the next. Recompute it per observation** (cf. `finding_attribution_authenticates_a_figure_its_named_source_never_produced`). RED closed CH-009 DISMISSED. WALTER -012 (LSEG JGB +6–9bp) graded provisionally; MOF confirmation owed. Full closeout on Will's word (PROME 12:52 ET).
+Post-close grade on PROME's spawn + whole-inbox drain (27 → 0). **No thesis change: v1.7 stands, book FLAT, nothing re-armed, no re-mark.** No `git pull` (tree carried other desks' work); no push (PROME's train).
+- **Graded USD/JPY 10/9 close 158.246 ≥ 158.054 (MET, PROVISIONAL)** on own hourly bars read 17:01 ET — the vendor's single-tick 17:00 ET closing bar had not printed. **Corrected PROME's premise:** fourth close above, not second. VECTOR-5 stays NONE (leg b not met).
+- ⚠️ **Lesson (n=1, this desk): on a Friday the London-labelled session's de-facto end is the 17:00 ET weekly close, but `usdjpy.py` only writes it after London midnight (19:00 ET), and the vendor appends a one-tick 22:00 BST bar.** A Friday grade read at 17:0x ET is provisional by construction; say so, quote the closing-tick history (9/25 −0.073, 10/2 +0.051).
+- SAM-33 op-audit at the record through 10/9 (BOJ moved ops files to `/en/statistics/boj/fm/ope/d_release/ope/2026/opeYYYYMMDD.xlsx`; the old `other/ope` index 404s). OIS 10/9 reviewed by hand. MOF 10/1 confirm done. 5 WQ-399 receipts (2 were overdue Sept corrections already applied). Charter step 7a updated (C4).
+- Commits `4ab40c7e3`, `547ab873b` + this fold. Memo `PROME/inbox/2026-10-09_from-SAM_usdjpy-close.md`.
 
 ### NEXT SESSION
 
-**TIER 0 — nothing overdue.** OPEN: SAM-33, SAM-42.
+**TIER 0 — RE-READ the 10/9 USD/JPY row as-last-revised at boot** (`usdjpy.py` writes it; graded 158.246 PROVISIONAL vs 158.054). If it moved, correct STATUS + the PROME memo. OPEN: SAM-33, SAM-42.
 
 **TIER 1 — DATED, FORWARD:**
 0. **SAM-42** (25% as made; Totan now 18%). ⛔ Re-mark ONLY on (a) Ueda/Himino/Uchida framing October as live → 50%, or (b) a reviewed Totan chart ≥60% → 45%. Grade on the BOJ statement PDF after the Oct 29–30 MPM.
-1. **Fri Oct-2** Tokyo CPI (2025 base) + CFTC (Sep-29). **Mon Oct-5 15:15 JST** OIS expiry → re-transcribe. **Tue Oct-6** 10Y auction. **Thu Oct-8 30Y auction** (frozen bars; precision tag ≤0.1bp) + MOF weekly 9/27–10/3 (does selling persist past the half-year?).
+1. **Tue Oct-13:** MOF 10/9 JGB print (confirm the vendor −12bp 30Y rally) · OIS expiry 15:15 JST → re-transcribe · **BoP August NOT read (SEARCH-NOT-FOUND 10/9) — read the MOF primary.** Also: CFTC Sep-29 row missing from `CFTC_JPY.tsv` (implied net ≈ +55,440, unverified). **Fri Oct-16:** DAEDALUS L546 float-tie (`rate_differential.py:70`, `jgb_auctions.py:226`) + PROSE-REMEDY (22) KOYOMI nudge — both DEFERRED to this date in STATUS. **Tue Oct-20** 20Y auction (frozen bars).
 2. 🟠 **OWED since 2026-10-01: fix `mof_flows.py` to evaluate the one-week bar on EVERY week new since the last ledger write, not just the latest.** Test FIRST against the 10/1 incident (9/13–19 published alongside 9/20–26). Target: before the Thu Oct-8 MOF weekly. Own scoped change with tests. Also say in its output which VINTAGE the rolling sums use: the live CSV is revised and the ledger keeps first prints (WALTER's 10/1 check: −¥1.38T live vs −¥1.39T ledger).
-3. ⚠️ **OWED since 2026-10-01: METI Aug crude-by-source (released Wed 2026-09-30 13:30 JST), NOT READ.** Did Kuwait and Qatar return from zero? BRENT co-owns. Read it at the next session (by Fri Oct-2 at the latest).
-3a. 🟠 **OWED, due ~Fri 2026-10-02: confirm WALTER SIG-W-20261001-012 on the MOF 10/1 print** (LSEG 10/1: 10Y 3.109 · 30Y 4.192). It is a MOF-basis high if 10Y >3.082 or 30Y >4.131. Graded PROVISIONAL in STATUS until then. ⛔ Never difference LSEG against MOF.
+3. ✅ METI Aug read via BRENT 10/1 packet (processed 10/9): Kuwait 0.7% / Qatar 0.6% — reversal test met in letter only. Cross-check BRENT asked for (MOF customs-by-origin vs stock draw) still open, low priority.
+3a. ✅ MOF 10/1 confirmed 10/9: 10Y 3.092 (new MOF high), 30Y 4.122 (not).
 3b. PENDING with PROME: SAM's R3 WATCH_FOR set (12 phrases, packet 10/1) not landed as of 12:53 ET 10/1.
 4. ✅ RED CH-009 CLOSED — RESOLVED-DISMISSED 2026-10-01 (`0ad317cfc`). CH-012 open to the 12/30 MOF close (the 12/1 attribution ask is answered NO, 9/29).
 
-**INBOX — CLEARED 10/1 (L0 drain); before that 9/29.** `inbox/` top level is empty. Sent: **CADENCE: WEEKLY** + a 12-phrase `WATCH_FOR["SAM"]` re-proposal → `PROME/inbox/` + WALTER cc (harness pre-screened by SAM; WALTER's test is still the test — **adopt or decline WALTER's by-name rejections when its reply lands**, then PROME lands the set) · RED CH-012 = NO (no attribution read planned before 12/30). ⚠️ Matcher facts learned: words ≤3 chars are DROPPED (`yen` is invisible), words match as SUBSTRINGS anywhere in the title, only ALL-CAPS 2–5-char tokens bind as entities. **Counted gaps with no phrase:** USD/JPY level breaks, carry +2% intraday, MOF weekly selling (all instrument-owned), GPIF (no registered SAM trigger — decide whether to register one), the US Treasury verbal leg.
+**INBOX — CLEARED 10/9 (27 → 0: 23 WALTER + BRENT + BOND + 2 DAEDALUS).**  `inbox/` top level is empty. Sent: **CADENCE: WEEKLY** + a 12-phrase `WATCH_FOR["SAM"]` re-proposal → `PROME/inbox/` + WALTER cc (harness pre-screened by SAM; WALTER's test is still the test — **adopt or decline WALTER's by-name rejections when its reply lands**, then PROME lands the set) · RED CH-012 = NO (no attribution read planned before 12/30). ⚠️ Matcher facts learned: words ≤3 chars are DROPPED (`yen` is invisible), words match as SUBSTRINGS anywhere in the title, only ALL-CAPS 2–5-char tokens bind as entities. **Counted gaps with no phrase:** USD/JPY level breaks, carry +2% intraday, MOF weekly selling (all instrument-owned), GPIF (no registered SAM trigger — decide whether to register one), the US Treasury verbal leg.
 
 ✅ **CONSUMER-CHECK RESIDUE — DISPOSITIONED 2026-09-20, do NOT re-chase.** `consumer_check.py --self --old 157.34` reports **3 remaining 🔴 on SAM surfaces and all three are CORRECT AS THEY STAND**: `docket/2026-09-19_SAM28_SAM31_GRADE.md:76` and `reports/2026-09-18_boj-mpm-grade.md:21,50` are **dated GRADE RECORDS whose arguments are deliberately left legible and not re-litigated**, and `STATUS_ARCHIVE.md:536` is archive-class (the tool flags this itself). **Only `KB.tsv:190` (KB-SAM-253, status LIVE) was a real fix** — a durable row other sessions cite, now carrying the completed-session basis beside the labelled intraday mark. ⛔ **A 🔴 on a grade record or an archive is not a defect**; re-running this check will keep printing 3.
 
