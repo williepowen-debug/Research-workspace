@@ -349,6 +349,21 @@ class DeckSplit(unittest.TestCase):
         r, owed, _ = self.build()
         self.assertIn('<div class="tap" data-wq="1">', owed); self.assertNotIn('class="tap unit"', owed)
 
+    def test_r2x1_multi_column_consequence_keeps_the_card_headers(self):
+        # ep2 read 2 ❌1: a loss column must never read as a payoff — each cell carries its column header when the row has several
+        self._expl10()
+        (self.root / 'cards' / 'w.md').write_text('# W\n## 3. Choices\n| # | choice | what you get | forward max loss from here |\n|---|---|---|---|\n| **A** | **Sell** | ≈ $100 | $0 after the fill |\n| B | Hold | *nothing* | ~$475 if it rallies |\n')
+        self.assertEqual(D.offered_options('cards/w.md', '3'), [
+            {'label': 'A', 'text': 'Sell', 'cells': 'what you get: ≈ $100 · forward max loss from here: $0 after the fill'},
+            {'label': 'B', 'text': 'Hold', 'cells': 'what you get: nothing · forward max loss from here: ~$475 if it rallies'}])
+        self.assertEqual(D.offered_options('cards/x.md', '3')[0]['cells'], '≈ $100')     # one consequence column: no header prefix
+        self._expl10('A = Sell :: what you get: ≈ $100 · forward max loss from here: $0 after the fill || B = Hold :: what you get: nothing · forward max loss from here: ~$475 if it rallies', 'cards/w.md#3')
+        _, owed, _ = self.build()
+        self.assertIn('forward max loss from here: ~$475 if it rallies', owed)
+        self._expl10('A = Sell :: ≈ $100 · $0 after the fill || B = Hold :: nothing · ~$475 if it rallies', 'cards/w.md#3')
+        with self.assertRaises(SystemExit):
+            self.build()                                                               # headerless copy of a multi-column row refuses
+
     def test_e6_multi_unit_card_has_a_row_level_state_line(self):
         self._expl10('TLT: PLAIN :: held :: APPROVE=sell :: DECLINE=hold ;; HBAN: R-A = permit a sale :: $90 || R-B = ride, close 10/16 :: spirit', 'HBAN=cards/h.md#3')
         _, owed, _ = self.build()

@@ -186,7 +186,8 @@ def _norm(s: str) -> str:
     """Comparison form: struck text (~~…~~) is ABSENT (a withdrawn card figure never ships as live text — episode 2 E3),
     then markdown stripped, whitespace collapsed."""
     s = re.sub(r"~~.*?~~", "", s or "", flags=re.S)
-    return re.sub(r"\s+", " ", strip_md(s)).strip()
+    s = re.sub(r"(?<![\w*])\*(?!\s)([^*]+?)\*(?![\w*])", r"\1", strip_md(s))   # single-asterisk italics → the text (ep2 read 2 W1)
+    return re.sub(r"\s+", " ", s).strip()
 
 
 _MD_MARKER_RE = re.compile(r"\*\*|~~|`")
@@ -310,12 +311,17 @@ def offered_options(path: str, section: str) -> list[dict] | None:
         if hm and len(hm.group(1)) <= level:
             break
         body.append(ln)
-    out = []
+    out, header, prev_header = [], None, None
     for ln in body:
         if not ln.lstrip().startswith("|"):
+            header = None                                # a table ended; the next table brings its own header
             continue
         c = split_cells(ln)
-        if len(c) < 2 or is_separator(c):
+        if is_separator(c):
+            header = prev_header                         # the row just above a separator is that table's header
+            continue
+        prev_header = c
+        if len(c) < 2:
             continue
         first = _norm(c[0])
         m = re.match(r"^([A-Z0-9-]{1,7})(?::\s*(.+))?$", first)
@@ -324,7 +330,16 @@ def offered_options(path: str, section: str) -> list[dict] | None:
         label = m.group(1)
         text = _norm(m.group(2)) if m.group(2) else _norm(c[1])
         rest = c[1:] if m.group(2) else c[2:]            # the row's other cells = the owner's own consequence columns
-        out.append({"label": label, "text": text, "cells": " · ".join(_norm(x) for x in rest if _norm(x))})
+        hdrs = (header[1:] if m.group(2) else header[2:]) if header else []
+        pieces = []
+        for k, x in enumerate(rest):
+            if not _norm(x):
+                continue
+            # ep2 read 2 ❌1: with several consequence columns the card's own column header travels with each cell
+            # ("forward max loss from here: ~$475 …"), so a loss column is never read as a payoff
+            h = _norm(hdrs[k]) if k < len(hdrs) else ""
+            pieces.append(f"{h}: {_norm(x)}" if h and len([y for y in rest if _norm(y)]) > 1 else _norm(x))
+        out.append({"label": label, "text": text, "cells": " · ".join(pieces)})
     return out or None
 
 
