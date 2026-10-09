@@ -38,9 +38,14 @@ The `follow_newest` source (Palaemon's weekly maritime-security bulletin, client
 - Test file: `AGENTS/OSPREY/scripts/tests/test_strike_feed_L624.py` (added in the fix commit).
 - Fix: `AGENTS/OSPREY/scripts/strike_feed.py`; README `AGENTS/OSPREY/domain/energy-strikes/feed/README.md` (labels).
 
-## Completion states (never merged) — filled at the fix commit
+## Completion states (never merged) — filled 2026-10-09 11:01 EDT (from `date`)
 
-- IMPLEMENTED: pending
-- TESTED: pending
-- INDEPENDENTLY VERIFIED: NO — pending READ 2 (PROME commissions; WQ-229)
-- STILL UNRESOLVED: pending
+- **IMPLEMENTED:** `strike_feed.py` — `bulletin_window()` (window START..END from the anchor TITLE first, slug second; cross-year by month order; span 0–14 d else unparsed), `pick_newest()` (latest END, ties → document order, START after run date ineligible and named), the followed-bulletin block moved out of the index `try` (one followed item on body success; on body failure ONE `FETCH_FAILED (newest post)` row carrying the followed date, its stale/undated label and window, `items = []`), the age-filter exemption keyed on the ITEM (`it.get("followed")`), labels `BULLETIN_STALE` / `BULLETIN_UNDATED`, body warning to `note` (char count; `EMPTY` distinguished), `NOT_READ` counts `NOT_READ_TITLES` (title) + `NOT_READ_MATCHES` (ledger_match), EMPTY_FEED / PARSER_STALE keyed on the INDEX count (`n_index`) so narrowing to one item cannot trip them, summary names the followed label. Also one pre-existing line: config read via `with open(...)` (the unclosed handle made the `-W error::ResourceWarning` run noisy). README labels updated.
+- **TESTED:** `python3 -W error::ResourceWarning -m unittest AGENTS/OSPREY/scripts/tests/test_strike_feed_L624.py` → **Ran 20, OK** (`grep -c 'def test_'` = 20). **Fails first (AC8):** same file with `STRIKE_FEED_PATH` = `git show 46d6f6dea:…/strike_feed.py` → **12 failures** (AC1 ×3, AC2 ×2, AC3 ×2, AC5 ×3, AC6 ×2); with `46d6f6dea^` → **11 failures + 2 errors** (the AC4 within-month reproduction FAILS there, as required; the 2 errors are IndexError on 0 rows = the silent drop). The 10/9-shape test passes on all three versions and is labelled non-discriminating. AC7's four regression tests pass on all three versions (no change elsewhere). Real fixture: all 14 live titles parse to a window; the live mis-slugged link (`…7th-13th-september-2026-1`) reads 14–20 Sep from its title.
+- **INDEPENDENTLY VERIFIED:** **NO — pending READ 2** (PROME commissions; WQ-229 consequential class). Passing the author's suite establishes TESTED only.
+- **STILL UNRESOLVED / declared residue (⚠️, not fixed):**
+  1. Read-1 ⚠️7 stands: the 9/19–9/24 missing-bulletin runs are not on disk and the on-disk 9/29 run has no palaemon row, so "the patch covers every observed absence" is not established from disk. No code change can repair that evidence base.
+  2. A cross-year SLUG with the year mid-string (`29th-december-2026-4th-january-2027`) does not parse as a window; the TITLE does, and the title is read first. Slug-only cross-year falls back to the legacy single date.
+  3. A PAST-year typo on the real newest (2025 for 2026) is not caught: the link sorts as old, a genuinely older bulletin is followed, and the typo'd one is dropped with no note. The future-date guard covers only START > run date.
+  4. The followed body is cut at 20,000 chars; the live page normalises to 715,081 chars, script-dominated, with the incident list at char ~480,659 — so `matched_tokens` on the bulletin row are not read from the report text. Pre-existing; out of L624 scope; the row still says read manually.
+  5. Network was used once, only to build the real fixture (index 200, 1,160,782 B; one post 200, 909,909 B). No live `strike_feed.py` run was made in this session.

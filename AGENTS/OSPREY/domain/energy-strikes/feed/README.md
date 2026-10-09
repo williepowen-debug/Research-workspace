@@ -10,8 +10,10 @@
 |---|---|
 | `NONE` | No ledger row within ±1 day sharing a **proper-noun, df<4** facility/vessel token → row it, or dismiss it with a reason in the note column. |
 | `<strike_id>` | **A CLAIM, not a fact.** The `note` column names the tokens that carried the match and the ledger row's facility — **confirm that facility is the one in the headline before dismissing the row.** Post-patch residual false-absorption is 2/99 (2.0%) on the hold-one-out, not 0. |
-| `BULLETIN — read manually` | A dated-window source whose body is not machine-readable (Palaemon is client-rendered) → open the URL first, before any name query (LESSONS 8). |
-| `UNDATED` | No parseable publication date — never matches; safe direction. |
+| `BULLETIN — read manually` | The newest dated-window bulletin (Palaemon, client-rendered), window END inside the run's `days_back` window → open the URL first, before any name query (LESSONS 8). The `note` names the window, its basis (title/slug) and, if the body was under 1,500 chars, `[body not machine-readable …]`. |
+| `BULLETIN_STALE` | The NEWEST bulletin on the index ends before the cutoff — the publisher stopped or the index is cached. **Counted in NOT_READ** (stale ≠ quiet; L624). |
+| `BULLETIN_UNDATED` | No usable bulletin date (unparseable, or only future-dated typos) — freshness unknown. **Counted in NOT_READ** (L624). |
+| `UNDATED` | No parseable publication date (non-bulletin rows) — never matches; safe direction. |
 
 | Row in `title` | What it means |
 |---|---|
@@ -33,5 +35,5 @@ Ledger tokens are **proper-noun tokens of the raw Facility+Region cell** (capita
 **Recall: PASS on the first disjunct, and the second fails** (the 9/19 independent backfill found ARMADA LEADER 9/12 and others). **Precision: PASS on the audited runs**, 9/11 rows confirmed and 0 silent deletions; the 9/15 and 9/29 runs cannot be audited. **Retained as a LAND (refinery) instrument: 9/9 refinery rows surfaced. NOT a maritime instrument: 2/9 vessel rows surfaced.** Three things changed on 10/8:
 - `MATCHES_*.tsv` is committed again. A 9/15 `.gitignore` line had silently reversed the 9/10 fix.
 - militarnyi was repointed to `/en/news/feed/`. The old URL served an itemless stub on every run.
-- The `follow_newest` bulletin is never age-filtered. A within-month bulletin is dated by its first day and was being dropped with no row.
+- The `follow_newest` bulletin is never age-filtered. A within-month bulletin is dated by its first day and was being dropped with no row. **⚠ Superseded 2026-10-09 (L624, read 1 STILL UNRESOLVED):** the exemption now covers ONE item — the newest bulletin by window END (title first, slug second), never document order — and its freshness is labelled (`BULLETIN_STALE` / `BULLETIN_UNDATED`, both NOT_READ). On a body-fetch failure the source emits one `FETCH_FAILED (newest post)` row and nothing else. Acceptance + tests: `scripts/tests/ACCEPTANCE_L624_strike_feed_follow_newest.md`, `scripts/tests/test_strike_feed_L624.py`. Not independently verified until READ 2.
 
