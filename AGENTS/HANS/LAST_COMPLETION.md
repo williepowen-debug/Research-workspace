@@ -1,29 +1,29 @@
 # HANS LAST_COMPLETION — overwrite each session
 
-**STATUS:** DELIVERED — 2026-10-02 (Fri) PROME Tier-2 spawn (Will-authorized, bounded, above-4-cap single session; WQ-329).
+**STATUS:** ✅ DONE — 2026-10-09 (Fri) hans-1009, PROME Tier-1 wake (DOCKET L637, WQ-184/C6; WQ-391 covers the re-spawn). Opus 5.5, Claude Code Agent-tool spawn.
 
 **CHANGED:**
-- `AGENTS/HANS/STATUS.md` — header + Sovereign/FX Board (10/02 reads) + CARRY FORWARD 10/02 ruling line; prior 10/01 trajectory collapsed to pointer. 23,539 B / 72% of budget.
-- `AGENTS/HANS/registry/THRESHOLDS.tsv` — T-05 / T-06 / T-09 / T-10 / T-13 / T-16 current_value, as_of, state_note; T-10 and T-16 appended with 10/02 ruling detail.
-- `AGENTS/HANS/workbook/VX.tsv` — 7 sovereign rows (3.01, 3.02, 3.05, 3.06, 3.07, 3.08, 3.09) updated with 10/02 reads + source + 10/02 note tag.
-- `AGENTS/HANS/inbox/WALTER/processed/` — 5 ACTION/PRIORITY signals integrated (-1002-004, -1002-011, -1002-015, -1001-024, -1001-031).
-- `PROME/inbox/2026-10-02_from-HANS_T-10-T-13-T-16-T-04-grades-wq329-tier2.md` — full memo for PROME.
+- `registry/THRESHOLDS.tsv` — T-13 / T-06 state = NOT-FIRED 10/08 (armed rule applied); current_value 5.9384 / 5.4238. Superseded ARMED cells → `registry/THRESHOLDS_HISTORY.tsv` verbatim (crc32, byte-identity checked against HEAD).
+- `workbook/VX.tsv` (3.06, 3.08) · `workbook/PUBLISHED.tsv` (2 rows + header vintage) · `workbook/FLOW.tsv` FLOW-HANS-5 + `workbook/KB.tsv` KB-HANS-064 (Budget 10/28, was 11/26).
+- `scripts/fetch_eu.py` `spread_bp()` (L546 float tie) + 2 tests in `scripts/test_hans.py`.
+- `registry/corrections_receipts.tsv` — 6 receipts in the WQ-399 form; R1 rc=0.
+- `CLAUDE.md` 1a receipt line (WQ-399, C4 own-charter).
+- `STATUS.md` rotated 75% → ~64%; verbatim → `workbook/STATUS_ROTATED_2026-10-09.md`; `SESSION_LOG.md` narrative; `DISPATCH_LOG.md` 4 pointers → processed/.
+- `board_log.tsv` +31 rows; 31 inbox files → processed/ (5 top-level + 26 WALTER lane).
+- Packets: `PROME/inbox/2026-10-09_from-HANS_liquid-floor-and-turn-bound-answer.md` (+ LIQUID copy) · `PROME/inbox/2026-10-09_from-HANS_READS-declaration.md` · `AGENTS/WALTER/inbox/2026-10-09_from-HANS_THRESHOLDS-rotated-no-repoint.md` · memo `PROME/inbox/2026-10-09_from-HANS_armed-rule-grade-t13-t06.md`.
 
-**RESULT:** No state change on any band or fire today. T-10 "France breakout" headline turned out to be a periphery UNWIND rather than France-only revival (Bund sold off, BTP fell MORE than OAT); "briefly tops 5%" TE headline NOT cross-vendor confirmed (Investing.com day high 4.994). T-13 pulled 3bp further from fire. T-16 flash 2.5% is a watch-worthy candidate print but the FINAL + sustain-2 letter stands — earliest fire mid-November. T-04 state unchanged; catalyst probability further weakened on a second leg (money markets no longer fully price year-end hike).
+**RESULT:** T-13 NOT-FIRED 10/08 (TE close 5.9384, 6.2bp under; CNBC London-close 5.9972, 0.3bp under). T-06 NOT-FIRED (TE 5.4238; CNBC 5.4852). 10/9 live: 30Y 5.954, 10Y 5.445 — line still contested into the 10/28 Budget. T-10 MET-OPEN 139.8bp unchanged. Whole inbox drained.
 
 **GAPS:**
-- i-i basis unreachable 10/02 (page 410) → T-10 exit clock cannot start today.
-- STATUS 72% of budget (2% over the 70% rotate-to stop) — slow regrowth from 10/02 edit; not blocking, under the 75% trigger.
-- 4 pre-existing C7-DEAD-PATH findings in `AGENTS/HANS/DISPATCH_LOG.md` (10/01 PROME-inbox files PROME moved to processed/) — flagged to PROME in the memo.
-- Pre-existing C12 95 legacy ML dup IDs (owed #23).
+- DAEDALUS falsification #4: KILL_TREE re-grade (owed #27) and HNS-09 definitions (owed #28), dated 2026-10-16.
+- Pre-existing, named not fixed: doc_audit C2 flags VX-HANS-3.07 = 4.90 (a recurring value, not a stale one), which also fails 5 tests that assert a clean desk; C12 legacy ML dup IDs (owed #23).
+- ECB 10/8 USD op bidder count not obtained (OMO index page lacks it).
+- CLAUDE.md at ~75% of budget (C6 rotate-tier boundary).
 
-**WILL_NEEDS:** None from this spawn. Trade construction stays TERRY's; adjudication complete. If T-04 fires at 10/29 or T-13 closes >6.00, those are routed via BOND/LIQUID — HANS does not propose.
+**WILL_NEEDS:** None — no fire, no trade, no threshold move.
 
 **FOLLOW-UP:**
-- 2026-10-17 ~ Sept HICP FINAL: first candidate print count for T-16 sustain-2 (and T-15 leg b first evaluable read).
-- 2026-10-26: re-verify TTF X26/Z26 computed expiries (owed #26).
-- 2026-10-29: ECB GovC (T-04 live window; NL election same day).
-- 2026-11-01: HNS-07 resolves on gas-day storage.
-- 2026-11-26: UK Autumn Budget (T-13 LDI date carry).
-
-**Spawn mode:** Opus · PROME Tier-2 (Will-authorized, in-session) · bounded single session.
+- Each UK close into 10/28: grade T-13 on TE (snapped after the London close), CNBC cross-check.
+- 2026-10-13: France budget debate + strike (T-10). ~2026-10-17: EA HICP Sept FINAL (T-16, T-15 b).
+- 2026-10-16: owed #27/#28. 2026-10-26: TTF X26/Z26 expiry re-verify (owed #26).
+- 2026-10-28: UK Budget (T-13 LDI date). 2026-10-29: ECB GovC (T-04; poll says the hike is December). 2026-11-01: HNS-07.

@@ -23,3 +23,34 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-01T16:20Z	2026-09-28_from-PROME_read-cap-rotate-tier	acted	INBOX_PROME	Answer (b): registry/THRESHOLDS.tsv is parsed by boot.py and grepped by row, never read whole; receipt in the 10/01 PROME memo
 2026-10-01T16:34Z	SIG-W-20261001-009	acted	INBOX_WALTER	Re-test done: 10/01 France-idiosyncratic read WITHDRAWN - Bund rallied 8-9bp (TE/CNBC), BTP +16bp spread; KB-HANS-106; corrections to BOND + LIQUID; T-09 120.2bp/4.696 far
 2026-10-01T17:03Z	2026-10-01_from-WALTER_lane-query-sizing-WQ295	acted	INBOX_TOP	Adopted 1 (when:7d), 2 in WALTER's anchored form (original declined), 3 quoted form (original withdrawn as broken); PROME/inbox/2026-10-01_from-HANS_lane-query-adopt-decline-WQ295.md
+2026-10-09T14:08Z	LIQUID-20261001-floor-ask	acted	INBOX_TOP	floor >=$0.1B AGREED, 21d turn bound agreed on the tenor-onset exclusion, HANS legs claimed -> PROME/inbox/2026-10-09_from-HANS_liquid-floor-and-turn-bound-answer.md (copy to LIQUID)
+2026-10-09T14:08Z	WALTER-20261001-readcap-96	acted	INBOX_TOP	rotated 10/8 (option a), file 66% 10/9; no repoint -> AGENTS/WALTER/inbox/2026-10-09_from-HANS_THRESHOLDS-rotated-no-repoint.md
+2026-10-09T14:08Z	WALTER-20261002-readcap-103	acted	INBOX_TOP	same remedy as the 10/01 flag; answered in the same WALTER packet
+2026-10-09T14:08Z	DAEDALUS-20261008-L546	acted	INBOX_TOP	fetch_eu.py spread_bp() rounds to 0.1bp before T-09/T-10 strict legs; 2 injection tests; ECB IRS OBS_VALUE publishes up to 3dp (IT 3.559) though DECIMALS says 2
+2026-10-09T14:08Z	DAEDALUS-20261008-sweeps	deferred	INBOX_TOP	#3 DONE (STATUS FIRST line trimmed); #1 KILL_TREE re-grade and #2 HNS-09 definitions = STATUS owed #27/#28 due 2026-10-16
+2026-10-09T14:08Z	WALTER-20261004-readcap-rotate	acted	INBOX_WALTER	rotation done 10/8; answered in the 10/9 WALTER packet
+2026-10-09T14:08Z	SIG-W-20261001-021	info-only	INBOX_WALTER	RAF Fairford/Iran attribution - HAWK lane; no HANS row
+2026-10-09T14:08Z	SIG-W-20261001-022	info-only	INBOX_WALTER	Russia Kaliningrad non-paper - HAWK/YURI lane; EU defence-spend response is mine, nothing priced
+2026-10-09T14:08Z	SIG-W-20261001-023	noted	INBOX_WALTER	Kyiv grid strikes - OSPREY lane; EU gas angle nil (no TTF rung moved)
+2026-10-09T14:08Z	SIG-W-20261001-026	noted	INBOX_WALTER	US presses FR/DE diesel release - superseded by -1002-009/-023 and -1008-015
+2026-10-09T14:08Z	SIG-W-20261002-002	noted	INBOX_WALTER	EU diesel/crude release proposal - BRENT lane; T-15 basis unchanged
+2026-10-09T14:08Z	SIG-W-20261002-009	noted	INBOX_WALTER	G7 100M bbl release - largely already-committed barrels per -1008-015; no HANS row
+2026-10-09T14:08Z	SIG-W-20261002-010	noted	INBOX_WALTER	Volgograd/Samara strikes - OSPREY/BRENT lane
+2026-10-09T14:08Z	SIG-W-20261002-014	noted	INBOX_WALTER	Yanbu port struck - T-15 leg (a) needs an Aramco/buyer primary; not one
+2026-10-09T14:08Z	SIG-W-20261002-016	noted	INBOX_WALTER	correction to -014 (terminal-wide); COR-20261002-16 receipted NO-OP
+2026-10-09T14:08Z	SIG-W-20261002-023	noted	INBOX_WALTER	EU says no US export ban on allies - BRENT lane
+2026-10-09T14:08Z	SIG-W-20261002-027	noted	INBOX_WALTER	correction to -023; COR-20261002-27 receipted NO-OP
+2026-10-09T14:08Z	SIG-W-20261003-016	noted	INBOX_WALTER	Qatar LNG not back for winter (buyer view) - consistent with STATUS Qatar FM carry; T-07/T-08 already open, no rung change
+2026-10-09T14:08Z	SIG-W-20261003-019	acted	INBOX_WALTER	SMDS 'dumped all OATs' - NOT CARRIED: crypto relays only, no fund/wire primary (search 10/9); 10/1 OAT auction ~2x cover; T-10 graded on levels, unaffected
+2026-10-09T14:08Z	SIG-W-20261008-005	acted	INBOX_WALTER	T-13 graded NOT-FIRED 10/08 (TE 5.9384); Budget 10/28 fixed in STATUS/FLOW/KB/LAST_COMPLETION
+2026-10-09T14:08Z	SIG-W-20261008-015	noted	INBOX_WALTER	IEA accelerates March pledge, no new volume - BRENT lane
+2026-10-09T14:08Z	SIG-W-20261008-019	noted	INBOX_WALTER	Isaias/Plaquemines LNG -> TTF channel; TTF 80.74 [boot 10/9] in L2 band, no rung crossed
+2026-10-09T14:08Z	SIG-W-20261008-021	noted	INBOX_WALTER	JGB-label correction (SAM); COR-20261008-21 receipted NO-OP; gilt + Budget legs HOLD
+2026-10-09T14:08Z	SIG-W-20261008-022	acted	INBOX_WALTER	T-06/T-13 graded on TE close; ECB poll (70 hold 10/29, 64 Dec hike) recorded vs T-04; Bailey text-vs-headline noted; T-10 vendor = i-i (registered)
+2026-10-09T14:08Z	SIG-W-20261008-032	acted	INBOX_WALTER	grade input used; superseded by -037/-051
+2026-10-09T14:08Z	SIG-W-20261008-033	acted	INBOX_WALTER	WQ-399: 6 receipts written in the field form; CLAUDE.md 1a receipt line fixed (C4 own-charter)
+2026-10-09T14:08Z	SIG-W-20261008-034	info-only	INBOX_WALTER	Trump no strike pre-midterms - FALCON/BRENT lane
+2026-10-09T14:08Z	SIG-W-20261008-037	acted	INBOX_WALTER	TE closes 5.9384/5.4238 = the registered basis; matched TE's own 10/9 Previous field
+2026-10-09T14:08Z	SIG-W-20261008-039	noted	INBOX_WALTER	Kyiv dark + Miami talks - OSPREY/YURI; EU gas angle nil
+2026-10-09T14:08Z	SIG-W-20261008-048	noted	INBOX_WALTER	update to -039; same
+2026-10-09T14:08Z	SIG-W-20261008-051	acted	INBOX_WALTER	CNBC prior close 5.9972 = the cross-check; both bases under, NOT-FIRED

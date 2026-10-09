@@ -1,18 +1,18 @@
 # HANS STATUS.md
-**Updated:** 2026-10-02 (Fri) — **PROME Tier-2 spawn (Will-authorized, bounded; above the 4-cap): T-10 state UNCHANGED MET-OPEN (TE spread 140.0bp, OAT 4.866; i-i unreachable; France-only NOT back in play — periphery UNWIND today, not fresh French stress) · T-13 UK 30Y 5.91 EASED 9bp under · T-16 flash 2.5% AT line but FINAL+sustain-2 letter unchanged · T-04 state unchanged (event-driven) with CATALYST probability further weakened (money-market pricing no longer fully prices one more hike by year-end) · 5% TE headline on OAT NOT cross-vendor confirmed (Investing.com day high 4.994).** *Prior:* 2026-10-01 (Thu) — **PROME Tier-1 spawn (DOCKET L549, WQ-317): EU/UK rows shipped to BOND · 🔴 `T-10` DEEPENED to 130.3bp / 4.90 (France-idiosyncratic) and its EXIT is now registered · `T-13` UK 30Y closed 5.943, 6bp under, after an intraday touch of 6.03 · whole inbox drained.** *Prior:* 2026-09-25 (Fri) — **PROME Tier-1 spawn (WQ-294): `HANS-T-10` FRANCE FIRED 2026-09-24 (`HANS-F-006`), `HNS-06` graded HIT, whole inbox drained (17 items), TTF ladder pinned to a named contract.** *Prior:* 2026-09-19 (Sat, market closed) — **narrative for this session lives in `SESSION_LOG.md`; below is state only.** **(owed-board catch-up + CATO correction pass): THE ESRB REPORT IS READ AT PRIMARY AND IT SAYS THE SUPERVISOR CANNOT SEE THE EXPOSURE MY OWN FIRE ROW WAITS ON.** Two fires/predictions got fail-closed exit rules; a BANKING vector had been measuring a broad index for three weeks. Sessions 1–3 digested below; every block has a verbatim file.
-**Boot:** rc1 · `doc_audit.py` **0 findings** · **67 tests OK** · R1 **rc=0** · mail lanes not processed (normal spawn). I own **`EUROPE_MACRO`** (BOND = time-critical backup). **UK leg: MINE.**
+**Updated:** 2026-10-09 (Fri) — **hans-1009, PROME Tier-1 wake (DOCKET L637, C6): ARMED RULE APPLIED — `T-13` and `T-06` NOT-FIRED 2026-10-08** (TE 10/8 closes 30Y 5.9384 / 10Y 5.4238; CNBC 5.9972 / 5.4852 — every basis under) · whole inbox drained (5 + 26, every sender) · LIQUID floor AGREED · READS declared · Budget date fixed fleet-side of this desk · L546 float-tie fixed. *Prior headers → `workbook/STATUS_ROTATED_2026-10-09.md`.*
+**Boot:** rc1 (attention) · R1 corrections **rc=0** after 6 receipts (WQ-399 form) · mail lanes processed (L0 drain). I own **`EUROPE_MACRO`** (BOND = time-critical backup). **UK leg: MINE.**
 
 ---
 
-## 🔴 CARRY FORWARD — the live consequences of 2026-09-18/19, **9/25, 10/01 and 10/02**. **Narrative → `SESSION_LOG.md`** · verbatim → `workbook/`
+## 🔴 CARRY FORWARD — the live consequences through **10/09**. **Narrative → `SESSION_LOG.md`** · verbatim → `workbook/`
 
 **Conclusions that change the next session's actions.** The how is in `SESSION_LOG.md`.
 
-- 🔴 **10/08 (hans-1008, PARTIAL, PROME WQ-391) → `PROME/inbox/2026-10-08_from-HANS_T13-T06-armed-T10-budget-date-readcap.md`.** `T-13` UK 30Y **ARMED, NOT graded final**: post-London-close proxies 5.991–5.998 (TE/CNBC), 0.2–0.9bp UNDER 6.00; intraday 6.0473; **fires iff TE 10/8 close >6.000**. `T-06` ARMED: proxies 5.479–5.486, ~2bp under 5.50; intraday 5.5267. `T-10` MET-OPEN 139.8bp / 4.90 (i-i 10/08); exit clock 0/5. **UK Budget = 10/28, not 11/26.** THRESHOLDS rotated 103%→68% (history → `registry/THRESHOLDS_HISTORY.tsv`; state cell = current grade only). **OWED: inbox drain (0 of 20 logged), LIQUID floor/turn answer, READS packet, COR-20260921-16 receipt.**
+- 🔴 **10/09 (hans-1009) — `T-13` UK 30Y NOT-FIRED 10/08: TE close 5.9384, 6.2bp under >6.00; CNBC London-close basis 5.9972, 0.3bp under.** ⚠️ TE snaps its close AFTER the 16:30 BST London close — the fall from ~5.99 to 5.938 came after it; **on the London-close basis 10/8 missed by 0.3bp.** Four intraday touches, no close through (10/01 6.029 · 10/07 6.036 · 10/08 6.047). **10/9 LIVE (not a close): 5.954, ~4.6bp under — still contested into the 10/28 Budget (gov.uk).** `T-06` UK 10Y NOT-FIRED 10/08: TE 5.4238 (7.6bp under), CNBC 5.4852; 10/9 live 5.445. → `PROME/inbox/2026-10-09_from-HANS_armed-rule-grade-t13-t06.md`
 
-- 🔴 **10/02 — PROME Tier-2 spawn (Will-authorized, bounded). Narrative + rulings → `PROME/inbox/processed/2026-10-02_from-HANS_T-10-T-13-T-16-T-04-grades-wq329-tier2.md`.** Headlines: **`T-10` state UNCHANGED MET-OPEN** (TE spread 140.0bp, OAT 4.866, Bund 3.4656 SOLD OFF +5.5bp; BTP −10.2bp fell more than OAT); **periphery UNWIND, not France-only** (10/01 periphery-wide read HOLDS); **"briefly tops 5%" TE headline NOT cross-vendor confirmed** (Investing.com day high 4.994). ⚠️ **i-i basis unreachable 10/02 (page 410) — exit clock cannot start today.** **`T-13` UK 30Y 5.91 EASED (−3bp)** → 9bp under close line (headroom WIDENED). **`T-16` flash 2.5% AT watch line — RULING: FINAL + sustain-2 letter affirmed by analogy to 9/5 PMI rule; one flash cannot fire; Sept final due ~10/17 is the first candidate print.** **`T-04` state unchanged NOT-MET; CATALYST probability further weakened** (money markets no longer fully price one more hike by year-end — Newsquawk 10/01, no priced level given; stacks on 9/18 dovish lean). **`T-15` leg (b) NOT YET EVALUABLE** (flash is y/y; row's basis is FINAL + m/m, due with Sept final). UK energy cap +16% Jan-27 and NL storage-mandate-scrap — carry only, no tier change.
+- 🔴 **10/02 rulings still live (verbatim → `workbook/STATUS_ROTATED_2026-10-09.md`):** `T-16` flash 2.5% AT watch line — **FINAL + sustain-2 letter**; Sept final ~10/17 is the first candidate print · `T-15` leg (b) not evaluable until that final (m/m basis) · **`T-04` NOT-MET and the catalyst moved OUT: Reuters poll (73) — 70 see a HOLD 10/29, 64 see +25bp in DECEMBER** (via WALTER `-022`, 10/8); ECB September account: "all members", long-end rise "orderly" · UK energy cap +16% Jan-27, NL storage-mandate scrap — carry only.
 
-- 🔴 **10/01 reads subsumed by 10/02 ruling above; full trajectory + routing receipts → `SESSION_LOG.md` § STATUS ROTATION 2026-10-02.** Key carries: `T-10` FIRED 9/24 (`HANS-F-006`) at 109.9bp / 4.67 and OPEN; EXIT rule registered 10/01 (spread<90 AND OAT<4.40, 5 i-i sessions). `T-13` UK 30Y 5.943 [10/01 close] remains the closest the row has been to firing (intraday high 6.0289 CNBC). `T-07` graded on NAMED `TTFV26.NYM` (L429 fixed); X/Z expiries computed from ICE rule, re-verify by 10/26 (owed #26). Rhine record low (German IP downside; may flatter PMI delivery times — read October output). → `KB-HANS-097` · `KB-HANS-100` · `KB-HANS-101` · `KB-HANS-103`
+- 🔴 **`T-10` FIRED 9/24 (`HANS-F-006`), MET-OPEN 139.8bp / 4.90 [i-i 10/08]**; EXIT spread <90 AND OAT <4.40 ×5 i-i sessions, clock **0/5**. Not France-only (10/01 periphery-wide read HOLDS). ⛔ **"Japanese fund (SMDS) dumped ALL OATs" (WALTER `-1003-019`) — NOT CARRIED:** crypto-account relays only, no fund/wire primary; the 10/1 OAT auction drew ~2× cover. `T-07` graded on the NAMED contract (`TTFX26.NYM`, exp 10/29); X/Z expiries re-verify by 10/26 (owed #26). → `KB-HANS-097` · `100` · `101` · `103`
 
 - 🔴 **`T-14`'s SILENCE MEANS LESS THAN IT LOOKS.** ESRB `report202602` read at primary 9/19: identified bank exposure to private equity/private credit is **€4bn**, which the report calls *"far below the figures implied by supervisory intelligence"* before **dropping the class from its analysis**; leverage there *"cannot be computed from existing data"* and the non-EU gap is *"likely to remain"* after reform. **`T-14` is NOT fired and this does not fire it** — but leg (b) waits for a supervisor to NAME institutions, which is downstream of that supervisor being able to SEE the exposure. **Band unchanged, deliberately not re-tuned.** → `KB-HANS-090`–`092`, `ML-HANS-464`
 - 🔑 **`HNS-09` keeps 70% on a NEW BASIS:** euro-area banks are aggregate **NET DEBTORS** to NBFI (~15% of balance sheets) where US banks are net lenders ⇒ **FUNDING is the dominant euro-area route.** ⛔ **It does NOT bound the credit channel.** Funding withdrawal and credit losses **co-occur** — the same counterparty stress drives both — and a net position says nothing about GROSS exposure: the report puts asset-side NBFI exposure at **~10% of SI assets, ~a quarter to potentially leveraged entities**. ⚠️ **Two perimeters never merged:** FSR **€62.5bn drawn** ≠ ESRB **€4bn identified**. ⛔ **Not claiming the exposure is larger — it is unquantifiable.**
@@ -58,7 +58,7 @@
 **European banks: no stress. `T-14` NOT firing on a CURRENT dated sweep (9/18, re-checked in session 2)** — no G-SIB warning tied explicitly to private-credit losses, no ECB/ESRB warning **naming** institutions; the ESRB taskforce is **EXAMINING** the ~$3.1tn sector, and **an examination is not a naming warning.** FSR primary: **€62.5bn drawn, 12 banks = 0.2% of assets.** ✅ **ESRB `report202602` READ AT PRIMARY 9/19 — embargo discharged, routed; it does NOT fire `T-14`, but see §SESSION 4: it says the exposure cannot be quantified** → `KB-HANS-068`, `090`–`093`
 
 
-## SOVEREIGN / FX BOARD — LEVELS 2026-10-02 unless dated. ⚠️ **i-i basis unreachable 10/02** (page 410) — graded on TE with caveat.
+## SOVEREIGN / FX BOARD — LEVELS 2026-10-02 unless dated (UK rows 10/08 closes). ⚠️ **T-10 graded on i-i (10/08 139.8bp); TE/CNBC rows are cross-checks.**
 
 | Metric | Level | Band | Source ✓ |
 |---|---|---|---|
@@ -67,8 +67,8 @@
 | OAT–Bund spread | **~140.0bp** TE (−3bp d/d TE); i-i unreachable 10/02 | >100bp — **✅ MET, `T-10` OPEN** · exit <90 AND OAT <4.40 ×5 i-i sessions (**clock cannot start today**) | TE ✓ 10/02 (i-i missing) |
 | Italy 10Y BTP | **4.606** (TE 10/02, **−10.2bp** d/d — fell MORE than France) | >5.50 level leg — 89bp under | TE ✓ 10/02 |
 | BTP–Bund spread | **~114.0bp** TE-derived (narrowed from ~120bp 10/01) | >200bp — 86bp under | TE ✓ 10/02 |
-| UK 10Y gilt | **5.3786** (TE 10/02, ~flat) | >5.50 orange — **12bp under on the close** | TE ✓ 10/02 |
-| **UK 30Y gilt** | **5.91** (TE 10/02, **−3bp** d/d from 10/01 close 5.943; headroom WIDENED) | **>6.00 orange — 9bp under; next close >6.00 fires** | TE ✓ 10/02 |
+| UK 10Y gilt | **5.4238** (TE close 10/08; CNBC 5.4852; 10/9 live 5.445) | >5.50 orange — **7.6bp under on the TE close; NOT-FIRED 10/08** | TE ✓ 10/08 |
+| **UK 30Y gilt** | **5.9384** (TE close 10/08; CNBC London-close 5.9972; 10/9 live 5.954) | **>6.00 orange — 6.2bp under (TE) / 0.3bp (CNBC); NOT-FIRED 10/08; next close >6.00 fires** | TE ✓ 10/08 |
 | US 10Y | **5.28** (^TNX 10/02) | (context; BOND owns) | ^TNX ✓ 10/02 |
 | EUR/USD · DXY · GBP/USD | **1.13 · 101.91 · 1.32** (boot 10/02) | <1.05 watch far away | boot pull ✓ 10/02 |
 | EuroStoxx50 · DAX · FTSE | **6,238.5 · 25,231.2 · 10,462** (boot 10/02) | — | boot pull ✓ 10/02 |
@@ -96,13 +96,9 @@
 | Date | Event | Pri |
 |---|---|---|
 | **2026-10-01 · 10-15 · 10-25** 🟠 | **`HNS-07` RE-MARK CHECKPOINTS** — evaluate rules (a)/(b)/(c) and nowhere else. ⛔ **No early resolution — rule (d) WITHDRAWN 9/19**; graded on the **11/01 gas day** | 🟠 |
-| **2026-09-22** 🔴 | **AGSI lag D+1 vs D+2 — WEEKDAY check** (`KB-HANS-096`). Touches `HNS-07`'s GRADING date (11/02 vs 11/03), not its resolver | 🔴 |
-| **2026-09-23** 🔴 | **German/EA flash PMI (Sept) 07:30 UTC** — `HNS-06` resolver. **Grade the FLASH.** EA HICP flash **10/1** | 🔴 |
-| **2026-09-28/29** 🔴 | **`NGV26` 9/28 / `TTFV26` 9/29 expire** — boot now grades `T-07` on the NAMED contract and warns in the roll window; **never grade a rung crossing across a roll** | 🔴 |
-| **early Oct 2026** 🔴 | **France submits the 2027 budget** — **`T-10` FIRED 9/24 and OPEN**; no exit registered yet | 🔴 |
-| **2026-10-02** 🔴 | **PRE-REGISTERED periphery test (a)–(d), written 10/01 before the print** → `research/2026-10-01_T12_BASIS_AND_OFFICIAL_YIELD_SOURCES.md` §3. T-10 graded on the screen whose Bund leg is within 5bp of ECB AAA. **EA HICP flash (Sep)**: first `T-15` leg (b) read | 🔴 |
-| **2026-10-07** 🟠 | **ECB USD 7-day op**: first funding read since 10/01 (proposed T-12 Leg A >$1.5bn or ≥8 bidders; last $207mn/3) | 🟠 |
-| **2026-10-29** 🔴 | **ECB GovC — `T-04` (≥2.75) one 25bp hike away**, but 🆕 **no longer a hawkish lean** (core unrevised, Lagarde on energy). NL election same day | 🔴 |
+| **2026-10-13** 🔴 | **France: 2027 budget debate may begin + union strike** (WALTER `-022`) — **`T-10` FIRED and OPEN**; exit clock 0/5 | 🔴 |
+| **~2026-10-17** 🔴 | **EA HICP Sept FINAL** — first candidate print for `T-16` (FINAL + sustain-2) and `T-15` leg (b) | 🔴 |
+| **2026-10-29** 🔴 | **ECB GovC — `T-04` (≥2.75) one 25bp hike away; Reuters poll (73): 70 HOLD 10/29, 64 hike in DECEMBER.** NL election same day | 🔴 |
 | **~early Nov 2026** 🔴 | **Hormuz / Qatar force-majeure next extension** | 🔴 |
 | **2026-11-01** | `HNS-07` resolves (storage ≥80%) — in the Oct 1–Dec 1 compliance window | 🟠 |
 | **2026-10-28** 🔴 | **UK Budget** (CORRECTED 10/08 from 11/26, which was the 2025 date — gov.uk Healey letter to TSC 31 Jul 2026) — **the LDI date, 20d out, the day before ECB 10/29** | 🔴 |
@@ -112,38 +108,35 @@
 
 ---
 
-## 📬 INBOX / CROSS-AGENT FLAGS — **inbox lanes CLEAR 2026-09-25** (L0 drain, PROME Tier-1 spawn: 4 top-level + 13 WALTER, every sender; log → `board_log.tsv` [created 9/25 — this desk had none] + `workbook/2026-09-25_INBOX_DISPOSITIONS.md`). `VX-HANS-11.04` RETIRED — declined by BRENT, HAWK and OSPREY. ⚠️ **PROME's WQ-295 cadence packet was never delivered to this inbox** (answered from a sibling copy). 🔴 **The LIVE flag table is `DISPATCH_LOG.md`, not this line.**
+## 📬 INBOX / CROSS-AGENT FLAGS — **inbox lanes CLEAR 2026-10-09** (L0 drain hans-1009: 5 top-level + 26 WALTER, every sender; log → `board_log.tsv`, moves declared `consume:HANS`). Outstanding asks answered: LIQUID floor (PROME+LIQUID) · WALTER read-cap (rotation, no repoint) · DAEDALUS L546 (fixed) · DAEDALUS sweeps (#3 done; #1/#2 dated below). 🔴 **The LIVE flag table is `DISPATCH_LOG.md`, not this line.**
 
 🆕 **DISPATCHED 9/18** → `BOND` (🟠 `T-04` no longer a hawkish lean into 10/29; German debt service +38% y/y on the common-mode LEVEL channel) · `ZHAO` (🟠 TIC July: France −$62.4bn over two months, UK +$58.4bn to ~$1tn).
 🆕 **DISPATCHED 9/19** → `LIQUID` + `REGINALD` (🟠 ESRB primary read) · `HAWK` + `BRENT` (🟡 orphaned `VX-HANS-11.04`) · `PROME` (🟠 ESRB + ⚖️ the AGSI-key escalation). ⚠️ **Verify at the recipient tree, never here.**
 
 ## NEXT SESSION — WHAT IS OWED
 
-🔴 **FIRST: `python3 scripts/doc_audit.py`** (RULE #1b) — **see owed #15: it reads clean over surfaces it does not scan.**
-🔴 **SECOND: the CONTRACT ROLL lands 9/28 (`NG=F`) / 9/29 (`TTF=F`).** `KB-HANS-079`/`081` expire **9/25** so boot raises it **before** the roll. **`T-07` is a LEVEL ladder with L1+L2 FIRED: never grade a rung crossing across a roll.**
+🔴 **FIRST: `python3 scripts/doc_audit.py`** (RULE #1b).
+🔴 **SECOND: `T-13` is ~4.6bp from its line into the 10/28 Budget.** Grade each close on TE (registered basis), CNBC cross-check; **TE snaps AFTER the London close** — when the two straddle, grade TE and carry the gap.
 ⚠️ **Closeout 1c has TWO forms; `--self` is the only one seeing figures I superseded.** ⛔ **Residual 13 NOT to be cleared** — silencing a graded row resolves a flag backwards → `ML-HANS-456`.
 
 | # | Owed | Due |
 |---|---|---|
-| 3 | ✅ **DONE 9/25 — `HNS-06` HIT** (flash 53.8) | ✅ |
 | 5 | 🟠 **(a) OAT gap SETTLED 9/25 — ideal-investisseur governs `T-10` (Bund leg = ECB AAA primary within 0.4bp); gap ~8bp, fire margins exceed it. (b) UK leg still open.** *(UK leg 9/19: BoE `IUDMNPY` is now a primary daily series, but the gap is still UNDECOMPOSED — 5.2421 [9/16] vs TE 5.29 [9/18] differ in date AND basis at once; needs SAME-DATE pairs.)* (a) **OAT ~10bp** — both `T-10` trip lines sit inside it. (b) **UK 10Y** BoE `IUDMNPY` vs TE. **Pin both before either is cited** | 🔴 |
-| 24 | ✅ **DONE 10/01 — `T-10` EXIT REGISTERED** (band cell): spread <90 AND OAT <4.40 on i-i, 5 consecutive sessions; a row back over either fire line resets | ✅ |
 | 25 | **`T-15` leg (b) label vs basis:** state says UNINSTRUMENTED, value_basis names a MONTHLY-instrumentable test (HICP energy vs Brent). Reconcile; first read 10/1 | **2026-10-01** |
 | 26 | **Re-verify `TTF_CALENDAR` X26/Z26 expiries** (computed from the ICE rule) before 10/29 | **2026-10-26** |
-| 5b | ✅ **DONE 9/19 — the claim was FALSE.** BoE IADB serves **daily, keyless** gilt yields; the CSV needs the `_iadb-` path prefix (the un-prefixed path returns **200 + the HTML landing page**). **UK 10Y and the BoE Bank Rate are now auto-pulled.** ⚠️ Lagged ~2–3 business days and a PAR-yield basis — both printed beside the level | ✅ |
-| 8 | ✅ **RESOLVED 9/19 — Will provisioned `AGSI_API_KEY`.** Boot §[2] instrumented (rc1→**rc0**), `T-08` exitable in principle, `HNS-07` pace rules evaluable. **Immediately found a frozen-norm defect** → `ML-HANS-467` | ✅ |
 | 13 | **Re-argue exclusion leg (2)** — the Fed hike killed the euro-strength mechanism | open |
 | 14 | **Split `VX-HANS-11.03`** into (a) German annual outlay and (b) a real EU issuance series with matching bands | 🟠 |
-| 15 | ✅ **DONE 9/19 — `C9` BUILT.** Scans the whole boot-read set, not just STATUS (widening it immediately found 2 stale figures STATUS-only would have missed). Band-suppressed after its first hit was FALSE; skips a self-declared statement-time record and says so | ✅ |
 | 23 | 🟠 **`ML.tsv` KEY COLLISION — 475 rows, 324 unique IDs; 95 IDs shared by 246 rows with DIFFERENT findings.** All from the Feb-2026 bulk load; **none at ≥400**; whole-repo scan found **1** ambiguous citation (a completed artifact). **Not renumbered — append-only log, ~nil live harm.** ✅ **`C12` BUILT 9/19** — legacy backlog reported as a measured NOTE so it can never read clean, and a NEW collision (≥400) is a hard finding. **Renumbering still not done and still not planned** → `ML-HANS-473` | 🟠 |
-| 20 | ✅ **DONE 9/19 — hot/cold split executed as its own task.** `SESSION_LOG.md` created; STATUS **85% → 67%**, under the <70% stop. Union censused, byte identity asserted. **Anti-regrowth guard `C14` added and falsified** | ✅ |
 | 21 | **AGSI lag D+1 vs D+2 (`KB-HANS-096`)** — check on a WEEKDAY; touches `HNS-07`'s grading date (11/02 vs 11/03), not its resolver | **2026-09-22** |
 | 22 | **Empty-key discriminator is VENDOR-QUIRK-DEPENDENT** — re-verify the negative control; if GIE tightened it, the probe reverts to always-empty (safe, but blind) | **2026-12-19** |
 | 16 | **`VX-HANS-1.07` Germany UST** — sought at TIC primary, **not in Table 5**; keeps `1.08` mixed-vintage. Find it or retire the aggregate | 🟠 |
+| 27 | **DAEDALUS falsification #4 (10/8): re-grade `thesis/KILL_TREE.md`** — C-1 vs `T-10` FIRED (AND/OR on the France >100bp leg; "while the Bund rises"), owed #13 on the surface, C-2 HNS-06 HIT, C-3 premise on the 85.05 norm, a freshness claim distinct from "Created" (or a cadence the desk keeps) | **2026-10-16** |
+| 28 | **`HNS-09` definitions before Q3 results open** — name the aggregate (bank set or publisher), the cost-of-risk series and the "material" threshold (DAEDALUS negative-resolution #4) | **2026-10-16** |
+| 29 | **15 KB facts past `Stale_By`** (boot §[7]) incl. `KB-HANS-073` Petroline — its re-verify carries the one-source 3.5 mb/d flow (COR-20260928-20) | 🟠 |
 
 ## TWO-SENTENCE SUMMARY
 
-**10/01:** European sovereign stress broadened. France widened most, but Italy widened almost as much, and the Bund rallied as a safe haven. So `T-10` is deepening (130–143bp depending on the Bund leg), and the stress is no longer France's alone. **The UK long end touched 6% intraday and closed 6bp under it**, so the one registered LDI line is a single close away, with the 11/26 Budget still ahead. *(9/18–9/19 summaries → `SESSION_LOG.md` § STATUS ROTATION 2026-10-01.)*
+**10/09:** The UK long end came within a third of a basis point of its 6% line on the London close on 10/8 and still did not fire on the registered TE close (5.94), so the one LDI instrument I own stays armed-but-quiet with the Budget 19 days out. France's spread stress stays open (T-10, ~140bp), while the ECB hike that would fire T-04 has slid from 10/29 to December in the consensus.
 
 ---
 *Archives → `workbook/`. Falsification → `thesis/KILL_TREE.md`. Flags → `DISPATCH_LOG.md`. Bands → `registry/`.*

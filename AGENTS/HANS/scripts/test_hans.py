@@ -195,6 +195,20 @@ class TestFetchEuParsing(unittest.TestCase):
         self.assertNotIn('"https://agsi.gie.eu/api?country=EU', src)
 
 
+class TestSpreadFloatTie(unittest.TestCase):
+    """L546 (DAEDALUS 2026-10-08): an exactly-on-edge spread must land where the STRICT letter says."""
+    def test_exact_edge_does_not_fire_strict_gt(self):
+        import fetch_eu
+        self.assertGreater((4.03 - 2.03) * 100, 200)          # the defect, injected: raw float passes
+        self.assertFalse(fetch_eu.spread_bp(4.03, 2.03) > 200)  # T-09 letter: >200 strict
+        self.assertFalse(fetch_eu.spread_bp(3.03, 2.03) > 100)  # T-10 letter: >100 strict
+
+    def test_one_tenth_over_the_edge_still_fires(self):
+        import fetch_eu
+        self.assertTrue(fetch_eu.spread_bp(4.031, 2.03) > 200)
+        self.assertTrue(fetch_eu.spread_bp(3.031, 2.03) > 100)
+
+
 class TestExitSemanticsPerimeter(unittest.TestCase):
     """The 0/1/2 contract must cover ALL live pulls, not just Yahoo.
 

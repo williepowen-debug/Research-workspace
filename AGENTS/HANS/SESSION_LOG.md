@@ -130,3 +130,15 @@ CATO reviewed the day's work and produced counterexamples against several of thi
 **12:3x ET addendum — the composition read was WRONG and an outside check caught it (WALTER `-009`, Italy +10bp the same day).** I had read "France-specific" from i-i's Bund leg (3.60, +2) plus a CNBC comparison against a previous close I never checked. TradingEconomics (3.4937, −9bp) and CNBC (3.494) both show the Bund rallying. The i-i screen was chosen so the spread would not be derived across two sources, and it still carried one stale leg, so it could not show composition. **Lesson: before reading a day's COMPOSITION, check each leg against a second source. A single-source spread protects the level, not the decomposition.** Corrected in KB-106 (supersedes 102), T-05/T-09/T-10, VX, PUBLISHED, STATUS, and by packets to BOND and LIQUID, who both received the wrong claim.
 
 **13:0x ET — touch 2 (T-12 / official yields / pre-registration).** The ECB's per-tender pages carry bidder counts the Data Portal does not. Full history from `tops.zip` reaches back only to 2022-11. The one finding that changes the design: **in March 2023 the stress tell was the ECB moving to DAILY operations, not the size** (max $484mn), so a size-only band would have slept through it. The EMMS FX-swap-minus-SOFR series is the exact basis quantity but lags ~9 months. I checked my own proposed WATCH band against the history before writing it into a proposal: it fires zero times. That is reported as UNVALIDATED (shown quiet, never shown to fire), not as calibrated.
+
+---
+
+## 📦 STATUS ROTATION 2026-10-09 — verbatim block → `workbook/STATUS_ROTATED_2026-10-09.md` (25 lines; STATUS 75% → 64%)
+
+## 2026-10-09 (Fri) — hans-1009, PROME Tier-1 wake (DOCKET L637): the armed rule, applied
+
+**Grade.** TE's 10/8 closes were readable this morning: the TE page's summary `Previous` field read 5.94 (30Y) / 5.43 (10Y), and live-minus-day-change gave 5.938 / ~5.424 — matching WALTER's 10/8 evening read of TE (5.9384 / 5.4238, `-037`). CNBC's quote service gave prior closes 5.9972 / 5.4852. Every basis under both lines ⇒ `T-13` and `T-06` NOT-FIRED 10/08. The interesting part is WHY the vendors differ by ~6bp: CNBC's close is the London close; TE's is snapped later, after the long end fell. Yesterday's "proxies 0.2–0.9bp under" were London-close reads; the registered TE close came in 6bp under. The letter was written before the close, so the grade is mechanical.
+
+**Drain.** 31 files (5 top-level + 26 WALTER lane), read one at a time, each moved after its own read. Two answers owed for a week (LIQUID's floor, WALTER's read-cap) are now packets. One ACTION item (`-1003-019`, a Japanese fund dumping OATs) failed at primary — crypto-account relays only — and is not carried.
+
+**Fix.** DAEDALUS's L546 float tie in `fetch_eu.py`: the spread is rounded to 0.1bp before the strict legs compare; two tests inject the defect.

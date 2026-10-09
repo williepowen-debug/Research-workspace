@@ -36,6 +36,14 @@ def _get(url):
         return r.read().decode("utf-8", "replace")
 
 
+def spread_bp(cv, dv):
+    """Spread in bp, ROUNDED to 0.1bp before any band comparison (DOCKET L546, DAEDALUS 2026-10-08).
+    ECB IRS OBS_VALUE publishes up to 3 decimals (IT 3.559; the DECIMALS attribute says 2 - the data
+    says 3), so a difference x100 is exact at 0.1bp. Unrounded, (4.03-2.03)*100 = 200.00000000000006
+    passes a strict '> 200' and an exactly-on-edge print fires a false leg."""
+    return round((cv - dv) * 100, 1)
+
+
 def ecb(series, n=1):
     """Return [(period, value)] most-recent-first, or [] on any failure."""
     try:
@@ -391,7 +399,7 @@ def main():
                 failures.append(f"ECB {c} 10Y")
                 continue
             cd, cv = r[0]
-            sp = (cv - dv) * 100
+            sp = spread_bp(cv, dv)   # L546: rounded BEFORE the >200 / >100 legs compare
             note = ""
             # COMPOUND rows: T-09/T-10 need BOTH the spread leg AND the level leg.
             # A single leg is NOT a breach — recording that correctly matters, because

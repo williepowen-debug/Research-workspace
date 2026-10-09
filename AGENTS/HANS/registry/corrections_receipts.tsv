@@ -1,3 +1,9 @@
 receipt_date	correction_id	action	note
 2026-09-19T00:49Z	COR-20260910-02	NO-OP	
 2026-09-25T15:29Z	COR-20260924-15	APPLIED	
+2026-10-09T14:03Z	COR-20260921-16	APPLIED	artifact=AGENTS/HANS/registry/THRESHOLDS.tsv#HANS-T-15; validation_ref=NONE; scope=T-15 leg (b) basis: forecourt share is not the registered HICP-energy-vs-Brent measurement; applied 9/25 drain; receipt run 10/9 hans-1009
+2026-10-09T14:03Z	COR-20260928-20	NO-OP	scope=HANS carries Petroline as ~7 mb/d nameplate and ~5.5 mb/d pre-strike throughput (KB-HANS-073) and never carried a post-strike rate; artifact=AGENTS/HANS/workbook/KB.tsv#KB-HANS-073; KB-HANS-073 expired and its re-verify carries the one-source 3.5 mb/d flow
+2026-10-09T14:03Z	COR-20261001-11	APPLIED	artifact=AGENTS/HANS/STATUS.md#CARRY FORWARD; validation_ref=NONE; scope=periphery-wide flight-to-quality read with Italy ~120 TE-derived superseding ~113; owner-confirming update of my own 10/01 read
+2026-10-09T14:03Z	COR-20261002-16	NO-OP	scope=Yanbu terminal suspension is the BRENT/HAWK lane and HANS carried no Yanbu port figure; INFO handoff read 10/9
+2026-10-09T14:03Z	COR-20261002-27	NO-OP	scope=US distillate export-ban coverage of non-Europe allies and HANS carried no figure from -023; INFO handoff read 10/9
+2026-10-09T14:03Z	COR-20261008-21	NO-OP	scope=Japan leg of -005 is SAM's and HANS carried only the gilt and Budget-date legs which -021 HOLDS; read 10/9
