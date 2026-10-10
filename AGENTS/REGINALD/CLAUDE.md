@@ -310,9 +310,9 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 | `research/README.md` | **Master research index** — all series, key findings, data gaps, next priorities. Read before spawning research. |
 | `research/outputs/` | Completed research by series (RP-REG-3.x, RP-REG-4.x, RP-FL-x.x, RQ-ad-hoc) |
 | `research/prompts/` | Research prompts for external LLM execution |
-| `workbook/VX.tsv` | Indicator vectors — **13-column** schema (ID/Name/Category/Current_Value/Yellow/Orange/Red/Status/Confidence/Last_Updated/Source/Cross_Links/Notes; label corrected 7/17). 61 rows; ⚠️ ~30 rows Jan-Apr vintage — see file banner, refresh post-7/21. |
+| `workbook/VX.tsv` | Indicator vectors — **13-column** schema (ID/Name/Category/Current_Value/Yellow/Orange/Red/Status/Confidence/Last_Updated/Source/Cross_Links/Notes; label corrected 7/17). 62 rows; ⚠️ **27 rows marked STALE 2026-10-10** (Last_Updated before 8/11, prior status kept in Notes); 5 RETIRED 10/10 (wiring ⑰). |
 | `workbook/KB.tsv` | Knowledge base — **15-column** schema (ID/Date/Session/Entity/Category/Description/Analysis/Data_Quote/Source/Status/Confidence/Thesis_Impact/Vector_Links/Cross_Links/Notes; label corrected 7/17). 116+ entries, ID format ML-REG-xxx. STALE-VINTAGE two-clock header; malformed block ~099..116 **+ 139** (reconstruction post-7/21). |
-| `workbook/FLOW.tsv` | Transmission mechanics — 10-column schema (ID/Name/Speed/Layer/Status/Trigger/Current_Position/Pathway/Key_Insight/Cross_Links/Last_Updated). 22 rows. |
+| `workbook/FLOW.tsv` | ⛔ **FROZEN 2026-10-10** (not maintained; last data 9/11). Transmission mechanics — 10-column schema (ID/Name/Speed/Layer/Status/Trigger/Current_Position/Pathway/Key_Insight/Cross_Links/Last_Updated). 22 rows. |
 | `workbook/THESIS_VALIDATION.md` | Thesis confirmation/invalidation criteria + dependency maps |
 | `workbook/OTTO_INTEL.md` | Cross-agent intel from OTTO (307 lines) |
 | ~~`workbook/VX_HISTORY.tsv`~~ | **RETIRED 2026-08-12 stale-sweep** → `archive/workbook/VX_HISTORY.tsv`. Header-only, never populated in 5+ months; concept was "archived slow-moving vectors" that never had a live consumer. Do not resurrect without a demand path. |
