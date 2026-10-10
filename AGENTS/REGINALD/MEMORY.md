@@ -59,7 +59,7 @@
 - **11/07 = planned Call Report retrieval; check completeness FIRST.**
 - **Update the §0 judgment only on L180 BROADER or FL-rail TRANSMISSION.**
 - **CUBI / FLG dates:** update the CALENDAR earnings table when announced. The countdown reads it, and FLG's T-03 looks 10/16.
-**🔴 0a. WAL exit grading:** grade **10/9 onward** from settled bars (`scripts/settled_bars.py WAL`: two routes, today's bar excluded). Count from `registry/REG_T02_EXIT_LOG.tsv` (27 rows through 10/8, 0-of-3). 2-of-3 → packet TERRY.
+**🔴 0a. WAL exit grading:** 10/9 GRADED 10/10 (row 28, 0-of-3). Grade **10/12 onward** from settled bars (`scripts/settled_bars.py WAL`: two routes, today's bar excluded). Count from `registry/REG_T02_EXIT_LOG.tsv` (28 rows through 10/9, 0-of-3). 2-of-3 → packet TERRY.
 **🔴 0a-NEW. Tier test each boot:** FRED HY/CCC/B/BB. ⚠️ The cache-busted CSV route FAILED 10/9 (HTTP/2 error / timeout), so the API route (`fetch.py fred`) was used. If HY prints >320 again, START the REG-T-03 count and run the bank-credit cross-check.
 **🟠 0-DAEDALUS. Thu 10/15 dated answers owed** (STATUS §OPEN PROCESS ASKS): Falsification #4 flags · REG-03 / REG-06 instruments + the SSB Q3 line REG-07 grades on (before SSB **Wed 10/21**) · Wiring ⑰ VX re-cuts.
 **🟡 0-LIMB. L180's "new foreclosure build" is unquantified.** Read literally (any QoQ rise), WAL met it at Q2 (+2.3%). Print the size beside every grade. A floor is Will's rule to make; don't add one.
