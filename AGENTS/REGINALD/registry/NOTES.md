@@ -268,3 +268,30 @@ The cohort was selected under **ratio-era priors**: MTB, HBAN and VLY were admit
 ⚠️ **Practical effect on my consecutive-session counting** (`VX-REG-18.04`): a run counted *"through 8/26"* is legitimate only once the 8/26-dated observation has published — which for a T+1 series is 8/27. **Count dated observations, never "latest available."** *(My 8/27 recount satisfies this: 19 sessions through the 8/26 observation, published 8/27.)*
 
 **Not ruled, and I am not assuming it:** MIDAS's ask ② (observation-date and read-date as two separate registered fields) stays OPEN. Until it lands, `THRESHOLDS.tsv` carries no read-date column and this note is the read-path.
+
+## `REG-06` — INSTRUMENT (2026-10-10; DAEDALUS Falsification #4 negative-resolution ask, overdue since 9/30; Will "go ahead" 11:57 ET)
+
+**Why it is recorded HERE, not in the row:** `workbook/PREDICTIONS.tsv` row `REG-06` is **Kernel-pinned, byte-frozen** (Gate C a6/a7). Editing the row would break the Kernel record, so the instrument lives in this file. The row's text, its 10% confidence and its 8/27 re-mark basis are UNCHANGED.
+
+**Letter (as made):** "At least one Tier 1 bank (EGBN, WAL) capital raise", H2 2026, 10%. Invalidation: "Both avoid capital raise through 2026."
+
+**What counts (specified 10/10, before any H2 raise was observed):**
+- **Counts:** issuance of **common or preferred equity** by EGBN or WAL, in any amount, including stock issued as acquisition consideration. The 8/27 re-mark names an equity-funded acquisition as the 10% residual path.
+- **Recorded, but not counted:** subordinated debt, senior debt, an S-8 (employee or inducement plans) and DRIP/ATM maintenance. ⚠️ Sub-debt is a reading choice. If either bank issues Tier 2 sub-debt, it is flagged to Will rather than graded silently.
+
+**Instrument:**
+1. **EDGAR submissions** (`data.sec.gov/submissions/CIK<padded>.json`, UA header). WAL CIK 1212545, EGBN CIK 1050441. Forms to read:
+   - **424B1–424B5** (offering prospectuses)
+   - **S-1, S-3** and shelf takedowns
+   - **S-4** (stock-for-stock acquisition)
+   - **8-K** items 1.01 / 3.02 / 8.01, read for any equity issuance
+2. **Daily backstop:** `scripts/8k_monitor.py`, which since `8255c2d13` checks WAL and EGBN identity and has no false all-clear.
+3. **Press releases:** WAL on Business Wire, EGBN on GlobeNewswire, read when an 8-K lands.
+
+**Dated attempts:**
+- **2026-10-10, window 7/1–10/9 = NONE.**
+  - WAL: 10-Q, 8-Ks 7/21 (2.02) and 7/30 (8.01), Forms 4, 13G. No 424B, S-1/S-3/S-4 or 3.02.
+  - EGBN: 10-Q, 8-Ks 7/06 (5.02) and 7/22 (2.02), 8-K/A 9/14 (5.02), **S-8 8/07 (CEO inducement plan — recorded, not a raise)**, Forms 3/4, 13G.
+- **Next scans:** 2026-10-31 · 2026-11-30 · **2027-01-05 (final, covering through 12/31).**
+
+**Resolution:** TRUE on the first counted issuance in H2 2026. FALSE if the 2027-01-05 scan returns none.

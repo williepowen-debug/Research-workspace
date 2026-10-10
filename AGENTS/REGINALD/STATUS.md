@@ -161,7 +161,7 @@
 | Prose-Remedy #1: strike 'exit-code defect still owed' (STATUS, MEMORY) | **DONE 10/9** (fix `b6544d45d` verified at the commit) | — |
 | Falsification #4 minor: `REG_T02_EXIT_LOG.tsv` header clock | **DONE 10/9** (header now 10/9) | — |
 | Falsification #4 flags: CLAUDE.md:24 eight-channel line · `domain/NDFI_HIDDEN_CRE_HYPOTHESIS.md` banner · DECK_EVIDENCE redirect · WAL <$78 label (CLAUDE.md:280, thresholds.py:25, registry) · LESSONS.md:29 | DEFERRED — this session was an L516 due-row wake; charter/label edits batched | **Thu 10/15** |
-| Falsification #4 neg-res: instruments for REG-03 / REG-06; **name SSB Q3 line REG-07 grades on** | DEFERRED — must land before SSB prints **Wed 10/21 AMC** | **Thu 10/15** |
+| Falsification #4 neg-res: instruments for REG-03 / REG-06; **name SSB Q3 line REG-07 grades on** | **DONE 10/10.** REG-03 and REG-07 instruments are in their Notes cells; REG-06 is in `registry/NOTES.md` (the row is Kernel-pinned). ⚠️ REG-07's level reading was already true at birth (SSB NPL/loans 0.62% [12/31/25]), so it grades on the CHANGE; that reading decides the grade (flagged to Will) | — |
 | Wiring ⑰: VX rows :9/:23/:37/:39 re-cut; :39 → live SAM surface or CANNOT-FIRE; Medallia one figure with BROCK | DEFERRED | **Thu 10/15** |
 | L546 float-tie: `kre_float.py:102`, `si_refresh.py:45` round before compare | DEFERRED to next touch of either file (DAEDALUS: no deadline, LATENT) | next touch |
 | WALTER -033 (WQ-399): receipt line in my boot card | **DONE 10/9** (CLAUDE.md step 9c carries the WQ-399 fields) | — |
