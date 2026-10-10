@@ -1,4 +1,12 @@
 # REGINALD STATUS
+**🟢 10/10 SAT (Will-launched): CAUGHT UP ON DATA; three overdue process items DONE; no score, threshold or trade moved.**
+- **Settled grades:** 10/9 closes graded (WAL $74.27, exit 0-of-3, row 28; FLG 3rd close below RED).
+- **Predictions:** REG-03/06/07 instruments named. ⚠️ REG-07's level reading was true at birth, so it grades on the CHANGE from 0.62%; **Will may VOID it before SSB prints 10/21**.
+- **DAEDALUS fixes:** F#4 wording fixes + wiring ⑰ done. The `V1V3-ACCELERATE` token rename is deferred because WALTER reads it.
+- **Stale tables:** VX 27 rows STALE · FLOW frozen · two June baselines FROZEN-VINTAGE · KB +3.
+- **Large-bank desk:** proposal packeted to DAEDALUS (Will-directed).
+- **HBAN puts:** Will's word on WQ-302 committed verbatim in POSITIONS (`cb236344f`).
+- **Owed at next boot (Will):** ① the 9/7 DAEDALUS packet decision ② the FHLB Atlanta / SF 10-Qs ③ five July threads.
 **🟠 10/9 FRI PM — MONITOR REPAIR + Q3 EARNINGS READ PLAN (Will-directed); STRESS STILL CONCENTRATED ON 6/30 EVIDENCE; NO SCORE, THRESHOLD OR TRADE MOVED.**
 - **Repair (`8255c2d13`):**
   - OZK's 8-K and insider checks now use the FDIC (they had queried the SEC, where OZK hasn't filed since 2017).
@@ -17,7 +25,7 @@
 - **Tape:** 10/9 vendor quotes (settled bars not posted) WAL 74.27 · KRE 69.01 · FLG 11.32 · OZK 44.41, while SPY rose +0.60%.
 - **Claims:** 197K [w/e 10/3]; w/e 9/26 revised to 199K.
 *Prior headlines (10/9 AM · 10/7 WED) and the archive-pointer chain for 9/29 → 8/10 → `archive/STATUS_rotation_2026-10-09.md` BLOCK T15, crc32 `4546cd82` (read-cap rotation 10/9 PM; recompute before trusting).*
-**Last Updated:** **2026-10-09 Fri ~22:xx ET (Will-launched evening session, Opus 5.5)**: boot · WALTER lane 2 → 0 · bounded monitor repair `8255c2d13` · Q3 read plan + Will's clarifications · FL frame A3 · CALENDAR earnings table · read-cap rotation T14–T19. *Stamp chain (10/9 AM and earlier) → BLOCK T16, crc32 `3ba61974`.*
+**Last Updated:** **2026-10-10 Sat ~12:4x ET (Will-launched, continuation; closeout)**: 10/9 settled grade · REG-03/06/07 instruments · F#4 + wiring ⑰ · stale tables · large-bank desk packet · WQ-302 verbatim. Prior: **2026-10-09 Fri ~22:xx ET (Will-launched evening session, Opus 5.5)**: boot · WALTER lane 2 → 0 · bounded monitor repair `8255c2d13` · Q3 read plan + Will's clarifications · FL frame A3 · CALENDAR earnings table · read-cap rotation T14–T19. *Stamp chain (10/9 AM and earlier) → BLOCK T16, crc32 `3ba61974`.*
 
 > **Thesis state:** STATUS is thesis-canonical (THESIS retired 8/13). Older carry blocks → `archive/STATUS_rotation_2026-09-02.md` BLOCK N and `archive/STATUS_rotation_2026-09-24b.md`.
 
