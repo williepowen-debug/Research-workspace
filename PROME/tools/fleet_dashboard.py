@@ -190,15 +190,38 @@ def inbox_depth(name):
     return count
 
 
-def parse_gates(today):
+def parse_gates(today, *, diagnostics=None):
+    """Legacy rows unchanged; optional diagnostics expose unsafe count inputs.
+
+    Legal lead tokens come from GATES_README.md STATES. The dashboard's legacy
+    fallback classifier remains untouched; checked consumers withhold counts
+    when diagnostics are present, rather than guessing a state for bad input.
+    """
     rows = []
+    seen = set()
+    def problem(message):
+        if diagnostics is not None:
+            diagnostics.append(message)
+    header_seen = False
     for line in read("PROME/GATES.tsv").splitlines():
-        if line.startswith("#") or line.startswith("gate_id") or not line.strip():
+        if line.startswith("gate_id"):
+            if line.split("\t")[:8] != ["gate_id", "registered", "owner", "condition",
+                                           "consequence_on_fire", "state", "last_checked", "source"]:
+                problem("GATES header does not match the column contract")
+            header_seen = True
+            continue
+        if line.startswith("#") or not line.strip():
             continue
         p = line.split("\t")
         if len(p) < 8:
+            problem("GATES row has fewer than 8 columns")
             continue
         gate, _, owner, cond, _, state, last_checked, _ = p[:8]
+        if not gate.strip() or gate.strip() in seen:
+            problem("GATES has a missing or duplicate gate ID")
+        seen.add(gate.strip())
+        if not re.match(r"^(?:LIVE|FIRED-UNEXECUTED|RESOLVED|LAPSED|RETIRED)(?=$|[\s(])", state.strip()):
+            problem(f"{gate.strip() or 'unnamed gate'}: unrecognized state lead token")
         consumed_by = p[8].strip() if len(p) > 8 else ""
         head = state.split("(")[0].strip()
         kind = ("crit" if head.startswith("FIRED-UNEXECUTED")
@@ -211,6 +234,10 @@ def parse_gates(today):
         rows.append({"gate": gate.strip(), "owner": owner.strip(), "kind": kind,
                      "state": trunc(md_clean(state), 220), "cond": trunc(md_clean(cond), 160),
                      "checked_age": age, "consumed_by": consumed_by})
+    if not header_seen:
+        problem("GATES header is missing")
+    if not rows:
+        problem("GATES contains no usable rows; counts unavailable")
     return rows
 
 
@@ -1009,24 +1036,8 @@ def render_session_panel(path, reference_time=None):
     return ''.join(out) + '</div>\n'
 
 
-def build(today, now_iso, sessions_json=None):
-    now_iso_utc = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    active, tier2, dormant = parse_roster()
-    fmap = parse_fleet_map()
-    hb = parse_heartbeat()
-    gates = parse_gates(today)
-    docket = parse_docket(today)
-    pending = parse_pending_will()
-    spine_d, spine_age = parse_spine_stamp(today)
-    env_rc = run_rc("env_doctor.py", "--quiet")
-    fire_rc = run_rc("firetime_check.py", "--window", "7", "--quiet")
-    try:
-        tiles = parse_tiles(hb)
-        tiles_err = None
-    except Exception as e:
-        tiles, tiles_err = [], f"{type(e).__name__}: {str(e)[:120]}"
-    prev = load_prev_snapshot()
-
+def collect_fleet_rows(today, active, fmap):
+    """Shared read-only fleet evidence; preserves donor sorting and snapshot classes."""
     # -- fleet rows (active roster, git-computed; staleness in BUSINESS days)
     parked = load_parked(today)
     fleet = []
@@ -1075,6 +1086,29 @@ def build(today, now_iso, sessions_json=None):
                       "parked": is_parked})
     # stalest first; parked sink to the bottom (intentionally quiet ≠ needs eyes)
     fleet.sort(key=lambda r: (r["parked"], -r["days"]))
+
+    return fleet
+
+
+def build(today, now_iso, sessions_json=None):
+    now_iso_utc = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    active, tier2, dormant = parse_roster()
+    fmap = parse_fleet_map()
+    hb = parse_heartbeat()
+    gates = parse_gates(today)
+    docket = parse_docket(today)
+    pending = parse_pending_will()
+    spine_d, spine_age = parse_spine_stamp(today)
+    env_rc = run_rc("env_doctor.py", "--quiet")
+    fire_rc = run_rc("firetime_check.py", "--window", "7", "--quiet")
+    try:
+        tiles = parse_tiles(hb)
+        tiles_err = None
+    except Exception as e:
+        tiles, tiles_err = [], f"{type(e).__name__}: {str(e)[:120]}"
+    prev = load_prev_snapshot()
+
+    fleet = collect_fleet_rows(today, active, fmap)
 
     # -- needs-attention items (composed, worst first)
     attn = []
@@ -1278,6 +1312,7 @@ def build(today, now_iso, sessions_json=None):
 <style>{CSS}</style>
 <div class="bar">
   <h1>FLEET OPS · PROME</h1>
+  <p>RETIRED as a published page 2026-10-02 (WQ-372) — <a href="https://claude.ai/code/artifact/ee088d08-bf26-48ab-bad2-7ee9155da12a">the Helm</a> carries this; built for the gate only.</p>
   <span class="stamp mono">{esc(now_iso)} ET · HEARTBEAT base {esc(hb["base"])} · <a href="https://claude.ai/code/artifact/ee088d08-bf26-48ab-bad2-7ee9155da12a">the Helm →</a></span>
   <span id="agebadge" data-generated="{esc(now_iso_utc)}">built just now</span>
   <div class="chips">

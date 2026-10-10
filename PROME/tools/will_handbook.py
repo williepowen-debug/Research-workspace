@@ -37,6 +37,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import desk_attention as da
+import fleet_dashboard as fd
 import will_brief as wb  # noqa: E402  (parsers + md_inline; ONE parser family)
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -541,7 +542,49 @@ def render_brief_tab(written, brief, feed, first, money, positions):
     return "\n".join(h)
 
 
-def render(sections, dec, chore, dates, brief_tab_html, board, attention_html=""):
+def render_fleet_panels(today):
+    """Reuse Fleet-Ops evidence without invoking its build or writing its state."""
+    h = ["<section id='fleet-ops'><h2>Fleet activity and gates</h2>"]
+    try:
+        active, _, _ = fd.parse_roster()
+        fleet = fd.collect_fleet_rows(today, active, fd.parse_fleet_map())
+        if not fleet:
+            raise ValueError("freshness table is empty")
+        h.append("<p class='hint'>Age since a committed change to the desk’s non-inbox files, "
+                 "regardless of author; rounded calendar days. This does not prove the desk ran.</p>"
+                 "<table><thead><tr><th>Desk</th><th>Days</th><th>Freshness</th></tr></thead><tbody>")
+        for row in fleet:
+            # 999 is the legacy missing-data sorting sentinel, not a measured age.
+            unavailable = row["word"] == "no git history" or (row["parked"] and row["days"] == 999)
+            age = "unavailable / no history" if unavailable else str(row["days"])
+            label = row["word"] if row["parked"] else ("unavailable / no history" if unavailable else row["cls"])
+            h.append("<tr><td>" + html.escape(row["name"]) + "</td><td>" + html.escape(age)
+                     + "</td><td>" + html.escape(label) + "</td></tr>")
+        h.append("</tbody></table>")
+    except Exception as exc:
+        alert("fleet-freshness", str(exc))
+        h.append("<div class='degraded'>Fleet freshness unavailable — no all-clear.</div>")
+    try:
+        errors = []
+        gates = fd.parse_gates(today, diagnostics=errors)
+        if errors:
+            raise ValueError("; ".join(errors))
+        live = sum(g["kind"] == "live" for g in gates)
+        fired = [g for g in gates if g["kind"] == "crit"]
+        h.append(f"<p><strong>LIVE {live}</strong> · <strong>FIRED-UNEXECUTED {len(fired)}</strong></p>")
+        for gate in fired:
+            h.append("<p class='fired'><b>" + html.escape(gate["gate"]) + "</b> — "
+                     + html.escape(gate["state"]) + "</p>")
+        h.append("<p class='hint'>LIVE means no unexecuted fired leg; executed legs may exist. "
+                 "Fired actions remain on the board above. Source: PROME/GATES.tsv.</p>")
+    except Exception as exc:
+        alert("fleet-gates", str(exc))
+        h.append("<div class='degraded'>Gate counts unavailable — no all-clear.</div>")
+    h.append("</section>")
+    return "\n".join(h)
+
+
+def render(sections, dec, chore, dates, brief_tab_html, board, attention_html="", fleet_html=""):
     now = dt.datetime.now().astimezone()
 
     def take(prefix):
@@ -570,8 +613,7 @@ def render(sections, dec, chore, dates, brief_tab_html, board, attention_html=""
         "<div class='clocks'>"
         f"<span id='built' data-built='{now.isoformat(timespec='minutes')}'>rebuilt {now:%b %-d, %-I:%M %p} ET</span>"
         "<span>Source dates appear with each record · local build; hosted publication unverified</span>"
-        f"<a href='{FLEETOPS_URL}'>Fleet Ops →</a>"
-        + f" · <a href='{DECK_URL}'>Decision Deck →</a>"
+        f"<a href='{DECK_URL}'>Decision Deck →</a>"
         "</div></header>")
 
     for leg, reason in ALERTS:
@@ -599,6 +641,7 @@ def render(sections, dec, chore, dates, brief_tab_html, board, attention_html=""
              "<button role='tab' data-tab='tab-manual' aria-selected='false'>The manual</button>"
              "</nav>")
     h.append("<div id='tab-desk' role='tabpanel' aria-label='Your desk'>")
+    h.append(fleet_html)
     h.append(attention_html)
     h.append("<div class='colmain'>")
 
@@ -802,7 +845,8 @@ def main():
     except Exception as exc:
         alert("attention", str(exc))
         attention_html = "<div class='degraded'>Attention data unavailable — no all-clear.</div>"
-    out.write_text(render(sections, dec, chore, dates, brief_tab, board, attention_html), encoding="utf-8")
+    fleet_html = render_fleet_panels(dt.date.today())
+    out.write_text(render(sections, dec, chore, dates, brief_tab, board, attention_html, fleet_html), encoding="utf-8")
     dk = out.parent / DOCKET_FILE
     dk_note = f" + {dk.name} ({dk.stat().st_size}B)" if docket_href else " (no docket file — page in legacy form)"
     n = len(ALERTS)
