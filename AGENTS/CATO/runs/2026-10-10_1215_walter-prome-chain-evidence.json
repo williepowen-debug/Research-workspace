@@ -1,0 +1,542 @@
+{
+  "captured_at": "2026-10-10T12:16:55.769979-04:00",
+  "origin": "46f08f02b9d46f9aec71953ac237a31c87d28c0c",
+  "today_deliveries": [
+    {
+      "signal": "SIG-W-20261010-001",
+      "recipient": "VIOLET",
+      "role": "ACTION",
+      "origin_paths": [
+        "AGENTS/VIOLET/inbox/WALTER/processed/SIG-W-20261010-001.md"
+      ]
+    },
+    {
+      "signal": "SIG-W-20261010-001",
+      "recipient": "HENRY",
+      "role": "INFO",
+      "origin_paths": [
+        "AGENTS/HENRY/inbox/WALTER/SIG-W-20261010-001.md"
+      ]
+    },
+    {
+      "signal": "SIG-W-20261010-002",
+      "recipient": "FALCON",
+      "role": "ACTION",
+      "origin_paths": [
+        "AGENTS/FALCON/inbox/WALTER/processed/SIG-W-20261010-002.md"
+      ]
+    },
+    {
+      "signal": "SIG-W-20261010-002",
+      "recipient": "BRENT",
+      "role": "ACTION",
+      "origin_paths": [
+        "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261010-002.md"
+      ]
+    },
+    {
+      "signal": "SIG-W-20261010-002",
+      "recipient": "HAWK",
+      "role": "INFO",
+      "origin_paths": [
+        "AGENTS/HAWK/inbox/WALTER/SIG-W-20261010-002.md"
+      ]
+    },
+    {
+      "signal": "SIG-W-20261010-002",
+      "recipient": "SAM",
+      "role": "INFO",
+      "origin_paths": [
+        "AGENTS/SAM/inbox/WALTER/SIG-W-20261010-002.md"
+      ]
+    },
+    {
+      "signal": "SIG-W-20261010-002",
+      "recipient": "HANS",
+      "role": "INFO",
+      "origin_paths": [
+        "AGENTS/HANS/inbox/WALTER/SIG-W-20261010-002.md"
+      ]
+    },
+    {
+      "signal": "SIG-W-20261010-003",
+      "recipient": "BRENT",
+      "role": "ACTION",
+      "origin_paths": [
+        "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261010-003.md"
+      ]
+    },
+    {
+      "signal": "SIG-W-20261010-003",
+      "recipient": "OSPREY",
+      "role": "ACTION",
+      "origin_paths": [
+        "AGENTS/OSPREY/inbox/WALTER/processed/SIG-W-20261010-003.md"
+      ]
+    },
+    {
+      "signal": "SIG-W-20261010-003",
+      "recipient": "YURI",
+      "role": "ACTION",
+      "origin_paths": [
+        "AGENTS/YURI/inbox/WALTER/SIG-W-20261010-003.md"
+      ]
+    },
+    {
+      "signal": "SIG-W-20261010-003",
+      "recipient": "HAWK",
+      "role": "INFO",
+      "origin_paths": [
+        "AGENTS/HAWK/inbox/WALTER/SIG-W-20261010-003.md"
+      ]
+    },
+    {
+      "signal": "SIG-W-20261010-003",
+      "recipient": "HANS",
+      "role": "INFO",
+      "origin_paths": [
+        "AGENTS/HANS/inbox/WALTER/SIG-W-20261010-003.md"
+      ]
+    },
+    {
+      "signal": "SIG-W-20261010-003",
+      "recipient": "VULCAN",
+      "role": "INFO",
+      "origin_paths": [
+        "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261010-003.md"
+      ]
+    },
+    {
+      "signal": "SIG-W-20261010-004",
+      "recipient": "BOND",
+      "role": "ACTION",
+      "origin_paths": [
+        "AGENTS/BOND/inbox/WALTER/SIG-W-20261010-004.md"
+      ]
+    },
+    {
+      "signal": "SIG-W-20261010-004",
+      "recipient": "ZHAO",
+      "role": "ACTION",
+      "origin_paths": [
+        "AGENTS/ZHAO/inbox/WALTER/SIG-W-20261010-004.md"
+      ]
+    },
+    {
+      "signal": "SIG-W-20261010-004",
+      "recipient": "SAM",
+      "role": "INFO",
+      "origin_paths": [
+        "AGENTS/SAM/inbox/WALTER/SIG-W-20261010-004.md"
+      ]
+    },
+    {
+      "signal": "SIG-W-20261010-004",
+      "recipient": "MIDAS",
+      "role": "INFO",
+      "origin_paths": [
+        "AGENTS/MIDAS/inbox/WALTER/SIG-W-20261010-004.md"
+      ]
+    },
+    {
+      "signal": "SIG-W-20261010-004",
+      "recipient": "LIQUID",
+      "role": "INFO",
+      "origin_paths": [
+        "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261010-004.md"
+      ]
+    },
+    {
+      "signal": "SIG-W-20261010-004",
+      "recipient": "HENRY",
+      "role": "INFO",
+      "origin_paths": [
+        "AGENTS/HENRY/inbox/WALTER/SIG-W-20261010-004.md"
+      ]
+    },
+    {
+      "signal": "SIG-W-20261010-005",
+      "recipient": "CARL",
+      "role": "ACTION",
+      "origin_paths": [
+        "AGENTS/CARL/inbox/WALTER/SIG-W-20261010-005.md"
+      ]
+    },
+    {
+      "signal": "SIG-W-20261010-005",
+      "recipient": "HOMER",
+      "role": "INFO",
+      "origin_paths": [
+        "AGENTS/HOMER/inbox/WALTER/SIG-W-20261010-005.md"
+      ]
+    },
+    {
+      "signal": "SIG-W-20261010-005",
+      "recipient": "REGINALD",
+      "role": "INFO",
+      "origin_paths": [
+        "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20261010-005.md"
+      ]
+    },
+    {
+      "signal": "SIG-W-20261010-005",
+      "recipient": "LABOR",
+      "role": "INFO",
+      "origin_paths": [
+        "AGENTS/LABOR/inbox/WALTER/SIG-W-20261010-005.md"
+      ]
+    },
+    {
+      "signal": "SIG-W-20261010-006",
+      "recipient": "HENRY",
+      "role": "ACTION",
+      "origin_paths": [
+        "AGENTS/HENRY/inbox/WALTER/SIG-W-20261010-006.md"
+      ]
+    },
+    {
+      "signal": "SIG-W-20261010-006",
+      "recipient": "VULCAN",
+      "role": "ACTION",
+      "origin_paths": [
+        "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261010-006.md"
+      ]
+    },
+    {
+      "signal": "SIG-W-20261010-006",
+      "recipient": "VIOLET",
+      "role": "INFO",
+      "origin_paths": [
+        "AGENTS/VIOLET/inbox/WALTER/processed/SIG-W-20261010-006.md"
+      ]
+    },
+    {
+      "signal": "SIG-W-20261010-006",
+      "recipient": "WATT",
+      "role": "INFO",
+      "origin_paths": [
+        "AGENTS/WATT/inbox/WALTER/SIG-W-20261010-006.md"
+      ]
+    },
+    {
+      "signal": "SIG-W-20261010-006",
+      "recipient": "SHADE",
+      "role": "INFO",
+      "origin_paths": [
+        "AGENTS/SHADE/inbox/WALTER/SIG-W-20261010-006.md"
+      ]
+    }
+  ],
+  "backlog_check": [
+    [
+      "LOW",
+      "CONSUMED but never filed to processed/ \u2014 the recipient's OWN board_log records these, so they are filing hygiene, NOT a consume-gap: OTTO 1 \u2014 excluded from the unconsumed count below (they were being counted)"
+    ],
+    [
+      "MED",
+      "76 unconsumed >2d across 9 agents (of 203 in flight \u2014 the rest are within the grace period, NOT evidence they are consumed) \u2014 14 ACTION / 62 INFO, oldest ACTION 12d \u00b7 oldest INFO 15d: HAWK 49(4A/45I); MARCO 4(2A/2I); CARL 2(2A/0I); SHADE 9(1A/8I); YURI 3(1A/2I); HOMER 3(1A/2I); OTTO 2(1A/1I); CREED 2(1A/1I); MIDAS 2(1A/1I) [age from delivery_log.timestamp_routed, 1 on mtime across the full delivered-file scan (not the aged-warning denominator; no delivery_log row)] [+1 non-dispatch file(s) OUT OF SCOPE \u2014 YURI/2026-10-04_routing-row-shipped.md 6d; owned by their own ledgers, not this check] \u2014 ACTION items are the risk; install recipient consume boot-step (CC self-apply set) to clear"
+    ]
+  ],
+  "orch_capture": {
+    "sha256": "7551906ae2e6cb4d499e3a51ca26fa7e275d43ef10c8e8f607f7ef30ba62ff6f",
+    "today_rows": [
+      [
+        "2026-10-10",
+        "coldreader (coldread-status-1010 \u2014 Opus)",
+        "subagent",
+        "1-SPAWN",
+        "CLOSEOUT_PROCEDURES \u00a7 Byte-flow: blind reader on the rotated PROME/STATUS.md (4 rows + prior stamp \u2192 STATUS_HISTORY \u00a7 2026-10-10) before the closeout commit; spawned 2026-10-10 11:10 ET.",
+        "0",
+        "DELIVERED 2026-10-10 11:16 ET: 47 claims 32 \u2705 \u00b7 14 \u26a0\ufe0f \u00b7 1 \u274c (done-without-asking contradiction \u2192 FIXED); ledger scratchpad coldread_status_2026-10-10.md; 113,157 tokens \u00b7 34 tool uses \u00b7 380 s. ALREADY CLOSED OUT \u2014 read-only helper with no SendMessage; NOT ASKED, named not omitted.",
+        "OK",
+        "read-only; ledger to the scratchpad (coldread_status_2026-10-10.md); no SendMessage tool \u21d2 no closeout ask possible \u2014 will be named ALREADY CLOSED OUT / NOT ASKED at delivery.",
+        "",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "2026-10-10",
+        "ARGUS (closeout audit, prome-1e Sat Standard sitting \u2014 Opus)",
+        "subagent",
+        "1-SPAWN",
+        "CLOSEOUT step 8 audit of the frozen candidate (baseline e59c3cd56; OWNED 47 \u00b7 SHARED 160 \u00b7 UNATTRIBUTED 0); spawned ~11:17 ET.",
+        "0",
+        "DELIVERED 2026-10-10 11:31 ET: 47 claims \u00b7 3 \u274c \u00b7 11 \u26a0\ufe0f \u00b7 33 \u2705; \u274c applied (WQ-397 explainer re-cut post-expiry \u00b7 'no FEMA declaration' \u2192 DR-keyed wording + EM-3655 named \u00b7 STATUS row 20 pointer corrected); \u26a0\ufe0f declared in memory/2026-10-10.md; 225,462 tokens \u00b7 70 tool uses \u00b7 625 s. ALREADY CLOSED OUT \u2014 read-only auditor with no SendMessage; NOT ASKED, named not omitted.",
+        "OK",
+        "Verdict 'no' at delivery; the three \u274c fixed \u2192 re-freeze \u2192 independent read of the STATUS change (two-correction stop) \u2192 mark-reviewed.",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "2026-10-10",
+        "coldreader (coldread-status-1010b \u2014 Opus)",
+        "subagent",
+        "1-SPAWN",
+        "Independent read of the STATUS third correction pass (ARGUS \u274c3 fix: the Publication row's step-11 pointer + the row-16 memo/commit wording) \u2014 the read the two-correction stop requires; spawned 2026-10-10 11:31 ET.",
+        "0",
+        "DELIVERED 2026-10-10 11:39 ET: 51 claims 35 \u2705 \u00b7 15 \u26a0\ufe0f \u00b7 1 \u274c \u2014 the changed portion (Publication row, both hashes, stamps) CLEAN; the \u274c is an old History line retired by DOCKET L241 \u2192 ceiling disposition (pointer), \u26a0\ufe0f30 (pre-WQ-382(a) sentence) \u2192 pointer; 133,260 tokens \u00b7 30 tool uses \u00b7 397 s. ALREADY CLOSED OUT \u2014 read-only helper, no SendMessage; NOT ASKED, named not omitted. STATUS episode: 3 reads (coldreader \u00b7 ARGUS \u00b7 coldreader) = the ceiling.",
+        "OK",
+        "read-only; ledger to the scratchpad; no SendMessage \u21d2 no closeout ask possible.",
+        "",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "2026-10-10",
+        "BRENT (brent-1010)",
+        "subagent",
+        "1-SPAWN",
+        "PREFLIGHT 2026-10-10 11:32:52 ET (same-minute, this host): ListAgents 11:33 = reginald-6d idle \u00b7 aeolus-db idle \u00b7 walter-66 busy (all Will's windows), no session for this desk; ps = 4 claude (prome, aeolus, reginald, walter+telegram channel) + 1 codex client (CATO, --cd AGENTS/CATO) + daemons, none for this desk; desk dir: no foreign writer (the one dirty path at BRENT/FALCON was WALTER's routed signal, committed by WALTER minutes later); inbox counts from inbox_census.py (files only). AUTHORITY: Will's OWN WORD given in WALTER's window 2026-10-10 11:30 ET \u2014 verbatim as relayed by walter-66 (cross-session message 11:31 ET): \"Okay lets do A and C\" \u2014 (C) wake BRENT, OSPREY, VIOLET \u00b7 (A) commission DEWEY (US-Russia diesel deal vs Ukraine's refinery strikes). PROME asked WALTER to COMMIT the verbatim; acted on the relay with Will present (his word, not a WALTER recommendation). Not a WQ-184 due-row spawn (the boot's due-row cap stands at 1 used: CORAL). Agent type `desk` (Opus). Brief: US sanctions relief on Russian diesel (verify OFAC; attribute the 4.8 Mt; HOX26 \u22122.96% vendor \u2192 settle basis; effect on the matched crack TERRY grades for GATE-TERRY-VLO-HELD-01 leg A \u2014 no gate move) \u00b7 Isaias restart read L633 (MMA/BSEE 10/10) \u00b7 freight (USG\u2192China VLCC record, TD3C) \u00b7 Baltic wk41 \u00b7 L659 status \u00b7 whole-inbox drain. Inbox census: top-level 2 \u00b7 WALTER/ 4.",
+        "7",
+        "DELIVERED 11:47 ET (PARTIAL by the ask): memo PROME/inbox/2026-10-10_from-BRENT_diesel-deal-isaias-restart-freight.md; commits 8c47f8b5c \u00b7 676d756fc \u00b7 2a3fa19b2, pushed (receipt verbatim 'Pushed. CONFIRMED: HEAD 2a3fa19b2 is on origin/master (fresh fetch)'). Items 1/3/4 DONE (OFAC GL 135 verified: diesel only, through 2027-04-07; the 4.8 Mt is Trump's figure; Nov crack $107.16 settle-window estimate, after-hours \u2248 $104.90 Nov / $99.46 Dec = $4.46 above the $95 notice line \u2014 TERRY grades; TD3C $1.4785M/day [10/8]); item 2 PARTIAL (MMA 10/10 figure unpublished at 11:41 ET). WQ-249: ASKED 11:47 \u2192 RECEIPT 11:48 ('nothing unsaved \u00b7 no uncommitted paths of mine \u00b7 pending: MMA 10/10 read + Isaias grade by 10/12; TRACKER/SCRATCH/NEXUS closeout tail'). 294,077 tokens \u00b7 91 tool uses \u00b7 14 min.",
+        "OK",
+        "Will-directed wake; the card also names BRENT on SIG-W-20261010-002 (IMMEDIATE) \u2014 BRENT reads it in its drain. AUTHORITY VERIFIED 2026-10-10 11:37 ET at the artifact: commit 16395614d (WALTER 11:34:42 ET) \u2014 the DEWEY packet's Authority line carries Will's verbatim \"Okay lets do A and C\" with WALTER's option text (c) = wake BRENT, OSPREY and VIOLET.",
+        "0 \u2014 no material correction of the brief reported",
+        "2",
+        "0",
+        "0"
+      ],
+      [
+        "2026-10-10",
+        "OSPREY (osprey-1010)",
+        "subagent",
+        "1-SPAWN",
+        "PREFLIGHT 2026-10-10 11:32:52 ET (same-minute, this host): ListAgents 11:33 = reginald-6d idle \u00b7 aeolus-db idle \u00b7 walter-66 busy (all Will's windows), no session for this desk; ps = 4 claude (prome, aeolus, reginald, walter+telegram channel) + 1 codex client (CATO, --cd AGENTS/CATO) + daemons, none for this desk; desk dir: no foreign writer (the one dirty path at BRENT/FALCON was WALTER's routed signal, committed by WALTER minutes later); inbox counts from inbox_census.py (files only). AUTHORITY: Will's OWN WORD given in WALTER's window 2026-10-10 11:30 ET \u2014 verbatim as relayed by walter-66 (cross-session message 11:31 ET): \"Okay lets do A and C\" \u2014 (C) wake BRENT, OSPREY, VIOLET \u00b7 (A) commission DEWEY (US-Russia diesel deal vs Ukraine's refinery strikes). PROME asked WALTER to COMMIT the verbatim; acted on the relay with Will present (his word, not a WALTER recommendation). Not a WQ-184 due-row spawn (the boot's due-row cap stands at 1 used: CORAL). Agent type `desk` (Opus). Brief: Ukrainian strikes after the deal (Rostov products terminal / Novoshakhtinsk \u2014 UNVERIFIED; primaries) \u00b7 FT Witkoff/Kushner intel-sharing threat (attribute; a policy signal, not a strike) \u00b7 the deal's effect on Channel 1 routing (L544 5\u21924 test is 10/15 \u2014 no early grade) \u00b7 strike_feed residue L661 untouched \u00b7 inbox drain incl. -1009-014. Inbox census: top-level 0 \u00b7 WALTER/ 1.",
+        "2",
+        "DELIVERED 11:48 ET (PARTIAL by the ask): memo PROME/inbox/2026-10-10_from-OSPREY_refinery-strikes-after-the-diesel-deal.md; commits 8651dd1eb \u00b7 1029d782e, pushed (receipt verbatim 'Pushed. CONFIRMED: HEAD 1029d782e is on origin/master (fresh fetch)'). Items 1\u20134 DONE: the Rostov NZNP terminal hit 10/10 = one site, outside C2 geography, no clock moves; OPEN C2 LEAD \u2014 two vessels damaged at Azov port (types unknown; resolve before 10/15); intel-sharing threat single-sourced/disputed, 'We will burn' = a Ukrainian official; marks 5 / \u26aa1 / 3 unchanged; L544 not graded early. WQ-249: ASKED 11:47 \u2192 RECEIPT 11:48 ('nothing unsaved \u00b7 no uncommitted paths of mine \u00b7 pending: BRENT/YURI/DEWEY/HAWK packets, NEXUS_BRIEF, closeout checks, the Azov lead'). 288,239 tokens \u00b7 99 tool uses \u00b7 14 min.",
+        "OK",
+        "Will-directed wake. AUTHORITY VERIFIED 2026-10-10 11:37 ET at the artifact: commit 16395614d (WALTER 11:34:42 ET) \u2014 the DEWEY packet's Authority line carries Will's verbatim \"Okay lets do A and C\" with WALTER's option text (c) = wake BRENT, OSPREY and VIOLET.",
+        "0 \u2014 no material correction of the brief reported",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "2026-10-10",
+        "VIOLET (violet-1010)",
+        "subagent",
+        "1-SPAWN",
+        "PREFLIGHT 2026-10-10 11:32:52 ET (same-minute, this host): ListAgents 11:33 = reginald-6d idle \u00b7 aeolus-db idle \u00b7 walter-66 busy (all Will's windows), no session for this desk; ps = 4 claude (prome, aeolus, reginald, walter+telegram channel) + 1 codex client (CATO, --cd AGENTS/CATO) + daemons, none for this desk; desk dir: no foreign writer (the one dirty path at BRENT/FALCON was WALTER's routed signal, committed by WALTER minutes later); inbox counts from inbox_census.py (files only). AUTHORITY: Will's OWN WORD given in WALTER's window 2026-10-10 11:30 ET \u2014 verbatim as relayed by walter-66 (cross-session message 11:31 ET): \"Okay lets do A and C\" \u2014 (C) wake BRENT, OSPREY, VIOLET \u00b7 (A) commission DEWEY (US-Russia diesel deal vs Ukraine's refinery strikes). PROME asked WALTER to COMMIT the verbatim; acted on the relay with Will present (his word, not a WALTER recommendation). Not a WQ-184 due-row spawn (the boot's due-row cap stands at 1 used: CORAL). Agent type `desk` (Opus). Brief: SIG-W-20261010-001 ACTION \u2014 CBOE SKEW 10/09 154.34 \u21d2 RED-FT-10 1 of 4 (grade on the CBOE primary; RED owns the letter; earliest fire the 10/14 bar) \u00b7 -013 \u00b7 the fragility cluster from Will's bookmarks (dispersion 95th pct of 30y; 10 stocks = 70% of the rally since 3/30 \u2014 verify, place dated, no new threshold) \u00b7 whole-inbox drain (dark since 9/28) \u00b7 own DOCKET rows (L539 wake; L413/L648 informed). Inbox census: top-level 4 \u00b7 WALTER/ 16.",
+        "21",
+        "DELIVERED 11:48 ET (PARTIAL by the ask): memo PROME/inbox/2026-10-10_from-VIOLET_skew-ft10-count-and-fragility-cluster.md; commits 08125c39e \u00b7 5470f1445 \u00b7 4e540cb9d, all on origin (receipt verbatim 'Pushed. CONFIRMED: HEAD 2cde0fb23 is on origin/master (fresh fetch)'). RED-FT-10 = 1 of 4 on CBOE (SKEW 154.34 [10/09]; earliest fire the 10/14 bar) \u00b7 cheap-tail OPEN 4/4 boxed to CPI 10/14 \u2192 routed to PROME under L413 (a) \u2192 WQ-409 \u00b7 Nomura: top-10 = 62\u201369% of the rally (claimed 70%); dispersion p94.7\u2013p98 on CBOE's own series, the 30-year span unverified \u00b7 COR1M first-tell re-graded (first fire 8/18) \u2192 retire? WQ-410 \u00b7 inbox 21/21 drained, 4 correction receipts. WILL_NEEDS \u2192 WQ-409/410. WQ-249: ASKED 11:47 \u2192 RECEIPT 11:48 ('nothing unsaved \u00b7 no uncommitted VIOLET paths \u00b7 pending: the \u00a78 write-back items for a re-wake'). 320,764 tokens \u00b7 88 tool uses \u00b7 14 min.",
+        "OK",
+        "Will-directed wake; supersedes WALTER's 11:0x 'no VIOLET spawn now' recommendation (WALTER said so itself). AUTHORITY VERIFIED 2026-10-10 11:37 ET at the artifact: commit 16395614d (WALTER 11:34:42 ET) \u2014 the DEWEY packet's Authority line carries Will's verbatim \"Okay lets do A and C\" with WALTER's option text (c) = wake BRENT, OSPREY and VIOLET.",
+        "0 \u2014 no material correction of the brief reported",
+        "4",
+        "0",
+        "0"
+      ],
+      [
+        "2026-10-10",
+        "FALCON (falcon-1010)",
+        "subagent",
+        "1-SPAWN",
+        "PREFLIGHT 2026-10-10 11:32:52 ET (same-minute, this host): ListAgents 11:33 = reginald-6d idle \u00b7 aeolus-db idle \u00b7 walter-66 busy (all Will's windows), no session for this desk; ps = 4 claude (prome, aeolus, reginald, walter+telegram channel) + 1 codex client (CATO, --cd AGENTS/CATO) + daemons, none for this desk; desk dir: no foreign writer (the one dirty path at BRENT/FALCON was WALTER's routed signal, committed by WALTER minutes later); inbox counts from inbox_census.py (files only). AUTHORITY: WQ-369 narrow C8 (Will-ruled 2026-10-04) \u2014 a DARK desk woken on an IMMEDIATE in-theater WALTER dispatch: SIG-W-20261010-002 (precedence IMMEDIATE; action FALCON, BRENT; dispatched 15:32:42Z) \u2014 OSINT FIRMS fire signatures at Shedgum/Hawiyah gas plants inside Ghawar (cause unknown; the 'Houthis struck Ghawar' claim UNSUPPORTED) \u00b7 KKIA hit again 10/10 ~12:00Z (multi-wire, unconfirmed) \u00b7 Aramco full November crude to Europe after Petroline 'returned to operation' (unnamed sources). WALTER's wake recommendation, NOT Will's word (WALTER said so). Presence re-checked at spawn (ListAgents 11:36 ET: no FALCON). Agent type `desk` (Opus). Brief: asset ID + \u00a73.5 attribution + WQ-355 rung eligibility; KKIA \u2260 production rung; Petroline state (BG-02 history); L619/GATE-FALCON-001 leg 2 = 10/14, no early grade; L229; marks B1/C14/D85 on the letter only; inbox drain. Inbox census: top-level 0 \u00b7 WALTER/ 2.",
+        "2",
+        "DELIVERED 11:48 ET (PARTIAL by the ask): memo PROME/inbox/2026-10-10_from-FALCON_ghawar-fires-kkia-petroline-read.md; commits 2cde0fb23 \u00b7 bbec890df, pushed (receipt verbatim 'Pushed. CONFIRMED: HEAD bbec890df is on origin/master (fresh fetch)'). Nothing fires; B 1 / C 14 / D 85 HELD; Shedgum/Hawiyah = gas plants, rung OUT, no counting source, attribution limbs unmet; 4 dark-28-day heat spots near Ain Dar GOSP1 lit 10/10 00:52Z+ (heat only; GOSP flaring INFERRED); KKIA = airport, ratchet not lit; L229 no C\u2192B. WQ-249: ASKED 11:47 \u2192 RECEIPT 11:48 ('nothing unsaved \u00b7 no uncommitted paths of mine \u00b7 pending: KB/CAS/STRIKES/STATUS/SCRATCH/NEXUS write-back + BRENT note on GOSP flaring, on re-wake'). Standing watch: a counting source naming Ain Dar/Shedgum crude units \u21d2 D 85\u219292.",
+        "OK",
+        "C8 class: logged here (the WQ-369 record requires the ORCH row + the dispatch id); not cap-bearing under WQ-184.",
+        "0 \u2014 no material correction of the brief reported",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "2026-10-10",
+        "DEWEY (dewey-1010)",
+        "subagent",
+        "1-SPAWN",
+        "PREFLIGHT 2026-10-10 11:36:54 ET (same-minute): ListAgents 11:36 = no DEWEY (reginald-6d \u00b7 aeolus-db idle \u00b7 walter-66 busy); ps = no DEWEY process (4 claude + CATO codex); AGENTS/DEWEY clean; last commit in its dir = WALTER's packet 16395614d. AUTHORITY: Will's own word VERIFIED at the artifact \u2014 16395614d Authority line, verbatim \"Okay lets do A and C\" (WALTER terminal 11:30 ET), (a) = commission the deep-research report; packet AGENTS/DEWEY/inbox/2026-10-10_from-WALTER_REQ-DEWEY-20261010-001_russia-diesel-deal-vs-ukraine-strikes-will-approved.md (deliver by Wed 10/14 EOD ET; WALTER owns the ledger row). Agent type `desk` (Opus). Inbox census: top-level 2 \u00b7 WALTER/ 2.",
+        "2",
+        "DELIVERED 11:50 ET (PARTIAL by the ask, session 1 of REQ-DEWEY-20261010-001): memo PROME/inbox/2026-10-10_from-DEWEY_REQ-DEWEY-20261010-001_diesel-deal-vs-strikes.md; output AGENTS/DEWEY/output/2026-10-10_russia-diesel-deal-vs-ukraine-strikes.md; commits eae9de8d3 (pre-registration, before reading primaries) \u00b7 cee24880a, pushed (receipt verbatim 'Pushed. CONFIRMED: HEAD cee24880a is on origin/master (fresh fetch)'). Pre-registration DONE; legs 1 DONE (GL 135 diesel-only to 2027-04-07; US import licensed at the regulation level) \u00b7 2 PARTIAL \u00b7 5 PARTIAL (the 10/9 settlement drop preceded the news; \u2248 $2.2/bbl off the Nov crack after settlement \u2014 first shows in the 10/12 settle) \u00b7 3, 4 NOT STARTED; no net-supply verdict yet. WQ-249: ASKED 11:47 \u2192 RECEIPT 11:50 ('nothing unsaved \u00b7 no uncommitted paths of mine \u00b7 pending: legs 2\u20135 + delivery on the Monday re-wake'); NOTE: two data-return sub-agents of DEWEY's (launched 11:39, scratchpad-only writers) could not be stopped by DEWEY (TaskStop owner mismatch) \u2014 they end with this PROME session. Re-wake Mon 10/12 (WQ-408 + DOCKET L566); final delivery by Wed 10/14 EOD ET.",
+        "OK",
+        "Will-directed commission (WQ-408 (A)); Monday re-wake if legs remain.",
+        "0",
+        "2",
+        "0",
+        "0"
+      ],
+      [
+        "2026-10-10",
+        "PROME (prome-1e) PUBLISH",
+        "publish",
+        "CLOSE",
+        "Deck OWED republished at the Sat Standard closeout (2026-10-10 11:40 ET): build 8fd191343\u00b72026-10-10 11:31 ET (decision_deck.py, hosted link mode; the WQ-397 card re-cut post-expiry on ARGUS \u274c1; WQ-382/396 moved to RECENTLY DONE; WQ-347 re-dated; roll-off 27 rows) \u2192 https://claude.ai/artifact/3mQDm36FUmfUKhE3QMBYrd Version 99 (version id 1791646785-dafe), store carried forward (contract 0.2.44, capabilities db), private. NOT published, by rule: the Deck REFERENCE view (WQ-382 (a): Will's word or a spine audit) \u00b7 the HELM (WQ-382 (b) RULED B 10/9: Will's word or a spine audit \u2014 in force from the word, encode L665) \u00b7 Fleet-Ops (RETIRED, WQ-372; built for the gate). Closeout commit 37d748c5f (25 paths, intent\u2194commit exact; ARGUS REVIEWED 232 paths, verify-review UNCHANGED at HEAD); push receipt verbatim 'Pushed. CONFIRMED: HEAD 37d748c5f is on origin/master (fresh fetch).'; ARGUS baseline recorded at 37d748c5f (rides this receipts commit).",
+        "0",
+        "PUBLISHED (receipt above)",
+        "yes",
+        "COMMITTED \u00b7 PUSHED \u00b7 PUBLISHED \u2014 all three reached; not PARTIAL. Process changes this session: ONE (L594 apply). Five PROME desk spawns IN-FLIGHT at this write (BRENT \u00b7 OSPREY \u00b7 VIOLET \u00b7 FALCON \u00b7 DEWEY) \u2014 their deliveries and WQ-249 asks are this session's next work, consumed in later commits.",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2026-10-10",
+        "BRENT (brent-1010b)",
+        "subagent",
+        "1-SPAWN",
+        "PREFLIGHT 2026-10-10 12:04:05 ET (same-minute, this host = hostname WilliePOwen): ListAgents 12:04 + 12:05 = reginald-6d idle \u00b7 aeolus-db waiting \u00b7 walter-66 idle (all Will's windows), no session for this desk; ps 12:04:05 = 4 claude (prome-ce 185136 \u00b7 6338 \u00b7 9474 \u00b7 walter 68124 + telegram channel) + 1 codex client (CATO, --cd AGENTS/CATO) + daemons, none for this desk; desk dir clean (git status --short); last commit in its dir by the desk itself 11:47\u201311:48 ET (closed out on the WQ-249 ask); inbox counts from inbox_census.py (files only). AUTHORITY: Tier 1 follow-up inside the approved workstream \u2014 Will's own word 11:30 ET in WALTER's window, verbatim \"Okay lets do A and C\" (VERIFIED at WALTER's commit 16395614d, (C) = wake BRENT/OSPREY/VIOLET); brent-1010 was cut at 11:47 by PROME's own WQ-249 ask; this touch = that session's closeout tail (TRACKER/SCRATCH/NEXUS_BRIEF) + whole-inbox drain + one MMA 10/10 check. Agent type `desk` (Opus), agentId a113b3e80272b2b45. Inbox census 12:04: top-level 1 (AEOLUS HDD composite 11:57) \u00b7 WALTER/ 0.",
+        "",
+        "IN-FLIGHT",
+        "",
+        "Re-wake for the tail; no new direction. Spawned 2026-10-10 12:08 ET.",
+        "",
+        "1",
+        "",
+        ""
+      ],
+      [
+        "2026-10-10",
+        "OSPREY (osprey-1010b)",
+        "subagent",
+        "1-SPAWN",
+        "PREFLIGHT 2026-10-10 12:04:05 ET (same-minute, this host = hostname WilliePOwen): ListAgents 12:04 + 12:05 = reginald-6d idle \u00b7 aeolus-db waiting \u00b7 walter-66 idle (all Will's windows), no session for this desk; ps 12:04:05 = 4 claude (prome-ce 185136 \u00b7 6338 \u00b7 9474 \u00b7 walter 68124 + telegram channel) + 1 codex client (CATO, --cd AGENTS/CATO) + daemons, none for this desk; desk dir clean (git status --short); last commit in its dir by the desk itself 11:47\u201311:48 ET (closed out on the WQ-249 ask); inbox counts from inbox_census.py (files only). AUTHORITY: as BRENT's row \u2014 Will's word 16395614d (C); osprey-1010 cut at 11:47; this touch = packets to BRENT/YURI/DEWEY/HAWK, NEXUS_BRIEF, claim/orphan checks, whole-inbox drain, one read-only attempt on the Azov hull-type lead. Agent type `desk` (Opus), agentId ab3dff3a4126fa432. Inbox census 12:04: 0 \u00b7 0.",
+        "",
+        "IN-FLIGHT",
+        "",
+        "Re-wake for the tail; no new direction. Spawned 2026-10-10 12:08 ET.",
+        "",
+        "0",
+        "",
+        ""
+      ],
+      [
+        "2026-10-10",
+        "VIOLET (violet-1010b)",
+        "subagent",
+        "1-SPAWN",
+        "PREFLIGHT 2026-10-10 12:04:05 ET (same-minute, this host = hostname WilliePOwen): ListAgents 12:04 + 12:05 = reginald-6d idle \u00b7 aeolus-db waiting \u00b7 walter-66 idle (all Will's windows), no session for this desk; ps 12:04:05 = 4 claude (prome-ce 185136 \u00b7 6338 \u00b7 9474 \u00b7 walter 68124 + telegram channel) + 1 codex client (CATO, --cd AGENTS/CATO) + daemons, none for this desk; desk dir clean (git status --short); last commit in its dir by the desk itself 11:47\u201311:48 ET (closed out on the WQ-249 ask); inbox counts from inbox_census.py (files only). AUTHORITY: as BRENT's row \u2014 Will's word 16395614d (C); violet-1010 cut at 11:47; this touch = the \u00a78 write-back (STATUS/SCRATCH/NEXUS_BRIEF/MAINTENANCE/KB flags/closeout_guard/MEMORY fix), the WQ-399 charter receipt-line edit only if no authority/route/threshold moves (C4 test stated in its memo), whole-inbox drain; WQ-409/410 receipts carried in the brief. Agent type `desk` (Opus), agentId ac834e8501b013e3f. Inbox census 12:04: 0 \u00b7 0.",
+        "",
+        "IN-FLIGHT",
+        "",
+        "Re-wake for the tail; no new direction. Spawned 2026-10-10 12:08 ET.",
+        "",
+        "0",
+        "",
+        ""
+      ],
+      [
+        "2026-10-10",
+        "FALCON (falcon-1010b)",
+        "subagent",
+        "1-SPAWN",
+        "PREFLIGHT 2026-10-10 12:04:05 ET (same-minute, this host = hostname WilliePOwen): ListAgents 12:04 + 12:05 = reginald-6d idle \u00b7 aeolus-db waiting \u00b7 walter-66 idle (all Will's windows), no session for this desk; ps 12:04:05 = 4 claude (prome-ce 185136 \u00b7 6338 \u00b7 9474 \u00b7 walter 68124 + telegram channel) + 1 codex client (CATO, --cd AGENTS/CATO) + daemons, none for this desk; desk dir clean (git status --short); last commit in its dir by the desk itself 11:47\u201311:48 ET (closed out on the WQ-249 ask); inbox counts from inbox_census.py (files only). AUTHORITY: completion of the WQ-369 narrow-C8 bounded session (falcon-1010 on SIG-W-20261010-002, cut at 11:47 by PROME's WQ-249 ask) \u2014 ledger write-back only (KB-266.., CAS-2026-025, STRIKES sweep 10/02\u2192, STATUS/SCRATCH/NEXUS_BRIEF, TankerMap CSV), the BRENT note on the GOSP-flaring inference (carve-out \u2460), one primaries check, whole-inbox drain; marks HELD, FALCON-001 review 10/14 untouched. PROME's reading: no second C8 session \u2014 the same bounded commission finishing its own record; disclosed in the boot/closeout report. Agent type `desk` (Opus), agentId a63537939a52374e7. Inbox census 12:04: 0 \u00b7 0.",
+        "",
+        "IN-FLIGHT",
+        "",
+        "Re-wake for the tail; no new direction. Spawned 2026-10-10 12:08 ET.",
+        "",
+        "0",
+        "",
+        ""
+      ]
+    ],
+    "saved_view_sha256": "31b1c92fb25db45ff4068fe0f958efe5abd4ab855a4524eeff65a5ad85199953",
+    "check_rc": 0
+  },
+  "final_local_pin": "c2213e36f77cf1b1782625cf4c03e4f7ebd860f2",
+  "recorded_at": "2026-10-10T12:18:38.581029-04:00",
+  "file_basis": [
+    {
+      "path": "PROME/SCRATCH.md",
+      "sha256": "967a620537a3ff53b6f895d14087ce5c491dce80c0554c022c82230a174771f2",
+      "bytes": 24470,
+      "git_status": ""
+    },
+    {
+      "path": "PROME/HANDOFF.md",
+      "sha256": "b76f153d2708b09618dd39701b4a6ca2b95885eb29bd0660b088f8938c2deb71",
+      "bytes": 23911,
+      "git_status": ""
+    },
+    {
+      "path": "PROME/WILL_QUEUE.md",
+      "sha256": "b9aef4419536df2d93fea8169cf6e3eec2ec7b3f2e06305a317f7fd5324f9d49",
+      "bytes": 104723,
+      "git_status": "M PROME/WILL_QUEUE.md"
+    },
+    {
+      "path": "PROME/DOCKET.tsv",
+      "sha256": "6bf6031e4fe14a6664c1a81d7b0e5538abc205a10c9074a7d0c7f485f9b7082a",
+      "bytes": 1454220,
+      "git_status": "M PROME/DOCKET.tsv"
+    },
+    {
+      "path": "PROME/state/ORCH_LOG.tsv",
+      "sha256": "7551906ae2e6cb4d499e3a51ca26fa7e275d43ef10c8e8f607f7ef30ba62ff6f",
+      "bytes": 1073589,
+      "git_status": "M PROME/state/ORCH_LOG.tsv"
+    },
+    {
+      "path": "PROME/state/ORCH_INFLIGHT.md",
+      "sha256": "31b1c92fb25db45ff4068fe0f958efe5abd4ab855a4524eeff65a5ad85199953",
+      "bytes": 20259,
+      "git_status": ""
+    },
+    {
+      "path": "PROME/state/board_consumed.tsv",
+      "sha256": "e9b40cfc4ce15fa2e94735d97f13e6334c947542aefc6bc67feb66a47ca7597e",
+      "bytes": 197531,
+      "git_status": "M PROME/state/board_consumed.tsv"
+    },
+    {
+      "path": "AGENTS/WALTER/STATUS.md",
+      "sha256": "b6f4b26577f730ce8416e5104b67b87f71e468437502dd1dd0db947635cbd51e",
+      "bytes": 10277,
+      "git_status": ""
+    },
+    {
+      "path": "AGENTS/WALTER/LAST_COMPLETION.md",
+      "sha256": "c55154b6c1b81ac3e05f1d38db3914b726ed457210ea57ffaa896992120dbdbc",
+      "bytes": 9880,
+      "git_status": ""
+    },
+    {
+      "path": "AGENTS/WALTER/registry/DOORBELL_LOG.tsv",
+      "sha256": "1663b078543cf04e22b9a3c192f47008e40b65d564f3aabb11cb04d594aa1f29",
+      "bytes": 220910,
+      "git_status": ""
+    },
+    {
+      "path": "AGENTS/WALTER/routed/delivery_log.tsv",
+      "sha256": "57e8dfcfa4d8383331bc31994356e66a19dc255dd7cbfd26566e177b70143422",
+      "bytes": 944225,
+      "git_status": ""
+    },
+    {
+      "path": "AGENTS/VIOLET/workbook/CHEAP_TAIL.tsv",
+      "sha256": "9f278d4718fc8052e42d5d2d2cc71d32d25772ace6e05642601df37f539ba41e",
+      "bytes": 8330,
+      "git_status": ""
+    },
+    {
+      "path": "PROME/inbox/2026-10-10_from-VIOLET_skew-ft10-count-and-fragility-cluster.md",
+      "sha256": "4f4958bac8795482b09bcf268d86cf0ad0be2511e7f4ba79fbded791909cb077",
+      "bytes": 7298,
+      "git_status": ""
+    },
+    {
+      "path": "PROME/inbox/2026-10-10_from-OSPREY_tail-packets-azov.md",
+      "sha256": "16702b489602e385764e3f3b19a3d2748526ecc4f1cdbbbf2a683d4ce1381621",
+      "bytes": 4431,
+      "git_status": ""
+    },
+    {
+      "path": "PROME/inbox/2026-10-10_from-BRENT_tail-and-mma-read.md",
+      "sha256": "e18c4501c41d53ebc4a7c25bb22028da97eb0554fc1e35ece968d8ff2a62f18a",
+      "bytes": 6163,
+      "git_status": ""
+    }
+  ],
+  "limits": [
+    "Read-only workflow review, not raw market verification or fleet liveness discovery.",
+    "Remote presence for 28 handoffs, not independent content/source certification.",
+    "Working-tree ORCH/queue/docket changed concurrently; snapshots and hashes do not establish runtime truth.",
+    "Doctor unconsumed result includes absence-of-receipt cases, not proof of unread content."
+  ]
+}
