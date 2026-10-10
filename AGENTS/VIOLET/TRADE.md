@@ -194,7 +194,7 @@ TERRY owns structure and sizing; Will approves execution. No sizing table or gen
 ### DIET / STRICT Coiled-Spring Trade (L1 population signal)
 
 Owned by `thesis/VIX_THESIS.md` § The DIET Coiled-Spring Trade — setup, tiers, and the **L1 canonical base-rate table (KB-VIO-079)** live there; this file does not duplicate them. Sizing rule of thumb: quote the base rate at the threshold the structure actually needs (≥+15%: 92-94% episode-level; ≥+50%: 56-60%) — far-OTM strikes price off the lower number.
-**Status:** last fire 5/20-5/29 paid forward 6/5 (+40% at td-4). Current state: STATUS § GATE STATUS "Coiled spring (STRICT / DIET)" (NOT FIRING as of the 9/28 close).
+**Status:** last fire 5/20-5/29 paid forward 6/5 (+40% at td-4). Current state: STATUS § GATE STATUS "Coiled spring (STRICT / DIET)" (pointer only — the state and its date live there).
 
 ### Term Structure Inversion (REVISED v3.1)
 

@@ -1,17 +1,24 @@
 # VIOLET CALENDAR
 
-Updated September 28, 2026 (Q2 transmission-test window close 10/7 added; Cboe confirmed the 9/23 leg-2 close). Dated events: `workbook/CATALYSTS.tsv`; countdowns are computed by `scripts/catalyst_countdown.py`.
+Updated October 10, 2026 (violet-1010b write-back: dark 9/29–10/9 caught up; forward rows rebuilt after the calendar ran empty past 9/30, KB-VIO-324). Dated events: `workbook/CATALYSTS.tsv`; countdowns are computed by `scripts/catalyst_countdown.py`.
 
 ## ACTIVE FORWARD CATALYSTS
 
 | Date | Event | Impact | VIOLET checkpoint |
 |---|---|---|---|
-| **Sep 30 (Wed)** | **Micron (MU) FQ4 earnings** | MEDIUM | Confirmed after close 16:30 ET; VULCAN owner. Outside frozen letter's leg 2 window. |
-| Oct 7 (Wed) | Q2 transmission-test window closes (DOCKET L477) | LOW | Last of 10 sessions off the 9/23 MOVE spike: VIX3M/VIX ≤1.00 AND VVIX >120 on two consecutive closes, else ordinary repricing. |
+| Oct 12 (Mon) | Columbus Day — US equity and options markets OPEN; US bond market closed | LOW | It is a Cboe session, so it carries a RED-FT-10 SKEW bar (bar 2 of 4 if ≥150.00). FRED prints no 10/12 OAS cell — not an outage. |
+| **Oct 14 (Wed)** | **September CPI + Real Earnings (08:30 ET)** | **HIGH** | Cheap-tail L4 catalyst (alert OPEN 4/4 on 10/09 → WQ-409, Will). BLS date; FERT's ride-along says 10/13 [EST] — BLS wins. |
+| Oct 14 (Wed) | RED-FT-10 earliest-fire bar (SKEW ≥150.00 × 4 CBOE bars: 10/09 154.34 + 10/12 + 10/13 + 10/14) | LOW | RED owns the letter and the grade; VIOLET records the count on CBOE `SKEW_History.csv` once the dated bar exists, never off an assumed hour. Any bar <150.00 resets to 0. |
+| Oct 15 (Thu) | September PPI (08:30 ET) | LOW | Context only. |
+| Oct 21 (Wed) | VIX October expiration (monthly; AM SOQ) | MEDIUM | Roll-adjusted M1:M2 switches pair inside DTE <5 — compare symbols and settle dates before differencing. |
+| **Oct 28 (Wed)** | **FOMC decision (Oct 27–28; no SEP)** | **HIGH** | Fed calendar (own fetch 10/10). Waller 10/8 "anticipate additional hikes"; HENRY owns the path. |
+| Nov 18 (Wed) | VIX November expiration (monthly; AM SOQ) | MEDIUM | — |
 | Dec 16 (Wed) | M1:M2 historical-average re-check (KB-VIO-310, PROME L441) | LOW | December VIX expiry: re-measure; replace 5.6 if the full-history median differs by >0.5pp |
 
 ## RESOLVED — fired catalysts and their grades
 
+- **October 7 close — Q2 transmission-test window (DOCKET L477):** **CLOSED, NOT FIRED.** CBOE SETTLE 9/24–10/07: VIX3M/VIX min 1.1242 (9/30), VVIX max 92.01 (10/01) — neither leg near `≤1.00 AND >120`. Disconfirmer (b) met (VVIX 82.59 / 83.18 on 10/06–10/07 with MOVE 105.20 / 102.56). Graded late on 10/10 (VIOLET dark). → KB-VIO-323.
+- **September 30 Micron (MU) FQ4:** fired after the close. VULCAN graded its own rows (VULCAN-11 FALSIFIED, S2 3 → 2; packet 10/01). VIX 16.34 [9/30] → 16.39 [10/01], +0.3%. The cheap-tail alert's next dated catalyst after MU was missing from this calendar — that gap is KB-VIO-324.
 - **September 23 close — VIO-FOMC-0916 leg 2:** **KILL.** VIX 17.71 [9/16 CBOE] → 15.18 [9/23; yfinance at grade, **Cboe SETTLE confirmed 9/28, no correction**] = **−14.29%** vs kill < −1.41%. Whole letter FAILED: 0 CONFIRM · 2 KILL · 1 MISS · 1 VOID · 1 HELD-with-defect. Record: `research/2026-09-24_VIO-FOMC-0916_GRADE_part3.md`.
 
 - **September 18 BOJ decision:** fired 23:00 ET Sep 17 — **HIKED +25bp to 1.25%, vote 7–2** (Asada, Sato dissenting for HOLD); USD/JPY 156.75. SAM owns policy substance. ⭐ **VIOLET's JPY carry-vol canary STOOD DOWN on the print** — RV10 15.15% (p94.8, WATCH) → **11.1% (p72.6, CALM)**. The event-conditioned watch **resolved without firing**; one observation against a naive reading of H-carry.

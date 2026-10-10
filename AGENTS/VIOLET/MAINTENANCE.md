@@ -9,6 +9,24 @@ Reverse-chronological log of **structural** changes to VIOLET's docs, folders, s
 Log material structural changes only — not routine content edits. Template adopted from OTTO (2026-06-10), incl. the cap: **archive to `archive/` if this grows past ~300 lines** (SAM cautionary tale: 636).
 
 
+## 2026-10-10 — `convexity_read.py` rounds before comparing (L546); false COR1M-history caveat replaced in MEMORY and `implied_corr.py`; charter step 5c takes the WQ-399 receipt form
+
+**Trigger:** Dark-window catch-up (violet-1010, Will's "Okay lets do A and C", item C) and its write-back tail (violet-1010b). DAEDALUS L546 packet (10/8, float-tie class, LATENT); the CBOE history CSV for COR1M found 10/10 (KB-VIO-321); WQ-399 (Will 10/8) changed the receipt writer's required fields.
+
+**What changed:**
+1. **`scripts/convexity_read.py` `pct_rank()`** returns `round(x, 6)` of the ×100 product before `verdict()` compares it to the 25 / 75 edges (commit `5470f1445`). Check run 10/10 (violet-1010b, ad hoc, not frozen): exact-edge 25.0 → CHEAP, 75.0 → RICH; the float case 29/100 reads 28.999999999999996 raw and 29.0 rounded. **No frozen test was added** — DAEDALUS's DONE WHEN ("one exact-on-edge case lands on the letter's side") is met by that run, not by a suite.
+2. **`MEMORY.md` data caveat REPLACED** (not annotated): CBOE publishes full COR1M/COR3M/COR30D history from 2006 (and DSPX/VIXEQ from 2014) at `daily_prices/{SYMBOL}_History.csv`; grade from it. The same false paragraph in **`scripts/implied_corr.py`'s docstring** was replaced (comment only; behaviour unchanged).
+3. **`CLAUDE.md` step 5c** now shows the WQ-399 field-bearing receipt forms (APPLIED `--artifact` + `--validation-ref` · NO-OP `--scope` · DEFERRED `--review` · CONTESTED). C4 own-charter edit: no authority, route or threshold moved; mirrors FALCON/BOND.
+4. **`TRADE.md` coiled-spring status line** → pointer-only (it restated a STATUS date that went stale).
+
+**Files touched:** `scripts/convexity_read.py` · `scripts/implied_corr.py` · `MEMORY.md` · `CLAUDE.md` · `TRADE.md` · `MAINTENANCE.md`.
+
+**Boot-impact:** none in count or order. `convexity_read.py` is not a boot stage. Receipts written in the old field-less form were already refused by the writer (rc 2), so 5c only stops teaching a refused command.
+
+**Lessons:**
+- 🔑 **A source caveat written as settled fact stops anyone looking — third instance here** (VX settlement axis, KB-VIO-158; COR1M prev_day_close depth, KB-VIO-202; COR1M full history, KB-VIO-321). It produced two wrong first-fire dates (KB-VIO-201 "not fired", KB-VIO-314 "9/02"); the real first fire was 8/18. Before writing "cannot be reconstructed", ask the publisher for the same file it serves for VIX.
+- ⚠️ **One false claim lived in two places** (MEMORY and a script docstring). Fixing only the file named in the ask would have left the second live.
+
 ## 2026-09-28 (post-close) — Charter line 194 goes pointer-form; KB staleness sweep (71 STALE); stale-intel sweep of live docs
 
 **Trigger:** Dark-day catch-up session (Will: "catch up on any missed data"), then Will's in-session asks: WQ-333 ("Approve WQ-333 pointer form", confirmed in this session), "do a sweep for any dated/stale/broken intel", "yes mark the stale KB rows and fix the CLAUDE.md table".

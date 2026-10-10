@@ -26,11 +26,14 @@ WHAT IT MEASURES
   ~50.2 where this proxy reads ~70 for the same week — **the LEVELS DO NOT AGREE.**
   Use it for the SIGN of the change and never quote it as a constituent-vol level.
 
-⚠️ FEED LIMIT, verified 2026-07-30: yfinance carries **no daily history** for these
-  tickers (period=1mo returns n=1) — only ~5 days of hourly bars. CBOE's delayed-quote
-  API supplies today's print plus `prev_day_close`. So this builds its own history
-  going forward; there is no deep backfill available, which is exactly why it must run
-  every day rather than be reconstructed on demand.
+⚠️ FEEDS, corrected 2026-10-10 (KB-VIO-321): CBOE publishes FULL daily history for
+  COR1M/COR3M/COR30D (from 2006-01-03) at
+  cdn.cboe.com/api/global/us_indices/daily_prices/{SYMBOL}_History.csv — the publisher
+  of record; grade and backfill from it. This script reads the delayed-quote API
+  (today's print plus `prev_day_close`) and appends one row per boot; it has no dated
+  backfill mode, so dark-day gaps are filled from the CSV by hand. yfinance carries no
+  daily history for these tickers (period=1mo returns n=1). The 2026-07-30 note that
+  "there is no deep backfill available" was false.
 
 Usage:
   .venv/bin/python3 AGENTS/VIOLET/scripts/implied_corr.py
