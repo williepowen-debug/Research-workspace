@@ -1,3 +1,11 @@
+## 2026-10-10T18:40:44Z — 10/10 PM leg of `walter-66` (Claude Code, Opus 5.5, laptop) · light-closeout — full deferred
+
+PM boot 14:14 ET 0→9b (Will: "continue working on our owed or incomplete tasks"); COMPLETE, data limit = Saturday, no new session, FRED 10/9 prints unposted. Doctor 0 HIGH / 10 MED at boot. Pull a no-op (origin not ahead).
+- **7g inbox 6 → 0:** REGINALD signal + amendment → `-007` (LIQUID action) at REGINALD's message request; PROME relay-order ask → BOARD_CONSUMPTION_SPEC v0.35 §3.5.7 (`c03a6dad9`) + reply; SHADE Guggenheim pull → paywalled (Substack `only_paid`), not bypassed, free material saved + reply; MARCO WQ-295 R3 → `--live` harness, 4 PASS / `Canadian trips` REJECTED + reply; NEXUS S1 (due 10/13) → answered early, FOR the boot line, veto withdrawn, set-definition finding for WQ-401 + reply (PROME consumed it, `13787abcc`).
+- **Outputs:** `-007` PRIORITY funding (H.8 small-bank borrowings, FHLB gap, Q3 nowcast; Will's @junkbondanalyst bookmark FOLDed: issuance count unsourced, its 309bp = FRED 10/7) · `-008` ROUTINE Baltic wk41 tanker prints (TD3C $1,412,594/day; w/w base unresolved).
+- **Owed work closed:** tanker watch (Baltic wk41 via bdata; STATE/REVIEWS/brightdata ledger); OZK bridge checked (no public outcome; 10/21 call); staleness sweep (291 → 3 tags: `-0911-006`, `-0928-010`, `-1002-002`; my own 82-'unlinked' script result WITHDRAWN as a wrong reference); CHECKLIST v0.51 rule 1b (#46) + X_BOOKMARKS live update (#47); MEMORY #46-47 rotated verbatim (24,357 → 23,249 B, split_verify CONSERVED); REGISTRY 8 rows refreshed.
+- **Not pushed** (WALTER commits locally; PROME's uncommitted SCRATCH/ORCH_INFLIGHT in the tree).
+
 ## 2026-10-10T15:52:59Z — 10/10 laptop session (`walter-66`, Claude Code, Opus 5.5) · TIER-2 FULL CLOSEOUT (Will: "Okay lets close out WALTER here", 11:50 ET)
 
 Boot 10:53 ET 0→9b; PARTIAL at first report (7h X-bookmarks: laptop token dead after the desktop's 10/9 rotation), COMPLETED after Will re-authorized ~11:24 ET. Pull a no-op (0/0); doctor 0 HIGH / 7 MED at boot, 6 MED at closeout (newsweep flag cleared); RED scan sha matches canon; READ-CAP 0 within 22 declared cap-bearing reads (attested manifest perimeter); prior Tier-2 commit `afbaa294d` on origin; BOARD count 1306 = STATUS (no post-closeout work).

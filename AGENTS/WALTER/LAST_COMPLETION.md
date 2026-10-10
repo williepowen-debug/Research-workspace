@@ -1,111 +1,127 @@
 # WALTER — LAST COMPLETION
 
-Session: **October 10, 2026 TIER-2 FULL CLOSEOUT** of the laptop session `walter-66` (Claude Code, Opus 5.5), on Will's word at 11:50 ET ("Okay lets close out WALTER here"). The 10/9 records (`walter-50`, `walter-da`) are in the git history of this file and in SESSION_LOG.
+Session: **October 10, 2026, PM leg, TIER-1 LIGHT CLOSEOUT** of `walter-66` (Claude Code, Opus 5.5, laptop). Boot 14:14 ET on Will's "Hi WALTER please boot up. We want to continue working on our owed or incomplete tasks for WALTER". The morning Tier-2 (11:5x ET) record is in SESSION_LOG and in this file's git history. A full closeout is deferred (1 `full deferred` breadcrumb).
 
 ## STATUS
-- **Boot (10:53 ET):** ran 0 → 9b. Reported PARTIAL at first (step 7h: the laptop's X token was dead after the desktop's 10/9 rotation). Completed after Will re-authorized on the laptop (~11:24 ET).
-- **Doctor:** 0 HIGH / 7 MED at boot; 0 HIGH / 6 MED at closeout (newsweep flag cleared).
-- **Decisions:** none made by WALTER. No trade, gate, threshold, band or routing letter moved. Will's own decisions this session: "Okay lets do A and C" (11:30 ET) — commission DEWEY; have PROME wake BRENT, OSPREY, VIOLET.
+- **Boot (14:14 ET):** ran 0 → 9b. COMPLETE. Data limit: Saturday, so no market session since the morning boot; FRED's 10/9 credit prints were still unposted at ~14:5x ET. Pull was a no-op (origin not ahead); the morning closeout commit `50e527ee2` is on origin.
+- **Doctor:** 0 HIGH / 10 MED at boot. At this closeout: staleness sweep and registry lag cleared; new MEDs are this session's own handoffs pending push (expected).
+- **Decisions:** none made by WALTER. No trade, gate, threshold, band or routing letter moved.
 
 ## CHANGED
-- **7g inbox:** AEOLUS reviewer packet consumed. `SIG-W-20261008-027`'s "+2.1 weekly" Niño-3.4 is CPC's monthly RELATIVE index; the traditional weekly rose +3.1 → +3.2. Fixed by an additive BOARD note (`6ac0d70dc`); no re-dispatch, because CORAL, BRENT and FERT logged it info-only. NEXUS S1 packet still deliberately unconsumed (due 10/13).
+- **7g inbox 6 → 0, every packet answered:**
+  - REGINALD signal + amendment → dispatched together as `-007` (REGINALD asked by message; confirmed back to `reginald-6d`).
+  - PROME relay-order ask → BOARD_CONSUMPTION_SPEC **v0.35** §3.5.7 RELAY ORDER (`c03a6dad9`): commit Will's verbatim first, relay with the hash. Reply packet `8be0e413c`; PROME consumed (`ab1e0422a`). CLAUDE.md RULE 10's version string synced v0.34 → v0.35 (number only).
+  - SHADE: the full Guggenheim Universe doc is **paywalled** (Substack `only_paid`). Not bypassed. Free teaser + secondary links saved at `research/2026-10-10_guggenheim-universe-pull/README.md`; reply `96566e681`.
+  - MARCO WQ-295 R3: `--live` harness on its 5 phrases. 4 PASS (`ICE meatpacking raid`, `ICE farm raids` via an outlet-name substring, `H-2A wage rule`, `remittances Mexico decline`); `Canadian trips` REJECTED (2 FALSE). Candidate replacement tested. Reply `08dac20f5`.
+  - NEXUS S1 (due 10/13) answered early: FOR the `prome_gate` boot line, 8/7 veto withdrawn. Finding for WQ-401: the line's 🔴 set ("dark at boot") is a superset of WQ-206's ruled set (DOORBELL_LOG, "dark at dispatch"); WALTER recommends re-pointing the set. `delivered_but_unconsumed` RE-SCOPED on the build; `due:` YES with two conditions. Packet `cf262bd35`; PROME consumed (`13787abcc`).
 - **Dispatched:**
-  - `-001` PRIORITY: Cboe SKEW 10/09 154.34 = RED-FT-10 1 of 4. VIOLET action.
-  - `-002` IMMEDIATE: satellite (FIRMS) fires at the Shedgum and Hawiyah gas plants inside Ghawar, cause unknown; "Houthis struck Ghawar" UNSUPPORTED; Riyadh KKIA hit again; Aramco full November crude to Europe (unnamed sources). FALCON + BRENT action.
-  - `-003` PRIORITY: Russia diesel, OFAC GL 135 (diesel only, to 2027-04-07); Trump's tranches (4.8 Mt is a relay's sum, 3 Mt conditional); Rostov terminal strike; TD22 $79.6M. BRENT, OSPREY, YURI action.
-  - `-004` PRIORITY: Citi forecasts 20Y/30Y auction cuts at the 11/4 refunding (forecast only); Shelton at Treasury. BOND, ZHAO action.
-  - `-005` PRIORITY: Fed SCF 2025, 19.6% of families behind on a loan payment (most since the 2010 survey); Atlanta and "793K" corrected. CARL action.
-  - `-006` ROUTINE: Nomura concentration/dispersion; Wood; SEC FOIA 7(A) log. HENRY, VULCAN action.
-- **Batch:** X-bookmarks BM-20261010-01 CLOSED 32/32 (28 DISPATCH, 1 FOLD, 1 DUP, 1 NO-ACTION, 1 KILL); `--mark` 32. Three verify agents (Opus). Commit `305510d1e`'s body miscounts DISPATCH ("20 … plus -002's 6"; correct 22 + 6 = 28) — not amended (root 4b), recorded here.
-- **Commission:** `REQ-DEWEY-20261010-001` (Russia diesel net supply vs Ukraine strikes; due Wed 10/14), packet + ledger row `16395614d`.
-- **Doorbells:** VIOLET (no-spawn rec, superseded by Will's word), FALCON (WALTER rec), BRENT (Will's word). PROME woke BRENT, OSPREY, VIOLET, FALCON and is spawning DEWEY.
-- **Anchor:** 10/10 limb line in `anchors/IRAN_WAR.md` (23,810 B; trigger 24,412 B).
-- **Housekeeping:** REGISTRY refreshed (header-only) at boot and closeout; STATUS re-cut; SESSION_LOG prepended; MEMORY finding #47 + session notes (24,357 B); fleet memory `finding_unquoted_heredoc_expands_dollar_figures` n=4 appended; doorbell and kill rows; intake `--mark` (19 keys).
+  - `-007` PRIORITY: small-bank H.8 borrowings +$32.9B (+11.7%) in 3 weeks to 9/30, deposits flat; ~1/9 of SVB's first week; FHLB debt +$6.2B in September vs +$54.5B in H.8 borrowings; Q3 advances nowcast ~$770B. Will's bookmark FOLDed (issuance "4 deals" UNSOURCED; its 309bp = FRED 10/7). LIQUID action; HENRY, BROCK info.
+  - `-008` ROUTINE: Baltic week 41 [10/9] TD3C WS1,318.75 / $1,412,594/day, TD34 $912,660/day, TD22 $79.6M per trip; the publisher's own w/w changes do not reconcile with our 10/2 values (UNRESOLVED). BRENT action; HAWK info.
+- **Tanker watch (Will-directed 10/5):** Baltic wk41 obtained via `bdata` (1 Web Unlocker request logged); STATE.csv TD3C/TD34 refreshed, TD22 row added, Will's USO Oct-9 150C marked EXPIRED WORTHLESS per WQ-396; REVIEWS.tsv row.
+- **Staleness sweep (cadence, 2d overdue):** 291 candidates, 3 tags: `-0911-006` PARTIALLY-SUPERSEDED (FAL-05 FAILED 9/28), `-0928-010` PARTIALLY-CORRECTED SELF (Part A withdrawn in body, headline read live), `-1002-002` PARTIALLY-SUPERSEDED by `-1002-009`. Record `registry/STALENESS_SWEEP_2026-10-10.tsv`. ⚠️ My first linkage script reported 82 "unlinked" correction targets. That was a wrong reference (the INDEX derives markers from `corrects:`), WITHDRAWN in the record.
+- **Spec edits owed since 10/8–10/10:** CHECKLIST **v0.51** rule 1b hit-list sub-rule (MEMORY #46; THRESHOLD_SCAN lockstep); X_BOOKMARKS_ACCEPTANCE LIVE UPDATE 2026-10-10 (MEMORY #47: L3 refresh-failure leg observed live, n=1; WSL authorize method).
+- **MEMORY:** #46–#47 rotated verbatim to MEMORY_PROMOTED (24,357 → 23,249 B; split_verify CONSERVED).
+- **REGISTRY:** header-only refresh of MARCO, HAWK, SHADE, CARL, FALCON, REGINALD, OSPREY, VIOLET.
+- **AI_INFRA_CAPEX coherence review:** see GAPS (in progress at this closeout).
 
 ## RESULT
 - **Thresholds:** nothing fired. Closest: HY 315bp [10/8] vs >320 (0 of 3); RED-FT-10 1 of 4.
-- **Iran:** GATE 1 held firm-negative PENDING FALCON on Shedgum/Hawiyah; losses 3; GATE 2 untouched.
-- **Delivery:** 28/28 handoff rows delivered (all five session commits reached origin in another session's push; reconcile wrote 28, 0 orphans).
+- **REG-T-06:** REGINALD's nowcast says it fires as lettered on the Q3 print (~late Oct) in a quarter when FHLB lending shrank. Will's call, WQ-414, due 10/24.
+- **OZK $915M RaDD bridge (matured 10/9):** no public outcome as of 14:3x ET; OZK updates on the 10/21 call (release 10/20 AMC). Bank OZK files with the FDIC, not EDGAR.
+- **Delivery:** 5 handoff rows written this leg (`-007` ×3, `-008` ×2), committed, NOT on origin (pending push). Delivery ≠ consumption.
 
 ## GAPS / OWED
-- **Push:** WALTER did not push. Its five dispatch commits are on origin (verified by fetch). This closeout commit is local and rides the next push.
-- **Not checked this session:** OZK's $915M RaDD bridge outcome (matured 10/9); Isaias port/LOOP/refinery status (BRENT now live); Baltic TD3C/TD34 week 41; tanker STATE.csv not updated with TD22.
-- **Doctor MEDs not worked:** staleness sweep (16d, 2d past cadence); AI_INFRA_CAPEX coherence review (40d); INDEX `LABOR_DOWN` residual; delivery_log AMENDMENT-NOTE ids and NOTE rows; 76 aged unconsumed handoffs (14 ACTION; HAWK holds 4).
-- **Source limits on the record:** the Ghawar fire evidence is OSINT only; Bloomberg, CNBC, FT and ukmto.org were read through copies or relays; Nomura figures are one bank's research.
-- **MEMORY.md** is 24,357 B, 55 B under its rotation trigger; the next addition needs a rotation first.
+- **Push:** WALTER did not push. 11 WALTER commits are local (`40b424536` … `d8f4ac47b`, plus this closeout commit). PROME has uncommitted SCRATCH/ORCH_INFLIGHT in the tree, so the push is deferred to PROME's train or Will's word. After any push: `reconcile_delivery_log.py --apply`.
+- **AI_INFRA_CAPEX review:** an Opus subagent is reading the 65 signals in the 60-day window. WALTER owes the verdict file `design/AI_CAPEX_AXIS_CHECK_2026-10-10.md`.
+- **Doctor MEDs carried:** INDEX `LABOR_DOWN` residual (`-1007-013`, open decision); two `AMENDMENT-NOTE` delivery_log ids (accurate audit history, not rewritten); 20 NOTE rows (audit); 12 aged unconsumed (5 ACTION: YURI, HOMER, OTTO, CREED, MIDAS).
+- **Charter text now one instance stale (not edited; a charter edit needs Will's word):** CLAUDE.md step 7h says the L3 refresh-failure leg is "not live-validated". It was observed live on 10/10 (n=1). The operating rule (fail loud, no silent fallback) is unaffected.
+- **Source limits on the record:** the Guggenheim doc is unread beyond its teaser; the junk-issuance count has no source; Baltic's w/w base is unresolved.
 
 ## WILL_NEEDS
 ⚖️ **QQQ Oct-9 $755P ×1: disposition UNKNOWN (PROME WQ-397, due 10/10).**
-- No sale is recorded on any repo surface; FORGE and TERRY STATUS are unchanged since 10/9 evening (hashes in the receipt).
-- QQQ closed $751.27, so if still held it was ~$3.73 in the money and auto-exercises into a ~$75K short the IRA cannot carry.
+- No sale is recorded on any repo surface. FORGE and TERRY STATUS are unchanged since 10/9 evening (hashes in the receipt).
+- QQQ closed $751.27, so if it was still held it was ~$3.73 in the money and auto-exercises into a ~$75K short the IRA cannot carry.
 - Will's hand, on TERRY's card (root rule #5).
 
-Other duties, all on TERRY's cards: QQQ Oct-15 $745P ×1 / $740P ×4 (TERRY re-marks 10/13, sells 10/14 after CPI); TLT $82P / HBAN $16P Oct-16 (WQ-357 / WQ-302 by 10/14); VLO ×1 (WQ-386; December diesel basis from 10/15 — DEWEY's diesel report lands 10/14).
+Other items for Will, none urgent today:
+- WQ-347: paste the Fidelity Activity view for 10/1 (the old Oct-01 740P ×4 exit) to WALTER for transcription.
+- WQ-401 (due Wed 10/14): the S1 build plus the set sub-question WALTER raised.
+- WQ-414 (due 10/24): REG-T-06's letter.
+- Optional: a Mispriced Assets subscription if SHADE needs the Guggenheim methodology pages (small spend; SHADE's primary path does not depend on it).
+- Optional: OK a one-line CLAUDE.md step 7h update (L3 failure leg observed live).
+
+Other duties, all on TERRY's cards: QQQ Oct-15 $745P ×1 / $740P ×4 (TERRY re-marks 10/13, sells 10/14 after CPI); TLT $82P / HBAN $16P Oct-16 (WQ-357 / WQ-302 by 10/14); VLO ×1 (WQ-386; December diesel basis from 10/15; DEWEY's diesel report lands 10/14).
 
 ## FOLLOW-UP
-1. **Next boot, first:**
-   - Confirm this closeout commit is on origin.
-   - X token is on the LAPTOP `.env` (re-authorized 10/10); the desktop copy and the thumbdrive's `walter-env.txt` are dead. Carry the laptop `.env` at the next machine switch.
-2. **RED-FT-10:** CBOE bars 10/12, 10/13, 10/14 (VIOLET owns; earliest fire on the 10/14 bar).
-3. **DEWEY:** close `REQ-DEWEY-20261010-001` at boot step 7d when the handoff lands (due 10/14).
-4. **WALTER, due Tue 10/13: NEXUS S1 packet** (in `inbox/`, deliberately NOT consumed): re-argue the three §5 objections at the NEXUS artifact §4; rule on `delivered_but_unconsumed` (RETIRED/KEPT/RE-SCOPED) and on a `due:` header; packet to `PROME/inbox/`, copy NEXUS.
-5. **Owners:** FALCON grades Shedgum/Hawiyah and the Bab al-Mandab claim (`-002`); BRENT the diesel crack, Aramco Europe volumes and freight (`-003`); OSPREY the strike campaign vs the deal; YURI Novak's export-curb lift; BOND/ZHAO (`-004`); CARL the SCF (`-005`); HENRY/VULCAN (`-006`); CORAL Pembroke Lakes (`-1008-040`); CREED Trepp September (`-1009-002`).
-6. **X-bookmarks pilot review 10/17:** record that the L3 refresh-FAILURE leg was live-observed 10/10 (400 → exit 1, nothing marked, as designed), and finding #47 (interactive `--authorize` via `!` fails unseen; open the URL with `powershell.exe Start-Process`). Spec edit to `design/X_BOOKMARKS_ACCEPTANCE.md` §9 owed via SPEC_OWNERSHIP.
-7. **Later:** 10/13 bank Q3 (JPM, WFC, C) + KS WARN · 10/14 CPI 08:30 ET · 10/15 WPSR noon, Iran full sweep, anchor + MEMORY size checks, VLO December basis · 10/15–16 LIQ-07 · 10/16 expiries, MTB/CFG, tanker review · 10/19–20 WAL Q3 · 10/20–21 OZK Q3 · 10/27–28 FOMC · 10/28 UK Budget · 10/29 ECB · 10/30 BZZ26 LTD (#8 to January from 11/2) · 11/2 Treasury financing estimates · 11/4 refunding.
+1. **Next boot, first:** confirm this session's commits reached origin; if a push happened, run `reconcile_delivery_log.py --apply` for the 5 PM rows. X token is on the LAPTOP `.env`; the desktop copy is dead.
+2. **AI_INFRA_CAPEX:** finish the verdict file from the subagent's angle table (spot-check its least-sure rows first).
+3. **RED-FT-10:** CBOE bars 10/12, 10/13, 10/14 (VIOLET owns; earliest fire on the 10/14 bar).
+4. **DEWEY:** close `REQ-DEWEY-20261010-001` at boot step 7d when the handoff lands (due 10/14).
+5. **Owners:** LIQUID grades `-007`; BRENT `-008` and `-003`; FALCON grades Shedgum/Hawiyah and the Bab al-Mandab claim (`-002`); OSPREY the strike campaign vs the deal; YURI Novak's export-curb lift; BOND/ZHAO (`-004`); CARL the SCF (`-005`); HENRY/VULCAN (`-006`); CORAL Pembroke Lakes (`-1008-040`); CREED Trepp September (`-1009-002`); SHADE verifies the Guggenheim lead at primary; MARCO adopts or declines the harness result.
+6. **X-bookmarks pilot review 10/17:** L3 refresh-failure live-observed (n=1) and the WSL authorize method are now in the spec; carry them into the review.
+7. **Later:** 10/12 bond-market holiday (FRED 10/9 print timing UNKNOWN) · 10/13 bank Q3 (JPM, WFC, C) + KS WARN · 10/14 CPI 08:30 ET · 10/15 WPSR noon, Iran full sweep, anchor + MEMORY size checks, VLO December basis · 10/15–16 LIQ-07 · 10/16 expiries, MTB/CFG, H.8 (small-bank borrowings), tanker weekly review · 10/19–20 WAL Q3 · 10/20–21 OZK Q3 (RaDD update) · 10/24 next staleness sweep, WQ-414 due · 10/27–28 FOMC · 10/28 UK Budget · 10/29 ECB · 10/30 BZZ26 LTD (#8 to January from 11/2) · 11/2 Treasury financing estimates · 11/4 refunding.
 8. **PROME carry:** WALTER unattended = WQ-388 UNDECIDED; CATO not in REGISTRY (WQ-255); YURI has no WATCH_FOR set.
 
 ## OPEN DESIGN DECISIONS
-**Approvals preserved:** WQ-377, WQ-380, WQ-383, WQ-384, WQ-369 (narrow), WQ-385, WQ-386, WQ-393, WQ-399, WQ-405 (boundary #6/#8). No new unattended-WALTER, Gate C, desk spawn, trade or deployment authority. (The 10/10 desk wakes were PROME's spawns on Will's own word, not WALTER authority.)
+**Approvals preserved:** WQ-377, WQ-380, WQ-383, WQ-384, WQ-369 (narrow), WQ-385, WQ-386, WQ-393, WQ-399, WQ-405 (boundary #6/#8). No new unattended-WALTER, Gate C, desk spawn, trade or deployment authority.
 
 **Unresolved proposals retained:**
-- AI_INFRA_CAPEX cluster review (doctor prompt).
+- AI_INFRA_CAPEX cluster review (in progress).
 - Verdict-letter FALSE-vs-UNSUPPORTED F1/F2 (`outbox/2026-09-21_...`).
 - INDEX `LABOR_DOWN` residual.
-- Finding #46's fix to CHECKLIST rule 1b (spec edit owed via SPEC_OWNERSHIP).
-- Finding #47's fix to `design/X_BOOKMARKS_ACCEPTANCE.md` §9 (spec edit owed via SPEC_OWNERSHIP).
+- WQ-401 set sub-question (line set vs DOORBELL_LOG set): Will's.
+- After the S1 line is built: re-scope `delivered_but_unconsumed`; add optional `due:` to FORMAT_SPEC; later, propose retiring doorbell leg 3b (rule 6b, Will-gated).
+- Staleness-sweep P2 narrower-pattern proposal to Will, still not made.
+
+**Closed this session:** finding #46's CHECKLIST fix (v0.51) and finding #47's X_BOOKMARKS fix (live update).
 
 **Carried process ideas:** k, t, u, a, s, j, p. No active top-level REQ.
 
 ## CLOSEOUT RECEIPT
-- **Publication** is bounded to the named commits, all now published.
-- **Delivery** is bounded to the 10/10 signal date, proven against a fresh fetch of origin.
+- **Publication:** this leg's commits are LOCAL ONLY (none pushed by WALTER).
+- **Delivery:** bounded to the 5 PM handoff rows of signal date 10/10; all pending push.
 - Consumption and full market coverage are separate questions.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-10T15:54:23+00:00",
+  "as_of": "2026-10-10T18:42:01+00:00",
   "publication": [
-    {"commit": "6ac0d70dc", "state": "published"},
-    {"commit": "abb29ef68", "state": "published"},
-    {"commit": "49ac15089", "state": "published"},
-    {"commit": "16395614d", "state": "published"},
-    {"commit": "305510d1e", "state": "published"}
+    {"commit": "40b424536", "state": "pending"},
+    {"commit": "c03a6dad9", "state": "pending"},
+    {"commit": "8be0e413c", "state": "pending"},
+    {"commit": "96566e681", "state": "pending"},
+    {"commit": "08dac20f5", "state": "pending"},
+    {"commit": "cf262bd35", "state": "pending"},
+    {"commit": "2a66551e8", "state": "pending"},
+    {"commit": "826a5dc44", "state": "pending"},
+    {"commit": "2f8072f3d", "state": "pending"},
+    {"commit": "d8f4ac47b", "state": "pending"}
   ],
   "delivery": {
     "signal_date": "20261010",
-    "total": 28,
+    "total": 33,
     "delivered": 28,
-    "note": "All 28 10/10 handoff rows proven on origin after a fresh fetch; reconcile --apply wrote 28, 0 orphans. Delivery is not consumption."
+    "note": "28 morning rows delivered (on origin, reconciled at the 11:5x Tier-2). 5 PM rows (-007 LIQUID/HENRY/BROCK, -008 BRENT/HAWK) committed locally, written_not_delivered_pending_push. Delivery is not consumption."
   },
   "push": {
     "all_walter_commits_on_origin": false,
-    "note": "WALTER did not push. The five session commits reached origin in another session's push (fresh fetch, merge-base verified); only this closeout commit, written after the receipt, rides the next push."
+    "note": "WALTER did not push: push is Will-coordinated (BOARD_CONSUMPTION_SPEC section 7) and PROME has uncommitted SCRATCH/ORCH_INFLIGHT in the tree. The PM commits ride PROME's next push or Will's word."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {"path": "FORGE/STATUS.md", "sha256": "73b763990129dafc7c90fad538645a999f22f351a92f3272231811d27f92507d", "note": "Unchanged since the 10/8 ANVIL reconcile; no Oct-9 755P disposition booked."},
       {"path": "AGENTS/TERRY/STATUS.md", "sha256": "6f9a0296d22ebb737ef4de182ce1fb39dc1209bf91a68b27d69308f80cb0f07e", "note": "Unchanged since 10/9 (terry-1009b); no 755P disposition found."},
-      {"path": "PROME/WILL_QUEUE.md", "sha256": "49c7332a4b6ed6c6b4cce1196f63e6bc27fef316048490759dfe2a8469f2807a", "note": "WQ-397 (QQQ 755P) open, due 10/10; WQ-396 USO 150C closed as expired."}
+      {"path": "PROME/WILL_QUEUE.md", "sha256": "841715452e65bc935ae4f45bd07ac63021f629ec6ac94ec7cdc4c71937cedfd1", "note": "WQ-397 (QQQ 755P) still open; WQ-401 now carries WALTER's set sub-question (PROME 13787abcc)."}
     ]
   },
   "owed": [
-    "This closeout commit rides the next push",
+    "Push of the PM commits, then reconcile_delivery_log --apply",
+    "AI_INFRA_CAPEX coherence verdict file",
     "QQQ Oct-9 755P disposition (Will/TERRY, WQ-397)",
     "CBOE SKEW 10/12-10/14 vs RED-FT-10 (VIOLET)",
-    "DEWEY REQ-DEWEY-20261010-001 delivery by 10/14; WALTER closes the ledger row",
-    "NEXUS S1 packet to PROME by 10/13"
+    "DEWEY REQ-DEWEY-20261010-001 delivery by 10/14; WALTER closes the ledger row"
   ],
   "next_review": "2026-10-12"
 }
