@@ -58,7 +58,7 @@
 (leave blank — next-boot market.py + drift-grep populates)
 ### NEXT SESSION
 **★ WILL'S ORDER FOR THE NEXT BOOT (10/10 12:35 ET: "we will handle these three when I reboot"):**
-1. **The 9/7 DAEDALUS as-made packet decision (PR#6),** overdue since 9/25.
+1. ✅ **DONE 10/10 PM: the 9/7 DAEDALUS as-made packet (PR#6 ask 3).** All 20 rows were re-derived by text from the old `PREDICTIONS.md` file (the tool searched STATUS only). REG-13 is re-formed `72% [3/5] (was 55% [2/16])`. My 9/11 receipt's "REG-07 Brier on 55%" is corrected to 68% (WQ-112(i)). REG-10 was registered after its outcome; it stays scored. Receipt → `registry/NOTES.md`; DAEDALUS packeted for its 10/12 sitting. No Will decision was needed: the WQ-112 / WQ-161 canon decided it.
 2. **FHLB Atlanta + San Francisco 10-Qs,** before the Q3 FHLB advances report (~late Oct / early Nov; `REG-T-06` fires on a Q3 print >$700B). Question: is the jump to $810.7B in June broad, or PNC-only (Pittsburgh)?
 3. **The five aged July threads** (ROADMAP: domain-sweep · TX/Sun-Belt 2022-MF · BKU warehouse/buyout · ZION muni-conduit · CCC/HY 3-consec counter). A keep-or-close verdict on each, using the 9/2 method.
 **Also live:**
@@ -80,7 +80,7 @@
 **🟠 0a-NANO.** 10/9: P&A **still NOT posted**; FDIC **bid summary posted 10/8** → §3 re-run done (`reports/2026-10-09_nano-banc-bid-summary-and-section3-rerun.md`: retained-pool ≈32–42%). **Re-check P&A Tue 10/13**, then Tuesdays; none by 10/27 → DEWEY records route. On posting: size Pools A/D, place the $97.1M HFS book + WAL O1 DOTs, re-run §2 with pool sizes. Bar date not posted.
 **🟠 0a-FL.** ✅ Dates done 10/7 (BKU 10/21 BMO · SSB 10/21 AMC · AMTB 10/22 AMC · SBCF 10/27 AMC; VLY 10/22 BMO). Grade the frozen frame `reports/2026-09-24_FL_bank_rail_Q3_FROZEN_frame.md` at each print; ≥2 TRANSMITS → packet CORAL + PROME the same session.
 **🟡 0a-0. FLG ladder is RED and EXHAUSTED** — no band beyond RED. Exit-code defect FIXED `b6544d45d`. **Intraday-bar defect FIXED 10/9 (`8255c2d13`).** Census other frozen-baseline bands into the script (M2) — NOT this cycle (Will: no further tooling expansion).
-**🔴 0a-bis (M2). ⚠️ OVERDUE since 9/25: the 9/7 as-made packet disposition (DAEDALUS PR#6)** · 9/30 DAEDALUS VX row re-cuts (state UNKNOWN — check DAEDALUS) · **11/05 FFIEC JWT expiry (Will) — two days before the 11/07 run.**
+**🔴 0a-bis (M2).** ~~9/7 as-made packet disposition~~ ✅ DONE 10/10 PM (★1 above) · 9/30 DAEDALUS VX row re-cuts (state UNKNOWN — check DAEDALUS) · **11/05 FFIEC JWT expiry (Will) — two days before the 11/07 run.**
 **🔴 0a-ter (M2). Carry-premise audit** — the most valuable item on this list; unchanged.
 **🟠 2 (M2). Pre-print observables into `boot.py`** — base-rate before building. WQ-318 adds the per-bank observables (NIB average, IB cost, FHLB) but they are quarterly.
 **🟠 3 · 4 · 6 · 6d · 6f · 6g · 6h · 6i · 6j · 6k · 7 (M2)** — FHLB Atlanta/SF 10-Qs before the Q3 FHLB report; OREO vector base-rate; REG-07 re-mark + REG-03/07 re-specs at the Q3 print, deliberately; EGBN runway post-break re-audit; read-cap every closeout; `boot.py` SHORT_INTEREST writes; aged 9/2 items. Unchanged; full text in M2.

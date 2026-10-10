@@ -55,15 +55,53 @@ Different questions of the same series ⇒ different levels are correct, not a c
 > **Routing:** NONE owed at 0-of-3 (TERRY's 2-of-3 packet ask is unmet; the registered announcement fires at 3-of-3). TERRY's 9/8 ask for the 9/3 / 9/4 / 9/8 owner observations is ANSWERED by the table above + `REG_T02_EXIT_LOG.tsv`, delivered via the PROME memo `PROME/inbox/2026-09-11_from-REGINALD_*.md` (this session is boundary-scoped to `AGENTS/REGINALD/` + that one packet; no TERRY-inbox packet written).
 > **`PROME/GATES.tsv` row `GATE-TERRY-ROLL70-EXIT`:** the `state` / `last_checked` cells were NOT edited by me — the grade text is delivered in the 9/11 memo for PROME to encode (PROME is live this sitting; a concurrent edit to a PROME-owned file is root rule #2's exact case). Consequence unchanged: the Dec-18 $70P ×1 (Robinhood) stays open under TERRY's card; time stop 2026-12-04; harvest ≥$4.40 is a MANUAL act (WQ-167).
 
-### 📐 AS-MADE AUDIT RECEIPT 2026-09-11 (DAEDALUS H2 harvest packet 9/7) — re-derived by prediction TEXT, not by ID
+### 📐 AS-MADE AUDIT RECEIPT — COMPLETION 2026-10-10 (all 20 rows; closes DAEDALUS H2 packet 9/7 + PR#6 ask 3)
+
+**Why the 9/11 receipt was partial:** it searched `STATUS.md` history only, as the tool does. **This desk registered its predictions in `AGENTS/REGINALD/PREDICTIONS.md`** (born `1c0b3d0cb` 2026-02-16, +5 rows `73e3253a5` 2026-02-23, migrated to TSV and emptied `65e054448` 2026-03-05). The 12 NOT-FOUNDs are a search-perimeter gap, not missing registrations. Every row below was re-derived by prediction TEXT at those blobs (commands: `git show <blob>:AGENTS/REGINALD/PREDICTIONS.md`, and a per-commit trace of the Confidence column across both TSV paths).
+
+| Row | First registration (by text) | As-made | Later dated pre-resolution mark | Scores (WQ-112(i)) | Status |
+|---|---|---|---|---|---|
+| REG-01 | STATUS `67d336e32` 2026-02-12 | 90% | — | 90% | OPEN (Kernel-pinned) |
+| REG-02 (Phoenix) | STATUS 2026-02-12 | 65% | — | — | EXPIRED-UNGRADEABLE |
+| REG-03 | PREDICTIONS.md `1c0b3d0cb` 2026-02-16 | 70% | — | 70% | OPEN |
+| REG-04 (FHLB >$600B) | STATUS 2026-02-12 | 60% | — | — | RETIRED-UNINSTRUMENTED |
+| REG-05 | PREDICTIONS.md 2026-02-16 | 40% | — | — | RETIRED-UNINSTRUMENTED |
+| REG-06 | STATUS 2026-02-12 | 50% | **10% [2026-08-27]** (`3ae52ac59`, Notes) | 10% | OPEN (Kernel-pinned; cell not re-formed) |
+| REG-07 | STATUS 2026-02-12 | 55% | **68% [2026-03-05]** (`35de73fe2`, ML-REG-110) | **68%** | OPEN, grades 10/21 |
+| REG-08 | PREDICTIONS.md 2026-02-16 | 45% | — | 45% | FROZEN-FAILED |
+| REG-09 | PREDICTIONS.md 2026-02-16 | 50% | — | 50% | RESOLVED (FAILED) |
+| REG-10 | PREDICTIONS.md 2026-02-16 | 65% | — | 65% | FAILED ⚠️ see below |
+| REG-11 | PREDICTIONS.md 2026-02-16 | 55% | — | 55% | CONFIRMED (FSK cut 2/25) |
+| REG-12 | PREDICTIONS.md 2026-02-16 | 60% | — | — | EXPIRED-UNGRADEABLE |
+| **REG-13** | PREDICTIONS.md 2026-02-16 | **55%** | **72% [2026-03-05]** (`35de73fe2`, ML-REG-111) | **72%** | CONFIRMED 2026-07-10 |
+| REG-14 | PREDICTIONS.md 2026-02-16 | 50% | — | — | EXPIRED-UNGRADEABLE |
+| REG-15 | PREDICTIONS.md `73e3253a5` 2026-02-23 | 60% | — | — | TRANSFERRED-TO-WAL |
+| REG-17 | PREDICTIONS.md 2026-02-23 | 50% | — | — | RETIRED-PREDICATE-DISSOLVED |
+| REG-18 | PREDICTIONS.md 2026-02-23 | 45% | — | 45% | FROZEN-FAILED |
+| REG-19 | PREDICTIONS.md 2026-02-23 | 70% | — | — | EXPIRED-UNGRADEABLE |
+| REG-20 / REG-26 | ledger-born (3/5, 7/10) | 82% / 33% | — | 82% / 33% | not flagged by the tool |
+
+**Result: no confidence was walked silently.** Three rows carry a deliberate, dated, pre-resolution re-mark: REG-06, REG-07 and REG-13. **REG-13 was the one the 9/11 pass missed:** it was raised in the same 3/5 commit as REG-07. Its cell is now re-formed to `72% [2026-03-05] (was 55% [2026-02-16])`. CATO's census v4 (`AGENTS/CATO/runs/2026-09-30_2251_census-v4/comparison_v3_v4.tsv`) independently records earliest 0.55 and current 0.72.
+
+**Scoring vintages: none changed, nothing re-scored.** Under WQ-112(i) (Will 2026-09-01, `FORGE/PREDICTION_DISCIPLINE.md` §Grading), the latest dated pre-resolution mark scores, and the as-made value is reported separately as first-call calibration. REG-13 therefore scores 72% (Brier 0.0784), with a first call of 55% (0.2025). ⚠️ **That direction favours this desk, and the canon decides it, not me.**
+
+**Two corrections to my own 9/11 receipt** (cells below edited in place; the old text is quoted there):
+1. **REG-07 "Brier on 55%" was wrong under WQ-112(i):** 68% scores. On the FALSE track the corrected vintage scores **worse** (0.4624 vs 0.3025). Its first-call date also moves 2026-02-23 → **2026-02-12**: 2026-02-23 is the 3/4 rollout's placeholder `Date_Made`. Its upgrade commit is `35de73fe2` (3/5); `e30e09d50` (3/7) only moved the file.
+2. **REG-03, REG-09 and REG-17 are FOUND by text,** in PREDICTIONS.md and not in STATUS, at 70 / 50 / 50, the same as the ledger.
+
+⚠️ **REG-10 was registered after its outcome was public.** PSEC maintained its dividend on 2026-02-09/10. The row was written on 2/16, when the file dated the PSEC decision "Feb 20"; it was corrected on 2/19 (`3387965e9`). No earlier PSEC 65% exists anywhere in the repo (`git log -G`). **It stays FAILED and scored.** Removing it would delete a miss from my own record, and that would be a mass-moving retrofit, which WQ-161 ② forbids. I flag it for the calibration owners only. *(REG-11's confirming event, the FSK cut on 2/25, post-dates its 2/16 registration. TCPC's timing was not checked at primary.)*
+
+**`Date_Made` cells are NOT rewritten.** They are the historical record. The placeholder is documented in the ledger header, and the true dates are in this table.
+
+### 📐 AS-MADE AUDIT RECEIPT 2026-09-11 (DAEDALUS H2 harvest packet 9/7) — re-derived by prediction TEXT, not by ID — ⚠️ PARTIAL; completed and corrected by the 2026-10-10 section above
 
 | Row | Tool flag | Re-derivation (STATUS blob `67d336e32`, 2026-02-12; ledger seed `91c301279`, 2026-03-04) | Disposition |
 |---|---|---|---|
 | REG-02 / REG-04 | MISMATCH | The 3/6 STATUS table numbered FHLB>$600B as REG-02 and Phoenix as REG-04; the ledger carries them REG-04 / REG-02. By TEXT: FHLB 60% = 60%, Phoenix 65% = 65%. | **ID cross-map, not a walk. No change.** |
-| REG-03 | MISMATCH (70 vs 50) | The "50%" is the capital-raise row under the crossed ID; "$936B maturity wall" never appears in STATUS with a %. | **NOT-FOUND by text; as-made stays 70%.** |
+| REG-03 | MISMATCH (70 vs 50) | The "50%" is the capital-raise row under the crossed ID; "$936B maturity wall" never appears in STATUS with a %. | **As-made 70%.** *(10/10: FOUND by text in PREDICTIONS.md `1c0b3d0cb` 2026-02-16 at 70%; the 9/11 text said "NOT-FOUND by text".)* |
 | REG-06 | NOT-FOUND | "At least one Tier 1 bank capital raise **50%**" 2/12→3/6; seeded 50%; deliberately re-marked **10%** 2026-08-27 (`3ae52ac59`) with the prior value documented in Notes. | **As-made 50%. Row is Kernel-pinned (byte-frozen, Gate C a6/a7) — NOT re-formed; consumers read the 8/27 Notes entry.** |
-| REG-07 | NOT-FOUND | "SSB NPL migration >0.5% **55%**" 2/12; seeded 55%; upgraded 68% 2026-03-05 (`e30e09d50`, ML-REG-110), documented in Notes but the cell carried only 68%. | **Re-formed: `68% [2026-03-05] (was 55% [2026-02-23])`. Brier on 55%.** |
-| REG-09 / REG-17 | MISMATCH (50 vs 20) | Tool limit (1): the "20%" is prose ("0 of 1") in the 8/13 blob; neither prediction text ever appears in STATUS with a %. | **False positive; as-made stays 50%.** |
+| REG-07 | NOT-FOUND | "SSB NPL migration >0.5% **55%**" 2/12; seeded 55%; upgraded 68% 2026-03-05 (`35de73fe2`; `e30e09d50` 3/7 only moved the file), documented in Notes but the cell carried only 68%. | **Re-formed: `68% [2026-03-05] (was 55% [2026-02-12])`. Scores 68% (WQ-112(i)); 55% = first call.** *(Corrected 10/10. The 9/11 text read "(was 55% [2026-02-23])" and "Brier on 55%".)* |
+| REG-09 / REG-17 | MISMATCH (50 vs 20) | Tool limit (1): the "20%" is prose ("0 of 1") in the 8/13 blob. | **False positive; as-made 50%.** *(10/10: both FOUND by text in PREDICTIONS.md, at 2/16 and 2/23 respectively; the 9/11 text said "neither prediction text ever appears in STATUS with a %", which was true and beside the point.)* |
 
 No RESOLVED row's scoring vintage changed ⇒ nothing re-scored. `python3 scripts/asmade_audit.py REGINALD` will still print the same flags — it reads by ID; this table is the owner verdict.
 
