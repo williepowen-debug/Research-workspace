@@ -121,3 +121,14 @@ System advances, carrying value, sum of 11 FHLBank XBRL filings ($B):
 - **Borrower-side frames:** `https://data.sec.gov/api/xbrl/frames/us-gaap/AdvancesFromFederalHomeLoanBanks/USD/CY2025Q4I.json` and `…CY2026Q2I.json`; match on CIK.
 - **Borrower names:** the 10-Q HTML for NY (0001329842-26-000013), Cincinnati (0001326771-26-000133), Atlanta (0001331465-26-000145), San Francisco (0001316944-26-000134), Des Moines (0001628280-26-054726; 10-K 0001628280-26-016325) and Chicago (0001331451-26-000148), stripped with the MEMORY_REFERENCE `perl -0pe` recipe.
 - **Fetch:** `curl` with a User-Agent (WebFetch 403s on sec.gov).
+
+## Addendum 2026-10-10 ~13:2x ET — WHY the four big banks borrowed (Will asked)
+
+| Bank | FHLB | Deposits | Loans / assets | Read | Basis |
+|---|---|---|---|---|---|
+| **Citigroup** | $9.0B → $29.0B (ST $6.0 → $8.0B; LT $3.0 → $21.0B) [12/31/25 → 6/30/26] | **+$89B (+6%)**, operational deposits in Services | loans +$41B (+6%); trading assets +$97B | **Growth funding, in the bank's own words:** *"The additional FHLB borrowings during the second quarter of 2026 were part of Citi's funding strategy to support ongoing balance sheet growth in support of client-related activities. FHLB advances provide an efficient source of funding."* | Citi 10-Q acc 0000831001-26-000045, MD&A (Long-Term Debt) + Note 16. ⚠️ The comparison window of the +$89B / +$41B lines was not confirmed in the text read (prior year-end or prior-year quarter); the DIRECTION is not in doubt. |
+| **U.S. Bancorp** | +$14.0B at FHLB Cincinnati | $522.2B → $532.1B (**+$9.9B**) | loans +$19.0B (+4.9%) | Short-term borrowings $17.9B → $37.3B in Q2, and cash $48.4B → $66.5B in the same quarter. **INFERENCE (mine, not the bank's words): borrowed and held as cash, i.e. a liquidity build, not deposit replacement.** | SEC XBRL companyfacts (10-Q) |
+| **Wells Fargo** | +$6.0B at FHLB Des Moines | $1,426.2B → $1,501.4B (**+$75.2B**) | assets $2,148.6B → $2,282.2B | Balance-sheet growth; the FHLB increase is small next to its deposit growth. Background (not from this filing): the Fed lifted Wells's asset cap in June 2025. | SEC XBRL companyfacts (10-Q) |
+| **PNC** | +$27.4B | +$8.9B reported, but **organic interest-bearing deposits −$11.9B** (acquisition-inflated) | loans +$36.5B; FirstBank closed 1/5/26 | **The one case of replacing deposits that left,** while growing; credit clean | ML-REG-160 (PNC 10-Q) |
+
+**Read:** three of the four grew deposits and used FHLB money to fund growth, or (USB) to hold cash. Only PNC fits "deposits leaving, FHLB replacing them," and PNC's credit is clean. **That pattern spreading to other banks is the thing to watch at Q3**, along with SF's count of members near their borrowing limit (13 → 21).
