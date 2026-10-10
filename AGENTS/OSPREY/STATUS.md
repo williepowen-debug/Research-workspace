@@ -1,9 +1,17 @@
 # OSPREY STATUS
-**Last Updated:** 2026-10-09 (Fri) 13:04 ET (from `date`): PROME spawn (prome-75), DOCKET L624 fix pass 2 only; item 5 below. The ~10:45 ET header that follows is unchanged otherwise. PROME Tier-1 due-row wake (DOCKET L623, prome-75): C2 kill evaluation, C3 RIO attribution, whole-inbox drain 7/7. **Scores 5 / ⚪1 KILLED (C2, dormant-armed; last live mark 5) / 3. Band ~30% [EST] UNCHANGED.** Prior update 2026-10-08.
+**Last Updated:** 2026-10-10 (Sat) ~11:50 ET (from `date`): osprey-1010, Will-directed wake (PROME prome-1e), PARTIAL — see ACTIVE 2026-10-10. Prior: 2026-10-09 (Fri) 13:04 ET, PROME spawn (prome-75), DOCKET L624 fix pass 2; PROME Tier-1 due-row wake (DOCKET L623): C2 kill evaluation, C3 RIO attribution, whole-inbox drain 7/7. **Scores 5 / ⚪1 KILLED (C2, dormant-armed; last live mark 5) / 3. Band ~30% [EST] UNCHANGED.**
 **Evidence:**
 - `domain/energy-strikes/C2_KILL_EVAL_2026-10-09.md` (the verdict record) and KB-OSPREY-177…181.
 - `STRIKES.tsv`: +6 rows and 2 updated in place. **The swept-complete mark is ADVANCED 9/20 → 10/07 on a BOUNDED pass** (limits listed in the ledger header).
 - The 10/8 block below is kept as written.
+
+## ACTIVE — 2026-10-10 (osprey-1010, Will-directed wake via PROME prome-1e · PARTIAL, closed at PROME's WQ-249 ask · no mark, band or threshold moved)
+1. **Rostov-on-Don NZNP products-export terminal (ex-Yug Rusi) struck overnight 10/9-10**, hours after OFAC GL 135. Governor confirms attack, fire and a damaged rail bridge without naming the site; ASTRA geolocated it. No GS claim. ONE facility, not "Rostov + Novoshakhtinsk". **Out of C2 geography (river port) → companion watch; not refinery-class → C1 unchanged (Ukhta 10/9 anchor).** KB-183.
+2. **Azov port: two vessels damaged 10/10, types NOT given.** Azov is a named in-geography C2 port, so this is an **OPEN C2 LEAD**: if either hull is a tanker at an oil berth, C2 re-arms at 5 as of 10/10. Not C2/C3 on current evidence. KB-184.
+3. Samara LPDS struck a 3rd time 10/10 (GS) — companion watch. **Astrakhan GPZ 10/4 (GS) BACKFILLED**: it sat inside the 10/9 certified window (disclosed as unidentified); moves no clock. KB-185/186.
+4. **OFAC GL 135 read at primary text** (diesel only, through 2027-04-07, incl. US import). Volumes: 0.3/0.5/1.0 Mt + 3 Mt conditional ≈ 102/124/240 kb/d. KB-187/188. **Intel-sharing threat = Axios single Ukrainian source, US denies; "We will burn their refineries" = a senior Ukrainian official to FT's Christopher Miller, not the envoys.** No channel letter has a policy leg: nothing fires. KB-189.
+5. ⚠️ **C1 companion tell confounded:** a deal-driven diesel-ban lift (Novak 10/9) would read as recovery while capacity is still offline. No letter change. KB-190. **L544 pre-fetch only (not graded):** 14-day leg unmet on 10/15 (earliest 10/23); FT-cited "~60% of capacity" is UTILIZATION, not an offline aggregate; "51%" is Ukraine MoD "hit" (belligerent). KB-191.
+6. Inbox 2/2 drained (SIG-W-20261009-014, -20261010-003). Feed 10/10: 34 rows, 26 NONE all dispositioned. Mark stays 10/07.
 
 ## ACTIVE — 2026-10-09 (C2 KILLED · C3 clock reset · no band or threshold moved)
 

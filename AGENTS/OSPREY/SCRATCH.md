@@ -1,4 +1,12 @@
-# OSPREY SCRATCH — 2026-10-09 (Fri)
+# OSPREY SCRATCH — 2026-10-10 (Sat) · osprey-1010 · PARTIAL (closed at PROME's WQ-249 ask ~11:47 ET)
+
+## 10/10 — WHAT LANDED / WHAT IS OWED
+- DONE: items 1-4 of the spawn read and recorded (STATUS ACTIVE 2026-10-10; KB-183…191; STRIKES +4; inbox 2/2 drained). Marks unchanged: 5 / ⚪1 KILLED / 3.
+- ⛔ **OPEN C2 LEAD — Azov port, two vessels 10/10, types unknown (KB-184).** If a tanker at an oil berth: C2 re-arms at 5 as of 10/10. First check: Palaemon 5-11 Oct; portnews.ru; Slyusar's later posts.
+- NOT DONE (next session): packets to BRENT / YURI / DEWEY (WALTER's -003 card already routed the facts; my adds = KB-187 price-cap/mainstream-tonnage INFERENCE → HAWK, KB-190 ban-lift confound → YURI, KB-183/189 answers to DEWEY claims 3-4) · NEXUS_BRIEF refresh · closeout claim/orphan checks · the 10/7 STATUS rotation if the next block breaks the cap (31,701 B now).
+- 10/15 L544: pre-fetch in KB-191 — do NOT grade early.
+
+# (prior) OSPREY SCRATCH — 2026-10-09 (Fri)
 
 ## CURRENT MARKS
 C1 / C2 / C3 = **5 / ⚪1 KILLED (dormant-armed; last live mark 5) / 3**. Band **~30%, 25–35% EST**, unchanged. Prices come from BRENT. This was a PROME Tier-1 due-row wake (DOCKET L623, prome-75). Full state: STATUS; verdict record: `domain/energy-strikes/C2_KILL_EVAL_2026-10-09.md`.
