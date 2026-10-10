@@ -1,3 +1,4 @@
+# FROZEN-VINTAGE 2026-10-10 — a one-off 6/30/2026 snapshot by design: the 6/30/2026 AOCI snapshot behind reports/2026-09-24_cohort_AOCI_exposure.md. Not maintained. A Q3 read writes a NEW vintage file; do not cite these rows as current.
 # Last real data refresh: 2026-09-24 — FFIEC CDR Call Report SDF, bank-level, as-of 6/30/2026. $ in $K. pf = CET1 incl. AOCI (9a+9d+9e, CF hedges excluded); pfh adds 0.75x HTM unrealized. Report: reports/2026-09-24_cohort_AOCI_exposure.md
 tk	ta	aoci	afs_fv	afs_u	htm_ac	htm_u	cet1	rwa	cet1r	opt	a9a	a9c	a9d	a9e	rep	pf	pfh
 OZK	41703134.0	-26763.0	4235075.0	-35168.0	0.0	0.0	5300530.0	44916234.0	11.8	1.0	-26763.0	0	0	0	11.8	11.74	11.74

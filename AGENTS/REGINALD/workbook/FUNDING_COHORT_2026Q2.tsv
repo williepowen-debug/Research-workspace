@@ -1,3 +1,4 @@
+# FROZEN-VINTAGE 2026-10-10 — a one-off 6/30/2026 snapshot by design: the WQ-318 6/30/2026 funding baseline (reports/2026-10-07_WQ318_funding-vs-nonbank-baseline.md; Will: "not a recurring study"). Not maintained. A Q3 read writes a NEW vintage file; do not cite these rows as current.
 # Last real data refresh: 2026-10-07 — FFIEC CDR REST/JWT RetrieveFacsimile/SDF, bank-level Call Report, 6 banks x 5 quarters (6/30/25-6/30/26), ALL rows at the FFIEC primary. Written by scripts/wq318_funding_baseline.py.
 # PURPOSE: WQ-318 (DOCKET L527) funding legs on ONE basis. Bank-level Call Report != holdco 10-Q; do not mix. Formulas + MDRMs in the script docstring. Blank = not reported / not derivable (named in `missing`), never 0.
 # Cadence: ONE-OFF baseline for WQ-318 (Will: 'no new recurring study'). Q3 re-read only as part of the WQ-318 observation list grade; not a scheduled refresh.
