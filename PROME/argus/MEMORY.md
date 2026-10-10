@@ -16,6 +16,8 @@ You audit the DIFF of every path PROME committed **or has PENDING (uncommitted)*
 | A verbatim stable COMMAND duplicated with its source named | DECLINED — do not raise | canon permits "pointers + verbatim stable commands"; the risk is the PROSE around it, not the command (ARGUS checked `GIT_COORDINATION.md` inlining root's non-ff recovery and correctly declined) | 9/12 |
 | Restatement of a rule in the JUSTIFICATION half of a repair | ❌ when the restated text is an outcome-deciding PREDICATE, else ⚠️ | new class, 3 instances on 9/12 — the change half is disciplined, the "why this was a defect" half quotes the rule as proof; that is the half nobody audits | 9/12 |
 
+- **NEXT-RUN DISCIPLINE (PROME-owned, 16:51 ET 2026-10-10, CATO-advised, no charter change):** the spawn prompt restates the template's rule — ❌ first, five fields, aggregate ✅ COUNT (never a ✅ list), under 60 lines — and the RUN-LOG row records line count · tokens · tool uses · seconds PLUS the correction effort that followed (fix passes, reader rounds). PROME applies a ⚠️ only when the fix is one token AND needs no re-read; otherwise residue (the 10/10 prome-ce pass-1 errors came from eleven ⚠️ applied as 'one-token').
+
 ## RUN-LOG (PROME appends one row per run: date · baseline · paths · ❌/⚠️ returned · ❌ applied · ⚠️ to residue · defects caught later by others)
 | date | baseline | paths | ❌ / ⚠️ returned | applied | residue | caught AFTER commit by others |
 |---|---|---|---|---|---|---|
