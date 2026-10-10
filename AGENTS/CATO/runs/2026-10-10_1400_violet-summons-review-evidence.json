@@ -1,0 +1,68 @@
+{
+  "implementation": "cfb9c12d1",
+  "input_pin": "21a549874",
+  "date": "2026-10-10",
+  "results": {
+    "ordinary_violet": [
+      [
+        "advisory",
+        "desk catalyst summons (BD-02)",
+        false,
+        "VIOLET 2026-10-12 [HIGH] CHECK (in 2d)",
+        "WQ-184 L0 applies: a due desk-ledger row with a dark owner is a Tier-1 spawn (ListAgents first) \u2014 never grade on the owner's behalf; registry = SUMMONS_LEDGERS above"
+      ]
+    ],
+    "missing_empty_past": [
+      [
+        "advisory",
+        "desk catalyst summons (BD-02)",
+        false,
+        "BOGUS ledger MISSING (BOGUS.tsv) \u00b7 EMPTY ledger EMPTY-FORWARD (no row within 14d) \u2014 nothing to summon on; the owner's calendar needs rows or the desk goes unwoken \u00b7 PAST ledger EMPTY-FORWARD (no row within 14d) \u2014 nothing to summon on; the owner's calendar needs rows or the desk goes unwoken \u00b7 PAST 2026-09-01 [P1] old (PAST-DUE 39d \u2014 ungraded?)",
+        "WQ-184 L0 applies: a due desk-ledger row with a dark owner is a Tier-1 spawn (ListAgents first) \u2014 never grade on the owner's behalf; registry = SUMMONS_LEDGERS above"
+      ]
+    ],
+    "crowded_hides_violet": [
+      [
+        "advisory",
+        "desk catalyst summons (BD-02)",
+        false,
+        "VULCAN 2026-10-01 [P1] old1 (PAST-DUE 9d \u2014 ungraded?) \u00b7 VULCAN 2026-10-02 [P1] old2 (PAST-DUE 8d \u2014 ungraded?) \u00b7 VULCAN 2026-10-03 [P1] old3 (PAST-DUE 7d \u2014 ungraded?) \u00b7 VULCAN 2026-10-04 [P1] old4 (PAST-DUE 6d \u2014 ungraded?) (+1 more)",
+        "WQ-184 L0 applies: a due desk-ledger row with a dark owner is a Tier-1 spawn (ListAgents first) \u2014 never grade on the owner's behalf; registry = SUMMONS_LEDGERS above"
+      ]
+    ],
+    "low_context_only": [
+      [
+        "advisory",
+        "desk catalyst summons (BD-02)",
+        true,
+        "1 desk ledger(s) quiet inside 2d",
+        "WQ-184 L0 applies: a due desk-ledger row with a dark owner is a Tier-1 spawn (ListAgents first) \u2014 never grade on the owner's behalf; registry = SUMMONS_LEDGERS above"
+      ]
+    ],
+    "committed_registry_21a549874": [
+      [
+        "advisory",
+        "desk catalyst summons (BD-02)",
+        false,
+        "VIOLET 2026-10-12 [LOW] Columbus Day - US EQUITY AND OPTIONS MARKETS  (in 2d) \u00b7 VULCAN 2026-10-12 [P2] PJM IRAS at FERC \u2014 acceptance requested (file (in 2d)",
+        "WQ-184 L0 applies: a due desk-ledger row with a dark owner is a Tier-1 spawn (ListAgents first) \u2014 never grade on the owner's behalf; registry = SUMMONS_LEDGERS above"
+      ]
+    ]
+  },
+  "historical_replay": {
+    "calendar_pin": "d179af27b",
+    "date": "2026-10-02",
+    "input": "date\tevent\ttype\tagent_domain\texpected_vol_impact\tsource\tnotes\n2026-09-30\tMicron (MU) FQ4 earnings\tEARNINGS\tVULCAN/VIOLET\tMEDIUM\tMicron issuer announcement Aug 26; prior VIOLET own verification Sep 4\tCONFIRMED Sep 30 after close 16:30 ET. Outside frozen letter leg 2 window; VULCAN owns earnings substance.\n2026-10-07\tQ2 transmission-test window closes (DOCKET L477, LIQUID prospective)\tCHECKPOINT\tVIOLET/LIQUID\tLOW\tSTATUS.md Q2 CONTRIBUTION; SCRATCH 2026-09-28\tLast session of the 10-session window off the 9/23 MOVE spike. Grade VIX3M/VIX <=1.00 AND VVIX >120 on two consecutive closes; if not fired by the 10/7 close, ordinary repricing is the operating conclusion. Existing lines only.\n2026-12-16\tM1:M2 historical-average re-check (KB-VIO-310, PROME L441)\tCHECKPOINT\tVIOLET\tLOW\tworkbook/KB.tsv KB-VIO-310\tDecember VIX quarterly expiry. Re-measure roll-adjusted monthly M1:M2 over VX_TERM_HISTORY; replace 5.6 with the full-history median if the gap exceeds 0.5pp; re-stamp vintage in thresholds.py and tell PROME (FORGE vix_futures.py).\n",
+    "result": [
+      [
+        "advisory",
+        "desk catalyst summons (BD-02)",
+        false,
+        "VIOLET 2026-09-30 [MEDIUM] Micron (MU) FQ4 earnings (PAST-DUE 2d \u2014 ungraded?)",
+        "WQ-184 L0 applies: a due desk-ledger row with a dark owner is a Tier-1 spawn (ListAgents first) \u2014 never grade on the owner's behalf; registry = SUMMONS_LEDGERS above"
+      ]
+    ],
+    "limit": "New registry summons would still flag the past September 30 row; absence of EMPTY-FORWARD alone is not silence of the whole function."
+  },
+  "scope": "Independent isolated calls of pinned function; no operational boot or launch; no full gate exit-code or author-harness reproduction. Baseline acceptance read has no reads line; previous independent count UNKNOWN."
+}
