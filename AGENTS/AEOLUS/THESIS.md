@@ -2,7 +2,7 @@
 
 **Owner:** AEOLUS · The richness layer. STATUS.md carries the live reads + 5-pt handles; this file carries the full `stage → mechanism → state` transmission tables per channel.
 
-> **Sync note (2026-07-09 self-sweep):** this file was 11 days stale (last touched 6/28) — C1 and C3 stage-states below refreshed to match tonight's STATUS.md; C2/C4/C5 stage tables NOT independently re-verified this session (still [6/28] — no material contradicting evidence surfaced, but treat as unrefreshed, not re-confirmed).
+> **Sync note (2026-10-10):** C2 and C3 rewritten for the El Niño winter (Will-ruled bands, KB-200); C4/C5/C6 stage-state cells refreshed to STATUS of 10/10; C5 flip cell now points to the charter letter (it still carried the retired 10-day clause). C1 refreshed 10/8. Prior C2/C3 text verbatim in git (`git log -p -- AGENTS/AEOLUS/THESIS.md`).
 
 **Core thesis:** Climate and weather reprice markets through a small, fixed set of causal channels. The edge is positioning ahead of consensus on tradeable-horizon weather events (Tier 1) while a structural-climate backdrop (Tier 2) tells us which direction the slow drift runs. We win by keeping each channel *live and falsifiable*, not by forecasting weather better than NOAA.
 
@@ -24,37 +24,32 @@
 
 ## C2 — AGRICULTURE / FOOD
 
-**Line:** drought·heat·flood → crop yield ↓ → grain & softs prices ↑ → food CPI ↑ + fertilizer demand shift.
+**Line:** El Niño drought/heat in the teleconnected crop regions → yield ↓ → grain prices + regional food CPI ↑ → import demand / fertilizer shift.
+*RE-POINTED 2026-10-10 (Will-ruled bands, KB-200): the US summer crop is a CPI-bridge input with no reliable ENSO signal; the El Niño driver is the SOUTHERN-HEMISPHERE harvest.*
 
-| Stage | Mechanism | State |
+| Stage | Mechanism | State [2026-10-10] |
 |---|---|---|
-| 1 | ENSO state + regional drought/heat → crop stress | **open — REFUSING TO CONFIRM, now on four consecutive prints.** Corn **60% G/E** / soy **61%** (18 states, week ending **8/16**, USDA NASS `prog3326.txt` **primary — first primary read of this metric; the prior four were relays**), from 63/63 (7/26) → 61/63 (8/02) → 61/62 (8/09) → 60/61. A **−1/wk grind, 5 pts above the <55% Yellow band**, but **11 pts (corn) / 7 pts (soy) below last year** (71/68). ⚠️ **Corn is 25% dented** (5-yr avg 24%) and 3% mature — **past pollination and into grain fill, so the yield-determination window is closing and further condition slippage carries less yield consequence than the same slippage in July.** USDM D1-D4 50.38% but concentrated **OK / TX Panhandle, not the corn belt** [8/21] |
-| 2 | Crop condition % deteriorates vs normal → yield downgrades | open — deteriorating, but too slowly and too late in phenology to force a downgrade |
-| 3 | Grain/softs futures reprice → food-producer margins, fertilizer demand | open |
-| 4 | Pass-through to food CPI | open → **CARL** (holds the CPI instrument); MARCO corroborates from the produce side — July CPI fresh F&V **+5.55% YoY**, third straight decline, 2-yr stack +5.86% (so not a base effect). **Two agents, two unrelated instruments, same conclusion: no US row-crop food-CPI cost-push** [MARCO 8/21] |
+| 1 | Strong El Niño → DJF drought in the southern-Africa maize belt (and Aus Aug–Oct) | **open, forward** — El Niño historic-strength (ONI JAS +2.16; CPC >83% strong-to-very-strong through JFM). SA corn ≤−15% in **5/6** strong harvests vs 1/17 neutral (KB-198). Rains Dec–Feb decide it |
+| 2 | Production forecasts cut vs trailing 5-yr | **open** — USDA 2027 SA crop = **16.5 MMT placeholder (+0.5%)**; first real read = SA CEC (intentions 10/27, forecast ~late Feb). Aus wheat **31.0 MMT = −10.3%** (raised 9/11) — out of Yellow, and strong years were not worse |
+| 3 | Grain prices reprice | **moving, cause NOT El Niño** — FAO cereals **122.8, +17.2% y/y** (Sept, highest since Dec 2023) while USDA raised Aus wheat; fertilizer/freight/war drivers are other desks' (KB-199) |
+| 4 | Pass-through to food CPI / import bills | open → **CARL** (CPI instrument); southern Africa transmits mostly outside US tickers |
 
-**Tradeable surface:** ag commodities, food producers, fertilizer. **Shared antecedent:** ENSO state also drives C3 — count the root once.
-**Bidirectional flip — RE-SPECIFIED 2026-08-21. The superseded test could not fire in EITHER direction.**
-
-> 🔴 **This is the worst instance of the gate-with-no-instrument class I have found, and it was in my own file for 54 days.** Superseded text, preserved verbatim: *"bear-kill = crop condition >60% G/E + **ENSO-neutral**; bull-confirm = condition <45% with a **strong La Niña**."*
-> **Both branches are conditioned on an ENSO state that CPC assigns near-zero probability for this entire forecast horizon** — the regime is a strengthening El Niño with **>90%** odds of very-strong through NH winter 2026-27 and a **69%** chance of an event exceeding every El Niño back to 1950. **Neither "ENSO-neutral" nor "a strong La Niña" can occur inside the window this test is supposed to grade.** So C2 was **unfalsifiable in both directions** — and that is the mechanical reason I have logged it three sessions running as "the honest downgrade candidate that I am also not moving." **I was not being cautious; the test could not return a verdict.** The AND-clause is what hid it: each branch reads sensible, and only the *conjunction* against the live regime is impossible. **Check every conjunctive gate against the CURRENT regime, not against the regime it was written in.**
-
-- *bear-kill* = **corn AND soy ≥60% G/E at the final in-season condition print** (late Sept), **with corn ≥95% dented** — i.e. the crop finishes healthy with the yield window closed. **Currently 1 pt from firing on soy.**
-- *bull-confirm* = **either crop <55% G/E** *(the Yellow band)* **before 90% dented** — condition damage while yield is still determinable — **OR** a **≥10% YoY** print in CARL's goods/food-CPI instrument attributable to a named crop shortfall.
-- ⚠️ **INSTRUMENT-SCOPE FLAG, stated as a hypothesis with its instrument named, not as a finding.** C2's only live instruments are **US corn and soy**, and a very strong El Niño is generally *favorable* to the US corn belt (cool/wet Midwest summers) while its drought signal lands on **Australian wheat, SE Asian rice/palm, and the Indian monsoon**. **If that holds, C2 is pointed at the crop this regime is least likely to damage, which would explain the refusal-to-confirm as an instrument artifact rather than a benign world.** **I have NOT verified those teleconnections** — the test is ABARES Australian crop reports + FAO rice/palm price indices against the El Niño composite. **Until that is pulled, C2's benign read certifies US row crops ONLY, not global food.** Registered as an open item; do not let the benign score stand for more than it measures.
+**Tradeable surface:** grain/oilseed futures, regional food importers, fertilizer — none chosen; **watch only** (TRADE.md #5). **Shared antecedent:** the ENSO root also drives C3 — count it once.
+**Bidirectional flip (2026-27 season):** *bull-confirm* = **SA corn ≤13,958 kt** (Yellow, ≤−15% vs 16,421) on any WASDE/CEC read, or Aus ≤−15%. *bear-kill* = DJF ONI ≥1.5 **AND** SA corn still >13,958 kt at the **5/12/27 WASDE** **AND** Aus final >−15% — the teleconnection failed in the strongest event on record. **AEO-13 (65%)** prices the bull side. The 2026 US exit (either crop <55% G/E before 90% dented) is graded **NOT FIRED** (corn low 56%, KB-197).
 
 ## C3 — ENERGY DEMAND
 
-**Line:** temperature extremes → power/heating demand spike → nat-gas / power price moves.
+**Line:** temperature extremes → power/heating demand → nat-gas / power price moves.
+*RE-POINTED 2026-10-10 from summer heat to WINTER heating (Will-ruled band, KB-200). Summer CDD has NO registered band — re-spec owed before 2027-05-01.*
 
-| Stage | Mechanism | State |
+| Stage | Mechanism | State [2026-10-10] |
 |---|---|---|
-| 1 | Heat dome (summer) or polar vortex (winter) → demand spike | **confirmed (partial) — first realized event** — PJM EEA2 grid emergency 7/3 (MD/VA 102-104°F + data-center demand amplifier); did not break 2006 record [PJM/WALTER SIG 7/9] |
-| 2 | CDD/HDD vs normal breaches band → storage draw / price move | open — June CDD −15% baseline (benign then); Henry Hub still storage-cushioned (+6% vs 5-yr avg) as of 22 Jun read, not re-verified fresh this session [6/28 price data, 7/9 demand-event overlay] |
-| 3 | Nat-gas / power reprice (Uri-2021 style tail in extreme cases) | open → BRENT (HH $3.16, no stress yet) |
+| 1 | Polar vortex / cold (winter) or heat dome (summer) → demand spike | **summer CLOSED** — 4 PJM emergencies in 2026, all closed; the 10/7 $2,978/MWh spike was **supply-side** (70.3 GW maintenance, no heat — WATT) |
+| 2 | 30-day HDD vs 1991-2020 breaches the band (MidAtl/ENC, DJF windows) | **out of window to 12/30** — strong-El-Niño composite: DJF HDD **5/5 below normal** (MidAtl median −11.9%), **0/5** with a ≥+10% window; official forecasts only −2 to −6% (KB-195/196) |
+| 3 | Nat-gas / power reprice | open → **BRENT** (Henry Hub NGX26 $3.22, last trade 10/9, not a settle) · **WATT** (PJM) |
 
-**Tradeable surface:** nat gas, power, utilities. **Owner handoff:** energy pricing → BRENT; geopolitical energy → HAWK.
-**Bidirectional flip:** *bear-kill* = CDD/HDD within ±10% normal 4+ sessions; *bull-confirm* = ±30% sustained with low storage.
+**Tradeable surface:** nat gas, power, utilities — **BRENT/WATT price it; AEOLUS supplies the weather base rate** (TRADE.md #3, watch). **Owner handoff:** energy pricing → BRENT; geopolitical energy → HAWK.
+**Bidirectional flip (winter, registered):** *bull-confirm* = any DJF 30-day **MidAtl or ENC HDD ≥0%** vs 1991-2020 (Yellow; ≥+10% Orange, ≥+20% Red) — the mild call failing; *bear-kill* = **both legs <0% for 4+ sessions** — the mild winter confirmed, the channel benign. ⚠️ n=5; 2009-10 (ONI +1.47) ran cold; Nov–Dec does not discriminate.
 
 ## C4 — PROPERTY / PHYSICAL ASSETS
 
@@ -63,8 +58,8 @@
 
 | Stage | Mechanism | State (confirmed/open/falsified) |
 |---|---|---|
-| 1 | Peril trend/event (wildfire acreage, flood, SLR, repeat landfall) → physical-risk repricing of a region | **open, benign** — light H1 cat losses ($20B Q1, −26% vs 10-yr avg) [6/28] |
-| 2 | Insurers raise rates / non-renew / exit → insurability gap | **open** — CA non-renewals reopening (SB824 moratorium lapsed May'26); FL stabilizing [6/28] |
+| 1 | Peril trend/event (wildfire acreage, flood, SLR, repeat landfall) → physical-risk repricing of a region | **open** [10/10] — wildfire PL 2, acres 145% of 10-yr (peril, not loss); **Isaias Cat 2 Panhandle landfall** — pre-landfall loss mid-single-digit $bn, **below the >$10B leg**; no post-landfall estimate yet (KB-189/191) |
+| 2 | Insurers raise rates / non-renew / exit → insurability gap | **open, soft market** [10/10] — Gallagher Re: Isaias won't meaningfully move Jan-1; CA non-renewals censored by moratorium (KB-130); FL losses inside Citizens' ~$0.84B retention (CORAL, KB-194) |
 | 3 | Uninsurable/underinsured property → value impairment + financing harder | open — CA the watch zone |
 | 4 | Collateral impairment → mortgage/CRE/muni credit risk → bank/REIT/muni repricing | open → REGINALD/CREED (CORAL if FL) |
 
@@ -78,9 +73,9 @@
 
 | Stage | Mechanism | State |
 |---|---|---|
-| 1 | Hydrological/storm event (Panama drought, Rhine/Mississippi low water, port storm) | **CONFIRMED — then PEAKED AND BROKE, both inside 8 days.** Kaub daily mean fell to **6.42 cm (8/17)**, ~19 cm below the WSV all-time record `NNW` of 25 cm, and Duisburg-Ruhrort to **128.76 cm (8/17)** vs its 153 cm record; Danube ran 13 consecutive stations below their `LKV` records over 233 km. **Then rain arrived: Kaub 13.9 (8/19) → 34.8 (8/20) → 44.7 (8/21), +38 cm off the low in four days, rising at every one of Maxau/Kaub/Mainz/Duisburg/Emmerich** — driven from upstream, so the lower reaches keep filling for days. Mississippi normal; autumn is its window [8/21] |
-| 2 | Chokepoint capacity cut (draft restrictions, transit caps) or route closure | **CONFIRMED on the river leg, still open on Panama** — barge loadings ran ~16% of capacity (~800 t vs 5,100 t) at the trough; Panama unrestricted, transits **38.70/day** (ACP Monthly Ops Summary A-14-2026, Apr-26 data) vs a ≤32 Yellow band [8/21] |
-| 3 | Freight rates spike + delivery delays | **CONFIRMED on the river leg** — Rhine spot freight ~**€150/t vs ~€20** normal; **Kiel Institute: Q3 German GDP −0.1/−0.2% (€1.2–2.3B)**. ⚠️ The container-freight leg (Drewry WCI +40% YoY, 6/28) stays **confounded** by tariff/World Cup demand and is NOT climate-attributable [8/21] |
+| 1 | Hydrological/storm event (Panama drought, Rhine/Mississippi low water, port storm) | 🔴 **CONFIRMED AT RECORD** [10/10] — Rhine below its WSV all-time record low at **both** graded gauges every complete day **9/18→10/9 (22 days)**; C5 →5 fired on its letter 9/28; Danube 23/44 below LKV (same root). The 8/17 trough-and-break was the first episode; this is the second and deeper one |
+| 2 | Chokepoint capacity cut (draft restrictions, transit caps) or route closure | **CONFIRMED on the river leg** — Contargo ended its transport obligation (9/28); **Panama not binding** (Sept TRANSITS 32.63/day, draft 49.0 ft, Gatún 85.23 ft) |
+| 3 | Freight rates spike + delivery delays | **CONFIRMED on operator surcharges** — Contargo €1,075/20′ at Kaub, Ruhrort €675 (10/9); CBS Q3 index not yet out; **no liquid instrument** (TRADE.md #2) |
 | 4 | Goods-price pass-through → goods CPI | open → **CARL** (repointed 7/31); HENRY (macro velocity). ⚠️ Stage 4 has never confirmed in this channel's life — the pass-through leg is the standing gap, not the peril leg |
 
 **Tradeable surface:** shipping/freight names, goods-CPI-sensitive trades. **Owner handoffs:** goods/food-CPI → **CARL** (repointed from MARCO 2026-07-31 — MARCO holds no CPI transmission instrument after 3 pre-registered nulls; the food leg transferred MARCO→CARL Jan-2026); macro pass-through → HENRY.
@@ -91,7 +86,7 @@
 
 | Leg | *bear-kill* (channel dies) | *bull-confirm* (channel fires) |
 |---|---|---|
-| **European rivers** (Rhine/Danube — the live leg) | **Kaub daily mean back above `GlW` 78 cm for 10 consecutive days** AND Rhine spot freight back under €40/t | Kaub ≤25 cm **AND** Duisburg-Ruhrort ≤153 cm on 10 consecutive days *(the 8/13 trigger — **FIRED 8/18**, 11-day run 8/09–8/19)* |
+| **European rivers** (Rhine/Danube — the live leg) | **Kaub daily mean back above `GlW` 78 cm for 10 consecutive days** AND Rhine spot freight back under €40/t | **the charter's C5 →5 trigger** — Kaub ≤25 AND Duisburg-Ruhrort ≤153 on the **3 most recent complete days** (the 10-day clause was retired 8/21; read the letter in `CLAUDE.md`, never this cell) — FIRED 9/28 |
 | **Panama** (dormant leg) | transits ≥32/day sustained AND no draft restriction | binding draft/transit restriction, ≤22 transits/day, with a freight-rate spike |
 | **Freight pass-through** (the never-confirmed leg) | goods-CPI contribution flat 2+ prints with rivers constrained — **this kills the CHANNEL, not the peril** | a measured river-attributable goods-CPI contribution at CARL |
 
@@ -105,7 +100,7 @@
 | Stage | Mechanism | State (confirmed/open/falsified) |
 |---|---|---|
 | 1 | Reservoir/snowpack/aquifer decline vs the level that triggers an allocation decision | 🔴 **CONFIRMED AND THROUGH THE THRESHOLD.** **Powell broke its all-time record low 2026-08-15** (3,519.91 vs 3,519.92 ft set 2023-04-13) and has fallen every day since: **3,518.48 ft (8/26)** — **8.48 ft above the ROD's 3,510 ft protection line**, −0.12 ft/day. **Mead broke its post-fill record 8/06** and is **1,039.05 ft (8/26)** — **4.05 ft above the binding Hoover 1,035 ft economic threshold**, −0.065 ft/day. 🔴 **AND THE PROJECTION NOW CROSSES: USBR's August 2026 Most Probable 24-Month Study projects Mead 1,035.56 ft (Nov) and 1,034.74 ft (Dec-2026)** — below the binding line, with **no seasonal turn anywhere in the path**; the July study had Dec at 1,037.31. **Driver, at primary:** Powell's WY2026 release cut **7.48 → 6.00 maf**; April–July unregulated inflow **18% of average** (July alone 9%). [USBR 919/49 + 921/49 + 24Month_08_6.pdf, all primary] |
-| 2 | Instrument/decision milestone (shortage-tier declaration, compact/guideline EIS→ROD) | ✅ **RESOLVED — the milestone LANDED.** **ROD signed 2026-08-21** (Sec. Burgum), ~6 weeks ahead of Interior's ~10/1 target and **9 days inside the earliest date I had myself inferred** (L-30). ⚠️ **The superseded text here read *"ROD earliest ~8/30, target ~10/1; 2007 Interim Guidelines expire 12/31/2026"* — all three legs are now spent:** the ROD is signed, and the 12/31 expiry **can no longer be an event because a successor regime exists**. **The clock moves to: 10/01 the 2027-28 Operating Guidelines take effect · the monthly 24-Month Study (now the primary C6 instrument) · whether the Lower Basin implementing agreements get executed.** |
+| 2 | Instrument/decision milestone (shortage-tier declaration, compact/guideline EIS→ROD) | ✅ **ROD signed 2026-08-21** — ⚠️ **but the 2027-28 Guidelines take effect only on Secretary execution AND executed Lower Basin implementing + parallel agreements (§3/§5.9); no 10/01 date exists in the text and execution is UNVERIFIED** (KB-185; dated search running 10/10). Unexecuted ⇒ §5.3.A.3 *"the Secretary shall determine"* |
 | 3 | Mandatory delivery cuts + hydropower loss reprice ag/municipal/industrial water | 🔴 **NOW SCHEDULED, NOT MODELLED.** The ROD cuts the Lower Basin **1.25 maf in EACH of 2027 and 2028 — AZ 760 kaf · CA 440 · NV 50** (verbatim). ⚠️ **FOUR NUMBERS, FOUR JOBS — do not collapse them:** **1.25 maf** = the binding scheduled cut · **3.6 maf** (AZ 1.96 / CA 0.90 / NV 0.21) = the Preferred Alternative's *modelled maximum*, a tail across futures, real but not a schedule · **"up to 3.0 maf"** = the *operational sideboard* for Hoover critical-infrastructure protection · **1.5 maf** = a distribution-**METHOD** breakpoint, not a volume. 🔑 **And the ROD states the modelled assumptions do NOT bind operations** — *"the assumptions… do not limit future agreements, nor do they preclude or predetermine other legally permissible applications"* — so the matrix was never the referent for an operating-year cut (KB-085). ⚠️ **If the Lower Basin implementing agreements go unexecuted, the ROD's default is apportionment by the Law of the River — i.e. BY PRIORITY**, shielding CA's senior rights and concentrating the cut on AZ's junior CAP. **That clause carries an apparent erratum** (the same provision appears twice with opposite negation) — KB-087, route with the caveat attached. |
 | 4 | Pass-through to ag prices / SW muni fiscal / data-center siting / ag-lending + muni credit | open → WATT (hydro), CARL/MARCO (ag & SW municipal), VULCAN (data-center water), REGINALD/CREED (credit) |
 

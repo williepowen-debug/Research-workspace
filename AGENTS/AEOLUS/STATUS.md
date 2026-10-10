@@ -140,7 +140,7 @@ Canonical: `workbook/PREDICTIONS.tsv`. **OPEN (9):**
 | 10 | Danube LKV reset dates (OVF rewrote to 2026) · Yangtze reference levels · Vicksburg/Cairo series | — | OPEN |
 | 11 | CSU final 10/14 | 10/14 | WAIT |
 | 12 | **regime ruling** — redefine `verystrong_prob_ond` (prose no longer states it; table OND 100) · regime/SOURCES ⑤⑥ wording (relative vs traditional) | next session | OPEN |
-| 13 | **TRADE.md rows 1/3 (7/09) + THESIS C2–C6 stage tables** behind STATUS (DAEDALUS PR#7 item 3) | next full session | OPEN |
+| 13 | ~~TRADE.md + THESIS C2–C6~~ | — | ✅ **DONE 10/10** — TRADE rows 1–5 (new #5 SA maize), THESIS C2/C3 rewritten for winter, C4–C6 states, C5 flip cell fixed (retired 10-day clause) |
 | 14 | wildfire/SOURCES.md:131 PL5 run "54-day" → **49 days** (worker P15) | next session | OPEN |
 
 **CLOSED BY NAME 10/9–10:** see KB-177…199 and `archive/STATUS_ARCHIVE_2026-10-10_pm-lines.md` (10/9 list, verbatim).
