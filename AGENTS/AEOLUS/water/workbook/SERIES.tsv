@@ -784,3 +784,5 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-10-06	usdm_conus_d4	1.15	pct	USDM-API-CONUS	2026-10-09 20:45 ET	CONUS (not Total); mapDate 2026-10-06; read directly by AEOLUS 10/9 (orchestrator, layer contract)
 2026-10-06	usdm_conus_none	24.17	pct	USDM-API-CONUS	2026-10-09 20:45 ET	CONUS (not Total); mapDate 2026-10-06; read directly by AEOLUS 10/9 (orchestrator, layer contract)
 2026-10-06	usdm_conus_d0d4	75.83	pct	USDM-API-CONUS	2026-10-09 20:45 ET	CONUS (not Total); mapDate 2026-10-06; read directly by AEOLUS 10/9 (orchestrator, layer contract)
+2026-10-09	mead_elev	1037.6	ft	USBR-921-49	2026-10-10 10:58 ET	2.60 ft above Hoover 1,035; read 10/10 by AEOLUS directly
+2026-10-09	powell_elev	3518.97	ft	USBR-919-49	2026-10-10 10:58 ET	8.97 ft above 3,510; read 10/10 by AEOLUS directly

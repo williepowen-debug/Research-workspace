@@ -11,6 +11,17 @@
 **Trade posture (Will-agreed 8/3):** HOLD, no build now — reinsurance-landfall tail fights my own El-Niño-suppression base case (would bleed theta in a quiet season, no edge). Pre-registered BUILD trigger: **CSU 8/5 or NOAA ~8/6-7 revise season UP, OR NHC lights a Gulf/FL system** → the tail goes live (breaks the suppression thesis). C4 down-stack (property→muni/WUI) is the slower expression, REGINALD-owned (ZION the one weak name), not ready.
 **★ STAGED 8/3 (Will-directed):** card handed to **TERRY** (inbox packet) — build unarmed/decision-ready: OTM Sep-Oct puts on FL primaries **UVE $44 / HRTG $30 / HCI $178** (clean solvency-convex shorts; NOT diversified reinsurers RNR/EG/ACGL/AXS — they V-shape on post-cat hardening). Gate = TERRY's options-liquidity/borrow/IV read on the small-caps (HRTG the risk). **PROME informed** (inbox packet) — tracking 8/5 + 8/6-7 as decision checkpoints. NEXT SESSION: check TERRY's liquidity read + whether either Aug update fired the trigger.
 
+## 🔴 NEXT SESSION — START HERE (2026-10-10 10:59 ET, Will-directed news sweep, day after landfall)
+
+*(Adds to the 10/9 block below, which stays the main pickup.)* **No score moved.** KB-191…194.
+- **Isaias day 1:** NHC final advisory (post-tropical, inland AL). **FEMA EM-3655 FL / EM-3656 AL, PA only — no DR yet** (CORAL told: its S2 rule keys on DR). Outages ~834k regional / 436k FL (SECONDARY). **No post-landfall modeler estimate at ~11:00 ET** (dated search; the 2020-Isaias KCC $4.2bn / RMS $3–5bn are DATE TRAPS). No MMA 10/10 release by ~11 ET. **Still owed: the first modeler estimate → C4 >$10B leg (once) → send to CORAL with its perimeter.**
+- **EP Hurricane Simon** Cat 4 130 kt / 938 mb → W-central Mexico Sun. The IBRD CAR Mexico 2024 (Pacific) **$175M** parametric bond is on watch: ~932 mb in a box for the 25% payout (Artemis). **Manzanillo terminals shut to Mon 10/12.** Regime evidence, not a channel. Route to CARL only if the port takes damage. **Check the landfall pressure vs the box next session.**
+- **Rhine:** WSV 10/10 run CUT the rise: Duisburg peak 150 (<153), Kaub 13 by 10/12. No exit in horizon; still FIRED on 10/7–9.
+- CORAL's five-asks packet consumed → KB-194 (FL exposure is CORAL's one figure).
+- **STATUS 24,247 B = 74.5% of budget — 165 B from the 75% rotation trigger. ROTATE before the next growth.**
+
+---
+
 ## 🔴 NEXT SESSION — START HERE (2026-10-09 21:34 ET, Will-directed boot + catch-up; DOCKET L627 owner)
 
 *(Supersedes both 10/8 blocks below for everything they list as OWED. The 9/28 block is now history except the rulings list.)*

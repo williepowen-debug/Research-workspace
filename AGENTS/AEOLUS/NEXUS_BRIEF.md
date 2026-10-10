@@ -2,10 +2,17 @@
 
 **Purpose:** curated synthesis writeback, refreshed **every closeout** (CLOSEOUT step 3). Compact routing-first variant (NEXUS Amendment 9, Will-approved 7/31). `outbox/` is 🔴-crisis-only.
 
-**Last writeback: 2026-10-09 ~21:40 ET (Will-directed boot + catch-up; DOCKET L627 owner) — LAST write before commit per Amendment 10.** The 10/8 fold is rotated verbatim → `archive/NEXUS_BRIEF_ARCHIVE_2026-10-08_fold.md` (6233 B · crc32 3658454114 — recompute it).
+**Last writeback: 2026-10-10 11:00 ET (Will-directed news sweep, day after landfall) — LAST write before commit per Amendment 10.** Prior fold 10/9 ~21:40 ET (body below, with the 10/10 section added). The 10/8 fold is rotated verbatim → `archive/NEXUS_BRIEF_ARCHIVE_2026-10-08_fold.md` (6233 B · crc32 3658454114 — recompute it).
 **WAITING-FOR:** **first post-landfall Isaias insured-loss estimate** (C4 >$10B leg, counted once) · **each session** Rhine 3-day exit re-grade (WSV forecasts a rise ~10/11–13) · **10/14** CSU final · **~10/15** October 24-Month Study (AEO-10) · **~10/23** Colorado Lower Basin agreements, dated search · **~Oct** Q3 cat-loss tally · **10/31** C5 long-series base-rate · **11/01** NIFC (AEO-09) · **11/12** CPC.
 
 ---
+
+## 10/10 SWEEP — day after landfall (no score moved; KB-191…194)
+
+- **Isaias:** NHC final advisory 4 AM CDT (post-tropical, inland AL); no Atlantic formation in 7 days. **FEMA EM-3655 FL / EM-3656 AL, Public Assistance only — no major-disaster (DR) declaration yet.** Outages ~834k regional / 436k FL at 5 AM (poweroutage.us via CBS; SECONDARY) → WATT's instrument. **No post-landfall modeler insured-loss estimate as of ~11:00 ET**; search engines return the 2020-Isaias KCC $4.2bn / RMS $3–5bn first, which are **date traps**. No MMA 10/10 release by ~11 ET.
+- **EP Hurricane Simon (Cat 4, 130 kt / 938 mb):** major landfall in west-central Mexico Sunday. The **$175M IBRD CAR Mexico 2024 (Pacific)** parametric cat bond is on watch (~932 mb in a coastal box for the first 25% payout; Artemis, SECONDARY). **Manzanillo port terminals shut until Mon 10/12.** Regime evidence (El Niño E-Pacific season), not a scored channel.
+- **Rhine:** the WSV 10/10 run cut the rise: Duisburg peaks 150 (<153) and Kaub reaches 13 by 10/12. **No exit in the forecast horizon.**
+- **CORAL** owns the FL exposure figure (Citizens 5 warning counties 8,327 PIF / $3.30B TIV; inside Citizens' own retention), KB-194.
 
 ## 🟡 THE ONE THING — Isaias landed as a Category 2 near Destin; my major-landfall trigger did NOT fire
 
