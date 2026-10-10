@@ -71,6 +71,9 @@ The successor regime to the 2007 Interim Guidelines — governs Lake Powell + La
 | ✅ ~~2026-10-08~~ | ~~CPC ENSO discussion + ONI/RONI JAS~~ | ALL | **READ 10/9:** ONI JAS +2.16 · RONI +1.69 · historic odds OND 83% (KB-181). **Next CPC discussion 2026-11-12** (RONI SON = the next real test) |
 | ✅ ~~2026-10-10~~ | ~~ACP September Ops Summary~~ | C5 | read 10/9 — see the clocks row above |
 | **~2026-10-15** | **October 24-Month Study** | C6 | AEO-10 (30%). Expect SPLIT filenames (`OCT26_6`/`_7`). ⚠️ `24Month_10.pdf` on the UC index is **Oct 2025** |
+| **🔴 2026-10-15 (Thu)** | **NOAA CPC long-lead seasonal outlook (DJF at 1.5-month lead)**, 8:30 ET maps; degree-day outlook file ~3 PM ET · then **11/19** and **12/17** | C3 (+ C2/C6) | The official read on the El Niño winter. 9/17 issue had DJF HDD only −0.4 to −4% vs 1991-2020, against a strong-El-Niño composite of −8 to −13% (KB-196). Read: does CPC move toward the composite? |
+| **Thursdays 10:30 ET** (next 10/15; exceptions Fri 11/13, Wed 11/25 noon) | EIA weekly natural-gas storage | C3 → BRENT | context for the winter-demand read; prices are BRENT's |
+| **2026-11-10** | EIA STEO (regional winter HDD forecast) | C3 | 10/6 issue: DJF US −3.2% vs EIA's prior-10-yr average |
 | **~October** | Q3 cat-loss tally (Gallagher Re / Aon / Swiss Re) | C4 | First vintage that can speak to this fire season; C4 back to 3 at ≥110% |
 | **~October** | DEFRA/AHDB UK harvest estimate | C2 | before any C2 use of the "worst harvest in 40+ years" claim |
 | **2026-10-31** | **C5 long-series base-rate** (re-dated from 9/30) | C5 | WSV file-service archive / BfG bulk route |
