@@ -1,0 +1,42 @@
+WATCH_FOR harness — desk MARCO · 5 phrase(s) · 12276 unique headlines over 80 lane days 2026-06-29 → 2026-10-09 · real matcher, in memory
+
+[   0] ICE meatpacking raid   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] ICE farm raids   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] H-2A wage rule   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] remittances Mexico decline   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Canadian trips   ← 0 hits (zero noise; recall UNPROVEN)
+
+=== LIVE sample: 251 unique Google-News headlines, 9 query(ies), last 30d ===
+[   0] ICE meatpacking raid   ← 0 live hits
+[   1] ICE farm raids
+        | Kansas Agriculture Calls for Immigration Reform After ICE Raids - Successful Farming
+[   3] H-2A wage rule
+        | DOL Delays on H-2A Farmworker Wage Rule Unwarranted, Judge Says - Bloomberg Law News
+        | Dec. 30 Deadline Looms for New H-2A Wage Rule - The Packer
+        | DOL Given Until Year End To Fix H-2A Farmworker Wage Rule - Law360
+[   1] remittances Mexico decline
+        | U.S.-Mexico money transfer program to close Nov. 20 as remittances decline - KRQE
+[   5] Canadian trips
+        | Canadian trips to the United States continue to climb in July - Financial Post
+        | U.S. Tourism Gets Unexpected Boost From Canadian Business Travelers As Leisure Trips Sink - TheTravel
+        | Canadian travel to US increasing in one instance: Work trips - Buffalo Toronto Public Media
+        | The Canadian Dollar round-trips as Fed officials differ on hike timing - www.tmgm.com
+        | In-Car Wi-Fi Made the Back Seat a Second Screen on Canadian Road Trips - The Weekly Driver
+
+Verdict rule (WQ-295 R3): reject by name any phrase with >0 FALSE hits; the reader classifies, not this tool.
+WATCH_FOR harness — desk MARCO · 2 phrase(s) · 12276 unique headlines over 80 lane days 2026-06-29 → 2026-10-09 · real matcher, in memory
+
+[   0] Canadian trips United States   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Canadian travel United States   ← 0 hits (zero noise; recall UNPROVEN)
+
+=== LIVE sample: 175 unique Google-News headlines, 3 query(ies), last 30d ===
+[   1] Canadian trips United States
+        | Canadian trips to the United States continue to climb in July - Financial Post
+[   0] Canadian travel United States   ← 0 live hits
+
+Verdict rule (WQ-295 R3): reject by name any phrase with >0 FALSE hits; the reader classifies, not this tool.
