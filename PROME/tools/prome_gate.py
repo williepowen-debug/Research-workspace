@@ -1637,6 +1637,11 @@ def mode_boot(advance_board=True):
                [sys.executable, "PROME/tools/table_check.py", "--quiet"],
                "fix the ROW (split the content into the existing columns or add a column to the "
                "header) — never the reader; rc=2 = a manifest path could not be opened")
+    # WQ-417 P1 (Will 2026-10-10 16:56 ET): a RECENTLY DONE row with < 3 cells is SKIPPED by the Deck's and the
+    # ledger's parser, so a ruling can vanish downstream; table_check cannot see it (no header row there).
+    run_script(ADVISE, "done rows: parser-independent short-row + rulings-reach-ledger (WQ-417 P1)",
+               [sys.executable, "PROME/tools/done_rows_check.py", "--quiet"],
+               "fix the ROW (three cells: title | done | record) and re-sync the ledger; rc=2 = file or heading missing")
     guard(check_dashboard_state)
     guard(check_symmetry)
     guard(check_claude_dir_drift)
@@ -1701,6 +1706,10 @@ def mode_closeout(tier=None, memory=None, superseded=None):
     run_script(BLOCK, "boot-read tables: no over-celled rows",
                [sys.executable, "PROME/tools/table_check.py", "--quiet"],
                "fix the ROW before committing — the named cells are DROPPED in every rendered read")
+    # WQ-417 P1: BLOCK at closeout — a short done row ships a ruling the ledger and the Deck never see.
+    run_script(BLOCK, "done rows: parser-independent short-row + rulings-reach-ledger (WQ-417 P1)",
+               [sys.executable, "PROME/tools/done_rows_check.py", "--quiet"],
+               "fix the ROW (three cells) and `wq_ledger.py sync` before committing; rc=2 = file or heading missing")
     # 2026-10-05: the STATUS read cap moved the bytes into DOCKET.tsv (15 KB Jul → 1.3 MB Oct;
     # avg row 430 B → 2,170 B). Same shape as the cap that worked: BLOCK at closeout, where the
     # rows are written; the native pre-commit hook is the fail-closed twin for every runtime.

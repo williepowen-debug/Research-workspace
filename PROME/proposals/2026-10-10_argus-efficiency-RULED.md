@@ -1,6 +1,6 @@
-# ARGUS efficiency — PROPOSAL (revised on CATO's four points; nothing built)
+# ARGUS efficiency — RULED APPROVE (Will 2026-10-10 16:56 ET; revised on CATO's four points)
 
-**Status:** PROPOSAL · **Owner:** PROME · **Registered:** 2026-10-10 16:47 ET (prome-ce) · **Decision row:** WQ-417 · **First project row:** DOCKET L677 (Thu 10/15 process slot)
+**Status:** RULED APPROVE — Will 2026-10-10 16:56 ET, verbatim *"Okay can you make the ARGUS updates?  You have my approval."* (recorded 17:00 ET; renamed from -PROPOSAL at the word) · **Owner:** PROME · **Registered:** 2026-10-10 16:47 ET (prome-ce) · **Decision row:** WQ-417 · **First project row:** DOCKET L677 (Thu 10/15 process slot)
 **Provenance:** PROME's in-chat assessment to Will 15:3x ET (ARGUS run-log evidence, 13 runs) → CATO's assessment `AGENTS/CATO/runs/2026-10-10_1640_argus-efficiency.md` (27809d82d), relayed by Will 16:43 ET → this revision. CATO's recommended wording is adopted as the frame: *revise around existing controls; keep at proposal stage.*
 
 ## What is established (VERIFIED at the artifacts)

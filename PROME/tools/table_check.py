@@ -23,7 +23,11 @@ CONTRACT
 * Perimeter is DERIVED from `PROME/registry/READS.tsv` (PROME rows, mode=whole),
   never hand-listed -- a hand-list is a second source of truth that goes stale.
 * Over-celled rows are the finding. UNDER-celled rows are reported separately and
-  never under the same label: markdown pads short rows and nothing is lost.
+  never under the same label: markdown pads short rows, so nothing is lost IN THE RENDER —
+  but a CONSUMER that parses by cell count (the Deck's done-row parser, the WQ ledger)
+  DOES lose them, and a header-less block (WILL_QUEUE § RECENTLY DONE) is not even a
+  table to this scanner. That class is owned by `PROME/tools/done_rows_check.py`
+  (WQ-417 P1, 2026-10-10: two operator rulings vanished behind "harmless" short rows).
 * `\\|` is not a separator. A pipe inside an inline code span IS one, because GFM
   splits on it -- this check agrees with the RENDERER, not with authorial intent.
 * rc 0 clean / rc 1 finding / rc 2 could not establish
@@ -181,14 +185,14 @@ def main() -> int:
     if not args.quiet:
         for f in under:
             print(f"·  TABLE-CHECK {f['path']}:{f['line']} — {f['observed']} cells in a "
-                  f"{f['width']}-column table; markdown PADS this, nothing is lost")
+                  f"{f['width']}-column table; markdown PADS this in the render — a cell-counting consumer may not (done_rows_check.py owns that class)")
 
     if over:
         print(f"❌ TABLE-CHECK {len(over)} over-celled row(s) across {scanned} file(s) "
               f"— content is invisible in every rendered read; fix the row, not the reader")
         return 1
     print(f"✅ TABLE-CHECK ok {scanned} file(s), no over-celled rows"
-          + (f" ({len(under)} short row(s), harmless)" if under else ""))
+          + (f" ({len(under)} short row(s): harmless in the render; consumer completeness → done_rows_check.py)" if under else ""))
     return 0
 
 

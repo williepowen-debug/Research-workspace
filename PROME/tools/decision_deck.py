@@ -476,6 +476,10 @@ def parse_open(text: str) -> list[dict]:
         })
     return rows
 
+DONE_ROW_MIN_CELLS = 3          # title | done | record — done_rows_check.DONE_MIN must agree (tested, never imported; WQ-417 P1)
+DONE_ROWS_SKIPPED: list = []    # every numbered done row this parser skipped, by name (AC4) — a silent skip hid two rulings on 2026-10-10
+
+
 def parse_done_table(text: str, source: str) -> list[dict]:
     """3-col done rows: | **NNN Title** | Done | Record |  (also un-bolded 'NNN Title')."""
     rows = []
@@ -483,10 +487,13 @@ def parse_done_table(text: str, source: str) -> list[dict]:
         if not line.startswith("|"):
             continue
         c = cells(line)
-        if len(c) < 3:
-            continue
-        m = re.match(r"\s*\**\s*(\d+[a-z]?)\b\s*(.*)", c[0])
+        m = re.match(r"\s*\**\s*(\d+[a-z]?)\b\s*(.*)", c[0]) if c else None
         if not m or c[0].lower().startswith("item"):
+            continue
+        if len(c) < DONE_ROW_MIN_CELLS:
+            DONE_ROWS_SKIPPED.append({"n": m.group(1), "cells": len(c), "source": source})
+            print(f"⚠️ decision_deck: {source} row {m.group(1)} has {len(c)} cell(s) (< {DONE_ROW_MIN_CELLS}) — SKIPPED: "
+                  f"invisible to the Decided view and the event ledger; fix the ROW", file=sys.stderr)
             continue
         n, title = m.group(1), strip_md(m.group(2)).rstrip("*").strip()
         rows.append({"n": n, "name": title or f"WQ-{n}", "done": strip_md(c[1]),
@@ -544,6 +551,11 @@ def parse_archive(text: str, source: str) -> list[dict]:
             open_lines.append(line)
         elif len(c) >= 3:
             done_lines.append(line)
+        else:
+            m = re.match(r"\s*\**\s*(\d+[a-z]?)\b", c[0]) if c else None
+            if m:                                           # a numbered row too short for either shape: say so (WQ-417 AC4)
+                DONE_ROWS_SKIPPED.append({"n": m.group(1), "cells": len(c), "source": source})
+                print(f"⚠️ decision_deck: {source} row {m.group(1)} has {len(c)} cell(s) — SKIPPED by parse_archive; fix the ROW", file=sys.stderr)
     return parse_done_table("\n".join(done_lines), source) + parse_done_open_style("\n".join(open_lines), source)
 
 def parse_decided(q_path: Path | None = None, arch: list[str] | None = None, ledger: Path | None = None) -> list[dict]:
@@ -1574,7 +1586,7 @@ def build(today: dt.date, out: Path, *, reference_out: Path | None = None,
         path.write_text(content, encoding="utf-8")
     return {"owed": len(owed), "actionable": len(actionable), "answered_hands": len(answered), "decided": len(decided), "active": len(active),
             "docket": len(docket), "explainers_missing": missing, "options_rows": option_rows,
-            "options_warnings": option_warnings, "bytes": len(page.encode()), "out": str(out),
+            "options_warnings": option_warnings, "done_rows_skipped": DONE_ROWS_SKIPPED, "bytes": len(page.encode()), "out": str(out),
             "reference_out": str(reference_out), "reference_bytes": len(reference.encode()), "link_mode": link_mode}
 
 def selftest() -> int:

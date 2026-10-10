@@ -1,0 +1,11 @@
+# WILL_QUEUE fixture — the REPAIRED three-cell WQ-415 / WQ-416 rows as of the 2026-10-10 repair (AC3).
+
+## OPEN
+
+| # | Item | Type | Needed by | Since | PROME rec | Notes |
+|---|---|---|---|---|---|---|
+| 901 | ⚖️ **FIXTURE OPEN ROW** | RULE | 2026-10-17 | 10/10 | **Rec: none** | fixture |
+
+## RECENTLY DONE (rolls off ~7d)
+| **416 JANUS — A BOOT TRIAGE CLERK WITH ITS OWN CONTEXT WINDOW, FOUR-BOOT TRIAL — RULED APPROVE** | Will in-session 2026-10-10 15:01 ET, verbatim "approved." Record `PROME/proposals/2026-10-10_triage-clerk-RULED.md` (the PROPOSAL renamed at the word; §2 = the approved scope: computed candidate list, one-page slate to PROME/state/, no launch/message/record-write/authority, one Opus spawn per candidate-bearing boot, graded at the next spine audit on three named numbers). | RULED 2026-10-10 15:01 ET — Will APPROVE, verbatim *"approved."* Build = DOCKET L676 (a process change, one session's slot — Wed 10/14 after L628); first trial boot Thu 10/15. Closes on the build commit. Recorded 2026-10-10 15:01 ET (prome-ce); row re-cut to three cells 15:4x ET (ARGUS ❌1). |
+| **415 AEOLUS CHARTER BANDS — RULED by Will in AEOLUS's window 2026-10-10** | Will 2026-10-10 in AEOLUS's window (AskUserQuestion, both 'Approve (Recommended)'); recorded by PROME under C2, VERIFIED at AEOLUS's committed charter ba15cd455 12:15 ET and b8f160237 12:54 ET, both 'Will-ruled 10/10': (1) C3 WINTER band = CPC population-weighted HDD, trailing 30-day Middle Atlantic + East North Central vs 1991-2020, DJF windows, Y ≥0% / O ≥+10% / R ≥+20%, exit both <0% for 4+ sessions; (2) C2 EL NIÑO bands = South Africa corn vs 16,421 kt, Y ≤−15% / O ≤−25% / R ≤−45% (lead) + Australia wheat KB-103 (second) — the old symmetric CDD/HDD row superseded (verbatim in KB-AEO-200; a summer CDD re-spec OWED before 2027-05-01); (3) C6 leg 2 + milestone band re-keyed (the 1,010 vs 1,000 ft consultation-line split, b8f160237). | RULED 2026-10-10 — Will APPROVE, verbatim *"Approve (Recommended)"* (his AskUserQuestion selection, both bands, in AEOLUS's window). Owner encode = the charter commits themselves (AGENTS/AEOLUS/CLAUDE.md §THRESHOLDS); packet PROME/inbox/processed/2026-10-10_from-AEOLUS_el-nino-winter-repoint-rulings-colorado-readcap.md. Recorded 2026-10-10 13:04 ET (prome-ce). |
