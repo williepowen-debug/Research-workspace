@@ -23,7 +23,7 @@
 - The L180 breadth test (11/07 Call Reports) stays the CRE question; it is in the read plan, not here.
 *Prior open question + LAST SESSION 10/9 PM (incl. 10/10 AM) + PRIOR SESSION 10/9 AM → `archive/MEMORY_rotation_2026-10-10.md` BLOCK M1, crc32 `1548bf8c`.*
 
-### LAST SESSION — 2026-10-10 Sat ~12:39 → ~14:xx ET (Will-launched, Opus 5.5; AM bookkeeping is in BLOCK M1)
+### LAST SESSION — 2026-10-10 Sat ~12:39 → ~13:5x ET (Will-launched, Opus 5.5; AM bookkeeping is in BLOCK M1)
 **1. Boot:** full read set · market.py (10/9 settled, stale-weekend) · ladder rc 1 (FLG RED, 3 closes) · staleness · corrections 0 · inbox 0 at boot (+1 MARCO Pharr wording NO-OP, filed).
 **2. ★1 as-made audit (`28c7dd7dd`):** all 20 rows by text; REG-13 re-formed; REG-07 "Brier on 55%" corrected to 68% (WQ-112(i)); REG-10 registered after its outcome, kept scored (WQ-161 ②). DAEDALUS packeted (10/12 sitting).
 **3. ★2 FHLB (`e4916e89a`, `11f3a8a4b`, `e1fc74154`):**
