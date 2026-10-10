@@ -1,6 +1,41 @@
 # Cross-war energy-strike aggregate — HAWK, derived
 
-**Regenerated: 2026-09-28** (prior passes: 9/18, 9/16). Built from the owners' ledgers at their committed heads (**OSPREY `STRIKES.tsv` 5752e2cb4, 9/24, swept-complete through 9/20; FALCON `VESSELS.tsv` 2ad138c80, 9/22; FALCON facility `STRIKES.tsv` c4b8c83b9, 9/11**), plus a HAWK news sweep of 9/22–9/28 (§September28 below). The sweep items are **owner-pending, not adopted into counts**. HAWK does not maintain either theater's events. Exact committed report pins, event/publication/retrieval dates and access limits for the 9/16 base: `research/2026-09-16_cross-war-oil-review.md`.
+**Regenerated: 2026-10-10** (§October10 below; prior passes: 9/28, 9/18, 9/16). *9/28 basis, kept as history:* Built from the owners' ledgers at their committed heads (**OSPREY `STRIKES.tsv` 5752e2cb4, 9/24, swept-complete through 9/20; FALCON `VESSELS.tsv` 2ad138c80, 9/22; FALCON facility `STRIKES.tsv` c4b8c83b9, 9/11**), plus a HAWK news sweep of 9/22–9/28 (§September28 below). The sweep items are **owner-pending, not adopted into counts**. HAWK does not maintain either theater's events. Exact committed report pins, event/publication/retrieval dates and access limits for the 9/16 base: `research/2026-09-16_cross-war-oil-review.md`.
+
+## October10 refresh: owner ledgers at their heads, plus the WALTER lane 9/28 → 10/10 (66 signals)
+
+**Owner heads and row counts** (heterogeneous rows, not a census or additive capacity):
+
+| Owner ledger | Head commit | Rows on 10/10 | Rows on 9/28 |
+|---|---|---|---|
+| OSPREY `STRIKES.tsv` | `89d921862`, 10/10 | **150** mixed strike/maritime | 126 |
+| FALCON hull `VESSELS.tsv` | `4d06ed3a0`, 10/09 | **59** | 34 |
+| FALCON facility `STRIKES.tsv` | `71131f580`, 10/10; header swept-complete through 10/10 | **41** | 41 (unchanged since 9/11) |
+
+*Dated observation, not a judgement:* FALCON carries the Yanbu 10/01 port strike, the Khurais-spot fire and the Shedgum fire in its reports and KB (KB-266..268), not as facility rows.
+
+**Russia: the refining campaign continued through the US–Russia diesel deal.** All of the following is CAPACITY, not barrels, on OSPREY's ledger:
+- Volgograd: fully halted 10/02, ~280 kb/d, ~5% of Russian refining (Reuters; OSPREY verified).
+- Omsk 10/08: the governor confirms only that "an industrial zone was hit".
+- Salavat 10/08 and Ukhta 10/09.
+- Rostov NZNP products-export terminal 10/09–10: river port, out of C2 geography.
+- Samara LPDS (crude transit, inland) 10/02 and 10/10; Volodarskaya products LPDS 10/06; Astrakhan GPZ 10/04.
+
+Crude exports: Bloomberg four-week average 3.71 mb/d to 9/27 and **3.76 to 10/04**. The 3.76 is B3/UNCONFIRMED per OSPREY: BRENT could not read it at text either. **OSPREY C2 was KILLED 10/09 (dormant-armed); C3 reset to AFRAMAX RIO 10/06 (3/21).** At sea: ALFA WATAN sank inside Bulgaria's EEZ 10/06 (Russia-attributed by Zelensky), and two vessels were damaged in Azov port 10/10 (OSPREY's open lead).
+
+**Gulf: the Saudi transport chain is REPORTED recovered while the threat moved upstream and onto hulls inside the Gulf.**
+- **Petroline flow, three estimates on different bases, never averaged:** ~3.5 mb/d (Bloomberg 9/28, one source), ~5.5 mb/d (Argus via Newsquawk 10/01, one source) and the Energy Minister's "5.8 million" of 10/06 (no daily unit in the Reuters copy).
+- **Yanbu port:** struck 10/01, with a temporary terminal suspension (Vanguard, the stronger source; COR-20261002-16).
+- **Aramco:** reportedly supplying all November crude European refiners requested (Bloomberg 10/09, unnamed).
+- **Upstream (FALCON):** heat at the Khurais spot 10/03–07; the Shedgum gas plant burning since the 10/09 night passes; four north-Ghawar upstream spots stepped up 10/10. Cause is UNVERIFIED, gas plants are OUT of FALCON's rung, and FIRMS never counts.
+- **Hull war:** +25 hull rows since 9/28; strikes off Qatar (10/07) and RAK (10/09); IRGC threatens ships outside the Strait.
+- **FALCON state:** losses still 3; B1/C14/D85 HELD.
+
+**Cross-war read, 10/10 [EST]:**
+- **The asymmetry holds.** Russia's damage is REFINING/PRODUCTS; the Saudi damage was CRUDE TRANSPORT, and the threat is now on the upstream side. Different molecules, no pooled lost-barrel figure.
+- **New: one policy instrument now spans both wars.** GL 135 (10/09) licenses Russian diesel into the US-led response to a product squeeze that the Gulf war and Ukraine's refinery campaign both feed. Trump's own text makes the largest tranche (3 Mt) conditional on "the condition of their Diesel Refineries", the very capacity a senior Ukrainian official told the FT Ukraine will keep burning (relayed, 10/09; not a named-official or state statement).
+- ⛔ **No-double-count rule extended:** a Russian diesel barrel lost to a refinery strike and an undelivered GL 135 tranche are ONE barrel; count it once, at the refinery.
+- **HAW-22 (window from 10/01): no print candidate** (KB-HAWK-432).
 
 ## Reconciled current read
 
@@ -21,7 +56,7 @@
 
 **Owner-pending, from HAWK's 9/22–9/28 sweep (sub-agent, tags in the session scratch; NOT adopted):**
 - **Russia, PRODUCTS only.** Novoshakhtinsk refinery was **damaged and halted per Governor Slyusar** (9/24–25). Perm (Lukoil, ~252 kb/d) is halted per unnamed industry sources to Reuters; the governor confirmed only a drone attack. Ilsky (Krasnodar): suspension is claimed only by Ukraine. There were depot strikes in Rostov and Krasnodar. **No crude-export terminal or tanker strike was found** at Primorsk, Ust-Luga, Novorossiysk, CPC or Tuapse. Bloomberg's four-week crude-export average was **3.53 mb/d to 9/20** (pub 9/22, snippet only; the page returned 403), with the next print due 9/29. Producer diesel/gasoil export ban extended to 10/31 (no decree number); gasoline stays banned to 1/31/2027. A source estimate says capacity lost overstates barrels lost by about 3:1. Ukraine's claim of ">45% of capacity disabled" is a party claim.
-- **Saudi transport chain.** Pumping restarted at a low rate 9/22 (REPORTED). **Bloomberg 9/28: Yanbu exports resumed after a 17-day halt** (one unnamed source; Aramco and MoE no comment; no volumes or tanker names). **Still NOT operator-confirmed.** Europe was told there are no October Yanbu cargoes. Houthi missiles at Taif/Yanbu were intercepted 9/24; the Houthi claim of hits on Aramco Yanbu is unconfirmed.
+- **Saudi transport chain.** Pumping restarted at a low rate 9/22 (REPORTED). **Bloomberg 9/28: Yanbu exports resumed after a 17-day halt** (one unnamed source; Aramco and MoE no comment; ⛔ *"no volumes"* CORRECTED 10/10 under COR-20260928-20: Bloomberg's original gives **~3.5 mb/d Petroline FLOW**, one source; no tanker names). **Still NOT operator-confirmed.** Europe was told there are no October Yanbu cargoes. Houthi missiles at Taif/Yanbu were intercepted 9/24; the Houthi claim of hits on Aramco Yanbu is unconfirmed.
 - **Hormuz.** Tracker counts diverge by method: 1 transit on 9/20 (PortWatch), 12 on 9/23 (Windward), 24 on 9/27 (straits.live). The transit-count family stays **inadmissible as a falsifier basis** (KB-HAWK-270). Dark crude flow continues, and Saudi September exports via Hormuz are about 3.6 mb/d (sweep, read). **Diplomacy:** the Iran 7-day plan and Trump's rejection, timeline in KB-HAWK-416. Nothing is signed.
 
 **Cross-war read, 9/28 [EST].** The asymmetry from 9/16 persists and sharpened: **Russia's damage is still PRODUCTS (refining), and Saudi's is CRUDE TRANSPORT, now reportedly reversing.** No pooled lost-barrel figure. The Russian crude-export counter-signal holds, with **3.53 mb/d to 9/20** against 3.54 to 9/13, flat. **HAW-19's letter printed LEG A NOT FIRED and LEG B UNDETERMINED** (B.5 vendor-unreachable) at the 9/28 encode (KB-HAWK-415). **HAW-22's event window opens 10/01** and grades DISCLOSED damage only.

@@ -95,7 +95,7 @@ def check_proximity(price):
     """Check if price is within 10% of any threshold."""
     warnings = []
     for level, zone, desc in THRESHOLDS:
-        dist_pct = abs(price - level) / level * 100
+        dist_pct = round(abs(price - level) / level * 100, 6)  # L546 (DAEDALUS 10/8): round before the edge compare; float x100 can land an exact-10% tie at 10.000000000000002
         if dist_pct <= 10:
             direction = "above" if price > level else "below"
             warnings.append({
