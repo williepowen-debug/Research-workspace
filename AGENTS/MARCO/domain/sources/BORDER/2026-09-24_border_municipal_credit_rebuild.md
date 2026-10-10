@@ -26,7 +26,7 @@
 ## How the result reads against the pre-registered letter
 - **"Deficits widening + ratings under pressure"** is met in **Pharr** (downgrade + negative outlook + negative GF cash) and approached in **Laredo** (FY26 −19% draw toward S&P's stated trigger).
 - **But the channel's MECHANISM is not what's doing it.** Channel 4 = *Mexican-shopper/remittance dependence → retail + tax base erosion → municipal fiscal stress*. The tax base is **growing in all five cities** (TX border +5.70%, ≈ state; Nogales +6.3%). Pharr's stress is expenditure/control failure with rising sales-tax and bridge revenue. Laredo's is below-budget (not negative) growth that the city attributes to **tariffs** — a trade channel, not shoppers.
-- ⇒ **Threshold-met / mechanism-refuted in Pharr** (same scoring as MAR-22) — MARCO's characteristic single-mechanism over-attribution error would credit it to the channel. Do not.
+- ⇒ **Threshold-met / mechanism NOT ESTABLISHED in Pharr** (same scoring as MAR-22) — MARCO's characteristic single-mechanism over-attribution error would credit it to the channel. Do not. ⚠️ *Token narrowed 2026-10-10 (CATO AP3 via PROME): this evidence withholds attribution; it does not exclude a shopper/remittance contribution — rising nominal receipts cannot rule out a real drag against a higher counterfactual. Shopper contribution UNMEASURED.*
 - ⇒ On the mechanism the channel names: **stabilization.** Per the letter that is **LOW confirmed or retirement** — Will's call (v3.1 precedent: Channel-4 conviction moves were Will-directed).
 
 ## Explicit negatives (consolidated)

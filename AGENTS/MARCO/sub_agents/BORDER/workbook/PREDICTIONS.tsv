@@ -1,5 +1,6 @@
+FROZEN 2026-10-10 — not maintained; STATUS is canonical, do not cite rows as current. Dormant sub-agent ledger (rows Apr-2026). BDR-01 GRADED 2026-10-10 (RESOLVED-CORRECT, twin MAR-27). BDR-02 is past-date and UNGRADED here — near-twin MAR-25 (TSA walkout → FL airport delays) CONFIRMED 2026-03-22 in thesis/PREDICTIONS.tsv (window differs). BDR-04 (border fiscal stress) rests on Channel 4, re-marked LOW at thesis v3.2 (Will-ruled 2026-09-24). Live predictions: thesis/PREDICTIONS.tsv.
 ID	Prediction	Timeframe	Confidence	Status	Resolution_Date	Notes
-BDR-01	DHS shutdown continues past Day 60	Apr 2026	70%	ACTIVE	2026-04-30	House conservatives blocking
+BDR-01	DHS shutdown continues past Day 60	Apr 2026	70%	RESOLVED	2026-04-30	RESOLVED-CORRECT, graded 2026-10-10 from MARCO's own record (thesis/TIMELINE.md 2026-04-30 row: DHS shutdown ENDED at Day 76, the longest ever; main-ledger twin MAR-27 CONFIRMED 2026-04-30). It continued past Day 60. Graded on the DAEDALUS Falsification #4 ask (10/8): 161 days past with no grade. Was: House conservatives blocking
 BDR-02	TSA disruption → measurable travel delays (Memorial Day)	May 2026	75%	ACTIVE	2026-05-31	400+ quits, 12% callout rate
 BDR-03	ICE farm raids → planting/harvest disruption	2026	65%	ACTIVE	2026-12-31	CA +58%, WA 400+/mo
 BDR-04	Border city fiscal stress → municipal credit pressure	H2 2026	55%	ACTIVE	2026-12-31	Nogales 60% sales tax from MX

@@ -1,0 +1,2 @@
+receipt_date	correction_id	action	note
+2026-10-10T16:54Z	COR-20260924-17	NO-OP	scope=MARCO never carried the grocery nominal-sales claim - STATUS NEXUS_BRIEF KB VX THESIS grep grocery = 0 at 2026-09-24 and SIG-W-20260813-019 was logged info-only; artifact=AGENTS/MARCO/board_log.tsv#SIG-W-20260924-017; receipted 2026-10-10 L0 drain marco-1010 in the WQ-399 form

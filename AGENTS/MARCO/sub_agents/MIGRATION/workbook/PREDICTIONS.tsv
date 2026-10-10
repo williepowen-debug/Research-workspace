@@ -1,3 +1,4 @@
+FROZEN 2026-10-10 — not maintained; STATUS is canonical, do not cite rows as current. Dormant sub-agent ledger (rows Apr-2026). Past-date rows are UNGRADED here; their main-ledger twins in thesis/PREDICTIONS.tsv hold the grade: MIG-01 = MAR-08 (CONFIRMED 2026-04-17) · MIG-02 = MAR-22 (RESOLVED 2026-08-21) · MIG-03 ≈ MAR-24 (OPEN; airport set differs — MIG-03 names TPA, MAR-24 is MIA/MCO/FLL).
 ID	Prediction	Timeframe	Confidence	Status	Resolution_Date	Notes
 MIG-01	FL condo inventory >9 months	Q2 2026	75%	ACTIVE	2026-06-30	Migration collapse → demand withdrawal
 MIG-02	OIA (Orlando) airport traffic flips negative	Q2-Q3 2026	70%	ACTIVE	2026-09-30	Tourism + migration double hit

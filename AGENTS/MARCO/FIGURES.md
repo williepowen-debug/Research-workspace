@@ -74,8 +74,8 @@ Not rot. These update on a fixed cadence and are current *as of their last relea
 |---|---|---|---|---|
 | **FL net domestic migration** | **+22,517** (93% collapse from 310,892 in 2022; FL #1 → #8) | 2025 annual | Census, ~late 2026 | `VX.tsv` 3.03 |
 | Net migration estimate (CBO) | −290K to −525K | 2025 | ~late 2026 | `VX.tsv` 2.04 |
-| FL international migration | +411K (2024) — **⚠️ a 2025 print exists: +178,674 (Census components of change, via CORAL; −56.5% YoY), carried in `VX.tsv` 3.04 since 9/17, not re-verified at Census by MARCO** | 2024 (baseline) / 2025 (CORAL-carried) | ~late 2026 | `VX.tsv` 3.04 |
-| TX net domestic migration | +219K (2022) → **+67K (2024)** = 69% collapse; still positive | 2024 | ~late 2026 | `VX.tsv` TX-04 |
+| FL international migration | **+178,674 (2025) vs +283,664 (2024), same vintage (Census V2025) = −37.0%** — the old "+411K (2024)" was Vintage-2024's estimate and the "−56.5%" compared across vintages (RETRACTED 9/24, see the retraction table below; row corrected 2026-10-10 after DAEDALUS PR#7 flagged it) | 2025 (V2025) | ~late 2026 | `VX.tsv` 3.04 |
+| TX net domestic migration | **V2025: 2024 +86,067 · 2025 +67,299** — still positive (the old "+67K (2024)" label was the 2025 value, RETRACTED 9/24; the carried +219K (2022) is an older vintage, so no collapse % is quoted across them — corrected 2026-10-10) | 2025 (V2025) | ~late 2026 | `VX.tsv` TX-04 |
 | Canada tourism index | ~0.72 (2025 trips ÷ 2019) | 2025 annual | ~early 2027 | `VX.tsv` CTI-01 — ⚠️ overlaps 1.01; **1.01 is the live Canadian read** |
 
 **Sub-annual FL migration proxies** (`workbook/MIGRATION_PROXIES.tsv`): FLHSMV licence inflow **+3.0% H1-2026**, voter-reg net **−0.8% (May)**. **DIRECTION TELLS ONLY — different bases; never restate as the canonical level.**

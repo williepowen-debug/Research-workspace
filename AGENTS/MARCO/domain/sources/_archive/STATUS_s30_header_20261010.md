@@ -1,0 +1,5 @@
+# MARCO STATUS — s30 header, rotated verbatim 2026-10-10 (s31 L0 drain)
+
+# MARCO STATUS
+**Last Updated:** 2026-09-24 ~16:xx ET (session 30 — Will-directed boot + stale-info sweep) | **Thesis:** v3.2 | **Status:** 🟠 ELEVATED
+**This session in one line:** **s30 (Will: boot + stale sweep, then all stale VX rows, then a full band audit) — no thesis move.** Stale rows refreshed on primaries; voter-reg counter-signal re-based (midterm cycle); mislabels fixed; 5 files archived. Detail → SCRATCH + `_archive/STATUS_s29_header_20260924.md`. **s30d (full band audit, 36 live rows, 3 blind Opus readers + MARCO adjudication):** 22 rows followed cleanly; re-graded `APT-01` ELEVATED→**CRITICAL** (declared basis; confounded, duplicates `1.04`), `CA-02` CRITICAL→**UNSCORED**, `1.03` → ELEVATED (12-month-actual rule); `2.01` BREACHED **confirmed on fresh TRAC data** (June arrests ≥4.2× FY24); Census Vintage-2025 fixes to `3.04` (−56.5% was cross-vintage → **−37.0%**; CORAL packeted), `TX-04`, `SBMD-01`. s30b/s30c detail + prior header → `_archive/STATUS_s29_header_20260924.md`.

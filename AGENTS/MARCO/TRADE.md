@@ -1,5 +1,23 @@
-# MARCO — Trade Ideas
+# MARCO — TRADE surface
 
+> **DECLARED FLAT — 2026-10-10. No position, by design. Not stale: this is the maintained state.**
+> MARCO carries no positions. Position truth is off-repo (Will / broker); trade construction is TERRY's (root rule #5: proposals → Will approves). This file states the **domain condition** that would make an expression worth sending to TERRY — nothing here is a trade.
+
+## Why flat
+MARCO's channels express **downstream** (REGINALD bank/CRE · CARL consumer · LABOR employment), and none currently has a confirmed bridge to a tradeable P&L: Channel 1 transmission is undemonstrated after three pre-registered nulls (v3.0); Channel 4 (border munis, the old IBOC idea) is **LOW** at v3.2 (Will-ruled 2026-09-24); Channel 2 (Canadian / international visitor withdrawal) is the strongest channel but is national and diffuse, and the FL airport legs are confounded by Spirit's liquidation.
+
+## The re-arm conditions (each is an EXISTING registered letter — no new threshold)
+| Trigger (owner file) | Consequence |
+|---|---|
+| **MIA negative YoY 2 consecutive months on MIA's own count** (charter send-table + airport block item 3; Aug −5.69%, Sep report ~late Oct) **and** CORAL's bank rail met in the same window (`AGENTS/CORAL/TRADE.md`) | MARCO packets TERRY + REGINALD + CORAL with the demand-vs-capacity caveat; TERRY decides whether and how to construct. |
+| **FL population decline, domestic + international** (charter send-table, 🔴 → PROME) | Packet PROME + TERRY + CORAL: the FL demand base itself is contracting. |
+| **Channel 4 re-mark UP** — a border tax-base decline the state average does not share, or a rating action whose stated driver is revenue loss tied to cross-border activity (`thesis/THESIS.md` Channel 4) | Re-opens the border-bank question (history below); packet REGINALD + TERRY. |
+
+**Not triggers on their own:** remittance 2-yr stack, `SDL-01`, airfares (`ENR-02`), Canadian stack, condo inventory. They raise pressure; they do not establish a bridge to a P&L.
+
+---
+
+## History (FROZEN 2026-09-24 — kept as record, not maintained)
 > **FROZEN 2026-09-24 — not maintained; STATUS is canonical, do not cite rows as current.** Feb-14 watchlist, kept as history only. MARCO carries no positions; trade construction is TERRY's (root CLAUDE.md). Why frozen rather than refreshed: every idea below was built on the pre-v2.1 acute-crisis framing, and the two load-bearing premises have since failed — **(1) IBOC puts:** the border-bank case rested on Channel 4 border fiscal/credit stress, which was re-marked **LOW at thesis v3.2 (Will-ruled 2026-09-24)** after the border credit check found El Paso/McAllen/Nogales stable and the tax base growing (+5.70% Jan–Sep); its "Sept 2026 expiry" window has also lapsed. The winter FL-$ hole it was once tied to is **do-not-cite** pending DEWEY `MARCO-DR-1` (PROME DOCKET L466). **(2) Ag exposure:** Channel 1 transmission to prices/costs is undemonstrated after three pre-registered nulls (v3.0). Stale figures below (remittances "−5%", Central America "+18-25%", construction "−92.7%", 2.2M "CBO") are all superseded — see STATUS / `FIGURES.md`. A new idea goes to TERRY as a packet, not into this file.
 
 **Last Updated:** 2026-02-14
