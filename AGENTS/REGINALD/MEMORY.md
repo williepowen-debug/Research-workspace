@@ -59,7 +59,7 @@
 ### NEXT SESSION
 **★ WILL'S ORDER FOR THE NEXT BOOT (10/10 12:35 ET: "we will handle these three when I reboot"):**
 1. ✅ **DONE 10/10 PM: the 9/7 DAEDALUS as-made packet (PR#6 ask 3).** All 20 rows were re-derived by text from the old `PREDICTIONS.md` file (the tool searched STATUS only). REG-13 is re-formed `72% [3/5] (was 55% [2/16])`. My 9/11 receipt's "REG-07 Brier on 55%" is corrected to 68% (WQ-112(i)). REG-10 was registered after its outcome; it stays scored. Receipt → `registry/NOTES.md`; DAEDALUS packeted for its 10/12 sitting. No Will decision was needed: the WQ-112 / WQ-161 canon decided it.
-2. **FHLB Atlanta + San Francisco 10-Qs,** before the Q3 FHLB advances report (~late Oct / early Nov; `REG-T-06` fires on a Q3 print >$700B). Question: is the jump to $810.7B in June broad, or PNC-only (Pittsburgh)?
+2. ✅ **DONE 10/10 PM: FHLB composition** (`reports/2026-10-10_FHLB_Q2_composition_and_REG-T-06_base_rate.md`, ML-REG-185). It is neither PNC-only nor broad: about half of H1's +$136.2B is four very large banks (PNC, Citi, USB, WFC), while mid/small filers were flat (median 0%). Atlanta +6.9%, SF −10.6%. ⚠️ **`REG-T-06` doesn't discriminate:** >$700B in 12 of 26 quarters since 2020, and as lettered it fires mid-2023 and never exits. **Re-letter question → PROME to register for Will; get the word BEFORE the Q3 print.** Packets to LIQUID / BOND are held until Will rules.
 3. **The five aged July threads** (ROADMAP: domain-sweep · TX/Sun-Belt 2022-MF · BKU warehouse/buyout · ZION muni-conduit · CCC/HY 3-consec counter). A keep-or-close verdict on each, using the 9/2 method.
 **Also live:**
 - **REG-07 VOID-or-CHANGE** is Will's call before SSB prints 10/21; if he doesn't answer, it grades on the change.
