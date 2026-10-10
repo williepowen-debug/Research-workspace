@@ -788,3 +788,4 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-10-09	powell_elev	3518.97	ft	USBR-919-49	2026-10-10 10:58 ET	8.97 ft above 3,510; read 10/10 by AEOLUS directly
 2026-10-10	rosario_stage	3.22	m	UNL-FICH-hist39	2026-10-10 11:46 ET
 Rosario Parana 10/10 08:42: 3.22 m = HIGHEST of the trailing 366 daily records (P10 1.51, median 2.32) - favourable for grain logistics; read by AEOLUS directly					
+2026-10-09	gatun_elev	85.26	ft	ACP-Gatun-CSV	2026-10-10 12:29 ET	rising 9 of the last 11 days; read 10/10 by AEOLUS directly
