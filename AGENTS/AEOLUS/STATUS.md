@@ -1,118 +1,134 @@
 # AEOLUS STATUS
 
-**Last Updated:** 2026-10-08 ~08:32 ET (**bounded dispatch session**, WQ-369 narrow C8 — Hurricane Isaias, WALTER SIG-W-20261008-001 IMMEDIATE; spawned by PROME `prome-fc`; 10 days dark 9/28→10/8). Prior full rebuild 2026-09-28 (rotated 9/18 file: `archive/STATUS_ARCHIVE_2026-09-18_full.md`).
-**Status:** 🟡 **C1 — Hurricane Isaias, the season's first hurricane, lands on the northern Gulf near the Alabama–Florida line Fri night–early Sat (NHC 7A); the major-landfall trigger is ARMED.** 🔴🔴 **C5 — the Rhine is below its all-time record low at both graded gauges, every complete day 9/18→10/7 (20 days); still FIRED.** 🔴 **C6 — Mead 1,037.69 ft [10/7], 2.69 ft above Hoover 1,035.**
+**Last Updated:** 2026-10-09 21:32 ET (**Will-directed session**, "boot up + catch up on recent news including the hurricane"; DOCKET L627 owner). Prior: 10/8 bounded Isaias dispatch (aeolus-1008/1008b). Full rebuild 2026-09-28 (rotated 9/18 file: `archive/STATUS_ARCHIVE_2026-09-18_full.md`).
+**Status:** 🟡 **C1 — Hurricane Isaias made landfall near Destin, FL at 8:30 PM CDT Fri 10/9 as a Category 2 (90 kt / 105 mph, 971 mb); the major-landfall trigger did NOT FIRE (6 kt under).** 🔴🔴 **C5 — Rhine below its all-time record low at both graded gauges every complete day 9/18→10/9 (22 days); still FIRED, WSV forecasts the rise that would end it ~10/11–13.** 🔴 **C6 — Mead 1,037.61 ft [10/8], 2.61 ft above Hoover 1,035.**
 **Class:** Market-agent (climate → economy) · **Self-level:** L2
-**Session (10/8):** Isaias read at the primaries (NHC 7A/#7 · MMA 10/7 shut-in · FL EO 26-202 · ATCF/HURDAT2 ACE · Artemis) → **C1 1→2** (VX-39). FL reinsurance figure reconciled to CORAL's (KB-167). Rule 6c dark-window scan: **no exit on C5, no fire on C6**. Inbox drained to EMPTY (2 packets + 8 WALTER signals). **NOT done (bounded):** C2/C3/C4 refresh, the 10/01 cluster, CPC 10/08, Contargo/Danube/Panama/Mississippi re-reads — OWED below. No workers spawned.
+**Session (10/9):** NHC 13A + landfall statement · MMA 10/9 (71.51% oil shut in) · ACE recomputed · pre-landfall loss estimates · FL insurer closes · CPC 10/8 + ONI/RONI JAS · USDA Oct WASDE (Aus wheat) · USDM · NIFC 10/01 outlook · Rhine/Mead/Powell/Panama/Danube/Mississippi/Contargo · Colorado Guidelines §3. **Workers spawned: water, regime, wildfire** (overdue catalysts — SCRATCH). Moves: **C2 3→2** (VX-40) · **C1 held at 2 — landfall NOT FIRED** (VX-41, KB-189). Inbox drained (7 WALTER + 2 DAEDALUS). **NOT refreshed: C3** (PJM/WATT), Yangtze/Paraná.
 
 > Data is primary-sourced and dated below. Per Critical Rule #3, verify against the primaries (CPC/NHC/USBR/WSV/ACP/NIFC/NWPS) before any trade use. No naked numbers.
-> **STATUS budget: 32,550 B (`READ_CAP.md`) · <250 lines.** Measure with `PROME/tools/measure.py`. **Rulings that still govern:** `wksst9120.for` is the sole weekly ENSO figure (KB-088) · §C6 "USBR's path projects a breach" is SATISFIED-AT-WRITE-TIME, never a live leg · **SLOTS ≠ TRANSITS** · grade Rhine on **UNROUNDED** means only · Mississippi stored on **UTC-day** daily means (KB-159).
+> **STATUS budget: 32,550 B (`READ_CAP.md`) · <250 lines.** Measure with `PROME/tools/measure.py`. **Rulings that still govern:** `wksst9120.for` is the sole weekly ENSO figure (KB-088) — **CPC discussion prose quotes the RELATIVE monthly index; never label it "weekly" (KB-181)** · §C6 "USBR's path projects a breach" is SATISFIED-AT-WRITE-TIME, never a live leg · **SLOTS ≠ TRANSITS** · grade Rhine on **UNROUNDED** means only · Mississippi stored on **UTC-day** daily means (KB-159) · **NHC intensity is graded in KNOTS as stated (5-kt steps) — never a mph→kt conversion.**
 
 ---
 ## CONVERGENCE MATRIX
 
 | # | Channel | Score (1–5) | Local state | Independence | Key Signal | Upgrade Trigger |
 |---|---|:--:|---|---|---|---|
-| C1 | Insurance / reinsurance | **2 🟡 ↑ from 1** | **WATCH — Isaias (AL09), first 2026 hurricane, under a US Hurricane Warning** | El Niño root (suppress — yet RI through ~20 kt shear on 30 °C water); C4 hinge | **70 kt / 975 mb [10/8 12Z]; forecast peak 95 kt (1 kt under major), landfall Fri night–early Sat near the AL/FL line** · ACE **12.6675 = 12.37%** of the Oct-8 to-date normal · cat-bond spread **4.57% [9/25], lowest since 2020** | **ARMED:** a peak-season **Gulf/FL major** landfall — grade at landfall (CALENDAR 10/9–10) |
-| C2 | Agriculture / food | **3 🟠** | ⚠️ **NOT REFRESHED this session** — reads 8/16–8/25 vintage | drought root shared w/ C4; ENSO reaches C2 via **Asia-Pacific** | Aus wheat: corr(ONI, yield) −0.421 n=63; USDA 2026 −22.2% = the El Niño **median**. USDM CONUS D1–D4 **59.24%** [9/22]; **Tennessee 17→48%** | **→4:** a **second region** confirming AND the cereals index breaking |
-| C3 | Energy demand | **3 🟠** | 4 PJM emergencies in 2026, all closed; **none EEA2+ since 7/3** | El Niño root (w/ C1/C6) | 9/16–17 **not a heat event over PJM** (0 NWS heat headlines; TVA/MISO +10–19 °F) — weather consistent with WATT's supply-side read (KB-157) · 2028/29 BRA 6,831 MW short | realised record peak w/ **EEA2+** OR Henry Hub break |
-| C4 | Property / physical | **2 🟡 ↓ from 3** | **peril leg cooled; loss leg blind** | partly independent (fire = drought, not hurricane) | **NIFC PL 2 since 9/22**; personnel 5,697 (from 12,315); acres **8,563,287** (absolute) · cat-loss H1 ~72% of 10-yr avg (window closed 6/30) · CA non-renewals censored by moratorium (KB-130) | Q3 cat tally **≥110%** OR a **>$10B** insured cat OR PL ≥4 — **the >$10B leg is ARMED by Isaias (same event as C1: count it ONCE); no loss estimate exists yet** |
-| **C5** | Supply chain / logistics | **5 🔴🔴** | 🔴🔴 **C5 →5 FIRED-ON-LETTER since 9/28 — no exit through 10/7** | **European basin = its own root** (Rhine + Danube counted ONCE); Panama = ENSO root (w/ C6) — **not contributing** | **Kaub 6.260 / 1.583 / 1.323 cm vs 25 · Duisburg 130.833 / 130.885 / 129.979 vs 153 [10/5–7]**; run low Kaub −4.802 [10/1] · freight: Contargo €1,075 / 20′ [9/28 — not re-read 10/8] · Danube 23/44 [9/28] · Panama A-36 49.0 ft | **Exit:** the same 3-day test failing |
-| C6 | Water scarcity / allocation | **4 🔴** | 🔴 Mead finished September **0.60 ft BELOW** the Sept 24MS path; drift now ~flat | El Niño Western-hydrology root; **Powell↔Mead ONE system** | **Mead 1,037.69 [10/7], 2.69 ft above 1,035** (slope ~−0.01 ft/day 9/27–10/7, was −0.068) · Powell **3,519.04 [10/6]**, rising, 9.04 ft above 3,510 · 2027-28 Guidelines effective 10/01 (not re-read) | **→5:** see §C6 |
+| C1 | Insurance / reinsurance | **2 🟡** (held) | **Isaias LANDFALL near Destin FL 0130Z 10/10 — Cat 2; major trigger NOT FIRED** | El Niño root (suppress) — yet a 105-kt peak over 30 °C water; C4 hinge | **Landfall 90 kt (105 mph) / 971 mb** (NHC TCU 0130Z); peak **105 kt** over water 10/9 12–18Z · ACE **18.02 = 17.46%** of to-date normal · pre-landfall loss estimates **mid-single-digit $bn** (BMS $4–6B) · cat-bond spread 4.57% [9/25] | **Spent for Isaias (NOT FIRED)**; re-arms on the next Gulf/FL system · C4 >$10B leg on post-landfall estimates |
+| C2 | Agriculture / food | **2 🟡 ↓ from 3** | **El Niño yield leg out of band:** USDA raised Aus wheat | drought root shared w/ C4; ENSO reaches C2 via **Asia-Pacific** | **Aus wheat 31.0 MMT = −10.3% vs 5-yr** (was 28.0 = −19.0%; proposed Yellow ≤−15%) [Oct WASDE 10/9] · no 2nd region ≤−15% · USDM CONUS D1–D4 **55.21%** [10/6] (−4.17 pp/wk) | **→3:** Aus wheat ≤−15% again OR a 2nd El Niño region ≤−15% |
+| C3 | Energy demand | **3 🟠** | ⚠️ **NOT REFRESHED** — 9/18 vintage | El Niño root (w/ C1/C6) | 4 PJM emergencies 2026, all closed; none EEA2+ since 7/3 (WATT canonical) · Isaias outages → WATT | realised record peak w/ **EEA2+** OR Henry Hub break |
+| C4 | Property / physical | **2 🟡** | peril leg cool; **loss leg = Isaias, below the >$10B line on every estimate** | partly independent (fire = drought; Isaias = SAME event as C1, count once) | **NIFC PL 2** (since 9/22); acres **9,013,486 = 145%** of 10-yr avg [10/9] (+409k after 9/30, cause unstated) · Isaias pre-landfall **mid-single-digit $bn**; Twelve Securis: >$10B "less likely" | Q3 cat tally **≥110%** OR a **>$10B** insured cat OR PL ≥4 |
+| **C5** | Supply chain / logistics | **5 🔴🔴** | 🔴🔴 **FIRED-ON-LETTER since 9/28 — no exit through 10/9** | **European basin = its own root** (Rhine + Danube counted ONCE); Panama = ENSO root (w/ C6) — not contributing | **Kaub 1.323 / 0.990 / 7.583 cm vs 25 · Duisburg 129.979 / 138.333 / 140.396 vs 153 [10/7–9]** · WSV: Kaub 25 at 10/12 21:00, Duisburg 154 peak (single readings) · Contargo Kaub €1,075 / Ruhrort €675 (from €800) | **Exit:** the same 3-day test failing |
+| C6 | Water scarcity / allocation | **4 🔴** | 🔴 Mead drifting down again (−0.08 ft/day 10/4–8) | El Niño Western-hydrology root; **Powell↔Mead ONE system** | **Mead 1,037.61 [10/8], 2.61 ft above 1,035** · Powell **3,519.03** [10/8], 9.03 above 3,510 · **2027-28 Guidelines: no 10/01 effective date — effective only on executed agreements (§3, KB-185)** · Oct 24MS not out | **→5:** see §C6 |
 
-**Composite: 19/30 · range 1–5 · moved this session: 1 (C1 +1, forced by SIG-W-20261008-001 verified at NHC 7A) · fired 1/6.** Conservation: 2+3+3+2+5+4 = 19 = published; one verdict cell FIRED (C5). ⚠️ C2/C3/C4 cells are 9/28 vintage — NOT re-read 10/8.
-> The scalar stays impeached (disposition 8/21); the four-figure form carries the information. ⚠️ **C5 at 5 is driven by ONE root** (Central-European drought) — a reader must not add the Danube as a second witness.
+**Composite: 18/30 · range 1–5 · moved this session: 1 (C2 −1; C1 held at its landfall grade) · fired 1/6.** Conservation: 2+2+3+2+5+4 = 18 = published; one verdict cell FIRED (C5). ⚠️ C3 is 9/18 vintage.
+> The scalar stays impeached (disposition 8/21); the four-figure form carries the information. ⚠️ **C5 at 5 is driven by ONE root** (Central-European drought) — a reader must not add the Danube as a second witness. ⚠️ **Isaias is ONE event for C1 and C4** — a loss estimate moves one leg, never both.
 
 ---
 ## 🔴 UPGRADE TRIGGERS — live rules
 
-### C5 →5 — 🔴🔴 **FIRED ON ITS LETTER 2026-09-28 · STILL FIRED 10/8**
+### C1 — Isaias MAJOR-LANDFALL grade (DOCKET L627)
+**Letter (KB-174, registered 10/8):** *"a peak-season Gulf/FL MAJOR landfall"* = **≥96 kt AT landfall per NHC's landfall statement/TCU** — in practice a stated **≥100 kt** (NHC uses 5-kt steps). 83–95 kt = NOT FIRED. A peak over water does not count. **Score rule pre-committed before the statement** (`hurricane/workbook/LOG.tsv`, commit `30d0ab065` 20:46 ET): FIRED → C1 2→3 · NOT FIRED → C1 holds 2.
+| Read | Intensity | Where / when | Source |
+|---|---|---|---|
+| Peak over water | **105 kt** (b-deck) · TCU 7:20 AM CDT 120 mph/959 mb | 10/9 12Z–18Z | ATCF btk · NHC TCU |
+| TCD 13 (4 PM CDT) | surface "around 100 kt"; dropsonde layer-avg 90–95 kt; HAFS/HWRF/SHIPS/LGEM "at or near major at landfall"; shear 30–40 kt | — | NHC TCD 13 |
+| TCU 6 PM CDT | 115 mph / 960 mb, 29.8N 86.8W | 23Z | NHC TCU |
+| **13A 7 PM CDT** | **95 kt (110 mph) / 967 mb**, 30.1N 86.6W, N 18 mph, "landfall … within the next hour or two" | 00Z 10/10 | NHC 13A |
+| TCU 8 PM CDT | 105 mph (90 kt) / 971 mb, 30.2N 86.5W | 01Z | NHC TCU |
+| **LANDFALL STATEMENT** | **105 mph = 90 kt / 971 mb** — *"made landfall near Destin, Florida, around 830 PM CDT (0130 UTC)"* (NWS Doppler radar) · obs: Santa Rosa Sound 91 mph sust / 116 gust; Panama City Beach water 5.6 ft above MHHW | **0130Z 10/10, 30.4N 86.5W** | **NHC TCU 100130** |
+**Verdict: NOT FIRED** (90 kt < 96 kt; Category 2) — graded 2026-10-09 21:31 ET at the statement, KB-189. **C1 held at 2** per the pre-committed rule. **C1 exit leg 2 STAYS LIVE to 11/30.** ⚠️ The operational number can be revised in NHC's post-season Tropical Cyclone Report (months out); the grade is recorded on the operational statement and a TCR revision is logged as history, never re-graded. **C1 exit leg 2** resolves on the same read.
+
+### C5 →5 — 🔴🔴 **FIRED ON ITS LETTER 2026-09-28 · STILL FIRED 10/9**
 **Kaub daily mean ≤25 cm AND Duisburg-Ruhrort ≤153 cm on the 3 MOST RECENT COMPLETE days** (unrounded, ≥90/96 readings). Levels = WSV `NNW` record lows (2018-10-22/23), FROZEN. **Exit = the same test failing.**
 
 | Date | Kaub (≤25?) | n | Duisburg (≤153?) | n |
 |---|---|---|---|---|
-| 10/5 | **6.260 ✅** | 96 | **130.833 ✅** | 96 |
-| 10/6 | **1.583 ✅** | 96 | **130.885 ✅** | 96 |
 | 10/7 | **1.323 ✅** | 96 | **129.979 ✅** | 96 |
+| 10/8 | **0.990 ✅** | 96 | **138.333 ✅** | 96 |
+| 10/9 | **7.583 ✅** | 96 | **140.396 ✅** | 96 |
 
-**Recomputed by AEOLUS at PEGELONLINE 2026-10-08 08:29 ET** (reproduces the 9/26–28 figures to 3 dp: −0.844/−0.604/1.537 · 130.344/126.104/123.031). **Run: every complete day 9/18 → 10/7 (20 days), n=96 each; rule-6c scan of 9/29–10/7 found NO exit.** Lowest day: Kaub −4.802 [10/1]. NNW re-read 10/8: 25.0 / 153.0, 2018 occurrences — not republished; gauge zeros unchanged since 2019-11-01. WSV forecast Kaub flat at −1 cm to 10/10. KB-AEO-152, KB-AEO-172.
-> ⚠️ **UN-BASE-RATED — but the caveat cuts ONE way.** The levels are record lows, so the boundary can only be **too strict**: a fire means the reach is below anything in the published record. **9/30 re-scope obligation — RULED 9/28:** base-rate **NOT MET** (the multi-year series is still unreachable; WSV file-service archive starts 2026-06-20). **Levels and N=3 RETAINED; no re-key while the trigger is live** — re-keying a gate mid-fire is how a gate gets bent to its answer. GlW (77 / 227) re-key stays PROPOSED for after exit; long-series hunt re-dated **10/31**.
-> **Registered historical fire (kept):** 9/10–12 (Kaub 21.531/21.844/20.635; Duisburg 152.906/149.146/145.073) — never grade off rounded `SERIES.tsv` (Duisburg 9/10 rounds to 153.0).
+**Computed by the water worker at PEGELONLINE 10/9 20:3x ET** (10/5–10/7 recomputed, identical to 3 dp). **Run: every complete day 9/18 → 10/9 (22 days).** Lowest day: Kaub −4.802 [10/1]. NNW re-read 25.0 / 153.0, not republished. **WSV 10/9 07:00:** Kaub 5 → 12 by 10/11, reaches **25 at 10/12 21:00**; Duisburg **154** single readings 10/10 eve → 147–148 by 10/13. Contargo forecasts Duisburg **171** for 10/11 vs WSV ~152 — **unreconciled**. **A forecast crossing is not an exit; daily means only.** KB-152, KB-184.
+> ⚠️ **UN-BASE-RATED — but the caveat cuts ONE way.** The levels are record lows, so the boundary can only be **too strict**. **9/30 re-scope RULED 9/28:** base-rate NOT MET; levels and N=3 RETAINED; **no re-key while live**. GlW (77 / 227) re-key PROPOSED for after exit; long-series hunt **10/31**.
+> **Registered historical fire (kept):** 9/10–12 (Kaub 21.531/21.844/20.635; Duisburg 152.906/149.146/145.073) — never grade off rounded `SERIES.tsv`.
 
 ### C6 →5 — enter on ANY leg, exit by the door you came in
-| Leg | Enter | Exit | State [9/27] |
+| Leg | Enter | Exit | State |
 |---|---|---|---|
-| **1 — economic** | Mead **≤1,035 ft** | ≥1,045 × 5 days | 1,037.69 [10/7] — **NOT FIRED**; 9/28–10/7 min 1,037.69 (no dark-window fire) |
-| **2 — regulatory (ROD)** | Most Probable 24MS projects Mead **<1,000** in 12 months | next study ≥1,010 | Sept study min 1,034.18 — NOT FIRED |
-| **3 — operational** | **REALISED** Powell **≤3,510** (USBR 919/49) — never a 24MS table (KB-143) | ≥3,520 × 5 days | 3,519.04 [10/6], rising; 9/28–10/6 min 3,517.67 — NOT FIRED |
+| **1 — economic** | Mead **≤1,035 ft** | ≥1,045 × 5 days | 1,037.61 [10/8] — **NOT FIRED**; window low |
+| **2 — regulatory (ROD)** | Most Probable 24MS projects Mead **<1,000** in 12 months | next study ≥1,010 | Sept study min 1,034.18 — NOT FIRED; **Oct 24MS not out (404s 10/9)** |
+| **3 — operational** | **REALISED** Powell **≤3,510** (USBR 919/49) — never a 24MS table (KB-143) | ≥3,520 × 5 days | 3,519.03 [10/8] — NOT FIRED |
 
 ⚠️ The fourth route — *USBR's path projects a breach of 1,035* — is **SATISFIED-AT-WRITE-TIME** and may not fire. The ROD's ladder (1,025/1,010/1,000) sits **entirely below** my economic 1,035.
+⚠️ **Milestone band (CLAUDE.md §THRESHOLDS) — Red leg UNGRADEABLE:** "fail to take effect 10/01" has **no 10/01 anchor in the instrument** — §3 makes the Guidelines effective only on Secretary execution AND executed implementing + parallel agreements; §5.3.A.3 "the Secretary shall determine" if the Lower Division States have not executed. No registered primary shows execution — **an absence, not a finding**. Owed: dated search (ADWR/CAP/MWD/SNWA + Interior). KB-185.
 
 ---
 ## LIVE CHANNEL READS
 
 | Ch | Metric | Current | As-of | Band | Source |
 |---|---|---|---|---|---|
-| ENSO | Weekly Niño-3.4 | **+3.1 (29.7 °C)** — 2.6 → 2.8 → 2.9 → 3.0 → **3.1**, highest week in the 1981-2026 file · Niño-3 +3.9 · 1+2 +4.7 · 4 +1.1 | 23SEP | 🔴 | `wksst9120.for` (primary) |
-| ENSO | ONI · RONI · CPC odds | ONI JJA **+1.80** · RONI JJA **+1.36** (historic line +2.5 OND) · CPC 9/10: **>90%** very strong, **75%** historic · 55% neutral by AMJ-27 | 9/10 · JJA | 🔴 | `oni.ascii.txt`, RONI file, ensodisc — **four baselines, none interchangeable** |
-| C1 | 🟡 **Isaias (AL09)** | **70 kt / 975 mb, 23.7N 90.6W, ENE 9 mph [Adv 7A, 10/8 12Z]**. Forecast #7: 85 kt → **peak 95 kt** 9/06Z → 90 kt 9/18Z at 28.4N 87.6W → inland 55 kt 10/06Z at 31.0N 87.6W; shear 40–50 kt last 12–24 h. **Hurricane Warning Ocean Springs MS – Bay/Gulf line FL**; surge 5–7 ft Ocean Springs–Indian Pass + Mobile Bay. Pensacola 34/50/64 kt = **69/29/7%**; Mobile 51/18/4; Panama City 38/8/2. FL EO 26-202 (10/6): **25 north-FL counties**. **Not South Florida.** Next full advisory 15Z | 10/8 12Z | 🟡 | NHC 7A / #7 · flgov EO PDF (primary) |
-| C1 | Basin + ACE | **ACE 12.6675 / 102.4190 = 12.37%** (Oct-8 inclusive to-date normal; Isaias 1.8725 provisional); still lowest of 59 years but by only 0.095 over 1994 — **do not carry that rank past 10/9**. AEO-01 miss needs 97.66 more; max post-10/8 accrual in 59 years 70.34 | 10/8 12Z | 🟡 | ATCF b-decks AL01–09 + HURDAT2, computed |
-| C1 | Gulf energy theater (BRENT prices) | **MMA 10/7, 11:00 CDT: oil 511,619 b/d = 25.08% shut in; gas 350.25 MMcf/d = 16.37%; 8 of 371 platforms evacuated.** No 10/8 release found 08:23 ET. Storm core passes E of 89W | 10/7 | 🟡 | MMA/BSEE release (primary) |
-| C1 | Seasonal outlooks | CSU **9/4/1**, ACE 50 · NOAA 75% below-normal (8/6) · CSU 9/16 two-week 78% below; next 9/30 | 9/16 | 🟢 | CSU; NOAA |
-| C1/C4 | Loss leg | H1-26 global cat: Gallagher Re **$46bn** · Aon **$47bn** · Swiss Re **$42bn** (different perimeters — do NOT reconcile) · **no Q3 tally yet** · **no Isaias loss estimate yet** · cat-bond spread **4.57% [9/25], −16.6% YoY, lowest since 2020** (pre-storm) · FL primaries closed UP 10/7 (UVE +4.0%, AII +2.6%) | 9/25 · 10/7 | 🟢 | Artemis (secondary) · fetch.py |
-| C2 | Drought | CONUS D1–D4 **59.24%** (−0.13) · D4 2.11% · **TN 17.37→48.07%** · OK D4 16.59→20.79% | valid 9/22 | 🟠 | USDM API (primary) |
-| C2 | US corn/soy G/E | 60 / 61 — ⚠️ **8/16 vintage, NASS path broken (KB-092)**; no ENSO–Corn-Belt summer signal | 8/16 | ⚪ | USDA NASS |
-| C3 | PJM | **4 emergencies 2026, all closed:** 7/3 EEA-2 · 7/15–16 EEA-1 · 9/1–3 EEA-1 ×3 · 9/16–18 EEA-1 + DR; loads 159,046 · 152,518 · ~127,700 MW | 9/18 | 🟠 | WATT canonical (KB-WATT-121…124) |
-| C4 | Wildfire PERIL | **PL 2 (9/22)**; acres **8,563,287** · fires 57,339 [9/28]; personnel 5,697; Hydra Fire TX 933 ac (evacuation, structures undetermined) | 9/28 | 🟡 ↓ | NIFC (primary) |
-| **C5** | 🔴 **Rhine** | see §C5 →5 — **both gauges below record low 11 days** | 9/28 | 🔴🔴 | PEGELONLINE (primary) |
-| **C5** | 🔴 **Rhine FREIGHT** | **Contargo low-water surcharge: Kaub ≤40 cm → €1,075 / €1,280 (20′/40′ full); Duisburg 130–121 cm → €800 / €900** — Duisburg forecast 120 cm on 10/01 falls **below** the printed schedule. Standard schedule tops out at €120 (Kaub 81 cm). **Transport obligation ENDED; Upper/Middle-Rhine + Rhine-Main service MAY BE SUSPENDED** (operator statement). CBS dry-spot index 2026-Q2 **130.5 (+11.4% y/y)** — pre-event; Q3 not out | 9/28 · Q2 | 🔴 | contargo.net (operator primary) · CBS OData 85817NED |
-| **C5** | 🔴 **Danube** | **23 of 44** gauges below LKV (from 5); whole Hungarian reach below 1992/2018 lows. ⚠️ 5 stations RESET LKV in 2026 → read above | 9/28 | 🔴 | OVF `LKV_folyok` (primary) |
-| C5 | Mississippi | Memphis **+9.553 ft** daily mean [9/28, UTC day] — **rebounded 14.2 ft** off the −4.678 trough [9/14]; margin to −8 ft = +17.6 · St. Louis 16.15 ft (0800 spot, **no reference plane, no adjective**) · **GRAIN BARGE FREIGHT: St. Louis 834.7% of tariff = $33.30/t [wk ending 9/22] — 87th pct for the week (median 512.5), up 4 weeks; 2022 peak $105.86, 2023 $52.92** (harvest-season confounded; no band) | 9/28 · 9/22 | 🟡 | NWPS MEMT1 · USDA AMS `deqi-uken` (primary) |
-| C5 | Paraná · Yangtze | Rosario 2.81 m, 88th pct (favourable for grain) · Yangtze Yichang 41.31 / Hankou 16.28 / Datong 7.08 m / Three Gorges 166.46 m (**no reference levels — no verdict**) | 9/28–29 | 🟢 / — | UNL-FICH · CJH (primary) |
-| **C5** | **Panama** | **A-36-2026 (9/28): DRAFT 48.0 → 49.0 ft TFW now; SLOTS 32 → 33/day from 10/15.** Gatún **84.74 ft [9/27]** vs 2023 79.99. TRANSITS: Aug **33.19/day** (Sep not out) | 9/28 | 🟡 ↓ | ACP (primary) |
-| **C6** | 🔴 **Mead** | **1,037.69 [10/7]** · ~−0.01 ft/day 9/27–10/7 (was −0.068) · **Sep month-end 1,037.80 = 0.60 ft BELOW the Sept 24MS path (1,038.40)** · October 24MS ~10/15 is the next instrument | 10/7 | 🔴 | USBR 921/49 |
-| C6 | Powell | **3,519.04 [10/6]** · rising since 9/27 (3,517.64) · 9.04 ft above 3,510 | 10/6 | 🔴 | USBR 919/49 |
-| C6 | Lees Ferry | 9/18–27 avg **7,940 cfs, −20.65%** vs 2018-25 same-window (USGS revised 9/01–17 down twice) | 9/27 | 🟠 | USGS 09380000 |
-| C6 | Regime | ROD signed 8/21; **2027-28 Guidelines take effect 10/01**; no Federal Register notice found (API text search; indexing may lag); **October 24MS not out** | 9/28 | 🔴 | USBR post2026 page |
-| SEIS | S-5 | **Kilauea WATCH/ORANGE at a Very High Threat volcano since 9/07** — S-5 FIRED-ON-LETTER; summit-confined (HVO 9/28); action = log + watch. S-1…S-4 not fired (largest quake M6.6, 9/25) | 9/28 | 🟡 | USGS HANS / FDSN |
+| ENSO | Weekly Niño-3.4 | **+3.2** — 2.8 → 2.8 (09SEP rev. from 2.9) → 3.0 → 3.1 → **3.2**, file record · Niño-3 +4.0 · 1+2 +5.3 · 4 +1.2 | 30SEP | 🔴 | `wksst9120.for` (primary) |
+| ENSO | ONI · RONI · monthly | **ONI JAS +2.16** · **RONI JAS +1.69** (gap +0.47) · Sep monthly Niño-3.4 +2.84 (traditional) / **+2.1 relative** (CPC prose) · RONI JAS trails 1997 (1.84); ONI leads (1.79) · RONI record 1982-83 **+2.40** | JAS · Sep | 🔴 | `oni.ascii`, RONI file, `sstoi.indices`, CPC Fig. 2 |
+| ENSO | CPC 10/8 odds | **El Niño Advisory.** Historic (RONI ≥2.5): **SON 54 · OND 83 · NDJ 70** (OND was 75 on 9/10) · very strong (≥2.0): OND 100 · NDJ 96 · DJF 81 · JFM 46 · headline ">83% strong-to-very strong through JFM" (**definition changed** from 9/10's ">90% very strong" — not a decline). Next 11/12 | 10/8 | 🔴 | CPC ensodisc (primary) |
+| C1 | 🟡 **Isaias (AL09)** | **LANDFALL near Destin FL 8:30 PM CDT (0130Z 10/10), 90 kt / 971 mb** (TCU). Pre-landfall 13A: 95 kt / 967 mb; HU-force 35 mi, TS-force 205 mi; Gulf Breeze WeatherFlow 83 mph sust / 97 gust; KPNS gust 71 mph. Hurricane Warning Ocean Springs MS – Bay/Gulf line; Surge Warning Mississippi mouth → Suwannee; surge **6–9 ft AL/FL border → Grayton Beach** (Adv 13). Post-tropical over AL Saturday | 10/10 0130Z | 🟡 | NHC 13A / Adv 13 (primary) |
+| C1 | Basin + ACE | **ACE 18.02 / 103.20 = 17.46%** (to-date normal through 10/10 00Z; Isaias 7.225 provisional) · **3rd-lowest of 60** (1994 12.76, 1983 17.40) · AEO-01 miss needs +92.31; max post-10/10 accrual 1966-2024 = 68.80 | 10/10 00Z | 🟡 | ATCF b-decks AL01–09 + HURDAT2, computed |
+| C1 | Seasonal / two-week | CSU 9/4/1, ACE 50 · NOAA 75% below (8/6) · **CSU 9/30 two-week 78% below-normal has MISSED**: window ACE 7.59 = normal tercile (KB-179) · next 10/14 (final) | 10/9 | 🟡 | CSU PDF; b-decks |
+| C1 | Gulf energy theater (BRENT prices) | **MMA 10/9 11:00 CDT: oil 1,458,814 b/d = 71.51% · gas 1,259.2 MMcf/d = 58.84% · 129 of 371 platforms (34.77%)** (10/8: 62.89%; 10/7: 25.08%). Refining/ports: BRENT | 10/9 | 🟡 | MMA `…isaias3` via bsee RSS (primary) |
+| C1/C4 | Loss leg | **Isaias pre-landfall (10/9): BMS $4–6B · Gallagher Re mid-single-digit $bn incl. NFIP · Marsh Re / Twelve Securis mid-single-digit; >$10B "less likely"** · Gallagher Re: "unlikely to meaningfully influence" Jan-1 renewals · H1-26 global cat Gallagher $46bn / Aon $47bn / Swiss Re $42bn (perimeters differ) · no Q3 tally · cat-bond spread **4.57% [9/25]** · **FL primaries 10/9: UVE −2.38% · HRTG −1.14% · AII −0.74% · HCI −0.34%; RNR +0.01% · EG −1.27%** | 10/9 | 🟡 | Artemis / Business Insurance (SECONDARY) · fetch.py |
+| C2 | Crops (El Niño regions) | **Aus wheat 31.0 MMT** (−13.9% YoY, **−10.3% vs 5-yr**) · Argentina wheat 21.5 (+10.9% vs 5-yr) · S.Africa corn 16.5 (+0.5%) · India rice 147.0 (+3.9%) · Thailand rice 20.3 (−0.8%) | Oct WASDE 10/9 | 🟡 | PSD Online (primary) |
+| C2 | Drought | CONUS D1–D4 **55.21%** (9/29 59.38) · D2–D4 31.45 · D4 **1.15** (from 1.59) | valid 10/6 | 🟡 | USDM API (primary) |
+| C2 | US corn/soy G/E | ⚠️ **INSTRUMENT DEAD** — NASS path 404s (KB-092); last 60/61 [8/16] | — | — | — |
+| C3 | PJM | 4 emergencies 2026, all closed (7/3 EEA-2; 7/15–16, 9/1–3, 9/16–18 EEA-1) | 9/18 | 🟠 | WATT canonical |
+| C4 | Wildfire PERIL | **PL 2 (since 9/22)**; fires 63,681 = 134%; acres **9,013,486 = 145%** of 10-yr; 8 large fires; 3,123 personnel. **NIFC 10/01 outlook: Oct above-normal still names W-north TX → W OK + E TX** (shrunk from Sept); Nov NE TX + E OK; Dec/Jan normal | 10/9 · 10/01 | 🟡 | NIFC (primary) |
+| **C5** | 🔴 **Rhine** | see §C5 →5 — **both gauges below record low 22 days** | 10/9 | 🔴🔴 | PEGELONLINE (primary) |
+| **C5** | 🔴 **Rhine FREIGHT** | Contargo surcharge per full 20′: **Kaub €1,075** (unchanged) · **Ruhrort €675** (from €800) — page dated 09.10.2026 · CBS dry-spot 2026-Q2 130.5 (+11.4% y/y), Q3 not out | 10/9 | 🔴 | contargo.net · CBS 85817NED |
+| **C5** | 🔴 **Danube** | **23 of 44** below LKV (19 excluding placeholder dates); ⚠️ OVF **rewrote Hungarian LKVs to Aug–Sep 2026** (Budapest 33 → 0) — 14 stations below their own 2026 lows | 10/9 | 🔴 | OVF `LKV_folyok` (primary) |
+| C5 | Mississippi | Memphis **6.570 ft** [10/9 UTC] (peak 11.300 9/30; 10/6–7 incomplete) · **USDA St. Louis barge 723.21% = $28.86/t [wk 10/6], 69.6th same-week pct, down 2 wks** | 10/9 · 10/6 | 🟡 | NWPS MEMT1 · USDA AMS |
+| C5 | Paraná · Yangtze | Rosario 2.81 m, 88th pct · Yangtze no reference levels — **not re-read since 9/29** | 9/28–29 | 🟢 / — | UNL-FICH · CJH |
+| **C5** | **Panama** | **TRANSITS Sept 32.63/day** (979) — above the ≤32 Yellow · **SLOTS** auctioned 291/339, NeoPanamax 134/125 · **DRAFT 49.0 ft** · A-37 (10/5) = 2027 slot program, no cap change · slots 33/day from 10/15 (A-36) · Gatún **85.23 ft [10/8]** (2023 79.92) | 10/9 | 🟢 | ACP A-38-2026 + CSV (primary) |
+| **C6** | 🔴 **Mead** | **1,037.61 [10/8]** · −0.08 ft/day 10/4–8 · Sep month-end 0.60 ft BELOW the Sept 24MS path · **Oct 24MS not out** | 10/8 | 🔴 | USBR 921/49 |
+| C6 | Powell | **3,519.03 [10/8]** · flat at the 3,519.04 peak (10/6–7) · 9.03 ft above 3,510 | 10/8 | 🔴 | USBR 919/49 |
+| C6 | Lees Ferry | ~8,200 → **~6,600 cfs** from 10/1 (−19.3%; a seasonal-sized step, down in 6 of 8 years 2018-25); 10/2–8 avg −26.09% vs 2018-25 | 10/8 | 🟠 | USGS 09380000 |
+| C6 | Regime | ROD signed 8/21 · **Guidelines effective only on executed agreements (§3)** — execution unverified · no FR notice found | 10/9 | 🔴 | USBR decision-doc PDF |
+| SEIS | S-5 | Kilauea WATCH/ORANGE since 9/07 (S-5 FIRED-ON-LETTER, summit-confined) — **not re-read since 9/28** | 9/28 | 🟡 | USGS HANS |
 
 ---
 ## EXIT / INVALIDATION — standing rule | state | FIRED?
 
 | Ch | Standing rule | Current state | Verdict |
 |---|---|---|---|
-| C1 | ACE <90% normal + no major US landfall by 11/30 | 12.37%; 1 hurricane (Isaias) — **landfall 10/9–10 is the test of leg 2** | **channel-kill IN PROGRESS** — leg 2 LIVE until Isaias' landfall intensity is graded |
-| C2 | either crop <55% G/E before 90% dented | 60/61 — **8/16 read, cannot refresh** | NOT FIRED |
-| C3 | CDD/HDD within ±10% normal 4+ sessions | ⚠️ **no registered surface** (the 9/28 station memo is one-off) | **CANNOT FIRE** |
-| C4 | cat-loss <110% avg AND non-renewals stable 2+ qtrs | leg 1 satisfied on H1; leg 2 ungradeable (MCAS annual, ends 2024; CA censored) | NOT FIRED |
-| **C5** | **Kaub ≤25 AND Duisburg ≤153, 3 complete days** | **6.260/1.583/1.323 · 130.833/130.885/129.979 [10/5–7]** | 🔴🔴 **FIRED (on letter) — no exit** |
-| C6 | Mead ≤1,035 ft | 1,037.69 [10/7], 2.69 ft margin | NOT FIRED |
+| C1 | ACE <90% normal + no major US landfall by 11/30 | leg 1 17.46% ✅ · leg 2: Isaias landed **Cat 2 (90 kt)** — no major US landfall yet | NOT FIRED — **channel-kill IN PROGRESS** (both legs holding; resolves 11/30) |
+| C2 | either crop <55% G/E before 90% dented | NASS crop-condition path dead (KB-092); last read 8/16 | **INSTRUMENT-DEAD — ungradeable** (was mislabelled NOT FIRED; DAEDALUS Falsif. #4) |
+| C3 | CDD/HDD within ±10% normal 4+ sessions | ⚠️ **no registered surface** | **CANNOT FIRE** |
+| C4 | cat-loss <110% avg AND non-renewals stable 2+ qtrs | leg 1 satisfied on H1; leg 2 ungradeable (MCAS annual to 2024; CA censored) | NOT FIRED |
+| **C5** | **Kaub ≤25 AND Duisburg ≤153, 3 complete days** | **1.323/0.990/7.583 · 129.979/138.333/140.396 [10/7–9]** | 🔴🔴 **FIRED (on letter) — no exit** |
+| C6 | Mead ≤1,035 ft | 1,037.61 [10/8], 2.61 ft margin | NOT FIRED |
 
-**Fired count: 1 of 6** (C5). *(1 of 6 on 9/28; 0 of 6 on 9/18.)*
+**Fired count: 1 of 6** (C5). *(1 of 6 on 10/8 and 9/28; 0 of 6 on 9/18.)*
 
 ---
 ## 🔴 UNTRIPPABLE BANDS — the standing sweep
 | Band | Status |
 |---|---|
-| **CDD/HDD** (C3) | ⚠️ OPEN — a station-level CDD method now exists (`sources/2026-09-28_C3-PJM-heat-signature.md`, NCEI GHCN-D + normals) but is **not registered as an instrument**; candidate to promote |
+| **CDD/HDD** (C3) | ⚠️ OPEN — station-level CDD method exists (`sources/2026-09-28_C3-PJM-heat-signature.md`) but is **not registered** |
 | **Non-renewal rate** (C4) | 🟠 baseline only (FIO 1.04%; MCAS annual to 2024); CA censored by law (KB-130) |
-| **Mid-cycle reinsurance price** (C1/C4) | ✅ **search instrument adopted** (cat-bond spread, KB-121) — monthly, NOT ROL, no band |
-| **US crop condition** (C2) | 🔴 NASS path 404s; no key (KB-092) |
-| **Rhine freight** (C5 operational leg) | ✅ **INSTRUMENTED 9/28 (Will-directed), NOT ARMED.** Contargo daily surcharge (one operator, containers only) + CBS 85817NED quarterly IWT price index (includes fuel). **No band:** n=2 low-water episodes (2018 +87%, 2022 +104% y/y dry-spot) and fuel contaminates it. **Tanker (heating oil), 9/28:** no free €/t series exists (all assessors paywalled) — re-pullable instrument = **CBS wet-bulk quarterly (2026-Q2 140.6, +1.1% y/y, LEVEL already = the 2022 peak)** + Insights Global weekly blog (direction/deal counts) + fastenergy state heating-oil prices (confounded); Platts/Spotbarge ARA→Basel **€215/t (~9/18–21) vs €35 (6/03)** logged as SECONDARY only. **Grain/dry bulk, 9/28:** Rhine — no free €/t (CBS dry-spot quarterly + Schuttevaer weekly tonnage, metered; agribulk 370,000 t wk39 +30%); **Mississippi — USDA weekly grain barge rate REGISTERED** (primary, 2004–). `water/SOURCES.md` ③④ + §MISSISSIPPI GRAIN, KB-161/162/163 |
+| **Mid-cycle reinsurance price** (C1/C4) | ✅ search instrument (cat-bond spread, KB-121) — monthly, NOT ROL, no band. **AEO-03 resolving instrument now NAMED: Guy Carpenter US property-cat ROL index (KB-188)** |
+| **US crop condition** (C2) | 🔴 NASS path 404s; no key (KB-092) — C2's exit is INSTRUMENT-DEAD until a substitute is named |
+| **Aus wheat vs 5-yr** (C2) | 🟠 PROPOSED band (KB-103: Y ≤−15 / O ≤−30 / R ≤−40) — not registered; now −10.3% |
+| **Rhine freight** (C5 operational leg) | ✅ INSTRUMENTED 9/28, NOT ARMED (n=2 episodes; fuel contaminates CBS). Contargo daily · CBS 85817NED quarterly · USDA Mississippi weekly. `water/SOURCES.md` ③④, KB-161/162/163 |
 
 ---
 ## PREDICTIONS
-Canonical: `workbook/PREDICTIONS.tsv` (full reasoning in each row). **OPEN (8):**
-| ID | Call | Conf | Res | 9/28 move |
+Canonical: `workbook/PREDICTIONS.tsv`. **OPEN (8):**
+| ID | Call | Conf | Res | 10/9 state |
 |---|---|---|---|---|
-| AEO-01 | Atlantic below-normal (ACE <110.3257, ≤7 hurricanes) | **96%** EMP | 11/30 | ↑ from 92 — a miss needs 100.75 more units; **0 of 59** seasons ever accrued that after Sep 28 (KB-153) |
-| AEO-02 | Niño-3.4 ≥1.5 by NDJ | **99%** EMP | 12/31 | ↑ from 97 — weekly +3.1, file record (KB-154) |
-| AEO-03 | Jan-1-27 reinsurance soft (ROL ≤ +5%) | 55% | 1/15/27 | — search instrument packet sent to DAEDALUS 9/28 |
+| AEO-01 | Atlantic below-normal (ACE <110.3257, ≤7 hurricanes) | **96%** EMP | 11/30 | ACE 18.02; miss needs +92.31 vs a 1966-2024 max post-10/10 accrual of 68.80 (KB-178) |
+| AEO-02 | Niño-3.4 ≥1.5 by NDJ | **99%** EMP | 12/31 | ONI JAS +2.16 · weekly +3.2 (KB-181) |
+| AEO-03 | Jan-1-27 reinsurance soft (ROL ≤ +5%) | 55% | 1/15/27 | **instrument named 10/9: Guy Carpenter US property-cat ROL index** (KB-188) · Gallagher Re: Isaias won't meaningfully move Jan-1 |
 | AEO-07 | PJM DJF mean above normal | 70% | 3/15/27 | — |
 | AEO-08 | ≥1 PJM cold-alert event despite warm mean | 65% | 3/1/27 | — |
-| AEO-09 | NIFC drops TX/OK above-normal by 12/1 | 55% | 12/01 | — **next checkpoint = 10/01 issuance** (rule: KB-128) |
-| AEO-10 | Mead does NOT breach 1,035 by 12/31 | **30%** PROV | 12/31 | ↓ from 55 — **realised is running BELOW the Sept path, against the bias the 55% rested on** (KB-155) |
-| AEO-12 | Panama draft ≤47.0 ft TFW Jan–Apr 27 | **45%** PROV | 4/30/27 | ↓ from 55 — A-36 loosens to 49.0 ft (KB-156) |
+| AEO-09 | NIFC drops TX/OK above-normal by 12/1 | 55% | 12/01 | **10/01 checkpoint: NOT met** — Oct still names W-north TX/W OK + E TX; Nov names NE TX/E OK; Dec–Jan normal (KB-187) · next 11/01 |
+| AEO-10 | Mead does NOT breach 1,035 by 12/31 | **30%** PROV | 12/31 | 1,037.61; Oct 24MS pending |
+| AEO-12 | Panama draft ≤47.0 ft TFW Jan–Apr 27 | **45%** PROV | 4/30/27 | draft 49.0; Gatún 85.23 |
 
 **RESOLVED:** ✅ AEO-04 · AEO-05 · AEO-06 · AEO-11 (AEO-11 under the retired 10-day clause — do not re-derive).
 
@@ -120,27 +136,26 @@ Canonical: `workbook/PREDICTIONS.tsv` (full reasoning in each row). **OPEN (8):*
 ## OPEN / NEXT — the OWED REGISTER
 | # | Owed | By | State |
 |---|---|---|---|
-| 1 | **C5 exit watch** — re-grade the 3-day test every session; WSV forecast Kaub −1 flat to 10/10 | each session | 🔴 LIVE — still fired 10/8 |
-| 2 | **C5 long-series hunt** (WSV file-service archive / BfG) → base-rate, then decide GlW re-key **after exit** | 10/31 | OPEN (9/30 obligation ruled 9/28, above) |
-| 3 | **October 24-Month Study** — Mead Oct/Nov/Dec vs 1,035; AEO-10's instrument | ~10/15 | WAIT |
-| 4 | **10/01**: NIFC October outlook (AEO-09 checkpoint) · 2027-28 Guidelines take effect · CSU two-week 9/30 | 9/30–10/01 | 🔴 **OVERDUE — not read 10/8 (bounded Isaias session)** |
-| 5 | **10/08** CPC discussion + ONI/RONI **JAS** — first real test of the historic-event line | 10/08 | **DUE TODAY — not read in the bounded 10/8 session** |
-| 6 | **C2 refresh + steps (2)(3)** — second region; Aus-wheat forecast-error base rate; NASS command (KB-092) | next session | OPEN — **C2 not refreshed 9/28** |
-| 7 | **CDD instrument** — register the NCEI station method as C3's surface | — | OPEN |
-| 8 | **Seismic S-5 re-spec** — Kilauea toggles ORANGE routinely; S-5 fires must not count toward C7 promotion without a base-rate review | — | PROPOSED to self |
-| 9 | Q3 cat-loss tally (Gallagher/Aon/Swiss Re) — first vintage that can speak to C4's loss leg | ~Oct | WAIT |
-| 10 | Danube LKV reset dates · Yangtze time basis + reference levels · Vicksburg/Cairo series (names approved) | — | OPEN |
-| 11 | Charter-vs-STATUS definition check (monthly) | ~10/01 | **done 9/28** — charter C5 state line pointed here |
-| 12 | 🔴 **Isaias landfall grade** — C1 trigger letter + C1 exit leg 2 at the NHC landfall statement; then MMA restart, modeler loss estimates, Citizens claims (CORAL), cat-bond weekly points (CALENDAR row 10/9–10) | 10/10 → | 🔴 ARMED |
-| 13 | **AEO-03 resolving instrument** — name Guy Carpenter's Jan-1 property-cat ROL (DAEDALUS PR#7 item 2); adjudicate under PREDICTION_DISCIPLINE before the print | before 1/1/27 | PROPOSED (KB-167) |
-| 14 | **TRADE.md rows 1/3 (7/09) + THESIS C2–C6 stage tables** behind STATUS (DAEDALUS PR#7 item 3) — C1 stages 1–2 refreshed 10/8 only | next full session | OPEN |
+| 1 | **C5 exit watch** — re-grade the 3-day test every session; WSV/Contargo forecast a rise 10/10–13 | each session | 🔴 LIVE — exit plausible this weekend |
+| 2 | **C5 long-series hunt** → base-rate, then GlW re-key **after exit** | 10/31 | OPEN |
+| 3 | **October 24-Month Study** — Mead vs 1,035; AEO-10's instrument | ~10/15 | WAIT (404 on 10/9) |
+| 4 | 🔴 **Isaias post-landfall reads** (landfall graded 10/9, KB-189) — MMA restart path (BRENT prices) · first modeler insured-loss estimates (Verisk/KCC/Moody's RMS) → C4 >$10B leg · Citizens/FLOIR via CORAL (L638) · Artemis cat-bond points 10/9+ · final AL09 ACE · outages → WATT | 10/10 → | 🔴 OPEN |
+| 5 | **Colorado LB implementing agreements** — dated search (ADWR/CAP/MWD/SNWA + Interior/FR); grade the milestone band only after | ~10/23 | OPEN (KB-185) |
+| 6 | **C2 substitute instrument** for the dead NASS exit (DAEDALUS Falsif. #4) + Aus-wheat band registration (KB-103) | next full session | OPEN |
+| 7 | **CDD instrument** — register the NCEI station method as C3's surface; **C3 refresh** (not done 10/8 or 10/9) | — | OPEN |
+| 8 | **Seismic S-5 re-spec** (Kilauea toggles ORANGE routinely) + S-1…S-5 re-read | — | PROPOSED to self |
+| 9 | Q3 cat-loss tally (Gallagher/Aon/Swiss Re) | ~Oct | WAIT |
+| 10 | Danube LKV reset dates (OVF rewrote to 2026) · Yangtze reference levels · Vicksburg/Cairo series | — | OPEN |
+| 11 | CSU final 10/14 | 10/14 | WAIT |
+| 12 | **regime ruling** — redefine `verystrong_prob_ond` (prose no longer states it; table OND 100) · regime/SOURCES ⑤⑥ wording (relative vs traditional) | next session | OPEN |
+| 13 | **TRADE.md rows 1/3 (7/09) + THESIS C2–C6 stage tables** behind STATUS (DAEDALUS PR#7 item 3) | next full session | OPEN |
+| 14 | wildfire/SOURCES.md:131 PL5 run "54-day" → **49 days** (worker P15) | next session | OPEN |
 
-**CLOSED BY NAME 9/28:** Rhine freight source (KB-161) · tanker/heating-oil freight search (KB-162, qualified by KB-163) · grain barge freight search (KB-163) · matrix + exit triad rebuild (crash-owed) · 9/18 worker proposals (adjudicated into KB-119/128–131 on 9/18; confirmed) · NEXUS fold (this closeout) · WATT C3 asks ×2 (KB-157) · AEO-03 packet to DAEDALUS · PROME WQ-295 · WALTER -011 · stale worker-brief value tables (water/wildfire/regime re-cut) · invest-deck ACE double-count (hurricane/SOURCES.md).
-**CLOSED BY NAME 10/8:** DAEDALUS PR#7 item 1 — FL reinsurance figure = CORAL's −15/−20% (KB-167) · WALTER R3 watch-for verdicts → PROME (KB-173) · Pacific-season scope (SIG-W-20261001-020 → regime evidence, no channel; KB-168) · Arctic NSR scope (SIG-W-20261002-033 → out of C5; KB-169) · Swiss glaciers (SIG-W-20261004-008 → Tier-2 watch-note; KB-170) · Isaias dispatch read + packets to CORAL/BRENT (KB-164/165).
+**CLOSED BY NAME 10/9:** 10/01 cluster (NIFC → KB-187; Colorado → KB-185 re-scoped; CSU 9/30 → KB-179) · CPC 10/08 + ONI/RONI JAS (KB-181) · C2 refresh (KB-182/183) · Contargo/Danube/Panama/Mississippi re-reads (KB-184/186) · DAEDALUS Falsif. #4 (C2 INSTRUMENT-DEAD; AEO-03 instrument; AEO-09 read) · DAEDALUS wiring ⑰ (VX.tsv map line) · WQ-399 charter receipt line · bsee RSS → `hurricane/SOURCES.md` · STATUS/NEXUS #8 staleness · **DOCKET L627 Isaias landfall grade (NOT FIRED, KB-189)**.
 
 ---
 ## BOTTOM LINE
 
-**A real hurricane is finally in my theater, and it is a Panhandle event, not a South Florida one.** Isaias, the season's first hurricane (80 mph, 7 AM CDT Thursday), is forecast to strengthen to just under Category 3 over the Gulf and come ashore late Friday or early Saturday near the Alabama–Florida line, with a hurricane warning from Ocean Springs, Mississippi to the Bay/Gulf county line in Florida and 5–7 ft of surge from Mobile Bay to Indian Pass. **The test I registered is whether it lands as a MAJOR hurricane (Cat 3+): the forecast says no — peak 95 kt over water, weakening in strong shear before landfall — so the trigger is armed, not fired.** ⚠️ The intensity forecast is the uncertain part: NHC calls it "somewhat tricky", the storm already intensified 35 kt in a day through shear, and the wind field broadens at landfall. Offshore, a quarter of Gulf oil (511,619 b/d) was shut in by Wednesday — BRENT prices that. **The insurance side goes in soft:** the cat-bond spread is its lowest since 2020 and the Florida insurers' shares rose on Wednesday, so a moderate landfall is the kind of event a soft market has not priced; whether this one is big enough is the first insured-loss estimate, which does not exist yet.
+**Hurricane Isaias came ashore near Destin, Florida at 8:30 PM CDT Friday as a Category 2 (105 mph / 90 kt), not the major hurricane my trigger needed, so the hurricane channel stays at 2 (watch), the score I committed to before the landfall statement.** It was a Category 3 over the Gulf on Friday morning (peak 105 kt) and weakened in strong shear on the way in. The worst of it is on the Panhandle east of Pensacola: 6–9 ft of forecast surge, 5.6 ft already measured at Panama City Beach, and gusts of 100–116 mph. Offshore, 71.5% of Gulf oil output was shut in Friday (BRENT prices that). ⚠️ **The loss side is the open question.** Every pre-landfall estimate is mid-single-digit billions (BMS $4–6B) and brokers say it won't move January reinsurance pricing, but none is a post-landfall modeler figure yet. A >$10B estimate would re-open the property channel. The operational landfall intensity can also be revised in NHC's post-season report, months out.
 
-**The Rhine is still below its all-time record low at both gauges — every day for 20 days, no exit while I was away.** Lake Mead is 2.7 ft above the Hoover line and its decline has slowed to a crawl (−0.10 ft in ten days, after finishing September 0.6 ft below the government's projection); the mid-October study is the next test. **I raised the hurricane channel from 1 to 2 (watch) because a US hurricane warning now stands in my theater; nothing else moved.** Three things are owed and not done in this bounded session: the 1 October cluster (fire outlook, Colorado guidelines), today's ENSO update, and the crop/power/property refresh. Nothing here is a trade.
+**The Rhine is still below its all-time record low at both gauges, 22 days running, but the German waterway agency now forecasts the rise that could end it around Oct 11–13.** Lake Mead is 2.6 ft above the Hoover line and slipping again; the mid-October 24-Month Study is the next test. **I lowered the crop channel from 3 to 2:** USDA raised Australia's wheat forecast to 31.0M tonnes today (−10% vs the 5-year average, out of the El Niño-damage zone), and US drought fell to 55% of the lower 48. El Niño keeps strengthening (weekly +3.2 °C, a record; CPC puts the odds of a historic event by OND at 83%). One correction to my own calendar: the new Colorado River rules carry no Oct 1 start date. They take effect only once the states sign their agreements, and I have not yet found evidence that they have. Nothing here is a trade.

@@ -1,13 +1,51 @@
 # AEOLUS · WILDFIRE — live dossier
 
-**As-of: 2026-09-28.** Consolidated from KB-AEO-030/031/032/037/056 + the 2026-08-21, 2026-08-27, 2026-09-18 and 2026-09-28 worker runs. **§1–§6 below are the 9/18 body; the 9/28 block directly beneath supersedes its peril figures.**
+**As-of: 2026-10-09.** Consolidated from KB-AEO-030/031/032/037/056 + the 2026-08-21, 2026-08-27, 2026-09-18, 2026-09-28 and 2026-10-09 worker runs. **§1–§6 below are the 9/18 body. The 10/09 block directly beneath supersedes its peril figures AND its §5 AEO-09 grading inputs. The 9/28 block is kept for the delta.**
 
-> **Last real data refresh: 2026-09-28**  ·  **Dossier written: 2026-09-28**
+> **Last real data refresh: 2026-10-09**  ·  **Dossier written: 2026-10-09**
 > *Two-clock header (PAT-044) — `scripts/ledger_staleness.py` reads the first line. **The data date, not the edit date**: a hygiene edit must NOT bump it.*
 > **Observations → `wildfire/workbook/SERIES.tsv`** · findings → central `workbook/KB.tsv` · synthesis → `STATUS.md`. **Flow is one-way.**
 > **Feeds:** C4
-> ⚠️ **PERIL figures are 2026-09-25 (NFN weekly) / 2026-09-28 (statistics page). LOSS figures are still H1 2026 — a period that ENDED 2026-06-30, before Spokane and before the whole August peak. That leg is ~3 months stale and is labelled so on every line.**
-**C4 score: worker does not score. Last AEOLUS-set score was 3 🟠 ↗ (8/13); the 8/21, 8/27, 9/18 and 9/28 refreshes are un-adjudicated.**
+> ⚠️ **PERIL figures are 2026-10-09 (NFN report and statistics page, same day, agree on every field). Outlook = the 2026-10-01 issue. LOSS figures are still H1 2026, a period that ENDED 2026-06-30, before Spokane and before the whole August peak. That leg is ~3.3 months stale and is labelled so on every line.**
+**C4 score: worker does not score. Last AEOLUS-set score was 3 🟠 ↗ (8/13); the 8/21, 8/27, 9/18, 9/28 and 10/09 refreshes are un-adjudicated.**
+
+---
+
+## 🆕 2026-10-09 WORKER REFRESH — supersedes the §1 peril figures and the §5 AEO-09 inputs
+
+| Instrument | Value | As-of / surface | Δ vs 9/28 |
+|---|---|---|---|
+| **Preparedness Level** | **2 of 5**, *"as of September 22, 2026 at 7:30 a.m. MDT"* | NFN report dated 10/09 | unchanged; PL2 for 18 days inclusive |
+| **PL step history** *(new)* | **5 → 4 on 9/4**, → 3 on 9/9, → 2 on 9/22 | 10/01 outlook Exec Summary | 🔴 **PL5 ran 7/18→9/4 = 49 days inclusive, NOT 54.** The 54 figure assumed PL5 held until the 9/9 PL3 banner. §1/§3/§4 corrected below |
+| **Acres YTD** | **9,013,486** = **145%** | NFN + statistics, 10/09 | **+450,199** vs statistics 9/28. ⚠️ **A step, not burning.** The outlook gives **8,604,892 (141%) as of 9/30**, so **~409k acres arrived after 9/30**, at PL2. Cause not stated anywhere (LOG 10/09) |
+| **Fires YTD** | **63,681** = **134%** | NFN + statistics, 10/09 | +6,342 vs 9/28. Most of it is already in the outlook's 9/30 figure (**62,369, 134%**) |
+| **10-yr avg YTD (2016–2025)** | **47,686 fires · 6,204,304 ac**. The fields RENDER and **reproduce the narrative**: 145.28% / 133.54% | NFN 10/09 | open question #6 closed **for this read** (intermittent: rendered 9/18, blank 9/25) |
+| **Large fires** | **8**. Narrative, NFN table and statistics "Being Suppressed" **all agree** | 10/09 | 9/25–9/28: 26 / 4 / 17 (P11 basis break). One-day agreement, not a fix |
+| **Personnel** | **3,123** (both surfaces) | 10/09 | 5,697 (9/28) |
+| Acres on active/large fires | 933,036 (NFN "all active" = statistics "on Large Fires") | 10/09 | fields differed by definition on 9/18; equal today |
+
+⚠️ **ACREAGE, NOT LOSS.** 145% is an acreage percentage. The cat-loss band still reads ~72% on H1 2026. **No Q3 2026 aggregate tally appears on the Artemis homepage as of 10/09**; its only Q3 item is cat-bond *issuance*, which is not a loss figure.
+
+### AEO-09 grading inputs — October issue (issued 2026-10-01, next 2026-11-02). NOT GRADED.
+
+Rule handed down (**KB-AEO-128**): the CURRENT-MONTH panel is the designation; where map and regional narrative disagree, the regional section governs; any-part counts; a hedge is not a designation; out-months are forecasts.
+
+| Panel | Southern Area section (governing) | Exec Summary | Map | TX | OK |
+|---|---|---|---|---|---|
+| **OCTOBER (current month)** | *"For October, above normal significant fire potential is most likely across western north Texas into western Oklahoma, in addition to east Texas and the Lower Mississippi Valley."* | *"October significant fire potential will remain above normal in portions of north Texas and western Oklahoma. Above normal potential is also forecast for much of east Texas into the Lower Mississippi Valley…"* | OK red in the western main body only (Panhandle + central/east white). TX red in two blocks: western north TX below the Red River, and east TX. The rest of TX is white | **NAMED, partial** | **NAMED, partial** |
+| November | *"…expected from eastern Oklahoma into northeast Texas, Arkansas, north Mississippi, west and middle Tennessee, and Kentucky."* | agrees | E OK + NE TX red | above (NE) | above (E) |
+| December | *"…will trend towards normal, though below normal significant fire potential is possible in some of the areas that can see dormant season fires in the Plains…"* | CONUS normal | CONUS normal | normal | normal |
+| January | (same sentence) | *"Normal significant fire potential is forecast across the country for January."* | all normal | normal | normal |
+
+✅ **No map/text disagreement in the October panel.** Map, Exec Summary and regional section all put TX and OK above-normal, both partial. ⚠️ The regional sentence says *"most likely"*. The map and the Exec Summary carry no hedge. **Whether "most likely" is a hedge under KB-AEO-128 rule (2) is AEOLUS's call.**
+⚠️ **The geography moved since 9/01.** September red covered all of OK and the central/eastern two-thirds of TX. October red covers **western OK and two separate TX blocks**. **The TX Panhandle is white in October** even though the outlook still lists it among the extreme-to-exceptional drought areas.
+**Mechanism text, verbatim:** *"Cool season grasses are likely to green up where the heaviest rain occurs in Texas and Oklahoma, mitigating fire activity until hard freezes occur later this winter."* · *"Drought relief will not be as widespread as needed to fully squash fire activity in the western two-thirds of the geographic area."*
+**ENSO (cited, `regime/` owns it):** *"Central Tropical Pacific sea surface temperature anomalies are more than 2 C above average, the threshold for a very strong El Niño."*
+⚠️ **Map method:** `pdfimages` is not installed (rc=127). Panels were read from a **pypdfium2** render of the same PDF. Sub-state boundaries are a visual read and are approximate.
+
+**Other October above-normal areas:** Great Basin **Sierra Front + adjacent Lahontan Basin** (⚠️ in the regional section and on the map, **but missing from the Exec Summary list**) · Eastern Area **NE Minnesota, N Wisconsin, W Upper Michigan (PSAs EA03/EA04)** · Southern Area **east TX into the Lower Mississippi Valley** · **Puerto Rico, USVI**.
+
+**New incidents since 9/28 (InciWeb set only):** Bouquet CA (10/03, 1,048 ac, Level-3 evacuation order) · Danny CA (10/08, 150 ac, evacuation order + warnings) · Bull NV (10/02, 1,529 ac, warnings lifted). **None publishes a structure-loss figure.** **No TX/OK incident appears on InciWeb at all.** The Hydra page now serves an empty template.
 
 ---
 
@@ -45,7 +83,7 @@
 
 | Instrument | Value | As-of | Δ vs 8/27 | Read |
 |---|---|---|---|---|
-| **NIFC Preparedness Level** | **3 of 5** — *"as of September 9, 2026 at 7:30 a.m. MDT"* | 9/18 | 🔽 **5 → 3** | **The PL5 run ENDED 9/9 after 54 days inclusive (53 elapsed), 7/18→9/9** — the entire core season at max tier. ⚠️ Whether it stepped 5→4→3 or 5→3 is **NOT observable** from the NFN page. At PL3 for 10 days inclusive. |
+| **NIFC Preparedness Level** | **3 of 5** — *"as of September 9, 2026 at 7:30 a.m. MDT"* | 9/18 | 🔽 **5 → 4 → 3** | **The PL5 run ENDED 9/4 after 49 days inclusive (48 elapsed), 7/18→9/4**, then PL4 9/4→9/9. *(Corrected 10/09. This row said "ended 9/9 after 54 days". The step dates come from the 10/01 outlook Exec Summary; history in `workbook/LOG.tsv` 2026-09-04.)* At PL3 for 10 days inclusive as of 9/18. |
 | **Acres YTD** | **8,523,213** = **146%** of 10-yr avg | 9/18 | **+551,814 ac · 164% → 146%** | ⚠️ **ACREAGE. Not a loss figure.** **Third consecutive read where the pct FELL while absolute acres ROSE.** Denominator effect, now *measured* rather than derived — see the row below. |
 | **Fires YTD** | **56,289** = **126%** of 10-yr avg | 9/18 | +4,855 · 127% → 126% | same denominator effect |
 | **Uncontained large fires** | **50** | 9/18 | 🔽 **−44 (from 94)** | 2 new large fires, 6 contained |
@@ -106,7 +144,7 @@ The **10-year-average YTD fields, BLANK in served HTML on 8/21 and 8/27**, rende
 
 ## 3. 🔑 THE DIVERGENCE — the peril leg is now falling toward the loss leg
 
-**Acreage percentage: 155% (8/13) → 171% (8/21) → 164% (8/27) → 146% (9/18) → 145% (9/25). PL 5 → 3 (9/9) → 2 (9/22). Large fires 101 → 76 → 94 → 50 → 26/4/17 (three surfaces, 9/25–9/28). Personnel 24,265 → 21,854 → 12,315 → 6,824 (9/25) → 5,697 (9/28).** The loss leg has not moved at all — **it is still the same H1 print it was on 8/13.**
+**Acreage percentage: 155% (8/13) → 171% (8/21) → 164% (8/27) → 146% (9/18) → 145% (9/25) → 141% (9/30, outlook) → 145% (10/09, after a ~409k-acre step). PL 5 → 4 (9/4) → 3 (9/9) → 2 (9/22). Large fires 101 → 76 → 94 → 50 → 26/4/17 (three surfaces, 9/25–9/28) → 8 (10/09, all surfaces agree). Personnel 24,265 → 21,854 → 12,315 → 6,824 (9/25) → 5,697 (9/28) → 3,123 (10/09).** The loss leg has not moved at all — **it is still the same H1 print it was on 8/13.**
 
 **So the gap is closing, but read WHY before reading it as convergence:**
 - the **acreage percentage** is falling largely because the **denominator is accreting** (§1) — absolute acres are still rising;
@@ -126,11 +164,13 @@ The **10-year-average YTD fields, BLANK in served HTML on 8/21 and 8/27**, rende
 | **RED band** | reinsurer cat tally **≥150%** of 10-yr avg | ~**72%** (H1 2026, 28% below avg) | **~78 pts below RED, below even Yellow (110%)** — and **measured on a window that closed 6/30**, so it is not yet evidence about this fire season either way. |
 | **Channel-kill** | H1 cat <110% of avg **AND** non-renewals stable 2+ quarters | loss leg ~72% (satisfies); non-renewal leg: **a 2024-vintage annual series now exists — but see §6, it still cannot answer a quarterly question** | conjunction **unsatisfied** on the second leg |
 
-🔴 **145% (9/25; 146% on 9/18) is an ACREAGE percentage. The RED band is a CAT-LOSS percentage at ~72%.** Different rows of the threshold table, different units. **Anyone reading "PL5 for 54 days, 8.5M acres, most destructive fire in WA history" and inferring a hard insurance market has substituted the peril leg for the loss leg.**
+🔴 **145% (9/25; 146% on 9/18) is an ACREAGE percentage. The RED band is a CAT-LOSS percentage at ~72%.** Different rows of the threshold table, different units. **Anyone reading "PL5 for 49 days, 9.0M acres, most destructive fire in WA history" and inferring a hard insurance market has substituted the peril leg for the loss leg.**
 
 ---
 
 ## 5. 🔴 AEO-09 CHECKPOINT — THE 9/01 OUTLOOK IS ISSUED. GRADING INPUTS ONLY — NOT RESOLVED.
+
+> ⚠️ **SUPERSEDED FOR GRADING by the 10/01 issue. Its inputs are in the 2026-10-09 block at the top of this file.** The 9/01 material below is kept as the prior checkpoint.
 
 AEO-09 turns on **NIFC removing above-normal potential for TX and OK in an outlook issued on or before 2026-12-01.**
 
@@ -215,12 +255,14 @@ CA DOI primary (fetched 9/18, live), verbatim: *"Following a Governor declaratio
 
 ## OPEN QUESTIONS / GAPS
 
-1. 🔴 **Q3 2026 cat tally (~Oct)** — **the single most important pending item.** It will be the **first loss vintage containing any of this fire season.** Until it lands the loss leg says nothing about 2026 fires either way.
+1. 🔴 **Q3 2026 cat tally (~Oct)** — **the single most important pending item.** It will be the **first loss vintage containing any of this fire season.** Until it lands the loss leg says nothing about 2026 fires either way. *(Checked 10/09: Q3 closed 9/30, and the Artemis homepage shows no Q3/9M 2026 insured nat-cat tally yet.)*
 2. 🔴 **Cotality source admission** — a $1B–$1.3B Spokane estimate exists from a source **not in `SOURCES.md`**. AEOLUS decides whether to admit Cotality and whether to log its figure. **Reported as a proposal; not logged as fact.**
 3. 🔴 **NAIC zone membership** — must be confirmed from an NAIC primary before the Western 25.1 figure can be mapped to fire geography (§6 limit 3).
 4. **Spokane structure count — three irreconcilable objects** (§2). ❌ **Still no WA state EOC FINAL tally**, third consecutive run.
 5. **AEO-09 definitional question for AEOLUS:** does "removed for TEXAS" mean *any part of* TX or *whole-state*? The 9/01 map already shows far-west TX normal. **Data cannot answer this; only AEOLUS can.**
-6. **October outlook (due 10/01)** — the next AEO-09 checkpoint, and the one where the October map/text disagreement (§5) resolves into an actual current-month designation.
+6. ✅ **October outlook: ISSUED 10/01, read 10/09** (see the 10/09 block). TX and OK are both NAMED above-normal in the October current-month panel, both partial, and map and text agree. New sub-question for AEOLUS: is the regional *"most likely"* wording a hedge? **Next issuance 11/02**, which carries November as the current month.
+6b. **The YTD step since 9/28 (+6,342 fires, +450,199 acres at PL2) is unexplained.** Is it a reconciliation or real activity? No surface read states the cause.
+6c. **The "54-day PL5" figure may be cited outside this folder** (e.g. `SOURCES.md` line 131, which a worker may not edit). It is 49 days inclusive, 7/18→9/4.
 7. ✅ **CLOSED — the 10-yr-average fields render again** and both narrative percentages reproduce from them (§1). Was open since 8/21.
 8. **Utility ignition liability** — not tracked here; **WATT's** if a named utility is implicated.
 9. **water/'s USDM series is 24 days stale** (newest observation 8/25). Not wildfire's to fix — flagged to AEOLUS as an owner-side gap that degrades this folder's fuel-state context.

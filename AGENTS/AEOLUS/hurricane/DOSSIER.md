@@ -1,14 +1,23 @@
 # AEOLUS · HURRICANE — live dossier
 
-**As-of: 2026-10-08 for §000 below; 2026-09-28 for §00; §0–§6 are 2026-09-18 vintage and are SUPERSEDED wherever a newer section gives a newer figure.** **C1 score: 2 as set by AEOLUS 2026-10-08 (VX-AEO-39) — a worker does not score; nothing below re-grades it.**
+**As-of: 2026-10-09 for §0000 below; 2026-10-08 for §000; 2026-09-28 for §00; §0–§6 are 2026-09-18 vintage and are SUPERSEDED wherever a newer section gives a newer figure.** **C1 score: 2 as set by AEOLUS 2026-10-08 (VX-AEO-39), HELD at the 10/9 landfall grade (VX-AEO-41) — a worker does not score; nothing below re-grades it.**
 
-> **Last real data refresh: 2026-10-08**  ·  **Dossier written: 2026-10-08**
+> **Last real data refresh: 2026-10-09**  ·  **Dossier written: 2026-10-09**
 > *Two-clock header (PAT-044) — `scripts/ledger_staleness.py` reads the first line. **The data date, not the edit date**: a hygiene edit must NOT bump it.*
 > **Observations → `hurricane/workbook/SERIES.tsv`** · findings → central `workbook/KB.tsv` · synthesis → `STATUS.md`. **Flow is one-way.**
 > **Feeds:** C1
 **The climatological peak (~Sep 10) has PASSED.** *(CSU's own 9/16 words: "This period immediately follows the climatological peak of the season.")* Peak season runs to mid-Oct.
 
 ---
+
+## 0000. 2026-10-09 — ISAIAS LANDFALL (AEOLUS directly; no worker)
+
+**LANDFALL near Destin FL ~8:30 PM CDT (0130Z 10/10): 105 mph = 90 kt, 971 mb (NHC TCU 100130, Doppler radar) — Category 2. The C1 major-landfall letter (≥96 kt) is NOT FIRED; C1 held at 2 by the rule committed before the statement (`30d0ab065`). KB-189.**
+- Trail: best-track peak **105 kt** at 10/9 12Z–18Z (major over water only) → 13A **95 kt**/967 mb (00Z) → TCU **90 kt**/971 mb (01Z) → landfall 90 kt. Shear 30–40 kt; asymmetric, gustier than normal (TCD 13).
+- Obs: Santa Rosa Sound 91 mph sust / 116 gust; Pensacola WeatherSTEM gust 100; Panama City Beach NOS **5.6 ft above MHHW**. Surge forecast 6–9 ft AL/FL border → Grayton Beach.
+- **ACE 18.02 = 17.46%** of the 10/10-00Z to-date normal 103.20; 3rd-lowest of 60 (KB-178). CSU 9/30 two-week 78% below **missed** (window 7.59, KB-179).
+- MMA 10/9: **71.51% oil / 58.84% gas** shut in, 129/371 platforms (KB-177). Loss leg: pre-landfall mid-single-digit $bn (KB-180) — **post-landfall modeler estimates OWED** (C4 >$10B leg, once).
+- Exit leg 2 (no major US landfall by 11/30) stays LIVE. Operational intensity governs; a TCR revision is history, never a re-grade.
 
 ## 000. 2026-10-08 — HURRICANE ISAIAS (AEOLUS directly, bounded dispatch session; no worker)
 

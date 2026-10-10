@@ -1,9 +1,36 @@
 # AEOLUS · WATER — live dossier
 
-**As-of: 2026-09-28** *(DARK-WINDOW worker pass 9/28 — every instrument re-pulled at its primary except snowpack (seasonally empty); Mississippi Vicksburg (VCKM6) / Cairo (CIRI2) NWPS IDs RESOLVED from the NWPS listing, not yet registered. The 9/28 block below SUPERSEDES the 9/18 block where they overlap; older blocks are history — read the section dates.)* *(Prior as-of line, kept: As-of 2026-09-18 *(FULL worker pass 9/18 — every instrument in this folder re-pulled at its primary except snowpack (seasonally empty) and the Yangtze (not tasked). Section blocks below dated 8/27 or 9/11 are SUPERSEDED by the 9/18 block unless they say otherwise — read the section dates).* All figures primary (USBR 24-Month Study / USBR hydrodata / USGS NWIS / WSV-PEGELONLINE / NOAA-NWPS / ACP / OVF / UNL-FICH / USDM API).)*
+**As-of: 2026-10-09** *(worker pass 10/9, tasked subset: Rhine C5 legs + WSV forecast · Contargo · Mead/Powell/Lees Ferry · Colorado policy clock + Oct 24-MS · Panama (A-37/A-38, Gatún) · Danube LKV · Memphis + USDA barge. NOT re-pulled this pass: USDM, Yangtze, Paraná, St. Louis, Vicksburg/Cairo, CBS, heating oil, Maxau/Worms/Mainz/Emmerich. The 10/9 block below SUPERSEDES the 9/28 block for the instruments it covers.)* *(Prior as-of line, kept: As-of 2026-09-28 — DARK-WINDOW worker pass 9/28 — every instrument re-pulled at its primary except snowpack (seasonally empty); Mississippi Vicksburg (VCKM6) / Cairo (CIRI2) NWPS IDs RESOLVED from the NWPS listing, not yet registered. The 9/28 block below SUPERSEDES the 9/18 block where they overlap; older blocks are history — read the section dates.)* *(Prior as-of line, kept: As-of 2026-09-18 *(FULL worker pass 9/18 — every instrument in this folder re-pulled at its primary except snowpack (seasonally empty) and the Yangtze (not tasked). Section blocks below dated 8/27 or 9/11 are SUPERSEDED by the 9/18 block unless they say otherwise — read the section dates).* All figures primary (USBR 24-Month Study / USBR hydrodata / USGS NWIS / WSV-PEGELONLINE / NOAA-NWPS / ACP / OVF / UNL-FICH / USDM API).)*
 
-> **Last real data refresh: 2026-09-28**  ·  **Dossier written: 2026-09-28**
+> **Last real data refresh: 2026-10-09**  ·  **Dossier written: 2026-10-09**
 > *Two-clock header (PAT-044) — `scripts/ledger_staleness.py` reads the first line. **The data date, not the edit date**: a hygiene edit must NOT bump it.*
+
+### 🔴 10/9 WORKER PASS — the Rhine is still jointly below both NNW levels on every complete day through 10/9, but WSV now forecasts a rise; the 2027-28 Guidelines carry no 10/01 effective date
+
+> **Worker run, PROPOSAL-ONLY. Nothing is scored, fired or resolved here.** Detail + failed commands: `RUN_REPORT.md` (10/9). Observations: `workbook/SERIES.tsv` +93 rows, `workbook/LOG.tsv` +10 rows.
+
+**① RHINE C5 legs** — unrounded daily means, local CEST day, complete = n ≥ 90/96; frozen NNW Kaub **25** / Duisburg **153** (live API re-read 10/9: still 25.0 [occ 2018-10-22] / 153.0 [occ 2018-10-23], **not republished**).
+
+| Date | Kaub mean (n) | Duisburg mean (n) | both ≤? |
+|---|---|---|---|
+| 10/5 | 6.260 (96) | 130.833 (96) | yes |
+| 10/6 | 1.583 (96) | 130.885 (96) | yes |
+| 10/7 | 1.323 (96) | 129.979 (96) | yes |
+| 10/8 | **0.990** (96) | **138.333** (96) | yes |
+| 10/9 | **7.583** (96) | **140.396** (96) | yes |
+| *10/10* | *8.727 (11) INCOMPLETE* | *142.091 (11) INCOMPLETE* | *skipped* |
+
+10/5–10/7 reproduce the 10/8-scan rows to 3 dp. **Every complete day 9/18 → 10/9 (22 days) has both legs at/below** — a COUNT, not a grade. **WSV forecast (init 10/9 07:00, to 10/11 07:00):** Kaub 5 → **12**; Duisburg 138 → **peak 154 (instantaneous, 10/10 19:00 – 10/11 01:00)** → 152. **WSV `estimate` (10/11 09:00 → 10/13 07:00):** Kaub 13 → **25 by 10/12 21:00**; Duisburg 152 → 147 → 148. ⚠️ Forecast points are instantaneous, not daily means. Kaub actual ran **4–6 cm above** the 10/9 forecast all afternoon. Contargo's own forecast for Ruhrort (154 / **171** / 157 for 10/10–12) **disagrees** with WSV's ~152 for 10/11 — unreconciled.
+
+**② Contargo** — Kaub row **'ab 40 cm' €1,075/20′** unchanged; **Duisburg eased to the 140–131 cm row, €675/20′** (Ruhrort 133 on 10/8, 140 on 10/9), from €800 on 9/27–28. Statements unchanged: obligation ends (DE page); suspension still **conditional** (EN page) — no statement that services are suspended.
+
+**③ Colorado** — Mead **1,037.61 ft [10/8]**, +2.61 vs 1,035, window low; −0.08 ft/day over 10/4–10/8. Powell **3,519.03 [10/8]**, +9.03 vs 3,510, first decline since 9/27 (peak 3,519.04). **Lees Ferry stepped down 10/01**: ~8,200 → **~6,600 cfs** (10/2–10/8 mean 6,608.6 = **−26.09%** vs 2018-25 same window) — but a late-Sep → early-Oct step is **seasonal** (negative in 6 of 8 years, −22.8% to +17.7%; 2026 −19.3%). Driver not verified. **October 24-Month Study NOT published** (all OCT26 names 404). 🔑 **The 2027-28 Operating Guidelines §3 make effectiveness conditional on executed implementing + parallel agreements — there is NO 10/01 effective date in the text.** No primary found showing those agreements executed (USBR pages: nothing after 8/21; FR: 0 Reclamation documents since 8/1; DOI news: nothing after 8/21). State-agency primaries not registered, not checked.
+
+**④ Panama** — **A-38-2026 (10/9): September TRANSITS 32.63/day** (979; high 37 / low 28) vs Aug 33.19 — **+0.63 vs the ≤32 transit band**. ARRIVALS 31.5. **SLOTS** used/available as printed: Neopanamax 134/125 (107.20%), auctioned 291/339 (85.84%). **A-37-2026 (10/5)**: LoTSA 2027 + cancellation-fee change — no DRAFT or SLOT-cap change. DRAFT still **49.0 ft** (A-36). Gatún **85.23 ft [10/8]** (+0.49 vs 9/27); same date 2023 **79.92** / 2024 86.15 / 2025 86.88.
+
+**⑤ Danube** — **23 of 44** below `LKV_viszony` (19 excluding sentinels) — same count as 9/28, **but OVF rewrote the reference**: 14 stations now sit below LKVs **dated Aug–Sep 2026** (e.g. Budapest −2 vs LKV 0 [2026-09-08]; Mohács −35 vs −29 [2026-09-11]); 9/28's LKVs were 2018-dated (Budapest 33, Mohács 50). Moving-reference register entry 1 in action. Reading time field `Idopont` exists (10/9 17:00Z at 22 stations).
+
+**⑥ Mississippi** — Memphis daily means (UTC day) rose to **11.300 [9/30]**, fell to **3.630 [10/8]** (10/6–10/7 skipped, n=21), 6.570 [10/9]. Trough still −4.678 [9/14]. **USDA St. Louis barge rate 723.21% = $28.86/t [10/6]**, down 2 weeks from 834.69; **69.6th pct of the same calendar week** (n=23), 95.6th all weeks.
 
 ### 🔴🔴 9/28 DARK-WINDOW WORKER PASS (AEOLUS dark 9/18 → 9/28) — the Rhine sat jointly below both frozen NNW levels for 11 straight complete days, and Panama loosened
 

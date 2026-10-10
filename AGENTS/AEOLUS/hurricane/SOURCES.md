@@ -114,6 +114,15 @@ curl -s -A "Mozilla/5.0" -L "https://www.artemis.bm/catastrophe-bond-market-yiel
 curl -s -A "Mozilla/5.0" -L "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-response-isaias"
 # strip tags; the table sits after "Total Percentage of GOA": platforms evacuated, rigs, Oil BOPD shut-in + %, Gas MMCFD + %
 ```
+**🔑 FIND THE LATEST RELEASE VIA THE ISSUER'S RSS — verified 2026-10-08 (aeolus-1008b) and 2026-10-09 (this read).** The index page is "Access denied", and update slugs are not guessable (10/7 = `…isaias`, 10/8 = `…isaias2`, **10/9 = `…isaias3`**):
+```bash
+curl -s -A "Mozilla/5.0" -L "https://www.bsee.gov/rss.xml" | python3 -c "
+import sys,re
+for it in re.findall(r'<item>(.*?)</item>',sys.stdin.read(),re.S):
+    t=re.search(r'<title>(.*?)</title>',it).group(1)
+    if 'MMA Monitors' in t: print(re.search(r'<pubDate>(.*?)</pubDate>',it).group(1),'|',t,'|',re.search(r'<link>(.*?)</link>',it).group(1))"
+```
+**Read 2026-10-09 (`…isaias3`, pubDate 14:11Z, operator reports as of 11:00 CDT 10/9):** oil **1,458,814 BOPD = 71.51%** · gas **1,259.2 MMCFD = 58.84%** · platforms **129 of 371 = 34.77%** · rigs 8 = 72.73% · DP rigs moved 2 = 11.76%. ⚠️ An absent item in the RSS means only that the feed does not list it. It does not prove that no release was issued.
 **Issuer since 2026-07-10 = Marine Minerals Administration (BOEM + BSEE reunified), still on bsee.gov.** Read 10/8 (release dated 10/7, data as of 11:00 a.m. CDT): oil 511,619 BOPD = 25.08% · gas 350.25 MMCFD = 16.37% · 8 of 371 platforms.
 ⚠️ **The press-release INDEX returns "Access denied" (HTTP 200 shell)** — a missing later release is SEARCH-NOT-FOUND, never a verified absence. Update releases have taken new slugs in past seasons (`bsee-monitors-gulf-of-america-oil-and-48`, `…-53`); guessed Isaias update slugs 404'd 10/8. ⚠️ The issuer's rig table carried two slips on 10/7 (2/11 printed 18.8%; a 17-rig DP denominator labelled "non-dynamically positioned") — record as printed, flag, never "correct" silently.
 
