@@ -81,8 +81,12 @@ DASH_STALE_HOURS = 72       # dashboard self-declares red past this
 SUMMONS_LEDGERS = {
     "LABOR": "AGENTS/LABOR/docket/CATALYSTS.tsv",
     "VULCAN": "AGENTS/VULCAN/docket/CATALYSTS.tsv",   # 2026-09-29 (prome-82): 5-of-5 Friday slots missed since 8/28 — same schema as LABOR; ACCEPTANCE_summons_ledger_VULCAN_2026-09-29.md
+    "VIOLET": "AGENTS/VIOLET/workbook/CATALYSTS.tsv",  # 2026-10-10 (prome-ce, Will 13:45 ET): its forward calendar ran EMPTY after 9/30 and five cheap-tail OPEN days went unrouted while dark — a 7-col schema (date/event/type/agent_domain/expected_vol_impact/source/notes; impact stands in for priority); ACCEPTANCE_summons_ledger_VIOLET_empty-forward_2026-10-10.md
 }
 SUMMONS_WINDOW_DAYS = 2     # due within N days flags; past-due always flags
+EMPTY_FORWARD_DAYS = 14     # a registered ledger with NO row inside this horizon flags EMPTY-FORWARD
+                            # (2026-10-10: an empty calendar is the shape that leaves a dark desk unwoken —
+                            # a boot-only check at the desk cannot see a desk that never boots)
                             # (owners prune fired rows, so past-due-still-present
                             # reads as ungraded — the exact BD-02 miss shape)
 
@@ -1205,25 +1209,32 @@ def check_desk_catalyst_summons():
     today = dt.date.today()
     horizon = today + dt.timedelta(days=SUMMONS_WINDOW_DAYS)
     flags, dead_ledgers = [], []
+    empty_horizon = today + dt.timedelta(days=EMPTY_FORWARD_DAYS)
     for desk, rel in SUMMONS_LEDGERS.items():
         path = ROOT / rel
         if not path.exists():
             dead_ledgers.append(f"{desk} ledger MISSING ({rel})")
             continue
         try:
+            forward_rows = 0
             with path.open(newline="", encoding="utf-8") as f:
                 for row in csv.DictReader(f, delimiter="\t"):
                     m = re.match(r"(\d{4}-\d{2}-\d{2})", (row.get("date") or "").strip())
                     if not m:
                         continue
                     d = dt.date.fromisoformat(m.group(1))
+                    if today <= d <= empty_horizon:
+                        forward_rows += 1
                     if d > horizon:
                         continue
-                    pri = (row.get("priority") or "?").strip()
+                    pri = (row.get("priority") or row.get("expected_vol_impact") or "?").strip()
                     ev = (row.get("event") or "?").strip()[:45]
                     when = (f"PAST-DUE {(today - d).days}d — ungraded?" if d < today
                             else ("TODAY" if d == today else f"in {(d - today).days}d"))
                     flags.append((d, f"{desk} {d} [{pri}] {ev} ({when})"))
+            if forward_rows == 0:
+                dead_ledgers.append(f"{desk} ledger EMPTY-FORWARD (no row within {EMPTY_FORWARD_DAYS}d) — nothing to summon on; "
+                                    f"the owner's calendar needs rows or the desk goes unwoken")
         except Exception as e:
             dead_ledgers.append(f"{desk} unreadable: {type(e).__name__}")
     flags.sort()
