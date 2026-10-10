@@ -8,7 +8,7 @@
 
 > **★ TRANSFERABLE DISCRIMINATOR (EGBN grade — the one other desks should take):** **coverage thinning has TWO causes with OPPOSITE meanings** — ACL failing to keep pace with *incoming* problem credits (bear, under-provisioning) vs ACL *consumed by outgoing realized losses* (de-risking). Same arithmetic, opposite conclusion. Companion adopted 8/10 (HOMER's version for delinquency rates): **when a DQ headline improves, check the provision line in the same filing** — Fannie MF SDQ "improved" to 0.60% via modification while its MF provision rose +49% QoQ.
 
-**As of:** **2026-10-09 (Fri ~22:xx ET, Will-launched evening closeout, Opus 5.5) · STATUS pin `288454bd9`.** ★ **Q3 read plan filed** (`reports/2026-10-09_Q3_earnings_read_plan.md`). **Provisional: CONCENTRATED on 6/30 evidence.** Only L180 (≥3 of WAL/VLY/SSB/BKU/SBCF, original total-CRE basis) or the FL-rail aggregate can show a SPREAD. Deterioration at FLG/EGBN/OZK/AMTB is individual-bank severity. Missing banks → UNKNOWN where they could flip a breadth verdict. 11/07 = planned Call Report retrieval, completeness checked then. ★ **Monitors repaired:** OZK filings read at the FDIC (not the SEC); **VLY had been keyed to Old Republic's SEC CIK**; FLG/AMTB/CFG/CUBI covered; no false all-clear. *Prior As-of (10/7) → `archive/NEXUS_BRIEF_snapshot_2026-10-09.md`, crc32 `a765bf7e`.*
+**As of:** **2026-10-09 (Fri ~22:xx ET, Will-launched evening closeout, Opus 5.5) · STATUS pin `f0dbde9ec`.** *(10/10: 10/9 settled closes graded — WAL $74.27 row 28, 0-of-3; FLG 3rd close below RED.)* ★ **Q3 read plan filed** (`reports/2026-10-09_Q3_earnings_read_plan.md`). **Provisional: CONCENTRATED on 6/30 evidence.** Only L180 (≥3 of WAL/VLY/SSB/BKU/SBCF, original total-CRE basis) or the FL-rail aggregate can show a SPREAD. Deterioration at FLG/EGBN/OZK/AMTB is individual-bank severity. Missing banks → UNKNOWN where they could flip a breadth verdict. 11/07 = planned Call Report retrieval, completeness checked then. ★ **Monitors repaired:** OZK filings read at the FDIC (not the SEC); **VLY had been keyed to Old Republic's SEC CIK**; FLG/AMTB/CFG/CUBI covered; no false all-clear. *Prior As-of (10/7) → `archive/NEXUS_BRIEF_snapshot_2026-10-09.md`, crc32 `a765bf7e`.*
 
 ## VIEW
 
@@ -71,7 +71,7 @@
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
-| 🔴 **Every close** | `REG-T-02` EXIT grading (WAL ≥81.90 ×3) | 0-of-3; 10/8 $75.50 is 7.8% short; 10/9 graded next session from settled bars |
+| 🔴 **Every close** | `REG-T-02` EXIT grading (WAL ≥81.90 ×3) | 0-of-3 (28 rows); 10/9 $74.27 is 9.3% short |
 | 🟠 **Daily ~10:15 ET** | FRED HY/B/BB/CCC (cache-busted CSV) | HY >320 restarts `REG-T-03`'s count; B ORANGE >330 |
 | 🟠 **Thu 10/15** | Claims (197K [w/e 10/3]) | >300K = ORANGE banks → RED (far) |
 | 🟠 **Tue 10/13** | Nano Banc P&A posted? (L516; bid summary read 10/9) | Size Pools A/D; re-run §2 |
@@ -84,4 +84,4 @@
 
 ---
 
-*Brief format follows NEXUS_BRIEF schema (R3 + amendments 7, 10). Created 2026-07-09; body rebuilt 2026-08-10 per Amendment 10; folded 2026-10-09 PM (As-of → `archive/NEXUS_BRIEF_snapshot_2026-10-09.md`; STATUS pin `288454bd9`); folded 2026-10-07 with pre-fold snapshot → `archive/NEXUS_BRIEF_snapshot_2026-10-07.md` (prior fold 9/29 → `archive/NEXUS_BRIEF_snapshot_2026-09-29.md`) (fold = session's LAST write-back; 7/30 stale-vintage banner retired with all three annotated defects resolved into the body).*
+*Brief format follows NEXUS_BRIEF schema (R3 + amendments 7, 10). Created 2026-07-09; body rebuilt 2026-08-10 per Amendment 10; folded 2026-10-09 PM (As-of → `archive/NEXUS_BRIEF_snapshot_2026-10-09.md`; STATUS pin `f0dbde9ec`, re-pinned 10/10); folded 2026-10-07 with pre-fold snapshot → `archive/NEXUS_BRIEF_snapshot_2026-10-07.md` (prior fold 9/29 → `archive/NEXUS_BRIEF_snapshot_2026-09-29.md`) (fold = session's LAST write-back; 7/30 stale-vintage banner retired with all three annotated defects resolved into the body).*
