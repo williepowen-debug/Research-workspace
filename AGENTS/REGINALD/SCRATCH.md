@@ -102,3 +102,5 @@ KRE since 9/14: 12 sessions, 7 down / 4 up / 1 flat; 74.11 → 69.83. **Yes, a s
 **KRE float (boot.py):** 53.53M sh vs 56.11M [9/29] = −2.58M / −4.6%. Fund-report date not verified; not base-rated ⇒ a description, not a signal.
 
 **HBAN $16P Oct-16 ×2:** HBAN 15.32 [10/9 quote] ⇒ $0.68 ITM (card 9/26: $0.36). WQ-302 rules by Wed 10/14 close.
+
+**PROME prome-1e cross-session ping (rcv ~20:42 ET, coordination, NOT an assignment):** no REGINALD docket row due 10/9. Dates restated: L516 Nano P&A re-check Tue 10/13 · 10/13 ICE cell for REG-T-03 · WAL Q3 10/19 AMC (L170, WAL desk). **OZK's $915M RaDD bridge matured today; the OZK desk reads it Mon (L635)**, which answers my boot gap. HEARTBEAT 10/9c levels: FLG 11.31 · OZK 44.41 · WAL 74.28 · KRE 69.04, vs my vendor quotes 11.32 · 44.41 · 74.27 · 69.01. Off by 1–3 cents ⇒ more evidence that the 10/9 closes are unsettled; grade from settled bars. **CLOSEOUT OBLIGATIONS:** memo to `PROME/inbox/` (repo root) per COMPLETION_SPEC + one-line **WQ-249 receipt** to prome-1e. Shared index: AEOLUS has staged renames, so pathspec commits only.
