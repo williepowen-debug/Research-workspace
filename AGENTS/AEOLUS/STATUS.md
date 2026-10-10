@@ -1,9 +1,9 @@
 # AEOLUS STATUS
 
-**Last Updated:** 2026-10-10 12:03 ET (**Will-directed:** news sweep, then the El Niño winter re-point of C2/C3; KB-191…199, AEO-13). Prior: 10/9 21:32 ET (L627 owner). Full rebuild 9/28 (`archive/STATUS_ARCHIVE_2026-09-18_full.md`).
+**Last Updated:** 2026-10-10 12:34 ET (**Will-directed:** news sweep → El Niño winter re-point of C2/C3 → Colorado search; KB-191…204, AEO-13). Prior: 10/9 21:32 ET (L627 owner). Full rebuild 9/28 (`archive/STATUS_ARCHIVE_2026-09-18_full.md`).
 **Status:** 🟡 **C1 — Hurricane Isaias made landfall near Destin, FL at 8:30 PM CDT Fri 10/9 as a Category 2 (90 kt / 105 mph, 971 mb); the major-landfall trigger did NOT FIRE (6 kt under).** 🔴🔴 **C5 — Rhine below its all-time record low at both graded gauges every complete day 9/18→10/9 (22 days); still FIRED; WSV's 10/10 run shows no exit through 10/12.** 🔴 **C6 — Mead 1,037.60 ft [10/9], 2.60 ft above Hoover 1,035.**
 **Class:** Market-agent (climate → economy) · **Self-level:** L2
-**Sessions 10/9–10:** landfall graded (KB-189) · catch-up KB-177…190 · sweep KB-191…194 · **C2/C3 winter re-point KB-195…199, AEO-13.** Yangtze source timed out 10/10.
+**Sessions 10/9–10:** landfall (KB-189) · catch-up KB-177…190 · sweep KB-191…194 · **C2/C3 winter re-point KB-195…200, AEO-13** · Panama KB-201 · Colorado KB-202…204. Yangtze source timed out.
 
 > Data is primary-sourced and dated below. Per Critical Rule #3, verify against the primaries (CPC/NHC/USBR/WSV/ACP/NIFC/NWPS) before any trade use. No naked numbers.
 > **STATUS budget: 32,550 B (`READ_CAP.md`) · <250 lines.** Measure with `PROME/tools/measure.py`. **Rulings that still govern:** `wksst9120.for` is the sole weekly ENSO figure (KB-088) — **CPC discussion prose quotes the RELATIVE monthly index; never label it "weekly" (KB-181)** · §C6 "USBR's path projects a breach" is SATISFIED-AT-WRITE-TIME, never a live leg · **SLOTS ≠ TRANSITS** · grade Rhine on **UNROUNDED** means only · Mississippi stored on **UTC-day** daily means (KB-159) · **NHC intensity is graded in KNOTS as stated (5-kt steps) — never a mph→kt conversion.**
@@ -46,11 +46,11 @@
 | Leg | Enter | Exit | State |
 |---|---|---|---|
 | **1 — economic** | Mead **≤1,035 ft** | ≥1,045 × 5 days | 1,037.60 [10/9] — **NOT FIRED**; window low |
-| **2 — regulatory (ROD)** | Most Probable 24MS projects Mead **<1,000** in 12 months | next study ≥1,010 | Sept study min 1,034.18 — NOT FIRED; **Oct 24MS not out (404s 10/9)** |
+| **2 — regulatory (ROD)** | Most Probable 24MS projects Mead **<1,000** in 12 months (ROD §10.7) — ⚠️ **the 2027-28 Guidelines §5.3.A.4 carry a SEPARATE 1,010 line; re-key PROPOSED, Will-gated (KB-204)** | next study ≥1,010 | Sept study min 1,034.18 — NOT FIRED; **Oct 24MS not out (404s 10/9)** |
 | **3 — operational** | **REALISED** Powell **≤3,510** (USBR 919/49) — never a 24MS table (KB-143) | ≥3,520 × 5 days | 3,518.97 [10/9] — NOT FIRED |
 
 ⚠️ The fourth route — *USBR's path projects a breach of 1,035* — is **SATISFIED-AT-WRITE-TIME** and may not fire. The ROD's ladder (1,025/1,010/1,000) sits **entirely below** my economic 1,035.
-⚠️ **Milestone band (CLAUDE.md §THRESHOLDS) — Red leg UNGRADEABLE:** "fail to take effect 10/01" has **no 10/01 anchor in the instrument** — §3 makes the Guidelines effective only on Secretary execution AND executed implementing + parallel agreements; §5.3.A.3 "the Secretary shall determine" if the Lower Division States have not executed. No registered primary shows execution — **an absence, not a finding**. Owed: dated search (ADWR/CAP/MWD/SNWA + Interior). KB-185.
+⚠️ **Milestone band (CLAUDE.md §THRESHOLDS):** Red leg (a) "fail to take effect 10/01" is **met on its letter by inference** — no primary shows the Lower Basin agreement executed; ADWR/CAP describe it as pending, MWD has it on its **10/27** board, and Arizona's legislature must approve (A.R.S. §45-106). But the 10/01 date was USBR web copy, not the instrument, and the **operative deadline is now Jan 1, 2027** (secondary). Red leg (b) "Secretary shall determine" is **not invoked**. The **1.25 maf CY2027 cut proceeds regardless**. **Litigation: *Nevada v. Burgum*** (D. Nev. 2:26-cv-02665, filed 8/24) seeks vacatur. No score moves. Milestone-row re-key owed (KB-202/203).
 
 ---
 ## LIVE CHANNEL READS
@@ -75,11 +75,11 @@
 | **C5** | 🔴 **Danube** | **23 of 44** below LKV (19 excluding placeholder dates); ⚠️ OVF **rewrote Hungarian LKVs to Aug–Sep 2026** (Budapest 33 → 0) — 14 stations below their own 2026 lows | 10/9 | 🔴 | OVF `LKV_folyok` (primary) |
 | C5 | Mississippi | Memphis **6.570 ft** [10/9 UTC] (peak 11.300 9/30; 10/6–7 incomplete) · **USDA St. Louis barge 723.21% = $28.86/t [wk 10/6], 69.6th same-week pct, down 2 wks** | 10/9 · 10/6 | 🟡 | NWPS MEMT1 · USDA AMS |
 | C5 | Paraná · Yangtze | Rosario 2.81 m, 88th pct · Yangtze no reference levels — **not re-read since 9/29** | 9/28–29 | 🟢 / — | UNL-FICH · CJH |
-| **C5** | **Panama** | **TRANSITS Sept 32.63/day** (979) — above the ≤32 Yellow · **SLOTS** auctioned 291/339, NeoPanamax 134/125 · **DRAFT 49.0 ft** · A-37 (10/5) = 2027 slot program, no cap change · slots 33/day from 10/15 (A-36) · Gatún **85.23 ft [10/8]** (2023 79.92) | 10/9 | 🟢 | ACP A-38-2026 + CSV (primary) |
+| **C5** | **Panama** | **TRANSITS Sept 32.63/day** (979) · **DRAFT 49.0 ft** (A-36 raised it 9/28) · **SLOTS** 33/day from 10/15 · **Gatún 85.26 ft [10/9]**, rising (2023 same date 79.89). **Dry-season base rate:** strong-El-Niño Oct→Jan–Apr drop median **−3.1 ft** (worst −4.5) → ~82.1 ft (worst ~80.8; 2024 low 80.17) — KB-201 | 10/9 | 🟢 | ACP CSV · A-36/A-38 (primary) |
 | **C6** | 🔴 **Mead** | **1,037.60 [10/9]** · −0.06 ft/day 10/4–9 · Sep month-end 0.60 ft BELOW the Sept 24MS path · **Oct 24MS not out** | 10/8 | 🔴 | USBR 921/49 |
 | C6 | Powell | **3,518.97 [10/9]** · off the 3,519.04 peak (10/6–7) · 8.97 ft above 3,510 | 10/9 | 🔴 | USBR 919/49 |
 | C6 | Lees Ferry | ~8,200 → **~6,600 cfs** from 10/1 (−19.3%; a seasonal-sized step, down in 6 of 8 years 2018-25); 10/2–8 avg −26.09% vs 2018-25 | 10/8 | 🟠 | USGS 09380000 |
-| C6 | Regime | ROD signed 8/21 · **Guidelines effective only on executed agreements (§3)** — execution unverified · no FR notice found | 10/9 | 🔴 | USBR decision-doc PDF |
+| C6 | Regime | ROD signed 8/21 · **LB implementing agreement UNSIGNED** on every primary read (10/10; Jan 1, 2027 deadline, secondary) · **1.25 maf CY2027 cut proceeds** (USBR 9/15) · ***Nevada v. Burgum*** filed 8/24 · **Oct 24MS not out (16:25Z 10/10)** | 10/10 | 🔴 | USBR · ADWR/CAP/MWD · RECAP (KB-202/203) |
 | SEIS | S-5 | Kilauea WATCH/ORANGE since 9/07 (S-5 FIRED-ON-LETTER, summit-confined) — **not re-read since 9/28** | 9/28 | 🟡 | USGS HANS |
 
 ---
@@ -130,9 +130,9 @@ Canonical: `workbook/PREDICTIONS.tsv`. **OPEN (9):**
 |---|---|---|---|
 | 1 | **C5 exit watch** — re-grade the 3-day test every session; WSV/Contargo forecast a rise 10/10–13 | each session | 🔴 LIVE — exit plausible this weekend |
 | 2 | **C5 long-series hunt** → base-rate, then GlW re-key **after exit** | 10/31 | OPEN |
-| 3 | **October 24-Month Study** — Mead vs 1,035; AEO-10's instrument | ~10/15 | WAIT (404 on 10/9) |
+| 3 | **October 24-Month Study** — Mead vs 1,035; AEO-10's instrument | ~10/15 | WAIT (not out at 16:25Z 10/10) |
 | 4 | 🔴 **Isaias post-landfall reads** (landfall graded 10/9, KB-189; day-1 sweep 10/10 KB-191) — MMA restart path (no 10/10 release by ~11 ET) · first modeler insured-loss estimates (Verisk/KCC/Moody's RMS) → C4 >$10B leg · Citizens/FLOIR via CORAL (L638) · Artemis cat-bond points 10/9+ · final AL09 ACE · outages → WATT | 10/10 → | 🔴 OPEN |
-| 5 | **Colorado LB implementing agreements** — dated search (ADWR/CAP/MWD/SNWA + Interior/FR); grade the milestone band only after | ~10/23 | OPEN (KB-185) |
+| 5 | **Colorado** — re-key the milestone band to **Jan 1, 2027** + litigation (Will-gated row); C6 leg 2 **1,010 vs 1,000** (KB-204, Will-gated); watch **MWD 10/27**, AZ legislature, *Nevada v. Burgum* docket | next ruling | 🟠 PROPOSED |
 | 6 | C2 → 4 leg "cereals index breaking" has **no level** — name one (FAO cereals, base-rated) | next session | OPEN |
 | 7 | C3: **'Henry Hub break' has NO price level** · **summer CDD re-spec before 2027-05-01** | before 5/1/27 | OPEN |
 | 8 | **Seismic S-5 re-spec** (Kilauea toggles ORANGE routinely) + S-1…S-5 re-read | — | PROPOSED to self |
@@ -141,7 +141,8 @@ Canonical: `workbook/PREDICTIONS.tsv`. **OPEN (9):**
 | 11 | CSU final 10/14 | 10/14 | WAIT |
 | 12 | **regime ruling** — redefine `verystrong_prob_ond` (prose no longer states it; table OND 100) · regime/SOURCES ⑤⑥ wording (relative vs traditional) | next session | OPEN |
 | 13 | ~~TRADE.md + THESIS C2–C6~~ | — | ✅ **DONE 10/10** — TRADE rows 1–5 (new #5 SA maize), THESIS C2/C3 rewritten for winter, C4–C6 states, C5 flip cell fixed (retired 10-day clause) |
-| 14 | wildfire/SOURCES.md:131 PL5 run "54-day" → **49 days** (worker P15) | next session | OPEN |
+| 14 | ~~wildfire/SOURCES PL5 54→49 days~~ | — | ✅ DONE 10/10 |
+| 15 | **Worker read surfaces** (L-49): water DOSSIER 90→13 KB, wildfire 35→9.5, hurricane 32→13 (rotated 10/10); **water SOURCES hot/cold split** (10/10); **regime DOSSIER 30 KB = 92%** next; READS.tsv declaration → PROME | each spawn session | 🟠 OPEN |
 
 **CLOSED BY NAME 10/9–10:** see KB-177…199 and `archive/STATUS_ARCHIVE_2026-10-10_pm-lines.md` (10/9 list, verbatim).
 

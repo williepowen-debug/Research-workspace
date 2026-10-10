@@ -1,14 +1,22 @@
 # AEOLUS · HURRICANE — live dossier
 
-**As-of: 2026-10-09 for §0000 below; 2026-10-08 for §000; 2026-09-28 for §00; §0–§6 (9/18 vintage) ROTATED to archive 10/10.** **C1 score: 2 as set by AEOLUS 2026-10-08 (VX-AEO-39), HELD at the 10/9 landfall grade (VX-AEO-41) — a worker does not score; nothing below re-grades it.**
+**As-of: 2026-10-10 for §00000; 2026-10-09 for §0000; 2026-10-08 for §000; 2026-09-28 for §00; §0–§6 (9/18 vintage) ROTATED to archive 10/10.** **C1 score: 2 as set by AEOLUS 2026-10-08 (VX-AEO-39), HELD at the 10/9 landfall grade (VX-AEO-41) — a worker does not score; nothing below re-grades it.**
 
-> **Last real data refresh: 2026-10-09**  ·  **Dossier written: 2026-10-09**
+> **Last real data refresh: 2026-10-10**  ·  **Dossier written: 2026-10-10**
 > *Two-clock header (PAT-044) — `scripts/ledger_staleness.py` reads the first line. **The data date, not the edit date**: a hygiene edit must NOT bump it.*
 > **Observations → `hurricane/workbook/SERIES.tsv`** · findings → central `workbook/KB.tsv` · synthesis → `STATUS.md`. **Flow is one-way.**
 > **Feeds:** C1
 **The climatological peak (~Sep 10) has PASSED.** *(CSU's own 9/16 words: "This period immediately follows the climatological peak of the season.")* Peak season runs to mid-Oct.
 
 ---
+
+## 00000. 2026-10-10 — DAY 1 AFTER LANDFALL (AEOLUS directly; no worker)
+
+- **NHC final advisory 4 AM CDT 10/10:** post-tropical, 30 kt / 1002 mb, inland AL; WPC takes over. TWO: nothing for 7 days. Final AL09 ACE still provisional (7.225 at 10/10 00Z; season 18.02).
+- **FEMA EM-3655 FL / EM-3656 AL** (10/9, Public Assistance only) — **no major-disaster (DR) declaration yet** (OpenFEMA 14:57Z). Outages ~834k regional / 436k FL at 5 AM (poweroutage.us via CBS, SECONDARY) → WATT.
+- **Loss leg:** no post-landfall modeler estimate at ~11:00 ET (dated search). **DATE TRAP: 2020-Isaias KCC $4.2bn / RMS $3–5bn come up first in search.** FL exposure is CORAL's (Citizens 5 HU-warning counties 8,327 PIF / $3.30B TIV, KB-194).
+- **EP Hurricane Simon** Cat 4 130 kt / 938 mb → W-central Mexico Sun; **IBRD CAR Mexico 2024 (Pacific) $175M** parametric bond on watch (~932 mb in a box for 25%, Artemis); Manzanillo terminals shut to 10/12. Regime evidence (KB-168/192), not a channel. **Read the landfall pressure vs the box next session.**
+- **RNR post-cat vehicle** (TRADE.md) was **armed on its letter 10/6–8** by the Gulf/FL track; the same-session TERRY packet was missed; late notice 10/10, domain conviction 1/5 (L-47).
 
 ## 0000. 2026-10-09 — ISAIAS LANDFALL (AEOLUS directly; no worker)
 
