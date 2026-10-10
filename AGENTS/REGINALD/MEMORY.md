@@ -44,6 +44,10 @@
 - **CALENDAR:** earnings table, L180 re-statement, 11/07 retrieval row.
 - **POSITIONS:** stamp vs FORGE 10/8 (no structural change).
 - **Delivered:** PROME memo + L180 annotation ask.
+**5. Post-closeout, Sat 10/10 AM (Will-asked: will the regional selloff continue?):**
+- **Withdrawn:** I gave a "sector probably stabilises" lean, CATO challenged it, and I withdrew it. **No market-direction forecast stands, stabilising or bearish.**
+- **The assessment of record is unchanged:** STATUS says concentrated on June evidence, with no forecast.
+- **Short interest is descriptive context only, dated:** OZK 16.3% of float, EGBN 11.8% (yfinance, settlement ~9/14–15).
 ### PRIOR SESSION 2026-10-09 Fri ~10:25 → ~10:5x ET (PROME prome-75 L516 due-row wake, Opus)
 **Nano:** P&A NOT posted (10:26 ET); bid summary (10/8) read → 0.85% premium, Pools B/C bought at 82.30/80.17%, A/D retained, no loss-share → §3 re-run (32–42% retained, headline unchanged); 9/27 report re-pointed; CREED + WAL packeted. **REG-T-03:** 309 [10/7] · 315 [10/8] → 0-of-3. **Letters:** OZK <$45 is the OZK desk's letter (consequent 🔴 → REGINALD+PROME, discharged 10/8); FLG RED consequent discharged 10/7, ladder exhausted. **Inbox 4 + 17 → 0**; 5 correction receipts (NO-OP); OZK reconcile: Seattle 'sold' → 'marked to an offer' in 3 reports, ALLL-basis labels. DAEDALUS asks answered/dated in STATUS §OPEN PROCESS ASKS (review Thu 10/15).
 ### CHANGES SINCE LAST SESSION
@@ -71,6 +75,10 @@
 **🟢 Done 10/9 PM:** monitor repair (OZK FDIC route · VLY CIK · coverage · no false all-clear · countdown · settled bars) · Q3 read plan + Will's clarifications. **🟢 Done 10/7:** 0-CARD (TERRY `TRY-COND-KREADD`, conditional, not armed) · 0-EXP (KRE rolled) · 0-WB · 0-WQ318 · item 1 TRY-FIRE-002 dates · DAEDALUS header · R3 phrases.
 
 **CARRIED LESSONS — behaviour, not record.** *Newest first. Aging rule (9/02): full entry → one-line rule AND the full text goes to `archive/` verbatim + crc in the same pass. ⛔ Never age a lesson by deletion (the 12-21 compressions archived nothing; git history only). Preamble → BLOCK M7, crc32 `8028ecb4`.*
+44. **[10/10] I turned "I can't see deterioration" into "I expect stabilisation," and called the earnings outlook "mixed" without an expectations baseline.** "Mixed" was the expected result of my own test lines, not results against consensus.
+   - ⇒ **Not seeing deterioration is not a forecast.** A relief or decline call needs positive evidence plus the market's expectations baseline.
+   - **Alarm levels are confirmations, not preconditions.**
+   - **Don't swap one unsupported direction for the opposite one.**
 43. **[10/9] My 8-K monitor checked VLY under SEC CIK 74260, which is OLD REPUBLIC INTERNATIONAL, and checked OZK at the SEC, where OZK has not filed since 2017.**
    - **Neither could ever look wrong:** a valid feed for the wrong company, and an empty feed for a non-filer, both read as "no 8-K".
    - **Found at the evening boot, not by any check.**
