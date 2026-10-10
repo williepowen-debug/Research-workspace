@@ -1,3 +1,12 @@
+## 2026-10-10T20:39:15Z — 10/10 `walter-66` (Claude Code, Opus 5.5, laptop) · TIER-2 FULL CLOSEOUT (Will: "Okay lets close out here", 16:35 ET)
+
+Clears the PM `light-closeout — full deferred` breadcrumb below. Covers both legs; the AM leg's own Tier-2 entry (15:52Z) stays as written.
+- **Day:** 9 outputs (`-001`…`-009`), 1 kill, 38 handoff rows / 21 desks, **all delivered**: PROME's 16:32 ET push carried every WALTER commit; reconcile `--apply` wrote the 10 PM rows, 0 orphans. WALTER itself pushed nothing.
+- **PM after the second light closeout:** PROME landed the GPU-obsolescence lane rows (RESEARCH-INTAKE `5a3b083`, verified at the artifact); its commit body claims a FORGE mirror that did not happen (flagged to PROME by message). Review addendum §8 + LAST_COMPLETION recorded (`483e65900`).
+- **Closeout:** doctor 0 HIGH / 4 MED (boot 10): LABOR_DOWN residual, 2 AMENDMENT-NOTE ids, 20 NOTE rows, 12 aged unconsumed (5 ACTION). FRED 10/9 credit prints re-pulled 16:38 ET: still unposted. REGISTRY: REGINALD, PROME, WALTER refreshed. STATUS re-cut (header, BOTTOM LINE, NETWORK AWARENESS regenerated); MEMORY session notes rewritten (23,714 B); fleet memory stamp finding n+1 (typed receipt `as_of`, caught by closeout_check). LAST_COMPLETION rewritten; closeout_check PASS.
+- **Skipped, said so:** research-retirement pass (>60-day files) not run; Iran anchor not touched (no Iran-cluster dispatch in the PM leg).
+- **Surfaced to Will:** QQQ Oct-9 $755P disposition (WQ-397), still unknown on every surface.
+
 ## 2026-10-10T18:40:44Z — 10/10 PM leg of `walter-66` (Claude Code, Opus 5.5, laptop) · light-closeout — full deferred
 
 PM boot 14:14 ET 0→9b (Will: "continue working on our owed or incomplete tasks"); COMPLETE, data limit = Saturday, no new session, FRED 10/9 prints unposted. Doctor 0 HIGH / 10 MED at boot. Pull a no-op (origin not ahead).

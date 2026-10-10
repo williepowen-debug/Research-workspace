@@ -89,14 +89,14 @@
 - **Bright Data Web Unlocker (WQ-383 pilot, LIVE 2026-10-04):** `bdata scrape <url>` for a 403'd no-screenshot bookmark link; free tier 5k/mo HARD STOP, Web-Unlocker-only, key in gitignored `.env` (per-machine). Full method+limits+ledger: `design/X_BOOKMARKS_ACCEPTANCE.md` §9a.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION — 2026-10-10 TIER-2 FULL CLOSEOUT (`walter-66`, Claude Code, Opus 5.5, LAPTOP)
+### CHANGES SINCE LAST SESSION — 2026-10-10 TIER-2 FULL CLOSEOUT (`walter-66`, Claude Code, Opus 5.5, LAPTOP; AM + PM legs)
 
-Boot 10:53 ET. `-001` SKEW 1 of 4 · `-002` IMMEDIATE Ghawar gas-plant fires (cause unknown) / KKIA / Aramco Europe · `-003` Russia diesel GL 135 · `-004` Citi/Shelton · `-005` SCF consumer · `-006` markets. X-bookmarks 32/32 after Will re-authorized on the laptop. Will's "A and C": DEWEY `REQ-DEWEY-20261010-001` (due 10/14) + PROME woke BRENT/OSPREY/VIOLET (+FALCON on WALTER's rec). All commits on origin; 28/28 handoffs delivered. Heredoc finding n=4 (backticks) appended to fleet memory.
+AM (boot 10:53): `-001`…`-006` (SKEW 1 of 4; IMMEDIATE Ghawar gas-plant fires; Russia diesel GL 135; Citi/Shelton; SCF; markets), X-bookmarks 32/32, DEWEY `REQ-DEWEY-20261010-001`. PM (boot 14:14, Will: "continue working on our owed or incomplete tasks"): inbox 6 → 0, all answered (REGINALD → `-007`; PROME relay order → BOARD_CONSUMPTION_SPEC v0.35; SHADE Guggenheim doc paywalled; MARCO harness 4 PASS / 1 REJECTED; NEXUS S1 FOR, veto withdrawn). `-008` Baltic wk41; `-009` GPU-collateral financing (found by the AI_INFRA_CAPEX review: intake had no collection; PROME landed 4 lane rows `5a3b083` the same afternoon). Staleness sweep (3 tags), CHECKLIST v0.51, X_BOOKMARKS live update, MEMORY #46–47 rotated. All commits on origin (PROME's 16:32 push); 38/38 handoffs delivered. Fleet memory: stamp finding n+1 (typed receipt `as_of`).
 
 ### NEXT SESSION
-1. **Machine:** the X token now lives on the LAPTOP `.env` (re-authorized 10/10 11:24 ET); the desktop copy and `E:\walter-env.txt` are dead. Carry the laptop `.env` at the next switch.
-2. **RED-FT-10:** read CBOE `SKEW_History.csv` for 10/12, 10/13, 10/14 (VIOLET owns the count; a bar <150 resets).
-3. **DEWEY delivery** of `REQ-DEWEY-20261010-001` (due Wed 10/14): close the ledger row at step 7d.
-4. **NEXUS S1 packet** to `PROME/inbox/` by Tue 10/13.
+1. **Machine:** the X token is on the LAPTOP `.env`; the desktop copy and `E:\walter-env.txt` are dead. Carry the laptop `.env` at the next switch.
+2. **First lane hits on `gpu-obsolescence-1..4`** at step 7e (rows live from the next lane run); route through the normal gate, VULCAN/BROCK.
+3. **RED-FT-10:** CBOE `SKEW_History.csv` for 10/12, 10/13, 10/14 (VIOLET owns; a bar <150 resets).
+4. **DEWEY** `REQ-DEWEY-20261010-001` (due Wed 10/14): close the ledger row at step 7d.
 5. **FALCON** grade of Shedgum/Hawiyah (`-002`); Iran full sweep ~10/15; anchor 23,810 B (trigger 24,412).
-6. Owed checks: OZK $915M bridge outcome; Baltic TD3C/TD34 wk41 (laptop `bdata`); tanker STATE.csv TD22 row; FRED 10/9 HY print; MEMORY/anchor size checks 10/15.
+6. Owed checks: FRED 10/9 HY print (unposted at 16:38 ET 10/10; Mon is a bond holiday); H.8 Fri 10/16 (small-bank borrowings, `-007` follow-through); tanker weekly review 10/16; MEMORY/anchor size checks 10/15; next staleness sweep ~10/24.
