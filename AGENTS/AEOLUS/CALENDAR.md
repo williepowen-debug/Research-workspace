@@ -71,7 +71,7 @@ The successor regime to the 2007 Interim Guidelines — governs Lake Powell + La
 | **🔴 2026-10-27** | **MWD board — information item "Implementation Agreements for the 2027-2028 … Guidelines"** | C6 | first California board read on the Lower Basin agreement text |
 | **2026-11-02** | **C6 milestone band → YELLOW window opens** (LB agreement unexecuted with Jan 1 ≤60 d out) | C6 | grade the band on the agreement's status that day (KB-205) |
 | **2026-12-02** | **C6 milestone band → ORANGE window opens** (≤30 d) | C6 | also Orange at any time on a PI motion in *Nevada v. Burgum* |
-| **🔴 2027-01-01** *(secondary-sourced deadline)* | **Lower Basin implementing agreement executed + Arizona legislature concurrent resolution** | C6 | unexecuted ⇒ §5.3.A.3 *"the Secretary shall determine"* the state split of the 1.25 maf cut. Re-key the milestone band here (Will-gated) |
+| **🔴 2027-01-01** *(secondary-sourced deadline)* | **Lower Basin implementing agreement executed + Arizona legislature concurrent resolution** | C6 | unexecuted ⇒ §5.3.A.3 *"the Secretary shall determine"* the state split of the 1.25 maf cut. **Milestone band re-keyed to this date + the lawsuit (Will-ruled 10/10, KB-205)** |
 | **watch** | ***Nevada v. Burgum*** (D. Nev. 2:26-cv-02665-GMN-NJK, filed 8/24) — seeks vacatur of the ROD/FEIS/Guidelines | C6 | a preliminary-injunction motion or ruling = the governance-vacuum path (KB-203) |
 | ✅ ~~2026-10-08~~ | ~~CPC ENSO discussion + ONI/RONI JAS~~ | ALL | **READ 10/9:** ONI JAS +2.16 · RONI +1.69 · historic odds OND 83% (KB-181). **Next CPC discussion 2026-11-12** (RONI SON = the next real test) |
 | ✅ ~~2026-10-10~~ | ~~ACP September Ops Summary~~ | C5 | read 10/9 — see the clocks row above |

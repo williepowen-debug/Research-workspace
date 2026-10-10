@@ -143,6 +143,7 @@ Canonical: `workbook/PREDICTIONS.tsv`. **OPEN (9):**
 | 13 | ~~TRADE.md + THESIS C2–C6~~ | — | ✅ **DONE 10/10** — TRADE rows 1–5 (new #5 SA maize), THESIS C2/C3 rewritten for winter, C4–C6 states, C5 flip cell fixed (retired 10-day clause) |
 | 14 | ~~wildfire/SOURCES PL5 54→49 days~~ | — | ✅ DONE 10/10 |
 | 15 | **Worker read surfaces** (L-49): rotations done 10/10; PROME declared READS.tsv class rows (`*/DOSSIER.md`, `*/SOURCES.md`, 505d17cf3) → `read_cap_check --agent AEOLUS` now **rc 2 CANNOT-EVALUATE** until AEOLUS files its own **full boot manifest + `manifest-complete` ATTESTATION row** in `PROME/registry/READS.tsv` (STRICT flip **10/22**, DOCKET L470); **regime DOSSIER 92%** next | **before 10/22** | 🟠 OPEN |
+| 16 | **Observation home for C2 (PSD crops) + C3 (CPC HDD)** — no domain folder/SERIES yet; decide per the SHARED-INPUT RULE (+ LEDGER_GLOB) | before 11/10 WASDE · 12/30 C3 window | OPEN |
 
 **CLOSED BY NAME 10/9–10:** see KB-177…199 and `archive/STATUS_ARCHIVE_2026-10-10_pm-lines.md` (10/9 list, verbatim).
 

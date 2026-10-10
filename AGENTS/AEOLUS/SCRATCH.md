@@ -13,7 +13,7 @@
 
 ## 🔴 NEXT SESSION — START HERE (2026-10-10 12:37 ET, Will-directed: news sweep → El Niño winter re-point → Colorado → file hygiene)
 
-*(Supersedes the 10/10 morning sweep note. The 10/9 block below stays as the landfall record.)*
+*(Supersedes every earlier pickup block — all rotated verbatim, see the list at the bottom. The landfall record is KB-189 + `hurricane/`.)*
 
 ### THE ONE THING
 **AEOLUS now points at the El Niño WINTER.** C3 → winter heating (CPC pop-weighted HDD; **band Will-ruled 10/10**: MidAtl+ENC 30-d HDD vs 1991-2020, DJF windows, Y ≥0 / O ≥+10 / R ≥+20). C2 → **southern Africa maize** (SA corn lead band Y ≤−15/O ≤−25/R ≤−45 vs 16,421 kt + Aus wheat second leg, **Will-ruled 10/10**; **AEO-13 65%**, resolves 5/12/27). **Composite 17/30** (C2 3→2 on 10/9, C3 3→2 on 10/10). KB-195…200.
@@ -30,47 +30,17 @@ News sweep (KB-191…194) · CORAL five-asks consumed · C3 re-point (KB-195/196
 **Workers spawned 10/10:** C3 HDD scout · C2 regions scout · Colorado dated search · water SOURCES hot/cold split — each for a named owed item; regime/wildfire/seismic **not** spawned (no trigger; regime and wildfire refreshed 10/9).
 
 ### HYGIENE CARRIED
+- **Observation home missing for the two new instruments:** CPC HDD (C3) and PSD crops (C2) have no domain folder/`SERIES.tsv` — numbers trace only to KB + `sources/` files. Decide where they live (charter SHARED-INPUT RULE: the folder that OWNS the instrument; a new folder + `LEDGER_GLOB` entry) **before the first graded C3 window, 12/30**, and before the 11/10 WASDE.
+- `domain_log_check` keys on the LOG row DATE: a worker that dates rows by EVENT (regime 10/9) reads as "0 rows today" — add a run-dated row; consider keying the check on `pulled_at`.
 - 🔴 **Before 10/22:** file AEOLUS's full boot manifest (charter reads + worker reads) and a `manifest-complete` ATTESTATION row in `PROME/registry/READS.tsv` — PROME added the two worker class rows (505d17cf3); `read_cap_check --agent AEOLUS` reads rc 2 until then. Read the file's header rules first; follow WALTER's attestation row as the model.
 - **Worker read surfaces are invisible to `read_cap_check`** (L-49): measure `*/DOSSIER.md */SOURCES.md` each spawn session; **regime/DOSSIER 30 KB = 92%** — rotate at next touch; READS.tsv declaration flagged to PROME.
 - Owed: C2 "cereals index breaking" level · C3 Henry Hub level (ask BRENT) · summer CDD re-spec before 5/1/27 · C5 long-series base rate 10/31 · seismic S-5 re-spec · Yangtze re-read (cjh.com.cn timed out).
 
 ---
 
-## 🔴 NEXT SESSION — START HERE (2026-10-09 21:34 ET, Will-directed boot + catch-up; DOCKET L627 owner)
-
-*(Supersedes both 10/8 blocks below for everything they list as OWED. The 9/28 block is now history except the rulings list.)*
-
-### THE ONE THING
-**Isaias landed near Destin FL at 8:30 PM CDT 10/9 (0130Z), 90 kt / 971 mb (Cat 2), so the C1 major-landfall trigger is NOT FIRED and C1 HOLDS 2** (rule pre-committed `30d0ab065` before the statement; KB-189, VX-41). **C1 exit leg 2 stays live to 11/30.** NEXT: ① first **post-landfall** modeler insured-loss estimate (Verisk/KCC/Moody's RMS/CoreLogic). If >$10B, re-open **C4** (count once with C1). Pre-landfall estimates were mid-single-digit $bn (BMS $4–6B). ② Artemis cat-bond points dated 10/9+. ③ final AL09 ACE (provisional 7.225 at 10/10 00Z; season 18.02). ④ CORAL L638 reply, BRENT restart path, WATT outages: theirs, consume only.
-
-### FIRST THINGS NEXT SESSION
-1. 🔴 **Rhine 3-day re-grade.** WSV forecasts Kaub reaching 25 at 10/12 21:00 and Duisburg peaking at 154 on 10/10 eve. Contargo says Duisburg 171 on 10/11, which is unreconciled with WSV. **An exit is plausible by 10/11–13.** Grade on daily means only. Last 3 complete days: Kaub 1.323/0.990/7.583 · Duisburg 129.979/138.333/140.396 (10/7–9). If dark >3 days, run rule 6c.
-2. **October 24MS ~10/15** (404 on 10/9) — AEO-10 (30%); Mead 1,037.61 [10/8].
-3. **Colorado LB implementing agreements — dated search** (ADWR/CAP/MWD/SNWA + Interior/FR). The Guidelines take effect only on executed agreements (§3). My "10/01 take effect" was USBR web copy and is CORRECTED (KB-185).
-4. **CSU final 10/14.** C3 refresh (not done 10/8 or 10/9). C2 substitute instrument for the dead NASS exit.
-
-### DONE 10/9
-NHC landfall grade · MMA 10/9 71.51% (KB-177) · ACE 17.46% (KB-178) · CSU two-week miss (KB-179) · pre-landfall loss estimates + FL insurer closes (KB-180) · CPC 10/8 (KB-181) · Oct WASDE Aus wheat 31.0 (KB-182) · USDM 55.21% (KB-183) · Rhine/Contargo (KB-184) · Colorado §3 (KB-185) · Mead/Powell/Panama/Danube/Mississippi (KB-186) · NIFC 10/01, AEO-09 not met (KB-187) · DAEDALUS fixes (KB-188). **C2 3→2.** Composite **18/30**, fired 1/6.
-**Workers spawned: water, regime, wildfire** — overdue dated catalysts (10/01 cluster, CPC 10/08, C5/C6 re-grade). Hurricane and USDM/PSD I did directly and wrote the observation layer myself. **seismic not spawned** — no trigger (S-5 not re-read since 9/28).
-**Late correction (CORAL-raised, verified at the PDF):** FL **EO 26-211** (10/7) put Citrus + Levy in the state emergency (27 counties) — my 10/8 "Levy not in the EO" was false at write time (probed 26-203/204 only). KB-190 corrects KB-175. CORAL's full L638 reply packet is due in my inbox — **drain it first next session.**
-**Packets:** WALTER (`-027` +2.1 is the RELATIVE monthly; `4f51fe488`) · CORAL (landfall grade) · BRENT (landfall + MMA) · PROME memo (L627 DELIVERED). Inbox **EMPTY**.
-
-### RULINGS MADE 10/9 (so they are not re-litigated)
-- **NHC intensity graded in KNOTS as stated** (5-kt steps); 110 mph = 95 kt, not 95.6 (PROME adopted).
-- **NIFC "most likely" is standard probabilistic phrasing, not a hedge** — the area is NAMED (KB-187, the KB-128 question).
-- **AEO-03 instrument = Guy Carpenter US property-cat ROL index**, named prospectively; no publication by 1/15/27 → NO-VERDICT, no after-the-data fallback.
-- **C2 exit = INSTRUMENT-DEAD**, not NOT FIRED.
-
-### HYGIENE CARRIED
-- **STATUS is at 74% of read budget (23,961 B), 451 B from the 75% trigger.** The next growth forces a rotation (rule 5 → <70%).
-- **`hurricane/DOSSIER.md` 31,687 B ≈ 97% of 32,550.** Worker-read surface; rotate §0–§6 (9/18 vintage) next touch.
-- domain_log_check keys on the LOG row DATE, so a worker that dates rows by event (regime 10/9) reads as "0 rows today". Fixed by a run-dated row; consider keying on pulled_at.
-- Regime worker asks: rule on `verystrong_prob_ond` (prose no longer states it) + fix `regime/SOURCES.md` ⑤⑥ wording. Wildfire P15: `wildfire/SOURCES.md:131` PL5 run is **49 days**, not 54. Water: Danube LKV rewrite; barge-median 512.5 doesn't reproduce (533.3).
-
----
-
 ---
 ### ⬇️ ROTATED — history lives in `archive/`
+- `archive/SCRATCH_ARCHIVE_2026-10-10_10-9-block.md` — the 10/9 landfall-session block, verbatim (two lines in it are superseded — see its banner).
 - `archive/SCRATCH_ARCHIVE_2026-10-10_pickup-blocks.md` — the 10/8 (×2) and 9/28 blocks, verbatim.
 - `archive/SCRATCH_ARCHIVE_2026-09-28_pickup-blocks.md` — the 9/18 crash-recovery block + the 9/11 drain block, verbatim.
 - `archive/SCRATCH_ARCHIVE_2026-08-27_pickup-block.md` · `archive/SCRATCH_ARCHIVE_2026-08-27_superseded-blocks.md` — earlier blocks.

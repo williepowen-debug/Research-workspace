@@ -2,7 +2,7 @@
 
 **Purpose:** curated synthesis writeback, refreshed **every closeout** (CLOSEOUT step 3). Compact routing-first variant (NEXUS Amendment 9, Will-approved 7/31). `outbox/` is 🔴-crisis-only.
 
-**Last writeback: 2026-10-10 13:07 ET (Will-directed: news sweep → El Niño winter re-point → Colorado → file hygiene) — LAST write before commit per Amendment 10.** Prior fold rotated verbatim → `archive/NEXUS_BRIEF_ARCHIVE_2026-10-09_fold.md` (7480 B · crc32 1879697930 — recompute it).
+**Last writeback: 2026-10-10 13:30 ET (Will-directed: news sweep → El Niño winter re-point → Colorado → file hygiene) — LAST write before commit per Amendment 10.** Prior fold rotated verbatim → `archive/NEXUS_BRIEF_ARCHIVE_2026-10-09_fold.md` (7480 B · crc32 1879697930 — recompute it).
 **WAITING-FOR:**
 - first post-landfall **Isaias** insured-loss estimate (C4 >$10B leg, counted once)
 - **each session:** Rhine 3-day exit re-grade

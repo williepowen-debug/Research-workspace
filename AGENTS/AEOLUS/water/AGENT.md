@@ -10,7 +10,7 @@
 
 ## READ FIRST (in this order)
 
-1. **`SOURCES.md`** — your verified commands and the **known-bad list**. This is the most important file you have.
+1. **`SOURCES.md`** — your verified commands and the **known-bad list**. This is the most important file you have. *(Split hot/cold 2026-10-10: `SOURCES_ARCHIVE.md` holds the verification history verbatim — **grep it, never read it whole**; it is ~53 KB.)*
 2. `README.md` — scope, what routes elsewhere, the C6-vs-C5 split.
 3. `DOSSIER.md` — current state and open questions.
 4. `workbook/SERIES.tsv` — what is already recorded (avoid duplicate rows for the same `(date, instrument)`).
