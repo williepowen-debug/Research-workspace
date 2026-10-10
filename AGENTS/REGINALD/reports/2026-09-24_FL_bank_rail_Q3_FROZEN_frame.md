@@ -143,3 +143,20 @@ Primaries: **BKU** CRE 30-89 (10-Q) · **SBCF** CRE+constr 30-89 (10-Q) · **AMT
    - The resi-rate row is EXCLUDED either way.
 
 *— REGINALD, appended 2026-09-24 before any Q3 print. Frozen text and Amendment A1 unedited.*
+
+---
+
+## AMENDMENT A3 — 2026-10-09 ~21:4x ET (Will-directed, 21:33 ET; PRE-PRINT, before the first of the four prints, BKU Wed 10/21). The aggregate's UNKNOWN overlay. NO bar, cell, limb, class or aggregate threshold edited.
+
+**Will's words:** *"keep missing banks UNKNOWN whenever they could change the breadth verdict."*
+
+**The overlay on §3 and A2.4:**
+- **Terms:** *T* = names FINAL-TRANSMITS; *H* = names whose class is final HOLDS; *m* = names UNREAD, NOT-GRADEABLE, or PROVISIONAL in a way that could still become TRANSMITS or HOLDS.
+- **TRANSMISSION CONFIRMED** if *T* ≥ 2 (unchanged; TRANSMITS is final when reached).
+- **NO TRANSMISSION** only if *H* ≥ 3 **and** *T* + *m* < 2. The missing names cannot reach the transmission line.
+- **Otherwise UNKNOWN**, naming the missing names. This replaces MIXED wherever the missing names could still produce TRANSMISSION CONFIRMED or NO TRANSMISSION.
+- **MIXED stays the label** only when every name is final and neither line is met.
+- **A NOT-GRADEABLE name** still "counts toward neither" (A2.4). It is now also carried as *m* wherever it could have flipped the class, so the aggregate reads UNKNOWN rather than MIXED.
+- **Interaction with A2.4:** the FINAL rule for TRANSMITS is unchanged. Only the two non-transmission outcomes (NO TRANSMISSION, MIXED) gain the UNKNOWN guard.
+
+Plan of record: `reports/2026-10-09_Q3_earnings_read_plan.md` §2.0 ③.

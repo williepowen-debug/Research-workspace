@@ -19,37 +19,62 @@
 
 ## Session Notes
 
-⚠️ **Open question (10/7): the credit widening broadened, peaked and partly retraced in one week. HY 324 [10/1] → 303 [10/6], B 329 → 302, CCC stuck at 1,214. Over the same week bank equities kept falling (KRE 68.89, FLG through RED, OZK −6.8% in two sessions) and STLFSI4 tightened +0.34. Is the bank leg now running AHEAD of credit (a non-credit repricing my instruments cannot see), or is credit about to re-widen into the 10/16–10/21 prints?** The WQ-318 baseline says the funding collision had not started at 6/30. The Q3 list (CFG 10/16 first) is the first test. *Prior (9/29) open question → `archive/MEMORY_rotation_2026-10-07.md` BLOCK M1, crc32 `95fc37df`.*
+⚠️ **Open question (10/9 PM):** at the 11/07 Call Report retrieval (completeness checked then), does the **total-CRE breadth test (L180, original basis)** come back BROADER, NOT BROADER or UNKNOWN?
+- **And does the multifamily sub-read's Q2 rise** (3.23 → 3.58%, all at FLG / EGBN / CFG) reach the mid-pack banks?
+- **The releases from 10/16 are provisional reads only.** Individual-bank deterioration at the named banks is not spread. *Prior open questions (10/7 + 10/7 LAST SESSION) → `archive/MEMORY_rotation_2026-10-09.md` BLOCK M3, crc32 `660fbaf1`.*
 
-### LAST SESSION — 2026-10-07 Wed, ~21:41 → ~22:3x ET (PROME-spawned L527 session, Opus; desk dark 9/30–10/6)
-**1. Boot (spawned):** root + desk charter, STATUS, MEMORY, CALENDAR, ROADMAP, SCRATCH read; tree carried PROME's dirty files (not pulled, not stashed). market.py + `vx_ladder_check.py` → **FLG RED broke on the 10/7 close $11.30** → packets PROME + FLG (`018af9846`).
-**2. 0-WB write-backs FIRST (`ffc713c55`):** KB ML-REG-170..175, matrix §3e, ROADMAP VLY/PFBC threads, VLY Q1 brief bannered STALE.
-**3. REG-T-03 graded on my letter:** FRED via cache-busted CSV + ALFRED (identical): 324 [10/1] = 1 of 3, reset 10/2, **0-of-3 at the 10/6 cell**. VX 18.02/18.04/18.05 updated; ratio rise = HY-tightening-led, no re-escalation.
-**4. WAL closes 9/30–10/7 graded** (6 rows, two routes; 26 rows, 0-of-3). **WAL Q3 LOCKED Mon 10/19 AMC** (issuer release 10/6) → TERRY packet (`fe37dd785`) + `REG-T-03` arm note for `TRY-COND-KREADD`.
-**5. WQ-318 DELIVERED (`a033c799c`):** `reports/2026-10-07_WQ318_funding-vs-nonbank-baseline.md` + `scripts/wq318_funding_baseline.py` + `workbook/FUNDING_COHORT_2026Q2.tsv` + KB ML-REG-176..180. Five Opus sub-readers extracted the 10-Q/ER figures (scratch, not repo). [CR] RC-K deposit cost fails to reproduce the company figure at CUBI/OZK/EGBN (cause UNRESOLVED).
-**6. Inbox 14 + 19 → 0** (BOARD_LOG 19 rows; top-level `.consumed.tsv`); R3 phrases DECLINED to PROME; DAEDALUS header fix; OZK sub-notes citation ≈+$12.3M; BCB = not a watch name, not a comp (ML-REG-181). Fire-time flags on the Nano report: 3 date flags are QUARTER LABELS ([12/23]…), KEEP; dead DEWEY pointer repaired.
-**7. Book:** KRE Sep-30 $60P ×2 was SOLD 9/30 and rolled into Dec-31 $65P ×2 (Will) — my 'LAPSE ruled' pre-read was overtaken; POSITIONS/TRADE/CALENDAR written back from FORGE 10/7. New Fidelity WAL Dec-18 $65P ×4 / OZK Nov-20 $40P ×4: thesis read in the PROME memo; peer-owned legs, pointer only.
-### SESSION 2026-10-09 Fri ~10:25 → ~10:5x ET (PROME prome-75 L516 due-row wake, Opus)
+### LAST SESSION — 2026-10-09 Fri, ~20:24 → ~22:xx ET (Will-launched, Opus 5.5)
+**1. Boot:**
+- **Read and ran:** full read set, market.py, ladder, staleness, corrections, boot.py (print week).
+- **Inboxes:** WALTER lane 2 → 0 (WFC date correction NO-OP · Isaias info-only, `6123b665f`).
+- **PROME prome-1e ping:** coordination only.
+**2. Bounded monitor repair (`8255c2d13`, Will):**
+- **OZK filing route:** 8-K and insider checks moved to the FDIC (OZK desk `flng_watch.evaluate` reused; insider via `/api/instdiscl`).
+- **★ VLY was keyed to CIK 74260 = OLD REPUBLIC → 714310.**
+- **Coverage:** FLG / AMTB / CFG / CUBI added. Per-name CLEAR / FOUND / FAILED / PARSE / STALE-ROUTE / UNCOVERED; rc 0/1/2; `boot.py` OK / ALERT / INCOMPLETE / FAIL.
+- **Countdown:** reads the CALENDAR table.
+- **Price bars:** `settled_bars.py` excludes today's and NaN bars.
+- **Verification:** selftests 16 + 11 + 8 + 4, plus a network-blocked live run (rc 2, no all-clear). Stopped there.
+**3. Q3 read plan (`reports/2026-10-09_Q3_earnings_read_plan.md`)** on the frozen frames:
+- **Will's clarifications:** individual ≠ spread · original total-CRE basis, multifamily separate · missing → UNKNOWN · 11/07 = retrieval with completeness checked then.
+- **FL frame Amendment A3** added (UNKNOWN overlay).
+- **AMTB non-CRE observation lines** written pre-print.
+**4. Write-backs:**
+- **STATUS:** headline + bottom line; 9/29 headline rotated (T14 `ff904c29`).
+- **CALENDAR:** earnings table, L180 re-statement, 11/07 retrieval row.
+- **POSITIONS:** stamp vs FORGE 10/8 (no structural change).
+- **Delivered:** PROME memo + L180 annotation ask.
+### PRIOR SESSION 2026-10-09 Fri ~10:25 → ~10:5x ET (PROME prome-75 L516 due-row wake, Opus)
 **Nano:** P&A NOT posted (10:26 ET); bid summary (10/8) read → 0.85% premium, Pools B/C bought at 82.30/80.17%, A/D retained, no loss-share → §3 re-run (32–42% retained, headline unchanged); 9/27 report re-pointed; CREED + WAL packeted. **REG-T-03:** 309 [10/7] · 315 [10/8] → 0-of-3. **Letters:** OZK <$45 is the OZK desk's letter (consequent 🔴 → REGINALD+PROME, discharged 10/8); FLG RED consequent discharged 10/7, ladder exhausted. **Inbox 4 + 17 → 0**; 5 correction receipts (NO-OP); OZK reconcile: Seattle 'sold' → 'marked to an offer' in 3 reports, ALLL-basis labels. DAEDALUS asks answered/dated in STATUS §OPEN PROCESS ASKS (review Thu 10/15).
 ### CHANGES SINCE LAST SESSION
 (leave blank — next-boot market.py + drift-grep populates)
 ### NEXT SESSION
 *Full 9/29 list (every carried item's text) → `archive/MEMORY_rotation_2026-10-07.md` BLOCK M2, crc32 `401793b1`. Items marked (M2) keep their full text there.*
-**🔴 0-Q3. GRADE THE WQ-318 OBSERVATION LIST AT EACH PRINT** — CFG **Fri 10/16** · WAL **Mon 10/19 AMC** · OZK **Tue 10/20 AMC** · EGBN **Wed 10/21 AMC** · FLG/CUBI NOT announced (re-check). Named line only; absent line → INCONCLUSIVE; confirm F1/F3/N at the 11/07 Call Report run. Same prints carry WQ-313 (L35 · L521 VLY · L180 · L514) and the CRE top-3 'weakens if' lines (M2 0a-CRE) and AOCI grades (M2 0a-quin).
-**🔴 0a. WAL exit grading** — every settled close, count from `registry/REG_T02_EXIT_LOG.tsv` (26 rows, 0-of-3); 2-of-3 → packet TERRY. Guards the RH $70P only.
-**🔴 0a-NEW. Tier test each boot** — FRED HY/CCC/B/BB by cache-busted CSV (`fetch.py fred` can serve stale CDN copies). If HY prints >320 again, START the REG-T-03 count and run the bank-credit cross-check. B ORANGE >330 not yet reached (peak 329 [10/1]).
+**🔴 0-Q3. RUN THE Q3 READ PLAN AT EACH PRINT — `reports/2026-10-09_Q3_earnings_read_plan.md` §5 schedule** (CFG **Fri 10/16** first). Grade only the frozen frames: WQ-318 list · CRE top-3 §6 · L35 / L521 · FL frame + A3 · §2.3 AMTB lines. Read the WAL / OZK / FLG desks' grades for their names; the cross-bank row is mine.
+- **§2.0 rules govern:** individual ≠ spread · original total-CRE basis, multifamily separate · missing → UNKNOWN · release = provisional.
+- **11/07 = planned Call Report retrieval; check completeness FIRST.**
+- **Update the §0 judgment only on L180 BROADER or FL-rail TRANSMISSION.**
+- **CUBI / FLG dates:** update the CALENDAR earnings table when announced. The countdown reads it, and FLG's T-03 looks 10/16.
+**🔴 0a. WAL exit grading:** grade **10/9 onward** from settled bars (`scripts/settled_bars.py WAL`: two routes, today's bar excluded). Count from `registry/REG_T02_EXIT_LOG.tsv` (27 rows through 10/8, 0-of-3). 2-of-3 → packet TERRY.
+**🔴 0a-NEW. Tier test each boot:** FRED HY/CCC/B/BB. ⚠️ The cache-busted CSV route FAILED 10/9 (HTTP/2 error / timeout), so the API route (`fetch.py fred`) was used. If HY prints >320 again, START the REG-T-03 count and run the bank-credit cross-check.
+**🟠 0-DAEDALUS. Thu 10/15 dated answers owed** (STATUS §OPEN PROCESS ASKS): Falsification #4 flags · REG-03 / REG-06 instruments + the SSB Q3 line REG-07 grades on (before SSB **Wed 10/21**) · Wiring ⑰ VX re-cuts.
+**🟡 0-LIMB. L180's "new foreclosure build" is unquantified.** Read literally (any QoQ rise), WAL met it at Q2 (+2.3%). Print the size beside every grade. A floor is Will's rule to make; don't add one.
 **🟠 0-HBAN. `HBAN $16P Oct-16 ×2` ITM — Will rules by Wed 10/14 (WQ-302, card `MGMT-HBAN16P-OCT16`).** Supply the bank-side read if asked; write back the ruling. HBAN prints 10/22, after expiry.
 **🟠 0-NEW-PUTS. Fidelity WAL Dec-18 $65P ×4 / OZK Nov-20 $40P ×4 (FORGE D-74):** fills/approval unrecorded; WAL/OZK desks own the position records; TERRY owns any card. My Q3 rows (WQ-318 + CRE top-3) are the thesis reads that bear on them.
 **🟠 0a-NANO.** 10/9: P&A **still NOT posted**; FDIC **bid summary posted 10/8** → §3 re-run done (`reports/2026-10-09_nano-banc-bid-summary-and-section3-rerun.md`: retained-pool ≈32–42%). **Re-check P&A Tue 10/13**, then Tuesdays; none by 10/27 → DEWEY records route. On posting: size Pools A/D, place the $97.1M HFS book + WAL O1 DOTs, re-run §2 with pool sizes. Bar date not posted.
 **🟠 0a-FL.** ✅ Dates done 10/7 (BKU 10/21 BMO · SSB 10/21 AMC · AMTB 10/22 AMC · SBCF 10/27 AMC; VLY 10/22 BMO). Grade the frozen frame `reports/2026-09-24_FL_bank_rail_Q3_FROZEN_frame.md` at each print; ≥2 TRANSMITS → packet CORAL + PROME the same session.
-**🟡 0a-0. FLG ladder is RED and EXHAUSTED** — no band beyond RED. Exit-code defect FIXED `b6544d45d` (verified 10/9). **NEW owed by 10/15: intraday run reads today's in-progress bar as a close** (10/9 10:26 ET printed 3 closes below RED; settled = 2). Census other frozen-baseline bands into the script (M2).
+**🟡 0a-0. FLG ladder is RED and EXHAUSTED** — no band beyond RED. Exit-code defect FIXED `b6544d45d`. **Intraday-bar defect FIXED 10/9 (`8255c2d13`).** Census other frozen-baseline bands into the script (M2) — NOT this cycle (Will: no further tooling expansion).
 **🔴 0a-bis (M2). ⚠️ OVERDUE since 9/25: the 9/7 as-made packet disposition (DAEDALUS PR#6)** · 9/30 DAEDALUS VX row re-cuts (state UNKNOWN — check DAEDALUS) · **11/05 FFIEC JWT expiry (Will) — two days before the 11/07 run.**
 **🔴 0a-ter (M2). Carry-premise audit** — the most valuable item on this list; unchanged.
 **🟠 2 (M2). Pre-print observables into `boot.py`** — base-rate before building. WQ-318 adds the per-bank observables (NIB average, IB cost, FHLB) but they are quarterly.
 **🟠 3 · 4 · 6 · 6d · 6f · 6g · 6h · 6i · 6j · 6k · 7 (M2)** — FHLB Atlanta/SF 10-Qs before the Q3 FHLB report; OREO vector base-rate; REG-07 re-mark + REG-03/07 re-specs at the Q3 print, deliberately; EGBN runway post-break re-audit; read-cap every closeout; `boot.py` SHORT_INTEREST writes; aged 9/2 items. Unchanged; full text in M2.
-**🟢 Done 10/7:** 0-CARD (TERRY `TRY-COND-KREADD`, conditional, not armed) · 0-EXP (KRE rolled) · 0-WB · 0-WQ318 · item 1 TRY-FIRE-002 dates · DAEDALUS header · R3 phrases.
+**🟢 Done 10/9 PM:** monitor repair (OZK FDIC route · VLY CIK · coverage · no false all-clear · countdown · settled bars) · Q3 read plan + Will's clarifications. **🟢 Done 10/7:** 0-CARD (TERRY `TRY-COND-KREADD`, conditional, not armed) · 0-EXP (KRE rolled) · 0-WB · 0-WQ318 · item 1 TRY-FIRE-002 dates · DAEDALUS header · R3 phrases.
 
 **CARRIED LESSONS — behaviour, not record.** *Newest first. Aging rule (9/02): full entry → one-line rule AND the full text goes to `archive/` verbatim + crc in the same pass. ⛔ Never age a lesson by deletion (the 12-21 compressions archived nothing; git history only). Preamble → BLOCK M7, crc32 `8028ecb4`.*
+43. **[10/9] My 8-K monitor checked VLY under SEC CIK 74260, which is OLD REPUBLIC INTERNATIONAL, and checked OZK at the SEC, where OZK has not filed since 2017.**
+   - **Neither could ever look wrong:** a valid feed for the wrong company, and an empty feed for a non-filer, both read as "no 8-K".
+   - **Found at the evening boot, not by any check.**
+   - ⇒ **An instrument keyed by an identifier must verify the response NAMES the intended entity, and must treat "nothing ever filed here" as a broken route, not a quiet bank.** `finding_instrument_reports_clean_against_the_wrong_reference`.
 41. **[10/7] I pre-registered an expiry as 'lapse worthless, decision-free — no roll' (KRE $60P Sep-30). Will sold and rolled it the next day.** His standing practice (USER.md, 9/30) is to sell or roll before expiry. ⇒ **An expiry pre-registration carries a sell-or-roll branch, never a lapse branch, and the write-back reads the broker record, not my forecast.**
 42. **[10/7] A Call-Report deposit cost (interest ÷ RC-K average) reproduced the company figure at 3 of 6 banks and was off by 30–60bp at the other 3.** I had built it as the 'one comparable basis'. ⇒ **Check a derived cross-bank measure against each bank's own figure BEFORE using it as the comparable column; the basis that looks cleaner is not the one that is true.**
 40. **[9/27] I adopted a peer's 'correction' (CREED's FLG 17.5%) without re-running it, and it was wrong: it added the charge-offs to a denominator that already contained them. My own evidence pack labelled $2,088M as pre-charge-off.** The FLG desk caught it a day later. ⇒ **A correction to my figure gets the same recompute as the figure itself, before I write 'Accepted'** (`finding_a_correction_pass_is_unreviewed_work`). Same session: I told Will PFBC was unchecked against its filings when my own morning report had its Call Report. **Grep my own reports before describing what I have.**

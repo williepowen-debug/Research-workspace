@@ -87,20 +87,6 @@ KRE since 9/14: 12 sessions, 7 down / 4 up / 1 flat; 74.11 → 69.83. **Yes, a s
 - STLFSI4 +0.34 in the week to 10/2. One week; not a level signal.
 - Sub-reader side finding (NOT verified by me): VLY 8-K dated 2026-09-28 announces a merger agreement to acquire Bluevine Inc. (small-business fintech). If true, it touches my BaaS/sponsor-bank perimeter (WQ-228). Read the 8-K before citing.
 
-## 2026-10-09 PM — evening boot (Will-launched, Opus 5.5, 20:24 ET)
+## 2026-10-09 PM — pruned at closeout (same session)
 
-**Instrument defects found at boot (NOT fixed; reported to Will; promote at closeout):**
-- `scripts/8k_monitor.py:21` + `scripts/insider.py:23` query SEC EDGAR for OZK (CIK 1569650). **OZK files NO SEC periodic reports** (MEMORY_REFERENCE 6/20; it files with the FDIC). ⇒ boot.py's "✅ No 8-K filings across any thesis name" and OZK "No Form 4 filings" are clean BY CONSTRUCTION = clean against the wrong reference. OZK's live route is FDIC FLNG (cert 110), the OZK desk's sweep route.
-- Same TARGETS list = WAL/OZK/EGBN/ZION/VLY: **misses FLG (6) and AMTB (5)**, two of the three elevated v2.0 names, and CFG (first Q3 print, 10/16).
-- `earnings_countdown.py` prints "No upcoming earnings dates" in print week. Dates are CALENDAR-owned; fix = read CALENDAR or drop the step, never a second hand-typed list.
-- `vx_ladder_check.py` (owed 10/15) refinement: at 20:3x ET the 10/9 yfinance bar is STILL unsettled (Close=NaN, partial volume) and printed "last close $nan"; the 10:26 ET run carried a non-NaN in-progress value (11.25) and counted it. ⇒ a 16:00 clock filter alone fails (evening NaN) and a NaN filter alone fails (morning value). Fix: always exclude today's (ET) bar; print the vendor quote separately, labelled unsettled.
-
-**Tape 10/9 — vendor quotes (market.py 20:24 ET); settled bars NOT posted (yfinance daily Close NaN; Nasdaq historical has no 10/9 row):** WAL 74.27 (−1.63%) · KRE 69.01 (−0.83%) · FLG 11.32 · OZK 44.41 (−1.00%) · EGBN 28.22 · CFG 63.57 · VLY 12.62 · ZION 62.49 · SSB 100.25 · HBAN 15.32 · SPY +0.60% · IWM +0.49% · VIX 14.84 · ^TNX 5.24. KRE Nasdaq "closed 4:00 PM" 69.05 vs yfinance 69.01 (unreconciled). ⇒ **WAL exit-log row for 10/9 DEFERRED to next session (settled bars only)**; it cannot qualify on any plausible value ($7.63 short of 81.90).
-
-**FRED (API route via fetch.py, 20:4x ET):** credit cells through 10/8 unchanged from the AM read (HY 315 · CCC 1,252 · B 315 · BB 194). ICSA w/e 10/3 **197K**; w/e 9/26 **revised 197 → 199K**. DGS10 5.22 / DGS30 5.60 [10/8]. STLFSI4/NFCI still 10/2. ⚠️ The cache-busted `fredgraph.csv` route FAILED tonight (HTTP/2 INTERNAL_ERROR with `&v=`; HTTP/1.1 timeout with `&nocache=`); plain URL returns 200 (= CDN copy). Single route for the claims revision.
-
-**KRE float (boot.py):** 53.53M sh vs 56.11M [9/29] = −2.58M / −4.6%. Fund-report date not verified; not base-rated ⇒ a description, not a signal.
-
-**HBAN $16P Oct-16 ×2:** HBAN 15.32 [10/9 quote] ⇒ $0.68 ITM (card 9/26: $0.36). WQ-302 rules by Wed 10/14 close.
-
-**PROME prome-1e cross-session ping (rcv ~20:42 ET, coordination, NOT an assignment):** no REGINALD docket row due 10/9. Dates restated: L516 Nano P&A re-check Tue 10/13 · 10/13 ICE cell for REG-T-03 · WAL Q3 10/19 AMC (L170, WAL desk). **OZK's $915M RaDD bridge matured today; the OZK desk reads it Mon (L635)**, which answers my boot gap. HEARTBEAT 10/9c levels: FLG 11.31 · OZK 44.41 · WAL 74.28 · KRE 69.04, vs my vendor quotes 11.32 · 44.41 · 74.27 · 69.01. Off by 1–3 cents ⇒ more evidence that the 10/9 closes are unsettled; grade from settled bars. **CLOSEOUT OBLIGATIONS:** memo to `PROME/inbox/` (repo root) per COMPLETION_SPEC + one-line **WQ-249 receipt** to prome-1e. Shared index: AEOLUS has staged renames, so pathspec commits only.
+Every note was promoted: monitor defects → FIXED `8255c2d13` (MEMORY LAST SESSION + lesson 43); 10/9 tape + FRED + claims → STATUS §THRESHOLD; FRED cache-busted route failure → MEMORY 0a-NEW; HBAN moneyness → POSITIONS; PROME prome-1e obligations → discharged at closeout (memo + receipt). Nothing left here.

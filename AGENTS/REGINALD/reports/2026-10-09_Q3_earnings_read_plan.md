@@ -8,17 +8,22 @@
 
 ## 0. The answer first
 
-1. **Provisional judgment (pre-print): CONCENTRATED on the balance-sheet evidence — which runs only through 6/30.** Each stressed bank has its own named mechanism: FLG rent-regulated multifamily, EGBN multifamily after its office cleanup, OZK RESG foreclosure and recognition, AMTB non-CRE business/owner-occupied/home loans, WAL single-credit charge-offs. Across the 14-bank cohort the CRE bad-loan rate **fell** (2.46% → 2.23%, 6/30/25 → 6/30/26) and H1 CRE charge-offs fell ($528M → $452M). At 6/30 **no bank of six showed cheap-deposit flight**. Non-bank (NDFI) exposure is concentrated at CUBI and CFG, with no attributable loss beyond WAL's single First Brands credit.
-2. **If it is spreading, the channel with visible pressure ahead of the banks is multifamily CRE recognition:** Freddie Mac multifamily delinquency 0.64% [Aug], its 4th straight rise; Trepp CMBS multifamily 8.04% [Sept]. Funding cost at a cycle-high rate level comes second. Non-bank credit draws come third, with no observed trigger.
+1. **Provisional judgment (pre-print): CONCENTRATED on the balance-sheet evidence — which runs only through 6/30.** Each stressed bank has its own named mechanism: FLG rent-regulated multifamily, EGBN multifamily after its office cleanup, OZK RESG foreclosure and recognition, AMTB non-CRE business/owner-occupied/home loans, WAL single-credit charge-offs. Across the 14-bank cohort the **total-CRE** bad-loan rate **fell** (2.46% → 2.23%, 6/30/25 → 6/30/26, original Call Report basis, §2.0 ②) and H1 CRE charge-offs fell ($528M → $452M). The **multifamily** sub-read also fell year on year (3.88% → 3.58%) but **rose last quarter** (3.23% → 3.58%), all of it at FLG, EGBN and CFG. That is individual-bank deterioration, not a spread. At 6/30 **no bank of six showed cheap-deposit flight**. Non-bank (NDFI) exposure is concentrated at CUBI and CFG, with no attributable loss beyond WAL's single First Brands credit.
+2. **If it is spreading, the channel with visible pressure ahead of the banks is multifamily CRE recognition:**
+   - Freddie Mac multifamily delinquency 0.64% [Aug], its 4th straight rise.
+   - Trepp CMBS multifamily 8.04% [Sept].
+   - Funding cost at a cycle-high rate level comes second. Non-bank credit draws come third, with no observed trigger.
+   - ⚠️ These are **property-market** series, not bank books. They make multifamily the channel to watch; they are not evidence that any bank's book is deteriorating.
 3. **What points the other way, unattributed to any balance sheet:**
    - **Discount-window borrowing:** $9.965B on Wed 10/7, the highest Wednesday since at least Jan 2024. Borrowers are not named.
    - **The equity selloff:** since 9/15 it has been led by size, with the largest banks falling most.
    - **KRE outflows:** KRE shares outstanding −4.6% since 9/29.
    - **Financial stress:** the St. Louis Fed financial stress index (STLFSI4) tightened +0.34 in one week.
    - **What they don't show:** none of these sorts on any of my exposure measures, so they do not yet locate a channel.
-4. **Most consequential unresolved question:** **do multifamily problem loans rise at the mid-pack banks (WAL, VLY, SSB, BKU, SBCF) in Q3?**
-   - **Why this one:** the property data is already deteriorating, the 6/30 bank data does not show it yet, and a yes is the observation that turns "concentrated" into "spreading" (DOCKET L180 breadth test).
-   - **Limitation:** releases show it only partially. The uniform test needs the Q3 Call Reports at my **11/07** run, and the FFIEC token for that run **expires 11/05** (Will action).
+4. **Most consequential unresolved question:** **does the TOTAL-CRE bad-loan rate, on its original basis, rise >50% QoQ (or show a new foreclosure build) at ≥3 of the five mid-pack banks (WAL, VLY, SSB, BKU, SBCF)?** That is the DOCKET L180 breadth test, and §2.0 defines it.
+   - **Multifamily is reported beside it, never instead of it.** Property data puts the pressure in multifamily, so the multifamily sub-read is where a spread would show first. It cannot by itself decide the breadth verdict.
+   - **Why this one:** a "yes" is the only pre-registered observation that turns "concentrated" into "spreading". Deterioration at FLG, EGBN, OZK or AMTB alone is individual-bank deterioration, however severe (§2.0).
+   - **Timing:** releases show it only partially. The planned retrieval of the Q3 Call Reports is **11/07**, with completeness checked then. The FFIEC token for that run **expires 11/05** (Will action).
 
 ---
 
@@ -48,6 +53,56 @@
 
 ## 2. Earnings-read plan
 
+### 2.0 Three definitions that govern every row below (Will's clarifications, 2026-10-09 21:33 ET, set before any print)
+
+**① Individual-bank deterioration ≠ cross-bank spread.**
+- **Every per-bank row below grades ONE bank:** "deteriorated at this bank" or "did not".
+- **A spread is a COHORT claim, and only two pre-registered aggregates can make it:**
+  - **L180 breadth (CRE):** ≥3 of WAL · VLY · SSB · BKU · SBCF → **BROADER**.
+  - **FL-rail aggregate:** ≥2 of BKU · SSB · AMTB · SBCF TRANSMITS (frozen frame §3).
+- **What does not count as spread:**
+  - Deterioration at FLG, EGBN or OZK. Those are the already-named banks, and worse numbers there are **severity at a named bank**.
+  - Deterioration at AMTB. No pre-registered aggregate covers non-CRE credit, so a matching pattern at another bank is reported as a co-occurrence, never graded as a spread.
+- **The funding list (Q1) has no cross-bank rule.** Its result is reported as a count ("k of 6 UP") with no spread label. No aggregate rule is added here.
+
+**② The bad-loan rate keeps its ORIGINAL basis; total CRE and multifamily are separate evidence.**
+- **Basis:** `reports/2026-09-27_cross-bank_CRE_transmission.md` §A3/§E, FFIEC Call Report (`workbook/CRE_RCN_COHORT.tsv`).
+  - **Total-CRE bad-loan rate** = (`na_con + na_mf + na_noo` + `pd90_con + pd90_mf + pd90_noo`) ÷ (`bal_con + bal_mf + bal_noo`). That is nonaccrual plus 90+ days past due, over construction + multifamily + non-owner-occupied. Owner-occupied is excluded (SR 07-1).
+  - **Foreclosure build** = `oreo_total_k` rising, the §A3 basis. The CRE-only split (`oreo_con + oreo_mf + oreo_nfnr`) is shown beside it, never substituted.
+  - ⚠️ **Open limb, flagged and not re-defined:** L180 and §D never quantified "new foreclosure build". I read it literally, as any QoQ rise at reported precision (the reading the FL frame's A2.2 gives "rises QoQ"). On that reading **WAL already met it at Q2** (+$2.9M, +2.3%), so the limb is loose. Every grade prints the size of each rise beside the verdict. A materiality floor would be a rule change, and is Will's to make.
+  - **L180 grades on these two only.** (L180 says "CRE bad loans up >50% QoQ"; its source §D says the bad-loan **rate**; the rate is the basis.)
+- **Multifamily sub-read, reported separately:** (`na_mf + pd90_mf`) ÷ `bal_mf`, and `oreo_mf`. It locates the channel. **It never enters or replaces the L180 count.**
+- **Release figures are provisional** for both. Banks define "CRE", "nonperforming" and "multifamily" on their own bases (e.g. NPLs incl. 90+ accruing, or criticized). A release figure is labelled with its own basis and is never mixed into the Call Report rate.
+- **Property-market series** (Freddie, Trepp, CMBS) are a third category: context, never bank evidence.
+- **Baseline on this basis, 14 banks, no bank missing** (computed 10/9 from the existing ledger, no new pull):
+
+| Cohort | 6/30/25 | 9/30/25 | 12/31/25 | 3/31/26 | 6/30/26 |
+|---|---:|---:|---:|---:|---:|
+| Total-CRE bad-loan rate | 2.46% | 2.59% | 2.45% | 2.22% | **2.23%** |
+| Multifamily bad-loan rate (sub-read) | 3.88% | 4.02% | 3.73% | 3.23% | **3.58%** |
+
+- **Total CRE** is down year on year and flat last quarter.
+- **Multifamily is down year on year but ROSE last quarter** (+0.35pp, Q1 → Q2). The rise sits at FLG (7.27 → 8.06%), EGBN (3.98 → 4.45%) and CFG (1.58 → 2.12%). At the five mid-pack banks, multifamily was flat or falling: BKU 1.61 → 0.34, SSB 1.05 → 0.90, VLY 0.73 → 0.74, WAL 0, SBCF 0.10.
+- ⇒ **At 6/30 the multifamily rise was individual-bank deterioration at FLG, EGBN and CFG, not a spread.** CFG is a Q1 (funding) name, and its multifamily rise is recorded for CFG only.
+- **L180 on Q1 → Q2 as a dry run:**
+  - Rate >50%: **0 of 5** (WAL +11%, VLY +11%, SSB / BKU / SBCF down).
+  - Foreclosed property rising: WAL only (+2.3%).
+  - So *c* = 1 on the literal reading. The Q3 test starts there.
+
+**③ Missing banks stay UNKNOWN whenever they could change the breadth verdict.**
+- **For any breadth count:** let *c* = banks confirmed meeting the test, *m* = banks whose data is missing, *k* = the threshold.
+  - **BROADER / TRANSMISSION** if *c* ≥ *k*.
+  - **NOT BROADER** only if *c* + *m* < *k*.
+  - **Otherwise UNKNOWN**, naming the missing banks.
+- **Worked example for L180 (k = 3):** 2 meet, 1 does not, 2 missing → **UNKNOWN**, not "2 of 5".
+- **The FL-rail aggregate gets the same overlay:** a NOT-GRADEABLE or UNREAD name that could flip the class makes the aggregate UNKNOWN, not MIXED or NO TRANSMISSION. Recorded as Amendment A3 in that frame; no bar or cell edited.
+- **This replaces L180's "name the unavailable banks and grade the rest"** wherever grading the rest would produce a verdict the missing banks could overturn. PROME owns the DOCKET row and is packeted.
+
+**④ 11/07 is the planned RETRIEVAL date, not a completion date.**
+- **What happens on 11/07:** retrieve the Q3 Call Reports for all 14 banks. **Check completeness then**: which banks have a Q3 filing in CDR, and whether any is an amendment.
+- **What the check feeds:** any bank absent at retrieval is *m* in ③. No breadth verdict is written before that check runs.
+- **Prerequisites:** the JWT (expires 11/05) and the cohort-selection question (DOCKET L180 rider) are prerequisites, not part of the check.
+
 **Basis rule for every row:** the **earnings release** (8-K EX-99.1/99.2, deck, call) gives a **provisional** read. The **10-Q** and the **Call Report** (my run **11/07**) confirm or add. A line the release does not print is **INCONCLUSIVE — "line not printed"**, never inferred. Dates are verified at the issuer unless marked ESTIMATE (CALENDAR table, 10/9).
 
 ### 2.1 Q1 — funding costs or deposit losses coinciding with increased non-bank credit draws (frame: `reports/2026-10-07_WQ318_funding-vs-nonbank-baseline.md` Deliverable 2, frozen 10/7)
@@ -59,7 +114,7 @@ The legs are unchanged:
 - **N:** NDFI / fund-finance balance up >5%, or a disclosed NDFI criticized or nonaccrual increase.
 - **Grading:** **UP** = ≥2 F legs **and** N · **DOWN** = no F leg and no N · otherwise **INCONCLUSIVE**.
 
-| Bank · date | Release line (provisional) | 10-Q / Call Report line (confirming) | Owner | → SPREADING (weakens "concentrated") | → CONCENTRATED holds |
+| Bank · date | Release line (provisional) | 10-Q / Call Report line (confirming) | Owner | **UP at this bank** (individual; not a spread — §2.0 ①) | **DOWN at this bank** |
 |---|---|---|---|---|---|
 | **CFG · Fri 10/16** pre-open (time inferred), call 09:00 ET · CONFIRMED | Supplement average-balance table: IB deposit cost (Q2 2.08%), total cost 1.63%, average NIB ($39.88B), NIB share (22% company basis), borrowed funds | 10-Q Table 9: capital call ($9,852M) + secured private-credit finance ($4,875M) → **N grades ~early Nov**. Call Report Memo 10 at 11/07 | REGINALD (no CFG desk). BROCK reads CFG for BRK-31 (F1/F2 attribution) | UP: IB cost ≥2.18% or NIB ≤20% or average NIB <$37.9B, **plus** borrowed funds ≥15% (FHLB >$7.32B [CR]), **and** capital call + PC >$15.46B | DOWN: IB cost ≤2.08%, NIB ≥22%, capital call + PC ≤$15.46B. ⚠️ An IB-cost rise **inside** management's "NII up 2.5–3.5%" guide with no N = INCONCLUSIVE |
 | **CUBI · ESTIMATE Thu 10/22 after close (NOT ANNOUNCED, searched 10/9)** | EX-99.1: IB deposit cost (Q2 3.54%), NIB average and share (31.8%), digital-asset vertical spot balances ($3.8B), specialized lending ($7.65B), FHLB advances | **N is ungradeable from the release** (fund finance is not broken out) → Call Report Memo 10b+10c vs $3.60B at 11/07 | REGINALD (no desk) | UP: NIB average −5% or DA <$3.42B, **plus** FHLB ≥15% or IB cost ≥3.64%, **and** specialized lending >$8.03B | DOWN: IB cost ≤3.54%, NIB ≥31.8%, FHLB flat/down, specialized lending ≤+5%. A DA-only move = INCONCLUSIVE (crypto cycle) |
@@ -81,13 +136,13 @@ The legs are unchanged:
 | **RECOGNITION** | charge-off or write-down at transfer | Net charge-offs (NCOs); held-for-sale (HFS) transfer marks |
 | **DETERIORATION** | new problem loans | Inflows into nonaccrual, criticized or special mention, net of the above |
 
-| Bank · date | Release line (provisional) | 10-Q / Call Report (confirming) | Owner | → SPREADING / severity up | → CONCENTRATED holds / scenarios overstate |
+| Bank · date | Release line (provisional) | 10-Q / Call Report (confirming) | Owner | **Deteriorates at this bank** (severity at a named bank, not a spread — §2.0 ①) | **Does not deteriorate** / scenarios overstate |
 |---|---|---|---|---|---|
 | **EGBN · Wed 10/21 after close · CONFIRMED** (call Thu 10/22 10:00) | NPLs, criticized/classified, NCOs; HFS sales vs post-write-down marks; the Prince George's apartment loan ($56.0M, matured again 8/21) and the Fairfax office loan ($22.1M, matured 9/25): paid, extended, downgraded or nonaccrual (L35) | **Multifamily criticized table is 10-Q only** (~early Nov): ≤$284M; downgrades into criticized <$100M (vs $216M) | REGINALD (no EGBN desk). **RED** grades its CHG-027 branches on the same print. CRE top-3 owner = me | Downgrades ≥$100M; MF criticized >$284M; HFS transfers marked <85% of cost; the Aug–Dec criticized maturities extend at a haircut | Downgrades <$100M; retained-book NCOs <$10M; HFS marks ≥85%; criticized maturities pay off. Insufficient disclosure → record "outcome not disclosed in Q3 deck" (L35) |
 | **FLG · ESTIMATE Fri 10/23 before open (NOT ANNOUNCED; Earnings Whispers says Mon 10/26)** | Nonaccrual (back below $2,675M?), NCOs, provision, criticized NYC rent-regulated pool (<$4.0B), rent-regulated provision commentary after the 10/1 rent freeze (T-08 fired) | **10-Q ~11/6:** MF special mention ≤$2,757M, H2 modifications <$556M, risk grades. **Call Report ~11/14** | **FLG desk** (T-03 release · T-02 10-Q · T-13 modification/payoff read L522). I compare only | Special mention >$2,757M with substandard rising; modifications ≥$556M; rent-regulated nonaccrual loss ratio above ~17% as loans resolve | The reverse of each. ⚠️ FLG's "par payoffs" carry an unreconciled $133M between H1 charge-off schedules, so a payoff is not a cure until sourced |
 | **OZK · Tue 10/20 after close · CONFIRMED** (call Wed 10/21 08:30) | NPA, OREO ($288M at 6/30) and **any OREO sale price vs carrying value**, special mention ($616M) reversal or migration, NCOs, **RaDD outcome** (bridge matured 10/9; OZK desk reads Mon, L635) | FDIC 10-Q + Call Report ~early Nov (`RCON2746`, `RIAD5409`) | **OZK desk** (L520). I compare only | OREO sold near 58% of appraisal (the offer-mark comparable), not 86–100%; special mention migrates down; new RESG loans to nonaccrual or OREO | OREO sold at or near carrying value; special mention reverses; NPA stops rising |
 | WAL · Mon 10/19 after close · CONFIRMED | NPLs vs the ~$500M guide, NCO vs Q2, office-classified slide, the $99M life-science credit, OREO valuation | Q3 10-Q frame (L171) | **WAL desk** (print frame) | The NPL rise continues (WAL is the only name whose CRE problem loans rose every quarter) — then WAL displaces OZK on direction | Management's guide met (NPL ~$500M, ACL >100% of NPLs) |
-| **Breadth — mid-pack:** VLY Thu 10/22 before open (L521) · SSB / BKU Wed 10/21 · SBCF Tue 10/27 · WAL | VLY: does the Q2 multifamily 30–59 cohort cure or roll; CRE nonaccrual vs $256.1M; re-defaults of the $108M payment-delay loans. FL names: frozen FL-rail cells | **L180 at 11/07:** ≥3 of WAL · VLY · SSB · BKU · SBCF with CRE bad loans up >50% QoQ or a new foreclosure build → **BROADER** | REGINALD (no desks). CORAL consumes the FL rail. CREED owns the QBP (L514, ~11/25) | ≥3 of 5 → BROADER. **This is the observation that answers Will's question.** | ≤2 of 5 → concentrated holds at Q3. Insufficient disclosure → name the unavailable banks, grade the rest (14 chosen banks, not the population) |
+| **Breadth — mid-pack (THE cross-bank row):** VLY Thu 10/22 before open (L521) · SSB / BKU Wed 10/21 · SBCF Tue 10/27 · WAL Mon 10/19 | Provisional only, each on its own release basis, labelled: CRE nonaccrual/NPL and foreclosed property. VLY: does the Q2 multifamily 30–59 cohort cure or roll; CRE nonaccrual vs $256.1M; re-defaults of the $108M payment-delay loans. FL names: frozen FL-rail cells | **L180 on the Call Report, retrieval planned 11/07 with completeness checked then:** per bank, the total-CRE bad-loan rate up >50% QoQ **or** `oreo_total_k` rising (§2.0 ②). **Multifamily sub-read reported separately; it is not counted** | REGINALD (no desks). CORAL consumes the FL rail. CREED owns the QBP (L514, ~11/25) | *c* ≥ 3 → **BROADER**. This is the only CRE observation that answers Will's question. | *c* + *m* < 3 → **NOT BROADER at Q3**. Anything between → **UNKNOWN**, naming the missing banks (§2.0 ③). The 14 chosen banks are not the population |
 
 ### 2.3 Q3 — AMTB's distinct non-CRE credit problem · **Thu 10/22 after close · CONFIRMED** (call Fri 10/23 09:00) · owner REGINALD (no AMTB desk)
 
@@ -105,7 +160,7 @@ The legs are unchanged:
 | ACL ÷ total nonaccrual | 51% | — | < 51% | ≥ 51% |
 
 - **How a decline is read:** it is labelled with the §2.2 vocabulary. Q2's declines were sales-driven, which is "realized, not healed".
-- **What it answers, and what it doesn't:** this leg answers whether AMTB's problem is healing or worsening. It bears on **spreading** only if the same C&I / owner-occupied pattern appears at another cohort bank (BKU C&I, SSB). Otherwise a worsening AMTB is concentrated, not spread.
+- **What it answers, and what it doesn't:** this leg answers whether AMTB's problem is healing or worsening, **at AMTB**. A worsening AMTB is individual-bank deterioration (§2.0 ①). If BKU or SSB print the same C&I / owner-occupied pattern, I report it as a co-occurrence. It is not graded as a spread, because no pre-registered aggregate covers non-CRE credit.
 - **BRK-31 boundary:** BROCK excludes AMTB residential-growth artifacts from BRK-31 (frame R4).
 
 ---
@@ -142,7 +197,7 @@ The legs are unchanged:
 | OZK OREO sale prices | Whether OZK's foreclosure marks hold ⇒ cannot separate **foreclosure transfer** from **recognition** | Call / 10-Q / any 8-K |
 | Takeout funding behind payoffs (every bank) | **CURE vs bank-financed exit** ⇒ payoffs grade PAYOFF-UNSOURCED, so "the refinance market is open" stays an inference | Not observable in aggregate (CREED) |
 | Sale price as % of par (every bank) | True loss severity (only % of carrying value is disclosed) | Rarely disclosed |
-| Uniform CRE bad-loan rate at the mid-pack banks | The L180 breadth test ⇒ **"spreading" cannot be graded from releases alone** | Call Reports → 11/07 (**FFIEC token expires 11/05**) |
+| Uniform total-CRE bad-loan rate (original basis) at the mid-pack banks | The L180 breadth test ⇒ **"spreading" cannot be graded from releases alone.** A bank still missing at the 11/07 retrieval is *m*, and the verdict is UNKNOWN wherever *m* could flip it (§2.0 ③) | Call Reports, planned retrieval **11/07** with completeness checked then (**FFIEC token expires 11/05**) |
 | WAL $99M life-science outcome | WAL's direction leg | Call / 10-Q backstop (absence = PENDING-10-Q, never benign) |
 
 ---
@@ -159,11 +214,13 @@ The legs are unchanged:
 | Thu 10/22 | VLY (am) · AMTB + CUBI(est.) (pm) | L521 VLY checkpoint · §2.3 AMTB · FL-rail AMTB · Q1 CUBI (F only) |
 | Fri 10/23 (est.) | FLG | read the FLG desk's grade; my cross-bank row |
 | Tue 10/27 | SBCF | FL-rail SBCF |
-| ~early–mid Nov | 10-Qs; **11/07 Call Report run** | N legs, F1/F3 confirms, L180 breadth, matrix re-score with OREO added |
+| ~early–mid Nov | 10-Qs | N legs; FLG/EGBN 10-Q-only lines (individual) |
+| **Sat 11/07** | **Planned Call Report retrieval; completeness checked then** (which of 14 have a Q3 filing, any amendments) | F1/F3/N confirms; **L180 breadth on the original basis, with the UNKNOWN rule**; multifamily sub-read reported separately; matrix re-score with OREO added |
 
 **Update rule:** the §0 judgment changes only when a graded row moves it:
-- **Toward "spreading":** a Q1 UP, an L180 BROADER, or a §2.2 SPREADING column met at ≥2 banks outside FLG/EGBN/OZK.
-- **Ungraded rows do not move it:** an INCONCLUSIVE or "line not printed" row moves nothing, and is stated as such in the grade.
+- **Toward "spreading":** only a cross-bank aggregate can move it, i.e. **L180 = BROADER** or **FL-rail aggregate = TRANSMISSION CONFIRMED** (§2.0 ①).
+- **Individual-bank results:** a Q1 UP at one bank, or deterioration at FLG / EGBN / OZK / AMTB, is recorded as **individual-bank deterioration**. It changes that bank's severity, not the concentrated-vs-spreading answer.
+- **Ungraded rows do not move it:** an INCONCLUSIVE, "line not printed" or UNKNOWN result moves nothing, and is stated as such in the grade.
 
 ---
 
