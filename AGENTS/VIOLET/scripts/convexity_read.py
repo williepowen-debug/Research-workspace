@@ -48,7 +48,10 @@ def pct_rank(series: pd.Series, value: float) -> float:
     s = series.dropna()
     if len(s) == 0:
         return float("nan")
-    return float((s < value).mean() * 100)
+    # L546 float-tie class (DAEDALUS 2026-10-08): round the x100 product to a declared
+    # precision BEFORE verdict() compares it to the 25/75 edges, so an exact-on-edge
+    # rank lands on the side the letter says (<=25 CHEAP, >=75 RICH).
+    return round(float((s < value).mean() * 100), 6)
 
 
 def verdict(p: float) -> str:
