@@ -128,5 +128,5 @@ Gives moratorium mechanics + the dated declaration list (most recent **2026-08-0
 | **Modelled SCENARIO** (Swiss Re FL, 9/16) | $300bn+ Cat-5 Miami/Tampa | ⛔ **never — it is not a loss that occurred** |
 | **Survey of EXPECTATIONS** (Moody's Jan-27 renewal, 9/16) | −7.5% to −15%, 86% expect declines | ⛔ **never — an expectation is not a transacted print** |
 
-> 🔴 **THE LOSS LEG IS BLIND, NOT SOFT.** The band's instrument still reads **H1 2026 — a window that CLOSED 2026-06-30**, before Spokane, before the August peak, before any part of the 54-day PL5 run. **~72% is not evidence the season was cheap; it is not evidence about the season at all.** The **Gallagher Re Q3 tally (~October)** is the first vintage that can speak to it and is this folder's highest-value pending item.
+> 🔴 **THE LOSS LEG IS BLIND, NOT SOFT.** The band's instrument still reads **H1 2026 — a window that CLOSED 2026-06-30**, before Spokane, before the August peak, before any part of the PL5 run (**49 days inclusive**, stepped 5→4 on 9/4 per the NIFC 10/01 outlook — corrected 10/10 from "54-day", wildfire worker P15). **~72% is not evidence the season was cheap; it is not evidence about the season at all.** The **Gallagher Re Q3 tally (~October)** is the first vintage that can speak to it and is this folder's highest-value pending item.
 

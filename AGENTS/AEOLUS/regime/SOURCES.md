@@ -46,6 +46,7 @@ curl -s "https://www.cpc.ncep.noaa.gov/data/indices/wksst9120.for" | tail -5
 `https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml`
 **Monthly, ~2nd Thursday.** **Verified 8/13:** *">90% chance of a very strong event"* NH fall/winter 2026-27; *"69% chance of a historic event… (+2.5 °C or more for a 3-month RONI value)"* OND.
 ⚠️ **Quote the synopsis verbatim and record the issue date.** The URL is stable; **the content is replaced monthly and is not versioned.**
+🔴 **The Niño figures in the discussion PROSE are RELATIVE MONTHLY indices** — OISSTv2.1 minus the 20°N–20°S tropical mean, re-scaled, 1991-2020 (Fig. 2 caption; verified 10/9, KB-AEO-181). 10/8 issue: **+2.1 relative** vs **+2.84 traditional** (`sstoi.indices`) for the same September. **Never relay them as "weekly" and never set them beside ④** (WALTER `-027` did, 10/8). Headline odds can change DEFINITION between issues (9/10 ">90% very strong" → 10/8 ">83% strong-to-very-strong") — read the strength table, not the headline.
 
 ---
 
@@ -57,8 +58,8 @@ curl -sL "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso
 **33 slides; carries a `prepared` date** (24Aug2026 at registration). Alert status, subsurface heat content, SOI, forecast plumes. **Fills the ~4-week gap between Diagnostic Discussions** — ⑤ sat unchanged from 13Aug while this updated twice.
 
 🔴 **DO NOT CITE ITS "latest weekly SST departures" BULLET SLIDE FOR ANYTHING SCORED.** That slide is the source of the mismatched **0.0 / 1.8 / 2.5 / 3.2** quad (Niño-4/3.4/3/1+2). **`wksst9120.for` (④) for the same week reads 2.6 / 3.3 / 4.0 (19AUG).** **No 2026 week matches the deck's quad at any date.**
-⚠️ **I originally attributed this trap to the Diagnostic Discussion (⑤). That was wrong** — ⑤ carries a *third* triple (+1.4/+1.7/+2.9, July monthly, ERSSTv5). **Three CPC products, three different numbers for "the ENSO state."**
-**BASIS: UNRESOLVED, and deliberately left so.** Ruled out: every 2026 week of ④; a 4–5 week trailing mean; ⑤'s ERSST monthlies; and a documented product difference — **the deck's own footnote says these slides use OISSTv2.1, the same basis as ④.** The quad **reappears verbatim 11 days later** while ④ moved and the deck's own RONI updated correctly — *consistent with one stale slide*, but **no CPC text confirms it.**
+**Three CPC products, three different numbers for "the ENSO state"** — ④ traditional weekly · this slide · ⑤'s prose.
+**BASIS: RESOLVED 2026-10-09 (regime worker, KB-AEO-181):** the slide's chart beside the bullets is titled **"Relative SST Anomalies"** — the bullet quad is the **RELATIVE weekly** index (tropical mean removed), same OISSTv2.1 as ④, which is why no week of ④ ever matched it. The earlier "ERSSTv5" label on ⑤'s July triple matches the relative chart and was most likely wrong too (inferred from values; old captions not re-readable). *(The 8/27–10/9 "unresolved" analysis lives in `regime/workbook/LOG.tsv` and KB-181.)*
 ⛔ **Do NOT derive a conversion offset.** A ~0.8 uniform gap inferred from a 3-point coincidence is the free-parameter crosscheck that validates nothing.
 ✅ **RULING: `wksst9120.for` (④) is the sole authoritative weekly figure.** The deck's RONI restatement (1.0 °C) **is** consistent with `RONI.ascii.txt` (0.98) — the defect is confined to that one bullet slide.
 

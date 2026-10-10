@@ -3,7 +3,7 @@
 **Last Updated:** 2026-10-10 10:59 ET (**Will-directed news sweep**, day after landfall; KB-191…194). Prior: 2026-10-09 21:32 ET Will-directed boot + catch-up (L627 owner). Full rebuild 2026-09-28 (rotated 9/18 file: `archive/STATUS_ARCHIVE_2026-09-18_full.md`).
 **Status:** 🟡 **C1 — Hurricane Isaias made landfall near Destin, FL at 8:30 PM CDT Fri 10/9 as a Category 2 (90 kt / 105 mph, 971 mb); the major-landfall trigger did NOT FIRE (6 kt under).** 🔴🔴 **C5 — Rhine below its all-time record low at both graded gauges every complete day 9/18→10/9 (22 days); still FIRED; WSV's 10/10 run shows no exit through 10/12.** 🔴 **C6 — Mead 1,037.60 ft [10/9], 2.60 ft above Hoover 1,035.**
 **Class:** Market-agent (climate → economy) · **Self-level:** L2
-**Sessions 10/9–10:** landfall graded (KB-189) · 10/01 cluster, CPC, WASDE, USDM, NIFC, C5/C6 re-reads (KB-177…188) · EO 26-211 correction (KB-190) · **10/10 sweep:** NHC final advisory, FEMA EM (no DR), outages, no post-landfall loss estimate, EP Hurricane Simon, WSV forecast cut, Mead 10/9, CORAL's FL exposure (KB-191…194). **No score moved 10/10.** NOT refreshed: C3, Yangtze/Paraná.
+**Sessions 10/9–10:** landfall graded (KB-189) · catch-up KB-177…188 · EO correction KB-190 · 10/10 sweep KB-191…194 (no score moved). **10/10 PM: C2/C3 winter re-point in progress.** NOT refreshed: C3, Yangtze/Paraná.
 
 > Data is primary-sourced and dated below. Per Critical Rule #3, verify against the primaries (CPC/NHC/USBR/WSV/ACP/NIFC/NWPS) before any trade use. No naked numbers.
 > **STATUS budget: 32,550 B (`READ_CAP.md`) · <250 lines.** Measure with `PROME/tools/measure.py`. **Rulings that still govern:** `wksst9120.for` is the sole weekly ENSO figure (KB-088) — **CPC discussion prose quotes the RELATIVE monthly index; never label it "weekly" (KB-181)** · §C6 "USBR's path projects a breach" is SATISFIED-AT-WRITE-TIME, never a live leg · **SLOTS ≠ TRANSITS** · grade Rhine on **UNROUNDED** means only · Mississippi stored on **UTC-day** daily means (KB-159) · **NHC intensity is graded in KNOTS as stated (5-kt steps) — never a mph→kt conversion.**
@@ -26,17 +26,8 @@
 ---
 ## 🔴 UPGRADE TRIGGERS — live rules
 
-### C1 — Isaias MAJOR-LANDFALL grade (DOCKET L627)
-**Letter (KB-174, registered 10/8):** *"a peak-season Gulf/FL MAJOR landfall"* = **≥96 kt AT landfall per NHC's landfall statement/TCU** — in practice a stated **≥100 kt** (NHC uses 5-kt steps). 83–95 kt = NOT FIRED. A peak over water does not count. **Score rule pre-committed before the statement** (`hurricane/workbook/LOG.tsv`, commit `30d0ab065` 20:46 ET): FIRED → C1 2→3 · NOT FIRED → C1 holds 2.
-| Read | Intensity | Where / when | Source |
-|---|---|---|---|
-| Peak over water | **105 kt** (b-deck) · TCU 7:20 AM CDT 120 mph/959 mb | 10/9 12Z–18Z | ATCF btk · NHC TCU |
-| TCD 13 (4 PM CDT) | surface "around 100 kt"; dropsonde layer-avg 90–95 kt; HAFS/HWRF/SHIPS/LGEM "at or near major at landfall"; shear 30–40 kt | — | NHC TCD 13 |
-| TCU 6 PM CDT | 115 mph / 960 mb, 29.8N 86.8W | 23Z | NHC TCU |
-| **13A 7 PM CDT** | **95 kt (110 mph) / 967 mb**, 30.1N 86.6W, N 18 mph, "landfall … within the next hour or two" | 00Z 10/10 | NHC 13A |
-| TCU 8 PM CDT | 105 mph (90 kt) / 971 mb, 30.2N 86.5W | 01Z | NHC TCU |
-| **LANDFALL STATEMENT** | **105 mph = 90 kt / 971 mb** — *"made landfall near Destin, Florida, around 830 PM CDT (0130 UTC)"* (NWS Doppler radar) · obs: Santa Rosa Sound 91 mph sust / 116 gust; Panama City Beach water 5.6 ft above MHHW | **0130Z 10/10, 30.4N 86.5W** | **NHC TCU 100130** |
-**Verdict: NOT FIRED** (90 kt < 96 kt; Category 2) — graded 2026-10-09 21:31 ET at the statement, KB-189. **C1 held at 2** per the pre-committed rule. **C1 exit leg 2 STAYS LIVE to 11/30.** ⚠️ The operational number can be revised in NHC's post-season Tropical Cyclone Report (months out); the grade is recorded on the operational statement and a TCR revision is logged as history, never re-graded. **C1 exit leg 2** resolves on the same read.
+### C1 — Isaias graded 2026-10-09: **NOT FIRED** (landfall near Destin 0130Z 10/10 at **90 kt** / 971 mb, Cat 2; letter ≥96 kt at landfall — KB-189, L627). C1 held at 2 by the rule pre-committed at `30d0ab065`. **Exit leg 2 stays LIVE to 11/30.** Operational intensity governs — a post-season TCR revision is logged as history, **never a re-grade**. The trigger **re-arms on the next Gulf/FL system**. Grade table → `archive/STATUS_ARCHIVE_2026-10-10_C1-isaias-grade.md`.
+**VEHICLE trigger (TRADE.md, L-47 — boot-visible here):** long RNR arms on *a Gulf/FL major landfall OR a credible Gulf/FL track* → **same-session packet to TERRY**. Armed by Isaias 10/6–8; packet missed, **late notice 10/10**; domain conviction 1/5 (no hardening). Re-arms on the next Gulf/FL system.
 
 ### C5 →5 — 🔴🔴 **FIRED ON ITS LETTER 2026-09-28 · STILL FIRED 10/9**
 **Kaub daily mean ≤25 cm AND Duisburg-Ruhrort ≤153 cm on the 3 MOST RECENT COMPLETE days** (unrounded, ≥90/96 readings). Levels = WSV `NNW` record lows (2018-10-22/23), FROZEN. **Exit = the same test failing.**
