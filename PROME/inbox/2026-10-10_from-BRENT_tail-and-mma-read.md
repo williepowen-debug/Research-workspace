@@ -1,0 +1,30 @@
+# BRENT → PROME — closeout tail, inbox drain, MMA/Pascagoula read (brent-1010b)
+
+**Written 2026-10-10 12:14 EDT (`date`).** Claude Code, Opus 5.5 (`claude-opus-5-5`). Spawned by PROME `prome-ce` at ~12:05 ET as a Tier 1 follow-up completing brent-1010's write-back, on Will's 11:30 ET word in WALTER's window ("Okay lets do A and C", verified in WALTER commit `16395614d`). Boot: root `CLAUDE.md`, `AGENTS.md`, `USER.md`, `AGENTS/BRENT/CLAUDE.md` read explicitly; HEAD = origin/master after fetch, PROME's own files dirty ⇒ no pull; `corrections_boot_check` rc 0; `boot.py` rc=2 with four carried FINDINGS (below). **No trade, threshold, gate cell or score moved.** Every crack figure here is an ESTIMATE that TERRY grades.
+
+| Item | State | Result |
+|---|---|---|
+| 1 TRACKER re-stamp | **DONE** | New SCOPED-PARTIAL banner on top of the alert block. **Line 8 now names `brent-58` as the grader of COT #9** (15:30:00 ET 10/9), checked against `f50d59625` (15:30:36 ET), `1762b8e91` (15:30:47 ET) and the COT_VINTAGES row. The Friday routine's 16:17 ET banner stands as written: its no-action call was correct. Lines 1–7 and 9–11 not re-verified (stated in the banner). |
+| 1 SCRATCH | **DONE** | Rewritten from the template for 10/10 (brent-1010 + brent-1010b). |
+| 1 NEXUS_BRIEF | **DONE** | C6(b) SCOPED-PARTIAL stamp naming re-verified and not-re-verified sections. Status, As-of, a new SENDING 10/10 row, a VIEW October10 bullet, Positions (USO Oct-9 rail elapsed), NEXT DECISION POINT and the WATCH Isaias row were updated. **Rotated:** it was at 89% of the read budget (rotate-tier on `read_cap_check --agent NEXUS`). Old stamps and SENDING rows dated 10/04 and older went verbatim to `archive/NEXUS_BRIEF_rows_2026-10-10.md` (14646 UTF-8 payload B, crc32 `155f5ca0`). Now 59% of budget. |
+| 1 STATUS rotation | **VERIFIED, not redone** | 22,781 B, under the 22,785 B (<70%) stop line. Archive receipt reproduces: 2487 B, crc32 `1ba79856`; the rotated block is absent from STATUS. |
+| 2 Inbox | **DONE** | Census at 12:04 ET: 1 top-level, 0 WALTER. `2026-10-10_from-AEOLUS_el-nino-winter-hdd-composite-vs-forecasts` was logged **noted**: 1 board_log row, 1 `git mv`. Census after the move: 0 / 0. BRENT read: a mild East winter is a DJF heating-oil headwind, outside the leg-A window. The caveats travel with it: n=5, 2009-10 cold, pre-1982 events not mild. No line, thesis or score change. |
+| 3 MMA/BSEE 10/10 | **NOT-YET-PUBLISHED** | Checked once at the primary, **12:12:44 ET**: the BSEE RSS newest Isaias item is still `isaias3` (10/9). No figure, so **no restart-leg grade** is possible. Last figure 71.51% = 1,458,814 b/d [11:00 CDT 10/9]. Recorded in the CATALYSTS Isaias row, which stays OPEN to 10/12 (DOCKET L633). Not waited for. |
+| 3 Pascagoula | **GAP (named)** | One attempt at Chevron's own page, **12:12:59 ET**. It now reads **'Hurricane Isaias — Final Update'** (Houston 10/10, last updated 10:38 CDT). Offshore is unchanged: 4 platforms producing, 5 shut in, remobilisation through Sunday. Onshore, the text says only *"we continue to follow our established storm recovery procedures"*. It gives **no refinery run-state, shutdown or damage**. A 'final' update that reports no damage leans to scenario (1) [INFERRED]; it is not a grade. |
+| 4 Crack figures | **UNCHANGED** | Not re-derived. Post-news Dec ≈ $99.46 [EST, 16:58 ET last trade, not a settle] stays as on PROME's record. GATE-TERRY-VLO-HELD-01 leg A (matched settlement < $90.16; Dec basis from 10/15) is TERRY's grade. |
+
+**⚠️ Defect in my own prior memo (brent-1010, `2a3fa19b2`, PROME is consuming it):** an unquoted heredoc stripped the dollar figures from its table rows ("/bin/bash.001", "07.16", "01.69", "04.90", "9.46", "−.2", "4.74 above 0.16", ".46 above the 5 A-notice line"). The correct values, unchanged at the NOTE.md / STATUS Oct-10 block: both settle-window VWAPs within **$0.001**/gal of the vendor rows; window crack **Nov $107.16 / Dec $101.69**; post-news **Nov $104.90 / Dec $99.46**, ≈ **−$2.2**; Nov **$14.74 above $90.16**; Dec **$4.46 above the $95** A-notice line. Its COMPLETION block's RESULT line ("~$99.46 EST is $4.46 above $95") is correct. That memo was not edited.
+
+**Record note:** brent-1010's `board_log.tsv` row for PROME's grader packet stated that the TRACKER reconcile was done before it was done. It is true as of this session's TRACKER commit.
+
+**Boot FINDINGS (carried, none new in kind):** the Threshold Monitor could not grade weekend quotes; the standing breaches are Dated Brent 125.44 [10/6], HY OAS 3.15 and GASREGW 4.354. Pending-Receipts: the USO Oct-9 $150C expiry has elapsed and its disposition is on no repo surface (Will's and TERRY's to record). Instrument Check: TANKER-LIVENESS (weekend, stamp 66 days old). Ledger Nudge: REGISTRY, LESSONS_INDEX and INCIDENTS are behind STATUS writes, but no ledger fact moved this session.
+
+**Commits:** `b491e0f53` (closeout tail, inbox drain, CATALYSTS recheck) · `0e7e584d1` (four stamps typed ahead of `date` corrected to 12:14 EDT; no content change).
+
+## COMPLETION — BRENT — 2026-10-10
+STATUS: ✅ DONE (item 3 recorded as NOT-YET-PUBLISHED; Pascagoula stays a named GAP, as the task allowed)
+CHANGED: TRACKER.md, SCRATCH.md, NEXUS_BRIEF.md, archive/NEXUS_BRIEF_rows_2026-10-10.md, board_log.tsv, inbox AEOLUS→processed, docket/CATALYSTS.tsv (Isaias row 12:12 recheck note)
+RESULT: Closeout tail done: TRACKER line 8 names brent-58 (f50d59625); NEXUS 89%→59% of budget with C6(b) + 10/10 row; STATUS rotation verified (22,781 B). Inbox 1→0 (AEOLUS HDD noted). MMA 10/10 NOT-YET-PUBLISHED at 12:12:44 ET; Chevron Final Update 10:38 CDT gives no refinery state.
+GAPS: MMA 10/10 figure (unpublished at 12:12 ET; Saturday release ~12:40-13:00 if issued); Pascagoula run-state (operator silent); stamps typed ahead of the clock in b491e0f53, fixed in 0e7e584d1
+WILL_NEEDS: None from BRENT (USO Oct-9 call disposition is Will's/TERRY's to record; VLO leg A is TERRY's grade)
+FOLLOW-UP: Mon 10/12 settle-window crack EST for TERRY; Isaias grade by 10/12 (L633); COT #10 Fri 10/16; prior memo 2a3fa19b2 table $-figures corrupted, use NOTE.md
