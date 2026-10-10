@@ -1,6 +1,6 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-10-09 10:14 ET (named-contract vendor quotes 10:12 ET; EIA SPR series via API) — writeback 10:1x ET SCOPED-PARTIAL: Oct-9 AM block only; everything below it keeps its own vintage.** Previous: 2026-10-08 16:37 ET (MMA 11:00 CDT 10/8 primary; named-contract 14:28–30 ET settle-window minute bars; CFTC COT archive); writeback 2026-10-08 16:4x ET — SCOPED-PARTIAL (3rd BRENT session, PM wake: Oct-8 PM paragraph only). Prior: 08:24 ET named-contract vendor quotes; writeback 11:06 ET (2nd session). Re-read today: NHC 7A, MMA 10/7 release, EIA refcap26, named futures quotes. **2nd session 11:06 ET: 09:09 ET live-tape confirm (continuous ticker) — jump holds, Brent $104.4 / WTI $92.1, ~$0.8 off the 08:24 highs; Isaias channel/scenario framework added → [REPORT §10](research/2026-10-08_isaias-hormuz/REPORT.md#10--isaias-transmission-channels-and-weekend-scenarios); correction COR-20260921-16 receipted NO-OP (info-only).** Not re-read: WPSR (week 10/2, no new print), STEO, freight publisher pages, FRED, GIE, COT/rig/JWC, incident rows. Official settlements and current USO weights unavailable. [10/8 evidence](research/2026-10-08_isaias-hormuz/REPORT.md); 10/7 basis [catch-up](research/2026-10-07_news-catchup/REPORT.md).
+**Last real data refresh: 2026-10-10 11:41 ET (OFAC GL 135 PDF; vendor 1-min bars for 10/9 pulled 11:36 ET; BSEE RSS; Chevron/alports/Gibson pages) — writeback 2026-10-10 11:45 ET SCOPED-PARTIAL (brent-1010, PROME spawn on Will's word): Oct-10 block only; everything below it keeps its own vintage.** Previous: 2026-10-09 10:14 ET (named-contract vendor quotes 10:12 ET; EIA SPR series via API), Oct-9 AM block. Earlier: 2026-10-08 16:37 ET (MMA 11:00 CDT 10/8 primary; named-contract 14:28–30 ET settle-window minute bars; CFTC COT archive); writeback 2026-10-08 16:4x ET — SCOPED-PARTIAL (3rd BRENT session, PM wake: Oct-8 PM paragraph only). Prior: 08:24 ET named-contract vendor quotes; writeback 11:06 ET (2nd session). Re-read today: NHC 7A, MMA 10/7 release, EIA refcap26, named futures quotes. **2nd session 11:06 ET: 09:09 ET live-tape confirm (continuous ticker) — jump holds, Brent $104.4 / WTI $92.1, ~$0.8 off the 08:24 highs; Isaias channel/scenario framework added → [REPORT §10](research/2026-10-08_isaias-hormuz/REPORT.md#10--isaias-transmission-channels-and-weekend-scenarios); correction COR-20260921-16 receipted NO-OP (info-only).** Not re-read: WPSR (week 10/2, no new print), STEO, freight publisher pages, FRED, GIE, COT/rig/JWC, incident rows. Official settlements and current USO weights unavailable. [10/8 evidence](research/2026-10-08_isaias-hormuz/REPORT.md); 10/7 basis [catch-up](research/2026-10-07_news-catchup/REPORT.md).
 
 **Routine deployment stays parked** at the [CATO handoff](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et); saved repair is complete, live deployment/normal-run acceptance unresolved. No trade approval changed. Position status and USO card correction → [TRADE](TRADE.md).
 
@@ -9,20 +9,17 @@
 # ⚡ CURRENT STATE — *read this first. Dated blocks follow newest first; STANDING STATE is the hot half; ARCHIVE INDEX is history.*
 
 
-## October 9 — AM: ISAIAS CAT 3, REFINERY GAP OPEN, DIESEL CRACK OFF ~$4
+## October 10 (Sat) — RUSSIAN DIESEL LICENSE · ISAIAS RESTART STATE · FREIGHT → [NOTE](research/2026-10-10_diesel-deal-restart-freight/NOTE.md)
 
-**AM quotes (10:12 ET, single vendor, not settles):** BZZ26 $104.11 · CLX26 $91.58 · Nov diesel crack **$109.15 [EST]** (−$4.43 vs 10/8 window). ⚠️ `RB=F` −5.41% was a vendor artifact; vendor `prev_close` is off-settle → [archive](archive/STATUS_DETAIL_2026-10-09b.md) (1281 B, crc32 `41e5d7af`).
+**OFAC GL 135** [CONF PDF, signed 14:43:59 ET 10/9]: Russian-origin **diesel** only (sale, delivery, offloading, importation incl. into the US) through **12:01 a.m. EDT 2027-04-07**. Tonnage is **President Trump's**: 0.3 + 0.5 (Nov) + 1.0 Mt, plus 3.0 Mt conditional; 4.8 Mt is a relay sum ≈ 35.8M bbl [EST]. Russia's ban (to 10/31; YURI) and refineries (OSPREY) still bind.
 
-**Isaias** [CONF NHC TCU 7:20 CDT via WALTER -004]: **Cat 3, 120 mph, 959 mb**, ~6h ahead of NHC's peak forecast; landfall tonight/early Sat Ocean Springs MS → FL Panhandle; best forecast high-end Cat 2 at landfall. Shut-in still **62.89%** (10/8 survey; next MMA ~13:00 CDT). Refineries: **no cut announced**; Chevron said Pascagoula "remains operational" (spokesperson, **Thursday**); Port of Mobile suspended public-berth vessel ops Thu noon (engine.online relay). **GAP stays open.** Exposure by basis, never summed: Energy Aspects ~0.5 mb/d "in the path" · Lipow 2.7 mb/d "within or near" · Pascagoula 394k (Chevron sheet) / 369k / 356k.
+**Tape** [EST single vendor; no CME settle]: **HOX26 −2.96% is settle-to-settle (INFERRED) and was set BEFORE the news.** Window crack Nov $107.16 / Dec $101.69. Post-news last trade 16:58 ET: **Nov $104.90 / Dec $99.46** (≈ −$2.2), not settles; first settle Mon 10/12. **Dec is $4.46 above the $95 A-notice line** (Dec governs from 10/15); Nov is $14.74 above $90.16. B1 not engaged. TERRY grades; no cell moved.
 
-**Dallas Fed / SPR:** their 6–8 mb/d refining loss not adopted; their ~1.2 mb/d SPR drain NOT visible in EIA WCSSTUS1 (last 4 wks 0.06–0.11 mb/d) → [archive](archive/STATUS_DETAIL_2026-10-09.md) (1772 B, crc32 `a3288962`).
+**Isaias:** landfall Destin, Cat 2 [NHC via AEOLUS]. MMA 10/10 **NOT-YET-PUBLISHED at 11:41 ET** (last 71.51% [10/9]). Chevron: 5 facilities shut, crews back through Sunday. **Pascagoula refinery status = GAP.** Fork: refinery leg of (2) not observed; offshore UNKNOWN.
 
-**⛔ SELF-CORRECTION: Dated Brent >$120 is a REAL breach, not a feed anomaly.** SCRATCH 10/8 called `DCOILBRENTEU` 125.44 "anomalous … not a real breach". That was wrong. [CONF EIA RBRTE at the EIA API 10:3x ET; FRED republishes it, same lineage] Europe Brent spot FOB: **125.44 (10/6) · 125.51 (10/5) · 135.51 (10/2)**. It has been >$110 every print since 9/9 and >$120 on 9/10, 9/14–17, 9/24, 10/2, 10/5 and 10/6. ⇒ REGISTRY `FRED-DCOILBRENTEU-ABOVE-120` ("physical scarcity confirmed", stress) reads ABOVE its line on the 10/6 print; thresholds.py already shows it so; >$140 not reached. [INFERRED] There is a ~$25 premium of physical prompt cargoes over Dec futures (BZZ26 ~$100 on 10/6), consistent with the Forties >$140 relay. A premium is not proof of barrels lost (the row's own letter). Stand-down unchanged; no capital trigger.
+**Freight:** Gibson TD3C **$1,478,500/day [10/8]** re-verified; Baltic TD3C wk41 NOT OBTAINED; USG→China ≈ $80M/cargo (bases in NOTE). No registered line.
 
-**China exports resume at ~3.7 Mt Oct (Reuters 10/9, unofficial; paper, not shipments) · SPR 10/6 awards UNPUBLISHED** → CATALYSTS + [archive](archive/STATUS_DETAIL_2026-10-09b.md).
-
-**NEXUS ask (L553):** official ICE 10/8 `BZZ26` settle — **NO SETTLE SOURCE AVAILABLE TO BRENT** (window VWAP $104.273 [EST] is not a settle). USO/Oct-9 call state → [TRADE](TRADE.md).
-
+> **Rotated October10:** dated October9 AM block (Isaias Cat 3 pre-landfall; Nov crack $109.15 EST AM; Dallas Fed/SPR basis flag; China ~3.7 Mt) → [archive](archive/STATUS_dated_2026-10-10_rotation.md), 2487 UTF-8 payload bytes, crc32 `1ba79856`; payload after first standalone separator, outer whitespace stripped. ⛔ **Sentinel kept hot: Dated Brent >$120 is a REAL breach (EIA RBRTE 125.44 on 10/6, 135.51 on 10/2); the 10/8 'anomaly / not a real breach' label is WITHDRAWN.** A premium is not proof of barrels lost.
 > **Rotated October9:** dated October8 (Hormuz-led jump; Isaias 25%→62.89% shut-in; settle-window crack $113.58; COT-35B Leg-B 4.909% re-reproduced) and October7 (WPSR wk-10/2; STEO) blocks → [archive](archive/STATUS_dated_2026-10-09_rotation.md), 6595 UTF-8 payload bytes, crc32 `ae600c46`; payload after first standalone separator, outer whitespace stripped. Isaias weekend 3-way fork stays at [REPORT §10](research/2026-10-08_isaias-hormuz/REPORT.md#10--isaias-transmission-channels-and-weekend-scenarios).
 
 ## 📌 STANDING STATE — *current values, live rules and active obligations. Read this; it is the hot half.*
@@ -71,7 +68,7 @@
 | **Tue Oct 6** | ✅ EIA October STEO — GRADED 2026-10-07: release and same-series comparison MET | 🟠 |
 | **Tue Oct 6** | SPR EXCHANGE (up to 40M bbl, Big Hill + Bryan Mound) — BIDS CLOSE 11:00 CT; awards follow | 🟠 |
 | **~Thu Oct 8** ⌁*modeled* | ✅ CHINA PRODUCT-EXPORT HALT — GRADED 2026-10-09: GUIDANCE MET (unofficial) — October exports APPROVED ~3.7 Mt gasoline+diesel+jet combined, below Sep ~4 Mt expected and Aug 4.6 Mt actual;… | 🟠 |
-| **~Sat Oct 10** ⌁*modeled* | HURRICANE ISAIAS — northern Gulf landfall (late Fri 10/9 – early Sat 10/10) and offshore/refinery restart read | 🟠 |
+| **Sat Oct 10** | HURRICANE ISAIAS — northern Gulf landfall (late Fri 10/9 – early Sat 10/10) and offshore/refinery restart read | 🟠 |
 | **~Sat Oct 10** ⌁*modeled* | 🟠 IRAN-OMAN PERMANENT-ROUTE WINDOW — 30-60d after 8/26 interim framework | 🟠 |
 | **Sat Oct 10** | DIESEL TAX RELIEF — five-day implementation directive from October5 order | 🟠 |
 | **~Wed Oct 14** ⌁*modeled* | 🟠 IEA OMR OCTOBER — second collective-action watch + global stock draw (successor to the Sept OMR read 9/18) | 🟠 |
@@ -87,10 +84,11 @@
 | **~Fri Nov 20** ⌁*modeled* | CHINA GAC OCTOBER PRODUCT EXPORTS — physical sizing of the October quota (successor to the 10/08 halt row) | 🟡 |
 | **Sun Nov 29** | OPEC+ 69th JMMC — monitoring committee (watch for an ONOMM call / 2027-baseline language) | 🟡 |
 | **Sun Jan 31 2027** | RUSSIA FUEL EXPORT BAN — full expiry (gasoline all-participants + non-producer diesel) | 🟡 |
+| **Wed Apr 7 2027** | OFAC GENERAL LICENSE 135 EXPIRES — Russian-origin diesel (sale, delivery, offloading, importation incl. into the US) authorized through 12:01 a.m. EDT 4/7/2027 | 🟡 |
 
-*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 8 of 22 rows are modeled.*
+*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 7 of 23 rows are modeled.*
 
-*22 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
+*23 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
 
 <!-- CALENDAR:END -->
 **✅ FIRED & GRADED history:** canonical text remains in `docket/CATALYSTS.tsv`; it is not duplicated here.
@@ -98,6 +96,8 @@
 ---
 
 ## SUMMARY FOR WILL
+
+*(October 10)* **US licensed Russian diesel to 4/7/2027 (OFAC GL 135). Friday's −2.96% heating-oil settle predates the news; after-settle trade took ~$2.2 off the crack (Dec ~$99.46 EST, ~$4.5 above the $95 notice). Isaias landed east of the refineries; restart figure not out. Freight at records. Stand-down.**
 
 *(October 9 AM)* **Crude holds the Hormuz jump. Physical Brent runs $20–30 over futures (a real premium; yesterday's "anomaly" label was wrong). The diesel crack eased ~$4 on China's reduced export resumption and/or Isaias tracking east. Isaias is now Cat 3: offshore risk is up, refinery risk is lower but not cleared. Stand-down maintained; the USO Oct-9 call rail at 15:00 is Will's hand.**
 
