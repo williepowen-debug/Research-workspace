@@ -165,3 +165,20 @@ FRED, pulled 2026-10-10 ~13:3x ET (last updated 2026-10-09); "small" = domestica
 2. The borrowings line is FHLB plus other; the FHLB share is unknown until the Q3 FHLB data.
 3. No bank is named. The 11/07 Call Report retrieval (RC-M FHLB advances, per bank) is the per-name read.
 4. **Next weekly print (week of 10/7): Fri 10/16.**
+
+### The full 9/29 pre-print observable set, re-read 2026-10-10 (FRED, SA, H.8 through 9/30; H.4.1 through 10/7)
+
+| Observable (9/29 report §3) | 9/16 | 9/30 | Bar (descriptive, not registered) | Read 10/10 |
+|---|---:|---:|---|---|
+| Loans to non-depository financials, all banks `LNFACBW027SBOG` | 2,061.9 | **2,079.4** | a STALL or contraction | 🟢 still growing (+0.8% in 2 wks) |
+| … domestically chartered `LNFDCBW027SBOG` | 1,531.0 | 1,547.4 | same | 🟢 |
+| Small-bank deposits `DPSSCBW027SBOG` | 5,667.9 | 5,673.4 | multi-week decline while large rise | 🟢 flat |
+| Small-bank large time deposits `LTDSCBW027SBOG` | 734.3 | 734.4 | a RISE | 🟢 flat |
+| **Small-bank borrowings `H8B3094NSMA`** | 286.7 | **314.5** | **≥ +5% in a month** | 🟠 **CROSSED** (+11.2% from 9/02) |
+| Small-bank C&I `CILSCBW027SBOG` | 737.6 | 739.5 | a draw spike | 🟢 |
+| Small-bank CRE `CRESCBW027SBOG` | 2,104.3 | 2,105.6 | context | 🟢 |
+| **Discount-window primary credit `WLCFLPCL`** | 6.88 | **8.74 · 9.97 [10/7]** | **> p90 of prior 60 weeks for 2+ weeks** (p90 recomputed 10/10 = **$7.83B**) | 🟠 **CROSSED** (2 weeks; 10/7 is above the prior-60-week max $9.87B) |
+
+*(9/16 values are the current vintage; H.8 revisions moved several from the 9/29 table, e.g. NDFI loans 2,047.0 → 2,061.9.)*
+
+**Read:** **2 of 8 bars crossed, both on the FUNDING/LIQUIDITY side; all credit-side bars quiet.** That means no line-draw spike, no non-bank-lending stall, no deposit flight and no expensive-CD replacement. The pattern is banks lining up cash (borrowing plus the discount window), not credit reaching balance sheets. **Not a registered trigger;** base-rate before any registration (the 9/29 rule). Next H.8: Fri 10/16; next H.4.1: Thu 10/15.

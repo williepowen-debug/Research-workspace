@@ -1,31 +1,11 @@
 # REGINALD STATUS
-**🟢 10/10 SAT (Will-launched): CAUGHT UP ON DATA; three overdue process items DONE; no score, threshold or trade moved.**
-- **Settled grades:** 10/9 closes graded (WAL $74.27, exit 0-of-3, row 28; FLG 3rd close below RED).
-- **Predictions:** REG-03/06/07 instruments named. ⚠️ REG-07's level reading was true at birth, so it grades on the CHANGE from 0.62%; **Will may VOID it before SSB prints 10/21**.
-- **DAEDALUS fixes:** F#4 wording fixes + wiring ⑰ done. The `V1V3-ACCELERATE` token rename is deferred because WALTER reads it.
-- **Stale tables:** VX 27 rows STALE · FLOW frozen · two June baselines FROZEN-VINTAGE · KB +3.
-- **Large-bank desk:** proposal packeted to DAEDALUS (Will-directed).
-- **HBAN puts:** Will's word on WQ-302 committed verbatim in POSITIONS (`cb236344f`).
-- **Owed at next boot (Will):** ① the 9/7 DAEDALUS packet decision ② the FHLB Atlanta / SF 10-Qs ③ five July threads.
-**🟠 10/9 FRI PM — MONITOR REPAIR + Q3 EARNINGS READ PLAN (Will-directed); STRESS STILL CONCENTRATED ON 6/30 EVIDENCE; NO SCORE, THRESHOLD OR TRADE MOVED.**
-- **Repair (`8255c2d13`):**
-  - OZK's 8-K and insider checks now use the FDIC (they had queried the SEC, where OZK hasn't filed since 2017).
-  - **VLY was keyed to Old Republic's SEC ID (74260 → 714310).**
-  - FLG / AMTB / CFG / CUBI added. A failed, unparseable or uncovered bank can no longer print an all-clear.
-  - The countdown reads the CALENDAR earnings table; unsettled and NaN daily bars are excluded from settled grades.
-- **Plan:** `reports/2026-10-09_Q3_earnings_read_plan.md`.
-  - Individual-bank deterioration is not cross-bank spread. Only L180 or the FL-rail aggregate can show spread.
-  - L180 is graded on the ORIGINAL total-CRE rate. Multifamily is a separate sub-read.
-  - Missing banks → UNKNOWN wherever they could flip a breadth verdict.
-  - **11/07 = planned Call Report retrieval, completeness checked then.**
-- **Baseline (Call Report):**
-  - Total-CRE bad-loan rate 2.46% → **2.23%** [6/30/25 → 6/30/26].
-  - Multifamily 3.88% → **3.58%**, but **up from 3.23% last quarter**, all at FLG / EGBN / CFG. That is individual, not spread.
-  - L180 dry run Q1 → Q2: *c* = 1 (WAL foreclosed property +2.3%).
-- **Tape:** 10/9 vendor quotes (settled bars not posted) WAL 74.27 · KRE 69.01 · FLG 11.32 · OZK 44.41, while SPY rose +0.60%.
-- **Claims:** 197K [w/e 10/3]; w/e 9/26 revised to 199K.
-*Prior headlines (10/9 AM · 10/7 WED) and the archive-pointer chain for 9/29 → 8/10 → `archive/STATUS_rotation_2026-10-09.md` BLOCK T15, crc32 `4546cd82` (read-cap rotation 10/9 PM; recompute before trusting).*
-**Last Updated:** **2026-10-10 Sat ~12:4x ET (Will-launched, continuation; closeout)**: 10/9 settled grade · REG-03/06/07 instruments · F#4 + wiring ⑰ · stale tables · large-bank desk packet · WQ-302 verbatim. Prior: **2026-10-09 Fri ~22:xx ET (Will-launched evening session, Opus 5.5)**: boot · WALTER lane 2 → 0 · bounded monitor repair `8255c2d13` · Q3 read plan + Will's clarifications · FL frame A3 · CALENDAR earnings table · read-cap rotation T14–T19. *Stamp chain (10/9 AM and earlier) → BLOCK T16, crc32 `3ba61974`.*
+**🟠 10/10 SAT PM (Will-launched): CATCH-UP DONE; ONE NEW FUNDING TELL; NO SCORE, THRESHOLD OR TRADE MOVED.**
+- **Funding tell (Fed H.8 weekly, through 9/30):** small-bank borrowings (FHLB + other) **+$32.9B / +11.7% in 3 weeks**, the largest rise in 160 weeks and not a quarter-end pattern. Small-bank deposits flat; discount window above its 60-week p90 for two weeks ($9.97B [10/7]). Credit-side bars quiet. **Read (inference): banks lining up cash, not credit transmission.** WALTER signal → LIQUID. Next H.8 Fri 10/16.
+- **FHLB (6/30):** about half of H1's +$136B is four very large banks (PNC · Citi · USB · WFC); mid/small filers flat; Atlanta +6.9%, SF −10.6%. ⚠️ **`REG-T-06` does not discriminate** (>$700B in 12 of 26 quarters since 2020) → re-letter question to Will via PROME, before the ~10/29 Q3 figure.
+- **As-made audit complete** (20 rows): REG-13 re-formed; REG-07 scores at 68% (WQ-112(i)). **Five July threads closed** (archive crc `fd8df983`).
+- **Open with Will:** REG-07 VOID before 10/21 (WQ-412) · `REG-T-06` re-letter (WQ pending) · HBAN puts by 10/14 (WQ-302) · large-bank desk · JWT by 11/05.
+*Prior headlines (10/10 AM · 10/9 PM), the 10/9-AM-and-older pointer chain and the stamp chain → `archive/STATUS_rotation_2026-10-10.md` BLOCK T20, crc32 `084f8b0d` (recompute before trusting).*
+**Last Updated:** **2026-10-10 Sat ~13:5x ET (Will-launched; items ①–③ + write-back)**: as-made audit · FHLB + `REG-T-06` · weekly funding bars · July threads · TRADE/CALENDAR refresh · rotations T20–T25 (prior stamps in T20).
 
 > **Thesis state:** STATUS is thesis-canonical (THESIS retired 8/13). Older carry blocks → `archive/STATUS_rotation_2026-09-02.md` BLOCK N and `archive/STATUS_rotation_2026-09-24b.md`.
 
@@ -66,7 +46,7 @@
 
 > **Matrix detail (method notes, runway/reserve legs, per-bank narrative rows) → `STATUS_MATRIX.md` — COLD, on-demand, NOT a boot read; split verbatim 2026-09-24, crc-stamped.** Scores below are the live line; ⚠️ a `0` means clean on the scored channels only, not a clean bill of health. Method + full table → `BANK_EXPOSURE_MATRIX.md`.
 > **🔴 FLG 6** *(was LAST)* · **🟠 EGBN 5** · **🟠 AMTB 5** *(absent from v1 entirely)* · VLY 3 · **OZK/WAL/SSB/BKU/SBCF 2** *(WAL was 1st=)* · ZION/MTB/CUBI 1 · **CFG/HBAN 0** *(CFG was 3rd)*.
-> 🔴 **FLG price ladder `VX-REG-6.03` RED since 10/7** (band 3 $11.39 broken at **$11.30 [10/7 close]**, −20.6% vs FROZEN $14.24; band 1 $12.82 broke 9/16, band 2 $12.10 broke 9/28). **Packets PROME + FLG sent 10/7 (`018af9846`)** per the 9/24 registration; the ladder is exhausted (no band beyond RED). Detector: `scripts/vx_ladder_check.py` (exit-code defect FIXED `b6544d45d` 9/24 — DAEDALUS Prose-Remedy #1, verified 10/9). ✅ **Intraday-bar defect FIXED 10/9 (`8255c2d13`):** today's (ET) bar and any NaN bar are now always excluded via `scripts/settled_bars.py`. A clock filter alone would have failed, because the 10/9 bar still read NaN at 20:3x ET. Settled count = 2 closes below RED through 10/8; 10/9 NOT GRADED until settled. Matrix score unchanged (price is not an input).
+> 🔴 **FLG price ladder `VX-REG-6.03` RED since 10/7** (band 3 $11.39 broken at **$11.30 [10/7]**; −20.5% vs FROZEN $14.24 at $11.32 [10/9]). **3 settled closes below RED through 10/9**; ladder exhausted (no band beyond RED). Packets PROME + FLG sent 10/7 (`018af9846`). Detector `scripts/vx_ladder_check.py` (exit-code fix `b6544d45d`; today's and NaN bars excluded via `scripts/settled_bars.py`, `8255c2d13`). Matrix score unchanged (price is not an input). *Prior text → BLOCK T21, crc32 `fc6e141e`.*
 
 
 
@@ -76,7 +56,7 @@
 
 ## KEY CATALYSTS
 
-*Dates are OWNED by `CALENDAR.md` — **earnings dates in its Q3-2026 BANK EARNINGS DATES table** (CUBI + FLG NOT ANNOUNCED at 10/9 21:2x ET). Read plan → `reports/2026-10-09_Q3_earnings_read_plan.md`. The four-row mirror that sat here (capital-rules final rule TBD · IQHQ Aug · OZK sub-notes Oct 1 · Affinius Oct) → BLOCK T8, crc32 `6e2cf1ef`. Next (10/7, issuer-announced): CFG Fri 10/16 · WAL Mon 10/19 AMC · OZK Tue 10/20 AMC · EGBN/SSB Wed 10/21 AMC, BKU 10/21 BMO · VLY 10/22 BMO, AMTB 10/22 AMC · SBCF 10/27 AMC · FLG/CUBI TBA · Nano P&A NOT posted 10/9 (bid summary posted 10/8) → re-check **Tue 10/13** · JWT 11/05 · MI3 run 11/07.*
+*Dates are OWNED by `CALENDAR.md` (earnings dates in its Q3-2026 BANK EARNINGS DATES table, which `scripts/earnings_countdown.py` reads; CUBI + FLG still NOT ANNOUNCED). Read plan → `reports/2026-10-09_Q3_earnings_read_plan.md`. Next: Nano P&A re-check Tue 10/13 · H.4.1 Thu 10/15 / H.8 Fri 10/16 · CFG Fri 10/16 · `REG-T-06` Q3 ~10/29 (est.) · JWT 11/05 · Call Report retrieval 11/07. The prior mirror list → BLOCK T25, crc32 `2288fccd`.*
 
 ---
 
@@ -123,17 +103,17 @@
 
 ---
 
-## ⚠️ THRESHOLD STATUS (**10/9 PM refresh: claims w/e 10/3 and DGS10/DGS30 10/8 (FRED API); VIX/^TNX/Brent 10/9 vendor reads; WAL/KRE 10/9 = vendor quotes, NOT settled. The 10/9 AM refresh note (settled 10/8 closes; FRED 10/8 via ALFRED; SOFR/discount window via WALTER) and older vintages → BLOCK T19, crc32 `cebafa60`.** Rows not named keep their stated vintage.)
+## ⚠️ THRESHOLD STATUS (**10/10 refresh: WAL/KRE/FLG = SETTLED 10/9 closes (two routes); HY/CCC/B/BB FRED 10/8 (10/9 not yet posted, checked 10/10 ~13:5x ET); small-bank borrowings H.8 through 9/30. Claims w/e 10/3, DGS10/30 10/8, VIX/^TNX/Brent 10/9 vendor reads, as before.** Older notes → BLOCK T22, crc32 `7314d335`, and BLOCK T19. Rows not named keep their stated vintage.)
 
 > *Refreshed 8/20 after this block sat at a **7/24 vintage for 27 days** — the exact defect LESSON 15 names ("the surface you cite from memory is the one that rots"). Every row below is re-pulled, not carried.*
 
 | Metric | Threshold | Current | Note |
 |--------|-----------|---------|------|
 | **FHLB advances** | **>$700B, sustain 3 qtrs** | **$810.7B** [6/30/26, FHLB Office of Finance] | 🟠 **`REG-T-06` LEG 2 OF 3, does not fire.** Q4-25 $677B (reset) · Q1-26 $734B · Q2-26 $810.7B. **A Q3 print >700 FIRES (~late Oct/early Nov).** ★ **Composition read 10/10 (`reports/2026-10-10_FHLB_Q2_composition_and_REG-T-06_base_rate.md`):** H1 +$136.2B (par) = **~half four very large banks** (PNC +27.4, Citi +20.0, USB +14.0, WFC +6.0). The 106 mid-size and small SEC filers added +$2.3B (median 0%); Atlanta +6.9%, SF −10.6%. Purpose read for PNC only. ⚠️ **The system was >$700B in 12 of 26 quarters since 2020 (peak $1,044.6B [3/31/23]); as lettered, `REG-T-06` would have fired mid-2023 and never exited** → re-letter question to Will via PROME. Not a trip of BOND's ungradeable `VX-BND-18` leg. Full cell → `archive/STATUS_rotation_2026-09-24c.md`. |
-| **WAL** | **<$78** | **$75.50** [**Thu 10/8 CLOSE**, +1.55%; two routes]; **10/9 $74.27 CLOSE, settled, two routes agree (graded 10/10: row 28, 0-of-3, 9.32% short)** | 🔴 **`REG-T-02` = `FIRED` (cycle 2, since 9/1). Exit run `0-of-3` — COUNT FROM `registry/REG_T02_EXIT_LOG.tsv` (27 rows through 10/8), never from here.** Exit = `WAL ≥ 81.90 ×3 CONSECUTIVE closes`; 10/8 is $6.40 / 7.81% short. Closes 9/30–10/6: 75.10 · 75.70 · 76.38 · 76.02 · 76.09 — all SUPPRESSED RE-ENTRIES. **Q3 print LOCKED Mon 10/19 AMC** (call Tue 10/20 12:00 ET). Guards the RH `Dec-18 $70P` (ROLL70) only — not the NEW Fidelity `Dec-18 $65P ×4`. |
-| KRE | <$60 | **$69.59** [**Thu 10/8 CLOSE**]; **10/9 $69.01 CLOSE** (settled, two routes agree, 10/10); 10/7 $68.89 (closing low of the selloff) | 🟡 **`REG-T-01` = `UN-FIRED`**, $8.89 / 12.9% above the line. Path 69.83 [9/29] · 69.44 · 69.95 · 70.78 · 70.39 · 70.07 · **68.89** = new closing low of this selloff in my 9/14→10/7 series (−7.0% from 74.11 [9/14]). The Sep-30 $60P ×2 was SOLD 9/30 and rolled to Dec-31 $65P ×2 (Will). `TRY-COND-KREADD` (TERRY) NOT armed on my legs. |
+| **WAL** | **<$78** | **$74.27** [**Fri 10/9 settled close**, two routes agree] | 🔴 **`REG-T-02` = `FIRED` (cycle 2, since 9/1). Exit run `0-of-3`, COUNTED from `registry/REG_T02_EXIT_LOG.tsv` (28 rows through 10/9), never from here.** Exit = `WAL ≥ 81.90 ×3 CONSECUTIVE closes`; 10/9 is $7.63 / 9.32% short. Sub-78 closes are SUPPRESSED RE-ENTRIES. **Q3 print Mon 10/19 AMC** (call Tue 10/20 12:00 ET). Guards the RH `Dec-18 $70P` (ROLL70) only, not the Fidelity `Dec-18 $65P ×4`. |
+| KRE | <$60 | **$69.01** [**Fri 10/9 settled close**, two routes agree]; selloff closing low $68.89 [10/7] | 🟡 **`REG-T-01` = `UN-FIRED`**, $9.01 / 13.1% above the line; −6.9% from 74.11 [9/14]. Sep-30 $60P ×2 SOLD 9/30, rolled to Dec-31 $65P ×2 (Will). `TRY-COND-KREADD` (TERRY) NOT armed on my legs. *Prior WAL/KRE text → BLOCK T23, crc32 `77401802`.* |
 | HY OAS | >320 (`REG-T-03`) · >350 (`REG-T-04`) | **315bps** [FRED BAMLH0A0HYM2, **10/8**; ALFRED vintage 10/9, own pull 10:28 ET] | 🟡 **`REG-T-03` GRADED 0-of-3 at the 10/8 cell** (my letter: >320 on 3 consecutive closes): **324 [10/1] = 1 of 3**, **310 [10/2] RESET**, 312 [10/5], 303 [10/6], **309 [10/7] 0**, **315 [10/8] 0** (both ≤320, no run). NOT FIRED. 5bp under 320 (1.6%); RED's FT-02 graded separately. Prior: 17bp under 320 at 10/6, 43bp above the <260 REVIEW line. LIQUID: one tagged print, funding not confirming (SRF $0, SOFR−IORB −3bp [10/1]); X1 CLOSED (LIQUID's). ⚠️ Anchor-drift caveat stands [SIG-723-002]; bank-credit cross-check before reading any HY level as transmission. |
-| **CCC/HY ratio** | >3.6× (3 consec) | **3.975×** [CCC **1,252** / HY 315, **10/8**]; 3.977× [1,229/309, 10/7] | 🔴 **HARD-FIRE CONTINUES. 10/7–10/8: CCC +38bp to 1,252 = NEW FRED-window high, HY +12, ratio flat-to-down — both legs widening, no re-cross ⇒ no escalation by the vector's rule (LIQUID/RED own the tail read). B 308 [10/7] · 315 [10/8]; BB 189 · 194.** Prior 10/6 read: ratio 4.007× — and the ratio's 10/2→10/6 RISE is HY-TIGHTENING-LED (HY 324 → 303 while CCC held 1,202–1,215) = the denominator form, so NO escalation by the vector's own rule.** CCC **1,215 [10/1] = FRED-window high**. B 302 [10/6] (316 · 316 · **329 [10/1]** · 312 · 314 · 302): held >300 seven prints, never reached ORANGE 330. BB 185 (peak 204 [10/1]). Re-arm ESC escalated 9/26; not repeated (Will 9/26: re-entry is LIQUID's). BROCK 10/2: CCC/BB compressed 6.780 → 6.077, tail not leading. Full rows → `workbook/VX.tsv` `VX-REG-18.04`/`18.05`. |
+| **CCC/HY ratio** | >3.6× (3 consec) | **3.975×** [CCC **1,252** / HY 315, **10/8**]; 3.977× [1,229/309, 10/7] | 🔴 **HARD-FIRE CONTINUES: above 3.6× on every FRED close since 7/31 (last at or below: 3.542 [7/30]).** 10/7–10/8: CCC +23bp to 1,252 = NEW FRED-window high, HY +6; both legs widening, no CCC-led re-cross ⇒ no escalation by the vector's rule (LIQUID/RED own the tail read). B 308 [10/7] · 315 [10/8]; BB 189 · 194; B held >300 since 9/28, never reached ORANGE 330 (peak 329 [10/1]). Re-entry is LIQUID's (Will 9/26). Full rows → `workbook/VX.tsv` `VX-REG-18.04`/`18.05`. *Prior text → BLOCK T24, crc32 `ec961eab`.* |
 | Claims | >300K | **197K** [FRED ICSA w/e **10/3**, API pull 10/9 20:4x ET; next print Thu 10/15] | 🟢 **103K of buffer.** w/e 9/26 **revised 197 → 199K**. Prior chain 198 [9/12] · 198 [9/19, revised from 197] · 197 [9/26, first print]. Sept payrolls +29K, net revisions −60K, U-3 4.2% (WALTER -20261002-001; LABOR's kill did NOT fire). LABOR owns the read. |
 | VIX | n/a | **14.84** [**10/9** vendor read]; 15.08 [10/7] | 🟡 Mid-teens through a cycle-high 10Y, HY over 320 for one print and an FLG RED: **not a fear event.** |
 | Brent | n/a | **`BZ=F` $104.43** [10/9 vendor read; contract month not re-checked]; $101.46 [10/7] | 🟠 Not re-read on a named contract. HAWK/BRENT/FALCON own the level and the verdict (BRENT settle-window proxies, HEARTBEAT §1). |
@@ -154,7 +134,7 @@
 - **Multifamily** fell year on year but rose last quarter at FLG / EGBN / CFG. That is individual, not spread.
 - **What would make it spread:** only L180 (≥3 of the five mid-pack banks on the original total-CRE basis) or the FL-rail aggregate. Each reads UNKNOWN where missing banks could flip it.
 - **Most consequential open question:** that breadth test, which comes from the Call Reports. Retrieval is planned for 11/07, with completeness checked then; the JWT expires 11/05 (Will).
-- **Post-6/30 signals pointing the other way** (discount window $9.965B [10/7], size-led equity selloff, KRE redemptions) name no balance sheet.
+- **Post-6/30 signals pointing the other way** (small-bank borrowings +11.7% in 3 wks to 9/30 with deposits flat; discount window $9.97B [10/7]; size-led selloff; KRE redemptions) name no balance sheet.
 
 *§BOTTOM LINE 2026-10-07 (WQ-318) and 2026-09-29 (attribution) paragraphs, plus the 9/24 rotation pointer → `archive/STATUS_rotation_2026-10-09.md` BLOCK T17, crc32 `6961a43c`. Reports canonical: `reports/2026-10-07_WQ318_funding-vs-nonbank-baseline.md` · `reports/2026-09-29_selloff_attribution_and_preprint_observables.md`. Their live claims are carried in the 2026-10-09 entry above.*
 

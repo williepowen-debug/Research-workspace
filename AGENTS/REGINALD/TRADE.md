@@ -2,13 +2,13 @@
 
 > **LIVE — rebuilt 2026-09-29 ~19:3x ET (stamp corrected at closeout against `date`; first written as ~20:1x from narrative) on Will's word (*"Do it now"*), replacing the March-2026 document (FROZEN 7/09; archived verbatim → `archive/TRADE_frozen_2026-03-07_archived_2026-09-29.md`, crc32 `ab819e73`).** This file carries the trade THESIS, the triggers by name, the refuters and the anti-trades. It carries **no marks and restates no strike it does not own**: position truth is off-repo (Will/broker); the structured mirror is `FORGE/STATUS.md` (PROME/ANVIL, last reconcile **2026-10-07 intraday Fidelity capture**; Robinhood last 9/29); this desk's structural ledger is `POSITIONS.md`. **Trade construction = TERRY; approval = Will (root rule #5).** Re-check size at any append (READ_CAP budget 32,550 B).
 
-## 1. What this desk's trades are a bet on (state 2026-09-29; §2–§3 refreshed 2026-10-07)
+## 1. What this desk's trades are a bet on (state 2026-09-29; §2–§3 refreshed 2026-10-07; §1 credit-bet line + §3 trigger states refreshed 2026-10-10 from STATUS, 10/8–10/9 settled)
 
 **Thesis (STATUS-canonical since 8/13):** regional-bank credit stress is **CONCENTRATED, not tier-wide** — 3 elevated names of 14 (FLG 6 · EGBN 5 · AMTB 5, matrix v2.0), the CRE cut narrows to FLG · EGBN · OZK, and the cross-bank Q2 filings showed CRE bad-loan rates FALLING (2.46% → 2.23%). The index expression (KRE) is therefore **tail insurance on a sector repricing**, not a directional call on cohort credit.
 
 **What the tape is doing (attribution 9/29, `reports/2026-09-29_selloff_attribution_and_preprint_observables.md`):** 8/14 → 9/14 was small-cap/market beta with **no** financials component; 9/15 → 9/29 was a **financials-sector move led by the LARGEST banks** (14-name size sort ρ −0.72), in which KRE beat its factor loading and my credit ranking sorted the WRONG way (+0.48). Credit instruments (preferreds, BDCs, HY ETFs) barely moved. ⇒ **A KRE put today is a bet that the large-bank financials repricing continues and drags regionals at ~0.85 beta. It is NOT yet a bet on regional credit.** The credit-shaped exceptions are FLG and VLY (NYC rent-regulated multifamily; worst in both legs; FLG ladder ORANGE 9/28).
 
-**What would make it a credit bet:** B-tier OAS holding >300 into >330 · loans to non-bank financials STALLING in H.8 · a Q3 print cluster (~10/20–28) showing breadth at the mid-pack (DOCKET L180) · an 8-K at a thesis name. None has happened (H.8 through 9/16 and H.4.1 through 9/23 all 🟢).
+**What would make it a credit bet:** B-tier OAS holding >300 into >330 · loans to non-bank financials STALLING in H.8 · a Q3 print cluster (~10/20–28) showing breadth at the mid-pack (DOCKET L180) · an 8-K at a thesis name. None of the credit legs has happened. ⚠️ **10/10: two FUNDING bars from the 9/29 set crossed:** small-bank borrowings +11.7% in 3 weeks to 9/30 (largest in 160 weeks), and discount-window primary credit above its 60-week p90 for two weeks ($8.74B [9/30], $9.97B [10/7]). Credit-side bars stay 🟢: non-bank lending still growing, no line draws, small-bank deposits flat. That reads as banks lining up cash, not credit reaching balance sheets (`reports/2026-10-10_FHLB_Q2_composition_and_REG-T-06_base_rate.md`).
 
 ## 2. Live legs — pointers, not restatements
 
@@ -27,14 +27,14 @@
 
 ## 3. Triggers this desk grades (levels live in `STATUS.md` §THRESHOLD STATUS — never here)
 
-| Trigger | Letter | State 9/29 | Consequence |
+| Trigger | Letter | State (vintage in each cell; live levels → `STATUS.md` §THRESHOLD STATUS) | Consequence |
 |---|---|---|---|
-| `REG-T-01` | KRE < $60 | UN-FIRED, 12.9% away (KRE $68.89 [10/7]) | 🔴 to ALL; the KRE puts' thesis level |
-| `REG-T-02` | WAL < $78 | **FIRED since 9/1 (cycle 2)**; exit ≥ $81.90 ×3, run 0-of-3 (26 rows, 10/7 $74.35) | Guards ROLL70; 2-of-3 → packet TERRY |
-| `REG-T-03` / `-04` | HY OAS > 320 ×3 / > 350 | **0-of-3** at the 10/6 cell (303); 324 [10/1] was 1 of 3, reset by 310 [10/2] | Credit transmission — **run the bank-credit cross-check first** (`reports/2026-07-30_bank-side-HY-attribution.md`) |
-| `VX-REG-18.04` / `18.05` | CCC/HY > 3.6× ×3 · B-tier > 300 / 330 / 380 | HARD-FIRE (4.007× [10/6], HY-tightening-led) · B 302 [10/6] = YELLOW; peak 329 [10/1], 1bp under ORANGE | Escalation SENT 9/26; watch, not re-escalate (Will 9/26) |
+| `REG-T-01` | KRE < $60 | UN-FIRED, 13.1% away (KRE $69.01 [10/9 settled]) | 🔴 to ALL; the KRE puts' thesis level |
+| `REG-T-02` | WAL < $78 | **FIRED since 9/1 (cycle 2)**; exit ≥ $81.90 ×3, run 0-of-3 (28 rows through 10/9, $74.27) | Guards ROLL70; 2-of-3 → packet TERRY |
+| `REG-T-03` / `-04` | HY OAS > 320 ×3 / > 350 | **0-of-3** at the 10/8 cell (315); 324 [10/1] was 1 of 3, reset by 310 [10/2] | Credit transmission — **run the bank-credit cross-check first** (`reports/2026-07-30_bank-side-HY-attribution.md`) |
+| `VX-REG-18.04` / `18.05` | CCC/HY > 3.6× ×3 · B-tier > 300 / 330 / 380 | HARD-FIRE (3.975× [10/8]; CCC 1,252 = FRED-window high, both legs widening, no CCC-led re-cross) · B 315 [10/8] = YELLOW; peak 329 [10/1], 1bp under ORANGE | Escalation SENT 9/26; watch, not re-escalate (Will 9/26) |
 | `VX-REG-6.03` | FLG ladder −10 / −15 / −20% vs $14.24 | **🔴 RED — broke on the 10/7 close $11.30** (−20.6%) | Packets PROME + FLG sent 10/7 (`018af9846`); no band beyond RED |
-| `REG-T-06` | FHLB advances > $700B ×3 qtrs | leg 2 of 3 ($810.7B [6/30]) | Q3 print (~Nov) fires it — a LEVEL, not a signal, without composition |
+| `REG-T-06` | FHLB advances > $700B ×3 qtrs | leg 2 of 3 ($810.7B [6/30]); composition 10/10: ~half of H1 growth = four very large banks | Q3 print (~late Oct) fires it. ⚠️ **The letter does not discriminate** (>$700B in 12 of 26 quarters since 2020); re-letter question with Will via PROME |
 | Claims (LABOR) | > 300K | → `STATUS.md` (LABOR owns) | all ORANGE banks → RED |
 
 **Exit rules** (STATUS §EXIT RULES, unchanged): HY < 260 is a REVIEW trigger, not an auto-exit (Will 6/19); BTFP-2.0 = thesis broken (auto-exit); CRE-channel anchors (WAL NCO ex-fraud < 25bp AND no office migration; office CMBS-DQ flows reversing 2 prints + bank CRE-DQ tier-creep reversing).

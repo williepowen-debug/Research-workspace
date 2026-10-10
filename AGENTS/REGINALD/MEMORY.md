@@ -19,52 +19,28 @@
 
 ## Session Notes
 
-⚠️ **Open question (10/9 PM):** at the 11/07 Call Report retrieval (completeness checked then), does the **total-CRE breadth test (L180, original basis)** come back BROADER, NOT BROADER or UNKNOWN?
-- **And does the multifamily sub-read's Q2 rise** (3.23 → 3.58%, all at FLG / EGBN / CFG) reach the mid-pack banks?
-- **The releases from 10/16 are provisional reads only.** Individual-bank deterioration at the named banks is not spread. *Prior open questions (10/7 + 10/7 LAST SESSION) → `archive/MEMORY_rotation_2026-10-09.md` BLOCK M3, crc32 `660fbaf1`.*
+⚠️ **Open question (10/10 PM):** does the late-September jump in smaller banks' borrowing (H.8 `H8B3094NSMA` +$32.9B / +11.7% in 3 weeks to 9/30; deposits flat) **continue, hold or reverse in the Fri 10/16 print (week of 10/7)**, and does any Q3 print show it **with deposits leaving** (the PNC pattern spreading)?
+- The L180 breadth test (11/07 Call Reports) stays the CRE question; it is in the read plan, not here.
+*Prior open question + LAST SESSION 10/9 PM (incl. 10/10 AM) + PRIOR SESSION 10/9 AM → `archive/MEMORY_rotation_2026-10-10.md` BLOCK M1, crc32 `1548bf8c`.*
 
-### LAST SESSION — 2026-10-09 Fri, ~20:24 → ~22:xx ET (Will-launched, Opus 5.5)
-**1. Boot:**
-- **Read and ran:** full read set, market.py, ladder, staleness, corrections, boot.py (print week).
-- **Inboxes:** WALTER lane 2 → 0 (WFC date correction NO-OP · Isaias info-only, `6123b665f`).
-- **PROME prome-1e ping:** coordination only.
-**2. Bounded monitor repair (`8255c2d13`, Will):**
-- **OZK filing route:** 8-K and insider checks moved to the FDIC (OZK desk `flng_watch.evaluate` reused; insider via `/api/instdiscl`).
-- **★ VLY was keyed to CIK 74260 = OLD REPUBLIC → 714310.**
-- **Coverage:** FLG / AMTB / CFG / CUBI added. Per-name CLEAR / FOUND / FAILED / PARSE / STALE-ROUTE / UNCOVERED; rc 0/1/2; `boot.py` OK / ALERT / INCOMPLETE / FAIL.
-- **Countdown:** reads the CALENDAR table.
-- **Price bars:** `settled_bars.py` excludes today's and NaN bars.
-- **Verification:** selftests 16 + 11 + 8 + 4, plus a network-blocked live run (rc 2, no all-clear). Stopped there.
-**3. Q3 read plan (`reports/2026-10-09_Q3_earnings_read_plan.md`)** on the frozen frames:
-- **Will's clarifications:** individual ≠ spread · original total-CRE basis, multifamily separate · missing → UNKNOWN · 11/07 = retrieval with completeness checked then.
-- **FL frame Amendment A3** added (UNKNOWN overlay).
-- **AMTB non-CRE observation lines** written pre-print.
-**4. Write-backs:**
-- **STATUS:** headline + bottom line; 9/29 headline rotated (T14 `ff904c29`).
-- **CALENDAR:** earnings table, L180 re-statement, 11/07 retrieval row.
-- **POSITIONS:** stamp vs FORGE 10/8 (no structural change).
-- **Delivered:** PROME memo + L180 annotation ask.
-**5. Post-closeout, Sat 10/10 AM (Will-asked: will the regional selloff continue?):**
-- **Withdrawn:** I gave a "sector probably stabilises" lean, CATO challenged it, and I withdrew it. **No market-direction forecast stands, stabilising or bearish.**
-- **The assessment of record is unchanged:** STATUS says concentrated on June evidence, with no forecast.
-- **Short interest is descriptive context only, dated:** OZK 16.3% of float, EGBN 11.8% (yfinance, settlement ~9/14–15).
-**6. Sat 10/10 late morning (Will):**
-- **Bookkeeping:** 10/9 settled closes graded (row 28). WALTER -005 (SCF) info-only.
-- **Large-bank desk:** proposal packeted to DAEDALUS (`32d24f8ff`, Will-directed; build ruling is Will's).
-- **Owed items 1-3 DONE** (`5344a98c8` / `0572114b8` / `04310ee4d`).
-### PRIOR SESSION 2026-10-09 Fri ~10:25 → ~10:5x ET (PROME prome-75 L516 due-row wake, Opus)
-**Nano:** P&A NOT posted (10:26 ET); bid summary (10/8) read → 0.85% premium, Pools B/C bought at 82.30/80.17%, A/D retained, no loss-share → §3 re-run (32–42% retained, headline unchanged); 9/27 report re-pointed; CREED + WAL packeted. **REG-T-03:** 309 [10/7] · 315 [10/8] → 0-of-3. **Letters:** OZK <$45 is the OZK desk's letter (consequent 🔴 → REGINALD+PROME, discharged 10/8); FLG RED consequent discharged 10/7, ladder exhausted. **Inbox 4 + 17 → 0**; 5 correction receipts (NO-OP); OZK reconcile: Seattle 'sold' → 'marked to an offer' in 3 reports, ALLL-basis labels. DAEDALUS asks answered/dated in STATUS §OPEN PROCESS ASKS (review Thu 10/15).
+### LAST SESSION — 2026-10-10 Sat ~12:39 → ~14:xx ET (Will-launched, Opus 5.5; AM bookkeeping is in BLOCK M1)
+**1. Boot:** full read set · market.py (10/9 settled, stale-weekend) · ladder rc 1 (FLG RED, 3 closes) · staleness · corrections 0 · inbox 0 at boot (+1 MARCO Pharr wording NO-OP, filed).
+**2. ★1 as-made audit (`28c7dd7dd`):** all 20 rows by text; REG-13 re-formed; REG-07 "Brier on 55%" corrected to 68% (WQ-112(i)); REG-10 registered after its outcome, kept scored (WQ-161 ②). DAEDALUS packeted (10/12 sitting).
+**3. ★2 FHLB (`e4916e89a`, `11f3a8a4b`, `e1fc74154`):**
+- **Composition (6/30):** ~half of H1 +$136.2B = PNC/Citi/USB/WFC; mid/small flat; Atlanta +6.9%, SF −10.6%. Why: Citi says growth funding; USB borrowed and held cash (inference); WFC growth; PNC alone replaced lost deposits.
+- **`REG-T-06` letter non-discriminating:** >$700B in 12 of 26 quarters → WQ ask to PROME (doorbelled).
+- **Weekly H.8 (Will asked about newer data):** small-bank borrowings +11.7% in 3 wks to 9/30 (160-wk max); discount window >p90 two weeks; credit-side bars quiet → WALTER signal to LIQUID (doorbelled). ⚠️ **I had told Will "regionals flat" from June data before checking this.**
+**4. ★3 July threads (`004b3a238`):** five closed, archive crc `fd8df983`; the CCC/HY counter went to backlog.
+**5. Write-back pass (Will):** TRADE (credit-bet line + trigger states) · CALENDAR (+funding row, +`REG-T-06` ~10/29 row) · dashboard pointer · ROADMAP · STATUS headline + rows refreshed to 10/9 settled · rotations STATUS T20–T25, ROADMAP R3–R5, MEMORY M1.
 ### CHANGES SINCE LAST SESSION
 (leave blank — next-boot market.py + drift-grep populates)
 ### NEXT SESSION
-**★ WILL'S ORDER FOR THE NEXT BOOT (10/10 12:35 ET: "we will handle these three when I reboot"):**
-1. ✅ **DONE 10/10 PM: the 9/7 DAEDALUS as-made packet (PR#6 ask 3).** All 20 rows were re-derived by text from the old `PREDICTIONS.md` file (the tool searched STATUS only). REG-13 is re-formed `72% [3/5] (was 55% [2/16])`. My 9/11 receipt's "REG-07 Brier on 55%" is corrected to 68% (WQ-112(i)). REG-10 was registered after its outcome; it stays scored. Receipt → `registry/NOTES.md`; DAEDALUS packeted for its 10/12 sitting. No Will decision was needed: the WQ-112 / WQ-161 canon decided it.
-2. ✅ **DONE 10/10 PM: FHLB composition** (`reports/2026-10-10_FHLB_Q2_composition_and_REG-T-06_base_rate.md`, ML-REG-185). It is neither PNC-only nor broad: about half of H1's +$136.2B is four very large banks (PNC, Citi, USB, WFC), while mid/small filers were flat (median 0%). Atlanta +6.9%, SF −10.6%. ⚠️ **`REG-T-06` doesn't discriminate:** >$700B in 12 of 26 quarters since 2020, and as lettered it fires mid-2023 and never exits. **Re-letter question → PROME to register for Will; get the word BEFORE the Q3 print.** Packets to LIQUID / BOND are held until Will rules.
-3. ✅ **DONE 10/10 PM: five July threads closed** → `archive/ROADMAP_aged_threads_2026-10-10.md` (crc32 `fd8df983`). Domain-sweep SUPERSEDED (DAEDALUS reviews; the remnant is 0a-ter) · TX/Sun-Belt MF ANSWERED · BKU ANSWERED + NDFI cohort · ZION muni: trigger is AEOLUS's · CCC/HY counter NOT BUILT → backlog (build at the first close ≤3.6×; last was 3.542 [7/30]).
-**Also live:**
-- **REG-07 VOID-or-CHANGE** is Will's call before SSB prints 10/21; if he doesn't answer, it grades on the change.
-- **WQ-302 HBAN:** Will's word is committed (`cb236344f`). Write the fill back to POSITIONS from the broker export.
-- **Large-bank desk:** DAEDALUS holds the packet (`32d24f8ff`); the build ruling is Will's.
+**★ NEXT BOOT (set 10/10 PM; Will's three catch-up items are DONE, see LAST SESSION):**
+1. **Weekly funding read: Thu 10/15 H.4.1 · Fri 10/16 H.8** (`H8B3094NSMA`, `WLCFLPCL`, small-bank deposits + cash, SA AND NSA). Continue / hold / reverse? A deposit decline alongside = the PNC pattern spreading → packet LIQUID + PROME the same session. Bars stay descriptive (base-rate before any registration).
+2. **`REG-T-06` re-letter:** Will's word via PROME's WQ row, BEFORE the ~10/29 Q3 figure. On his word: update `registry/THRESHOLDS.tsv` + `registry/NOTES.md`, then ONE packet to LIQUID + BOND (held until then). Without a word, it grades as lettered with the composition read attached.
+3. **REG-07 (WQ-412): Will's VOID-or-grade before SSB prints Wed 10/21 AMC;** without a word, it grades on the CHANGE (scores at 68%).
+4. **HBAN puts (WQ-302):** Will sells or rolls by Wed 10/14; write the fill back to POSITIONS from the broker export.
+5. **Large-bank desk:** DAEDALUS holds the packet (`32d24f8ff`). Citi / USB / WFC FHLB purpose is that desk's perimeter if built.
 *Full 9/29 list (every carried item's text) → `archive/MEMORY_rotation_2026-10-07.md` BLOCK M2, crc32 `401793b1`. Items marked (M2) keep their full text there.*
 **🔴 0-Q3. RUN THE Q3 READ PLAN AT EACH PRINT — `reports/2026-10-09_Q3_earnings_read_plan.md` §5 schedule** (CFG **Fri 10/16** first). Grade only the frozen frames: WQ-318 list · CRE top-3 §6 · L35 / L521 · FL frame + A3 · §2.3 AMTB lines. Read the WAL / OZK / FLG desks' grades for their names; the cross-bank row is mine.
 - **§2.0 rules govern:** individual ≠ spread · original total-CRE basis, multifamily separate · missing → UNKNOWN · release = provisional.
@@ -80,13 +56,16 @@
 **🟠 0a-NANO.** 10/9: P&A **still NOT posted**; FDIC **bid summary posted 10/8** → §3 re-run done (`reports/2026-10-09_nano-banc-bid-summary-and-section3-rerun.md`: retained-pool ≈32–42%). **Re-check P&A Tue 10/13**, then Tuesdays; none by 10/27 → DEWEY records route. On posting: size Pools A/D, place the $97.1M HFS book + WAL O1 DOTs, re-run §2 with pool sizes. Bar date not posted.
 **🟠 0a-FL.** ✅ Dates done 10/7 (BKU 10/21 BMO · SSB 10/21 AMC · AMTB 10/22 AMC · SBCF 10/27 AMC; VLY 10/22 BMO). Grade the frozen frame `reports/2026-09-24_FL_bank_rail_Q3_FROZEN_frame.md` at each print; ≥2 TRANSMITS → packet CORAL + PROME the same session.
 **🟡 0a-0. FLG ladder is RED and EXHAUSTED** — no band beyond RED. Exit-code defect FIXED `b6544d45d`. **Intraday-bar defect FIXED 10/9 (`8255c2d13`).** Census other frozen-baseline bands into the script (M2) — NOT this cycle (Will: no further tooling expansion).
-**🔴 0a-bis (M2).** ~~9/7 as-made packet disposition~~ ✅ DONE 10/10 PM (★1 above) · 9/30 DAEDALUS VX row re-cuts (state UNKNOWN — check DAEDALUS) · **11/05 FFIEC JWT expiry (Will) — two days before the 11/07 run.**
+**🔴 0a-bis (M2).** **11/05 FFIEC JWT expiry (Will), two days before the 11/07 run.** *(As-made packet DONE 10/10 PM; the DAEDALUS VX re-cuts were DONE 10/10 as wiring ⑰, per STATUS §OPEN PROCESS ASKS.)*
 **🔴 0a-ter (M2). Carry-premise audit** — the most valuable item on this list; unchanged.
 **🟠 2 (M2). Pre-print observables into `boot.py`** — base-rate before building. WQ-318 adds the per-bank observables (NIB average, IB cost, FHLB) but they are quarterly.
-**🟠 3 · 4 · 6 · 6d · 6f · 6g · 6h · 6i · 6j · 6k · 7 (M2)** — FHLB Atlanta/SF 10-Qs before the Q3 FHLB report; OREO vector base-rate; REG-07 re-mark + REG-03/07 re-specs at the Q3 print, deliberately; EGBN runway post-break re-audit; read-cap every closeout; `boot.py` SHORT_INTEREST writes; aged 9/2 items. Unchanged; full text in M2.
-**🟢 Done 10/9 PM:** monitor repair (OZK FDIC route · VLY CIK · coverage · no false all-clear · countdown · settled bars) · Q3 read plan + Will's clarifications. **🟢 Done 10/7:** 0-CARD (TERRY `TRY-COND-KREADD`, conditional, not armed) · 0-EXP (KRE rolled) · 0-WB · 0-WQ318 · item 1 TRY-FIRE-002 dates · DAEDALUS header · R3 phrases.
+**🟠 3 · 4 · 6 · 6d · 6f · 6g · 6h · 6i · 6j · 6k · 7 (M2)** — ~~FHLB Atlanta/SF 10-Qs~~ (DONE 10/10) · OREO vector base-rate; REG-07 re-mark + REG-03/07 re-specs at the Q3 print, deliberately; EGBN runway post-break re-audit; read-cap every closeout; `boot.py` SHORT_INTEREST writes; aged 9/2 items. Unchanged; full text in M2.
+**🟢 Done 10/10 PM:** catch-up ①–③ + FHLB follow-ups + write-back pass (LAST SESSION). **🟢 Done 10/9 PM:** monitor repair (OZK FDIC route · VLY CIK · coverage · no false all-clear · countdown · settled bars) · Q3 read plan + Will's clarifications. **🟢 Done 10/7:** 0-CARD (TERRY `TRY-COND-KREADD`, conditional, not armed) · 0-EXP (KRE rolled) · 0-WB · 0-WQ318 · item 1 TRY-FIRE-002 dates · DAEDALUS header · R3 phrases.
 
 **CARRIED LESSONS — behaviour, not record.** *Newest first. Aging rule (9/02): full entry → one-line rule AND the full text goes to `archive/` verbatim + crc in the same pass. ⛔ Never age a lesson by deletion (the 12-21 compressions archived nothing; git history only). Preamble → BLOCK M7, crc32 `8028ecb4`.*
+45. **[10/10 PM] I told Will "the regionals were flat, so this isn't regional stress" from a 6/30 quarterly print, and checked the weekly H.8 only when he asked whether newer data existed.** It showed small-bank borrowings +11.7% in the three weeks to 9/30, the 160-week max. Same day: my own 9/11 receipt had written "Brier on 55%" against WQ-112(i), ratified ten days before it.
+   - ⇒ **Before a "this is not happening" read built on a quarterly print, pull the fastest proxy that could contradict it, and date both.**
+   - ⇒ **Before writing a scoring rule into a receipt, read the ratified canon (`FORGE/PREDICTION_DISCIPLINE.md`), not the asking packet's framing.**
 44. **[10/10] I turned "I can't see deterioration" into "I expect stabilisation," and called the earnings outlook "mixed" without an expectations baseline.** "Mixed" was the expected result of my own test lines, not results against consensus.
    - ⇒ **Not seeing deterioration is not a forecast.** A relief or decline call needs positive evidence plus the market's expectations baseline.
    - **Alarm levels are confirmations, not preconditions.**
