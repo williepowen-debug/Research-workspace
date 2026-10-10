@@ -132,3 +132,36 @@ System advances, carrying value, sum of 11 FHLBank XBRL filings ($B):
 | **PNC** | +$27.4B | +$8.9B reported, but **organic interest-bearing deposits −$11.9B** (acquisition-inflated) | loans +$36.5B; FirstBank closed 1/5/26 | **The one case of replacing deposits that left,** while growing; credit clean | ML-REG-160 (PNC 10-Q) |
 
 **Read:** three of the four grew deposits and used FHLB money to fund growth, or (USB) to hold cash. Only PNC fits "deposits leaving, FHLB replacing them," and PNC's credit is clean. **That pattern spreading to other banks is the thing to watch at Q3**, along with SF's count of members near their borrowing limit (13 → 21).
+
+## Addendum 2026-10-10 ~13:4x ET — AFTER JUNE: the weekly Fed data through 9/30 (Will asked whether newer data exists)
+
+**Timing of the FHLB data itself:** the Office of Finance's Q3 (9/30) figure is due ~late Oct; the FHLBanks' Q3 10-Qs ~early-mid Nov; the banks' own Q3 balance sheets from their earnings releases 10/13 (large banks) and 10/16 (CFG). **The weekly proxy is the Fed's H.8, ~9 days behind: "Borrowings" = FHLB advances PLUS other borrowings (repo, fed funds, discount window). It is not FHLB alone.**
+
+FRED, pulled 2026-10-10 ~13:3x ET (last updated 2026-10-09); "small" = domestically chartered banks outside the largest 25, which includes this desk's mid-size regionals:
+
+| Series (seasonally adjusted, $B) | 9/09 | 9/16 | 9/23 | **9/30** | 3-wk Δ |
+|---|---:|---:|---:|---:|---:|
+| Small-bank borrowings `H8B3094NSMA` | 281.6 | 286.7 | 298.3 | **314.5** | **+32.9 (+11.7%)** |
+| Small-bank cash `CASSCBW027SBOG` | 484.7 | 476.1 | 490.5 | **505.9** | +21.2 |
+| Small-bank deposits `DPSSCBW027SBOG` | 5,674.3 | 5,667.9 | 5,671.2 | **5,673.4** | −0.9 (flat) |
+| Small-bank total assets `TLASCBW027SBOG` | 6,905.1 | 6,909.7 | 6,931.5 | **6,939.0** | +33.9 |
+| Large-bank deposits `DPSLCBW027SBOG` | 12,384 | 12,298 | 12,325 | 12,415 | +31 |
+| Discount-window primary credit `WLCFLPCL` (all banks, Wed level) | 5.84 | 6.88 | 6.24 | **8.74** | +2.9 · **9.97 [10/7]** |
+
+**Base rate (same series, 160 weeks, 9/13/2023 → 9/30/2026):**
+- **+11.7% is the largest 3-week rise in the sample.** The next largest are +5.4% (the 9/23 week, the same episode) and +3.9% (1/28/26).
+- **It is not a quarter-end pattern:** the 12 prior quarter-end weeks ran −4.9% to +1.4%.
+- The LEVEL ($314.5B) is still below 2023–24 (~$350–420B).
+- The 9/29 descriptive bar ("a step-up ≥ +5% in a month") is crossed: +11.2% from 9/02.
+
+**Read:**
+- **Smaller banks borrowed ~$33B in the three weeks to 9/30 without losing deposits.** The discount window explains at most ~$3B, and that figure is all banks.
+- On the seasonally adjusted series, about two-thirds of it shows up as cash. **INFERENCE: a precautionary liquidity build during the selloff, not deposit replacement.**
+- ⚠️ **The cash leg is NOT robust:** not seasonally adjusted, small-bank cash is 498.7 → 504.3 (+5.6) from 9/9, with a 471–472 dip in between, and deposits −0.2%.
+- **This is the first post-June datum showing regional/smaller-bank funding behaviour CHANGE.** It sharpens the June read ("regionals flat") rather than contradicting it: June was flat; late September was not.
+
+**Caveats:**
+1. H.8 weekly figures are sample-based estimates, revisable, and benchmarked later to Call Reports.
+2. The borrowings line is FHLB plus other; the FHLB share is unknown until the Q3 FHLB data.
+3. No bank is named. The 11/07 Call Report retrieval (RC-M FHLB advances, per bank) is the per-name read.
+4. **Next weekly print (week of 10/7): Fri 10/16.**
