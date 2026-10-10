@@ -1,102 +1,85 @@
 # CARL SCRATCH
-**Last session:** 2026-10-02, ~12:30–15:17 UTC (08:30–11:17 ET), PROME due-row spawn (prome-70, WQ-184, DOCKET L287), then two PROME asks, then a FULL closeout on Will's word (PROME 11:13 ET)
-**Type:** V16 drop-back branch graded on the September NFP + L0 inbox drain (3+1 → 0) + events table for Will's QQQ expiry choice + board_log rotation. No score change (53/70, v2.6.6).
+**Last session:** 2026-10-10 (Sat), ~16:35–17:10 UTC (12:35–13:10 ET). PROME L0 drain spawn (carl-1010, prome-ce, DOCKET L668, WQ-206 aged ACTION).
+**Type:** Drain-only. The whole inbox, every sender: 8 WALTER action signals + 4 direct packets, so 12 items went to 0. 14 correction receipts were written in the WQ-399 form, and TERRY's TRY-FIRE-002 ask was answered. No score, threshold, confidence or prediction change (53/70, v2.6.6).
 
-**PRIORITY-1:** **Mon 2026-10-05 THESIS-SCOPE REVIEW** (agenda below). The V16 reset on 10/02 (count 0 of 2) is an input. Nothing V16 is owed before the October NFP, Fri 11/06.
+**PRIORITY-1:** **THESIS-SCOPE REVIEW: MISSED 10/05 (desk dark 10/02–10/10) and NOT run 10/10 (drain-only).** It needs a full session before the Tue 10/13 bank prints if possible. Agenda unchanged (below), plus two new inputs: SCF 19.6% (KB-504) and G.19 revolving −4.2% (KB-505).
 
 ---
 
-## CHANGES SINCE LAST SESSION (10/01 → 10/02)
-- **September Employment Situation (BLS USDL-26-1549, 10/02 08:30 ET):** NFP +29K; July +21K→−10K, August +162K→+133K, net −60K; U3 4.2%; LFPR 61.8%; EPOP 59.2%; AHE +3.0% YoY.
-- BOARD 10/02: G7 decided up to 100M bbl diesel+crude over 4 months, diesel front-loaded; oil −3–5% (`SIG-W-20261002-009`). HY 324bp on one print, tagged not sustained (`-005`). Euro-area flash HICP 3.8% (`-004`).
-- WALTER's doctor now reads `board_log_archive*.tsv` (10/01), which unblocked the rotation.
+## CHANGES SINCE LAST SESSION (10/02 → 10/10)
+- **Fuel eased:** GASREGW $4.354 w/e 10/5 (−11.1¢, the second weekly decline). AAA diesel $6.282 on 10/10, off the $6.5276 record of 9/22. Brent futures $104.72 at the Fri 10/9 close; FRED spot $125.44 on 10/06.
+- **Credit spreads:** HY 315bp 10/8. CCC 1,252bp 10/8, above 9/29's 1,157bp.
+- **Data that landed while dark:** ISM services Sept (10/5, HENRY graded it); G.19 August (10/7); claims 197K w/e 10/3 (10/8); SCF 2025 (10/9); UMich October prelim (10/9, NOT reviewed).
+- **Boot 7a "integrate & prune" flags, all still open:** STUE ES-01/04/06 (10/02); UMich Sept final, Census revisions, CCL Q3, Conference Board, EART Aug 10-D and the THESIS-SCOPE REVIEW (all 10/05); DR-1 row (10/09; decided 10/01, the card leg is PROME L567).
+- **EART deep-tier 10-Ds FILED 9/29:** abs_monitor shows 4 new on the V2 registered-panel CIKs. The V2 August both-tier card is now writable.
 
 ## WHAT HAPPENED
-1. **V16 drop-back graded, print 2 of 2 → NOT satisfied (outcome C of the 10/01 pre-registered map).** S=+29K, R=−60K. Count 1→0 of 2, V16 holds 4, no candidate to Will. The letter was unambiguous: the cumulative reading (+55K−60K=−5K) fails too. Escalate-to-5 stays 0 of 2. July's sign flips (−23K/+21K/−10K) are annotation only (WQ-175 ②). Written to: THESIS COL7, STATUS (2 rows), KB-CARL-503, CHANGELOG 10/02, docket (10/02 row pruned, 11/06 row added), ROADMAP_THREADS (rebuilt). `d3b877e7e`.
-2. **Inbox 4 → 0:**
-   - DAEDALUS: CRL-17 NO-VERDICT stands (no action).
-   - PROME WQ-295: B ADOPT bare `when:7d "MOHELA"`, C DECLINE both strings (`2802c134f`).
-   - WALTER: doctor reads archives.
-   - LABOR: Sep revision arithmetic, which matches (`272050418`).
-3. **Events 10/2–10/16 table for Will's QQQ put expiry choice** (`97b72d8be`). The consumer + rates cluster sits in week 2: JPM 10/13 (verified), WFC/C/BAC 10/13–14 (EST.), CPI 10/14, retail sales 10/15 (verified). No trade view.
-4. **board_log rotation DONE:** 47 rows dated before 9/01 moved verbatim to `board_log_archive_2026Q3.tsv` (sorted-row sha 0c963f7ce80f3161 identical before and after). Live file went from 80% to 47% of budget. WALTER's doctor run afterwards shows no CARL unconsumed rows.
-5. **BOARD: 13 dispositions** (the signals naming CARL on 10/01–10/02): 2 acted (`-010` DR-3, `20261002-001` NFP), 3 deferred to 10/14 CPI (diesel → CRL-10: `20261001-026`, `20261002-002`, `-009`), 8 noted.
-6. Packet to WALTER: the doctor's DR-1 "past deadline" flag is superseded by the 10/01 decision (L567, 11/13). Doorbelled walter-61 (`5a6790b47`).
-7. MEMORY M85: never put Will's email in a fetch header. The first BLS curl did; disclosed to PROME.
+1. **Inbox 12 → 0, logged in both ledgers** (`board/BOARD_LOG.tsv` +8 and `board_log.tsv` +12); every file `git mv`'d to processed/. **Also, beyond the owed set:** 24 info-line BOARD signals naming CARL (10/03–10/10) were logged at HEADLINE LEVEL in `board/BOARD_LOG.tsv`, full signals NOT read. 9 were deferred to the 10/14 CPI read (CRL-10: freight, EIA, fertilizer, IEA diesel, Isaias ×3, El Niño, refining) and 15 noted. The prediction-relevance guard was run on each item. Results: 8 acted (TERRY's ask and LABOR's packet among them), 2 deferred with dates, 2 noted. The deferrals are `-1008-009` (to the 10/14 CPI read for CRL-10) and the DAEDALUS sweep (to the child gates of 10/30 and 11/12).
+2. **Corrections:** `corrections_boot_check` returned rc=1 with 14 named rows, the WQ-393 backfill plus 10/8–10/9. All 14 are now receipted in the new form: 13 NO-OP (grep-verified that no live CARL surface carried the corrected claim) and 1 APPLIED (COR-20261009-10, WFC date → this SCRATCH).
+3. **TERRY TRY-FIRE-002 (deadline Thu 10/15):** answered read-only. CRL-21's vintage leg is UNCHANGED at 25%; the bureau flow tell has NOT turned and there is no print before 10/19; KEEP DORMANT. Packet: `AGENTS/TERRY/inbox/2026-10-10_from-CARL_TRY-FIRE-002-CRL-21-read-KEEP-DORMANT.md`.
+4. **LABOR claims packet** consumed. No disagreement with LABOR's grades. Kill leg 1 still filters nothing, and V16 is NFP-keyed.
+5. **KB +3:** 504 (SCF, read at the Fed PDF; base unsettled), 505 (G.19, verified at FRED), 506 (NY Fed SR1201 tariff level-vs-rate; staged to `handoff_RED/COUNTER_LOG.md`).
+6. **STATUS write-back** (Fri 10/9 close and the latest FRED prints): gas, diesel, Brent, HY/CCC and claims rows refreshed; new SCF and G.19 rows; ARMED list rewritten.
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| V16 drop-back | 1 of 2 → **0 of 2** (graded 10/02, outcome C); V16 holds 4 |
-| Employment row | Aug +162K → Sep +29K, revisions −60K, U3 4.2%, LFPR 61.8% |
-| Armed items | new STATUS row (Active obligations) |
-| Scores | 53/70, v2.6.6, unchanged |
+| GASREGW | $4.465 (w/e 9/28) → **$4.354 (w/e 10/5)** |
+| Diesel | AAA $6.5141 (9/24) → **$6.282 (10/10)**; GASDESW $6.529 → $6.199 |
+| HY / CCC | 312bp (9/30) / 1,157bp (9/29) → **315bp / 1,252bp (10/8)** |
+| Claims | 197K w/e 9/26 → **197K w/e 10/3**; continuing 1.701M → 1.716M |
+| New rows | SCF 2025 behind-on-payments 19.6%; G.19 August revolving −4.2% annualized |
+| Scores / CRLs | **unchanged** (53/70, v2.6.6) |
 
 ---
 
 ## NEXT SESSION SHOULD
 
-### IMMEDIATE (24hrs)
-- **STUE ES-01/04/06 grade (docket row 10/02) NOT DONE:** STUE is dark. Flagged to PROME twice. Spawn STUE, or re-date the row at the 10/05 review.
+### IMMEDIATE (by Tue 10/13)
+- **THESIS-SCOPE REVIEW** (PRIORITY-1). Needs a PROME re-date or Will's word; a full session, not a drain.
+- **Bank Q3 on Tue 10/13: JPM ~07:00 (call 08:30), WFC ~07:00 (call 10:00; CORRECTED from 10/14, COR-20261009-10), C ~08:00 (call 11:00).** All issuer-verified by BROCK 10/9. MTB and CFG Fri 10/16.
 
 ### UPCOMING (this week)
-- **Mon 10/05 THESIS-SCOPE REVIEW.** Agenda:
-  - V3 re-scope (HOMER 3c b; a structural change goes to Will);
-  - V3/V7/V10 citation refresh (one matrix edit, Check B);
-  - the saving-rate re-base as aggregate counter-evidence;
-  - five re-dated UNREVIEWED releases: UMich Sept final, Census revisions, CCL Q3, Conference Board, EART Aug 10-D → V2 both-tier card;
-  - the V16 reset.
-- Wed 10/7 G.19 August (EST.) · Fri 10/9 UMich October prelim · 10/09 DR-1 row (decided; card leg = PROME L567, deliver_by 11/13).
+- **Wed 10/14:** Sept CPI (08:30). Read CRL-10 against the required path. Fold in every `deferred` row dated to 10/14 in both ledgers: the 10/01–10/02 diesel items, beef `20260929-002`, CPI breadth + trade `20261008-009`, and the 9 headline-level info items of 10/10, plus NY Fed tariff level-vs-rate (KB-506). Read the full signals for the headline-level ones before use. Also the AFT v. ED status conference (10:30).
+- **Thu 10/15:** Sept retail sales; LABOR claims (card frozen). TERRY's deadline has been met.
+- **V2 deep-tier August card** (EART 10-Ds filed 9/29): write it, stating the WQ-151 L1–L4 letter first.
+- **STUE ES-01/04/06** (due 10/02): STUE is still dark. Spawn it or re-date via PROME.
 
-### UPCOMING (2 weeks)
-- **10/14:** Sept CPI. This is the CRL-10 read, not the resolution; the deferred beef + diesel BOARD items get read here. Also the AFT v. ED status conference.
-- **10/13–14:** big-bank Q3 (JPM verified 10/13).
-- **10/15:** retail sales.
-- **~10/20:** Q3 issuer prints (CRL-20/21, first CRL-31 reachability check, CRL-29 first grade, DR-1 auto leg via OTTO, RED S49b premium discriminators); DHI FQ4 (CRL-23).
-- **11/06:** October NFP = earliest new V16 print 1.
-- Sub-agent closeout-template fix (PHAN 9/11): not started; was re-targeted to 10/02 and missed. Re-date at 10/05.
-- BaaS feed to REGINALD (WQ-228): first feed with the Q3 prints.
+### UPCOMING (next 2 weeks)
+- **~10/20:** Q3 issuer prints (ALLY/COF/SYF; dates NOT IR-confirmed). CRL-21 vintage-leg grade, then **packet TERRY either way**. CRL-20 leg count, first CRL-31 reachability check, CRL-29 / CARL-AUTO-OUTFLOW-01 first grade, RED S49b premium discriminators, DHI FQ4 (CRL-23).
+- WAL Q3 Mon 10/19 after the close; EGBN Wed 10/21 (REGINALD/TERRY).
+- **10/30:** DOC-P10 (Q3 GDP); DOC-P08 needs a dated KFF read (DAEDALUS Falsification #4).
+- **11/06:** October NFP = earliest new V16 print 1. **11/12:** PHAN gate, where PHAN-P04/P07 must name primaries; POLLY-P07 source review on the same date.
 
 ### BACKLOG
-- 237 unrecorded BOARD ids, **none naming CARL as action** (whole-INDEX count; not owed).
-- ABS_BASELINE.tsv stale (last modified 7/10): freeze or refresh, together with the retained ABS protocol + README.
-- CRL-16/CRL-17 unpublished-instrument class-count wording (DAEDALUS 10/01 observation, optional).
+- **WQ-399 charter receipt-line fix** (CLAUDE.md step 7e still shows the field-less form). NOT made: a PROME-spawned session may not edit CLAUDE.md on an agent message. Owed at a Will-launched or explicitly authorized session.
+- ABS_BASELINE.tsv stale (last modified 7/11): freeze or refresh.
+- Sub-agent closeout-template fix (PHAN 9/11): not started.
+- BaaS feed to REGINALD (WQ-228): first feed with the Q3 prints.
+- BOARD whole-INDEX backlog: unrecorded ids remain (count in the 10/10 memo), **none with action:[CARL] and none naming CARL from 10/03 onward** after this drain.
+- **FL / Hurricane Isaias** (Panhandle landfall ~10/9–10/10): consumer read (FL gas, insurance) at the next full session. AEOLUS/CORAL own the storm.
 
 ---
 
-## OUTBOX (this session; all committed locally, PROME pushes)
+## OUTBOX (this session; all self-committed)
 | File | To | Summary |
 |------|----|---------|
-| `PROME/inbox/2026-10-02_from-CARL_V16-payrolls-branch-grade.md` | PROME | Grade memo + COMPLETION. `3167ae2c9`, `9def17fce` |
-| `PROME/inbox/2026-10-02_from-CARL_lane-queries-B-C-adopt-decline.md` | PROME | WQ-295: B adopt bare, C decline. `2802c134f` |
-| `PROME/inbox/2026-10-02_from-CARL_events-10-02-to-10-16.md` | PROME | 8-row events table. `97b72d8be` |
-| `AGENTS/WALTER/inbox/2026-10-02_from-CARL_DR-1-flag-deadline-superseded.md` | WALTER | Registry row deadline suggestion. `5a6790b47`, doorbelled |
+| `AGENTS/TERRY/inbox/2026-10-10_from-CARL_TRY-FIRE-002-CRL-21-read-KEEP-DORMANT.md` | TERRY | CRL-21 unchanged 25%; tell not turned; KEEP DORMANT (carve-out ①) |
+| `PROME/inbox/2026-10-10_from-CARL_l0-drain-aged-signals.md` | PROME | Drain memo + COMPLETION block |
 
-## INBOX: 0 live (4 consumed 10/02, all `git mv`'d to `inbox/processed/`; WALTER/ lane 0)
+## INBOX: 0 live (top-level 0 · WALTER/ 0, `inbox_census.py` 10/10)
 
 ## WORKBOOK HEALTH
 | TSV | Rows (wc -l) | Last Modified | Note |
 |-----|------|---------------|------|
-| KB.tsv | 500 | 2026-10-02 | +1 (KB-CARL-503) |
-| ABS_BASELINE.tsv | 74 | 2026-07-10 | stale, decision pending |
+| KB.tsv | 503 | 2026-10-10 | +3 (KB-CARL-504..506) |
+| ABS_BASELINE.tsv | 74 | 2026-07-11 | stale; decision pending |
 | BNPL_STRESS / FLOW / STATE_DIFFUSION / TRENDS / VX | — | ≤07-10 | FROZEN |
-| PREDICTIONS.tsv | 34 lines | 2026-10-01 | 13 rows Status=OPEN (awk $6) |
+| PREDICTIONS.tsv | 34 lines | 2026-10-01 | 13 rows OPEN; unchanged |
+| board/BOARD_LOG.tsv · board_log.tsv | 961 · 46 lines | 2026-10-10 | +32 · +12 |
 
 ## URGENT
-None. No capital action. The V16 reset produced no Will decision.
+None that needs Will's capital action. The scope review is overdue (PRIORITY-1).
 
-## CLOSEOUT RECEIPT (full closeout, 10/02 11:1x ET)
-| Obligation | Result |
-|---|---|
-| Consistency (no warn-only) | see the closeout commit message (run immediately before commit) |
-| Roadmap index | rebuilt + `--check` PASS (31 threads) |
-| BOARD gap (`board_gap --closeout`) | "BOARD scan run, 29 new since SIG-W-20261001-017, 908 logged"; after the 13 dispositions: 921 logged, 237 unrecorded, NONE with action:[CARL]. This counts receipts; it is not proof of substantive review |
-| Corrections | rc 0, 0 unreceipted NAMED rows |
-| Claim check | see commit message |
-| Consumer check | `drop-back 1 of 2` → clean. `--self` bare "1 of 2" hits are forward ("print 1 of 2") or historical (status_archive), so none are stale |
-| Read cap | rc 0; board_log.tsv 80% → 47%, rotation_due 0 |
-| Orphan | `[not yours]` PROME/state/ORCH_LOG.tsv, not swept |
-| Retirement sweep | 5 candidates >60d, unchanged from the 10/01 review (ABS README + protocol, ALLY audit, SYF/COF Q1, HHDC Q1 brief); retained on the 10/01 grounds; 0 retired |
-| Ledger nudge | not owed: KB.tsv changed alongside STATUS |
-| Memory | local MEMORY.md M85 only; no auto-memory authored |
-| Push | NOT RUN: PROME pushes for all desks (spawn brief) |
+## CLOSEOUT RECEIPT
+The receipt is in the 10/10 delivery memo and the closeout commit message. Read the check results there, not here, because they are run immediately before commit.

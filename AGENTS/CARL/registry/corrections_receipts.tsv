@@ -7,3 +7,17 @@ receipt_date	correction_id	action	note
 2026-09-16T16:35Z	COR-20260915-08	APPLIED	ACTION ask investigated; candidate endpoint date/basis fails, original trend INDETERMINATE. KB-CARL-476 and domain/sources/2026-09-16_news-catchup.md. Prior DEFERRED superseded; no claim83% disproved for every unidentified series.
 2026-09-24T18:20Z	COR-20260924-13	APPLIED	
 2026-10-01T16:28Z	COR-20260925-13	NO-OP	
+2026-10-10T16:41Z	COR-20260910-08	NO-OP	scope=6831 MW / RBP docket never on a live CARL surface (grep 2026-10-10: only processed WATT 8/17 and NEXUS 7/24 packets, historical). WATT owns. Erratum already recorded INFO_ONLY in board/BOARD_LOG.tsv 2026-10-01; 
+2026-10-10T16:41Z	COR-20260921-15	NO-OP	scope=The -0921-005 multifamily-staleness claim never reached a live CARL surface. board/BOARD_LOG.tsv 2026-09-24 row records the correction against CARL's -005 disposition. HOMER and CREED own MF; 
+2026-10-10T16:41Z	COR-20260921-16	NO-OP	scope=The French-forecourt REFUTED verdict never reached a live CARL surface. board_log.tsv 2026-09-24 row for SIG-W-20260921-012 records the withdrawal. HANS and BRENT own; 
+2026-10-10T16:41Z	COR-20260924-17	NO-OP	scope=No live CARL surface asserts nominal grocery sales are falling (grep 2026-10-10). KB-CARL-498 withholds unit volume as cyclical evidence. The 2026-08-15 ledger note is append-only history and the 2026-10-01 BOARD_LOG row records the correction; 
+2026-10-10T16:41Z	COR-20261008-16	NO-OP	scope=CARL docket CATALYSTS.tsv and CALENDAR.md already carry Wed 10/14 (BLS schedule verified 2026-09-11). The weekday error was in -1008-009 only; 
+2026-10-10T16:41Z	COR-20260928-17	NO-OP	scope=Boundary-6 crack timing was never carried on a CARL surface. board/BOARD_LOG.tsv 2026-10-01 noted the correction. HENRY and BRENT own; 
+2026-10-10T16:41Z	COR-20260929-05	NO-OP	scope=No live CARL surface carried July JOLTS net -18K (grep 2026-10-10). Correction acted 2026-10-01 in board_log.tsv row SIG-W-20260929-005. CARL V16 letter keys on NFP plus revisions, not JOLTS; 
+2026-10-10T16:41Z	COR-20261001-11	NO-OP	scope=Euro spread move never on a CARL surface. board/BOARD_LOG.tsv 2026-10-01 REFERRED to HANS; 
+2026-10-10T16:41Z	COR-20261002-16	NO-OP	scope=Yanbu loading status never on a CARL surface (grep 2026-10-10). BRENT and FALCON own; 
+2026-10-10T16:41Z	COR-20261002-27	NO-OP	scope=US diesel-ban ally scope never on a CARL surface (grep 2026-10-10). BRENT owns. CARL diesel read is pump-level AAA and EIA only; 
+2026-10-10T16:41Z	COR-20261002-29	NO-OP	scope=Brent 102.88 post-settle print never on a CARL surface (grep 2026-10-10). CARL Brent row carries FRED spot and dated futures settles with labelled series; 
+2026-10-10T16:41Z	COR-20261007-01	NO-OP	scope=Paramount financing never on a CARL surface (grep 2026-10-10). BOND and LIQUID own; 
+2026-10-10T16:41Z	COR-20261007-17	NO-OP	scope=Cluster-label metadata only. Workday figures never on a CARL surface (grep 2026-10-10); 
+2026-10-10T16:45Z	COR-20261009-10	APPLIED	artifact=AGENTS/CARL/SCRATCH.md#IMMEDIATE (by Tue 10/13); validation_ref=AGENTS/BROCK/workbook/KB.tsv#KB-BRK-327; scope=CARL SCRATCH carried WFC/C/BAC 10/13-14 (EST.). Rewritten 2026-10-10 with JPM, WFC and C on Tue 10/13 and CPI Wed 10/14. The 10/02 events memo is PROME-held in PROME/inbox/processed and was not edited; 
