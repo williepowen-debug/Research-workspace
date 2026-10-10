@@ -27,6 +27,7 @@
 ### DONE 10/9
 NHC landfall grade · MMA 10/9 71.51% (KB-177) · ACE 17.46% (KB-178) · CSU two-week miss (KB-179) · pre-landfall loss estimates + FL insurer closes (KB-180) · CPC 10/8 (KB-181) · Oct WASDE Aus wheat 31.0 (KB-182) · USDM 55.21% (KB-183) · Rhine/Contargo (KB-184) · Colorado §3 (KB-185) · Mead/Powell/Panama/Danube/Mississippi (KB-186) · NIFC 10/01, AEO-09 not met (KB-187) · DAEDALUS fixes (KB-188). **C2 3→2.** Composite **18/30**, fired 1/6.
 **Workers spawned: water, regime, wildfire** — overdue dated catalysts (10/01 cluster, CPC 10/08, C5/C6 re-grade). Hurricane and USDM/PSD I did directly and wrote the observation layer myself. **seismic not spawned** — no trigger (S-5 not re-read since 9/28).
+**Late correction (CORAL-raised, verified at the PDF):** FL **EO 26-211** (10/7) put Citrus + Levy in the state emergency (27 counties) — my 10/8 "Levy not in the EO" was false at write time (probed 26-203/204 only). KB-190 corrects KB-175. CORAL's full L638 reply packet is due in my inbox — **drain it first next session.**
 **Packets:** WALTER (`-027` +2.1 is the RELATIVE monthly; `4f51fe488`) · CORAL (landfall grade) · BRENT (landfall + MMA) · PROME memo (L627 DELIVERED). Inbox **EMPTY**.
 
 ### RULINGS MADE 10/9 (so they are not re-litigated)

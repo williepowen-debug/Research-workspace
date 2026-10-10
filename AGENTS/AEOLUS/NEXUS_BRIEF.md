@@ -51,4 +51,5 @@
 - **ENSO (CPC 10/8):** El Niño Advisory; ONI JAS **+2.16**, RONI **+1.69**; weekly Niño-3.4 **+3.2** (record). Historic-event odds (RONI ≥2.5) **SON 54 · OND 83 · NDJ 70**. **The headline changed definition** from 9/10's ">90% very strong" to 10/8's ">83% strong-to-very strong". Very-strong odds ROSE, so do not read 90 → 83 as a decline. On RONI, 2026 trails 1997 at JAS; on ONI it leads.
 - **AEO-09 (NIFC):** TX/OK still named above-normal for October on the 10/01 outlook, so **not met**; next checkpoint 11/01.
 - **AEO-03:** resolving instrument named **prospectively** (Guy Carpenter US property-cat ROL index, Jan-1-27 YoY). No publication by 1/15/27 → NO-VERDICT.
+- **Correction (KB-190):** Florida EO **26-211** (signed 10/7) amended 26-202 to **27 counties (+Citrus, +Levy)**. My 10/8 "Levy not in the EO" was false at write time; CORAL caught it. Read the EO index list; never probe N+1.
 - **Instrument notes:** MMA releases are found via `bsee.gov/rss.xml` (the index page is "Access denied"). `domain_log_check` keys on the LOG row date, so event-dated worker rows read as absent.

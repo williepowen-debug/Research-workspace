@@ -127,7 +127,7 @@ for it in re.findall(r'<item>(.*?)</item>',sys.stdin.read(),re.S):
 ⚠️ **The press-release INDEX returns "Access denied" (HTTP 200 shell)** — a missing later release is SEARCH-NOT-FOUND, never a verified absence. Update releases have taken new slugs in past seasons (`bsee-monitors-gulf-of-america-oil-and-48`, `…-53`); guessed Isaias update slugs 404'd 10/8. ⚠️ The issuer's rig table carried two slips on 10/7 (2/11 printed 18.8%; a 17-rig DP denominator labelled "non-dynamically positioned") — record as printed, flag, never "correct" silently.
 
 ### ✅ VERIFIED 2026-10-08 — Florida emergency orders (geography of a Florida event)
-`https://www.flgov.com/eog/news/executive-orders` lists EOs with PDF links (`/eog/sites/default/files/executive-orders/2026/EO%2026-NNN.pdf`); extract the county list from Section 1 with pdfminer. EO 26-202 (10/6/2026, "Tropical Depression Nine") = 25 north-Florida counties. FDEM `floridadisaster.org` carries the storm update page.
+`https://www.flgov.com/eog/news/executive-orders` lists EOs with PDF links (`/eog/sites/default/files/executive-orders/2026/EO%2026-NNN.pdf`); extract the county list from Section 1 with pdfminer. EO 26-202 (10/6/2026, "Tropical Depression Nine") = 25 north-Florida counties. **⚠️ AMENDED: EO 26-211 (signed 10/7) added Citrus + Levy → 27 counties (KB-190).** Amendments take NON-SEQUENTIAL numbers (26-202 → 26-211): **read the index list; never probe N+1 and call a 404 an absence** — that is how I wrote "Levy not in the EO" on 10/8, a day after it already was. FDEM `floridadisaster.org` carries the storm update page.
 
 ### ⚠️ UNRESOLVED — no verified primary command exists for these
 | Source | Gives | State 2026-09-18 |
