@@ -85,6 +85,7 @@ The successor regime to the 2007 Interim Guidelines — governs Lake Powell + La
 | ~late Feb 2027 *(unverified — projected from the 2026 schedule)* | SA CEC first 2027 production forecast | C2 | the lead read for AEO-13 |
 | **~October** | Q3 cat-loss tally (Gallagher Re / Aon / Swiss Re) | C4 | First vintage that can speak to this fire season; C4 back to 3 at ≥110% |
 | **~October** | DEFRA/AHDB UK harvest estimate | C2 | before any C2 use of the "worst harvest in 40+ years" claim |
+| **🔴 2026-10-22** | **READS.tsv STRICT flip** (DOCKET L470) — AEOLUS must file its full boot manifest + `manifest-complete` ATTESTATION row before it | process | today `read_cap_check --agent AEOLUS` = rc 2 CANNOT-EVALUATE (declared, unattested) |
 | **2026-10-31** | **C5 long-series base-rate** (re-dated from 9/30) | C5 | WSV file-service archive / BfG bulk route |
 | **Sep–Nov** | Mississippi autumn low-water window | C5 | Memphis **+9.553 ft** daily mean [9/28] — rebounded 14.2 ft off the −4.678 trough [9/14]. Vicksburg `VCKM6` / Cairo `CIRI2` now named |
 | **2027 Jan–Apr** | Panama dry season | C5 | AEO-12 (**45%**) |

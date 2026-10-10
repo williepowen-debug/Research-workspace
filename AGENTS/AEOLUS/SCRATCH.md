@@ -30,6 +30,7 @@ News sweep (KB-191…194) · CORAL five-asks consumed · C3 re-point (KB-195/196
 **Workers spawned 10/10:** C3 HDD scout · C2 regions scout · Colorado dated search · water SOURCES hot/cold split — each for a named owed item; regime/wildfire/seismic **not** spawned (no trigger; regime and wildfire refreshed 10/9).
 
 ### HYGIENE CARRIED
+- 🔴 **Before 10/22:** file AEOLUS's full boot manifest (charter reads + worker reads) and a `manifest-complete` ATTESTATION row in `PROME/registry/READS.tsv` — PROME added the two worker class rows (505d17cf3); `read_cap_check --agent AEOLUS` reads rc 2 until then. Read the file's header rules first; follow WALTER's attestation row as the model.
 - **Worker read surfaces are invisible to `read_cap_check`** (L-49): measure `*/DOSSIER.md */SOURCES.md` each spawn session; **regime/DOSSIER 30 KB = 92%** — rotate at next touch; READS.tsv declaration flagged to PROME.
 - Owed: C2 "cereals index breaking" level · C3 Henry Hub level (ask BRENT) · summer CDD re-spec before 5/1/27 · C5 long-series base rate 10/31 · seismic S-5 re-spec · Yangtze re-read (cjh.com.cn timed out).
 
