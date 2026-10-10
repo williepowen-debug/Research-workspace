@@ -56,7 +56,7 @@
 | PROME | `REG-T-06` re-letter WQ ask + FHLB composition (`e4916e89a`, doorbelled) | 🟠 | Will's word before the ~10/29 Q3 figure; LIQUID + BOND packets held until then |
 | WALTER → LIQUID | Small-bank borrowings +11.7% in 3 wks to 9/30 (signal lane, `e1fc74154`) | 🟠 | Descriptive bar, not a registered trigger |
 | PROME | WQ-414 addendum: Q3 FHLB nowcast ≈ $770B, rule before 10/24 (`047ef11d4`) | 🟠 | Evidence update only; rec (B) unchanged |
-| WALTER → LIQUID | AMENDMENT to the signal: SVB scale (+$290B in one week) + FHLB debt +$6.2B in Sep (`b680ef50d`) | 🟠 | Route with the original |
+| WALTER → LIQUID | AMENDMENT to the signal: SVB scale (+$290B in one week) + FHLB debt +$6.2B in Sep (`b680ef50d`) | 🟠 | Routed WITH the original as `SIG-W-20261010-007` (WALTER `40b424536`; LIQUID action) |
 | DAEDALUS | H2 as-made receipt complete, 20 rows (`28c7dd7dd`) | 🟡 | For its 10/12 sitting |
 
 **WAITING FOR:**
