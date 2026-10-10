@@ -1,41 +1,37 @@
-# FALCON SCRATCH — 2026-10-09 (PROME-spawned `prome-75`, ~10:25 ET; Tier 1 on Will's word: grade the Iran morning limb against the ladder + L619 Iraq correction + whole-inbox drain)
+# FALCON SCRATCH — 2026-10-10 (`falcon-1010b`, PROME `prome-ce` spawn ~12:05 ET: complete the write-back of `falcon-1010` [11:3x ET, WQ-369 C8 on WALTER SIG-W-20261010-002], cut short by the WQ-249 closeout ask at 11:47 ET)
 
 ## CURRENT MARKS
-**B 1 / C 14 / D 85** HELD (no event override applied to the 7-day review, so it was not graded early; formal review **10/14**). Convergence 43/50. **FAL-06 OPEN (70%, to 11/05), no route fired.** Production rung D 85→92 ARMED, NOT FIRED. **GATE-FALCON-001 LIVE:** leg 1 FIRED 7/23 · leg 2 NOT FIRED (graded 10/07) · leg 3 FIRED 8/15 · event override NOT TRIGGERED on 10/08–10/09 events · review_by **2026-10-14**. Losses 3. Casualty ratchet YELLOW, RATE-STEP NOT LIT (7 vs 12). WARRISK rows EXPIRED (not re-pulled this session). No settle-count clock (step 12b no-op). Model: Opus (`claude-opus-5-5`), Claude Code, desktop.
+**B 1 / C 14 / D 85** HELD (formal 7-day review **10/14**). Convergence 43/50. **FAL-06 OPEN (70%, to 11/05)**, no route fired. Production rung D 85→92 **ARMED, NOT FIRED**. **GATE-FALCON-001 LIVE:** leg 1 FIRED 7/23 · leg 2 NOT FIRED (graded 10/07; 10/10 pre-fetch 74 vs 80, not a grade) · leg 3 FIRED 8/15 · event override NOT TRIGGERED through 10/10 · review_by **2026-10-14**. Losses 3. Casualty ratchet YELLOW, RATE-STEP NOT LIT (7 vs 6; bar now 12). WARRISK rows EXPIRED (+4d; Bab +68d). No settle-count clock (12b no-op). Model: Opus (`claude-opus-5-5`), Claude Code, desktop.
 
-## CHANGES SINCE LAST SESSION (10/07 22:31 ET → 10/09 ~10:25 ET)
-- UKMTO 159-26 (late: 10/06 crude tanker, Hormuz, no casualties); **160-26 (10/09 10:00Z, ~13 nm W of "Al Jazeera, UAE" = INFERRED Al Jazirah Al Hamra, RAK, inside the Gulf; fire out)**.
-- IRGC (Tasnim) claims it struck LPG carrier "NV Sunshine" on an "illegal route" south of the Strait; threatens ships OUTSIDE the Strait. No registry match.
-- KKIA Riyadh 10/08: GACA confirms two attacks (facilities + a parked Saudia jet), 3 Saudi citizens killed incl. the pilot. Lufthansa suspends Riyadh to 10/16.
-- Houthi Saree 10/08: staff at ALL Saudi oil facilities to leave target areas (threat; no oil-site hit found 10/08–10/09).
-- Fujairah-offing tanker fire 10/08 ("likely" DHALGOUT), cause unknown, no UKMTO number. Fars/IRIB mine claim 10/08 (claim-only). Trump: no attack on Iran before 11/3 (tape). France at Yanbu: "study phase".
+## CHANGES SINCE LAST SESSION (10/09 ~10:4x ET → 10/10 ~12:2x ET)
+- **Shedgum gas plant (Ghawar) on fire from the 10/09 night passes** (own FIRMS, max pixel 192.3 MW vs 18.5 baseline; still burning 10/10 11:47Z). Hawiyah gas plant elevated. Four north-Ghawar upstream heat spots stepped up 10/10 (one 0.86 km from OSM Ain Dar GOSP1). Cause UNVERIFIED; no Aramco/MoE/SPA/Saree word as of ~12:1x ET.
+- "Houthis struck Ghawar with a BM": RIA via 1news.az (field, no facility); JFeed names Shedgum, no source. Saudi warning on sharing impact-site info (AP).
+- KKIA attacked again 10/10 ~12:00Z (AP/AFP; 'dozens' injured, ≥5 ICU; NOT state-confirmed; no Houthi claim). Coalition says it destroyed 136 Houthi targets.
+- Bloomberg 10/9: Aramco to supply European refiners' full November requests (unnamed). Baghaei 10/07: Iran–Oman safe-corridor coordinates agreed, undated (found 10/10).
 
-## WHAT I DID THIS SESSION
-- Graded every item against the production rung, the 7-day review and the GATE-FALCON-001 event override → nothing fires (`reports/2026-10-09_iran-limb-and-ladder.md` §1). KKIA = airport, OUT. None is Bab.
-- L619: withdrew the Iraq "bypass" reading (it sails THROUGH Hormuz). Dated correction on the 10/07 report + a board_log correction row. KB-263; COR-20261008-18 APPLIED.
-- Drained 13 inbox items (10 WALTER + 3 DAEDALUS); 4 correction receipts in WQ-399 form (check PASS).
-- Ledgers: KB-258..265; VESSELS VI-0056..0059 (clock 10/09); CASUALTIES CAS-024 (clock 10/09) + ratchet recompute.
-- Charter C4 edits: boot 7b receipt line → WQ-399 form; closeout 9 → `read_cap_check.py`.
-- Boot checks: 7b (4 → 0), 5b-2 DEEPENING no new print (10/04), 5b-3 HOLDING 103,562 vs 30,509, 5a-2 WARRISK stale. SKIPPED: baghdad (demoted), kharg (impeached), 5c sweep (no facility-class candidate), WARRISK re-pull and Khurais FIRMS re-pull (out of this task's scope).
+## WHAT I DID THIS SESSION (falcon-1010 graded; falcon-1010b wrote back)
+- falcon-1010: graded everything → nothing fires (memo `PROME/inbox/2026-10-10_from-FALCON_ghawar-fires-kkia-petroline-read.md`); own FIRMS CSV; inbox 2/2.
+- falcon-1010b: KB-266..275; CAS-2026-025 + clock 10/10 + ratchet recompute from the file (7 vs 6; 57 vs 143); STRIKES sweep 10/02→10/10, **zero new rows** (five candidates not rowed by the row rule: established facility AND cause), mark advanced to 10/10; TankerMap bars CSV `domain/tankermap/2026-10-10_bab_daily_bars.csv` (vintage 15:00:46Z); STATUS rotation (old table → `domain/sources/STATUS_archive_2026-10-10_rotation.md`, grep-verified first); BRENT packet on the GOSP-flaring inference; one primaries check after 11:47 ET (none).
+- ⚠️ **Corrected my own 11:4x memo** (not edited; PROME consuming): the Ain Dar GOSP1-area spot was NOT dark 28 days (lit 9/20, faint 22:54Z 10/09); first-at-00:52Z holds for two spots, not three (KB-268).
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **2026-10-14:** GATE-FALCON-001 review (TankerMap daily bars; exclusion clause) + 7-day scenario review + DAEDALUS deferrals (leg-2 vintage rule, letter clarifications, FAL-06 search floor/ceiling, VX IRAN-02 instrument) as proposals via PROME.
-2. **STANDING:** a counting source confirming a hostile strike on a Saudi PRODUCTION-class site (Khurais processing plant, any GOSP/field) ⇒ FIRE D 85→92, C 14→7, PROME same hour. The Houthi all-oil-facilities threat raises the prior. Re-pull Khurais FIRMS.
-3. 160-26: UKMTO lat/long, hull/flag/cargo, casualties; NV Sunshine identity (registry), any 160-26 link. 159-26 text. DHALGOUT cause/UKMTO number. Mine-claim CENTCOM answer. 158-26 casualty count.
-4. WARRISK re-pull (two Gulf-internal hits now: 158-26, 160-26).
-5. CTP-ISW + Shafaq; STRIKES sweep 10/02→; VESSELS backfill (El Gaia, St Helena, Trend, STI Steadfast).
+1. **2026-10-14:** GATE-FALCON-001 review (TankerMap bars on the then-current vintage) + 7-day scenario review + DAEDALUS deferrals (leg-2 vintage rule, letter clarifications, FAL-06 search floor/ceiling, VX IRAN-02 instrument) as proposals via PROME.
+2. **STANDING:** counting source naming Ain Dar/Shedgum crude units (GOSP/CPF) or the Khurais facility with hostile cause ⇒ FIRE D 85→92, C 14→7, PROME same hour. First action: re-pull Ghawar FIRMS (does Shedgum persist; do the upstream spots fade as it recovers? — that tests the flaring inference).
+3. KKIA 10/10: GACA/SPA counts → update CAS-2026-025. IMO notice on the Iran–Oman coordinates (L229, to 10/26).
+4. WARRISK re-pull (registered falsifier expired +4d). 160-26 position/hull; NV Sunshine identity; 159-26 text; DHALGOUT; 158-26 casualties.
+5. CTP-ISW + Shafaq; VESSELS backfill (El Gaia, St Helena, Trend, STI Steadfast).
 
 ## OPEN THREADS / WATCHES
+- 🔴 Ghawar: gas-plant fire + upstream heat; the production rung's first IN-class candidate if a counting source attributes it. BRENT has the inference.
 - 🔴 CARRIED OPEN (MEMORY.md): KB-168 Yanbu terminus proxy unbuilt.
-- 🟠 Geography: hits inside the Gulf west of the Strait (Qatar 10/07, RAK 10/09) + IRGC "outside the Strait" threat ⇒ Gulf-internal war-risk; any hit IN a GCC port/anchorage is the class to watch (D 75→85 trigger (c) already spent).
-- 🟠 Bab: no enforcement act since 10/04; the government counteroffensive vs Houthi denials continues.
+- 🟠 Riyadh airport hit three times in five days; Houthi threat to all Saudi oil staff (10/08) stands.
 - 🟡 FRESH_LEG_BASELINE hot/cold split; carried builds.
 
 ## PREDICTIONS DUE / DECISIONS PENDING
 FAL-06 OPEN (70%, 2026-11-05). No Will decision from this desk. No GATES change routed (nothing fired).
 
 ## MAIL STATE
-In: 13 consumed, 0 remaining. Out: `PROME/inbox/2026-10-09_from-FALCON_iran-limb-and-ladder-10-09.md` + SendMessage COMPLETION block to prome-75.
+In: census 12:0x ET top-level 0 · WALTER/ 0 (falcon-1010 consumed 2). Out: `AGENTS/BRENT/inbox/2026-10-10_from-FALCON_ghawar-gosp-flaring-inference.md`; `PROME/inbox/2026-10-10_from-FALCON_ledger-writeback.md` + SendMessage COMPLETION block to PROME.
 
 ## PENDING PUSH / GIT
-Exact-path commits; push via `scripts/safe-push.sh`. Foreign dirty paths (BRENT, DAEDALUS, WALTER) are not mine; no pull, no stash.
+Exact-path commits; push via `scripts/safe-push.sh`. Foreign dirty paths (PROME/) are not mine; no pull, no stash.
