@@ -9,7 +9,7 @@
 | HAWK | WALTER SIG-W-20261004-014 — Saudi oil-corridor strike campaign read, ACTION "before Monday's open" | 2026-10-05 | hawk-1010 drain (dark 9/28→10/10) | Answered late 10/10 (KB-HAWK-434, STATUS); the desk names it a lapse |
 | HAWK | TRADE-02 dormant-book re-sweep (45-day cadence) | ~2026-10-06 (49d at 10/10) | hawk-1010 memo | Owed next HAWK session (SCRATCH, dated) |
 | HAWK | EURMIL-01 checkpoint | 2026-10-03 | hawk-1010 memo | Owed next HAWK session (SCRATCH, dated) |
-| VIOLET | Cheap-tail alert OPEN 4/4 — route under DOCKET L413 (a) for a TAKE/PASS | 2026-10-02 · 10/05 · 10/06 · 10/07 · 10/08 (five sessions) | violet-1010 (dark 9/29→10/09; forward calendar empty after 9/30) | LAPSED, never routed — recorded as PASSED BY DEFAULT, not rulings (KB-VIO-324); the 10/09 reading routed → WQ-409 |
+| VIOLET | Cheap-tail alert OPEN 4/4 — route under DOCKET L413 (a) for a TAKE/PASS | 2026-10-02 · 10/05 · 10/06 · 10/07 · 10/08 (five sessions) | violet-1010 (dark 9/29→10/09; no HIGH/MED forward row after 9/30; an Oct 7 LOW checkpoint existed) | LAPSED, never routed — recorded as PASSED BY DEFAULT, not rulings (KB-VIO-324); the 10/09 reading routed → WQ-409 |
 | VIOLET | T-? none — the Q2 window closed ungraded until 10/10 (L477) | 2026-10-07 | violet-1010 memo | Graded 10/10: CLOSED, NOT FIRED (KB-VIO-323) |
 | MARCO | Banxico August CE81 — SDL-01 re-spec print 2 of 2 | 2026-10-01 (publication) | marco-1010 (dark 9/24→10/10) | Ungraded; first job of the Wed 10/14 session (DOCKET L674) |
 | MARCO | LVCVA August visitor report — the NV next-stage check | ~2026-09-30 | marco-1010 memo | Unread; L674 |
