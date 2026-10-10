@@ -2,7 +2,7 @@
 
 **Purpose:** curated synthesis writeback, refreshed **every closeout** (CLOSEOUT step 3). Compact routing-first variant (NEXUS Amendment 9, Will-approved 7/31). `outbox/` is 🔴-crisis-only.
 
-**Last writeback: 2026-10-10 12:54 ET (Will-directed: news sweep → El Niño winter re-point → Colorado → file hygiene) — LAST write before commit per Amendment 10.** Prior fold rotated verbatim → `archive/NEXUS_BRIEF_ARCHIVE_2026-10-09_fold.md` (7480 B · crc32 1879697930 — recompute it).
+**Last writeback: 2026-10-10 13:07 ET (Will-directed: news sweep → El Niño winter re-point → Colorado → file hygiene) — LAST write before commit per Amendment 10.** Prior fold rotated verbatim → `archive/NEXUS_BRIEF_ARCHIVE_2026-10-09_fold.md` (7480 B · crc32 1879697930 — recompute it).
 **WAITING-FOR:**
 - first post-landfall **Isaias** insured-loss estimate (C4 >$10B leg, counted once)
 - **each session:** Rhine 3-day exit re-grade
@@ -82,5 +82,6 @@
 
 ## WHAT NEXUS/PROME SHOULD KNOW
 
+- **READS.tsv:** PROME declared AEOLUS's worker class rows (505d17cf3). `read_cap_check --agent AEOLUS` = **rc 2 until AEOLUS files its full manifest + attestation** — owed **before the 10/22 STRICT flip**.
 - **Read-cap blind spot (L-49):** my boot check passed clean while worker-read files stood at 277% / 181% / 107% of budget, two of them past the single-read cap. Fixed 10/10 with verbatim, crc-verified rotations, including a water SOURCES hot/cold split (census: 0 lines missing). **Regime DOSSIER is at 92%** and is next.
 - **"Dead" was "moved," n=3 in three weeks** (NASS → ESMIS; FL EO 26-211 was a non-sequential number; L-46). A 404 is a claim about a URL, not about a series.
