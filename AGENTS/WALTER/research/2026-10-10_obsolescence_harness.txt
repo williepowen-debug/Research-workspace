@@ -1,0 +1,19 @@
+WATCH_FOR harness — desk VULCAN · 3 phrase(s) · 12276 unique headlines over 80 lane days 2026-06-29 → 2026-10-09 · real matcher, in memory
+
+[   0] GPU depreciation   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] useful life servers   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] depreciation schedule hyperscaler   ← 0 hits (zero noise; recall UNPROVEN)
+
+=== LIVE sample: 88 unique Google-News headlines, 3 query(ies), last 30d ===
+[   5] GPU depreciation
+        | Don’t Believe Your Lyin’ Eyes, GPU Depreciation & Useful Lives - Cassandra Unchained | Michael Burry
+        | Michael Burry Says Nvidia's GPU Depreciation Defense Echoes 1960s Computer Leasing Mania - BigGo Finance
+        | The GPU Depreciation Debate Behind This Week's AI Dip - Value The Markets
+        | Nvidia's Bull Case Hinges on GPU Resale Value as Depreciation Risk Looms - BigGo Finance
+        | Nvidia (NVDA) Is Still a Buy, but GPU Depreciation Worries Me - TipRanks
+[   0] useful life servers   ← 0 live hits
+[   0] depreciation schedule hyperscaler   ← 0 live hits
+
+Verdict rule (WQ-295 R3): reject by name any phrase with >0 FALSE hits; the reader classifies, not this tool.

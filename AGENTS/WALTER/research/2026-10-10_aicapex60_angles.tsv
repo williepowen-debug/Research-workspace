@@ -1,0 +1,66 @@
+signal_id	date	primary_angle	reason (≤20 words)	misclustered (blank or suggested cluster)
+SIG-W-20260812-017	2026-08-12	power	Abbott audit effectively pauses ERCOT data-centre interconnections on a 474 GW queue; ask is WATT's grid coverage gap.	
+SIG-W-20260828-008	2026-08-28	memory/input-cost	Tantalum price ~3x on AI demand plus capacitor lead times; signal self-labels an input-cost tell.	
+SIG-W-20260828-044	2026-08-28	financing	Refutes "Treasury confirmed crowding-out"; verified finding is >$220B AI debt issuance in 8 months.	
+SIG-W-20260903-011	2026-09-03	OTHER: phantom demand / double-ordering	Provenance re-score of the Bernstein double-ordering survey; takes the angle of the signal it corrects (-0828-034).	
+SIG-W-20260906-002	2026-09-06	memory/input-cost	HBM3E spot 4-7x contract; Samsung LTA lock; explicitly the memory-cost leg of AI capex.	
+SIG-W-20261001-030	2026-10-01	financing	CleanSpark ~$2.2B HY bond for a Meta-leased AI campus; first Meta-linked junk deal.	
+SIG-W-20261004-009	2026-10-04	memory/input-cost	Micron Q4 FY26 record, data-centre memory at 90% GM, FQ1 guide $61.5B: memory supercycle print.	
+SIG-W-20261008-044	2026-10-08	financing	Broadcom arranging $30-50B debt for OpenAI chips; power forecast is a secondary item.	
+SIG-W-20260826-003	2026-08-26	memory/input-cost	Seven TrendForce memory-complex headlines (DRAM 12.5x, HBM4, memory share of capex) batched for VULCAN.	
+SIG-W-20260828-034	2026-08-28	OTHER: phantom demand / double-ordering	Survey: DC buyers over-order turbines/generators/transformers; bullwhip risk to order book and grid queue.	
+SIG-W-20260904-001	2026-09-04	memory/input-cost	Correction on NVDA "procurement of memory" quote; subject is the undisclosed memory share of commitments.	
+SIG-W-20260908-001	2026-09-08	memory/input-cost	Erratum: NVDA CFO memory wording exists; memory share of $279B commitments still undisclosed.	
+SIG-W-20260908-013	2026-09-08	power	ERCOT conditional Batch Zero load classifications plus retrieved PJM IRAS filing; WATT integration ask.	
+SIG-W-20260914-018	2026-09-14	financing	Morgan Stanley counts >$3.1T disclosed off-balance-sheet AI commitments; vendor financing and RVS to BROCK.	
+SIG-W-20260915-003	2026-09-15	financing	Data-centre CMBS issuance and spread claims need verification; securitized DC financing, CREED action.	
+SIG-W-20260921-017	2026-09-21	financing	Correction to Nippon Life project-finance signal: two overstatements not three; stock-vs-flow ask to SAM.	
+SIG-W-20260812-008	2026-08-12	memory/input-cost	Micron: supplies under half of DC DRAM demand, LTAs to 2030; answers VULCAN memory-cycle question.	
+SIG-W-20260908-002	2026-09-08	memory/input-cost	Correction: HBM spot/contract ratio unresolved, Samsung capacity lock unverified.	
+SIG-W-20260914-007	2026-09-14	OTHER: frontier-lab trajectory / AI-progress narrative	SoftBank -10.7% caused by OpenAI shelving IPO and lab CEOs urging slowdown; "builders arguing for less".	
+SIG-W-20261009-009	2026-10-09	financing	Firmus withdrew ~US$30B ASX IPO; public market refused AI data-centre equity, funding pushed private.	
+SIG-W-20260925-007	2026-09-25	financing	Oracle bond selloff framed as refinancing loop: modelled refi cost, record CDS, Jupiter force majeure.	
+SIG-W-20261008-038	2026-10-08	ROI/capex-guidance/FCF	OpenAI annualized revenue ~$50B vs ~$70B circulating; revenue base under the capex stack smaller.	
+SIG-W-20260927-001	2026-09-27	financing	GATE-LIQ-069 2-of-2: CoreWeave CDS wider, AI-funded BB cohort not repriced; AI credit gate.	
+SIG-W-20260929-016	2026-09-29	financing	PGIM anchors CLO with 15% cap on AI-related debt; lender-side limit on AI borrowers.	
+SIG-W-20261003-007	2026-10-03	supply-chain/geopol-semis	Tencent leases 100k AI chips from Oracle Asia; signal says the China/export-control angle is the worthwhile read.	
+SIG-W-20260812-010	2026-08-12	ROI/capex-guidance/FCF	CoreWeave raised capex guide to $35-39B against $12.4-13.2B revenue; GAAP loss; capex-gate item.	
+SIG-W-20260817-002	2026-08-17	memory/input-cost	German DDR5 channel prices near 5x July-2025 base; non-LTA memory pass-through leg.	
+SIG-W-20260819-005	2026-08-19	memory/input-cost	Claimed 50% AI token-price drop; signal routes it as the missing input-cost/unit-economics series.	
+SIG-W-20260819-017	2026-08-19	OTHER: AI/semis equity repricing (market tape)	Tests wire attribution of Asia semis rout to the 30Y; yield reversed, semis fell anyway.	
+SIG-W-20260819-001	2026-08-19	OTHER: AI/semis equity repricing (market tape)	KOSPI limit-down on US memory selloff, Hang Seng flat: a semis event, not Asia contagion.	
+SIG-W-20260826-002	2026-08-26	OTHER: supplier corporate governance	Micron splits presidency, CBO Sadana to senior advisor; governance KB row, no cost or capex content.	
+SIG-W-20260828-049	2026-08-28	power	ERCOT Cal-27 forward power fell to ~$42/MWh; counter-signal to datacenter load story.	
+SIG-W-20260828-045	2026-08-28	financing	NVDA $108.5B guarantee real but phased from FY2029; vendor financing vs liquidity; memory commitments secondary.	
+SIG-W-20260901-004	2026-09-01	memory/input-cost	TrendForce trio led by enterprise SSD revenue ~$37.6B on higher NAND prices; rest context.	
+SIG-W-20260908-004	2026-09-08	memory/input-cost	CXMT LPDDR6 package-vs-die unit correction; bears on VULCAN/ZHAO China memory bit-supply question.	
+SIG-W-20260910-013	2026-09-10	financing	Morgan Stanley >$3.1T off-balance-sheet commitments per name; vendor financing structures.	
+SIG-W-20260908-016	2026-09-08	financing	Mistral EUR3B Series D equity raise for compute; equity capital availability, LIQUID action.	
+SIG-W-20260924-006	2026-09-24	financing	SoftBank record ~$11.1B junk bond at up to 9.875% to fund OpenAI commitments.	
+SIG-W-20261002-031	2026-10-02	power	Viral delayed-DC table debunked; survivors are ERCOT Batch Zero study miss, energization pause, Abilene slippage.	
+SIG-W-20261008-024	2026-10-08	financing	AI-infra financing roundup: Broadcom/OpenAI $50B, Oracle off-balance-sheet chip SPV, SpaceX $40B, Firmus IPO.	
+SIG-W-20260929-010	2026-09-29	OTHER: labor / headcount cuts	Oracle layoff round after 13% FY26 cut; LABOR action, AI borrowing only context.	CONSUMER_STAGFLATION (its own cluster_secondary; action recipient LABOR)
+SIG-W-20260903-003	2026-09-03	power	Live PJM capacity emergency, DOE 202(c) order covering large loads; WATT P1 fired 2 to 5.	
+SIG-W-20260908-003	2026-09-08	memory/input-cost	DRAM 59.5% is revenue not contract price; smartphone pull-forward; memory-cycle correction.	
+SIG-W-20260928-022	2026-09-28	OTHER: AI/semis equity repricing (market tape)	Backfill: AI hedge fund forced to sell public book to Citadel on margin calls; positioning unwind.	
+SIG-W-20260828-050	2026-08-28	ROI/capex-guidance/FCF	BCA >$1T 2027 capex with margins rising while D&A hits 36% of EBITDA; asks EBIT-margin path.	
+SIG-W-20260908-017	2026-09-08	supply-chain/geopol-semis	ASML-TSMC 12-inch High-NA mask roadmap, 2031 pilots/2033 readiness; semis manufacturing horizon.	
+SIG-W-20260910-006	2026-09-10	memory/input-cost	Kioxia CEO resists further NAND price hikes, warns on AI investment; counter-datum to memory pricing.	
+SIG-W-20260928-012	2026-09-28	ROI/capex-guidance/FCF	WSJ: AI build-out estimated 3.63% of GDP/yr 2025-32 vs railroads; capex-scale estimate, info only.	
+SIG-W-20261002-012	2026-10-02	financing	Amazon in talks to move ~$8B Nvidia chips into debt-funded SPV and lease back; IG debt.	
+SIG-W-20261002-024	2026-10-02	memory/input-cost	Toshiba doubling HDD capacity breaks storage supply discipline; STX/WDC -10%; storage supply-pricing.	
+SIG-W-20261007-010	2026-10-07	memory/input-cost	Reported bidding for TDK HDD-head unit; supply-control question for storage pricing beside Toshiba expansion.	
+SIG-W-20260819-010	2026-08-19	OTHER: AI/semis equity repricing (market tape)	Asia close update to -001: HK green, Korea -5.8%; self-corrects Japan leg.	
+SIG-W-20260822-005	2026-08-22	ROI/capex-guidance/FCF	Debunks "AI datacenter compute serves bots" (unit swap); bears on utilization justifying capex.	
+SIG-W-20260910-008	2026-09-10	power	Erratum to -013: 6,831 MW is PJM 2028/29 BRA shortfall; July 31 filing is RBP docket.	
+SIG-W-20260914-011	2026-09-14	OTHER: frontier-lab trajectory / AI-progress narrative	DeepMind RSI rumor unsupported; Reuters-confirmed RSI resourcing; lab divergence asked against capex frame.	
+SIG-W-20260914-026	2026-09-14	memory/input-cost	Consolidated TrendForce items: NOR flash +90-110%, DRAM/NAND BOM pressure, foundry capacity step-up.	
+SIG-W-20260921-011	2026-09-21	financing	Nippon Life ¥2tn infrastructure project-finance plan to 2035 (DCs one component), not $13B DC money now.	
+SIG-W-20260924-012	2026-09-24	financing	Correction to -006: SoftBank final junk-bond pricing 8.625/9.25/9.75% plus two euro tranches.	
+SIG-W-20260928-013	2026-09-28	power	Crusoe drops Boom turbine order; Morgan Stanley US DC power shortfall 5/12/33 GW 2026-28.	
+SIG-W-20261003-006	2026-10-03	financing	Oracle 5Y CDS ~230bp record, ~4x IG index; AI-infra credit stress datapoint.	
+SIG-W-20261003-018	2026-10-03	financing	Oracle/OpenAI NM DC debt ~84c distressed plus Meta $628B off-balance-sheet footnote; financing leg.	
+SIG-W-20261007-011	2026-10-07	memory/input-cost	TrendForce: 8-Hi vs 12-Hi HBM configuration, 10-20% per-gigabit premium; memory cost/capacity trade-off.	
+SIG-W-20261008-006	2026-10-08	financing	Anthropic $125B TPU lease with $42B Broadcom converts, $60B syndicate, Ares $573B circular financing.	
+SIG-W-20261008-045	2026-10-08	financing	Resolves -044 basis question: Broadcom $42B convertible facility separate from $60B bank package's senior tranche.	
+SIG-W-20261009-012	2026-10-09	power	Oracle trucking natural gas at ~4x hub to AI DCs while pipelines lag; Lordstown claim corrected.	
