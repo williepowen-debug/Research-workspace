@@ -1,3 +1,16 @@
+# OSPREY SCRATCH — 2026-10-10 (Sat) · osprey-1010b · 12:12 ET (from `date`) · PROME prome-ce, Tier 1 · completes the osprey-1010 tail
+
+## 10/10b — WHAT LANDED
+- Packets (carve-out ①, each committed): **BRENT** (refinery/terminal state behind GL 135; ask: Bloomberg 4-wk to 10/11 for OSP-06) · **HAWK** (GL 135 tonnage inference; threat attribution; Azov; C3 limb-2 ask carried from 10/9) · **YURI** (KB-190 confound; ask: the signed ban-lift instrument + the data-decree goods list) · **DEWEY** (REQ-DEWEY-20261010-001 claims 3/4/5; leg 3/4 inputs).
+- **Azov lead re-checked: STILL OPEN** (KB-192; STRIKES row updated in place). IN port, types/names/berth not given anywhere checked; no Ukrainian claim; no oil site reported hit in Azov 10/10. Date trap rejected (July "two tankers"). No grade; marks 5 / ⚪1 / 3 unchanged. PROME registers a DOCKET row (10/15, OSPREY/PROME).
+- NEXUS_BRIEF refreshed. Inbox 0/0.
+- ⛔ **STATUS is at 32,120 B (cap 32,550).** The next block MUST rotate first (the 10/7–10/8 blocks or the 9/29 block → archive, verbatim).
+
+## NEXT (dated)
+1. **Before 10/15: Azov.** First checks: Palaemon 5–11 Oct (published after 10/11); the governor's original posts (Max/Telegram; the t.me preview returned nothing); PortNews follow-ups; vessel trackers if reachable. Tanker at an oil berth or oil storage ⇒ C2 re-arms at 5 as of 10/10 → 🔴 BRENT direct, HAWK cc.
+2. **10/15: L544** (C1 5→4 first evaluation; pre-fetch KB-191; do not grade early) and **OSP-06** (Bloomberg 4-wk to 10/11, asked of BRENT).
+3. Carried unchanged from the 10/9 block below.
+
 # OSPREY SCRATCH — 2026-10-10 (Sat) · osprey-1010 · PARTIAL (closed at PROME's WQ-249 ask ~11:47 ET)
 
 ## 10/10 — WHAT LANDED / WHAT IS OWED
