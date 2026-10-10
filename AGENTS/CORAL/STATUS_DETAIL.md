@@ -781,7 +781,211 @@ Full report → `sources/ftl_broward_multifamily_check_2026-10-01.md` (researche
 
 ### S2. Pre-landfall frame — what was read before the closeout ask (rest = GAP)
 - **NHC Adv #8 (10/8 15Z, read at nhc.noaa.gov):** 85 mph / 975 mb; forecast 95 kt 10/9 12Z, **85 kt at 29.6N 87.4W 10/10 00Z** (just off Perdido Key/Pensacola), inland 32.3N 87.8W 10/10 12Z. Hurricane Warning Ocean Springs MS → Bay/Gulf County line; Surge Warning to the Suwannee River; Surge Watch Suwannee → Yankeetown. **PWS #8: Pensacola 34/50/64 kt 84/44/14%** · Whiting Fld 77/34/9 · Destin 67/25/7 · Panama City 52/13/3 · Apalachicola 34 kt 27%. No Tampa Bay/SW-FL location in the table.
-- **(a) Insurance — Insurance Journal 10/8 (Rabb), READ AT SOURCE by CORAL:** 10 Panhandle counties, wind policies, commercial + residential, OIR end-July: American Bankers 10,630 / $267M · **Citizens 8,882 / >$3.2B** · FL Farm Bureau 8,351 / $6.1B · Castle Key (Allstate) 7,465 / ~$1.7B · Cypress (Berkshire) ~4,900 / ~$2.2B. ⚠️ **FLOOR:** State Farm Florida, Universal P&C and Slide do not report to OIR. **Michael 2018 — OIR primary (floir.gov HurricaneMichaelClaimsData, read 10/8): 158,991 claims; total estimated insured losses $9,132,526,254; paid $8,510,860,259; Bay County 95,184 claims (county table as of 12/13/2019; line table as of 11/2/2020).** **Sally 2020 — OIR page 404 at floir.gov; figures $576,943,637 / 71,998 claims are SEARCH-RELAYED (IJ: "<72,000 claims, ~$577M"), NOT re-read at primary;** Wayback snapshots 2020-10-20 → 2024-02-26 exist (CDX), unread = GAP. FHCF/Citizens reinsurance attachment: not read = GAP. Citizens new-business suspension (secondary site, per WALTER): not verified = GAP.
+- **(a) Insurance — Insurance Journal 10/8 (Rabb), READ AT SOURCE by CORAL:** 10 Panhandle counties, wind policies, commercial + residential, OIR end-July: American Bankers 10,630 / $267M · **Citizens 8,882 / >$3.2B** · FL Farm Bureau 8,351 / $6.1B · Castle Key (Allstate) 7,465 / ~$1.7B · Cypress (Berkshire) ~4,900 / ~$2.2B. ⚠️ **FLOOR:** State Farm Florida, Universal P&C and Slide do not report to OIR. **Michael 2018 — OIR primary (floir.gov HurricaneMichaelClaimsData, read 10/8): 158,991 claims; total estimated insured losses $9,132,526,254; paid $8,510,860,259; Bay County 95,184 claims (county table as of 12/13/2019; line table as of 11/2/2020).** ⚠️ **Vintage CORRECTED 10/9 → § T6** (that county table sums to the 11/2/2020 total; the Dec-2019 PDF has Bay 88,303). **Sally 2020 — OIR page 404 at floir.gov; figures $576,943,637 / 71,998 claims are SEARCH-RELAYED (IJ: "<72,000 claims, ~$577M"), NOT re-read at primary;** Wayback snapshots 2020-10-20 → 2024-02-26 exist (CDX), unread = GAP. FHCF/Citizens reinsurance attachment: not read = GAP. Citizens new-business suspension (secondary site, per WALTER): not verified = GAP.
 - **(b) Bank rail: UNTOUCHED in both directions until a registered observation** (Q3 prints from BKU 10/21). A landfall is a collateral/insurance event, not a bank-credit observation. Panhandle bank names (CCBG etc.) from the REGINALD-shared list: not enumerated = GAP.
 - **(c) MSI leg:** storm rule pre-registered (STATUS OQ §A). The five graded metros are 250–400 mi from the warnings; the Panhandle metros carry their own 10/8 baseline.
 - **Analog (item 3), working view, not finished:** Sally is the closer comparator on landfall point and intensity (Cat 2, 110 mph, just west of Pensacola); Michael (Cat 5, Mexico Beach) is the tail case. Sally was slow and very wet; Isaias is forecast faster (ENE 10 mph, accelerating). Housing-series figures for Sally: not pulled = GAP.
+
+## T. 2026-10-09 (Fri) — Isaias POST-LANDFALL WAKE (coral-1009pm, PROME prome-1e spawn on DOCKET L638) — evidence
+
+### T1. Landfall and the warning set — read at primary by CORAL (NHC feed 21:38 ET) + researcher sweep of all 20 advisories (21:37–21:40 ET, each re-checked by grep)
+- **NHC TCU WTNT64 KNHC 100130, 830 PM CDT Fri 10/9:** *"...ISAIAS MAKES LANDFALL NEAR DESTIN FLORIDA..."* · *"NWS Doppler Radar data indicate that Hurricane Isaias made landfall near Destin, Florida, around 830 PM CDT (0130 UTC) with maximum sustained winds of 105 mph (165 km/h). The estimated minimum central pressure is 971 mb"* · 30.4N 86.5W, ~40 mi E of Pensacola, ~50 mi WNW of Panama City, N at 19 mph · Panama City Beach NOS gauge **5.6 ft above MHHW** · Santa Rosa Sound WeatherFlow 91 mph sustained / 116 mph gust · Pensacola WeatherSTEM gust 100 mph. **ONE FIGURE (agreed with AEOLUS by message 21:40 ET): landfall near Destin (Okaloosa Co.), 8:30 PM CDT, 105 mph per the TCU. The 90 kt / Category 2 conversion and the C1 NOT-FIRED grade are AEOLUS's (KB-AEO-189) — cited, not restated.**
+- **NHC Intermediate Adv 13A, 700 PM CDT:** 110 mph, 967 mb, 30.1N 86.6W; hurricane-force winds to 35 mi, TS-force to 205 mi; *"Weakening is expected after landfall, and Isaias is forecast to become post-tropical on Saturday."* Rain 4–8 in, locally 15, southern AL / FL Panhandle and Big Bend / SW GA. Surge AL/FL border → Grayton Beach **6–9 ft**; Grayton → Indian Pass 4–7; Indian Pass → Steinhatchee 4–6; Steinhatchee → Suwannee 3–5; Suwannee → Yankeetown 2–4. Adv 14 (10 PM CDT) not out at 21:40 ET.
+- **Warnings in force (unchanged Adv 8 → 13A; "CHANGES WITH THIS ADVISORY: None"):** Hurricane Warning Ocean Springs MS → Bay/Gulf County Line · Storm Surge Warning Mouth of the Mississippi → Suwannee River · TS Warning east of Bay/Gulf line → Aucilla River · Storm Surge **Watch** Suwannee River → Yankeetown. **County set from the NWS local statements (PRIMARY, zone-level):** KMOB 13A (714 PM CDT): Surge + Hurricane Warning *"Escambia Coastal … Okaloosa Coastal, and Santa Rosa Coastal"*, Hurricane Warning the inland zones of all three · KTAE 13 (532 PM EDT): Surge + Hurricane Warning *"Coastal Bay and South Walton"*; Hurricane Warning Central/North Walton, Inland Bay, Holmes, Washington; Surge + TS Warning Coastal Franklin, Gulf, Jefferson, Wakulla; Surge Warning Coastal Dixie, Coastal Taylor; TS Warning Calhoun, Gadsden, Jackson, Leon, Liberty and the inland Franklin/Gulf/Jefferson/Wakulla zones · KTBW 13 (512 PM EDT): *"A Storm Surge Watch is in effect for Coastal Levy"* — and, ⚠️ NOT a watch or warning, *"prepare for locally hazardous surge having possible limited impacts across coastal Citrus, Hernando, Pasco, Pinellas and Hillsborough Counties."*
+- **History (researcher, all 20 advisory texts, VERIFIED by grep for the nine counties + Tampa/Anclote = 0 hits):** Adv 4–5A (10/7): Surge Watch Mouth of the Mississippi → Yankeetown, Hurricane Watch Bay St. Louis → Indian Pass · Adv 6 (10/7 10 PM CDT): watches → warnings, Surge Warning to the Steinhatchee, Surge Watch Steinhatchee → Yankeetown · Adv 8 (10/8 10 AM CDT): Surge Warning extended to the Suwannee. Southernmost Isaias product at any time = the Surge Watch ending at Yankeetown (Levy).
+- **FEMA (PRIMARY, OpenFEMA v2):** 0 Florida declarations dated ≥2026-10-01; 0 with "ISAIAS" in the title; dataset `lastRefresh` **2026-10-09T13:10:07Z** ⇒ anything declared after 9:10 AM EDT Friday is invisible to this read. fema.gov/disaster/declarations HTTP 403 (not read). **KNOWN-UNKNOWN, not "no declaration."**
+- **Florida state emergency (PRIMARY, flgov.com PDFs, EO 26-211 re-read by CORAL 21:41 ET):** EO 26-202 (10/6) 25 counties; **EO 26-211, signed 10/7, amends it to 27 — adds Citrus and Levy.** ⚠️ Corrects the carried "Levy outside EO 26-202 / no EO after 26-202" (AEOLUS 10/8 probe of 26-203/204 only) — AEOLUS accepted and owns the record: **KB-AEO-190** (KB-AEO-175 marked CORRECTED, `81a66a315`). Cite KB-AEO-190 for the 27-county set. None of the nine graded-metro counties is in either EO. *(The state EO is not an S2 trigger; recorded for completeness.)*
+
+### T2. Storm rule S1–S4 applied (letter in STATUS OQ §A, pre-registered 10/8 11:56 ET, `cc14b3ac3` — applied as written, nothing reworded)
+- **S1:** reading #8 (stamp 10/8) stands as graded 10/8 — no change.
+- **S2 test at landfall (as of 21:4x ET 10/9):** none of Hillsborough · Pinellas · Pasco · Hernando · Charlotte · Sarasota · Manatee · Lee · Polk was under an NHC Hurricane or Storm Surge **Warning** at any advisory (nor a watch); no FEMA major-disaster declaration names any (none exists in OpenFEMA at its 13:10Z refresh). **⇒ A reading stamped 10/10–10/23 is, on tonight's facts, graded as normal with NO storm flag.** ⚠️ **The S2 window stays OPEN on the FEMA leg:** a later Isaias DR naming any of the nine counties *between the prior reading's stamp and the new one* makes that reading storm-affected. Check OpenFEMA at every reading through 10/23. (Idalia 2023's DR named Tampa Bay counties on surge; the TBW "limited impacts" line keeps this from being an idle check — INFERRED analog, not a forecast.)
+- **S3:** nothing flagged; no clock exists to report (reading #8 failed the re-fire test — Cape Coral 5.91 in band).
+- **S4:** Panhandle metros are not graded instruments; their 10/8 baseline stands (Pensacola 6.02 · Panama City 6.14 · Tallahassee 5.42; Crestview–FWB–Destin slug 404). **No Parcl pull tonight** — no reading is due (next = first single-stamp pull; review_by 10/15), and a post-landfall pull would show pre-storm listings anyway.
+
+### T3. Citizens — Panhandle exposure, reinsurance attachment, FHCF, binding (researcher pulls 21:37–21:45 ET; county rows, statewide totals, binding notice and weekly headline RE-READ by CORAL)
+**By county — Citizens "Detail by County" as of 8/31/2026 (PRIMARY, pub 9/8; `citizensfla.com/documents/20702/38830519/20260831+Detail+by+County.pdf`). Excludes takeouts. Exposure = total insured value, not loss.** CORAL re-summed Escambia and Okaloosa across all six product lines (PR-M · PR-W · CR-M · CR-W · CNR-M · CNR-W) and the statewide total (**266,231 = the 8/31 month-end already carried**; exposure $74.81B).
+| County (warning class) | PIF | Exposure | of which wind-only (PR-W+CR-W+CNR-W) |
+|---|---:|---:|---|
+| Escambia (HU+SS) | 2,792 | $1,289M | $996M |
+| Santa Rosa (HU+SS) | 1,126 | $412M | $172M |
+| Okaloosa (HU+SS; landfall) | 1,285 | $496M | $75M |
+| Walton (HU+SS) | 1,360 | $621M | $535M |
+| Bay (HU+SS) | 1,764 | $486M | $235M |
+| **Hurricane-Warning 5** | **8,327** | **$3,304M** | — |
+| Gulf · Franklin · Wakulla · Jefferson · Taylor · Dixie (SS warning) | 1,251 | $321M | — |
+| **11 warning counties** | **9,578** | **$3,625M** | — |
+| Levy (SS watch) | 586 | $97M | — |
+| 12 counties | 10,164 | $3,722M | wind-only = 55.5% of exposure |
+- **Condo-association layer (CR-M + CR-W, commercial residential) in the HU-Warning 5: 55 policies, ~$140M** (Okaloosa 16 / $46.1M · Walton 22 / $12.2M · Escambia 4 / $38.4M · Bay 8 / $35.5M · Santa Rosa 5 / $7.7M) ⇒ **the Panhandle condo-tower master-policy risk is NOT at Citizens in size** — it sits with private/surplus-lines carriers CORAL cannot see (GAP; same blind spot as the OIR table, which excludes State Farm FL, Universal P&C, Slide).
+- **12/31/2025 → 8/31/2026 the 12 counties fell 17,111 → 10,164 PIF (−40.6%), $6.245B → $3.722B (−40.4%)** — takeout-era depopulation reached the Panhandle; Citizens' storm exposure there is ~60% of what it was in January.
+- **Reconcile vs the OIR table (WALTER -019 / Insurance Journal 10/8): "Citizens 8,882 policies / >$3.2B, 10 Panhandle counties, wind policies, end-July"** = a different perimeter (unnamed 10 counties, wind-coverage policies, July). **ONE figure CORAL carries for Citizens: Citizens' own by-county file, 8/31/2026 — HU-Warning 5 = 8,327 / $3.30B; 11 warning counties = 9,578 / $3.63B.** The OIR table stays the multi-carrier floor, quoted only with its label.
+- **Weekly headline (PRIMARY, re-read 21:51 ET):** *"Policies in Force as of October 02, 2026: 254,736"* (9/25: 254,918; −182 w/w). vs 8/31 266,231 ⇒ −11,495; less the September takeout round ⇒ ≈ −1,2xx ex-round, ⚠️ PRELIMINARY (weekly-vs-month-end basis still unconfirmed; STATUS carries the 9/15 round as both 10,250 and 10,210 — DISCREPANCY, unresolved, see SCRATCH). **9/30 month-end and county file NOT-YET-PUBLISHED** (404; 8/31 file posted 9/8 ⇒ expected ~mid-Oct, INFERRED).
+- **Binding suspension (PRIMARY, re-read 21:51 ET):** *"Policy binding has been suspended statewide as a result of Tropical Storm Isaias as of 11:05 a.m. ET, on October 7, 2026."* Standard rule (any NWS TS/hurricane watch or warning for any part of the state) — confirms WALTER's secondary item. ⚠️ **Weekly PIF prints from 10/7 until the lift are suspension-affected** (no new binds) — do not read them as organic exits or retention.
+- **Isaias claims (Citizens, OIR data call): NOT-YET-PUBLISHED** (OIR catastrophe page no Isaias entry; newsroom latest 10/7).
+
+**Reinsurance attachment (Citizens FIC/Board materials, PRIMARY per researcher; key lines re-read by CORAL in the extracted text):**
+- 2026 program **$2.82B** ($691M traditional + $2.13B cat bonds; $1.29B new placement + $1.53B multi-year from 2025), cost **$276.5M**, board-approved 5/8/2026. ⚠️ **Basis note for the carried "net ROL 8.46% vs 11.95%":** 8.46% is the **new 2026 placement** only; the whole $2.82B program's weighted net ROL is **9.52%** (FIC exec summary 6/23/26, p.2 lines 86–92) — both correct, different denominators.
+- Tower (FIC 9/23/26 layer chart, read from an image by the researcher — NOT re-read): Citizens retains the first **~$0.842B** from surplus; FHCF reimburses *"$1.170 Billion (90.0% of $1.301 Billion xs $0.745 Billion)"* on preliminary retention estimates; private layers above to ~1-in-120 ($5.568B incl. commercial non-residential). *"Approximately 27% of surplus is exposed in a 1-in-100 year event"* (re-read). Per-account (PLA/CLA/Coastal) retentions not published separately (one combined residential tower).
+- Surplus **$5.455B at 6/30/2026** (Q2 statutory statement, researcher). ⇒ **Isaias attaches nothing above Citizens' own retention unless its Citizens loss exceeds ~$0.84B** — against **$3.6B of total insured value in the 11 warning counties**, a >23% loss ratio on TIV would be needed. INFERRED arithmetic, not a loss estimate: **Citizens' surplus absorbs Isaias; no assessment path is in sight.**
+- **FHCF 2026-27 (May 2026 claims-paying-capacity report, PRIMARY per researcher; re-read):** *"$11.93 B – Industry Retention"* · *"$12.08 B Projected 2026 Year-End Fund Balance"*; $17B statutory limit; FHCF pays on insurer loss reports (*"no later than December 31 … and quarterly thereafter"*, s.215.555) — **an industry event far below $11.93B never reaches the Fund.** October 2026 capacity report NOT-YET-PUBLISHED.
+
+
+### T4. Panhandle bank list — DEPOSIT FOOTPRINT, not loan exposure (FDIC SOD as of **6/30/2026**, api.fdic.gov, pulled 21:38 ET; totals and the four named ratios re-computed by CORAL from the raw JSON)
+⚠️ **What this is and is not:** branch deposits locate a bank's local franchise. They are **not** local loan exposure (loans book elsewhere; non-bank and credit-union lenders — Navy Federal, Eglin FCU — are outside SOD), and they say nothing about damage. **Bank-transmission rail: UNTOUCHED — NOT met, NOT armed.** A landfall is a collateral/insurance event, not a bank-credit observation; the rail's instrument stays the 7-name FL watchlist and its first Q3 print, **BKU 10/21**.
+| County (core 5) | Deposits 6/30/26 | #1 (share) |
+|---|---:|---|
+| Escambia | $6,285.8M | Regions 16.1% |
+| Santa Rosa | $1,860.4M | Regions 34.5% |
+| Okaloosa (landfall) | $5,250.7M | Pinnacle 14.1% |
+| Walton | $3,092.6M | Regions 20.1% |
+| Bay (right-front) | $4,737.0M | Regions 20.0% |
+| **Core 5** | **$21,226.5M** | Regions 18.3% |
+Secondary: Gulf $881.9M / Franklin $321.9M, Centennial (HOMB) 89.5% / 76.9%.
+
+| Listed name (≥2% of domestic deposits in core 5) | Core-5 deposits | Total domestic | Share | Q3 print (company release via Finviz repost — SECONDARY) |
+|---|---:|---:|---:|---|
+| Trustmark (TRMK) | $1,444.1M | $16,217.0M | **8.90%** | Tue 10/27 AMC |
+| Hancock Whitney (HWC) | $2,316.1M | $29,883.6M | **7.75%** | **Tue 10/20 AMC** |
+| ServisFirst (SFBS) | $794.8M | $14,573.4M | **5.45%** | **Mon 10/19 4:00 ET** |
+| SmartFinancial (SMBK) | $266.7M | $5,393.7M | 4.94% | — |
+| Home BancShares (HOMB) | $716.7M | $19,562.0M | 3.66% (8.96% with Gulf+Franklin) | — |
+| Renasant (RNST) | $739.7M | $22,166.2M | 3.34% | — |
+| Regions (RF) | $3,885.1M | $131,776.0M | 2.95% (largest $) | — |
+| Ameris (ABCB) | $471.2M | $22,694.5M | 2.08% | — |
+| United Bancorporation of Alabama (UBAB, OTC) | $210.3M | $1,224.4M | 17.18% | — |
+- **CORAL's own watchlist is essentially OUTSIDE the landfall zone:** CCBG 1.68% ($64.2M of $3,817.1M) · SSB 0.32% · SBCF / BKU / VLY / USCB / AMTB **0** branches in the core 5. ⇒ The Panhandle exposure sits with **Gulf Coast regionals (REGINALD's national/regional perimeter)**, not with the SE/SW-FL condo-wired names the Coral Bleaching rail grades. ⭐ **The first Panhandle-footprint prints (SFBS 10/19, HWC 10/20) land BEFORE BKU 10/21** — descriptive reads for storm commentary only; they are not rail instruments and adding them would change an instrument (Will's call, not proposed).
+- Private local franchises most exposed: FNBT Bank (Fort Walton Beach) $555.9M, ~100% local, 9.0% of Okaloosa · Five Flags Banks (Pensacola) $277.6M, ~100% · Gulf Coast Bank & Trust 12.2% of its deposits, 13.0% of Walton.
+- Since SOD 2025: Synovus branches report as **Pinnacle** (PNFP, 1.75%); Cadence's as Huntington.
+- Live 10/9 close (FORGE `fetch.py`, 21:38 ET — context only, no trade view): TRMK $44.21 −0.76% · HWC $72.40 −0.43% · SFBS $38.41 −0.49% · CCBG $48.10 −1.05% · KRE $69.01 −0.83%.
+
+### T5. Insurers — the 10/7 rally question (AEOLUS ask 2) and flood vs wind (ask 4)
+**Filings (SEC EDGAR, researcher 21:38–21:43 ET; UVE/AII/HCI retention lines re-read by CORAL in the filing text):**
+| Co | FL concentration disclosed (as-of) | First-event retention 2026-27 | Program | Isaias statement (EDGAR since 10/6, 21:42 ET) |
+|---|---|---|---|---|
+| UVE | FL **<50% of TIV** (3/31/26, renewal PR) / 47.1% (6/30/26 10-Q); 10-K: concentration *"in Broward, Palm Beach and Miami-Dade counties"* | *"combined $45 million first event statutory retention"* (+ a $66M captive layer at the parent per researcher, not re-read) | $2.623B, FHCF 90% | NONE |
+| HCI | no regional TIV table; Tower 3 covers HCPCI *"policies issued throughout the remaining northern Florida region"* + all Tailrow and CORE (condo-owners reciprocal) policies | Tower 3: *"$2.8 million for both first and second event"* | Tower 3 *"up to $431.5 million"* single event; *"$649.7 million"* all occurrences (8-K 6/1/26) | NONE |
+| HRTG | FL 29.2% of TIV / 47.4% of premium (12/31/25, researcher calc) | ~$50M Southeast, to its captive | SE $1.865B, retention to 1-in-100 | NONE |
+| AII | top-11 counties by TIV include **no Panhandle county**; "Others" 41% (12/31/25) | *"$35.0 million for the first event, $20.0 million for the second"* | $2.25B, 1-in-130 | NONE |
+| SLDE | SE 28% / W-Central 11% / Central 10% / SW 17% of TIV (12/31/2024 — stale, predates its Citizens takeouts) | $166.8M first event | $3.981B first event | NONE |
+**Answer (separating record from inference):** *Filings:* none of the five publishes a Panhandle exposure figure; what they disclose puts the weight in South/Central/Southwest Florida, and first-event retentions ($2.8M–$166.8M) are small against single-event towers ($0.43B–$3.98B). *Inference (not established):* a Category 2 landfall in Okaloosa most plausibly costs each no more than its retention — a capped, budgeted loss — while the track missed the South-Florida concentration the market prices; that fits the 10/7 rise and the modest 10/9 declines (UVE −2.38%, HRTG −1.14%, AII −0.74%, HCI −0.34%, SLDE −0.63%; `fetch.py` 10/9 close). **The filings cannot separate "small Panhandle exposure" from "inside retention."** ⚠️ Name-collision trap: Universal's 2020 "full retention event" ($15M) is the 2020 Isaias.
+**Flood vs wind (ask 4):** the wind-policy perimeter (Citizens, the OIR Panhandle table, the primaries) is **not** where surge and inland-rain loss lands. Surge (6–9 ft Pensacola–Grayton; PCB gauge 5.6 ft MHHW) and 4–8 in rain (locally 15) on a Panhandle that went in wet (NWS TAE 10/2) fall on **NFIP or go uninsured**. NFIP is authorized only to **2026-12-11** (H.R. 6500) — claims from this storm will be adjusting across that date. Big Bend surge (Dixie/Taylor warnings) = a fourth surge event on the Idalia/Debby/Helene coast in ~38 months (AEOLUS HURDAT2) — repetitive-loss exposure there is not yet quantified by CORAL (GAP).
+
+### T6. Analog — Sally / Michael / Ivan from FL OIR primaries (Wayback snapshots of floir.com/floir.gov; Sally page and Michael page RE-READ by CORAL)
+| Storm (FL landfall context) | OIR claims | Est. insured loss | Paid | Data as of (days after landfall) | Snapshot |
+|---|---:|---:|---:|---|---|
+| **Sally 2020** (Cat 2, Gulf Shores AL, ~105 mph; Pensacola right-front) | **71,998** | **$576,943,637** | — | **Oct 26, 2020 (~40 d)** | `web.archive.org/web/20240226175331/https://www.floir.com/Office/HurricaneSeason/HurricaneSallyClaimsData.aspx` |
+| Sally, first release | 56,852 | $300,715,784 | — | Sep 28, 2020 (~12 d) | snapshot 20201020200117 |
+| **Ivan 2004** (Cat 3, Gulf Shores AL; Pensacola right-front) | **210,900** | $4,790,251,466 expected gross | $2,954,587,700 | Aug 15, 2005 (~336 d) | `…/20060325044708/http://www.floir.com/pdf/CY2004HurricaneBriefing_082005.pdf` |
+| **Michael 2018** (Cat 5, Mexico Beach) | **158,991** | **$9,132,526,254** | $8,510,860,259 | **Nov 2, 2020 (~25 mo)** | `…/20260118072057/https://floir.gov/Office/HurricaneSeason/HurricaneMichaelClaimsData.aspx` |
+| Michael, Dec-2019 PDF | 149,815 | $7,856,069,561 | $7,440,971,939 | Dec 13, 2019 (~14 mo) | `…/20210126112006/https://floir.com/siteDocuments/HurricaneMichaelClaimsData12132020.pdf` |
+- ✅ **Sally's $576,943,637 / 71,998 now VERIFIED at primary-via-archive** (was SEARCH-RELAYED on 10/8) — but it is a **40-day** figure that **nearly doubled (+92%) from the 12-day release**; OIR never posted a later Sally call. Sally lines: residential 57,373 · commercial 3,649 · private flood 207 · BI 50 · other 10,719. **No Sally county table was ever published.**
+- ⚠️ **CORRECTION to § S2 (10/8):** "Bay County 95,184 claims (county table as of 12/13/2019)". The page heads its county table *"Claims Data as of December 13, 2019, by County"*, but the table's **TOTAL row = 158,991 = the Nov 2, 2020 total**; OIR's actual Dec-13-2019 PDF gives **Bay 88,303 of 149,815**. ⇒ 95,184 is the Nov-2020 vintage under a stale page heading (INFERRED from the sums, which CORAL re-read). Michael's Escambia/Santa Rosa/Okaloosa/Walton are not broken out (inside "Rest of the State" 9,671).
+- **Ivan by county (OIR CY2004 summary, paid, as of 8/15/2005; rows sum to the statewide total ±$2):** Escambia 101,715 claims / $1,698M · Santa Rosa 43,785 / $668M · **Okaloosa 32,297 / $312M** · Walton 4,564 / $48M. Opal 1995 (Okaloosa landfall): NOT FOUND at any primary.
+- **Working analog view (not a loss estimate):** Isaias (105 mph at landfall, centre over Okaloosa, Pensacola–Destin on the west/left side and Walton–Bay on the right-front) sits **between Sally and Ivan**: Sally's intensity, a landfall ~70 mi further east, and the strongest quadrant over the Walton/Bay beach-condo corridor rather than Pensacola. The OIR perimeter = FL-regulated carriers + Citizens only; **NFIP, surplus lines and uninsured losses are outside it**, and the three storms sit at different development points (40 d · 336 d · 25 mo) — compare like with like when the Isaias data call prints. **AEOLUS's perimeter flag adopted:** OIR figures are Florida-only; Sally's industry-wide figure (AL landfall) is a different, larger perimeter.
+
+### T7. Panhandle condo / coastal and MARCO overlap
+- Condo exposure in the landfall corridor is visible only at Citizens (CR-M/CR-W 55 policies, ~$140M TIV in the HU-Warning 5) — **the Destin/30A/PCB condo towers' master policies are mostly outside Citizens and outside OIR's reporting perimeter.** Whether they carry >$50K/unit master deductibles (the binding GSE warrantability constraint, OQ D) is unobserved. **No Panhandle condo figure is asserted.**
+- Panhandle tourism (beach rental season, TDT) is **MARCO's** frame; WALTER put MARCO on info. **No shared FL figure produced tonight ⇒ nothing to reconcile.** MARCO dark (~15 d at boot.py).
+- Ports: Pensacola and Panama City at USCG Condition YANKEE 10/8 (WALTER -046, USCG primary per WALTER; not re-read).
+
+### T8. Inbox drain + housekeeping (coral-1009pm)
+- **26 of 26 items logged** in `board_log.tsv` (17 `inbox/WALTER/` + 9 legacy: 4 PROME · 3 AEOLUS · 2 DAEDALUS), moved to `processed/` with `consume:CORAL`. Dispositions: acted 17 · noted 5 · info-only 3 · deferred 1 (SIG-W-20261008-040 Pembroke Lakes Mall foreclosure — unverified, next normal session). coral-1008's 13 read-but-unlogged are inside this count.
+- SWFWMD (SIG-W-20261002-030 ask, PRIMARY, read 21:40 ET): *"Modified Phase III … one-day-per-week water shortage restrictions were extended through March 31, 2027"*; 12-month deficit **15.4 in** through Aug; Tampa Bay Water's reservoir 7.87B gal (9/20) ≈ half capacity. Touches no registered CORAL item (water = AEOLUS).
+- DBPR **W212505-100226** recorded → `sources/condo/DBPR_request_W212505-100226_log.md`; draft header now says SENT.
+- WQ-399 receipt form installed in `CLAUDE.md` step 9b (C4 own-charter edit).
+- CALENDAR: 21 resolved Jul 17 → Sep 16 rows rotated verbatim → `archive/CALENDAR_RESOLVED_ROTATED_20261009.md`.
+
+## T0. STATUS hot-surface blocks — ROTATED 2026-10-09 (coral-1009pm; read-cap rule 5: STATUS was 27,947 B = 86% of budget before this session). Verbatim, unedited; receipts via `python3 PROME/tools/measure.py` on this file. State disagreement ⇒ STATUS wins.
+
+### T0 · Header `Last Updated` line (as of 10/8 11:56 ET)
+
+**Last Updated:** 2026-10-08 11:56 ET (Thu, coral-1008, Isaias wake — PARTIAL: MSI reading #8 graded, no rule applies, leg 🟠; Isaias storm rule pre-registered in OQ §A; pre-landfall frame + analog + inbox drain incomplete → `STATUS_DETAIL.md` § S). Prior: 2026-10-01 ~14:xx ET (Thu) — **CATCH-UP 9/28 late → 10/1, Will-launched.** No colour moves: no new FL insurer failure, no new association Ch.11, no storm, no watchlist credit 8-K. New: Citizens **254,918 (9/25, prelim)** · Case-Shiller **Tampa −0.73% YoY** (Jul, SF) · Dockside **amended plan pending** (correction) · Columbus Center = **closed 2025 receiver sale** · Fort Lauderdale apartments lead **checked: occupancy holds, rents soften** · Parcl pull **NOT a reading** (mixed stamps). Evidence → `STATUS_DETAIL.md` § R. *(Prior: 9/28 ~20:xx late pass, § M–Q.)*
+
+### T0 · § "9/28 (Mon) — READ FIRST" pointer + one-line state
+
+## 9/28 (Mon) — READ FIRST: the catch-up table is ROTATED → `STATUS_DETAIL.md` § "2026-09-28 READ-FIRST table — ROTATED" (verbatim, crc `fc809d76`)
+
+**One-line state:** Aug statewide condo market firmed (counter-evidence) · Citizens drop = takeout round · Amendment 3 on ballot, Branch A "leaning FAIL" · bankruptcy +21% YoY, 1.23× US (level trigger retired, WQ-322) · NFIP to 12/11 · 8 named / 0 hurricanes · MSI #7 4-of-5 in the policy buffer (amended letter, WQ-241) · enrollment now tracked (VX-CORAL-ENRL-01) · **Redfin: Miami's buyer's-market gap is condo-led and NARROWING; Orlando's jump is NOT corroborated by actual sales (ML-CORAL-091).**
+
+### T0 · Dashboard row "Association bankruptcies (verified 9/28)"
+
+| **Association bankruptcies (verified 9/28)** | **≥9** condo-association Ch.11s, SDFL+MDFL since 1/2025 — **DESCRIPTIVE, UNGRADED**. Causes: litigation, casualty/insurance, governance — **none documented as SIRS/milestone**. **No confirmed STRESSED bank REPAIR loan to an association found in documents reviewed ≠ no bank exposure** (Schedules D unread for 7; DIP lenders unknown; Palm Greens' $192K bank premium finance = separate category, motion only). **9/28 late: Dockside's 2023 Ian repair lender DOCUMENTED — South Florida Real Estate LLC, a PRIVATE contractor affiliate ("over $18M in trade credit", contested; face/draws/treatment unknown); Grande Isle had a Suncoast Credit Union repair loan (UCC-1 1/2023, terminated 10/2023; repayment unknown). DBPR/UCC: names, collateral, reserve balances, planned financing — never a funded-loan balance or loss (§ N–Q).** Table → `STATUS_DETAIL.md` § L **10/1: no new FL association Ch.11 9/26–10/1 (CourtListener). Dockside 9/29: nothing decided (fee app → 10/27; rest under advisement); ⚠️ CORRECTION — an amended plan (#222, ~8/17) IS pending, #261 objects (§ R3).** | ⚪ |
+
+### T0 · Dashboard row "Hurricane season 2026"
+
+| Hurricane season 2026 | **8 named / 0 hurricanes; no FL landfall**; NHC 9/28: no formation 7d | 🟡 |
+
+### T0 · FL BANK EXPOSURE paragraph, 9/28-late tail
+
+⭐ **9/28 late — filing-verified BASELINE (follow-up ③): Avidia Bancorp's $494.3M condo-association REPAIR-loan book is 100% current · 100% pass · 0 charge-offs · reserve releasing at 6/30/2026 (10-Q filed 8/13) — a NATIONAL book with a Florida slice ($78.4M of $506.7M at YE2025; largest loan $22.8M Miami Beach, performing), so counterevidence, not a Florida-only result. USCB 6/30/2026 10-Q: non-accrual $2.148M on $2,316.7M; 'condo commercial' $68.7M clean — ⛔ NOT a verified association-loan proxy (category undefined; Association book size undisclosed).** → `STATUS_DETAIL.md` § M.
+
+### T0 · Dashboard row "Citizens policies in force" (as of 10/1)
+
+| Citizens policies in force | **266,231 (8/31)**, −4.3% — **takeout-driven** (8/18 round 11,723); ex-round personal ≈ −93; commercial **−149** real. ⭐ **254,918 (9/25 weekly headline, PRIMARY)** = −11,313; less 9/15 round (10,250) ≈ **−1,063 ex-round** — ⚠️ PRELIMINARY (weekly total vs monthly basis unconfirmed). 9/30 month-end not posted (10/1) | 🟠 |
+
+### T0 · OWED rows H2 · I · S (closed)
+
+| H2 | ✅ **Criterion 5 operationalized (WQ-321) + level trigger RETIRED (WQ-322), both Will-ruled 2026-09-28:** leg A absolute scored (M.D.+S.D. all-chapter per-capita 12-mo YoY ≥5pp below its preceding four-table max, two consecutive tables); leg B relative reported only — prospective policy choices. The ~230/260 level trigger is retired, not replaced; the growth-warning rule is retained unchanged and unvalidated | next F-2 table ~late Oct–Nov | ✅ closed |
+| I | ✅ **Biscayne 21 / Two Roads — SETTLED 8/31/26** (press; ~$50M one anonymous source; court sign-off pending). ⚠️ Whether the Feb-2026 "economic waste" suit was dismissed is **unverified** (inference only) | watch for dismissal filing | closed-pending |
+| S | ✅ **MSI re-fire + level guard INSTALLED 2026-09-28** (WQ-241, Will-ruled with two amendments) — next reading is graded on the amended letter | next Parcl stamp | ✅ closed |
+
+### T0 · OWED row X (9/28 round, closed)
+
+| X | ✅ **Association→lender follow-ups (Will 9/28) — RUN 9/28 late, all four; CATO's 3 corrections APPLIED (§ Q):** ① Dockside 2023 lender = **South Florida Real Estate LLC** (private SFR affiliate, "over $18M" trade credit, contested; face/draws/collateral/treatment UNKNOWN); 2026 DIP lender UNKNOWN; **9/29 hearing ≠ confirmation** · ② Palm Greens reworded (bank premium finance = separate category, motion only) · ③ Avidia baseline + USCB re-dated, 'condo commercial' ≠ association proxy (§ M) · ④ DBPR/UCC: names, collateral, reserve balances + planned financing — no funded-loan balance/default; join = normalized name 8/9, shared ID 0/9; **DBPR request DRAFTED, re-scoped to schema + 9-entity sample, NOT sent**. ⚠️ 7 Schedules D + 2 DIP docs unread — retrieval could still reveal bank debt (§ Q). Count UNGRADED | ✅ 9/29 read 10/1 (nothing decided; amended plan #222 pending — § R3) · Will on the DBPR draft | ✅ run; round closed |
+
+### T0 · OWED row U (as of 10/1)
+
+| U | Citizens **9/30 month-end** (not posted 10/1; 9/25 headline 254,918 → § R6) — will carry the **9/15 round (10,210)**; read ex-round | **~early Oct** | dated |
+
+### T0 · BOTTOM LINE paragraphs (10/1 + 9/28 + late pass + Next)
+
+**10/1 catch-up: three quiet days, nothing moved a colour.** No Florida property insurer failed, no new condo association filed Chapter 11, no storm is forecast, and no watchlist bank filed a credit event. The two new prints lean the same way as before: **Tampa single-family prices turned slightly negative (−0.73% YoY, July Case-Shiller)** while Miami rose (+3.53%), and **Citizens' count fell ~1,060 beyond its scheduled takeout in September** (preliminary). Will's Fort Lauderdale apartments lead **does not hold for occupancy (94.2% stabilized) but does for rents**, which are softening under a record supply wave. *The 9/28 bottom line follows.*
+
+**Fifteen days dark, and most of what landed cuts AGAINST acute Florida housing distress — but nothing touched the bank bridge in either direction.** Statewide condo prices firmed in August (+2.8%), sellers got more of their asking price, contracts came faster, and Citizens' August drop turns out to be a scheduled takeout, not households fleeing. CREED again found no Florida name in national CMBS distress. **Against that, household stress kept building where it counts for the mechanism: FL bankruptcy filings are up +21% a year and running 1.23× the national rate, widening** — the new instrument makes that the one thing I can now measure that points toward the thesis. The Parcl supply-side read also stayed hot (Tampa series high 7.18), but on a count rule that can't currently re-fire.
+
+**Amendment 3 is on the ballot, rewritten, and my pre-registered read says "leaning FAIL"** — though the reason the rule gave (fiscal language in the new wording) is not visibly what happened, and one September poll sits at 45 yes with a quarter undecided. **The bank-transmission rail is untouched: NOT met, NOT armed. Next test: Q3 prints, late October.**
+
+**Late pass (Will's four follow-ups + CATO review, 9/28 evening):** two documented lenders, both **private** (Dockside's "over $18M" contractor-affiliate note; Green Terrace's Boken mortgage), plus Grande Isle's credit-union repair loan whose UCC filing was terminated 10/2023 (repayment unknown). **No bank repair loan to any of the nine is documented in the evidence reviewed — and seven Schedules D plus two post-petition lenders are unread, so further retrieval could reveal bank debt or tighten the negative; neither proves statewide absence.** Avidia (above) is counterevidence, not a Florida verdict. DBPR/UCC give names, collateral, reserve balances and planned financing, never a funded-loan balance; the draft request is re-scoped and unsent. Bank rail unchanged.
+
+**Next:** ~early Oct Citizens 9/30 month-end (read ex-round; confirm basis vs the 9/25 weekly) · **10/16 FL Realtors September** · **10/21 BKU Q3 (BMO)** + Grande Isle dismissal hearing · **10/27 Dockside fee app** · **10/29 Brightline final DIP** · late Oct other Q3 bank prints + AOUSC 9/30 table · ~Oct–Nov warrantability read · C&W/Yardi Broward Q3 MF · **Nov 3 Amendment 3** (yes-side $18M vs $0.54M) · **Nov 15 falsify grade** · **Dec 11 NFIP**. Next Parcl reading = first single-stamp pull.
+### T0 · OQ §A "State:" paragraph + "Reading #8" paragraph (graded 10/8)
+
+**State:** sub-threshold readings 9/2 (3-of-5, stamp 9/3) and 9/13 (4-of-5, stamp 9/13) ⇒ condition MET ⇒ **🟠 since 2026-09-13, leg only.** **Reading #7, 2026-09-28: 4-of-5 > 6.00 (Cape Coral 5.96) — no rule applies; leg stays 🟠.** ⛔ The leg stood down on a count, not because Florida improved (9/13: 3 of 5 rose, Tampa series high). **Reading #7 graded under the amended letter (neither re-fire nor stand-down; Cape Coral 5.96 in the band) → § P.** Full 9/13 resolution text → `STATUS_DETAIL.md` rotated blocks.
+
+**⭐ Reading #8 — stamp `10/8/2026` — GRADED 2026-10-08 11:56 ET (coral-1008):** Tampa **7.17** · Punta Gorda **6.42** · North Port **6.32** · Cape Coral **5.91** · Lakeland **6.12** ⇒ **4-of-5 > 6.00; Cape Coral in the 5.90–6.00 band ⇒ the re-fire reading FAILS (no clock); stand-down N/A (leg already 🟠). No rule applies — leg stays 🟠.** Pull 11:53:09 ET, HTTP 200 ×5, all five `Updated: 10/8/2026`; MSI agrees across `<title>` · og · JSON-LD · `seo.msiValue` (one server object). The first pull 11:52:22 ET was mixed (10/5 · 10/6 · 10/8) = not a reading: Parcl pages are Vercel-cached (`x-vercel-cache: HIT`, `age` up to 52,836 s) and a request regenerates a stale page, so an immediate re-pull returned one stamp (mechanism INFERRED from headers). Evidence → `STATUS_DETAIL.md` § S.
+
+### T0 · Pillar row "CRE (4)" (as of 10/1)
+
+| **CRE (4)** | ⭐ **Broward MF (10/1 check of Will's lead): stabilized occupancy 94.2% (C&W Q2) — rents, not vacancy, are the soft spot: effective −1.5% YoY, Class A −2.2% (lowest since 2021) under a record delivery wave; lease-up stock excluded from every occupancy series** (§ R7). Columbus Center (Coral Gables office) = **closed** 3/2025 receiver sale $76M (§ R2). CREED cycle 3: **Aug special-servicing names NO FL asset**; 110 Tower Ft Lauderdale sold **$89M, −21% vs 2016 — performing sale, not distress**. Feed live but structurally thin — ⛔ do not revert to 🟢 on "the feed landed" | 🟡 |
+
+### T0 · FL BANK EXPOSURE paragraph, head (as of 10/1)
+
+**UNCHANGED since 8/23.** Q2 closed **7-of-7 benign**, sync **0-of-≥2**; SBCF's pre-registered nonaccrual tell **falsified** ($95.0M→$86.5M); REGINALD's 10-Q leading-bucket close **4-of-4 REVERT**. CRE criticized rose on 2024-era rate-shock underwriting with LTVs/payment intact ⇒ **reclassification, not realized loss.** **Zero HOA/condo-association disclosure in any release = the wire is structurally unobservable.** Brightline Ch.11: no FL bank exposure found. **Next re-test Q3, ~late Oct.** Avidia/USCB filing baseline (9/28 late) → `STATUS_DETAIL.md` § M (sentence rotated § T0).
+
+### T0 · Dashboard row "Citizens commercial / condo-assoc" (as of 10/1)
+
+| Citizens commercial / condo-assoc | Commercial **+10.4% capped** eff 7/1/26 (a RATE). ⭐ Counter-datum 10/1 (Trepp, PRIMARY, verified): **FL securitized-MF insurance COST −6.2% median 2025** (2023 +42.1%) — private MF layer eased; **condo master-policy layer still unmeasured** (§ R8) | 🟠 amplifier |
+
+### T0 · Dashboard row "FIGA / insolvency" (as of 10/1)
+
+| FIGA / insolvency | 1% assessment **ends 9/30**; **no new FL insurer failure Aug–Sep** (FIGA/OIR/DFS lists 9/28; re-checked 10/1). ⭐ **10/1: OIR's 2022 affiliate-fee report (published 9/25) — its 'not fair & reasonable' flag did NOT predict the 2021–23 failures; takeout-carrier solvency = parent willingness to recapitalize, unobservable** (§ R9) | 🟡 |
+
+### T0 · Dashboard row "Redfin sellers-vs-buyers" (as of 9/28)
+
+| **Redfin sellers-vs-buyers (Aug, modelled buyers)** | Miami (Miami-Dade) **138% — #2 US but NARROWING** (152% Aug-25); **condo 232% vs single-family 69%** ⇒ condo-led. Orlando **122% (+62pp YoY)** — ⚠️ **NOT corroborated**: actual closings +7.5% (ORRA), Realtor.com pendings +11.5%. All other FL metros narrowing YoY | 🟠 |
+
+### T0 · Dashboard row "Termination / receivership" (as of 9/28)
+
+| Termination / receivership | *Biscayne 21* **SETTLED 8/31/26 (press):** Two Roads paid the holdouts ~$50M (single anonymous source); court sign-off pending as of 8/31. Makes forced terminations **dearer/slower**, not faster. *Biscayne 21* 100%-consent reading stands (FL Sup. Ct. **declined review** 10/14/25 — not a merits affirmance) | 🟡 |
+
+### T0 · Dashboard row "Special assessments" (as of 9/28)
+
+| Special assessments | **$25K–$100K/unit typical, to $400K**; SIRS tail ≤12/31/26, funding-pause ≤12/31/28 · **OPPAGA 26-04 (Jul-26, PRIMARY): 903 repair-permit APPLICATIONS from Phase II inspections (2024–25), estimated values <$1K–$30M; 54 buildings listed unsafe/uninhabitable** — ⚠️ 64–71% of jurisdictions reported; self-reported; estimates not costs | 🔴 |
+
+### T0 · Dashboard row "GSE warrantability" (as of 9/28)
+
+| GSE warrantability | **PRIMARY-TIER.** Full Review live 8/3; binding FL constraint = pass/fail inspection + **>$50K/unit master deductible**. ⭐ **9/28: an HOA in bankruptcy/insolvency/receivership (or VOTING on one) makes the project ineligible (B4-2.1-03, v.08/05/2026) — incl. Waiver of Project Review; only carve-out is High-LTV Refi, whose acquisitions are PAUSED.** First honest read ~Oct–Nov | 🟠 |
+
+### T0 · OWED row L (as of 10/1)
+
+| L | ⭐ **Parcl listings: route FOUND** (`seo.totalCount`/`nCutting`). Open residual: **did the fields exist on 9/13?** If yes, ML-CORAL-079 was a keyed-search error and gets corrected, not deleted | next session (Wayback) | route ✅, record ⚠️ |

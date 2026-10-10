@@ -1,45 +1,44 @@
 # CORAL — SCRATCH (ephemeral session handoff)
 
-**Session:** 2026-10-01 ~13:32 → ~14:15 ET (Thu) — Will-launched boot + catch-up ("catch up on any recent news and updates"). Desk dark 9/28 21:32 → 10/1. PROME not live. Three Opus researchers (FL news sweep · court dockets · Fort Lauderdale multifamily); every load-bearing claim re-read by CORAL at the source before it entered the record. **Committed locally (`c46791137`, `140fdc90e`, + this closeout commit); NOT pushed — push at Will's closeout.**
-**Previous:** 2026-09-28 late (association→lender follow-ups, CATO corrections).
+**Session:** 2026-10-09 21:35 → ~22:1x ET (Fri) — **coral-1009pm**, PROME (`prome-1e`) Tier-1 spawn on DOCKET **L638** (Isaias post-landfall wake), desktop. Model Opus 5.5 in Claude Code (Agent-tool spawn; CORAL charter read explicitly). Five Opus researchers (NHC/FEMA · Citizens/FHCF · OIR analogs · FDIC SOD · insurer filings); every load-bearing figure re-read by CORAL at the artifact or re-computed from the raw pull, the rest labelled researcher-read. Concurrent sessions: AEOLUS `aeolus-db`, REGINALD `reginald-6d`, CATO (Codex) — their dirty paths untouched.
+**Previous:** 2026-10-08 11:56 ET coral-1008 (PARTIAL: MSI #8 graded, storm rule pre-registered).
 
 ---
 
-## CHANGES SINCE 9/28 (what the world did)
+## CHANGES SINCE 10/8 (what the world did)
 
-- Citizens weekly headline **254,918 at 9/25** (P1) — ≈ −1,063 ex-round, PRELIMINARY (basis vs month-end unconfirmed). 9/30 month-end not posted.
-- Case-Shiller July (9/29, P1): **Tampa −0.73% YoY**, Miami +3.53% (SF only). Realtor.com Sept Tampa asking −6.6%, 27.5% cutting (PRESS).
-- Dockside 9/29 (Doc 271): nothing decided; fee app → **10/27 2:30 PM**; amended plan **#222 (~8/17) pending** — corrects 9/28 "no plan in the free record".
-- Brightline first day: relief granted; interim $258M DIP (PRESS); final **10/29**; no schedules; no FL bank in top-20.
-- No new FL association Ch.11 (9/26–10/1), no new property-insurer failure/FIGA assessment, no storm (NHC 10/1), VLY 8-K = Bluevine $340M (M&A). **BKU Q3 10/21 BMO.**
-- Amendment 3: yes-side $18M (FL Realtors) vs opposition $0.54M (PRESS); "74% Pioneer poll" press-only, NOT adopted.
+- **Isaias made landfall near Destin (Okaloosa) 8:30 PM CDT 10/9 at 105 mph, 971 mb** (NHC TCU 100130). It peaked Cat 3 over the Gulf Friday morning; Cat 2 at landfall (AEOLUS KB-AEO-189: C1 NOT FIRED).
+- FL warnings unchanged since Adv 8: Hurricane + Surge Warning Escambia → Bay; Surge Warning to the Suwannee; Surge WATCH coastal Levy. State EO 26-211 (10/7) added Citrus + Levy (AEOLUS KB-AEO-190 — CORAL caught it tonight).
+- Citizens binding suspended statewide 10/7 11:05 ET; weekly PIF 254,736 at 10/2.
+- No FEMA declaration in OpenFEMA at its 10/9 13:10Z refresh.
 
 ## WHAT I DID
 
-1. Boot reads + boot.py + corrections check (PASS, rc 0; one ALL-warn not an obligation).
-2. **Parcl MSI pulled twice (13:34, 13:49): mixed 9/30 + 10/1 stamps ⇒ NOT a reading** under the amended MSI-01 letter (§ R1). Values ~unchanged.
-3. **Fort Lauderdale lead (WALTER -013, Will-directed) — ACTED:** data contradicts "vacancy everywhere" for stabilized stock (C&W 94.2% re-read at PDF); supports renewal-vs-new-lease gap; real soft spot = rents under record supply. No threshold registered. § R7, KB -100, `sources/ftl_broward_multifamily_check_2026-10-01.md`.
-4. **CREED Columbus Center ask — ACTED:** receiver sale 3/5/2025 $76M (Miami-Dade PA re-read); CORAL holds the case; reply packet in `AGENTS/CREED/inbox/` (`c46791137`). KB -098.
-5. Dockside / Brightline / new-filings / news sweep → § R2–R6, KB -099. ⭐ Did NOT adopt the docket researcher's "Ian lender label unsourced" — it searched the bankruptcy docket only; the source is SFR's civil Notice of Removal (the 9/28 perimeter lesson, n=2).
-5b. **Will's three Sun Sentinel links (insurer affiliate-fee report + Jolly):** read the 159-pp report at primary; researcher scored its flag vs 2021–23 failures ⇒ **NO predictive power** (key lines re-read). Corrected my own UPCIC misread (Universal ≠ United) in-session. § R9, KB -102/-103, VX-TKOUT parent-support row, CALENDAR Nov 3 governor fork, `sources/insurance/`. Also consumed CREED's 13:53 packet (Trepp MF insurance + Doral verified; § R8, KB -101).
-6. Inbox drained: WALTER -004 info-only, -013 acted; HOMER noted; CREED acted. STATUS (header, MSI/Citizens/association/CRE/banks rows, OWED U/X, bottom line, Next), CALENDAR (+10/21 BKU, 10/27 Dockside, 10/29 Brightline; 9/29 + 9/30 items ✅), NEXUS 10/1 block.
+1. Storm rule S1–S4 applied as written: **no graded-metro county under any NHC warning/watch; no FEMA DR ⇒ 10/10–10/23 readings grade normal unless a later FEMA DR names one** (STATUS OQ §A; § T1–T2). No Parcl pull (none due).
+2. Citizens by county (8/31 PRIMARY): HU-Warning 5 = 8,327 / $3.30B; 11 warning counties 9,578 / $3.63B; condo-assoc layer 55 / ~$140M. Reinsurance $2.82B; retention ~$0.84B (researcher, image); FHCF retention $11.93B (§ T3, KB -106).
+3. Analog from OIR primaries: Sally **VERIFIED** $576.9M / 71,998 (40-day figure); Ivan 210,900 / $4.79B; **Michael Bay 95,184 vintage CORRECTED** (Nov-2020, not Dec-2019) (§ T6, KB -105).
+4. Panhandle bank footprint (FDIC SOD 6/30/26): TRMK 8.90% · HWC 7.75% · SFBS 5.45%; watchlist outside the zone. Rail untouched (§ T4, KB -107).
+5. Insurers: no Panhandle disclosure; retentions $2.8M–$166.8M; no Isaias 8-K (§ T5, KB -109).
+6. AEOLUS: one figure agreed by message (landfall facts); EO 26-211 contradiction messaged + accepted (KB-AEO-190); reply packet to `AGENTS/AEOLUS/inbox/`.
+7. **Inbox drained 26/26** (17 WALTER + 9 legacy), board_log rows, `consume:CORAL` moves. DBPR W212505-100226 → `sources/condo/` log. WQ-399 receipt form in CLAUDE.md 9b. DAEDALUS asks answered (OWED Y).
+8. Read-cap rule 5: STATUS 27,947 → 22,780 B (blocks rotated verbatim → § T0); CALENDAR 21 resolved rows → `archive/CALENDAR_RESOLVED_ROTATED_20261009.md`.
 
 ## NEXT SESSION / OWED
 
-- **Parcl: re-pull for a single-stamp reading** (grade on the amended MSI-01 letter).
-- **Citizens 9/30 month-end** (~early Oct): read ex-round AND confirm whether the weekly headline basis matches — decides whether −1,063 is organic exit.
-- **10/16 FL Realtors Sept** (four legs) · **10/21 BKU Q3** (first bank-rail print) + Grande Isle hearing · 10/27 Dockside · 10/29 Brightline · late Oct Q3 prints + AOUSC 9/30 table · 11/15 falsify grade.
-- **Pending at WALTER (not consumed):** CREED 10/01 FL + MF items (Trepp FL MF insurance −6.2% 2025; Doral Center office 7.35% coupon; FL conduit loan sample). Consume when routed.
-- C&W / Yardi Broward Q3 MF (~late Oct–Nov) if Will wants the MF line tracked — **offer, not adopted**.
-- Carried: Orange County records (needs a browser) · DBPR draft → Will (unsent) · PACER spend not authorized · Avidia 10-Q ~mid-Nov · OQ L residual · Columbus Center case no. (clerk viewer, browser).
-- MEMORY at ~70% with ~20 B headroom: **the next append must rotate first.** None added this session.
+- **At each Parcl reading stamped 10/10–10/23: check OpenFEMA for an Isaias DR naming a graded county (S2).** Next reading by **10/15** (review_by).
+- Citizens 9/30 month-end + county file (~mid-Oct): re-run the Panhandle cut; read ex-round; ⚠️ **reconcile the September round size (10,250 in the PIF history vs 10,210 in OWED U/CALENDAR) at the primary.**
+- OIR Isaias data call — compare by development day (Sally 12 d / 40 d).
+- **10/16 FL Realtors Sept** · **10/21 BKU Q3** (rail) · SFBS 10/19 / HWC 10/20 storm commentary (descriptive) · 10/27 Dockside · 10/29 Brightline · 11/15 falsify grade.
+- Deferred from the drain: **SIG-W-20261008-040 Pembroke Lakes Mall** 9/30 foreclosure — verify at Broward clerk / trust 10-D.
+- Carried: OQ L Wayback residual · Orange County records (browser) · PACER spend not authorized · Avidia 10-Q ~mid-Nov · MEMORY rotation owed before the next append (none added tonight).
 
 ## OPEN THREADS
 
-- MARCO dark (6.8d); holds CORAL's Citizens-mechanism packet. The 9/25 Citizens figure may matter to that disagreement — wait for the month-end before sending anything.
-- Stale rows unchanged: SE-FL vintage $/sf (7/13) · blacklist (Apr-2025) · NOAA SIR sargassum · ATTOM (7/17; Aug not out) · VLY CRE/RBC (Q1).
-- BRENT + CREED had uncommitted files at boot — untouched.
+- Gate-Basis #2 (MSI-01 page URLs + reading cadence) proposed to PROME — Will's letter; not self-applied.
+- Citizens tower figures ($0.842B retention; FHCF 90% of $1.301B xs $0.745B) are a researcher's read of a chart IMAGE — re-read before citing as CORAL's own.
+- Panhandle condo-tower master policies (Destin/30A/PCB) sit outside Citizens and OIR — no instrument; GAP.
+- MARCO dark ~15 d: no shared figure produced tonight; Panhandle tourism is MARCO's frame.
 
 ## MAIL STATE
 
-`inbox/WALTER/` empty · legacy inbox empty · one outbound packet (→ CREED, no ask, no doorbell needed).
+`inbox/WALTER/` empty · legacy inbox empty (all 26 → `processed/`, `consume:CORAL`) · outbound: CORAL → AEOLUS reply packet (committed, carve-out ①) · PROME memo `PROME/inbox/2026-10-09_from-CORAL_isaias-post-landfall-wake.md`.

@@ -3,9 +3,21 @@
 **Status:** 🟠 ELEVATED — thesis split holds: **household/condo stress confirmed; bank-loss transmission NOT confirmed.** Bank rail **NOT met, NOT armed** (Q2 7-of-7 benign; next re-test Q3 ~late Oct). Supply-side MSI leg **🟠 since 9/13**; reading #7 (9/28) 4-of-5 > 6.00. **Re-fire + level guard INSTALLED 9/28 (Will-ruled WQ-241): re-fire = all five > 6.00, stand-down = same metro < 5.90, 5.90–6.00 policy buffer, ≥10-day persistence from the first qualifying reading.** Reading #7 sits in the buffer (Cape Coral 5.96) ⇒ still 🟠. ⭐ **9/28: most new data cuts AGAINST acute statewide housing distress; the one measured channel pointing WITH the thesis is bankruptcy (+21% YoY, 1.23× US, widening).**
 **Domain:** Whole-Florida stress surface — condo/SF/CRE real estate, insurance, FL banks, migration/tourism, state fiscal/property-tax, labor/construction, coastal/climate
 **Thesis version:** Coral Bleaching v1.1 — rails `thesis/THESIS.md`; changelog `thesis/CHANGELOG.md` (9/28 entry)
-**As of:** 2026-10-01 ~14:10 ET (Thu, catch-up) · **STATUS commit:** `140fdc90e` · **Refresh:** 10/1 block added above; 9/28 block unchanged below. *(Prior: 2026-09-28 ~21:03 ET, `943693f8d`.)*
+**As of:** 2026-10-09 21:58 ET (Fri, coral-1009pm, Isaias post-landfall wake) · **STATUS commit:** rides the same commit as this brief (`brief_pin_check` OK-SAME-COMMIT; prior STATUS `cc14b3ac3`) · **Refresh:** 10/09 block added above; 9/28 block rotated out (verbatim in git at `fee6267a0`). *(Prior: 2026-10-01 ~14:10 ET, `140fdc90e`.)*
 
 ⚠️ Prior dated blocks (9/13, 8/23) are superseded by the one below; verbatim in git history at `cd8da96a9`. **One 9/13 instruction is RETRACTED: "Parcl listings render a literal 0 with no backing field" — the counts ARE in `__NEXT_DATA__ seo.totalCount/nCutting`; the visible `0` is still a placeholder, but do not repeat "no field exists".**
+
+## ⭐ 2026-10-09 — ISAIAS POST-LANDFALL (no colour moves; evidence `STATUS_DETAIL.md` § T)
+
+| # | Item (dated, tiered) | For whom · so what |
+|---|---|---|
+| 1 | **Landfall near Destin (Okaloosa), 8:30 PM CDT 10/9, 105 mph, 971 mb** (NHC TCU 100130, P1; Cat 2 + C1 NOT FIRED = AEOLUS KB-AEO-189). FL warnings: Hurricane + Surge Escambia→Bay; Surge Gulf→Dixie; Surge WATCH Levy only. State EO set = 27 counties (26-202 as amended by 26-211; AEOLUS KB-AEO-190) | AEOLUS (one figure agreed), all — peril facts are AEOLUS's; FL exposure is CORAL's |
+| 2 | **MSI-01 storm rule S2 applied:** none of the nine graded-metro counties was under any NHC warning/watch (20 advisories); no FEMA declaration in OpenFEMA (refresh 10/9 13:10Z) ⇒ readings stamped 10/10–10/23 grade normal unless a later FEMA DR names a graded county | PROME (GATES pointer) — no flag, no state change |
+| 3 | **Citizens (P1, 8/31 by county):** HU-Warning 5 = **8,327 PIF / $3.30B TIV**; 11 warning counties 9,578 / $3.63B; −40% since 12/31/25 (takeouts). Condo-assoc layer in the 5 = 55 policies / ~$140M. Weekly 254,736 at 10/2. **Binding suspended statewide since 10/7.** Citizens retains ~$0.84B before FHCF (researcher read of board chart) vs $5.455B surplus ⇒ no assessment path on this arithmetic (inference) | AEOLUS, CARL, SHADE — insurer-solvency channel not engaged; condo master policies sit OUTSIDE Citizens/OIR (blind) |
+| 4 | **Analog (OIR primaries via archive):** Sally $576.9M / 71,998 claims **VERIFIED but a 40-day figure** (+92% in its first month); Ivan 2004 210,900 / $4.79B (Okaloosa 32,297 / $312M paid); Michael's 95,184 Bay figure is the Nov-2020 vintage (correction) | AEOLUS (C4 grade), SHADE — compare by development day when the Isaias data call prints |
+| 5 | **Panhandle bank footprint (FDIC SOD 6/30/26):** $21.2B deposits in 5 counties; TRMK 8.90% · HWC 7.75% · SFBS 5.45% of their deposits; **CORAL watchlist outside the zone** (CCBG 1.68%, SSB 0.32%, others 0). SFBS 10/19 · HWC 10/20 print before BKU 10/21 | **REGINALD** — Gulf Coast regionals are your perimeter; FL bank rail UNTOUCHED (NOT met, NOT armed) |
+| 6 | **FL primaries:** no Panhandle exposure disclosed; first-event retentions $2.8M (HCI north-FL tower) → $166.8M (SLDE); no Isaias 8-K | SHADE, AEOLUS — explains the 10/7 rally (inference); carrier loss open until claims |
+| 7 | Flood vs wind: surge 6–9 ft + 4–8 in rain (locally 15) ⇒ NFIP/uninsured, authorized only to **12/11** | AEOLUS, CARL, HOMER |
 
 ## ⭐ 2026-10-01 — WHAT MOVED (catch-up 9/28 late → 10/1; no colour moves)
 
@@ -20,26 +32,10 @@
 | 8 | ⭐ **OIR's secret 2022 Affiliated Fee Analysis (published 9/25; report read by CORAL):** FL insurers −$432M vs affiliates +$1.8B (2017–19); $951M parent capital + $208M fee forgiveness; MGA fees 20–34% of premium. **CORAL outcome test: its 'not fair & reasonable' flag did NOT predict the 2021–23 failures (12% flagged vs 13% undetermined; n=6); review order did.** Nov 3 governor race = insurance-regime fork (Jolly: fee cap + FHCF-wind; Donalds: scorecard + shrink Citizens) | AEOLUS, CARL, REGINALD, ORACLE (odds) — takeout-carrier solvency = parent willingness to recapitalize, invisible to ratings. **Don't cite 'flagged by the report' as fragility.** |
 | 7 | Parcl MSI 10/1 pulls ×2 carry **mixed stamps ⇒ NOT a reading** under the amended MSI-01 letter (values ~unchanged: Tampa 7.17, Cape Coral 5.94) | PROME (GATES pointer) — no state change, nothing to register. |
 
-## ⭐ 2026-09-28 — WHAT MOVED, for cross-agent consumers
-
-| # | Item (dated, tiered) | For whom · so what |
-|---|---|---|
-| 1 | **FL Realtors Aug (P1, pub 9/16):** condo median **$298K +2.8%** · sales **−1.8%** · orig-list **93.3% vs 91.8%** · contract **69d vs 72d** · months **7.7**; SF $415K +1.2%, 4.3 mo, pendings −2.8% | HOMER, MARCO, NEXUS — **counter-evidence to statewide distress**: 3 of 4 legs cut against price-cutting. Medians are MIX statistics; months-supply is on a trailing-12 denominator. |
-| 2 | **Citizens 8/31 (P1): 266,231, −4.3%** — the **8/18 takeout round (11,723)** is ~all of it; ex-round personal ≈ **−93**; commercial **−149** genuine | MARCO, CARL, AEOLUS — takeout engine working; **organic personal depopulation still stalled**. One number with MARCO; mechanism wording differs (packet sent). |
-| 3 | **Bankruptcy instrument BUILT** (AOUSC F-2 + Census V2025, `AGENTS/CORAL/tools/bkcy/`): M.D.+S.D. **217.1/100k, +21.2% YoY** (12 mo to 6/30/26); **FL/US 1.205× → 1.231×**; S.D. alone 230.0 | **CARL, REGINALD** — the household-stress canary is measured now and **accelerating relative to the US**. The June "~190" figure = statewide NONBUSINESS (reproduced exactly); it was compared against a US all-chapter rate. |
-| 4 | **Amendment 3 (P1 AG letter / Div. of Elections):** ruled **8/3**, rewritten, **no appeal**, **Ballot No. 3**; St. Pete Polls 9/15–17 **45 yes / 30 no / 25 undecided** (needs 60%) | MARCO, CARL — pre-registered Branch A ⇒ **"leaning FAIL"** (graded on its letter; its stated mechanism is unconfirmed). If it fails: no household carrying-cost relief, no local-revenue hole. |
-| 5 | **NFIP extended to 2026-12-11** (H.R. 6500, signed 9/2, P1) · **FIGA 1% ends 9/30** · no new FL insurer failure Aug–Sep | CARL, AEOLUS — **anyone carrying a 9/30 NFIP cliff is stale** (CORAL was, for 26 days). |
-| 6 | **Season: 8 named / 0 hurricanes**; no FL watch/warning since 9/13; NHC 9/28: no formation 7d | AEOLUS, REGINALD — peak passed with no hurricane; soft-market asymmetry intact, ~2 months left. |
-| 7 | **Brightline FL Ch.11** (In re FIHPNP LLC 26-20876, D.N.J., 9/24): operator not a debtor; **impaired = Brightline East taxable ~$1.19B**; tax-exempts unimpaired | REGINALD, BOND — **no FL-bank or state-credit transmission found**; Flagler real-estate debtors' schedules pending. |
-| 8 | **MSI #7 (9/28):** Tampa 7.18 (series high) · Punta Gorda 6.51 · North Port 6.34 · Cape Coral 5.96 · Lakeland 6.13 | PROME, REGINALD — leg 🟠, **no rule applies**. Measured values only — composition vs breadth still not separable. |
-| 9b | **Redfin Aug buyer's-market ranks (PRIMARY data, modelled buyers):** Miami #2 (138%) is **condo-led** (condo 232% vs SF 69%) and **narrowing YoY**; Orlando #4 (+62pp) **contradicted by actual sales** (ORRA closings +7.5%, Realtor.com pendings +11.5%); every other FL metro narrowed | HOMER, REGINALD — do not carry 'Orlando deteriorating' off Redfin alone; Miami's glut is old and shrinking |
-| 9c | **Condo channel (9/28, Will's bounded pass):** Fannie makes a project ineligible if its HOA is in (or voting on) bankruptcy/receivership — reaches even Waiver of Project Review; 15% reserve rule 1/4/2027 now PRIMARY (LL-2026-03); OPPAGA: 903 repair-permit applications, 54 unsafe buildings (partial coverage); Biscayne 21 settled 8/31. **Nine association Ch.11s VERIFIED (STATUS_DETAIL § L)** — stress and an owner-financing constraint established; causes litigation/casualty/governance, none documented as SIRS; **no confirmed STRESSED bank REPAIR loan to an association found in documents reviewed ≠ no bank exposure** (two DIP lenders unknown; one bank premium-finance motion, separate category); count DESCRIPTIVE, UNGRADED. **9/28 late:** Dockside's 2023 repair lender documented = **PRIVATE** contractor affiliate ("over $18M" trade credit, contested); Grande Isle had a **Suncoast Credit Union** repair loan whose UCC filing was terminated 10/2023 (repayment unknown); **Avidia's $494M NATIONAL condo-association repair book is 100% pass/current at 6/30/26 (FL slice ~$78M at YE2025) — baseline counterevidence, not a Florida result**; USCB's "condo commercial" line is NOT an association proxy; DBPR/UCC name lenders, collateral, reserve balances and planned financing — never a funded-loan balance or loss; **7 Schedules D + 2 DIP lenders unread: further retrieval could reveal bank debt or tighten the negative, neither proves statewide absence** (§ M/N/O/Q) | REGINALD, HOMER, CARL |
-| 9 | **Migration correction:** FL intl 2025 +178,674 = **−37.0% same-vintage** (not −56.5%/−57%) | MARCO (originated the correction), DAEDALUS, anyone citing the drop. |
-
 ## VIEW
 
 - **The split is sharpening, not resolving.** Statewide prices and velocity firmed; the bank half keeps curing; but household bankruptcy is accelerating and the SW/Central-FL supply read (MSI) sits at series highs. "Florida real estate is stressed" still does not equal "Florida banks are breaking."
-- **Insurance:** personal/reinsurance easing; organic Citizens exit stalled (the takeout rounds carry the count); commercial/condo-association layer still rising (+10.4% capped). Landfall is the reversal risk.
+- **Insurance:** personal/reinsurance easing; organic Citizens exit stalled (the takeout rounds carry the count); commercial/condo-association layer still rising (+10.4% capped). **Landfall arrived 10/9 as a Panhandle Cat 2** — within Citizens' own retention on the arithmetic, outside the condo metros; the reversal test is now the claims data and the 1/1 renewals, not the track.
 - **Demand:** migration −93% domestic from peak, intl −37%; tourism read MARCO-owned (June airports confounded by Spirit; MIA −5.48% the clean tell).
 - **Fiscal:** Amendment 3 now leans FAIL on the pre-registered read.
 
@@ -57,7 +53,7 @@
 | To | Signal | Priority | Mechanism in recipient's domain |
 |----|--------|----------|---------------------------------|
 | CARL | FL bankruptcy 217.1/100k, +21.2% YoY, 1.23× US and widening (instrument live, next table ~late Oct–Nov) | 🟠 | FL household cash-flow squeeze broadening beyond real estate |
-| REGINALD | Rail UNCHANGED; Brightline no FL-bank exposure; Citizens drop is takeout-driven | 🟡 | No change to FL-bank convergence input until Q3 |
+| REGINALD | Rail UNCHANGED; **Isaias Panhandle deposit footprint = Gulf Coast regionals (TRMK/HWC/SFBS), not the FL watchlist** (§ T4); Citizens drop takeout-driven | 🟡 | No change to FL-bank convergence input until Q3; storm commentary from SFBS 10/19 / HWC 10/20 is yours to read |
 | MARCO | Citizens mechanism; Aug months supply 7.7/4.3; A3 Branch A; NFIP 12/11 (packet `496403f3b`) | 🟡 | Reconcile shared FL figures to one number |
 | NEXUS | Geography read: statewide firming vs SW/Central-FL MSI at highs — the stress is localized, not statewide | 🟠 | Synthesis should not treat FL as uniformly improving or uniformly breaking |
 
@@ -80,10 +76,9 @@
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
-| Tue 9/29 | Brightline first-day hearing | ⚪ info only |
-| Tue 9/29 1:30 PM | Dockside at Ventura hearing — **NOT a confirmation** (fee, stay-violation, repair motions) | Read the minute entry; unlikely to name the DIP lender |
-| Wed 9/30 | FIGA 1% ends · FL min wage $14→$15 | New FIGA assessment after this = carrier failure |
-| ~early Oct | Citizens 9/30 month-end | Read EX-ROUND (9/15 round 10,210) |
+| Sat 10/10 → Fri 10/23 | MSI-01 storm-rule S2 window | OpenFEMA check at every Parcl reading |
+| ~mid-Oct | Citizens 9/30 month-end (not posted 10/9) | Read EX-ROUND; binding suspended from 10/7 |
+| ~mid-Oct → Nov | OIR Isaias claims data call | Compare with Sally/Ivan by development day |
 | Fri 10/16 | FL Realtors September | Four legs; does condo sales stay negative YoY |
 | ~late Oct | Q3 FL-bank prints · AOUSC F-2 to 9/30 | Bank rail; bankruptcy level/growth reported (level trigger retired 9/28, WQ-322) |
 | Nov 3 / Nov 15 | Ballot No. 3 / falsify grade | 60% threshold; pre-registered decision rule |
