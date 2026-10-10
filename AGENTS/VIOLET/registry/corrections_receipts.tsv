@@ -3,3 +3,7 @@ receipt_date	correction_id	action	note
 2026-09-11T15:36Z	COR-20260908-03	APPLIED	
 2026-09-11T15:36Z	COR-20260908-02	NO-OP	
 2026-09-11T15:36Z	COR-20260910-01	NO-OP	
+2026-10-10T15:44Z	COR-20260906-03	NO-OP	scope=VIOLET info-only - the corrected token was WALTER's and RED re-graded FT-06 on VIXCLS the same day - no VIOLET surface cites a two-instrument FT-06 confirmation; violet-1010 2026-10-10
+2026-10-10T15:44Z	COR-20260911-11	NO-OP	scope=VIOLET originated the window-vs-day correction - KB-VIO-289 already carries 9.6T window and 6.2T day from the Citadel primary; artifact=AGENTS/VIOLET/workbook/KB.tsv#KB-VIO-289; violet-1010 2026-10-10
+2026-10-10T15:44Z	COR-20260914-21	NO-OP	scope=VIOLET never carried the VIXCLS-dark claim - VIOLET grades VIX on CBOE VIX_History.csv not FRED VIXCLS; violet-1010 2026-10-10
+2026-10-10T15:44Z	COR-20260929-09	NO-OP	scope=date-only correction to -004 (TERRY card deadline) - VIOLET consumed -004 on 10/10 as expired 9/28-close gamma context and cites no current gamma from it; violet-1010 2026-10-10
