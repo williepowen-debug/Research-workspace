@@ -1,55 +1,54 @@
 # SHADE SCRATCH.md — canonical session handoff
 
-> **SESSION 2026-10-01 (~12:1x–12:5x ET, two PROME touches)** — PROME-spawned (`prome-0c`, WQ-184 due-row spawn on Will's "spawn the slate"). First session since 8/28 — **34 days dark**.
-> **HEADLINE: W1 leg (a) FOUND — Athene publishes its US statutory statements quarterly, free, and I had held them since June; leg (b) NOT FOUND as pre-stated, but ~$7.4B of ARI loans visibly landed at AAIA on 4/24 (attribution INFERRED). `T-SHADE-01` level leg live 4-of-5; sign leg NOT MET.**
-> **NO band, threshold, kill-line, vector score or confidence moved.** Full delta → `research/W1_OPACITY_LEGS_AND_CATCHUP_2026-10-01.md`.
+> **SESSION 2026-10-10 (~12:41–13:2x ET)** — PROME-spawned (`prome-ce`) **L0 DRAIN-ONLY** (WQ-206 aged ACTION, DOCKET L671). `shade-1010`, model `claude-opus-5-5`, Claude Code. **9 days dark** since the 10/1 closeout (`ffd823d80`).
+> **HEADLINE: `T-SHADE-01` FIRED — owner reading on 10/9 closes / 10/8 HY obs; first fire since registration. The pre-registered dig is OWED and was NOT run (drain-only).** Inbox drained (22). **NO band, threshold, kill-line, vector score or confidence moved.** Full delta → `research/T-SHADE-01_FIRE_AND_L0_DRAIN_2026-10-10.md`.
 
 ---
 
-## CHANGES SINCE LAST SHADE SESSION (8/28 → 10/1)
+## CHANGES SINCE LAST SHADE SESSION (10/1 → 10/10)
 
 | | |
 |---|---|
-| **HY OAS 263 → 312** [FRED 8/27 → 9/30] | `T-SHADE-01` level leg **4 of 5** (>280: 9/25, 9/28, 9/29, 9/30). LIQ-07 FIRED 9/30 (LIQUID). |
-| **Managers re-rated** | APO **−14.95%**, ARES **−19.02%** (raw, 8/28→9/30) vs wrappers **−7.80%**. APO record put volume 9/24. |
-| **Delaware Life remediation** | TWG Global to buy **up to $6.5B** of affiliated assets, swap for unaffiliated (Quartz/Yahoo **8/18**, SECONDARY). |
-| **PHL Variable** | Civil RICO suit vs Golden Gate + Nassau, 9/25 (allegations). Liquidation still proposed, not ordered. |
-| **MBA Q2** | `PRED-CREED-006` **FALSE**; `-010` **PARTIAL, not scored (Will)**. |
+| **HY OAS 312 → 324 [10/1] → 315 [10/8]** | 10 consecutive >280 ⇒ `T-SHADE-01` level leg MET (5th print = 10/1 obs). LIQUID agrees. |
+| **Tape order reversed** | Since 9/24 close: wrappers −4.67% vs managers −2.05% (RAW); since 9/30: wrappers −3.52%, managers **+1.57%**. APO $118.65 [10/9]. |
+| **BROCK GATE-BRK-R2 (a) fired on OCIC (10/2)** | Proration = liquidity, not recognition ⇒ FORUM-5 W2 NOT fired (BROCK; SHADE concurs). |
+| **W1 / L182** | BROCK leg NOT FOUND 10/2 ⇒ all four legs in ⇒ **WQ-364, Will's strict-vs-functional reading.** SHADE owes nothing there. |
+| **WQ-399 (Will 10/8)** | Correction receipts need the 9/17 fields; charter step 4b fixed. |
+| **Leads** | Guggenheim Universe (third-party, 8 insurers, $32.0B cross-group) · Blue Owl "big push" into insurance (FT 10/7 relay; mandate model) · SEC staff fair-value statement 9/28 (BDCs/interval funds) · Isaias landfall (P&C, not SHADE's wrapper). |
 
-## WHAT I DID
+## WHAT I DID (drain-only)
 
-1. **W1 leg (a) — FOUND** (issuer route, `ir.athene.com/financial-information/statutory-filings`). ⚠️ Not via any of the three named routes; tally is PROME's. ⚠️ My 8/28 "resolved" was the wrong entity (Delaware Life).
-2. **W1 leg (b) — NOT FOUND** (AARe related-party note = body Note 15; no entity, no split; subsequent events omit the close).
-3. **§2.8 damaged:** AAIA Sch B Pt 2 — 62 loans dated 4/24/2026, **$7,405,267,470** ≈ 85% of $8.7B BY DATE — ⚠️ ARI identity UNDETERMINED by the 10/1 rule-based match (31.4% matched; `research/ARI_ATTRIBUTION_MATCH_2026-10-01.md`).
-4. **`T-SHADE-01` re-read, dated in `CLAUDE.md`.** NOT ARMED.
-5. **STATUS rotated verbatim** (crc `8f171d07`, `tail -n +5`) and rewritten live-state-only. **Boot step 4a → grep.**
-6. **25 inbox items drained.** Packets: PROME (memo + cadence/watch terms), CREED (AAIA read-across).
+1. **`T-SHADE-01` restated after a fresh sign read** (owed since ~10/2): level MET; sign MET on the level-run window (both bases) ⇒ **FIRED, owner reading.** ⚠️ The letter names no window; chosen after the data; ADJ margin from a 9/25 start 0.25pp. Script committed: `research/tshade01_signleg_2026-10-10.py`. Charter rows + window-guard receipt updated.
+2. **Self-correction:** 10/1 RAW figures (−7.80/−16.99/+9.19pp, APO $114.83 "9/30") don't reproduce; vendor closes give −6.33/−16.27/+9.95pp, APO 9/30 $116.06. Verdict stood. INFERRED: intraday quotes.
+3. **22 inbox items consumed** (`c8fe05b8a`, `consume:SHADE`), each with a `board_log.tsv` row. 6 acted, 16 noted.
+4. **Receipts:** COR-20260921-17 NO-OP · COR-20261007-12 NO-OP (WQ-399 form) ⇒ corrections check rc 0.
+5. **Packets:** PROME — lane-query adopt/decline by name (8 ADOPT, bare "Group 1001" DECLINE) + delivery memo · WALTER — Guggenheim ADDS, pull the full doc · BROCK — INFO, T-SHADE-01 fired + W2 primary wording at FORUM synthesis L135.
+6. **DAEDALUS Falsification #4 ask 1a** (thesis-level falsifier) — **dated DEFERRAL in STATUS, by 2026-10-23** (prediction-class; outside drain authority).
 
 ---
 
 ## 🔴 NEXT SESSION — priority-ordered
 
-0. 🔴 **`T-SHADE-01` 5th print** — the 10/1 HY obs (~10/2 AM). If >280 ⇒ level MET; **re-read the sign leg on RAW closes before restating state** (`fetch.py --history` is dividend-ADJUSTED — use recorded raw closes or a raw source).
-1. ✅ **DLIC FY2025 annual DONE (touch 2):** ratio #1 **1.62%** (GREEN); ratio #2 **9.75% floor / ≈37.2% if the affiliate-contingent bonds count as illiquid ABS**. 🔴 Owed: a **registered ABS-leg definition** (decides the 30% red flag; PROME/Will) + **SVO override count**.
-2. 🔴 **ARI match = UNDETERMINED (31.4% strict, rule `0b2eeb897`).** Post-hoc: ~80/20 split on about half the loans. Find the ~20% holder (not AANY, not visibly ALRe); read ARI DEFM14A acc 0001193125-26-119995.
-3. 🔴 **`PREDICTIONS.tsv` + declared-flat TRADE surface** (DAEDALUS; due 9/30, OVERDUE).
-4. **MEMORY.md rotation** (98% of budget; STOP <22,785 B). **Promotion candidate for it/PROME: "a list of things I claim cannot be seen was falsified by documents in my own directory."**
-5. **TWG $6.5B swap at primary** — DLIC Q2/Q3 Note 10 + subsequent events, before ~11/15.
-6. **AG 55 guideline text (LATF)** · **Clear Spring filer surface** · **Apollo Q2 RS segment** (still NOT RUN).
-7. **~11/05–11/18 Athene Q3 cluster** (+ AAIA Q3 statutory) · **~11/15 DLIC Q3** · **11/18 C2** · **11/30 W3 (BROCK)**.
-8. **Retirement scan** — not run 10/1.
+0. 🔴 **Re-read BOTH `T-SHADE-01` legs on that day's closes and HY obs** (`.venv/bin/python AGENTS/SHADE/research/tshade01_signleg_2026-10-10.py` — save a dated copy, edit `END`, `STARTS` and the `end=` fetch bound; RAW closes, ADJ beside). Record the reading in `CLAUDE.md`.
+1. 🔴 **Run the pre-registered dig** (fired 10/10): (a) AAIA FY2025 annual Sch BA → ADS equity holding (public, issuer page) · (b) ADS facility counterparties · (c) F&G > Brighthouse > Corebridge Sch BA · (d) BROCK cross-check. **PROME/Will may rule the window first** (proposal in research §1e).
+2. **Lapsed 10/8 items, by 2026-10-23, in order:** `PREDICTIONS.tsv` + declared-flat TRADE + thesis-level falsifier (DAEDALUS) · MEMORY rotation (98%; STOP <22,785 B) · ARI DEFM14A (acc 0001193125-26-119995) · illiquid-ABS definition proposal → PROME · NAIC SVO override count.
+3. **Guggenheim Universe primary verification** once WALTER delivers the 23-page doc (DLIC Q2 Sch D first).
+4. **TWG $6.5B swap at primary** before ~11/15 · AG 55 LATF text · Clear Spring filer surface · Apollo Q2 RS segment.
+5. **~11/05–11/18 Athene Q3 cluster** (+ AAIA Q3) · **~11/15 DLIC Q3** · **11/18 C2** · **11/30 W3 (BROCK)**.
+6. **Retirement scan** — not run 10/1 or 10/10.
 
 ---
 
 ## ⚠️ NUMBERS DISCIPLINE — carry these exactly
 
+- **`T-SHADE-01` 10/10:** level-run window 9/24→10/9 RAW wrappers **−4.67%** vs managers **−2.05%** (ADJ −3.16 vs −2.05); 9/30→10/9 wrappers **−3.52%** (ADJ −2.70) vs managers **+1.57%**; 8/28→10/9 **−9.67 vs −14.95** (NOT MET). **Always state the window AND the basis.**
+- **10/1 reading, corrected:** 8/28→9/30 **−6.33% vs −16.27%, +9.95pp** (NOT the recorded −7.80/−16.99/+9.19). APO 9/30 close **$116.06** (not $114.83).
+- ⛔ Not BROCK's X1 wrapper half; not LIQUID's X1 level leg (WQ-363, 3 obs).
 - ⛔ Delaware Life leverage **5.1×** (12× RETRACTED). ⛔ **No post-pause flow figure exists.**
-- 1H-26 DLIC: direct prem + deposit-type **$6,726,317,026** · surrenders **$2,060,811,753** · C&S **$4,028,108,426** · GA **$51,249,394,609**. Affiliate-contingent **$16,822,226,503 = 32.82%** vs **$16,371,945,130 = 35.67%** — **quote the PAIR.** Illiquidity **10.05% = FLOOR.**
-- **AAIA 6/30/26:** Sch BA **$18,199,893,162** · bonds+stocks BACV **$174,852,802,889** · mortgage loans **$94,065,949,608**. **ARI-date landing $7,405,267,470 (cost; INFERRED ARI).** ⛔ Never difference against the 10-Q's **+$6,897M** (FV, consolidated, QoQ).
-- **`T-SHADE-01` sign leg (10/1):** raw wrappers **−7.80%** vs managers **−16.99%**, **+9.19pp, NOT MET, 5-for-5.** ⛔ Not BROCK's X1 wrapper half; not L494's 3-obs proposal.
-- **TWG swap "up to $6.5B" = SECONDARY** (Quartz 8/18) — never cite as primary.
-- **AARe "Note 14" (TOC) = body Note 15.** Cite by title + page.
-- NPORT **+37.8bp (pooled)** ≠ 7/27 **+40.2bp (paired)** — never difference. Never quote S2 without S1.
+- 1H-26 DLIC: affiliate-contingent **$16,822,226,503 = 32.82%** vs **$16,371,945,130 = 35.67%** — **quote the PAIR.** Illiquidity **10.05% = FLOOR.**
+- **AAIA 6/30/26:** ARI-date landing **$7,405,267,470** (cost; INFERRED ARI). ⛔ Never difference against the 10-Q's **+$6,897M**.
+- **Guggenheim lead $40.6B / $32.0B** = analyst's perimeter — never sum with DLIC's $16.8B.
+- **TWG swap "up to $6.5B" = SECONDARY.** NPORT **+37.8bp (pooled)** ≠ **+40.2bp (paired)**. Never S2 without S1.
 
 ---
 
@@ -57,22 +56,14 @@
 
 | Item | Status |
 |---|---|
-| **Vector #1 Delaware Life** | 🔴🔴 FIRING; marker (0) MET; marker (4) PARTIAL (size, secondary). NO CHARGES. |
-| **W1 tally** | SHADE (a) FOUND / (b) NOT FOUND; CREED FOUND; BROCK owed. **PROME's call** (strict vs functional reading of (a)). |
-| **§2.8** | 🟠 **~$7.4B (≈85% of the ARI price) visible at AAIA BY DATE; ARI identity UNDETERMINED by rule (31.4%); post-hoc ~80/20 split on about half the loans; economic split to Bermuda not visible.** |
-| **`T-SHADE-01`** | ❌ NOT ARMED — level 4/5 live, sign NOT MET. |
-| **X1 ≡ T-SHADE-01 reconcile** | Not landed; L494 sitting 10/2 (BROCK convenes) rules X1, not my trigger. |
+| **`T-SHADE-01`** | 🔴 **FIRED 10/10 (owner reading); dig OWED; window unregistered — proposal to PROME.** |
+| **Vector #1 Delaware Life** | 🔴🔴 FIRING; marker (0) MET; (4) PARTIAL. NO CHARGES. Guggenheim lead widens rung (6) to a holdings question. |
+| **W1 / L182** | All legs in; **WQ-364 (Will).** |
+| **§2.8** | 🟠 ~$7.4B at AAIA by date; ARI identity UNDETERMINED (31.4%). |
+| **X1 ≡ T-SHADE-01 reconcile** | DOCKET L185, Q3 cluster; BROCK informed of the fire. |
 | **FABN canary / kill-path 1** | 🟡 YELLOW; first graded read Q3 cluster. |
-| **AG 55 / kill-path 2** | 🟠 RE-BASED; VAWG findings surface. |
-
----
-
-## POST-DELIVERY STATE (closeout 13:01 ET)
-- W1 tally NOT RULED: DOCKET L182 carries leg (a) as TWO READINGS; BROCK's leg is at its **10/02** wake.
-- 10 WATCH_FOR phrases landed in `Research-Intake` (`515496b`, `ebde594`). ⚠️ **No lane query fetches them yet (PROME owes it), so silence is not evidence.**
-- Owed by **2026-10-08** (WEEKLY cadence): PREDICTIONS.tsv + declared-flat TRADE (overdue since 9/30) · MEMORY rotation · ARI DEFM14A read · illiquid-ABS definition proposal · SVO count.
 
 ## MAIL STATE
 
-**inbox/ root: EMPTY. inbox/WALTER/: EMPTY** at closeout 13:01 ET — **27 items consumed 10/1** (25 at touch 1 + WALTER R3 verdict + `SIG-W-20261001-017` Hertz, info-only), each with a `board_log.tsv` row. **WQ-295 R3 verdict packet: not present** (SHADE had proposed no terms before today).
-**Outbound 10/1:** `PROME/inbox/2026-10-01_from-SHADE_w1-legs-and-catchup.md` (delivery memo) · `PROME/inbox/2026-10-01_from-SHADE_cadence-and-watch-terms.md` (CADENCE WEEKLY + 10 phrases, cc WALTER) · `AGENTS/CREED/inbox/2026-10-01_from-SHADE_ARI-landed-at-AAIA-…md` (INFO).
+**inbox/ root: EMPTY. inbox/WALTER/: EMPTY** at 10/10 (`inbox_census.py`: 0 · 0). 22 consumed 10/10 (`c8fe05b8a`).
+**Outbound 10/10:** `PROME/inbox/2026-10-10_from-SHADE_lane-query-adopt-decline-by-name.md` · `PROME/inbox/2026-10-10_from-SHADE_l0-drain-9d-dark.md` (delivery memo) · `AGENTS/WALTER/inbox/2026-10-10_from-SHADE_guggenheim-universe-assessed-pull-full-doc.md` · `AGENTS/BROCK/inbox/2026-10-10_from-SHADE_T-SHADE-01-fired-and-W2-primary-wording.md`.

@@ -206,3 +206,9 @@ Structural-change log for SHADE architecture: docs/scripts/protocol/schema chang
 - **board_log:** +14 rows incl. 3 correction/annotation rows.
 - ⚠️ **STRUCTURAL DEBT, unchanged and now urgent: `STATUS.md` 492 lines vs the ~250 cap.** §0e is the oldest live delta; §2 (72 lines, June-vintage) the standing candidate. **Next session's #1.**
 - ⚠️ **New surface established for the next session's W1: the BMA financial-statements route** (`bma.bm/documents-centre/financial-statements/{class-c|class-d|class-e|group-supervision}`, plain `?page=N`, ~60 links/page; Athene appears under **group-supervision**).
+
+## 2026-10-10 (L0 drain, `shade-1010`, PROME-spawned)
+- **CHARTER (C4 own-charter, no authority moved):** step 4b receipt line → the **WQ-399 form** (`SIG-W-20261008-033`, Will 2026-10-08). `T-SHADE-01` reading rows re-dated (10/10 latest · 10/1 prior with corrected figures · 8/28 rows → `git show ffd823d80:AGENTS/SHADE/CLAUDE.md`); window-sensitivity guard carries a dated receipt that the letter registers no sign-leg window. **The letter itself is unchanged** — window registration proposed to PROME, not encoded.
+- **CREATED:** `research/T-SHADE-01_FIRE_AND_L0_DRAIN_2026-10-10.md` · `research/tshade01_signleg_2026-10-10.py` (reproducible sign-leg sweep; RAW + ADJ bases; dated filename so a rerun cannot overwrite a comparator).
+- **board_log:** +22 rows; 22 inbox items `git mv`'d to processed with `consume:SHADE` (`c8fe05b8a`). Receipts +2 (NO-OP ×2).
+- **NOT RUN (drain-only):** MEMORY rotation (98% of budget, rotation_due) · retirement scan · `PREDICTIONS.tsv`. Re-dated by 2026-10-23 in STATUS §10.
