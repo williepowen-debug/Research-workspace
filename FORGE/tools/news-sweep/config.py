@@ -65,6 +65,58 @@ GOOGLE_NEWS_QUERIES = [
         "priority": "medium",
         "label": "pe-insurance",
     },
+    # SHADE lane rows D1–D6 · E1–E2 — added 2026-10-10 13:00 ET by PROME (WQ-295 lane-query sizing, WALTER-sized 10/1 at
+    # AGENTS/WALTER/research/2026-10-01_R3/PROME-lane-queries-A-E-sizing.md; owner adopt/decline BY NAME 10/10:
+    # Research-workspace PROME/inbox/processed/2026-10-10_from-SHADE_lane-query-adopt-decline-by-name.md). One row per leg
+    # (an OR-chain dropped legs at the sizing — E lost Egan-Jones entirely). Landed under WQ-348 C7 (a free feed). $0.
+    {
+        "query": '"Delaware Life"',   # 15/7d at WALTER's 10/1 sizing; vector #1 name
+        "agents": ["SHADE"],
+        "priority": "medium",
+        "label": "shade-D1",
+    },
+    {
+        "query": '"Group 1001 Insurance"',   # 2 true / 0 false at 90d; the bare "Group 1001" leg DECLINED by SHADE (motorsports/sponsorship noise)
+        "agents": ["SHADE"],
+        "priority": "medium",
+        "label": "shade-D2",
+    },
+    {
+        "query": '"Clear Spring Life"',   # 2/7d; ladder rung (5)
+        "agents": ["SHADE"],
+        "priority": "medium",
+        "label": "shade-D3",
+    },
+    {
+        "query": '"TWG Global"',   # 9/7d, noise ACCEPTED by SHADE (carries the Delaware Life swap and the NAIC replies on TWG)
+        "agents": ["SHADE"],
+        "priority": "medium",
+        "label": "shade-D4",
+    },
+    {
+        "query": '"Athene Global Funding"',   # 0/7d, recall unproven — silence is NOT evidence of no FABN syndication (144A deals announce on paywalled wires)
+        "agents": ["SHADE"],
+        "priority": "medium",
+        "label": "shade-D5",
+    },
+    {
+        "query": '"Actuarial Guideline 55"',   # 3/7d; kill path #2
+        "agents": ["SHADE"],
+        "priority": "medium",
+        "label": "shade-D6",
+    },
+    {
+        "query": '"PHL Variable"',   # 7/7d, on-subject (PHL RICO coverage)
+        "agents": ["SHADE"],
+        "priority": "medium",
+        "label": "shade-E1",
+    },
+    {
+        "query": '"Egan-Jones" (DOJ OR SEC OR indictment OR NRSRO OR insurer OR insurance)',   # SHADE's wording, UNMEASURED by WALTER (bare "Egan-Jones" = 6/7d, noisy: proxy votes, sovereign PR). Pre-decided FALLBACK (SHADE 10/10): if WALTER's first sizing of this row misses an on-subject item the bare row returns, land the bare row instead
+        "agents": ["SHADE"],
+        "priority": "medium",
+        "label": "shade-E2",
+    },
 
     # HENRY domain — energy / oil / geopolitics
     {
