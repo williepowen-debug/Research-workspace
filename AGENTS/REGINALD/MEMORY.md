@@ -19,11 +19,20 @@
 
 ## Session Notes
 
-⚠️ **Open question (10/10 PM):** does the late-September jump in smaller banks' borrowing (H.8 `H8B3094NSMA` +$32.9B / +11.7% in 3 weeks to 9/30; deposits flat) **continue, hold or reverse in the Fri 10/16 print (week of 10/7)**, and does any Q3 print show it **with deposits leaving** (the PNC pattern spreading)?
+⚠️ **Open question (10/10 late PM):** does the late-September jump in smaller banks' borrowing (H.8 `H8B3094NSMA` +$32.9B / +11.7% in 3 weeks to 9/30; deposits flat) **continue, hold or reverse in the Fri 10/16 print (week of 10/7)**, and does any Q3 print show it **with deposits leaving** (the PNC pattern spreading)? **New 10/10:** FHLB system debt rose only +$6.2B in Sep, so most of that borrowing was likely NOT FHLB (or was funded from FHLB liquidity). The OF combined Q3 figure (~10/29) can only flag the FHLB-liquidity case (advances well above ~$770B); per-bank attribution waits for the 11/07 Call Reports.
 - The L180 breadth test (11/07 Call Reports) stays the CRE question; it is in the read plan, not here.
 *Prior open question + LAST SESSION 10/9 PM (incl. 10/10 AM) + PRIOR SESSION 10/9 AM → `archive/MEMORY_rotation_2026-10-10.md` BLOCK M1, crc32 `1548bf8c`.*
 
-### LAST SESSION — 2026-10-10 Sat ~12:39 → ~13:5x ET (Will-launched, Opus 5.5; AM bookkeeping is in BLOCK M1)
+### LAST SESSION — 2026-10-10 Sat ~14:04 → ~14:2x ET (Will: "more digging into the FHLB situation", Opus 5.5)
+**Boot:** full read set · market.py (10/9 settled, weekend) · ladder rc 1 (FLG RED, 3 closes) · staleness 0 · corrections 0 · inbox 0. No pull (PROME's dirty tree).
+**Found (`reports/2026-10-10_FHLB_Q3_nowcast_from_OF_debt.md`):**
+- **Office of Finance monthly debt files run through 9/30** (`cdn.fhlb-of.com/files/Debt%20Statistics/fhlbanalystdata.xlsx`): FHLB debt **−$42.1B in Q3** ⇒ advances nowcast **≈ $770B (±2 sd $728–813B)**, fit corr 0.98 on 25 qtrs ⇒ `REG-T-06` fires as lettered in a SHRINKING quarter.
+- **Sep H.8 borrowings +$54.5B vs FHLB debt +$6.2B** (gap 3rd of 41 months): not yet attributable.
+- **Scale:** SVB's first week was +$290B in one week; the 9/30 move is ~1/9 of that; large banks +0.9%.
+- **Dead ends:** FHLBank 8-K 2.03 (excludes DNs ≤1yr) · H.8 FHLB split (discontinued 2018) · OFR MMF agency (through 8/31 only).
+- **Press:** American Banker 9/16 "replace deposits" has no bank-level evidence; filings say PNC only.
+**Sent:** PROME WQ-414 addendum (rule early) · WALTER amendment to the 10/10 signal (scale + FHLB share, for LIQUID).
+### PRIOR SESSION — 2026-10-10 Sat ~12:39 → ~13:5x ET (Will-launched, Opus 5.5; AM bookkeeping is in BLOCK M1)
 **1. Boot:** full read set · market.py (10/9 settled, stale-weekend) · ladder rc 1 (FLG RED, 3 closes) · staleness · corrections 0 · inbox 0 at boot (+1 MARCO Pharr wording NO-OP, filed).
 **2. ★1 as-made audit (`28c7dd7dd`):** all 20 rows by text; REG-13 re-formed; REG-07 "Brier on 55%" corrected to 68% (WQ-112(i)); REG-10 registered after its outcome, kept scored (WQ-161 ②). DAEDALUS packeted (10/12 sitting).
 **3. ★2 FHLB (`e4916e89a`, `11f3a8a4b`, `e1fc74154`):**
@@ -37,7 +46,7 @@
 ### NEXT SESSION
 **★ NEXT BOOT (set 10/10 PM; Will's three catch-up items are DONE, see LAST SESSION):**
 1. **Weekly funding read: Thu 10/15 H.4.1 · Fri 10/16 H.8** (`H8B3094NSMA`, `WLCFLPCL`, small-bank deposits + cash, SA AND NSA). Continue / hold / reverse? A deposit decline alongside = the PNC pattern spreading → packet LIQUID + PROME the same session. Bars stay descriptive (base-rate before any registration).
-2. **`REG-T-06` re-letter:** Will's word via PROME's WQ row, BEFORE the ~10/29 Q3 figure. On his word: update `registry/THRESHOLDS.tsv` + `registry/NOTES.md`, then ONE packet to LIQUID + BOND (held until then). Without a word, it grades as lettered with the composition read attached.
+2. **`REG-T-06` re-letter (WQ-414, due 10/24):** Will's word via PROME's WQ row, BEFORE the ~10/29 Q3 figure. On his word: update `registry/THRESHOLDS.tsv` + `registry/NOTES.md`, then ONE packet to LIQUID + BOND (held until then). Without a word, it grades as lettered with the composition read attached. **Grade the print against the 10/10 nowcast (≈ $770B); a miss >$40B ⇒ check FHLBank liquidity drawdown in the Q3 10-Qs. Re-pull the OF debt file each month-end (October ~early Nov).**
 3. **REG-07 (WQ-412): Will's VOID-or-grade before SSB prints Wed 10/21 AMC;** without a word, it grades on the CHANGE (scores at 68%).
 4. **HBAN puts (WQ-302):** Will sells or rolls by Wed 10/14; write the fill back to POSITIONS from the broker export.
 5. **Large-bank desk:** DAEDALUS holds the packet (`32d24f8ff`). Citi / USB / WFC FHLB purpose is that desk's perimeter if built.
@@ -63,6 +72,8 @@
 **🟢 Done 10/10 PM:** catch-up ①–③ + FHLB follow-ups + write-back pass (LAST SESSION). **🟢 Done 10/9 PM:** monitor repair (OZK FDIC route · VLY CIK · coverage · no false all-clear · countdown · settled bars) · Q3 read plan + Will's clarifications. **🟢 Done 10/7:** 0-CARD (TERRY `TRY-COND-KREADD`, conditional, not armed) · 0-EXP (KRE rolled) · 0-WB · 0-WQ318 · item 1 TRY-FIRE-002 dates · DAEDALUS header · R3 phrases.
 
 **CARRIED LESSONS — behaviour, not record.** *Newest first. Aging rule (9/02): full entry → one-line rule AND the full text goes to `archive/` verbatim + crc in the same pass. ⛔ Never age a lesson by deletion (the 12-21 compressions archived nothing; git history only). Preamble → BLOCK M7, crc32 `8028ecb4`.*
+46. **[10/10 late PM] I sent "largest 3-week rise in 160 weeks" to WALTER, STATUS and Will. The 160-week window began 9/13/2023, just AFTER SVB, whose first week alone was ~9× the move.** I had also measured from a 9/09 trough (+11.7% vs +5.9% month-end to month-end). Both were true, and both made it look bigger.
+   - ⇒ **A base-rate window must include the episode that defines the scale (here 2023), or name what it leaves out. Quote the change from a neutral base (month-end), not from the trough.**
 45. **[10/10 PM] I told Will "the regionals were flat, so this isn't regional stress" from a 6/30 quarterly print, and checked the weekly H.8 only when he asked whether newer data existed.** It showed small-bank borrowings +11.7% in the three weeks to 9/30, the 160-week max. Same day: my own 9/11 receipt had written "Brier on 55%" against WQ-112(i), ratified ten days before it.
    - ⇒ **Before a "this is not happening" read built on a quarterly print, pull the fastest proxy that could contradict it, and date both.**
    - ⇒ **Before writing a scoring rule into a receipt, read the ratified canon (`FORGE/PREDICTION_DISCIPLINE.md`), not the asking packet's framing.**
