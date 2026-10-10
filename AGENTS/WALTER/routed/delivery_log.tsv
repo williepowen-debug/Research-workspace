@@ -3996,3 +3996,8 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-10-09T22:20:56Z	SIG-W-20261009-015	HAWK	INFO	UNKNOWN	PRIORITY	AGENTS/HAWK/inbox/WALTER/SIG-W-20261009-015.md	delivered	Create-only; owner integration unverified
 2026-10-10T15:00:27Z	SIG-W-20261010-001	VIOLET	ACTION	UNKNOWN	PRIORITY	AGENTS/VIOLET/inbox/WALTER/SIG-W-20261010-001.md	written_not_delivered_pending_push	Create-only; owner integration unverified
 2026-10-10T15:00:27Z	SIG-W-20261010-001	HENRY	INFO	UNKNOWN	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20261010-001.md	written_not_delivered_pending_push	Create-only; owner integration unverified
+2026-10-10T15:32:42Z	SIG-W-20261010-002	FALCON	ACTION	UNKNOWN	IMMEDIATE	AGENTS/FALCON/inbox/WALTER/SIG-W-20261010-002.md	written_not_delivered_pending_push	Create-only; owner integration unverified
+2026-10-10T15:32:42Z	SIG-W-20261010-002	BRENT	ACTION	UNKNOWN	IMMEDIATE	AGENTS/BRENT/inbox/WALTER/SIG-W-20261010-002.md	written_not_delivered_pending_push	Create-only; owner integration unverified
+2026-10-10T15:32:42Z	SIG-W-20261010-002	HAWK	INFO	UNKNOWN	IMMEDIATE	AGENTS/HAWK/inbox/WALTER/SIG-W-20261010-002.md	written_not_delivered_pending_push	Create-only; owner integration unverified
+2026-10-10T15:32:42Z	SIG-W-20261010-002	SAM	INFO	UNKNOWN	IMMEDIATE	AGENTS/SAM/inbox/WALTER/SIG-W-20261010-002.md	written_not_delivered_pending_push	Create-only; owner integration unverified
+2026-10-10T15:32:42Z	SIG-W-20261010-002	HANS	INFO	UNKNOWN	IMMEDIATE	AGENTS/HANS/inbox/WALTER/SIG-W-20261010-002.md	written_not_delivered_pending_push	Create-only; owner integration unverified
