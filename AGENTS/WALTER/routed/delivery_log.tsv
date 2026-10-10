@@ -4027,3 +4027,8 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-10-10T18:21:25Z	SIG-W-20261010-007	BROCK	INFO	UNKNOWN	PRIORITY	AGENTS/BROCK/inbox/WALTER/SIG-W-20261010-007.md	written_not_delivered_pending_push	Create-only; owner integration unverified
 2026-10-10T18:31:26Z	SIG-W-20261010-008	BRENT	ACTION	UNKNOWN	ROUTINE	AGENTS/BRENT/inbox/WALTER/SIG-W-20261010-008.md	written_not_delivered_pending_push	Create-only; owner integration unverified
 2026-10-10T18:31:26Z	SIG-W-20261010-008	HAWK	INFO	UNKNOWN	ROUTINE	AGENTS/HAWK/inbox/WALTER/SIG-W-20261010-008.md	written_not_delivered_pending_push	Create-only; owner integration unverified
+2026-10-10T19:01:43Z	SIG-W-20261010-009	VULCAN	ACTION	UNKNOWN	PRIORITY	AGENTS/VULCAN/inbox/WALTER/SIG-W-20261010-009.md	written_not_delivered_pending_push	Create-only; owner integration unverified
+2026-10-10T19:01:43Z	SIG-W-20261010-009	BROCK	ACTION	UNKNOWN	PRIORITY	AGENTS/BROCK/inbox/WALTER/SIG-W-20261010-009.md	written_not_delivered_pending_push	Create-only; owner integration unverified
+2026-10-10T19:01:43Z	SIG-W-20261010-009	SHADE	INFO	UNKNOWN	PRIORITY	AGENTS/SHADE/inbox/WALTER/SIG-W-20261010-009.md	written_not_delivered_pending_push	Create-only; owner integration unverified
+2026-10-10T19:01:43Z	SIG-W-20261010-009	LIQUID	INFO	UNKNOWN	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20261010-009.md	written_not_delivered_pending_push	Create-only; owner integration unverified
+2026-10-10T19:01:43Z	SIG-W-20261010-009	HENRY	INFO	UNKNOWN	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20261010-009.md	written_not_delivered_pending_push	Create-only; owner integration unverified
