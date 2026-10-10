@@ -1,3 +1,16 @@
+## 2026-10-10T15:52:59Z — 10/10 laptop session (`walter-66`, Claude Code, Opus 5.5) · TIER-2 FULL CLOSEOUT (Will: "Okay lets close out WALTER here", 11:50 ET)
+
+Boot 10:53 ET 0→9b; PARTIAL at first report (7h X-bookmarks: laptop token dead after the desktop's 10/9 rotation), COMPLETED after Will re-authorized ~11:24 ET. Pull a no-op (0/0); doctor 0 HIGH / 7 MED at boot, 6 MED at closeout (newsweep flag cleared); RED scan sha matches canon; READ-CAP 0 within 22 declared cap-bearing reads (attested manifest perimeter); prior Tier-2 commit `afbaa294d` on origin; BOARD count 1306 = STATUS (no post-closeout work).
+- **7g:** AEOLUS reviewer packet consumed — `-1008-027`'s "+2.1 weekly" Niño-3.4 is CPC's monthly RELATIVE index (weekly rose +3.1→+3.2); additive BOARD note (`6ac0d70dc`), no re-dispatch (no consumer built on it). NEXUS S1 packet still deliberately unconsumed (due 10/13).
+- **Lane/phone/drop-zone:** 0 new; `--mark` reconciled 19 keys.
+- **Thumbdrive check (Will's ask):** `E:\walter-env.txt` (10/8 17:20) fingerprint-identical to the laptop `.env` — same dead token; temp copy removed. First `--authorize` (Will's `!` run) timed out unseen (moved to background, gio could not open a browser); re-run by WALTER in background + `powershell.exe Start-Process` → re-authorized.
+- **Outputs:** `-001` PRIORITY SKEW CBOE 10/09 154.34 = RED-FT-10 1 of 4 · `-002` IMMEDIATE Iran/Saudi: FIRMS fires at Shedgum/Hawiyah gas plants inside Ghawar (cause unknown), Ghawar strike claim UNSUPPORTED, KKIA hit again, Aramco full Nov crude to Europe (unnamed) · `-003` PRIORITY Russia diesel OFAC GL 135 + Trump tranches + Rostov terminal strike + TD22 $79.6M · `-004` PRIORITY Citi long-bond cut forecast + Shelton · `-005` PRIORITY Fed SCF 19.6% behind; Atlanta/793K corrected · `-006` ROUTINE Nomura concentration/dispersion, Wood, SEC FOIA 7(A) log.
+- **Batch:** X-bookmarks BM-20261010-01 CLOSED 32/32 (28 DISPATCH, 1 FOLD, 1 DUP, 1 NO-ACTION, 1 KILL); three verify agents (Opus). Commit `305510d1e`'s body says "20 DISPATCH … (plus -002's 6)"; correct is 22 + 6 = 28 (not amended, per 4b).
+- **Will's A + C (11:30 ET, verbatim "Okay lets do A and C"):** DEWEY `REQ-DEWEY-20261010-001` (Russia diesel net supply vs Ukraine strikes; due 10/14) committed `16395614d`; PROME woke BRENT, OSPREY, VIOLET (+ FALCON on WALTER's rec, WQ-369 C8) and spawns DEWEY.
+- **Day totals:** 6 outputs, 1 kill, 28 handoff rows / 20 desks, all delivered (on origin via another session's push; reconcile wrote 28, 0 orphans). Anchor 10/10 limb line (23,810 B).
+- **Own slip, caught:** an unquoted heredoc executed two backtick SIG references as shell commands and dropped them from `-002`; restored before commit.
+- **Surfaced to Will:** QQQ Oct-9 $755P disposition (WQ-397).
+
 ## 2026-10-09T22:59:33Z — 10/9 desktop evening session (`walter-da`, Claude Code, Opus 5.5) · TIER-2 FULL CLOSEOUT (Will: "Okay lets close out here", 18:58 ET)
 
 Discharges the morning's light-closeout breadcrumb (14:53Z). Boot 17:41 ET 0→9b COMPLETE except the tanker review (then run on Will's word). Pull a no-op (HEAD = origin 0/0); doctor 0 HIGH / 8 MED; RED scan sha matches canon; READ-CAP 0 within 22 declared cap-bearing reads (attested manifest perimeter).

@@ -77,6 +77,8 @@
 
 46. **A capped snippet pass over a grep's hit list can spend its whole cap on ONE file and hide the rest. Before calling an item new, read one line from EACH hit file.** 10/8 evening: the "already ours?" grep for Broadcom hit `-006`, `-024` and `-038`; the 3-snippet cap was used up on `-006`, so `-044` went out repeating `-024` (BOARD note on `-044`). Same evening, same root: the batch manifest was declared 17 by eye against a tool-printed by_class sum of 18. **Take counts and hit lists from the tool's own output, not from a capped or hand-made view of it.** → CHECKLIST rule 1b · `[[finding_truncation_returns_a_plausible_answer_not_an_error]]`
 
+47. **An interactive auth step handed to Will as a `!` command can fail unseen.** 10/10: Will's `! … x_bookmarks_scan.py --authorize` ran past the 120 s display limit, was moved to the background, and its sign-in URL went to a file he never saw; `gio` could not open a browser from WSL, so it timed out after 5 min. Fix that worked: WALTER runs `--authorize` itself with `run_in_background`, reads the URL from its output, opens it with `powershell.exe -NoProfile -Command "Start-Process '<url>'"`; Will only clicks Authorize. Same session: the L3 refresh-FAILURE leg was live-observed (400 → exit 1, nothing marked), as designed. → owning surface `design/X_BOOKMARKS_ACCEPTANCE.md` §9 (edit owed, via SPEC_OWNERSHIP)
+
 **✅ RETIRED 2026-09-01 — the two-branch-test-sharing-a-premise finding (2026-08-03) is PLACED:** PROME landed it as the n=5 extension of `[[finding_enumerated_mechanism_test_hides_a_completeness_claim]]` (8/31 night, packet filed to WALTER 9/1) and the test now sits in bold in `FORGE/PREDICTION_DISCIPLINE.md` § Registration. *(Was: "owed, not placed — WALTER cannot file to a PROME-owned surface." The obligation discharged the way it was supposed to: a packet, then the owner's write.)*
 
 ## References
@@ -89,14 +91,14 @@
 - **Bright Data Web Unlocker (WQ-383 pilot, LIVE 2026-10-04):** `bdata scrape <url>` for a 403'd no-screenshot bookmark link; free tier 5k/mo HARD STOP, Web-Unlocker-only, key in gitignored `.env` (per-machine). Full method+limits+ledger: `design/X_BOOKMARKS_ACCEPTANCE.md` §9a.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION — 2026-10-09 TIER-2 FULL CLOSEOUT (`walter-da`, Claude Code, Opus 5.5, desktop evening)
+### CHANGES SINCE LAST SESSION — 2026-10-10 TIER-2 FULL CLOSEOUT (`walter-66`, Claude Code, Opus 5.5, LAPTOP)
 
-Morning (`walter-50`): `-001`…`-010` incl. Will's boundary #6/#8 ruling and the WFC-date correction. Evening: boot 17:41 ET; lane 16/16 + X-bookmarks 14/14 closed; `-011` Isaias Cat 3 landfall forecast · `-012` Oracle trucked gas / Lordstown CORRECTED-FRAMING · `-013` SKEW provisional 154.34 watch · `-014` RU refinery/diesel headlines · `-015` weekly tanker review (Gibson TD3C new high; Baltic wk41 gated). Day: 15 outputs, 14 kills, 66 handoff rows. Evening commits reached origin via PROME's 18:44 push (66/66 delivered); the closeout commit is local. Finding #34 n+1.
+Boot 10:53 ET. `-001` SKEW 1 of 4 · `-002` IMMEDIATE Ghawar gas-plant fires (cause unknown) / KKIA / Aramco Europe · `-003` Russia diesel GL 135 · `-004` Citi/Shelton · `-005` SCF consumer · `-006` markets. X-bookmarks 32/32 after Will re-authorized on the laptop. Will's "A and C": DEWEY `REQ-DEWEY-20261010-001` (due 10/14) + PROME woke BRENT/OSPREY/VIOLET (+FALCON on WALTER's rec). All commits on origin; 28/28 handoffs delivered. Heredoc finding n=4 (backticks) appended to fleet memory.
 
 ### NEXT SESSION
-1. **Confirm the 10/9 Tier-2 closeout commit is on origin**; push via `scripts/safe-push.sh` only on a tree clean of foreign work.
-2. **SKEW:** read CBOE `SKEW_History.csv` for 10/09 — ≥150.00 = RED-FT-10 1 of 4 (chain PROME, VIOLET; Yahoo 154.34 is provisional). Mon 10/12 is a trading day (Columbus Day).
-3. **Isaias aftermath:** NHC post-landfall, BSEE/MMA next release, port/LOOP/refinery status (UNKNOWN at close); AEOLUS/CORAL on DOCKET Saturday rows L627/L638.
-4. **Baltic week 41** TD3C/TD34 by 10/12 (laptop `bdata scrape` or relay); next weekly tanker review Fri 10/16.
-5. **NEXUS S1 packet** (in `inbox/`, unconsumed by design): three asks, packet to `PROME/inbox/` by Tue 10/13.
-6. Owed checks: OZK $915M RaDD bridge outcome (matured 10/9, not checked); FRED 10/9 HY print vs >320 (posting date uncertain over the bond-market holiday); X token lives on the DESKTOP `.env` (rotated 10/9 09:46 ET) — carry it at a machine switch; MEMORY/anchor size checks 10/15.
+1. **Machine:** the X token now lives on the LAPTOP `.env` (re-authorized 10/10 11:24 ET); the desktop copy and `E:\walter-env.txt` are dead. Carry the laptop `.env` at the next switch.
+2. **RED-FT-10:** read CBOE `SKEW_History.csv` for 10/12, 10/13, 10/14 (VIOLET owns the count; a bar <150 resets).
+3. **DEWEY delivery** of `REQ-DEWEY-20261010-001` (due Wed 10/14): close the ledger row at step 7d.
+4. **NEXUS S1 packet** to `PROME/inbox/` by Tue 10/13.
+5. **FALCON** grade of Shedgum/Hawiyah (`-002`); Iran full sweep ~10/15; anchor 23,810 B (trigger 24,412).
+6. Owed checks: OZK $915M bridge outcome; Baltic TD3C/TD34 wk41 (laptop `bdata`); tanker STATE.csv TD22 row; FRED 10/9 HY print; MEMORY/anchor size checks 10/15.
