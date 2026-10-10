@@ -75,7 +75,7 @@ KRE since 9/14: 12 sessions, 7 down / 4 up / 1 flat; 74.11 → 69.83. **Yes, a s
 ## 2026-10-07 PM — L527 session (PROME-spawned, Opus): working notes
 
 **Instrument notes (not yet promoted):**
-- FFIEC CDR JWT WORKS on the laptop (token in `FORGE/tools/market-data/.env` since 9/22) — the CALENDAR 11/05 row's "desktop-only" remark is stale; regeneration before 11/05 is still Will's.
+- ✅ **PROMOTED 10/10 → CALENDAR 11/05 row fixed (token on both machines).** FFIEC CDR JWT WORKS on the laptop (token in `FORGE/tools/market-data/.env` since 9/22) — the CALENDAR 11/05 row's "desktop-only" remark is stale; regeneration before 11/05 is still Will's.
 - `fetch.py fred` CDN-stale class: used the cache-busted `fredgraph.csv?...&nocache=` route + `fred_fetch_vintage(basis='first-published')`; identical on every HY/CCC/B/BB cell 9/25–10/6.
 - Independent price route that works from this box: `api.nasdaq.com/api/quote/<T>/historical` (UA + Accept json). Stooq now serves a JS proof-of-work page — dead for curl.
 - RC-K average IB deposits ÷ period-end IB: ~1.33× EGBN every quarter, ~1.1× OZK, 1.34× CUBI in 2025 → [CR] deposit cost INCOMPARABLE there (KB ML-REG-180; lesson 42). Cause not chased.
@@ -85,7 +85,7 @@ KRE since 9/14: 12 sessions, 7 down / 4 up / 1 flat; 74.11 → 69.83. **Yes, a s
 - OZK −4.31% on 10/6 vs KRE −0.45%, no news found (one search). OZK desk's own <$45 band closed below 10/6 ($44.58) and 10/7 ($43.56) — the OZK desk grades it; OZK desk last committed 10/2.
 - CFG FHLB advances 0.01B [9/30/25] → 6.36B [6/30/26]; +3.85B in Q2 alone, while CFG cut ~$1.5B Treasury brokered (INFERENCE: substitution). It is in the WQ-318 F3 line.
 - STLFSI4 +0.34 in the week to 10/2. One week; not a level signal.
-- Sub-reader side finding (NOT verified by me): VLY 8-K dated 2026-09-28 announces a merger agreement to acquire Bluevine Inc. (small-business fintech). If true, it touches my BaaS/sponsor-bank perimeter (WQ-228). Read the 8-K before citing.
+- ✅ **VERIFIED 10/10 at the 8-K (acc 0001193125-26-403391): $340M, $2.1B deposits, close early 2027; Bluevine banks through Coastal Community Bank → KB ML-REG-188 + ROADMAP BaaS thread.** Sub-reader side finding (NOT verified by me): VLY 8-K dated 2026-09-28 announces a merger agreement to acquire Bluevine Inc. (small-business fintech). If true, it touches my BaaS/sponsor-bank perimeter (WQ-228). Read the 8-K before citing.
 
 ## 2026-10-09 PM — pruned at closeout (same session)
 

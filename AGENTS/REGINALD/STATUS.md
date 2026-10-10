@@ -3,10 +3,10 @@
 - ★ **FHLB Q3 nowcast (10/10 late PM, OF debt files through 9/30):** total FHLB debt **$1,330.8B [6/30] → $1,288.8B [9/30] (−$42.1B)**; Sep +$6.2B only. Fitted on 25 quarters (corr 0.98) ⇒ **Q3 advances ≈ $770B (±2 sd $728–813B), down ~5%**; ≤$700B needs a miss twice the worst seen. ⇒ **`REG-T-06` very likely FIRES as lettered in a quarter when FHLB lending SHRANK** (WQ-414, due 10/24). → `reports/2026-10-10_FHLB_Q3_nowcast_from_OF_debt.md`.
 - **Funding tell (Fed H.8 weekly, through 9/30):** small-bank borrowings (FHLB + other) **+$32.9B / +11.7% in 3 weeks**, the largest rise in 160 weeks (⚠️ the window starts AFTER SVB: SVB's first week was **+$290B in ONE week**, ~9× this) and not a quarter-end pattern. Large banks +0.9%. **Barely visible in FHLB debt** (banks' borrowings +$54.5B in Sep vs FHLB debt +$6.2B; gap 3rd of 41 months) → repo/fed funds, FHLB liquidity drawdown, or large members paying down: not yet separable. Small-bank deposits flat; discount window above its 60-week p90 for two weeks ($9.97B [10/7]). Credit-side bars quiet. **Read (inference): banks lining up cash, not credit transmission.** WALTER signal → LIQUID (+ amendment 10/10 late PM). Next H.8 Fri 10/16.
 - **FHLB (6/30):** about half of H1's +$136B is four very large banks (PNC · Citi · USB · WFC); mid/small filers flat; Atlanta +6.9%, SF −10.6%. ⚠️ **`REG-T-06` does not discriminate** (>$700B in 12 of 26 quarters since 2020) → re-letter question to Will via PROME, before the ~10/29 Q3 figure.
-- **As-made audit complete** (20 rows): REG-13 re-formed; REG-07 scores at 68% (WQ-112(i)). **Five July threads closed** (archive crc `fd8df983`).
-- **Open with Will:** REG-07 VOID before 10/21 (WQ-412) · `REG-T-06` re-letter (WQ pending) · HBAN puts by 10/14 (WQ-302) · large-bank desk · JWT by 11/05.
+- *(10/10 PM as-made audit + July-threads bullet → BLOCK T26, `cf568883`)*
+- **Open with Will:** REG-07 VOID before 10/21 (WQ-412) · `REG-T-06` re-letter (WQ-414, due 10/24; Q3 nowcast ≈ $770B) · HBAN puts by 10/14 (WQ-302) · large-bank desk · JWT by 11/05.
 *Prior headlines (10/10 AM · 10/9 PM), the 10/9-AM-and-older pointer chain and the stamp chain → `archive/STATUS_rotation_2026-10-10.md` BLOCK T20, crc32 `084f8b0d` (recompute before trusting).*
-**Last Updated:** **2026-10-10 Sat ~14:1x ET (Will-launched FHLB dig):** Q3 nowcast from OF debt · H.8 scale vs SVB · Sep H.8-vs-FHLB gap. **Prior ~13:5x ET (items ①–③ + write-back):** as-made audit · FHLB + `REG-T-06` · weekly funding bars · July threads · TRADE/CALENDAR refresh · rotations T20–T25 (prior stamps in T20).
+**Last Updated:** **2026-10-10 Sat ~15:3x ET (Will: failures list + core-file sweep):** + 2026 bank failures row (6, FDIC list 9/25). **Prior ~14:1x ET (Will-launched FHLB dig):** Q3 nowcast from OF debt · H.8 scale vs SVB · Sep H.8-vs-FHLB gap. **Prior ~13:5x ET (items ①–③ + write-back):** as-made audit · FHLB + `REG-T-06` · weekly funding bars · July threads · TRADE/CALENDAR refresh · rotations T20–T25 (prior stamps in T20).
 
 > **Thesis state:** STATUS is thesis-canonical (THESIS retired 8/13). Older carry blocks → `archive/STATUS_rotation_2026-09-02.md` BLOCK N and `archive/STATUS_rotation_2026-09-24b.md`.
 
@@ -23,11 +23,9 @@
 |---------|-----------|--------|
 | CRE | 70% of CRE at regionals, 70-94% loss severity confirmed. **Apr 2026: dual-stress now — Office plateau 11.69% +141bps YoY + Multifamily +56bps to 7.71% (NEW vector); GSE MF (HOMER, issuer primary, refreshed 9/26): Freddie MF DQ **0.64% [Aug]**, fourth straight rise off a 0.42% Feb trough, above HOMER's >0.50% RED · Fannie MF SDQ **0.61% [Jul]**, rising off 0.58% [May] (its fall from 0.78% was a loan MODIFICATION, not a cure; pair GSE DQ with the filer's provision direction) · Trepp CMBS MF DQ **7.69% [Aug]**, flat. The GSE-improving/CMBS-deteriorating asymmetry is GONE; compare directions, not levels (0.6% vs 7.7%).** | 🔴 |
 | Hidden CRE | Cohort MI3 re-run shipped 8/13 (56 primary bank-quarters) → `reports/2026-08-13_MI3_cohort_rerun.md` + `workbook/MI3_COHORT.tsv`. v1a basis ruled 4+9.a (8/28); **rank citations DO-NOT-CITE until the 11/07 Q3 re-run.** Full cell → `archive/STATUS_rotation_2026-09-24b.md`. | 🟠 |
-| SSFA / NDFI | $4.2T industry-wide NDFI (+35% YoY); hidden CRE Layer 2 | 🔴🔴 |
-| Private Credit | Ares gated (5% cap, 11.6% requests), Apollo 45¢/$1, bad PIK 6.4%, MS projects 8% default | 🔴🔴 CRITICAL |
-| MFS/Fraud | £2B double-pledging — Barclays/Jefferies/Apollo. Cantor $270M ring. | 🔴 |
+| SSFA/NDFI · Private Credit · MFS/Fraud | **Owner-held** (BROCK · HANS · LIQUID); the April cells (🔴🔴 'Ares gated', '£2B') were stale → BLOCK T27 `2f496d31` | → owners |
 | CMBS Maturity | $875B total CRE maturing 2026 (MBA *2025 CRE Survey of Loan Maturity Volumes*, released 2026-02-09 — PRIMARY-CITED by HOMER 9/2 at MBA's own text on the newslink.mba.org mirror; 2027 $652B; 2026 is −9% vs $957B in 2025; depositories $396B = the largest lender bucket). $76.6B hard maturity + $400B wall pushed to 2026. No extensions. | 🔴🔴 |
-| Federal Layoffs | DOGE 307K+ confirmed. DC corridor stress ACTIVE. | 🔴 |
+| Federal Layoffs | **Owner-held (LABOR)**; April cell → BLOCK T28 `2f7a5b42` | → LABOR |
 | Stagflation Trap | Rate leg at a cycle-high LEVEL; energy leg high. **Live levels → §THRESHOLD STATUS 10Y / 30Y / Brent rows (one source of truth).** The 9/25 narrative read (hike, real-yield-led move, Brent named contracts, KRE drift) → BLOCK T18, crc32 `d372ca3b`. ⛔ HAWK/BRENT/FALCON own oil, BOND owns the curve. | 🔴 |
 
 ---
@@ -39,7 +37,7 @@
 ## RESEARCH — POSITION NAMES (pointers to canonical state)
 
 ⚠️ **OZK and WAL are PEER AGENTS: read `../OZK/STATUS.md` / `../WAL/STATUS.md`. Their version, EV and PT are never mirrored here.** Full note → `archive/STATUS_rotation_2026-09-24c.md`.
-*(The Apr-30/May-vintage OZK and 7/25-vintage WAL blocks that sat here were REMOVED 2026-08-20 — both were flagged stale at the 7/17 audit and both duplicate a peer's canonical surface. Git history retains them.)*
+*(→ BLOCK T29, `72424e60`)*
 
 ---
 
@@ -106,7 +104,7 @@
 
 ## ⚠️ THRESHOLD STATUS (**10/10 refresh: WAL/KRE/FLG = SETTLED 10/9 closes (two routes); HY/CCC/B/BB FRED 10/8 (10/9 not yet posted, checked 10/10 ~13:5x ET); small-bank borrowings H.8 through 9/30. Claims w/e 10/3, DGS10/30 10/8, VIX/^TNX/Brent 10/9 vendor reads, as before.** Older notes → BLOCK T22, crc32 `7314d335`, and BLOCK T19. Rows not named keep their stated vintage.)
 
-> *Refreshed 8/20 after this block sat at a **7/24 vintage for 27 days** — the exact defect LESSON 15 names ("the surface you cite from memory is the one that rots"). Every row below is re-pulled, not carried.*
+> *(→ BLOCK T30, `597017ec`)*
 
 | Metric | Threshold | Current | Note |
 |--------|-----------|---------|------|
@@ -125,7 +123,7 @@
 | **Bank failures, 2026 (FDIC)** | *(no registered line)* | **6** [FDIC Failed Bank List, last updated **9/25**; pulled 10/10]: Metropolitan Capital 1/30 · CB&T West Georgia 5/1 · Kentland 7/10 · Small Business Bank 7/17 · Tioga-Franklin 8/21 · **Nano Banc 9/25** | 🟡 **Most since 2017 (8) by count; ≈ $1.45B assets in total, est. FDIC cost ≈ $243M; none in my 14 or on Will's book.** A count, not a channel: a cohort name failing would be the signal. Re-pull the CSV for the count, never this cell → `reports/2026-10-10_2026_bank_failures_FDIC_list.md`. |
 | **Small-bank borrowings (H.8, FHLB + other)** | *(no registered line; 9/29 descriptive bar ≥+5%/month)* | **$314.5B [9/30]**, +$32.9B / **+11.7% in 3 weeks** (281.6 [9/09]); SA, FRED `H8B3094NSMA`, updated 10/9 | 🟠 **Largest 3-week rise in 160 weeks; not a quarter-end pattern (12 prior QEs −4.9% to +1.4%).** ⚠️ **Scale (added 10/10 late PM): the 160-wk window starts after SVB; since 12/2022 it ranks 4th, behind the three SVB weeks (+$290B in the week of 3/15/23 alone). Month-end to month-end Sep: +$17.1B / +5.9% NSA. Large banks +0.9% SA over the same 3 weeks. FHLB system debt +$6.2B in Sep** (nowcast report §4). Small-bank deposits FLAT (5,674 → 5,673); discount window ≤ +$2.9B of it (all banks). ~2/3 shows as cash on SA (+$21.2B), but NOT on NSA (+$5.6B) → precautionary-liquidity read is INFERENCE. Not FHLB-specific, no bank named. Next print Fri 10/16. → report addendum `reports/2026-10-10_FHLB_Q2_composition_and_REG-T-06_base_rate.md`. *(Replaces the 8/05 H.8 deposits row: large +1.28% / small +0.04%, 4wk; git history.)* |
 
-*(**Macro read of 7/9** — 1,680 B, wholly superseded by §BOTTOM LINE §WHAT CHANGED 8/27 → 9/1 — ROTATED VERBATIM 2026-09-02 → `archive/STATUS_rotation_2026-09-02.md` BLOCK G. Its one still-live claim, the rate LEVEL as the durable bank-transmission leg, is carried in the 10Y/30Y rows above and in §THESIS.)*
+*(→ BLOCK T31, `54808dfd`)*
 
 ---
 
@@ -148,11 +146,7 @@
 
 | Ask | Answer 10/9 | Review by |
 |---|---|---|
-| Prose-Remedy #1: strike 'exit-code defect still owed' (STATUS, MEMORY) | **DONE 10/9** (fix `b6544d45d` verified at the commit) | — |
-| Falsification #4 minor: `REG_T02_EXIT_LOG.tsv` header clock | **DONE 10/9** (header now 10/9) | — |
-| Falsification #4 flags: CLAUDE.md:24 eight-channel line · `domain/NDFI_HIDDEN_CRE_HYPOTHESIS.md` banner · DECK_EVIDENCE redirect · WAL <$78 label (CLAUDE.md:280, thresholds.py:25, registry) · LESSONS.md:29 | **DONE 10/10** except the registry TOKEN `V1V3-ACCELERATE`: renaming it is DEFERRED to a coordinated change with WALTER, which reads it; the reason is in `registry/NOTES.md` | registry token: next registry touch |
-| Falsification #4 neg-res: instruments for REG-03 / REG-06; **name SSB Q3 line REG-07 grades on** | **DONE 10/10.** REG-03 and REG-07 instruments are in their Notes cells; REG-06 is in `registry/NOTES.md` (the row is Kernel-pinned). ⚠️ REG-07's level reading was already true at birth (SSB NPL/loans 0.62% [12/31/25]), so it grades on the CHANGE; that reading decides the grade (flagged to Will) | — |
-| Wiring ⑰: VX rows :9/:23/:37/:39 re-cut; :39 → live SAM surface or CANNOT-FIRE; Medallia one figure with BROCK | **DONE 10/10:** 5.01 / 8.01 / 14.01 RETIRED; 14.03 RETIRED + CANNOT-FIRE (its SAM row does not exist); 17.01 is now a pointer to BROCK `VX-BRK-003` (49.5¢ [6/30/26]) | — |
-| PR#6 ask 3 (9/17): disposition the 9/7 as-made packet | **DONE 10/10 PM.** All 20 rows re-derived by text; REG-13 re-formed; the 9/11 REG-07 scoring line corrected to WQ-112(i); REG-10 registered after its outcome, kept scored. Receipt `registry/NOTES.md`; DAEDALUS packeted | — |
+| *(six DONE rows: Prose-Remedy #1 · F#4 minor · F#4 flags · F#4 neg-res · wiring ⑰ · PR#6 ask 3)* | → BLOCK T32, `2f23b1f6` | — |
+| Registry TOKEN `V1V3-ACCELERATE` rename (from F#4 flags) | DEFERRED: coordinated change with WALTER, which reads it (`registry/NOTES.md`) | next registry touch |
 | L546 float-tie: `kre_float.py:102`, `si_refresh.py:45` round before compare | DEFERRED to next touch of either file (DAEDALUS: no deadline, LATENT) | next touch |
-| WALTER -033 (WQ-399): receipt line in my boot card | **DONE 10/9** (CLAUDE.md step 9c carries the WQ-399 fields) | — |
+| *(WALTER -033, DONE 10/9)* | → BLOCK T33, `a100038c` | — |

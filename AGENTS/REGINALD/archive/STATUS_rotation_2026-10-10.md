@@ -66,3 +66,63 @@ The block is the contiguous lines 2–28 of `STATUS.md` as they stood at rotatio
 =====T25 BEGIN=====
 *Dates are OWNED by `CALENDAR.md` — **earnings dates in its Q3-2026 BANK EARNINGS DATES table** (CUBI + FLG NOT ANNOUNCED at 10/9 21:2x ET). Read plan → `reports/2026-10-09_Q3_earnings_read_plan.md`. The four-row mirror that sat here (capital-rules final rule TBD · IQHQ Aug · OZK sub-notes Oct 1 · Affinius Oct) → BLOCK T8, crc32 `6e2cf1ef`. Next (10/7, issuer-announced): CFG Fri 10/16 · WAL Mon 10/19 AMC · OZK Tue 10/20 AMC · EGBN/SSB Wed 10/21 AMC, BKU 10/21 BMO · VLY 10/22 BMO, AMTB 10/22 AMC · SBCF 10/27 AMC · FLG/CUBI TBA · Nano P&A NOT posted 10/9 (bid summary posted 10/8) → re-check **Tue 10/13** · JWT 11/05 · MI3 run 11/07.*
 =====T25 END=====
+
+
+### Rotation 2026-10-10 Sat ~15:3x ET — core-file sweep (Will: "Do a sweep of our core REGINALD files")
+
+Read-cap rule 5: `STATUS.md` stood at 24876 B (≥75% of budget); rotate until <70% (22785 B). Verbatim, contiguous; crc32 over each block's lines joined by `\n`, UTF-8, no trailing newline. **Recompute before trusting.**
+
+## BLOCK T26 — headline bullet: as-made audit + July threads (10/10 PM) (STATUS.md lines 6–6 at rotation, 146 B, crc32 `cf568883`; lines joined by \n)
+
+=====BEGIN T26=====
+- **As-made audit complete** (20 rows): REG-13 re-formed; REG-07 scores at 68% (WQ-112(i)). **Five July threads closed** (archive crc `fd8df983`).
+=====END T26=====
+
+## BLOCK T27 — THESIS table: owner-held channel rows SSFA/NDFI · Private Credit · MFS/Fraud (April-vintage cells) (STATUS.md lines 26–28 at rotation, 309 B, crc32 `2f496d31`; lines joined by \n)
+
+=====BEGIN T27=====
+| SSFA / NDFI | $4.2T industry-wide NDFI (+35% YoY); hidden CRE Layer 2 | 🔴🔴 |
+| Private Credit | Ares gated (5% cap, 11.6% requests), Apollo 45¢/$1, bad PIK 6.4%, MS projects 8% default | 🔴🔴 CRITICAL |
+| MFS/Fraud | £2B double-pledging — Barclays/Jefferies/Apollo. Cantor $270M ring. | 🔴 |
+=====END T27=====
+
+## BLOCK T28 — THESIS table: Federal Layoffs row (April-vintage cell) (STATUS.md lines 30–30 at rotation, 77 B, crc32 `2f7a5b42`; lines joined by \n)
+
+=====BEGIN T28=====
+| Federal Layoffs | DOGE 307K+ confirmed. DC corridor stress ACTIVE. | 🔴 |
+=====END T28=====
+
+## BLOCK T29 — 8/20 note: OZK/WAL blocks removed (STATUS.md lines 42–42 at rotation, 215 B, crc32 `72424e60`; lines joined by \n)
+
+=====BEGIN T29=====
+*(The Apr-30/May-vintage OZK and 7/25-vintage WAL blocks that sat here were REMOVED 2026-08-20 — both were flagged stale at the 7/17 audit and both duplicate a peer's canonical surface. Git history retains them.)*
+=====END T29=====
+
+## BLOCK T30 — 8/20 THRESHOLD STATUS refresh note (STATUS.md lines 109–109 at rotation, 212 B, crc32 `597017ec`; lines joined by \n)
+
+=====BEGIN T30=====
+> *Refreshed 8/20 after this block sat at a **7/24 vintage for 27 days** — the exact defect LESSON 15 names ("the surface you cite from memory is the one that rots"). Every row below is re-pulled, not carried.*
+=====END T30=====
+
+## BLOCK T31 — 7/9 macro-read rotation pointer (STATUS.md lines 128–128 at rotation, 319 B, crc32 `54808dfd`; lines joined by \n)
+
+=====BEGIN T31=====
+*(**Macro read of 7/9** — 1,680 B, wholly superseded by §BOTTOM LINE §WHAT CHANGED 8/27 → 9/1 — ROTATED VERBATIM 2026-09-02 → `archive/STATUS_rotation_2026-09-02.md` BLOCK G. Its one still-live claim, the rate LEVEL as the durable bank-transmission leg, is carried in the 10Y/30Y rows above and in §THESIS.)*
+=====END T31=====
+
+## BLOCK T32 — OPEN PROCESS ASKS: six DONE rows (10/9–10/10) (STATUS.md lines 151–156 at rotation, 1657 B, crc32 `2f23b1f6`; lines joined by \n)
+
+=====BEGIN T32=====
+| Prose-Remedy #1: strike 'exit-code defect still owed' (STATUS, MEMORY) | **DONE 10/9** (fix `b6544d45d` verified at the commit) | — |
+| Falsification #4 minor: `REG_T02_EXIT_LOG.tsv` header clock | **DONE 10/9** (header now 10/9) | — |
+| Falsification #4 flags: CLAUDE.md:24 eight-channel line · `domain/NDFI_HIDDEN_CRE_HYPOTHESIS.md` banner · DECK_EVIDENCE redirect · WAL <$78 label (CLAUDE.md:280, thresholds.py:25, registry) · LESSONS.md:29 | **DONE 10/10** except the registry TOKEN `V1V3-ACCELERATE`: renaming it is DEFERRED to a coordinated change with WALTER, which reads it; the reason is in `registry/NOTES.md` | registry token: next registry touch |
+| Falsification #4 neg-res: instruments for REG-03 / REG-06; **name SSB Q3 line REG-07 grades on** | **DONE 10/10.** REG-03 and REG-07 instruments are in their Notes cells; REG-06 is in `registry/NOTES.md` (the row is Kernel-pinned). ⚠️ REG-07's level reading was already true at birth (SSB NPL/loans 0.62% [12/31/25]), so it grades on the CHANGE; that reading decides the grade (flagged to Will) | — |
+| Wiring ⑰: VX rows :9/:23/:37/:39 re-cut; :39 → live SAM surface or CANNOT-FIRE; Medallia one figure with BROCK | **DONE 10/10:** 5.01 / 8.01 / 14.01 RETIRED; 14.03 RETIRED + CANNOT-FIRE (its SAM row does not exist); 17.01 is now a pointer to BROCK `VX-BRK-003` (49.5¢ [6/30/26]) | — |
+| PR#6 ask 3 (9/17): disposition the 9/7 as-made packet | **DONE 10/10 PM.** All 20 rows re-derived by text; REG-13 re-formed; the 9/11 REG-07 scoring line corrected to WQ-112(i); REG-10 registered after its outcome, kept scored. Receipt `registry/NOTES.md`; DAEDALUS packeted | — |
+=====END T32=====
+
+## BLOCK T33 — OPEN PROCESS ASKS: WALTER -033 DONE row (STATUS.md lines 158–158 at rotation, 122 B, crc32 `a100038c`; lines joined by \n)
+
+=====BEGIN T33=====
+| WALTER -033 (WQ-399): receipt line in my boot card | **DONE 10/9** (CLAUDE.md step 9c carries the WQ-399 fields) | — |
+=====END T33=====
