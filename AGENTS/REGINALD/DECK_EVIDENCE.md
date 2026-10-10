@@ -26,7 +26,7 @@ Metropolitan Capital Bank (failed Jan 30, 2026, Chicago) reported its CRE concen
 
 **The source:**  
 - FDIC Call Report, Schedule RC-C, Memo Item 3 (RCON2746) — public data, searchable at https://call.ffiec.gov  
-- Metropolitan Capital Bank FDIC failure data (Jan 30, 2026; FDIC CERT 57120)  
+- Metropolitan Capital Bank & Trust FDIC failure data (Jan 30, 2026; **FDIC CERT 57488**). ⚠️ *Corrected 2026-10-10: this line said 57120, which is Uniti Bank, Buena Park CA (inactive 2019), per FDIC BankFind; 57488 is per the FDIC Failed Bank List and the BankFind failures API. The 10.7% / 61% figures above have NOT been re-checked at the FFIEC primary under the correct cert; do not use them in a deck until they are.*  
 - WAL 10-Q Q4 2025; earnings call transcript (Q4 2024: "remixing" language)  
 - Our Hidden CRE screen: `BANK_EXPOSURE_MATRIX.md`
 

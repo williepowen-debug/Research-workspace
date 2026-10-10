@@ -32,6 +32,7 @@
 - **Dead ends:** FHLBank 8-K 2.03 (excludes DNs ≤1yr) · H.8 FHLB split (discontinued 2018) · OFR MMF agency (through 8/31 only).
 - **Press:** American Banker 9/16 "replace deposits" has no bank-level evidence; filings say PNC only.
 **Sent:** PROME WQ-414 addendum (rule early, `047ef11d4`) · WALTER amendment to the 10/10 signal (`b680ef50d`) → **routed with the original as `SIG-W-20261010-007`** (WALTER `40b424536`; LIQUID action, HENRY/BROCK info; card verified to carry all three qualifications + the nowcast). Both live desks doorbelled.
+**Will asked (~15:0x):** "6 bank failures this year, REGINALD has that data?" Count CONFIRMED at the FDIC Failed Bank List CSV (6; most since 2017; ≈ $1.45B assets; none in my 14), but the desk had NO single list until `reports/2026-10-10_2026_bank_failures_FDIC_list.md` + a STATUS row. ⚠️ The BankFind failures API index is from 8/25 (returns 4). `DECK_EVIDENCE.md` carried Metropolitan's cert as 57120 (= Uniti Bank) → fixed to 57488; its 10.7%/61% figures were never checked at FFIEC.
 ### PRIOR SESSION — 2026-10-10 Sat ~12:39 → ~13:5x ET (Will-launched, Opus 5.5; AM bookkeeping is in BLOCK M1)
 **1. Boot:** full read set · market.py (10/9 settled, stale-weekend) · ladder rc 1 (FLG RED, 3 closes) · staleness · corrections 0 · inbox 0 at boot (+1 MARCO Pharr wording NO-OP, filed).
 **2. ★1 as-made audit (`28c7dd7dd`):** all 20 rows by text; REG-13 re-formed; REG-07 "Brier on 55%" corrected to 68% (WQ-112(i)); REG-10 registered after its outcome, kept scored (WQ-161 ②). DAEDALUS packeted (10/12 sitting).
