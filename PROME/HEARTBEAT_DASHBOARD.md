@@ -25,21 +25,4 @@ This companion keeps render metadata outside the boot-read byte budget.
 
 *Twenty-ninth base 2026-10-09 (post-close, PROME prome-15, desktop, crash-recovery session, installed 16:26 ET) — chain 0: the twenty-eighth base's amendments #1–#3 were folded into the base at the re-base, so their projections are REMOVED; zero projections stand. The folded projections are preserved in this file's commit history (`git log -p -- PROME/HEARTBEAT_DASHBOARD.md`) and the amendments verbatim in `PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-10-09.md`.*
 
-*Twenty-ninth base — AMENDMENT #1 (2026-10-09 17:0x ET, PROME prome-15; SAM sam-1009pm) — projection #1 (chain 0→1):*
-*source_sha256: `a81fd123a0da27517caa32e130d202516db65a70bb234ea9c73c6c28529c15e4` (over the exact `> **AMENDMENT #1 — ...` paragraph without its trailing newline)*
-*Affects: the Japan/carry channel only — SAM's owner grade mirrored; no gate, level or blocking row changes; the one-liner carries no yen clause on this base, so it is unchanged. UNREVIEWED as every amendment is.*
-
-```dashboard-amendment
-{
-  "amendment": 1,
-  "source_sha256": "a81fd123a0da27517caa32e130d202516db65a70bb234ea9c73c6c28529c15e4",
-  "set": {
-    "channels": {
-      "Japan / carry": {
-        "headline": "USD/JPY closed 158.246 — FOURTH close above 158.054 (MET, provisional); VECTOR-5 stays NONE; nothing arms",
-        "body": "SAM 10/9 17:01 ET: completed close 158.246 (London-session basis, provisional on the vendor's 17:00 ET tick; margin 0.192). Fourth close above, not first since 9/23 (9/23 · 9/24 · 10/6 · 10/9); 7-session 157.83–158.25 range, no fast leg, no intervention. VECTOR-5 (c) re-met in letter; (b) ¥16,466 vs ¥18,000 NOT MET ⇒ NONE. ¥160 VOID; book FLAT. JGB 10Y 3.111 [MOF 10/7] highest since Aug-1996 (not all-time); SAM-33 un-fired; Totan Oct 10%."
-      }
-    }
-  }
-}
-```
+*Thirtieth base 2026-10-10 (Sat, MARKETS CLOSED, PROME prome-ce, laptop, installed 12:50 ET) — chain 0: the twenty-ninth base's amendment #1 (SAM's yen close, 10/9 17:0x ET) was folded into the base at the re-base, so its projection is REMOVED; zero projections stand. The folded projection is preserved in this file's commit history (`git log -p -- PROME/HEARTBEAT_DASHBOARD.md`) and the amendment text verbatim in `PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-10-10.md`.*
