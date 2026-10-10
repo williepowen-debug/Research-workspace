@@ -67,3 +67,7 @@ On the subagent's strict reading, 8 angles have ≥2 signals, which would fire l
 
 - Angle assignment is judgment, not measurement. The comparable counts depend on WALTER's nine folds and one exclusion (§3) and on the subagent's 55 unchanged calls, which WALTER did not re-read individually.
 - "Empty in intake" is shown by lane-grep and lane-hit evidence. "Live in the domain" rests on one 30-day sample of one query. That is evidence of presence, not of volume.
+
+## 8. Addendum 2026-10-10 ~15:05 ET: recommendation 1 LANDED
+
+PROME landed four lane FETCH rows in RESEARCH-INTAKE at `5a3b083` (verified at the artifact by WALTER, `scripts/newsweep_config.py` lines ~273–301): `"GPU depreciation"` (WALTER live 5/5) · `"GPU collateral"` (PROME live 3 of 7, 0 FALSE) · `"GPU-backed loan"` (1 of 8) · `"residual value guarantee"` (1 of 8). One row per leg, agents VULCAN + BROCK, labels `gpu-obsolescence-1..4`, under WQ-348 C7. The 0-live-hit 8/31 candidates were not landed. **Next review: check whether the obsolescence angle now populates from these rows**, and say so if limb (a) fires because of them (8/31 rec 4). ⚠️ The FORGE mirror (`FORGE/tools/news-sweep/config.py`) did NOT take the rows (no ai-capex anchor block; PROME's L634 drift), although the `5a3b083` commit body says it did. The mirror is the known-dark legacy feed, so the lane is unaffected.

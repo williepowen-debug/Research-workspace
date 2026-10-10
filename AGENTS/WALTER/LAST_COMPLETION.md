@@ -33,7 +33,7 @@ Session: **October 10, 2026, PM leg, TIER-1 LIGHT CLOSEOUT** of `walter-66` (Cla
 
 ## GAPS / OWED
 - **Push:** WALTER did not push. 15 WALTER commits are local (`40b424536` … `134ed47c8`, plus this closeout commit). PROME has uncommitted SCRATCH/ORCH_INFLIGHT in the tree, so the push is deferred to PROME's train or Will's word. After any push: `reconcile_delivery_log.py --apply`.
-- **Intake gap (PROME's call):** GPU-depreciation / GPU-collateral lane query proposed by packet (candidate `"GPU depreciation"`, live-tested 5/5).
+- ✅ **Intake gap CLOSED same session:** PROME landed four lane fetch rows (`gpu-obsolescence-1..4`, VULCAN + BROCK) in RESEARCH-INTAKE `5a3b083`, verified at the artifact; they take effect at the lane's next scheduled run. The FORGE mirror did not take them (L634 drift), although that commit's body says it did; flagged to PROME.
 - **Doctor MEDs carried:** INDEX `LABOR_DOWN` residual (`-1007-013`, open decision); two `AMENDMENT-NOTE` delivery_log ids (accurate audit history, not rewritten); 20 NOTE rows (audit); 12 aged unconsumed (5 ACTION: YURI, HOMER, OTTO, CREED, MIDAS).
 - **Charter text now one instance stale (not edited; a charter edit needs Will's word):** CLAUDE.md step 7h says the L3 refresh-failure leg is "not live-validated". It was observed live on 10/10 (n=1). The operating rule (fail loud, no silent fallback) is unaffected.
 - **Source limits on the record:** the Guggenheim doc is unread beyond its teaser; the junk-issuance count has no source; Baltic's w/w base is unresolved.
@@ -55,7 +55,7 @@ Other duties, all on TERRY's cards: QQQ Oct-15 $745P ×1 / $740P ×4 (TERRY re-m
 
 ## FOLLOW-UP
 1. **Next boot, first:** confirm this session's commits reached origin; if a push happened, run `reconcile_delivery_log.py --apply` for the 5 PM rows. X token is on the LAPTOP `.env`; the desktop copy is dead.
-2. **AI_INFRA_CAPEX follow-through:** PROME's decision on the lane query; VULCAN's instrument decision on useful life; propose re-filing `-0929-010` to CONSUMER_STAGFLATION.
+2. **AI_INFRA_CAPEX follow-through:** watch the first `gpu-obsolescence-*` lane hits at boot step 7e (rows live from the next lane run); VULCAN's instrument decision on useful life; propose re-filing `-0929-010` to CONSUMER_STAGFLATION.
 3. **RED-FT-10:** CBOE bars 10/12, 10/13, 10/14 (VIOLET owns; earliest fire on the 10/14 bar).
 4. **DEWEY:** close `REQ-DEWEY-20261010-001` at boot step 7d when the handoff lands (due 10/14).
 5. **Owners:** LIQUID grades `-007`; BRENT `-008` and `-003`; VULCAN + BROCK `-009`; FALCON grades Shedgum/Hawiyah and the Bab al-Mandab claim (`-002`); OSPREY the strike campaign vs the deal; YURI Novak's export-curb lift; BOND/ZHAO (`-004`); CARL the SCF (`-005`); HENRY/VULCAN (`-006`); CORAL Pembroke Lakes (`-1008-040`); CREED Trepp September (`-1009-002`); SHADE verifies the Guggenheim lead at primary; MARCO adopts or declines the harness result.
@@ -86,7 +86,7 @@ Other duties, all on TERRY's cards: QQQ Oct-15 $745P ×1 / $740P ×4 (TERRY re-m
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-10T19:02:53+00:00",
+  "as_of": "2026-10-10T19:04:20+00:00",
   "publication": [
     {"commit": "40b424536", "state": "pending"},
     {"commit": "c03a6dad9", "state": "pending"},
@@ -123,7 +123,7 @@ Other duties, all on TERRY's cards: QQQ Oct-15 $745P ×1 / $740P ×4 (TERRY re-m
   },
   "owed": [
     "Push of the PM commits, then reconcile_delivery_log --apply",
-    "PROME decision on the GPU-depreciation lane query",
+    "First gpu-obsolescence lane hits at boot 7e (rows landed 5a3b083)",
     "QQQ Oct-9 755P disposition (Will/TERRY, WQ-397)",
     "CBOE SKEW 10/12-10/14 vs RED-FT-10 (VIOLET)",
     "DEWEY REQ-DEWEY-20261010-001 delivery by 10/14; WALTER closes the ledger row"
