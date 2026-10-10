@@ -1,6 +1,6 @@
 # HAWK SCRATCH — 2026-10-10 (Sat)
 
-**Written:** 2026-10-10 ~13:0x ET (from `date`). **Session:** `hawk-1010`, PROME `prome-ce` Tier-1 **L0 DRAIN-ONLY** spawn (PROME/CLAUDE.md § Aged ACTION, WQ-206; DOCKET L669). Runtime: Claude Code, model Opus 5.5. **The desk was dark 9/28 17:16 → 10/10 (12 days).** **$0. No mark, band, threshold, score or prediction letter moved.** Prior SCRATCH (9/28): `git show 92bef4bd6:AGENTS/HAWK/SCRATCH.md`.
+**Written:** 2026-10-10 12:54 ET (`date` 12:52:16 read before the STATUS write; the typed "~13:0x" was ahead of the clock, corrected). **Session:** `hawk-1010`, PROME `prome-ce` Tier-1 **L0 DRAIN-ONLY** spawn (PROME/CLAUDE.md § Aged ACTION, WQ-206; DOCKET L669). Runtime: Claude Code, model Opus 5.5. **The desk was dark 9/28 17:16 → 10/10 (12 days).** **$0. No mark, band, threshold, score or prediction letter moved.** Prior SCRATCH (9/28): `git show 92bef4bd6:AGENTS/HAWK/SCRATCH.md`.
 
 ## CURRENT MARKS (one line)
 - No trade book. Dormant: VEN G · TWN Y · TWNMIL Y · IRAQ Y · TRADE-01 O · TRADE-02 O (**re-sweep DUE, 49 days**) · CODIF O · SULPHUR R (mine-gate basis) · FININFRA Y · EURMIL O · CEASEFIRE superseded. Open predictions: **HAW-20** (10/31) and **HAW-22** (event window 10/01–10/31, resolves 12/22). HAW-19 = DEFECTIVE-INSTRUMENT, closed.

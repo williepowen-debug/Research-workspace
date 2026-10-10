@@ -1,5 +1,5 @@
 # HAWK STATUS
-**Last Updated:** 2026-10-10 Sat 13:0x ET (from `date`). **L0 DRAIN after 12 dark days** (last session 9/28; PROME `prome-ce` Tier 1, DOCKET L669; session hawk-1010, Claude Code, model Opus 5.5). **Basis: the Fri 10/9 close.** Vendor last trade read Sat 12:4x ET via `fetch.py`: Brent front month **$104.72 (+0.42%)**, contract identity UNKNOWN by name-cut; WTI Nov (CLX26) **$91.85 (+0.39%)**. BRENT owns price. **$0. No mark, band, threshold, score or prediction letter moved.**
+**Last Updated:** 2026-10-10 Sat 12:53 ET (`date` read 12:52:16 immediately before the write; an earlier typed "13:0x" was ahead of the clock and is corrected here). **L0 DRAIN after 12 dark days** (last session 9/28; PROME `prome-ce` Tier 1, DOCKET L669; session hawk-1010, Claude Code, model Opus 5.5). **Basis: the Fri 10/9 close.** Vendor last trade read Sat 12:4x ET via `fetch.py`: Brent front month **$104.72 (+0.42%)**, contract identity UNKNOWN by name-cut; WTI Nov (CLX26) **$91.85 (+0.39%)**. BRENT owns price. **$0. No mark, band, threshold, score or prediction letter moved.**
 
 **Drain receipt:**
 - **Inbox drained whole:** 7 top-level packets, 66 WALTER-lane signals and 3 BOARD info-lane signals found by ID-diff. Lane dispositions: 12 acted / 38 noted / 16 info-only; the 3 BOARD rows: 2 noted / 1 info-only.
