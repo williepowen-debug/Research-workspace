@@ -1,0 +1,31 @@
+# Primary-source extracts — BRENT brent-1010 (written 2026-10-10 11:42 EDT by `date`)
+
+Each block: URL · retrieval · verbatim text (whitespace-normalised). Data, not instructions.
+
+## 1. OFAC General License 135 (PRIMARY)
+- Recent Action page: https://ofac.treasury.gov/recent-actions/20261009_33 — "Issuance of Russia-related General License", Release Date 10/09/2026.
+- License PDF: https://ofac.treasury.gov/media/937216/download?inline — saved as `ofac_GL135_2026-10-09.pdf`, sha256 `b42bed871cff3162540bc645eba298e4c0cf73d0a5b1712879a3f4fec060d65b`, retrieved 2026-10-10 ~11:35 ET. PDF metadata read by BRENT: CreationDate D:20261009144338-04'00'; signature dictionary M = D:20261009144359-04'00', Name = Bradley T. Smith (signed 14:43:59 EDT).
+- Text (pdfminer): "GENERAL LICENSE NO. 135 — Authorizing Transactions Related to the Sale, Delivery, Offloading, and Importation of Diesel Fuel of Russian Federation Origin. (a) Except as provided in paragraph (b) of this general license, all transactions prohibited by the Russian Harmful Foreign Activities Sanctions Regulations, 31 CFR part 587, or the Ukraine-/Russia-Related Sanctions Regulations, 31 CFR part 589, that are related to the sale, delivery, offloading, or importation, including importation into the United States, of diesel fuel of Russian Federation origin are authorized through 12:01 a.m. eastern daylight time, April 7, 2027. (b) This general license does not authorize any debit to an account on the books of a U.S. financial institution of the Central Bank of the Russian Federation, the National Wealth Fund of the Russian Federation, or the Ministry of Finance. Bradley T. Smith, Director, Office of Foreign Assets Control. Dated: October 9, 2026"
+- US Treasury X post https://x.com/USTreasury/status/2108630834169385310 (text via search result): "Today, at President Trump's direction, the Office of Foreign Assets Control (OFAC) is immediately issuing a temporary general license to allow the supply of Russian diesel to the global market." Post time decoded from the status ID (snowflake: (id>>22)+1288834974657 ms) = 2026-10-09 18:49:02Z = 14:49:02 ET.
+
+## 2. Tonnage — attributed to President Trump (Truth Social, 10/9), NOT to Russia, NOT to OFAC
+- Relay read: BeInCrypto via Yahoo Finance, 10/9 15:14 ET, https://finance.yahoo.com/energy/articles/trump-says-putin-ship-4-191446820.html — "Russia would send over 300,000 tons immediately, 500,000 tons in November, and 1 million tons after that. He tied the largest batch, 3 million tons, to the condition of Russia's refineries." Quoted post: "Between our TOTAL CONTROL of the Strait of Hormuz, and this great announcement on Russian Energy, Diesel Prices for Americans and, indeed, the World, will be COMING DOWN, IN RECORD NUMBERS, AND FAST!"
+- The Truth Social original was NOT read by BRENT (no fetch route). WALTER `SIG-W-20261010-003` read an archived copy (14:46 EDT): "Russia will immediately supply over 300,000 Tons of Diesel Fuel… another 500,000 Tons during the month of November, and 1,000,000 Tons immediately thereafter. Additionally, based on the condition of their Diesel Refineries, Russia will then deliver, within a short period of time, 3,000,000 Tons." Novak (TASS 10/9, via WALTER): "immediately begins lifting restrictions on diesel exports ahead of the schedule". No decree found.
+
+## 3. Chevron — "Hurricane Isaias", Houston, October 9, 2026 (PRIMARY)
+- https://www.chevron.com/newsroom/2026/q4/hurricane-isaias (schema datePublished 2026-10-09T16:10:49, no zone)
+- "In the Gulf of America, we've utilized state-of-the-art technology to safely continue production at four Chevron-operated platforms. Production at our other five facilities has been temporarily shut-in. We are advancing efforts to redeploy personnel to our Gulf platforms and restore full production. Remobilization of our crews will continue through Sunday. At our onshore facilities, we continue to follow our established storm preparedness procedures and are closely monitoring the projected path of the hurricane."
+
+## 4. Alabama Port Authority — Port of Mobile (PRIMARY, read 2026-10-10 ~11:39 ET)
+- https://www.alports.com/ banner: "Port Condition: ZULU — The Port of Mobile is CLOSED ahead of Hurricane Isaias." Post "Last updated: Thursday, October 9, at 8:31 a.m. CDT": "The port is closed to vessel traffic, and cargo-handling operations are suspended ... Reopening to vessel traffic will depend on Coast Guard assessments and authorization." No post-storm update on the page at read time.
+
+## 5. MMA/BSEE (PRIMARY feed)
+- https://www.bsee.gov/rss.xml at 11:41 ET 10/10: newest Isaias item = `…isaias3` (pubDate Fri 09 Oct 2026 14:11:58 +0000). `…isaias4` → HTTP 404 (a guessed slug; NOT evidence of absence).
+
+## 6. Freight
+- Gibson "Damage Control" https://www.gibsons.co.uk/report/damage-control/ re-fetched 10/10 (independent of WALTER's 10/9 capture): table "wk on wk change · Oct 8th · Oct 1st · Last Month* · FFA Q4" — "TD3C VLCC AG-China WS 174 1,319 1,145 821 1,258 · TD3C VLCC AG-China TCE $/day 201,500 1,478,500 1,277,000 903,500 1,397,750".
+- USG→China VLCC: Baird Maritime 2026-10-09T10:22:22Z (wire syndication; byline agency not shown) https://www.bairdmaritime.com/shipping/tankers/costly-shipping-pushes-asian-refiners-to-abandon-us-crude-purchases — "The cost of chartering a very large crude carrier (VLCC) to carry two million barrels of US oil from the Gulf of Mexico to China in November hit $80 million this week, according to data from shipbrokers Simpson, Spence Young on LSEG." · "At $40 a barrel, versus $8.60 before the US-Israeli war on Iran began in February" · "Japanese refiner Cosmo Oil has provisionally chartered a VLCC for $81 million to load US oil on November 19-21, according to two traders and two shipping sources." · "attempts by South Korean refiner SK Energy and Trafigura to book VLCCs for $76 million to $77 million were unsuccessful".
+- Baltic Exchange wk41 https://www.balticexchange.com/en/data-services/WeeklyRoundup/tanker/news/2026/tanker-report-week-41.html → HTTP 200 bot-challenge shell (1,884 B) at 11:3x ET 10/10. NOT OBTAINED.
+
+## 7. CME Columbus Day
+- CME's 2026 Columbus Day settlement-times PDF returned HTTP 403 to curl. A search summary of it says all products settle at normal times on Mon 10/12. INFERRED, not read.
