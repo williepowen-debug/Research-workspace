@@ -1,122 +1,143 @@
 #!/usr/bin/env python3
 """
 REGINALD Earnings Countdown
-Counts trading days until thesis-name earnings dates.
-Flags anything within 5 trading days.
+Counts trading days to each bank's earnings date, read from the canonical table in
+AGENTS/REGINALD/CALENDAR.md (§ Q3-2026 BANK EARNINGS DATES). No dates live in this script.
 
 Usage:
   .venv/bin/python3 AGENTS/REGINALD/scripts/earnings_countdown.py
+  .venv/bin/python3 AGENTS/REGINALD/scripts/earnings_countdown.py --selftest   # fixtures, no file
+
+Exit: 0 = table read · 2 = table missing, duplicated or malformed (a Day that is not its Date's
+weekday, a bad date, an unknown Status) — the countdown is then NOT printed, never "no dates".
+
+Repair 2026-10-09 (Will's bounded pass): this script carried a hand-typed April-2026 list and
+printed "No upcoming earnings dates" in Q3 print week.
 """
 
-from datetime import datetime, timedelta
+import re
+import sys
+from datetime import date, datetime, timedelta
+from pathlib import Path
 
-# Hardcoded earnings dates (update as confirmed)
-# Format: (ticker, date_str, time, confirmed)
-EARNINGS = [
-    ("MTB",  "2026-04-15", "pre-market", True),
-    ("KEY",  "2026-04-16", "pre-market", True),
-    ("CFG",  "2026-04-16", "morning",    True),
-    ("RF",   "2026-04-17", "pre-market", True),
-    ("ZION", "2026-04-20", "after-close", False),
-    ("WAL",  "2026-04-21", "morning",    False),
-    ("OZK",  "2026-04-21", "after-close", True),
-    ("WTFC", "2026-04-20", "after-close", False),
-    ("PB",   "2026-04-22", "morning",    False),
-    ("VLY",  "2026-04-23", "after-close", False),
-    ("SSB",  "2026-04-23", "after-close", False),
-    ("EGBN", "2026-04-23", "morning",    False),
-    ("ASB",  "2026-04-23", "after-close", False),
-]
-
-# Our position names (highlight these)
-POSITION_TICKERS = {"WAL", "OZK", "EGBN", "KRE", "ZION", "SSB"}
+CALENDAR = Path(__file__).resolve().parents[1] / "CALENDAR.md"
+BEGIN = "<!-- reginald:earnings-dates:begin -->"
+END = "<!-- reginald:earnings-dates:end -->"
+STATUSES = ("CONFIRMED", "NOT-ANNOUNCED")
+COLUMNS = ["Ticker", "Date", "Day", "Timing", "Status", "Question", "Source"]
 
 
-def trading_days_between(start_date, end_date):
-    """Count trading days (weekdays) between two dates, exclusive of start."""
-    if end_date <= start_date:
-        return 0
-    days = 0
-    current = start_date + timedelta(days=1)
-    while current <= end_date:
-        if current.weekday() < 5:  # Monday=0, Friday=4
-            days += 1
-        current += timedelta(days=1)
+def parse_table(text):
+    """CALENDAR text -> (rows, errors). Pure; any error voids the table."""
+    if text.count(BEGIN) != 1 or text.count(END) != 1:
+        return [], [f"expected exactly one begin and one end marker, found {text.count(BEGIN)}/{text.count(END)}"]
+    body = text.split(BEGIN, 1)[1].split(END, 1)[0]
+    lines = [ln.strip() for ln in body.strip().splitlines() if ln.strip()]
+    if len(lines) < 3:
+        return [], ["table has no data rows"]
+    header = [c.strip() for c in lines[0].strip("|").split("|")]
+    if header != COLUMNS:
+        return [], [f"header {header} != {COLUMNS}"]
+    rows, errors = [], []
+    for n, ln in enumerate(lines[2:], start=1):
+        cells = [c.strip() for c in ln.strip("|").split("|")]
+        if len(cells) != len(COLUMNS):
+            errors.append(f"row {n}: {len(cells)} cells, expected {len(COLUMNS)}")
+            continue
+        r = dict(zip(COLUMNS, cells))
+        try:
+            d = datetime.strptime(r["Date"], "%Y-%m-%d").date()
+        except ValueError:
+            errors.append(f"row {n} {r['Ticker']}: bad date '{r['Date']}'")
+            continue
+        if d.strftime("%a") != r["Day"]:
+            errors.append(f"row {n} {r['Ticker']}: Day '{r['Day']}' but {r['Date']} is a {d:%a}")
+        if r["Status"] not in STATUSES:
+            errors.append(f"row {n} {r['Ticker']}: Status '{r['Status']}' not in {STATUSES}")
+        if not re.fullmatch(r"[A-Z]{1,5}", r["Ticker"]):
+            errors.append(f"row {n}: bad ticker '{r['Ticker']}'")
+        r["date"] = d
+        rows.append(r)
+    return rows, errors
+
+
+def trading_days_between(start, end):
+    """Weekdays after start up to and including end (NYSE holidays not modelled)."""
+    days, cur = 0, start
+    while cur < end:
+        cur += timedelta(days=1)
+        days += cur.weekday() < 5
     return days
 
 
-def calendar_days_between(start_date, end_date):
-    """Calendar days between two dates."""
-    return (end_date - start_date).days
+def selftest():
+    def table(*rows, begin=BEGIN, end=END):
+        head = "| " + " | ".join(COLUMNS) + " |\n|" + "---|" * len(COLUMNS) + "\n"
+        return f"x\n{begin}\n{head}" + "".join("| " + " | ".join(r) + " |\n" for r in rows) + f"{end}\n"
+    ok_row = ("CFG", "2026-10-16", "Fri", "pre-open", "CONFIRMED", "Q1", "IR")
+    cases = [
+        ("valid table -> 1 row, no errors", parse_table(table(ok_row)), (1, 0)),
+        ("missing markers -> error", parse_table("no table here"), (0, 1)),
+        ("duplicated begin marker -> error", parse_table(table(ok_row) + BEGIN), (0, 1)),
+        ("Day/Date mismatch -> error", parse_table(table(("CFG", "2026-10-16", "Thu", "x", "CONFIRMED", "Q1", "IR"))), (1, 1)),
+        ("bad date -> error", parse_table(table(("CFG", "2026-13-16", "Fri", "x", "CONFIRMED", "Q1", "IR"))), (0, 1)),
+        ("unknown status -> error", parse_table(table(("CFG", "2026-10-16", "Fri", "x", "MAYBE", "Q1", "IR"))), (1, 1)),
+        ("short row -> error", parse_table(table(("CFG", "2026-10-16", "Fri"))), (0, 1)),
+    ]
+    fails = 0
+    for name, (rows, errs), (want_rows, want_err) in cases:
+        ok = len(rows) == want_rows and (len(errs) > 0) == bool(want_err)
+        fails += not ok
+        print(f"  {'PASS' if ok else 'FAIL'}  rows={len(rows)} errors={len(errs)}  {name}")
+    td = trading_days_between(date(2026, 10, 9), date(2026, 10, 16))
+    ok = td == 5
+    fails += not ok
+    print(f"  {'PASS' if ok else 'FAIL'}  Fri 10/9 -> Fri 10/16 = {td} trading days (want 5)")
+    print(f"COUNTDOWN SELFTEST {'PASS' if not fails else 'FAIL'}: {len(cases) + 1 - fails}/{len(cases) + 1}")
+    return 1 if fails else 0
 
 
 def main():
+    if "--selftest" in sys.argv:
+        return selftest()
     today = datetime.now().date()
-    now = datetime.now().strftime("%Y-%m-%d %H:%M")
-
     print(f"\n{'='*70}")
-    print(f"  REGINALD Earnings Countdown — {now}")
+    print(f"  REGINALD Earnings Countdown — {datetime.now():%Y-%m-%d %H:%M}  (source: {CALENDAR.name})")
     print(f"{'='*70}")
+    try:
+        text = CALENDAR.read_text(encoding="utf-8")
+    except OSError as e:
+        print(f"\n  ⚠️  INCOMPLETE: cannot read {CALENDAR} ({e}) — no countdown")
+        return 2
+    rows, errors = parse_table(text)
+    if errors:
+        print("\n  ⚠️  INCOMPLETE: the CALENDAR earnings table is malformed — no countdown printed:")
+        for e in errors:
+            print(f"     {e}")
+        return 2
 
-    # Sort by date
-    sorted_earnings = sorted(EARNINGS, key=lambda x: x[1])
-
-    # Split into upcoming and past
-    upcoming = []
-    past = []
-    for ticker, date_str, time_of_day, confirmed in sorted_earnings:
-        edate = datetime.strptime(date_str, "%Y-%m-%d").date()
-        if edate >= today:
-            upcoming.append((ticker, edate, time_of_day, confirmed))
-        else:
-            past.append((ticker, edate, time_of_day, confirmed))
-
+    upcoming = sorted((r for r in rows if r["date"] >= today), key=lambda r: (r["date"], r["Ticker"]))
+    past = [r["Ticker"] for r in rows if r["date"] < today]
     if not upcoming:
-        print("\n  No upcoming earnings dates. Update the script with new dates.")
-        return
+        print("\n  No upcoming dates in the CALENDAR table — add the next quarter's dates there.")
+        return 0
 
-    print(f"\n  {'Ticker':<6} {'Date':>12} {'Time':<12} {'Cal Days':>9} {'Trd Days':>9} {'Status':<20}")
-    print(f"  {'-'*70}")
-
-    for ticker, edate, time_of_day, confirmed in upcoming:
-        cal_days = calendar_days_between(today, edate)
-        trd_days = trading_days_between(today, edate)
-        conf_str = "✓" if confirmed else "~est"
-
-        # Flag proximity
-        if trd_days <= 0:
-            flag = "🔴 TODAY"
-        elif trd_days <= 2:
-            flag = "🔴 IMMINENT"
-        elif trd_days <= 5:
-            flag = "⚠️  THIS WEEK"
-        elif trd_days <= 10:
-            flag = "🟡 Next week"
-        else:
-            flag = ""
-
-        # Highlight position names
-        marker = " ⭐" if ticker in POSITION_TICKERS else ""
-
-        print(f"  {ticker:<6} {edate.strftime('%a %b %d'):>12} {time_of_day:<12} {cal_days:>8}d {trd_days:>8}d {flag:<20} {conf_str}{marker}")
-
-    # Summary
-    next_report = upcoming[0]
-    print(f"\n  Next up: {next_report[0]} on {next_report[1].strftime('%a %b %d')}")
-
-    # Position-name countdown
-    position_upcoming = [e for e in upcoming if e[0] in POSITION_TICKERS]
-    if position_upcoming:
-        print(f"\n  Position names countdown:")
-        for ticker, edate, _, _ in position_upcoming:
-            trd_days = trading_days_between(today, edate)
-            print(f"    {ticker}: {trd_days} trading days")
-
+    print(f"\n  {'Ticker':<6} {'Date':>11} {'Trd':>4}  {'Status':<15} {'Q':<6} Timing")
+    print(f"  {'-'*68}")
+    for r in upcoming:
+        td = trading_days_between(today, r["date"])
+        flag = ("🔴 TODAY" if td == 0 else "🔴 ≤2d" if td <= 2 else "⚠️  ≤5d" if td <= 5
+                else "🟡 ≤10d" if td <= 10 else "")
+        status = "✓ confirmed" if r["Status"] == "CONFIRMED" else "~ESTIMATE"
+        print(f"  {r['Ticker']:<6} {r['date']:%a %b %d} {td:>4}  {status:<15} {r['Question']:<6} {r['Timing']}  {flag}")
+    est = [r["Ticker"] for r in upcoming if r["Status"] != "CONFIRMED"]
+    if est:
+        print(f"\n  ⚠️  NOT ANNOUNCED (dates above are estimates): {', '.join(est)}")
     if past:
-        print(f"\n  Past (reported): {', '.join(t[0] for t in past)}")
-
+        print(f"  Reported: {', '.join(past)}")
     print()
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

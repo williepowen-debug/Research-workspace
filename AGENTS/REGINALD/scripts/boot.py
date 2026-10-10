@@ -22,6 +22,11 @@ VENV_PYTHON = WORKSPACE / ".venv" / "bin" / "python3"
 # Market.py lives at workspace root
 MARKET_PY = WORKSPACE / "scripts" / "market.py"
 
+# Scripts on the shared verdict contract (repair 2026-10-09): rc 0 = read, nothing to review ·
+# rc 1 = ALERT, read the output · rc 2 = INCOMPLETE, some name or input has NO VERDICT.
+# Every other script: rc != 0 = FAIL. Only an all-OK run prints the all-clear line.
+TRI_STATE = {"Insider Activity", "8-K Monitor", "Earnings Countdown"}
+
 # Boot sequence: (name, script_path, category, slow)
 BOOT_SEQUENCE = [
     ("Market Prices",      MARKET_PY,                          "PRICES",    False),
@@ -38,7 +43,7 @@ BOOT_SEQUENCE = [
 def run_script(name, script_path, timeout=120):
     """Run a script and capture output. Returns (success, output, elapsed)."""
     if not script_path.exists():
-        return False, f"  SKIP: {script_path.name} not found", 0
+        return None, f"  MISSING: {script_path.name} not found", 0
 
     start = time.time()
     try:
@@ -53,13 +58,13 @@ def run_script(name, script_path, timeout=120):
         output = result.stdout
         if result.returncode != 0:
             output += f"\n  STDERR: {result.stderr[:500]}" if result.stderr else ""
-        return result.returncode == 0, output, elapsed
+        return result.returncode, output, elapsed
     except subprocess.TimeoutExpired:
         elapsed = time.time() - start
-        return False, f"  TIMEOUT after {elapsed:.0f}s", elapsed
+        return None, f"  TIMEOUT after {elapsed:.0f}s", elapsed
     except Exception as e:
         elapsed = time.time() - start
-        return False, f"  ERROR: {e}", elapsed
+        return None, f"  ERROR: {e}", elapsed
 
 
 def main():
@@ -84,12 +89,19 @@ def main():
             continue
 
         print(f"\n  ⏳ Running {name}...", flush=True)
-        success, output, elapsed = run_script(name, script_path)
+        rc, output, elapsed = run_script(name, script_path)
 
         if output.strip():
             print(output)
 
-        status = "OK" if success else "FAIL"
+        if rc == 0:
+            status = "OK"
+        elif name in TRI_STATE and rc == 1:
+            status = "ALERT"
+        elif name in TRI_STATE and rc == 2:
+            status = "INCOMPLETE"
+        else:
+            status = "FAIL"
         results.append((name, status, elapsed))
 
     # Summary
@@ -100,18 +112,20 @@ def main():
     print(f"\n  {'Script':<25} {'Status':>8} {'Time':>8}")
     print(f"  {'-'*45}")
     for name, status, elapsed in results:
-        icon = "✅" if status == "OK" else "⏩" if status == "SKIP" else "❌"
-        print(f"  {icon} {name:<23} {status:>6} {elapsed:>6.1f}s")
+        icon = {"OK": "✅", "SKIP": "⏩", "ALERT": "🔔", "INCOMPLETE": "⚠️ "}.get(status, "❌")
+        print(f"  {icon} {name:<23} {status:>10} {elapsed:>6.1f}s")
 
     print(f"\n  Total boot time: {total_time:.1f}s")
     print(f"  Date: {now.strftime('%Y-%m-%d')} | Day: {now.strftime('%A')}")
 
-    # Count failures
-    failures = [r for r in results if r[1] == "FAIL"]
-    if failures:
-        print(f"\n  ⚠️  {len(failures)} script(s) failed — check output above.")
-    else:
-        print(f"\n  ✅ All scripts completed successfully.")
+    # Count non-OK outcomes — an ALERT, INCOMPLETE or FAIL is never folded into an all-clear
+    by = {k: [r[0] for r in results if r[1] == k] for k in ("FAIL", "INCOMPLETE", "ALERT", "SKIP")}
+    for k, label in (("FAIL", "❌ FAILED"), ("INCOMPLETE", "⚠️  INCOMPLETE (no verdict for some names)"),
+                     ("ALERT", "🔔 ALERT (read the output)"), ("SKIP", "⏩ SKIPPED")):
+        if by[k]:
+            print(f"\n  {label}: {', '.join(by[k])}")
+    if not any(by[k] for k in ("FAIL", "INCOMPLETE", "ALERT", "SKIP")):
+        print(f"\n  ✅ All scripts completed and every check read cleanly.")
 
     print()
 

@@ -7,6 +7,15 @@ Flags open market purchases (code P) — thesis challenge signal.
 Usage:
   .venv/bin/python3 AGENTS/REGINALD/scripts/insider.py
   .venv/bin/python3 AGENTS/REGINALD/scripts/insider.py --days 30
+  .venv/bin/python3 AGENTS/REGINALD/scripts/insider.py --selftest   # fixtures, no network
+
+Exit: 0 = every covered name read, no open-market purchase · 1 = purchase(s) detected ·
+      2 = INCOMPLETE — a name failed, did not parse, is UNREAD or UNCOVERED; never an all-clear.
+
+Repair 2026-10-09 (Will's bounded pass): OZK was queried at the SEC (CIK 1569650), where it has
+filed nothing since 2017 — "No Form 4 filings" for OZK was clean by construction. OZK now reads
+the FDIC disclosure list (the OZK desk's route). FLG, AMTB, CFG and CUBI were not covered.
+A response whose issuer name does not match the bank is PARSE, never "no filings".
 """
 
 import urllib.request
@@ -17,12 +26,23 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 import time
 
-# Issuer CIKs for thesis banks (used in the company filings endpoint)
+# Will 2026-10-09 earnings-read priority banks. A name here with no TARGETS route = UNCOVERED.
+PRIORITY = ("CFG", "CUBI", "EGBN", "FLG", "OZK", "AMTB", "WAL")
+
+# CIKs verified against SEC company_tickers.json 2026-10-09; `match` must appear in the feed's
+# <conformed-name>. OZK files with the FDIC (cert 110), not the SEC.
 TARGETS = {
-    "WAL": {"cik": "1212545", "name": "Western Alliance Bancorporation"},
-    "OZK": {"cik": "1569650", "name": "Bank OZK"},
-    "EGBN": {"cik": "1050441", "name": "Eagle Bancorp Inc"},
+    "CFG":  {"route": "sec", "cik": "759944",  "name": "Citizens Financial Group", "match": "CITIZENS FINANCIAL"},
+    "CUBI": {"route": "sec", "cik": "1488813", "name": "Customers Bancorp", "match": "CUSTOMERS BANCORP"},
+    "EGBN": {"route": "sec", "cik": "1050441", "name": "Eagle Bancorp Inc", "match": "EAGLE BANCORP"},
+    "FLG":  {"route": "sec", "cik": "910073",  "name": "Flagstar Bank, N.A.", "match": "FLAGSTAR"},
+    "OZK":  {"route": "fdic", "cert": 110,     "name": "Bank OZK", "match": "Bank OZK"},
+    "AMTB": {"route": "sec", "cik": "1734342", "name": "Amerant Bancorp", "match": "AMERANT"},
+    "WAL":  {"route": "sec", "cik": "1212545", "name": "Western Alliance Bancorporation", "match": "WESTERN ALLIANCE"},
 }
+FDIC_DISCL = "https://securitiesfilings.fdicconnect.fdic.gov/api/instdiscl"
+FDIC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0 Safari/537.36"
+FDIC_MIN_ROWS = 440   # cert 110 list held 471 disclosures on 2026-10-09 and only grows
 
 # Transaction codes
 BULLISH_CODES = {"P"}  # Open market purchase — thesis challenge
@@ -46,7 +66,7 @@ FETCH_FAIL = 0
 LAST_ERRORS = []
 
 
-def fetch_text(url, attempts=3):
+def fetch_text(url, attempts=3, headers=None):
     """Fetch URL and return text. Records success/failure so an outage cannot read as an absence.
 
     Retries transient failures: EDGAR read-timeouts were observed on 2 of 3 runs on
@@ -57,7 +77,7 @@ def fetch_text(url, attempts=3):
     last = None
     for i in range(attempts):
         try:
-            req = urllib.request.Request(url, headers=HEADERS)
+            req = urllib.request.Request(url, headers=headers or HEADERS)
             resp = urllib.request.urlopen(req, timeout=25)
             body = resp.read().decode("utf-8")
             FETCH_OK += 1
@@ -72,33 +92,57 @@ def fetch_text(url, attempts=3):
     return None
 
 
-def get_form4_filings(cik, days=14):
-    """Get recent Form 4 filings via EDGAR company filings Atom feed."""
-    url = (
-        f"https://www.sec.gov/cgi-bin/browse-edgar?"
-        f"action=getcompany&CIK={cik}&type=4&dateb=&owner=include"
-        f"&count=40&action=getcompany&output=atom"
-    )
-    text = fetch_text(url)
-    if not text:
-        return []
-
-    cutoff = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
+def grade_form4_feed(text, info, days, today):
+    """Pure verdict on an EDGAR issuer atom feed -> (state, filings, msg). No network."""
+    if text is None:
+        return "FAILED", [], "request failed"
+    if "<feed" not in text or "<company-info>" not in text:
+        return "PARSE", [], "response is not an EDGAR company atom feed"
+    m = re.search(r"<conformed-name>([^<]+)</conformed-name>", text)
+    name = m.group(1).strip() if m else ""
+    if info["match"].upper() not in name.upper():
+        return "PARSE", [], f"identity mismatch: CIK {info['cik']} is '{name or '?'}', expected '{info['match']}'"
+    cutoff = (today - timedelta(days=days)).isoformat()
     results = []
-
-    entries = re.findall(r"<entry>(.*?)</entry>", text, re.DOTALL)
-    for entry in entries:
+    for entry in re.findall(r"<entry>(.*?)</entry>", text, re.DOTALL):
         date_m = re.search(r"<filing-date>([^<]+)</filing-date>", entry)
         href_m = re.search(r"<filing-href>([^<]+)</filing-href>", entry)
-        if date_m and href_m:
-            fdate = date_m.group(1)
-            if fdate >= cutoff:
-                results.append({
-                    "date": fdate,
-                    "index_url": href_m.group(1),
-                })
+        if not (date_m and href_m):
+            return "PARSE", [], "an entry lacks <filing-date> or <filing-href>"
+        if date_m.group(1) >= cutoff:
+            results.append({"date": date_m.group(1), "index_url": href_m.group(1)})
+    return ("FOUND" if results else "CLEAR"), results, f"'{name}'"
 
-    return results
+
+def get_form4_filings(info, days=14):
+    """Recent Form 4 filings via the EDGAR issuer atom feed -> (state, filings, msg)."""
+    url = (
+        f"https://www.sec.gov/cgi-bin/browse-edgar?"
+        f"action=getcompany&CIK={info['cik']}&type=4&dateb=&owner=include"
+        f"&count=40&action=getcompany&output=atom"
+    )
+    return grade_form4_feed(fetch_text(url), info, days, datetime.now().date())
+
+
+def grade_fdic_list(rows, days, today, min_rows=FDIC_MIN_ROWS):
+    """Pure verdict on the FDIC cert-110 disclosure list -> (state, in_window, msg)."""
+    if not isinstance(rows, list):
+        return "PARSE", [], f"response is {type(rows).__name__}, not a list"
+    if len(rows) < min_rows:
+        return "PARSE", [], f"only {len(rows)} disclosures returned (floor {min_rows}) — incomplete"
+    bad = [r for r in rows if not isinstance(r, dict) or not isinstance(r.get("disclID"), int)
+           or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(r.get("disclPubDate") or ""))]
+    if bad:
+        return "PARSE", [], f"{len(bad)} row(s) lack an integer disclID or a disclPubDate"
+    if any(r.get("cert") != 110 for r in rows):   # identity by cert: pre-2017 rows read 'Bank of the Ozarks'
+        return "PARSE", [], "a row is not FDIC cert 110 (Bank OZK) — wrong list"
+    cutoff = (today - timedelta(days=days)).isoformat()
+    win = sorted((r for r in rows if r["disclPubDate"] >= cutoff), key=lambda r: r["disclPubDate"])
+    newest = max(r["disclPubDate"] for r in rows)
+    if not win:
+        return "CLEAR", [], f"FDIC cert 110: {len(rows)} disclosures, none published since {cutoff} (newest {newest})"
+    return "UNREAD", win, (f"FDIC cert 110: {len(win)} Form {'/'.join(sorted({str(r.get('disclTypeCode')) for r in win}))} "
+                           f"since {cutoff} — FDIC gives A/D (acquired/disposed) or a PDF, NOT the purchase code; read each")
 
 
 def find_xml_in_index(index_url):
@@ -185,6 +229,8 @@ def parse_form4_xml(xml_url):
 
 
 def main():
+    if "--selftest" in sys.argv:
+        sys.exit(selftest())
     days = 14
     if "--days" in sys.argv:
         idx = sys.argv.index("--days")
@@ -199,23 +245,43 @@ def main():
     any_purchases = False
     names_unknown = []          # names with NO usable read - never fold into a clean verdict
 
+    for ticker in PRIORITY:
+        if ticker not in TARGETS:
+            print(f"\n  {ticker}\n  {'-'*50}\n  🔴 UNCOVERED — priority bank with no route configured. NO VERDICT.")
+            names_unknown.append(ticker)
+
     for ticker, info in TARGETS.items():
-        cik = info["cik"]
         name = info["name"]
-        print(f"\n  {ticker} ({name})")
+        print(f"\n  {ticker} ({name}) — " + (f"SEC CIK {info['cik']}" if info["route"] == "sec" else f"FDIC cert {info['cert']}"))
         print(f"  {'-'*50}")
 
-        _fail_before = FETCH_FAIL
-        filings = get_form4_filings(cik, days=days)
-        if not filings:
-            if FETCH_FAIL > _fail_before:
-                # ★ THIS IS THE LOAD-BEARING CASE. "No filings" and "could not ask" are
-                # OPPOSITE epistemic states that used to render IDENTICALLY. Caught live
-                # 2026-08-20 on WAL (CIK 1212545) — the very first run after the fix.
-                print(f"  🔴 UNKNOWN — EDGAR fetch FAILED for this name. This is NOT 'no filings'.")
-                names_unknown.append(ticker)
+        if info["route"] == "fdic":
+            body = fetch_text(f"{FDIC_DISCL}/cert/{info['cert']}", headers={"User-Agent": FDIC_UA})
+            try:
+                rows = json.loads(body) if body is not None else None
+            except ValueError:
+                rows = "unparseable"
+            if body is None:
+                state, win, msg = "FAILED", [], "request failed"
             else:
-                print(f"  No Form 4 filings in last {days} days.")
+                state, win, msg = grade_fdic_list(rows, days, datetime.now().date())
+            print(f"  {'✅' if state == 'CLEAR' else '🔴'} {state}: {msg}")
+            for r in win:
+                print(f"     {r['disclPubDate']}  Form {r.get('disclTypeCode')}  "
+                      f"{r.get('indvFirstName', '')} {r.get('indvLastName', '')}  -> {FDIC_DISCL}/{r['disclID']}")
+            if state != "CLEAR":
+                names_unknown.append(ticker)
+            continue
+
+        # ★ "No filings" and "could not ask" are OPPOSITE epistemic states that used to render
+        # IDENTICALLY (caught 2026-08-20 on WAL); a WRONG issuer is a third (caught 2026-10-09).
+        state, filings, msg = get_form4_filings(info, days=days)
+        if state in ("FAILED", "PARSE"):
+            print(f"  🔴 {state} — {msg}. This is NOT 'no filings'. NO VERDICT.")
+            names_unknown.append(ticker)
+            continue
+        if not filings:
+            print(f"  ✅ No Form 4 filings in last {days} days ({msg}).")
             continue
 
         total_purchases = 0
@@ -305,25 +371,69 @@ def main():
         for e in LAST_ERRORS:
             print(f"     {e}")
         print()
-        sys.exit(1)
+        sys.exit(2)
     if FETCH_FAIL:
         print(f"  ⚠️  PARTIAL SCAN — {FETCH_FAIL} fetch failure(s); the verdict below covers only what was fetched.")
         for e in LAST_ERRORS:
             print(f"     {e}")
 
     if names_unknown:
-        print(f"  🔴 NO USABLE READ for: {', '.join(names_unknown)} — excluded from the verdict below.")
-    if not any_purchases:
-        covered = [t for t in TARGETS if t not in names_unknown]
-        print(f"\n  ✅ No open market insider purchases across {len(covered)} of {len(TARGETS)} names "
-              f"({', '.join(covered) if covered else 'NONE'}).")
-    else:
+        print(f"  🔴 NO VERDICT for: {', '.join(names_unknown)} (failed / unparsed / UNREAD / UNCOVERED).")
+    covered = [t for t in TARGETS if t not in names_unknown]
+    if any_purchases:
         print(f"\n  🔴 ALERT: Insider buying detected — review before maintaining short thesis.")
+    elif names_unknown or FETCH_FAIL:
+        print(f"\n  ⚠️  INCOMPLETE — no open-market purchase among the names read "
+              f"({', '.join(covered) if covered else 'NONE'}); this is NOT an all-clear.")
+    else:
+        print(f"\n  ✅ No open market insider purchases across all {len(TARGETS)} names "
+              f"({', '.join(covered)}).")
 
     print()
-    if FETCH_FAIL or names_unknown:
+    if any_purchases:
         sys.exit(1)
+    if FETCH_FAIL or names_unknown:
+        sys.exit(2)
+
+
+def selftest():
+    from datetime import date
+    today = date(2026, 10, 9)
+    wal = TARGETS["WAL"]
+
+    def feed(name, dates):
+        e = "".join(f"<entry><filing-date>{d}</filing-date><filing-href>u</filing-href></entry>" for d in dates)
+        return f"<feed><company-info><conformed-name>{name}</conformed-name></company-info>{e}</feed>"
+
+    row = lambda i, d: {"disclID": i, "disclPubDate": d, "disclTypeCode": "4", "instName": "Bank OZK", "cert": 110}
+    base = [row(i, "2026-08-14") for i in range(3)]
+    cases = [
+        ("sec: valid feed, none in window -> CLEAR", grade_form4_feed(feed("WESTERN ALLIANCE BANCORPORATION", ["2026-08-01"]), wal, 14, today)[0], "CLEAR"),
+        ("sec: request failed -> FAILED", grade_form4_feed(None, wal, 14, today)[0], "FAILED"),
+        ("sec: HTML error page -> PARSE", grade_form4_feed("<html>503</html>", wal, 14, today)[0], "PARSE"),
+        ("sec: wrong issuer at CIK -> PARSE", grade_form4_feed(feed("OLD REPUBLIC INTERNATIONAL CORP", []), wal, 14, today)[0], "PARSE"),
+        ("sec: filing in window -> FOUND", grade_form4_feed(feed("WESTERN ALLIANCE BANCORPORATION", ["2026-10-05"]), wal, 14, today)[0], "FOUND"),
+        ("fdic: error body -> PARSE", grade_fdic_list({"Message": "error"}, 14, today, min_rows=3)[0], "PARSE"),
+        ("fdic: truncated list -> PARSE", grade_fdic_list(base[:1], 14, today, min_rows=3)[0], "PARSE"),
+        ("fdic: valid, none in window -> CLEAR", grade_fdic_list(base, 14, today, min_rows=3)[0], "CLEAR"),
+        ("fdic: Form 4 in window -> UNREAD (no purchase code at FDIC)", grade_fdic_list(base + [row(9, "2026-10-01")], 14, today, min_rows=3)[0], "UNREAD"),
+        ("fdic: other issuer's row -> PARSE", grade_fdic_list(base + [dict(row(9, "2026-08-01"), cert=999)], 14, today, min_rows=3)[0], "PARSE"),
+        ("fdic: pre-2017 name, same cert -> CLEAR", grade_fdic_list(base + [dict(row(9, "2016-01-04"), instName="Bank of the Ozarks")], 14, today, min_rows=3)[0], "CLEAR"),
+    ]
+    fails = 0
+    for name, got, want in cases:
+        ok = got == want
+        fails += not ok
+        print(f"  {'PASS' if ok else 'FAIL'}  {got:<7} (want {want})  {name}")
+    print(f"INSIDER SELFTEST {'PASS' if not fails else 'FAIL'}: {len(cases) - fails}/{len(cases)}")
+    return 1 if fails else 0
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except SystemExit:
+        raise
+    except Exception as e:  # a crash must not exit 0 or collide with rc 1 ALERT
+        print(f"INSIDER 2 INCOMPLETE: internal error ({type(e).__name__}: {e}) — no verdict")
+        sys.exit(2)

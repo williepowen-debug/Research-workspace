@@ -23,6 +23,27 @@
 
 ---
 
+## Q3-2026 BANK EARNINGS DATES — canonical date list (read by `scripts/earnings_countdown.py`)
+
+*Added 2026-10-09 (Will's bounded repair pass: the countdown had a hand-typed April list). **A date moves HERE first.** The §LATER rows below record how each date was verified on 10/7 and are not re-edited. `CONFIRMED` = issuer-announced; `NOT-ANNOUNCED` = the date shown is an ESTIMATE and is printed as one. The script checks each Day against its Date and refuses the table (rc 2) on any malformed row. Question = Will's 10/9 priority: Q1 funding × nonbank draws · Q2 CRE recognition · Q3 AMTB non-CRE credit · FL = frozen FL-rail frame · ctx = context.*
+
+<!-- reginald:earnings-dates:begin -->
+| Ticker | Date | Day | Timing | Status | Question | Source |
+|---|---|---|---|---|---|---|
+| CFG | 2026-10-16 | Fri | pre-open (time inferred); call 09:00 ET | CONFIRMED | Q1 | CFG IR 9/10; BROCK at issuer 10/9 (SIG-W-20261009-010) |
+| MTB | 2026-10-16 | Fri | pre-open | CONFIRMED | ctx | BROCK at issuer 10/9 (SIG-W-20261009-010) |
+| WAL | 2026-10-19 | Mon | after close; call Tue 10/20 12:00 ET | CONFIRMED | Q1 Q2 | Business Wire 10/6 (issuer text) |
+| OZK | 2026-10-20 | Tue | after close; call Wed 10/21 08:30 ET | CONFIRMED | Q1 Q2 | OZK release 9/30 |
+| EGBN | 2026-10-21 | Wed | after close; call Thu 10/22 10:00 ET | CONFIRMED | Q1 Q2 | EagleBank IR 10/7 |
+| BKU | 2026-10-21 | Wed | before open; call 09:00 ET | CONFIRMED | FL | Business Wire 9/22 (repost) |
+| SSB | 2026-10-21 | Wed | after close; call Thu 10/22 09:00 ET | CONFIRMED | FL | 8-K 7.01 acc 0001193125-26-411326 |
+| VLY | 2026-10-22 | Thu | before open; call 08:30 ET | CONFIRMED | ctx | GlobeNewswire 10/7 |
+| AMTB | 2026-10-22 | Thu | after close; call Fri 10/23 09:00 ET | CONFIRMED | Q3 FL | AMTB IR 9/30 |
+| CUBI | 2026-10-22 | Thu | after close (pattern) | NOT-ANNOUNCED | Q1 | ESTIMATE from the Q2 pattern (Thu after close, Fri webcast); no notice found 10/9 21:2x ET |
+| FLG | 2026-10-23 | Fri | before open (pattern) | NOT-ANNOUNCED | Q2 | ESTIMATE from the Friday pattern; Earnings Whispers says Mon 10/26; no notice found 10/9 21:2x ET |
+| SBCF | 2026-10-27 | Tue | after close; call Wed 10/28 10:00 ET | CONFIRMED | FL | SBCF IR 10/5 |
+<!-- reginald:earnings-dates:end -->
+
 ## LATER (forward catalysts — OZK-primary, REGINALD info)
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
