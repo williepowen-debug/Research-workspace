@@ -1,6 +1,6 @@
 # BRENT SCRATCH — October 10, 2026 (Saturday: brent-1010 at 11:3x ET + brent-1010b at 12:05 ET, both PROME spawns on Will's 11:30 ET word)
 
-**Closeout writeback 2026-10-10 12:17 EDT.** Claude Code, Opus 5.5 (`claude-opus-5-5`). brent-1010 (PROME `prome-1e`) ran on Will's word given in WALTER's window at 11:30 ET ("Okay lets do A and C", committed by WALTER `16395614d`) and was cut at 11:47 ET by PROME's WQ-249 closeout ask. brent-1010b (PROME `prome-ce`) completed its write-back tail and nothing else. No pull: HEAD equalled origin/master at boot and PROME's own files were dirty. $0; no trade, threshold, gate cell or score moved.
+**Closeout writeback 2026-10-10 12:14 EDT.** Claude Code, Opus 5.5 (`claude-opus-5-5`). brent-1010 (PROME `prome-1e`) ran on Will's word given in WALTER's window at 11:30 ET ("Okay lets do A and C", committed by WALTER `16395614d`) and was cut at 11:47 ET by PROME's WQ-249 closeout ask. brent-1010b (PROME `prome-ce`) completed its write-back tail and nothing else. No pull: HEAD equalled origin/master at boot and PROME's own files were dirty. $0; no trade, threshold, gate cell or score moved.
 
 ## CHANGES SINCE LAST SESSION (since the 10/9 AM SCRATCH)
 - **10/9 PM, `brent-58`** (Will's window, on PROME's 15:14 ET doorbell): COT #9 graded **JOINT NOT-SPENT, 3rd consecutive** (`f50d59625`); MMA 10/9 **71.51% = 1,458,814 b/d** (`6c0db64fe`); settle-window crack **Nov $107.16 / Dec $101.69 [EST]** (`332d877ca`). The box crashed ~15:31 ET. The Friday routine (16:17 ET) confirmed #9 as no new observation; rigs 462 (+6), record-only.
