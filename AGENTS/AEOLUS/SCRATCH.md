@@ -22,7 +22,7 @@
 1. 🔴 **Isaias loss leg:** first post-landfall modeler estimate (KCC/Verisk/Moody's RMS) → C4 >$10B leg (once) → CORAL with its perimeter. **DATE TRAP: 2020-Isaias KCC $4.2bn / RMS $3–5bn.** FEMA DR still pending (EM-3655 only).
 2. 🔴 **Rhine 3-day re-grade** (WSV 10/10: no exit through 10/12). **Simon** landfall pressure vs the IBRD Mexico bond box (~932 mb).
 3. 🔴 **10/15:** CPC long-lead winter outlook (vs the mild composite) · EIA storage · **October 24MS** (not out 10/10) → AEO-10, Mead 1,037.60 [10/9].
-4. **Will-gated proposals pending:** C6 leg 2 **1,010 vs 1,000** (KB-204) · milestone band re-key to **Jan 1, 2027** + litigation (KB-202/203).
+4. ✅ **Will ruled 10/10 (KB-205):** C6 leg 2 = **<1,010 while the Guidelines are in effect, else <1,000** (governing today: 1,000); milestone band re-keyed to **Jan 1, 2027** + *Nevada v. Burgum* (Yellow from **11/02**, Orange from **12/02** or a PI motion).
 5. **TERRY** reply on the RNR late notice (price vs NO-BUILD). **10/27** SA CEC intentions + MWD board item. CSU final 10/14.
 
 ### DONE 10/10 (all committed + pushed)

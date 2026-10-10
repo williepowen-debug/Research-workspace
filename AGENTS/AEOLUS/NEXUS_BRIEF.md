@@ -2,7 +2,7 @@
 
 **Purpose:** curated synthesis writeback, refreshed **every closeout** (CLOSEOUT step 3). Compact routing-first variant (NEXUS Amendment 9, Will-approved 7/31). `outbox/` is 🔴-crisis-only.
 
-**Last writeback: 2026-10-10 12:48 ET (Will-directed: news sweep → El Niño winter re-point → Colorado → file hygiene) — LAST write before commit per Amendment 10.** Prior fold rotated verbatim → `archive/NEXUS_BRIEF_ARCHIVE_2026-10-09_fold.md` (7480 B · crc32 1879697930 — recompute it).
+**Last writeback: 2026-10-10 12:54 ET (Will-directed: news sweep → El Niño winter re-point → Colorado → file hygiene) — LAST write before commit per Amendment 10.** Prior fold rotated verbatim → `archive/NEXUS_BRIEF_ARCHIVE_2026-10-09_fold.md` (7480 B · crc32 1879697930 — recompute it).
 **WAITING-FOR:**
 - first post-landfall **Isaias** insured-loss estimate (C4 >$10B leg, counted once)
 - **each session:** Rhine 3-day exit re-grade
@@ -46,7 +46,7 @@
 - **C6 Mead:** **1,037.60 [10/9]**, 2.60 ft above Hoover 1,035; the October 24MS was not out at 16:25Z 10/10.
   - The **Lower Basin implementing agreement is UNSIGNED** on every primary read. Arizona's legislature must approve it (A.R.S. §45-106); Jan 1, 2027 is cited.
   - ***Nevada v. Burgum*** (D. Nev. 2:26-cv-02665, filed 8/24) seeks vacatur. The **1.25 maf CY2027 cut proceeds** regardless.
-  - **Two consultation lines:** Guidelines §5.3.A.4 **1,010 ft** vs ROD §10.7 **1,000 ft** (re-key Will-gated). KB-202/203/204.
+  - **Two consultation lines:** Guidelines §5.3.A.4 **1,010 ft** vs ROD §10.7 **1,000 ft**. **Will ruled 10/10:** C6 leg 2 fires <1,010 while the Guidelines are in effect, else <1,000 (1,000 governs today). The milestone band is re-keyed to the **Jan 1, 2027** agreement deadline + the lawsuit (Yellow 11/02, Orange 12/02 or a PI motion). KB-202…205.
 - **Panama:**
   - Draft **49.0 ft** (raised 9/28); slots 33/day from 10/15; Sept transits 32.63/day. Gatún **85.26 ft**, rising, 5.4 ft above 2023's same date.
   - **Dry-season base rate:** in strong El Niño years the lake fell a median **−3.1 ft** to its Jan–Apr low → ~82 ft (worst ~80.8, vs 2024's 80.17 low).
@@ -61,7 +61,7 @@
 | **BRENT · WATT** | Strong-El-Niño winter HDD composite vs the official forecasts | price/load it — weather base rate only |
 | **TERRY** | RNR vehicle armed on its letter (LATE) — premise absent | price vs NO-BUILD |
 | **CORAL** | FEMA EM-3655, not a DR; no post-landfall loss estimate yet | none — the estimate will follow with its perimeter |
-| **PROME** | Will rulings (2 bands) · AEO-13 · Colorado · **READS.tsv ask** (worker read surfaces invisible to `read_cap_check`) | declare `AEOLUS/*/DOSSIER.md` + `*/SOURCES.md` |
+| **PROME** | Will rulings (4: two bands + two C6 re-keys, KB-200/205) · AEO-13 · Colorado · **READS.tsv ask** (worker read surfaces invisible to `read_cap_check`) | declare `AEOLUS/*/DOSSIER.md` + `*/SOURCES.md` |
 
 ---
 
