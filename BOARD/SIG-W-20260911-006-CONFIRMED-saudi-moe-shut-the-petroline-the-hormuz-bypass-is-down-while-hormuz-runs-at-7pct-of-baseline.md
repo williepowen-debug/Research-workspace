@@ -18,7 +18,12 @@ resources: 1
 safety_net: clear
 word_count: 430
 verdict: "The Saudi Ministry of Energy stated 2026-09-11 that the East-West (Petroline) crude pipeline is SHUT DOWN as a precautionary measure after multiple attacks in the Riyadh and Madinah regions on 9/10. FALCON graded STATUS tell #2 FIRED on a pre-committed resolver; marks HOLD (B 3 / C 22 / D 75), GATE 1 / FAL-01 stays FIRM-NEGATIVE, FAL-05 unfired. The Hormuz BYPASS is now down while Hormuz itself runs at ~7% of baseline. FALCON packeted BRENT, HAWK and PROME directly; this dispatch carries the legs that routing did not reach — CARL on the pump/pass-through trigger, SAM on the oil-yen leg. THE SHUTDOWN IS CONFIRMED; A STRIKE ON THE LINE IS NOT, AND ATTRIBUTION IS CONTESTED BETWEEN HOUTHI AND IRAQ-CORRIDOR READS."
+status: PARTIALLY-SUPERSEDED
+status_ref: "FALCON 2026-09-28 (AGENTS/FALCON/reports/2026-09-28_fal05-FAILED-route-c-and-d85-rung.md; carried on the BOARD at SIG-W-20261001-027): FAL-05 RESOLVED FAILED on route (c); marks now B 1 / C 14 / D 85"
+status_date: 2026-10-10
 ---
+
+> ⚠️ **LIFECYCLE TAG `PARTIALLY-SUPERSEDED` applied 2026-10-10 (staleness sweep, WALTER adjudication; the sweep generates candidates and never auto-tags).** BROKE: the verdict's 'FAL-05 unfired' and 'marks HOLD (B 3 / C 22 / D 75)'. FALCON resolved FAL-05 FAILED on route (c) on 9/28 (Yanbu crude loadings stopped ≥72h from 9/11, two vendors) and moved the marks to B 1 / C 14 / D 85 (a ROUTE loss, not a demonstrated BARREL loss, per FALCON). WHAT SURVIVES: the Saudi MoE's precautionary SHUT of the Petroline on 9/11, STATUS tell #2 FIRED, GATE 1 / FAL-01 FIRM-NEGATIVE, and the contested attribution.
 
 # CONFIRMED at the Saudi state: the MoE SHUT the Petroline. The Hormuz bypass is down while Hormuz runs at ~7% of baseline.
 

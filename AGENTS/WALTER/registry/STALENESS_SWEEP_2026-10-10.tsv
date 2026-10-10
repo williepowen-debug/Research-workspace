@@ -1,0 +1,24 @@
+# BOARD staleness sweep + adjudication record — 2026-10-10 (CADENCE run, 2d overdue; FORMAT_SPEC Signal Lifecycle)
+# Trigger: walter_doctor staleness_sweep_overdue (16d since 2026-09-24; cadence 14d). Run in the walter-66 PM session on Will's "continue working on our owed or incomplete tasks".
+# Sweep: AGENTS/WALTER/tools/staleness_sweep.py -> 291 candidates of 1314 signals (unscoped; already-tagged signals skipped by the tool). Pattern split: P3 140 · P1 78 · P2 35 · P1+P3 16 · P2+P3 11 · P1+P2 8 · P1+P2+P3 3. New since the 9/24 sweep (dated >= 20260924): 62 (P3 30 · P1 22 · P2 4 · P1+P2 3 · P2+P3 2 · P1+P3 1).
+#
+# ADJUDICATION BASIS + DISCIPLINE (same as 2026-09-03 / 09-24): only actively-misleading signals get tagged; dated snapshots are covered by the INDEX preamble rule. 288 of 291 carry NO tag.
+#   THE ADJUDICATED CLASS WAS CHOSEN BY MECHANISM: world-state changes since 9/24 that could make an earlier signal assert a now-false CURRENT state:
+#     (1) FAL-05 RESOLVED FAILED 9/28 (FALCON, route c; marks B1/C14/D85) — grep for FAL-05 open/unfired claims 9/11-9/28: one verdict line (SIG-W-20260911-006) still read 'FAL-05 unfired' + old marks -> TAGGED.
+#     (2) BOUNDARY #6/#8 RULED 10/9 (SIG-W-20261009-008; the #6 <$30 re-cross half retired, #8 month basis fixed) — hits: -0924-001 ('month basis pending', 'interim rule'; already PARTIALLY-CORRECTED, process state, the overlay letter governs) NO TAG; -0914-025 (lists the re-cross half as registered; dated, BRENT action closed) NO TAG; -0928-016 (spike leg only, which stays live) NO TAG.
+#     (3) CREED-T-08a FIRED 9/26 — no 9/10-9/26 signal asserts 'not fired' as current. NO TAG.
+#     (4) Same-day supersessions in the 9/24-10/9 window read at title + INDEX marker (32 non-P3 candidates): one asserts an OPEN state settled hours later (-1002-002 'EU weighs' -> -1002-009 'G7 DECIDED') -> TAGGED; one INDEX headline still carries a claim withdrawn only in its body (-0928-010 Part A) -> TAGGED.
+#   NOT TAGGED FOR WANT OF A VERIFIED OUTCOME (an unverified outcome cannot support a tag): -0924-021 (Yanbu 'not loading as of 9/24'; the 9/28 resumption is one source, not operator-confirmed); -0925-004 (CRMT bridge to 10/1, outcome not checked); -0929-014 (Oct 1 trucker strike call, outcome not checked).
+#   CHECKED AND WITHDRAWN (my own instrument error, recorded so it is not re-raised): a script that tested correction TARGETS for a `status:` field reported 82 'unlinked' targets. Wrong reference — gen_board_index derives the '⚠️ CORRECTED →' back-marker from the CORRECTOR's `corrects:` field (WQ-174), so those targets ARE linked at the INDEX. Only -0928-010 Part A (withdrawn in-body, never in frontmatter) was a real headline gap.
+#   EACH TAG = YAML status + status_ref + status_date, a file banner, and the generated INDEX back-marker.
+#
+# LEG 1 -- LIFECYCLE TAGS APPLIED (3).
+signal_id	status	status_ref	basis_verified_at	what_survives
+SIG-W-20260911-006	PARTIALLY-SUPERSEDED	FALCON 2026-09-28 report (fal05-FAILED-route-c-and-d85-rung); BOARD SIG-W-20261001-027	-0911-006 verdict line 20 read this session; anchors/IRAN_WAR.md Petroline block (FAL-05 RESOLVED FAILED 9/28, marks B1/C14/D85); -1001-027 line 38	MoE precautionary SHUT 9/11; tell #2 FIRED; GATE 1 firm-negative; attribution contested. BROKE: 'FAL-05 unfired' + marks 3/22/75.
+SIG-W-20260928-010	PARTIALLY-CORRECTED	SELF (additive correction 2026-09-28T20:09:08Z in body)	-0928-010 lines 57 and 60 read this session; INDEX row showed only the Part B (-016) marker	EIA 9/18 SPR 284.6M bbl; Part B as updated by -016/-017. BROKE: Part A 'about 125M below the ~411M BRENT's workbook still uses' (frozen-ledger figure).
+SIG-W-20261002-002	PARTIALLY-SUPERSEDED	SIG-W-20261002-009	-1002-002 and -1002-009 titles + INDEX rows read this session	the pre-open move and the plan's shape as of its timestamp. BROKE: the open 'EU weighs … conditional' state (G7 decided the same day; US ban-threat status still unknown).
+#
+# LEG 2 -- correction-linkage backfill: covered by the INDEX's inverted-corrects derivation (see WITHDRAWN above); no separate backfill run.
+# LEG 3 -- P3 (140) NOT INDIVIDUALLY ADJUDICATED: dominated by signals that CITE a RED-FT/REG-T identifier rather than assert its state (same finding as 9/03 and 9/24).
+# CARRIED: (a) P2 narrower-pattern proposal to Will STILL NOT MADE (P2-bearing 57 this run); (b) row-by-row pre-9/03 P1 pass still not done; (c) outcomes of -0908-007 (PJM), -0921-001 (Japan window), -0925-004 (CRMT), -0929-014 (trucker strike) unverified.
+# NEXT SWEEP DUE ~2026-10-24.

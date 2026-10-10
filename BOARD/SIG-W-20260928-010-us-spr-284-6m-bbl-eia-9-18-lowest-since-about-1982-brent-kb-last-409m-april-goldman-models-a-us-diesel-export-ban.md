@@ -18,7 +18,12 @@ action: ["BRENT"]
 info: ["HAWK", "HENRY", "RED", "PROME"]
 confidence: 0.75
 dispatch_note: "Will-Telegram items 1+6 combined (same owner, oil supply-side policy). Already ours? BRENT's last SPR level on file is April (409.2M, KB-BRT-152); no owner holds the GS export-ban model (BRENT STATUS carries only the RUSSIA producer diesel-ban expiry 9/30). Boundary #6 (gasoline crack) exposure: GS's second-stage gasoline effect bears on it; no crossing asserted. HENRY info: HEN-46 diesel-crack and PPI-diesel legs. GS's trade recommendation is noted and not carried: trade construction is TERRY's. Open design decision (e) SPR registerability stands."
+status: PARTIALLY-CORRECTED
+status_ref: "SELF — additive correction in this body, 2026-09-28T20:09:08Z (BRENT report, verified at BRENT's files): Part A's 'the reserve is ~125M bbl smaller than the owner's basis' is WRONG and withdrawn. BRENT's live SPR basis was 284.552M in TRACKER; the ~411M figure came from a FROZEN ledger. Part B is separately updated by SIG-W-20260928-016"
+status_date: 2026-10-10
 ---
+
+> ⚠️ **LIFECYCLE TAG `PARTIALLY-CORRECTED` applied 2026-10-10 (staleness sweep, WALTER adjudication; the sweep generates candidates and never auto-tags).** BROKE: the headline's 'about 125M below the ~411M BRENT's workbook still uses' (Part A). That figure came from a ledger bannered FROZEN 2026-07-01; BRENT's live basis already matched the EIA print. The withdrawal sat only in the body, and the INDEX marker covered Part B, so the headline still read as live. WHAT SURVIVES: the EIA 9/18 SPR level of 284.6M bbl, and Part B's Goldman diesel-ban scenario (as updated by -016 and -017).
 
 # The US SPR is at 284.6M barrels (EIA, 9/18), about 125M below the ~411M BRENT's workbook still uses. Separately, Goldman models a US diesel export ban
 

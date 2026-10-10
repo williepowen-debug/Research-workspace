@@ -19,7 +19,12 @@ precedence: PRIORITY
 action: ["BRENT"]
 info: ["HANS", "HAWK", "HENRY", "CARL", "TERRY", "RED", "PROME"]
 dispatch_note: "Continuation of SIG-W-20261001-026 (same recipients). EU taskforce meeting is BRENT's own 10/02 CATALYSTS row. TERRY info for the USO Oct-09 $150 exposure line only. CARL, RED, TERRY, PROME pull-complete."
+status: PARTIALLY-SUPERSEDED
+status_ref: "SIG-W-20261002-009 (same day: Macron said the G7 DECIDED a release of up to 100M bbl of diesel + crude over 4 months, diesel front-loaded in 20 days; US ban-threat status unknown)"
+status_date: 2026-10-10
 ---
+
+> ⚠️ **LIFECYCLE TAG `PARTIALLY-SUPERSEDED` applied 2026-10-10 (staleness sweep, WALTER adjudication; the sweep generates candidates and never auto-tags).** BROKE: the open state 'EU WEIGHS a French plan … conditional on the US dropping its export-ban threat'. The G7 decision was announced hours later (-009). WHAT SURVIVES: the pre-open oil move and the plan's reported shape as of its own timestamp. Whether the US dropped the ban threat was still UNKNOWN in -009.
 
 # Oil −3–4% pre-open: EU weighs a French plan for 50M bbl diesel + 50M bbl IEA crude, conditional on the US dropping its export-ban threat
 
