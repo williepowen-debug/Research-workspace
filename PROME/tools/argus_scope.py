@@ -606,6 +606,44 @@ def committed_changes(baseline_sha):
     return paths
 
 
+def commit_subjects(baseline_sha):
+    """{sha9: subject} for every commit in the window — one git call, read once (WQ-417 P3)."""
+    out = {}
+    for line in git("log", "--format=%H%x09%s", f"{baseline_sha}..HEAD").splitlines():
+        if "\t" in line:
+            h, subj = line.split("\t", 1)
+            out[h[:9]] = subj
+    return out
+
+
+PROME_SUBJECT_RE = re.compile(r"^PROME\b", re.I)                      # 'PROME:', 'PROME ->', 'Prome:' — not PROMETHEUS
+
+
+def authorship_evidence(entry, subjects):
+    """Evidence that PROME wrote a SHARED path: the carve-out ① filename (`from-PROME`) or a window commit whose
+    subject starts `PROME`. A list of named evidence strings; empty = UNEVIDENCED. Evidence is a READING hint,
+    never a reclassification: the lane stays SHARED and the path stays listed (A4/A5). Coverage test:
+    PROME/tools/tests/test_argus_scope_evidence.py (the FALCON inbox/data case 888924d2e, the 10/10 packets)."""
+    ev = []
+    path = entry["path"]
+    base = path.rsplit("/", 1)[-1]
+    if re.search(r"from-prome(?![a-z0-9])", base, re.I):        # from-PROME_ / from-PROME. — not from-prometheus
+        ev.append("filename carries from-PROME (carve-out ① packet naming)")
+    if re.search(r"via-prome(?![a-z0-9])", base, re.I):         # relay naming: PROME is USUALLY the writer, not always (read 2 ⚠️5: 4 desk-written)
+        ev.append("filename carries via-PROME (relay naming — PROME is the likely writer; CONFIRM at git log before grading it as PROME's)")
+    if re.match(r"^AGENTS/[^/]+/inbox/MSG-PROME-[^/]+\.md$", path):   # Direct Messaging v1 names the sender in the file: MSG-<SENDER>-<date>-<n>__…
+        ev.append("top-level inbox MSG-PROME-*.md (Direct Messaging v1 filename names PROME as the sender)")
+    for sha in entry.get("committed", []):
+        subj = subjects.get(sha, "")
+        if PROME_SUBJECT_RE.match(subj):
+            ev.append(f"commit {sha} subject '{subj[:70]}'")
+    return ev
+
+
+def sublane(entry, subjects):
+    return "SHARED/PROME-EVIDENCED" if authorship_evidence(entry, subjects) else "SHARED/UNEVIDENCED"
+
+
 def build_scope(baseline_sha, rules, include_pending=True):
     committed = committed_changes(baseline_sha)
     pending = {}
@@ -623,6 +661,10 @@ def build_scope(baseline_sha, rules, include_pending=True):
             excluded.append(entry)
         else:
             lanes[cls].append(entry)
+    subjects = commit_subjects(baseline_sha)
+    for e in lanes["SHARED"]:
+        e["evidence"] = authorship_evidence(e, subjects)
+        e["sublane"] = sublane(e, subjects)
     return lanes, excluded
 
 
@@ -720,24 +762,32 @@ def main(argv=None):
             "baseline_source": BASELINE_FILE, "perimeter_source": PERIMETER_FILE,
             "owned": lanes["OWNED"], "shared": lanes["SHARED"], "unattributed": lanes["UNATTRIBUTED"],
             "excluded_count": len(excluded), "path_count": total, "verdict": verdict,
+            "shared_prome_evidenced": sum(1 for e in lanes["SHARED"] if e.get("evidence")),
             "lane_meaning": {
                 "owned": "PROME's output — audit it",
-                "shared": "a shared surface; PROME may NOT have written this. Labelled, never claimed (A5)",
+                "shared": "a shared surface; PROME may NOT have written this. Labelled, never claimed (A5). sublane SHARED/PROME-EVIDENCED = read in full and audit ON the named evidence; SHARED/UNEVIDENCED = list, open only when an OWNED hunk references it (WQ-417 P3)",
                 "unattributed": "matched no declared rule. Do NOT audit; report it and ask PROME (A4)"},
         }, indent=1))
     else:
         print(f"ARGUS-SCOPE · baseline {base['sha'][:9]} — {base.get('subject','')[:80]}")
         print(f"  recorded baseline: {BASELINE_FILE} · perimeter: {PERIMETER_FILE}")
-        print(f"  OWNED {len(lanes['OWNED'])} · SHARED {len(lanes['SHARED'])} · "
+        n_ev = sum(1 for e in lanes["SHARED"] if e.get("evidence"))
+        print(f"  OWNED {len(lanes['OWNED'])} · SHARED {len(lanes['SHARED'])} (PROME-evidenced {n_ev} · unevidenced {len(lanes['SHARED']) - n_ev}) · "
               f"UNATTRIBUTED {len(lanes['UNATTRIBUTED'])} · excluded {len(excluded)} entries "
               f"(STATES, not unique paths — a path changed both in-commit and pending counts twice; do NOT add this to the shown count) · verdict: {verdict}")
         for lane in ("OWNED", "SHARED", "UNATTRIBUTED"):
             for e in lanes[lane]:
                 state = ("committed+PENDING" if e["committed"] and e["pending"]
                          else "committed" if e["committed"] else "PENDING")
-                print(f"    - [{lane} · {state}] {e['path']}")
-                for r in reads_for(e):
-                    print(f"        read: {r}")
+                label = e.get("sublane", lane)
+                print(f"    - [{label} · {state}] {e['path']}")
+                if label == "SHARED/UNEVIDENCED":
+                    print("        list only — open it ONLY if an OWNED hunk references it or a declared consumed move names it (WQ-417 P3)")
+                else:
+                    for r in reads_for(e):
+                        print(f"        read: {r}")
+                for ev in e.get("evidence", []):
+                    print(f"        evidence: {ev}")
                 if lane != "OWNED":
                     print(f"        ⚠️ {e['reason']}")
     return 0 if total >= MIN_PATHS else 3
