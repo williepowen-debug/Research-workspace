@@ -198,44 +198,46 @@
         <span class="id-domain">Volatility, term structure, and credit-to-vol transmission timing. The fleet's early-warning system for vol-regime shifts.</span>
       </div>
       <div class="state-block">
-        <span class="regime">LOW_VOL — bonds and credit moved; stock vol moved less</span>
-        <span class="stamp">28 Sep 2026 close (delayed quote; Cboe archive confirmed through 25 Sep) · credit 25 Sep · COT report 22 Sep · framework v4.1.1</span>
+        <span class="regime">COMPLACENCY — calm index, bid tail, wider credit</span>
+        <span class="stamp">9 Oct 2026 close (Cboe archive) · credit 8 Oct · COT report 6 Oct · framework v4.1.1</span>
       </div>
     </header>
 
     <!-- ===== BAND 1: LIVE STATE ===== -->
     <div class="band">
-      <div class="band-head"><span class="band-key">Live state</span><span class="band-sub">28 September 2026 close; each lagged input is labelled</span></div>
+      <div class="band-head"><span class="band-key">Live state</span><span class="band-sub">Friday 9 October 2026 close; each lagged input is labelled</span></div>
       <div class="tiles">
-        <div class="tile sv-watch"><span class="t-name">VIX</span><span class="t-val">16.07</span><span class="t-note">Up 8.1% today after 14.87 on Friday. Back above 16, which switches off one cheap-tail condition. Still well below 20.</span><span class="t-trip">Delayed quote · 28 Sep</span></div>
-        <div class="tile sv-watch"><span class="t-name">VVIX</span><span class="t-val">91.02</span><span class="t-note">Highest close since the Fed. Just above the cheap-tail line of 90; far below the stress line of 120.</span><span class="t-trip">Delayed quote · 28 Sep</span></div>
-        <div class="tile sv-watch"><span class="t-name">SKEW</span><span class="t-val">146.25</span><span class="t-note">Below 150 on every close since 15 Sep. The 20-session mean is 147.62 and still elevated. RED owns its sustain grade.</span><span class="t-trip">Delayed quote · 28 Sep</span></div>
-        <div class="tile sv-watch"><span class="t-name">Term</span><span class="t-val">1.1344</span><span class="t-note">VIX3M/VIX is the flattest since the 16 Sep Fed day: cover for now is gaining on cover for later. It has not inverted.</span><span class="t-trip">Same-date ratio · inversion &lt;1</span></div>
+        <div class="tile sv-calm"><span class="t-name">VIX</span><span class="t-val">14.84</span><span class="t-note">Down 3.7% on the day and under 16 on six straight closes. Meets the cheap-tail line of 16. Well below 20.</span><span class="t-trip">Cboe archive · 9 Oct</span></div>
+        <div class="tile sv-calm"><span class="t-name">VVIX</span><span class="t-val">84.88</span><span class="t-note">Under the cheap-tail line of 90 since 2 Oct; far below the stress line of 120.</span><span class="t-trip">Cboe archive · 9 Oct</span></div>
+        <div class="tile sv-stress"><span class="t-name">SKEW</span><span class="t-val">154.34</span><span class="t-note">Up 12.5 points in two sessions while VIX fell. First close at or above 150 since 14 Sep, so RED&rsquo;s four-close test stands at 1 of 4.</span><span class="t-trip">Cboe archive · 9 Oct · 20-session mean 145.63</span></div>
+        <div class="tile sv-calm"><span class="t-name">Term</span><span class="t-val">1.1974</span><span class="t-note">VIX3M/VIX steepened again: cover for later costs well more than cover for now. The 9-day gauge is lower against VIX than on 98% of days since January 2025.</span><span class="t-trip">Same-date ratio · inversion &lt;1</span></div>
       </div>
       <div class="row-label">Other channels — evidence and limits</div>
       <div class="chans">
-        <div class="chan sv-stress"><span class="cn">Credit</span><span class="cv">2.93%</span><span class="cd">High-yield spread, FRED 25 Sep. Up 25bp in three sessions and every rating bucket widened (CCC 11.28%). LIQUID owns the read.</span></div>
-        <div class="chan sv-stress"><span class="cn">Bond vol</span><span class="cv">101.82</span><span class="cd">MOVE: 104.58 on 24 Sep, 96.00 Friday, back over 100 today. Ten-year Treasury yield 5.17% on 25 Sep.</span></div>
-        <div class="chan sv-watch"><span class="cn">Positioning</span><span class="cv">Net short</span><span class="cd">CFTC leveraged money −15,015, percentile 71.8. Report date 22 Sep. Tonight’s options OI is unusable.</span></div>
-        <div class="chan sv-stress"><span class="cn">Oil vol</span><span class="cv">56.11</span><span class="cd">OVX/VIX 3.49, canary FIRE since 18 Sep. Context for BRENT and HAWK, not a trigger.</span></div>
-        <div class="chan sv-calm"><span class="cn">Yen carry</span><span class="cv">CALM</span><span class="cd">RV10 7.03%, well below WATCH 14.16%. USD/JPY 157.46.</span></div>
+        <div class="chan sv-stress"><span class="cn">Credit</span><span class="cv">3.15%</span><span class="cd">High-yield spread, FRED 8 Oct. Up 47bp since 22 Sep (peak +56bp on 1 Oct); CCC 12.52%. VIX did not follow. LIQUID owns the read.</span></div>
+        <div class="chan sv-stress"><span class="cn">Bond vol</span><span class="cv">98.47</span><span class="cd">MOVE peaked at 113.60 on 5 Oct and eased. Ten-year Treasury yield 5.22% on 8 Oct, after 5.31% on 5 Oct.</span></div>
+        <div class="chan sv-stress"><span class="cn">Positioning</span><span class="cv">Net long</span><span class="cd">CFTC leveraged money flipped to +5,494 net long VIX futures, percentile 96.8 (report 6 Oct). Asset managers sit at their 3-year short extreme.</span></div>
+        <div class="chan sv-stress"><span class="cn">Oil vol</span><span class="cv">48.90</span><span class="cd">OVX/VIX 3.30, canary FIRE since 18 Sep. Context for BRENT and HAWK, not a trigger.</span></div>
+        <div class="chan sv-calm"><span class="cn">Yen carry</span><span class="cv">CALM</span><span class="cd">RV10 5.02%, well below WATCH 14.15%. USD/JPY 158.25.</span></div>
       </div>
       <div class="row-label">Instruments</div>
       <div class="instr">
-        <div class="ins"><span class="kind">Alert</span><div class="ins-body"><div class="in">Cheap-tail window</div><div class="id2">4 of 4 on Friday’s confirmed close, ahead of Micron earnings on 30 Sep. Today’s unconfirmed readings put VIX (16.07) and VVIX (91.02) just over their cheap lines, so the next confirmed read will probably show 2 of 4. Your decision, not a trade; TERRY builds any structure.</div></div><span class="status st-watch">OPEN · FRI</span></div>
-        <div class="ins"><span class="kind">Pre-reg</span><div class="ins-body"><div class="in">September Fed letter (VIO-FOMC-0916)</div><div class="id2">Graded and failed: 0 confirm, 2 kill, 1 miss, 1 void, 1 held with a defect. It modelled a stress reaction and the market delivered relief. Cboe has now confirmed the 23 Sep close (15.18) that the last kill rested on.</div></div><span class="status st-idle">FAILED</span></div>
-        <div class="ins"><span class="kind">Gate</span><div class="ins-body"><div class="in">Is stress spreading into stock vol?</div><div class="id2">Yes only if VIX3M/VIX is at or below 1.00 and VVIX is above 120, both on two straight closes by 7 Oct (ten sessions after the 23 Sep bond-vol jump). Today: 1.1344 and 91.02. Both lines were registered before this episode.</div></div><span class="status st-calm">NOT FIRING</span></div>
+        <div class="ins"><span class="kind">Alert</span><div class="ins-body"><div class="in">Cheap-tail window</div><div class="id2">4 of 4 on the confirmed 9 Oct close (VIX 14.84, VVIX 84.88, SKEW 154.34) with September CPI on Wed 14 Oct. Routed to PROME as WQ-409 for your take-or-pass; TERRY builds any card. It also read open on 2 Oct and 5&ndash;8 Oct while I was offline and was never routed; those sessions passed by default, not by a decision.</div></div><span class="status st-watch">OPEN · WQ-409</span></div>
+        <div class="ins"><span class="kind">Pre-reg</span><div class="ins-body"><div class="in">RED&rsquo;s SKEW test (RED-FT-10)</div><div class="id2">Four straight Cboe closes at or above 150.00 fire it. 9 Oct is close 1 (154.34). Mon 12, Tue 13 and Wed 14 Oct decide; graded the evening of 14 Oct, not before. RED owns the grade.</div></div><span class="status st-watch">1 OF 4</span></div>
+        <div class="ins"><span class="kind">Gate</span><div class="ins-body"><div class="in">Is stress spreading into stock vol?</div><div class="id2">Closed 7 Oct without firing. VIX3M/VIX never went below 1.12 and VVIX peaked at 92.01, against lines of 1.00 and 120. Read as ordinary repricing.</div></div><span class="status st-calm">CLOSED · NOT FIRED</span></div>
+        <div class="ins"><span class="kind">Canary</span><div class="ins-body"><div class="in">COR1M first-tell (your 10 Aug line)</div><div class="id2">Re-graded on Cboe&rsquo;s own history: it first fired 18 Aug, not 2 Sep, and closes above its line on about three days in four. VIX rose less than usual after its fires. I recommend retiring it (WQ-410, by 16 Oct).</div></div><span class="status st-watch">RETIRE? · WQ-410</span></div>
         <div class="ins"><span class="kind">Gate</span><div class="ins-body"><div class="in">GATE-VIO-RV1 and July hedge packet</div><div class="id2">Retired. Neither is revived by a canary or a cheap-tail observation.</div></div><span class="status st-idle">RETIRED</span></div>
       </div>
       <div class="row-label">Posture and next decisions</div>
       <div class="split">
-        <div class="box flag"><h4>Position posture</h4><div class="posture-line">Last recorded VIOLET book: flat</div><p>September 10 broker mirror; no broker check since. No trade proposed; $0 moved.</p><p><b>The credit move is the thing to watch.</b> My thesis says credit widening while VIX stays under 20 has led stock vol by three to eight weeks, but only when the shock starts in credit. This one started on the same day as the bond selloff, and it is about a quarter of the 100bp move the thesis names. I am watching it, not calling it.</p></div>
+        <div class="box flag"><h4>Position posture</h4><div class="posture-line">Last recorded VIOLET book: flat</div><p>September 10 broker mirror; no broker check since. No trade proposed; $0 moved.</p><p><b>The shape to watch: stress is building outside the stock-vol market while stock vol stays calm.</b> Credit is 47bp wider, bond vol is high, speculators are long VIX futures and the tail is bid, yet VIX is under 15. My thesis says credit widening under VIX 20 has led stock vol by three to eight weeks (that window runs 13 Oct to 17 Nov), but those hit rates are inherited, not mine, the move is about half the size the thesis names, and it ran alongside a bond selloff. I am watching it, not calling it.</p></div>
         <div class="box"><h4>Next decision points</h4><div class="sched">
-          <div class="ev"><span class="when">29 Sep</span><span class="what">Cboe archive confirms the 28 Sep close; FRED posts 28 Sep credit.</span></div>
-          <div class="ev"><span class="when">30 Sep</span><span class="what">Micron earnings after the close, the cheap-tail window’s catalyst.</span></div>
-          <div class="ev"><span class="when">2 Oct</span><span class="what">Expected CFTC positioning release (report date 29 Sep).</span></div>
-          <div class="ev"><span class="when">7 Oct</span><span class="what">Stress-spreading test window closes.</span></div>
-          <div class="ev"><span class="when">16 Dec</span><span class="what">December VIX expiry and the futures-curve average re-check.</span></div>
+          <div class="ev"><span class="when">12&ndash;14 Oct</span><span class="what">Three Cboe SKEW closes decide RED&rsquo;s test; graded the evening of 14 Oct.</span></div>
+          <div class="ev"><span class="when">13 Oct</span><span class="what"><b>Your cheap-tail take-or-pass</b>, needed before CPI (WQ-409).</span></div>
+          <div class="ev"><span class="when">14 Oct</span><span class="what"><b>September CPI, 08:30 ET</b>, the cheap-tail window&rsquo;s catalyst.</span></div>
+          <div class="ev"><span class="when">16 Oct</span><span class="what">Retire or keep the COR1M first-tell (WQ-410).</span></div>
+          <div class="ev"><span class="when">21 Oct</span><span class="what">October VIX expiry.</span></div>
+          <div class="ev"><span class="when">28 Oct</span><span class="what">FOMC decision.</span></div>
         </div></div>
       </div>
     </div>
@@ -311,13 +313,13 @@
     </div>
 
     <footer>
-      <span><b>Source dates matter.</b> Volatility readings are the 28 Sep close from Cboe’s delayed quote; its archive has confirmed every close through 25 Sep. Credit is 25 Sep and CFTC positioning is the 22 Sep report.</span>
+      <span><b>Source dates matter.</b> Volatility readings are the 9 Oct close from Cboe&rsquo;s archive, the publisher of record. Credit and Treasury yields are 8 Oct (FRED posts a day late) and CFTC positioning is the 6 Oct report. I was offline 29 Sep to 9 Oct; those sessions were filled from Cboe on 10 Oct.</span>
       <span><b>Four gauges, one signal.</b> VIX, VVIX, SKEW and term structure all come from the same options market — when they move together that's one opinion, not four confirmations. The independent channels are what make a signal real.</span>
       <span>Internal desk reference. Orientation, not trade instruction.</span>
       <div class="sig">
         <span>VIOLET — Volatility &amp; Term Structure</span>
         <span>Framework v4.1.1</span>
-        <span>Refreshed 2026-09-28</span>
+        <span>Refreshed 2026-10-10</span>
       </div>
     </footer>
 
