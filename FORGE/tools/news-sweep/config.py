@@ -483,6 +483,20 @@ WATCH_FOR = {
         "HKMA buys",                       # 0/0 (tested 10/9); synthetic fires; recall unproven
         "China gallium export",            # 0/0; synthetic fires; replaces the rejected "gallium"
     ],
+    "VIOLET": [                        # added 2026-10-10 12:11 ET (WQ-295 R3, set 14) — VIOLET-proposed 9 (9/28), WALTER live-tested 10/1 (AGENTS/WALTER/research/2026-10-01_R3/groupD.md §1; lane 71d, live 285 headlines/30d);
+                                       # VIOLET adopt/decline BY NAME 10/10 (PROME/inbox/processed/2026-10-10_from-VIOLET_skew-ft10-count-and-fragility-cluster.md §5, 4e540cb9d); PROME re-ran the lane harness 10/10 on all 7 (12,276 headlines / 80d: 0 hits each)
+                                       # and 10 synthetic matcher controls at the landing. ⛔ REJECTED by name: "term structure inverted" (misses "inverts") → "term structure invert"; "carry trade unwind" (5 FALSE live) — DECLINED with its plural alt (weak recall; the JPY canary covers it);
+                                       # "oil volatility surges" (`oil` is 3 chars, DROPPED → 14 FALSE) — DECLINED with "crude volatility surges" (recall unproven; the OVX canary covers it); "implied correlation index" (1 FALSE: an explainer) → "implied correlation record";
+                                       # "Micron guidance cut" EXPIRED 9/30 (`cut` dropped; 28 FALSE). Caveats carried: recall UNPROVEN on the 0/0 phrases (#1 #2 #3 #6 #7 — synthetic fires only); "VVIX surges" depends on the verb (jumps/spikes miss; bare VVIX = 2 FALSE);
+                                       # "MOVE index" is direction-neutral (a "MOVE index falls" headline pages; VIOLET accepted); `invert` also matches "inverted/inverts/inversion".
+        "term structure invert",           # 0 lane / 0 live; synthetic "VIX futures term structure inverts as stocks tumble" ✔ (WALTER's suggested form, adopted)
+        "VVIX surges",                     # 0/0; synthetic ✔; verb-dependent
+        "short volatility unwind",         # 0/0; synthetic "Short-volatility trade unwinds as VIX spikes" ✔ (hyphen form matches by substring)
+        "Treasury volatility surges",      # 0 lane / 2 live TRUE; missed the two real MOVE-spike headlines → next line
+        "MOVE index",                      # 0 lane / 2 live TRUE (entity-bound; direction-neutral, accepted)
+        "implied correlation record",      # 0/0; synthetic "Cboe implied correlation index hits record low" ✔; replaces the rejected "implied correlation index"
+        "SKEW index record",               # 0/0; synthetics "Cboe SKEW index hits record high" ✔ / "SKEW index record signals tail-risk demand" ✔
+    ],
 }
 
 # ---------------------------------------------------------------------------
