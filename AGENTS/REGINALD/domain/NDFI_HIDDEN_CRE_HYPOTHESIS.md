@@ -1,3 +1,5 @@
+> **FROZEN 2026-10-10 — not maintained; STATUS is canonical, do not cite rows as current.** This is a 2026-03-10 hypothesis document (196 days old at freeze); its "🔴🔴 CRITICAL CHANNEL" status is a March view, not a live grade. Live NDFI facts: `workbook/NDFI_COHORT.tsv` (FFIEC 6/30/26, 26 banks) · `reports/2026-10-07_WQ318_funding-vs-nonbank-baseline.md` · `STATUS.md` §THESIS. *(DAEDALUS Falsification #4, 10/8.)*
+
 # NDFI Exposure — Hidden CRE Layer 2 Hypothesis
 
 **Created:** 2026-03-10 | **Source:** Whalen/Daily Reckoning + FDIC primary verification

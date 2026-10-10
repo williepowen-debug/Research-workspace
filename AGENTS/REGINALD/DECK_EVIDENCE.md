@@ -1,4 +1,4 @@
-> **FROZEN 2026-07-09** — Mar-13 slide-deck source material, static point-in-time evidence assembly. Not maintained; current thesis evidence lives in thesis/THESIS.md + workbook/KB.tsv.
+> **FROZEN 2026-07-09** — Mar-13 slide-deck source material, static point-in-time evidence assembly. Not maintained; current thesis state lives in **`STATUS.md` §THESIS** (canonical since 2026-08-13; `thesis/THESIS.md` is a retired pointer stub) + `workbook/KB.tsv`. *(Redirect re-pointed 2026-10-10, DAEDALUS Falsification #4.)*
 
 # DECK_EVIDENCE.md — Thesis Evidence Assembly
 **Author:** REGINALD | **Date:** 2026-03-13 | **Purpose:** Slide deck source material

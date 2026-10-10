@@ -295,3 +295,10 @@ The cohort was selected under **ratio-era priors**: MTB, HBAN and VLY were admit
 - **Next scans:** 2026-10-31 · 2026-11-30 · **2027-01-05 (final, covering through 12/31).**
 
 **Resolution:** TRUE on the first counted issuance in H2 2026. FALSE if the 2027-01-05 scan returns none.
+
+## `REG-T-02` — the `V1V3-ACCELERATE` action token is a LEGACY NAME, not an attribution (2026-10-10; DAEDALUS Falsification #4 flag)
+
+- **The defect:** the token's name pre-attributes any WAL <$78 fire to the hidden-CRE (V1) and V3 thesis legs. A fire is a PRICE event, and its cause is attributed at the fire, never by the label.
+- **Already re-labelled 10/10:** the human labels in `CLAUDE.md` §KEY THRESHOLDS and `scripts/thresholds.py`. Both now read "WAL price stress (`REG-T-02`); cause not pre-attributed". The `threshold_thesis_ref` anchor `STATUS.md#wal-v1v3-thesis` also points at a section that no longer exists.
+- **DEFERRED, with the reason:** the TOKEN itself in `registry/THRESHOLDS.tsv` is NOT renamed today. It is a cross-desk interface, read by WALTER (`AGENTS/WALTER/design/CROSS_REFS/REGINALD.md`, `design/NEWS_SWEEP_TARGETS.md`, `routed/route_log.tsv`, the registry-header receipts). A unilateral rename would break WALTER's join. Rename only as a coordinated change with WALTER, at the next registry touch.
+- **Until then:** read `V1V3-ACCELERATE` as **"REG-T-02 fired (price)"** and nothing more.

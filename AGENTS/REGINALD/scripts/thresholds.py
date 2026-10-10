@@ -22,7 +22,7 @@ except ImportError:
 THRESHOLDS = [
     # Bank stress
     ("KRE",   "below",  60.0,  "Acute regional stress"),
-    ("WAL",   "below",  78.0,  "Hidden CRE thesis accelerating"),
+    ("WAL",   "below",  78.0,  "WAL price stress (REG-T-02); cause not pre-attributed"),
     ("OZK",   "below",  40.0,  "Crisis territory"),
     ("EGBN",  "below",  22.0,  "Capital raise territory"),
     # Macro
