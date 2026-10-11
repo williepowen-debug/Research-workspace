@@ -8,7 +8,7 @@
 
 > **★ TRANSFERABLE DISCRIMINATOR (EGBN grade — the one other desks should take):** **coverage thinning has TWO causes with OPPOSITE meanings** — ACL failing to keep pace with *incoming* problem credits (bear, under-provisioning) vs ACL *consumed by outgoing realized losses* (de-risking). Same arithmetic, opposite conclusion. Companion adopted 8/10 (HOMER's version for delinquency rates): **when a DQ headline improves, check the provision line in the same filing** — Fannie MF SDQ "improved" to 0.60% via modification while its MF provision rose +49% QoQ.
 
-**As of:** **2026-10-11 (Sun, WQ-419 continuation; STATUS same integration commit).** WQ-414 accepted `1b937462e`, owner closed `2daea8d59`. **Everything FHLB → `research/FHLB/` (README first).** New SHADE/BROCK handoffs use assembled 10/10 evidence, consumption unverified; CFG 10/16 checklist preserves the frozen frame. Citizens $450M DLIC revolver undrawn YE25, current status unknown. No new grade/trade. Closed-market figures dated 10/9, concentration view unchanged. Pre-continuation brief → `archive/WQ419_operating_snapshot_2026-10-11.md`.
+**As of:** **2026-10-11 (Sun, WQ-419 continuation; STATUS same closeout commit).** WQ-414 accepted `1b937462e`, owner closed `2daea8d59`. **Everything FHLB → `research/FHLB/` (README first).** WQ-419 handoffs/checklist consumed/accepted by PROME (`9451933aa`/`c7f945a95`); SHADE/BROCK reads unverified; CFG 10/16 checklist preserves the frozen frame. Citizens $450M DLIC revolver undrawn YE25, current status unknown. No new grade/trade. Closed-market figures dated 10/9, concentration view unchanged. Pre-continuation brief → `archive/WQ419_operating_snapshot_2026-10-11.md`.
 
 ## VIEW
 
@@ -51,7 +51,7 @@
 | TERRY | WAL Q3 LOCKED Mon 10/19 AMC (`fe37dd785`); `TRY-COND-KREADD` REGINALD arm NOT met (`db3565b15`) | 🟠 | Packets; cards are TERRY's |
 | WALTER → OZK | OZK closed below the OZK desk's <$45 band 10/6 + 10/7 (signal lane, `db3565b15`) | 🟡 | OZK grades its own band |
 | BROCK | BRK-31 grading input at Q3/Q4 prints — *I am the data source* | 🟠 | PC/NDFI-attributable reserve builds |
-| SHADE · BROCK · PROME | 10/11 insurer handoffs + CFG read-note (WQ-419) | 🟠 | Incremental analysis, no gate edit; peer consumption unverified; Citizens current draw unknown |
+| SHADE · BROCK · PROME | 10/11 insurer handoffs + CFG read-note (WQ-419) | 🟠 | PROME accepted 9451933aa/c7f945a95; peer reads unverified; Citizens current draw unknown |
 | PROME · LIQUID · BOND · WALTER | WQ-414 REVIEW encode `236a091d4`; result + ruling/interface packets | 🟠 | Independent acceptance `1b937462e`; recipient consumption unverified; peer gates unchanged |
 | WALTER → LIQUID | Small-bank borrowings +11.7% in 3 wks to 9/30 (signal lane, `e1fc74154`) | 🟠 | Descriptive bar, not a registered trigger |
 | PROME | WQ-414 prior nowcast evidence (`047ef11d4`), now governed by approved REVIEW | 🟠 | Official quarterly count only; debt nowcast excluded |
@@ -94,4 +94,4 @@
 
 ---
 
-*Brief format follows NEXUS_BRIEF schema (R3 + amendments 7, 10). Created 2026-07-09; rebuilt 2026-08-10. Folded 2026-10-11 as session’s LAST operating write-back after final WQ-419 STATUS write (same integration commit); prior full brief → `archive/WQ414_operating_snapshot_2026-10-11.md`. Earlier fold history remains in that full snapshot.*
+*Brief format follows NEXUS_BRIEF schema (R3 + amendments 7, 10). Created 2026-07-09; rebuilt 2026-08-10. Folded 2026-10-11 as session’s LAST operating write-back after final WQ-419 acceptance STATUS write (same closeout commit); prior full brief → `archive/WQ414_operating_snapshot_2026-10-11.md`. Earlier fold history remains in that full snapshot.*
