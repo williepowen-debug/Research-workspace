@@ -195,11 +195,11 @@ The picture is Friday's close, and the weekend changed none of it. Real yields l
 
 ## WRITTEN
 
-2026-10-11 16:00 ET — Sunday closeout; research and procedure updates only, no fresh market or broker capture.
+2026-10-11 17:41 EDT — ruling follow-through and key-file sweep; no fresh market or broker capture.
 
 ## HEADLINE
 
-The bank-funding alarm repair is accepted; the protection card recommends PASS, and VLO's calculation-method proposal awaits a separate ruling.
+The bank-funding alarm repair is accepted. Will passed on the protection card and approved the prospective VLO calculation method; owner implementation is pending runtime permission.
 
 ## STORY
 
@@ -207,7 +207,7 @@ REGINALD completed the bank-funding procedure repair and incremental insurer-cha
 
 ## QUESTION
 
-The separate decisions are WQ-418 (TERRY's PASS recommendation) and WQ-420 (the prospective VLO calculation method). The live queue owns their exact wording and dates.
+WQ-418 and WQ-420 are ruled; no repeat approval is owed. Remaining execution and verification are recorded in [the ruling](proposals/2026-10-11_wq418-420-RULED.md). The generated live queue owns other open decisions.
 
 ## FALSIFIER
 
@@ -219,7 +219,7 @@ The two desks' assembled Citizens lending baselines differ. REGINALD routed the 
 
 ## POSITION
 
-No trade was placed by PROME. The QQQ sale remains unconfirmed; current broker evidence governs holdings. The Sunday option screen is not an executable quote, and a recommendation is not Will's decision.
+No trade was placed by PROME. The QQQ Oct-09 755P disposition remains unconfirmed; current broker evidence governs holdings. WQ-418 is PASSED, with no entry authorized. The Sunday option screen is not an executable quote.
 
 ## WATCH
 

@@ -4,8 +4,8 @@
 
 ## Top priorities
 
-**2026-10-11 16:00 ET — Sunday closeout:**
-- The bank-funding alarm repair and both follow-up commissions are complete. The pre-CPI card recommends PASS (WQ-418); the separate VLO calculation-method proposal is WQ-420. Neither recommendation is your ruling.
+**2026-10-11 17:41 EDT — current priorities:**
+- The bank-funding alarm repair and both earlier follow-up commissions are complete. WQ-418 is PASSED and WQ-420 is approved prospectively. TERRY’s encoding is pending runtime permission; independent verification and new closeout follow. [Ruling and execution record](proposals/2026-10-11_wq418-420-RULED.md).
 - Broker evidence still needs to settle the QQQ sale/expiry outcome. This session changed no position. Current obligations and dates are generated below from the queue and docket.
 - Monday's owner work and Tuesday's card/USO refresh remain at their existing clocks; the next boot starts from SCRATCH and checks owner receipts before launching.
 **Every earlier Top-priorities entry below is dated history, not a current instruction.**
@@ -204,6 +204,10 @@
 - **An older "big task" (said at 13:41 on 9/18)** has no recorded closure. PROME asks for the brief rather than guessing at it.
 - **Regime:** read the brief tab / `HEARTBEAT.md` (twenty-first base, written after the 9/24 close: the Treasury curve at 2004–2008 highs on a weak 5-year auction, mortgage rates through 7% on the housing desk's line, the yen through the level Tokyo checked with no intervention, and the VLO stand-down leg about 36 cents from firing on the November crack). Not restated here.
 ## Spawn queue
+
+Current owner obligations and dates come from `PROME/DOCKET.tsv`; eligibility and preflight remain in `PROME/ROSTER.md` and `PROME/CLAUDE.md`. Use the generated clock and verified current ownership before any launch.
+
+## Historical spawn slate — 2026-09-24/25, not current launch instructions
 *(Format contract for the renderer: `- **NAME** · when · why` — one desk per line, decay order.)*
 - **BRENT** · 9/25 morning boot, no word needed (L329 + WQ-264) · the Petroline shut-in test closes on its letter at 17:00 ET, so PROME keeps it live or re-touches after the close; three new WALTER packets wait in its inbox; it starts the satellite berth trial from its first routine.
 - **BROCK** · 9/25 morning boot, no word needed (L420) · the CRMT filing check for silence through 9/24 at the full submissions feed.
@@ -224,12 +228,12 @@
 
 ## The daily flow
 - **Open the Helm, Your desk tab.** Check Broker actions and management gaps even when no new ruling is needed; zero pending approvals is not an all-clear. The brief tab has the story when you want it.
-- **Fleet Ops is the instrument panel** — gauges, gates, who's stale. Look when you want to know how the machine is running, not what it needs.
+- **Published Fleet Ops is retired (WQ-372).** Current publication rules and receipts: `PROME/CLOSEOUT.md` step 11, WQ-382’s ruled record in `PROME/WILL_QUEUE.md`, and the latest PUBLISH entry in `PROME/state/ORCH_LOG.tsv`.
 - The standalone Desk-brief page is RETIRED [your word, 8/21] — its old URL shows a pointer here; the brief tab is the brief now.
 
 ## Launching a desk
 - `cd AGENTS/<NAME> && claude` then say **"please boot up."** PROME launches from `PROME/`.
-- **Always launch from the agent's own folder.** Launched from the repo root, an agent runs without its domain rules and won't know it — if a desk seems to be missing its own knowledge, this is the first thing to check.
+- **Verify root and desk instruction loading in the actual runtime** under `PROME/COMPLETION_SPEC.md` and `PROME/ORCHESTRATION_PLAYBOOK.md` § Runtime mechanics (WQ-385). Launch from the desk directory where supported; cwd alone does not establish what was loaded.
 - One machine at a time (desktop ⇄ laptop). Before switching: have every open session close out — the push happens automatically at closeout. Switching checklist: `PROME/MACHINE_LOCAL.md`.
 - `! <command>` in any prompt runs a shell command in that session — used for interactive logins the agent can't do itself.
 
@@ -260,7 +264,7 @@
 - **`PROME/GATES.tsv`** — the fire-ledger: registered triggers and their state.
 - **`HEARTBEAT.md`** — the market-regime memo. PROME maintains and commits it under a standing grant — **you freed it from your-word gating on 2026-08-23** (record: `PROME/AUTONOMY.md` change-log row 2026-08-23; the basis was latency, never a quality grant, and PROME says so whenever it cites its own authority on this file). Root-doc lines about HEARTBEAT stay your-word-gated; new trade decisions still require your approval.
 - **Everything on your two pages is DERIVED** — command compression built from the canon files above; on any conflict the owner file wins [the same banner sits atop the market memo itself since 8/22].
-- **Your pages, two:** the Helm (default read — desk, brief, and manual in one) · Fleet Ops (instrument panel). Both regenerate at every PROME closeout; each shows its own build time — an old stamp means canon needs a session, not that the page is broken. *(The standalone Desk brief retired 8/21; its URL points here.)*
+- **Publication and page freshness:** `PROME/CLOSEOUT.md` step 11 plus WQ-382’s ruled record in `PROME/WILL_QUEUE.md` govern when each page publishes. The latest PUBLISH receipt in `PROME/state/ORCH_LOG.tsv` establishes hosted delivery; a local rebuild alone does not.
 
 ## When something looks wrong
 - **Ask the desk to verify at the artifact** — "verify that at the file/source" is the house move; every desk expects it and does it to PROME too.
