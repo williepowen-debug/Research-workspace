@@ -1,6 +1,6 @@
 {
  "attention_errors": [],
- "built": "2026-10-10 15:20",
+ "built": "2026-10-10 20:01",
  "channels": {
   "AI capex": "elev",
   "Credit": "watch",
@@ -59,6 +59,7 @@
   "2026-10-14 WQ-353 LEG-2 LETTER REVIEW (GATE-FALCON-001 leg 2, PROVISION",
   "2026-10-15 CRMT BRIDGE-6 STD \u2014 the sixth bridge's Scheduled Termination",
   "2026-10-15 CRMT ITEM 1.01 BACKSTOP #3 \u2014 last day for an agreement dated",
+  "2026-10-15 DONE-ROWS CHECK \u2014 PREAMBLE GAP (read 3 \u274c1, coldread-wq417-re",
   "2026-10-15 FERT WAKE \u2014 GATE-FERT-G3 review_by (the China urea re-read, ",
   "2026-10-15 LABOR WAKE \u2014 initial claims w/e Oct 10 + continuing claims w",
   "2026-10-15 NEXUS PRED-48 RESIDUAL RE-CHECK \u2014 the CA/NY insured-unemploy",
@@ -172,9 +173,9 @@
  "pending": [
   "WQ-204 (10/9)",
   "WQ-187 (10/9)",
-  "WQ-413 (10/10)",
-  "WQ-411 (10/10)",
   "WQ-397 (10/10)",
+  "WQ-413 (10/12)",
+  "WQ-411 (10/12)",
   "WQ-409 (10/13)",
   "WQ-347 (10/13)",
   "WQ-404 (10/14)",
