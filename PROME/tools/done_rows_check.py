@@ -21,7 +21,8 @@ CONTRACT — this check is BROADER than the parsers it guards, never equal to th
   Deck); a case-variant heading is ❌ HEADING-CASE; a second RECENTLY DONE heading is ❌ DUPLICATE-SECTION (the
   Deck reads only the first); either heading missing → rc 2.
 * ❌ (rc 1): UNPARSED · SHORT (< DONE_MIN cells) · SHORT-OPEN · UNPARSED-OPEN · DUPLICATE · HEADING-CASE ·
-  DUPLICATE-SECTION · ORPHAN-RULING · ROW-OUTSIDE-SECTIONS (a numbered row with a ruling word under any other heading) ·
+  DUPLICATE-SECTION · ORPHAN-RULING · ROW-OUTSIDE-SECTIONS (ANY `|` line with a decision word anywhere outside the two
+  sections — the preamble before the first heading included; fails closed, so a notes table saying "12 APPROVED" trips it) ·
   NO-LEDGER-EVENT · NOT-TERMINAL (the LAST event is not terminal) · and, for a RULING-CLASS row (RULED/APPROVED/DECLINED
   in its text) whose last ledger event was WRITTEN (`written_at`) on/after REPAIR_DATE:
   VERDICT-DASH (ledger verdict '—'), VERBATIM-LOST (the row says 'verbatim', the ledger holds none), OVER-DONE
@@ -55,7 +56,8 @@ TERMINAL = {"RULED", "DECLINED", "CLOSED"}
 STRICT_ROW_RE = re.compile(r"^\|\s*\**\s*(\d+[a-z]?)\b")             # what the Deck/ledger parser accepts (mirror)
 OPEN_ROW_RE = re.compile(r"^\|\s*(\d+[a-z]?)\s*\|")
 LOOSE_NUM_RE = re.compile(r"\|\s*(?:\|\s*)*\**\s*(?:WQ-)?(\d{2,4}[a-z]?)\b", re.I)   # what a human reads as the number
-RULING_RE = re.compile(r"\b(RULED|APPROVED?|DECLINED?)\b")
+RULING_RE = re.compile(r"\b(RULED|APPROVED?|DECLINED?)\b")                 # ruling-class rows (AC5)
+OUTSIDE_RE = re.compile(r"\b(RULED|APPROVED?|DECLINED?|CLOSED|EXECUTED)\b")  # any decision word, for the outside scan (read 3 ⚠️2)
 ISO_RE = re.compile(r"\d{4}-\d{2}-\d{2}")
 _SEP_RE = re.compile(r"^:?-{1,}:?$")
 _ESC = "\x00"
@@ -85,7 +87,7 @@ def sections(text: str):
     secs['_OUTSIDE'] = every line under any OTHER heading (read 2 ❌2: a ruling row under `## DECIDED TODAY` is invisible to every side)."""
     out: dict[str, list[tuple[int, str]]] = {"_OUTSIDE": []}
     findings = []
-    cur = None
+    cur = "_OUTSIDE"                      # the PREAMBLE (lines before the first `## `) is outside too (read 3 ❌1)
     seen: dict[str, int] = {}
     for i, line in enumerate(text.split("\n"), 1):
         if line.startswith("## "):
@@ -180,12 +182,16 @@ def scan(queue_text: str, ledger_by_wq: dict[str, list[dict]], today: str | None
             findings.append(_f("ORPHAN-RULING", "?", ln, f"a ruling token outside any table row ({s[:60]!r}) — no parser will ever record it"))
     for n in sorted(set(open_nums) & set(done_nums), key=lambda x: int(re.sub(r"\D", "", x) or 0)):
         findings.append(_f("DUPLICATE", n, done_nums[n][0], f"also OPEN at L{open_nums[n]} — two live states"))
-    # ---- numbered rows under any OTHER heading that carry a ruling word (read 2 ❌2): no parser reads them
+    # ---- `|` lines OUTSIDE the two sections (the preamble and every other heading; read 2 ❌2 + read 3 ❌1): no parser
+    #      reads them. ANY such line carrying a decision word is ❌ — FAIL CLOSED. Pass 4 split this into numbered-❌ /
+    #      other-⚠️ to quiet a notes table saying "12 APPROVED"; read 4 found the split let an INDENTED or prefixed ruling
+    #      row (`  | **438`, `| ✅ **441`, `| #442`, `| Will 10/10 | **443`) pass the gate green — the pass-3 form is restored
+    #      (pass 5): a note that trips it is moved or reworded; a decision that trips it was about to vanish.
     for ln, line in secs.get("_OUTSIDE", []):
-        if line.strip().startswith("|") and not _is_sep(line) and not _is_header(line) and RULING_RE.search(line):
-            m = STRICT_ROW_RE.match(line) or OPEN_ROW_RE.match(line)
-            lm = LOOSE_NUM_RE.search(line[:80])
-            findings.append(_f("ROW-OUTSIDE-SECTIONS", (m or lm).group(1) if (m or lm) else "?", ln, "a numbered row with a ruling word under a heading that is neither `## OPEN` nor `## RECENTLY DONE` — invisible to the Deck, the ledger and this check's section scan"))
+        if not line.strip().startswith("|") or _is_sep(line) or _is_header(line) or not OUTSIDE_RE.search(line):
+            continue
+        m = STRICT_ROW_RE.match(line) or OPEN_ROW_RE.match(line) or LOOSE_NUM_RE.search(line[:80])
+        findings.append(_f("ROW-OUTSIDE-SECTIONS", m.group(1) if m else "?", ln, f"a `|` line with a decision word outside `## OPEN` / `## RECENTLY DONE` ({line.strip()[:40]!r}) — no parser reads it: a decision here is invisible, a note here is noise; move or reword it (fails closed)"))
     # ---- the ledger, per done row
     for n, (ln, line) in done_nums.items():
         evs = ledger_by_wq.get(n, [])

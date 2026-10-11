@@ -153,6 +153,19 @@ class TestTerminalRulingVerbatim(unittest.TestCase):                        # AC
         f, w, _ = drc.scan(Q + row, led(ev(902, "REGISTERED", "2026-10-08", "CLOSED", "—", "", written="")), today="2026-10-14")
         self.assertIn(("VERDICT-DASH", "902"), kinds(f))                                                # no written_at → fail closed
 
+    def test_preamble_row_and_notes_table(self):                                # read 3 ❌1 (Cl) + counterexample (c)
+        q = "# WILL_QUEUE\n\n| **435 NEW — RULED APPROVE** | Will 2026-10-10, verbatim *\"go\"* | RULED 2026-10-10 — Will APPROVE |\n\n" + Q + GOOD
+        f, _, _ = drc.scan(q, led(GOOD_EV), today=TODAY)
+        self.assertIn(("ROW-OUTSIDE-SECTIONS", "435"), kinds(f))                                     # the preamble is scanned
+        q = Q + GOOD + "\n## NOTES\n| Item | Count |\n|---|---|\n| packets | 12 APPROVED |\n"
+        f, w, _ = drc.scan(q, led(GOOD_EV), today=TODAY)
+        self.assertIn("ROW-OUTSIDE-SECTIONS", [k for k, _ in kinds(f)])                                 # FAILS CLOSED: a note that trips it is reworded (pass 5)
+        for shape in ("  | **438 NEW — RULED APPROVE** | d | RULED |", "| ✅ **441 NEW — RULED APPROVE** | d | r |", "| #442 NEW — RULED APPROVE** | d | r |", "| Will 10/10 | **443 NEW — RULED APPROVE** | d | r |"):
+            f, _, _ = drc.scan("# WILL_QUEUE\n" + shape + "\n" + Q + GOOD, led(GOOD_EV), today=TODAY)
+            self.assertIn("ROW-OUTSIDE-SECTIONS", [k for k, _ in kinds(f)], shape)                      # read 4 ❌1: indented / prefixed rows block
+        q = Q + GOOD + "\n## DECIDED TODAY\n| **433 X — CLOSED** | d | CLOSED 2026-10-10 — Will said go |\n"
+        self.assertIn(("ROW-OUTSIDE-SECTIONS", "433"), kinds(drc.scan(q, led(GOOD_EV), today=TODAY)[0]))   # read 3 ⚠️2: CLOSED counts
+
     def test_ruling_row_under_another_heading(self):                           # read 2 ❌2 (counterexample N7)
         q = Q + GOOD + "\n## DECIDED TODAY\n| **903 Y — RULED APPROVE** | d | RULED 2026-10-10 — Will APPROVE |\n"
         f, _, _ = drc.scan(q, led(GOOD_EV), today=TODAY)
