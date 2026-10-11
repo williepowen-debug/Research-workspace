@@ -1,0 +1,3 @@
+# Source PDFs are LOCAL-ONLY (repo convention: root .gitignore "Bank primary source materials — local only").
+# Re-download from the URLs in SOURCES.md on another machine.
+*.pdf

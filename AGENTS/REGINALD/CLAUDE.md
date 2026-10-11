@@ -308,6 +308,7 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 | `workbook/PREDICTIONS.tsv` | **Canonical** — 10-column schema (Pred_ID/Date_Made/Prediction/Confidence/Timeframe/Status/Date_Resolved/Outcome/Invalidation/Notes). Falsifiable predictions with invalidation criteria. |
 | `domain/sources/` | Primary source docs (Call Reports, FDIC, WAL research, Hidden CRE screens) |
 | `research/README.md` | **Master research index** — all series, key findings, data gaps, next priorities. Read before spawning research. |
+| `research/FHLB/` | **FHLB research hub (built 2026-10-10, Will-directed): start at its `README.md`.** Canonical FHLB reports + verification + key tables + sources; `copies/` are crc-stamped snapshots (never edit there). Live levels stay in `STATUS.md`; alarm rows stay in `registry/`. |
 | `research/outputs/` | Completed research by series (RP-REG-3.x, RP-REG-4.x, RP-FL-x.x, RQ-ad-hoc) |
 | `research/prompts/` | Research prompts for external LLM execution |
 | `workbook/VX.tsv` | Indicator vectors — **13-column** schema (ID/Name/Category/Current_Value/Yellow/Orange/Red/Status/Confidence/Last_Updated/Source/Cross_Links/Notes; label corrected 7/17). 62 rows; ⚠️ **27 rows marked STALE 2026-10-10** (Last_Updated before 8/11, prior status kept in Notes); 5 RETIRED 10/10 (wiring ⑰). |
