@@ -1,0 +1,114 @@
+{
+  "scope": "WQ-419 proposal-only arithmetic; not a grade or executable rule",
+  "precision_cases": [
+    {
+      "label": "Recorded F1 notice-boundary witness",
+      "HO": "4.4621",
+      "CL": "92.41",
+      "threshold": "95.00",
+      "raw_crack": "94.9982",
+      "cent_rounded_crack": "95.00",
+      "raw_strict_below": true,
+      "cent_strict_below": false,
+      "kind": "recorded"
+    },
+    {
+      "label": "Synthetic held-exit witness",
+      "HO": "4.3478",
+      "CL": "92.45",
+      "threshold": "90.16",
+      "raw_crack": "90.1576",
+      "cent_rounded_crack": "90.16",
+      "raw_strict_below": true,
+      "cent_strict_below": false,
+      "kind": "synthetic native-tick-valid held-exit witness; not an observed settlement"
+    },
+    {
+      "label": "Tick-valid exact held-exit equality",
+      "HO": "4.3300",
+      "CL": "91.70",
+      "threshold": "90.16",
+      "raw_crack": "90.1600",
+      "raw_strict_below": false,
+      "kind": "synthetic"
+    }
+  ],
+  "synthetic_bar_witness": {
+    "HO_bars": [
+      {
+        "time": "14:28",
+        "H": "4.46",
+        "L": "4.42",
+        "C": "4.42",
+        "V": 100
+      },
+      {
+        "time": "14:29",
+        "H": "4.46",
+        "L": "4.42",
+        "C": "4.42",
+        "V": 100
+      },
+      {
+        "time": "14:30",
+        "H": "4.45",
+        "L": "4.45",
+        "C": "4.45",
+        "V": 100
+      }
+    ],
+    "CL_each_bar": {
+      "H": "95.50",
+      "L": "95.50",
+      "C": "95.50",
+      "V": 100
+    },
+    "bars_assumed_start_labelled": true,
+    "close2_crack": "4507/50",
+    "typical2_crack": "907/10",
+    "close3_crack": "2264/25",
+    "exit_unknown_band": [
+      "90.01",
+      "90.31"
+    ],
+    "interpretation": {
+      "close2": "90.14 -> UNKNOWN on existing source-3 exit band",
+      "typical2": "90.70 -> NOT FIRED, outside exit band",
+      "close3": "90.56 -> NOT FIRED, outside exit band"
+    }
+  },
+  "primary_sources": [
+    {
+      "url": "https://www.cmegroup.com/rulebook/NYMEX/1a/150.pdf",
+      "section": "150102.C",
+      "fact": "HO minimum tick $0.0001/gallon"
+    },
+    {
+      "url": "https://www.cmegroup.com/rulebook/NYMEX/2/200.pdf",
+      "section": "200102.C",
+      "fact": "CL minimum tick $0.01/barrel"
+    },
+    {
+      "url": "https://www.cmegroup.com/content/dam/cmegroup/market-regulation/rule-filings/2018/09/18-389.pdf",
+      "fact": "HO normal active-month and calendar-spread settlement window 14:28:00-14:30:00 ET; native-tick settlement; deferred months use spreads"
+    },
+    {
+      "url": "https://cmegroupclientsite.atlassian.net/wiki/spaces/EPICSANDBOX/pages/457218849/NYMEX+Crude+Oil",
+      "fact": "CL normal active-month settlement 14:28:00-14:30:00 ET, tick-rounded; deferred-month spread derivation"
+    }
+  ],
+  "accessed_date": "2026-10-11",
+  "limitations": [
+    "CME method documentation checked; actual CME settlement quote still not retrieved",
+    "No new vendor bars pulled; synthetic witness assumes start-labelled intervals",
+    "Yahoo timestamp/coverage convention must be verified at any future actual pull",
+    "HENRY 9/24 report explicit close-VWAP two-bar; TERRY dated grades use three-bar typical-price; selecting prospectively changes method"
+  ],
+  "source_order_counterexample": {
+    "CME_HO": "4.3478",
+    "CME_CL": "92.45",
+    "vendor_bars": "absent",
+    "kind": "synthetic source-order eligibility case; not an observed settlement",
+    "expected": "A valid same-session source-(1) named-contract CME pair remains eligible without vendor bars; no source-(2) or source-(3) acceptance needed"
+  }
+}

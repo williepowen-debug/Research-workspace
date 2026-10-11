@@ -4,11 +4,11 @@
 Activity detail lives in commit messages, daytrading/JOURNAL.md, and `memory/auto/`.
 Keep this load-bearing: append a Durable Finding only when it survives the episode.
 
-## Current Session — 2026-10-11 14:16 EDT (TERRY Codex, selected gpt-6.1-sol)
+## Current Session — 2026-10-11 14:37:53 EDT (TERRY Codex, selected gpt-6.1-sol)
 
-WQ-409 card **NO TRADE / PASS recommended**: SPY Dec18 770/760P candidate, $262 closed-market screening, no measured edge or current approved capital trigger, QQQ disposition UNKNOWN. Whole inbox 8 read/dispositioned; CARL KEEP DORMANT, AEOLUS NO-BUILD, USO/HBAN booking/re-mark explicitly due Tue 10/13. Six R1 scoped NO-OP receipts; WQ-399 charter form fixed; two WIDE comparisons round before strict >15.00%. Recovery hold STANDING (approval UNKNOWN, acceptance PENDING); do not use CLOSEOUT foreign restore/soft-reset recipe. Source/hold/disposition record: research/2026-10-11_WQ409-source-and-intake-receipt.md. PROME consumed integration 313e2ed14 and delivery 2f0b243dd, accepted commission fulfillment, then explicitly asked full closeout. Owner receipt: research/2026-10-11_WQ409-owner-closeout.md; safe-push confirmation follows through native transport. Will decision remains PENDING WQ-418; L681 awaits Will/VIOLET disposition.
+WQ-419 same-task continuation approved at 15c7d8b40 after accepted WQ-409 closeout 08073278d. WAL reference/concurrence repair: original 9/26 CONCUR 377b595ce verified, stale pending claims superseded, real guard heading added; operative exit letter byte-identical. Receipt/exact diff: research/2026-10-11_WQ419-WAL-reference-repair.md. VLO precision/two-bar close wording: research/2026-10-11_WQ419-VLO-precision-bar-PROPOSAL.md, **NOT ADOPTED**; source conventions/boundary witnesses saved; approved letter untouched, no grade/trade. Continuation delivery/consumption and new explicit full-closeout ask tracked by dated PROME memo.
 
-Prior 10/08 owner work remains in STATUS dated block and Git. No QQQ closure inferred; 10/09 750C sale already booked is distinct.
+WQ-409 PASS recommendation only; WQ-418/L681 await actual Will/VIOLET disposition. Eight original inbox dispositions, six R1 receipts, WQ-399 charter and L546 fixes stand. Recovery hold STANDING (repair approval UNKNOWN, acceptance PENDING); no foreign restore/soft-reset recipe. QQQ truth UNKNOWN, 750C sale distinct; USO booking and live C5 explicitly Tue 10/13, not advanced.
 
 ## Next Session
 
@@ -19,7 +19,7 @@ Prior 10/08 owner work remains in STATUS dated block and Git. No QQQ closure inf
 1c. **Activity view (WQ-347):** book the Oct-02 740P ×4 / Oct-05 735P ×5 exits, the five new entries, D-71/D-72/D-73 — never infer them.
 2. Any crack/spread figure: resolve BOTH legs' `expireDate` at the pull, plus a negative control (DOCKET L384). From 10/15 leg A reads matched December (WQ-386).
 3. `research/PENDING_RISK_RULES_AMENDMENT_2026-09-14_two-pull-rule.md` — PROPOSED, not adopted. Adopt, fold, or reject.
-4. Recovery hold STANDING; root Git Protocol governs. Tue 10/13 review approved harness correction/acceptance plus VLO precision/bar-source proposal and WAL pointer/concurrence repair before 10/15 December switch.
+4. Recovery hold STANDING; root Git Protocol governs. Tue 10/13 review approved harness correction/acceptance. WAL references repaired 10/11 WQ-419; VLO precision/bar proposal delivered for a separate Will ruling before 10/15, never adopted on continuation approval.
 5. Two-correction stop on `SIGNALS.tsv` (carried since mid-September): an independent cold read before its next edit. *(The parallel STATUS.md carry is retired: every session since has written STATUS as new blocks, not corrections.)*
 
 ## Mandate (one line)
