@@ -1,5 +1,20 @@
 # WALTER — LAST COMPLETION
 
+> **10/11 TIER-1 LIGHT PASS (`walter-38`, Claude Code, Opus 5.5, laptop; boot 16:14 ET Sunday; light pass ~18:0x ET on Will's "work on the system hygiene now").** This file is still the 10/10 Tier-2 record. Lines marked **[10/11]** were updated, and the receipt below was re-issued. **Full Tier-2 deferred.**
+> - **Boot:** 0→9b complete.
+>   - Data limits: FRED's 10/9 credit print is unposted; fleet visibility is UNKNOWN (Codex PROME is invisible to ListAgents).
+>   - Dispatched `-1011-001`…`-007` (3 IMMEDIATE); 19 kills; 3 manifests closed (42/42, 28/28, 5/5).
+> - **Hygiene:**
+>   - REG-T-06 cache refreshed (WQ-414).
+>   - Boot basis re-hashed (4 paths, MATCH 23), plus a READS re-date ask to PROME.
+>   - Ranked drain list to PROME.
+>   - Retirement pass: 0 eligible files.
+>   - 36/36 handoffs reconciled to delivered.
+> - **Will's capture (Telegram 21:53Z):** WQ-397 answered: the 755P was LIQUIDATED by Fidelity, +$361.94, no short. The research dir and PROME packet are at `7e7b4263d`.
+> - **Errors, both handled:**
+>   - A CARL handoff written in error was trashed before commit.
+>   - `5a8168f95` swept three PROME files (byte-identical); disclosed in `6f4166528`, memory n=6.
+
 Session: **October 10, 2026 TIER-2 FULL CLOSEOUT** of `walter-66` (Claude Code, Opus 5.5, laptop), on Will's word at 16:35 ET ("Okay lets close out here"). This record covers the PM leg (boot 14:14 ET, "continue working on our owed or incomplete tasks"). The AM leg had its own Tier-2 at 11:5x ET: SESSION_LOG 15:52Z entry, and this file's git history at `50e527ee2`.
 
 ## STATUS
@@ -37,7 +52,7 @@ Session: **October 10, 2026 TIER-2 FULL CLOSEOUT** of `walter-66` (Claude Code, 
 - **Push:** every WALTER commit through `483e65900` is on origin, carried by PROME's 16:32 ET push; WALTER pushed nothing. Only this closeout commit is local.
 
 ## GAPS / OWED
-- **This closeout commit is local.** REGINALD is live with uncommitted edits and one unpushed commit, so WALTER defers the push. The commit rides the next push.
+- **[10/11] RESOLVED:** the 10/10 closeout commit `aed15e948` reached origin (verified at the 10/11 boot).
 - **Doctor MEDs carried:**
   - INDEX `LABOR_DOWN` residual (`-1007-013`, open decision).
   - Two `AMENDMENT-NOTE` delivery_log ids (accurate audit history, not rewritten).
@@ -53,15 +68,14 @@ Session: **October 10, 2026 TIER-2 FULL CLOSEOUT** of `walter-66` (Claude Code, 
   - FT insurer story: relay-only.
 
 ## WILL_NEEDS
-⚖️ **QQQ Oct-9 $755P ×1: disposition UNKNOWN (PROME WQ-397, due 10/10).**
-- No sale is recorded on any repo surface. FORGE and TERRY STATUS are unchanged since the 10/9 evening (hashes in the receipt).
-- QQQ closed $751.27, so if it was still held it was ~$3.73 in the money and auto-exercises into a ~$75K short the IRA cannot carry.
-- Will's hand, on TERRY's card (root rule #5).
+✅ **[10/11] QQQ Oct-9 $755P ×1: SETTLED.** Will's Fidelity capture (Telegram 21:53Z 10/11) shows *OPTION LIQUIDATION* on 10/9, +$361.94. There was no exercise and there is no QQQ short. Transcription is at `research/2026-10-11_fidelity-ira-capture/`; PROME is packeted for ANVIL/TERRY to book. The USO Oct-9 150C was also LIQUIDATED (+$0.99), not expired, so the WQ-396 record type needs correcting.
+
+⚖️ **[10/11] NEW: QQQ $755 CALL Oct-12 ×1 (Will's 10/9 buy, −$144.66) EXPIRES MON 10/12.** It is ~$3.73 OTM at Friday's $751.27 (last $0.86). Sell-or-roll is Will's call on TERRY's card (root rule #5). USO $150C Oct-14 ×2 (−$375.33) follows Wed 10/14.
 
 Other items for Will, none urgent today:
-- **WQ-347:** paste the Fidelity Activity view for 10/1 (the old Oct-01 740P ×4 exit) to WALTER.
+- **[10/11] WQ-347:** COVERED by the same capture. The 10/1 exits show four sells, +$1,876.41. ANVIL books it, and a $53.54 balance-chain gap Sep-30/Oct-01 is left for ANVIL.
 - **WQ-401 (due Wed 10/14):** the S1 build, plus WALTER's set sub-question.
-- **WQ-414 (due 10/24):** REG-T-06's letter.
+- **[10/11] WQ-414:** RULED 10/11 (REG-T-06 = REVIEW). **WQ-418/420:** RULED 10/11 17:10 ET.
 - **Optional:** a Mispriced Assets subscription, if SHADE needs the Guggenheim methodology pages.
 - **Optional:** OK a one-line CLAUDE.md step 7h update.
 
@@ -72,9 +86,11 @@ Other duties, all on TERRY's cards:
 
 ## FOLLOW-UP
 1. **Next boot, first:**
-   - Confirm this closeout commit reached origin. No reconcile is owed (no new handoffs).
+   - [10/11] Confirm the four local commits since `6f4166528` (and this light pass) reached origin, then run `reconcile_delivery_log`. All 36 of the 10/11 rows are already delivered.
    - The X token is on the LAPTOP `.env`; the desktop copy is dead.
-2. **First `gpu-obsolescence-1..4` lane hits at step 7e** (rows live from the next lane run). Route through the normal gate to VULCAN/BROCK. The next AI_INFRA_CAPEX review checks whether obsolescence populates.
+   - **[10/11] Watch PROME's answers:** the READS re-date (L174), the ranked drain list, and the capture packet.
+2. **[10/11] First `gpu-obsolescence` lane hit came 10/11:** MacroMicro 8/21, a stale commentary piece, killed. The rows work. The next AI_INFRA_CAPEX review checks whether fresh items populate.
+2b. **[10/11] Iran:** run the full sweep **Mon 10/12** (recommended over 10/15, given the weekend escalation: the Gulf of Oman hit and the IRGC mine claims). The anchor is at 23,517 B, still above the 22,785 stop line.
 3. **RED-FT-10:** CBOE bars 10/12, 10/13, 10/14. VIOLET owns; earliest fire on the 10/14 bar.
 4. **DEWEY:** close `REQ-DEWEY-20261010-001` at boot step 7d when the handoff lands (due 10/14).
 5. **Owners:**
@@ -125,49 +141,88 @@ Other duties, all on TERRY's cards:
 **Carried process ideas:** k, t, u, a, s, j, p. No active top-level REQ.
 
 ## CLOSEOUT RECEIPT
-- **Publication:** this leg's commits through `483e65900` are published (verified ancestors of origin/master after a fresh fetch at the closeout). The closeout commit is pending.
-- **Delivery:** bounded to the 10/10 signal date; 38/38 on origin.
+- **Re-issued at the 10/11 Tier-1 light pass.**
+- **Publication:** commits through `6f4166528` are on origin, via PROME's pushes (verified with `merge-base --is-ancestor` after a fresh fetch). Four later commits, plus this light-pass commit, are local.
+- **Delivery:** bounded to the 10/11 signal date; 36/36 on origin.
 - Consumption and full market coverage are separate questions.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-10T20:41:26+00:00",
+  "as_of": "2026-10-11T21:58:22+00:00",
   "publication": [
-    {"commit": "40b424536", "state": "published"},
-    {"commit": "c03a6dad9", "state": "published"},
-    {"commit": "cf262bd35", "state": "published"},
-    {"commit": "2a66551e8", "state": "published"},
-    {"commit": "826a5dc44", "state": "published"},
-    {"commit": "74938cc8b", "state": "published"},
-    {"commit": "94c31ee17", "state": "published"},
-    {"commit": "134ed47c8", "state": "published"},
-    {"commit": "483e65900", "state": "published"}
+    {
+      "commit": "80e61cf02",
+      "state": "published"
+    },
+    {
+      "commit": "2313bf2b2",
+      "state": "published"
+    },
+    {
+      "commit": "5a8168f95",
+      "state": "published"
+    },
+    {
+      "commit": "6f4166528",
+      "state": "published"
+    },
+    {
+      "commit": "3cacce310",
+      "state": "pending"
+    },
+    {
+      "commit": "4e8b1c794",
+      "state": "pending"
+    },
+    {
+      "commit": "011415a7f",
+      "state": "pending"
+    },
+    {
+      "commit": "7e7b4263d",
+      "state": "pending"
+    }
   ],
   "delivery": {
-    "signal_date": "20261010",
-    "total": 38,
-    "delivered": 38,
-    "note": "All 38 10/10 handoff rows on origin (28 AM reconciled at the 11:5x Tier-2; 10 PM reconciled at this closeout after PROME's 16:32 push, 0 orphans). Delivery is not consumption."
+    "signal_date": "20261011",
+    "total": 36,
+    "delivered": 36,
+    "note": "All 36 10/11 handoff rows (-001..-007) on origin via PROME's pushes; reconcile_delivery_log --apply flipped 36, 0 orphans. The CARL row written in error on -006 was removed before commit. Delivery is not consumption."
   },
   "push": {
     "all_walter_commits_on_origin": false,
-    "note": "Every WALTER commit through 483e65900 reached origin in PROME's 16:32 push. Only this closeout commit, written after the receipt, is local; WALTER defers its push (REGINALD live with uncommitted work and one unpushed commit)."
+    "note": "WALTER pushed nothing this session (PROME has uncommitted work; RULE 16 defers). Commits through 6f4166528 reached origin in PROME's pushes; 3cacce310, 4e8b1c794, 011415a7f, 7e7b4263d and this light-pass commit are local."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
-      {"path": "FORGE/STATUS.md", "sha256": "73b763990129dafc7c90fad538645a999f22f351a92f3272231811d27f92507d", "note": "Unchanged since the 10/8 ANVIL reconcile; no Oct-9 755P disposition booked."},
-      {"path": "AGENTS/TERRY/STATUS.md", "sha256": "6f9a0296d22ebb737ef4de182ce1fb39dc1209bf91a68b27d69308f80cb0f07e", "note": "Unchanged since 10/9 (terry-1009b); no 755P disposition found."},
-      {"path": "PROME/WILL_QUEUE.md", "sha256": "49f0d34c5e39b38d6870d26c190152ce43f82366e3e628a106d3aec20a7e69d4", "note": "Re-read at the 16:4x ET closeout: WQ-397 (QQQ 755P) still open; WQ-401 carries WALTER's set sub-question."}
+      {
+        "path": "FORGE/STATUS.md",
+        "sha256": "73b763990129dafc7c90fad538645a999f22f351a92f3272231811d27f92507d",
+        "note": "Unchanged since the 10/8 ANVIL reconcile; Will's 10/11 capture (755P liquidated +361.94; new QQQ 755C Oct-12, USO 150C Oct-14 x2) not yet booked; PROME packeted 7e7b4263d."
+      },
+      {
+        "path": "AGENTS/TERRY/STATUS.md",
+        "sha256": "c046d2d0cb73e3d2fc675dca289772d9277a495275689f6ee616436ca3afce55",
+        "note": "Read 10/11 15:14 ET lead: QQQ sale/exercise UNKNOWN (now answered by Will's capture); USO WQ-396 booking Tue 10/13 as expired (broker row says liquidation +0.99, packeted)."
+      },
+      {
+        "path": "PROME/WILL_QUEUE.md",
+        "sha256": "c65246eca7d9349b760632d12fc58baff63559272897e64e27a278800c7f3731",
+        "note": "Re-read at the 10/11 light pass: WQ-418/420 RULED 17:10 ET; WQ-414 closed; WQ-397/347 answered by the 10/11 capture, pending PROME's write."
+      }
     ]
   },
   "owed": [
-    "This closeout commit rides the next push",
-    "QQQ Oct-9 755P disposition (Will/TERRY, WQ-397)",
-    "First gpu-obsolescence lane hits at boot 7e (rows landed 5a3b083)",
+    "QQQ 755C Oct-12 x1 expires Mon 10/12: Will/TERRY sell-or-roll (not WALTER's)",
+    "PROME: book the 10/11 capture via ANVIL; correct WQ-396 record type; close WQ-397/347",
+    "PROME: re-date READS L174 (WALTER fifth filing)",
+    "PROME: triage the ranked drain list (YURI, HOMER)",
+    "Iran full sweep Mon 10/12 (recommended over 10/15)",
     "CBOE SKEW 10/12-10/14 vs RED-FT-10 (VIOLET)",
-    "DEWEY REQ-DEWEY-20261010-001 delivery by 10/14; WALTER closes the ledger row"
+    "DEWEY REQ-DEWEY-20261010-001 by 10/14; WALTER closes the ledger row",
+    "Full Tier-2 closeout of walter-38"
   ],
   "next_review": "2026-10-12"
 }

@@ -1,16 +1,24 @@
 # WALTER STATUS
 
-**Updated 2026-10-10 ~16:4x ET — Tier-2 FULL closeout of `walter-66` (Claude Code, Opus 5.5, laptop), on Will's word 16:35 ET ("Okay lets close out here"). AM leg (boot 10:53, Tier-2 11:5x) and PM leg (boot 14:14) are both in SESSION_LOG.** BOARD **1315**; 9 outputs today (`-001`…`-009`), 1 kill, 38 handoff rows (delivery and push state: `LAST_COMPLETION.md` receipt). **Near-triggers unchanged (no session since 10/9; FRED 10/9 credit prints still unposted at 16:38 ET Saturday): FRED HY OAS 315bp [obs 10/8], 1.6% under >320 (0 of 3); RED-FT-10 SKEW 1 of 4 (CBOE 10/09 154.34; earliest fire on the Wed 10/14 bar).** Duties and receipts: `LAST_COMPLETION.md`.
+**Updated 2026-10-11 ~18:0x ET: Tier-1 LIGHT pass (system hygiene, Will's ask) inside `walter-38` (Claude Code, Opus 5.5, laptop), booted 16:14 ET Sunday. Full Tier-2 deferred.** BOARD **1322**; 7 outputs today (`-001`…`-007`; `-001`, `-006`, `-007` IMMEDIATE), 19 kills, 36 handoff rows. **Near-triggers unchanged (no session since 10/9; FRED 10/9 credit prints still unposted at 16:16 ET Sunday; Mon 10/12 is a bond holiday): FRED HY OAS 315bp [obs 10/8], 1.6% under >320 (0 of 3); RED-FT-10 SKEW 1 of 4 (CBOE 10/09 154.34; earliest fire on the Wed 10/14 bar).** Duties and receipts: `LAST_COMPLETION.md` (10/10 vintage; re-cut at the Tier-2).
 
 ## BOTTOM LINE
 
-Nothing on a registered threshold or ladder fired today, and there has been no market session since Friday's close. **Credit:** HY 315bp [10/8] sits 1.6% under the 320 line (0 of 3 days); FRED's 10/9 print is unposted, and Monday is a bond-market holiday. **Funding (`-007`):** small banks borrowed +$32.9B in 3 weeks to 9/30 with deposits flat. That is about 1/9 of SVB's first week, and mostly not FHLB-funded. REG-T-06 would fire as lettered on the Q3 FHLB print (~late Oct, nowcast ~$770B) in a quarter when FHLB lending shrank; that letter is Will's call (WQ-414, due 10/24). **AI financing (`-009`):** lenders want bigger Nvidia guarantees on GPU-collateral loans and value chips over 3–4 years against Nvidia's up-to-10 (Reuters 10/1), and Asian banks are in ~$3.8B of GPU loans (Bloomberg 10/6). The story reached the BOARD 4–12 days late because intake had no collection for it; PROME landed four lane rows the same afternoon (RESEARCH-INTAKE `5a3b083`). **Iran/Saudi:** FALCON grades the Shedgum/Hawiyah gas-plant fires (`-002`; GATE 1 firm-negative pending). **Tankers (`-008`):** Baltic TD3C $1.41M/day [10/9], a new high on the Baltic basis. ⚖️ Will's QQQ Oct-9 $755P: disposition still UNKNOWN on every repo surface (WQ-397). If it was held at expiry, it auto-exercises into a ~$75K short the IRA cannot carry.
+Nothing on a registered threshold or ladder fired, and there has been no market session since Friday. **The weekend was war news.**
+- **Iran (`-1011-006`, `-007`):** UKMTO confirms two outbound tankers hit by **projectiles** in Hormuz (162-26 Sat 1920Z, 164-26 Sun 1200Z). A drone hit the *Petro Dolphin* at Sohar, **Oman** (outside the strait; 2 crew missing, per India's shipping minister). The IRGC's two **mine** claims are **CLAIM-ONLY**: no mine detonation is established and losses stay at 3. Riyadh and Dammam airports were hit Sunday (GACA).
+- **Diplomacy (`-002`):** Iran says the US reply to its seven Hormuz conditions was "insufficient", all on Iran's account.
+- **Russia/Ukraine (`-001`, `-004`):** Trump posted an "ENERGY CEASEFIRE". It has no terms and the Kremlin is silent. Russia hit Kharkiv's CHP-5 hours later, and Kyiv's refinery-strike halt is conditional on Russia.
+- **Doorbell:** BRENT and FALCON doorbelled to PROME for the 18:00 ET CME reopen (`2313bf2b2`).
+- **Credit:** HY 315bp [10/8], 1.6% under 320; FRED's 10/9 print is still unposted.
+- **REG-T-06:** **RULED (WQ-414, 10/11): the consequence is REVIEW, not a crisis label.** It needs 3 official quarterly prints; the run is 2 of 3 through Q2, and the Q3 nowcast does not count (`design/CROSS_REFS/REGINALD.md` §7).
+- ✅ **Will's QQQ Oct-9 $755P is SETTLED: Fidelity OPTION LIQUIDATION 10/9, +$361.94, no exercise and no QQQ short** (capture 10/11, `research/2026-10-11_fidelity-ira-capture/`; PROME packeted for ANVIL/TERRY). The USO Oct-9 150C was liquidated for +$0.99, not expired.
+- ⚖️ **New and live: QQQ $755 CALL Oct-12 ×1 (Will, 10/9) EXPIRES MON 10/12**, ~$3.73 OTM at Friday's $751.27. Sell-or-roll is Will's call on TERRY's card.
 
 ## DATED MARKET OBSERVATIONS — Saturday; latest sessions are 10/8 (FRED) and 10/9 (markets); vintages explicit
 
 | Row | Observation and limit |
 |---|---|
-|HY / CCC|FRED HY **315bp [obs 10/8]** → RED-FT-02 / REG-T-03 >320 s=3, **0 of 3, NEAR-TRIGGER**. CCC 1,252bp [10/8], RED-FT-07 FIRING-BANKED. 10/9 print still not posted at 16:38 ET 10/10 (re-pulled); Mon 10/12 is a bond-market holiday, so its posting date is UNKNOWN.|
+|HY / CCC|FRED HY **315bp [obs 10/8]** → RED-FT-02 / REG-T-03 >320 s=3, **0 of 3, NEAR-TRIGGER**. CCC 1,252bp [10/8], RED-FT-07 FIRING-BANKED. 10/9 print still not posted at 16:16 ET Sun 10/11 (re-pulled); Mon 10/12 is a bond-market holiday, so its posting date is UNKNOWN.|
 |VIX / SKEW|^VIX 14.84 [10/9 close, vendor]; VIXCLS 15.41 [10/8]; FT-06 exit ≥18 0/5. **SKEW CBOE 10/09 = 154.34 (publisher of record, fetched 10/10 14:55Z) → RED-FT-10 1 of 4** (10/08 149.19; first CBOE bar ≥150 since 9/14). VIOLET (woken 10/10) holds the count.|
 |Claims / 5y5y|ICSA 197,000 [w/e 10/3]; T5YIFR 2.32 [10/9]. Nothing near.|
 |Rates / funding|DGS10 5.22 / DGS30 5.60 [10/8]; ^TNX 5.24 / ^TYX 5.60 [10/9 vendor]. RED-FT-11 not near. SOFR−IORB −3bp [10/8]. Citi forecasts 20Y/30Y auction cuts at the Wed 11/4 refunding (forecast only; `-004`).|
@@ -19,8 +27,8 @@ Nothing on a registered threshold or ladder fired today, and there has been no m
 |Banks|KRE $69.01 · WAL $74.27 · OZK $44.41 [10/9 close]. REG-T-02 cycle 2 still inside (exit ≥$81.90 ×3). OZK $915M RaDD bridge (matured 10/9): no public outcome found 10/10 ~14:3x ET; OZK says it updates on the 10/21 call (Bank OZK files with the FDIC, not EDGAR). WFC/JPM/C Q3 Tue 10/13; WAL 10/19 AMC; OZK 10/20 AMC.|
 |HANS|CNBC vendor closes 10/9: UK 30Y 5.93% (vs T-13 >6.00) · UK 10Y 5.42% (vs T-06 >5.50) · Bund 3.47 (watch tier open) · FR–DE ~138bp / OAT 4.85 (T-10 OPEN) · IT–DE ~111bp. TTF Nov 81.43 (L2 open). **EU storage 73.29% [gas day 10/8], gap −14.99pp** — T-08 stays OPEN (exit >−12 ×5). HANS grades on its own bases.|
 |CREED|Trepp Sept office 12.16% = T-01a leg 1 of 2 (`-1009-002`); T-01b SS print ~mid-Oct.|
-|Iran|Anchor 23,810 B (10/10 limb added; trigger 24,412 B). Last full sweep 10/8; next ~10/15. GATE 1 firm-negative PENDING FALCON on Shedgum; losses 3; GATE 2 untouched.|
-|Will's expiries|QQQ Oct-9 755P ×1 UNKNOWN (WQ-397). USO 150C EXPIRED worthless (Will ruled 10/9, WQ-396 closed). TERRY's cards; Will executes.|
+|Iran|Anchor 23,517 B after the 10/11 rotation (10/08 evening + 10/09 morning limbs → HISTORY verbatim; trigger 24,412 B; still above the 22,785 stop line). 10/11 limbs: diplomacy (`-002`) + kinetic (`-006`/`-007`). Last full sweep 10/8; **next ~10/15, recommended Mon 10/12** given the weekend escalation (Gulf of Oman hit, mine claims). GATE 1 firm-negative PENDING FALCON (Shedgum/Tanajib = Houthi claim only); losses 3; GATE 2 mine leg NOT met (IRGC claims only).|
+|Will's expiries|**QQQ Oct-9 755P ×1: Fidelity OPTION LIQUIDATION 10/9 +$361.94, no short (capture 10/11; WQ-397 answered, PROME packeted).** USO Oct-9 150C: broker shows OPTION LIQUIDATION +$0.99 (WQ-396 recorded "expired worthless"; record correction packeted). **NEW 10/9: QQQ 755C Oct-12 ×1 (−$144.66) EXPIRES MON 10/12; USO 150C Oct-14 ×2 (−$375.33).** QQQ 745P ×1 / 740P ×4 Oct-15; TLT 82P / HBAN 16P ×2 Oct-16. TERRY's cards; Will executes.|
 
 ## MISSION
 
@@ -34,7 +42,11 @@ Running duties: `LAST_COMPLETION.md`. Design directory: `design/STATE.md`. Durab
 
 ## NETWORK AWARENESS
 
-### October 10 routing and receiving snapshot — Tier-2 full closeout ~16:4x ET
+### October 11 routing and receiving snapshot (Sunday, Tier-1 light ~18:0x ET)
+
+BOARD 1322; 7 outputs (`-001`…`-007`), 19 kills; 3 batch manifests closed (lane 42/42, X bookmarks 28/28 + 5/5). 36 handoff rows (delivery and push state: `LAST_COMPLETION.md` receipt). ACTION routing: FALCON 3, BRENT 3, OSPREY 2, SHADE 1, BROCK 1, HAWK 1. A CARL INFO handoff was written in error on `-006` (CARL is pull-complete) and trashed before commit. **Receiving layer:** fleet visibility is UNKNOWN (Codex sessions, including PROME, are invisible to `ListAgents`; ORCH_INFLIGHT last generated 10/10). Doorbelled: BRENT + FALCON (L3a: the CME reopen vs Will's USO ×37 / VLO ×1). PROME also has a ranked drain list (YURI, HOMER first; 11 domain ACTION items at 7 desks beyond the fleet-wide `-1008-033`). REGISTRY header-only refresh: REGINALD, TERRY, PROME. ⚠️ `5a8168f95` swept three PROME files (byte-identical); disclosed (`6f4166528`), memory n=6.
+
+### October 10 routing and receiving snapshot — Tier-2 full closeout ~16:4x ET (prior)
 
 BOARD 1315; 9 outputs (`-001`…`-009`), 1 kill, 0 cluster-mediating; no network-uncertainty-peak trigger. 38 handoff rows to 21 desks (delivery state in the LAST_COMPLETION receipt). PM routing: LIQUID 1A/1I; BROCK 1A/1I; VULCAN 1A; BRENT 1A; HENRY 2I; HAWK, SHADE 1I. AM routing: BRENT 2A; HENRY 1A/2I; VULCAN 1A/1I; VIOLET 1A/1I; FALCON, OSPREY, YURI, BOND, ZHAO, CARL 1A; HAWK, HANS, SAM 2I; MIDAS, LIQUID, HOMER, REGINALD, LABOR, WATT, SHADE 1I. CARL/RED/PROME/TERRY INFO via BOARD ID-diff (exempt).
 
