@@ -218,18 +218,22 @@ Dispatch-time grep checks on signal body-text. High-precision tags that flag REG
 
 ## §7 — Thresholds (REG-T-NN) — pointer to registry
 
-Source-of-truth: `AGENTS/REGINALD/registry/THRESHOLDS.tsv` (8-col, 8-row v0.1 shipped REG LIAISON Turn 3 2026-05-11). Read at WALTER spawn-protocol step 6b alongside RED-FT-NN. Auto-dispatch via CHECKLIST v0.10 Phase 2 step 7 eval pass. Stale-fire suppression via `AGENTS/WALTER/registry/REG_THRESHOLDS_FIRED_LOG.tsv` (5-col, header-only at v0.1 ship).
+Source-of-truth: `AGENTS/REGINALD/registry/THRESHOLDS.tsv` (now 13 columns, 8 rows; v0.1 shipped REG LIAISON Turn 3 2026-05-11). **Canon governs every fire, citation and ruling; this table is a cache.** Read at WALTER spawn-protocol step 6b alongside RED-FT-NN. Auto-dispatch via the CHECKLIST Phase 2 step 7 eval pass (`design/THRESHOLD_SCAN.md`). Stale-fire suppression via `AGENTS/WALTER/registry/REG_THRESHOLDS_FIRED_LOG.tsv`, read under THRESHOLD_SCAN's STATE RULE (grade state against the registered exit, never an elapsed-session heuristic).
 
-| ID | Metric | Threshold | Sustain | Action | Recipient chain |
-|----|--------|-----------|---------|--------|-----------------|
-| REG-T-01 | KRE-PRICE | <$60 | 1 sess | ALL-ALL-ACUTE | REGINALD action / ALL-AGENTS info / Will |
-| REG-T-02 | WAL-PRICE | <$78 | 1 sess | V1V3-ACCELERATE | REGINALD action / Will |
-| REG-T-03 | HY-OAS | >320 bps | 3 sess | CREDIT-CANARY-FIRED | REGINALD action / CARL info |
-| REG-T-04 | HY-OAS | >350 bps | 3 sess | ISSUANCE-FREEZE | REGINALD action / LIQUID action / Will |
-| REG-T-05 | INITIAL-CLAIMS | >300K | 1 sess | ORANGE-TO-RED | REGINALD action / CARL LABOR info |
-| REG-T-06 | FHLB-ADVANCES | >$700B | 3 sess | EARLY-CRISIS | REGINALD action / LIQUID info |
-| REG-T-07 | OFFICE-CMBS-DQ | >15% | 3 sess | CRE-ACCELERATE | REGINALD action / BROCK SHADE info |
-| REG-T-08 | SOFR-IORB | >+15 bps | 3 sess | LIQUID-FHLB-SPIKE | REGINALD action / LIQUID action / Will |
+**Refreshed 2026-10-11 from canon at REGINALD `236a091d4`** (REGINALD packet `inbox/processed/2026-10-11_from-REGINALD_WQ414_REVIEW-token.md`, WQ-414 option B ruled by Will). The 5/11 table carried `EARLY-CRISIS` on REG-T-06 and "sess" as the sustain unit on monthly, weekly and quarterly rows; REG-T-02 and REG-T-07 lacked the WAL and CREED recipients canon now names. All eight rows re-read from canon, not only the one named. Other sections of this file remain the 5/11 scaffold.
+
+| ID | Metric | Threshold | Sustain (canon unit) | Action | Recipient chain | Exit (canon) |
+|----|--------|-----------|---------|--------|-----------------|------|
+| REG-T-01 | KRE-PRICE | <$60 | 1 daily close | ALL-ALL-ACUTE | REGINALD action / ALL-AGENTS info / Will | ≥$63.00 on 3 consecutive closes |
+| REG-T-02 | WAL-PRICE | <$78 | 1 daily close | V1V3-ACCELERATE | REGINALD action / WAL action / Will | ≥$81.90 on 3 consecutive closes |
+| REG-T-03 | HY-OAS (FRED BAMLH0A0HYM2) | >320 bps | 3 consecutive daily closes | CREDIT-CANARY-FIRED | REGINALD action / CARL info | ≤300 on 5 consecutive closes |
+| REG-T-04 | HY-OAS (FRED BAMLH0A0HYM2) | >350 bps | 3 consecutive daily closes | ISSUANCE-FREEZE | REGINALD action / LIQUID action / Will | ≤330 on 5 consecutive closes |
+| REG-T-05 | INITIAL-CLAIMS (FRED ICSA) | >300K | 1 weekly print (first release; revisions do not retro-fire) | ORANGE-TO-RED | REGINALD action / CARL LABOR info | ≤275K on 3 consecutive weekly prints |
+| REG-T-06 | FHLB-ADVANCES (Office of Finance Combined Financial Report, system advances, all 11 banks) | >$700B | 3 consecutive **official quarterly** prints | **REVIEW** (WQ-414, ruled 2026-10-11; `EARLY-CRISIS` is historical) | REGINALD action / LIQUID info | ≤$650B on 2 consecutive official quarterly prints |
+| REG-T-07 | OFFICE-CMBS-DQ-TREPP (30+ day DQ rate; not special servicing) | >15% | 3 consecutive monthly prints | CRE-ACCELERATE | REGINALD action / CREED info / BROCK SHADE info | ≤13.5% on 3 consecutive monthly prints |
+| REG-T-08 | SOFR-IORB (FRED SOFR minus IORB) | >+15 bps | 3 consecutive daily prints | LIQUID-FHLB-SPIKE | REGINALD action / LIQUID action / Will | ≤+8 bps on 5 consecutive daily prints |
+
+> **REG-T-06 REVIEW procedure, for routing only (canon: `AGENTS/REGINALD/registry/NOTES.md` §REG-T-06).** A debt-based nowcast, a monthly debt total, the H.8 borrowings proxy or a borrower subtotal **cannot count** as an official quarterly observation. The run is **2 of 3 through 2026Q2**; Q3 is not yet officially graded, and the 10/10 Q3 nowcast does not increment it. REVIEW obliges REGINALD to record the top-four growth contribution and the qualified matched SEC-filer median before proposing escalation. No numeric breadth cutoff exists, and **neither REVIEW nor either breadth measure produces a crisis label, trade or capital action by itself.** ⇒ WALTER never words a REG-T-06 dispatch as a crisis fire, and never counts a nowcast toward the run.
 
 ---
 
