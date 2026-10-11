@@ -41,3 +41,17 @@ Rotated at the 2026-10-10 Sat PM write-back (Will: "make sure we have properly u
 ### PRIOR SESSION 2026-10-09 Fri ~10:25 → ~10:5x ET (PROME prome-75 L516 due-row wake, Opus)
 **Nano:** P&A NOT posted (10:26 ET); bid summary (10/8) read → 0.85% premium, Pools B/C bought at 82.30/80.17%, A/D retained, no loss-share → §3 re-run (32–42% retained, headline unchanged); 9/27 report re-pointed; CREED + WAL packeted. **REG-T-03:** 309 [10/7] · 315 [10/8] → 0-of-3. **Letters:** OZK <$45 is the OZK desk's letter (consequent 🔴 → REGINALD+PROME, discharged 10/8); FLG RED consequent discharged 10/7, ladder exhausted. **Inbox 4 + 17 → 0**; 5 correction receipts (NO-OP); OZK reconcile: Seattle 'sold' → 'marked to an offer' in 3 reports, ALLL-basis labels. DAEDALUS asks answered/dated in STATUS §OPEN PROCESS ASKS (review Thu 10/15).
 =====END M1=====
+
+## BLOCK M2 — PRIOR SESSION 10/10 Sat ~12:39 → ~13:5x ET (1594 B, crc32 `fcf6e807`; MEMORY.md lines 37–45 at the 10/10 eve closeout, same convention as M1)
+
+=====BEGIN M2=====
+### PRIOR SESSION — 2026-10-10 Sat ~12:39 → ~13:5x ET (Will-launched, Opus 5.5; AM bookkeeping is in BLOCK M1)
+**1. Boot:** full read set · market.py (10/9 settled, stale-weekend) · ladder rc 1 (FLG RED, 3 closes) · staleness · corrections 0 · inbox 0 at boot (+1 MARCO Pharr wording NO-OP, filed).
+**2. ★1 as-made audit (`28c7dd7dd`):** all 20 rows by text; REG-13 re-formed; REG-07 "Brier on 55%" corrected to 68% (WQ-112(i)); REG-10 registered after its outcome, kept scored (WQ-161 ②). DAEDALUS packeted (10/12 sitting).
+**3. ★2 FHLB (`e4916e89a`, `11f3a8a4b`, `e1fc74154`):**
+- **Composition (6/30):** ~half of H1 +$136.2B = PNC/Citi/USB/WFC; mid/small flat; Atlanta +6.9%, SF −10.6%. Why: Citi says growth funding; USB borrowed and held cash (inference); WFC growth; PNC alone replaced lost deposits.
+- **`REG-T-06` letter non-discriminating:** >$700B in 12 of 26 quarters → WQ ask to PROME (doorbelled).
+- **Weekly H.8 (Will asked about newer data):** small-bank borrowings +11.7% in 3 wks to 9/30 (160-wk max); discount window >p90 two weeks; credit-side bars quiet → WALTER signal to LIQUID (doorbelled). ⚠️ **I had told Will "regionals flat" from June data before checking this.**
+**4. ★3 July threads (`004b3a238`):** five closed, archive crc `fd8df983`; the CCC/HY counter went to backlog.
+**5. Write-back pass (Will):** TRADE (credit-bet line + trigger states) · CALENDAR (+funding row, +`REG-T-06` ~10/29 row) · dashboard pointer · ROADMAP · STATUS headline + rows refreshed to 10/9 settled · rotations STATUS T20–T25, ROADMAP R3–R5, MEMORY M1.
+=====END M2=====
