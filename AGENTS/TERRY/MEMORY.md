@@ -4,9 +4,9 @@
 Activity detail lives in commit messages, daytrading/JOURNAL.md, and `memory/auto/`.
 Keep this load-bearing: append a Durable Finding only when it survives the episode.
 
-## Current Session — 2026-10-11 14:37:53 EDT (TERRY Codex, selected gpt-6.1-sol)
+## Current Session — 2026-10-11 15:14:23 EDT (TERRY Codex, selected gpt-6.1-sol)
 
-WQ-419 same-task continuation approved at 15c7d8b40 after accepted WQ-409 closeout 08073278d. WAL reference/concurrence repair: original 9/26 CONCUR 377b595ce verified, stale pending claims superseded, real guard heading added; operative exit letter byte-identical. Receipt/exact diff: research/2026-10-11_WQ419-WAL-reference-repair.md. VLO precision/two-bar close wording: research/2026-10-11_WQ419-VLO-precision-bar-PROPOSAL.md, **NOT ADOPTED**; source conventions/boundary witnesses saved; approved letter untouched, no grade/trade. Continuation delivery/consumption and new explicit full-closeout ask tracked by dated PROME memo.
+WQ-419 same-task continuation approved at 15c7d8b40 after accepted WQ-409 closeout 08073278d. WAL reference/concurrence repair: original 9/26 CONCUR 377b595ce verified, stale pending claims superseded, real guard heading added; operative exit letter byte-identical. Receipt/exact diff: research/2026-10-11_WQ419-WAL-reference-repair.md. VLO precision/two-bar close wording: research/2026-10-11_WQ419-VLO-precision-bar-PROPOSAL.md, **NOT ADOPTED**; source conventions/boundary witnesses saved; approved letter untouched, no grade/trade. PROME consumed 31f9f3d1a/1162faf3c, independently accepted WAL repair and VLO first-plan corrections/arithmetic, then issued a new explicit full-closeout ask. Owner receipt: research/2026-10-11_WQ419-owner-closeout.md; actual Git receipt follows native notice. Legacy $95 parenthesis is not a competing current rule; no extra band change proposed.
 
 WQ-409 PASS recommendation only; WQ-418/L681 await actual Will/VIOLET disposition. Eight original inbox dispositions, six R1 receipts, WQ-399 charter and L546 fixes stand. Recovery hold STANDING (repair approval UNKNOWN, acceptance PENDING); no foreign restore/soft-reset recipe. QQQ truth UNKNOWN, 750C sale distinct; USO booking and live C5 explicitly Tue 10/13, not advanced.
 
