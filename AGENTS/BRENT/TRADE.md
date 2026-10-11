@@ -1,8 +1,8 @@
 # BRENT TRADE.md — domain trade surface
 
-**Updated: 2026-10-09 (evidence lines only; holdings unchanged). Last real position data refresh: 2026-10-07 intraday, exact capture time UNKNOWN**, Will-confirmed holdings via [PROME transcription](../../PROME/data/2026-10-07_broker-capture-TRANSCRIPTION.md) and FORGE/STATUS. USO 37 shares, VLO 1 share, USO Oct-09 $150C ×1; no Activity/Orders supplied and no fill inferred. Screenshot and vendor marks are dated observations, not executable broker bids.
+**Updated: 2026-10-11 evening boot. Last real position data refresh: 2026-10-11 received**, exact capture/quote time UNKNOWN. Source: [PROME broker transcription](../../PROME/data/2026-10-11_broker-capture-TRANSCRIPTION.md) and FORGE/STATUS (54748614c). USO 37 shares, VLO 1 share, USO Oct-14 $150C ×2. October9 call SOLD CLOSE; no live marks or roll linkage inferred.
 
-**Existing management:** USO early-sale **DECLINE WQ-366** preserved; sell-or-roll rail **Friday October 9 15:00 ET** remains. Held VLO **WQ-386 approved October 7** modifies leg A only; two extra VLO shares **STOOD DOWN**, scale gate terminal. No new sale, add, re-entry or order approved.
+**Existing management:** October9 call rail discharged by its sell-closing receipt. New October14 calls are distinct: standing sell-or-roll before expiry applies; contract-specific card/working orders UNKNOWN, no old hard stop inherited. Held VLO WQ-386 remains; two extra shares STOOD DOWN. **WQ-420 approved prospectively October11:** exact [Approved exact insert](../../PROME/proposals/2026-10-11_wq418-420-RULED.md#approved-exact-insert) governs leg-A precision and [14:28,14:30) proxy window alongside WQ-386 below. Read that entire insert before computing a grade; no historical regrade. TERRY owner encoding was pending technical approval when read; no completion inferred. No new order approved here.
 
 ### WQ-386 — approved amendment applied to held VLO ×1
 
@@ -53,14 +53,15 @@ Thesis and calibration: `thesis/THESIS.md`. **WQ-189/192 STAND DOWN; no live dep
 
 ## POSITIONS (live)
 
-*Refreshed 2026-10-07 from the Will-confirmed holdings capture (exact time UNKNOWN); broker truth off-repo. ⚠️ Keep the heading above exact: `scripts/pending_receipts.py` matches it literally and fails closed without it (renamed 9/28 → boot could not certify until the 9/30 restore, PROME packet 2026-09-29).*
+*Refreshed from the October11 received holdings and Activity capture (exact time UNKNOWN); broker truth off-repo. ⚠️ Keep the heading above exact: `scripts/pending_receipts.py` matches it literally and fails closed without it (renamed 9/28 → boot could not certify until the 9/30 restore, PROME packet 2026-09-29).*
 
 | Position | Account | Status (source) | Existing rule / owner |
 |---|---|---|---|
-| **USO 37 sh** | Fidelity | Held ×37 per October 7 capture; displayed average cost $122.28/sh `[FORGE 10/7 received]` | **WQ-200 DECLINED by Will 9/10: no harvest/give-back rule live; Will manages by hand.** The share risk scaffold remains UNRATIFIED. |
-| **VLO 1 sh** | Fidelity | **Bought 9/18 @ $412.00** (ledger row 7; fill TIME unknown, D-55); held ×1 per October 7 capture `[FORGE 10/7 received]` | WQ-213: 1 of 3. The entry condition was a refiners-red-vs-oil day; **there was no crack filter at entry**. TERRY card [`BRENT_refiner-distillate-strong-leg_2026-08-27.md`](../TERRY/setups/BRENT_refiner-distillate-strong-leg_2026-08-27.md). **Exit rule: `GATE-TERRY-VLO-HELD-01`** (banner above; TERRY grades). |
+| **USO 37 sh** | Fidelity | Held ×37 per October11 received capture; displayed average cost $122.28/sh `[FORGE 10/7 received]` | **WQ-200 DECLINED by Will 9/10: no harvest/give-back rule live; Will manages by hand.** The share risk scaffold remains UNRATIFIED. |
+| **VLO 1 sh** | Fidelity | **Bought 9/18 @ $412.00** (ledger row 7; fill TIME unknown, D-55); held ×1 per October11 received capture `[FORGE 10/11 received]` | WQ-213: 1 of 3. The entry condition was a refiners-red-vs-oil day; **there was no crack filter at entry**. TERRY card [`BRENT_refiner-distillate-strong-leg_2026-08-27.md`](../TERRY/setups/BRENT_refiner-distillate-strong-leg_2026-08-27.md). **Exit rule: `GATE-TERRY-VLO-HELD-01`** (banner above; TERRY grades). |
 | **VLO 2 sh STOOD DOWN** | — | Not bought; GATE-TERRY-VLO-SCALE RESOLVED(TERMINAL), F1 fired for September 25; TERRY owner grade 4ad672c43, PROME/GATES current row checked October 7 | No live add. WQ-386 governs the existing share only; no scale-gate revival or HEN-46 amendment. |
-| **USO Oct-09 $150C ×1** expiry=2026-10-09 | Fidelity | **OPEN ×1 confirmed October 7** after a 10/1 partial sale-to-close of 1 of 2 (EXECUTION LOG); broker basis on the remaining ×1 **$299.66** `[FORGE 10/1 intraday, dac72b4ae]` | **WQ-366 early-sale DECLINE preserved; Will's hand, sell-or-roll before expiry** (USER.md). TERRY `MGMT-USO150C-OCT09` rail *"Hard stop Fri 10/09 15:00 ET"*; no harvest rule. Opened 9/30 ×2 @ $2.99 as the roll leg out of the Sep-30 $159C. |
+| **USO Oct-14 $150C ×2** expiry=2026-10-14 | Fidelity | Held ×2 per received October11 positions; BOUGHT OPEN October9 net debit **$375.33** [PROME transcription + FORGE54748614c]; capture time UNKNOWN | Distinct new line, no roll/linkage inferred. Standing sell-or-roll before October14 expiry; TERRY contract-specific card/working orders UNKNOWN. No inherited October9 hard stop. |
+| USO Oct-09 $150C ×1 expiry=2026-10-09 | Fidelity | **SOLD CLOSE / OPTION LIQUIDATION October9**, net **+$0.99**, remaining-lot realized **−$298.67** [derived] | Prior WQ-396 'expired worthless' superseded by broker Activity. Fill time, initiator, gross price UNKNOWN; receipt in EXECUTION LOG. |
 | USO Sep-16 $165C ×1 (RH) | Robinhood | **Not held**: past expiry and absent from the 9/27 RH card. Disposition (sold / expired / misread) **UNKNOWN, not inferred** | FORGE D-57 · PROME WQ-169. |
 | STNG | — | **Tracked, never held** (Stage-A tanker-liveness composite). FORGE D-17: absent from every capture since 8/2 | — |
 
@@ -72,7 +73,7 @@ Thesis and calibration: `thesis/THESIS.md`. **WQ-189/192 STAND DOWN; no live dep
 
 | ID | Fact | Owner / route |
 |---|---|---|
-| — | October 7 holdings established for the three BRENT lines; exact capture time unknown. Activity/fill times and working orders not supplied; Robinhood remains stale | Broker evidence → PROME/FORGE; no repeated current-quantity ask |
+| — | October11 holdings established for USO37/VLO1 and new USO Oct14 calls×2; exact capture time unknown. Activity dates/cash supplied; fill times, gross prices, initiator and working orders UNKNOWN; Robinhood remains stale | Broker evidence → PROME/FORGE; no repeated current-quantity ask |
 | — | Fill TIMES of the 9/30 159C sale, the 9/30 150C buy and the 10/1 150C sale (no Fidelity view shows them) | Will, low priority |
 | D-60 | Fidelity expiry-day "OPTION LIQUIDATION" rows: mechanism (moot for the 159C — sold before expiry) | Will / Fidelity |
 | D-55 | VLO fill time (date 9/18 known) | Will, low priority |
@@ -99,6 +100,8 @@ Read the COMPLETE named spec, including caveats and unresolved clauses. A health
 
 | Date | Action | Detail |
 |---|---|---|
+| 2026-10-09 | **USO Oct-14 $150C BOUGHT OPEN; held ×2**, net debit **$375.33** | October11 received Fidelity Activity + positions, PROME transcription/FORGE54748614c. Quantity from holdings; gross fill price/time UNKNOWN; no roll linkage inferred. receipt_status=RESOLVED |
+| 2026-10-09 | **USO Oct-09 $150C remaining lot SOLD CLOSE / OPTION LIQUIDATION**, net **+$0.99** | Same source, exact contract/account matched. Remaining-lot realized −$298.67; full two-lot cohort −$207.00 [derived cash]. Earlier WQ-396 worthless word superseded; initiator/time/gross price UNKNOWN. receipt_status=RESOLVED |
 | 2026-10-01 | **USO Oct-09 $150C: 1 of 2 SOLD TO CLOSE @ $3.92** (Fidelity), +$391.34 proceeds ⇒ **+$91.67 realized** vs $299.67; ×1 left, basis $299.66 | Fidelity Pending list Oct-01 row 2 via PROME's transcription → ANVIL `dac72b4ae` (FORGE). Will's hand; fill time not shown. ⚠️ Historical D-70 warning corrected 10/5: TERRY card already has ×1 addenda dated 10/1–2. FORGE row 20 not re-verified by this correction; no claim about its current quantity. receipt_status=RESOLVED |
 | 2026-09-30 | **USO Oct-09 $150C ×2 BOUGHT @ $2.99, −$599.33** (Fidelity) | Activity 9/30 row 6, roll leg 2 (row 5 = the 159C sale; limit $2.98) via ANVIL `33bc8c293`. receipt_status=RESOLVED |
 | 2026-09-30 | **USO Sep-30 $159C ×2 SOLD TO CLOSE @ $0.01, +$1.87 ⇒ realized −$919.46** (Fidelity) — **WQ-316 DISCHARGED** | Activity 9/30 row 5 via ANVIL `33bc8c293`. **Sold, not expired** (FORGE D-68: WQ-316's 17:4x "expired worthless … −$921.33" and TERRY's citing text are superseded by the broker row). Matched on contract (USO Sep-30 $159C) AND account (Fidelity) — NOT on the 150C partial-sale rows `pending_receipts.py` offered as closure candidates. receipt_status=RESOLVED |

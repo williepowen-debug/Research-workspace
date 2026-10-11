@@ -1,0 +1,287 @@
+
+########################################################################
+#                                                                      #
+#                         BRENT BOOT SEQUENCE                          #
+#                                                                      #
+#                   Sunday, October 11, 2026  19:13                  #
+#                                                                      #
+########################################################################
+
+  ⏳ Threshold Monitor...
+
+========================================================================
+  BRENT Threshold Monitor — 2026-10-11 19:13
+========================================================================
+
+  Fetching market data...
+  Fetching FRED data...
+
+  🟢 THESIS CONFIRMING BREACHES
+  ----------------------------------------------------------------
+  🟢 BZ=F                   105.47  (level 100.00, +5.5%) (2026-10-11T23:03:06+00:00)
+              Brent FUTURES (ICE front-month, BZ=F continuous) >$100 USD/bbl — HAWK Scenario C confirmed, Phase 1 active
+  🟢 DCOILBRENTEU           125.44  (level 100.00, +25.4%) (2026-10-06)
+              Dated Brent PHYSICAL SPOT (FRED DCOILBRENTEU) >$100 USD/bbl — KEY THRESHOLD #1 / Scenario-C confirmation (premium, not proof of barrels lost)
+
+  🟠 STRUCTURAL STRESS BREACHES
+  ----------------------------------------------------------------
+  🟠 DCOILBRENTEU           125.44  (level 120.00, +4.5%) (2026-10-06)
+              Dated Brent PHYSICAL SPOT (FRED DCOILBRENTEU) >$120 USD/bbl — physical scarcity confirmed
+  🟠 BAMLH0A0HYM2            3.150  (level 3.000, +5.0%) (2026-10-08)
+              HY OAS >300bps — elevated (currently)
+  🟠 GASREGW                 4.354  (level 4.000, +8.9%) (2026-10-05)
+              Retail >$4.00 — behavioral breakpoint (CONFIRMED)
+
+  ⚠️  NEAR THRESHOLDS (within 5%)
+  ----------------------------------------------------------------
+  🟡 DCOILWTICO              96.24  (level 100.00, -3.8%) (2026-10-06)
+              WTI >$100 — broad Phase 1
+  ⚠️  GASREGW                 4.354  (level 4.500, -3.2%) (2026-10-05)
+              Retail >$4.50 — next CARL breakpoint
+
+  CRUDE & FUTURES
+  ----------------------------------------------------------------
+  Brent futures              105.47  (+0.72%) as of 2026-10-11T23:03:06+00:00 [vendor quote]
+  WTI futures                 92.44  (+0.64%) as of 2026-10-11T23:03:39+00:00 [vendor quote]
+  Natgas futures               3.19  (-0.96%) as of 2026-10-11T23:03:00+00:00 [vendor quote]
+
+  TRACKED INSTRUMENTS — holdings are in TRADE.md
+  ----------------------------------------------------------------
+  ⚪ USO (oil long)         UNGRADED — quote older than 30 minutes; dated context only (market may be closed)
+       last observed 148.20 at 2026-10-09T20:00:00+00:00
+  ⚪ STNG (tanker)          UNGRADED — quote older than 30 minutes; dated context only (market may be closed)
+       last observed 85.14 at 2026-10-09T20:00:02+00:00
+  ⚪ Cheniere               UNGRADED — quote older than 30 minutes; dated context only (market may be closed)
+       last observed 278.18 at 2026-10-09T20:00:02+00:00
+  ⚪ Venture Global         UNGRADED — quote older than 30 minutes; dated context only (market may be closed)
+       last observed 13.16 at 2026-10-09T20:00:02+00:00
+
+  ENERGY SECTOR
+  ----------------------------------------------------------------
+  ⚪ Energy ETF             UNGRADED — quote older than 30 minutes; dated context only (market may be closed)
+       last observed 65.08 at 2026-10-09T20:00:00+00:00
+  ⚪ E&P ETF                UNGRADED — quote older than 30 minutes; dated context only (market may be closed)
+       last observed 191.52 at 2026-10-09T20:00:00+00:00
+  ⚪ Exxon                  UNGRADED — quote older than 30 minutes; dated context only (market may be closed)
+       last observed 168.94 at 2026-10-09T20:02:30+00:00
+  ⚪ Chevron                UNGRADED — quote older than 30 minutes; dated context only (market may be closed)
+       last observed 211.98 at 2026-10-09T20:02:11+00:00
+  ⚪ Halliburton            UNGRADED — quote older than 30 minutes; dated context only (market may be closed)
+       last observed 32.55 at 2026-10-09T20:00:03+00:00
+  ⚪ Schlumberger           UNGRADED — quote older than 30 minutes; dated context only (market may be closed)
+       last observed 48.95 at 2026-10-09T20:00:02+00:00
+  ⚪ Valero (refiner)       UNGRADED — quote older than 30 minutes; dated context only (market may be closed)
+       last observed 433.75 at 2026-10-09T20:00:02+00:00
+  ⚪ Marathon (refiner)     UNGRADED — quote older than 30 minutes; dated context only (market may be closed)
+       last observed 455.03 at 2026-10-09T20:00:02+00:00
+
+  TANKER EQUITIES — not freight-rate measurements
+  ----------------------------------------------------------------
+  ⚪ Frontline (VLCC)       UNGRADED — quote older than 30 minutes; dated context only (market may be closed)
+       last observed 56.10 at 2026-10-09T20:00:02+00:00
+  ⚪ Euronav (VLCC/Suezmax) UNGRADED — no regular-market quote; previous close is context only
+  ⚪ DHT (VLCC pure)        UNGRADED — quote older than 30 minutes; dated context only (market may be closed)
+       last observed 24.64 at 2026-10-09T20:00:02+00:00
+  ⚪ Scorpio (product)      UNGRADED — quote older than 30 minutes; dated context only (market may be closed)
+       last observed 85.14 at 2026-10-09T20:00:02+00:00
+
+  FRED LATEST VALUES
+  ----------------------------------------------------------------
+  Dated Brent                    125.44  as of 2026-10-06  (prior 125.51, -0.07)
+  WTI Spot                        96.24  as of 2026-10-06  (prior 96.13, +0.11)
+  HY Total OAS (%)                3.150  as of 2026-10-08  (prior 3.090, +0.06)
+  Henry Hub Gas                   3.030  as of 2026-10-06  (prior 2.960, +0.07)
+  US Retail Gas                   4.354  as of 2026-10-05  (prior 4.465, -0.11)
+
+  MACRO CONTEXT
+  ----------------------------------------------------------------
+  ⚪ VIX                    UNGRADED — quote older than 30 minutes; dated context only (market may be closed)
+       last observed 14.84 at 2026-10-09T20:15:01+00:00
+
+  ⚠️  UNGRADED — 2 registered threshold(s) COULD NOT BE GRADED
+  ----------------------------------------------------------------
+      ⚠️  LNG                  [market] Cheniere analyst PT range — LNG beat ter
+          reason: quote older than 30 minutes; dated context only (market may be closed)
+      ⚠️  VG                   [market] VG benefitting from spot LNG windfall
+          reason: quote older than 30 minutes; dated context only (market may be closed)
+      ⛔ These are NOT known to be un-breached — they were never evaluated.
+         A clean board above is clean ONLY over the thresholds that graded.
+
+
+
+  ⏳ EIA Weekly Monitor...
+BRENT EIA Weekly Monitor — retrieved 2026-10-11T23:13:43.377683+00:00
+Source: API (EIA v2 API; retrieval time is not release time)
+Week ending: 2026-10-02
+Released: UNKNOWN — API observation dates below
+Coverage: COMPLETE dated observations
+  commercial_crude: +424.134 M bbl; observed 2026-10-02
+  spr: +282.983 M bbl; observed 2026-10-02
+  cushing: +24.745 M bbl; observed 2026-10-02
+  gasoline: +204.744 M bbl; observed 2026-10-02
+  distillate: +105.138 M bbl; observed 2026-10-02
+  util: +92.700 %; observed 2026-10-02
+  commercial_crude_wow: -3.186 M bbl; observed 2026-10-02
+  spr_wow: -0.784 M bbl; observed 2026-10-02
+  cushing_wow: +0.444 M bbl; observed 2026-10-02
+  gasoline_wow: +0.382 M bbl; observed 2026-10-02
+  distillate_wow: -0.042 M bbl; observed 2026-10-02
+  gas_yoy_latest: -0.293 %; observed 2026-10-02
+Gasoline YoY: record only; retired BRT-08 trigger not evaluated; BRT-29 requires owner review.
+SPR: level only; exact current contract/authority unresolved; no universal floor inferred.
+Cushing <20M: not breached on 2026-10-02; observation check only
+Refinery utilization: elevated — production running hot on 2026-10-02; observation check only
+
+
+  ⏳ Catalyst Countdown...
+
+========================================================================
+  BRENT Catalyst Countdown — 2026-10-11 19:13  (60-day horizon)
+  Weekday count excludes weekends only; holidays are included.
+  ~ prefix = modeled/projected date (not source-confirmed; may revise)
+========================================================================
+
+  🔴 IMMINENT (≤5 weekdays)
+  --------------------------------------------------------------------
+  🟠 ~2026-10-14 (Wed)   3d cal /  3d weekday  🟠 IEA OMR OCTOBER — second collective-action watch + global stock draw (successor to the Sept OMR read 9/18)
+       ↳ check: "Does the IEA announce or pre-signal a SECOND collective stock release (none as of 9/18; March 400M bbl release ""nearing completion"" in July; ~1bn bbl emergency stocks remain)? September global observed inventory change vs Aug −95 mb; 2026 demand forecast vs −2.5 mb/d; Hormuz/oil-on-water."
+       ↳ signal: A second release = front-of-curve bearish by several dollars in a day; a demand forecast steeper than −2.5 mb/d = Phase-2 evidence at the balance level; a stock draw still ≥2 mb/d with demand falling = supply loss dominant (Phase 1 intact).
+       ↳ send to: BRENT, HENRY (inflation), PROME
+
+  📅 UPCOMING (within 60 days)
+  --------------------------------------------------------------------
+  🟠 ~2026-10-22 (Thu)   11d cal /   9d weekday  G7 STOCK RELEASE — end of the first 20-day wi...
+  🟠  2026-10-24 (Sat)   13d cal /  10d weekday  TEXAS DIESEL WAIVER — existing 20-day window ...
+  🟡  2026-10-30 (Fri)   19d cal /  15d weekday  BZZ26 LAST TRADING DAY — boundary #8 (Brent 3...
+  🟠  2026-10-31 (Sat)   20d cal /  15d weekday  RUSSIA PRODUCER DIESEL EXPORT BAN — extended ...
+  🟠 ~2026-11-01 (Sun)   21d cal /  15d weekday  🟠 EU GAS STORAGE — RESOLVED 2026-08-13: the t...
+  🟠  2026-11-01 (Sun)   21d cal /  15d weekday  ROUTINE CRONS — DST RE-SET (EST begins): move...
+  🟠  2026-11-01 (Sun)   21d cal /  15d weekday  🟠 OPEC+ SEVEN-COUNTRY MONTHLY MEETING — the D...
+  🟠  2026-11-18 (Wed)   38d cal /  28d weekday  WQ-386 HELD VLO — review next crack basis
+  🟠  2026-11-19 (Thu)   39d cal /  29d weekday  WQ-386 HELD VLO — last authorized December le...
+  🟡 ~2026-11-20 (Fri)   40d cal /  30d weekday  CHINA GAC OCTOBER PRODUCT EXPORTS — physical ...
+  🟡  2026-11-29 (Sun)   49d cal /  35d weekday  OPEC+ 69th JMMC — monitoring committee (watch...
+
+
+
+  ⏳ Predictions-Due Scan...
+  ⏳ Predictions-Due Scan...
+      ✅ no OPEN predictions past (or within 7d of) their timeframe
+
+
+  ⏳ Lesson-Conflict Check...
+
+  LESSON-CONFLICT CHECK — 27 lessons indexed
+  ✅ no unresolved contradictions
+
+
+
+  ⏳ Pending-Receipts Check...
+  🔴 PENDING-RECEIPTS: 0 unresolved receipt(s); 1 elapsed expiry row(s).
+     EXPIRY OUTCOME REQUIRED: | **USO Oct-09 $150C ×1** expiry=2026-10-09 | Fidelity | **OPEN ×1 confirmed October 7** after a 10/1 partial sale-to-close of 1 of 2 (EXECUTION LOG); broker basis on the remaining ×1 **$299.66** `[FORGE 10/1 intraday, dac72b4ae]` | **WQ-366 early-sale DECLINE preserved; Will's hand, sell-or-roll before expiry** (USER.md). TERRY `MGMT-USO150C-OCT09` rail *"Hard stop Fri 10/09 15:00 ET"*; no harvest rule. Opened 9/30 ×2 @ $2.99 as the roll leg out of the Sep-30 $159C. |
+     USO: FORGE has closure CANDIDATES. Match contract/account before resolving:
+       | USO | $150C | Oct-14-2026 | 2 | $1.88 | $2.09 | $418.00 | +$42.67 / +11.36% | `[10/11 rcv]`; NEW; BOUGHT OPEN 10/9 net −$375.33; exact basis $375.33. Today +$42.67. **Wednesday 10/14 expiry, 3 calendar DTE from receipt.** Distinct from closed Oct-09 call and 37 shares; no roll/linkage inferred. No inherited 10/09 hard stop; card/order UNKNOWN |
+     Absence of a FORGE contradiction does not resolve an owed receipt.
+
+
+  ⏳ Instrument Check...
+
+  INSTRUMENT CHECK — 30 registered tests
+  --------------------------------------------------------------------------
+
+  🔴 BLOCKING — these tests cannot be graded as written (1):
+     🔴 TANKER-LIVENESS [gate] DEAD: instrument did not return usable data — STNG: quote older than 30 minutes; dated context only (market may be closed); FRO: quote older than 30 minutes; dated context only (market may be closed); DHT: quote older than 30 minutes; dated context only (market may be closed)
+         → spec: setups/SPECS_OFFRAMP_ENTRY.md §BE-04
+     🔴 TANKER-LIVENESS [gate] STALE: last_verified HUMAN STAMP (probe returned no datapoint date) 2026-08-05 is 67d old vs a 4d budget  [gate/falsifier ⇒ blocking, not advisory]
+         → spec: setups/SPECS_OFFRAMP_ENTRY.md §BE-04
+
+  🟠 WARNINGS (2):
+     🟠 THESIS-WTI-BRENT: PARTIAL_COVERAGE — probe checks one component only; full paired/composite measurement remains unverified
+     🟠 DIESEL-CRACK: PARTIAL_COVERAGE — probe checks one component only; full paired/composite measurement remains unverified
+
+  🟠 INCIDENTS.tsv — 5 ACTIVE rows past the 60d re-verify budget (ACTIVE is a PRESENT-TENSE claim; re-verify or downgrade):
+     🟠 RF-013 Ufa                                    last verified 2026-04-02 (192d)
+     🟠 RF-014 Mina Al-Ahmadi                         last verified 2026-04-03 (191d)
+     🟠 RF-022 Tuapse                                 last verified 2026-04-21 (173d)
+     🟠 RF-033 VTTI Fujairah oil terminal             last verified 2026-05-31 (133d)
+     🟠 RF-044 Jazan Refinery & Terminal (Jizan, Red  last verified 2026-08-10 (62d)
+     ⚠️  Flags only — never auto-edits. Downgrading on a timer would fabricate a restart nobody observed.
+     ⛔ NO AGGREGATE OVER INCIDENTS.tsv IS QUOTABLE — event record, not a capacity measure (Will-ruled fleet-wide 2026-08-12).
+
+  🟠 INCIDENTS.tsv — 19 row(s) in PRESENT-TENSE statuses the 60d budget does NOT cover, also stale (DISCLOSURE, not a budget — no threshold, gates nothing):
+     🟠 RF-005 Bazan (Haifa)                    PARTIAL_RESTART last verified 2026-03-20 (205d)
+     🟠 RF-031 Mangalore (MRPL)                 DISPUTED        last verified 2026-04-17 (177d)
+     🟠 RF-008 Port Arthur                      PARTIAL_RESTART last verified 2026-06-30 (103d)
+     🟠 RF-037 KOC offshore drilling platform ( MONITORING      last verified 2026-07-21 (82d)
+     🟠 RF-018 Satorp (Jubail)                  PARTIAL_RESTART last verified 2026-07-24 (79d)
+     🟠 RF-040 Perm Refinery - Lukoil-Permnefte MONITORING      last verified 2026-07-30 (73d)
+     … and 13 more
+     ⚠️  Here because re-classifying a row OUT of ACTIVE silently removes it from the re-verify queue — accuracy must not buy invisibility.
+
+  ✅ INCIDENTS.tsv — 2 row(s) in PERMANENT_CLOSURE (TERMINAL: deliberately OUTSIDE the 60d re-verify budget, listed so the exclusion is never silent):
+     ✅ RF-028 Wilmington (LA)                        re-verified 2026-08-21
+     ✅ RF-029 Benicia (SF Bay)                       re-verified 2026-08-21
+     ⚠️  These are NOT restarts and NOT resolutions — the capacity is gone, permanently. They re-enter ACTIVE only on a REPORTED restart or sale-and-restart, never on a clock. Each row names that condition in its notes.
+
+  --------------------------------------------------------------------------
+  Probed 30 of 30 rows over the network; the rest are manual/none/unprobeable.
+  ⚠️  This checks the INSTRUMENT, never whether the THRESHOLD LEVEL is still meaningful.
+      A permanently-breached line (gasoline crack >$30) probes perfectly GREEN.
+  BRENT_INSTRUMENT_SUMMARY: FINDINGS; registry_warnings=2; stale_active=5; stale_other=19; impossible=0
+
+
+  ⏳ Ledger Staleness...
+
+[BRENT]  (ledger age relative to STATUS.md; + = older than STATUS)
+  ok          +1d  AGENTS/BRENT/TRADE.md
+  ok          -1d  AGENTS/BRENT/board_log.tsv
+  ok          -1d  AGENTS/BRENT/docket/CATALYSTS.tsv
+  ok          +1d  AGENTS/BRENT/refinery_damage/INCIDENTS.tsv
+  ok          +1d  AGENTS/BRENT/workbook/COT_VINTAGES.tsv
+  FROZEN    +100d  AGENTS/BRENT/workbook/FLOW.tsv
+  FROZEN     +86d  AGENTS/BRENT/workbook/GROUP_MAP.tsv
+  FROZEN    +100d  AGENTS/BRENT/workbook/KB.tsv
+  ok          +1d  AGENTS/BRENT/workbook/LESSONS_INDEX.tsv
+  ok          +5d  AGENTS/BRENT/workbook/REGISTRY.tsv
+  FROZEN    +100d  AGENTS/BRENT/workbook/VX.tsv
+  perimeter [BRENT]: 12 ledger(s) scanned; 14 TSV(s) NOT scanned by this pass: demand_destruction/data/yanbu_berth_2026-09-25.tsv, demand_destruction/data/yanbu_berth_2026-09-28.tsv, demand_destruction/data/yanbu_berth_2026-10-02.tsv, registry/corrections_receipts.tsv (+10 more)
+
+
+  ⏳ Ledger Nudge...
+nudge: [BRENT] STATUS not moving this session — no gap being created
+
+
+  ⏳ Derived Views...
+✅ CALENDAR: STATUS block matches docket/CATALYSTS.tsv (23 events)
+✅ STANDING STATE: all 8 row(s) stamped and reconciled at or after the newest graded catalyst (2026-10-09).
+
+
+========================================================================
+  BOOT SUMMARY
+========================================================================
+
+  Script                           Status     Time
+  --------------------------------------------------
+  🔴 Threshold Monitor            FINDINGS   18.6s
+  ✅ EIA Weekly Monitor               OK    7.2s
+  ✅ Catalyst Countdown               OK    0.0s
+  ✅ Predictions-Due Scan             OK    0.1s
+  ✅ Lesson-Conflict Check            OK    0.0s
+  🔴 Pending-Receipts Check       FINDINGS    0.0s
+  🔴 Instrument Check             FINDINGS   16.6s
+  ✅ Ledger Staleness                 OK    0.4s
+  ✅ Ledger Nudge                     OK    0.0s
+  ✅ Derived Views                    OK    0.0s
+
+  Total boot time: 43.0s
+  Date: 2026-10-11 | Day: Sunday
+
+  🔴 3 check(s) reported FINDINGS (checks ran; inspect data, coverage, source or rule diagnostics):
+     • Threshold Monitor
+     • Pending-Receipts Check
+     • Instrument Check
+
+  🔴 BOOT COMPLETED WITH 3 BLOCKING FINDING(S). Scripts all RAN; inspect the named findings and their evidence. rc=2.
+     ⛔ This is NOT a clean boot. Do not read the run as green.
+
+  Tip: run with --verbose to see full output for each script.
