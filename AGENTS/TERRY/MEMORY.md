@@ -4,14 +4,15 @@
 Activity detail lives in commit messages, daytrading/JOURNAL.md, and `memory/auto/`.
 Keep this load-bearing: append a Durable Finding only when it survives the episode.
 
-## Current Session — 2026-10-11 13:45:44 EDT (TERRY Codex, selected gpt-6.1-sol)
+## Current Session — 2026-10-11 14:16 EDT (TERRY Codex, selected gpt-6.1-sol)
 
-WQ-409 card **NO TRADE / PASS recommended**: SPY Dec18 770/760P candidate, $262 closed-market screening, no measured edge or current approved capital trigger, QQQ disposition UNKNOWN. Whole inbox 8 read/dispositioned; CARL KEEP DORMANT, AEOLUS NO-BUILD, USO/HBAN booking/re-mark explicitly due Tue 10/13. Six R1 scoped NO-OP receipts; WQ-399 charter form fixed; two WIDE comparisons round before strict >15.00%. Recovery hold STANDING (approval UNKNOWN, acceptance PENDING); do not use CLOSEOUT foreign restore/soft-reset recipe. Source/hold/disposition record: research/2026-10-11_WQ409-source-and-intake-receipt.md. Persistence/recipient consumption and explicit closeout ask are tracked in the dated PROME delivery packet.
+WQ-409 card **NO TRADE / PASS recommended**: SPY Dec18 770/760P candidate, $262 closed-market screening, no measured edge or current approved capital trigger, QQQ disposition UNKNOWN. Whole inbox 8 read/dispositioned; CARL KEEP DORMANT, AEOLUS NO-BUILD, USO/HBAN booking/re-mark explicitly due Tue 10/13. Six R1 scoped NO-OP receipts; WQ-399 charter form fixed; two WIDE comparisons round before strict >15.00%. Recovery hold STANDING (approval UNKNOWN, acceptance PENDING); do not use CLOSEOUT foreign restore/soft-reset recipe. Source/hold/disposition record: research/2026-10-11_WQ409-source-and-intake-receipt.md. PROME consumed integration 313e2ed14 and delivery 2f0b243dd, accepted commission fulfillment, then explicitly asked full closeout. Owner receipt: research/2026-10-11_WQ409-owner-closeout.md; safe-push confirmation follows through native transport. Will decision remains PENDING WQ-418; L681 awaits Will/VIOLET disposition.
 
 Prior 10/08 owner work remains in STATUS dated block and Git. No QQQ closure inferred; 10/09 750C sale already booked is distinct.
 
 ## Next Session
 
+0. **Pre-CPI decision:** WQ-418 awaits Will TAKE/PASS via PROME; return his actual word to VIOLET under L413(a). No order authorized.
 1. **Tue 10/13:** book USO 150C ×1 EXPIRED WORTHLESS from WQ-396 per the packet timing; HBAN live re-mark carries Will's Wednesday sell-or-roll intent. QQQ disposition remains UNKNOWN; do not infer a sale/exercise. Current count comes from broker/Will truth.
 1a. 🔴 **DOCKET L372** class-fix PROPOSAL (owed since 9/14) · 🔴 **`ledger_sweep.py` check A:** `COMPATIBLE {CLOSED, FIRED}` hides a ledger that never recorded a close — narrow with selftests, never widen.
 1b. **Clocks (all sell-or-roll; Will's hand):** Fri 10/9 OZK RaDD bridge outcome (OZK desk) · Tue 10/13 C5 re-mark Oct-15 745P/740P · Wed 10/14 TLT 82P path C / HBAN 16P (WQ-302) / Oct-15 lines after CPI / WQ-360 lapses 15:00 · **CARL reply received 10/10: KEEP DORMANT; no re-lock**; VLO leg A first December observation · **Fri 10/16 12:00 TRY-FIRE-002 re-lock or archive** (its own 9/2 rule) · C5 cards OZK by 11/18, WAL by 12/16, KRE 65P by 12/29.

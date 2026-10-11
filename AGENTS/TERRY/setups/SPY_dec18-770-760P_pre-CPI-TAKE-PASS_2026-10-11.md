@@ -105,6 +105,6 @@ Reconsider only with current broker/position truth, an applicable approved capit
 
 ## 7. Decision
 
-**Recommendation: PASS.** Will's eventual decision is PENDING. PROME registers any eventual capital decision before presenting it. Nothing in this card authorizes an order.
+**Recommendation: PASS.** Will's eventual decision is PENDING under WQ-418 (PROME's closeout ask reports registration). L681 remains pending his word and VIOLET's disposition. PROME registers any eventual capital decision before presenting it. Nothing in this card authorizes an order.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**
