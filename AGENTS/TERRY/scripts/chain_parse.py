@@ -115,7 +115,7 @@ def run(args):
     print('-------  -  -----  -----  -----  ------  ------  ------  ------  -----  -----')
     wide=[]; thin=[]
     for r in rows[:args.limit]:
-        if r['spread_pct'] is not None and r['spread_pct'] > args.wide_spread_pct: wide.append(r)
+        if r['spread_pct'] is not None and round(r['spread_pct'], 2) > args.wide_spread_pct: wide.append(r)
         if (r['open_interest'] or 0) < args.thin_oi: thin.append(r)
         print(f"{fmt(r['strike']):>7}  {r['type'] or '?':<1}  {fmt(r['bid']):>5}  {fmt(r['ask']):>5}  {fmt(r['mark']):>5}  {fmt(r['spread_pct']):>6}  {fmt(r['delta']):>6}  {fmt(r['theta']):>6}  {fmt(r['iv']):>6}  {fmt(r['volume'],0):>5}  {fmt(r['open_interest'],0):>5}")
     if len(rows) > args.limit: print(f"... {len(rows)-args.limit} more rows omitted; use --limit")

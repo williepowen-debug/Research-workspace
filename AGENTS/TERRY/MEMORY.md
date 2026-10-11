@@ -4,21 +4,21 @@
 Activity detail lives in commit messages, daytrading/JOURNAL.md, and `memory/auto/`.
 Keep this load-bearing: append a Durable Finding only when it survives the episode.
 
-## Current Session — 2026-10-08 Thu (Will's own window `terry-01`, 09:17–~12:00 ET; laptop; Claude Opus 5.5; sole TERRY writer, PROME-acked)
+## Current Session — 2026-10-11 13:45:44 EDT (TERRY Codex, selected gpt-6.1-sol)
 
-**Delivered (all pushed):** C5 re-mark of the two Friday lines at the open, re-pulled after a wifi outage (USO 150C ×1 + QQQ 755P ×2 → lean SELL TODAY; PROME registered WQ-396/397) · `paper_book_mark.py` fix (yearless expiry resolved against TODAY marked expired PB-0001 off the Sep-30-**2027** contract) + PB-0001 closed at expiry · SETUPS 97.8 → 63% / TRADE_BOOK 85.7 → 64% rotations, stale 004 + REFINER rows fixed · SIGNALS decay sweep (8 retired, 3 re-scoped) · CARL CRL-21 ask (due 10/15) · OZK note ← WALTER `-017` · STATUS rotation `_2026-10-08`. **Pending:** Will's two sells (fills unknown at closeout). **Own errors, corrected in place:** a hand-typed "11:1x" stamp (finding 6b); the 09:5x "roll = chase" line superseded at 11:03 when the measurement moved; a yfinance `previousClose` that was the 10/6 close, not 10/7.
+WQ-409 card **NO TRADE / PASS recommended**: SPY Dec18 770/760P candidate, $262 closed-market screening, no measured edge or current approved capital trigger, QQQ disposition UNKNOWN. Whole inbox 8 read/dispositioned; CARL KEEP DORMANT, AEOLUS NO-BUILD, USO/HBAN booking/re-mark explicitly due Tue 10/13. Six R1 scoped NO-OP receipts; WQ-399 charter form fixed; two WIDE comparisons round before strict >15.00%. Recovery hold STANDING (approval UNKNOWN, acceptance PENDING); do not use CLOSEOUT foreign restore/soft-reset recipe. Source/hold/disposition record: research/2026-10-11_WQ409-source-and-intake-receipt.md. Persistence/recipient consumption and explicit closeout ask are tracked in the dated PROME delivery packet.
 
-*Prior session (10/7, `prome-0e`), one-line digest: C5 cards for the five new Fidelity identities; WQ-357/365 LATER, WQ-366 DECLINE recorded; WQ-386 encoded verbatim (VLO § 2-bis); L590 FINAL (NONE). Detail in `STATUS.md`'s demoted 10/7 block.*
+Prior 10/08 owner work remains in STATUS dated block and Git. No QQQ closure inferred; 10/09 750C sale already booked is distinct.
 
 ## Next Session
 
-1. **Book Will's 10/8–10/9 fills** for USO 150C ×1 / QQQ 755P ×2 the moment they are relayed (root rule #10); if unsold, the USO Fri 15:00 stop. `[POSITION_STATE_UNKNOWN]` until then.
+1. **Tue 10/13:** book USO 150C ×1 EXPIRED WORTHLESS from WQ-396 per the packet timing; HBAN live re-mark carries Will's Wednesday sell-or-roll intent. QQQ disposition remains UNKNOWN; do not infer a sale/exercise. Current count comes from broker/Will truth.
 1a. 🔴 **DOCKET L372** class-fix PROPOSAL (owed since 9/14) · 🔴 **`ledger_sweep.py` check A:** `COMPATIBLE {CLOSED, FIRED}` hides a ledger that never recorded a close — narrow with selftests, never widen.
-1b. **Clocks (all sell-or-roll; Will's hand):** Fri 10/9 OZK RaDD bridge outcome (OZK desk) · Tue 10/13 C5 re-mark Oct-15 745P/740P · Wed 10/14 TLT 82P path C / HBAN 16P (WQ-302) / Oct-15 lines after CPI / WQ-360 lapses 15:00 · **Thu 10/15 16:00 CARL's CRL-21 reply due**; VLO leg A first December observation · **Fri 10/16 12:00 TRY-FIRE-002 re-lock or archive** (its own 9/2 rule) · C5 cards OZK by 11/18, WAL by 12/16, KRE 65P by 12/29.
+1b. **Clocks (all sell-or-roll; Will's hand):** Fri 10/9 OZK RaDD bridge outcome (OZK desk) · Tue 10/13 C5 re-mark Oct-15 745P/740P · Wed 10/14 TLT 82P path C / HBAN 16P (WQ-302) / Oct-15 lines after CPI / WQ-360 lapses 15:00 · **CARL reply received 10/10: KEEP DORMANT; no re-lock**; VLO leg A first December observation · **Fri 10/16 12:00 TRY-FIRE-002 re-lock or archive** (its own 9/2 rule) · C5 cards OZK by 11/18, WAL by 12/16, KRE 65P by 12/29.
 1c. **Activity view (WQ-347):** book the Oct-02 740P ×4 / Oct-05 735P ×5 exits, the five new entries, D-71/D-72/D-73 — never infer them.
 2. Any crack/spread figure: resolve BOTH legs' `expireDate` at the pull, plus a negative control (DOCKET L384). From 10/15 leg A reads matched December (WQ-386).
 3. `research/PENDING_RISK_RULES_AMENDMENT_2026-09-14_two-pull-rule.md` — PROPOSED, not adopted. Adopt, fold, or reject.
-4. `CLOSEOUT.md` Chunk 4 C1/C2: correction proposed 10/7 (memo); edit only on DAEDALUS / Will approval; root Git Protocol steps 2–3 govern until then.
+4. Recovery hold STANDING; root Git Protocol governs. Tue 10/13 review approved harness correction/acceptance plus VLO precision/bar-source proposal and WAL pointer/concurrence repair before 10/15 December switch.
 5. Two-correction stop on `SIGNALS.tsv` (carried since mid-September): an independent cold read before its next edit. *(The parallel STATUS.md carry is retired: every session since has written STATUS as new blocks, not corrections.)*
 
 ## Mandate (one line)

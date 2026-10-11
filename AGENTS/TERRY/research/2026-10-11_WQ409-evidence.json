@@ -1,0 +1,183 @@
+{
+  "retrieved_on": "2026-10-11 13:45:44 EDT",
+  "source_class": {
+    "cboe": "PRIMARY",
+    "vendor": "MIRROR SCREENING"
+  },
+  "source_urls": {
+    "vix": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+    "vvix": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VVIX_History.csv",
+    "skew": "https://cdn.cboe.com/api/global/us_indices/daily_prices/SKEW_History.csv"
+  },
+  "cboe_latest": {
+    "vix": [
+      {
+        "DATE": "10/07/2026",
+        "OPEN": "15.210000",
+        "HIGH": "16.010000",
+        "LOW": "14.970000",
+        "CLOSE": "15.080000"
+      },
+      {
+        "DATE": "10/08/2026",
+        "OPEN": "15.680000",
+        "HIGH": "16.460000",
+        "LOW": "15.150000",
+        "CLOSE": "15.410000"
+      },
+      {
+        "DATE": "10/09/2026",
+        "OPEN": "15.340000",
+        "HIGH": "15.340000",
+        "LOW": "14.770000",
+        "CLOSE": "14.840000"
+      }
+    ],
+    "vvix": [
+      {
+        "DATE": "10/07/2026",
+        "VVIX": "83.180000"
+      },
+      {
+        "DATE": "10/08/2026",
+        "VVIX": "87.660000"
+      },
+      {
+        "DATE": "10/09/2026",
+        "VVIX": "84.880000"
+      }
+    ],
+    "skew": [
+      {
+        "DATE": "10/07/2026",
+        "SKEW": "141.840000"
+      },
+      {
+        "DATE": "10/08/2026",
+        "SKEW": "149.190000"
+      },
+      {
+        "DATE": "10/09/2026",
+        "SKEW": "154.340000"
+      }
+    ]
+  },
+  "vendor_chains": {
+    "oct16": {
+      "ticker": "SPY",
+      "expiry": "2026-10-16",
+      "type": "put",
+      "spot": 778.5700073242188,
+      "spot_asof": "2026-10-11 13:34",
+      "fetch_ts": "2026-10-11T13:34:53.496655",
+      "latest_trade": "2026-10-09 16:14",
+      "rows": [
+        {
+          "strike": 760.0,
+          "type": "P",
+          "expiry": "2026-10-16",
+          "bid": 0.48,
+          "ask": 0.49,
+          "mark": 0.485,
+          "last": 0.49,
+          "delta": null,
+          "theta": null,
+          "iv": 13.48,
+          "volume": 15658.0,
+          "open_interest": 24185.0,
+          "spread_pct": 2.06,
+          "last_trade": "2026-10-09 16:14",
+          "in_the_money": false,
+          "quote_flag": [],
+          "moneyness_pct": -2.4
+        },
+        {
+          "strike": 770.0,
+          "type": "P",
+          "expiry": "2026-10-16",
+          "bid": 1.41,
+          "ask": 1.43,
+          "mark": 1.42,
+          "last": 1.42,
+          "delta": null,
+          "theta": null,
+          "iv": 11.28,
+          "volume": 15552.0,
+          "open_interest": 22525.0,
+          "spread_pct": 1.41,
+          "last_trade": "2026-10-09 16:14",
+          "in_the_money": false,
+          "quote_flag": [],
+          "moneyness_pct": -1.1
+        }
+      ],
+      "legs_checked": [
+        770.0,
+        760.0
+      ],
+      "legs_missing": [],
+      "legs_defective": []
+    },
+    "dec18": {
+      "ticker": "SPY",
+      "expiry": "2026-12-18",
+      "type": "put",
+      "spot": 778.5700073242188,
+      "spot_asof": "2026-10-11 13:39",
+      "fetch_ts": "2026-10-11T13:39:37.506333",
+      "latest_trade": "2026-10-09 16:14",
+      "rows": [
+        {
+          "strike": 760.0,
+          "type": "P",
+          "expiry": "2026-12-18",
+          "bid": 10.68,
+          "ask": 10.71,
+          "mark": 10.695,
+          "last": 10.68,
+          "delta": null,
+          "theta": null,
+          "iv": 13.9,
+          "volume": 774.0,
+          "open_interest": 20143.0,
+          "spread_pct": 0.28,
+          "last_trade": "2026-10-09 16:08",
+          "in_the_money": false,
+          "quote_flag": [],
+          "moneyness_pct": -2.4
+        },
+        {
+          "strike": 770.0,
+          "type": "P",
+          "expiry": "2026-12-18",
+          "bid": 13.26,
+          "ask": 13.3,
+          "mark": 13.280000000000001,
+          "last": 13.25,
+          "delta": null,
+          "theta": null,
+          "iv": 12.85,
+          "volume": 291.0,
+          "open_interest": 14702.0,
+          "spread_pct": 0.3,
+          "last_trade": "2026-10-09 16:02",
+          "in_the_money": false,
+          "quote_flag": [],
+          "moneyness_pct": -1.1
+        }
+      ],
+      "legs_checked": [
+        770.0,
+        760.0
+      ],
+      "legs_missing": [],
+      "legs_defective": []
+    }
+  },
+  "snapshot_text": "TERRY snapshot \u2014 2026-10-11 13:40 local\nTickers: SPY | Benchmark: QQQ | Lookback: 60d\nData: yfinance via FORGE fetch.py; option-chain NOT included.\n\nDATA COVERAGE (bars returned; ~41 trading days implied by 60d)\n  QQQ:60  SPY:60\n\nPRICE / TAPE\nTicker     Price      Day chg   Lookback  Rel vs bench   Range loc     Key range\n---------  ---------  --------  --------  -------------  ------------  ----------------\nSPY           778.57    +0.60%    +5.01%         -3.15%  near range high  727.65\u2013779.09\n\nBenchmark QQQ: +8.16% over 60d; range 661.04\u2013759.66\n\nTERRY READ PROMPTS\n- Entry quality: avoid chasing if price is near range extreme without fresh catalyst.\n- Invalidation: use nearby support/resistance or thesis/tape break; do not hide behind macro narrative.\n- Options: chain still required (bid/ask, OI/volume, IV, delta, theta, expected move).\n\nCREDIT / RATES BACKDROP\n- HY OAS: 315bps [2026-10-08] \u2014 FRED observation date\n- CCC OAS: 1252bps [2026-10-08] \u2014 FRED observation date\n- 10Y: 5.22% [2026-10-08] \u2014 FRED observation date\n",
+  "option_bid_ask_observation_timestamp": "UNKNOWN",
+  "underlying_quote_observation_timestamp": "UNKNOWN",
+  "vix_csv_sha256": "51ea1e59bfeaf400f6816300c39145df5e3fb437e7c60bdb8ca2178f8c96f436",
+  "vvix_csv_sha256": "0c8b79bf3aaefa48a9f37cb410ba980e39bf975379f9a68e9fd6a4d1c4128bbe",
+  "skew_csv_sha256": "92a77fd9aa64c17dc7ff1aee75bb124f57f75744753ec48df0180e6ac329ee32"
+}

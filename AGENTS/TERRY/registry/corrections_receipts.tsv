@@ -1,3 +1,9 @@
 receipt_date	correction_id	action	note
 2026-09-01T21:40Z	COR-20260828-01	APPLIED	
 2026-09-18T15:03Z	COR-20260915-02	NO-OP	
+2026-10-11T17:41Z	COR-20260928-17	NO-OP	scope=2026-10-11 live TERRY card build uses no diesel-ban breach timing. Active owned card and ledger text scan found no withdrawn retail-to-crack timing claim. Historical received packet remains attributed history.;
+2026-10-11T17:41Z	COR-20260929-09	NO-OP	scope=WQ-316 is a closed Sep-30 event. New WQ-409 card uses no Sep-28 gamma reading or Sep-29 deadline. No expired gamma measurement promoted as current.;
+2026-10-11T17:41Z	COR-20261002-16	NO-OP	scope=No Yanbu liftings, resumption claim or suspension scope enters the WQ-409 build. Current active TERRY card and ledger scan found no one-vessel or confirmed-resumed carry from -014.;
+2026-10-11T17:41Z	COR-20261002-27	NO-OP	scope=No Latin America non-allies assertion enters the WQ-409 build. VLO B1 remains unchanged. Received BROCK/BRENT history is not a present classification of allies.;
+2026-10-11T17:41Z	COR-20261008-41	NO-OP	scope=No auction superlative or claim of missing 2000 data enters the WQ-409 build. Active owned card and ledger scan found no dataset-lacks-2000 carry. Treasury auction stop and secondary yield stay separate.;
+2026-10-11T17:41Z	COR-20261009-10	NO-OP	scope=HBAN live card already carries WFC Tue 10/13. Incorrect WFC 10/14 remains only in the attributed historical BROCK inbox packet. CPI Wed 10/14 is independently BLS verified for this build.;

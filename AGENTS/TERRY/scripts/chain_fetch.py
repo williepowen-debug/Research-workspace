@@ -446,7 +446,7 @@ def display(ticker, expiry, opt_type, spot, spot_asof, rows, meta, wide_pct, thi
     wide = []
     thin = []
     for r in rows:
-        if r["spread_pct"] is not None and r["spread_pct"] > wide_pct:
+        if r["spread_pct"] is not None and round(r["spread_pct"], 2) > wide_pct:
             wide.append(r)
         if (r["open_interest"] or 0) < thin_oi:
             thin.append(r)
