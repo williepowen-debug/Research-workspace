@@ -1,0 +1,30 @@
+{
+  "baseline": "54748614c",
+  "scope": "Only state,last_checked for six existing GATES rows; preserve all other cells and exact prior rows in archive",
+  "changes": {
+    "GATE-HY-REKILL": [
+      "LIVE — owner NOT FIRED 0/2; HY315bp [10/8 latest-revised, LIQUID10/9]; first-published requirement not newly verified. · hist→GATES_STATE_HISTORY_2026-10-11",
+      "2026-10-11 PROME read LIQUID STATUS §2 at1ac09fc05: 0/2;315[10/8 latest-revised], prior303[10/6 first-published]. Owner attribution only; no new first-published certification. Letter/terminal-on-fire unchanged."
+    ],
+    "GATE-LIQ-072": [
+      "LIVE — owner NOT FIRED; IG82/basis233bp [10/8 latest-revised]; SpaceX CANNOT-FIRE; issuer/144A event legs UNGRADED. · hist→GATES_STATE_HISTORY_2026-10-11",
+      "2026-10-11 PROME read LIQUID STATUS §2 at1ac09fc05: IG82 vs>94; HY−IG233 vs<180,10/8 latest-revised. Owner QUIET/NOT FIRED; event legs unsourced, not certified negative. No threshold or source-basis upgrade."
+    ],
+    "GATE-LIQ-076": [
+      "LIVE — owner1/3 NOT MET10/9; W1[10/6]/W2[9/30]NOT MET; W3MET(intraday witness); no re-arm/write-up. · hist→GATES_STATE_HISTORY_2026-10-11",
+      "2026-10-11 PROME read LIQUID STATUS §2/10/9 memo at1ac09fc05: W1net−2353716,wk+56627[10/6 first-pub];W2G10−9570/G5L10+847$mm[9/30];W3MOVE98.48/VIX14.85[10/9 15:51 intraday]. Owner1/3,no re-arm; no new close grade. NO BOOT INSTRUMENT READS THIS GATE; wiring owed."
+    ],
+    "GATE-LIQ-079": [
+      "LIVE / NOT ARMED — owner SOFR99−IORB+6bp[10/7]; FIRE legs CANNOT-FIRE pending bands/base-rate proposal10/31. · hist→GATES_STATE_HISTORY_2026-10-11",
+      "2026-10-11 PROME read LIQUID STATUS gate table at1ac09fc05:+6bp[10/7],24bp below arm; never armed. Raw funding paragraph +5[10/8] not substituted for explicit owner grade. ARM+30bp×2non-calendar and excluded-day break unchanged; bands/base rate owed10/31."
+    ],
+    "GATE-TERRY-ROLL70-EXIT": [
+      "LIVE — WAL exit0/3 through10/9close$74.27 (REGINALD);10/8$75.50 also below$81.90. · hist→GATES_STATE_HISTORY_2026-10-11",
+      "2026-10-11 PROME read REG_T02_EXIT_LOG atf16be8011: settled10/8$75.50 and10/9$74.27,dual-route agreement; owner run0/3,REG-T02FIRED unchanged. Sub78 is suppressed re-entry, not a new fire. TERRY proposes/Will rules exit; no order/holding confirmation."
+    ],
+    "GATE-HOMER-THESIS-KILL": [
+      "LIVE — owner10/2 review: kill0/5,🔴HOLDS; A2PMMS7.28%[10/1],kill0/4; other legs no new prints. · hist→GATES_STATE_HISTORY_2026-10-11",
+      "2026-10-11 PROME read HOMER STATUS10d0d1d79/10/2 memo§2: PMMS7.28%[10/1],A2kill0/4 vs≤6.50%×4. Owner thesiskill0/5; other legs retain older prints, not refreshed. Formal grade11/20 unchanged; overdue missing housing releases not discharged."
+    ]
+  }
+}
