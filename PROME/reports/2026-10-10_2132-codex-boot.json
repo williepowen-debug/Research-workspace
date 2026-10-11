@@ -1,0 +1,92 @@
+{
+  "observed_at": "2026-10-10T21:32:12.110238-04:00",
+  "state": "PARTIAL",
+  "desk": "PROME",
+  "runtime": "Codex",
+  "provider": "OpenAI",
+  "model": "GPT-6 family; exact variant UNKNOWN",
+  "session_id": "UNKNOWN",
+  "task_identity": "/root",
+  "boot_label": "prome-boot-codex-20261010-212820",
+  "host": "WilliePOwen",
+  "repository": "/home/willi/Research-workspace",
+  "head_at_boot": "7bb025bc889678fee74e0ae00794e360f95b0a54",
+  "instructions_loaded": [
+    "CLAUDE.md",
+    "AGENTS.md (user-supplied plus root guidance)",
+    "USER.md",
+    "PROME/CLAUDE.md",
+    "PROME/BOOT.md",
+    "PROME/.claude/skills/boot/SKILL.md",
+    "PROME/COMPLETION_SPEC.md",
+    "PROME/ORCHESTRATION_PLAYBOOK.md Runtime mechanics"
+  ],
+  "git": "Clean at opening; fetched 0 ahead/0 behind; safe pull already up to date. Sandbox FETCH_HEAD refusal retried using approved escalation.",
+  "capabilities": {
+    "shell_execution": "AVAILABLE; exec_command exercised",
+    "private_artifact_rulings": "UNAVAILABLE in exposed tool catalog; Pages artifact tools are not legacy Artifact read_db/write_db",
+    "fleet_discovery": "UNKNOWN; gate host snapshot covers visible PID namespace only; no native cross-runtime listing or endpoint supplied",
+    "thread_local_helpers": "AVAILABLE in tool schema; none launched",
+    "cross_session_messaging": "UNAVAILABLE in exposed catalog for existing fleet sessions",
+    "fleet_closeout": "UNKNOWN; no new touches; historical evidence remains as reported",
+    "credentials": "AVAILABLE per env_doctor rc=0; authentication not established"
+  },
+  "gate": {
+    "run_dir": "/tmp/prome-boot-codex-20261010-212820",
+    "returncode": 0,
+    "blocking": 10,
+    "advisory": 26,
+    "all_named_logs_read_to_eof": true,
+    "orchestration_view": "orch-compact-v1",
+    "fired_unexecuted": 0,
+    "corrections": "0 unreceipted named PROME corrections",
+    "position_agreement": "PASS, does not establish current broker holdings"
+  },
+  "board": {
+    "cursor_before": "SIG-W-20261010-006",
+    "cursor_after": "SIG-W-20261010-009",
+    "new_action": 0,
+    "new_info": 1,
+    "new_not_prome": 2,
+    "info_read": "SIG-W-20261010-007; LIQUID owns assessment; REGINALD nowcast is not a print; issuance claim unsourced; no threshold fire claimed"
+  },
+  "inbox": "No top-level PROME delivery packets; checked live directory and gate freshness result",
+  "continued_authorized_work": {
+    "position_receipt_check": "WQ-397 remains UNKNOWN at TERRY current-state block and FORGE D-60. No new active broker drops in TERRY/WALTER inbox/WILL (metadata ignored). No booking or exercise inference.",
+    "direct_summons_read": "LABOR/VULCAN/VIOLET ledgers read for dates <=2026-10-12. LABOR none in scope; VULCAN PJM IRAS 10/12 estimated; VIOLET holiday/session note 10/12. No Sunday 10/11 row in this scope.",
+    "owed_order": "Broker outcome evidence WQ-397; Monday registered owner work in SCRATCH; L628 Tuesday; L676 Wednesday; spine audit requires WQ-411 ruling."
+  },
+  "market_posture": "HEARTBEAT 2026-10-10 orientation only; all market observations Friday or earlier. No live market level cited; no fresh market pull required for this boot report.",
+  "advisories": {
+    "firetime_flags": 53,
+    "firetime_disposition": "Existing owner-routed debt retained; no artifact/date correction or dependent fire-time action taken. Full logic rereads remain required before repair/use; not resolved by passing boot gate.",
+    "open_will_rows": 26,
+    "spine_audit_last": "2026-10-02; stale; WQ-411 awaits ruling",
+    "read_rotation_due": [
+      "HANDOFF",
+      "SCRATCH",
+      "root CLAUDE",
+      "BOOT",
+      "ACTIVE_DECISIONS"
+    ],
+    "orchestration": "Historical missing/invalid closeout evidence remains UNKNOWN; no reconstruction from Git"
+  },
+  "skipped": [
+    {
+      "step": "BOOT 3b private Decision Deck pickup",
+      "reason": "legacy Artifact database connector unavailable; no claim that taps are absent"
+    },
+    {
+      "step": "native fleet discovery and dependent writing launches",
+      "reason": "cross-runtime coverage UNKNOWN; no duplicate-owner launch"
+    },
+    {
+      "step": "fresh market dashboard",
+      "reason": "weekend orientation only, as permitted by BOOT; no current price claim"
+    }
+  ],
+  "process_changes": 0,
+  "new_spawns": 0,
+  "trades": 0,
+  "continuity": "Existing SCRATCH/HANDOFF/STATUS obligations unchanged; boot checkpoint only, session remains open. No Standard closeout or hosted publication claimed."
+}
