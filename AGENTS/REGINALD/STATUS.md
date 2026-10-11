@@ -1,10 +1,11 @@
 # REGINALD STATUS
-**🟠 2026-10-11 SUN (PROME-launched): WQ-414 option B ACCEPTED after independent result read (`1b937462e`).**
+**🟠 2026-10-11 SUN (WQ-419 approved continuation): SHADE/BROCK insurer handoffs + CFG read-note prepared; PROME consumption pending.**
+- **Continuation:** assembled 10/10 evidence routed with dates/coverage; Citizens $450M DLIC revolver undrawn YE25, current status unknown. CFG Fri 10/16 checklist keeps frozen frame unchanged; no grade or new evidence. Reports → `reports/2026-10-11_FHLB_insurer-channel_handoffs.md` · `reports/2026-10-11_CFG_Q3_earnings_read-note.md`.
 - **Bank funding alarm (`REG-T-06`): REVIEW**, with top-four growth contribution and qualified SEC-filer borrower median before escalation. Official run remains **2 of 3 through Q2-2026**; the Q3 debt nowcast never counts. Full procedure → `registry/NOTES.md` §REG-T-06.
 - **Authority:** Will's verbatim ruling + bounded launch in `PROME/proposals/2026-10-11_wq414-409-RULED.md`; PROME plan checkpoint P1 consumed (existing panel includes PNC, no new size exclusion). Canonical encode `236a091d4`, delivery `2912cd369`, independently accepted at `1b937462e` (2 reads, zero consequential defects). Exact result → `reports/2026-10-11_WQ414_option-B_result.md`; closeout → `reports/2026-10-11_WQ414_owner-closeout.md`.
 - **Boot 10/11:** market figures are dated 10/9 final-for-period, no new session close; FLG RED continues (3 settled closes through 10/9). CFG 10/8 item 5.03 alert = previously documented Series G retirement, routine. No other thresholds, scores or trades changed.
 - **Open with Will:** REG-07 VOID before 10/21 (WQ-412) · HBAN sell-or-roll by 10/14 (WQ-302, intent recorded, no fill) · large-bank desk · JWT by 11/05. WQ-414 approval and independent result verification resolved; LIQUID/BOND/WALTER consumption remains unverified.
-**Last Updated:** 2026-10-11 Sun, WQ-414 accepted; explicit full-closeout ask received; prior 10/10 header and affected operating text preserved verbatim in `archive/WQ414_operating_snapshot_2026-10-11.md`.
+**Last Updated:** 2026-10-11 Sun, WQ-419 approved continuation; WQ-414 closed at 2daea8d59; prior 10/10 header and affected operating text preserved verbatim in `archive/WQ414_operating_snapshot_2026-10-11.md`.
 
 > **Thesis state:** STATUS is thesis-canonical (THESIS retired 8/13). Older carry blocks → `archive/STATUS_rotation_2026-09-02.md` BLOCK N and `archive/STATUS_rotation_2026-09-24b.md`.
 

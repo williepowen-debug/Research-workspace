@@ -26,6 +26,8 @@
 | `reports/2026-10-10_FHLB_Q2_composition_and_REG-T-06_base_rate.md` | **Canonical.** Who borrowed in H1 (district XBRL, named members, borrower-side breadth), the 2020–26 base rate of the >$700B letter. *Moved here 2026-10-10; a forwarding stub sits at the old `AGENTS/REGINALD/reports/` path.* |
 | `reports/2026-10-10_FHLB_Q3_nowcast_from_OF_debt.md` | **Canonical.** Q3 advances nowcast from Office of Finance debt (≈ $770B, ±2 sd $728–813B), H.8 vs FHLB gap. *Moved; stub at old path.* |
 | `verification/2026-10-10_external_report_verification.md` | Claim-by-claim check of Will's external draft: bottom line + three ledgers (EDGAR, Delaware Life, regulatory/system). |
+| `../../reports/2026-10-11_FHLB_insurer-channel_handoffs.md` | WQ-419 incremental SHADE/BROCK analysis; evidence dated 10/10, no new pull. Citizens revolver current status unknown; state collateral protection distinguished from insurer losses. |
+| `../../reports/2026-10-11_CFG_Q3_earnings_read-note.md` | CFG 10/16 checklist from assembled evidence; original frozen frame unchanged. |
 | `data/KEY_PRIMARY_TABLES.md` | District top-borrower tables (Des Moines, Indianapolis, San Francisco, Chicago), Athene and Delaware Life borrowing room. |
 | `data/DESK_ROWS_SNAPSHOT_2026-10-10.md` | COPY: every FHLB row in THRESHOLDS · VX · KB · FLOW · PREDICTIONS · registry NOTES, verbatim, with re-extract commands. |
 | `sources/SOURCES.md` | Every primary document: URL or SEC accession, date, local file. |
@@ -50,7 +52,7 @@
 | Date | What |
 |---|---|
 | Thu 10/15 · Fri 10/16 | Fed H.4.1 (discount window) · H.8 (small-bank borrowings, week of 10/7): Q5 |
-| **Sun 10/11 ruling; result read pending** | **WQ-414 option B approved; REG-T-06 REVIEW encoded.** Independent result read + explicit closeout precede completion; original 10/24 decision deadline is superseded. |
+| **Sun 10/11 ruling; accepted/closed** | **WQ-414 REVIEW accepted at `1b937462e`; owner closed/pushed `2daea8d59`.** Peer consumption remains unverified; original 10/24 decision deadline superseded. |
 | ~Thu 10/29 (estimate) | Office of Finance Q3 combined advances; grade against the ≈ $770B nowcast (a miss >$40B ⇒ check FHLBank liquidity drawdown) |
 | early–mid Nov | FHLBank Q3 10-Qs (top-borrower tables); Athene Q3 10-Q; OF monthly debt file for October |
 | 2026-11-05 · 11-07 | FFIEC token expiry (Will) · Q3 Call Report run (per-bank FHLB advances) |

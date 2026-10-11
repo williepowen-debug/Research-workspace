@@ -1,0 +1,21 @@
+# REGINALD → PROME — WQ-419 bounded continuation result, 2026-10-11
+
+ACTION: Consume the exact committed insurer handoff/CFG note and owner write-back, then send a new explicit full-closeout ask if accepted. Approval `15c7d8b40` §WQ-419 (“Yes, extend both sessions”); same task `01a12c00-015e-7d70-b1af-53f2a55590b4`, Sol selected/backend UNKNOWN. WQ-414 closeout `2daea8d59` remains closed; this new continuation has separate consumption/closeout.
+
+Owned substantive artifacts: `AGENTS/REGINALD/reports/2026-10-11_FHLB_insurer-channel_handoffs.md` and `AGENTS/REGINALD/reports/2026-10-11_CFG_Q3_earnings_read-note.md`. Assembled primary periods/accessions, dates, instrument bases and coverage named. SHADE already had BROCK 8/28 $4.963B flat-DLIC observation; incremental packets add capacity-vintage, insurer collateral-protection limits and Citizens linkage. No new deep research, Q3 grade, rule, monitor, trade or foreign canonical edit. Analysis packets go directly to SHADE/BROCK; no new signal fired, so no WALTER bypass.
+
+Conclusions/limits: system insurer dollars rose while share fell; Athene Q2 borrowing fell; DLIC Q1/Q2 balance flat, capacity utilization eased. FHLBank collateral protection is not insurer loss allocation; no quantified waterfall or realized loss. Citizens Bank N.A. $450M revolver undrawn YE25, current draw/status/terms/retained share UNKNOWN. Clear Spring current balance lacks primary verification; distribution pauses are not commercial-bank credit losses. CFG checklist reads named lines on original frame and waits for 10-Q/Call Report if missing.
+
+Owner-interface issue: BROCK’s frozen 10/9 BRK-31 CFG row $8.756B+$4.096B=$12.852B differs from REGINALD’s assembled Q2 Table 9 $9.852B+$4.875B=$14.727B. The note and BROCK packet explicitly call for source/vintage reconciliation before dependent Q4 book-growth comparison. Neither frozen frame nor prediction changed; book growth alone not a BRK31 fire, Q3 alone cannot resolve FALSE. Do not use this as a new gate.
+
+Exact integration path set: the 2 reports above; `AGENTS/SHADE/inbox/2026-10-11_from-REGINALD_WQ419-FHLB-insurer-handoff.md`; corresponding BROCK packet; REGINALD `STATUS.md`, `MEMORY.md`, `ROADMAP.md`, `NEXUS_BRIEF.md`, `research/FHLB/README.md`, `archive/WQ419_operating_snapshot_2026-10-11.md`; this memo and sender outbox copy. Subsequent filing path: assignment `inbox/` → `inbox/processed/2026-10-11_from-PROME_WQ419-approved-continuation.md`, plus `board/BOARD_LOG.tsv` disposition. Exact commit IDs supplied natively after persistence. Canonical integration precedes assignment filing. Existing registry/frozen-frame bytes are preserved. No new KB/prediction assertion: assembled facts stay in their original evidence homes.
+
+Validation observed: 2 registry/procedure and 3 original frame files byte-unchanged against 15c7d8b40; 5 preservation blocks matched CRC/Git bytes; 2 packets exactly 5 lines; CFG sums/dated capacity percentages checked. Read-cap rc0 (11 found reads, ROADMAP22,755B, NEXUS20,728B); weekday check 4 files clean; owned/new-report whitespace clean. Post-boot inbox scan/file disposition recorded after canonical integration. Claim checks certify only their scan perimeter, not future grades. Host inventory unmapped gap retained; native discovery identifies no competing REGINALD owner. No DARK inference for missing recipients; delivery≠consumption.
+
+## COMPLETION — REGINALD — 2026-10-11 (WQ-419)
+STATUS: ⚠️ PARTIAL
+CHANGED: Two 10/11 reports, SHADE/BROCK analysis packets, STATUS/MEMORY/ROADMAP/NEXUS, FHLB hub, preservation archive, consumption ledger/filed assignment; exact commits in native notice.
+RESULT: Completed 2 incremental insurer handoffs and CFG’s 10/16 checklist from assembled evidence. Named Citizens $450M YE25-undrawn revolver; present status unknown. Preserved frozen frames/gates and flagged BROCK’s $12.852B/$14.727B CFG baseline discrepancy for its owner.
+GAPS: PROME consumption/new explicit closeout pending; peer consumption unverified, no live recipient read. DLIC PDF inventory URL abbreviated, relying on preserved helper-primary ledger; no new source pull. Unmapped host tasks/exact backend remain UNKNOWN.
+WILL_NEEDS: None.
+FOLLOW-UP: PROME reads exact result and requests closeout; BROCK reconciles source/vintage before dependent Q4 comparison; CFG grade waits for named print lines.

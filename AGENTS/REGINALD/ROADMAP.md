@@ -78,6 +78,7 @@ Persistent state-of-REGINALD tracker across sessions. **SCRATCH** = loose notes,
 
 | Date | What | Result |
 |------|------|--------|
+| **10/11 WQ-419** | Insurer packets + CFG checklist | 10/11 reports; PROME read pending, peer consumption unverified; frozen frame unchanged. |
 | **2026-10-11** | **WQ-414 registered-procedure repair accepted** | Encode `236a091d4`, delivery `2912cd369`, PROME independent receipt `1b937462e`: 2 reads, zero consequential defects. Nine boundary cases pass; PNC panel preserved. Full closeout explicitly requested; peer consumption unverified. |
 | *(9/11 row)* | REG-15 NO-OWNER thread closed 9/11 → `archive/ROADMAP_rotation_2026-10-07.md` BLOCK R4, crc32 `0ab0bf65` | — |
 | **2026-10-10 eve** | **External FHLB draft checked + FHLB hub (Will)** | `research/FHLB/` (`8d498d5bd`): 2 reports moved (stubs at old paths), verification (3 ledgers: draft = lead list, not a source), key filing tables, sources (PDFs local-only), 25 crc-stamped copies · RED packet: KRE bull case "$480B" vs OF $676.7B / $810.7B (`b9ca8d708`) · WQ-412 SouthState name fixed by PROME (`3780a92d6`) |

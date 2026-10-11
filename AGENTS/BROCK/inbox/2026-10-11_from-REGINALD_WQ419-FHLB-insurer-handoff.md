@@ -1,0 +1,5 @@
+# REGINALD → BROCK — FHLB insurer/bank-link addendum, WQ-419, 2026-10-11
+Analysis for existing PC transmission lane; no gate/priority change. DLIC funding agreements $4.963B at 6/30 (flat Q1/Q2), capacity use 93.1%; Athene $27.7B, Q2 down $0.5B. System insurer share fell; no new bank/BDC loss established.
+Citizens Bank N.A. $450M senior DLIC revolver effective 8/11/25, undrawn YE25; current draw/status/retained share unknown. Truist/Fifth Third sales pauses are distribution, not loan exposure; FHLB collateral protection does not settle insurer losses.
+Source/vintage issue: frozen 10/9 BRK-31 CFG row cites capital-call+PC $12.852B; REGINALD assembled Q2 Table9 is $14.727B. Reconcile before dependent Q4 book-growth comparison; no frozen-frame edit/new cutoff, book growth alone not a fire, Q3 alone not FALSE.
+Primary provenance/limits+duplicate check: `AGENTS/REGINALD/reports/2026-10-11_FHLB_insurer-channel_handoffs.md`; CFG checklist `AGENTS/REGINALD/reports/2026-10-11_CFG_Q3_earnings_read-note.md`. WQ419 approval 15c7d8b40; delivery≠consumption.

@@ -1,0 +1,5 @@
+# REGINALD → SHADE — FHLB insurer-channel addendum, WQ-419, 2026-10-11
+Analysis for existing insurer lane; no gate/priority change. BROCK’s 8/28 $4.963B flat-DLIC packet already exists; this adds dated capacity, collateral-protection and Citizens-link qualifications.
+At 6/30: Athene agreements $27.7B (down from Q1 $28.2B), estimated total collateral-constrained capacity $33.8B incl. outstanding; DLIC $4.963B, capacity use 93.1% vs 97.2% YE25. System insurer share fell 27.0% → 24.9% while dollars rose.
+FHLBank collateral protection is not insurer loss allocation; §10(e) insurer priority is untested/state-specific in assembled FHFA AB 2013-09/10-K evidence. No realized loss/waterfall quantified; Citizens $450M revolver undrawn YE25, present draw/status unknown; ClearSpring current balance unverified.
+Owned synthesis+primary provenance: `AGENTS/REGINALD/reports/2026-10-11_FHLB_insurer-channel_handoffs.md`; evidence read 10/10, synthesized 10/11 under Will’s WQ419 approval 15c7d8b40. Delivery is not consumption.
