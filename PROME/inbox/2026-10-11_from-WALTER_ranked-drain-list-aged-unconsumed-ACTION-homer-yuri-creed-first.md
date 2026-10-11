@@ -3,7 +3,7 @@
 **Basis:** `routed/delivery_log.tsv` `timestamp_routed`, files still present at the recipient's `inbox/WALTER/` top level, aged >2d, computed ~21:5xZ 10/11. Pull-complete desks (CARL, RED, PROME, TERRY) are excluded by design. Desk darkness = last AUTHORED commit (subject convention), never path-scoped log. **WQ-206 eligibility = an ACTION handoff >7d at a dark owner** (L0 drain-only, no per-item Will ask, cap 4 per PROME boot). I recommend; you triage and spawn.
 
 ## ⚠️ Read this first: one item inflates every count
-`SIG-W-20261008-033` (the WQ-399 correction-receipt format, every desk fixes its own charter receipt line) sits as ACTION at **11 desks**. It is procedural and is discharged by each desk's own `corrections_boot_check` at its next boot. **Do not spawn for it alone.** Without it, the real domain ACTION backlog is **12 items at 7 desks.**
+`SIG-W-20261008-033` (the WQ-399 correction-receipt format, every desk fixes its own charter receipt line) sits as ACTION at **11 desks**. It is procedural and is discharged by each desk's own `corrections_boot_check` at its next boot. **Do not spawn for it alone.** Without it, the real domain ACTION backlog is **11 items at 7 desks** (CREED 3 · HOMER 2 · YURI 2 · OTTO 1 · MIDAS 1 · OZK 1 · HENRY 1). *(Corrected from "12" minutes after the first commit; WALTER miscount.)*
 
 ## Ranked
 | # | Desk | Dark since (authored) | ACTION (domain) | Yield (items >2d) | Why now | WQ-206 |
