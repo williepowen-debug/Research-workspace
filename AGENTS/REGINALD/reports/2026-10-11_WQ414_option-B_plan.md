@@ -42,7 +42,7 @@ Append the following section to `registry/NOTES.md`. Operational consumers point
 >
 > For positive aggregate growth, top-four contribution equals the four largest identified positive borrower changes divided by aggregate system advance growth over the same endpoints and basis. Show numerator and denominator in USD billions and the ratio in percent. Do not cap a ratio above 100%; offsetting borrower declines can produce that result. Distinguish identified contributors from a verified system-wide top four. If disclosure cannot establish the ranking, label coverage incomplete. Do not substitute a district's concentration share or a stock share for growth contribution.
 >
-> Borrower median is the median borrower-level percentage change on a matched two-date SEC-filer panel, excluding the largest banks as required by the ruling. Name the panel, exclusions, sample size and missing observations. It is not a system-wide or all-member median. A zero starting balance has no defined percentage change: report such borrowers separately rather than converting undefined growth to zero. Compare the two breadth measures over named, matching endpoints; differing frames remain explicit and are not evidence of system-wide breadth.
+> Borrower median is the median borrower-level percentage change on the documented matched two-date SEC-filer panel. Name the concept, coverage, exclusions, sample size and missing observations; size alone does not newly exclude a reporting borrower. The existing frame includes PNC and misses several other large banks and non-SEC members. It is not a system-wide or all-member median. A zero starting balance has no defined percentage change: report such borrowers separately rather than converting undefined growth to zero. Compare the two breadth measures over named, matching endpoints; differing frames remain explicit and are not evidence of system-wide breadth.
 >
 > Missing borrower data, incomplete ranking, incomparable endpoints or valuation bases, or changed panels leave the breadth read incomplete. State the exact uncertainty and withhold a breadth-supported escalation. The official level rule may still produce REVIEW. Obtain the missing comparable evidence or refer the unresolved judgment to PROME; do not fit a replacement gate.
 >
@@ -60,7 +60,7 @@ Use this exact compact instruction at every current `REG-T-06` consequence locat
 
 Future Q3 rows say: “An official Q3 advance print >$700B completes the recorded 3-quarter run and produces REVIEW. The debt nowcast does not count.” Replace pending-Will wording with “Will approved WQ-414 option B on 2026-10-11; implementation independently checked only after PROME's result read.” Preserve prior text through a dated snapshot or a clearly marked historical/as-made block, not silent deletion.
 
-The 10/10 evidence is a dated illustration, not a newly computed acceptance result: named four +$67.5B / +$136.2B par = 49.5%, coverage incomplete; borrower-side 109-filer median 0% is the original panel result, not yet the ruled largest-bank-excluded panel calculation. Do not relabel either as complete system breadth. No new primary-data research is necessary to repair the consequence.
+The 10/10 evidence is a dated illustration, not a newly computed acceptance result: named four +$67.5B / +$136.2B par = 49.5%, coverage incomplete; borrower-side 109-filer median 0% is the original panel result, the original limited-panel result, not system breadth. Do not relabel either as complete system breadth. No new primary-data research is necessary to repair the consequence.
 
 ## Exact planned path perimeter
 
@@ -105,3 +105,7 @@ No edits to historical reports, immutable Kernel commands, FHLB copies/snapshots
 6. Recheck owner discovery and exact Git paths at write/commit; stop on identified competing owner. Canonical integration commit precedes inbox moves. PROME receives exact diff/check evidence and supplies its independent counterexample before repair is called fixed. Full closeout waits for PROME's explicit final ping.
 
 Checkpoint request: PROME independently reads this exact committed plan and records its disposition in the existing WQ-414 ruling/receipt. REGINALD waits for the evidenced checkpoint before editing the alarm. No further Will decision is requested for the approved scope.
+
+## Plan checkpoint consumed
+
+PROME read the original plan at `474e09d66` and recorded P1 in ruling commit `e71a0fff617d077a76f03860133d621dfef08af5`. Applied its exact median replacement above. Keep the documented matched-filer panel; no new size exclusion or panel calculation. One plan read; no second plan round. WALTER notice also names its May cache's EARLY-CRISIS and erroneous 3 sess. Implementation proceeds under that committed checkpoint; result read remains pending.

@@ -2,6 +2,8 @@
 
 *Built 2026-10-10 (Sat ~20:3x ET) on Will's direction: "consolidate it all into one centralized area. Even if we just copy the data/files over there." Owner: REGINALD. **Re-check this map at any append, or on 2026-11-07 (the Q3 Call Report run), whichever is first.***
 
+**Alarm-history caveat (2026-10-11):** the 2026-10-10 reports, copied proposals and row snapshots retain their dated, as-made EARLY-CRISIS discussion. Those sections describe the pre-ruling letter; current operation is REVIEW under `registry/NOTES.md` §REG-T-06. Never use a preserved copy to grade today's consequence.
+
 **Start here.** Everything the fleet has on the Federal Home Loan Banks (FHLBs) is either IN this folder or listed below with its path. Two kinds of file live here:
 
 - **Canonical (edit here):** `reports/`, `verification/`, `data/KEY_PRIMARY_TABLES.md`, `sources/SOURCES.md`, this README.
@@ -11,7 +13,7 @@
 
 | # | Question | Where it stands (2026-10-10; re-check) | Read |
 |---|---|---|---|
-| Q1 | **Is FHLB borrowing a sign of regional-bank stress?** (`REG-T-06`: advances >$700B ×3 quarters = "EARLY-CRISIS") | **No, as currently measured.** The H1-2026 rise (+$136.2B) was commercial banks (+$121.4B), about half of it four very large banks; credit unions and savings institutions shrank (−$13.7B); 106 mid/small SEC filers +$2.3B. Q3 likely FELL (nowcast ≈ $770B). As lettered the alarm fires ~10/29 anyway → **WQ-414 (Will, due 10/24).** | `reports/…_Q2_composition…` · `reports/…_Q3_nowcast…` · `verification/…` §Key primary figure |
+| Q1 | **Is FHLB borrowing a sign of regional-bank stress?** | **WQ-414 option B approved 10/11: REVIEW**, REVIEW after >$700B on 3 consecutive official quarterly advances; exit <=$650B on 2 official quarters. Before escalation: top-four growth contribution + qualified matched SEC-filer borrower median. Missing/incomparable breadth stays explicit; no breadth cutoff or automatic crisis inference. Procedure: `registry/NOTES.md` §REG-T-06. Official run remains 2 of 3 through Q2; debt nowcast excluded. The 10/10 composition evidence is dated and incomplete; no system-wide borrower median. Original question row → `archive/WQ414_operating_snapshot_2026-10-11.md`. | `registry/NOTES.md` §REG-T-06 · `reports/…_Q2_composition…` · `reports/…_Q3_nowcast…` |
 | Q2 | **What is inside the total?** | By borrower type at 6/30/26: commercial banks 56.4% · insurers 24.9% · credit unions 9.1% · savings institutions 8.2%. Insurer dollars are a record ($202.8B) but their share fell from 27.0% at Q1. | `verification/…` · `data/KEY_PRIMARY_TABLES.md` |
 | Q3 | **The insurer channel (Athene, Delaware Life) and its bank links** | Real, owned by **SHADE** (insurers) / **BROCK** (private credit). Losses in an insurer failure land mainly on policyholders and guaranty funds; the FHLB's protection there rests on **state** law and holding the collateral, not the federal §10(e) lien. Bank links are small and named: Citizens $450M revolver to Delaware Life (status after YE2025 unknown) · Truist and Fifth Third paused Delaware Life sales · WAL = 13% of FHLB San Francisco's book (YE2025). | `verification/…` ledgers B and C · `data/KEY_PRIMARY_TABLES.md` |
 | Q4 | **Is the 2023 lifeline tighter for a weak bank?** | **Unknown (inference only).** FHFA AB 2024-03 (active) tells FHLBanks to lend on the member's condition, not just collateral; the FHLBanks' own Council calls it "procyclical". **No public evidence** of an actual pullback; FHFA-OIG calls member credit risk "abated" for FY2026. | `verification/…` ledger C (R1–R3) |
@@ -48,7 +50,7 @@
 | Date | What |
 |---|---|
 | Thu 10/15 · Fri 10/16 | Fed H.4.1 (discount window) · H.8 (small-bank borrowings, week of 10/7): Q5 |
-| **Sat 10/24** | **WQ-414 due: Will re-letters `REG-T-06` or not** |
+| **Sun 10/11 ruling; result read pending** | **WQ-414 option B approved; REG-T-06 REVIEW encoded.** Independent result read + explicit closeout precede completion; original 10/24 decision deadline is superseded. |
 | ~Thu 10/29 (estimate) | Office of Finance Q3 combined advances; grade against the ≈ $770B nowcast (a miss >$40B ⇒ check FHLBank liquidity drawdown) |
 | early–mid Nov | FHLBank Q3 10-Qs (top-borrower tables); Athene Q3 10-Q; OF monthly debt file for October |
 | 2026-11-05 · 11-07 | FFIEC token expiry (Will) · Q3 Call Report run (per-bank FHLB advances) |

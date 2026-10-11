@@ -213,7 +213,7 @@ v1 scored these without instruments. They are real channels; they are **not mine
 | Federal layoffs / DC | **LABOR** | Claims **203K** [w/e 8/22, refreshed 8/27] — ⚠️ the "direction turned" framing is **retired**: the up-drift stalled (198→200→212→207→203, level −4K). LABOR's read is unchanged and is the operative one: **low-fire freeze, not employment transmission**. |
 | Consumer credit | **CARL** | — |
 | Geography (FL / TX) | **CORAL / MARCO** | FL small-tier card CLOSED 4-of-4 REVERT (8/10). |
-| Funding / FHLB | **REGINALD + BOND** | System advances **$810.7B** [6/30]; `REG-T-06` at **leg 2 of 3** on a sustain-3-quarters spec — does **not** fire; fires on the Q3 print if >700 (**nowcast ≈ $770B**, 10/10, `research/FHLB/reports/2026-10-10_FHLB_Q3_nowcast_from_OF_debt.md`). |
+| Funding / FHLB | **REGINALD + BOND** | `REG-T-06`: REVIEW after >$700B on 3 consecutive official quarterly advances; exit <=$650B on 2 official quarters. Before escalation: top-four growth contribution + qualified matched SEC-filer borrower median. Missing/incomparable breadth stays explicit; no breadth cutoff or automatic crisis inference. Procedure: `registry/NOTES.md` §REG-T-06. Official run 2 of 3 through Q2; live level → STATUS. Debt nowcast excluded. BOND's gate unchanged. |
 | Rates / AOCI | **BOND** | 30Y 5.28%; `DFII10` 2.41 = ~96.7th pct of its own history. AOCI reinclusion nets to **capital RELIEF** for Cat III/IV, phase-in to 2032 — see `CALENDAR.md`. |
 | Muni | *unowned* | ⚠️ v1 scored this channel; **no live instrument exists on this desk.** Dropped rather than carried on a Feb-vintage impression. |
 

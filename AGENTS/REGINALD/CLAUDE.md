@@ -225,7 +225,7 @@ Boot 9/2 measured **3 boot-mandated reads over the 54,250 B cap** (ROADMAP 218% 
 
 | Condition | Target | Priority |
 |-----------|--------|----------|
-| FHLB advances >$700B | PROME, LIQUID | 🔴 |
+| `REG-T-06` REVIEW (> $700B ×3 official quarterly advances; both breadth measures before escalation, `registry/NOTES.md` §REG-T-06) | PROME, LIQUID | 🟡 REVIEW; no automatic crisis inference |
 | KRE <$60 | ALL | 🔴 |
 | Tier 1 bank capital raise | PROME | 🔴 |
 | Multiple Tier 1 banks miss earnings | PROME | 🔴 |
@@ -275,7 +275,7 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 
 | Metric | Threshold | Implication |
 |--------|-----------|-------------|
-| FHLB Advances | >$700B | Early crisis |
+| FHLB Advances (`REG-T-06`) | >$700B ×3 official quarterly prints; exit <=$650B ×2 | REVIEW after >$700B on 3 consecutive official quarterly advances; exit <=$650B on 2 official quarters. Before escalation: top-four growth contribution + qualified matched SEC-filer borrower median. Missing/incomparable breadth stays explicit; no breadth cutoff or automatic crisis inference. Procedure: `registry/NOTES.md` §REG-T-06 |
 | KRE | <$60 | Acute stress |
 | WAL | <$78 | WAL price stress (`REG-T-02`); **cause NOT pre-attributed**, attribute at the fire *(re-labelled 2026-10-10; was "Hidden CRE thesis accelerating")* |
 | Claims (from LABOR) | >300K | All ORANGE → RED |
