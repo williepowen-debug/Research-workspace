@@ -219,7 +219,7 @@ The two desks' assembled Citizens lending baselines differ. REGINALD routed the 
 
 ## POSITION
 
-No trade was placed by PROME. The QQQ Oct-09 755P disposition remains unconfirmed; current broker evidence governs holdings. WQ-418 is PASSED, with no entry authorized. The Sunday option screen is not an executable quote.
+Fidelity evidence received10/11 reconciled:18rows, $33,284.88 total; $12,705.17 money-market cash plus$80.28 pending. Exact capture/quote time UNKNOWN; Robinhood not supplied. Oct9 remaining QQQ755P sold net$361.94, QQQ750C sold$237.34 (already booked), USO150C sold$0.99 (corrects earlier worthless report). WQ347/397 evidence supplied and closed; D69+$53.54 remains unexplained. New QQQ Oct12 755C x1 expires Monday; new USO Oct14 150C x2 Wednesday. C5 cards commissioned to existing TERRY (L685/L686), owner runtime permission still pending; working orders UNKNOWN. QQQ Oct15 745P x1/740P x4 remain. TLT82P x1, HBAN16P x2 and TBT10 retain Wednesday management clocks; no new trade ruling. No trade placed by PROME; WQ418 PASSED. [Broker evidence](data/2026-10-11_broker-capture-TRANSCRIPTION.md).
 
 ## WATCH
 

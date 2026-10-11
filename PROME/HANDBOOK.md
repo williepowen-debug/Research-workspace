@@ -1,12 +1,14 @@
 # HANDBOOK.md — the hand-written half of **THE HELM** (Will's page; renamed from "Operator Handbook" on his word 8/21 — repo filename kept to avoid reference churn)
 
+**Broker update received2026-10-11:** Fidelity evidence received10/11 reconciled:18rows, $33,284.88 total; $12,705.17 money-market cash plus$80.28 pending. Exact capture/quote time UNKNOWN; Robinhood not supplied. Oct9 remaining QQQ755P sold net$361.94, QQQ750C sold$237.34 (already booked), USO150C sold$0.99 (corrects earlier worthless report). WQ347/397 evidence supplied and closed; D69+$53.54 remains unexplained. New QQQ Oct12 755C x1 expires Monday; new USO Oct14 150C x2 Wednesday. C5 cards commissioned to existing TERRY (L685/L686), owner runtime permission still pending; working orders UNKNOWN. QQQ Oct15 745P x1/740P x4 remain. TLT82P x1, HBAN16P x2 and TBT10 retain Wednesday management clocks; no new trade ruling. [Source](data/2026-10-11_broker-capture-TRANSCRIPTION.md).
+
 **Owner:** PROME. Rendered by `PROME/tools/will_handbook.py` (regenerated at Standard+ closeouts alongside the brief and dashboard). The live sections on the page — Waiting on you · The clock — are GENERATED from WILL_QUEUE/DOCKET via the brief's own parsers and are never written here. **This file is the manual + the curated priorities. Plain language; every claim dated; update when a convention changes, not per-session.**
 
 ## Top priorities
 
 **2026-10-11 17:41 EDT — current priorities:**
 - The bank-funding alarm repair and both earlier follow-up commissions are complete. WQ-418 is PASSED and WQ-420 is approved prospectively. TERRY’s encoding is pending runtime permission; independent verification and new closeout follow. [Ruling and execution record](proposals/2026-10-11_wq418-420-RULED.md).
-- Broker evidence still needs to settle the QQQ sale/expiry outcome. This session changed no position. Current obligations and dates are generated below from the queue and docket.
+- Broker evidence received10/11 resolves the Oct9 sales and Oct1 evidence gap; WQ347/397 closed. The new QQQ755C expires Monday10/12; USO150C x2 expires Wednesday10/14. Exact quote time and working orders remain unknown; TERRY card delivery pending runtime permission.
 - Monday's owner work and Tuesday's card/USO refresh remain at their existing clocks; the next boot starts from SCRATCH and checks owner receipts before launching.
 **Every earlier Top-priorities entry below is dated history, not a current instruction.**
 
