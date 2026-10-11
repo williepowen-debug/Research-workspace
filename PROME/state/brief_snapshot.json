@@ -10,12 +10,12 @@
   "War + Europe + Russia + housing": "elev"
  },
  "docket": {
-  "2026-10-10": "WQ-371 ENCODE",
   "2026-10-12": "\ud83d\udfe1 `PROME/tools/will_brief.py`",
   "2026-10-13": "FDIC POSTS THE NANO BANC PURCHASE-AND-ASSUMPTION AGREEMENT (Sunwest Bank)",
   "2026-10-14": "WQ-353 LEG-2 LETTER REVIEW (GATE-FALCON-001 leg 2, PROVISIONAL \u226535% Tanke\u2026",
   "2026-10-15": "OSPREY WQ-276 SUCCESSOR",
-  "2026-10-16": "FORUM-5 W1 opacity enumeration DUE"
+  "2026-10-16": "FORUM-5 W1 opacity enumeration DUE",
+  "2026-10-17": "WQ-373 PHASE 1"
  },
  "gates": {
   "GATE-BRENT-COT-35B": "LIVE",
@@ -64,11 +64,11 @@
   "401": "\u2696\ufe0f S1 OWNER-UNCONSUMED LINE \u2014 BUILD IT, AND THREE SCOPE QUESTIONS THE\u2026",
   "403": "\u2696\ufe0f A NEW STANDALONE GATE ON OTIC (Blue Owl Technology Income Corp, CI\u2026",
   "404": "\u2696\ufe0f LIQUID's SWAP-LINE FIX IS IN \u2014 NAME ONE READER (WQ-398 (a), your w\u2026",
-  "409": "\u2696\ufe0f VIOLET's CHEAP-TAIL ALERT IS OPEN 4 OF 4 ON THE 10/9 CLOSE (VIX 14\u2026",
   "410": "\u2696\ufe0f RETIRE VIOLET's COR1M FIRST-TELL (KB-VIO-322)? \u2014 you set it 8/10;\u2026",
   "411": "\u2696\ufe0f SPINE AUDIT #16 \u2014 SAY THE WORD (last run 10/2; the stamp is eight\u2026",
   "412": "\u2696\ufe0f REG-07 (SSB NPL migration >0.5% from substandard; 68% [3/5]; Q2\u2013Q3\u2026",
   "413": "\u2696\ufe0f WAKE THE FIVE REMAINING DARK DESKS TODAY, BEYOND THE FOUR-PER-BOOT\u2026",
-  "414": "\u2696\ufe0f REG-T-06 (FHLB system advances >$700B for 3 quarters \u21d2 \"EARLY-CRIS\u2026"
+  "418": "PRE-CPI CARD RETURN \u2014 accept TERRY\u2019s PASS recommendation? Candidate S\u2026",
+  "420": "VLO calculation method \u2014 adopt TERRY\u2019s prospective precision/window w\u2026"
  }
 }

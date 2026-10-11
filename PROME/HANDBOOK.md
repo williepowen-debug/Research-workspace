@@ -4,6 +4,12 @@
 
 ## Top priorities
 
+**2026-10-11 16:00 ET — Sunday closeout:**
+- The bank-funding alarm repair and both follow-up commissions are complete. The pre-CPI card recommends PASS (WQ-418); the separate VLO calculation-method proposal is WQ-420. Neither recommendation is your ruling.
+- Broker evidence still needs to settle the QQQ sale/expiry outcome. This session changed no position. Current obligations and dates are generated below from the queue and docket.
+- Monday's owner work and Tuesday's card/USO refresh remain at their existing clocks; the next boot starts from SCRATCH and checks owner receipts before launching.
+**Every earlier Top-priorities entry below is dated history, not a current instruction.**
+
 **2026-10-08 16:54 ET — Thursday evening closeout (desktop):**
 - **Tomorrow, your hand, three lines expire Friday:** the remaining QQQ Oct-9 755 put (you sold one of the two today at $8.36; the other was about $7.40 in the money at the close — TERRY's rule is never to let an in-the-money put run into the close, since the IRA cannot carry a $75,500 assignment); the new QQQ Oct-9 750 call you bought today at $1.56 (no card; about $2.40 out of the money at the close — if QQQ closes above 750 it exercises into about $75,000 of QQQ against about $11,400 of cash, which the account cannot fund, so sell it before the close whatever it is worth); and the USO Oct-9 150 call (not sold today; about $2.40 out of the money; TERRY's 3:00 pm stop stands — exercise would mean $15,000 of USO against that same cash, not fundable, so it is sold at the bid or at the stop, never held through the close). You also sold one of the two Oct-15 745 puts at $6.06; the other and the four 740 puts keep their Wednesday-after-CPI card.
 - **Friday's desk reads, none needing your word:** HANS grades the UK 30-year close against 6.00% (after-close quotes sat under it); BROCK reads the car-dealer bridge filing; NEXUS grades its first credit prediction; VULCAN's GPU-rental panel; BRENT's weekly positioning print; LIQUID's dealer-positioning leg. BOND's auction read already ran tonight: the 30-year sold cleanly on its rules, the highest yield at a 30-year auction since August 2000, and the Treasury's $6 billion buyback filled in full.

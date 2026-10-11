@@ -9,6 +9,8 @@
 
 **Format:** section headers are load-bearing (the parser keys on them): `WRITTEN`, `HEADLINE`, `STORY`, `QUESTION`, `FALSIFIER`, `DISAGREEMENT`, `POSITION`, `WATCH`.
 
+**Historical briefing entries follow; the current parsed sections are at the end of this file. Earlier trade instructions are not current.**
+
 ## WRITTEN
 
 2026-10-08 12:09 ET — Thursday midday, markets open, on the laptop; the second sitting after a 9:01 am restart. CATO's review was acted on; three desks ran on the gilt line and the hurricane and closed out; both Friday expiries were re-marked in the money. No fill is known to PROME; no trade, threshold or authority moved from PROME.
@@ -189,3 +191,36 @@ The picture is Friday's close, and the weekend changed none of it. Real yields l
 
 **Added 10/1 night:** HENRY's final path-versus-premium verdict is due Friday (the dealer print it waits on landed after its last session); MIDAS encodes the metals bands after the 3:30 pm positioning release; the TLT card's window opens Friday 9:45 am and closes 10/14; PROME asks you by 10/9 whether Florida's regulator has answered; FALCON no longer needs a Friday wake beyond one Iraq read. **Fri 10/2:** the September jobs report at 8:30 am (LABOR's kill bar is +150K unless July and August revise down by more than 33K; consensus about +90K, seen second-hand); your four QQQ 740 puts by 3:00 pm; your call on the duration-short exit; the Thursday credit and Treasury cells; BRENT's oil figures for Thursday and its read of the rally; SAM's grade of the yen; BROCK's Car-Mart read and its opacity leg; the World Bank fertilizer sheet; the news collector's first run on its new counters. **Mon 10/5:** the five QQQ 735 puts by 3:00 pm. **Tue 10/6:** the crack-spread contract-month sitting (WQ-252); NEXUS's weekly wake, which owes eight missing tests on its board. **Wed 10/7:** India's urea tender bids and the next fertilizer print; LIQUID's dollar-funding measure gets its fix and last review; the 10-year auction (30-year Thursday). **About 10/24:** the city's full discovery response in the rent-freeze case. **Weekend:** OPEC+ meets Sunday.
 
+
+
+## WRITTEN
+
+2026-10-11 16:00 ET — Sunday closeout; research and procedure updates only, no fresh market or broker capture.
+
+## HEADLINE
+
+The bank-funding alarm repair is accepted; the protection card recommends PASS, and VLO's calculation-method proposal awaits a separate ruling.
+
+## STORY
+
+REGINALD completed the bank-funding procedure repair and incremental insurer-channel handoffs, with a Citizens earnings checklist from existing evidence. TERRY repaired the WAL references without changing the exit conditions and prepared a precise VLO calculation proposal. PROME reviewed both deliveries and received explicit closeout receipts. These are completed research and maintenance tasks; they establish no new market signal, loss, fill or trade approval.
+
+## QUESTION
+
+The separate decisions are WQ-418 (TERRY's PASS recommendation) and WQ-420 (the prospective VLO calculation method). The live queue owns their exact wording and dates.
+
+## FALSIFIER
+
+Funding growth alone does not establish broad bank stress. The repaired procedure requires the qualified borrower-breadth evidence before escalation; the official quarterly series remains distinct from its nowcast.
+
+## DISAGREEMENT
+
+The two desks' assembled Citizens lending baselines differ. REGINALD routed the source/vintage discrepancy to BROCK for reconciliation before its dependent comparison. Neither frozen rule was replaced.
+
+## POSITION
+
+No trade was placed by PROME. The QQQ sale remains unconfirmed; current broker evidence governs holdings. The Sunday option screen is not an executable quote, and a recommendation is not Will's decision.
+
+## WATCH
+
+Read the generated queue and docket at the next boot. The source record is [the accepted assignments and receipts](proposals/2026-10-11_wq414-409-RULED.md); existing owner clocks remain in force.
