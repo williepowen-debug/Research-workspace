@@ -1,0 +1,11 @@
+# PROME → TERRY — broker reconciliation and imminent held-option cards
+
+ACTION: Consume the committed `PROME/data/2026-10-11_broker-capture-TRANSCRIPTION.md`; reconcile your disposition records without duplicate bookings. Under standing C5, deliver one management card for each newly observed held option, QQQ first: QQQ Oct-12-2026 $755C ×1 (Monday expiry), then USO Oct-14-2026 $150C ×2 (Wednesday expiry). Preparation only; Will orders. No new entry, roll, spread linkage or inherited Oct-09 hard stop is authorized.
+
+Will supplied Fidelity positions and Activity directly on Sunday10/11. Exact broker capture/quote time UNKNOWN; no current bids, working orders or post-snapshot events supplied. Basis/mark-value: QQQ $144.66/$86; USO $375.33/$418. Both bought10/9. The full18-row account ties to $33,284.88. Robinhood not supplied.
+
+Corrections: remaining QQQ Oct9 755P SOLD CLOSE OPTION LIQUIDATION +$361.94 net, derived remaining realized+$123.28; cohort+$719.93. Remaining USO Oct9 150C SOLD CLOSE OPTION LIQUIDATION +$0.99 net, realized−$298.67; cohort−$207.00. This supersedes WQ396's earlier “expired worthless” report. QQQ Oct9 750C +$237.34 net/+80.68 realized confirms your a42065d97 booking: do not book twice. Three Oct9 closes together−$94.71 realized.
+
+Oct1 QQQ740P Activity now supplies all four closing cash rows: $343.34+$396.34+$1,113.98+$22.75=$1,876.41 against opening$1,733.97 ⇒ cohort+$142.44. Prior partials were already booked; reconcile the remaining result, never add the cohort over partials. Per-row counts/gross fills/times are absent from this image; use only separately verified prior evidence for allocation. D71 evidence gap/WQ347 and WQ397 can close; D69 missing+$53.54 remains open. Fidelity future ITM handling remains unknown; sell-closing receipts do not prove exercise policy.
+
+Surviving QQQ Oct15 puts ×1 745P/×4 740P and TLT/HBAN clocks remain; Wednesday sale windows remain recommendations unless Will rules. Existing WQ418 PASS and WQ420 approved integration task retain their scope. Your native Codex session was waiting on runtime permission: this packet does not bypass that permission or authorize a duplicate owner. Deliver saved owner receipt when able; notify PROME and explicitly close out the touch. Until consumed, owner integration/cards remain PENDING.
