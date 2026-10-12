@@ -41,3 +41,5 @@ PROME current thread: `01a131cf-1c7d-7900-9dcf-d98af587e290`, confirmed from thi
 Brief defect: the initial assignment omitted PROME's return thread address. SHADE identified the omission. The committed return-address addendum and four accepted queue sends supply it; actual return notification remains separate from queue acceptance.
 
 Return-route notices to all four existing IDs were accepted by `codex queue`; exact receipts are in `2026-10-12_laptop-orchestration-return-routing.json`. These are coordination updates to the same assignments, not new research touches or lifecycle requests. MIDAS, YURI and WALTER results remain in progress at this checkpoint; their source work is left with the owners.
+
+SHADE return notification received directly in PROME's current thread and recorded at2026-10-12 21:37:34 UTC. It names the verified SHADE thread, result28e568687 and return-address commitd1f922500; this establishes actual use and consumption of the return route, beyond queue acceptance. The result was already consumed above. No repeat research, assessment grade or lifecycle closeout follows from this receipt; L673 remains PARTIAL.
