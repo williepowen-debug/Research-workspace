@@ -41,7 +41,8 @@
 - [2026-07-04 s2] **Bluerock = Bluerock Total Income+ (now BPRE), not "Bluerock Homes."** PIK loans real ($160M@13.5% + $86M@14%); first-loss equity ~$488M; its NAV mark leads RaDD credit. Trade press can confirm a figure while misnaming the entity — verify both. [KB-197/198]
 - [2026-07-06] **Sterling Bay: one loss (Lincoln Yards, foreclosed, 320K SF), one PAR exit (Pacific Center, full repayment per Q4'25 Mgmt Comments).** Grep our own quarterly extracts before banking a severity claim from trade press. [KB-199]
 - [2026-09-24] **Use pdfplumber layout mode for FDIC PDFs with tables** (`.venv` has pdfplumber; no poppler/fitz). pdfminer plain text scrambles table columns and moves row notes — it caused the Dec 18 / Boston misattribution. `extract_text(layout=True)` keeps rows readable; the Q2 10-Q is 69 pp / 2,875 layout lines.
-- [2026-10-08] **RaDD maturity history:** original 4-year term from Aug-2022 → stated maturity **2026-08-26**; "Fifth Modification" (effective 8/26, signed 9/30–10/1, filed 10/2) → **2026-10-09** [Citi 10/6 via SA/Bisnow — single-source terms; OZK CCO confirms short extensions "routinely occur"]. Citi's own words: "OZK has done this before (short duration extensions) with other sponsors." [KB-243]
+- [2026-10-12] **OZK 8-K can disclose an unnamed credit before the quarterly call:** identify by largest credit + San Diego + $915M + bridge dates; funded anchor can change. FDIC 12019 furnished October 12 reports agreement October 9; index system-add October 11 is a different timestamp.
+- [2026-10-08] **RaDD maturity history (superseded as current maturity by October-9 execution → December 2029):** original 4-year term from Aug-2022 → stated maturity **2026-08-26**; "Fifth Modification" (effective 8/26, signed 9/30–10/1, filed 10/2) → **2026-10-09** [Citi 10/6 via SA/Bisnow — single-source terms; OZK CCO confirms short extensions "routinely occur"]. Citi's own words: "OZK has done this before (short duration extensions) with other sponsors." [KB-243]
 - [2026-07-06] **Square Mile Capital = Affinius Capital** (2023 rebrand); OZK holds $95M of the Affinius-originated 777 Industrial note. [KB-203]
 - [2026-07-06] **LLM-sourced KB rows can garble primary figures** (KB-117 vs Atrium primary) — treat Conf one notch worse when Source is an LLM output. **Date a third-party report by its citations, not its label** (Atrium said "2026"; citations stop Sep-2025).
 - [2026-07-18] **OZK is a beta/range name** — the Nov'25 low was beta to the Oct'25 NDFI-contagion selloff, and the Sep'26 −6.1% was mostly sector (Fed hike, financials selloff). Check the cohort's move before attributing a price move to own-credit. [KB-215]
@@ -54,38 +55,23 @@
 
 ## Session Notes
 
-⚠️ **Open question:** what replaced the RaDD bridge at its **Fri 10/9** maturity — a multi-year extension with new money (A-path evidence), another bridge, or default/forbearance? And will Will rule **P-OZK-6** (a stopgap is NOT an "executed extension" for OZK-09) before the 10/21 call makes the reading outcome-contaminated? *Carried: does OZK report memo item 3 from the debt-on-debt book only (TODO R4)?*
+⚠️ **Open question:** can the Q3 call/10-Q supply a RaDD-attributable recognition amount or valid upper bound for OZK-09? The bridge outcome is established; the accounting leg is not. Execution evidence must travel to the held-position review even while the row stays OPEN.
 
-**CHANGES SINCE:** *(leave blank — next boot populates via boot.py)*
+**CHANGES SINCE:**
 
-### LAST SESSION (2026-10-08 Thu — PROME `prome-fc` wake, WQ-391 item 3; laptop; Claude Code, claude-opus-5-5)
-- **<$45 band graded FIRED on the 10/6 close $44.58** (10/7 $43.56; two routes agree). The letter's only consequent (🔴 to REGINALD + PROME) was discharged two sessions late: REGINALD packet, PROME memo, SIGNALS row, WALTER routing packet.
-- **Cause search, 12 legs** (thread §2): every primary reachable was quiet (FLNG, EFR, EDGAR, releases, ratings). **Found at the secondary level: the Citi 10/6 note on the RaDD Fifth Modification** — maturity 8/26 → **10/9**, signed 9/30–10/1. Terms single-source; the bridge's existence is issuer-corroborated (CCO to Bisnow). Attribution of the −4.31% day: INFERRED. The BPRE webinar was after the close.
-- **Zero grades/weights/thresholds/conviction moved.** Proposed **P-OZK-6** (Will-gated, not applied). Corrected the record: the 8/26 maturity was bridged, not quietly extended (STATUS, PLAYBOOK, INDEX). KB +243/244 → 244/37.
-- **Inbox 1+1 → 0:** WALTER SIG-W-20261008-003 (`board_log.tsv` created — first row) · PROME Fidelity capture → `POSITIONS.md` LIVE (Nov-20 $40P ×4, no card; G2 discharged — the Aug-21 legs are absent from the capture). `.consumed.tsv` created.
-- **REGINALD b92113ed0 consumed + reconciled:** 154%/78% = ALLL basis (reproduces); "Seattle office sold at 58%" vs our "marked to an offer" — REGINALD to confirm; 95–100% scope = the 3 Q2 transfers.
-- → `research/threads/2026-10-08_BAND_FIRE_CAUSE_RADD_STOPGAP.md` · memo `PROME/inbox/2026-10-08_from-OZK_band-fired-cause-radd-stopgap.md`.
+### LAST SESSION (2026-10-12 — Will launch, L635; OpenAI Codex, GPT-6 exposed, exact variant/session ID UNKNOWN)
+- Explicit root/desk boot reads completed; corrections rc0. Sandbox DNS failure recovered by authorized network escalation. Boot found **FDIC FLNG 12019**, read all 3 pages, preserved PDF/text/index + dated market receipt.
+- **WQ-395 ENCODED 83aad459e** from committed ruling d28131cb3; actual October-9 multi-year/new-capital execution recorded separately afterward. Recognition attribution guard prevents an unsupported FALSE/zero-loss grade.
+- Thesis **v1.6** + CHANGELOG: RaDD near-maturity catalyst materially disconfirmed; original invalidation letters and numerical priors/weights unchanged. Prior Q2 HIGH conviction carries review caveat; old model explicitly pre-outcome.
+- D7/L635 outcome complete; R3 $87M date resolved from primary; D3/L520 carries accounting, draw roll-forward and capital-provider questions. KB 245–247; INDEX/KB_INDEX synced. LIFE_SCI has dated RaDD overlay; other data historical.
+- Required deliverables: `research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md`, PROME completion memo, TERRY held-position evidence, WALTER routing packet. Disk delivery is not recipient consumption; cross-runtime messaging unavailable.
+- Boot pull deferred under root Before pulling (DAEDALUS modified files + BRENT untracked data outside OZK); commit locally and defer push. Others' residue untouched. Full persistence receipt in delivery memo.
 
-### PRIOR SESSIONS (one line each — detail in `git log -p -- AGENTS/OZK/MEMORY.md`)
-- **10/2** (`prome-70`, L463): FLNG rc 0 ⇒ sub-notes reset HAPPENED, uncontradicted; Q3 date CONFIRMED 10/20 AMC / call 10/21 (OZK release 9/30 — FLNG omits press releases); query A `when:7d "IQHQ"` ADOPTED; regional-bank calendar 10/2–10/16 filed for PROME.
-- **10/1** (`prome-0c`, L126): indenture read ⇒ coupon ≈6.19%, drag ≈+$12.3M/yr; R3 lane phrases IQHQ + Campus at Horton adopted, BPRE declined; L126 RESOLVED.
-- **9/27** quiet catch-up + CRE-transmission leg + RaDD severity label fixed (50–65%, $275–360M) · **9/24** Q2 10-Q full read, L181 LEGITIMATE, CATO OZ1–4, Dec-18 = Baltimore.
+### NEXT SESSION — existing obligations
+1. **CHECK-BY 10/14:** C1 Campus at Horton leasing check.
+2. **Before 10/20 AMC:** D3 Q3 scoring card; RaDD recognition/valid bound, 9/30 rating/past-due, pre-paydown funding roll-forward, redraw budget and future capital obligations. **10/20 print / 10/21 08:30 ET call = L520**.
+3. TERRY consumes held-position evidence; WALTER routes primary outcome/corrections. No new broker capture received; no option quote or order from this desk.
+4. Early-Nov 10-Q/Call Report; **FFIEC JWT expires 11/5**. November 2–December 22 sub-notes call-notice watch unchanged.
+5. Carry queue → TODO: R1 reserve re-derivation, R4 MI3-population, R5 marks, C2 county instrument, C3 Aimco, C4 comps, C5 Affinius; tooling T1; P-OZK-1/4/5 still gated. **P-OZK-6 is done**.
 
-### ARMED FOR NEXT WAKE (set 2026-10-08 — no live pane will re-ping)
-1. **On/after Fri 10/9 — RaDD bridge maturity read (TODO D7):** a sixth modification, another bridge, default/forbearance, or silence. Sources: OZK/Citi statements, Bisnow, SD Business Journal, recorder (browser). Default/forbearance language = 🔴 REGINALD/BROCK/PROME.
-2. **CHECK-BY Wed 10/14 — TODO C1 Campus at Horton leasing check.**
-3. **Before Tue 10/20 after close — TODO D3 Q3 scoring card** (new legs: RaDD term, RaDD 9/30 rating + past-due, P-OZK-6 status); then the print **10/20 AMC / call Wed 10/21 8:30 ET** = the RaDD report-back + DOCKET L520 W1–W14 (CHECK-BY 10/31).
-4. **Nov 2 → Dec 22 — sub-notes 1/1/2027 call-notice window:** `flng_watch.py` + a press search.
-5. **~early Nov — Q3 10-Q** (VERIFY ≈6.19%) · **FFIEC JWT expires 11/5 (Will)** before the ~Nov 1–10 Call Report pull.
-6. Price lines: **<$40 band = $3.56 / 8.2% below the 10/7 close** (→ REGINALD, PROME, FORGE). Will's Nov-20 $40P sits there (TERRY's; C5 card by 11/18).
-
-### NEXT SESSION — open queue (priority order; CATO 9/24: evidence before restructuring)
-1. Armed items 1–3 above.
-2. **TODO R1** — re-derive the $150-300M reserve-build estimate on the Q2 roster + SM concentration (INFERRED; no grade moves).
-3. **TODO T1** — boot.py INBOX: add the `inbox/WALTER/` lane.
-4. **TODO R2** subdomain refresh, one file at a time with a checkpoint (Will offered 9/27, not yet approved).
-5. Carried: C3 Aimco docket · C4 severity comps (Spur deed-in-lieu) · C5 Affinius (UNVERIFIED EVENT) · R3 $87M date · R4 MI3-population · P-OZK-1/4/5/6 Will-gated · charter lines 13/17/19/157/177 stale (Will-gated; offered 9/24).
-
-⛔ **Standing:** D1/OZK-salvage is **RULED-CLOSED.** Do not re-present, re-litigate or propose a successor. Any OZK expression is TERRY-built and Will-approved; Will's 10/7 Nov-20 $40P line is his own, carded (or not) by TERRY.
-
-*Prior session notes (8/28 integrity sweep, 8/31 window-close sweep) → `SWEEP_2026-08-28.md`, `research/threads/IQHQ_AUG_WINDOW_CLOSE_SWEEP.md`, `git log -p -- AGENTS/OZK/MEMORY.md`.*
+⛔ D1/OZK-salvage remains RULED-CLOSED. TERRY builds any card; Will owns orders. Do not read prediction OPEN as a hold/roll instruction.

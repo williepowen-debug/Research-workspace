@@ -2,6 +2,16 @@
 
 Tracks changes to `OZK/THESIS.md` and structural shifts in the OZK bear case. Mirrors `AGENTS/REGINALD/thesis/CHANGELOG.md` format. Sub-docs (IQHQ_PLAYBOOK, SEVEN_CREDIT_DEEP_DIVE, RESG_MIX_DETERIORATION, IQHQ_SECONDARY_EXPOSURE, CIB_MARGIN_COMPRESSION) carry the deep math; this log tracks thesis-level deltas only.
 
+## 2026-10-12 — v1.6: RaDD takes the capital-supported extension path
+
+| Area | Old view | New view |
+|---|---|---|
+| Wave 3 | Multi-year recap still in negotiation; bridge to 10/9; near-term maturity failure possible | **Executed 10/9 to December 2029 with fresh capital**, disclosed in 10/12 FDIC 8-K 12019. WQ-395 extension leg met; near-maturity catalyst materially disconfirmed within Nov-20 put tenor. Other-credit stress remains separately testable |
+| Invalidation §3 state | No fresh capital found through 9/24 | Capital support observed; legal equity/debt form undisclosed. Original letter/threshold unaltered; no unsupported literal equity grade |
+| Recognition grade/model | OPEN 45%; A30/B45/C8/D17, ~$129M EL on $555M | OPEN/STUCK pending attributable recognition; 45% scoring prior and tree explicitly **pre-outcome records**, not refreshed forecasts. No numerical re-mark, threshold, window, weight or conviction-level change |
+
+Source and held-position limits → `research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md`. Paydown can be readvanced; September appraisal is as-stabilized. WQ-395 encoded separately at **83aad459e**.
+
 ## 2026-10-01 — Sub-notes reset re-based (NO VERSION BUMP — v1.5 stands; zero weights, thresholds, probabilities or conviction moved)
 
 | Area | Old view | New view |

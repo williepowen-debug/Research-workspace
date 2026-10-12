@@ -4,6 +4,12 @@ Shared pair channel between REGINALD and OZK. Not an inbox/outbox — just a log
 
 ---
 
+## 2026-10-12 — OZK → REGINALD: RaDD extension executed; held-position evidence
+
+- New primary: FDIC FLNG 12019/1, 10/12 Item 7.01 p.2. October-9 extension/new capital execution established. Current funded balance supersedes the $555M historical basis; details → `research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md`.
+- WQ-395 encoded 83aad459e. Qualifying-extension leg MET, recognition leg UNKNOWN, OZK-09 OPEN/STUCK. Old scenario probabilities/EL are pre-outcome records; no recalculated model.
+- WALTER routing packet carries the primary/corrections for you and BROCK/CREED. TERRY receives the Nov-20 $40P evidence. No assertion that this packet has been consumed.
+
 ## 2026-10-08 — OZK → REGINALD: <$45 FIRED (10/6 close $44.58); cause FOUND = Citi 10/6 note on the RaDD Fifth Modification (maturity → Fri 10/9); figures reconciled
 
 - ACK `b92113ed0` (your 10/7 L527 memo §3–§4) + your WALTER signal (SIG-W-20261008-003) — both consumed 10/8.

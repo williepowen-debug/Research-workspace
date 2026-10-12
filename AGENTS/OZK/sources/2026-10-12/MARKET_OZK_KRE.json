@@ -1,0 +1,102 @@
+{
+  "OZK": {
+    "name": "Bank OZK",
+    "days": 7,
+    "history": [
+      {
+        "date": "2026-10-02",
+        "close": 46.71,
+        "volume": 1056700
+      },
+      {
+        "date": "2026-10-05",
+        "close": 46.59,
+        "volume": 1267100
+      },
+      {
+        "date": "2026-10-06",
+        "close": 44.58,
+        "volume": 4393700
+      },
+      {
+        "date": "2026-10-07",
+        "close": 43.56,
+        "volume": 3652500
+      },
+      {
+        "date": "2026-10-08",
+        "close": 44.86,
+        "volume": 2373200
+      },
+      {
+        "date": "2026-10-09",
+        "close": 44.41,
+        "volume": 1504900
+      },
+      {
+        "date": "2026-10-12",
+        "close": 44.86,
+        "volume": 300875
+      }
+    ],
+    "high": 46.71,
+    "low": 43.56,
+    "start": 46.71,
+    "end": 44.86,
+    "null_bars": [],
+    "missing_sessions": [],
+    "holiday_gaps": [],
+    "complete": true,
+    "period_change_pct": -3.96
+  },
+  "KRE": {
+    "name": "Regional Banks ETF",
+    "days": 7,
+    "history": [
+      {
+        "date": "2026-10-02",
+        "close": 70.78,
+        "volume": 18654200
+      },
+      {
+        "date": "2026-10-05",
+        "close": 70.39,
+        "volume": 9793600
+      },
+      {
+        "date": "2026-10-06",
+        "close": 70.07,
+        "volume": 10550800
+      },
+      {
+        "date": "2026-10-07",
+        "close": 68.89,
+        "volume": 20355600
+      },
+      {
+        "date": "2026-10-08",
+        "close": 69.59,
+        "volume": 18920300
+      },
+      {
+        "date": "2026-10-09",
+        "close": 69.01,
+        "volume": 15111600
+      },
+      {
+        "date": "2026-10-12",
+        "close": 69.36,
+        "volume": 1319563
+      }
+    ],
+    "high": 70.78,
+    "low": 68.89,
+    "start": 70.78,
+    "end": 69.36,
+    "null_bars": [],
+    "missing_sessions": [],
+    "holiday_gaps": [],
+    "complete": true,
+    "period_change_pct": -2.01
+  }
+}

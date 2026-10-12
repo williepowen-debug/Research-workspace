@@ -1,0 +1,60 @@
+
+########################################################################
+#                    OZK BOOT SEQUENCE — v0.2 (§8)                     #
+#                   Monday, October 12, 2026  10:37                    #
+########################################################################
+
+========================================================================
+  LIVE PRICES  (FORGE fetch.py)
+========================================================================
+  📡 SOURCE: LIVE 2026-10-12  (fetch.py rc=0)
+  OZK  $   44.86  (+1.01%)  [2026-10-12]   🔴 <$45 BAND (→REGINALD/PROME)
+  cohort: KRE +0.5% · WAL +0.7% · ZION +0.5% · EGBN +0.8% · SSB +0.3% · CFG +0.8% · VLY +0.4% · FLG -0.2%
+
+========================================================================
+  FDIC FILINGS  (flng_watch.py — cert 110)
+========================================================================
+  FLNG-WATCH 1 NEW: 1 filing(s) after id 11981 — read each; a sub-notes redemption/refi is a 🟠 REGINALD signal
+    2026-10-11  FLNG 12019/1  Form 8-K re Item 7.01 - dated 10.12.2026.pdf
+        https://securitiesfilings.fdicconnect.fdic.gov/api/instflng/12019/attachment/1
+
+========================================================================
+  CATALYST COUNTDOWN  (120-day horizon; ~ = modeled date)
+========================================================================
+  ⏰ 🔴  2026-10-21  (  9d /   7 trading)  Q3 2026 earnings (Tue 10/20 after close) + call Wed 10/21 8:30 ET [OZK release 9/30] — mgmt's self-set "~92 day" RaDD report-back
+     ⚪ ~2026-10-31  ( 19d /  14 trading)  UNVERIFIED EVENT — Affinius "$2.7B bond maturity": issuer/amount/date unsourced (TODO C5); not actionable
+     🟡  2026-11-02  ( 21d /  15 trading)  Sub-notes Jan-1-2027 par-call holder-notice window opens (10-60d; closes 12/22) — flng_watch + press
+     🟠  2026-11-05  ( 24d /  18 trading)  FFIEC JWT EXPIRES — renewal is a Will action (PWS login); blocks the Q3 pull
+     🟠 ~2026-11-07  ( 26d /  19 trading)  Q3 2026 Call Report (REPDTE 20260930) — LOG-ONLY, Z6 never re-grades
+     🔴 ~2027-01-19  ( 99d /  71 trading)  Q4'26 print — resolves OZK-02/03/04; closes OZK-09 Option-2 window (Q4 prints Jan 16-20, 2023-26)
+
+========================================================================
+  STANDING WATCH  (resolve at next quarterly print)
+========================================================================
+  • NCO ≤55bps kill-line (Invalidation §2) — Q2'26 printed 0.69%, ABOVE the kill line (OZK-05 TRUE)
+      [as of Q2 2026 · resolves 2026-10-21, 9d]
+  • Past-due >$550M or >2.0% — Q2'26 $298M/0.92% (OZK-06 FALSE, improved from $465M/1.41%)
+      [as of Q2 2026 · resolves 2026-10-21, 9d]
+  • IQHQ specific reserve — none at Q2 (OZK-08 FALSE); mgmt self-set “~92d” report-back → Q3 call
+      [as of Q2 2026 · resolves 2026-10-21, 9d]
+
+========================================================================
+  INBOX  (unprocessed)
+========================================================================
+  1 unprocessed:
+    - 2026-10-08_from-PROME_WQ-395-RULED-P-OZK-6-stopgap-is-not-an-executed-extension.md
+
+========================================================================
+  STALENESS
+========================================================================
+  STATUS.md        4d old   [basis: git-commit]
+  CALENDAR.md      4d old   [basis: git-commit]
+
+  ledgers (workbook/*.tsv, via scripts/ledger_staleness.py):
+    ⚠️  [OZK] 1 stale ledger(s) behind STATUS: CALL_REPORT_SERIES.tsv (+62d behind, held (attention 18d))
+    ℹ️  [OZK] 1 declared-quiet ledger(s) not counted stale (Cadence: declaration, WQ-147): PREDICTIONS.tsv (EVENT-DRIVEN re-pull 2026-08-28)
+
+========================================================================
+  Boot brief complete. Full detail: --verbose
+========================================================================
+
