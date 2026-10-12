@@ -3,7 +3,9 @@
 **Latest broker reconciliation 2026-10-11:** WQ347/397 CLOSED from supplied Activity; WQ396 corrected to SOLD CLOSE+$0.99, prior tap retained as history.18Fidelity rows tie$33,284.88; quote time UNKNOWN. Below pickup/reconciliation paragraphs are dated history. Source: `PROME/data/2026-10-11_broker-capture-TRANSCRIPTION.md`.
 **Queue reconciliation September 9:** WQ151/159/162/164 and WQ196–199 moved out of OPEN on recorded rulings; evidence and original rows → PROME/reports/2026-09-09_dashboard-attention.md. Pending owner delivery is separate from a new approval.
 
-**Latest direct approval:** 2026-10-12 — Will approved OZK’s bounded post-extension review, existing Q3 scoring card and Horton check, verbatim “Okay approved go ahead and direct OZK”. Scope: `AGENTS/OZK/inbox/2026-10-12_from-PROME_APPROVED-post-extension-review-Q3-card.md`; owner execution is tracked in DOCKET/ORCH_LOG. No trade execution or automatic numerical re-mark authorized.
+**Latest direct assignment:** 2026-10-12 — Will will launch REGINALD to review morning regional-bank price movement. Verbatim request and bounded scope: `AGENTS/REGINALD/inbox/2026-10-12_from-PROME_Will-approved-morning-regional-bank-tape.md`. Launch/owner acceptance not yet verified; this is research, not trade authority.
+
+**Earlier direct approval:** 2026-10-12 — Will approved OZK’s bounded post-extension review, existing Q3 scoring card and Horton check, verbatim “Okay approved go ahead and direct OZK”. Scope: `AGENTS/OZK/inbox/2026-10-12_from-PROME_APPROVED-post-extension-review-Q3-card.md`; owner execution is tracked in DOCKET/ORCH_LOG. No trade execution or automatic numerical re-mark authorized.
 
 **Earlier direct approval:** 2026-10-12 — Will approved BRENT’s bounded energy-opportunity assignment for TERRY, verbatim “Okay approved.  You are good to orchestrate BRENT with your recommended directions”. Scope and deliverable: `AGENTS/BRENT/inbox/2026-10-12_from-PROME_APPROVED-energy-opportunities-for-TERRY.md`; receipt/implementation tracked in DOCKET and ORCH_LOG, not a new pending Will ask. No trade execution or automatic-monitor authority.
 
