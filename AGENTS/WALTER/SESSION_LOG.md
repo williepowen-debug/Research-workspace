@@ -1,3 +1,7 @@
+## 2026-10-12T18:00:51Z — second approved DEWEY return, PARTIAL
+
+REQ-DEWEY-20261010-001 fullreturn/preregistration read;5source stubsverified. SIG016/COR16 and4handoffs retain conditionalexportpermission vs deliverednetincrement, matchedvendor-minute source and officialsettle gaps. LedgerPARTIAL, October14deadline unchanged; exactpacket filing awaits authorcommit. No newcommission, watcher, grade or trade.
+
 ## 2026-10-12T17:50:36Z — late boot intake, approved DEWEY storage return
 
 L566 storage-only report1cdd6aacb read whole,6stubs verified, nobackstop needed. SIG015/COR15 corrects oldmedian/horizon/ceiling while preserving HANS checkpoint/fixedresolver/mark. HistoricalDR4commissionstatus unchanged; broadgaps persist. Incomingpacket filedexactly, consume:WALTER declaration in this commit. No newcommission/grade/trade.

@@ -3,7 +3,7 @@ Runtime: OpenAI Codex; native thread `01a13104-a88a-7df3-afa2-2dcefdc805e3`; roo
 
 ## STATUS
 
-**Fresh reboot checkpoint:** Will requested boot and continuation. Previous closing handoff and repair commits are now published. Signals011–015 and18newhandoffs across reboot/continuation;29/29bookmarks assessed and original stage consumed. Full41owner-header scopes read; localCodex overview inspected. Explicit chartercap and canonicalREADS transcription still owed. This session is active; previous closure below is historical. No new order, owner launch or monitoring commission. Boot receipt `research/2026-10-12_reboot/BOOT_RECEIPT.md`.
+**Fresh reboot checkpoint:** Will requested boot and continuation. Previous closing handoff and repair commits are now published. Signals011–016 and22newhandoffs across reboot/continuation;29/29bookmarks assessed and original stage consumed. Full41owner-header scopes read; localCodex overview inspected. Explicit chartercap and canonicalREADS transcription still owed. This session is active; previous closure below is historical. No new order, owner launch or monitoring commission. Boot receipt `research/2026-10-12_reboot/BOOT_RECEIPT.md`.
 
 ## CHANGED
 
@@ -15,14 +15,14 @@ Completed pre-continuation changes are conserved verbatim in `archive/LAST_COMPL
 
 ## RESULT
 
-BOARD1338.63 required handoff rows (prior51origin-proven;12new written, publication pending). Previous closing-session receipt below is dated historical context; current boot receipt governs new coverage. Previous count:45 required handoff rows; CARL/RED/PROME/TERRY exemptions follow canonical rules. Fresh origin reference `3d61c6af6380019de7643fe03a2d988701e07743` and delivery reconciliation establish listed publication/delivery states below. A delivered file is not consumed; only dated owner evidence establishes specific integration. Pre-maintenance session-closeout doctor:0HIGH/5MED (historical LABOR_DOWN residual; two amendment-note IDs;20 historical note rows; degraded newsweep;82 aged unconsumed). These are surfaced, not silently cleared. Latest maintenance checks: scoped receipt/read-cap/archive/weekday/basis/version PASS; doctor REVIEW0HIGH/5MED; ordinary ledger nudge REVIEW; READS UNKNOWN/stale. Outputs: `research/2026-10-12_closeout-improvements/full-checks/`. Every manual duty has an outcome or evidence limit in this existing receipt. No global procedure PASS or current-market clearance claimed.
+BOARD1339.67 required handoff rows (prior51origin-proven;16new written, publication pending). Previous closing-session receipt below is dated historical context; current boot receipt governs new coverage. Previous count:45 required handoff rows; CARL/RED/PROME/TERRY exemptions follow canonical rules. Fresh origin reference `3d61c6af6380019de7643fe03a2d988701e07743` and delivery reconciliation establish listed publication/delivery states below. A delivered file is not consumed; only dated owner evidence establishes specific integration. Pre-maintenance session-closeout doctor:0HIGH/5MED (historical LABOR_DOWN residual; two amendment-note IDs;20 historical note rows; degraded newsweep;82 aged unconsumed). These are surfaced, not silently cleared. Latest maintenance checks: scoped receipt/read-cap/archive/weekday/basis/version PASS; doctor REVIEW0HIGH/5MED; ordinary ledger nudge REVIEW; READS UNKNOWN/stale. Outputs: `research/2026-10-12_closeout-improvements/full-checks/`. Every manual duty has an outcome or evidence limit in this existing receipt. No global procedure PASS or current-market clearance claimed.
 
 ## GAPS / OWED
 
 - Main workspace pull and WALTER push deferred because foreign work was active. Read-only fetch succeeded; separately approved Research-Intake ff-only pull succeeded. The automatic approval review rejection of the first intake sync was resolved by Will’s explicit intake-only approval; main checkout unchanged by a pull.
 - X authorization gap RESOLVED at2026-10-12T16:21:08Z after Will-approved browser reauthorization. Live bookmark read and automatic token renewal both PASS;577 processed keys and pending stage byte-identical.The repair diagnostic did not stage/mark. Fresh reboot staged29keys; continuation now assessed29and marked the exact set; no pending stage. Evidence: `research/2026-10-12_x-reauthorization/verification.json`; receipt: `outbox/2026-10-12_x-authorization-restored.md`.
 - Capability update 2026-10-12T15:25:52Z: native Codex thread `01a13087-79e5-7e92-9b7a-65a266b0cb1b` is now observed from CODEX_THREAD_ID and installed CLI queue is supported. Exact PROME-pair notification receipt is saved separately; model tools alone did not establish CLI absence. Cross-runtime fleet census and Telegram reply tool/chat_id remain unavailable/unverified. Availability UNKNOWN; current-chat FLASH alert delivered and PROME pointer committed, Telegram notification remains owed where an authorized transport exists. No DARK inference or duplicate spawn on tool absence.
-- Four missing event-ledger cadence/check headers are repaired after actual review; non-comment event rows conserved. Remaining ordinary routing-ledger nudge warnings stay visible: this bounded procedure/transport work adds no kill, route or delivery event. REGISTRY focus refreshed from scoped owner headers; no fake row or freeze. Corrections checker0 unreceipted named WALTER rows; no new receipt invented. Two existing research flags remain open:CARL-DR-1 PARTIAL dueNovember13 and REQ-DEWEY-20261010-001 OPEN dueOctober14. No returned DEWEY report inferred. Evidence: `research/2026-10-12_closeout-improvements/cadence-review.json`.
+- Four missing event-ledger cadence/check headers are repaired after actual review; non-comment event rows conserved. Remaining ordinary routing-ledger nudge warnings stay visible: this bounded procedure/transport work adds no kill, route or delivery event. REGISTRY focus refreshed from scoped owner headers; no fake row or freeze. Corrections checker0 unreceipted named WALTER rows; no new receipt invented. Two existing research flags remain open:CARL-DR-1 PARTIAL dueNovember13 and REQ-DEWEY-20261010-001 PARTIAL dueOctober14. No returned DEWEY report inferred. Evidence: `research/2026-10-12_closeout-improvements/cadence-review.json`.
 - READS live attestation remains stale; WALTER re-enumeration and fresh signed candidate prepared for PROME transcription (91reader rows/29BASIS, ten newREAD/six newBASIS). Candidate validator truthfully reports the explicit70,223Blocalcharter breach. Live byte basis MATCH23 is not execution/cap clearance. Prior L174 label WITHDRAWN: that docket row is unrelated Forum4 successor quarantine, not this attestation. Explicit mode also flags rootCLAUDE/PROMEgeneratedview rotation tier; those owners retain remedies. Concrete charter migration candidate is not activated; plan/proof in boot-gap report.
 - Newsweep degraded by one RSS timeout (3/4 succeeded), Google News57/57; recent lane runOctober11 19:18:17Z. Feed not dead; no collector-death escalation. Synced alert scan0 new; seen34keys+0/−0 reconciled after dispositions.
 - Iran full-ladder source coverage remains partial. UKMTO/IMO access recovered later, but footage/Poten graph/current cargo volumes and some ladder limbs remain unknown. UKMTO5 total losses vs FALCON3 qualifying losses needs owner definitions; no two-loss/gate inference.
@@ -38,6 +38,12 @@ Existing expiry-card decisions remain with Will/TERRY: QQQ755C October12 (today�
 WQ401 set sub-question remains Will’s (dueOctober14). WQ388 unattended WALTER remains undecided forOctober17 review. Optional subscription and optional one-line step7h encode remain carried, not renewed asks. Prior broker questions are answered by the October11 capture and booked in ANVIL/FORGE and TERRY’s owner state; PROME’s administrative row acceptance is a separate record, not a broker-truth gap re-raised here.
 
 ## FOLLOW-UP
+
+**Later DR1 arrival:** DEWEY CARL-DR-1 Q2 packet read only; report/stub review and filing are next normalintake. Broaderworkstream remainsPARTIAL toNovember13/Q3; no suppression or CARL kill grade inferred.
+
+**Post-boot intake:** CARL’s new four-observation catch-up packet arrived after the original recovery scope; read, not yet routed/filed. Preserve `inbox/2026-10-12_from-CARL_consumer-catchup-BofA-SCF-basis-tariff-tail.md` for normal next intake (BofA/SCF/tariff/Epiq; owner persistence pending).
+
+**Diesel return read/routedPARTIAL:** SIG016/COR16; fiveDEWEYstubs verified. October14deliver-by and physical/instrument gaps remain. Incomingpacket filing awaits authorcommit; hash/source states `research/2026-10-12_boot-gap-completion/diesel-return-proof.json`.
 
 **Late DEWEY return consumed:** L566/HNS-07 storage-only rerun1cdd6aacb read; six source stubs verified. SIG015/COR15 corrects Oct29/79d median, conditional estimates and ceiling overclaim; HANS Oct15/fixedNov1 resolver unchanged. Broad DR4 gaps remain. Receipt: `research/2026-10-12_boot-gap-completion/dewey-return-proof.json`.
 
@@ -94,7 +100,7 @@ SessionACTIVE, bootPARTIAL. Current continuation report governs. Historical rece
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-12T17:50:36Z",
+  "as_of": "2026-10-12T18:00:51Z",
   "publication": [
     {
       "commit": "3cacce310",
@@ -179,13 +185,17 @@ SessionACTIVE, bootPARTIAL. Current continuation report governs. Historical rece
     {
       "commit": "4f9ad8eb6",
       "state": "published"
+    },
+    {
+      "commit": "7a7334af5",
+      "state": "pending"
     }
   ],
   "delivery": {
     "signal_date": "20261012",
-    "total": 63,
+    "total": 67,
     "delivered": 51,
-    "note": "12newhandoffs written; prior51origin-proven. Delivery is not consumption."
+    "note": "16newhandoffs written,51priororigin-proven; delivery doesnotestablishconsumption."
   },
   "push": {
     "all_walter_commits_on_origin": false,
@@ -228,6 +238,11 @@ SessionACTIVE, bootPARTIAL. Current continuation report governs. Historical rece
         "path": "AGENTS/WALTER/research/2026-10-12_boot-gap-completion/dewey-return-proof.json",
         "sha256": "edb2c3039ad20a1da63f149b7349bdd120920628fdccbb6dddbb6ff31e22d70e",
         "note": "Committed approvedstorage-onlyreturn read; all6source stubs verified; broadercommissionnotclosed."
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-12_boot-gap-completion/diesel-return-proof.json",
+        "sha256": "29598897e906eb0ffea0bb1a96293aa6b7d7ba86d2bbe61ace1d1731049a4f75",
+        "note": "Wholeapprovedpartialreturn read;5source stubsverified; deliveredincrement/instrumentgaps retained; sourcecommit/filingpending atread."
       }
     ]
   },
@@ -247,7 +262,8 @@ SessionACTIVE, bootPARTIAL. Current continuation report governs. Historical rece
     "scope": "Will-directed continuation of boot gaps, session ACTIVE",
     "claim": "BootPARTIAL;29bookmarks assessed/consumed,41header scopes read; explicit chartercap and manifesttranscription remain",
     "evidence": "research/2026-10-12_boot-gap-completion/REPORT.md",
-    "runner": "CL9 accepted narrowfix; no further development; realized time savingsunproven"
+    "runner": "CL9 accepted narrowfix; no further development; realized time savingsunproven",
+    "coverage": "29originalbookmarks assessed/consumed;41first30-line scopesread; READS/transcription/chartercap and retainedsource/instrumentlimits. TwoapprovedDEWEYreturns reached; dieselfullrequestPARTIAL."
   }
 }
 END_CLOSEOUT_RECEIPT -->

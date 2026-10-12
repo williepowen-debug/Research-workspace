@@ -22,3 +22,9 @@ Late intake: approvedDEWEY L566/HNS-07 return arrivedduringchecks andwasconsumed
 Validation: doctor0HIGH/5MED (existing historical taxonomy/notes, degradedfeed and agedunconsumed); BOARD/index1338reconciled; receipt PASS on localorigin51/63; R1writecompliance PASS; weekday/specversion PASS; Xmark exactset PASS; archivepayload/candidate reconstruction PASS. Explicitread-cap FINDING and liveREADS UNKNOWN are retained. LAST_COMPLETION rotated below22,785B. Selectedchecks do notcertifyboot/marketclearance.
 
 Staged whitespace notices are limited to terminalblank lines in exact archived/copied payloads. Those bytes intentionally preserve the source segments and theirCRC/reconstruction proofs; they were not stripped to silence a formatter. No operationalcode changed.
+
+Second lateintake: REQ-DEWEY-20261010-001 refreshed16,133Breturn/preregistration read,5source stubsverified,0backstops. SIG016/COR16 plus4handoffs retain reported500kt exportexception versus UNKNOWNdeliveredincrement, correctedminute windows and legal/physical/instrumentlimits. RequestPARTIAL andOctober14deliver-by retained. Incomingpacket filing remains pendingauthorcommit; no foreignsource staged. Coreboot-recovery commit7a7334af5; finalreceipts/dieselfollow-up separate.
+
+Intake boundary: CARL’s new four-observation packet arrivedafterthe originalboot-gap recoveryandwasread; normalrouting/filemove remainsnextintake, explicitly carried inLAST_COMPLETION. It wasnot silentlyconsumed/dismissed. Original29bookmark assessment andbootread recovery arecomplete.
+
+Later DR1Q2return packetread only; wholebody/stub review remainsnormalnextintake, broaderworkstreamPARTIAL toNovember13/Q3 retained. Latestdoctor0HIGH/17MED: prior5 plus12corehandoffs committedbutnotonorigin. Fouradditional016handoffs arestillwritten; publicationstatus staysseparate. NofalsePASS issued toremove these warnings.

@@ -1,0 +1,34 @@
+{
+  "read_at": "2026-10-12T17:58:42Z",
+  "source": "AGENTS/DEWEY/output/2026-10-12_russia-diesel-net-supply-delivery.md",
+  "source_sha256": "bdd257400a1a802f5fc599db28429b91dcd8f60217347a7c8b9d8570e2ab5a3d",
+  "packet": "AGENTS/WALTER/inbox/DEWEY/2026-10-12_russia-diesel-net-supply_handoff.md",
+  "packet_sha256": "23ebc5b8546d6cb85d19340e4ac29bf5067ecf69f6f6871fe528d7a2432705d6",
+  "source_commit": "pending atread",
+  "stubs": {
+    "BRENT": [
+      "AGENTS/BRENT/inbox/2026-10-12_from-DEWEY_russia-diesel-net-supply.md"
+    ],
+    "TERRY": [
+      "AGENTS/TERRY/inbox/2026-10-12_from-DEWEY_russia-diesel-net-supply.md"
+    ],
+    "OSPREY": [
+      "AGENTS/OSPREY/inbox/2026-10-12_from-DEWEY_russia-diesel-net-supply.md"
+    ],
+    "YURI": [
+      "AGENTS/YURI/inbox/2026-10-12_from-DEWEY_russia-diesel-net-supply.md"
+    ],
+    "HANS": [
+      "AGENTS/HANS/inbox/2026-10-12_from-DEWEY_russia-diesel-net-supply.md"
+    ]
+  },
+  "verified": 5,
+  "recreated": 0,
+  "commission_state": "PARTIAL",
+  "deadline": "2026-10-14",
+  "source_report_read_whole": true,
+  "preregistration_read_scoped": true,
+  "packet_filing": "pending authorcommit",
+  "signal": "SIG-W-20261012-016",
+  "correction": "COR-20261012-16"
+}
