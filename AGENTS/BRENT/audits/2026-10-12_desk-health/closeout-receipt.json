@@ -12,11 +12,41 @@
   "L684": "PROME DOCKET physical line684 PENDING independent WQ420 implementation acceptance",
   "primary_refresh": "None at closeout. Last CME retry15:02:30EDT empty. Broker receivedOctober11; exact capture/orders unknown.",
   "closeout_scope": "Saved owner-state writeback and committed owner/PROME receipt verification; no new grade, rule, phase, screen, study or order.",
-  "publication": "Will authorized shared committed train; PROME owns safe push. Final closeout commit and fresh remote confirmation pending.",
+  "publication": "Closeout contentf23f7eed9 locally committed; PROME native notification accepted. PROME handles authorized shared-train safe push. Fresh-fetch remote check at19:16:26Z did not yet include content; final confirmation remains pending at this receipt time.",
   "consumer_check": "No threshold, flip, split or band changed; newer dated survey is not a retraction of the prior survey. No new superseded-figure check triggered at closeout.",
   "memory_check": "No auto-memory written/edited; no new promotion triggered.",
   "thesis_predictions": "v5.12/changelog already committed; no new thesis trigger or due prediction at closeout.",
   "forward_state": "25-event calendar checked; no new discovered catalyst/incident or fresh COT print. Existing dates unchanged.",
   "intake": "One new TERRY packet read/logged; exact original/destination move included in closeout commit.",
-  "prior_validation": "Existing audit74 unit tests passed; no code changed since then. Do not treat this as a new test run."
+  "prior_validation": "Existing audit74 unit tests passed; no code changed since then. Do not treat this as a new test run.",
+  "local_content_commit": "f23f7eed9",
+  "post_writeback_checks": {
+    "calendar_events": 25,
+    "pending_receipts": "clear within text scope",
+    "weekday_files": 5,
+    "archive_payload_hash_matches": true,
+    "one_matching_board_row": true,
+    "core_read_cap_bytes": {
+      "STATUS.md": 22608,
+      "TRADE.md": 23256,
+      "SCRATCH.md": 5128,
+      "NEXUS_BRIEF.md": 23711,
+      "thesis/THESIS.md": 22612
+    },
+    "git_diff_check": "pass"
+  },
+  "notification": {
+    "thread": "01a130f9-9935-7fa2-b5cf-42c41652c9a3",
+    "queue_id": "01a1318a-fcc2-7f82-85c8-ca4d956542c3",
+    "state": "accepted",
+    "consumption": "not established at notification",
+    "transport": "Supported codex queue; sandbox database access failed before queuing, approved escalation succeeded."
+  },
+  "remote_check": {
+    "checked_at": "2026-10-12T19:16:26.990278+00:00",
+    "origin_master": "5305a7b5806381de5c3c0dfc8cabe7cf48c21d41",
+    "content_commit": "f23f7eed9",
+    "ancestor_rc": 1,
+    "state": "not yet on freshly fetched origin at this checkpoint; PROME notified and handling push"
+  }
 }
