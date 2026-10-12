@@ -1,0 +1,271 @@
+{
+  "as_of_utc": "2026-10-12T19:41:09Z",
+  "authority": "Will machine-switch persistence request; PROME handles shared safe-push. CARL window stays open.",
+  "scope": "Existing October12 catch-up/follow-up source inputs only; not a new study or fleet-cache sweep.",
+  "transport": "These raw files are ignored and not included in Git commits/push. Copy exact bytes separately before leaving this machine; verify hashes on destination. Tracked excerpts/results/manifests remain usable without the raw files, but complete source re-extraction/selftest needs the auto HTML inputs. No copy or remote backup of these ignored files is asserted.",
+  "tracked_reproduction_inputs": [
+    "AGENTS/CARL/domain/sources/2026-10-12_catchup/scf2025-extract.zip",
+    "AGENTS/CARL/domain/sources/2026-10-12_catchup/census-benches26.xlsx",
+    "AGENTS/CARL/domain/sources/2026-10-12_catchup/scf-historical-internal.xlsx",
+    "AGENTS/CARL/domain/sources/2026-10-12_catchup/scf-historical-public.xlsx"
+  ],
+  "sender_uncommitted_deliveries": [
+    "AGENTS/CARL/inbox/WALTER/SIG-W-20261012-017.md",
+    "AGENTS/CARL/inbox/WALTER/SIG-W-20261012-018.md",
+    "AGENTS/CARL/inbox/WALTER/SIG-W-20261012-019.md",
+    "AGENTS/CARL/inbox/WALTER/SIG-W-20261012-020.md",
+    "AGENTS/CARL/inbox/WALTER/SIG-W-20261012-025.md",
+    "AGENTS/CARL/inbox/WALTER/SIG-W-20261012-027.md"
+  ],
+  "sender_disposition": "Already read/logged; leave untouched until WALTER commits. This inventory does not stage or archive sender originals.",
+  "files": [
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_catchup/bofa-october2026.pdf",
+      "bytes": 252843,
+      "sha256": "3cc838e2990e21b33f78b9b442e5e49eca10b6b257feae4953f94d3549556f63",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_catchup/census-revisions.html",
+      "bytes": 335597,
+      "sha256": "ca5068f737e321b6aacb7bbd56f907ddfea81b494c1c4d72a22ba60824157839",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_catchup/confidence-september.html",
+      "bytes": 333739,
+      "sha256": "a420e8f58908ebdcb9213a04b5953e4c110fe72e5023841ad914ea9e3433d864",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_catchup/epiq-september.html",
+      "bytes": 156285,
+      "sha256": "9188e8602e9ecadf227a7ab1bbbe881b189a6f6f76d2a159d6ed602246467c16",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_catchup/g19.html",
+      "bytes": 132216,
+      "sha256": "a27c5a2a631c61dbd50ba5362ad808f287b12ef5853cc588ab76c7c940018059",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_catchup/michigan-gas-spending.pdf",
+      "bytes": 759188,
+      "sha256": "f7ce4afd4dd5cf58a889603535cb988e8179965f407cf4ccdd6981ac21ce14f0",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_catchup/michigan-oct-prelim.html",
+      "bytes": 6869,
+      "sha256": "640bb87d5bfc62026c962b438cc1131c66b7ab17099b3f76382e0354f05bfdf0",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_catchup/nyfed-tariffs.html",
+      "bytes": 186321,
+      "sha256": "ad8e95456d6529c32debb659dcd09c8eb1cad8650fb8775f02ba4d3ac68ef0e0",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_catchup/pmms.html",
+      "bytes": 104201,
+      "sha256": "b8c1439210de2b40fcbf54a86f1f4425071545d28bc3eb1253b39e0654010e42",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_catchup/scf-index.html",
+      "bytes": 105695,
+      "sha256": "0c98f205c4a42e6acdc4fe64ab3f7b29182a6ce92beb2975e933bf7e65349d6f",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_catchup/scf26.pdf",
+      "bytes": 10203488,
+      "sha256": "eda4822ea2144b428d3ac60c3a1ddb342d84f24d2410fc4b4d6c48183ec821d8",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/AMCAR2023-2_2025-10-31.html",
+      "bytes": 201264,
+      "sha256": "e2392c9c387702e834ccc4a6e6e5f82eab16df69b2fbe2e031e06cd8d8a3c7d2",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/AMCAR2023-2_2025-10-31_index.html",
+      "bytes": 7538,
+      "sha256": "b9f894503e28667ba72bc07cdc1dd5ef1cd8b6b226947eb89a4f51b666a46a33",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/AMCAR2023-2_2025-11-30.html",
+      "bytes": 195587,
+      "sha256": "1bb8f7ba24c717a253a51682a6e69be621834d55fd6a3c7b45929008975f71fa",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/AMCAR2023-2_2025-11-30_index.html",
+      "bytes": 7538,
+      "sha256": "58ee570bb699802962ce9ac9e87c03d2955eda8a7c6119e5e82185b27c3e1afe",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/AMCAR2023-2_2025-12-31.html",
+      "bytes": 195476,
+      "sha256": "e5daed1de7e38a2b818cb3f52083c8351aa4b438f574b1bd8942560d3d3f1108",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/AMCAR2023-2_2025-12-31_index.html",
+      "bytes": 7537,
+      "sha256": "3e736e6bf4ed55912ef02c089a576d61b1d7b8e9025a896b9e912b43e8647dc7",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/AMCAR2024-1_2026-06-30.html",
+      "bytes": 436923,
+      "sha256": "518ad53a78572c7220755bb2734ea803686d1e937e3429ef46d94e5a4b6f73b6",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/AMCAR2024-1_2026-06-30_index.html",
+      "bytes": 7538,
+      "sha256": "2b8567b0bfc9a2603538628bc302badaa2fa7a4cf43b0cf36aa6f8a91246b516",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/AMCAR2024-1_2026-07-31.html",
+      "bytes": 435498,
+      "sha256": "84979fa4f3980311948fd42ad4b39aa22ff33c4a032638671652b4492aed57de",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/AMCAR2024-1_2026-07-31_index.html",
+      "bytes": 7538,
+      "sha256": "740319f3e566dfccc17fe3fc5b01425820ad57bba6c9b3ed1ea2c5bfb559cb63",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/AMCAR2024-1_2026-08-31.html",
+      "bytes": 448836,
+      "sha256": "75d897875da17cc71641f5f72216d4e66867f863e6b57ecdeb0a8ca844f0a518",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/AMCAR2024-1_2026-08-31_index.html",
+      "bytes": 7538,
+      "sha256": "cb150464e6baec7371170237c061439163da8523d8a51b6787feee55516be935",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/EART2022-2_2026-08-31.html",
+      "bytes": 341441,
+      "sha256": "bb5ef0be02bd70f5292736c2808989861308aa59fb2a37fa653528b6bbd88fc0",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/EART2022-2_2026-08-31_index.html",
+      "bytes": 7488,
+      "sha256": "1bd19d17e300cfab1064efd3e9d7830d431c8d3213db416bff7e39ad2be82c83",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/EART2022-3_2026-08-31.html",
+      "bytes": 341701,
+      "sha256": "7400aea95fe4f89aec50901c7aeffc32c92c0bd6c84a86f5eb85f513088b2a89",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/EART2022-3_2026-08-31_index.html",
+      "bytes": 7488,
+      "sha256": "8c168a20c2ba032a3a59a71afedd3ae13da438a298eeaa072ded81b97a5fe01a",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/EART2023-1_2026-08-31.html",
+      "bytes": 339058,
+      "sha256": "de13c942604d1a43af3f2ea0acff1564e693cc49bbabb67148e8e65114f6115d",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/EART2023-1_2026-08-31_index.html",
+      "bytes": 7488,
+      "sha256": "eef7133cf2646fe3f40652553ea352624a15688d0cc47d0fd2b45454c5e40dd5",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/EART2024-1_2026-03-31.html",
+      "bytes": 338136,
+      "sha256": "577d98857dbb53a2abaeebac41a5d042898df5c3b4b23ad4cf8e9ea813509756",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/EART2024-1_2026-03-31_index.html",
+      "bytes": 7487,
+      "sha256": "c13fa21eb172728fc4fd54f4661e340cfdf829b7e7ebbd4cddbbc77099f2da0e",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/EART2024-1_2026-04-30.html",
+      "bytes": 338388,
+      "sha256": "40cb2294e8860ffe125afdc3713fc32b0bedf01bd5822f8b9d0d98ff0a82eeff",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/EART2024-1_2026-04-30_index.html",
+      "bytes": 7488,
+      "sha256": "64df4e0a29b3a532dd897ab658779101b572e39299f52e7fa737ddea361a0439",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/EART2024-1_2026-05-31.html",
+      "bytes": 337163,
+      "sha256": "f74a60556e0af73f120c9f4547a65fbe65a2300cc91a34e23eeabbd59fbe67a4",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/EART2024-1_2026-05-31_index.html",
+      "bytes": 7488,
+      "sha256": "cdf0bab2aa8af1572c2f669f6c906a0e366a0fd1f5d21ab391f1400a033348c3",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/EART2024-1_2026-08-31.html",
+      "bytes": 340165,
+      "sha256": "255f7c123ba226439af47057874b8569138fd4fa23ac8c96a4d073766231c2a9",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/EART2024-1_2026-08-31_index.html",
+      "bytes": 7488,
+      "sha256": "731ef56c1c1cd4d1232e11eb03156860f39fb598b5761f251c8eb46aae0dbc3f",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/frozen-control.html",
+      "bytes": 339979,
+      "sha256": "c0a3384f86ec376dbe2e2c3d9367eadbe29700913e3b163e50126f6889a833f1",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/gm-amcar.html",
+      "bytes": 145397,
+      "sha256": "2762210a2ed1d8b0b989824d65d55d2f76d8e6380bc9efa93b81e8e6c8920d6c",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/sofi-ir.html",
+      "bytes": 69683,
+      "sha256": "fe4ace76fc0281fc74ea2e493e1a1718456a7514bd6b3e07e02968379bfb34e8",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    },
+    {
+      "path": "AGENTS/CARL/domain/sources/2026-10-12_followup/sofi-q2.html",
+      "bytes": 5383873,
+      "sha256": "f9d4c48e8cdd4148053f1d1ce571a46ebed29793edbbc4ae384df121efa6c823",
+      "git_status": "IGNORED_LOCAL_SOURCE"
+    }
+  ],
+  "file_count": 41,
+  "total_bytes": 22902652
+}
