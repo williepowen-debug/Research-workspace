@@ -1,0 +1,35 @@
+{
+  "read_at": "2026-10-12T17:49:54Z",
+  "source_commit": "1cdd6aacb",
+  "sources": {
+    "AGENTS/DEWEY/output/2026-10-12_dr4-storage-rerun-hns07.md": "d8682c02f496d5a89b881c4b503800fe2edf117d6f3cf4c3ac244919f9c499d6",
+    "AGENTS/WALTER/inbox/DEWEY/2026-10-12_dr4-storage-rerun-hns07_handoff.md": "d17ccf0b9833888f99ebdb896acb4b600a39ff83ca98c4595aff83608f94c94f"
+  },
+  "stubs": {
+    "HANS": [
+      "AGENTS/HANS/inbox/2026-10-12_from-DEWEY_dr4-storage-rerun-hns07.md"
+    ],
+    "BRENT": [
+      "AGENTS/BRENT/inbox/2026-10-12_from-DEWEY_dr4-storage-rerun-hns07.md"
+    ],
+    "AEOLUS": [
+      "AGENTS/AEOLUS/inbox/2026-10-12_from-DEWEY_dr4-storage-rerun-hns07.md"
+    ],
+    "CARL": [
+      "AGENTS/CARL/inbox/2026-10-12_from-DEWEY_dr4-storage-rerun-hns07.md"
+    ],
+    "MARCO": [
+      "AGENTS/MARCO/inbox/2026-10-12_from-DEWEY_dr4-storage-rerun-hns07.md"
+    ],
+    "DAEDALUS": [
+      "AGENTS/DAEDALUS/inbox/2026-10-12_from-DEWEY_dr4-storage-rerun-hns07.md"
+    ]
+  },
+  "verified": 6,
+  "recreated": 0,
+  "historical_commission_status_unchanged": true,
+  "source_report_read_whole": true,
+  "original_correction_read_scoped": true,
+  "signal": "SIG-W-20261012-015",
+  "correction": "COR-20261012-15"
+}

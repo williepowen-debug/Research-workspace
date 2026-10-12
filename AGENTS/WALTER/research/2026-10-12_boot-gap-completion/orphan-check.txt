@@ -1,0 +1,38 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [likely YOURS] PROME/inbox/2026-10-12_from-WALTER_boot-gap-completion.md
+     [not yours]    AGENTS/AEOLUS/inbox/WALTER/SIG-W-20261012-015.md
+     [not yours]    AGENTS/BRENT/inbox/WALTER/SIG-W-20261012-015.md
+     [not yours]    AGENTS/BROCK/inbox/WALTER/SIG-W-20261012-014.md
+     [not yours]    AGENTS/CARL/domain/sources/2026-10-12_catchup/
+     [not yours]    AGENTS/CARL/domain/sources/2026-10-12_scope-review.md
+     [not yours]    AGENTS/CARL/scripts/data/CONSUMER_PULSE.tsv
+     [not yours]    AGENTS/CARL/scripts/data/HOUSING_PULSE.tsv
+     [not yours]    AGENTS/DAEDALUS/STATUS.md
+     [not yours]    AGENTS/DAEDALUS/inbox/WALTER/
+     [not yours]    AGENTS/DAEDALUS/runs/2026-10-09_CHARTER_SPLIT.md
+     [not yours]    AGENTS/DEWEY/inbox/WALTER/SIG-W-20261012-015.md
+     [not yours]    AGENTS/HANS/inbox/WALTER/SIG-W-20261012-015.md
+     [not yours]    AGENTS/HAWK/inbox/WALTER/SIG-W-20261012-013.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-014.md
+     [not yours]    AGENTS/MARCO/inbox/WALTER/SIG-W-20261012-015.md
+     [not yours]    AGENTS/OSPREY/inbox/WALTER/SIG-W-20261012-013.md
+     [not yours]    AGENTS/OZK/research/threads/2026-10-12_AIMCO_AFFINIUS_CHECK.md
+     [not yours]    AGENTS/OZK/research/threads/2026-10-12_IQHQ_FUNDING_AND_MARKS.md
+     [not yours]    AGENTS/OZK/research/threads/2026-10-12_WORKOUT_PUBLIC_OUTCOMES.md
+     [not yours]    AGENTS/OZK/sources/2026-10-12_GAP_PASS/
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261012-013.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20261012-014.md
+     [not yours]    BOARD/INDEX.md
+     [not yours]    BOARD/SIG-W-20261012-013-yandex-vladimir-third-site-outage-http-bots-not-social-accounts.md
+     [not yours]    BOARD/SIG-W-20261012-014-ai-compute-annual-contract-value-duration-mix-not-cost-curve.md
+     [not yours]    BOARD/SIG-W-20261012-015-CORRECTION-dewey-dr4-peak-horizon-conditional-storage-projections.md
+
+🔴 THE FLAGGED FILES LOOK LIKE PACKETS YOU AUTHORED.
+   If you do not commit them they never reach the recipient, and the recipient
+   is never told anything was sent. Committing files you authored into another
+   agent's inbox is the ONE sanctioned exception to the pathspec rule.
+
+   git add <paths> && git commit <paths> -m "WALTER -> <recipient>: <what>"
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

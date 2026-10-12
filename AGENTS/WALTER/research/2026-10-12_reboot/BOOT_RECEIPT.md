@@ -1,3 +1,5 @@
+> **Continuation 2026-10-12T17:45:56Z:** ninepending assessments are nowcomplete;29/29assessed and exact originalstage consumed. Signals013/014 plus6handoffs. All41owner-header scopesread; localCodexoverviewpartial. Explicit70KBcharter breach replaces earliercharter-omitting cap conclusion. READS signedcandidate prepared, canonicalPROMEtranscription pending; priorL174labelwithdrawn. Currentevidence: `../2026-10-12_boot-gap-completion/REPORT.md`. Originaldatedobservations beloware retained ashistory.
+
 # WALTER fresh-session boot receipt — October12,2026
 
 **PARTIAL**, observed2026-10-12T17:05:03Z. Session ACTIVE; user asked to boot and continue, not to close. Runtime OpenAI Codex/GPT-6-family; exact variant UNKNOWN. Native thread `01a13104-a88a-7df3-afa2-2dcefdc805e3` observed through CODEX_THREAD_ID/CODEX_SESSION_ID; root `/home/willi/Research-workspace`, cwd `AGENTS/WALTER`, task `/root`.

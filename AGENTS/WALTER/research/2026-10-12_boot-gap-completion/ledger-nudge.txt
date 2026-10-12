@@ -1,0 +1,8 @@
+⚠️  nudge: [WALTER] STATUS moving without ledgers — 3 ledger(s) behind: REGISTRY.tsv (1 STATUS-write behind), kill_log.tsv (1 STATUS-write behind), route_log.tsv (1 STATUS-write behind) — freeze-or-refresh EACH, or say why not in the commit
+ℹ️  nudge: [WALTER] event-driven: REG_THRESHOLDS_FIRED_LOG.tsv (9 STATUS-writes behind — absence expected by declaration; re-pull attempted 2026-10-12) — confirm the re-pull clock moved
+ℹ️  nudge: [WALTER] event-driven: FALSIFICATION_FIRED_LOG.tsv (9 STATUS-writes behind — absence expected by declaration; re-pull attempted 2026-10-12) — confirm the re-pull clock moved
+ℹ️  nudge: [WALTER] event-driven: DOORBELL_LOG.tsv (6 STATUS-writes behind — absence expected by declaration; re-pull attempted 2026-10-12) — confirm the re-pull clock moved
+ℹ️  nudge: [WALTER] event-driven: corrections_receipts.tsv (3 STATUS-writes behind — absence expected by declaration; re-pull attempted 2026-10-12) — confirm the re-pull clock moved
+ℹ️  nudge: [WALTER] event-driven: DEEP_RESEARCH_FLAGGED_LOG.tsv (3 STATUS-writes behind — absence expected by declaration; re-pull attempted 2026-10-12) — confirm the re-pull clock moved
+ℹ️  nudge: [WALTER] event-driven: CORRECTIONS.tsv (3 STATUS-writes behind — absence expected by declaration; re-pull attempted 2026-10-12) — confirm the re-pull clock moved
+ℹ️  nudge: [WALTER] event-driven: BATCH_MANIFEST.tsv (1 STATUS-write behind — absence expected by declaration; re-pull attempted 2026-10-12) — confirm the re-pull clock moved

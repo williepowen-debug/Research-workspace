@@ -1,3 +1,11 @@
+## 2026-10-12T17:50:36Z — late boot intake, approved DEWEY storage return
+
+L566 storage-only report1cdd6aacb read whole,6stubs verified, nobackstop needed. SIG015/COR15 corrects oldmedian/horizon/ceiling while preserving HANS checkpoint/fixedresolver/mark. HistoricalDR4commissionstatus unchanged; broadgaps persist. Incomingpacket filedexactly, consume:WALTER declaration in this commit. No newcommission/grade/trade.
+
+## 2026-10-12T17:44:53Z — Will-directed boot-gap continuation / light — full deferred
+
+Nine pending bookmark assessments completed; original29keys marked with exact-set proof; new013/014 plus6create-only handoffs. All41first30-line owner scopes read; supported localCodex overview observed, no cross-runtime absence inferred. SignedREADS candidate91rows/29BASIS validated with truthful localcharter breach;PROME transcription pending. L174 mislabel withdrawn. Explicit70,223Bcharter overcap, concrete unactivated split candidate prepared; completed LASTreceipt/change history rotated verbatim withCRC, live duties conserved. Two narrowhelpers closed; no runner development, new commission, owner grade, watcher or trade. Coverage staysPARTIAL; publication/remaining duties LAST_COMPLETION.
+
 ## 2026-10-12T17:14:07Z — Will-directed CL9 correction / light — full deferred
 
 CATO counterexamples reproduced; doctor launch/syntax failures now UNKNOWN, completed finding-count REVIEW preserved;30regressions PASS. Original scope/attestation/time-saving caveats retained. No market/owner grade, watcher, research or trade. No more runner development; observe ordinary use. Reboot coordination receipt saved; notification accepted, not consumption. Publication and current duties LAST_COMPLETION.

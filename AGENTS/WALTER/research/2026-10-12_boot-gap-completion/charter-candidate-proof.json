@@ -1,0 +1,55 @@
+{
+  "source": "AGENTS/WALTER/CLAUDE.md",
+  "source_bytes": 70223,
+  "source_sha256": "0091de857733acf78769ee3894277a6de725a55cdaa0a906f3ce40829c79dec2",
+  "reconstruction_exact": true,
+  "parts": [
+    {
+      "path": "entry-original.md",
+      "lines": [
+        1,
+        59
+      ],
+      "bytes": 9232,
+      "sha256": "18f40858db3e8f62e19215ea3cb8f03c7954f8a56aee387920e2db1e9a4313a0"
+    },
+    {
+      "path": "boot-0-through-6b.md",
+      "lines": [
+        60,
+        80
+      ],
+      "bytes": 11572,
+      "sha256": "c4576a2d5a32b17b33c7ef6c674cbc65da4572a3743400a4587456d2ca55b875"
+    },
+    {
+      "path": "boot-6c-through-9b.md",
+      "lines": [
+        81,
+        109
+      ],
+      "bytes": 20692,
+      "sha256": "747ceeab52d31c8841ba90b26af04d1ee93e19eff5e116c46b9522f8841b51f4"
+    },
+    {
+      "path": "execute-closeout.md",
+      "lines": [
+        110,
+        163
+      ],
+      "bytes": 17775,
+      "sha256": "91a8cf974ea54f4983993b6aacb9d54c7c27c3a3bb6ce866aa4c353f14b5d0d5"
+    },
+    {
+      "path": "rules-memory.md",
+      "lines": [
+        164,
+        204
+      ],
+      "bytes": 10952,
+      "sha256": "50843f4a2f4bf5f60fed2b07ca31f9685ac6cc72be82051a73dcb156755b585f"
+    }
+  ],
+  "entry_candidate_bytes": 9692,
+  "active": false
+}

@@ -1,0 +1,30 @@
+n	id	author	published	disposition	assessment	reference_or_reason
+1	2109581459795415045	FirstSquawk	2026-10-12T09:46:28.000Z	KILL	assessed	Novelty: general supply-squeeze rhetoric; Aramco indexed Oct12 speech supports quote, full direct read timed out; no new asset/volume state inferred.
+2	2109611389660651580	MerruX	2026-10-12T11:45:24.000Z	NO-ACTION	not-assessed	Image read: individual Brent grade151.33/151.35 vs dated BFO131.20/131.22; vendor and observation date absent. Current150 benchmark not established; retain pending basis authentication.
+3	2109656642916643144	InsiderGeo	2026-10-12T14:45:13.000Z	DISPATCH	assessed	SIG-W-20261012-011
+4	2109654321235128700	unusual_whales	2026-10-12T14:36:00.000Z	DUP	assessed	SIG-W-20261010-003; total tranche promise is conditional/global, not US-delivered relief.
+5	2109611980424389012	TheInsiderPaper	2026-10-12T11:47:45.000Z	FOLD	assessed	SIG-W-20261012-011
+6	2109601508530479241	InsiderGeo	2026-10-12T11:06:08.000Z	FOLD	assessed	SIG-W-20261012-011; Ahold primary is separate incident.
+7	2109643161308152064	Polymarket	2026-10-12T13:51:39.000Z	FOLD	assessed	SIG-W-20261012-011; no massive national loss quantified.
+8	2109634420076405167	RealJohnGaltFla	2026-10-12T13:16:55.000Z	NO-ACTION	not-assessed	Media pointer only; thumbnail HTTP403; no content identified. Retain pending.
+9	2109608541577224452	DeItaone	2026-10-12T11:34:05.000Z	DUP	assessed	SIG-W-20261010-003; no new delivered diesel volume from promised tranches.
+10	2109520626528469081	EYakoby	2026-10-12T05:44:45.000Z	NO-ACTION	not-assessed	Yandex traffic/strike pointer: BOARD-1009-006 already contains Yandex; new-site identity and0.4% series not established, retain pending, no bot-count inference.
+11	2109587148315722110	InsiderGeo	2026-10-12T10:09:05.000Z	FOLD	assessed	SIG-W-20261012-011; source full technical/counted evidence recovered by helper.
+12	2109369707258376657	rdd147	2026-10-11T19:45:03.000Z	KILL	assessed	Relevance/Credibility: single attraction peak ticket pricing is not an aggregate services-inflation measure. Historical-largest claim not established; no TLT grade.
+13	2109245844062970108	michaeljburry	2026-10-11T11:32:51.000Z	NO-ACTION	not-assessed	Homebuilder WSJ pointer malformed/unreachable; primary article body not obtained, commentary not a substitute; retain pending.
+14	2108928644114686163	BullTheoryio	2026-10-10T14:32:25.000Z	DUP	assessed	SIG-W-20261008-030 already routes rates-led big-bank drawdowns; image unavailable and exact new global proportions not adopted.
+15	2109337947380085040	paulswaney3	2026-10-11T17:38:50.000Z	KILL	assessed	Relevance: read2 available screenshots; source datedAug21 about July deposition/allegations, denial retained. No new judgment, distressed asset, credit-loss or current catalyst established.
+16	2109484667024105620	DarioCpx	2026-10-12T03:21:51.000Z	NO-ACTION	not-assessed	Urals chart HTTP403; axes/instrument/vintage unknown; retain pending, no price-parity implication adopted.
+17	2109463656937517286	FirstSquawk	2026-10-12T01:58:22.000Z	KILL	assessed	Relevance: generic Japan domestic shorter-budget cruise headline; no quantified exposure to CCL/RCL/NCLH or new registered demand grade.
+18	2109451603665355097	rdd147	2026-10-12T01:10:28.000Z	KILL	assessed	Novelty: AI-generated CoreWeave/Exodus analogy image read; existing neocloud credit coverage SIG-W-20260709-001. Financial comparison/quotes not independently audited; no new measured credit state.
+19	2109454382257602804	RedboxWire	2026-10-12T01:21:31.000Z	KILL	assessed	Relevance: gross seven-day repo headline at unchanged rate; no net withdrawal/injection, state change or peg funding breach established.
+20	2109372790969090457	michaeljburry	2026-10-11T19:57:18.000Z	NO-ACTION	not-assessed	Burry Fannie/Freddie X-native long-form pointer; article body not obtained, trade identity absent; retain pending.
+21	2109429653823996030	FirstSquawk	2026-10-11T23:43:15.000Z	KILL	assessed	Relevance: exploratory regional cooperation/pipeline MOU headline; no financed project, operating capacity or implemented supply change established.
+22	2109183206754746487	cemk_cemil	2026-10-11T07:23:57.000Z	NO-ACTION	not-assessed	Media-only political commentary; image HTTP403; content not identified, retain pending rather than classify inaccessible media as irrelevant.
+23	2109446370046476311	FirstSquawk	2026-10-12T00:49:40.000Z	DUP	assessed	SIG-W-20261010-003 and existing energy-deal coverage; dated tape quotation is not a current mark or independently executed energy ceasefire.
+24	2105857929400533359	DarioCpx	2026-10-02T03:10:29.000Z	DUP	assessed	Oct2 JustDario article body read: familiar crude/product/logistics argument; unsupported engineering/causal claims not adopted. Existing diesel supply/relief work retained.
+25	2109442110508417134	rdd147	2026-10-12T00:32:45.000Z	NO-ACTION	not-assessed	Historical technology headlines image HTTP403; contents/vintage unverified, retain pending.
+26	2109422543794806971	WeatherNation	2026-10-11T23:15:00.000Z	KILL	assessed	Relevance: intentionally flood-tolerant Linq parking-garage visual; no named uninsured asset loss/closure or macro transmission established. Video not obtained; no absence-of-damage claim.
+27	2109373722134011922	unusual_whales	2026-10-11T20:01:00.000Z	DISPATCH	assessed	SIG-W-20261012-012
+28	2109165852578992582	RoundtableSpace	2026-10-11T06:15:00.000Z	NO-ACTION	assessed	System-improvement candidate: github.com/morluto/rea README retrieved, evidence-guided reverse-engineering/reimplementation tool; popularity/performance claims unverified. No installation or new commission.
+29	2109036600260976843	zerohedge	2026-10-10T21:41:24.000Z	NO-ACTION	not-assessed	Compute-cost chart HTTP403 parent; helper DNS/open failed. Axes/unit/source unknown, keep separate from Brookings aggregate scenario; retain pending.

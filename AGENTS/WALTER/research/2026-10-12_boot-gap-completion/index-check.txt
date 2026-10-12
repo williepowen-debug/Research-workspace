@@ -1,0 +1,3 @@
+ID set: 1338 identical
+markers: live rows with a marker 178 · derivable 178 · HAND-ONLY (would be LOST) 0 · derivable-but-unmarked-live (would be GAINED) 1
+CHECK PASS
