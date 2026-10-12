@@ -12,7 +12,7 @@ Authorized intake/routing completed within available access; remaining source/tr
 - Signal005 FLASH: issuer October12 disclosure confirms October9 multi-year extension toDecember2029 with fresh100M; redraw/as-stabilized/recognition/contributor limits travel. OZK packet read and consumed; TERRY owns held-put review.
 - Signal006: own October10 freight card’s closed USO call disposition corrected to broker OPTION LIQUIDATION, not expiry. The October14 calls are separate. Original dated content preserved with additive lifecycle markers; own tanker watch and transcription inference corrected.
 - Signals007–009: all three supplied transcripts read; new Michigan spending-intention evidence, historical SCF distribution detail and recovered UKMTO/IMO primaries. Other claims deduped, corrected or quarantined in TRANSCRIPT_REVIEW. Two batches closed21/21 and3/3.
-- Later normal intake010: OZK L690 Horton comparison qualifier routed to REGINALD/CREED/TERRY. Current occupancy UNRESOLVED, historical credit bid/model not current cash-price or severity proof; owner research stays OZK. Source packet read/dispositioned; processed-move awaits source-author commit, not silently claimed consumed.
+- Later normal intake010: OZK L690 Horton comparison qualifier routed to REGINALD/CREED/TERRY. Current occupancy UNRESOLVED, historical credit bid/model not current cash-price or severity proof; owner research stays OZK. Source author subsequently committed; exact read hash verified, processed-move and consumed declaration complete.
 - Scoped threshold observations saved for all48 owner rows; no new sustained fire established on fetched gradeable series, explicit monthly/qualitative/settlement/access gaps. No owner bands, marks or fire rows changed.
 - Registry refreshed before network summary. Iran history rotation preserved2591bytes verbatim, receipt/hash saved; anchor22681bytes after later primary-access pointer, below rotation stop. Full sweep clock remainsOctober8.
 
@@ -42,7 +42,7 @@ WQ401 set sub-question remains Will’s (dueOctober14). WQ388 unattended WALTER 
 
 ## FOLLOW-UP
 
-**New intake filing duty:** after OZK commits `inbox/2026-10-12_from-OZK_L690-Horton-comparison-disposition.md`, verify the read hash, archive with git-mv and append consumed declaration. Signal010 and its three handoffs are already authored; no repeat comparison research or new direction.
+**Late intake filing completed:** OZK committed the L690 Horton packet during this continuation; exact read hash verified, git-move and declaration complete. Signal010 and its three handoffs retain normal publication/consumption limits; no repeat research.
 
 **Desktop coordination reply (2026-10-12T15:27:00Z):** existing WALTER native thread identified; PROME status packet committed2000b48a5. Supported `codex queue` accepted message01a130b8-a7e7-7421-9d17-0c1380c48b83 for the exact requested thread. Receipt: `outbox/2026-10-12_to-PROME_desktop-coordination-queue-receipt.md`. Status request DONE; prior boot/source/auth/attestation duties remain PARTIAL. No new commission, owner takeover, market signal or consumption inference.
 
@@ -171,8 +171,7 @@ Observed 2026-10-12T15:17:46Z; fresh origin reference `d1f76176ef03a25582aa02bc1
     "CBOE SKEW next eligible barsOctober12\u201314; VIOLET owns",
     "DEWEY REQ-DEWEY-20261010-001 dueOctober14; ledger closure only on handoff",
     "Will/TERRY remaining live expiry-card choices and current broker/order evidence",
-    "Telegram FLASH notification unavailable in this runtime; current chat alerted, PROME packeted; Codex queue coordination available with exact-pair receipt separate",
-    "Archive/declare the read OZK L690 Horton packet after source author commits; verify exact hash, no repeat research"
+    "Telegram FLASH notification unavailable in this runtime; current chat alerted, PROME packeted; Codex queue coordination available with exact-pair receipt separate"
   ],
   "next_review": "2026-10-13"
 }

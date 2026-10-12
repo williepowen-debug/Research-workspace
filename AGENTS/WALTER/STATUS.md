@@ -29,7 +29,7 @@ Routing plus receiving-layer readiness. Domain agents own evidence, state and ju
 
 ## STATE POINTERS
 
-**Later normal intake:** OZK L690 Horton qualifier routed in signal010; current occupancy unresolved, historical credit-bid/model limits preserved. Incoming source packet read/dispositioned; archive awaits its author’s commit, per owned intake receipt.
+**Later normal intake:** OZK L690 Horton qualifier routed in signal010; current occupancy unresolved, historical credit-bid/model limits preserved. Source author subsequently committed the packet; read hash matched and WALTER archived/declared consumption, per owned intake receipt.
 
 Manual source watch: `research/tanker-cost-watch/WATCH.md`, STATE.csv, REVIEWS.tsv. October9 freight retry completed October10; old missing paragraph retained as history. October9 USO call sale disposition corrected separately from October14 calls; current orders remain unverified. Current duties: `LAST_COMPLETION.md`; boot evidence: `research/2026-10-12_boot/BOOT_RECEIPT.md`; transcript review: `research/2026-10-12_boot/TRANSCRIPT_REVIEW.md`.
 
