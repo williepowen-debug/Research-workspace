@@ -4,11 +4,13 @@
 Activity detail lives in commit messages, daytrading/JOURNAL.md, and `memory/auto/`.
 Keep this load-bearing: append a Durable Finding only when it survives the episode.
 
-## Current Session — 2026-10-12T13:18:30-04:00 (fresh context / L694 / OpenAI Codex)
+## Current Session — 2026-10-12T13:46:03-04:00 (direct-Will BNO review / L694 / OpenAI Codex)
 
 Actual session `01a13117-7dae-7a81-ac4e-9aab1d1d1b27`; boot receipt `research/2026-10-12_fresh-context-boot.md` committed5e7924553. Explicit instruction/runtime loading and prior-stage reconciliation complete. No general fleet transport exposed; thread-local collaboration is not owner discovery.
 
 L694 approval1926850f2/amendment1b0c02c29 consumed; Will directly said “okay go ahead.” EGBN early feasibility now saved at `research/2026-10-12_L694-EGBN-feasibility/NOTE.md` with two vendor strips/validation; research PASS, no pricing edge or suitable liquid full-horizon expression. REGINALD initial fb05ce5bb and cleanup verification53f1c1beb/53ea96edd incorporated. Existing loan-outcome disclosure dependency retained. BRENT substantive disposition/final comparison still owed; no repeat MPC/PSX screen. Resultf5a5271fd/packets89d77ba1d locally committed; publication rejected twice by automatic approval review, explicit user payload/destination approval needed. Fresh origin fetch showed both absent; details `research/2026-10-12_L694-EGBN-feasibility/DELIVERY.md`.
+
+Direct Will BNO request completed at `research/2026-10-12_BNO-feasibility/NOTE.md`: shares feasible, economic pricing edge unproved, no current NAV/holdings certification; no in-band option expiry. BRENT8def00781 comparison incorporated, explicitly not formal L694 domain delivery. Two matched price-return windows and screening share costs saved; futures diagnostics withheld on identity/convention limits. No purchase/switch/refiner add. Prior publication approval request remains pending, no export attempted for this follow-on.
 
 Prior delivered/encoded work remains at `research/2026-10-12_desktop-owner-closeout.md`: broker corrections/WQ418 PASS/WQ420 exact prospective insert, L689 PASS and L690 contrary evidence. Prior Git repair accepted by Will, implemented cd9fc65dd/a65aa1f9a; author7cases PASS, independent acceptance PENDING/hold STANDING at `research/2026-10-12_closeout-repair/REPORT.md`. L684/L687/VIOLET acceptance/consumption gaps survive. No orders, capital, new monitor or historical regrade; Will handles sell/roll. Live-event clocks/debts below unchanged. This is continuing work, not a window closeout.
 

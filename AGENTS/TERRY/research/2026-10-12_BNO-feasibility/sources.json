@@ -1,0 +1,51 @@
+{
+  "recorded_at": "2026-10-12T13:46:03-04:00",
+  "issuer_and_primary_reads": [
+    {
+      "url": "https://www.uscfinvestments.com/bno",
+      "read": "October12 fresh web and shell",
+      "supports": "Brent daily benchmark/ICE nearby futures/roll/collateral/expenses; dynamic current fields empty"
+    },
+    {
+      "url": "https://www.uscfinvestments.com/uso",
+      "read": "October12 fresh web and shell",
+      "supports": "WTI/Cushing daily benchmark; five-day monthly roll; current holdings/expense fields empty"
+    },
+    {
+      "url": "https://www.uscfinvestments.com/holdings/bno",
+      "read": "October12 fresh web and shell",
+      "supports": "Holdings attempted, no holdings values in returned HTML"
+    },
+    {
+      "url": "https://www.uscfinvestments.com/holdings/uso",
+      "read": "October12 fresh web and shell",
+      "supports": "Comparator holdings attempted, no holdings values in returned HTML"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1472494/000110465926021521/bno-20251231x10k.htm",
+      "read": "October12 web, decisive sections/Note6",
+      "supports": "2025 management0.75%, other expenses0.40%; roll/tracking disclosure, not 2026 total ratio"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1327068/000110465926021501/uso-20251231x10k.htm",
+      "read": "October12 web, decisive sections/Note6",
+      "supports": "2025 management0.45%, other expenses0.41%, not 2026 total ratio"
+    },
+    {
+      "url": "https://www.ice.com/products/219/Brent-Crude-Futures",
+      "read": "October12 web",
+      "supports": "ICE contract/last-business-day second preceding month; not a current fund holding or price"
+    }
+  ],
+  "access_gaps": [
+    "USCF linked public scripts HTTP500 with/without page query suffix; no table data recovered",
+    "Fact-sheet link returned no usable text; not adopted"
+  ],
+  "market_data": [
+    "snapshot13:37",
+    "Yahoo share quote time13:38:33/13:38:35 EDT, bid/ask times UNKNOWN; exchange-declared share delay0",
+    "named futures10min delayed, not settlement/ICE fund weights",
+    "paired daily fetch has60matched rows July20-Oct12, today provisional"
+  ],
+  "authority": "Will direct request to investigate quoted BRENT view; research only, not a new capital proposal or formal L694 domain disposition"
+}

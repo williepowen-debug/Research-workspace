@@ -1,0 +1,55 @@
+{
+  "recorded_at": "2026-10-12T13:46:03-04:00",
+  "quote_reference": "2026-10-12T13:38:46.116501-04:00",
+  "performance": {
+    "60": {
+      "bars": 60,
+      "start": "2026-07-20T00:00:00-04:00",
+      "end": "2026-10-12T00:00:00-04:00",
+      "returns_pct": {
+        "BNO": 32.7453398739046,
+        "USO": 21.002304622977764
+      }
+    },
+    "20": {
+      "bars": 20,
+      "start": "2026-09-15T00:00:00-04:00",
+      "end": "2026-10-12T00:00:00-04:00",
+      "returns_pct": {
+        "BNO": 3.005034307967658,
+        "USO": -6.1720038647554265
+      }
+    }
+  },
+  "same_daily_dates": true,
+  "daily_today_bar": "PROVISIONAL, not official close",
+  "share_math": {
+    "indicative_BNO_bid": 65.46,
+    "ask": 65.48,
+    "bid_ask_timestamp": "UNKNOWN",
+    "spread_percent_ask": 0.03054367745878166,
+    "one_share_cost_before_fees": 65.48,
+    "seven_shares_cost_before_fees": 458.36,
+    "eight_shares_cost_before_fees": 523.84,
+    "actual_new_shares": 0
+  },
+  "in_band_expiries": [],
+  "fee_example": {
+    "vintage": "2025 financial highlights, not current gross-expense certification",
+    "BNO_total_derived_percent": 1.15,
+    "USO_total_derived_percent": 0.86,
+    "seven_shares_42day_BNO_expenses_assuming_same_rate": 0.6065421369863013,
+    "difference_42day_vs_USO_rate": 0.15295410410958904
+  },
+  "futures_diagnostic_state": "WITHHELD from graded pricing/carry; NYMEX BZ proxies are not ICE holdings; vendor expiry metadata differs from ICE last-trade rule, convention not independently validated",
+  "sha256": {
+    "holdings_bno": "6d618c545a33a1c8e8c69e3040f5e16ad5e8ae0e8954c5f2e4aa2e19af474035",
+    "snapshot.txt": "a7f32e5e23b183e65f9e674ddeace58dac3949cf868e16399fd3b323799c83ba",
+    "expiries.json": "fc099e619a455f5e20c28c829c23a11daa170d6e899ddfeca486122fba699358",
+    "holdings_uso": "7188ed243586ca888c178a0ae91600917df6c3d524915fb0adbefa8945379327",
+    "quotes-and-named-futures.json": "0490e6f106d97d93b94e8523b933eb4fea8e58d97a8262efe67946e395b849c0",
+    "paired-daily-history.json": "30a3b0e637821c6422ec51bbb2e369d737a97cfe9939338171d33c89687c911a",
+    "bno-page.html": "7d5c1198f453724168f093c1e60186e47aa9546d41a8ffa5948ca6c38a11aab3",
+    "uso-page.html": "8ad92bd67df87b3c8ca117efa553e28d1d808b993363eb961c8caf3c0936782c"
+  }
+}
