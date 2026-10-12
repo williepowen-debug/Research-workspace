@@ -1,6 +1,6 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-10-12 12:56 EDT — SCOPED-PARTIAL USO-view quote/source review:** USO151.795 at12:56:01;+2.43%vendor; Nov/DecWTI93.69/92.87 at12:45–46. Common12:44matchedcracks106.68/101.47EST,notsettlements. Supported elevated prices/credible upside risk; material USO undervaluation unproved. Physical observations retain original dates; no MondayMMA/fullrefinery/broker/order grade. [Assessment](research/2026-10-12_USO-view/REPORT.md).
+**Last real data refresh: 2026-10-12 13:11 EDT — SCOPED-PARTIAL Middle East/Panama source review:** escalation is the main current crude-upside channel; Panama latestadvisory eases49ft/33bookingslots(from10/15), while dry-seasonrisk staysforward. NewGatúnsource observation10/11at85.39ft; AEOLUSownerfigures notedited. Quotevintage12:56; no MondayMMA/refinery/broker/settlementgrade. [Assessment](research/2026-10-12_middle-east-panama/REPORT.md).
 
 **Fresh-context boot 2026-10-12 12:45 EDT:** 10 checks:8OK/1WARNINGS/1FINDINGS/0FAIL,rc2; Ledger Nudge dispositioned. WQ420 encoding verified at TERRY08158a2c4; PROME L684 acceptance still owed. No new paired crack, storm/refinery or broker evidence; L633/L694 remain open. [Boot receipt](research/2026-10-12_fresh-context-boot/REPORT.md).
 

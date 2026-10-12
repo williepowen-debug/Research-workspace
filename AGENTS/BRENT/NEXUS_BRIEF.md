@@ -2,11 +2,11 @@
 
 **Status:** 🟠 L689 accepted, TERRY construction PASS: one conditional economic candidate, zero new capital. Will requested context reset; L694 domain stage resumes in fresh context. L633/afternoon obligations remain outstanding. Stand-down unchanged.
 **Domain:** Oil/energy physical balance, structure and transmission.
-**As of:** 2026-10-12 12:20 EDT — Will-directed closeout, records only; source refresh remains October12 11:16 EDT.
+**As of:** 2026-10-12 13:11 EDT — SCOPED-PARTIAL MiddleEast/Panama source review; quotevintage12:56, olderphysical/issuer/relief sections retain own dates.
 
 > **C6(b) SCOPED-PARTIAL — fresh-context boot 2026-10-12 12:45 EDT:** recovered root/local/specs, full L694 approval, saved morning work and TERRY PASS. Network boot:10checks8OK/1WARNINGS/1FINDINGS,rc2; EIA stillwk10/2. WQ420 exact insert verified at TERRY08158a2c4; PROME L684 acceptance remains owed. USO Oct14 card exists; no broker/order refresh. L694 substantive stage and L633/afternoon work remain open. NOT re-verified: paired crack, physical restart/refinery output, delivered relief, JWC/GIE/incidents or older CROSS-DOMAIN/VIEW/CALIBRATION claims. Prior issuer/relief sources retain11:16EDT perimeter. No new grade, phase, threshold or capital. [Boot receipt](research/2026-10-12_fresh-context-boot/REPORT.md); [MEMO](research/2026-10-12_L689-energy-opportunities/MEMO.md).
 
-**October12 USO-view review:** continued crude support/credible escalation upside, moderate conviction; no demonstrated material undervaluation or target. US Cushing rebuilt3weeks(wk10/2), weakening the inventory-squeeze limb; global buffers remain depleted on dated IEA evidence. Product stress is stronger than proof of fresh WTI scarcity; shipping costs need not lift WTI equally. Isaias partial restart/relief oppose durable crude spike; no quantified new Saudi loss. Fresh12:56USO/12:44paired diagnostics are not settlements. THESISv5.11/WQ192 unchanged; L633/L694/afternoon remain. [Assessment](research/2026-10-12_USO-view/REPORT.md).
+**October12 MiddleEast/Panama review:** escalation is main current crude-upside risk; threats can reprice before loss prints. Panama ACPlatest49ft/33bookingslots(from10/15),Gatún10/11=85.39ft: partialeasing,notfullnormality. ENSOdry-seasonrisk can compound replacementproduct/gas delivery; WTIsign remainsunmeasured. Mildwinterheating is counterforce. No pricegap/target/grade/capitalchange; quotevintage12:56. [Review](research/2026-10-12_middle-east-panama/REPORT.md); prior[USOview](research/2026-10-12_USO-view/REPORT.md).
 
 ## CROSS-DOMAIN
 

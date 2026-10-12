@@ -1,0 +1,45 @@
+{
+  "retrieved_at": "2026-10-12 13:11 EDT",
+  "source": "https://evtms-rpts.pancanal.com/eng/h2o/Download_Gatun_Lake_Water_Level_History.csv",
+  "full_response_sha256": "943ab22b22069153490c71fd94fa989300e18681249352a1a4b1a4b59d5b079b",
+  "full_response_bytes": 406185,
+  "selection": "2026-10-04 onward plus 2023-10-11 same-date comparator; original strings retained",
+  "rows": [
+    {
+      "DATE_LOG": "2023-10-11",
+      "GATUN_LAKE_LEVEL(FEET)": "79.81"
+    },
+    {
+      "DATE_LOG": "2026-10-04",
+      "GATUN_LAKE_LEVEL(FEET)": "85.15"
+    },
+    {
+      "DATE_LOG": "2026-10-05",
+      "GATUN_LAKE_LEVEL(FEET)": "85.15"
+    },
+    {
+      "DATE_LOG": "2026-10-06",
+      "GATUN_LAKE_LEVEL(FEET)": "85.15"
+    },
+    {
+      "DATE_LOG": "2026-10-07",
+      "GATUN_LAKE_LEVEL(FEET)": "85.17"
+    },
+    {
+      "DATE_LOG": "2026-10-08",
+      "GATUN_LAKE_LEVEL(FEET)": "85.23"
+    },
+    {
+      "DATE_LOG": "2026-10-09",
+      "GATUN_LAKE_LEVEL(FEET)": "85.26"
+    },
+    {
+      "DATE_LOG": "2026-10-10",
+      "GATUN_LAKE_LEVEL(FEET)": "85.24"
+    },
+    {
+      "DATE_LOG": "2026-10-11",
+      "GATUN_LAKE_LEVEL(FEET)": "85.39"
+    }
+  ]
+}
