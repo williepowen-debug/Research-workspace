@@ -1,0 +1,12 @@
+ticker,july10_to_sep11_price_pct,sep11_to_oct9_price_pct,july10_to_oct9_price_pct,price_return_basis,source_relative_to_REGINALD
+EWBC,-1.8017296929855875,-2.8179913611886653,-4.568948467073952,settled closing-price returns excluding dividends,domain/sources/2026-10-12_KRE_top10_performance/performance.json
+HWC,-0.2121782977578257,-3.7873733875363413,-3.9915157009107527,settled closing-price returns excluding dividends,domain/sources/2026-10-12_KRE_top10_performance/performance.json
+UBSI,2.407288214397396,-3.7272386504276778,-1.4096758127844944,settled closing-price returns excluding dividends,domain/sources/2026-10-12_KRE_top10_performance/performance.json
+EBC,-3.182425376372211,-2.638887429433623,-5.737332182597643,settled closing-price returns excluding dividends,domain/sources/2026-10-12_KRE_top10_performance/performance.json
+ONB,-2.0984328739880764,-4.20888515248754,-6.2189973968074135,settled closing-price returns excluding dividends,domain/sources/2026-10-12_KRE_top10_performance/performance.json
+FHB,-14.520411954398094,-4.1351141969025225,-18.055090535125572,settled closing-price returns excluding dividends,domain/sources/2026-10-12_KRE_top10_performance/performance.json
+FBP,3.7856080109785584,-3.647526938974144,0.0,settled closing-price returns excluding dividends,domain/sources/2026-10-12_KRE_top10_performance/performance.json
+AUB,-5.5634809229317845,-4.833841703513897,-10.128392765425964,settled closing-price returns excluding dividends,domain/sources/2026-10-12_KRE_top10_performance/performance.json
+NIC,3.8334917210747665,-4.449141309090754,-0.7862070517588915,settled closing-price returns excluding dividends,domain/sources/2026-10-12_KRE_top10_performance/performance.json
+UCB,-0.7313595699382058,-5.412297528651299,-6.104073742660199,settled closing-price returns excluding dividends,domain/sources/2026-10-12_KRE_top10_performance/performance.json
+KRE,-1.4929287753987275,-6.617049105115402,-8.011190050341598,settled closing-price returns excluding dividends,domain/sources/2026-10-12_KRE_top10_performance/performance.json

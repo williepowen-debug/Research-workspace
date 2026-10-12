@@ -19,3 +19,4 @@ EGBN credit context	reports/2026-10-12_EGBN_cleanup_figure_verification.md	June3
 WAL owner	../WAL/STATUS.md	Owner date governs	Peer-owned source; read-only
 OZK owner	../OZK/STATUS.md	Owner date governs	Peer-owned source; read-only
 FLG owner	../FLG/STATUS.md	Owner date governs	Peer-owned source; read-only
+KRE price-pattern synthesis	research/market-technicals/studies/2026-10-12_KRE_price_patterns.md	Historical windows throughOctober9; writtenOctober12	Evidence synthesis and attribution limits

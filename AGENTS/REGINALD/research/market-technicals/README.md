@@ -17,6 +17,8 @@ The top-ten historical returns end on October 9 and exclude dividends. Bank feed
 
 ## Source records and analysis
 
+Latest synthesis: [KRE price patterns through October 9](studies/2026-10-12_KRE_price_patterns.md) — recent weakness, former relative winners turning down, and the gap between current holding weights and historical fund contributions.
+
 | Subject | Canonical records |
 |---|---|
 | Morning prices and three-month comparison | [Quotes](../../domain/sources/2026-10-12_morning-bank-tape/quotes.json), [settled comparison](../../domain/sources/2026-10-12_morning-bank-tape/settled-history.json), [tape analysis](../../reports/2026-10-12_morning-regional-bank-tape.md) |
