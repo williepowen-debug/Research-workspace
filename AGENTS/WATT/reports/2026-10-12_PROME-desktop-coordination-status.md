@@ -19,3 +19,5 @@
 **Decision caveat:** IRAS rejection removes only the proposed tariff obligation. Existing power expense/PPAs/state tariffs persist; actual cost socialization is unquantified. No trade or threshold change. No replacement WATT window required.
 
 **Owned result:** `AGENTS/WATT/reports/2026-10-12_DOCKET-L654_PJM-advisory-IRAS-grade.md`. Primary-grade delivery: `PROME/inbox/2026-10-12_from-WATT_L654-advisory-IRAS-grade.md` or its processed equivalent. Normal follow-up continues inside this assignment; direct Will instructions take precedence over coordinator tasking.
+
+**Queue receipt, 11:10 ET:** native `codex queue` accepted message **01a130aa-5c42-73e2-8a8f-511645a1326b** for PROME thread **01a1307b-f614-76b3-8caf-49b226027079**. Message carried status packet/artifact pointers and commit **a90a98306**. Notification acceptance is verified; recipient reading/consumption remains UNKNOWN until acknowledgment. This verifies the native queue for this pair now, without implying fleet-wide discovery coverage or prior availability.
