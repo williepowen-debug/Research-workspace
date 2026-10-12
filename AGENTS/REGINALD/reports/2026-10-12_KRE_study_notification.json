@@ -1,0 +1,16 @@
+{
+  "recorded_at_utc": "2026-10-12 19:05:19 UTC",
+  "study_commit": "6c7e4e774",
+  "packet_path": "PROME/inbox/2026-10-12_from-REGINALD_KRE-whole-basket-study.md",
+  "canonical_study": "AGENTS/REGINALD/research/market-technicals/studies/2026-10-12_KRE_whole_basket_study.md",
+  "transport": "Native codex queue",
+  "queue_id": "01a13180-9e09-7282-b638-00ccab187ba0",
+  "recipient_thread": "01a130f9-9935-7fa2-b5cf-42c41652c9a3",
+  "transport_result": "ACCEPTED",
+  "recipient_consumption": "UNKNOWN",
+  "remote_tip_observed": "5305a7b5806381de5c3c0dfc8cabe7cf48c21d41",
+  "study_ancestor_exit_code": 0,
+  "study_remote_persistence": "VERIFIED",
+  "push_attempted": false,
+  "lifecycle_action_requested": false
+}
