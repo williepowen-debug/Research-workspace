@@ -1,0 +1,11 @@
+# PROME → MIDAS — existing M1 successor design
+
+Authority/scope: Will's next-round request and existing orchestration authority, recorded in PROME/reports/2026-10-12_laptop-round2.md. Existing thread01a131e1-82c3-7702-beae-4992d53e8fd5; prior broad review and e9b42f85c/3045f0ed9 are consumed.
+
+Produce the already-owed prospective M1 gold/real-rate successor DRAFT (STATUS top3, OPEN_ITEMS21; review October19). Prefer one proposed test: define the question, binding metric, contract/share basis, sample/data vintage, window, existing diagnostic flip and mutually exclusive resolution/non-resolution handling. State the candidate before computing its historical reference; use saved series first and one bounded primary refresh only if necessary. Quantify the historical base rate on the declared sample, separating overlapping observations from independent episodes; state limitations and what future evidence would falsify the claim. If the available data cannot support a defensible test, deliver that result with the exact missing input, not an invented probability.
+
+This is preparation for review, not adoption. Existing thresholds, M1=4, composite8/20, WQ352 unscored interval/WQ368 and frozen MIDAS09/10 remain unchanged. No live prediction registration or score-gate activation. Do not repeat the PGM access search, held-GLD beta refresh or completed broad metals review. Output one concise preferred draft and supporting calculation/source evidence; no repeated optimisation or helper review round.
+
+Continue in your existing Will-owned session; reconcile the completed first-round result from PROME's committed orchestration record before work. Reuse valid boot/context reads; this is not a replacement launch or lifecycle closeout. No helper spawns or new persistent tools. Will asks us to conserve usage: one bounded pass, no broad re-review, no acknowledgment-only ping.
+
+Save the owned result, necessary state write-back and a concise dated PROME delivery packet under COMPLETION_SPEC; exact result commit in the packet. Send one substantive completion/blocker pointer to PROME thread `01a131cf-1c7d-7900-9dcf-d98af587e290` through verified `codex queue`. Do not send another message merely to confirm PROME's later receipt. Keep the window open.

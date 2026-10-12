@@ -1,0 +1,11 @@
+# PROME → YURI — finite unread-body completion
+
+Authority/scope: Will's next-round request and existing orchestration authority, recorded in PROME/reports/2026-10-12_laptop-round2.md. Existing thread01a131e4-8224-7572-a1c0-feb7acebbb96; e27809669/dd8ef7522 are consumed; SIG031 filing/receipt is resolved.
+
+Advance only the already-named text gaps in research/2026-10-12_actor-review-and-diesel-instruments.md §2. Use sources/2026-10-12/president-window-index.json identifiers: decrees711,712,715,716,722,723,730; orders369-рп,372-рп,375-рп; laws335–339-ФЗ. Reconcile any already-read body first. Read the exact official bodies and relevant annexes with the existing working retrieval/viewer, prioritising generic-title texts. One finite pass, at most50 PDF pages total; at most one normal retrieval and one documented working fallback per document. Stop at the bound and name any unread remainder. Do not run a new index/news sweep, new diesel search, install OCR, or build a tool.
+
+Deliver a short exact coverage table: act/date/official ID, complete or partial body coverage, material operative content and its implication for the registered public-declaration test. A title or inaccessible text is not negative evidence. Preserve YUR004 OPEN, October16 checkpoint/October31 final/November2 backfill and historical grades; no early MISS, no new threshold or hypothesis. An actual qualifying declaration is material evidence to route under the existing letter, never suppressed by this no-early-MISS boundary. Other material by-catches use existing owner/WALTER routes; no indiscriminate signals.
+
+Continue in your existing Will-owned session; reconcile the completed first-round result from PROME's committed orchestration record before work. Reuse valid boot/context reads; this is not a replacement launch or lifecycle closeout. No helper spawns or new persistent tools. Will asks us to conserve usage: one bounded pass, no broad re-review, no acknowledgment-only ping.
+
+Save the owned result, necessary state write-back and a concise dated PROME delivery packet under COMPLETION_SPEC; exact result commit in the packet. Send one substantive completion/blocker pointer to PROME thread `01a131cf-1c7d-7900-9dcf-d98af587e290` through verified `codex queue`. Do not send another message merely to confirm PROME's later receipt. Keep the window open.
