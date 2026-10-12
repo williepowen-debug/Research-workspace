@@ -1,0 +1,73 @@
+{
+  "read_date": "2026-10-12",
+  "purpose": "L689 economic/exposure screen, not quote/chain work",
+  "sources": [
+    {
+      "url": "https://ir.marathonpetroleum.com/investor/news-releases/news-details/2026/Marathon-Petroleum-Corp--Reports-Second-Quarter-2026-Results/default.aspx",
+      "source_class": "PRIMARY issuer, Aug4 release for quarter endingJune30",
+      "method": "web full page obtained, directHTTP403",
+      "facts": "Refining adjustedEBITDA6.655B of total8.460B; realizedR&M margin36.33/bbl,94pct crude utilization,2.9mbd total throughput. Midstream1.778B. New90kbpd ULSD hydrotreater expectedYE27, not nextweeks. No site current run-state or valuation derived."
+    },
+    {
+      "url": "https://ir.marathonpetroleum.com/investor/news-releases/news-details/2026/Marathon-Petroleum-Corp--to-Report-Third-Quarter-Financial-Results-on-November-3-2026/default.aspx",
+      "source_class": "PRIMARY issuer, Sep17",
+      "method": "web full page obtained, directHTTP403",
+      "facts": "Q3results/conferenceNov3 11amEST as printed; no IR quote-widget price used."
+    },
+    {
+      "url": "https://investor.phillips66.com/financial-information/news-releases/news-release-details/2026/Phillips-66-to-announce-third-quarter-financial-results/default.aspx",
+      "source_class": "PRIMARY issuer, Sep16",
+      "method": "web full page obtained, directHTTP403",
+      "facts": "Q3financial resultsOct28 before noonETcall. Integratedbusinesses; not pure diesel exposure."
+    },
+    {
+      "url": "https://investorvalero.com/news/news-details/2026/Valero-Energy-Corporation-to-Announce-Third-Quarter-2026-Earnings-Results-on-October-22-2026/default.aspx",
+      "source_class": "PRIMARY issuer, Sep8",
+      "method": "web plus savedHTML",
+      "facts": "Q3releaseOct22 before10amETcall.14refineries~3mbd throughput capacity, not actual Isaias runs."
+    },
+    {
+      "url": "https://www.energy.gov/articles/united-states-energy-department-continues-execution-strategic-reserve-release-commitments",
+      "source_class": "PRIMARY DOE, Sep29",
+      "method": "web plus savedHTML/TXT",
+      "facts": "40Mcrude solicitation partofexisting172MUS commitment; >133Mawarded across4completed exchanges. Deliveries under awarded exchanges scheduledNovDec. Do not infer40Msolicitationawarded or every prior barrel delivered from this wording."
+    },
+    {
+      "url": "https://www.spr.doe.gov/doeec/ActiveDocs.htm?type=exchange",
+      "source_class": "PRIMARY DOE exchange portal",
+      "method": "web rendered shell, no usable award table",
+      "facts": "No new award/delivery record obtained from this portal. Access/render gap, not publication absence."
+    },
+    {
+      "url": "https://www.energy.gov/articles/energy-department-authorizes-strategic-petroleum-reserve-exchange-address-supply",
+      "source_class": "PRIMARY DOE, Oct10",
+      "method": "web plus savedHTML/TXT",
+      "facts": "Up to4Mcrude exchange,2MeachXOM/BP; XOMaccelerates previouslyawardedvolume; no confirmed lifted/deliveredvolume or daily schedule in statement."
+    },
+    {
+      "url": "https://www.iea.org/news/statement-by-iea-executive-director-on-meeting-of-iea-member-governments-on-7-october-2026",
+      "source_class": "PRIMARY IEA, Oct7",
+      "method": "web full statement",
+      "facts": "~325Mreleased Marchaction; ~100Mpledgedremaining; differingsubsets, never400minus325 arithmeticreplacement of100M. Composition/countrydeliveries notestablished."
+    },
+    {
+      "url": "https://www.iea.org/news/iea-statement-on-responding-to-the-global-diesel-market-situation",
+      "source_class": "PRIMARY IEA, Oct11",
+      "method": "web full statement, directHTTP403",
+      "facts": "PriorMarchrelease acceleration prioritizeddiesel; separate supplementalassessmentwithscale/timing; BoardOct15; not quantifiednewpledge."
+    },
+    {
+      "url": "https://www.gov.uk/government/news/g7-leaders-statement-on-global-energy-security-and-market-stability",
+      "source_class": "PRIMARY G7 host publication, Oct2",
+      "method": "web full statement",
+      "facts": "100Mimplementationover4months, dieselfrontloadedfirst20days; linkageMarch commitments; not automatically additiveanother100M."
+    },
+    {
+      "url": "https://www.ukmto.org/-/media/ukmto/products/20261009-ukmto_vra_overview_u.pdf",
+      "source_class": "PRIMARY UKMTOreportNo10, producedOct9, cutoffOct7",
+      "method": "web parsedPDFpage2; totals/definition/disclaimer read, no charttrendinferred",
+      "facts": "129outbound146inbound7daymixedmovementcomposite AISplusUS-NCAGS; UScomponentnotindependentlyverifiedbyUKMTO. Notuniqueships/ladenVLCCs/barrels/90pcentrecovery.",
+      "id": "UKMTOreportNo10"
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-10-12 10:44 EDT — SCOPED-PARTIAL resumed boot/L633:** completed10:26 EDT paired WTI/ULSD quotes; USO10:35; BSEE feed10:35 (newest Sunday survey); Shell/port-authority/limited operator reads. No Monday MMA, final refinery run-state, CME settlement or fresh broker receipt. [REPORT](research/2026-10-12_resume-l633/REPORT.md).
+**Last real data refresh: 2026-10-12 11:16 EDT — SCOPED-PARTIAL L689 issuer/relief source reads:** market quotes remain10:26EDT, L633 physical evidence still Sunday/morning. One conditional candidate; no ticket. MondayMMA/refinery run-states/CMEsettle/broker receipt unrefreshed. [MEMO](research/2026-10-12_L689-energy-opportunities/MEMO.md).
 
-**Session closeout 2026-10-12 10:53 EDT:** recovered morning commits before new work; eight historical CSVs inspected and retained. Boot rc2 (Ledger Nudge), explicit ledger dispositions at report; not all-clear.
+**Delivery checkpoint 2026-10-12 11:16 EDT:** L689 memo saved; later-today observations remain owed. No window closeout requested.
 
 **Routine deployment stays parked** at the [CATO handoff](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et); saved repair is complete, live deployment/normal-run acceptance unresolved. No trade approval changed. Position status and USO card correction → [TRADE](TRADE.md).
 
@@ -11,13 +11,13 @@
 # ⚡ CURRENT STATE — *read this first. Dated blocks follow newest first; STANDING STATE is the hot half; ARCHIVE INDEX is history.*
 
 
-## October12 resumed boot — MOBILE PORT NORMAL / RESTART STILL PARTIAL → [REPORT](research/2026-10-12_resume-l633/REPORT.md)
+## October12 — L689 AVAILABLE-EVIDENCE OPPORTUNITY MEMO → [MEMO](research/2026-10-12_L689-energy-opportunities/MEMO.md)
 
-**Tape [CONF single-vendor completed10:26 EDT minute; EST arithmetic]:** Nov/Dec WTI $93.84/$92.97; Nov−Dec+$0.87 backwardation. Matched diesel diagnostics $105.43/$100.30, positive volume on all four legs. Requested Brent BZZ26$107.04 has maturity UNKNOWN; no named curve/basis grade. USO10:35$152.04; broker holdings/orders at [TRADE](TRADE.md), no fresh receipt.
+**One conditional candidate / zero trade-ready recommendations:** functioning refiner product-margin resilience (MPC lead, PSX comparison, existing VLO book comparator). Offshore restart has evidence; slower refinery restart does not. Crude relief can precede product relief, but higher runs/delivered diesel/weak demand can reverse the margin advantage. No unpriced stock opportunity or new VLO add established. L689 approvalacbb3931d is research only; stand-down, TERRY grading and Will trade authority unchanged.
 
-**L633:** [Alabama Port Authority](https://alports.com/news/tropical-storm-isaias-latest-updates-on-port-of-mobile-operations/) confirms normal port condition effectiveOctober10 16:00CDT, regular terminal/vessel schedules restored; read today, not a new Monday event. Supersedes old ZULU observation. Port reopening does not establish Saraland output. Shell no-damage finding still covers five named offshore assets only. Latest obtained MMA remainsSunday1,173,863b/d/57.54% shut (expected-output estimate); RSS recheck10:35EDT contains no later Isaias item. Monday survey not obtained; source states13:00CDT updates as appropriate. Pascagoula/Saraland/Chalmette/Meraux refinery run-states remain named GAPs. Fork PARTIAL/open withinOctober10–12; no final clean bill or silent date extension.
+**Relief:** DOE confirms prior-award acceleration and November–December crude schedule; no new event-specific delivery tally. IEA supplemental diesel still an assessment. DEWEY partial net-Russian-supply output inspected, finalOctober14; no new study. Earnings clocks issuer-confirmed: VLOOctober22, PSXOctober28, MPCNovember3.
 
-**Recovery:** morning work/COT#9/L659 already complete; October11 packets already receipted. EightCSV inputs retained unchanged after [inspection](research/2026-10-09_pm-prints/CSV_INSPECTION_2026-10-12.md); old method is not a WQ420 regrade.
+**L633 stays PARTIAL:** Sunday survey remains latest obtained, Shell five-asset no-damage scope and Mobile port recovery only. Four refinery run-states still GAP; no authenticated slower-restart comparison. Later-today survey/operator and post14:30 WQ420 measurements outstanding. **10:26EDT dated diagnostic:** WTI Nov/Dec$93.84/$92.97,+$0.87 backwardation; diesel$105.43/$100.30. No new market/settlement/broker pull. [Prior research](research/2026-10-12_resume-l633/REPORT.md).
 
 ### Transit-vintage refusal
 
@@ -25,7 +25,7 @@ Existing L24 / COR-20261012-04: GulfTimes October12 Hormuz5/0 and Bab49/55 match
 
 **Boot:**10checks,8OK/1WARNINGS/1FINDINGS/0FAIL,rc2 (Ledger Nudge, report dispositions). Coverage/stale incidents persist; no due prediction/pending receipt in scope. WQ420 two-bar Close proxy is prospective; afternoon settlement outstanding. Stand-down unchanged.
 
-> **October11–12 rotation receipts:** [verbatim record](archive/STATUS_receipts_2026-10-12_rotation.md), 1032 UTF-8 payload bytes, crc32 `2eb020b5`; payload after first standalone separator, outer whitespace stripped.
+> **October11–12 receipts:** [verbatim record](archive/STATUS_receipts_2026-10-12_rotation.md), 1451 UTF-8 payload bytes, crc32 `89ec35f0`; payload after first standalone separator, outer whitespace stripped.
 
 > **Rotated October10:** dated October9 AM block (Isaias Cat 3 pre-landfall; Nov crack $109.15 EST AM; Dallas Fed/SPR basis flag; China ~3.7 Mt) → [archive](archive/STATUS_dated_2026-10-10_rotation.md), 2487 UTF-8 payload bytes, crc32 `1ba79856`; payload after first standalone separator, outer whitespace stripped. ⛔ **Sentinel kept hot: Dated Brent >$120 is a REAL breach (EIA RBRTE 125.44 on 10/6, 135.51 on 10/2); the 10/8 'anomaly / not a real breach' label is WITHDRAWN.** A premium is not proof of barrels lost.
 > **Rotated October9:** dated October8 (Hormuz-led jump; Isaias 25%→62.89% shut-in; settle-window crack $113.58; COT-35B Leg-B 4.909% re-reproduced) and October7 (WPSR wk-10/2; STEO) blocks → [archive](archive/STATUS_dated_2026-10-09_rotation.md), 6595 UTF-8 payload bytes, crc32 `ae600c46`; payload after first standalone separator, outer whitespace stripped. Isaias weekend 3-way fork stays at [REPORT §10](research/2026-10-08_isaias-hormuz/REPORT.md#10--isaias-transmission-channels-and-weekend-scenarios).
@@ -82,12 +82,15 @@ Existing L24 / COR-20261012-04: GulfTimes October12 Hormuz5/0 and Bab49/55 match
 | **~Wed Oct 14** ⌁*modeled* | 🟠 IEA OMR OCTOBER — stock-release delivery / supplemental-diesel watch + global stock draw | 🟠 |
 | **Thu Oct 15** | IEA GOVERNING BOARD — diesel-release implementation and supplemental-volume assessment | 🟠 |
 | **~Thu Oct 22** ⌁*modeled* | G7 STOCK IMPLEMENTATION — modeled end of first20-day frontloaded-diesel window (October2 commitment,100M oil over4months; incremental overlap not assumed) | 🟠 |
+| **Thu Oct 22** | VALERO Q3 2026 RESULTS — L689 margin/operations comparison | 🟠 |
 | **Sat Oct 24** | TEXAS DIESEL WAIVER — existing 20-day window ends | 🟠 |
+| **Wed Oct 28** | PHILLIPS66 Q3 2026 RESULTS — L689 refiner comparison | 🟡 |
 | **Fri Oct 30** | BZZ26 LAST TRADING DAY — boundary #8 (Brent 3:2:1) month switch: Dec legs BZZ26/RBZ26/HOZ26 → Jan BZF27/RBF27/HOF27 from the FIRST SESSION AFTER (Mon 11/2) | 🟡 |
 | **Sat Oct 31** | RUSSIA PRODUCER DIESEL EXPORT BAN — extended expiry (successor to the 9/30 row) | 🟠 |
 | **~Sun Nov 1** ⌁*modeled* | 🟠 EU GAS STORAGE — RESOLVED 2026-08-13: the target, the DATE and the pace are now all verified | 🟠 |
 | **Sun Nov 1** | ROUTINE CRONS — DST RE-SET (EST begins): move all four BRENT routines +1h UTC | 🟠 |
 | **Sun Nov 1** | 🟠 OPEC+ SEVEN-COUNTRY MONTHLY MEETING — the December 2026 production decision (successor to the 10/4 row) | 🟠 |
+| **Tue Nov 3** | MPC Q3 2026 RESULTS — L689 conditional refiner candidate | 🟠 |
 | **Wed Nov 18** | WQ-386 HELD VLO — review next crack basis | 🟠 |
 | **Thu Nov 19** | WQ-386 HELD VLO — last authorized December leg-A observation | 🟠 |
 | **~Fri Nov 20** ⌁*modeled* | CHINA GAC OCTOBER PRODUCT EXPORTS — physical sizing of the October quota (successor to the 10/08 halt row) | 🟡 |
@@ -95,9 +98,9 @@ Existing L24 / COR-20261012-04: GulfTimes October12 Hormuz5/0 and Bab49/55 match
 | **Sun Jan 31 2027** | RUSSIA FUEL EXPORT BAN — full expiry (gasoline all-participants + non-producer diesel) | 🟡 |
 | **Wed Apr 7 2027** | OFAC GENERAL LICENSE 135 EXPIRES — Russian-origin diesel (sale, delivery, offloading, importation incl. into the US) authorized through 12:01 a.m. EDT 4/7/2027 | 🟡 |
 
-*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 7 of 24 rows are modeled.*
+*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 7 of 27 rows are modeled.*
 
-*24 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
+*27 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
 
 <!-- CALENDAR:END -->
 **✅ FIRED & GRADED history:** canonical text remains in `docket/CATALYSTS.tsv`; it is not duplicated here.
@@ -106,6 +109,6 @@ Existing L24 / COR-20261012-04: GulfTimes October12 Hormuz5/0 and Bab49/55 match
 
 ## SUMMARY FOR WILL
 
-*(October12 resumed)* **Mobile port recovery is primary-confirmed; full offshore restart and refinery run-states remain unproved. Crude holds the morning rebound; current cracks are intraday diagnostics, not settlement grades. COT#9 and morning work were already complete. Eight CSVs retained after inspection. Stand-down unchanged; no new Will decision.**
+*(October12 L689)* **One conditional refiner candidate for TERRY, no trade-ready ticket. Slower refinery restart is unproved; net delivered Russian diesel remains a DEWEY dependency. Relief can compress margins. Existing L633/settlement work and stand-down stay. No new Will decision.**
 
 *(Prior: 10/8 → [archive](archive/STATUS_DETAIL_2026-10-09.md) (1772 B, crc32 `a3288962`); 10/7 → [archive](archive/STATUS_summary-for-will_2026-10-07.md), 503 B crc32 `b716a32f`; 10/2 16:55 → [archive](archive/STATUS_summary-for-will_2026-10-02_PM.md), 894 B crc32 `8063742b`; 10/2 midday → [archive](archive/STATUS_dated_2026-10-02_midday.md); 10/2 AM → [archive](archive/STATUS_dated_2026-10-02_AM.md); 10/1 + 9/30 → [archive](archive/STATUS_summary-for-will_2026-10-01_and_09-30.md), 1699 B crc32 `4ef5c581`.)*

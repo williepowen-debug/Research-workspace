@@ -1,0 +1,14 @@
+[
+  {
+    "signal": "SIG-W-20261012-007",
+    "disposition": "noted",
+    "sha256": "b7ef9e601f5c60e66c15202a66d55df3f4b8904622252d764537c64b85845aac",
+    "sender_commit": "f818bf6a3"
+  },
+  {
+    "signal": "SIG-W-20261012-009",
+    "disposition": "acted",
+    "sha256": "37063099df6c40927e0d99da851b35b99fe81ff149a75fa28ab2869f7e51f3fe",
+    "sender_commit": "f818bf6a3"
+  }
+]

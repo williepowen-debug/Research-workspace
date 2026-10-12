@@ -1,0 +1,73 @@
+⚠️  uncommitted files outside AGENTS/BRENT/:
+     [likely YOURS] AGENTS/TERRY/inbox/2026-10-12_from-BRENT_L689-conditional-refiner-evidence.md
+     [likely YOURS] PROME/inbox/2026-10-12_from-BRENT_L689-available-evidence-delivery.md
+     [not yours]    AGENTS/DAEDALUS/STATUS.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-10-09_CHARTER_SPLIT.md
+     [not yours]    AGENTS/OZK/research/threads/2026-10-12_HORTON_BOUNDED_CHECK.md
+     [not yours]    AGENTS/OZK/sources/2026-10-12_L690/
+     [not yours]    AGENTS/OZK/workbook/Q3_2026_SCORING_CARD.md
+     [not yours]    AGENTS/REGINALD/domain/sources/2026-10-12_morning-bank-tape/
+     [not yours]    AGENTS/REGINALD/registry/corrections_receipts.tsv
+     [not yours]    AGENTS/WALTER/LAST_COMPLETION.md
+     [not yours]    AGENTS/WALTER/MEMORY.md
+     [not yours]    AGENTS/WALTER/REGISTRY.tsv
+     [not yours]    AGENTS/WALTER/SESSION_LOG.md
+     [not yours]    AGENTS/WALTER/STATUS.md
+     [not yours]    AGENTS/WALTER/filtered/kill_log.tsv
+     [not yours]    AGENTS/WALTER/registry/FALSIFICATION_FIRED_LOG.tsv
+     [not yours]    AGENTS/WALTER/registry/REG_THRESHOLDS_FIRED_LOG.tsv
+     [not yours]    AGENTS/WALTER/registry/intake_seen.json
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/.gitignore
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/BOOT_RECEIPT.md
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/SKEW_History.csv
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/anchor-rotation.json
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/boot-basis-final.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/boot-basis.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/claim-check.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/closeout-check.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/correction-check.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/credit-verify.md
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/delivery-reconcile-final.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/delivery-reconcile.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/doctor-after-flash.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/doctor-after-routing.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/doctor-before-closeout.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/doctor-final.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/doctor-mid.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/intake-before.json
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/intake-dispositions.json
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/intake-items.json
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/intake-synced.json
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/iran-verify.md
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/ledger-staleness.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/observations.json
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/orphan-check.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/owner-review-snapshot.md
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/previous-LAST_COMPLETION.md
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/previous-MEMORY.md
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/previous-STATUS.md
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/pull_observations.py
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/read-cap-final.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/read-cap.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/reads-check-final.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/reads-check.txt
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/receivability.tsv
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/registry-headers.json
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/threshold-coverage.tsv
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/threshold-summary.md
+     [not yours]    AGENTS/WALTER/research/2026-10-12_boot/version-drift.txt
+     [not yours]    AGENTS/WALTER/research/tanker-cost-watch/REVIEWS.tsv
+     [not yours]    AGENTS/WALTER/research/tanker-cost-watch/STATE.csv
+     [not yours]    AGENTS/WALTER/research/tanker-cost-watch/WATCH.md
+     [not yours]    AGENTS/WALTER/routed/delivery_log.tsv
+     [not yours]    PROME/inbox/2026-10-12_from-WALTER_boot-transcripts-receipt.md
+
+🔴 THE FLAGGED FILES LOOK LIKE PACKETS YOU AUTHORED.
+   If you do not commit them they never reach the recipient, and the recipient
+   is never told anything was sent. Committing files you authored into another
+   agent's inbox is the ONE sanctioned exception to the pathspec rule.
+
+   git add <paths> && git commit <paths> -m "BRENT -> <recipient>: <what>"
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

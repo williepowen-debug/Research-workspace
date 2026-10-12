@@ -1,0 +1,53 @@
+[
+  {
+    "file": "doe-sep29.html",
+    "url": "https://www.energy.gov/articles/united-states-energy-department-continues-execution-strategic-reserve-release-commitments",
+    "retrieved_at": "2026-10-12T11:10:00.324406-04:00",
+    "status": 200,
+    "final_url": "https://www.energy.gov/articles/united-states-energy-department-continues-execution-strategic-reserve-release-commitments",
+    "bytes": 120216,
+    "sha256": "8e83ae5523df7743158c4f7c9142c9da588a59dd1db67c1dd4d1dbce70f4367b"
+  },
+  {
+    "file": "doe-oct10.html",
+    "url": "https://www.energy.gov/articles/energy-department-authorizes-strategic-petroleum-reserve-exchange-address-supply",
+    "retrieved_at": "2026-10-12T11:10:00.323470-04:00",
+    "status": 200,
+    "final_url": "https://www.energy.gov/articles/energy-department-authorizes-strategic-petroleum-reserve-exchange-address-supply",
+    "bytes": 118486,
+    "sha256": "f759879fbbf10695310bea58e90571c0b7f37e32b1942a2a2c45ce7526cf5d8e"
+  },
+  {
+    "file": "mpc-q2.html",
+    "url": "https://ir.marathonpetroleum.com/investor/news-releases/news-details/2026/Marathon-Petroleum-Corp--Reports-Second-Quarter-2026-Results/default.aspx",
+    "retrieved_at": "2026-10-12T11:10:00.323980-04:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "mpc-earnings-date.html",
+    "url": "https://ir.marathonpetroleum.com/investor/news-releases/news-details/2026/Marathon-Petroleum-Corp--to-Report-Third-Quarter-Financial-Results-on-November-3-2026/default.aspx",
+    "retrieved_at": "2026-10-12T11:10:00.324890-04:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "vlo-earnings-date.html",
+    "url": "https://investorvalero.com/news/news-details/2026/Valero-Energy-Corporation-to-Announce-Third-Quarter-2026-Earnings-Results-on-October-22-2026/default.aspx",
+    "retrieved_at": "2026-10-12T11:10:00.325307-04:00",
+    "status": 200,
+    "final_url": "https://investorvalero.com/news/news-details/2026/Valero-Energy-Corporation-to-Announce-Third-Quarter-2026-Earnings-Results-on-October-22-2026/default.aspx",
+    "bytes": 82523,
+    "sha256": "c1da4e7db3813656ea4ee2b5a4479d68d4db2ba845f0d9a715ff2a5b0a2c7a43"
+  },
+  {
+    "file": "psx-earnings-date.html",
+    "url": "https://investor.phillips66.com/financial-information/news-releases/news-release-details/2026/Phillips-66-to-announce-third-quarter-financial-results/default.aspx",
+    "retrieved_at": "2026-10-12T11:10:00.326219-04:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "iea-oct11.html",
+    "url": "https://www.iea.org/news/iea-statement-on-responding-to-the-global-diesel-market-situation",
+    "retrieved_at": "2026-10-12T11:10:00.326718-04:00",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

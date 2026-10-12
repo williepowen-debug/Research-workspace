@@ -383,3 +383,8 @@ Will selected retaining the existing routines after distinguishing BRENT files, 
 ## R-2026-10-11-WQ420 — prospective precision/window clarification received at BRENT boot
 
 **Letter:** TRADE § Existing management points to PROME `2026-10-11_wq418-420-RULED.md` § Approved exact insert; read committed Will word “418 and 420 approved”, recorded17:10:59 EDT. **Why:** avoid input/intermediate rounding and ambiguous settlement-proxy bars; it defines precision and the two opening-time bars in [14:28,14:30), preserving levels/source hierarchy/UNKNOWN bands. Prospective only, no historical regrade or monitor. TERRY's owner encoding remained pending technical approval at this read; BRENT does not certify it complete. Supersedes: none; extends WQ-386's calculation definition under the exact approved letter.
+
+
+## R-2026-10-12-L689 — bounded energy-opportunity research approved
+
+**Letter:** processed inbox `2026-10-12_from-PROME_APPROVED-energy-opportunities-for-TERRY.md`, sourceacbb3931d, Work order/Deliverable and acceptance. Will's verbatim approval verified there, “Okay approved.  You are good to orchestrate BRENT with your recommended directions”. **Why:** connect owned oil/product evidence to a bounded TERRY opportunity screen without turning missing refinery/delivery evidence into a trade premise. Zero-to-three candidates/PASS allowed, existing DEWEY dependency reused, contrary evidence/falsifiers required. L633 and afternoon settlement obligations retained; TERRY construction/grading, Will trade approval/execution. Research authority only, no capital/threshold/monitor change. Supersedes: none. Acceptance de7999fe2; owned result at research/2026-10-12_L689-energy-opportunities/MEMO.md.

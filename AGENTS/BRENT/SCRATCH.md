@@ -1,38 +1,36 @@
-# BRENT SCRATCH — October 12, 2026 resumed boot
+# BRENT SCRATCH — October12 L689 available-evidence delivery
 
-**Closeout:** 2026-10-12 10:53 EDT. Canonical handoff after recovering morning completion. OpenAI Codex; GPT-6 family exposed, exact variant/native session ID UNKNOWN, task role `/root`. Root `/home/willi/Research-workspace`; root CLAUDE/AGENTS/USER and desk CLAUDE boot/closeout explicitly loaded; COMPLETION_SPEC/playbook Runtime mechanics selected. No helpers launched. No verified native transport to existing PROME/TERRY owners exposed; discovery/notification/consumption UNKNOWN. [Report](research/2026-10-12_resume-l633/REPORT.md).
+**Checkpoint:** 2026-10-12 11:18 EDT, existing desktop BRENT window01a13087-be1f-7ec2-acf1-12f9aa9cfa04 (PROME report/request maps identity). OpenAI Codex; exact modelvariant UNKNOWN. Root/local instructions already explicitly read, no boot rerun. Will's L689 approval at committedacbb3931d consumed; acceptance de7999fe2. No window closeout requested. Codex queue toPROME01a1307b-f614-76b3-8caf-49b226027079 verified; acknowledgment01a130a5-cbd3-7c81-bbdc-e80f74dd138e. Prior L633 research/status consumption verified at PROME05715adeb. No helpers/duplicate owner.
 
 ## CHANGES SINCE LAST SESSION
-- Mobile port-authority notice newly verified: normal operations effective Saturday October10 16:00CDT. Closes stale port-status gap, not Saraland output.
-- BSEE RSS at10:35EDT still ends at Sunday's expected-production survey; Monday figure not obtained. Shell five-asset no-damage statement reverified; full restart/refinery clearance remains missing.
-- Named10:26EDT WTI/ULSD diagnostic holds morning rebound; raw inputs/maturity limits at report. No afternoon settlement observed.
+- L689 research scope approved: crude-vs-diesel recovery first, relief delivery/net addition,0-3candidates/PASS, reuse DEWEY partial.
+- New issuer reads establish a functioning-refiner exposure candidate and confirmed earnings clocks. No current site-run/market/settlement evidence refreshed.
+- New UKMTOprimary composite recovered; mixed AIS+US-NCAGS movements withOct7 cutoff, US component unverified by UKMTO. Not barrels/90pctrecovery. New consumer-intentions info is not actual fuel volume.
 
 ## WHAT I DID THIS SESSION
-- Recovered morning642232a28/ad52c2b95 and FridayL659/COT#9 completion BEFORE new work. Recovered both October11 OSPREY/FALCON receipts; no duplicate grade/mail consumption.
-- Network-enabled boot:10checks,8OK/1WARNINGS/1FINDINGS/0FAIL,rc2. Ledger Nudge dispositioned per ledger in report/commit; paired coverage/stale incident warnings retained. Corrections0 unreceipted; due/pending checks clear in scope.
-- Inspected eight October9 CSVs:2,728,242bytes, hashes/exact saved-evidence recomputation. Retain/commit unchanged historical raw evidence; mutable daily rows/old three-bar method cannot grade Monday underWQ420.
-- Updated STATUS, existing Isaias catalyst, NEXUS and TRACKER with source boundaries. Corrected STATUS's stale next-COT#9 pointer to existing grade/#10. No thesis/phase/threshold/trade authority changed.
-- Consumer scan distinguished historical#8 records from TERRY's stale LIVE latest-grade cell. Current owner-grade pointer delivered, not historical rewrite. No new Will ruling.
+- Saved [one conditional candidate memo](research/2026-10-12_L689-energy-opportunities/MEMO.md), zero trade-ready recommendations: MPC refiner-margin resilience, PSX comparison, existing VLO book comparator. Attempted disproof; PASS on fresh crude-rally and relief-led refiner/tanker alternatives. No price/option-chain work duplicated.
+- Reverified DOE schedule/prior-award acceleration and IEA remaining-versus-supplemental definitions; no new event-specific delivery or netRussian supply verdict. DEWEYOctober10output stillPARTIAL, no newer output found; finalOctober14 remains dependency, no duplicate commission.
+- Existing L633/COT/CSV/morning work recovered, not repeated. L633 staysPARTIAL; no authenticated slower-refinery-restart comparison. Boardreceipts/archives: approvalacted, WALTER006noted/007noted/009acted; corrections06NO-OP(alreadyintegrated),09APPLIED atmemo. Rulings records newresearchapproval, no charter/rule amendment.
+- Added issuer earnings events toexisting CATALYSTS and regenerated calendar. STATUS/NEXUS/TRACKER reconciled with explicit source boundaries. THESIS/TRADE/REGISTRY/LESSONS/INCIDENTS/COT unchanged: no corresponding grade/spec/lesson/damage/print/fill.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **Today October12:** finish existingL633 window at later MMA/operator evidence; source states13:00CDT updates as appropriate. Morning read PARTIAL with named refinery gaps. No silent extension ofOctober10–12 or clean-restart certification from elapsed time. PROME owns shared row.
-2. **Today after14:30EDT:** first post-weekend settlement diagnostic under completeWQ420 insert at TRADE/ruling: two opening-time bars14:28/14:29, verified convention/identity, separate unrounded Close×Volume VWAPs. CME first; TERRY grades. No automatic monitor or promised later touch.
-3. **~October13:** Russian four-week exports throughOctober11 if published, for OSP-06'sOctober15 read. Signed exception decree/authenticated diesel cargoes missing. Archived OSPREY packet already consumed.
-4. **October14–16:** existing owners at TRADE/PREDICTIONS/CATALYSTS and PROME/DOCKET: USO sell-or-roll/card byOctober14; NovemberVLO last governing settleOctober14; December startsOctober15; WPSROctober15noon/BRT31 first eligible print; COT#10 as-ofOctober13 releasesOctober16. Never substitute another session's value.
+1. **TodayOctober12:** finish L633 at laterMMA/operator/refinery evidence (MMA source says13:00CDT updates asappropriate). PreserveOctober10–12 window; no silentextension or final clean-restart grade from missing data.
+2. **Todayafter14:30EDT:** settlement measurement under exactWQ386/WQ420 source-order/identity/precision/two-opening-bar[14:28,14:30)Close×Volume requirements. TERRYgrades. No automatic monitor or promised touch.
+3. **October14:** existing DEWEYfinal dependency; check netaddition versus destinationreshuffle, strike/repair feasibility and legalinstrument/cargo proof. **October15:** existing IEA Board/WPSR/BRT31firstprint. **October16:** COT#10, not repeat#9. Future earnings/catalysts at CATALYSTS, no copied schedule here.
 
 ## OPEN THREADS / WATCHES
-- Effective reciprocal ceasefire, Russian legal/cargo proof, refinery run-states and delivered Gulf flow. Heat/hulls/transit counts are not barrels; port reopening is not refinery throughput.
-- G7/IEA100M implementation overlaps March commitments; no automatic extra100M. Country supplemental/delivered volumes and40M exchange awards unverified. DEWEY read dueOctober14 remains at owner.
-- WQ252/HEN46, RF013 and CATO live routine deployment remain at owners; no new commission. Later clocks live in CATALYSTS/PREDICTIONS.
+- Slower refinery restart NOT established, actual runs/yields/net-delivered diesel missing. Fasterproductrecovery/weakdemand/own-siteoutage undermine candidate; pricing may already absorb margins.
+- Russian netdiesel supply/legal question is DEWEY dependency, YURIinstrument/OSPREYstrikes owners. No newstudy/retask. Existing WQ252/HEN46/CATOdeploy/RF013debt unchanged.
+- Research authorization does not lift WQ192, revive VLOtwoextra stood-down shares, set a numerical gate or authorize a trade.
 
 ## POSITION DECISIONS PENDING
-- TRADE retains October11 received inventory. USOOctober14calls×2 carry standing sell-or-roll. Fresh broker orders/contract-specific TERRY card not established; no new stop/execution inference.
-- HeldVLO management remainsWQ386 plus prospectiveWQ420. Intraday margins do not discharge missing settlement observation. TERRY encoding completion not established in this clone.
+- TRADE owns October11received inventory/receipts; October14USO standing sell-or-roll and TERRYcard/Willorders remain. No broker refresh, price or executable ticket here.
+- HeldVLO management remainsWQ386/WQ420; TERRYownerencoding and currentcard acceptance outside this memo's verification perimeter. No exit/notice from intradaydiagnostics.
 
 ## MAIL STATE
-- Two late WALTER arrivals:003 noted (Sohar/asset class),004 acted (transit-vintage quarantine). Original sources independently checked; sender persistence then2board rows/2consume moves. October11 receipts retained. COR-20261012-04 APPLIED at STATUS; no duplicate grade.
-- Dated completion toPROME and current-COT pointer toTERRY saved/committed at closeout; notification/consumption UNKNOWN. Steady-state synthesis atNEXUS.
+- Thiswork consumed approvedpacketplusWALTER006/007/009 withmatchingboardrows/gitmoves. WALTER006broker correction alreadyintegrated, no repeatedbrokerpass. COR09 primarydefinition applied, no military/lossgrade.
+- Delivery: ownedMEMO plus datedself-authoredTERRY/PROME evidencepackets committed atdelivery, then PROMEqueue. Acceptance versus consumption reported separately; do not infer recipientread from savedfile.
 
 ## WORKBOOK HEALTH
-- CATALYSTS receives partial read; generated calendar checked. REGISTRY/LESSONS_INDEX/INCIDENTS/COT_VINTAGES/TRADE retain vintages: no corresponding new spec/lesson/damage/print/broker event. board_log and correction receipt record new mail. Ledger Nudge finding acknowledged, no stamp-only fix.
-- Boot pull deferred while two DAEDALUS files dirty; untouched. Own explicit-path commit, then safe-push fast-forward gate. Receipt required; no advance push/consumption claim.
+- CATALYSTS/board/correctionreceipts refreshed only onactualnewsource/mail evidence; generatedcalendarverified. Otherledgerrealvintages retained; requirednudge reasons incommit. Archivebytes/crcs recomputed.
+- Foreigndirtywork prohibitsbootpull; preserveothers. Ownexplicitpathcommits, safe-pushfresh-fetchreceipt. Prior research publishedc394311dc/93fb9ad6d/9af0564f0; statusreply5fa5cdb1c/6da87d73f. No permission for auto-monitor, newowner or windowtermination inferred.
