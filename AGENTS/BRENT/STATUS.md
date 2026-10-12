@@ -1,6 +1,6 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-10-12 13:28 EDT — SCOPED-PARTIAL expression review:** USCF USO/BNO descriptions and TERRY L689 card checked. USO fits broad crude upside; Brent is the closer comparison for seaborne access risk, with no demonstrated superior trade. No new quote, physical/owner grade or broker evidence; quotevintage12:56. [Comparison](research/2026-10-12_USO-view/EXPRESSION_COMPARISON.md); [war-owner read](research/2026-10-12_USO-view/WAR_OWNER_RECONCILIATION.md).
+**Last real data refresh: 2026-10-12 13:31 EDT — SCOPED-PARTIAL recommendation clarification:** USCF descriptions, full L689 memo/TERRY card and standing TRADE reviewed. Wait on new purchases; BNO is a crude-access research candidate, MPC the margin lead, PSX comparison, VLO existing exposure. No demonstrated superior trade or new quote/physical/owner/broker grade; quotevintage12:56. [Comparison](research/2026-10-12_USO-view/EXPRESSION_COMPARISON.md); [war-owner read](research/2026-10-12_USO-view/WAR_OWNER_RECONCILIATION.md).
 
 **Fresh-context boot 2026-10-12 12:45 EDT:** 10 checks:8OK/1WARNINGS/1FINDINGS/0FAIL,rc2; Ledger Nudge dispositioned. WQ420 encoding verified at TERRY08158a2c4; PROME L684 acceptance still owed. No new paired crack, storm/refinery or broker evidence; L633/L694 remain open. [Boot receipt](research/2026-10-12_fresh-context-boot/REPORT.md).
 

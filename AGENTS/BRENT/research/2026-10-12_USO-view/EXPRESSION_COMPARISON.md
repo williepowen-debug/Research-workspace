@@ -34,3 +34,7 @@ For this discussion, the first comparison is USO versus Brent exposure; the firs
 ## Continuity disposition
 
 No phase, conviction number, target, prediction, incident or registered line changed. No new deadline, monitor, owner launch, message or broker action. STATUS/SCRATCH/NEXUS/TRACKER carry scoped annotations; earlier physical, market and owner grades retain their original vintages.
+
+## Recommendation clarification — 13:31 EDT
+
+Will asked whether this means recommending BNO, VLO or other refiners. Current recommendation remains wait on new purchases. BNO is the first candidate to evaluate for the Gulf crude-access thesis, not an established buy or USO switch. MPC is the existing lead research candidate for product-margin resilience, PSX the comparator, and VLO existing-book exposure with no add recommended. There is no valid combined return ranking across these different mechanisms. Re-read the complete L689 memo and TERRY card, TRADE standing state and current USCF descriptions; no quote/physical/broker refresh. Missing demonstrated mispricing, net delivered diesel evidence and viable construction remain the economic blockers. Adding multiple refiners would concentrate the shared margin/relief hypothesis. No new trade proposal or approval request.
