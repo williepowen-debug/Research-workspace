@@ -19,6 +19,8 @@
 
 ## Session Notes
 
+**L694 continuation, 2026-10-12:** canonical approval1926850f2 + desk pointer consumed, no direct-Will conflict. One concise EGBN question saved at `reports/2026-10-12_L694_EGBN_candidate-question.md`; TERRY gets early feasibility, underlying pricing gap remains unproved. Wait for existing L35/Q3 issuer evidence; no fresh broad scan/deep-dive/OZK inversion. No lifecycle closeout requested.
+
 **Latest touch — 2026-10-12 morning, Will-approved tape:** Codex GPT-6 exposed, exact variant UNKNOWN; desktop `01a130ac-dde6-76f1-8df7-eb903dc2862a`. `reports/2026-10-12_morning-regional-bank-tape.md` + saved quotes/history/chart reconciliation. OZK L635 completed evidence and L690 assignment consumed without repeating investigation; Sept report/dossier and frozen deck vintage fences. Pull deferred for foreign work; quick tape mode, native queue boot notice accepted. No broker fill/new score/gate/card/monitor. Existing funding/Q3 actions below survive; attribution unresolved.
 
 ⚠️ **Open question (10/10 late PM):** does the late-September jump in smaller banks' borrowing (H.8 `H8B3094NSMA` +$32.9B / +11.7% in 3 weeks to 9/30; deposits flat) **continue, hold or reverse in the Fri 10/16 print (week of 10/7)**, and does any Q3 print show it **with deposits leaving** (the PNC pattern spreading)? **New 10/10:** FHLB system debt rose only +$6.2B in Sep, so most of that borrowing was likely NOT FHLB (or was funded from FHLB liquidity). The OF combined Q3 figure (~10/29) can only flag the FHLB-liquidity case (advances well above ~$770B); per-bank attribution waits for the 11/07 Call Reports.

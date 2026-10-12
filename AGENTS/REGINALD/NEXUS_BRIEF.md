@@ -12,6 +12,8 @@
 
 ## VIEW
 
+- **L694 opportunity pass (10/12):** one EGBN apartment-maturity question to TERRY/PROME, conditional downside from existing research; no demonstrated mispricing. Missing fact is loan-level outcome/incremental loss at the existing Q3 issuer event, not new research. Report → `reports/2026-10-12_L694_EGBN_candidate-question.md`. First domain stage only; TERRY feasibility and PROME disposition pending, no trade/score change.
+
 - **Morning tape / counterevidence (10/12):** broad gains across the selected cohort plus OZK-specific relief; broad cause unresolved. Bank buying exceeds flat/down broad benchmarks, yet the three-month decline persists except EGBN in Will's displayed set. Current quote basis/delays → dated tape report. Executed RaDD extension/new capital materially weakens near-term maturity failure; Sept loss-bridge inputs historical. **Redraw allowed; appraisal as-stabilized; recognition UNKNOWN**. Owner current terms → `../OZK/research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md`. Existing TERRY catalyst examination, Q3 frames and funding reads retain ownership; no new score/gate/card.
 
 - **★ FHLB + WEEKLY FUNDING (10/10 PM) — what other desks should take:**

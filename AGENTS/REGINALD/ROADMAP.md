@@ -75,6 +75,8 @@ Persistent state-of-REGINALD tracker across sessions. **SCRATCH** = loose notes,
 
 ## RECENTLY RESOLVED
 
+**2026-10-12 L694 domain stage:** one existing-research EGBN candidate question delivered for early TERRY feasibility, report dated10/12. No demonstrated mispricing; credit outcome unresolved in existing L35/Q3 work. Only the first domain stage is done, not TERRY's assessment or the full discovery pass.
+
 **2026-10-12:** Will-approved tape → `reports/2026-10-12_morning-regional-bank-tape.md`: broad cohort buying plus OZK relief, broader driver unresolved; chart reconciled with fresh settled history. Sept RaDD bridge/dossier marked historical; existing Q3/TERRY resolvers retained, no new observation task.
 *Last ~2 weeks. Top of mind so the audit trail is visible without reading commits.*
 
