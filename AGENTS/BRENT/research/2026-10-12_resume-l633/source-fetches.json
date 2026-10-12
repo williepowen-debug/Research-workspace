@@ -1,0 +1,107 @@
+[
+  {
+    "url": "https://www.bsee.gov/rss.xml",
+    "observed_at": "2026-10-12T10:35:20.670457-04:00",
+    "file": "bsee-rss.xml",
+    "status": 200,
+    "final_url": "https://www.bsee.gov/rss.xml",
+    "bytes": 50423,
+    "sha256": "05a6e58dcf48368b426e8521330a3a10e76fffb90b94b3035f813addf154c890",
+    "isaias_items": [
+      {
+        "title": "MMA Monitors Gulf of America Oil and Gas Activities in Response to Hurricane Isaias",
+        "link": "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-response-isaias5",
+        "pubDate": "Sun, 11 Oct 2026 16:05:00 +0000"
+      },
+      {
+        "title": "MMA Monitors Gulf of America Oil and Gas Activities in Response to Hurricane Isaias",
+        "link": "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-response-isaias4",
+        "pubDate": "Sat, 10 Oct 2026 16:07:01 +0000"
+      },
+      {
+        "title": "MMA Monitors Gulf of America Oil and Gas Activities in Response to Hurricane Isaias ",
+        "link": "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-response-isaias3",
+        "pubDate": "Fri, 09 Oct 2026 14:11:58 +0000"
+      },
+      {
+        "title": "MMA Monitors Gulf of America Oil and Gas Activities in Response to Tropical Storm Isaias",
+        "link": "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-response-isaias2",
+        "pubDate": "Thu, 08 Oct 2026 16:56:00 +0000"
+      },
+      {
+        "title": "MMA Monitors Gulf of America Oil and Gas Activities in Response to Tropical Storm Isaias",
+        "link": "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-response-isaias",
+        "pubDate": "Wed, 07 Oct 2026 18:16:25 +0000"
+      }
+    ]
+  },
+  {
+    "url": "https://www.chevron.com/newsroom/2026/q4/october-2026-severe-weather-updates",
+    "observed_at": "2026-10-12T10:35:20.670944-04:00",
+    "file": "chevron.html",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.shell.us/about-us/news-and-insights/media/us-storm-center/shell-us-storm-updates/2026-storm-updates/hurricane-isaias-update-5.html",
+    "observed_at": "2026-10-12T10:35:20.671453-04:00",
+    "file": "shell5.html",
+    "status": 200,
+    "final_url": "https://www.shell.us/about-us/news-and-insights/media/us-storm-center/shell-us-storm-updates/2026-storm-updates/hurricane-isaias-update-5.html",
+    "bytes": 4881,
+    "sha256": "76e136b6e200df570c0fe82f074303d51e9327072fbf675b2d6ed7c10c750582"
+  },
+  {
+    "url": "https://www.bp.com/en_us/united-states/home/news/hurricane-response.html",
+    "observed_at": "2026-10-12T10:35:20.671980-04:00",
+    "file": "bp-storm.html",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.pbfenergy.com/newsroom/",
+    "observed_at": "2026-10-12T10:35:20.672399-04:00",
+    "file": "pbf-news.html",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://investorvalero.com/news/default.aspx",
+    "observed_at": "2026-10-12T10:35:20.672888-04:00",
+    "file": "valero-news.html",
+    "status": 200,
+    "final_url": "https://investorvalero.com/news/default.aspx",
+    "bytes": 90424,
+    "sha256": "5f45bb479edff3d0c86dac0dfd044bce5b93b20572c5e17e212d956bd62149cd"
+  },
+  {
+    "url": "https://alports.com/news/tropical-storm-isaias-latest-updates-on-port-of-mobile-operations/",
+    "observed_at": "2026-10-12T10:38:41.708126-04:00",
+    "file": "mobile-port.html",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-response-isaias5",
+    "observed_at": "2026-10-12T10:38:41.708849-04:00",
+    "file": "isaias5.html",
+    "status": 200,
+    "final_url": "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-response-isaias5",
+    "bytes": 47272,
+    "sha256": "d2911b28e55cb4a2720a3c626d3a71ff7880862a2eb844f56f171172f41264cb"
+  },
+  {
+    "url": "https://www.vertexenergy.com/",
+    "observed_at": "2026-10-12T10:38:41.709378-04:00",
+    "file": "vertex-home.html",
+    "status": 200,
+    "final_url": "https://www.vertexenergy.com/",
+    "bytes": 119797,
+    "sha256": "2a9c7e54aaf302883623e6e3f6cd6faf4d8f60751f091b7cfa03c7cce3a399b7"
+  },
+  {
+    "url": "https://portpascagoula.com/category/current/",
+    "observed_at": "2026-10-12T10:38:41.709835-04:00",
+    "file": "pascagoula-news.html",
+    "status": 200,
+    "final_url": "https://portpascagoula.com/category/current/",
+    "bytes": 127285,
+    "sha256": "8074c5109cd5fe5655c54ffe0922f75944dfe9982be5cf1031e4e87e91efbffb"
+  }
+]

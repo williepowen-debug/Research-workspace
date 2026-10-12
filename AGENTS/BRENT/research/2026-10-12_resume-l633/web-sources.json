@@ -1,0 +1,56 @@
+{
+  "written_at": "2026-10-12T10:42:31.605280-04:00",
+  "method": "web.run primary page reads; direct retrieval results separately at source-fetches.json",
+  "sources": [
+    {
+      "url": "https://alports.com/news/tropical-storm-isaias-latest-updates-on-port-of-mobile-operations/",
+      "basis": "PRIMARY full page, updated Oct10 19:00CDT; NORMAL effective Oct10 16:00CDT. Direct curl403. Publication headingOct7 not event date.",
+      "finding": "Port/terminal schedules restored. No refinery run-state inferred."
+    },
+    {
+      "url": "https://www.shell.us/about-us/news-and-insights/media/us-storm-center/shell-us-storm-updates/2026-storm-updates/hurricane-isaias-update-5.html",
+      "basis": "PRIMARY full statement in web tool; direct HTML title shell only. DatedOct10 21:00 CST as printed, updatedOct11.",
+      "finding": "No storm damage at five named offshore assets; redeployment ongoing."
+    },
+    {
+      "url": "https://www.shell.us/about-us/news-and-insights/media/us-storm-center/shell-us-storm-updates/2026-storm-updates.html",
+      "basis": "PRIMARY index; newest linked Isaias5. Its index says19:00CST whereas statement says21:00CST. No fabricated time normalization.",
+      "finding": "No later Shell Isaias update observed in this index read."
+    },
+    {
+      "url": "https://www.chevron.com/newsroom/2026/q4/october-2026-severe-weather-updates",
+      "basis": "PRIMARY publisher indexed text surfaced by domain search; direct/web full-open403. Oct10 final update10:38CDT.",
+      "finding": "Four offshore facilities producing, five shut, remobilization through Sunday; onshore recovery procedures; no refinery run-state stated. Indexed vintage not Monday certification."
+    },
+    {
+      "url": "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-response-isaias5",
+      "basis": "PRIMARY full web page plus saved HTML, as-ofOct11 11:00CDT; 31 operator reports; source updates1pmCDT each day as appropriate.",
+      "finding": "Oil shut-in1,173,863b/d/57.54%; expected-production estimate, not metered flow."
+    },
+    {
+      "url": "https://www.vertexenergy.com/",
+      "basis": "PRIMARY homepage returned Loading shell in direct text and web tool.",
+      "finding": "Saraland run-state not obtained; not evidence of shutdown or no damage."
+    },
+    {
+      "url": "https://www.pbfenergy.com/newsroom/",
+      "basis": "PRIMARY attempted;403/access failure.",
+      "finding": "Chalmette run-state not obtained."
+    },
+    {
+      "url": "https://investorvalero.com/news/default.aspx",
+      "basis": "PRIMARY newsroom HTTP200; rendered text lacked Isaias/Meraux run-state.",
+      "finding": "Meraux run-state not obtained; generic newsroom is not clearance."
+    },
+    {
+      "url": "https://portpascagoula.com/category/current/",
+      "basis": "PRIMARY news index read; no storm operational notice observed.",
+      "finding": "Pascagoula port not primary-certified in this bounded read."
+    },
+    {
+      "url": "https://www.porttechnology.org/news/safety-and-security/us-coast-guard-deploys-teams-to-reopen-storm-hit-gulf-ports/",
+      "basis": "SECONDARY indexed articleOct12; full open403.",
+      "finding": "Reports Pascagoula/Gulfport normal and Mobile restricted. Mobile conflicts with dated port-authority update; reject it as current Mobile evidence. Pascagoula remains relay only."
+    }
+  ]
+}

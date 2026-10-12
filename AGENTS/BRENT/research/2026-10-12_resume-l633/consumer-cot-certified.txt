@@ -1,0 +1,35 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/BRENT/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded 129,436 → current 124,755
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (9)
+        AGENTS/DAEDALUS/runs/2026-10-08_GATE_BASIS_SWEEP_02_STRANGER_B.md:11  [129436]
+           | GATE-BRENT-COT-35B | **GRADED — JOINT NOT-SPENT** (as-of 9/29: shorts 129,436 ≥ 118,326; OI-share 6.8901% > 4.909%) | "Resolving vintage =
+        AGENTS/DAEDALUS/runs/2026-10-08_GATE_BASIS_SWEEP_02_STRANGER_B.md:28  [129436]
+           **Grading attempt (verbatim).** `date` 2026-10-08 16:15 EDT. `curl -A "Mozilla/5.0" https://www.cftc.gov/dea/newcot/f_disagg.txt` → 456,793 
+        AGENTS/WALTER/research/2026-10-09_morning/desk-status-context.md:12  [129436]
+           | BRENT | Last real data refresh 2026-10-08 16:37 ET (SCOPED-PARTIAL) | no | — | Hormuz drives the oil jump; Isaias is transient unless it c
+        PROME/HEARTBEAT_COLD.md:877  [129436]
+           - **Am.#1 §1 as written 10/2 16:38 ET (verbatim; ⚠️ one clause CORRECTED below):** **§1 Energy:** **G7 ADOPTED ~100M bbl diesel/crude releas
+        PROME/HEARTBEAT_COLD.md:908  [129436]
+           - **Am.#1 stress-dashboard paragraph as written (verbatim; ⚠️ its '$99.61 [10/02 settle, TERRY]' carries the §26.1 misattribution):** **Stre
+        PROME/proposals/2026-10-03_gates-step3-pass-PLAN.md:109  [129436]
+           > LIVE — vintage #8 [as-of 9/29] JOINT NOT-SPENT (BRENT owner grade a43e77347, raw CFTC f_disagg + independent second pull, COT_VINTAGES.tsv
+        PROME/proposals/2026-10-03_gates-step3-pass-PLAN.md:112  [129436]
+           > LIVE — vintage #8 [as-of 9/29] JOINT NOT-SPENT (BRENT a43e77347): Leg A MM gross shorts 129,436 ABOVE the 109,165–118,325 deadband · Leg B
+        PROME/proposals/2026-10-03_gates-step3-pass-PLAN.md:116  [129436]
+           > 2026-10-03 16:1x ET PROME CONSUMER READ of BRENT's #8 owner grade at AGENTS/BRENT/workbook/COT_VINTAGES.tsv row 2026-09-29 (a43e77347 15:3
+        PROME/proposals/2026-10-03_gates-step3-pass-PLAN.md:119  [129436]
+           > 2026-10-03 16:1x ET PROME CONSUMER READ of BRENT's #8 owner grade at AGENTS/BRENT/workbook/COT_VINTAGES.tsv row 2026-09-29 (a43e77347: 129
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (2)
+        AGENTS/DAEDALUS/runs/2026-10-08_GATE_BASIS_SWEEP_02_STRANGER_B.md:29  [129436]  (no unit/series context on line)
+           - Leg A: 129,436 ≥ 118,326 ⇒ **NOT-SPENT** (11,110 contracts above the NOT-SPENT floor).
+        AGENTS/TERRY/SIGNALS.tsv:24  [129436]  (dated TSV row (2026-08-23) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-08-23	BRENT	COT-FUEL-35B-V2	POSITIONING	oil-sleeve SIZING basis only	2026-09-29	med	-	LIVE	[RE-VERIFIED 2026-10-08 11:12 ET TERRY at PR
+
+  🔴 9 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================
+

@@ -1,0 +1,18 @@
+[
+  {
+    "signal": "SIG-W-20261012-003",
+    "disposition": "noted",
+    "sha256": "88dee9d8ccf544ac4b5c315541efa82b6ec7dcbbbb30afac8ebba4e5a3f5b20e",
+    "source_path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261012-003.md",
+    "destination_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261012-003.md",
+    "sender_commit": "5a9f78a43"
+  },
+  {
+    "signal": "SIG-W-20261012-004",
+    "disposition": "acted",
+    "sha256": "7bf5651f14670e76c9423d271dd2bee20dee279cf372f04602746b5beb3007a1",
+    "source_path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261012-004.md",
+    "destination_path": "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261012-004.md",
+    "sender_commit": "5a9f78a43"
+  }
+]

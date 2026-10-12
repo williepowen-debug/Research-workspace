@@ -1,0 +1,63 @@
+[
+  {
+    "argv": [
+      "python3",
+      "scripts/read_cap_check.py",
+      "--agent",
+      "BRENT"
+    ],
+    "rc": 0,
+    "stdout": "READ-CAP [BRENT] \u2014 cap 54,250 B \u00b7 budget 32,550 B (60%) \u00b7 ALL % BELOW ARE OF BUDGET (the number every verdict grades; \u2265100% = over) \u00b7 perimeter: 3 boot section(s) in CLAUDE.md, 29 'read' line(s) scanned (0 on-demand/grep + 0 SCOPED-read token(s) excluded by marker; 0 list item(s) inherited the parent line's read verb, L530), 5 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic \u2014 READS.tsv replaces it)\n  \u2705 TRADE.md                             24,318 B    75% of budget    (boot-step line 26)\n      \u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,534 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 94 B.\n  \u2705 STATUS.md                            22,771 B    70% of budget    (boot-step line 26)\n  \u2705 LESSONS.md                           15,125 B    46% of budget    (boot-step line 30)\n  \u2705 domain/REFERENCE_TABLES.md            6,174 B    19% of budget    (boot-step line 31)\n  \u2705 SCRATCH.md                            5,160 B    16% of budget    (boot-step line 27)\n\u2705 READ-CAP 0 [BRENT]: every boot-mandated read this check found is under budget (5 file(s)). \u26a0\ufe0f PERIMETER IS THE CHARTER HEURISTIC \u2014 this desk has no declaration in PROME/registry/READS.tsv, so this is 'clean within what the scan found', NOT a clean bill. 29 of 37 desks delegate boot to a file it cannot see.\n  \u2139\ufe0f  charter AGENTS/BRENT/CLAUDE.md = 31,700 B \u2014 OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here\nREAD-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=BRENT reads=5 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 charter_bytes=31700\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      ".venv/bin/python3",
+      "AGENTS/BRENT/scripts/render_calendar.py",
+      "--check"
+    ],
+    "rc": 0,
+    "stdout": "\u2705 CALENDAR: STATUS block matches docket/CATALYSTS.tsv (24 events)\n\u2705 STANDING STATE: all 8 row(s) stamped and reconciled at or after the newest graded catalyst (2026-10-09).\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "python3",
+      "scripts/claim_check.py",
+      "--check",
+      "weekday",
+      "PROME/DOCKET.tsv",
+      "PROME/GATES.tsv",
+      "PROME/WILL_QUEUE.md",
+      "AGENTS/BRENT/docket/CATALYSTS.tsv",
+      "AGENTS/BRENT/STATUS.md"
+    ],
+    "rc": 0,
+    "stdout": "CLAIM-CHECK \u2713 5 file(s) clean [weekday]\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "python3",
+      "scripts/corrections_boot_check.py",
+      "BRENT"
+    ],
+    "rc": 0,
+    "stdout": "CORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for BRENT (register 62 row(s), 0 ALL-warn, 0 ALL-row(s) past cap unreceipted = broadcast expired, not an obligation; receipts on file: 11) \u2014 PASS covers the register at /home/willi/Research-workspace/AGENTS/WALTER/registry/CORRECTIONS.tsv and this desk's receipts file, nothing else (it does not prove a receipt's action was correct or that the correction was applied)\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "git",
+      "diff",
+      "--check",
+      "--",
+      "AGENTS/BRENT",
+      "AGENTS/TERRY/inbox/2026-10-12_from-BRENT_cot9-recovery-latest-cell.md",
+      "PROME/inbox/2026-10-12_from-BRENT_resumed-boot-L633-csv-disposition.md"
+    ],
+    "rc": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+]

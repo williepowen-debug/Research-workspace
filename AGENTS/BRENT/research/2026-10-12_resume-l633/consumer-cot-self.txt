@@ -1,0 +1,31 @@
+  ℹ️  multiple --old against one --new: correct ONLY if all are prior vintages of the SAME figure. To check several DIFFERENT metrics, run separate invocations or --from-ledger (which pairs each metric's own old→current) — mis-pairing manufactures false 🔴s (VIOLET 8/20, 3-of-3).
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 475 files under AGENTS/BRENT/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded 129436, 129,436 → current 124755
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (14)
+        AGENTS/BRENT/STATUS.md:43  [129436]  (noise-dominated: needle in 5 files — mass propagation or collision; re-run with --unit/--series)
+           | **📊 **RETAINED — `COT-FUEL-35B` BAND + LADDER (frozen spec).** ⏱ **as-of `2026-09-29` vintage #8** · ✓ **reconciled `2026-10-09`** (frozen
+        AGENTS/BRENT/demand_destruction/TRACKER.md:337  [129436]  (noise-dominated: needle in 5 files — mass propagation or collision; re-run with --unit/--series)
+           | **Oct 5** (Mon) | not pulled (Monday-only run; GASREGW is FRED, `env_doctor FAIL` this box, no fresh box key) | not pulled (Monday-only ru
+        AGENTS/BRENT/research/2026-10-12_resume-l633/consumer-cot-cross.txt:12  [129436]  (noise-dominated: needle in 5 files — mass propagation or collision; re-run with --unit/--series)
+           AGENTS/DAEDALUS/runs/2026-10-08_GATE_BASIS_SWEEP_02_STRANGER_B.md:11  [129436]  (noise-dominated: needle in 5 files — mass propagation or co
+        AGENTS/BRENT/research/2026-10-12_resume-l633/consumer-cot-cross.txt:13  [129436]  (noise-dominated: needle in 5 files — mass propagation or collision; re-run with --unit/--series)
+           | GATE-BRENT-COT-35B | **GRADED — JOINT NOT-SPENT** (as-of 9/29: shorts 129,436 ≥ 118,326; OI-share 6.8901% > 4.909%) | "Resolving vintage =
+        AGENTS/BRENT/research/2026-10-12_resume-l633/consumer-cot-cross.txt:14  [129436]  (noise-dominated: needle in 5 files — mass propagation or collision; re-run with --unit/--series)
+           AGENTS/DAEDALUS/runs/2026-10-08_GATE_BASIS_SWEEP_02_STRANGER_B.md:28  [129436]  (noise-dominated: needle in 5 files — mass propagation or co
+        AGENTS/BRENT/research/2026-10-12_resume-l633/consumer-cot-cross.txt:16  [129436]  (noise-dominated: needle in 5 files — mass propagation or collision; re-run with --unit/--series)
+           AGENTS/DAEDALUS/runs/2026-10-08_GATE_BASIS_SWEEP_02_STRANGER_B.md:29  [129436]  (noise-dominated: needle in 5 files — mass propagation or co
+        AGENTS/BRENT/research/2026-10-12_resume-l633/consumer-cot-cross.txt:17  [129436]  (noise-dominated: needle in 5 files — mass propagation or collision; re-run with --unit/--series)
+           - Leg A: 129,436 ≥ 118,326 ⇒ **NOT-SPENT** (11,110 contracts above the NOT-SPENT floor).
+        AGENTS/BRENT/research/2026-10-12_resume-l633/consumer-cot-cross.txt:18  [129436]  (noise-dominated: needle in 5 files — mass propagation or collision; re-run with --unit/--series)
+           AGENTS/WALTER/research/2026-10-09_morning/desk-status-context.md:12  [129436]  (noise-dominated: needle in 5 files — mass propagation or col
+        … +6 more 🟠 hit(s) on [129436] across 5 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟢 cleared: marker-adjacent / next to new value / frozen file (4)  [--show-handled to audit]
+
+  🟠 14 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+

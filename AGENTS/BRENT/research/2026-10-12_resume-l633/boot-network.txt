@@ -1,0 +1,110 @@
+
+########################################################################
+#                                                                      #
+#                         BRENT BOOT SEQUENCE                          #
+#                                                                      #
+#                   Monday, October 12, 2026  10:34                  #
+#                                                                      #
+########################################################################
+
+  ⏳ Threshold Monitor...
+      🟢 THESIS CONFIRMING BREACHES
+      🟠 STRUCTURAL STRESS BREACHES
+      🟠 DCOILBRENTEU           125.44  (level 120.00, +4.5%) (2026-10-06)
+      🟠 BAMLH0A0HYM2            3.150  (level 3.000, +5.0%) (2026-10-08)
+      🟠 GASREGW                 4.354  (level 4.000, +8.9%) (2026-10-05)
+      ⚠️  NEAR THRESHOLDS (within 5%)
+      ⚠️  GASREGW                 4.354  (level 4.500, -3.2%) (2026-10-05)
+      CRUDE & FUTURES
+      Brent futures              107.07  (+2.24%) as of 2026-10-12T14:24:40+00:00 [vendor quote]
+      WTI futures                 93.84  (+2.17%) as of 2026-10-12T14:24:39+00:00 [vendor quote]
+
+  ⏳ EIA Weekly Monitor...
+    Source: API (EIA v2 API; retrieval time is not release time)
+    Week ending: 2026-10-02
+    Released: UNKNOWN — API observation dates below
+    Refinery utilization: elevated — production running hot on 2026-10-02; observation check only
+
+  ⏳ Catalyst Countdown...
+      🔴 IMMINENT (≤5 weekdays)
+      🟠 ~2026-10-14 (Wed)   2d cal /  2d weekday  🟠 IEA OMR OCTOBER — stock-release delivery / supplemental-diesel watch + global stock draw
+      🟠  2026-10-15 (Thu)   3d cal /  3d weekday  IEA GOVERNING BOARD — diesel-release implementation and supplemental-volume assessment
+      🟠 ~2026-10-22 (Thu)   10d cal /   8d weekday  G7 STOCK IMPLEMENTATION — modeled end of firs...
+      🟠  2026-10-24 (Sat)   12d cal /   9d weekday  TEXAS DIESEL WAIVER — existing 20-day window ...
+      🟠  2026-10-31 (Sat)   19d cal /  14d weekday  RUSSIA PRODUCER DIESEL EXPORT BAN — extended ...
+      🟠 ~2026-11-01 (Sun)   20d cal /  14d weekday  🟠 EU GAS STORAGE — RESOLVED 2026-08-13: the t...
+      🟠  2026-11-01 (Sun)   20d cal /  14d weekday  ROUTINE CRONS — DST RE-SET (EST begins): move...
+      🟠  2026-11-01 (Sun)   20d cal /  14d weekday  🟠 OPEC+ SEVEN-COUNTRY MONTHLY MEETING — the D...
+      🟠  2026-11-18 (Wed)   37d cal /  27d weekday  WQ-386 HELD VLO — review next crack basis
+      🟠  2026-11-19 (Thu)   38d cal /  28d weekday  WQ-386 HELD VLO — last authorized December le...
+
+  ⏳ Predictions-Due Scan...
+    ✓ ran cleanly, no alerts
+
+  ⏳ Lesson-Conflict Check...
+    ✓ ran cleanly, no alerts
+
+  ⏳ Pending-Receipts Check...
+         Scope: EXECUTION LOG markers and POSITIONS expiry=YYYY-MM-DD fields only.
+
+  ⏳ Instrument Check...
+      🟠 WARNINGS (3):
+         🟠 THESIS-WTI-BRENT: PARTIAL_COVERAGE — probe checks one component only; full paired/composite measurement remains unverified
+         🟠 DIESEL-CRACK: PARTIAL_COVERAGE — probe checks one component only; full paired/composite measurement remains unverified
+         🟠 TANKER-LIVENESS: OWNER_GRADE_REQUIRED — complete T components only; grade once at/after 14:00 ET under BE-04 through BE-12; C and close veto remain separate
+      🟠 INCIDENTS.tsv — 5 ACTIVE rows past the 60d re-verify budget (ACTIVE is a PRESENT-TENSE claim; re-verify or downgrade):
+         🟠 RF-013 Ufa                                    last verified 2026-04-02 (193d)
+         🟠 RF-014 Mina Al-Ahmadi                         last verified 2026-04-03 (192d)
+         🟠 RF-022 Tuapse                                 last verified 2026-04-21 (174d)
+         🟠 RF-033 VTTI Fujairah oil terminal             last verified 2026-05-31 (134d)
+         🟠 RF-044 Jazan Refinery & Terminal (Jizan, Red  last verified 2026-08-10 (63d)
+         ⚠️  Flags only — never auto-edits. Downgrading on a timer would fabricate a restart nobody observed.
+      🟠 INCIDENTS.tsv — 19 row(s) in PRESENT-TENSE statuses the 60d budget does NOT cover, also stale (DISCLOSURE, not a budget — no threshold, gates nothing):
+         🟠 RF-005 Bazan (Haifa)                    PARTIAL_RESTART last verified 2026-03-20 (206d)
+         🟠 RF-031 Mangalore (MRPL)                 DISPUTED        last verified 2026-04-17 (178d)
+         🟠 RF-008 Port Arthur                      PARTIAL_RESTART last verified 2026-06-30 (104d)
+         🟠 RF-037 KOC offshore drilling platform ( MONITORING      last verified 2026-07-21 (83d)
+         🟠 RF-018 Satorp (Jubail)                  PARTIAL_RESTART last verified 2026-07-24 (80d)
+         🟠 RF-040 Perm Refinery - Lukoil-Permnefte MONITORING      last verified 2026-07-30 (74d)
+         ⚠️  Here because re-classifying a row OUT of ACTIVE silently removes it from the re-verify queue — accuracy must not buy invisibility.
+         ⚠️  These are NOT restarts and NOT resolutions — the capacity is gone, permanently. They re-enter ACTIVE only on a REPORTED restart or sale-and-restart, never on a clock. Each row names that condition in its notes.
+      ⚠️  This checks the INSTRUMENT, never whether the THRESHOLD LEVEL is still meaningful.
+
+  ⏳ Ledger Staleness...
+    ✓ ran cleanly, no alerts
+
+  ⏳ Ledger Nudge...
+    ⚠️  nudge: [BRENT] STATUS moving without ledgers — 7 ledger(s) behind: REGISTRY.tsv (24 STATUS-writes behind), LESSONS_INDEX.tsv (11 STATUS-writes behind), INCIDENTS.tsv (9 STATUS-writes behind), COT_VINTAGES.tsv (5 STATUS-writes behind), TRADE.md (3 STATUS-writes behind), board_log.tsv (3 STATUS-writes behind), CATALYSTS.tsv (1 STATUS-write behind) — freeze-or-refresh EACH, or say why not in the commit
+
+  ⏳ Derived Views...
+    ✓ ran cleanly, no alerts
+
+========================================================================
+  BOOT SUMMARY
+========================================================================
+
+  Script                           Status     Time
+  --------------------------------------------------
+  ✅ Threshold Monitor                OK   12.1s
+  ✅ EIA Weekly Monitor               OK    9.9s
+  ✅ Catalyst Countdown               OK    0.0s
+  ✅ Predictions-Due Scan             OK    0.0s
+  ✅ Lesson-Conflict Check            OK    0.0s
+  ✅ Pending-Receipts Check           OK    0.0s
+  🟠 Instrument Check             WARNINGS    7.7s
+  ✅ Ledger Staleness                 OK    0.5s
+  🔴 Ledger Nudge                 FINDINGS    0.2s
+  ✅ Derived Views                    OK    0.0s
+
+  Total boot time: 30.6s
+  Date: 2026-10-12 | Day: Monday
+
+  🟠 1 check(s) reported advisory warnings; inspect the dated evidence. Warnings do not block or authorize a trade.
+
+  🔴 1 check(s) reported FINDINGS (checks ran; inspect data, coverage, source or rule diagnostics):
+     • Ledger Nudge
+
+  🔴 BOOT COMPLETED WITH 1 BLOCKING FINDING(S). Scripts all RAN; inspect the named findings and their evidence. rc=2.
+     ⛔ This is NOT a clean boot. Do not read the run as green.
+
+  Tip: run with --verbose to see full output for each script.

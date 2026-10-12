@@ -1,0 +1,224 @@
+{
+  "inspected_at": "2026-10-12T10:39:41.399658-04:00",
+  "producer": "Tracked crack_pull.py; final evidence.json retrieved_utc=2026-10-09T18:44:47.407665+00:00",
+  "decision": "Preserve all eight bytes unchanged and explicitly commit after inspection. Do not rerun producer against this directory.",
+  "limits": "Single Yahoo/yfinance lineage, historical raw evidence. No expiry/contract identity certification supplied by CSV alone. Old three-bar typical/Close windows are not prospectively regraded under WQ420.",
+  "files": [
+    {
+      "file": "CLX26.NYM_1d.csv",
+      "bytes": 1213,
+      "sha256": "cce5397faf70aab41cb29ed0ab1a315fcc8f9f4f78af2f5a7a46f20503f00567",
+      "rows": 9,
+      "first": "2026-09-29 00:00:00-04:00",
+      "last": "2026-10-09 00:00:00-04:00",
+      "duplicate_timestamps": 0,
+      "invalid_ohlcv_rows": [],
+      "zero_volume_rows": 0,
+      "disposition": "RETAIN_AND_COMMIT_RAW_HISTORICAL_EVIDENCE",
+      "evidence_match": true,
+      "limits": "Intraday mutable October9 row. October7/8 volumes duplicated in each leg. Not finalized settlements."
+    },
+    {
+      "file": "CLX26.NYM_1m.csv",
+      "bytes": 787528,
+      "sha256": "0826081fb880ed1a8e5c2b549cc876acb3f8c8a8c083028dce7f9795e10bdb97",
+      "rows": 6354,
+      "first": "2026-10-05 00:00:00-04:00",
+      "last": "2026-10-09 14:34:00-04:00",
+      "duplicate_timestamps": 0,
+      "invalid_ohlcv_rows": [],
+      "zero_volume_rows": 6,
+      "disposition": "RETAIN_AND_COMMIT_RAW_HISTORICAL_EVIDENCE",
+      "oct9_rows": 875,
+      "historical_window_bars": [
+        [
+          "14:28",
+          91.87999725341797,
+          91.69999694824219,
+          91.87000274658203,
+          3285
+        ],
+        [
+          "14:29",
+          91.94999694824219,
+          91.86000061035156,
+          91.91999816894531,
+          3318
+        ],
+        [
+          "14:30",
+          91.94999694824219,
+          91.83000183105469,
+          91.91000366210938,
+          953
+        ]
+      ],
+      "volume": 7556,
+      "typ_vwap": 91.86774034434491,
+      "close_vwap": 91.89700191067665,
+      "evidence_match": true
+    },
+    {
+      "file": "CLZ26.NYM_1d.csv",
+      "bytes": 1161,
+      "sha256": "56025582d8626db971d82982b4465eafaf0f6bdbb94cfa61fa14ddcbca9d0e27",
+      "rows": 9,
+      "first": "2026-09-29 00:00:00-04:00",
+      "last": "2026-10-09 00:00:00-04:00",
+      "duplicate_timestamps": 0,
+      "invalid_ohlcv_rows": [],
+      "zero_volume_rows": 0,
+      "disposition": "RETAIN_AND_COMMIT_RAW_HISTORICAL_EVIDENCE",
+      "evidence_match": true,
+      "limits": "Intraday mutable October9 row. October7/8 volumes duplicated in each leg. Not finalized settlements."
+    },
+    {
+      "file": "CLZ26.NYM_1m.csv",
+      "bytes": 747489,
+      "sha256": "e610ae58fbe41dda01974aac2ae19dc5f9a4a49e06710a7ef9eb903713b3a5cb",
+      "rows": 6052,
+      "first": "2026-10-05 00:00:00-04:00",
+      "last": "2026-10-09 14:34:00-04:00",
+      "duplicate_timestamps": 0,
+      "invalid_ohlcv_rows": [],
+      "zero_volume_rows": 6,
+      "disposition": "RETAIN_AND_COMMIT_RAW_HISTORICAL_EVIDENCE",
+      "oct9_rows": 868,
+      "historical_window_bars": [
+        [
+          "14:28",
+          91.04000091552734,
+          90.83999633789062,
+          91.01000213623047,
+          2909
+        ],
+        [
+          "14:29",
+          91.11000061035156,
+          91.01000213623047,
+          91.08000183105469,
+          2859
+        ],
+        [
+          "14:30",
+          91.0999984741211,
+          90.98999786376953,
+          91.06999969482422,
+          615
+        ]
+      ],
+      "volume": 6383,
+      "typ_vwap": 91.01828914679984,
+      "close_vwap": 91.04713634052901,
+      "evidence_match": true
+    },
+    {
+      "file": "HOX26.NYM_1d.csv",
+      "bytes": 1237,
+      "sha256": "718f395994d3fefe4de4127f82ab134ef7f85482e5731c7398a0f7d37406c831",
+      "rows": 9,
+      "first": "2026-09-29 00:00:00-04:00",
+      "last": "2026-10-09 00:00:00-04:00",
+      "duplicate_timestamps": 0,
+      "invalid_ohlcv_rows": [],
+      "zero_volume_rows": 0,
+      "disposition": "RETAIN_AND_COMMIT_RAW_HISTORICAL_EVIDENCE",
+      "evidence_match": true,
+      "limits": "Intraday mutable October9 row. October7/8 volumes duplicated in each leg. Not finalized settlements."
+    },
+    {
+      "file": "HOX26.NYM_1m.csv",
+      "bytes": 633836,
+      "sha256": "82d61e3bcd14775ef5dd3e4446732edd1524fd61b2cda17da5c2a3d68eac0053",
+      "rows": 5004,
+      "first": "2026-10-05 00:00:00-04:00",
+      "last": "2026-10-09 14:34:00-04:00",
+      "duplicate_timestamps": 0,
+      "invalid_ohlcv_rows": [],
+      "zero_volume_rows": 6,
+      "disposition": "RETAIN_AND_COMMIT_RAW_HISTORICAL_EVIDENCE",
+      "oct9_rows": 769,
+      "historical_window_bars": [
+        [
+          "14:28",
+          4.742300033569336,
+          4.726399898529053,
+          4.740600109100342,
+          1880
+        ],
+        [
+          "14:29",
+          4.743800163269043,
+          4.739099979400635,
+          4.741199970245361,
+          1689
+        ],
+        [
+          "14:30",
+          4.7418999671936035,
+          4.735099792480469,
+          4.736100196838379,
+          90
+        ]
+      ],
+      "volume": 3659,
+      "typ_vwap": 4.738741747677255,
+      "close_vwap": 4.74076632210126,
+      "evidence_match": true
+    },
+    {
+      "file": "HOZ26.NYM_1d.csv",
+      "bytes": 1238,
+      "sha256": "cb56d070f47d7b23545bc50f48304645bfc4feda86fa8654f0f5bb7d084abed5",
+      "rows": 9,
+      "first": "2026-09-29 00:00:00-04:00",
+      "last": "2026-10-09 00:00:00-04:00",
+      "duplicate_timestamps": 0,
+      "invalid_ohlcv_rows": [],
+      "zero_volume_rows": 0,
+      "disposition": "RETAIN_AND_COMMIT_RAW_HISTORICAL_EVIDENCE",
+      "evidence_match": true,
+      "limits": "Intraday mutable October9 row. October7/8 volumes duplicated in each leg. Not finalized settlements."
+    },
+    {
+      "file": "HOZ26.NYM_1m.csv",
+      "bytes": 554540,
+      "sha256": "189bbdd809b3873da81668053f661104db025b6404be9394af29a2be45e7aafa",
+      "rows": 4378,
+      "first": "2026-10-05 00:00:00-04:00",
+      "last": "2026-10-09 14:34:00-04:00",
+      "duplicate_timestamps": 0,
+      "invalid_ohlcv_rows": [],
+      "zero_volume_rows": 6,
+      "disposition": "RETAIN_AND_COMMIT_RAW_HISTORICAL_EVIDENCE",
+      "oct9_rows": 713,
+      "historical_window_bars": [
+        [
+          "14:28",
+          4.59119987487793,
+          4.575399875640869,
+          4.590000152587891,
+          1639
+        ],
+        [
+          "14:29",
+          4.594200134277344,
+          4.589600086212158,
+          4.591300010681152,
+          1297
+        ],
+        [
+          "14:30",
+          4.592599868774414,
+          4.58650016784668,
+          4.58650016784668,
+          34
+        ]
+      ],
+      "volume": 2970,
+      "typ_vwap": 4.588260678784748,
+      "close_vwap": 4.590527733889493,
+      "evidence_match": true
+    }
+  ]
+}

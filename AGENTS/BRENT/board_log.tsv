@@ -552,3 +552,5 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-11 19:17 EDT	SIG-W-20261011-008	acted	INBOX_WALTER	Early cent-rounded read retains caveat; later named same-minute full-decimal last-price diagnostic saved, no settlement grade.
 2026-10-11 19:17 EDT	2026-10-10_from-FALCON_ghawar-gosp-flaring-inference	noted	INBOX	Heat not barrels; measured Saudi production/export figure not obtained. Optional ask answered in NEXUS, no retask.
 2026-10-11 19:17 EDT	2026-10-10_from-OSPREY_refinery-terminal-state-behind-gl135-azov-lead	noted	INBOX	Capacity not offline volume; deal ban-lift confound retained; 4-week exports to10/11 not obtained, next expected ~10/13.
+2026-10-12 10:52 EDT	SIG-W-20261012-003	noted	INBOX_WALTER	Independent Reuters/JPost source upgrade reproduces morning Sohar finding, same hull/event. Historical Aramco primary confirms gas-plant class only, no October crude damage.
+2026-10-12 10:52 EDT	SIG-W-20261012-004	acted	INBOX_WALTER	Independent GulfTimes/AOL pair reproduces August-vintage copy displayedOctober12. Current-October interpretation quarantined at STATUS under existingL24. COR-20261012-04 APPLIED, validation MAIL_UPDATE.
