@@ -36,3 +36,7 @@ The two current-session ignoredraw directories contain **31 files / 21,583,655 b
 ## Persistence boundary
 
 This report, JSON manifest and self-authored PROME checkpoint packet are the only new ready-owned files. Commit them by exact path, report the command-returned hash, and notify the existing PROME thread. Local commit is separate from PROME's fresh-fetch confirmed push and recipient consumption. No acknowledgment loop or additional study follows.
+
+## Post-commit landing at final boundary
+
+After the six-file inventory commit, `AGENTS/REGINALD/inbox/2026-10-12_from-CARL_SoFi-Q2-transfer-risk-supplement.md` arrived untracked. Packet read for scope: source supplement to existing WQ228/feed request, owner integration deferred to its next feed-consumption touch. CARL owns its persistence before switch; no new study or agreement inferred. Thus the latest observed uncommitted incoming count is **seven**, including the six WALTER paths above. The JSON remains the earlier timestamped six-file observation, not a continuously refreshed inventory.
