@@ -2,7 +2,7 @@
 
 **Last real data refresh: 2026-10-12 15:04 EDT — SCOPED-PARTIAL:** CME15:02 retry empty; October12 TERRY A-notice/A-exit UNKNOWN now verified committed atfdeb3336b. Physical/market sources retain their dates. [Audit/follow-up](audits/2026-10-12_desk-health/REPORT.md#existing-afternoon-continuation).
 
-**Will-directed closeout 2026-10-12 15:13 EDT:** [handoff](SCRATCH.md) and [receipt](audits/2026-10-12_desk-health/CLOSEOUT.md). Re-verified saved owner state and exact committed TERRY/PROME receipts; L633/L694 bounded deliveries resolved, physical/source duties remain. L684 independent WQ420 acceptance still owed. No new primary, broker/order, line grade or phase refresh. Publication with PROME; remote confirmation pending.
+**Will-directed closeout 2026-10-12 15:13 EDT:** [handoff](SCRATCH.md) and [receipt](audits/2026-10-12_desk-health/CLOSEOUT.md). Re-verified saved owner state and exact committed TERRY/PROME receipts; L633/L694 bounded deliveries resolved, physical/source duties remain. L684 independent WQ420 acceptance still owed. No new primary, broker/order, line grade or phase refresh. Closeout contentf23f7eed9 published in authorized shared train1276609e3; fresh-fetch receipt saved.
 
 **Routine deployment stays parked** at the [CATO handoff](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et); saved repair is complete, live deployment/normal-run acceptance unresolved. No trade approval changed. Position status and USO card correction → [TRADE](TRADE.md).
 

@@ -32,7 +32,7 @@
 
 ## MAIL STATE
 - Inbox: new TERRY afternoon packet read/logged for one archive move; prior audit5+helper1 moves receipted. No other actionable inbox at closeout scan. Outbox top-level Markdown clear.
-- Delivery: L694 accepted; PROME audit/afternoon consumption verified at L633 receipt. New dated computer-switch completion packet to PROME follows this commit. Native queue acceptance and remote confirmation are recorded separately; PROME owns safe push under Will's shared-train authorization.
+- Delivery: L694 accepted; PROME audit/afternoon consumption verified at L633 receipt. Computer-switch completion packet committedf23f7eed9; PROME native queue accepted the pointer, consumption remains separate. Normal guarded closeout push confirmed shared HEAD1276609e3 on origin by fresh fetch, including content and notification receipta54231b35; push/coordination receipt saved in closeout-receipt.json.
 
 ## WORKBOOK HEALTH
 - Scoped closeout checks recorded in audit; Ledger Nudge dispositioned per file in closeout/commit, not all-clear. Frozen KB/VX/FLOW/TIMELINE untouched. No auto-memory or threshold/band change at closeout.
