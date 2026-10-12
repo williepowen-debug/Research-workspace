@@ -36,9 +36,9 @@
 
 **Predecessor inputs, not refreshed here:** owner count 10 through315 [10/8], anchor 280 [9/24]. Price window 9/24→10/12 RAW −4.40%/−1.42%, ADJ −2.89%/−1.42%; since 10/9 both rose +0.28%/+0.64%. Figures cannot substitute for renewed October13 inputs. Six earlier intake items/evidence → `research/L673_REFRESH_AND_INTAKE_2026-10-12.md`; fresh regulatory qualifiers→§0p. October23 backlog unchanged. PROME pair transport/consumption verified; no all-fleet certification.
 
-## 0n. 2026-10-10 — historical receipt
+## 0n. 2026-10-10 — history
 
-**L0 drain:** 22 consumed; `T-SHADE-01` owner fire on 10/9 closes/10/8 HY = **PROVISIONAL, post-hoc window** (PROME L673). Corrected 10/1 figures **−6.33% / −16.27%, +9.95pp**, APO 9/30 **$116.06**; NOT MET verdict stood. Full prior rails/evidence → `research/T-SHADE-01_FIRE_AND_L0_DRAIN_2026-10-10.md`. **W1/L182 covered by WQ-364; no SHADE enumeration owed 10/16.** Thesis-level falsifier remains deferred to 10/23 behind the dig.
+L0 drain22; owner fire PROVISIONAL/post-hoc. Corrected10/1 readings→charter and `research/T-SHADE-01_FIRE_AND_L0_DRAIN_2026-10-10.md`. W1 covered by WQ364; no10/16 enumeration.
 
 ## 0m. 2026-10-01 — LIVE RAILS
 
