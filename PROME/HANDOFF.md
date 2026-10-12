@@ -2,6 +2,10 @@
 
 **Resume:** [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here) owns the immediate next actions, blockers and generated queue/calendar. [STATUS](STATUS.md) indexes remaining PROME work; source records establish the decision and each completion/receipt fact. The document cleanups below do not discharge those obligations.
 
+## October12 — active owner coordination and L694 acceptance
+
+[Checkpoint](reports/2026-10-12_active-owner-checkin.md) supersedes the earlier pending-stage status: seven existing owner windows contacted through supported Codex queue; BRENT supplied its formal energy WAIT and TERRY completed the comparison. PROME accepted L694. Existing future evidence and afternoon duties remain separate. WALTER signed READS declaration transcribed; owner hash installation remains its next step. CARL/DEWEY are booted and delivering; CARL fintech and REGINALD breadth work are now underway. Transport JSON and ORCH_LOG retain exact identities/receipts; no duplicate owner or closeout. Later research commits remain local where shared publication approval was rejected.
+
 ## October12 — approved opportunity discovery, existing desktop owners
 
 **Context transition — Will direct notice:** “by the way on my end I am closing out my spawned agents.  I will respawn some of them(like BRENT, TERRY, etc) in a fresh context window.  Just wanted to let you know incase you get surprised by them or something”. Suspend further task sends to the old window IDs; no duplicate/replacement launches by PROME. Scope/approval of L694 survives. On each fresh owner's actual boot/identity receipt, reconcile latest saved work and any old-session L694 result, then continue only unfinished stages through the verified new identity. Pending queue acceptance does not prove consumption. Do not mark every desk closed from this general notice.
