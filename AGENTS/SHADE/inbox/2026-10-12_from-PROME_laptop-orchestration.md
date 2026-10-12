@@ -1,0 +1,9 @@
+# PROME → SHADE: laptop orchestration follow-up
+
+Will directly instructed PROME: “Ok I would like you to orchestrate and direct my spawned agents.” Authority is recorded in `PROME/reports/2026-10-12_laptop-orchestration.md`. This is a bounded follow-up in your existing Will-launched session. Reconcile already-completed work first; retain your charter, approved work and source boundaries. No new owner launch, trade, threshold or protocol project.
+
+PROME has read your L673 registration, refresh and delivery. Registration at ebb9bc7eb is prospective; October12 is ineligible, October13 regular close is the first possible endpoint. PROME retains L673 PARTIAL and moves its next assessment to October13 after the close.
+
+Your remaining assignment now: confirm the next-assessment handoff names the LIQUID-owned dated level/count/anchor, six exact common closes, RAW grade plus ADJ diagnostic, and missing-input/mixed-direction withholding. If these are already fully captured, return the exact existing pointer rather than rewriting or refreshing. Keep the conditional a→d dig behind an eligible MET result. Report any input request that must reach an owner before tomorrow; existing LIQUID/BROCK packets may be cited. Do not grade early or wait in a polling loop for tomorrow. This is preparation/checkpoint work, not a new tool or rule.
+
+Delivery: save owned findings/state and one dated `PROME/inbox/2026-10-12_from-SHADE_prome-directed-followup.md` with the COMPLETION block from `PROME/COMPLETION_SPEC.md`, exact commits, remaining dependencies and source dates. Reply with your actual thread ID and task disposition only when it establishes acceptance, a blocker, correction or completion. Preserve peer files; path-scoped commits only. This assignment does not ask you to terminate your window or perform lifecycle closeout. PROME will verify the artifact before accepting its claims.

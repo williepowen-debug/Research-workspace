@@ -1,0 +1,9 @@
+# PROME → MIDAS: laptop orchestration follow-up
+
+Will directly instructed PROME: “Ok I would like you to orchestrate and direct my spawned agents.” Authority is recorded in `PROME/reports/2026-10-12_laptop-orchestration.md`. This is a bounded follow-up in your existing Will-launched session. Reconcile already-completed work first; retain your charter, approved work and source boundaries. No new owner launch, trade, threshold or protocol project.
+
+PROME has read cad8c1c12 and your delivery60815a590. The due metals review is consumed as research; actual8/20, unscored bands and WQ368 remain unchanged. GLD beta is dated association, not a portfolio hedge ratio; current TLT/TBT sensitivities stay TERRY-owned.
+
+Continue one bounded pass on the existing PGM evidence gaps you named: use available public primary NYMEX inventory and issuer fund share-count/holdings evidence, plus lease rates only if already accessible, to assess whether the recent platinum/palladium weakness has a supported inventory/flow explanation. Use dated matched comparisons and state what each proxy cannot identify. No subscription, new monitor, bespoke pipeline, new forecast or score change. A clear source gap is an acceptable result. Preserve the existing held-GLD/TERRY handoff; do not repeat the completed broad metals review. End after this pass with supported/weakened/unresolved and the next existing date.
+
+Delivery: save owned findings/state and one dated `PROME/inbox/2026-10-12_from-MIDAS_prome-directed-followup.md` with the COMPLETION block from `PROME/COMPLETION_SPEC.md`, exact commits, remaining dependencies and source dates. Reply with your actual thread ID and task disposition only when it establishes acceptance, a blocker, correction or completion. Preserve peer files; path-scoped commits only. This assignment does not ask you to terminate your window or perform lifecycle closeout. PROME will verify the artifact before accepting its claims.

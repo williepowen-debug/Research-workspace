@@ -1,0 +1,29 @@
+# October12 laptop orchestration — active
+
+## Authority and scope
+
+Will directly: “I have spawned SHADE MIDAS YURI and WALTER in separate windows.” Then: “Ok I would like you to orchestrate and direct my spawned agents.” PROME coordinates these existing Will-owned windows. No replacement owner or helper launched; technical permissions remain runtime-specific. The four bounded assignments are in their dated `2026-10-12_from-PROME_laptop-orchestration.md` inbox packets.
+
+## Identity and transport evidence
+
+| Desk | Session ID, corroborated by owner artifact and local Codex overview | Initial delivery read |
+|---|---|---|
+| SHADE | 01a131e1-41b2-7f91-aa98-d383b9a2060e | c03b33495 plus registration ebb9bc7eb and refresh |
+| MIDAS | 01a131e1-82c3-7702-beae-4992d53e8fd5 | cad8c1c12 /60815a590, full review |
+| YURI | 01a131e4-8224-7572-a1c0-feb7acebbb96 | 6db3b1ded /bdacfca4a, full actor review |
+| WALTER | 01a131e6-5754-7593-a546-210c87683eeb | 5a0c5a65f /f7bb2b20c, full resume receipt |
+
+All use the shared `/home/willi/Research-workspace` with canonical `AGENTS/<NAME>/` desk cwd. Owner records report Codex/OpenAI, exact model UNKNOWN; Will used the supplied Sol launch commands, but configuration is not independent model verification. Supported `codex agents --no-alt-screen` required approved escalation and displayed all four desk titles. Its Inactive labels do not establish process death or absence. The overview was exited without starting any task. Exposed tools have no fleet-wide native read/send endpoint. An installed-schema-guided, read-only `codex app-server proxy` initialize attempt timed out, even after permitted escalation; no raw socket or private-database fallback used. Supported `codex queue --thread <exact ID>` is the selected existing-session doorbell, with each actual result to be recorded separately. Queue acceptance is not recipient consumption.
+
+## Initial work consumed and current direction
+
+- SHADE: registration/source refresh accepted as preparation, L673 remains PARTIAL. First eligible endpoint October13 regular close; missing owner inputs or unsupported directional branch withhold the grade. No amended October12 fire or early statutory dig. Follow-up confirms the existing handoff and input dependencies.
+- MIDAS: broad metals review consumed. Actual8/20 and unscored-band/WQ368 boundaries retained. Dated GLD beta is not a current net-book hedge ratio. Next pass is the already-open PGM inventory/flow evidence gap, bounded to available public sources.
+- YURI: official partial-lift release recovered; signed lift/annex and delivered addition remain unresolved. Targeted follow-up stays inside the existing diesel request. L432's broad exercise-absence premise is contradicted by the source-qualified Tsentr report and must not inform decisions. Mobilisation remains OPEN/PARTIAL; no posture grade inferred.
+- WALTER: ordinary intake and existing MIDAS consumption accepted at their evidence perimeter. Reconcile new YURI/SHADE evidence through existing routing and report consequential missing consumption. X browser reauthorization remains a source gap; no charter activation or repeated token retries.
+
+Publication, source truth, recipient acceptance and completion are separate. No current-price recommendation, trade instruction or independent acceptance of MIDAS/YURI tool repairs is made. Existing future dates and owner duties remain at their canonical rows. This record is a coordination receipt, not lifecycle closeout.
+
+## Dispatch and results
+
+Assignments prepared; actual queue results and owner replies remain pending at this initial commit. Follow-ups are complete only after exact artifact reads and disposition. ORCH_LOG records each actual touch with owner WILL; no closeout ask is implied by a delivery request.
