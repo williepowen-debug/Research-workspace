@@ -1,0 +1,82 @@
+[
+  {
+    "name": "pravo-government-200.html",
+    "url": "http://publication.pravo.gov.ru/documents/block/government?pageSize=200",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/documents/block/government?pageSize=200",
+    "error": "",
+    "observed_at": "2026-10-12T20:57:12.735170+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/pravo-government-200.html",
+    "sha256": "48cd8ca99585266c23385e9295f2c45274c808f895cb0233ff9e13712309b249"
+  },
+  {
+    "name": "kremlin-news-page2.html",
+    "url": "http://kremlin.ru/events/president/news/page/2",
+    "curl_exit": 0,
+    "http": "200 http://kremlin.ru/events/president/news/page/2",
+    "error": "",
+    "observed_at": "2026-10-12T20:57:12.315194+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/kremlin-news-page2.html",
+    "sha256": "32abd872fb8a132ae07f6b3a139fa6c32a8d0d2c69ec6be5a6a3f9cfdf737868"
+  },
+  {
+    "name": "government-1252.pdf",
+    "url": "http://static.government.ru/media/files/DhUy61IlHA6wkk98O7UFYSIlOh2Wlw5J.pdf",
+    "curl_exit": 0,
+    "http": "200 http://static.government.ru/media/files/DhUy61IlHA6wkk98O7UFYSIlOh2Wlw5J.pdf",
+    "error": "",
+    "observed_at": "2026-10-12T20:57:12.676449+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/government-1252.pdf",
+    "sha256": "1190f1300ae28b89ae208ef025bd9270e84822ec0d03762c3692205ff4643844"
+  },
+  {
+    "name": "kremlin-80960.html",
+    "url": "http://kremlin.ru/events/president/news/80960",
+    "curl_exit": 0,
+    "http": "200 http://kremlin.ru/events/president/news/80960",
+    "error": "",
+    "observed_at": "2026-10-12T20:57:12.559001+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/kremlin-80960.html",
+    "sha256": "bd4f6b6477e1a63a1d92307ecd1c0d507c52a5d81238c441772238af1c4421ad"
+  },
+  {
+    "name": "kremlin-80961.html",
+    "url": "http://kremlin.ru/events/president/news/80961",
+    "curl_exit": 0,
+    "http": "200 http://kremlin.ru/events/president/news/80961",
+    "error": "",
+    "observed_at": "2026-10-12T20:57:12.310694+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/kremlin-80961.html",
+    "sha256": "adfb26a28bc6b2a67852f488008ce9c9aed6e841ea5c6522eca6b5317efdecc6"
+  },
+  {
+    "name": "pravo-726.html",
+    "url": "http://publication.pravo.gov.ru/document/0001202610120008",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/document/0001202610120008",
+    "error": "",
+    "observed_at": "2026-10-12T20:57:12.025255+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/pravo-726.html",
+    "sha256": "5c94774a247b124974bd6c0d6f184d275309462b456b1141ec0a6769d2fd4ba0"
+  },
+  {
+    "name": "pravo-725.html",
+    "url": "http://publication.pravo.gov.ru/document/0001202610120006",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/document/0001202610120006",
+    "error": "",
+    "observed_at": "2026-10-12T20:57:12.534953+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/pravo-725.html",
+    "sha256": "d06bc09183d268d8dccd8050b20067baf299c7a77cced70dd8fad9af5c248c8d"
+  },
+  {
+    "name": "pravo-368rp.html",
+    "url": "http://publication.pravo.gov.ru/document/0001202610050003",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/document/0001202610050003",
+    "error": "",
+    "observed_at": "2026-10-12T20:57:12.920934+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/pravo-368rp.html",
+    "sha256": "3389d04ebec26cac5de06792585973c71380a67993ba9b4f2fe86c3083b3ce94"
+  }
+]

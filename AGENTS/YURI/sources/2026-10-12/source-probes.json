@@ -1,0 +1,56 @@
+[
+  {
+    "name": "pravo-president-http",
+    "url": "http://publication.pravo.gov.ru/documents/block/president",
+    "curl_exit": 6,
+    "http": "000 http://publication.pravo.gov.ru/documents/block/president",
+    "error": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: publication.pravo.gov.ru\n",
+    "observed_at": "2026-10-12T20:55:18.606299+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/pravo-president-http.html"
+  },
+  {
+    "name": "pravo-government-http",
+    "url": "http://publication.pravo.gov.ru/documents/block/government",
+    "curl_exit": 6,
+    "http": "000 http://publication.pravo.gov.ru/documents/block/government",
+    "error": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: publication.pravo.gov.ru\n",
+    "observed_at": "2026-10-12T20:55:18.607018+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/pravo-government-http.html"
+  },
+  {
+    "name": "kremlin-news-http",
+    "url": "http://kremlin.ru/events/president/news",
+    "curl_exit": 6,
+    "http": "000 http://kremlin.ru/events/president/news",
+    "error": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: kremlin.ru\n",
+    "observed_at": "2026-10-12T20:55:18.608047+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/kremlin-news-http.html"
+  },
+  {
+    "name": "kremlin-acts-http",
+    "url": "http://kremlin.ru/acts/news",
+    "curl_exit": 6,
+    "http": "000 http://kremlin.ru/acts/news",
+    "error": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: kremlin.ru\n",
+    "observed_at": "2026-10-12T20:55:18.607741+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/kremlin-acts-http.html"
+  },
+  {
+    "name": "government-60156-http",
+    "url": "http://government.ru/news/60156/",
+    "curl_exit": 6,
+    "http": "000 http://government.ru/news/60156/",
+    "error": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: government.ru\n",
+    "observed_at": "2026-10-12T20:55:18.607531+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/government-60156-http.html"
+  },
+  {
+    "name": "government-60024-http",
+    "url": "http://government.ru/docs/60024/",
+    "curl_exit": 6,
+    "http": "000 http://government.ru/docs/60024/",
+    "error": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: government.ru\n",
+    "observed_at": "2026-10-12T20:55:18.608344+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/government-60024-http.html"
+  }
+]

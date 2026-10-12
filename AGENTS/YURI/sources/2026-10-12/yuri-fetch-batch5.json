@@ -1,0 +1,22 @@
+[
+  {
+    "name": "government-954.pdf",
+    "url": "http://static.government.ru/media/files/MzBUkoWAA4u0TLr01yp7ee3cPS2wZD3F.pdf",
+    "curl_exit": 0,
+    "http": "200 http://static.government.ru/media/files/MzBUkoWAA4u0TLr01yp7ee3cPS2wZD3F.pdf",
+    "error": "",
+    "observed_at": "2026-10-12T21:01:15.748148+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/government-954.pdf",
+    "sha256": "353d2e7712b7f190c7fadefa5241773d76b1e221a2d8074f9c122be4df7f035b"
+  },
+  {
+    "name": "pravo-727.pdf",
+    "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610120010",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610120010",
+    "error": "",
+    "observed_at": "2026-10-12T21:01:15.292239+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/pravo-727.pdf",
+    "sha256": "6ffe3fd6c36192c9863f31365ca7f7ea018e38251735c065aa5318e37c9decf0"
+  }
+]

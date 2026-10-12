@@ -1,0 +1,62 @@
+[
+  {
+    "name": "pravo-president-http",
+    "url": "http://publication.pravo.gov.ru/documents/block/president",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/documents/block/president",
+    "error": "",
+    "observed_at": "2026-10-12T20:55:34.332466+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/pravo-president-http.html",
+    "sha256": "7043c6b47d5bd0f824df295c1a5dd739808b49b51072e9ec50f4d175c5dd7638"
+  },
+  {
+    "name": "pravo-government-http",
+    "url": "http://publication.pravo.gov.ru/documents/block/government",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/documents/block/government",
+    "error": "",
+    "observed_at": "2026-10-12T20:55:34.436298+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/pravo-government-http.html",
+    "sha256": "2cd0d2e034f2f49c36444e4a75c302a5a87b324dbe2e7713c2f7d514f1da61cb"
+  },
+  {
+    "name": "kremlin-news-http",
+    "url": "http://kremlin.ru/events/president/news",
+    "curl_exit": 0,
+    "http": "200 http://kremlin.ru/events/president/news",
+    "error": "",
+    "observed_at": "2026-10-12T20:55:34.267746+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/kremlin-news-http.html",
+    "sha256": "eacf977495353f4a055462a5f4004c230208873d55bf4ed5459148e6138d9ac1"
+  },
+  {
+    "name": "kremlin-acts-http",
+    "url": "http://kremlin.ru/acts/news",
+    "curl_exit": 0,
+    "http": "200 http://kremlin.ru/acts/news",
+    "error": "",
+    "observed_at": "2026-10-12T20:55:34.272651+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/kremlin-acts-http.html",
+    "sha256": "ccf63d0430d3fc5c717c7d4a9c28316eec976d4d881f0e63159626beeb926428"
+  },
+  {
+    "name": "government-60156-http",
+    "url": "http://government.ru/news/60156/",
+    "curl_exit": 0,
+    "http": "200 http://government.ru/news/60156/",
+    "error": "",
+    "observed_at": "2026-10-12T20:55:35.617614+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/government-60156-http.html",
+    "sha256": "426bd151a106318036ade00e195c931ec5370776d3b6901531b4f7742b69b1d4"
+  },
+  {
+    "name": "government-60024-http",
+    "url": "http://government.ru/docs/60024/",
+    "curl_exit": 0,
+    "http": "200 http://government.ru/docs/60024/",
+    "error": "",
+    "observed_at": "2026-10-12T20:55:35.782485+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/government-60024-http.html",
+    "sha256": "35d10218b1b8f541a9a6de043611a3c848e4dee0b1945a4e38122511b09f7771"
+  }
+]

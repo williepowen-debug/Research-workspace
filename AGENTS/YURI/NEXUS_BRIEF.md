@@ -1,8 +1,8 @@
 # YURI — NEXUS Brief
 
-**Status:** 🟡 No mobilisation decree through 25.09. Seizure-list amendments continue (№ 661, № 674). New Duma sits 30.09 (№ 680).
+**Status:** 🟡 Score 2/5 unchanged. Official partial diesel-export permission recovered; delivered increment and signed lift annex remain unknown. Mobilisation remains OPEN with partial text coverage.
 **Domain:** Russian STATE ACTION and INTENT, whatever the target: decrees, seizures, mobilisation and force posture, the Kremlin political calendar. Feeder desk; never trades.
-**As of:** 2026-09-25 09:1x ET | STATUS commit: see `git log -1 -- AGENTS/YURI/STATUS.md` (same commit as this brief)
+**As of:** 2026-10-12 | STATUS commit: this brief and STATUS are committed together; verify with `python3 scripts/brief_pin_check.py YURI`.
 
 ---
 
@@ -11,22 +11,25 @@
 **SENDING:**
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
-| HAWK | YUR-001 NOT-DECIDED PARTIAL through 25.09, plus a correction: the Military-Industrial Commission act is № 642, not № 638 | 🟡 | The Leningrad MD refill and NATO-posture consequence stays unarmed. Nothing to price on a 12–18-month fuse. |
-| OSPREY | Same reading (manpower leg) | 🟡 | No new mobilised-manpower input into theatre force-generation reads. |
-| HANS / PROME | YUR-003: № 674 (21.09) is a further **custodial** Decree-302 list amendment | 🟡 | The custodial cadence continues and title has not moved. Only NESN.SW is listed. European single names are UNOWNED, so this is flagged to PROME and not routed into that gap. |
+| BRENT / OSPREY / DEWEY | Government's 10 October partial diesel decision primary-confirmed: 500,000 tonnes at this stage, effective 10 October, contracting coordinated with government. Signed №1252 of 29 September now read. | 🟡 | Permission opens an easing channel, but period, supplier annex, overlap with old exemptions and extra delivered volume remain unknown. A deal-driven lift cannot measure refining recovery. |
+| HAWK / OSPREY | YUR-004 NOT-DECIDED · PERIMETER PARTIAL on 12 October; missed 9 October review backfilled. | 🟡 | No verified declaration input; military/FSB scanned amendments concern honours/awards. Other text gaps still gate a final grade. |
+| HAWK / PROME | Kremlin's 2 October Tsentr-2026 report names the scheduled exercise, 28 September–3 October. | 🟡 | Correct the broad “no scheduled large exercise” counter-indicator. This is not a mobilisation decision or NATO-border deployment. Participant count is an official claim. |
+| HANS | Signed Presidential Order №368-рп, 5 October, permits UniCredit reorganisation/share transactions. | 🟡 | Permission for an exit route, not proof of sale completion or seizure. Single-name pricing ownership is not invented. |
 
 **WAITING FOR:**
 | From | Input | Expected by | Why it matters | How it changes my view |
 |------|-------|-------------|----------------|------------------------|
-| PROME | Ruling: new date + completable perimeter for YUR-001 / L432 | next PROME boot | As defined, the row can never close from this box (mil.ru unreachable; restricted-number decrees unreadable) | Lets NOT-DECIDED become a gradeable MISS, or re-arms the row on a named date |
+| Russian publication sources | Signed partial-lift act/annex and №686 goods-code implementation | Existing diesel request due 14 October | Announcement lacks act number, eligible firms and full conditions | Resolves scope and old-exemption overlap; never establishes physical delivery by itself |
+| Declaration sources | Remaining eligible body text for YUR-004 | Next registered review 16 October | Title-level negatives cannot exclude an operative declaration under a generic title | A qualifying declaration can HIT; unread relevant text cannot become MISS |
 
 ---
 
 ## VIEW
 
-- Through 25.09 the state's actions have been custodial, procedural and internal-security: № 674, № 680, and the Security Council of 24.09 on public security. None of them is a call-up.
-- The "decision immediately after the vote" window has passed with no instrument. A decree remains possible on any day, and the rumour mill names October.
-- The preparation signals (July–August drills, registration-unit hiring, reservist summons) are all secondary and pre-window. No movement is evidenced.
+- Selective petroleum-export and bank-transaction permissions coexist with special-measures controls. The 12 October №727 amendment concerns Sakhalin funds management; it is not the diesel-lift instrument.
+- YUR-004 remains OPEN through 31 October. The 12 October review read 19 in-window act titles, finding 0 mobilisation-declaration titles; complete military/FSB scans were also read. The exact unread-text list is in the actor review §2.
+- The signed extension is no longer wire-only. The current lift is primary-confirmed as an announcement; its signed implementation and realized extra supply remain unresolved. Original №954 contains three non-public exemptions, and is not a consolidated October text.
+- Minerva Zen is not positive diesel-delivery evidence: DEWEY's current provider source identifies UAN and preserves customs/quantity limits. No zero-other-deliveries inference.
 
 ---
 
@@ -34,17 +37,17 @@
 
 - **Conviction:** direction-L · timing-L · level-n/a (a decision/no-decision question with no band).
 - **Diverge from market by:** n/a. Russia has no investable surface.
-- **Cross-agent tensions known to me:** HAWK's 9/21 grade carried a wrong decree number (№ 638 → № 642); packeted. The substance is unaffected.
-- **Uncertain about:** the contents of restricted-number decrees (№ 671/673/675/676/677); anything on mil.ru.
+- **Cross-agent tensions known to me:** the broad exercise-absence counter-indicator conflicts with the Kremlin's dated Tsentr report. Diesel permission and refining recovery are distinct measurements.
+- **Uncertain about:** signed diesel act/annex and goods-code list; remaining body-text coverage; delivered increment and its overlap with prior exemptions. MoD implementation is outside YUR-004's declaration perimeter.
 - **Failure patterns to mind:** a press-cycle "imminent" claim recorded as DECIDED; belligerent or anonymous headcounts (300k) adopted as figures.
 
 ---
 
 ## NEXT DECISION POINT
 
-- **What:** YUR-003. Has title to the seized operations moved, or is it still custodial?
-- **When:** 2026-10-02.
-- **What would change my view:** a disposal/transfer instrument at the legal portal. On YUR-001: any presidential decree titled мобилизац.
+- **What:** YUR-004 public-declaration checkpoint; existing diesel signed-instrument answer remains PARTIAL.
+- **When:** 2026-10-16 (next registered mobilisation read); diesel commission due 2026-10-14.
+- **What would change my view:** a date-eligible declaration in title or operative text; the signed diesel exception/annex clarifying scope. Delivery remains a channel-owner observation.
 
 ---
 
@@ -52,7 +55,9 @@
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
-| 2026-09-30 | New Duma first sitting (№ 680) | Mobilisation-law or registration amendments tabled |
-| 2026-10-02 | YUR-003 resolve | A disposal act for Nestlé/Auchan/Lemana Pro/FM Logistic |
-| any day | Presidential decree block | A title matching мобилизац (partial or general) |
-| 2026-10-24 | YUR-F01 desk self-falsifier | ≥3 cross-channel calls, else retire/re-merge |
+| 2026-10-14 | Existing DEWEY diesel delivery deadline | Signed instrument/annex and physical-increment gaps remain separate |
+| 2026-10-16 / 23 / 30 | YUR-004 registered weekly reads | Eligible public declaration in title or operative text |
+| 2026-10-24 | YUR-F01 desk self-falsifier | Current 0 of 3 qualifying calls; DAEDALUS grades, Will rules any retirement proposal |
+| 2026-10-31 | YUR-004 final grade | Full eligible-date/text coverage; backfill only in-window acts through 11/02 |
+
+Evidence: `research/2026-10-12_actor-review-and-diesel-instruments.md`; canonical row state: `workbook/INTENT_LEDGER.tsv`. NEXUS mapping is present; consumption of this new brief is not asserted.

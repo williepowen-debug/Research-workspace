@@ -1,0 +1,52 @@
+[
+  {
+    "name": "government-59474-http.html",
+    "url": "http://government.ru/news/59474/",
+    "curl_exit": 0,
+    "http": "200 http://government.ru/news/59474/",
+    "error": "",
+    "observed_at": "2026-10-12T20:59:45.522846+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/government-59474-http.html",
+    "sha256": "fd4bbc5d6b6756e1dd690f555acf7d3e593c2ae51541d985f253c1702e9e4add"
+  },
+  {
+    "name": "mintrans-12747-http.html",
+    "url": "http://mintrans.gov.ru/eye/press-center/news/12747",
+    "curl_exit": 28,
+    "http": "000 http://mintrans.gov.ru/eye/press-center/news/12747",
+    "error": "curl: (28) Failed to connect to mintrans.gov.ru port 80 after 7000 ms: Timeout was reached\n",
+    "observed_at": "2026-10-12T20:59:49.032592+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/mintrans-12747-http.html",
+    "sha256": null
+  },
+  {
+    "name": "mintrans-13032-http.html",
+    "url": "http://mintrans.gov.ru/eye/press-center/news/13032",
+    "curl_exit": 28,
+    "http": "000 http://mintrans.gov.ru/eye/press-center/news/13032",
+    "error": "curl: (28) Failed to connect to mintrans.gov.ru port 80 after 7000 ms: Timeout was reached\n",
+    "observed_at": "2026-10-12T20:59:49.035045+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/mintrans-13032-http.html",
+    "sha256": null
+  },
+  {
+    "name": "kremlin-80912.html",
+    "url": "http://kremlin.ru/events/president/news/80912",
+    "curl_exit": 0,
+    "http": "200 http://kremlin.ru/events/president/news/80912",
+    "error": "",
+    "observed_at": "2026-10-12T20:59:44.421836+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/kremlin-80912.html",
+    "sha256": "2bdde687740532de5b3a17a2623506da61e2ac603c34fba9ef5473a665c21a1c"
+  },
+  {
+    "name": "kremlin-80976.html",
+    "url": "http://kremlin.ru/acts/news/80976",
+    "curl_exit": 0,
+    "http": "200 http://kremlin.ru/acts/news/80976",
+    "error": "",
+    "observed_at": "2026-10-12T20:59:44.346732+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/kremlin-80976.html",
+    "sha256": "5f55534d83c88becaf98f3745461a2348d9b70eab753003994b04e98ec9183ba"
+  }
+]

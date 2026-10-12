@@ -1,0 +1,74 @@
+[
+  {
+    "test": "real clean baseline",
+    "expected_rc": 0,
+    "actual_rc": 0,
+    "output": "⏰ WALL CLOCK: 2026-10-12 17:07:56 EDT\nPERIMETER: YURI row dates and YUR-004 checkpoints; as-of 2026-10-02\nNOTE: no source verification, grading, messaging or inbox-consumption certification.\nPASS: no dates due among 4 rows; proves only this date perimeter.\n"
+  },
+  {
+    "test": "real overdue checkpoint",
+    "expected_rc": 1,
+    "actual_rc": 1,
+    "output": "⏰ WALL CLOCK: 2026-10-12 17:07:56 EDT\nPERIMETER: YURI row dates and YUR-004 checkpoints; as-of 2026-10-12\nNOTE: no source verification, grading, messaging or inbox-consumption certification.\nDUE: YURI must review YUR-004 checkpoint 2026-10-09\n"
+  },
+  {
+    "test": "live after review",
+    "expected_rc": 0,
+    "actual_rc": 0,
+    "output": "⏰ WALL CLOCK: 2026-10-12 17:07:56 EDT\nPERIMETER: YURI row dates and YUR-004 checkpoints; as-of 2026-10-12\nNOTE: no source verification, grading, messaging or inbox-consumption certification.\nPASS: no dates due among 4 rows; proves only this date perimeter.\n"
+  },
+  {
+    "test": "future final grade due",
+    "expected_rc": 1,
+    "actual_rc": 1,
+    "output": "⏰ WALL CLOCK: 2026-10-12 17:07:56 EDT\nPERIMETER: YURI row dates and YUR-004 checkpoints; as-of 2026-10-31\nNOTE: no source verification, grading, messaging or inbox-consumption certification.\nDUE: YURI must review YUR-F01 final date 2026-10-24\nDUE: YURI must review YUR-004 final date 2026-10-31\nDUE: YURI must review YUR-004 checkpoint 2026-10-16\nDUE: YURI must review YUR-004 checkpoint 2026-10-23\nDUE: YURI must review YUR-004 checkpoint 2026-10-30\n"
+  },
+  {
+    "test": "header-only hygiene",
+    "expected_rc": 1,
+    "actual_rc": 1,
+    "output": "⏰ WALL CLOCK: 2026-10-12 17:07:56 EDT\nPERIMETER: YURI row dates and YUR-004 checkpoints; as-of 2026-10-12\nNOTE: no source verification, grading, messaging or inbox-consumption certification.\nDUE: YURI must review YUR-004 checkpoint 2026-10-09\n"
+  },
+  {
+    "test": "ragged row",
+    "expected_rc": 2,
+    "actual_rc": 2,
+    "output": "⏰ WALL CLOCK: 2026-10-12 17:07:56 EDT\nPERIMETER: YURI row dates and YUR-004 checkpoints; as-of 2026-10-12\nNOTE: no source verification, grading, messaging or inbox-consumption certification.\nUNKNOWN: YURI must repair or inspect input: ragged row YUR-004\n"
+  },
+  {
+    "test": "malformed date",
+    "expected_rc": 2,
+    "actual_rc": 2,
+    "output": "⏰ WALL CLOCK: 2026-10-12 17:07:56 EDT\nPERIMETER: YURI row dates and YUR-004 checkpoints; as-of 2026-10-12\nNOTE: no source verification, grading, messaging or inbox-consumption certification.\nUNKNOWN: YURI must repair or inspect input: Invalid isoformat string: 'unknown'\n"
+  },
+  {
+    "test": "future row review",
+    "expected_rc": 2,
+    "actual_rc": 2,
+    "output": "⏰ WALL CLOCK: 2026-10-12 17:07:56 EDT\nPERIMETER: YURI row dates and YUR-004 checkpoints; as-of 2026-10-12\nNOTE: no source verification, grading, messaging or inbox-consumption certification.\nUNKNOWN: YURI must repair or inspect input: YUR-004 review date outside observed range\n"
+  },
+  {
+    "test": "missing row review",
+    "expected_rc": 2,
+    "actual_rc": 2,
+    "output": "⏰ WALL CLOCK: 2026-10-12 17:07:56 EDT\nPERIMETER: YURI row dates and YUR-004 checkpoints; as-of 2026-10-12\nNOTE: no source verification, grading, messaging or inbox-consumption certification.\nUNKNOWN: YURI must repair or inspect input: YUR-004 calendar or row review date missing\n"
+  },
+  {
+    "test": "missing file",
+    "expected_rc": 2,
+    "actual_rc": 2,
+    "output": "⏰ WALL CLOCK: 2026-10-12 17:07:56 EDT\nPERIMETER: YURI row dates and YUR-004 checkpoints; as-of 2026-10-12\nNOTE: no source verification, grading, messaging or inbox-consumption certification.\nUNKNOWN: YURI must repair or inspect input: [Errno 2] No such file or directory: '/tmp/yuri-boot-tests-h63xs769/missing.tsv'\n"
+  },
+  {
+    "test": "historical YUR-001 and YUR-003 rows byte-identical",
+    "result": "PASS"
+  },
+  {
+    "test": "listing positive controls",
+    "result": "PASS",
+    "government_control": "№1252",
+    "presidential_control": "№725",
+    "eligible_titles": 19,
+    "mobilisation_titles": 0
+  }
+]

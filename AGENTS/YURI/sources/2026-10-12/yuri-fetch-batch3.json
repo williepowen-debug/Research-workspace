@@ -1,0 +1,152 @@
+[
+  {
+    "name": "pravo-726.pdf",
+    "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610120008",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610120008",
+    "error": "",
+    "observed_at": "2026-10-12T20:58:06.701444+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/pravo-726.pdf",
+    "sha256": "537f481b360bc6b6406c839599ca652c6dd9c8ee120a0ce111cf5c3cb1f35428"
+  },
+  {
+    "name": "pravo-725.pdf",
+    "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610120006",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610120006",
+    "error": "",
+    "observed_at": "2026-10-12T20:58:07.031792+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/pravo-725.pdf",
+    "sha256": "fbad29b6f247d23df3e09ae6a21ebb0a00d43bc90f37a9ea816f4117fc6697bb"
+  },
+  {
+    "name": "pravo-368rp.pdf",
+    "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610050003",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610050003",
+    "error": "",
+    "observed_at": "2026-10-12T20:58:06.932260+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/pravo-368rp.pdf",
+    "sha256": "8b57999006571e12c84a6abd54f7165e787de20d449d52b01d42682c8336a8c5"
+  },
+  {
+    "name": "mintrans-12747.html",
+    "url": "https://mintrans.gov.ru/eye/press-center/news/12747",
+    "curl_exit": 28,
+    "http": "000 https://mintrans.gov.ru/eye/press-center/news/12747",
+    "error": "curl: (28) Failed to connect to mintrans.gov.ru port 443 after 7000 ms: Timeout was reached\n",
+    "observed_at": "2026-10-12T20:58:13.062845+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/mintrans-12747.html",
+    "sha256": null
+  },
+  {
+    "name": "mintrans-13032.html",
+    "url": "https://mintrans.gov.ru/eye/press-center/news/13032",
+    "curl_exit": 28,
+    "http": "000 https://mintrans.gov.ru/eye/press-center/news/13032",
+    "error": "curl: (28) Failed to connect to mintrans.gov.ru port 443 after 7000 ms: Timeout was reached\n",
+    "observed_at": "2026-10-12T20:58:13.051177+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/mintrans-13032.html",
+    "sha256": null
+  },
+  {
+    "name": "gov-0001202610120034.pdf",
+    "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610120034",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610120034",
+    "error": "",
+    "observed_at": "2026-10-12T20:58:08.567549+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/gov-0001202610120034.pdf",
+    "sha256": "b24a72527c6c18a05c5e36c424c6d31ce3bba0ddcc4a463cd026fad4621a3eef"
+  },
+  {
+    "name": "gov-0001202610120045.pdf",
+    "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610120045",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610120045",
+    "error": "",
+    "observed_at": "2026-10-12T20:58:07.880306+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/gov-0001202610120045.pdf",
+    "sha256": "4ecdf0fe4d084956c5a27e34aa485421f6f42db1bb6a71305d0b2734ca5ff5ce"
+  },
+  {
+    "name": "gov-0001202610120041.pdf",
+    "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610120041",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610120041",
+    "error": "",
+    "observed_at": "2026-10-12T20:58:08.179337+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/gov-0001202610120041.pdf",
+    "sha256": "88bc6f218c1ce6a372a95e1370721cbdf7c89ea16a0861301194824f48c710e1"
+  },
+  {
+    "name": "gov-0001202610120039.pdf",
+    "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610120039",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610120039",
+    "error": "",
+    "observed_at": "2026-10-12T20:58:08.324225+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/gov-0001202610120039.pdf",
+    "sha256": "57bc0b9132279302c42dc4e7cd2c80d84fa71843b5caa0058e9c240e9b955c2c"
+  },
+  {
+    "name": "gov-0001202610120033.pdf",
+    "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610120033",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610120033",
+    "error": "",
+    "observed_at": "2026-10-12T20:58:08.946591+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/gov-0001202610120033.pdf",
+    "sha256": "6b0df5095e908c823450c1864a0ec86bfc925e4ef5ec37277714f0c830bdafb7"
+  },
+  {
+    "name": "gov-0001202610120038.pdf",
+    "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610120038",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610120038",
+    "error": "",
+    "observed_at": "2026-10-12T20:58:09.380075+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/gov-0001202610120038.pdf",
+    "sha256": "4a3f0a512f968760a0d80d28fbe16c0d7baa13536da33d28d9bdd993be4e6432"
+  },
+  {
+    "name": "gov-0001202610120036.pdf",
+    "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610120036",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610120036",
+    "error": "",
+    "observed_at": "2026-10-12T20:58:09.935877+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/gov-0001202610120036.pdf",
+    "sha256": "be8fbbc3e7a2dd2068851f532754374b54ffb58ec0ce3ea9459cf4d344aa0e0a"
+  },
+  {
+    "name": "gov-0001202610120042.pdf",
+    "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610120042",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610120042",
+    "error": "",
+    "observed_at": "2026-10-12T20:58:10.051933+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/gov-0001202610120042.pdf",
+    "sha256": "6016f0b812887f6e8a0bb4f656450983f2c1930e795bc5dff78026b60c0a0bc2"
+  },
+  {
+    "name": "gov-0001202610120032.pdf",
+    "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610120032",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610120032",
+    "error": "",
+    "observed_at": "2026-10-12T20:58:10.260863+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/gov-0001202610120032.pdf",
+    "sha256": "308b43a28eb4a84d1fb83ad8bbce0d089a6869b63bd00f25e4061d5bee48b6bc"
+  },
+  {
+    "name": "gov-0001202610090042.pdf",
+    "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610090042",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610090042",
+    "error": "",
+    "observed_at": "2026-10-12T20:58:11.091541+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12/gov-0001202610090042.pdf",
+    "sha256": "a17ff6e54040715bd3a577264c4b952809bfcec05d3f3907dcabfcd9c13d2696"
+  }
+]
