@@ -1,0 +1,65 @@
+[
+  {
+    "name": "AMCAR2024-1-submissions.json",
+    "url": "https://data.sec.gov/submissions/CIK0002020251.json",
+    "read_utc": "2026-10-12T19:00:38.305124+00:00",
+    "status": 200,
+    "final_url": "https://data.sec.gov/submissions/CIK0002020251.json",
+    "sha256": "3255d8836d4efb9763fde0a6c04e6d58ae6c156e94025c86029b2fc01e8634df",
+    "bytes": 13568
+  },
+  {
+    "name": "AMCAR2023-2-submissions.json",
+    "url": "https://data.sec.gov/submissions/CIK0001987878.json",
+    "read_utc": "2026-10-12T19:00:38.305823+00:00",
+    "status": 200,
+    "final_url": "https://data.sec.gov/submissions/CIK0001987878.json",
+    "sha256": "e604ff3412b5657eaa224596141fd729c5750bdb9579150d735452d91a04632e",
+    "bytes": 16598
+  },
+  {
+    "name": "EART2023-1-submissions.json",
+    "url": "https://data.sec.gov/submissions/CIK0001964225.json",
+    "read_utc": "2026-10-12T19:00:38.558457+00:00",
+    "status": 200,
+    "final_url": "https://data.sec.gov/submissions/CIK0001964225.json",
+    "sha256": "03d3d50b85040140dd6fb5911874a68f941d6bd863c5826e45db64a59953831d",
+    "bytes": 18253
+  },
+  {
+    "name": "EART2024-1-submissions.json",
+    "url": "https://data.sec.gov/submissions/CIK0002005087.json",
+    "read_utc": "2026-10-12T19:00:38.591655+00:00",
+    "status": 200,
+    "final_url": "https://data.sec.gov/submissions/CIK0002005087.json",
+    "sha256": "6cdd24a854b5d4373e6d82377642356879d1e8854d25f06bfd05435fa0850776",
+    "bytes": 14031
+  },
+  {
+    "name": "gm-amcar.html",
+    "url": "https://www.gmfinancial.com/en-us/investor-center/asset-backed-securitization/amcar-abs.html",
+    "read_utc": "2026-10-12T19:00:38.857744+00:00",
+    "status": 200,
+    "final_url": "https://www.gmfinancial.com/en-us/investor-center/asset-backed-securitization/amcar-abs.html",
+    "sha256": "2762210a2ed1d8b0b989824d65d55d2f76d8e6380bc9efa93b81e8e6c8920d6c",
+    "bytes": 145397
+  },
+  {
+    "name": "sofi-ir.html",
+    "url": "https://investors.sofi.com/financials/sec-filings/default.aspx",
+    "read_utc": "2026-10-12T19:00:38.986299+00:00",
+    "status": 200,
+    "final_url": "https://investors.sofi.com/financials/sec-filings/default.aspx",
+    "sha256": "fe4ace76fc0281fc74ea2e493e1a1718456a7514bd6b3e07e02968379bfb34e8",
+    "bytes": 69683
+  },
+  {
+    "name": "sofi-q2.html",
+    "url": "https://www.sec.gov/Archives/edgar/data/1818874/000181887426000054/sofi-20260630.htm",
+    "read_utc": "2026-10-12T19:00:39.279002+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1818874/000181887426000054/sofi-20260630.htm",
+    "sha256": "f9d4c48e8cdd4148053f1d1ce571a46ebed29793edbbc4ae384df121efa6c823",
+    "bytes": 5383873
+  }
+]

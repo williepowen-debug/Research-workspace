@@ -1,0 +1,13 @@
+ther Transaction Documents.   Monthly Period Beginning: 10/01/2025 Monthly Period Ending: 10/31/2025 Prev. Distribution/Close Date: 10/20/2025 Distribution Date: 11/18/2025 Days of Interest for Period:  29 Days in Collection Period:  31 Transaction Month:  26                     Original   Purchases   Units     Start Date   Closing Date   Pool Balance   Initial Purchase     57,442     08/04/2023   09/20/202
+
+Closing Date   Pool Balance   Initial Purchase     57,442     08/04/2023   09/20/2023   $ 1,591,490,963                             Total     57,442             $ 1,591,490,963     MONTHLY PERIOD RECEIVABLES PRINCIPAL BALANCE CALCULATION:   {1}   Beginning of period Aggregate Principal Balance                         {1}     $ 735,010,881                                     Monthly Principal Amounts        
+
+ BALANCE CALCULATION:   {1}   Beginning of period Aggregate Principal Balance                         {1}     $ 735,010,881                                     Monthly Principal Amounts                                                       {2}   Collections on Receivables outstanding at end of period   {2}     12,732,623               {3}   Collections on Receivables paid off during period   {3}     9,544,0
+
+20,351     $ 20,017   {113}   Net Losses in Period   {113}   $ 0     $ 3,815,848     $ 3,699,804   {114}   Aggregate Realized Losses   {114}   $ 0     $ 84,611,743     $ 88,311,547   {115}   Aggregate Realized Loss Percentage   {115}             5.316 %     5.548 % {116}   ABS Prepay Speed   {116}             1.1864       1.2604     DELINQUENCY:       Receivables with Scheduled Payment delinquent       Unit
+
+,597       9.70 %     {118}   61-90 days   {118}     809       18,152,260       2.47 %     {119}   91-120 days   {119}     239       4,892,858       0.67 %     {120}   Total   {120}     4,177     $ 94,317,715       12.84 %   ASSET REPRESENTATIONS REVIEW DELINQUENCY TRIGGER               Dollars     Percentage   {121}   Receivables with Scheduled Payment delinquent 61 days or more   {121}   $ 23,045,118     
+
+,260       2.47 %     {119}   91-120 days   {119}     239       4,892,858       0.67 %     {120}   Total   {120}     4,177     $ 94,317,715       12.84 %   ASSET REPRESENTATIONS REVIEW DELINQUENCY TRIGGER               Dollars     Percentage   {121}   Receivables with Scheduled Payment delinquent 61 days or more   {121}   $ 23,045,118       3.14 %                           {122}   Compliance (Trigger Violat
+
+010,881               {125}   Extension Rate {123} divided by {124}   {125}             4.04 %   By: /s/ Randal L. Willis   Name:  Randal L. Willis   Title: Senior Vice President, Securitization & Conduit Reporting   Date: November 13, 2025     5       

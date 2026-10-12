@@ -1,0 +1,11 @@
+{
+  "rows": 21800,
+  "zip_sha256": "7f1600daefd9caa6fef32e74977c4aa3e362172f3c5f91ba6d122c64c805e494",
+  "method": "WGT across all5implicates; HDEBT==1 condition applies to numerator AND denominator; stdlib CSV independent reproduction",
+  "all_family_any_late_pct": 19.57940884315941,
+  "all_family_late60_pct": 8.248319761447675,
+  "debtor_any_late_pct": 25.31481429752208,
+  "debtor_late60_pct": 10.71379101478258,
+  "superseded_all_numerator_over_debtor_weight_pct": 25.431809217563462,
+  "non_current_debtor_any_late_weight": 121564.3602706
+}

@@ -15,7 +15,7 @@ Each L1cell must report per-deal YoY deltas inpp, Δcurrent-year level versus Δ
 
 ## Evidence and grade
 
-Four registered EART2022-2/2022-3/2023-1/2024-1 filings datedSeptember29 were independently detected by `abs_monitor.py` (trustCIKs1920761/1931330/1964225/2005087, accessions0000929638-26-003712/003713/003717/003722). **Their collection period is NOT inferred from the filing date.** Direct exhibit/control fetches returned403; standard complete-submission and web exhibit reads were inaccessible. Detection is not extraction. No latest deep-tier value, seasoning label, YoY delta, base decomposition or double-matchedn obtained; these cells remain UNKNOWN rather than0.
+Four registered EART2022-2/2022-3/2023-1/2024-1 filings datedSeptember29 were independently detected by `abs_monitor.py` (trustCIKs1920761/1931330/1964225/2005087, accessions0000929638-26-003712/003713/003717/003722). **Their collection period is NOT inferred from the filing date.** Initial October12 exhibit/control fetches returned403; standard complete-submission and web exhibit reads were inaccessible. Detection is not extraction. No latest deep-tier value, seasoning label, YoY delta, base decomposition or double-matchedn obtained; these cells remain UNKNOWN rather than0.
 
 Latest **previously verified** broadAugust card (CARLSeptember24, primary dryrun/controlPASS):
 
@@ -30,3 +30,7 @@ These are carried dated evidence, **not a successful October12 SEC re-pull**. Do
 **Result:** V2holds4 on the registered record. **August deep-tier extraction / full card completion: SOURCE-INCOMPLETE.** No first qualifying-month clock armed. L4UNASSESSED, notNOTFIRED. ReviewOctober14 using actual exhibit access, never substitute younger2025/26shelves. The existing per-deal2025base numbers above are retained from OTTO's ledger/CARL'sSeptember24read, not current additional verification.
 
 Sources: WQ151 packet `inbox/processed/2026-09-03_from-PROME_WQ-151-RULED-sustained-is-the-strict-letter-plus-clause-3a-PERSISTENCE-plus-your-reporting-rule.md`; `2026-09-24_data-catchup.md`; `2026-10-12_catchup/panel-fetch-failure.txt`; `scripts/data/ABS_FILINGS.tsv`. Consumer interpretation does not change OTTO's records or thresholds.
+
+## Later October12 source recovery
+
+Direct retrieval now succeeds for all four registered August EART certificates, selected by EX99.1 in the human index. Collection dates independently read as August1–31; hashes/URLs and field excerpts in `2026-10-12_followup/auto-access.json` and `auto-extracted.tsv`. Frozen control reproduces27.58%CNL. Access failure above is historical. Full V2 YoY/base/double-match/cure validation remains incomplete for October14; source retrieval is not a new grade. The older broad values remain explicitly carried evidence.

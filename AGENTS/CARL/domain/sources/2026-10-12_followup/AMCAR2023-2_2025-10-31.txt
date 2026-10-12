@@ -1,0 +1,741 @@
+EX-99.1
+2
+ea0266758-06_ex991.htm
+EXHIBIT 99.1
+Exhibit 99.1
+AmeriCredit Automobile Receivables Trust
+2023-2
+Class A-1 5.723000% Asset Backed Notes
+Class A-2A 6.19 % Asset Backed Notes
+Class A-3 5.81% Asset Backed Notes
+Class B 5.84% Asset Backed Notes
+Class C 6.00% Asset Backed Notes
+Class D 6.30% Asset Backed Notes
+Class E 0.00% Asset Backed Notes
+Servicer’s Certificate
+This Servicer’s Certificate has been prepared pursuant
+to Section 4.9 of the Sale and Servicing Agreement among AmeriCredit Automobile Receivables Trust 2023-2, as Issuer, AmeriCredit Financial
+Services, Inc., as Servicer, AFS SenSub Corp., as Seller, and The Bank of New York Mellon, as the Trust Collateral Agent, dated as of
+September 20,2023. Defined terms have the meanings assigned to them in the Sale and Servicing Agreement or in other Transaction Documents.
+Monthly Period Beginning:
+10/01/2025
+Monthly Period Ending:
+10/31/2025
+Prev. Distribution/Close Date:
+10/20/2025
+Distribution Date:
+11/18/2025
+Days of Interest for Period:
+29
+Days in Collection Period:
+31
+Transaction Month:
+26
+Original
+Purchases
+Units
+Start Date
+Closing Date
+Pool Balance
+Initial Purchase
+57,442
+08/04/2023
+09/20/2023
+$1,591,490,963
+Total
+57,442
+$1,591,490,963
+MONTHLY PERIOD RECEIVABLES PRINCIPAL BALANCE CALCULATION:
+{1}
+Beginning of period Aggregate Principal Balance
+{1}
+$735,010,881
+Monthly Principal Amounts
+{2}
+Collections on Receivables outstanding at end of period
+{2}
+12,732,623
+{3}
+Collections on Receivables paid off during period
+{3}
+9,544,069
+{4}
+Receivables becoming Liquidated Receivables during period
+{4}
+6,045,893
+{5}
+Receivables becoming Purchased Receivables during period
+{5}
+21,686
+{6}
+Other Receivables adjustments
+{6}
+0
+{7}
+Total Monthly Principal Amounts
+{7}
+28,344,271
+{8}
+End of period Aggregate Principal Balance
+{8}
+$706,666,610
+{9}
+Pool Factor
+{9}
+44.4028038%
+1
+MONTHLY PERIOD NOTE BALANCE CALCULATION:
+Class A-1
+Class A-2A
+Class A-3
+Class B
+{10}
+Original Note Balance
+{10}
+$234,000,000
+$568,080,000
+$294,510,000
+$103,450,000
+{11}
+Beginning of period Note Balance
+{11}
+$0
+$0
+$254,976,595
+$103,450,000
+{12}
+Noteholders’ Principal Distributable Amount
+{12}
+0
+0
+24,163,491
+0
+{13}
+Noteholders’ Accelerated Principal Amount
+{13}
+0
+0
+0
+0
+{14}
+Aggregate Principal Parity Amount
+{14}
+0
+0
+0
+0
+{15}
+Matured Principal Shortfall
+{15}
+{16}
+End of period Note Balance
+{16}
+$0
+$0
+$230,813,104
+$103,450,000
+{17}
+Note Pool Factors
+{17}
+0.0000000%
+0.0000000%
+78.3719072%
+100.0000000%
+Class C
+Class D
+Class E
+TOTAL
+$129,710,000
+$124,930,000
+$45,360,000
+$1,500,040,000
+{18}
+Beginning of period Note Balance
+{18}
+$129,710,000
+$124,930,000
+$45,360,000
+$658,426,595
+{19}
+Noteholders’ Principal Distributable Amount
+{19}
+0
+0
+0
+24,163,491
+{20}
+Noteholders’ Accelerated Principal Amount
+{20}
+0
+0
+0
+0
+{21}
+Aggregate Principal Parity Amount
+{21}
+0
+0
+0
+0
+{22}
+Matured Principal Shortfall
+{22}
+0
+{23}
+End of period Note Balance
+{23}
+$129,710,000
+$124,930,000
+$45,360,000
+$634,263,104
+{24}
+Note Pool Factors
+{24}
+100.0000000%
+100.0000000%
+100.0000000%
+42.2830794%
+CALCULATION OF STEP-DOWN AMOUNT:
+{25}
+Ending Pool Balance
+{25}
+$706,666,610
+{26}
+14.75 % of Ending Aggregate Principal Balance
+{26}
+104,233,325
+{27}
+Less Specified Reserve Balance
+{27}
+(31,829,819)
+{28}
+Sum of {26} and {27}
+{28}
+72,403,506
+{29}
+Required Pro Forma Note Balance {25} - {28}
+{29}
+634,263,104
+{30}
+Beginning Note Balance
+{30}
+658,426,595
+{31}
+Total Monthly Principal Amount
+{31}
+(28,344,271)
+{32}
+Pro-Forma Note Balance (Assuming 100% Pay-down)
+{32}
+630,082,324
+{33}
+Excess of Required Pro-forma over Pro-forma Balance
+{33}
+4,180,780
+{34}
+Pool Balance minus Pro-forma Note Balance not less than .50% Original Pool Balance ($7,957,455)
+{34}
+4,180,780
+{35}
+Step-Down Amount Lesser of {33} or {34}
+{35}
+$4,180,780
+CALCULATION OF PRINCIPAL DISTRIBUTABLE AMOUNT:
+{36}
+Total Monthly Principal Amounts
+{36}
+$28,344,271
+{37}
+Step-down Amount
+{37}
+(4,180,780)
+{38}
+Principal Distributable Amount
+{38}
+$24,163,491
+2
+CALCULATION OF INTEREST DISTRIBUTABLE AMOUNT:
+Beginning
+Interest
+Interest
+Calculated
+Class
+Note Balance
+Carryover
+Rate
+Days
+Days Basis
+Interest
+{39}
+Class A - 1
+$0
+0
+5.72300%
+29
+Actual days/360
+0
+{40}
+Class A - 2A
+$0
+0
+6.19000%
+30
+30/360
+0
+{41}
+Class A - 3
+$254,976,595
+0
+5.81000%
+30
+30/360
+1,234,512
+{42}
+Class B
+$103,450,000
+0
+5.84000%
+30
+30/360
+503,457
+{43}
+Class C
+$129,710,000
+0
+6.00000%
+30
+30/360
+648,550
+{44}
+Class D
+$124,930,000
+0
+6.30000%
+30
+30/360
+655,883
+{45}
+Class E (1)
+$45,360,000
+0
+6.45000%
+30
+30/360
+243,810
+(1)Prior to the 24th distribution date, interest will accrue at 0.00%. From and after the 24th distribution date, if on the 24th distribution
+date target OC is met, interest will accrue at 6.45%, otherwise interest will accrue at 0.00%.
+RECONCILIATION OF COLLECTION ACCOUNT:
+Available Funds:
+{46}
+Principal Collections on Receivables during period (net of Liquidation Proceeds and Fees)
+{46}
+22,276,692
+{47}
+Interest Collections on Receivables during period (net of Liquidation Proceeds and Fees)
+{47}
+8,997,265
+{48}
+Liquidation Proceeds collected during period (net of Fees)
+{48}
+2,346,089
+{49}
+Purchase Amounts or amounts from Servicer deposited in Collection Account
+{49}
+21,686
+{50}
+Investment Earnings - Collection Account
+{50}
+105,419
+{51}
+Accel. of Notes pursuant to Section 5.2 of the Indenture, the amount of money or property collected pursuant to Section 5.3 of the Indenture.
+{51}
+0
+{52}
+From Reserve Acct - Investment Earnings, Reserve Acct Withdrawal, Excess Specified Reserve over Note Bal
+{52}
+98,348
+{53}
+Collection of Supplemental Servicing - Extension Fees
+{53}
+184,760
+{54}
+Collection of Supplemental Servicing - Repo and Recovery Fees Netted from Gross Liquidation Proceeds
+{54}
+232,899
+{55}
+Collection of Supplemental Servicing - Late Fees, Prepayment Penalty Fees & Force Placed Insurance
+{55}
+138,179
+{56}
+Total Available Funds
+{56}
+34,401,337
+Distributions:
+{57}
+Base Servicing Fee
+{57}
+1,378,145
+{58}
+Repo and Recovery Fees - reimbursed to Servicer
+{58}
+232,899
+{59}
+Bank Service Charges - reimbursed to Servicer
+{59}
+0
+{60}
+Late Fees, Prepayment Penalty Fees & Force Placed Insurance - to Servicer
+{60}
+138,179
+{61}
+Trustee and Trust Collateral Agent Fees pro rata
+{61}
+417
+{62}
+Asset Representations Reviewer Fee pro rata
+{62}
+0
+{63}
+Owner Trustee Fee pro rata
+{63}
+250
+{64}
+Class A-1 Noteholders’ Interest Distributable Amount pari passu
+{64}
+0
+{65}
+Class A-2A Noteholders’ Interest Distributable Amount pari passu
+{65}
+0
+{66}
+Class A-3 Noteholders’ Interest Distributable Amount pari passu
+{66}
+1,234,512
+{67}
+Class A Noteholders’ Principal Parity Amount or Matured Principal Shortfall
+{67}
+0
+{68}
+Class B Noteholders’ Interest Distributable Amount
+{68}
+503,457
+{69}
+Class B Noteholders’ Principal Parity Amount or Matured Principal Shortfall
+{69}
+0
+{70}
+Class C Noteholders’ Interest Distributable Amount
+{70}
+648,550
+{71}
+Class C Noteholders’ Principal Parity Amount or Matured Principal Shortfall
+{71}
+0
+{72}
+Class D Noteholders’ Interest Distributable Amount
+{72}
+655,883
+{73}
+Class D Noteholders’ Principal Parity Amount or Matured Principal Shortfall
+{73}
+0
+{74}
+Class E Noteholders’ Interest Distributable Amount
+{74}
+243,810
+{75}
+Class E Noteholders’ Principal Parity Amount or Matured Principal Shortfall
+{75}
+0
+{76}
+Noteholders’ Principal Distributable Amount
+{76}
+24,163,491
+{77}
+To the Reserve Account, the Reserve Account Deposit
+{77}
+0
+{78}
+To the Noteholders, the Accelerated Principal Amount (as calculated below)
+{78}
+0
+{79}
+Add’l fees pro rata (Trustee, ARR, Owner Trustee, Trust Collateral Agent, Lockbox Bank & Processor)
+{79}
+0
+{80}
+To the Certificateholders, the aggregate amount remaining
+{80}
+5,201,744
+{81}
+Total Distributions
+{81}
+$34,401,337
+3
+CALCULATION OF PRINCIPAL PARITY AMOUNT:
+(X)
+(Y)
+(I)
+(II)
+Cumulative
+Pool
+Excess of
+Available Funds
+Lesser of
+Class
+Note Balance
+Balance
+(X) - (Y)
+in Waterfall
+(I) or (II)
+{82}
+Class A
+$254,976,595
+$706,666,610
+$ 0
+$31,416,935
+$ 0
+{83}
+Class B
+358,426,595
+706,666,610
+0
+30,913,478
+0
+{84}
+Class C
+488,136,595
+706,666,610
+0
+30,264,928
+0
+{85}
+Class D
+613,066,595
+706,666,610
+0
+29,609,045
+0
+{86}
+Class E
+658,426,595
+706,666,610
+0
+29,365,235
+0
+CALCULATION OF ACCELERATED PRINCIPAL AMOUNT:
+{87}
+Excess Available Funds
+{87}
+$5,201,744
+{88}
+Pro-Forma Note Balance (Calculated after Step-Down)
+{88}
+634,263,104
+{89}
+Required Pro Forma Note Balance
+{89}
+634,263,104
+{90}
+Excess of Pro-Forma Balance over Required Pro-Forma Balance
+{90}
+0
+{91}
+Lesser of Excess Available Funds or Excess of Pro-Forma Note Balance
+{91}
+$0
+RECONCILIATION OF RESERVE ACCOUNT:
+Initial
+Current
+{92}
+Specified Reserve Balance
+$31,829,819
+$31,829,819
+{93}
+Beginning of period Reserve Account balance
+{93}
+$31,829,819
+{94}
+The Reserve Account Deposit, from Collection Account
+{94}
+0
+{95}
+Investment Earnings
+{95}
+98,348
+{96}
+Investment Earnings - transferred to Collection Account Available Funds
+{96}
+(98,348)
+{97}
+Reserve Account Withdrawal Amount
+{97}
+0
+{98}
+End of period Reserve Account balance
+{98}
+$31,829,819
+CALCULATION OF TOTAL OVERCOLLATERALIZATION:
+{99}
+Aggregate Principal Balance
+{99}
+$706,666,610
+{100}
+End of Period Note Balance
+{100}
+634,263,104
+{101}
+Overcollateralization
+{101}
+72,403,506
+{102}
+Overcollateralization %
+{102}
+10.25%
+MONTHLY PERIOD AND CUMULATIVE NUMBER OF RECEIVABLES CALCULATION:
+Cumulative
+Monthly
+{103}
+Original Number of Receivables
+{103}
+57,442
+0
+{104}
+Beginning of period number of Receivables
+{104}
+0
+36,116
+{105}
+Number of Receivables becoming Liquidated Receivables during period
+{105}
+7,063
+293
+{106}
+Number of Receivables becoming Purchased Receivables during period
+{106}
+90
+1
+{107}
+Number of Receivables paid off during period
+{107}
+14,985
+518
+{108}
+End of period number of Receivables
+{108}
+35,304
+35,304
+4
+STATISTICAL DATA: (CURRENT AND HISTORICAL):
+Original
+Prev. Month
+Current
+{109}
+Weighted Average APR of the Receivables
+{109}
+14.71%
+14.82%
+14.83%
+{110}
+Weighted Average Remaining Term of the Receivables
+{110}
+67.00
+43.72
+42.84
+{111}
+Weighted Average Original Term of Receivables
+{111}
+74.00
+74.00
+74.00
+{112}
+Average Receivable Balance
+{112}
+$27,706
+$20,351
+$20,017
+{113}
+Net Losses in Period
+{113}
+$0
+$3,815,848
+$3,699,804
+{114}
+Aggregate Realized Losses
+{114}
+$0
+$84,611,743
+$88,311,547
+{115}
+Aggregate Realized Loss Percentage
+{115}
+5.316%
+5.548%
+{116}
+ABS Prepay Speed
+{116}
+1.1864
+1.2604
+DELINQUENCY:
+Receivables with Scheduled Payment delinquent
+Units
+Dollars
+Percentage
+{117}
+31-60 days
+{117}
+3,129
+$71,272,597
+9.70%
+{118}
+61-90 days
+{118}
+809
+18,152,260
+2.47%
+{119}
+91-120 days
+{119}
+239
+4,892,858
+0.67%
+{120}
+Total
+{120}
+4,177
+$94,317,715
+12.84%
+ASSET REPRESENTATIONS REVIEW DELINQUENCY TRIGGER
+Dollars
+Percentage
+{121}
+Receivables with Scheduled Payment delinquent 61 days or more
+{121}
+$23,045,118
+3.14%
+{122}
+Compliance (Trigger Violation is a Delinquency Rate Greater Than 7.20%)
+{122}
+Yes
+EXTENSIONS
+{123}
+Principal Balance of Receivables extended during current period
+{123}
+$29,709,550
+{124}
+Beginning of Period Aggregate Principal Balance
+{124}
+735,010,881
+{125}
+Extension Rate {123} divided by {124}
+{125}
+4.04%
+By:
+/s/ Randal L. Willis
+Name:
+Randal L. Willis
+Title:
+Senior Vice President, Securitization & Conduit Reporting
+Date:
+November 13, 2025
+5

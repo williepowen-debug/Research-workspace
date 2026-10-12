@@ -1,0 +1,9 @@
+{
+  "observed_utc": "2026-10-12T19:24:26.686167+00:00",
+  "commit": "e6f065cb5",
+  "source": "AGENTS/DEWEY/output/2026-08-27_carl-dr1-fha-partial-claims-leg.md",
+  "sha256": "48e8edfc4eb9cbd4f1e2124da9f752fd77656b2009ea93c16728657ca6cc2f10",
+  "packet_hash_match": true,
+  "read_scope": "corrected header/key findings,flow table,policy timing,aggregation sections;Q2card report already read; no original HUD re-fetch claimed",
+  "result": "Historical97.4weighted/22.5best-leg illustrations; classwide causal test NOT COMPUTABLE; live FHA causal wording repaired"
+}

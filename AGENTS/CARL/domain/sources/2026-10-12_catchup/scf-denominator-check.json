@@ -1,16 +1,17 @@
 {
   "file": "SCFP2025.csv",
   "rows": 21800,
-  "method": "weighted mean across all five implicates; scale factor cancels in ratios; point estimates only, no standard errors or significance claim",
+  "method": "WGT-weighted point estimates across all five implicates; HDEBT==1 conditional scope applies to numerator AND denominator; no standard errors",
   "values": {
     "LATE": {
       "ALL": 19.579408843159484,
-      "DEBTORS": 25.431809217563668
+      "DEBTORS": 25.31481429752208
     },
     "LATE60": {
       "ALL": 8.248319761447696,
       "DEBTORS": 10.713791014782652
     },
     "HDEBT_ALL": 76.98787245398802
-  }
+  },
+  "correction": "October12 WALTER numerator check independently reproduced in scf-numerator-reconciliation.json; old25.4318 was all-family numerator/current-debtor weights, not conditional"
 }

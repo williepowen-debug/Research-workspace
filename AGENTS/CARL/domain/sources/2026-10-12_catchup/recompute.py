@@ -4,7 +4,8 @@ p=Path(__file__).resolve().parent
 with zipfile.ZipFile(p/'scf2025-extract.zip') as z: d=pd.read_csv(z.open('SCFP2025.csv'))
 d.columns=d.columns.str.upper();w=d.WGT
 for name in ['LATE','LATE60']:
- print(name,'all',100*(d[name]*w).sum()/w.sum(),'debtors',100*(d[name]*w).sum()/w[d.HDEBT==1].sum())
+ debt=d.HDEBT==1
+ print(name,'all',100*(d[name]*w).sum()/w.sum(),'debtors',100*(d.loc[debt,name]*w[debt]).sum()/w[debt].sum())
 for c,g in d.groupby('NINCCAT'):
  print('usual-income',c,100*(g.LATE*g.WGT).sum()/g.WGT.sum(),100*(g.LATE60*g.WGT).sum()/g.WGT.sum())
 x=pd.read_excel(p/'census-benches26.xlsx',sheet_name='2026',header=None)

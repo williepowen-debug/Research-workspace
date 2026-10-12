@@ -1,0 +1,13 @@
+ther Transaction Documents.   Monthly Period Beginning:       06/01/2026 Monthly Period Ending:       06/30/2026 Prev. Distribution/Close Date:       06/18/2026 Distribution Date:       07/20/2026 Days of Interest for Period:       32 Days in Collection Period:       30 Transaction Month:       26           Original   Purchases   Units     Start Date   Closing Date   Pool Balance   Initial Purchase     73,1
+
+Closing Date   Pool Balance   Initial Purchase     73,190     04/15/2024   05/29/2024   $ 1,675,919,179           Total     73,190         $ 1,675,919,179     MONTHLY PERIOD RECEIVABLES PRINCIPAL BALANCE CALCULATION:   {1}   Beginning of period Aggregate Principal Balance       {1}     $ 730,787,207               Monthly Principal Amounts                   {2}   Collections on Receivables outstanding at end
+
+ BALANCE CALCULATION:   {1}   Beginning of period Aggregate Principal Balance       {1}     $ 730,787,207               Monthly Principal Amounts                   {2}   Collections on Receivables outstanding at end of period   {2}     11,373,309       {3}   Collections on Receivables paid off during period   {3}     10,232,531       {4}   Receivables becoming Liquidated Receivables during period   {4}     
+
+19,955     $ 19,735   {115}   Net Losses in Period   {115}   $ 0     $ 3,305,538     $ 4,504,742   {116}   Aggregate Realized Losses   {116}   $ 0     $ 100,992,528     $ 105,497,270   {117}   Aggregate Realized Loss Percentage   {117}       6.026 %     6.294 % {118}   ABS Prepay Speed   {118}       1.1673       1.2579     DELINQUENCY:       Receivables with Scheduled Payment delinquent     Units     Dollar
+
+242,683       11.25 % {120}   61-90 days   {120}     1,023       21,728,025       2.97 % {121}   91-120 days   {121}     242       4,070,886       0.56 % {122}   Total   {122}     5,059     $ 108,041,594       14.78 %   ASSET REPRESENTATIONS REVIEW DELINQUENCY TRIGGER         Dollars     Percentage   {123}   Receivables with Scheduled Payment delinquent 61 days or more   {123}   $ 25,798,911       3.53 %   
+
+,728,025       2.97 % {121}   91-120 days   {121}     242       4,070,886       0.56 % {122}   Total   {122}     5,059     $ 108,041,594       14.78 %   ASSET REPRESENTATIONS REVIEW DELINQUENCY TRIGGER         Dollars     Percentage   {123}   Receivables with Scheduled Payment delinquent 61 days or more   {123}   $ 25,798,911       3.53 %         {124}   Compliance (Trigger Violation is a Delinquency Rate G
+
+}     730,787,207     {127}   Extension Rate {125} divided by {126}   {127}       4.57 %   By: /s/ Ellen Billings     Name: Ellen Billings     Title: Senior Vice President, Controller – North America     Date: July 15, 2026       5   

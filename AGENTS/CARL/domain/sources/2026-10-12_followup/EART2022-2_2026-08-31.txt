@@ -1,0 +1,696 @@
+EX-99.1
+2
+eart2022-2_exhibit991.htm
+MONTHLY SERVICER'S CERTIFICATE
+Exeter Automobile Receivables Trust 2022-2
+Class A-1 1.042% Asset Backed Notes
+Class A-2 2.19% Asset Backed Notes
+Class A-3 2.80% Asset Backed Notes
+Class B 3.65% Asset Backed Notes
+Class C 3.85% Asset Backed Notes
+Class D 4.56% Asset Backed Notes
+Class E 6.34% Asset Backed Notes
+Servicer's Certificate
+This Servicer's Certificate has been prepared pursuant to Section 4.9 of the Sale and Servicing Agreement among Exeter Holdings Trust 2022-2, as Holding Trust, Exeter Automobile
+Receivables Trust 2022-2, as Issuer, Exeter Finance LLC, as Servicer, EFCAR, LLC, as Seller, and Citibank, N.A., as the Indenture Trustee and Backup Servicer, dated as of March 27, 2022. Defined terms have the meanings assigned to them in the
+Sale and Servicing Agreement or in other Transaction Documents.
+Collection Period Beginning:
+08/01/2026
+Original
+Collection Period Ending:
+08/31/2026
+Purchases
+Units
+Cutoff Date
+Closing Date
+Pool Balance
+Prev. Distribution Date (or Closing Date):
+08/17/2026
+Initial Purchase
+53,619
+03/27/2022
+04/20/2022
+$1,169,804,526.41
+Distribution Date:
+09/15/2026
+Days of Interest for Period:
+29
+Total
+53,619
+03/27/2022
+04/20/2022
+$1,169,804,526.41
+Days in Collection Period:
+31
+Months Seasoned:
+53
+I.
+RECEIVABLES PRINCIPAL BALANCE CALCULATION:
+{1}
+Beginning of period Aggregate Principal Balance
+{1}
+$149,886,691.18
+Collection Period principal amounts
+{2}
+Collections on Receivables
+{2}
+$7,008,923.00
+{3}
+Less amounts allocable to interest and fees
+{3}
+-$2,160,441.92
+{4}
+Total cash principal amounts
+{4}
+$4,848,481.08
+{5}
+Receivables becoming Liquidated Receivables during period (including Cram Down Losses)
+{5}
+$3,338,264.60
+{6}
+Receivables becoming Purchased Receivables during period
+{6}
+$9,985.13
+{7}
+Other Receivables adjustments
+{7}
+$0.00
+{8}
+Total non-cash principal amounts
+{8}
+$3,348,249.73
+{9}
+End of period Aggregate Principal Balance
+{9}
+$141,689,960.37
+{10}
+Pool factor ({9} / Original Pool Balance)
+{10}
+12.1122766%
+II.
+NOTE BALANCE CALCULATION:
+Class A-1
+Class A-2
+Class A-3
+Class B
+Class C
+Class D
+Class E
+Total
+{11}
+Original Note Balance
+{11}
+$120,500,000.00
+$234,000,000.00
+$201,740,000.00
+$159,680,000.00
+$148,560,000.00
+$144,470,000.00
+$108,210,000.00
+$1,117,160,000.00
+{12}
+Beginning of period Notes Balance
+{12}
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$39,602,130.86
+$108,210,000.00
+$147,812,130.86
+{13}
+First Allocation of Principal
+{13}
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+{14}
+Second Allocation of Principal
+{14}
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+{15}
+Third Allocation of Principal
+{15}
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+{16}
+Fourth Allocation of Principal
+{16}
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+{17}
+Fifth Allocation of Principal
+{17}
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$6,122,170.50
+$0.00
+$6,122,170.50
+{18}
+Regular Allocation of Principal
+{18}
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$10,134,196.50
+$0.00
+$10,134,196.50
+{19}
+Optional Purchase payment amount
+{19}
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+{20}
+End of period Note Balance
+{20}
+$0.00
+$0.00
+$0.00
+$0.00
+$0.00
+$23,345,763.87
+$108,210,000.00
+$131,555,763.87
+{21}
+Note Pool Factor
+{21}
+0.0000000%
+0.0000000%
+0.0000000%
+0.0000000%
+0.0000000%
+16.1595929%
+100.0000000%
+11.7759107%
+III.
+CALCULATION OF INTEREST DISTRIBUTABLE AMOUNTS:
+Beginning
+Interest
+Interest
+Calculated
+Class
+Note Balance
+Carryover
+Rate
+Days
+Days Basis
+Interest
+{22}
+Class A-1
+$0.00
+$0.00
+1.042%
+29
+Actual / 360
+$0.00
+{23}
+Class A-2
+$0.00
+$0.00
+2.19%
+30
+30/360
+$0.00
+{24}
+Class A-3
+$0.00
+$0.00
+2.80%
+30
+30/360
+$0.00
+{25}
+Class B
+$0.00
+$0.00
+3.65%
+30
+30/360
+$0.00
+{26}
+Class C
+$0.00
+$0.00
+3.85%
+30
+30/360
+$0.00
+{27}
+Class D
+$39,602,130.86
+$0.00
+4.56%
+30
+30/360
+$150,488.10
+{28}
+Class E
+$108,210,000.00
+$0.00
+6.34%
+30
+30/360
+$571,709.50
+IV.
+RECONCILIATION OF COLLECTION ACCOUNT:
+Available Funds:
+{29}
+Collections during period (excluding Liquidation Proceeds and Fees)
+{29}
+$6,951,901.29
+{30}
+Liquidation Proceeds collected during period
+{30}
+$1,015,153.21
+{31}
+Purchase Amounts or amounts from Servicer deposited in Collection Account
+{31}
+$10,123.08
+{32}
+Investment Earnings - Collection Account
+{32}
+$21,346.58
+{33}
+Transfer From Reserve Account
+{33}
+$9,535,560.42
+{34}
+Fees collected during period
+{34}
+$48,136.93
+{35}
+Other Amounts Received
+{35}
+$0.00
+{36}
+Reserve Account Withdrawal Amount
+{36}
+$0.00
+{37}
+Total Available Funds
+{37}
+$17,582,221.51
+Distributions:
+{38}
+Base Servicing Fee
+{38}
+$374,716.73
+{39}
+Recovery fees reimbursed to Servicer as Supplemental Servicing Fees
+{39}
+$174,810.95
+{40}
+Fee collections (excluding extension fees) reimbursed to Servicer as Supplemental Servicing Fees
+{40}
+$48,136.93
+{41}
+Other amounts due to Servicer
+{41}
+$688.00
+{42}
+Transition Fees to the successor Servicer
+{42}
+$0.00
+{43}
+Indenture Trustee Fees
+{43}
+$416.67
+{44}
+Backup Servicing Fees
+{44}
+$3,500.00
+{45}
+Custodian Fees
+{45}
+$0.00
+{46}
+Asset Representations Reviewer Fees
+{46}
+$0.00
+{47}
+Lockbox Bank Fees
+{47}
+$1,179.31
+{48}
+Owner Trustee Fees
+{48}
+$208.33
+{49}
+Class A Noteholders' Monthly Interest Distributable Amount
+{49}
+$0.00
+{50}
+Class A Parity & Class A on Legal Final
+{50}
+$0.00
+{51}
+Class B Noteholders' Monthly Interest Distributable Amount
+{51}
+$0.00
+{52}
+Class A and B Parity & Class B on Legal Final
+{52}
+$0.00
+{53}
+Class C Noteholders' Monthly Interest Distributable Amount
+{53}
+$0.00
+{54}
+Class A, B and C Parity & Class C on Legal Final
+{54}
+$0.00
+{55}
+Class D Noteholders' Monthly Interest Distributable Amount
+{55}
+$150,488.10
+{56}
+Class A, B, C and D Parity & Class D on Legal Final
+{56}
+$0.00
+{57}
+Class E Noteholders' Monthly Interest Distributable Amount
+{57}
+$571,709.50
+{58}
+Class A, B, C, D and E Parity & Class E on Legal Final
+{58}
+$6,122,170.50
+{59}
+To the Reserve Account, the Reserve Account Deposit
+{59}
+$0.00
+{60}
+Principal Payment Amount
+{60}
+$10,134,196.50
+{61}
+Additional fees due to parties in excess of related limits
+{61}
+$0.00
+{62}
+To the Certificateholders, the aggregate amount remaining
+{62}
+$0.00
+{63}
+Total Distributions
+{63}
+$17,582,221.51
+V.
+CALCULATION OF PRINCIPAL PARITY AMOUNT:
+(X)
+(Y)
+(I)
+(II)
+Cumulative
+Pool
+Excess of
+Available Funds
+Lesser of
+Class
+Note Balance
+Balance
+(X) - (Y)
+in Waterfall
+(I) or (II)
+{64}
+Class A
+$0.00
+$141,689,960.37
+$0.00
+$16,978,564.60
+$0.00
+{65}
+Class B
+$0.00
+$141,689,960.37
+$0.00
+$16,978,564.60
+$0.00
+{66}
+Class C
+$0.00
+$141,689,960.37
+$0.00
+$16,978,564.60
+$0.00
+{67}
+Class D
+$39,602,130.86
+$141,689,960.37
+$0.00
+$16,828,076.50
+$0.00
+{68}
+Class E
+$147,812,130.86
+$141,689,960.37
+$6,122,170.50
+$16,256,367.00
+$6,122,170.50
+{69}
+Total
+VI.
+RECONCILIATION OF RESERVE ACCOUNT:
+Initial
+{70}
+Specified Reserve Balance (1.00% of the Pool Balance as of the Cutoff Date)
+{70}
+$11,698,045.26
+{71}
+Beginning of period Reserve Account balance
+{71}
+$11,698,045.26
+{72}
+Reserve Account deposit from EFCAR, LLC
+{72}
+$9,500,000.00
+{73}
+Investment Earnings - Reserve Account
+{73}
+$35,560.42
+{74}
+Total amount transferred to Collection Account Available Funds
+{74}
+-$9,535,560.42
+{75}
+Reserve Account Withdrawal Amount
+{75}
+$0.00
+{76}
+Distribution to Reserve Account
+{76}
+$0.00
+{77}
+End of period Reserve Account balance
+{77}
+$11,698,045.26
+{78}
+Reserve Account deficiency
+{78}
+$0.00
+{79}
+Reserve Account draw amount
+{79}
+$0.00
+VII.
+OVERCOLLATERALIZATION:
+{80}
+Target Overcollateralization Amount: (greater of)
+{80}
+$24,795,743.06
+{81}
+(i)
+17.50% of the Pool Balance as of the end of the Collection Period
+{81}
+$24,795,743.06
+and
+{82}
+(ii)
+1.50% of the Pool Balance as of the Cutoff Date
+{82}
+$17,547,067.90
+{83}
+End of period Pool Balance of the Receivables
+{83}
+$141,689,960.37
+{84}
+End of period Note Balance
+{84}
+$131,555,763.87
+{85}
+Overcollateralization amount
+{85}
+$10,134,196.50
+{86}
+Overcollateralization percentage
+{86}
+7.15%
+VIII.
+STATISTICAL DATA:
+Original
+Previous
+Current
+{87}
+Average Principal Balance of the Receivables
+{87}
+$21,816.98
+$11,829.11
+$11,546.73
+{88}
+Weighted average APR of the Receivables
+{88}
+19.56%
+18.39%
+18.39%
+{89}
+Weighted average original term of the Receivables
+{89}
+72.37
+72.82
+72.82
+{90}
+Weighted average remaining term of the Receivables
+{90}
+70.90
+31.74
+31.02
+{91}
+Number of Receivables
+{91}
+53,619
+12,671
+12,271
+IX.
+CUMULATIVE NET LOSS RATIO:
+{92}
+Receivables becoming Liquidated Receivables during period (including Cram Down Losses)
+{92}
+$3,338,264.60
+{93}
+Net Liquidation Proceeds collected during period
+{93}
+$840,342.26
+{94}
+Net losses during period
+{94}
+$2,497,922.34
+{95}
+Net losses since Cutoff Date (end of period)
+{95}
+$316,633,973.09
+{96}
+Cumulative net loss ratio
+{96}
+27.07%
+X.
+DELINQUENCY:
+Receivables with scheduled payment delinquent
+Units
+Dollars
+Percentage
+{97}
+31-60 days
+{97}
+1,556
+$23,156,780.35
+16.34%
+{98}
+61-90 days
+{98}
+844
+$13,971,407.34
+9.86%
+{99}
+91-120 days
+{99}
+299
+$4,365,426.91
+3.08%
+{100}
+over 120 days
+{100}
+179
+$3,225,275.13
+2.28%
+{101}
+Total
+{101}
+2,878
+$44,718,889.73
+31.56%
+{102}
+Aggregate Principal Balance of all Receivables that are more than 60 days delinquent
+{102}
+$21,562,109.38
+{103}
+Delinquency Rate as of the end of the Collection Period
+{103}
+15.22%
+{104}
+Delinquency Trigger
+{104}
+40.00%
+{105}
+Delinquency Trigger occurred
+{105}
+No
+XI.
+EXTENSIONS:
+{106}
+Principal Balance of Receivables extended during current period
+{106}
+$6,724,872.50
+{107}
+Beginning of Period Aggregate Principal Balance
+{107}
+$149,886,691.18
+{108}
+Extension Rate
+{108}
+4.49%
+By:
+/s/Michael Hayes
+Name:
+Michael Hayes
+Title:
+Executive Vice President
+Date:
+September 11, 2026
+A capital contribution of $9,500,000 was made by EFCAR, LLC to Exeter Automobile Receivables Trust 2022-2 on September 15, 2026 by deposit of such amount into the Reserve Account
+in accordance with the Capital Contribution Agreement among Exeter Finance LLC, EFCAR, LLC, Exeter Automobile Receivables Trust 2022-2, as reflected on line 72 of this certificate.

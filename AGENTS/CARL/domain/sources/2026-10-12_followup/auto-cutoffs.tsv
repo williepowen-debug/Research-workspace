@@ -1,0 +1,4 @@
+deal	cik	cutoff_date	basis	primary_url	locator	read_date
+AMCAR2024-1	2020251	2024-04-14	CONTRACTUAL_CUTOFF	https://www.sec.gov/Archives/edgar/data/1347185/000119312524146061/d774289dex11.htm	Assets of Trust / Cutoff Date paragraph	2026-10-12
+AMCAR2023-2	1987878	2023-08-03	CONTRACTUAL_CUTOFF	https://www.sec.gov/Archives/edgar/data/1987878/000119312523235242/d459678dex11.htm	Assets of Trust / Cutoff Date paragraph	2026-10-12
+EART2024-1	2005087	2024-01-07	CERTIFICATE_INITIAL_PURCHASE_CUTOFF	https://www.sec.gov/Archives/edgar/data/2005087/000092963826002456/eart2024-1_exhibit991.htm	Initial Purchase / Cutoff Date row	2026-10-12
