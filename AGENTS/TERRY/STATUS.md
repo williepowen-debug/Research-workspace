@@ -1,11 +1,11 @@
 # TERRY STATUS
 
-> ## ★ CURRENT STATE — 2026-10-12 10:54:29 EDT 🟠 · TERRY desktop / OpenAI Codex; /root, model/native UUID UNKNOWN. Will-directed continuation; new priority215e7e439 supersedes discretionary expiry work. **$0 MOVED · NO ORDER · NO HISTORICAL REGRADE.**
-> - **New-trade screen first:** ranked FLG WATCH/WAL PASS/VLO PASS, no entry ready; chain/timing/cost evidence at `research/2026-10-12_new-trade-shortlist.md`. $0 new deployment; no forced card.
+> ## ★ CURRENT STATE — 2026-10-12 11:31:42 EDT 🟠 · TERRY desktop/OpenAI Codex/root; nativeUUID/modelUNKNOWN. New-trade priority215e7e439; **$0 MOVED · NO ORDER · NO HISTORICAL REGRADE.**
+> - **New-trade screen first:** L689 MPC refiner PASS (`setups/MPC_refiner-margin-resilience_L689_2026-10-12.md`): screening spread$611.30over$500cap; shares fit nominal cap but premise/edge/current book/capital unresolved. No VLOadd/gate change. Earlier FLG/WAL/VLO screen preserved. Zero deployment.
 > - **QQQ October12 755C×1:** Will confirms held/$2value, not bid. Conditional sale preferred today; bid/orders missing, roll NONE. Card `setups/QQQ755C_oct12-sell-or-roll_2026-10-12.md` (L685).
 > - **USO October14 150C×2:** conditional sale preferred on profitable broker bid; Tuesday re-mark/proposed Wednesday noon. Current count/orders missing; no inherited October9 stop/roll. Card `setups/USO150C_oct14-sell-or-roll_2026-10-12.md` (L686). Both exercise purchases exceed Sunday cash; cards carry arithmetic.
 > - **Broker/WQ418/420 integrated:** actual PASSED/NO TRADE/size0; exact3paragraph prospective VLO insert, original bytes preserved. Broker totals counted once; USO sold, not expired. Source/validation: `research/2026-10-12_desktop-continuation/receipt.md`. **PROME independent acceptance/VIOLET consumption PENDING.** Fill-time/D69/future exercise-policy gaps remain OPEN.
-> - **Peer intake:** COT#9 current-vintage cell corrected; OZK primary extension evidence in bank-put note, near-maturity catalyst disconfirmed/recognition UNKNOWN. No regrade/new card. BOARD scan run,0new sinceSIG-W-20261008-033,0logged; named corrections0owed/WILL raw0.
+> - **Peer intake:** COT#9 current-vintage cell corrected; OZK primary extension evidence in bank-put note, near-maturity catalyst disconfirmed/recognition UNKNOWN. No regrade/new card. BOARD scan run,3new sinceSIG-W-20261008-033,3logged; named corrections0owed after COR06APPLIED/COR10NO-OP; WILL raw0 (metadata/archive excluded). L690 bounded evidence retained in bank-put note.
 > - **Recovery Git hold STANDING:** approval UNKNOWN/acceptance PENDING; Tuesday harness check retained. No pull/stash/foreign edits or forbidden CLOSEOUT recipe. Laptop closeouts verified on origin; native notification/consumption/lease release UNKNOWN. Full receipt and MEMORY retain future clocks/debt; dashboard on request only.
 
 > ### 📏 DECLARED SIZE CAP (DAEDALUS YEY-004, declared 2026-08-23 from POST-ARCHIVE measured density — see § at the foot of this block)

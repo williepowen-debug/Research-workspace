@@ -1,0 +1,26 @@
+{
+  "observed_at": "2026-10-12 11:31:42 EDT",
+  "MPC": {
+    "opening_gross": "610.0",
+    "closing_gross": "290.0",
+    "opening_assumed_fees": "611.30",
+    "roundtrip_gross_loss": "320.0",
+    "mid_gross": "450.0",
+    "expiry_breakeven_before_fees": "466.1",
+    "gross_terminal_max_profit": "390.0"
+  },
+  "PSX": {
+    "opening_gross": "600.0",
+    "closing_gross": "230.0",
+    "opening_assumed_fees": "601.30",
+    "roundtrip_gross_loss": "370.0",
+    "mid_gross": "415.00",
+    "expiry_breakeven_before_fees": "286.0",
+    "gross_terminal_max_profit": "400.0"
+  },
+  "named_leg_sanity_on_saved_strips": "PASS",
+  "DTE": 67,
+  "actual_new_size": 0,
+  "deployed_dollars": 0,
+  "independent_acceptance": "NOT_CLAIMED"
+}

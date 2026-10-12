@@ -28,3 +28,8 @@ Both FLG and WAL were green in the10:56 ET snapshot (+0.18%,+1.04%): root rule#6
 - VLO: BRENT October12 resumed report and TERRY parent/held-management cards. Matched crack reads are diagnostics, today's settlement not observed; no new gate grade. A terminal scale gate cannot be reopened by this screen.
 
 **Decision needed from Will: none on this PASS screen.** No final ticket presented; WQ418 SPY protection stays PASSED and is not re-proposed. Timing/fees/liquidity/position/owner evidence must clear before a candidate becomes actionable. Any future card requires explicit Will approval; TERRY never executes.
+
+
+## Later L689 input — separate bounded screen
+
+BRENTd8420f223 supplies conditional MPCmargin-resilience/PSXcomparison, not a newVLOadd. Construction PASS: `setups/MPC_refiner-margin-resilience_L689_2026-10-12.md`; vendor11:24EDT near-ATM Decspreads MPC$611.30/PSX$601.30with assumedfees exceed$500cap. One MPCshare nominally affordable, economics/edge/concentration/authority unestablished. Earlier results unchanged; no trade-ready recommendation/Will ask. Physical refinery-recovery lag is unknown.
