@@ -38,7 +38,7 @@
 
 ## MAIL STATE
 - Inbox: five later audit packets integrated/logged for five moves; earlier DEWEY/WALTER016 receipt pairs retained. Source hashes/evidence limits in audit; current DEWEY return2d136fced supersedes publication-pending status for the later checkpoint.
-- Delivery: L694 packets committed b6aac5105 and push-confirmed. Native codex queue accepted both TERRY/PROME pointers; receipt.json retains IDs. L694 consumption/acceptance now verified at PROME artifact. Audit/afternoon packets locally committed0be151800; native queue accepted TERRY/PROME pointers, consumption unverified. Receipt IDs in audit validation.json. Remote publication deferred under documented peer-train restriction.
+- Delivery: L694 packets committed b6aac5105 and push-confirmed. Native codex queue accepted both TERRY/PROME pointers; receipt.json retains IDs. L694 consumption/acceptance now verified at PROME artifact. Audit/afternoon packets locally committed0be151800; native queue accepted TERRY/PROME pointers, consumption unverified. Receipt IDs in audit validation.json. Earlier publication hold is superseded by Will’s explicit computer-failure checkpoint authorization for the shared committed train, relayed here October12. Ready BRENT work committed through40da4e489; PROME handles the safe push. Remote confirmation pending; existing L633/afternoon observations and DEWEY dependencies remain open.
 
 ## WORKBOOK HEALTH
 - Boot one ledger finding dispositioned per file, not all-clear. Partial pair probes/tanker owner-window/stale incident warnings retained. Frozen ledgers untouched.

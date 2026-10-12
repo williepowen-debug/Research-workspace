@@ -42,7 +42,7 @@
   },
   "read_cap": "heuristic lacks BRENT shared READS declaration. Explicit manual THESIS/NEXUS measurement added. No threshold or registry changed.",
   "afternoon": "source read/diagnostic saved. Accepted observation UNKNOWN. No holding grade, order or physical-loss total inferred.",
-  "publication": "Local content committed. Remote publication deferred: shared train includes publication-restricted peer work per PROME active-owner-checkin. No workaround or remote-success claim.",
+  "publication": "Ready BRENT work locally committed through40da4e489. Will explicitly authorized the shared committed train for the computer-failure checkpoint, relayed in this thread October12. PROME handles safe push; remote confirmation pending. Earlier peer-train restriction is historical. Source caveats and existing obligations unchanged.",
   "notification": "Native current TERRY/PROME pointers follow local content commit. Acceptance does not establish consumption.",
   "source_hashes": {
     "CLX26_NYM.raw": "8164e14e081fbd7337c8f18346f9a6f91984a779811a7be7557957f49262f6cb",
@@ -75,5 +75,6 @@
       "state": "accepted"
     },
     "consumption": "not established"
-  }
+  },
+  "checkpoint_recorded": "2026-10-12T15:09:02-04:00"
 }
