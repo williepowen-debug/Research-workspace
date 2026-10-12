@@ -26,3 +26,28 @@ This companion keeps render metadata outside the boot-read byte budget.
 *Twenty-ninth base 2026-10-09 (post-close, PROME prome-15, desktop, crash-recovery session, installed 16:26 ET) — chain 0: the twenty-eighth base's amendments #1–#3 were folded into the base at the re-base, so their projections are REMOVED; zero projections stand. The folded projections are preserved in this file's commit history (`git log -p -- PROME/HEARTBEAT_DASHBOARD.md`) and the amendments verbatim in `PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-10-09.md`.*
 
 *Thirtieth base 2026-10-10 (Sat, MARKETS CLOSED, PROME prome-ce, laptop, installed 12:50 ET) — chain 0: the twenty-ninth base's amendment #1 (SAM's yen close, 10/9 17:0x ET) was folded into the base at the re-base, so its projection is REMOVED; zero projections stand. The folded projection is preserved in this file's commit history (`git log -p -- PROME/HEARTBEAT_DASHBOARD.md`) and the amendment text verbatim in `PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-10-10.md`.*
+
+```dashboard-amendment
+{
+  "amendment": 1,
+  "source_sha256": "68be467fd565f4b82f39b649f1c69fbf845ab676c8e325f21597b156aa93286c",
+  "set": {
+    "one": "October12 owner evidence: VLO A-notice/A-exit UNKNOWN; bounded L633 read complete with physical gaps. KRE weakness is not causal broad-credit proof; consumer counterevidence remains. L694 EGBN PASS / energy WAIT, no trade approval. October11 broker reconciliation supersedes old outcome asks; current orders/quote time UNKNOWN. No fresh market pull; $0 moved by PROME.",
+    "channels": {
+      "Energy": {
+        "headline": "October12 VLO source UNKNOWN; physical gaps remain",
+        "body": "TERRY: governing November A-notice/A-exit UNKNOWN; B1/B2/B3 not assessed at this touch. L633 bounded read complete with four refinery run-state gaps; no new notice/SELL/order.",
+        "cls": "elev"
+      },
+      "Credit": {
+        "headline": "KRE broad weakness; causal credit attribution unproven",
+        "body": "REGINALD KRE study through October9: broad weakness, not causal broad-credit proof. CARL spending counterevidence remains. Earlier spread observations keep their original vintages.",
+        "cls": "watch"
+      }
+    },
+    "ticker": {
+      "F1": "F1 crack October12 accepted observation UNKNOWN; TERRY governing November A-notice/A-exit UNKNOWN, no fresh number"
+    }
+  }
+}
+```

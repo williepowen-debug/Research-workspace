@@ -6,32 +6,32 @@
 
 ## WRITTEN
 
-2026-10-11 — narrative reorganized after the broker reconciliation and ruling follow-through; no fresh market observation or broker capture.
+2026-10-12 — owner-evidence synthesis at computer-switch closeout; no fresh market pull or broker capture.
 
 ## HEADLINE
 
-The immediate operational priority is expiry follow-through while the owners finish already-approved work.
+The opportunity comparison is complete; source quality and independent acceptance are the next constraints.
 
 ## STORY
 
-REGINALD completed the bank-funding procedure repair and incremental insurer-channel handoffs, with a Citizens earnings checklist from existing evidence. TERRY repaired the WAL references without changing the exit conditions and prepared a precise VLO calculation proposal. PROME reviewed both deliveries and received explicit closeout receipts. These are completed research and maintenance tasks; they establish no new market signal, loss, fill or trade approval.
+PROME accepted the bounded L694 comparison: EGBN passed the feasibility stage and energy remains WAIT; the separate BNO instrument result remains NO TRADE. REGINALD's whole-basket KRE study shows broad technical weakness through October9 but does not establish a causal broad-credit deterioration. CARL's saved spending evidence supplies counterevidence to broad consumer deterioration. BRENT completed the bounded afternoon source read with physical gaps; TERRY grades the governing VLO price leg UNKNOWN because accepted source proof is missing. [Consumed evidence and scope](reports/2026-10-12_active-owner-checkin.md).
 
 ## QUESTION
 
-The [ruling record](proposals/2026-10-11_wq418-420-RULED.md) holds your WQ418/420 decisions and their unfinished follow-through; no repeat approval is owed. The generated queue owns other open decisions. Approval, owner implementation, independent acceptance, recipient consumption and closeout are separate evidence.
+Existing approval covers the unfinished owner work. The generated queue owns decisions still needing Will; completed research does not authorize capital. Independent WQ420 acceptance and recipient consumption remain separate from implementation.
 
 ## FALSIFIER
 
-Funding growth alone does not establish broad bank stress. The repaired procedure requires the qualified borrower-breadth evidence before escalation; the official quarterly series remains distinct from its nowcast.
+A broad stress thesis still needs corroborating funding, credit and household evidence; bank share weakness alone cannot supply it. Qualified settlement evidence can resolve the VLO UNKNOWN grade, while missing refinery run-states cannot establish complete recovery.
 
 ## DISAGREEMENT
 
-The two desks' assembled Citizens lending baselines differ. REGINALD routed the source/vintage discrepancy to BROCK for reconciliation before its dependent comparison. Neither frozen rule was replaced.
+WALTER identified a narrow conditional SCF numerator discrepancy and routed it to CARL. The disputed conditional figure remains withheld pending the owner's arithmetic answer; the historical all-family basis survives. [Coordination record](reports/2026-10-12_active-owner-checkin.md).
 
 ## POSITION
 
-The [broker reconciliation](data/2026-10-11_broker-capture-TRANSCRIPTION.md) records the supplied Fidelity positions and Activity; [FORGE](../FORGE/STATUS.md) holds the mirror. Exact capture/quote time and working orders remain UNKNOWN; Robinhood was not supplied and D69's +$53.54 remains unexplained. New near-expiry QQQ and USO calls need the existing owner's cards; the remaining option and duration-management clocks are in [SCRATCH's operator card](SCRATCH.md#operator-card) and DOCKET. No trade is inferred from a research approval or this document cleanup.
+[October11 broker reconciliation](data/2026-10-11_broker-capture-TRANSCRIPTION.md) and [FORGE](../FORGE/STATUS.md) retain their evidence dates and unknown working orders/quote time. Held-call cards are delivered; booking acceptance and manual expiry management remain distinct. No new trade follows from L694 or this closeout.
 
 ## WATCH
 
-Start from [SCRATCH](SCRATCH.md#-next-session--start-here) for the position-facing priority and required direct calendar checks. [DOCKET](DOCKET.tsv) owns the remaining dates and duties; [accepted owner work](proposals/2026-10-11_wq414-409-RULED.md) distinguishes earlier completed commissions from their new continuation. The bank desks' Citizens source/vintage discrepancy still needs its owner reconciliation. [HEARTBEAT](../HEARTBEAT.md) owns the separately dated regime read. [Cleanup acceptance](reports/2026-10-11_current-surfaces-cleanup.md).
+[SCRATCH](SCRATCH.md#-next-session--start-here) is the restart point. [DOCKET](DOCKET.tsv) owns dates, [GATES](GATES.tsv) owner grades, and [closeout record](reports/2026-10-12_machine-switch-closeout.md) machine-switch limitations. Consume later committed owner checkpoints before restarting work; preserved evidence duties and independent reviews remain open.
