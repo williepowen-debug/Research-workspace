@@ -1,6 +1,6 @@
 # Q3-2026 earnings read plan — is regional-bank stress concentrated or spreading, and through which balance-sheet channel?
 
-**Written:** 2026-10-09 Fri, ~21:3x–22:xx ET, REGINALD (Will-directed, Opus 5.5). **Before any cohort bank has printed** (first: CFG Fri 10/16).
+**FROZEN for grading:** 2026-10-09 Fri, ~21:3x–22:xx ET, REGINALD (Will-directed, Opus 5.5), **before any cohort bank has printed** (first: CFG Fri 10/16). Later evidence is graded against the frozen lines; a defect is disclosed, never silently retuned.
 **Asked by:** Will, 10/9: *"Is regional-bank stress still concentrated in particular banks, or is it spreading — and through which balance-sheet channel?"* Bounded monitor repair first; then a read plan built on the EXISTING frozen frames and the 10/7 funding baseline, unchanged.
 **Bounds:** no baseline redone, no grading rule changed, no score/threshold/trade moved, no agent launched. The only new pre-print lines are §2.3's AMTB non-CRE lines, because no frame covers that leg; they are dated before the print and are observation lines, not triggers.
 
