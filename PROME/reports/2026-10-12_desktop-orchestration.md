@@ -29,3 +29,7 @@ Verify each reply at its artifacts before updating canonical state or reporting 
 The old laptop TERRY ID is not the desktop target. Will reports exiting the laptop session; completed laptop closeout/publication remains unverified, as recorded in the existing recovery receipt.
 
 The orchestration ledger is approximately 1.14 MB; its rotation remains due and was not mixed into this live messaging checkpoint. Foreign working files are active owner work and remain outside PROME's commit scope.
+
+## Approved BRENT opportunity assignment
+
+Will separately approved the recommended research direction on October12: `AGENTS/BRENT/inbox/2026-10-12_from-PROME_APPROVED-energy-opportunities-for-TERRY.md` records his words and exact scope. Existing owner receives this bounded commission; DOCKET L689 tracks delivery, distinct from L633 and afternoon settlement. Start with crude-versus-diesel recovery, then incremental delivered relief and falsifiers, producing zero to three candidate exposures for TERRY. DEWEY’s current partial assignment is a dependency, not a duplicate commission. Trade execution remains unapproved.
