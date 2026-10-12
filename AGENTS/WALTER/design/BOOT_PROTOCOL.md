@@ -139,6 +139,16 @@ Before ending either closeout tier, review carried duties against named owner ar
 
 Run `python3 AGENTS/WALTER/tools/closeout_check.py` after edits and again after publication/reconciliation. It is read-only: PASS means the explicit receipt and the checked STATUS phrases agree with local origin/ledger evidence. REVIEW (1) requires disposition of contradictions; UNKNOWN (2) requires missing evidence to be repaired or explicitly reported before closing. It does not fetch, establish a fresh remote, parse all natural-language claims, or decide owner completion. Fresh-fetch publication verification remains safe-push's responsibility. Review hashes detect changed evidence, not semantic correctness. Retain the script output as a dated receipt. For a new implementation commit, record pending until origin verifies it, then update that exact commit to published; the subsequent receipt-only commit is verified by safe-push, avoiding a self-referential commit hash.
 
+
+
+### October12 bounded closeout repair — Will-authorized, CATO CL1/CL7/CL8
+
+Four intended event ledgers lacked recognizable cadence/check clocks; use the existing `ledger_staleness.py` declarations after actual content/receipt checks. Header-first consumers must skip the metadata and batch writes must preserve it. This changes no event rows, thresholds or obligations; other routing-ledger warnings remain visible.
+
+`tools/closeout_run.py` selects the existing tier-appropriate and declared conditional checks, stores their output and drafts a receipt. Manual duties remain UNVERIFIED until the owner accounts for them in LAST_COMPLETION. The draft is dated evidence, never another obligation registry. It does not fetch or write summaries, and its facts retain the underlying observation time/local-origin limit. An X repair can update only affected live state and its existing receipt/breadcrumb; full narrative regeneration stays deferred. A design/procedure repair still uses Tier2.
+
+Execution order is stated in the owning checklist without renumbering13 or12(b). Handoff persistence, scoped check results, full procedure coverage and open research are distinct claims. The retirement assessment and required weekday/memory checks cannot vanish behind a receipt PASS.
+
 ## §12 — STATUS closeout
 
 `network_uncertainty_peak` (≥5 `cluster_mediating`/calendar-day → Telegram-ping) per `JOINT_PROPOSAL_2026-05-06_red_walter` §5.5b; it has fired above naive base rate (21-in-day 5/11) — calibration watch on whether ≥5 stays useful. NETWORK AWARENESS "Today's routing + stale agents" regenerates at closeout (Pass 4 option A — don't carry forward stale rows; the embedded per-agent table was dropped 2026-05-05 because it duplicated REGISTRY and rotted). A doc with multiple live-level blocks needs ALL regenerated together — a stale live level is the one thing that must never carry forward (2026-06-26 consistency-critic finding).
@@ -149,7 +159,9 @@ Findings should live in the highest-leverage layer they apply to, not all three.
 
 ## §16 — git commit + push
 
-Pathspec commits replace the prior `git reset HEAD → git add AGENTS/WALTER/` flow per `[[finding_pathspec_commit_race_safety]]` + `[[finding_concurrent_commit_index_race]]`: the shared `.git/index` makes `git reset HEAD` a global op that can clobber concurrent agents' staged work, and the gap between `git add` and `git commit` can let a concurrent agent commit YOUR staged files under THEIR message. Pathspec commits close both windows. Pre-commit sanity: `git diff --stat <pathspecs>`; never unilaterally `git restore --staged`/`reset` (both touch the shared index) — flag foreign pre-staged work to Will instead. Push is automated at closeout via `scripts/safe-push.sh` (ff-gated, fails safe, per root CLAUDE.md); a non-ff abort means origin diverged (2nd machine pushed since this clone last pulled) = **routine** under serial multi-machine → `git pull --rebase` + re-push, NEVER force. Escalate to Will (per-agent-branches tripwire) only if the rebase hits conflicts outside WALTER's own dir, or non-ff recurs mid-session (either = two machines ran simultaneously, which the protocol forbids). Defer push if concurrent uncommitted foreign work was observed (`[[feedback_defer_push_coordinate]]`, `[[finding_push_train_pattern]]`). LIAISON shared-write zones can be in WALTER's pathspec when writing the WALTER-side of a turn; verify the target isn't concurrently active (`[[feedback_agent_git_isolation]]`).
+Current mechanics are canonical in WALTER `CLAUDE.md` step16, `design/BOARD_CONSUMPTION_SPEC.md` §7 (WALTER’s stricter push authority), and root `CLAUDE.md` Git Protocol (exact-path commits and bounded non-ff recovery). Travel those pointers; this rationale section does not carry a second recovery recipe. A non-ff describes the commit graph and can arise from concurrent sessions on one machine. WALTER’s foreign-work push deferral remains binding; root’s before-pull protection is not a universal ban on ordinary pushes by other desks.
+
+Historical lesson: pathspec commits replaced the global unstage/add flow because the index is shared. The October12 repair removes the obsolete automatic-push/second-machine explanation; it changes no push grant or ownership boundary.
 
 ---
 

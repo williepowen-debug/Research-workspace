@@ -17,6 +17,9 @@ class CloseoutCheck(unittest.TestCase):
         self.put('AGENTS/WALTER/STATUS.md','## BOTTOM LINE\nSee LAST_COMPLETION.md for obligations.\n')
         self.put('AGENTS/WALTER/routed/delivery_log.tsv','signal_id\trecipient\thandoff_path\twritten_state\nSIG-W-20260915-001\tBRENT\t'+self.handoff+'\tdelivered\n')
         self.put('owner.md','Owner evidence, not inferred completion')
+        # These fixtures exercise receipt/git consistency, not the external R1
+        # checker. Supply its subprocess boundary; test failure propagation below.
+        self.put('scripts/corrections_boot_check.py', 'print("R1-WRITE 0 OK")\n')
         self.receipt={'schema':1,'as_of':'2026-01-01T00:00:00Z','next_review':'2026-09-16',
           'publication':[{'commit':self.commit,'state':'published'}],
           'delivery':{'signal_date':'20260915','total':1,'delivered':1},
@@ -59,6 +62,12 @@ class CloseoutCheck(unittest.TestCase):
         self.assertEqual(inspect(self.repo)[0],[])
     def test_missing_origin(self):
         self.git('update-ref','-d','refs/remotes/origin/master')
+        with self.assertRaises(ValueError):inspect(self.repo)
+    def test_r1_findings_are_review(self):
+        self.put('scripts/corrections_boot_check.py', 'print("R1-WRITE OWED"); raise SystemExit(1)\n')
+        self.assertTrue(any('R1 write compliance OWED' in x for x in inspect(self.repo)[0]))
+    def test_r1_unrun_is_unknown(self):
+        self.put('scripts/corrections_boot_check.py', 'raise SystemExit(2)\n')
         with self.assertRaises(ValueError):inspect(self.repo)
 
 if __name__=='__main__':unittest.main()

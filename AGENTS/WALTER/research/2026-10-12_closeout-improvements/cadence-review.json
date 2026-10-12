@@ -1,0 +1,86 @@
+{
+  "as_of": "2026-10-12T16:35:35Z",
+  "ledgers": {
+    "registry/CORRECTIONS.tsv": {
+      "before_event_declaration": false,
+      "before_repull": null,
+      "data_sha256": "2e8baa61309d2ef8eeb2493b70fe0929d2a14d67fc69f9654fce322b33f23528",
+      "after_event_declaration": true,
+      "after_repull": "2026-10-12",
+      "event_rows_byte_identical": true
+    },
+    "registry/corrections_receipts.tsv": {
+      "before_event_declaration": false,
+      "before_repull": null,
+      "data_sha256": "dcf032f241c643db21bdadcfe38d61acdfda84bb64ef939bf83868764f17e2c5",
+      "after_event_declaration": true,
+      "after_repull": "2026-10-12",
+      "event_rows_byte_identical": true
+    },
+    "registry/DEEP_RESEARCH_FLAGGED_LOG.tsv": {
+      "before_event_declaration": false,
+      "before_repull": null,
+      "data_sha256": "2b57fe6e97dcc7cf4eca6e4c22dde2312d444fee769860c94b795356ed68dc53",
+      "after_event_declaration": true,
+      "after_repull": "2026-10-12",
+      "event_rows_byte_identical": true
+    },
+    "registry/BATCH_MANIFEST.tsv": {
+      "before_event_declaration": false,
+      "before_repull": null,
+      "data_sha256": "37922b63e8b002859d67e0f5a25e85b74a3e6b9df05d93f7affef912af082400",
+      "after_event_declaration": true,
+      "after_repull": "2026-10-12",
+      "event_rows_byte_identical": true
+    }
+  },
+  "register_rows": 66,
+  "receipt_rows": 1,
+  "batch_rows": 153,
+  "open_batches": [],
+  "historical_external_manifests": [
+    {
+      "id": "BM-20260828-02",
+      "path": "AGENTS/WALTER/registry/BM-20260828-02-manifest.tsv",
+      "sha256": "cc0eb4f574d43afd08d2ccd44cac21a35566bbbdde0b872dc0a70a8d0cfcaaeb",
+      "declared_items": 8,
+      "limit": "Historical manifest item accounting only; not a new proof of dispatch/publication."
+    },
+    {
+      "id": "BM-20260828-03",
+      "path": "AGENTS/WALTER/registry/BM-20260828-03-manifest.tsv",
+      "sha256": "9e66f88d5ab942a9340270a02408fd278933d614b0574d40dd5be9e6b64188d4",
+      "declared_items": 8,
+      "limit": "Historical manifest item accounting only; not a new proof of dispatch/publication."
+    },
+    {
+      "id": "BM-20260828-04",
+      "path": "AGENTS/WALTER/registry/BM-20260828-04-manifest.tsv",
+      "sha256": "cad01bd1331617fe29bc661faef390c84249ace6f30e5ed6268fbdcc894053e1",
+      "declared_items": 8,
+      "limit": "Historical manifest item accounting only; not a new proof of dispatch/publication."
+    }
+  ],
+  "open_deep_research": [
+    {
+      "id": "CARL-DR-1",
+      "deadline": "2026-11-13",
+      "disposition": "PARTIAL"
+    },
+    {
+      "id": "REQ-DEWEY-20261010-001",
+      "deadline": "2026-10-14",
+      "disposition": "OPEN"
+    }
+  ],
+  "deep_findings": [
+    [
+      "INFO",
+      "no overdue deep-research flags (2 open)"
+    ]
+  ],
+  "dewey_top_level_files": [
+    "AGENTS/WALTER/inbox/DEWEY/README.md"
+  ],
+  "limits": "Header/parser compatibility and actual content review only; no correction lifecycle closure, no returned DEWEY report or missing-event clearance inferred. Global freshness thresholds unchanged."
+}

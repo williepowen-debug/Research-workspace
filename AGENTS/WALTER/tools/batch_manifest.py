@@ -60,7 +60,7 @@ def _read() -> list[dict]:
         if not line.strip() or line.startswith("#"):
             continue
         f = line.split("\t")
-        if i == 0 and f[0] == "batch_id":
+        if f == COLS:
             continue
         if len(f) != len(COLS):
             sys.exit(f"REFUSING TO RUN: {LEDGER.name} line {i+1} has {len(f)} fields, expected "
@@ -72,7 +72,13 @@ def _read() -> list[dict]:
 
 def _write(rows: list[dict]) -> None:
     LEDGER.parent.mkdir(parents=True, exist_ok=True)
-    out = ["\t".join(COLS)]
+    # Cadence/review metadata belongs before the TSV header. Preserve it when
+    # recording a real batch event; a write must not silently erase declarations.
+    comments = []
+    if LEDGER.exists():
+        comments = [line for line in LEDGER.read_text(encoding="utf-8").splitlines()
+                    if line.startswith("#")]
+    out = comments + ["\t".join(COLS)]
     out += ["\t".join(r[c] for c in COLS) for r in rows]
     LEDGER.write_text("\n".join(out) + "\n", encoding="utf-8")
 

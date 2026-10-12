@@ -1,3 +1,6 @@
+# Cadence: EVENT-DRIVEN
+# Last re-pull ATTEMPTED: 2026-10-12
+# Review evidence: research/2026-10-12_closeout-improvements/cadence-review.json (content/receipt check; no invented event).
 # AGENTS/WALTER/registry/CORRECTIONS.tsv — fleet correction register (FORUM-6 R1; WALTER owns schema + prune; DAEDALUS boot leg parses BY HEADER NAME).
 # Interface ratified 2026-08-26 (DAEDALUS §A draft + WALTER amendments A1-A3, packet pair on origin). Parser-load-bearing fields:
 #   correction_id  COR-YYYYMMDD-NN, stable + unique (never collides with SIG-W in grep).

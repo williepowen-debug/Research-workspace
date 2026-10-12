@@ -1,0 +1,16 @@
+{
+  "as_of": "2026-10-12T16:36:37Z",
+  "case": "X-authorization follow-up light-tier replay; no new network read or auth run",
+  "rc": 1,
+  "source_hashes": {
+    "STATUS.md": "27a3405e088ad17f3d2de0d369dee697433cb230352c594d5156d99a7de0088e",
+    "MEMORY.md": "e37338e95ac4ff21ce40834ed64a3840595890efdb9839f2415675056d24d729",
+    "LAST_COMPLETION.md": "23b55434df0494f46ee2cba35981d4caeabdc231a9749ff1ffe9b44446a165f7",
+    "REGISTRY.tsv": "156aa8ecf8efb5420e25fd5e1329cab9eaf9bb8ecfa80f238ba4b7a892aa1158",
+    "registry/x_bookmarks_seen.json": "7ae5f0b15e2db8055aa5f5b3dcb5fbf4a43f45b3e8c30563bc5e4471ecf1ccaf",
+    "registry/x_bookmarks_pending.json": "431222c2affbb8f682af721b579cf52a9cdf4bed92b6d783ece7d68ffb98090e"
+  },
+  "owner_sources_unchanged": true,
+  "output": "Selected checks: REVIEW; procedure completion: UNVERIFIED.\nEvidence and owner-review draft: AGENTS/WALTER/research/2026-10-12_closeout-improvements/x-light-replay\n",
+  "limits": "Replay validates selected checks/evidence collection, not a new X repair or completed manual closeout. Expected ordinary routing-ledger warnings remain; no full-tier checks selected."
+}

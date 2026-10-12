@@ -1297,7 +1297,7 @@ def check_deep_research_pending_overdue():
         return [(INFO, "no DEEP_RESEARCH_FLAGGED_LOG.tsv yet")]
     out, n_pending = [], 0
     with ledger.open(errors="replace") as f:
-        for row in csv.DictReader(f, delimiter="\t"):
+        for row in csv.DictReader((line for line in f if not line.startswith("#")), delimiter="\t"):
             disp = (row.get("disposition") or "").strip().upper()
             # Terminal BLACKLIST, not an open-state whitelist. Was `!= "PENDING"`,
             # which silently skipped QUEUED and PARTIAL: on 2026-08-13 two rows
