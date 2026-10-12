@@ -1,7 +1,7 @@
 # ACCEPTANCE — `board_scan.py`: consume only PUBLISHED signals, remember what was consumed, surface late arrivals (prome-2a)
 
 **Written:** 2026-09-30 21:59 ET (`date`), BEFORE any edit to `PROME/tools/board_scan.py`.
-**reads: 5 — three historical repair reads below, CATO's October12 RC6 diagnostic read and L695-ACCEPTANCE; count not reset. Will authorized the L695 extension and one named independent acceptance read on October12 ("okay go ahead and fix", following the bounded scope in this conversation). That result read found a multiline-stamp blocker. The author correction passes tests but awaits authorization for L695-ACCEPTANCE-2; no additional round is implied.**
+**reads: 6 — three historical repair reads below, CATO's October12 RC6 diagnostic read, L695-ACCEPTANCE and separately Will-authorized L695-ACCEPTANCE-2 ("ok approved"). Count not reset. The sixth read ACCEPTED the corrected reader at c78fd7b14; L695 RESOLVED within its bounded scope. No further round authorized.**
 
 ## October12 L695 extension — acceptance written before implementation
 
@@ -25,7 +25,7 @@ IMPLEMENTED: only dispatch-key collection/normalization and its diagnostics chan
 
 The bare live check returned rc0 with the original ten signals classified INFO, two concurrent uncommitted drafts excluded, and two existing amendment notices still printed. Cursor and consumed-ledger SHA256 hashes were identical before/after (`cad5b9e189fea05910a65b131160b15addc119c89fd84281e8bfdd3734c9d9f1` and `a45babb2e63f970ea3aa56ba4f1b3deafeb87c3e5f57ffc0646cc8944eadbe98`, respectively). No advance/ack/seed flag was used. The old amendment-notice limitation still requires manual inspection before any complete-board disposition.
 
-INDEPENDENTLY VERIFIED: the first L695 result confirmed the alias repair and live conservation but withheld full acceptance for silently ignored stamp continuations. The subsequent bounded correction passes the expanded 70-test suite, but is not independently accepted. [Named result, counterexample and author disposition](../../reports/2026-10-12_L695-acceptance.md). L695-ACCEPTANCE-2 requires Will's additional authorization. STILL UNRESOLVED: final acceptance, plus historical limits and WQ-350 repair list below, unchanged by this narrow fix.
+INDEPENDENTLY VERIFIED: L695-ACCEPTANCE-2 accepted the corrected reader at c78fd7b14, SHA256 `b2fd3e7b2d453c39cc4b33c4bee8533c4778b4f1b00ca090b83e1bfdfb2ed6f4`. The reviewer passed the 70-test suite and ten independent fresh/amended, quoted/comment, field-boundary and committed-content cases across both aliases. Bare live scan: rc0, twelve INFO, cursor/ledger unchanged. L695 RESOLVED. [Named results and evidence](../../reports/2026-10-12_L695-acceptance.md). STILL UNRESOLVED: historical limits and WQ-350 repair list below, unchanged by this narrow fix; the existing amendment notices are not a complete-board all-clear.
 
 ## Historical review record (September30)
 - read 1 — 2026-09-30 22:03 → 22:18 ET, independent reader (general-purpose, Opus), 27 experiments in throwaway repos, report `…/scratchpad/reader1/REPORT.md` (session scratchpad; findings transcribed below): ❌ 6 (F1–F6) · ⚠️ 12 (F7–F18) · the live migration verified exact (1,112 rows, no action signal ever laundered by the old cursor). All six ❌ fixed 2026-09-30 22:25 ET; the fix pass is UNREVIEWED until read 2.
