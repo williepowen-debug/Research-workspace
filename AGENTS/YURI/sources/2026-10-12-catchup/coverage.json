@@ -1,0 +1,129 @@
+{
+  "recorded_after_actual_reads_at": "2026-10-12T23:20:26+00:00",
+  "reserved_723": {
+    "source": "AGENTS/YURI/sources/2026-10-12-round2/act-723.pdf",
+    "official_id": "0001202610120009",
+    "new_pages_read": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "prior_pages_reused": [
+      1,
+      2,
+      3,
+      34,
+      35
+    ],
+    "cumulative_body_coverage": "COMPLETE 35/35",
+    "content": "Federal, district, military and arbitration judge appointments; no operative mobilisation declaration in complete act."
+  },
+  "other_PDF_reads": [
+    {
+      "act": "686",
+      "date": "2026-09-28",
+      "official_id": "0001202609280007",
+      "path": "AGENTS/YURI/sources/2026-10-12-catchup/decree-686.pdf",
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "coverage": "COMPLETE, including 2-page annex",
+      "sha256": "378a8839c86910f864fbb1b78a7805d9e2017c48c273fb7dc8d5ea363fbea0b7"
+    },
+    {
+      "act": "661",
+      "date": "2026-09-17",
+      "official_id": "0001202609170018",
+      "path": "AGENTS/YURI/sources/2026-10-12-catchup/asset-661.pdf",
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "coverage": "COMPLETE",
+      "sha256": "6ce28c4cbbcaab603af22a77edcf3be4a9eda4a9d0149d25942766250901511e"
+    },
+    {
+      "act": "674",
+      "date": "2026-09-21",
+      "official_id": "0001202609210001",
+      "path": "AGENTS/YURI/sources/2026-10-12-catchup/asset-674.pdf",
+      "pages_read": [
+        1,
+        2
+      ],
+      "coverage": "COMPLETE",
+      "sha256": "3a5b45eba3ff7a560305cfee21a841ad823d827dd21718e04b07b2e9290ffd10"
+    },
+    {
+      "act": "689",
+      "date": "2026-09-28",
+      "official_id": "0001202609280008",
+      "path": "AGENTS/YURI/sources/2026-10-12-catchup/asset-689.pdf",
+      "pages_read": [
+        1,
+        2,
+        3
+      ],
+      "coverage": "COMPLETE",
+      "sha256": "4305b9baea8ead83838aa6b8ce6a78ec1318ea25cf374374668b08937c04df51"
+    },
+    {
+      "act": "302 original",
+      "date": "2023-04-25",
+      "official_id": "0001202304250033",
+      "path": "AGENTS/YURI/sources/2026-10-12-catchup/asset-base302.pdf",
+      "pages_read": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "coverage": "COMPLETE original incl. annex; not current consolidation",
+      "sha256": "ffe4498c1c4d2fc3ded248750f7c83b6d0d295dd08f7138d7c30eb0e43f2aaba"
+    }
+  ],
+  "reserved_pages_read": 30,
+  "other_pages_read": 21,
+  "other_ceiling": 30,
+  "selected_story_bodies_read": 6,
+  "excluded_saved_story_bodies_unread": 23,
+  "reader": "YURI manual PDFium/image read and full published HTML-body read; no OCR; not independently verified",
+  "declaration_result": "No qualifying declaration in inspected bodies; all 19 saved act PDF bodies read in full, registered October perimeter remains PARTIAL and OPEN",
+  "remaining": "Signed diesel exception/annex, №686 implementing goods-code list, shipping successor, Mintrans13032 body, 23 excluded saved stories, referenced underlying treaties, future eligible publications; MoD implementation outside test. No search non-discovery or host failure is treated as event absence."
+}

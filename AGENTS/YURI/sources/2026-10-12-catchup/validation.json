@@ -1,0 +1,30 @@
+{
+  "observed_at": "2026-10-12T23:25:27+00:00",
+  "retrieval_hash_and_page_consistency": "PASS",
+  "new_routes_per_missing_instrument": {
+    "diesel": 2,
+    "goods_code": 2,
+    "shipping": 2
+  },
+  "PDF_pages": {
+    "reserved_723": 30,
+    "other": 21,
+    "other_ceiling": 30
+  },
+  "stories": {
+    "selected_and_read": 6,
+    "excluded_unread": 23,
+    "already_read_dedup": "PASS"
+  },
+  "asset_rows": 35,
+  "asset_entities": 20,
+  "all_listed_entity_percent_sums_100": "PASS",
+  "historical_rows_grade_memos_registered_letter_byte_unchanged": "PASS",
+  "YUR004_changed_columns_only": [
+    "reading",
+    "outcome"
+  ],
+  "YUR004_status_dates_preserved": "PASS",
+  "assignment_author_version_match": "PASS",
+  "limit": "Saved-source/count/state checks only; not independent verification of manual visual interpretation or exhaustive search absence."
+}

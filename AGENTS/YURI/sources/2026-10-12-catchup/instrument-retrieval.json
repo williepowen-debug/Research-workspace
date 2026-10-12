@@ -1,0 +1,26 @@
+[
+  {
+    "number": "686",
+    "official_id": "0001202609280007",
+    "route": "G1 exact-number legal-publication cross-reference",
+    "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202609280007",
+    "path": "AGENTS/YURI/sources/2026-10-12-catchup/decree-686.pdf",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202609280007",
+    "error": "",
+    "observed_at": "2026-10-12T23:12:48+00:00",
+    "sha256": "378a8839c86910f864fbb1b78a7805d9e2017c48c273fb7dc8d5ea363fbea0b7",
+    "pdf_pages": 5
+  },
+  {
+    "name": "asset-base302.pdf",
+    "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202304250033",
+    "path": "AGENTS/YURI/sources/2026-10-12-catchup/asset-base302.pdf",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202304250033",
+    "error": "",
+    "observed_at": "2026-10-12T23:15:40+00:00",
+    "sha256": "ffe4498c1c4d2fc3ded248750f7c83b6d0d295dd08f7138d7c30eb0e43f2aaba",
+    "pdf_pages": 4
+  }
+]

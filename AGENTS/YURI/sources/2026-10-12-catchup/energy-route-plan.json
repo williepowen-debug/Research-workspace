@@ -1,0 +1,40 @@
+{
+  "assignment": "f6384dd19",
+  "prior_logs_consulted": [
+    "sources/2026-10-12/yuri-fetch-batch2–5.json",
+    "sources/2026-10-12-followup/yuri-followup-*-input.json",
+    "research/2026-10-12_prome-directed-diesel-followup.md"
+  ],
+  "routes": [
+    {
+      "name": "diesel-federal",
+      "route": "D1",
+      "instrument": "Signed diesel exception",
+      "url": "http://publication.pravo.gov.ru/search/federal_authorities?Name=%D0%B4%D0%B8%D0%B7%D0%B5%D0%BB%D1%8C&DocumentDateSearchType=0&DocumentDateFrom=09.10.2026&DocumentDateTo=12.10.2026&pageSize=30"
+    },
+    {
+      "name": "diesel-minenergo",
+      "route": "D2",
+      "instrument": "Signed diesel exception",
+      "url": "https://minenergo.gov.ru/search/?q=%D0%B4%D0%B8%D0%B7%D0%B5%D0%BB%D1%8C"
+    },
+    {
+      "name": "decree-686-identify",
+      "route": "G1",
+      "instrument": "№686 implementation concrete cross-reference",
+      "url": "http://publication.pravo.gov.ru/search/president?Number=686&NumberSearchType=0&DocumentDateSearchType=1&DocumentDate=28.09.2026&pageSize=30"
+    },
+    {
+      "name": "goods-government",
+      "route": "G2",
+      "instrument": "№686 implementation",
+      "url": "http://government.ru/search/?q=686"
+    }
+  ],
+  "limits": {
+    "routes_per_missing_instrument": 2,
+    "other_PDF_pages": 30,
+    "reserved_723_pages": 30,
+    "saved_Kremlin_stories": 6
+  }
+}
