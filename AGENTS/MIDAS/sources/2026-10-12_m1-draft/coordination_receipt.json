@@ -12,7 +12,9 @@
   "notification_state": "ACCEPTED",
   "queue_message_id": "01a13233-b2d5-7910-8ba8-1c5bb97e3806",
   "receipt": "Queued message 01a13233-b2d5-7910-8ba8-1c5bb97e3806 for thread 01a131cf-1c7d-7900-9dcf-d98af587e290.",
-  "recipient_consumption": "UNKNOWN at notification receipt; requires exact-artifact acknowledgment",
+  "recipient_consumption": "CONSUMED",
   "notice_count": 1,
-  "lifecycle_closeout_requested": false
+  "lifecycle_closeout_requested": false,
+  "consumption_evidence": "4cd4327555014d59766051de1a80ab49efe7a854:PROME/reports/2026-10-12_laptop-round2.md#MIDAS result consumed",
+  "consumption_reconciled_at": "2026-10-12T19:05:24-04:00"
 }

@@ -11,6 +11,10 @@
 
 ---
 
+## 26. OPEN — October12 domain maintenance audit
+
+Audit delivered to Will: `analysis/2026-10-12_MIDAS-domain-sitrep-and-maintenance-audit.md`, evidence `sources/2026-10-12_domain-audit/checks.json`, KB-135. First: review MIDAS-09/10's frozen metal-per-share-basis wording against ordinary fee depletion before October30; this is an ambiguity, not an established STUCK outcome. Next: repair primary GSR's use of guarded futures pointers, the hardcoded copper-direction/conjunction statement, and vendor-bar settlement labels; contract-map expiry/staleness remains unguarded. Reconcile THESIS instrument/source statements and FLOW/VX live fields against the current record, preserving historical and pinned rows. Existing gold/PGM/copper inputs, BIS and WQ-368 remain at their named owners/reviews. Tests11/11 pass, no overdue forecasts or unreceipted named corrections. Audit is complete; these repairs are flagged, not performed. M1=4/composite8/20 unchanged.
+
 ## 25. ✅ **CLOSED 2026-10-02: WQ-352 RULED and ENCODED.** Will 2026-10-01 21:40 ET, verbatim *"all with your recs"* — PROME's rec was MIDAS's own §A4 amendment: *"adopt the bands but leave them unscored for one month: they print a level, and it does not enter the composite until a line is crossed on data that arrives after approval."* **Charter THRESHOLDS carries the three-leg table (SLV / PPLT / PALL) as ADOPTED, LIVE-BUT-UNSCORED through 2026-11-01 21:40 ET; STATUS M2/I2 cells carry the would-be scores (3/2/2 at 9/30) and the held-back note.** No composite move from the ruling (M2 stays 1 ⚪, I2 stays 2 🟡; composite 8/20). ⚠️ **ONE open question flagged to Will via PROME:** CROSSING vs CALENDAR on day 31 with no post-approval crossing. The letter is written on CROSSING per §A4's words; if the two readings differ in effect (they do), it comes back to Will per the ruling packet. Record: `AGENTS/MIDAS/inbox/2026-10-01_from-PROME_WQ-352-RULED-adopt-bands-unscored-one-month.md`; draft of record: `analysis/2026-09-25_silver-pgm-bands-DRAFT.md`.
 
 ### 25-hist. The pre-close registration

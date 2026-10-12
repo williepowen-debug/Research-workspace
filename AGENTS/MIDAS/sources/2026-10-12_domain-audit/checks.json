@@ -1,0 +1,79 @@
+{
+  "audited_at": "2026-10-12T23:04:16.571931+00:00",
+  "scope": "Will-directed read-through and maintenance flags, no market refresh or implementation pass",
+  "runtime": "Codex/OpenAI; exact model UNKNOWN",
+  "owner_thread": "01a131e1-82c3-7702-beae-4992d53e8fd5",
+  "input_sha256_before_writeback": {
+    "CLAUDE.md": "050efe2cc38a23c3f278f43f3fee19c0b55da734e00684661fc09d4fed68d0d8",
+    "STATUS.md": "dd17c223e979f502334a831bbd6eaaf64d052acc238f637c7a35557a085ac592",
+    "OPEN_ITEMS.md": "f9ab3ce13310c083bc054c143803812386449d5ee90eee1e38fd478b722063aa",
+    "SCRATCH.md": "fe9a1a0584313ea5ce534f6e32dd72e11bf9d9b5453e0ca044967d4e9103937d",
+    "NEXUS_BRIEF.md": "b972b7986809ebf91935508812022b5c9ed732dc1c64b0a6cd0a8322625b0135",
+    "THESIS.md": "9f718674ad12e983155889eb9f65d6783d0b69b2aa3d65c91cb47231152f6aa5",
+    "sources/SOURCES.md": "fca316ca4e80402b722a4e292e063d80adeef8790948270978253ccdf09c1925",
+    "workbook/FLOW.tsv": "79349097290355066a7bc2205b2a76665b3e1561076f7641a460a4004f5876a1",
+    "workbook/VX.tsv": "246cc7197adfa1d543e581093b737f852a0fb771aeee66992209a64fd141b0cc",
+    "workbook/PREDICTIONS.tsv": "50bbe5bfdd4f4a6bd35be4ffc23b07f7f866564e9c2a5c3cf0389ed2094f3212",
+    "boot.py": "94aa605963838bb5e4527f2276765caf007e2fa0a02b1b4f286829713e788998",
+    "metals_watch.py": "f15b15b3543d221c27a629ad6a3fb2106fd004546ab18f8399422ff3b56df23a",
+    "test_boot_cot_metals.py": "73102c07e9b05bff8ce1b71ea6b596b8da7dc152e749f88e02cc0afae9a5946d"
+  },
+  "checks": {
+    "guard_tests": {
+      "command": "python3 -m unittest -q test_boot_cot_metals",
+      "returncode": 0,
+      "tests": 11,
+      "result": "PASS"
+    },
+    "predictions_due": {
+      "returncode": 0,
+      "rows": [],
+      "open_rows": [
+        "MIDAS-09",
+        "MIDAS-10"
+      ],
+      "resolve_date": "2026-10-30"
+    },
+    "ledger_age": {
+      "returncode": 0,
+      "result": "all scanned ledgers within relative-age limit",
+      "perimeter": "five ledgers; registry/corrections_receipts.tsv outside this age scan"
+    },
+    "ledger_nudge": {
+      "returncode": 1,
+      "result": "PREDICTIONS seven STATUS writes behind; FLOW two writes behind; semantic drift independently inspected"
+    },
+    "corrections": {
+      "returncode": 0,
+      "named_unreceipted": 0,
+      "expired_ALL_broadcasts_unreceipted": 1,
+      "expired_ALL_is_current_obligation": false
+    },
+    "weekday_claims": {
+      "returncode": 0,
+      "file": "STATUS.md"
+    }
+  },
+  "network_boot": "NOT RERUN; saved sources/2026-10-12_review/boot_final.txt inspected, REVIEW/metals-watch with four dying pointers; no claim of fresh end-to-end certification",
+  "prior_result_consumption": {
+    "state": "CONSUMED",
+    "evidence_commit": "4cd4327555014d59766051de1a80ab49efe7a854",
+    "evidence_path": "PROME/reports/2026-10-12_laptop-round2.md#MIDAS result consumed",
+    "result_commit": "c6512626cf1da53172800021dcaa3ad50566e91f"
+  },
+  "external_verification": [
+    {
+      "source": "SPDR GLD January 2025 FAQ, page9",
+      "url": "https://www.spdrgoldshares.com/media/GLD/file/GLD-FAQs-January-2025.pdf",
+      "finding": "Sponsor says gold backing per share declines over time as gold is sold to meet expenses."
+    },
+    {
+      "source": "PPLT 2025 Form10-K, risk factors",
+      "url": "https://www.sec.gov/Archives/edgar/data/1460235/000199937126004880/pplt-10k_123125.htm",
+      "finding": "Sponsor states that platinum represented by each share decreases each day by the Sponsor fee."
+    }
+  ],
+  "prediction_basis_finding": "Interpretation risk, not a declared STUCK outcome: routine expense drift versus a change of share/unit basis is not explicitly distinguished in frozen MIDAS-09/10 text. No in-window split established; no live prediction edited.",
+  "state_read_bytes_before_writeback": 42209,
+  "thesis_bytes_before_writeback": 30616
+}
