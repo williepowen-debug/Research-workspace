@@ -1,0 +1,24 @@
+{
+  "observed_utc": "2026-10-12T19:21:07.382177+00:00",
+  "remote_tip": "1276609e352cd934a488cb6615817741bc77cfb3",
+  "origin_read": "single successful git ls-remote origin refs/heads/master",
+  "published_owned_commits": {
+    "26ff20a0e": true,
+    "5c41bce79": true,
+    "aea8a07a7": true,
+    "41526df5e": true
+  },
+  "local_head": "9bcc91c6d1bad0a145956ac19117a487a74e7658",
+  "remaining_shared_tail_at_observation": [
+    {
+      "commit": "9bcc91c6d1bad0a145956ac19117a487a74e7658",
+      "subject": "BRENT: retain confirmed closeout publication receipt"
+    },
+    {
+      "commit": "503776cbc21e1ea6a7275d534a8a04a0e3f3a717",
+      "subject": "REGINALD: preserve late CARL source-supplement handoff at machine-switch boundary"
+    }
+  ],
+  "push_attempt": "NOT EXECUTED: rejected by automatic approval review",
+  "rejection_reason": "Safe-push could publish other owners work. Cited authorization in receipt was not accepted as trusted user approval for broad external publication. Do not bypass through peer/workaround."
+}
