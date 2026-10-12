@@ -9,3 +9,13 @@ Remaining owner work is later October 12 MMA/operator/refinery evidence, then po
 TERRY's working STATUS explicitly says its COT#9 current-vintage cell was corrected. That is working-state evidence of uptake, not a substitute for a committed owner completion/independent WQ-420 acceptance receipt. No new grading request is issued here.
 
 OZK and BRENT work already published in prior guarded shared-branch pushes need not be re-pulled over foreign dirty files. New publication is verified at the next guarded push receipt. No closeout of Will's BRENT window was requested; it retains the approved work. No new Will decision is required by this status delivery.
+
+## Afternoon delivery consumed — 0be151800
+
+PROME read the full `PROME/inbox/2026-10-12_from-BRENT_desk-audit-afternoon-read.md` and `AGENTS/BRENT/audits/2026-10-12_desk-health/REPORT.md`, and verified both byte-for-byte against0be151800. **L633 bounded October10–12 read is RESOLVED:** the later Monday survey is delivered and all four refinery run-state gaps are expressly dispositioned, as the original row permits. This supersedes the morning pending-delivery status above. It does not establish full recovery or close future physical-data duties.
+
+Owner-reported Monday survey supports partial offshore recovery; Pascagoula, Saraland, Chalmette and Meraux current run-states remain GAP. COT#9 was already complete. No new observation-window extension or independent primary-source refresh by PROME.
+
+Post14:30 source read is delivered but the accepted crack observation remains UNKNOWN: CME tables were empty, the available bulletin was October9 preliminary, and the saved vendor proxy lacks required timestamp-convention/precision proof and expiry metadata. Arithmetic alone cannot establish a gate result. TERRY's current transcript confirms the committed handoff has arrived and it is recording UNKNOWN under the existing rule; final committed grading receipt remains separate. No duplicate notification or measurement request issued.
+
+DEWEYOctober14, WPSR/IEAOctober15, independent WQ420 acceptance L684, routine-deployment verification, incident-source refresh and other owner evidence debts remain open at their existing carriers. Publication remains deferred under the shared peer-train restriction; no push workaround or lifecycle closeout.
