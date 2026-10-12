@@ -18,4 +18,4 @@ No new consumption receipt was located in the targeted artifact scan; consumptio
 
 **Preserved obligations:** L635 and L690 remain completed and previously PROME-consumed. Horton disposition checkpoint **October 14**; L520 Q3 release **October 20 after market close**, call **October 21 at 08:30 ET**, check-by **October 31**. Post-print insiders and early-November 10-Q/Call Report log-only follow-through remain unchanged. No repeated extension study, automatic numerical re-mark or trade execution.
 
-**Notification:** Pending queue acceptance to the newly supplied PROME thread. Acceptance will be recorded below; it does not establish artifact consumption.
+**Notification:** Checkpoint/inbox packet committed **737c289fa**. Native `codex queue` accepted message **01a13152-ea16-77a1-8762-b184769fe273** to supplied PROME thread **01a130f9-9935-7fa2-b5cf-42c41652c9a3**, exit 0. Acceptance does not establish artifact consumption. No push attempted while other owners have dirty work; no closeout performed.
