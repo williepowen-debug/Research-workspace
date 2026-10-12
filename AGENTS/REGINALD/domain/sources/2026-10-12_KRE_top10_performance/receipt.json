@@ -1,0 +1,28 @@
+{
+  "retrieved_at": "2026-10-12T13:33:18.976208-04:00",
+  "source": "Yahoo Finance via fresh yfinance Ticker.info and history requests; two endpoints at one vendor, not independent providers",
+  "source_links": {
+    "EWBC": "https://finance.yahoo.com/quote/EWBC/",
+    "HWC": "https://finance.yahoo.com/quote/HWC/",
+    "UBSI": "https://finance.yahoo.com/quote/UBSI/",
+    "EBC": "https://finance.yahoo.com/quote/EBC/",
+    "ONB": "https://finance.yahoo.com/quote/ONB/",
+    "FHB": "https://finance.yahoo.com/quote/FHB/",
+    "FBP": "https://finance.yahoo.com/quote/FBP/",
+    "AUB": "https://finance.yahoo.com/quote/AUB/",
+    "NIC": "https://finance.yahoo.com/quote/NIC/",
+    "UCB": "https://finance.yahoo.com/quote/UCB/",
+    "KRE": "https://finance.yahoo.com/quote/KRE/"
+  },
+  "three_month_window": [
+    "2026-07-10",
+    "2026-10-09"
+  ],
+  "four_week_window": [
+    "2026-09-11",
+    "2026-10-09"
+  ],
+  "historical_return_type": "Close-to-close price returns excluding cash dividends; intraday changes measured against quoted prior close. Today excluded from historical windows.",
+  "selection": "Ten heaviest KRE bank holdings in State Street October9 holdings snapshot, plus KRE benchmark",
+  "holdings_source": "domain/sources/2026-10-12_KRE_holdings/holdings-daily-us-en-kre.xlsx"
+}

@@ -1,0 +1,13 @@
+{
+  "snapshot_retrieved_at": "2026-10-12T13:33:18.976208-04:00",
+  "today_positive": 10,
+  "three_month_negative": 9,
+  "three_month_flat": 1,
+  "four_week_negative": 10,
+  "median_three_month_price_pct": -5.153140324835798,
+  "median_four_week_price_pct": -3.961243792219432,
+  "interpretation": "Broad price weakness in this selected group despite today's rebound. Nine below July10, one flat; all ten below Sep11. Price moves do not establish a credit-driven cause. These ten represent only 11.34% of the October9 portfolio and do not establish whole-fund breadth.",
+  "feed_limits": "Yahoo declares 15-minute Nasdaq and 20-minute NYSE bank feed delays even where supplied trade timestamps are near retrieval time. NIC last trade is 13:12:07 EDT; other bank times 13:31:30\u201313:33:11 EDT. KRE delay field 0.",
+  "validation": "All 11 symbols/currencies/types verified; Oct9 quote prior closes match settled-history endpoint within $0.000007. Historical windows exclude today; no splits reported, ordinary cash dividends excluded. Single vendor, no independent-provider confirmation.",
+  "scope": "No new credit figures, score/target/gate/trade change or monitoring assignment."
+}
