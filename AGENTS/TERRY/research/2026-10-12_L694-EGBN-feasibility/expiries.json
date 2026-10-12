@@ -1,0 +1,13 @@
+{
+  "ticker": "EGBN",
+  "expiries": [
+    "2026-10-16",
+    "2026-11-20",
+    "2026-12-18",
+    "2027-03-19",
+    "2027-05-21",
+    "2027-08-20"
+  ],
+  "source": "chain_fetch.py EGBN --json --no-cache, returned in this task before March strip; exact expiry-list fetch time not captured",
+  "recorded_at": "2026-10-12T13:18:30-04:00"
+}
