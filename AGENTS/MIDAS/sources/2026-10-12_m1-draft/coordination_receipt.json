@@ -1,0 +1,18 @@
+{
+  "observed_at": "2026-10-12T22:20:47.239542+00:00",
+  "owner": "MIDAS",
+  "owner_thread": "01a131e1-82c3-7702-beae-4992d53e8fd5",
+  "recipient": "PROME",
+  "recipient_thread": "01a131cf-1c7d-7900-9dcf-d98af587e290",
+  "transport": "supported codex queue --thread --message",
+  "authority": "41f7b72e4e2baefd97ea35b5d58392fb1ac27a25:AGENTS/MIDAS/inbox/2026-10-12_from-PROME_laptop-round2.md",
+  "result_commit": "c6512626cf1da53172800021dcaa3ad50566e91f",
+  "packet_commit": "2d01d64d4ce8828d2b63837d77e6304db46049ff",
+  "packet": "PROME/inbox/2026-10-12_from-MIDAS_M1-successor-draft.md",
+  "notification_state": "ACCEPTED",
+  "queue_message_id": "01a13233-b2d5-7910-8ba8-1c5bb97e3806",
+  "receipt": "Queued message 01a13233-b2d5-7910-8ba8-1c5bb97e3806 for thread 01a131cf-1c7d-7900-9dcf-d98af587e290.",
+  "recipient_consumption": "UNKNOWN at notification receipt; requires exact-artifact acknowledgment",
+  "notice_count": 1,
+  "lifecycle_closeout_requested": false
+}
