@@ -1,0 +1,13 @@
+# WATT — L654 closeout receipt, October 12, 2026
+
+Research and local persistence complete. Main evidence/state commit **427c1280f** was verified an ancestor of `origin/master` after a fresh October 12 fetch; another session's push carried it. Own inbox filing **883d4bfd0**, delivery **d9127ded0**, and final brief **9ea3f5cd8** were not yet ancestors at that check. WATT paths were clean before this receipt; no unsaved research. STATUS remains pinned at 427c1280f in the brief.
+
+**Publication pending:** automatic approval review rejected the attempted `scripts/safe-push.sh` invocation before execution. Reason: pushing the current shared branch may publish other accumulated commits, while the reviewer considered the user's approval scoped to research/local updates. The subsequent read-only fetch found two PROME commits among the unpublished history as well as WATT's three. No remote push or alternate transport was used to bypass that rejection. Root CLAUDE.md mandates closeout auto-push, but this runtime's review rejected the broader remote effect; approval is needed to finish that step here.
+
+Durable delivery is saved and committed at `PROME/inbox/2026-10-12_from-WATT_L654-advisory-IRAS-grade.md` (or its recipient-moved processed path). Four consumer packets were committed to HENRY/VULCAN/CARL/REGINALD inboxes. Fleet notification, consumption and supervised closeout acknowledgment remain UNKNOWN: no verified cross-runtime transport is exposed. Do not infer that any recipient is absent.
+
+Validation: TSV column checks clean (KB 9, VX 9, FLOW 8, live predictions 10 columns); two OPEN predictions remain. Weekday, diff, read-cap and ledger checks passed within stated perimeters. No memory authored; no memory-index check required. Orphan check found other desks' work; no unrelated paths staged or committed by WATT. No test of an unchanged pricing instrument was added. No threshold changed, no new research direction registered, no trade proposed or executed.
+
+Outstanding event work: October 12 full-day outcome; DOE request issuance/use; October 14 recall deadline and advisory close; first boot on/after October 15 de-escalation grade. Current price finding is limited to **10:35 EPT**, not a completed-day verdict. Weekly next boot by October 19; earlier event checks remain owned.
+
+Research result: FERC IRAS/BYONC rejection on October 9; **WATT-10 MISS**, WATT-08 ~50% OPEN, EL26-67 response November 16 with qualifying section 205 suspension proviso. Allocation remains unresolved: this removes only the proposed IRAS tariff burden, not physical/contract power cost or a measured dollar of household pass-through.
