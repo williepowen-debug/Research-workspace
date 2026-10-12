@@ -2,6 +2,9 @@
 
 **Authority:** Will directly requested “sweep TERRY files for anything owed, broken, stale, incomplete, etc”. **Observed:** 2026-10-12T14:57:17-04:00. Actual runtime OpenAI Codex, session01a13117-7dae-7a81-ac4e-9aab1d1d1b27, exact model UNKNOWN. Root/local instructions read; desk BOOT is embedded in CLAUDE.md. **Current sweep DONE within the stated perimeter; no new capital, order, candidate study, numbered risk rule, helper or session closeout.**
 
+
+**Later current reconciliation — 2026-10-12T15:02:37-04:00:** after core sweep e2f797d6e, BRENT0be151800 afternoon packet landed and was fully consumed. Raw-bar arithmetic/source matches are saved in afternoon-grade.json; VLO October12 A-notice/A-exit **UNKNOWN**, missing convention/precision/full identity proof, no NOT-FIRED grade or order. L633 source read delivered with four refinery gaps; acceptance separate. Exact committed PROME report806148d8d now verifies final L69476e14f8d2/1e6fba55f **accepted complete**. Those two changes supersede the earlier pending source/acceptance statements below only; future evidence/L684/L687/VIOLET/Git-repair duties survive.
+
 ## Coverage and repairs
 
 Inventory548 tracked TERRY paths,0missing; exact conflict-marker scan0candidates. Explicit Markdown local-link scan133 nonarchive Markdown files,0missing targets; anchors, backtick prose paths and all semantic references are not certified by that scan. A separate manual source check found/fixed the Roan .docx.txt suffix. Live state/registry/card headers, six registered ledgers, carried MEMORY debts, old completion/open-items surfaces, rawWill intake and new inbox were examined against their owning receipts. This is not a claim that every historical sentence in548files was re-underwritten.

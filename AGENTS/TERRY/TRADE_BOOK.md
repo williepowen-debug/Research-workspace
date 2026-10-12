@@ -47,6 +47,7 @@ Prior rows above are dated records. These rows supersede their current-state cla
 | 2026-10-11 | TRY-NOTRADE-WQ409-SPY — SPY Dec18 770/760P candidate ×1 | VIOLET | NO TRADE | PASSED WQ-418 October11; ruling5a8168f95 | NO TRADE; 0 contracts/$0 moved; VIOLET consumption unverified | `setups/SPY_dec18-770-760P_pre-CPI-TAKE-PASS_2026-10-11.md` |
 
 | 2026-10-12 | TRY-BRENT-REFINER — held-share precision definition only | BRENT/HENRY | FIRED | WQ-420 approved October11 | FIRED / LIVE, one held share; exact prospective insert encoded, staged2 stood down; no new grade/order; independent result read PENDING | `setups/VLO-SHARE_management-proposal_2026-09-28.md` §2-bis |
+| 2026-10-12 | TRY-BRENT-REFINER — afternoon existing held-share observation | BRENT/TERRY | FIRED | WQ386/420 existing rule | FIRED / LIVE, one recorded held share; A-notice/exit UNKNOWN from0be151800, source proof incomplete; no new notice/SELL/order, B1–B3 not regraded | `setups/VLO-SHARE_management-proposal_2026-09-28.md` October12 afternoon assessment |
 | 2026-10-12 | MGMT-QQQ755C-OCT12 — ×1 held, Will value$2 | Will | CONDITIONAL | Preparation only | CONDITIONAL; sale preferred today, roll unapproved; broker bid/orders missing | `setups/QQQ755C_oct12-sell-or-roll_2026-10-12.md` |
 | 2026-10-12 | MGMT-USO150C-OCT14 — ×2 snapshot-held | Will/BRENT context | CONDITIONAL | Preparation only | CONDITIONAL; sale preferred on profitable broker bid; no inherited October9 stop/roll approval | `setups/USO150C_oct14-sell-or-roll_2026-10-12.md` |
 
