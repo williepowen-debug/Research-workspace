@@ -19,7 +19,7 @@
 
 ## Session Notes
 
-**Direct-Will continuation10/12:** EGBN figures freshly reverified and updated-data search completed; report `reports/2026-10-12_EGBN_cleanup_figure_verification.md`, source receipts/arithmetic saved. Core facts hold; rounded strict inequalities/HFS exclusion qualified in Sept reports. Latest quarterly vintage remainsJune30; next issuer eventOct21. No new broker/score/model/monitor.
+**Direct-Will continuation10/12:** EGBN figures freshly reverified and updated-data search completed; report `reports/2026-10-12_EGBN_cleanup_figure_verification.md`, source receipts/arithmetic saved; KB ML-REG-191/192. Core facts hold; rounded strict inequalities/HFS exclusion qualified in Sept reports. Latest quarterly vintage remainsJune30; next issuer eventOct21. Relative strength plus cleanup is meaningful bearish counterevidence; improving-trajectory pricing explanation is INFERRED, not proven. Will explicitly wants data saved as we go. No new broker/score/model/monitor.
 
 **L694 continuation, 2026-10-12:** canonical approval1926850f2 + desk pointer consumed, no direct-Will conflict. One concise EGBN question saved at `reports/2026-10-12_L694_EGBN_candidate-question.md`; TERRY gets early feasibility, underlying pricing gap remains unproved. Wait for existing L35/Q3 issuer evidence; no fresh broad scan/deep-dive/OZK inversion. No lifecycle closeout requested.
 

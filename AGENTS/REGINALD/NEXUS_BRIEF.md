@@ -12,7 +12,7 @@
 
 ## VIEW
 
-- **EGBN primary recheck (direct Will,10/12):** substantial cleanup reproduced; headline HFI nonaccrual excludes still-held HFS, sale-linked charge-offs include transfers, and rounded inequalities narrowed. Latest quarterly credit data retrieved remainsJune30. MF composition caveats retained; L694 no demonstrated mispricing. Verified detail → `reports/2026-10-12_EGBN_cleanup_figure_verification.md`.
+- **EGBN primary recheck (direct Will,10/12):** substantial cleanup reproduced; headline HFI nonaccrual excludes still-held HFS, sale-linked charge-offs include transfers, and rounded inequalities narrowed. Latest quarterly credit data retrieved remainsJune30. MF composition caveats retained; L694 no demonstrated mispricing. Relative strength is material bearish counterevidence; investors rewarding an improving trajectory remains INFERRED. Verified detail + discussion synthesis → `reports/2026-10-12_EGBN_cleanup_figure_verification.md`; KB ML-REG-191/192 written back after Will's persistence check.
 
 - **L694 opportunity pass (10/12):** one EGBN apartment-maturity question to TERRY/PROME, conditional downside from existing research; no demonstrated mispricing. Missing fact is loan-level outcome/incremental loss at the existing Q3 issuer event, not new research. Report → `reports/2026-10-12_L694_EGBN_candidate-question.md`. First domain stage only; TERRY feasibility and PROME disposition pending, no trade/score change.
 
