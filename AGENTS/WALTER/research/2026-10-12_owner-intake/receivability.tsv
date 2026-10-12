@@ -1,0 +1,8 @@
+observed_utc	recipient	state	evidence
+2026-10-12T19:35:16.068783+00:00	CARL	UNKNOWN	Partial generated ORCH_INFLIGHT and same-day owner receipts/foreign writes; no cross-runtime census or DARK inference. No owner launch.
+2026-10-12T19:35:16.068798+00:00	OTTO	UNKNOWN	Partial generated ORCH_INFLIGHT and same-day owner receipts/foreign writes; no cross-runtime census or DARK inference. No owner launch.
+2026-10-12T19:35:16.068800+00:00	RED	UNKNOWN	Partial generated ORCH_INFLIGHT and same-day owner receipts/foreign writes; no cross-runtime census or DARK inference. No owner launch.
+2026-10-12T19:35:16.068802+00:00	REGINALD	UNKNOWN	Partial generated ORCH_INFLIGHT and same-day owner receipts/foreign writes; no cross-runtime census or DARK inference. No owner launch.
+2026-10-12T19:35:16.068803+00:00	BROCK	UNKNOWN	Partial generated ORCH_INFLIGHT and same-day owner receipts/foreign writes; no cross-runtime census or DARK inference. No owner launch.
+2026-10-12T19:35:16.068805+00:00	OZK	UNKNOWN	Partial generated ORCH_INFLIGHT and same-day owner receipts/foreign writes; no cross-runtime census or DARK inference. No owner launch.
+2026-10-12T19:35:16.068806+00:00	TERRY	UNKNOWN	Partial generated ORCH_INFLIGHT and same-day owner receipts/foreign writes; no cross-runtime census or DARK inference. No owner launch.

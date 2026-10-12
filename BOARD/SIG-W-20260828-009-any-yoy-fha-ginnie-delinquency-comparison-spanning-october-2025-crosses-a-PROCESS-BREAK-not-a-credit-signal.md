@@ -16,7 +16,12 @@ confidence: 0.85
 verdict: VERIFIED-PRIMARY (research-output, no verify-spawn per CHECKLIST Phase 2.8b) — the FY2024 counts and the waterfall change are HUD primary; the "79% of the move is a slower drain" decomposition is DEWEY's construction from HUD flow data and is the load-bearing inference.
 consumer_lens: This is an INSTRUMENT warning, not a credit finding. The FHA delinquency series has a process break at October 2025; a YoY comparison spanning it measures a pipeline change, not borrower behaviour. It fires on anyone quoting FHA/Ginnie DQ deterioration.
 corrects: EXTERNAL: DEWEY 2026-07-24 report's "FHA DQ rising sharply" framing — correct on the level, silent on the cause (no BOARD signal carries it)
+status: PARTIALLY-CORRECTED
+status_ref: SIG-W-20261012-025 — ruled97.4/22.5 illustrations, causal/kill claims weakened; processcomparability caution holds
+status_date: 2026-10-12
 ---
+
+> CORRECTION 2026-10-12 — SIG-W-20261012-025: WQ104 was ruled September1; weighted97.4bp beside22.5bp best-leg, not100.7. Gross/repeated actions and the79% net-accumulation split do not identify a causal class-wide wedge or79% of the YoY rate rise. WEAKEN: causal/kill-breach inference. HOLDS: historical observations and policy-era comparability caution. CurrentDR1 PARTIAL/dueNovember13; no owner score changed. Original text below is historical.
 
 # 🔴 FLEET INSTRUMENT WARNING — **any YoY comparison of FHA delinquency spanning October 2025 crosses a PROCESS BREAK, not a credit signal.**
 

@@ -1,0 +1,36 @@
+FROZEN 2026-10-12 — point-in-time diagnostic capture, including historical matched excerpts; not a current analytical figure surface. Manual dispositions: REPORT.md.
+
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/WALTER/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded 100.7 → current 97.4
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (1)
+        BOARD/SIG-W-20260828-009-any-yoy-fha-ginnie-delinquency-comparison-spanning-october-2025-crosses-a-PROCESS-BREAK-not-a-credit-signal.md:45  [100.7]
+           | **CARL's kill** | **breaches under 3 of 4 aggregation rules** — book-weighted **100.7bps**, unweighted mean **141.2bps**, worst-leg **260b
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (43)
+        AGENTS/NEXUS/STATUS_COLD.md:1420  [100.7]  (no unit/series context on line)
+           | **M-04** | Vol/gamma — crack candidate | Med | **26%** | **—** | 09-29 | HELD. VIX **15.08** [10/7 FRED] · 15.41 [10/8 vendor close] · MOV
+        AGENTS/NEXUS/STATUS_COLD.md:1537  [100.7]  (no unit/series context on line)
+           [STATUS line 24] | **M-04** | Vol/gamma — crack candidate | Med | **26%** | **—** | 10-08 | HELD (10-08 = basis reversal logged, Conf held).
+        AGENTS/NEXUS/STATUS.md:24  [100.7]  (no unit/series context on line)
+           | **M-04** | Vol/gamma — crack candidate | Med | **26%** | **—** | 10-08 | HELD (10-08 = basis reversal logged, Conf held). VIX **15.08** [1
+        AGENTS/LABOR/domain/sources/2026-10-02_USDL-26-1549_empsit_sep2026.txt:239  [100.7]  (no unit/series context on line)
+           Computer and peripheral equipment manufacturing | 100.1 | 100.3 | 100.7 | 99.5 | 100.0 | 100.0 | 99.7 | 99.4 | -0.3
+        AGENTS/VIOLET/workbook/MOVE.tsv:69  [100.7]  (no unit/series context on line)
+           2026-10-08	100.70	investing.com
+        AGENTS/CARL/research/2026-09-16_key-file-audit/nfib_august.txt:1493  [100.7]  (no unit/series context on line)
+           2025 102.3 100.7 102.9 101.9
+        AGENTS/NEXUS/research/2026-10-08_pass_record_PM.md:13  [100.7]  (no unit/series context on line)
+           - **Vendor `fetch.py price` (18:35 ET; closes, not live):** ^GSPC 7,765.36 (−0.47%) · ^VIX 15.41 · KRE 69.59 (+1.02%) · TLT 77.87 · TBT 42.1
+        AGENTS/NEXUS/recon/2026-10-08_coldread_status_PM2_ledger.md:5  [100.7]  (no unit/series context on line)
+           **Disposition:** the ❌ (L13 cell 15 is a 10/16 OBSERVATION that reads Mon 10/19 — the docket row and the LAST RUN line said 10/16) FIXED on 
+        … +35 more 🟠 hit(s) on [100.7] across 18 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟡 in MAIL, point-in-time — usually no action (7: BROCK, CARL, DEWEY, HOMER, LIQUID, NEXUS, REGINALD)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (17)  [--show-handled to audit]
+
+  🔴 1 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================
+

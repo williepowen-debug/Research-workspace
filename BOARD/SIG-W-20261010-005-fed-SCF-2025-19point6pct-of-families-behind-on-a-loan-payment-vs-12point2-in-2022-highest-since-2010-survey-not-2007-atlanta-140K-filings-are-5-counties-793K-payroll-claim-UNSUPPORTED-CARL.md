@@ -19,7 +19,12 @@ safety_net: clear
 event_window: closed
 word_count: 300
 dispatch_note: "CONSUMER_CREDIT -> CARL action (backup REGINALD). HOMER info (mortgages, evictions). LABOR info for the killed 793K claim. CARL is dark with 2 unconsumed ACTION items; no doorbell (structural survey data, slow decay). RED via ID-diff."
+status: PARTIALLY-SUPERSEDED
+status_ref: SIG-W-20261012-018 — SCF all-family denominator verified; historical levels and other caveats hold
+status_date: 2026-10-12
 ---
+
+> UPDATE 2026-10-12 — SIG-W-20261012-018 resolves the SCF base as ALL families. HOLDS: original19.6/8.2 historical levels, Atlanta/payroll and comparative caveats. Only the unresolved-base caveat is superseded; no level changed.
 
 # Fed's 2025 Survey of Consumer Finances: 19.6% of families fell behind on a loan payment in the past year, up from 12.2% in 2022 — the most since the 2010 survey (not "since 2007"). Atlanta's 140,000 eviction filings are five counties, not the city
 

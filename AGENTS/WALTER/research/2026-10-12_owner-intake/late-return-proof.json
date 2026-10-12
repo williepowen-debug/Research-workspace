@@ -1,0 +1,17 @@
+{
+  "stubs": [
+    "AGENTS/CARL/inbox/2026-10-12_from-DEWEY_fha-aggregation-erratum.md",
+    "AGENTS/HOMER/inbox/2026-10-12_from-DEWEY_fha-aggregation-erratum.md",
+    "AGENTS/REGINALD/inbox/2026-10-12_from-DEWEY_fha-aggregation-erratum.md",
+    "AGENTS/BROCK/inbox/2026-10-12_from-DEWEY_fha-aggregation-erratum.md",
+    "AGENTS/LIQUID/inbox/2026-10-12_from-DEWEY_fha-aggregation-erratum.md",
+    "AGENTS/NEXUS/inbox/2026-10-12_from-DEWEY_fha-aggregation-erratum.md",
+    "PROME/inbox/2026-10-12_from-DEWEY_own-file-sweep.md"
+  ],
+  "verified": 7,
+  "backstops": 0,
+  "FHA_read_scope": "Original report header/causalbanner andcomplete sections1-5; September1ruling andcorrection whole; no newHUDpull.",
+  "OZK_read_scope": "Whole durabilitydelivery and3linkedboundedreports; relevantSixthprimary interest/carryclauses; no independententire250pagelegalreview.",
+  "commission_state": "CARL-DR-1 PARTIAL dueNov13; dieselfullrequestPARTIAL dueOct14",
+  "helper": "verify_ozk_intake explicitlyclosed, noopenwork"
+}

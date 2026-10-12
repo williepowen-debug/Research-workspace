@@ -1,0 +1,7 @@
+{
+  "weighted_bp": 97.4141760904685,
+  "best_leg_bp": 22.5,
+  "sensitivity_20pct_bp": 31.805129240710826,
+  "flow_lower_outflow_share_of_net_accumulation_change_pct": 78.46707902661349,
+  "limits": "Rounded historical inputs; no causal wedge, significance or class-wide grade."
+}

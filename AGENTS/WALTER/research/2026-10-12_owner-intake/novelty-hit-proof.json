@@ -1,0 +1,988 @@
+{
+  "consumer": [
+    {
+      "file": "BOARD/SIG-W-20260419-015-nfib-small-biz-capex-gfc-low-subv-bankruptcies.md",
+      "first_line": "---",
+      "matches": [
+        "origin: \"X.com post visible in Will Telegram batch image #6, citing NFIB Small Business Optimism Survey latest reading: small business CapEx-plans index at GFC-area low; chart panel showing Sub-V bankruptcies (Subchapter V small-business bankruptcies) +67% YoY. Headline framing: small businesses retrenching at GFC-equivalent severity. Author/handle visible in screenshot (full attribution to be confirmed at next refresh \u2014 appears to be a credentialed economic-data poster, e.g., Charlie Bilello or similar; treat as NFIB-sourced data regardless). Intaken via Will Telegram batch 2026-04-19 20:49 UTC.\"",
+        "- **Sub-V bankruptcies: +67% YoY.** Subchapter V (small-business bankruptcy) filings up 67% year-over-year."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260419-016-bofa-largest-cash-outflow-mmf.md",
+      "first_line": "---",
+      "matches": [
+        "origin: \"BofA Global Investment Strategy chart screenshot (image #1 in Will Telegram PM-4 batch). Title: 'Chart 11: Largest outflow from cash ever (risk-on but also tax-related)'. Subtitle: 'Flows to money market funds, weekly vs 4-week moving average ($bn)'. Y-axis $-200bn to $300bn. Most recent print shows weekly outflow at approximately -$175bn \u2014 visually the largest negative spike in the 2017-2026 series. 4-week MA also at series-low negative. Source: BofA Global Investment Strategy, EPFR. Date implied: BofA's standard weekly chart, latest data point = early-mid April 2026. Intaken via Will Telegram batch 2026-04-19 20:56 UTC.\"",
+        "dispatch_note: \"BofA-attributed largest weekly money-market-fund outflow in the 2017-2026 series. Author flags 'risk-on but also tax-related' \u2014 meaning some portion is April-15-tax-payment-driven (mechanical, not signal). The remainder = cash actively being deployed into the rally. Lands as cluster-confirming for positioning-extreme thesis: combined with SIG-W-20260414-006 (HF short cover fastest since 2020) + SIG-W-20260419-018-pending (S3 $93B short cover this month) + DB financials positioning gap (-008), the picture is institutional + retail cash all moving INTO the rally at the same time the rally is mature. HENRY primary because regime classification is the question. LIQUID info because MMF outflow is the funding-side mechanic. CARL info because cash flows feed bank deposit base (regional bank earnings sensitivity). RED info because the tax-related caveat partially defangs the signal. NEXUS info for cluster integration. ROUTINE_PLUS because slow-moving structural read, not tape catalyst.\"",
+        "**BofA Global Investment Strategy (Chart 11):** Money market fund weekly flow at approximately -$175bn \u2014 visually the largest negative spike in the BofA-charted 2017-2026 series, including the 2020 COVID stress prints. 4-week moving average also at series-low negative.",
+        "- **Tax-related share is unquantified in the chart.** April 15 tax payments routinely cause MMF outflow spikes \u2014 historical April prints are systematically more negative than other months. Without a same-week-prior-year comparison, can't isolate \"structural\" from \"tax-mechanical.\" BofA's framing acknowledges this; analysis should not.",
+        "- BofA Global Investment Strategy / EPFR (Chart 11 from BofA's weekly flows pack)"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260419-018-short-squeeze-93b-cover-most-shorted-13pct.md",
+      "first_line": "---",
+      "matches": [
+        "- **NEXUS (info):** Cluster integration \u2014 pairs directly with SIG-006 (HF short cover) + DB positioning gap (-008) + BofA cash outflow (-016) = 4-channel positioning extreme confirmation. Cluster's positioning pillar is the strongest of the three pillars (positioning, valuation, vol-pricing)."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260419-019-ltm-fund-flows-bonds-mmf-equities.md",
+      "first_line": "---",
+      "matches": [
+        "origin: \"BofA-attributed-style chart screenshot (image #1 in Will Telegram PM-5 batch, 2026-04-19 22:44 UTC). Title: 'Cumulative trailing 12-month US mutual fund and ETF flows (billions)'. Three series plotted from Mar-25 through Apr-26 (~ latest print): Bonds $693B LTM flow on $9T AUM (rising throughout, roughly straight-line up); Money markets $594B LTM flow on $9T AUM (peaked near $800B Feb/Mar-26, now declining); Equities $104B LTM flow on $24T AUM (near-zero most of the window, slight positive recent). Intaken via Will Telegram batch 2026-04-19 22:44 UTC.\"",
+        "dispatch_note: \"LTM fund-flow composition: bonds and money markets dominate; equities near-flat on AUM-normalized basis. Complements SIG-016 (BofA Chart 11 largest weekly MMF outflow) \u2014 the recent MMF outflow is coming off the TOP of a $594B LTM build. MMF trailing-12m peak at ~$800B Feb/Mar-26 followed by recent rolldown = consistent with tax-season mechanic PLUS cash redeployment. Equity flows on normalized basis have been MODEST (0.4% of AUM LTM vs 7.7% bonds / 6.6% MMF) \u2014 partial COUNTER to the 'retail piled into stocks' framing. The extreme-positioning story is: (a) institutional short-cover (SIG-006, -018), (b) cash leaving MMF (SIG-016 + this), (c) NOT (yet) mass retail equity inflow. HENRY primary for regime read. LIQUID info for funding-base mechanic (MMF rolldown reduces secured-funding cushion). CARL info \u2014 household cash flow question relevant to WAL/ZION deposit base. RED info \u2014 the equity-flow-is-modest read is a steelman against 'everyone is long.' NEXUS for cluster refinement. Confidence 0.65 \u2014 observation high, interpretation mixed.\"",
+        "- **Chart has no named source on the visible slice.** Style suggests BofA/EPFR but not marked. Should be cross-referenced with ICI monthly flow data (ici.org) before the interpretation is weight-bearing. ICI is the canonical flow data source; chart authorship is provenance-uncertain from the image alone.",
+        "- Chart image (author not named on slice; format consistent with BofA Global Investment Strategy / EPFR weekly pack)"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260419-023-barchart-cpc-066-most-bullish-since-2021.md",
+      "first_line": "---",
+      "matches": [
+        "dispatch_note: \"@Barchart: Total CPC (Put/Call Ratio) at 0.66 \u2014 reported as most bullish since 2021. CPC 0.66 means 66 puts traded per 100 calls = call-volume dominance = aggressive bullish positioning. Historically contrarian: extremes below 0.7 have preceded short-term pullbacks more often than not, though timing is unreliable. Chart visual confirms 0.66 is at bottom-of-range for the 5-year window \u2014 matches 'most bullish since 2021' claim (2021 had multiple sub-0.70 prints during meme-stock phase). Direct cluster-augmentation signal: 5TH CHANNEL in positioning pillar (alongside HF cover Apr 14, DB financials gap, BofA MMF outflow, S3 $93B cover). HENRY primary for regime read. RED info \u2014 steelman fuel (CPC extremes have unreliable timing; 2021 stayed bullish for MONTHS before cracking). LIQUID info \u2014 positioning-heavy markets amplify unwinds. NEXUS info for cluster integration (positioning pillar now = 5 channels, arguably cluster's strongest). Confidence 0.78 \u2014 Barchart is reliable data source, CPC is standard metric, chart visual confirms claim.\"",
+        "- **HENRY (ACTION):** MARKET_VOL / positioning. Direct cluster-augmentation \u2014 positioning pillar now 5 channels: (1) HF short cover Apr 14 (SIG-006), (2) DB financials gap (SIG-008), (3) BofA MMF outflow (SIG-016), (4) S3 $93B short cover MTD (SIG-018), (5) CPC 0.66 options-bullish extreme. All 5 point same direction. Positioning has become the cluster's STRONGEST pillar (vs 4 implied-vol channels, 2 valuation, 2 breadth mid/long-horizon, 2 Iran/oil, 1 small-biz credit, 1 foreclosure)."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260424-004-kobeissi-asset-mgrs-97b-nasdaq-futures-10yr-record.md",
+      "first_line": "---",
+      "matches": [
+        "dispatch_note: \"Extension of the positioning-extreme cluster already at 13+ channels (SIG-023 Barchart CPC 0.66, SIG-010 DB call/put 2M 5dMA, SIG-016 BofA MMF outflows largest of series, SIG-018 short-squeeze $93B covered, SIG-025 GS L/S ratio macro-shorts still elevated, etc.). THIS signal adds a 14th+ channel: CFTC COT-derived asset-manager Nasdaq-futures net long positioning at a 10-year record ($9.7B week) with fresh-long composition ($5.9B new longs, not short-cover). Not a new pillar \u2014 positioning-extreme pillar already well-represented. Value-add: CFTC-COT-grade data (if verified) anchors one end of the positioning distribution in real regulated-data terms vs derivatives-derived CPC ratios. WALTER did NOT pull CFTC COT primary \u2014 Kobeissi Letter is a credible aggregator of CFTC/fund-flow data but not a primary source; the '10-year record' extreme-absolute framing could be a cherry-pick depending on which COT Asset Manager category is referenced (Nasdaq-100 E-mini vs Nasdaq-100 Micro vs combined). Confidence 0.60 reflects unverified specifics, direction-supported framing. Optional verify for HENRY on pickup via CFTC.gov COT archive (week ending 2026-04-14 Nasdaq-100 financial traders detailed report).\"",
+        "  - SIG-W-20260419-016 (BofA largest weekly MMF outflow in 10yr series)"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260424-006-man-group-6b-single-client-withdrawal-long-only.md",
+      "first_line": "---",
+      "matches": [
+        "- **HENRY (ACTION \u2014 MARKET_VOL / institutional flow):** Single-client $6B pull is institutional-scale \u2014 likely sovereign/pension/endowment mandate rotation. Two framings: (a) idiosyncratic mandate-level decision (single-client), (b) bellwether for Q1 long-only-active-into-passive continuation at scale. If (b), downstream impact on LSE-listed asset manager equity (AMHD, EMG.L, SDR.L) + US peers (BX/ARES/OWL/APO) earnings setups. Pairs with SIG-W-20260419-016 BofA MMF outflow record and SIG-W-20260419-019 LTM fund-flow composition \u2014 retail flow is rotating; this is institutional flow rotating."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260505-010-blackbox-april-restaurants-discretionary-pullback-2nd-decline-3mo.md",
+      "first_line": "---",
+      "matches": [
+        "origin: [\"Black Box Intelligence April 2026 restaurant industry print (industry-standard same-store-sales + traffic data provider) \u2014 covered Restaurant Business Online: same-store sales \u22120.4%, traffic \u22123.5%, 2nd decline in 3 months. Easter-timing confound (~-2% Easter-week per Black Box).\", \"WALTER discretionary-demand research scan 2026-05-05 (general-purpose Sonnet, ~$0.05) requested by Will to triangulate consumer-spending pullback prevalence across channels. Verdict: EMERGING 0.62 \u2014 pullback is real but uneven and channel-specific. Strongest signal in live entertainment (5 tour cancellations/7 days w/ explicit weak-ticket-sales rationale: Pussycat Dolls + Kid Cudi + Meghan Trainor + Zayn + Post Malone/Jelly Roll). Restaurant Black Box corroborates. Travel softening (Deloitte Apr). Card data CONTRADICTS at nominal level: BofA Apr +4.3% YoY, JPM Q1 +9% (lagged ~1mo, nominal \u2248 flat real at UMich 1Y 4.7%). Cinemark Q1 BEAT (+19% rev, +17% attendance) is counter-channel. Live Nation Q1 prints tonight 5/5 post-market \u2014 watch-item.\", \"Restaurant Business Online (Black Box coverage): https://www.restaurantbusinessonline.com/financing/black-box-same-store-sales-stumbled-april\", \"Deloitte April State of US Consumer: https://www.deloitte.com/us/en/insights/topics/economy/consumer-pulse/state-of-the-us-consumer.html\"]",
+        "dispatch_note: \"**CONFIRMED 0.80** \u2014 Black Box Intelligence is industry-standard restaurant SSS data provider (used by NRA, BlackRock, Cornell School of Hotel Admin); April 2026 print is primary-grade. **PRIORITY** \u2014 data-update layer within consumer-stagflation cluster, not threshold-cross. **Framing per Will explicit direction** (5/5 msg 1291): 'tracking weakening US consumer / discretionary demand through proxies (restaurants, travel, theme parks, cruise lines), NOT concert-sales-as-a-thing.' Tour-cancellation cluster (Pussycat Dolls / Kid Cudi / Meghan Trainor / Zayn / Post Malone-Jelly Roll within 7 days w/ explicit weak-ticket-sales rationale) is supporting evidence layer, NOT primary substance \u2014 surface-level signal pointing at the underlying tier-stratified discretionary-demand softness. Cluster CONSUMER_STAGFLATION (consumer-discretionary-demand-destruction sub-vector). 3-axis cluster confirm now: cost-side (-024-011 LV airlines, -026-004 AAL fuel) + international-inbound (-005-008 AHLA WC) + **THIS = US-domestic-discretionary-demand**. CARL primary on consumer-side macro transmission + Apr restaurant SSS in inflation-vs-real-spending decomposition. HENRY info \u2014 equity reaction in restaurant tickers (CMG/CAVA/SBUX/MCD/QSR/DRI), lodging REITs, leisure-related. REGINALD info \u2014 restaurant-credit and bank hospitality-CRE exposure. RED info \u2014 adversarial: 2 strong counter-channels (BofA Apr card +4.3% YoY total spending services-positive contribution; Cinemark Q1 BEAT cinema attendance +17% + revenue +19%) \u2014 pullback NOT broad-based, framework is tier-stratified-discretionary not consumer-collapse. **Live Nation Q1 prints tonight 5/5 post-market** \u2014 high-signal near-term watch (consensus 23.17M attendance vs 22.31M YoY); commentary on small-venue / mid-tier demand the cleanest tell. NEXUS \u2014 CONSUMER_STAGFLATION cluster classification refresh: 4-axis or 5-axis sub-vector breakdown candidate (cost-side / international-inbound / domestic-discretionary / counter-evidence-card-data / sentiment-side -026-008). **Easter-timing confound retained** \u2014 April 2026 SSS partially distorted by Easter week (~-2% Easter-week per Black Box); standing on TRAFFIC -3.5% (not Easter-driven) more strongly than SSS -0.4%. Confidence 0.80.\"",
+        "- **BofA Consumer Checkpoint April:** total card spending **+4.3% YoY**, services positive contribution. **At UMich 1Y 4.7%, +4.3% nominal \u2248 flat real.**",
+        "**RED info** \u2014 adversarial: BofA card +4.3% / Cinemark +17% counter-channels. Steelman: pullback NOT broad-based, framework is **tier-stratified-discretionary** not consumer-collapse. The **traffic vs spending divergence** (volume down, nominal spend up) is the cleanest tell that real-discretionary-income is the bind, not absolute-collapse.",
+        "- Bank of America Consumer Checkpoint April 2026: https://institute.bankofamerica.com/economic-insights/consumer-checkpoint-april-2026.html",
+        "2. **2 strong counter-channels** (BofA Apr card +4.3% / Cinemark Q1 +17% attendance) \u2014 pullback NOT broad-based; framework is tier-stratified-discretionary.",
+        "3. **Card data ~1 mo lagged + nominal** \u2014 at UMich 1Y 4.7%, BofA +4.3% nominal \u2248 flat real."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260508-007-fred-real-retail-food-services-sales-cpi-adjusted-flat-since-2022-counter-evidence.md",
+      "first_line": "---",
+      "matches": [
+        "info: CARL (info \u2014 Path C consumer-stretch counter-channel; this is the 3rd channel of similar aggregate-level counter \u2014 BofA Card +4.3% YoY / JPM Q1 +9% / now FRED real retail flat-to-record since 2022; aggregate masks K-shape but valid on broad-collapse axis), NEXUS (info \u2014 CONSUMER_STAGFLATION cluster classification; 3-channel counter-evidence sub-cluster forming), HENRY (info \u2014 equity-positioning input; aggregate-consumption-strong is partial-Goldilocks tape-rationale)",
+        "dispatch_note: \"Will green-light msg 1581 5/8 18:54 UTC after 6-image batch filter table msgs 1577/1578. **First dispatch in this session post-\u00a72-stack-ship using v0.8 routing-augmentation fields organically.** FRED Advance Real Retail and Food Services Sales 2018-2026 chart shows CPI-adjusted retail spending range-bound ~$215K-$227K since 2022 (mid-COVID-recovery), most recent print 2026 ~$225K = near the upper band. **Counter-evidence to consumer-stretch thesis on the BROAD-COLLAPSE axis** \u2014 if real retail spending has held flat-to-slightly-up since 2022 in inflation-adjusted dollars, the consumer-stretch thesis can NOT be operating at broad-collapse magnitude. **HOWEVER:** aggregate FRED data masks K-shape \u2014 top-decile + middle-tier holding spending up while lower-end pulls back. Per CARL Path C tier_stratified framework + today's SIG-W-20260508-005 income-tier-stratification finding (DRI $150k+ insulated / TJX refused income-bifurcation / luxury homebuilder TOL pending vs lower-end QSR + first-time-buyer durables clearly hit), aggregate-flat is consistent with tier-stratified + cohort-shift-down, NOT with broad-collapse. **Net: this signal is counter-evidence on broad-collapse axis, NEUTRAL on tier-stratified axis.** 3rd channel of similar aggregate-level counter (BofA Card / JPM card / now FRED real retail) \u2014 Path C 92\u219297% confirmation HOLDS at tier-stratified granularity but the broad-collapse vector is bounded ceiling. **v0.8 fields:** signal_role: counter_evidence; consumer_transmission: counter_evidence; consumer_lens: counter; cluster: CONSUMER_STAGFLATION; event_window: closed. signal_type counter-evidence \u2192 RED action per Meta row. Confidence 0.85 (FRED golden-source primary).\"",
+        "**FRED Advance Real Retail and Food Services Sales (CPI-adjusted, golden-source St. Louis Fed) shows aggregate retail spending range-bound ~$215K-$227K Millions of 1982-84 CPI-Adjusted Dollars since 2022 \u2014 most recent 2026 print ~$225K, near upper band.** Counter-evidence to consumer-stretch thesis on **broad-collapse** axis (3rd channel after BofA Card +4.3% / JPM Q1 +9%); NEUTRAL on **tier-stratified** axis (aggregate masks K-shape lower-end pullback per SIG-005 income-tier-stratification finding). RED-grade steelman input \u2014 bounds the ceiling on Path C consumer-stretch magnitude, doesn't refute the cohort-stratified mechanism.",
+        "| BofA Consumer Checkpoint Apr +4.3% YoY card spend | Counter-stretch (aggregate-level) | Card-only; nominal not real |",
+        "**NEXUS (info):** CONSUMER_STAGFLATION cluster classification \u2014 3-channel aggregate-counter sub-cluster forming (BofA / JPM / FRED). Worth tagging in cluster taxonomy as separate sub-axis."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260509-004-chapter-11-bankruptcy-filings-up-42.md",
+      "first_line": "---",
+      "matches": [
+        "origin: [\"Insider Wire X screenshot 5/8 via Will Telegram batch\", \"Epiq Global April 2026 release (verified retroactively)\", \"PROME 2026-05-09 dispatch FORGE/signals/2026-05-09_chapter-11-bankruptcy-filings-up-42.md\"]",
+        "dispatch_note: \"PROME pinch-hitter dispatch 5/9; WALTER mirror-archive 5/10. Verify-research cluster C: CONFIRMED via Epiq April 2026 primary release \u2014 but tighten language: '+42% commercial Chapter 11 specifically' (644 vs 454), not 'all Chapter 11.' KEEP PRIORITY.\"",
+        "Primary: [Epiq Global press release 2026-05-06](https://www.epiqglobal.com/en-us/resource-center/news/april-commercial-chapter-11-bankruptcy-filings-increase-42-from-previous-year):",
+        "- Total commercial filings 3,060 (+21%); Subchapter V small-business 301 (+46%); individual filings 53,367 (+13%)",
+        "- Epiq VP Michael Hunter explicitly links to \"auto loan delinquencies near 15-year highs\" and \"26% surge in Q1 2026 foreclosure filings\"",
+        "**Network transmission:** Epiq's own commentary directly cross-references the consumer-stress thesis CARL is tracking. PRIORITY justified \u2014 broadening default cycle confirmed via canonical primary aggregator.",
+        "1. Confirm source: Epiq/AACER/American Bankruptcy Institute/court data."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260511-009-obdc-q1-2026-dividend-cut-16-nav-compression-1481-to-1441.md",
+      "first_line": "---",
+      "matches": [
+        "CONFIRMED 0.92. Dividend cut is the load-bearing data point; NAV compression is the underlying mechanism. **First named-vehicle dividend cut in current BDC cycle**. Per BofA PitchBook forecast (SIG-010 same batch): BDC redemption peak Q2 2026 \u2192 APO 15% / Ares 14% / BX 12%. OBDC dividend cut + this forecast = same cycle/same mechanism (NAV-compression credit-spread-widening transmission)."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260511-010-bofa-bdc-redemption-q2-peak-forecast-apo15-ares14-bx12.md",
+      "first_line": "---",
+      "matches": [
+        "origin: WALTER news-sweep 2026-05-11 \u2014 PitchBook + Investment Executive (BofA research)",
+        "# BofA Forecasts BDC Redemption Peak Q2 2026 \u2014 APO 15%, Ares 14%, BX 12% Q2 Forecast (vs Q1 11.2 / 11.6 / 7.9%)",
+        "**Verbatim claim (verified):** Per BofA research surfaced PitchBook 2026-Q1/Q2 \u2014 BDC redemption requests likely to peak Q2 2026. Specific vehicle data:",
+        "- PitchBook \u2014 https://pitchbook.com/news/articles/private-credit-bdc-redemption-requests-likely-to-peak-in-q2-2026-bofa",
+        "- **PitchBook source secondary**: BofA research is the primary; verify with BofA-direct if institutional pull needed."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260511-016-umich-may-2026-prelim-48-2-record-low-corrected-framing-4-5pct-inflation-expectations.md",
+      "first_line": "---",
+      "matches": [
+        "- **Spontaneous-mentions** ~33% gas / ~30% tariffs \u2014 confirms tariff pass-through visibility at consumer level; cross-feeds Fed FEDS Notes 4/8 primary (SIG-018) on tariff pass-through 3.1pp to core goods PCE."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260511-017-ism-services-april-2026-prices-paid-70-7-employment-48-0-stagflation-tell.md",
+      "first_line": "---",
+      "matches": [
+        "- **Tariff pass-through nexus**: ISM Prices Paid jump aligns with Fed FEDS Notes 4/8 finding (SIG-018) \u2014 tariffs add 3.1pp to core goods PCE through Feb 2026."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260511-018-fed-feds-notes-tariff-pass-through-3-1pp-core-goods-pce-primary.md",
+      "first_line": "---",
+      "matches": [
+        "- **Fed-authoritative primary** on tariff pass-through magnitude. Institutional source (FEDS Notes = Federal Reserve Board staff research). Replaces sell-side estimates (Goldman 72%/12mo / +0.8pp; JPM CPI 3.6% YoY peak June) with direct Fed measurement.",
+        "**`cluster_mediating: true`** \u2014 Fed-primary on tariff pass-through is foundational for stagflation framing across CONSUMER_STAGFLATION (CARL primary) + FED_FRAMEWORK (Fed reaction function) + POSITIONING_VALUATION (equity-positioning for Fed-pause regime). **RED auto-cc per v0.7.** Confidence 0.95 (Fed primary source). **No verify-research needed** (institutional primary identified at intake)."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260511-028-cubi-customers-bancorp-ndfi-33pct-of-loans-highest-mid-bank-concentration-mortgage-warehouse-capital-call.md",
+      "first_line": "---",
+      "matches": [
+        "- **Capital-call/fund-finance 25%** = direct exposure to PE-fund subscription lines + capital-call facilities. Cross-feeds OBDC (SIG-009) + BofA BDC Q2 forecast (SIG-010) + KREST sponsor-backstop dynamics."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260511-041-wsj-private-credit-hot-streak-over-fed-cuts-defaults-broad-cluster-context.md",
+      "first_line": "---",
+      "matches": [
+        "  - SIG-W-20260511-014 BofA BDC Q2 forecast (this morning batch)"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260513-001-april-ppi-hot-6.0-yoy-largest-since-dec-2022-mom-1.4-pct.md",
+      "first_line": "---",
+      "matches": [
+        "- **PPI/CPI 2-month-lead mechanism (per @infraa_ framing).** April PPI 6.0% YoY printing AFTER April CPI 3.8% YoY means May-July CPI prints face upside revision pressure if pass-through occurs. Cross-feeds SIG-W-20260511-018 FEDS Notes 3.1pp tariff pass-through analysis."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260513-003-baa-wage-growth-april-2026-tercile-higher-6pct-lower-1.5pct-gas-pinch.md",
+      "first_line": "---",
+      "matches": [
+        "origin: \"Bank of America Institute Apr 2026 Consumer Checkpoint \u2014 Exhibits 11+12 (primary, BAA aggregated consumer deposit account data); Lisa Abramowicz @lisaabramowicz1 5/12/26 7:59 AM tweet packaging the data\"",
+        "verify_research_verdict: SKIP-VERIFY-BY-DESIGN (Bank of America Institute primary; published research with internal-deposit-data methodology; Lisa Abramowicz packaging on 5/12)",
+        "- Bank of America Institute April 2026 Consumer Checkpoint (primary publication)"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260522-004-bloomberg-going-private-bank-run-template-pc-stress-barr-contagion-46b-q1-bdc-gates-integration.md",
+      "first_line": "---",
+      "matches": [
+        "- **BofA BDC redemption Q2 peak forecast** (SIG-W-20260511-010) \u2014 APO ADS 15% / Ares ASIF 14% / BX BCRED 12%."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260604-009-gs-factor-pair-basket-bloomberg-junk-to-quality-rotation-ai-software-short-interest-selloff.md",
+      "first_line": "---",
+      "matches": [
+        "- **SIG-W-20260604-013 (BofA GWIM 66% candidate)** \u2014 extreme positioning at index-level WHILE factor-rotation is happening; positioning extension + cohort dispersion = late-cycle setup."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260604-012-hedgeye-containerized-freight-index-doubled-since-feb-2571.md",
+      "first_line": "---",
+      "matches": [
+        "origin: Will Telegram 6/4 22:50 UTC msg 2080 \u2014 Hedgeye @Hedgeye X post 6/2/26 9:09 AM ET 49K views \"Global shipping costs have more than doubled since February\" with Containerized Freight Index chart Jan ~1400 \u2192 Mar trough ~1200 \u2192 current 2571.7; SKIP-VERIFY Hedgeye-curator + chart-on-chart from CCFI/SCFI primary (institutional shipping-data curation profile)",
+        "- Containerized Freight Index = SCFI (Shanghai Containerized Freight Index) or similar industry-tracked series; \"Points\" labeling matches SCFI methodology (baseline 1000 = Oct 16 2009). 2571.7 = mid-to-upper SCFI range; 2024 peak ~3300 / 2023 trough ~900.",
+        "**Confidence 0.85 rationale:** Hedgeye chart-on-chart of CCFI/SCFI series \u2014 institutional-curation profile, chart axes legible, series identifiable as the Shanghai Containerized Freight Index or equivalent. SKIP-VERIFY justified by Hedgeye source-credibility + chart-evident; the underlying series itself (SCFI) is publicly tracked at Drewry/Freightos/Splash247. Stepdown from 0.92-0.95 reflects index-identification inference (Hedgeye doesn't label \"SCFI\" explicitly)."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260604-013-bofa-gwim-equity-allocation-66pct-record-matches-oct21-prior-peak.md",
+      "first_line": "---",
+      "matches": [
+        "origin: Will Telegram 6/4 22:50 UTC msg 2081 \u2014 BofA Global Research Chart 13 \"GWIM equity allocation at 66% / BofA private client equity holdings as % of AUM\" 2005-2025 historical chart with current 66% red dot at ATH matching Oct'21 prior peak; SKIP-VERIFY BofA-Global-Research-primary",
+        "verify_research_verdict: SKIP-VERIFY-BOFA-GLOBAL-RESEARCH-PRIMARY",
+        "# BofA GWIM Equity Allocation 66% \u2014 At-or-Near All-Time-High; Matches Oct'21 Prior Peak Before -20% 2022 Drawdown",
+        "**Source:** BofA Global Research Chart 13 \u2014 *\"GWIM equity allocation at 66% / BofA private client equity holdings as % of AUM\"* \u2014 historical chart 2005-2025 (extends to current); current observation 66% (red dot annotated).",
+        "- BofA Global Wealth and Investment Management private clients = ~3M households / ~$3.5T AUM cohort.",
+        "**Confidence 0.92 rationale:** BofA Global Research published Chart 13 from canonical client survey series; chart axes legible; data points consistent with publicly reported BofA Global Investment Strategy framework (Hartnett's \"Bull/Bear Indicator\" / \"Flow Show\" series adjacent). SKIP-VERIFY justified by BofA primary-curation profile. Stepdown from 0.95 reflects publication-date inference (\"current 66% red dot\" assumes recent BofA publication, likely week of June 2 2026 given Will-relay timing)."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260619-008-south-florida-distress-deep-research-bank-transmission-assessment.md",
+      "first_line": "---",
+      "matches": [
+        "National business filings are up (25,960, +11.4% 12-mo ending March 2026), and Subchapter V small-business elections jumped (+36% in May 2026 per ABI/Epiq). But commercial Chapter 11 filings actually *fell* ~7% YoY in May 2026 (684 vs. 739), arguing against a runaway corporate-distress wave \u2014 and in the Florida districts, business cases are only ~5% (Middle) and ~6% (Southern) of total filings. The Florida surge is principally a **consumer** story first."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260621-002-ai-semiconductor-concentration-record-extremes-record-inflows.md",
+      "first_line": "---",
+      "matches": [
+        "**HENRY (action) \u2014 concentration / market-structure / index-mechanics:** this is the breadth/concentration layer of the positioning-extension thread HENRY already owns \u2014 pairs with **SIG-W-20260604-013** (BofA GWIM equity allocation 66% = Oct'21 ATH-peak), **SIG-W-20260604-015** (FINRA margin/CinC 0.54 = 2000-dotcom peak), and the **6/19 SIG-W-20260619-006** SPX positioning-vs-flow/negative-gamma divergence. The new addition is **single-sector concentration at 2.5\u00d7 dot-com + record chasing-inflows** \u2014 the index is mechanically a semis/AI bet with thinning breadth underneath. **Two-sided read** (why it mediates): bull = AI earnings/capex genuinely justify the weight and the inflow is rational momentum; bear = single-point-of-failure fragility (any AI-capex wobble or semis-earnings miss hits ~19% of the index directly + ~47% via the AI complex), record-inflow tops historically mark exhaustion, breadth ex-AI already negative = a 2000-analog setup. Don't net them out \u2014 the concentration is real and the fragility is real."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260621-009-us-excess-liquidity-index-negative-first-since-2021.md",
+      "first_line": "---",
+      "matches": [
+        "First Squawk (6/19 9:26 PM): **\"LIQUIDITY WARNING: key leading indicator turns negative for the first time since 2021. US liquidity conditions deteriorate as the excess-liquidity index falls below zero. Hawkish Fed and tighter financial conditions flash warning for equities.\"** Headline-only \u2014 **the specific \"excess liquidity index\" is not named** (commonly some variant of real-money-growth-minus-economic-activity, or a net-liquidity proxy = Fed BS \u2212 TGA \u2212 RRP, or a Citi/BofA-style excess-liquidity gauge)."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260626-025-bofa-bear-market-signposts-70pct-triggered-may26.md",
+      "first_line": "---",
+      "matches": [
+        "origin: Will-Telegram image batch 2026-06-27 (re-send) \u2014 BofA \"Exhibit 11\" bear-market signpost checklist",
+        "source: BofA US Equity & Quant Strategy \u2014 \"List of signals to watch for a market peak\" (Exhibit 11); table columns Jul-90/Mar-00/Oct-07/Sep-18/Feb-20/Jan-22/Feb-25 (prior peaks) + Mar-26/Apr-26/May-26 (last 3 months)",
+        "verify_verdict: SKIP-VERIFY 0.70 \u2014 BofA Quant primary (objective desk scorecard). ~1mo stale (May-26 is the latest column; monthly cadence). Regime-characterization framework, not a timing trigger \u2014 the lead-time at prior peaks varies widely.",
+        "verify_method: none (BofA published framework; HENRY/RED weight).",
+        "# BofA bear-market signposts \u2014 70% triggered (May-26), = the average at the 7 prior market peaks (HENRY)",
+        "**One line:** BofA's \"signals to watch for a market peak\" checklist (10 signposts: 5 sentiment / 2 valuation / 3 macro) shows **70% triggered as of May-26** \u2014 equal to the ~average % triggered at the **7 prior market peaks** (Jul-90 88% / Mar-00 90% / Oct-07 80% / Sep-18 60% / Feb-20 50% / Jan-22 50% / Feb-25 70%). The last-three-months path: Mar-26 40% \u2192 Apr-26 50% \u2192 **May-26 70%** (rising).",
+        "This is the named-framework backbone under the ad-hoc froth datapoints you're holding ($884B inflows -020 / GS-CTA down-tape -021 / Bluekurtic internal-breadth -023 / AI-semi concentration -621-002 / GWIM 66% + FINRA margin -604). 70% triggered = the historical prior-peak average, and it rose 40\u219250\u219270 over Mar\u2013May. Read it as **regime = late-cycle-elevated**, not a dated sell signal \u2014 the May-26 print is ~1mo old (re-pull the June reading), and BofA's own framework leads peaks by a variable number of months.",
+        "- BofA US Equity & Quant Strategy, \"Exhibit 11: 70% of signals are triggered today, in line with the average observed in prior market peaks\" / \"List of signals to watch for a market peak.\" Per-peak % triggered: Jul-90 88% / Mar-00 90% / Oct-07 80% / Sep-18 60% / Feb-20 50% / Jan-22 50% / Feb-25 70%; last 3 months Mar-26 40% / Apr-26 50% / May-26 70%. SPX levels alongside (369/1527/1565/2931/3386/4797/6144 | 6529/7209/7580). Note: \"a bear market is typically preceded\u2026 defined as a 20% drop; we also included 1990, 2018, and 2025 (19%+ drops) to create a larger sample size.\" Image is a re-send (latest data = May-26)."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260626-027-florida-population-losses-miami-orlando-tampa-q1-2026-bofa.md",
+      "first_line": "---",
+      "matches": [
+        "source: Nick Gerli / reventure.app citing Bank of America internal account data (Exhibit 4: \"Biggest Population Losers by Metro Q1 2026\"; net population change in major MSAs, BofA internal account data, YoY)",
+        "verify_verdict: SKIP-VERIFY 0.72 \u2014 Gerli/reventure is a credible housing-data source; the underlying is **BofA internal account data** (proprietary, NOT publicly verifiable against Census). ~2wk stale but the metric is quarterly (Q1 2026), so staleness is low-impact. The \"shocking for FL recovery\" framing is Gerli's directional spin \u2014 the data is the signal.",
+        "verify_method: none (BofA-internal proprietary; CORAL/MARCO weight against their own migration trackers).",
+        "# Florida's 3 biggest metros all LOSING population in Q1 2026 (Miami 4th / Orlando 6th / Tampa > Chicago) \u2014 BofA internal data (CORAL)",
+        "**One line:** Per Nick Gerli (reventure, citing **BofA internal account data**, Q1 2026): **Miami had the 4th-largest population loss among US metros, Orlando the 6th, and Tampa lost more people than Chicago.** A state built on in-migration is now losing people in its three largest metros \u2014 Gerli ties it to still-high prices + soaring property taxes + expensive insurance, and frames it as the demand-side reason FL housing keeps correcting.",
+        "> **GRADE: SKIP-VERIFY 0.72, cluster_mediating.** Directly tensions the \"FL housing contained / recovering\" read \u2014 this is the **migration/demand leg** under CORAL's correction thesis. Caveats: source is **BofA internal account data** (proprietary, not Census-verifiable); ~2wk stale (but Q1-2026 quarterly, low staleness impact); Gerli's \"shocking for FL recovery\" is directional spin.",
+        "You've routed the FL housing-easing (SIG-621-011), negative-equity (SIG-619-002), unemployment (SIG-626-017) and bankruptcy (SIG-619-007) legs. This adds the **out-migration** leg \u2014 and it's the demand-side mechanism that decides \"contained \ud83d\udfe0 vs deeper correction\": if FL's three anchor metros (Miami/Orlando/Tampa) are net-losing population on cost-of-living (price + property tax + insurance), the lock-in/freeze dynamic you flagged in 621-011 has a demand floor that's eroding, not stabilizing. Reconcile-ask: does this BofA-internal Q1 read square with your migration tracker + the \"FREEZE-not-crash\" containment mechanism? If migration is reversing in the big metros, \"contained\" weakens.",
+        "Per the CORAL/MARCO co-own rule: this BofA-internal-data migration read should be reconciled with your migration/tourism numbers (you flagged FL net-migration +23K vs +314K prior). If BofA-internal shows Miami/Orlando/Tampa net-NEGATIVE in Q1 2026, that's a step beyond \"decelerating in-migration\" \u2192 outright outflow in the anchors. Get to one number with CORAL \u2014 don't run parallel migration marks.",
+        "The two-sided weight: BofA-internal account data is proprietary and not cross-checkable against Census (which can diverge); a single quarter (Q1 2026) of metro net-migration is noisy; and \"biggest losers\" rank \u2260 magnitude (a metro can rank 4th on a modest absolute loss). Gerli has a directional housing-bear stance. Weigh as a real-but-unverifiable demand-side datapoint that tensions the FL-contained read, not a confirmed reversal.",
+        "- Nick Gerli (@nickgerli1), reventure, X (~6/10): \"Florida's population losses are compounding. Miami had the 4th-largest population loss among U.S. metros in Q1 2026. Orlando had the 6th biggest. And Tampa lost more people than Chicago. This data comes from Bank of America's internal account data\u2026 People continue to leave Florida due to still high prices, soaring property taxes, and expensive insurance\u2026 don't be surprised if Florida's housing market continues to correct until things become cheap enough to keep people from leaving.\" Chart: \"Exhibit 4: Biggest Population Losers by Metro Q1 2026\" (BofA internal account data, net population change major MSAs YoY, Q1 2026 vs Q4 2025; Tampa + Orlando highlighted). Track-by-county: reventure.app/mobile. **Re-send; ~2wk stale; BofA-internal data proprietary.**"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260627-012-bofa-equal-weight-consumer-discretionary-vs-sp500-below-gfc-lows-kshape.md",
+      "first_line": "---",
+      "matches": [
+        "origin: Will-Telegram image batch 2026-06-27 \u2014 BofA Global Investment Strategy \"Chart 7\"",
+        "source: BofA Global Investment Strategy / Bloomberg \u2014 \"Equal-weight consumer stocks vs S&P 500 below GFC lows\" (US consumer discretionary equal-weight vs S&P 500 ratio, 2007-2027)",
+        "verify_verdict: SKIP-VERIFY 0.75 \u2014 BofA Global Investment Strategy primary chart. The equal-weight US consumer-discretionary-vs-S&P-500 ratio has fallen BELOW its GFC lows (the chart's dashed line), explicitly labeled \"K-shape.\" Checkable BofA/Bloomberg series. \u26a0\ufe0f K-shape thread is heavily saturated on the board \u2014 routed for the *equity-relative-performance-at-a-record* cut, not as a new mechanism.",
+        "# BofA: equal-weight consumer discretionary vs S&P 500 has fallen BELOW its GFC lows \u2014 \"K-shape\" (CARL)",
+        "**One line:** BofA Chart 7: the **US consumer-discretionary (equal-weight) vs S&P 500** ratio has dropped **below its GFC lows** \u2014 the equal-weight consumer-discretionary complex underperforming the index to a level worse than the 2008-09 trough. BofA labels it \"K-shape.\"",
+        "Your K-shape is built from macro/wage/sentiment/credit cuts. This is the **equity-relative-performance** cut: equal-weight consumer discretionary vs S&P 500 **below GFC lows** (BofA). The *equal-weight* framing matters \u2014 it strips the mega-cap (AMZN/TSLA) masking and shows the average discretionary name is being priced worse than in 2008-09. It's the market agreeing with your tier-bottom-cracking read, at a record. Fold into the K-shape spine as the market-pricing confirmation; note it's one more datapoint on a saturated thread, not a new mechanism.",
+        "- BofA Global Investment Strategy, \"Chart 7: Equal-weight consumer stocks vs S&P 500 below GFC lows\" \u2014 US consumer discretionary (equal-weight) vs S&P 500 ratio, 2007-2027; ratio falls below the GFC dashed-line, labeled \"K-shape.\" Source: BofA Global Investment Strategy, Bloomberg."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260627-020-homeownership-cost-record-28596-up-39pct-since-2019-interest-largest-component-kobeissi.md",
+      "first_line": "---",
+      "matches": [
+        "Your affordability thesis is usually framed on price + mortgage rate; this adds the **full carry decomposition**: total annual ownership cost +39% to $28,596 (vs CPI +26%), with **interest now the single largest line** (+35% to >$10,500) and the maintenance/repair/insurance tail compounding fastest (+85%/+175%/+72%). The citable read you own: the squeeze is not just entry-affordability (price \u00d7 rate) but ongoing carry inflation that hits existing owners too \u2014 a channel into discretionary cuts (pairs SIG-627-012 BofA cons-disc below GFC) and strategic-default precondition (pairs the negative-equity work). Property taxes +31% to $5,900 = the 3rd-largest and rising component."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260628-004-sp500-q2-gain-over-10pct-bullish-seasonality-bluekurtic.md",
+      "first_line": "---",
+      "matches": [
+        "- **HENRY (action):** a clean **bullish-seasonality counter** to the dense bear-positioning thread now on the board (inflows $884B / GS-CTA / breadth-divergence -023 / BofA signposts -025 / short-interest -026). Two-sided book hygiene \u2014 the melt-up has a base-rate tailwind into H2."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260628-008-kobeissi-tech-fund-flows-whipsaw-record-15b-outflow.md",
+      "first_line": "---",
+      "matches": [
+        "verify_verdict: SKIP-VERIFY (EPFR/LSEG-class fund-flow figures, plausibly accurate) \u2014 Kobeissi precision-overlay caveat: numbers usually right, framing (\"cashing out massive profits\") is interpretation. HENRY to cross-check vs BofA/EPFR weekly flows."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260702-001-hy-ccc-widening-decomposition-deep-research.md",
+      "first_line": "---",
+      "matches": [
+        "### \u2192 BOND (INFO) \u2014 a \"record\"-claim caveat on ICE BofA series",
+        "- **FRED now exposes only a rolling ~3-year window** for ICE BofA OAS series (earliest obs 2023-07-03 on both API and fredgraph) \u2014 any \"record\" claim beyond July 2023 is **NOT verifiable from FRED** and needs ICE direct. Relevant to any rates/credit \"record\" framing you carry."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260702-012-tariff-front-loading-retailers-china-holiday-orders.md",
+      "first_line": "---",
+      "matches": [
+        "  Tariff front-loading / import pull-forward datapoint \u2014 two-sided (cluster_mediating): near-term = import + freight surge + inventory build (activity + a forward-goods-CPI pipeline, INFLATION_TRANSMISSION); but it PULLS FORWARD holiday demand \u2192 a Q4/Q1 air-pocket after (the pull-forward paradox MARCO tracks). CARL = forward-CPI / tariff pass-through (pairs your CRL-23 FY27 tariff-GM leg). HENRY = macro/activity. MARCO = the pull-forward dynamic (import surge now \u2192 soft patch later). RED = two-sided. Poster's \"Trump planning hikes after midterms\" NOT propagated (unverified). cluster INFLATION_TRANSMISSION.",
+        "- **Near-term:** import + freight surge + inventory build \u2192 activity now + a **forward-goods-CPI** pipeline (tariff pass-through when the hikes land).",
+        "- **CARL (action):** forward-CPI / tariff pass-through datapoint; pairs your CRL-23 FY27 tariff-GM leg. Also the pull-forward-then-soft-patch consumer dynamic."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260706-015-bofa-biggest-energy-fund-outflow-since-jul-2024.md",
+      "first_line": "---",
+      "matches": [
+        "source: BofA Global Research \u2014 'Chart 11: Biggest outflow from energy since Jul'24' (BofA Global Investment Strategy, EPFR)",
+        "verify_verdict: SKIP-VERIFY 0.78 (BofA Global Investment Strategy / EPFR chart)",
+        "  BRENT (action) \u2014 energy-fund flows just posted the biggest outflow since Jul-2024 (BofA/EPFR), reversing a recent inflow spike = investor capitulation on energy as Brent decouples to ~$72/4-mo-low. A positioning/sentiment counterpoint (crowded-exit) to layer on your oversupply read. HENRY (info) \u2014 cross-asset flows.",
+        "# BofA: biggest outflow from energy funds since July 2024",
+        "BofA: the biggest weekly outflow from energy funds since July 2024 (BofA Global Investment Strategy / EPFR) \u2014 a sharp reversal from a ~+$6bn weekly inflow spike into a ~\u2212$2\u20133bn outflow. Energy sentiment/positioning fleeing as oil decouples lower. \u2192 BRENT / HENRY. SKIP-VERIFY 0.78",
+        "**Routing:** BRENT (action) / HENRY (info). Verdict: SKIP-VERIFY 0.78 (BofA Global Investment Strategy / EPFR chart)",
+        "BRENT (action) \u2014 energy-fund flows just posted the biggest outflow since Jul-2024 (BofA/EPFR), reversing a recent inflow spike = investor capitulation on energy as Brent decouples to ~$72/4-mo-low. A positioning/sentiment counterpoint (crowded-exit) to layer on your oversupply read. HENRY (info) \u2014 cross-asset flows."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260709-001-coreweave-neocloud-ai-credit-map-idiosyncratic-not-systemic.md",
+      "first_line": "---",
+      "matches": [
+        "- **ICE BofA tech-HY index bucket / BB-B-CCC placement** of the cohort bonds (index-constituent data)."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260709-002-energy-hy-oas-unblind-calm-164bps-monthly-source-named.md",
+      "first_line": "---",
+      "matches": [
+        "verify_verdict: VERIFIED-PRIMARY on the last hard datapoint (ICE BofA US HY Energy OAS = 164bps as of 2026-05-31, tightest of all HY sectors \u2014 DEWEY document-confirmed by pulling the source PDF directly, upgrading the workflow's 2-1 read; below both the >300 trip and >400 stress line, and tighter than the ~285bps cited for Apr 28). UNVERIFIED (structurally, by design): any post-June-1 energy sub-index print \u2014 no public source publishes it. No WALTER verify-spawn (Phase 2.8b \u2014 primary-confirmed; the live-leg gap is honestly flagged, not an extraordinary claim).",
+        "verify_method: none \u2014 deliverable is DEWEY's direct PDF pull of the ICE BofA HY sector table + a FRED broad-HY anchor. WALTER routes + extracts per-recipient genuine delta (lean mandate). Caveats carried verbatim.",
+        "**The blinded energy-HY-OAS cell un-blinds to CALM.** Last hard datapoint: **ICE BofA US HY Energy OAS = 164bps as of May 31, 2026 \u2014 the *tightest* of all HY sectors**, below both the >300 trip and >400 stress line, and *tighter* than the ~285bps cited for Apr 28. **Neither threshold was crossed Apr 28 \u2192 end-May.** The live \"is energy HY widening beneath the 7/7-8 re-arm?\" question is UNVERIFIED at the sub-index level, but the surrounding evidence points to *no stress*: broad HY OAS **267\u2013270bps, TIGHTENING through the 7/7-8 re-arm** (energy is a subset and its tightest sector \u2014 a >300 energy trip against a 270 parent would need an idiosyncratic blowout for which there's zero corroboration), and rising oil is *revenue-positive* for E&P issuers. **Energy-credit vector = PRIMED, not fired; both thresholds intact on all available data.**",
+        "- No free source carries the ICE BofA energy sub-index daily (removed from free FRED \u2014 DEWEY re-verified the tickers HTTP 400).",
+        "- The one reproducible free artifact is **Fidelity Institutional's monthly HY PDF `931730.PDF`** \u2014 it republishes the full ICE BofA HY *sector* OAS table incl. Energy. Access: `pdf2text.py \"<url>\" --grep \"ICE BofA\"`. Cadence **monthly, ~5-6wk lag** (May-31 vintage was live 7/9). **This permanently un-blinds the cell to monthly resolution.**"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260716-004-funding-seizure-x1-gate-does-not-generalize-scoped-to-funding-origin.md",
+      "first_line": "---",
+      "matches": [
+        "- **BACKLOG build-pass ask \u2014 \u22653 candidates now past the build gate** (surfaced per protocol; builds stay Will-greenlit): **(1) `ofr_stfm.py` \u2014 2nd hit CONFIRMED, gate tripped**; the 7/09 row *predicted 07b as the trigger* and it landed exactly \u2014 it is now **the load-bearing gap under a delivered verdict** (prioritize GCF/DVP repo + fails). **(2) `fred_pull.py` Wayback fallback \u2014 solution already in hand** (DEWEY logged \"no free source exists\" for FRED's ICE-BofA rolling-3yr truncation, then a sub-agent recovered **full 1996-2023 history** via Wayback snapshots of FRED's raw `/data/<ID>.txt` endpoint; **its own ruling was wrong within the hour** \u2014 the `[[finding_declared_data_wall_needs_fleet_memory_check]]` class, live). **(3)** `ffiec_callreport.py` / `disaster_shocks.py` \u2014 high-recurrence, still 1st-surface."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260717-001-americas-car-mart-going-concern-still-unresolved-7-14-the-headline-is-5-weeks-stale-the-datum-is-2-days-old.md",
+      "first_line": "---",
+      "matches": [
+        "**Paired with `SIG-W-20260717-002` (BofA card 30+ DQ 1.28% June \u2014 4th consecutive monthly decline).** Same intake batch, same lane query, **opposite legs of the same K**: prime card credit is *improving* four months running while a deep-subprime BHPH lender is at going-concern. **The pair is the signal; either one alone is a composition artifact.** See `[[finding_blended_index_masks_bifurcation]]`."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260717-002-bofa-card-30d-dq-1-28pct-june-is-the-4th-consecutive-decline-the-bare-headline-inverts-it.md",
+      "first_line": "---",
+      "matches": [
+        "source: TradingView (Reuters wire) 2026-07-15, \"Bank Of America Says Credit Card Delinquency Rate Was 1.28% In June\" \u2192 WALTER verify-research sub-agent 2026-07-17 (trend reconstructed from monthly trade-press write-ups citing the BA Master Credit Card Trust II monthly filings).",
+        "# BofA card 30+ DQ **1.28%** (June) \u2014 the 4th consecutive monthly decline, and **down YoY**. The bare headline inverts the sign.",
+        "**Four straight months of decline, improving year-over-year.** Definition: the standard monthly **30+ day delinquency rate on BofA's securitized/managed credit card portfolio**, disclosed via the BA Master Credit Card Trust II monthly filing pattern (Reg AB card-ABS monthly disclosure).",
+        "~1.28% is **low/favorable** against BofA's own recent trend and against peers. For scale, subprime-skewed issuers run far higher (Capital One ~4.5%, Synchrony ~4.8% cited for April 2026 \u2014 **different portfolio mixes, not directly comparable**; BofA's card book is prime-skewed)."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260717-003-bdc-nav-discount-may-be-spread-structural-bdcs-price-off-the-ccc-leg-and-the-fleet-cannot-see-that-leg.md",
+      "first_line": "---",
+      "matches": [
+        "source: SimpleVisor (Lance Roberts) \"Why Are BDCs Ignoring Junk Bonds?\", 2026-07-16, via Investing.com UK \u2192 **WALTER independent verification against FRED primary (ICE BofA sub-indices, pulled live 2026-07-17 ~02:00Z).**",
+        "confidence_note: **Split deliberately, because the two halves verify differently.** The **levels are 0.95** \u2014 WALTER pulled the ICE BofA sub-indices from FRED directly and they reconcile exactly. The **percentile/\"30-year\" claims are UNVERIFIED and unverifiable from FRED** (see below) \u2014 treat them as analyst-asserted, **do not propagate them as facts**. The **mechanism** (\"BDCs price off the CCC leg\") is a **plausible analyst inference, not a demonstrated relationship** \u2014 no source tests it. 0.75 is the blend; grade the legs separately.",
+        "| ICE BofA index | FRED series | Level | 3-yr-window pctile |",
+        "- **The source is commentary synthesizing ICE BofA index data + S&P credit estimates** \u2014 no original reporting. It carries unrelated equity technicals (SMH levels) that are **not** part of this routing."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260717-008-big-banks-cut-10k-in-q2-despite-record-profits-this-is-an-ai-efficiency-print-not-labor-stress.md",
+      "first_line": "---",
+      "matches": [
+        "confidence_note: HIGH on the >10,000 aggregate and on the attribution. **MED on two things, both flagged:** only **Wells Fargo's individual number could be confirmed** (Goldman / BofA / Citi / Morgan Stanley per-bank deltas sit behind Bloomberg's paywall and are **implied by the aggregate, not independently verified**), and **the \"biggest since early 2020\" superlative could NOT be verbatim-confirmed** \u2014 coverage says *\"the most in nearly a decade,\"* which is compatible but not identical. **0.75 because the number is solid and the superlative isn't.**",
+        "**Combined headcount at BofA, Wells Fargo, Citigroup, Goldman Sachs and Morgan Stanley fell by >10,000 in Q2 2026**, per the banks' own earnings-supplement workforce figures (Bloomberg, 7/16).",
+        "**\u26a0\ufe0f Goldman / BofA / Citi / Morgan Stanley per-bank deltas are NOT independently verified** \u2014 they are implied by the >10,000 aggregate. Bloomberg's detail is paywalled. **Do not attribute a number to a specific bank other than Wells Fargo off this signal.**",
+        "- **Per-bank detail for Goldman / BofA / Citi / Morgan Stanley: not retrieved** (paywall)."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260717-019-bofa-hyperscaler-forward-fcf-goes-negative-first-time-on-record-funded-by-175bn-of-debt-6x-the-5yr-average.md",
+      "first_line": "---",
+      "matches": [
+        "origin: Will-Telegram batch 5 ~02:53Z (Puru Saxena @saxena_puru, 7/12, reproducing a BofA chart) \u2192 WALTER verify-research sub-agent 2026-07-17.",
+        "source: **BofA Research Investment Committee**, *\"Exhibit 6: A generational transfer in free cash flow is taking place \u2014 12m forward FCF of 'hyperscalers' and semiconductor companies, $bn.\"* Hyperscalers = **AMZN, GOOGL, META, MSFT, ORCL**. Semis = **NVDA, MU, AVGO, AMAT**. \u26a0\ufe0f **Reconstructed via secondary coverage (Saxena / ZeroHedge / officechai / Yahoo \"Chart of the Day\") \u2014 the primary BofA report was NOT pulled.**",
+        "confidence_note: **Deliberately capped at 0.65 \u2014 the sourcing is the weak leg and it must travel with the signal.** The chart is real and the DIRECTION is corroborated across outlets. But: **(1) it is SINGLE-SOURCED TO BofA** \u2014 every piece of coverage traces back to the same chart; the verify found **no independent non-BofA bank or consensus estimate** replicating negative hyperscaler FCF. **(2) The primary BofA report was never read** \u2014 title and date unconfirmed. **(3) It is a forward PROJECTION and BofA's own estimate, NOT consensus and NOT realized data.** **(4) The \u2212$50bn trough is NOT confirmed at that precision** \u2014 sources confirm \"negative,\" not the magnitude.",
+        "verify_method: one WALTER verify-research sub-agent (2026-07-17), asked specifically for independent non-BofA corroboration. **It looked and did not find any \u2014 that negative is load-bearing.**",
+        "# BofA: hyperscaler forward FCF goes **negative for the first time on record** \u2014 funded by **$175B of debt, 6\u00d7 the 5-year average**",
+        "> \u26a0\ufe0f **Read the sourcing caveat first, because it is the weakest part of an otherwise striking chart.** Every outlet carrying this traces to **one BofA chart**. The verify searched specifically for an independent bank or consensus estimate corroborating negative hyperscaler FCF **and found none**. **This is one house's forward projection, amplified \u2014 not a replicated finding, and not a print.**",
+        "**BofA Research Investment Committee \u2014 \"Exhibit 6: A generational transfer in free cash flow is taking place.\" 12-month forward FCF, $bn.**",
+        "**The driver BofA names: hyperscaler CAPEX, financed increasingly by DEBT.**",
+        "> **BofA projects hyperscaler debt issuance of $175B in 2026 \u2014 \"more than six times\" the prior five-year average of ~$28B/year.**",
+        "**So you hold the thesis and a dated gate. What this adds is narrow and I will not overstate it:** your figures are **trailing actuals on single names** (AMZN TTM \u221295%); this is a **forward composite across five names, projected negative, with a peak-to-trough baseline.** **Forward-composite vs trailing-actual is a different object \u2014 but it is BofA's estimate, and your gate resolves on actuals 7/29-31.** **The chart does not move your gate; it frames what the gate is testing.** *(Said plainly because the base rate tonight is that owners already hold the thesis \u2014 five times over. You do. This is the projection layer, not the finding.)*",
+        "1. **SINGLE-SOURCED TO BofA.** No independent bank or consensus estimate replicates negative hyperscaler FCF. **The verify looked for this specifically.**",
+        "2. **The primary BofA report was NOT read** \u2014 reconstructed from secondary coverage; report title and date unconfirmed.",
+        "3. **It is a PROJECTION and BofA's own estimate** \u2014 explicitly not consensus, explicitly not realized."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260724-006-hy-oas-277-is-3bp-from-un-firing-red-ft-01-and-the-widening-is-parallel-not-quality-sorted.md",
+      "first_line": "---",
+      "matches": [
+        "source: FRED ICE BofA US High Yield Index OAS (`BAMLH0A0HYM2`) 277.0bps as-of 2026-07-23, +9.0 on the day; companions `BAMLH0A1HYBB` 166bps (+9), `BAMLH0A2HYB` 294bps (+9), CCC OAS 991bps (+10). Prior WALTER-carried level 268bps [7/22]."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260809-009-bofa-bull-and-bear-9-7-extreme-bull-fifth-highest-since-2002-priors-preceded-major-selloffs.md",
+      "first_line": "---",
+      "matches": [
+        "source: Will-Telegram batch (BofA Global Investment Strategy chart, \"Chart 20\", EPFR/FMS/CFTC/MSCI, Aug 2026)",
+        "entities: [BofA_Bull_Bear_Indicator, SP500]",
+        "# BofA Bull & Bear Indicator at 9.7 (Aug 2026) \u2014 5th reading \u22659.5 since 2002; every prior one preceded a meaningful equity drawdown",
+        "**BofA Bull & Bear Indicator** (proprietary composite of EPFR flows / BofA FMS positioning / CFTC futures positioning / MSCI breadth) **printed 9.7 for August 2026** \u2014 well above the \"Extreme Bull\" line at 8. Source per the chart footer: **BofA Global Investment Strategy, EPFR Global, FMS, CFTC, MSCI.** [Will-Telegram batch, image 1 of 10, ~21:02Z 8/9.]",
+        "- **HENRY owns equity market structure and has multiple soft-kill legs at close-to-fire** per its own 8/6 catch-up (gamma-positive first time since early July at flip ~7,635; VIX 15.15 was 0.15 from HENRY's kill leg; HY 275 was 15bp from its kill leg). **A 9.7 BofA B&B print IS the class of contrarian positioning read the fleet has been asking for**; whether it's a mechanical fire is HENRY's to grade.",
+        "- **NOT IMMEDIATE** because: (a) BofA B&B is monthly, not daily \u2192 no execution urgency at Monday's open; (b) the 7 priors averaged **~1-6 months** lead time to the correction, so this is a POSITIONING datum on a 1-6 month horizon, not a two-day catalyst; (c) the B&B has been ABOVE 8 (Extreme Bull) for MULTIPLE MONTHS per the chart's shape \u2014 the print is a REINFORCEMENT of an already-extreme reading, not a fresh threshold cross.",
+        "- **NO underlying-component breakdown in the image** \u2014 I have the 9.7 print + a chart, but not the EPFR/FMS/CFTC/MSCI sub-scores that make the composite. **BofA's own monthly commentary carries the sub-scores; I have not fetched it.** VIOLET/HENRY should pull the sub-scores before making the print load-bearing.",
+        "- **DO NOT PROPAGATE \"BofA B&B 9.7 = SELL SIGNAL.\"** It's a positioning composite; the historical priors describe an ELEVATED PROBABILITY of a correction in 1-6 months, not a Monday-morning execution trigger."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260809-018-shiller-pe-42-39-above-dot-com-peak-third-valuation-extreme-agreeing-with-b-and-b-9-7-and-spx-div-yield-1-04.md",
+      "first_line": "---",
+      "matches": [
+        "| **BofA Bull & Bear Indicator** | **9.7** | 5th \u22659.5 since 2002; all 7 priors preceded meaningful drawdowns 1-6mo out | `SIG-W-20260809-009` |",
+        "- **DO NOT MERGE with `SIG-W-20260809-009` (BofA B&B) or the Bilello div-yield fold-in** \u2014 they should CO-CITE as a three-instrument agreement, not be collapsed to one signal."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260812-009-inoculation-the-6-6-trillion-stablecoin-deposit-flight-number-is-treasurys-april-2025-not-citis-and-fdic-deposits-have-risen-seven-quarters.md",
+      "first_line": "---",
+      "matches": [
+        "\u26a0\ufe0f **And a fourth figure is circulating in the same window that must not be merged with it:** a **BofA CEO ~$6 trillion** version. **Different bank, different number, same debate.** Do not treat two figures as two witnesses \u2014 check whether both trace to the Treasury estimate before counting them as corroboration."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260817-003-a-plaintiff-firm-solicitation-on-blue-owl-is-boilerplate-but-underneath-it-is-a-36b-advisory-fee-cluster-that-postdates-brocks-february-paper.md",
+      "first_line": "---",
+      "matches": [
+        "**BROCK's `RP-BRK-3.1` (February 2026) already carries, in more detail and better sourced:** the **2026-02-18 permanent halt of OBDC II redemptions** ($1.7B retail fund, called the first major BDC gate since 2008); the **sale of 35% of OBDC II loans**; Saba/Weinstein circling; the BofA defence; and \u2014 explicitly \u2014 *\"Blue Owl attempted to merge OBDC + OBDC II in 2025. **The merger triggered class action lawsuits.**\"*"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260828-033-us-crude-days-of-supply-including-the-spr-is-at-a-40-50-year-low.md",
+      "first_line": "---",
+      "matches": [
+        "origin: Will-Telegram 8/28 (BofA Global Investment Strategy chart, via Bloomberg data)",
+        "source: BofA Global Research 'Chart 8'; chart read, not a WALTER-computed series",
+        "**BofA Global Investment Strategy: US crude oil days of supply INCLUDING the Strategic Petroleum Reserve is at a 40-50 year low** \u2014 **~42 days as of Jul'26 against a ~65-day long-run average**, the lowest on a series running from 1982."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260828-044-the-treasury-did-not-confirm-crowding-out-BofA-estimated-it-and-the-claim-is-actively-CONTESTED-the-issuance-numbers-underneath-are-real.md",
+      "first_line": "---",
+      "matches": [
+        "source: WALTER verification \u2014 no Treasury confirmation located; BofA estimate + explicit analyst disagreement + issuance totals verified across multiple carriers",
+        "- **Bank of America economists** say AI borrowing is **\"potentially crowding out long-end Treasury demand,\"** and estimate the corporate-debt surge pushed **10-year rates up ~0.3 percentage point** this year. **Note the hedge \u2014 \"potentially\" \u2014 is BofA's own.**",
+        "| BofA's estimated 10y rate impact | **~+0.30pp YTD** |",
+        "- **BOND** \u2014 this lands directly on a **registered open question**. BOND's regime label **C-36 \"policy-path-led\" was downgraded CONFIRM (~80\u201385%) \u2192 CONTESTED (~50%)** at the 2026-08-10 financial-conditions forum. **Corporate-supply crowding-out is a competing explanation for the same long-end move**, and it now has a named sponsor (BofA), a magnitude (~0.30pp), and named dissenters. **That is exactly the evidence a CONTESTED label is waiting on \u2014 in both directions.**"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260828-047-the-us-added-2-432-trillion-of-debt-in-330-days-and-the-arithmetic-is-internally-perfect-the-question-attached-to-it-is-opinion.md",
+      "first_line": "---",
+      "matches": [
+        "`SIG-W-20260828-044` (dispatched ~1h earlier) carries the **corporate** supply leg: **$1.68T** US corporate issuance Jan\u2192mid-Aug, **+27% YoY**, **>$220B** of it AI-related, with BofA estimating **~+0.30pp** on the 10y and other analysts explicitly disagreeing."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260910-015-us-15yr-plus-treasuries-10yr-rolling-returns-negative-2-percent-worst-in-100-years-bofa-chart.md",
+      "first_line": "---",
+      "matches": [
+        "origin: \"Will-Telegram 7-image batch 22:50Z (BM-20260910-05 item 2) \u2014 Greg Rieben @gregrieben X.com 2026-09-04 09:15 ET; BofA Global Investment Strategy chart\"",
+        "entities: [\"BofA-Global-Investment-Strategy\", \"US-15yr-plus-Treasuries\", \"10Y-Rolling-Annualized-Returns\", \"Dec-1959\", \"Sep-1981\", \"Aug-2026\"]",
+        "verdict: \"BofA Global Investment Strategy chart (relayed by Greg Rieben @gregrieben 2026-09-04, 446K views): US 15yr+ Treasuries 10-year rolling annualized returns hit ~-2% in Aug 2026 \u2014 chart labelled 'worst in 100 YEARS,' with prior cycle lows marked at Dec 1959 and Sep 1981 (both near ~0%). Historical/framing context; sits alongside SIG-011 (buyback op shortfall) as duration-holder pain context.\"",
+        "# BofA chart: US 15yr+ Treasuries 10-year rolling annualized returns at ~-2% Aug 2026, worst in 100 years (secondhand)",
+        "**Source:** Greg Rieben @gregrieben, X.com 2026-09-04 09:15 ET, 446K views. Chart title: *\"Chart 2: Negative long-run returns... great entry points.\"* Series: *US 15-year+ Treasuries: 10-year rolling annualized returns (%).* Y-axis -2% to +18%. Marked points: **Dec'59 ~0%**, **Sep'81 ~0%**, **Aug'26 -2%**. Source line: **BofA Global Investment Strategy, Polymarket, Bloomberg.**",
+        "Prior comparable trough Sep 1981 preceded the Volcker-era peak yield and the multi-decade bond bull; the frame \"great entry points\" is BofA's editorial.",
+        "**Guard:** the chart is a secondhand rendering; BOND grades whether the -2% figure matches BofA's own note (some indices differ between 15yr+ and 20yr+ series)."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260911-008-the-sell-side-flipped-to-a-SEPTEMBER-HIKE-on-todays-cpi-16-of-20-shops-timiraos-table-five-days-before-fomc.md",
+      "first_line": "---",
+      "matches": [
+        "| Bank of America | Sept hike | **+75 bps** | 6/22/2026 |"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260914-004-hy-index-tightened-5bp-while-ccc-widened-6bp-ccc-minus-bb-926-a-fresh-high-and-red-pre-registered-the-disagreement.md",
+      "first_line": "---",
+      "matches": [
+        "entities: [\"ICE-BofA-HY-OAS\", \"BAMLH0A0HYM2\", \"BAMLH0A1HYBB\", \"BAMLH0A3HYC\", \"BAMLH0A2HYB\", \"FRED\", \"RED-FT-12\", \"RED-FT-01\", \"REG-T-03\", \"REG-T-04\"]",
+        "\ud83d\udd11 **Generalisable, and it is the same shape as the false-extraction class RED and WALTER settled this morning: a reader who did NOT catch it would have \"refuted\" a correct figure with a well-formed number pulled from a right-looking ID.** The ICE BofA family has four near-identical tickers differing by one character, and **the wrong one returns a plausible spread, never an error.** `[[finding_exact_level_authenticates_a_wrong_direction]]` \u00b7 `[[finding_unqualified_identifier_is_a_defect_waiting_for_a_reader]]`. **Cite the full series ID with the rating bucket spelled out, every time.**",
+        "\u26a0\ufe0f **`RED-FT-06`'s exit (VIXCLS \u226518 \u00d75) cannot be advanced today: VIXCLS has no 9/11 cell, frontier 9/10 = 17.84, count 0-of-5.** **DGS2/10/30 and DFII10 likewise have no 9/11 cell on the fourth day, while T5YIFR and all three ICE BofA series DO.** Anything graded off Treasury or VIX levels today is on a 9/10 frontier \u2014 **say so.**"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260914-021-CORRECTION-vixcls-DID-publish-its-9-11-cell-the-five-series-outage-claim-conflated-two-different-sets.md",
+      "first_line": "---",
+      "matches": [
+        "**Any 9/11 grade computed off a nominal Treasury or real-yield level is on a 9/10 frontier and must say so. `VIXCLS`, breakevens and the three ICE BofA series are NOT subject to that caveat and should stop being carried under it.**"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260919-001-off-rth-fill-forward-settle-confirmed-the-error-equals-the-days-move-so-it-is-largest-when-it-matters-most.md",
+      "first_line": "---",
+      "matches": [
+        "entities: [\"Cboe-SKEW\", \"ICE-BofA-MOVE\", \"Cboe-VIX\", \"Cboe-VVIX\", \"yfinance-fast_info\", \"RED-FT-06\", \"RED-FT-10\", \"DOCKET-L409\"]"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260928-002-hy-oas-293-on-9-25-first-print-over-280-widening-broadened-bb-led-x1-stays-closed-red-ft-01-exit-2-of-3.md",
+      "first_line": "---",
+      "matches": [
+        "**Short version:** The **ICE BofA US High Yield OAS printed 293 bp for 9/25** (FRED, published Monday 9/28). That is **+13 bp on the day and +25 bp in three sessions**, and the **first print strictly above 280**."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260928-007-junkbondinvestor-9-27-ccc-damage-concentrated-in-cable-muse-agent-cancellation-lens-sept-hy-issuance-37-8bn-bloomberg-basis-not-ice.md",
+      "first_line": "---",
+      "matches": [
+        "confidence_language: A newsletter author's analysis over Bloomberg data, read whole. Index levels are BLOOMBERG series and are NOT the fleet's ICE BofA series. The Muse/subscription-basket move and the Optimum CCC-drag claim are the author's, not re-verified. The 2033 maturity cluster is the author's inference.",
+        "## \u26a0\ufe0f Basis: these are Bloomberg indices, not the fleet's ICE BofA series",
+        "| [9/25] | Bloomberg (this piece) | ICE BofA (fleet, FRED) |"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260929-003-credit-tape-9-25-9-28-ccc-yield-16-40-oracle-is-NOT-junk-fallen-angel-risk-only-softbank-is-4th-not-largest-bond-etf-options-record.md",
+      "first_line": "---",
+      "matches": [
+        "entities: [\"ICE BofA CCC & Lower US HY Effective Yield\", \"Oracle\", \"SoftBank\", \"Paramount\", \"Jane Street\", \"S&P\", \"Moody's\", \"iShares bond ETFs\", \"great_martis\", \"zerohedge\"]"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260929-008-hy-oas-302-fred-9-28-reg-t-03-and-red-ft-02-over-320-are-18bp-away-ccc-oas-1146-highest-in-freds-3-year-window-watch-not-a-fire.md",
+      "first_line": "---",
+      "matches": [
+        "entities: [\"ICE BofA US HY OAS\", \"ICE BofA CCC & Lower OAS\", \"REG-T-03\", \"REG-T-04\", \"RED-FT-02\", \"REGINALD\"]"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260930-002-hy-oas-308-on-the-9-29-print-12bp-under-the-320-sustain-3-bars-ccc-1157-new-fred-window-high.md",
+      "first_line": "---",
+      "matches": [
+        "origin: [\"FRED BAMLH0A0HYM2 (ICE BofA US HY OAS): 3.08 [2026-09-29] \u00b7 3.02 [9/28] \u00b7 2.93 [9/25] \u00b7 2.80 [9/24] \u00b7 2.73 [9/23]\", \"FRED BAMLH0A3HYC (ICE BofA US HY CCC & Lower OAS): 11.57 [9/29] \u00b7 11.46 [9/28] \u00b7 11.28 [9/25]\", \"RESEARCH-INTAKE lane 2026-09-30T19:50Z carries the same 308 print (suppressed as still-true)\"]"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20261002-006-return-to-lender-7-named-CRE-cases-BofA-Plaza-STL-91pct-loss-225-Bush-note-63c-450-Fifth-NW-auction-10-28.md",
+      "first_line": "---",
+      "matches": [
+        "case: [\"Bank of America Plaza, St. Louis MO [CASE-CREED-016]\", \"225 Bush St, San Francisco CA\", \"450 Fifth St NW, Washington DC\", \"580 Market St, San Francisco CA\", \"Symes Building, 820 16th St, Denver CO\", \"Hotel Indigo, 501 Olive St, St. Louis MO\", \"906/921/923/935 St. Paul St, Baltimore MD\"]",
+        "verdict: \"Connect CRE roundup (10/01): 7 named CRE distress cases not on the BOARD or in CREED's ledger except BofA Plaza St. Louis (CASE-CREED-016, mostly UNKNOWN): GSMS 2015-GC30 $42.8M loan liquidated with $39.1M loss (~91%) in Aug; 225 Bush SF $350M note sold for $221M then deed-in-lieu; 450 Fifth St NW DC foreclosure auction set 10/28 ($166.6M owed). Primaries not opened.\"",
+        "# Seven named CRE distress cases: Bank of America Plaza (St. Louis) liquidated at ~91% loss; 225 Bush note sold at ~63\u00a2; 450 Fifth St NW auction 10/28",
+        "**Short version:** Connect CRE's weekly \"Return to Lender\" roundup (published 10/01) lists **seven named distress cases**. Neither the BOARD nor CREED's case ledger carried them, except Bank of America Plaza (St. Louis), which the ledger holds as **CASE-CREED-016** with most fields UNKNOWN. **This roundup fills that row.**",
+        "| **Bank of America Plaza** [CASE-CREED-016] | St. Louis MO | Office, 760k sf CBD | **Liquidated, CMBS GSMS 2015-GC30** (Aug 2026) | loan **$42.8M**, loss **$39.1M** \u21d2 **~91% loss severity** (WALTER's arithmetic) | Morningstar Credit |"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20261005-006-will-prioritises-tanker-cost-watch-uso-pass-through.md",
+      "first_line": "---",
+      "matches": [
+        "origin: Will conversation; USCF USO fund page and June2026 filing; EIA transport mechanism; earlier005 primary freight",
+        "**USCF-verified vehicle fact:** USO's benchmark uses WTI futures, with roll, collateral and expense effects. Freight earnings are not fund income. Current issuer holdings rows did not render: exact present allocation UNKNOWN. Conditional inference: reduced deliverable supply/substitution demand can help WTI; producer discounts, a widening Brent-WTI gap or demand destruction can absorb/reverse that effect. Calls add timing and volatility risk. No change to declined share-management rules or existing option clocks."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20261008-008-credit-bundle-FT-rates-selloff-hits-corporate-borrowing-CCC-yield-up-4pt3-since-2025-blue-owl-insurance-push-arini-texas-CRE-foreclosures-1B-LIQUID-SHADE.md",
+      "first_line": "---",
+      "matches": [
+        "entities: [\"ICE BofA CCC & Lower\", \"HY OAS\", \"Blue Owl\", \"Arini\", \"Texas CRE foreclosures\"]"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20261008-009-august-trade-deficit-105point6B-widest-since-early-2025-oil-and-AI-hardware-imports-plus-aug-CPI-breadth-52pct-components-over-3pct-CPI-10-14-CARL.md",
+      "first_line": "---",
+      "matches": [
+        "# August US trade deficit \u2212$105.6B, widest since the early-2025 tariff front-running \u2014 oil and AI-hardware imports; plus August CPI breadth (11 of 21 components >3% y/y) ahead of the 10/14 CPI"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20261008-011-positioning-context-equal-weight-record-24yr-underperformance-HF-leverage-lows-rate-sensitives-oversold-treasury-futures-CTD-switch-above-6pct-HENRY-BOND.md",
+      "first_line": "---",
+      "matches": [
+        "origin: [\"@Barchart 2026-10-07\", \"ZeroHedge 2026-10-05\", \"@dailychartbook/RealInvAdvice 2026-10-03\", \"Bloomberg Opinion (Levine) 2026-10-06\", \"Bloomberg 2026-10-06/07 (BofA Subramanian; BofA derivatives note)\", \"@Hedgeye 2026-10-06\", \"@BobEUnlimited/Daily Shot 2026-10-07\"]",
+        "entities: [\"S&P 500 Equal Weight\", \"Treasury futures\", \"Bank of America\", \"Hedge-fund leverage\"]",
+        "- **Bonds vs stocks:** BofA's Subramanian says bonds are a genuine rival to equities for the first time in decades (Bloomberg 10/7); a separate BofA note suggests capturing the megacap rally through derivatives to cap bubble downside (Bloomberg 10/6). Hedgeye: US bonds posted their worst 10-year return in history (chart, 10/6). Daily Shot: most of the yield rise tracks positive economic surprises, which can reverse."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20261008-030-rates-fed-credit-waller-anticipates-additional-hikes-HY-309-near-trigger-320-CCC-1229-30Y-auction-13ET-6B-buyback-PMMS-7point40-big-banks-drawdown-LIQUID-BOND-HENRY.md",
+      "first_line": "---",
+      "matches": [
+        "**5. Equities and positioning:** S&P 500 \u22120.40% and Russell 2000 \u22120.98% at ~10:37 ET; VIX 15.58 (VIXCLS 15.08 [10/7]). **JPMorgan (Lecubarri, via Investing.com 10/8):** only **9% of US small/mid-cap stocks yield more than the 30-year Treasury**, from 19% at the start of 2024, the lowest since 2002; ~60% of global GDP sits with governments running debt above 100% of GDP *and* a deficit. **Big banks vs 52-week highs (10/7 closes, computed):** JPM **\u221210.1%**, BAC \u221218.0%, C \u221213.9%, WFC \u221217.9%, GS **\u221223.1%** (bear market); 10/8 intraday lower again. \u26a0\ufe0f 52-week, not verified all-time highs (Citi's all-time high is far higher). KRE \u22120.6% intraday (\u22123.3% since 10/2); no 8-Ks from OZK/WAL/ZION/FLG/VLY. **Breadth:** Morgan Stanley (Wilson, reported 10/5): 51% of Russell 3000 stocks >20% below their June highs. \u26d4 The bookmarked \"89% / 54% / 29% / 7%\" ladder, the \"AI Big 10 = 42% of US market cap\" and the \"top five = 28%\" figures could not be sourced (BofA puts the AI Big 10 at ~40% of total US market cap)."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20261008-044-broadcom-early-talks-30-50B-debt-for-openai-chips-separate-from-anthropic-60B-trendforce-dc-power-plus31pct-open-42B-basis-question-on-006-BROCK-VULCAN.md",
+      "first_line": "---",
+      "matches": [
+        "**1 \u2014 Broadcom\u2013OpenAI financing (reported 10/7; talks only).** Bloomberg (Dina Bass and Preeti Singh, 10/7 19:07 EDT, read): *\"early talks indicate the two could seek to raise around $30 billion of debt for the next leg.\"* The story was first reported by the WSJ at **more than $50B** (WSJ not read). *\"No formal process has begun and the plans could still change\"*; no deal is expected before year-end. Apollo and Blackstone are named as potential lenders (Seeking Alpha via TradingView). Broadcom and OpenAI declined to comment. Bloomberg treats this as **a different deal** from the ~$60B Anthropic-linked package ($42B senior secured with residual-value support from Broadcom, plus $18B junior led by Blackstone with $9B committed; BofA, Citi and Morgan Stanley arranging)."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20261010-005-fed-SCF-2025-19point6pct-of-families-behind-on-a-loan-payment-vs-12point2-in-2022-highest-since-2010-survey-not-2007-atlanta-140K-filings-are-5-counties-793K-payroll-claim-UNSUPPORTED-CARL.md",
+      "first_line": "---",
+      "matches": [
+        "origin: [\"Federal Reserve Survey of Consumer Finances 2025, report scf26.pdf, released 2026-10-09 (PRIMARY)\", \"CBS Atlanta 2026-09-25 citing Princeton Eviction Lab\", \"FRED PAYEMS vintages (ALFRED) + BLS 10/2 release, WALTER verify arithmetic\", \"Will X-bookmarks BM-20261010-01 items 10, 15, 22\", \"WALTER verify agent 10/10\"]",
+        "entities: [\"Federal-Reserve\", \"SCF\", \"household-debt\", \"delinquency\", \"Atlanta\", \"evictions\", \"BLS\", \"payrolls\"]",
+        "confidence_language: \"SCF figures read at the Fed PDF; base (all families vs families with debt) not settled; Atlanta count via CBS citing Eviction Lab; payroll figure not reproducible\"",
+        "**1. The survey (CARL action).** Federal Reserve SCF 2025 report (scf26.pdf, released Fri 10/9): families with debt are asked *\"whether they have been behind in any of their loan payments in the preceding year\"* (mortgages count). **19.6% in 2025 vs 12.2% in 2022; 8.2% were 60+ days late.** \u26a0\ufe0f **\"Highest since 2007\" (Rattner) is WRONG:** the Fed says families are more likely to be behind *\"than at any point since the 2010 survey\"* \u2014 so 2010 was higher \u2014 and the report's own body text also says *\"or since 2016\"*, an internal inconsistency. \u26a0\ufe0f Whether 19.6% is a share of ALL families or of families WITH DEBT is not settled \u2014 read the table before using the level.",
+        "**CARL (action):** the SCF delinquency rise against your consumer-stress read. **Info:** HOMER, REGINALD, LABOR, RED."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20261012-008-CORRECTION-external-scf-income-wealth-period-mean-median.md",
+      "first_line": "---",
+      "matches": [
+        "origin: [\"Will supplied Rebel Capitalist transcript2; Fed SCF2025 primary scoped Tables1/2 and definitions read by verifier and parent October12\"]",
+        "entities: [\"Federal-Reserve\", \"SCF-2025\", \"George-Gammon\", \"Rebel-Capitalist\", \"household-income\", \"household-wealth\"]",
+        "# Fed SCF detail: wealth rose over three years; mean-income decline is not a typical-family wage collapse",
+        "**New detail beyond SIG-W-20261010-005\u2019s delinquency data:** the Fed\u2019s **2025 SCF**, released October9, shows top usual-income decile median wealth **+31% between 2022 and2025**, not one year. Bottom **income quintile**, not quartile, median/mean wealth fell **6%/4%**.",
+        "[Fed primary, Tables1/2, pp7/12 and definitions](https://www.federalreserve.gov/publications/files/scf26.pdf), scoped reads by verifier and parent; parsed tables, screenshots unavailable. Evidence: `research/2026-10-12_boot/transcript-2-verify.md`. Original video/audio not authenticated."
+      ]
+    }
+  ],
+  "ozk": [
+    {
+      "file": "BOARD/SIG-W-20260604-005-cliffwater-31b-pc-fund-5pct-cap-17pct-requested-sp-negative-outlook.md",
+      "first_line": "---",
+      "matches": [
+        "- **S&P timing** (March 18 outlook negative) makes the rating action *itself* a leading signal: the rating agency saw the cap-pressure 10 weeks before this Q2 print validated it. **Rating-agency-led validation pattern** (analogous to AAA/CCC rating spread predictability)."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260725-016-cpi-component-level-inflation-vol-near-pandemic-surge-highs.md",
+      "first_line": "---",
+      "matches": [
+        "1. **Forecastability degrades.** When components move coherently, the aggregate is predictable from a few drivers. When component vol is at pandemic-era highs, **month-to-month CPI prints become noisier and single-month reads become less informative** \u2014 which is a direct caution on the fleet's own habit of grading off individual prints. \u2192 `[[feedback_single_month_subcomponent_skepticism]]`, which this signal supports with a measurement rather than an intuition."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260904-005-dnb-moved-86-of-313-tonnes-out-of-new-york-and-ottawa-to-london-march-to-august-for-TRADABILITY-59t-by-sale-not-shipment-no-trump-no-iran-in-the-primary.md",
+      "first_line": "---",
+      "matches": [
+        "origin: Will-terminal 5-image batch 2026-09-04 ~09:4x ET, item 3 \u2014 @HormuzLetter X post 9/2 14:17 (\"The Netherlands has moved 86 tonnes of its gold stock, worth $12 billion, out of the US, citing Trump's unpredictability over the Iran war\u2026 per Daily Mail\"). Two days old at intake; verified at the DNB primary.",
+        "| \"citing Trump's unpredictability over the Iran war\" | **no country, government, person or war is named**; \"increasing geopolitical unrest\" is the whole of it |"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260925-009-miami-dade-august-sales-down-1-to-3pct-yoy-not-a-new-break-the-minus-47pct-is-vs-the-2021-peak.md",
+      "first_line": "---",
+      "matches": [
+        "origin: [\"Will-Telegram 6-image batch 2026-09-25 ~14:25Z (BM-20260925-02 item 4): @nickgerli1 X post (date not visible)\", \"https://www.miamirealtors.com/2026/09/17/south-florida-housing-market-shows-continued-strength-as-luxury-sales-surge/ (read 2026-09-25)\", \"https://www.pbprealestate.com/market-report-miami-dade/ (BeachesMLS feed, read 2026-09-25)\"]"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20261008-003-OZK-closes-below-own-45-band-10-06-and-10-07-on-3x-volume-cause-unknown-OZK-grade.md",
+      "first_line": "---",
+      "matches": [
+        "**Cause: UNKNOWN.** REGINALD's search found nothing; WALTER's search (10/8) found nothing dated 10/6 either; no FDIC FLNG filing since 8/5 per REGINALD's 10/7 check. 10/6 was the Bluerock BPRE webinar the OZK desk was watching (IQHQ sponsor) \u2014 a **date coincidence, not an established link.** \u26a0\ufe0f Yahoo shows an \"Oct 15\" earnings estimate; the OZK desk confirmed **Q3 = Tue 10/20 after close, call 10/21 8:30 ET** from OZK's own 9/30 release \u2014 use that."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20261008-031-CRE-cases-wolfchase-galleria-memphis-special-servicing-valley-west-mall-receivership-sale-11M-AHP-hotel-REIT-ch11-IQHQ-alewife-mezz-14pct-bridge-to-bridge-CREED.md",
+      "first_line": "---",
+      "matches": [
+        "entities: [\"Wolfchase-Galleria\", \"Valley-West-Mall\", \"Morningstar-Credit\", \"American-Hospitality-Properties-REIT\", \"IQHQ\", \"Alewife-Park\", \"Innovative-Industrial-Properties\", \"Fitch\", \"CRE-CLO\"]",
+        "**4. IQHQ (OZK's RaDD sponsor):** per an IIPR 8-K (10/1) and IIPR's 10/7 prospectus (via WALTER's sweep agent; not re-read), the mezzanine loan on IQHQ's **Alewife Park** campus (West Cambridge MA) was **upsized by $267M to $400M at the greater of 14% or SOFR+9%**, repaying an $85M bridge. \u21d2 IQHQ is paying rescue-level rates **days before the $915M RaDD bridge with Bank OZK matures Fri 10/9** (`SIG-W-20261008-017`; DOCKET L635 reads the outcome Mon 10/12). Read-across, not a RaDD fact.",
+        "**CREED (action):** log Wolfchase and Valley West in the case ledger; the Fitch bridge-to-bridge figures against your S2/S4 rows. \u26a0\ufe0f Case-ledger selection bias applies (mall loans reach this lane through a Morningstar tally). **Info:** OZK (IQHQ Alewife terms vs RaDD), BROCK (CRE CLO / private-credit bridge lending), CORAL (possible Florida hotels in the AHP estate), REGINALD."
+      ]
+    }
+  ],
+  "fintech": [
+    {
+      "file": "BOARD/SIG-W-20260424-007-nyfed-cc-90day-delinq-127pct-approaching-2009-peak.md",
+      "first_line": "---",
+      "matches": [
+        "- **BROCK (info \u2014 PRIVATE_CREDIT indirect):** Consumer-PC exposure (asset-backed lenders, non-bank CC issuers in PC portfolios, subprime consumer via Marlette/Sofi/Upstart-adjacent) bleeds from industry-wide CC stress. Bridges to SIG-W-20260419-001 Tricolor/MTB auto-subprime."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260426-013-iran-delegation-pakistan-departure-trump-cancel-channel-disrupted.md",
+      "first_line": "---",
+      "matches": [
+        "- **Fluid state.** Apr 25 event-report \u2192 Apr 26 Araghchi-return-via-Oman is fast-moving. By the time this signal is consumed, state may be 24-48h further evolved."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260429-002-blue-owl-redemption-cap-ocic-otic-corrected-framing.md",
+      "first_line": "---",
+      "matches": [
+        "dispatch_note: \"**FRAMING CORRECTION FIRST**: Bloomberg Apr 29 'Doomsday levels' headline implies new redemption-gate event; verify-research found the gate-cap mechanic and the Q1 oversubscription disclosures actually broke Apr 2-3 (~4 weeks ago) and are already in OWL stock (-9% on that news). Apr 29 piece is pre-earnings reframing, not novel disclosure. Treat as standing-fact reactivation pre-OWL-Q1 print Apr 30. **What IS true (CONFIRMED 0.80)**: (1) Two Blue Owl non-traded BDCs hit 5%-of-NAV quarterly tender cap with massively oversubscribed Q1 redemption requests \u2014 OCIC (Blue Owl Credit Income Corp, $36B AUM) at **21.9% of NAV requested**, only 5% honored; OTIC (Blue Owl Technology Income Corp) at **40.7% of NAV requested**, 5%/$179M honored. Total ~$5.4B of redemption requests across the two funds; only ~$1B paid. (2) Disclosure date Apr 2-3 2026 via shareholder letters (Craig Packer / Logan Nicholson) + SEC 8-K exhibit (CIK 1812554). (3) Separate harder action: **OBDC II suspended tender offers entirely Feb 2026** (converted to return-of-capital structure) \u2014 that's the genuinely-broken-redemption-mechanism cousin, predates April. (4) Funds sold $1.4B of direct lending assets to institutional buyers to bolster liquidity (separate Apr release). (5) KBRA AFFIRMED OTIC ratings; OTIC has $1.3B liquidity, 0.82x net leverage. **What is OVERSTATED**: 'Imposed redemption gates' framing implies new discretionary action \u2014 actually the 5% cap is standing prospectus provision in both fund offerings since inception. The novel event is demand exceeding the cap, not the cap being imposed. 'Doomsday levels' is rhetorical headline; no NAV breach, no debt-covenant trigger referenced. **What this means for OWL Q1 print Apr 30**: stock already -9% on the redemption news (i.e. priced). Asymmetric risk = forward fee-base trajectory: gross redemption pace next quarter (not just net), management fee compression on ~$1B+ AUM run-rate decline, OBDC II conversion accounting drag, asset-sale realized marks vs prior NAV (gap = embedded liquidity discount), and management commentary on whether 5% cap holds Q2 or moves to OBDC II-style suspension. PC-stress meta-cluster \u22659 nodes now (+ OCIC/OTIC redemption-cap-event reactivated to BOARD) \u2014 TCW + IMF + Blue Owl founder pledged-loan unwind + Fitch BDC + Man Group + SoftBank-OpenAI + Fed-PC inquiry + Boaz-Weinstein-rejected + OCIC/OTIC redemption-cap. **Routing**: BROCK action (PC/BDC primary, matches SIG-028-005 lane). SHADE (CEF/secondary-mark specialist \u2014 Saba activist context). REGINALD (PC \u2194 regional-bank competitive supply for SMID-cap CRE lending). LIQUID (PC-fund-redemption-pressure proxy reactivated). RED (adversarial: KBRA-affirmed + $1.4B asset-sale liquidity = bull-rebuttal data points). HENRY (OWL stock vol pre-earnings). CARL (broader PC-stress macro feedback). **Caveats**: Bloomberg Apr 29 article body NOT pulled \u2014 verdict relies on multiple corroborating wire reports (CNBC/SeekingAlpha/PitchBook/Bisnow). SEC exhibit referenced but not directly retrieved (verify session 403). 'Doomsday' framing-credibility ~0.4 \u2192 confidence on underlying facts 0.80 \u2192 signal confidence 0.75 reflects framing-overstatement penalty applied to BOARD downstream readers. **DO NOT propagate 'Blue Owl imposed new redemption gates' as fact** \u2014 frame as 'OCIC/OTIC standing 5% prospectus cap met massively oversubscribed Q1 demand (22%/41%); reframed Apr 29 by Bloomberg pre-Q1 print.'\"",
+        "- **Liquidity actions**: $1.4B direct-lending asset sale to institutional buyers (separate Apr release). KBRA affirmed OTIC ratings; OTIC has $1.3B liquidity, 0.82x net leverage.",
+        "- **RED info**: KBRA-affirm + $1.4B asset-sale liquidity = bull-rebuttal data"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260507-001-john-hudson-wapo-cia-iran-3-4mo-blockade-survive-75pct-launchers-70pct-missiles.md",
+      "first_line": "---",
+      "matches": [
+        "origin: [\"John Hudson @John_Hudson (Washington Post national-security reporter) via X.com 2026-05-07 11:20 AM (860K views) \u2014 'SCOOP: A confidential new CIA analysis delivered to policymakers this week concludes that Iran can survive the U.S. naval blockade for at least 3 to 4 months before facing more severe economic hardship, a finding that contradicts those hailing an imminent collapse.' Follow-up tweet: 'U.S. intel also indicates that Iran retains about 75% of its pre-war inventories of mobile launchers & about 70% of its pre-war stockpiles of missiles, per a U.S. official. The regime has also been able to recover underground storage facilities & repair damaged missiles.' Will Telegram intake msg 1470\", \"WALTER verify-research sub-agent 2026-05-07 ~21:50 UTC (~$0.05) \u2014 verdict CONFIRMED 0.90: WaPo article today carries every load-bearing fact verbatim; multi-sourced 4 US officials (3 current + 1 former); tweet UNDERSTATES sourcing breadth (says 'a US official' singular when WaPo has 4)\", \"Washington Post primary: https://www.washingtonpost.com/national-security/2026/05/07/cia-intelligence-iran-trump-blockade-missiles/ (paywalled \u2014 403 to WebFetch but search-result excerpt + DNYUZ syndication confirms)\", \"DNYUZ syndication: https://dnyuz.com/2026/05/07/u-s-intelligence-says-iran-can-outlast-trumps-hormuz-blockade-for-months/\", \"TASS: https://tass.com/world/2128099\", \"Times of Israel liveblog: https://www.timesofisrael.com/liveblog_entry/cia-believes-iran-can-withstand-us-blockade-for-2-4-months-report/\"]"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260508-002-gurgavin-3-tech-layoffs-net-upwk-bill-ai-displacement-2k-jobs-concurrent.md",
+      "first_line": "---",
+      "matches": [
+        "to: CARL (ACTION \u2014 labor-down chain step-function; AI-displacement narrative now SEC-filed weight not just Klarna/Salesforce talking points; 3 concurrent SaaS/tech-platform reductions ~2K jobs single afternoon)",
+        "dispatch_note: \"Will-page Telegram 5/8 03:09 UTC msg 1487 (3/3 image batch). VERIFY-RESEARCH CONFIRMED 0.92 \u2014 all three layoffs real, 8-K filed 5/7 alongside Q1 earnings, all explicitly citing AI as primary driver: Cloudflare 'AI usage up 600% in 3 months' + Upwork 'nature of work shifting as AI advances' + BILL 'increase profitability.' One minor CORRECTED-FRAMING \u2014 gurgavin claimed Upwork 25% but 8-K is 24% (1pt slip). 'Within 5 minutes' framing plausibly real not stitched (earnings drops cluster 4:00-4:15 PM ET window; concurrent within post-close envelope). **Aggregate: ~2,000 jobs eliminated single afternoon at SaaS/tech-platform employers \u2014 clean LABOR step-function.** **Source-credibility recalibration:** @gurgavin / @MrVIX got it 99% right (only 25\u219224 Upwork slip). DIFFERENT from 4/20 false-petro-geopolitics-cluster pattern \u2014 8-K filings exist for all three. Layoffs claims from this account warrant verification but are NOT defaulting-to-hoax. Filed as MEMORY finding. **Mark-context discipline lesson surfaced this batch:** my earlier live-tape pull showed NET +3.30% / UPWK +5.26% / BILL +1.59% which I (incorrectly) read as 'all three UP, suspicious for layoffs.' Those were regular-session closes BEFORE the 4-5 PM ET 8-K filings hit. Actual AH: NET -18% / BILL +7-8% / UPWK directionally similar to NET. fetch.py shows YF regular-session close not AH-after-earnings. Filed as MEMORY finding 'apply mark-context discipline at intake too, not just at exit-recommendation' \u2014 extends MEMORY 'Exit Recommendations Need Mark-Context.' **Equity reaction divergence load-bearing for HENRY:** same restructuring template (concurrent 5/7 4-5 PM ET, similar % cuts, all AI-displacement narrative), but BILL +7-8% AH (buyback-stapled) vs NET -18% AH (pure cut, no buyback). Market is rewarding buyback-stapled cuts, punishing pure cuts. This is signal about market interpretation of capital-return as offset to demand-collapse signal. **Tech-employer AI-displacement narrative now SEC-filed weight** \u2014 not just executive talking-point territory. Crosses Klarna (early-2024 AI-replaces-customer-service narrative) and Salesforce (mid-2024 same) into 8-K-disclosure-weight. **Routing**: domain LABOR per ROUTING_TABLE \u2192 CARL action / HENRY backup / HENRY+RED info / PRIORITY default (analysis tier; not data-day for govt LABOR data \u2014 that's NFP Friday 5/8). **Cluster taxonomy**: best fit CONSUMER_STAGFLATION primary (LABOR is the routing axis but cluster taxonomy 10-bucket has no LABOR bucket; consumer-stretch + labor-down is mapped via CONSUMER_STAGFLATION). AI_INFRA_CAPEX possible secondary (AI-displacement narrative angle). cluster_mediating: false (convergent signal, not bifurcation). Confidence 0.92. **Cluster ToC update:** CONSUMER_STAGFLATION 19\u219220 (after sister signal -001 already moves it 18\u219219).\"",
+        "The narrative crosses from executive-talking-point territory (Klarna 2024 AI-replaces-CS, Salesforce 2024 similar) into **8-K-disclosed regulatory weight**. Once layoffs are 8-K material events with restructuring charges baked in, the corporate-narrative-discount drops."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260508-011-fwrd-q1-2026-top-customer-transition-2027-stock-45-ah-bank-covenant-default-fuller-extrapolation.md",
+      "first_line": "---",
+      "matches": [
+        "dispatch_note: \"Will green-light msg 1593 5/8 19:55-ish UTC after 6-image batch #2 filter table. **VERIFY-RESEARCH VERDICT: CORRECTED-FRAMING 0.70** (sub-agent ~$0.05). **Catalyst REAL \u2014 NOT a hoax:** FWRD reported Q1 2026 AH 5/7 \u2014 loss $(1.09)/sh vs $(0.35) consensus est; revenue $582M missed by 6%. **Primary trigger: top customer (~$250M / ~10% of revenue) in active discussions to transition 'significant portion' of business starting EARLY 2027.** Strategic-review concluded with no actionable sale bids; pivoting to non-core asset sales (Intermodal + 2 legacy Omni units, ~$394M revenue). Live tape FWRD $10.12 -41.60% intraday tape-validates the AH crash. **CRITICAL CORRECTION on Fuller's framing:** 'Risk of default to bank covenants' = Fuller INTERPRETATION extrapolating from customer-loss \u2192 forward EBITDA collapse \u2192 covenant trip. **NOT a company disclosure.** FWRD release reports liquidity actually IMPROVED: $402M total ($141M cash + $261M revolver, highest cash in 2 years). LT debt $1.69B flat QoQ. LTM Consolidated EBITDA $304M (~5.6\u00d7 gross leverage). **Zero covenant-amendment/waiver/default language in release.** Time-to-default: NOT IMMINENT. $402M liquidity + customer-transition starts 2027 = **2-4 quarter watch, not 1-2.** Fuller credibility: domain-expert on freight; competitor/sector-commentator = directionally informed, specifics imprecise; not interest-conflicted in obvious-short way; headline-amplifier bias. **Cross-channel relevance:** connects 5/7 SIG-W-20260507-004 Sternlicht-Starwood mid-cap-commercial credit-cycle-default theme + 5/8 SIG-006 Manufacturing -2K weakness + SIG-010 flatbed-ATH cost-side compression on operators. Mid-cap freight credit-cycle sub-cluster forming. **v0.8 fields:** signal_role: cluster_mediating (FWRD specific-name customer-transition disclosure \u00d7 Fuller covenant-default-extrapolation \u00d7 cross-cluster mid-cap-commercial-credit theme); consumer_transmission: counter_evidence (industrial-side demand-stress signal counters consumer-stretch broad-collapse but reinforces tier-stratified); consumer_lens: counter; cluster: BANK_COLLATERAL + cluster_secondary: CONSUMER_STAGFLATION; event_window: closed. **At-dispatch FALSIFICATION scan:** RED-FT-04 BRENT<75\u00d73 NOT breached; RED-FT-06 VIX<16\u00d75 17.42 ~9% above; RED-FT-01 HY-OAS<280\u00d73 \u2014 HYG +0.28% no widening. 0 fires. **Today's bifurcation count: 5 \u2192 6** (this dispatch). `network_uncertainty_peak` continues firing (was already over \u22655 threshold).\"",
+        "| Total liquidity | **$402M** ($141M cash + $261M revolver) | **IMPROVED** \u2014 highest cash in 2 years |"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260511-007-lma-insurance-availability-corrected-framing-crew-safety-not-pi-refusal-5-6.md",
+      "first_line": "---",
+      "matches": [
+        "**Verbatim claim (verified):** Per LMA official statement (Mar 23, reaffirmed operative 2026-05-06): **88% of Lloyd's marine war market has appetite for hull war risks; 90%+ for cargo.** Bottleneck is crew and vessel safety assessment by ship masters \u2014 NOT insurance unavailability. ~20,000 seafarers trapped per IMO. Lloyd's List 5/6: war-risk premiums now $10-14M per VLCC transit (vessel value ~$138M; pre-crisis baseline ~$200K). Premiums renewed every 7 days."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260511-037-reg-t-02-wal-78-fire-first-ever-investor-day-eve.md",
+      "first_line": "---",
+      "matches": [
+        "**FLASH precedence rationale:** position-specific risk (WAL-bear vector acceleration eve of Investor Day) + Will-page-mandatory per registry recipient_chain. Per FILTER_SPEC pre-Apr-21 bypass reaffirmation rules: \"WAL or ZION gap-down >5% premarket \u2192 FLASH\" \u2014 today's -6.04% session-close move qualifies under that family of FLASH triggers even though it's session-close not premarket."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260511-038-fsk-fs-kkr-q1-560m-loss-jpm-credit-cut-300m-sponsor-backstop-3rd-kkr-vehicle.md",
+      "first_line": "---",
+      "matches": [
+        "**NON_TRADED_REIT_DISTRESS sub-cluster proposal sharpened** \u2014 original proposal scoped to KKR + Starwood pair (sub-cluster within BANK_COLLATERAL). FSK addition expands the KKR-side from 2 named vehicles (KREST + KREF) to 3 (KREST + KREF + FSK). Sub-cluster framing should evolve to **KKR-FRANCHISE_STRESS** (not specifically non-traded-REIT) since FSK is a listed BDC, not a non-traded REIT. Possibly: combine into broader **SPONSOR_BIFURCATION** sub-cluster spanning PC_STRESS + BANK_COLLATERAL + PE-credit-stack."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260511-042-redfin-feb-2026-home-sellers-630k-largest-gap-13yr-series-sunbelt-concentration.md",
+      "first_line": "---",
+      "matches": [
+        "**Mechanism implication for thesis tracking:** if the supply-side mechanism evolves from voluntary-listing to forced-listing (e.g., insurance-cost-driven Florida sales, property-tax-driven Texas sales, ARM-reset-driven), the bear-case escalates substantially. Current state: voluntary; watch for catalyst escalation."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260511-043-first-squawk-auto-cc-delinq-all-time-high-corrected-framing-subprime-vs-system.md",
+      "first_line": "---",
+      "matches": [
+        "- SIG-W-20260509-002 Auto loan debt $1.68T (level not rate) \u2014 re-affirmed by Fortune 5/7 piece."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260521-006-q1-retailer-earnings-wmt-hd-tgt-low-forward-test-outcome-paper-vs-substance-tier-stratification.md",
+      "first_line": "---",
+      "matches": [
+        "| **HD** Q1 FY26 (5/19) | $41.77B vs $41.52B (+0.6%) | $3.43 vs $3.41 | **+0.4%** (ticket +2.3% / trans -1.3%) | REAFFIRMED FY26; no raise | -2.5% premarket |",
+        "| **LOW** Q1 (5/20) | $23.1B vs $22.98B | $3.03 vs $2.97 | +0.6% (DIY weak / Pro+services strong) | REAFFIRMED FY26 | Analysts cutting PT |"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260521-018-fsk-q1-max-bear-confirmed-nav-9-9-non-accrual-8-1-kkr-450m-support-package-revolver-cut-648m.md",
+      "first_line": "---",
+      "matches": [
+        "# FSK Q1 Max Bear CONFIRMED \u2014 NAV $18.83 (-9.9% QoQ), Non-Accrual 8.1% Cost / 4.2% FV, KKR $450M+ Support Package, JPM Revolver Cut $648M (-14%)",
+        "- **All four Max Bear thresholds BROKE in single quarter:** NAV step-down >7% / non-accruals >7% cost / sponsor-backstop deployment >$300M / bank-channel transmission step (JPM revolver cut). Per BROCK SIGNAL_DASHBOARD all \ud83d\udd34\ud83d\udd34 (double-red)."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260521-019-sponsor-strategy-bifurcation-5-instance-crystallization-kkr-apollo-blackstone-blue-owl-wal.md",
+      "first_line": "---",
+      "matches": [
+        "1. **KKR-DOUBLES-DOWN.** FSK $450M+ support package + KREST $50M + KREF (3 KKR-vehicle concurrent stress). KKR commits sponsor balance sheet to defend BDC equity floor + replace pulled-bank-revolver capacity (JPM -$648M FSK 5/8)."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260522-001-japan-national-cpi-april-2026-core-1-4-yoy-vs-1-7-cons-fade-gate-triggered-sam-thesis-direct-counter.md",
+      "first_line": "---",
+      "matches": [
+        "- Subsidies-driven softness = government-engineered headline compression; the underlying structural yield story (lifer abandonment + fiscal supply + Bessent affirmation channel) is unchanged."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260604-005-cliffwater-31b-pc-fund-5pct-cap-17pct-requested-sp-negative-outlook.md",
+      "first_line": "---",
+      "matches": [
+        "| 4 | S&P negative outlook on the fund, 'A' rating affirmed | **CORRECTED-FRAMING (timing)** | Outlook revised + 'A' affirmed are CONFIRMED, but action dates to **March 18, 2026** \u2014 ~10 weeks before the Q2 cap announcement. Framing implies fresh action; actual is a stale rating action that Q2 gating is now retroactively validating. |"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260624-005-life-insurers-major-lenders-to-private-credit-funds-double-exposure-clearwater.md",
+      "first_line": "---",
+      "matches": [
+        "2. **Pairs with today's PC redemption wall (SIG-001):** the fund-side liquidity event (MS/Apollo/Blue Owl at 5% cap) reaches insurer balance sheets through exactly this channel. Watch for insurer-held fund-level facilities (revolvers / sub-lines / NAV loans) drawn or stressed as redemptions bite."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260626-007-stone-ridge-gated-pc-fund-impaired-bnpl-consumer-paper.md",
+      "first_line": "---",
+      "matches": [
+        "**One line:** WSJ exclusive: the **Stone Ridge Alternative Lending Risk Premium Fund** has had **investor exits restricted for FOUR YEARS and counting** \u2014 wealth advisers fear it could be many more years before investors get all their money out. The fund holds **consumer + small-business + BNPL debt** (heavy Affirm exposure per its own Consolidated Schedule of Investments, as of Feb 28 2026), and parsers (Leyla, Unicus) find **thousands of pages of BNPL loans \u2014 some marked at $2 fair value (literally two dollars), ranging $2 to $200K unsecured personal.** A named, concretely-gated PC fund stuffed with deeply-impaired consumer paper \u2014 the redemption-wall / gating thread made specific.",
+        "2. **The collateral is ugly and granular:** thousands of BNPL/Affirm loans, some marked at **$2 fair value**, $2\u2013$200K unsecured personal (Leyla + Unicus parse of the SOI). The deep marks on consumer/BNPL paper inside an illiquid interval fund = exactly the NAV-vs-realizable gap your shadow-NAV thesis is about.",
+        "The underlying collateral is **consumer + BNPL (Affirm) + small-business** debt, marked deeply impaired in places ($2 FV line-items). A read on the consumer-credit tail (BNPL/subprime-personal) you track \u2014 the impairment is showing up in the fund marks, not just the delinquency series (pairs student-loan-default SIG-621-012, 401k-hardship SIG-604-004, CC-DQ-2011-high SIG-622-008). The K-shape bottom-tercile borrower is who these loans are to.",
+        "- Stone Ridge Alternative Lending Risk Premium Fund \u2014 Consolidated Schedule of Investments (as of Feb 28 2026); United States 90.83%, platform Affirm."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260627-013-fitch-gsms-2017-gs6-cmbs-downgrades-hotels-condos-failing-to-office-levels.md",
+      "first_line": "---",
+      "matches": [
+        "verify_verdict: SKIP-VERIFY 0.80 \u2014 the Fitch rating action is primary + screenshotted (Fitch downgraded 4 / affirmed 8 classes of GSMS 2017-GS6, Negative Outlook on 2, 5 of the affirmed on Negative Outlook; dated 26 May 2026): BB-sf\u2192B-sf, CCCsf\u2192CCsf, CCsf\u2192Csf downgrades; AAAsf/A-sf/BBB-sf affirmed but on Negative Outlook. \u26a0\ufe0f The X-post wrapper (\"absolute collapse / dog shit / 14% defaults / DSCR 1.02 / 4% default\") is hyperbolic editorializing \u2014 anchor on the Fitch action, treat the loose stats as the poster's, CREED verifies. STALE ~4wk (5/26).",
+        "**One line:** **Fitch (26 May 2026) downgraded 4 and affirmed 8 classes of GS Mortgage Securities Trust 2017-GS6 (GSMS 2017-GS6)**, with Negative Outlook on 2 downgraded + 5 affirmed classes. Downgrades: **BB-sf\u2192B-sf, CCCsf\u2192CCsf, CCsf\u2192Csf**; even AAAsf/A-sf/BBB-sf affirmed but on **Negative Outlook**. The X-post wrapper claims ~14% defaults on a portfolio that's ~1.5% of GS's assets, DSCR dropping to 1.02 / 4% default rates, and \"hotels and condos now failing to levels matching office RE and rent-locked multifamily (~10%).\"",
+        "- **Fitch Ratings (New York, 26 May 2026):** \"Fitch has downgraded four and affirmed eight classes of GS Mortgage Securities Trust 2017-GS6 (GSMS 2017-GS6). Fitch assigned a Negative Outlook to two classes following their downgrades. The Outlooks are Negative for five of the affirmed classes.\" Table: AAAsf affirmed (Neg) / A-sf affirmed (Neg) / BBB-sf affirmed (Neg) / BB-sf\u2192B-sf Downgrade / CCCsf\u2192CCsf Downgrade / CCsf\u2192Csf Downgrade."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260627-026-surfside-damac-condo-0-units-idiosyncratic-vs-electric-fl-luxury-insurance-block-wsj.md",
+      "first_line": "---",
+      "matches": [
+        "**Correction:** the Surfside-condo 0-units-sold (which I folded into SIG-023) is NOT a FL-luxury-demand signal \u2014 it's idiosyncratic (collapse-site stigma + Damac inexperience/missteps + insurance-block + no local partner). Please don't carry it as demand evidence. **The two genuine extracts for your thesis-split:** (1) **FL luxury top-end is electric** \u2014 Surfside top-5% Q1-26 sales \u2265$31M (vs $3.6M Miami-Dade overall, per Gay Cororaton/Miami Assoc of Realtors), Fort Partners Four Seasons one block away >$2B sold in 3 months. That's the *strong* leg of your \"thesis split holds\" (luxury/coastal strong while broad/condo-association/insurance-stressed middle normalizes). (2) **FL construction-insurance unavailability** \u2014 Damac paused construction in Feb because it couldn't secure insurance (inexperience + no local partner that \"typically eases the path\"). That's your commercial/condo insurance leg as an outright *availability* block on even a marquee $1.6B beachfront tower \u2014 harder evidence than premium-rises. Also: Damac is now trying to *sell* the site (single-asset distressed-exit, idiosyncratic). **Execution misstep confirms the idiosyncratic read:** Damac is asking **$5,000/SF (avg ~$35M/unit) vs ~$4,466/SF for comparable area units** \u2014 ~12% above market into a market that's otherwise clearing \"electric,\" i.e. it priced itself out *on top of* the stigma/insurance problems. The 0-units-sold is overpricing + stigma + insurance, not demand."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260628-001-muni-fiscal-stress-data-center-deep-research.md",
+      "first_line": "---",
+      "matches": [
+        "- **Chicago \u2014 second most-stressed.** **S&P revised its GO outlook to negative Nov 5 2025** (affirming BBB; \u22651-in-3 downgrade chance within two years) on structural imbalance, depleted reserves, and pension policy. It entered FY2026 with a **~$1.15\u20131.2B gap (largest ex-COVID in its history)** and the proposed budget **halved the supplemental pension contribution to $120.2M** (from $259.6M) \u2014 though Council later mandated the full ~$260M and the city made a ~$130M half-payment in Jan 2026 [PRIMARY: Chicago COFA; S&P]."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260702-002-hormuz-reopening-scorecard-deep-research.md",
+      "first_line": "---",
+      "matches": [
+        "> \ud83d\udea9 **SUPERSEDED 2026-08-03** (ref: SIG-W-20260802-010, SIG-W-20260803-001) \u2014 Discharges the 2026-07-19 sweep record's EXPLICIT CARRY ('the reopening-scorecard is the first row to reconsider for a tag if the Iran state flips again'). It has flipped repeatedly since \u2014 7/23 escalation, the 7/24 pause, the 7/28 pause-break, the 7/29-30 open daily exchange, the 8/1-8/2 third pause, and the 8/3 Trump-vs-Tehran contradiction. Decisive for the tag rather than another hold: a HORMUZ REOPENING IS NOW THE LIVE NEGOTIATED OBJECT (both sides affirm an Iran-Oman track in 'final stages'; the reported instrument is the June MOU revived, whose own clause is 60 days toll-free). A 7/2 scorecard reading 'institutional 0/4, STALLED and partially REVERSED' is no longer a merely dated snapshot \u2014 its headline number now points the opposite way to the live state, which is the condition the blanket anchor-pointer backstop does NOT cover."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260702-015-private-credit-into-bnpl-blue-owl-kkr-bloomberg.md",
+      "first_line": "---",
+      "matches": [
+        "  The PC-BUYING-consumer-debt angle is NET-NEW to BROCK \u2014 its domain is PC/BDC/alt, but \"Blue Owl / KKR billions into BNPL paper\" is a fresh PC-contagion VECTOR (PC funds taking consumer-credit risk via BNPL). CARL already holds the consumer-SIDE BNPL stats (BNPL Late Rate 41% / Klarna Q1 profitable-counter) \u2014 so the additive delta for CARL is the \"50%+ call BNPL a survival tool\" borrower-quality stat + the PC-buyer identity. Two-sided (cluster_mediating): bull (short-duration / bought-at-discount / originators-keep-slice / buyers-can-stop-if-perf-slips) vs bear (none tested in a downturn + a survival-tool borrower base). BROCK = the PC-bet risk (untested-in-downturn); CARL = consumer-BNPL side; RED = two-sided. cluster PC_STRESS / secondary CONSUMER_STAGFLATION.",
+        "- **CARL (additive-only):** you already hold the consumer-SIDE BNPL stats (Late Rate 41%, Klarna Q1 profitable-counter) \u2014 the delta here is the **\"50%+ call BNPL a survival tool\"** borrower-quality stat + the PC-buyer identity."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260716-001-bank-private-credit-exposure-direct-channel-2bp-indirect-is-the-mechanism.md",
+      "first_line": "---",
+      "matches": [
+        "confidence_note: Observation confidence HIGH on the held-balance / roster / facility-structure pulls (CFG + WAL 10-Q lines, PNC-agented revolver, XPV roster verbatim from Apollo's release, CCLFX repurchase escalation). Interpretation confidence MEDIUM-LOW on what it MEANS \u2014 the hold-vs-distribute question the whole bank leg turns on is UNRESOLVED and undisclosed until Q2/Q3 10-Qs, and no base rate survived in either direction. The ~2bp figure is the Fed's own stress arithmetic on the DIRECT channel only; the indirect channel is explicitly un-quantified (the Fed concedes it \"could exceed historical experience\"). Band gap is deliberate \u2014 do not read the 2bp as a settled all-in verdict.",
+        "verify_verdict: VERIFIED-PRIMARY on the quantitative core (Fed FSR May-8-2026 vintage + FRED H.8 + EDGAR N-CSR/10-Q direct pulls; CFG capital-call $8,756M/6% + secured private-credit-finance $4,096M/3%; WAL NDFI $14,928M = 25.2% of HFI of which ~69% mortgage-warehouse and PE funds only $1,260M/2.1%; CCLFX $7.69B PNC-agented senior secured revolver + $6.51B senior notes undisclosed purchasers; peak intra-year draw $3.15B vs $1.25B FY-end = 2.5x; CCLFX Class I repurchases 3.42% -> 2.90% -> 5.32% -> 7.00%). Fan-out layer: 68 claims -> 25 verified -> 18 confirmed / 7 KILLED. Three premise corrections + one in-repo \"settled\" fact refuted (see below). No WALTER verify-spawn (Phase 2.8b \u2014 primary filing pulls).",
+        "verify_method: none \u2014 deliverable is DEWEY's `/deep-research` fan-out (102 agents, 4.49M tokens, 20 sources, 0 errors) + 4 DEWEY primary pulls (EDGAR N-CSR/10-Q \u00b7 Fed FSR PDF + FRED H.8 + SNC \u00b7 targeted Atlas leg). Notable: the fan-out concluded \"no source names the revolver's lender banks\" \u2014 the primary pull named PNC. WALTER routes + extracts per-recipient genuine delta (lean mandate); caveats carried verbatim.",
+        "1. **REGINALD's ask points at a channel that does not exist.** NEXUS's watch spec asks which banks provide **\"NAV facilities / subscription lines\"** to these interval funds. **Cliffwater has neither.** The real channel is a **PNC-agented senior secured revolver** ($7.69B committed, CCLFX) **+ $6.51B of senior notes with undisclosed purchasers.** The usable marker is **peak intra-year draw, not the year-end balance** (CCLFX: **$3.15B peak vs $1.25B at FY-end \u2014 2.5\u00d7**). A year-end-balance watch would have read this channel as ~60% quieter than it runs.",
+        "- **Reword the ask.** NAV facilities / subscription lines are the wrong instrument for Cliffwater \u2014 it has **neither**. Watch the **PNC-agented senior secured revolver** ($7.69B committed) + the **$6.51B senior notes (purchasers undisclosed)**."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260716-005-repo-was-genuinely-calm-in-the-svb-window-stress-bypassed-it.md",
+      "first_line": "---",
+      "matches": [
+        "- The verdict rests on the **FRED tape** (primary, daily, authoritative) \u2014 **NOT on the Fed's silence.** The Fed's own retrospectives contain **zero** repo-dislocation analysis, but DEWEY **could not source an affirmative \"repo functioned normally\" sentence**; **absence-of-discussion is the weaker leg and is labeled as such.**",
+        "- **No affirmative Fed \"repo functioned normally\" statement sourced** \u2014 the silence leg is the weaker one and is labeled as such; a primary would firm the verdict."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260716-007-brk25-does-not-fire-the-0-85-watch-is-refuted-at-its-root-pressure-is-not-price.md",
+      "first_line": "---",
+      "matches": [
+        "| 2026-04-08 | **OCIC** | Outlook \u2192 **NEGATIVE** (Baa2 affirmed) \u2014 cites 21.9% |",
+        "| 2026-06-01 | **BXSL + GBDC** | Outlook \u2192 **NEGATIVE** (Baa2 affirmed both) |"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260723-005-iran-7d-reverify-kpc-mangaf-fal01-ambiguity-brent-100-premium-bab-kinetic.md",
+      "first_line": "---",
+      "matches": [
+        "**The Iranian-side tell is AFFIRMATIVELY NEGATIVE: Kharg STILL LOADING** \u2014 UANI tracked 11\u219212 Kharg-origin loadings through week of 7/20 (total Iranian loadings 26\u219229 since 6/17)."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260728-001-crmt-silver-point-correction-covenant-waiver-not-default-september-expiry.md",
+      "first_line": "---",
+      "matches": [
+        "**Rank and security, which the press could not give:** collateralized primarily by **finance receivables, inventory, and equity interests of certain subsidiaries**, guaranteed by each Credit Party; it **repaid and retired the prior revolver** ($162.9M of proceeds). Warrants on **937,487 shares @ $22.63** expiring 2031-10-30 \u2014 against a **~$3.45** stock, so **Silver Point is a pure secured creditor with no realistic equity upside.**"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260803-001-trump-says-talks-today-iran-says-they-dont-exist-and-oil-prices-the-deal-anyway.md",
+      "first_line": "---",
+      "matches": [
+        "| **Iran\u2013Oman track** | **Advancing, and Tehran affirms it** \u2014 Hormuz passage talks *\"in final stages\"*; the structure described is **one route with separate entry and exit lanes** |",
+        "**\u21d2 The contradiction is not noise and it is not new \u2014 it is the SAME split as `-20260802-006`, now in its second session and with a date attached.** Trump's account has Iran as a supplicant asking him to stop; Iran's has no bilateral channel at all. **What both sides affirm is the MEDIATED Omani track** \u2014 which is precisely the object `-010`'s MOU-revival synthesis identified.",
+        "**\ud83d\udd11 What is NEW today and cuts toward (1) being *structurally* right rather than just repeatedly lucky:** the Omani track is **affirmed by Tehran itself**. If the tradeable object is a Hormuz reopening \u2014 not a US-Iran bilateral peace \u2014 then **Iran denying bilateral talks is not a denial of the thing oil is pricing.** That would make the \"denial risk\" smaller than `-007` framed it. **This is a reading, not a finding: it rests on Hormuz transit being the binding constraint on the crude price, which BRENT owns and this signal does not adjudicate.**",
+        "- **FALCON (action)** \u2014 the Diplomacy row. **Tehran affirming an Omani Hormuz instrument in \"final stages\" is the closest thing to a registered flip this file has produced**; FALCON owns the mark, this signal does not set it."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260813-013-saudi-bab-el-mandeb-exports-down-90pct-while-sidi-kerir-more-than-doubled-to-2-3-mbpd-the-barrels-are-rerouted-not-lost.md",
+      "first_line": "---",
+      "matches": [
+        "**\u21d2 This is affirmative, quantified evidence FOR `FAL-01` staying FIRM-NEGATIVE and for `R3` staying at the floor \u2014 and it is the first time that verdict has had a positive mechanism under it rather than an absence of contrary evidence.** *(The distinction matters: \"no confirmed barrels offline\" is a negative finding; \"the barrels are demonstrably arriving somewhere else in comparable volume\" is a positive one, and it is much harder to overturn.)*",
+        "**FALCON (action):** the *\"partly routing-attributable\"* qualifier on leg-3 now has a named destination and a volume. **Does this convert leg-3's decline from ambiguous to explained** \u2014 and does the ~90%/2.3 mb/d pair belong in `R3`'s evidence set as affirmative support for the floor rather than as absence of contrary evidence?"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260820-004-the-mou-collapse-did-not-convert-into-kinetic-escalation-twenty-nights-and-no-change-on-expiry-and-the-strike-leg-rests-on-a-weaker-basis-than-the-blockade-tally.md",
+      "first_line": "---",
+      "matches": [
+        "**That is what made the tally strong: CENTCOM publishes a RECURRING statement in a FIXED FORMULA whether or not the numbers moved, so a flat leg is AFFIRMATIVELY PUBLISHED.** WALTER re-read the wording directly: *\"As of Aug. 17, CENTCOM forces have redirected 64 commercial vessels, disabled 3, and boarded 2 to ensure compliance.\"*",
+        "| **(b) No announced change in posture / ROE / target sets** | **Affirmatively checkable, and checked** | \ud83d\udfe2 **STRONGEST \u2014 this should carry the headline** |",
+        "\ud83d\udccc **`anchors/IRAN_WAR.md` is updated on exactly these terms** \u2014 sourced negative, basis named, explicitly **not** a CENTCOM affirmative that no strikes occurred. **AND THE HALF FALCON DID NOT RESOLVE IS PRESERVED AS OPEN: the date of the most recent strike BY EITHER SIDE.** **The resolved half must not absorb the open half.**"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260822-007-three-consumer-bellwethers-BEAT-and-sold-off-on-GUIDANCE-in-four-days-and-tariff-REFUNDS-are-inflating-retail-earnings.md",
+      "first_line": "---",
+      "matches": [
+        "| **8/18** | **Klarna (KLAR)** | **BEAT** \u2014 revenue **$1.04B, +27% YoY**; **surprise profit $0.01/sh** vs an expected **\u2212$0.05 loss** | **\u221222% in one session, ~$4B of market value**; worst week ever, >\u221230% | **FY26 revenue outlook CUT to $4.08-4.16B vs $4.42B consensus** \u2014 ~$600M FX headwinds **plus weakening consumer demand in GERMANY, its largest market by volume** |",
+        "\u26a0\ufe0f **STATED AS A LIMIT: n=3 is a pattern, not a trend, and all three are single-company guides with company-specific explanations attached (Marmaxx allocation missteps; Klarna FX + Germany; Walmart EPS mix). A skeptical read is that three idiosyncratic misses landed in one week. I cannot distinguish those from here \u2014 CARL can.**",
+        "## 4. \u26a0\ufe0f THE DISCRIMINATOR ON KLARNA \u2014 it is a DEMAND story, NOT a CREDIT story, and reading it wrong is easy",
+        "**Klarna's own loss provisions IMPROVED: 0.52% of GMV vs 0.56% a year earlier.** \u21d2 **\"BNPL giant crashes\" is NOT consumer-credit stress on this evidence. It is a VOLUME and DEMAND guide-down, named to Germany.** **Anyone routing it as a credit event has the wrong mechanism.**",
+        "\ud83d\udd34 **BUT A SEPARATE AND GENUINELY CREDIT-SIDE DATUM ARRIVED WITH IT, and it is independent of Klarna's P&L: the LendingTree 2026 Buy Now, Pay Later Report finds 47% OF BNPL USERS PAID LATE IN THE PAST YEAR \u2014 up 6pp from 2025 and 13pp from two years ago.** \u26a0\ufe0f **Survey-sourced, self-reported, and NOT primary-verified here \u2014 but the TRAJECTORY (+13pp over two years) is the part that matters, and it points the opposite way to Klarna's own improving provisions.** \u21d2 **BNPL lender books can improve while BNPL BORROWERS deteriorate \u2014 the lender tightens and the marginal user is pushed elsewhere. Those are not contradictory; they are the same process seen from two ends. CARL and BROCK own which end matters.**",
+        "**Klarna's guide-down names GERMANY as the cause \u2014 its largest market by volume.** **That is a `EUROPE_MACRO` datum** \u2014 the domain code shipped 2026-08-18 precisely because Europe had no home. \u26a0\ufe0f **Its owner HANS is Tier 2 and 34+ days dark.** \u21d2 **the fleet now has a European consumer signal, a code to file it under, and nobody awake to receive it.** **BOND is the named backup for time-critical items but this is not BOND's object.** **Flagged to PROME as a spawn question, not routed to a dark desk and called delivered.**"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260911-005-first-sponsor-bank-contagion-since-tricolor-coastal-financial-took-a-single-partner-loss-and-lost-43pct-in-one-session.md",
+      "first_line": "---",
+      "matches": [
+        "entities: [\"Coastal-Financial\", \"CCB\", \"CCBX\", \"LendingPoint\", \"MidCap-Financial\", \"KBRA\", \"Midland-States-Bancorp\"]",
+        "verdict: \"Coastal Financial (NASDAQ CCB) booked a -$42.1M Q2-2026 net loss on a $92.2M provision and fell 43.5% in one session (7/29 $70.66 -> 7/30 $39.91), attributing $68.8M of credit expense to a single CCBX banking-as-a-service partner relationship. It is the first realised, audited, single-quarter BaaS/sponsor-bank credit loss at a LISTED depository since Tricolor. Fleet coverage before this signal was ZERO. Two counter-facts travel with it: CCB has recovered to $47.46 (+18.9% off the 7/30 close), and PHAN held its registered discriminator rather than relaxing it -- consumer-fintech failure count stays 3, P04 stays 12%.\"",
+        "The company attributes **$68.8M of credit expense** to *\"a single, isolated CCBX partner relationship\"* (CCBX = its banking-as-a-service arm).",
+        "\u26a0\ufe0f **ATTRIBUTION CAVEAT \u2014 MUST NOT BE TIGHTENED IN TRANSIT.** Coastal disclosed the partner as **UNNAMED**. **Fintech Business Weekly (Jason Mikula) names LendingPoint.** Carry as **named-by-credible-secondary, NOT company-confirmed.** The LendingPoint facts above (KBRA, MidCap mark) are independent of that attribution and stand on their own."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260917-010-violet-cheap-tail-window-re-opened-4-of-4-at-the-9-17-settle-first-since-9-4-one-day-before-boj-and-6t-opex.md",
+      "first_line": "---",
+      "matches": [
+        "**WHAT HOLDS \u2014 and this is most of the signal:** `-002`'s subject was that **RED-FT-10's run BROKE on 9/15 and the count reset to 0-of-4.** **VIOLET confirms that substance with no dispute**, states the SKEW bars are its own at the publisher, and re-affirms that **RED owns the sustain count** while VIOLET supplies bars only. \u21d2 **Do not discard `-002` over this.** Its own `RED ACTION` is untouched and still outstanding."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260917-011-two-red-ft-rows-grade-on-derived-fred-series-that-publish-provisional-cells-ahead-of-their-own-inputs.md",
+      "first_line": "---",
+      "matches": [
+        "**A PROVISIONAL CELL MAKES THE BAD LEG NEWER.** *\"Use the latest cell\"* **affirmatively SELECTS the unsupported value**, and it presents as **fresher** than the verified series beside it. \u26a0\ufe0f **Every staleness check returns CLEAN, because the cell is not stale \u2014 it is EARLY.**"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20260928-004-apollo-slok-9-27-agentic-bank-run-ai-agents-could-sweep-cheap-deposits-into-3-3-5pct-fintech-yields-a-mechanism-frame-not-an-observed-outflow.md",
+      "first_line": "---",
+      "matches": [
+        "entities: [\"Apollo\", \"Torsten Slok\", \"Muse\", \"SoFi\", \"Varo\", \"Revolut\", \"LendingClub\", \"Wealthfront\", \"FDIC\", \"WQ-318\"]",
+        "verdict: \"Apollo's chief economist Torsten Slok (9/27) argues that agentic AI assistants ('Muse and similar') could soon sweep household cash automatically from checking accounts paying 0.1% (FDIC national average; savings 0.4%) into fintech accounts paying 3.3%\u20135.0% (Adelfi 5.0, SoFi 4.5, LendingClub 4.2 \u2026 AlumniFi 3.3), and that if every household did so, banks would lose a large share of the cheap deposits they lend from. It is a conditional mechanism, not an observed outflow. It is routed because it names a specific deposit-flight channel for the funding baseline Will ruled today (WQ-318).\"",
+        "| SoFi | 4.5% |",
+        "| Most of the fintech names are themselves banks or bank-partnered | \u26a0\ufe0f WALTER's observation: SoFi, Varo and LendingClub hold bank charters, so some of the sweep **moves deposits between banks** rather than out of the banking system. The piece does not separate the two |"
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20261001-028-nclh-8k-9-30-q3-to-exceed-guidance-on-revenue-fy26-reaffirmed-2027-net-interest-860-880m-after-ncl-corp-transactions.md",
+      "first_line": "---",
+      "matches": [
+        "verdict: \"NCLH 8-K (Item 7.01, 2026-09-30): Q3 2026 results expected to EXCEED the guidance in its Q2 release, 'primarily driven by better-than-expected revenue performance'; full-year 2026 guidance REAFFIRMED (not raised); and, 'as adjusted for the transactions separately announced today by NCL Corporation Ltd.', 2027 net interest expense expected at $860-880M.\"",
+        "# Norwegian Cruise Line pre-announces: Q3 above guidance on revenue, full year only reaffirmed, plus a financing",
+        "**Short version:** In an 8-K dated **2026-09-30** (Item 7.01, Regulation FD), Norwegian Cruise Line Holdings (NCLH) said it **expects third-quarter 2026 results to exceed the guidance** in its Q2 earnings release, **\"primarily driven by better-than-expected revenue performance.\"** It **reaffirmed** its full-year 2026 guidance. Separately, **\"as adjusted for the transactions separately announced today by NCL Corporation Ltd.\"**, it now expects **2027 net interest expense of $860\u2013880 million**.",
+        "- **Full year reaffirmed, not raised.** A Q3 beat inside an unchanged full year means the company is not extending the beat into Q4 in this filing. That's worth reading against CCL raising its FY26 net yield on 9/29.",
+        "- **The financing.** \"Transactions separately announced today by NCL Corporation\" with a new 2027 interest-expense range bears on CRUISE's capital-access reading (CRUISE STATE item 6: NCLH \"did not issue in this window and funds via a secured revolver\"). **WALTER did not establish what the transactions were.** Search results returned older NCL refinancings (notes \"due 2026\" being redeemed), so they are a date trap and are not carried."
+      ]
+    },
+    {
+      "file": "BOARD/SIG-W-20261002-034-cable-one-CABO-becomes-a-distressed-credit-MBI-put-close-pushed-to-oct-9-revolver-fully-drawn-2030-notes-about-25-28-private-lender-rescue-financing-reported-not-in-8K.md",
+      "first_line": "---",
+      "matches": [
+        "verdict: \"Cable One (CABO; ~$3.1bn debt at 6/30) is turning into a distressed credit around a ~$480mm cash payment it owes GTCR for the rest of Mega Broadband (MBI). Verified at SEC: the 10/02 8-K pushes the MBI purchase close from 10/1 to Oct 9 and says CABO's talks with potential investors under NDA 'have concluded' (a cleansing notice); the 9/22 8-K shows a $700mm revolver draw 9/17-18 'to increase cash on hand'; the 10-Q shows only ~34% of MBI lenders accepted CABO's June exchange offer. Equity $12.21 (-89% since 12/31), market cap ~$69mm (yfinance). Per JunkBondInvestor (10/02, paywalled half unread), CABO is in advanced talks with GTCR, certain existing lenders and a private-lender consortium; that language is NOT in the 8-K. 4% 2030 notes ~25-28 (Bloomberg via the newsletter), TL B-3 ~78, MBI TL ~52; MBI's ~$970mm debt (Nov 2027) sits outside CABO's credit group.\"",
+        "# Cable One is turning into a distressed credit. It owes GTCR ~$480mm by Oct 9, has drawn $700mm more on its revolver, and its 2030 notes trade around 25\u201328 cents.",
+        "**Short version:** Cable One (CABO), a rural cable operator, owes about **$480mm in cash** to the private-equity firm GTCR for the 55% of Mega Broadband (MBI) it doesn't already own. GTCR exercised a put option in January at a price set in 2020, when cable assets were worth far more. **On 10/02 CABO pushed the closing from Oct 1 to Oct 9** (8-K). Two weeks earlier it **drew $700mm on its revolver** \"to increase cash on hand\" (8-K 9/22). The stock is **down 89% since Dec 31** ($12.21, market cap ~$69mm). Its **4% 2030 notes trade around 25\u201328 cents**. A credit newsletter reports CABO is in **advanced talks with GTCR, some existing lenders and a group of private lenders** on financing, but **CABO's 8-K doesn't say that.**",
+        "| **$700mm borrowed 9/17\u201318** under the $1.25bn revolver (matures Feb 2028), \"to increase cash on hand and preserve financial flexibility\" | 8-K 9/22, Item 2.03 |",
+        "- Maturities: 2028 = $2.29bn (revolver $1.25bn, TL B-4 $694mm, converts $345mm), 48% of the total; 2029 = $959mm; 2030 = $503mm.",
+        "- **\"Revolver fully drawn\" is the newsletter's claim, not the 8-K's** (which says only $700mm borrowed). It is consistent with the 10-Q: facilities $2,208mm minus ~$1,653mm of term loans (the newsletter's maturity chart) \u2248 $555mm drawn at 6/30, plus $700mm \u2248 $1.25bn."
+      ]
+    }
+  ]
+}

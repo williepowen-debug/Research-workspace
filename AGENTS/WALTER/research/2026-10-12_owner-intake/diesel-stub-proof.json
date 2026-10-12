@@ -1,0 +1,38 @@
+[
+  {
+    "path": "AGENTS/BRENT/inbox/2026-10-12_from-DEWEY_diesel-current-cargo-addendum.md",
+    "sha256": "0eb7cb46ebb98c3a71ca62de777fdb8c06a12774bc8e650ab430b38cab925ee5",
+    "matches_HEAD": true,
+    "scope": "committed stub existence/bytes; no recipient consumption inference"
+  },
+  {
+    "path": "AGENTS/TERRY/inbox/processed/2026-10-12_from-DEWEY_diesel-current-cargo-addendum.md",
+    "sha256": "5bc2223e5f42dbf6892bac68f0b19d7a96a215b1597a78363d3ff3032deb90be",
+    "matches_HEAD": true,
+    "scope": "committed stub existence/bytes; no recipient consumption inference"
+  },
+  {
+    "path": "AGENTS/OSPREY/inbox/2026-10-12_from-DEWEY_diesel-current-cargo-addendum.md",
+    "sha256": "d2980e8f4929dd7d7b10acba581d307a908c91f0dac3510bb60bcf8d024ea4a0",
+    "matches_HEAD": true,
+    "scope": "committed stub existence/bytes; no recipient consumption inference"
+  },
+  {
+    "path": "AGENTS/YURI/inbox/2026-10-12_from-DEWEY_diesel-current-cargo-addendum.md",
+    "sha256": "d07149228d3f9ab2ad62c60a5993589d7fd37a2e411f13892e650043d93dd5fb",
+    "matches_HEAD": true,
+    "scope": "committed stub existence/bytes; no recipient consumption inference"
+  },
+  {
+    "path": "AGENTS/HANS/inbox/2026-10-12_from-DEWEY_diesel-current-cargo-addendum.md",
+    "sha256": "86224897691766179c5d62e342b1a45867d8fbb8b25b08f0bbf7861332fe8501",
+    "matches_HEAD": true,
+    "scope": "committed stub existence/bytes; no recipient consumption inference"
+  },
+  {
+    "path": "PROME/inbox/2026-10-12_from-DEWEY_diesel-current-cargo-progress.md",
+    "sha256": "968bb0d4858c02875b674ca1b1071bb05c1ac9d831f5b35bde90b824838d9c36",
+    "matches_HEAD": true,
+    "scope": "committed stub existence/bytes; no recipient consumption inference"
+  }
+]

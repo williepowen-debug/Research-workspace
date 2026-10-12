@@ -1,0 +1,399 @@
+[
+  {
+    "n": 17,
+    "slug": "bofa-september-spending-counterevidence-selected-nominal-sample",
+    "title": "BofA September spending rises across income cohorts; the selected nominal sample counters broad spending collapse",
+    "domain": "CONSUMER_CREDIT",
+    "cluster": "CONSUMER_STAGFLATION",
+    "entities": [
+      "Bank-of-America",
+      "BofA-Institute",
+      "US-consumers"
+    ],
+    "action": [
+      "CARL"
+    ],
+    "info": [
+      "HENRY",
+      "RED",
+      "PROME"
+    ],
+    "confidence": 0.85,
+    "language": "reports",
+    "type": "research",
+    "body": "Bank of America's October9 Consumer Checkpoint reports September card spending per household +6.2% YoY, +5.1% excluding gasoline. The headline YoY basis is not seasonally adjusted. Total SA MoM growth was +0.2%; ex-gas was approximately flat. [Publisher primary](https://institute.bankofamerica.com/content/dam/economic-insights/consumer-checkpoint-october-2026.pdf), pp1\u20132.\n\nReported lower/middle/higher-income cohort growth was 5.5/4.9/4.8%, and top5% growth 5.9%; the cohort charts use three-month averages and seasonal adjustment, not the headline basis. This is nominal spending among active BofA households making at least five card transactions monthly. Sample selection, prices and group definitions prevent an all-household or real-volume conclusion.\n\nThis adds observed counterevidence to broad downward spending convergence while leaving concentrated credit stress and weaker survey intentions possible. CARL integrated its own source and retained its registered score; WALTER does not re-grade it. New September observation to BOARD, not another dispatch of the older BofA delinquency or market-allocation items.\n\n**CARL action:** use the dated selected-sample counterevidence in existing consumer evidence; preserve cohort/adjustment limits. HENRY/RED/PROME information. Inline primary verification: retained publisher text lines9\u201339,326\u2013346,772\u2013800.",
+    "caveat": "Nominal selected sample; headline and cohort adjustment clocks differ; no universal recovery or grade change."
+  },
+  {
+    "n": 18,
+    "slug": "UPDATE-scf-all-family-delinquency-base-verified",
+    "title": "SCF delinquency shares are all-family figures; the denominator is now verified without turning 2025 interviews into current spending",
+    "domain": "CONSUMER_CREDIT",
+    "cluster": "CONSUMER_STAGFLATION",
+    "entities": [
+      "Federal-Reserve",
+      "SCF",
+      "household-debt"
+    ],
+    "action": [
+      "CARL"
+    ],
+    "info": [
+      "HOMER",
+      "REGINALD",
+      "LABOR",
+      "RED",
+      "PROME"
+    ],
+    "confidence": 0.95,
+    "language": "confirmed",
+    "type": "research",
+    "body": "The unresolved denominator in SIG-W-20261010-005 is now established: 19.6% any late payment and 8.2%60+ late are ALL-family point estimates, versus12.2/4.9% in2022. These are 2025 interviews about the preceding12months, not October2026 delinquency measurements.\n\nWALTER independently reproduced the public weighted results across21,800 records/five implicates:19.5794088% and8.2483198%. Restricting both numerator and denominator to HDEBT==1 yields10.7137910% for60+ late, consistent with the debtor-conditional historical Table18. No standard errors or significance calculation is asserted. [Fed report](https://www.federalreserve.gov/publications/files/scf26.pdf); source/reproduction: AGENTS/WALTER/research/2026-10-12_owner-intake/scf-recompute.json.\n\nCARL's supplied25.4318% any-late debtor label is withheld: its retained script divides the all-family numerator by debtor weights, whereas restricting both produces25.3148%. Bounded owner clarification packet sent; no CARL record edited. This does not alter the reproduced all-family increase.\n\n**CARL action:** retain the verified all-family base and resolve the existing numerator-label query. Other original recipients receive the resolved basis; Atlanta/payroll/comparative caveats from005 survive. Update from unknown basis to verified basis; no previously published level changed, so this is not correction-class.",
+    "caveat": "Historical survey; point estimates without significance; disputed debtor-any-late figure excluded. Existing grade unchanged."
+  },
+  {
+    "n": 19,
+    "slug": "CORRECTION-nyfed-tariff-spent-driver-gloss-omits-canadian-tail",
+    "title": "NY Fed tariff model: the earlier inflation pulse fades, but Canadian pass-through and an announced 2027 auto tail remain",
+    "domain": "TARIFF_TRADE",
+    "cluster": "CONSUMER_STAGFLATION",
+    "entities": [
+      "New-York-Fed",
+      "Canadian-tariffs",
+      "consumer-goods-prices"
+    ],
+    "action": [
+      "CARL"
+    ],
+    "info": [
+      "HENRY",
+      "REGINALD",
+      "RED",
+      "PROME"
+    ],
+    "confidence": 0.95,
+    "language": "confirmed",
+    "type": "correction",
+    "corrects": "EXTERNAL: CARL KB506 blanket spent-forward-driver gloss of NY Fed October6 tariff study",
+    "direction": "WEAKEN",
+    "summary": "EXTERNAL CARL KB506 said tariff forward driver spent; IS post-Aug2026 goods-price-level increase and conditional Jan2027 auto-tariff tail (NYFedOct6 model, non-oil goods); earlier pulse fade HOLDS, blanket spent-driver conclusion WEAKEN",
+    "body": "The final forecast paragraphs of the New York Fed's October6 study qualify the earlier \u201cspent forward driver\u201d interpretation. The prior tariff contribution to twelve-month consumer-goods inflation peaks at2.9pp inFebruary and fades aroundAugust; that part survives. [Primary study](https://libertystreeteconomics.newyorkfed.org/2026/10/how-fast-do-tariffs-pass-through-into-consumer-prices/), forecast paragraphs/figure notes.\n\nAfterAugust the modeled goods-price-level effect rises again: roughly half from already-enacted Canadian tariffs still passing through, the remainder from the announced January2027 Canadian auto increase. The contribution turns slightly positive bymid2027. The forecast holds end-September tariffs otherwise fixed. It covers non-oil goods, excludes services, and is a research counterfactual, not verified future policy or all-CPI attribution.\n\nDirection: the blanket spent-driver conclusion WEAKENS; the earlier pulse's fade HOLDS. CARL has corrected its own source. **CARL action:** retain the model's conditional tail and perimeter in existing inflation evidence. HENRY/REGINALD/RED/PROME receive the corrected interpretation. No new threshold, monitor, grade or commissioned study. Inline primary check: forecast text and notes read directly from publisher.",
+    "caveat": "Conditional research model; non-oil goods only, services excluded; announced future policy is assumed, not guaranteed."
+  },
+  {
+    "n": 20,
+    "slug": "epiq-september-bankruptcy-counts-YTD-prose-inconsistency",
+    "title": "Epiq reports 46% more Subchapter V elections through September; its individual YTD growth prose does not match its counts",
+    "domain": "CONSUMER_CREDIT",
+    "cluster": "CONSUMER_STAGFLATION",
+    "entities": [
+      "Epiq-AACER",
+      "Subchapter-V",
+      "individual-bankruptcy"
+    ],
+    "action": [
+      "CARL"
+    ],
+    "info": [
+      "RED",
+      "PROME"
+    ],
+    "confidence": 0.85,
+    "language": "reports",
+    "type": "research",
+    "body": "Epiq's October8 primary release reports2,442 SubchapterV elections January\u2013September2026 versus1,672 in2025, derived+46.05%; September276 versus200,+38%. These are elections/filings, not confirmed defaults, losses or unique failed firms. [Publisher release](https://www.epiqglobal.com/en-us/resource-center/news/small-business-subchapter-v-elections-increase-46-compared-to-last-year).\n\nSeptember individual filings49,672 versus46,393 compute+7.07%. The same release's YTD individual counts444,252 versus399,379 compute+11.24%, while its prose says7%. Do not treat that YTD prose percentage as verified or silently reconcile other Chapter7/13 totals. WALTER checked the retained publisher body and arithmetic; numerical inconsistency remains, rather than choosing a synthetic clean series.\n\n**CARL action:** preserve period/category distinctions and publisher inconsistency in existing bankruptcy evidence; any POP grading belongs to CARL's next authorized owner touch. RED/PROME information. No child launch, new bankruptcy study, threshold or prediction grade.",
+    "caveat": "Filing/election counts, not realized losses; YTD individual prose conflicts with printed counts; no child prediction graded."
+  },
+  {
+    "n": 21,
+    "slug": "iqhq-BPRE-subsequent-common-markdown-alewife-funded-capital",
+    "title": "IQHQ evidence cuts both ways: a subsequent BPRE common-equity markdown and actual Alewife capital, not an OZK loan-loss measurement",
+    "domain": "PRIVATE_CREDIT",
+    "cluster": "PC_STRESS",
+    "secondary": "BANK_COLLATERAL",
+    "entities": [
+      "IQHQ",
+      "BPRE",
+      "Bluerock",
+      "Alewife-Park",
+      "IIPR",
+      "NREF",
+      "Bank-OZK"
+    ],
+    "action": [
+      "BROCK",
+      "TERRY"
+    ],
+    "info": [
+      "REGINALD",
+      "RED",
+      "PROME"
+    ],
+    "confidence": 0.9,
+    "language": "confirmed",
+    "type": "research",
+    "body": "BPRE's June30 portfolio values IQHQ common at$317,371,980; footnote(f) reports a subsequent markdown to$270,611,845. Derived decline$46,760,135/14.7335%. Disclosed byAugust28; exact markdown day unstated. Two common share classes, not a class-specific new unit quote, and not an October event or OZK recognized loan loss. [SEC primary](https://www.sec.gov/Archives/edgar/data/1551047/000104916926002153/fp0100661-1_nportex.htm), IQHQ row/footnotes(d)/(f). Bounded helper independently read/rendered the primary and recomputed.\n\nAlewife's existing008-031 relay is substantially verified: maximum commitment$133M\u2192$400M, BY$267M, not$400M cash. IIPR advanced about$111M September28; pricing floor14%/initial TermSOFR+9 has combined senior/mezz calculation mechanics. [October1 filing](https://www.sec.gov/Archives/edgar/data/1677576/000110465926112568/tm2626535d1_8k.htm) and agreements, read by OZK. Further draws/tenant-linked use have their own conditions.\n\nThis is a different campus from RaDD. It establishes actual costly capital alongside common markdown; it does not identify RaDD's$100M provider or measure senior bank loss. No double-dispatch of the basic mezz event: newer mark and funded-versus-committed qualification are the value.\n\n**BROCK action:** retain priority/date distinctions in existing sponsor evidence. **TERRY action:** incorporate the bounded counterevidence into the existing OZK card (named held underlying), without a new order or numerical re-mark. REGINALD/RED/PROME information.",
+    "caveat": "Common markdown is dated pre-Aug28; cash/commitment/campus are distinct; no RaDD capital-provider identification or OZK loss measurement."
+  },
+  {
+    "n": 22,
+    "slug": "ozk-workout-progress-wauwatosa-sale-jack-partner-boston-lease",
+    "title": "Three OZK workout leads show property or leasing progress; lender recovery and cure remain unknown",
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "entities": [
+      "Bank-OZK",
+      "Renaissance-Milwaukee-West",
+      "Witness-Investment",
+      "The-Jack",
+      "Muckleshoot",
+      "USQ",
+      "Predicta",
+      "10-Prospect"
+    ],
+    "case": [
+      "Renaissance Milwaukee West, Wauwatosa WI",
+      "The Jack, Seattle WA",
+      "10 Prospect Street, Somerville MA"
+    ],
+    "action": [
+      "OZK",
+      "TERRY"
+    ],
+    "info": [
+      "REGINALD",
+      "CREED",
+      "RED",
+      "PROME"
+    ],
+    "confidence": 0.85,
+    "language": "reports",
+    "type": "research",
+    "body": "Wauwatosa: Hunter's September2 primary announcement names Witness Investment as buyer of Renaissance Milwaukee West; its October5 report includes the property among completed Q3 transactions. Same broker publisher, not independent confirmations; announcement date is not exact closing date. Asset identity matches OZK's prior dossier; Hunter does not name OZK as lender. June issuer nonaccrual baseline$16.7M, not an updated balance. [Broker announcement](https://hunteradvisors.co/recent-transactions/hunter-advisors-brokers-sale-of-renaissance-milwaukee-west-hotel/).\n\nThe Jack: subscriber previews September29\u2013October1 report a Muckleshoot/UrbanVisions partnership. Funding amount/date, executed lender recap, accrual and remaining exposure are unknown; not three independent funded-cash confirmations.\n\n10 Prospect: USQ's September24 original release announces Predicta's signed first lab lease,10,500SF, with planned October move-in. It does not establish accomplished occupancy, rent collection, sale or bank payoff. Source: OZK saved USQ_PREDICTA_SEP24 primary; owned workout report supplies exact locator.\n\nThese weaken uniform failed-close/no-partner/no-lab-lease descriptions, while bank cash recovery, retained financing, ratings and recognized loss remain UNKNOWN. The unread deed/secondary hotel-price lead is not promoted to a measured shortfall. No numerical severity or Q3 grade changed.\n\n**OZK action:** retain source scopes on the existing four-field Q3 card; no repeat study. **TERRY action:** use bounded progress on the existing OZK instrument review. REGINALD/CREED/RED/PROME information; named-case selection bias applies.",
+    "caveat": "Property events do not establish bank payoff/cure; Jack sources are previews; Boston planned move-in is not collected rent; no inferred shortfall."
+  },
+  {
+    "n": 23,
+    "slug": "CORRECTION-affinius-NEA-warehouse-ABS-ARD-not-corporate-default",
+    "title": "Affinius-linked October date belongs to a warehouse lease securitization; expected repayment is not legal final or automatic corporate default",
+    "domain": "PRIVATE_CREDIT",
+    "cluster": "PC_STRESS",
+    "secondary": "BANK_COLLATERAL",
+    "entities": [
+      "Affinius",
+      "USAA-Real-Estate",
+      "New-Economy-Assets",
+      "NEA20211",
+      "USRE2021-1",
+      "Amazon",
+      "Bank-OZK"
+    ],
+    "action": [
+      "BROCK"
+    ],
+    "info": [
+      "REGINALD",
+      "OZK",
+      "RED",
+      "PROME"
+    ],
+    "confidence": 0.7,
+    "language": "assessed",
+    "type": "correction",
+    "corrects": "EXTERNAL: OZK KB024/165/166 unverified Affinius corporate-bond/data-center/default descriptions",
+    "direction": "WEAKEN",
+    "summary": "EXTERNAL OZK KB024/165/166 said $2.7B Affinius corporate/data-center maturity; IS NEA2021-1 warehouse lease ABS $2691.36M preliminary2021presale, originalARD2026-10-20/legalfinal2061-10-20; currentpayoff UNKNOWN, automaticcorporatedefault inference WEAKEN",
+    "body": "OZK's old corporate-bond/data-center description traces to New Economy Assets\u2013Phase1 Issuer LLC Series2021-1 (USRE2021-1/NEA20211): Amazon-leased warehouse collateral, not direct Affinius corporate debt or an18GW data-center exposure.\n\nS&P's October18,2021 indexed primary presale shows A1$2,242.80M+B1$448.56M=$2,691.36M preliminary amount; original anticipated repaymentOctober20,2026, legal finalOctober20,2061. Post-ARD nonredemption triggers early amortization; default is separately listed. These are original presale terms, not independently verified executed issuance or today's unpaid principal. [Original locator](https://www.spglobal.com/ratings/en/regulatory/article/211018-presale-new-economy-assets-phase-1-issuer-llc-series-2021-1-s12148240).\n\nA June2026 SEC holder schedule corroborates A1/series/legal-final under ABS. The helper independently checked it. Full S&P document/indenture/amendments/current trustee report remain inaccessible or unread; current payoff, balance, amendedARD and legal consequences UNKNOWN. No direct OZK ABS ownership/guarantee or automatic Affinius corporate default is established. [SEC corroboration](https://www.sec.gov/Archives/edgar/data/1318342/000139834426016656/fp0099461-1_ncsrsixbrl.htm).\n\nDirection: the corporate-default/18GW/direct-bank-loss inference WEAKENS; the sourced original expected-repayment date survives with its current-servicing caveat. **BROCK action:** keep instrument/date distinctions in existing counterparty evidence. REGINALD/OZK/RED/PROME information. OZK corrected its own source; no new docket purchase, study, monitoring line, grade or trade.",
+    "caveat": "Indexed original presale, not full executed documents; current execution unknown; no automatic corporate default/direct OZK exposure."
+  },
+  {
+    "n": 24,
+    "slug": "fintech-primary-bank-roles-CCBX-books-not-partner-retained-risk",
+    "title": "Fintech bank roles and gross books are now primary-backed; origination is not a measure of permanently retained consumer credit",
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "secondary": "CONSUMER_STAGFLATION",
+    "entities": [
+      "Coastal-Financial",
+      "CCBX",
+      "Affirm",
+      "Celtic-Bank",
+      "Lead-Bank",
+      "Evolve",
+      "Stride",
+      "Klarna",
+      "WebBank"
+    ],
+    "action": [
+      "REGINALD"
+    ],
+    "info": [
+      "CARL",
+      "BROCK",
+      "RED",
+      "PROME"
+    ],
+    "confidence": 0.9,
+    "language": "confirmed",
+    "type": "research",
+    "body": "CARL's existing WQ228 feed supplies product/role evidence without asserting a new quarter or loss event. WALTER re-read the relevant primaries.\n\nCoastal's June30 Q2 table, dollars in thousands, reports CCBX credit cards753,171, other-consumer/other918,779, grossCCBX2,226,296. Converted:$753.171M/$918.779M/$2.226296B. Categories are not partner-specific allocations, uninsured loss, or a BNPL-only book. The stressed partner remains unnamed. [Issuer primary](https://ir.coastalbank.com/news/press-releases/news-details/2026/Coastal-Financial-Corporation-Announces-Second-Quarter-2026-Results/), datedJune30 table/header.\n\nAffirm FY2026 distinguishes Celtic/Lead origination from Evolve/Stride card issuance. It must buy offered partner loans, secured by cash deposits, and says it has purchased all such loans to date; the bank retains a performance-fee interest. Origination therefore does not establish permanently retained credit or zero residual risk. [10-K](https://www.sec.gov/Archives/edgar/data/1820953/000162828026059279/afrm-20260630.htm), bank-partner risk/loan model.\n\nKlarna's live monthly-financing disclosure names WebBank. This does not establish all-product/card attribution or a retained-book amount. Historical2025 debit-card pilot is not current2026 exposure. [Publisher disclosure](https://docs.klarna.com/acquirer/adyen/resources/marketing-tools/partner-marketing-legal-guidelines/united-states/regulated-financing-promotion-rules-101/), readOctober12/publicationdateUNKNOWN.\n\n**REGINALD action:** integrate exact product/role distinctions into the existing WQ228 BaaS scope; no new bank study or risk grade. CARL/BROCK/RED/PROME information. Existing CCB loss/provision figures remain unchanged; no partner is identified by category arithmetic.",
+    "caveat": "Gross category balances and bank roles are not measured retained risk; no named stressed partner, new quarter, recourse amount or grade."
+  },
+  {
+    "n": 25,
+    "slug": "CORRECTION-fha-aggregation-97point4-not-causal-kill",
+    "title": "FHA aggregation is 97.4bp beside 22.5bp under the ruled weights; neither gross action scale nor the flow split establishes a causal kill",
+    "domain": "HOUSING",
+    "cluster": "BANK_COLLATERAL",
+    "secondary": "CONSUMER_STAGFLATION",
+    "entities": [
+      "FHA",
+      "HUD",
+      "Ginnie-Mae",
+      "Fannie-Mae",
+      "CARL-DR-1",
+      "DEWEY",
+      "WQ-104"
+    ],
+    "action": [
+      "CARL",
+      "HOMER",
+      "REGINALD"
+    ],
+    "info": [
+      "BROCK",
+      "LIQUID",
+      "NEXUS",
+      "DEWEY",
+      "RED",
+      "PROME"
+    ],
+    "confidence": 0.85,
+    "language": "reports",
+    "type": "correction",
+    "corrects": [
+      "SIG-W-20260828-009"
+    ],
+    "direction": "WEAKEN",
+    "summary": "-0828-009 said100.7bpweighted/unruled/killbreaches; IS97.4bpweighted beside22.5bpbestleg (WQ104Sep1,16.95M/7.81M historical two-book illustration); processcomparability caveat HOLDS, causal/kill claims WEAKEN; privatecounterfactual NOT COMPUTABLE",
+    "caveat": "Historical two-book illustration, not a causal class-wide wedge; 79% is net-accumulation decomposition, not identified attribution of the YoY rate rise. November13 obligation remains PARTIAL.",
+    "body": "The August28 card's100.7bp weighted figure/unruled aggregation/kill-breach interpretation is superseded. September1 WQ104 adopted measurement-vintage book-size weighting; the same-day correction uses16.95M Fannie/7.81M FHA. Independently reproduced: (16.95\u00d722.5+7.81\u00d7260)/(16.95+7.81)=97.4142bp, beside22.5bp best-leg. The old100.7 used a different8.32M weight. At20% FHA share the sensitivity is31.8043bp, not~50. These are historical two-book illustrations, not a measured class-wide causal wedge.\n\nFHA406,623 actions is an annual gross/repeated-action count;260bp is its half-year-equivalent scale. Fannie's numerator is SDQ workout removals. Matching time units does not make the cohorts/unique-loan/counterfactual basis equivalent. The Q2 card disclosure does not supply a compatible causal wedge: CARL retains NOT COMPUTABLE and DR1PARTIAL toNovember13.\n\nThe old79% wording also overstates identification.115,695 lower exits /147,444 greater half-year net accumulation=78.47%; this is an accounting decomposition, not proof policy caused79% of the226bp YoY delinquency-rate rise. The191bp shortfall is a historical-baseline scenario. Policy timing supports a proposed mechanism; no borrower-level counterfactual is measured. Three-month trial plus up-to-two-month effectiveness timing is not a five-month minimum for every borrower.\n\n**Direction:** causal/kill interpretation WEAKENS; the policy-era comparability caution and historical observations HOLD. **CARL/HOMER/REGINALD action:** qualify existing FHA/DR1 uses and preserve owner grading, rather than infer a new kill. Other original recipients receive correction. No new study or threshold.\n\nSources: DEWEY's updated August27 report header/\u00a7\u00a71\u20135; exact September1 ruling and arithmetic-correction packets in DEWEY processed inbox; current Q2 card report. This is an owned-source/arithmetical correction, not a new HUD data pull. Original substance retained with additive banner/lifecycle/INDEX linkage and R1 row."
+  },
+  {
+    "n": 26,
+    "slug": "ozk-durability-interest-financing-book-transfer-not-cash-recovery",
+    "title": "OZK follow-up separates financed interest and retained OREO from cash recovery; current runway and Q3 outcomes remain unknown",
+    "domain": "PRIVATE_CREDIT",
+    "cluster": "PC_STRESS",
+    "secondary": "BANK_COLLATERAL",
+    "entities": [
+      "IQHQ",
+      "Alewife-Park",
+      "IIPR",
+      "NREF",
+      "Bank-OZK",
+      "Boston-10-Prospect"
+    ],
+    "action": [
+      "BROCK",
+      "REGINALD",
+      "TERRY"
+    ],
+    "info": [
+      "RED",
+      "PROME"
+    ],
+    "confidence": 0.85,
+    "language": "reports",
+    "type": "research",
+    "caveat": "Financed interest is contractual permission, not observed default; commitments are conditional; Q2 book transfers are noncash; current runway, Boston closing and Q3 outcomes remain unknown.",
+    "body": "OZK's separately approved durability follow-up adds contract/cash distinctions to the earlier sponsor/workout evidence; it does not reopen L635/L690 or certify missing Q3 outcomes.\n\nAlewife: approximately$111M of NoteB refinances bridge/related amounts; approximately$134M further capacity is conditional and also available for interest/costs, not unrestricted construction cash. Sixth\u00a73(j) permits NoteB interest fromB and A/C interest fromC, with senior interest shared. Carry Guaranty obligations explicitly exclude IIP obligations. WALTER read these clauses directly in saved SEC text. Full guarantees, current draws/reserves/budget/cash rent and sponsor liquidity remain unavailable: neither a funding deficit nor sufficient runway is established. Financing completion interest is not intrinsically impairment. [SEC amendment](https://www.sec.gov/Archives/edgar/data/1677576/000110465926112568/tm2626535d1_ex10-1.htm).\n\nBoston: proposed$330M sale versus datedJune$169.3M credit remains conditional; no verified buyer funding, closing, mortgage discharge or lender payoff. Signed lab lease is separate evidence.\n\nCash recovery: three June foreclosures retain$141.2M OREO after$34.5M losses, from issuer components. H1$241.569M transfers are explicitly noncash. Neither loan disappearance nor a book-sales reduction proves a named bank-cash exit or permanent removal of retained/new financing. These are Q2 historical anchors, not three new October defaults.\n\n**BROCK/REGINALD action:** use the source/use and loan-to-asset distinctions in existing sponsor/bank evidence. **TERRY action:** use the bounded evidence on the existing OZK instrument review, no new order or numerical grade. Q3 outcome collection remains the existing October20/21 and early-November owner work; no new calendar/monitor/study. Sources: OZK durability delivery, three linked reports and frozen14-row baseline; primary contract and issuer scopes/access limits are recorded there."
+  },
+  {
+    "n": 27,
+    "slug": "CORRECTION-auto-certificate-date-column-basis-source-recovery",
+    "title": "Auto certificates are recovered; June collection is not July, and column, denominator and age distinctions precede grading",
+    "domain": "CONSUMER_CREDIT",
+    "cluster": "CONSUMER_STAGFLATION",
+    "entities": [
+      "AMCAR2024-1",
+      "AMCAR2023-2",
+      "EART2024-1",
+      "CARL-AUTO-OUTFLOW-01",
+      "CRL-29"
+    ],
+    "action": [
+      "CARL",
+      "OTTO"
+    ],
+    "info": [
+      "REGINALD",
+      "RED",
+      "PROME"
+    ],
+    "confidence": 0.95,
+    "language": "confirmed",
+    "type": "correction",
+    "corrects": "EXTERNAL: CARL KB395/CRL29 registration July label on June2026 collection certificate",
+    "direction": "HOLDS",
+    "summary": "EXTERNAL CARL KB395 saidJuly2026collection4.57%extension/7.40%annualizedloss; ISJune2026collection,filedJuly31 (samecertificate); frozenfloors HOLDS, metadata/access doesnotgradepanel",
+    "caveat": "Source preparation, not a grade; field/column/denominator/age differences and panel rule gaps remain. No frozen floor changed.",
+    "body": "CARL recovered the existing minimum CRL29 panel: nine age-matched observations across AMCAR2024-1/2023-2/EART2024-1, plus the four registered August EART certificates/control. WALTER inspected the source-backed extract and age join. Collection dates come from certificates, not filing dates.\n\nKB395's4.57% extension/7.40% annualized-loss example is June2026 collection, filedJuly31, not July collection. The retained row is June1\u201330 with exact SEC locator. No frozen floor is recomputed. AMCAR field numbers vary by vintage; Current loss is the Current column, not Original zero. AMCAR/EART delinquency percentages use beginning/ending-pool denominators respectively. Issuer seasoning labels and elapsed cutoff ages differ.\n\nRecovery of the sources does not complete V2 YoY/base/double-match/cure validation or gradeCRL29. Exact stock bucket/denominator, panel aggregation, overlapping/uncovered bands remain specification questions; no favorable interpretation is chosen. Existing October14 validation/October20 first read and floors survive.\n\n**CARL/OTTO action:** use the recovered source/date/basis in existing authorized work; no early grade, replacement rule or new study. REGINALD/RED/PROME information. Source: CARL2026-10-12_auto-panel-preparation.md and auto-age-match/auto-extracted tables with SEC URLs/hashes."
+  },
+  {
+    "n": 28,
+    "slug": "sofi-Q2-transfer-risk-servicing-stock-not-retained-loss",
+    "title": "SoFi Q2 filing is recovered: servicing, retained consideration and impaired-loan sale flows are separate risk objects",
+    "domain": "BANK_CRE",
+    "cluster": "BANK_COLLATERAL",
+    "secondary": "CONSUMER_STAGFLATION",
+    "entities": [
+      "SoFi",
+      "SoFi-Technologies",
+      "SoFi-Bank",
+      "Loan-Platform-Business"
+    ],
+    "action": [
+      "REGINALD"
+    ],
+    "info": [
+      "CARL",
+      "BROCK",
+      "RED",
+      "PROME"
+    ],
+    "confidence": 0.9,
+    "language": "confirmed",
+    "type": "research",
+    "caveat": "Consolidated company observations; flows/stocks and overlapping categories cannot be added. No private144A or outside sponsor-bank loss measured.",
+    "body": "CARL recovered SoFi's fullJune30 Q2 filing. WALTER read the retained primary scopes around Note4 classifications/tables/footnotes and MD&A delinquent-loan sales. The access gap is discharged; no new quarter or grade is inferred. [SEC10-Q](https://www.sec.gov/Archives/edgar/data/1818874/000181887426000054/sofi-20260630.htm).\n\nRetained securitization investments received as sale consideration:$77.729M Q2/$159.440M H1, transaction amounts rather than period-end stocks. Transferred personal loans with continuing servicing involvement:$15.205101B atJune30, including$264.399M30+ delinquent: serviced stock, not an outside sponsor-bank principal-loss measure.\n\nMD&A lists$89.7M Q2/$178.7M H1 late-stage delinquent UPB sold with servicing/parts of recoveries retained. Separately$56.2M/$114.1M of loans sold before charge-off were written down in prior periods. Categories may overlap; do not add them. Book removal need not defer economic losses already recognized in fair value. Sales/secured borrowings, retained interests and customary repurchase exposures have distinct scopes.\n\nThese are consolidated-company figures; the own-bank comparator does not place every asset/obligation in SoFi Bank. **REGINALD action:** integrate transfer/legal-entity distinctions into the existing WQ228 feed; keep missing holder/recourse joins explicit. CARL/BROCK/RED/PROME information. No new study, monitor, grade or trade."
+  },
+  {
+    "n": 29,
+    "slug": "CORRECTION-DR1-swapped-values-counterexample-185point1-not-30",
+    "title": "DR1 swapped-value counterexample is 185.1bp under unchanged weights, not about30bp; the ruling and causal-test limits survive",
+    "domain": "CONSUMER_CREDIT",
+    "cluster": "CONSUMER_STAGFLATION",
+    "entities": [
+      "CARL-DR-1",
+      "WQ-104",
+      "Fannie-Mae",
+      "FHA"
+    ],
+    "action": [
+      "RED"
+    ],
+    "info": [
+      "CARL",
+      "PROME"
+    ],
+    "confidence": 0.95,
+    "language": "confirmed",
+    "type": "correction",
+    "corrects": "EXTERNAL: CARL KB401 approximately30bp swapped-value below-threshold counterexample",
+    "direction": "WEAKEN",
+    "summary": "EXTERNAL CARL KB401 said~30bpwhenswapped; IS185.1bpunderunchanged16.95M/7.81Mweights (sameformula); below-threshold justification WEAKEN, ruledweights/97.4weighted/22.5bestleg HOLDS",
+    "caveat": "Arithmetic counterexample only; no causal wedge, class-wide grade, weight change or re-opening of the ruled aggregation choice.",
+    "body": "CARL's methods repair withdraws the old approximately30bp swapped-value counterexample inKB401. Under unchanged16.95M/7.81M weights, swapping22.5bp and260bp gives(16.95\u00d7260+7.81\u00d722.5)/24.76=185.0858247bp, rounded185.1bp. WALTER independently recomputed it. It cannot support a below50bp counterexample.\n\nDirection: that counterexample's below-threshold justification WEAKENS. WQ104's adopted weights and historical97.4bp weighted/22.5bp best-leg pair HOLD. Neither illustration establishes a class-wide causal delinquency effect; CARL retains NOT COMPUTABLE pending compatible counterfactual/private-book evidence. No threshold or outcome is re-graded.\n\n**RED action:** use the corrected arithmetic in the existing DR1/aggregation challenge; do not reopen the ruled choice or treat missing causal evidence as zero. CARL/PROME information. Source: CARL2026-10-12_DR1-measurability.md, aggregation reconciliation; CARL has already withdrawn its own example. No new methods study."
+  }
+]

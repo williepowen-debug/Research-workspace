@@ -1,9 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-10-12T18:42:11Z — Will-directed desk sweep (ACTIVE). **Boot PARTIAL**. BOARD **1339**; day total **16 signals (1 FLASH,15 PRIORITY)**, **32 kills**, **0 cluster-mediating signals**. Reboot/continuation:4verify helpers/4jobs, explicit closeout receipts; previous leg:2helpers/4jobs.
+**Updated:** 2026-10-12T19:52:57Z — Ordinary owner intake (ACTIVE), no deskcloseout. **Boot PARTIAL**. BOARD **1353**; day total **30 signals (1 FLASH,29 PRIORITY)**, **33 kills**, **0 cluster-mediating signals**. Reboot/continuation:5verify helpers/6jobs, explicit closeout receipts; previous leg:2helpers/4jobs.
 
 ## BOTTOM LINE
 
-All29launch bookmarks are now assessed and the exact original stage consumed. Six bounded reboot/continuation signals cover French refrigeration disruption, Brookings’s AI-spending scenario, Yandex’s third site outage and compute-contract pricing by duration, and the corrected DEWEY storage projection and partial diesel-supply evidence. All41owner-header scopes are read; localCodex overview is available but is not a fleet census. Boot remainsPARTIAL: explicit reads expose the70KBcharter breach and READS transcription andpaired29-pathhashes nowverified/installed; source/settlement limits persist. RaDD extension/fresh capital weakens the observedOZK puts’ near-term catalyst; TERRY/Will own management. Today’sQQQ order/outcome remainsUNKNOWN. Durable duties stay inLAST_COMPLETION.
+All29launch bookmarks are now assessed and the exact original stage consumed. Six bounded reboot/continuation signals cover French refrigeration disruption, Brookings’s AI-spending scenario, Yandex’s third site outage and compute-contract pricing by duration, and the corrected DEWEY storage projection and partial diesel-supply evidence. All41owner-header scopes are read; localCodex overview is available but is not a fleet census. Boot remainsPARTIAL: explicit reads expose the70KBcharter breach and READS transcription andpaired29-pathhashes nowverified/installed; source/settlement limits persist. RaDD extension/fresh capital weakens the observedOZK puts’ near-term catalyst; TERRY/Will own management. Today’sQQQ order/outcome remainsUNKNOWN. Ordinaryintake addsBofA/SCF/tariff, sponsor/workout/instrument andauto/SoFifiling qualifications, withoutgradechanges. Durable duties stay inLAST_COMPLETION.
 
 ## DATED MARKET OBSERVATIONS — retained morning snapshots, not refreshed during session closeout
 
@@ -37,7 +37,7 @@ Routing plus receiving-layer readiness. Domain agents own evidence, state and ju
 
 **Authorization repair (2026-10-12T16:21:08Z):** read-only bookmark GET and automatic renewal both PASS; processed history unchanged. Receipt: `outbox/2026-10-12_x-authorization-restored.md`.
 
-**Fresh context entry:** LAST_COMPLETION.md is the complete open duty/design list. This reboot is active; prior closeout receipt is historical. All4verify helpers were explicitly closed. Desk sweep filed4reviewedDEWEYreturns;4CARL/OZKtop-levelpackets remain for normalrouting. No activeREQoutbox. Original29bookmarkstage fullyassessed/consumed. Do not infer any other desk’s closure.
+**Fresh context entry:** LAST_COMPLETION.md is the complete open duty/design list. This reboot is active; prior closeout receipt is historical. All5reboot/continuation helpers explicitlyclosed.12ordinaryownerpackets consumed with datedsource/basis limits. No activeREQoutbox. Original29bookmarkstage fullyassessed/consumed. Do not infer any other desk’s closure.
 
 **Later normal intake:** OZK L690 Horton qualifier routed in signal010; current occupancy unresolved, historical credit-bid/model limits preserved. Source author subsequently committed the packet; read hash matched and WALTER archived/declared consumption, per owned intake receipt.
 

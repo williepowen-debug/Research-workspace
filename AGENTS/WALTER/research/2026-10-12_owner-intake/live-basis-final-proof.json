@@ -1,0 +1,12 @@
+{
+  "as_of": "2026-10-12T19:55:05.517201+00:00",
+  "WALTER_rows": 91,
+  "BASIS": 29,
+  "signed_rows_exact_match": true,
+  "paired_hashes_exact_match": true,
+  "current_bytes_exact_match": true,
+  "installation_commit": "a443436a9",
+  "runtime_execution_certified": false,
+  "charter_split_activated": false,
+  "scope": "WALTER rows only; no other-reader edits"
+}

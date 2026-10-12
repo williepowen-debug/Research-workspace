@@ -1,0 +1,82 @@
+[
+  [
+    1,
+    "DISPATCH",
+    "SIG-W-20261012-017"
+  ],
+  [
+    2,
+    "DISPATCH",
+    "SIG-W-20261012-018"
+  ],
+  [
+    3,
+    "DISPATCH",
+    "SIG-W-20261012-019"
+  ],
+  [
+    4,
+    "DISPATCH",
+    "SIG-W-20261012-020"
+  ],
+  [
+    5,
+    "DISPATCH",
+    "SIG-W-20261012-021"
+  ],
+  [
+    6,
+    "FOLD",
+    "SIG-W-20261012-021; Alewife already008-031, new funded-vs-commitment qualification"
+  ],
+  [
+    7,
+    "DISPATCH",
+    "SIG-W-20261012-022"
+  ],
+  [
+    8,
+    "FOLD",
+    "SIG-W-20261012-022; Jack preview scope"
+  ],
+  [
+    9,
+    "FOLD",
+    "SIG-W-20261012-022; signed Boston lease scope"
+  ],
+  [
+    10,
+    "DISPATCH",
+    "SIG-W-20261012-023"
+  ],
+  [
+    11,
+    "NO-ACTION",
+    "Aimco current docket/ruling stillUNKNOWN; no new event, owner retains access limit; not FALSE"
+  ],
+  [
+    12,
+    "DUP",
+    "SIG-W-20261012-022; same Wauwatosa sale/broker evidence, kill_log Novelty"
+  ],
+  [
+    13,
+    "DISPATCH",
+    "SIG-W-20261012-024"
+  ],
+  [
+    14,
+    "FOLD",
+    "SIG-W-20261012-024; Affirm loan/originator vs issuing-bank distinction"
+  ],
+  [
+    15,
+    "FOLD",
+    "SIG-W-20261012-024; Klarna monthly financing only"
+  ],
+  [
+    16,
+    "NO-ACTION",
+    "SoFi own-bank comparator already known; no new recourse/holder evidence, fullQ2filing not recovered; no zero-risk inference"
+  ]
+]

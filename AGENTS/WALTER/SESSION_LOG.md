@@ -1,3 +1,7 @@
+## 2026-10-12T19:52:57Z — ordinary owner intake, ACTIVE
+
+12committedpackets consumed;27contents closed,14signals017–030/40handoffs and1duplicatekill.5CORrows; priorFHA/SCFcards additivelylinked. READS29 recheckedMATCH, charterunactivated. Oneboundedhelper explicitlyclosed. SCFdebtor-numeratorownerquery RESOLVED atKB504/529; no newstudy/grade/deskcloseout. Evidence: research/2026-10-12_owner-intake/REPORT.md.
+
 ## 2026-10-12 — Will-directed desk sweep, ACTIVE
 
 Routingstructure/testsuite verified; stale receipt/publication and16deliverystates reconciled;4DEWEYreturns consumed with15source stubsverified. Both broadercommissions remainPARTIAL;4top-levelCARL/OZKpackets pendingnormalrouting. READS Oct12transcription/29-pathhashes verified/installed; chartercap remainsopen. Evidence: research/2026-10-12_desk-sweep/REPORT.md. No sessioncloseout, newresearch, marketclearance or runnerdevelopment. No kill event: this commit changes administrative state and delivery reconciliation only.
