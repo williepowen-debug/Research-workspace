@@ -16,6 +16,17 @@
   "unexpected_paths": [],
   "on_local_origin_ref": true,
   "pull_push": "Deferred for foreign active work; no WALTER push",
-  "notification": "One substantive PROME notice follows dated-packet persistence",
-  "scope": "0 primary court documents,0 BOARD signals, no grade/lifecycle action"
+  "notification": {
+    "observed_at": "2026-10-12T22:13:48.306991+00:00",
+    "recipient": "PROME",
+    "thread_id": "01a131cf-1c7d-7900-9dcf-d98af587e290",
+    "supported_command": "codex queue --thread <exact ID> --message <committed-pointer>",
+    "exit": 0,
+    "ack": "Queued message 01a1322d-4cff-7022-a43d-0cf2ee564fc4 for thread 01a131cf-1c7d-7900-9dcf-d98af587e290.",
+    "notices_this_task": 1,
+    "consumption": "UNKNOWN; transport acceptance does not establish recipient read/disposition",
+    "continuation": "No acknowledgment-only follow-up or repeated research; window remains open"
+  },
+  "scope": "0 primary court documents,0 BOARD signals, no grade/lifecycle action",
+  "dated_delivery_commit": "4e5b1a1bc"
 }
