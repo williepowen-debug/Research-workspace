@@ -8,4 +8,6 @@ Two untracked incoming WALTER signals need WALTER's own persistence: `AGENTS/OZK
 
 Late arrival: REGINALD-authored `AGENTS/OZK/inbox/2026-10-12_from-REGINALD_durability-consumption-receipt.md` also untracked. It reports exact-version consumption/integration, but needs its author's commit before the switch; not treated as a committed receipt here. Key old bank/Boston PDFs are tracked; ignored OZK Python cache is not needed evidence.
 
+**Updated final boundary:** REGINALD committed that receipt at **075010818**, exact received-byte match verified. Its consumption gap is covered by the committed owner receipt, without an independent source re-audit. Remaining untracked files under OZK are **only WALTER signals -022/-023**; no OZK-authored residue. Prior late-arrival note is historical.
+
 L635/L690 and current public passes complete; Horton/Q3/November duties still open. This is machine-switch persistence, not permission to terminate Will's OZK window or start a new pass. Existing Q3 card and source-conditioned research rule remain governing.
