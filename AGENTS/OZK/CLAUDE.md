@@ -50,7 +50,15 @@ When PROME spawns you in a live session **you inherit PROME's cwd (`PROME/`), an
    `--verbose` for the full cohort table + all catalysts. Compare OZK against STATUS thresholds, flag moves >3%, note what changed for CHANGES SINCE. **Manual fallback** (if boot.py breaks): `(cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 scripts/market.py)` — ⚠️ **the `cd` wrapper is load-bearing, not decoration: `market.py` lives at REPO ROOT (`scripts/market.py`), and `AGENTS/OZK/scripts/` contains only `boot.py`.** Run bare from the launch dir it fails `No such file or directory` — as both `.venv/` and `scripts/` are root-relative. *(Fixed 2026-08-28 sweep: this line carried the bare form for 55 days while line 132 carried the correct one and annotated itself "matches boot step 5" — it did not. The desk's documented remedy for a broken boot kit was itself broken; verified by running it.)* *(boot.py v0.2 (§8 wrapper contract, 2026-08-23); v0.1 added 2026-07-04 — self-contained; catalysts/thresholds inlined, kept in sync with CALENDAR/STATUS by hand. Future: decompose per DAEDALUS market-agent blueprint.)*
 6. **Inbox awareness** — boot.py lists unprocessed inbox files (step 5). Report count + senders. Do NOT process — just awareness.
 7. **(Situational, not routine)** Read `../REGINALD/MEMORY.md` only when a task specifically requires shared Will feedback that isn't already duplicated into OZK/MEMORY.md. Routine boot is local-only.
-7a. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" OZK` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session; applied at the OZK desk on Will's own in-session word 2026-08-28, not on the relayed packet.)*
+7a. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" OZK` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then receipt with the **WQ-399 fields** below and commit own `registry/corrections_receipts.tsv`. Missing required fields return rc 2 and write nothing. *(Wired 2026-08-28; receipt syntax updated 2026-10-12 under Will's 10/8 WQ-399 ruling and WALTER SIG-W-20261008-033 own-charter instruction; no authority change.)*
+   From repository root, use the applicable form; quote placeholder values containing spaces or shell metacharacters:
+   ```
+   python3 scripts/corrections_boot_check.py OZK --receipt <COR-id> --action APPLIED --artifact <path#key> --validation-ref <path#key|NONE>
+   python3 scripts/corrections_boot_check.py OZK --receipt <COR-id> --action NO-OP --scope <text>
+   python3 scripts/corrections_boot_check.py OZK --receipt <COR-id> --action DEFERRED --review YYYY-MM-DD
+   python3 scripts/corrections_boot_check.py OZK --receipt <COR-id> --action CONTESTED
+   ```
+   APPLIED permits repeated `--artifact`; optional `--scope`, `--artifact` and `--note` depend on action (`--help`). DEFERRED review date must be today or later. Do not backfill pre-word receipts.
 
 ### Execute
 

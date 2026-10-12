@@ -4,6 +4,13 @@
 
 ---
 
+### 2026-10-12 — WQ-399 receipt syntax and backlog reconciliation
+- Updated own charter boot step 7a with the required APPLIED artifact/validation, NO-OP scope and DEFERRED date fields. Authority: Will's WQ-399 ruling; WALTER SIG-W-20261008-033 specifically requires this own-charter edit at next touch.
+- Reconciled TODO R9 with the mortgage body already read in SEVEN_CREDIT §2 #5; remaining unrecorded terms are an access gap, not an unread local-PDF obligation.
+- Today's fresh corrections check identified COR-20261012-10 (Horton qualifier). Owner qualifier was already applied in L690; receipt points to that existing artifact. No analytical figure or receipt backfill changed.
+
+---
+
 ### 2026-07-06 — Staleness sweep (Will-directed): archive moves, KB schema repair, index re-base, new primary-source channel
 - **Trigger:** Will asked for a tree-wide stale-info sweep + inbox check. Found an April-era band of docs that never received the 7/4 revival corrections.
 - **Archive moves (git mv):** `THREAD3_ROLL_MATH.md` → `archive/` (dead — May roll passed unlogged); `AUDIT.md` → `archive/AUDIT_2026-04-24.md`; `workbook/KB_INDEX_AUDIT.md` → `archive/` (drift it flagged was fixed same day). Pointers updated in INDEX/TODO/CLAUDE.md.

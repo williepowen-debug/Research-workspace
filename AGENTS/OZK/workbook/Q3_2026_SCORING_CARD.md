@@ -50,6 +50,10 @@ Prior four-field dossier: `research/threads/2026-09-27_Q2_WORKOUT_CHECK_OZK.md` 
 | **W13 RESG repayments/activity** — Q2 $2.92B, trailing 4Q $9.95B; composition undisclosed | MC portfolio/repayment tables, call/10-Q | Disclosed problem cures/cash exits weaken; growing troubled concentration despite runoff strengthens. Aggregate repayment not automatically “all at par,” clean book or proof of adverse-selection mechanism |
 | **W14 RESG modifications** — 37 Q2, 661 over 16 quarters; 10-Q Q2 hardship table $0 CRE | MC modifications/support; 10-Q financial-difficulty table/call | Deteriorating named modified credits strengthen; documented durable cash cures weaken. Operational extensions and accounting hardship-modification definitions differ; **gap alone is not hidden defaults or fraud** |
 
+### October 12 pre-print public-evidence supplement — W8
+
+After the L690 delivery, an owed-task inventory found Hunter Advisors' September-2 sale announcement and October-5 Q3 closings report for Renaissance Milwaukee West, matching the existing desk identification by name/address/196 keys. **Property sale supported; bank payoff, retained financing, price and loss UNKNOWN.** Treat as contrary evidence to a failed property close, not a completed Q3 accounting grade or terminal loan cure. Q3 issuer resolver and all thresholds unchanged. Exact links, identity chain and limits: `research/threads/2026-10-12_OWED_TASKS_AND_ACTIONABLE_GAPS.md` §Wauwatosa.
+
 ## Portfolio / earnings / retained risk — diagnostics, not new scored predictions
 
 | Question and Q2 basis | Source | Strengthen / weaken / unresolved |

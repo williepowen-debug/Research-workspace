@@ -41,7 +41,7 @@
 | R6 | **OZK-04 roster freshness** — its numerator is our own SEVEN_CREDIT roster | 🟡 before Q4 print | Gradeable at the Q4'26 print only if the roster is current |
 | R7 | MI3 path (a): Q3'25 transcript | ⚪ optional | Only an explicit statement on the Q3'25 debt-on-debt change would move "reclassification not excluded" |
 | R8 | Consumer RV/Marine NCO tracking (0.42%, super-prime) → PREDICTIONS row? | ⚪ low | Inflection = consumer-channel leading indicator |
-| R9 | Boston Life Sci original mortgage (Bk 76638 Pg 224): amount, maturity, extension terms | ⚪ optional | `raw/Book 76638 Pg 224.pdf` is local — may already answer it |
+| R9 | **DONE — Boston mortgage body already read** (Bk 76638 Pg 224) | Backlog reconciliation 10/12 | `SEVEN_CREDIT_DEEP_DIVE.md` §2 #5 already records $119.2M original loan, non-revolver and lien terms from body pp.1–10/20–22. Maturity/rate/extensions are in unrecorded note/loan agreement; another read of the same mortgage cannot supply them |
 
 ## 4. Gated / owned elsewhere
 
