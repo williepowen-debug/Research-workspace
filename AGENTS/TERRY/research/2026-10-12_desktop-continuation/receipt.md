@@ -16,3 +16,45 @@ BOARD scan run,0new sinceSIG-W-20261008-033,0logged (23addressed/29ledgered). Co
 Ledger nudge disposition: PAPER_BOOK/SETUPS/SIGNALS actually updated this session; CALIBRATION and daytradingLEDGER not cosmetically refreshed because no new forecast/outcome/day-trade intake, scoring not open. BOARD no new action IDs, so no fabricated consumption row. No new auto-memory/memory index, code or superseded owner numeric threshold; corresponding code/selftest/memory-index/consumer steps untriggered. Foreign work from orphan check untouched and reported via this packet. Five committed inbox packets read/implemented and moved toprocessed; recipient consumption of outgoing packet remains unverified.
 
 Standard owner closeout at Will's direct session endpoint: state/card/ledger/postmortem/receipt write-back complete, root Git persistence follows; old laptop lease release/native transport UNKNOWN. No independent result read claimed. Recovery hold receiptDAEDALUS10/8+PROME10/4 stands; proposed fix root Git receipt/foreign-preservation recipe, repair approvalUNKNOWN/acceptancePENDING; datedTuesday10/13check in MEMORY. Unsafe local CLOSEOUT steps not run. Future registered research/trade/broker gaps remain at existing owners.
+
+## Actual persistence — 2026-10-12 11:04:58 EDT
+
+Integration commit **08158a2c4**,33files (including5byte-identical packet moves), inspected exact path list; every committed path is insideAGENTS/TERRY. Owner/index clean after commit. Actual safe-push receipt: `Pushed. CONFIRMED: HEAD 08158a2c4 is on origin/master (fresh fetch).` Root ancestry checks also confirm laptop3da55c12c/ba3d9666e on currentorigin. Shared train included one committed WATT result; no foreign working files staged or swept. Subsequent delivery/receipt commit remains separate; no0/0-as-landing test.
+
+Exact integration paths (R100 old→new, no content change):
+
+```text
+M	AGENTS/TERRY/MEMORY.md
+M	AGENTS/TERRY/PAPER_BOOK.tsv
+M	AGENTS/TERRY/POSTMORTEMS.md
+M	AGENTS/TERRY/SETUPS.tsv
+M	AGENTS/TERRY/SIGNALS.tsv
+M	AGENTS/TERRY/STATUS.md
+M	AGENTS/TERRY/TRADE_BOOK.md
+R100	AGENTS/TERRY/inbox/2026-10-11_from-PROME_WQ418-PASS-WQ420-RULED.md	AGENTS/TERRY/inbox/processed/2026-10-11_from-PROME_WQ418-PASS-WQ420-RULED.md
+R100	AGENTS/TERRY/inbox/2026-10-11_from-PROME_broker-reconcile-new-calls.md	AGENTS/TERRY/inbox/processed/2026-10-11_from-PROME_broker-reconcile-new-calls.md
+R100	AGENTS/TERRY/inbox/2026-10-12_from-BRENT_cot9-recovery-latest-cell.md	AGENTS/TERRY/inbox/processed/2026-10-12_from-BRENT_cot9-recovery-latest-cell.md
+R100	AGENTS/TERRY/inbox/2026-10-12_from-OZK_radd-executed-extension-L635.md	AGENTS/TERRY/inbox/processed/2026-10-12_from-OZK_radd-executed-extension-L635.md
+R100	AGENTS/TERRY/inbox/2026-10-12_from-PROME_new-trades-priority-Will-direct.md	AGENTS/TERRY/inbox/processed/2026-10-12_from-PROME_new-trades-priority-Will-direct.md
+M	AGENTS/TERRY/research/2026-10-11_WQ419-VLO-precision-bar-PROPOSAL.md
+A	AGENTS/TERRY/research/2026-10-12_desktop-continuation/FLG-jan2029-put-full-window.json
+A	AGENTS/TERRY/research/2026-10-12_desktop-continuation/FLG-jan2029-put-screening.json
+A	AGENTS/TERRY/research/2026-10-12_desktop-continuation/QQQ-oct12-call-screening.json
+A	AGENTS/TERRY/research/2026-10-12_desktop-continuation/USO-oct14-call-screening.json
+A	AGENTS/TERRY/research/2026-10-12_desktop-continuation/WAL-may2027-72.5-65P-screening.json
+A	AGENTS/TERRY/research/2026-10-12_desktop-continuation/WAL-may2027-put-screening.json
+A	AGENTS/TERRY/research/2026-10-12_desktop-continuation/WQ420-validation.json
+A	AGENTS/TERRY/research/2026-10-12_desktop-continuation/broker-reconciliation.md
+A	AGENTS/TERRY/research/2026-10-12_desktop-continuation/new-candidates-snapshot.txt
+A	AGENTS/TERRY/research/2026-10-12_desktop-continuation/receipt.md
+A	AGENTS/TERRY/research/2026-10-12_new-trade-shortlist.md
+M	AGENTS/TERRY/setups/INDEX.md
+M	AGENTS/TERRY/setups/QQQ740P_oct01-sell-or-roll_2026-10-01.md
+A	AGENTS/TERRY/setups/QQQ755C_oct12-sell-or-roll_2026-10-12.md
+M	AGENTS/TERRY/setups/QQQ755P_oct09-sell-or-roll_2026-10-07.md
+M	AGENTS/TERRY/setups/SPY_dec18-770-760P_pre-CPI-TAKE-PASS_2026-10-11.md
+M	AGENTS/TERRY/setups/USO150C-KRE65P_roll-management-notes_2026-10-01.md
+A	AGENTS/TERRY/setups/USO150C_oct14-sell-or-roll_2026-10-12.md
+M	AGENTS/TERRY/setups/VLO-SHARE_management-proposal_2026-09-28.md
+M	AGENTS/TERRY/setups/WAL65P-OZK40P_new-fidelity-lines_note_2026-10-07.md
+```
