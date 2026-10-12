@@ -1,0 +1,13 @@
+{
+  "source_url": "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-kre.xlsx",
+  "issuer_page": "https://www.ssga.com/us/en/individual/etfs/state-street-spdr-sp-regional-banking-etf-kre",
+  "fetched_at_utc": "2026-10-12T17:13:09.131647+00:00",
+  "holdings_as_of": "2026-10-09",
+  "sha256": "0dc295da755b5bf35501ec42ecc77e8fbbf48c39c4a46c5b9661883256e70e0e",
+  "bytes": 29801,
+  "ranking": "Descending fund weight, not bank assets or market capitalization",
+  "weight_units": "Percentage points",
+  "top10_weight_pct": 11.342267,
+  "page_number_of_holdings": 167,
+  "interpretation": "KRE tracks a modified equal weighted index; top ten are about 11.34% of fund. Historical snapshot, not intraday weights."
+}
