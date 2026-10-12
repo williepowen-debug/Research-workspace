@@ -1,0 +1,124 @@
+[
+  {
+    "key": "submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001050441.json",
+    "status": 200,
+    "retrieved_at": "2026-10-12T12:42:25.813312-04:00",
+    "sha256": "6baaaf281f4013fd44472888f3eaf24f169dc2bca7a5e452afd46cc20f689dc3",
+    "filer_name": "EAGLE BANCORP INC",
+    "tickers": [
+      "EGBN"
+    ],
+    "recent_relevant": [
+      {
+        "form": "8-K/A",
+        "filingDate": "2026-09-14",
+        "reportDate": "2026-06-29",
+        "accessionNumber": "0001050441-26-000106",
+        "primaryDocument": "gnw-20260629.htm"
+      },
+      {
+        "form": "10-Q",
+        "filingDate": "2026-08-06",
+        "reportDate": "2026-06-30",
+        "accessionNumber": "0001050441-26-000096",
+        "primaryDocument": "egbn-20260630.htm"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-07-22",
+        "reportDate": "2026-07-22",
+        "accessionNumber": "0001050441-26-000088",
+        "primaryDocument": "gnw-20260722.htm"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-07-06",
+        "reportDate": "2026-06-29",
+        "accessionNumber": "0001050441-26-000083",
+        "primaryDocument": "gnw-20260629.htm"
+      }
+    ]
+  },
+  {
+    "key": "Q2_2026_10Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000096/egbn-20260630.htm",
+    "status": 200,
+    "retrieved_at": "2026-10-12T12:42:31.236702-04:00",
+    "sha256": "ccb48ab325ee68d7eeb76e31eac8cf3111f60858d0468c417892ef00b4943e50",
+    "title": "egbn-20260630",
+    "identity_found": true
+  },
+  {
+    "key": "Q2_2026_deck",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000088/final-2q2026egbnearnings.htm",
+    "status": 200,
+    "retrieved_at": "2026-10-12T12:42:26.233971-04:00",
+    "sha256": "3d889e2dec7fc399f635db47022fdb9e94a9fc3e76c1cff86aa9835b38e550b1",
+    "title": "final-2q2026egbnearnings",
+    "identity_found": false
+  },
+  {
+    "key": "Q2_2026_release",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000088/final-erq2x2026xearnings.htm",
+    "status": 200,
+    "retrieved_at": "2026-10-12T12:42:25.783026-04:00",
+    "sha256": "8d44cd4529f2bdf092b9215fb613412d32fc0f4ed0ab560c88ea3db54e04c60f",
+    "title": "final-erq2x2026xearnings",
+    "identity_found": true
+  },
+  {
+    "key": "Q2_2025_release",
+    "url": "https://ir.eaglebankcorp.com/news/news-details/2025/Eagle-Bancorp-Inc--Announces-Second-Quarter-2025-Results-and-Cash-Dividend/default.aspx",
+    "status": 200,
+    "retrieved_at": "2026-10-12T12:42:26.110236-04:00",
+    "sha256": "3f7a298e60566600a3a2daa0d08c3db144f6b0393e1d1b94c2d1d637e227245c",
+    "title": "Eagle Bancorp, Inc. Announces Second Quarter 2025 Results and Cash Dividend | Eagle Bancorp, Inc.",
+    "identity_found": true
+  },
+  {
+    "key": "Q3_2025_10Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044125000134/egbn-20250930.htm",
+    "status": 200,
+    "retrieved_at": "2026-10-12T12:42:28.138234-04:00",
+    "sha256": "73449cd3a3c53f7021666179205fbc80cb15b44fbb54fcf4a84ee6a3aa7a0bd0",
+    "title": "egbn-20250930",
+    "identity_found": true
+  },
+  {
+    "key": "FY2025_10K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000021/egbn-20251231.htm",
+    "status": 200,
+    "retrieved_at": "2026-10-12T12:42:30.788505-04:00",
+    "sha256": "f6daebb844cc458a80b771a974d1ab0cffd72edee48f1035bbccd01dffd971d8",
+    "title": "egbn-20251231",
+    "identity_found": true
+  },
+  {
+    "key": "Q1_2026_10Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000066/egbn-20260331.htm",
+    "status": 200,
+    "retrieved_at": "2026-10-12T12:42:29.295322-04:00",
+    "sha256": "b8c56a4e4eab1f852d6967cec458433724ea6fc824a5172e1780429a6b3c645c",
+    "title": "egbn-20260331",
+    "identity_found": true
+  },
+  {
+    "key": "IR_news",
+    "url": "https://ir.eaglebankcorp.com/news/default.aspx",
+    "status": 200,
+    "retrieved_at": "2026-10-12T12:42:29.389751-04:00",
+    "sha256": "3b9a4e011a80f505f98a43cd8f1e060891d92131876d99a1c44352ca98b3259f",
+    "title": "News | Eagle Bancorp, Inc.",
+    "identity_found": true
+  },
+  {
+    "key": "IR_quarterly",
+    "url": "https://ir.eaglebankcorp.com/financials/quarterly-results/default.aspx",
+    "status": 200,
+    "retrieved_at": "2026-10-12T12:42:31.582899-04:00",
+    "sha256": "5e7e7ed34dcd14b5a9527223525f04aae07abe369422cbde25391de932b401f5",
+    "title": "Financials - Quarterly Results | Eagle Bancorp, Inc.",
+    "identity_found": true
+  }
+]

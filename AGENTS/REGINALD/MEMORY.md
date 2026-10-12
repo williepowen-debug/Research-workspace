@@ -19,6 +19,8 @@
 
 ## Session Notes
 
+**Direct-Will continuation10/12:** EGBN figures freshly reverified and updated-data search completed; report `reports/2026-10-12_EGBN_cleanup_figure_verification.md`, source receipts/arithmetic saved. Core facts hold; rounded strict inequalities/HFS exclusion qualified in Sept reports. Latest quarterly vintage remainsJune30; next issuer eventOct21. No new broker/score/model/monitor.
+
 **L694 continuation, 2026-10-12:** canonical approval1926850f2 + desk pointer consumed, no direct-Will conflict. One concise EGBN question saved at `reports/2026-10-12_L694_EGBN_candidate-question.md`; TERRY gets early feasibility, underlying pricing gap remains unproved. Wait for existing L35/Q3 issuer evidence; no fresh broad scan/deep-dive/OZK inversion. No lifecycle closeout requested.
 
 **Latest touch — 2026-10-12 morning, Will-approved tape:** Codex GPT-6 exposed, exact variant UNKNOWN; desktop `01a130ac-dde6-76f1-8df7-eb903dc2862a`. `reports/2026-10-12_morning-regional-bank-tape.md` + saved quotes/history/chart reconciliation. OZK L635 completed evidence and L690 assignment consumed without repeating investigation; Sept report/dossier and frozen deck vintage fences. Pull deferred for foreign work; quick tape mode, native queue boot notice accepted. No broker fill/new score/gate/card/monitor. Existing funding/Q3 actions below survive; attribution unresolved.

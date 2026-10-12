@@ -1,4 +1,6 @@
 # EGBN CRE-Vulnerability Dossier — Eagle Bancorp (EagleBank; cert 34742; RSSD 2652092; CIK 1050441)
+
+> **Precision/scope verification2026-10-12:** primary recheck → `reports/2026-10-12_EGBN_cleanup_figure_verification.md`. About two-thirds of TTM charge-offs are linked to HFS transfers/sales, not all completed disposals; 0.53/1.59-year stock/flow ratios are rounded, not survival forecasts. HFI nonaccrual excludes still-held HFS. Core June30 figures reproduced; no newer quarterly credit data retrieved. Historical scenario/metric recommendations unchanged.
 *Built 2026-09-26 (Sat), read-only. $ in millions unless noted. Source keys → list at end. "DERIVED" = my arithmetic, shown. Nothing here is estimated silently.*
 
 ---
@@ -89,20 +91,20 @@
 | Q4-25 | 12.5 | 6.2 | 6.3 | DERIVED 176.5 − 170.3 |
 | Q1-26 | 26.1 | 11.6 | 14.5 (incl C&I 11.5) | S6q |
 | Q2-26 | 49.1 | 25.1 | **24.0** | DERIVED 36.7 − 11.6 |
-| **TTM Q3-25→Q2-26** | **228.7** | **≥152.4 (≥67%)** | **≤76.3** | |
+| **TTM Q3-25→Q2-26** | **228.7** | **≥152.4 (about 66.6% (identified minimum))** | **≤76.3** | |
 
 **Were retained charge-offs already reserved?**
 - Q2-26: specific ACL fell $38.4 → $18.5 (−$19.9) while nonaccrual COs were $25.0 (deck NAL roll: 128.8 +36.0 −14.7 paydowns −25.0 CO −14.0 to HFS = 111.1) ⇒ **up to ~80% of Q2 retained COs consumed specific reserves booked in Q1** (DERIVED 19.9/25.0; upper bound — new specifics on new NALs would net against it). 10-Q: ACL decline "primarily due to charge-offs of previously reserved amounts" [S2]. The DC office NAL fell $36.5 → $19.2 (−$17.3) [S4d vs S3 slide 24] — consistent with the Q1-migrated office relationship being written down against its Q1 specific.
 - Q1-26: "$16.8M (64.6%) of $26.0M NCOs were classified non-accrual" [S4d].
 - Q2-25/Q3-25: **not** pre-reserved — provision was built in the same quarters (Q2-25 provision $138.2 vs NCO $83.9; office coverage 5.78%→11.54%). **Q2-25→Q2-26 cumulative provision $301.7 vs NCO $310.9** (DERIVED): the 0.53yr runway is largely measuring the drawdown of the Q2-25 reserve build.
 
-**Verdict on 0.53yr: (c) MIXED — dominantly a disposition artifact, with a rising genuine run-rate underneath.** ≥67% of the TTM charge-offs are HFS/sale marks; but retained-book charge-offs have risen three straight quarters (6.3 → 14.5 → 24.0).
+**Verdict on 0.53yr: (c) MIXED — dominantly a disposition artifact, with a rising genuine run-rate underneath.** about 66.6% (identified minimum) of the TTM charge-offs are HFS/sale marks; but retained-book charge-offs have risen three straight quarters (6.3 → 14.5 → 24.0).
 
 **Better statistics (computed)**
 | Statistic | Value | Arithmetic |
 |---|---:|---:|
 | Legacy runway (ACL ÷ TTM gross CO) | 0.53 yr | 121.1/228.7 (ledger) |
-| ACL ÷ TTM **non-disposition** CO | **≥1.59 yr** | 121.1/≤76.3 (floor; Q3 disposition may exceed 109.5) |
+| ACL ÷ TTM **non-disposition** CO | **about 1.59 (approximate lower bound) yr** | 121.1/≤76.3 (floor; Q3 disposition may exceed 109.5) |
 | Post-break window Q4-25→Q2-26, ex-disposition, annualized | 2.03 yr | 44.8/3×4=59.7/yr |
 | H1-26 retained, annualized | 1.57 yr | 38.5×2=77.0/yr |
 | **Q2-26 retained only, annualized (run-rate warning)** | **1.26 yr** | 24.0×4=96.0/yr |
@@ -118,7 +120,7 @@
 
 | Reading | Evidence (dated) |
 |---|---|
-| **Deliberate reduction — STRONG** | Office $976 (6/23) → $533 (6/26): CO $205 / HFS $82 / paydowns $156 [S3 slide 19]; CRE conc. 336.6%→267.6% in 2 qtrs; C&C incl HFS $1,096 (Q3-25) → $760 (−30.7%) [S3]; NPL outflows > inflows 4 of last 4 quarters. |
+| **Deliberate reduction — STRONG** | Office $976 (6/23) → $533 (6/26): CO $205 / HFS $82 / paydowns $156 [S3 slide 19]; CRE conc. 336.6%→267.6% in 2 qtrs; C&C incl HFS $1,096 (Q3-25) → $760 (−30.7%) [S3]; Q2-26 NPL outflows exceeded inflows; Q1-26 was an exception, with nonaccrual rising $106.9M→$128.8M (fresh primary recheck10/12). |
 | **Completed recognition (office) — MODERATE-STRONG** | Office criticized $287.0 (12/24) → $77.1; 85.5% of office rated pass; office wtd LTV 61% / DSCR 1.3 [S3 slide 20]; HFS sales at/above marks; 2 office NALs $34.3 carry substandard ratings [S3]. |
 | **Deterioration — REAL, and it moved to MULTIFAMILY** | C&C **downgrades $159.9 (Q1) → $216.1 (Q2)** [S4d; S3 slide 16]; 10-Q: substandard fell only because of HFS and payoffs, "partially offset by additional downgrades… substantially from loans previously rated watch or special mention" [S2]. **MF criticized $175.1 → $284.2 (+62%) in Q2; 41.0% of MF book criticized; MF wtd DSCR 1.0, LTV 58** [S2; S3 slide 21]. **MF ACL only $6.7 (0.97% of MF; 2.4% of MF criticized)** (DERIVED). $404.6 of MF matures 2026H2. |
 | Loan-level stress (S3 slide 25) | 7 criticized loans >$10M mature Aug–Dec 2026 at DSCR <1 ($249 total, e.g. PG apartment $56.0 SS, LTV 88%, DSCR 0.63; storage $56.2 SM, 2022 appraisal; DC apartment $20.5 SS, DSCR 0.15). Mixed-use DC $15.9 SS at **LTV 154%, still accruing**. |
@@ -181,8 +183,8 @@ Read: indirect credit-fund exposure is immaterial; the material "hidden" item is
 ---
 
 ## BOTTOM LINE FOR REGINALD
-1. **0.53yr is mostly a disposition artifact:** ≥67% of TTM charge-offs ($152.4 of $228.7) were HFS/sale marks, and the ACL being drawn down is the Q2-25 build (5-qtr provision $301.7 ≈ NCO $310.9).
-2. **Replace the metric:** ex-disposition runway is ≥1.59yr TTM, but only **1.26yr on Q2-26 alone**. That rate rose three quarters running ($6.3 → $14.5 → $24.0), though up to ~80% of Q2's was pre-reserved.
+1. **0.53yr is mostly a disposition artifact:** about 66.6% (identified minimum) of TTM charge-offs ($152.4 of $228.7) were HFS/sale marks, and the ACL being drawn down is the Q2-25 build (5-qtr provision $301.7 ≈ NCO $310.9).
+2. **Replace the metric:** ex-disposition runway is about 1.59 (approximate lower bound)yr TTM, but only **1.26yr on Q2-26 alone**. That rate rose three quarters running ($6.3 → $14.5 → $24.0), though up to ~80% of Q2's was pre-reserved.
 3. **Office looks done:** criticized $287 → $77, 85.5% pass, sales cleared at/above marks. The July "de-risking" grade holds for office.
 4. **The new risk is multifamily, and it is barely reserved:** MF criticized +62% to $284.2 (41% of the MF book), DSCR 1.0, $404.6 maturing in 2026H2, MF ACL only $6.7. Q2 C&C downgrades were $216.1.
 5. **Verdict: MIXED, medium confidence.** Capital is ample (CET1 14.6%, $401 over 10%). The swing factor is the exit haircut on the $459.8 substandard book: ACL covers 2.0× at H1-26 marks but 0.67× at FY-25 marks. Q3 (est. Wed 10/21, unconfirmed) should show downgrades and MF migration.

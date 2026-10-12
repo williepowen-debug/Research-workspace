@@ -1,0 +1,49 @@
+[
+  {
+    "key": "latest_8KA",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000106/gnw-20260629.htm",
+    "sha256": "dce80d3744f08b2511fdfd021a07d1de4a833402aa643fce869ad53284b59d2f",
+    "retrieved_at": "2026-10-12T12:45:04.898849-04:00"
+  },
+  {
+    "key": "issuer_news_archive",
+    "url": "https://www.eaglebankcorp.com/news/",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "Q3_date_notice",
+    "url": "https://ir.eaglebankcorp.com/news/news-details/2026/Eagle-Bancorp-Announces-Earnings-Call-on-October-22-2026/default.aspx",
+    "sha256": "21140da55945ec3ac0d1b0a6c117d00376dd775f05904bc22174f2d8bcacf447",
+    "retrieved_at": "2026-10-12T12:45:05.508728-04:00"
+  },
+  {
+    "key": "deck_slide_1",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000088/final-2q2026egbnearnings001.jpg",
+    "sha256": "1c8bb91fd24fd5b40f3ab93553058e0cc8ade186e83a919df48dc3b170fccede",
+    "retrieved_at": "2026-10-12T12:45:05.951768-04:00"
+  },
+  {
+    "key": "deck_slide_16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000088/final-2q2026egbnearnings016.jpg",
+    "sha256": "36b978c81e1ec2c5709de6fcf48bf1fb1d71d6f02b5cc6bd75f999c309fb0e2e",
+    "retrieved_at": "2026-10-12T12:45:06.156754-04:00"
+  },
+  {
+    "key": "deck_slide_18",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000088/final-2q2026egbnearnings018.jpg",
+    "sha256": "92a110c9663e49de213b9b66f34af493a649265caa8d3132223ad74288561a69",
+    "retrieved_at": "2026-10-12T12:45:06.553045-04:00"
+  },
+  {
+    "key": "deck_slide_19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000088/final-2q2026egbnearnings019.jpg",
+    "sha256": "615eeb213d2b6bf91c313d8132777d7b8e3be672d415bdf022951291dc235693",
+    "retrieved_at": "2026-10-12T12:45:06.785377-04:00"
+  },
+  {
+    "key": "deck_slide_24",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000088/final-2q2026egbnearnings024.jpg",
+    "sha256": "2fa4f0aa6f34b15eb4efb2b2e5eb4c29be5b2a3b994c22a438b57dab314868e5",
+    "retrieved_at": "2026-10-12T12:45:07.201575-04:00"
+  }
+]
