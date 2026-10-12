@@ -1,0 +1,75 @@
+{
+  "validation": "AUTHOR PASS",
+  "cases": [
+    {
+      "case": "exact_path_commit_preserves_foreign_state",
+      "result": "PASS",
+      "foreign_before": {
+        "index_entries": "e1f77e4e65a8a3f60f32ceb6f3303016ae2912663eedb62c99d7688df1250976",
+        "cached_diff": "ea369fa7f7810de1303621f4db64d3dc837ddedc4d5262f8a26f2e3e2360a6a9",
+        "unstaged_diff": "4d133631df471380d0172ee985092b6cbbf233827f80b542f81c3c989118c8c7",
+        "rename_status": "4673d080d5227db2db97a0784b44f1f29f57ddef548a39899b479bba5b00ec91",
+        "working_bytes": {
+          "AGENTS/FOREIGN/edit.md": "47dd7f1028f8d0e120ce181ef4e363ebbfbd40c12ebdabe224c9b5b1356491cd",
+          "AGENTS/FOREIGN/in-flight.md": "6cbf44b0542309137c12bb98a6598e9da914447a7c804f3a3b9cb1c7417d9226",
+          "AGENTS/FOREIGN/new.md": "e906fd2c3d00acce14dd904f4df886ab8ca408d10ab499186f3404831044db85"
+        }
+      },
+      "foreign_after": {
+        "index_entries": "e1f77e4e65a8a3f60f32ceb6f3303016ae2912663eedb62c99d7688df1250976",
+        "cached_diff": "ea369fa7f7810de1303621f4db64d3dc837ddedc4d5262f8a26f2e3e2360a6a9",
+        "unstaged_diff": "4d133631df471380d0172ee985092b6cbbf233827f80b542f81c3c989118c8c7",
+        "rename_status": "4673d080d5227db2db97a0784b44f1f29f57ddef548a39899b479bba5b00ec91",
+        "working_bytes": {
+          "AGENTS/FOREIGN/edit.md": "47dd7f1028f8d0e120ce181ef4e363ebbfbd40c12ebdabe224c9b5b1356491cd",
+          "AGENTS/FOREIGN/in-flight.md": "6cbf44b0542309137c12bb98a6598e9da914447a7c804f3a3b9cb1c7417d9226",
+          "AGENTS/FOREIGN/new.md": "e906fd2c3d00acce14dd904f4df886ab8ca408d10ab499186f3404831044db85"
+        }
+      }
+    },
+    {
+      "case": "actual_safe_push_preserves_index_tree_and_rename",
+      "result": "PASS",
+      "script_receipt": "Pushed. CONFIRMED: HEAD 503e865 is on origin/master (fresh fetch)."
+    },
+    {
+      "case": "delivered_commit_survives_fresh_remote_successor",
+      "result": "PASS",
+      "origin_vs_owned_count": "1\t0",
+      "ancestor_rc": 0,
+      "equality_required": false
+    },
+    {
+      "case": "non_ff_stops_without_foreign_mutation",
+      "result": "PASS",
+      "safe_push_rc": 1,
+      "foreign_preserved": true
+    },
+    {
+      "case": "failed_fetch_does_not_certify_stale_ancestry",
+      "result": "PASS",
+      "fetch_rc": 128,
+      "current_confirmation": "UNKNOWN",
+      "stale_ancestor_rc": 0,
+      "foreign_preserved": true
+    },
+    {
+      "case": "fixture_detects_staging_and_rename_loss_with_unchanged_bytes",
+      "result": "PASS",
+      "working_bytes_preserved": true,
+      "index_and_cached_diff_preserved": false,
+      "rename_state_preserved": false
+    },
+    {
+      "case": "fixture_detects_retired_foreign_restore_hazard",
+      "result": "PASS",
+      "working_bytes_preserved": false,
+      "index_preserved": false,
+      "rename_state_preserved": false
+    }
+  ],
+  "live_repo_mutated_by_fixtures": false,
+  "safe_push_sha256": "6a1add8851c8ddfd288a71fa78c2fd648f4b74b7c0387512d6e19f8ec89dcb14",
+  "scope": "local disposable origin/owner/peer repositories; logical foreign staging and working state",
+  "limits": "No live integration/rebase or independent acceptance; whole index bytes may legitimately change for owned commits; foreign logical entries/diffs/rename state are compared."
+}

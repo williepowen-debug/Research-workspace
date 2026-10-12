@@ -89,34 +89,18 @@ Save to `memory/auto/` only for a surprising/non-obvious *how-to-work* lesson, o
 
 ---
 
-## Chunk 4 — Git + report (Standard/Heavy; Light optional; Bounce skips)
+## Chunk 4 — Git + report (Standard/Heavy; actual session-end persistence follows root)
 
-Git is **pathspec-scoped** (shared `.git/index` — see root CLAUDE.md):
-- **Modified:** `git commit AGENTS/TERRY/<file> -m "TERRY: <subject>"`
-- **New:** `git add AGENTS/TERRY/<specific-file> && git commit AGENTS/TERRY/<same-file> -m "TERRY: <subject>"` — explicit paths, never `git add AGENTS/TERRY/` as a dir.
-- **Never `git reset HEAD`** (global unstage race).
-- **Push: TERRY self-sweeps at closeout** (named live auto-push exception in root canon). Run `scripts/safe-push.sh` from the repo root — ff-gated, fails safe, never force-pushes. One push sweeps everyone's committed work (the push-train).
-- **✅ Push-success check (mandatory):** after safe-push, confirm `git rev-list --left-right --count origin/master...HEAD` = `0 0`. **If it's not 0/0, the push did NOT land — you're in the non-ff branch below. Do not report "pushed" until you've seen 0/0.**
-- Trailer: use the model the harness names in-session (currently `Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>`). *(Corrected 2026-07-26 — this line was pinned to Opus 4.8 and had gone stale; behaviour-language over version-pinning per `feedback_behavior_language_over_hash_pinning`.)*
-- **⚠️ Single-quote the `-m` message.** Backticked identifiers inside a double-quoted commit message are **command-substituted and silently deleted** — the commit still succeeds. Watch for `command not found` above the success line. **Never repair it by amending a pushed commit** (force-push is forbidden). See `finding_backtick_command_substitution_in_commit_message`.
-- **⚠️ A rename needs BOTH paths in the pathspec.** `git mv a → b` then committing only `b` lands the add and leaves the delete staged — the file then exists at **both** paths in HEAD. See `finding_pathspec_rename_needs_both_paths`.
+**Canonical mechanics:** root `CLAUDE.md` § Git Protocol, including “Before committing,” “At session end,” and “Before pulling.” Run from the resolved repository root. This desk adds no recovery recipe or authority over another owner's files/index.
 
-### If safe-push aborts non-ff — pick the branch by the state of the tree (validated 2026-07-17)
-The old "just `git pull --rebase`" advice **fails when other agents have uncommitted work**, because rebase refuses on a dirty index/tree and a pull can clobber their changes. Branch first:
+- **Exact paths:** modified files use a path-scoped commit; new files use explicit-path add and the same commit paths. A rename needs both old and new paths. Never directory-wide staging, an unscoped commit, global unstage/reset, amend, or restoration of another owner's directory. Preserve foreign staged and unstaged work and rename state.
+- **Commit message:** use the root protocol's quoted heredoc message file and subject limit. Attribute only the actual exposed runtime; omit the optional co-author trailer when identity is unavailable.
+- **Push:** TERRY's standing self-sweep uses `bash scripts/safe-push.sh`. It is fast-forward gated and never force-pushes or pulls the shared tree. It can carry already-authored commits by other desks; it grants no permission to stage their work.
+- **Publication proof:** the receipt is `Pushed. CONFIRMED: HEAD <sha> is on origin/master (fresh fetch).` For a named owned commit, require a successful fresh `git fetch origin`, then `git merge-base --is-ancestor <exact-owned-commit> origin/master` with exit0. Later remote commits do not undo delivery; equality with the latest remote HEAD and ahead/behind counts are not delivery tests. If fetch fails, current publication is **UNKNOWN / CANNOT-CONFIRM**; a stale local origin ref is insufficient. Preserve any older dated receipt separately.
+- **Non-ff or other push failure:** follow root Git Protocol session-end step3 **in full**, including the incoming/dirty-path overlap check and its stop/escalation conditions. Honour Will's direct instruction and any standing hold; do not pull or stash concurrent foreign work. If safe integration is unavailable, commit owned work locally, defer push and record its exact SHA/reason/resume point in MEMORY and the dated delivery. Never substitute the retired soft-realign/foreign-restore worktree recipe.
+- **Report:** state exact owned commits and publication evidence or deferral, pending acceptance/dependencies, and MEMORY's next entry point. Saved files, remote delivery, recipient consumption and native lifecycle closeout are separate facts.
 
-- **A) Working tree clean outside `AGENTS/TERRY/`** → `git pull --rebase` then re-push. Routine under serial multi-machine.
-- **B) Foreign uncommitted work present** (other agents' staged/unstaged/untracked files — the common case) → **do NOT pull/rebase in place.** Two options:
-  - **B1 (defer, lowest risk):** commit locally, leave the push. Note the pending push + the local SHA in MEMORY (`## Current Session` Status line). It sweeps on the next clean push. Root protocol Option B.
-  - **B2 (push now, isolated worktree — use when the work must go live this session):** replay local commits onto origin without touching the main tree:
-    1. `git worktree add --detach <tmp outside repo> <local-HEAD-sha>`
-    2. in it: `git rebase origin/master` (replays ALL local-ahead commits — yours + any other agent's unpushed commits = the push-train; disjoint dirs → clean)
-    3. `git push origin HEAD:master` — **fast-forward, never `--force`** (destroying another agent's committed origin work is a hard-stop; stacking on top preserves everyone)
-    4. back in main: `git reset --soft origin/master` (moves the branch pointer only — leaves the foreign index/tree untouched)
-    5. `git worktree remove <tmp>`
-  - **⚠️ Post-realign verification (B2, mandatory):** `reset --soft` can leave the main tree *behind* origin on a foreign dir → a **staged deletion of another agent's committed work** (2026-07-17: BRENT's file showed staged-`D`). Confirm `0 0` vs origin AND scan `git status --short` for any `D `/`M ` on a dir you didn't touch; `git restore --source=HEAD --staged --worktree -- <that dir>` to materialize origin's version. Never leave a behind-origin staged-D for someone to accidentally commit.
-- **🚩 Desync detection → flag Will:** if foreign "uncommitted" changes turn out to already match origin (`git diff origin/master -- AGENTS/<other>/` is empty — the work was committed from another machine), that's a **two-machine overlap**, which serial multi-machine forbids. Say so in the report; don't silently absorb it. Escalate (per-agent-branches tripwire) if non-ff recurs mid-session or a rebase conflicts outside `AGENTS/TERRY/`.
-
-**Report to Will/Prome:** what landed (concrete) · what's pending · next entry point (points at MEMORY Next-Session) · **any push deferral or two-machine desync observed.**
+**Repair hold:** the October4/October8 hold remains STANDING until the approved repair meets its existing acceptance requirements. Record received/proposed/approved-implemented/accepted separately in the existing owner state and dated repair report; author tests or this text alone do not lift it. Root Git Protocol remains canonical throughout.
 
 ---
 
