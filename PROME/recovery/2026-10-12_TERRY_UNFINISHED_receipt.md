@@ -1,0 +1,18 @@
+# Recovery copy — UNFINISHED TERRY pre-edit receipt
+
+Saved for Will's desktop switch at 2026-10-12T10:13:54.575538-04:00. This is a non-operative recovery snapshot, not a completed implementation, acceptance or owner closeout. Do not apply its draft claims as current instructions.
+
+Source: `AGENTS/TERRY/research/2026-10-11_WQ418-WQ420-integration-receipt.md` (untracked owner file; original untouched).
+Payload SHA256: `e3cf0e5a5f06e24800a296a41d0d3fa5332d9aa27717b9804eabe3e843908269`. Original relative paths resolve from the repository root/owner context, not this recovery directory. Source may change after capture. TERRY's canonical files and delivered owner evidence control any continuation.
+
+<!-- SOURCE PAYLOAD BEGIN -->
+# TERRY — WQ-418 PASS / WQ-420 exact prospective encoding receipt
+**Acceptance stated before editing:** 2026-10-11 17:29:59 EDT. Same OpenAI Codex owner task01a12c02-518a-7fd3-a6b0-e5f8c4f2ca5a, selectedgpt-6.1-sol per launch record; active PROME recipient01a12c97-1aa1-7881-8ffd-3dddc607e2e4. Root/desk/runtime instructions explicitly loaded earlier in this same owner session; no hooks/provider capabilities presumed. Native list shows this one TERRY task, active PROME, idle old PROME/REGINALD, no competing same-runtime TERRY. Cross-runtime coverage incomplete under existing bounded launch ruling; not certified absent. No replacement desk launched. PROME dirty SCRATCH/ORCH_LOG/argus baseline seen and untouched; no pull while foreign dirty.
+
+**Authority verified at committed source before write:** `git show 5a8168f95:PROME/proposals/2026-10-11_wq418-420-RULED.md`, packet at same commit. Will's exact word **“418 and 420 approved”**, recorded2026-10-11T17:10:59.179606-04:00 in the current PROME task. WQ-418 accepts PASS/PASSED, no trade. WQ-420 approves only exact§4 at31f9f3d1a prospectively for HELD-01 leg A; no historical regrade/new band/monitor/trade/unrelated change. One independent plan read already consumed; no new reader or proposal round.
+
+**Acceptance:** copy all three approved quote paragraphs verbatim into owner management authority, with pinned approval provenance and prospective scope; preserve the complete pre-existing authority/history outside the clearly added current banner/insert. Verify quote equality against both ruling5a8168f95 and proposal31f9f3d1a; preserve thresholds/source order/strict ties/exit band/acceptance tolerance/dates/B1–B3/one-share/stood-down staged shares/Will-only execution and future proof limitations. Update necessary owner pointers and WQ-418 actual PASSED decision on card/state/three summary surfaces, retaining NO TRADE and size0. No quotes, research, historical grades, new paper entries or code built. Recipient independent result read/new explicit full-closeout ask remains after delivery.
+
+**Pre-edit hashes:** VLO management file `c99dd31c566e5c1f6892f9759cd0fe79e68f4b8103689432e0c5a89784688f61`; approved quoted insert `77f50b5951ef9dbc74867e9160bb7435661c6514ad4a0ae9c25e9e58ed13739c` (2417 UTF-8 bytes), identical in ruling and pinned proposal. Existing WQ-386/Forms B/execution/history remain preserved, verified below after encoding. Recovery hold standing; Tuesday USO/C5 timing unchanged.
+
+<!-- SOURCE PAYLOAD END -->
