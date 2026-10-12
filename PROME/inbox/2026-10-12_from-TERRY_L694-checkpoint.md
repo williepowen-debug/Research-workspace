@@ -11,3 +11,5 @@ RESULT: Reconciled 2 saved feasibility results, verified 3 prior exact commits o
 GAPS: BRENT explicit L694 stage missing; DEWEY new partial in flight; BNO economics/current fund/broker data unresolved; native notification/consumption and publication approval pending.
 WILL_NEEDS: No new decision; previous specific publication approval request remains pending.
 FOLLOW-UP: Read exact DEWEY committed version before dependent consequence; consume BRENT's existing stage and finalize L694, preserving after14:30 observation clocks.
+
+**Late checkpoint addendum 2026-10-12T14:08:15-04:00:** WALTER correction016 read/logged; COR-20261012-16 NO-OP receipt after current scoped consumer check, no corrected premise adopted in those live TERRY surfaces. New easing-channel/delivery/legal/cargo/settlement caveats retained, source still in flight at read; no grade/trade or repeated screen. Exact owner addendum/receipts persist in the next path-scoped local commit.
