@@ -3,7 +3,7 @@
 **Status:** 🟠 FERC rejected IRAS/BYONC; the proposed large-load tariff burden did not become law.
 **Domain:** Grid stress → wholesale power price → industrial/data-center cost.
 **Recent thesis pivot:** Filed Door B → rejected IRAS/BYONC core (10/9, read 10/12); WATT-10 MISS.
-**As of:** 2026-10-12 11:04 ET | STATUS commit: **427c1280f**; power tape through **10:35 EPT**.
+**As of:** 2026-10-12 12:33 ET — final records-only closeout | STATUS commit: **1daa463c8**; power tape remains **2026-10-12 10:35 EPT**, no new market observation.
 
 ## CROSS-DOMAIN
 
@@ -13,7 +13,7 @@
 |---|---|---|---|
 | VULCAN / HENRY | IRAS/BYONC rejected; registry alone accepted | Elevated | Remove only the proposed IRAS-specific cost/curtailment obligation; physical costs/PPAs persist. Dated owner packets |
 | CARL / REGINALD | WATT-08 Door B ~50% OPEN | Elevated | Consumer allocation risk gains relative weight; actual dollar assignment remains unresolved. Dated owner packets |
-| PROME | L654 morning read; L200 WATT-10 MISS; EL26-67 responses 11/16 | Elevated | Coordinator records grades and event follow-ups from owned report; consumption unverified |
+| PROME | L654/L200 morning result consumed; L692/L693 registered; final closeout and comparison saved | Monitoring | Prior report427c1280f/deliveryd9127ded0 consumed at PROME receipt30770e3bb. Current closing packet at1daa463c8; acknowledgment of this new version pending |
 
 **WAITING FOR:**
 
@@ -34,13 +34,13 @@
 
 - **Conviction:** high on order disposition; medium on eventual cost allocation; low on magnitude of consumer bill impact. WATT-08 remains OPEN at ~50%.
 - **Diverge from market by:** unmeasured; no equity/option quotes or repricing claim.
-- **Cross-agent tensions known to me:** pending cost-allocation assumptions must be corrected at consumer artifacts; no recipient acknowledgment established.
+- **Cross-agent tensions known to me:** PROME consumed the exact allocation-grade version; other cost consumers have no acknowledgment established. Publication warnings for prior status/queue commits are superseded by fresh remote ancestry and PROME receipt30770e3bb; historical review rejections retained.
 - **Uncertain about:** new DOE issuance/use, any refile, actual cost split, hedged/floating exposure owed to VULCAN. None resolved by registry acceptance.
 - **Failure patterns:** order title is not the operative tariff disposition; a requested order is not an issued order; partial-day quiet is not a completed event. Refer to WATT-10's original criteria/grade in `workbook/PREDICTIONS_ARCHIVE.tsv` and L-52.
 
 ## NEXT DECISION POINT
 
-- **What/when:** WATT rechecks after October 12, then at the first boot ≥October 15 for the complete clear-day window and DOE request.
+- **What/when:** next owner touch follows **L692 October13–14** (including fullOctober12 outcome and recall deadline), then **L693 firstboot≥October15** for the complete clear-day/DOE test. Registered obligations are not automatic monitoring; this window closes on Will’s instruction.
 - **View change:** new EEA-class posting or issued PJM emergency order prevents early de-escalation; unverified request alone is neither a reset nor proof of a clear window.
 
 ## FORWARD CATALYSTS
@@ -53,4 +53,4 @@
 | 10/31 | WATT wake-list review | Registered review retained after WATT-12 HIT |
 | 11/16 | EL26-67 response | Qualifying section 205 suspension proviso travels |
 
-Full form restored for the persistent HENRY/VULCAN/CARL edges; CROSS-DOMAIN first. Last write-back after STATUS; no new thesis version or threshold.
+Full form retained for the persistent HENRY/VULCAN/CARL edges; CROSS-DOMAIN first. Final fold follows STATUS commit 1daa463c8. Comparison and proposed procedure: `reports/2026-10-12_closeout-procedure-comparison.md`, `proposals/2026-10-12_CLOSEOUT_PROPOSED.md`. Proposal only; CLAUDE.md unchanged, no runner built, no new thesis version/threshold.
