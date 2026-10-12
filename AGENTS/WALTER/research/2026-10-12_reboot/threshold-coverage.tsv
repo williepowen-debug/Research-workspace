@@ -1,0 +1,49 @@
+trigger_id	eligibility	observation_and_limit	scan_basis
+RED-FT-01	REGISTERED	HY315bp [10/8], <280 false; 0/3.	Oct12 16:52Z fresh retrieval and manual evaluation
+RED-FT-02	REGISTERED	HY315bp [10/8], >320 false; 0/3. Near 1.5625% below line on this observation date.	Oct12 16:52Z fresh retrieval and manual evaluation
+RED-FT-03	REGISTERED	Oct12 vendor requested BZZ26 106.80 at pull16:52Z; metadata month unresolved, official settles unavailable; no sustain grade.	Oct12 16:52Z fresh retrieval and manual evaluation
+RED-FT-04	REGISTERED	Same instrument/access limits as FT03; no current official-settlement grade.	Oct12 16:52Z fresh retrieval and manual evaluation
+RED-FT-05	REGISTERED	ICSA197K [w/e10/3] latest-revised; far from250K. No new fire established.	Oct12 16:52Z fresh retrieval and manual evaluation
+RED-FT-06	REGISTERED	VIXCLS14.84 [10/9]; fired state banked, exit>=18 0/5.	Oct12 16:52Z fresh retrieval and manual evaluation
+RED-FT-07	REGISTERED	CCC1252bp [10/8]; firing-banked. Exit<930 not met; suppress continuation.	Oct12 16:52Z fresh retrieval and manual evaluation
+RED-FT-08	REGISTERED	Release-derived row; next CPI10/14. No release today; manual exact-decimal release grade remains owner work.	Oct12 16:52Z fresh retrieval and manual evaluation
+RED-FT-09	REGISTERED	T5YIFR2.32 [10/9], >2.55 false;0/5.	Oct12 16:52Z fresh retrieval and manual evaluation
+RED-FT-10	REGISTERED	Publisher CBOE10/9 154.34;10/8 149.19;1/4. Monday10/12 close future at pull; earliest four closes10/14.	Oct12 16:52Z fresh retrieval and manual evaluation
+RED-FT-11	REGISTERED	DGS30 five-session change10/1->10/8 -1bp, precondition<=-10.2 false; butterfly change+2bp, alternate<=-4 false. Same-date endpoints matched.	Oct12 16:52Z fresh retrieval and manual evaluation
+RED-FT-12	REGISTERED	HY315bp [10/8], <260 false;0/3.	Oct12 16:52Z fresh retrieval and manual evaluation
+REG-T-01	REGISTERED	Oct9 vendor previous regular close69.01; current Oct12 intraday69.81. <60 false on last completed close; no current close invented.	Oct12 16:52Z fresh retrieval and manual evaluation
+REG-T-02	REGISTERED	Oct9 vendor previous close74.27; cycle2 fired/exit>=81.90 zero of3. Current Oct12 intraday75.27 does not complete a close grade.	Oct12 16:52Z fresh retrieval and manual evaluation
+REG-T-03	REGISTERED	HY315bp [10/8], >320 false; 0/3. Near 1.5625% below line on this observation date.	Oct12 16:52Z fresh retrieval and manual evaluation
+REG-T-04	REGISTERED	HY315bp [10/8], >350 false;0/3.	Oct12 16:52Z fresh retrieval and manual evaluation
+REG-T-05	REGISTERED	ICSA197K [w/e10/3] latest revised; far from300K, no new first-release fire established.	Oct12 16:52Z fresh retrieval and manual evaluation
+REG-T-06	REGISTERED	Quarterly official prints only. WQ414 operative consequence REVIEW; run2/3 through Q2 (owner record); Q3 nowcast excluded. No new official release today.	Owner schedule/state reread; older dated source retained, not re-collected/cleared
+REG-T-07	REGISTERED	Trepp September officeDQ12.16% [pub10/2, source-read SIG-W-20261009-002]; >15 false;0/3 monthly. Not SS.	Owner schedule/state reread; older dated source retained, not re-collected/cleared
+REG-T-08	REGISTERED	SOFR3.87-IORB3.90 on10/8 = -3bp; >15 false;0/3. Forward-stamped IORB10/13 not substituted.	Oct12 16:52Z fresh retrieval and manual evaluation
+CREED-T-01a	OWNER-ADJUDICATION	September12.16 [Trepp primary SIG-W-20261009-002] >12, 1/2; Aug12.00 is not >12. No second print today.	Owner schedule/state reread; older dated source retained, not re-collected/cleared
+CREED-T-01b	OWNER-ADJUDICATION	Last owner-grade officeSS16.90 [August, pub9/14], 0/2. SeptemberSS due mid-Oct; latest release not independently retrieved in this pass, remains GAP.	Owner schedule/state reread; older dated source retained, not re-collected/cleared
+CREED-T-02	OWNER-ADJUDICATION	FIRED/SPENT per owner ledger; repeat suppressed. No new adjudication or current monthly census.	Owner schedule/state reread; older dated source retained, not re-collected/cleared
+CREED-T-03	OWNER-ADJUDICATION	Quarterly Q2 combined2.48 falling, coverage172.7 improving per owner primary-read grade; level3.40 suspended; conjunctive direction+coverage. No Q3 QBP today.	Owner schedule/state reread; older dated source retained, not re-collected/cleared
+CREED-T-04	OWNER-ADJUDICATION	Qualitative modification-exhaustion row; no numeric instrument, owner evidence required; not cleared.	Owner schedule/state reread; older dated source retained, not re-collected/cleared
+CREED-T-05	OWNER-ADJUDICATION	HOMER-owned; excluded from CREED grade, no substitution.	Owner schedule/state reread; older dated source retained, not re-collected/cleared
+CREED-T-06	OWNER-ADJUDICATION	Qualitative performing-collateral cluster; no current census executed. Not cleared from prose vector.	Owner schedule/state reread; older dated source retained, not re-collected/cleared
+CREED-T-06b	OWNER-ADJUDICATION	Gate COUNT1/SREIT fired in owner ledger; no fresh gate census, no refire or zero claim.	Owner schedule/state reread; older dated source retained, not re-collected/cleared
+CREED-T-07	OWNER-ADJUDICATION	Qualitative AND selloff+tenant impairment; current tenant-demand evidence not re-collected. Not cleared.	Owner schedule/state reread; older dated source retained, not re-collected/cleared
+CREED-T-08a	OWNER-ADJUDICATION	FIRED effective9/24 per owner total-return adjudication; no un-fire from recovery; no fresh 63-session study commissioned.	Owner schedule/state reread; older dated source retained, not re-collected/cleared
+CREED-T-08b	OWNER-ADJUDICATION	Last owner11-name census9/26 NOT FIRED; two legs required. New dividend/book census not performed; no current-clear claim.	Owner schedule/state reread; older dated source retained, not re-collected/cleared
+HANS-T-01	MONTHLY-PRINT	Owner last-known 53.9 [2026-10-01]; MONTHLY-PRINT. No fresh owner grade inferred.	Owner schedule/state reread; older dated source retained, not re-collected/cleared
+HANS-T-02	MONTHLY-PRINT	Owner last-known 53.9 [2026-10-01]; MONTHLY-PRINT. No fresh owner grade inferred.	Owner schedule/state reread; older dated source retained, not re-collected/cleared
+HANS-T-03	MONTHLY-PRINT	Owner last-known 51.8 [2026-09-03]; MONTHLY-PRINT. No fresh owner grade inferred.	Owner schedule/state reread; older dated source retained, not re-collected/cleared
+HANS-T-04	EVENT-DRIVEN	Owner last-known 2.50 [2026-09-16]; EVENT-DRIVEN. No fresh owner grade inferred.	Owner schedule/state reread; older dated source retained, not re-collected/cleared
+HANS-T-05	SCANNABLE-DAILY	TE Oct12 web quote3.4733%, not certified daily close; existing WATCH OPEN, orange3.75 not reached by quote.	Oct12 16:52Z fresh retrieval and manual evaluation
+HANS-T-06	SCANNABLE-DAILY	TE Oct12 quote5.4455%, 5.45bp below5.50 on this dated snapshot; not a certified close.	Oct12 16:52Z fresh retrieval and manual evaluation
+HANS-T-07	SCANNABLE-DAILY	Requested TTFX26 vendor84.74 Oct12, metadata truncated/month unresolved; not a settle, no ladder grade.	Oct12 16:52Z fresh retrieval and manual evaluation
+HANS-T-08	SCANNABLE-DAILY	AGSI gasday10/10 fill73.61 minus native5yr88.622 = -15.012pp (all5years). Existing orange state OPEN; not new fire; exit>-12 false,0/5. Norm-composition/economic-validation caveat retained.	Oct12 16:52Z fresh retrieval and manual evaluation
+HANS-T-09	COMPOUND-TWO-LEG	Owner last-known 114.0bp / 4.606 [2026-10-02]; COMPOUND-TWO-LEG. No fresh owner grade inferred.	Owner schedule/state reread; older dated source retained, not re-collected/cleared
+HANS-T-10	COMPOUND-TWO-LEG	Owner last-known 139.8bp / 4.90 [2026-10-08]; COMPOUND-TWO-LEG. No fresh owner grade inferred.	Owner schedule/state reread; older dated source retained, not re-collected/cleared
+HANS-T-11	SCANNABLE-DAILY	Oct12 vendor rounded1.12 intraday; web quote1.11575 cross-check. Not a spot close; no <1.05 grade.	Oct12 16:52Z fresh retrieval and manual evaluation
+HANS-T-12	🔴 UNINSTRUMENTED	UNINSTRUMENTED cross-currency basis: cannot fire; excluded from coverage clearance.	Owner schedule/state reread; older dated source retained, not re-collected/cleared
+HANS-T-13	SCANNABLE-DAILY	TE Oct12 quote5.9270%,7.3bp below6.00. URL title Treasury Gilt Auction conflicts with benchmark interpretation; no certified close grade.	Oct12 16:52Z fresh retrieval and manual evaluation
+HANS-T-14	🟡 QUALITATIVE-EVENT — fires on judgement, NOT auto-gradable	Owner last-known no qualifying event [swept 2026-09-18] [2026-09-19]; 🟡 QUALITATIVE-EVENT — fires on judgement, NOT auto-gradable. No fresh owner grade inferred.	Owner schedule/state reread; older dated source retained, not re-collected/cleared
+HANS-T-15	EVENT-DRIVEN	Owner last-known NOT-MET on (a) - principal unconfirmed; UNINSTRUMENTED on (b) [2026-09-18]; EVENT-DRIVEN. No fresh owner grade inferred. Leg(a) operator primary required; leg(b) monthly-instrumentability label conflict remains owner owed.	Owner schedule/state reread; older dated source retained, not re-collected/cleared
+HANS-T-16	MONTHLY-PRINT	Owner last-known 2.4 [2026-08-31]; MONTHLY-PRINT. No fresh owner grade inferred.	Owner schedule/state reread; older dated source retained, not re-collected/cleared
+HANS-T-17	MONTHLY-PRINT	Owner last-known 2.6 [2026-08-31]; MONTHLY-PRINT. No fresh owner grade inferred.	Owner schedule/state reread; older dated source retained, not re-collected/cleared

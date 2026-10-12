@@ -1,9 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-10-12 — Will-directed bounded procedure repair and closing handoff, OpenAI Codex. **Boot PARTIAL**; operational receipts and gaps below. BOARD **1333**; **10 signals (1 FLASH, 9 PRIORITY)**; **19 kills**, **0 cluster-mediating signals**; **2 verify-helper instances / 4 completed assignments**. No network-uncertainty-peak trigger.
+**Updated:** 2026-10-12T17:05:03Z — Will-launched fresh Codex session. **Boot PARTIAL**. BOARD **1335**; day total **12 signals (1 FLASH,11 PRIORITY)**, **27 kills**, **0 cluster-mediating signals**. Reboot leg:2verify helpers/2jobs, explicit closeout receipts; previous leg:2helpers/4jobs. No network-uncertainty-peak trigger.
 
 ## BOTTOM LINE
 
-The closing handoff now includes the bounded closeout repairs: supported event-ledger declarations, explicit coverage wording and a tier-aware check runner. Ten signals and retained duties remain available to fresh WALTER. The executed RaDD extension/new capital materially weakens the observed puts’ near-term catalyst; TERRY owns the card review and Will owns orders. Transcript and Horton comparison evidence retain their dated measurement limits. X access and automatic renewal are restored;29 unreviewed bookmarks remain for fresh-session intake. Boot coverage stays PARTIAL because of stale read attestation and source/instrument gaps. Publication and future duties are recorded in LAST_COMPLETION.md.
+Fresh WALTER is active with the previous handoff recovered. Reboot routed two bounded signals: French refrigeration disruption with Ahold kept separate, and Brookings AI spending treated as a scenario. Of29bookmarks,20were assessed and9remain unconsumed source/basis gaps. X access works; no new sustained threshold fire established on fetched gradeable data, but read attestation/source/instrument coverage remains PARTIAL. RaDD extension/fresh capital still weakens the observed OZK puts’ near-term catalyst; TERRY owns the existing card and Will owns orders. Today’s QQQ call order/outcome is unverified. Durable duties and publication scope remain in LAST_COMPLETION.
 
 ## DATED MARKET OBSERVATIONS — retained morning snapshots, not refreshed during session closeout
 
@@ -17,7 +17,7 @@ The closing handoff now includes the bounded closeout repairs: supported event-l
 | Storage | AGSI gasdayOctober10 fill73.61%, native five-year norm88.622%, gap−15.012pp. Existing state OPEN, exit>−12 not met; norm composition/economic validation caveats retained. |
 | Energy / instruments | Cushing24.745M bbl [week endingOctober2]; EIA raw24745 thousand bbl converted. Vendor named CLX/CLZ93.87/93.00 [October12 morning]; BZZ/TTFX metadata truncated, product prices rounded, no settlement-grade crack/count. Boundary5 NO INSTRUMENT. |
 | Freight | Baltic/Gibson dated weekly observations remain in `research/tanker-cost-watch/STATE.csv`; publisher week-on-week base discrepancy unresolved. Costs and flows are separate. |
-| Banks | Vendor October12 morning KRE69.36/WAL74.75/OZK44.81, unfinished session, not closes. RaDD October9 execution disclosed October12: December2029, fresh100M, redraw possible, as-stabilized LTV, recognition UNKNOWN. |
+| Banks | Vendor reboot16:52Z KRE69.81/WAL75.27/OZK45.47, October12 unfinished session, not closes. RaDD October9 execution disclosed October12: December2029, fresh100M, redraw possible, as-stabilized LTV, recognition UNKNOWN. |
 | Consumer | New Michigan October preliminary sentiment46.3; linked June23–September21 survey measures intentions, not realized spending. SCF income2021→24 and wealth2022→25, real dollars; mean/median and group definitions preserved in signals007/008. |
 | Maritime | UKMTO October9 report data throughOctober7: composite129out/146in, US component not independently verified. IMO104/24 as atOctober12. UKMTO5 total losses vs FALCON3 qualifying losses unresolved; owner grade held, no two-loss inference. |
 | Iran | Last full sweep October8; October12 limbs/source-access improvements do not reset it. Losses3 / marks1–14–85 are inherited owner grades. Anchor now22681B, below rotation stop; guards remain active. Source gaps prevent a full current-state clearance. |
@@ -29,11 +29,13 @@ Routing plus receiving-layer readiness. Domain agents own evidence, state and ju
 
 ## STATE POINTERS
 
+**Current reboot evidence:** `research/2026-10-12_reboot/BOOT_RECEIPT.md`, `THRESHOLD_REVIEW.md`, `BOOKMARK_REVIEW.md` and keyed disposition TSV. Previous closing handoff is preserved verbatim in that directory. Two new signals011/012; accounting closure is not full content assessment.
+
 **Procedure repair:** `tools/closeout_run.py` collects existing light/full checks and drafts evidence; manual duty outcomes remain in LAST_COMPLETION. Acceptance: `research/2026-10-12_closeout-improvements/REPORT.md`. No new routing law, owner grade or unattended run.
 
 **Authorization repair (2026-10-12T16:21:08Z):** read-only bookmark GET and automatic renewal both PASS; processed history unchanged. Receipt: `outbox/2026-10-12_x-authorization-restored.md`.
 
-**Fresh context entry:** LAST_COMPLETION.md is the complete open duty/design list. Session closeout receipt: `outbox/2026-10-12_session-closeout.md`. No active WALTER helper or unread top-level substantive packet remains at the final scan; do not infer any other desk’s closure.
+**Fresh context entry:** LAST_COMPLETION.md is the complete open duty/design list. This reboot is active; prior closeout receipt is historical. Both narrow verify helpers answered explicit closeout asks; top-level/DEWEY/REQ scans empty. Nine keyed bookmark assessment gaps remain. Do not infer any other desk’s closure.
 
 **Later normal intake:** OZK L690 Horton qualifier routed in signal010; current occupancy unresolved, historical credit-bid/model limits preserved. Source author subsequently committed the packet; read hash matched and WALTER archived/declared consumption, per owned intake receipt.
 
@@ -43,9 +45,9 @@ Manual source watch: `research/tanker-cost-watch/WATCH.md`, STATE.csv, REVIEWS.t
 
 **Coordination capability update (2026-10-12T15:25:52Z):** existing WALTER native Codex thread `01a13087-79e5-7e92-9b7a-65a266b0cb1b` observed from CODEX_THREAD_ID. Installed CLI0.162.0 supports `codex queue --thread --message`; exact PROME-pair notification accepted (message01a130b8-a7e7-7421-9d17-0c1380c48b83), recorded in `outbox/2026-10-12_to-PROME_desktop-coordination-queue-receipt.md`; consumption remains unverified. This corrects the earlier model-tool-only transport limitation as a lasting claim; cross-runtime fleet census remains UNKNOWN. Existing market routing ownership and approvals retained.
 
-Regenerated after13 from the refreshed REGISTRY at2026-10-12T16:41:43Z; focused owner headers:PROME,REGINALD,BRENT,OZK,TERRY,WATT plus WALTER state. Other header vintages are carried, not a fresh whole-fleet review. No role, owner grade, readiness class or launch authority changed. Older Updated rows (≥7d; age is not DARK): YEYOU 2026-09-05 (37d; RETIRED), RAV 2026-08-02 (71d; YELLOW), OTTO 2026-10-04 (8d; RED2), ATHENA 2026-03-14 (212d; GREEN), CRUISE 2026-10-03 (9d; RED), DARWIN 2026-02-18 (236d; YELLOW), CREED 2026-10-01 (11d; ORANGE), SENTRY 2026-09-24 (18d; YELLOW), DEWEY 2026-09-10 (32d; YELLOW), MIDAS 2026-10-02 (10d; YELLOW), HOMER 2026-10-02 (10d; RED), FLG 2026-10-01 (11d; YELLOW), YURI 2026-10-02 (10d; YELLOW).
+Reboot registry refresh preceded this regeneration at2026-10-12T17:05:03Z; six changed owner headers refreshed, others retain dated owner inputs. Header snapshot is scoped; no whole-fleet data clearance or liveness census. Older Updated rows (≥7d; age is not DARK): YEYOU 2026-09-05 (37d;RETIRED), RAV 2026-08-02 (71d;YELLOW), OTTO 2026-10-04 (8d;RED2), ATHENA 2026-03-14 (212d;GREEN), CRUISE 2026-10-03 (9d;RED), DARWIN 2026-02-18 (236d;YELLOW), CREED 2026-10-01 (11d;ORANGE), SENTRY 2026-09-24 (18d;YELLOW), DEWEY 2026-09-10 (32d;YELLOW), MIDAS 2026-10-02 (10d;YELLOW), HOMER 2026-10-02 (10d;RED), FLG 2026-10-01 (11d;YELLOW), YURI 2026-10-02 (10d;YELLOW).
 
-Today’s ACTION addresses: LIQUID2, BOND1, FALCON3, BRENT3, OZK1, BROCK1, TERRY3, CARL2, REGINALD1, CREED1. Exemptions and roles follow canonical per-desk delivery rules; TERRY receives ACTION by BOARD ID-diff, CARL receives ACTION handoffs, RED/PROME INFO by ID-diff. There are45 handoff rows; their delivery/consumption distinction and origin proof are in LAST_COMPLETION.
+Today’s ACTION addresses include reboot HANS1/VULCAN1 plus prior LIQUID2, BOND1, FALCON3, BRENT3, OZK1, BROCK1, TERRY3, CARL2, REGINALD1, CREED1. Exemptions and roles follow canonical per-desk delivery rules; TERRY receives ACTION by BOARD ID-diff, CARL receives ACTION handoffs, RED/PROME INFO by ID-diff. There are51 handoff rows; their delivery/consumption distinction and origin proof are in LAST_COMPLETION.
 
 Receiving telemetry at the pre-closeout doctor:82 unconsumed>2d across16 desks,28ACTION/54INFO, oldestACTION10d; ages use timestamp_routed, one mtime fallback across the full scan. Current fleet visibility UNKNOWN: no native census/cross-runtime messaging instrument. ORCH_INFLIGHT is a partial generated view, not a proof of absence; concurrent owner writes and same-day owner receipts provide partial evidence. No desk was declared DARK merely because a tool was unavailable, and no duplicate spawn/doorbell was issued on that basis. Action-address readiness evaluations are saved in `receivability.tsv`.
 

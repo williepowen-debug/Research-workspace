@@ -1,0 +1,9 @@
+{
+  "assessed_at": "2026-10-12T17:07:45.790063+00:00",
+  "cutoff": "2026-08-13T17:07:45.790063+00:00",
+  "scanned": 410,
+  "age_basis": "last path commit timestamp",
+  "age_eligible": [],
+  "disposition": "No age-eligible files, no moves",
+  "new_reboot_artifacts": "authored today; underlying historical source vintages are not refreshed"
+}
