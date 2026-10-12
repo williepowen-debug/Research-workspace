@@ -43,6 +43,8 @@ WQ401 set sub-question remains Will’s (dueOctober14). WQ388 unattended WALTER 
 
 ## FOLLOW-UP
 
+**YURI SIG031 coordination resolved2026-10-12T21:54:08Z:** scoped COR31 NO-OP receipt13c03ac6c and current acted board row verified. WALTER authorbf00c875c is published; YURI already filed unchanged at4c40443c7, so no author-persistence or filing gap remains. Proof research/2026-10-12_prome-directed-followup/YURI-SIG031-receipt-proof.json; other recipients and R1 closure separate. No new research/grade or peer edit.
+
 **Named LIQUID dependency checked2026-10-12T21:49:09Z:** exact SHADE request160c0c08d verified; four actual recipient surfaces,0 matching receipts. Actual LIQUID consumption UNKNOWN, no presence/absence inference or duplicated request/owner. Prior result/transport publication confirmed at2026-10-12T21:50:59Z:110/110 day handoffs origin-proven, no own push. Preserve SHADEOctober13 post-close inputs and missing-input grade withholding. PROME actual acceptance ofbf00c875c is now verified at its committed orchestration receipt; current own proof corrected, other recipients remain separate. Findings research/2026-10-12_prome-directed-followup/LIQUID-consumption-check.md.
 
 **Follow-up persistence/notification 2026-10-12T21:46:44Z:** resultbf00c875c9506c18179a16dc7b10a84a1d3db267 committed,42 paths/0 unexpected. PROME and YURI exact-thread queues accepted the committed pointers; no recipient consumption inferred. Immutable task result is in PROME/inbox; owned queue receipt outbox/2026-10-12_prome-directed-followup-queue-receipt.md and proofJSON carry exact acknowledgments. New publication still pending at the saved observation; no own push or lifecycle closeout.
@@ -106,7 +108,7 @@ SessionACTIVE; bootPARTIAL. Routine full checkpoint at2026-10-12T21:06:26Z clear
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-12T21:50:59Z",
+  "as_of": "2026-10-12T21:54:08Z",
   "publication": [
     {
       "commit": "3cacce310",
@@ -340,7 +342,7 @@ SessionACTIVE; bootPARTIAL. Routine full checkpoint at2026-10-12T21:06:26Z clear
       },
       {
         "path": "AGENTS/WALTER/research/2026-10-12_prome-directed-followup/persistence-and-notification.json",
-        "sha256": "5b603afc6f643e0c54bdf107bfe4805d5f6eda3da5441745ff6f9d48f2ea4512",
+        "sha256": "1f1f58b857ddadd7aec4730bce0f69228a37938e681045c4835a546d4a8ae053",
         "note": "Actual persistence/queue acknowledgments plus PROME committed receiver acceptance of exact bf00c875c; LIQUID/HAWK/DEWEY consumption remains separate."
       },
       {
@@ -357,6 +359,16 @@ SessionACTIVE; bootPARTIAL. Routine full checkpoint at2026-10-12T21:06:26Z clear
         "path": "AGENTS/WALTER/research/2026-10-12_prome-directed-followup/LIQUID-consumption-check.json",
         "sha256": "05e626a19fa2ddb996f39bd75c74b414a4ce0423512662ba91448fb0ab7995de",
         "note": "Named request160c0c08d actual consumption UNKNOWN in four actual recipient surfaces; no native acknowledgment or absence claim."
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-12_prome-directed-followup/YURI-SIG031-receipt-proof.json",
+        "sha256": "0ae1a9eea655aa75ef7eec435a76563f4c02dcb681b13ca944bf99cd2c84e7f6",
+        "note": "Committed YURI scoped NO-OP/acted receipt and exact-byte owner filing; no author-persistence gap remains. Other recipients and grades separate."
+      },
+      {
+        "path": "AGENTS/WALTER/outbox/2026-10-12_YURI-SIG031-persistence-resolved.md",
+        "sha256": "188c54607781a1169cc0edf15ead0a6fe04bc8aa9984b1f535d4c3801493f0ef",
+        "note": "Committed YURI scoped NO-OP/acted receipt and exact-byte owner filing; no author-persistence gap remains. Other recipients and grades separate."
       }
     ]
   },

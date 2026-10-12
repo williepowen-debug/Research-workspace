@@ -1,0 +1,20 @@
+{
+  "observed_at": "2026-10-12T21:54:08Z",
+  "signal": "SIG-W-20261012-031",
+  "correction": "COR-20261012-31",
+  "receipt_commit": "13c03ac6c62bbf6af37f1624837dbb03890062b2",
+  "receipt_row": "2026-10-12T21:39Z\tCOR-20261012-31\tNO-OP\tscope=YURI already holds the source-qualified Tsentr correction in consumed commit6db3b1ded and current state, with no mobilisation or NATO deployment inference; artifact=AGENTS/YURI/research/2026-10-12_actor-review-and-diesel-instruments.md#A counter-indicator needs correction at its owner; WALTER return signal read and retained, no new claim or grade required",
+  "current_board_row": "2026-10-12T21:39:23+00:00\tSIG-W-20261012-031\tacted\tWALTER\tReturned YURI Tsentr correction retained, already in 6db3b1ded and current state. COR-20261012-31 NO-OP receipted with scoped existing-qualification proof. No new grade, watch, mobilisation or NATO-deployment inference. Sender persistence was pending at the initial read. Author commit bf00c875c verified and packet filed unchanged at 2026-10-12T21:47:52+00:00; existing COR-20261012-31 receipt retained.",
+  "author_commit": "bf00c875c9506c18179a16dc7b10a84a1d3db267",
+  "filed_commit": "4c40443c73a83bdb68d86ca8fd0db5b6c48e9578",
+  "processed": "AGENTS/YURI/inbox/WALTER/processed/SIG-W-20261012-031.md",
+  "sha256": "a36a70d6a1285987e12365205f42486ffec27e0fe407d111d43143fb9d863892",
+  "exact_bytes_match": true,
+  "origin_ref": "4c40443c73a83bdb68d86ca8fd0db5b6c48e9578",
+  "publication": {
+    "13c03ac6c": true,
+    "bf00c875c": true,
+    "4c40443c7": true
+  },
+  "disposition": "YURI consumed, scoped NO-OP because source-qualified correction already held; author persistence gap resolved and owner filing complete. No new research/grade. HAWK/OSPREY and other named R1 receipts remain separate."
+}

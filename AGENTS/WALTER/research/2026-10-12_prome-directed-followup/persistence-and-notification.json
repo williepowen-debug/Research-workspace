@@ -71,7 +71,7 @@
       "thread": "01a131e4-8224-7572-a1c0-feb7acebbb96",
       "exit": 0,
       "ack": "Queued message 01a13214-2ebf-7be3-9dac-cbfcdca6fde9 for thread 01a131e4-8224-7572-a1c0-feb7acebbb96.",
-      "consumption": "UNKNOWN; queue acceptance only"
+      "consumption": "CONFIRMED: scoped NO-OP receipt13c03ac6c; board_log acted; exact authorbf00c875c packet filed unchanged by YURI4c40443c7. Initial uncommitted-at-read gap resolved."
     },
     "HAWK_OSPREY": "Fleet presence UNKNOWN at dispatch; durable handoffs saved, consequential HAWK gap named to PROME. No DARK or launch inference."
   },
@@ -97,5 +97,10 @@
     },
     "WALTER_push": false,
     "consumption": "PROME original result confirmed separately; LIQUID/HAWK/DEWEY remain UNKNOWN in their scopes"
+  },
+  "YURI_consumption_evidence": {
+    "observed_at": "2026-10-12T21:54:08Z",
+    "proof": "AGENTS/WALTER/research/2026-10-12_prome-directed-followup/YURI-SIG031-receipt-proof.json",
+    "scope": "SIG031/COR31 only; no new grade or inference about another recipient."
   }
 }
