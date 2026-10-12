@@ -21,3 +21,24 @@ RESULT: 548 tracked paths inventoried,2 guard defects repaired,2 historical QQQ 
 GAPS: Accepted October12 observation unavailable because source proof is missing; separate L684/L687/VIOLET/Git-repair acceptance and risk-rule proposal remain open; general cross-card parser limitation remains. Publication deferred under prior review rejection.
 WILL_NEEDS: No new trade/capital decision; earlier specific publication approval request remains pending.
 FOLLOW-UP: Existing qualifying-source/management/event clocks and PROME consumption of sweep/L372 disposition; no new commission or closeout.
+
+
+## Will-authorized computer-failure checkpoint — 2026-10-12T15:13:12-04:00
+
+User directly relayed Will's explicit authorization for the **shared committed train**, with PROME handling safe push. This supersedes the earlier pending specific publication-approval wording **for this checkpoint**; the prior rejection receipts remain dated history. No TERRY push/peer workaround, new study/screen, trade/capital/rule change or lifecycle closeout. Existing work continues.
+
+Before this checkpoint, all ready owned work/packets were already committed: repairse2f797d6e, prospective UNKNOWN/source-statefdeb3336b, PROME/BRENT delivery9b86f1062, native pointer receipt04dbc1c27. Current own-tree/packet check found no unfinished/uncommitted TERRY files. Foreign dirty/untracked sources/signals/caches and staging were left untouched. Later in-flight source intake is not swept or certified consumed. Named correction check currently0owed/11receipts against70registry rows; desk inbox0.
+
+PROME report exactly matches **246a84f11**: full sweep/NOTE/L372 consumed; **L372 RESOLVED** by its original owner-supersession branch, with terminal original gates independently checked. That receipt does not independently accept the guard code; general parser/source limits remain. It also reports coree2/fdeb included in the confirmed5305a7b58 backup. Latest packet9b86/receipt04dbc and this checkpoint require PROME's actual final safe-push proof; no fresh publication certification by TERRY at this touch.
+
+Current STATUS/MEMORY now carry checkpoint authorization and the actual consumption receipt. Accepted October12 VLO number remains unavailable; A-notice/A-exit UNKNOWN, B1–B3 not assessed at that touch. L684/L687/VIOLET/Git-repair acceptance, separate risk-rule proposal, broker/source gaps and existing future management/evidence clocks remain open.
+
+Checkpoint validation after state edits: ledger A–Hrc0/31IDs/22surfaces/18cards and0undrained inbox; weekday4files/whitespace clean; read-caprc0 within7-file heuristic, STATUS24211B (not just rotated), charter31610B/injection coverage unconfirmed. Attention nudge flagged five unchanged ledgers: board_log (no new BOARD consumption performed at this publication-only touch), CALIBRATION (no forecast/grade), PAPER_BOOK (no new fill/mark), SIGNALS (no new source/decay action), daytradeLEDGER (no session intake). Existing attention vintages stay honest; no fabricated row/stamp. Source and future duties are preserved, not discharged by this checkpoint.
+
+## COMPLETION — TERRY — 2026-10-12
+STATUS: DONE (ready-owned-work checkpoint; continuing session)
+CHANGED: STATUS.md, MEMORY.md, existing delivery addendum, self-authored PROME checkpoint packet.
+RESULT: All ready owned repairs/grade/packets already committed; checkpoint reconciles explicit push authorization and actual PROME sweep/L372 consumption. Zero new market study/order/capital action.
+GAPS: Final exact remote proof awaits PROME safe push; prior substantive source/independent acceptance limits preserved. No unfinished owned file observed.
+WILL_NEEDS: None; current checkpoint publication authorization is explicit.
+FOLLOW-UP: PROME includes checkpoint commit in final authorized push; existing TERRY work and clocks continue, no closeout.
