@@ -1,0 +1,15 @@
+{
+  "observed_at": "2026-10-12T18:26:01-04:00",
+  "sender_thread": "01a131e1-41b2-7f91-aa98-d383b9a2060e",
+  "recipient_thread": "01a131cf-1c7d-7900-9dcf-d98af587e290",
+  "transport": "supported codex queue --thread --message, approved runtime escalation",
+  "result_commit": "9e942cecd",
+  "result_path": "PROME/inbox/2026-10-12_from-SHADE_targeted-freshness-result.md",
+  "returncode": 0,
+  "actual_receipt": "Queued message 01a13238-93ba-7841-bea5-b2db1dd8f013 for thread 01a131cf-1c7d-7900-9dcf-d98af587e290.",
+  "notification": "accepted",
+  "recipient_consumption": "unverified; PROME must read exact committed result and record disposition",
+  "publication": "committed locally; no new origin receipt collected in this checkpoint",
+  "lifecycle_closeout": false,
+  "research_repeated_for_notification": false
+}
