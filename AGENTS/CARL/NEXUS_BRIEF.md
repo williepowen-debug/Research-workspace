@@ -3,7 +3,7 @@
 **Status:** 🔴 Registered 53/70 unchanged; October12 scope review challenges broad spending convergence.
 **Domain:** U.S. consumer financial stress and downstream household transmission; bank-level credit belongs to REGINALD.
 **Thesis version:** v2.6.6
-**As of:** 2026-10-12 14:08 ET | **STATUS commit:** c7ca374df
+**As of:** 2026-10-12 14:13 ET | **STATUS commit:** 167a6fda5
 **Position:** No capital authority. Paper references only; no marks or broker position claims.
 
 ## CROSS-DOMAIN
@@ -14,7 +14,7 @@
 |---|---|---|
 | PROME (sent10/12) | Scope finding and L672 disposition, `PROME/inbox/2026-10-12_from-CARL_scope-review-and-data-catchup.md` | Review/command repair/retirement done; EART source gap retained. No new decision or capital proposal. |
 | WALTER (sent10/12) | Newly found BofA October9 spending, SCF denominator resolution, Canadian tariff tail, Epiq source inconsistency | Dedupe and route signals; no direct bypass to signal consumers. Source packet in its inbox. |
-| DEWEY (sent10/12) | DR1 Q2 working artifact read; card current-cohort/book ratios are not causal suppression | Class-wide50bp test NOT COMPUTABLE, not zero. Original DEWEY source/packet untracked at18:05UTC; finalized delivery remains pending. Existing Q3 refresh11/13, no new commission. |
+| DEWEY (sent10/12) | DR1 Q2 working artifact read; card current-cohort/book ratios are not causal suppression | Class-wide50bp test NOT COMPUTABLE, not zero. DEWEY source finalizedeb1213301 andhashmatched;Q2integrationcomplete. Existing Q3 refresh11/13, no new commission. |
 | TERRY (sent10/10) | TRY-FIRE-002 CRL21 premise: KEEP DORMANT, vintage leg25% unchanged | Prior answer stands; new result due at Q3 issuer print, packet either way. |
 | RED (staged in owned counter-log, historical) | DR3 premium leg unresolved; earlier tariff pulse faded | October12 source finding adds Canadian pass-through tail; no blanket forward-driver removal. New signal routing goes through WALTER. |
 | HOMER (prior join) | V10 joins its C1+A1; broader C2 is not identical to CARL's Fannie-based V3 | Do not inherit HOMER C2score4 into V3score3. Its August Fannie0.57%/Freddie0.64% diverge (peer evidence, no fresh CARL primary pull). |
@@ -27,7 +27,7 @@
 | SEC / own pull | Four registered EART August exhibits |10/14retry| Card remains source-incomplete; detect filing is not parse collection period/grade. |
 | Census | September retail |10/15| First official September control/T1 read; benchmark update is not new month. |
 | SYF / ALLY / COF | Q3 prints |10/20:~06:00/~07:30/16:05ET, IR-confirmed10/12| CRL21 surviving vintage leg, CRL20 count, CRL31 reachability. TERRY receives CRL21 result either way. Other issuer dates not covered. |
-| DEWEY | Final committed Q2 card artifact and existing Q3 refresh | Q2 commit pending;Q3by11/13| Reconcile source hash against finalized version; do not treat cohort scale as hidden-DQ wedge. |
+| DEWEY | Existing Q3 card refresh | Q2finalizedeb1213301;Q3by11/13| Reconcile source hash against finalized version; do not treat cohort scale as hidden-DQ wedge. |
 | STUE | ES01/04/06 grades | overdue10/02;parentreview10/14| Cure vs inflow; no launch in this session, PROME separate owner/slate. |
 | LABOR / BLS | October NFP |11/06,08:30ET| V16 earliest new print1; drop-back0/2 after10/02. |
 | FSA |9/30data public refresh|~mid/lateDecember,inferred| SAVE/RAP stock is not a non-selection wave rate; denominator required. |
@@ -46,7 +46,7 @@
 - **Conviction:** concentrated consumer credit/affordability strain MEDIUM-HIGH; populationwide spending-collapse claim UNESTABLISHED; timing MEDIUM. Registered score is a threshold tally with shared roots, not14 independent confirmations.
 - **Diverge from market by:** lower-quality credit and affordability can remain strained while aggregate/selected-customer spending grows. Magnitude and population coverage still unresolved; no measured aggregate spending collapse claimed.
 - **Cross-agent tensions:** BofA measured growth across cohorts versus CARL's older downward-convergence assertion. The current assessment carries the contradictory observation rather than assuming masking wins. Michigan and SCF measure intentions/history, not a refutation of observed September spending.
-- **Uncertain about:** EART's inaccessible Augustdeep values/cures; bottom-cohort outlays outside bank customers; borrower cures vs fewer new defaults; modification counterfactual and class-wide overlap. Late DR1 source is not yet committed by its author.
+- **Uncertain about:** EART's inaccessible Augustdeep values/cures; bottom-cohort outlays outside bank customers; borrower cures vs fewer new defaults; modification counterfactual and class-wide overlap. DR1finalsourcehashverifiedatcommit eb1213301; Q3remainsfuture.
 - **RED counter-frame:** containment/spending resilience has concrete current evidence. The scope finding adopts that limitation without inventing broad household healing or bypassing registered kill tests.
 - **Failure patterns:** source identity and collection-period discipline; stock/flow; survey vs realized behavior; same-vintage revision comparisons; current modified balances vs causal hidden delinquency. CRL05GFC13.74%bar stays retired. No confidence walk or early grading.
 
@@ -68,4 +68,4 @@
 |11/06| NFP | Earliest V16 new print1 |
 |11/12–13| PHAN/POLLY;DR1Q3 | Existing source gates/commission, no new research launch |
 
-**Delivery / gaps:** scope/evidence persisted atc7ca374df; three self-authored packets committed. Source-incomplete EART, child data-clock warnings and uncommitted late DEWEY input remain material. RawPDF/HTML local under repo ignore; text, publicSCFZIP/CensusXLSX and computations tracked. Checks passed with6soft advisories; safe-push rejected twice beforeexecution byautomaticreview (sharedmasterpublicationrequiresdirectuserapproval). Remoteverifiedread-only, no publicationreceipt. Localdeliveryisnotremoteorrecipientconsumption.
+**Delivery / gaps:** scope/evidence persisted atc7ca374df; three self-authored packets committed. Source-incomplete EART, child data-clock warnings and DR1class-widecounterfactual remainmaterial (Q2sourcefinalized). RawPDF/HTML local under repo ignore; text, publicSCFZIP/CensusXLSX and computations tracked. Checks passed with6soft advisories; safe-push rejected twice beforeexecution byautomaticreview (sharedmasterpublicationrequiresdirectuserapproval). Remoteverifiedread-only, no publicationreceipt. Localdeliveryisnotremoteorrecipientconsumption.
