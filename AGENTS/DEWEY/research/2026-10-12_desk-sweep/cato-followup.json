@@ -23,9 +23,9 @@
       "scope": "Read9232d7829 gas-helper change for INFO; use at future touches, no cadence/forecast/HANS grade change. Not independent implementation acceptance."
     },
     "CARL": {
-      "state": "COMBINED-IMPLICATION-CONSUMED-IN-WORKING-OWNER-RECORD, AUTHOR-COMMIT-PENDING",
+      "state": "CORRECTED-VERSION-CONSUMED-IN-WORKING-OWNER-RECORD, AUTHOR-COMMIT-PENDING",
       "artifact": "AGENTS/CARL/workbook/KB.tsv KB-CARL-518; STATUS.md DEWEY commissions; own received finalized-source receipt",
-      "scope": "Read full receipt and methods assessment. CARL reconciled97.4/22.5 and31.8 illustrations, incompatible FHA/card counterfactual/denominator limits and NOT COMPUTABLE. Receipt cites9232d7829; later e6f065cb5 wording-specific receipt still queued, not assumed.",
+      "scope": "Later receipt explicitly verifies e6f065cb5 and matching sourceSHA256. Corrected header/key finding/flow table/policy timing/aggregation read alongside Q2cards. CARL live FHA row/methods record andKB530 retain accounting-versus-policy limits; no owner grade/weight change. Source hash independently compared by DEWEY.",
       "receipt": "AGENTS/DEWEY/inbox/2026-10-12_from-CARL_DR1-erratum-consumed-and-measurability-assessed.md",
       "methods_artifact": "AGENTS/CARL/domain/sources/2026-10-12_DR1-measurability.md"
     },
@@ -38,7 +38,8 @@
       "correction": "COR-20261012-25",
       "artifact": "BOARD/SIG-W-20261012-025-CORRECTION-fha-aggregation-97point4-not-causal-kill.md",
       "receipt": "AGENTS/DEWEY/inbox/WALTER/SIG-W-20261012-025.md",
-      "scope": "Read full card/receipt; explicit correctsSIG-W-20260828-009, ruled arithmetic and accounting-vs-policy limits. Extra-decimal typo corrected by additive source marker; rounded31.8 unchanged. Peer artifacts untracked at read, not staged by DEWEY."
+      "scope": "Read full card/receipt; explicit correctsSIG-W-20260828-009, ruled arithmetic and accounting-vs-policy limits. Extra-decimal typo corrected by additive source marker; rounded31.8 unchanged. Peer artifacts untracked at read, not staged by DEWEY.",
+      "historical_link_verified": true
     }
   },
   "transport": {
@@ -59,5 +60,6 @@
     "deadline": "2026-10-14",
     "source_publication_dependency": "EIA weekly page names next releaseOct15; after deadline. Preserve partial limits rather than infer zero flow."
   },
-  "consumer_checkpoint_utc": "2026-10-12T19:24:23.403755+00:00"
+  "consumer_checkpoint_utc": "2026-10-12T19:28:28.044850+00:00",
+  "working_evidence_backup": "AGENTS/DEWEY/research/2026-10-12_desk-sweep/cato-consumption-working-snapshots.json"
 }
