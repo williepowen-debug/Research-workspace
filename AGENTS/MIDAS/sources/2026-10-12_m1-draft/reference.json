@@ -1,0 +1,121 @@
+{
+  "calculated_at": "2026-10-12T22:12:41.218875+00:00",
+  "design_commit": "ad1c2f443",
+  "design_sha256_before_calculation": "15de067d036cc338d1e735faec1d779134abe64dd75a42ab74d1656dc99ef934",
+  "input_sha256": {
+    "GLD.csv": "fb96ca3ba081b5a0077e7886d380b757bfcf1dda42769204c1bb37d47b738b89",
+    "DFII10.json": "5387232736d2241755e661bda9b30e639373280e80f9d5cf22df39394d4858e0",
+    "GLD_DFII10_pairs.csv": "b5bab33a894f52c130bcf9a6522ae65176557023f2faea6c8fd6dda442f31f05",
+    "summary.json": "083442e5d913040d8ca56761c18a122370d5ec79f7d4b2d9d4a92da318a4baf1"
+  },
+  "input_capture": "2026-10-12T16:54:07.850757-04:00",
+  "reference_vintage": "latest revised as saved October 12; not historic real-time vintages",
+  "parameters": {
+    "window": 120,
+    "horizon": 20,
+    "flip": -0.08,
+    "beta_round_decimals": 6,
+    "dy_bp_round_decimals": 8,
+    "disjoint_grid": "119 + 141k, zero-based"
+  },
+  "pairs": {
+    "n": 690,
+    "first": "2024-01-03",
+    "last": "2026-10-08",
+    "different_interval_starts": 6,
+    "corporate_actions": 0,
+    "return_reconstruction_max_error": 0.0,
+    "yield_reconstruction_max_error": 0.0
+  },
+  "rolling_endpoints": 571,
+  "overlapping_anchor_count": 551,
+  "overlapping_counts": {
+    "starting_below": {
+      "n": 148,
+      "A": 128,
+      "B": 20,
+      "B_frequency": 0.13513513513513514
+    },
+    "starting_at_or_above": {
+      "n": 403,
+      "A": 40,
+      "B": 363,
+      "B_frequency": 0.9007444168734491
+    }
+  },
+  "disjoint_episode_count": 4,
+  "disjoint_counts": {
+    "starting_below": {
+      "n": 0,
+      "A": 0,
+      "B": 0,
+      "B_frequency": null
+    },
+    "starting_at_or_above": {
+      "n": 4,
+      "A": 0,
+      "B": 4,
+      "B_frequency": 1.0
+    }
+  },
+  "raw_level_support_disjoint": true,
+  "statistically_independent_macro_episodes": "UNKNOWN; disjoint input support is not independence",
+  "forward_probability": "UNASSIGNED; short revised history and few disjoint episodes",
+  "construction_checks": {
+    "below": {
+      "beta": -0.1,
+      "outcome": "A",
+      "pass_check": true
+    },
+    "tie": {
+      "beta": -0.08,
+      "outcome": "B",
+      "pass_check": true
+    },
+    "above": {
+      "beta": -0.05,
+      "outcome": "B",
+      "pass_check": true
+    },
+    "zero_variance": "STUCK"
+  },
+  "descriptive_contiguous_below_flip_spells": [
+    {
+      "first": "2024-10-03",
+      "last": "2024-11-29",
+      "anchors": 39,
+      "B": 15
+    },
+    {
+      "first": "2024-12-18",
+      "last": "2024-12-18",
+      "anchors": 1,
+      "B": 1
+    },
+    {
+      "first": "2024-12-23",
+      "last": "2024-12-27",
+      "anchors": 4,
+      "B": 4
+    },
+    {
+      "first": "2026-03-26",
+      "last": "2026-03-26",
+      "anchors": 1,
+      "B": 0
+    },
+    {
+      "first": "2026-04-01",
+      "last": "2026-04-01",
+      "anchors": 1,
+      "B": 0
+    },
+    {
+      "first": "2026-04-16",
+      "last": "2026-09-10",
+      "anchors": 102,
+      "B": 0
+    }
+  ],
+  "clustering_note": "Descriptive grouping of the same anchors; contiguous spells are not independent episodes, and no grid/horizon was refitted."
+}

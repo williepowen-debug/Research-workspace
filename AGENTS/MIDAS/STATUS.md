@@ -1,6 +1,6 @@
 # MIDAS — STATUS
 
-**Last Updated:** 2026-10-12T17:36:35-04:00 — PROME-directed bounded PGM follow-up after the consumed broad review. **Composite 8/20 unchanged.** Broad sources/prices remain at their stated vintages; follow-up `analysis/2026-10-12_PGM-inventory-flow-followup.md` adds activity10/9 warehouse evidence and issuer10/9 metadata. Prior broad review: `cad8c1c12`.
+**Last Updated:** 2026-10-12T18:15:55-04:00 — PROME second-round M1 successor DRAFT; prior broad review and bounded PGM result consumed under committed41f7b72e4. No market-data refresh this round. **Composite 8/20 unchanged.** Broad sources/prices remain at their stated vintages; follow-up `analysis/2026-10-12_PGM-inventory-flow-followup.md` adds activity10/9 warehouse evidence and issuer10/9 metadata. Prior broad review: `cad8c1c12`.
 **Class:** Market-agent · Fleet maturity L4 · Cadence WEEKLY · five-leg boot: metals, ledger staleness, predictions, gold COT, Ag/Pt/Pd COT.
 
 ## LIVE MARKS AND BASIS
@@ -78,7 +78,7 @@ Rules remain on their 8/7 re-derived letter; observations updated 10/12. Histori
 
 ## OPEN ON MIDAS — TOP 3
 
-1. **M1 live successor remains owed:** today's beta remeasurement is diagnostic, not a score-changing new letter. Window/vintage/basis/base-rate design must be prospective; WQ-161/162 apply. Review by **10/19 next weekly boot**.
+1. **M1 draft delivered; live successor remains unregistered:** `analysis/2026-10-12_M1-successor-DRAFT.md` fixes the existing−0.08 flip, 120-pair beta and a 20-pair endpoint before its reference calculation. Historical flips20/148=13.51% are overlapping observations; the fixed grid has4 disjoint-input episodes, **0 eligible below-flip starts**. Probability withheld: longer comparable/vintage-dated conditional history is missing. Review **10/19**; no activation, score change or forecast row.
 2. **WQ-368 day-31 reading due11/1:** bands already adopted, never call WQ-352 pending. PGM mechanism remains unresolved without lease rates, matched NYMEX stock history and fund flows; latest NYMEX point now retrieved; HAWK's instrument-access negative was delivered9/2, so no sixth asking. BIS check still owed; bounded review10/19.
 3. **I1 venue comparison incomplete:** current COMEX/SHFE series absent; construction→copper lag unknown. September50.3 print integrated; China's causal interpretation stays ZHAO's. MIDAS-09/10 resolve **10/30**; no early grades.
 

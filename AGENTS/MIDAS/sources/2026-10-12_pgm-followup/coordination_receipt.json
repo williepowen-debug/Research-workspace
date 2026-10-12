@@ -11,6 +11,8 @@
   "notification_state": "ACCEPTED",
   "queue_message_id": "01a1320e-f3e9-7cf1-b13b-724ec4836d81",
   "receipt": "Queued message 01a1320e-f3e9-7cf1-b13b-724ec4836d81 for thread 01a131cf-1c7d-7900-9dcf-d98af587e290.",
-  "recipient_consumption": "UNKNOWN until PROME exact-artifact acknowledgment",
-  "lifecycle_closeout_requested": false
+  "recipient_consumption": "CONSUMED",
+  "lifecycle_closeout_requested": false,
+  "consumption_evidence": "41f7b72e4e2baefd97ea35b5d58392fb1ac27a25:PROME/reports/2026-10-12_laptop-round2.md explicitly consumes prior broad and e9b42f85c/3045f0ed9 results",
+  "consumption_reconciled_at": "2026-10-12T18:15:55-04:00"
 }

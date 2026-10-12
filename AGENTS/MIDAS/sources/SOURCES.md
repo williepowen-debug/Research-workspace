@@ -34,3 +34,7 @@
 ## Bounded PGM access update — 2026-10-12
 
 CME primary `delivery_reports/PA-PL_Stck_Rprt.xls`: latest report10/12/activity10/9 retrieved with installed curl_cffi browser-like request after urllib403. Latest inventories accessible; September30 matched history not retrieved. Aberdeen PPLT/PALL public fund pages yield dated10/9 raw NAV/assets/market metadata, but no reported share-count or physical-ounce history in the retrieved payload. Lease rates remain missing in existing accessible sources. One-off evidence only; no monitor/pipeline added. Detail `../analysis/2026-10-12_PGM-inventory-flow-followup.md`.
+
+## M1 historical reference — 2026-10-12 second round
+
+Reused `2026-10-12_review/GLD.csv`, `DFII10.json` and `GLD_DFII10_pairs.csv`: 690 matched ending dates, 2024-01-03→2026-10-08; latest-revised snapshot captured October 12, 16:54:07 ET. Rebuilt pairs match exactly; 6 change-start date mismatches, 0 corporate actions. No older reconstructible raw GLD/DFII10 input was found in MIDAS sources, despite the VECTOR-3 historical summary. Draft/reference evidence in `2026-10-12_m1-draft/`: 4 disjoint-input grid episodes, 0 eligible below-flip starts. Longer conditional raw history and historic as-of vintages are missing. No source refresh, new access search or persistent tool.
