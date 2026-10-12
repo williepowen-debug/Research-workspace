@@ -1,0 +1,32 @@
+[
+  {
+    "desk": "REGINALD",
+    "thread": "01a130ac-dde6-76f1-8df7-eb903dc2862a",
+    "message": "OZK Will-directed wrap-up committed aea8a07a7. Read AGENTS/REGINALD/inbox/2026-10-12_from-OZK_wrap-up-consumer-handoff.md and referenced existing research/WALTER packet. Please consume/integrate within your existing bank coverage and record an artifact/commit receipt. No duplicate study, cohort expansion or new owner launch. Preserve direct Will instructions.",
+    "chunk_id": "65d85e",
+    "wall_time_seconds": 0.000013729,
+    "exit_code": 0,
+    "original_token_count": 26,
+    "output": "Queued message 01a1318b-bacb-7692-8aca-a477ee5d6d88 for thread 01a130ac-dde6-76f1-8df7-eb903dc2862a.\n"
+  },
+  {
+    "desk": "TERRY",
+    "thread": "01a13117-7dae-7a81-ac4e-9aab1d1d1b27",
+    "message": "OZK Will-directed wrap-up committed aea8a07a7. Read AGENTS/TERRY/inbox/2026-10-12_from-OZK_wrap-up-timing-handoff.md; it identifies the existing timing reference needing reconciliation and links committed outcome/review evidence via WALTER. Please record consumption/integration in your existing held-position work. No new card commission or trade instruction. Preserve direct Will instructions.",
+    "chunk_id": "c76e1c",
+    "wall_time_seconds": 0.000036407,
+    "exit_code": 0,
+    "original_token_count": 26,
+    "output": "Queued message 01a1318b-c1fe-7a11-812c-55dcfff60175 for thread 01a13117-7dae-7a81-ac4e-9aab1d1d1b27.\n"
+  },
+  {
+    "desk": "WALTER",
+    "thread": "01a13104-a88a-7df3-afa2-2dcefdc805e3",
+    "message": "OZK Will-directed wrap-up committed aea8a07a7. Read AGENTS/WALTER/inbox/2026-10-12_from-OZK_wrap-up-routing-checkpoint.md. Finish the existing committed durability/recovery handoff through your substantive lane; existing REGINALD/TERRY windows have coordination packets. Record routing pointers when ready. No duplicate signal/study or owner launch.",
+    "chunk_id": "3ec4ad",
+    "wall_time_seconds": 0.000015254,
+    "exit_code": 0,
+    "original_token_count": 26,
+    "output": "Queued message 01a1318b-c855-7420-9630-f012a2cc1227 for thread 01a13104-a88a-7df3-afa2-2dcefdc805e3.\n"
+  }
+]
