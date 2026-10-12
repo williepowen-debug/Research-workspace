@@ -1,0 +1,16 @@
+{
+  "observed_at": "2026-10-12T21:40:36.560212+00:00",
+  "owner_thread": "01a131e1-82c3-7702-beae-4992d53e8fd5",
+  "recipient": "PROME",
+  "recipient_thread": "01a131cf-1c7d-7900-9dcf-d98af587e290",
+  "transport": "supported codex queue --thread --message, local help verified",
+  "address_source_commit": "004656ce2",
+  "result_commit": "e9b42f85c",
+  "packet_commit": "3045f0ed9",
+  "packet": "PROME/inbox/2026-10-12_from-MIDAS_prome-directed-followup.md",
+  "notification_state": "ACCEPTED",
+  "queue_message_id": "01a1320e-f3e9-7cf1-b13b-724ec4836d81",
+  "receipt": "Queued message 01a1320e-f3e9-7cf1-b13b-724ec4836d81 for thread 01a131cf-1c7d-7900-9dcf-d98af587e290.",
+  "recipient_consumption": "UNKNOWN until PROME exact-artifact acknowledgment",
+  "lifecycle_closeout_requested": false
+}
