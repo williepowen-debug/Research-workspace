@@ -1,10 +1,8 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-10-12 15:04 EDT — SCOPED-PARTIAL existing afternoon continuation:** CME15:02 retry still empty. TERRY saved leg-A notice/exit UNKNOWN; source in-flight, exact copy/hash retained pending owner commit. [Audit/follow-up](audits/2026-10-12_desk-health/REPORT.md#existing-afternoon-continuation). No new consequence/order/phase; L633 physical gaps and DEWEY/October15 dependencies retained.
+**Last real data refresh: 2026-10-12 15:04 EDT — SCOPED-PARTIAL:** CME15:02 retry empty; October12 TERRY A-notice/A-exit UNKNOWN now verified committed atfdeb3336b. Physical/market sources retain their dates. [Audit/follow-up](audits/2026-10-12_desk-health/REPORT.md#existing-afternoon-continuation).
 
-**Fresh-context boot 2026-10-12 12:45 EDT:** 10 checks:8OK/1WARNINGS/1FINDINGS/0FAIL,rc2; Ledger Nudge dispositioned. WQ420 encoding verified at TERRY08158a2c4; PROME L684 acceptance still owed. No new paired crack, storm/refinery or broker evidence; L633/L694 remain open. [Boot receipt](research/2026-10-12_fresh-context-boot/REPORT.md).
-
-**Will-directed closeout 2026-10-12 12:20 EDT:** L689 accepted; TERRY PASS. L694 approved, deferred to fresh context; L633/afternoon work owed. Resume → [SCRATCH](SCRATCH.md). No new data refresh.
+**Will-directed closeout 2026-10-12 15:13 EDT:** [handoff](SCRATCH.md) and [receipt](audits/2026-10-12_desk-health/CLOSEOUT.md). Re-verified saved owner state and exact committed TERRY/PROME receipts; L633/L694 bounded deliveries resolved, physical/source duties remain. L684 independent WQ420 acceptance still owed. No new primary, broker/order, line grade or phase refresh. Publication with PROME; remote confirmation pending.
 
 **Routine deployment stays parked** at the [CATO handoff](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et); saved repair is complete, live deployment/normal-run acceptance unresolved. No trade approval changed. Position status and USO card correction → [TRADE](TRADE.md).
 

@@ -1,0 +1,33 @@
+{
+  "scope": "Read-only closeout checks before writeback; pending/calendar/claims checked again afterward. Ledger nudge dispositioned in CLOSEOUT.md.",
+  "checks": {
+    "predictions": {
+      "exit_code": 0,
+      "output": "  ⏳ Predictions-Due Scan...\n      ✅ no OPEN predictions past (or within 7d of) their timeframe\n"
+    },
+    "pending": {
+      "exit_code": 0,
+      "output": "  ✅ PENDING-RECEIPTS: no unresolved execution receipts or elapsed explicit expiries.\n     Scope: EXECUTION LOG markers and POSITIONS expiry=YYYY-MM-DD fields only.\n     Broker truth and unrecorded trades remain outside this text check.\n"
+    },
+    "calendar": {
+      "exit_code": 0,
+      "output": "✅ CALENDAR: STATUS block matches docket/CATALYSTS.tsv (25 events)\n✅ STANDING STATE: all 8 row(s) stamped and reconciled at or after the newest graded catalyst (2026-10-09).\n"
+    },
+    "corrections": {
+      "exit_code": 0,
+      "output": "CORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for BRENT (register 70 row(s), 0 ALL-warn, 0 ALL-row(s) past cap unreceipted = broadcast expired, not an obligation; receipts on file: 15) — PASS covers the register at /home/willi/Research-workspace/AGENTS/WALTER/registry/CORRECTIONS.tsv and this desk's receipts file, nothing else (it does not prove a receipt's action was correct or that the correction was applied)\n"
+    },
+    "orphan": {
+      "exit_code": 0,
+      "output": "⚠️  uncommitted files outside AGENTS/BRENT/:\n     [not yours]    AGENTS/BROCK/inbox/WALTER/SIG-W-20261012-021.md\n     [not yours]    AGENTS/BROCK/inbox/WALTER/SIG-W-20261012-023.md\n     [not yours]    AGENTS/BROCK/inbox/WALTER/SIG-W-20261012-024.md\n     [not yours]    AGENTS/CARL/domain/sources/2026-10-12_followup/\n     [not yours]    AGENTS/CARL/inbox/WALTER/SIG-W-20261012-017.md\n     [not yours]    AGENTS/CARL/inbox/WALTER/SIG-W-20261012-018.md\n     [not yours]    AGENTS/CARL/inbox/WALTER/SIG-W-20261012-019.md\n     [not yours]    AGENTS/CARL/inbox/WALTER/SIG-W-20261012-020.md\n     [not yours]    AGENTS/CARL/scripts/prepare_auto_outflow_extract.py\n     [not yours]    AGENTS/CREED/inbox/WALTER/SIG-W-20261012-022.md\n     [not yours]    AGENTS/DAEDALUS/STATUS.md\n     [not yours]    AGENTS/DAEDALUS/runs/2026-10-09_CHARTER_SPLIT.md\n     [not yours]    AGENTS/DEWEY/output/2026-08-27_carl-dr1-fha-partial-claims-leg.md\n     [not yours]    AGENTS/DEWEY/output/INDEX.tsv\n     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-017.md\n     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261012-019.md\n     [not yours]    AGENTS/HOMER/inbox/WALTER/SIG-W-20261012-018.md\n     [not yours]    AGENTS/LABOR/inbox/WALTER/SIG-W-20261012-018.md\n     [not yours]    AGENTS/OZK/inbox/WALTER/SIG-W-20261012-022.md\n     [not yours]    AGENTS/OZK/inbox/WALTER/SIG-W-20261012-023.md\n     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261012-018.md\n     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261012-019.md\n     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261012-021.md\n     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261012-022.md\n     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261012-023.md\n     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261012-024.md\n     [not yours]    AGENTS/WALTER/filtered/kill_log.tsv\n     [not yours]    AGENTS/WALTER/registry/BATCH_MANIFEST.tsv\n     [not yours]    AGENTS/WALTER/registry/CORRECTIONS.tsv\n     [not yours]    AGENTS/WALTER/research/2026-10-12_owner-intake/dispatch-proof.json\n     [not yours]    AGENTS/WALTER/research/2026-10-12_owner-intake/dispositions.json\n     [not yours]    AGENTS/WALTER/research/2026-10-12_owner-intake/novelty-hit-proof.json\n     [not yours]    AGENTS/WALTER/research/2026-10-12_owner-intake/signal-plan.json\n     [not yours]    AGENTS/WALTER/research/2026-10-12_owner-intake/verify-ozk.md\n     [not yours]    AGENTS/WALTER/research/2026-10-12_reboot/.cache/\n     [not yours]    AGENTS/WALTER/routed/delivery_log.tsv\n     [not yours]    AGENTS/WALTER/routed/route_log.tsv\n     [not yours]    BOARD/INDEX.md\n     [not yours]    BOARD/SIG-W-20261010-005-fed-SCF-2025-19point6pct-of-families-behind-on-a-loan-payment-vs-12point2-in-2022-highest-since-2010-survey-not-2007-atlanta-140K-filings-are-5-counties-793K-payroll-claim-UNSUPPORTED-CARL.md\n     [not yours]    BOARD/SIG-W-20261012-017-bofa-september-spending-counterevidence-selected-nominal-sample.md\n     [not yours]    BOARD/SIG-W-20261012-018-UPDATE-scf-all-family-delinquency-base-verified.md\n     [not yours]    BOARD/SIG-W-20261012-019-CORRECTION-nyfed-tariff-spent-driver-gloss-omits-canadian-tail.md\n     [not yours]    BOARD/SIG-W-20261012-020-epiq-september-bankruptcy-counts-YTD-prose-inconsistency.md\n     [not yours]    BOARD/SIG-W-20261012-021-iqhq-BPRE-subsequent-common-markdown-alewife-funded-capital.md\n     [not yours]    BOARD/SIG-W-20261012-022-ozk-workout-progress-wauwatosa-sale-jack-partner-boston-lease.md\n     [not yours]    BOARD/SIG-W-20261012-023-CORRECTION-affinius-NEA-warehouse-ABS-ARD-not-corporate-default.md\n     [not yours]    BOARD/SIG-W-20261012-024-fintech-primary-bank-roles-CCBX-books-not-partner-retained-risk.md\n\nℹ️  The [not yours] entries are someone else's work — do NOT commit them.\n   Flag to PROME (or Will) rather than sweeping them into your commit.\n"
+    },
+    "ledger": {
+      "exit_code": 1,
+      "output": "⚠️  nudge: [BRENT] STATUS moving without ledgers — 6 ledger(s) behind: REGISTRY.tsv (38 STATUS-writes behind), LESSONS_INDEX.tsv (25 STATUS-writes behind), INCIDENTS.tsv (23 STATUS-writes behind), COT_VINTAGES.tsv (19 STATUS-writes behind), TRADE.md (1 STATUS-write behind), CATALYSTS.tsv (1 STATUS-write behind) — freeze-or-refresh EACH, or say why not in the commit\n"
+    },
+    "claims": {
+      "exit_code": 0,
+      "output": "CLAIM-CHECK ✓ 5 file(s) clean [weekday]\n"
+    }
+  }
+}

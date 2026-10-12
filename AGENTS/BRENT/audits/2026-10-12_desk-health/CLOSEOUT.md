@@ -1,0 +1,15 @@
+# BRENT — Will-directed computer-switch closeout
+
+**Recorded:** 2026-10-12 15:13 EDT. Actual runtime/session and exact owner-source hashes: [receipt](closeout-receipt.json). Will requested this closeout directly. Root/local instructions remain the recovered session authority; no desk/helper launched.
+
+Saved THESIS v5.12 and TRADE expression assessment remain: wait on new purchases, BNO benchmark-fit candidate only, MPC conditional margin lead/PSX comparison/VLO existing exposure; no demonstrated price edge or new ticket. L694 accepted complete. PROME now records **L633 bounded read RESOLVED** at [consumption receipt](../../../../PROME/reports/2026-10-12_BRENT-L633-consumption.md): Monday survey delivered, four refinery run-states explicitly GAP. This closes bounded delivery, not physical recovery.
+
+TERRY's exact October12 grade at **fdeb3336b** byte-matches the prior received copy: governing November A-notice/A-exit UNKNOWN; B1–B3 not assessed at this scoped touch. Committed publication supersedes the earlier in-flight caveat. Source1 empty, source2 unaccepted, source3 proof incomplete. No new primary request, holding grade, consequence, exit cancellation or order. Prior afternoon evidence and diagnostics remain at the audit; L684 independent WQ420 acceptance stays pending.
+
+Closeout writes STATUS, TRADE, NEXUS_BRIEF, registered TRACKER boundary and template-based SCRATCH. One TERRY packet read/logged/archived with matching payload. No new prediction due, thesis trigger, catalyst, incident, release or durable lesson; frozen ledgers untouched. Calendar, pending-receipt text scope and corrections register checks remain bounded by their output. Prior74tests passed; no code changed requiring another run.
+
+Ledger nudge disposition: REGISTRY letters unchanged; LESSONS_INDEX has no new lesson; INCIDENTS requires real owner/source evidence rather than an age-based status change; COT_VINTAGES has no new print; CATALYSTS was maintained earlier and its25-event render remains matched; TRADE now receives the committed owner grade without a broker/market refresh. No stamp-only ledger refresh. Foreign orphan/dirty files remain with their owners and are flagged to PROME; no pull, stash or peer staging.
+
+Next entry point: [SCRATCH](../../SCRATCH.md), then TRADE and its full decision read paths before any trade decision. October14 USO calls remain subject to standing manual sell-or-roll by Will; current orders/fills unknown. DEWEYOctober14 return, WPSR/IEAOctober15, December basis switch and next COTOctober16 remain at existing carriers. Cloud deployment/config/normal-run acceptance and stale incident-source debts remain explicit. No automatic monitor or new commission created.
+
+Will authorized the shared committed train. PROME handles safe push; closeout notification/remote verification is recorded after this content commit. Earlier publication holds in dated packets are historical. Closeout is saved-state continuity, not certification that remaining evidence is complete.
