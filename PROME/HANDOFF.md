@@ -4,7 +4,7 @@
 
 ## October12 — active owner coordination and L694 acceptance
 
-[Checkpoint](reports/2026-10-12_active-owner-checkin.md) supersedes the earlier pending-stage status: seven existing owner windows contacted through supported Codex queue; BRENT supplied its formal energy WAIT and TERRY completed the comparison. PROME accepted L694. Existing future evidence and afternoon duties remain separate. WALTER signed READS declaration transcribed; owner hash installation remains its next step. CARL/DEWEY are booted and delivering; CARL fintech and REGINALD breadth work are now underway. Transport JSON and ORCH_LOG retain exact identities/receipts; no duplicate owner or closeout. Later research commits remain local where shared publication approval was rejected.
+[Checkpoint](reports/2026-10-12_active-owner-checkin.md) supersedes the earlier pending-stage status: seven existing owner windows contacted through supported Codex queue; BRENT supplied its formal energy WAIT and TERRY completed the comparison. PROME accepted L694. Existing future evidence and afternoon duties remain separate. WALTER signed READS declaration and paired hashes verified MATCH29 (a443436a9); transcription dependency resolved. Charter cap remedy and four CARL/OZK packet dispositions remain. CARL/DEWEY are booted and delivering; CARL fintech and REGINALD breadth work are now underway. Transport JSON and ORCH_LOG retain exact identities/receipts; no duplicate owner or closeout. Later research commits remain local where shared publication approval was rejected.
 
 ## October12 — approved opportunity discovery, existing desktop owners
 
