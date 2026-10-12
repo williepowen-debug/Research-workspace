@@ -89,5 +89,6 @@
 - **Bright Data Web Unlocker (WQ-383 pilot, LIVE 2026-10-04):** `bdata scrape <url>` for a 403'd no-screenshot bookmark link; free tier 5k/mo HARD STOP, Web-Unlocker-only, key in gitignored `.env` (per-machine). Full method+limits+ledger: `design/X_BOOKMARKS_ACCEPTANCE.md` §9a.
 ## Session Notes
 
-**October12 full closeout, Will-requested before context clear:**10 signals (oneFLASH),45 handoffs,19 kills; three transcripts and late OZK Horton qualifier processed; both helpers/four assignments completed with receipts. Publication/gaps: LAST_COMPLETION. No orders or new research direction.
+**October12 handoff saved; coverage PARTIAL:**10 signals (oneFLASH),45 handoffs,19 kills; three transcripts and late OZK Horton qualifier processed; both helpers/four assignments completed with receipts. Publication/gaps: LAST_COMPLETION. No orders or new research direction.
 **Fresh session:** load LAST_COMPLETION first after the required root/local boot reads. Observe new native session ID; installed Codex CLI queue was verified and accepted a PROME coordination reply. Model tools alone do not establish native transport absence. X auth/renewal restored;29 await intake. READS stale attestation, Iran full clockOctober8/loss-basis discrepancy, eligible SKEW bars, DEWEY return and existing expiry cards remain scoped duties. Do not repeat completed L635/L690 searches or invent missing losses.
+Closeout runner: tools/closeout_run.py; details: LAST_COMPLETION.

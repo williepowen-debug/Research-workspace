@@ -1,0 +1,21 @@
+{
+  "as_of": "2026-10-12T16:41:43Z",
+  "reviewed_changes": [
+    {
+      "path": "AGENTS/WALTER/CLAUDE.md",
+      "before": "ecf023acf0a41e36a49085d3adb9ffe978da4a8edeafc0ac2211c56910b7ac37",
+      "reviewed_current_sha256": "0091de857733acf78769ee3894277a6de725a55cdaa0a906f3ce40829c79dec2"
+    },
+    {
+      "path": "AGENTS/WALTER/design/BOOT_PROTOCOL.md",
+      "before": "e29001ecc8d825150a07eb806e5abbd2c73f8e5b2c0d145d0b1cafa0819bab9e",
+      "reviewed_current_sha256": "f37759e9e842837ed93131acae0f16bc79114a976bb73c75b8f9c70110df4c31"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/walter_doctor.py",
+      "before": "6cdcfdb9fa876ac5b098e91395b89e8b67fc835608fa10eea5c7fb192dba1712",
+      "reviewed_current_sha256": "aaf3b5f47360a4fb6b78bc6e2afcde8b2e3b5dbdd7a8a5f2e3338f4122621990"
+    }
+  ],
+  "scope": "Will-authorized closeout action/rationale changes and header-aware doctor consumer reviewed; no full boot re-execution. All other pinned bytes unchanged. READS attestation remains PROME-owned/stale."
+}

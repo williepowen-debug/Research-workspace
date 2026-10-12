@@ -1,9 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-10-12 — Will-directed full session closeout before fresh context, OpenAI Codex. **Boot PARTIAL**; operational receipts and gaps below. BOARD **1333**; **10 signals (1 FLASH, 9 PRIORITY)**; **19 kills**, **0 cluster-mediating signals**; **2 verify-helper instances / 4 completed assignments**. No network-uncertainty-peak trigger.
+**Updated:** 2026-10-12 — Will-directed bounded procedure repair and closing handoff, OpenAI Codex. **Boot PARTIAL**; operational receipts and gaps below. BOARD **1333**; **10 signals (1 FLASH, 9 PRIORITY)**; **19 kills**, **0 cluster-mediating signals**; **2 verify-helper instances / 4 completed assignments**. No network-uncertainty-peak trigger.
 
 ## BOTTOM LINE
 
-The session is closing on Will’s explicit request, with ten signals and all retained duties saved for a fresh WALTER context. The executed RaDD extension/new capital materially weakens the observed puts’ near-term catalyst; TERRY owns the card review and Will owns orders. Transcript and Horton comparison evidence retain their dated measurement limits. X access and automatic renewal are restored;29 unreviewed bookmarks remain for fresh-session intake. Boot coverage stays PARTIAL because of stale read attestation and source/instrument gaps. Publication and future duties are recorded in LAST_COMPLETION.md.
+The closing handoff now includes the bounded closeout repairs: supported event-ledger declarations, explicit coverage wording and a tier-aware check runner. Ten signals and retained duties remain available to fresh WALTER. The executed RaDD extension/new capital materially weakens the observed puts’ near-term catalyst; TERRY owns the card review and Will owns orders. Transcript and Horton comparison evidence retain their dated measurement limits. X access and automatic renewal are restored;29 unreviewed bookmarks remain for fresh-session intake. Boot coverage stays PARTIAL because of stale read attestation and source/instrument gaps. Publication and future duties are recorded in LAST_COMPLETION.md.
 
 ## DATED MARKET OBSERVATIONS — retained morning snapshots, not refreshed during session closeout
 
@@ -29,6 +29,8 @@ Routing plus receiving-layer readiness. Domain agents own evidence, state and ju
 
 ## STATE POINTERS
 
+**Procedure repair:** `tools/closeout_run.py` collects existing light/full checks and drafts evidence; manual duty outcomes remain in LAST_COMPLETION. Acceptance: `research/2026-10-12_closeout-improvements/REPORT.md`. No new routing law, owner grade or unattended run.
+
 **Authorization repair (2026-10-12T16:21:08Z):** read-only bookmark GET and automatic renewal both PASS; processed history unchanged. Receipt: `outbox/2026-10-12_x-authorization-restored.md`.
 
 **Fresh context entry:** LAST_COMPLETION.md is the complete open duty/design list. Session closeout receipt: `outbox/2026-10-12_session-closeout.md`. No active WALTER helper or unread top-level substantive packet remains at the final scan; do not infer any other desk’s closure.
@@ -41,7 +43,7 @@ Manual source watch: `research/tanker-cost-watch/WATCH.md`, STATE.csv, REVIEWS.t
 
 **Coordination capability update (2026-10-12T15:25:52Z):** existing WALTER native Codex thread `01a13087-79e5-7e92-9b7a-65a266b0cb1b` observed from CODEX_THREAD_ID. Installed CLI0.162.0 supports `codex queue --thread --message`; exact PROME-pair notification accepted (message01a130b8-a7e7-7421-9d17-0c1380c48b83), recorded in `outbox/2026-10-12_to-PROME_desktop-coordination-queue-receipt.md`; consumption remains unverified. This corrects the earlier model-tool-only transport limitation as a lasting claim; cross-runtime fleet census remains UNKNOWN. Existing market routing ownership and approvals retained.
 
-Regenerated from final REGISTRY refresh before this write. All available owner headers checked at final closeout; final focused refresh REGINALD, BRENT, OZK, TERRY, WATT, WALTER. Missing/unparseable header dates retain their existing registry vintage. No role, owner grade, readiness class or launch authority changed. Older Updated rows (≥7d, including dormant/special rows; age is not a DARK classification): YEYOU 2026-09-05 (37d; RETIRED), RAV 2026-08-02 (71d; YELLOW), OTTO 2026-10-04 (8d; RED2), ATHENA 2026-03-14 (212d; GREEN), CRUISE 2026-10-03 (9d; RED), DARWIN 2026-02-18 (236d; YELLOW), CREED 2026-10-01 (11d; ORANGE), SENTRY 2026-09-24 (18d; YELLOW), DEWEY 2026-09-10 (32d; YELLOW), MIDAS 2026-10-02 (10d; YELLOW), HOMER 2026-10-02 (10d; RED), FLG 2026-10-01 (11d; YELLOW), YURI 2026-10-02 (10d; YELLOW).
+Regenerated after13 from the refreshed REGISTRY at2026-10-12T16:41:43Z; focused owner headers:PROME,REGINALD,BRENT,OZK,TERRY,WATT plus WALTER state. Other header vintages are carried, not a fresh whole-fleet review. No role, owner grade, readiness class or launch authority changed. Older Updated rows (≥7d; age is not DARK): YEYOU 2026-09-05 (37d; RETIRED), RAV 2026-08-02 (71d; YELLOW), OTTO 2026-10-04 (8d; RED2), ATHENA 2026-03-14 (212d; GREEN), CRUISE 2026-10-03 (9d; RED), DARWIN 2026-02-18 (236d; YELLOW), CREED 2026-10-01 (11d; ORANGE), SENTRY 2026-09-24 (18d; YELLOW), DEWEY 2026-09-10 (32d; YELLOW), MIDAS 2026-10-02 (10d; YELLOW), HOMER 2026-10-02 (10d; RED), FLG 2026-10-01 (11d; YELLOW), YURI 2026-10-02 (10d; YELLOW).
 
 Today’s ACTION addresses: LIQUID2, BOND1, FALCON3, BRENT3, OZK1, BROCK1, TERRY3, CARL2, REGINALD1, CREED1. Exemptions and roles follow canonical per-desk delivery rules; TERRY receives ACTION by BOARD ID-diff, CARL receives ACTION handoffs, RED/PROME INFO by ID-diff. There are45 handoff rows; their delivery/consumption distinction and origin proof are in LAST_COMPLETION.
 
