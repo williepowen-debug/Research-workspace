@@ -1,0 +1,16 @@
+[
+  {
+    "key": "nport-july-candidate",
+    "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826095863/primary_doc.xml",
+    "fetched_at_utc": "2026-10-12T18:40:31.995296+00:00",
+    "sha256": "be38b2514c94d07ee129454113aacabc59b62581d0035b02a19c84cddbd3e67f",
+    "bytes": 74101,
+    "disposition": "REJECTED: series S000087667 is commodity fund, not KRE S000012325",
+    "saved_path": "raw/nport-july-candidate.xml"
+  },
+  {
+    "key": "kre-nport-name-search",
+    "url": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-07-01&enddt=2026-10-12&forms=NPORT-P&ciks=1064642&q=%22Regional+Banking%22",
+    "error": "HTTP Error 500: Internal Server Error"
+  }
+]

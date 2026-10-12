@@ -1,0 +1,3348 @@
+{
+  "started_at_et": "2026-10-12T14:37:20.643035-04:00",
+  "finished_at_et": "2026-10-12T14:37:35.362115-04:00",
+  "yfinance_version": "1.2.0",
+  "authority": "Will direct: Okay approved. Go ahead. Approved next-research proposal 6c917f2a8.",
+  "holdings_source": "AGENTS/REGINALD/research/market-technicals/snapshots/2026-10-12/kre-holdings.csv",
+  "holdings_as_of": "2026-10-09",
+  "holdings_sha256": "c68f92c71672bc1be60aae169ac6369422c56b4a7e08d093dacc982685668fbb",
+  "requested_symbols": 175,
+  "returned_symbols": 175,
+  "history_start": "2025-10-01",
+  "history_end_exclusive": "2026-10-10",
+  "quote_refresh": false,
+  "source": "Yahoo chart history via yfinance; no independent-vendor verification",
+  "price_basis": "Vendor closing prices, historical split handling; cash dividends excluded",
+  "adjusted_basis": "Vendor adjusted close ratios, dividend-adjusted total-return proxy",
+  "moving_average_basis": "20/50 settled daily Close bars through October9",
+  "volume_basis": "Complete daily sessions; latest volume divided by prior20 session mean; up/down classified by adjusted close return",
+  "historical_membership_warning": "October9 basket selected at window end; membership and rebalance changes not reconstructed",
+  "daily_history_sha256": "26a18d1f692486790fdc19a0ae49ee951ff4f9e459c2aa39b07f571b298b76d3",
+  "requests": [
+    {
+      "symbol": "ABCB",
+      "requested_at_et": "2026-10-12T14:37:22.245884-04:00",
+      "completed_at_et": "2026-10-12T14:37:23.261439-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/ABCB/history/",
+      "identity": {
+        "symbol": "ABCB",
+        "longName": "Ameris Bancorp",
+        "shortName": "Ameris Bancorp",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "ACNB",
+      "requested_at_et": "2026-10-12T14:37:32.649288-04:00",
+      "completed_at_et": "2026-10-12T14:37:33.059793-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/ACNB/history/",
+      "identity": {
+        "symbol": "ACNB",
+        "longName": "ACNB Corporation",
+        "shortName": "ACNB Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NCM",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "AMAL",
+      "requested_at_et": "2026-10-12T14:37:29.992309-04:00",
+      "completed_at_et": "2026-10-12T14:37:30.291890-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/AMAL/history/",
+      "identity": {
+        "symbol": "AMAL",
+        "longName": "Amalgamated Financial Corp.",
+        "shortName": "Amalgamated Financial Corp.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NGM",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "AMTB",
+      "requested_at_et": "2026-10-12T14:37:28.544772-04:00",
+      "completed_at_et": "2026-10-12T14:37:28.821520-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/AMTB/history/",
+      "identity": {
+        "symbol": "AMTB",
+        "longName": "Amerant Bancorp Inc.",
+        "shortName": "Amerant Bancorp Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "AROW",
+      "requested_at_et": "2026-10-12T14:37:33.238855-04:00",
+      "completed_at_et": "2026-10-12T14:37:34.299846-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/AROW/history/",
+      "identity": {
+        "symbol": "AROW",
+        "longName": "Arrow Financial Corporation",
+        "shortName": "Arrow Financial Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "ASB",
+      "requested_at_et": "2026-10-12T14:37:21.990937-04:00",
+      "completed_at_et": "2026-10-12T14:37:22.416090-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/ASB/history/",
+      "identity": {
+        "symbol": "ASB",
+        "longName": "Associated Banc-Corp",
+        "shortName": "Associated Banc-Corp",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "AUB",
+      "requested_at_et": "2026-10-12T14:37:21.324532-04:00",
+      "completed_at_et": "2026-10-12T14:37:21.609393-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/AUB/history/",
+      "identity": {
+        "symbol": "AUB",
+        "longName": "Atlantic Union Bankshares Corporation",
+        "shortName": "Atlantic Union Bankshares Corpo",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "AX",
+      "requested_at_et": "2026-10-12T14:37:21.963847-04:00",
+      "completed_at_et": "2026-10-12T14:37:22.344392-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/AX/history/",
+      "identity": {
+        "symbol": "AX",
+        "longName": "Axos Financial, Inc.",
+        "shortName": "Axos Financial, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "BANC",
+      "requested_at_et": "2026-10-12T14:37:22.200858-04:00",
+      "completed_at_et": "2026-10-12T14:37:22.583536-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/BANC/history/",
+      "identity": {
+        "symbol": "BANC",
+        "longName": "Banc of California, Inc.",
+        "shortName": "Banc of California, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "BANF",
+      "requested_at_et": "2026-10-12T14:37:26.143595-04:00",
+      "completed_at_et": "2026-10-12T14:37:26.553710-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/BANF/history/",
+      "identity": {
+        "symbol": "BANF",
+        "longName": "BancFirst Corporation",
+        "shortName": "BancFirst Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "BANR",
+      "requested_at_et": "2026-10-12T14:37:25.287765-04:00",
+      "completed_at_et": "2026-10-12T14:37:25.754862-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/BANR/history/",
+      "identity": {
+        "symbol": "BANR",
+        "longName": "Banner Corporation",
+        "shortName": "Banner Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "BBT",
+      "requested_at_et": "2026-10-12T14:37:25.125471-04:00",
+      "completed_at_et": "2026-10-12T14:37:25.531743-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/BBT/history/",
+      "identity": {
+        "symbol": "BBT",
+        "longName": "Beacon Financial Corporation",
+        "shortName": "Beacon Financial Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "BCAL",
+      "requested_at_et": "2026-10-12T14:37:32.555906-04:00",
+      "completed_at_et": "2026-10-12T14:37:32.896167-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/BCAL/history/",
+      "identity": {
+        "symbol": "BCAL",
+        "longName": "California BanCorp",
+        "shortName": "California BanCorp",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NCM",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "BFC",
+      "requested_at_et": "2026-10-12T14:37:27.158856-04:00",
+      "completed_at_et": "2026-10-12T14:37:27.544005-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/BFC/history/",
+      "identity": {
+        "symbol": "BFC",
+        "longName": "Bank First Corporation",
+        "shortName": "Bank First Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NCM",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "BFST",
+      "requested_at_et": "2026-10-12T14:37:30.172917-04:00",
+      "completed_at_et": "2026-10-12T14:37:31.176598-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/BFST/history/",
+      "identity": {
+        "symbol": "BFST",
+        "longName": "Business First Bancshares, Inc.",
+        "shortName": "Business First Bancshares, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "BHB",
+      "requested_at_et": "2026-10-12T14:37:32.592055-04:00",
+      "completed_at_et": "2026-10-12T14:37:33.120199-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/BHB/history/",
+      "identity": {
+        "symbol": "BHB",
+        "longName": "Bar Harbor Bankshares",
+        "shortName": "Bar Harbor Bankshares, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "ASE",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "BHRB",
+      "requested_at_et": "2026-10-12T14:37:28.164217-04:00",
+      "completed_at_et": "2026-10-12T14:37:28.544578-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/BHRB/history/",
+      "identity": {
+        "symbol": "BHRB",
+        "longName": "Burke & Herbert Financial Services Corp.",
+        "shortName": "Burke & Herbert Financial Servi",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NCM",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "BKU",
+      "requested_at_et": "2026-10-12T14:37:22.584026-04:00",
+      "completed_at_et": "2026-10-12T14:37:22.872198-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/BKU/history/",
+      "identity": {
+        "symbol": "BKU",
+        "longName": "BankUnited, Inc.",
+        "shortName": "BankUnited, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "BMRC",
+      "requested_at_et": "2026-10-12T14:37:32.535383-04:00",
+      "completed_at_et": "2026-10-12T14:37:32.991457-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/BMRC/history/",
+      "identity": {
+        "symbol": "BMRC",
+        "longName": "Bank of Marin Bancorp",
+        "shortName": "Bank of Marin Bancorp",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "BOH",
+      "requested_at_et": "2026-10-12T14:37:24.491034-04:00",
+      "completed_at_et": "2026-10-12T14:37:24.936215-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/BOH/history/",
+      "identity": {
+        "symbol": "BOH",
+        "longName": "Bank of Hawaii Corporation",
+        "shortName": "Bank of Hawaii Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "BOKF",
+      "requested_at_et": "2026-10-12T14:37:22.843996-04:00",
+      "completed_at_et": "2026-10-12T14:37:23.210460-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/BOKF/history/",
+      "identity": {
+        "symbol": "BOKF",
+        "longName": "BOK Financial Corporation",
+        "shortName": "BOK Financial Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "BPOP",
+      "requested_at_et": "2026-10-12T14:37:22.044202-04:00",
+      "completed_at_et": "2026-10-12T14:37:22.469714-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/BPOP/history/",
+      "identity": {
+        "symbol": "BPOP",
+        "longName": "Popular, Inc.",
+        "shortName": "Popular, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "BUSE",
+      "requested_at_et": "2026-10-12T14:37:24.656290-04:00",
+      "completed_at_et": "2026-10-12T14:37:25.142281-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/BUSE/history/",
+      "identity": {
+        "symbol": "BUSE",
+        "longName": "First Busey Corporation",
+        "shortName": "First Busey Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "BY",
+      "requested_at_et": "2026-10-12T14:37:28.135997-04:00",
+      "completed_at_et": "2026-10-12T14:37:29.145464-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/BY/history/",
+      "identity": {
+        "symbol": "BY",
+        "longName": "Byline Bancorp, Inc.",
+        "shortName": "Byline Bancorp, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "CAC",
+      "requested_at_et": "2026-10-12T14:37:31.837456-04:00",
+      "completed_at_et": "2026-10-12T14:37:32.313847-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/CAC/history/",
+      "identity": {
+        "symbol": "CAC",
+        "longName": "Camden National Corporation",
+        "shortName": "Camden National Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "CARE",
+      "requested_at_et": "2026-10-12T14:37:27.958711-04:00",
+      "completed_at_et": "2026-10-12T14:37:28.314686-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/CARE/history/",
+      "identity": {
+        "symbol": "CARE",
+        "longName": "Carter Bankshares, Inc.",
+        "shortName": "Carter Bankshares, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "CASH",
+      "requested_at_et": "2026-10-12T14:37:25.551351-04:00",
+      "completed_at_et": "2026-10-12T14:37:25.965026-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/CASH/history/",
+      "identity": {
+        "symbol": "CASH",
+        "longName": "Pathward Financial, Inc.",
+        "shortName": "Pathward Financial, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "CATY",
+      "requested_at_et": "2026-10-12T14:37:24.195254-04:00",
+      "completed_at_et": "2026-10-12T14:37:24.655795-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/CATY/history/",
+      "identity": {
+        "symbol": "CATY",
+        "longName": "Cathay General Bancorp",
+        "shortName": "Cathay General Bancorp",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "CBAN",
+      "requested_at_et": "2026-10-12T14:37:32.191601-04:00",
+      "completed_at_et": "2026-10-12T14:37:33.238637-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/CBAN/history/",
+      "identity": {
+        "symbol": "CBAN",
+        "longName": "Colony Bankcorp, Inc.",
+        "shortName": "Colony Bankcorp, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "CBC",
+      "requested_at_et": "2026-10-12T14:37:24.936451-04:00",
+      "completed_at_et": "2026-10-12T14:37:25.365027-04:00",
+      "attempt": 1,
+      "rows": 221,
+      "first_date": "2025-11-21",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/CBC/history/",
+      "identity": {
+        "symbol": "CBC",
+        "longName": "Central Bancompany, Inc.",
+        "shortName": "Central Bancompany, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "CBSH",
+      "requested_at_et": "2026-10-12T14:37:22.503454-04:00",
+      "completed_at_et": "2026-10-12T14:37:22.912860-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/CBSH/history/",
+      "identity": {
+        "symbol": "CBSH",
+        "longName": "Commerce Bancshares, Inc.",
+        "shortName": "Commerce Bancshares, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "CBU",
+      "requested_at_et": "2026-10-12T14:37:26.412404-04:00",
+      "completed_at_et": "2026-10-12T14:37:26.851352-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/CBU/history/",
+      "identity": {
+        "symbol": "CBU",
+        "longName": "Community Financial System, Inc.",
+        "shortName": "Community Financial System, Inc",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "CCB",
+      "requested_at_et": "2026-10-12T14:37:29.703412-04:00",
+      "completed_at_et": "2026-10-12T14:37:30.058955-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/CCB/history/",
+      "identity": {
+        "symbol": "CCB",
+        "longName": "Coastal Financial Corporation",
+        "shortName": "Coastal Financial Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "CCBG",
+      "requested_at_et": "2026-10-12T14:37:32.344951-04:00",
+      "completed_at_et": "2026-10-12T14:37:32.591833-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/CCBG/history/",
+      "identity": {
+        "symbol": "CCBG",
+        "longName": "Capital City Bank Group, Inc.",
+        "shortName": "Capital City Bank Group",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "CCNE",
+      "requested_at_et": "2026-10-12T14:37:31.454472-04:00",
+      "completed_at_et": "2026-10-12T14:37:31.857569-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/CCNE/history/",
+      "identity": {
+        "symbol": "CCNE",
+        "longName": "CNB Financial Corporation",
+        "shortName": "CNB Financial Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "CFFN",
+      "requested_at_et": "2026-10-12T14:37:30.775242-04:00",
+      "completed_at_et": "2026-10-12T14:37:31.217409-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/CFFN/history/",
+      "identity": {
+        "symbol": "CFFN",
+        "longName": "Capitol Federal Financial, Inc.",
+        "shortName": "Capitol Federal Financial, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "CFG",
+      "requested_at_et": "2026-10-12T14:37:23.501879-04:00",
+      "completed_at_et": "2026-10-12T14:37:23.877425-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/CFG/history/",
+      "identity": {
+        "symbol": "CFG",
+        "longName": "Citizens Financial Group, Inc.",
+        "shortName": "Citizens Financial Group, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "CFR",
+      "requested_at_et": "2026-10-12T14:37:22.913110-04:00",
+      "completed_at_et": "2026-10-12T14:37:23.188081-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/CFR/history/",
+      "identity": {
+        "symbol": "CFR",
+        "longName": "Cullen/Frost Bankers, Inc.",
+        "shortName": "Cullen/Frost Bankers, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "CHCO",
+      "requested_at_et": "2026-10-12T14:37:25.965240-04:00",
+      "completed_at_et": "2026-10-12T14:37:26.412147-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/CHCO/history/",
+      "identity": {
+        "symbol": "CHCO",
+        "longName": "City Holding Company",
+        "shortName": "City Holding Company",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "CIVB",
+      "requested_at_et": "2026-10-12T14:37:32.896743-04:00",
+      "completed_at_et": "2026-10-12T14:37:33.301987-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/CIVB/history/",
+      "identity": {
+        "symbol": "CIVB",
+        "longName": "Civista Bancshares, Inc.",
+        "shortName": "Civista Bancshares, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NCM",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "CLBK",
+      "requested_at_et": "2026-10-12T14:37:24.637048-04:00",
+      "completed_at_et": "2026-10-12T14:37:25.077075-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/CLBK/history/",
+      "identity": {
+        "symbol": "CLBK",
+        "longName": "Columbia Financial, Inc.",
+        "shortName": "Columbia Financial, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "CNOB",
+      "requested_at_et": "2026-10-12T14:37:26.851541-04:00",
+      "completed_at_et": "2026-10-12T14:37:27.287476-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/CNOB/history/",
+      "identity": {
+        "symbol": "CNOB",
+        "longName": "ConnectOne Bancorp, Inc.",
+        "shortName": "ConnectOne Bancorp, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "COFS",
+      "requested_at_et": "2026-10-12T14:37:33.302180-04:00",
+      "completed_at_et": "2026-10-12T14:37:33.744860-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/COFS/history/",
+      "identity": {
+        "symbol": "COFS",
+        "longName": "ChoiceOne Financial Services, Inc.",
+        "shortName": "ChoiceOne Financial Services, I",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NCM",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "COLB",
+      "requested_at_et": "2026-10-12T14:37:21.627068-04:00",
+      "completed_at_et": "2026-10-12T14:37:22.044015-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/COLB/history/",
+      "identity": {
+        "symbol": "COLB",
+        "longName": "Columbia Banking System, Inc.",
+        "shortName": "Columbia Banking System, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "CPF",
+      "requested_at_et": "2026-10-12T14:37:31.176968-04:00",
+      "completed_at_et": "2026-10-12T14:37:32.191369-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/CPF/history/",
+      "identity": {
+        "symbol": "CPF",
+        "longName": "Central Pacific Financial Corp.",
+        "shortName": "Central Pacific Financial Corp ",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "CTBI",
+      "requested_at_et": "2026-10-12T14:37:29.529155-04:00",
+      "completed_at_et": "2026-10-12T14:37:29.992084-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/CTBI/history/",
+      "identity": {
+        "symbol": "CTBI",
+        "longName": "Community Trust Bancorp, Inc.",
+        "shortName": "Community Trust Bancorp, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "CUBI",
+      "requested_at_et": "2026-10-12T14:37:25.057371-04:00",
+      "completed_at_et": "2026-10-12T14:37:25.287407-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/CUBI/history/",
+      "identity": {
+        "symbol": "CUBI",
+        "longName": "Customers Bancorp, Inc.",
+        "shortName": "Customers Bancorp, Inc",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "CVBF",
+      "requested_at_et": "2026-10-12T14:37:23.210650-04:00",
+      "completed_at_et": "2026-10-12T14:37:23.692668-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/CVBF/history/",
+      "identity": {
+        "symbol": "CVBF",
+        "longName": "CVB Financial Corp.",
+        "shortName": "CVB Financial Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "CWBC",
+      "requested_at_et": "2026-10-12T14:37:29.171038-04:00",
+      "completed_at_et": "2026-10-12T14:37:29.598876-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/CWBC/history/",
+      "identity": {
+        "symbol": "CWBC",
+        "longName": "Community West Bancshares",
+        "shortName": "Community West Bancshares",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NCM",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "DCOM",
+      "requested_at_et": "2026-10-12T14:37:27.678541-04:00",
+      "completed_at_et": "2026-10-12T14:37:28.163995-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/DCOM/history/",
+      "identity": {
+        "symbol": "DCOM",
+        "longName": "Dime Commercial Bancshares, Inc.",
+        "shortName": "Dime Commercial Bancshares, Inc",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "EBC",
+      "requested_at_et": "2026-10-12T14:37:20.644943-04:00",
+      "completed_at_et": "2026-10-12T14:37:21.434688-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/EBC/history/",
+      "identity": {
+        "symbol": "EBC",
+        "longName": "Eastern Bankshares, Inc.",
+        "shortName": "Eastern Bankshares, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "EFSC",
+      "requested_at_et": "2026-10-12T14:37:27.140649-04:00",
+      "completed_at_et": "2026-10-12T14:37:28.135553-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/EFSC/history/",
+      "identity": {
+        "symbol": "EFSC",
+        "longName": "Enterprise Financial Services Corp",
+        "shortName": "Enterprise Financial Services C",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "EGBN",
+      "requested_at_et": "2026-10-12T14:37:29.599076-04:00",
+      "completed_at_et": "2026-10-12T14:37:29.854049-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/EGBN/history/",
+      "identity": {
+        "symbol": "EGBN",
+        "longName": "Eagle Bancorp, Inc.",
+        "shortName": "Eagle Bancorp, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NCM",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "EQBK",
+      "requested_at_et": "2026-10-12T14:37:31.484290-04:00",
+      "completed_at_et": "2026-10-12T14:37:31.836975-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/EQBK/history/",
+      "identity": {
+        "symbol": "EQBK",
+        "longName": "Equity Bancshares, Inc.",
+        "shortName": "Equity Bancshares, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "ESQ",
+      "requested_at_et": "2026-10-12T14:37:26.163226-04:00",
+      "completed_at_et": "2026-10-12T14:37:26.588526-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/ESQ/history/",
+      "identity": {
+        "symbol": "ESQ",
+        "longName": "Esquire Financial Holdings, Inc.",
+        "shortName": "Esquire Financial Holdings, Inc",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NCM",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "EWBC",
+      "requested_at_et": "2026-10-12T14:37:20.643295-04:00",
+      "completed_at_et": "2026-10-12T14:37:22.245292-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/EWBC/history/",
+      "identity": {
+        "symbol": "EWBC",
+        "longName": "East West Bancorp, Inc.",
+        "shortName": "East West Bancorp, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "FBIZ",
+      "requested_at_et": "2026-10-12T14:37:33.059989-04:00",
+      "completed_at_et": "2026-10-12T14:37:33.470213-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/FBIZ/history/",
+      "identity": {
+        "symbol": "FBIZ",
+        "longName": "First Business Financial Services, Inc.",
+        "shortName": "First Business Financial Servic",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "FBK",
+      "requested_at_et": "2026-10-12T14:37:25.365284-04:00",
+      "completed_at_et": "2026-10-12T14:37:25.772064-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/FBK/history/",
+      "identity": {
+        "symbol": "FBK",
+        "longName": "FB Financial Corporation",
+        "shortName": "FB Financial Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "FBNC",
+      "requested_at_et": "2026-10-12T14:37:27.287679-04:00",
+      "completed_at_et": "2026-10-12T14:37:27.678276-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/FBNC/history/",
+      "identity": {
+        "symbol": "FBNC",
+        "longName": "First Bancorp",
+        "shortName": "First Bancorp",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "FBP",
+      "requested_at_et": "2026-10-12T14:37:21.297760-04:00",
+      "completed_at_et": "2026-10-12T14:37:21.587356-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/FBP/history/",
+      "identity": {
+        "symbol": "FBP",
+        "longName": "First BanCorp.",
+        "shortName": "First BanCorp. New",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "FCF",
+      "requested_at_et": "2026-10-12T14:37:26.695033-04:00",
+      "completed_at_et": "2026-10-12T14:37:27.158084-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/FCF/history/",
+      "identity": {
+        "symbol": "FCF",
+        "longName": "First Commonwealth Financial Corporation",
+        "shortName": "First",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "FFBC",
+      "requested_at_et": "2026-10-12T14:37:23.942458-04:00",
+      "completed_at_et": "2026-10-12T14:37:24.490801-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/FFBC/history/",
+      "identity": {
+        "symbol": "FFBC",
+        "longName": "First Financial Bancorp.",
+        "shortName": "First Financial Bancorp.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "FFIN",
+      "requested_at_et": "2026-10-12T14:37:24.199560-04:00",
+      "completed_at_et": "2026-10-12T14:37:24.577072-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/FFIN/history/",
+      "identity": {
+        "symbol": "FFIN",
+        "longName": "First Financial Bankshares, Inc.",
+        "shortName": "First Financial Bankshares, Inc",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "FHB",
+      "requested_at_et": "2026-10-12T14:37:20.646222-04:00",
+      "completed_at_et": "2026-10-12T14:37:21.371603-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/FHB/history/",
+      "identity": {
+        "symbol": "FHB",
+        "longName": "First Hawaiian, Inc.",
+        "shortName": "First Hawaiian, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "FHN",
+      "requested_at_et": "2026-10-12T14:37:22.344570-04:00",
+      "completed_at_et": "2026-10-12T14:37:22.651325-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/FHN/history/",
+      "identity": {
+        "symbol": "FHN",
+        "longName": "First Horizon Corporation",
+        "shortName": "First Horizon Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "FIBK",
+      "requested_at_et": "2026-10-12T14:37:22.469903-04:00",
+      "completed_at_et": "2026-10-12T14:37:22.843794-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/FIBK/history/",
+      "identity": {
+        "symbol": "FIBK",
+        "longName": "First Interstate BancSystem, Inc.",
+        "shortName": "First Interstate BancSystem, In",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "FISI",
+      "requested_at_et": "2026-10-12T14:37:30.959798-04:00",
+      "completed_at_et": "2026-10-12T14:37:31.454202-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/FISI/history/",
+      "identity": {
+        "symbol": "FISI",
+        "longName": "Financial Institutions, Inc.",
+        "shortName": "Financial Institutions, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "FLG",
+      "requested_at_et": "2026-10-12T14:37:24.012437-04:00",
+      "completed_at_et": "2026-10-12T14:37:24.294795-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/FLG/history/",
+      "identity": {
+        "symbol": "FLG",
+        "longName": "Flagstar Bank, National Association",
+        "shortName": "Flagstar Bank, N.A.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "FMBH",
+      "requested_at_et": "2026-10-12T14:37:30.674170-04:00",
+      "completed_at_et": "2026-10-12T14:37:31.092315-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/FMBH/history/",
+      "identity": {
+        "symbol": "FMBH",
+        "longName": "First Mid Bancshares, Inc.",
+        "shortName": "First Mid Bancshares, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NGM",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "FMNB",
+      "requested_at_et": "2026-10-12T14:37:30.907257-04:00",
+      "completed_at_et": "2026-10-12T14:37:31.267912-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/FMNB/history/",
+      "identity": {
+        "symbol": "FMNB",
+        "longName": "Farmers National Banc Corp.",
+        "shortName": "Farmers National Banc Corp.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NCM",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "FNB",
+      "requested_at_et": "2026-10-12T14:37:22.416289-04:00",
+      "completed_at_et": "2026-10-12T14:37:22.930601-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/FNB/history/",
+      "identity": {
+        "symbol": "FNB",
+        "longName": "F.N.B. Corporation",
+        "shortName": "F.N.B. Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "FRME",
+      "requested_at_et": "2026-10-12T14:37:26.101705-04:00",
+      "completed_at_et": "2026-10-12T14:37:27.140316-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/FRME/history/",
+      "identity": {
+        "symbol": "FRME",
+        "longName": "First Merchants Corporation",
+        "shortName": "First Merchants Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "FSBC",
+      "requested_at_et": "2026-10-12T14:37:30.519318-04:00",
+      "completed_at_et": "2026-10-12T14:37:30.906718-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/FSBC/history/",
+      "identity": {
+        "symbol": "FSBC",
+        "longName": "Five Star Bancorp",
+        "shortName": "Five Star Bancorp",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "FSUN",
+      "requested_at_et": "2026-10-12T14:37:28.793268-04:00",
+      "completed_at_et": "2026-10-12T14:37:29.352296-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/FSUN/history/",
+      "identity": {
+        "symbol": "FSUN",
+        "longName": "FirstSun Capital Bancorp",
+        "shortName": "FirstSun Capital Bancorp",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "FULT",
+      "requested_at_et": "2026-10-12T14:37:22.113054-04:00",
+      "completed_at_et": "2026-10-12T14:37:22.503242-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/FULT/history/",
+      "identity": {
+        "symbol": "FULT",
+        "longName": "Fulton Financial Corporation",
+        "shortName": "Fulton Financial Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "GBCI",
+      "requested_at_et": "2026-10-12T14:37:22.651545-04:00",
+      "completed_at_et": "2026-10-12T14:37:23.038733-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/GBCI/history/",
+      "identity": {
+        "symbol": "GBCI",
+        "longName": "Glacier Bancorp, Inc.",
+        "shortName": "Glacier Bancorp, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "GSBC",
+      "requested_at_et": "2026-10-12T14:37:30.254212-04:00",
+      "completed_at_et": "2026-10-12T14:37:30.775038-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/GSBC/history/",
+      "identity": {
+        "symbol": "GSBC",
+        "longName": "Great Southern Bancorp, Inc.",
+        "shortName": "Great Southern Bancorp, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "HAFC",
+      "requested_at_et": "2026-10-12T14:37:30.657987-04:00",
+      "completed_at_et": "2026-10-12T14:37:31.214069-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/HAFC/history/",
+      "identity": {
+        "symbol": "HAFC",
+        "longName": "Hanmi Financial Corporation",
+        "shortName": "Hanmi Financial Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "HBAN",
+      "requested_at_et": "2026-10-12T14:37:23.188292-04:00",
+      "completed_at_et": "2026-10-12T14:37:23.501661-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/HBAN/history/",
+      "identity": {
+        "symbol": "HBAN",
+        "longName": "Huntington Bancshares Incorporated",
+        "shortName": "Huntington Bancshares Incorpora",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "HBCP",
+      "requested_at_et": "2026-10-12T14:37:31.217882-04:00",
+      "completed_at_et": "2026-10-12T14:37:31.580623-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/HBCP/history/",
+      "identity": {
+        "symbol": "HBCP",
+        "longName": "Home Bancorp, Inc.",
+        "shortName": "Home Bancorp, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "HBNC",
+      "requested_at_et": "2026-10-12T14:37:27.544454-04:00",
+      "completed_at_et": "2026-10-12T14:37:27.958478-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/HBNC/history/",
+      "identity": {
+        "symbol": "HBNC",
+        "longName": "Horizon Bancorp, Inc.",
+        "shortName": "Horizon Bancorp, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "HBT",
+      "requested_at_et": "2026-10-12T14:37:32.090017-04:00",
+      "completed_at_et": "2026-10-12T14:37:32.505829-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/HBT/history/",
+      "identity": {
+        "symbol": "HBT",
+        "longName": "HBT Financial, Inc.",
+        "shortName": "HBT Financial, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "HFWA",
+      "requested_at_et": "2026-10-12T14:37:29.145671-04:00",
+      "completed_at_et": "2026-10-12T14:37:30.172632-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/HFWA/history/",
+      "identity": {
+        "symbol": "HFWA",
+        "longName": "Heritage Financial Corporation",
+        "shortName": "Heritage Financial Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "HIFS",
+      "requested_at_et": "2026-10-12T14:37:28.738213-04:00",
+      "completed_at_et": "2026-10-12T14:37:29.170840-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/HIFS/history/",
+      "identity": {
+        "symbol": "HIFS",
+        "longName": "Hingham Institution for Savings",
+        "shortName": "Hingham Institution for Savings",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NGM",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "HOMB",
+      "requested_at_et": "2026-10-12T14:37:21.610557-04:00",
+      "completed_at_et": "2026-10-12T14:37:22.112282-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/HOMB/history/",
+      "identity": {
+        "symbol": "HOMB",
+        "longName": "Home BancShares, Inc.",
+        "shortName": "Home BancShares, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "HOPE",
+      "requested_at_et": "2026-10-12T14:37:26.986762-04:00",
+      "completed_at_et": "2026-10-12T14:37:27.361791-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/HOPE/history/",
+      "identity": {
+        "symbol": "HOPE",
+        "longName": "Hope Bancorp, Inc.",
+        "shortName": "Hope Bancorp, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "HTB",
+      "requested_at_et": "2026-10-12T14:37:30.292086-04:00",
+      "completed_at_et": "2026-10-12T14:37:30.673967-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/HTB/history/",
+      "identity": {
+        "symbol": "HTB",
+        "longName": "HomeTrust Bancshares, Inc.",
+        "shortName": "HomeTrust Bancshares, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "HTH",
+      "requested_at_et": "2026-10-12T14:37:28.390123-04:00",
+      "completed_at_et": "2026-10-12T14:37:28.792862-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/HTH/history/",
+      "identity": {
+        "symbol": "HTH",
+        "longName": "Hilltop Holdings Inc.",
+        "shortName": "Hilltop Holdings Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "HWC",
+      "requested_at_et": "2026-10-12T14:37:20.643996-04:00",
+      "completed_at_et": "2026-10-12T14:37:21.352858-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/HWC/history/",
+      "identity": {
+        "symbol": "HWC",
+        "longName": "Hancock Whitney Corporation",
+        "shortName": "Hancock Whitney Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "IBCP",
+      "requested_at_et": "2026-10-12T14:37:30.497067-04:00",
+      "completed_at_et": "2026-10-12T14:37:30.959606-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/IBCP/history/",
+      "identity": {
+        "symbol": "IBCP",
+        "longName": "Independent Bank Corporation",
+        "shortName": "Independent Bank Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "IBOC",
+      "requested_at_et": "2026-10-12T14:37:24.577306-04:00",
+      "completed_at_et": "2026-10-12T14:37:25.056904-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/IBOC/history/",
+      "identity": {
+        "symbol": "IBOC",
+        "longName": "International Bancshares Corporation",
+        "shortName": "International Bancshares Corpor",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "INDB",
+      "requested_at_et": "2026-10-12T14:37:24.295003-04:00",
+      "completed_at_et": "2026-10-12T14:37:24.680945-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/INDB/history/",
+      "identity": {
+        "symbol": "INDB",
+        "longName": "Independent Bank Corp.",
+        "shortName": "Independent Bank Corp.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "IWM",
+      "requested_at_et": "2026-10-12T14:37:33.599142-04:00",
+      "completed_at_et": "2026-10-12T14:37:33.973358-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/IWM/history/",
+      "identity": {
+        "symbol": "IWM",
+        "longName": "iShares Russell 2000 ETF",
+        "shortName": "iShares Russell 2000 Index Fund",
+        "currency": "USD",
+        "instrumentType": "ETF",
+        "exchangeName": "PCX",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "KBE",
+      "requested_at_et": "2026-10-12T14:37:33.470444-04:00",
+      "completed_at_et": "2026-10-12T14:37:33.764474-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/KBE/history/",
+      "identity": {
+        "symbol": "KBE",
+        "longName": "State Street SPDR S&P Bank ETF",
+        "shortName": "State Street SPDR S&P Bank ETF",
+        "currency": "USD",
+        "instrumentType": "ETF",
+        "exchangeName": "PCX",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "KRE",
+      "requested_at_et": "2026-10-12T14:37:33.338536-04:00",
+      "completed_at_et": "2026-10-12T14:37:33.676417-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/KRE/history/",
+      "identity": {
+        "symbol": "KRE",
+        "longName": "State Street SPDR S&P Regional Banking ETF",
+        "shortName": "State Street SPDR S&P Regional ",
+        "currency": "USD",
+        "instrumentType": "ETF",
+        "exchangeName": "PCX",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "KRNY",
+      "requested_at_et": "2026-10-12T14:37:31.985903-04:00",
+      "completed_at_et": "2026-10-12T14:37:32.555636-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/KRNY/history/",
+      "identity": {
+        "symbol": "KRNY",
+        "longName": "Kearny Financial Corp.",
+        "shortName": "Kearny Financial",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "LKFN",
+      "requested_at_et": "2026-10-12T14:37:28.006800-04:00",
+      "completed_at_et": "2026-10-12T14:37:28.389903-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/LKFN/history/",
+      "identity": {
+        "symbol": "LKFN",
+        "longName": "Lakeland Financial Corporation",
+        "shortName": "Lakeland Financial Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "LOB",
+      "requested_at_et": "2026-10-12T14:37:29.128663-04:00",
+      "completed_at_et": "2026-10-12T14:37:29.528932-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/LOB/history/",
+      "identity": {
+        "symbol": "LOB",
+        "longName": "Live Oak Bancshares, Inc.",
+        "shortName": "Live Oak Bancshares, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "MBWM",
+      "requested_at_et": "2026-10-12T14:37:30.059292-04:00",
+      "completed_at_et": "2026-10-12T14:37:30.496518-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/MBWM/history/",
+      "identity": {
+        "symbol": "MBWM",
+        "longName": "Mercantile Bank Corporation",
+        "shortName": "Mercantile Bank Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "MCB",
+      "requested_at_et": "2026-10-12T14:37:27.723310-04:00",
+      "completed_at_et": "2026-10-12T14:37:28.057833-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/MCB/history/",
+      "identity": {
+        "symbol": "MCB",
+        "longName": "Metropolitan Bank Holding Corp.",
+        "shortName": "Metropolitan Bank Holding Corp.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "MCHB",
+      "requested_at_et": "2026-10-12T14:37:30.208551-04:00",
+      "completed_at_et": "2026-10-12T14:37:30.657760-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/MCHB/history/",
+      "identity": {
+        "symbol": "MCHB",
+        "longName": "Mechanics Bancorp",
+        "shortName": "Mechanics Bancorp",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "MPB",
+      "requested_at_et": "2026-10-12T14:37:31.618375-04:00",
+      "completed_at_et": "2026-10-12T14:37:32.069437-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/MPB/history/",
+      "identity": {
+        "symbol": "MPB",
+        "longName": "Mid Penn Bancorp, Inc.",
+        "shortName": "Mid Penn Bancorp",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NGM",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "MSBI",
+      "requested_at_et": "2026-10-12T14:37:31.657182-04:00",
+      "completed_at_et": "2026-10-12T14:37:32.088791-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/MSBI/history/",
+      "identity": {
+        "symbol": "MSBI",
+        "longName": "Midland States Bancorp, Inc.",
+        "shortName": "Midland States Bancorp, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "MTB",
+      "requested_at_et": "2026-10-12T14:37:23.672455-04:00",
+      "completed_at_et": "2026-10-12T14:37:24.012118-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/MTB/history/",
+      "identity": {
+        "symbol": "MTB",
+        "longName": "M&T Bank Corporation",
+        "shortName": "M&T Bank Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "NBBK",
+      "requested_at_et": "2026-10-12T14:37:31.092656-04:00",
+      "completed_at_et": "2026-10-12T14:37:31.483714-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/NBBK/history/",
+      "identity": {
+        "symbol": "NBBK",
+        "longName": "NB Bancorp, Inc.",
+        "shortName": "NB Bancorp, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NCM",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "NBHC",
+      "requested_at_et": "2026-10-12T14:37:26.017266-04:00",
+      "completed_at_et": "2026-10-12T14:37:26.427831-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/NBHC/history/",
+      "identity": {
+        "symbol": "NBHC",
+        "longName": "National Bank Holdings Corporation",
+        "shortName": "National Bank Holdings Corporat",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "NBN",
+      "requested_at_et": "2026-10-12T14:37:26.553935-04:00",
+      "completed_at_et": "2026-10-12T14:37:26.986548-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/NBN/history/",
+      "identity": {
+        "symbol": "NBN",
+        "longName": "Northeast Bank",
+        "shortName": "Northeast Bank",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NGM",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "NBTB",
+      "requested_at_et": "2026-10-12T14:37:25.531963-04:00",
+      "completed_at_et": "2026-10-12T14:37:26.017043-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/NBTB/history/",
+      "identity": {
+        "symbol": "NBTB",
+        "longName": "NBT Bancorp Inc.",
+        "shortName": "NBT Bancorp Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "NIC",
+      "requested_at_et": "2026-10-12T14:37:21.353241-04:00",
+      "completed_at_et": "2026-10-12T14:37:21.649580-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/NIC/history/",
+      "identity": {
+        "symbol": "NIC",
+        "longName": "Nicolet Bankshares, Inc.",
+        "shortName": "Nicolet Bankshares Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "NRIM",
+      "requested_at_et": "2026-10-12T14:37:32.947805-04:00",
+      "completed_at_et": "2026-10-12T14:37:33.338065-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/NRIM/history/",
+      "identity": {
+        "symbol": "NRIM",
+        "longName": "Northrim BanCorp, Inc.",
+        "shortName": "Northrim BanCorp Inc",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "NWBI",
+      "requested_at_et": "2026-10-12T14:37:26.429055-04:00",
+      "completed_at_et": "2026-10-12T14:37:27.218489-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/NWBI/history/",
+      "identity": {
+        "symbol": "NWBI",
+        "longName": "Northwest Bancshares, Inc.",
+        "shortName": "Northwest Bancshares, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "OBK",
+      "requested_at_et": "2026-10-12T14:37:29.352488-04:00",
+      "completed_at_et": "2026-10-12T14:37:29.765073-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/OBK/history/",
+      "identity": {
+        "symbol": "OBK",
+        "longName": "Origin Bancorp, Inc.",
+        "shortName": "Origin Bancorp, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "OCFC",
+      "requested_at_et": "2026-10-12T14:37:25.755154-04:00",
+      "completed_at_et": "2026-10-12T14:37:26.143226-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/OCFC/history/",
+      "identity": {
+        "symbol": "OCFC",
+        "longName": "OceanFirst Financial Corp.",
+        "shortName": "OceanFirst Financial Corp.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "OFG",
+      "requested_at_et": "2026-10-12T14:37:26.588900-04:00",
+      "completed_at_et": "2026-10-12T14:37:26.969681-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/OFG/history/",
+      "identity": {
+        "symbol": "OFG",
+        "longName": "OFG Bancorp",
+        "shortName": "OFG Bancorp",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "ONB",
+      "requested_at_et": "2026-10-12T14:37:20.645803-04:00",
+      "completed_at_et": "2026-10-12T14:37:21.324142-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/ONB/history/",
+      "identity": {
+        "symbol": "ONB",
+        "longName": "Old National Bancorp",
+        "shortName": "Old National Bancorp",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "ORRF",
+      "requested_at_et": "2026-10-12T14:37:31.859128-04:00",
+      "completed_at_et": "2026-10-12T14:37:32.344668-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/ORRF/history/",
+      "identity": {
+        "symbol": "ORRF",
+        "longName": "Orrstown Financial Services, Inc.",
+        "shortName": "Orrstown Financial Services, In",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NCM",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "OSBC",
+      "requested_at_et": "2026-10-12T14:37:28.314884-04:00",
+      "completed_at_et": "2026-10-12T14:37:28.738019-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/OSBC/history/",
+      "identity": {
+        "symbol": "OSBC",
+        "longName": "Old Second Bancorp, Inc.",
+        "shortName": "Old Second Bancorp, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "OZK",
+      "requested_at_et": "2026-10-12T14:37:23.712330-04:00",
+      "completed_at_et": "2026-10-12T14:37:23.942231-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/OZK/history/",
+      "identity": {
+        "symbol": "OZK",
+        "longName": "Bank OZK",
+        "shortName": "Bank OZK",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "PB",
+      "requested_at_et": "2026-10-12T14:37:22.930796-04:00",
+      "completed_at_et": "2026-10-12T14:37:23.354792-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/PB/history/",
+      "identity": {
+        "symbol": "PB",
+        "longName": "Prosperity Bancshares, Inc.",
+        "shortName": "Prosperity Bancshares, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "PEBO",
+      "requested_at_et": "2026-10-12T14:37:28.947310-04:00",
+      "completed_at_et": "2026-10-12T14:37:29.372571-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/PEBO/history/",
+      "identity": {
+        "symbol": "PEBO",
+        "longName": "Peoples Bancorp Inc.",
+        "shortName": "Peoples Bancorp Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "PFBC",
+      "requested_at_et": "2026-10-12T14:37:28.058078-04:00",
+      "completed_at_et": "2026-10-12T14:37:28.493670-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/PFBC/history/",
+      "identity": {
+        "symbol": "PFBC",
+        "longName": "Preferred Bank",
+        "shortName": "Preferred Bank",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "PFIS",
+      "requested_at_et": "2026-10-12T14:37:32.991711-04:00",
+      "completed_at_et": "2026-10-12T14:37:33.489766-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/PFIS/history/",
+      "identity": {
+        "symbol": "PFIS",
+        "longName": "Peoples Financial Services Corp.",
+        "shortName": "Peoples Financial Services Corp",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "PFS",
+      "requested_at_et": "2026-10-12T14:37:25.077546-04:00",
+      "completed_at_et": "2026-10-12T14:37:25.432070-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/PFS/history/",
+      "identity": {
+        "symbol": "PFS",
+        "longName": "Provident Financial Services, Inc.",
+        "shortName": "Provident Financial Services, I",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "PGC",
+      "requested_at_et": "2026-10-12T14:37:29.372787-04:00",
+      "completed_at_et": "2026-10-12T14:37:29.813376-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/PGC/history/",
+      "identity": {
+        "symbol": "PGC",
+        "longName": "Peapack-Gladstone Financial Corporation",
+        "shortName": "Peapack-Gladstone Financial Cor",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "PNFP",
+      "requested_at_et": "2026-10-12T14:37:21.943900-04:00",
+      "completed_at_et": "2026-10-12T14:37:22.200585-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/PNFP/history/",
+      "identity": {
+        "symbol": "PNFP",
+        "longName": "Pinnacle Financial Partners, Inc.",
+        "shortName": "Pinnacle Financial Partners, In",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "PRK",
+      "requested_at_et": "2026-10-12T14:37:25.772441-04:00",
+      "completed_at_et": "2026-10-12T14:37:26.162946-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/PRK/history/",
+      "identity": {
+        "symbol": "PRK",
+        "longName": "Park National Corporation",
+        "shortName": "Park National Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "ASE",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "QCRH",
+      "requested_at_et": "2026-10-12T14:37:27.641085-04:00",
+      "completed_at_et": "2026-10-12T14:37:28.006421-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/QCRH/history/",
+      "identity": {
+        "symbol": "QCRH",
+        "longName": "QCR Holdings, Inc.",
+        "shortName": "QCR Holdings, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NGM",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "QQQ",
+      "requested_at_et": "2026-10-12T14:37:33.745199-04:00",
+      "completed_at_et": "2026-10-12T14:37:34.074707-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/QQQ/history/",
+      "identity": {
+        "symbol": "QQQ",
+        "longName": "Invesco QQQ Trust",
+        "shortName": "Invesco QQQ Trust, Series 1",
+        "currency": "USD",
+        "instrumentType": "ETF",
+        "exchangeName": "NGM",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "RBCAA",
+      "requested_at_et": "2026-10-12T14:37:28.821762-04:00",
+      "completed_at_et": "2026-10-12T14:37:29.306968-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/RBCAA/history/",
+      "identity": {
+        "symbol": "RBCAA",
+        "longName": "Republic Bancorp, Inc.",
+        "shortName": "Republic Bancorp, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "RF",
+      "requested_at_et": "2026-10-12T14:37:23.729428-04:00",
+      "completed_at_et": "2026-10-12T14:37:24.149721-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/RF/history/",
+      "identity": {
+        "symbol": "RF",
+        "longName": "Regions Financial Corporation",
+        "shortName": "Regions Financial Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "RNST",
+      "requested_at_et": "2026-10-12T14:37:24.150054-04:00",
+      "completed_at_et": "2026-10-12T14:37:24.636691-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/RNST/history/",
+      "identity": {
+        "symbol": "RNST",
+        "longName": "Renasant Corporation",
+        "shortName": "Renasant Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "RRBI",
+      "requested_at_et": "2026-10-12T14:37:29.307171-04:00",
+      "completed_at_et": "2026-10-12T14:37:29.703193-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/RRBI/history/",
+      "identity": {
+        "symbol": "RRBI",
+        "longName": "Red River Bancshares, Inc.",
+        "shortName": "Red River Bancshares, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "SBCF",
+      "requested_at_et": "2026-10-12T14:37:23.877636-04:00",
+      "completed_at_et": "2026-10-12T14:37:24.199338-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/SBCF/history/",
+      "identity": {
+        "symbol": "SBCF",
+        "longName": "Seacoast Banking Corporation of Florida",
+        "shortName": "Seacoast Banking Corporation of",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "SBSI",
+      "requested_at_et": "2026-10-12T14:37:32.506153-04:00",
+      "completed_at_et": "2026-10-12T14:37:32.947614-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/SBSI/history/",
+      "identity": {
+        "symbol": "SBSI",
+        "longName": "Southside Bancshares, Inc.",
+        "shortName": "Southside Bancshares, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "SFBS",
+      "requested_at_et": "2026-10-12T14:37:25.111047-04:00",
+      "completed_at_et": "2026-10-12T14:37:26.101507-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/SFBS/history/",
+      "identity": {
+        "symbol": "SFBS",
+        "longName": "ServisFirst Bancshares, Inc.",
+        "shortName": "ServisFirst Bancshares, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "SFNC",
+      "requested_at_et": "2026-10-12T14:37:23.967172-04:00",
+      "completed_at_et": "2026-10-12T14:37:25.106463-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/SFNC/history/",
+      "identity": {
+        "symbol": "SFNC",
+        "longName": "Simmons First National Corporation",
+        "shortName": "Simmons First National Corporat",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "SFST",
+      "requested_at_et": "2026-10-12T14:37:29.813748-04:00",
+      "completed_at_et": "2026-10-12T14:37:30.111343-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/SFST/history/",
+      "identity": {
+        "symbol": "SFST",
+        "longName": "Southern First Bancshares, Inc.",
+        "shortName": "Southern First Bancshares, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NGM",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "SHBI",
+      "requested_at_et": "2026-10-12T14:37:32.070563-04:00",
+      "completed_at_et": "2026-10-12T14:37:32.528542-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/SHBI/history/",
+      "identity": {
+        "symbol": "SHBI",
+        "longName": "Shore Bancshares, Inc.",
+        "shortName": "Shore Bancshares, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "SMBC",
+      "requested_at_et": "2026-10-12T14:37:29.765365-04:00",
+      "completed_at_et": "2026-10-12T14:37:30.208357-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/SMBC/history/",
+      "identity": {
+        "symbol": "SMBC",
+        "longName": "Southern Missouri Bancorp, Inc.",
+        "shortName": "Southern Missouri Bancorp, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NGM",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "SMBK",
+      "requested_at_et": "2026-10-12T14:37:31.268112-04:00",
+      "completed_at_et": "2026-10-12T14:37:31.656937-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/SMBK/history/",
+      "identity": {
+        "symbol": "SMBK",
+        "longName": "SmartFinancial, Inc.",
+        "shortName": "SmartFinancial, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "SPFI",
+      "requested_at_et": "2026-10-12T14:37:31.580882-04:00",
+      "completed_at_et": "2026-10-12T14:37:31.985696-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/SPFI/history/",
+      "identity": {
+        "symbol": "SPFI",
+        "longName": "South Plains Financial, Inc.",
+        "shortName": "South Plains Financial, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "SPY",
+      "requested_at_et": "2026-10-12T14:37:33.490005-04:00",
+      "completed_at_et": "2026-10-12T14:37:33.811838-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/SPY/history/",
+      "identity": {
+        "symbol": "SPY",
+        "longName": "State Street SPDR S&P 500 ETF Trust",
+        "shortName": "State Street SPDR S&P 500 ETF T",
+        "currency": "USD",
+        "instrumentType": "ETF",
+        "exchangeName": "PCX",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "SRCE",
+      "requested_at_et": "2026-10-12T14:37:27.890864-04:00",
+      "completed_at_et": "2026-10-12T14:37:28.263677-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/SRCE/history/",
+      "identity": {
+        "symbol": "SRCE",
+        "longName": "1st Source Corporation",
+        "shortName": "1st Source Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "SSB",
+      "requested_at_et": "2026-10-12T14:37:21.649787-04:00",
+      "completed_at_et": "2026-10-12T14:37:21.990729-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/SSB/history/",
+      "identity": {
+        "symbol": "SSB",
+        "longName": "SouthState Bank Corporation",
+        "shortName": "SouthState Bank Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "STBA",
+      "requested_at_et": "2026-10-12T14:37:27.362040-04:00",
+      "completed_at_et": "2026-10-12T14:37:27.890670-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/STBA/history/",
+      "identity": {
+        "symbol": "STBA",
+        "longName": "S&T Bancorp, Inc.",
+        "shortName": "S&T Bancorp, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "SYBT",
+      "requested_at_et": "2026-10-12T14:37:27.218696-04:00",
+      "completed_at_et": "2026-10-12T14:37:27.640863-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/SYBT/history/",
+      "identity": {
+        "symbol": "SYBT",
+        "longName": "Stock Yards Bancorp, Inc.",
+        "shortName": "Stock Yards Bancorp, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "TBBK",
+      "requested_at_et": "2026-10-12T14:37:24.681208-04:00",
+      "completed_at_et": "2026-10-12T14:37:25.125149-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/TBBK/history/",
+      "identity": {
+        "symbol": "TBBK",
+        "longName": "The Bancorp, Inc.",
+        "shortName": "The Bancorp, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "TCBI",
+      "requested_at_et": "2026-10-12T14:37:23.039064-04:00",
+      "completed_at_et": "2026-10-12T14:37:23.450063-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/TCBI/history/",
+      "identity": {
+        "symbol": "TCBI",
+        "longName": "Texas Capital Bancshares, Inc.",
+        "shortName": "Texas Capital Bancshares, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "TCBK",
+      "requested_at_et": "2026-10-12T14:37:27.306005-04:00",
+      "completed_at_et": "2026-10-12T14:37:27.723100-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/TCBK/history/",
+      "identity": {
+        "symbol": "TCBK",
+        "longName": "TriCo Bancshares",
+        "shortName": "TriCo Bancshares",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "TCBX",
+      "requested_at_et": "2026-10-12T14:37:32.314082-04:00",
+      "completed_at_et": "2026-10-12T14:37:32.649014-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/TCBX/history/",
+      "identity": {
+        "symbol": "TCBX",
+        "longName": "Third Coast Bancshares, Inc.",
+        "shortName": "Third Coast Bancshares, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "TFC",
+      "requested_at_et": "2026-10-12T14:37:23.261786-04:00",
+      "completed_at_et": "2026-10-12T14:37:23.966962-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/TFC/history/",
+      "identity": {
+        "symbol": "TFC",
+        "longName": "Truist Financial Corporation",
+        "shortName": "Truist Financial Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "TFIN",
+      "requested_at_et": "2026-10-12T14:37:26.366668-04:00",
+      "completed_at_et": "2026-10-12T14:37:26.694721-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/TFIN/history/",
+      "identity": {
+        "symbol": "TFIN",
+        "longName": "Triumph Financial, Inc.",
+        "shortName": "Triumph Financial, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "TFSL",
+      "requested_at_et": "2026-10-12T14:37:26.969907-04:00",
+      "completed_at_et": "2026-10-12T14:37:27.305558-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/TFSL/history/",
+      "identity": {
+        "symbol": "TFSL",
+        "longName": "TFS Financial Corporation",
+        "shortName": "TFS Financial Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "THFF",
+      "requested_at_et": "2026-10-12T14:37:29.854651-04:00",
+      "completed_at_et": "2026-10-12T14:37:30.253988-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/THFF/history/",
+      "identity": {
+        "symbol": "THFF",
+        "longName": "First Financial Corporation",
+        "shortName": "First Financial Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "TLT",
+      "requested_at_et": "2026-10-12T14:37:33.764718-04:00",
+      "completed_at_et": "2026-10-12T14:37:34.051006-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/TLT/history/",
+      "identity": {
+        "symbol": "TLT",
+        "longName": "iShares 20+ Year Treasury Bond ETF",
+        "shortName": "iShares 20+ Year Treasury Bond ",
+        "currency": "USD",
+        "instrumentType": "ETF",
+        "exchangeName": "NGM",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "TMP",
+      "requested_at_et": "2026-10-12T14:37:28.264067-04:00",
+      "completed_at_et": "2026-10-12T14:37:28.660793-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/TMP/history/",
+      "identity": {
+        "symbol": "TMP",
+        "longName": "Tompkins Financial Corporation",
+        "shortName": "Tompkins Financial Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "ASE",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "TOWN",
+      "requested_at_et": "2026-10-12T14:37:25.142520-04:00",
+      "completed_at_et": "2026-10-12T14:37:25.550473-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/TOWN/history/",
+      "identity": {
+        "symbol": "TOWN",
+        "longName": "TowneBank",
+        "shortName": "Towne Bank",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "TRMK",
+      "requested_at_et": "2026-10-12T14:37:25.867789-04:00",
+      "completed_at_et": "2026-10-12T14:37:26.366437-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/TRMK/history/",
+      "identity": {
+        "symbol": "TRMK",
+        "longName": "Trustmark Corporation",
+        "shortName": "Trustmark Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "TRST",
+      "requested_at_et": "2026-10-12T14:37:30.111549-04:00",
+      "completed_at_et": "2026-10-12T14:37:30.518363-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/TRST/history/",
+      "identity": {
+        "symbol": "TRST",
+        "longName": "TrustCo Bank Corp NY",
+        "shortName": "TrustCo Bank Corp NY",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "UBSI",
+      "requested_at_et": "2026-10-12T14:37:20.644292-04:00",
+      "completed_at_et": "2026-10-12T14:37:21.297524-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/UBSI/history/",
+      "identity": {
+        "symbol": "UBSI",
+        "longName": "United Bankshares, Inc.",
+        "shortName": "United Bankshares, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "UCB",
+      "requested_at_et": "2026-10-12T14:37:21.371844-04:00",
+      "completed_at_et": "2026-10-12T14:37:21.626880-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/UCB/history/",
+      "identity": {
+        "symbol": "UCB",
+        "longName": "United Community Banks, Inc.",
+        "shortName": "United Community Banks, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "UMBF",
+      "requested_at_et": "2026-10-12T14:37:23.171857-04:00",
+      "completed_at_et": "2026-10-12T14:37:23.671740-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/UMBF/history/",
+      "identity": {
+        "symbol": "UMBF",
+        "longName": "UMB Financial Corporation",
+        "shortName": "UMB Financial Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "UNTY",
+      "requested_at_et": "2026-10-12T14:37:33.120380-04:00",
+      "completed_at_et": "2026-10-12T14:37:33.598739-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/UNTY/history/",
+      "identity": {
+        "symbol": "UNTY",
+        "longName": "Unity Bancorp, Inc.",
+        "shortName": "Unity Bancorp, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NGM",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "UVSP",
+      "requested_at_et": "2026-10-12T14:37:28.661031-04:00",
+      "completed_at_et": "2026-10-12T14:37:29.128437-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/UVSP/history/",
+      "identity": {
+        "symbol": "UVSP",
+        "longName": "Univest Financial Corporation",
+        "shortName": "Univest Financial Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "VLY",
+      "requested_at_et": "2026-10-12T14:37:23.450258-04:00",
+      "completed_at_et": "2026-10-12T14:37:23.712037-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/VLY/history/",
+      "identity": {
+        "symbol": "VLY",
+        "longName": "Valley National Bancorp",
+        "shortName": "Valley National Bancorp",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "WABC",
+      "requested_at_et": "2026-10-12T14:37:28.493858-04:00",
+      "completed_at_et": "2026-10-12T14:37:28.947105-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/WABC/history/",
+      "identity": {
+        "symbol": "WABC",
+        "longName": "Westamerica Bancorporation",
+        "shortName": "Westamerica Bancorporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "WAFD",
+      "requested_at_et": "2026-10-12T14:37:25.432313-04:00",
+      "completed_at_et": "2026-10-12T14:37:25.867552-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/WAFD/history/",
+      "identity": {
+        "symbol": "WAFD",
+        "longName": "WaFd, Inc.",
+        "shortName": "WaFd, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "WAL",
+      "requested_at_et": "2026-10-12T14:37:22.872409-04:00",
+      "completed_at_et": "2026-10-12T14:37:23.171622-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/WAL/history/",
+      "identity": {
+        "symbol": "WAL",
+        "longName": "Western Alliance Bancorporation",
+        "shortName": "Western Alliance Bancorporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NYQ",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "WASH",
+      "requested_at_et": "2026-10-12T14:37:31.219276-04:00",
+      "completed_at_et": "2026-10-12T14:37:31.618176-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/WASH/history/",
+      "identity": {
+        "symbol": "WASH",
+        "longName": "Washington Trust Bancorp, Inc.",
+        "shortName": "Washington Trust Bancorp, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "WSBC",
+      "requested_at_et": "2026-10-12T14:37:23.693122-04:00",
+      "completed_at_et": "2026-10-12T14:37:24.180637-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/WSBC/history/",
+      "identity": {
+        "symbol": "WSBC",
+        "longName": "WesBanco, Inc.",
+        "shortName": "WesBanco, Inc.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "WSFS",
+      "requested_at_et": "2026-10-12T14:37:21.434899-04:00",
+      "completed_at_et": "2026-10-12T14:37:21.943211-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/WSFS/history/",
+      "identity": {
+        "symbol": "WSFS",
+        "longName": "WSFS Financial Corporation",
+        "shortName": "WSFS Financial Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "WTFC",
+      "requested_at_et": "2026-10-12T14:37:21.587572-04:00",
+      "completed_at_et": "2026-10-12T14:37:21.963402-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/WTFC/history/",
+      "identity": {
+        "symbol": "WTFC",
+        "longName": "Wintrust Financial Corporation",
+        "shortName": "Wintrust Financial Corporation",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "XLF",
+      "requested_at_et": "2026-10-12T14:37:33.676678-04:00",
+      "completed_at_et": "2026-10-12T14:37:33.955599-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/XLF/history/",
+      "identity": {
+        "symbol": "XLF",
+        "longName": "State Street Financial Select Sector SPDR ETF",
+        "shortName": "State Street Financial Select S",
+        "currency": "USD",
+        "instrumentType": "ETF",
+        "exchangeName": "PCX",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "ZION",
+      "requested_at_et": "2026-10-12T14:37:23.355453-04:00",
+      "completed_at_et": "2026-10-12T14:37:23.729226-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/ZION/history/",
+      "identity": {
+        "symbol": "ZION",
+        "longName": "Zions Bancorporation, National Association",
+        "shortName": "Zions Bancorporation N.A.",
+        "currency": "USD",
+        "instrumentType": "EQUITY",
+        "exchangeName": "NMS",
+        "exchangeTimezoneName": "America/New_York"
+      }
+    },
+    {
+      "symbol": "^TNX",
+      "requested_at_et": "2026-10-12T14:37:33.812115-04:00",
+      "completed_at_et": "2026-10-12T14:37:34.028299-04:00",
+      "attempt": 1,
+      "rows": 258,
+      "first_date": "2025-10-01",
+      "last_date": "2026-10-09",
+      "source": "https://finance.yahoo.com/quote/^TNX/history/",
+      "identity": {
+        "symbol": "^TNX",
+        "longName": "CBOE Interest Rate 10 Year T Note",
+        "shortName": "10-Year Bond",
+        "currency": "USD",
+        "instrumentType": "INDEX",
+        "exchangeName": "CGI",
+        "exchangeTimezoneName": "America/Chicago"
+      }
+    }
+  ]
+}

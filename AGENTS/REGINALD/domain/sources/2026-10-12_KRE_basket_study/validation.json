@@ -1,0 +1,45 @@
+{
+  "coverage": {
+    "banks": 167,
+    "bank_published_weight_pct": 99.885822,
+    "histories": 175,
+    "bars": 45113,
+    "missing_window_endpoints": 0,
+    "all_response_symbols_match": true,
+    "CBC_first_bar": "2025-11-21",
+    "shorter_CBC_history_covers_all_windows_and_moving_averages": true
+  },
+  "previous_saved_top10_return_max_difference_pp": 3.552713678800501e-15,
+  "three_month_adjusted_declining_banks": 127,
+  "three_month_adjusted_declining_published_weight_pct": 86.005032,
+  "four_week_adjusted_declining_banks": 164,
+  "four_week_adjusted_declining_published_weight_pct": 98.39743800000001,
+  "moving_average_rule": "Arithmetic mean of last20/50 raw Close bars, all settled and endingOctober9",
+  "stock_splits": [
+    {
+      "symbol": "CBSH",
+      "date": "2025-12-02",
+      "Stock Splits": 1.05
+    },
+    {
+      "symbol": "CLBK",
+      "date": "2026-07-21",
+      "Stock Splits": 2.2
+    },
+    {
+      "symbol": "SFBS",
+      "date": "2026-08-21",
+      "Stock Splits": 2.0
+    }
+  ],
+  "total_published_holdings_weight_pct": 99.978916,
+  "cash_published_weight_pct": 0.093094,
+  "unallocated_published_weight_residual_pct": 0.02108400000000188,
+  "issuer_weight_share_close_check": {
+    "median_implied_common_denominator_usd": 3635640397.745877,
+    "largest_deviation_from_common_denominator_pct": 0.006695243217791358,
+    "largest_deviation_from_published_rounded_NAV_AUM_pct": 0.5796464305817928,
+    "interpretation": "Cross-sectional weights/shares/closes are consistent at a common denominator, but absolute implied denominator is about0.57% above published rounded NAV AUM. Gross/net/timing bridge unresolved; not an independent exact-close or NAV validation."
+  },
+  "historical_contribution": "UNRESOLVED. June30 KRE NPORT verified, but July10/Sep11 weights, full membership bridge and September rebalance transactions not reconstructed. Current-weight scenarios are explicitly diagnostic only."
+}

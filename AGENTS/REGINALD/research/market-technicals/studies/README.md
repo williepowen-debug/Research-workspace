@@ -4,7 +4,7 @@ Save new regional-bank and KRE technical analysis here as dated files. Link the 
 
 [October 12 KRE price-pattern synthesis](2026-10-12_KRE_price_patterns.md) examines the saved price windows through October 9. Its [period comparison CSV](2026-10-12_KRE_period_comparison.csv) separates July 10–September 11 from September 11–October 9.
 
-[Proposed next research](2026-10-12_KRE_next_research_proposal.md) responds to Will's request for useful additional investigations. It recommends whole-basket breadth and historical contribution first; no new data pass has begun.
+[Whole-basket study](2026-10-12_KRE_whole_basket_study.md) executes Will's approved [proposal](2026-10-12_KRE_next_research_proposal.md): all 167 current bank holdings, benchmark/volume/rate comparisons and historical-weight limits. [Full metrics CSV](2026-10-12_KRE_full_basket_metrics.csv) and [standalone charts](2026-10-12_KRE_whole_basket_charts.png) preserve the result.
 
 The existing [April 9 volume study](../../../trade/market-microstructure/RP-REG-5.1_KRE_Volume_Analysis.md) covers moving average volume, relative volume, up-day versus down-day volume and positioning. Its figures are historical; the original report retains its established path. Current saved price comparisons are in the [snapshot index](../SNAPSHOTS.tsv).
 

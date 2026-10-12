@@ -17,7 +17,9 @@ The top-ten historical returns end on October 9 and exclude dividends. Bank feed
 
 ## Source records and analysis
 
-Latest synthesis: [KRE price patterns through October 9](studies/2026-10-12_KRE_price_patterns.md) — recent weakness, former relative winners turning down, and the gap between current holding weights and historical fund contributions.
+Latest approved research: [KRE whole-basket study](studies/2026-10-12_KRE_whole_basket_study.md) — all 167 current bank holdings, breadth, benchmarks, volume, primary rates and historical-attribution limits. [Charts](studies/2026-10-12_KRE_whole_basket_charts.png) and [full metrics CSV](studies/2026-10-12_KRE_full_basket_metrics.csv). Prices end October 9; primary rates end October 8; source fetch October 12.
+
+Earlier synthesis: [KRE price patterns through October 9](studies/2026-10-12_KRE_price_patterns.md) — recent weakness, former relative winners turning down, and the gap between current holding weights and historical fund contributions.
 
 | Subject | Canonical records |
 |---|---|

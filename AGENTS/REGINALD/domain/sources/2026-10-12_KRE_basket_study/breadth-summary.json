@@ -1,0 +1,38 @@
+{
+  "three_month": {
+    "covered_banks": 167,
+    "covered_oct9_weight_pct": 99.885822,
+    "declining_banks": 130,
+    "declining_oct9_weight_pct": 87.06929299999999,
+    "declining_count_share_pct": 77.8443113772455,
+    "median_price_pct": -4.315302192423031,
+    "median_adjusted_return_pct": -3.7917615647426017,
+    "price_p10_pct": -12.45193696868517,
+    "price_p90_pct": 3.5374534081560745,
+    "oct9_weight_adjusted_scenario_pp": -6.295124722113355,
+    "scenario_label": "October9 end-weight fixed-basket diagnostic; NOT actual historical fund contributions"
+  },
+  "four_week": {
+    "covered_banks": 167,
+    "covered_oct9_weight_pct": 99.885822,
+    "declining_banks": 165,
+    "declining_oct9_weight_pct": 98.78605900000001,
+    "declining_count_share_pct": 98.80239520958084,
+    "median_price_pct": -5.412297528651299,
+    "median_adjusted_return_pct": -5.297385169249513,
+    "price_p10_pct": -8.8721314374749,
+    "price_p90_pct": -3.1792047252820272,
+    "oct9_weight_adjusted_scenario_pp": -5.876772247087972,
+    "scenario_label": "October9 end-weight fixed-basket diagnostic; NOT actual historical fund contributions"
+  },
+  "sma20": {
+    "covered_banks": 167,
+    "below_banks": 164,
+    "below_oct9_weight_pct": 98.234249
+  },
+  "sma50": {
+    "covered_banks": 167,
+    "below_banks": 165,
+    "below_oct9_weight_pct": 98.78605900000001
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "key": "spdr-series-submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001064642.json",
+    "fetched_at_utc": "2026-10-12T18:39:56.577173+00:00",
+    "sha256": "238a0557e73ef357f59977049ceaf79cf7c315ad8ab1c93f467d1b451d4e5a57",
+    "bytes": 185511
+  },
+  {
+    "key": "kre-nport-search",
+    "url": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-07-01&enddt=2026-10-12&forms=NPORT-P&ciks=1064642&q=%22S000012325%22",
+    "fetched_at_utc": "2026-10-12T18:39:56.816855+00:00",
+    "sha256": "23fada848200e66fe76df1dda1832e9f7ca9ed9a79c9e58afac8ba017d80ad93",
+    "bytes": 1085
+  }
+]

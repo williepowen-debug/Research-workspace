@@ -1,5 +1,5 @@
 # REGINALD ROADMAP — "Where are we"
-**Updated:** **2026-10-11 (Sun, WQ-414 accepted after independent result read).** Prior affected operating text → `archive/WQ414_operating_snapshot_2026-10-11.md`.
+**Updated:** **2026-10-12 (approved KRE whole-basket study and existing TERRY bank-stage return).** Other rows retain their stated observation dates. Prior affected operating text → `archive/WQ414_operating_snapshot_2026-10-11.md`.
 *Stamps 10/10 AM (BLOCK R5, crc32 `3693ce98`) and 10/9 PM · 10/7 · 9/29 (BLOCK R3, crc32 `adb2708f`) rotated VERBATIM → `archive/ROADMAP_rotation_2026-10-10.md`.*
 *Stamps 9/27 PM, 9/27 and 9/26 rotated VERBATIM → `archive/ROADMAP_rotation_2026-10-07.md` BLOCK R1, crc32 `ebe14531`.*
 *Stamps 9/14 and 9/02 rotated VERBATIM → `archive/STATUS_rotation_2026-09-27.md` BLOCK R1, crc32 `cb6c187f`.*
@@ -75,7 +75,9 @@ Persistent state-of-REGINALD tracker across sessions. **SCRATCH** = loose notes,
 
 ## RECENTLY RESOLVED
 
-**2026-10-12 L694 domain stage:** one existing-research EGBN candidate question delivered for early TERRY feasibility, report dated10/12. No demonstrated mispricing; credit outcome unresolved in existing L35/Q3 work. Only the first domain stage is done, not TERRY's assessment or the full discovery pass.
+**2026-10-12 KRE whole-basket study:** Will's direct approval executed; `research/market-technicals/studies/2026-10-12_KRE_whole_basket_study.md`. Complete current-basket price coverage, benchmarks/volume/primary rates and charts saved. Broad price weakness; credit cause and exact historical contributions unresolved. One dated study, frozen credit cohort unchanged; no new monitor/trade.
+
+**2026-10-12 L694 bank stage:** EGBN question delivered; TERRY f5a5271fd/return89d77ba1d consumed, **PASS now — no trade-ready expression**. Mispricing unproved plus liquidity/horizon failures; existing L35/Q3 loan outcome dependency retained. Full discovery-pass acceptance remains coordinator-owned.
 
 **2026-10-12:** Will-approved tape → `reports/2026-10-12_morning-regional-bank-tape.md`: broad cohort buying plus OZK relief, broader driver unresolved; chart reconciled with fresh settled history. Sept RaDD bridge/dossier marked historical; existing Q3/TERRY resolvers retained, no new observation task.
 *Last ~2 weeks. Top of mind so the audit trail is visible without reading commits.*

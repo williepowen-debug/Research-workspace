@@ -1,0 +1,683 @@
+{
+  "required_cik": "1064642",
+  "required_series": "S000012325",
+  "candidates": 84,
+  "checked": [
+    {
+      "accession": "0001410368-26-089688",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089688/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:40:57.924516+00:00",
+      "seriesId": "S000006984",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Portfolio S&P 500(R) Growth ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089684",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089684/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:40:58.465930+00:00",
+      "seriesId": "S000069594",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Bloomberg 3-12 Month T-Bill ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089678",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089678/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:40:59.235839+00:00",
+      "seriesId": "S000105798",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Portfolio Nasdaq(R) 100 ET",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089655",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089655/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:40:59.928039+00:00",
+      "seriesId": "S000033832",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P(R) 1500 Momentum Tilt ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089649",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089649/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:01.512111+00:00",
+      "seriesId": "S000022922",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Portfolio Mortgage Backed Bond ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089648",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089648/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:01.984638+00:00",
+      "seriesId": "S000006978",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P(R) Capital Markets ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089643",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089643/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:02.497990+00:00",
+      "seriesId": "S000051701",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P(R) 500 Fossil Fuel Reserves Free ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089641",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089641/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:03.033438+00:00",
+      "seriesId": "S000006976",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Dow Jones(R) REIT ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089640",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089640/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:03.566945+00:00",
+      "seriesId": "S000063360",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P Kensho Clean Power ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089633",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089633/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:04.358426+00:00",
+      "seriesId": "S000017327",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR Nuveen ICE Short Term Municipal Bond ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089630",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089630/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:04.942774+00:00",
+      "seriesId": "S000012318",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P(R) Aerospace & Defense ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089612",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089612/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:05.461211+00:00",
+      "seriesId": "S000095498",
+      "regCik": "0001064642",
+      "seriesName": "State Street SPDR Portfolio Ultra Short T-Bill ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089610",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089610/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:06.013637+00:00",
+      "seriesId": "S000084968",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Portfolio Treasury ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089580",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089580/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:06.615305+00:00",
+      "seriesId": "S000010019",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P(R) Homebuilders ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089562",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089562/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:07.366826+00:00",
+      "seriesId": "S000022631",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Bloomberg Emerging Markets Local Bond ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089559",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089559/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:08.083854+00:00",
+      "seriesId": "S000028870",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR Nuveen ICE High Yield Municipal Bond ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089547",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089547/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:09.530139+00:00",
+      "seriesId": "S000036414",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR Bloomberg Short Term High Yield Bond ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089538",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089538/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:09.967616+00:00",
+      "seriesId": "S000012323",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P(R) Telecom ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089537",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089537/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:10.405318+00:00",
+      "seriesId": "S000017326",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Bloomberg 1-3 Month T-Bill ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089535",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089535/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:10.857290+00:00",
+      "seriesId": "S000012322",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P(R) Retail ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089533",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089533/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:11.386816+00:00",
+      "seriesId": "S000023655",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Bloomberg Short Term International Treasury Bond ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089530",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089530/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:12.215357+00:00",
+      "seriesId": "S000006981",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P(R) Dividend ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089518",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089518/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:12.727564+00:00",
+      "seriesId": "S000012324",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P(R) Transportation ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089513",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089513/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:13.513644+00:00",
+      "seriesId": "S000006985",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Portfolio S&P 500(R) Value ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089511",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089511/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:14.122975+00:00",
+      "seriesId": "S000026152",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) ICE Preferred Securities ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089502",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089502/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:14.725650+00:00",
+      "seriesId": "S000036938",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Portfolio High Yield Bond ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089504",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089504/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:15.222414+00:00",
+      "seriesId": "S000063361",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P Kensho Final Frontiers ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089499",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089499/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:15.724888+00:00",
+      "seriesId": "S000006988",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S & P 400(TM) Mid Cap Value ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089498",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089498/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:16.263168+00:00",
+      "seriesId": "S000019665",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Portfolio Short Term Treasury ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089484",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089484/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:16.721884+00:00",
+      "seriesId": "S000012330",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P(R) Health Care Equipment ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089481",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089481/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:17.378697+00:00",
+      "seriesId": "S000051787",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Russell 1000 Yield Focus ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089466",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089466/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:17.994931+00:00",
+      "seriesId": "S000068660",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Bloomberg Emerging Markets USD Bond ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089457",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089457/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:18.653550+00:00",
+      "seriesId": "S000022924",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Portfolio Long Term Corporate Bond ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089455",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089455/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:19.403963+00:00",
+      "seriesId": "S000040742",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Bloomberg 1-10 Year TIPS ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089452",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089452/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:19.847905+00:00",
+      "seriesId": "S000059700",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P Kensho Intelligent Structures ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089447",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089447/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:20.357012+00:00",
+      "seriesId": "S000059701",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P Kensho Smart Mobility ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089445",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089445/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:20.909930+00:00",
+      "seriesId": "S000006977",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P(R) Bank ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089421",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089421/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:21.644850+00:00",
+      "seriesId": "S000006973",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Portfolio S&P 1500(R) Composite Stock Market ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089405",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089405/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:22.284017+00:00",
+      "seriesId": "S000012329",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P(R) Software & Services ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089402",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089402/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:22.842603+00:00",
+      "seriesId": "S000048346",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) MSCI USA StrategicFactors(SM) ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089400",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089400/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:23.418637+00:00",
+      "seriesId": "S000010018",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P(R) Biotech ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089383",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089383/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:24.127365+00:00",
+      "seriesId": "S000033831",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P(R) 1500 Value Tilt ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089384",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089384/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:24.592879+00:00",
+      "seriesId": "S000012334",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P(R) Oil & Gas Equipment & Services ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089379",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089379/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:25.081877+00:00",
+      "seriesId": "S000006990",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S & P 600(TM) Small Cap Growth ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089369",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089369/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:25.619377+00:00",
+      "seriesId": "S000069051",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P 500(R) ESG ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089368",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089368/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:26.375402+00:00",
+      "seriesId": "S000051788",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Russell 1000 Momentum Focus ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089366",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089366/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:26.856208+00:00",
+      "seriesId": "S000051577",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) FactSet Innovative Technology ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089362",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089362/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:27.406055+00:00",
+      "seriesId": "S000041317",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Portfolio S&P 600(TM) Small Cap ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089355",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089355/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:27.940108+00:00",
+      "seriesId": "S000095649",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P(R) Leveraged Loan ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089344",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089344/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:28.469370+00:00",
+      "seriesId": "S000039795",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) US Small Cap Low Volatility Index ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089332",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089332/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:29.056841+00:00",
+      "seriesId": "S000019666",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Portfolio Short Term Corporate Bond ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089330",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089330/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:29.800862+00:00",
+      "seriesId": "S000081587",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Portfolio S&P Sector Neutral Dividend ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089328",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089328/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:30.504507+00:00",
+      "seriesId": "S000059702",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P Kensho Future Security ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089321",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089321/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:31.089040+00:00",
+      "seriesId": "S000006979",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P(R) Insurance ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089315",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089315/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:32.024182+00:00",
+      "seriesId": "S000031836",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR Portfolio Corporate Bond ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089316",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089316/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:32.656125+00:00",
+      "seriesId": "S000050968",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Portfolio S&P 500(R) High Dividend ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089310",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089310/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:33.181560+00:00",
+      "seriesId": "S000017329",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Portfolio Long Term Treasury ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089307",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089307/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:33.995035+00:00",
+      "seriesId": "S000039794",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) US Large Cap Low Volatility Index ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089300",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089300/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:34.463171+00:00",
+      "seriesId": "S000034874",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Bloomberg Investment Grade Floating Rate ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089287",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089287/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:34.972994+00:00",
+      "seriesId": "S000006975",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Global Dow ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089276",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089276/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:35.710945+00:00",
+      "seriesId": "S000012319",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P(R) Oil & Gas Exploration & Production ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089258",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089258/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:36.269198+00:00",
+      "seriesId": "S000022925",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Bloomberg Convertible Securities ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089251",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089251/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:36.758328+00:00",
+      "seriesId": "S000012333",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P(R) Metals & Mining ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089236",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089236/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:37.213263+00:00",
+      "seriesId": "S000018783",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) FTSE International Government Inflation-Protected Bond ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089234",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089234/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:38.125851+00:00",
+      "seriesId": "S000017333",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR Nuveen ICE Municipal Bond ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089232",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089232/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:38.665591+00:00",
+      "seriesId": "S000053058",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) MSCI USA Gender Diversity ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089222",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089222/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:39.493978+00:00",
+      "seriesId": "S000010020",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P(R) Semiconductor ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089219",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089219/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:40.179940+00:00",
+      "seriesId": "S000006980",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) NYSE Technology ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089217",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089217/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:40.765162+00:00",
+      "seriesId": "S000006974",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S & P 600(TM) Small Cap Value ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089203",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089203/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:41.853950+00:00",
+      "seriesId": "S000017334",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Portfolio Aggregate Bond ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089206",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089206/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:42.803777+00:00",
+      "seriesId": "S000006986",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Portfolio S&P 400(TM) Mid Cap ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089201",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089201/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:43.603363+00:00",
+      "seriesId": "S000063362",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P Kensho New Economies Composite ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089200",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089200/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:44.206995+00:00",
+      "seriesId": "S000006987",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S & P 400(TM) Mid Cap Growth ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089197",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089197/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:44.810822+00:00",
+      "seriesId": "S000006983",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) Portfolio S&P 500(R) ETF",
+      "repPdDate": "2026-06-30"
+    },
+    {
+      "accession": "0001410368-26-089196",
+      "url": "https://www.sec.gov/Archives/edgar/data/1064642/000141036826089196/primary_doc.xml",
+      "fetched_at_utc": "2026-10-12T18:41:45.381285+00:00",
+      "seriesId": "S000012325",
+      "regCik": "0001064642",
+      "seriesName": "State Street(R) SPDR(R) S&P(R) Regional Banking ETF",
+      "repPdDate": "2026-06-30",
+      "sha256": "146bf2df19e61c6d01ff8b85e0dcb43fdfdaba20db3e083f776ea36225bca655"
+    }
+  ]
+}

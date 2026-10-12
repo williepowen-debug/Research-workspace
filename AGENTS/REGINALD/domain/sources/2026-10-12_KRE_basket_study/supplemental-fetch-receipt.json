@@ -1,0 +1,27 @@
+[
+  {
+    "key": "ssga-page",
+    "url": "https://www.ssga.com/us/en/individual/etfs/state-street-spdr-sp-regional-banking-etf-kre",
+    "fetched_at_utc": "2026-10-12T18:39:11.054338+00:00",
+    "sha256": "243745ee071e23e9d204c0dc2da84b6fa25b3540a3d5d00a9926d13d1088c91c",
+    "bytes": 228055,
+    "saved_path": "raw/ssga-page.html",
+    "read_scope": "Fund identity, dated holdings, documents and published AUM fields"
+  },
+  {
+    "key": "fund-submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001064641.json",
+    "fetched_at_utc": "2026-10-12T18:39:11.529178+00:00",
+    "sha256": "993ba132a4f2ff34b7cc1d8c94eee432e5bafa1c2a793ce6861cc5ba6d53fdfa",
+    "bytes": 180587,
+    "disposition": "REJECTED: SELECT SECTOR SPDR TRUST is not KRE registrant",
+    "saved_path": "raw/rejected-CIK1064641-submissions.json"
+  },
+  {
+    "key": "dgs10",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10&cosd=2026-07-10&coed=2026-10-09",
+    "fetched_at_utc": "2026-10-12T18:39:13.369836+00:00",
+    "sha256": "ae782e702bbf03e97291981e037e64361a77d469ac280094877f2ce25670d348",
+    "bytes": 1059
+  }
+]

@@ -1,5 +1,7 @@
 # Proposed research to explain KRE and regional bank price action
 
+**Subsequent approval and delivery, October 12:** Will said **“Okay approved. Go ahead”**. Executed as one dated [whole-basket study](2026-10-12_KRE_whole_basket_study.md). Original proposal below preserves the scope at submission; the initial no-data-pass status is historical.
+
 **October 12, 2026. Authority:** Will directly asked REGINALD to identify additional useful investigations. This is a research recommendation, separate from the approved L694 EGBN opportunity pass. No new data pass, bank commission, monitor or trade action has begun.
 
 The first question should be: **is KRE's weakness widespread across its portfolio, or concentrated in particular banks, and how much is ordinary market exposure?** Our ten-heaviest-holdings sample covers only 11.34% of the October 9 portfolio. Its price history alone cannot explain the fund's loss. The [existing pattern study](2026-10-12_KRE_price_patterns.md) records that limitation and the recent decline.
