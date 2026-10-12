@@ -1,0 +1,32 @@
+[
+  {
+    "name": "gov-1097.pdf",
+    "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202608290012",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202608290012",
+    "error": "",
+    "observed_at": "2026-10-12T21:31:49.563750+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12-followup/gov-1097.pdf",
+    "sha256": "4962dfe6ecf9af65a96d49831d65f28c6886beadbffb1c02cab725486ad920d1"
+  },
+  {
+    "name": "government-59723.html",
+    "url": "http://government.ru/news/59723/",
+    "curl_exit": 0,
+    "http": "200 http://government.ru/news/59723/",
+    "error": "",
+    "observed_at": "2026-10-12T21:31:48.488682+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12-followup/government-59723.html",
+    "sha256": "606c7dadee6f36ac8efa9735d760f49911283c1559b708a816bb114c7fbe86bf"
+  },
+  {
+    "name": "government-60106.html",
+    "url": "http://government.ru/news/60106/",
+    "curl_exit": 0,
+    "http": "200 http://government.ru/news/60106/",
+    "error": "",
+    "observed_at": "2026-10-12T21:31:48.260432+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12-followup/government-60106.html",
+    "sha256": "8e3cd733098dda79aed4f891119e13cea5d1f3248e6f60bef04715ce37c5ab2c"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "government-release.html",
+    "url": "http://government.ru/news/60156/",
+    "curl_exit": 0,
+    "http": "200 http://government.ru/news/60156/",
+    "error": "",
+    "observed_at": "2026-10-12T21:28:56.056014+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12-followup/government-release.html",
+    "sha256": "3304f543f1892586d77463f9fcac6199a2275bd1253f3f6435533cb568c8d43b"
+  },
+  {
+    "name": "government-docs-diesel.html",
+    "url": "http://government.ru/docs/all/?text=%D0%B4%D0%B8%D0%B7%D0%B5%D0%BB%D1%8C&dt.since=09.10.2026&dt.till=12.10.2026",
+    "curl_exit": 0,
+    "http": "404 http://government.ru/docs/all/?text=%D0%B4%D0%B8%D0%B7%D0%B5%D0%BB%D1%8C&dt.since=09.10.2026&dt.till=12.10.2026",
+    "error": "",
+    "observed_at": "2026-10-12T21:28:54.869633+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12-followup/government-docs-diesel.html",
+    "sha256": "3a9a05342785348671a47a9ca3cc74d3dac08119047a25c9b73efb6dfade0e41"
+  },
+  {
+    "name": "government-docs-954.html",
+    "url": "http://government.ru/docs/all/?number=954&dt.since=09.10.2026&dt.till=12.10.2026",
+    "curl_exit": 0,
+    "http": "404 http://government.ru/docs/all/?number=954&dt.since=09.10.2026&dt.till=12.10.2026",
+    "error": "",
+    "observed_at": "2026-10-12T21:28:54.573636+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12-followup/government-docs-954.html",
+    "sha256": "3a9a05342785348671a47a9ca3cc74d3dac08119047a25c9b73efb6dfade0e41"
+  },
+  {
+    "name": "government-search-diesel.html",
+    "url": "http://government.ru/search/?q=%D0%B4%D0%B8%D0%B7%D0%B5%D0%BB%D1%8C&type=doc",
+    "curl_exit": 0,
+    "http": "200 http://government.ru/search/?q=%D0%B4%D0%B8%D0%B7%D0%B5%D0%BB%D1%8C&type=doc",
+    "error": "",
+    "observed_at": "2026-10-12T21:28:55.253347+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12-followup/government-search-diesel.html",
+    "sha256": "de3f943f67e6c057285d4b3ecc75f7f6c752f31337809ee0e05dec07f403769e"
+  },
+  {
+    "name": "pravo-search-form.html",
+    "url": "http://publication.pravo.gov.ru/search/government",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/search/government",
+    "error": "",
+    "observed_at": "2026-10-12T21:28:54.464592+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12-followup/pravo-search-form.html",
+    "sha256": "82878ad39159baaf2988d0d6464f2797a8466b300bb53c7df03082496c80a89e"
+  },
+  {
+    "name": "gov-1328.pdf",
+    "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610090053",
+    "curl_exit": 0,
+    "http": "200 http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202610090053",
+    "error": "",
+    "observed_at": "2026-10-12T21:28:55.468511+00:00",
+    "path": "AGENTS/YURI/sources/2026-10-12-followup/gov-1328.pdf",
+    "sha256": "2059f25d8ab67eac8590fe7bb4fcf27ffe117423bf79c0dc458b5364186668c5"
+  }
+]

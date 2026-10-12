@@ -1,0 +1,33 @@
+[
+  {
+    "check": "known-act positive control",
+    "result": "PASS",
+    "act": "№1252",
+    "publication_id": "0001202609300002"
+  },
+  {
+    "check": "identified public chain",
+    "result": "PASS",
+    "result_count": 3,
+    "ids": [
+      "/document/0001202609300002",
+      "/document/0001202608290012",
+      "/document/0001202607300019"
+    ]
+  },
+  {
+    "check": "fuel/export date filters and explicit empty response",
+    "result": "PASS",
+    "scope": "titles signed 9–12 October, no legal absence certification"
+  },
+  {
+    "check": "retrieval hashes",
+    "result": "PASS",
+    "note": "HTTP404 endpoint bodies preserved and classified unavailable, not empty legal results"
+  },
+  {
+    "check": "intent ledger unchanged from consumed main result",
+    "result": "PASS",
+    "commit": "6db3b1ded"
+  }
+]

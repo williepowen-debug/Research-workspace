@@ -28,7 +28,7 @@
 
 - Selective petroleum-export and bank-transaction permissions coexist with special-measures controls. The 12 October №727 amendment concerns Sakhalin funds management; it is not the diesel-lift instrument.
 - YUR-004 remains OPEN through 31 October. The 12 October review read 19 in-window act titles, finding 0 mobilisation-declaration titles; complete military/FSB scans were also read. The exact unread-text list is in the actor review §2.
-- The signed extension is no longer wire-only. The current lift is primary-confirmed as an announcement; its signed implementation and realized extra supply remain unresolved. Original №954 contains three non-public exemptions, and is not a consolidated October text.
+- The signed extension is no longer wire-only. The current lift is primary-confirmed as an announcement; its signed implementation and realized extra supply remain unresolved. Original №954 contains three non-public exemptions, and is not a consolidated October text. The bounded PROME follow-up read signed №1097 of 28 August and reconstructed the three identified public date acts; the October signed lift/annex remains SEARCH-NOT-FOUND on a partial perimeter. No new operative permission or delivery finding.
 - Minerva Zen is not positive diesel-delivery evidence: DEWEY's current provider source identifies UAN and preserves customs/quantity limits. No zero-other-deliveries inference.
 
 ---
@@ -60,4 +60,4 @@
 | 2026-10-24 | YUR-F01 desk self-falsifier | Current 0 of 3 qualifying calls; DAEDALUS grades, Will rules any retirement proposal |
 | 2026-10-31 | YUR-004 final grade | Full eligible-date/text coverage; backfill only in-window acts through 11/02 |
 
-Evidence: `research/2026-10-12_actor-review-and-diesel-instruments.md`; canonical row state: `workbook/INTENT_LEDGER.tsv`. NEXUS mapping is present; consumption of this new brief is not asserted.
+Evidence: `research/2026-10-12_actor-review-and-diesel-instruments.md` and `research/2026-10-12_prome-directed-diesel-followup.md`; canonical row state: `workbook/INTENT_LEDGER.tsv`. NEXUS mapping is present; consumption of this new brief is not asserted.
