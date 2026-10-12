@@ -1,0 +1,14 @@
+{
+  "recorded_at_utc": "2026-10-12 18:09:50 UTC",
+  "packet_commit": "6c917f2a8",
+  "packet_path": "PROME/inbox/2026-10-12_from-REGINALD_EGBN-KRE-checkpoint.md",
+  "canonical_report": "AGENTS/REGINALD/reports/2026-10-12_PROME_EGBN-KRE_checkpoint.md",
+  "transport": "Verified native codex queue",
+  "queue_id": "01a1314d-cd4f-7522-986f-ceba6a61e518",
+  "recipient_thread": "01a130f9-9935-7fa2-b5cf-42c41652c9a3",
+  "command_exit_code": 0,
+  "transport_result": "ACCEPTED",
+  "recipient_consumption": "UNKNOWN",
+  "lifecycle_action_requested": false,
+  "message_class": "Requested coordination checkpoint; committed artifact pointer only"
+}
