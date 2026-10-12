@@ -1,3 +1,7 @@
+## 2026-10-12 — Will-directed desk sweep, ACTIVE
+
+Routingstructure/testsuite verified; stale receipt/publication and16deliverystates reconciled;4DEWEYreturns consumed with15source stubsverified. Both broadercommissions remainPARTIAL;4top-levelCARL/OZKpackets pendingnormalrouting. READS Oct12transcription/29-pathhashes verified/installed; chartercap remainsopen. Evidence: research/2026-10-12_desk-sweep/REPORT.md. No sessioncloseout, newresearch, marketclearance or runnerdevelopment. No kill event: this commit changes administrative state and delivery reconciliation only.
+
 ## 2026-10-12T18:00:51Z — second approved DEWEY return, PARTIAL
 
 REQ-DEWEY-20261010-001 fullreturn/preregistration read;5source stubsverified. SIG016/COR16 and4handoffs retain conditionalexportpermission vs deliverednetincrement, matchedvendor-minute source and officialsettle gaps. LedgerPARTIAL, October14deadline unchanged; exactpacket filing awaits authorcommit. No newcommission, watcher, grade or trade.

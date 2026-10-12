@@ -1,9 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-10-12T17:44:53Z — Will-directed boot-gap continuation. **Boot PARTIAL**. BOARD **1339**; day total **16 signals (1 FLASH,15 PRIORITY)**, **32 kills**, **0 cluster-mediating signals**. Reboot/continuation:4verify helpers/4jobs, explicit closeout receipts; previous leg:2helpers/4jobs.
+**Updated:** 2026-10-12T18:42:11Z — Will-directed desk sweep (ACTIVE). **Boot PARTIAL**. BOARD **1339**; day total **16 signals (1 FLASH,15 PRIORITY)**, **32 kills**, **0 cluster-mediating signals**. Reboot/continuation:4verify helpers/4jobs, explicit closeout receipts; previous leg:2helpers/4jobs.
 
 ## BOTTOM LINE
 
-All29launch bookmarks are now assessed and the exact original stage consumed. Six bounded reboot/continuation signals cover French refrigeration disruption, Brookings’s AI-spending scenario, Yandex’s third site outage and compute-contract pricing by duration, and the corrected DEWEY storage projection and partial diesel-supply evidence. All41owner-header scopes are read; localCodex overview is available but is not a fleet census. Boot remainsPARTIAL: explicit reads expose the70KBcharter breach and freshREADS transcription remains withPROME; source/settlement limits persist. RaDD extension/fresh capital weakens the observedOZK puts’ near-term catalyst; TERRY/Will own management. Today’sQQQ order/outcome remainsUNKNOWN. Durable duties stay inLAST_COMPLETION.
+All29launch bookmarks are now assessed and the exact original stage consumed. Six bounded reboot/continuation signals cover French refrigeration disruption, Brookings’s AI-spending scenario, Yandex’s third site outage and compute-contract pricing by duration, and the corrected DEWEY storage projection and partial diesel-supply evidence. All41owner-header scopes are read; localCodex overview is available but is not a fleet census. Boot remainsPARTIAL: explicit reads expose the70KBcharter breach and READS transcription andpaired29-pathhashes nowverified/installed; source/settlement limits persist. RaDD extension/fresh capital weakens the observedOZK puts’ near-term catalyst; TERRY/Will own management. Today’sQQQ order/outcome remainsUNKNOWN. Durable duties stay inLAST_COMPLETION.
 
 ## DATED MARKET OBSERVATIONS — retained morning snapshots, not refreshed during session closeout
 
@@ -31,13 +31,13 @@ Routing plus receiving-layer readiness. Domain agents own evidence, state and ju
 
 **CL9 fixed on Will’s direct request:** doctor launch/syntax failures now UNKNOWN unless a completed report supports a verdict; normal completed findings remain REVIEW.30regressions PASS; report `research/2026-10-12_runner-cl9/REPORT.md`. Original repairs retained; time savings unmeasured and stale attestation separate. Stop extending the runner; observe ordinary use.
 
-**Current reboot evidence:** `research/2026-10-12_reboot/BOOT_RECEIPT.md`, `THRESHOLD_REVIEW.md`, `BOOKMARK_REVIEW.md` and keyed disposition TSV. Previous closing handoff is preserved verbatim in that directory. Two new signals011/012; accounting closure is not full content assessment.
+**Current reboot evidence:** `research/2026-10-12_reboot/BOOT_RECEIPT.md`, `THRESHOLD_REVIEW.md`, `BOOKMARK_REVIEW.md` and keyed disposition TSV. Previous closing handoff is preserved verbatim in that directory. Six reboot/continuation signals011-016; exact29bookmark dispositions are complete.
 
 **Procedure repair:** `tools/closeout_run.py` collects existing light/full checks and drafts evidence; manual duty outcomes remain in LAST_COMPLETION. Acceptance: `research/2026-10-12_closeout-improvements/REPORT.md`. No new routing law, owner grade or unattended run.
 
 **Authorization repair (2026-10-12T16:21:08Z):** read-only bookmark GET and automatic renewal both PASS; processed history unchanged. Receipt: `outbox/2026-10-12_x-authorization-restored.md`.
 
-**Fresh context entry:** LAST_COMPLETION.md is the complete open duty/design list. This reboot is active; prior closeout receipt is historical. Both narrow verify helpers answered explicit closeout asks; top-level/DEWEY/REQ scans empty. Nine keyed bookmark assessment gaps remain. Do not infer any other desk’s closure.
+**Fresh context entry:** LAST_COMPLETION.md is the complete open duty/design list. This reboot is active; prior closeout receipt is historical. All4verify helpers were explicitly closed. Desk sweep filed4reviewedDEWEYreturns;4CARL/OZKtop-levelpackets remain for normalrouting. No activeREQoutbox. Original29bookmarkstage fullyassessed/consumed. Do not infer any other desk’s closure.
 
 **Later normal intake:** OZK L690 Horton qualifier routed in signal010; current occupancy unresolved, historical credit-bid/model limits preserved. Source author subsequently committed the packet; read hash matched and WALTER archived/declared consumption, per owned intake receipt.
 

@@ -1,0 +1,33 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    AGENTS/BRENT/audits/2026-10-12_desk-health/
+     [not yours]    AGENTS/DAEDALUS/STATUS.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-10-09_CHARTER_SPLIT.md
+     [not yours]    AGENTS/DEWEY/CONTEXT.md
+     [not yours]    AGENTS/DEWEY/REVIVAL_PLAN.md
+     [not yours]    AGENTS/DEWEY/output/2026-08-27_carl-dr1-fha-partial-claims-leg.md
+     [not yours]    AGENTS/DEWEY/output/INDEX.tsv
+     [not yours]    AGENTS/DEWEY/scripts/edgar_doc.py
+     [not yours]    AGENTS/DEWEY/scripts/gie_pull.py
+     [not yours]    AGENTS/OZK/research/threads/2026-10-12_BOSTON_TRANSACTION_ECONOMICS.md
+     [not yours]    AGENTS/OZK/research/threads/2026-10-12_IQHQ_FUNDING_DURABILITY.md
+     [not yours]    AGENTS/OZK/sources/2026-10-12_DURABILITY/
+     [not yours]    AGENTS/REGINALD/domain/sources/2026-10-12_KRE_basket_study/
+     [not yours]    AGENTS/REGINALD/scripts/kre_basket_study.py
+     [not yours]    AGENTS/TERRY/CLAUDE.md
+     [not yours]    AGENTS/TERRY/LAST_COMPLETION.md
+     [not yours]    AGENTS/TERRY/PAPER_BOOK.tsv
+     [not yours]    AGENTS/TERRY/POSTMORTEMS.md
+     [not yours]    AGENTS/TERRY/SIGNALS.tsv
+     [not yours]    AGENTS/TERRY/TRADE_BOOK.md
+     [not yours]    AGENTS/TERRY/archive/TRADE_BOOK_EXPIRY_PASS_2026-09-03_rotated_2026-10-12.md
+     [not yours]    AGENTS/TERRY/daytrading/PROFILE.md
+     [not yours]    AGENTS/TERRY/daytrading/README.md
+     [not yours]    AGENTS/TERRY/research/2026-10-12_desk-sweep/
+     [not yours]    AGENTS/TERRY/research/SIGNAL_COMBINATION_2026-07-26.md
+     [not yours]    AGENTS/TERRY/scripts/ledger_sweep.py
+     [not yours]    AGENTS/TERRY/setups/INDEX.md
+     [not yours]    AGENTS/TERRY/setups/QQQ735P_oct05-sell-or-roll_2026-10-01.md
+     [not yours]    AGENTS/TERRY/setups/QQQ740P_oct02-sell-or-roll_2026-10-01.md
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

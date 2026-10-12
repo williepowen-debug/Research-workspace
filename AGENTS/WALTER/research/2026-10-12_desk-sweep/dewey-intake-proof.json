@@ -1,0 +1,160 @@
+{
+  "as_of": "2026-10-12T18:39:12.472375+00:00",
+  "scope": "Four DEWEY handoffs read whole; cards/diesel reports read whole; original DR4 correction and APPLIED receipt scoped. Delivery backstop, not independent issuer/legal/cargo certification.",
+  "artifacts": [
+    {
+      "path": "AGENTS/DEWEY/output/2026-10-12_russia-diesel-net-supply-delivery.md",
+      "sha256": "7e103d5b699269a5330c2ec85081fb4153c7954750709f6bb80612097e84ff9a",
+      "bytes": 18003,
+      "matches_HEAD": true,
+      "last_commit": "2d136fced2d731900e362e82c30d949089efdeb6"
+    },
+    {
+      "path": "AGENTS/DEWEY/output/2026-10-12_carl-dr1-cards-q2-fdm.md",
+      "sha256": "a476ddc5de93e96fd93108fbc95cc24caf9abeb62cc442e92e14d0ef5bacb7e9",
+      "bytes": 8005,
+      "matches_HEAD": true,
+      "last_commit": "eb1213301ca80ddc3a653c7e9fb0e3b66a715917"
+    },
+    {
+      "path": "AGENTS/DEWEY/output/2026-08-12_dr4-european-energy-baseline.md",
+      "sha256": "438d637a8533bbc4b6cfb9091d16e11b904c9ef25116c2fad738beaa9c60180c",
+      "bytes": 15932,
+      "matches_HEAD": true,
+      "last_commit": "eb1213301ca80ddc3a653c7e9fb0e3b66a715917"
+    },
+    {
+      "path": "AGENTS/DEWEY/output/2026-10-12_dr4-storage-rerun-hns07.md",
+      "sha256": "d8682c02f496d5a89b881c4b503800fe2edf117d6f3cf4c3ac244919f9c499d6",
+      "bytes": 6698,
+      "matches_HEAD": true,
+      "last_commit": "1cdd6aacb6d751bc41bdaefec1407e3e5ecb40e0"
+    },
+    {
+      "path": "AGENTS/WALTER/inbox/DEWEY/2026-10-12_carl-dr1-cards-q2_handoff.md",
+      "sha256": "a459b27e4b1ecd6bcd1cff2c7fd6b5555ff779ab87455fa614002da5b7247426",
+      "bytes": 966,
+      "matches_HEAD": true,
+      "last_commit": "eb1213301ca80ddc3a653c7e9fb0e3b66a715917"
+    },
+    {
+      "path": "AGENTS/WALTER/inbox/DEWEY/2026-10-12_diesel-evidence-checkpoint_handoff.md",
+      "sha256": "4538a065115fbd8fa40a3c8e6e089718319ee6faeaa339de5542146a52f6a483",
+      "bytes": 916,
+      "matches_HEAD": true,
+      "last_commit": "2d136fced2d731900e362e82c30d949089efdeb6"
+    },
+    {
+      "path": "AGENTS/WALTER/inbox/DEWEY/2026-10-12_dr4-original-dependent-arithmetic_followup.md",
+      "sha256": "4a93c9ef384b3f9e80c1630afd24deede87f374b8196f672ce45f7b1e9068603",
+      "bytes": 912,
+      "matches_HEAD": true,
+      "last_commit": "eb1213301ca80ddc3a653c7e9fb0e3b66a715917"
+    },
+    {
+      "path": "AGENTS/WALTER/inbox/DEWEY/2026-10-12_russia-diesel-net-supply_handoff.md",
+      "sha256": "23ebc5b8546d6cb85d19340e4ac29bf5067ecf69f6f6871fe528d7a2432705d6",
+      "bytes": 1266,
+      "matches_HEAD": true,
+      "last_commit": "eb1213301ca80ddc3a653c7e9fb0e3b66a715917"
+    }
+  ],
+  "stubs": [
+    {
+      "recipient": "CARL",
+      "path": "AGENTS/CARL/inbox/processed/2026-10-12_from-DEWEY_carl-dr1-cards-q2.md",
+      "sha256": "3c7822b23d26ca07a89e2a7bd1af0516dd5c6eced831f31a58a6ad0e229d8e43",
+      "matches_HEAD": true
+    },
+    {
+      "recipient": "REGINALD",
+      "path": "AGENTS/REGINALD/inbox/2026-10-12_from-DEWEY_carl-dr1-cards-q2.md",
+      "sha256": "4db558dec45d4b4fe35f5b3162579c145c801a2afbf470586318fb21c8f7b2fa",
+      "matches_HEAD": true
+    },
+    {
+      "recipient": "HOMER",
+      "path": "AGENTS/HOMER/inbox/2026-10-12_from-DEWEY_carl-dr1-cards-q2.md",
+      "sha256": "a4260aa32403595191c268c27b58fb5a14ef483c5d7506421bd050dad093f70f",
+      "matches_HEAD": true
+    },
+    {
+      "recipient": "LIQUID",
+      "path": "AGENTS/LIQUID/inbox/2026-10-12_from-DEWEY_carl-dr1-cards-q2.md",
+      "sha256": "19ef61d12ae92fb5cdb63010c5effc3dabeac92c081a0d4cba8c2b4597b36fff",
+      "matches_HEAD": true
+    },
+    {
+      "recipient": "RED",
+      "path": "AGENTS/RED/inbox/2026-10-12_from-DEWEY_carl-dr1-cards-q2.md",
+      "sha256": "6f0875fee298f42dcc380859a3c3f281a0c7f5c425265519b856308adef3b5bd",
+      "matches_HEAD": true
+    },
+    {
+      "recipient": "BRENT",
+      "path": "AGENTS/BRENT/inbox/processed/2026-10-12_from-DEWEY_russia-diesel-net-supply.md",
+      "sha256": "dd43731ce7a0bab5216410912ee126f6084c46036d3f9e1baa4d5a84b0c42646",
+      "matches_HEAD": true
+    },
+    {
+      "recipient": "TERRY",
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-12_from-DEWEY_russia-diesel-net-supply.md",
+      "sha256": "2045cb556e7882540bde74cad44295837459f4ec418ed4360eb557c2a4fe7fee",
+      "matches_HEAD": true
+    },
+    {
+      "recipient": "OSPREY",
+      "path": "AGENTS/OSPREY/inbox/2026-10-12_from-DEWEY_russia-diesel-net-supply.md",
+      "sha256": "f1b1912fe203d88b49d68ce06625377a6f07f2232b8ffc361b6d4607f21becb8",
+      "matches_HEAD": true
+    },
+    {
+      "recipient": "YURI",
+      "path": "AGENTS/YURI/inbox/2026-10-12_from-DEWEY_russia-diesel-net-supply.md",
+      "sha256": "6ff20c99bf183295e867e8077538061f3ef76f43a6ae332beb68c20a5abbbf9f",
+      "matches_HEAD": true
+    },
+    {
+      "recipient": "HANS",
+      "path": "AGENTS/HANS/inbox/2026-10-12_from-DEWEY_russia-diesel-net-supply.md",
+      "sha256": "e0f4affa01bc23f700c7f687b1e87e1de6ff1a16ac08e06ae430bf0a49c795b4",
+      "matches_HEAD": true
+    },
+    {
+      "recipient": "BRENT",
+      "path": "AGENTS/BRENT/inbox/2026-10-12_from-DEWEY_diesel-evidence-checkpoint.md",
+      "sha256": "3a1677ef18d25bffb9ee02fbb46bdf9b468c4cb4676f6869a6b1abf48c69043a",
+      "matches_HEAD": true
+    },
+    {
+      "recipient": "TERRY",
+      "path": "AGENTS/TERRY/inbox/2026-10-12_from-DEWEY_diesel-evidence-checkpoint.md",
+      "sha256": "a4cbcb6181a3ad1b4bd7906bb589998c5e2e1ff57690dd9278ddec3f74dbcf94",
+      "matches_HEAD": true
+    },
+    {
+      "recipient": "OSPREY",
+      "path": "AGENTS/OSPREY/inbox/2026-10-12_from-DEWEY_diesel-evidence-checkpoint.md",
+      "sha256": "8ffc29216eb95042371dcdeaa3847b7427020c861269c8efc0f2202319b33f4c",
+      "matches_HEAD": true
+    },
+    {
+      "recipient": "YURI",
+      "path": "AGENTS/YURI/inbox/2026-10-12_from-DEWEY_diesel-evidence-checkpoint.md",
+      "sha256": "1db92acdc45ca70fdb300f066bc9b3c8a0efbf4606377ef50de3d877d02fd73c",
+      "matches_HEAD": true
+    },
+    {
+      "recipient": "HANS",
+      "path": "AGENTS/HANS/inbox/2026-10-12_from-DEWEY_diesel-evidence-checkpoint.md",
+      "sha256": "9d29421163e31adb30d6af488f09de8c60ebef99baaa1aca8488d62f51418766",
+      "matches_HEAD": true
+    }
+  ],
+  "backstops_needed": 0,
+  "commission_states": {
+    "CARL-DR-1": "PARTIAL due 2026-11-13; Q2 leg delivered, Q3 pending",
+    "REQ-DEWEY-20261010-001": "PARTIAL due 2026-10-14; October 9 preliminary CME evidence upgraded, current cargo and October 12 settlements missing"
+  },
+  "packet_filing": "Four exact packets git-moved to processed; consume:WALTER declaration to be included in scoped commit"
+}

@@ -1,0 +1,7 @@
+{
+  "assessed_at": "2026-10-12T18:40:04.785516+00:00",
+  "scanned": 505,
+  "age_basis": "last path commit timestamp, not source observation date",
+  "older_than_60_days": [],
+  "disposition": "No age-eligible paths; no retirement moves"
+}

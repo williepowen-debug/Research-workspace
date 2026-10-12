@@ -1,0 +1,25 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    AGENTS/BRENT/audits/2026-10-12_desk-health/
+     [not yours]    AGENTS/CARL/domain/sources/2026-10-12_fintech-credit-feed.md
+     [not yours]    AGENTS/CARL/domain/sources/fintech-feed/
+     [not yours]    AGENTS/CARL/workbook/KB.tsv
+     [not yours]    AGENTS/DAEDALUS/STATUS.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-10-09_CHARTER_SPLIT.md
+     [not yours]    AGENTS/OZK/sources/2026-10-12_DURABILITY/
+     [not yours]    AGENTS/REGINALD/domain/sources/2026-10-12_KRE_basket_study/
+     [not yours]    AGENTS/REGINALD/inbox/2026-10-12_from-CARL_fintech-consumer-feed-definition-and-Q2-seed.md
+     [not yours]    AGENTS/REGINALD/scripts/kre_basket_study.py
+     [not yours]    AGENTS/TERRY/research/2026-10-12_desk-sweep/
+     [not yours]    AGENTS/TERRY/scripts/ledger_sweep.py
+     [not yours]    PROME/DOCKET.tsv
+     [not yours]    PROME/HANDOFF.md
+     [not yours]    PROME/SCRATCH.md
+     [not yours]    PROME/inbox/2026-10-12_from-CARL_WQ228-fintech-feed-definition-implemented.md
+     [not yours]    PROME/registry/READS.tsv
+     [not yours]    PROME/reports/2026-10-12_active-owner-checkin-transport.json
+     [not yours]    PROME/reports/2026-10-12_active-owner-checkin.md
+     [not yours]    PROME/state/ORCH_INFLIGHT.md
+     [not yours]    PROME/state/ORCH_LOG.tsv
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

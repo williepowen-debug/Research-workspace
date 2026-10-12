@@ -1,4 +1,5 @@
 {
+  "AGENTS.md": "aecdda8cfa113f1161d74abd78d3e8fa0e460a03c2e890ffd1f7321b92a0d5ae",
   "AGENTS/WALTER/CLAUDE.md": "0091de857733acf78769ee3894277a6de725a55cdaa0a906f3ce40829c79dec2",
   "AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md": "5939cc0949a0266de5325d542808afb9524ae7e23ddf6bb293690cf62c6d1c99",
   "AGENTS/WALTER/design/BOOT_PROTOCOL.md": "f37759e9e842837ed93131acae0f16bc79114a976bb73c75b8f9c70110df4c31",
@@ -7,6 +8,7 @@
   "AGENTS/WALTER/design/ROUTING_TABLE.md": "192b33547cba8294ad15a2c4260d103c69a9aa3de8c6ee2237913d4a0cc920ec",
   "AGENTS/WALTER/design/SIGNAL_PROCESSING_CHECKLIST.md": "871d6deccd4b785d0c387136945c8980f7595bc48f802dc6285b57763bdc55be",
   "AGENTS/WALTER/design/THRESHOLD_SCAN.md": "f0fc69a0a4c19f7d5732f0bfb91bd7da40c8345e2ae8a1fff358ed26b238299c",
+  "AGENTS/WALTER/design/X_BOOKMARKS_ACCEPTANCE.md": "135b8a0a885cc60d17bda8d4d899b0606a3981f26bf55e989c9bbb5a07e827d8",
   "AGENTS/WALTER/registry/signal_read_companions.json": "a21d9e2f8e7f5810f0ed2ac4fd03f7d39a10ac585d94c536ddb0659f0dac9018",
   "AGENTS/WALTER/tools/boot_basis_check.py": "9e3c3d06f93573d6ee65d2b94192e0d8a57f30e20feb8fdea64e7b1450129e8e",
   "AGENTS/WALTER/tools/dropzone_scan.py": "2b37fec95b95671ef0de8f111210f9cebfad640ec527dc6a52654e056339c3db",
@@ -16,10 +18,14 @@
   "AGENTS/WALTER/tools/signal_read_check.py": "91717b708d94b2e8e452fa108a9c7781515d84131ea6388efbacc33df85b7039",
   "AGENTS/WALTER/tools/version_drift_check.py": "9252e5290bcaf2da5d3cb9561fc0e5ab9e0e77375b50ce841feb5f53538b841b",
   "AGENTS/WALTER/tools/walter_doctor.py": "aaf3b5f47360a4fb6b78bc6e2afcde8b2e3b5dbdd7a8a5f2e3338f4122621990",
+  "AGENTS/WALTER/tools/x_bookmarks_scan.py": "37fe84063dbd726d8e7d4f30dbf9c098044c2a9113ff540f9dc26a758a02a1e7",
   "CLAUDE.md": "609e423d7ea3cee6395854304f2b36a7d2f831061dbf02e29bbd1021aba43e9e",
   "FORGE/tools/market-data/dashboard.py": "b8271cb66df872c9b36c6a478e529ffa0c58dc09ddeaa4e6c50fb219638a561d",
   "FORGE/tools/market-data/fetch.py": "afb8838728c74d8584d46ec2aadb948efdffc6deddc275f9eb23dc9d05d76c6b",
+  "PROME/COMPLETION_SPEC.md": "d213e20eb75f65ab6953ec99d6430c56500744ea4fad8efd01d968228288a6ff",
+  "PROME/ORCHESTRATION_PLAYBOOK.md": "22c0750a022d7211fd017a94efe1db6f2525380db526972a2ee03b62b85b6d20",
   "PROME/tools/reads_check.py": "6fa5e0b5f5e99ea63f43133cdce7d939198866fe682139dca62dbca0ef4fc115",
+  "USER.md": "f698a7b528ee3242ee75f3650f1cd58860a3c935c57a1ee1abdcbc9fe28f6a7c",
   "scripts/corrections_boot_check.py": "db69634350a304386e77eab0220c1a2efb4ee47aaeba58a2e45435bc21bf8f0e",
   "scripts/read_cap_check.py": "b5fbd2fd3b108a3d375731f30dd4470bdd4ad7fbfecf3f1a295aa5fc30279180"
 }

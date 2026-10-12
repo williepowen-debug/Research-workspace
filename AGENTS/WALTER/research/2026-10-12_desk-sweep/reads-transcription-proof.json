@@ -1,0 +1,13 @@
+{
+  "live_rows": 91,
+  "candidate_rows": 91,
+  "identical_rows": true,
+  "exact_basis_paths": true,
+  "basis_count": 29,
+  "changed_current_bytes": [],
+  "manifest_sha256": "d77b7ec8003209b14a954bb63194e6588f188222e87e7b567eca41958785a401",
+  "manifest_matches_HEAD": true,
+  "manifest_commit": "36eb723f42804bdb2403fe304d2f6e21180d0b6d",
+  "paired_hashes_installed": true,
+  "limits": "Exact signed rows and current bytes verified; does not certify read cap or boot execution."
+}

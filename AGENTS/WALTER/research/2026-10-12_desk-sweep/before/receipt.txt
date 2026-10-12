@@ -1,0 +1,31 @@
+{
+  "status": "REVIEW",
+  "findings": [
+    "7a7334af5: claimed pending, origin proves published",
+    "39fd03670: claimed pending, origin proves published",
+    "SIG-W-20261012-013/OSPREY: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261012-013/HAWK: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261012-013/VULCAN: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261012-014/VULCAN: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261012-014/BROCK: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261012-014/HENRY: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261012-015/HANS: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261012-015/BRENT: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261012-015/AEOLUS: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261012-015/MARCO: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261012-015/DAEDALUS: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261012-015/DEWEY: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261012-016/BRENT: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261012-016/OSPREY: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261012-016/YURI: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261012-016/HANS: ledger/origin disagree; reconcile or investigate",
+    "delivery receipt mismatch: actual 67/67"
+  ],
+  "as_of": "2026-10-12T18:07:09Z",
+  "origin_ref": "88834217b06ffa52ac5369705b9cbd7e8aeb9b08",
+  "delivery_scope": "20261012",
+  "delivered": 67,
+  "total": 67,
+  "next_review": "2026-10-12",
+  "limits": "Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review."
+}

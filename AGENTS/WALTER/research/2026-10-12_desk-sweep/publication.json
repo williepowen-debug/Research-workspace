@@ -1,0 +1,30 @@
+{
+  "origin": "88834217b06ffa52ac5369705b9cbd7e8aeb9b08",
+  "method": "git fetch origin completed before ancestry checks",
+  "commits": [
+    {
+      "commit": "4f9ad8eb6",
+      "published": true
+    },
+    {
+      "commit": "7a7334af5",
+      "published": true
+    },
+    {
+      "commit": "39fd03670",
+      "published": true
+    },
+    {
+      "commit": "bd7c13a30",
+      "published": true
+    },
+    {
+      "commit": "ff4791105",
+      "published": true
+    },
+    {
+      "commit": "88834217b",
+      "published": true
+    }
+  ]
+}
