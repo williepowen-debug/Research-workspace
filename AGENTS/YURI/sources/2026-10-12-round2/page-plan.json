@@ -1,0 +1,441 @@
+{
+  "page_ceiling": 50,
+  "pdf_pages_in_saved_set": 80,
+  "rendered_pages": [
+    {
+      "number": "711",
+      "official_id": "0001202610020001",
+      "page": 1,
+      "total_pages": 1,
+      "preview": "/tmp/yuri-round2-20261012/act-711-p01.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "715",
+      "official_id": "0001202610050001",
+      "page": 1,
+      "total_pages": 1,
+      "preview": "/tmp/yuri-round2-20261012/act-715-p01.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "716",
+      "official_id": "0001202610050002",
+      "page": 1,
+      "total_pages": 3,
+      "preview": "/tmp/yuri-round2-20261012/act-716-p01.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "716",
+      "official_id": "0001202610050002",
+      "page": 2,
+      "total_pages": 3,
+      "preview": "/tmp/yuri-round2-20261012/act-716-p02.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "716",
+      "official_id": "0001202610050002",
+      "page": 3,
+      "total_pages": 3,
+      "preview": "/tmp/yuri-round2-20261012/act-716-p03.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "722",
+      "official_id": "0001202610120029",
+      "page": 1,
+      "total_pages": 6,
+      "preview": "/tmp/yuri-round2-20261012/act-722-p01.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "722",
+      "official_id": "0001202610120029",
+      "page": 2,
+      "total_pages": 6,
+      "preview": "/tmp/yuri-round2-20261012/act-722-p02.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "722",
+      "official_id": "0001202610120029",
+      "page": 3,
+      "total_pages": 6,
+      "preview": "/tmp/yuri-round2-20261012/act-722-p03.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "722",
+      "official_id": "0001202610120029",
+      "page": 4,
+      "total_pages": 6,
+      "preview": "/tmp/yuri-round2-20261012/act-722-p04.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "722",
+      "official_id": "0001202610120029",
+      "page": 5,
+      "total_pages": 6,
+      "preview": "/tmp/yuri-round2-20261012/act-722-p05.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "722",
+      "official_id": "0001202610120029",
+      "page": 6,
+      "total_pages": 6,
+      "preview": "/tmp/yuri-round2-20261012/act-722-p06.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "723",
+      "official_id": "0001202610120009",
+      "page": 1,
+      "total_pages": 35,
+      "preview": "/tmp/yuri-round2-20261012/act-723-p01.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "723",
+      "official_id": "0001202610120009",
+      "page": 2,
+      "total_pages": 35,
+      "preview": "/tmp/yuri-round2-20261012/act-723-p02.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "723",
+      "official_id": "0001202610120009",
+      "page": 3,
+      "total_pages": 35,
+      "preview": "/tmp/yuri-round2-20261012/act-723-p03.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "723",
+      "official_id": "0001202610120009",
+      "page": 34,
+      "total_pages": 35,
+      "preview": "/tmp/yuri-round2-20261012/act-723-p34.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "723",
+      "official_id": "0001202610120009",
+      "page": 35,
+      "total_pages": 35,
+      "preview": "/tmp/yuri-round2-20261012/act-723-p35.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "372-рп",
+      "official_id": "0001202610120030",
+      "page": 1,
+      "total_pages": 20,
+      "preview": "/tmp/yuri-round2-20261012/act-372-rp-p01.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "372-рп",
+      "official_id": "0001202610120030",
+      "page": 2,
+      "total_pages": 20,
+      "preview": "/tmp/yuri-round2-20261012/act-372-rp-p02.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "372-рп",
+      "official_id": "0001202610120030",
+      "page": 3,
+      "total_pages": 20,
+      "preview": "/tmp/yuri-round2-20261012/act-372-rp-p03.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "372-рп",
+      "official_id": "0001202610120030",
+      "page": 4,
+      "total_pages": 20,
+      "preview": "/tmp/yuri-round2-20261012/act-372-rp-p04.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "372-рп",
+      "official_id": "0001202610120030",
+      "page": 5,
+      "total_pages": 20,
+      "preview": "/tmp/yuri-round2-20261012/act-372-rp-p05.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "372-рп",
+      "official_id": "0001202610120030",
+      "page": 6,
+      "total_pages": 20,
+      "preview": "/tmp/yuri-round2-20261012/act-372-rp-p06.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "372-рп",
+      "official_id": "0001202610120030",
+      "page": 7,
+      "total_pages": 20,
+      "preview": "/tmp/yuri-round2-20261012/act-372-rp-p07.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "372-рп",
+      "official_id": "0001202610120030",
+      "page": 8,
+      "total_pages": 20,
+      "preview": "/tmp/yuri-round2-20261012/act-372-rp-p08.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "372-рп",
+      "official_id": "0001202610120030",
+      "page": 9,
+      "total_pages": 20,
+      "preview": "/tmp/yuri-round2-20261012/act-372-rp-p09.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "372-рп",
+      "official_id": "0001202610120030",
+      "page": 10,
+      "total_pages": 20,
+      "preview": "/tmp/yuri-round2-20261012/act-372-rp-p10.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "372-рп",
+      "official_id": "0001202610120030",
+      "page": 11,
+      "total_pages": 20,
+      "preview": "/tmp/yuri-round2-20261012/act-372-rp-p11.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "372-рп",
+      "official_id": "0001202610120030",
+      "page": 12,
+      "total_pages": 20,
+      "preview": "/tmp/yuri-round2-20261012/act-372-rp-p12.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "372-рп",
+      "official_id": "0001202610120030",
+      "page": 13,
+      "total_pages": 20,
+      "preview": "/tmp/yuri-round2-20261012/act-372-rp-p13.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "372-рп",
+      "official_id": "0001202610120030",
+      "page": 14,
+      "total_pages": 20,
+      "preview": "/tmp/yuri-round2-20261012/act-372-rp-p14.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "372-рп",
+      "official_id": "0001202610120030",
+      "page": 15,
+      "total_pages": 20,
+      "preview": "/tmp/yuri-round2-20261012/act-372-rp-p15.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "372-рп",
+      "official_id": "0001202610120030",
+      "page": 16,
+      "total_pages": 20,
+      "preview": "/tmp/yuri-round2-20261012/act-372-rp-p16.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "372-рп",
+      "official_id": "0001202610120030",
+      "page": 17,
+      "total_pages": 20,
+      "preview": "/tmp/yuri-round2-20261012/act-372-rp-p17.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "372-рп",
+      "official_id": "0001202610120030",
+      "page": 18,
+      "total_pages": 20,
+      "preview": "/tmp/yuri-round2-20261012/act-372-rp-p18.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "372-рп",
+      "official_id": "0001202610120030",
+      "page": 19,
+      "total_pages": 20,
+      "preview": "/tmp/yuri-round2-20261012/act-372-rp-p19.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "372-рп",
+      "official_id": "0001202610120030",
+      "page": 20,
+      "total_pages": 20,
+      "preview": "/tmp/yuri-round2-20261012/act-372-rp-p20.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "369-рп",
+      "official_id": "0001202610060001",
+      "page": 1,
+      "total_pages": 1,
+      "preview": "/tmp/yuri-round2-20261012/act-369-rp-p01.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "375-рп",
+      "official_id": "0001202610120011",
+      "page": 1,
+      "total_pages": 1,
+      "preview": "/tmp/yuri-round2-20261012/act-375-rp-p01.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "712",
+      "official_id": "0001202610020002",
+      "page": 1,
+      "total_pages": 1,
+      "preview": "/tmp/yuri-round2-20261012/act-712-p01.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "730",
+      "official_id": "0001202610120031",
+      "page": 1,
+      "total_pages": 2,
+      "preview": "/tmp/yuri-round2-20261012/act-730-p01.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "730",
+      "official_id": "0001202610120031",
+      "page": 2,
+      "total_pages": 2,
+      "preview": "/tmp/yuri-round2-20261012/act-730-p02.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "335-ФЗ",
+      "official_id": "0001202610120001",
+      "page": 1,
+      "total_pages": 2,
+      "preview": "/tmp/yuri-round2-20261012/act-335-fz-p01.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "335-ФЗ",
+      "official_id": "0001202610120001",
+      "page": 2,
+      "total_pages": 2,
+      "preview": "/tmp/yuri-round2-20261012/act-335-fz-p02.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "336-ФЗ",
+      "official_id": "0001202610120002",
+      "page": 1,
+      "total_pages": 2,
+      "preview": "/tmp/yuri-round2-20261012/act-336-fz-p01.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "336-ФЗ",
+      "official_id": "0001202610120002",
+      "page": 2,
+      "total_pages": 2,
+      "preview": "/tmp/yuri-round2-20261012/act-336-fz-p02.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "337-ФЗ",
+      "official_id": "0001202610120003",
+      "page": 1,
+      "total_pages": 1,
+      "preview": "/tmp/yuri-round2-20261012/act-337-fz-p01.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "338-ФЗ",
+      "official_id": "0001202610120004",
+      "page": 1,
+      "total_pages": 2,
+      "preview": "/tmp/yuri-round2-20261012/act-338-fz-p01.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "338-ФЗ",
+      "official_id": "0001202610120004",
+      "page": 2,
+      "total_pages": 2,
+      "preview": "/tmp/yuri-round2-20261012/act-338-fz-p02.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "339-ФЗ",
+      "official_id": "0001202610120005",
+      "page": 1,
+      "total_pages": 2,
+      "preview": "/tmp/yuri-round2-20261012/act-339-fz-p01.png",
+      "text_layer_chars": 0
+    },
+    {
+      "number": "339-ФЗ",
+      "official_id": "0001202610120005",
+      "page": 2,
+      "total_pages": 2,
+      "preview": "/tmp/yuri-round2-20261012/act-339-fz-p02.png",
+      "text_layer_chars": 0
+    }
+  ],
+  "unread_pages": {
+    "723": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ]
+  },
+  "rendering_is_not_reading": true
+}
