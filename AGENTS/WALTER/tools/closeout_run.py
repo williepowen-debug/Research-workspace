@@ -10,6 +10,7 @@ import argparse
 from datetime import datetime, timezone
 import json
 from pathlib import Path
+import re
 import subprocess
 import sys
 
@@ -77,7 +78,18 @@ def classify(code, kind, output):
     if kind == "doctor":
         if "check raised " in output or code < 0:
             return "UNKNOWN"
-        return "REVIEW" if code else "PASS"
+        # Python launch/syntax errors also return positive exits. Only the
+        # doctor's terminal summary establishes a completed finding count.
+        footer = output.rstrip().splitlines()[-1] if output.strip() else ""
+        if footer == "✓ no HIGH/MED findings — WALTER domain healthy." and code == 0:
+            return "PASS"
+        summary = re.fullmatch(
+            r"✗ ([1-9][0-9]*) item\(s\) need attention \(HIGH/MED\)\. See punch-list above\.",
+            footer,
+        )
+        if summary and code == int(summary[1]) % 256:
+            return "REVIEW"
+        return "UNKNOWN"
     if kind == "advisory":
         return "ADVISORY" if code == 0 else "UNKNOWN"
     return "PASS" if code == 0 else "REVIEW" if code == 1 else "UNKNOWN"

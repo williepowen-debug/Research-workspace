@@ -11,6 +11,8 @@ Authorized intake/routing completed within available access; remaining source/tr
 
 ## CHANGED
 
+- Will-directed CATO CL9 follow-up reproduced both unrun-doctor cases and corrected classification using the existing terminal report;30tests PASS. Missing/syntax failure UNKNOWN, genuine completed finding-count REVIEW unchanged. No further runner development commissioned. Evidence `research/2026-10-12_runner-cl9/REPORT.md`.
+
 - Reboot: cyber011/AI-scenario012,6create-only handoffs,8newkills; bounded two-helper verification and explicit closeout receipts. Auth works;9bookmark content/basis gaps retained, no --mark. Current per-row threshold evidence and six registry headers refreshed.
 
 - Will-authorized CATO CL1/CL7/CL8 repair: four cadence headers and compatible consumers, stable execution order, canonical Git pointers and thin light/full check runner.26 targeted tests PASS; X light replay leaves owner summaries/history unchanged. Existing LAST_COMPLETION remains the obligation list. Acceptance: `research/2026-10-12_closeout-improvements/REPORT.md`.
@@ -28,7 +30,7 @@ Authorized intake/routing completed within available access; remaining source/tr
 
 ## RESULT
 
-BOARD1335.51 required handoff rows (45 prior origin-proven;6 reboot publication pending). Previous closing-session receipt below is dated historical context; current boot receipt governs new coverage. Previous count:45 required handoff rows; CARL/RED/PROME/TERRY exemptions follow canonical rules. Fresh origin reference `3d61c6af6380019de7643fe03a2d988701e07743` and delivery reconciliation establish listed publication/delivery states below. A delivered file is not consumed; only dated owner evidence establishes specific integration. Pre-maintenance session-closeout doctor:0HIGH/5MED (historical LABOR_DOWN residual; two amendment-note IDs;20 historical note rows; degraded newsweep;82 aged unconsumed). These are surfaced, not silently cleared. Latest maintenance checks: scoped receipt/read-cap/archive/weekday/basis/version PASS; doctor REVIEW0HIGH/5MED; ordinary ledger nudge REVIEW; READS UNKNOWN/stale. Outputs: `research/2026-10-12_closeout-improvements/full-checks/`. Every manual duty has an outcome or evidence limit in this existing receipt. No global procedure PASS or current-market clearance claimed.
+BOARD1335.51 required handoff rows (all51origin-proven after shared publication train). Previous closing-session receipt below is dated historical context; current boot receipt governs new coverage. Previous count:45 required handoff rows; CARL/RED/PROME/TERRY exemptions follow canonical rules. Fresh origin reference `3d61c6af6380019de7643fe03a2d988701e07743` and delivery reconciliation establish listed publication/delivery states below. A delivered file is not consumed; only dated owner evidence establishes specific integration. Pre-maintenance session-closeout doctor:0HIGH/5MED (historical LABOR_DOWN residual; two amendment-note IDs;20 historical note rows; degraded newsweep;82 aged unconsumed). These are surfaced, not silently cleared. Latest maintenance checks: scoped receipt/read-cap/archive/weekday/basis/version PASS; doctor REVIEW0HIGH/5MED; ordinary ledger nudge REVIEW; READS UNKNOWN/stale. Outputs: `research/2026-10-12_closeout-improvements/full-checks/`. Every manual duty has an outcome or evidence limit in this existing receipt. No global procedure PASS or current-market clearance claimed.
 
 ## GAPS / OWED
 
@@ -51,6 +53,8 @@ Existing expiry-card decisions remain with Will/TERRY: QQQ755C October12 (today�
 WQ401 set sub-question remains Will’s (dueOctober14). WQ388 unattended WALTER remains undecided forOctober17 review. Optional subscription and optional one-line step7h encode remain carried, not renewed asks. Prior broker questions are answered by the October11 capture and booked in ANVIL/FORGE and TERRY’s owner state; PROME’s administrative row acceptance is a separate record, not a broker-truth gap re-raised here.
 
 ## FOLLOW-UP
+
+**CL9 resolved:** CATO’s two counterexamples reproduced and fixed; original scope retained. Stop developing the runner and observe ordinary use; actual time savings remain unproven. PROME READS re-attestation remains separate. Reboot packet4e52d9e80 coordination accepted as message01a13118-17e7-7ec3-ab49-84896350dbfa, consumption unverified.
 
 **Fresh-session restart:** continue from this file and STATUS; priority carries are existing expiry cards, CBOE eligible closes, DEWEY return and Iran/source-basis gaps. Native messaging uses the supported CLI queue, not an inference from the model tool list. Previous context is closing; future session IDs must be observed afresh.
 
@@ -105,7 +109,7 @@ Observed 2026-10-12T16:41:43Z; fresh fetched origin `d26f0cad57320c33628c2cabf45
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-12T17:05:03Z",
+  "as_of": "2026-10-12T17:15:23Z",
   "publication": [
     {
       "commit": "3cacce310",
@@ -182,17 +186,21 @@ Observed 2026-10-12T16:41:43Z; fresh fetched origin `d26f0cad57320c33628c2cabf45
     {
       "commit": "b39d3c48b",
       "state": "published"
+    },
+    {
+      "commit": "4e52d9e80",
+      "state": "published"
     }
   ],
   "delivery": {
     "signal_date": "20261012",
     "total": 51,
-    "delivered": 45,
-    "note": "Fresh origin proves previous45; six newly created reboot handoffs pending commit/publication, not consumed."
+    "delivered": 51,
+    "note": "Fresh origin plus deterministic reconciliation proves all51selected handoffs; delivery is not consumption."
   },
   "push": {
     "all_walter_commits_on_origin": false,
-    "note": "Prior repair and closing handoff now origin-proven. Current reboot artifacts await local commit/coordinated publication; WALTER does not push with foreign work."
+    "note": "WALTER pushed nothing; shared train published reboot4e52d9e80. CL9 local commit follows; publication remains bounded to observed ancestry."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -277,7 +285,11 @@ Observed 2026-10-12T16:41:43Z; fresh fetched origin `d26f0cad57320c33628c2cabf45
       "14": "MEMORY95lines; no new durable finding or promotion candidate.",
       "root.1c": "No owned financial threshold/flip/band superseded; fresh intraday observations retain dates, not replacement canonical figures.",
       "root.1d": "No auto-memory authored; index unchanged.",
-      "root.1b/1c-bis/1e": "Orphan advisory checked; current authored packet/handoffs to commit exact paths, no foreign sweep. Ledger nudge REVIEW: no new RED/REG fire/doorbell/DEWEY event, older log headers remain dated; no fake events. Required weekday paths PASS."
+      "root.1b/1c-bis/1e": "Orphan advisory checked; current authored packet/handoffs to commit exact paths, no foreign sweep. Ledger nudge REVIEW: no new RED/REG fire/doorbell/DEWEY event, older log headers remain dated; no fake events. Required weekday paths PASS.",
+      "CL9": "DONE: missing/syntax real subprocess counterexamples reproduced; terminal-summary classification and30owner regressions PASS. Original doctor/check selection/manual duty semantics untouched; no time-saving claim.",
+      "16": "Reboot4e52d9e80 freshly origin-proven;51/51handoffs reconciled, no consumption inferred. CL9/notification receipt exact-path commit follows; WALTER no push.",
+      "CL9-checkpoint": "Light selected checks PASS: receipt/read-cap/archive/weekday/ledger-nudge; orphan advisory reviewed.30regressions PASS, no fresh source/market clearance.",
+      "scratch": "Generated reboot .cache remains local/untracked and excluded from commit; attempted move to/tmp refused cross-device, no file lost or deleted."
     },
     "coverage": "READS stale and nine bookmark sources/bases inaccessible/unestablished; futures official settles/identities and monthly/qualitative evidence remain incomplete.",
     "selected_checks": {
@@ -286,7 +298,7 @@ Observed 2026-10-12T16:41:43Z; fresh fetched origin `d26f0cad57320c33628c2cabf45
       "archives": "PASS",
       "orphans": "ADVISORY",
       "weekdays": "PASS",
-      "ledger-nudge": "REVIEW",
+      "ledger-nudge": "PASS",
       "basis": "PASS",
       "reads": "UNKNOWN",
       "doctor": "REVIEW",

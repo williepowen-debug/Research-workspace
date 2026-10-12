@@ -29,6 +29,8 @@ Routing plus receiving-layer readiness. Domain agents own evidence, state and ju
 
 ## STATE POINTERS
 
+**CL9 fixed on Will’s direct request:** doctor launch/syntax failures now UNKNOWN unless a completed report supports a verdict; normal completed findings remain REVIEW.30regressions PASS; report `research/2026-10-12_runner-cl9/REPORT.md`. Original repairs retained; time savings unmeasured and stale attestation separate. Stop extending the runner; observe ordinary use.
+
 **Current reboot evidence:** `research/2026-10-12_reboot/BOOT_RECEIPT.md`, `THRESHOLD_REVIEW.md`, `BOOKMARK_REVIEW.md` and keyed disposition TSV. Previous closing handoff is preserved verbatim in that directory. Two new signals011/012; accounting closure is not full content assessment.
 
 **Procedure repair:** `tools/closeout_run.py` collects existing light/full checks and drafts evidence; manual duty outcomes remain in LAST_COMPLETION. Acceptance: `research/2026-10-12_closeout-improvements/REPORT.md`. No new routing law, owner grade or unattended run.

@@ -1,0 +1,10 @@
+{
+  "as_of": "2026-10-12T17:15:23Z",
+  "origin": "c78fd7b1462c21951b608a0afec79b499b662262",
+  "reboot_commit": "4e52d9e80",
+  "published": true,
+  "handoffs_origin_proven": 51,
+  "handoffs_total": 51,
+  "walter_pushed": false,
+  "limit": "File delivery and notification acceptance do not establish recipient consumption; CL9 commit/publication separate."
+}

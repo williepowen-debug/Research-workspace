@@ -18,6 +18,9 @@ class CloseoutRun(unittest.TestCase):
         self.out = self.root / "AGENTS/WALTER/research/test-closeout"
 
     def ok(self, argv, root):
+        if len(argv) > 1 and argv[1].endswith("walter_doctor.py"):
+            return subprocess.CompletedProcess(
+                argv, 0, "✓ no HIGH/MED findings — WALTER domain healthy.\n", "")
         return subprocess.CompletedProcess(argv, 0, "{}\n", "")
 
     def test_light_does_not_run_full_or_unselected_conditionals(self):
@@ -80,8 +83,51 @@ class CloseoutRun(unittest.TestCase):
             run(self.root, "light", self.root / "PROME", executor=self.ok)
 
     def test_doctor_count_is_not_standard_rc_two(self):
-        self.assertEqual(classify(2, "doctor", "two MED findings"), "REVIEW")
+        self.assertEqual(classify(2, "doctor",
+            "✗ 2 item(s) need attention (HIGH/MED). See punch-list above.\n"), "REVIEW")
         self.assertEqual(classify(1, "doctor", "check raised ValueError"), "UNKNOWN")
+
+    def actual_doctor(self, argv, root):
+        if len(argv) > 1 and argv[1].endswith("walter_doctor.py"):
+            return subprocess.run(argv, cwd=root, capture_output=True, text=True)
+        return self.ok(argv, root)
+
+    def assert_doctor_unrun(self):
+        report, rc = run(self.root, "full", self.out, executor=self.actual_doctor)
+        doctor = next(c for c in report["checks"] if c["check"] == "doctor")
+        self.assertEqual(doctor["state"], "UNKNOWN")
+        self.assertEqual((report["selected_check_state"], rc), ("UNKNOWN", 2))
+        self.assertEqual(next(c for c in report["checks"] if c["check"] == "versions")["state"], "PASS")
+        return doctor
+
+    def test_missing_doctor_script_is_unknown_and_later_checks_continue(self):
+        doctor = self.assert_doctor_unrun()
+        self.assertEqual(doctor["rc"], 2)
+        self.assertIn("can't open file", (self.root / doctor["output"]).read_text())
+
+    def test_doctor_syntax_error_is_unknown_and_later_checks_continue(self):
+        script = self.root / "AGENTS/WALTER/tools/walter_doctor.py"
+        script.parent.mkdir(parents=True)
+        script.write_text("def broken(:\n")
+        doctor = self.assert_doctor_unrun()
+        self.assertEqual(doctor["rc"], 1)
+        self.assertIn("SyntaxError", (self.root / doctor["output"]).read_text())
+
+    def test_completed_doctor_findings_remain_review(self):
+        script = self.root / "AGENTS/WALTER/tools/walter_doctor.py"
+        script.parent.mkdir(parents=True)
+        script.write_text('print("✗ 2 item(s) need attention (HIGH/MED). See punch-list above.")\n'
+                          'raise SystemExit(2)\n')
+        report, rc = run(self.root, "full", self.out, executor=self.actual_doctor)
+        doctor = next(c for c in report["checks"] if c["check"] == "doctor")
+        self.assertEqual((doctor["state"], doctor["rc"]), ("REVIEW", 2))
+        self.assertEqual((report["selected_check_state"], rc), ("REVIEW", 1))
+
+    def test_doctor_incomplete_or_inconsistent_output_is_unknown(self):
+        for code, output in [(0, ""), (2, "two MED findings"), (0, "partial report\n"),
+                             (1, "✓ no HIGH/MED findings — WALTER domain healthy.\n")]:
+            with self.subTest(code=code, output=output):
+                self.assertEqual(classify(code, "doctor", output), "UNKNOWN")
 
     def test_crashed_check_is_unknown_not_a_completed_review(self):
         self.assertEqual(classify(1, "standard", "Traceback (most recent call last):"), "UNKNOWN")

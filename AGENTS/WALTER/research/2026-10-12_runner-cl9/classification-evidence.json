@@ -1,0 +1,33 @@
+[
+  {
+    "rc": 2,
+    "expected": "UNKNOWN",
+    "actual": "UNKNOWN"
+  },
+  {
+    "rc": 1,
+    "expected": "UNKNOWN",
+    "actual": "UNKNOWN"
+  },
+  {
+    "rc": 0,
+    "expected": "PASS",
+    "actual": "PASS"
+  },
+  {
+    "rc": 2,
+    "expected": "REVIEW",
+    "actual": "REVIEW"
+  },
+  {
+    "rc": 1,
+    "expected": "UNKNOWN",
+    "actual": "UNKNOWN"
+  },
+  {
+    "rc": 5,
+    "expected": "REVIEW",
+    "actual": "REVIEW",
+    "basis": "Existing17:08production report, no new market/source run"
+  }
+]

@@ -1,3 +1,7 @@
+## 2026-10-12T17:14:07Z — Will-directed CL9 correction / light — full deferred
+
+CATO counterexamples reproduced; doctor launch/syntax failures now UNKNOWN, completed finding-count REVIEW preserved;30regressions PASS. Original scope/attestation/time-saving caveats retained. No market/owner grade, watcher, research or trade. No more runner development; observe ordinary use. Reboot coordination receipt saved; notification accepted, not consumption. Publication and current duties LAST_COMPLETION.
+
 ## 2026-10-12T17:05:03Z — fresh Codex boot checkpoint / Tier-2 full closeout duties (session ACTIVE)
 
 Will launched continuation; native thread01a13104-a88a-7df3-afa2-2dcefdc805e3. Previous91d38ecf9/b39d3c48b origin-proven. Two signals011/012,6handoffs,8kills; X29 accounting closed with20assessed/9source gaps kept unconsumed, no --mark. Two narrow verification helpers saved evidence and answered explicit closeout asks. Fresh thresholds scoped/no new sustained fire; READS stale. Registry before network, foreign tree preserved/no pull/push. Existing duties preserved in LAST_COMPLETION; boot PARTIAL, session ACTIVE. Full summary duty pass refreshes REGISTRY before NETWORK, BOTTOM LINE/filter posture reviewed, MEMORY95lines/no new promoted finding, dated retirement assessment executed and required checks collected. Prior full-deferred breadcrumb accounting discharged by this maintenance pass; no global procedure/source PASS.
