@@ -1,7 +1,7 @@
 # TERRY CLOSEOUT
 
-**Created:** 2026-06-26
-**Owner:** TERRY (Claude Code)
+**Created:** 2026-06-26 · **Updated:** 2026-10-12 (Will-approved Git repair and checklist clarification)
+**Owner:** TERRY (actual runtime recorded at boot; provider does not determine authority)
 **Purpose:** repeatable session-end write-back so state survives across sessions. Run before `/clear`, `/new`, or handoff.
 
 > Companion to `CLAUDE.md` (session start) + root `CLAUDE.md` (git protocol). Tier model mirrors LIQUID/PROME CLOSEOUT for cross-agent vocabulary.
@@ -19,12 +19,31 @@
 
 ## Pick a tier
 
-| Tier | When | Touches | Commit? |
-|---|---|---|---|
-| **Bounce** | Mid-session restart within the hour | MEMORY Current-Session addendum (3–5 lines) | No |
-| **Light** | Short paused session; 1–2 artifacts | STATUS surgical + MEMORY surgical | Optional |
-| **Standard** *(default)* | End-of-thread/day; multi-artifact | Chunks 1 + 2 + 4 | Yes |
-| **Heavy** | Built tooling / durable finding / structural shift | Standard + Chunk 3 (auto-memory) | Yes |
+| Tier | When | Required write-back | Triggered work | Manual judgment |
+|---|---|---|---|---|
+| **Bounce** | Brief pause within the same continuing owner session | MEMORY Current-Session breadcrumb with resume point | Preserve any changed card/position evidence before pausing | Can urgent work safely wait? Identify what remains open; a pause is not an actual session-end exemption |
+| **Light** | Small session/pause, 1–2 artifacts | Surgical STATUS and MEMORY changes; final checks and Chunk4 at an actual end | Chunk2 updates for affected work only | Reconcile affected/carrying duties, late intake and scoped retirement evidence; record what broader work remains |
+| **Standard** *(default)* | Actual session/thread end; multiple artifacts | Chunks1,2's mandatory sweep/final checks, and4 | All applicable Chunk2 work | Account for assigned/carried work, retirement assessment, inbox cutoff and pending evidence/acceptance |
+| **Heavy** | Tooling, durable finding or structural change | Standard requirements | Chunk3 only when a durable lesson warrants auto-memory; relevant tests/index checks when triggered | Establish whether a finding merits promotion and whether manual coverage is complete |
+
+**Tier selects write-back depth, not authority.** At an actual session end, root Git Protocol's applicable checks, exact-path commit and authorized push/explicit deferral apply even after a Bounce/Light-sized task. A mid-session pause does not certify closeout. Live-event deferral preserves due obligations, their owner and next touch; it does not mark a blocked check passed.
+
+### How to establish completion
+
+Use this existing checklist and its canonical references; put actual outcomes in the existing dated delivery under COMPLETION_SPEC. Do not create another obligation list or synchronized receipt. Distinguish **performed** (evidence/result), **not performed** (reason/resume point), **cannot be established** (evidence limit), and **not triggered** (condition absent). Missing documentation proves neither execution nor omission. Record unavailable tools, failed/unrun checks and coverage limits explicitly. A command exit0 certifies only the command's assessed scope; it cannot certify manual duties, whole-procedure completion, fresh publication, recipient consumption or process termination.
+
+| Existing step/reference | Requirement and when it applies | Evidence or manual disposition |
+|---|---|---|
+| Chunk1, desk WRITE-BACK | Applicable live STATUS block rewritten in place, MEMORY Current/Next reconciled | Owner reads the resulting state; a timestamp alone is not proof |
+| Chunk2 mandatory sweep | Final ledger sweep before Git closeout; **A–H exit1 blocks** | Preserve output/result; correct and rerun affected checks. I is advisory with actual packet disposition |
+| Desk BOARD pull and R1 correction check | Final BOARD ID reconciliation and `python3 scripts/corrections_boot_check.py TERRY` | Read before logging; record BOARD “N new since <id>, N logged”; retain/resolve named correction obligations under their existing rules |
+| Standing day-trade intake | Reconcile raw `inbox/WILL/` at the final observation; keep its subordinate standing loop | Distinguish metadata/processed files from new evidence; record no new input when true, no fabricated ledger event |
+| Root session-end1b/1e and Data Hygiene read cap | Orphan and weekday checks; applicable read-cap verification before final commit | Review advisory findings; never sweep foreign work. Missing inputs/unavailable checks remain explicit; cap scan's heuristic scope travels |
+| Root session-end1c/1c-bis/1d and Chunk2–3 | Consumer checks when a cited figure is superseded; ledger nudge when STATUS moves without its ledgers; auto-memory checks when written; applicable tool selftests on tool changes | Assess triggers against actual changes, not only selected flags. A not-triggered step is not a PASS; nudge findings need individual refresh/freeze/reason |
+| Root Data Hygiene retirement and carried duties | Owner assesses research/source retirement and remaining work at an actual closeout | State scope and performed/not-performed/cannot-established outcome. Apply root's age, boot-read/live-reference and pending-event protections; no automatic retirement from an inventory/index or timestamps alone |
+| Chunk4 / COMPLETION_SPEC | Exact owned persistence and dated delivery with cutoff/resume point | Named commit/fresh-origin proof or explicit deferral. Keep author validation, independent acceptance, publication, consumption and lifecycle claims separate |
+
+Manual decisions retain the original card/position/risk/paper/daytrade rules. Do not introduce a generic runner PASS or checklist waiver in their place. WALTER's committed collector91d38ecf9 illustrates collecting scoped outputs and leaving manual duties UNVERIFIED; this clarification adds no TERRY runner.
 
 ---
 
@@ -65,7 +84,7 @@ what's BUILT, what's EXERCISED, what's PENDING, cards fired count, open Will-dec
 (cd "$(git rev-parse --show-toplevel)" && python3 AGENTS/TERRY/scripts/ledger_sweep.py)
 ```
 
-**Exit 1 = do not close out until it is clean or you have written down why a finding is being left.** It takes ~2 seconds and checks the two things this desk demonstrably cannot do by hand:
+**A–H exit1 blocks closeout, as required by the desk charter. Documenting a finding does not discharge the block. Correct the defect and rerun; if a check cannot run, record the incomplete closeout and its reason. CheckI remains advisory and does not contribute to the blocking result.** It takes ~2 seconds and checks the two things this desk demonstrably cannot do by hand:
 
 - **A. STATE AGREEMENT** — every surface naming a `setup_id` (the card, `SETUPS.tsv`, `setups/INDEX.md`, `TRADE_BOOK.md`) claims the same current state.
 - **B. SUPERSEDED-VALUE DRIFT** — a value you corrected (`label ~~old~~ → new`) in a recent commit is not still asserted naked somewhere else.
@@ -89,7 +108,7 @@ Save to `memory/auto/` only for a surprising/non-obvious *how-to-work* lesson, o
 
 ---
 
-## Chunk 4 — Git + report (Standard/Heavy; actual session-end persistence follows root)
+## Chunk 4 — Git + report (every actual session end; persistence follows root)
 
 **Canonical mechanics:** root `CLAUDE.md` § Git Protocol, including “Before committing,” “At session end,” and “Before pulling.” Run from the resolved repository root. This desk adds no recovery recipe or authority over another owner's files/index.
 
@@ -101,6 +120,16 @@ Save to `memory/auto/` only for a surprising/non-obvious *how-to-work* lesson, o
 - **Report:** state exact owned commits and publication evidence or deferral, pending acceptance/dependencies, and MEMORY's next entry point. Saved files, remote delivery, recipient consumption and native lifecycle closeout are separate facts.
 
 **Repair hold:** the October4/October8 hold remains STANDING until the approved repair meets its existing acceptance requirements. Record received/proposed/approved-implemented/accepted separately in the existing owner state and dated repair report; author tests or this text alone do not lift it. Root Git Protocol remains canonical throughout.
+
+
+## Handoff cutoff, late arrivals and rechecks
+
+After the last applicable owner edits/checks and final inbox observation, record an actual timezone-aware **coverage cutoff**, incorporated packet versions, unconsumed dispositions and resume point in the existing dated delivery. The cutoff describes what was incorporated; it grants no authority to ignore later work or declare the session terminated. The replacement boot reconciles later arrivals in both inbox and processed against saved stage results before repeating work. Ask PROME through the existing delivery lane to suppress redundant notifications to the closing identity while continuing to route material changes; replacement identity comes from actual boot evidence.
+
+- **Material arrival:** a changed approval, next deliverable, position/risk fact or urgent deadline receives a bounded handoff/state addendum and the checks that depend on it. Urgent work is surfaced/routed immediately under existing authority, not silently parked behind the cutoff. Preserve the earlier receipt as dated evidence; if urgent work prevents closeout, state that explicitly.
+- **Routine arrival:** a duplicate pointer, acknowledgment or unrelated committed change does not restart the research or entire closeout. Retain its disposition for replacement reconciliation; never file an unread packet as consumed.
+- **Rechecks follow dependencies:** card/ledger changes rerun affected ledger guards; live state changes rerun applicable claim/cap/root checks; a Git procedure edit reruns its safety acceptance. A shared HEAD advance alone does not require rerunning unrelated research. After publication, verify the exact owned commit against a fresh fetched origin; concurrent later commits do not erase its delivery.
+- **Receipt repair:** amend the factual completion claim by a dated correction/addendum in the existing delivery or owned source, never by retroactively calling an unestablished manual duty done. Later assessment proves only its actual time and scope. Keep required final checks and unknown coverage visible.
 
 ---
 

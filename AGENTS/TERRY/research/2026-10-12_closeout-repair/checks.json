@@ -1,0 +1,76 @@
+{
+  "coverage_cutoff": "2026-10-12T12:54:06-04:00",
+  "Git_only_commit": "cd9fc65dd",
+  "Git_body_byte_identical_after_checklist": true,
+  "git_fixtures": "7 AUTHOR PASS, local disposable repositories",
+  "ledger_sweep": {
+    "rc": 0,
+    "blocking": "A-H CLEAN",
+    "setup_ids": 29,
+    "surfaces": 21,
+    "cards": 17,
+    "advisory_inbox": 2
+  },
+  "BOARD": {
+    "new_since": "SIG-W-20261012-010",
+    "new": 0,
+    "logged_this_scan": 0,
+    "addressed": 26,
+    "logged_all": 32,
+    "unlogged_all_ages": [],
+    "skipped": []
+  },
+  "corrections": {
+    "rc": 0,
+    "named_owed": 0,
+    "receipts": 10,
+    "expired_broadcast_not_obligation": 1
+  },
+  "WILL_raw": 0,
+  "weekday": {
+    "rc": 0,
+    "files": 6
+  },
+  "read_cap": {
+    "rc": 0,
+    "perimeter": "7-file charter heuristic, not complete injection/declaration coverage",
+    "STATUS_bytes": 23642,
+    "CLOSEOUT_direct_measurement_bytes": 19357
+  },
+  "whitespace": {
+    "rc": 0,
+    "scope": "changed owner protocol/state/transition and self-authored dated PROME packet"
+  },
+  "ledger_nudge": {
+    "rc": 1,
+    "dispositions": {
+      "CALIBRATION.tsv": "No new forecast/outcome; no scoring event",
+      "daytrading/LEDGER.tsv": "No new raw daytrade evidence",
+      "PAPER_BOOK.tsv": "No new would-fire/fill or mark in this process repair",
+      "SIGNALS.tsv": "No new signal or observation; COT9 integrated earlier",
+      "SETUPS.tsv": "No reviewed setup/status/instrument change",
+      "board_log.tsv": "No new TERRY-addressed BOARD ID; no invented consumption"
+    }
+  },
+  "conditional": {
+    "auto_memory_index": "NOT TRIGGERED: no auto-memory",
+    "consumer": "NOT TRIGGERED: no numerical figure revision",
+    "production_tool_selftests": "NOT TRIGGERED: no production tool changed; one-off Git fixture executed"
+  },
+  "manual": {
+    "retirement_prior": "CANNOT BE ESTABLISHED from prior evidence",
+    "retirement_current": "PERFORMED within 37 tracked research/source paths plus current additions; 2 older candidates retained, no moves",
+    "carried_work": "PERFORMED: L694, afternoon measurements, held-card/broker and acceptance gaps retained; no new research"
+  },
+  "unavailable_or_unrun": {
+    "independent_result_read": "NOT PERFORMED by TERRY; pending existing PROME/CATO lane, hold STANDING",
+    "native_queue_lifecycle": "CANNOT BE ESTABLISHED in this repair; no tool-certified release or recipient consumption",
+    "broader_retirement_trees": "NOT PERFORMED: options/daytrading/setups outside current research/source inventory; no whole-desk coverage claim"
+  },
+  "inbox_dispositions": {
+    "2026-10-12_from-PROME_APPROVED-opportunity-discovery-pass.md": "read; retain for new-session unfinished L694",
+    "2026-10-12_from-REGINALD_L694_EGBN-candidate-question.md": "read at05525fc4c; EGBN feasibility next, no duplicate research"
+  },
+  "foreign": "DAEDALUS residue plus changing peer work left untouched; no pull/stash/reset/restore or foreign stage",
+  "limits": "Scoped author validation and manual dispositions; not independent acceptance, no full historical-procedure certification."
+}

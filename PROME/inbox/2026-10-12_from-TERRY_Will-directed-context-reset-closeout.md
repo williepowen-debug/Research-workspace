@@ -19,3 +19,7 @@ RESULT: Saved 3 transition files at f69307c85 with fresh-origin confirmation; re
 GAPS: Native queue/session-release evidence unavailable; PROME read of this receipt unverified. Existing evidence, broker and independent-acceptance gaps remain at their owners.
 WILL_NEEDS: None for this closeout; Will controls the requested respawn and any eventual order.
 FOLLOW-UP: Replacement TERRY verifies actual boot identity, loads MEMORY/startup map, reconciles saved L694 stages/BRENT handoff, and continues only unfinished approved work.
+
+## Dated coverage clarification — 2026-10-12 12:51:38 EDT
+
+The saved transition, named mechanical checks and fresh-origin publication remain evidenced. The earlier research/source-retirement assessment **CANNOT BE ESTABLISHED from the saved receipt**; missing documentation proves neither performed nor skipped. STATUS DONE above covers the requested transition write-back, not an independently certified whole-procedure manual review. Will subsequently approved Git repair followed by checklist clarification. Current bounded implementation/report is `AGENTS/TERRY/research/2026-10-12_closeout-repair/REPORT.md`; the later scoped retirement review does not retroactively certify the earlier duty. Hold remains STANDING pending independent acceptance. Approved L694 continuation and actual new-session identity/recipient-consumption requirements persist.

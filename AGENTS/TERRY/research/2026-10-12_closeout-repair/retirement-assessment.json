@@ -1,0 +1,47 @@
+{
+  "observed_date": "2026-10-12",
+  "assessment": "PERFORMED \u2014 37 tracked research/source paths inventoried; 2 older candidates manually assessed; no moves",
+  "scope": [
+    "AGENTS/TERRY/research/",
+    "AGENTS/TERRY/sources/"
+  ],
+  "tracked_existing": 37,
+  "dated": 37,
+  "cutoff_exclusive": "2026-08-13",
+  "older_than_60": [
+    {
+      "path": "AGENTS/TERRY/research/SIGNAL_COMBINATION_2026-07-26.md",
+      "last_path_commit": "2026-07-26"
+    },
+    {
+      "path": "AGENTS/TERRY/research/sources/2026-07-26_roan_combining-50-weak-signals.txt",
+      "last_path_commit": "2026-07-26"
+    }
+  ],
+  "missing_dates": [],
+  "age_basis": "last path commit date; no filesystem mtime or refreshed source-observation dates",
+  "limitations": "Scoped to tracked existing owned research/ and sources/ and the current dated additions, using last path commit dates. Does not assess other owned analytical trees (options/, daytrading/, setups/) or another desk. Source suffix mismatch remains citation debt; nothing is automatically deleted/archived. No source-observation clock refreshed.",
+  "candidate_dispositions": [
+    {
+      "path": "AGENTS/TERRY/research/SIGNAL_COMBINATION_2026-07-26.md",
+      "disposition": "RETAIN \u2014 referenced by live risk/position methodology",
+      "evidence": [
+        "AGENTS/TERRY/RISK_SCORING.md:76",
+        "AGENTS/TERRY/TRADE_CARD_TEMPLATE.md:58",
+        "AGENTS/TERRY/MEMORY.md effective-N durable finding"
+      ],
+      "not_index_only": true
+    },
+    {
+      "path": "AGENTS/TERRY/research/sources/2026-07-26_roan_combining-50-weak-signals.txt",
+      "disposition": "RETAIN \u2014 source provenance of the still-live adopted signal-combination analysis; source-pointer filename mismatch carried as citation debt",
+      "evidence": [
+        "raw source header identifies the graded SIGNAL_COMBINATION file",
+        "graded analysis header identifies the same Roan July26 document but uses a .docx.txt suffix"
+      ],
+      "automatic_reference_eligibility": "UNKNOWN for the mismatched literal path; no silent move of the live source chain"
+    }
+  ],
+  "new_untracked_artifacts": "Dated checklist/report/evidence added today; not older than60days. CLOSEOUT/STATUS/MEMORY are maintained live protocol/state, not retireable research in this assessment.",
+  "prior_2026_10_12_assessment": "CANNOT BE ESTABLISHED from earlier saved evidence; this later assessment does not retroactively certify it."
+}
