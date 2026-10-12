@@ -17,3 +17,23 @@ RESULT: 1 bank candidate assessed, 2 expressions screened, 0 trade-ready recomme
 GAPS: BRENT current-pass disposition missing; automatic review rejected external publication twice; broker/quote age and native consumption unverified.
 WILL_NEEDS: Explicit approval to publish these committed research results/coordination packets to the existing GitHub origin.
 FOLLOW-UP: Once publication is authorized, run the same safe-push and verify exact owned ancestry after fresh fetch. Complete final comparison when BRENT's existing stage arrives; no repeated screen.
+
+## Final current-pass delivery — 2026-10-12T14:19:57-04:00
+
+Supersedes only the earlier provisional current-pass status: **COMPLETE diagnosis at76e14f8d2**, EGBN PASS plus BRENT committed energy WAITb6aac5105. Final packet `PROME/inbox/2026-10-12_from-TERRY_L694-consolidated-diagnosis.md` names the exact version for PROME read/disposition. Existing direct-Will BNO resultd6062b88a remains separate. PROME explicitly reports prior-stage consumption in this conversation; this final version is not yet acknowledged. No native send endpoint or final acceptance claimed, no closeout requested.
+
+DEWEY original report and recipient packet now match **eb1213301** byte-for-byte: report SHA256b4187c8a81a05cc46240ad7f8a7af2d56098fea2fac295296162f5de2ff6e4e8; packet SHA2562045cb556e7882540bde74cad44295837459f4ec418ed4360eb557c2a4fe7fee. Publication into the local committed tree is resolved, while partial evidence gaps remain. Earlier untracked-at-read statements are dated history.
+
+Five fully read/integrated incoming packets filed via exact git mv to `inbox/processed/`: PROME approved pass; REGINALD candidate and primary verification; BRENT final wait; DEWEY partial diesel. Integration precedes filing at76e14f8d2. Follow-up duties are retained in owner STATUS/MEMORY, not discharged by filing. Last desk-inbox check showed0undrained packets excluding rawWill intake; no process retirement/cutoff claim.
+
+Final performed checks: ledger A–H clean/31setup_ids/21surfaces/17cards, inbox advisory0; corrections0named owed/11receipts; read-cap rc0 on7heuristic surfaces, charter injection/declaration coverage unconfirmed; STATUS24003B with409B trigger headroom, no surface just rotated here. Orphan advisory found only foreign edits/untracked transport/cache surfaces, untouched. No fresh market data, marks, forecast/fill, code, auto-memory or card/ledger state change in this consolidation; corresponding extra tests/index/regrade tasks not triggered. Weekday check passed on4 final affected files; git diff --check passed on owned TERRY paths and the exact self-authored PROME packet. These checks certify only their assessed scopes.
+
+Publication: no new push/fetch attempted in this delivery. Earlier14:02 origin observation and automatic-review restrictions remain as dated receipts; exact current external publication not certified. Prior specific payload/destination approval request remains pending; no repeated question/workaround. Existing afternoon and named future evidence/independent acceptance duties remain as in the final comparison.
+
+## COMPLETION — TERRY — 2026-10-12
+STATUS: DONE (current bounded L694 diagnosis; PROME final acceptance pending)
+CHANGED: COMPARISON.md, STATUS.md, MEMORY.md, dated PROME packet, existing DELIVERY.md; 5 consumed inbox packets filed.
+RESULT: 2 domain dispositions reconciled: EGBN PASS, energy WAIT; 1 bank candidate assessed, 0 additional energy candidates, 0 trade-ready recommendations/$0 deployed. BNO direct-Will feasibility remains separate and complete, NO TRADE.
+GAPS: Economic inputs await existing issuer/DEWEY work; PROME has not yet acknowledged this final version. External publication deferred after prior automatic-review rejection of the specific research payload/destination.
+WILL_NEEDS: No capital decision requested; previous specific publication approval request remains pending.
+FOLLOW-UP: PROME read/disposition of 76e14f8d2; existing post-14:30 duties, DEWEY October14 and physical/IEA October15 dependencies remain open.
