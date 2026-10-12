@@ -1,5 +1,5 @@
 # WALTER STATUS
-**Updated:** 2026-10-12 — Monday full boot / transcript intake, OpenAI Codex. **Boot PARTIAL**; operational receipts and gaps below. BOARD **1332**; **9 signals (1 FLASH, 8 PRIORITY)**; **19 kills**, **0 cluster-mediating signals**; **2 verify-helper instances / 4 completed assignments**. No network-uncertainty-peak trigger.
+**Updated:** 2026-10-12 — Monday full boot / transcript intake, OpenAI Codex. **Boot PARTIAL**; operational receipts and gaps below. BOARD **1333**; **10 signals (1 FLASH, 9 PRIORITY)**; **19 kills**, **0 cluster-mediating signals**; **2 verify-helper instances / 4 completed assignments**. No network-uncertainty-peak trigger.
 
 ## BOTTOM LINE
 
@@ -29,6 +29,8 @@ Routing plus receiving-layer readiness. Domain agents own evidence, state and ju
 
 ## STATE POINTERS
 
+**Later normal intake:** OZK L690 Horton qualifier routed in signal010; current occupancy unresolved, historical credit-bid/model limits preserved. Incoming source packet read/dispositioned; archive awaits its author’s commit, per owned intake receipt.
+
 Manual source watch: `research/tanker-cost-watch/WATCH.md`, STATE.csv, REVIEWS.tsv. October9 freight retry completed October10; old missing paragraph retained as history. October9 USO call sale disposition corrected separately from October14 calls; current orders remain unverified. Current duties: `LAST_COMPLETION.md`; boot evidence: `research/2026-10-12_boot/BOOT_RECEIPT.md`; transcript review: `research/2026-10-12_boot/TRANSCRIPT_REVIEW.md`.
 
 ## NETWORK AWARENESS
@@ -37,7 +39,7 @@ Manual source watch: `research/tanker-cost-watch/WATCH.md`, STATE.csv, REVIEWS.t
 
 Regenerated from final REGISTRY refresh before this write. Header-only observations refreshed BROCK, BRENT, NEXUS, FERT, DAEDALUS; final owner headers OZK, TERRY, WATT, WALTER. No role, owner grade, readiness class or launch authority changed. Older Updated rows (≥7d, including dormant/special rows; age is not a DARK classification): YEYOU 2026-09-05 (37d; RETIRED), RAV 2026-08-02 (71d; YELLOW), OTTO 2026-10-04 (8d; RED2), ATHENA 2026-03-14 (212d; GREEN), CRUISE 2026-10-03 (9d; RED), DARWIN 2026-02-18 (236d; YELLOW), CREED 2026-10-01 (11d; ORANGE), SENTRY 2026-09-24 (18d; YELLOW), DEWEY 2026-09-10 (32d; YELLOW), MIDAS 2026-10-02 (10d; YELLOW), HOMER 2026-10-02 (10d; RED), FLG 2026-10-01 (11d; YELLOW), YURI 2026-10-02 (10d; YELLOW).
 
-Today’s ACTION addresses: LIQUID2, BOND1, FALCON3, BRENT3, OZK1, BROCK1, TERRY2, CARL2. Exemptions and roles follow canonical per-desk delivery rules; TERRY receives ACTION by BOARD ID-diff, CARL receives ACTION handoffs, RED/PROME INFO by ID-diff. There are42 handoff rows; their delivery/consumption distinction and origin proof are in LAST_COMPLETION.
+Today’s ACTION addresses: LIQUID2, BOND1, FALCON3, BRENT3, OZK1, BROCK1, TERRY3, CARL2, REGINALD1, CREED1. Exemptions and roles follow canonical per-desk delivery rules; TERRY receives ACTION by BOARD ID-diff, CARL receives ACTION handoffs, RED/PROME INFO by ID-diff. There are45 handoff rows; their delivery/consumption distinction and origin proof are in LAST_COMPLETION.
 
 Receiving telemetry at the pre-closeout doctor:82 unconsumed>2d across16 desks,28ACTION/54INFO, oldestACTION10d; ages use timestamp_routed, one mtime fallback across the full scan. Current fleet visibility UNKNOWN: no native census/cross-runtime messaging instrument. ORCH_INFLIGHT is a partial generated view, not a proof of absence; concurrent owner writes and same-day owner receipts provide partial evidence. No desk was declared DARK merely because a tool was unavailable, and no duplicate spawn/doorbell was issued on that basis. Action-address readiness evaluations are saved in `receivability.tsv`.
 

@@ -3,7 +3,7 @@ Runtime: OpenAI Codex; task name `/root`; exact model variant/native session UUI
 
 ## STATUS
 
-Authorized intake/routing completed within available access; remaining source/transport/attestation gaps explicit. Nine signals, one FLASH, nineteen kills; two verify-helper instances/four jobs closed. No trade, new research direction, unattended schedule, domain-grade change or fleet spawn authorized by this work.
+Authorized intake/routing completed within available access; remaining source/transport/attestation gaps explicit. Ten signals, one FLASH, nineteen kills; two verify-helper instances/four jobs closed. No trade, new research direction, unattended schedule, domain-grade change or fleet spawn authorized by this work.
 
 ## CHANGED
 
@@ -12,12 +12,13 @@ Authorized intake/routing completed within available access; remaining source/tr
 - Signal005 FLASH: issuer October12 disclosure confirms October9 multi-year extension toDecember2029 with fresh100M; redraw/as-stabilized/recognition/contributor limits travel. OZK packet read and consumed; TERRY owns held-put review.
 - Signal006: own October10 freight card’s closed USO call disposition corrected to broker OPTION LIQUIDATION, not expiry. The October14 calls are separate. Original dated content preserved with additive lifecycle markers; own tanker watch and transcription inference corrected.
 - Signals007–009: all three supplied transcripts read; new Michigan spending-intention evidence, historical SCF distribution detail and recovered UKMTO/IMO primaries. Other claims deduped, corrected or quarantined in TRANSCRIPT_REVIEW. Two batches closed21/21 and3/3.
+- Later normal intake010: OZK L690 Horton comparison qualifier routed to REGINALD/CREED/TERRY. Current occupancy UNRESOLVED, historical credit bid/model not current cash-price or severity proof; owner research stays OZK. Source packet read/dispositioned; processed-move awaits source-author commit, not silently claimed consumed.
 - Scoped threshold observations saved for all48 owner rows; no new sustained fire established on fetched gradeable series, explicit monthly/qualitative/settlement/access gaps. No owner bands, marks or fire rows changed.
 - Registry refreshed before network summary. Iran history rotation preserved2591bytes verbatim, receipt/hash saved; anchor22681bytes after later primary-access pointer, below rotation stop. Full sweep clock remainsOctober8.
 
 ## RESULT
 
-BOARD1332.42 required handoff rows; CARL/RED/PROME/TERRY exemptions follow canonical rules. Fresh origin reference `d1f76176ef03a25582aa02bc15026aee2046ea14` and delivery reconciliation establish listed publication/delivery states below. A delivered file is not consumed; only dated owner evidence establishes specific integration. Final doctor:0HIGH/5MED (historical LABOR_DOWN residual; two amendment-note IDs;20 historical note rows; degraded newsweep;82 aged unconsumed). These are surfaced, not silently cleared. Closeout/basis/version/weekday/R1 checks PASS their explicit scope; READS rc2 and ledger-nudge rc1 retain reasons below. Outputs saved in the boot evidence directory.
+BOARD1333.45 required handoff rows; CARL/RED/PROME/TERRY exemptions follow canonical rules. Fresh origin reference `d1f76176ef03a25582aa02bc15026aee2046ea14` and delivery reconciliation establish listed publication/delivery states below. A delivered file is not consumed; only dated owner evidence establishes specific integration. Final doctor:0HIGH/5MED (historical LABOR_DOWN residual; two amendment-note IDs;20 historical note rows; degraded newsweep;82 aged unconsumed). These are surfaced, not silently cleared. Closeout/basis/version/weekday/R1 checks PASS their explicit scope; READS rc2 and ledger-nudge rc1 retain reasons below. Outputs saved in the boot evidence directory.
 
 ## GAPS / OWED
 
@@ -41,6 +42,8 @@ WQ401 set sub-question remains Will’s (dueOctober14). WQ388 unattended WALTER 
 
 ## FOLLOW-UP
 
+**New intake filing duty:** after OZK commits `inbox/2026-10-12_from-OZK_L690-Horton-comparison-disposition.md`, verify the read hash, archive with git-mv and append consumed declaration. Signal010 and its three handoffs are already authored; no repeat comparison research or new direction.
+
 **Desktop coordination reply (2026-10-12T15:27:00Z):** existing WALTER native thread identified; PROME status packet committed2000b48a5. Supported `codex queue` accepted message01a130b8-a7e7-7421-9d17-0c1380c48b83 for the exact requested thread. Receipt: `outbox/2026-10-12_to-PROME_desktop-coordination-queue-receipt.md`. Status request DONE; prior boot/source/auth/attestation duties remain PARTIAL. No new commission, owner takeover, market signal or consumption inference.
 
 1. Next boot first: verify this closeout commit’s publication, fresh-fetch origin, and run delivery reconciliation. Today’s dispatches are already evidenced below; do not re-ask whether older listed commits reached origin. Re-check X auth, READS L174 and PROME ranked drain acceptance.
@@ -48,7 +51,7 @@ WQ401 set sub-question remains Will’s (dueOctober14). WQ388 unattended WALTER 
 3. Iran: October12 addressed all ladder limbs with scoped evidence/access limits but did not complete full-source coverage or resetOctober8 clock. Reconcile UKMTO/IMO mappings/loss bases with FALCON; preserve gas/refining OUT classification, no mines/sinking inferred, owner grades unchanged. Next full scheduled targetOctober15, or earlier when sources become available. Anchor rotation discharged; old “above stop line” carry is no longer true.
 4. RED-FT10: CBOE barsOctober12/13/14, earliest four-closing fireOctober14; VIOLET owns. No Monday close invented from morning observations. Re-pull eligible FRED credit when posted; HANS near intraday gilts are not close fires.
 5. DEWEY: REQ-DEWEY-20261010-001 remains open/dueOctober14; no handoff landed at last scan. Close WALTER ledger and verify delivery only when it arrives.
-6. Open owner returns carried: LIQUID -1007; BRENT -1008 and -003; VULCAN/BROCK -1009; FALCON gas/theater claims; OSPREY energy ceasefire/deal branch; YURI Novak curb lift; BOND/ZHAO -004; CARL SCF -005; HENRY/VULCAN -006; CORAL PembrokeLakes -1008-040; CREED Trepp -1009-002; SHADE Guggenheim primary; MARCO harness adoption; VULCAN useful-life decision. Today’s new owner addresses add the nine signals but imply no universal reply obligation or consumption. TERRY and OZK primary integration is already observed; do not ask them to rediscover execution.
+6. Open owner returns carried: LIQUID -1007; BRENT -1008 and -003; VULCAN/BROCK -1009; FALCON gas/theater claims; OSPREY energy ceasefire/deal branch; YURI Novak curb lift; BOND/ZHAO -004; CARL SCF -005; HENRY/VULCAN -006; CORAL PembrokeLakes -1008-040; CREED Trepp -1009-002; SHADE Guggenheim primary; MARCO harness adoption; VULCAN useful-life decision. Today’s new owner addresses add the ten signals but imply no universal reply obligation or consumption. TERRY and OZK primary integration is already observed; do not ask them to rediscover execution.
 7. X pilot reviewOctober17: retain live-observed refresh-failure leg and WSL authorize method; desktop refresh currently fails. Next staleness sweepOctober24. Research-retirement pass>60d not run; not a false completion claim.
 8. Existing dates: bank Q3/KS WARNOctober13; CPIOctober14 08:30ET; WPSROctober15 noonET, VLO December basis and size checks; LIQ07October15–16; October16 expiries/MTB/CFG/H.8/tanker weekly; WALOctober19–20; OZKOctober20AMC/21call; FOMCOctober27–28, UKBudgetOctober28, ECBOctober29; BZZ26LTD October30, boundary8 January switchNovember2; Treasury financingNovember2/refundingNovember4. The October12 bond holiday is current, not a future duty.
 9. PROME carry: CATO absent from REGISTRY (WQ255); YURI WATCH_FOR set absent on charter grep; WQ388 undecided; READS attestation re-date, native fleet receiving visibility and Telegram delivery gaps; CLI queue now verified as supported, exact-pair receipt separate. No new activation of GateC or unattended scheduling.
@@ -81,12 +84,12 @@ WQ401 set sub-question remains Will’s (dueOctober14). WQ388 unattended WALTER 
 
 ## CLOSEOUT RECEIPT
 
-Observed 2026-10-12T15:17:46Z; fresh origin reference `d1f76176ef03a25582aa02bc15026aee2046ea14`. Listed prior and today’s dispatch commits are on origin as proved below.42/42 handoff paths are file-delivered; semantic consumption remains owner-specific. WALTER pushed nothing. Prior state/evidence closeout commits bee3b2d02 and aa834f27e publication refreshed below; this coordination update requires the next coordinated train at writing. Closeout checker PASS, if achieved, proves only explicit local-reference/evidence/phrase/R1 checks, not remote freshness after this observation, execution coverage or owner completion.
+Observed 2026-10-12T15:17:46Z; fresh origin reference `d1f76176ef03a25582aa02bc15026aee2046ea14`. Listed prior and today’s dispatch commits are on origin as proved below.42/45 handoff paths are file-delivered at this receipt; late010’s three await origin proof. Semantic consumption remains owner-specific. WALTER pushed nothing. Prior state/evidence closeout commits bee3b2d02 and aa834f27e publication refreshed below; this coordination update requires the next coordinated train at writing. Closeout checker PASS, if achieved, proves only explicit local-reference/evidence/phrase/R1 checks, not remote freshness after this observation, execution coverage or owner completion.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-12T15:25:52Z",
+  "as_of": "2026-10-12T15:31:03Z",
   "publication": [
     {
       "commit": "3cacce310",
@@ -131,9 +134,9 @@ Observed 2026-10-12T15:17:46Z; fresh origin reference `d1f76176ef03a25582aa02bc1
   ],
   "delivery": {
     "signal_date": "20261012",
-    "total": 42,
+    "total": 45,
     "delivered": 42,
-    "note": "Fresh origin fetch proves the listed handoff paths/tree history; reconciliation performed. This is file delivery, not recipient consumption."
+    "note": "First nine signals42 handoffs proved on fresh origin; late signal010 three handoffs written/committed next, not yet origin-proven at receipt. File delivery is not consumption."
   },
   "push": {
     "all_walter_commits_on_origin": false,
@@ -168,7 +171,8 @@ Observed 2026-10-12T15:17:46Z; fresh origin reference `d1f76176ef03a25582aa02bc1
     "CBOE SKEW next eligible barsOctober12\u201314; VIOLET owns",
     "DEWEY REQ-DEWEY-20261010-001 dueOctober14; ledger closure only on handoff",
     "Will/TERRY remaining live expiry-card choices and current broker/order evidence",
-    "Telegram FLASH notification unavailable in this runtime; current chat alerted, PROME packeted; Codex queue coordination available with exact-pair receipt separate"
+    "Telegram FLASH notification unavailable in this runtime; current chat alerted, PROME packeted; Codex queue coordination available with exact-pair receipt separate",
+    "Archive/declare the read OZK L690 Horton packet after source author commits; verify exact hash, no repeat research"
   ],
   "next_review": "2026-10-13"
 }

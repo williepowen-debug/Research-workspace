@@ -1,0 +1,10 @@
+{
+  "observed_at": "2026-10-12T15:30:10Z",
+  "input_path": "AGENTS/WALTER/inbox/2026-10-12_from-OZK_L690-Horton-comparison-disposition.md",
+  "input_sha256": "7aee1c463488d7032b9e1b4e3c26aaea5f4f4e644d023dad38ebbe863dd995bb",
+  "read": "whole owner packet plus whole two owner review memos; C&W primary p2 scoped",
+  "disposition": "SIG-W-20261012-010",
+  "archive": "pending source-author commit; incoming packet still untracked at observation, not staged as foreign-authored work",
+  "consumption": "read/dispositioned; processed-move and consumed declaration deferred until committed source available",
+  "authority": "normal authorized WALTER intake; not a new research commission"
+}
