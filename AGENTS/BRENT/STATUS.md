@@ -2,6 +2,8 @@
 
 **Last real data refresh: 2026-10-12 10:04 EDT — SCOPED-PARTIAL morning catch-up:** named vendor completed09:46 minute quotes;USO09:56;network boot09:57;Shell operatorUpdate5 viaweb and ReutersSohar/APOct12 reporting. Older standing rows retain dates. No fresh broker receipt,official settlements,MondayMMA,refinery run-state,Russian cargo manifest or signed decree verified. [REPORT](research/2026-10-12_morning-news/REPORT.md).
 
+**Session closeout 2026-10-12 10:13 EDT:** records reconciled to saved morning evidence; no new market observations or grades. Research vintage remains 10:04 EDT.
+
 **Routine deployment stays parked** at the [CATO handoff](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et); saved repair is complete, live deployment/normal-run acceptance unresolved. No trade approval changed. Position status and USO card correction → [TRADE](TRADE.md).
 
 ---

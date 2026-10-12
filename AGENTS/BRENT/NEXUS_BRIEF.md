@@ -2,9 +2,10 @@
 
 **Status:** 🟠 Crude regained Sunday-night losses;Shell no-damage finding supports transient offshore restart,while Sohar source upgrade preserves shipping risk. Effective energy ceasefire/Russian shipped diesel/full refinery restart unproved. Stand-down unchanged;USO strike/expiry facts at TRADE/report.
 **Domain:** Oil/energy physical balance, structure and transmission.
-**As of:** 2026-10-12 10:04 EDT — Monday AM direct Will catch-up. Vendor completed09:46 minute diagnostics,USO09:56;Shell operator and Reuters/AP source updates. No fresh broker/official-settlement/MondayMMA evidence.
+**As of:** 2026-10-12 10:13 EDT session closeout; evidence remains October12 morning: energy quotes09:46 EDT,USO09:56,Shell operator/Reuters/AP reads. No new market or broker refresh.
 
- > **C6(b) SCOPED-PARTIAL (2026-10-12 10:04 EDT):** re-verified STATUScurrentblock,CATALYSTSIsaiasrow,morning source/quote evidence and boot. ChangedStatus/As-of/newSENDING/IsaiasWATCH/next-print line. NOT re-verified:olderSENDING/VIEW/CALIBRATION/WAITING evidence,broker/TRADE quantities orTERRYencode completion,officialsettlements,Russia signed decree/cargoes,MondayMMA,refineryrun-state,JWC/incidentfacts. Prior rows retain dates. [REPORT](research/2026-10-12_morning-news/REPORT.md).
+ > **C6(b) SCOPED-PARTIAL closeout (2026-10-12 10:13 EDT):** rechecked current Status/As-of/next-print text against STATUS's morning block, saved REPORT and TRADE header. No changed market claim, position or grade. NOT re-verified: older SENDING/VIEW/CALIBRATION/WAITING evidence, current broker/orders, TERRY encoding completion, official settlements, Russian decree/cargoes, MondayMMA/refinery run-state, JWC/incident facts. All observations retain their prior dates; afternoon observations remain outstanding. [REPORT](research/2026-10-12_morning-news/REPORT.md).
+
 
 
 
