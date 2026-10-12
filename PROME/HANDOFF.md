@@ -2,6 +2,10 @@
 
 **Resume:** [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here) owns the immediate next actions, blockers and generated queue/calendar. [STATUS](STATUS.md) indexes remaining PROME work; source records establish the decision and each completion/receipt fact. The document cleanups below do not discharge those obligations.
 
+## October12 — laptop boot
+
+[Boot receipt](reports/2026-10-12_laptop-boot.md) records current runtime coverage, source-version intake and correction dispositions. Root/local instructions and context read; automated gate passed. Private Deck pickup and cross-runtime live-owner identities remain unverified. Spawn recommendations delivered; no desk launched. L672 now follows CARL's recovered source delivery, while L696/L697 carry the historical FHA consumer and STUE assignment gaps. This is a boot checkpoint, not a session closeout.
+
 ## October12 — computer-switch closeout and current owner coordination
 
 [Closeout record](reports/2026-10-12_machine-switch-closeout.md) owns this boundary's review, publication limits and checkpoint requests. Next computer: pull confirmed origin while safe, boot PROME, then verify fresh owner identities before routing. [Machine-local checklist](MACHINE_LOCAL.md) governs infrastructure that Git cannot carry. Old window IDs are evidence, not reusable launch instructions.
