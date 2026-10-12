@@ -1,3 +1,15 @@
+## 2026-10-12 — v5.11 → v5.12: war access, climate and expression refinement
+
+**Authority:** Will requested THESIS.md and TRADE.md updates after today's discussion; documenting the assessment, not a new trade.
+
+**Old → new:** October 7 lead favored product resilience over another crude spike with a conditional freight-to-WTI channel. October 12 retains that evidence balance while specifying exposed fallback routes, Sohar handoff still dependent on Hormuz, and potential upstream/access disruption that can raise expected scarcity before measured loss. Incremental net crude loss remains unproved; pipeline recovery/rerouting remain counterevidence. Owner grades retain October 10 vintages and refresh gaps. Panama is a forward product/gas/freight amplifier against current easing; El Niño heating-demand weakness is a counterforce. These refine existing channels rather than establish a new shortage or price target.
+
+**Expression consequence:** USO remains the recorded structural vehicle. BNO is the first comparison candidate for seaborne access risk; no superior return or switch recommendation established. MPC margin-resilience lead, PSX comparator, VLO existing exposure with no add. TERRY L689 PASS persists. Shares and October 14 calls have different horizons; proposed card times are not adopted rails. Recommendation remains wait on new purchases.
+
+**Minor bump:** transmission/expression refinement. Moderate confidence, two phases, dated v5.8 calibration, registered thresholds/tests/grades and WQ192/capital authority unchanged. F-b stays fired; no Phase-2 transition or probability/horizon roll. No new market/physical/broker/owner grade. Positions retain October 11 received vintage. L633/L694 and afternoon observations remain open.
+
+Evidence: [oil view](../research/2026-10-12_USO-view/REPORT.md), [war-owner read](../research/2026-10-12_USO-view/WAR_OWNER_RECONCILIATION.md), [Panama](../research/2026-10-12_middle-east-panama/REPORT.md), [comparison](../research/2026-10-12_USO-view/EXPRESSION_COMPARISON.md), [L689](../research/2026-10-12_L689-energy-opportunities/MEMO.md). Before-images preserve historical material byte-for-byte; [manifest](../archive/2026-10-12_thesis-trade-update/manifest.json) measures each contiguous rotation. No binding spec or foreign owner state edited. Whole-file CRC/byte receipts use original file bytes; no normalization. Current rules, pending receipts and open obligations retained in the live surfaces; historical snapshots are on-demand, not new boot reads. Re-check size at every append.
+
 ## 2026-10-09 — AM evidence log + self-correction; v5.11 unchanged, no band, threshold or calibration change
 
 **Old → new:**

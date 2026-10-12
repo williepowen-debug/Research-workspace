@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-12",
+  "authority": "Will requested THESIS.md and TRADE.md updates",
+  "payload_rule": "whole original files; exact bytes, no normalization",
+  "files": {
+    "thesis/THESIS.md": {
+      "archive": "archive/2026-10-12_thesis-trade-update/THESIS-before.md",
+      "bytes": 23041,
+      "sha256": "48505d5079d28d7640c49b55c92425b3db4a75371457b3d6af862f5bdaa6502e",
+      "crc32": "98b7c087"
+    },
+    "TRADE.md": {
+      "archive": "archive/2026-10-12_thesis-trade-update/TRADE-before.md",
+      "bytes": 24284,
+      "sha256": "3f0784eba7f75dd1f7e417e697f5f319df8bdb4cbd537b5c57fc6d3f03b0d734",
+      "crc32": "031b31d3"
+    }
+  },
+  "rotations": [
+    {
+      "surface": "thesis/THESIS.md",
+      "start": "**September 9 evidence update",
+      "end_exclusive": "## CORE THESIS",
+      "bytes": 2264,
+      "crc32": "4fb5245e",
+      "open_obligations_moved": 0
+    },
+    {
+      "surface": "TRADE.md",
+      "start": "**October 9 evidence",
+      "end_exclusive": "## CURRENT STANCE",
+      "bytes": 1770,
+      "crc32": "adff356e",
+      "open_obligations_moved": 0
+    },
+    {
+      "surface": "TRADE.md",
+      "start": "| 2026-09-10 ~15:1x",
+      "end_exclusive": "## BINDING WILL RULINGS",
+      "bytes": 2079,
+      "crc32": "f6db9f58",
+      "open_obligations_moved": 0
+    },
+    {
+      "surface": "TRADE.md",
+      "start": "## Lesson reconciliation \u2014 October 7 ruling application",
+      "end_exclusive": "EOF",
+      "bytes": 962,
+      "crc32": "1622c25f",
+      "open_obligations_moved": 0
+    }
+  ],
+  "thesis_bytes_before_rotation": 24470,
+  "trade_bytes_before_rotation": 26333,
+  "validation": {
+    "archive_hashes_and_contiguous_crcs": "recomputed and matched",
+    "preserved_trade_sections": [
+      "WQ-386 exact letter",
+      "FRAME-BREAKER STATE",
+      "POSITIONS (live)",
+      "UNRESOLVED BROKER FACTS",
+      "Decision read paths",
+      "BINDING WILL RULINGS and deployment pointers"
+    ],
+    "rotated_open_obligations": 0,
+    "links": "all local links in THESIS/TRADE/CHANGELOG resolve",
+    "context_cost": "Historical snapshots are on-demand; no new boot-read file or obligation moved. THESIS/TRADE rotated below 22,785 bytes. STATUS/NEXUS below 24,412-byte trigger and were not rotated."
+  }
+}

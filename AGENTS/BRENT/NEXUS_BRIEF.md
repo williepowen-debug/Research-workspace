@@ -2,11 +2,11 @@
 
 **Status:** 🟠 L689 accepted, TERRY construction PASS: one conditional economic candidate, zero new capital. Will requested context reset; L694 domain stage resumes in fresh context. L633/afternoon obligations remain outstanding. Stand-down unchanged.
 **Domain:** Oil/energy physical balance, structure and transmission.
-**As of:** 2026-10-12 13:31 EDT — SCOPED-PARTIAL USCF/L689/TERRY recommendation clarification; quotevintage12:56. Physical/war grades retain dates; older sections not refreshed.
+**As of:** 2026-10-12 13:43 EDT — SCOPED-PARTIAL THESIS/TRADE write-back and owner cards; quotevintage12:56, positions10/11 received. Physical/war grades retain dates; older sections not refreshed.
 
 > **C6(b) SCOPED-PARTIAL — fresh-context boot 2026-10-12 12:45 EDT:** recovered root/local/specs, full L694 approval, saved morning work and TERRY PASS. Network boot:10checks8OK/1WARNINGS/1FINDINGS,rc2; EIA stillwk10/2. WQ420 exact insert verified at TERRY08158a2c4; PROME L684 acceptance remains owed. USO Oct14 card exists; no broker/order refresh. L694 substantive stage and L633/afternoon work remain open. NOT re-verified: paired crack, physical restart/refinery output, delivered relief, JWC/GIE/incidents or older CROSS-DOMAIN/VIEW/CALIBRATION claims. Prior issuer/relief sources retain11:16EDT perimeter. No new grade, phase, threshold or capital. [Boot receipt](research/2026-10-12_fresh-context-boot/REPORT.md); [MEMO](research/2026-10-12_L689-energy-opportunities/MEMO.md).
 
-**October12 recommendation clarification:** wait on new purchases. BNO is a crude-access candidate; MPC margin lead, PSX comparator, VLO existing exposure. No superior return established or vehicle change. October14 calls differ from shares/forward Panama risk. TERRY PASS retained. War grades remain10/10; sixlater packetsawaitreconciliation; D85isnotupsideprobability. [Comparison](research/2026-10-12_USO-view/EXPRESSION_COMPARISON.md); [ownerread](research/2026-10-12_USO-view/WAR_OWNER_RECONCILIATION.md); [Panama](research/2026-10-12_middle-east-panama/REPORT.md).
+**October12 canonical update:** [THESIS v5.12](thesis/THESIS.md) refines war/access and climate transmission; [TRADE](TRADE.md) records BNO comparison candidate, MPC margin lead/PSX comparator, VLO no add and October14 expiry limits. Wait on purchases; no superior return or vehicle change. War grades retain10/10; later packetsawaitowners. [Evidence](research/2026-10-12_USO-view/EXPRESSION_COMPARISON.md).
 
 ## CROSS-DOMAIN
 
@@ -61,7 +61,7 @@ September 15 owner review: [incident matrix](research/2026-09-15_backlog-review/
 
 ## CALIBRATION
 
-- **Conviction:** v5.11 and existing dated numeric calibration retained; no new probability, target, test or prediction grade. BRT31 remains40% registered; older rig/COT/prediction outcomes retain dates and letters.
+- **Conviction:** v5.12 is a qualitative refinement; moderate confidence and existing dated numeric calibration retained; no new probability, target, test or prediction grade. BRT31 remains40% registered; older rig/COT/prediction outcomes retain dates and letters.
 - **Divergence:** no fresh numeric forecast relative to market. Diesel/crude divergence is evidence about products/buffers, not a measured freight return model.
 - **Cross-agent tensions:** no new adjudicated disagreement. Same-publisher EIA/WALTER evidence is not independent corroboration; minister relays have a flow/capacity/unit conflict. Broader WQ252/HEN46 basis remains open while WQ386 resolves held-share management only.
 - **Uncertain:** sustained Saudi throughput/outputloss, G7split/deliveries, SPRawards, currentUSOweights, comparableinsurance and officialsettlements. Missing data not a pass or fire.

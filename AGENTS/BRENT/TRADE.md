@@ -1,6 +1,6 @@
 # BRENT TRADE.md — domain trade surface
 
-**Updated: 2026-10-12 boot; Last real position data refresh: 2026-10-11 received**, exact capture/quote time UNKNOWN. Source: [PROME broker transcription](../../PROME/data/2026-10-11_broker-capture-TRANSCRIPTION.md) and FORGE/STATUS (54748614c). USO 37 shares, VLO 1 share, USO Oct-14 $150C ×2. October9 call SOLD CLOSE; no live marks or roll linkage inferred.
+**Updated: 2026-10-12 13:43 EDT — thesis/expression synthesis only; Last real position data refresh: 2026-10-11 received**, exact capture/quote time UNKNOWN. Source: [PROME broker transcription](../../PROME/data/2026-10-11_broker-capture-TRANSCRIPTION.md) and FORGE/STATUS (54748614c). USO 37 shares, VLO 1 share, USO Oct-14 $150C ×2. October9 call SOLD CLOSE; no live marks or roll linkage inferred.
 
 **Existing management:** October9 call rail discharged by its sell-closing receipt. New October14 calls are distinct: standing sell-or-roll before expiry applies; TERRY Oct14 card exists; working orders UNKNOWN, no old hard stop inherited. Held VLO WQ-386 remains; two extra shares STOOD DOWN. **WQ-420 approved prospectively October11:** exact [Approved exact insert](../../PROME/proposals/2026-10-11_wq418-420-RULED.md#approved-exact-insert) governs leg-A precision and [14:28,14:30) proxy window alongside WQ-386 below. Read that entire insert before computing a grade; no historical regrade. TERRY encoded `08158a2c4`; PROME L684 acceptance remains owed. No new order approved here.
 
@@ -19,15 +19,24 @@ Canonical ruling: [PROME § Approved amendment](../../PROME/proposals/2026-10-07
 > Review the next basis by November 18, 2026. If no further ruling is made, new leg-A observations become SUSPENDED/UNKNOWN after the November 19 settlement. An already-established exit still remains owed. Policy legs B1–B3 and their existing execution limitations continue unchanged until sale or withdrawal. This is authority to maintain the existing share's management rule, not to buy or re-enter.
 
 
-**October 9 evidence (BRENT session closed 11:2x ET, before the 15:00 rail):** USO **$148.81** (11:14 ET vendor) = $1.19 below the Oct-9 $150 strike. The expiring call screens at **$0.23/$0.25** (chain_fetch; not broker, read ~10% high on the bid before). Indicative same-strike roll asks: Oct-16 $2.98 · Nov-20 $8.85 · Dec-18 $11.55. ⚠️ If held to the close and USO ends above $150, auto-exercise ≈ $15k of shares. **Decision = Will's hand on TERRY's `MGMT-USO150C-OCT09` rail; no BRENT proposal.** Will stated an escalation view ("not seen the last of the war heating up"); a Nov/Dec roll at ~$885–1,155 would exceed the ~$500 norm for new oil risk, so TERRY was suggested for a spread-priced roll. Will closed the session without asking for it; not sent. Nov matched diesel crack $109.15 at 10:12 ET [EST intraday diagnostic, not a leg-A observation]; TERRY grades.
+**Dated October 7–9 diagnostics:** [verbatim pre-update record](archive/2026-10-12_thesis-trade-update/TRADE-before.md). Current holdings, unsettled afternoon measurements and binding rules remain here.
 
-**October 8 evidence:** intraday matched quotes at 08:24 ET give November/December cracks of $109.67/$103.91 [EST single vendor]. These are a diagnostic, not a leg-A observation under the source order above. November is $19.51 above $90.16 and $14.67 above $95. Today's 14:28–30 ET proxy was not produced; TERRY grades. Warning-zone refining status is a GAP. [Report §3–4](research/2026-10-08_isaias-hormuz/REPORT.md).
-
-**October 7 evidence:** November/December matched 14:28–30 ET close-VWAP cracks $105.81538/$100.42309 [EST single vendor], above the existing notice/exit levels; these are BRENT diagnostics, not a new TERRY grade. December remains diagnostic until October 15. Official settles unavailable and duplicated-volume vendor daily rows rejected. [Source/basis](research/2026-10-07_news-catchup/REPORT.md). HEN-46 and broader WQ-252 sitting remain unchanged/unresolved.
-
-## CURRENT STANCE (THESIS v5.11; v5.8 numerical calibration retained)
+## CURRENT STANCE (THESIS v5.12; v5.8 numerical calibration retained)
 
 Thesis and calibration: `thesis/THESIS.md`. **WQ-189/192 STAND DOWN; no live deploy gate or discretionary arm.** Confirmed-destroyed-capacity frame-breaker handling (BG-02) stays binding; a quote or source failure does not meet it. Market evidence: `setups/2026-09-08_market-docket-owner-read.md`. Current policy risk to the refiner leg: October 2 principal denial is verified in the pool reports; no signed new restriction identified in the October 5 bounded search. B1 remains binding. Current evidence → [market-open report](research/2026-10-05_market-open/REPORT.md). Historical scenario (not a current announcement): [`research/2026-09-28_us-diesel-export-ban-risk.md`](research/2026-09-28_us-diesel-export-ban-risk.md). §3 there is sensitivities only; grade nothing from it.
+
+### October 12 expression assessment — research candidates, no new ticket
+
+**Recommendation: wait on new purchases.** [THESIS v5.12](thesis/THESIS.md) supports elevated crude and escalation vulnerability without demonstrated underpricing. The [comparison](research/2026-10-12_USO-view/EXPRESSION_COMPARISON.md) separates benchmark fit from return; no current USO/BNO cost, liquidity or option-value ranking is established.
+
+| Expression | Current disposition |
+|---|---|
+| **USO** | Existing WTI/crude exposure and recorded structural vehicle under BG-02. Replacement demand can help, but foreign delivered costs need not lift WTI proportionately. No fresh add recommended. |
+| **BNO** | First comparison candidate for seaborne crude-access risk: Brent futures exposure. Better fit is not an established buy, USO switch, roll or registered vehicle replacement. |
+| **VLO** | Existing product-margin exposure; no add. Two extra shares remain terminally stood down. Higher crude alone does not establish higher refining profits. |
+| **MPC / PSX** | MPC conditional margin-resilience lead; PSX comparator. [TERRY L689](../TERRY/setups/MPC_refiner-margin-resilience_L689_2026-10-12.md) PASS: physical separation/valuation edge missing; screened spreads exceed the existing cap. Shares do not repair that gap. Multiple refiners share margin/relief risk. |
+
+**Time and implementation:** shares and October 14 calls share crude direction with different clocks. Forward Panama risk or gradual tightening cannot establish a move before Wednesday expiry. The [TERRY Oct14 card](../TERRY/setups/USO150C_oct14-sell-or-roll_2026-10-12.md) prefers sale conditional on a confirmed profitable broker bid; proposed review times were not adopted. Will handles sell/roll. No new ticket, deadline, broker mark or order is inferred. TERRY constructs/grades; Will executes. Existing holding-specific rules, full specs, registered USO vehicle and WQ192 govern. L694 delivery and L633/afternoon observations remain outstanding.
 
 ### FRAME-BREAKER STATE (letter: [BG-02](setups/SPECS_GATES.md#bg-02--frame-breaker-prospective-capacity-floor-and-constraints))
 
@@ -109,15 +118,8 @@ Read the COMPLETE named spec, including caveats and unresolved clauses. A health
 | 2026-09-18 | **VLO 1 sh BOUGHT @ $412.00** (Fidelity) | Fidelity Activity row 7 via the 9/27 transcription (`PROME/data/2026-09-27_broker-capture-TRANSCRIPTION.md`); WQ-213 condition (refiners red vs oil). Fill time not shown (D-55). ⏳ First recorded in BRENT TRADE 2026-09-28; it lived only in FORGE/TERRY until then. receipt_status=RESOLVED (fill receipted at Fidelity Activity row 7; only the fill TIME is open, D-55) |
 | 2026-09-18 | **USO Sep-30 $159C ×2 BOUGHT, −$921.33** (Fidelity) | Activity row 8, same transcription. ⏳ First recorded in BRENT TRADE 2026-09-28. receipt_status=RESOLVED (entry fill receipted; the EXIT is WQ-316, tracked on the POSITIONS row by expiry=) |
 | 2026-09-15 confirmation | USO Sep-11 159C SOLD before expiry, by Will's hand | receipt_status=RESOLVED. Will explicitly confirmed "Sold before expiry". Exact sale date, price and proceeds UNKNOWN; no P/L inferred. Bought 9/10 at $1.52 (historical). |
-| 2026-09-10 ~15:1x | **USO Sep-18 150/165 spread CLOSED early, by Will's hand** | "USO Call Debit Spread $630.00" (Robinhood activity, ~1h before the 16:10 capture); spread absent from positions. $630.00 proceeds vs $300.00 debit ⇒ **+$330.00 (+110%)**. Seven sessions before the WQ-207 9/17 rail; neither override fired (USO close 158.38). [Receipt](../../PROME/data/2026-09-10_robinhood-capture-1610-TRANSCRIPTION.md). RESOLVED. |
-| 2026-09-10 12:35 | **USO Sep-18 150/165: management rule RULED (WQ-207)** | Will: "Approve option 1" on TERRY `TRY-MGMT-USORH150165` ⇒ close at the 9/17 open · harvest override close ≥165 · defence close <153 · OR-joined · no roll. **Discharged the same day by Will's early close.** |
-| 2026-09-10 | USO Sep-18 150/165: broker mark receipt | Robinhood ~12:3x: ×1, mark 6.11, avg cost 3.00. A position mirror, not a fill. The HOLD-through-expiry instruction was superseded at 12:35 by WQ-207. |
-| 2026-09-09 | Final USO October 135C sold | Will's receipt via [PROME](../../PROME/reports/2026-09-09_USO135C-sale-receipt.md): ×1 at $17.55, net $1,754.30 after $0.70 costs, settled 9/10; zero remains. B/C discharged. |
-| 2026-09-08 → **RESOLVED 2026-09-11** | XLE exit selected for the 9/9 open → **FILLED 9/11** | **Sell to Close 1 XLE Sep-30-2026 65 Call, Limit $1.51, FILLED 2026-09-11 ~10:07 ET.** Net $150.34; realized **−$77.33 / −33.97%**. Will's Fidelity row via TERRY `bcc962bbd`. **WQ-210 DISCHARGED.** ⚠️ BRENT recorded it only on 9/14; the row sat PENDING for three days while the receipt existed (boot step 6c was run as a re-assertion, not a resolution). The FIRST contract stays UNKNOWN (D-49). receipt_status=RESOLVED |
-| 2026-09-08 | Convex-arm stand down | WQ-189/192 unchanged; no deployment. |
-| 2026-09-02 | First USO October 135C sold | One remained; first-sale price permanently UNKNOWN (WQ-167). |
-| 2026-07-24 | USO September 150/165 spread filled | ~$300 net debit (historical fill basis). Discharged by the 9/10 close. |
-| 2026-06-18 | CF June 130C expired worthless | Historical closed leg. |
+
+**Earlier resolved receipts (September 10 and before):** [verbatim execution-log tail](archive/2026-10-12_thesis-trade-update/TRADE-before.md#execution-log). Current positions, later receipts, unresolved broker facts and standing rulings remain here; no pending receipt moved.
 
 ## BINDING WILL RULINGS
 
@@ -151,10 +153,12 @@ Read the COMPLETE named spec, including caveats and unresolved clauses. A health
 
 ## RESOLVED / HISTORY
 
+- **October 12 rotation:** [before-image](archive/2026-10-12_thesis-trade-update/TRADE-before.md), 24,284 UTF-8 bytes, crc32 `031b31d3`; payload rule: whole file. Historical diagnostics/closed receipts/October 7 lesson application moved in contiguous blocks; no live rule/open obligation moved. [Manifest](archive/2026-10-12_thesis-trade-update/manifest.json). Re-check size at every append.
+
 - **2026-09-28 before-image** (26,511 B, whole file, SHA-256 `29b0b63f…ae108371`, crc32 `7cb1efe4`): [archive/2026-09-28_cleanup/TRADE.md](archive/2026-09-28_cleanup/TRADE.md) + [manifest](archive/2026-09-28_cleanup/manifest.json). It holds the full frame-breaker reasoning (dual-tracker defect, readability pre-registration, 9/12 re-grade) and the staged leg-(b) and breach-branch text verbatim. What moved: [TRADE_OBLIGATIONS § 2026-09-28](workbook/TRADE_OBLIGATIONS.md).
 - **2026-09-08 before-image:** [archive/2026-09-08_cleanup/TRADE.md](archive/2026-09-08_cleanup/TRADE.md) · [manifest](archive/2026-09-08_cleanup/manifest.json).
 - Archives supply provenance only; current rules are reached by the read paths above. Ordinary closeout updates holdings, action state and receipts here; dated analysis goes to an evidence note.
 
-## Lesson reconciliation — October 7 ruling application
+## Lesson reconciliation
 
-L06/L08/L09/L10: matched products and dated inventory/supplied data remain distinct from crude, consumption and paper quotas; no new event grade from those proxies. L11/L16/L18/L19: announcement, tanker liveness and physical delivery retain separate clocks; no new entry, tanker/off-ramp grade or operational reopening inferred. L17: OPEC-only forecast capacity is not physically deliverable OPEC+ spare; no capacity figure grades an entry here. L15: holding-specific Will rulings govern this existing share/call; no new structure/tenor proposed. L21/L22/L23: WQ-386 retains its approved named-month windows, source hierarchy, strict levels, uncertainty and sunset; no continuous ticker, roll exception or calibration repair. L25: failed settlement/holdings requests remain unavailable, not publisher outages. No lesson overridden; binding specs reached by Decision read paths retain their own caveats.
+[October 7 application record](archive/2026-10-12_thesis-trade-update/TRADE-before.md#lesson-reconciliation--october-7-ruling-application) preserved verbatim. This October 12 update changes no binding rule or spec; full lesson/caveat readers remain in the complete specs named by Decision read paths.
