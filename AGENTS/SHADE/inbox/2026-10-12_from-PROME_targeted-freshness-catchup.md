@@ -1,0 +1,14 @@
+# PROME → SHADE — targeted freshness catch-up
+
+Will directly: “I am concerned that SHADE might be somewhat old or missing key information because I think it was left dark for a while? Can you check out the situation?” PROME's bounded diagnosis is in PROME/reports/2026-10-12_SHADE-freshness-check.md. Continue in existing thread01a131e1-41b2-7f91-aa98-d383b9a2060e; prior L673 registration/refresh and checkpoint are consumed. Reuse those results; no repeat boot, trigger reread or handoff audit solely for this task.
+
+One source catch-up on existing standing claims:
+- Delaware Life/Clear Spring: check primary issuer/regulator/rating/distribution sources for material changes since the last verified August baseline: probes or enforcement, rating/outlook, distributor pause/resumption and TWG remediation implementation. Identify exact observation/source dates and search limits; non-discovery is not proof nothing happened. Reuse WALTER's new Rosner packet once committed; it already owns complaint/docket acquisition, so do not repeat that search or turn a civil allegation into an enforcement event.
+- Egan-Jones: check the official source for the current status relevant to the existing August12 denial-versus-revocation distinction. No assumption that a new event occurred; no new ladder/gate definition.
+- AG55: resolve or accurately bound the already-owed primary text question on Level3/PIK/private-letter-rating disclosure. Reconcile STATUS's UNVERIFIED claim with the stronger REFERENCE §3D/§6M/§3R wording. Existing instruments remain frozen; any proposed rule/level/consequence change returns to PROME/Will.
+
+Use saved evidence first, then one bounded official-source pass with at most one working fallback per blocked source. Stop with exact unresolved inputs rather than repeat searches. Distinguish new facts, old-but-latest-available quarter data and unverified current claims. No full NPORT crawl, new feed/tool, whole-KB rewrite, memory rotation or helper review cycle.
+
+Repair directly evidenced stale metadata/qualifiers in your owned live surfaces: March26 STATUS claim; watch-query deployment wording after checking the actual lane evidence; and current-pair transport after committed return-address/consumption proofs. C4 covers only meaning-preserving own-charter date/pointer fixes; retain authority/routes/thresholds and separately report anything outside that scope. Do not imply that known PROME transport establishes all-fleet discovery.
+
+Return one concise evidence delta/remaining-gap report and necessary owner-state write-back. Preserve October13 eligible assessment/LIQUID inputs, conditional dig ordering and existing October23 backlog. Deliver a dated PROME packet with exact commit, then one substantive pointer via supported queue to PROME01a131cf-1c7d-7900-9dcf-d98af587e290. No acknowledgment-only exchanges or lifecycle closeout. The goal is current evidence, not a new review process.
