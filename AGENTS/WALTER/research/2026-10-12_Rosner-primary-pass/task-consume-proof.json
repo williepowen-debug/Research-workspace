@@ -1,0 +1,11 @@
+{
+  "source": "AGENTS/WALTER/inbox/2026-10-12_from-PROME_laptop-round2.md",
+  "source_commit": "41f7b72e4e2baefd97ea35b5d58392fb1ac27a25",
+  "bytes": 2540,
+  "sha256": "063bb5a70275c7fd5e063eaa62d7c0e8ef41b49d9771f683cd42644d2a34a6db",
+  "original_author_bytes_verified": true,
+  "disposition": "Bounded free public-source pass completed to access-stop;0 primary documents. Whole packet/stop conditions read; no broader intake/census/launch/grade.",
+  "filing": "Byte-identical Git move verified",
+  "processed": "AGENTS/WALTER/inbox/processed/2026-10-12_from-PROME_laptop-round2.md",
+  "consumed_at": "2026-10-12T22:11:16Z"
+}

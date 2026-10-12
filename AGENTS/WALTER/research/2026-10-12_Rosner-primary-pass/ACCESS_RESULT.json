@@ -1,0 +1,82 @@
+{
+  "observed_at": "2026-10-12T22:09:38Z",
+  "assignment_commit": "41f7b72e4e2baefd97ea35b5d58392fb1ac27a25",
+  "thread": "01a131e6-5754-7593-a546-210c87683eeb",
+  "existing_signal": "SIG-W-20261011-003",
+  "local_reconciliation": {
+    "SHADE_STATUS": "section0o/October12 rails: complaint/docket unread",
+    "SHADE_SCRATCH": "Rosner complaint/docket unread",
+    "SHADE_REFRESH": "October12 civil precedent, allegations only",
+    "BOARD_hit_list": [
+      "SIG-W-20261011-003",
+      "BOARD/INDEX.md"
+    ],
+    "later_local_primary": "None located in scoped named-owner and WALTER files; not a fleet absence claim"
+  },
+  "queries": [
+    {
+      "q": "\"Ira Rosner\" \"Delaware Life\" complaint docket case number"
+    },
+    {
+      "q": "site.courtlistener.com \"Rosner\" \"Delaware Life\""
+    },
+    {
+      "q": "site.dockets.justia.com \"Rosner\" \"Delaware Life\""
+    },
+    {
+      "q": "\"Rosner\" \"Delaware Life\" complaint",
+      "domains": [
+        "courtlistener.com",
+        "classaction.org"
+      ],
+      "result": "No results in final targeted query"
+    },
+    {
+      "q": "\"1:26-cv-26388\" complaint",
+      "domains": [
+        "courtlistener.com",
+        "govinfo.gov",
+        "flsd.uscourts.gov"
+      ],
+      "result": "No results in final targeted query"
+    }
+  ],
+  "source_results": [
+    {
+      "url": "https://insurancenewsnet.com/innarticle/lawsuit-claims-delaware-life-hid-billions-in-insurer-linked-investments",
+      "kind": "secondary story September23",
+      "observation": "Read story section and link list; no filed-complaint/document URL found. Three percent and39\u201342percent are relayed allegations; no new primary proof."
+    },
+    {
+      "url": "https://dockets.justia.com/docket/florida/flsdce/1:2026cv26388/723744",
+      "kind": "secondary public docket listing",
+      "observation": "SD Florida, case1:2026cv26388, filedSeptember16, JudgeDarrinP.Gayles; listing last retrievedSeptember16. Complaint entry1 and administrative practice/assignment/service entries; no complaint binary. Links to PACER require subscription."
+    },
+    {
+      "url": "https://ecf.flsd.uscourts.gov/cgi-bin/DktRpt.pl?723744=",
+      "kind": "official court docket endpoint linked from Justia",
+      "observation": "Web reader returned CM/ECF live-database heading and0 text lines. No authenticated court docket, filed complaint or order body read; no login or charge attempted."
+    },
+    {
+      "url": "https://docketnexus.com/case/rosner-v-delaware-life-insurance-company-et-al--flsd-723744/",
+      "kind": "secondary docket-feed index from original search lead",
+      "observation": "Same court/case/date;18 indexed entries,0 Free to View. October7 scheduling/extension andOctober8 appearance/extension-order headings; full bodies unavailable. Site does not establish active/terminated status and warns incomplete history. Stopped without Retrieve Filing purchase/account/action."
+    }
+  ],
+  "other_initial_hits": "Read already-returned Justia browse/index and DocketNexus party lead; SQX secondary commentary discarded as non-primary, one returned hit inaccessible. No secondary numerical adoption or added discovery loop.",
+  "outcome": {
+    "primary_documents_recovered": 0,
+    "complaint_read": false,
+    "current_full_docket_read": false,
+    "order_bodies_read": false,
+    "primary_case_identity_confirmed": false,
+    "secondary_case_lead": "Rosner v.DelawareLife, S.D.Fla.1:26-cv-26388, September16 2026",
+    "3_percent_in_complaint": "UNKNOWN, complaint unread",
+    "39_42_percent_in_complaint": "UNKNOWN, complaint unread",
+    "21B_in_complaint": "UNKNOWN, complaint unread",
+    "cited_figure_basis": "UNREAD; do not substitute SHADE statutory or other relayed bases",
+    "court_outcome": "UNKNOWN; secondary procedural headings are not findings of liability or proof of no substantive order"
+  },
+  "stop": "Free-source boundary reached: no source document link or free indexed complaint; official endpoint unreadable; index marks0 free records and PACER route requires subscription. No further discovery/access loop, paid/login/account, persistent tool or helper.",
+  "routing": "0 new BOARD dispatches; no primary source upgrade/correction recovered. Non-actionable SHADE context pointer only, existing initial signal not repeated."
+}
