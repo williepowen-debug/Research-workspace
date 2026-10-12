@@ -1,24 +1,56 @@
-# WATT — NEXUS_BRIEF (curated cross-agent sync)
+# WATT — NEXUS Brief
 
-**As of 2026-10-09 10:08 ET — SESSION CLOSED** *(twelfth session; PROME Tier-1 WATT-12 coverage wake, DOCKET L595; desk dark 9/26–10/8. Folded as the session's LAST write, after the final STATUS write — amendment 10.)* Composite **16/20 (net unchanged)** · status **🔴 on the letter, transient in state** · **P1 5 / P2 5 / P3 4 / P4 2** · **fired-count 2 of 4**. **No deploy-posture change, no trade proposed.**
-*Prior brief (2026-09-25, eleventh session) → `archive/NEXUS_BRIEF_2026-09-25.md`.*
+**Status:** 🟠 FERC rejected IRAS/BYONC; the proposed large-load tariff burden did not become law.
+**Domain:** Grid stress → wholesale power price → industrial/data-center cost.
+**Recent thesis pivot:** Filed Door B → rejected IRAS/BYONC core (10/9, read 10/12); WATT-10 MISS.
+**As of:** 2026-10-12 11:04 ET | STATUS commit: **427c1280f**; power tape through **10:35 EPT**.
 
-## ROUTING — who needs what from this session
+## CROSS-DOMAIN
 
-| agent | what | state |
+**SENDING:**
+
+| To | Signal | Priority | Recipient consequence |
+|---|---|---|---|
+| VULCAN / HENRY | IRAS/BYONC rejected; registry alone accepted | Elevated | Remove only the proposed IRAS-specific cost/curtailment obligation; physical costs/PPAs persist. Dated owner packets |
+| CARL / REGINALD | WATT-08 Door B ~50% OPEN | Elevated | Consumer allocation risk gains relative weight; actual dollar assignment remains unresolved. Dated owner packets |
+| PROME | L654 morning read; L200 WATT-10 MISS; EL26-67 responses 11/16 | Elevated | Coordinator records grades and event follow-ups from owned report; consumption unverified |
+
+**WAITING FOR:**
+
+| From | Input | Expected by | Why it matters | Effect on view |
+|---|---|---|---|---|
+| PJM / DOE | Issuance/outcome of backup-generation request | Next event read, by 10/15 de-escalation check; publication date unknown | Latest notice says requested, not obtained | Could reset the clear-day clock; authority does not establish use |
+| PJM | Maintenance recall/advisory outcome | 10/14 noon and day close | Mitigation of a large maintenance stack | P1 de-escalation needs complete 10/8–14 window |
+| PJM / FERC | Registry compliance; any revised IRAS proposal | Compliance within 30 days of 10/9; refile date unknown | Information duty survives; cost design may return | Reopen allocation analysis only on new primary evidence |
+| PJM / Transmission Owners | EL26-67 response or qualifying 205 filing | 11/16; answers 12/16 | Abeyance was granted 8/14, not unruled | Resolves procedural clock; WATT-09 substantive test remains open |
+
+## VIEW
+
+- The allocation mechanism changed; the auction shortfall did not. P2 stays at its maximum while the near-term Door B forecast fails.
+- Operators recalled maintenance and sought backup authority. Low morning prices alone do not establish that all October 12–14 capacity risk has passed.
+- Registry acceptance is visibility, not capacity supply or disappearance of large-load demand. Full record: `reports/2026-10-12_DOCKET-L654_PJM-advisory-IRAS-grade.md`.
+
+## CALIBRATION
+
+- **Conviction:** high on order disposition; medium on eventual cost allocation; low on magnitude of consumer bill impact. WATT-08 remains OPEN at ~50%.
+- **Diverge from market by:** unmeasured; no equity/option quotes or repricing claim.
+- **Cross-agent tensions known to me:** pending cost-allocation assumptions must be corrected at consumer artifacts; no recipient acknowledgment established.
+- **Uncertain about:** new DOE issuance/use, any refile, actual cost split, hedged/floating exposure owed to VULCAN. None resolved by registry acceptance.
+- **Failure patterns:** order title is not the operative tariff disposition; a requested order is not an issued order; partial-day quiet is not a completed event. Refer to WATT-10's original criteria/grade in `workbook/PREDICTIONS_ARCHIVE.tsv` and L-52.
+
+## NEXT DECISION POINT
+
+- **What/when:** WATT rechecks after October 12, then at the first boot ≥October 15 for the complete clear-day window and DOE request.
+- **View change:** new EEA-class posting or issued PJM emergency order prevents early de-escalation; unverified request alone is neither a reset nor proof of a clear window.
+
+## FORWARD CATALYSTS
+
+| Date | Event | Signal |
 |---|---|---|
-| **PROME** 🟠 | L595 answered in full: P1 de-escalation graded (due 9/26, MET late) · metered-vs-DR row re-stated in DOCKET form (review 10/23) · R3: no packet ever addressed to WATT, keep the landed set · 10/31 WATCH_FOR review on WAKE SET · **FERC IRAS order NOT YET ISSUED as of 10:01 ET 10/9**. New: **10/7 $2,978 spike ⇒ WATT-12 HIT**; Capacity Advisory for **Mon 10/12** | **delivered** (`PROME/inbox/2026-10-09_from-WATT_watt12-coverage-wake.md`) |
-| **HENRY** 🟠 | 10/7 spike lasted ~25 min — **FCF power-cost input UNCHANGED**; emergency risk is not summer-only (shortage pricing at ~94 GW with 70 GW offline) | **delivered** (HENRY inbox) |
-| **AEOLUS** 🟢 | Your 9/28 heat answer **adopted** (KB-WATT-136): 9/16–17 non-heat over PJM, neighbours hot. The interchange test you handed back is mine — open, review 10/23. 10/7 had no heat leg | closed (one item mine) |
-| **NEXUS** 🟠 | Convergence input: WATT 16/20, P1 5 on the letter (weak-limb re-fire 10/7). The autumn reading is now **outage-season fragility, CONFIRMED-PARTIAL** (FL-WATT-15): 70.3 GW offline, shortage price at ~94 GW without heat. Still **no reserve-margin-erosion claim** (planned outages are recallable — PJM's own first lever) | refreshed |
-| **WALTER** 🟢 | 24 items consumed + logged; SIG-W-20261009-004 logged but left in place (you have not committed it yet). -031 ACTION answered (ERCOT 12/10 calendared, no registered item moved); -003 ACTION integrated as forecast; -033 receipt form adopted | **delivered** |
-| **DAEDALUS** 🟢 | L546: boot.py integer trigger, edge-tested (24,412 B rotates). Sweep asks: coverage pull run, CLAUDE.md byte line replaced. power_watch.py:178 deferred to 10/23 | closed (one deferral) |
-| **VULCAN** 🟡 | Compute-futures outcome received. **I still owe hedged-vs-floating** | **I owe you** |
+| 10/12–10/14 | PJM capacity advisories; 10/14 noon maintenance deadline | Actual posting/tape/DOE outcome, not forecast |
+| ≥10/15 | P1 de-escalation check | Complete calendar window; no new EEA-class posting/order |
+| ≥10/19 | Battery suspension recheck | Positive PRC/MOFCOM instrument only; silence does not open channel |
+| 10/31 | WATT wake-list review | Registered review retained after WATT-12 HIT |
+| 11/16 | EL26-67 response | Qualifying section 205 suspension proviso travels |
 
-## 🟢 THE ONE THING TO CARRY
-
-**PJM can now price a shortage at ~94 GW of load.** On 10/7 the 5-min price hit **$2,978/MWh for ten minutes** with **70.3 GW offline** for maintenance (45 GW two weeks earlier), no heat, no posting. The load at which PJM runs short has fallen 159 → 128 → ~94 GW across the season. **Mon 10/12 is PJM's own flagged tight day** (Capacity Advisory). ⚠️ A price-only spike makes no headline — only a tape pull sees it, and the tape keeps ~15 days.
-
-**WAITING-FOR:** **FERC** — IRAS order (requested effective 10/12; outer 10/31) · **PJM** — the 7/2 DR-verified peak (overdue since ~9/8) · **PJM/DOE** — 202-26-41/-45 utilisation reports.
-*Closed this session: WATT-12 (HIT) · the whole inbox · COR-20260910-08 · DAEDALUS L546 + sweep asks · AEOLUS heat leg.*
-*I owe: **VULCAN** hedged-vs-floating · **P1 de-escalation** at the first boot ≥10/15 · **next boot ≤10/16** (WEEKLY, missed twice) · the demand-limb re-spec proposal (owner's, through PROME/Will).*
+Full form restored for the persistent HENRY/VULCAN/CARL edges; CROSS-DOMAIN first. Last write-back after STATUS; no new thesis version or threshold.
