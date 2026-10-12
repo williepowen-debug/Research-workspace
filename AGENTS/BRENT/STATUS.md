@@ -1,6 +1,6 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-10-12 14:54 EDT — SCOPED-PARTIAL desk audit:** boot8OK/1WARNINGS/1FINDINGS/0FAIL;74tests pass. L694 accepted; TERRY BNO NO TRADE integrated. Monday MMA604,503b/d expected oil shut in, four refinery run-statesGAP. Afternoon inputs saved; accepted crack observation UNKNOWN, TERRY grades. [Audit](audits/2026-10-12_desk-health/REPORT.md). No broker/incident/phase/capital change.
+**Last real data refresh: 2026-10-12 15:04 EDT — SCOPED-PARTIAL existing afternoon continuation:** CME15:02 retry still empty. TERRY saved leg-A notice/exit UNKNOWN; source in-flight, exact copy/hash retained pending owner commit. [Audit/follow-up](audits/2026-10-12_desk-health/REPORT.md#existing-afternoon-continuation). No new consequence/order/phase; L633 physical gaps and DEWEY/October15 dependencies retained.
 
 **Fresh-context boot 2026-10-12 12:45 EDT:** 10 checks:8OK/1WARNINGS/1FINDINGS/0FAIL,rc2; Ledger Nudge dispositioned. WQ420 encoding verified at TERRY08158a2c4; PROME L684 acceptance still owed. No new paired crack, storm/refinery or broker evidence; L633/L694 remain open. [Boot receipt](research/2026-10-12_fresh-context-boot/REPORT.md).
 

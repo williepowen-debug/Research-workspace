@@ -66,3 +66,9 @@ Boot's Ledger Nudge reports six ledgers behind STATUS writes. Disposition: REGIS
 Read-cap heuristic found five whole-read files under budget; it misses explicit THESIS/NEXUS consumers and reports no BRENT declaration in shared READS.tsv. Manual measurement covers those files too. This is a **checker coverage gap**, not a claim the files are missing or oversized. Declaration/transcription belongs to the existing owner/coordinator process; no shared registry/guard edited. Audit freshness is scoped: no current broker truth, full incident refresh, official accepted settlement, source-complete weekly data or remote deployment certification.
 
 Persistence/delivery receipts are recorded after commit. Known peer publication restrictions on the shared commit train must not be bypassed through an audit push; local artifacts and coordination remain available without claiming remote publication.
+
+<a id="existing-afternoon-continuation"></a>
+
+## Existing afternoon continuation — 2026-10-12 15:04 EDT
+
+One primary-source retry at15:02:30EDT still returned empty October12 CL/HO settlement tables; [responses](cme-followup.json). TERRY independently saved its assessment at15:02:37EDT: governing November leg A notice/exit both UNKNOWN, policy legs not assessed at this scoped touch. Its exact [received grade](terry-grade-received.json) and hash/publication status are at [follow-up receipt](afternoon-followup.json). No owner commit found at read, so source is saved/in-flight rather than asserted committed. No new notice/SELL/NOT-FIRED consequence, prior exit cancellation or order. No repeat screen or new study. L633 physical gaps and existing future dependencies remain.

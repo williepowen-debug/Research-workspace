@@ -1,8 +1,8 @@
 # BRENT — NEXUS Brief
 
-**Status:** 🟠 L694 accepted complete, energy WAIT/BNO NO TRADE. L633 afternoon read delivered with refinery gaps; accepted settlement observation UNKNOWN, TERRY grades. Stand-down unchanged.
+**Status:** 🟠 L694 accepted complete, energy WAIT/BNO NO TRADE. L633 afternoon read delivered with refinery gaps; TERRY saved leg-A UNKNOWN, owner commit pending. Stand-down unchanged.
 **Domain:** Oil/energy physical balance, structure and transmission.
-**As of:** 2026-10-12 14:54 EDT — SCOPED-PARTIAL audit/Monday MMA/afternoon-source read; older sections retain dates, broker10/11 received. No full incident/market/owner refresh.
+**As of:** 2026-10-12 15:04 EDT — SCOPED-PARTIAL CME retry/received TERRY afternoon grade; owner source in-flight, no accepted settle. Older sections retain dates; broker10/11 received.
 
 > **C6(b) SCOPED-PARTIAL — fresh-context boot 2026-10-12 12:45 EDT:** recovered root/local/specs, full L694 approval, saved morning work and TERRY PASS. Network boot:10checks8OK/1WARNINGS/1FINDINGS,rc2; EIA stillwk10/2. WQ420 exact insert verified at TERRY08158a2c4; PROME L684 acceptance remains owed. USO Oct14 card exists; no broker/order refresh. L694 substantive stage and L633/afternoon work remain open. NOT re-verified: paired crack, physical restart/refinery output, delivered relief, JWC/GIE/incidents or older CROSS-DOMAIN/VIEW/CALIBRATION claims. Prior issuer/relief sources retain11:16EDT perimeter. No new grade, phase, threshold or capital. [Boot receipt](research/2026-10-12_fresh-context-boot/REPORT.md); [MEMO](research/2026-10-12_L689-energy-opportunities/MEMO.md).
 

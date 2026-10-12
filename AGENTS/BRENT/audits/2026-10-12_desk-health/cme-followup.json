@@ -1,0 +1,30 @@
+{
+  "sources": {
+    "CL": {
+      "url": "https://www.cmegroup.com/CmeWS/mvc/Settlements/Futures/Settlements/425/FUT?tradeDate=10%2F12%2F2026&pageSize=500&isProtected=false",
+      "retrieved": "2026-10-12T15:02:30.850333-04:00",
+      "http_status": 200,
+      "response": {
+        "settlements": [],
+        "updateTime": "",
+        "dsHeader": "Crude Oil Future",
+        "reportType": "Final",
+        "tradeDate": "10/12/2026",
+        "empty": true
+      }
+    },
+    "HO": {
+      "url": "https://www.cmegroup.com/CmeWS/mvc/Settlements/Futures/Settlements/426/FUT?tradeDate=10%2F12%2F2026&pageSize=500&isProtected=false",
+      "retrieved": "2026-10-12T15:02:30.850829-04:00",
+      "http_status": 200,
+      "response": {
+        "settlements": [],
+        "updateTime": "",
+        "dsHeader": "NY Harbor ULSD Future",
+        "reportType": "Final",
+        "tradeDate": "10/12/2026",
+        "empty": true
+      }
+    }
+  }
+}

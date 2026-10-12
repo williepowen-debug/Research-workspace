@@ -1,0 +1,16 @@
+{
+  "recorded": "2026-10-12 15:04 EDT",
+  "CME_retry": "cme-followup.json, both named Oct12 tables still empty at15:02:30EDT",
+  "TERRY_saved_grade": {
+    "source": "../TERRY/research/2026-10-12_desk-sweep/afternoon-grade.json",
+    "sha256": "81871b9eae2a33051e0a730e92a48fd25e6b01d503367594be01d68533916fa5",
+    "exact_copy": "terry-grade-received.json",
+    "state": "Owner saved/in-flight, no commit found at read",
+    "A_notice": "UNKNOWN",
+    "A_exit": "UNKNOWN",
+    "B1_B2_B3": "NOT_ASSESSED",
+    "consequence": "No new notice/SELL/NOT-FIRED grade or order. Existing outstanding exits remain."
+  },
+  "dependencies": "L633 four refinery run-states remain GAP. DEWEY Oct14, WPSR/IEA Oct15. L694 accepted complete.",
+  "scope": "Existing afternoon source/owner read only. No new study, rescreen, capital or closeout."
+}

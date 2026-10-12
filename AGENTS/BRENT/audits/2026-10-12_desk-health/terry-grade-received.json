@@ -1,0 +1,98 @@
+{
+  "observed_at": "2026-10-12T15:02:37-04:00",
+  "authority": "Existing WQ386/WQ420 held-share rule, prospective October12 source assessment. No historical regrade.",
+  "owner_source_commit": "0be151800",
+  "input_source": "AGENTS/BRENT/audits/2026-10-12_desk-health/afternoon-inputs.json",
+  "source1": "CME Oct12 settlement tables empty; rolling bulletin Oct9 PRELIMINARY not eligible for today",
+  "source2": "No accepted finalized Oct12 daily pair",
+  "source3": "Exact displayed14:28/14:29 bars and raw values independently matched; weighted arithmetic reproduced. Opening-bar convention/published-price precision not independently established; expiry metadata absent.",
+  "grade": {
+    "governing_contract": "November HOX26/CLX26 through October14",
+    "A_notice": "UNKNOWN",
+    "A_exit": "UNKNOWN",
+    "B1_B2_B3": "NOT_ASSESSED at this scoped touch",
+    "consequence": "No new notice/SELL/NOT-FIRED holding grade. Existing outstanding exits/rules unchanged; no order."
+  },
+  "diagnostics_not_accepted_observations": {
+    "CLX26.NYM": {
+      "selected_close_values": [
+        "93.62000274658203",
+        "93.7699966430664"
+      ],
+      "volumes": [
+        5898,
+        7010
+      ],
+      "leg_vwap_decimal28_diagnostic": "93.70146054131052656801983266",
+      "timezone": "America/New_York",
+      "interval": "1m",
+      "expireDate": null,
+      "raw_sha256": "8164e14e081fbd7337c8f18346f9a6f91984a779811a7be7557957f49262f6cb"
+    },
+    "HOX26.NYM": {
+      "selected_close_values": [
+        "4.719200134277344",
+        "4.718900203704834"
+      ],
+      "volumes": [
+        1578,
+        1553
+      ],
+      "leg_vwap_decimal28_diagnostic": "4.719051366414326424145640370",
+      "timezone": "America/New_York",
+      "interval": "1m",
+      "expireDate": null,
+      "raw_sha256": "480a0c751d7b38c798eabec33ef858bb7dbe93999ef1f3aadad761d50cd8be0a"
+    },
+    "CLZ26.NYM": {
+      "selected_close_values": [
+        "92.75",
+        "92.88999938964844"
+      ],
+      "volumes": [
+        5752,
+        4978
+      ],
+      "leg_vwap_decimal28_diagnostic": "92.81495032261602370177073625",
+      "timezone": "America/New_York",
+      "interval": "1m",
+      "expireDate": null,
+      "raw_sha256": "0feb97b4973a6cff26626f0e82501030d581def7a2c6eb9e317763913f2a78d6"
+    },
+    "HOZ26.NYM": {
+      "selected_close_values": [
+        "4.582900047302246",
+        "4.582799911499023"
+      ],
+      "volumes": [
+        1361,
+        1206
+      ],
+      "leg_vwap_decimal28_diagnostic": "4.582853002589083967276977016",
+      "timezone": "America/New_York",
+      "interval": "1m",
+      "expireDate": null,
+      "raw_sha256": "e98ff9d21b2fdf37095f8c5e04c238ba179ea2e008dc1aa33918c68a03289012"
+    },
+    "November": {
+      "crack_transport_value_diagnostic": "104.4986968480911832460970628",
+      "governing": true,
+      "acceptance": "UNKNOWN; source proof missing, no NOT-FIRED assertion"
+    },
+    "December": {
+      "crack_transport_value_diagnostic": "99.66487578612550292386229845",
+      "governing": false,
+      "acceptance": "UNKNOWN; source proof missing, no NOT-FIRED assertion"
+    }
+  },
+  "source_hashes": {
+    "CME-CL.raw": "45e234dacf9166cdc25864518123cbfd2eba579fa60f835be513b65dacbe39df",
+    "CME-HO.raw": "bb839b2d3cda59780eea179eefaaa334d4ab0d9d54a7a72b5c2e1aadc6be3c4b"
+  },
+  "L694_acceptance": {
+    "source": "PROME/reports/2026-10-12_active-owner-checkin.md",
+    "commit": "806148d8dba75a89a5a927ffd6675091e1d58a49",
+    "sha256": "60ee3e110aa3a627107e65ee842dfead6b15e9f2384bb258c5307910c62aa937",
+    "state": "PROME exact final comparison76e14f8d2/delivery1e6fba55f accepted complete; future dependencies open"
+  }
+}
