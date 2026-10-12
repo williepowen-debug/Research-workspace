@@ -74,6 +74,8 @@ Persistent state-of-REGINALD tracker across sessions. **SCRATCH** = loose notes,
 *6,229 B SPLIT OUT 2026-09-02 verbatim, crc32 `6d6ce8a5`, under READ_CAP rule 4(b).* Nothing in it is dated or owed — it is the pull-list for a research session with no urgent catalyst, so every boot was paying for it and almost no session acted on it. **Re-check size at any append, or on 2026-10-02, whichever is first.**
 
 ## RECENTLY RESOLVED
+
+**2026-10-12:** Will-approved tape → `reports/2026-10-12_morning-regional-bank-tape.md`: broad cohort buying plus OZK relief, broader driver unresolved; chart reconciled with fresh settled history. Sept RaDD bridge/dossier marked historical; existing Q3/TERRY resolvers retained, no new observation task.
 *Last ~2 weeks. Top of mind so the audit trail is visible without reading commits.*
 
 | Date | What | Result |

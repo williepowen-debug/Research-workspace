@@ -1,5 +1,7 @@
 # OZK: testing the OREO and collateral-dependent marks (as of 6/30/2026)
 
+> **2026-10-12 vintage fence:** RaDD funded balance and pass-rating inference below are Q2/September evidence, not a fresh rating/post-extension balance. Executed extension/new capital and current exposure → `AGENTS/OZK/research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md` (FDIC 8-K FLNG 12019). Redraw permitted; as-stabilized appraisal is not liquidation value; recognition UNKNOWN. Existing Q3 resolver tests recognition/rating/budget. No Q2 evidence or numerical scenario rewritten.
+
 **Registrant = Bank OZK** (cert 110 / RSSD 107244); Call Report = company. REGINALD read-only, 2026-09-26.
 
 **Source keys**

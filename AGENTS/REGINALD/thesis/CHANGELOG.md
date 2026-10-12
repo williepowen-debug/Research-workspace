@@ -1,5 +1,9 @@
 # REGINALD CHANGELOG
 
+## 2026-10-12 — OZK near-term maturity-failure premise weakens; cohort thesis unchanged
+
+Previously RaDD extension/recap outcome was unresolved in REGINALD's Sept top3 evidence. Now OZK's completed owner research and the full Oct12 FDIC 8-K establish an executed multi-year extension/new capital. Unknown loan-specific recognition does not negate execution; redraw and as-stabilized valuation limits remain. Sept balances/scenarios marked historical; no numerical re-mark or cohort score change. Canonical current terms → `AGENTS/OZK/research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md`; consumed bank-tape context → `reports/2026-10-12_morning-regional-bank-tape.md`.
+
 **Reverse chronological — newest first.** Each entry documents what changed, why, and old view vs new view. This is the audit trail, never the current state.
 
 ⛔ **BOTH PARENT DOCUMENTS ARE RETIRED** — `THESIS.md` (R1, 2026-08-13) and `TIMELINE.md` (R2, 2026-08-20). **`STATUS.md` is thesis-canonical; `CALENDAR.md` owns forward dates.** This file is now the ONLY live file in `thesis/`; the other two paths are pointer stubs — **never edit a stub to satisfy this file's rule.**

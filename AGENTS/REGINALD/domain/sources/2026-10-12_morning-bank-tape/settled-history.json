@@ -1,0 +1,220 @@
+{
+  "retrieved_at": "2026-10-12T11:17:56.112681-04:00",
+  "source": "Yahoo Finance via fresh yfinance history, unadjusted closes plus adjusted comparison",
+  "rows": [
+    {
+      "symbol": "KRE",
+      "first_date": "2026-07-10",
+      "last_date": "2026-10-09",
+      "first_unadjusted_close": 75.0199966430664,
+      "last_unadjusted_close": 69.01000213623047,
+      "price_return_pct": -8.011190050341598,
+      "prior_close_matches_quote": true,
+      "adjusted_total_return_pct": -7.487265956138966
+    },
+    {
+      "symbol": "SPY",
+      "first_date": "2026-07-10",
+      "last_date": "2026-10-09",
+      "first_unadjusted_close": 754.9500122070312,
+      "last_unadjusted_close": 778.5700073242188,
+      "price_return_pct": 3.128683321447534,
+      "prior_close_matches_quote": true,
+      "adjusted_total_return_pct": 3.3847735641605814
+    },
+    {
+      "symbol": "KBE",
+      "first_date": "2026-07-10",
+      "last_date": "2026-10-09",
+      "first_unadjusted_close": 68.75,
+      "last_unadjusted_close": 63.130001068115234,
+      "price_return_pct": -8.174543900923293,
+      "prior_close_matches_quote": true,
+      "adjusted_total_return_pct": -7.654732851245849
+    },
+    {
+      "symbol": "IWM",
+      "first_date": "2026-07-10",
+      "last_date": "2026-10-09",
+      "first_unadjusted_close": 295.989990234375,
+      "last_unadjusted_close": 278.94000244140625,
+      "price_return_pct": -5.760325806784206,
+      "prior_close_matches_quote": true,
+      "adjusted_total_return_pct": -5.514189246882328
+    },
+    {
+      "symbol": "XLF",
+      "first_date": "2026-07-10",
+      "last_date": "2026-10-09",
+      "first_unadjusted_close": 55.709999084472656,
+      "last_unadjusted_close": 54.72999954223633,
+      "price_return_pct": -1.7591088823217582,
+      "prior_close_matches_quote": true,
+      "adjusted_total_return_pct": -1.411417032547857
+    },
+    {
+      "symbol": "QQQ",
+      "first_date": "2026-07-10",
+      "last_date": "2026-10-09",
+      "first_unadjusted_close": 725.510009765625,
+      "last_unadjusted_close": 751.27001953125,
+      "price_return_pct": 3.550607079004564,
+      "prior_close_matches_quote": true,
+      "adjusted_total_return_pct": 3.6585058777369728
+    },
+    {
+      "symbol": "^TNX",
+      "excluded": "holiday index not used for rate attribution"
+    },
+    {
+      "symbol": "TLT",
+      "first_date": "2026-07-10",
+      "last_date": "2026-10-09",
+      "first_unadjusted_close": 84.47000122070312,
+      "last_unadjusted_close": 77.9800033569336,
+      "price_return_pct": -7.6831984964845335,
+      "prior_close_matches_quote": true,
+      "adjusted_total_return_pct": -6.581411766598377
+    },
+    {
+      "symbol": "OZK",
+      "first_date": "2026-07-10",
+      "last_date": "2026-10-09",
+      "first_unadjusted_close": 50.66999816894531,
+      "last_unadjusted_close": 44.40999984741211,
+      "price_return_pct": -12.35444749901301,
+      "prior_close_matches_quote": true,
+      "adjusted_total_return_pct": -11.516236177422423
+    },
+    {
+      "symbol": "WAL",
+      "first_date": "2026-07-10",
+      "last_date": "2026-10-09",
+      "first_unadjusted_close": 80.69000244140625,
+      "last_unadjusted_close": 74.2699966430664,
+      "price_return_pct": -7.956383200015127,
+      "prior_close_matches_quote": true,
+      "adjusted_total_return_pct": -7.4860897229500845
+    },
+    {
+      "symbol": "FLG",
+      "first_date": "2026-07-10",
+      "last_date": "2026-10-09",
+      "first_unadjusted_close": 15.09000015258789,
+      "last_unadjusted_close": 11.319999694824219,
+      "price_return_pct": -24.98343551783946,
+      "prior_close_matches_quote": true,
+      "adjusted_total_return_pct": -24.927744595407052
+    },
+    {
+      "symbol": "EGBN",
+      "first_date": "2026-07-10",
+      "last_date": "2026-10-09",
+      "first_unadjusted_close": 26.8700008392334,
+      "last_unadjusted_close": 28.219999313354492,
+      "price_return_pct": 5.024184711412194,
+      "prior_close_matches_quote": true,
+      "adjusted_total_return_pct": 5.061376310905508
+    },
+    {
+      "symbol": "CFG",
+      "first_date": "2026-07-10",
+      "last_date": "2026-10-09",
+      "first_unadjusted_close": 70.33999633789062,
+      "last_unadjusted_close": 63.56999969482422,
+      "price_return_pct": -9.624675853756848,
+      "prior_close_matches_quote": true,
+      "adjusted_total_return_pct": -9.037905680606528
+    },
+    {
+      "symbol": "HBAN",
+      "first_date": "2026-07-10",
+      "last_date": "2026-10-09",
+      "first_unadjusted_close": 17.8700008392334,
+      "last_unadjusted_close": 15.319999694824219,
+      "price_return_pct": -14.269731531353258,
+      "prior_close_matches_quote": true,
+      "adjusted_total_return_pct": -13.42146019416136
+    },
+    {
+      "symbol": "AMTB",
+      "first_date": "2026-07-10",
+      "last_date": "2026-10-09",
+      "first_unadjusted_close": 25.5,
+      "last_unadjusted_close": 28.770000457763672,
+      "price_return_pct": 12.82353120691635,
+      "prior_close_matches_quote": true,
+      "adjusted_total_return_pct": 13.172469971953294
+    },
+    {
+      "symbol": "VLY",
+      "first_date": "2026-07-10",
+      "last_date": "2026-10-09",
+      "first_unadjusted_close": 14.640000343322754,
+      "last_unadjusted_close": 12.619999885559082,
+      "price_return_pct": -13.7978170108786,
+      "prior_close_matches_quote": true,
+      "adjusted_total_return_pct": -13.107192775535225
+    },
+    {
+      "symbol": "SSB",
+      "first_date": "2026-07-10",
+      "last_date": "2026-10-09",
+      "first_unadjusted_close": 99.68000030517578,
+      "last_unadjusted_close": 100.25,
+      "price_return_pct": 0.5718295476315527,
+      "prior_close_matches_quote": true,
+      "adjusted_total_return_pct": 1.1870642265277453
+    },
+    {
+      "symbol": "BKU",
+      "first_date": "2026-07-10",
+      "last_date": "2026-10-09",
+      "first_unadjusted_close": 48.22999954223633,
+      "last_unadjusted_close": 42.279998779296875,
+      "price_return_pct": -12.336721582858146,
+      "prior_close_matches_quote": true,
+      "adjusted_total_return_pct": -11.652502517279794
+    },
+    {
+      "symbol": "SBCF",
+      "first_date": "2026-07-10",
+      "last_date": "2026-10-09",
+      "first_unadjusted_close": 32.91999816894531,
+      "last_unadjusted_close": 31.739999771118164,
+      "price_return_pct": -3.58444247709675,
+      "prior_close_matches_quote": true,
+      "adjusted_total_return_pct": -3.048329888162049
+    },
+    {
+      "symbol": "ZION",
+      "first_date": "2026-07-10",
+      "last_date": "2026-10-09",
+      "first_unadjusted_close": 70.66000366210938,
+      "last_unadjusted_close": 62.4900016784668,
+      "price_return_pct": -11.562413756318058,
+      "prior_close_matches_quote": true,
+      "adjusted_total_return_pct": -10.96820180146494
+    },
+    {
+      "symbol": "MTB",
+      "first_date": "2026-07-10",
+      "last_date": "2026-10-09",
+      "first_unadjusted_close": 242.33999633789062,
+      "last_unadjusted_close": 217.49000549316406,
+      "price_return_pct": -10.25418470753735,
+      "prior_close_matches_quote": true,
+      "adjusted_total_return_pct": -9.675028643562545
+    },
+    {
+      "symbol": "CUBI",
+      "first_date": "2026-07-10",
+      "last_date": "2026-10-09",
+      "first_unadjusted_close": 76.62000274658203,
+      "last_unadjusted_close": 74.04000091552734,
+      "price_return_pct": -3.3672693011875143,
+      "prior_close_matches_quote": true,
+      "adjusted_total_return_pct": -3.3672693011875143
+    }
+  ]
+}

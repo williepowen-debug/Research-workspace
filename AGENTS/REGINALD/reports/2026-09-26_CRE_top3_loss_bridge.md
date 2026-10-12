@@ -1,5 +1,7 @@
 # CRE top-3 loss bridge: FLG · EGBN · OZK (2026-09-26, evening)
 
+> **OZK vintage annotation — 2026-10-12:** RaDD funded/unfunded balances and loss scenarios below are **historical September inputs, not current post-extension forecasts**. Executed multi-year extension/new capital materially weakens near-term maturity failure. Current terms/source → `AGENTS/OZK/research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md` (FDIC 8-K FLNG 12019, Item 7.01 p.2). Paydown may be readvanced; appraisal is as-stabilized; recognition UNKNOWN. No automatic re-run/numerical re-mark. Other Q2 pools retain stated vintage. Consumption → `reports/2026-10-12_morning-regional-bank-tape.md`.
+
 > ⚠️ **Narrowed 2026-09-26 late evening after CATO's review** (`runs/2026-09-25_2050_wq299-session-direction.md`, b93837935; CATO reproduced the stress totals from the stated assumptions, which verifies the arithmetic, not the filings or the loss rates). Four statements were corrected in place: ① Seattle comparable evidence narrowed; ② no yes/no earnings verdicts, multiples with a time horizon instead; ③ EGBN office also shows a scenario reserve shortfall; ④ the mislabelled "retained earnings" output removed. §5 now carries CATO's recommended direction beside each metric proposal. **All five stay unapplied pending Will's own word.**
 
 **Asked by:** Will, 2026-09-26: reconcile the shortlist with CREED, bridge each bank from exposed loans to additional loss, reserves, earnings and capital, and prioritise three uncertainties.
