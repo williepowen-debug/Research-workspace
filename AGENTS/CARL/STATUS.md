@@ -2,6 +2,8 @@
 **Updated:** 2026-10-10: PROME L0 drain (carl-1010, DOCKET L668) after a dark 10/02–10/10; 12 items drained, 14 correction receipts, TERRY answered KEEP DORMANT. Markets on the Fri 10/9 close + latest FRED. **53/70 (76%), v2.6.6, nothing re-graded.** Prior: `status_archive/STATUS_ARCHIVE_2026-10.md`.
 **Overall:** 🔴 CRITICAL under the registered score; evidence mixed (fuel easing, tighter Fed, CCC widening, SCF delinquency up vs low claims, re-based savings, improving credit at some issuers). **The full-thesis kill is NOT one more card-stock decline:** v2.6.6 needs claims <220K for 8 weeks AND two quarterly declines in Page 14 card flow into 90+ totaling ≥100bp in one vintage. Q2's flow path 7.13→7.10→6.97% fell only 16bp, so the floor is unmet (letter + mandatory shadow grade, divergence → Will: THESIS rider 1). V1 needs stock <12% for two quarters; 12.92% has not started that clock. V16 holds 4; drop-back reset to 0 of 2 on 10/02; next print October NFP 11/06.
 
+**Startup recovery 2026-10-12:** Will-launched Codex session; instructions/assignments recovered, research not re-graded. DOCKET L672 is already assigned for today. Two new WALTER actions read and deferred to that scope review; WATT packet pending integration. Boot live pulls failed DNS; dashboard above/below retains its explicit prior data dates, not a 10/12 market refresh. Startup pull deferred for concurrent dirty paths. Closeout receipt: `domain/sources/2026-10-12_startup-recovery.md`.
+
 **History:** `status_archive/` and `archive/2026-09-16_closeout/STATUS.md`; never cite archived observations as current.
 
 ---

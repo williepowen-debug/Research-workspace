@@ -21,3 +21,4 @@ receipt_date	correction_id	action	note
 2026-10-10T16:41Z	COR-20261007-01	NO-OP	scope=Paramount financing never on a CARL surface (grep 2026-10-10). BOND and LIQUID own; 
 2026-10-10T16:41Z	COR-20261007-17	NO-OP	scope=Cluster-label metadata only. Workday figures never on a CARL surface (grep 2026-10-10); 
 2026-10-10T16:45Z	COR-20261009-10	APPLIED	artifact=AGENTS/CARL/SCRATCH.md#IMMEDIATE (by Tue 10/13); validation_ref=AGENTS/BROCK/workbook/KB.tsv#KB-BRK-327; scope=CARL SCRATCH carried WFC/C/BAC 10/13-14 (EST.). Rewritten 2026-10-10 with JPM, WFC and C on Tue 10/13 and CPI Wed 10/14. The 10/02 events memo is PROME-held in PROME/inbox/processed and was not edited; 
+2026-10-12T17:38Z	COR-20261012-08	DEFERRED	review=2026-10-12; Startup recovery only, per Will. Full BOARD signal read; primary verification and historical SCF distributional integration remain due in approved DOCKET L672 scope review today. No score or prediction change.
