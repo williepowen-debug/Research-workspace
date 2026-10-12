@@ -1,0 +1,21 @@
+{
+  "observed_at": "2026-10-12T21:55:37.709373+00:00",
+  "source_commit": "67e21c6d7",
+  "source_artifact": "AGENTS/WALTER/outbox/2026-10-12_YURI-SIG031-persistence-resolved.md",
+  "notice_type": "Correction of stale uncommitted-at-read/unknown-consumption state; no new research or filing action",
+  "accepted_queues": [
+    {
+      "recipient": "YURI",
+      "thread_id": "01a131e4-8224-7572-a1c0-feb7acebbb96",
+      "message_id": "01a1321c-d6b3-7521-a466-b86857088d9f",
+      "exit": 0
+    },
+    {
+      "recipient": "PROME",
+      "thread_id": "01a131cf-1c7d-7900-9dcf-d98af587e290",
+      "message_id": "01a1321c-dc8f-7b43-9ca9-c10d668db713",
+      "exit": 0
+    }
+  ],
+  "limits": "These new queue acknowledgments do not establish consumption of the notices. Earlier YURI SIG031 receipt/filing is independently verified at committed artifacts. No lifecycle closeout."
+}
