@@ -36,7 +36,7 @@
 
 ## MAIL STATE
 - Inbox: DEWEY October12 partial handoff and WALTER016 integrated/logged; two archive moves match two receipt rows. Sender source persistence pending at read; exact received report retained.
-- Delivery: self-authored L694 TERRY/PROME packets saved; native notification follows commit. Consumption/acceptance unverified.
+- Delivery: L694 packets committed b6aac5105 and push-confirmed. Native codex queue accepted both TERRY/PROME pointers; receipt.json retains IDs. Consumption/acceptance unverified.
 
 ## WORKBOOK HEALTH
 - Boot one ledger finding dispositioned per file, not all-clear. Partial pair probes/tanker owner-window/stale incident warnings retained. Frozen ledgers untouched.

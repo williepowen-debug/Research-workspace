@@ -22,7 +22,7 @@
     "coverage": "Codex shared-daemon project view only; no cross-runtime absence established; no launch",
     "terry_thread": "01a13117-7dae-7a81-ac4e-9aab1d1d1b27",
     "prome_thread": "01a130f9-9935-7fa2-b5cf-42c41652c9a3",
-    "native_notification": "pending until content commit"
+    "native_notification": "accepted for both existing sessions; consumption not established"
   },
   "scope": "L694 energy domain WAIT disposition; no new study/screen/rule/capital; L633/post14:30 and DEWEY October14 remain open",
   "intake": {
@@ -32,5 +32,22 @@
     ],
     "matching_board_rows": 2,
     "scope": "Integrated PARTIAL owner synthesis only; source publication pending. No new primary/market grade."
+  },
+  "content_commit": "b6aac5105",
+  "push": "CONFIRMED on origin/master by safe-push fresh fetch",
+  "notifications": {
+    "recorded": "2026-10-12T14:10:58.045978-04:00",
+    "method": "supported codex queue --thread --message; technical escalation approved",
+    "TERRY": {
+      "thread": "01a13117-7dae-7a81-ac4e-9aab1d1d1b27",
+      "queue_id": "01a1314e-fea3-71e0-bb96-3e1b83708bbb",
+      "state": "accepted"
+    },
+    "PROME": {
+      "thread": "01a130f9-9935-7fa2-b5cf-42c41652c9a3",
+      "queue_id": "01a1314f-0a54-7f52-b029-b5b0868a9d82",
+      "state": "accepted"
+    },
+    "recipient_consumption": "not established"
   }
 }
