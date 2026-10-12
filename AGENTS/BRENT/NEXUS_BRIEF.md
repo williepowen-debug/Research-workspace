@@ -4,7 +4,7 @@
 **Domain:** Oil/energy physical balance, structure and transmission.
 **As of:** 2026-10-12 12:20 EDT — Will-directed closeout, records only; source refresh remains October12 11:16 EDT.
 
-> **C6(b) SCOPED-PARTIAL:** re-verified saved L689 memo/delivery, PROME consumption `3d772a7d3`, TERRY PASS card/receipt `163664085` and full L694 approval/context-transition amendment. TERRY pricing stays its dated vendor screening, not broker evidence; no repeated screen. L694 stage is consumed/deferred, not delivered. NOT re-verified: market/physical observations, later Monday MMA/refinery runs, broker/orders/current book, official settlements, Russian instrument/cargo evidence or older SENDING/VIEW/CALIBRATION/WAITING/JWC/GIE/incidents. Prior issuer/DOE/IEA/UKMTO source claims retain their 11:16 perimeter. No new grade/phase/threshold/capital authority. Resume point: [SCRATCH](SCRATCH.md); evidence: [MEMO](research/2026-10-12_L689-energy-opportunities/MEMO.md).
+> **C6(b) SCOPED-PARTIAL — fresh-context boot 2026-10-12 12:45 EDT:** recovered root/local/specs, full L694 approval, saved morning work and TERRY PASS. Network boot:10checks8OK/1WARNINGS/1FINDINGS,rc2; EIA stillwk10/2. WQ420 exact insert verified at TERRY08158a2c4; PROME L684 acceptance remains owed. USO Oct14 card exists; no broker/order refresh. L694 substantive stage and L633/afternoon work remain open. NOT re-verified: paired crack, physical restart/refinery output, delivered relief, JWC/GIE/incidents or older CROSS-DOMAIN/VIEW/CALIBRATION claims. Prior issuer/relief sources retain11:16EDT perimeter. No new grade, phase, threshold or capital. [Boot receipt](research/2026-10-12_fresh-context-boot/REPORT.md); [MEMO](research/2026-10-12_L689-energy-opportunities/MEMO.md).
 
 ## CROSS-DOMAIN
 
