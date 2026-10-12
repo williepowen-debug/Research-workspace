@@ -42,7 +42,7 @@
   },
   "read_cap": "heuristic lacks BRENT shared READS declaration. Explicit manual THESIS/NEXUS measurement added. No threshold or registry changed.",
   "afternoon": "source read/diagnostic saved. Accepted observation UNKNOWN. No holding grade, order or physical-loss total inferred.",
-  "publication": "Local commit planned. Shared train includes existing peer publication restrictions. Do not use an audit push as a workaround. Coordinator PROME/reports/2026-10-12_active-owner-checkin.md records this boundary.",
+  "publication": "Local content committed. Remote publication deferred: shared train includes publication-restricted peer work per PROME active-owner-checkin. No workaround or remote-success claim.",
   "notification": "Native current TERRY/PROME pointers follow local content commit. Acceptance does not establish consumption.",
   "source_hashes": {
     "CLX26_NYM.raw": "8164e14e081fbd7337c8f18346f9a6f91984a779811a7be7557957f49262f6cb",
@@ -60,5 +60,20 @@
     "boot.txt": "4646a674816e3ecdb6016762a43aa6a2cb5f8283393fa9a66266d3035590641f",
     "BSEE-RSS.raw": "4451b1108682a25fb672d3c7c57c4c34bf33520b06f8c776d527d278800ca39e",
     "CLZ26_NYM.raw": "0feb97b4973a6cff26626f0e82501030d581def7a2c6eb9e317763913f2a78d6"
+  },
+  "local_content_commit": "0be151800",
+  "notifications": {
+    "recorded": "2026-10-12T15:01:11.888845-04:00",
+    "TERRY": {
+      "thread": "01a13117-7dae-7a81-ac4e-9aab1d1d1b27",
+      "queue_id": "01a1317c-e820-7792-819d-2bfa379eaf9b",
+      "state": "accepted"
+    },
+    "PROME": {
+      "thread": "01a130f9-9935-7fa2-b5cf-42c41652c9a3",
+      "queue_id": "01a1317c-ed95-7702-b59e-e65dfd3e401b",
+      "state": "accepted"
+    },
+    "consumption": "not established"
   }
 }
