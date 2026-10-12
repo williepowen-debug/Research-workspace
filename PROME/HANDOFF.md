@@ -2,6 +2,12 @@
 
 **Resume:** [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here) owns the immediate next actions, blockers and generated queue/calendar. [STATUS](STATUS.md) indexes remaining PROME work; source records establish the decision and each completion/receipt fact. The document cleanups below do not discharge those obligations.
 
+## October12 — approved opportunity discovery, existing desktop owners
+
+Will approved implementing the early domain/TERRY feasibility approach. [Approved assignment](proposals/2026-10-12_opportunity-discovery-APPROVED.md), DOCKET L694, owns the two-candidate bound, stages, direct approval and existing owner identities; ORCH_LOG records actual notification/consumption. BRENT and REGINALD provide zero or one existing-research candidate each, TERRY checks instrument/horizon/budget before deeper work, then returns a diagnostic comparison. Do not repeat completed stages after a context reset. Research approval grants no capital or rule change.
+
+Latest accepted work: BRENT L689 memo plus TERRY MPC construction PASS163664085/3d61c6af6; OZK L690 and REGINALD L691 complete. [Integration receipt](reports/2026-10-12_OZK-L690-and-CATO-integration.md) preserves unknown Horton occupancy, ungraded Q3 and TERRY broker/acceptance gaps. L633 afternoon and WATT full-day/future checks remain outstanding; L684 independent result read and VIOLET receipt remain owed. Existing owner windows stay Will-owned; old October12 laptop/permission limitations below are historical and do not describe the current desktop TERRY. No lifecycle closeout is requested by L694.
+
 ## October11 — current-surface cleanup (scoped continuation)
 
 October12 closure and runtime continuity → [closeout record](reports/2026-10-12_continuation-closeout.md). TERRY's existing approval/lock issue remains unresolved; BRENT's Will-owned window is active on his Monday request and must not be terminated by PROME's closeout. The record distinguishes saved history, idle runtime state, actual communication and session release.
