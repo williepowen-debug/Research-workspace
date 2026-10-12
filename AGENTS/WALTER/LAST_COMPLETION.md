@@ -54,7 +54,7 @@ WQ401 set sub-question remains Will’s (dueOctober14). WQ388 unattended WALTER 
 
 ## FOLLOW-UP
 
-**CL9 resolved:** CATO’s two counterexamples reproduced and fixed; original scope retained. Stop developing the runner and observe ordinary use; actual time savings remain unproven. PROME READS re-attestation remains separate. Reboot packet4e52d9e80 coordination accepted as message01a13118-17e7-7ec3-ab49-84896350dbfa, consumption unverified.
+**CL9 resolved (core4f9ad8eb6; queue receipt `outbox/2026-10-12_runner-cl9-queue-receipt.md`):** CATO’s two counterexamples reproduced and fixed; original scope retained. Stop developing the runner and observe ordinary use; actual time savings remain unproven. PROME READS re-attestation remains separate. Reboot packet4e52d9e80 coordination accepted as message01a13118-17e7-7ec3-ab49-84896350dbfa, consumption unverified.
 
 **Fresh-session restart:** continue from this file and STATUS; priority carries are existing expiry cards, CBOE eligible closes, DEWEY return and Iran/source-basis gaps. Native messaging uses the supported CLI queue, not an inference from the model tool list. Previous context is closing; future session IDs must be observed afresh.
 
@@ -109,7 +109,7 @@ Observed 2026-10-12T16:41:43Z; fresh fetched origin `d26f0cad57320c33628c2cabf45
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-12T17:15:23Z",
+  "as_of": "2026-10-12T17:17:46Z",
   "publication": [
     {
       "commit": "3cacce310",
@@ -190,6 +190,10 @@ Observed 2026-10-12T16:41:43Z; fresh fetched origin `d26f0cad57320c33628c2cabf45
     {
       "commit": "4e52d9e80",
       "state": "published"
+    },
+    {
+      "commit": "4f9ad8eb6",
+      "state": "pending"
     }
   ],
   "delivery": {
@@ -287,7 +291,7 @@ Observed 2026-10-12T16:41:43Z; fresh fetched origin `d26f0cad57320c33628c2cabf45
       "root.1d": "No auto-memory authored; index unchanged.",
       "root.1b/1c-bis/1e": "Orphan advisory checked; current authored packet/handoffs to commit exact paths, no foreign sweep. Ledger nudge REVIEW: no new RED/REG fire/doorbell/DEWEY event, older log headers remain dated; no fake events. Required weekday paths PASS.",
       "CL9": "DONE: missing/syntax real subprocess counterexamples reproduced; terminal-summary classification and30owner regressions PASS. Original doctor/check selection/manual duty semantics untouched; no time-saving claim.",
-      "16": "Reboot4e52d9e80 freshly origin-proven;51/51handoffs reconciled, no consumption inferred. CL9/notification receipt exact-path commit follows; WALTER no push.",
+      "16": "Reboot4e52d9e80 origin-proven;51/51handoffs reconciled. CL9 core4f9ad8eb6 committed/pending on observed local origin. Queue notification01a1311e-3c82-7b11-bbe7-ea045ce26006 accepted, consumption unverified. No WALTER push; final notification receipt saved.",
       "CL9-checkpoint": "Light selected checks PASS: receipt/read-cap/archive/weekday/ledger-nudge; orphan advisory reviewed.30regressions PASS, no fresh source/market clearance.",
       "scratch": "Generated reboot .cache remains local/untracked and excluded from commit; attempted move to/tmp refused cross-device, no file lost or deleted."
     },
