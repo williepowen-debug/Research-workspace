@@ -3,7 +3,7 @@
 **Date:** 2026-10-01 Thu, written 11:04–11:05 ET (`date` 11:04:37 at the read below; file written 11:05:33). **Spawn:** PROME `prome-2a`, Tier 1, WQ-347 (two PROME packets dated 2026-09-30 in `inbox/`).
 **Id:** `MGMT-QQQ740P-OCT01` (management card on a line Will bought by his own hand; no SETUPS row).
 **Thesis owner:** Will (no agent thesis on file — off-thesis class, `FORGE/STATUS.md` § Off-thesis).
-**Terry verdict:** 🔒 **CLOSED 2026-10-01 — the last ×4 LEFT THE ACCOUNT (net ≈ +$22.75, INFERRED by PROME, not a fill; sale vs expiry-day liquidation UNKNOWN) and Will ROLLED them to QQQ $740P Oct-02 ×4 ($890.65) → `MGMT-QQQ740P-OCT02`.** See § CLOSEOUT at the foot. *(was: 🔴 SELL-OR-ROLL BEFORE 15:00 ET TODAY — desk lean SELL.)* Holding into the close is BAD STRUCTURE (worthless above 740; an unhedgeable 900-share short in an IRA below 740). If Will keeps the bet, the roll that fits root rule #7 and construction rule #21 is **QQQ $740P Oct-09 ×9 at ≈ $6.17/contract net debit (≈ $5,550 for nine, screening marks)** — never a one-day roll.
+**Terry verdict:** CLOSED October1 — Activity received October11 supplies all four sell-closing cash rows: total$1,876.41 against$1,733.97 opening debit ⇒ whole×9 cohort+$142.44. Earlier×5 partial+$890.35 already booked; remaining×4 aggregate−$747.91 derived by subtraction. No row allocation or gross fill inferred from cash; §Broker reconciliation supersedes D-71 UNKNOWN.
 **Confidence in the read:** Medium (option quotes are one-vendor screening grade, quote age unknown — §2).
 **`$0` MOVED · NO ORDER · NO NEW TRADE PROPOSED · NO GATE OR THRESHOLD MOVED.** A card is a recommendation; the order is Will's (root rule #5).
 
@@ -178,3 +178,12 @@ The five are $3.78 out of the money at 12:51 (vendor bid $3.28 / ask $3.30). The
 | D-60 (ITM expiry handling) | **Still UNOBSERVED** — the four ended out of the money | — |
 
 **Recorded, not graded:** a sale or roll before expiry is Will's standing practice. The card's lean was SELL; Will rolled. ~~The ≈ $0.06 exit means the four were sold (or liquidated) when QQQ was already above or near 740~~ (withdrawn 2026-10-02: it reasoned from the unbooked inference; the exit price is UNKNOWN). **Resolution owed:** fill price/time and the sale-vs-liquidation question come from Will's word or a Fidelity Activity view; FORGE (ANVIL) books the cents.
+
+
+## Broker reconciliation — 2026-10-12 10:47:18 EDT
+
+Source: `PROME/data/2026-10-11_broker-capture-TRANSCRIPTION.md` (committed84a43c362; Activity received Sunday10/11, transaction dates shown, exact fill times/gross prices/initiator UNKNOWN). Closing cash$343.34+$396.34+$1,113.98+$22.75=$1,876.41; cohort$1,876.41−$1,733.97=+$142.44. Existing first×5 close gross/net evidence supports already-booked realized+$890.35; remaining aggregate realized$142.44−$890.35=−$747.91; remaining closing cash$22.75 against remaining basis$770.66. Counts/gross fills/times of screenshot rows absent: no per-row allocation reconstructed. Aggregate is DERIVED, cohort counted once, no commission invention. D-71/WQ347 broker gap resolved by this evidence; D-69 unexplained+$53.54 remains OPEN. Earlier withdrawn inference is retained as history; new calculation is independently supplied by all four Activity cash rows.
+
+Prior verdict, historical verbatim:
+
+**Terry verdict:** 🔒 **CLOSED 2026-10-01 — the last ×4 LEFT THE ACCOUNT (net ≈ +$22.75, INFERRED by PROME, not a fill; sale vs expiry-day liquidation UNKNOWN) and Will ROLLED them to QQQ $740P Oct-02 ×4 ($890.65) → `MGMT-QQQ740P-OCT02`.** See § CLOSEOUT at the foot. *(was: 🔴 SELL-OR-ROLL BEFORE 15:00 ET TODAY — desk lean SELL.)* Holding into the close is BAD STRUCTURE (worthless above 740; an unhedgeable 900-share short in an IRA below 740). If Will keeps the bet, the roll that fits root rule #7 and construction rule #21 is **QQQ $740P Oct-09 ×9 at ≈ $6.17/contract net debit (≈ $5,550 for nine, screening marks)** — never a one-day roll.

@@ -1,0 +1,14 @@
+{
+  "observed_at": "2026-10-12 10:47:18 EDT",
+  "original_sha256": "c99dd31c566e5c1f6892f9759cd0fe79e68f4b8103689432e0c5a89784688f61",
+  "encoded_sha256": "a5778326360e23d00420a51ed3371ea65bc50345bc0fa7bb7f72b0329e8e3447",
+  "approved_insert_sha256": "16520a54cf979c2ea8943cf0f3c8d065901eb7c42a504724fc33370239a5f80d",
+  "approved_insert_bytes": 2416,
+  "ruling_quote_equals_pinned_proposal": true,
+  "removing_exact_insert_and_banner_restores_original_bytes": true,
+  "historical_grades_changed": false,
+  "independent_acceptance": "PENDING",
+  "approved_insert_including_terminal_newline_sha256": "77f50b5951ef9dbc74867e9160bb7435661c6514ad4a0ae9c25e9e58ed13739c",
+  "approved_insert_including_terminal_newline_bytes": 2417,
+  "recovery_receipt_quote_hash_matches": true
+}

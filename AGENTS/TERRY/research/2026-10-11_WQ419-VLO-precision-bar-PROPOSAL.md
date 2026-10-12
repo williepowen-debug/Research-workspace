@@ -1,4 +1,6 @@
 # PROPOSAL — WQ-419 — VLO-HELD-01 precision and settlement-window bar definition
+> **CURRENT DISPOSITION 2026-10-12 10:47:18 EDT:** WQ-420 approved exact §4 at31f9f3d1a; three quoted paragraphs encoded prospectively in `setups/VLO-SHARE_management-proposal_2026-09-28.md` §2-bis. WQ-418 actual PASSED. This proposal body is the preserved pre-ruling record; its NOT ADOPTED/pending phrases describe October11 before17:10 approval. Independent PROME result acceptance still PENDING. No historical regrade or new research.
+
 **Written:** 2026-10-11 14:37:53 EDT. **Authority:** WQ-419 permits this proposal only; Will approved continuing the same TERRY Sol task at 15c7d8b40. **NOT ADOPTED / NO GATE ENCODED / NO GRADE / $0.** Owner: TERRY construction. PROME registers and presents the resulting semantic choice; Will rules separately. This advances the previously Tue 10/13 proposal before the first December settlement on Thu 10/15.
 
 Recommendation: compare the computed matched crack at its source decimal precision, without extra cent-rounding; define the source-③ proxy prospectively as volume-weighted one-minute closes for the two complete start-labelled bars at 14:28 and 14:29 ET. Both choices are proposed semantics, not a claim that the existing letter already resolves them. No method is installed here, and no historical grade is re-opened.

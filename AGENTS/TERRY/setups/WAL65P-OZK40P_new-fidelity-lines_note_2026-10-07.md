@@ -22,3 +22,10 @@
 **Book context, said once:** both lines join the same antecedent as the KRE 60P / 65P, APO 95P, HBAN 16P and the Robinhood WAL 70P — credit stress reaching regional banks. They add exposure, not diversification (N_eff stays 1). No fired registered trigger is on file for an add (durable finding 1; `TRY-COND-KREADD` read CONDITIONAL — NO FILL on 9/30 with REG-T-01 un-fired). **Recorded, not re-litigated.** The thesis owners are REGINALD (WAL, regional banks) and the OZK desk.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution** (no action is proposed).
+
+
+## OZK evidence update — 2026-10-12 10:51:42 EDT
+
+Primary issuer October12 Form8-K Item7.01p2 ([FDIC12019](https://securitiesfilings.fdicconnect.fdic.gov/api/instflng/12019/attachment/1)); web fetch unavailable at this desk, saved primary text `AGENTS/OZK/sources/2026-10-12/FDIC_FLNG_12019_8K.txt` read, saved PDF SHA256 verified13585c0379a619112e32c3776dad2bab89c56be4d47abc09ff985ea6fed19d01. Owner report `AGENTS/OZK/research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md`: agreement executed10/9 extending toDecember2029 with$100Mnew sponsor/partner capital. Largest-credit/$915M/SanDiego anchors identify RaDD, borrower name not literal in filing. Near-term maturity-default catalyst materially disconfirmed within November20 puts' life; OPEN prediction/unknown recognition is not affirmative support for holding.
+
+Caveats retained: $121.3Mpaydown may all be readvanced; funded$579.1M/unfunded$335.9M/commitment$915M; 68.4% fully-funded LTV uses September as-stabilized appraisal, not current liquidation value. Provider identity/equity-vs-debt form, current leases and accounting/rating unknown. WQ395 extension leg MET, recognition legUNKNOWN (no<$140Mbound); no FALSE/Brier inferred. Next accounting resolverL520 October20AMC/October21 08:30ET and early-Nov10-Q. Existing OZK C5 deadline11/18 remains. No option re-mark, holdings refresh, new card/trade or threshold change.
