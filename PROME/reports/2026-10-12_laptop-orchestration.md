@@ -53,3 +53,13 @@ Bounded source pass DONE. YURI recovered complete signed August28 amendment №1
 Accept the completed pass and retain the source dependency as PARTIAL. Existing source-qualified downstream packets remain operative; no duplicate source pass or signal is needed for the older date-only provenance recovery. DEWEY October14 and YUR-004 October16 remain due; no score, mobilisation grade, gate, capital or lifecycle change. MIDAS and WALTER follow-up consumption remains pending at this receipt.
 
 Actual return notice reached PROME from verified YURI thread01a131e4-8224-7572-a1c0-feb7acebbb96, naming both exact commits and the task/lifecycle distinction; recorded at2026-10-12 21:38:38 UTC. Return-route use is established separately from queue acceptance. The Will-owned window remains under Will's control.
+
+## MIDAS result consumed
+
+`3045f0ed9:PROME/inbox/2026-10-12_from-MIDAS_prome-directed-followup.md` and `e9b42f85c:AGENTS/MIDAS/analysis/2026-10-12_PGM-inventory-flow-followup.md` read in full and matched to committed bytes. Saved findings read; raw workbook/issuer HTML hashes and recorded category/premium arithmetic independently checked. VERIFIED: artifact versions, hashes and that arithmetic. This is not a new source retrieval or independent reaggregation of every warehouse row.
+
+Bounded public-source pass DONE; inventory/redemption explanation remains UNRESOLVED. Latest primary NYMEX stocks are retrievable, correcting the earlier broad access gap. Report October12/activity October9 records measured-zero warehouse movements for that activity interval only. Current issuer October9 NAV/assets/market snapshots are available, but no matched September30 inventory or reported fund share/physical-ounce baseline was retrieved. A daily zero cannot explain or rule out a channel across the September30–October9 decline; assets/NAV share estimates remain conditional inference, not observed fund flows. Exchange stocks do not measure global metal availability. Lease-rate evidence remains unavailable within the authorized existing-source perimeter.
+
+Accept the owner’s narrowed source-gap classification, with no forecast, score, band, capital or GLD hedge change. Actual8/20 and I2=2 remain as reported; retain October19 weekly review, October30 MIDAS-09/10 and November1 WQ-368. No repeat broad review, new monitor or duplicate follow-up is commissioned. WALTER result consumption remains pending at this receipt.
+
+Actual substantive-result notice reached PROME from verified MIDAS thread01a131e1-82c3-7702-beae-4992d53e8fd5; recorded at2026-10-12 21:40:45 UTC. Direct return-route use is verified separately from queue acceptance. No lifecycle closeout requested; the Will-owned window remains under Will’s control.
