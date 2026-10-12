@@ -24,7 +24,7 @@ Root CLAUDE.md, AGENTS.md and USER.md explicitly read at boot, plus WALTER CLAUD
 | Dispatch |9 signals including1FLASH;42 required handoffs;4 correction rows same-commit with signals, one own-target union checkable/three external. Route/index/logs committed; old substance retained with lifecycle tags. |
 | Receiving layer |UNKNOWN native availability. ORCH_INFLIGHT and foreign write recency are partial evidence;15 ACTION addresses evaluated, no missing-tool DARK inference. No domain spawn or invented dark denominator. |
 | Iran continuity | Source-limited partial updates; full clockOctober8 retained. History2591bytes moved verbatim, anchor22681B after later recovery pointer; no owner ladder regrade. |
-| Publication/closeout | Exact origin/delivery/hash receipt in LAST_COMPLETION. Coordinated train published dispatches, file delivery42/42; no recipient consumption inferred. State/evidence closeout initially local. |
+| Publication/closeout | Exact origin/delivery/hash receipt in LAST_COMPLETION. Coordinated train published dispatches, file delivery42/42; no recipient consumption inferred. State/evidence closeout bee3b2d02 observed separately in the final LAST_COMPLETION publication receipt; final receipt-update commit remains outside that prior-commit scope at writing. |
 
 ## Limits that prevent COMPLETE
 

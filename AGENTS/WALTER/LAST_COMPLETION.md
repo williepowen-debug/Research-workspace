@@ -24,7 +24,7 @@ BOARD1332.42 required handoff rows; CARL/RED/PROME/TERRY exemptions follow canon
 - Main workspace pull and WALTER push deferred because foreign work was active. Read-only fetch succeeded; separately approved Research-Intake ff-only pull succeeded. The automatic approval review rejection of the first intake sync was resolved by Will’s explicit intake-only approval; main checkout unchanged by a pull.
 - X-bookmark refresh failed HTTP400; browser reauthorization required. Nothing staged or marked consumed. Laptop-token carry string alone does not repair this desktop scan.
 - No native fleet census/cross-runtime transport or Telegram reply tool/chat_id. Availability UNKNOWN; current-chat FLASH alert delivered and PROME pointer committed, Telegram notification remains owed where an authorized transport exists. No DARK inference or duplicate spawn on tool absence.
-- Ledger nudge rc1 is retained with reasons: REGISTRY and kill_log are refreshed in this closeout commit (the nudge sees their old committed versions). Correction receipts have zero new named rows; no invented receipt is appended. DEEP_RESEARCH_FLAGGED_LOG has no returned DEWEY handoff; its dueOctober14 row cannot be falsely resolved. Threshold ledgers are declared event-driven and their re-pull-attempt clock movedOctober12.
+- Ledger nudge rc1 is retained with reasons: later nudge also sees BATCH_MANIFEST/CORRECTIONS/route_log one STATUS-write behind because their complete same-session dispatch changes were committed before the summary; no new batch, correction or route event exists to append. DOORBELL re-pull-attempt clock now movedOctober12,15 evaluations with availabilityUNKNOWN; no invented DARK row. REGISTRY and kill_log are refreshed in this closeout commit (the nudge sees their old committed versions). Correction receipts have zero new named rows; no invented receipt is appended. DEEP_RESEARCH_FLAGGED_LOG has no returned DEWEY handoff; its dueOctober14 row cannot be falsely resolved. Threshold ledgers are declared event-driven and their re-pull-attempt clock movedOctober12.
 - READS dated attestation remains stale (October9 vs October10 protocol); byte basis MATCH23 does not certify execution. Final READ-CAP:0 over-budget/over-cap within20 measured cap-bearing files,28 declared-not-counted; two advisories, one generated-file/rotation-tier warning. ORCH_INFLIGHT25598B is79% of budget and owned by PROME; flag rotation there, never edit its generated view. This does not cure stale attestation or establish coverage. PROME re-date request L174 already exists.
 - Newsweep degraded by one RSS timeout (3/4 succeeded), Google News57/57; recent lane runOctober11 19:18:17Z. Feed not dead; no collector-death escalation. Synced alert scan0 new; seen34keys+0/−0 reconciled after dispositions.
 - Iran full-ladder source coverage remains partial. UKMTO/IMO access recovered later, but footage/Poten graph/current cargo volumes and some ladder limbs remain unknown. UKMTO5 total losses vs FALCON3 qualifying losses needs owner definitions; no two-loss/gate inference.
@@ -79,12 +79,12 @@ WQ401 set sub-question remains Will’s (dueOctober14). WQ388 unattended WALTER 
 
 ## CLOSEOUT RECEIPT
 
-Observed 2026-10-12T15:17:46Z; fresh origin reference `d1f76176ef03a25582aa02bc15026aee2046ea14`. Listed prior and today’s dispatch commits are on origin as proved below.42/42 handoff paths are file-delivered; semantic consumption remains owner-specific. WALTER pushed nothing. This state/evidence closeout still requires the next coordinated train at writing. Closeout checker PASS, if achieved, proves only explicit local-reference/evidence/phrase/R1 checks, not remote freshness after this observation, execution coverage or owner completion.
+Observed 2026-10-12T15:17:46Z; fresh origin reference `d1f76176ef03a25582aa02bc15026aee2046ea14`. Listed prior and today’s dispatch commits are on origin as proved below.42/42 handoff paths are file-delivered; semantic consumption remains owner-specific. WALTER pushed nothing. State/evidence closeout commit bee3b2d02 publication is listed below; this receipt update requires the next coordinated train at writing. Closeout checker PASS, if achieved, proves only explicit local-reference/evidence/phrase/R1 checks, not remote freshness after this observation, execution coverage or owner completion.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-12T15:17:46Z",
+  "as_of": "2026-10-12T15:22:31Z",
   "publication": [
     {
       "commit": "3cacce310",
@@ -117,6 +117,10 @@ Observed 2026-10-12T15:17:46Z; fresh origin reference `d1f76176ef03a25582aa02bc1
     {
       "commit": "f818bf6a3",
       "state": "published"
+    },
+    {
+      "commit": "bee3b2d02",
+      "state": "pending"
     }
   ],
   "delivery": {
@@ -127,7 +131,7 @@ Observed 2026-10-12T15:17:46Z; fresh origin reference `d1f76176ef03a25582aa02bc1
   },
   "push": {
     "all_walter_commits_on_origin": false,
-    "note": "Listed dispatch commits reached origin through the coordinated train. WALTER pushed nothing; this state/evidence closeout remains a local commit at writing and requires the next authorized train."
+    "note": "WALTER pushed nothing. Fresh fetch proves listed commits individually; bee3b2d02 is the exact state/evidence closeout commit. This final receipt-update commit is outside the listed prior-commit scope at writing and requires the next coordinated train."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",

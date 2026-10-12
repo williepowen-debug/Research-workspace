@@ -1,0 +1,2 @@
+⚠️  nudge: [WALTER] STATUS moving without ledgers — 5 ledger(s) behind: corrections_receipts.tsv (87 STATUS-writes behind), DEEP_RESEARCH_FLAGGED_LOG.tsv (6 STATUS-writes behind), BATCH_MANIFEST.tsv (1 STATUS-write behind), CORRECTIONS.tsv (1 STATUS-write behind), route_log.tsv (1 STATUS-write behind) — freeze-or-refresh EACH, or say why not in the commit
+ℹ️  nudge: [WALTER] event-driven: DOORBELL_LOG.tsv (1 STATUS-write behind — absence expected by declaration; re-pull attempted 2026-10-12) — confirm the re-pull clock moved
