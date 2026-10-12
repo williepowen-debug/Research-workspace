@@ -43,6 +43,8 @@ WQ401 set sub-question remains Will’s (dueOctober14). WQ388 unattended WALTER 
 
 ## FOLLOW-UP
 
+**Direct bookmark request 2026-10-12T23:19:36Z:** one operator-requested scan failed token renewalHTTP400,0 new bookmarks retrieved/staged/marked. Existing browser reauthorization flow timed out after5min without callback.606 consumed keys and0 staged IDs verified byte-identical before/after authorization attempt. Hands-on auth gap persists; no repeated retry, unseen-set deletion or charter/autonomy change. Receipt outbox/2026-10-12_2318-X-bookmarks-auth-required.md. Resume read after actual successful browser authorization.
+
 **Second round Rosner primary pass 2026-10-12T22:10:52Z:**41f7b72e4 consumed within same existing window; one bounded free public pass stopped with0 complaint/docket/order primaries. Justia/DocketNexus case lead S.D.Fla.1:26-cv-26388, September16 secondary only; official endpoint unreadable,0 free Nexus copies.3%/39–42%/$21B presence/basis and current substantive orders UNKNOWN. No new BOARD dispatch/grade; non-actionable SHADE context pointer only. Owned REPORT/ACCESS_RESULT in research/2026-10-12_Rosner-primary-pass. No account/payment, repeated access loop, X/census/general sweep, helper/persistent tool or lifecycle action.
 
 **YURI SIG031 coordination resolved2026-10-12T21:54:08Z:** scoped COR31 NO-OP receipt13c03ac6c and current acted board row verified. WALTER authorbf00c875c is published; YURI already filed unchanged at4c40443c7, so no author-persistence or filing gap remains. Proof research/2026-10-12_prome-directed-followup/YURI-SIG031-receipt-proof.json; other recipients and R1 closure separate. No new research/grade or peer edit.
@@ -110,7 +112,7 @@ SessionACTIVE; bootPARTIAL. Routine full checkpoint at2026-10-12T21:06:26Z clear
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-12T22:10:52Z",
+  "as_of": "2026-10-12T23:19:36Z",
   "publication": [
     {
       "commit": "3cacce310",
@@ -381,6 +383,11 @@ SessionACTIVE; bootPARTIAL. Routine full checkpoint at2026-10-12T21:06:26Z clear
         "path": "AGENTS/WALTER/research/2026-10-12_Rosner-primary-pass/ACCESS_RESULT.json",
         "sha256": "7389d2c30fd7bd282c27f69a7752cd0039c91e1a6aefaea5cf913823e5cb9cc3",
         "note": "Bounded Rosner free-source access result;0 primary documents. Secondary identifiers and docket headings not authenticated complaint, figure proof or current posture."
+      },
+      {
+        "path": "AGENTS/WALTER/outbox/2026-10-12_2318-X-bookmarks-auth-required.md",
+        "sha256": "50e1787b7df3e4d4944357198a56a9cea3efd5939eea8e784b737a4ec3512a54",
+        "note": "One directly requested bookmark scan failed HTTP400; one browser flow timed out;606 seen/0 stage preserved. No current bookmark coverage or silent consumption."
       }
     ]
   },
