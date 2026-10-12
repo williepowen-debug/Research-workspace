@@ -57,6 +57,8 @@
 
 ## Session Notes
 
+**Latest machine-switch instruction:** PROME handles final shared safe-push. Ready owned work/authored packets checkpointed; exact commits and two WALTER-authored untracked inbox files → `outbox/2026-10-12_to-PROME_machine-switch-checkpoint.md`. No own push/repeated approval request, peer staging/pull/stash, new pass or window termination. Earlier wrap-up is research/continuity completion; this Will-owned window remains retained under the latest instruction.
+
 ⚠️ **Open question:** what bank cash, attributable losses and retained financing will the existing Q3 disclosures establish, and how large is the earnings/capital burden? RaDD execution is complete; its accounting attribution remains unknown.
 
 **CHANGES SINCE:**
