@@ -80,6 +80,7 @@ KEY_RE = re.compile(r"^[A-Za-z0-9._~%-]+$")       # a ledger key: the file stem,
 ME = "PROME"
 FLAGS = {"A", "I", "O", "U"}   # action (acked) · info · other · unreadable (acked by hand)
 STRICT_KEYS = ("signal_id", "action", "info")    # exactly one plain line each
+STAMP_KEYS = ("dispatched", "time_dispatched")  # canonical field and historical alias
 LEDGER_HEADER = (
     "# PROME/state/board_consumed.tsv — every BOARD signal file board_scan.py has consumed.\n"
     "# One row per FILE: <file stem, percent-encoded><TAB><class><TAB><blob consumed at>  (A = PROME on "
@@ -181,8 +182,30 @@ PROBLEM_TEXT = {
     "nonstandard": "{key}: is written in a non-standard form (indented, quoted or capitalised)",
     "sid": "signal_id does not match the filename",
     "unparsed-me": f"an action entry names {ME} but not as a readable list element",
-    "unstamped": "time_dispatched empty (unstamped)",
+    "unstamped": "dispatch stamp missing or empty (dispatched / time_dispatched)",
+    "stamp-form": "{key}: is not a supported simple dispatch stamp",
+    "stamp-multiline": "{key}: has an unsupported multiline dispatch stamp",
+    "stamp-conflict": "dispatch stamp values conflict (dispatched / time_dispatched)",
 }
+
+
+def _stamp_value(value):
+    """Normalize only simple stamp scalars, not YAML or ISO dates.
+
+    None means unsupported syntax; empty means missing. Loose historical stamps
+    stay valid. Quoted values may have a trailing comment, but not escapes or
+    embedded quotes; accepting those would require a broader parser contract.
+    """
+    if value.startswith(("'", '"')):
+        quote = value[0]
+        match = re.fullmatch(quote + r"([^" + quote + r"\\]*)" + quote + r"(?:\s+#.*)?", value)
+        return match.group(1).strip() if match else None
+    value = re.split(r"\s+#", value, maxsplit=1)[0].strip()
+    if not value or value.startswith("#") or value.lower() in ("null", "~"):
+        return ""
+    if value.startswith(("[", "{", "|", ">", "*", "&", "!")):
+        return None
+    return value
 
 
 def inspect_signal(name, text):
@@ -205,6 +228,7 @@ def inspect_signal(name, text):
         s.codes.append("unclosed")
         lines = text.lstrip("﻿").splitlines()[:80]     # still look for PROME in the file's head
     count = collections.Counter()
+    stamps = collections.defaultdict(list)
     nonlist, nonstandard, mention = set(), set(), False
     for i, line in enumerate(lines):
         if ":" not in line:
@@ -214,6 +238,17 @@ def inspect_signal(name, text):
         val = rest.strip()
         if rawkey == rawkey.strip():
             s.fields.setdefault(rawkey, val)
+        if key in STAMP_KEYS:
+            stamps[key].append(_stamp_value(val))
+            if rawkey != key:
+                s.codes.append(f"nonstandard={key}")
+            for nxt in lines[i + 1:]:
+                if not nxt.strip() or nxt.lstrip().startswith("#"):
+                    continue
+                if nxt[:1].isspace():
+                    s.codes.append(f"stamp-multiline={key}")
+                break
+            continue
         if key == "to":
             if rawkey != key:
                 continue                                    # legacy key: only its plain form routes
@@ -253,8 +288,17 @@ def inspect_signal(name, text):
             s.codes.append(f"nonstandard={key}")
     if mention and not s.me_action:
         s.codes.append("unparsed-me")
-    if not s.fields.get("time_dispatched"):
+    values = []
+    for key, entries in stamps.items():
+        if len(entries) > 1:
+            s.codes.append(f"repeated={key}")
+        if None in entries:
+            s.codes.append(f"stamp-form={key}")
+        values.extend(entries)
+    if not values or "" in values:
         s.codes.append("unstamped")
+    if len({v for v in values if v}) > 1:
+        s.codes.append("stamp-conflict")
     return s
 
 

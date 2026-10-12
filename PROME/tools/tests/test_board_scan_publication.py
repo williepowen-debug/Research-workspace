@@ -398,6 +398,150 @@ class LateArrivals(Repo):
         self.assertEqual(self.cursor.read_text(), "SIG-W-20260930-1000\n")
 
 
+class CanonicalFormat(Ordinary, Unpublished, LateArrivals):
+    """Run the existing routing/publication/late-arrival contracts with WALTER's canonical key."""
+
+    def text(self, *args, **kwargs):
+        return super().text(*args, **kwargs).replace("time_dispatched:", "dispatched:")
+
+
+class DispatchCompatibility(Repo):
+    STAMP = "2026-09-30T12:00:00Z"
+
+    def stamped(self, lines):
+        return self.text(1, info="PROME").replace("time_dispatched: " + self.STAMP, lines)
+
+    def test_producer_fixture_is_info_and_bare_scan_preserves_state(self):
+        # Frozen BOARD blob e67a3a47512ec6bb15ceb4003a39d8609a19f64b; no live BOARD read.
+        fixture = Path(__file__).with_name("fixtures") / "board_signal_20261012_007.md"
+        p = self.board / "SIG-W-20261012-007-michigan.md"
+        p.write_bytes(fixture.read_bytes())
+        self.publish(p)
+        rc, out = self.scan()
+        self.assertEqual(rc, 0, out)
+        self.assertIn("1 info", out)
+        self.assertNotIn("UNREADABLE", out)
+        self.assertFalse(self.ledger.exists())
+        self.assertFalse(self.cursor.exists())
+
+    def test_each_alias_and_agreeing_dual_values_are_accepted(self):
+        for lines in (
+            "dispatched: " + self.STAMP,
+            "time_dispatched: " + self.STAMP,
+            f'dispatched: "{self.STAMP}"\ntime_dispatched: \'{self.STAMP}\'',
+            f"time_dispatched: {self.STAMP}\ndispatched: {self.STAMP}",
+            "dispatched: ' 2026-08-13T16:0xZ ' # legacy loose stamp",
+        ):
+            with self.subTest(lines=lines):
+                self.publish(self.write(1, body=self.stamped(lines)))
+                rc, out = self.scan()
+                self.assertEqual(rc, 0, out)
+                self.assertIn("1 info", out)
+
+    def test_missing_empty_and_complex_stamps_hold_without_writing(self):
+        values = ("", "''", '\"  \"', "null", "~", "# none", "[]", "{}", "|", ">",
+                  "*alias", "&anchor value", "!tag value", "'unclosed", '\"escaped\\nvalue\"')
+        for key in ("dispatched", "time_dispatched"):
+            for value in values:
+                with self.subTest(key=key, value=value):
+                    self.publish(self.write(1, body=self.stamped(f"{key}: {value}")))
+                    rc, out = self.scan("--advance")
+                    self.assertEqual(rc, 1, out)
+                    self.assertIn("UNREADABLE", out)
+                    self.assertFalse(self.ledger.exists())
+                    self.assertFalse(self.cursor.exists())
+        self.publish(self.write(1, body=self.stamped("")))
+        self.assertEqual(self.scan("--advance")[0], 1)
+        self.assertFalse(self.ledger.exists())
+
+    def test_conflicts_and_empty_alias_cannot_be_hidden_by_field_order(self):
+        for value in ("2026-09-30T13:00:00Z", "", "''", "[]"):
+            for reverse in (False, True):
+                lines = ["dispatched: " + self.STAMP, "time_dispatched: " + value]
+                if reverse:
+                    lines.reverse()
+                with self.subTest(value=value, reverse=reverse):
+                    self.publish(self.write(1, body=self.stamped("\n".join(lines))))
+                    rc, out = self.scan("--advance")
+                    self.assertEqual(rc, 1, out)
+                    self.assertIn("UNREADABLE", out)
+                    self.assertFalse(self.ledger.exists())
+                    if value.startswith("2026"):
+                        self.assertIn("conflict", out)
+
+    def test_repeated_and_nonstandard_stamp_keys_hold(self):
+        for key in ("dispatched", "time_dispatched"):
+            for duplicate in (key, key.title(), "  " + key, '"' + key + '"'):
+                with self.subTest(key=key, duplicate=duplicate):
+                    lines = f"{key}: {self.STAMP}\n{duplicate}: {self.STAMP}"
+                    self.publish(self.write(1, body=self.stamped(lines)))
+                    rc, out = self.scan("--advance")
+                    self.assertEqual(rc, 1, out)
+                    self.assertIn("appears more than once", out)
+                    self.assertFalse(self.ledger.exists())
+            self.publish(self.write(1, body=self.stamped(f'"{key}": {self.STAMP}')))
+            self.assertEqual(self.scan("--advance")[0], 1)
+
+    def test_new_conflict_in_consumed_blob_holds_and_preserves_consumption(self):
+        p = self.write(1, body=self.stamped("dispatched: " + self.STAMP))
+        self.publish(p)
+        self.assertEqual(self.scan("--advance")[0], 0)
+        before = (self.ledger.read_bytes(), self.cursor.read_bytes())
+        p.write_text(self.stamped(f"dispatched: {self.STAMP}\ntime_dispatched: 2026-09-30T13:00:00Z"))
+        self.publish(p, msg="conflicting alias added")
+        rc, out = self.scan("--advance")
+        self.assertEqual(rc, 1, out)
+        self.assertIn("amended UNREADABLE", out)
+        self.assertIn("conflict", out)
+        self.assertEqual((self.ledger.read_bytes(), self.cursor.read_bytes()), before)
+
+    def test_legacy_to_canonical_amendment_remains_ordinary(self):
+        p = self.write(1, info="PROME")
+        self.publish(p)
+        self.assertEqual(self.scan("--advance")[0], 0)
+        p.write_text(p.read_text().replace("time_dispatched:", "dispatched:"))
+        self.publish(p, msg="alias only")
+        rc, out = self.scan("--advance")
+        self.assertEqual(rc, 0, out)
+        self.assertNotIn("UNREADABLE", out)
+        self.assertEqual(self.consumed(), {"SIG-W-20260930-001-x": "I"})
+
+    def test_multiline_stamp_holds_fresh_signal_for_either_alias(self):
+        for key in ("dispatched", "time_dispatched"):
+            for tail in ("  continued-value", "\n# comment\n  continued-value",
+                         "\tcontinued-value", "  nested: value"):
+                with self.subTest(key=key, tail=tail):
+                    self.publish(self.write(1, body=self.stamped(f"{key}: {self.STAMP}\n{tail}")))
+                    rc, out = self.scan("--advance")
+                    self.assertEqual(rc, 1, out)
+                    self.assertIn("multiline", out)
+                    self.assertFalse(self.ledger.exists())
+                    self.assertFalse(self.cursor.exists())
+
+    def test_multiline_amendment_preserves_consumed_blob_for_either_alias(self):
+        p = self.write(1, body=self.stamped(f"dispatched: {self.STAMP}\ntime_dispatched: {self.STAMP}"))
+        self.publish(p)
+        self.assertEqual(self.scan("--advance")[0], 0)
+        before = (self.ledger.read_bytes(), self.cursor.read_bytes())
+        for key in ("dispatched", "time_dispatched"):
+            body = self.stamped(f"dispatched: {self.STAMP}\ntime_dispatched: {self.STAMP}")
+            body = body.replace(f"{key}: {self.STAMP}\n", f"{key}: {self.STAMP}\n  continued-value\n")
+            p.write_text(body)
+            self.publish(p, msg="multiline amendment")
+            rc, out = self.scan("--advance")
+            self.assertEqual(rc, 1, out)
+            self.assertIn("amended UNREADABLE", out)
+            self.assertIn("multiline", out)
+            self.assertEqual((self.ledger.read_bytes(), self.cursor.read_bytes()), before)
+
+    def test_blank_lines_and_indented_comments_do_not_make_a_stamp_multiline(self):
+        body = self.stamped(f"dispatched: {self.STAMP}\n\n  # comment only\n")
+        self.publish(self.write(1, body=body))
+        rc, out = self.scan()
+        self.assertEqual(rc, 0, out)
+        self.assertIn("1 info", out)
+
+
 class Migration(Repo):
     def test_seed_from_cursor_floods_nothing_and_keeps_an_unpublished_low_id(self):
         legacy = "---\nto: [BRENT]\ncluster: OLD\n---\n# a legacy-schema signal\n"
