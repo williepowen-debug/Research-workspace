@@ -1,0 +1,10 @@
+{
+  "as_of": "2026-10-12T19:57:04.055807+00:00",
+  "target": "01a130f9-9935-7fa2-b5cf-42c41652c9a3",
+  "command": "codex queue --thread --message",
+  "message": "WALTER ACTIVE checkpoint: exact signed91 WALTER rows/29 BASIS and all current paired hashes reverified MATCH29; installed a443436a9 now origin-proven. Core ordinary-intake commit34e4dbde4 saved:12 committed packets consumed/filed byte-identically,4 batches27/27 closed,14 signals017-030,40 handoffs,5 COR rows,1 duplicate kill. Report AGENTS/WALTER/research/2026-10-12_owner-intake/REPORT.md; coordination packet PROME/inbox/2026-10-12_from-WALTER_live-basis-and-ordinary-intake.md. CARL confirms numerator correction and repairsKB504/529; query a83707443 RESOLVED, all-family headlines unchanged. DEWEY correction receipt AGENTS/DEWEY/inbox/2026-10-12_from-WALTER_fha-correction-consumption-and-diesel-addendum.md; COR25/old-board linkage applied, diesel addendum030 qualified. Charter split unactivated; diesel PARTIAL dueOct14, cards PARTIAL dueNov13, source/instrument limits retained. Selected checks pass; precommit doctor0HIGH/5 existingMED, postcommit publication warnings retained. Core34e4dbde4 pending against fresh origin efdb772c10b5c1c285fbd3ea5c42ea5ebe1a37f6; WALTER does not push during concurrent foreign work. No new study, grade, owner launch, order or desk closeout. Queue acceptance is not consumption.",
+  "returncode": 0,
+  "stdout": "Queued message 01a131b0-aaa7-7a23-827b-8f62017da71a for thread 01a130f9-9935-7fa2-b5cf-42c41652c9a3.\n",
+  "stderr": "",
+  "consumption": "unverified; acceptance only"
+}

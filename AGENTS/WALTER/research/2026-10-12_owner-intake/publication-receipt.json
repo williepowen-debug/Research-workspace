@@ -1,0 +1,29 @@
+{
+  "as_of": "2026-10-12T19:57:34.141624+00:00",
+  "core_commit": "34e4dbde49068db0d1c010d2be7332214f5f2c6d",
+  "origin_ref": "efdb772c10b5c1c285fbd3ea5c42ea5ebe1a37f6",
+  "core_state": "pending",
+  "basis_installation_commit": "a443436a9",
+  "basis_installation_state": "published",
+  "delivery": {
+    "total": 107,
+    "origin_proven": 67,
+    "new_committed_pending": 40
+  },
+  "doctor": {
+    "HIGH": 0,
+    "MED": 45,
+    "existing": 5,
+    "publication_pending": 40
+  },
+  "queue_receipt": "AGENTS/WALTER/outbox/2026-10-12_owner-intake-queue-receipt.json",
+  "queue_consumption": "unverified",
+  "pending_intake": {
+    "top_level": 0,
+    "DEWEY": 0,
+    "scope": "regular live packets; scaffolds excluded; census at19:55Z"
+  },
+  "session": "ACTIVE",
+  "charter_split": "unactivated",
+  "push": "deferred under local charter during observed concurrent foreign work"
+}
