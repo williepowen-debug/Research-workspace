@@ -12,3 +12,29 @@ Author validation is not independent acceptance. No code, watcher, new numerical
 ## Final continuation checks — 2026-10-12 11:36:16 EDT
 
 LedgerA–Hrc0 (29IDs/21surfaces), weekday3files/read-cap7-fileheuristic/whitespace/Decimal/DTE/saved-leg sanityPASS. No code tests required. BOARD scan run,3new sinceSIG-W-20261008-033,3logged (005/006/010read in full); COR06APPLIEDalready integrated in08158a2c4, COR10NO-OPscoped live-card/summary scan with entity distinction. Correction writer receipts saved in ownedregistry for this path-scoped commit. Census instrument reports top-level2 (.gitkeep plus L690 before filing), WILL2metadata files and no WALTERfiles. Actual WILLraw0: .gitkeep/README and processedCSV/Zone.Identifier were included by an initial broadfilesystem count; user-facing count corrected, no new broker evidence or fill inferred. L690packet arrived during L689closeout and was read with its memo; bounded negative/unknown findings retained on existing bank-put note, no new research or quote. All broker/card/instrument safety boundaries preserved. Paperwould-fire0/newrows0; prior marks retained without fresh broker claims. Auto-memory/consumer numeric-threshold checks untriggered. Ledger nudge: SETUPS/TRADE_BOOK/BOARD/receipts refreshed, paper/calibration/daytrade no new relevant event and no cosmetic stamps. Foreign work untouched; root pathspec/CONFIRMED persistence only, no forbidden recovery recipe.
+
+## Persistence/closeout — 2026-10-12 11:39:42 EDT
+
+Core17-file integration163664085 verified owner-only paths,2byte-identical packet moves, owner/indexclean. Actual receipt: `Pushed. CONFIRMED: HEAD 163664085 is on origin/master (fresh fetch).` VLOmanagement matches08158a2c4 byte-exactly at final check; no afternoon measurement anticipatorily substituted. Source artifacts/conditions/thresholds/risk caps unchanged. Exact changedpaths:
+
+```text
+M	AGENTS/TERRY/MEMORY.md
+M	AGENTS/TERRY/SETUPS.tsv
+M	AGENTS/TERRY/STATUS.md
+M	AGENTS/TERRY/TRADE_BOOK.md
+M	AGENTS/TERRY/board_log.tsv
+R100	AGENTS/TERRY/inbox/2026-10-12_from-BRENT_L689-conditional-refiner-evidence.md	AGENTS/TERRY/inbox/processed/2026-10-12_from-BRENT_L689-conditional-refiner-evidence.md
+R100	AGENTS/TERRY/inbox/2026-10-12_from-OZK_L690-post-extension-catalyst-review.md	AGENTS/TERRY/inbox/processed/2026-10-12_from-OZK_L690-post-extension-catalyst-review.md
+M	AGENTS/TERRY/registry/corrections_receipts.tsv
+A	AGENTS/TERRY/research/2026-10-12_L689-refiner-construction/MPC-dec18-call-strip.json
+A	AGENTS/TERRY/research/2026-10-12_L689-refiner-construction/PSX-dec18-call-strip.json
+A	AGENTS/TERRY/research/2026-10-12_L689-refiner-construction/receipt.md
+A	AGENTS/TERRY/research/2026-10-12_L689-refiner-construction/snapshot.txt
+A	AGENTS/TERRY/research/2026-10-12_L689-refiner-construction/validation.json
+M	AGENTS/TERRY/research/2026-10-12_new-trade-shortlist.md
+M	AGENTS/TERRY/setups/INDEX.md
+A	AGENTS/TERRY/setups/MPC_refiner-margin-resilience_L689_2026-10-12.md
+M	AGENTS/TERRY/setups/WAL65P-OZK40P_new-fidelity-lines_note_2026-10-07.md
+```
+
+Standard scoped continuation write-back complete; no new paper/forecast/daytrade/code/memory-index event, so corresponding extra writes/tests untriggered. BOARD3new/3logged, correction0owed, rawWill0. Two late packets both read/integrated and filed; no current packet left unconsumed at this observation. Root GitProtocol, no unsafe localCLOSEOUTrecovery branch. The substantive PROME delivery below is not an acknowledgment requested of BRENT; no BRENT message sent. Native queue/discovery unavailable at packetcommit, recipient receipt/independent acceptance unverified. Future owner evidence obligations remain separate and due at their own clocks.
