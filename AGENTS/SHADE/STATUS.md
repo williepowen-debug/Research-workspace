@@ -1,6 +1,6 @@
 # SHADE STATUS
 
-**Last Updated:** 2026-10-12T18:56:31-04:00 — Will/PROME **remaining primary gaps (`140e1bdde`)**; 12 public routes, six bounded results. **AG55 adopted text + final2025YE template recovered; blanket public L3/PIK/PLR mandate unsupported.** Other five evidence gaps retained. **L673 first eligible10/13 close; no early grade/dig, composite20/30 unchanged.** Evidence → `research/REMAINING_PRIMARY_GAPS_2026-10-12.md`; prior freshness reused.
+**Last Updated:** 2026-10-12T19:24:34-04:00 — Will-requested **coverage audit**. Source pass complete; evidence gaps remain. Added illiquidity denominator qualification; no new source search/grade. **L67310/13 close, October23 backlog, composite20/30 unchanged.** Audit→`research/COVERAGE_GAPS_2026-10-12.md`; source stops→§0p.
 **Prior sessions:** 10/10 L0 drain; 10/1 W1/ARI; 8/28 Delaware Life pause. Historical chain → `archive/STATUS_PRE-ROTATION_2026-10-01.md` (32,462 B, crc32 `8f171d07`, `tail -n +5`) / `archive/STATUS_PRE-ROTATION_2026-08-28.md`.
 
 **Signal Status:** 🟠 **STRUCTURAL / LATENT INSURER-WRAPPER STRESS, ONE vector FIRING (single-name Delaware Life).** **`T-SHADE-01` 10/10 owner fire = PROVISIONAL; prospective window is registered, first eligible 10/13 close.** Episode-long wrapper decline persists on 10/12 closes (RAW −4.40% vs managers −1.42%; ADJ −2.89% vs −1.42%), while since Friday both baskets rose. HY 315 [10/8] remains latest published; LIQUID owns count/anchor. SHADE tests how insurers absorb, hide, finance or amplify fund stress; no cohort cascade proven.
@@ -21,6 +21,10 @@
 ⛔ **Standing rules:** the session delta lives in `research/`; STATUS carries the verdict and live rails only · never raise the budget · rotate verbatim + crc-verify (**the 10/1 banner was written with the wrong offset and the crc caught it — same 15-B defect as 8/28; run the check, never trust the banner**).
 
 ---
+
+## 0q. 2026-10-12 — SIGNIFICANT COVERAGE GAPS
+
+Six source questions addressed, five still lack decisive evidence; AG55 final2026/completed submissions remain unverified. Broader gaps: economic risk ownership/cohort comparability, impaired-vs-mislabelled assets, post-pause flows, collateral/liquidation economics. **Illiquidity denominator unresolved:**9.75/37.2% are GA-only; total-admitted sensitivity6.92/26.42%, not a replacement/grade. ABS/perimeter/vintage ruling remains October23. Full map→research above; no new work order.
 
 ## 0p. 2026-10-12 — PRIMARY GAPS: BOUNDED PASS COMPLETE
 
@@ -46,7 +50,7 @@ L0 drain22; owner fire PROVISIONAL/post-hoc. Corrected10/1 readings→charter an
 
 **② §2.8 — DAMAGED, identity UNDETERMINED (10/1).** AAIA 62 loans dated 4/24 cost **$7,405,267,470 ≈85% of $8.7B BY DATE**, not identity proof. Strict match **16/62, $2,328,729,691 =31.4%**; economic AARe/ACRA/~20% holder split unresolved. Non-accruing ARI cohort **$265.6M**, bought at 102–103% of ARI impaired marks. Never difference statutory cost against consolidated FV QoQ **+$6,897M**. Exact derivation → `research/ARI_ATTRIBUTION_MATCH_2026-10-01.md`; prior full rail `git show 46230aa04:AGENTS/SHADE/STATUS.md` §0m.
 
-**②b DLIC FY2025 annual (L241 DONE in part):** **Affiliated Reinsurance Ratio 1.62%** ($62,230,134 affiliate reserve credit ÷ C&S $3,838,481,434; FY24 4.15%) — **GREEN; affiliate risk is on the ASSET side, not reinsurance.** **Illiquidity 9.75% FLOOR (Sch B + BA ÷ GA $45,903M) → ≈37.2% if the $12,619M affiliate-contingent bond leg counts as "illiquid ABS"** — ⚠️ **a DEFINITION range, red flag NOT recorded as breached; the ABS-leg definition is unregistered.** SVO count still owed. → `research/DLIC_FY2025_ANNUAL_CHARTER_RATIOS_2026-10-01.md`.
+**②b DLIC FY2025 annual (L241 DONE in part):** **Affiliated Reinsurance Ratio 1.62%** ($62,230,134 affiliate reserve credit ÷ C&S $3,838,481,434; FY24 4.15%) — **GREEN; affiliate risk is on the ASSET side, not reinsurance.** **Illiquidity 9.75% FLOOR (Sch B + BA ÷ GA $45,903M) → ≈37.2% if the $12,619M affiliate-contingent bond leg counts as "illiquid ABS"** — ⚠️ **GA-only, red flag NOT graded; ABS leg AND GA-vs-total-admitted denominator unregistered.** SVO count still owed. → `research/DLIC_FY2025_ANNUAL_CHARTER_RATIOS_2026-10-01.md`.
 
 **③ `T-SHADE-01` (10/1) — superseded by §0n ①** (10/1 reading NOT ARMED, 4 of 5; its RAW figures corrected in §0n ②).
 
@@ -54,7 +58,7 @@ L0 drain22; owner fire PROVISIONAL/post-hoc. Corrected10/1 readings→charter an
 
 **⑥ POST-DELIVERY rails:** W1 tally→**WQ364** (all legs in 10/2; no 10/16 SHADE enumeration). L241 DLIC ratios done in part. Cadence WEEKLY. WATCH_FOR 10 phrases + **8 lane queries deployed 5b47424, 10/10 13:00:25 ET**, actual config checked 10/12; one SIG003 retrieval does not certify recall. Declined `Delaware Life downgrade`/`Guggenheim subpoena`/`Guggenheim probe`. **ARI≈85% BY DATE and31.4% identity match are different metrics.** Full prior coordination proof→`git show 46230aa04:AGENTS/SHADE/STATUS.md` §0m; source freshness→§0p.
 
-**⑤ Carried primary figures (8/28, DLIC Q2 statutory — basis → `REFERENCE.md` §2Q):** 1H-26 direct premiums + deposit-type **$6,726M (+13.9%)** · surrenders **$2,061M (+44.6%)** · ratio **24.1% → 30.6%** · affiliate-contingent **$16,822M = 32.82% of $51,249M GA** (12/31/25 **$16,372M = 35.67%** — quote the PAIR) · C&S **$4,028M** · Illiquidity **10.05% FLOOR ONLY** · going concern NEGATIVE · no permitted practices · FHLBI **#2 borrower $4,963M, flat two quarters** `[CONF BROCK 8/28]`.
+**⑤ Carried primary figures (8/28, DLIC Q2 statutory — basis → `REFERENCE.md` §2Q):** 1H-26 direct premiums + deposit-type **$6,726M (+13.9%)** · surrenders **$2,061M (+44.6%)** · ratio **24.1% → 30.6%** · affiliate-contingent **$16,822M = 32.82% of $51,249M GA** (12/31/25 **$16,372M = 35.67%** — quote the PAIR) · C&S **$4,028M** · Illiquidity **10.05% GA FLOOR; charter denominator unresolved** · going concern NEGATIVE · no permitted practices · FHLBI **#2 borrower $4,963M, flat two quarters** `[CONF BROCK 8/28]`.
 
 **⛔ GUARDS.** (1) **No POST-PAUSE flow figure recovered; Q3 publication still expected ~11/15.** (2) **12× leverage RETRACTED — filing says 5.1×.** (3) **n=2 distributors of an unknown denominator; "paused" ≠ terminated; no current enforcement disposition recovered in the bounded10/12 pass, absence not proved.** Refutation pre-registered: probes close with no charges AND a distributor resumes ⇒ marker (0) reverts, recorded FALSE POSITIVE. (4) **Never quote S2 without S1; never difference NPORT +37.8bp (pooled) against 7/27 +40.2bp (paired).**
 
@@ -134,12 +138,12 @@ L0 drain22; owner fire PROVISIONAL/post-hoc. Corrected10/1 readings→charter an
 
 🆕 **10/10: every item dated "by 2026-10-08" below LAPSED while the desk was dark (10/1 → 10/10); none was worked on 10/10 (L0 drain-only). Re-dated: by 2026-10-23, in this order, AFTER the conditional `T-SHADE-01` dig (#8).**
 
-0. ✅ **DLIC FY2025 annual pulled (L241), 10/1 touch 2** — ratio #1 **1.62%**; ratio #2 **9.75% floor / ≈37.2% conditional**. 🔴 **Owed: a REGISTERED definition of the "illiquid ABS" leg** (candidate: Sch D Pt 1 Sec 2 private ABS by NAIC designation, or the SSAP-25 affiliate-contingent bonds). It decides whether the 30% red flag is breached, so it is a threshold-adjacent call that goes to PROME/Will, not decided here. **NAIC SVO override COUNT still owed** (never record zero).
+0. ✅ **DLIC FY2025 annual pulled (L241), 10/1 touch 2** — ratio #1 **1.62%**; ratio #2 **GA-only9.75% floor / ≈37.2% conditional**. 🔴 **Owed: REGISTERED ABS-leg AND denominator/perimeter definitions** (candidate: Sch D Pt 1 Sec 2 private ABS by NAIC designation, or the SSAP-25 affiliate-contingent bonds). These choices affect the30% comparison; PROME/Will ruling, no grade here. **NAIC SVO override COUNT still owed** (never record zero).
 1. 🔴 **ARI match = UNDETERMINED (31.4% strict).** Next: ① find the **~20% holder** on the ~0.8 cluster (ACRA? managed accounts? — §2.8's designees) · ② ARI DEFM14A (acc 0001193125-26-119995) for a loan-level annex · ③ AAIA FY2026 annual Schedule B for carrying value vs cost on the $265.6M non-accruing rows.
 2. 🔴 **`PREDICTIONS.tsv` with confidences AT REGISTRATION + a declared-flat TRADE surface** (DAEDALUS PR6 ask 2) — **OVERDUE since 2026-09-30; LAPSED 10/8; by 2026-10-23.** 🆕 **With it: DAEDALUS Falsification #4 ask 1a — a THESIS-level falsifier for the insurer-wrapper thesis, or a charter line saying why none — by 2026-10-23** (§0n ④).
 3. **MEMORY.md rotation under rule 5** (98% of budget; STOP <22,785 B) — deferred 10/1 and 10/10, nothing appended either day. **LAPSED 10/8; by 2026-10-23.** Carry the promotion candidate: *"the opacity claim was falsified by documents in my own directory."*
 3b. **ARI DEFM14A read** (acc 0001193125-26-119995, 2026-03-23) for a loan-level annex — **LAPSED 10/8; by 2026-10-23.**
-3c. **"Illiquid ABS" leg definition** for charter ratio #2 — **proposal to PROME; LAPSED 10/8; by 2026-10-23.** It decides whether the 30% red flag reads breached (9.75% floor vs ≈37.2% conditional), so the ruling is Will's.
+3c. **Illiquidity ABS leg + denominator/perimeter/vintage** for charter ratio #2 — **proposal to PROME; LAPSED 10/8; by 2026-10-23.** GA9.75/37.2% vs total-admitted6.92/26.42% sensitivity; no approved perimeter or30% grade. Ruling is Will's.
 3d. **NAIC SVO override count** — **LAPSED 10/8; by 2026-10-23** (never record zero).
 3e. 🆕 **Guggenheim Universe lead — primary verification** once WALTER pulls the 23-page doc: DLIC Q2 Sch D (in hand) for the "Chicago-street" LLC family, then EquiTrust / Security Benefit statutory (issuer routes first). Assessment 10/10 = ADDS (§0n ③).
 4. **Delaware Life TWG implementation evidence** — issuer9/11 primary PLAN now read; approval/closing still missing. DLIC Q3 Note10/subsequent events before~11/15.

@@ -5,6 +5,14 @@ Structural-change log for SHADE architecture: docs/scripts/protocol/schema chang
 ---
 
 
+### 2026-10-12T19:24:34-04:00 — coverage audit and ratio-basis qualification
+
+- Added existing-evidence coverage map on Will's question, no public-source expansion. Qualified GA-only illiquidity figures in owned state and Oct1 ratio analysis; denominator/perimeter is unresolved alongside ABS leg. No official grade, replacement across bases or frozen-rule change.
+- Consumer scan confirms PROME DOCKET L241; unrelated same-number hits excluded. Self-authored correction packet, no peer state edit. October13 L673/October23 order retained; NEXUS final fold pins this STATUS commit. No memory/ledger/feed/helper changes or lifecycle closeout.
+
+---
+
+
 ### 2026-10-12T18:56:31-04:00 — remaining primary gaps (140e1bdde)
 
 - Added one finite six-row synthesis and public AG55 adopted-PDF/final2025YE-workbook source bundle with hashes, focused locators and twelve-route stop log. No tools, feeds, libraries or frozen-rule changes. Source-verdict corrections replace stale inaccessible-final wording in owned hot/cold state.

@@ -20,10 +20,10 @@
 | Other invested assets, Schedule BA, net admitted (L8) | 1,601,744,585 |
 | **Floor numerator** | **4,475,891,908** |
 | GA net admitted (L26) | **45,903,192,677** |
-| **Illiquidity FLOOR (no ABS leg)** | **9.75%** |
-| *Conditional upper reading:* + affiliate-contingent BOND leg **$12,619M** (12/31/25 restated, REFERENCE §2Q) counted as "illiquid ABS" | **≈37.2%** |
+| **Illiquidity FLOOR (no ABS leg)** | **9.75% — GA-only, no charter grade** |
+| *Conditional upper reading:* + affiliate-contingent BOND leg **$12,619M** (12/31/25 restated, REFERENCE §2Q) counted as "illiquid ABS" | **≈37.2% — GA-only, no charter grade** |
 
-⚠️ **The ratio depends on the definition. 9.75% to ~37% is a DEFINITION range, not measurement noise.** The charter does not define "illiquid ABS". Counting the affiliate-contingent privately placed bonds (the SSAP-25 book) puts Delaware Life **over the 30% red flag**; counting only Schedule B + BA puts it far under. **SHADE does NOT record the red flag as breached.** That needs a registered definition of the ABS leg, which is a threshold-adjacent call, so it is flagged and not made here. ⚠️ Basis mix in the upper reading: the $12,619M is the restated 12/31/25 figure (from the Q2-26 statement's prior-year column), paired with the original FY25 annual's denominator. Same date, different filing vintage.
+⚠️ **Qualification added2026-10-12: both numerator AND denominator/perimeter need registration.** The9.75% floor and≈37.2% conditional values use GA net admitted assets. The charter says admitted assets without resolving GA-only versus total including separate accounts. The same illustrative numerators over total admitted assets yield6.92%/26.42%; denominator choice therefore changes the30% comparison. No row is a charter breach grade, and26.42% does not replace the GA-based37.2% arithmetic. See `COVERAGE_GAPS_2026-10-12.md` for calculation/basis. **SHADE does NOT record the red flag as breached.** ABS classification and denominator require the existing PROME/Will ruling; no threshold amended. ⚠️ Basis mix in the upper reading: the $12,619M is the restated 12/31/25 figure (from the Q2-26 statement's prior-year column), paired with the original FY25 annual's denominator. Same date, different filing vintage.
 
 ## Not done (owed)
 - **NAIC SVO override COUNT** — not attempted. Recorded as owed, **not as zero.**
