@@ -24,7 +24,7 @@ At this checkpoint all five transport acknowledgments are verified; owner consum
 
 ## Next consumption
 
-Verify each reply at its artifacts before updating canonical state or reporting completion. Coordinate urgent TERRY expiry work and approved carryover first, then owner evidence and downstream handoffs. Reconcile already completed work before commissioning any follow-up. Never treat an accepted queue message as an owner receipt.
+Verify each reply at its artifacts before updating canonical state or reporting completion. Will subsequently redirected TERRY to new trade candidates and declined further time on the near-worthless QQQ call; the earlier expiry-first priority is superseded by `AGENTS/TERRY/inbox/2026-10-12_from-PROME_new-trades-priority-Will-direct.md`, which records his words verbatim. Will handles sell/roll actions; position truth and approved carryover remain separate. Reconcile already completed work before commissioning any follow-up. Never treat an accepted queue message as an owner receipt.
 
 The old laptop TERRY ID is not the desktop target. Will reports exiting the laptop session; completed laptop closeout/publication remains unverified, as recorded in the existing recovery receipt.
 
