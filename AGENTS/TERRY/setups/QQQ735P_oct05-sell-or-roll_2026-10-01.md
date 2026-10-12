@@ -2,7 +2,7 @@
 
 **Date:** 2026-10-01 Thu, written 11:10 ET (live read `date` 11:09:14). **Spawn:** PROME `prome-2a`, Tier 1, WQ-347 (Monday's half). **Id:** `MGMT-QQQ735P-OCT05` (management card; no SETUPS row).
 **Thesis owner:** Will (no agent thesis on file — off-thesis class).
-**Terry verdict:** 🔒 **CLOSED — LEFT THE ACCOUNT: absent from Will's Fidelity capture received 2026-10-07 (`PROME/data/2026-10-07_broker-capture-TRANSCRIPTION.md`). How it left (sold, rolled or expired) and at what price is UNKNOWN until the Activity view (WQ-347; FORGE D-72). Nothing is booked here; no exit result is inferred.** The 10/7 lines (`MGMT-QQQ755P-OCT09`, `MGMT-QQQ745P-OCT15`, `MGMT-QQQ740P-OCT15`) are NEW identities and do not continue this card. *(was: 🟡 **SELL-OR-ROLL BY MON 10/05 15:00 ET — no action owed today.** Hold-to-expiry is not on the menu (worthless above 735; a 500-share short in the IRA below it). Today's figures are a moment read (construction rule #14); **re-read Monday morning** before Will acts.)*
+**Terry verdict:** 🔒 **CLOSED — D-72 BOOKED 2026-10-12T14:46:14-04:00: sell-closing cash row dated October2 plus EXPIRED remainder posted October6 as of October5; total net proceeds$65.35 less prior verified line basis$1368.32 = DERIVED realized$-1302.97.** Source `PROME/data/2026-10-08_broker-capture-TRANSCRIPTION.md` at6bfaa9f98, broker Activity transcription; original screenshots not independently viewed here. Per-row quantities/gross prices/fill times/initiator UNKNOWN; no inferred roll or execution-quality grade. Earlier October7 unknown disposition is superseded by this receipt. *(was: 🟡 **SELL-OR-ROLL BY MON 10/05 15:00 ET — no action owed today.** Hold-to-expiry is not on the menu (worthless above 735; a 500-share short in the IRA below it). Today's figures are a moment read (construction rule #14); **re-read Monday morning** before Will acts.)*
 **Confidence in the read:** Medium (vendor option quotes are screening grade; the live bid is Fidelity's).
 **`$0` MOVED · NO ORDER · NO NEW TRADE PROPOSED · NO GATE OR THRESHOLD MOVED.**
 
@@ -115,3 +115,8 @@ Nothing is owed today. **Monday by 15:00 ET: SELL at Fidelity's bid (desk lean, 
 ## CLOSING NOTE 2026-10-07 Wed 22:1x ET (PROME `prome-0e`)
 
 The line is absent from the 10/7 Fidelity holdings capture. **Disposition and proceeds UNKNOWN — Activity view needed (WQ-347, FORGE D-72); never assumed worthless, never assumed rolled.** D-60 (Fidelity's in-the-money handling) remains UNOBSERVED unless the Activity view shows otherwise. Postmortem owed once the Activity view lands. `$0` MOVED.
+
+
+## D-72 booking — 2026-10-12T14:46:14-04:00
+
+The October8 broker Activity transcription at6bfaa9f98 supplies the disposition above. Aggregate cash/basis reconciliation agrees with `FORGE/_archive/STATUS_ROTATION_2026-10-08.md` chunkF. `$65.35 - $1368.32 = $-1302.97`; DERIVED line total, not an additional portfolio booking. The Oct02 row does not display the contract count; the Oct05 sold/expired division does not establish an exact sold count. No gross-price reconstruction, exercise-policy observation, fill-time or initiator grade. Distinct later QQQ identities retain their own cards. This closes this card's D-72/postmortem bookkeeping debt only. No order or capital action.

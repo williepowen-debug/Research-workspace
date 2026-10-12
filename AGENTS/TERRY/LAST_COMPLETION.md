@@ -1,5 +1,7 @@
 # TERRY — Last Completion
 
+> **FROZEN legacy completion — September14,2026.** Bannered October12 during Will's file sweep; the dated claims below are historical. Current state is STATUS.md/MEMORY.md; current dated delivery is in PROME/inbox/ or processed/. This file is not a live task queue or current closeout.
+
 Date: 2026-09-14 (Mon, markets OPEN → closeout at 15:4x ET). **WQ-184 Tier-1 L0 spawn by PROME (`prome-e9`) on `DOCKET L356`.** Scope: whole-inbox drain, the 004 add-gate grade, L254/ROLL70, GATE-TERRY-007, D-49, and WQ-213.
 
 **RESULT — `$0` MOVED, NO ORDER PLACED, NO GATE MOVED/SET/SHAVED, NO HARD GUARD RELAXED.**

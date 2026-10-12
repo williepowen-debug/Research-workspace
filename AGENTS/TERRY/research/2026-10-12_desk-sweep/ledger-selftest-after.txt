@@ -1,0 +1,94 @@
+SELFTEST — synthetic injection
+  PASS  terminal state beats trailing history
+  PASS  struck text ignored
+  PASS  'was CONDITIONAL' prose ignored
+  PASS  CLOSED versus FIRED current lifecycle claims disagree
+  PASS  closed card retains dated firing history without a false disagreement
+  PASS  ★ '(moved from CONDITIONAL)' is prior state, not current
+  PASS  ★ hyphenated compound is a different noun — GATE-CLOSED is not a CLOSED card
+  PASS  '0-fired' count is not a FIRED state
+  PASS  ★ lowercase adjective is prose, not a state claim (the VIXCS card's trailing 'made it conditional' must not override its CLEAN verdict)
+  PASS  no state claim -> None
+  PASS  catches card-vs-ledger disagreement (the live 7/30 diesel defect)
+  PASS  clean state -> silent
+  PASS  compatible pair not flagged
+  PASS  single surface -> no verdict
+  PASS  ★ SETUPS.tsv parses when it gains a two-clock BANNER (the boot.py false-clean class, latent in this guard until 7/30)
+  FAIL  ★ a surface parsing to ZERO rows is a FINDING, not a pass
+  PASS  all surfaces present -> read sanity silent
+  PASS  ★ catches a card whose BODY declares a verdict its HEADER never learned — the exact 7/30 12:35 diesel state, where header AND all 3 ledgers agreed on the stale value
+  PASS  header matching body -> silent
+  PASS  arrow declaration resolves to the RIGHT side
+  PASS  card with no body declaration -> silent
+  PASS  extracts (label, value) pairs, not bare values
+  PASS  ★ struck PROSE containing true prices is NOT harvested (the consumer_check.py false-positive class this check was built to avoid)
+  PASS  short strike with NO replacement nearby is not a correction
+  PASS  stopword is never accepted as a label
+  PASS  catches naked superseded value where its LABEL is present
+  PASS  ★ same number under a DIFFERENT label is NOT flagged — 0.53 is both a withdrawn beta and a real 25C leg fill price (key+value, never value alone)
+  PASS  annotated value is NOT flagged
+  PASS  value annotated later in a long cell is NOT flagged (window, not segment)
+  PASS  value absent -> silent
+  PASS  MIXED-CASE label still fires (was silently inert)
+  PASS  MIXED-CASE label respects annotation
+  PASS  registry pair reachable: session high=18.71
+  PASS  registry pair reachable: VIX3M/VIX min=1.0888
+  PASS  registry pair reachable: beta=0.28
+  PASS  registry pair reachable: beta=0.53
+  PASS  SETUPS.tsv extractor keys on setup_id
+  PASS  INDEX extractor reads id+status
+  PASS  TRADE_BOOK last row wins
+  PASS  card header verdict is the FIRST one
+  PASS  ★ 005: DEAD now parses (it did not, which is why the defect survived)
+  PASS  ★ 005: SHELVED-vs-DEAD is now a check-A finding (was ZERO findings, printed ✓)
+  PASS  ★ TRADE_BOOK 6-cell row yields the STATUS, not the file path (silent data loss)
+  PASS  7-cell row still yields the STATUS (no regression on the majority shape)
+  PASS  ★ F: a cell with text but no known state is FLAGGED, not silently skipped
+  PASS  F: a bare file path is exempt (legitimately carries no state)
+  PASS  F: an empty cell is silent — absence is legitimate, unreadability is not
+  PASS  F: a parseable cell is silent
+  PASS  ★★ G: catches the REAL 8/4 drift — both surfaces say CONDITIONAL, strikes differ
+  PASS  G: agreeing surfaces are silent
+  PASS  ★ G: NO FP — a cell naming the recommendation AND its alternative uses the FIRST (headline) structure, which is how both surfaces are written
+  PASS  ★ G: NO FP — a STRUCK superseded structure is history, not a competing claim
+  PASS  G: expiry drift is caught too
+  PASS  G: silent when only ONE surface asserts a structure (surfaces differ in verbosity)
+  PASS  ★ catches the REAL 8/4 defect — card §9 stamped 12:20 at 11:11 wall clock
+  PASS  catches the short-date form used in INDEX/SETUPS ('REVISED 8/4 12:20')
+  PASS  catches a packet 'Sent:' stamp running ahead (BRENT's +66min)
+  PASS  a stamp in the PAST is silent
+  PASS  within tolerance is silent (write-lag, not skew)
+  PASS  ★ NO FP: a SCHEDULED future event on today's date is not a stamp
+  PASS  ★ NO FP: a dated obligation on ANOTHER day ('8/7 15:30 COT')
+  PASS  ★ NO FP: a future time with no date anchor is skipped by design
+  PASS  ★ NO FP: an ordinary prose line that happens to carry a time
+  PASS  NO FP: a STRUCK stamp is history, not a live claim
+  PASS  expiry/resolver wording suppresses even a keyword line
+  PASS  ★★ NO FP: the real ledger row that broke the keyword version ('graded' + 'on the close ~16:15', date far away)
+  PASS  adjacency is what does the work: same line, time moved NEXT TO the date, fires
+  PASS  ★★ H FIRES on the founding defect — INDEX cell as it stood this morning (30× vs 25 live)
+  PASS  ★★ H FIRES on pre-fix TRADE_BOOK last row ('APPROVED + FILLED 30× @ $0.11')
+  PASS  H CLEAN on the post-fix INDEX cell (25× live present beside the 30× history)
+  PASS  H CLEAN on the card-header form — fill history and live count coexist ('30× TLT … 25 remain')
+  PASS  ★ NO FP: a harvest-gate multiplier is not a count ('harvest ≥3× (≥$0.33) → take half')
+  PASS  ★ NO FP: realized/trajectory multipliers are not counts ('3.23×', '2.4× → 1.254× → 0.735×', '~17×')
+  PASS  NO FP: struck count is history — '~~30× live~~ → 25× live' reads as 25
+  PASS  H sums OPEN real rows and excludes paper would-fires and closed real rows
+  PASS  H has no live count after all real lots close
+  PASS  I: fires on an open packet at top level AND in inbox/<AGENT>/
+  PASS  I: NO FP on processed/ — at either level (this is the whole point of the lane)
+  PASS  I: NO FP on inbox/WILL/ — Will's raw drop zone is not an agent packet lane
+  PASS  I: NO FP on README.md
+  PASS  I: an uncommitted packet is labelled UNCOMMITTED, never given a fake age
+  PASS  F-1: only age>=1 counts as an advisory 🔴 — a drain failure, not late mail
+  PASS  F-1: an age-0 packet landed AFTER the drain and is NOT a 🔴
+  PASS  F-1: UNCOMMITTED/unparseable (age None) is in flight, NOT a 🔴
+  PASS  F-1: mixed section I counts only the red rows
+  PASS  F-1: a drained inbox adds no clause at all
+
+  SELFTEST FAIL (1)
+
+--- live run ---
+TERRY ledger sweep
+==================
+  FAIL — run from repo root: (cd "$(git rev-parse --show-toplevel)" && python3 AGENTS/TERRY/scripts/ledger_sweep.py)

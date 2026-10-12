@@ -1,11 +1,13 @@
 # TRADE CARD — WAL — Long Put Spread (grind expression)
 **Date:** 2026-07-17 · **Updated:** 2026-07-26 (**owner repointed to the WAL agent** — DAEDALUS 7/25, WP-W4) · *prior update 2026-07-21 (REGINALD confirm consumed; print gate staged)*
 
+> **Current source-use clarification — 2026-10-12T14:49:39-04:00:** this July card remains CONDITIONAL/HELD DORMANT, not a live approved ticket. July Q2 gate, quotes, holdings and thesis vintage are historical; any fresh use needs current WAL-owner evidence and Will/broker position truth (FORGE is the dated mirror). WAL/POSITIONS.md is not a substitute for the current broker book. No new owner question, screen or entry commissioned.
+
 > ### 🔄 OWNER CHANGE — 2026-07-26 (ACK to DAEDALUS 7/25)
 > **WAL was promoted out of REGINALD** (`AGENTS/REGINALD/WAL/` → `AGENTS/WAL/`, Will-approved 7/22, cutover 7/25 — review: `AGENTS/DAEDALUS/builds/wal_promotion/PROMOTION_REVIEW.md`).
 > - **Adjudication owner for this card is now the WAL agent** (`AGENTS/WAL/`). Grind-intact-vs-broken calls route there; its thesis **v2.3 (grind INTACT-but-NARROWED**, per the Q2 Stage-2 grade) is the adjudication basis.
 > - **REGINALD remains the cohort/KRE context source — NOT the WAL-grind adjudicator.**
-> - **Position canon moved:** `AGENTS/WAL/POSITIONS.md` is now canonical for WAL strikes/expiries (7/20-export-current: 77.5P Aug-21 ×1 + 67.5P/70P Sep-18 core). **Use it, not the §7 snapshot below, at fire-time** — with a fresh broker export (rules #4/#6).
+> - **Historical July26 routing statement (superseded for current position truth):** ~~`AGENTS/WAL/POSITIONS.md` is now canonical for WAL strikes/expiries~~ (7/20-export-current: 77.5P Aug-21 ×1 + 67.5P/70P Sep-18 core). **Use it, not the §7 snapshot below, at fire-time** — with a fresh broker export (rules #4/#6).
 > - Sep-18 core expiry sits on WAL's STATUS §EXPECTED SIGNALS; fire-time reshapes still run TERRY rules #4/#5/#6/#7.
 > - **No economics change.** Everything below is unchanged; only the routing pointer moved. **REGINALD attributions in the historical blocks stay as-written** (delivered-record canon) — they are an accurate record of who ruled what, when.
 

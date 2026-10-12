@@ -1,0 +1,1 @@
+SPREAD PRECISION: 4 integration cases PASS (tie, above, below, parser quote).

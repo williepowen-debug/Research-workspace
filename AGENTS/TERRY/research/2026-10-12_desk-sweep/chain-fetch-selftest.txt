@@ -1,0 +1,5 @@
+  ⚠️  pandas absent — pandas.Timestamp tz path NOT exercised (run under .venv to cover it)
+  direction-consistency: 8 cases PASS (call/put x spot-up/down / noise-floor silence / first-pull silence / XLE-65C 2026-09-11 live regression / advisory-not-hard)
+  quote-sanity: 7 injection cases PASS (clean-strip / 8-4 LOCK+ASK-INVERSION regression / flat-spot silence / call+put inversion / xsd+dead+nobid / dead-neighbour isolation / advisory-vs-hard)
+chain_fetch.py SELFTEST: PASS
+  rows=2 mark0=0.8 iv0=10.5% spread1=2.33% mny0=-8.3% greeks=N/A latest_trade=2027-01-04 10:31

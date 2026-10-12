@@ -437,3 +437,15 @@ Lesson: newer Activity evidence resolves disposition; net-cash cohort totals rep
 ### Historical September2 opening inventory (verbatim, superseded counts)
 
 **What this file holds (re-cut 2026-09-02 — the line here said *"No Terry-reviewed trades have been closed yet"* for 34 days beside two closed entries; DAEDALUS PR#5 caught it, PAT-112 n+2 — a header over appended entries):** **TWO CLOSED TRADES WITH REALIZED P/L** — `TRY-VIOLET-VIXCS` (7/30, **−$111.60 / −38.8%**, the desk's first realized loss; evaluation appendix 8/07) and the **QQQ short-dated put cluster** (8/04, 11 Will-direct tickets, **≈ −$4,341**, not a TERRY card) — **FIVE PROCESS / NO-TRADE entries** at `$0` risked (`TRY-FIRE-005` 7/10 · `TRY-FIRE-007` 8/07 · `TRY-BRENT-USOARM` 8/13 · `TRY-WILL-QQQ-VFADE` 8/13 · `TRY-FIRE-006` 8/18) — and one partial harvest still open elsewhere (`TRY-FIRE-004`, 5 of 30 realized +$128.86 on 7/31; its postmortem is owed at close, not here). ⚠️ **The header is a COUNT, and counts rot: append an entry ⇒ update this line in the same commit.** Entries are chronological by event date below; the `## Template` block sits mid-file (after the 8/04 entry) and is not an entry.
+
+
+## October12 — D-72 historical QQQ October2/October5 outcomes booked
+
+**Observed:** 2026-10-12T14:46:14-04:00. Original cards `MGMT-QQQ740P-OCT02` and `MGMT-QQQ735P-OCT05`; source `PROME/data/2026-10-08_broker-capture-TRANSCRIPTION.md` at6bfaa9f98, WALTER/PROME broker Activity transcription. Screenshots are not independently viewed here.
+
+| Identity | Broker cash evidence | Prior verified line basis | DERIVED realized line result |
+|---|---|---:|---:|
+| QQQ October2 740P | October2 OPTION LIQUIDATION sell-closing net$3.75 | $890.65 | −$886.90 |
+| QQQ October5 735P | October2 sell-closing net$65.35 plus expired remainder posted October6 as of October5 | $1,368.32 | −$1,302.97 |
+
+Combined line result −$2,189.87 is an arithmetic summary of these already-booked mirror outcomes, not a new portfolio loss or an addition to later QQQ cohorts. Per-row contract counts, gross prices, timestamps, initiator and broker intervention are unestablished; exact sold/expired allocation is not inferred. **Thesis/entry:** Will-originated, not re-underwritten. **Timing/exit:** actual dated cash/disposition record only; no execution-quality grade. **Structure/sizing:** no endorsement or retroactive changed rail. **Rule/lesson:** October7 absence-from-holdings alone did not settle disposition; saved October8 Activity now does. No Brier/new forecast. **Tags:** STALE_DATA (delayed owner bookkeeping), POSITION_TRUTH_MISSING (prior gap).

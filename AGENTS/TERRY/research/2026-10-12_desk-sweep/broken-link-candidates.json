@@ -1,0 +1,5 @@
+{
+  "scope": "Explicit Markdown links in tracked nonarchive Markdown only; anchors/backtick prose/dynamic paths not certified. Prior scan included code and yielded one regex false positive, now correctly excluded.",
+  "files": 133,
+  "issues": []
+}

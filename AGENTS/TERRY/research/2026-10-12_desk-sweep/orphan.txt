@@ -1,0 +1,13 @@
+⚠️  uncommitted files outside AGENTS/TERRY/:
+     [not yours]    AGENTS/DAEDALUS/STATUS.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-10-09_CHARTER_SPLIT.md
+     [not yours]    AGENTS/REGINALD/domain/sources/2026-10-12_KRE_basket_study/
+     [not yours]    AGENTS/REGINALD/scripts/kre_basket_study.py
+     [not yours]    AGENTS/WALTER/research/2026-10-12_desk-sweep/
+     [not yours]    AGENTS/WALTER/research/2026-10-12_reboot/.cache/
+     [not yours]    PROME/registry/READS.tsv
+     [not yours]    PROME/reports/2026-10-12_active-owner-checkin-transport.json
+     [not yours]    PROME/state/ORCH_LOG.tsv
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

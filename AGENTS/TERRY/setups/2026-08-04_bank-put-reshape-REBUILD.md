@@ -1,8 +1,9 @@
 # BANK-PUT RESHAPE — REBUILD (decision memo, Will-ruled 7/31, due before 8/5)
 **Date:** 2026-08-04 · built 15:38–15:52 ET (`date`-verified 15:38:14 EDT; every chain figure below carries its own pull timestamp)
 **Author:** TERRY proxy session (Will-approved launch, PROME-directed 8/4 ~15:50 ET tasking)
-**ID:** TRY-RESHAPE-BC (non-fire descriptive ID per INDEX convention)
-**Status:** DECISION-READY — PROPOSE-ONLY. **APPROVAL REQUIRED — Will must approve/reject before execution.**
+**Setup ID:** TRY-RESHAPE-BC (non-fire descriptive ID per INDEX convention)
+**Terry verdict:** **LAPSED — August21 dust-book cohort resolved; current state reconciled 2026-10-12T14:49:39-04:00 to INDEX/POSTMORTEMS and the September3 write-back.** No live proposal, no fresh capital, no revival of the expired cohort.
+**Historical build status:** ~~DECISION-READY — PROPOSE-ONLY. APPROVAL REQUIRED — Will must approve/reject before execution.~~ The August4 body below is dated history; later outcome lives in `POSTMORTEMS.md` August21/September3 entry.
 **Supersedes (arithmetic only):** `PROME/proposals/2026-06-26_bank-put-reshape-roll.md` §A/§C/§E tables — its own 7/18 position-vintage warning ordered exactly this rebuild. The 6/26 path logic (harvest-(a) → roll-(b) → keep-(c)) is retained where it survives; most of it does not, in figures below.
 
 ---

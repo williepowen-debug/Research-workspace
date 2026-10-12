@@ -1,0 +1,111 @@
+[
+  {
+    "label": "final-ledger",
+    "argv": [
+      "python3",
+      "AGENTS/TERRY/scripts/ledger_sweep.py"
+    ],
+    "observed_at": "2026-10-12T14:53:09.614591-04:00",
+    "rc": 0,
+    "output": "final-ledger.txt"
+  },
+  {
+    "label": "final-ledger-selftest",
+    "argv": [
+      "python3",
+      "AGENTS/TERRY/scripts/ledger_sweep.py",
+      "--selftest"
+    ],
+    "observed_at": "2026-10-12T14:53:09.884688-04:00",
+    "rc": 0,
+    "output": "final-ledger-selftest.txt"
+  },
+  {
+    "label": "final-boot-selftest",
+    "argv": [
+      "python3",
+      "AGENTS/TERRY/scripts/boot.py",
+      "--selftest"
+    ],
+    "observed_at": "2026-10-12T14:53:10.609999-04:00",
+    "rc": 0,
+    "output": "final-boot-selftest.txt"
+  },
+  {
+    "label": "paper-mark-selftest",
+    "argv": [
+      "python3",
+      "AGENTS/TERRY/scripts/paper_book_mark.py",
+      "--selftest"
+    ],
+    "observed_at": "2026-10-12T14:53:10.652284-04:00",
+    "rc": 0,
+    "output": "paper-mark-selftest.txt"
+  },
+  {
+    "label": "final-corrections",
+    "argv": [
+      "python3",
+      "scripts/corrections_boot_check.py",
+      "TERRY"
+    ],
+    "observed_at": "2026-10-12T14:53:10.689099-04:00",
+    "rc": 0,
+    "output": "final-corrections.txt"
+  },
+  {
+    "label": "final-cap",
+    "argv": [
+      "python3",
+      "scripts/read_cap_check.py",
+      "--agent",
+      "TERRY"
+    ],
+    "observed_at": "2026-10-12T14:53:10.724377-04:00",
+    "rc": 0,
+    "output": "final-cap.txt"
+  },
+  {
+    "label": "final-staleness",
+    "argv": [
+      "python3",
+      "scripts/ledger_staleness.py",
+      "--nudge",
+      "TERRY"
+    ],
+    "observed_at": "2026-10-12T14:53:10.758454-04:00",
+    "rc": 1,
+    "output": "final-staleness.txt"
+  },
+  {
+    "label": "final-weekday",
+    "argv": [
+      "python3",
+      "scripts/claim_check.py",
+      "--check",
+      "weekday",
+      "AGENTS/TERRY/STATUS.md",
+      "AGENTS/TERRY/MEMORY.md",
+      "AGENTS/TERRY/setups/INDEX.md",
+      "AGENTS/TERRY/POSTMORTEMS.md",
+      "AGENTS/TERRY/TRADE_BOOK.md",
+      "AGENTS/TERRY/research/2026-10-12_L372-disposition.md"
+    ],
+    "observed_at": "2026-10-12T14:53:10.917170-04:00",
+    "rc": 0,
+    "output": "final-weekday.txt"
+  },
+  {
+    "label": "final-whitespace",
+    "argv": [
+      "git",
+      "diff",
+      "--check",
+      "--",
+      "AGENTS/TERRY/"
+    ],
+    "observed_at": "2026-10-12T14:53:10.998768-04:00",
+    "rc": 0,
+    "output": "final-whitespace.txt"
+  }
+]

@@ -12,7 +12,7 @@
 
 1. **You feed me a trade log** (see Intake) and say *"Terry, run a day-trading review."*
 2. I **reconstruct realized P&L** by instrument thread (cash-flow method) and **mark open positions** against live closes.
-3. I **score the session against the 5 rules** in `PROFILE.md` and tally the tracked tendencies.
+3. I **score the session against the 6 rules** in `PROFILE.md` and tally the tracked tendencies.
 4. I **append** a narrative entry to `JOURNAL.md` and a metrics row to `LEDGER.tsv`.
 5. I **flag repeat mistakes** (same leak two reviews running) and call out what improved.
 
@@ -38,7 +38,7 @@ Ad-hoc / "somewhat regularly." **Weekly or per-cluster** is the sweet spot — f
 
 | File | What |
 |---|---|
-| `PROFILE.md` | Living behavioral fingerprint + the 5 enforceable rules. The rulebook. |
+| `PROFILE.md` | Living behavioral fingerprint + the 6 enforceable rules. The rulebook. |
 | `QQQ_DESK_CARD.md` | One-page pre-trade reference for the QQQ book (the engine). Glance before entering. Contains the no-hold-to-zero hard stop. |
 | `JOURNAL.md` | Append-only narrative, one entry per review (newest on top). |
 | `LEDGER.tsv` | Quantified metrics per review — the trend tracker. |

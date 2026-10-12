@@ -1,0 +1,143 @@
+[
+  {
+    "label": "boot",
+    "argv": [
+      "python3",
+      "AGENTS/TERRY/scripts/boot.py"
+    ],
+    "observed_at": "2026-10-12T14:39:49.372830-04:00",
+    "rc": 0,
+    "output": "boot.txt"
+  },
+  {
+    "label": "ledger",
+    "argv": [
+      "python3",
+      "AGENTS/TERRY/scripts/ledger_sweep.py"
+    ],
+    "observed_at": "2026-10-12T14:39:50.217425-04:00",
+    "rc": 0,
+    "output": "ledger.txt"
+  },
+  {
+    "label": "corrections",
+    "argv": [
+      "python3",
+      "scripts/corrections_boot_check.py",
+      "TERRY"
+    ],
+    "observed_at": "2026-10-12T14:39:50.905667-04:00",
+    "rc": 0,
+    "output": "corrections.txt"
+  },
+  {
+    "label": "read-cap",
+    "argv": [
+      "python3",
+      "scripts/read_cap_check.py",
+      "--agent",
+      "TERRY"
+    ],
+    "observed_at": "2026-10-12T14:39:50.940074-04:00",
+    "rc": 0,
+    "output": "read-cap.txt"
+  },
+  {
+    "label": "staleness",
+    "argv": [
+      "python3",
+      "scripts/ledger_staleness.py",
+      "--nudge",
+      "TERRY"
+    ],
+    "observed_at": "2026-10-12T14:39:50.974036-04:00",
+    "rc": 1,
+    "output": "staleness.txt"
+  },
+  {
+    "label": "orphan",
+    "argv": [
+      "bash",
+      "scripts/orphan_check.sh",
+      "TERRY"
+    ],
+    "observed_at": "2026-10-12T14:39:51.125733-04:00",
+    "rc": 0,
+    "output": "orphan.txt"
+  },
+  {
+    "label": "boot-selftest",
+    "argv": [
+      "python3",
+      "AGENTS/TERRY/scripts/boot.py",
+      "--selftest"
+    ],
+    "observed_at": "2026-10-12T14:39:51.167473-04:00",
+    "rc": 0,
+    "output": "boot-selftest.txt"
+  },
+  {
+    "label": "ledger-selftest",
+    "argv": [
+      "python3",
+      "AGENTS/TERRY/scripts/ledger_sweep.py",
+      "--selftest"
+    ],
+    "observed_at": "2026-10-12T14:39:51.208033-04:00",
+    "rc": 1,
+    "output": "ledger-selftest.txt"
+  },
+  {
+    "label": "chain-fetch-selftest",
+    "argv": [
+      "python3",
+      "AGENTS/TERRY/scripts/chain_fetch.py",
+      "--selftest"
+    ],
+    "observed_at": "2026-10-12T14:39:51.911114-04:00",
+    "rc": 0,
+    "output": "chain-fetch-selftest.txt"
+  },
+  {
+    "label": "chain-parse-selftest",
+    "argv": [
+      "python3",
+      "AGENTS/TERRY/scripts/chain_parse.py",
+      "--selftest"
+    ],
+    "observed_at": "2026-10-12T14:39:51.950106-04:00",
+    "rc": 0,
+    "output": "chain-parse-selftest.txt"
+  },
+  {
+    "label": "grade-selftest",
+    "argv": [
+      "python3",
+      "AGENTS/TERRY/scripts/grade_print.py",
+      "--selftest"
+    ],
+    "observed_at": "2026-10-12T14:39:51.978265-04:00",
+    "rc": 0,
+    "output": "grade-selftest.txt"
+  },
+  {
+    "label": "spread-precision",
+    "argv": [
+      "python3",
+      "AGENTS/TERRY/scripts/test_spread_precision.py"
+    ],
+    "observed_at": "2026-10-12T14:39:52.008345-04:00",
+    "rc": 0,
+    "output": "spread-precision.txt"
+  },
+  {
+    "label": "snapshot-coverage",
+    "argv": [
+      "python3",
+      "AGENTS/TERRY/scripts/test_snapshot_coverage.py"
+    ],
+    "observed_at": "2026-10-12T14:39:52.044013-04:00",
+    "rc": 0,
+    "output": "snapshot-coverage.txt"
+  }
+]

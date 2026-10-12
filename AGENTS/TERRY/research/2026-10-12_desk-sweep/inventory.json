@@ -1,0 +1,4391 @@
+{
+  "observed_at": "2026-10-12T14:43:51.044963-04:00",
+  "date_basis": "last path commit date, not source freshness or mtime",
+  "cutoff_exclusive": "2026-08-13",
+  "files": [
+    {
+      "path": "AGENTS/TERRY/.gitignore",
+      "exists": true,
+      "bytes": 317,
+      "last_path_commit_date": "2026-06-27",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/CALIBRATION.tsv",
+      "exists": true,
+      "bytes": 3888,
+      "last_path_commit_date": "2026-10-08",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/CHART_OPTIONS_WORKFLOW.md",
+      "exists": true,
+      "bytes": 7026,
+      "last_path_commit_date": "2026-07-17",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/CLAUDE.md",
+      "exists": true,
+      "bytes": 32449,
+      "last_path_commit_date": "2026-10-11",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/CLOSEOUT.md",
+      "exists": true,
+      "bytes": 19357,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/GATE-TERRY-007_GRADING_PROCEDURE.md",
+      "exists": true,
+      "bytes": 5430,
+      "last_path_commit_date": "2026-08-20",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/LAST_COMPLETION.md",
+      "exists": true,
+      "bytes": 5106,
+      "last_path_commit_date": "2026-09-14",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/MEMORY.md",
+      "exists": true,
+      "bytes": 24580,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/OPEN_ITEMS_2026-09-03.md",
+      "exists": true,
+      "bytes": 8132,
+      "last_path_commit_date": "2026-09-08",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/OPEX_2026-08-21_WRITEBACK_PREREG.md",
+      "exists": true,
+      "bytes": 10084,
+      "last_path_commit_date": "2026-09-03",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/PAPER_BOOK.tsv",
+      "exists": true,
+      "bytes": 36339,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/PAPER_BOOK_DESIGN.md",
+      "exists": true,
+      "bytes": 26571,
+      "last_path_commit_date": "2026-08-19",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/PAPER_BOOK_RULING-E_would-fire-vs-approval_2026-08-19.md",
+      "exists": true,
+      "bytes": 5852,
+      "last_path_commit_date": "2026-08-19",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/POSITION_INTAKE.md",
+      "exists": true,
+      "bytes": 1181,
+      "last_path_commit_date": "2026-06-20",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/POSTMORTEMS.md",
+      "exists": true,
+      "bytes": 61272,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/README.md",
+      "exists": true,
+      "bytes": 6687,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/REG-T-02_FIRE_PROCEDURE.md",
+      "exists": true,
+      "bytes": 16254,
+      "last_path_commit_date": "2026-08-20",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/RISK_RULES.md",
+      "exists": true,
+      "bytes": 23316,
+      "last_path_commit_date": "2026-09-24",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/RISK_RULES_CONSTRUCTION.md",
+      "exists": true,
+      "bytes": 23573,
+      "last_path_commit_date": "2026-09-24",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/RISK_SCORING.md",
+      "exists": true,
+      "bytes": 10134,
+      "last_path_commit_date": "2026-07-26",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/SETUPS.tsv",
+      "exists": true,
+      "bytes": 23305,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/SIGNALS.tsv",
+      "exists": true,
+      "bytes": 63271,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/STATUS.md",
+      "exists": true,
+      "bytes": 24003,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/TRADE_BOOK.md",
+      "exists": true,
+      "bytes": 22201,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/TRADE_CARD_TEMPLATE.md",
+      "exists": true,
+      "bytes": 4418,
+      "last_path_commit_date": "2026-07-26",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/TRADE_CARD_TEMPLATE_FIRE.md",
+      "exists": true,
+      "bytes": 4874,
+      "last_path_commit_date": "2026-07-26",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/archive/.gitkeep",
+      "exists": true,
+      "bytes": 0,
+      "last_path_commit_date": "2026-06-20",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/INDEX_OWNER_RECONCILE_HISTORY_2026-09-08.md",
+      "exists": true,
+      "bytes": 6230,
+      "last_path_commit_date": "2026-09-08",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/LEGACY_TRADES_PULL_FORWARD_2026-06-21.md",
+      "exists": true,
+      "bytes": 4938,
+      "last_path_commit_date": "2026-06-21",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/MEMORY_SESSION_HISTORY_2026-09-08.md",
+      "exists": true,
+      "bytes": 35063,
+      "last_path_commit_date": "2026-09-11",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/SETUPS_ARCHIVE_2026-09-03.tsv",
+      "exists": true,
+      "bytes": 80912,
+      "last_path_commit_date": "2026-09-03",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/SETUPS_ARCHIVE_2026-09-19.tsv",
+      "exists": true,
+      "bytes": 15753,
+      "last_path_commit_date": "2026-09-19",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/SETUPS_ARCHIVE_2026-10-08.tsv",
+      "exists": true,
+      "bytes": 10319,
+      "last_path_commit_date": "2026-10-08",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/SETUPS_CELL_HISTORY_2026-10-08.md",
+      "exists": true,
+      "bytes": 4818,
+      "last_path_commit_date": "2026-10-08",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/SETUPS_OWNER_RECONCILE_HISTORY_2026-09-08.json",
+      "exists": true,
+      "bytes": 17181,
+      "last_path_commit_date": "2026-09-08",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/STATUS_ARCHIVE_2026-08-23.md",
+      "exists": true,
+      "bytes": 150201,
+      "last_path_commit_date": "2026-08-23",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/STATUS_ARCHIVE_2026-08-27.md",
+      "exists": true,
+      "bytes": 38354,
+      "last_path_commit_date": "2026-08-27",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/STATUS_ARCHIVE_2026-09-01.md",
+      "exists": true,
+      "bytes": 66535,
+      "last_path_commit_date": "2026-09-01",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/STATUS_ARCHIVE_2026-09-02.md",
+      "exists": true,
+      "bytes": 30606,
+      "last_path_commit_date": "2026-09-02",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/STATUS_ARCHIVE_2026-09-03.md",
+      "exists": true,
+      "bytes": 11799,
+      "last_path_commit_date": "2026-09-03",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/STATUS_ARCHIVE_2026-09-05.md",
+      "exists": true,
+      "bytes": 8469,
+      "last_path_commit_date": "2026-09-05",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/STATUS_ARCHIVE_2026-09-08.md",
+      "exists": true,
+      "bytes": 22770,
+      "last_path_commit_date": "2026-09-08",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/STATUS_ARCHIVE_2026-09-10.md",
+      "exists": true,
+      "bytes": 12297,
+      "last_path_commit_date": "2026-09-10",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/STATUS_ARCHIVE_2026-09-11.md",
+      "exists": true,
+      "bytes": 10203,
+      "last_path_commit_date": "2026-09-11",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/STATUS_ARCHIVE_2026-09-14.md",
+      "exists": true,
+      "bytes": 15738,
+      "last_path_commit_date": "2026-09-14",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/STATUS_ARCHIVE_2026-09-14b.md",
+      "exists": true,
+      "bytes": 11326,
+      "last_path_commit_date": "2026-09-14",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/STATUS_ARCHIVE_2026-09-14c.md",
+      "exists": true,
+      "bytes": 6276,
+      "last_path_commit_date": "2026-09-14",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/STATUS_ARCHIVE_2026-09-14d.md",
+      "exists": true,
+      "bytes": 5989,
+      "last_path_commit_date": "2026-09-14",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/STATUS_ARCHIVE_2026-09-18.md",
+      "exists": true,
+      "bytes": 26457,
+      "last_path_commit_date": "2026-09-18",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/STATUS_ARCHIVE_2026-09-19.md",
+      "exists": true,
+      "bytes": 12247,
+      "last_path_commit_date": "2026-09-19",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/STATUS_ARCHIVE_2026-09-24.md",
+      "exists": true,
+      "bytes": 24477,
+      "last_path_commit_date": "2026-09-24",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/STATUS_ARCHIVE_2026-09-30.md",
+      "exists": true,
+      "bytes": 9492,
+      "last_path_commit_date": "2026-09-30",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/STATUS_ARCHIVE_2026-10-01.md",
+      "exists": true,
+      "bytes": 7823,
+      "last_path_commit_date": "2026-10-01",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/STATUS_ARCHIVE_2026-10-01b.md",
+      "exists": true,
+      "bytes": 6737,
+      "last_path_commit_date": "2026-10-01",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/STATUS_ARCHIVE_2026-10-07.md",
+      "exists": true,
+      "bytes": 12774,
+      "last_path_commit_date": "2026-10-07",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/STATUS_ARCHIVE_2026-10-08.md",
+      "exists": true,
+      "bytes": 4918,
+      "last_path_commit_date": "2026-10-08",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/STATUS_ARCHIVE_2026-10-08b.md",
+      "exists": true,
+      "bytes": 11981,
+      "last_path_commit_date": "2026-10-08",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/TRADES_JUNE_2026_CANDIDATES_LEGACY.md",
+      "exists": true,
+      "bytes": 11811,
+      "last_path_commit_date": "2026-06-21",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/TRADE_BOOK_ARCHIVE_2026-09-03.md",
+      "exists": true,
+      "bytes": 30641,
+      "last_path_commit_date": "2026-09-03",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/TRADE_BOOK_ARCHIVE_2026-09-14.md",
+      "exists": true,
+      "bytes": 3668,
+      "last_path_commit_date": "2026-09-14",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/TRADE_BOOK_ARCHIVE_2026-09-20.md",
+      "exists": true,
+      "bytes": 11565,
+      "last_path_commit_date": "2026-09-20",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/archive/TRADE_BOOK_ARCHIVE_2026-10-08.md",
+      "exists": true,
+      "bytes": 9651,
+      "last_path_commit_date": "2026-10-08",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/board_log.tsv",
+      "exists": true,
+      "bytes": 44858,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/charts/.gitkeep",
+      "exists": true,
+      "bytes": 0,
+      "last_path_commit_date": "2026-06-20",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/daytrading/JOURNAL.md",
+      "exists": true,
+      "bytes": 24900,
+      "last_path_commit_date": "2026-08-04",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/daytrading/LEDGER.tsv",
+      "exists": true,
+      "bytes": 6732,
+      "last_path_commit_date": "2026-10-08",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/daytrading/PROFILE.md",
+      "exists": true,
+      "bytes": 13467,
+      "last_path_commit_date": "2026-08-04",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/daytrading/QQQ_DESK_CARD.md",
+      "exists": true,
+      "bytes": 7318,
+      "last_path_commit_date": "2026-08-04",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/daytrading/README.md",
+      "exists": true,
+      "bytes": 2821,
+      "last_path_commit_date": "2026-06-27",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/grade_config.json",
+      "exists": true,
+      "bytes": 10656,
+      "last_path_commit_date": "2026-06-27",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/.gitkeep",
+      "exists": true,
+      "bytes": 0,
+      "last_path_commit_date": "2026-06-20",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/2026-10-12_from-DEWEY_diesel-evidence-checkpoint.md",
+      "exists": true,
+      "bytes": 644,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/2026-07-23_signal-decay-reconfirm-verdicts-4-rows.md",
+      "exists": true,
+      "bytes": 2945,
+      "last_path_commit_date": "2026-07-26",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/2026-09-11-NOTE-your-case-is-HELD-not-applied-and-I-want-your-word.md",
+      "exists": true,
+      "bytes": 2790,
+      "last_path_commit_date": "2026-09-14",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260627-002.md",
+      "exists": true,
+      "bytes": 992,
+      "last_path_commit_date": "2026-07-10",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260628-004.md",
+      "exists": true,
+      "bytes": 514,
+      "last_path_commit_date": "2026-07-10",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260628-008.md",
+      "exists": true,
+      "bytes": 445,
+      "last_path_commit_date": "2026-07-10",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260628-009.md",
+      "exists": true,
+      "bytes": 375,
+      "last_path_commit_date": "2026-07-10",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260628-010.md",
+      "exists": true,
+      "bytes": 375,
+      "last_path_commit_date": "2026-07-10",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260702-001.md",
+      "exists": true,
+      "bytes": 1133,
+      "last_path_commit_date": "2026-07-10",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260710-006.md",
+      "exists": true,
+      "bytes": 736,
+      "last_path_commit_date": "2026-07-16",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260719-009.md",
+      "exists": true,
+      "bytes": 987,
+      "last_path_commit_date": "2026-07-20",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260725-006.md",
+      "exists": true,
+      "bytes": 1533,
+      "last_path_commit_date": "2026-07-26",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260725-008.md",
+      "exists": true,
+      "bytes": 1917,
+      "last_path_commit_date": "2026-07-26",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260725-015.md",
+      "exists": true,
+      "bytes": 1449,
+      "last_path_commit_date": "2026-07-26",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260727-001.md",
+      "exists": true,
+      "bytes": 3826,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260727-012.md",
+      "exists": true,
+      "bytes": 6354,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260727-013.md",
+      "exists": true,
+      "bytes": 6135,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260727-014.md",
+      "exists": true,
+      "bytes": 6031,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260727-015.md",
+      "exists": true,
+      "bytes": 9120,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260727-020.md",
+      "exists": true,
+      "bytes": 2969,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260727-023.md",
+      "exists": true,
+      "bytes": 3871,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260727-025-CORRECTION.md",
+      "exists": true,
+      "bytes": 3582,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260727-025.md",
+      "exists": true,
+      "bytes": 4172,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260727-027.md",
+      "exists": true,
+      "bytes": 2374,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260728-002-nvidia-openai-guarantee-semi-derate-oracle-cds-record.md",
+      "exists": true,
+      "bytes": 5754,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260728-013-pause-broken-irgc-missiles-us-base.md",
+      "exists": true,
+      "bytes": 1422,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260730-001-us-resumes-heavy-wave-irgc-targets.md",
+      "exists": true,
+      "bytes": 1535,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260730-004-drone-us-fsru-damietta-first-med-strike.md",
+      "exists": true,
+      "bytes": 1533,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260731-009-irgc-tanker-claim-no-card-action.md",
+      "exists": true,
+      "bytes": 1181,
+      "last_path_commit_date": "2026-08-03",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260802-001-exchange-paused-on-claimed-deal-parameters.md",
+      "exists": true,
+      "bytes": 1773,
+      "last_path_commit_date": "2026-08-03",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260802-005-us-treasury-bought-yen-friday-ny-fed-sold-euros.md",
+      "exists": true,
+      "bytes": 1063,
+      "last_path_commit_date": "2026-08-03",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260802-006-tehran-denies-deal-parameters-interceptor-restock.md",
+      "exists": true,
+      "bytes": 1226,
+      "last_path_commit_date": "2026-08-03",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260802-007-sunday-reopen-oil-gap-behavioral-test.md",
+      "exists": true,
+      "bytes": 1265,
+      "last_path_commit_date": "2026-08-03",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260802-009-gap-hitting-fresh-crowded-long.md",
+      "exists": true,
+      "bytes": 958,
+      "last_path_commit_date": "2026-08-03",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260802-010-pause-is-strikes-only-ukmto-incidents-mou-revival.md",
+      "exists": true,
+      "bytes": 1446,
+      "last_path_commit_date": "2026-08-03",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260802-011-bessent-official-confirmation-fima-upsizing.md",
+      "exists": true,
+      "bytes": 1244,
+      "last_path_commit_date": "2026-08-03",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260803-001-trump-says-talks-today-iran-says-they-dont-exist-and-oil-prices-the-deal-anyway.md",
+      "exists": true,
+      "bytes": 851,
+      "last_path_commit_date": "2026-08-04",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260803-002-correction-the-7455-7491-gamma-band-is-retired-and-my-own-signal-called-it-live.md",
+      "exists": true,
+      "bytes": 1043,
+      "last_path_commit_date": "2026-08-04",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260803-005-velos-amber-resolved-attacked-inside-the-us-designated-corridor-a-branch-i-did-not-register.md",
+      "exists": true,
+      "bytes": 1609,
+      "last_path_commit_date": "2026-08-04",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260807-002-first-confirmed-sinking-of-the-campaign-wrong-sea-plus-a-14-nation-coalition-nobody-in-the-fleet-has.md",
+      "exists": true,
+      "bytes": 3511,
+      "last_path_commit_date": "2026-08-13",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260811-002-N5-futures-bar-capture-time-fleet-rule-five-clauses-ratified-never-quote-a-bar-as-a-close.md",
+      "exists": true,
+      "bytes": 12338,
+      "last_path_commit_date": "2026-08-13",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260813-002-price-source-intermittent-null-bars.md",
+      "exists": true,
+      "bytes": 2924,
+      "last_path_commit_date": "2026-08-18",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260817-005-30y-closed-531-highest-in-19-years-and-the-wires-name-ai-capex-borrowing-as-a-long-end-driver-which-no-fleet-surface-holds.md",
+      "exists": true,
+      "bytes": 9432,
+      "last_path_commit_date": "2026-08-18",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260818-001-the-60-day-us-iran-mou-expired-8-17-no-deal-falcons-regime-d-mou-collapse-line-now-has-two-legs-and-crude-cleared-the-8-11-settle.md",
+      "exists": true,
+      "bytes": 10607,
+      "last_path_commit_date": "2026-08-18",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260818-002-four-instruments-give-0-3-and-12-hormuz-transits-for-the-same-day-and-the-one-the-zero-narrative-rests-on-is-9-days-stale-ais-only-and-self-impeaching.md",
+      "exists": true,
+      "bytes": 11963,
+      "last_path_commit_date": "2026-08-18",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260818-003-correction-the-20y-auction-is-wed-8-19-not-thu-8-20-and-the-thursday-date-was-my-japan-row-fused-onto-a-us-instrument.md",
+      "exists": true,
+      "bytes": 7371,
+      "last_path_commit_date": "2026-08-18",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260819-002-the-record-diesel-crack-is-real-and-is-already-2-84-off-it-and-the-gasoline-crack-collapsed-10-40-the-same-session.md",
+      "exists": true,
+      "bytes": 10831,
+      "last_path_commit_date": "2026-08-19",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260819-003-a-fifth-hormuz-transit-instrument-appears-bloomberg-ecan-hormuz-reads-zero-and-it-is-the-first-one-with-a-full-daily-history.md",
+      "exists": true,
+      "bytes": 9355,
+      "last_path_commit_date": "2026-08-19",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260819-004-the-long-end-is-repricing-globally-not-just-in-the-us-and-the-3-3-percent-interest-burden-headline-drops-the-word-net.md",
+      "exists": true,
+      "bytes": 9458,
+      "last_path_commit_date": "2026-08-19",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260819-009-the-30y-hit-5-31-a-19-year-high-verified-at-fred-and-my-own-004-forty-minutes-ago-dated-the-board-wrong-it-is-8-17-not-8-18.md",
+      "exists": true,
+      "bytes": 9424,
+      "last_path_commit_date": "2026-08-19",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260819-011-a-sixth-hormuz-reading-six-crossings-tuesday-and-the-instrument-that-said-zero-for-monday-is-the-one-the-narrative-rests-on.md",
+      "exists": true,
+      "bytes": 7151,
+      "last_path_commit_date": "2026-08-19",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260819-014-the-diesel-crack-has-now-given-back-5-08-from-mondays-record-in-two-sessions-and-the-give-back-is-accelerating.md",
+      "exists": true,
+      "bytes": 6018,
+      "last_path_commit_date": "2026-08-19",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260819-015-treasury-doubled-long-end-buybacks-this-morning-and-both-of-the-books-duration-short-legs-are-being-hurt-by-it-right-now.md",
+      "exists": true,
+      "bytes": 9206,
+      "last_path_commit_date": "2026-08-19",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260819-030-the-treasury-buyback-primary-is-now-IN-HAND-and-it-calls-itself-liquidity-support-while-el-erian-calls-it-YCC-and-the-curve-move-is-monotonic-by-maturity.md",
+      "exists": true,
+      "bytes": 1753,
+      "last_path_commit_date": "2026-08-19",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260820-003-the-buyback-intervention-did-not-fail-because-it-has-not-started-9-sep-and-what-round-tripped-in-24h-is-an-announcement-effect-on-a-program-that-has-bought-nothing.md",
+      "exists": true,
+      "bytes": 4788,
+      "last_path_commit_date": "2026-08-20",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260822-002-CORRECTION-my-highest-since-2007-kill-was-INVERTED-the-superlative-is-TRUE.md",
+      "exists": true,
+      "bytes": 1663,
+      "last_path_commit_date": "2026-08-27",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260822-002-the-30y-has-exactly-round-tripped-the-treasury-buyback-announcement-in-48h-and-it-confirms-the-announcement-had-no-flow-behind-it.md",
+      "exists": true,
+      "bytes": 915,
+      "last_path_commit_date": "2026-08-23",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WALTER/processed/SIG-W-20260914-015-CORRECTION-NOTE.md",
+      "exists": true,
+      "bytes": 2479,
+      "last_path_commit_date": "2026-09-18",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WILL/.gitkeep",
+      "exists": true,
+      "bytes": 0,
+      "last_path_commit_date": "2026-06-27",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WILL/README.md",
+      "exists": true,
+      "bytes": 1569,
+      "last_path_commit_date": "2026-06-27",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/.gitkeep",
+      "exists": true,
+      "bytes": 0,
+      "last_path_commit_date": "2026-06-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-01_from-PROME_firetime-freshness-check.md",
+      "exists": true,
+      "bytes": 2144,
+      "last_path_commit_date": "2026-07-16",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-03_from-DAEDALUS_utility-firming-sweepAB-pat031-drift.md",
+      "exists": true,
+      "bytes": 2576,
+      "last_path_commit_date": "2026-07-17",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-06_from-PROME_duration-firecard-prebuild.md",
+      "exists": true,
+      "bytes": 4325,
+      "last_path_commit_date": "2026-07-09",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-09_from-PROME_hban-oct16p-thesis-stub.md",
+      "exists": true,
+      "bytes": 1576,
+      "last_path_commit_date": "2026-07-16",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-16_from-PROME_may-tic-arm3-grade.md",
+      "exists": true,
+      "bytes": 681,
+      "last_path_commit_date": "2026-07-17",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-17_from-PROME_kharg-strand-tail-card-prebuild.md",
+      "exists": true,
+      "bytes": 4392,
+      "last_path_commit_date": "2026-07-17",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-18_from-PROME_hban-exit-and-kharg-confirm.md",
+      "exists": true,
+      "bytes": 1478,
+      "last_path_commit_date": "2026-07-20",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-19_from-PROME_paper-book-build-ready.md",
+      "exists": true,
+      "bytes": 2673,
+      "last_path_commit_date": "2026-07-20",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-19_from-PROME_tlt-put-live-entry-read.md",
+      "exists": true,
+      "bytes": 3634,
+      "last_path_commit_date": "2026-07-20",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-20_from-DEWEY_mechanical-selling-stack.md",
+      "exists": true,
+      "bytes": 991,
+      "last_path_commit_date": "2026-07-21",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-20_from-PROME_broker-export-reconciled-monday-spine.md",
+      "exists": true,
+      "bytes": 3122,
+      "last_path_commit_date": "2026-07-20",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-20_from-PROME_desk-dashboard-v2-suggestions.md",
+      "exists": true,
+      "bytes": 3199,
+      "last_path_commit_date": "2026-07-20",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-20_from-PROME_entrybasis-spec-ruled.md",
+      "exists": true,
+      "bytes": 2198,
+      "last_path_commit_date": "2026-07-20",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-21_from-BRENT_diesel-expression-scope-request.md",
+      "exists": true,
+      "bytes": 2363,
+      "last_path_commit_date": "2026-07-26",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-21_from-DEWEY-via-WALTER-BACKSTOP_mechanical-selling-stack.md",
+      "exists": true,
+      "bytes": 1632,
+      "last_path_commit_date": "2026-07-26",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-21_from-PROME_vio116-reopen-fired-004-adequacy.md",
+      "exists": true,
+      "bytes": 1797,
+      "last_path_commit_date": "2026-07-21",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-21_from-PROME_wal-grind-adjudication-pointer.md",
+      "exists": true,
+      "bytes": 1493,
+      "last_path_commit_date": "2026-07-24",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-21_from-PROME_wal-stage1-grind-card-outcome.md",
+      "exists": true,
+      "bytes": 1439,
+      "last_path_commit_date": "2026-07-24",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-23_from-AEOLUS-via-PROME_aeo03-soft-reinsurance-q4-radar.md",
+      "exists": true,
+      "bytes": 1145,
+      "last_path_commit_date": "2026-07-24",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-24_from-BRENT-via-PROME_uso-tail-rider-shape-ask.md",
+      "exists": true,
+      "bytes": 3290,
+      "last_path_commit_date": "2026-07-24",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-24_from-CARL_paper-sleeve-adopts-your-rules-adjacent-ledger.md",
+      "exists": true,
+      "bytes": 4588,
+      "last_path_commit_date": "2026-07-26",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-24_from-HOMER_servicer-bond-quote-tooling-ask.md",
+      "exists": true,
+      "bytes": 2658,
+      "last_path_commit_date": "2026-07-26",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-24_from-PROME_coordination-note-rebase-in-flight-and-tail-rider-endorse.md",
+      "exists": true,
+      "bytes": 3052,
+      "last_path_commit_date": "2026-07-24",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-25_from-DAEDALUS_wal-grind-card-owner-is-now-WAL-agent.md",
+      "exists": true,
+      "bytes": 1341,
+      "last_path_commit_date": "2026-07-26",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-25_from-PROME_cpi-dates-corrected-004-card-refs.md",
+      "exists": true,
+      "bytes": 1649,
+      "last_path_commit_date": "2026-07-26",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-25_from-PROME_uso-tail-rider-filled-outcome.md",
+      "exists": true,
+      "bytes": 1803,
+      "last_path_commit_date": "2026-07-26",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-25_from-VIOLET_CONSTRUCTION-REQ-prefomc-vix-call-spread-will-approved-build.md",
+      "exists": true,
+      "bytes": 4771,
+      "last_path_commit_date": "2026-07-26",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-27_from-PROME_RATIFIED-rule6-break-test-and-collision-flagged-in-root.md",
+      "exists": true,
+      "bytes": 3768,
+      "last_path_commit_date": "2026-07-29",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-27_from-PROME_VIXCS-FILLED-at-your-limit-loop-closed.md",
+      "exists": true,
+      "bytes": 4810,
+      "last_path_commit_date": "2026-07-29",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-27_from-VIOLET_THESIS-REGRADE-conditional-go-two-inputs-for-your-pricing.md",
+      "exists": true,
+      "bytes": 4003,
+      "last_path_commit_date": "2026-07-29",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-28_from-DEWEY_RETRACTION-the-vix-overpay-claim-is-unsourced-do-not-promote-it.md",
+      "exists": true,
+      "bytes": 5334,
+      "last_path_commit_date": "2026-07-29",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-28_from-NEXUS_fleet-effective-n-answer.md",
+      "exists": true,
+      "bytes": 2983,
+      "last_path_commit_date": "2026-07-29",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-28_from-PROME_your-surfaces-carry-the-retired-7496-line-enumeration.md",
+      "exists": true,
+      "bytes": 2004,
+      "last_path_commit_date": "2026-07-29",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-28_from-VIOLET_KB-VIO-110-answer-restore-counter-case-8-plus-the-iii-re-base.md",
+      "exists": true,
+      "bytes": 5795,
+      "last_path_commit_date": "2026-07-29",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-30_from-BRENT_grader-split-CONFIRMED-your-3-week-refinement-ADOPTED-and-the-clean-deescalation-test-you-asked-for.md",
+      "exists": true,
+      "bytes": 4818,
+      "last_path_commit_date": "2026-08-03",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-30_from-BRENT_russia-diesel-ban-base-case-flips-to-LAPSE-before-you-quote-those-structures.md",
+      "exists": true,
+      "bytes": 5293,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-30_from-DAEDALUS_architecture-audit-7-findings-plus-one-against-my-own-instrument.md",
+      "exists": true,
+      "bytes": 7112,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-30_from-DAEDALUS_paper-book-scoring-gate-design-affirmed-one-note.md",
+      "exists": true,
+      "bytes": 3645,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-30_from-LIQUID_hy-attribution-broad-DM-beta-not-banks-not-AI-led-plus-your-watch-DID-fire.md",
+      "exists": true,
+      "bytes": 7728,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-30_from-PROME_parser-breaks-on-forge-restructure-fix-before-refresh.md",
+      "exists": true,
+      "bytes": 2522,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-30_from-PROME_qqq-put-SOLD-not-auto-exercise-and-your-680-strike-was-right.md",
+      "exists": true,
+      "bytes": 1207,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-30_from-PROME_row61-corrections-ADOPTED-profit-territory-was-an-inference.md",
+      "exists": true,
+      "bytes": 3877,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-30_from-REGINALD_bank-side-attribution-BANK-ABSENT-plus-ratio-ruling.md",
+      "exists": true,
+      "bytes": 8068,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-30_from-REGINALD_closing-figures-supersede-the-intraday-set-you-adopted.md",
+      "exists": true,
+      "bytes": 2827,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-30_from-VIOLET_PREOPEN-UPDATE-the-strength-i-told-you-to-sell-into-is-gone.md",
+      "exists": true,
+      "bytes": 5970,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-30_from-VIOLET_VIXCS-exit-morning-brief.md",
+      "exists": true,
+      "bytes": 17555,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-30_from-VIOLET_beta-derived-independently-your-028-was-the-right-number-for-the-wrong-tenor.md",
+      "exists": true,
+      "bytes": 5369,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-30_from-VIOLET_vehicle-selection-scoping.md",
+      "exists": true,
+      "bytes": 5642,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-30_from-VIOLET_your-unestablished-fill-time-is-established-the-0940-export-still-holds-both-legs.md",
+      "exists": true,
+      "bytes": 3132,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-31_from-DAEDALUS_S1-enforcer-fix-shipped-one-file-to-place.md",
+      "exists": true,
+      "bytes": 3987,
+      "last_path_commit_date": "2026-08-04",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-31_from-PROME_no-harvest-rule-ADOPTED-fleet-wide.md",
+      "exists": true,
+      "bytes": 1453,
+      "last_path_commit_date": "2026-08-03",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-07-31_from-PROME_phase2-embed-packet.md",
+      "exists": true,
+      "bytes": 5909,
+      "last_path_commit_date": "2026-08-04",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-02_from-PROME_jpy-tool-false-read-guard-and-intervention-vol-surface-note.md",
+      "exists": true,
+      "bytes": 6041,
+      "last_path_commit_date": "2026-08-03",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-02_from-PROME_monday-supplement-qqq687-exit-pb0002-regrade-daytrading-series.md",
+      "exists": true,
+      "bytes": 3296,
+      "last_path_commit_date": "2026-08-03",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-02_from-PROME_try-fire-005-remark-monday-sam30-disposition.md",
+      "exists": true,
+      "bytes": 2514,
+      "last_path_commit_date": "2026-08-03",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-03_from-AEOLUS_reinsurance-landfall-tail-stage-the-card.md",
+      "exists": true,
+      "bytes": 4189,
+      "last_path_commit_date": "2026-08-04",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-03_from-DAEDALUS_uncommitted-1517-mark-run-in-PAPER_BOOK-and-nobody-owns-it.md",
+      "exists": true,
+      "bytes": 3750,
+      "last_path_commit_date": "2026-08-04",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-03_from-NEXUS_root-count-for-007-it-is-not-a-hedge-against-break.md",
+      "exists": true,
+      "bytes": 4663,
+      "last_path_commit_date": "2026-08-04",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-03_from-PROME_CORRECTION-my-leg-b-number-was-the-WRONG-TENOR-eligible-tenor-is-marginal.md",
+      "exists": true,
+      "bytes": 3676,
+      "last_path_commit_date": "2026-08-04",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-03_from-PROME_LEG-B-PRICED-plus-WILL-RULINGS-tenor-oct16-only-size-300.md",
+      "exists": true,
+      "bytes": 10888,
+      "last_path_commit_date": "2026-08-04",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-03_from-PROME_oil-vehicle-measured-leg-b-passes-on-uso-with-room-bno-fails.md",
+      "exists": true,
+      "bytes": 3914,
+      "last_path_commit_date": "2026-08-04",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-03_from-SAM_BLOCKER-ANSWERED-boj-decision-is-pre-open-plus-two-flags-you-should-own.md",
+      "exists": true,
+      "bytes": 6252,
+      "last_path_commit_date": "2026-08-04",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-03_from-SAM_try-fire-005-tenor-and-convexity-character.md",
+      "exists": true,
+      "bytes": 7991,
+      "last_path_commit_date": "2026-08-03",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-04_from-BRENT_ACTION-price-leg-b-first-thing-leg-a-FIRED-on-the-8-3-close.md",
+      "exists": true,
+      "bytes": 6882,
+      "last_path_commit_date": "2026-08-04",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-04_from-BRENT_CORRECTION-my-M1-M3-figure-was-wrong-your-card-cites-it-twice-including-a-kill-line.md",
+      "exists": true,
+      "bytes": 4525,
+      "last_path_commit_date": "2026-08-04",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-04_from-BRENT_DEPLOY-GATE-v3-RATIFIED-plus-your-1615-is-wrong-OVX-stops-at-1600.md",
+      "exists": true,
+      "bytes": 6337,
+      "last_path_commit_date": "2026-08-04",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-04_from-BRENT_RULING-limit-construction-ENDORSED-set-limit-150-not-165-size-ruling-breach.md",
+      "exists": true,
+      "bytes": 7486,
+      "last_path_commit_date": "2026-08-04",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-04_from-BRENT_RULINGS-1-and-2-leg-b-is-a-floor-not-a-ranking-and-rebuild-to-125-130-x2.md",
+      "exists": true,
+      "bytes": 7249,
+      "last_path_commit_date": "2026-08-04",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-04_from-PROME_D1-OZK-salvage-RULED-RIDE-by-will.md",
+      "exists": true,
+      "bytes": 2936,
+      "last_path_commit_date": "2026-08-07",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-04_from-PROME_clock-skew-ADOPTED-routed-to-daedalus-blueprint-plus-canon-one-liner-queued.md",
+      "exists": true,
+      "bytes": 1572,
+      "last_path_commit_date": "2026-08-07",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-04_from-PROME_reshape-is-less-blocked-than-your-status-says-4-of-5-legs-have-broker-truth.md",
+      "exists": true,
+      "bytes": 3219,
+      "last_path_commit_date": "2026-08-07",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-04_from-SAM_ANSWER-sep-mpm-decision-is-public-10h-before-the-9-18-cash-open.md",
+      "exists": true,
+      "bytes": 3527,
+      "last_path_commit_date": "2026-08-07",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-04_from-SAM_CONCUR-on-the-size-cut-here-is-the-measurement-and-the-tension-it-creates-in-my-own-book.md",
+      "exists": true,
+      "bytes": 7592,
+      "last_path_commit_date": "2026-08-04",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-05_BRENT-to-TERRY_stage-a-legT-v6-execution-rail-changed.md",
+      "exists": true,
+      "bytes": 3589,
+      "last_path_commit_date": "2026-08-07",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-06_from-will-review_risk-rules-119-grade-count.md",
+      "exists": true,
+      "bytes": 1176,
+      "last_path_commit_date": "2026-08-07",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-07_from-DAEDALUS_banner-recognizer-v4-SHIPPED-your-reproduction-validated-it.md",
+      "exists": true,
+      "bytes": 2832,
+      "last_path_commit_date": "2026-08-07",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-07_from-NEXUS_your-one-vote-challenge-is-CORRECT-antecedents-not-separable.md",
+      "exists": true,
+      "bytes": 1436,
+      "last_path_commit_date": "2026-08-13",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-07_from-PROME_routing-disposition-CONFIRMED.md",
+      "exists": true,
+      "bytes": 963,
+      "last_path_commit_date": "2026-08-13",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-07_from-SAM_RESOLVER-COMPLETE-DE-LOAD-leg1-fired-STAND-DOWN-007.md",
+      "exists": true,
+      "bytes": 6319,
+      "last_path_commit_date": "2026-08-07",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-07_from-SAM_cftc-resolver-PREFILLED-fuel-slot-open.md",
+      "exists": true,
+      "bytes": 12130,
+      "last_path_commit_date": "2026-08-07",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-11_from-PROME_forum4-close-sizing-evidence-plus-size-asymmetry-rule.md",
+      "exists": true,
+      "bytes": 1296,
+      "last_path_commit_date": "2026-08-13",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-11_from-PROME_rows-35a-35b-ruled-consumption-note.md",
+      "exists": true,
+      "bytes": 724,
+      "last_path_commit_date": "2026-08-13",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-12_from-AEOLUS_vehicle-call-STAND-DOWN-trigger-fired-backwards-RNR-pre-registered.md",
+      "exists": true,
+      "bytes": 5572,
+      "last_path_commit_date": "2026-08-13",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-14_from-BRENT_URGENT-fuel-spent-UN-FIRED-fuller-size-branch-is-OFF.md",
+      "exists": true,
+      "bytes": 4982,
+      "last_path_commit_date": "2026-08-18",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-14_from-BRENT_uso-concentration-arithmetic-my-half-done-sizing-half-is-yours.md",
+      "exists": true,
+      "bytes": 6297,
+      "last_path_commit_date": "2026-08-18",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-16_from-PROME_stale-pointer-flow-trigger-card.md",
+      "exists": true,
+      "bytes": 1167,
+      "last_path_commit_date": "2026-08-18",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-19_from-PROME_LAUNCH-BRIEF-004-rulings-B-and-C-WILL-RULED-plus-arm3-contradiction.md",
+      "exists": true,
+      "bytes": 7202,
+      "last_path_commit_date": "2026-08-19",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-20_from-BOND_60DTE-review-on-004-is-19-days-overdue-sb0607-covers-half-its-remaining-life.md",
+      "exists": true,
+      "bytes": 2293,
+      "last_path_commit_date": "2026-08-20",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-20_from-BRENT_the-diesel-crack-giveback-you-were-quoted-is-a-basis-artifact-crack-is-at-its-record.md",
+      "exists": true,
+      "bytes": 4871,
+      "last_path_commit_date": "2026-08-23",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-20_from-PROME_VLY-operational-branch-RULED-let-it-die-will-verbatim-word.md",
+      "exists": true,
+      "bytes": 1703,
+      "last_path_commit_date": "2026-08-20",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-20_from-RED_try-fire-006-archive-note-premise-was-ungraded-not-refuted.md",
+      "exists": true,
+      "bytes": 1266,
+      "last_path_commit_date": "2026-08-20",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-20_from-REGINALD_mechanism-ask-answered-NULL-it-sorts-on-nothing-plus-002-premise.md",
+      "exists": true,
+      "bytes": 11977,
+      "last_path_commit_date": "2026-08-20",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-20b_from-REGINALD_the-convergence-scores-you-cited-are-dead-and-the-ranking-inverted.md",
+      "exists": true,
+      "bytes": 4052,
+      "last_path_commit_date": "2026-08-20",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-21_from-BRENT_CORRECTION-B1-base-rated-and-REFUTED-as-a-trigger.md",
+      "exists": true,
+      "bytes": 3677,
+      "last_path_commit_date": "2026-08-23",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-21_from-BRENT_COT-vintage2-GRADED-joint-NO-VERDICT-sizing-unchanged-but-the-legs-now-oppose.md",
+      "exists": true,
+      "bytes": 3569,
+      "last_path_commit_date": "2026-08-23",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-21_from-BRENT_WILL-RULED-hold-the-second-135C-plus-a-TENOR-SCOPE-ruling-you-owe-a-mirror.md",
+      "exists": true,
+      "bytes": 4089,
+      "last_path_commit_date": "2026-08-23",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-21_from-BRENT_row58-thesis-break-observable-for-the-linear-shares-leg.md",
+      "exists": true,
+      "bytes": 4279,
+      "last_path_commit_date": "2026-08-23",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-21_from-DAEDALUS_YEY-004-status-cap-declare-and-archive-588-lines-240KB-fleet-largest.md",
+      "exists": true,
+      "bytes": 3229,
+      "last_path_commit_date": "2026-08-23",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-21_from-PROME_004-60DTE-review-was-RULED-8-20-let-it-run-consume-and-encode-review-closed.md",
+      "exists": true,
+      "bytes": 2665,
+      "last_path_commit_date": "2026-08-23",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-21_from-PROME_TRY-FIRE-001-RULED-retire-preserve-premise-rebuild-respec-unblocked.md",
+      "exists": true,
+      "bytes": 2108,
+      "last_path_commit_date": "2026-08-23",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-21_from-PROME_row58-RULED-build-the-USO-shares-exit-condition-proposal-on-live-marks.md",
+      "exists": true,
+      "bytes": 1869,
+      "last_path_commit_date": "2026-08-23",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-23_from-PROME_your-four-carried-Will-items-do-not-resolve-state-them-so-they-can-be-registered.md",
+      "exists": true,
+      "bytes": 4293,
+      "last_path_commit_date": "2026-08-27",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-26_from-WALTER_the-3-5-5-falsifier-fired-and-the-revert-is-executed-you-are-red-class-exempt.md",
+      "exists": true,
+      "bytes": 3487,
+      "last_path_commit_date": "2026-08-27",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-27_from-BRENT_basis-RULED-cal30d-control-RULED-XLE-no-threshold-nominated.md",
+      "exists": true,
+      "bytes": 6183,
+      "last_path_commit_date": "2026-08-27",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-27_from-BRENT_concur-both-corrections-yield-delivered-VLO-holds-debit-spread-ruled-DEFINED.md",
+      "exists": true,
+      "bytes": 7920,
+      "last_path_commit_date": "2026-08-27",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-27_from-BRENT_construction-ask-refiner-add-VLO-or-MPC-to-express-the-strong-leg-Will-directed.md",
+      "exists": true,
+      "bytes": 7538,
+      "last_path_commit_date": "2026-08-27",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-27_from-BRENT_no-thesis-break-instrument-at-defensible-base-rate-TODAY-plus-8-27-tape-context.md",
+      "exists": true,
+      "bytes": 6756,
+      "last_path_commit_date": "2026-08-27",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-27_from-BRENT_state-corrections-accepted-cobuild-methodology-confirmed.md",
+      "exists": true,
+      "bytes": 8897,
+      "last_path_commit_date": "2026-08-27",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-27_from-BRENT_war-start-CONFIRMED-2026-02-27-anchor-pointer-defect-owned.md",
+      "exists": true,
+      "bytes": 6256,
+      "last_path_commit_date": "2026-08-27",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-27_from-RED_FT-11-amended-pre-data-rationale-repaired-false-negative-channel-disclosed-your-UNDETERMINED-still-honored.md",
+      "exists": true,
+      "bytes": 2187,
+      "last_path_commit_date": "2026-09-01",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-27_from-RED_FT-11-buyback-attribution-classifier-registered-your-instruments-my-rule-tell-me-if-the-legs-are-wrong.md",
+      "exists": true,
+      "bytes": 7750,
+      "last_path_commit_date": "2026-09-01",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-27_from-REGINALD_WAL-EGBN-Q3-dates-a-DATED-NO-not-a-search-failure-plus-when-the-real-answer-arrives.md",
+      "exists": true,
+      "bytes": 6048,
+      "last_path_commit_date": "2026-09-01",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-27_from-SAM_the-owed-branch-yen-strengthens-BOJ-does-nothing-plus-exit-rule.md",
+      "exists": true,
+      "bytes": 5892,
+      "last_path_commit_date": "2026-08-27",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-27_from-VIOLET_beta-0274-was-a-bucketing-bug-canonical-500-tenor-gradient-survives.md",
+      "exists": true,
+      "bytes": 6160,
+      "last_path_commit_date": "2026-09-01",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-27_to-RED_FT-11-leg-choice-stands-but-the-reason-needs-repair-and-the-classifier-may-be-aimed-at-the-wrong-object.md",
+      "exists": true,
+      "bytes": 8660,
+      "last_path_commit_date": "2026-09-01",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-28_from-DAEDALUS_P1-read-cap-RULED-your-boot-reads-measured-4-over-budget-2-over-cap.md",
+      "exists": true,
+      "bytes": 3028,
+      "last_path_commit_date": "2026-09-01",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-28_from-DAEDALUS_boot-anti-rot-flag-silent-on-rich-status-vocabulary.md",
+      "exists": true,
+      "bytes": 1958,
+      "last_path_commit_date": "2026-09-01",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-28_from-HANS_bund-15yr-high-term-premium-is-european.md",
+      "exists": true,
+      "bytes": 3415,
+      "last_path_commit_date": "2026-09-01",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-28_from-PROME_GATE-007-registry-re-synced-from-your-8-27-grade-8-26-and-8-27-officials-now-published-your-grade-owed.md",
+      "exists": true,
+      "bytes": 2025,
+      "last_path_commit_date": "2026-09-01",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-08-29_from-PROME_two-lines-added-to-RISK_RULES-option-checklist-WQ-130.md",
+      "exists": true,
+      "bytes": 1044,
+      "last_path_commit_date": "2026-09-01",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-01_from-CARL_TRY-FIRE-002-premise-input-PREMISE-WEAKENED-keep-dormant-and-here-is-the-un-maskable-tell-that-is-not-firing.md",
+      "exists": true,
+      "bytes": 5523,
+      "last_path_commit_date": "2026-09-02",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-01_from-DAEDALUS_PR5-L5-is-one-line-away-POSTMORTEMS-4-header-contradicts-its-own-entries-plus-the-risk-unit.md",
+      "exists": true,
+      "bytes": 1755,
+      "last_path_commit_date": "2026-09-02",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-01b_from-PROME_WQ-99-cc-the-OLD-definition-governs-BONDs-TLT-add-re-arm-you-are-in-the-loop-for-any-harmonization.md",
+      "exists": true,
+      "bytes": 819,
+      "last_path_commit_date": "2026-09-01",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-01c_from-PROME_WQ-144-and-145-APPROVED-WAL-roll-card-live-USO-135C-terms-A-B-C-adopted.md",
+      "exists": true,
+      "bytes": 1758,
+      "last_path_commit_date": "2026-09-02",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-02_from-PROME_FILLS-WAL-Dec18-70P-2.20-Robinhood-and-USO-135C-one-sold-record-on-your-cards.md",
+      "exists": true,
+      "bytes": 1377,
+      "last_path_commit_date": "2026-09-02",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-03_from-PROME_WQ-168-RULED-expiry-pass-APPROVED-all-seven-rows-as-recommended.md",
+      "exists": true,
+      "bytes": 2266,
+      "last_path_commit_date": "2026-09-03",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-03_from-PROME_expiry-pass-Sep-18-Sep-30-one-card-per-line-plus-007-owner-grade-plus-UNKNOWN-mirrors.md",
+      "exists": true,
+      "bytes": 4497,
+      "last_path_commit_date": "2026-09-03",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-03_from-PROME_open-items-inventory-what-is-still-open-pending-owed-broken-blocked.md",
+      "exists": true,
+      "bytes": 3884,
+      "last_path_commit_date": "2026-09-03",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-04_from-PROME_DOCKET-L115-VIXCS-exit-evaluation-30d-PENDING-grade-by-9-11-or-it-tombstones-plus-your-leg-1-packet-is-waiting.md",
+      "exists": true,
+      "bytes": 2149,
+      "last_path_commit_date": "2026-09-05",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-04_from-PROME_WQ-176-leg-1-CONFIRM-the-400B-condition-summary-for-OP-SCALE-01-TERRY-007-TERRY-ROLL70-TERRY-USO135C.md",
+      "exists": true,
+      "bytes": 3235,
+      "last_path_commit_date": "2026-09-05",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-05_from-DAEDALUS_PROMOTED-L4-to-L5-plus-your-sweep-says-CLEAN-with-two-reds-above-it.md",
+      "exists": true,
+      "bytes": 2698,
+      "last_path_commit_date": "2026-09-05",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-06_from-PROME_cheap-tail-4-of-4-OPEN-caveat-VIOLET-run-time-SKEW-read-is-the-yfinance-mirror-until-fixed.md",
+      "exists": true,
+      "bytes": 2502,
+      "last_path_commit_date": "2026-09-08",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-08_from-BRENT_owner-market-catchup.md",
+      "exists": true,
+      "bytes": 1224,
+      "last_path_commit_date": "2026-09-09",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-08_from-PROME_orchestration-position-review.md",
+      "exists": true,
+      "bytes": 1226,
+      "last_path_commit_date": "2026-09-08",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-08_from-PROME_owed-market-checks.md",
+      "exists": true,
+      "bytes": 925,
+      "last_path_commit_date": "2026-09-08",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-08_from-PROME_parent-option-fetch-success.md",
+      "exists": true,
+      "bytes": 839,
+      "last_path_commit_date": "2026-09-08",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-09_from-BOND_buyback-attribution-starts-9-10-not-9-9-refunding-legs-1-2-clean.md",
+      "exists": true,
+      "bytes": 1264,
+      "last_path_commit_date": "2026-09-10",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-10_from-BRENT_USO-150-165-thesis-owner-concurrence-and-RR23-attribution.md",
+      "exists": true,
+      "bytes": 1768,
+      "last_path_commit_date": "2026-09-10",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-10_from-BRENT_WILL-APPROVED-option-1-USO-150-165-dated-close-9-17.md",
+      "exists": true,
+      "bytes": 1050,
+      "last_path_commit_date": "2026-09-10",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-10_from-DEWEY_DEW-MECH-SELL-disposition-is-a-SPLIT-claim-3-retired-to-precedent-claim-1-belongs-off-the-decay-clock.md",
+      "exists": true,
+      "bytes": 6178,
+      "last_path_commit_date": "2026-09-11",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-10_from-PROME_RH-spread-CLOSED-by-Will-plus-330-card-EXECUTED-and-a-new-USO-159C-9-11-with-no-card.md",
+      "exists": true,
+      "bytes": 2007,
+      "last_path_commit_date": "2026-09-14",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-10_from-PROME_WQ-200-DECLINED-by-Will-no-USO-share-rule-is-live-he-manages-by-hand.md",
+      "exists": true,
+      "bytes": 1243,
+      "last_path_commit_date": "2026-09-10",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-10_from-PROME_WQ-210-213-217-RULED-XLE-x1-sells-at-the-9-11-open-VLO-refiner-re-armed-TLT-x20-HOLD.md",
+      "exists": true,
+      "bytes": 1998,
+      "last_path_commit_date": "2026-09-14",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-10_from-PROME_one-memory-line-dropped-in-the-9-8-archive-move-append-it-or-retire-it-deliberately.md",
+      "exists": true,
+      "bytes": 1366,
+      "last_path_commit_date": "2026-09-11",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-11_from-BRENT_staged-leg-b-structure-petroline-frame-breaker-NOT-A-CARD.md",
+      "exists": true,
+      "bytes": 7551,
+      "last_path_commit_date": "2026-09-14",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-11_from-PROME_MORNING-INPUTS-VLO-gate-met-9-10-77P-delta-ask-BG-02-staged-AAL-LUV-read-no-cards-tonight.md",
+      "exists": true,
+      "bytes": 3950,
+      "last_path_commit_date": "2026-09-14",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-11_from-PROME_you-are-3-5-EXEMPT-with-no-BOARD-ledger-20-action-line-signals-since-8-11-cannot-be-tested-owe-a-ledger.md",
+      "exists": true,
+      "bytes": 6592,
+      "last_path_commit_date": "2026-09-11",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-12_from-PROME_the-004-add-line-is-through-DFII10-2-55-at-the-9-10-official-cell-your-grade-not-mine.md",
+      "exists": true,
+      "bytes": 4477,
+      "last_path_commit_date": "2026-09-14",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-13_from-HENRY_HEN-46-basis-correction-the-crack-never-took-out-2022-and-an-adverse-datum-F1-unaffected.md",
+      "exists": true,
+      "bytes": 5003,
+      "last_path_commit_date": "2026-09-14",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-14_from-BOND_LEVEL-vs-SUSTAINED-ruled-for-my-instrument-your-card-is-RIGHT-and-the-breach-is-on-the-wrong-channel.md",
+      "exists": true,
+      "bytes": 5793,
+      "last_path_commit_date": "2026-09-14",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-14_from-HENRY_CONFIRMED-third-form-is-real-and-material-one-roll-is-94pct-of-F1s-threshold-separation.md",
+      "exists": true,
+      "bytes": 5570,
+      "last_path_commit_date": "2026-09-14",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-14_from-HENRY_CORRECTION-93pct-of-the-crack-collapse-was-a-CONTRACT-ROLL-the-crack-did-not-collapse.md",
+      "exists": true,
+      "bytes": 5331,
+      "last_path_commit_date": "2026-09-14",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-14_from-HENRY_F1-is-NOT-fired-but-I-am-DOWNGRADING-HEN-46-and-that-trips-a-different-pre-registered-condition.md",
+      "exists": true,
+      "bytes": 6891,
+      "last_path_commit_date": "2026-09-14",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-14_from-PROME_wq213-will-passed-on-the-9-14-qualifying-day-card-stays-armed.md",
+      "exists": true,
+      "bytes": 3161,
+      "last_path_commit_date": "2026-09-14",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-16_from-PROME_morning-decision-work.md",
+      "exists": true,
+      "bytes": 746,
+      "last_path_commit_date": "2026-09-18",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-17_from-DAEDALUS_PR6-PR6-F-1-fixed-verbatim-F-2-was-discharged-29d-before-it-was-flagged.md",
+      "exists": true,
+      "bytes": 845,
+      "last_path_commit_date": "2026-09-18",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-17_from-DAEDALUS_gate-basis-sweep-1-TERRY-007-and-ROLL70-EXIT-reset-vintage-and-the-adjusted-close.md",
+      "exists": true,
+      "bytes": 1903,
+      "last_path_commit_date": "2026-09-18",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-17_from-PROME_wq213-REAFFIRMED-VLO-by-Wills-hand-9-18.md",
+      "exists": true,
+      "bytes": 2055,
+      "last_path_commit_date": "2026-09-18",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-18_from-HANS_fed-hike-refutes-my-euro-strength-mechanism-and-boe-long-end.md",
+      "exists": true,
+      "bytes": 3951,
+      "last_path_commit_date": "2026-09-19",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-19_from-CRUISE_NCLH-date-NOT-confirmable-carry-it-unverified.md",
+      "exists": true,
+      "bytes": 4535,
+      "last_path_commit_date": "2026-09-19",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-19_from-CRUISE_attribution-correction-and-the-precise-two-cells.md",
+      "exists": true,
+      "bytes": 3386,
+      "last_path_commit_date": "2026-09-19",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-19_from-CRUISE_three-reconciliation-points-on-the-print-envelope.md",
+      "exists": true,
+      "bytes": 5909,
+      "last_path_commit_date": "2026-09-19",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-20_from-CRUISE_CORRECTION-the-mix-shift-confound-you-attached-is-narrower-than-I-gave-it.md",
+      "exists": true,
+      "bytes": 3831,
+      "last_path_commit_date": "2026-09-20",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-20_from-CRUISE_CORRECTION-withdraw-the-argues-against-the-CCL-put-conclusion.md",
+      "exists": true,
+      "bytes": 4408,
+      "last_path_commit_date": "2026-09-20",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-20_from-CRUISE_no-feed-difference-CATO-route-declined-and-your-reversal-logged.md",
+      "exists": true,
+      "bytes": 3352,
+      "last_path_commit_date": "2026-09-20",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-20_from-CRUISE_the-discounting-is-real-and-it-argues-AGAINST-the-CCL-put.md",
+      "exists": true,
+      "bytes": 3863,
+      "last_path_commit_date": "2026-09-20",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-22_from-PROME_L115-loop-closed-routing-done-rule-candidates-stay-yours-cold-read-first.md",
+      "exists": true,
+      "bytes": 1616,
+      "last_path_commit_date": "2026-09-24",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-22_from-PROME_chain-feed-recovered-the-004-strike-has-no-bid.md",
+      "exists": true,
+      "bytes": 3960,
+      "last_path_commit_date": "2026-09-24",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-23_from-PROME_L409-fetch-vintage-landed-no-action.md",
+      "exists": true,
+      "bytes": 2004,
+      "last_path_commit_date": "2026-09-24",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-23_from-PROME_L429-rule-22-safe-for-a-LEVEL-premise.md",
+      "exists": true,
+      "bytes": 1502,
+      "last_path_commit_date": "2026-09-24",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-24_from-BOND_TLT-put-ADD-RE-ARM-condition-met-on-9-23-5Y-Will-gated-no-trade-proposed.md",
+      "exists": true,
+      "bytes": 1749,
+      "last_path_commit_date": "2026-09-24",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-24_from-CARL_consumer-read-stress-is-bottom-tier-credit-not-broad-spending.md",
+      "exists": true,
+      "bytes": 5360,
+      "last_path_commit_date": "2026-09-24",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-24_from-HENRY_F1-basis-named-matched-Nov-at-SETTLEMENT-9-24-buffer-about-36c.md",
+      "exists": true,
+      "bytes": 2916,
+      "last_path_commit_date": "2026-09-24",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-24_from-PROME_CATO-AP2-WAL-card-exit-clause-attaches-to-UNKNOWN-cell.md",
+      "exists": true,
+      "bytes": 2102,
+      "last_path_commit_date": "2026-09-24",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-24_from-PROME_WQ-280-RULED-no-add-to-004-nothing-to-construct.md",
+      "exists": true,
+      "bytes": 1357,
+      "last_path_commit_date": "2026-09-24",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-24_from-PROME_WQ-282-RULED-GATE-TERRY-VLO-SCALE-registered-verbatim.md",
+      "exists": true,
+      "bytes": 1323,
+      "last_path_commit_date": "2026-09-24",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-25_from-BRENT_F1-crack-intraday-and-prevclose-trap.md",
+      "exists": true,
+      "bytes": 1967,
+      "last_path_commit_date": "2026-09-25",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-25_from-BRENT_F1-dated-row-rejected-post-settle-rally.md",
+      "exists": true,
+      "bytes": 1378,
+      "last_path_commit_date": "2026-09-26",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-25_from-MIDAS-via-PROME_VECTOR-3-falsifier-FIRED-GLD-drag-half-weakened-keep-no-trim-unchanged.md",
+      "exists": true,
+      "bytes": 1319,
+      "last_path_commit_date": "2026-09-25",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-25_from-PROME_declare-cadence-and-watch-terms-WQ-295.md",
+      "exists": true,
+      "bytes": 2136,
+      "last_path_commit_date": "2026-09-25",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-25_from-PROME_will-directed-six-questions-TERRY.md",
+      "exists": true,
+      "bytes": 3665,
+      "last_path_commit_date": "2026-09-25",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-26_from-REGINALD_ROLL70-EXIT-clause-d-CONCUR.md",
+      "exists": true,
+      "bytes": 615,
+      "last_path_commit_date": "2026-09-28",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-28_from-BRENT_diesel-export-ban-is-the-main-risk-to-the-VLO-card.md",
+      "exists": true,
+      "bytes": 4394,
+      "last_path_commit_date": "2026-09-28",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-28_from-HENRY_F1-9-25-settlement-resolved-FIRED.md",
+      "exists": true,
+      "bytes": 1252,
+      "last_path_commit_date": "2026-09-30",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-28_from-PROME_WQ-330-RULED-both-VLO-held-share-rule.md",
+      "exists": true,
+      "bytes": 1876,
+      "last_path_commit_date": "2026-09-30",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-28_from-PROME_will-fills-9-28-record-on-cards.md",
+      "exists": true,
+      "bytes": 2533,
+      "last_path_commit_date": "2026-09-28",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-29_from-REGINALD_WILL-ASK-attribution-report-input-to-the-KRE-put-card.md",
+      "exists": true,
+      "bytes": 3204,
+      "last_path_commit_date": "2026-09-30",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-29_from-REGINALD_WILL-ASK-card-for-adding-KRE-puts-regional-selloff-sized.md",
+      "exists": true,
+      "bytes": 5628,
+      "last_path_commit_date": "2026-09-30",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-30_from-HENRY_gamma-read-and-F3-basis.md",
+      "exists": true,
+      "bytes": 3734,
+      "last_path_commit_date": "2026-09-30",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-30_from-PROME_sep30-lines-were-ROLLED-not-expired_fills-and-card-asks.md",
+      "exists": true,
+      "bytes": 3124,
+      "last_path_commit_date": "2026-10-01",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-09-30b_from-PROME_standing-practice_sell-or-roll-before-expiry.md",
+      "exists": true,
+      "bytes": 1384,
+      "last_path_commit_date": "2026-10-01",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-01_from-BOND_WQ-291-kill-MET-exit-duration-shorts-card-ask.md",
+      "exists": true,
+      "bytes": 2601,
+      "last_path_commit_date": "2026-10-01",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-01_from-DEWEY_CARL-DR-3-info-AZO-ORLY-underperformance-is-low-vol-style-not-consumer-cohort.md",
+      "exists": true,
+      "bytes": 1017,
+      "last_path_commit_date": "2026-10-01",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-01_from-PROME_10-01-partial-sales-QQQ740P-x4-USO150C-x1.md",
+      "exists": true,
+      "bytes": 1164,
+      "last_path_commit_date": "2026-10-01",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-01_from-PROME_WQ-339-RULED-draft-new-TLT-put-card.md",
+      "exists": true,
+      "bytes": 3461,
+      "last_path_commit_date": "2026-10-01",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-02_from-BRENT_G7-release-ADOPTED-verified-read.md",
+      "exists": true,
+      "bytes": 2680,
+      "last_path_commit_date": "2026-10-02",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-02_from-BRENT_VLO-HELD-01-legA-10-02-settle-window-97-97.md",
+      "exists": true,
+      "bytes": 1530,
+      "last_path_commit_date": "2026-10-02",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-02_from-BROCK_expression-comparison-evidence.md",
+      "exists": true,
+      "bytes": 6977,
+      "last_path_commit_date": "2026-10-02",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-02_from-HENRY_CORRECTION-90-16-pair-not-verified-matched.md",
+      "exists": true,
+      "bytes": 1546,
+      "last_path_commit_date": "2026-10-02",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-02_from-HENRY_F1-matched-Nov-crack-0-81-from-95-after-G7.md",
+      "exists": true,
+      "bytes": 1097,
+      "last_path_commit_date": "2026-10-02",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-02_from-HENRY_gamma-pre-open-10-2.md",
+      "exists": true,
+      "bytes": 1478,
+      "last_path_commit_date": "2026-10-02",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-02_from-HENRY_post-open-gamma-and-correction.md",
+      "exists": true,
+      "bytes": 1888,
+      "last_path_commit_date": "2026-10-02",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-02_from-LIQUID_expression-comparison-evidence-answer.md",
+      "exists": true,
+      "bytes": 7555,
+      "last_path_commit_date": "2026-10-02",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-02_from-PROME_COMMISSION-QQQ-dated-downside-card.md",
+      "exists": true,
+      "bytes": 4163,
+      "last_path_commit_date": "2026-10-02",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-02_from-PROME_COMMISSION-expression-comparison-AI-debt-thesis.md",
+      "exists": true,
+      "bytes": 4073,
+      "last_path_commit_date": "2026-10-02",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-02_from-VULCAN_ack-deferred-expression-ask.md",
+      "exists": true,
+      "bytes": 5665,
+      "last_path_commit_date": "2026-10-07",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-03_from-PROME_WQ-357-365-366-rulings.md",
+      "exists": true,
+      "bytes": 2333,
+      "last_path_commit_date": "2026-10-07",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-04_from-PROME_closeout-recovery-recipe-hold.md",
+      "exists": true,
+      "bytes": 2248,
+      "last_path_commit_date": "2026-10-07",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-07_from-BOND_catchup-continuation.md",
+      "exists": true,
+      "bytes": 702,
+      "last_path_commit_date": "2026-10-07",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-07_from-PROME_Fidelity-holdings-capture.md",
+      "exists": true,
+      "bytes": 1793,
+      "last_path_commit_date": "2026-10-07",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-07_from-PROME_WQ-386-RULED-VLO-december.md",
+      "exists": true,
+      "bytes": 848,
+      "last_path_commit_date": "2026-10-07",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-07_from-REGINALD_WAL-Q3-date-LOCKED-and-ROLL70-read.md",
+      "exists": true,
+      "bytes": 2909,
+      "last_path_commit_date": "2026-10-07",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-07b_from-REGINALD_REG-T-03-grade-for-TRY-COND-KREADD.md",
+      "exists": true,
+      "bytes": 1154,
+      "last_path_commit_date": "2026-10-08",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-08_from-DAEDALUS_L546-float-tie.md",
+      "exists": true,
+      "bytes": 1287,
+      "last_path_commit_date": "2026-10-11",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-08_from-DAEDALUS_closeout-recovery-hold-still-binds.md",
+      "exists": true,
+      "bytes": 1741,
+      "last_path_commit_date": "2026-10-11",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-08_from-DAEDALUS_sweeps-gatebasis2-falsif4-prose1.md",
+      "exists": true,
+      "bytes": 1490,
+      "last_path_commit_date": "2026-10-11",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-08_from-PROME_book-three-10-8-fills-and-the-new-QQQ-750C.md",
+      "exists": true,
+      "bytes": 2430,
+      "last_path_commit_date": "2026-10-08",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-08_from-VULCAN_QQQ-membership-correction-and-ask-closed.md",
+      "exists": true,
+      "bytes": 2529,
+      "last_path_commit_date": "2026-10-08",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-09_from-PROME_WQ-396-RULED-uso-150c-expired-worthless.md",
+      "exists": true,
+      "bytes": 2605,
+      "last_path_commit_date": "2026-10-11",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-09_from-PROME_deck-options-card-label-corrections.md",
+      "exists": true,
+      "bytes": 2483,
+      "last_path_commit_date": "2026-10-09",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-10_from-AEOLUS_RNR-arming-condition-met-LATE-notice.md",
+      "exists": true,
+      "bytes": 2868,
+      "last_path_commit_date": "2026-10-11",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-10_from-CARL_TRY-FIRE-002-CRL-21-read-KEEP-DORMANT.md",
+      "exists": true,
+      "bytes": 3305,
+      "last_path_commit_date": "2026-10-11",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-10_from-PROME_WQ-302-will-word-HBAN-sell-or-roll-by-wed.md",
+      "exists": true,
+      "bytes": 1771,
+      "last_path_commit_date": "2026-10-11",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-11_from-PROME_WQ-409-approved-cheap-tail-card.md",
+      "exists": true,
+      "bytes": 2402,
+      "last_path_commit_date": "2026-10-11",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-11_from-PROME_WQ418-PASS-WQ420-RULED.md",
+      "exists": true,
+      "bytes": 1124,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-11_from-PROME_WQ419-approved-continuation.md",
+      "exists": true,
+      "bytes": 1591,
+      "last_path_commit_date": "2026-10-11",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-11_from-PROME_broker-reconcile-new-calls.md",
+      "exists": true,
+      "bytes": 2331,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-12_from-BRENT_L689-conditional-refiner-evidence.md",
+      "exists": true,
+      "bytes": 1763,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-12_from-BRENT_L694-energy-wait-disposition.md",
+      "exists": true,
+      "bytes": 1504,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-12_from-BRENT_cot9-recovery-latest-cell.md",
+      "exists": true,
+      "bytes": 1190,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-12_from-DEWEY_russia-diesel-net-supply.md",
+      "exists": true,
+      "bytes": 515,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-12_from-OZK_L690-post-extension-catalyst-review.md",
+      "exists": true,
+      "bytes": 1662,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-12_from-OZK_radd-executed-extension-L635.md",
+      "exists": true,
+      "bytes": 1439,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-12_from-PROME_APPROVED-opportunity-discovery-pass.md",
+      "exists": true,
+      "bytes": 893,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-12_from-PROME_new-trades-priority-Will-direct.md",
+      "exists": true,
+      "bytes": 2641,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-12_from-REGINALD_EGBN-primary-verification-context.md",
+      "exists": true,
+      "bytes": 1341,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-12_from-REGINALD_L694_EGBN-candidate-question.md",
+      "exists": true,
+      "bytes": 1387,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/PROME_ROUTING_2026-07-16_hban-rationale.md",
+      "exists": true,
+      "bytes": 767,
+      "last_path_commit_date": "2026-07-17",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/options/IV_CRUSH_DIAGNOSTIC_PLAN.md",
+      "exists": true,
+      "bytes": 5711,
+      "last_path_commit_date": "2026-08-13",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/options/IV_CRUSH_PARTA_2026-07-17.md",
+      "exists": true,
+      "bytes": 4657,
+      "last_path_commit_date": "2026-07-17",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/options/IV_CRUSH_PARTB_2026-08-13.md",
+      "exists": true,
+      "bytes": 5669,
+      "last_path_commit_date": "2026-08-13",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/options/PRINT_ENVELOPE_CRUISE_2026-09-19.md",
+      "exists": true,
+      "bytes": 49496,
+      "last_path_commit_date": "2026-09-30",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/options/RESEARCH.md",
+      "exists": true,
+      "bytes": 53390,
+      "last_path_commit_date": "2026-08-20",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/options/TENOR_DISCIPLINE_PARTB_2026-07-17.md",
+      "exists": true,
+      "bytes": 5716,
+      "last_path_commit_date": "2026-07-17",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/options/partb_realized_moves.py",
+      "exists": true,
+      "bytes": 6351,
+      "last_path_commit_date": "2026-09-19",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/options/sources/2026-07-17_retail_21dte-reaction_tastytrade-study.md",
+      "exists": true,
+      "bytes": 12520,
+      "last_path_commit_date": "2026-07-17",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/options/sources/2026-07-17_tastytrade_21dte-management_and_0dte-products.md",
+      "exists": true,
+      "bytes": 29652,
+      "last_path_commit_date": "2026-07-17",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/options/sources/2026-08-20_menthorq_greeks-cheatsheet-and-higher-order.md",
+      "exists": true,
+      "bytes": 15052,
+      "last_path_commit_date": "2026-08-20",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/.gitkeep",
+      "exists": true,
+      "bytes": 0,
+      "last_path_commit_date": "2026-06-20",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/.gitkeep",
+      "exists": true,
+      "bytes": 0,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-06-27_to-NEXUS_post-fomc-reanchor-flag.md",
+      "exists": true,
+      "bytes": 2136,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-07-16_to-PROME_try-fire-004-arm-packet.md",
+      "exists": true,
+      "bytes": 17284,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-07-16_to-PROME_uso-0717-calls-triage.md",
+      "exists": true,
+      "bytes": 4257,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-07-16_to-PROME_vio-116-rates-vol-shape-memo.md",
+      "exists": true,
+      "bytes": 5817,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-07-17_to-BOND_77p-shock-prob-proxy-read-ratify.md",
+      "exists": true,
+      "bytes": 2307,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-07-17_to-HOMER_builder-putspread-card-confirm-ask.md",
+      "exists": true,
+      "bytes": 2174,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-07-17_to-PROME_try-fire-006-kharg-strand-prebuild-and-gates-row.md",
+      "exists": true,
+      "bytes": 4688,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-07-20_to-PROME_hban-retired-kharg-wording-confirmed.md",
+      "exists": true,
+      "bytes": 2029,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-07-20_to-PROME_paperbook-venv-fixed-two-flags.md",
+      "exists": true,
+      "bytes": 2675,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-07-20_to-PROME_try-fire-004-refire-FILLED.md",
+      "exists": true,
+      "bytes": 2947,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-07-20_to-REGINALD_wal-grind-thesis-confirm-ask.md",
+      "exists": true,
+      "bytes": 2473,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-07-21_to-PROME_vio116-004-adequacy.md",
+      "exists": true,
+      "bytes": 2168,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-07-21_to-REGINALD_wal-q2-print-gate-adjudication.md",
+      "exists": true,
+      "bytes": 5061,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-07-27_to-PROME_vix-window-live-marks-and-verdict.md",
+      "exists": true,
+      "bytes": 14505,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-08-19_to-PROME_004-rulings-encoded-arm3-reconciled-buyback-priced.md",
+      "exists": true,
+      "bytes": 7431,
+      "last_path_commit_date": "2026-08-20",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-08-19_to-PROME_self-audit-blocking-and-sitting.md",
+      "exists": true,
+      "bytes": 7148,
+      "last_path_commit_date": "2026-08-20",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-08-19_to-PROME_tasking3-builds.md",
+      "exists": true,
+      "bytes": 4510,
+      "last_path_commit_date": "2026-08-20",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-08-19_to-PROME_tasking4-rulings-61-63-encoded.md",
+      "exists": true,
+      "bytes": 3998,
+      "last_path_commit_date": "2026-08-20",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-08-20_to-PROME_catchup-set-discharged-plus-VLY-opex-operational-flag.md",
+      "exists": true,
+      "bytes": 7799,
+      "last_path_commit_date": "2026-09-03",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-08-20_to-PROME_gate-terry-007-graded-8-19-official-4.65-counter-stays-0-of-5.md",
+      "exists": true,
+      "bytes": 3611,
+      "last_path_commit_date": "2026-09-03",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-08-20b_to-PROME_two-procedures-staged-plus-wal-settle-79.15-and-vly-ebe-is-21pct-not-2pct.md",
+      "exists": true,
+      "bytes": 6248,
+      "last_path_commit_date": "2026-09-03",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-08-27_to-BRENT_spec-delivered-SHARES-not-options-and-two-of-your-premises-measured-FALSE.md",
+      "exists": true,
+      "bytes": 6708,
+      "last_path_commit_date": "2026-09-03",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-08-27_to-BRENT_your-Feb-placeholder-is-23-sessions-wrong-against-your-own-n-war-start-derives-to-2026-03-06.md",
+      "exists": true,
+      "bytes": 5841,
+      "last_path_commit_date": "2026-09-03",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-08-27_to-PROME_all-four-labels-resolve-two-are-not-Wills-and-your-grep-found-the-label-not-the-referent.md",
+      "exists": true,
+      "bytes": 11856,
+      "last_path_commit_date": "2026-08-27",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-09-02_to-PROME_fills-recorded-and-inbox-drained.md",
+      "exists": true,
+      "bytes": 4852,
+      "last_path_commit_date": "2026-09-03",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-09-05_to-PROME_L115-graded-wq176-confirm-drain.md",
+      "exists": true,
+      "bytes": 17743,
+      "last_path_commit_date": "2026-09-24",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-09-08_chain-TLT-attempt.txt",
+      "exists": true,
+      "bytes": 7131,
+      "last_path_commit_date": "2026-09-20",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-09-08_chain-USO-attempt.txt",
+      "exists": true,
+      "bytes": 7131,
+      "last_path_commit_date": "2026-09-20",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-09-08_chain-WAL-attempt.txt",
+      "exists": true,
+      "bytes": 7131,
+      "last_path_commit_date": "2026-09-20",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-09-08_closeout-validation.txt",
+      "exists": true,
+      "bytes": 15372,
+      "last_path_commit_date": "2026-09-20",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-09-08_codex-owner-progress.md",
+      "exists": true,
+      "bytes": 2588,
+      "last_path_commit_date": "2026-09-20",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-09-08_from-TERRY_codex-owner-catchup-completion.md",
+      "exists": true,
+      "bytes": 16053,
+      "last_path_commit_date": "2026-09-20",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-09-08_inbox-dispositions.md",
+      "exists": true,
+      "bytes": 2339,
+      "last_path_commit_date": "2026-09-20",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-09-08_intended-paths.txt",
+      "exists": true,
+      "bytes": 2285,
+      "last_path_commit_date": "2026-09-20",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-09-08_owner-market-evidence.json",
+      "exists": true,
+      "bytes": 4443,
+      "last_path_commit_date": "2026-09-20",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/delivered/2026-09-08_paper-mark-attempt.txt",
+      "exists": true,
+      "bytes": 2110,
+      "last_path_commit_date": "2026-09-20",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/qqq/PLAYBOOK.md",
+      "exists": true,
+      "bytes": 6930,
+      "last_path_commit_date": "2026-08-04",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/qqq/README.md",
+      "exists": true,
+      "bytes": 6589,
+      "last_path_commit_date": "2026-08-04",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/qqq/RESEARCH.md",
+      "exists": true,
+      "bytes": 6956,
+      "last_path_commit_date": "2026-08-04",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/qqq/scripts/v_episodes.py",
+      "exists": true,
+      "bytes": 14747,
+      "last_path_commit_date": "2026-08-04",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/registry/corrections_receipts.tsv",
+      "exists": true,
+      "bytes": 3003,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-08-27_refiner-XLE-decoupling-distribution.md",
+      "exists": true,
+      "bytes": 6787,
+      "last_path_commit_date": "2026-08-27",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-09-25_Q1_book-exposure-map.md",
+      "exists": true,
+      "bytes": 17905,
+      "last_path_commit_date": "2026-09-25",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-11_WQ409-evidence.json",
+      "exists": true,
+      "bytes": 5771,
+      "last_path_commit_date": "2026-10-11",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-11_WQ409-owner-closeout.md",
+      "exists": true,
+      "bytes": 6341,
+      "last_path_commit_date": "2026-10-11",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-11_WQ409-source-and-intake-receipt.md",
+      "exists": true,
+      "bytes": 10101,
+      "last_path_commit_date": "2026-10-11",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-11_WQ419-VLO-boundary-evidence.json",
+      "exists": true,
+      "bytes": 3591,
+      "last_path_commit_date": "2026-10-11",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-11_WQ419-VLO-precision-bar-PROPOSAL.md",
+      "exists": true,
+      "bytes": 14258,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-11_WQ419-WAL-reference-repair.diff",
+      "exists": true,
+      "bytes": 16452,
+      "last_path_commit_date": "2026-10-11",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-11_WQ419-WAL-reference-repair.md",
+      "exists": true,
+      "bytes": 4569,
+      "last_path_commit_date": "2026-10-11",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-11_WQ419-owner-closeout.md",
+      "exists": true,
+      "bytes": 7051,
+      "last_path_commit_date": "2026-10-11",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_BNO-feasibility/.gitignore",
+      "exists": true,
+      "bytes": 42,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_BNO-feasibility/DELIVERY.md",
+      "exists": true,
+      "bytes": 2495,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_BNO-feasibility/NOTE.md",
+      "exists": true,
+      "bytes": 8335,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_BNO-feasibility/expiries.json",
+      "exists": true,
+      "bytes": 240,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_BNO-feasibility/paired-daily-history.json",
+      "exists": true,
+      "bytes": 15080,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_BNO-feasibility/quotes-and-named-futures.json",
+      "exists": true,
+      "bytes": 27996,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_BNO-feasibility/snapshot.txt",
+      "exists": true,
+      "bytes": 891,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_BNO-feasibility/sources.json",
+      "exists": true,
+      "bytes": 2326,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_BNO-feasibility/validation.json",
+      "exists": true,
+      "bytes": 2278,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_L689-refiner-construction/MPC-dec18-call-strip.json",
+      "exists": true,
+      "bytes": 3260,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_L689-refiner-construction/PSX-dec18-call-strip.json",
+      "exists": true,
+      "bytes": 2002,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_L689-refiner-construction/receipt.md",
+      "exists": true,
+      "bytes": 6317,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_L689-refiner-construction/snapshot.txt",
+      "exists": true,
+      "bytes": 1252,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_L689-refiner-construction/validation.json",
+      "exists": true,
+      "bytes": 725,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_L694-EGBN-feasibility/COMPARISON.md",
+      "exists": true,
+      "bytes": 8679,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_L694-EGBN-feasibility/DELIVERY.md",
+      "exists": true,
+      "bytes": 7381,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_L694-EGBN-feasibility/NOTE.md",
+      "exists": true,
+      "bytes": 7298,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_L694-EGBN-feasibility/dec18-put-strip.json",
+      "exists": true,
+      "bytes": 1139,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_L694-EGBN-feasibility/expiries.json",
+      "exists": true,
+      "bytes": 335,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_L694-EGBN-feasibility/march19-full-returned-strip.json",
+      "exists": true,
+      "bytes": 402,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_L694-EGBN-feasibility/march19-put-strip.json",
+      "exists": true,
+      "bytes": 701,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_L694-EGBN-feasibility/validation.json",
+      "exists": true,
+      "bytes": 1575,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_L694-checkpoint.md",
+      "exists": true,
+      "bytes": 7864,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_closeout-repair/ACCEPTANCE.md",
+      "exists": true,
+      "bytes": 4729,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_closeout-repair/REPORT.md",
+      "exists": true,
+      "bytes": 10385,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_closeout-repair/baseline-CLOSEOUT.md",
+      "exists": true,
+      "bytes": 14275,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_closeout-repair/checklist.patch",
+      "exists": true,
+      "bytes": 10326,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_closeout-repair/checks.json",
+      "exists": true,
+      "bytes": 3969,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_closeout-repair/git-only.patch",
+      "exists": true,
+      "bytes": 7625,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_closeout-repair/git-results.json",
+      "exists": true,
+      "bytes": 3303,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_closeout-repair/git_validation.py",
+      "exists": true,
+      "bytes": 9911,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_closeout-repair/retirement-assessment.json",
+      "exists": true,
+      "bytes": 2461,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_desktop-continuation/FLG-jan2029-put-full-window.json",
+      "exists": true,
+      "bytes": 738,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_desktop-continuation/FLG-jan2029-put-screening.json",
+      "exists": true,
+      "bytes": 737,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_desktop-continuation/QQQ-oct12-call-screening.json",
+      "exists": true,
+      "bytes": 50691,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_desktop-continuation/USO-oct14-call-screening.json",
+      "exists": true,
+      "bytes": 18070,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_desktop-continuation/WAL-may2027-72.5-65P-screening.json",
+      "exists": true,
+      "bytes": 2013,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_desktop-continuation/WAL-may2027-put-screening.json",
+      "exists": true,
+      "bytes": 1592,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_desktop-continuation/WQ420-validation.json",
+      "exists": true,
+      "bytes": 775,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_desktop-continuation/broker-reconciliation.md",
+      "exists": true,
+      "bytes": 1557,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_desktop-continuation/new-candidates-snapshot.txt",
+      "exists": true,
+      "bytes": 1247,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_desktop-continuation/receipt.md",
+      "exists": true,
+      "bytes": 9098,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_desktop-owner-closeout.md",
+      "exists": true,
+      "bytes": 13754,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_fresh-context-boot.md",
+      "exists": true,
+      "bytes": 4792,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/2026-10-12_new-trade-shortlist.md",
+      "exists": true,
+      "bytes": 7960,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/PENDING_RISK_RULES_AMENDMENT_2026-09-14_two-pull-rule.md",
+      "exists": true,
+      "bytes": 3951,
+      "last_path_commit_date": "2026-09-14",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/PLAYBOOK_flow-trigger-supply-strand.md",
+      "exists": true,
+      "bytes": 7145,
+      "last_path_commit_date": "2026-08-18",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/PREREG_cre-exposure-cross-section_2026-08-20.md",
+      "exists": true,
+      "bytes": 9869,
+      "last_path_commit_date": "2026-08-20",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/SIGNAL_COMBINATION_2026-07-26.md",
+      "exists": true,
+      "bytes": 15451,
+      "last_path_commit_date": "2026-07-26",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/research/sources/2026-07-26_roan_combining-50-weak-signals.txt",
+      "exists": true,
+      "bytes": 20849,
+      "last_path_commit_date": "2026-07-26",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/scripts/boot.py",
+      "exists": true,
+      "bytes": 45730,
+      "last_path_commit_date": "2026-10-01",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/scripts/chain_fetch.py",
+      "exists": true,
+      "bytes": 46204,
+      "last_path_commit_date": "2026-10-11",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/scripts/chain_parse.py",
+      "exists": true,
+      "bytes": 7160,
+      "last_path_commit_date": "2026-10-11",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/scripts/csv_pnl.py",
+      "exists": true,
+      "bytes": 5652,
+      "last_path_commit_date": "2026-06-23",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/scripts/decoupling_series.py",
+      "exists": true,
+      "bytes": 2401,
+      "last_path_commit_date": "2026-08-27",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/scripts/grade_print.py",
+      "exists": true,
+      "bytes": 22045,
+      "last_path_commit_date": "2026-06-27",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/scripts/greeks.py",
+      "exists": true,
+      "bytes": 16445,
+      "last_path_commit_date": "2026-08-20",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/scripts/ledger_sweep.py",
+      "exists": true,
+      "bytes": 80568,
+      "last_path_commit_date": "2026-09-05",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/scripts/paper_book_mark.py",
+      "exists": true,
+      "bytes": 42625,
+      "last_path_commit_date": "2026-10-08",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/scripts/positions_from_forge.py",
+      "exists": true,
+      "bytes": 22184,
+      "last_path_commit_date": "2026-09-20",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/scripts/risk_calc.py",
+      "exists": true,
+      "bytes": 4160,
+      "last_path_commit_date": "2026-06-20",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/scripts/snapshot.py",
+      "exists": true,
+      "bytes": 17189,
+      "last_path_commit_date": "2026-08-18",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/scripts/test_snapshot_coverage.py",
+      "exists": true,
+      "bytes": 2875,
+      "last_path_commit_date": "2026-08-18",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/scripts/test_spread_precision.py",
+      "exists": true,
+      "bytes": 1586,
+      "last_path_commit_date": "2026-10-11",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/.gitkeep",
+      "exists": true,
+      "bytes": 0,
+      "last_path_commit_date": "2026-06-20",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/2026-08-04_bank-put-reshape-REBUILD.md",
+      "exists": true,
+      "bytes": 15238,
+      "last_path_commit_date": "2026-08-04",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/BRENT_diesel-length-scope_2026-07-26.md",
+      "exists": true,
+      "bytes": 28300,
+      "last_path_commit_date": "2026-07-30",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/BRENT_refiner-distillate-strong-leg_2026-08-27.md",
+      "exists": true,
+      "bytes": 110614,
+      "last_path_commit_date": "2026-10-07",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/BRENT_uso-convex-arm_2026-08-04.md",
+      "exists": true,
+      "bytes": 45251,
+      "last_path_commit_date": "2026-08-13",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/DURATION-SHORTS_exit-card_WQ291_2026-10-01.md",
+      "exists": true,
+      "bytes": 17102,
+      "last_path_commit_date": "2026-10-09",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/FIRE_CARDS_LADDER.md",
+      "exists": true,
+      "bytes": 16128,
+      "last_path_commit_date": "2026-08-23",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/FLOW-TRIGGER_carry-convexity-FXY-call-v2.md",
+      "exists": true,
+      "bytes": 37461,
+      "last_path_commit_date": "2026-08-27",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/FLOW-TRIGGER_duration-TLT-put.md",
+      "exists": true,
+      "bytes": 133666,
+      "last_path_commit_date": "2026-10-01",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/HBAN_oct16-16P_ITM-management-card_2026-09-26.md",
+      "exists": true,
+      "bytes": 25089,
+      "last_path_commit_date": "2026-10-07",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/HBAN_oct16-16P_stub.md",
+      "exists": true,
+      "bytes": 4343,
+      "last_path_commit_date": "2026-09-26",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/HBAN_oct16-16P_two-branch-decision-memo.md",
+      "exists": true,
+      "bytes": 4579,
+      "last_path_commit_date": "2026-07-16",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/INDEX.md",
+      "exists": true,
+      "bytes": 52181,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/KRE_add-puts_conditional-card_2026-09-30.md",
+      "exists": true,
+      "bytes": 12944,
+      "last_path_commit_date": "2026-10-01",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/MPC_refiner-margin-resilience_L689_2026-10-12.md",
+      "exists": true,
+      "bytes": 10473,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/PRINT-TRIGGER_WAL-EGBN-build.md",
+      "exists": true,
+      "bytes": 12304,
+      "last_path_commit_date": "2026-10-07",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/PRINT-TRIGGER_monoline-COF-SYF-ALLY.md",
+      "exists": true,
+      "bytes": 8515,
+      "last_path_commit_date": "2026-07-24",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/QQQ730P-USO159C_sep30-disposition_2026-09-28.md",
+      "exists": true,
+      "bytes": 21225,
+      "last_path_commit_date": "2026-10-01",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/QQQ735P_oct05-sell-or-roll_2026-10-01.md",
+      "exists": true,
+      "bytes": 11015,
+      "last_path_commit_date": "2026-10-07",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/QQQ740P_oct01-sell-or-roll_2026-10-01.md",
+      "exists": true,
+      "bytes": 20937,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/QQQ740P_oct02-sell-or-roll_2026-10-01.md",
+      "exists": true,
+      "bytes": 16455,
+      "last_path_commit_date": "2026-10-07",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/QQQ745P-740P_oct15-sell-or-roll_2026-10-07.md",
+      "exists": true,
+      "bytes": 11628,
+      "last_path_commit_date": "2026-10-08",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/QQQ750C_oct09-sell-or-roll_2026-10-08.md",
+      "exists": true,
+      "bytes": 13441,
+      "last_path_commit_date": "2026-10-09",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/QQQ755C_oct12-sell-or-roll_2026-10-12.md",
+      "exists": true,
+      "bytes": 6241,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/QQQ755P_oct09-sell-or-roll_2026-10-07.md",
+      "exists": true,
+      "bytes": 23548,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/QQQ_dec18-put-spread_dated-downside_2026-10-02.md",
+      "exists": true,
+      "bytes": 24221,
+      "last_path_commit_date": "2026-10-08",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/SPY_dec18-770-760P_pre-CPI-TAKE-PASS_2026-10-11.md",
+      "exists": true,
+      "bytes": 13180,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/TLT85P_approved-exit-tracking_2026-09-08.md",
+      "exists": true,
+      "bytes": 6112,
+      "last_path_commit_date": "2026-09-18",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/TLT_dec18-77P-x2_new-duration-put_WQ339_2026-10-01.md",
+      "exists": true,
+      "bytes": 21123,
+      "last_path_commit_date": "2026-10-02",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/TLT_oct16-82P_ITM-management-card_2026-09-26.md",
+      "exists": true,
+      "bytes": 27018,
+      "last_path_commit_date": "2026-10-09",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/USO-135C_rule20-management_2026-09-01.md",
+      "exists": true,
+      "bytes": 18236,
+      "last_path_commit_date": "2026-09-09",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/USO-RHSPREAD_150-165-sep18_2026-09-10.md",
+      "exists": true,
+      "bytes": 21408,
+      "last_path_commit_date": "2026-09-14",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/USO-SHARES_management-card_2026-09-09.md",
+      "exists": true,
+      "bytes": 22427,
+      "last_path_commit_date": "2026-09-11",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/USO-SHARES_named-exit-condition_2026-08-23.md",
+      "exists": true,
+      "bytes": 19058,
+      "last_path_commit_date": "2026-09-10",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/USO150C-KRE65P_roll-management-notes_2026-10-01.md",
+      "exists": true,
+      "bytes": 34867,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/USO150C_oct14-sell-or-roll_2026-10-12.md",
+      "exists": true,
+      "bytes": 6949,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/VIOLET_prefomc-vix-callspread_2026-07-26.md",
+      "exists": true,
+      "bytes": 91526,
+      "last_path_commit_date": "2026-09-01",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/VLO-SHARE_management-proposal_2026-09-28.md",
+      "exists": true,
+      "bytes": 29159,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/WAL65P-OZK40P_new-fidelity-lines_note_2026-10-07.md",
+      "exists": true,
+      "bytes": 7085,
+      "last_path_commit_date": "2026-10-12",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/WAL_dec18-70P-duration-roll_2026-09-01.md",
+      "exists": true,
+      "bytes": 53224,
+      "last_path_commit_date": "2026-10-11",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/WAL_grind-putspread_2026-07-17.md",
+      "exists": true,
+      "bytes": 12222,
+      "last_path_commit_date": "2026-07-26",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/WILL_qqq-v-recovery-fade_2026-08-03.md",
+      "exists": true,
+      "bytes": 15244,
+      "last_path_commit_date": "2026-08-13",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/XLE65C_approved-exit-tracking_2026-09-08.md",
+      "exists": true,
+      "bytes": 16151,
+      "last_path_commit_date": "2026-09-11",
+      "older_than_60": false,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/setups/_archive/ARM3-TIC-grading-template_2026-07-16.md",
+      "exists": true,
+      "bytes": 3871,
+      "last_path_commit_date": "2026-07-17",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/setups/_archive/FLOW-TRIGGER_carry-convexity-FXY-call.md",
+      "exists": true,
+      "bytes": 22187,
+      "last_path_commit_date": "2026-07-17",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/setups/_archive/FLOW-TRIGGER_kharg-strand-USO-call.md",
+      "exists": true,
+      "bytes": 38252,
+      "last_path_commit_date": "2026-08-18",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/setups/_archive/HOMER_builder-putspread_2026-07-17.md",
+      "exists": true,
+      "bytes": 8444,
+      "last_path_commit_date": "2026-07-20",
+      "older_than_60": true,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/setups/_archive/PRICE-TRIGGER_HY280_regional-put.md",
+      "exists": true,
+      "bytes": 31160,
+      "last_path_commit_date": "2026-08-23",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/setups/_archive/WILL_qqq-downtrend-putspread_2026-07-30.md",
+      "exists": true,
+      "bytes": 16270,
+      "last_path_commit_date": "2026-08-27",
+      "older_than_60": false,
+      "historical_tree": true
+    },
+    {
+      "path": "AGENTS/TERRY/workbook/.gitkeep",
+      "exists": true,
+      "bytes": 0,
+      "last_path_commit_date": "2026-06-20",
+      "older_than_60": true,
+      "historical_tree": false
+    },
+    {
+      "path": "AGENTS/TERRY/workbook/LEDGER_GLOB",
+      "exists": true,
+      "bytes": 361,
+      "last_path_commit_date": "2026-08-04",
+      "older_than_60": true,
+      "historical_tree": false
+    }
+  ]
+}

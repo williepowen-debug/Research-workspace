@@ -1,6 +1,6 @@
 # SIGNAL COMBINATION / ALPHA-WEIGHTING — extracted claims + applicability grades
 **Created:** 2026-07-26 · **Owner:** TERRY · **Tier:** EXTRACTED CLAIMS (middle tier)
-**Source:** `sources/2026-07-26_roan_combining-50-weak-signals.docx.txt` — X/Twitter long-post, author "Roan," self-described backend dev (HFT-style execution, prediction markets). Saved by Will 7/26.
+**Source:** `sources/2026-07-26_roan_combining-50-weak-signals.txt` — X/Twitter long-post, author "Roan," self-described backend dev (HFT-style execution, prediction markets). Saved by Will 7/26.
 
 **Pipeline (mirrors `options/`):** `sources/` (raw) → **this file (claim + applicability grade)** → an adopted rule in `RISK_RULES.md` / `RISK_SCORING.md`. **Nothing here is a TERRY rule until promoted.** A claim reaching this file has been *read and graded*, **not verified**.
 

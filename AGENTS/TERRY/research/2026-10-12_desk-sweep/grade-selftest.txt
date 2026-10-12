@@ -1,0 +1,7 @@
+grade_print.py SELFTEST: PASS
+  ALLY collective build -> BUILD + path-a NON-COUNTING ✓
+  ALLY no build-type -> TRAP ✓ | WAL --basis gaap -> TRAP ✓ | ZION muni -> TRAP ✓
+  WAL 58bps+chargeoff -> path(c) FULL CHARGE-OFF ✓ | WAL 42bps -> BUILD-BUT-DEFER ✓
+  ZION total-afs worse -> path(b) DETERIORATION ✓ | EGBN specific -> path(a) COUNTS ✓
+  SYF build-on-shrinking-book -> path(m) COUNTS ✓ | growing+collective -> NON-COUNTING ✓
+  COF release -> path(m) NON-COUNTING ✓ | SYF 2-tells -> strong-single ✓ | ALLY shrinking+specific -> COUNTS ✓

@@ -180,7 +180,9 @@ STATES: list[tuple[str, str]] = [
 COMPATIBLE: set[frozenset[str]] = {
     frozenset({"FIRED", "CLEAN"}),          # fired card keeps its CLEAN construction verdict
     frozenset({"CLOSED", "CLEAN"}),         # ditto once closed
-    frozenset({"CLOSED", "FIRED"}),         # fired then closed
+    # CLOSED and FIRED are successive lifecycle states, not compatible current
+    # claims. Dated firing history is stripped before comparison; accepting this
+    # pair would hide a registry that still calls a closed position live.
     frozenset({"STAGED", "CONDITIONAL"}),   # staged card awaiting a trigger
     frozenset({"STAGED", "NO_TRADE"}),      # template placeholder verdict on a staged card
     frozenset({"STAGED", "NO_FIRE"}),       # trigger met, TERRY declined -> card stays staged
@@ -839,10 +841,11 @@ def counts_in(text: str) -> set[int]:
     return {int(m.group(1)) for rx in COUNT_RES for m in rx.finditer(clean)}
 
 
-def paper_live_counts() -> dict[str, int]:
+def paper_live_counts(text: str | None = None) -> dict[str, int]:
     """setup_id -> live contract count, summed over OPEN lane=real PAPER_BOOK rows."""
     refs: dict[str, int] = {}
-    for line in read(TERRY / "PAPER_BOOK.tsv").splitlines():
+    source = read(TERRY / "PAPER_BOOK.tsv") if text is None else text
+    for line in source.splitlines():
         if line.startswith("#") or not line.strip():
             continue
         f = line.split("\t")
@@ -1052,6 +1055,10 @@ def selftest() -> int:
        state_of("~~CONDITIONAL~~ now CLOSED") == "CLOSED")
     ok("'was CONDITIONAL' prose ignored",
        state_of("FIRED LIVE, was CONDITIONAL before the arm") == "FIRED")
+    ok("CLOSED versus FIRED current lifecycle claims disagree",
+       len(check_state_agreement({"TRY-A": {"card": "CLOSED", "registry": "FIRED / LIVE"}})) == 1)
+    ok("closed card retains dated firing history without a false disagreement",
+       check_state_agreement({"TRY-A": {"card": "CLOSED (was FIRED LIVE)", "registry": "CLOSED"}}) == [])
     ok("★ '(moved from CONDITIONAL)' is prior state, not current",
        state_of("🟢 **CLEAN ON TERRY'S AXIS** *(moved from 🟡 CONDITIONAL — 7/27)*") == "CLEAN")
     ok("★ hyphenated compound is a different noun — GATE-CLOSED is not a CLOSED card",
@@ -1282,8 +1289,22 @@ def selftest() -> int:
        contract_count_findings("TRY-FIRE-004", 25, {"S": "realized 3.23× fees-in; gate trajectory 2.4× → 1.254× → 0.735×; TLT 75 ≈ ~17×"}) == [])
     ok("NO FP: struck count is history — '~~30× live~~ → 25× live' reads as 25",
        contract_count_findings("TRY-FIRE-004", 25, {"S": "~~30× live~~ → 25× live"}) == [])
-    ok("H reads the reference from OPEN lane=real rows only (paper would-fire x45 must not bind)",
-       paper_live_counts().get("TRY-FIRE-004") == 25)
+    def _count_row(qty: int, status: str, lane: str) -> str:
+        fields = [""] * 20
+        fields[1], fields[4] = "TRY-FIRE-004", f"TLT 77P x{qty}"
+        fields[12], fields[18] = status, lane
+        return "\t".join(fields)
+
+    # Fixtures exercise the reader independently of the real position's expiry.
+    # A live-book assertion made this selftest fail once 004 closed in September.
+    _count_fixture = "\n".join([
+        _count_row(20, "OPEN", "real"), _count_row(5, "OPEN", "real"),
+        _count_row(45, "OPEN", "paper"), _count_row(30, "CLOSED", "real"),
+    ])
+    ok("H sums OPEN real rows and excludes paper would-fires and closed real rows",
+       paper_live_counts(_count_fixture) == {"TRY-FIRE-004": 25})
+    ok("H has no live count after all real lots close",
+       paper_live_counts(_count_row(25, "CLOSED", "real")) == {})
 
     # ---- CHECK I — inbox-at-closeout. Scope is the ONLY thing that can be wrong here
     # (the check itself just lists files), so every exclusion gets a permanent case.

@@ -1,0 +1,277 @@
+{
+  "observed_at": "2026-10-12T14:43:51.044963-04:00",
+  "assessed_at": "2026-10-12",
+  "inventory_scope": "548 tracked owned files, including historical trees;38 nonhistorical paths older than60days before this sweep. No missing tracked paths.",
+  "age_basis": "last path commit date, not source freshness or mtime",
+  "decisions": [
+    {
+      "path": "AGENTS/TERRY/.gitignore",
+      "last_path_commit_date": "2026-06-27",
+      "disposition": "RETAIN",
+      "reason": "Live protocol/tool/scaffold or retained review record",
+      "evidence_or_scope": "Not an unreferenced research/source retirement candidate; existing boot/desk workflows use it. No current source/price refresh asserted."
+    },
+    {
+      "path": "AGENTS/TERRY/CHART_OPTIONS_WORKFLOW.md",
+      "last_path_commit_date": "2026-07-17",
+      "disposition": "RETAIN",
+      "reason": "Live protocol/tool/scaffold or retained review record",
+      "evidence_or_scope": "Not an unreferenced research/source retirement candidate; existing boot/desk workflows use it. No current source/price refresh asserted."
+    },
+    {
+      "path": "AGENTS/TERRY/POSITION_INTAKE.md",
+      "last_path_commit_date": "2026-06-20",
+      "disposition": "RETAIN",
+      "reason": "Live protocol/tool/scaffold or retained review record",
+      "evidence_or_scope": "Not an unreferenced research/source retirement candidate; existing boot/desk workflows use it. No current source/price refresh asserted."
+    },
+    {
+      "path": "AGENTS/TERRY/README.md",
+      "last_path_commit_date": "2026-07-30",
+      "disposition": "RETAIN",
+      "reason": "Live protocol/tool/scaffold or retained review record",
+      "evidence_or_scope": "Not an unreferenced research/source retirement candidate; existing boot/desk workflows use it. No current source/price refresh asserted."
+    },
+    {
+      "path": "AGENTS/TERRY/RISK_SCORING.md",
+      "last_path_commit_date": "2026-07-26",
+      "disposition": "RETAIN",
+      "reason": "Live protocol/tool/scaffold or retained review record",
+      "evidence_or_scope": "Not an unreferenced research/source retirement candidate; existing boot/desk workflows use it. No current source/price refresh asserted."
+    },
+    {
+      "path": "AGENTS/TERRY/TRADE_CARD_TEMPLATE.md",
+      "last_path_commit_date": "2026-07-26",
+      "disposition": "RETAIN",
+      "reason": "Live protocol/tool/scaffold or retained review record",
+      "evidence_or_scope": "Not an unreferenced research/source retirement candidate; existing boot/desk workflows use it. No current source/price refresh asserted."
+    },
+    {
+      "path": "AGENTS/TERRY/TRADE_CARD_TEMPLATE_FIRE.md",
+      "last_path_commit_date": "2026-07-26",
+      "disposition": "RETAIN",
+      "reason": "Live protocol/tool/scaffold or retained review record",
+      "evidence_or_scope": "Not an unreferenced research/source retirement candidate; existing boot/desk workflows use it. No current source/price refresh asserted."
+    },
+    {
+      "path": "AGENTS/TERRY/charts/.gitkeep",
+      "last_path_commit_date": "2026-06-20",
+      "disposition": "RETAIN",
+      "reason": "Live protocol/tool/scaffold or retained review record",
+      "evidence_or_scope": "Not an unreferenced research/source retirement candidate; existing boot/desk workflows use it. No current source/price refresh asserted."
+    },
+    {
+      "path": "AGENTS/TERRY/daytrading/JOURNAL.md",
+      "last_path_commit_date": "2026-08-04",
+      "disposition": "RETAIN",
+      "reason": "Live protocol/tool/scaffold or retained review record",
+      "evidence_or_scope": "Not an unreferenced research/source retirement candidate; existing boot/desk workflows use it. No current source/price refresh asserted."
+    },
+    {
+      "path": "AGENTS/TERRY/daytrading/PROFILE.md",
+      "last_path_commit_date": "2026-08-04",
+      "disposition": "RETAIN",
+      "reason": "Live protocol/tool/scaffold or retained review record",
+      "evidence_or_scope": "Not an unreferenced research/source retirement candidate; existing boot/desk workflows use it. No current source/price refresh asserted."
+    },
+    {
+      "path": "AGENTS/TERRY/daytrading/QQQ_DESK_CARD.md",
+      "last_path_commit_date": "2026-08-04",
+      "disposition": "RETAIN",
+      "reason": "Live protocol/tool/scaffold or retained review record",
+      "evidence_or_scope": "Not an unreferenced research/source retirement candidate; existing boot/desk workflows use it. No current source/price refresh asserted."
+    },
+    {
+      "path": "AGENTS/TERRY/daytrading/README.md",
+      "last_path_commit_date": "2026-06-27",
+      "disposition": "RETAIN",
+      "reason": "Live protocol/tool/scaffold or retained review record",
+      "evidence_or_scope": "Not an unreferenced research/source retirement candidate; existing boot/desk workflows use it. No current source/price refresh asserted."
+    },
+    {
+      "path": "AGENTS/TERRY/grade_config.json",
+      "last_path_commit_date": "2026-06-27",
+      "disposition": "RETAIN",
+      "reason": "Live protocol/tool/scaffold or retained review record",
+      "evidence_or_scope": "Not an unreferenced research/source retirement candidate; existing boot/desk workflows use it. No current source/price refresh asserted."
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/.gitkeep",
+      "last_path_commit_date": "2026-06-20",
+      "disposition": "RETAIN",
+      "reason": "Live protocol/tool/scaffold or retained review record",
+      "evidence_or_scope": "Not an unreferenced research/source retirement candidate; existing boot/desk workflows use it. No current source/price refresh asserted."
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WILL/.gitkeep",
+      "last_path_commit_date": "2026-06-27",
+      "disposition": "RETAIN",
+      "reason": "Live protocol/tool/scaffold or retained review record",
+      "evidence_or_scope": "Not an unreferenced research/source retirement candidate; existing boot/desk workflows use it. No current source/price refresh asserted."
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/WILL/README.md",
+      "last_path_commit_date": "2026-06-27",
+      "disposition": "RETAIN",
+      "reason": "Live protocol/tool/scaffold or retained review record",
+      "evidence_or_scope": "Not an unreferenced research/source retirement candidate; existing boot/desk workflows use it. No current source/price refresh asserted."
+    },
+    {
+      "path": "AGENTS/TERRY/options/IV_CRUSH_PARTA_2026-07-17.md",
+      "last_path_commit_date": "2026-07-17",
+      "disposition": "RETAIN",
+      "reason": "Live methodology source",
+      "evidence_or_scope": "CHART_OPTIONS_WORKFLOW.md \u00a73d; MEMORY.md VRP/grind diagnostics"
+    },
+    {
+      "path": "AGENTS/TERRY/options/TENOR_DISCIPLINE_PARTB_2026-07-17.md",
+      "last_path_commit_date": "2026-07-17",
+      "disposition": "RETAIN",
+      "reason": "Live methodology source",
+      "evidence_or_scope": "CHART_OPTIONS_WORKFLOW.md \u00a73d; MEMORY.md grind-vs-crash finding"
+    },
+    {
+      "path": "AGENTS/TERRY/options/sources/2026-07-17_retail_21dte-reaction_tastytrade-study.md",
+      "last_path_commit_date": "2026-07-17",
+      "disposition": "RETAIN",
+      "reason": "Retained source chain",
+      "evidence_or_scope": "options/RESEARCH.md / IV_CRUSH_PARTA and adopted methodology provenance; no raw claim promoted"
+    },
+    {
+      "path": "AGENTS/TERRY/options/sources/2026-07-17_tastytrade_21dte-management_and_0dte-products.md",
+      "last_path_commit_date": "2026-07-17",
+      "disposition": "RETAIN",
+      "reason": "Retained source chain",
+      "evidence_or_scope": "options/RESEARCH.md graded external doctrine; source age is not a fresh trade premise"
+    },
+    {
+      "path": "AGENTS/TERRY/outbox/.gitkeep",
+      "last_path_commit_date": "2026-06-20",
+      "disposition": "RETAIN",
+      "reason": "Live protocol/tool/scaffold or retained review record",
+      "evidence_or_scope": "Not an unreferenced research/source retirement candidate; existing boot/desk workflows use it. No current source/price refresh asserted."
+    },
+    {
+      "path": "AGENTS/TERRY/qqq/PLAYBOOK.md",
+      "last_path_commit_date": "2026-08-04",
+      "disposition": "RETAIN",
+      "reason": "Live operating guidance",
+      "evidence_or_scope": "POSTMORTEMS.md QQQ cluster lessons; daytrading/PROFILE.md"
+    },
+    {
+      "path": "AGENTS/TERRY/qqq/README.md",
+      "last_path_commit_date": "2026-08-04",
+      "disposition": "RETAIN",
+      "reason": "Active analytical entrypoint",
+      "evidence_or_scope": "Existing qqq/PLAYBOOK and research chain; current inference needs a fresh task, no live price used"
+    },
+    {
+      "path": "AGENTS/TERRY/qqq/RESEARCH.md",
+      "last_path_commit_date": "2026-08-04",
+      "disposition": "RETAIN",
+      "reason": "Live analytical precedent",
+      "evidence_or_scope": "daytrading/PROFILE.md near-high V-cohort qualification"
+    },
+    {
+      "path": "AGENTS/TERRY/qqq/scripts/v_episodes.py",
+      "last_path_commit_date": "2026-08-04",
+      "disposition": "RETAIN",
+      "reason": "Tool supporting live analysis",
+      "evidence_or_scope": "qqq/RESEARCH.md cohort computation"
+    },
+    {
+      "path": "AGENTS/TERRY/research/SIGNAL_COMBINATION_2026-07-26.md",
+      "last_path_commit_date": "2026-07-26",
+      "disposition": "RETAIN",
+      "reason": "Live adopted-method source",
+      "evidence_or_scope": "RISK_SCORING.md effective-N; TRADE_CARD_TEMPLATE.md \u00a76a; MEMORY.md"
+    },
+    {
+      "path": "AGENTS/TERRY/research/sources/2026-07-26_roan_combining-50-weak-signals.txt",
+      "last_path_commit_date": "2026-07-26",
+      "disposition": "RETAIN",
+      "reason": "Live adopted-method source chain",
+      "evidence_or_scope": "SIGNAL_COMBINATION header now points to actual source; no source authentication strengthened"
+    },
+    {
+      "path": "AGENTS/TERRY/scripts/csv_pnl.py",
+      "last_path_commit_date": "2026-06-23",
+      "disposition": "RETAIN",
+      "reason": "Live protocol/tool/scaffold or retained review record",
+      "evidence_or_scope": "Not an unreferenced research/source retirement candidate; existing boot/desk workflows use it. No current source/price refresh asserted."
+    },
+    {
+      "path": "AGENTS/TERRY/scripts/grade_print.py",
+      "last_path_commit_date": "2026-06-27",
+      "disposition": "RETAIN",
+      "reason": "Live protocol/tool/scaffold or retained review record",
+      "evidence_or_scope": "Not an unreferenced research/source retirement candidate; existing boot/desk workflows use it. No current source/price refresh asserted."
+    },
+    {
+      "path": "AGENTS/TERRY/scripts/risk_calc.py",
+      "last_path_commit_date": "2026-06-20",
+      "disposition": "RETAIN",
+      "reason": "Live protocol/tool/scaffold or retained review record",
+      "evidence_or_scope": "Not an unreferenced research/source retirement candidate; existing boot/desk workflows use it. No current source/price refresh asserted."
+    },
+    {
+      "path": "AGENTS/TERRY/setups/.gitkeep",
+      "last_path_commit_date": "2026-06-20",
+      "disposition": "RETAIN",
+      "reason": "Live protocol/tool/scaffold or retained review record",
+      "evidence_or_scope": "Not an unreferenced research/source retirement candidate; existing boot/desk workflows use it. No current source/price refresh asserted."
+    },
+    {
+      "path": "AGENTS/TERRY/setups/2026-08-04_bank-put-reshape-REBUILD.md",
+      "last_path_commit_date": "2026-08-04",
+      "disposition": "RETAIN",
+      "reason": "Historical pre-outcome analytical spec retained",
+      "evidence_or_scope": "POSTMORTEMS.md August21/September3 graded refusal and CALIBRATION.tsv VLY pre-outcome probability chain; header now LAPSED, not a current proposal"
+    },
+    {
+      "path": "AGENTS/TERRY/setups/BRENT_diesel-length-scope_2026-07-26.md",
+      "last_path_commit_date": "2026-07-30",
+      "disposition": "RETAIN",
+      "reason": "Original scope/axis analysis retained",
+      "evidence_or_scope": "Existing refiner/crude scope construction precedent; historical July prices not current inputs"
+    },
+    {
+      "path": "AGENTS/TERRY/setups/HBAN_oct16-16P_two-branch-decision-memo.md",
+      "last_path_commit_date": "2026-07-16",
+      "disposition": "RETAIN",
+      "reason": "Protected dated pending expiry/position",
+      "evidence_or_scope": "HBAN October16 management card and current Wednesday management clock"
+    },
+    {
+      "path": "AGENTS/TERRY/setups/PRINT-TRIGGER_monoline-COF-SYF-ALLY.md",
+      "last_path_commit_date": "2026-07-24",
+      "disposition": "RETAIN",
+      "reason": "Protected staged Q3 event",
+      "evidence_or_scope": "Current INDEX Q3 re-test; no entry before fresh owner evidence/card review"
+    },
+    {
+      "path": "AGENTS/TERRY/setups/WAL_grind-putspread_2026-07-17.md",
+      "last_path_commit_date": "2026-07-26",
+      "disposition": "RETAIN",
+      "reason": "Protected dormant forward construction",
+      "evidence_or_scope": "Current conditional/dormant Jan2027 expression; fresh owner/broker truth required; no July ticket live"
+    },
+    {
+      "path": "AGENTS/TERRY/workbook/.gitkeep",
+      "last_path_commit_date": "2026-06-20",
+      "disposition": "RETAIN",
+      "reason": "Live protocol/tool/scaffold or retained review record",
+      "evidence_or_scope": "Not an unreferenced research/source retirement candidate; existing boot/desk workflows use it. No current source/price refresh asserted."
+    },
+    {
+      "path": "AGENTS/TERRY/workbook/LEDGER_GLOB",
+      "last_path_commit_date": "2026-08-04",
+      "disposition": "RETAIN",
+      "reason": "Live protocol/tool/scaffold or retained review record",
+      "evidence_or_scope": "Not an unreferenced research/source retirement candidate; existing boot/desk workflows use it. No current source/price refresh asserted."
+    }
+  ],
+  "retired_source_files": 0,
+  "other_rotation": "One obsolete September3 TRADE_BOOK batch row rotated verbatim with crc/hash; not a raw-source age-based retirement.",
+  "limits": "Manual retained-source/protocol/active-event assessment. References by stable card/lesson identity are documentary chains, not evidence of current prices. Index-only references were not used to assert current evidence; no whole-foreign-desk inspection or automatic declaration that every dormant hypothesis is fresh."
+}
