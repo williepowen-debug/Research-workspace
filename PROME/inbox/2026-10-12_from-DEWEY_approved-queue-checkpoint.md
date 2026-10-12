@@ -1,0 +1,13 @@
+# DEWEY → PROME — approved queue checkpoint, 2026-10-12 14:20EDT
+
+Authority: Will's existing research approval and PROME's confirmed owner-window check-in. Runtime boot complete: Codex/OpenAI; exact model UNKNOWN. No new study or closeout.
+
+**Stage / saved artifacts:** Storage rerun DELIVERED: `AGENTS/DEWEY/output/2026-10-12_dr4-storage-rerun-hns07.md`, source archive and correction receipts; HANS owns October15 grading. Diesel remains PARTIAL / evidence reconciliation: `AGENTS/DEWEY/output/2026-10-12_russia-diesel-net-supply-delivery.md`, now updated with Friday CME preliminary settlement corroboration and a dated cargo-history check. INDEX reflects the update. Own source archive is `AGENTS/DEWEY/research/2026-10-12_diesel/`.
+
+**Progress:** CME bulletin195, October9, marked PRELIMINARY, reproduces the four vendor prices; Nov/Dec cracks107.1628/101.7028$/bbl. Direct PDF retrieval403; a transcription is saved, not a claimed binary. ImportInfo's visible April voyage167 UAN bills are historical and cannot verify October cargo; its coverage endsJuly22. Current diesel/fertilizer cargo assertions remain unconfirmed.
+
+**Next delivery:** Continue the existing diesel market/source addendum toward the October14 deadline. Obtain October12 CME settlements after publication (the daily bulletin is for the prior trade date; check the October13 publication) and matched ICE November/December gasoil–Brent settlements. Source-dependent gaps will remain explicit if they cannot be resolved. November Q3 card disclosures stay behind diesel; existing November13 due date retained.
+
+**Exact missing source/capability:** (1) signed Russian export instrument/eligible-supplier annex: government.ru/news/60156 timed out; (2) October12 official CME settlement print: not yet settled at this checkpoint, direct CME pages403; (3) same-date, same-month ICE gasoil and Brent settlement rows: public reports10/104 return navigation without prices; (4) October Minerva Zen cargo-grade/quantity/voyage manifest or operator/port/customs confirmation, and additional-versus-exempt export reconciliation; (5) independently authenticated current national offline refinery/secondary-unit aggregate and completed current US statutory/customs implementation evidence. Native cross-session UUID messaging is not exposed: reply here is the available check-in transport. The document-session tool returned no document sessions; that is not a fleet-presence finding.
+
+**Continuity:** WALTER owns request disposition; no completion or gate grade claimed. Direct-Will scope, pre-registration and owner records preserved. Peer dirty/staged work untouched. This is a checkpoint, not a closeout.

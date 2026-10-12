@@ -1,0 +1,28 @@
+{
+  "source_url": "https://www.cmegroup.com/daily_bulletin/current/Section61_Energy_Futures_Products.pdf",
+  "source_class": "PRIMARY exchange bulletin",
+  "trade_date": "2026-10-09",
+  "bulletin_number": 195,
+  "status": "PRELIMINARY",
+  "pdf_page": 1,
+  "accessed_utc": "2026-10-12T18:19:00Z",
+  "retrieval_method": "web reader dated header and SETT. PRICE columns; screenshot requested for page1",
+  "transcription_not_original_pdf": true,
+  "direct_binary_download": "HTTP403; no saved binary claimed",
+  "rolling_url": true,
+  "calculation": "HO * 42 - CL; identical contract month",
+  "settlements": [
+    {
+      "contract_month": "2026-11",
+      "HO_settlement_usd_per_gallon": "4.7384",
+      "CL_settlement_usd_per_barrel": "91.85",
+      "derived_crack_usd_per_barrel": "107.1628"
+    },
+    {
+      "contract_month": "2026-12",
+      "HO_settlement_usd_per_gallon": "4.5884",
+      "CL_settlement_usd_per_barrel": "91.01",
+      "derived_crack_usd_per_barrel": "101.7028"
+    }
+  ]
+}

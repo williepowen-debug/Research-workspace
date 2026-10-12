@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://www.cmegroup.com/daily_bulletin/current/Section61_Energy_Futures_Products.pdf",
+    "retrieved_utc": "2026-10-12T18:19:46.939379+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.importinfo.com/vessel/minerva-zen/9410909",
+    "retrieved_utc": "2026-10-12T18:19:47.067701+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "path": "research/2026-10-12_diesel/minerva-zen-9410909-history-20261012.html",
+    "sha256": "8e8541915f57635f735cc160da495c8d3e70a83e1a8ba49eeb71f077bacdc3ee",
+    "bytes": 56061
+  }
+]
