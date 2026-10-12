@@ -10,6 +10,10 @@ Post-core nudge now onlySETUPS/board remained: SETUPS subsequently updated with 
 
 Publication: fresh14:53 origin confirmed earlier f5a5271fd/d6062b88a/9dedd595b/b6aac5105/cd9fc65dd, final76e14f8d2/1e6fba55f absent then. No later publication check or TERRY push; core/late sweep local-only. Prior automatic review rejected specific research-payload export to GitHub; specific approval remains pending. No alternate/peer push or pull/stash/foreign restoration. Native installed `codex queue` help has now been verified locally; earlier tool-inventory absence was a scoped observation, not permanent impossibility. A post-commit coordination pointer may follow to the existing authorized PROME callback; receipt recorded only if obtained.
 
+## Actual pointer notification — 2026-10-12T15:09:29-04:00
+
+Delivery packet committed **9b86f1062**. Supported installed `codex queue --thread --message` was verified from CLI help after the committed PROME route report; no raw endpoint or alternative transport guessed. Explicit technical escalation approved this local coordination notice. **Accepted queue id01a13184-2b73-75d3-a6e7-77340081704a**, existing requested PROME thread01a130f9-9935-7fa2-b5cf-42c41652c9a3. Pointer names repairse2f797d6e/source-gradefdeb3336b/delivery9b86f1062, exact sweep NOTE/L372 and remaining acceptance/source duties. A send receipt is notification acceptance only; this sweep/L372 recipient consumption remains unestablished. The earlier categorical native-gap shorthand in continuing state is superseded by this actual receipt, while earlier tool-inventory observations remain dated history. No GitHub push/permission bypass, helper, capital action or lifecycle closeout.
+
 ## COMPLETION — TERRY — 2026-10-12
 STATUS: DONE (authorized file sweep; named external/source duties remain open)
 CHANGED: Owned report/evidence, guards, cards/ledgers/continuity; self-authored PROME/BRENT packets; 2 fully consumed incoming packets filed.
