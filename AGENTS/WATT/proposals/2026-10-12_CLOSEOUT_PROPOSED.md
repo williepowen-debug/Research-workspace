@@ -1,6 +1,8 @@
 # PROPOSED — WATT closeout procedure
 
-**Not active.** Prepared October 12, 2026 at Will's request for comparison/recommendation. Proposed successor to `CLAUDE.md`'s local CLOSEOUT PROTOCOL block; root Git rules and `PROME/COMPLETION_SPEC.md` remain canonical. No existing rule or permission is changed by saving this draft.
+**SUPERSEDED 2026-10-12 — approved and implemented at [`../CLOSEOUT.md`](../CLOSEOUT.md).** Will's direct approval: “Okay please implement your proposed improvements and edits.” The text below is the original proposal, preserved as decision history; use CLOSEOUT.md for the active procedure. The optional runner remains separate.
+
+**Original proposal status:** prepared October 12, 2026 at Will's request for comparison/recommendation. Proposed successor to `CLAUDE.md`'s local CLOSEOUT PROTOCOL block; root Git rules and `PROME/COMPLETION_SPEC.md` remain canonical. Saving the original draft did not change an existing rule or permission.
 
 ## When and how much
 

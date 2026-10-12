@@ -181,7 +181,7 @@ READ_CAP_PHYSICAL = 54_250        # past this a Read returns a partial file, sil
 READ_CAP_ROTATE_AT = int(READ_CAP_BUDGET * 0.75)    # 24,412
 READ_CAP_ROTATE_STOP = int(READ_CAP_BUDGET * 0.70)  # 22,785
 assert (READ_CAP_ROTATE_AT, READ_CAP_ROTATE_STOP) == (24_412, 22_785)
-BOOT_READ_SURFACES = ("STATUS.md", "SCRATCH.md", "workbook/PREDICTIONS.tsv")
+BOOT_READ_SURFACES = ("STATUS.md", "SCRATCH.md", "CLOSEOUT.md", "workbook/PREDICTIONS.tsv")
 STATUS_ARCHIVE_DIR = HERE / "status_archive"
 
 

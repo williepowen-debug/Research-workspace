@@ -9,13 +9,15 @@
 
 ---
 
-## CURRENT PICKUP — 2026-10-12 12:31 ET; window closed on Will's instruction
+## CURRENT PICKUP — 2026-10-12 12:48 ET; approved closeout procedure implemented
 
 **Source boundary:** records/procedure closeout only. No new PJM/FERC pull; power evidence remains **October 12 10:35 EPT**. P1/P2/P3/P4 **5/5/4/2**, composite16/20. WATT-10 MISS is final; WATT-08 (~50% DoorB) and WATT-09 remain OPEN. No trade or threshold change.
 
 **Completed:** L654 morning primary checks and four-item inbox drain; FERC order grade; owner-consumer packets; native Codex queue verification. **PROME consumed** report/state427c1280f and deliveryd9127ded0 at `PROME/reports/2026-10-12_WATT-L654-L200-consumption.md` (30770e3bb). Prior research/status/queue/limitation commits published, verified against fresh origin657703deb. Historical automatic-review rejections are retained; **no approval or retry owed for that published work**. Other consumer acknowledgments remain unknown.
 
-**Requested comparison:** `reports/2026-10-12_closeout-procedure-comparison.md`; draft `proposals/2026-10-12_CLOSEOUT_PROPOSED.md`. Recommend BOND's finish discipline + BRENT's source/write-back reconciliation + WALTER's receipt reconciliation. **Proposal only:** CLAUDE.md unchanged, no runner installed. User asked for recommendations; no new implementation commissioned.
+**Approved implementation:** Will directly approved “Okay please implement your proposed improvements and edits.” Active `CLOSEOUT.md` now owns checkpoint/standard/heavy modes, affected-surface reconciliation, one current pickup, explicit checks, final brief/source pin and publication/consumption reconciliation. CLAUDE.md points to it at boot and every ending. Existing boot byte-budget check now includes CLOSEOUT.md; boundary and missing-file cases passed. Original proposal is SUPERSEDED and preserved. Comparison remains decision history. **Optional dedicated runner is separate; none installed.**
+
+**This touch:** heavy protocol amendment, records only; no market pull, score/threshold/prediction change or trade. Unchanged VX/FLOW/THESIS/TRADE retain their real vintages. Implementation validation and delivery are recorded in the existing dated closeout receipt. Prior current handoff preserved verbatim at `archive/SCRATCH_ARCHIVE_2026-10-12_before-protocol-implementation.md`.
 
 ## NEXT OWNER TOUCH — registered event work, not automatic monitoring
 
@@ -26,4 +28,4 @@
 
 **Unresolved owner carry:** hedged/floating exposure owed to VULCAN; 6.5 GW gap; Appalachian basis/NG=F settlement clock; ERCOT Cal-27 discriminator. Details remain at STATUS OPEN and prediction rows; do not restate as newly measured.
 
-**Operational continuity:** WATT session UUID 01a1308e-b0ab-7f00-883d-408ac1b2bd07 observed in this window; PROME queue target 01a1307b-f614-76b3-8caf-49b226027079 verified. A new window must discover its own identity/capabilities, not reuse this UUID. Startup pull deferred for foreign dirty work; exact owned-path commits only. Closing delivery and new-commit publication receipt are reported separately. Prior SCRATCH preserved at `archive/SCRATCH_ARCHIVE_2026-10-12_pre-final-closeout.md`.
+**Operational continuity:** WATT session UUID 01a1308e-b0ab-7f00-883d-408ac1b2bd07 observed in this window; PROME queue target 01a1307b-f614-76b3-8caf-49b226027079 verified. A new window must discover its own identity/capabilities, not reuse this UUID. Startup pull deferred for foreign dirty work; exact owned-path commits only. Prior closeout commits 1daa463c8/d26f0cad5 were confirmed on origin; this approved amendment has its own delivery/publication observation at return. Prior SCRATCH preserved at `archive/SCRATCH_ARCHIVE_2026-10-12_pre-final-closeout.md`.

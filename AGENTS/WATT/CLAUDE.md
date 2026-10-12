@@ -28,6 +28,7 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 1. **Sync from GitHub** — follow root CLAUDE.md §Git Protocol "Before pulling".
 2. **Read `SCRATCH.md`** — where you left off; the single most important "pick up here."
 3. **Read `STATUS.md`** — convergence matrix, live channel reads, exit triad, BOTTOM LINE.
+3a. **Read `CLOSEOUT.md`** — the active closeout sequence and source/write-back map; apply it at every ending. Procedure reference, not a fresh-data claim.
 4. **Run `boot.py`** — `python3 "$(git rev-parse --show-toplevel)/AGENTS/WATT/boot.py"` — runs `power_watch.py` (**5 legs:** ① PJM emergency postings · ② EIA-930 demand vs 24h peak · ③ retail-price backdrop · ④ EIA ICE wholesale proxy + spark spread · ⑤ **official PJM Data Miner 2 5-min LMP**, live since 7/16, needs `PJM_API_KEY`), ledger staleness (`--days 7`), and the predictions-due scan. rc 0 = quiet · 1 = emergency-class posting OR prediction due — REVIEW · 2 = a fetch/parse leg failed (check manually, never assume quiet). *(Leg count corrected 2026-08-17 — this line and the FILES table said "3 legs" for a month after leg-4/5 shipped; PAT-052 rot, flagged by DAEDALUS 7/22.)*
 5. **Resolve predictions** — scan `workbook/PREDICTIONS.tsv` for past-trigger rows → mark HIT / MISS / FALSIFIED; log resolution to KB.tsv; never leave OPEN-but-stale.
 6. **Process `inbox/`** — integrate each signal, log a KB.tsv row, move to `inbox/processed/`.
@@ -37,14 +38,7 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 
 ## CLOSEOUT PROTOCOL (before idle)
 
-1. **Update `STATUS.md`** — matrix scores, live reads (sourced + dated), exit triad fired-count, refreshed BOTTOM LINE.
-2. **Log to workbook** — new facts → `KB.tsv`; vector state changes → `VX.tsv`; new/confirmed pathways → `FLOW.tsv`; new forecasts → `PREDICTIONS.tsv` (WATT-NN).
-3. **Continuity** — append a dated note to `SCRATCH.md` (next-session pickup); add any new durable lesson to `LESSONS.md`.
-4. **Writeback `NEXUS_BRIEF.md`** — curated cross-agent sync (every closeout). `outbox/` only for 🔴 crisis (async). Compact "curated cross-agent sync" variant is sanctioned for this seat (NEXUS schema **amendment 9**, Will-approved 2026-07-31): routing-table-FIRST, no §VIEW/§CALIBRATION headers; keep header stamp + as-of + WAITING-FOR. ⚠️ **Revert to the full schema** at the next brief refresh if WATT reaches **≥3 persistent live cross-agent edges** OR starts carrying a **thesis version** — the blessing travels with the narrowness of the seam, not the name.
-   > ⚠️ **ORDERING RULE (NEXUS schema amendment 10, RATIFIED 2026-07-31, Will-approved):** the brief fold is the session's **LAST write-back — after the final STATUS write, immediately before git commit.** Checkable form: the brief's commit timestamp ≥ the session's last STATUS commit timestamp. *Why it's an ordering rule and not a reminder: the 7/31 fleet audit found 5-of-5 content-stale briefs had refreshed and then kept working; **zero** had skipped the refresh. Refreshing early and continuing to work is the dominant staleness mechanism — only the ordering closes it.*
-5. **Git** — commit own files per root CLAUDE.md §Git Protocol (pathspec `AGENTS/WATT/`) + auto-push via `scripts/safe-push.sh` (ff-gated; non-ff → `git pull --rebase`, never force). (See GIT PROTOCOL below.)
-
-> **Boot↔Closeout symmetry:** what you read at boot (SCRATCH, STATUS, PREDICTIONS), you write back at closeout. The anti-rot force.
+**Read and execute [`CLOSEOUT.md`](CLOSEOUT.md) at every session ending.** It owns WATT's checkpoint/standard/heavy modes, affected-surface reconciliation, current pickup, checks, final brief fold and bounded receipt. Approved directly by Will on 2026-10-12; supersedes the former five-step checklist. Root `CLAUDE.md` and `PROME/COMPLETION_SPEC.md` retain their authority.
 
 ---
 
@@ -170,7 +164,7 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 ## GIT PROTOCOL (fleet standard — root CLAUDE.md §Git Protocol owns the rules; cite, don't restate)
 
 - Pathspec: `AGENTS/WATT/` — path-scoped commits only, run from repo root.
-- Auto-push at closeout via `scripts/safe-push.sh` (ff-gated, fails safe). Non-ff abort → `git pull --rebase` + re-push; NEVER force.
+- Publication and any non-ff recovery follow root `CLAUDE.md` §Git Protocol, including its dirty-path overlap check. Technical rejection/publication reconciliation follows `CLOSEOUT.md` C8; this desk file adds no Git permission.
 - **Note:** `power_watch.py` imports the shared FORGE EIA client (`FORGE/tools/market-data/fetch.py`) by self-location — the client stays in FORGE (shared). If you extend `fetch.py`, that's a FORGE edit — flag to PROME (get Will's OK), don't commit it under this pathspec.
 
 ---
@@ -180,12 +174,13 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 | File | Purpose |
 |------|---------|
 | `STATUS.md` | Live state — convergence matrix, live channel reads, exit triad, BOTTOM LINE. **Primary memory.** Byte budget = the fleet read-cap **32,550 B** (root `CLAUDE.md` §Data Hygiene; canon `AGENTS/DAEDALUS/BLUEPRINTS/READ_CAP.md`), enforced by `boot.py` leg 3. At **≥24,412 B (75%)** rotate the oldest history blocks **verbatim** into `status_archive/` until **<22,785 B (70%)**. **Rotation, never deletion; never trim live state to hit the number.** *(The old "<64,000 B / 48,000 / 44,800" tier was retired 2026-09-25 → STATUS archive Block BG; this line replaced 2026-10-09, DAEDALUS Prose-Remedy #1.)* |
+| `CLOSEOUT.md` | Active closeout procedure; mandatory boot read and every-ending reference. Checkpoint/standard/heavy modes, dependency map, final brief order and receipt reconciliation. |
 | `THESIS.md` | Per-channel transmission-stage tables (where the richness lives). |
 | `TRADE.md` | Domain trade ideas (IPP equities, power-event calls) feeding PROME synthesis. Carry a FROZEN banner or live mtime alert — never silent-rot (blueprint §8). |
 | `boot.py` | Boot instrument: `power_watch.py` (rc **OR** alert-marker) + ledger staleness (`--days 7`) + **STATUS byte budget** + predictions-due. cwd-proof; self-locating. |
 | `power_watch.py` | PJM instrument, **5 legs**: ① emergency postings · ② EIA-930 demand vs 24h peak · ③ retail backdrop · ④ EIA ICE wholesale proxy + spark spread (**backdrop only — ~12-day lag**) · ⑤ official **Data Miner 2** 5-min LMP (`PJM_API_KEY`). ⚠️ **DM2 verified hourly (`rt_hrl_lmps`) lags ~4 DAYS, not 1 business day** — measured 8/17 (KB-WATT-081). Imports the shared FORGE `fetch.py`. |
 | `KILL_MEMO.md` | Pre-written cascade ladder — what to do WHEN a conjunction trigger fires, written cold and **decoupled from STATUS rewrites** (CLAUDE.md THRESHOLDS clause). |
-| `SCRATCH.md` | Immediate next-session continuity — "pick up here." Read at boot, append at closeout. |
+| `SCRATCH.md` | Immediate next-session continuity — one current pickup block. Read at boot; reconcile current handoff at closeout, archive superseded narrative verbatim under CLOSEOUT.md C4. |
 | `NEXUS_BRIEF.md` | Curated cross-agent sync, written back every closeout (blueprint §6). |
 | `LESSONS.md` | Durable agent-level learning — domain & process lessons accrued over sessions. |
 | `workbook/KB.tsv` | Knowledge base (power-market → econ linkages, sourced). **Permanent record.** |
@@ -199,4 +194,4 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 ---
 
 ## BOTTOM LINE (update every session)
-End STATUS.md with 2–4 plain-language sentences: power-stress state now, the single most important channel reading, what's next. If it hasn't changed, your session produced no signal.
+End STATUS.md with 2–4 plain-language sentences: power-stress state, the most important channel reading with its source cutoff, and what's next. A records-only closeout states that no new market signal was produced; a record-maintenance stamp never freshens an older reading.

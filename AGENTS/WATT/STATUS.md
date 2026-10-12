@@ -1,6 +1,6 @@
 # WATT — STATUS
 
-**Last Updated:** 2026-10-12 12:31 ET — **final records-only closeout**, Will-directed; power observation remains **2026-10-12 10:35 EPT**, no new tape/DOE read. P1 **5 HELD**; WATT-10 **MISS**; WATT-08 **~50% OPEN**. Composite **16/20** unchanged.
+**Last Updated:** 2026-10-12 12:48 ET — **approved protocol implementation, records only**; market observation remains **2026-10-12 10:35 EPT**, no new tape/DOE pull. P1 **5 HELD**; WATT-10 **MISS**; WATT-08 **~50% OPEN**; composite **16/20** unchanged.
 **Class:** Market-agent (grid stress → power price → power cost) · **Spawnable by:** PROME or Will · **Maturity:** **L4 (Conf H)** *(DAEDALUS 2026-09-05)*
 **Read-cap budget:** **32,550 B** per boot-read surface (root `CLAUDE.md` §Data Hygiene; binding above any owner number). Old "64,000 B" line retired → archive Block BG.
 **Superseded content →** `status_archive/STATUS_ARCHIVE_2026-10.md` (Oct rotations; Blocks BH– moved 10/9) · `status_archive/STATUS_ARCHIVE_2026-09.md` (Sept rotations, per-block bytes + crc32 in its manifests; Blocks L–AC moved 9/11; **AD–AW moved 9/25**) · `status_archive/STATUS_ARCHIVE_2026-08.md` (**CLOSED**) · `archive/SCRATCH_ARCHIVE_2026-07-08.md`
@@ -9,7 +9,7 @@
 
 > **October 12 L654:** morning max **$52.90/MWh through 10:35 EPT**; no EEA-class posting. Advisories extend October 12–14; maintenance recall due October 14 noon. PJM replaced a one-minute “obtained” DOE notice with “requested”; new issuance UNKNOWN. **WATT-10 MISS**; **WATT-08 ~50% OPEN**. Report and KB-WATT-138…144 carry evidence and caveats.
 
-> **Closeout coordination:** PROME's exact consumption and publication receipt is `PROME/reports/2026-10-12_WATT-L654-L200-consumption.md` (30770e3bb); prior “pending publication/approval” warnings are superseded. Existing event follow-ups registered L692/L693. Procedure comparison saved; protocol unchanged.
+> **Closeout coordination:** PROME's exact consumption and publication receipt is `PROME/reports/2026-10-12_WATT-L654-L200-consumption.md` (30770e3bb); prior “pending publication/approval” warnings are superseded. Existing event follow-ups registered L692/L693. Will approved the comparison’s documentation revision: active `CLOSEOUT.md`, CLAUDE boot/ending pointer and boot read-cap wiring implemented. No dedicated runner or new market observation.
 
 ---
 
@@ -80,7 +80,7 @@
 
 ---
 
-## OPEN ON WATT (compact — working detail lives in `SCRATCH.md` § PICK UP HERE; one home per fact)
+## OPEN ON WATT (compact — working detail lives in `SCRATCH.md` § CURRENT PICKUP; one home per fact)
 
 *Closed items through 9/11 → archive Block BD.*
 
