@@ -2,7 +2,7 @@
 
 **Last real data refresh: 2026-10-12 11:16 EDT — SCOPED-PARTIAL L689 issuer/relief source reads:** market quotes remain10:26EDT, L633 physical evidence still Sunday/morning. One conditional candidate; no ticket. MondayMMA/refinery run-states/CMEsettle/broker receipt unrefreshed. [MEMO](research/2026-10-12_L689-energy-opportunities/MEMO.md).
 
-**Delivery checkpoint 2026-10-12 11:16 EDT:** L689 memo saved; later-today observations remain owed. No window closeout requested.
+**Will-directed closeout 2026-10-12 12:20 EDT:** L689 accepted; TERRY PASS. L694 approved, deferred to fresh context; L633/afternoon work owed. Resume → [SCRATCH](SCRATCH.md). No new data refresh.
 
 **Routine deployment stays parked** at the [CATO handoff](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et); saved repair is complete, live deployment/normal-run acceptance unresolved. No trade approval changed. Position status and USO card correction → [TRADE](TRADE.md).
 
@@ -13,9 +13,7 @@
 
 ## October12 — L689 AVAILABLE-EVIDENCE OPPORTUNITY MEMO → [MEMO](research/2026-10-12_L689-energy-opportunities/MEMO.md)
 
-**One conditional candidate / zero trade-ready recommendations:** functioning refiner product-margin resilience (MPC lead, PSX comparison, existing VLO book comparator). Offshore restart has evidence; slower refinery restart does not. Crude relief can precede product relief, but higher runs/delivered diesel/weak demand can reverse the margin advantage. No unpriced stock opportunity or new VLO add established. L689 approvalacbb3931d is research only; stand-down, TERRY grading and Will trade authority unchanged.
-
-**Relief:** DOE confirms prior-award acceleration and November–December crude schedule; no new event-specific delivery tally. IEA supplemental diesel still an assessment. DEWEY partial net-Russian-supply output inspected, finalOctober14; no new study. Earnings clocks issuer-confirmed: VLOOctober22, PSXOctober28, MPCNovember3.
+**L689 accepted / TERRY PASS / zero new capital:** conditional MPC margin-resilience candidate, PSX comparison, held VLO comparator. Slower refinery recovery and mispricing unproved; DOE/IEA relief definitions and DEWEY dependency in [MEMO](research/2026-10-12_L689-energy-opportunities/MEMO.md). PROME consumed `3d772a7d3`; TERRY card `163664085` exceeds the cap at dated vendor screening costs and lacks physical/edge/book evidence. No repeat screen or VLO add. L694 approval preserves the next bounded domain question across reset; full authority at `PROME/proposals/2026-10-12_opportunity-discovery-APPROVED.md`.
 
 **L633 stays PARTIAL:** Sunday survey remains latest obtained, Shell five-asset no-damage scope and Mobile port recovery only. Four refinery run-states still GAP; no authenticated slower-restart comparison. Later-today survey/operator and post14:30 WQ420 measurements outstanding. **10:26EDT dated diagnostic:** WTI Nov/Dec$93.84/$92.97,+$0.87 backwardation; diesel$105.43/$100.30. No new market/settlement/broker pull. [Prior research](research/2026-10-12_resume-l633/REPORT.md).
 

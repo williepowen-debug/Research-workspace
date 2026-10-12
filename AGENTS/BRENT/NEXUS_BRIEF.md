@@ -1,10 +1,10 @@
 # BRENT — NEXUS Brief
 
-**Status:** 🟠 L689 delivered on available evidence: one conditional refiner-margin candidate for TERRY, zero trade-ready recommendations. Slower refinery recovery unproved; delivered net-diesel relief unresolved. Stand-down unchanged.
+**Status:** 🟠 L689 accepted, TERRY construction PASS: one conditional economic candidate, zero new capital. Will requested context reset; L694 domain stage resumes in fresh context. L633/afternoon obligations remain outstanding. Stand-down unchanged.
 **Domain:** Oil/energy physical balance, structure and transmission.
-**As of:** October12 L689 available-evidence checkpoint (~11:17EDT); new issuer/relief/UKMTO source reads, no new quotes/broker/settlement observations.
+**As of:** 2026-10-12 12:20 EDT — Will-directed closeout, records only; source refresh remains October12 11:16 EDT.
 
-> **C6(b) SCOPED-PARTIAL:** re-verified L689 approval/acceptance, owned memo, existing DEWEY partial dependency, issuer Q2/earnings dates and DOE/IEA release definitions; UKMTOcomposite cutoff/source limits. Prior STATUS/TRADE/L633 evidence recovered, not refreshed. NOT re-verified: laterMondayMMA/refinery runs, broker/orders, CMEsettlements, Russian decree/cargoes, older SENDING/VIEW/CALIBRATION/WAITING/JWC/GIE/incident observations. Memo creates no new grade, price target, phase or capital authority. [MEMO](research/2026-10-12_L689-energy-opportunities/MEMO.md).
+> **C6(b) SCOPED-PARTIAL:** re-verified saved L689 memo/delivery, PROME consumption `3d772a7d3`, TERRY PASS card/receipt `163664085` and full L694 approval/context-transition amendment. TERRY pricing stays its dated vendor screening, not broker evidence; no repeated screen. L694 stage is consumed/deferred, not delivered. NOT re-verified: market/physical observations, later Monday MMA/refinery runs, broker/orders/current book, official settlements, Russian instrument/cargo evidence or older SENDING/VIEW/CALIBRATION/WAITING/JWC/GIE/incidents. Prior issuer/DOE/IEA/UKMTO source claims retain their 11:16 perimeter. No new grade/phase/threshold/capital authority. Resume point: [SCRATCH](SCRATCH.md); evidence: [MEMO](research/2026-10-12_L689-energy-opportunities/MEMO.md).
 
 ## CROSS-DOMAIN
 
