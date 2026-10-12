@@ -1,0 +1,45 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [likely YOURS] PROME/inbox/2026-10-12_from-WALTER_resume-2057-boot.md
+     [not yours]    AGENTS/MIDAS/CLAUDE.md
+     [not yours]    AGENTS/MIDAS/NEXUS_BRIEF.md
+     [not yours]    AGENTS/MIDAS/OPEN_ITEMS.md
+     [not yours]    AGENTS/MIDAS/SCRATCH.md
+     [not yours]    AGENTS/MIDAS/STATUS.md
+     [not yours]    AGENTS/MIDAS/THESIS.md
+     [not yours]    AGENTS/MIDAS/analysis/2026-10-12_boot-read-byte-receipt.json
+     [not yours]    AGENTS/MIDAS/analysis/2026-10-12_due-metals-review-held-GLD.md
+     [not yours]    AGENTS/MIDAS/analysis/NEXUS_BRIEF_ARCHIVE_2026-10.md
+     [not yours]    AGENTS/MIDAS/analysis/OPEN_ITEMS_ARCHIVE_2026-10.md
+     [not yours]    AGENTS/MIDAS/analysis/SCRATCH_ARCHIVE_2026-10.md
+     [not yours]    AGENTS/MIDAS/analysis/STATUS_ARCHIVE_2026-10.md
+     [not yours]    AGENTS/MIDAS/board_log.tsv
+     [not yours]    AGENTS/MIDAS/boot.py
+     [not yours]    AGENTS/MIDAS/metals_watch.py
+     [not yours]    AGENTS/MIDAS/registry/corrections_receipts.tsv
+     [not yours]    AGENTS/MIDAS/sources/2026-10-12_review/
+     [not yours]    AGENTS/MIDAS/sources/SOURCES.md
+     [not yours]    AGENTS/MIDAS/sources/cot_metals_vintages_consumed.tsv
+     [not yours]    AGENTS/MIDAS/sources/cot_vintages_consumed.tsv
+     [not yours]    AGENTS/MIDAS/test_boot_cot_metals.py
+     [not yours]    AGENTS/MIDAS/workbook/FLOW.tsv
+     [not yours]    AGENTS/MIDAS/workbook/KB.tsv
+     [not yours]    AGENTS/MIDAS/workbook/VX.tsv
+     [not yours]    AGENTS/TERRY/research/2026-10-11_WQ418-WQ420-integration-receipt.md
+     [not yours]    AGENTS/YURI/CLAUDE.md
+     [not yours]    AGENTS/YURI/STATUS.md
+     [not yours]    AGENTS/YURI/registry/
+     [not yours]    AGENTS/YURI/research/2026-10-12_BOOT_CHECK_ACCEPTANCE.md
+     [not yours]    AGENTS/YURI/research/2026-10-12_actor-review-and-diesel-instruments.md
+     [not yours]    AGENTS/YURI/scripts/
+     [not yours]    AGENTS/YURI/sources/
+     [not yours]    AGENTS/YURI/workbook/INTENT_LEDGER.tsv
+
+🔴 THE FLAGGED FILES LOOK LIKE PACKETS YOU AUTHORED.
+   If you do not commit them they never reach the recipient, and the recipient
+   is never told anything was sent. Committing files you authored into another
+   agent's inbox is the ONE sanctioned exception to the pathspec rule.
+
+   git add <paths> && git commit <paths> -m "WALTER -> <recipient>: <what>"
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

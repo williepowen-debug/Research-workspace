@@ -1,0 +1,9 @@
+{
+  "assessed_at": "2026-10-12T21:03:47.423253+00:00",
+  "cutoff": "2026-08-13T21:03:47.423253+00:00",
+  "scanned": 585,
+  "candidates": [],
+  "unknown": [],
+  "age_basis": "last path commit timestamp; underlying source vintages not refreshed",
+  "disposition": "No age-eligible tracked candidate; no move required"
+}

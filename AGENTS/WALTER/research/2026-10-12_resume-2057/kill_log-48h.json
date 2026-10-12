@@ -1,0 +1,418 @@
+[
+  {
+    "Date": "2026-10-11T20:28:06Z",
+    "Origin": "RESEARCH-INTAKE lane BM-20261011-01 item 11: Revelio Labs 8/11",
+    "Summary": "Group 1001 Insurance employee count / headcount data page",
+    "Failed_Gate": "Relevance (data-vendor page; WATCH_FOR false positive on SHADE 'Group 1001 Insurance')",
+    "Confidence": "0.05",
+    "Notes": "SHADE watch row noise"
+  },
+  {
+    "Date": "2026-10-11T20:28:06Z",
+    "Origin": "RESEARCH-INTAKE lane BM-20261011-01 item 12: Business Wire 2025-11-12",
+    "Summary": "Group 1001 wins 2025 Gartner Eye on Innovation award",
+    "Failed_Gate": "Novelty + Relevance (2025 PR; no risk content)",
+    "Confidence": "0.05",
+    "Notes": "SHADE watch row noise"
+  },
+  {
+    "Date": "2026-10-11T20:28:06Z",
+    "Origin": "RESEARCH-INTAKE lane BM-20261011-01 item 24: Seeking Alpha 10/7",
+    "Summary": "Stocks at highs, junk bonds at lows: history says the next quarter lags",
+    "Failed_Gate": "Relevance (opinion; no new data)",
+    "Confidence": "0.2",
+    "Notes": "LIQUID credit-spreads watch"
+  },
+  {
+    "Date": "2026-10-11T20:28:06Z",
+    "Origin": "RESEARCH-INTAKE lane BM-20261011-01 item 25: Adam Tooze Substack 10/8",
+    "Summary": "Stocks of oil plunge; junk bonds + AI VC under pressure",
+    "Failed_Gate": "Relevance (newsletter commentary; no primary data)",
+    "Confidence": "0.2",
+    "Notes": ""
+  },
+  {
+    "Date": "2026-10-11T20:28:06Z",
+    "Origin": "RESEARCH-INTAKE lane BM-20261011-01 item 26: 9to5Mac/TrendForce 10/9",
+    "Summary": "TrendForce warns of higher notebook prices and weaker demand in 2027",
+    "Failed_Gate": "Relevance (component-vendor forecast, no capex figure)",
+    "Confidence": "0.2",
+    "Notes": "VULCAN watch; consistent with the memory-tightness read"
+  },
+  {
+    "Date": "2026-10-11T20:28:06Z",
+    "Origin": "RESEARCH-INTAKE lane BM-20261011-01 item 27: TrendForce 10/9",
+    "Summary": "NVIDIA NVHBM reshapes base-die strategies (Micron, Samsung, TSMC)",
+    "Failed_Gate": "Relevance (technology roadmap; no capex/pricing figure)",
+    "Confidence": "0.2",
+    "Notes": "VULCAN watch"
+  },
+  {
+    "Date": "2026-10-11T20:28:06Z",
+    "Origin": "RESEARCH-INTAKE lane BM-20261011-01 item 28: MacroMicro 2026-08-21",
+    "Summary": "The era of compute securitization: will AI repeat 2008 subprime?",
+    "Failed_Gate": "Novelty (dated 8/21) + Relevance (commentary)",
+    "Confidence": "0.15",
+    "Notes": "first gpu-obsolescence-4 lane hit (rows 5a3b083 live); financing story already SIG-W-20261010-009"
+  },
+  {
+    "Date": "2026-10-11T20:28:06Z",
+    "Origin": "RESEARCH-INTAKE lane BM-20261011-01 item 29: Arab News 2026-09-26",
+    "Summary": "The French connection: why Paris is helping protect Yanbu oil port",
+    "Failed_Gate": "Novelty (dated 9/26; Yanbu state since superseded)",
+    "Confidence": "0.15",
+    "Notes": "FALCON/BRENT theater; back-catalogue surfaced by saudi-redsea rows"
+  },
+  {
+    "Date": "2026-10-11T20:28:06Z",
+    "Origin": "RESEARCH-INTAKE lane BM-20261011-01 item 34: Benzinga 10/10",
+    "Summary": "Dry beer taps, glove shortages and record tanker rates trace back to Hormuz",
+    "Failed_Gate": "Relevance (aggregate colour; no new figure; tanker rates already SIG-W-20261010-008)",
+    "Confidence": "0.15",
+    "Notes": ""
+  },
+  {
+    "Date": "2026-10-11T20:28:06Z",
+    "Origin": "RESEARCH-INTAKE lane BM-20261011-01 item 35: TrendForce (Jun-Aug 2026)",
+    "Summary": "Memory pricing/NAND/SSD back-catalogue release",
+    "Failed_Gate": "Novelty (dated 6/11-8/18)",
+    "Confidence": "0.1",
+    "Notes": "VULCAN memory-pricing rows surfaced old releases"
+  },
+  {
+    "Date": "2026-10-11T20:28:06Z",
+    "Origin": "RESEARCH-INTAKE lane BM-20261011-01 item 36: TrendForce (Jun-Aug 2026)",
+    "Summary": "Memory pricing/NAND/SSD back-catalogue release",
+    "Failed_Gate": "Novelty (dated 6/11-8/18)",
+    "Confidence": "0.1",
+    "Notes": "VULCAN memory-pricing rows surfaced old releases"
+  },
+  {
+    "Date": "2026-10-11T20:28:06Z",
+    "Origin": "RESEARCH-INTAKE lane BM-20261011-01 item 37: TrendForce (Jun-Aug 2026)",
+    "Summary": "Memory pricing/NAND/SSD back-catalogue release",
+    "Failed_Gate": "Novelty (dated 6/11-8/18)",
+    "Confidence": "0.1",
+    "Notes": "VULCAN memory-pricing rows surfaced old releases"
+  },
+  {
+    "Date": "2026-10-11T20:28:06Z",
+    "Origin": "RESEARCH-INTAKE lane BM-20261011-01 item 38: TrendForce (Jun-Aug 2026)",
+    "Summary": "Memory pricing/NAND/SSD back-catalogue release",
+    "Failed_Gate": "Novelty (dated 6/11-8/18)",
+    "Confidence": "0.1",
+    "Notes": "VULCAN memory-pricing rows surfaced old releases"
+  },
+  {
+    "Date": "2026-10-11T20:28:06Z",
+    "Origin": "RESEARCH-INTAKE lane BM-20261011-01 item 39: Substack 10/9",
+    "Summary": "Six bank failures in 2026, and Nano Banc won't be the last",
+    "Failed_Gate": "Credibility + Relevance (blog; the FDIC failed-bank list is the primary)",
+    "Confidence": "0.2",
+    "Notes": "CREED watch 'Nano Banc'; Nano Banc already SIG-W-20260927-004..006"
+  },
+  {
+    "Date": "2026-10-11T20:28:06Z",
+    "Origin": "RESEARCH-INTAKE lane BM-20261011-01 item 42: Seeking Alpha 10/10",
+    "Summary": "Bloom Energy: Oracle's Project Jupiter is not what keeps me up at night (downgrade)",
+    "Failed_Gate": "Relevance (single-author opinion)",
+    "Confidence": "0.15",
+    "Notes": "Oracle Jupiter gas already SIG-W-20261009-012"
+  },
+  {
+    "Date": "2026-10-11T20:32:37Z",
+    "Origin": "Will X-bookmark BM-20261011-02 item 3: @aj_geo_analysis 2026-10-08",
+    "Summary": "Gulf of Aden is the chokepoint everyone is missing (13% of global trade, 30% of containers, 8% of LNG)",
+    "Failed_Gate": "Relevance + guard (commentary; trade-share percentages are the ADD#13 kill class)",
+    "Confidence": "0.15",
+    "Notes": "Will-originated; body read"
+  },
+  {
+    "Date": "2026-10-11T20:32:37Z",
+    "Origin": "Will X-bookmark BM-20261011-02 item 10: @MarhelmData 2026-10-11",
+    "Summary": "Container carriers scheduled 58 blank sailings for China's Golden Week",
+    "Failed_Gate": "Relevance (seasonal schedule; cf SIG-W-20261001-008)",
+    "Confidence": "0.15",
+    "Notes": "Will-originated; body read"
+  },
+  {
+    "Date": "2026-10-11T20:32:37Z",
+    "Origin": "Will X-bookmark BM-20261011-02 item 22: @GoshawkTrades 2026-10-09",
+    "Summary": "Ackman: passive owns the float, pods set the price",
+    "Failed_Gate": "Relevance (interview commentary; no data)",
+    "Confidence": "0.1",
+    "Notes": "Will-originated; body read"
+  },
+  {
+    "Date": "2026-10-11T20:39:41Z",
+    "Origin": "Will X-bookmark BM-20261011-02 item 4: @PaulMSmithphoto 2026-10-10",
+    "Summary": "'this could get messy if true' + image",
+    "Failed_Gate": "Relevance (image = NOAA SWPC solar-wind jump ~14:30Z 10/10, space weather; not Gulf/markets)",
+    "Confidence": "0.05",
+    "Notes": "Will-originated; image read by WALTER verify agent"
+  },
+  {
+    "Date": "2026-10-12T14:47:30Z",
+    "Origin": "RESEARCH-INTAKE stale-local Oct09 snapshot before approved sync; East Daley",
+    "Summary": "A US Diesel Export Ban Would Also Roil NGL Markets - East Daley",
+    "Failed_Gate": "Novelty/Relevance",
+    "Confidence": "0.9",
+    "Notes": "SIG-W-20261009-014 hypothetical US-ban analysis already dispositioned; BM-20261012-01 item1"
+  },
+  {
+    "Date": "2026-10-12T14:47:30Z",
+    "Origin": "RESEARCH-INTAKE stale-local Oct09 snapshot before approved sync; Energy Intelligence",
+    "Summary": "Russia Weighs Partial Lifting of Diesel Export Ban - Energy Intelligence",
+    "Failed_Gate": "Novelty/Relevance",
+    "Confidence": "0.9",
+    "Notes": "SIG-W-20261009-014 and SIG-W-20261010-003 export-instrument follow-through; BM-20261012-01 item2"
+  },
+  {
+    "Date": "2026-10-12T14:47:30Z",
+    "Origin": "RESEARCH-INTAKE stale-local Oct09 snapshot before approved sync; Rigzone",
+    "Summary": "Ukraine Says It Attacked 4th Russian Refinery This Week - Rigzone",
+    "Failed_Gate": "Novelty/Relevance",
+    "Confidence": "0.9",
+    "Notes": "SIG-W-20261009-014 same Bloomberg wire; BM-20261012-01 item4"
+  },
+  {
+    "Date": "2026-10-12T14:47:30Z",
+    "Origin": "RESEARCH-INTAKE stale-local Oct09 snapshot before approved sync; Bloomberg.com",
+    "Summary": "Ukraine Says It Attacked Fourth Russian Refinery This Week - Bloomberg.com",
+    "Failed_Gate": "Novelty/Relevance",
+    "Confidence": "0.9",
+    "Notes": "SIG-W-20261009-014 same Bloomberg wire; BM-20261012-01 item5"
+  },
+  {
+    "Date": "2026-10-12T14:47:30Z",
+    "Origin": "RESEARCH-INTAKE stale-local Oct09 snapshot before approved sync; WAJR",
+    "Summary": "Harrison County-based Traffic company faces mass layoffs after contract loss - WAJR",
+    "Failed_Gate": "Novelty/Relevance",
+    "Confidence": "0.9",
+    "Notes": "kill_log 2026-10-09 local Traffic employer below materiality; BM-20261012-01 item6"
+  },
+  {
+    "Date": "2026-10-12T14:47:30Z",
+    "Origin": "RESEARCH-INTAKE stale-local Oct09 snapshot before approved sync; MarketBeat",
+    "Summary": "Ares Commercial Real Estate (NYSE:ACRE) Price Target Cut to $4.50 by Analysts at Keefe, Bruyette & Woods - MarketBeat",
+    "Failed_Gate": "Novelty/Relevance",
+    "Confidence": "0.9",
+    "Notes": "kill_log 2026-10-09 KBW price target not gas/credit event; BM-20261012-01 item8"
+  },
+  {
+    "Date": "2026-10-12T14:47:30Z",
+    "Origin": "RESEARCH-INTAKE stale-local Oct09 snapshot before approved sync; Finimize",
+    "Summary": "Many Major Countries Aren’t Ready For a Bank Failure - Finimize",
+    "Failed_Gate": "Novelty/Relevance",
+    "Confidence": "0.9",
+    "Notes": "kill_log 2026-10-09 Finimize generic report, reopen on primary/named institutions; BM-20261012-01 item9"
+  },
+  {
+    "Date": "2026-10-12T14:47:30Z",
+    "Origin": "RESEARCH-INTAKE stale-local Oct09 snapshot before approved sync; Bloomberg.com",
+    "Summary": "Subprime Auto Loans Make Wall Street Rich as Borrowers Struggle - Bloomberg.com",
+    "Failed_Gate": "Novelty/Relevance",
+    "Confidence": "0.9",
+    "Notes": "kill_log 2026-10-01 Bloomberg feature, no new extractable data; BM-20261012-01 item10"
+  },
+  {
+    "Date": "2026-10-12T14:47:30Z",
+    "Origin": "RESEARCH-INTAKE stale-local Oct09 snapshot before approved sync; Yahoo Finance",
+    "Summary": "Subprime Auto Loans Just Hit Their Worst Delinquency Rate in 32 Years. Here's What It Means for Lenders. - Yahoo Finance",
+    "Failed_Gate": "Novelty/Relevance",
+    "Confidence": "0.9",
+    "Notes": "kill_log 2026-10-09 July11 vintage; BM-20261012-01 item11"
+  },
+  {
+    "Date": "2026-10-12T14:47:30Z",
+    "Origin": "RESEARCH-INTAKE stale-local Oct09 snapshot before approved sync; Davis+Gilbert LLP",
+    "Summary": "Reuters Legal News | Lighting the Match - Subprime Auto ABS Structure Comes Under Attack - Davis+Gilbert LLP",
+    "Failed_Gate": "Novelty/Relevance",
+    "Confidence": "0.9",
+    "Notes": "kill_log 2026-10-09 June10 vintage; BM-20261012-01 item12"
+  },
+  {
+    "Date": "2026-10-12T14:47:30Z",
+    "Origin": "RESEARCH-INTAKE stale-local Oct09 snapshot before approved sync; Tallahassee Democrat",
+    "Summary": "Isaias incoming: Video hurricane forecast ahead of Florida landfall - Tallahassee Democrat",
+    "Failed_Gate": "Novelty/Relevance",
+    "Confidence": "0.9",
+    "Notes": "SIG-W-20261009-003 hurricane forecast overtaken by landfall; BM-20261012-01 item13"
+  },
+  {
+    "Date": "2026-10-12T14:47:30Z",
+    "Origin": "RESEARCH-INTAKE stale-local Oct09 snapshot before approved sync; The Economic Times",
+    "Summary": "France, Saudi Arabia still studying options to protect Yanbu terminal, army chief says - The Economic Times",
+    "Failed_Gate": "Novelty/Relevance",
+    "Confidence": "0.9",
+    "Notes": "SIG-W-20261008-043 same French study-phase statement; BM-20261012-01 item14"
+  },
+  {
+    "Date": "2026-10-12T14:47:30Z",
+    "Origin": "RESEARCH-INTAKE stale-local Oct09 snapshot before approved sync; Industrial Info",
+    "Summary": "Saudi Arabia Yanbu Refinery Still Operating, Industrial Info Conf... - Industrial Info",
+    "Failed_Gate": "Novelty/Relevance",
+    "Confidence": "0.9",
+    "Notes": "kill_log 2026-10-09 September17 refinery story; BM-20261012-01 item15"
+  },
+  {
+    "Date": "2026-10-12T14:47:30Z",
+    "Origin": "RESEARCH-INTAKE stale-local Oct09 snapshot before approved sync; Telecompaper",
+    "Summary": "Next-generation lasers set for surge in AI data centre demand - TrendForce - Telecompaper",
+    "Failed_Gate": "Novelty/Relevance",
+    "Confidence": "0.9",
+    "Notes": "kill_log 2026-10-09 component forecast below materiality; BM-20261012-01 item16"
+  },
+  {
+    "Date": "2026-10-12T14:47:30Z",
+    "Origin": "RESEARCH-INTAKE stale-local Oct09 snapshot before approved sync; The Moscow Times",
+    "Summary": "OPEC+ Agrees to Keep November Oil Output Targets Steady - The Moscow Times",
+    "Failed_Gate": "Novelty/Relevance",
+    "Confidence": "0.9",
+    "Notes": "SIG-W-20261004-002 OPEC November targets; BM-20261012-01 item17"
+  },
+  {
+    "Date": "2026-10-12T14:47:30Z",
+    "Origin": "RESEARCH-INTAKE stale-local Oct09 snapshot before approved sync; kalkine.ca",
+    "Summary": "Heating Oil Eases Toward $4.50: Valero (NYSE:VLO), Chevron (NYSE:CVX) in Focus - kalkine.ca",
+    "Failed_Gate": "Novelty/Relevance",
+    "Confidence": "0.9",
+    "Notes": "October6 commentary; no new named/settled price, current named pulls supersede context; BM-20261012-01 item18"
+  },
+  {
+    "Date": "2026-10-12T14:47:30Z",
+    "Origin": "RESEARCH-INTAKE stale-local Oct09 snapshot before approved sync; Crude Oil Prices Today | OilPrice.com",
+    "Summary": "Hormuz Crisis Leaves EU Gas Storage Short Heading Into Winter - Crude Oil Prices Today | OilPrice.com",
+    "Failed_Gate": "Novelty/Relevance",
+    "Confidence": "0.9",
+    "Notes": "SIG-W-20261009-013 storage basis and already-open HANS states; BM-20261012-01 item19"
+  },
+  {
+    "Date": "2026-10-12T14:47:30Z",
+    "Origin": "RESEARCH-INTAKE stale-local Oct09 snapshot before approved sync; Pipeline and Gas Journal",
+    "Summary": "ENTSOG: EU gas storage enters winter 72% full as LNG import capacity carries the balance - Pipeline and Gas Journal",
+    "Failed_Gate": "Novelty/Relevance",
+    "Confidence": "0.9",
+    "Notes": "SIG-W-20261009-013 ENTSOG same context; BM-20261012-01 item20"
+  },
+  {
+    "Date": "2026-10-12T14:47:30Z",
+    "Origin": "RESEARCH-INTAKE stale-local Oct09 snapshot before approved sync; thecradle.co",
+    "Summary": "US-Israeli war on Iran leaves EU gas storage at record low ahead of winter - thecradle.co",
+    "Failed_Gate": "Novelty/Relevance",
+    "Confidence": "0.9",
+    "Notes": "Already-covered storage shortage; no new dated primary metric or changed observation basis; BM-20261012-01 item21"
+  },
+  {
+    "Date": "2026-10-12T17:01:48Z",
+    "Origin": "x-bookmark @FirstSquawk 2109581459795415045",
+    "Summary": "Bookmark item 1 bounded disposition",
+    "Failed_Gate": "Novelty",
+    "Confidence": "0.4",
+    "Notes": "Novelty: general supply-squeeze rhetoric; Aramco indexed Oct12 speech supports quote, full direct read timed out; no new asset/volume state inferred."
+  },
+  {
+    "Date": "2026-10-12T17:01:48Z",
+    "Origin": "x-bookmark @rdd147 2109369707258376657",
+    "Summary": "Bookmark item 12 bounded disposition",
+    "Failed_Gate": "Relevance/Credibility",
+    "Confidence": "0.4",
+    "Notes": "Relevance/Credibility: single attraction peak ticket pricing is not an aggregate services-inflation measure. Historical-largest claim not established; no TLT grade."
+  },
+  {
+    "Date": "2026-10-12T17:01:48Z",
+    "Origin": "x-bookmark @paulswaney3 2109337947380085040",
+    "Summary": "Bookmark item 15 bounded disposition",
+    "Failed_Gate": "Relevance",
+    "Confidence": "0.4",
+    "Notes": "Relevance: read2 available screenshots; source datedAug21 about July deposition/allegations, denial retained. No new judgment, distressed asset, credit-loss or current catalyst established."
+  },
+  {
+    "Date": "2026-10-12T17:01:48Z",
+    "Origin": "x-bookmark @FirstSquawk 2109463656937517286",
+    "Summary": "Bookmark item 17 bounded disposition",
+    "Failed_Gate": "Relevance",
+    "Confidence": "0.4",
+    "Notes": "Relevance: generic Japan domestic shorter-budget cruise headline; no quantified exposure to CCL/RCL/NCLH or new registered demand grade."
+  },
+  {
+    "Date": "2026-10-12T17:01:48Z",
+    "Origin": "x-bookmark @rdd147 2109451603665355097",
+    "Summary": "Bookmark item 18 bounded disposition",
+    "Failed_Gate": "Novelty",
+    "Confidence": "0.4",
+    "Notes": "Novelty: AI-generated CoreWeave/Exodus analogy image read; existing neocloud credit coverage SIG-W-20260709-001. Financial comparison/quotes not independently audited; no new measured credit state."
+  },
+  {
+    "Date": "2026-10-12T17:01:48Z",
+    "Origin": "x-bookmark @RedboxWire 2109454382257602804",
+    "Summary": "Bookmark item 19 bounded disposition",
+    "Failed_Gate": "Relevance",
+    "Confidence": "0.4",
+    "Notes": "Relevance: gross seven-day repo headline at unchanged rate; no net withdrawal/injection, state change or peg funding breach established."
+  },
+  {
+    "Date": "2026-10-12T17:01:48Z",
+    "Origin": "x-bookmark @FirstSquawk 2109429653823996030",
+    "Summary": "Bookmark item 21 bounded disposition",
+    "Failed_Gate": "Relevance",
+    "Confidence": "0.4",
+    "Notes": "Relevance: exploratory regional cooperation/pipeline MOU headline; no financed project, operating capacity or implemented supply change established."
+  },
+  {
+    "Date": "2026-10-12T17:01:48Z",
+    "Origin": "x-bookmark @WeatherNation 2109422543794806971",
+    "Summary": "Bookmark item 26 bounded disposition",
+    "Failed_Gate": "Relevance",
+    "Confidence": "0.4",
+    "Notes": "Relevance: intentionally flood-tolerant Linq parking-garage visual; no named uninsured asset loss/closure or macro transmission established. Video not obtained; no absence-of-damage claim."
+  },
+  {
+    "Date": "2026-10-12T17:36:30Z",
+    "Origin": "x-bookmark @MerruX 2109611389660651580",
+    "Summary": "Bookmark item 2 recovered disposition",
+    "Failed_Gate": "Novelty",
+    "Confidence": "0.6",
+    "Notes": "Image read: Brent grade151.33/151.35 and Dated BFO131.20/131.22, vendor/date unauthenticated. Existing BRENT physical-premium state covers substance; no current150 benchmark or absent-supply conclusion. See bookmark-recovery.md."
+  },
+  {
+    "Date": "2026-10-12T17:36:30Z",
+    "Origin": "x-bookmark @RealJohnGaltFla 2109634420076405167",
+    "Summary": "Bookmark item 8 recovered disposition",
+    "Failed_Gate": "Novelty",
+    "Confidence": "0.6",
+    "Notes": "GIF thumbnail read: candy-filled bath reaction; raw authenticated entities point to item9 DeItaone already DUP SIG-W-20261010-003. No new economic datum."
+  },
+  {
+    "Date": "2026-10-12T17:36:30Z",
+    "Origin": "x-bookmark @michaeljburry 2109245844062970108",
+    "Summary": "Bookmark item 13 recovered disposition",
+    "Failed_Gate": "Novelty",
+    "Confidence": "0.6",
+    "Notes": "WSJ canonical link confirmed by publisher homepage; author/lede read, full body unavailable (direct401), no Unlocker request. Existing HOMER builder incentives/margins cover substance; Burry demographic/ROIC assertions not adopted."
+  },
+  {
+    "Date": "2026-10-12T17:36:30Z",
+    "Origin": "x-bookmark @DarioCpx 2109484667024105620",
+    "Summary": "Bookmark item 16 recovered disposition",
+    "Failed_Gate": "Novelty",
+    "Confidence": "0.6",
+    "Notes": "Urals image read129.17/+4.23%; TE matches Oct8 CFD quote, later English Oct9 page118.23. Not a current cargo assessment or arbitrage equality. Existing BRENT physical stress; no Brent/WTI should-price inference."
+  },
+  {
+    "Date": "2026-10-12T17:36:30Z",
+    "Origin": "x-bookmark @rdd147 2109442110508417134",
+    "Summary": "Bookmark item 25 recovered disposition",
+    "Failed_Gate": "Novelty",
+    "Confidence": "0.6",
+    "Notes": "Novelty: illustrated historical internet-boom analogy, dates Sep1999–Mar2000, unverified analyst quotations; not uniformly six months precrash and no new current measurement or contract event."
+  },
+  {
+    "Date": "2026-10-12T19:08:49Z",
+    "Origin": "OZK committed Wauwatosa standalone packet",
+    "Summary": "Same broker/property sale evidence folded into SIG-W-20261012-022; no second event or bank recovery datum",
+    "Failed_Gate": "Novelty",
+    "Confidence": "0.85",
+    "Notes": "BM-20261012-04 item12 duplicate ofitem7; two packets do not provide two independent sources."
+  }
+]

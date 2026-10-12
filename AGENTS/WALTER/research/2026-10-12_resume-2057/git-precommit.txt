@@ -1,0 +1,72 @@
+ M AGENTS/MIDAS/CLAUDE.md
+ M AGENTS/MIDAS/LESSONS.md
+ M AGENTS/MIDAS/NEXUS_BRIEF.md
+ M AGENTS/MIDAS/OPEN_ITEMS.md
+ M AGENTS/MIDAS/SCRATCH.md
+ M AGENTS/MIDAS/STATUS.md
+ M AGENTS/MIDAS/THESIS.md
+ M AGENTS/MIDAS/board_log.tsv
+ M AGENTS/MIDAS/boot.py
+ M AGENTS/MIDAS/metals_watch.py
+ M AGENTS/MIDAS/registry/corrections_receipts.tsv
+ M AGENTS/MIDAS/sources/SOURCES.md
+ M AGENTS/MIDAS/sources/cot_vintages_consumed.tsv
+ M AGENTS/MIDAS/workbook/FLOW.tsv
+ M AGENTS/MIDAS/workbook/KB.tsv
+ M AGENTS/MIDAS/workbook/VX.tsv
+ M AGENTS/WALTER/LAST_COMPLETION.md
+ M AGENTS/WALTER/MEMORY.md
+ M AGENTS/WALTER/REGISTRY.tsv
+ M AGENTS/WALTER/SESSION_LOG.md
+ M AGENTS/WALTER/STATUS.md
+ M AGENTS/WALTER/registry/intake_seen.json
+ M AGENTS/WALTER/routed/delivery_log.tsv
+ M AGENTS/YURI/CLAUDE.md
+ M AGENTS/YURI/STATUS.md
+ M AGENTS/YURI/board_log.tsv
+R  AGENTS/YURI/inbox/WALTER/2026-10-04_routing-row-shipped.md -> AGENTS/YURI/inbox/WALTER/processed/2026-10-04_routing-row-shipped.md
+R  AGENTS/YURI/inbox/WALTER/SIG-W-20261002-033.md -> AGENTS/YURI/inbox/WALTER/processed/SIG-W-20261002-033.md
+R  AGENTS/YURI/inbox/WALTER/SIG-W-20261005-003.md -> AGENTS/YURI/inbox/WALTER/processed/SIG-W-20261005-003.md
+R  AGENTS/YURI/inbox/WALTER/SIG-W-20261005-004.md -> AGENTS/YURI/inbox/WALTER/processed/SIG-W-20261005-004.md
+R  AGENTS/YURI/inbox/WALTER/SIG-W-20261008-007.md -> AGENTS/YURI/inbox/WALTER/processed/SIG-W-20261008-007.md
+R  AGENTS/YURI/inbox/WALTER/SIG-W-20261008-010.md -> AGENTS/YURI/inbox/WALTER/processed/SIG-W-20261008-010.md
+R  AGENTS/YURI/inbox/WALTER/SIG-W-20261008-023.md -> AGENTS/YURI/inbox/WALTER/processed/SIG-W-20261008-023.md
+R  AGENTS/YURI/inbox/WALTER/SIG-W-20261008-033.md -> AGENTS/YURI/inbox/WALTER/processed/SIG-W-20261008-033.md
+R  AGENTS/YURI/inbox/WALTER/SIG-W-20261008-039.md -> AGENTS/YURI/inbox/WALTER/processed/SIG-W-20261008-039.md
+R  AGENTS/YURI/inbox/WALTER/SIG-W-20261008-048.md -> AGENTS/YURI/inbox/WALTER/processed/SIG-W-20261008-048.md
+R  AGENTS/YURI/inbox/WALTER/SIG-W-20261009-014.md -> AGENTS/YURI/inbox/WALTER/processed/SIG-W-20261009-014.md
+R  AGENTS/YURI/inbox/WALTER/SIG-W-20261010-003.md -> AGENTS/YURI/inbox/WALTER/processed/SIG-W-20261010-003.md
+R  AGENTS/YURI/inbox/WALTER/SIG-W-20261011-001.md -> AGENTS/YURI/inbox/WALTER/processed/SIG-W-20261011-001.md
+R  AGENTS/YURI/inbox/WALTER/SIG-W-20261011-004.md -> AGENTS/YURI/inbox/WALTER/processed/SIG-W-20261011-004.md
+R  AGENTS/YURI/inbox/WALTER/SIG-W-20261012-016.md -> AGENTS/YURI/inbox/WALTER/processed/SIG-W-20261012-016.md
+R  AGENTS/YURI/inbox/WALTER/SIG-W-20261012-030.md -> AGENTS/YURI/inbox/WALTER/processed/SIG-W-20261012-030.md
+R  AGENTS/YURI/inbox/2026-10-10_from-OSPREY_diesel-ban-lift-confounds-c1-tell-instrument-ask.md -> AGENTS/YURI/inbox/processed/2026-10-10_from-OSPREY_diesel-ban-lift-confounds-c1-tell-instrument-ask.md
+R  AGENTS/YURI/inbox/2026-10-12_from-DEWEY_diesel-current-cargo-addendum.md -> AGENTS/YURI/inbox/processed/2026-10-12_from-DEWEY_diesel-current-cargo-addendum.md
+R  AGENTS/YURI/inbox/2026-10-12_from-DEWEY_diesel-evidence-checkpoint.md -> AGENTS/YURI/inbox/processed/2026-10-12_from-DEWEY_diesel-evidence-checkpoint.md
+R  AGENTS/YURI/inbox/2026-10-12_from-DEWEY_russia-diesel-net-supply.md -> AGENTS/YURI/inbox/processed/2026-10-12_from-DEWEY_russia-diesel-net-supply.md
+ M AGENTS/YURI/workbook/INTENT_LEDGER.tsv
+?? AGENTS/BOND/inbox/2026-10-12_from-MIDAS_due-metals-gld-rate-sensitivity.md
+?? AGENTS/DAEDALUS/inbox/2026-10-12_from-MIDAS_L546-and-prose-remedy-dispositions.md
+?? AGENTS/HAWK/inbox/2026-10-12_from-MIDAS_pgm-balance-and-closed-instrument-ask.md
+?? AGENTS/HENRY/inbox/2026-10-12_from-MIDAS_metals-growth-and-precious-reads.md
+?? AGENTS/LIQUID/inbox/2026-10-12_from-MIDAS_gold-flows-and-unscored-metal-bands.md
+?? AGENTS/MIDAS/analysis/2026-10-12_boot-read-byte-receipt.json
+?? AGENTS/MIDAS/analysis/2026-10-12_due-metals-review-held-GLD.md
+?? AGENTS/MIDAS/analysis/NEXUS_BRIEF_ARCHIVE_2026-10.md
+?? AGENTS/MIDAS/analysis/OPEN_ITEMS_ARCHIVE_2026-10.md
+?? AGENTS/MIDAS/analysis/SCRATCH_ARCHIVE_2026-10.md
+?? AGENTS/MIDAS/analysis/STATUS_ARCHIVE_2026-10.md
+?? AGENTS/MIDAS/sources/2026-10-12_review/
+?? AGENTS/MIDAS/sources/cot_metals_vintages_consumed.tsv
+?? AGENTS/MIDAS/test_boot_cot_metals.py
+?? AGENTS/TERRY/inbox/2026-10-12_from-MIDAS_held-17-GLD-current-rate-context.md
+?? AGENTS/TERRY/research/2026-10-11_WQ418-WQ420-integration-receipt.md
+?? AGENTS/WALTER/inbox/2026-10-12_from-MIDAS_current-context-COT-and-primary-metal-review.md
+?? AGENTS/WALTER/research/2026-10-12_resume-2057/
+?? AGENTS/YURI/registry/
+?? AGENTS/YURI/research/2026-10-12_BOOT_CHECK_ACCEPTANCE.md
+?? AGENTS/YURI/research/2026-10-12_actor-review-and-diesel-instruments.md
+?? AGENTS/YURI/scripts/
+?? AGENTS/YURI/sources/
+?? AGENTS/ZHAO/inbox/2026-10-12_from-MIDAS_september-construction-rebound-copper.md
+?? PROME/inbox/2026-10-12_from-WALTER_resume-2057-boot.md

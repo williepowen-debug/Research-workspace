@@ -1,0 +1,145 @@
+[
+  {
+    "date": "2026-10-21",
+    "window": "~late Oct 2026 (OZK Q3 call) [DATE EST]",
+    "event": "IQHQ RaDD maturity RESOLUTION (Aug maturity itself likely passes with NO print)",
+    "bear_signal": "~$129M weighted EL on $555M funded (OZK 7/23 re-weight) -- D-foreclosure 17% or a B-migration that recognizes",
+    "bull_signal": "Executed multi-year extension + recap, pass-rated, <$140M -- OZK-09 FALSE immediately",
+    "red_threshold": "OZK 4-scenario tree A30/B45/C8/D17; OZK-09 at 45%; Option-2 window FROZEN (Will-approved 7/23): recognition counts through Q4'26 print if no executed extension",
+    "priority": "🔴",
+    "status": "pending",
+    "notes": "RE-ANCHORED S33 2026-08-20 and the RE-ANCHOR IS THE FINDING, not the date. Was '2026-08-XX / 🔴 / pending' -- an UNDATED red row that boot.py rendered as 'T-~-5'. (1) THE AUGUST MATURITY IS NOT A RESOLVING EVENT: OZK mgmt on the 7/22 call said multi-year extension + recap in negotiation (sponsor + mezz lender engaged), interest paid from pre-established reserves, 'will remain a pass-rated credit', '~92 days' to disclosure -> OZK's own STATUS says 'likely no Aug print'. A-extend 30% + B-migration 45% = ~75% of the tree produces NOTHING observable in August. (2) SO AN AUGUST THAT PASSES QUIETLY IS THE MODAL PATH AND MUST NOT BE SCORED AS BENIGN -- this is the WAL V4 class exactly (a window expiring unfired while a 🔴 row sat pointing at it), and the OZK-09 Option-2 ruling already covers it: recognition counts through the Q4'26 print if no extension is EXECUTED. Silence is not resolution. (3) STALE FIGURE CORRECTED, and it was mine: this row carried '$140M weighted EL' -- OZK re-weighted to ~$129M on 7/23 (Will-approved, A30/B45/C8/D17, OZK-09 52->45). RED was carrying the owner's superseded number for 28 days. (4) DATE IS AN ESTIMATE AND IS LABELLED ONE (ML-173 -- the tilde that cost six surfaces on WAL V4): derived from mgmt's '~92 days' on 7/22 + OZK's Q2 cadence (Jul 21 AMC / call Jul 22), NOT from a confirmed release notice. Re-verify against OZK's own docket before grading. OWNER IS OZK; RED tracks the read-across only (structural bank leg = OZK + EGBN). Prior notes: Core OZK thesis catalyst."
+  },
+  {
+    "date": "2026-10-16",
+    "window": "medium",
+    "event": "HBAN/TLT Oct expire",
+    "bear_signal": "DC-corridor + BOJ June outcome / Q4 supply",
+    "bull_signal": "—",
+    "red_threshold": "Post-BOJ-June read",
+    "priority": "🟡",
+    "status": "pending",
+    "notes": "Duration + regional"
+  },
+  {
+    "date": "2026-12-18",
+    "window": "medium",
+    "event": "KRE Dec $60P x7 / APO Dec $95P expire",
+    "bear_signal": "Long-dated structural",
+    "bull_signal": "—",
+    "red_threshold": "Long-dated structural core",
+    "priority": "🟡",
+    "status": "pending",
+    "notes": "Best-surviving structural vehicle"
+  },
+  {
+    "date": "2026-12-15",
+    "window": "medium",
+    "event": "Winter 2026-27 FL assessment-default / snowbird-$ window (CORAL+MARCO gate)",
+    "bear_signal": "Special-assessment defaults + snowbird demand fail = forced-sale trigger fires",
+    "bull_signal": "Lock-in/freeze holds, assessments absorbed, snowbird $ returns",
+    "red_threshold": "FL acute-crash gate (the 30pct tail) -- needs a forced-sale trigger",
+    "priority": "🟡",
+    "status": "pending",
+    "notes": "FL = shared-antecedent of WAL/OZK CRE (KB-RED-052); disc = criticized->realized NCO >1 FL bank"
+  },
+  {
+    "date": "2026-10-14",
+    "window": "near",
+    "event": "September CPI [DATE VERIFIED 7/24: Wed 10/14 08:30 ET, not ~10/13] - CHG-028 ACTUAL resolution window, print 1 of 2",
+    "bear_signal": "core/services ex-shelter + core goods + airfares accelerate = oil->core transmission CONFIRMED, Stag holds/raises",
+    "bull_signal": "core stays soft through a realized energy shock = CHG-028 FALSIFIED, Stag -",
+    "red_threshold": "CHG-RED-028 re-anchored here 7/24 S25; TWO consecutive prints required",
+    "priority": "🔴",
+    "status": "pending",
+    "notes": "PRE-WRITTEN TREE S50 2026-10-01 -> research/2026-10-14_SEPT_CPI_DECISION_TREE.md. FT-08 fires at a published core 0.3 (Table A governs; 3-mo 3.25), not at 0.2 (2.84). Cleveland nowcast core +0.20 (10/01), so P(fire) ~25-35%. On fire: Stag +3 (Managed -2 / Soft -1). CHG-028 leg 1 is recorded, and the verdict waits for 11/10. // RE-ANCHOR RATIONALE: CHG-028 is a CORE/SERVICES falsifier. It was re-dated to 8/13 in S24 on a premise that was wrong TWICE - (1) wrong arithmetic (CARL's catch, the oil does not land there) and (2) WRONG CHANNEL (RED's own error, uncaught by CARL): oil->core is a 2-6 MONTH channel, so a core falsifier cannot resolve on the first headline-energy print in ANY month. Single-month subcomponent moves do not resolve it (auto-mem feedback_single_month_subcomponent_skepticism)"
+  },
+  {
+    "date": "2026-11-10",
+    "window": "near",
+    "event": "October CPI [DATE VERIFIED 7/24: Tue 11/10 08:30 ET - my estimate was CORRECT] - CHG-028 resolution print 2 of 2",
+    "bear_signal": "second consecutive core/services acceleration = transmission confirmed",
+    "bull_signal": "second consecutive soft core = CHG-028 falsified on the pair",
+    "red_threshold": "the confirming leg; do not resolve CHG-028 off print 1 alone",
+    "priority": "🔴",
+    "status": "pending",
+    "notes": "ADDED 7/24 S25 with the 10/13 row. Two-print requirement is the whole point of the re-anchor"
+  },
+  {
+    "date": "2026-11-30",
+    "window": "medium",
+    "event": "BRK-32 resolves (BROCK; Q3 tender amplitude) - CHG-RED-044 falsifiers F2/F3 resolve with it",
+    "bear_signal": "PERSISTS on both lenses AND Leg C unfilled-$B up = compounding real (and RED's sub-read split moot this cycle)",
+    "bull_signal": "CLEARING or NO-CALL-DIVERGENT = BRK-30-letter-vs-thesis diagnosis prints; F2/F3 grade",
+    "red_threshold": "grade CHG-RED-044 falsifiers vs branches; BRK-30 letter resolves earlier 10/15",
+    "priority": "🟡",
+    "status": "pending",
+    "notes": "Companion: BDC marks 8/4-8/6 feed the same channel (CHG-027)"
+  },
+  {
+    "date": "2026-10-21",
+    "window": "~10/21 AMC (aggregator estimate; company-UNCONFIRMED - re-date at the notice, expected ~10/7)",
+    "event": "EGBN Q3 2026 - CHG-027 successor discriminator (clearing vs deterioration)",
+    "bear_signal": "annualized NCO >=2.25pct OR NPL inflows exceed reductions -> fresh problem formation, structural leg re-broadens on evidence",
+    "bull_signal": "annualized NCO <=1.75pct AND NPAs decline again -> the Q2 charge-off spike was disposition/clearing, the EGBN leg FALLS and CHG-027 capitulation review RUNS at that point",
+    "red_threshold": "NUMERIC BRANCHES PRE-REGISTERED S28b w/ explicit NO-VERDICT band 1.75-2.25pct + NPAs flat. Q2 baseline: NCO 2.78pct annualized ($47.9M), NPAs $113.1M = 1.17pct of assets, inflows $36.0M vs reductions $53.7M",
+    "priority": "HIGH",
+    "status": "pending",
+    "notes": "RE-DATED S50 2026-10-01 from 2026-10-31: EGBN's pattern is release after the close, call the next morning (Q3-25 call 10/23/2025; Q2-26 call 7/23/2026; Q1-26 call 4/23/2026), and aggregators (Earnings Whispers) carry ~10/21 AMC. The notice usually comes ~2 weeks ahead (7/8 for 7/23). PROME DOCKET L35 carries 10/20, packeted. // S28b: registered pre-data so CHG-027 cannot drift again. EGBN is now the SOLE leg holding the gate open; structural bear leg = OZK + EGBN, two names."
+  },
+  {
+    "date": "2026-11-15",
+    "window": "medium",
+    "event": "Nov 2026 HHDC (Q3 data) - CARL full-thesis KILL RULE resolves as written (CHG-RED-045)",
+    "bear_signal": "CC 90+ does NOT decline a 2nd consecutive quarter -> kill does not fire, CARL thesis survives on its own terms",
+    "bull_signal": "CC 90+ declines a 2nd consecutive quarter -> the registered full-thesis kill FIRES (claims <220K 8+wk leg already satisfied at 199K)",
+    "red_threshold": "RED ruling delivered PRE-DATA 8/12: GRADE AS WRITTEN. Any dollar leg added must be SYMMETRIC (able to FIRE the kill, not only block it) and registered before Q3 exists - an exit-only amendment is a ratchet",
+    "priority": "🟠",
+    "status": "pending",
+    "notes": "CHG-RED-045. Watch for a re-spec landing between now and Nov: if a dollar leg appears that can only block, that is the scored finding."
+  },
+  {
+    "date": "2026-10-16",
+    "window": "near",
+    "event": "LIQUID LIQ-07 S1/S2 verdict (10th published session after the 9/30 trigger; funding prints publish 10/15-10/16) - RED red-team packet 4b0a16d64 asks due beside it",
+    "bear_signal": "S1: a funding leg reads within +/-10 sessions, OR HYG/JNK shares-outstanding redemptions persist while CCC-B widens (the loop the letter cannot see)",
+    "bull_signal": "S2 on the letter with RED context legs (SWPT/WORAL, A2P2-AA CP, long-end auctions) also quiet",
+    "red_threshold": "LIQUID owns the grade; RED checks the 4 asks were answered (S1 base-rate date fix 10/31 -> 11/28-12/01; HYG/JNK share count; context rows; S2 defined as no reserve-scarcity loop)",
+    "priority": "medium",
+    "status": "pending",
+    "notes": "Registered 2026-10-01 S49b (ML-RED-270). RED moves no weight on either branch; LIQ-07 is LIQUID's letter."
+  },
+  {
+    "date": "2026-10-20",
+    "window": "near",
+    "event": "CARL Q3 discriminators for the DR-3 premium leg due before the Q3 prints (AXP / COF / SYF ~10/20; CRL-31 first reachability check) - RED packet cceffb270",
+    "bear_signal": "AXP Q3 billed business decelerates AND card-member write-offs rise alongside COF/SYF; premium-name Q3 traffic negative => convergence-downward gains support",
+    "bull_signal": "AXP write-offs flat while COF/SYF rise; premium traffic positive => K holds, premium leg was a tie",
+    "red_threshold": "CARL owns the letter; RED checks discriminators were written BEFORE the prints (dated commit) and the leg is labelled UNRESOLVED on NEXUS-read surfaces",
+    "priority": "medium",
+    "status": "pending",
+    "notes": "Registered 2026-10-01 S49b (ML-RED-271). No CRL-31 scoring consequence. Print dates approximate (~10/20) - verify at the issuers. | RECEIPT 2026-10-01 13:0x ET: CARL ADOPTED in 0f8444c60 (verified at the artifact: CARL docket/CATALYSTS 10/20 row carries all 3 discriminators, IGV control included, pre-print; STATUS + NEXUS_BRIEF label the leg UNRESOLVED (tie); packet in CARL inbox/processed/). What remains for 10/20: grade the prints against CARL's pre-registered row."
+  },
+  {
+    "date": "2026-10-31",
+    "window": "near",
+    "event": "RED-25 re-review: DEWEY permutation p on PREM-MID (DR-3) - grade when DEWEY or CARL runs it; re-review date if not run",
+    "bear_signal": "p <0.10 with negative sign in the factor-residual cuts => RED-25 WRONG, CARL's convergence reading gains real support",
+    "bull_signal": "p >0.30 in every C0/C1/C2 cut => RED-25 CORRECT",
+    "red_threshold": "RED-25 (workbook/PREDICTIONS.tsv)",
+    "priority": "low",
+    "status": "pending",
+    "notes": "Registered 2026-10-01 S49b. If still unrun 10/31: push-date-with-reason or ask DEWEY (seed 7, 20,000 shuffles, its own recipe)."
+  },
+  {
+    "date": "2026-12-30",
+    "window": "far",
+    "event": "SAM-rail CH-012 FINAL GRADE at the letter's 'through 2026' horizon (MOF 30Y 2026-12-30 close) - pre-written rule in AGENTS/SAM/red/CHALLENGES.md",
+    "bear_signal": "30Y above the June-forward AND a SAM attribution registered before the grade names an undiscounted demand shock => DISMISSED",
+    "bull_signal": "30Y <= exact June-forward level => CONFIRMED (consensus/priced, no edge)",
+    "red_threshold": "June-forward ~3.80% INFERRED (par approx from MOF 6/26); 30Y 4.115 [9/24] = ~+31bp beyond; EXACT forward computation OWED before grade",
+    "priority": "medium",
+    "status": "pending",
+    "notes": "Otherwise NO-VERDICT. Chained CH-016 discriminator graded (iii) UNREACHABLE 9/3; no re-spec inside the window (RED 8/27 rule). Ask packeted to SAM 9/25."
+  }
+]

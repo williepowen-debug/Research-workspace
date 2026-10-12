@@ -1,0 +1,49 @@
+RESEARCH-INTAKE scan — 2026-10-12 20:59Z
+================================================================
+
+[health]
+  OK   last_run 2026-10-11T19:18:17Z (1 missed weekday runs, 1 calendar days)
+  MED  feed newsweep status=degraded
+  OK   news search items saved: 299 (trailing median 184 over 10 batches)
+
+[NEW breaches to ROUTE — 0]  (onset; push per §3, tag source: RESEARCH-INTAKE)
+  (none — gate quiet)
+
+[suppressed — still-true, already seen — 35]  (do NOT re-push)
+  fred:UMCSENT:orange  (UMCSENT UMich sentiment=51.7 [orange])
+  fred:MORTGAGE30US:red  (MORTGAGE30US 30yr mortgage rate %=7.4 [red])
+  fred:BAMLH0A0HYM2:red  (BAMLH0A0HYM2 HY OAS bps=315.0 [red])
+  fred:BAMLH0A0HYM2:red  (BAMLH0A0HYM2 HY OAS=315bps [red] >=280 X1-trigger breach (LIQUID half )
+  cftc:cftc_cot_VIX_lev_money_net_5494_orange_n:orange  (cftc_cot VIX lev-money net=5494 [orange] (net-long vol / de-risking re)
+  news:NEW_WATCH:data/2026-10-11/news.json  (13 NEW_WATCH item(s) — read data/2026-10-11/news.json)
+  news:WATCH_HIT:3799f6588ba0  (Trump's betrayal in buying Putin's diesel exports allows Russia to ban)
+  news:WATCH_HIT:980bb79fa5ce  (Russia Lifts Some Diesel Export Restrictions - صحيفة مال)
+  news:WATCH_HIT:3dbe66f1e612  (Russia Lifts Ban on Diesel Exports as Part of Trump-Putin Deal - Bloom)
+  news:WATCH_HIT:b4daf6e7ffbe  (Trump Makes Deal With Putin On Diesel Exports. Ukraine Calls It A 'Gif)
+  news:WATCH_HIT:c7418a30dda5  (Russia eases diesel exports following Putin-Trump deal - TRT World)
+  news:WATCH_HIT:3d711dd7bc3d  (Russia partially lifts diesel export ban after Trump-Putin agreements )
+  news:WATCH_HIT:a830f777426e  (Mark Walter's insurer Delaware Life sees two banks pause sale of its p)
+  news:WATCH_HIT:7cd4b434f315  (AM Best Revises Outlooks to Negative for Subsidiaries of Group 1001 In)
+  news:WATCH_HIT:645dcc6c5e81  (TWG Global Commits Up to $6.5 Billion to Strengthen Group 1001 Insuran)
+  news:WATCH_HIT:ffa733e31141  (Group 1001 Insurance Holdings LLC Number of Employees 2026 | Employee )
+  news:WATCH_HIT:87a3eaecf523  (Group 1001 Insurance Recognized with 2025 Gartner Eye on Innovation Aw)
+  news:WATCH_HIT:c0e9fbd9e9b5  (PHL Variable liquidation pushed out to 2027, Connecticut regulators sa)
+  news:WATCH_HIT:3497b4b51990  (PHL Variable liquidation now expected in 2027 - Hartford Business Jour)
+  news:WATCH_HIT:b8a4df38a786  (PHL Variable prepares for liquidation amid buyer search - Insurance Bu)
+  news:WATCH_HIT:50b0cf113aa1  (Rehabilitator: PHL Variable liquidation payouts could exceed guaranty )
+  news:WATCH_HIT:df62304ac258  (PHL Variable liquidation: Regulators, investors pivot legal fire to Na)
+  news:WATCH_HIT:f642121c6b1d  (Iran says US response to conditions for reopening Strait of Hormuz 'in)
+  news:WATCH_HIT:48ae0141e426  (US Threatens to Cut Ukraine Arms Supplies Over Russian Refinery Attack)
+  news:WATCH_HIT:e63122072e81  (Ukraine says ready to halt refinery strikes if Moscow stops energy att)
+  news:WATCH_HIT:7f78b870c11f  (US threatens to block arms for Ukraine over refinery attacks, FT repor)
+  news:WATCH_HIT:370dc059f739  (Zelensky Says Will Stop Russia Refinery Attacks. But There's 1 Conditi)
+  news:WATCH_HIT:89f90cd720a7  (US threatens to block arms for Ukraine over refinery attacks, FT repor)
+  news:WATCH_HIT:447263a2aa69  (Yanbu Oil Loadings Resume After Pipeline Restarts - Marine Link)
+  news:WATCH_HIT:eb8533ed7b37  (Saudi East-West Pipeline building up volumes, loading yet to resume, s)
+  news:DEVELOPMENT:73ce134aa765  (Dry Beer Taps, Glove Shortages and Record Tanker Rates Trace Back to H)
+  news:WATCH_HIT:fb450c0a6dda  (Six Bank Failures in 2026, and Nano Banc Won’t Be the Last - Substack)
+  news:WATCH_HIT:03434a700f72  (Russia partially lifts diesel export ban following Trump-Putin deal, e)
+  news:WATCH_HIT:b965e6e57b8f  (Russia announces early lifting of diesel export restrictions - The New)
+  news:DEVELOPMENT:1cd7572fbb8f  (Bloom Energy: Oracle's Project Jupiter Is Not What Keeps Me Up At Nigh)
+
+After routing the NEW breaches, run:  python3 tools/intake_scan.py --mark

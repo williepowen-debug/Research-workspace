@@ -1,0 +1,382 @@
+[
+  {
+    "Date": "2026-10-11T20:25:54Z",
+    "Signal_ID": "SIG-W-20261011-001",
+    "Origin": "France 24/Al Jazeera/CBS 10/11 (Trump Truth Social, Zelensky via Axios) + FT via Reuters relay 10/11 + RESEARCH-INTAKE lane BM-20261011-01",
+    "Summary": "Trump says Russia-Ukraine ENERGY CEASEFIRE effective immediately (Truth Social 10/11): no terms, Kremlin silent, strikes continued after (Kyiv power plant, Kharkiv 3 killed, Ivano-Frankivsk 2); Zelensky will halt refinery strikes IF Russia stops grid strikes; FT via Reuters: US threatened PURL + intel (single outlet, disputed 10/10); diesel balance branch; CME reopens 18:00 ET",
+    "Precedence": "IMMEDIATE",
+    "To": "OSPREY,BRENT",
+    "Info": "HAWK,YURI,HENRY,DEWEY,TERRY,PROME",
+    "Confidence": "0.75"
+  },
+  {
+    "Date": "2026-10-11T20:26:31Z",
+    "Signal_ID": "SIG-W-20261011-002",
+    "Origin": "The National 10/11 + Reuters copy (ThePrint) + Anadolu 10/11 (lane BM-20261011-01 #128); guard corpus applied",
+    "Summary": "Rezaei (state media 10/11): US reply to Iran's seven Hormuz conditions 'insufficient'; some accepted PER IRAN; US rejected Iran-Oman joint management PER IRAN; Iran no longer responding; channel via Pakistan/Qatar/Iraq (mediated); no US statement; conditions unlisted; ADD#14/15 applied; FALCON grades ladder #5",
+    "Precedence": "PRIORITY",
+    "To": "FALCON",
+    "Info": "HAWK,BRENT,SAM,HENRY,PROME",
+    "Confidence": "0.75"
+  },
+  {
+    "Date": "2026-10-11T20:26:32Z",
+    "Signal_ID": "SIG-W-20261011-003",
+    "Origin": "InsuranceNewsNet 9/23 + American Banker 10/8 headline (lane BM-20261011-01 #38); LATE",
+    "Summary": "LATE (reported 9/23): proposed nationwide class action, federal court Miami, Rosner v. Delaware Life/Group 1001/TWG/Guggenheim/Mark Walter: related-party ~3% reported vs 39-42% restated; subpoenas disclosed 6/26; allegations only; $21B headline relayed (American Banker 10/8, body unread)",
+    "Precedence": "ROUTINE",
+    "To": "SHADE",
+    "Info": "BROCK,LIQUID",
+    "Confidence": "0.7"
+  },
+  {
+    "Date": "2026-10-11T20:32:05Z",
+    "Signal_ID": "SIG-W-20261011-004",
+    "Origin": "Kyiv Independent/ABC/Euromaidan 10/11 + AP 10/10 + FirstSquawk relays (Will X-bookmarks BM-20261011-02)",
+    "Summary": "Follow-up to -001: Kharkiv CHP-5 struck >=2x (fire) + a Kyiv plant after the energy-ceasefire post; Zelensky 200+ grid strikes + 17 gas/oil this week; UA official 'no information'; 'Ukraine rejects' bookmark misstates Zelensky; AP 10/10 Trump: Ukraine needs new president; NATO official Russia 50K casualties Sept (unverified); RU defence ~17T rub",
+    "Precedence": "PRIORITY",
+    "To": "OSPREY",
+    "Info": "BRENT,HAWK,YURI,HENRY,PROME",
+    "Confidence": "0.8"
+  },
+  {
+    "Date": "2026-10-11T20:32:06Z",
+    "Signal_ID": "SIG-W-20261011-005",
+    "Origin": "Bloomberg 10/10 headline + CNBC/Reuters/Notes from Poland 10/11 + Barchart charts + Barclays note image (Will X-bookmarks BM-20261011-02)",
+    "Summary": "Residue: Jefferies-run fund ~$900M face Radiant fraud evidence (update -0930-007, allegations); Poland 'deadly serious' threat vs Tusk + defence minister, no attempt confirmed; TLT call volume record ~15M 1-mo rolling (Barchart); UWMC record-low close $1.08 10/9; Barclays desk AI revenue ~$250bn vs >$1trn maintenance capex (view)",
+    "Precedence": "ROUTINE",
+    "To": "BROCK,HAWK",
+    "Info": "HANS,BOND,HENRY,HOMER,VULCAN,TERRY,PROME",
+    "Confidence": "0.75"
+  },
+  {
+    "Date": "2026-10-11T20:39:20Z",
+    "Signal_ID": "SIG-W-20261011-006",
+    "Origin": "UKMTO 162-26/164-26 (own PNGs) + CENTCOM X + IRGC via Tasnim/Mehr/TASS + GACA/coalition + verify agent; Will X-bookmarks BM-20261011-02",
+    "Summary": "Iran weekend: UKMTO 162-26 (10/10 1920Z, fire) + 164-26 (10/11 1200Z, E of Musandam) outbound tankers hit by PROJECTILES; IRGC claims 2 MINE hits = CLAIM-ONLY (Sat claim predates 162-26 by ~2h; Sun claim vs 164-26 INDETERMINATE); 2-4 events; no mine detonation established, CENTCOM silent; losses 3; KKIA T4 hit 10/11 + KFIA attacked (GACA); 10/10 KKIA 13 dead/309 wounded; Shedgum/Tanajib Houthi claim only; GEM NO.2 rescue; US jet disabled Ocean Molica",
+    "Precedence": "IMMEDIATE",
+    "To": "FALCON,BRENT",
+    "Info": "HAWK,SAM,HENRY,CARL,TERRY,PROME",
+    "Confidence": "0.85"
+  },
+  {
+    "Date": "2026-10-11T21:10:45Z",
+    "Signal_ID": "SIG-W-20261011-007",
+    "Origin": "UKMTO #28082036 (incident page screenshot) + Reuters/Devdiscourse + ANI/Tribune (Sonowal, Indian Embassy Oman); Will X-bookmarks BM-20261011-03",
+    "Summary": "Sohar, Oman 10/11: MT Petro Dolphin (Nicaragua flag) drone hit at anchorage per India's shipping minister, 2 of 11 Indian crew missing; UKMTO classes it suspicious activity, mechanism unstated; attacker unidentified; outside Hormuz; no sinking, losses 3. Sonowal names M/T Valthera (Marshall Is.) as a 10/11 Hormuz projectile hit with fire: 162-26 vs 164-26 INDETERMINATE (IST/UTC)",
+    "Precedence": "IMMEDIATE",
+    "To": "FALCON,BRENT",
+    "Info": "HAWK,SAM,HENRY,CARL,TERRY,PROME",
+    "Confidence": "0.8"
+  },
+  {
+    "Date": "2026-10-11T22:23:30Z",
+    "Signal_ID": "SIG-W-20261011-008",
+    "Origin": "fetch.py named contracts 18:22 ET Sun (Globex evening, thin) vs Fri 10/9 vendor bars",
+    "Summary": "Reopen ~18:12 ET: Brent Dec 105.18 (+0.44%), WTI Nov 92.29 (+0.48%), ULSD Dec 4.53 (-1.31%); Dec diesel crack 98.77 from 101.77 (-3.00; VLO line 95.00, TERRY grades); Brent 3:2:1 Dec 46.44 <50 (#8 needs settles); thin, vendor, not settlements; cause not established",
+    "Precedence": "PRIORITY",
+    "To": "BRENT",
+    "Info": "HENRY,TERRY,PROME",
+    "Confidence": "0.6"
+  },
+  {
+    "Date": "2026-10-12T14:44:49Z",
+    "Signal_ID": "SIG-W-20261012-001",
+    "Origin": "RESEARCH-INTAKE 2026-10-09 news row; Reuters 2026-10-09 full byline syndication at KELO, read 2026-10-12",
+    "Summary": "Global fund flows: $153.81B into money markets and $26.03B into bonds in week ending October 7",
+    "Precedence": "PRIORITY",
+    "To": "LIQUID,BOND",
+    "Info": "HENRY,HANS,BROCK,SHADE,PROME",
+    "Confidence": "0.8"
+  },
+  {
+    "Date": "2026-10-12T14:44:49Z",
+    "Signal_ID": "SIG-W-20261012-002",
+    "Origin": "RESEARCH-INTAKE CNBC 2026-10-09 headline; full CNBC relay at Grand Herald, primary unverified",
+    "Summary": "CCC credit composition: CNBC relay reports 2,818bp non-performing versus 461bp performing; basis unresolved",
+    "Precedence": "PRIORITY",
+    "To": "LIQUID",
+    "Info": "BROCK,SHADE,HENRY,RED,PROME",
+    "Confidence": "0.55"
+  },
+  {
+    "Date": "2026-10-12T14:46:10Z",
+    "Signal_ID": "SIG-W-20261012-003",
+    "Origin": "Reuters/JPost 2026-10-12 UKMTO reclassification relay, full body read; Aramco operator release 2026-02-26, historical facility classification",
+    "Summary": "Sohar drone attack source upgrade; Tanajib gas-plant identity does not authenticate a crude-unit strike",
+    "Precedence": "PRIORITY",
+    "To": "FALCON",
+    "Info": "BRENT,HAWK,SAM,HENRY,PROME",
+    "Confidence": "0.8"
+  },
+  {
+    "Date": "2026-10-12T14:46:10Z",
+    "Signal_ID": "SIG-W-20261012-004",
+    "Origin": "External Gulf Times dated 2026-10-12 vs AOL Reuters dateline 2026-08-17; independently fetched 2026-10-12",
+    "Summary": "CORRECTION to external transit copy: Gulf Times October12 figures match Reuters August17; do not grade as current",
+    "Precedence": "PRIORITY",
+    "To": "FALCON,BRENT",
+    "Info": "HAWK,SAM,HENRY,PROME",
+    "Confidence": "0.95"
+  },
+  {
+    "Date": "2026-10-12T14:56:06Z",
+    "Signal_ID": "SIG-W-20261012-005",
+    "Origin": "OZK L635 owner packet 2026-10-12; Bank OZK FDIC 12019 Item 7.01 primary independently fetched by WALTER",
+    "Summary": "OZK: executed extension to December 2029 with $100M fresh capital weakens the held puts’ near-term catalyst",
+    "Precedence": "FLASH",
+    "To": "OZK,BROCK,TERRY",
+    "Info": "REGINALD,WAL,CREED,NEXUS,RED,PROME",
+    "Confidence": "0.9"
+  },
+  {
+    "Date": "2026-10-12T14:58:55Z",
+    "Signal_ID": "SIG-W-20261012-006",
+    "Origin": "Will Fidelity Activity received October 11; ANVIL-reconciled FORGE mirror; TERRY October12 owner header",
+    "Summary": "Correction: USO October 9 call was liquidated for $0.99 proceeds; separate October 14 calls",
+    "Precedence": "PRIORITY",
+    "To": "BRENT,TERRY",
+    "Info": "HAWK,HENRY,RED,PROME",
+    "Confidence": "0.9"
+  },
+  {
+    "Date": "2026-10-12T15:06:36Z",
+    "Signal_ID": "SIG-W-20261012-007",
+    "Origin": "Will supplied Financial Freedom101 transcript3; University of Michigan October preliminary release and October9 special report, independently read October12",
+    "Summary": "Michigan: weaker durable buying conditions and spending plans split by income and stock ownership",
+    "Precedence": "PRIORITY",
+    "To": "CARL",
+    "Info": "HOMER,HENRY,BRENT,RED,PROME",
+    "Confidence": "0.9"
+  },
+  {
+    "Date": "2026-10-12T15:08:32Z",
+    "Signal_ID": "SIG-W-20261012-008",
+    "Origin": "Will supplied Rebel Capitalist transcript2; Fed SCF2025 primary scoped Tables1/2 and definitions read by verifier and parent October12",
+    "Summary": "Fed SCF detail: wealth rose over three years; mean-income decline is not a typical-family wage collapse",
+    "Precedence": "PRIORITY",
+    "To": "CARL",
+    "Info": "HENRY,HOMER,REGINALD,RED,PROME",
+    "Confidence": "0.9"
+  },
+  {
+    "Date": "2026-10-12T15:08:32Z",
+    "Signal_ID": "SIG-W-20261012-009",
+    "Origin": "Will supplied shipping transcript1 and economic transcript3; UKMTO Oct9 No10 and IMO Oct12 primary text, independently read October12",
+    "Summary": "Shipping primary recovery: composite transit counts, official vessel identities and unresolved loss bases",
+    "Precedence": "PRIORITY",
+    "To": "FALCON,BRENT",
+    "Info": "HAWK,SAM,HENRY,RED,PROME",
+    "Confidence": "0.9"
+  },
+  {
+    "Date": "2026-10-12T15:30:10Z",
+    "Signal_ID": "SIG-W-20261012-010",
+    "Origin": "OZK approved L690 owner packet October12; C&W Q1-2026 office PDF p2 independently read from saved primary by WALTER",
+    "Summary": "Horton comparison qualifier: current occupancy unresolved; dated credit bid is not fresh severity evidence",
+    "Precedence": "PRIORITY",
+    "To": "REGINALD,CREED,TERRY",
+    "Info": "OZK,RED,PROME",
+    "Confidence": "0.85"
+  },
+  {
+    "Date": "2026-10-12T17:00:20Z",
+    "Signal_ID": "SIG-W-20261012-011",
+    "Origin": "Will X bookmark; bounded verification",
+    "Summary": "French refrigeration cyberattack destroys food; Ahold network outage is a separate incident",
+    "Precedence": "PRIORITY",
+    "To": "HANS",
+    "Info": "CARL,REGINALD,PROME",
+    "Confidence": "0.75"
+  },
+  {
+    "Date": "2026-10-12T17:00:20Z",
+    "Signal_ID": "SIG-W-20261012-012",
+    "Origin": "Will X bookmark; bounded verification",
+    "Summary": "Brookings AI investment estimate is a scenario, not committed spending",
+    "Precedence": "PRIORITY",
+    "To": "VULCAN",
+    "Info": "BROCK,WATT,HENRY,RED,PROME",
+    "Confidence": "0.85"
+  },
+  {
+    "Date": "2026-10-12T17:36:30Z",
+    "Signal_ID": "SIG-W-20261012-013",
+    "Origin": "Will X bookmark; recovered content and bounded verification",
+    "Summary": "Yandex confirms a third site outage; HTTP traffic is not a political-bot count",
+    "Precedence": "PRIORITY",
+    "To": "OSPREY",
+    "Info": "HAWK,VULCAN,RED,PROME",
+    "Confidence": "0.85"
+  },
+  {
+    "Date": "2026-10-12T17:36:30Z",
+    "Signal_ID": "SIG-W-20261012-014",
+    "Origin": "Will X bookmark; recovered content and bounded verification",
+    "Summary": "Compute pricing chart mixes annual contract value and modeled revenue; Nebius confirms a duration gap",
+    "Precedence": "PRIORITY",
+    "To": "VULCAN",
+    "Info": "BROCK,HENRY,RED,PROME",
+    "Confidence": "0.75"
+  },
+  {
+    "Date": "2026-10-12T17:49:54Z",
+    "Signal_ID": "SIG-W-20261012-015",
+    "Origin": "DEWEY committed HNS-07 return; originalDR4 corrected",
+    "Summary": "DR-4 peak horizon corrected; storage projections remain conditional, HNS-07 grades on its fixed date",
+    "Precedence": "PRIORITY",
+    "To": "HANS",
+    "Info": "BRENT,AEOLUS,CARL,MARCO,DAEDALUS,DEWEY,RED,PROME",
+    "Confidence": "0.85"
+  },
+  {
+    "Date": "2026-10-12T17:58:42Z",
+    "Signal_ID": "SIG-W-20261012-016",
+    "Origin": "Approved DEWEY partialdieselreturn; sourcecommit pending atread",
+    "Summary": "Russian diesel exception supports an easing channel; delivered net increment remains unknown",
+    "Precedence": "PRIORITY",
+    "To": "BRENT,TERRY,OSPREY,YURI",
+    "Info": "HANS,RED,PROME",
+    "Confidence": "0.75"
+  },
+  {
+    "Date": "2026-10-12T19:08:49Z",
+    "Signal_ID": "SIG-W-20261012-017",
+    "Origin": "Committed CARL/OZK return + bounded primary verification",
+    "Summary": "BofA September spending rises across income cohorts; the selected nominal sample counters broad spending collapse",
+    "Precedence": "PRIORITY",
+    "To": "CARL",
+    "Info": "HENRY,RED,PROME",
+    "Confidence": "0.85"
+  },
+  {
+    "Date": "2026-10-12T19:08:49Z",
+    "Signal_ID": "SIG-W-20261012-018",
+    "Origin": "Committed CARL/OZK return + bounded primary verification",
+    "Summary": "SCF delinquency shares are all-family figures; the denominator is now verified without turning 2025 interviews into current spending",
+    "Precedence": "PRIORITY",
+    "To": "CARL",
+    "Info": "HOMER,REGINALD,LABOR,RED,PROME",
+    "Confidence": "0.95"
+  },
+  {
+    "Date": "2026-10-12T19:08:49Z",
+    "Signal_ID": "SIG-W-20261012-019",
+    "Origin": "Committed CARL/OZK return + bounded primary verification",
+    "Summary": "NY Fed tariff model: the earlier inflation pulse fades, but Canadian pass-through and an announced 2027 auto tail remain",
+    "Precedence": "PRIORITY",
+    "To": "CARL",
+    "Info": "HENRY,REGINALD,RED,PROME",
+    "Confidence": "0.95"
+  },
+  {
+    "Date": "2026-10-12T19:08:49Z",
+    "Signal_ID": "SIG-W-20261012-020",
+    "Origin": "Committed CARL/OZK return + bounded primary verification",
+    "Summary": "Epiq reports 46% more Subchapter V elections through September; its individual YTD growth prose does not match its counts",
+    "Precedence": "PRIORITY",
+    "To": "CARL",
+    "Info": "RED,PROME",
+    "Confidence": "0.85"
+  },
+  {
+    "Date": "2026-10-12T19:08:49Z",
+    "Signal_ID": "SIG-W-20261012-021",
+    "Origin": "Committed CARL/OZK return + bounded primary verification",
+    "Summary": "IQHQ evidence cuts both ways: a subsequent BPRE common-equity markdown and actual Alewife capital, not an OZK loan-loss measurement",
+    "Precedence": "PRIORITY",
+    "To": "BROCK,TERRY",
+    "Info": "REGINALD,RED,PROME",
+    "Confidence": "0.9"
+  },
+  {
+    "Date": "2026-10-12T19:08:49Z",
+    "Signal_ID": "SIG-W-20261012-022",
+    "Origin": "Committed CARL/OZK return + bounded primary verification",
+    "Summary": "Three OZK workout leads show property or leasing progress; lender recovery and cure remain unknown",
+    "Precedence": "PRIORITY",
+    "To": "OZK,TERRY",
+    "Info": "REGINALD,CREED,RED,PROME",
+    "Confidence": "0.85"
+  },
+  {
+    "Date": "2026-10-12T19:08:49Z",
+    "Signal_ID": "SIG-W-20261012-023",
+    "Origin": "Committed CARL/OZK return + bounded primary verification",
+    "Summary": "Affinius-linked October date belongs to a warehouse lease securitization; expected repayment is not legal final or automatic corporate default",
+    "Precedence": "PRIORITY",
+    "To": "BROCK",
+    "Info": "REGINALD,OZK,RED,PROME",
+    "Confidence": "0.7"
+  },
+  {
+    "Date": "2026-10-12T19:08:49Z",
+    "Signal_ID": "SIG-W-20261012-024",
+    "Origin": "Committed CARL/OZK return + bounded primary verification",
+    "Summary": "Fintech bank roles and gross books are now primary-backed; origination is not a measure of permanently retained consumer credit",
+    "Precedence": "PRIORITY",
+    "To": "REGINALD",
+    "Info": "CARL,BROCK,RED,PROME",
+    "Confidence": "0.9"
+  },
+  {
+    "Date": "2026-10-12T19:18:35Z",
+    "Signal_ID": "SIG-W-20261012-025",
+    "Origin": "Committed late DEWEY/OZK return + bounded source checks",
+    "Summary": "FHA aggregation is 97.4bp beside 22.5bp under the ruled weights; neither gross action scale nor the flow split establishes a causal kill",
+    "Precedence": "PRIORITY",
+    "To": "CARL,HOMER,REGINALD",
+    "Info": "BROCK,LIQUID,NEXUS,DEWEY,RED,PROME",
+    "Confidence": "0.85"
+  },
+  {
+    "Date": "2026-10-12T19:18:35Z",
+    "Signal_ID": "SIG-W-20261012-026",
+    "Origin": "Committed late DEWEY/OZK return + bounded source checks",
+    "Summary": "OZK follow-up separates financed interest and retained OREO from cash recovery; current runway and Q3 outcomes remain unknown",
+    "Precedence": "PRIORITY",
+    "To": "BROCK,REGINALD,TERRY",
+    "Info": "RED,PROME",
+    "Confidence": "0.85"
+  },
+  {
+    "Date": "2026-10-12T19:28:28Z",
+    "Signal_ID": "SIG-W-20261012-027",
+    "Origin": "Committed CARL source recovery/measurement repair",
+    "Summary": "Auto certificates are recovered; June collection is not July, and column, denominator and age distinctions precede grading",
+    "Precedence": "PRIORITY",
+    "To": "CARL,OTTO",
+    "Info": "REGINALD,RED,PROME",
+    "Confidence": "0.95"
+  },
+  {
+    "Date": "2026-10-12T19:28:28Z",
+    "Signal_ID": "SIG-W-20261012-028",
+    "Origin": "Committed CARL source recovery/measurement repair",
+    "Summary": "SoFi Q2 filing is recovered: servicing, retained consideration and impaired-loan sale flows are separate risk objects",
+    "Precedence": "PRIORITY",
+    "To": "REGINALD",
+    "Info": "CARL,BROCK,RED,PROME",
+    "Confidence": "0.9"
+  },
+  {
+    "Date": "2026-10-12T19:28:28Z",
+    "Signal_ID": "SIG-W-20261012-029",
+    "Origin": "Committed CARL source recovery/measurement repair",
+    "Summary": "DR1 swapped-value counterexample is 185.1bp under unchanged weights, not about30bp; the ruling and causal-test limits survive",
+    "Precedence": "PRIORITY",
+    "To": "RED",
+    "Info": "CARL,PROME",
+    "Confidence": "0.95"
+  },
+  {
+    "Date": "2026-10-12T19:45:31Z",
+    "Signal_ID": "SIG-W-20261012-030",
+    "Origin": "DEWEY committed currentcargo/EIAbaseline addendum",
+    "Summary": "Provider reports current Minerva UAN; US baseline predeal/all-origin, increment UNKNOWN",
+    "Precedence": "PRIORITY",
+    "To": "BRENT,OSPREY,YURI,TERRY",
+    "Info": "HANS,FERT,RED,PROME",
+    "Confidence": "0.85"
+  }
+]

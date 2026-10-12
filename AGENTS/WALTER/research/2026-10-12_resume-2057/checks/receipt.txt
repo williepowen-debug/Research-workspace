@@ -1,0 +1,13 @@
+{
+  "status": "REVIEW",
+  "findings": [
+    "STATUS:52: duplicate volatile claim; move to LAST_COMPLETION/dated receipt"
+  ],
+  "as_of": "2026-10-12T21:06:26Z",
+  "origin_ref": "94993c5b77b785f43237676e1ebb5f5597ffa374",
+  "delivery_scope": "20261012",
+  "delivered": 107,
+  "total": 107,
+  "next_review": "2026-10-12",
+  "limits": "Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review."
+}

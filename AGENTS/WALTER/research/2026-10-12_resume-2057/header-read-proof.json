@@ -1,0 +1,248 @@
+[
+  {
+    "path": "AGENTS/AEOLUS/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "268f19a09a216ad95e575d42666a905ba11d6d556b5798ba65b0c1e9a6554c1c",
+    "bytes": 6296
+  },
+  {
+    "path": "AGENTS/ATHENA/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "402c220565df07464ea17fcb0347ee15a80f15a34820ce84eab68446c68b0339",
+    "bytes": 1216
+  },
+  {
+    "path": "AGENTS/BOND/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "8bea172db3382712ff926eceff55cbb52f806f3633a8a16e5f7e3d6f0578221d",
+    "bytes": 3240
+  },
+  {
+    "path": "AGENTS/BRENT/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "4933e80604ce5061b8fd1b6ffe4546bc5b7acaee0ace93fd609f5896a360148c",
+    "bytes": 4391
+  },
+  {
+    "path": "AGENTS/BROCK/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "e305bb8b7f1729d9b3d9a960c722abefa1f5df002efe6de14ab5de3dcd58e6fd",
+    "bytes": 5214
+  },
+  {
+    "path": "AGENTS/CARL/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "acd29fa93565edf395b22a0127b9de323b33178930f4214391b23bbe9f60ff37",
+    "bytes": 6999
+  },
+  {
+    "path": "AGENTS/CORAL/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "e78136a3a150fc5b69a1365b86c04d09ad2d4e8bd63f7081c637a7baed3c6238",
+    "bytes": 3456
+  },
+  {
+    "path": "AGENTS/CREED/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "d2e3ca5018a6eaaf45d89275ebf853a5007dccdf29fd426d3b8e3e906a7e7e69",
+    "bytes": 10179
+  },
+  {
+    "path": "AGENTS/CRUISE/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "f155e366cd82802efa53304dfacc1f9861eb65e50938f5e0bcf8253b9ddcdbff",
+    "bytes": 10438
+  },
+  {
+    "path": "AGENTS/DAEDALUS/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "03ccee1daef8ad5b7cb4bd964f91138648758b55c030147e6f21a84e119e3df2",
+    "bytes": 5045
+  },
+  {
+    "path": "AGENTS/FALCON/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "eba84f3cb005d80fd29c3e5e78b2e4d412318906d1f5a9c399df5ba36f9a45ac",
+    "bytes": 7966
+  },
+  {
+    "path": "AGENTS/FERT/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "962e04ab00c0b4cbf4fa428912a370d9c012fa5b42a220cc8c86f5584f4937a2",
+    "bytes": 5131
+  },
+  {
+    "path": "AGENTS/FLG/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "9858d54a3867beffb027080f449a6beb0647f90d8cfedfffaba175b4328d6e4b",
+    "bytes": 3987
+  },
+  {
+    "path": "AGENTS/HANS/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "61a888af56fb8c11a526828f6fcc1081fe64a10504be41687383482cb7d26dbd",
+    "bytes": 6564
+  },
+  {
+    "path": "AGENTS/HAWK/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "d169114f82805a17be489410222beeb1814a8ddc62bdb758645b72d22d8ab185",
+    "bytes": 3405
+  },
+  {
+    "path": "AGENTS/HENRY/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "86a02e42d8d9cdcf196f66dc1187ed3b3e5fde4dc4c2621122394fe982e6080f",
+    "bytes": 3564
+  },
+  {
+    "path": "AGENTS/HOMER/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "78e3c87652f463a18df9a8464f5383343f9cf785aa47c137f704260e9492ab83",
+    "bytes": 2995
+  },
+  {
+    "path": "AGENTS/LABOR/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "c284ec10ad1ec3f79e87860025eb2b02d36520def165f332d41053ca261f6771",
+    "bytes": 5674
+  },
+  {
+    "path": "AGENTS/LIQUID/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "95799e61cd64d7ef3892d20bba57fdb456701e1f9005772fa7775e2f2af7d0f3",
+    "bytes": 10343
+  },
+  {
+    "path": "AGENTS/MARCO/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "877d103103a35365114d0e216e8f2bb2b06613bc5f656ad645d0dde961bf86c4",
+    "bytes": 8580
+  },
+  {
+    "path": "AGENTS/MIDAS/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "4e5d2625144ba4b9d43f5e7e4378d508f753077effb86dc3af572a3157c5a15d",
+    "bytes": 8528
+  },
+  {
+    "path": "AGENTS/NEXUS/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "05b9c25941c16f35b468a1b542dab0e06d54ead165837ad7616319cb01ca362e",
+    "bytes": 8396
+  },
+  {
+    "path": "AGENTS/ORACLE/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "db2f6139be8223e67da30be0852cd917352a75964a570764c9c07db3ed60c22c",
+    "bytes": 7286
+  },
+  {
+    "path": "AGENTS/OSPREY/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "018a63df80173c1a82baf49ef666fcb94422a72948870a584320c7c20bf1f854",
+    "bytes": 4517
+  },
+  {
+    "path": "AGENTS/OTTO/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "aa894332f45251655c0893282d647f40c778e9b51aacde7b4aa250e62c967293",
+    "bytes": 6010
+  },
+  {
+    "path": "AGENTS/OZK/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "6ddfedc933be86410f6760e268895eb68de104670be1072d15b2411da0f4ac62",
+    "bytes": 7725
+  },
+  {
+    "path": "AGENTS/RED/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "0d7c1593c02af8b9f520256c2b317717a03741c631266946240d96764399acdb",
+    "bytes": 7802
+  },
+  {
+    "path": "AGENTS/REGINALD/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "ecbdcddd8904a349c3b89f8d4ee4adf2b4a73b25d52b6d00bd00611fe018dd5f",
+    "bytes": 6207
+  },
+  {
+    "path": "AGENTS/SAM/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "950badcbb68fe4c1ef0d923d2a406b18b448b3264076c6fb1f8dcc0adb201fed",
+    "bytes": 7818
+  },
+  {
+    "path": "AGENTS/SENTRY/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "b015ba44b3faf49f6bb5e1ba13b571077a117d4146364f6155013a439d82e47e",
+    "bytes": 1746
+  },
+  {
+    "path": "AGENTS/SHADE/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "441d799709eeb9cfdb2007f9a166b8e4c30a0bfeaa7a78ca9a1918fc0cdb849a",
+    "bytes": 5162
+  },
+  {
+    "path": "AGENTS/TERRY/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "173d90395d8afa40af7dbd40059a80cb1fb51f967c8f754307a120dd6b223e01",
+    "bytes": 10412
+  },
+  {
+    "path": "AGENTS/VIOLET/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "8307bb848929d7abe9ffa71dc5652f2fa51187751b5b7ae59a4fa8616ed730d6",
+    "bytes": 4698
+  },
+  {
+    "path": "AGENTS/VULCAN/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "691acb2d5d412c89decc7d8fdb0690dcd29cdedb796ca180b63936aef6bac9a1",
+    "bytes": 7489
+  },
+  {
+    "path": "AGENTS/WAL/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "5744bd078bc774d90a6d257085148688cb3646d6621a3d3c7367d703ee0a140d",
+    "bytes": 9316
+  },
+  {
+    "path": "AGENTS/WALTER/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "3d23e017fc6e4799b4afdf1f53d85b4090050805bfe6e553d320fcb1c33e7da6",
+    "bytes": 4230
+  },
+  {
+    "path": "AGENTS/WATT/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "d5385da3fe94932951de2c1afbf11b9926f97781abcfe119408bd44971772e34",
+    "bytes": 6892
+  },
+  {
+    "path": "AGENTS/YEYOU/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "8adec0456d3ea309125b39f018fb3d0ce8714ee964b085e5a3de716994937e4b",
+    "bytes": 3073
+  },
+  {
+    "path": "AGENTS/YURI/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "f25baee01de1d4e2736ac84d66ab0d77ee2625ecd35eac7cbade226b018dea41",
+    "bytes": 7616
+  },
+  {
+    "path": "AGENTS/ZHAO/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "e1c54f2f2f45ff9c96ca79213bfaf5087971bd005b4d2c4f2e32d5e847a9ab95",
+    "bytes": 5305
+  },
+  {
+    "path": "PROME/STATUS.md",
+    "scope": "first30lines",
+    "sha256": "71683d27a1355c51fc57833c6c94b012dc5ddd5b3d7760cdaad58a32f8ab9b50",
+    "bytes": 3842
+  }
+]
