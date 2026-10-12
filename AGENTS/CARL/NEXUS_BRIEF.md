@@ -1,9 +1,9 @@
 # CARL — NEXUS Brief
 
-**Status:** 🔴 53/70 unchanged. **10/10 (drain-only session, no score moves):** the pump and diesel eased (GASREGW $4.354 w/e 10/5; AAA diesel $6.282), CCC widened again (1,252bp 10/8), and the Fed's SCF shows 19.6% of families behind on a loan payment in 2025 vs 12.2% in 2022 (base unsettled). **The 10/05 thesis-scope review did NOT run (desk dark) and is owed.** **10/02: the September NFP (+29K, Jul+Aug revised −60K) failed V16's drop-back letter; count reset to 0 of 2, V16 holds 4.** Fuel pressure eased at the margin (GASREGW posted its first weekly decline since at least 8/31) while the lower-quality credit split kept widening. BEA's annual update made the aggregate saving cushion larger than logged; who holds it is unknown.
+**Status:** 🔴 Last assessment53/70 (10/10), unchanged. October12 startup recovered L672, already assigned today; scope review pending.
 **Domain:** U.S. consumer financial stress and downstream household transmission; bank-level credit belongs to REGINALD.
 **Thesis version:** v2.6.6
-**As of:** 2026-10-10 12:45 ET | **STATUS commit:** the 10/10 drain closeout commit (same commit as this brief; prior STATUS commit `26d1e0d64`, the 10/02 full closeout) *(10/10: L0 drain 12→0, 14 correction receipts, TERRY answered KEEP DORMANT)*
+**As of:** 2026-10-12 13:39 ET | **STATUS commit:** d88824eca (startup recovery only; market/data claims below retain their stated prior dates; live pulls failed DNS).
 **Position:** No real capital authority; paper sleeve unchanged except PS-0001..0005 re-pointed CRL-27 → CRL-31 (record-keeping, no capital). Structural references only, no marks.
 
 ## CROSS-DOMAIN
@@ -54,7 +54,7 @@
 
 ## NEXT DECISION POINT
 
-- **What / when:** the thesis-scope review MISSED 10/5 and is owed (V3 re-scope, six UNREVIEWED releases, saving-rate re-base, plus SCF and G.19). After that, the Q3 issuer prints ~10/20 (CRL-21 resolves). V16 was graded 10/02 (NOT satisfied, 0 of 2, holds 4).
+- **What / when:** DOCKET L672 assigns the overdue scope review to October12, before October13 bank prints; no renewed approval needed. Include the new Michigan cohort and SCF historical-distribution signals (deferred to today) and assess WATT's IRAS packet without assuming all power cost is removed. Independent primary verification and the scope finding remain pending.
 - **What changes the view:** V16 4→3 needs two new consecutive positive-with-up-revision prints, the earliest pair Nov 6 + Dec release. A V2 downgrade still needs two qualifying collection months in both tiers.
 
 ## WATCH (next 2–4 weeks)
@@ -62,10 +62,10 @@
 | Date | Event | Threshold / signal |
 |---|---|---|
 | 11/6 | October NFP | V16 drop-back count restarts (0 of 2 after 10/02) |
-| owed (missed 10/5) | **Thesis-scope review** | Broad fragility vs bottom-tier credit; structural change → Will |
+| 10/12 (L672; missed10/5) | **Thesis-scope review** | Broad fragility vs concentrated credit; structural change → Will |
 | 10/13 | Bank Q3: JPM, WFC (corrected from 10/14), C | Consumer-credit commentary; REGINALD owns bank-level |
 | 10/14 | September CPI; AFT v. ED status conference | CRL-10 food (beef, diesel freight deferrals); SAVE backlog figure? |
 | 10/15 | September retail sales | Spending response |
 | ~10/20 | Q3 issuer prints; CRL-29 first grade; DHI FQ4 | CRL-20/21 + first CRL-31 check; DR-1 auto leg; CRL-23 |
 
-**Delivery:** see the 10/10 memo `PROME/inbox/2026-10-10_from-CARL_l0-drain-aged-signals.md` for checks and the push receipt.
+**Delivery:** Startup receipt `domain/sources/2026-10-12_startup-recovery.md`; check results in SCRATCH. CARL authored paths locally committed; pull/push deferred for concurrent dirty peers, remote delivery unverified. Partial closeout: no live refresh, research/retirement/staleness work remains. Three inbox copies retained; two BOARD deferrals are receipts, not integration.
