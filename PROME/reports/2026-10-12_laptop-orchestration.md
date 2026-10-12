@@ -40,6 +40,16 @@ PROME current thread: `01a131cf-1c7d-7900-9dcf-d98af587e290`, confirmed from thi
 
 Brief defect: the initial assignment omitted PROME's return thread address. SHADE identified the omission. The committed return-address addendum and four accepted queue sends supply it; actual return notification remains separate from queue acceptance.
 
-Return-route notices to all four existing IDs were accepted by `codex queue`; exact receipts are in `2026-10-12_laptop-orchestration-return-routing.json`. These are coordination updates to the same assignments, not new research touches or lifecycle requests. MIDAS, YURI and WALTER results remain in progress at this checkpoint; their source work is left with the owners.
+Return-route notices to all four existing IDs were accepted by `codex queue`; exact receipts are in `2026-10-12_laptop-orchestration-return-routing.json`. These are coordination updates to the same assignments, not new research touches or lifecycle requests. At the return-route dispatch checkpoint, MIDAS, YURI and WALTER results were still in progress; subsequent consumption is recorded below.
 
 SHADE return notification received directly in PROME's current thread and recorded at2026-10-12 21:37:34 UTC. It names the verified SHADE thread, result28e568687 and return-address commitd1f922500; this establishes actual use and consumption of the return route, beyond queue acceptance. The result was already consumed above. No repeat research, assessment grade or lifecycle closeout follows from this receipt; L673 remains PARTIAL.
+
+## YURI result consumed
+
+`dd8ef7522e712fdcf793adab3d602a0f65590780:PROME/inbox/2026-10-12_from-YURI_prome-directed-followup.md` and `e27809669329ff6c50f19b06b581993f690c7987:AGENTS/YURI/research/2026-10-12_prome-directed-diesel-followup.md` read in full and matched to committed bytes. The saved search-result summary and validation record were read; INTENT_LEDGER.tsv independently matched the initial6db3b1ded version. VERIFIED: committed task delivery and unchanged intent ledger. This consumption is not an independent re-performance of YURI's legal-source search.
+
+Bounded source pass DONE. YURI recovered complete signed August28 amendment №1097, a date-only link in the three identified public acts, and excluded October9 №1328 after reading its body/annex. The October10 signed partial-lift authorization and supplier/product/quantity-period terms remain SEARCH-NOT-FOUND on a PARTIAL title/index perimeter. The known-act positive control distinguishes successful empty searches from the unavailable government advanced-search route; generic-title, separate, delayed and non-public instruments remain outside the result. Announced permission does not establish delivered additional supply or its overlap with existing exemptions.
+
+Accept the completed pass and retain the source dependency as PARTIAL. Existing source-qualified downstream packets remain operative; no duplicate source pass or signal is needed for the older date-only provenance recovery. DEWEY October14 and YUR-004 October16 remain due; no score, mobilisation grade, gate, capital or lifecycle change. MIDAS and WALTER follow-up consumption remains pending at this receipt.
+
+Actual return notice reached PROME from verified YURI thread01a131e4-8224-7572-a1c0-feb7acebbb96, naming both exact commits and the task/lifecycle distinction; recorded at2026-10-12 21:38:38 UTC. Return-route use is established separately from queue acceptance. The Will-owned window remains under Will's control.
