@@ -72,5 +72,16 @@
     "2026-10-12_from-REGINALD_L694_EGBN-candidate-question.md": "read at05525fc4c; EGBN feasibility next, no duplicate research"
   },
   "foreign": "DAEDALUS residue plus changing peer work left untouched; no pull/stash/reset/restore or foreign stage",
-  "limits": "Scoped author validation and manual dispositions; not independent acceptance, no full historical-procedure certification."
+  "limits": "Scoped author validation and manual dispositions; not independent acceptance, no full historical-procedure certification.",
+  "material_addendum": {
+    "observed_at": "2026-10-12T12:56:03-04:00",
+    "packet_commit": "53ea96edd",
+    "source_commit": "53f1c1beb082c358129848d94275585c689b3d64",
+    "packet": "AGENTS/TERRY/inbox/2026-10-12_from-REGINALD_EGBN-primary-verification-context.md",
+    "read": "packet and full owner report",
+    "result": "MEMORY next deliverable incorporates owner cleanup/HFS/par/MF-composition and dated-vintage qualifications; no new research",
+    "affected_final_checks": "ledger A-H rc0 again, I3read packets left visible; weekday3changed surfaces clean; scoped whitespace clean",
+    "publication": "Git repaircd9fc65dd and clarificationa65aa1f9a confirmed on fresh origin; actual CONFIRMED receipt in REPORT",
+    "limits": "Original cutoff preserved; later routine arrivals replacement-reconciled; independent acceptance pending/hold standing"
+  }
 }
