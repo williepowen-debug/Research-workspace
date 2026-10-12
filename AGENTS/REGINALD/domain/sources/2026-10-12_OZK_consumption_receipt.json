@@ -1,0 +1,110 @@
+{
+  "observed_at": "2026-10-12T19:20:41.857786+00:00",
+  "owner": "REGINALD",
+  "runtime": "Codex / GPT-6 exposed; exact variant UNKNOWN",
+  "session": "01a130ac-dde6-76f1-8df7-eb903dc2862a",
+  "scope": "Consume committed existing OZK evidence within existing bank coverage; no new study or source pull",
+  "consumed_artifacts": [
+    {
+      "path": "AGENTS/OZK/research/threads/2026-10-12_DURABILITY_DELIVERY.md",
+      "git_reference": "26ff20a0e",
+      "bytes": 4475,
+      "sha256": "4c6abf622507caf56259a05555c41ebb22b46573ab421bafa8e9df169ac5cad5",
+      "exact_reference_bytes_match": true,
+      "read_coverage": "FULL",
+      "resolved_reference_commit": "26ff20a0ec6cd9e6eea22b35316cc1b63208a7e0"
+    },
+    {
+      "path": "AGENTS/OZK/research/threads/2026-10-12_IQHQ_FUNDING_DURABILITY.md",
+      "git_reference": "26ff20a0e",
+      "bytes": 11300,
+      "sha256": "569dc0ba4105da19f5508f1f125f01b6bbb3a170ee981089155727b5a342cf2f",
+      "exact_reference_bytes_match": true,
+      "read_coverage": "FULL",
+      "resolved_reference_commit": "26ff20a0ec6cd9e6eea22b35316cc1b63208a7e0"
+    },
+    {
+      "path": "AGENTS/OZK/research/threads/2026-10-12_BOSTON_TRANSACTION_ECONOMICS.md",
+      "git_reference": "26ff20a0e",
+      "bytes": 7335,
+      "sha256": "c7986816c0fae92eb4ffd9e72baacc2a931abc6f664594d81b7a163012ee5d02",
+      "exact_reference_bytes_match": true,
+      "read_coverage": "FULL",
+      "resolved_reference_commit": "26ff20a0ec6cd9e6eea22b35316cc1b63208a7e0"
+    },
+    {
+      "path": "AGENTS/OZK/research/threads/2026-10-12_CASH_RECOVERIES_AND_CURES.md",
+      "git_reference": "26ff20a0e",
+      "bytes": 8971,
+      "sha256": "ebd97bf9482839e6f04f547f0435c3186d613933ce874039fb4266d2c723a2ae",
+      "exact_reference_bytes_match": true,
+      "read_coverage": "FULL",
+      "resolved_reference_commit": "26ff20a0ec6cd9e6eea22b35316cc1b63208a7e0"
+    },
+    {
+      "path": "AGENTS/OZK/workbook/2026-10-12_CASH_RECOVERY_BASELINE.tsv",
+      "git_reference": "26ff20a0e",
+      "bytes": 5185,
+      "sha256": "3d86991c841ab3c3eb75f44a496eccad1aed9646cbc75f4b8c072dc7405e1f37",
+      "exact_reference_bytes_match": true,
+      "read_coverage": "FULL",
+      "resolved_reference_commit": "26ff20a0ec6cd9e6eea22b35316cc1b63208a7e0"
+    },
+    {
+      "path": "AGENTS/OZK/workbook/Q3_2026_SCORING_CARD.md",
+      "git_reference": "aea8a07a7",
+      "bytes": 21587,
+      "sha256": "f2bf714804a81fb68f123ec0bdd3342bd29207b07b793b7400401db0be002854",
+      "exact_reference_bytes_match": true,
+      "read_coverage": "FULL",
+      "resolved_reference_commit": "aea8a07a7e3327ddac656be949146ba105162eb8"
+    },
+    {
+      "path": "AGENTS/OZK/outbox/2026-10-12_to-PROME_wrap-up-and-Q3-handoff.md",
+      "git_reference": "41526df5eb58d3248e7619bf7ba2fafcf8fa478e",
+      "bytes": 6188,
+      "sha256": "18f66d6e642220c6b588b4eae5102f7ec216d2dbb9d0c4d416791c5f49aba6d5",
+      "exact_reference_bytes_match": true,
+      "read_coverage": "FULL_CURRENT",
+      "version_note": "Consumed this exact committed version; subsequent owner edits are not certified by this receipt.",
+      "resolved_reference_commit": "41526df5eb58d3248e7619bf7ba2fafcf8fa478e"
+    },
+    {
+      "path": "AGENTS/REGINALD/inbox/2026-10-12_from-OZK_wrap-up-consumer-handoff.md",
+      "git_reference": "aea8a07a7",
+      "bytes": 696,
+      "sha256": "2c7bd159a08ae29f0ee3a6e152b0d867da4c2b5f8358643f6dca08dc78d52546",
+      "exact_reference_bytes_match": true,
+      "read_coverage": "FULL",
+      "resolved_reference_commit": "aea8a07a7e3327ddac656be949146ba105162eb8"
+    },
+    {
+      "path": "AGENTS/WALTER/inbox/2026-10-12_from-OZK_funding-durability-and-recovery-reconciliation.md",
+      "git_reference": "5c41bce79",
+      "bytes": 814,
+      "sha256": "1666f81d8316ef1e722fc45129371bf827d2fac54f76d987d078aa586c29895f",
+      "exact_reference_bytes_match": true,
+      "read_coverage": "FULL",
+      "resolved_reference_commit": "5c41bce79e8aae5ee23fe29ce60b00d0922dfe2f"
+    }
+  ],
+  "selectively_read_primary_support": [
+    "OZK L690 saved MC printed22/23/24",
+    "OZK L690 saved Q2 10-Q Note6/7 printed22",
+    "OZK GAP_PASS IIPR October1 8-K funding paragraphs",
+    "OZK GAP_PASS co-lender section7.1",
+    "OZK GAP_PASS Sixth Amendment section19(f)",
+    "OZK GAP_PASS September24 USQ/Predicta lease primary text"
+  ],
+  "primary_coverage_limit": "Selective saved-primary corroboration, not a new full legal-document read, original recorder search or current-cash verification",
+  "arithmetic_verified": {
+    "June_named_OREO": "141.2",
+    "June_named_chargeoffs": "34.5",
+    "Q2_four_named_chargeoffs": "49.3",
+    "H1_book_rollforward": "292.744",
+    "Note_B_remaining_gross_capacity": "134"
+  },
+  "frozen_workout_baseline_rows": 14,
+  "Q3_status": "PENDING; baseline not a current Q3 outcome or new score",
+  "notification_distinction": "This artifact establishes REGINALD read/consumption and ensuing own-record integration; it does not establish OZK/PROME receipt of the return packet."
+}

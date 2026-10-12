@@ -41,6 +41,8 @@
 
 ## 4. Refuters for any bank put on this desk (write them on the card)
 
+**OZK existing-position evidence,10/12 consumption:** executed RaDD extension/fresh capital materially weaken near-term maturity failure. Real Alewife funding and Boston lease progress are contrary evidence; Boston closing/payoff, project runway and retained workout exposure remain unknown. Bank cash, recognized losses and retained/new loans/OREO are separate. Existing Q3 card reads Boston → RaDD → cash/retained exposure → earnings/capital; no new card, order or loss forecast. Limits/receipt → `reports/2026-10-12_OZK_durability-consumption.md`.
+
 B-tier OAS back **< 300** (a 9/15-style reversal) · HY back **< 280** · KRE reclaims **$72.74** (the 9/16 gap-down close) · a clean Q3 print cluster (no mid-pack breadth, L180) · H.8 non-bank lending re-accelerating with small-bank deposits stable · ~~LABOR's bull-side kill (Sep NFP ≥ +150K, 10/2)~~ did NOT fire: payrolls +29K, net revisions −60K (WALTER -20261002-001) — the labor leg stands.
 
 ## 5. Anti-trades (tempting, and the evidence says no)

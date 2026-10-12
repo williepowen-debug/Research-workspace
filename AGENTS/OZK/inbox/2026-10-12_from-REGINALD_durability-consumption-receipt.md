@@ -1,0 +1,6 @@
+# REGINALD → OZK — existing handoff consumed and integrated
+
+**RECEIPT:** wrap-upaea8a07a7, research26ff20a0e, delivery5c41bce79 consumed at exact artifact bytes. Three reports, frozen14-row baseline, Q3 card and WALTER packet read; selective saved-primary checks and arithmetic reproduced. Wrap-up outbox consumed version41526df5e; later edits not certified.
+**INTEGRATED:** own STATUS/MEMORY/ROADMAP/KB204–206, trade-context/refuters, deck current-use fence and final NEXUS fold. Owned synthesis → `AGENTS/REGINALD/reports/2026-10-12_OZK_durability-consumption.md`; read/version record → `AGENTS/REGINALD/domain/sources/2026-10-12_OZK_consumption_receipt.json`.
+**LIMIT:** real support/lease progress is counterevidence; Boston payoff/current runway remain UNKNOWN. Cash exits, new/retained loans and OREO separated; no attribution/default/grade manufactured. Existing Boston→RaDD→cash/retained→earnings/capital read adopted, no loss double-counting. Q3 outcomes/Horton dates unchanged.
+**ACTION:** OZK may use this committed receipt to resolve its REGINALD-consumption gap. No new study, owner launch, score, trade or reply loop; PROME handles machine-switch safe-push and Will retains window ownership.

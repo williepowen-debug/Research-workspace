@@ -134,7 +134,7 @@ Walker & Dunlop originates and sells CRE loans to Fannie Mae and Freddie Mac. Wh
 
 ## #7 — OZK's Most Important Loan Is $915 Million, and the Building Is Largely Empty
 
-> **Current-use fence, 2026-10-12:** this frozen March narrative's geography, funded-exposure language, valuation and near-term catalyst are not current evidence. Today's primary identifies the largest credit in **San Diego**, with executed extension/new capital; current exposure separates funded/unfunded commitment. Use OZK's `research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md` and REGINALD's `reports/2026-10-12_morning-regional-bank-tape.md`; redraw/as-stabilized appraisal/UNKNOWN recognition limits travel. Historical narrative below preserved.
+> **Current-use fence,2026-10-12:** frozen March geography, funded-exposure language, valuation and catalyst are historical. Current SanDiego/RaDD execution materially weakens maturity failure; funded/unfunded, redraw/as-stabilized/UNKNOWN recognition limits travel. Funding/Boston/cash-versus-retained evidence integrated → `reports/2026-10-12_OZK_durability-consumption.md`; OZK's existing card owns Q3 outcomes. No cash cure inferred from property news. Historical narrative preserved.
 
 **The finding:**  
 Bank OZK's single largest loan — $915 million against a San Francisco Bay Area life sciences campus — is secured by a building that analysts estimate may now be worth $500 million, and the bank has already had to sell its second-largest problem loan at a significant loss for the first time in its history.

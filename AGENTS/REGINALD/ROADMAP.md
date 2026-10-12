@@ -75,6 +75,8 @@ Persistent state-of-REGINALD tracker across sessions. **SCRATCH** = loose notes,
 
 ## RECENTLY RESOLVED
 
+**10/12 OZK handoff integrated:** `reports/2026-10-12_OZK_durability-consumption.md`; earlier deferral superseded. Funding/Boston/recovery evidence consumed; existing Q3 outcomes remain pending, no score/cohort change.
+
 **2026-10-12 KRE whole-basket study / closeout:** Will's approval executed; session closed at his request; `reports/2026-10-12_owner-closeout.md` retains deferred inbox work and gaps; `research/market-technicals/studies/2026-10-12_KRE_whole_basket_study.md`. Complete current-basket price coverage, benchmarks/volume/primary rates and charts saved. Broad price weakness; credit cause and exact historical contributions unresolved. One dated study, frozen credit cohort unchanged; no new monitor/trade.
 
 **2026-10-12 L694 bank stage:** EGBN question delivered; TERRY f5a5271fd/return89d77ba1d consumed, **PASS now — no trade-ready expression**. Mispricing unproved plus liquidity/horizon failures; existing L35/Q3 loan outcome dependency retained. Full discovery-pass acceptance remains coordinator-owned.
