@@ -11,5 +11,5 @@ STATUS: ✅ DONE — wrap-up instruction/card/continuity saved; future Q3 outcom
 CHANGED: Existing Q3 card, owned state/handoff, correction receipt and self-authored consumer coordination packets.
 RESULT: Three current-evidence passes treated complete; existing 14-row collection retained and bank-capacity interpretation made explicit.
 GAPS: Actual Q3 outcomes unpublished; blocked transaction/budget/rent evidence and downstream consumption remain distinct.
-WILL_NEEDS: None new; existing November5 JWT renewal separate.
+WILL_NEEDS: Automatic approval review rejected an additional shared push. Main research/card/packets already origin-proven; publishing remaining shared checkpoints/final receipt metadata requires trusted explicit approval. Existing November5 JWT renewal remains separate.
 FOLLOW-UP: Existing Horton/Q3/November obligations, plus consumer integration receipts. No repeated search or new capital action.
