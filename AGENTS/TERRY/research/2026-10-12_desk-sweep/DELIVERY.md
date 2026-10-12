@@ -61,3 +61,29 @@ FOLLOW-UP: PROME includes checkpoint commit in final authorized push; existing T
 Prior sweep retirement38retained-source/protocol dispositions and relevant tool tests remain at their actual saved scope/time; this persistence-only update triggers no new broad research, tool selftest, auto-memory, forecast/fill or threshold-number consumer sweep. Final affected state/card ledger, R1, BOARD, rawWill intake, weekday, cap, orphan/nudge/whitespace observations follow before final persistence; coverage cutoff records actual later intake, not process termination.
 
 **Check-E format correction:** the initial new STATUS ISO timestamp15:21:37 was misread as a21:37 future stamp; actual timestamp came from the clock. Header now uses actual minute+ET format, checkE/A–H rerun clean. Guard not relaxed/changed; ambiguity retained as a parser limitation for later work, no new tooling pass.
+
+
+### Machine-switch checked boundary — 2026-10-12T15:26:31-04:00
+
+Integration/current-state checkpoint **b41a73743** committed. OZK incomingaea8a07a7 fully integrated before filing toprocessed. Final observed ledger A–Hrc0/31setup_ids/22surfaces/18cards, I1read DEWEY packet now committed42c6af6ab (full linked-source read/integration completed before final filing). Named corrections0owed/11receipts against71register rows. BOARD scan run,0new sinceSIG-W-20261012-016,0logged;27addressed/33logged, no unlogged/skipped dates. RawWill0. Read-cap7-file heuristicrc0, STATUS24162B and charter31610B; injection/declaration coverage unconfirmed. Weekday and whitespace clean on affected state/note/delivery; final packet check follows. Orphan advisory only foreign residue, no sweep.
+
+Nudge still alerts six unchanged ledgers: board_log no new addressed/consumed signal to log; CALIBRATION no forecast/grade; PAPER_BOOK no new mark/fill; SIGNALS no committed new context/decay change; daytradeLEDGER no input/review; SETUPS no setup state change (OZK source annotation changes neither a position nor an entry rule). Per-ledger unchanged-data reasons preserved instead of fabricated freshness. Earlier validated tool/retirement outcomes remain at their saved scope, not rerun to simulate a whole new pass.
+
+This coverage cutoff bounds incorporation, not a lifecycle end or authority to ignore later material work. Read later arrivals against inbox/processed and actual owner source versions on the next machine. Current ready owned edits/packets are committed or included in the next exact-path handoff commit. DEWEY's new report/packet/provenance were subsequently owner-committed42c6af6ab. Full report/packet now read and exact bytes matched; no foreign source staging by TERRY. The earlier in-flight observations above are dated history. Historical processed raw broker CSV remains local-only for optional historical replay. Current broker/source/independent acceptance and all named future duties remain partial/open as above.
+
+## COMPLETION — TERRY — 2026-10-12
+STATUS: DONE (machine-switch persistence within continuing Will-owned window)
+CHANGED: Owned STATUS/MEMORY/bank note/existing delivery, consumed OZK packet filing and self-authored PROME handoff.
+RESULT: New source/continuity b41a73743 plus earlier58dcc7634/04dbc1c27/9b86f1062/fdeb3336b/e2f797d6e ready;0newmarket studies/orders/capital actions. Guards/checks pass within saved scopes.
+GAPS: Late DEWEY source committed42c6af6ab/full report read but still substantively PARTIAL; historical raw broker CSV local-only; accepted numeric observation/independent acceptance limits remain. Final remote proof awaits PROME safe push.
+WILL_NEEDS: No new trade/rule decision; raw local export does not transfer through Git.
+FOLLOW-UP: PROME final authorized shared push and DEWEY remaining original evidence; next computer resumes existing duties from MEMORY/current delivery, no window termination/replacement inferred.
+
+
+### Final late-source reconciliation — 2026-10-12T15:28:47-04:00
+
+The final exact source observation found DEWEY's report/packet already committed **42c6af6ab**, superseding earlier in-flight status. Full report and packet read/bytes matched; report SHA25632a377ed286c64d1b1161288ad1921eb2c4b3e208074b7238b3161ac9d860856, packet5bc2223e5f42dbf6892bac68f0b19d7a96a215b1597a78363d3ff3032deb90be. Current cargo evidence is PRIMARY publication of the monitoring provider's claim plus NEWS/reported named operator response, not independently received correspondence/authenticated current customs manifest. Minerva Zen is not a credible positive diesel-delivery example; other shipments and net additional supply still unknown, not zero. EIA comparison remains predeal/all-origin/all-distillate; no allocation/increment inferred. REQDEWEYcommission still PARTIAL dueOctober14; officialOctober12 comparison/statutory/physical/export-annex gaps remain. No new trade/gate grade, source study or monitor.
+
+Current MEMORY/STATUS and machine packet corrected before final handoff commit. New DEWEY packet will be filed only after this full read and saved integration, alongside the previously integrated OZK filing. Both author source deliveries are now committed for next-machine source availability; runtime caches/HTML shells and historical raw-private export remain outside Git. No unfinished ready owned file is intentionally left, pending final own commit/status verification.
+
+Final ready-owned observation **2026-10-12T15:30:35-04:00**: ledger A–Hrc0,0undrained desk packets after two fully read integrations/filings; named corrections0owed/11receipts against73register rows. Weekday4files/whitespace clean. No new source/gate/position decision. Current source/state checked into the final exact-path handoff commit; peer files/caches untouched. Private raw export/local source residues remain disclosed, not included in Git publication.

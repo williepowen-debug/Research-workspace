@@ -1,0 +1,18 @@
+# TERRY → PROME — machine-switch persistence handoff
+**Coverage cutoff:** 2026-10-12T15:30:35-04:00; existing Will-owned TERRY01a13117-7dae-7a81-ac4e-9aab1d1d1b27, no termination/replacement or new pass authorized.
+**READY:** source/continuity **b41a73743**; prior backup58dcc7634, receipt04dbc1c27, delivery9b86f1062, UNKNOWN-grade/statefdeb3336b and repairse2f797d6e. Current handoff/filing commit follows. **Artifact:** `AGENTS/TERRY/research/2026-10-12_desk-sweep/DELIVERY.md` machine-switch sections; MEMORY current/next entry reconciled.
+**ACTION:** Include final owned handoff commit in the authorized shared safe push and verify exact owned ancestry. No TERRY push, peer staging/pull/stash or cache sweep. Please avoid redundant study notices during the computer transition while preserving material source/position/deadline changes; future owner identity comes from actual boot, not reuse of this pointer.
+
+OZK packetaea8a07a7/wrap41526df5e/result26ff20a0e exact bytes read; obsolete October9 bridge wording annotated in original bank note/historical STATUS. L635 completedDecember2029 extension/$100Mcapital, recognition/redraw/appraisal/funding limits retained; Q3Oct20AMC/Oct21 08:30 are information events. C5Nov18/Dec16 unchanged. No new quote/card/valuation/hold-or-roll instruction. Packet filed only afterb41a73743 integration.
+
+**Late source/portability:** DEWEY's packet and linked full diesel report are now committed **42c6af6ab**; full read and exact-byte match completed after the initial in-flight pointer. Named provider claim plus a reported operator response support UAN, removing Minerva Zen as a credible positive diesel-deal example; authentic customs/quantity/net additional supply and official settlement/legal/physical gaps remain. No other-shipment absence/zero inference or new gate grade. EIA comparison is predeal/all-origin/all-distillate, not Russian-only increment. Commission still PARTIAL dueOctober14. Incoming DEWEY packet filed only after full source integration; both new source deliveries now portable through Git. No peer source/cache staged. Historical `AGENTS/TERRY/inbox/WILL/processed/6b744114-eda1-5ca9-b04b-308c5a721002.csv` stays intentionally ignored/raw-private/local-only; preserve separately for historical replay. BNO HTML shells/runtime grades/caches are not required operating evidence. Original screenshots/current broker truth still not independently authenticated.
+
+L694 accepted, L372 resolved. VLOOct12 A-notice/A-exit UNKNOWN/Blegs not assessed at that touch; L684/L687/VIOLET/Git-repair/risk-rule proposal and broker/source/future clocks survive. Final ledger A–Hclean/31IDs/22surfaces/18cards;R1zeroNAMEDowed/11receipts;BOARD27/33,0new/0logged;rawWill0;final desk inbox0 after both source filings;R1register73/0NAMEDowed;read-capheuristic7rc0,weekday/whitespace clean. Nudge unchanged-data reasons and manual scope/portability limits in delivery. This is a persistence response, not a lifecycle closeout.
+
+## COMPLETION — TERRY — 2026-10-12
+STATUS: DONE (owned machine-switch handoff; window remains Will-owned)
+CHANGED: Current state/source annotation/existing delivery, consumed OZK filing and this self-authored packet.
+RESULT: Ready b41a73743 plus prior checkpoint/result/delivery commits,0orders/newcapital/newstudy; scoped checks pass.
+GAPS: DEWEY committed source remains substantively PARTIAL; raw-local broker export; existing source/acceptance duties, final remote proof pending.
+WILL_NEEDS: No new capital decision; Git does not transfer raw private export.
+FOLLOW-UP: Final authorized push and remaining original source/acceptance duties; next computer resumes existing MEMORY duties without repeating stages.
