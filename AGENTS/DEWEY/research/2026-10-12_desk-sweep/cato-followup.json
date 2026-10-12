@@ -1,0 +1,49 @@
+{
+  "saved_utc": "2026-10-12T19:12:31.698815+00:00",
+  "authority": "Will adopted CATO feedback: finish consumption, bounded FHA causal wording correction, return to existing diesel commission; no broad sweep",
+  "report": "AGENTS/DEWEY/output/2026-08-27_carl-dr1-fha-partial-claims-leg.md",
+  "report_sha256": "48e8edfc4eb9cbd4f1e2124da9f752fd77656b2009ea93c16728657ca6cc2f10",
+  "observations": "Original HUD counts/rates/policy dates retained. Derived H1 summary row corrected to match printed SDQ inflow/outflow; no fresh quarter or source measurement.",
+  "arithmetic": {
+    "net_H125": 32175,
+    "net_H126": 179619,
+    "delta_net": 147444,
+    "outflow_difference": 115695,
+    "mean_quarterly_baseline": "0.949106100019940190932184417",
+    "baseline_shortfall_from_printed_inputs": "158588.0119234399249792884310",
+    "rounded_bp": 191,
+    "note": "Historical-baseline scenario, not identified hidden delinquency or policy effect"
+  },
+  "cato_review_scope": "CATO independently reproduced97.4bp and31.8bp; did not independently accept the full tool implementation.14 regressions/12 RECAP checks remain author-reported.62 indexed reports are accessible inventory, not62 fresh conclusion verifications.",
+  "consumption": {
+    "BRENT": {
+      "state": "ACKNOWLEDGED-MAINTENANCE-USE",
+      "artifact": "AGENTS/BRENT/board_log.tsv row569 and SCRATCH.md existing afternoon continuation",
+      "commit": "0be151800",
+      "scope": "Read9232d7829 gas-helper change for INFO; use at future touches, no cadence/forecast/HANS grade change. Not independent implementation acceptance."
+    },
+    "CARL": {
+      "state": "Q2-CARDS-CONSUMED; COMBINED-FHA/CARD-RECEIPT-PENDING",
+      "artifact": "AGENTS/CARL/workbook/KB.tsv KB-CARL-518; STATUS.md DEWEY commissions; own received finalized-source receipt",
+      "scope": "New bounded report correction requires joint integration receipt."
+    },
+    "WALTER": {
+      "state": "HISTORICAL-SIGNAL-LINKAGE-PENDING",
+      "artifacts": [
+        "AGENTS/WALTER/inbox/DEWEY/2026-10-12_fha-aggregation-erratum_sweep-handoff.md",
+        "AGENTS/WALTER/inbox/DEWEY/2026-10-12_fha-board-reference_sweep-followup.md"
+      ]
+    }
+  },
+  "transport": {
+    "method": "Installed codex queue --thread UUID --message TEXT",
+    "verification": "codex --help / queue --help; PROME active-owner report proves same route; codex agents overview read after sandbox lock escalation. Overview Inactive labels are not treated as absence.",
+    "previous_claim_corrected": "Earlier API-tools-only check wrongly generalized messaging unavailable. CLI route now found; queue receipts will be saved separately and are not consumption.",
+    "threads": {
+      "CARL": "01a1312e-7563-7c00-9094-c94636c14226",
+      "WALTER": "01a13104-a88a-7df3-afa2-2dcefdc805e3",
+      "PROME": "01a130f9-9935-7fa2-b5cf-42c41652c9a3"
+    }
+  },
+  "next": "Existing diesel assignment dueOct14; prioritize authenticated cargo/increment; Q3 cards unchanged dueNov13."
+}

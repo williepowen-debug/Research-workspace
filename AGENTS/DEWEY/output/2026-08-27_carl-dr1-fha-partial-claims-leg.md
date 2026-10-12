@@ -1,6 +1,6 @@
 # FHA PARTIAL-CLAIMS LEG — THE DEFERRAL WEDGE WENT INTO REVERSE
 
-**Date:** 2026-08-27 | **Mode:** Thesis | **Confidence:** High (the flow decomposition, the mechanism, the foreclosure counter-test, and the FY2024 partial-claim counts — all HUD primary, re-verified, and reproducible) / **Medium** (the SDQ-relevant share of partial claims, which is bounded not measured) / **NOT-AVAILABLE** (FY2025–26 partial-claim counts — HUD withdrew the disclosure)
+**Date:** 2026-08-27 | **Mode:** Thesis | **Confidence:** High (recorded HUD flows/counts and policy terms); descriptive arithmetic is reproducible. The policy contribution to the observed change, SDQ-relevant action share and causal class-wide wedge are not identified. FY2025 count-by-type disclosure was omitted; FY2026 counts were unavailable at the original August27 research date.
 **Commission:** PROME re-commission of the CARL-DR-1 FHA/VA leg, Will-approved in-session 2026-08-19 · **Consumers:** CARL (action) · WALTER (ledger) · PROME (info)
 
 > **Correction — 2026-10-12 desk sweep:** WQ-104 ruled book-size weighting onSeptember1, with16.95M Fannie /7.81M FHA; PROME's same-day correction makes the two-book illustration **97.4bp weighted /22.5bp best-leg**, not100.7bp on8.32M. Section5 and the dependent headline now reflect that ruling. The former20%-share/~50bp arithmetic was also wrong:20% gives31.8bp in this illustration. Gross workout actions do not measure a causal SDQ wedge; the class-wide test remains ungraded pending compatible private-book/counterfactual evidence, including the Q2 card report's explicit NOT COMPUTABLE finding. No owner score is changed. Sources: DEWEY `inbox/processed/2026-09-01_from-PROME_cc-WQ-104-RULED-book-size-weighted-adopted-leg-3-measures-into-an-existing-rule.md`, `inbox/processed/2026-09-01b_from-PROME_cc-WQ-104-CORRECTION-book-weighted-wedge-97.4bp-under-the-ruled-7.81M-weight-100.7-was-the-8.32M-basis.md`, and `output/2026-10-12_carl-dr1-cards-q2-fdm.md`. All underlying HUD observations retain their original vintages.
@@ -10,19 +10,21 @@
 
 ---
 
+> **Causal wording correction —2026-10-12, CATO feedback adopted by Will:** the previously categorical attribution of the rate jump to stopped hiding is withdrawn. About79% is a share of the change in half-year net accumulation, and191bp is a historical-baseline scenario. Policy timing is a proposed mechanism; neither quantity identifies a causal hidden-delinquency effect. Historical HUD observations and the97.4/22.5 and31.8bp illustrations are preserved.
+
 ## Key Finding
 
 **FHA's workout process changed, and reported delinquency rose as recorded exits slowed.** The disclosed activity scale is large; its causal SDQ/class-wide wedge is not directly measured.
 
-FHA's reported serious-delinquency rate rose **+226bps YoY, from 4.27% to 6.53%** (May 2025 → May 2026). **79% of that deterioration is a slower drain, not more borrowers falling behind.** Over the same fiscal half-year, new 90+ delinquencies rose only **+8.3%** while **outflow fell 33.1%** — from 349,308 exits to 233,613. The outflow-to-inflow ratio, stable at **0.95** across all four quarters of FY2025 (range 0.77–1.08), collapsed to **0.51** in FY26Q1 and **0.63** in FY26Q2.
+FHA's reported serious-delinquency rate rose **+226bps YoY, from 4.27% to 6.53%** (May 2025 → May 2026). **About79% of the increase in the half-year net stock accumulation decomposes into lower recorded outflow.** This is an accounting comparison of flows, not a causal attribution of79% of the226bp YoY rate rise to policy. Over the same fiscal half-year, new 90+ delinquencies rose only **+8.3%** while **outflow fell 33.1%** — from 349,308 exits to 233,613. The outflow-to-inflow ratio, stable at **0.95** across all four quarters of FY2025 (range 0.77–1.08), collapsed to **0.51** in FY26Q1 and **0.63** in FY26Q2.
 
-**The cause is documented, dated, and mechanical.** FHA's COVID-era loss-mitigation options (COVID-19 ALM, COVID-19 Recovery, FHA-HAMP) **expired September 30, 2025**. From October 1, the new permanent waterfall requires a **three-month Trial Payment Plan** before any permanent home-retention option, and the loss-mitigation documents take effect **"no later than the first Day of the second month following the final TPP month."** That is a **~5-month minimum pipeline** from intervention to cure, against a COVID-era path that could execute a partial claim directly. HUD's own footnote confirms the accounting consequence: **"Included in the delinquency counts are loans under active consideration for loss mitigation foreclosure avoidance."** Loans in the pipeline stay delinquent.
+**A policy change supplies a plausible mechanism for slower exits; its aggregate causal effect is not measured here.** FHA's COVID-era loss-mitigation options (COVID-19 ALM, COVID-19 Recovery, FHA-HAMP) **expired September 30, 2025**. From October 1, the new permanent waterfall requires a **three-month Trial Payment Plan** before any permanent home-retention option, and the loss-mitigation documents take effect **"no later than the first Day of the second month following the final TPP month."** The documented three-month trial plus effectiveness no later than the second month after the final trial month allows a pipeline of **up to about five months**; it does not establish a five-month minimum or the delay actually experienced by each borrower. The COVID-era path could execute a partial claim directly. HUD's own footnote confirms the accounting consequence: **"Included in the delinquency counts are loans under active consideration for loss mitigation foreclosure avoidance."** Loans in the pipeline stay delinquent.
 
-**So the deferral machine did not get better at hiding delinquency — it got throttled, and the reported number jumped because the hiding stopped.** The cumulative outflow shortfall versus the FY2025 baseline is **158,587 loans = 191bps** of the 8.32M active portfolio, sitting in the reported SDQ count that the prior regime's drain rate would already have removed.
+**Recorded exits slowed after the policy change, a pattern consistent with longer cure processing.** Applying the FY2025 outflow/inflow ratio to FY2026 H1 inflow gives a baseline-scenario shortfall of approximately **158.6k loans =191bps** of the8.32M active portfolio. This does not identify which loans the former regime would have cured, how much delinquency was previously hidden, or how much of the observed rise the policy caused.
 
 **HUD's observed workout counts establish scale, not a measured class-wide causal wedge.** InFY2024,406,623 partial-claim-involving actions completed (323,920 stand-alone plus82,703 Recovery Modifications) on7.81M loans. The half-year-equivalent action rate is260bps, versus Fannie's22.5bp workout-removal construction. FHA's count covers any delinquency stage and may include repeat actions; Fannie's numerator is SDQ workout removals. The260/22.5 ratio is therefore a comparison of disclosed activity scales, not proof of an11.6× causal artifact. With ruled two-book weights, the illustrative weighted figure is97.4bp beside22.5bp best-leg. CARL's class-wide50bp test remains ungraded; compatible private-book/counterfactual evidence is still required.
 
-⚠️ **And the disclosure that makes this measurable has been withdrawn.** The count-by-type exhibit exists in the **FY2024** Annual Report to Congress and **was dropped from the FY2025 edition**, which reports only home-retention *rates* and redefault rates — no raw counts. So the FY2024 figure above is, as of now, **the most recent measurable vintage of the largest recognition-artifact channel in US consumer credit**, and the series went dark in the year the mechanism changed.
+⚠️ **The action-count disclosure needed to extend this activity comparison was omitted from the next edition.** The count-by-type exhibit exists in the **FY2024** Annual Report to Congress and **was dropped from the FY2025 edition**, which reports only home-retention *rates* and redefault rates — no raw counts. So the FY2024 figure above is, as of now, **the latest disclosed action-count vintage recovered in the original August27 pull**, and the series went dark in the year the mechanism changed.
 
 ---
 
@@ -39,7 +41,7 @@ FHA publishes a monthly stock (Table 1) and a quarterly inflow (Table 2), which 
 | **FY26 Q1 (Oct–Dec 25)** | 219,641 | 369,197 | 477,476 | **+108,279** | **111,362** | **0.51** |
 | **FY26 Q2 (Jan–Mar 26)** | 193,591 | 477,476 | 548,816 | **+71,340** | **122,251** | **0.63** |
 
-**FY2025 baseline out/in = 0.949** across four quarters (0.77–1.08). FY26Q1's 0.51 sits far outside that range. Applying the baseline to FY26 H1 inflow gives an expected outflow of 392,200 against an actual 233,613 — a **shortfall of 158,587 loans = 191bps** of the 8,323,271-loan active portfolio.
+**FY2025 baseline out/in ≈0.949 is the mean of the four quarterly ratios**, not the pooled annual ratio; (0.77–1.08). FY26Q1's 0.51 sits far outside that range. Applying the baseline to FY26 H1 inflow gives an expected outflow of 392,200 against an actual 233,613 — an approximately **158.6k-loan shortfall =191bps** of the 8,323,271-loan active portfolio.
 
 **The like-for-like YoY attribution (same fiscal half, one year apart):**
 
@@ -47,15 +49,15 @@ FHA publishes a monthly stock (Table 1) and a quarterly inflow (Table 2), which 
 |---|---:|---:|---:|
 | Inflow (new 90+) | 381,483 | 413,232 | **+8.3%** |
 | Outflow (all exits) | 349,308 | 233,613 | **−33.1%** |
-| Stock change | +23,700 | +173,426 | |
+| Derived net accumulation (inflow−outflow) | +32,175 | +179,619 | |
 
-The stock grew **147,444 more** in FY26 H1 than FY25 H1. **21.5% of that is higher inflow; 78.5% is lower outflow.** In portfolio bps: inflow term **38bps**, outflow term **142bps**.
+Derived net accumulation was **147,444 greater** in FY26 H1 than FY25 H1. The old summary row23,700/173,426 did not reconcile with the printed SDQ flows;32,175/179,619 are arithmetic from the unchanged inflow/outflow inputs. **21.5% of that is higher inflow; 78.5% is lower outflow.** In portfolio bps: inflow term **38bps**, outflow term **142bps**.
 
 *Robustness: run on the narrower 90-day-only perimeter the answer is 193bps and a 78.8/21.2 split — the finding does not depend on the perimeter choice. Both LPT reports overlap at May 2025 (90-day 3.39%, IIF 8,020,755) and agree exactly, so the two vintages splice cleanly.*
 
-⚠️ **`[[finding_rising_stock_flat_inflow_means_slower_outflow]]`** — the same signature I found on bank cards in the C3 run, here far more extreme. **A reader taking FHA's +226bps SDQ move as a pure credit signal is reading a pipeline change as borrower behaviour.**
+⚠️ **`[[finding_rising_stock_flat_inflow_means_slower_outflow]]`** — the same signature I found on bank cards in the C3 run, here far more extreme. **The226bp SDQ-rate rise alone cannot distinguish borrower deterioration from changes in cure processing and other exit channels.** The flow decomposition identifies the arithmetic terms; it does not identify their underlying causes.
 
-⚠️ **THIS SUPERSEDES MY OWN PRIOR FRAMING, and I would rather say so than let it stand.** `output/2026-07-24_fha-va-loss-waterfall.md` reported *"FHA DQ is rising sharply… SDQ +212bps YoY"* and framed the rise through a student-loan-defaulter channel. **The level was right; the cause was not established, and this report shows ~79% of the move is a drain artifact.** The student-loan mechanism may still contribute to the *inflow* term (+8.3%), which is the smaller half. **Anyone carrying the 7/24 framing should re-rate it.** *(A different figure in that report — the MBA NDS 11.52%/11.88% series — is NOT superseded here: it is a different series on a different perimeter, and my own 7/25 synthesis already flagged it as 403'd and unverified at primary. Do not reconcile the two.)*
+⚠️ **THIS SUPERSEDES MY OWN PRIOR FRAMING, and I would rather say so than let it stand.** `output/2026-07-24_fha-va-loss-waterfall.md` reported *"FHA DQ is rising sharply… SDQ +212bps YoY"* and framed the rise through a student-loan-defaulter channel. **The level was right; the student-loan cause was not established. This report attributes about79% of the change in half-year net accumulation to lower recorded outflow in an accounting identity, without establishing that the outflow change is a policy artifact.** The student-loan mechanism may still contribute to the *inflow* term (+8.3%), which is the smaller accounting term. **Anyone carrying the 7/24 framing should re-rate it.** *(A different figure in that report — the MBA NDS 11.52%/11.88% series — is NOT superseded here: it is a different series on a different perimeter, and my own 7/25 synthesis already flagged it as 403'd and unverified at primary. Do not reconcile the two.)*
 
 ## 2. Why — the mechanism, at primary
 
@@ -65,11 +67,11 @@ The stock grew **147,444 more** in FY26 H1 than FY25 H1. **21.5% of that is high
 - **Loans in that pipeline are counted delinquent**: *"Included in the delinquency counts are loans under active consideration for loss mitigation foreclosure avoidance"* [PRIMARY: FHA LPT Table 1, footnote a].
 - **Repeat access was tightened**: home-retention options limited to **one in 24 months** (previously one in 18; the COVID waterfall had no such limit) [PRIMARY: ML 2025-12; NCLC].
 
-**The observed shape matches the mechanism quarter by quarter.** FY26Q1 (Oct–Dec 25) is the quarter in which trials start and none complete → outflow 0.51. FY26Q2 (Jan–Mar 26) is when the first cohort completes and documents take effect → partial recovery to 0.63, still well below the 0.95 baseline. **This is a predicted signature, not a fitted one.**
+**The quarterly pattern is consistent with a transition-delay mechanism:** the outflow/inflow ratio fell to0.51 in FY26Q1 and recovered to0.63 in FY26Q2, below the0.95 baseline. Aggregate data do not show each loan's trial start/completion date, implementation timing or counterfactual cure. This sequence therefore supports a proposed mechanism, not a uniquely identified policy effect or an out-of-sample prediction.
 
-## 3. The counter-hypothesis, tested and refuted
+## 3. Foreclosure observations constrain one alternative
 
-An obvious alternative: the drain slowed because FHA **stopped foreclosing** (a moratorium or servicing slowdown), which would produce the same stock build with a completely different meaning. **It is refuted.**
+A broad cessation of foreclosure would be one possible explanation for slower exits. The recorded increases in starts and paid claims argue against that simple explanation. They do not rule out all servicing delays, pipeline composition changes or other causes of lower outflow.
 
 | | FY25 H1 | FY26 H1 | change |
 |---|---:|---:|---:|
@@ -77,7 +79,7 @@ An obvious alternative: the drain slowed because FHA **stopped foreclosing** (a 
 | Foreclosure claims paid | 6,805 | 8,208 | **+20.6%** |
 | In-foreclosure stock (May) | 31,078 | 45,847 | **+47.5%** |
 
-**Foreclosure accelerated.** And it is far too small to matter to the drain either way: claims are **3.5% of total FY26 H1 outflow**, and the extra claims YoY explain **1.2%** of the 117,977-loan outflow shortfall. The collapse is in the **cure** channel, not the terminal channel.
+**Recorded foreclosure starts and paid claims increased.** Paid claims were a small component of these exits: claims are **3.5% of total FY26 H1 outflow**, and the extra claims YoY explain **1.2%** of the 115,695-loan reduction in reported outflow. Most of the recorded outflow reduction is outside paid claims. These aggregates do not identify its precise loss-mitigation/cure mix or cause.
 
 ## 4. Disclosed workout-action scale — SDQ comparability remains limited
 
@@ -104,11 +106,11 @@ Fannie's 22.5bps is arithmetically **workout removals ÷ book**: 38,150 ÷ ~16.9
 | **Action-scale ratio** | **11.6×; numerators differ in SDQ scope** |
 | Share of partial claims that must be NON-seriously-delinquent to keep FHA under 50bps | **80.8%** |
 
-**The SDQ-subset caveat, stated precisely:** Fannie's 38,150 were workout removals from the *seriously delinquent* flow specifically. FHA's 406,623 counts partial claims at **any** delinquency stage, so the SDQ-specific subset is **≤** the raw count. The honest form of the finding is therefore: *the FHA leg breaches 50bps unless fewer than 19.2% of partial claims cure a seriously-delinquent loan.* The SDQ-relevant share is not measured. Those inflow/action totals do not establish its lower bound or the untreated classification counterfactual.
+**The SDQ-subset caveat, stated precisely:** Fannie's 38,150 were workout removals from the *seriously delinquent* flow specifically. FHA's 406,623 counts partial claims at **any** delinquency stage, so the SDQ-specific subset is **≤** the raw count. In the narrow scenario that treats the260bp action scale as comparable unique SDQ cures, a19.2% relevant share corresponds to50bp on the FHA book alone. That scenario does not establish an observed causal wedge or score the class-wide test. The SDQ-relevant share is not measured. Those inflow/action totals do not establish its lower bound or the untreated classification counterfactual.
 
 ⚠️ **Two integrity notes on this exhibit, both of which I would want flagged if I were the reader:**
 1. **HUD's own narrative contradicts its own table on the same page.** The text says *"roughly 810,000 Stand-alone Partial Claims since the beginning of the pandemic in March of 2020"* while Exhibit II-3 totals **1,127,672** stand-alone partial claims for FY2021–24 alone — a *shorter* window. The two cannot both be counting the same thing; the most likely reconciliation is **actions vs unique borrowers** (repeat partial claims to the same borrower were permitted under the COVID waterfall). **I use the table for the disclosed action scale; repeated actions cannot silently become unique-borrower SDQ removals.** Anyone citing "810,000" for a flow calculation is using the wrong quantity.
-2. **The FY2025 edition of the same report DROPPED this table**, publishing only home-retention *rates* by origination cohort and redefault rates. **The disclosure that makes the largest consumer-credit recognition artifact measurable was withdrawn in the year the mechanism changed.** FY2026 counts do not exist yet (that edition publishes ~Nov 2026). `[[finding_retired_threshold_has_no_publisher]]`
+2. **The FY2025 edition of the same report DROPPED this table**, publishing only home-retention *rates* by origination cohort and redefault rates. **The omitted action-count exhibit limits current activity comparisons; the earlier counts did not independently identify a causal recognition artifact.** FY2026 counts do not exist yet (that edition publishes ~Nov 2026). `[[finding_retired_threshold_has_no_publisher]]`
 
 ## 5. ⚠️ The aggregation question — DR-1's spec defect, made concrete
 
@@ -135,21 +137,21 @@ In DR-1 I flagged a mechanism CARL's scope list omitted: **nonperforming/reperfo
 - It is running with real volume as the **HUD-Held Vacant Loan Sale (HVLS)**: **HVLS 2026-1, sale date 2025-12-09 — 1,061 loans, $146.9M UPB, $321.3M updated loan balance, winning bids $192.8M (65% of ULB)** [PRIMARY: HUD sale-results summary]. Prior sales HVLS 2025-3 (~1,874–1,945 loans) and 2025-2 (~1,600 loans).
 - ⚠️ **The decisive scope point:** these sales cover notes **already assigned to HUD after an insurance claim has been paid.** Those loans left *Active Insurance in Force* at claim time. **So HVLS does not remove loans from the denominator or the delinquency numerator of the reported FHA rate** — unlike Fannie's NPL/RPL sales, which remove loans from a *reported performing-book* delinquency measure.
 
-**Conclusion for CARL's scope list: at FHA the removal-by-sale artifact does not exist in the form it takes at Fannie.** FHA's recognition artifact is concentrated almost entirely in the **deferral** channel (partial claims), which is what makes it so large. That is a structural difference between the two books and it cuts against treating the legs as interchangeable.
+**Conclusion for CARL's scope list: at FHA the removal-by-sale artifact does not exist in the form it takes at Fannie.** Partial claims provide a possible cure/recognition channel; its causal scale has not been measured from the available action counts. That is a structural difference between the two books and it cuts against treating the legs as interchangeable.
 
-**VA — the purchase channel CLOSED in 2025.** VA stopped accepting new **VASP** (VA Servicing Purchase) submissions and trial payment plans effective **2025-04-30**, with already-accepted trials running through **2025-08-31** (VA Circular 26-25-2, dated 2025-04-23) [INSTITUTIONAL — consistent across NCLC, Consumer Finance Monitor and Alston; **the circular PDF was not fetched directly**, so treat the dates as corroborated-but-not-primary]. Direction matters: VA's removal channel shutting in mid-2025 pushes reported VA delinquency **up** for the same reason FHA's is up — a closed cure/removal channel, not worse borrowers. My 7/24 report established VA is the milder leg on level (PFSI VA 60+ 1.7% vs FHA 8.0%), so FHA carries the class weight; **VA volumes remain unmeasured.**
+**VA — the purchase channel CLOSED in 2025.** VA stopped accepting new **VASP** (VA Servicing Purchase) submissions and trial payment plans effective **2025-04-30**, with already-accepted trials running through **2025-08-31** (VA Circular 26-25-2, dated 2025-04-23) [INSTITUTIONAL — consistent across NCLC, Consumer Finance Monitor and Alston; **the circular PDF was not fetched directly**, so treat the dates as corroborated-but-not-primary]. Mechanism implication: closing a purchase/cure channel could leave more loans reported delinquent, all else equal. This report does not measure that effect or establish the cause of the observed VA/FHA changes. My 7/24 report established VA is the milder leg on level (PFSI VA 60+ 1.7% vs FHA 8.0%), so FHA carries the class weight; **VA volumes remain unmeasured.**
 
 ---
 
 ## Counter-Evidence
 
-1. **The strongest argument against reading this as "masking": it is the opposite of masking right now.** Reported FHA SDQ currently **overstates** deterioration relative to the prior regime's measurement basis. Anyone using this report to argue "FHA is hiding distress" has it backwards for the current period. The correct statement is that FHA *has the capacity* to hide distress on a ~190bps scale, and that capacity was recently interrupted.
-2. **Credit genuinely is deteriorating too.** Inflow rose 8.3% YoY, foreclosure starts +33.9%, in-foreclosure stock +47.5%. The drain explains 79% of the *stock* move, not 100%, and the 21% inflow term is real.
-3. **The 24-month repeat limit shrinks the machine's future capacity.** Borrowers who have used a home-retention option cannot be re-deferred for two years. If the wedge is a stock of deferrals, that stock now has a *harder* ceiling than under the COVID waterfall — which argues the wedge narrows from here regardless of the transition.
-4. **My 191bps is a disruption measure, not a steady-state wedge.** It says how much the drain under-performed its own baseline, which is not identical to "how much delinquency is hidden." The §4 bound is the closer comparison, and it is a bound.
+1. **A processing delay could increase reported delinquency without an equivalent increase in borrower distress.** The observed flow slowdown is consistent with this mechanism, but neither a current overstatement nor~190bp of hidden-distress capacity is measured. The191bp result is a baseline scenario.
+2. **The deterioration indicators also rose:** inflow+8.3%, foreclosure starts+33.9%, in-foreclosure stock+47.5%. The79%/21% split describes the change in half-year net accumulation; it does not separate policy effects from borrower distress.
+3. **The 24-month repeat limit shrinks the machine's future capacity.** Borrowers who have used a home-retention option cannot be re-deferred for two years. If the wedge is a stock of deferrals, that stock now has a *harder* ceiling than under the COVID waterfall — which could reduce repeat access; it does not quantify the future recognition wedge.
+4. **The191bp figure is a shortfall under an assumed historical outflow/inflow baseline, not an observed policy-effect estimate.** It says how much the drain under-performed its own baseline, which is not identical to "how much delinquency is hidden." The §4 bound is the closer comparison, and it is a bound.
 5. **The FY2025 baseline has real dispersion** (0.77–1.08 across four quarters). A 0.51 reading is outside it, but a four-quarter baseline is thin, and FY25Q1's 0.77 shows the ratio can run low without a policy change.
 6. **The inflow series may not be perfectly comparable across the October 2025 change.** ML 2025-12 altered claim-type definitions and reporting requirements. I used only the raw "New 90+ Delinquencies" count, the least definition-sensitive column, but a reporting change affecting *when* a loan is counted 90+ would contaminate both sides of the decomposition. Not tested — flagged.
-7. **Urban Institute's standing caution applies** (from my 7/24 report): none of five leading hypotheses fully explains the FHA DQ rise. This report adds a large mechanical term; it does not claim to close the question.
+7. **Urban Institute's standing caution applies** (from my 7/24 report): none of five leading hypotheses fully explains the FHA DQ rise. This report identifies a large accounting outflow term and proposes a policy mechanism; it does not identify the cause of that term or close the question.
 
 **What would disprove the central finding:** published FHA loss-mitigation completion counts showing partial claims *did not* fall in FY26 Q1–Q2. That single series would settle it, and it is the one thing I could not reach.
 
@@ -161,7 +163,7 @@ In DR-1 I flagged a mechanism CARL's scope list omitted: **nonperforming/reperfo
 
 **Gaps, stated plainly:**
 - **FY2025 and FY2026 partial-claim counts — GENUINELY UNAVAILABLE, not merely unfetched.** The FY2025 Annual Report dropped the count-by-type exhibit; the FY2026 edition publishes ~Nov 2026. So the current-period flow cannot be measured from published data at all, which is precisely why §§1–3's drain decomposition carries this report.
-- **The SDQ-relevant share of partial claims** — bounded (must be <19.2% for the leg to clear 50bps), not measured.
+- **The SDQ-relevant share of partial-claim actions and unique-borrower counterfactual** — unmeasured;19.2% is an illustrative FHA-only threshold under additional assumptions, not an observed bound.
 - **Partial-claim notes-receivable STOCK in $** — does not appear to exist as a standalone published line. HUD's FY2025 financial-statement audit (HUD OIG) reports a **material weakness in loans-receivable accounting that combines HECM Secretary-held notes and Single Family partial claims** and does not split them.
 - ⚠️ **A trade-press figure of "343,801 partial claims valued at more than $7.7 million" (attributed to HUD OIG 2026-KC-0005, 2026-06-25) was DELIBERATELY NOT USED.** The report title/number/date check out on oversight.gov but the PDF was unreachable, and the dollar figure is internally implausible by ~1000× (343,801 × ~$22k ≈ $7.6 **billion**). Flagged rather than passed through. Do not cite it without the primary document.
 - **VA / VASP volumes** — not measured; the wind-down dates are corroborated but not primary-fetched.
@@ -208,9 +210,9 @@ In DR-1 I flagged a mechanism CARL's scope list omitted: **nonperforming/reperfo
 
 **Errors caught in-run (2):**
 1. **I initially ran the decomposition on the 90-day-only bucket**, which leaks: a loan entering foreclosure exits the 90-day bucket without leaving delinquency. Re-ran on the full SDQ perimeter so those transitions net out. The answer barely moved (193 → 191bps, same 78/22 split) — but I would have been defending a number with a known leak in it, and the robustness check is now part of the finding rather than a hope.
-2. **I nearly reported the outflow collapse without testing the foreclosure-moratorium alternative**, which produces an identical stock build with an opposite meaning. Table 4 refutes it decisively (starts +33.9%). Had I skipped it, the report's central causal claim would have rested on the policy timing alone.
+2. **I nearly reported the outflow collapse without testing the foreclosure-moratorium alternative**, which produces an identical stock build with an opposite meaning. The recorded starts/claims increases argue against a general halt, but do not eliminate all servicing or composition alternatives. A causal policy attribution remains unmeasured.
 
-**Confidence:** High on §§1–3. High on the disclosed §4 counts; SDQ-specific/class-wide causal wedge NOT COMPUTABLE from these observations. The aggregation table in §5 is arithmetic on stated inputs, not a claim.
+**Confidence:** High on §§1–3 source observations and policy terms; the decomposition is descriptive. Causal policy attribution is unmeasured. High on the disclosed §4 counts; SDQ-specific/class-wide causal wedge NOT COMPUTABLE from these observations. The aggregation table in §5 is arithmetic on stated inputs, not a claim.
 
 **If I had more time/tools:** the HUD OIG report **2026-KC-0005** (*HUD Did Not Correctly Service all Due and Payable Partial Claims*, 2026-06-25) — the one document likely to carry a partial-claim-specific stock figure; hudoig.gov URLs guessed at returned 410/404 and it needs the real permalink. Second: any SFDMS/NSC interim extract carrying FY2026 loss-mit completions, which would confirm §§1–3's drain collapse **by name** rather than by elimination.
 
