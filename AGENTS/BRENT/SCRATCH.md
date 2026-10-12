@@ -8,6 +8,7 @@
 - L694 approval/context-transition amendment survives; no new substantive energy stage found/delivered. L689/TERRY PASS preserved.
 
 ## WHAT I DID THIS SESSION
+- **12:48EDT Will diesel/USO question:** fresh vendor pull saved at `research/2026-10-12_diesel-reaction/NOTE.md`/quotes.json. No durable crude selloff visible; Friday product-specific response partly recovered. No causal null, delivery proof or afternoon grade.
 - Explicit root/local/runtime/spec loading; recovered morning L633/L689, COT#9, eightCSV inspection and approved L694 without repeating them. Verified replacement identity from native environment.
 - Required boot rerun with network after sandbox DNS failures:10checks8OK/1WARNINGS/1FINDINGS/0FAIL,rc2. Ledger dispositions in receipt. Corrections13receipts/0unreceipted; due/pending scans clear within scope. Inbox empty at scan.
 - Reconciled TRADE encoding/card existence, wrote STATUS/NEXUS/TRACKER scoped boot annotations and durable PROME receipt. No grade, threshold, thesis version, order, new source study or helper.

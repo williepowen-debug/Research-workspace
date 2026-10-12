@@ -1,6 +1,6 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-10-12 11:16 EDT — SCOPED-PARTIAL L689 issuer/relief source reads:** market quotes remain10:26EDT, L633 physical evidence still Sunday/morning. One conditional candidate; no ticket. MondayMMA/refinery run-states/CMEsettle/broker receipt unrefreshed. [MEMO](research/2026-10-12_L689-energy-opportunities/MEMO.md).
+**Last real data refresh: 2026-10-12 12:48 EDT — SCOPED-PARTIAL quote pull:** USO151.76/+2.40% at12:46; NovWTI93.73/+2.05%, NovULSD4.7666/+0.60% at12:38 (vendor). Same-minute12:37 Nov/Dec diesel diagnostics106.59/101.47EST, not settlements/grades. Physical/operator/relief research remains Sunday/morning/11:16; broker/orders unrefreshed. [Reaction note](research/2026-10-12_diesel-reaction/NOTE.md).
 
 **Fresh-context boot 2026-10-12 12:45 EDT:** 10 checks:8OK/1WARNINGS/1FINDINGS/0FAIL,rc2; Ledger Nudge dispositioned. WQ420 encoding verified at TERRY08158a2c4; PROME L684 acceptance still owed. No new paired crack, storm/refinery or broker evidence; L633/L694 remain open. [Boot receipt](research/2026-10-12_fresh-context-boot/REPORT.md).
 
