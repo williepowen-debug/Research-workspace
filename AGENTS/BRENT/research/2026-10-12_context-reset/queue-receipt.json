@@ -1,0 +1,11 @@
+{
+  "written_at": "2026-10-12T12:21:51.872652-04:00",
+  "artifact_commit": "32d297d6d",
+  "recipient_thread": "01a1307b-f614-76b3-8caf-49b226027079",
+  "message_id": "01a130eb-73ea-7490-8c34-14036c03f9a8",
+  "method": "installed codex queue CLI",
+  "exit_code": 0,
+  "actual_output": "Queued message 01a130eb-73ea-7490-8c34-14036c03f9a8 for thread 01a1307b-f614-76b3-8caf-49b226027079.",
+  "status": "notification accepted; PROME consumption unverified; replacement identity unverified",
+  "purpose": "Will-directed context-reset closeout receipt, not task send to old owner windows"
+}
