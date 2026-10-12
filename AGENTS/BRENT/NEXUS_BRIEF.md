@@ -2,11 +2,11 @@
 
 **Status:** 🟠 L689 accepted, TERRY construction PASS: one conditional economic candidate, zero new capital. Will requested context reset; L694 domain stage resumes in fresh context. L633/afternoon obligations remain outstanding. Stand-down unchanged.
 **Domain:** Oil/energy physical balance, structure and transmission.
-**As of:** 2026-10-12 13:11 EDT — SCOPED-PARTIAL MiddleEast/Panama source review; quotevintage12:56, olderphysical/issuer/relief sections retain own dates.
+**As of:** 2026-10-12 13:28 EDT — SCOPED-PARTIAL USCF instrument/TERRY L689 review; quotevintage12:56. Physical/war grades retain dates; older sections not refreshed.
 
 > **C6(b) SCOPED-PARTIAL — fresh-context boot 2026-10-12 12:45 EDT:** recovered root/local/specs, full L694 approval, saved morning work and TERRY PASS. Network boot:10checks8OK/1WARNINGS/1FINDINGS,rc2; EIA stillwk10/2. WQ420 exact insert verified at TERRY08158a2c4; PROME L684 acceptance remains owed. USO Oct14 card exists; no broker/order refresh. L694 substantive stage and L633/afternoon work remain open. NOT re-verified: paired crack, physical restart/refinery output, delivered relief, JWC/GIE/incidents or older CROSS-DOMAIN/VIEW/CALIBRATION claims. Prior issuer/relief sources retain11:16EDT perimeter. No new grade, phase, threshold or capital. [Boot receipt](research/2026-10-12_fresh-context-boot/REPORT.md); [MEMO](research/2026-10-12_L689-energy-opportunities/MEMO.md).
 
-**October12 Iran-owner read:** HAWK/FALCON detailedsourceschecked; gradesend10/10, sixlaterWALTERpacketsawaitreconciliation. Exposedfallbackroutesstrengthenriskcase; Soharhandoff stillneedsHormuz. D85isnotUSOupside/netlossprobability; FAL06scope excludesIran/Iraq/products/oldcauses. No target/newgrade/capital. PriorPanama forwardrisk/easingunchanged. [Ownerread](research/2026-10-12_USO-view/WAR_OWNER_RECONCILIATION.md); [Panama](research/2026-10-12_middle-east-panama/REPORT.md).
+**October12 expression review:** USO fits broad crude upside; Brent is closer to seaborne access risk, not an established superior trade. No current cost/liquidity ranking or vehicle change. October14 calls differ from shares and forward Panama risk. TERRY L689 PASS retained. War-owner grades remain10/10; sixlater packetsawaitreconciliation; D85isnotupsideprobability. [Comparison](research/2026-10-12_USO-view/EXPRESSION_COMPARISON.md); [ownerread](research/2026-10-12_USO-view/WAR_OWNER_RECONCILIATION.md); [Panama](research/2026-10-12_middle-east-panama/REPORT.md).
 
 ## CROSS-DOMAIN
 

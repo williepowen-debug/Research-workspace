@@ -1,6 +1,6 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-10-12 13:18 EDT — SCOPED-PARTIAL Iran-owner reconciliation:** HAWK/FALCON detail supports exposed fallbackroutes; currentgrades still10/10. SixlaterWALTERpackets awaitownerreconciliation. D85isnotUSOupside/netlossprobability; FAL06scopedcrudetest remainsopen. No newprice/flow/insurancegrade; quotevintage12:56. [Owner read](research/2026-10-12_USO-view/WAR_OWNER_RECONCILIATION.md); prior[Panama](research/2026-10-12_middle-east-panama/REPORT.md).
+**Last real data refresh: 2026-10-12 13:28 EDT — SCOPED-PARTIAL expression review:** USCF USO/BNO descriptions and TERRY L689 card checked. USO fits broad crude upside; Brent is the closer comparison for seaborne access risk, with no demonstrated superior trade. No new quote, physical/owner grade or broker evidence; quotevintage12:56. [Comparison](research/2026-10-12_USO-view/EXPRESSION_COMPARISON.md); [war-owner read](research/2026-10-12_USO-view/WAR_OWNER_RECONCILIATION.md).
 
 **Fresh-context boot 2026-10-12 12:45 EDT:** 10 checks:8OK/1WARNINGS/1FINDINGS/0FAIL,rc2; Ledger Nudge dispositioned. WQ420 encoding verified at TERRY08158a2c4; PROME L684 acceptance still owed. No new paired crack, storm/refinery or broker evidence; L633/L694 remain open. [Boot receipt](research/2026-10-12_fresh-context-boot/REPORT.md).
 

@@ -8,6 +8,7 @@
 - L694 approval/context-transition amendment survives; no new substantive energy stage found/delivered. L689/TERRY PASS preserved.
 
 ## WHAT I DID THIS SESSION
+- **Will expression discussion:** saved `research/2026-10-12_USO-view/EXPRESSION_COMPARISON.md`; USCF USO/BNO/ICE descriptions and complete TERRY L689 card reviewed. Brent closer to seaborne access mechanism; superior return/cost/liquidity unestablished. Shares versus October14 calls have different horizons. No vehicle change, construction screen, broker action or L694 delivery.
 - **Will pointed to HAWK/FALCON detail:** currentTHESIS/completeFALCONEXIT/fullcrosswarsummary plus6laterWALTERpacketsread; foreignmail/stateuntouched. SavedWAR_OWNER_RECONCILIATION. Exposedfallbackroutesandmark-versus-barrel distinction sharpenUSOview. Factualrefresh-gap packettoPROME; no ownerlaunch/commission/grade.
 - **Will MiddleEast/ElNiño/Panama question:** source/owner synthesis at `research/2026-10-12_middle-east-panama/REPORT.md`. ACPnewestadvisory eases49ft/33slots; sourceCSVends10/11at85.39ft. Climateownerfigures notedited. MiddleEast immediateupside,Panama futurecompoundproduct/freightrisk,WTIsignunmeasured; mildwinter counterforce. No gate/phase/capital/afternoongrade.
 - **Will USO directional question:** saved `research/2026-10-12_USO-view/REPORT.md` and selected exact quote inputs. Elevated-price support/credible upside risk persists; no demonstrated material undervaluation. Cushing limb weakened, product/crude scope retained. No new target/phase/probability/capital or afternoon grade.
