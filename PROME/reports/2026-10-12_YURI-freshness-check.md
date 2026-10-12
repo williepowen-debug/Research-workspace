@@ -1,0 +1,17 @@
+# YURI coverage check — October12
+
+**Authority:** Will says, “Okay I think YURI is probably lacking some info and details as well that we should try to adresss”. Existing authority to orchestrate YURI's Will-owned window continues. PROME checked the desk's current charter, STATUS, NEXUS brief, ledger, October12 source reports and original instrument asks. This is a local evidence-coverage diagnosis, not an external Russia-news audit.
+
+| Finding | Evidence inspected | Implication / assignment |
+|---|---|---|
+| Current write-back follows a gap in substantive reviews | Scoped STATUS/research Git history: October2 then October12; STATUS and actor report explicitly backfill missed October9 checkpoint | Do not call the desk generally obsolete or infer runtime darkness. The dated checkpoint gap is real and already acknowledged. |
+| Intake is current | Existing inbox_census.py YURI: top-level0, WALTER0 pending at this check; October12 report records earlier integration | Another inbox-drain commission would not address the main gaps. |
+| Diesel decision detail is incomplete despite two useful passes | Initial report 6db3b1ded and follow-up e27809669; original OSPREY ask and current STATUS | Official announcement and extension chain recovered; signed October exception/annex and №686 goods-code implementation remain unresolved. New concrete routes only; physical delivery and refining recovery belong to channel owners. Existing October14/15 dependencies make this first priority. |
+| Asset-control understanding still depends on unread bodies | YUR-003 historical row: №661/674/689 described from titles, scanned bodies explicitly unread | Read these named bodies for current legal-entity/power understanding. Keep historical grade and as-made evidence unchanged; any correction travels separately with source/date. |
+| Shipping-registration intent still rests on a June draft | Initial actor report §3; SIG-W-20261005-003 owner ask | Signed successor/application to reported vessel changes unverified; October9 Mintrans body also unread. Resolve enactment versus proposal using untried primary routes; registration cannot prove ownership or protection. |
+| Mobilisation saved-body coverage is improved but incomplete | 60a69fa3a / 92e2fdb6b already accepted: 18/19 act bodies complete, №723 pages4–33 unread; saved Kremlin story bodies partial | Finish the thirty known pages from the saved PDF; bounded selection from the already-saved Kremlin feeds. No general news/index sweep or early MISS. |
+| Whole-actor synthesis has not yet met its own marginal-call test | YUR-F01 ledger outcome0/3 as of October12, dueOctober24; current brief cites separate channel inputs | Evidence gaps should be addressed first. Do not invent calls or merge related observations to raise a count. The independent grade remains DAEDALUS's. |
+
+**Disposition:** targeted domain catch-up is warranted. Task `AGENTS/YURI/inbox/2026-10-12_from-PROME_targeted-coverage-catchup.md` owns the finite scope, reading budget, source stops and delivery. Reuse all accepted research; no new tool, broad library rewrite, score/threshold change, trade, helper or lifecycle request. No edit to YURI-owned state by PROME.
+
+Supported read-only thread/read verified existing owner `01a131e4-8224-7572-a1c0-feb7acebbb96`, cwd `/home/willi/Research-workspace/AGENTS/YURI`, provider OpenAI, exact model UNKNOWN. Reader-local notLoaded does not establish absence. Content is committed before queue notification; receipt/result will be tracked separately.
