@@ -1,0 +1,7 @@
+PHONE-SIGNAL scan — RESEARCH-INTAKE/phone_inbox/
+================================================================
+
+[status] `phone_inbox/` does not exist in the lane yet.
+         PART A (Will's PAT + iOS Shortcut) has not been enacted, OR
+         no signal has ever been sent. This is NOT an error.
+         The sweep is live and will pick up the first signal automatically.

@@ -1,0 +1,1 @@
+[('INFO', "1 stacked `full deferred` breadcrumb(s) since the last full closeout ('2026-10-12T21:06:26Z — fresh WALTER boot and ordinary intake / routine Tier-2 closeout ') — under the >=3 trigger")]

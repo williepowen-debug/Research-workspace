@@ -1,0 +1,22 @@
+{
+  "consumed_at": "2026-10-12T21:37:20Z",
+  "packets": [
+    {
+      "original": "AGENTS/WALTER/inbox/2026-10-12_from-PROME_laptop-orchestration.md",
+      "processed": "AGENTS/WALTER/inbox/processed/2026-10-12_from-PROME_laptop-orchestration.md",
+      "author_commit": "0cb6d515f09078991b894b4905485c19b947b2c2",
+      "bytes": 1984,
+      "sha256": "acf712a3bf631014cbb404b7370826779f0be8338b8f1d31b8c95720477e4567",
+      "byte_identical": true
+    },
+    {
+      "original": "AGENTS/WALTER/inbox/SIG-YURI-WALTER-20261012-001_diesel-primary-and-actor-review.md",
+      "processed": "AGENTS/WALTER/inbox/processed/SIG-YURI-WALTER-20261012-001_diesel-primary-and-actor-review.md",
+      "author_commit": "6db3b1dedcbb3ba3cd4c1872113942a181519634",
+      "bytes": 1105,
+      "sha256": "fd59bd63952d634831c03ce17bceda72ad46bdbc783d9e60295916845fa4f648",
+      "byte_identical": true
+    }
+  ],
+  "technical_note": "Initial git mv refused protected read-only .git/index; exact Git operations succeeded after approved runtime escalation. No packet was edited."
+}

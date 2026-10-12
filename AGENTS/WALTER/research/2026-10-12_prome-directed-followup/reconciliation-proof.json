@@ -1,0 +1,172 @@
+{
+  "observed_at": "2026-10-12T21:33:36Z",
+  "runtime": "Codex/OpenAI/GPT-6 family; exact model UNKNOWN",
+  "thread_id": "01a131e6-5754-7593-a546-210c87683eeb",
+  "origin": "bdacfca4a2e56bea6b02623828045f08e3616032",
+  "HEAD": "dc181f608ab1b91daf4422628e8ae2138049abf5",
+  "existing_commits": {
+    "5a0c5a65f": false,
+    "f7bb2b20c": false,
+    "6db3b1ded": true,
+    "c03b33495": true,
+    "94993c5b7": true,
+    "0cb6d515f": false
+  },
+  "artifacts": [
+    {
+      "path": "AGENTS/YURI/research/2026-10-12_actor-review-and-diesel-instruments.md",
+      "bytes": 17783,
+      "sha256": "e10978779bc3183e62322ae2499c979fd38993acee3a97ea3af420dc997a654c",
+      "HEAD_equal": true,
+      "last_commit": "6db3b1dedcbb3ba3cd4c1872113942a181519634",
+      "on_origin": true
+    },
+    {
+      "path": "AGENTS/YURI/sources/2026-10-12/kremlin-80912.txt",
+      "bytes": 8211,
+      "sha256": "6d011b7e6c7c09f14a203a05ea5c8a4472bc2e26173ac1ad32ab9812498c03d7",
+      "HEAD_equal": true,
+      "last_commit": "6db3b1dedcbb3ba3cd4c1872113942a181519634",
+      "on_origin": true
+    },
+    {
+      "path": "AGENTS/YURI/sources/2026-10-12/government-60156-http.txt",
+      "bytes": 15144,
+      "sha256": "75601de3357ce26589299bb412e6e2ba228af66f12a6b94c51a911b0e6dec958",
+      "HEAD_equal": true,
+      "last_commit": "6db3b1dedcbb3ba3cd4c1872113942a181519634",
+      "on_origin": true
+    },
+    {
+      "path": "AGENTS/SHADE/research/L673_WINDOW_REGISTRATION_2026-10-12.md",
+      "bytes": 5908,
+      "sha256": "de5e1f219c8880e5ca49847ef3761253a3fb60bf77b2c0e7cc6d5460c1a5394c",
+      "HEAD_equal": true,
+      "last_commit": "46230aa045c9f1f579348a937518bba82ccb5b82",
+      "on_origin": true
+    },
+    {
+      "path": "AGENTS/SHADE/research/L673_REFRESH_AND_INTAKE_2026-10-12.md",
+      "bytes": 9074,
+      "sha256": "32d02c80e947ed2ae0f56d5dfa0e62d6a268fad92e4b7ea455e6be6a33c07ac6",
+      "HEAD_equal": true,
+      "last_commit": "46230aa045c9f1f579348a937518bba82ccb5b82",
+      "on_origin": true
+    },
+    {
+      "path": "PROME/inbox/2026-10-12_from-SHADE_L673-prospective-window-and-refresh.md",
+      "bytes": 3627,
+      "sha256": "f4ddcf3544bdb90d820e3fe9dedb7a89bf758d13f5be44582b41949fe0844fe8",
+      "HEAD_equal": true,
+      "last_commit": "c03b3349543e299b4a666096915a9c6bff642eec",
+      "on_origin": true
+    },
+    {
+      "path": "AGENTS/SHADE/NEXUS_BRIEF.md",
+      "bytes": 3935,
+      "sha256": "c96445a162ee75ba9fba38ec9128942d49bd59edb72083febf2a975913895abd",
+      "HEAD_equal": true,
+      "last_commit": "94993c5b77b785f43237676e1ebb5f5597ffa374",
+      "on_origin": true
+    },
+    {
+      "path": "PROME/reports/2026-10-12_laptop-orchestration.md",
+      "bytes": 6146,
+      "sha256": "69a276cf4331381d504c36a018e24e05e9ca84b74818f54b4a602c8c7cd3ce03",
+      "HEAD_equal": false,
+      "last_commit": "d1f922500622be0711d340341b2b1a735ee27b3e",
+      "on_origin": false
+    }
+  ],
+  "recipient_packets": [
+    {
+      "recipient": "BRENT",
+      "path": "AGENTS/BRENT/inbox/2026-10-12_from-YURI_diesel-primary-permission-not-delivery.md",
+      "sha256": "3b6e80b596bc7d2b203cd74e595fcbd995a1d180a5009fccfe96b50ec2806192",
+      "last_commit": "6db3b1dedcbb3ba3cd4c1872113942a181519634",
+      "HEAD_equal": true,
+      "on_origin": true,
+      "filed": false,
+      "receipt_matches": [],
+      "consumption": "UNKNOWN unless receipt demonstrates specific read/integration"
+    },
+    {
+      "recipient": "DEWEY",
+      "path": "AGENTS/DEWEY/inbox/2026-10-12_from-YURI_diesel-government-primary-recovered.md",
+      "sha256": "3c59dcbfca5f72acc798185ba22b74ae2f80ae4a2ddc84a14eebf16b1617fb96",
+      "last_commit": "6db3b1dedcbb3ba3cd4c1872113942a181519634",
+      "HEAD_equal": true,
+      "on_origin": true,
+      "filed": false,
+      "receipt_matches": [],
+      "consumption": "UNKNOWN unless receipt demonstrates specific read/integration"
+    },
+    {
+      "recipient": "HANS",
+      "path": "AGENTS/HANS/inbox/2026-10-12_from-YURI_unicredit-permission-instrument.md",
+      "sha256": "1505757a6fae26e4fcd795e85d9032e2aa27e6a9a1a3fb3d980aa11ac7792bda",
+      "last_commit": "6db3b1dedcbb3ba3cd4c1872113942a181519634",
+      "HEAD_equal": true,
+      "on_origin": true,
+      "filed": false,
+      "receipt_matches": [],
+      "consumption": "UNKNOWN unless receipt demonstrates specific read/integration"
+    },
+    {
+      "recipient": "HAWK",
+      "path": "AGENTS/HAWK/inbox/2026-10-12_from-YURI_mobilisation-review-and-exercise-counterindicator.md",
+      "sha256": "2b1deba5a8112e2ed93616f81b338f3bdfeac36e70b81f2ce4de6a9ae71a06ce",
+      "last_commit": "6db3b1dedcbb3ba3cd4c1872113942a181519634",
+      "HEAD_equal": true,
+      "on_origin": true,
+      "filed": false,
+      "receipt_matches": [],
+      "consumption": "UNKNOWN unless receipt demonstrates specific read/integration"
+    },
+    {
+      "recipient": "NEXUS",
+      "path": "AGENTS/NEXUS/inbox/2026-10-12_from-YURI_brief-refreshed-actor-instruments.md",
+      "sha256": "970a5b9979a7d5fccbcf424225d323248674643e0a41dc1ac5692f78d3567fbb",
+      "last_commit": "6db3b1dedcbb3ba3cd4c1872113942a181519634",
+      "HEAD_equal": true,
+      "on_origin": true,
+      "filed": false,
+      "receipt_matches": [],
+      "consumption": "UNKNOWN unless receipt demonstrates specific read/integration"
+    },
+    {
+      "recipient": "OSPREY",
+      "path": "AGENTS/OSPREY/inbox/2026-10-12_from-YURI_diesel-primary-answer-partial.md",
+      "sha256": "ad30cda1ac7f044adf12b5a95b547c8dc4c2b49080ad9855d635a309506c201f",
+      "last_commit": "6db3b1dedcbb3ba3cd4c1872113942a181519634",
+      "HEAD_equal": true,
+      "on_origin": true,
+      "filed": false,
+      "receipt_matches": [],
+      "consumption": "UNKNOWN unless receipt demonstrates specific read/integration"
+    },
+    {
+      "recipient": "LIQUID",
+      "path": "AGENTS/LIQUID/inbox/2026-10-12_from-SHADE_L673-owner-count-and-anchor.md",
+      "sha256": "d86c6637719b6fe0a4f5121b47868e68d580e69fdbe972acbdc73c87bcc02073",
+      "last_commit": "160c0c08d34347815a8e43b287697d4368891e84",
+      "HEAD_equal": true,
+      "on_origin": true,
+      "filed": false,
+      "receipt_matches": [],
+      "consumption": "UNKNOWN unless receipt demonstrates specific read/integration"
+    },
+    {
+      "recipient": "BROCK",
+      "path": "AGENTS/BROCK/inbox/2026-10-12_from-SHADE_L673-provisional-fire-qualified.md",
+      "sha256": "9faebd1529647edafeb22847285ab0463446f23b078c038afad435fe1c099764",
+      "last_commit": "55a734460fd6f0c1fc7725a54e7e3a0037d2be71",
+      "HEAD_equal": true,
+      "on_origin": true,
+      "filed": false,
+      "receipt_matches": [],
+      "consumption": "UNKNOWN unless receipt demonstrates specific read/integration"
+    }
+  ],
+  "scope": "Exact name/source-pointer searches over full declared consumption logs. Missing matches do not establish no live read; presence and consumption are not inferred from file locations."
+}

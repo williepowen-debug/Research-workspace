@@ -1,0 +1,21 @@
+{
+  "written_at": "2026-10-12T21:35:37Z",
+  "signal_id": "SIG-W-20261012-031",
+  "BOARD": "BOARD/SIG-W-20261012-031-CORRECTION-scheduled-Tsentr-exercise-refutes-broad-absence-premise.md",
+  "handoffs": [
+    "AGENTS/YURI/inbox/WALTER/SIG-W-20261012-031.md",
+    "AGENTS/HAWK/inbox/WALTER/SIG-W-20261012-031.md",
+    "AGENTS/OSPREY/inbox/WALTER/SIG-W-20261012-031.md"
+  ],
+  "exempt_info": [
+    "RED",
+    "PROME"
+  ],
+  "external_target": "HAWK original card and former DOCKET premise; no prior BOARD target found in full archive search",
+  "R1": "COR-20261012-31",
+  "owner_conclusion_check": {
+    "observed": "Archived Kremlin publication explicitly names schedule/date and geographic direction; HAWK card contains broader absence sentence.",
+    "inferred": "The categorical premise is contradicted, so withdraw that premise alone.",
+    "unknown": "Actual force count/deployments, relation to July drills, mobilisation decision and posture consequence."
+  }
+}

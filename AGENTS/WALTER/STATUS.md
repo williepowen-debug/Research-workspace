@@ -1,9 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-10-12T21:19:31Z — Will-launched fresh boot and ordinary intake, ACTIVE. **Boot PARTIAL**. BOARD **1353**; day total **30 signals (1 FLASH, 29 PRIORITY)**, **33 kills**, **0 cluster-mediating signals**. This boot: 0 new dispatches or helpers; prior helper receipts remain historical.
+**Updated:** 2026-10-12T21:39:10Z — PROME-directed bounded follow-up in existing Will-launched thread, ACTIVE. **Boot PARTIAL**. BOARD **1354**; day total **31 signals (1 FLASH, 30 PRIORITY)**, **33 kills**, **0 cluster-mediating signals**. This continuation: 1 external-premise correction, 3 handoffs, no helper.
 
 ## BOTTOM LINE
 
-Resumed the published checkpoint 34e4dbde4. Ordinary lane intake is quiet; one late MIDAS context packet was read and folded to its refreshed owner record. Exact authored packet verified and filed; no new dispatch, DEWEY return or file drop. All 107 required day handoffs are now origin-proven; consumption remains recipient-owned. The fresh X scan failed token renewal with HTTP400 and consumed nothing; earlier 29 bookmarks remain handled. Boot stays PARTIAL under the explicit charter cap and source/instrument limits. Dated threshold observations establish no new sustained fire. Existing expiry decisions remain with Will/TERRY; current QQQ order/outcome UNKNOWN. Durable duties stay in LAST_COMPLETION.
+Reconciled YURI and SHADE with completed intake; MIDAS was already consumed. One exercise-absence correction now has BOARD/R1 linkage and three handoffs; it changes no mobilisation or NATO-risk grade. Russian diesel permission remains distinct from unknown delivered additional supply. SHADE’s amended test first becomes eligible after October13 close; LIQUID owner inputs and DEWEY’s October14 source work remain dependencies. Eight existing source packets are published but consumption is unverified within the inspected logs; consequential gaps are named to PROME. Ordinary lane, phone and drop have0 new items. X browser reauthorization remains required after HTTP400; no retry. New publication remains pending; existing expiry decisions and all dated market/source limits stay with their owners. Detailed duties and publication counts live in LAST_COMPLETION.
 
 ## DATED MARKET OBSERVATIONS — retrieved October12 20:58Z unless separately dated
 

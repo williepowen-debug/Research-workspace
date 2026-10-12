@@ -1,0 +1,14 @@
+{
+  "status": "REVIEW",
+  "findings": [
+    "5a0c5a65f: claimed pending, origin proves published",
+    "delivery receipt mismatch: actual 107/110"
+  ],
+  "as_of": "2026-10-12T21:19:31Z",
+  "origin_ref": "8ffda9b5eac9bcd601c2a9677244e07be6c5262b",
+  "delivery_scope": "20261012",
+  "delivered": 107,
+  "total": 110,
+  "next_review": "2026-10-12",
+  "limits": "Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review."
+}

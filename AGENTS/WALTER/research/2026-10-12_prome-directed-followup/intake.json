@@ -1,0 +1,529 @@
+{
+  "health": [
+    [
+      "OK",
+      "last_run 2026-10-11T19:18:17Z (1 missed weekday runs, 1 calendar days)"
+    ],
+    [
+      "MED",
+      "feed newsweep status=degraded"
+    ],
+    [
+      "OK",
+      "news search items saved: 299 (trailing median 184 over 10 batches)"
+    ]
+  ],
+  "new": [],
+  "suppressed": [
+    {
+      "feed": "fred",
+      "key": "fred:UMCSENT:orange",
+      "band": "orange",
+      "gate": "INFO",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "UMCSENT UMich sentiment=51.7 [orange]",
+      "label": "",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:MORTGAGE30US:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "PROME"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "MORTGAGE30US 30yr mortgage rate %=7.4 [red]",
+      "label": "",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:BAMLH0A0HYM2:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "LIQUID",
+        "PROME"
+      ],
+      "info_cc": [
+        "HENRY"
+      ],
+      "precedence": "IMMEDIATE",
+      "raw": "BAMLH0A0HYM2 HY OAS bps=315.0 [red]",
+      "label": "X1-trigger breach (credit-bear arm)",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:BAMLH0A0HYM2:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "LIQUID",
+        "PROME"
+      ],
+      "info_cc": [
+        "HENRY"
+      ],
+      "precedence": "IMMEDIATE",
+      "raw": "BAMLH0A0HYM2 HY OAS=315bps [red] >=280 X1-trigger breach (LIQUID half of X1; sustain-check owner LIQUID; BROCK wrapper-half must also fire)",
+      "label": "X1-trigger breach (credit-bear arm)",
+      "onset": false
+    },
+    {
+      "feed": "cftc_cot",
+      "key": "cftc:cftc_cot_VIX_lev_money_net_5494_orange_n:orange",
+      "band": "orange",
+      "gate": "INFO",
+      "owners": [
+        "VIOLET"
+      ],
+      "info_cc": [
+        "SAM"
+      ],
+      "precedence": "ROUTINE",
+      "raw": "cftc_cot VIX lev-money net=5494 [orange] (net-long vol / de-risking regime)",
+      "label": "VIX positioning",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:NEW_WATCH:data/2026-10-11/news.json",
+      "band": null,
+      "gate": "INFO",
+      "owners": [
+        "(per-item agents field)"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "13 NEW_WATCH item(s) \u2014 read data/2026-10-11/news.json",
+      "label": "13 NEW_WATCH",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:3799f6588ba0",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Trump's betrayal in buying Putin's diesel exports allows Russia to bankroll deadly attacks on Ukraine - Milwaukee Independent",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'Trump diesel export']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:980bb79fa5ce",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT",
+        "OSPREY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia Lifts Some Diesel Export Restrictions - \u0635\u062d\u064a\u0641\u0629 \u0645\u0627\u0644",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; OSPREY:'Russia lifts diesel export ban']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:3dbe66f1e612",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT",
+        "OSPREY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia Lifts Ban on Diesel Exports as Part of Trump-Putin Deal - Bloomberg.com",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'Trump diesel export'; OSPREY:'Russia lifts diesel export ban']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:b4daf6e7ffbe",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Trump Makes Deal With Putin On Diesel Exports. Ukraine Calls It A 'Gift' - Radio Free Europe/Radio Liberty",
+      "label": "WATCH_HIT [BRENT:'Trump diesel export']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:c7418a30dda5",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia eases diesel exports following Putin-Trump deal - TRT World",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'Trump diesel export']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:3d711dd7bc3d",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT",
+        "OSPREY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia partially lifts diesel export ban after Trump-Putin agreements - mezha.net",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'Trump diesel export'; OSPREY:'Russia lifts diesel export ban']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:a830f777426e",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "SHADE"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Mark Walter's insurer Delaware Life sees two banks pause sale of its products amid probes - CNBC",
+      "label": "WATCH_HIT [SHADE:'Delaware Life pause']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:7cd4b434f315",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "SHADE"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "AM Best Revises Outlooks to Negative for Subsidiaries of Group 1001 Insurance Holdings, LLC - Business Wire",
+      "label": "WATCH_HIT [SHADE:'Group 1001 Insurance']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:645dcc6c5e81",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "SHADE"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "TWG Global Commits Up to $6.5 Billion to Strengthen Group 1001 Insurance Portfolios - Yahoo Finance",
+      "label": "WATCH_HIT [SHADE:'Group 1001 Insurance']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:ffa733e31141",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "SHADE"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Group 1001 Insurance Holdings LLC Number of Employees 2026 | Employee Count & Headcount Data - Revelio Labs",
+      "label": "WATCH_HIT [SHADE:'Group 1001 Insurance']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:87a3eaecf523",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "SHADE"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Group 1001 Insurance Recognized with 2025 Gartner Eye on Innovation Award for Insurance - Business Wire",
+      "label": "WATCH_HIT [SHADE:'Group 1001 Insurance']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:c0e9fbd9e9b5",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "SHADE"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "PHL Variable liquidation pushed out to 2027, Connecticut regulators say - InsuranceNewsNet",
+      "label": "WATCH_HIT [SHADE:'PHL Variable liquidation']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:3497b4b51990",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "SHADE"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "PHL Variable liquidation now expected in 2027 - Hartford Business Journal",
+      "label": "WATCH_HIT [SHADE:'PHL Variable liquidation']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:b8a4df38a786",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "SHADE"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "PHL Variable prepares for liquidation amid buyer search - Insurance Business",
+      "label": "WATCH_HIT [SHADE:'PHL Variable liquidation']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:50b0cf113aa1",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "SHADE"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Rehabilitator: PHL Variable liquidation payouts could exceed guaranty caps - Insurance News - InsuranceNewsNet",
+      "label": "WATCH_HIT [SHADE:'PHL Variable liquidation']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:df62304ac258",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "SHADE"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "PHL Variable liquidation: Regulators, investors pivot legal fire to Nassau - InsuranceNewsNet",
+      "label": "WATCH_HIT [SHADE:'PHL Variable liquidation']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:f642121c6b1d",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Iran says US response to conditions for reopening Strait of Hormuz 'insufficient' - Anadolu Ajans\u0131",
+      "label": "WATCH_HIT [HENRY:'Hormuz reopening']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:48ae0141e426",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "US Threatens to Cut Ukraine Arms Supplies Over Russian Refinery Attacks - Modern Diplomacy",
+      "label": "WATCH_HIT [HENRY:'refinery attack']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:e63122072e81",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Ukraine says ready to halt refinery strikes if Moscow stops energy attacks - France 24",
+      "label": "WATCH_HIT [HENRY:'refinery attack']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:7f78b870c11f",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "US threatens to block arms for Ukraine over refinery attacks, FT reports - The Times of Israel",
+      "label": "WATCH_HIT [HENRY:'refinery attack']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:370dc059f739",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Zelensky Says Will Stop Russia Refinery Attacks. But There's 1 Condition - NDTV",
+      "label": "WATCH_HIT [HENRY:'refinery attack']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:89f90cd720a7",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "US threatens to block arms for Ukraine over refinery attacks, FT reports - Reuters",
+      "label": "WATCH_HIT [HENRY:'refinery attack']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:447263a2aa69",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT",
+        "FALCON"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Yanbu Oil Loadings Resume After Pipeline Restarts - Marine Link",
+      "label": "WATCH_HIT [FALCON:'Yanbu loadings'; BRENT:'Yanbu loading']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:eb8533ed7b37",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT",
+        "FALCON"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Saudi East-West Pipeline building up volumes, loading yet to resume, sources say - Reuters",
+      "label": "WATCH_HIT [FALCON:'East-West pipeline'; BRENT:'East-West pipeline resume']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:DEVELOPMENT:73ce134aa765",
+      "band": null,
+      "gate": "INFO",
+      "owners": [
+        "FALCON",
+        "HAWK",
+        "HENRY",
+        "SAM"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "Dry Beer Taps, Glove Shortages and Record Tanker Rates Trace Back to Hormuz Global Supply Chains Strain U - Benzinga",
+      "label": "DEVELOPMENT [known entity Hormuz + escalation qualifier]",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:fb450c0a6dda",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "CREED"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Six Bank Failures in 2026, and Nano Banc Won\u2019t Be the Last - Substack",
+      "label": "WATCH_HIT [CREED:'Nano Banc']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:03434a700f72",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT",
+        "OSPREY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia partially lifts diesel export ban following Trump-Putin deal, exports will resume immediately - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 \u043f\u0440\u0430\u0432\u0434\u0430",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'Trump diesel export'; OSPREY:'Russia lifts diesel export ban']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:b965e6e57b8f",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT",
+        "TERRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia announces early lifting of diesel export restrictions - The New Voice of Ukraine",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; TERRY:'announces diesel export ban']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:DEVELOPMENT:1cd7572fbb8f",
+      "band": null,
+      "gate": "INFO",
+      "owners": [
+        "VULCAN",
+        "LIQUID",
+        "LABOR"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "Bloom Energy: Oracle's Project Jupiter Is Not What Keeps Me Up At Night (Rating Downgrade) - Seeking Alpha",
+      "label": "DEVELOPMENT [known entity Oracle + escalation qualifier]",
+      "onset": false
+    }
+  ]
+}

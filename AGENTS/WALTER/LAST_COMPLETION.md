@@ -1,26 +1,26 @@
 # WALTER LAST_COMPLETION — Monday October12, 2026
-Runtime: OpenAI Codex; native thread `01a131e6-5754-7593-a546-210c87683eeb`; root task `/root`; exact model variant UNKNOWN. Repository `/home/willi/Research-workspace`. Updated 2026-10-12T21:19:31Z. **Fresh boot ACTIVE; boot PARTIAL.** Published resume checkpoint34e4dbde4; receipt research/2026-10-12_resume-2057/BOOT_RECEIPT.md.
+Runtime: OpenAI Codex; native thread `01a131e6-5754-7593-a546-210c87683eeb`; root task `/root`; exact model variant UNKNOWN. Repository `/home/willi/Research-workspace`. Updated 2026-10-12T21:39:10Z. **Fresh boot ACTIVE; boot PARTIAL.** Published resume checkpoint34e4dbde4; receipt research/2026-10-12_resume-2057/BOOT_RECEIPT.md.
 
 ## STATUS
 
-Will-launched fresh boot resumed published34e4dbde4. Required root/local/runtime reads and ordinary operational scans executed. Initial queues were empty; one late MIDAS context packet then arrived and was read/dispositioned5/5. No new dispatch, DEWEY return, lane breach, phone signal or file drop. Fresh X scan FAILED renewal HTTP400;0 keys consumed, prior606-key history/empty stage preserved. All107 day handoffs origin-proven after40-row reconciliation.48 registered threshold rows read/evaluated with dated coverage limits; no new sustained fire established. Registry/header context refreshed; no new study, owner launch, helper, order or unattended run. Boot PARTIAL under charter cap, X authentication and source/instrument limits.
+Will-launched boot resumed published34e4dbde4, then accepted PROME’s bounded follow-up0cb6d515f in the same thread. Completed MIDAS intake is conserved; two new committed packets read and byte-identically filed. BM09 CLOSED9/9 with1 correction SIG031/COR31 and3 handoffs. YURI diesel/SHADE existing routes reconciled, no duplicate delivery or new study. Ordinary lane/phone/drop0 new, X not retried afterHTTP400. Boot remains PARTIAL under retained charter/authentication/source limits; no lifecycle closeout or owner launch.
 
 ## CHANGED
 
 - Will-directed CATO CL9 follow-up reproduced both unrun-doctor cases and corrected classification using the existing terminal report;30tests PASS. Missing/syntax failure UNKNOWN, genuine completed finding-count REVIEW unchanged. No further runner development commissioned. Evidence `research/2026-10-12_runner-cl9/REPORT.md`.
 
-- Reboot: cyber011/AI-scenario012,6create-only handoffs,8newkills; bounded two-helper verification and explicit closeout receipts. Auth works;The nine pending bookmarks were subsequently recovered/dispositioned;29keys consumed. Source/precision limits retained. Current per-row threshold evidence and six registry headers refreshed.
+- Reboot: cyber011/AI-scenario012,6create-only handoffs,8newkills; bounded two-helper verification and explicit closeout receipts. Historical repair authorization worked before the20:59Z renewal failure; the nine pending bookmarks were subsequently recovered/dispositioned;29keys consumed. Source/precision limits retained. Current per-row threshold evidence and six registry headers refreshed.
 
 Completed pre-continuation changes are conserved verbatim in `archive/LAST_COMPLETION_changes_2026-10-12.md`; earlier receipts in the paired receipt archive. Current obligations remain below.
 
 ## RESULT
 
-BOARD1353 unchanged;107/107 day handoffs origin-proven, consumption separate. Ordinary lane queues0 new;1 late MIDAS context packet read, author persistence/filing resolved at60815a590. Boot basis MATCH29; declared read perimeter still flags the explicit70,223B charter, remedy unactivated. Health findings retained; selected check results saved under research/2026-10-12_resume-2057/checks. Three stacked full-deferred breadcrumbs triggered the routine full checkpoint; no desk shutdown inferred.
+BOARD1354;31 day signals. At fresh2026-10-12T21:41:37Z originf63cd1640, prior107/110 day handoffs are origin-proven; new3 pending publication and recipient consumption separate. Eight existing YURI/SHADE peer packets published, no matching receipts in inspected complete logs; LIQUIDOctober13/DEWEYOctober14/HAWK correction gaps named to PROME. Normal bounded intake0 new onsets,35 suppressed rows/34keys, seen+0/−0. Basis/cap health findings retained; evidence research/2026-10-12_prome-directed-followup/REPORT.md. Routine light checkpoint only.
 
 ## GAPS / OWED
 
-- Main workspace pull and WALTER push deferred because foreign work was active. Fresh read-only fetch succeeded, origin=34e4dbde4; clean separate Research-Intake ff-only pull reports Already up to date. The automatic approval review rejection of the first intake sync was resolved by Will’s explicit intake-only approval; main checkout unchanged by a pull.
-- X authorization gap REOPENED by the fresh20:59Z scan: renewal HTTP400, exit1, nothing marked; browser reauthorization required. Earlier successful repair at2026-10-12T16:21:08Z is historical, not current authorization coverage. Live bookmark read and automatic token renewal both PASS;577 processed keys and pending stage byte-identical.The repair diagnostic did not stage/mark. Earlier reboot staged29keys; continuation assessed29/marked the exact set. Current seen606keys; pending file contains0ids; failure did not stage or consume a new set. Evidence: `research/2026-10-12_x-reauthorization/verification.json`; receipt: `outbox/2026-10-12_x-authorization-restored.md`.
+- Main workspace pull and WALTER push deferred because foreign work was active. Latest fresh read-only fetch at21:33:36Z: origin=bdacfca4a2e56bea6b02623828045f08e3616032; WALTER5a0c5a65f/f7bb2b20c were pending at that observation, then confirmed published at2026-10-12T21:41:37Z originf63cd1640; current follow-up remains pending; clean separate Research-Intake ff-only pull reports Already up to date. The automatic approval review rejection of the first intake sync was resolved by Will’s explicit intake-only approval; main checkout unchanged by a pull.
+- X authorization gap REOPENED by the fresh20:59Z scan: renewal HTTP400, exit1, nothing marked; browser reauthorization required. Earlier successful repair at2026-10-12T16:21:08Z is historical, not current authorization coverage. The earlier16:21Z repair’s live bookmark read and automatic renewal both PASS was historical, before20:59Z failure;577 processed keys and pending stage were byte-identical then. That repair diagnostic did not stage/mark. Earlier reboot staged29keys; continuation assessed29/marked the exact set. Current seen606keys; pending file contains0ids; failure did not stage or consume a new set. Evidence: `research/2026-10-12_x-reauthorization/verification.json`; receipt: `outbox/2026-10-12_x-authorization-restored.md`.
 - Capability update 2026-10-12T15:25:52Z: native Codex thread `01a13087-79e5-7e92-9b7a-65a266b0cb1b` is now observed from CODEX_THREAD_ID and installed CLI queue is supported. Exact PROME-pair notification receipt is saved separately; model tools alone did not establish CLI absence. Cross-runtime fleet census and Telegram reply tool/chat_id remain unavailable/unverified. Availability UNKNOWN; current-chat FLASH alert delivered and PROME pointer committed, Telegram notification remains owed where an authorized transport exists. No DARK inference or duplicate spawn on tool absence.
 - Four missing event-ledger cadence/check headers are repaired after actual review; non-comment event rows conserved. Remaining ordinary routing-ledger nudge warnings stay visible: prior bounded procedure/transport work added no events; subsequent ordinaryintake records14routes/40handoffs/1duplicatekill. REGISTRY focus refreshed from scoped owner headers; no fake row or freeze. Corrections checker0 unreceipted named WALTER rows; no new receipt invented. Two research flags remain open:CARL-DR-1 PARTIAL dueNovember13 and REQ-DEWEY-20261010-001 PARTIAL dueOctober14. Their returned partialreports/stubs are verified and handoffs filed; unfulfilled research remains open. Evidence: `research/2026-10-12_closeout-improvements/cadence-review.json`.
 - READS transcription RESOLVED duringsweep: committedPROMEmanifest exactlymatches signed91reader rows/29BASIS; allcurrenthashes matchcandidate, pairedhashes installed. Scopeproof: desk-sweep/reads-transcription-proof.json. Declaration/basis are not execution/cap clearance; explicit70,223Blocalcharter breach remains. L174label withdrawn. RootCLAUDE/PROMEgeneratedview rotation remedies remainowner-held. Concretecharter candidate unactivated; plan/proof in boot-gap report.
@@ -42,6 +42,8 @@ Existing expiry-card decisions remain with Will/TERRY: QQQ755C October12 (today�
 WQ401 set sub-question remains Will’s (dueOctober14). WQ388 unattended WALTER remains undecided forOctober17 review. Optional subscription and optional one-line step7h encode remain carried, not renewed asks. Prior broker questions are answered by the October11 capture and booked in ANVIL/FORGE and TERRY’s owner state; PROME’s administrative row acceptance is a separate record, not a broker-truth gap re-raised here.
 
 ## FOLLOW-UP
+
+**PROME-directed follow-up:** assignment0cb6d515f and YURI packet6db3b1ded consumed; BM09 CLOSED9/9. SIG031/COR31 withdraws only the broad scheduled-exercise-absence premise, three new handoffs pending publication/owner consumption. No new mobilisation/NATO grade; original peer card untouched. SHADE L673 first eligibleOctober13 post-close: LIQUID dated owner inputs + six closes, withhold on missing inputs/unsupported branch; DEWEY dieselPARTIAL dueOctober14, YURI nextOctober16. Eight published source packets lack a matching inspected receipt; consequential LIQUID/DEWEY/HAWK gaps named in the PROME result. Report research/2026-10-12_prome-directed-followup/REPORT.md. No MIDAS redispatch, X retry, charter activation or lifecycle shutdown.
 
 **Late MIDAS context:** packet/review read; BM08 CLOSED5/5 with1 NOTE/3 FOLD/1 DUP,0 new dispatches. Current registry context refreshed with author-commit caveat. Resolved2026-10-12T21:19:31Z: author60815a590 verified, exact original Git-moved and consume declaration appended. Proof: research/2026-10-12_resume-2057/midas-intake-proof.json.
 
@@ -100,7 +102,7 @@ SessionACTIVE; bootPARTIAL. Routine full checkpoint at2026-10-12T21:06:26Z clear
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-12T21:19:31Z",
+  "as_of": "2026-10-12T21:41:37Z",
   "publication": [
     {
       "commit": "3cacce310",
@@ -224,12 +226,16 @@ SessionACTIVE; bootPARTIAL. Routine full checkpoint at2026-10-12T21:06:26Z clear
     },
     {
       "commit": "5a0c5a65f",
-      "state": "pending"
+      "state": "published"
+    },
+    {
+      "commit": "f7bb2b20c61e6969236ef9e2510fbc5ae2e00321",
+      "state": "published"
     }
   ],
   "delivery": {
     "signal_date": "20261012",
-    "total": 107,
+    "total": 110,
     "delivered": 107,
     "note": "Fresh origin34e4dbde4 proves all107 handoffs;40 previously pending rows reconciled. Consumption separate."
   },
@@ -289,6 +295,36 @@ SessionACTIVE; bootPARTIAL. Routine full checkpoint at2026-10-12T21:06:26Z clear
         "path": "AGENTS/WALTER/research/2026-10-12_resume-2057/git-verification.json",
         "sha256": "ff7e6d748e06b4a9b7d2b3f5b07650c05b41ef6043c7c40a855560f3b7ed1666",
         "note": "Actual exact-path commit and fresh-origin verification; source-author filing status remains separate."
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-12_prome-directed-followup/REPORT.md",
+        "sha256": "a863f2263cf1df88597003367b8cf858e713c3003a6e75ce2d95c0f3d5a5ee0c",
+        "note": "Bounded manually reviewed follow-up evidence; source truth, current price/physical observation, publication and owner consumption remain separate."
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-12_prome-directed-followup/reconciliation-proof.json",
+        "sha256": "05ec67c7bab74cfbda78ab5b0116a9362a5bb838eb35c270110d138864e88a49",
+        "note": "Bounded manually reviewed follow-up evidence; source truth, current price/physical observation, publication and owner consumption remain separate."
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-12_prome-directed-followup/consume-proof.json",
+        "sha256": "e30f8d73de2ccf2552313def9af7d899d8dcb140186b827eb23148d15ace5c81",
+        "note": "Bounded manually reviewed follow-up evidence; source truth, current price/physical observation, publication and owner consumption remain separate."
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-12_prome-directed-followup/ordinary-intake-proof.json",
+        "sha256": "274649bcd38de37395d0da8d942093e4c4df5a8134f2b3538dfe9d42a63809ec",
+        "note": "Bounded manually reviewed follow-up evidence; source truth, current price/physical observation, publication and owner consumption remain separate."
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-12_prome-directed-followup/dispatch-receipt.json",
+        "sha256": "435129043ac9be838aa639441a36c34280586bb680bb6abb8d4fd069eea1b910",
+        "note": "Bounded manually reviewed follow-up evidence; source truth, current price/physical observation, publication and owner consumption remain separate."
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-12_prome-directed-followup/publication-latest.json",
+        "sha256": "c8017eb9c4f44b573671516d943d90117a9db1e3d144ac7ed7c06bb58e118870",
+        "note": "Bounded manually reviewed follow-up evidence; source truth, current price/physical observation, publication and owner consumption remain separate."
       }
     ]
   },
@@ -305,23 +341,21 @@ SessionACTIVE; bootPARTIAL. Routine full checkpoint at2026-10-12T21:06:26Z clear
   ],
   "next_review": "2026-10-12",
   "procedure": {
-    "tier": "full",
-    "scope": "Fresh boot/resume and required routine full checkpoint; session ACTIVE",
-    "claim": "0 new intake items;40 prior publication states reconciled; required reads/scans and dated threshold evaluation completed with explicit gaps Late owner context: BM08 CLOSED5/5; packet filing resolved at60815a590.",
-    "evidence": "AGENTS/WALTER/research/2026-10-12_resume-2057/BOOT_RECEIPT.md",
-    "runner": "Existing thin runner; no code change or helper",
-    "coverage": "41 first30-line scopes and48 threshold rows reviewed; X scanFAILED and full market clearance withheld. One late MIDAS context packet read; exact authored packet filed."
+    "tier": "light",
+    "scope": "PROME-directed ordinary intake continuation; existing Will window ACTIVE, no lifecycle closeout",
+    "claim": "BM09 CLOSED9/9; two packets consumed, one external-premise correction and three handoffs;0 new external onsets; prior MIDAS not repeated",
+    "evidence": "AGENTS/WALTER/research/2026-10-12_prome-directed-followup/REPORT.md",
+    "runner": "Existing thin light-checkpoint runner; no development",
+    "coverage": "Complete selected owner reports/archived primary text plus scoped peer receipt searches; no current full-market or physical-source clearance"
   },
   "manual_duties": {
-    "11": "No new signal/correction/handoff. Late MIDAS context batch BM08 CLOSED5/5; no kill-log event; prior107 dayhandoffs origin-proven.",
-    "Tier1": "Affected market rows refreshed with observation dates; unavailable official/current evidence explicitly retained.",
-    "15": "Carried duties reviewed against existing owner/source artifacts; X authentication gap reopened without erasing earlier success.",
-    "root.retirement": "585 tracked research/source paths reviewed;0 age candidates/0 unknown at saved Git age basis.",
-    "13/12(a,b)": "Registry6 rows refreshed before header/network regeneration;41 first30-line scopes inspected; liveness UNKNOWN where unsupported.",
-    "12(c)": "BALANCED base with existing scoped pre-catalyst LOOSE; no confidence floor or MINIMIZE change.",
-    "12(d,e)/14": "Session breadcrumb and BOTTOM LINE refreshed;3 deferred breadcrumbs discharged by routine full checkpoint; MEMORY96 lines, no promotion.",
-    "16": "Exact54-path checkpoint5a0c5a65f committed;0 unexpected paths. Publication=False on fresh originbdacfca4a2e56bea6b02623828045f08e3616032. Receipt follow-up persisted separately; WALTER did not push. MIDAS original source tracked=True; do not self-commit untracked author work. MIDAS author60815a590 exact bytes verified; original packet filed/consume declared in this follow-up."
+    "11": "SIG031/COR31, three exact create-only handoffs, BOARD generation; BM09 CLOSED9/9, two byte-identical consume moves. No kill-log event: fiveFOLD, oneDUP internal source context, oneNO-ACTION, oneNOTE and oneDISPATCH. Prior107 of total110 handoffs publication-proven.",
+    "Tier1": "Affected live lead refreshed; all20:58Z dated market observations and unavailable current/official evidence retained. SHADE/YURI header context surgically refreshed.",
+    "15": "Prior duties conserved; DEWEYOctober14, LIQUID/SHADEOctober13, YUROctober16 and inherited dates preserved. X reauthorization carried without retry.",
+    "root.retirement": "Prior585-path Git-age review retained as dated evidence; new follow-up artifacts authored today are not older than60days. No eligible move discovered in this bounded pass.",
+    "16": "Exact-path result commit and notification follow; no own push. Previous5a0/f7bb publication reconciled at latest fresh read-only origin; current signal/three handoffs still uncommitted at this observation.",
+    "Tier1.breadcrumb": "One light/full-deferred breadcrumb. Prior evidenced21:06 Tier-2 checkpoint header aligned with existing literal stack reader:1 deferred, not3. No new full/lifecycle checkpoint or code change."
   },
-  "selected_checks": "Final receipt PASS (receipt-final.txt); initial duplicate finding conserved and repaired. Read-cap/reads REVIEW on unactivated explicit charter; doctor0HIGH/5MED; basis/archives/weekdays/ledger-nudge/versions PASS; orphans advisory."
+  "selected_checks": "Final receipt PASS107/110; R1-WRITE0 OK; archive2 exact moves/weekday PASS. Read-cap REVIEW unchanged explicit charter. Doctor initial0HIGH/6MED, false stack warning reconciled by evidenced prior-checkpoint header/targeted check1 deferred; effective5MED retained. Ledger-nudge precommit cadence accounted, no fabricated kill event."
 }
 END_CLOSEOUT_RECEIPT -->

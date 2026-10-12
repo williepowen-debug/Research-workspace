@@ -1,0 +1,40 @@
+{
+  "observed_at": "2026-10-12T21:36:42.633554+00:00",
+  "intake": {
+    "exit": 0,
+    "health": [
+      [
+        "OK",
+        "last_run 2026-10-11T19:18:17Z (1 missed weekday runs, 1 calendar days)"
+      ],
+      [
+        "MED",
+        "feed newsweep status=degraded"
+      ],
+      [
+        "OK",
+        "news search items saved: 299 (trailing median 184 over 10 batches)"
+      ]
+    ],
+    "new": 0,
+    "suppressed_rows": 35,
+    "suppressed_unique_keys": 34
+  },
+  "phone": {
+    "exit": 0,
+    "stdout": "PHONE-SIGNAL scan \u2014 RESEARCH-INTAKE/phone_inbox/\n================================================================\n\n[status] `phone_inbox/` does not exist in the lane yet.\n         PART A (Will's PAT + iOS Shortcut) has not been enacted, OR\n         no signal has ever been sent. This is NOT an error.\n         The sweep is live and will pick up the first signal automatically."
+  },
+  "drop": {
+    "exit": 0,
+    "stdout": "0 content file(s) pending"
+  },
+  "intake_mark": {
+    "exit": 0,
+    "output": "reconciled intake_seen.json -> 34 currently-true gated key(s) (+0 new, -0 cleared)"
+  },
+  "remaining_top_level_packets": [],
+  "remaining_dewey_handoffs": [],
+  "X": "Not retried: launch-only scan failed renewal HTTP400 at20:59Z, history606 preserved; browser reauthorization is existing hands-on gap.",
+  "separate_intake_pull": "Already up to date, clean checkout, ff-only at21:34Z; main worktree pull deferred for foreign dirty paths.",
+  "post_disposition_at": "2026-10-12T21:37:20Z"
+}

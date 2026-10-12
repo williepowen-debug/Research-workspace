@@ -1,6 +1,6 @@
 # AGENTS/WALTER/registry/DOORBELL_LOG.tsv — dark-owner doorbell ledger (rule 6b / BOARD_CONSUMPTION_SPEC §3.5.7). WALTER owns; PROME reads.
 # LIVE ledger. Cadence: EVENT-DRIVEN (one row per DARK-recipient action: dispatch, doorbelled or not — the non-doorbelled rows are the MISS counter denominator; declared 2026-09-17).
-# Last re-pull ATTEMPTED: 2026-10-12 (18 ACTION addresses evaluated using ORCH_INFLIGHT and dated owner activity; native availability UNKNOWN; no tool-absence DARK classification or new counter denominator)
+# Last re-pull ATTEMPTED: 2026-10-12 (2026-10-12T21:35:37Z: SIG031 ACTION addresses YURI active by PROME native acceptance record; HAWK availability UNKNOWN. No DARK classification or new denominator.)
 # ONE ROW PER DARK-RECIPIENT `action:` DISPATCH — NOT only the doorbelled ones. Without the non-doorbelled rows the miss counter has no denominator.
 # The five ruled fields: desk · referent · doorbelled · disposition · drained. The other four are bookkeeping that make MISS computable.
 # referent: the named clock + its date (DOCKET-<n> / GATES-<id> / EXPIRY-<date> / OPEN-<date>), or CADENCE:p75=<n>d/dark=<d>d(nr,w90+,n=<gaps>) (leg 3b, v0.22 SELF-NORMALISING form from 2026-09-01; rows before that used CADENCE:<median-gap>d under the RETIRED ≥7d form — a THIRD population, never pooled) or CADENCE:n<8 (leg 3b not computable), or NONE (leg 3 failed).
