@@ -19,6 +19,8 @@ safety_net: clear
 event_window: closed
 word_count: 474
 dispatch_note: 7g packet from OZK (read whole; terms verified at one cited secondary). UPDATE to SIG-W-20261008-003, not a correction (no -003 figure changes; its "cause unknown" was true when written), so no CORRECTIONS.tsv row. IMMEDIATE by signal type (catalyst) and decay: the bridge matures tomorrow. TERRY action via BOARD id-diff only (exempt; terry-1008 IN-FLIGHT, no handoff). PROME exempt. CREED added by the named-case feed. OZK dark after its 08:52 delivery -> doorbell to PROME (L3a = Fri 10/9).
+status: PARTIALLY-SUPERSEDED
+status_ref: SIG-W-20261012-005 — October 9 executed extension disclosed October 12; old short-bridge catalyst overtaken, dated cause record retained.
 ---
 
 # OZK's 10/6 drop has a named cause: a Citi note on the $915M RaDD loan's "Fifth Modification", which bridged the maturity only to Fri 10/9 — updates -003's "cause unknown"; OZK reads the 10/9 outcome
