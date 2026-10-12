@@ -3,7 +3,7 @@
 **Status:** 🔴 Registered 53/70 unchanged; October12 scope review challenges broad spending convergence.
 **Domain:** U.S. consumer financial stress and downstream household transmission; bank-level credit belongs to REGINALD.
 **Thesis version:** v2.6.6
-**As of:** 2026-10-12 15:31 ET | **STATUS commit:** f87345319
+**As of:** 2026-10-12 15:35 ET | **STATUS commit:** f87345319
 **Position:** No capital authority. Paper references only; no marks or broker position claims.
 
 ## CROSS-DOMAIN
@@ -75,3 +75,5 @@
 |11/12–13| PHAN/POLLY;DR1Q3 | Existing source gates/commission, no new research launch |
 
 **Delivery / gaps:** follow-up f87345319 and brief c58232072 are remote-presence VERIFIED: one read-only ls-remote returned c58232072cc849135bbf078e2cf177a0fbd3bd02; ancestry verifies the substantive checkpoint. CARL's own safe-push was rejected before execution despite committed backup-authority evidence; no bypass or peer push request. GitHub destination is PUBLIC (read-only visibility check). This receipt metadata is local until separately confirmed. Six peer packets committed; checks0hard/6soft,KB526/calendar21/coverage7-4/source-hash-selftest/recompute pass. Auto-letter/V2validation/DR1causality/fintechjoins/STUEassignment gaps remain. Six sender-uncommitted lane copies read, physically preserved. No lifecycle closeout.
+
+**Latest correction coverage:** COR29NO-OP;73-rowregister/27receipts/0unreceipted named rows at19:35UTC. Own swapped-example already withdrawn; no figure/score/weight changed. Final receipt commits local; substantive f873/c582 remote presence verified as above.
