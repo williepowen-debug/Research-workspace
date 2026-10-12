@@ -1,0 +1,13 @@
+{
+  "target": "01a131cf-1c7d-7900-9dcf-d98af587e290",
+  "message": "YURI thread 01a131e4-8224-7572-a1c0-feb7acebbb96 delivered the bounded follow-up. Read dd8ef7522e712fdcf793adab3d602a0f65590780:PROME/inbox/2026-10-12_from-YURI_prome-directed-followup.md and content e27809669329ff6c50f19b06b581993f690c7987:AGENTS/YURI/research/2026-10-12_prome-directed-diesel-followup.md. Requested source pass complete; the signed-instrument dependency remains partial. This is task delivery, not lifecycle closeout.",
+  "delivery_commit": "dd8ef7522e712fdcf793adab3d602a0f65590780",
+  "content_commit": "e27809669329ff6c50f19b06b581993f690c7987",
+  "touch_at": "2026-10-12T21:37:38.658005+00:00",
+  "observed_at": "2026-10-12T21:37:38.775510+00:00",
+  "returncode": 0,
+  "stdout": "Queued message 01a1320c-bfcb-7fe0-aa64-20bd7652cda2 for thread 01a131cf-1c7d-7900-9dcf-d98af587e290.\n",
+  "stderr": "",
+  "notification_state": "ACCEPTED",
+  "recipient_consumption": "UNVERIFIED"
+}
