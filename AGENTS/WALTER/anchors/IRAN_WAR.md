@@ -23,6 +23,8 @@
 
 > ⚠️ **The guard corpus is NOT optional and NOT summarised here.** It moved because it is used at DISPATCH time, not at boot — but **a pointer nobody travels is how a guard dies** (`[[finding_required_field_satisfied_by_a_pointer_passes_every_presence_audit]]`). The **named inventory below** exists so no reader can be unaware of what is in it; WALTER `CLAUDE.md`'s standing Iran pre-dispatch guard is what makes the trip mandatory.
 
+> **10/12 later primary-access update:** UKMTO/IMO recovered via transcript intake; `SIG-W-20261012-009` carries counts, identities and UKMTO5 vs owner3 loss-basis discrepancy. FALCON reconciles; owner grade unchanged. Earlier access limits were dated, not absence. Full clock remains10/8.
+
 ### Guard inventory (27 blocks — titles only; text lives in `IRAN_WAR_GUARDS.md`)
 - KILL-ON-SIGHT recirculation classes — Abqaiq '~7 mb/d' · the July-7 date-trap · declaratory-control · flagged sources (UANI)
 - 'VESSEL SUNK' must be THEATER-checked before it is GATE-checked

@@ -1,0 +1,32 @@
+[
+  {
+    "item": 1,
+    "source_path": "/mnt/c/Users/willi/Downloads/Youtube Video Transcripts.md",
+    "evidence_copy": "AGENTS/WALTER/research/2026-10-12_boot/transcripts/video-1.md",
+    "sha256": "a8a81e22be34beab803199066886c2103134151e14b60a7720cdc2bacd051549",
+    "bytes": 28406,
+    "lines": 184,
+    "read": "WHOLE; long file3 read in contiguous chunks1-114 and115-end; file2 output gap re-read145-203",
+    "audio_visuals": "NOT READ; claims attributed to supplied auto/AI transcript, no audio authentication"
+  },
+  {
+    "item": 2,
+    "source_path": "/mnt/c/Users/willi/Downloads/Youtube Video Transcripts 2.md",
+    "evidence_copy": "AGENTS/WALTER/research/2026-10-12_boot/transcripts/video-2.md",
+    "sha256": "3607bc15623fad09c8b4f569448c40c995b88c5fce58a34dafcfb261364d86b7",
+    "bytes": 26289,
+    "lines": 203,
+    "read": "WHOLE; long file3 read in contiguous chunks1-114 and115-end; file2 output gap re-read145-203",
+    "audio_visuals": "NOT READ; claims attributed to supplied auto/AI transcript, no audio authentication"
+  },
+  {
+    "item": 3,
+    "source_path": "/mnt/c/Users/willi/Downloads/Youtube Video Transcripts 3.md",
+    "evidence_copy": "AGENTS/WALTER/research/2026-10-12_boot/transcripts/video-3.md",
+    "sha256": "a3d55292d02d6f339b36eecd7a2551570d46f9d6ba5938e4fb424226c257e3df",
+    "bytes": 37890,
+    "lines": 222,
+    "read": "WHOLE; long file3 read in contiguous chunks1-114 and115-end; file2 output gap re-read145-203",
+    "audio_visuals": "NOT READ; claims attributed to supplied auto/AI transcript, no audio authentication"
+  }
+]

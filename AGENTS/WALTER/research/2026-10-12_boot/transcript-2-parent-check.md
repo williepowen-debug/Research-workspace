@@ -1,0 +1,7 @@
+# Parent primary check / SCF transcript2
+
+FederalReserve https://www.federalreserve.gov/publications/files/scf26.pdf opened by parent viawebOctober12. Scopedreadincome definitionpp5–6 andTable1p7,wealthTable2p12 andbasis,Box1pp9–10; NOTwhole66pagePDF. DirectshellPDFdownloadreturned403; webPDFtextavailable,screenshotsrequestedbuttoolprovidesrefswithoutimages,so no claimofvisualverification. Numericclaims rest onparsed primary tables andparent/helper independentreads.
+
+Table1:topusual-income10%medianincome414.0->387.2thousand2025dollars(-6%),mean757.0->652.0(-14%);referenceage35–44median94.0->97.0(+3%),mean186.0->139.8(-25%). Income calendar2021->2024,not2025->2026wages. Includesrealizedcapitalgains; Fed attributes35–44meandrop tocapitalgains. Table2topmedianwealth2797.5->3669.9thousand(+31%);bottomincomequintile—notquartile—median/meanwealth-6/-4;totalmedian215.9/mean1241.5. Wealthinterviewdates2022->2025,real2025dollars;crosssections notsamefamilypanel. Debt19.6/12.2alreadyCARLactedOct10KB504; denominatorstillnotsettled. VideoideaOctober2026asset-fundedrichspendingcollapse notestablishedbythissurvey.
+
+Box1 defines newlysurveyedtotalNONHOUSING spending,average48700/median33700 prioryear;topusual-incomedecile28.5%aggregate ofthisperimeter,not50%ofallPCE. No substitution toMoody'sallspendingseries. Sample/year/definitions andstatisticalsignificancenot recalculated. Retainhistoricalbasis; no conviction or predictiongrade.
