@@ -1,0 +1,15 @@
+{
+  "kb_rows": 259,
+  "groups": 37,
+  "columns": 13,
+  "unique_ids": true,
+  "baseline_rows": 14,
+  "all_q3_states": "PENDING",
+  "arithmetic": "PASS",
+  "new_source_hashes_verified": 7,
+  "current_mirrors": "PASS",
+  "price_tokens": "45.35 at14:50ET",
+  "thesis_changelog_predictions_positions_unchanged": true,
+  "publisher_raw_whitespace": "preserved; excluded from authored style checks",
+  "outcome_status": "PARTIAL: Q3 publication dependency; Boston payoff/current runway unknown"
+}

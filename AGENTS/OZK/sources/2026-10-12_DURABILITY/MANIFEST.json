@@ -1,0 +1,107 @@
+[
+  {
+    "file": "BOOT.txt",
+    "bytes": 4036,
+    "sha256": "de532f2042675619d9e570aab22b92a236f6dfc867c7e3ff23db8146495d4824"
+  },
+  {
+    "file": "FETCH_RECEIPTS.jsonl",
+    "bytes": 2972,
+    "sha256": "dadb6ceebd62a3d92c56d07cc8e713527b5aff7e1908a6b8956ba57b68b99816"
+  },
+  {
+    "file": "IIPR_BASE_AGREEMENT.html",
+    "bytes": 1861977,
+    "sha256": "119da9c2101bbbce1d42938f44499c5eaae67feecfdd7ce1e4e9c9febcd623c0"
+  },
+  {
+    "file": "IIPR_BASE_AGREEMENT.txt",
+    "bytes": 1025035,
+    "sha256": "b3f477ed5a964ce13c5755fff44175cbb97b3c64926d61cd8112f999e50a12c3"
+  },
+  {
+    "file": "IIPR_PRESENTATION.html",
+    "bytes": 54407,
+    "sha256": "4329fdf7e35f25aa555a1dc6a0eaae06dbec2d126660de4cca3936f07f23296c"
+  },
+  {
+    "file": "IIPR_PRESENTATION.txt",
+    "bytes": 34508,
+    "sha256": "711afcf0ecbb93805f18e27a89a23aed7c48b1817fcdfe4ce1710aca805b50e0"
+  },
+  {
+    "file": "IIPR_ROFO.html",
+    "bytes": 61769,
+    "sha256": "bd13a037aeefec5063993b5be766cf5fa5186c7568990898fee1b3e040e2db6e"
+  },
+  {
+    "file": "IIPR_ROFO.txt",
+    "bytes": 26707,
+    "sha256": "5054592ba87de8836c721a31e8fa3a3df986b4cdd7be2275e6c23f2916303485"
+  },
+  {
+    "file": "MAGELLAN_ORIGINAL_FINANCING.html",
+    "bytes": 55711,
+    "sha256": "52ce342341cee10f4ac927a299f91a12b730725159ea48f146f812a3b59f74c1"
+  },
+  {
+    "file": "MAGELLAN_ORIGINAL_FINANCING.txt",
+    "bytes": 19950,
+    "sha256": "bbdfd8b5e0395711b133e65f74845db2a622a5fa8b1990ac159e3279b503a99e"
+  },
+  {
+    "file": "MIDDLESEX_SOUTH_PORTAL.html",
+    "bytes": 212,
+    "sha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d"
+  },
+  {
+    "file": "MIDDLESEX_SOUTH_PORTAL.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "READ_RECEIPT.md",
+    "bytes": 3808,
+    "sha256": "0db580de3f8e45311834389c7cb6ba92c29a03c216b51496fe289a4c8ceac1b1"
+  },
+  {
+    "file": "SOMERVILLE_D2_PLAZA_DRAFT.pdf",
+    "bytes": 117929,
+    "sha256": "e9f29042787101ea40244f844e1f2bcac33e229cef995fb2548c374414aba18d"
+  },
+  {
+    "file": "SOMERVILLE_D2_PLAZA_DRAFT.txt",
+    "bytes": 18299,
+    "sha256": "9e54458a4d1af85d1149e5e696dd20a212443f51baa86c4341ea857fd68978e4"
+  },
+  {
+    "file": "URLS_BOSTON.json",
+    "bytes": 430,
+    "sha256": "615952bc8eab79acbbef96c2e2d2851d681a1bd6b83f10159889378045070304"
+  },
+  {
+    "file": "URLS_IQHQ.json",
+    "bytes": 351,
+    "sha256": "c1926f060075ae04e0b16034ec2026702f40e4f0f7919a429c6d6d8777960943"
+  },
+  {
+    "file": "USQ_OWNER_HOME.html",
+    "bytes": 111702,
+    "sha256": "71d9362f28bc0deb61c8191775a22a4bb4cfdde994757f3940ac19758cb6c9d2"
+  },
+  {
+    "file": "USQ_OWNER_HOME.txt",
+    "bytes": 4799,
+    "sha256": "739587ab7dd0af006925ce028427f862a53aeaa5877614b5476e443fa52ff4a4"
+  },
+  {
+    "file": "VALIDATION.json",
+    "bytes": 490,
+    "sha256": "a52cc739cc95dbed922dcf75deec67cc9246461be3d29fef932971a560a61888"
+  },
+  {
+    "file": "fetch_public.py",
+    "bytes": 2016,
+    "sha256": "b98aa12243c38c38e68bb448817bed0a49f86ea6b04c724c8af51225321fb7b2"
+  }
+]

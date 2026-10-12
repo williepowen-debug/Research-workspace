@@ -1,7 +1,7 @@
 # OZK — Agent Index
 **Start here on cold boot.**
 
-**Last updated:** 2026-10-12 — L635/L690 consumed; three-gap pass saved, current access/bank-outcome gaps retained; thesis **v1.6**, KB **256 / 37**.
+**Last updated:** 2026-10-12 — L635/L690 consumed; approved durability/Boston/recovery saved, Q3 collection pending; thesis **v1.6**, KB **259 / 37**.
 
 **State snapshot** *(numbers live in `STATUS.md` — this is orientation only)*:
 - **Thesis v1.6 RESERVOIR — RaDD near-maturity catalyst materially disconfirmed**, other portfolio stress still tested at Q3. Prior Q2 HIGH conviction is not re-graded; new adverse evidence must travel with it. → `THESIS.md`, `CHANGELOG.md`
@@ -10,7 +10,7 @@
 - **⚠️ Two facts cold spawns get wrong:** (1) **OZK files Form 10-Q with the FDIC (cert #110), not the SEC** — there is no *SEC* 10-Q, and the FDIC 10-Qs (`raw/Q*_10Q.pdf`) are this desk's best primary. (2) **The 37.6% MI3 "worst in screen" figure is dead** (live 9.35%, rank 5th/14) — never cite it.
 - **Positions: one line observed** — Fidelity OZK Nov-20 $40P ×4 in the 10/7 capture (acquisition unknown; no card — TERRY). The Aug-21 puts expired worthless 8/21. ⛔ D1/OZK-salvage ruled closed. → `POSITIONS.md`
 - **Next dates:** original Horton 10/14 checkpoint (bounded work done, occupancy unresolved); Q3 10/20 AMC / 10/21 08:30 ET, L520 check-by 10/31. **Card READY** → `workbook/Q3_2026_SCORING_CARD.md`; review → `research/threads/2026-10-12_POST_EXTENSION_REVIEW.md`.
-- **KB.tsv: 256 rows / 37 groups** (10/12).
+- **KB.tsv: 259 rows / 37 groups** (10/12).
 
 ---
 
@@ -65,7 +65,7 @@ For deeper cold-boot orientation after that:
 | `POSITIONS.md` / `TRADE.md` | Option positions (one line observed 10/7: Nov-20 $40P ×4) / trade ideas (separately frozen) |
 | `scripts/boot.py` | Boot kit v0.2 — prices, FDIC filings watch, catalysts, standing watch, inbox, staleness |
 | `scripts/flng_watch.py` | FDIC filings watch (cert 110) — rc 0 quiet / 1 new / 2 unknown; `--selftest` |
-| `workbook/KB.tsv` | Evidence database (256 rows / 37 groups as of 2026-10-12) |
+| `workbook/KB.tsv` | Evidence database (259 rows / 37 groups as of 2026-10-12) |
 | `workbook/CALL_REPORT_SERIES.tsv` | **FFIEC Call Report series, 18 quarters** (RSSD 107244) — MI3 both bases, past-due decomposition, NCO, CRE NCO, OREO/NPA. LOG-ONLY source (Z6 never re-grades off it). |
 | `MI3_2025Q3_ADJUDICATION.md` | **L181 verdict** (2025Q3 MI3 step = debt-on-debt book decline; §6.5 layers OBSERVED / INFERRED / NOT EXCLUDED) |
 | `SWEEP_2026-08-28.md` | Will-directed data-integrity sweep (22 findings) |
@@ -102,6 +102,7 @@ For deeper cold-boot orientation after that:
 ### Research — post-Q1 threads
 | File | Verdict |
 |------|---------|
+| `research/threads/2026-10-12_DURABILITY_DELIVERY.md` | Funding map/Boston follow-up/current recovery reconciliation saved; Q3 outcomes pending; links three reports and frozen 14-row baseline |
 | `research/threads/IQHQ_SECONDARY_EXPOSURE.md` | NO EVIDENCE of second IQHQ credit — Rossow on-record to Bisnow confirms RaDD is sole |
 | `research/threads/CIB_MARGIN_COMPRESSION.md` | Vertical-specific (3/6 compressing), net-neutral, NIM drift 4.20% → 4.10-4.15% |
 | `research/threads/RESG_MIX_DETERIORATION.md` | Apr 22 linear projection RETRACTED (Apr 23). Real indicators: substandard migration, past-due regime change, NCO tempo. |
@@ -153,7 +154,7 @@ For deeper cold-boot orientation after that:
 ### Workbook
 | File | Content |
 |------|---------|
-| `workbook/KB.tsv` | Evidence database — 256 rows / 37 groups (as of 2026-10-12) |
+| `workbook/KB.tsv` | Evidence database — 259 rows / 37 groups (as of 2026-10-12) |
 | `workbook/KB_INDEX.md` | Cluster navigator (all 37 groups indexed; verified 9/24) |
 | `workbook/CALL_REPORT_SERIES.tsv` | FFIEC 18-quarter series (see Core) |
 | `workbook/Q2_2026_SCORING_CARD.md` | Q2'26 Stage-1/Stage-2 grades |

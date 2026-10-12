@@ -85,6 +85,8 @@ All numeric cutoffs above come from the existing ledger/thesis/charter; diagnost
 
 ## Result protocol after publication
 
+**October 12 approved follow-up:** funding/guaranty map and Boston economics → `research/threads/2026-10-12_DURABILITY_DELIVERY.md`. `workbook/2026-10-12_CASH_RECOVERY_BASELINE.tsv` is a frozen 14-row pre-print snapshot, not a second live card. Append future bank observations here. Cash proceeds, prior losses, book transfers and retained/new loans remain separate; property news cannot fill bank fields. Actual Q3 collection PENDING; original rows/letters/dates unchanged.
+
 For each row append: **observation date · read date · exact source/page · measurement/unit/basis · credit attribution · status · strengthened/weakened/unresolved interpretation · next resolver**. Do not fill blank observations with 0. Non-terminal rows may legitimately remain unresolved.
 
 Release read first, full call second; no absence-based resolution before both. If early-Nov 10-Q is needed, retain the row and dated reason rather than invent a print-day grade. At L520 CHECK-BY **October 31**, deliver the actually observed result and outstanding 10-Q/CR legs. Original Q4-26 prediction windows remain around mid/late January 2027. Deliver written evidence to PROME/REGINALD and TERRY; WALTER handles market-signal routing. TERRY owns price/structure/sizing/card, Will owns trades.

@@ -6,6 +6,8 @@
 
 **Will's later direct three-gap pass DONE10/12 in order:** public workout outcomes; IQHQ funding/BPRE marks; Aimco/Affinius checks → `research/threads/2026-10-12_THREE_GAP_DELIVERY.md`. Remaining unknowns are bank accounting/payoffs, FSX docket, trustee execution and video-only Q&A; no duplicate L635/Horton search.
 
+**Further three-question approval, October 12:** funding-durability map DONE; Boston bounded transaction follow-up DONE/current payoff UNKNOWN; 14-row cash-recovery baseline/reconciliation DONE, **Q3 outcome collection PENDING under existing L520**. Results → `research/threads/2026-10-12_DURABILITY_DELIVERY.md`. No fresh window needed for available work; publication is the remaining dependency. Reuse saved work at Q3, no repeated searches.
+
 ⛔ **Standing fence:** **D1 / OZK-salvage is RULED-CLOSED.** Do not re-present, re-litigate, or propose a successor position. Any future OZK expression is a **new** trade — TERRY builds, Will approves.
 
 ---
