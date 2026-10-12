@@ -63,3 +63,20 @@ Bounded public-source pass DONE; inventory/redemption explanation remains UNRESO
 Accept the owner’s narrowed source-gap classification, with no forecast, score, band, capital or GLD hedge change. Actual8/20 and I2=2 remain as reported; retain October19 weekly review, October30 MIDAS-09/10 and November1 WQ-368. No repeat broad review, new monitor or duplicate follow-up is commissioned. WALTER result consumption remains pending at this receipt.
 
 Actual substantive-result notice reached PROME from verified MIDAS thread01a131e1-82c3-7702-beae-4992d53e8fd5; recorded at2026-10-12 21:40:45 UTC. Direct return-route use is verified separately from queue acceptance. No lifecycle closeout requested; the Will-owned window remains under Will’s control.
+
+## WALTER result consumed — four bounded deliveries received
+
+`bf00c875c:PROME/inbox/2026-10-12_from-WALTER_prome-directed-followup.md` and the same commit's `AGENTS/WALTER/research/2026-10-12_prome-directed-followup/REPORT.md` read in full and matched to committed bytes. The committed SIG-W-20261012-031 correction was also read and matched; R1 names YURI/HAWK action and PROME information only. VERIFIED: local committed delivery and correction contents. WALTER reports BM09 CLOSED9/9 and three new handoffs; no independent repetition of its full intake or receipt-log search.
+
+Accept the bounded reconciliation, retaining WALTER's PARTIAL overall outcome for publication/recipient dependencies. The scheduled-Tsentr correction qualifies the broad exercise-absence premise only; it establishes neither mobilisation nor NATO deployment. PROME's earlier L432 withdrawal already satisfies its own substantive correction; HAWK adoption remains separate. YURI's permission evidence and SHADE's prospectively registered October13 endpoint are conserved, without a duplicate signal or repeat research assignment.
+
+| Remaining dependency | Disposition |
+|---|---|
+| SHADE→LIQUID owner count/anchor packet160c0c08d | Actual consumption UNKNOWN in WALTER's bounded search. Preserve L673 October13 post-close; obtain then-current LIQUID inputs and exact common closes, withholding the grade if missing. No owner absence inferred. |
+| YURI→DEWEY diesel-primary packet | Actual consumption UNKNOWN. Preserve existing October13 settlement-publication check and October14 delivery; signed authorization/annex and authenticated net delivered increment remain unresolved. |
+| YURI→HAWK exercise counterindicator; SIG031/COR31 | HAWK's original card still carried the broad premise at WALTER's read. Scoped owner adoption/receipt remains owed; no peer-file edit or replacement launch. |
+| New WALTER signal/three handoffs | Locally committed atbf00c875c. New origin publication remains unverified here; publication cannot substitute for recipient consumption. |
+
+All four directed results have now been consumed at their exact versions. Remaining source gaps, dated assessments and recipient obligations stay open; no general review loop or acknowledgment-only ping is commissioned. NEXUS October13, OSPREY October15 and YUR-004 October16 remain as registered. Existing X browser reauthorization remains the hands-on source gap; no token retry.
+
+Actual WALTER result notice reached PROME from verified thread01a131e6-5754-7593-a546-210c87683eeb; recorded at2026-10-12T21:47:14+00:00. Return-route consumption is established; no lifecycle closeout requested for any of the four Will-owned windows.

@@ -136,7 +136,7 @@
 | 2026-10-10 | VIOLET (violet-1010) | subagent | 1-SPAWN | 21 | DELIVERED 11:48 ET (PARTIAL by the ask): | 4 | 0 |
 | 2026-10-01 | VULCAN (vulcan-1001) | subagent | 1-SPAWN | 5 | DELIVERED 11:24 ET — bbd75b2e7 (desk; in | 5 | 0 |
 | 2026-10-08 | VULCAN (vulcan-1008) | L0 | 1-SPAWN | 17 | DELIVERED 08:36 ET (00a13c4c1 desk + 23e | 15 | 0 |
-| 2026-09-19 | WALTER | subagent | 1-SPAWN | 4 | DELIVERED 11:11 ET — PROME/inbox/2026-09 | 4 | 0 |
+| 2026-10-12 | WALTER | window | 22-LAPTOP-ORCH | 1 | DELIVERED/CONSUMED bf00c875c — bounded r |  |  |
 | 2026-10-12 | YURI | window | 1-LAPTOP-ORCH | 1 | DONE — bounded source pass consumed dd8e |  |  |
 | 2026-09-25 | ZHAO | subagent | 1-SPAWN | 2 | DELIVERED 09:26 ET (memo PROME/inbox/202 | 2 | 0 |
 
