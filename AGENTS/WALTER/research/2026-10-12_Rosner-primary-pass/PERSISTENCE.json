@@ -1,0 +1,21 @@
+{
+  "observed_at": "2026-10-12T22:12:41.937313+00:00",
+  "result_commit": "8df3e97b1daec517c12d6a5ef3162704ae8d044a",
+  "paths": [
+    "AGENTS/SHADE/inbox/2026-10-12_from-WALTER_Rosner-free-source-pass-partial.md",
+    "AGENTS/WALTER/LAST_COMPLETION.md",
+    "AGENTS/WALTER/SESSION_LOG.md",
+    "AGENTS/WALTER/STATUS.md",
+    "AGENTS/WALTER/inbox/2026-10-12_from-PROME_laptop-round2.md",
+    "AGENTS/WALTER/inbox/processed/.consumed.tsv",
+    "AGENTS/WALTER/inbox/processed/2026-10-12_from-PROME_laptop-round2.md",
+    "AGENTS/WALTER/research/2026-10-12_Rosner-primary-pass/ACCESS_RESULT.json",
+    "AGENTS/WALTER/research/2026-10-12_Rosner-primary-pass/REPORT.md",
+    "AGENTS/WALTER/research/2026-10-12_Rosner-primary-pass/task-consume-proof.json"
+  ],
+  "unexpected_paths": [],
+  "on_local_origin_ref": true,
+  "pull_push": "Deferred for foreign active work; no WALTER push",
+  "notification": "One substantive PROME notice follows dated-packet persistence",
+  "scope": "0 primary court documents,0 BOARD signals, no grade/lifecycle action"
+}
