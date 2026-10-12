@@ -1,0 +1,55 @@
+{
+  "exported_at_et": "2026-10-12T13:42:13.945970-04:00",
+  "operation": "Organization and derived CSV export of already saved evidence; no new market fetch",
+  "canonical_source_paths_relative_to_REGINALD": [
+    {
+      "path": "domain/sources/2026-10-12_KRE_holdings/holdings-daily-us-en-kre.xlsx",
+      "sha256": "0dc295da755b5bf35501ec42ecc77e8fbbf48c39c4a46c5b9661883256e70e0e"
+    },
+    {
+      "path": "domain/sources/2026-10-12_KRE_holdings/receipt.json",
+      "sha256": "bc8bfad59243de955d73119408a29bbfc3725d50387c2cde46b1ae5c247f3b39"
+    },
+    {
+      "path": "domain/sources/2026-10-12_KRE_top10_performance/quotes.json",
+      "sha256": "9459e8a10cd5532d1f50aff1e26ab4f4217d2c6762f8c400775c58ba18b55cab"
+    },
+    {
+      "path": "domain/sources/2026-10-12_KRE_top10_performance/performance.json",
+      "sha256": "8a48ee13ad104b3a4fdf7e48ac8fdbfa3cff8acbd0bf52ed3d3f444dae481d74"
+    },
+    {
+      "path": "domain/sources/2026-10-12_KRE_top10_performance/receipt.json",
+      "sha256": "b79137d85ced0df9b4a7b882d5919865fc3c3766c264970c5dbed1d62b654ff5"
+    },
+    {
+      "path": "domain/sources/2026-10-12_morning-bank-tape/quotes.json",
+      "sha256": "aa8dab8be4d2617f1b5d3707a40e1b0cbc5fece1502fb465cac771b6a55461e8"
+    },
+    {
+      "path": "domain/sources/2026-10-12_morning-bank-tape/settled-history.json",
+      "sha256": "b6984d69dbccf72423a372287b95ae012fc7d9147b5890b5e754468b2b553d44"
+    }
+  ],
+  "csv_row_counts": {
+    "kre-holdings.csv": 169,
+    "kre-top10-performance.csv": 11,
+    "regional-bank-tape.csv": 22
+  },
+  "source_holdings_as_of": "2026-10-09",
+  "quote_snapshots": [
+    "2026-10-12 11:16 EDT",
+    "2026-10-12 13:33 EDT"
+  ],
+  "chart": {
+    "original_user_attachment_path": "/mnt/c/Users/willi/OneDrive/Desktop/Regional Bank capture.JPG",
+    "saved_path_relative_to_hub": "charts/2026-10-12_regional-banks_3m_30m.jpg",
+    "original_sha256": "e3380eca6b30e07104e1b7a79ac7b241d6a4f1a5caf1b4a428e5c944bef0587f",
+    "saved_sha256": "e3380eca6b30e07104e1b7a79ac7b241d6a4f1a5caf1b4a428e5c944bef0587f",
+    "capture_timestamp": "UNKNOWN",
+    "supplied_date": "2026-10-12",
+    "view": "Three months, 30-minute interval; KRE/WAL/OZK/ZION/FLG/EGBN",
+    "interpretation_limits": "Selected candle OHLC may differ from latest header prices; no precise capture time or broker position inferred."
+  },
+  "maintenance": "Append dated observations and studies. Source records remain canonical; exports are immutable dated views. Frozen legacy ledgers remain frozen."
+}

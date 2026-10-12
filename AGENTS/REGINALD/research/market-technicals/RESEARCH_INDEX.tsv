@@ -1,0 +1,21 @@
+subject	canonical_path_relative_to_REGINALD	vintage_or_usage_basis	classification
+Raw morning tape	domain/sources/2026-10-12_morning-bank-tape/	October12 morning	Saved source snapshot
+Morning tape analysis	reports/2026-10-12_morning-regional-bank-tape.md	October12 morning	Dated report
+KRE holdings and rules	domain/sources/2026-10-12_KRE_holdings/	HoldingsOctober9; rules checkedOctober12	Saved issuer evidence
+Top ten performance	domain/sources/2026-10-12_KRE_top10_performance/	October12 13:33 fetch	Saved source snapshot
+Volume study	trade/market-microstructure/RP-REG-5.1_KRE_Volume_Analysis.md	April9,2026	Historical research; do not carry figures forward as current
+Short interest	workbook/SHORT_INTEREST.tsv	FrozenJune27; older row vintages	FROZEN historical ledger
+Short volume	workbook/SHORT_VOL.tsv	FrozenJune27; older row vintages	FROZEN historical ledger
+Off-exchange volume	workbook/DARKPOOL.tsv	FrozenJune27; older row vintages	FROZEN historical ledger
+Options open interest	workbook/OPTIONS_OI.tsv	FrozenJune27; older row vintages	FROZEN historical ledger
+Transmission mechanics	workbook/FLOW.tsv	FrozenOctober10; row vintages retained	FROZEN historical ledger
+Settled ladder checker	scripts/vx_ladder_check.py	Read settled bars and existing frozen thresholds	Existing tool; no new registered gate
+KRE float	scripts/kre_float.py	Use actual source vintage when run	Existing tool
+Short interest tool	scripts/si_refresh.py	Use actual source vintage when run	Existing tool; listing does not revive frozen ledger
+Options open interest tool	scripts/options_oi.py	Use actual source vintage when run	Existing tool; listing does not revive frozen ledger
+Off-exchange volume tool	scripts/darkpool.py	Use actual source vintage when run	Existing tool; listing does not revive frozen ledger
+Monitoring entry point	scripts/boot.py	Existing desk sweep	Existing tool; no new schedule
+EGBN credit context	reports/2026-10-12_EGBN_cleanup_figure_verification.md	June30 credit vintage; checkedOctober12	Fundamental cross-reference
+WAL owner	../WAL/STATUS.md	Owner date governs	Peer-owned source; read-only
+OZK owner	../OZK/STATUS.md	Owner date governs	Peer-owned source; read-only
+FLG owner	../FLG/STATUS.md	Owner date governs	Peer-owned source; read-only
