@@ -82,7 +82,7 @@ Five of the six overdue sweeps ran today: Gate-Basis, Falsification (complete wi
 
 ## BOTTOM LINE — 2026-10-09
 
-**WORK:** Charter split preserves4 sections verbatim; CLAUDE20,200 B + mandatory OPERATIONS17,433 B, each below22,785 B. Preparation/batching adopted; session awaiting final review/publication.
-**CHECKS:** Local cap clean; shared proposed-manifest test clean with root rotation DUE. Candidate capture/reuse BLOCKED (unsupported C1/C8 global context); ordinary checks cannot grant candidate clearance. Evidence: `runs/2026-10-09_CHARTER_SPLIT.md`.
-**DELIVERY:** Exact authored package prepared for one implementation/review commit; publication and owner consumption not yet certified. PROME READS split delta/receipt pending; earlier43-row application remains complete.
-**OPEN:** PROME L655 and closeout counterpart L664 (both October12) remain pending; BR1, NEXUS verification, L658 vocabulary rotation (DAEDALUS, October12) L661 optional token registration (October16), and unrelated due work untouched. Final inbox check18:58 UTC adds VULCAN profile update pending next touch; no unrelated work started.
+**WORK:** Charter split and preparation/batching complete; independent content review accepted. CLAUDE20,200 B + required OPERATIONS17,433 B;4 original blocks conserved. This assigned pass is stopping with limits retained.
+**CHECKS:** Ordinary185900Z battery has no BLOCKING checks; C0/C3/root-C7 DUE persist. Candidate capture/reuse BLOCKED before receipt (unsupported global C1/C8 inputs); no candidate clearance. Evidence: `runs/2026-10-09_CHARTER_SPLIT.md`.
+**DELIVERY:** Implementation3d353adf7 published, safe-push fresh-fetch confirmed; ten substantive file hashes match review. PROME live READS delta/consumption still pending (0 companion rows at verification). Publication is not clearance.
+**OPEN:** PROME L655/L664 reviews (October12); separate candidate-context repair, root rotation, BR1, NEXUS verification, L658 vocabulary rotation and L661 optional registration pending. Final inbox18:58 UTC: VULCAN profile update pending next touch; no unrelated work started.
