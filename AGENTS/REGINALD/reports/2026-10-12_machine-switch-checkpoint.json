@@ -1,0 +1,231 @@
+{
+  "observed_at_utc": "2026-10-12T19:17:02.398841+00:00",
+  "desk": "REGINALD",
+  "session": "01a130ac-dde6-76f1-8df7-eb903dc2862a",
+  "scope": "Machine-switch persistence only; no new pass or window termination",
+  "ready_existing_commits": [
+    {
+      "commit": "459710349a39ff7ca4693dcbac2a419f845adcf8",
+      "subject": "REGINALD -> PROME: save KRE interpretation and Will-requested owner closeout"
+    },
+    {
+      "commit": "6c7e4e774b1c9aacc6ac201f2a1b94131254a805",
+      "subject": "REGINALD -> PROME: deliver approved KRE whole-basket study with attribution limits"
+    },
+    {
+      "commit": "9f13a2fd68a8f29799212bcda9e039bdaa450611",
+      "subject": "REGINALD: record KRE study notification and persistence observation"
+    },
+    {
+      "commit": "6c917f2a87f463ae013c9e1c9f6c4171f1cbe1e8",
+      "subject": "REGINALD -> PROME: report EGBN/KRE checkpoint and next-research recommendation"
+    },
+    {
+      "commit": "53ea96eddbe637c015726169405d07fd3b8ad610",
+      "subject": "REGINALD -> PROME,TERRY: deliver EGBN primary verification and updated-data limits"
+    },
+    {
+      "commit": "6556cad310f20591bd5c8288b85e4cdbcb6ff564",
+      "subject": "REGINALD: save EGBN verification and relative-strength interpretation in ledger"
+    }
+  ],
+  "incoming_untracked_peer_authored_paths": [
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261012-018.md",
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261012-019.md",
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261012-021.md",
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261012-022.md",
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261012-023.md",
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261012-024.md"
+  ],
+  "ignored_current_session_source_files": [
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/FY2025_10K.raw",
+      "bytes": 5491189,
+      "sha256": "f6daebb844cc458a80b771a974d1ab0cffd72edee48f1035bbccd01dffd971d8",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/FY2025_10K.txt",
+      "bytes": 632979,
+      "sha256": "2941a4d74298bd21af28e06eb13fae2791753d2bba74e073140126f738687ff9",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/IR_news.raw",
+      "bytes": 110061,
+      "sha256": "3b9a4e011a80f505f98a43cd8f1e060891d92131876d99a1c44352ca98b3259f",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/IR_news.txt",
+      "bytes": 1139,
+      "sha256": "37f788d9e53532aeb37e79d7151b053ce72af8b55695dd9eac0f900adc6356af",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/IR_quarterly.raw",
+      "bytes": 129239,
+      "sha256": "5e7e7ed34dcd14b5a9527223525f04aae07abe369422cbde25391de932b401f5",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/IR_quarterly.txt",
+      "bytes": 1183,
+      "sha256": "cd0878311a1c4c3410210f42d1332094b1409ad5ce4cd57d4bc8c3b1957177c7",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/Q1_2026_10Q.raw",
+      "bytes": 3500721,
+      "sha256": "b8c56a4e4eab1f852d6967cec458433724ea6fc824a5172e1780429a6b3c645c",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/Q1_2026_10Q.txt",
+      "bytes": 305000,
+      "sha256": "10bcfcb5bba8b1d129427bb68cb8b877a84fee42a1af051a5b52a6797efaa928",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/Q2_2025_release.raw",
+      "bytes": 624598,
+      "sha256": "3f7a298e60566600a3a2daa0d08c3db144f6b0393e1d1b94c2d1d637e227245c",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/Q2_2025_release.txt",
+      "bytes": 38429,
+      "sha256": "e9b80321563117249ee3a818278832d36d89d43e5dc40e24e1b3edc48e508f8d",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/Q2_2026_10Q.raw",
+      "bytes": 4150588,
+      "sha256": "ccb48ab325ee68d7eeb76e31eac8cf3111f60858d0468c417892ef00b4943e50",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/Q2_2026_10Q.txt",
+      "bytes": 329881,
+      "sha256": "c38e4c15a71b14a5007cb434d9366174ff47331e88927b1dcce2080d3cf0fbba",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/Q2_2026_deck.raw",
+      "bytes": 63582,
+      "sha256": "3d889e2dec7fc399f635db47022fdb9e94a9fc3e76c1cff86aa9835b38e550b1",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/Q2_2026_deck.txt",
+      "bytes": 50699,
+      "sha256": "aecf1e19e0d616797f9006745c9189fd565aff6046dba42bf6ca3ac2acb5f585",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/Q2_2026_release.raw",
+      "bytes": 38646,
+      "sha256": "8d44cd4529f2bdf092b9215fb613412d32fc0f4ed0ab560c88ea3db54e04c60f",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/Q2_2026_release.txt",
+      "bytes": 33007,
+      "sha256": "247d6a41ec5a7a96005ba742d3308d3673b8cf08e64b2ee11c2ab4e5ef3af67c",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/Q3_2025_10Q.raw",
+      "bytes": 4064377,
+      "sha256": "73449cd3a3c53f7021666179205fbc80cb15b44fbb54fcf4a84ee6a3aa7a0bd0",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/Q3_2025_10Q.txt",
+      "bytes": 337359,
+      "sha256": "88230d42537d16b8e087eabb19eaf0ca460722365a9c3a5918db2c3ec94d6261",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/Q3_date_notice.html",
+      "bytes": 96336,
+      "sha256": "21140da55945ec3ac0d1b0a6c117d00376dd775f05904bc22174f2d8bcacf447",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/Q3_date_notice.txt",
+      "bytes": 4003,
+      "sha256": "29bc787f62d1e00b9520b11a909cd6dd291d6c38b7b637cfc6aa33c5851f9fc0",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/deck_slide_1.jpg",
+      "bytes": 300547,
+      "sha256": "1c8bb91fd24fd5b40f3ab93553058e0cc8ade186e83a919df48dc3b170fccede",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/deck_slide_16.jpg",
+      "bytes": 144748,
+      "sha256": "36b978c81e1ec2c5709de6fcf48bf1fb1d71d6f02b5cc6bd75f999c309fb0e2e",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/deck_slide_18.jpg",
+      "bytes": 172367,
+      "sha256": "92a110c9663e49de213b9b66f34af493a649265caa8d3132223ad74288561a69",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/deck_slide_19.jpg",
+      "bytes": 124521,
+      "sha256": "615eeb213d2b6bf91c313d8132777d7b8e3be672d415bdf022951291dc235693",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/deck_slide_24.jpg",
+      "bytes": 154958,
+      "sha256": "2fa4f0aa6f34b15eb4efb2b2e5eb4c29be5b2a3b994c22a438b57dab314868e5",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/latest_8KA.html",
+      "bytes": 30718,
+      "sha256": "dce80d3744f08b2511fdfd021a07d1de4a833402aa643fce869ad53284b59d2f",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/latest_8KA.txt",
+      "bytes": 4252,
+      "sha256": "7db777a5e53c50a01134dff4e26a07a1c0a6d6866c8071660cb9330301359cd0",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/submissions.raw",
+      "bytes": 165785,
+      "sha256": "6baaaf281f4013fd44472888f3eaf24f169dc2bca7a5e452afd46cc20f689dc3",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_KRE_basket_study/raw/nport-july-candidate.xml",
+      "bytes": 74101,
+      "sha256": "be38b2514c94d07ee129454113aacabc59b62581d0035b02a19c84cddbd3e67f",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_KRE_basket_study/raw/rejected-CIK1064641-submissions.json",
+      "bytes": 180587,
+      "sha256": "993ba132a4f2ff34b7cc1d8c94eee432e5bafa1c2a793ce6861cc5ba6d53fdfa",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    },
+    {
+      "path": "AGENTS/REGINALD/domain/sources/2026-10-12_KRE_basket_study/raw/ssga-page.html",
+      "bytes": 228055,
+      "sha256": "243745ee071e23e9d204c0dc2da84b6fa25b3540a3d5d00a9926d13d1088c91c",
+      "git_state": "IGNORED_LOCAL_ONLY"
+    }
+  ],
+  "ignored_current_session_source_bytes": 21583655,
+  "source_transfer_status": "No transfer performed. Git push does not preserve ignored raw originals. Copy or refetch if exact source-byte access is needed. Tracked findings, extracts/calculations and source receipts remain available.",
+  "exclusions": "Other historical ignored source trees, runtime files and caches are outside this checkpoint inventory and untouched."
+}
