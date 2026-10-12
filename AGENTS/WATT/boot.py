@@ -168,7 +168,9 @@ def predictions_due():
 # default assumption) — that reasoning is kept. It never exempted this file from a
 # cap discovered afterwards. Trigger 75% (24,412 B) · rotate to <70% (22,785 B).
 #
-# SCOPE NOTE: this leg checks BOTH boot-read surfaces, not just STATUS. SCRATCH.md is
+# SCOPE NOTE: this leg checks the registered boot-read surfaces, not just STATUS.
+# CLOSEOUT.md joined the list with Will's approved 2026-10-12 procedure amendment.
+# SCRATCH.md is
 # boot-step 2 and was 62,072 B = 114% OF THE PHYSICAL CAP on 2026-08-28 — i.e. every
 # boot from 8/17 to 9/02 read a TRUNCATED SCRATCH and reported nothing. A one-file
 # check is what let that run for six weeks.

@@ -3,7 +3,7 @@
 **Status:** 🟠 FERC rejected IRAS/BYONC; the proposed large-load tariff burden did not become law.
 **Domain:** Grid stress → wholesale power price → industrial/data-center cost.
 **Recent thesis pivot:** Filed Door B → rejected IRAS/BYONC core (10/9, read 10/12); WATT-10 MISS.
-**As of:** 2026-10-12 12:33 ET — final records-only closeout | STATUS commit: **1daa463c8**; power tape remains **2026-10-12 10:35 EPT**, no new market observation.
+**As of:** 2026-10-12 12:50 ET — approved procedure amendment, records only | STATUS commit: **98aa2da6e**; power evidence remains **2026-10-12 10:35 EPT**.
 
 ## CROSS-DOMAIN
 
@@ -13,7 +13,7 @@
 |---|---|---|---|
 | VULCAN / HENRY | IRAS/BYONC rejected; registry alone accepted | Elevated | Remove only the proposed IRAS-specific cost/curtailment obligation; physical costs/PPAs persist. Dated owner packets |
 | CARL / REGINALD | WATT-08 Door B ~50% OPEN | Elevated | Consumer allocation risk gains relative weight; actual dollar assignment remains unresolved. Dated owner packets |
-| PROME | L654/L200 morning result consumed; L692/L693 registered; final closeout and comparison saved | Monitoring | Prior report427c1280f/deliveryd9127ded0 consumed at PROME receipt30770e3bb. Current closing packet at1daa463c8; acknowledgment of this new version pending |
+| PROME | L654/L200 morning result consumed; L692/L693 registered; final closeout and comparison saved | Monitoring | Prior report427c1280f/deliveryd9127ded0 consumed at PROME receipt30770e3bb. Approved procedure implementation packet at98aa2da6e; acknowledgment of this amendment pending |
 
 **WAITING FOR:**
 
@@ -53,4 +53,4 @@
 | 10/31 | WATT wake-list review | Registered review retained after WATT-12 HIT |
 | 11/16 | EL26-67 response | Qualifying section 205 suspension proviso travels |
 
-Full form retained for the persistent HENRY/VULCAN/CARL edges; CROSS-DOMAIN first. Final fold follows STATUS commit 1daa463c8. Comparison and proposed procedure: `reports/2026-10-12_closeout-procedure-comparison.md`, `proposals/2026-10-12_CLOSEOUT_PROPOSED.md`. Proposal only; CLAUDE.md unchanged, no runner built, no new thesis version/threshold.
+Full form retained for persistent HENRY/VULCAN/CARL edges; CROSS-DOMAIN first. Final fold follows STATUS commit **98aa2da6e**. Will approved and WATT implemented **CLOSEOUT.md** with checkpoint/standard/heavy modes, current pickup, affected-surface/check accounting and current receipt reconciliation. CLAUDE boot/ending pointers and existing boot read-cap wiring updated; original proposal SUPERSEDED. Dedicated wrapper remains separate; no market grade/threshold change. Implementation packet: `PROME/inbox/2026-10-12_from-WATT_approved-closeout-procedure-implemented.md`.
