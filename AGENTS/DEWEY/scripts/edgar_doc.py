@@ -10,9 +10,11 @@ Usage:
   python3 edgar_doc.py search "geographic concentration" --cik 0001212545 --forms 10-Q
   python3 edgar_doc.py search "Florida" --forms 10-Q --startdt 2026-01-01 --enddt 2026-06-30
 
-  # 2) Read a filing's primary document as TEXT (HTML stripped) — grep optional
+  # 2) Enumerate documents, then choose the actual HTML document to read.
+  python3 edgar_doc.py exhibits --cik 0001212545 --accession 0001212545-26-000045
+  # Bare doc is accepted only when one narrative candidate is verified.
   python3 edgar_doc.py doc --cik 0001212545 --accession 0001212545-26-000045
-  python3 edgar_doc.py doc --cik 0001212545 --accession 0001212545-26-000045 --grep "Florida"
+  # Add --doc FILENAME_FROM_INDEX --grep "Florida" for a document-scoped read.
 
   # 3) Pull a structured XBRL fact (companyconcept) — bank credit metrics etc.
   python3 edgar_doc.py facts --cik 0001212545 --concept Assets
@@ -23,7 +25,7 @@ Useful us-gaap concepts for bank credit work:
   ProvisionForLoanLeaseAndOtherLosses, FinancingReceivableExcludingAccruedInterestBeforeAllowanceForCreditLoss,
   AllowanceForDoubtfulAccountsReceivable
   (Names drift across filers — use `search` to confirm a tag exists, or pull
-   the full set via the companyfacts endpoint, see xbrl_facts(all=True).)
+   the full set via the SEC companyfacts endpoint. No xbrl_facts helper is exposed.)
 
 CIK cheatsheet + ticker->CIK authority: see edgar_fetch.py header /
 https://www.sec.gov/files/company_tickers.json  (always verify before citing).
@@ -174,8 +176,11 @@ def list_documents(cik, accession):
         for href in re.findall(r'href="(?:/ix\?doc=)?(/Archives/[^"?]+)"', html):
             n = href.rsplit("/", 1)[-1]
             names.setdefault(n, 0)
-    except EdgarError:
-        pass
+    except EdgarError as e:
+        raise EdgarError(
+            f"cannot verify the HTML accession index for {accession}: {e}. "
+            "The JSON index alone cannot certify the document list; "
+            "use an independently verified explicit --doc for a scoped read.") from e
     if not names:
         raise EdgarError(f"no documents listed for {accession} (cik {cik}) — "
                          "verify the accession exists")
@@ -184,12 +189,19 @@ def list_documents(cik, accession):
 
 def _primary_doc(cik, accession):
     names = list_documents(cik, accession)
-    # prefer the largest .htm that isn't the index / R-exhibit / cover
-    cands = [n for n in names if n.lower().endswith((".htm", ".html"))]
-    filtered = [n for n in cands if not re.match(r"(R\d|.*index|.*\bex)", n, re.I)]
-    cands = filtered or cands
-    cands.sort(key=lambda n: names[n], reverse=True)
-    return cands[0] if cands else None
+    cands = sorted(n for n in names
+                   if n.lower().endswith((".htm", ".html", ".pdf"))
+                   and not n.lower().endswith(("-index.html", "-index-headers.html"))
+                   and not re.fullmatch(r"R\d+\.html?", n, re.I))
+    if len(cands) != 1:
+        listing = ", ".join(cands) or "none"
+        raise EdgarError(
+            f"{accession}: {len(cands)} narrative document candidates ({listing}). "
+            "Refusing to select one as the whole filing. Enumerate with exhibits "
+            "and read each relevant file with --doc; a scoped miss is not filing-level absence.")
+    if cands[0].lower().endswith(".pdf"):
+        raise EdgarError(f"{cands[0]} is a PDF; use pdf2text.py for this scoped read")
+    return cands[0]
 
 
 # --- XBRL context-header strip -------------------------------------------
@@ -275,6 +287,10 @@ def main():
     ap = argparse.ArgumentParser(description="EDGAR document reader + XBRL facts")
     sub = ap.add_subparsers(dest="cmd", required=True)
 
+    e = sub.add_parser("exhibits", help="list all accession documents from JSON + HTML index")
+    e.add_argument("--cik", required=True)
+    e.add_argument("--accession", required=True)
+
     s = sub.add_parser("search")
     s.add_argument("query")
     s.add_argument("--cik"); s.add_argument("--forms")
@@ -294,7 +310,13 @@ def main():
 
     a = ap.parse_args()
 
-    if a.cmd == "search":
+    if a.cmd == "exhibits":
+        names = list_documents(a.cik, a.accession)
+        print(f"=== {a.accession} — {len(names)} indexed documents ===")
+        for name, size in sorted(names.items()):
+            print(f"  {name}  ({size} bytes in JSON index; 0 = size unavailable)")
+
+    elif a.cmd == "search":
         total, hits = search(a.query, a.cik, a.forms, a.startdt, a.enddt, a.limit)
         print(f"\n=== EFTS '{a.query}' — {total} total, showing {len(hits)} ===\n")
         for h in hits:
@@ -312,6 +334,7 @@ def main():
             if dropped:
                 note = f"  [XBRL context: {dropped:,} lines stripped — --keep-xbrl to retain]"
         print(f"\n=== {name}  ({len(text):,} chars ){note}===\n")
+        print("SCOPE: this document only; this read does not establish whole-filing absence.\n")
         if a.grep:
             lines = text.split("\n")
             pat = re.compile(a.grep, re.I)

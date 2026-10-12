@@ -21,7 +21,7 @@ Usage:
   python3 gie_pull.py lng                     # ALSI+: send-out, utilisation, YoY
   python3 gie_pull.py refill --target 90      # what pace is needed to reach a target
   python3 gie_pull.py series --dataset agsi --from 2026-06-01 --to 2026-08-27 --csv
-  python3 gie_pull.py storage --country de    # a single country instead of the EU aggregate
+  python3 gie_pull.py --country de storage    # a single country instead of the EU aggregate
 
 Exit codes:  0 ok · 1 source UNAVAILABLE after retry · 2 usage
 
@@ -176,8 +176,8 @@ def cmd_lng(a):
     if send is not None and dtrs:
         print(f"  utilisation     {send / dtrs * 100:.1f}%   "
               f"({dtrs - send:,.0f} GWh/d of send-out capability IDLE)")
-        print("    >> low utilisation with high capacity means the constraint is "
-              "CARGOES, not regas.")
+        print("    >> low utilisation alone does not identify the constraint: "
+              "check cargo availability, demand and usable terminal capacity.")
     if inv is not None:
         print(f"  inventory       {inv:,.1f} GWh")
 
@@ -218,17 +218,31 @@ def cmd_lng(a):
 
 
 def cmd_refill(a):
-    """Refill arithmetic: required pace vs achieved pace. DR-4's deliverable.
+    """Conditional stock-change projection to a caller-selected date.
 
-    ⚠️ Projects to the PHYSICAL peak window, not to a regulatory date — storage
-    turns from injection to withdrawal before Dec 1, so projecting to a
-    regulatory deadline overstates the achievable level. DR-4 made exactly this
-    error and corrected it."""
+    The default Nov6 is a convention, not an empirical median peak or an
+    upper bound. Missing/duplicate dates cannot certify the requested pace.
+    """
     rows = _rows("agsi", a.country, size=a.window + 1, key=a.key)
+    if not rows:
+        raise GieError("refill returned no gas-day records")
+    try:
+        rows = sorted(rows, key=lambda r: r["gasDayStart"], reverse=True)
+        dates = [datetime.date.fromisoformat(r["gasDayStart"]) for r in rows]
+    except (KeyError, TypeError, ValueError) as e:
+        raise GieError("refill returned a missing or malformed gas-day date") from e
+    expected = [dates[0] - datetime.timedelta(days=i) for i in range(a.window + 1)]
+    if dates != expected:
+        raise GieError(f"refill needs {a.window + 1} consecutive gas days; "
+                       f"received {len(rows)} rows with missing, duplicate or extra dates")
     cur, old = rows[0], rows[-1]
     day = cur["gasDayStart"]
     full, stock, wgv = _f(cur, "full"), _f(cur, "gasInStorage"), _f(cur, "workingGasVolume")
-    pace = (stock - _f(old, "gasInStorage")) / a.window     # TWh/day
+    old_stock = _f(old, "gasInStorage")
+    import math
+    if any(v is None or not math.isfinite(v) for v in (full, stock, wgv, old_stock)) or wgv <= 0:
+        raise GieError("refill requires finite fill, stock and positive working volume")
+    pace = (stock - old_stock) / a.window     # TWh/day
 
     target_twh = wgv * a.target / 100.0
     need = target_twh - stock
@@ -239,7 +253,9 @@ def cmd_refill(a):
     print(f"  now             {full:.2f}%  ({stock:,.1f} of {wgv:,.1f} TWh)")
     print(f"  achieved pace   {pace:.3f} TWh/d  (trailing {a.window}d)")
     print(f"  target          {a.target:.0f}%  = {target_twh:,.1f} TWh -> need {need:,.1f} TWh")
-    print(f"  window          {days} days to {a.peak} (physical peak, NOT a regulatory date)")
+    print(f"  window          {days} days to {a.peak} (chosen projection date; not a verified peak)")
+    print("  basis           stock change, not injection-minus-withdrawal; "
+          "projection holds today's working volume fixed")
     if days <= 0:
         print("  >> window has passed")
         return 0
@@ -247,7 +263,7 @@ def cmd_refill(a):
     print(f"  REQUIRED pace   {req:.3f} TWh/d")
     if pace > 0:
         print(f"  >> {req / pace:.2f}x the achieved pace"
-              f"{'  — OUT OF REACH on current pace' if req > pace else '  — achievable'}")
+              f"{'  — above current pace' if req > pace else '  — within current pace'}")
     proj = stock + pace * days
     print(f"  projection at achieved pace: {proj:,.1f} TWh = {proj / wgv * 100:.1f}%")
     return 0
@@ -294,7 +310,7 @@ def main():
 
     r = sub.add_parser("refill", help="required vs achieved refill pace")
     r.add_argument("--target", type=float, default=90.0, help="percent full (default 90)")
-    r.add_argument("--peak", default=None, help="physical peak date YYYY-MM-DD (default Nov 6)")
+    r.add_argument("--peak", default=None, help="projection date YYYY-MM-DD (default Nov 6 convention; not empirical median)")
     r.add_argument("--window", type=int, default=14, help="trailing days for pace (default 14)")
 
     q = sub.add_parser("series", help="raw history")
@@ -306,8 +322,15 @@ def main():
     q.add_argument("--json", action="store_true")
 
     a = ap.parse_args()
+    if hasattr(a, "window") and a.window <= 0:
+        ap.error("--window must be positive")
     if a.cmd == "refill" and not a.peak:
         a.peak = f"{datetime.date.today().year}-11-06"
+    if a.cmd == "refill":
+        try:
+            datetime.date.fromisoformat(a.peak)
+        except ValueError:
+            ap.error("--peak must be an ISO date YYYY-MM-DD")
 
     try:
         rc = {"storage": cmd_storage, "lng": cmd_lng,

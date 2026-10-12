@@ -12,8 +12,9 @@ Usage:
 
 ⚠️ THE TRUNCATION TRAP (why --archive/--splice exist)
 FRED's free API serves ICE BofA (`BAML*`) series as a ROLLING ~3-YEAR WINDOW
-— every BAML* series starts at 2023-07-17 (a licensing cut, verified 2026-07-16
-across BAMLH0A0HYM2/BAMLC0A0CM/BAMLH0A3HYC; control series are unaffected).
+— the 2026-07-16 check found a 2023-07-17 start (historical cutoff, not fixed;
+the cutoff rolls with time). The licensing cut was verified
+across BAMLH0A0HYM2/BAMLC0A0CM/BAMLH0A3HYC; control series were unaffected.
 It fails SILENTLY: ask for 2020 and you get 2023 data with NO error. This
 module WARNS on stderr whenever the returned first-date is later than the
 requested --start. Do not ignore that warning; confirm the first date.
@@ -220,7 +221,8 @@ def splice_fetch(series_id, start=None):
     mism = [d for d in overlap
             if amap[d] != next(o["value"] for o in live if o["date"] == d)]
     note = (f"overlap {len(overlap)} obs from {cut}: "
-            + ("ALL MATCH ✓" if not mism else
+            + ("NO OVERLAP — splice is NOT validated; do not cite as seamless history" if not overlap else
+               "ALL MATCH ✓" if not mism else
                f"⚠️ {len(mism)} MISMATCH (first {mism[0]}) — DO NOT cite until resolved"))
     merged = [o for o in arch if o["date"] < cut] + live
     if start:

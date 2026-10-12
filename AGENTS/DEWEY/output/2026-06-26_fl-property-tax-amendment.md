@@ -3,7 +3,7 @@
 **Executed:** 2026-06-26 (WALTER-in-session as deep-research executor on Will's "DEWEY Prompt B yes"; canonical DEWEY-own-session path stays for desk runs)
 **Engine:** `/deep-research` skill — 5 search angles → 21 sources fetched → 100 claims → 25 verified via 3-vote adversarial → 24 confirmed / 1 killed → 7 synthesized findings
 **Requested by:** WALTER (routing) for CORAL (pillar #9, FL state-fiscal/property-tax) + MARCO (migration)
-**Brief:** `AGENTS/WALTER/outbox/DEWEY_PROMPT_B_fl-property-tax-amendment.md` (now executed)
+**Brief:** `AGENTS/WALTER/outbox/processed/DEWEY_PROMPT_B_fl-property-tax-amendment.md` (now executed)
 **Grade (router lens):** measure identity / structure / legislative status / fiscal figures = **PRIMARY-sourced, high**; passage odds = **secondary poll + inference**; two-sided transmission = **synthesis, medium**. NOT a single VERIFIED-PRIMARY stamp — graded by layer.
 
 ---

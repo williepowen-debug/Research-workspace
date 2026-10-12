@@ -1,7 +1,7 @@
 # PROMPT-19 — FHA/VA "federally absorbed" KILL: 4-axis adversarial stress-test — SYNTHESIS
 
 **Run:** 2026-07-24 eve → 2026-07-25 00:10Z · **Commissioned:** Will (Telegram), direct follow-up on `SIG-W-20260724-001`
-**Prompt:** `AGENTS/DEWEY/inbox/WALTER/DEEP-RESEARCH-PROMPT-19-fha-va-kill-stress-test.md` · **Ledger:** `REQ-DEWEY-20260724-019`
+**Prompt:** `AGENTS/DEWEY/inbox/WALTER/processed/DEEP-RESEARCH-PROMPT-19-fha-va-kill-stress-test.md` · **Ledger:** `REQ-DEWEY-20260724-019`
 **Orchestrated by:** WALTER (4 parallel axis agents) · **Parent under test:** `AGENTS/DEWEY/output/2026-07-24_fha-va-loss-waterfall.md`
 
 > **Axis B and D wrote their own reports to disk** (`2026-07-24_axis-B_fha-partial-claim-deferral.md`, `2026-07-24_axisD_mip-pressure-and-va-residual.md`).

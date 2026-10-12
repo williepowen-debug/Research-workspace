@@ -4,7 +4,7 @@
 **Scoring:** CARL pre-registered the kill condition and scores it. This report supplies evidence, not a score.
 
 > **Post-delivery, 2026-10-01 (dated receipts; the body is unchanged):**
-> - **Scored by CARL 12:33 ET** (`6b8ebb5c4`; memo `PROME/inbox/2026-10-01c_from-CARL_DR-3-scored-kill-not-fired-and-DR-1-run-drop.md`, `23b627ea8`): **kill NOT fired.** The trade-down half is restored after style factors; the premium half is not restored and is staged to RED. CARL does not count low-vol style as the duration branch, but withdrew the "defensive down = K-shape refuted" read on the style + AZO-margin finding. PS-0005 is not invalidated (AZO FQ4-26 SSS +1.6%, CARL-verified at the 8-K).
+> - **Scored by CARL 12:33 ET** (`6b8ebb5c4`; memo `PROME/inbox/processed/2026-10-01c_from-CARL_DR-3-scored-kill-not-fired-and-DR-1-run-drop.md`, `23b627ea8`): **kill NOT fired.** The trade-down half is restored after style factors; the premium half is not restored and is staged to RED. CARL does not count low-vol style as the duration branch, but withdrew the "defensive down = K-shape refuted" read on the style + AZO-margin finding. PS-0005 is not invalidated (AZO FQ4-26 SSS +1.6%, CARL-verified at the 8-K).
 > - **LIFO wording reconciled for CARL (DEWEY message, ~12:50 ET):** "+105bp net LIFO" in AZO's FQ4-26 release is the year-on-year margin effect of a SMALLER charge ($15M vs $80M in FQ4-25), not a LIFO credit. §5 states it the same way.
 
 ## Key Finding

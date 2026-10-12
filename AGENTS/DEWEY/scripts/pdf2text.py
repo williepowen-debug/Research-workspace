@@ -74,7 +74,10 @@ def extract(src, pages=None):
         sys.exit("pdfminer.six not available — run with .venv/bin/python3 (pip install pdfminer.six)")
     path, tmp = _materialize(src)
     try:
-        txt = extract_text(path, page_numbers=_parse_pages(pages))
+        try:
+            txt = extract_text(path, page_numbers=_parse_pages(pages))
+        except Exception as e:
+            raise PdfError(f"PDF extraction failed for {src}: {type(e).__name__}: {e}") from e
     finally:
         if tmp:
             os.unlink(path)
@@ -91,14 +94,28 @@ def main():
 
     txt = extract(a.src, a.pages) or ""
     print(f"=== {a.src} ({len(txt):,} chars) ===\n")
+    if not txt.strip():
+        sys.stderr.write("NO EXTRACTABLE TEXT: render the PDF pages; "
+                         "images/charts have not been searched.\n")
     if a.grep:
         lines = [l for l in txt.split("\n")]
-        pat = re.compile(re.escape(a.grep) if not any(c in a.grep for c in ".*[](){}^$") else a.grep, re.I)
+        try:
+            pat = re.compile(re.escape(a.grep) if not any(c in a.grep for c in ".*[](){}^$") else a.grep, re.I)
+        except re.error:
+            # Literal statistics such as the documented "+18.8" are not valid
+            # regexes. Preserve the readable literal query instead of crashing.
+            pat = re.compile(re.escape(a.grep), re.I)
+        matches = 0
         for i, ln in enumerate(lines):
             if pat.search(ln):
+                matches += 1
                 lo, hi = max(0, i - a.context), min(len(lines), i + a.context + 1)
                 print("\n".join(x for x in lines[lo:hi] if x.strip()))
                 print("  ---")
+        if not matches:
+            sys.stderr.write(f"NO TEXT MATCH for {a.grep!r}; "
+                             "images/charts have not been searched.\n")
+            return 1
     else:
         print(txt[:a.max] if a.max else txt)
 

@@ -1,0 +1,265 @@
+{
+  "audit_date": "2026-10-12",
+  "saved_utc": "2026-10-12T18:57:32.334187+00:00",
+  "authorization": "Will requested another sweep through DEWEY files for stale/broken/inaccurate/incomplete items",
+  "scope": "Owned file/state/reference/source-archive/code review. No full new external remeasurement of62 historical reports; historical vintages preserved; peer files read only, except create-only self-authored correction packets. No new study or closeout requested.",
+  "runtime": "Codex/OpenAI; exact model UNKNOWN; verified exposed tools used",
+  "inventory_at_start": {
+    "file_count": 216,
+    "markdown_count": 177,
+    "python_count": 10
+  },
+  "initial_ast_help_checks": {
+    "syntax": {
+      "fetch_url.py": "PASS",
+      "pdf2text.py": "PASS",
+      "test_recap_pull.py": "PASS",
+      "gie_pull.py": "PASS",
+      "recap_pull.py": "PASS",
+      "trace_bond.py": "PASS",
+      "edgar_doc.py": "PASS",
+      "fred_pull.py": "PASS",
+      "ofr_stfm.py": "PASS",
+      "edgar_fetch.py": "PASS"
+    },
+    "help": {
+      "fetch_url.py": {
+        "rc": 0,
+        "stderr": ""
+      },
+      "pdf2text.py": {
+        "rc": 0,
+        "stderr": ""
+      },
+      "gie_pull.py": {
+        "rc": 0,
+        "stderr": ""
+      },
+      "recap_pull.py": {
+        "rc": 0,
+        "stderr": ""
+      },
+      "trace_bond.py": {
+        "rc": 0,
+        "stderr": ""
+      },
+      "edgar_doc.py": {
+        "rc": 0,
+        "stderr": ""
+      },
+      "fred_pull.py": {
+        "rc": 0,
+        "stderr": ""
+      },
+      "ofr_stfm.py": {
+        "rc": 0,
+        "stderr": ""
+      },
+      "edgar_fetch.py": {
+        "rc": 0,
+        "stderr": ""
+      }
+    }
+  },
+  "routing": {
+    "indexed_reports": 62,
+    "history_fallbacks": {
+      "output/2026-06-27_housing-distress-inflection.md": {
+        "commit": "c33b8735ca94a63746c1cf8409a12375e234ac4a",
+        "path": "AGENTS/WALTER/inbox/DEWEY/2026-06-27_housing-distress-inflection_handoff.md"
+      },
+      "output/2026-06-27_muni-fiscal-stress.md": {
+        "commit": "c33b8735ca94a63746c1cf8409a12375e234ac4a",
+        "path": "AGENTS/WALTER/inbox/DEWEY/2026-06-27_muni-fiscal-stress_handoff.md"
+      },
+      "output/2026-06-27_ex-ai-capex-gdp.md": {
+        "commit": "4ea235af065f85aeb8710271f5ae9f3d5b89c615",
+        "path": "AGENTS/WALTER/inbox/DEWEY/2026-06-27_ex-ai-capex-gdp_handoff.md"
+      },
+      "output/2026-06-27_ai-circular-financing.md": {
+        "commit": "e0c18a32a43f9cacba13da9b51c95c267c221198",
+        "path": "AGENTS/WALTER/inbox/DEWEY/2026-06-27_ai-circular-financing_handoff.md"
+      },
+      "output/2026-06-21_fl-bank-loss-transmission-timing.md": {
+        "commit": "12bae5725d7ebdc28291d8280ad007181e93af95",
+        "path": "AGENTS/WALTER/inbox/DEWEY/2026-06-21_fl-bank-loss-transmission-timing_handoff.md"
+      }
+    },
+    "unverified": []
+  },
+  "archive_targets_verified": [
+    "AGENTS/DEWEY/research/2026-10-12_cards/COF-Q2-2026-tables.json",
+    "AGENTS/DEWEY/research/2026-10-12_cards/SYF-Q2-2026-tables.json",
+    "AGENTS/DEWEY/research/2026-10-12_cards/BFH-Q2-2026-tables.json",
+    "AGENTS/DEWEY/research/2026-10-12_dr4/agsi-2022.json",
+    "AGENTS/DEWEY/research/2026-10-12_dr4/agsi-2023.json",
+    "AGENTS/DEWEY/research/2026-10-12_dr4/agsi-2024.json",
+    "AGENTS/DEWEY/research/2026-10-12_dr4/agsi-2025.json",
+    "AGENTS/DEWEY/research/2026-10-12_dr4/agsi-2026.json",
+    "AGENTS/DEWEY/research/2026-10-12_diesel/minerva-zen-9410909-history-20261012.html",
+    "AGENTS/DEWEY/research/2026-10-12_diesel/OFAC-GL135.pdf",
+    "AGENTS/DEWEY/research/2026-10-12_diesel/PLAW-117publ109.html",
+    "AGENTS/DEWEY/research/2026-10-12_diesel/diesel-1m.json",
+    "AGENTS/DEWEY/research/2026-10-12_diesel/diesel-market.json"
+  ],
+  "arithmetic": {
+    "weighted_bp": "97.41417609046849757673667205",
+    "twenty_percent_share_bp": "31.80512924071082390953150242",
+    "two_book_50bp_share": "0.4218580715059588299024918743",
+    "basis": "Rounded ruled inputs; illustrations, not measured causal shares or a class-wide grade"
+  },
+  "findings": [
+    {
+      "id": "F01",
+      "status": "FIXED",
+      "path": "output/2026-08-27_carl-dr1-fha-partial-claims-leg.md",
+      "finding": "WQ104 denominator correction not encoded at original aggregation table;97.4bp/7.81M supersedes100.7bp/8.32M."
+    },
+    {
+      "id": "F02",
+      "status": "FIXED",
+      "path": "output/2026-08-27_carl-dr1-fha-partial-claims-leg.md",
+      "finding": "20%-share sensitivity was falsely~50bp; recomputation31.8bp. Two-book50bp share threshold42.2%, scenario only."
+    },
+    {
+      "id": "F03",
+      "status": "FIXED",
+      "path": "output/2026-08-27_carl-dr1-fha-partial-claims-leg.md",
+      "finding": "Gross/possibly repeated action counts and different SDQ numerators were overstated as measured causal/class-wide wedge; head/section4/section5/INDEX qualified; no kill grade."
+    },
+    {
+      "id": "F04",
+      "status": "FIXED",
+      "path": "CONTEXT.md",
+      "finding": "Gas unreachable/physical-ceiling statement survived prior correction; current conditional rerun pointer and historical-vintage qualification restored."
+    },
+    {
+      "id": "F05",
+      "status": "FIXED",
+      "path": "CONTEXT.md",
+      "finding": "Exact FRED rolling cutoff/count treated as standing constant; qualified as July16 historical observation. LNG utilisation alone does not certify cargo-only cause."
+    },
+    {
+      "id": "F06",
+      "status": "FIXED",
+      "path": "CONTEXT.md",
+      "finding": "August2,2026 incorrectly labelledSaturday; actualSunday."
+    },
+    {
+      "id": "F07",
+      "status": "FIXED",
+      "path": "REVIVAL_PLAN.md",
+      "finding": "Revival phase3 shown pending after many delivered runs; historical plan/completed revival distinguished from active authority."
+    },
+    {
+      "id": "F08",
+      "status": "FIXED",
+      "path": "CLAUDE.md",
+      "finding": "Claude Code platform/tool assumptions inconsistent with WQ385; actual-runtime qualification and conditional child-task methods aligned to canonical guidance."
+    },
+    {
+      "id": "F09",
+      "status": "FIXED",
+      "path": "scripts/BACKLOG.md",
+      "finding": "Three table rows merged by literal backslash-n and unescaped inline pipe grammar; table cells restored."
+    },
+    {
+      "id": "F10",
+      "status": "FIXED",
+      "path": "scripts/BACKLOG.md",
+      "finding": "XBRL stripping and accession-index repair recorded unbuilt; status reconciled with implementation and author tests. Poppler tools available; missing renderer claim withdrawn."
+    },
+    {
+      "id": "F11",
+      "status": "FIXED",
+      "path": "scripts/edgar_doc.py",
+      "finding": "Bare multi-document read could certify first exhibit as filing; rejects ambiguous selection, enumerates exhibits, identifies document-only read; HTML index failure loud."
+    },
+    {
+      "id": "F12",
+      "status": "FIXED",
+      "path": "scripts/gie_pull.py",
+      "finding": "Refill divided by requested days without verifying chronology/continuity; rejects partial, duplicate, malformed/empty dates and nonfinite quantities; projection date and fixed-denominator assumptions explicit."
+    },
+    {
+      "id": "F13",
+      "status": "FIXED",
+      "path": "scripts/pdf2text.py",
+      "finding": "Grep miss exited0 without image-scope caveat; nowexit1, image warning, parse failures explicit; documented+18.8 literal no longer crashes."
+    },
+    {
+      "id": "F14",
+      "status": "FIXED",
+      "path": "scripts/fred_pull.py",
+      "finding": "Zero-overlap splice reported ALL MATCH; now explicitly unvalidated."
+    },
+    {
+      "id": "F15",
+      "status": "FIXED",
+      "path": "scripts/fetch_url.py",
+      "finding": "Generic redirect/403 described as unreleased-source proof; guidance now distinguishes URL access from content absence."
+    },
+    {
+      "id": "F16",
+      "status": "FIXED",
+      "path": "output/",
+      "finding": "Six migrated/placeholder internal pointers repaired to existing processed files; historical research inputs/vintages preserved."
+    },
+    {
+      "id": "F17",
+      "status": "OPEN-EXISTING-COMMISSION",
+      "path": "output/2026-10-12_russia-diesel-net-supply-delivery.md",
+      "finding": "Diesel remains PARTIAL dueOctober14; signed RU conditions/current cargo/increment/offline aggregate/current legal implementation and October12 official CME/ICE comparison unresolved at last research checkpoint. Not freshly queried by this maintenance audit."
+    },
+    {
+      "id": "F18",
+      "status": "PENDING-PUBLICATION",
+      "path": "output/2026-10-12_carl-dr1-cards-q2-fdm.md",
+      "finding": "Q3 issuer filings absent at savedOctober12 submission pull; authorized refresh dueNovember13, behind diesel. Q2 completed."
+    },
+    {
+      "id": "F19",
+      "status": "RETAINED-BACKLOG",
+      "path": "scripts/BACKLOG.md",
+      "finding": "Prior unbuilt HUD/MOF/FFIEC/BEA helpers remain named proposals; no new helper, monitoring program, study or paid entitlement launched."
+    },
+    {
+      "id": "F20",
+      "status": "CHECKED-FALSE-POSITIVE",
+      "path": "output/2026-07-16_svb-march-2023-sequence-verification.md",
+      "finding": "Weekday checker inferred2026 for quoted FridayMarch10; surrounding timeline isMarch2023, and actual2023-03-10 wasFriday. Quote preserved."
+    },
+    {
+      "id": "F21",
+      "status": "ROUTED-OWNER",
+      "path": "BOARD/SIG-W-20260828-009-any-yoy-fha-ginnie-delinquency-comparison-spanning-october-2025-crosses-a-PROCESS-BREAK-not-a-credit-signal.md",
+      "finding": "August28 original BOARD card still prints100.7bp/unruled/class-wide breaches. Confirmed same FHA series/bp by consumer check and direct read. Historical source record belongs to WALTER; a current-reuse correction pointer is routed, never edited by DEWEY."
+    }
+  ],
+  "validation": {
+    "research_reader_regressions": {
+      "command": ".venv/bin/python3 AGENTS/DEWEY/scripts/test_research_readers.py",
+      "return_code": 0,
+      "receipt": "test_context_strip_preserves_narrative (__main__.ReaderRegression.test_context_strip_preserves_narrative) ... ok\ntest_documented_pdf_literal_statistic_does_not_crash (__main__.ReaderRegression.test_documented_pdf_literal_statistic_does_not_crash) ... ok\ntest_empty_or_malformed_gas_records_are_source_failures (__main__.ReaderRegression.test_empty_or_malformed_gas_records_are_source_failures) ... ok\ntest_frozen_gie_series_reproduces_report_from_unsorted_rows (__main__.ReaderRegression.test_frozen_gie_series_reproduces_report_from_unsorted_rows) ... ok\ntest_json_omission_is_recovered_from_html_including_inline_viewer (__main__.ReaderRegression.test_json_omission_is_recovered_from_html_including_inline_viewer) ... ok\ntest_missing_or_duplicate_gas_dates_do_not_certify_pace (__main__.ReaderRegression.test_missing_or_duplicate_gas_dates_do_not_certify_pace) ... ok\ntest_missing_stock_cannot_be_used_in_projection (__main__.ReaderRegression.test_missing_stock_cannot_be_used_in_projection) ... ok\ntest_multiexhibit_cannot_certify_absence_from_first_document (__main__.ReaderRegression.test_multiexhibit_cannot_certify_absence_from_first_document) ... ok\ntest_pdf_text_miss_warns_that_images_were_not_searched (__main__.ReaderRegression.test_pdf_text_miss_warns_that_images_were_not_searched) ... ok\ntest_scoped_miss_and_positive_secondary_exhibit_are_distinct (__main__.ReaderRegression.test_scoped_miss_and_positive_secondary_exhibit_are_distinct) ... ok\ntest_single_document_ignores_generated_wrappers (__main__.ReaderRegression.test_single_document_ignores_generated_wrappers) ... ok\ntest_unread_html_index_is_not_complete_json_listing (__main__.ReaderRegression.test_unread_html_index_is_not_complete_json_listing) ... ok\ntest_zero_overlap_fred_splice_does_not_claim_validation (__main__.ReaderRegression.test_zero_overlap_fred_splice_does_not_claim_validation) ... ok\ntest_zero_window_rejected_before_source_call (__main__.ReaderRegression.test_zero_window_rejected_before_source_call) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 0.009s\n\nOK\n"
+    },
+    "recap_acceptance": "12 checks PASS; localhost fake server only; sandbox socket restriction required execution escalation, not external source access",
+    "index": "62 unique reports, eight fields, all paths exist",
+    "json": "all saved JSON parses",
+    "backlog_table": "all table rows have four columns after escaped pipes",
+    "consumer_check": "Self100.7->97.4 clean. Unit/series-qualified external check found one matching historical BOARD card; directly read and routed to WALTER. Remaining43 candidates are other series/units or ambiguous; no unrelated edits/packets.",
+    "weekday": "August2 typo fixed; March2023 quotation retained as correct",
+    "corrections_register": {
+      "return_code": 0,
+      "receipt": "  INFO 1 dead-at-cap with no receipt from this desk: COR-20260925-13 \u2014 0 NAMED (still BLOCKING until receipted, WQ-254 D4(a)) \u00b7 1 ALL-row (broadcast expired: no warn, no block)\nCORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for DEWEY (register 68 row(s), 0 ALL-warn, 1 ALL-row(s) past cap unreceipted = broadcast expired, not an obligation; receipts on file: 4) \u2014 PASS covers the register at /home/willi/Research-workspace/AGENTS/WALTER/registry/CORRECTIONS.tsv and this desk's receipts file, nothing else (it does not prove a receipt's action was correct or that the correction was applied)\n"
+    },
+    "diff": "PASS",
+    "python_syntax": "11 scripts parse; nine executable help checks passed at initial audit"
+  },
+  "pending_queue_order": [
+    "Storage rerun delivered; HANS ownsOct15 grade",
+    "Existing diesel source/market obligations dueOct14",
+    "Q3 cards dueNov13 after diesel"
+  ],
+  "delivery": "Create-only correction pointers to prior FHA consumers and WALTER; maintenance notice to PROME and gas-code ownerBRENT. Consumption not inferred.",
+  "completed_checks_utc": "2026-10-12T18:58:07.796938+00:00"
+}

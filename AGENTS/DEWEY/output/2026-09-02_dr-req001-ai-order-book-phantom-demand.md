@@ -591,4 +591,4 @@ The commission rests on **"two independent arrivals of the same mechanism, from 
 
 ### Fleet-internal (state verification, not evidence)
 - `AGENTS/ZHAO/STATUS.md` lines 127, 221 — CXMT ask n=3, UNCHECKED, no date promised (verified 2026-09-02, state AT DELIVERY)
-- **CXMT STAR Market IPO prospectus, SSE `002170_20260517_MGLN.pdf` (2026-05-17)** — reached by ZHAO 2026-09-02, 411,324 chars extracted; the source of §3.4's VERIFIED ABSENCE. Relayed via `AGENTS/DEWEY/inbox/processed/2026-09-02_from-ZHAO_your-named-fallback-is-reached...md` (commit `66ac967a4`). **[PRIMARY, not independently re-pulled by DEWEY — ZHAO's extraction is the reader of record.]**
+- **CXMT STAR Market IPO prospectus, SSE `002170_20260517_MGLN.pdf` (2026-05-17)** — reached by ZHAO 2026-09-02, 411,324 chars extracted; the source of §3.4's VERIFIED ABSENCE. Relayed via `AGENTS/DEWEY/inbox/processed/2026-09-02_from-ZHAO_your-named-fallback-is-reached-the-CXMT-prospectus-closes-the-leg-for-both-of-us.md` (commit `66ac967a4`). **[PRIMARY, not independently re-pulled by DEWEY — ZHAO's extraction is the reader of record.]**

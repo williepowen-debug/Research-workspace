@@ -3,13 +3,16 @@
 **Date:** 2026-08-27 | **Mode:** Thesis | **Confidence:** High (the flow decomposition, the mechanism, the foreclosure counter-test, and the FY2024 partial-claim counts — all HUD primary, re-verified, and reproducible) / **Medium** (the SDQ-relevant share of partial claims, which is bounded not measured) / **NOT-AVAILABLE** (FY2025–26 partial-claim counts — HUD withdrew the disclosure)
 **Commission:** PROME re-commission of the CARL-DR-1 FHA/VA leg, Will-approved in-session 2026-08-19 · **Consumers:** CARL (action) · WALTER (ledger) · PROME (info)
 
+> **Correction — 2026-10-12 desk sweep:** WQ-104 ruled book-size weighting onSeptember1, with16.95M Fannie /7.81M FHA; PROME's same-day correction makes the two-book illustration **97.4bp weighted /22.5bp best-leg**, not100.7bp on8.32M. Section5 and the dependent headline now reflect that ruling. The former20%-share/~50bp arithmetic was also wrong:20% gives31.8bp in this illustration. Gross workout actions do not measure a causal SDQ wedge; the class-wide test remains ungraded pending compatible private-book/counterfactual evidence, including the Q2 card report's explicit NOT COMPUTABLE finding. No owner score is changed. Sources: DEWEY `inbox/processed/2026-09-01_from-PROME_cc-WQ-104-RULED-book-size-weighted-adopted-leg-3-measures-into-an-existing-rule.md`, `inbox/processed/2026-09-01b_from-PROME_cc-WQ-104-CORRECTION-book-weighted-wedge-97.4bp-under-the-ruled-7.81M-weight-100.7-was-the-8.32M-basis.md`, and `output/2026-10-12_carl-dr1-cards-q2-fdm.md`. All underlying HUD observations retain their original vintages.
+
+
 > ⚠️ **Filename note:** the commission specified `output/2026-08-19_carl-dr1-fha-partial-claims-leg.md`. Delivered 8/27, so the file carries the delivery date per the `INDEX.tsv` convention. Same slug otherwise.
 
 ---
 
 ## Key Finding
 
-**The FHA recognition artifact is real, it is roughly an order of magnitude larger than the Fannie leg — and it is currently running BACKWARDS.**
+**FHA's workout process changed, and reported delinquency rose as recorded exits slowed.** The disclosed activity scale is large; its causal SDQ/class-wide wedge is not directly measured.
 
 FHA's reported serious-delinquency rate rose **+226bps YoY, from 4.27% to 6.53%** (May 2025 → May 2026). **79% of that deterioration is a slower drain, not more borrowers falling behind.** Over the same fiscal half-year, new 90+ delinquencies rose only **+8.3%** while **outflow fell 33.1%** — from 349,308 exits to 233,613. The outflow-to-inflow ratio, stable at **0.95** across all four quarters of FY2025 (range 0.77–1.08), collapsed to **0.51** in FY26Q1 and **0.63** in FY26Q2.
 
@@ -17,7 +20,7 @@ FHA's reported serious-delinquency rate rose **+226bps YoY, from 4.27% to 6.53%*
 
 **So the deferral machine did not get better at hiding delinquency — it got throttled, and the reported number jumped because the hiding stopped.** The cumulative outflow shortfall versus the FY2025 baseline is **158,587 loans = 191bps** of the 8.32M active portfolio, sitting in the reported SDQ count that the prior regime's drain rate would already have removed.
 
-**For CARL's kill condition this is decisive in the unwelcome direction, and it is MEASURED, not inferred.** HUD publishes partial-claim completion counts by type for FY2021–FY2024. In **FY2024 alone, 406,623 partial-claim-involving home-retention actions completed** (323,920 stand-alone partial claims + 82,703 Recovery Modifications that include one) on a 7.81M-loan book. On the *same construction* as Fannie — workout removals ÷ book, per half-year — that is **260bps, versus Fannie's 22.5bps. The FHA leg is 11.6× the Fannie leg.** For FHA to stay under CARL's ~50bps threshold, **fewer than 19.2% of partial claims would have to be curing loans that were seriously delinquent.** **Under three of the four plausible aggregation rules the class-wide condition breaches; only "best leg" preserves the kill — and "best leg" selects Fannie precisely because Fannie publishes the flow decomposition that made it measurable.** The selection effect I flagged in DR-1 is now quantified.
+**HUD's observed workout counts establish scale, not a measured class-wide causal wedge.** InFY2024,406,623 partial-claim-involving actions completed (323,920 stand-alone plus82,703 Recovery Modifications) on7.81M loans. The half-year-equivalent action rate is260bps, versus Fannie's22.5bp workout-removal construction. FHA's count covers any delinquency stage and may include repeat actions; Fannie's numerator is SDQ workout removals. The260/22.5 ratio is therefore a comparison of disclosed activity scales, not proof of an11.6× causal artifact. With ruled two-book weights, the illustrative weighted figure is97.4bp beside22.5bp best-leg. CARL's class-wide50bp test remains ungraded; compatible private-book/counterfactual evidence is still required.
 
 ⚠️ **And the disclosure that makes this measurable has been withdrawn.** The count-by-type exhibit exists in the **FY2024** Annual Report to Congress and **was dropped from the FY2025 edition**, which reports only home-retention *rates* and redefault rates — no raw counts. So the FY2024 figure above is, as of now, **the most recent measurable vintage of the largest recognition-artifact channel in US consumer credit**, and the series went dark in the year the mechanism changed.
 
@@ -76,9 +79,9 @@ An obvious alternative: the drain slowed because FHA **stopped foreclosing** (a 
 
 **Foreclosure accelerated.** And it is far too small to matter to the drain either way: claims are **3.5% of total FY26 H1 outflow**, and the extra claims YoY explain **1.2%** of the 117,977-loan outflow shortfall. The collapse is in the **cure** channel, not the terminal channel.
 
-## 4. The Fannie-comparable wedge — MEASURED
+## 4. Disclosed workout-action scale — SDQ comparability remains limited
 
-Fannie's 22.5bps is arithmetically **workout removals ÷ book**: 38,150 ÷ ~16.95M = 22.5bps (this reconciles exactly, which confirms I have the construction right). The FHA-comparable quantity is **partial-claim removals ÷ book, per half-year** — and HUD publishes the numerator.
+Fannie's 22.5bps is arithmetically **workout removals ÷ book**: 38,150 ÷ ~16.95M = 22.5bps (this reconciles exactly, which confirms I have the construction right). HUD publishes **partial-claim-involving actions ÷ book**, which can be annualised to a half-year equivalent. It does not identify unique SDQ removals or an untreated classification counterfactual, so this is not an equivalent measured causal wedge.
 
 **Exhibit II-3, "Home Retention Options by Type and Count FY 2021 through FY 2024"** [PRIMARY: FHA Annual Report to Congress on the MMI Fund, FY2024, p.34 — **I re-pulled and verified this table directly**, it is not taken on report]:
 
@@ -98,31 +101,31 @@ Fannie's 22.5bps is arithmetically **workout removals ÷ book**: 38,150 ÷ ~16.9
 | **Half-year equivalent (the Fannie basis)** | 203,312 loans = **260 bps** |
 | Stand-alone partial claims only, half-year | 207 bps |
 | **Fannie SF, same construction** | **22.5 bps** |
-| **Ratio** | **FHA is 11.6× Fannie** |
+| **Action-scale ratio** | **11.6×; numerators differ in SDQ scope** |
 | Share of partial claims that must be NON-seriously-delinquent to keep FHA under 50bps | **80.8%** |
 
-**The one residual caveat, stated precisely:** Fannie's 38,150 were workout removals from the *seriously delinquent* flow specifically. FHA's 406,623 counts partial claims at **any** delinquency stage, so the SDQ-specific subset is **≤** the raw count. The honest form of the finding is therefore: *the FHA leg breaches 50bps unless fewer than 19.2% of partial claims cure a seriously-delinquent loan.* Against an FHA 90+ inflow running ~380–410K per half-year and partial claims at ~203K per half-year, a sub-20% SDQ-relevant share is not credible — but it is **not directly measured**, and I am not claiming it is.
+**The SDQ-subset caveat, stated precisely:** Fannie's 38,150 were workout removals from the *seriously delinquent* flow specifically. FHA's 406,623 counts partial claims at **any** delinquency stage, so the SDQ-specific subset is **≤** the raw count. The honest form of the finding is therefore: *the FHA leg breaches 50bps unless fewer than 19.2% of partial claims cure a seriously-delinquent loan.* The SDQ-relevant share is not measured. Those inflow/action totals do not establish its lower bound or the untreated classification counterfactual.
 
 ⚠️ **Two integrity notes on this exhibit, both of which I would want flagged if I were the reader:**
-1. **HUD's own narrative contradicts its own table on the same page.** The text says *"roughly 810,000 Stand-alone Partial Claims since the beginning of the pandemic in March of 2020"* while Exhibit II-3 totals **1,127,672** stand-alone partial claims for FY2021–24 alone — a *shorter* window. The two cannot both be counting the same thing; the most likely reconciliation is **actions vs unique borrowers** (repeat partial claims to the same borrower were permitted under the COVID waterfall). **I use the table, because the wedge needs ACTIONS.** Anyone citing "810,000" for a flow calculation is using the wrong quantity.
+1. **HUD's own narrative contradicts its own table on the same page.** The text says *"roughly 810,000 Stand-alone Partial Claims since the beginning of the pandemic in March of 2020"* while Exhibit II-3 totals **1,127,672** stand-alone partial claims for FY2021–24 alone — a *shorter* window. The two cannot both be counting the same thing; the most likely reconciliation is **actions vs unique borrowers** (repeat partial claims to the same borrower were permitted under the COVID waterfall). **I use the table for the disclosed action scale; repeated actions cannot silently become unique-borrower SDQ removals.** Anyone citing "810,000" for a flow calculation is using the wrong quantity.
 2. **The FY2025 edition of the same report DROPPED this table**, publishing only home-retention *rates* by origination cohort and redefault rates. **The disclosure that makes the largest consumer-credit recognition artifact measurable was withdrawn in the year the mechanism changed.** FY2026 counts do not exist yet (that edition publishes ~Nov 2026). `[[finding_retired_threshold_has_no_publisher]]`
 
 ## 5. ⚠️ The aggregation question — DR-1's spec defect, made concrete
 
-CARL's kill is **class-wide**; DR-1 never says how legs aggregate. **The same two measurements produce opposite verdicts under different rules:**
+CARL's test is class-wide. **WQ-104 adopted book-size weighting before leg3**, using the book at each numerator's own measurement vintage. PROME'sSeptember1b arithmetic correction sets the historical two-book illustration to97.4bp;100.7bp used the superseded8.32M FHA weight. The8.32M active portfolio remains valid for section1's differently dated outflow-shortfall arithmetic.
 
-Using the measured legs — Fannie **22.5bps** (16.95M loans) and FHA **260bps** (8.32M loans):
+Using Fannie22.5bp/16.95M and the FHA260bp action-scale illustration/7.81M:
 
-| Aggregation rule | Class-wide wedge | Verdict vs 50bps |
+| Aggregation rule | Two-book illustration | Disposition |
 |---|---:|---|
-| (a) book-size weighted | **100.7 bps** | **BREACHES — no kill** |
-| (b) unweighted mean of legs | **141.2 bps** | **BREACHES — no kill** |
-| (c) worst leg | **260.0 bps** | **BREACHES — no kill** |
-| (d) best / most-transparent leg | 22.5 bps | supports the kill |
+| (a) book-size weighted — adopted | **97.4bps** | **Shadow illustration; class-wide kill NOT GRADED** |
+| (b) unweighted mean — historical alternative |141.25bps|Not the adopted rule|
+| (c) worst leg — historical alternative |260.0bps|Not the adopted rule|
+| (d) best leg — mandatory shadow comparison |**22.5bps**|Not a class-wide pass|
 
-*(Even on the deliberately conservative reading where only ~20% of FHA partial claims cure a seriously-delinquent loan — the threshold share — rule (a) still lands at ~50bps, i.e. exactly at the kill line rather than comfortably inside it.)*
+Arithmetic: `(16.95×22.5 +7.81×260)/(16.95+7.81) =97.4142bp`. If only20% of FHA actions were SDQ-relevant and all other assumptions were held fixed, the same illustration would be**31.8bp**, not the old~50bp claim. The corresponding two-book50bp break-even share is**42.2%**. These are sensitivity calculations, not measured shares, a causal counterfactual or a private-book-inclusive grade.
 
-**Only (d) preserves the kill — and (d) selects Fannie precisely because Fannie is the book that publishes a flow decomposition.** That is the selection effect I flagged in DR-1 ("the wedge is measurable at Fannie BECAUSE it publishes a flow decomposition, so a small wedge in the most transparent book is weak evidence about the least transparent ones"), now with a number attached. **I am not picking a rule. CARL and Will should rule on it, and the ruling should be made before the next leg is measured rather than after** — an aggregation rule chosen once the numbers are visible is chosen to fit them. `[[finding_unnamed_instrument_makes_a_threshold_a_family]]`
+The ruling requires the weighted and best-leg figures together and forbids a class-wide50bp grade before a private-book leg is available. The subsequent Q2 card disclosures exist, but current modified-cohort balances do not supply a compatible causal wedge; `output/2026-10-12_carl-dr1-cards-q2-fdm.md` retains NOT COMPUTABLE. CARL owns the combined disposition.
 
 ## 6. The removal-by-sale channel — ANSWERED, and the answer is a clean negative
 
@@ -207,7 +210,7 @@ In DR-1 I flagged a mechanism CARL's scope list omitted: **nonperforming/reperfo
 1. **I initially ran the decomposition on the 90-day-only bucket**, which leaks: a loan entering foreclosure exits the 90-day bucket without leaving delinquency. Re-ran on the full SDQ perimeter so those transitions net out. The answer barely moved (193 → 191bps, same 78/22 split) — but I would have been defending a number with a known leak in it, and the robustness check is now part of the finding rather than a hope.
 2. **I nearly reported the outflow collapse without testing the foreclosure-moratorium alternative**, which produces an identical stock build with an opposite meaning. Table 4 refutes it decisively (starts +33.9%). Had I skipped it, the report's central causal claim would have rested on the policy timing alone.
 
-**Confidence:** High on §§1–3. Medium on §4 (bounded, not measured — and labelled that way throughout). The aggregation table in §5 is arithmetic on stated inputs, not a claim.
+**Confidence:** High on §§1–3. High on the disclosed §4 counts; SDQ-specific/class-wide causal wedge NOT COMPUTABLE from these observations. The aggregation table in §5 is arithmetic on stated inputs, not a claim.
 
 **If I had more time/tools:** the HUD OIG report **2026-KC-0005** (*HUD Did Not Correctly Service all Due and Payable Partial Claims*, 2026-06-25) — the one document likely to carry a partial-claim-specific stock figure; hudoig.gov URLs guessed at returned 410/404 and it needs the real permalink. Second: any SFDMS/NSC interim extract carrying FY2026 loss-mit completions, which would confirm §§1–3's drain collapse **by name** rather than by elimination.
 

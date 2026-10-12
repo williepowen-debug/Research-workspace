@@ -1,7 +1,7 @@
 # PHANTOM CONSUMER DEBT — magnitude, bottom-up, reconciled (CARL prompt C4)
 
 **Date:** 2026-07-28 | **Mode:** Thesis | **Confidence:** Medium-High on structure and denominators (primary-verified) / **Low-Medium on the dollar total** (its largest component rests on non-co-vintaged inputs)
-**Prompt:** `AGENTS/DEWEY/inbox/2026-07-10_from-CARL_DEEP-RESEARCH-PROMPT-C4-phantom-debt-magnitude.md` (CARL slate T1-3, PHAN-proposed, Will-gated; queued 7/10, run 7/28)
+**Prompt:** `AGENTS/DEWEY/inbox/processed/2026-07-10_from-CARL_DEEP-RESEARCH-PROMPT-C4-phantom-debt-magnitude.md` (CARL slate T1-3, PHAN-proposed, Will-gated; queued 7/10, run 7/28)
 **Consumers:** CARL (thesis premise + K-SHAPE methodology) · PHAN dossier §2 · LIQUID (off-book credit)
 
 ---

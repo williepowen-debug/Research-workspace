@@ -343,7 +343,7 @@ Sources are court filings retrieved from **CourtListener RECAP** (`storage.court
 
 **O1: were Nano's four deeds of trust on WAL's collateral still Nano's at 9/25/2026?** (WAL `research/2026-09-27_nano-banc-receivership-stupin-recovery.md` §2, §6)
 
-> ⚠️ **CORRECTED 2026-09-27 (same day, after delivery).** As first delivered, this section said Ontario and Chino were "STILL NANO", that WAL's state (a) was "contradicted", and that "State (b) holds … they pass to the receiver". **That extended dated observations into ownership at failure, which the evidence does not prove.** The rows below now state **only what each filing shows, on its date**. **O1 remains NOT PROVEN for all four DOTs.** Reviewer-flagged, with a CATO caution carried by PROME. The recipient correction is at `AGENTS/WAL/inbox/2026-09-27b_from-DEWEY_CORRECTION-O1-lien-status-is-dated-observation-not-ownership-at-failure.md`.
+> ⚠️ **CORRECTED 2026-09-27 (same day, after delivery).** As first delivered, this section said Ontario and Chino were "STILL NANO", that WAL's state (a) was "contradicted", and that "State (b) holds … they pass to the receiver". **That extended dated observations into ownership at failure, which the evidence does not prove.** The rows below now state **only what each filing shows, on its date**. **O1 remains NOT PROVEN for all four DOTs.** Reviewer-flagged, with a CATO caution carried by PROME. The recipient correction is at `AGENTS/WAL/inbox/processed/2026-09-27b_from-DEWEY_CORRECTION-O1-lien-status-is-dated-observation-not-ownership-at-failure.md`.
 
 | # | DOT (face) · property · county | State | Evidence (tier) | As of |
 |---|---|---|---|---|

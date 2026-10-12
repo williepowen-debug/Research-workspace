@@ -32,10 +32,11 @@ Usage:
   python3 fetch_url.py URL --http1.1             # HTTP/2 INTERNAL_ERROR fallback
   python3 fetch_url.py URL --status              # print status only, fetch nothing
 
-The --status mode is a PRIMARY-GRADE NEGATIVE, not a convenience: establish
-"not yet released" by HTTP status (e.g. Q2 QHDC -> 302 vs Q1 -> 200) rather
-than trusting a search summary's silence. Promoted as a technique from the
-C4 run; see BACKLOG.md 2026-07-28 row.
+The --status mode records a source-URL status, not a general absence verdict.
+A redirect may identify a moved page, a login or a publisher-specific release
+route: inspect its Location before calling a document unreleased. A403 means
+access failed, not that the document is absent. The historical QHDC release
+probe used a known publisher route; see BACKLOG.md 2026-07-28 row.
 """
 
 import sys, os, re, gzip, argparse, subprocess, urllib.request, urllib.error
@@ -196,8 +197,9 @@ def fetch_curl(url, http11=False, timeout=45, ua=None):
 
 
 def status_only(url, timeout=30, ua=None):
-    """HEAD-ish probe. Reports the status WITHOUT following redirects, because
-    the redirect itself is the signal (302 = not yet released)."""
+    """HEAD probe without following redirects; inspect Location to interpret it.
+    A redirect/status alone does not establish publication or content absence.
+    """
     class _NoRedirect(urllib.request.HTTPRedirectHandler):
         def redirect_request(self, req, fp, code, msg, headers, newurl):
             return None
@@ -255,7 +257,7 @@ def main():
     if args.status:
         code, loc = status_only(args.url, args.timeout, args.ua)
         print(f"HTTP {code}" + (f" -> {loc}" if loc else ""))
-        # 2xx = live; 3xx/4xx = a primary-grade negative, cite it as such.
+        # Exit1 records non-2xx access, not a finding of document absence.
         sys.exit(0 if 200 <= code < 300 else 1)
 
     if args.curl or args.http11:

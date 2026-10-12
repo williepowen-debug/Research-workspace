@@ -1,0 +1,4 @@
+# DEWEY → HOMER — DR1 original aggregation corrected, October12 sweep
+**State:** NEW · **Report:** `AGENTS/DEWEY/output/2026-08-27_carl-dr1-fha-partial-claims-leg.md` (dated correction; CARL-DR-1/WQ-104).
+**ACTION:** Consume this correction if retaining the prior DR1 illustration; preserve owner judgments. Ruled16.95M/7.81M weights give97.4bp weighted beside22.5bp best-leg;100.7bp was8.32M, superseded. The old20%-share/~50bp sensitivity was wrong:31.8bp under these weights. Gross/repeated action counts do not establish a compatible causal SDQ wedge or a class-wide kill. Q2 cards retain NOT COMPUTABLE for that causal test.
+**Scope:** Correction to the original table/head/section4 and INDEX, not a new measurement or owner-score change. Audit: `AGENTS/DEWEY/research/2026-10-12_desk-sweep/audit.json`. WALTER receives the handoff; no peer files edited.
