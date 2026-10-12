@@ -1,0 +1,26 @@
+{
+  "checked_at_utc": "2026-10-12T17:22:20.355609+00:00",
+  "methodology_url": "https://www.spglobal.com/spdji/en/documents/methodologies/methodology-sp-select-industry-indices.pdf",
+  "retrieved_via": "web tool; current linked PDF, dated May 2025",
+  "decisive_pages": [
+    7,
+    8,
+    9,
+    13
+  ],
+  "rules_summary": [
+    "Initially equal weight constituents at each quarterly rebalance.",
+    "Maximum weight is determined using a single-stock cap, trading liquidity and float-adjusted market capitalization relative to theoretical portfolio value.",
+    "Reduce constrained constituents and iteratively redistribute excess weight to uncapped constituents.",
+    "Rebalances occur in March, June, September and December; prices can cause weights to drift between rebalances."
+  ],
+  "clarification": "Equal weighting refers to portfolio value, not share count. KRE is modified equal weighted, so holdings do not all have identical weights. Weight limits do not represent a credit-quality assessment.",
+  "holdings_example_as_of": "2026-10-09",
+  "examples_weight_pct": {
+    "EWBC": 1.150937,
+    "WAL": 1.096571,
+    "OZK": 1.072718,
+    "EGBN": 0.276852
+  },
+  "example_source": "holdings-daily-us-en-kre.xlsx, already verified at issuer; EGBN cap attribution is not established."
+}
