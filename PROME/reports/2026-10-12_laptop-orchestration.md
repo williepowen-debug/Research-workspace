@@ -33,3 +33,11 @@ Capability recheck succeeded through documented `codex app-server --stdio`: meta
 ## Return coordination address
 
 PROME current thread: `01a131cf-1c7d-7900-9dcf-d98af587e290`, confirmed from this runtime environment. Owners may use supported `codex queue --thread <PROME-ID> --message <committed-result-pointer>` for completion, material blocker or correction notices. Save/commit content first. This is the current pair's coordination address, not a fleet discovery certificate or authority to bypass a permission rejection. Initial packets omitted this return address; the addendum supplies it without restarting the assignments.
+
+## SHADE result consumed
+
+`28e568687:PROME/inbox/2026-10-12_from-SHADE_prome-directed-followup.md` read in full and matched to committed bytes. Bounded checkpoint DONE; existing handoff at46230aa04 contains the required owner inputs, six exact closes, RAW/ADJ distinction, missing-input and unsupported-direction withholding, eligible endpoint and conditional dig order. No new source pull or grade. L673 remains PARTIAL for October13 after close. Existing LIQUID input request160c0c08d is the unresolved recipient dependency; WALTER received its exact pointer in the return-route coordination addendum. No new LIQUID launch authorized or absence inferred. BROCK qualification packet55a734460 is informational until the conditional dig cross-check.
+
+Brief defect: the initial assignment omitted PROME's return thread address. SHADE identified the omission. The committed return-address addendum and four accepted queue sends supply it; actual return notification remains separate from queue acceptance.
+
+Return-route notices to all four existing IDs were accepted by `codex queue`; exact receipts are in `2026-10-12_laptop-orchestration-return-routing.json`. These are coordination updates to the same assignments, not new research touches or lifecycle requests. MIDAS, YURI and WALTER results remain in progress at this checkpoint; their source work is left with the owners.
