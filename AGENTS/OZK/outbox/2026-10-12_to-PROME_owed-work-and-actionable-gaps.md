@@ -9,3 +9,5 @@ Highest-value public gap: pending workout closing/payoff evidence. Hunter's Sept
 Next possible narrow checks: BPRE replay/new marks and verify incoming Alewife financing relay with BROCK's evidence first; Aimco docket; resolve unsupported Affinius maturity calendar item; standing short interest. Broad reserve rebuild/general refresh remain deferred/uncommissioned; numerical definition changes still Will-gated.
 
 WQ399 required own-charter syntax fixed; new Horton correction receipt uses existing owner artifact. Boston mortgage body already read; stale R9 reconciled. Boot.py WALTER-lane omission and lower-priority archive/delivery reconciliation remain queued. This is an inventory/available-evidence result, no closeout or trade instruction.
+
+**Persistence:** owner evidence/state commit **b88ca67d5**; recipient packets **fba32b9a2**. `codex queue` accepted notification **01a13123-f6b8-7271-904a-26b8aec7fea9** to PROME thread **01a1307b-f614-76b3-8caf-49b226027079**, exit0. Acceptance is transport, not recipient consumption. Corrections check rc0; no outstanding named row. Local commits only; shared owners' work untouched, publication deferred to guarded push.
