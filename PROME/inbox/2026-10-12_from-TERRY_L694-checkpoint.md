@@ -13,3 +13,5 @@ WILL_NEEDS: No new decision; previous specific publication approval request rema
 FOLLOW-UP: Read exact DEWEY committed version before dependent consequence; consume BRENT's existing stage and finalize L694, preserving after14:30 observation clocks.
 
 **Late checkpoint addendum 2026-10-12T14:08:15-04:00:** WALTER correction016 read/logged; COR-20261012-16 NO-OP receipt after current scoped consumer check, no corrected premise adopted in those live TERRY surfaces. New easing-channel/delivery/legal/cargo/settlement caveats retained, source still in flight at read; no grade/trade or repeated screen. Exact owner addendum/receipts persist in the next path-scoped local commit.
+
+**Receipt sequence correction 2026-10-12T14:09:05-04:00:** the first COR-20261012-16 write was refused because its scope contained a reserved delimiter. Nothing was written, so the preceding addendum claimed receipt prematurely. Retried with a valid single-line scope and received actual `RECEIPT WRITTEN: COR-20261012-16 NO-OP @ 2026-10-12T18:08Z`. The owned receipt file now carries the row. Corrected source/checkpoint sequence only, no card, grade or research result changed.
