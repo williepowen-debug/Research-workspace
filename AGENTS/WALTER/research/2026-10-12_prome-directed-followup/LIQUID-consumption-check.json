@@ -1,0 +1,50 @@
+{
+  "observed_at": "2026-10-12T21:49:09Z",
+  "thread_id": "01a131e6-5754-7593-a546-210c87683eeb",
+  "request": {
+    "commit": "160c0c08d34347815a8e43b287697d4368891e84",
+    "path": "AGENTS/LIQUID/inbox/2026-10-12_from-SHADE_L673-owner-count-and-anchor.md",
+    "sha256": "d86c6637719b6fe0a4f5121b47868e68d580e69fdbe972acbdc73c87bcc02073",
+    "commit_bytes_equal": true,
+    "processed_copy_exists": false,
+    "on_origin_at_current_local_ref": true
+  },
+  "actual_consumption": "UNKNOWN",
+  "evidence": [
+    {
+      "path": "AGENTS/LIQUID/board_log.tsv",
+      "bytes": 223666,
+      "sha256": "b45cbcff23d0b94eabe72cbd2736d4dcb537e833db94a0fb88cf9d648c950873",
+      "match_lines": [],
+      "search": "Full file exact-string membership search; no truncated-read absence claim"
+    },
+    {
+      "path": "AGENTS/LIQUID/STATUS.md",
+      "bytes": 28800,
+      "sha256": "f0620ed3b6763dad3d81ea6613051f99b013a51b2f8d8034ace382486caf6aab",
+      "match_lines": [],
+      "search": "Full file exact-string membership search; no truncated-read absence claim"
+    },
+    {
+      "path": "AGENTS/LIQUID/NEXUS_BRIEF.md",
+      "bytes": 20328,
+      "sha256": "d949dd76bd98425375ef2cdad5cd9069aafe081e21ab27adefaa7e127f114be8",
+      "match_lines": [],
+      "search": "Full file exact-string membership search; no truncated-read absence claim"
+    },
+    {
+      "path": "AGENTS/LIQUID/registry/corrections_receipts.tsv",
+      "bytes": 3079,
+      "sha256": "f6d37cb2a17fbb7ee3872f6f74c82ba93a3f894885d41f70c9e793a456cb3aa9",
+      "match_lines": [],
+      "search": "Full file exact-string membership search; no truncated-read absence claim"
+    }
+  ],
+  "missing_declared_surfaces": {
+    "SCRATCH.md": "Not present; not treated as an empty/clear record",
+    ".consumed.tsv": "No LIQUID inbox .consumed.tsv discovered in the actual filesystem"
+  },
+  "native_LIQUID_read": "No exact LIQUID thread read/ack available in this check; no fleet presence or absence inference",
+  "latest_liquid_status_log_commit": "1ac09fc054d25563674ffc8c0717ff95c3cf3663 2026-10-09T15:54:52-04:00 LIQUID: W1 as-of 10/6 NOT MET; GATE-LIQ-076 1 of 3; inbox drained (5 -> 0)",
+  "source_date_limit": "Existing LIQUID input basis is dated October8/9. It cannot establish receipt of an October12 request or supply future October13 inputs. No parallel count, refresh, owner launch or polling."
+}

@@ -1,3 +1,7 @@
+## 2026-10-12T21:50:59Z — named LIQUID dependency / light-closeout — full deferred, ACTIVE
+
+Existing request160c0c08d checked: actual consumption UNKNOWN, four recipient surfaces/0 matches; no owner/request duplicated or research repeated. PROME original result acceptance verified; peer publication confirmsbf00/9e and110/110 handoffs,3 states reconciled. No own push or lifecycle closeout. Evidence: research/2026-10-12_prome-directed-followup/LIQUID-consumption-check.md.
+
 ## 2026-10-12T21:39:10Z — PROME-directed ordinary intake / light-closeout — full deferred, ACTIVE
 
 Reconciled completed MIDAS and YURI6db3b1ded/SHADEc03b33495+94993c5b7. Two packets filed exactly; BM09 CLOSED9/9, SIG031/COR31 scheduled-exercise correction and3 handoffs. Eight published source packets have no matching inspected consumption receipt; LIQUIDOctober13/DEWEYOctober14/HAWK original-card correction named to PROME. Lane/phone/drop0new; X not retried. Publication of new work pending; no lifecycle closeout, launch or new study. Evidence: research/2026-10-12_prome-directed-followup/REPORT.md.

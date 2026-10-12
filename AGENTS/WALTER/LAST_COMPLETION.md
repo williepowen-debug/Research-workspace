@@ -15,11 +15,11 @@ Completed pre-continuation changes are conserved verbatim in `archive/LAST_COMPL
 
 ## RESULT
 
-BOARD1354;31 day signals. At fresh2026-10-12T21:41:37Z originf63cd1640, prior107/110 day handoffs are origin-proven; new3 pending publication and recipient consumption separate. Eight existing YURI/SHADE peer packets published, no matching receipts in inspected complete logs; LIQUIDOctober13/DEWEYOctober14/HAWK correction gaps named to PROME. Normal bounded intake0 new onsets,35 suppressed rows/34keys, seen+0/−0. Basis/cap health findings retained; evidence research/2026-10-12_prome-directed-followup/REPORT.md. Routine light checkpoint only.
+BOARD1354;31 day signals. At fresh2026-10-12T21:41:37Z originf63cd1640, earlier107/110 snapshot was superseded at2026-10-12T21:50:59Z: all110/110 origin-proven,3 states reconciled. Recipient consumption separate. Eight existing YURI/SHADE peer packets published, no matching receipts in inspected complete logs; LIQUIDOctober13/DEWEYOctober14/HAWK correction gaps named to PROME. Normal bounded intake0 new onsets,35 suppressed rows/34keys, seen+0/−0. Basis/cap health findings retained; evidence research/2026-10-12_prome-directed-followup/REPORT.md. Routine light checkpoint only.
 
 ## GAPS / OWED
 
-- Main workspace pull and WALTER push deferred because foreign work was active. Latest fresh read-only fetch at21:33:36Z: origin=bdacfca4a2e56bea6b02623828045f08e3616032; WALTER5a0c5a65f/f7bb2b20c were pending at that observation, then confirmed published at2026-10-12T21:41:37Z originf63cd1640; current follow-up remains pending; clean separate Research-Intake ff-only pull reports Already up to date. The automatic approval review rejection of the first intake sync was resolved by Will’s explicit intake-only approval; main checkout unchanged by a pull.
+- Main workspace pull and WALTER push deferred because foreign work was active. Latest fresh read-only fetch at21:33:36Z: origin=bdacfca4a2e56bea6b02623828045f08e3616032; WALTER5a0c5a65f/f7bb2b20c were pending at that observation, then confirmed published at2026-10-12T21:41:37Z originf63cd1640; current resultbf00c875c/transport9e0ed74c2 subsequently confirmed published at fresh2026-10-12T21:50:59Z origin4c40443c7; clean separate Research-Intake ff-only pull reports Already up to date. The automatic approval review rejection of the first intake sync was resolved by Will’s explicit intake-only approval; main checkout unchanged by a pull.
 - X authorization gap REOPENED by the fresh20:59Z scan: renewal HTTP400, exit1, nothing marked; browser reauthorization required. Earlier successful repair at2026-10-12T16:21:08Z is historical, not current authorization coverage. The earlier16:21Z repair’s live bookmark read and automatic renewal both PASS was historical, before20:59Z failure;577 processed keys and pending stage were byte-identical then. That repair diagnostic did not stage/mark. Earlier reboot staged29keys; continuation assessed29/marked the exact set. Current seen606keys; pending file contains0ids; failure did not stage or consume a new set. Evidence: `research/2026-10-12_x-reauthorization/verification.json`; receipt: `outbox/2026-10-12_x-authorization-restored.md`.
 - Capability update 2026-10-12T15:25:52Z: native Codex thread `01a13087-79e5-7e92-9b7a-65a266b0cb1b` is now observed from CODEX_THREAD_ID and installed CLI queue is supported. Exact PROME-pair notification receipt is saved separately; model tools alone did not establish CLI absence. Cross-runtime fleet census and Telegram reply tool/chat_id remain unavailable/unverified. Availability UNKNOWN; current-chat FLASH alert delivered and PROME pointer committed, Telegram notification remains owed where an authorized transport exists. No DARK inference or duplicate spawn on tool absence.
 - Four missing event-ledger cadence/check headers are repaired after actual review; non-comment event rows conserved. Remaining ordinary routing-ledger nudge warnings stay visible: prior bounded procedure/transport work added no events; subsequent ordinaryintake records14routes/40handoffs/1duplicatekill. REGISTRY focus refreshed from scoped owner headers; no fake row or freeze. Corrections checker0 unreceipted named WALTER rows; no new receipt invented. Two research flags remain open:CARL-DR-1 PARTIAL dueNovember13 and REQ-DEWEY-20261010-001 PARTIAL dueOctober14. Their returned partialreports/stubs are verified and handoffs filed; unfulfilled research remains open. Evidence: `research/2026-10-12_closeout-improvements/cadence-review.json`.
@@ -42,6 +42,8 @@ Existing expiry-card decisions remain with Will/TERRY: QQQ755C October12 (today�
 WQ401 set sub-question remains Will’s (dueOctober14). WQ388 unattended WALTER remains undecided forOctober17 review. Optional subscription and optional one-line step7h encode remain carried, not renewed asks. Prior broker questions are answered by the October11 capture and booked in ANVIL/FORGE and TERRY’s owner state; PROME’s administrative row acceptance is a separate record, not a broker-truth gap re-raised here.
 
 ## FOLLOW-UP
+
+**Named LIQUID dependency checked2026-10-12T21:49:09Z:** exact SHADE request160c0c08d verified; four actual recipient surfaces,0 matching receipts. Actual LIQUID consumption UNKNOWN, no presence/absence inference or duplicated request/owner. Prior result/transport publication confirmed at2026-10-12T21:50:59Z:110/110 day handoffs origin-proven, no own push. Preserve SHADEOctober13 post-close inputs and missing-input grade withholding. PROME actual acceptance ofbf00c875c is now verified at its committed orchestration receipt; current own proof corrected, other recipients remain separate. Findings research/2026-10-12_prome-directed-followup/LIQUID-consumption-check.md.
 
 **Follow-up persistence/notification 2026-10-12T21:46:44Z:** resultbf00c875c9506c18179a16dc7b10a84a1d3db267 committed,42 paths/0 unexpected. PROME and YURI exact-thread queues accepted the committed pointers; no recipient consumption inferred. Immutable task result is in PROME/inbox; owned queue receipt outbox/2026-10-12_prome-directed-followup-queue-receipt.md and proofJSON carry exact acknowledgments. New publication still pending at the saved observation; no own push or lifecycle closeout.
 
@@ -104,7 +106,7 @@ SessionACTIVE; bootPARTIAL. Routine full checkpoint at2026-10-12T21:06:26Z clear
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-12T21:46:44Z",
+  "as_of": "2026-10-12T21:50:59Z",
   "publication": [
     {
       "commit": "3cacce310",
@@ -236,13 +238,17 @@ SessionACTIVE; bootPARTIAL. Routine full checkpoint at2026-10-12T21:06:26Z clear
     },
     {
       "commit": "bf00c875c9506c18179a16dc7b10a84a1d3db267",
-      "state": "pending"
+      "state": "published"
+    },
+    {
+      "commit": "9e0ed74c22873c9959d348ad4382c8bc6a78dbeb",
+      "state": "published"
     }
   ],
   "delivery": {
     "signal_date": "20261012",
     "total": 110,
-    "delivered": 107,
+    "delivered": 110,
     "note": "Fresh origin34e4dbde4 proves all107 handoffs;40 previously pending rows reconciled. Consumption separate."
   },
   "push": {
@@ -334,13 +340,23 @@ SessionACTIVE; bootPARTIAL. Routine full checkpoint at2026-10-12T21:06:26Z clear
       },
       {
         "path": "AGENTS/WALTER/research/2026-10-12_prome-directed-followup/persistence-and-notification.json",
-        "sha256": "207dab5e649d3168dcbc6f72547dfd9708a2df5aba4ca88b9dce913235f5dee4",
-        "note": "Actual persistence and current-pair queue acknowledgments only; recipient artifact consumption and lifecycle remain separate."
+        "sha256": "5b603afc6f643e0c54bdf107bfe4805d5f6eda3da5441745ff6f9d48f2ea4512",
+        "note": "Actual persistence/queue acknowledgments plus PROME committed receiver acceptance of exact bf00c875c; LIQUID/HAWK/DEWEY consumption remains separate."
       },
       {
         "path": "AGENTS/WALTER/outbox/2026-10-12_prome-directed-followup-queue-receipt.md",
         "sha256": "5c6399baefd24961e647351453eb83c4a080be82dd5311a5c3cbb36320a0ad1f",
         "note": "Actual persistence and current-pair queue acknowledgments only; recipient artifact consumption and lifecycle remain separate."
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-12_prome-directed-followup/LIQUID-consumption-check.md",
+        "sha256": "5c45c71814cb6a49d02b560f5b95027b654dbac74369aeb76dee4841529be0ab",
+        "note": "Named request160c0c08d actual consumption UNKNOWN in four actual recipient surfaces; no native acknowledgment or absence claim."
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-12_prome-directed-followup/LIQUID-consumption-check.json",
+        "sha256": "05e626a19fa2ddb996f39bd75c74b414a4ce0423512662ba91448fb0ab7995de",
+        "note": "Named request160c0c08d actual consumption UNKNOWN in four actual recipient surfaces; no native acknowledgment or absence claim."
       }
     ]
   },
@@ -369,7 +385,7 @@ SessionACTIVE; bootPARTIAL. Routine full checkpoint at2026-10-12T21:06:26Z clear
     "Tier1": "Affected live lead refreshed; all20:58Z dated market observations and unavailable current/official evidence retained. SHADE/YURI header context surgically refreshed.",
     "15": "Prior duties conserved; DEWEYOctober14, LIQUID/SHADEOctober13, YUROctober16 and inherited dates preserved. X reauthorization carried without retry.",
     "root.retirement": "Prior585-path Git-age review retained as dated evidence; new follow-up artifacts authored today are not older than60days. No eligible move discovered in this bounded pass.",
-    "16": "Actual exact42-path result commitbf00c875c,0 unexpected; previous5a0/f7bb published. Supported queues accepted exact artifact pointers for verified current PROME/YURI threads; notification not consumption. New publication pending at saved origin; no own push.",
+    "16": "Actual exact42-path result commitbf00c875c,0 unexpected; previous5a0/f7bb published. Supported queues accepted exact artifact pointers for verified current PROME/YURI threads; notification not consumption. New publication pending at saved origin; no own push. PROME receiver-artifact consumption subsequently verified; named LIQUID dependency rechecked UNKNOWN without repeated research or launch. Publication advanced via peer train:bf00/9e proven at fresh2026-10-12T21:50:59Z origin4c40443c7; three delivery states reconciled,110/110 day handoffs origin-proven. This dependency addendum is saved for exact-path persistence; no own push.",
     "Tier1.breadcrumb": "One light/full-deferred breadcrumb. Prior evidenced21:06 Tier-2 checkpoint header aligned with existing literal stack reader:1 deferred, not3. No new full/lifecycle checkpoint or code change."
   },
   "selected_checks": "Final receipt PASS107/110; R1-WRITE0 OK; archive2 exact moves/weekday PASS. Read-cap REVIEW unchanged explicit charter. Doctor initial0HIGH/6MED, false stack warning reconciled by evidenced prior-checkpoint header/targeted check1 deferred; effective5MED retained. Ledger-nudge precommit cadence accounted, no fabricated kill event."

@@ -65,7 +65,7 @@
       "thread": "01a131cf-1c7d-7900-9dcf-d98af587e290",
       "exit": 0,
       "ack": "Queued message 01a13214-1c2b-7900-b850-f4a4e89c3179 for thread 01a131cf-1c7d-7900-9dcf-d98af587e290.",
-      "consumption": "UNKNOWN; queue acceptance only"
+      "consumption": "CONFIRMED: PROME committed owner receipt matches bf00c875c packet/report/SIG031 and accepts bounded reconciliation; independent full intake/log search not repeated."
     },
     "YURI": {
       "thread": "01a131e4-8224-7572-a1c0-feb7acebbb96",
@@ -75,5 +75,27 @@
     },
     "HAWK_OSPREY": "Fleet presence UNKNOWN at dispatch; durable handoffs saved, consequential HAWK gap named to PROME. No DARK or launch inference."
   },
-  "lifecycle": "ACTIVE, no closeout ask or termination"
+  "lifecycle": "ACTIVE, no closeout ask or termination",
+  "PROME_consumption_evidence": {
+    "observed_at": "2026-10-12T21:49:09Z",
+    "path": "PROME/reports/2026-10-12_laptop-orchestration.md",
+    "commit": "ecf42cdf315dfab091c60e9954bffd8a9c6b0342",
+    "sha256": "2121edb40c99bd9e6f46a0b2b06994f7936b2c43d8e37ba54d599de5fb0715de",
+    "scope": "WALTER result consumed section; exact bf00c875c versions named. Source judgment, LIQUID/HAWK/DEWEY consumption, publication and lifecycle remain separate."
+  },
+  "latest_publication": {
+    "observed_at": "2026-10-12T21:50:59Z",
+    "fresh_origin": "4c40443c73a83bdb68d86ca8fd0db5b6c48e9578",
+    "published_commits": {
+      "bf00c875c": true,
+      "9e0ed74c2": true
+    },
+    "day_handoffs": {
+      "total": 110,
+      "origin_proven": 110,
+      "new_states_reconciled": 3
+    },
+    "WALTER_push": false,
+    "consumption": "PROME original result confirmed separately; LIQUID/HAWK/DEWEY remain UNKNOWN in their scopes"
+  }
 }
