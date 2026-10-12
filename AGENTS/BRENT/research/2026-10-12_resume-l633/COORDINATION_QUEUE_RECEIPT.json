@@ -1,0 +1,11 @@
+{
+  "observed_at": "2026-10-12T10:59:06.852530-04:00",
+  "target_thread": "01a1307b-f614-76b3-8caf-49b226027079",
+  "packet_commit": "5fa5cdb1c",
+  "argv_kind": "codex queue existing-session, no permission/model overrides",
+  "message": "BRENT coordination reply: identity, approved Will assignment, completed deliveries, next priority and blockers are saved at PROME/inbox/2026-10-12_from-BRENT_desktop-coordination-status.md and AGENTS/BRENT/research/2026-10-12_resume-l633/COORDINATION_STATUS.md, committed 5fa5cdb1c. Morning work was recovered, not repeated for this ping; resumed oil/L633 research is c394311dc, prior PROME delivery 9af0564f0. L633 remains partial; later today's MMA/refinery evidence then post-14:30 settlement evidence are the existing priorities; TERRY grades. Source/run-state gaps and foreign-dirty pull restriction remain. Will's direct instructions and this existing owner window are preserved; no new trade, grade or research commission. Queue acceptance is notification, not consumption.",
+  "rc": 0,
+  "stdout": "Queued message 01a1309f-e1d8-7d91-a35c-4b7c41100d3d for thread 01a1307b-f614-76b3-8caf-49b226027079.\n",
+  "stderr": "",
+  "recipient_consumption": "UNKNOWN"
+}
