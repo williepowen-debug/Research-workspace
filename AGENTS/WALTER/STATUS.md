@@ -3,7 +3,7 @@
 
 ## BOTTOM LINE
 
-The session is closing on Will’s explicit request, with ten signals and all retained duties saved for a fresh WALTER context. The executed RaDD extension/new capital materially weakens the observed puts’ near-term catalyst; TERRY owns the card review and Will owns orders. Transcript and Horton comparison evidence retain their dated measurement limits. Boot coverage stays PARTIAL because of X authentication, stale read attestation and source/instrument gaps. Publication and future duties are recorded in LAST_COMPLETION.md.
+The session is closing on Will’s explicit request, with ten signals and all retained duties saved for a fresh WALTER context. The executed RaDD extension/new capital materially weakens the observed puts’ near-term catalyst; TERRY owns the card review and Will owns orders. Transcript and Horton comparison evidence retain their dated measurement limits. X access and automatic renewal are restored;29 unreviewed bookmarks remain for fresh-session intake. Boot coverage stays PARTIAL because of stale read attestation and source/instrument gaps. Publication and future duties are recorded in LAST_COMPLETION.md.
 
 ## DATED MARKET OBSERVATIONS — retained morning snapshots, not refreshed during session closeout
 
@@ -28,6 +28,8 @@ The session is closing on Will’s explicit request, with ten signals and all re
 Routing plus receiving-layer readiness. Domain agents own evidence, state and judgment. COP retired; charter IDENTITY governs.
 
 ## STATE POINTERS
+
+**Authorization repair (2026-10-12T16:21:08Z):** read-only bookmark GET and automatic renewal both PASS; processed history unchanged. Receipt: `outbox/2026-10-12_x-authorization-restored.md`.
 
 **Fresh context entry:** LAST_COMPLETION.md is the complete open duty/design list. Session closeout receipt: `outbox/2026-10-12_session-closeout.md`. No active WALTER helper or unread top-level substantive packet remains at the final scan; do not infer any other desk’s closure.
 

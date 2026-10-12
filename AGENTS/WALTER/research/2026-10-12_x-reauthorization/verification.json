@@ -1,0 +1,27 @@
+{
+  "as_of": "2026-10-12T16:20:41Z",
+  "authorization": "restored",
+  "live_bookmark_fetch": "PASS",
+  "new_bookmarks": 29,
+  "consumed_keys": 577,
+  "history_and_stage_unchanged": {
+    "registry/x_bookmarks_seen.json": true,
+    "registry/x_bookmarks_pending.json": true
+  },
+  "seen_and_stage_before": {
+    "registry/x_bookmarks_seen.json": {
+      "sha256": "7ae5f0b15e2db8055aa5f5b3dcb5fbf4a43f45b3e8c30563bc5e4471ecf1ccaf",
+      "bytes": 15646
+    },
+    "registry/x_bookmarks_pending.json": {
+      "sha256": "431222c2affbb8f682af721b579cf52a9cdf4bed92b6d783ece7d68ffb98090e",
+      "bytes": 37
+    }
+  },
+  "scopes": "tweet.read users.read bookmark.read offline.access",
+  "verification": "Read-only fetch; no staging, marking or post bodies saved.",
+  "automatic_refresh": "PASS: refresh grant succeeded; renewed token bookmark GET succeeded",
+  "refresh_verified_at": "2026-10-12T16:21:08Z",
+  "renewed_token_page_count": 50,
+  "token_file_mode": "0o600"
+}
