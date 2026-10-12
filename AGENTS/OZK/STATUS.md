@@ -1,7 +1,7 @@
 # OZK — Dashboard
 
-**Updated:** 2026-10-12 — Approved funding/Boston/recovery follow-up saved → `research/threads/2026-10-12_DURABILITY_DELIVERY.md`. Q3 outcomes PENDING; L635/L690 remain completed/consumed. Session → `MEMORY.md`.
-**Price:** **$45.35** [live intraday 2026-10-12 14:50 ET, FORGE fetch.py/yfinance; unfinished session, not a close] · <$45 previously FIRED 10/6, above band now · <$40 **$5.35 / 11.8% below** this quote | **TBV:** $48.41 [Q2'26] | **P/TBV:** ~0.94×
+**Updated:** 2026-10-12 — Will-directed wrap-up → `outbox/2026-10-12_to-PROME_wrap-up-and-Q3-handoff.md`. Current research complete through available evidence; Q3 outcomes PENDING. L635/L690 completed.
+**Price:** **$45.42** [live intraday 2026-10-12 15:11 ET, FORGE fetch.py/yfinance; unfinished session, not a close] · <$45 previously FIRED 10/6, above band now · <$40 **$5.42 / 11.9% below** this quote | **TBV:** $48.41 [Q2'26] | **P/TBV:** ~0.94×
 **Thesis:** RESERVOIR **v1.6** — RaDD maturity-failure catalyst materially disconfirmed by executed multi-year extension/new capital; other RESG and debt-on-debt evidence still tested at Q3. **Conviction:** prior Q2 🔴🔴 HIGH, not re-graded today; bounded L690 review completed: no specific near-term large-loss catalyst established. **OZK-09 OPEN** (45% scoring prior; recognition measurement STUCK); A30/B45/C8/D17 and ~$129M EL are **pre-outcome model records on $555M**, not refreshed forecasts | **KB:** 259 rows / 37 groups
 **Short interest:** **~16.3% of float** (16.51M sh, **9/15/26** FINRA via Nasdaq API; float % derived on the 6/30 basis), **DTC 17.6** — up from 16.21M / 16.0 (8/31) and 14.7% / 11.7 (6/30); 12-mo peak 18.3%. Crowded into Q3 (C8). [refresh at each settlement]
 **Next:** Wed 10/14 Horton disposition checkpoint (bounded search done 10/12; occupancy UNRESOLVED) · Tue 10/20 AMC / Wed 10/21 08:30 ET Q3 L520: run prepared card · October-31 L520 check-by · early-Nov 10-Q/CR (JWT expires 11/5). L635 outcome closed; recognition amount remains unresolved.
@@ -96,7 +96,7 @@ Q2 partial charge-offs on 4 RESG loans = **$49.3M** (Seattle $22.3M + $3.7M, Atl
 
 | Signal | Current [date] | Watch Level | Fires |
 |---|---|---|---|
-| OZK price | **$45.35** [live 10/12 14:50 ET; not close] | <$45 / <$40 | <$45 fired historically 10/6, above band now; <$40 not crossed at this observation, $5.35 / 11.8% below quote |
+| OZK price | **$45.42** [live 10/12 15:11 ET; not close] | <$45 / <$40 | <$45 fired historically 10/6, above band now; <$40 not crossed at this observation, $5.42 / 11.9% below quote |
 | Past-due loans | **$298M / 0.92%** [Q2] | >$550M or >2.0% | 🟢 OZK-06 FALSE |
 | NCO (ann.) | **0.69%** [Q2] | >80bps mid-year / **≤55bps kill** | 🔴 OZK-05 TRUE — above kill-line |
 | Classified+criticized | **$1,282M** [Q2] | >$1.5B fires REGINALD/CREED | 🔴 rising while RESG falls = adverse selection |

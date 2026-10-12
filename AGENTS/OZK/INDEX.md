@@ -1,7 +1,7 @@
 # OZK — Agent Index
 **Start here on cold boot.**
 
-**Last updated:** 2026-10-12 — L635/L690 consumed; approved durability/Boston/recovery saved, Q3 collection pending; thesis **v1.6**, KB **259 / 37**.
+**Last updated:** 2026-10-12 — wrap-up/consumer handoff saved; existing Q3 card leads Boston/RaDD/cash recoveries and bank capacity; thesis **v1.6**, KB **259 / 37**.
 
 **State snapshot** *(numbers live in `STATUS.md` — this is orientation only)*:
 - **Thesis v1.6 RESERVOIR — RaDD near-maturity catalyst materially disconfirmed**, other portfolio stress still tested at Q3. Prior Q2 HIGH conviction is not re-graded; new adverse evidence must travel with it. → `THESIS.md`, `CHANGELOG.md`

@@ -8,6 +8,8 @@
 
 **Further three-question approval, October 12:** funding-durability map DONE; Boston bounded transaction follow-up DONE/current payoff UNKNOWN; 14-row cash-recovery baseline/reconciliation DONE, **Q3 outcome collection PENDING under existing L520**. Results → `research/threads/2026-10-12_DURABILITY_DELIVERY.md`. No fresh window needed for available work; publication is the remaining dependency. Reuse saved work at Q3, no repeated searches.
 
+**Will's wrap-up direction, October 12:** research passes complete through available evidence. Finish consumer delivery through WALTER and existing REGINALD/TERRY windows. **Before earnings, reopen only for a specific new source capable of changing the assessment.** Existing Q3 card leads Boston → RaDD accounting/funding → cash recoveries/retained exposure, then explains actual bank earnings/reserve/capital burden and contrary evidence. Unknown outcomes stay unknown; no new framework or broad retries.
+
 ⛔ **Standing fence:** **D1 / OZK-salvage is RULED-CLOSED.** Do not re-present, re-litigate, or propose a successor position. Any future OZK expression is a **new** trade — TERRY builds, Will approves.
 
 ---

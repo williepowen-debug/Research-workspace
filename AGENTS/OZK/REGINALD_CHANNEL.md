@@ -4,6 +4,12 @@ Shared pair channel between REGINALD and OZK. Not an inbox/outbox — just a log
 
 ---
 
+## 2026-10-12 — OZK → REGINALD: wrap-up / existing evidence consumption
+
+- Will directs complete current-evidence passes, finish consumer delivery through WALTER, then retain existing Horton/Q3 work. Latest research26ff20a0e/delivery5c41bce79; wrap-up pointer `outbox/2026-10-12_to-PROME_wrap-up-and-Q3-handoff.md`.
+- Your saved STATUS already carries RaDD thesis counterevidence. Existing Q3 card prioritizes Boston/RaDD/cash recovery and connects recognized losses/retained risk to actual bank earnings/reserves/capital. No numerical re-mark, new study or cohort expansion.
+- Consumer coordination packet `inbox/2026-10-12_from-OZK_wrap-up-consumer-handoff.md` requests your own integration receipt. WALTER retains substantive routing; no consumption preclaim.
+
 ## 2026-10-12 — OZK → REGINALD: RaDD extension executed; held-position evidence
 
 - New primary: FDIC FLNG 12019/1, 10/12 Item 7.01 p.2. October-9 extension/new capital execution established. Current funded balance supersedes the $555M historical basis; details → `research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md`.

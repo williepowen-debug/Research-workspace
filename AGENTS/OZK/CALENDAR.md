@@ -1,6 +1,6 @@
 # OZK CALENDAR
 
-**Last Updated:** 2026-10-12 — L690 bounded review/card/check complete; Q3 card READY before publication. L635 consumed ba61b01e1; original Horton 10/14 and L520 10/20–21 / check-by 10/31 dates preserved.
+**Last Updated:** 2026-10-12 — wrap-up preserves Horton10/14 and L52010/20–21/check-by10/31. Existing Q3 card prioritizes Boston, RaDD accounting/funding, cash recoveries/retained exposure and bank loss capacity. L635/L690 completed.
 
 *For multi-bank events (cohort earnings, Call Reports, AOCI, FL reinsurance) → `../REGINALD/CALENDAR.md`. Dated rows that PROME tracks: DOCKET L126 (sub-notes reprice), L463 (10/2 read).*
 

@@ -6,6 +6,10 @@
 
 ## Source order and basis controls
 
+**Will's October 12 wrap-up direction governs this existing card:** treat the three research passes as complete through available evidence. Before earnings, reopen only on a **specific new source that could change the assessment**; record the source, unanswered question and decision consequence before pursuing it. Repeating general Boston/recorder searches or unavailable budget/rent-roll requests does not satisfy that condition. Preserve Horton October 14 and all Q3/later-filing obligations. No replacement framework.
+
+**Lead the October 20–21 read in this order:** **Boston transaction outcome (W9)** → **RaDD accounting/funding (R1–R6/W12)** → **actual workout cash recoveries versus retained exposure (W1–W14)** → **effect on bank earnings, reserves and capital** using the portfolio diagnostics below. Explicitly identify evidence that weakens the thesis, retain credit/period attribution, and leave undisclosed outcomes UNKNOWN. The recorded extension remains completed, not a renewed maturity-failure catalyst.
+
 1. FDIC **cert 110** FLNG watch → every new 8-K/attachment, Q3 release, Financial Supplement, **Management Comments**. FDIC is the issuer's regulator; an empty SEC EDGAR search is not a negative disclosure finding. Press announcements are separately searched because FLNG omits releases.
 2. Full October-21 call/Q&A → written-vs-spoken claims and **named credit attribution**. Log source/transcript vintage and verify material transcript differences; intent is not execution. Defer absence findings until all relevant published call material is read.
 3. Q3 FDIC 10-Q → credit quality, nonaccrual/no-ALL, charge-offs and reserves, OREO roll-forward, NDFI, financial-difficulty modifications, subsequent events. Later Call Report is **LOG-ONLY** under Z6, not a re-grade of the as-printed reported NCO ratio.
@@ -70,6 +74,8 @@ After the L690 delivery, an owed-task inventory found Hunter Advisors' September
 | Other watch credits / $40.4M C&I hardship modification | MC/10-Q for same borrower/category; Portal 405 / 777 Industrial identity only if anchors support | New named deterioration vs sourced cure. No wholesale other-desk review or inference from generic unnamed life-science mention |
 
 ## Existing prediction / invalidation rails — retained, not rewritten
+
+**Connect each named credit to loss capacity:** explain the size and timing of the actual recognized loss, what was already charged off/reserved, what cash was recovered and what funded/unfunded exposure remains. Reconcile credit events with reported charge-offs, allowance usage, provision and OREO expenses; do not add them as independent losses for the same event. Charge-offs using an existing allowance are not an additional current earnings expense on top of the provision. Locate carrying/disposal costs within reported earnings and avoid subtracting them twice from PPNR. Use Q3's as-printed PPNR, provision, net income and later filed allowance/capital figures to explain the burden; the Q2 numbers above are dated comparison anchors, not current capacity. Distinguish CET1 from Tier 2, and note disclosed retained earnings, distributions/buybacks and risk-weighted-asset changes before attributing a capital-ratio move to credit losses. Where attribution or an after-tax capital effect is undisclosed, say UNKNOWN. This is interpretation of the existing card, not a new stress model, loss forecast or numerical gate.
 
 | Letter | Registered prior / object / window | Q3 treatment |
 |---|---|---|
