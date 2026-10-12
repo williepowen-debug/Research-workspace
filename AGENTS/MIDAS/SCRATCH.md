@@ -7,9 +7,9 @@
 1. **October 19 weekly review:** rerun five-leg boot, remeasure rolling-120 GLD/DFII10 beta against the existing −0.08 flip, and inspect band crossing history after October 1 at 21:40 ET. Last beta −0.1632%/bp through October 8. M1's successor still needs prospective base rates, window, vintage and grading-basis registration. A diagnostic beta is not a new score gate.
 2. **November 1 at 21:40 ET / WQ-368:** the current letter is CROSSING. Platinum crossed −15% on October 7, then recovered; palladium crossed −20% on October 1 **before approval** and never recrossed through October 9. Preserve that distinction. All-levels counterfactual 11/20, actual 8/20. No scoring during the approved month. The band fit includes the collapse being measured.
 3. **October 30 MIDAS-09/10:** frozen GLD/SLV and PPLT/PALL letters unchanged. No early grade. First retrieval on the next business day remains the grading basis.
-4. **PGM/I1 evidence:** current COMEX/SHFE, PGM lease rates, NYMEX stocks and fund flows remain absent; the BIS check is owed. HAWK delivered the instrument-access negative September 2; repeated "fifth asking" is closed. Review October 19. China September construction 50.3 rebound is integrated; do not carry August's record low as current or manufacture a copper lag.
+4. **PGM/I1 evidence:** current COMEX/SHFE, PGM lease rates, matched NYMEX stock history and fund flows remain missing; latest NYMEX point is retrieved in the bounded follow-up; the BIS check is owed. HAWK delivered the instrument-access negative September 2; repeated "fifth asking" is closed. Review October 19. China September construction 50.3 rebound is integrated; do not carry August's record low as current or manufacture a copper lag.
 5. **Held GLD:** the October 11-received portfolio mirror carries 17 shares, capture time UNKNOWN. At October 9's $384.58, estimated response is −$106.71 per +10bp under a one-factor association. The current mirror carries one TLT $82P October 16 plus 10 TBT shares. TERRY owns live delta, coverage and the October 14 management clock. Old 16-share / September 30 put arithmetic is retired.
-6. **Persistence and delivery:** opening pull and push deferred because TERRY, and later SHADE, have outside-desk uncommitted work. Commit own paths and self-authored packets only. PROME/peer notification and consumption remain unverified. Fleet coverage is UNKNOWN; no dark-owner inference or spawn. The delivery packet records the local commit and pending sync.
+6. **Persistence and delivery:** opening pull and push deferred because TERRY, and later SHADE, have outside-desk uncommitted work. Commit own paths and self-authored packets only. PROME consumed the broad review at 0cb6d515f; peer consumption remains unverified. This follow-up awaits its own exact-artifact read. Fleet coverage is UNKNOWN; no dark-owner inference or spawn. The delivery packet records the local commit and pending sync.
 
 ## COMPLETED THIS SESSION
 
@@ -20,3 +20,9 @@
 - STATUS and NEXUS re-based. Obsolete SCRATCH blocks preserved verbatim in `analysis/SCRATCH_ARCHIVE_2026-10.md`. Current obligations live above and in STATUS/OPEN_ITEMS. History is off the boot path; the byte receipt measures the whole declared reading set.
 
 **Pick up:** `analysis/2026-10-12_due-metals-review-held-GLD.md` and `sources/2026-10-12_review/summary.json`. Prior sessions remain in dated archives. Never cite an archive quote as current.
+
+## BOUNDED FOLLOW-UP — 2026-10-12
+
+PROME task accepted in existing thread01a131e1-82c3-7702-beae-4992d53e8fd5 on committed0cb6d515f authority. One PGM primary inventory/fund-evidence pass complete, not lifecycle closeout. Verdict UNRESOLVED for the recent weakness; latest NYMEX point access is supported and the blanket access-gap premise weakened. October9 warehouse movements are measured zero, issuer fund flows lack a matched history. Research `analysis/2026-10-12_PGM-inventory-flow-followup.md`, dated result toPROME/inbox. No forecast/score/GLD action change. Next existing dateOctober19.
+
+**Return transport:** PROME current thread01a131cf-1c7d-7900-9dcf-d98af587e290 verified from committed orchestration report 004656ce2. Local codex queue help verifies the supported reply schema. Queue notification follows committed content; acceptance is not research consumption and does not close this window.

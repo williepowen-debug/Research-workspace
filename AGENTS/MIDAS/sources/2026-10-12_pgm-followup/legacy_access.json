@@ -1,0 +1,23 @@
+[
+  {
+    "name": "legacy_etf_index",
+    "url": "https://www.abrdn.com/usa/etf",
+    "read_at": "2026-10-12T21:32:34.909593+00:00",
+    "status": 200,
+    "final_url": "https://www.aberdeeninvestments.com/en-us/investor/funds/view-all-funds?table=prices&databridgefundproducttype=Exchange+Traded+Fund",
+    "bytes": 138041,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "name": "legacy_pplt",
+    "url": "https://www.abrdn.com/en-us/etf/fund-details/pplt",
+    "read_at": "2026-10-12T21:32:34.910703+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "legacy_pall",
+    "url": "https://www.abrdn.com/en-us/etf/fund-details/pall",
+    "read_at": "2026-10-12T21:32:34.911730+00:00",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "cme_pgm_stocks",
+    "url": "https://www.cmegroup.com/delivery_reports/PA-PL_Stck_Rprt.xls",
+    "retrieved_at": "2026-10-12T21:28:37.998608+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "issuer_pplt",
+    "url": "https://www.aberdeeninvestments.com/en-us/investor/funds/view-all-funds/-us0032601066",
+    "retrieved_at": "2026-10-12T21:28:37.999552+00:00",
+    "status": 200,
+    "final_url": "https://www.aberdeeninvestments.com/en-us/investor/funds/view-all-funds/-us0032601066",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 144379,
+    "hints": {
+      "Shares Outstanding": 2,
+      "sharesOutstanding": 2,
+      "Historical": 4,
+      "historical": 4,
+      "Holdings": 24,
+      "holdings": 24,
+      "csv": 0,
+      "download": 18,
+      "api/": 0,
+      "editionId": 0
+    }
+  },
+  {
+    "name": "issuer_pall",
+    "url": "https://www.aberdeeninvestments.com/en-us/investor/funds/view-all-funds/-us0032621023",
+    "retrieved_at": "2026-10-12T21:28:38.000204+00:00",
+    "status": 200,
+    "final_url": "https://www.aberdeeninvestments.com/en-us/investor/funds/view-all-funds/-us0032621023",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 144409,
+    "hints": {
+      "Shares Outstanding": 2,
+      "sharesOutstanding": 2,
+      "Historical": 4,
+      "historical": 4,
+      "Holdings": 24,
+      "holdings": 24,
+      "csv": 0,
+      "download": 18,
+      "api/": 0,
+      "editionId": 0
+    }
+  }
+]

@@ -1,6 +1,6 @@
 # MIDAS — STATUS
 
-**Last Updated:** 2026-10-12T17:03:53-04:00 — Will-directed due metals review, Codex. **Composite 8/20 unchanged; no capital or threshold change.** Full sourced review: `analysis/2026-10-12_due-metals-review-held-GLD.md`. Prior page archived verbatim at `analysis/STATUS_ARCHIVE_2026-10.md`.
+**Last Updated:** 2026-10-12T17:36:35-04:00 — PROME-directed bounded PGM follow-up after the consumed broad review. **Composite 8/20 unchanged.** Broad sources/prices remain at their stated vintages; follow-up `analysis/2026-10-12_PGM-inventory-flow-followup.md` adds activity10/9 warehouse evidence and issuer10/9 metadata. Prior broad review: `cad8c1c12`.
 **Class:** Market-agent · Fleet maturity L4 · Cadence WEEKLY · five-leg boot: metals, ledger staleness, predictions, gold COT, Ag/Pt/Pd COT.
 
 ## LIVE MARKS AND BASIS
@@ -18,6 +18,10 @@ All quotes below retrieved 10/12 from explicit same-contract VENDOR daily bars d
 Explicit-month **GSR 69.07** (GCZ26/SIZ26), Pt/Pd **1.472**, Pt/Au **0.402**. DFII10 **2.87% [10/8 FRED MIRROR-WALLED]**; Treasury direct check failed, BOND owns the level. LME Cu **233,025t [10/9] = −0.69% vs 234,650t rolling 2yr median** (Westmetall LME mirror). Boot quote ~16:51 ET 10/12: GLD **$382.15, −0.63%**, not a certified close.
 
 **Instrument warnings:** (1) futures daily vendor bars are not a settlement source; never certify a fast-info quote as a settle; (2) SI=F/HG=F/PL=F/PA=F are DYING on 10/9 volume, so quote explicit contracts and no cross-roll deltas; GC=F matched GCZ26; (3) a bar that can still move is not a close; pull again/T+1 for grading. `FRONT_MONTHS` is hand-maintained; PLF27 remains the mapped front month.
+
+## PGM FOLLOW-UP
+
+**PROME-directed follow-up, 2026-10-12:** UNRESOLVED for September30→October9 PGM weakness. Latest primary NYMEX stocks now retrieved (report10/12, activity10/9): Pt310,939.722oz / Pd249,946.262oz combined, zero receipts/withdrawals/reclassification. Issuer10/9 NAV/assets recovered; reported share-count/ounce history not retrieved. Full comparison/caveats: `analysis/2026-10-12_PGM-inventory-flow-followup.md`. Latest stock access gap closed; matched history/fund flows/lease rates remain unresolved. Scores and approved bands unchanged. Broad review consumption verified at PROME0cb6d515f; this result awaits PROME read.
 
 ## HELD GLD
 
@@ -75,14 +79,14 @@ Rules remain on their 8/7 re-derived letter; observations updated 10/12. Histori
 ## OPEN ON MIDAS — TOP 3
 
 1. **M1 live successor remains owed:** today's beta remeasurement is diagnostic, not a score-changing new letter. Window/vintage/basis/base-rate design must be prospective; WQ-161/162 apply. Review by **10/19 next weekly boot**.
-2. **WQ-368 day-31 reading due11/1:** bands already adopted, never call WQ-352 pending. PGM mechanism remains unresolved without lease rates, NYMEX stocks and fund flows; HAWK's instrument-access negative was delivered9/2, so no sixth asking. BIS check still owed; bounded review10/19.
+2. **WQ-368 day-31 reading due11/1:** bands already adopted, never call WQ-352 pending. PGM mechanism remains unresolved without lease rates, matched NYMEX stock history and fund flows; latest NYMEX point now retrieved; HAWK's instrument-access negative was delivered9/2, so no sixth asking. BIS check still owed; bounded review10/19.
 3. **I1 venue comparison incomplete:** current COMEX/SHFE series absent; construction→copper lag unknown. September50.3 print integrated; China's causal interpretation stays ZHAO's. MIDAS-09/10 resolve **10/30**; no early grades.
 
-Full register `OPEN_ITEMS.md` remains boot-read. COT ledger wiring, SCRATCH rotation, float edge and WQ-399 syntax are DONE. NEXUS_BRIEF is current and below cap. No new action from Citi's forecast or Shelton's appointment. Irkutsk correction applied; no plague/production claim survives.
+Full register `OPEN_ITEMS.md` remains boot-read. COT ledger wiring, SCRATCH rotation, float edge and WQ-399 syntax are DONE. PGM follow-up is complete with an unresolved explanatory verdict; next existing review10/19. NEXUS_BRIEF is current and below cap. No new action from Citi's forecast or Shelton's appointment. Irkutsk correction applied; no plague/production claim survives.
 
 ## BOTTOM LINE
 
-The held gold position retains structural demand support, while the measured real-rate response remains negative; it should not be counted as a reliable hedge against rising real yields. Palladium is the weakest precious metal in this review period, and the band's approval timing excludes its October1 orange crossing. Platinum's October7 crossing qualifies as post-approval evidence, but all new bands remain unscored for the approved month. Next: 10/19 weekly review, 10/30 registered pair resolutions and WQ-368 by11/1; no new trade decision today.
+The held gold position retains structural demand support, while the measured real-rate response remains negative; it should not be counted as a reliable hedge against rising real yields. Palladium is the weakest precious metal in this review period, and the band's approval timing excludes its October1 orange crossing. Platinum's October7 crossing qualifies as post-approval evidence, but all new bands remain unscored for the approved month. The bounded inventory/fund pass remains UNRESOLVED for the weakness; latest NYMEX access is now supported, while matched history is missing. Next: 10/19 weekly review, 10/30 registered pair resolutions and WQ-368 by11/1; no new trade decision today.
 - **Gold** Dec2026 `GCZ26` **$4,216.30 [10/9]**, +0.71% vs9/30; modest rate relief/ETF support, crowded longs declining.
 - **Silver** Dec2026 `SIZ26` **$61.048 [10/9]**, +0.80% vs9/30; monetary recovery with solar-thrifting headwind, April forecast deficit46.3Moz newly primary-verified, COT middling.
 - **Platinum** Jan2027 `PLF27` **$1,693.30 [10/9]**, −1.49% vs9/30; rates/investment flows dominate, WPIC forecasts2026 surplus265koz, post-approval trend crossing recovered.

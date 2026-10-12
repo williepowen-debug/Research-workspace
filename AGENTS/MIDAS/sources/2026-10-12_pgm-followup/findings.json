@@ -1,0 +1,68 @@
+{
+  "stocks": {
+    "platinum": {
+      "unit": "troy ounces",
+      "report_date": "2026-10-12",
+      "activity_date": "2026-10-09",
+      "prior_date": "not explicitly printed",
+      "registered": 116425.323,
+      "eligible": 194514.399,
+      "combined": 310939.722,
+      "receipts": 0,
+      "withdrawals": 0,
+      "net_change": 0,
+      "adjustment": 0,
+      "zero_state": "MEASURED_ZERO for October9 report interval only",
+      "warehouse_sums_reconcile": true
+    },
+    "palladium": {
+      "unit": "troy ounces",
+      "report_date": "2026-10-12",
+      "activity_date": "2026-10-09",
+      "prior_date": "not explicitly printed",
+      "registered": 196832.119,
+      "eligible": 53114.143,
+      "combined": 249946.262,
+      "receipts": 0,
+      "withdrawals": 0,
+      "net_change": 0,
+      "adjustment": 0,
+      "zero_state": "MEASURED_ZERO for October9 report interval only",
+      "warehouse_sums_reconcile": true
+    }
+  },
+  "funds": {
+    "PPLT": {
+      "as_of": "2026-10-09T00:00:00Z",
+      "aum_usd": "1996379203.74",
+      "nav_usd_per_share": "15.14129",
+      "market_usd_per_share": "15.25",
+      "market_minus_nav_pct": 0.7179705295916002,
+      "aum_div_nav_implied_shares": 131850007.74306549,
+      "share_count_state": "INFERRED_ONLY, conditional on fundSizeValue being same-date net assets; not a retrieved reported share count",
+      "physical_ounces_state": "NOT_RETRIEVED",
+      "historical_series_state": "NOT_RETRIEVED",
+      "holdings_tab_available": false,
+      "source_path": "issuer_pplt_embedded.json#props/pageProps/page/pageData/fundDetailsData"
+    },
+    "PALL": {
+      "as_of": "2026-10-09T00:00:00Z",
+      "aum_usd": "602284406.51",
+      "nav_usd_per_share": "20.63501",
+      "market_usd_per_share": "20.77",
+      "market_minus_nav_pct": 0.6541794745919677,
+      "aum_div_nav_implied_shares": 29187502.526531365,
+      "share_count_state": "INFERRED_ONLY, conditional on fundSizeValue being same-date net assets; not a retrieved reported share count",
+      "physical_ounces_state": "NOT_RETRIEVED",
+      "historical_series_state": "NOT_RETRIEVED",
+      "holdings_tab_available": false,
+      "source_path": "issuer_pall_embedded.json#props/pageProps/page/pageData/fundDetailsData"
+    }
+  },
+  "basis": "October9 issuer snapshot and CME activity date October9 (report date October12); no September30 stock/fund-flow baseline retrieved",
+  "raw_hashes": {
+    "cme_pgm_stocks.xls": "b921a03ab8fcac6fc5b09e5f95896b30304b8d53cdd71202f47eca10659a3f36",
+    "issuer_pplt.html": "c4099790cf1033a152d1b372ef8b9ea167c6f61ed8267ed42d674ea446e39780",
+    "issuer_pall.html": "376334c2580c4551e7fa7772488fc42e2b5671c980a8a43c952c4d638f5f7e28"
+  }
+}

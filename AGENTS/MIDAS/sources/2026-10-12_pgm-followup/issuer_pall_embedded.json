@@ -1,0 +1,3081 @@
+{
+  "props": {
+    "pageProps": {
+      "page": {
+        "layout": {
+          "sitecore": {
+            "context": {
+              "pageEditing": false,
+              "site": {
+                "name": "Investor"
+              },
+              "pageState": "normal",
+              "editMode": "chromes",
+              "language": "en-US",
+              "itemPath": "/funds/view-all-funds/-us0032621023",
+              "siteId": "{ED1796F8-D3B5-4F6A-BE96-8EDCF280FC08}",
+              "siteSettings": {
+                "id": "87b2fe4b-b311-4942-80cf-db813890b781",
+                "path": "/sitecore/content/Investments/Investor/Settings"
+              },
+              "siteRoot": "{ACA0B7B4-2DD8-419F-9690-3EF8EBC06B98}",
+              "hostName": "https://www.aberdeeninvestments.com/investor",
+              "metaDescription": "abrdn Physical Palladium Shares ETF (PALL) seeks to reflect the performance of the price of physical palladium, less the Trust's expenses.",
+              "metaTitle": "abrdn Physical Palladium Shares ETF | Aberdeen",
+              "canonicalTag": {
+                "href": "https://www.aberdeeninvestments.com/en-us/investor/funds/view-all-funds/-us0032621023",
+                "isSelfReferencing": true
+              },
+              "pageTheme": "Investment",
+              "gtmConfigs": [
+                "WVHHVC3"
+              ],
+              "oneTrustScriptID": "01956835-bf40-7287-acf8-fb2c390e3779",
+              "oneTrustAutoBlock": true,
+              "twitterCard": {
+                "twitterTitle": "abrdn Physical Palladium Shares ETF | Aberdeen",
+                "twitterDescription": "",
+                "twitterImage": null,
+                "twitterSite": "@",
+                "twitterCard": "summary"
+              },
+              "openGraph": {
+                "ogTitle": "abrdn Physical Palladium Shares ETF | Aberdeen",
+                "ogDescription": "",
+                "ogType": "website",
+                "ogImage": null
+              },
+              "oracleCDP": "",
+              "disclaimer": {
+                "declineLink": {
+                  "value": {
+                    "href": "https://www.aberdeeninvestments.com",
+                    "linktype": "external",
+                    "url": "https://www.aberdeeninvestments.com",
+                    "anchor": "",
+                    "target": ""
+                  }
+                },
+                "description": {
+                  "value": "You're entering our US Financial Advisor and Investors website.<br />\r\n \r\n<br />The information in this site is not an offer to invest or deal in any of the investments, funds or products described. You shouldn't regard it as tax, legal or investment advice or as a recommendation that any of the investments, funds or products described are right for an investor.<br />\r\n<br />\r\nBy clicking accept you are confirming you are resident in the US and are an appropriate audience for this website."
+                },
+                "title": {
+                  "value": "Investors"
+                }
+              },
+              "dataLayer": {
+                "global": {
+                  "vector": null,
+                  "investor_type": null
+                },
+                "audience": {
+                  "investment": {
+                    "account_type": null,
+                    "status": null
+                  },
+                  "adviser": {
+                    "tier": null
+                  }
+                },
+                "content": {
+                  "insights_category": null,
+                  "article_category": null,
+                  "article_type": null,
+                  "article_capability": null,
+                  "article_theme": null,
+                  "article_series": null,
+                  "article_theme_corp": null
+                }
+              },
+              "jsBeacon": "//cdn.evgnet.com/beacon/c556855555593w4pk3n3n3p081551310/investments_prod/scripts/evergage.min.js",
+              "doNotIndex": false,
+              "pageSchema": {
+                "organizationLogo": {
+                  "url": null,
+                  "alt": null
+                },
+                "organizationName": "Aberdeen Investments",
+                "market": "",
+                "publisher": "Aberdeen Investments Global",
+                "publisherAddress": "1900 Market Street Suite 200 Philadelphia, PA 19103, 28 State Street, 17th Floor Boston, MA 02109, New York City Aberdeen 875 3rd Ave Suite 403 New York, NY 10022,  Aberdeen 1395 Brickell Ave, Suite 900 Miami, FL 33131",
+                "publisherLogo": {
+                  "url": null,
+                  "alt": null
+                },
+                "complianceDisclaimer": "",
+                "lastUpdated": "2026-09-06T23:50:05Z"
+              },
+              "languageVersions": [
+                {
+                  "hreflang": "en-US",
+                  "languageName": "English",
+                  "href": "https://www.aberdeeninvestments.com/en-us/investor/funds/view-all-funds/-us0032621023",
+                  "applicableForSelector": false
+                }
+              ],
+              "siteSelector": {
+                "changeCountryCta": {
+                  "value": {
+                    "text": "Home",
+                    "anchor": "",
+                    "linktype": "internal",
+                    "class": "",
+                    "title": "",
+                    "querystring": "",
+                    "id": "{5A9E07B5-F085-41EE-ACDE-137DE97BA14F}",
+                    "href": "https://www.aberdeeninvestments.com/en-us"
+                  }
+                },
+                "changeCountryIcon": {
+                  "value": {
+                    "src": "https://edge.sitecorecloud.io/aberdeenasse144-abrdnb714-productioneda2-c20b/media/abrdn-jss-app/icons-svgs/communication_network.svg?iar=0&rev=325ad4f6588a41ccab9a2928abd358da",
+                    "alt": "Communication",
+                    "data-type": "image/svg+xml"
+                  }
+                },
+                "vectors": [
+                  {
+                    "description": {
+                      "value": "For people managing their own savings and investments."
+                    },
+                    "heading": {
+                      "value": "Individual"
+                    },
+                    "icon": {
+                      "value": {
+                        "src": "https://edge.sitecorecloud.io/aberdeenasse144-abrdnb714-productioneda2-c20b/media/abrdn-jss-app/icons-svgs/32_abrdn_panelsessions_icon_rev-01.svg?iar=0&rev=ecf985f142c34623ba207bed8173e498",
+                        "alt": "",
+                        "data-type": "image/svg+xml"
+                      }
+                    },
+                    "links": [
+                      {
+                        "link": {
+                          "value": {
+                            "text": "Investment funds & solutions",
+                            "anchor": "",
+                            "linktype": "internal",
+                            "class": "",
+                            "title": "",
+                            "target": "",
+                            "querystring": "",
+                            "id": "{0DF0BB9C-D5B9-446E-8130-FEC60E837B08}",
+                            "href": "/en-us/investor"
+                          }
+                        },
+                        "isSelected": {
+                          "value": true
+                        }
+                      },
+                      {
+                        "link": {
+                          "value": {
+                            "href": "https://www.abrdn.com/en-us/cefinvestorcenter",
+                            "text": "Closed End Funds",
+                            "linktype": "external",
+                            "url": "https://www.abrdn.com/en-us/cefinvestorcenter",
+                            "anchor": "",
+                            "target": ""
+                          }
+                        },
+                        "isSelected": {
+                          "value": false
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "description": {
+                      "value": "For people managing savings and/or investments on behalf of someone else."
+                    },
+                    "heading": {
+                      "value": "Financial advisors and wealth managers"
+                    },
+                    "icon": {
+                      "value": {
+                        "src": "https://edge.sitecorecloud.io/aberdeenasse144-abrdnb714-productioneda2-c20b/media/abrdn-jss-app/icons-svgs/32_abrdn_networking_icon_rev-01.svg?iar=0&rev=d5bcac235f6a4ec7a94d7eea5070f064",
+                        "alt": "",
+                        "data-type": "image/svg+xml"
+                      }
+                    },
+                    "links": [
+                      {
+                        "link": {
+                          "value": {
+                            "href": "https://www.abrdn.com/en-us/investor",
+                            "text": " Investment funds & solutions",
+                            "linktype": "external",
+                            "url": "https://www.abrdn.com/en-us/investor",
+                            "anchor": "",
+                            "target": ""
+                          }
+                        },
+                        "isSelected": {
+                          "value": false
+                        }
+                      },
+                      {
+                        "link": {
+                          "value": {
+                            "href": "https://www.abrdn.com/en-us/intermediary",
+                            "text": "International Wealth Management",
+                            "linktype": "external",
+                            "url": "https://www.abrdn.com/en-us/intermediary",
+                            "anchor": "",
+                            "target": ""
+                          }
+                        },
+                        "isSelected": {
+                          "value": false
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "description": {
+                      "value": "For pension schemes, insurers, charities, universities, family offices and treasurers."
+                    },
+                    "heading": {
+                      "value": "Institutional"
+                    },
+                    "icon": {
+                      "value": {
+                        "src": "https://edge.sitecorecloud.io/aberdeenasse144-abrdnb714-productioneda2-c20b/media/abrdn-jss-app/icons-svgs/32_abrdn_attendees_icon_rev-01.svg?iar=0&rev=effeccb065284d1e8ca118ac24b9f4fc",
+                        "alt": "",
+                        "data-type": "image/svg+xml"
+                      }
+                    },
+                    "links": [
+                      {
+                        "link": {
+                          "value": {
+                            "href": "https://www.abrdn.com/en-us/institutional",
+                            "text": "Investment funds & solutions",
+                            "linktype": "external",
+                            "url": "https://www.abrdn.com/en-us/institutional",
+                            "anchor": "",
+                            "target": ""
+                          }
+                        },
+                        "isSelected": {
+                          "value": false
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              "fundsConfiguration": {
+                "countryInvestors": {
+                  "countryCode": "USA",
+                  "investorType": "1,4",
+                  "jurisdiction": "Live",
+                  "literatureAuthorization": "1"
+                },
+                "allFundsLink": "/en-us/investor/funds/view-all-funds",
+                "performanceChartSettings": {
+                  "availableOptions": [],
+                  "defaultOption": ""
+                }
+              },
+              "shareClassAuthorizations": {
+                "en": [
+                  "MYS4Live",
+                  "MYS1Live"
+                ],
+                "de-CH": [
+                  "CHE4Live",
+                  "CHE1Live"
+                ],
+                "de-DE": [
+                  "DEU4Live",
+                  "DEU1Live"
+                ],
+                "de-AT": [
+                  "AUT4Live",
+                  "AUT1Live"
+                ],
+                "en-CA": [
+                  "CAN4Live",
+                  "CAN1Live"
+                ],
+                "en-CH": [
+                  "CHE4Live",
+                  "CHE1Live"
+                ],
+                "en-AU": [
+                  "AUS4Live",
+                  "AUS1Live",
+                  "AUS2Live",
+                  "AUS3Live"
+                ],
+                "en-FI": [
+                  "FIN1Live",
+                  "FIN4Live"
+                ],
+                "en-DK": [
+                  "DNK4Live",
+                  "DNK1Live"
+                ],
+                "en-IE": [
+                  "IRL4Live",
+                  "IRL1Live"
+                ],
+                "en-HK": [
+                  "HKG4Live",
+                  "HKG1Live"
+                ],
+                "en-IS": [
+                  "ISL1Live",
+                  "ISL4Live"
+                ],
+                "en-MY": [
+                  "MYS4Live",
+                  "MYS1Live"
+                ],
+                "en-LU": [
+                  "LUX1Live",
+                  "LUX4Live"
+                ],
+                "en-NZ": [
+                  "NZL4Live",
+                  "NZL1Live",
+                  "NZL3Live",
+                  "NZL2Live"
+                ],
+                "en-SG": [
+                  "SGP1Live",
+                  "SGP4Live"
+                ],
+                "en-NL": [
+                  "NLD4Live",
+                  "NLD1Live"
+                ],
+                "en-SE": [
+                  "SWE1Live",
+                  "SWE4Live"
+                ],
+                "en-TH": [
+                  "THA1Live",
+                  "THA4Live"
+                ],
+                "en-NO": [
+                  "NOR1Live",
+                  "NOR4Live"
+                ],
+                "en-US": [
+                  "USA1Live",
+                  "USA4Live"
+                ],
+                "es-ES": [
+                  "ESP4Live",
+                  "ESP1Live"
+                ],
+                "fr-BE": [
+                  "BEL4Live",
+                  "BEL1Live"
+                ],
+                "fr-CH": [
+                  "CHE4Live",
+                  "CHE1Live"
+                ],
+                "fr-FR": [
+                  "FRA4Live",
+                  "FRA1Live"
+                ],
+                "it-IT": [
+                  "ITA4Live",
+                  "ITA1Live"
+                ],
+                "ja-JP": [
+                  "JPN4Live",
+                  "JPN1Live"
+                ],
+                "nl-BE": [
+                  "BEL4Live",
+                  "BEL1Live"
+                ],
+                "nl-NL": [
+                  "NLD1Live",
+                  "NLD4Live"
+                ],
+                "th-TH": [
+                  "THA4Live",
+                  "THA1Live"
+                ],
+                "zh-HK": [
+                  "HKG1Live",
+                  "HKG4Live"
+                ]
+              },
+              "fundSettings": {
+                "id": "49e3319e-cd6b-4e83-a832-dc3d6908faa0",
+                "path": "/sitecore/content/Investments/Investor/Settings/Fund Settings"
+              },
+              "variantId": "_default",
+              "assetClassName": "Alternatives"
+            },
+            "route": {
+              "name": "*",
+              "displayName": "*",
+              "fields": {
+                "NavigationFilter": [],
+                "NavigationClass": null,
+                "NavigationTitle": {
+                  "value": ""
+                },
+                "SxaTags": [],
+                "Page Design": null,
+                "pageFundCapabilities": [
+                  {
+                    "fields": {
+                      "name": {
+                        "value": "Alternatives"
+                      }
+                    },
+                    "name": "Alternatives"
+                  }
+                ],
+                "pageFundAssetClasses": [
+                  {
+                    "fields": {
+                      "className": {
+                        "value": "Alternatives"
+                      }
+                    },
+                    "name": "Alternatives"
+                  }
+                ],
+                "pageFundSubAssetClasses": [
+                  {
+                    "fields": {
+                      "name": {
+                        "value": "Alternative Investment Solutions"
+                      }
+                    },
+                    "name": "Alternative Investment Solutions"
+                  }
+                ],
+                "navigationTitle": {
+                  "value": ""
+                },
+                "pageTheme": {
+                  "value": ""
+                },
+                "metaDescription": {
+                  "value": ""
+                },
+                "metaTitle": {
+                  "value": ""
+                },
+                "pageIntent": {
+                  "value": ""
+                },
+                "baseMetadataDescription": {
+                  "value": ""
+                },
+                "baseMetadataAuthor": {
+                  "value": ""
+                },
+                "baseMetadataTitle": {
+                  "value": ""
+                },
+                "baseMetadataKeywords": {
+                  "value": ""
+                },
+                "baseOgTitle": {
+                  "value": ""
+                },
+                "baseOgDescription": {
+                  "value": ""
+                },
+                "baseOgImage": {
+                  "value": {}
+                },
+                "baseOgType": {
+                  "value": "website"
+                }
+              },
+              "databaseName": "master",
+              "deviceId": "fe5d7fdf-89c0-4d99-9aa3-b5fbd009c9f3",
+              "itemId": "18f63207-c44f-41a0-8187-b80ed5ad0794",
+              "itemLanguage": "en-US",
+              "itemVersion": 1,
+              "layoutId": "0ae7a6a7-3f1e-406e-891a-f43e53a5f477",
+              "templateId": "543d5f77-8ad4-4326-9e23-84804031cb3c",
+              "templateName": "Fund Shareclass Details Wildcard Page",
+              "updated": "2026-09-06T23:50:05.0000000Z",
+              "placeholders": {
+                "abrdn-header": [
+                  {
+                    "uid": "05b583cd-f63b-46db-b0dd-22150bb70f31",
+                    "componentName": "Header",
+                    "dataSource": "{75AAE80A-99BB-407C-965A-955EC9F3ECE7}",
+                    "isContentResolved": true,
+                    "params": {
+                      "name": "Header",
+                      "isDatasourcePresented": "True",
+                      "isCorrectDatasourceTemplate": "True"
+                    },
+                    "fields": {
+                      "logo": {
+                        "value": {
+                          "src": "https://edge.sitecorecloud.io/aberdeenasse144-abrdnb714-productioneda2-c20b/media/abrdn-jss-app/logos/abrdn/v/v3/abrdn_invest_blk_ls_rgb--v3-1.svg?iar=0&rev=-1",
+                          "alt": "",
+                          "data-type": "image/svg+xml"
+                        }
+                      },
+                      "logoLink": {
+                        "value": {
+                          "text": "Homepage",
+                          "anchor": "",
+                          "linktype": "internal",
+                          "class": "",
+                          "title": "",
+                          "target": "_blank",
+                          "querystring": "",
+                          "id": "{0DF0BB9C-D5B9-446E-8130-FEC60E837B08}",
+                          "href": "/en-us/investor"
+                        }
+                      },
+                      "enableSearch": {
+                        "value": true
+                      },
+                      "searchPageLink": {
+                        "value": {
+                          "text": "Search",
+                          "anchor": "",
+                          "linktype": "internal",
+                          "class": "",
+                          "title": "",
+                          "target": "_blank",
+                          "querystring": "",
+                          "id": "{590A47F3-44DD-4FBD-8D54-DD6D3874180A}",
+                          "href": "/en-us/investor/search"
+                        }
+                      },
+                      "items": [
+                        {
+                          "id": "335f7ddb-04d5-4d47-aa3f-4e2fd2787bc9",
+                          "name": "Global Navigation Bar",
+                          "displayName": "Global Navigation Bar",
+                          "template": "Global Navigation Bar",
+                          "fields": {
+                            "ctaSecondary": {
+                              "value": {
+                                "href": ""
+                              }
+                            },
+                            "icon": {
+                              "value": ""
+                            },
+                            "iconSecondary": {
+                              "value": ""
+                            },
+                            "cta": {
+                              "value": {
+                                "href": ""
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "placeholders": {
+                      "abrdn-language-selector": [],
+                      "abrdn-mega-navigation": [
+                        {
+                          "uid": "099e9c96-4300-490d-978d-d57cb837bbac",
+                          "componentName": "MegaNavigation",
+                          "dataSource": "{FB242CE4-29EF-41DD-8792-91A227D3B5A2}",
+                          "isContentResolved": true,
+                          "params": {
+                            "name": "Mega Navigation",
+                            "isDatasourcePresented": "True",
+                            "isCorrectDatasourceTemplate": "True"
+                          },
+                          "fields": {
+                            "items": [
+                              {
+                                "id": "0f29d2db-a742-4506-a851-0682f26dc25b",
+                                "name": "Investment products",
+                                "displayName": "Investment products",
+                                "template": "Navigation Category",
+                                "fields": {
+                                  "pulloutLink": {
+                                    "value": {
+                                      "href": ""
+                                    }
+                                  },
+                                  "title": {
+                                    "value": "Investment products"
+                                  },
+                                  "promotedContent": null,
+                                  "items": [
+                                    {
+                                      "id": "70352955-1cdc-4ba1-b45b-2fd21351ce31",
+                                      "name": "Funds category",
+                                      "displayName": "Funds category",
+                                      "template": "Navigation Subcategory",
+                                      "fields": {
+                                        "title": {
+                                          "value": "Investment products"
+                                        },
+                                        "description": {
+                                          "value": "Explore fund information, pricing and performance details."
+                                        },
+                                        "items": [
+                                          {
+                                            "id": "6be7ba59-3ef2-4050-be33-4f2df2ca38e7",
+                                            "name": "View all funds",
+                                            "displayName": "View all funds",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "View all funds",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "target": "",
+                                                  "querystring": "",
+                                                  "id": "{CCFC6814-BC82-4CF8-9E62-23D7A2BE345B}",
+                                                  "href": "/en-us/investor/funds/view-all-funds"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "id": "a1d12062-5d95-4396-a0fe-4a33a3723cc6",
+                                            "name": "Mutual funds",
+                                            "displayName": "Mutual funds",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "Mutual funds",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "target": "",
+                                                  "querystring": "?fund_product_type=Mutual+Fund",
+                                                  "id": "{CCFC6814-BC82-4CF8-9E62-23D7A2BE345B}",
+                                                  "href": "/en-us/investor/funds/view-all-funds"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "id": "ce7badd4-a779-4a6c-838b-5282ce1546c3",
+                                            "name": "CEF",
+                                            "displayName": "CEF",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "Closed-end funds",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "target": "",
+                                                  "querystring": "?fund_product_type=Closed-End+Funds&table=navs&page=1",
+                                                  "id": "{CCFC6814-BC82-4CF8-9E62-23D7A2BE345B}",
+                                                  "href": "/en-us/investor/funds/view-all-funds"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "id": "a39e722a-3d7d-4959-b23a-86f064f460dc",
+                                            "name": "ETFs",
+                                            "displayName": "ETFs",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "ETFs",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "target": "",
+                                                  "querystring": "?table=prices&fund_product_type=Exchange%20Traded%20Fund",
+                                                  "id": "{CCFC6814-BC82-4CF8-9E62-23D7A2BE345B}",
+                                                  "href": "/en-us/investor/funds/view-all-funds"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "id": "8be0db75-3deb-4ce5-b93c-2ca3fd5c4639",
+                                            "name": "Separately managed accounts",
+                                            "displayName": "Separately managed accounts",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "Separately managed accounts (SMAs)",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "target": "",
+                                                  "querystring": "",
+                                                  "id": "{6644B63F-40D6-4F2A-83F0-3F4D7AFE9F16}",
+                                                  "href": "/en-us/investor/funds/separately-managed-accounts"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "id": "348b237f-23f5-480c-bce7-611907948983",
+                                "name": "Investment solutions",
+                                "displayName": "Investment solutions",
+                                "template": "Navigation Category",
+                                "fields": {
+                                  "pulloutLink": {
+                                    "value": {
+                                      "href": ""
+                                    }
+                                  },
+                                  "title": {
+                                    "value": "Investment solutions"
+                                  },
+                                  "promotedContent": null,
+                                  "items": [
+                                    {
+                                      "id": "578ad3e4-9297-4f4e-886e-552e216568d6",
+                                      "name": "Asset classes",
+                                      "displayName": "Asset classes",
+                                      "template": "Navigation Subcategory",
+                                      "fields": {
+                                        "title": {
+                                          "value": "Asset classes"
+                                        },
+                                        "description": {
+                                          "value": "Explore our investment products and solutions across asset classes"
+                                        },
+                                        "items": [
+                                          {
+                                            "id": "0532ce36-28dd-4072-900c-c385eea4c75f",
+                                            "name": "Credit",
+                                            "displayName": "Credit",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "Credit",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "querystring": "",
+                                                  "id": "{1DE8F1F1-73A0-4EA1-A852-B2A7137F93E5}",
+                                                  "href": "/en-us/investor/investment-solutions/credit"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "id": "a3d40348-d39c-43fd-8cf7-6ebf77d407db",
+                                            "name": "Real assets",
+                                            "displayName": "Real assets",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "Real assets",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "querystring": "",
+                                                  "id": "{318CF762-63BD-4357-8230-270425334640}",
+                                                  "href": "/en-us/investor/investment-solutions/real-assets"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "id": "8d290e20-d470-4f07-b7a9-485e19b81c5c",
+                                            "name": "Specialist equities",
+                                            "displayName": "Specialist equities",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "Specialist equities",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "querystring": "",
+                                                  "id": "{41C8877C-6D0F-476C-8730-6B4EE04DA8DA}",
+                                                  "href": "/en-us/investor/investment-solutions/specialist-equities"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "id": "ee9d17ab-4cb4-4b73-b093-36e2f4342a79",
+                                            "name": "Multi asset",
+                                            "displayName": "Multi asset",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "Multi-asset",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "querystring": "",
+                                                  "id": "{83B8A44B-12F6-4CD2-8E91-B698B81E7238}",
+                                                  "href": "/en-us/investor/investment-solutions/multi-asset"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "id": "204f24fa-6b69-4e3d-97dc-10930624be62",
+                                      "name": "Themes Funds in Focus",
+                                      "displayName": "Themes Funds in Focus",
+                                      "template": "Navigation Subcategory",
+                                      "fields": {
+                                        "title": {
+                                          "value": "Featured"
+                                        },
+                                        "description": {
+                                          "value": "Invest today in what\u2019s shaping tomorrow"
+                                        },
+                                        "items": [
+                                          {
+                                            "id": "a8e992ca-fc02-4052-985c-092ffb7029c1",
+                                            "name": "Active ETFs",
+                                            "displayName": "Active ETFs",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "Active ETFs",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "target": "",
+                                                  "querystring": "",
+                                                  "id": "{7F54CFB3-0300-4CB2-AC49-3C8CF6E108BB}",
+                                                  "href": "/en-us/investor/investment-solutions/active-etfs"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "id": "4047f591-7fd2-4814-9b95-d86adb3d007d",
+                                            "name": "Commodities",
+                                            "displayName": "Commodities",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "Commodities",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "target": "",
+                                                  "querystring": "",
+                                                  "id": "{BB20B859-A581-4DF2-9A02-A3D2F30BBF7B}",
+                                                  "href": "/en-us/investor/investment-solutions/commodities"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "id": "d134474d-5c1f-40b6-a5a2-684aa4573cef",
+                                            "name": "Municipal bonds",
+                                            "displayName": "Municipal bonds",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "Municipal bonds",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "target": "",
+                                                  "querystring": "",
+                                                  "id": "{896DF095-0EC5-481C-8D52-D2C22529A3B9}",
+                                                  "href": "/en-us/investor/investment-solutions/municipal-bonds"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "id": "92dad61f-2f0b-4808-9e04-9bb3b65ffc17",
+                                            "name": "Small caps",
+                                            "displayName": "Small caps",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "Small cap equities",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "querystring": "",
+                                                  "id": "{59CA82D1-1EC0-48AC-9E27-C97824565085}",
+                                                  "href": "/en-us/investor/investment-solutions/specialist-equities/smaller-companies"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "id": "8542050b-db41-458b-9027-f723d9949bfc",
+                                            "name": "Emerging Markets",
+                                            "displayName": "Emerging Markets",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "Emerging markets",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "target": "",
+                                                  "querystring": "",
+                                                  "id": "{2B6FE760-6D28-4C4A-A207-F0000D829CF9}",
+                                                  "href": "/en-us/investor/investment-solutions/emerging-markets-investing"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "id": "1348bb05-9394-4c92-85f4-9342b919800f",
+                                            "name": "Closed-End Funds",
+                                            "displayName": "Closed-End Funds",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "Closed-end funds",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "querystring": "",
+                                                  "id": "{0B95DB49-3F03-4745-9CD9-57003F50942A}",
+                                                  "href": "/en-us/investor/investment-solutions/closed-end-funds"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "id": "b23902c9-35a6-4260-9aeb-970f4570729a",
+                                "name": "Insights and Research",
+                                "displayName": "Insights and Research",
+                                "template": "Navigation Category",
+                                "fields": {
+                                  "pulloutLink": {
+                                    "value": {
+                                      "text": "Insights and research overview",
+                                      "anchor": "",
+                                      "linktype": "internal",
+                                      "class": "",
+                                      "title": "",
+                                      "target": "",
+                                      "querystring": "",
+                                      "id": "{D37D5F6B-80D2-4042-B0DA-B22A29BD67DA}",
+                                      "href": "/en-us/investor/insights-and-research"
+                                    }
+                                  },
+                                  "title": {
+                                    "value": "Insights and research"
+                                  },
+                                  "promotedContent": {
+                                    "id": "de781c36-f0e2-4e68-a292-a4400dda7a02",
+                                    "url": "/en-us/data/promoted-content-folder/commodities",
+                                    "name": "Commodities",
+                                    "displayName": "Commodities",
+                                    "fields": {
+                                      "title": {
+                                        "value": "Commodities in modern portfolios"
+                                      },
+                                      "ctaLink": {
+                                        "value": {
+                                          "text": "Learn more",
+                                          "anchor": "",
+                                          "linktype": "internal",
+                                          "class": "",
+                                          "title": "",
+                                          "target": "",
+                                          "querystring": "",
+                                          "id": "{66B40C6C-1AC6-4CCA-B541-72363C7A0741}",
+                                          "href": "/en-us/investor/investment-solutions/commodities/commodities-research-series"
+                                        }
+                                      },
+                                      "description": {
+                                        "value": "Explore how advisors are thinking about commodities through proprietary research, market insights, and interactive analysis of evolving portfolio trends"
+                                      },
+                                      "image": {
+                                        "value": {
+                                          "src": "https://edge.sitecorecloud.io/aberdeenasse144-abrdnb714-productioneda2-c20b/media/abrdn-jss-app/investments/adhoc-images/cow-library.jpg?iar=0&rev=16b9cbf1c15a4e75bde1d941ad2a6e0d",
+                                          "alt": "\"\"",
+                                          "data-type": "image/jpeg"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "items": [
+                                    {
+                                      "id": "01774516-5e58-4a10-ad58-c3fe0fa59d60",
+                                      "name": "Investment Insights column",
+                                      "displayName": "Investment Insights column",
+                                      "template": "Navigation Subcategory",
+                                      "fields": {
+                                        "title": {
+                                          "value": "Insights"
+                                        },
+                                        "description": {
+                                          "value": "Digestible insights offer our investment opinions and views on asset classes, strategies, markets, and sustainability."
+                                        },
+                                        "items": [
+                                          {
+                                            "id": "820efcee-3e63-412b-baec-a7d3b3534918",
+                                            "name": "All Market insights",
+                                            "displayName": "All Market insights",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "All market insights",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "querystring": "",
+                                                  "id": "{0F301E55-DAB4-4E8A-A84E-91B111A14B86}",
+                                                  "href": "/en-us/investor/insights-and-research/insights"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "id": "247ce67d-4bde-426d-bff4-33ee3b4e34c6",
+                                            "name": "Credit",
+                                            "displayName": "Credit",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "Credit",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "target": "",
+                                                  "querystring": "?article_capabilities=Credit",
+                                                  "id": "{0F301E55-DAB4-4E8A-A84E-91B111A14B86}",
+                                                  "href": "/en-us/investor/insights-and-research/insights"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "id": "e4c367e5-0dea-40e5-8e55-27f8301ac69c",
+                                            "name": "Specialist Equities",
+                                            "displayName": "Specialist Equities",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "Specialist equities",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "target": "",
+                                                  "querystring": "?article_capabilities=Specialist+equities",
+                                                  "id": "{0F301E55-DAB4-4E8A-A84E-91B111A14B86}",
+                                                  "href": "/en-us/investor/insights-and-research/insights"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "id": "ee6eb9c0-bbaa-43ce-b962-67f2ef50e874",
+                                            "name": "Commodities",
+                                            "displayName": "Commodities",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "Commodities",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "target": "",
+                                                  "querystring": "?article_capabilities=Commodities",
+                                                  "id": "{0F301E55-DAB4-4E8A-A84E-91B111A14B86}",
+                                                  "href": "/en-us/investor/insights-and-research/insights"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "id": "f3095357-17fd-4e98-9d6c-ae5c3b8ff15d",
+                                      "name": "The Witt column",
+                                      "displayName": "The Witt column",
+                                      "template": "Navigation Subcategory",
+                                      "fields": {
+                                        "title": {
+                                          "value": "The Witt"
+                                        },
+                                        "description": {
+                                          "value": "A series of concise, opinion-led views on how our investors are thinking about today\u2019s investment landscape."
+                                        },
+                                        "items": [
+                                          {
+                                            "id": "471b91cd-0a88-4682-8754-fc7f6a2db8fe",
+                                            "name": "The Witt",
+                                            "displayName": "The Witt",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "Latest from The Witt",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "target": "",
+                                                  "querystring": "",
+                                                  "id": "{43DFB80B-12E8-401C-B42C-B1437957FAC7}",
+                                                  "href": "/en-us/investor/insights-and-research/the-witt"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "id": "01f783f5-a56f-447a-bec8-1d8d3d2d9431",
+                                      "name": "abrdn research institute column",
+                                      "displayName": "abrdn research institute column",
+                                      "template": "Navigation Subcategory",
+                                      "fields": {
+                                        "title": {
+                                          "value": "Global Macro Research"
+                                        },
+                                        "description": {
+                                          "value": "Innovative macro research on the big economic, policy, political and behavioural themes shaping the investment landscape. "
+                                        },
+                                        "items": [
+                                          {
+                                            "id": "9b2e78a8-fbf6-4d97-9bdd-4385bc258b67",
+                                            "name": "All abrdn research institute",
+                                            "displayName": "All abrdn research institute",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "All research",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "target": "",
+                                                  "querystring": "",
+                                                  "id": "{03B2D5CA-D99B-4255-9D8F-E77AFBB59977}",
+                                                  "href": "/en-us/investor/insights-and-research/global-macro-research"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "id": "9efd48e5-23f8-4746-a585-676bb9f8c8fe",
+                                            "name": "Politics and policy",
+                                            "displayName": "Politics and policy",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "Politics and policy",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "target": "",
+                                                  "querystring": "?article_themes=Politics",
+                                                  "id": "{03B2D5CA-D99B-4255-9D8F-E77AFBB59977}",
+                                                  "href": "/en-us/investor/insights-and-research/global-macro-research"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "id": "cdd61150-a90a-401c-8616-e6b9ab90b008",
+                                            "name": "Economics research",
+                                            "displayName": "Economics research",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "Economics research",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "target": "",
+                                                  "querystring": "",
+                                                  "id": "{03B2D5CA-D99B-4255-9D8F-E77AFBB59977}",
+                                                  "href": "/en-us/investor/insights-and-research/global-macro-research"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "id": "af7243e6-8fe5-4ec4-b129-36de80a15e0c",
+                                            "name": "Economics forecasts",
+                                            "displayName": "Economics forecasts",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "Economic forecasts",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "target": "",
+                                                  "querystring": "?article_themes=Economic+Outlook",
+                                                  "id": "{03B2D5CA-D99B-4255-9D8F-E77AFBB59977}",
+                                                  "href": "/en-us/investor/insights-and-research/global-macro-research"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "id": "6f263629-daee-48a5-b2c9-91f087441736",
+                                "name": "About us",
+                                "displayName": "About us",
+                                "template": "Navigation Category",
+                                "fields": {
+                                  "pulloutLink": {
+                                    "value": {
+                                      "href": ""
+                                    }
+                                  },
+                                  "title": {
+                                    "value": "Who we are"
+                                  },
+                                  "promotedContent": null,
+                                  "items": [
+                                    {
+                                      "id": "582a2eba-b831-4670-aa7e-8c25d64c3c5d",
+                                      "name": "About us",
+                                      "displayName": "About us",
+                                      "template": "Navigation Subcategory",
+                                      "fields": {
+                                        "title": {
+                                          "value": "About us"
+                                        },
+                                        "description": {
+                                          "value": "We're here to help you achieve your clients investment goals and broaden their financial horizons"
+                                        },
+                                        "items": [
+                                          {
+                                            "id": "2e0c44ff-4c79-4d6a-8021-155a0e2c3b22",
+                                            "name": "Who we are",
+                                            "displayName": "Who we are",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "Who we are",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "target": "",
+                                                  "querystring": "",
+                                                  "id": "{59B40CB7-228E-493D-B2FA-73198C72EB38}",
+                                                  "href": "/en-us/investor/about-us"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "id": "33e0003a-1514-4382-ba69-107b1de3c314",
+                                "name": "Contact and support",
+                                "displayName": "Contact and support",
+                                "template": "Navigation Category",
+                                "fields": {
+                                  "pulloutLink": {
+                                    "value": {
+                                      "href": ""
+                                    }
+                                  },
+                                  "title": {
+                                    "value": "Contact us and support"
+                                  },
+                                  "promotedContent": null,
+                                  "items": [
+                                    {
+                                      "id": "cb172c28-d00c-4837-9d23-8cdd64fe5b2b",
+                                      "name": "Contact us",
+                                      "displayName": "Contact us",
+                                      "template": "Navigation Subcategory",
+                                      "fields": {
+                                        "title": {
+                                          "value": "Contact us"
+                                        },
+                                        "description": {
+                                          "value": "Find out how you can get in touch with one of our dedicated teams"
+                                        },
+                                        "items": [
+                                          {
+                                            "id": "7320aaa1-70af-4e88-9d3f-268719993e6b",
+                                            "name": "Contact us link",
+                                            "displayName": "Contact us link",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "Contact us and support",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "target": "",
+                                                  "querystring": " ",
+                                                  "id": "{F8D76751-9FFE-4525-BF0B-837C262353EF}",
+                                                  "href": "/en-us/investor/contact-and-support"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "id": "ad51d549-dfb3-4c80-bcbe-143d6aac49d1",
+                                            "name": "Email preference center",
+                                            "displayName": "Email preference center",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "Email preference center",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "target": "",
+                                                  "querystring": "",
+                                                  "id": "{029D7221-28FD-4D8E-8097-3FEF01C5FB25}",
+                                                  "href": "/en-us/investor/email-preferences"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "id": "fe8f5a89-f20f-49e1-93df-244e7779aca4",
+                                "name": "How to invest",
+                                "displayName": "How to invest",
+                                "template": "Navigation Category",
+                                "fields": {
+                                  "pulloutLink": {
+                                    "value": {
+                                      "text": "How to invest",
+                                      "anchor": "",
+                                      "linktype": "internal",
+                                      "class": "",
+                                      "title": "",
+                                      "target": "",
+                                      "querystring": "",
+                                      "id": "{922813AA-D53A-464A-98A7-B24B2FD6E5C0}",
+                                      "href": "/en-us/investor/how-to-invest"
+                                    }
+                                  },
+                                  "title": {
+                                    "value": "How to invest"
+                                  },
+                                  "promotedContent": null,
+                                  "items": [
+                                    {
+                                      "id": "8cf1f734-9968-43bc-9713-97b9a607811a",
+                                      "name": "How to invest subcategory",
+                                      "displayName": "How to invest subcategory",
+                                      "template": "Navigation Subcategory",
+                                      "fields": {
+                                        "title": {
+                                          "value": "How to invest"
+                                        },
+                                        "description": {
+                                          "value": "Our products are offered through an extensive network of over 500 financial professionals and brokerage firms."
+                                        },
+                                        "items": [
+                                          {
+                                            "id": "e3a6284f-6b36-4a4a-83f9-e9347322a145",
+                                            "name": "Aberdeen funds",
+                                            "displayName": "Aberdeen funds",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "Aberdeen funds",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "querystring": "",
+                                                  "id": "{6963C459-A6D4-40B1-BA15-ACEBF1D2F406}",
+                                                  "href": "/en-us/investor/how-to-invest/abrdn-funds"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "id": "2df431fd-350b-4b6c-b798-d0efd0f0040f",
+                                            "name": "Escheatment abandoned property",
+                                            "displayName": "Escheatment abandoned property",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "text": "Escheatment/Abandoned property",
+                                                  "anchor": "",
+                                                  "linktype": "internal",
+                                                  "class": "",
+                                                  "title": "",
+                                                  "target": "",
+                                                  "querystring": "",
+                                                  "id": "{05445B35-6039-40E6-BA7D-D952394B8E83}",
+                                                  "href": "/en-us/investor/how-to-invest/escheatment-abandoned-property"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "id": "94ff9e61-32b2-4f28-aac5-27cf54e3bacb",
+                                            "name": "Shareholder login",
+                                            "displayName": "Shareholder login",
+                                            "template": "Navigation Link",
+                                            "fields": {
+                                              "link": {
+                                                "value": {
+                                                  "href": "https://www.secureaccountview.com/BFWeb/clients/abrdn/index",
+                                                  "text": "Shareholder online access",
+                                                  "linktype": "external",
+                                                  "url": "https://www.secureaccountview.com/BFWeb/clients/abrdn/index",
+                                                  "anchor": "",
+                                                  "target": "_blank"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "abrdn-breadcrumbs": [
+                        {
+                          "uid": "9fb84a73-f0ef-4a98-be92-756ed49be625",
+                          "componentName": "Breadcrumbs",
+                          "dataSource": "",
+                          "isContentResolved": true,
+                          "params": {
+                            "name": "Breadcrumbs",
+                            "isDatasourcePresented": "True",
+                            "isCorrectDatasourceTemplate": "True"
+                          },
+                          "fields": {
+                            "breadcrumbs": {
+                              "value": [
+                                {
+                                  "id": "0df0bb9c-d5b9-446e-8130-fec60e837b08",
+                                  "name": "Homepage",
+                                  "url": "/en-us/investor"
+                                },
+                                {
+                                  "id": "8c367c8c-afc4-4422-9337-200dc5884216",
+                                  "name": "Investment products",
+                                  "url": "/en-us/investor/funds"
+                                },
+                                {
+                                  "id": "ccfc6814-bc82-4cf8-9e62-23d7a2be345b",
+                                  "name": "View all funds",
+                                  "url": "/en-us/investor/funds/view-all-funds"
+                                },
+                                {
+                                  "id": "18f63207-c44f-41a0-8187-b80ed5ad0794",
+                                  "name": "abrdn Physical Palladium Shares ETF",
+                                  "url": "https://www.aberdeeninvestments.com/en-us/investor/funds/view-all-funds/-us0032621023"
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "abrdn-main": [
+                  {
+                    "uid": "9d151c89-dd80-4143-b11b-e6c8b29a3a9a",
+                    "componentName": "FundDetailsBanner",
+                    "dataSource": "",
+                    "isContentResolved": true,
+                    "params": {
+                      "name": "Fund Details Banner",
+                      "isDatasourcePresented": "True",
+                      "isCorrectDatasourceTemplate": "True"
+                    },
+                    "placeholders": {
+                      "abrdn-preliminary-info": []
+                    }
+                  },
+                  {
+                    "uid": "86596b51-aa13-4550-bd49-ff05ee5c7c0e",
+                    "componentName": "FundDetailsTabs",
+                    "dataSource": "",
+                    "isContentResolved": true,
+                    "params": {
+                      "name": "Fund Details Tabs",
+                      "isDatasourcePresented": "True",
+                      "isCorrectDatasourceTemplate": "True"
+                    }
+                  },
+                  {
+                    "uid": "0951dffd-489c-4209-8b42-70304c855cc6",
+                    "componentName": "DynamicRelatedArticlesSection",
+                    "dataSource": "",
+                    "isContentResolved": true,
+                    "params": {
+                      "background": "background-digital-light-grey",
+                      "name": "Dynamic Related Articles",
+                      "isDatasourcePresented": "True",
+                      "isCorrectDatasourceTemplate": "True"
+                    },
+                    "fields": {
+                      "capabilityMappings": {
+                        "value": [
+                          {
+                            "capabilityId": "{0FB3494A-7605-46D6-AA0A-7B2968491AD5}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "About us"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{5AF83E2D-95A7-4954-81D1-933DBDE89F9A}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Active Equities",
+                              "Active Equities"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{6047AB60-95EB-488D-8E04-3101D1EF0214}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Alternatives"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{51401A3D-7664-4738-831C-879B718C0B62}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Emerging market equities"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{FDA5B547-3CD8-4AD5-BEB3-CE988634E8BB}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Closed-end funds"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{0CAF633E-B6C5-445F-A984-4C6C8DFF8FA8}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Charities and Foundations"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{B43027B2-F4BC-4D83-9227-C1F67AC5C4FF}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "China A "
+                            ]
+                          },
+                          {
+                            "capabilityId": "{1801E44B-4CFE-4730-A39F-379B3DEA0FEB}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Commodities"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{783EA1E0-C232-4DD7-A312-95917332723D}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Fixed Income",
+                              "Credit"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{1AE621F0-34C1-4CF1-A3CF-56F922707214}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Digital assets"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{5A8C1FB3-B613-44AA-BD46-03575CFFD7AE}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Diversified Income Fund"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{774C7AF1-E5CE-4B38-B804-E69041AABEB6}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "DM Credit"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{AFA5B4B5-5984-40BB-A5E6-FE7B004583BF}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Emerging market debt"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{A0828D0F-3EAA-4DDF-9DD9-EEF26E77E652}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Emerging markets "
+                            ]
+                          },
+                          {
+                            "capabilityId": "{A867EC15-07A2-49D9-BD18-43DB544EACCC}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Emerging market equities"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{49C62C92-3507-484E-97B5-5FCBC69EA149}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "ETFs"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{FD435B42-F648-4060-A99A-6B6F23D117EC}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "European Real Estate"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{798E9FB4-F686-42E7-B8C7-3CAC1AB622E0}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Global Equities"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{39D9586D-1ECE-4442-938B-822BD57E3431}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Other",
+                              "Hedge Funds"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{4C649071-C2D4-4A99-BB26-B4792B1C397D}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Other",
+                              "Infrastructure"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{87B81959-78B8-4107-893D-897804311983}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Insurance"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{CABF9EBB-D0AB-4FDA-B720-C50657F81DA7}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Investment Trust"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{799EB729-D94B-4558-95C5-82C12980E096}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "ITs"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{2854D7C9-B7FE-4861-9709-E0B4D6571B4E}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Liquidity"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{FD06DB11-CA42-4BB0-A6F7-AF7F4955AC8A}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Multi asset"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{035E02EA-4B0F-41B9-8232-F32ED98AB463}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Municipal bonds"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{F7DE9A6A-333F-458D-A374-5FFC99FDE074}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "MYFOLIO FUND RANGES"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{38695215-A710-4975-A60F-844D6AB1876C}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Private credit"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{789CA205-0EE8-4077-9A21-6E246880D732}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Private markets"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{8B248824-7188-43ED-A237-B182CEB43186}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Quantitative Investments"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{DDA881C9-841C-4824-B882-468AAB192066}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Real Assets",
+                              "Real assets"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{8F285846-5B75-4D41-B3E5-0FAADA0278C8}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Real Estate"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{7A9C7365-2310-42B5-A17F-AD1A09ABB97F}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Credit"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{548027F9-9328-4142-9AEA-81D75E1F14C8}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Small cap equities"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{3A1C1B72-6B91-45B6-A213-5E21E1BF5A86}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Solutions"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{ABEF6063-8002-4E4C-83C4-BF30FCBE3C64}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Active Equities",
+                              "Specialist equities"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{6809826C-79E9-4939-B8A9-5C50DAA6439C}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Sustainable investing"
+                            ]
+                          },
+                          {
+                            "capabilityId": "{14668E55-0482-44CA-B88F-40B1BE2211BC}",
+                            "capabilityLimitedDisplay": "",
+                            "assetClasses": [
+                              "Thematics"
+                            ]
+                          }
+                        ]
+                      },
+                      "baseUrl": {
+                        "value": "/en-us/investor/insights-and-research"
+                      }
+                    }
+                  },
+                  {
+                    "uid": "c1e8a492-22bb-4c1d-8429-c56e1e9c67e3",
+                    "componentName": "FundDetailsImportantInfo",
+                    "dataSource": "",
+                    "isContentResolved": true,
+                    "params": {
+                      "name": "Fund Details Important Info",
+                      "isDatasourcePresented": "True",
+                      "isCorrectDatasourceTemplate": "True"
+                    }
+                  }
+                ],
+                "abrdn-footer": [
+                  {
+                    "uid": "7c0f59a3-b7d3-4a53-a055-c685dcbe4222",
+                    "componentName": "Footer",
+                    "dataSource": "{D7EEF4CD-663A-428D-B7C5-D99FE8747193}",
+                    "isContentResolved": true,
+                    "params": {
+                      "name": "Footer",
+                      "isDatasourcePresented": "True",
+                      "isCorrectDatasourceTemplate": "True"
+                    },
+                    "fields": {
+                      "expandedView": {
+                        "value": true
+                      },
+                      "logo": {
+                        "value": {
+                          "src": "https://edge.sitecorecloud.io/aberdeenasse144-abrdnb714-productioneda2-c20b/media/abrdn-jss-app/logos/abrdn/v/v3/abrdn_invest_white_ls_rgb--v2-3-footer-png.png?iar=0&rev=-1",
+                          "alt": "",
+                          "data-type": "image/png"
+                        }
+                      },
+                      "badge": {
+                        "value": {}
+                      },
+                      "copyrightText": {
+                        "value": "Copyright \u00a9 Aberdeen Group plc 2021-20{token.currentYear}. All rights reserved."
+                      },
+                      "expandableBlockText": {
+                        "value": "<p><strong><span style=\"text-decoration: underline;\">Open-end Mutual Funds and ETF Disclosure</span>: </strong></p>\n<p><strong><span style=\"text-decoration: underline;\">INFORMATION REGARDING MUTUAL FUNDS/ETFS</span>: <em>Investors should carefully consider the investment objectives, risks, fees, charges, and expenses of a mutual fund or ETF before investing. The summary and full prospectuses contain this and other information about the mutual fund or ETF and should be read carefully before investing. To obtain a prospectus for the Mutual Funds, contact Aberdeen Fund Distributors, LLC at 1-866-667-9231 or <a title=\"download it from this site\" href=\"https://www.aberdeeninvestments.com/en-us/investor/funds/fund-literature\"><span style=\"text-decoration: underline;\">download it from this site</span></a>. To obtain a prospectus for the ETFs, contact Aberdeen Investments at 1-844-383-7289 or <a title=\"download it from this site\" href=\"https://www.aberdeeninvestments.com/en-us/investor/funds/fund-literature\"><span style=\"text-decoration: underline;\">download it from this site</span></a>.</em></strong></p>\n<p>Investing in mutual funds and ETFs involves risk, including possible loss of principal. There is no assurance that the investment objective of any fund will be achieved.&nbsp; ETF shares are bought and sold at market price (not NAV) and are not individually redeemed from the Fund.&nbsp; As a result, an investor may pay more than net asset value when buying and receive less than net asset value when selling. In addition, brokerage commissions will reduce returns. Fund shares are not individually redeemable directly with the Fund but blocks of shares may be acquired from the Fund and tendered for redemption to the Fund by certain institutional investors in Creation Units.</p>\n<p>Aberdeen Investments Global is the trade name of Aberdeen's investments business, herein referred to as \"Aberdeen Investments\" or \"Aberdeen\". In the United States, Aberdeen Investments refers to the following affiliated, registered investment advisers: abrdn Inc., abrdn Investments Limited, and abrdn Asia Limited. abrdn Inc. has been registered as an investment adviser under the Investment Advisers Act of 1940 since August 23, 1995.</p>\n<p>Aberdeen Fund Distributors, LLC is a wholly owned subsidiary of abrdn Inc. abrdn Inc. is a wholly-owned subsidiary of Aberdeen Group plc. abrdn&rsquo;s mutual funds are distributed by Aberdeen Fund Distributors LLC, Member FINRA and SIPC. 1900 Market Street, Suite 200, Philadelphia PA, 19103.&nbsp;</p>\n<div>Aberdeen Investment's exchange-traded funds are distributed by ALPS Distributors, Inc. ALPS is not affiliated with Aberdeen Investments.</div>\n<p><strong><span style=\"text-decoration: underline;\">1940 Act Commodity ETF Disclosure</span></strong>: Bloomberg&reg;, Bloomberg Commodity Index Total Return<sup>SM</sup>, Bloomberg Commodity Index 3 Month Forward Total Return<sup>SM</sup> and Bloomberg Industrial Metals Subindex Total Return<sup>SM</sup> are service marks of Bloomberg Finance L.P. and its affiliates, including Bloomberg Index Services Limited (&ldquo;BISL&rdquo;), the administrator of the indices (collectively, &ldquo;Bloomberg&rdquo;) and have been licensed for use for certain purposes by abrdn Inc. Bloomberg is not affiliated with abrdn Inc., and Bloomberg does not approve, endorse, review, or recommend abrdn Bloomberg All Commodity Strategy K-1 abrdn Inc, abrdn Bloomberg All Commodity Longer Dated Strategy K-1 abrdn Inc. Bloomberg does not guarantee the timeliness, accurateness, or completeness of any data or information relating to Bloomberg Commodity Index Total Return<sup>SM</sup>, Bloomberg Commodity Index 3 Month Forward Total Return<sup>SM</sup> and Bloomberg Industrial Metals Subindex Total Return<sup>SM</sup>.</p>\n<p>NOT FDIC INSURED | NO BANK GUARANTEE | MAY LOSE VALUE</p>\n<p><strong><span style=\"text-decoration: underline;\">1933 Act Fund ETP Disclosure</span></strong>:</p>\n<p>The statements and opinions expressed are those of the author and are as of the date of this report. All information is historical and not indicative of future results and subject to change. Reader should not assume that an investment in any securities and/or precious metals mentioned was or would be profitable in the future. This information is not a recommendation to buy or sell. Past performance is not a guide to future results.</p>\n<p><strong>abrdn Silver ETF Trust, abrdn Gold ETF Trust, abrdn Platinum ETF Trust, abrdn Palladium ETF Trust and abrdn Precious Metals Basket ETF Trust are not investment companies registered under the Investment Company Act of 1940 or a commodity pool for purposes of the Commodity Exchange Act. Shares of the Trusts are not subject to the same regulatory requirements as mutual funds. These investments are not suitable for all investors. Trusts focusing on a single commodity generally experience greater volatility. </strong></p>\n<p><strong>Commodities generally are volatile and are not suitable for all investors. </strong>Trusts focusing on a single commodity generally experience greater volatility. Please refer to the prospectus for complete information regarding all risks associated with the Trusts.</p>\n<p>Investors buy and sell shares on a secondary market (i.e., not directly from Trusts). Only market makers or &ldquo;authorized participants&rdquo; may trade directly with the Trusts, typically in blocks of 50,000 to 100,000 shares. Commodities generally are volatile and are not suitable for all investors.</p>\n<p><strong>This material must be accompanied or preceded by the prospectus. Carefully consider the investment objectives, risk factors, and fees and expenses of each Trust before investing. To view the prospectus, please click here &ndash; <span style=\"text-decoration: underline;\"><a title=\"abrdn Silver ETF Trust\" href=\"https://abrdn.onlineprospectus.net/abrdn/sivr/index.html?dpn=abrdn_Silver_ETF_Trust_(SIVR)_-_PRO&amp;mscr=A7AVEZRAOK\" target=\"_blank\" rel=\"noopener noreferrer\">abrdn Silver ETF Trust</a></span>, <span style=\"text-decoration: underline;\"><a title=\"abrdn Gold ETF Trust\" href=\"https://abrdn.onlineprospectus.net/abrdn/sgol/index.html?dpn=abrdn_Gold_ETF_Trust_(SGOL)_-_PRO&amp;mscr=I8UTAUAJKD\" target=\"_blank\" rel=\"noopener noreferrer\">abrdn Gold ETF Trust</a></span>, <span style=\"text-decoration: underline;\"><a title=\"abrdn Platinum ETF Trust\" href=\"https://abrdn.onlineprospectus.net/abrdn/pplt/index.html?dpn=abrdn_Platinum_ETF_Trust_(PPLT)_-_PRO&amp;mscr=6OFDHUTJIH\" target=\"_blank\" rel=\"noopener noreferrer\">abrdn Platinum ETF Trust</a></span>, <span style=\"text-decoration: underline;\"><a title=\"abrdn Palladium ETF Trust\" href=\"https://abrdn.onlineprospectus.net/abrdn/pall/index.html?dpn=abrdn_Palladium_ETF_Trust_(PALL)_-_PRO&amp;mscr=EVDTIUZ4CC\" target=\"_blank\" rel=\"noopener noreferrer\">abrdn Palladium ETF Trust</a></span> and <span style=\"text-decoration: underline;\"><a title=\"abrdn Precious Metals Basket ETF Trust\" href=\"https://abrdn.onlineprospectus.net/abrdn/gltr/index.html?dpn=abrdn_Precious_Metals_Basket_ETF_Trust_(GLTR)_-_PRO&amp;mscr=WMWNWTVWEH\" target=\"_blank\" rel=\"noopener noreferrer\">abrdn Precious Metals Basket ETF Trust</a></span>. </strong></p>\n<p><strong>ALPS Distributors, Inc. is the marketing agent for abrdn Silver ETF Trust, abrdn Gold ETF Trust, abrdn Platinum ETF Trust, abrdn Palladium ETF Trust and abrdn Precious Metals Basket ETF Trust.\u202f</strong></p>\n<p><strong><span style=\"text-decoration: underline;\">Closed-end Funds Disclosure</span></strong></p>\n<p>Closed-end funds are traded on the secondary market through one of the stock exchanges. Investment return and principal value will fluctuate so that an investor&rsquo;s shares may be worth more or less than the original cost. Shares of closed-end funds may trade above (a premium) or below (a discount) the net asset value (NAV) of the fund&rsquo;s portfolio. NAV return data includes investment management fees, custodial charges and administrative fees (such as Director and legal fees) and assumes the reinvestment of all distributions. Returns for periods less than one year are not annualized. There is no assurance any Fund will achieve its investment objective. Past performance does not guarantee future results.</p>\n<p>International investing entails special risk considerations, including currency fluctuations, lower liquidity, economic and political risks, and differences in accounting methods. These risks are generally heightened for emerging market investments. Foreign securities are more volatile, harder to price and less liquid than U.S. securities.</p>\n<p>There are also risks associated with international investing, including the risk of investing in a single-country Fund. Concentrating investments in a single region region subjects the Fund to more volatility and greater risk of loss than geographically diverse funds.</p>\n<p>Equity stocks of small and mid-cap companies carry greater risk, and more volatility than equity stocks of larger, more established companies.</p>\n<p>Dividends are not guaranteed and a company&rsquo;s future ability to pay dividends may be limited. The use of leverage will also increase market exposure and magnify risk.</p>\n<p>Fixed income securities are subject to certain risks including, but not limited to: interest rate (changes in interest rates may cause a decline in the market value of an investment), credit (changes in the financial condition of the issuer, borrower, counterparty, or underlying collateral), prepayment (debt issuers may repay or refinance their loans or obligations earlier than anticipated), and extension (principal repayments may not occur as quickly as anticipated, causing the expected maturity of a security to increase).</p>\n<p>Because the real estate funds concentrate their investments in the real estate industry, the portfolio may experience more volatility and be exposed to greater risk than the portfolios of many other mutual funds. Risks associated with investment in securities of companies in the real estate industry may include: declines in the value of real estate, overbuilding and increased competition; increases in property taxes and operating expenses; changes in zoning laws; casualty or condemnation losses; variations in rental income, neighborhood values, changes in interest rates and changes in economic conditions.</p>\n<p>Infrastructure-related issuers may be subject to a variety of factors that may adversely affect their business or operations, including high interest costs in connection with capital construction programs, high leverage, costs associated with environmental and other regulations, the effects of economic slowdown, surplus capacity, increased competition from other providers of services, uncertainties concerning the availability of fuel at reasonable prices, the effects of energy conservation policies and other factors.</p>\n<p>The Fund&rsquo;s investments in private companies may be subject to higher risk than investments in securities of public companies.</p>\n<p>Investments in HQH, THQ, HQL, and THW may be subject to additional risks including limited operating history, security selection, concentration in the healthcare industries, pharmaceuticals sector, biotechnology industry, managed care sector, life science and tool industry, healthcare technology sector, healthcare services sector, healthcare supplies sector, healthcare facilities sector, healthcare equipment sector, healthcare distributors sector, healthcare REIT, interest rate, credit/default, non-investment grade securities, key personnel, discount to NAV, anti-takeover provisions, related party transactions, non-diversification, government intervention, market disruption, geopolitical, and potential conflicts of interest.</p>\n<p>As of 9/30/2023, Tekla Capital Management LLC was the Fund&rsquo;s investment manager. Effective immediately after the market close on 10/27/2023, abrdn Inc. became the Fund&rsquo;s investment manager. Destra Capital Advisors LLC, a registered investment advisor, is providing secondary market servicing for the Fund</p>\n<p>The Market Price is the current price at which an asset can be bought or sold. There is no assurance that the Fund will achieve its investment objective. Past performance does not guarantee future results.</p>\n<p>Please see the Fund&rsquo;s most recent annual report for more information on risks applicable to the Fund.</p>"
+                      },
+                      "expandableBlockTitle": {
+                        "value": "Important information"
+                      },
+                      "logoLink": {
+                        "value": {
+                          "text": "Homepage",
+                          "anchor": "",
+                          "linktype": "internal",
+                          "class": "",
+                          "title": "",
+                          "target": "",
+                          "querystring": "",
+                          "id": "{0DF0BB9C-D5B9-446E-8130-FEC60E837B08}",
+                          "href": "/en-us/investor"
+                        }
+                      },
+                      "registeredText": {
+                        "value": " "
+                      },
+                      "riskWarning": null,
+                      "items": [
+                        {
+                          "id": "8d93d15b-ccc9-4062-8019-1ff1929f3bb0",
+                          "name": "Contact us",
+                          "displayName": "Contact us",
+                          "template": "Footer Link",
+                          "fields": {
+                            "link": {
+                              "value": {
+                                "text": "Contact us and support",
+                                "anchor": "",
+                                "linktype": "internal",
+                                "class": "",
+                                "title": "",
+                                "target": "",
+                                "querystring": "",
+                                "id": "{F8D76751-9FFE-4525-BF0B-837C262353EF}",
+                                "href": "/en-us/investor/contact-and-support"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "9478569e-91e6-4cf6-888e-8c3384e82567",
+                          "name": "Accessibility",
+                          "displayName": "Accessibility",
+                          "template": "Footer Link",
+                          "fields": {
+                            "link": {
+                              "value": {
+                                "text": "Accessibility",
+                                "anchor": "",
+                                "linktype": "internal",
+                                "class": "",
+                                "title": "",
+                                "target": "",
+                                "querystring": "",
+                                "id": "{B10CA944-F841-40F8-A1D5-3C4B7C2D1EF7}",
+                                "href": "/en-us/investor/accessibility"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "6d4980d6-f06c-4da4-a9ec-6f1e3b5e46f7",
+                          "name": "Cookie policy",
+                          "displayName": "Cookie policy",
+                          "template": "Footer Link",
+                          "fields": {
+                            "link": {
+                              "value": {
+                                "text": "Cookie policy",
+                                "anchor": "",
+                                "linktype": "internal",
+                                "class": "",
+                                "title": "",
+                                "target": "",
+                                "querystring": "",
+                                "id": "{E8F636C5-6D97-4E15-AD4E-59450BA6CD4E}",
+                                "href": "/en-us/investor/cookie-policy"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "4263a896-5307-4a38-97bd-b43cbc52993f",
+                          "name": "Legal and regulatory",
+                          "displayName": "Legal and regulatory",
+                          "template": "Footer Link",
+                          "fields": {
+                            "link": {
+                              "value": {
+                                "text": "Legal and regulatory",
+                                "anchor": "",
+                                "linktype": "internal",
+                                "class": "",
+                                "title": "",
+                                "target": "",
+                                "querystring": "",
+                                "id": "{5201EA2C-16B8-445E-BF82-FEC49712F75D}",
+                                "href": "/en-us/investor/legal-and-regulatory"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "5e45e0c9-88a4-4121-8cd2-12fde142b31a",
+                          "name": "Legal notice",
+                          "displayName": "Legal notice",
+                          "template": "Footer Link",
+                          "fields": {
+                            "link": {
+                              "value": {
+                                "text": "Legal notice",
+                                "anchor": "",
+                                "linktype": "internal",
+                                "class": "",
+                                "title": "",
+                                "target": "",
+                                "querystring": "",
+                                "id": "{9E86E2F4-7804-4615-8260-E9B8517C8D48}",
+                                "href": "/en-us/investor/legal-notice"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "0f1ef092-378b-4afa-898b-3e3d484022fc",
+                          "name": "Privacy",
+                          "displayName": "Privacy",
+                          "template": "Footer Link",
+                          "fields": {
+                            "link": {
+                              "value": {
+                                "text": "Privacy",
+                                "anchor": "",
+                                "linktype": "internal",
+                                "class": "",
+                                "title": "",
+                                "target": "",
+                                "querystring": "",
+                                "id": "{924524A5-A248-4F77-A64B-5783DDC74033}",
+                                "href": "/en-us/investor/privacy"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "7417bba2-8204-430e-89a1-de0c98d8276f",
+                          "name": "FINRA Broker Check",
+                          "displayName": "FINRA Broker Check",
+                          "template": "Footer Link",
+                          "fields": {
+                            "link": {
+                              "value": {
+                                "href": "https://brokercheck.finra.org/firm/summary/146230",
+                                "text": "FINRA Broker Check (open in a new window)",
+                                "linktype": "external",
+                                "url": "https://brokercheck.finra.org/firm/summary/146230",
+                                "anchor": "",
+                                "target": "_blank"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "placeholders": {
+                      "abrdn-social-network": []
+                    }
+                  }
+                ]
+              },
+              "published": "2026-10-12T12:30:51.0562390Z"
+            }
+          }
+        },
+        "siteName": "Investor",
+        "locale": "en-us",
+        "mode": {
+          "name": "normal",
+          "isNormal": true,
+          "isPreview": false,
+          "isEditing": false,
+          "isDesignLibrary": false,
+          "designLibrary": {
+            "isVariantGeneration": false
+          }
+        },
+        "pageData": {
+          "fundDetailsData": {
+            "availableFundDetailsTabs": {
+              "fundFactsTab": {
+                "tab": true,
+                "keyInformationTab": true,
+                "tradingInformationTab": false,
+                "codesTab": true,
+                "portfolioSecuritiesTab": false,
+                "derivativeUsageTab": false,
+                "authorizedCountriesTab": false,
+                "riskTab": {
+                  "tab": false,
+                  "breakdownRisk": false,
+                  "fundRiskStatistics": false,
+                  "keyRisk": false
+                },
+                "correlationMatrixTab": false
+              },
+              "performanceTab": {
+                "tab": true,
+                "graphSection": true,
+                "cumulativeTab": true,
+                "cumulativeQuarterlyTab": true,
+                "annualizedTab": true,
+                "annualizedQuarterlyTab": true,
+                "discreteTab": false,
+                "calendarTab": true,
+                "thaiCumulativeTable": false,
+                "thaiCumulativeDailyTable": false,
+                "thaiAnnualizedTable": false,
+                "thaiAnnualizedDailyTable": false
+              },
+              "premiumDiscountTab": {
+                "tab": true,
+                "lineGraphSection": false,
+                "chartSection": true
+              },
+              "podcastTab": false,
+              "literatureTab": true,
+              "holdingsTab": {
+                "tab": false,
+                "dailyHoldings": false,
+                "monthlyHoldings": false,
+                "quarterlyHoldings": false,
+                "topHoldings": false
+              },
+              "breakdownTab": {
+                "tab": false,
+                "creditBreakdown": false,
+                "maturityBreakdown": false,
+                "sectorBreakdown": false,
+                "countryBreakdown": false
+              },
+              "managementTab": false
+            },
+            "fundHeroType": 4,
+            "isPageAvailable": true,
+            "isImportantInfoAvailable": false,
+            "isInvestmentTrustDisclaimerAvailable": false,
+            "assetClassId": "Alternatives",
+            "subAssetClassId": "Alternative Investment Solutions",
+            "fundNameId": "abrdn Physical Palladium Shares ETF",
+            "shareClassNameId": "Share",
+            "sfdrArticleClassificationId": "N/A",
+            "sdrLabel": 0,
+            "id": "97b3849a-108e-2902-df4b-ef18461c4474",
+            "name": "abrdn Physical Palladium Shares ETF",
+            "fundSizeValue": "602284406.51",
+            "fundSizeValueDate": "2026-10-09T00:00:00Z",
+            "fundSizeCurrency": "USD",
+            "fundRangeName": "Exchange Traded Fund",
+            "correlationFundRangeID": "490e0dc7-c056-1ea5-6242-b256d7f40d94",
+            "accountTypeName": "Exchange Traded Fund",
+            "assetClassName": "Alternatives",
+            "subAssetClassName": "Alternative Investment Solutions",
+            "exposure": "Precious Metals",
+            "fundManagementApproach": "US ETFs \u2013 Physical",
+            "sdrProductType": "Not in scope of SDR",
+            "sustainabilityLabel": "NA",
+            "shareclasses": [
+              {
+                "prices": [
+                  {
+                    "id": "a58fcfce-1f06-cc14-54aa-9663473d646c",
+                    "currentAsAt": "2026-10-09T00:00:00Z",
+                    "pricePerUnit": "20.63501",
+                    "changeValue": "0.29711",
+                    "changePercentage": "1.461",
+                    "priceCurrencyCode": "USD"
+                  }
+                ],
+                "investmentTrustPrices": [
+                  {
+                    "id": "a58fcfce-1f06-cc14-54aa-9663473d646c",
+                    "exchangePrice": "20.77",
+                    "exchangeDate": "2026-10-09T00:00:00Z"
+                  }
+                ],
+                "netExpenseRatios": null,
+                "iopVs": null,
+                "medianBidAskSpreads": null,
+                "tickerSymbol": "PALL",
+                "bloomberg": "PALL",
+                "citicode": null,
+                "lipper": null,
+                "ric": null,
+                "sedol": "BFXL9K7",
+                "authorizations": [
+                  "USA4Live"
+                ],
+                "id": "05eef2ae-4bab-4d57-e271-d53809d5cdfd",
+                "name": "",
+                "isin": "US0032621023"
+              }
+            ],
+            "isinCode": "us0032621023",
+            "fundObjectives": [
+              "abrdn Physical Palladium Shares ETF (PALL) seeks to reflect the performance of the price of physical palladium, less the Trust's expenses."
+            ],
+            "selectedShareclass": {
+              "prices": [
+                {
+                  "id": "a58fcfce-1f06-cc14-54aa-9663473d646c",
+                  "currentAsAt": "2026-10-09T00:00:00Z",
+                  "pricePerUnit": "20.63501",
+                  "changeValue": "0.29711",
+                  "changePercentage": "1.461",
+                  "priceCurrencyCode": "USD"
+                }
+              ],
+              "investmentTrustPrices": [
+                {
+                  "id": "a58fcfce-1f06-cc14-54aa-9663473d646c",
+                  "exchangePrice": "20.77",
+                  "exchangeDate": "2026-10-09T00:00:00Z"
+                }
+              ],
+              "netExpenseRatios": null,
+              "iopVs": null,
+              "medianBidAskSpreads": null,
+              "tickerSymbol": "PALL",
+              "bloomberg": "PALL",
+              "citicode": null,
+              "lipper": null,
+              "ric": null,
+              "sedol": "BFXL9K7",
+              "authorizations": [
+                "USA4Live"
+              ],
+              "id": "05eef2ae-4bab-4d57-e271-d53809d5cdfd",
+              "name": "",
+              "isin": "US0032621023"
+            }
+          },
+          "pageTitle": "abrdn Physical Palladium Shares ETF | Aberdeen",
+          "breadcrumbs": [
+            {
+              "id": "0df0bb9c-d5b9-446e-8130-fec60e837b08",
+              "name": "Homepage",
+              "url": "/en-us/investor"
+            },
+            {
+              "id": "8c367c8c-afc4-4422-9337-200dc5884216",
+              "name": "Investment products",
+              "url": "/en-us/investor/funds"
+            },
+            {
+              "id": "ccfc6814-bc82-4cf8-9e62-23d7a2be345b",
+              "name": "View all funds",
+              "url": "/en-us/investor/funds/view-all-funds"
+            },
+            {
+              "id": "18f63207-c44f-41a0-8187-b80ed5ad0794",
+              "name": "abrdn Physical Palladium Shares ETF",
+              "url": "https://www.aberdeeninvestments.com/en-us/investor/funds/view-all-funds/-us0032621023"
+            }
+          ]
+        }
+      },
+      "dictionary": {
+        "accept": "Accept",
+        "alertImportantInformation": "Important information.",
+        "allFunds": "All funds",
+        "AllMarketUpdates": "All market updates & insights",
+        "annualReport": "Annual Report",
+        "apply": "Apply",
+        "article": "Article",
+        "articleChaptersTitle": "On this page",
+        "articlesAvailable": "{token.articlesCount} articles available",
+        "asOf": "As of",
+        "assetClass": "Asset Class",
+        "author": "Author",
+        "authors": "Authors",
+        "back": "Back",
+        "backToTop": "Back to top",
+        "bookCall": "Book a Call",
+        "cancel": "Cancel",
+        "change": "Change",
+        "changeCountrySite": "Change country site",
+        "changeLanguage": "Change Language",
+        "changeRegion": "Change Region",
+        "checkboxChecked": "Checked",
+        "checkboxNotChecked": "Not checked",
+        "chooseAnOption": "Choose an option",
+        "clear": "Clear",
+        "clearAll": "Clear All",
+        "clearAllFilters": "Clear all filters",
+        "close": "Close",
+        "closeModal": "Close",
+        "contactAddress": "Address",
+        "contactEmail": "Email",
+        "contactOpeningTimes": "Opening times",
+        "contactPhone": "Phone",
+        "contactUsFundForm": "Contact us",
+        "contributors": "Contributors",
+        "copied": "Copied",
+        "copyLink": "Copy link",
+        "currentOfTotal": "{token.current} of {token.total}",
+        "custom": "Custom",
+        "date": "Date",
+        "dateFrom": "Date from",
+        "dateMonthApr": "April",
+        "dateMonthAug": "August",
+        "dateMonthDec": "December",
+        "dateMonthFeb": "February",
+        "dateMonthJan": "January",
+        "dateMonthJul": "July",
+        "dateMonthJun": "June",
+        "dateMonthMar": "March",
+        "dateMonthMay": "May",
+        "dateMonthNov": "November",
+        "dateMonthOct": "October",
+        "dateMonthSep": "September",
+        "dateTo": "Date to",
+        "days": "Days",
+        "decline": "Decline",
+        "download": "Download",
+        "downloadDailyHoldingsBtn": "Download full daily holdings",
+        "downloadImage": "Download Image",
+        "downloadMonthlyHoldingsBtn": "Download full monthly holdings",
+        "downloadQuarterlyHoldingsBtn": "Download daily holdings",
+        "duration": "Duration",
+        "edit": "Edit",
+        "error400": "We were unable to load this information. Please reload the page or try again.",
+        "error404": "We were unable to load this information. Please reload the page or try again.",
+        "error500": "We were unable to load this information. Please reload the page or try again.",
+        "errorloadingfactsheets": "There are no search results for your search term. Please try again.",
+        "errorUnknown": "An error has occured",
+        "exampleInvestment": "Example Investment",
+        "factsheet": "Factsheet",
+        "featuredArticlesTitle": "Related articles",
+        "featuredThemeTitle": "Featured",
+        "filter": "Filter",
+        "filterApplied": "{token.count} filter applied.",
+        "filterResults": "Filter results",
+        "filters": "Filters",
+        "filtersApplied": "Filters applied",
+        "filterSelected": "Filter selected",
+        "filtersSelected": "filters selected",
+        "formSuccessDescription": "This form has been successfully submitted. ",
+        "formSuccessTitle": "Thank you. ",
+        "fundCentreFiltersChooseDate": "Choose date",
+        "fundCentreFiltersDateError": "Please enter a past or current date.",
+        "fundCentreFiltersDateFormat": "Date format:",
+        "fundCentreFiltersDateUpdated": "Fund price date updated. {token.date} date selected.",
+        "fundCentreFiltersEnterDate": "Enter date",
+        "fundCentreIncorrectISINCode": "Invalid ISIN format. Please enter a 12-character ISIN starting with two letters, followed by 10 digits. Example: 'US0032616098'.",
+        "fundCentreLiteratureSearchHint": "Enter 3 characters or more",
+        "fundCentreNavs": "NAVs",
+        "fundCentreOverview": "Overview",
+        "fundCentrePerformance": "Performance",
+        "fundCentrePrices": "Prices",
+        "fundCentrePricesApplicationPrice": "Application Price (A$)",
+        "fundCentrePricesAssetSize": "Asset Size",
+        "fundCentrePricesBid": "Bid",
+        "fundCentrePricesCumFairPremiumDiscount": "Premium / (Discount) to NAV cum income",
+        "fundCentrePricesCurrency": "Currency",
+        "fundCentrePricesDailyPrice": "NAV ($)",
+        "fundCentrePricesEstimatedCumFairNav": "Estimated NAV cum income",
+        "fundCentrePricesEstimatedExFairNav": "Estimated NAV ex-income",
+        "fundCentrePricesExFairPremiumDiscount": "Premium / (Discount) to NAV ex income",
+        "fundCentrePricesNav": "NAV",
+        "fundCentrePricesNavChange": "NAV Change ($)",
+        "fundCentrePricesNavPrice": "NAV Price (A$)",
+        "fundCentrePricesOffer": "Offer",
+        "fundCentrePricesPriceChange": "NAV Price Change ($)",
+        "fundCentrePricesRedemptionPrice": "Redemption Price (A$)",
+        "fundCentrePricesSharePrice": " Share Price",
+        "fundCentrePricesTicker": "Ticker",
+        "fundCentreSearchDescription": "Search by fund name",
+        "fundCentreSearchHint": "Enter 3 characters or more.",
+        "fundCentreSearchTitle": "Search Fund",
+        "fundCodesApir": "APIR",
+        "fundCodesArsn": "ARSN",
+        "fundCodesBloomberg": "Bloomberg",
+        "fundCodesCiticode": "Citicode",
+        "fundCodesCusip": "CUSIP",
+        "fundCodesIsin": "ISIN",
+        "fundCodesLipper": "Lipper",
+        "fundCodesRic": "RIC",
+        "fundCodesSedol": "SEDOL",
+        "fundCodesTicker": "Ticker",
+        "fundCodesValoren": "Valoren",
+        "fundCodesWkn": "WKN",
+        "fundDetailsAnnualizedDailyPerformanceTitle": "Daily annualized performance",
+        "fundDetailsAnnualizedPerformanceTitle": "Performance",
+        "fundDetailsAnnualizedQuarterlyPerformanceTitle": "Quarterly Performance",
+        "fundDetailsAum": "AUM",
+        "fundDetailsBreakdownCorrelationMatrixTitle": "Correlation matrix table",
+        "fundDetailsBreakdownCountryTitle": "Country Breakdown",
+        "fundDetailsBreakdownCreditTitle": "Credit profile",
+        "fundDetailsBreakdownMaturityTitle": "Maturity profile",
+        "fundDetailsBreakdownRiskTitle": "Risk analysis table",
+        "fundDetailsBreakdownSectorTitle": "Sector Breakdown",
+        "fundDetailsCefDisclaimer": "The NAV information is provided by the Fund's accounting agent. The price is as reported by the exchange on which the Fund trades. This information is unaudited and neither Aberdeen Group PLC, its wholly owned subsidiaries, the Funds, nor any other person guarantees their accuracy.",
+        "fundDetailsCumulativeDailyPerformanceTitle": "Daily cumulative performance",
+        "fundDetailsCumulativePerformanceTitle": "Performance",
+        "fundDetailsCumulativeQuarterlyPerformanceTitle": "Quarterly Performance",
+        "fundDetailsCurrency": "Currency",
+        "fundDetailsDailyPrice": "Daily Price",
+        "fundDetailsDailyPriceChangePercentage": "Daily Price Change %",
+        "fundDetailsHoldingsReportDate": "Report Date",
+        "fundDetailsImportantInformation": "Important Information",
+        "fundDetailsInavPriceAud": "iNAV Price (A$)",
+        "fundDetailsKeyInfoAccountType": "Account Type",
+        "fundDetailsKeyInfoAmcPerCent": "Total Expense Ratio",
+        "fundDetailsKeyInfoAssetClass": "Asset Class",
+        "fundDetailsKeyInfoAuditor": "Auditor",
+        "fundDetailsKeyInfoBaseCurrency": "Base currency",
+        "fundDetailsKeyInfoBasketSizeGold": "Basket Size Gold (Oz)",
+        "fundDetailsKeyInfoBasketSizePalladium": "Basket Size Palladium (Oz)",
+        "fundDetailsKeyInfoBasketSizePlatinum": "Basket Size Platinum (Oz)",
+        "fundDetailsKeyInfoBasketSizeSilver": "Basket Size Silver (Oz)",
+        "fundDetailsKeyInfoBenchmark": "Benchmark",
+        "fundDetailsKeyInfoBuySellSpread": "Buy/Sell spread",
+        "fundDetailsKeyInfoCefFiscalYearEnd": "Fiscal Year End",
+        "fundDetailsKeyInfoCefGrossExpenseRatio": "Gross Expense Ratio *",
+        "fundDetailsKeyInfoCefManagedAssets": "Managed Assets **",
+        "fundDetailsKeyInfoCefMarketDistributionRate": "Market Distribution Rate **",
+        "fundDetailsKeyInfoCefNavDistributionRate": "NAV Distribution Rate **",
+        "fundDetailsKeyInfoCefNetAssets": "Net Assets **",
+        "fundDetailsKeyInfoCefNetExpenseRatio": "Net Expense Ratio *",
+        "fundDetailsKeyInfoCefSharesOutstanding": "Shares Outstanding **",
+        "fundDetailsKeyInfoCefTickerSymbol": "Ticker Symbol",
+        "fundDetailsKeyInfoCurrencyHedged": "Currency Hedged",
+        "fundDetailsKeyInfoCurrencySymbol": "fundDetailsKeyInfoCurrencySymbol",
+        "fundDetailsKeyInfoCusip": "CUSIP",
+        "fundDetailsKeyInfoCustodian": "Custodian",
+        "fundDetailsKeyInfoDailyAmcPerCent": "Current AMC %",
+        "fundDetailsKeyInfoDistributionYield": "Distribution yield",
+        "fundDetailsKeyInfoDividendFrequency": "Dividend Frequency",
+        "fundDetailsKeyInfoDomicile": "Domicile",
+        "fundDetailsKeyInfoEntryCharge": "Entry charge",
+        "fundDetailsKeyInfoExposure": "Exposure",
+        "fundDetailsKeyInfoFrontEndLoad": "Front end load",
+        "fundDetailsKeyInfoFundLaunchDate": "Fund launch date",
+        "fundDetailsKeyInfoFundManager": "Fund Manager",
+        "fundDetailsKeyInfoFundSize": "Fund AuM ($)",
+        "fundDetailsKeyInfoFundType": "Fund type",
+        "fundDetailsKeyInfoGrossExpenseRatio": "Gross Expense Ratio",
+        "fundDetailsKeyInfoHighestNav": "Highest NAV",
+        "fundDetailsKeyInfoHistoricYield": "Historic yield",
+        "fundDetailsKeyInfoInceptionDate": "Inception Date",
+        "fundDetailsKeyInfoInvestmentManager": "Investment Manager",
+        "fundDetailsKeyInfoIopvDate": "IOPV updated (UTC)",
+        "fundDetailsKeyInfoIopvValue": "Indicative Optimized Portfolio Value",
+        "fundDetailsKeyInfoIsaEligibility": "ISA Eligibility",
+        "fundDetailsKeyInfoIsHedged": "Is Hedged",
+        "fundDetailsKeyInfoIsin": "ISIN",
+        "fundDetailsKeyInfoIssuingCompany": "Issuing Company",
+        "fundDetailsKeyInfoLegalStructure": "Legal Structure",
+        "fundDetailsKeyInfoLowestNav": "Lowest NAV",
+        "fundDetailsKeyInfoM2mVsAmortised": "M2M vs Amortised Cost Diff %",
+        "fundDetailsKeyInfoManagementApproach": "Management Approach",
+        "fundDetailsKeyInfoManagementCompany": "Management Company",
+        "fundDetailsKeyInfoManagementCost": "Management costs",
+        "fundDetailsKeyInfoManagementFee": "Management fee",
+        "fundDetailsKeyInfoMedianBidAskSpread": "30 Day Median Bid/Ask Spread (%)",
+        "fundDetailsKeyInfoMinInitialInvestment": "Min initial investment",
+        "fundDetailsKeyInfoNetAssets": "Net assets of the Shareclass",
+        "fundDetailsKeyInfoNetAssetValue": "Net Assets",
+        "fundDetailsKeyInfoNetExpenseRatio": "Net Expense Ratio",
+        "fundDetailsKeyInfoNumberOfHoldings": "Number of holdings",
+        "fundDetailsKeyInfoOneDayNetYieldWithDate": "1 Day Net Yield",
+        "fundDetailsKeyInfoPerformanceComparator": "Performance comparator",
+        "fundDetailsKeyInfoPerformanceTarget": "Performance target",
+        "fundDetailsKeyInfoPortfolioConstrainingBenchmark": "Portfolio constraining benchmark",
+        "fundDetailsKeyInfoPrimaryBenchmark": "Primary Benchmark",
+        "fundDetailsKeyInfoRebalanceFrequency": "Rebalance Frequency",
+        "fundDetailsKeyInfoSdrClassification": "SDR Classification",
+        "fundDetailsKeyInfoSdrLabel": "SDR Label Category",
+        "fundDetailsKeyInfoSevenDayNetYield": "7 day net yield",
+        "fundDetailsKeyInfoSevenDayNetYieldWithDate": "7 Day Net Yield",
+        "fundDetailsKeyInfoSfdrClassification": "SFDR Classification",
+        "fundDetailsKeyInfoShareClassCurrency": "Shareclass Currency",
+        "fundDetailsKeyInfoShareClassDividendFrequency": "Dividend Frequency",
+        "fundDetailsKeyInfoShareClassLaunchDate": "Share class launch date",
+        "fundDetailsKeyInfoSharesOutstanding": "Shares Outstanding",
+        "fundDetailsKeyInfoSippAvailable": "SIPP Available",
+        "fundDetailsKeyInfoSwitchingFee": "Switching fee",
+        "fundDetailsKeyInfoTaxStatus": "Tax Status",
+        "fundDetailsKeyInfoThirtyDaySecYieldSubsidizedWithDate": "30 Day SEC Yield (subsidized) ",
+        "fundDetailsKeyInfoThirtyDaySecYieldUnsubsidizedWithDate": "30 Day SEC Yield (unsubsidized) ",
+        "fundDetailsKeyInfoTicker": "Ticker",
+        "fundDetailsKeyInfoTotalExpenseRatio": "Total Expense Ratio",
+        "fundDetailsKeyInfoTrustee": "Trustee ",
+        "fundDetailsKeyInfoUcits": "UCITS",
+        "fundDetailsKeyInfoUnderlyingYield": "Underlying yield",
+        "fundDetailsKeyInfoUseOfIncome": "Use of income",
+        "fundDetailsKeyInfoValuationPoint": "Valuation point",
+        "fundDetailsKeyInfoWal": "WAL",
+        "fundDetailsKeyInfoWam": "WAM",
+        "fundDetailsLiteratureAnnouncements": "Announcements",
+        "fundDetailsLiteratureFundLiterature": "Fund literature",
+        "fundDetailsLiteratureSectionNineteen": "Section 19 notice",
+        "fundDetailsLiteratureSustainability": "Sustainability-related disclosures",
+        "fundDetailsLiteratureTaxInformation": "Tax information",
+        "fundDetailsMarketPrice": "Market Price $",
+        "fundDetailsMedianBidAskSpread": "30 Day Median Bid/Ask Spread (%)",
+        "fundDetailsNav": "NAV $",
+        "fundDetailsNavPriceAud": "NAV Price (A$)",
+        "fundDetailsPerformanceAnnualizedFootnote": "Performance data (%) as at:",
+        "fundDetailsPerformanceChartHelp": "Select the period to view historic fund performance",
+        "fundDetailsPerformanceChartKey": "Key",
+        "fundDetailsPerformanceChartValue": "Value",
+        "fundDetailsPerformanceCumulativeFootnote": "Performance data (%) as at:",
+        "fundDetailsPerformanceFootnoteTitle": "Performance Benchmark",
+        "fundDetailsPreliminaryImportantInformation": "Important Information",
+        "fundDetailsPremiumDiscount": "Premium/Discount",
+        "fundDetailsPremiumDiscountBarChartTooltip": "NAV: start point {token.startValue} - end point {token.endValue}",
+        "fundDetailsPremiumDiscountBps": "Premium or discount (bps)",
+        "fundDetailsPremiumDiscountChartDataTitle": "Premium and Discount chart and data",
+        "fundDetailsPremiumDiscountChartPremium": "Number of days at Premium",
+        "fundDetailsPremiumDiscountChartTitle": "Premium and Discount chart",
+        "fundDetailsPremiumDiscountCurrency": "Currency",
+        "fundDetailsPremiumDiscountCurrentTitle": "Premium and Discount current data table",
+        "fundDetailsPremiumDiscountDataTableTitle": "Premium and Discount data table",
+        "fundDetailsPremiumDiscountDates": "Dates",
+        "fundDetailsPremiumDiscountDaysTradedAtDiscount": "Days traded at discount",
+        "fundDetailsPremiumDiscountDaysTradedAtPremium": "Days traded at premium",
+        "fundDetailsPremiumDiscountDiscount": "Number of days at Discount",
+        "fundDetailsPremiumDiscountGraphDataTitle": "Premium and Discount graph and data",
+        "fundDetailsPremiumDiscountGreatestDiscount": "Greatest discount",
+        "fundDetailsPremiumDiscountGreatestPremium": "Greatest premium",
+        "fundDetailsPremiumDiscountHistoricalTitle": "Premium and Discount historical data table",
+        "fundDetailsPremiumDiscountLineGraphTitle": "Premium and Discount line graph",
+        "fundDetailsPremiumDiscountMidpoint": "Mid point",
+        "fundDetailsPremiumDiscountNav": "NAV",
+        "fundDetailsPremiumDiscountNumOfDaysAt": "Number of days at:",
+        "fundDetailsPremiumDiscountNumOfDaysBetween": "Number of days between -0.5% & 0.5%",
+        "fundDetailsPremiumDiscountPercOfDaysbetween": "Percentage of days between -0.5% & 0.5%",
+        "fundDetailsPremiumDiscountTitle": "Premium and Discount",
+        "fundDetailsPremiumOrDiscount": "Premium+/Discount- %",
+        "fundDetailsPriceChange": "Price Change",
+        "fundDetailsPriceChangePercentage": "NAV Price Change %",
+        "fundDetailsShareClass": "Share class",
+        "fundDetailsShareClassTooltip": "fundDetailsShareClassTooltip",
+        "fundDetailsTabsAuthorisedCountries": "Authorised Countries",
+        "fundDetailsTabsBreakdown": "Breakdown",
+        "fundDetailsTabsCodes": "Codes",
+        "fundDetailsTabsCorrelationMatrix": "Correlation Matrix",
+        "fundDetailsTabsDailyHoldings": "Full daily holdings",
+        "fundDetailsTabsDerivativeUsage": "Derivative usage",
+        "fundDetailsTabsFundFacts": "Fund facts\n",
+        "fundDetailsTabsFundObjectives": "Fund Objective",
+        "fundDetailsTabsHoldings": "Holdings",
+        "fundDetailsTabsKeyInformation": "Key facts",
+        "fundDetailsTabsKeyRisk": "Key risks",
+        "fundDetailsTabsLiterature": "Literature",
+        "fundDetailsTabsManagement": "Management process",
+        "fundDetailsTabsMonthlyHoldings": "Monthly holdings",
+        "fundDetailsTabsPerformance": "Performance",
+        "fundDetailsTabsPerformanceAnnualized": "Annualized",
+        "fundDetailsTabsPerformanceCalendar": "Calendar",
+        "fundDetailsTabsPerformanceCumulative": "Cumulative",
+        "fundDetailsTabsPerformanceDiscrete": "Discrete",
+        "fundDetailsTabsPortfolioSecurities": "Portfolio securities",
+        "fundDetailsTabsPremiumDiscount": "Premium/Discount",
+        "fundDetailsTabsQuarterlyHoldings": "Daily Holdings",
+        "fundDetailsTabsQuarterlyUpdatePodcast": "Latest podcast",
+        "fundDetailsTabsRiskAnalysis": "Risk analysis",
+        "fundDetailsTabsRiskStatistics": "Fund risk statistics",
+        "fundDetailsTabsTopTenHoldings": "Top 10 holdings",
+        "fundDetailsTabsTradingInformation": "Trading Information",
+        "fundDetailsTabsWhyInvest": "Why invest",
+        "fundDetailsTicker": "Ticker",
+        "fundDetailsTotalExpenseRatio": "Total Expense Ratio",
+        "fundDetailsUnadjustedNav": "\u2020Unadjusted NAV $",
+        "FundFactsheetTab": "All fund factsheets",
+        "fundName": "Fund Name",
+        "fundsdailyPricing": "Daily Pricing",
+        "fundsdiscountPremiumToNavCumIncome": "Premium/(Discount) to NAV cum income",
+        "fundsdiscountPremiumToNavCumIncomeTooltip": "fundsdiscountPremiumToNavCumIncomeTooltip",
+        "fundsdiscountPremiumToNavExIncome": "Premium/(Discount) to NAV ex income",
+        "fundsdiscountPremiumToNavExIncomeTooltip": "fundsdiscountPremiumToNavExIncomeTooltip",
+        "fundsdividendYield": "Dividend Yield",
+        "fundsdividendYieldTooltip": "fundsdividendYieldTooltip",
+        "fundsestimatedNavCumIncome": "Estimated NAV cum income",
+        "fundsestimatedNavCumIncomeTooltip": "fundsestimatedNavCumIncomeTooltip",
+        "fundsestimatedNavExIncome": "Estimated NAV ex income",
+        "fundsestimatedNavExIncomeTooltip": "testTexttestTexttestTexttestTexttestTexttestTexttestText",
+        "fundsFundCentreFiltersAssetClass": "Asset Class",
+        "fundsFundCentreFiltersFundType": "Fund Type",
+        "fundsFundCentreFiltersPricesDate": "Prices date",
+        "fundsFundCentreFiltersProductType": "Product Type",
+        "fundsFundCentreFiltersSfdrClassification": "SFDR Classification",
+        "fundsFundCentreTabsAllFunds": "All Funds ({token.fundsCount})",
+        "fundsFundCentreTabsFundsInFocus": "Funds in focus",
+        "fundsFundCentreTooltipDatePicker": "fundsFundCentreTooltipDatePicker",
+        "fundsFundCentreTooltipNav": "fundsFundCentreTooltipNav",
+        "fundsFundCentreTooltipSfdr": "fundsFundCentreTooltipSfdr",
+        "fundsFundCentreTooltipShareclass": "fundsFundCentreTooltipShareclass",
+        "fundSize": "Fund Size",
+        "fundslastActualCumIncomeNav": "Last actual cum income NAV",
+        "fundslastActualCumIncomeNavTooltip": "fundslastActualCumIncomeNavTooltip",
+        "fundslondonStockExchange": "London Stock Exchange",
+        "fundssharePrice": "Share price",
+        "fundssharePriceTooltip": "fundssharePriceTooltip",
+        "fundTradingInfoBloombergCode": "Bloomberg Code",
+        "fundTradingInfoExchange": "Exchange",
+        "fundTradingInfoExchangeCode": "Exchange Code",
+        "fundTradingInfoReutersCode": "Reuters Code",
+        "fundTradingInfoTradingHours": "Trading Hours",
+        "help": "Help",
+        "helpMoreFrom": "More related to this help",
+        "helpNextStepsDescription": "View all our guides on key processes and commonly asked questions.",
+        "helpNextStepsTitle": "All help centre",
+        "higherRisk": "Higher risk",
+        "interimReport": "Interim Report",
+        "kid": "KID",
+        "kidShareClass": "Share Class",
+        "kiid": "KIID",
+        "languageSelectorTitle": "Select Language",
+        "latestArticlesTitle": "Latest articles",
+        "latestPressReleasesTitle": "Latest press releases",
+        "listen": "Listen",
+        "literatureHubDocumentCodeFilterLabel": "Document code",
+        "literatureHubDocumentTypeDueDiligence": "Due Diligence",
+        "literatureHubDocumentTypeFilterLabel": "Document type",
+        "literatureHubDocumentTypeForms": "Forms",
+        "literatureHubDocumentTypeGuides": "Guides",
+        "literatureHubDocumentTypeKeyFeaturesAndCharges": "Key Features and Charges",
+        "literatureHubDocumentTypeLetters": " Letters",
+        "literatureHubDocumentTypePerformance": "Performance",
+        "literatureHubDocumentTypeSalesSupport": "Sales support",
+        "literatureHubDocumentTypeTsAndCs": "Ts&Cs",
+        "literatureHubInvestmentsFilterLabel": "Investments",
+        "literatureHubInvestmentsLifestyleProfiles": "Lifestyle Profiles",
+        "literatureHubInvestmentsManagedPortfolios": "Managed Portfolios",
+        "literatureHubInvestmentsMyFolio": "MyFolio",
+        "literatureHubNameFilterLabel": "Name",
+        "literatureHubProductBonds": "Bonds",
+        "literatureHubProductFilterLabel": "Product",
+        "literatureHubProductInvestments": "Investments",
+        "literatureHubProductISAAndPersonalPortfolio": "ISA / Personal Portfolio",
+        "literatureHubProductLifeProducts": "Life products",
+        "literatureHubProductLifestyleProfiles": "Lifestyle Profiles",
+        "literatureHubProductPensions": "Pensions",
+        "literatureHubProductRetirementIncome": "Retirement income",
+        "literatureHubProductTrustsAndEstatePlanning": "Trusts and Estate Planning",
+        "literatureHubProductWithProfits": "With-profits",
+        "literatureHubPublishedDateFilterLabel": "Published date",
+        "literatureHubResultsLabel": "Results",
+        "literatureHubSearchDescription": "Search by keyword(s) or document code",
+        "literatureHubSearchTitle": "Search documents",
+        "loadMore": "Load more",
+        "lowerRisk": "Lower risk",
+        "min": "Min",
+        "mins": "Mins",
+        "month": "Month",
+        "monthNumber": "{token.value} month",
+        "monthsNumber": "{token.value} months",
+        "moreDetails": "More Details",
+        "moreInformation": "More information",
+        "MyProfileTab": "My profile",
+        "MySubscriptionsTab": "My subscriptions",
+        "newspaperName": "Newspaper Name",
+        "nextItem": "Next item",
+        "nextSteps": "Next Steps",
+        "nextStepsDescription": "We offer investment expertise across all key asset classes, regions and markets so that our clients can capture investment potential wherever it arises.",
+        "nextStepsTitle": "Featured Capabilities",
+        "noResultsMessage": "No Results",
+        "notAvailableShortMessage": "N/A",
+        "openModal": "Open",
+        "opensInNewWindow": "Opens in new window",
+        "paginationDisplayingInsightsResults": "Displaying {token.range} of {token.total} Insights",
+        "paginationDisplayingResults": "Displaying {token.range} of {token.total} results",
+        "paginationShow": "Show",
+        "partOfTheSeries": "Part {token.seriesNumber} of",
+        "pastPerformance": "Past Performance",
+        "pastPerformanceNoResultsMessage": "There is insufficient data to provide a useful indication of past performance to this fund\u2019s investors.",
+        "pastPerformanceReturnsAxis": "% Returns",
+        "performanceScenarioCalculations": "Scenario Calculations",
+        "performanceScenarioCalculationsNoResultsMessage": "Data is not yet available for this time period.",
+        "podcast": "Podcast",
+        "potentialHigherRewards": "Potential higher rewards",
+        "potentialLowerRewards": "Potential lower rewards",
+        "preferencecentreclienttype": "Investor Type",
+        "preferencecentrecompanyname": "Company",
+        "preferencecentrecountry": "Country of residence",
+        "preferencecentreemailaddress": "Email Address",
+        "preferencecentreemailentryplaceholder": "Enter your email",
+        "preferencecentreemaillabel": "Email Address*",
+        "preferencecentreemailsubscriptions": "Your current email subscriptions",
+        "preferencecentreemailvalidationerror": "Please enter a valid email address",
+        "preferencecentreexpiredtoken": "Your token has expired. Please log in again....",
+        "preferencecentrefactsheetpageheading": "Find and subscribe to fund factsheets",
+        "preferencecentrefirstname": "First Name",
+        "preferencecentreFundFactsheetSubscriptions": "Fund Factsheet subscriptions",
+        "PreferenceCentreFundName": "Fund name",
+        "preferencecentreinvestortype": "Investor Type",
+        "preferencecentrelastname": "Last Name",
+        "PreferenceCentreNewsletter": "Newsletter",
+        "preferencecentreSearchFundFactsheets": "Seach and filter fund factsheets",
+        "preferencecentresearchheading": "Search and filter fund factsheets",
+        "preferencecentresearchlabel": "Search by fund name",
+        "PreferenceCentreShareClass": "Share class",
+        "PreferenceCentreSubscribe": "Subscribe",
+        "preferencecentresubscribedmarketupdates": "Market updates and insights subscriptions",
+        "preferencecentresuccessdescription": "If there is a profile associated with the email address you've entered, we'll send you an email with a secure link that you can use to login to the preference centre. Please clear and re-enter your email address.",
+        "preferencecentresuccesslabel": "Please check your email",
+        "preferencecentreunsubcribesuccesslabel": "You've been successfully unsubscribed from all marketing communications",
+        "preferencecentreunsubscribebuttontext": "Unsubscribe from all emails",
+        "preferencecentreunsubscribeheading": "Unsubscribe from all",
+        "preferencecentreunsubscribemodalbuttontext": "Confirm unsubscribe",
+        "preferencecentreunsubscribemodalheading": "Unsubscribe",
+        "preferencecentreunsubscribemodalsubtext": "To continue unsubscribing, please select 'confirm' below, or you can cancel and explore our email preference centre to change the emails you receive.",
+        "preferencecentreunsubscribesubtext": "I no longer wish to receive marketing emails from Aberdeen",
+        "preferencecentreunsubscribesuccessdescription": "You can resubscribe to your recent subscriptions via the preference centre at any time to find and add email updates and newsletters.",
+        "preferencecentreunsubscribingbuttontext": "Unsubscribing\u2026",
+        "preferencecentreyourpfofile": "Your profile",
+        "preferencecentreyourpfofiledescription": "You can view the details we have for you below.",
+        "preferenceceorganisationname": "Organisation Name",
+        "previousItem": "Previous item",
+        "print": "Print",
+        "propertyCardDetailsLabel": "Details",
+        "propertyCardOccupationalTenanciesLabel": "Occupational Tenancies",
+        "propertyMapTitle": "Property Map",
+        "read": "Read",
+        "readBiography": "Read biography",
+        "readOnTechzone": "Read on Techzone",
+        "recentSearchResults": "Recent search results",
+        "recommendedHoldingPeriod": "Recommended holding period",
+        "relatedArticlesTitle": "Related articles",
+        "relatedArticlesViewAll": "View all articles",
+        "relatedCapabilitiesTitle": "Next steps",
+        "relatedHelpPlatformTitle": "For all our {token.Platform} help guides",
+        "relatedStoriesTitle": "Related Stories",
+        "relatedTaggedHelpTitle": "Related help",
+        "removeFilterOption": "Remove filter {token.option}",
+        "results": "Results",
+        "riskAndRewardProfile": "Risk and reward profile",
+        "scenarioCalculation": "Scenario Calculation",
+        "scenarios": "Scenarios",
+        "screenShareCodeMessage": "your code is",
+        "screenShareDescription": "Our team are ready to help you",
+        "screenShareTitle": "Share your screen",
+        "scrollCarouselLeft": "Scroll carousel left",
+        "scrollCarouselRight": "Scroll carousel right",
+        "search": "Search",
+        "searchArticleTypeArticle": "Article",
+        "searchArticleTypePressRelease": "Press release",
+        "searchHint": "Type to search",
+        "searchNoResults": "No results returned",
+        "searchNoResultsDescription": "You may want to clear any filters you have applied, or try searching again.",
+        "searchNoResultsTitle": "Sorry, we haven't been able to find any results for your search.",
+        "searchResultTagArticlePublished": "Published",
+        "searchResultTagAssetClass": "Asset Class",
+        "searchResultTagProductType": "Product Type",
+        "searchReturnedResults": "Your search \"{token.query}\" returned {token.count} results",
+        "searchTypeArticle": "Article",
+        "searchTypeFundLiterature": "Fund literature",
+        "searchTypeFundPage": "Fund",
+        "searchTypeInvestmentSolutionPage": "Investment solution",
+        "searchTypeOtherPage": "Page",
+        "selectDate": "Select date",
+        "selectFilter": "Select filter(s)",
+        "selectPeriod": "Select period",
+        "seriesLatest": "Latest series article",
+        "seriesMoreFrom": "More from this series",
+        "seriesTotal": "In this series: {token.total} available",
+        "sfdrClassification": "SFDR Classification",
+        "share": "Share",
+        "shareClass": "SHARECLASS",
+        "sharePrice": "Current share price",
+        "sharePriceCurrency": "GBp",
+        "shareThisArticle": "Share this article",
+        "shareTo": "Share to",
+        "showingResultsFromTo": "Showing results from {token.dateFrom} to {token.dateTo}",
+        "showLess": "Show less",
+        "showMore": "Show more",
+        "showResultsFrom": "Show results from",
+        "signUp": "Sign up",
+        "siteSelectorTitle": "Our websites",
+        "skipToMainContent": "Skip to main content",
+        "startScreenShare": "Start screen share",
+        "submit": "Submit",
+        "submitting": "Submitting...",
+        "techzone": "Techzone",
+        "timePeriodLaunch": "Launch",
+        "timePeriodMonths1": "1 month",
+        "timePeriodMonths3": "3 months",
+        "timePeriodMonths6": "6 months",
+        "timePeriodYears1": "1 year",
+        "timePeriodYears10": "10 years",
+        "timePeriodYears3": "3 years",
+        "timePeriodYears5": "5 years",
+        "timePeriodYtd": "Year to date",
+        "timezoneAet": "AET",
+        "total": "Total",
+        "transcript": "Transcript",
+        "value": "Value",
+        "video": "Video",
+        "viewAll": "View all",
+        "viewBiography": "View biography",
+        "viewMore": "View more",
+        "visitFundCentre": "Visit our fund center",
+        "visitWebsite": "Visit Website",
+        "watch": "Watch",
+        "webinar": "Webinar",
+        "year": "Year",
+        "yearNumber": "{token.value} year",
+        "yearsNumber": "{token.value} years"
+      },
+      "componentProps": {
+        "0951dffd-489c-4209-8b42-70304c855cc6": [
+          {
+            "id": "9F1583C1AF4144FFBB588A7BC64641C0",
+            "name": "Women in alternatives Sourcing diversity of thought",
+            "template": {
+              "id": "0F0EA25C180346D98D35ACB160BEAD9E",
+              "name": "Article Page",
+              "baseTemplates": [
+                {
+                  "id": "29DB4C475F4B4EB987F07BC08273C94E",
+                  "name": "_ArticlePageWorkflow"
+                },
+                {
+                  "id": "40CD6D0CEF2A4231B0B4A74F30A23F5F",
+                  "name": "Base Page"
+                },
+                {
+                  "id": "5AA69853066D416A9FFFE7B0A0B1E245",
+                  "name": "_Article"
+                },
+                {
+                  "id": "3F7E3457F3E74E4AB99C87D96BCBF01A",
+                  "name": "_Statistics"
+                },
+                {
+                  "id": "76DA30461C7A497C9D47EEF525C85007",
+                  "name": "Abrdn Page"
+                },
+                {
+                  "id": "07A1CE82EE5E4F92B83C621E7909893E",
+                  "name": "_PageWorkflow"
+                },
+                {
+                  "id": "4715171126CA434E8132D3E0B7D26683",
+                  "name": "Base Page"
+                },
+                {
+                  "id": "371D5FBB54984D94AB2BE3B70EEBE78C",
+                  "name": "_Navigable"
+                },
+                {
+                  "id": "4414A1F9826A46478DF4ED6A95E64C43",
+                  "name": "_Sitemap"
+                },
+                {
+                  "id": "F39A594A7BC94DB0BAA188543409C1F9",
+                  "name": "_Taggable"
+                },
+                {
+                  "id": "6650FB347EA14245A9195CC0F002A6D7",
+                  "name": "_Designable"
+                },
+                {
+                  "id": "1BB7E7CE5D734F7D8D73A0702002CBDB",
+                  "name": "_BasePage"
+                },
+                {
+                  "id": "2C3777F3CC37447D8F200AD1DDB8B389",
+                  "name": "_FundMetadataPage"
+                },
+                {
+                  "id": "B36BA9FD0DC049C8BEA2E55D70E6AF28",
+                  "name": "Route"
+                },
+                {
+                  "id": "3F3429716FF1472389BDAEB0EEE0B1CA",
+                  "name": "_NavigablePage"
+                },
+                {
+                  "id": "E67C4DB8D8FA4932A5A40E7F6E311A59",
+                  "name": "_MetadataPage"
+                },
+                {
+                  "id": "3F8A6A5D7B1A45668CD40A50F3030BD8",
+                  "name": "Page"
+                },
+                {
+                  "id": "C51FCB34181F4B4DA3652A0995FC9821",
+                  "name": "_InternalArticle"
+                },
+                {
+                  "id": "70945527D09E4CC5A30A364324CBFCCF",
+                  "name": "_BaseArticle"
+                },
+                {
+                  "id": "10D69B8057734E0C8ABC7724152A09D0",
+                  "name": "_PremiumContentPage"
+                },
+                {
+                  "id": "E47DA5E9364741E58D30AED2EC4CB37C",
+                  "name": "_Shared Page"
+                },
+                {
+                  "id": "F6E9AFEA64004659A30770253B8ED128",
+                  "name": "_Content Type"
+                },
+                {
+                  "id": "E3EAB662557C4B8887244181046BCE80",
+                  "name": "_LimitedDisplay"
+                }
+              ]
+            },
+            "articleStrapline": {
+              "value": "Considering different ways in which we can source diversity of thought. Why gender diversification is paramount on that list."
+            },
+            "articleCategory": {
+              "targetItem": {
+                "name": {
+                  "value": "Insights"
+                }
+              }
+            },
+            "articleTitle": {
+              "value": "Women in alternatives: Sourcing diversity of thought"
+            },
+            "articlePublicationDate": {
+              "formattedDateValue": "2023-05-18T00:00:00Z"
+            },
+            "articleImage": {
+              "src": "https://edge.sitecorecloud.io/aberdeenasse144-abrdnb714-productioneda2-c20b/media/media-migration-1/images/thinking-aloud/may-2023/womens-access-index-short-version.jpg?rev=2a2e9f10d3174019ae7bb6c1b75721ea"
+            },
+            "articleTags": {
+              "targetItems": [
+                {
+                  "name": {
+                    "value": "Hedge Funds"
+                  }
+                },
+                {
+                  "name": {
+                    "value": "Alternatives"
+                  }
+                }
+              ]
+            },
+            "duration": {
+              "value": "9"
+            }
+          }
+        ]
+      }
+    },
+    "__N_SSG": true
+  },
+  "page": "/[[...path]]",
+  "query": {
+    "path": [
+      "_site_Investor",
+      "funds",
+      "view-all-funds",
+      "-us0032621023"
+    ]
+  },
+  "buildId": "X4fXVPnMM41I8CvhmvXqJ",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gsp": true,
+  "locale": "en-us",
+  "locales": [
+    "default",
+    "en",
+    "hk",
+    "es",
+    "pt",
+    "it",
+    "fr",
+    "be",
+    "ae",
+    "lu",
+    "ie",
+    "no",
+    "nl",
+    "dk",
+    "se",
+    "fi",
+    "is",
+    "de",
+    "at",
+    "ch",
+    "za",
+    "sg",
+    "us",
+    "au",
+    "en-gb",
+    "en-us",
+    "en-ch",
+    "en-lu",
+    "en-nl",
+    "en-ca",
+    "en-au",
+    "en-hk",
+    "en-jp",
+    "en-kr",
+    "en-my",
+    "en-nz",
+    "en-sg",
+    "en-th",
+    "en-dk",
+    "en-fi",
+    "en-se",
+    "en-is",
+    "en-ie",
+    "en-mt",
+    "en-za",
+    "en-ae",
+    "en-no",
+    "fr-be",
+    "fr-ch",
+    "fr-fr",
+    "fi-fi",
+    "nl-be",
+    "nl-nl",
+    "pt-pt",
+    "pt-br",
+    "es-es",
+    "de-ch",
+    "de-at",
+    "de-de",
+    "de-li",
+    "da-dk",
+    "it-it",
+    "zh-cn",
+    "zh-hk",
+    "ja-jp",
+    "ko-kr",
+    "th-th",
+    "nb-no",
+    "sv-se",
+    "sv-fi",
+    "is-is"
+  ],
+  "defaultLocale": "default",
+  "scriptLoader": []
+}

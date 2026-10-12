@@ -167,7 +167,7 @@
 | **Palladium** | gasoline autocatalyst (>80%) · **hybrids carry higher loadings** (supportive) · BEVs carry none (the long-run bear) | Russia ≈40% (Nornickel), SA ≈34% of exports | `PAZ26` **$1,150.40 [10/9]**, −5.11% vs9/30; COTnet/OI−33.3191% [10/6],short-covercontextnotconfirmation. UBS9/21supplycallunconfirmedbytape. No freshmajorSA/RUoutageestablished; USdutyclosed |
 
 **Pair tells:** **Pt/Pd ratio 1.37 [9/24]** — substitution economics in autocatalysts (a rising ratio makes Pd cheaper to use in gasoline cats, per UBS) · **Pt/Au 0.408** — platinum's discount to gold, a precious-leg valuation read.
-**The three Pd-led tail events (the third on 8/28, +4.03σ; KB-094/095)** stay **residually unexplained**. The three instruments that could explain them (PGM lease rates · NYMEX PGM stocks · PPLT/PALL flows) are **still ABSENT** (OPEN_ITEMS 20).
+**The three Pd-led tail events (the third on 8/28, +4.03σ; KB-094/095)** stay **residually unexplained**. **Update2026-10-12:** latest primary NYMEX point is now retrieved, with activity10/9 movement measured zero. Matched decline-window stock history, PPLT/PALL reported share/ounce changes and lease rates remain missing; the mechanism stays UNRESOLVED. See `analysis/2026-10-12_PGM-inventory-flow-followup.md` and OPEN_ITEMS20.
 **Instruments:** `PLV26`/`PAZ26` + PPLT/PALL in `metals_watch.py` · **Pt (076651) and Pd (075651) COT via `cot_metals.py` — NEW 2026-09-25**.
 **Falsifiers (both directions):** the precious-leg read is wrong if Pt/Pd stop moving with gold on >2σ gold days. The supply read is wrong if a confirmed SA/Russia outage fails to lift the affected metal over the other.
 

@@ -1,0 +1,8 @@
+{
+  "url": "https://www.cmegroup.com/delivery_reports/PA-PL_Stck_Rprt.xls",
+  "retrieved_at": "2026-10-12T21:30:21.910402+00:00",
+  "method": "ordinary public browser-like request via installed curl_cffi",
+  "status": 200,
+  "content_type": "application/vnd.ms-excel",
+  "bytes": 24064
+}

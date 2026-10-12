@@ -30,3 +30,7 @@
 - **China macro / capital flows / copper imports** → ZHAO canonical (the −41.3% YoY import series is ZHAO's; base-effect-check owed).
 - **HY/credit/liquidity / DXY-squeeze / EndGame** → LIQUID canonical (MIDAS supplies the gold-leg read; LIQUID consumes metals-board gold levels as of 7/17).
 - **PGM supply geopol** → HAWK. **Macro velocity** → HENRY.
+
+## Bounded PGM access update — 2026-10-12
+
+CME primary `delivery_reports/PA-PL_Stck_Rprt.xls`: latest report10/12/activity10/9 retrieved with installed curl_cffi browser-like request after urllib403. Latest inventories accessible; September30 matched history not retrieved. Aberdeen PPLT/PALL public fund pages yield dated10/9 raw NAV/assets/market metadata, but no reported share-count or physical-ounce history in the retrieved payload. Lease rates remain missing in existing accessible sources. One-off evidence only; no monitor/pipeline added. Detail `../analysis/2026-10-12_PGM-inventory-flow-followup.md`.
