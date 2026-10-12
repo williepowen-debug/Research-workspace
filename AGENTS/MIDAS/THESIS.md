@@ -99,7 +99,7 @@
 | S1 | **Monetary beta** — silver trades as high-beta gold | silver and gold move the SAME direction; GSR roughly flat | GSR stable while both move | LIVE: 9/10 liquidation hit both, GSR 64.98 → 67.88 in one session |
 | S2 | **Industrial demand** — solar PV, electronics, AI/data-centre, EVs (~half of demand; PROVISIONAL, secondary) | silver moves AGAINST gold; GSR moves opposite to silver | GSR up while silver falls = industrial weakness | 🟠 **Solar thrifting is the live headwind:** PV silver demand forecast **−19% in 2026** as panel makers switch paste to copper (Crux 7/31, secondary). JPM cut FY forecast to **$60–65 from $81** (7/31) |
 | S3 | **Investment / physical stock** — ETFs, coin/bar, COMEX registered metal | squeeze risk when registered stock is thin vs open interest | silver outruns gold with GSR FALLING fast + lease-rate spike | COMEX registered **97.3 Moz [9/18]** (secondary, UNSOURCED). ⛔ **No lease-rate or registered-stock instrument here — a gap** |
-| S4 | **Supply** — mostly a by-product of lead/zinc/copper/gold mining, so supply barely responds to silver's price (PROVISIONAL) | persistent deficits do not self-correct via new mines | — | 2026 deficit **46.3 Moz, sixth straight year** (secondary). Structural, slow |
+| S4 | **Supply** — mostly a by-product of lead/zinc/copper/gold mining, so supply barely responds to silver's price (PROVISIONAL) | persistent deficits do not self-correct via new mines | — | 2026 deficit **46.3 Moz** (PRIMARY Silver Institute / Metals Focus April forecast, verified 2026-10-12); flat mine output, industrial demand −3%. Forecast, not October flow |
 
 **The read, 2026-09-25:** the January blow-off and its unwind were **S1 + S3** (speculative, high-beta, all four precious metals peaked 1/23–1/29). Since 9/10 silver has held **better** than gold (`SIZ26` −1.43% vs `GCZ26` −2.48%), so S2 weakness is **not** currently dominating the tape. **GSR 67.16 [9/24]** is benign.
 
@@ -161,10 +161,10 @@
 
 **PGMs carry a precious leg as well as an industrial one.** They peaked with gold and silver in the same January week, which the industrial frame cannot explain.
 
-| Metal | Demand mechanisms | Supply | Live read [2026-09-25] |
+| Metal | Demand mechanisms | Supply | Live read [2026-10-12; prices 10/9] |
 |---|---|---|---|
-| **Platinum** | diesel + heavy-duty autocatalyst · jewellery (China) · industrial/glass/chemical · **investment (bars, ETFs, China)** · hydrogen/fuel-cell (small, long-dated) | SA ≈70% (HAWK figure) | `PLV26` **$1,752.0 [9/24]**, −8.70% since 9/9, the weakest of the four. No dated September supply event found. WPIC balance **PROVISIONAL** (secondary: small 2026 surplus, H2 deficit). ⚠️ **`PLV26`→`PLF27` roll is close** — `FRONT_MONTHS` is hand-maintained |
-| **Palladium** | gasoline autocatalyst (>80%) · **hybrids carry higher loadings** (supportive) · BEVs carry none (the long-run bear) | Russia ≈40% (Nornickel), SA ≈34% of exports | `PAZ26` **$1,282.1 [9/24]**, −7.16% since 9/9, but only −0.97% since 9/10. **UBS 9/21 raised targets +$200/oz (Dec-26, Mar-27), +$100 (Jun-27)** on falling mine supply (Russian grades, SA capital discipline). US duty channel CLOSED (above) |
+| **Platinum** | diesel + heavy-duty autocatalyst · jewellery (China) · industrial/glass/chemical · **investment (bars, ETFs, China)** · hydrogen/fuel-cell (small, long-dated) | SA ≈70% (HAWK figure) | `PLF27` **$1,693.30 [10/9]**, −1.49% vs9/30; PPLT crossed −15%d20010/7 then recovered. **WPIC PRIMARY10/9: 2026 surplus265koz; deficitsfrom2027forecast.** Chinaimports1.85MozthroughAug includeGFEXstockaccumulation; importsnotenduse. Macro/ratespressurecandidate |
+| **Palladium** | gasoline autocatalyst (>80%) · **hybrids carry higher loadings** (supportive) · BEVs carry none (the long-run bear) | Russia ≈40% (Nornickel), SA ≈34% of exports | `PAZ26` **$1,150.40 [10/9]**, −5.11% vs9/30; COTnet/OI−33.3191% [10/6],short-covercontextnotconfirmation. UBS9/21supplycallunconfirmedbytape. No freshmajorSA/RUoutageestablished; USdutyclosed |
 
 **Pair tells:** **Pt/Pd ratio 1.37 [9/24]** — substitution economics in autocatalysts (a rising ratio makes Pd cheaper to use in gasoline cats, per UBS) · **Pt/Au 0.408** — platinum's discount to gold, a precious-leg valuation read.
 **The three Pd-led tail events (the third on 8/28, +4.03σ; KB-094/095)** stay **residually unexplained**. The three instruments that could explain them (PGM lease rates · NYMEX PGM stocks · PPLT/PALL flows) are **still ABSENT** (OPEN_ITEMS 20).
@@ -184,3 +184,7 @@ Monetary and industrial metals send **different messages** and can move **indepe
 - **LIQUID** owns credit/liquidity; **MIDAS** owns gold/silver safe-haven flow as an amplifier.
 - **HAWK** owns geopolitics; **MIDAS** owns the PGM-supply repricing.
 - **HENRY** owns macro velocity; **MIDAS** supplies the copper/PGM growth-tell.
+
+### Current review 2026-10-12
+
+Gold structural ETF/CB support persists, while rolling120 GLD/DFII10 beta−0.1632%/bp [to10/8] remains belowthe−.08flip. Bounded primary-source review and basis/caveats: `analysis/2026-10-12_due-metals-review-held-GLD.md`. Septemberconstruction50.3 rebound weakens extrapolating the Augustcollapse; China causal interpretation belongs toZHAO. Actualcomposite8/20; WQ352adoptedunscoredfloor11/1 21:40ET. PALLorangecross10/1waspreapproval; PPLTorangecross10/7qualifies butTstatehasrecovered. WQ368stillwithWill.

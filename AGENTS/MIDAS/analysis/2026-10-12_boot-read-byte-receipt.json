@@ -1,0 +1,29 @@
+{
+  "before": {
+    "CLAUDE.md": 26438,
+    "STATUS.md": 22382,
+    "SCRATCH.md": 25527,
+    "OPEN_ITEMS.md": 23686,
+    "workbook/PREDICTIONS.tsv": 37947
+  },
+  "after": {
+    "CLAUDE.md": 26832,
+    "STATUS.md": 11281,
+    "SCRATCH.md": 3900,
+    "OPEN_ITEMS.md": 21776,
+    "workbook/PREDICTIONS.tsv": 37947
+  },
+  "status_scratch_open_items_before": 71595,
+  "status_scratch_open_items_after": 36957,
+  "archive_read_path": "OFF boot path; complete prior STATUS/SCRATCH/NEXUS snapshots preserved; all live obligations re-homed in current files",
+  "five_desk_files_before": 135980,
+  "five_desk_files_after": 101736,
+  "five_file_scope": "CLAUDE/STATUS/SCRATCH/OPEN_ITEMS plus whole PREDICTIONS file as a cost ceiling. Boot scans predictions rather than loading every frozen letter. Root instructions excluded from both totals, unchanged.",
+  "archives": [
+    "analysis/STATUS_ARCHIVE_2026-10.md",
+    "analysis/SCRATCH_ARCHIVE_2026-10.md",
+    "analysis/NEXUS_BRIEF_ARCHIVE_2026-10.md",
+    "analysis/OPEN_ITEMS_ARCHIVE_2026-10.md"
+  ],
+  "obligations_rehomed": "M1 successor and beta repeat -> STATUS/SCRATCH, WQ-368 -> OPEN_ITEMS/STATUS/SCRATCH, PGM instruments/BIS -> OPEN_ITEMS/STATUS/SCRATCH, COMEX/SHFE/lag -> OPEN_ITEMS/STATUS/SCRATCH, MIDAS-09/10 -> unchanged PREDICTIONS plus STATUS/SCRATCH. Closed forecast history moved verbatim; current grade and design constraints retained."
+}

@@ -6,7 +6,7 @@
 >
 > ⛔ *Two supersession banners govern the bodies (the 8/19 unexplained-share band re-based four times; the computed figure is **87.7–91.1% univariate**). They travel with the bodies — see the archive header before citing any band figure out of **L-33** or **L-35**.*
 >
-> **Adding a lesson:** append the full row to the archive table AND one hook line here. Keep hooks ≤ ~170 chars and specific enough to trigger a look — a hook nobody greps is a lesson nobody applies.
+> **Adding a lesson:** append the full row to the archive table AND one hook line here. The ~170-character hook length is ADVISORY, not an enforced cap; keep hooks specific enough to trigger a look — a hook nobody greps is a lesson nobody applies.
 
 *36 lessons · L-01 (2026-07-11) → L-36 (2026-08-27) · domain + process learning, distinct from DAEDALUS's fleet-level PATTERNS.tsv.*
 

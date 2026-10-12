@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-boot.py — MIDAS boot instrument. Metals spot/yield + ledger staleness + predictions-due, one verdict.
+boot.py — MIDAS boot instrument. Metals spot/yield + ledger staleness + predictions-due + four-metal COT freshness, one verdict.
 
 Built by DAEDALUS 2026-07-11 (MIDAS build); metals_watch.py wired in 2026-07-12
 (MIDAS first real session, PAT-041 — cadence wired same session as the build).
@@ -8,13 +8,15 @@ cwd-proof + self-locating: lives at AGENTS/MIDAS/boot.py -> parents[2] == repo
 root; finds scripts/ledger_staleness.py and metals_watch.py regardless of
 launch cwd.
 
-Boot step 4 in CLAUDE.md. Three legs:
+Boot step 4 in CLAUDE.md. Five legs:
   0. metals_watch.py — real yield (FRED DFII10) + gold/silver/copper/Pt/Pd
      spot (futures + ETF proxy) + GSR + M1 divergence classifier.
   1. ledger staleness — workbook/*.tsv AND TRADE.md vs STATUS mtime (shared script).
   2. predictions-due  — workbook/PREDICTIONS.tsv rows past resolve_date still OPEN.
   3. COT vintage freshness — is CFTC serving a gold COT vintage this desk has not
      consumed? (wired 2026-09-05, closing DAEDALUS F-2.)
+  4. Ag/Pt/Pd freshness — per-metal consumed ledger, wired 2026-10-12 on
+     DAEDALUS 2026-10-08 Prose-Remedy #1 packet; no automatic consumption.
 
 ⛔ WHY ONLY ONE OF THE FOUR COT/SETTLE TOOLS IS WIRED, stated here so the next
 reader does not "fix" the other three in (DAEDALUS F-2, 2026-09-05 — three
@@ -61,6 +63,7 @@ STALENESS = ROOT / "scripts" / "ledger_staleness.py"
 PREDICTIONS = HERE / "workbook" / "PREDICTIONS.tsv"
 METALS_WATCH = HERE / "metals_watch.py"
 COT_VINTAGES = HERE / "sources" / "cot_vintages_consumed.tsv"
+COT_METALS_VINTAGES = HERE / "sources" / "cot_metals_vintages_consumed.tsv"
 
 # Prefer the repo venv interpreter for child scripts: metals_watch needs
 # yfinance, which lives in .venv/ (not system python). Without this, launching
@@ -238,9 +241,62 @@ def cot_vintage_leg():
     return 1, out
 
 
+def cot_metals_vintage_leg(ledger=None, source_text=None):
+    """Standing Ag/Pt/Pd freshness check, not a positioning band or grader.
+
+    A row means read and integrated. Each metal must have its own row. Missing
+    coverage, malformed values, mixed source dates, failed reconciliation or a
+    source older than a consumed row cannot certify (rc 2). A new source date
+    for any metal requires review (rc 1). Test inputs never fetch the network.
+    """
+    import cot_metals
+    ledger = COT_METALS_VINTAGES if ledger is None else ledger
+    try:
+        with ledger.open(encoding="utf-8") as f:
+            rows = list(csv.DictReader((line for line in f if not line.startswith("#")), delimiter="\t"))
+        latest = {}
+        for row in rows:
+            metal = row["metal"]
+            if metal not in cot_metals.DEFAULT_METALS:
+                raise ValueError(f"unknown metal {metal}")
+            datetime.strptime(row["report_date"], "%Y-%m-%d")
+            if row["code"] != cot_metals.CONTRACTS[metal][0]:
+                raise ValueError(f"{metal}: ledger contract code mismatch")
+            oi, net = int(row["open_interest"]), int(row["net_nc_long"])
+            if oi <= 0 or abs(float(row["net_over_oi_pct"]) - 100 * net / oi) > 0.0001:
+                raise ValueError(f"{metal}: ledger net/OI identity failed")
+            if metal not in latest or row["report_date"] > latest[metal]["report_date"]:
+                latest[metal] = row
+        absent = set(cot_metals.DEFAULT_METALS) - set(latest)
+        if absent:
+            raise ValueError(f"consumed-vintage rows missing for {', '.join(sorted(absent))}")
+        raw = cot_metals.fetch() if source_text is None else source_text
+        live = cot_metals.extract_all(cot_metals.parse(raw))
+    except Exception as e:
+        return 2, [f"  CANNOT CERTIFY Ag/Pt/Pd COT freshness: {e}"]
+    rc, out = 0, []
+    for d in live:
+        metal, live_date = d["metal"], d["report_date"]
+        old = latest[metal]
+        delta = d["net_over_oi"] - float(old["net_over_oi_pct"])
+        out.append(f"  {metal}: CFTC {live_date} net/OI {d['net_over_oi']:.4f}%; last consumed {old['report_date']}; delta {delta:+.4f}pp")
+        if live_date < old["report_date"]:
+            out.append(f"  CANNOT CERTIFY {metal}: source is older than the consumed ledger")
+            rc = 2
+        elif live_date == old["report_date"] and abs(delta) > 0.0001:
+            out.append(f"  CANNOT CERTIFY {metal}: same-vintage source value differs from the consumed row")
+            rc = 2
+        elif live_date > old["report_date"]:
+            out.append(f"  REVIEW {metal}: new public vintage is unread; integrate before appending its consumed row")
+            rc = max(rc, 1)
+    if rc == 0:
+        out.append("  Current CFTC vintage already consumed for all three metals; no positioning-band conclusion")
+    return rc, out
+
+
 def main():
     print("=" * 72)
-    print("  MIDAS BOOT — metals watch · ledger staleness · predictions-due")
+    print("  MIDAS BOOT — metals watch · ledgers · predictions · four-metal COT")
     print("=" * 72)
     legs = []  # (label, rc) — labelled so the verdict can name the cause
 
@@ -280,6 +336,12 @@ def main():
     for line in cot_lines:
         print(line)
     legs.append(("COT vintage", cot_rc))
+
+    print("\n--- 4. Ag/Pt/Pd COT vintage freshness (CFTC legacy futures-only) ---")
+    metals_rc, metals_lines = cot_metals_vintage_leg()
+    for line in metals_lines:
+        print(line)
+    legs.append(("Ag/Pt/Pd COT vintage", metals_rc))
 
     print("\n" + "=" * 72)
     failed = [name for name, rc in legs if rc == 2]

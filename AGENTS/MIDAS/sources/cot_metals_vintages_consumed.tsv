@@ -1,0 +1,5 @@
+# LIVE — per-metal consumed CFTC legacy futures-only vintages. Opened2026-10-12. A row means READ+writteninto KB/STATUS,not merelypublication. Append-only. Pre-ledger9/15read traceable toKB118 is not backfilled; latestread starts here.
+report_date	metal	code	open_interest	nc_long	nc_short	net_nc_long	net_over_oi_pct	consumed_on	consumed_by	notes
+2026-10-06	silver	084691	105130	33648	10495	23153	22.0232	2026-10-12	MIDAS	KB-MIDAS-127 / due-review: reconciled,currentread. Contextonly,Pd/Ptregimeshiftcaveat.
+2026-10-06	platinum	076651	65868	27790	13822	13968	21.2060	2026-10-12	MIDAS	KB-MIDAS-127 / due-review: reconciled,currentread. Contextonly,Pd/Ptregimeshiftcaveat.
+2026-10-06	palladium	075651	21060	7658	14675	-7017	-33.3191	2026-10-12	MIDAS	KB-MIDAS-127 / due-review: reconciled,currentread. Contextonly,Pd/Ptregimeshiftcaveat.

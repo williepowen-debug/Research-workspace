@@ -486,7 +486,10 @@ def main():
                 if not _prior3:
                     raise ValueError(f"no GC=F bar at or before {latest_y['date']}")
                 g_now, g_now_d = _prior3[-1]["close"], _prior3[-1]["date"]
-                dy_bp = (float(latest_y["value"]) - float(y_then["value"])) * 100
+                # DFII10 is published to 0.01 percentage point (one basis point).
+                # Round before the strict 0 < dy_bp < 5 comparison: an exact
+                # +5bp print must not enter the inside-noise caveat (L546).
+                dy_bp = round((float(latest_y["value"]) - float(y_then["value"])) * 100)
                 dg_pct = (g_now - g_then) / g_then * 100
 
                 # --- ROLL ARBITER: GLD never rolls, so it grades the same window ---
