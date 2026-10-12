@@ -4,6 +4,8 @@
 
 ## October11 — current-surface cleanup (scoped continuation)
 
+October12 closure and runtime continuity → [closeout record](reports/2026-10-12_continuation-closeout.md). TERRY's existing approval/lock issue remains unresolved; BRENT's Will-owned window is active on his Monday request and must not be terminated by PROME's closeout. The record distinguishes saved history, idle runtime state, actual communication and session release.
+
 Will: “alright approved go ahead,” on the bounded STATUS/BRIEF/HANDBOOK/HANDOFF cleanup and rendered-output validation. Current work and interpretation are separated from historical narratives; full prior files are preserved at [the snapshot index](archive/CURRENT_SURFACES_2026-10-11/README.md). [Acceptance and review state](reports/2026-10-11_current-surfaces-cleanup.md) owns the cleanup result; do not infer acceptance from the existence of this entry. Instrument repairs retain their existing approved order. Hosted delivery is separate from a local render and requires its own PUBLISH receipt.
 
 ## October11 — SCRATCH cleanup and owner-evidence catch-up
