@@ -68,4 +68,4 @@
 |11/06| NFP | Earliest V16 new print1 |
 |11/12–13| PHAN/POLLY;DR1Q3 | Existing source gates/commission, no new research launch |
 
-**Delivery / gaps:** scope/evidence persisted atc7ca374df; three self-authored packets committed. Source-incomplete EART, child data-clock warnings and uncommitted late DEWEY input remain material. RawPDF/HTML local under repo ignore; text, publicSCFZIP/CensusXLSX and computations tracked. Final checks/push receipt in closeout notes; remote delivery is not recipient consumption.
+**Delivery / gaps:** scope/evidence persisted atc7ca374df; three self-authored packets committed. Source-incomplete EART, child data-clock warnings and uncommitted late DEWEY input remain material. RawPDF/HTML local under repo ignore; text, publicSCFZIP/CensusXLSX and computations tracked. Checks passed with6soft advisories; safe-push rejected twice beforeexecution byautomaticreview (sharedmasterpublicationrequiresdirectuserapproval). Remoteverifiedread-only, no publicationreceipt. Localdeliveryisnotremoteorrecipientconsumption.
