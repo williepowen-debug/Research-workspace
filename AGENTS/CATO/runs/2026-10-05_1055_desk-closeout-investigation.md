@@ -1,8 +1,12 @@
-# WALTER / BOND / BRENT closeout investigation
+# Desk closeout investigation
 
 **October 5, 2026, 10:55 ET.** Will asked why these agents appear to have difficulty closing out. Investigation only: no owner edits, prompts, interrupts, launches or procedure changes. This is separate from the runtime-compatibility assignment; it does not reopen WQ-385.
 
 ## Current assessment
+
+**October 12 follow-up:** recommend a bounded owner repair of existing instructions and declarations, not a new closeout framework. CL1 recurs as an overbroad full-procedure claim with an explicitly unassessed retirement duty. CL3/CL7 persist in Git and retired-prediction prose; TERRY's unsafe recovery recipe is already held, not observed executed. New CL8 independently reproduces four event-ledger declarations that the existing freshness checker does not recognize. PROME's bounce and BRENT/TERRY's completed context-reset handoffs preserve approvals, remaining work and publication distinctions well. No owner changes or new work assignments made. Detailed evidence, limits and acceptance below supersede earlier active/publication snapshots; October 5 findings remain historical evidence.
+
+### Previous assessment — October 5
 
 **Procedure follow-up, October 5:** recommend bounded updates to the existing procedures. WALTER has conflicting push prose and an execution order that doubles back; BRENT's generic mail sweep obscures distinct intake/deferral rules. BOND already has per-step accounting and a runner: repair the misleading verdict and the reproduced freeze invalidation on an unrelated agent commit. Preserve tiers, substantive checks, ownership and existing approvals. The eight-file candidate scope and acceptance cases below are proposals, not owner changes or implementation authorization.
 
@@ -127,3 +131,57 @@ No performance benchmark, recurring audit or provider comparison is proposed. Af
 ### Follow up delivery checks
 
 The isolated probe completed all six observations. Five weekday inputs were verified readable and passed: PROME/DOCKET.tsv, PROME/GATES.tsv, PROME/WILL_QUEUE.md, CATO/CONTINUITY.md and this report. Optional CATO desk files remain absent; the unchanged approval-advice report was not rerun. Direct startup sizes: CATO AGENTS 6,465 / CHARTER 9,921 / CONTINUITY 21,279; root CLAUDE 24,961 / USER 5,200 / AGENTS 5,313 bytes, all below the cap. Generic CATO read-cap remains CANNOT-EVALUATE, not a pass. Root USER's concurrent Sol preference update was read; no delegation occurred. Orphan advisory found only preserved PROME artifacts outside CATO. Scoped whitespace passed and foreign staging was empty. No financial figure, ledger, auto-memory or retirement-eligible CATO artifact changed. Delivery comprises only this report, its reproduction script and the updated continuity disposition. Commit and fresh-fetch publication receipts, including any shared owner commits carried, follow in-session.
+
+## October 12 — Will-directed review during owner closeouts
+
+**Outcome and scope:** identify broken, wasteful, inaccurate or stale closeout behavior while Will resets the desktop owners. Reviewed current root rules, PROME CLOSEOUT/bounce, WALTER, BRENT, TERRY, OZK and WATT closeout instructions and saved results, plus REGINALD's limited continuation receipts. Compared relevant commits and native replies with explicit user requests/tool-call boundaries in the exact October 12 local rollouts. BOND's October 5 defects were not rerun or reclassified as today's delay. No market-data refresh, domain-fact certification, production owner checker mutation, owner edits, sends or launches.
+
+**Revision/concurrency:** final handoff snapshot HEAD `3dd3c4bd0`; BRENT transitions `32d297d6d`/`f0077565a`, TERRY `f69307c85`/`3dd3c4bd0`, PROME `527ccd1c2`, WALTER original closeout `0db4fdf32`/`ff6b6cd68`. WALTER later began an X-authorization repair while DAEDALUS remained dirty; those unfinished edits are excluded from acceptance. Native `notLoaded`/interrupted snapshots did not establish failed or completed lifecycle: BRENT/TERRY subsequently saved handoffs. Do not infer clean ownership from a quiet log.
+
+### What is working
+
+- [PROME bounce](../../../PROME/reports/2026-10-12_desktop-bounce.md) uses its existing immediate-return tier, preserves L694 approval across contexts, and does not falsely claim an end-of-day publication or that every owner closed.
+- [BRENT handoff](../../../PROME/inbox/2026-10-12_from-BRENT_Will-directed-context-reset-closeout.md) and [TERRY startup map](../../TERRY/research/2026-10-12_desktop-owner-closeout.md) identify completed work, exact next-stage deliverables, source vintages, research deferrals and surviving authority. TERRY consumed the late REGINALD candidate without starting research contrary to Will's reset request. Neither equates clearing the inbox with completing research.
+- TERRY's saved fresh-fetch receipt explicitly distinguishes its transition commit from the REGINALD commit carried in the push. WATT records the automatic approval rejection rather than bypassing it; later publication by another authorized push is a separate event. This is not evidence that WATT should evade approval review.
+- Repeated checks followed actual edits and arriving inputs in the inspected sequences. No demonstrated time saving supports removing those checks. Historical receipts need not be rewritten merely because later publication or consumption changes current state.
+
+### CL1 follow-up — complete-procedure claim still exceeds coverage
+
+At committed WALTER `ff6b6cd68`, LAST_COMPLETION line 2 calls Tier-2 closeout DONE; line 59 expressly says the research-retirement pass over 60 days was not run. Root CLAUDE Data Hygiene requires that assessment at closeout. The native reply to Will's 12:17 procedure question says the complete procedure was followed, while carrying several other gaps explicitly. Its saved `research/2026-10-12_boot/session-closeout-check.txt` PASS covers receipt consistency, named evidence and local-origin claims, not the entire root/owner procedure. The checker itself discloses these limits; this is not a checker failure.
+
+**Consequence/correction:** the transition can be saved and ready to resume while full procedure coverage remains incomplete. Say that plainly. Account for the retirement duty through a bounded eligibility review or an explicit authorized deferral; do not convert a scoped PASS into global completion. CATO did not establish that any particular file should have been retired, nor assess the subsequent X repair. Acceptance is a first-pass handoff whose completion claim matches actual applicable step outcomes, without Will requesting a second audit.
+
+### CL3/CL7 follow-up — stale instructions persist, with different actual consequences
+
+1. **TERRY CLOSEOUT recovery subsection:** B2 still prescribes replaying all local commits in a worktree, resetting the shared branch and restoring a foreign directory's index/worktree. This conflicts with the root ownership/recovery boundaries and could overwrite concurrent work. The current startup map explicitly carries the recovery hold and October 13 follow-up; no execution of this recipe was observed. **Prioritize resolving the existing held repair**, replacing duplicate mechanics with the canonical root pointer after owner acceptance. Do not treat discovery as a new grant or remove the hold before repair.
+2. **WALTER `design/BOOT_PROTOCOL.md` section 16:** still associates non-fast-forward and recurrence with a second machine, and gives push/recovery prose inconsistent with current root and WALTER's special push rules. Owner CLAUDE step 13 still says to precede printed step 12(b). These are surviving CL7 issues. Root correctly recognizes concurrent sessions on one machine. Preserve WALTER's actual stricter push exception while removing the obsolete rationale/mechanics.
+3. **OZK MEMORY line 70:** explicitly derives “commit locally and defer push” from root's before-pull protection for foreign dirty work. The sampled L690 delivery tool calls had no safe-push attempt. This is a concrete recurrence of CL3's pull/push conflation; it is not a claim that OZK ignored a new closeout request (none found in that inspected segment). Fix the rule distinction; later shared publication can resolve persistence without making the earlier rationale correct.
+4. **BRENT CLAUDE line 85:** still instructs Friday rig checks to grade BRT-26 against 457. Current STATUS says the prediction closed September 25 and that line governs nothing live. This is stale operational prose; no regrade or unnecessary pull was observed. Remove the retired trigger from live instructions and retain its historical evidence. The earlier lane-specific intake and final-summary ordering proposals remain unimplemented recommendations, not newly demonstrated mail loss.
+
+**Acceptance:** owner procedures point to current root recovery with genuine owner exceptions intact; held TERRY actions remain unavailable until accepted repair. A newcomer should not interpret foreign dirty files as a universal ordinary-push ban, or regrade a retired BRENT prediction from boot prose. No production rebase/reset experiment is needed for this review.
+
+### CL8 — bounded efficiency defect: four event ledgers lack the declared cadence
+
+`AGENTS/WALTER/workbook/LEDGER_GLOB` says all seven event-driven ledgers carry the cadence and re-pull header. The checker reads each actual ledger's header, not that comment. A read-only import of `scripts/ledger_staleness.py` and calls to `is_event_driven`/`repull_date` independently produced:
+
+| Actual ledger | Event declaration recognized | Re-pull date recognized |
+|---|---|---|
+| DOORBELL_LOG.tsv | yes | 2026-10-12 |
+| CORRECTIONS.tsv | no | absent |
+| corrections_receipts.tsv | no | absent |
+| DEEP_RESEARCH_FLAGGED_LOG.tsv | no | absent |
+| BATCH_MANIFEST.tsv | no | absent |
+| FALSIFICATION_FIRED_LOG.tsv | yes | 2026-10-12 |
+| REG_THRESHOLDS_FIRED_LOG.tsv | yes | 2026-10-12 |
+
+The saved `research/2026-10-12_boot/session-closeout-ledgers.txt` reports these four among eight behind ledgers, including corrections receipts at 91 STATUS writes behind. The other three are correctly reported as event-driven. Thus existing support is partially unused and the declaration-file description is inaccurate. A behind count alone does not prove a missed correction/event; WALTER correctly avoids manufacturing rows to silence it.
+
+**Correction:** WALTER should reconcile the four files' actual intended cadence with supported declarations and truthful evidence-check clocks. First inspect consumers before inserting comment headers into header-first TSVs. Preserve event rows and actual checks; don't stamp a re-pull that did not happen, relax the global threshold or create another checker. Acceptance: supported consumer reads remain valid; all intended event-ledger headers are recognized; missing/stale attention is still visible; ordinary routing-ledger warnings retain their meaning. This will not necessarily eliminate the other four warnings. Reduced future friction is expected, not measured.
+
+### Recommended order and stop
+
+Resolve TERRY's existing recovery hold and conflicting Git guidance first; correct WALTER's coverage claim and cadence declarations next; remove BRENT's retired trigger and repair the already-identified execution-order prose within those owner edits. Preserve the functioning context-reset handoffs. This is a bounded maintenance proposal, not permission to spawn agents, add a fleet audit or displace L694/afternoon evidence work. Owner implementation remains pending. Stop after targeted acceptance plus the next ordinary closeout demonstrates accurate first-pass coverage; investigate further only if a remaining observed failure changes that decision.
+
+### October 12 CATO delivery checks
+
+Verified five inputs exist/readable and passed weekday checks: PROME DOCKET, GATES and WILL_QUEUE, CATO CONTINUITY and this report. Direct startup bytes: CATO AGENTS 6,465 / CHARTER 9,921 / CONTINUITY 29,532; root CLAUDE 24,961 / USER 5,200 / AGENTS 5,313, all below 32,550. Generic CATO read-cap rc2 CANNOT-EVALUATE still assumes a nonexistent local CLAUDE; not a pass. Scoped whitespace clean. Orphan advisory found only the preserved DAEDALUS STATUS/CHARTER_SPLIT changes; no CATO-authored outside paths or staged files at inspection. No STATUS, financial figure, ledger or auto-memory changes trigger extra conditional checks. Newly changed CATO artifacts are not retirement-eligible by age. Only this report and the replaced continuity disposition form delivery. Owner implementations and realized benefit remain unassessed; commit/fresh-fetch publication receipt follows in-session.
