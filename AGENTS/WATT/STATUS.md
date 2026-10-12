@@ -1,6 +1,6 @@
 # WATT — STATUS
 
-**Last Updated:** 2026-10-12 10:58 ET (thirteenth session — Will, DOCKET L654; OpenAI Codex) · **P1 = 5 HELD**, no new observed RED through October 12 10:35 EPT. **FERC rejected IRAS/BYONC October 9: WATT-10 MISS; WATT-08 ~50% OPEN.** Composite **16/20**. New backup-generation authority is **requested, not verified issued**.
+**Last Updated:** 2026-10-12 12:31 ET — **final records-only closeout**, Will-directed; power observation remains **2026-10-12 10:35 EPT**, no new tape/DOE read. P1 **5 HELD**; WATT-10 **MISS**; WATT-08 **~50% OPEN**. Composite **16/20** unchanged.
 **Class:** Market-agent (grid stress → power price → power cost) · **Spawnable by:** PROME or Will · **Maturity:** **L4 (Conf H)** *(DAEDALUS 2026-09-05)*
 **Read-cap budget:** **32,550 B** per boot-read surface (root `CLAUDE.md` §Data Hygiene; binding above any owner number). Old "64,000 B" line retired → archive Block BG.
 **Superseded content →** `status_archive/STATUS_ARCHIVE_2026-10.md` (Oct rotations; Blocks BH– moved 10/9) · `status_archive/STATUS_ARCHIVE_2026-09.md` (Sept rotations, per-block bytes + crc32 in its manifests; Blocks L–AC moved 9/11; **AD–AW moved 9/25**) · `status_archive/STATUS_ARCHIVE_2026-08.md` (**CLOSED**) · `archive/SCRATCH_ARCHIVE_2026-07-08.md`
@@ -8,6 +8,8 @@
 **Read-cap:** read the figure from `boot.py` leg 3 / `PROME/tools/measure.py`, never from this sentence. 9/25 rotations: Blocks AD–BG verbatim, bytes + crc32 in the archive manifest. Rotation, never deletion.
 
 > **October 12 L654:** morning max **$52.90/MWh through 10:35 EPT**; no EEA-class posting. Advisories extend October 12–14; maintenance recall due October 14 noon. PJM replaced a one-minute “obtained” DOE notice with “requested”; new issuance UNKNOWN. **WATT-10 MISS**; **WATT-08 ~50% OPEN**. Report and KB-WATT-138…144 carry evidence and caveats.
+
+> **Closeout coordination:** PROME's exact consumption and publication receipt is `PROME/reports/2026-10-12_WATT-L654-L200-consumption.md` (30770e3bb); prior “pending publication/approval” warnings are superseded. Existing event follow-ups registered L692/L693. Procedure comparison saved; protocol unchanged.
 
 ---
 
@@ -84,8 +86,8 @@
 
 | # | item | when |
 |---|---|---|
-| 2 | 🔴 **P1 de-escalation 5→3 — RE-ARMED** after the 10/7 re-fire: execute at the first boot ≥**10/15** if 10/8–10/14 carry no EEA-class posting and no new PJM §202(c). **10/12 Capacity Advisory day** is the test (KB-134). Residual: 202-26-41/-45 utilisation reports (limb (c)) | **≥10/15** |
-| 3 | **IRAS resolved:** WATT-10 MISS on 10/9 order; only definition/registry accepted. WATT-08 ~50% OPEN. **EL26-67 abeyance granted 8/14**, responses 11/16 with section 205 proviso. Consumer acknowledgment pending | compliance within 30 days; 11/16 response |
+| 2 | 🔴 **P1 de-escalation 5→3 — RE-ARMED** after the 10/7 re-fire: execute at the first boot ≥**10/15** if 10/8–10/14 carry no EEA-class posting and no new PJM §202(c). **October12–14 advisory window (L692)** is the test (KB-134). Residual: 202-26-41/-45 utilisation reports (limb (c)) | **≥10/15, L693** |
+| 3 | **IRAS resolved:** WATT-10 MISS; WATT-08 ~50% OPEN; EL26-67 responses 11/16 with section205 proviso. **PROME consumed** exact report427c1280f/deliveryd9127ded0 at its L654/L200 receipt. Other consumer acknowledgments unknown | compliance within30days;11/16response |
 | 4 | 🟠 **The 6.5 GW gap** (July @159,046 vs Sept @152,518 MW) — still INFERRED. 5-min route closed; use the DM2 **generation-outage** series, method per KB-WATT-089 | open |
 | 5 | **2 OPEN predictions:** WATT-08 (2027-06-30), WATT-09 (11/16 response; 11/30 outer). WATT-10 **MISS**, archived 10/12; WATT-12 HIT, archived 10/9 | — |
 | 6b | 🟠 **CONDITIONAL, NOT a dated catalyst — premise open.** The 9/1–9/3 window reaches `FL-WATT-08` by **PRICE** on a ~3-month lag (trailing-3-month mark, ~Dec 2026), but the covenant marks *Excess **UNHEDGED*** costs. 🔑 **Resolve the hedged/floating split FIRST — the date exists only on one branch.** *Detail → archive Block J* | premise first |
@@ -102,7 +104,7 @@
 | trigger | date | why it needs WATT |
 |---|---|---|
 | **P1 re-escalation watch** | any boot | re-fire on the RED conjunction; **70.8 GW offline (10/9)**; KILL_MEMO cascade on C1/C2/C3 |
-| **PJM advisory / maintenance window** | **10/12–10/14; recall 10/14 noon EPT** | October 12 morning read only; after-day recheck owed; DOE request needs issuance check |
+| **PJM advisory / maintenance window — L692** | **10/13–10/14; recall10/14noonEPT** | Includes fullOctober12 outcome. Lastreadonly10:35; DOEissuance/use unverified; no automatic future execution claimed |
 | **🔴 EEA-2/3, voltage reduction, load shed** | any time | the only P1 state above the current one — KILL_MEMO cascade |
 | **IRAS compliance / any revised section 205 proposal** | within 30 days of 10/9 order | WATT-10 MISS; definition/registry only accepted. Refile date unverified |
 | **EL26-67 show-cause response** | **11/16; answers 12/16** | Abeyance granted 8/14; qualifying section 205 filing may suspend duty. WATT-09 outer 11/30 unchanged |

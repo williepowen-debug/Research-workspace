@@ -6,42 +6,24 @@
 > **An unfiltered `rt_hrl_lmps` query + a row cap = silent truncation, not an error.** Always pass `pnode_id`.
 > **File sizes are capped by fleet rule, not by me:** every boot-read surface **< 32,550 B** (root `CLAUDE.md` §Data Hygiene). This file and `STATUS.md` are both boot-read. **Check before writing, not after.**
 
+
 ---
 
-**2026-09-06 — EIGHTH SESSION (rotated verbatim 2026-09-10 → `archive/SCRATCH_ARCHIVE_2026-09-06_eighth-session.md`).**
+## CURRENT PICKUP — 2026-10-12 12:31 ET; window closed on Will's instruction
 
-**What survives of it, in five lines:** ① The September episode **closed 9/3 without escalating** (9/3 peak $437.15, 0 intervals ≥$500); P1 held at 5 on its dated rule, not on stress. ② **Five external review rounds (CODEX) withdrew or scoped ~18 of my claims** — the thesis survived all five; **~10 of the defects were in my own CORRECTIONS**, not the originals. ③ **P4: the spark's "widening" was window composition** — surviving read is *the readings do not establish persistent widening* (adjusted +$30.46 → +$41.09 → +$26.33 → +$28.98); a mid-Aug window sits ~35% above 8/4 **unexplained**. ④ **`rt_hrl_lmps` retains ≥67 days** (the ~15-day limit is the 5-min feed's alone). ⑤ **GPU-instrument ownership was RULED 9/3 to VULCAN** (both tiers + spread, re-decide 10/05) and I never saw it — *a cc in a header is a label, not a delivery.*
-🔑 **Three fleet-general patterns from that session, still live:** a correction **inherits the confidence of the thing it corrects** · **citing a memory is not running it** · **a canonical fix does not retroactively reach the surfaces still asserting the old claim** (now proven twice more on 9/10 — the "de-contaminated" word was still standing on two surfaces).
+**Source boundary:** records/procedure closeout only. No new PJM/FERC pull; power evidence remains **October 12 10:35 EPT**. P1/P2/P3/P4 **5/5/4/2**, composite16/20. WATT-10 MISS is final; WATT-08 (~50% DoorB) and WATT-09 remain OPEN. No trade or threshold change.
 
-**2026-09-10 — NINTH SESSION (rotated verbatim 2026-09-11 → `archive/SCRATCH_ARCHIVE_2026-09-10_ninth-session.md`).** Survives in four lines: ① **DOCKET L249 graded (d) QUIET LAPSE** — 202-26-41 expired 23:59 9/8 unreplaced; limb (c) UNKNOWN (para-E report never published); NEXUS owns M-09 ARMED→COUNTED. ② **P1 5→3 graded + ARMED, deliberately not executed** — the 7-clear-day clock had two readings (clock vs calendar, L-51); graded on the registered letter "end of 9/10". ③ Inbox 7 items drained; SIG-013's "6,831 MW backstop" phrasing NOT adopted (shortfall ≠ RBP filing). ④ 16,298 B rotated; the "hot/cold split" ask was a denominator error (DOCKET L319 corrected it 9/10 20:2x).
+**Completed:** L654 morning primary checks and four-item inbox drain; FERC order grade; owner-consumer packets; native Codex queue verification. **PROME consumed** report/state427c1280f and deliveryd9127ded0 at `PROME/reports/2026-10-12_WATT-L654-L200-consumption.md` (30770e3bb). Prior research/status/queue/limitation commits published, verified against fresh origin657703deb. Historical automatic-review rejections are retained; **no approval or retry owed for that published work**. Other consumer acknowledgments remain unknown.
 
-**2026-09-11 — TENTH SESSION (rotated verbatim 2026-09-25 → `archive/SCRATCH_ARCHIVE_2026-09-11_tenth-session.md`).** Survives in two lines: ① P1 5→3 executed on the registered letter (composite 16→14). ② 9/10's "zero ≥$500" was a noon read — L-52 (a negative over a window including TODAY carries its read-time everywhere it is quoted).
+**Requested comparison:** `reports/2026-10-12_closeout-procedure-comparison.md`; draft `proposals/2026-10-12_CLOSEOUT_PROPOSED.md`. Recommend BOND's finish discipline + BRENT's source/write-back reconciliation + WALTER's receipt reconciliation. **Proposal only:** CLAUDE.md unchanged, no runner installed. User asked for recommendations; no new implementation commissioned.
 
-**2026-09-25 — ELEVENTH SESSION (rotated verbatim 2026-10-09 → `archive/SCRATCH_ARCHIVE_2026-09-25_eleventh-session.md`).** Survives in three lines: ① PJM's 4th emergency (9/16–9/18) recorded 8 days late; P1 3→5, WATT-11 MISS, WATT-12 registered (L-53: a desk cannot detect its own absence). ② WATCH_FOR["WATT"] landed (16 terms incl. 2 FERC); cadence WEEKLY (WQ-295). ③ BRENT corrected my P4 basis premise (takeaway cut ⇒ sign UNKNOWN; do not fire/un-fire P4 on it).
+## NEXT OWNER TOUCH — registered event work, not automatic monitoring
 
-**2026-10-09 10:1x ET — TWELFTH SESSION (PROME Tier-1 WATT-12 coverage wake, DOCKET L595; desk dark 9/26–10/8 — the weekly cadence was missed twice).**
+1. **L692, October 13–14:** complete October 12 tape/board/DOE read; inspect October 13–14 advisories and **October 14 noon EPT** maintenance recall. New backup authority is REQUESTED at the last read, issuance/use unverified. No full-day all-clear.
+2. **L693, first boot>=October 15:** grade all seven clear calendar days October 8–14 and the new DOE-request disposition before P1 de-escalation. Preserve missing-interval limits. No early5→3.
+3. **FERC:** original IRAS resolver L200 closed/WATT-10MISS; definition/registry compliance within30 days of October 9 and any revised filing remain follow-ups. EL26-67 response **November 16**, answers **December 16**, qualifying205 filing suspension respondent-specific; WATT-09 outerNovember 30 unchanged.
+4. **Other registered clocks:** battery recheck>=October 19; existing instrument/interchange/metered-vs-DR deferrals October 23; wake-list review October 31. Weekly cadence next boot<=October 19; earlier L692/L693 take priority.
 
-## ▶ WHAT CHANGED
-- 🔴 **10/7 17:45–17:50 PJM-RTO 5-min $2,978.38 / $2,964.47** at ~92–94 GW, **70.3 GW offline** (planned 49.9, forced 11.7), no posting, no §202(c), no heat → **`WATT-12` HIT** (archived) · **FL-WATT-15 → CONFIRMED-PARTIAL** · P1: 5→3 was due 9/26 (graded MET late), **3→5 re-fire 10/7 on the weak demand limb** — net 5, composite 16/20. KB-132…137.
-- **PJM Capacity Advisory #105546 (10/8 11:45) FOR MON 10/12** — precursor, not EEA-class.
-- **FERC ER26-3515: no order as of 10/9 10:01 ET** (eLibrary API: 5 issuances, all notices). The eLibrary JSON API works from curl — `POST https://elibrary.ferc.gov/eLibraryWebAPI/api/Search/AdvancedSearch` with `docketSearches` + `categories:["Issuance"]` (paging via curPage did NOT work; filter by category instead).
-- Inbox drained (5 + 19 WALTER + 1 late arrival logged, file left: WALTER hasn't committed SIG-W-20261009-004). boot.py float-tie fixed (integer 24,412 B); CLAUDE.md 64,000 B line + WQ-399 receipt form fixed; COR-20260910-08 NO-OP receipted. STATUS rotated → `status_archive/STATUS_ARCHIVE_2026-10.md` Block BI.
-- DM2 spend: 4 calls (2 boot + 1 tape range + 1 outages), spaced.
+**Unresolved owner carry:** hedged/floating exposure owed to VULCAN; 6.5 GW gap; Appalachian basis/NG=F settlement clock; ERCOT Cal-27 discriminator. Details remain at STATUS OPEN and prediction rows; do not restate as newly measured.
 
-## ▶ PICK UP HERE (priority order)
-1. 🔴 **Mon 10/12 Capacity Advisory day** — read the board + tape; a Max Gen / Load Mgmt Alert or EEA-1 resets the de-escalation and is a →5-on-the-posting-limb event; KILL_MEMO on EEA-2+.
-2. 🔴 **P1 de-escalation 5→3** at the first boot ≥**10/15** if 10/8–10/14 carry no EEA-class posting and no new PJM §202(c) (calendar days, L-51).
-3. 🟠 **FERC on IRAS** — re-query eLibrary (Issuance category) at the next boot; requested effective 10/12; outer 10/31 (WATT-10).
-4. 🟠 **Cadence** — WEEKLY declared, missed twice (9/25 → 10/9). Next boot **≤10/16**; the 5-min tape is the only instrument that sees a price-only spike (10/7 had no headline, no posting).
-5. 🟡 **Gate question for the owner (me), not moved:** the RED letter's demand limb (≥97% of trailing 24h peak) has now fired twice (9/16, 10/7) on evening ramps with no operator action — a re-spec proposal is mine to write; any change goes through PROME/Will.
-6. 🟡 Deferred to **10/23**: `power_watch.py:178` float-tie (feeds the ≥97% limb) · AEOLUS's interchange test (9/16–17 exports into MISO/TVA?) · metered-vs-DR row (PROME registers from my 10/9 memo).
-7. 🟡 **Unchanged carry:** 🔴 owed to VULCAN hedged-vs-floating · 6.5 GW gap · EL26-67 · ERCOT Cal-27 (+ Batch Zero 12/10) · 10/31 WATCH_FOR review · B1 T2 ≥10/19.
-
-
-## October 12, 2026 — THIRTEENTH SESSION (Will, L654)
-
-**FERC:** WATT-10 MISS on October 9 order, 197 FERC ¶61,019: IRAS/BYONC rejected; definition/registry accepted. WATT-08 ~70%→~50%, OPEN; WATT-09 OPEN. EL26-67 abeyance granted August 14: responses November 16, answers December 16, qualifying section 205 suspension proviso. Report: `reports/2026-10-12_DOCKET-L654_PJM-advisory-IRAS-grade.md`; KB-138…144.
-
-**Power through 10:35 EPT:** max $52.90/latest $21.77; no new observed RED. Scores 5/5/4/2 held. Daily outage forecast 62,592 MW; advisories October 12–14; recall deadline October 14 noon. **One-minute “obtained” DOE notice replaced by “requested”; new issuance unverified.** Do not infer generator use.
-
-**Supersedes October 9 pickup items 1–4:** after October 12, pull tape/board/DOE. First boot ≥October 15: grade full October 8–14 calendar window and DOE request before de-escalation. Weekly next boot ≤October 19; event checks sooner. FERC compliance within 30 days of October 9; any refile needs a primary read. EL26-67 response November 16 with proviso. No new threshold or prediction registered. Inbox 4/4 integrated; corrections rc0; network boot rc1; TRADE refreshed. Codex task /root, exact model/session UUID UNKNOWN; fleet messaging unverified. Startup pull deferred for other desks' dirty files; persistence receipt reported separately.
+**Operational continuity:** WATT session UUID 01a1308e-b0ab-7f00-883d-408ac1b2bd07 observed in this window; PROME queue target 01a1307b-f614-76b3-8caf-49b226027079 verified. A new window must discover its own identity/capabilities, not reuse this UUID. Startup pull deferred for foreign dirty work; exact owned-path commits only. Closing delivery and new-commit publication receipt are reported separately. Prior SCRATCH preserved at `archive/SCRATCH_ARCHIVE_2026-10-12_pre-final-closeout.md`.

@@ -1,0 +1,56 @@
+# WATT closeout comparison and recommendation
+
+**Date:** 2026-10-12. **Scope:** Will requested comparison with BRENT, BOND and other desks, plus this window's closeout. This is a recommendation, not an applied protocol amendment. Other desks were read only; none of their runners was executed or records changed.
+
+**Recommendation:** replace WATT's short closeout checklist with a small, explicit procedure using **BOND's finish discipline, BRENT's content reconciliation and WALTER's receipt reconciliation**. Keep WATT's existing STATUS/workbook/SCRATCH/NEXUS responsibilities and root Git authority. Start with documentation and a fixed checklist; a small mechanical wrapper is a second phase, not a prerequisite for this change.
+
+## Comparison
+
+| Desk and source | What its procedure does better | Limit or cost | Recommendation for WATT |
+|---|---|---|---|
+| [WATT CLAUDE.md](../CLAUDE.md#closeout-protocol-before-idle), lines 38–47 | Five clear responsibilities: STATUS, workbook, continuity, brief last, Git. Existing root checks and completion contract still bind | Local procedure does not explicitly close predictions/catalysts, reconcile THESIS/TRADE, record per-step outcomes, or reconcile recipient/publication evidence. It tells the owner to append SCRATCH, leaving multiple pickup blocks | Keep the responsibilities; replace the local five-step text with one pointer to a concise owned CLOSEOUT.md. Do not duplicate root Git rules |
+| [BOND CLOSEOUT.md](../../BOND/CLOSEOUT.md), tiers and C1–C12 | Tiered endings, explicit changed/no-op accounting, predictors/catalysts/trade dependencies, brief last, **freeze → run → verify → commit → push**. Addendum cannot bypass the minimum floor | Its runner is desk-specific, writes BOND logs and checks BOND tokens. Code includes shared HEAD in the digest, so another desk's commit can invalidate a freeze even if owned content is unchanged. A passing runner certifies mechanical execution, not truth | Borrow the sequence and honest check outcomes. Do not invoke/copy BOND's runner or mirror token wholesale; any future WATT wrapper should use shared checks and WATT-owned paths, with scoped content and separate source-commit pins |
+| [BRENT CLAUDE.md](../../BRENT/CLAUDE.md#closeout-write-back--run-at-every-session-end), steps 7–14 | Explicit dependency updates: facts, predictions, thesis, trade, dated catalysts, tracker, rewritten handoff, brief re-verification and two-way mail reconciliation. Distinguishes records-only/mixed-vintage refresh from new observations | BRENT has frozen KB/VX/FLOW and specialized scheduled trackers; WATT's ledgers are live. Its [October 5 audit](../../BRENT/audits/2026-10-05_closeout-check/REPORT.md) found omissions despite an earlier “checks passed” summary | Borrow content reconciliation, current handoff and source boundaries, not BRENT's ledger model or every energy check. Record which required steps actually ran and their limits |
+| [WALTER CLAUDE.md](../../WALTER/CLAUDE.md#closeout--tiered), light/full and step 15/post-push reconciliation | Small midday closure with a durable minimum; full closeout when ending/going dark. Carried obligations are checked against evidence; publication state is reconciled after pushes instead of left as an old warning | WALTER owns BOARD/route logs and has a distinct push exception. Its rolling LAST_COMPLETION serves a particular fleet feed; that format is not mandatory for WATT | Borrow re-evaluation of carried blockers and separation of written, published, notified and consumed. Do not copy its BOARD tooling or push permissions |
+| [HENRY CLAUDE.md](../../HENRY/CLAUDE.md#write-back), steps 8–10 | Separates next-agent continuity from Will's short session result; final brief follows final STATUS | An extra rolling LAST_COMPLETION is a deliberate HENRY exception, not a universal handoff requirement | Give Will a concise result and give next WATT an explicit pickup. Use one dated WATT receipt plus SCRATCH, rather than adding another rolling summary |
+| [PROME CLOSEOUT.md](../../../PROME/CLOSEOUT.md), tiers and symmetry; [COMPLETION_SPEC.md](../../../PROME/COMPLETION_SPEC.md) | Distinguishes owner delivery, recipient consumption and explicit closeout; documents source/write-back dependencies and conditional checks | Coordinator review/publication rails are much broader than a power desk's. They do not grant WATT shared-file authority | Cite the existing completion contract and root checks; do not copy PROME's dashboard or orchestration machinery |
+
+These are documented differences checked against current source files and selected implementation/receipts. They are not a claim that every peer performs every step successfully. BOND's runner source was inspected at `monitors/closeout_run.py` (classification, digest and verify functions); no independent runner acceptance test was performed during this document review.
+
+## What this session exposed
+
+1. **Research completion and session closure were blurred.** L654's morning read and WATT-10 grade were complete, but the full-day observation, later advisory window and actual owner closeout were separate. A generic DONE label needed its scope attached everywhere. PROME's consumption record now preserves that distinction.
+2. **Publication warnings outlived their evidence.** Native pushes were rejected by automatic review because the shared branch included other desks' commits. Independent authorized PROME pushes subsequently published WATT's records. WATT's historical limitation notes kept saying publication/approval was pending. The rejection must remain in history, while the current disposition must change to published.
+3. **Notification and consumption lagged in derived surfaces.** Queue syntax was discovered and a message accepted; PROME later acknowledged exact report/state/delivery versions. WATT's receipt and brief still carried older “transport unavailable/consumption unknown” language until this final reconciliation. Four other consumer acknowledgments remain unknown; PROME's acknowledgment does not cover them.
+4. **The handoff grew by appending.** October 9 pickup instructions remained prominent after October 12 resolved their FERC question. A superseding paragraph is technically valid but requires the next owner to adjudicate multiple versions. Keep one current pickup block and archive the prior session verbatim.
+5. **Related documents needed deliberate updates.** WATT's own boot flagged TRADE behind STATUS; THESIS and VX carried older allocation wording. A staleness timestamp cannot prove agreement. Closeout should list which linked surfaces a changed fact affects.
+
+Evidence: [L654 report](2026-10-12_DOCKET-L654_PJM-advisory-IRAS-grade.md), [coordination status/queue receipts](2026-10-12_PROME-desktop-coordination-status.md), [historical closeout receipt](2026-10-12_L654-closeout-receipt.md), and [PROME's consumption and publication reconciliation](../../../PROME/reports/2026-10-12_WATT-L654-L200-consumption.md), commit `30770e3bb`. The final research data vintage remains October 12 **10:35 EPT**; this comparison adds no market observation.
+
+## Proposed WATT procedure
+
+The concrete replacement text is [CLOSEOUT_PROPOSED.md](../proposals/2026-10-12_CLOSEOUT_PROPOSED.md). It proposes three modes, with explicit conditions:
+
+- **Checkpoint:** context reset/status-only ending. Record current assignment, evidence vintage, next due action and any actual state change. No cosmetic data refresh or mandatory market pull just to change a stamp.
+- **Standard:** end of the owner window, research/grades/inbox work. Reconcile all affected desk surfaces, predictions and dated obligations; current SCRATCH; mail receipts; checks; final brief and persistence. **Today's ending belongs here.**
+- **Heavy:** standard plus deliberate protocol/tooling/thesis changes and the validation those changes require. A document comparison alone does not establish that a new runner was implemented or tested.
+
+All modes preserve existing requirements to keep STATUS current in substance, write continuity, fold the NEXUS brief last, persist changed owned artifacts, and deliver the actual scope under the canonical completion contract. Modes size the work; they do not waive root/desk obligations. No new threshold or approval authority is created.
+
+The standard sequence is: **reconcile evidence and obligations → write affected state → rewrite current pickup → account for inbox/outbound work → run applicable checks with limits → commit final STATUS/source updates → fold and pin NEXUS → commit final packet/brief → verify publication and notify → close with a bounded receipt**. Post-commit publication evidence belongs in the same dated receipt/logical closure, not a new research stamp; a changed content source restarts the affected checks and brief fold.
+
+At the publication step:
+
+- A technical approval rejection is preserved with the exact action/reason; root research authority does not erase the runtime decision. No transport workaround or repeated denied-command attempts.
+- Before claiming “still pending” or presenting the same publication decision again, fetch read-only and verify whether **the actual authored commits** are already ancestors of the remote, including an independent authorized push. Record the observation time and supporting receipt/ancestry.
+- If all required commits are published, close the publication obligation and supersede its warning. If they are not, report the actual gap once. The owner procedure cannot unilaterally alter root push authority or the runtime's approval policy.
+
+## Small first change; bounded second phase
+
+**First:** introduce one owned CLOSEOUT.md; replace CLAUDE.md's five-step block with its pointer; add the source/write-back map, current handoff rule, conditional check accounting and current-versus-historical receipt reconciliation. Supersedes the existing local five-step block; preserves the NEXUS last-write invariant, root Git protocol and COMPLETION_SPEC.
+
+**Second, if wanted:** a small `closeout_check.py` wrapper for existing WATT/root checks: read cap, weekday, ledger coverage, inbox accounting, STATUS/brief source pin, declared numeric changes/memory, and scoped freeze integrity. The wrapper must distinguish checks that ran, findings, failed checks and declared non-applicability. It must not certify research truth, consumer acknowledgment, live prices or remote publication from a timestamp. Extend existing checks where possible; tests should target real failure cases such as omitted declaration, moved source, untracked-content mutation and already-published warning. Do not install this code solely because BOND has a runner.
+
+**Keep:** live WATT ledgers, power-channel scores, predictions, source discipline, narrow ownership and compact/full NEXUS rules. **Avoid:** a new dashboard, copying every peer check, turning the KILL_MEMO into a normal write-back, automatic new market grades, or additional approval rituals for already authorized research.
+
+No current protocol file was changed by this recommendation. Will can approve the documentation revision separately from building a wrapper. This recommendation itself requests no new capital, source subscription or research direction.
