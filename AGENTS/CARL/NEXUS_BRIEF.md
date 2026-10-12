@@ -3,7 +3,7 @@
 **Status:** 🔴 Registered 53/70 unchanged; October12 scope review challenges broad spending convergence.
 **Domain:** U.S. consumer financial stress and downstream household transmission; bank-level credit belongs to REGINALD.
 **Thesis version:** v2.6.6
-**As of:** 2026-10-12 14:13 ET | **STATUS commit:** 167a6fda5
+**As of:** 2026-10-12 14:18 ET | **STATUS commit:** 61a2829fd
 **Position:** No capital authority. Paper references only; no marks or broker position claims.
 
 ## CROSS-DOMAIN
@@ -14,7 +14,7 @@
 |---|---|---|
 | PROME (sent10/12) | Scope finding and L672 disposition, `PROME/inbox/2026-10-12_from-CARL_scope-review-and-data-catchup.md` | Review/command repair/retirement done; EART source gap retained. No new decision or capital proposal. |
 | WALTER (sent10/12) | Newly found BofA October9 spending, SCF denominator resolution, Canadian tariff tail, Epiq source inconsistency | Dedupe and route signals; no direct bypass to signal consumers. Source packet in its inbox. |
-| DEWEY (sent10/12) | DR1 Q2 working artifact read; card current-cohort/book ratios are not causal suppression | Class-wide50bp test NOT COMPUTABLE, not zero. DEWEY source finalizedeb1213301 andhashmatched;Q2integrationcomplete. Existing Q3 refresh11/13, no new commission. |
+| DEWEY (sent10/12) | Finalized DR1 Q2 artifact read; card current-cohort/book ratios are not causal suppression | Class-wide50bp test NOT COMPUTABLE, not zero. DEWEY source finalizedeb1213301 andhashmatched;Q2integrationcomplete. Existing Q3 refresh11/13, no new commission. |
 | TERRY (sent10/10) | TRY-FIRE-002 CRL21 premise: KEEP DORMANT, vintage leg25% unchanged | Prior answer stands; new result due at Q3 issuer print, packet either way. |
 | RED (staged in owned counter-log, historical) | DR3 premium leg unresolved; earlier tariff pulse faded | October12 source finding adds Canadian pass-through tail; no blanket forward-driver removal. New signal routing goes through WALTER. |
 | HOMER (prior join) | V10 joins its C1+A1; broader C2 is not identical to CARL's Fannie-based V3 | Do not inherit HOMER C2score4 into V3score3. Its August Fannie0.57%/Freddie0.64% diverge (peer evidence, no fresh CARL primary pull). |
@@ -27,7 +27,7 @@
 | SEC / own pull | Four registered EART August exhibits |10/14retry| Card remains source-incomplete; detect filing is not parse collection period/grade. |
 | Census | September retail |10/15| First official September control/T1 read; benchmark update is not new month. |
 | SYF / ALLY / COF | Q3 prints |10/20:~06:00/~07:30/16:05ET, IR-confirmed10/12| CRL21 surviving vintage leg, CRL20 count, CRL31 reachability. TERRY receives CRL21 result either way. Other issuer dates not covered. |
-| DEWEY | Existing Q3 card refresh | Q2finalizedeb1213301;Q3by11/13| Reconcile source hash against finalized version; do not treat cohort scale as hidden-DQ wedge. |
+| DEWEY | Existing Q3 card refresh | Q2finalizedeb1213301;Q3by11/13| Q2 hash reconciliation complete; class-wide counterfactual and overlap evidence remain unresolved. Do not treat cohort scale as hidden-DQ wedge. |
 | STUE | ES01/04/06 grades | overdue10/02;parentreview10/14| Cure vs inflow; no launch in this session, PROME separate owner/slate. |
 | LABOR / BLS | October NFP |11/06,08:30ET| V16 earliest new print1; drop-back0/2 after10/02. |
 | FSA |9/30data public refresh|~mid/lateDecember,inferred| SAVE/RAP stock is not a non-selection wave rate; denominator required. |
@@ -52,7 +52,7 @@
 
 ## NEXT DECISION POINT
 
-- **What / when:** October14CPI and EART source retry, October15retail, October20 issuer cluster. Approved scope review is complete; no renewed permission needed.
+- **What / when:** October14CPI and EART source retry, October15retail, October20 issuer cluster. Scope finding is written; L672 remains PARTIAL pending its EART and CPI legs. PROME's October12 check-in continues the assignment without re-grade, new direction or closeout.
 - **What changes the view:** registered food path, qualifying same-pool two-tier auto reversal, CRL21 vintage-loss comparisons and CRL31 reachability. V8 DG first out-of-sample and premium discriminators remain pending. Structural test changes still require a separate Will ruling.
 
 ## WATCH
