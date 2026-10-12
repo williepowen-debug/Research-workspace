@@ -127,7 +127,14 @@ def _get(url, retries=3, timeout=60):
             last = e
             if i < retries - 1:
                 time.sleep(1.5 * (i + 1))
-    raise RuntimeError(f"GET failed after {retries} tries: {url} ({last})")
+    # Error text may contain the request URL too, not only the URL we print.
+    import re
+    diagnostic = f"GET failed after {retries} tries: {url} ({last})"
+    diagnostic = re.sub(r"(?i)(api_key=)[^&\s'\"]+", r"\1[REDACTED]", diagnostic)
+    if API_KEY:
+        for secret in (API_KEY, urllib.parse.quote_plus(API_KEY)):
+            diagnostic = diagnostic.replace(secret, "[REDACTED]")
+    raise RuntimeError(diagnostic)
 
 
 def _resolve_snapshot(series_id):
@@ -223,7 +230,7 @@ def splice_fetch(series_id, start=None):
 
 def main():
     args = sys.argv[1:]
-    if not args:
+    if not args or "--help" in args or "-h" in args:
         print("Usage: python3 fred_pull.py SERIES_ID [--limit N] [--start YYYY-MM-DD] "
               "[--all] [--csv] [--archive] [--splice]\n"
               "  --archive : full history via Wayback (ICE BofA BAML* are API-truncated)\n"

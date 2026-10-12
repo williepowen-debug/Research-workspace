@@ -1,0 +1,57 @@
+[
+  {
+    "path": "AGENTS/DEWEY/research/2026-10-12_dr4/agsi-2022.json",
+    "sha256": "d573e446681ba6a0f4da10ec3536151110b9bc364dbd61d6610fb788023b1379",
+    "source": "https://agsi.gie.eu/api?continent=eu&from=2022-05-01&to=2022-11-30&size=250",
+    "retrieved_on": "2026-10-12",
+    "archived_at": "2026-10-12T17:45:35.478545+00:00",
+    "rows": 214,
+    "first_gas_day": "2022-05-01",
+    "last_gas_day": "2022-11-30",
+    "note": "2026 saved via gie_pull series projection of fields; historical files contain full _rows response rows"
+  },
+  {
+    "path": "AGENTS/DEWEY/research/2026-10-12_dr4/agsi-2023.json",
+    "sha256": "e7361b44c2f451b2f713eb2f632dee7425380849aaebc3ef6f5dcc11386379f4",
+    "source": "https://agsi.gie.eu/api?continent=eu&from=2023-05-01&to=2023-11-30&size=250",
+    "retrieved_on": "2026-10-12",
+    "archived_at": "2026-10-12T17:45:35.478545+00:00",
+    "rows": 214,
+    "first_gas_day": "2023-05-01",
+    "last_gas_day": "2023-11-30",
+    "note": "2026 saved via gie_pull series projection of fields; historical files contain full _rows response rows"
+  },
+  {
+    "path": "AGENTS/DEWEY/research/2026-10-12_dr4/agsi-2024.json",
+    "sha256": "5c64edae466bd083e1f71dac2b58ec037aee4ae749d27a81e7421aeaeae54fce",
+    "source": "https://agsi.gie.eu/api?continent=eu&from=2024-05-01&to=2024-11-30&size=250",
+    "retrieved_on": "2026-10-12",
+    "archived_at": "2026-10-12T17:45:35.478545+00:00",
+    "rows": 214,
+    "first_gas_day": "2024-05-01",
+    "last_gas_day": "2024-11-30",
+    "note": "2026 saved via gie_pull series projection of fields; historical files contain full _rows response rows"
+  },
+  {
+    "path": "AGENTS/DEWEY/research/2026-10-12_dr4/agsi-2025.json",
+    "sha256": "c9ec80143010e720d9571d8e94b3e95da5a6831e8a474f1fb950fcbed04e3199",
+    "source": "https://agsi.gie.eu/api?continent=eu&from=2025-05-01&to=2025-11-30&size=250",
+    "retrieved_on": "2026-10-12",
+    "archived_at": "2026-10-12T17:45:35.478545+00:00",
+    "rows": 214,
+    "first_gas_day": "2025-05-01",
+    "last_gas_day": "2025-11-30",
+    "note": "2026 saved via gie_pull series projection of fields; historical files contain full _rows response rows"
+  },
+  {
+    "path": "AGENTS/DEWEY/research/2026-10-12_dr4/agsi-2026.json",
+    "sha256": "23ca597b0a5f4f40fe2ce2bf6b2696dd236bd8f4d6d7d5cf5794b9395e607499",
+    "source": "https://agsi.gie.eu/api?continent=eu&from=2026-05-01&to=2026-10-12&size=200",
+    "retrieved_on": "2026-10-12",
+    "archived_at": "2026-10-12T17:45:35.478545+00:00",
+    "rows": 163,
+    "first_gas_day": "2026-05-01",
+    "last_gas_day": "2026-10-10",
+    "note": "2026 saved via gie_pull series projection of fields; historical files contain full _rows response rows"
+  }
+]

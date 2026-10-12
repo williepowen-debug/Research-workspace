@@ -1,0 +1,1469 @@
+[
+ {
+  "gasDayStart": "2026-10-10",
+  "full": "73.61",
+  "gasInStorage": "831.8602",
+  "workingGasVolume": "1130.1222",
+  "injection": "2430.03",
+  "withdrawal": "431.8",
+  "trend": "-0.01"
+ },
+ {
+  "gasDayStart": "2026-10-09",
+  "full": "73.47",
+  "gasInStorage": "831.9474",
+  "workingGasVolume": "1132.3922",
+  "injection": "2355.28",
+  "withdrawal": "407.7",
+  "trend": "0.16"
+ },
+ {
+  "gasDayStart": "2026-10-08",
+  "full": "73.31",
+  "gasInStorage": "830.128",
+  "workingGasVolume": "1132.3922",
+  "injection": "2391.58",
+  "withdrawal": "397.2",
+  "trend": "0.18"
+ },
+ {
+  "gasDayStart": "2026-10-07",
+  "full": "73.12",
+  "gasInStorage": "828.0342",
+  "workingGasVolume": "1132.3922",
+  "injection": "2169.86",
+  "withdrawal": "392.7",
+  "trend": "0.16"
+ },
+ {
+  "gasDayStart": "2026-10-06",
+  "full": "72.97",
+  "gasInStorage": "826.2597",
+  "workingGasVolume": "1132.3922",
+  "injection": "1795.84",
+  "withdrawal": "509.5",
+  "trend": "0.13"
+ },
+ {
+  "gasDayStart": "2026-10-05",
+  "full": "72.84",
+  "gasInStorage": "824.7975",
+  "workingGasVolume": "1132.3922",
+  "injection": "2275.87",
+  "withdrawal": "449.5",
+  "trend": "0.16"
+ },
+ {
+  "gasDayStart": "2026-10-04",
+  "full": "72.68",
+  "gasInStorage": "822.9733",
+  "workingGasVolume": "1132.3922",
+  "injection": "3299.52",
+  "withdrawal": "249.3",
+  "trend": "0.27"
+ },
+ {
+  "gasDayStart": "2026-10-03",
+  "full": "72.41",
+  "gasInStorage": "819.933",
+  "workingGasVolume": "1132.3922",
+  "injection": "3256.38",
+  "withdrawal": "353.9",
+  "trend": "0.26"
+ },
+ {
+  "gasDayStart": "2026-10-02",
+  "full": "72.15",
+  "gasInStorage": "817.034",
+  "workingGasVolume": "1132.3922",
+  "injection": "2376.74",
+  "withdrawal": "463.2",
+  "trend": "0.17"
+ },
+ {
+  "gasDayStart": "2026-10-01",
+  "full": "71.97",
+  "gasInStorage": "815.1072",
+  "workingGasVolume": "1132.5122",
+  "injection": "3092.48",
+  "withdrawal": "320.7",
+  "trend": "0.39"
+ },
+ {
+  "gasDayStart": "2026-09-30",
+  "full": "71.64",
+  "gasInStorage": "810.6894",
+  "workingGasVolume": "1131.5982",
+  "injection": "2727.95",
+  "withdrawal": "1251.5",
+  "trend": "0.09"
+ },
+ {
+  "gasDayStart": "2026-09-29",
+  "full": "71.55",
+  "gasInStorage": "809.6352",
+  "workingGasVolume": "1131.5982",
+  "injection": "2455.31",
+  "withdrawal": "120.3",
+  "trend": "0.22"
+ },
+ {
+  "gasDayStart": "2026-09-28",
+  "full": "71.33",
+  "gasInStorage": "807.1536",
+  "workingGasVolume": "1131.5982",
+  "injection": "2270.44",
+  "withdrawal": "385.5",
+  "trend": "0.17"
+ },
+ {
+  "gasDayStart": "2026-09-27",
+  "full": "71.16",
+  "gasInStorage": "805.2782",
+  "workingGasVolume": "1131.5658",
+  "injection": "3329.56",
+  "withdrawal": "81.6",
+  "trend": "0.29"
+ },
+ {
+  "gasDayStart": "2026-09-26",
+  "full": "70.88",
+  "gasInStorage": "802.0327",
+  "workingGasVolume": "1131.5658",
+  "injection": "3074.42",
+  "withdrawal": "219.9",
+  "trend": "0.26"
+ },
+ {
+  "gasDayStart": "2026-09-25",
+  "full": "70.62",
+  "gasInStorage": "799.1341",
+  "workingGasVolume": "1131.5658",
+  "injection": "2186.32",
+  "withdrawal": "248",
+  "trend": "0.17"
+ },
+ {
+  "gasDayStart": "2026-09-24",
+  "full": "70.45",
+  "gasInStorage": "797.1913",
+  "workingGasVolume": "1131.5658",
+  "injection": "1573.32",
+  "withdrawal": "483.9",
+  "trend": "0.1"
+ },
+ {
+  "gasDayStart": "2026-09-23",
+  "full": "70.35",
+  "gasInStorage": "796.1021",
+  "workingGasVolume": "1131.5658",
+  "injection": "1877.89",
+  "withdrawal": "639.5",
+  "trend": "0.11"
+ },
+ {
+  "gasDayStart": "2026-09-22",
+  "full": "70.24",
+  "gasInStorage": "794.8661",
+  "workingGasVolume": "1131.5658",
+  "injection": "1749.46",
+  "withdrawal": "609.7",
+  "trend": "0.1"
+ },
+ {
+  "gasDayStart": "2026-09-21",
+  "full": "70.14",
+  "gasInStorage": "793.7304",
+  "workingGasVolume": "1131.5658",
+  "injection": "2437.94",
+  "withdrawal": "209.8",
+  "trend": "0.2"
+ },
+ {
+  "gasDayStart": "2026-09-20",
+  "full": "69.94",
+  "gasInStorage": "791.4588",
+  "workingGasVolume": "1131.5658",
+  "injection": "3744.49",
+  "withdrawal": "106.3",
+  "trend": "0.32"
+ },
+ {
+  "gasDayStart": "2026-09-19",
+  "full": "69.62",
+  "gasInStorage": "787.8291",
+  "workingGasVolume": "1131.5658",
+  "injection": "3661.46",
+  "withdrawal": "74.9",
+  "trend": "0.32"
+ },
+ {
+  "gasDayStart": "2026-09-18",
+  "full": "69.31",
+  "gasInStorage": "784.253",
+  "workingGasVolume": "1131.5658",
+  "injection": "2836.27",
+  "withdrawal": "99.8",
+  "trend": "0.24"
+ },
+ {
+  "gasDayStart": "2026-09-17",
+  "full": "69.06",
+  "gasInStorage": "781.5089",
+  "workingGasVolume": "1131.5658",
+  "injection": "2557",
+  "withdrawal": "161.6",
+  "trend": "0.21"
+ },
+ {
+  "gasDayStart": "2026-09-16",
+  "full": "68.85",
+  "gasInStorage": "779.111",
+  "workingGasVolume": "1131.5658",
+  "injection": "2383.3",
+  "withdrawal": "303.4",
+  "trend": "0.18"
+ },
+ {
+  "gasDayStart": "2026-09-15",
+  "full": "68.67",
+  "gasInStorage": "777.0371",
+  "workingGasVolume": "1131.5658",
+  "injection": "2295.94",
+  "withdrawal": "387.2",
+  "trend": "0.17"
+ },
+ {
+  "gasDayStart": "2026-09-14",
+  "full": "68.5",
+  "gasInStorage": "775.1252",
+  "workingGasVolume": "1131.5658",
+  "injection": "2366.54",
+  "withdrawal": "246.4",
+  "trend": "0.19"
+ },
+ {
+  "gasDayStart": "2026-09-13",
+  "full": "68.31",
+  "gasInStorage": "773.0158",
+  "workingGasVolume": "1131.5658",
+  "injection": "3263.19",
+  "withdrawal": "190.7",
+  "trend": "0.27"
+ },
+ {
+  "gasDayStart": "2026-09-12",
+  "full": "68.04",
+  "gasInStorage": "769.9402",
+  "workingGasVolume": "1131.5658",
+  "injection": "3150.66",
+  "withdrawal": "176.2",
+  "trend": "0.26"
+ },
+ {
+  "gasDayStart": "2026-09-11",
+  "full": "67.78",
+  "gasInStorage": "766.9571",
+  "workingGasVolume": "1131.5658",
+  "injection": "2020.15",
+  "withdrawal": "630.7",
+  "trend": "0.12"
+ },
+ {
+  "gasDayStart": "2026-09-10",
+  "full": "67.66",
+  "gasInStorage": "765.5636",
+  "workingGasVolume": "1131.5658",
+  "injection": "2014.84",
+  "withdrawal": "522.5",
+  "trend": "0.13"
+ },
+ {
+  "gasDayStart": "2026-09-09",
+  "full": "67.52",
+  "gasInStorage": "764.0712",
+  "workingGasVolume": "1131.5658",
+  "injection": "2460.7",
+  "withdrawal": "343.1",
+  "trend": "0.18"
+ },
+ {
+  "gasDayStart": "2026-09-08",
+  "full": "67.35",
+  "gasInStorage": "762.075",
+  "workingGasVolume": "1131.5658",
+  "injection": "2595.08",
+  "withdrawal": "225.9",
+  "trend": "0.21"
+ },
+ {
+  "gasDayStart": "2026-09-07",
+  "full": "67.14",
+  "gasInStorage": "759.7204",
+  "workingGasVolume": "1131.5658",
+  "injection": "2729.8",
+  "withdrawal": "167.8",
+  "trend": "0.23"
+ },
+ {
+  "gasDayStart": "2026-09-06",
+  "full": "66.91",
+  "gasInStorage": "757.1627",
+  "workingGasVolume": "1131.5658",
+  "injection": "3779.22",
+  "withdrawal": "118.2",
+  "trend": "0.32"
+ },
+ {
+  "gasDayStart": "2026-09-05",
+  "full": "66.59",
+  "gasInStorage": "753.513",
+  "workingGasVolume": "1131.5658",
+  "injection": "3588.5",
+  "withdrawal": "207.2",
+  "trend": "0.3"
+ },
+ {
+  "gasDayStart": "2026-09-04",
+  "full": "66.35",
+  "gasInStorage": "750.1366",
+  "workingGasVolume": "1130.6108",
+  "injection": "3269.59",
+  "withdrawal": "105.4",
+  "trend": "0.28"
+ },
+ {
+  "gasDayStart": "2026-09-03",
+  "full": "66.07",
+  "gasInStorage": "746.9764",
+  "workingGasVolume": "1130.6108",
+  "injection": "2800.47",
+  "withdrawal": "134.6",
+  "trend": "0.24"
+ },
+ {
+  "gasDayStart": "2026-09-02",
+  "full": "65.83",
+  "gasInStorage": "744.315",
+  "workingGasVolume": "1130.6108",
+  "injection": "2636.78",
+  "withdrawal": "251.6",
+  "trend": "0.21"
+ },
+ {
+  "gasDayStart": "2026-09-01",
+  "full": "65.62",
+  "gasInStorage": "741.9173",
+  "workingGasVolume": "1130.6108",
+  "injection": "2702.23",
+  "withdrawal": "143.3",
+  "trend": "0.24"
+ },
+ {
+  "gasDayStart": "2026-08-31",
+  "full": "65.4",
+  "gasInStorage": "739.1551",
+  "workingGasVolume": "1130.2594",
+  "injection": "3419.32",
+  "withdrawal": "99.4",
+  "trend": "0.3"
+ },
+ {
+  "gasDayStart": "2026-08-30",
+  "full": "65.1",
+  "gasInStorage": "735.8079",
+  "workingGasVolume": "1130.2594",
+  "injection": "4164.95",
+  "withdrawal": "121.8",
+  "trend": "0.36"
+ },
+ {
+  "gasDayStart": "2026-08-29",
+  "full": "64.74",
+  "gasInStorage": "731.6939",
+  "workingGasVolume": "1130.2684",
+  "injection": "4036.19",
+  "withdrawal": "88.5",
+  "trend": "0.36"
+ },
+ {
+  "gasDayStart": "2026-08-28",
+  "full": "64.38",
+  "gasInStorage": "727.622",
+  "workingGasVolume": "1130.2594",
+  "injection": "3322.43",
+  "withdrawal": "118.1",
+  "trend": "0.29"
+ },
+ {
+  "gasDayStart": "2026-08-27",
+  "full": "64.09",
+  "gasInStorage": "724.3344",
+  "workingGasVolume": "1130.2594",
+  "injection": "3187.53",
+  "withdrawal": "122.8",
+  "trend": "0.28"
+ },
+ {
+  "gasDayStart": "2026-08-26",
+  "full": "63.81",
+  "gasInStorage": "721.206",
+  "workingGasVolume": "1130.2594",
+  "injection": "3076.99",
+  "withdrawal": "150.6",
+  "trend": "0.26"
+ },
+ {
+  "gasDayStart": "2026-08-25",
+  "full": "63.55",
+  "gasInStorage": "718.2531",
+  "workingGasVolume": "1130.2594",
+  "injection": "3149.6",
+  "withdrawal": "203.7",
+  "trend": "0.27"
+ },
+ {
+  "gasDayStart": "2026-08-24",
+  "full": "63.28",
+  "gasInStorage": "715.2219",
+  "workingGasVolume": "1130.2594",
+  "injection": "3439.33",
+  "withdrawal": "167.4",
+  "trend": "0.29"
+ },
+ {
+  "gasDayStart": "2026-08-23",
+  "full": "62.99",
+  "gasInStorage": "711.9179",
+  "workingGasVolume": "1130.2594",
+  "injection": "3915.29",
+  "withdrawal": "127.4",
+  "trend": "0.34"
+ },
+ {
+  "gasDayStart": "2026-08-22",
+  "full": "62.64",
+  "gasInStorage": "708.0252",
+  "workingGasVolume": "1130.2594",
+  "injection": "3713.45",
+  "withdrawal": "99.1",
+  "trend": "0.33"
+ },
+ {
+  "gasDayStart": "2026-08-21",
+  "full": "62.32",
+  "gasInStorage": "704.3223",
+  "workingGasVolume": "1130.2094",
+  "injection": "3296.34",
+  "withdrawal": "204.7",
+  "trend": "0.28"
+ },
+ {
+  "gasDayStart": "2026-08-20",
+  "full": "62.04",
+  "gasInStorage": "701.1761",
+  "workingGasVolume": "1130.2094",
+  "injection": "3040.94",
+  "withdrawal": "502.3",
+  "trend": "0.23"
+ },
+ {
+  "gasDayStart": "2026-08-19",
+  "full": "61.81",
+  "gasInStorage": "698.629",
+  "workingGasVolume": "1130.2094",
+  "injection": "3053.99",
+  "withdrawal": "704.6",
+  "trend": "0.21"
+ },
+ {
+  "gasDayStart": "2026-08-18",
+  "full": "61.6",
+  "gasInStorage": "696.2603",
+  "workingGasVolume": "1130.2094",
+  "injection": "3013.79",
+  "withdrawal": "460.1",
+  "trend": "0.23"
+ },
+ {
+  "gasDayStart": "2026-08-17",
+  "full": "61.37",
+  "gasInStorage": "693.6261",
+  "workingGasVolume": "1130.2094",
+  "injection": "3178.08",
+  "withdrawal": "426.3",
+  "trend": "0.24"
+ },
+ {
+  "gasDayStart": "2026-08-16",
+  "full": "61.13",
+  "gasInStorage": "690.8792",
+  "workingGasVolume": "1130.2094",
+  "injection": "3902.62",
+  "withdrawal": "188.9",
+  "trend": "0.33"
+ },
+ {
+  "gasDayStart": "2026-08-15",
+  "full": "60.79",
+  "gasInStorage": "687.1025",
+  "workingGasVolume": "1130.2094",
+  "injection": "3771.88",
+  "withdrawal": "227.3",
+  "trend": "0.35"
+ },
+ {
+  "gasDayStart": "2026-08-14",
+  "full": "60.44",
+  "gasInStorage": "683.1046",
+  "workingGasVolume": "1130.2094",
+  "injection": "3330.44",
+  "withdrawal": "289.6",
+  "trend": "0.28"
+ },
+ {
+  "gasDayStart": "2026-08-13",
+  "full": "60.16",
+  "gasInStorage": "679.9658",
+  "workingGasVolume": "1130.2074",
+  "injection": "3189.55",
+  "withdrawal": "253.5",
+  "trend": "0.26"
+ },
+ {
+  "gasDayStart": "2026-08-12",
+  "full": "59.9",
+  "gasInStorage": "676.9808",
+  "workingGasVolume": "1130.2074",
+  "injection": "3222.77",
+  "withdrawal": "248.2",
+  "trend": "0.26"
+ },
+ {
+  "gasDayStart": "2026-08-11",
+  "full": "59.63",
+  "gasInStorage": "673.9982",
+  "workingGasVolume": "1130.2074",
+  "injection": "3202.84",
+  "withdrawal": "251",
+  "trend": "0.26"
+ },
+ {
+  "gasDayStart": "2026-08-10",
+  "full": "59.37",
+  "gasInStorage": "671.0601",
+  "workingGasVolume": "1130.2074",
+  "injection": "3281.4",
+  "withdrawal": "188.1",
+  "trend": "0.27"
+ },
+ {
+  "gasDayStart": "2026-08-09",
+  "full": "59.1",
+  "gasInStorage": "667.9826",
+  "workingGasVolume": "1130.2074",
+  "injection": "3427.62",
+  "withdrawal": "168.3",
+  "trend": "0.29"
+ },
+ {
+  "gasDayStart": "2026-08-08",
+  "full": "58.82",
+  "gasInStorage": "664.7377",
+  "workingGasVolume": "1130.2074",
+  "injection": "3442.09",
+  "withdrawal": "191.3",
+  "trend": "0.29"
+ },
+ {
+  "gasDayStart": "2026-08-07",
+  "full": "58.53",
+  "gasInStorage": "661.503",
+  "workingGasVolume": "1130.2074",
+  "injection": "2978.58",
+  "withdrawal": "359.6",
+  "trend": "0.23"
+ },
+ {
+  "gasDayStart": "2026-08-06",
+  "full": "58.3",
+  "gasInStorage": "658.9013",
+  "workingGasVolume": "1130.2074",
+  "injection": "2944.76",
+  "withdrawal": "391.1",
+  "trend": "0.22"
+ },
+ {
+  "gasDayStart": "2026-08-05",
+  "full": "58.07",
+  "gasInStorage": "656.3631",
+  "workingGasVolume": "1130.2074",
+  "injection": "2894.7",
+  "withdrawal": "320.9",
+  "trend": "0.23"
+ },
+ {
+  "gasDayStart": "2026-08-04",
+  "full": "57.85",
+  "gasInStorage": "653.7884",
+  "workingGasVolume": "1130.2074",
+  "injection": "2677.25",
+  "withdrawal": "340.8",
+  "trend": "0.21"
+ },
+ {
+  "gasDayStart": "2026-08-03",
+  "full": "57.64",
+  "gasInStorage": "651.4472",
+  "workingGasVolume": "1130.2074",
+  "injection": "2879.22",
+  "withdrawal": "293.2",
+  "trend": "0.23"
+ },
+ {
+  "gasDayStart": "2026-08-02",
+  "full": "57.41",
+  "gasInStorage": "648.846",
+  "workingGasVolume": "1130.2074",
+  "injection": "3791.1",
+  "withdrawal": "141.2",
+  "trend": "0.32"
+ },
+ {
+  "gasDayStart": "2026-08-01",
+  "full": "57.09",
+  "gasInStorage": "645.1963",
+  "workingGasVolume": "1130.2074",
+  "injection": "3582.72",
+  "withdrawal": "527.1",
+  "trend": "0.41"
+ },
+ {
+  "gasDayStart": "2026-07-31",
+  "full": "56.79",
+  "gasInStorage": "640.5916",
+  "workingGasVolume": "1127.9374",
+  "injection": "3123.75",
+  "withdrawal": "394.7",
+  "trend": "0.05"
+ },
+ {
+  "gasDayStart": "2026-07-30",
+  "full": "56.63",
+  "gasInStorage": "640.0586",
+  "workingGasVolume": "1130.2074",
+  "injection": "2908.68",
+  "withdrawal": "219.9",
+  "trend": "0.24"
+ },
+ {
+  "gasDayStart": "2026-07-29",
+  "full": "56.39",
+  "gasInStorage": "637.3745",
+  "workingGasVolume": "1130.2074",
+  "injection": "3013.07",
+  "withdrawal": "256.3",
+  "trend": "0.24"
+ },
+ {
+  "gasDayStart": "2026-07-28",
+  "full": "56.15",
+  "gasInStorage": "634.6094",
+  "workingGasVolume": "1130.2074",
+  "injection": "2930.2",
+  "withdrawal": "255",
+  "trend": "0.24"
+ },
+ {
+  "gasDayStart": "2026-07-27",
+  "full": "55.91",
+  "gasInStorage": "631.9298",
+  "workingGasVolume": "1130.2074",
+  "injection": "3073.63",
+  "withdrawal": "283.8",
+  "trend": "0.25"
+ },
+ {
+  "gasDayStart": "2026-07-26",
+  "full": "55.67",
+  "gasInStorage": "629.1458",
+  "workingGasVolume": "1130.2074",
+  "injection": "3732.26",
+  "withdrawal": "191.4",
+  "trend": "0.32"
+ },
+ {
+  "gasDayStart": "2026-07-25",
+  "full": "55.35",
+  "gasInStorage": "625.552",
+  "workingGasVolume": "1130.2074",
+  "injection": "3588.17",
+  "withdrawal": "366.5",
+  "trend": "0.28"
+ },
+ {
+  "gasDayStart": "2026-07-24",
+  "full": "55.06",
+  "gasInStorage": "622.3395",
+  "workingGasVolume": "1130.2074",
+  "injection": "3091.56",
+  "withdrawal": "320.9",
+  "trend": "0.24"
+ },
+ {
+  "gasDayStart": "2026-07-23",
+  "full": "54.82",
+  "gasInStorage": "619.5878",
+  "workingGasVolume": "1130.2074",
+  "injection": "2814.6",
+  "withdrawal": "369.1",
+  "trend": "0.21"
+ },
+ {
+  "gasDayStart": "2026-07-22",
+  "full": "54.61",
+  "gasInStorage": "617.1709",
+  "workingGasVolume": "1130.2074",
+  "injection": "2862.77",
+  "withdrawal": "305.1",
+  "trend": "0.23"
+ },
+ {
+  "gasDayStart": "2026-07-21",
+  "full": "54.38",
+  "gasInStorage": "614.62",
+  "workingGasVolume": "1130.2074",
+  "injection": "2718.46",
+  "withdrawal": "714.3",
+  "trend": "0.18"
+ },
+ {
+  "gasDayStart": "2026-07-20",
+  "full": "54.2",
+  "gasInStorage": "612.6144",
+  "workingGasVolume": "1130.2074",
+  "injection": "2786.83",
+  "withdrawal": "455.4",
+  "trend": "0.21"
+ },
+ {
+  "gasDayStart": "2026-07-19",
+  "full": "54",
+  "gasInStorage": "610.2775",
+  "workingGasVolume": "1130.2074",
+  "injection": "3781.35",
+  "withdrawal": "138.1",
+  "trend": "0.32"
+ },
+ {
+  "gasDayStart": "2026-07-18",
+  "full": "53.68",
+  "gasInStorage": "606.6425",
+  "workingGasVolume": "1130.2074",
+  "injection": "3699.77",
+  "withdrawal": "158.7",
+  "trend": "0.31"
+ },
+ {
+  "gasDayStart": "2026-07-17",
+  "full": "53.37",
+  "gasInStorage": "603.1366",
+  "workingGasVolume": "1130.2074",
+  "injection": "2856.63",
+  "withdrawal": "463.3",
+  "trend": "0.21"
+ },
+ {
+  "gasDayStart": "2026-07-16",
+  "full": "53.15",
+  "gasInStorage": "600.7477",
+  "workingGasVolume": "1130.2074",
+  "injection": "2460.24",
+  "withdrawal": "709",
+  "trend": "0.16"
+ },
+ {
+  "gasDayStart": "2026-07-15",
+  "full": "53",
+  "gasInStorage": "598.991",
+  "workingGasVolume": "1130.2074",
+  "injection": "2752.82",
+  "withdrawal": "364.7",
+  "trend": "0.21"
+ },
+ {
+  "gasDayStart": "2026-07-14",
+  "full": "52.77",
+  "gasInStorage": "596.6045",
+  "workingGasVolume": "1130.511",
+  "injection": "3179.9",
+  "withdrawal": "334.9",
+  "trend": "0.25"
+ },
+ {
+  "gasDayStart": "2026-07-13",
+  "full": "52.52",
+  "gasInStorage": "593.7819",
+  "workingGasVolume": "1130.511",
+  "injection": "3516.84",
+  "withdrawal": "292.4",
+  "trend": "0.29"
+ },
+ {
+  "gasDayStart": "2026-07-12",
+  "full": "52.24",
+  "gasInStorage": "590.547",
+  "workingGasVolume": "1130.511",
+  "injection": "4335.33",
+  "withdrawal": "206.6",
+  "trend": "0.37"
+ },
+ {
+  "gasDayStart": "2026-07-11",
+  "full": "51.87",
+  "gasInStorage": "586.4139",
+  "workingGasVolume": "1130.511",
+  "injection": "4054.67",
+  "withdrawal": "207.9",
+  "trend": "0.34"
+ },
+ {
+  "gasDayStart": "2026-07-10",
+  "full": "51.53",
+  "gasInStorage": "582.5699",
+  "workingGasVolume": "1130.511",
+  "injection": "2880.07",
+  "withdrawal": "434.6",
+  "trend": "0.21"
+ },
+ {
+  "gasDayStart": "2026-07-09",
+  "full": "51.32",
+  "gasInStorage": "580.1715",
+  "workingGasVolume": "1130.511",
+  "injection": "2932.97",
+  "withdrawal": "577.5",
+  "trend": "0.21"
+ },
+ {
+  "gasDayStart": "2026-07-08",
+  "full": "51.11",
+  "gasInStorage": "577.8095",
+  "workingGasVolume": "1130.511",
+  "injection": "2985.63",
+  "withdrawal": "499.2",
+  "trend": "0.22"
+ },
+ {
+  "gasDayStart": "2026-07-07",
+  "full": "50.89",
+  "gasInStorage": "575.3388",
+  "workingGasVolume": "1130.511",
+  "injection": "3192.79",
+  "withdrawal": "328.6",
+  "trend": "0.25"
+ },
+ {
+  "gasDayStart": "2026-07-06",
+  "full": "50.64",
+  "gasInStorage": "572.4729",
+  "workingGasVolume": "1130.511",
+  "injection": "3358.95",
+  "withdrawal": "299.8",
+  "trend": "0.27"
+ },
+ {
+  "gasDayStart": "2026-07-05",
+  "full": "50.37",
+  "gasInStorage": "569.42",
+  "workingGasVolume": "1130.511",
+  "injection": "3877.57",
+  "withdrawal": "220.5",
+  "trend": "0.32"
+ },
+ {
+  "gasDayStart": "2026-07-04",
+  "full": "50.05",
+  "gasInStorage": "565.7759",
+  "workingGasVolume": "1130.511",
+  "injection": "3881.77",
+  "withdrawal": "192.5",
+  "trend": "0.32"
+ },
+ {
+  "gasDayStart": "2026-07-03",
+  "full": "49.72",
+  "gasInStorage": "562.1145",
+  "workingGasVolume": "1130.511",
+  "injection": "3226.81",
+  "withdrawal": "383.4",
+  "trend": "0.25"
+ },
+ {
+  "gasDayStart": "2026-07-02",
+  "full": "49.47",
+  "gasInStorage": "559.2822",
+  "workingGasVolume": "1130.511",
+  "injection": "3014.31",
+  "withdrawal": "390.5",
+  "trend": "0.23"
+ },
+ {
+  "gasDayStart": "2026-07-01",
+  "full": "49.24",
+  "gasInStorage": "556.6692",
+  "workingGasVolume": "1130.511",
+  "injection": "3008.39",
+  "withdrawal": "525.8",
+  "trend": "0.15"
+ },
+ {
+  "gasDayStart": "2026-06-30",
+  "full": "49.09",
+  "gasInStorage": "554.9405",
+  "workingGasVolume": "1130.511",
+  "injection": "2781.59",
+  "withdrawal": "276.9",
+  "trend": "0.22"
+ },
+ {
+  "gasDayStart": "2026-06-29",
+  "full": "48.87",
+  "gasInStorage": "552.4998",
+  "workingGasVolume": "1130.511",
+  "injection": "3112.67",
+  "withdrawal": "391.8",
+  "trend": "0.24"
+ },
+ {
+  "gasDayStart": "2026-06-28",
+  "full": "48.63",
+  "gasInStorage": "549.7848",
+  "workingGasVolume": "1130.511",
+  "injection": "3864.84",
+  "withdrawal": "191.3",
+  "trend": "0.32"
+ },
+ {
+  "gasDayStart": "2026-06-27",
+  "full": "48.31",
+  "gasInStorage": "546.1231",
+  "workingGasVolume": "1130.511",
+  "injection": "3916.41",
+  "withdrawal": "181.6",
+  "trend": "0.33"
+ },
+ {
+  "gasDayStart": "2026-06-26",
+  "full": "47.98",
+  "gasInStorage": "542.3953",
+  "workingGasVolume": "1130.511",
+  "injection": "3468.71",
+  "withdrawal": "280.4",
+  "trend": "0.28"
+ },
+ {
+  "gasDayStart": "2026-06-25",
+  "full": "47.7",
+  "gasInStorage": "539.2202",
+  "workingGasVolume": "1130.511",
+  "injection": "3288.48",
+  "withdrawal": "330.4",
+  "trend": "0.26"
+ },
+ {
+  "gasDayStart": "2026-06-24",
+  "full": "47.44",
+  "gasInStorage": "536.2713",
+  "workingGasVolume": "1130.511",
+  "injection": "2880.56",
+  "withdrawal": "288.3",
+  "trend": "0.23"
+ },
+ {
+  "gasDayStart": "2026-06-23",
+  "full": "47.21",
+  "gasInStorage": "533.6936",
+  "workingGasVolume": "1130.511",
+  "injection": "2885.72",
+  "withdrawal": "349.4",
+  "trend": "0.23"
+ },
+ {
+  "gasDayStart": "2026-06-22",
+  "full": "46.98",
+  "gasInStorage": "531.0825",
+  "workingGasVolume": "1130.511",
+  "injection": "3167.71",
+  "withdrawal": "329.5",
+  "trend": "0.25"
+ },
+ {
+  "gasDayStart": "2026-06-21",
+  "full": "46.73",
+  "gasInStorage": "528.2329",
+  "workingGasVolume": "1130.511",
+  "injection": "3792.8",
+  "withdrawal": "205.1",
+  "trend": "0.32"
+ },
+ {
+  "gasDayStart": "2026-06-20",
+  "full": "46.41",
+  "gasInStorage": "524.6598",
+  "workingGasVolume": "1130.511",
+  "injection": "3712.61",
+  "withdrawal": "206.1",
+  "trend": "0.31"
+ },
+ {
+  "gasDayStart": "2026-06-19",
+  "full": "46.1",
+  "gasInStorage": "521.1504",
+  "workingGasVolume": "1130.511",
+  "injection": "3339.93",
+  "withdrawal": "154.7",
+  "trend": "0.28"
+ },
+ {
+  "gasDayStart": "2026-06-18",
+  "full": "45.82",
+  "gasInStorage": "517.9723",
+  "workingGasVolume": "1130.511",
+  "injection": "3081.86",
+  "withdrawal": "187.5",
+  "trend": "0.26"
+ },
+ {
+  "gasDayStart": "2026-06-17",
+  "full": "45.56",
+  "gasInStorage": "515.0691",
+  "workingGasVolume": "1130.511",
+  "injection": "3239.38",
+  "withdrawal": "190.4",
+  "trend": "0.27"
+ },
+ {
+  "gasDayStart": "2026-06-16",
+  "full": "45.29",
+  "gasInStorage": "512.0382",
+  "workingGasVolume": "1130.511",
+  "injection": "3256.99",
+  "withdrawal": "245.8",
+  "trend": "0.27"
+ },
+ {
+  "gasDayStart": "2026-06-15",
+  "full": "45.03",
+  "gasInStorage": "509.032",
+  "workingGasVolume": "1130.511",
+  "injection": "3716.51",
+  "withdrawal": "195.8",
+  "trend": "0.31"
+ },
+ {
+  "gasDayStart": "2026-06-14",
+  "full": "44.72",
+  "gasInStorage": "505.5306",
+  "workingGasVolume": "1130.511",
+  "injection": "4432.88",
+  "withdrawal": "133.5",
+  "trend": "0.38"
+ },
+ {
+  "gasDayStart": "2026-06-13",
+  "full": "44.34",
+  "gasInStorage": "501.2415",
+  "workingGasVolume": "1130.511",
+  "injection": "4560.11",
+  "withdrawal": "88.8",
+  "trend": "0.39"
+ },
+ {
+  "gasDayStart": "2026-06-12",
+  "full": "43.91",
+  "gasInStorage": "496.7855",
+  "workingGasVolume": "1131.466",
+  "injection": "3760.24",
+  "withdrawal": "91.4",
+  "trend": "0.31"
+ },
+ {
+  "gasDayStart": "2026-06-11",
+  "full": "43.59",
+  "gasInStorage": "493.2227",
+  "workingGasVolume": "1131.466",
+  "injection": "3047.99",
+  "withdrawal": "384",
+  "trend": "0.23"
+ },
+ {
+  "gasDayStart": "2026-06-10",
+  "full": "43.36",
+  "gasInStorage": "490.5758",
+  "workingGasVolume": "1131.466",
+  "injection": "3251.59",
+  "withdrawal": "286.4",
+  "trend": "0.26"
+ },
+ {
+  "gasDayStart": "2026-06-09",
+  "full": "43.09",
+  "gasInStorage": "487.5966",
+  "workingGasVolume": "1131.466",
+  "injection": "3600.16",
+  "withdrawal": "190.8",
+  "trend": "0.3"
+ },
+ {
+  "gasDayStart": "2026-06-08",
+  "full": "42.79",
+  "gasInStorage": "484.1785",
+  "workingGasVolume": "1131.466",
+  "injection": "3643.99",
+  "withdrawal": "119.2",
+  "trend": "0.31"
+ },
+ {
+  "gasDayStart": "2026-06-07",
+  "full": "42.48",
+  "gasInStorage": "480.6597",
+  "workingGasVolume": "1131.466",
+  "injection": "4108.31",
+  "withdrawal": "83",
+  "trend": "0.36"
+ },
+ {
+  "gasDayStart": "2026-06-06",
+  "full": "42.13",
+  "gasInStorage": "476.638",
+  "workingGasVolume": "1131.466",
+  "injection": "4004.49",
+  "withdrawal": "119.6",
+  "trend": "0.34"
+ },
+ {
+  "gasDayStart": "2026-06-05",
+  "full": "41.79",
+  "gasInStorage": "472.7917",
+  "workingGasVolume": "1131.466",
+  "injection": "3207.29",
+  "withdrawal": "287",
+  "trend": "0.26"
+ },
+ {
+  "gasDayStart": "2026-06-04",
+  "full": "41.53",
+  "gasInStorage": "469.8594",
+  "workingGasVolume": "1131.466",
+  "injection": "3481.02",
+  "withdrawal": "356.1",
+  "trend": "0.28"
+ },
+ {
+  "gasDayStart": "2026-06-03",
+  "full": "41.25",
+  "gasInStorage": "466.7315",
+  "workingGasVolume": "1131.466",
+  "injection": "3039.53",
+  "withdrawal": "492.1",
+  "trend": "0.22"
+ },
+ {
+  "gasDayStart": "2026-06-02",
+  "full": "41.03",
+  "gasInStorage": "464.1877",
+  "workingGasVolume": "1131.466",
+  "injection": "3316.22",
+  "withdrawal": "311.9",
+  "trend": "0.27"
+ },
+ {
+  "gasDayStart": "2026-06-01",
+  "full": "40.76",
+  "gasInStorage": "461.182",
+  "workingGasVolume": "1131.466",
+  "injection": "3473.92",
+  "withdrawal": "299.9",
+  "trend": "0.29"
+ },
+ {
+  "gasDayStart": "2026-05-31",
+  "full": "40.47",
+  "gasInStorage": "457.9534",
+  "workingGasVolume": "1131.4655",
+  "injection": "4322.1",
+  "withdrawal": "66.3",
+  "trend": "0.39"
+ },
+ {
+  "gasDayStart": "2026-05-30",
+  "full": "40.09",
+  "gasInStorage": "453.5937",
+  "workingGasVolume": "1131.4655",
+  "injection": "4115.12",
+  "withdrawal": "95.7",
+  "trend": "0.35"
+ },
+ {
+  "gasDayStart": "2026-05-29",
+  "full": "39.73",
+  "gasInStorage": "449.5794",
+  "workingGasVolume": "1131.4655",
+  "injection": "3690.1",
+  "withdrawal": "104.2",
+  "trend": "0.32"
+ },
+ {
+  "gasDayStart": "2026-05-28",
+  "full": "39.42",
+  "gasInStorage": "445.9829",
+  "workingGasVolume": "1131.4655",
+  "injection": "3394.48",
+  "withdrawal": "187.9",
+  "trend": "0.28"
+ },
+ {
+  "gasDayStart": "2026-05-27",
+  "full": "39.13",
+  "gasInStorage": "442.7626",
+  "workingGasVolume": "1131.4655",
+  "injection": "3669.21",
+  "withdrawal": "218.3",
+  "trend": "0.31"
+ },
+ {
+  "gasDayStart": "2026-05-26",
+  "full": "38.83",
+  "gasInStorage": "439.2978",
+  "workingGasVolume": "1131.4655",
+  "injection": "3657.31",
+  "withdrawal": "228.8",
+  "trend": "0.3"
+ },
+ {
+  "gasDayStart": "2026-05-25",
+  "full": "38.52",
+  "gasInStorage": "435.8617",
+  "workingGasVolume": "1131.4655",
+  "injection": "3943.8",
+  "withdrawal": "207.8",
+  "trend": "0.29"
+ },
+ {
+  "gasDayStart": "2026-05-24",
+  "full": "38.21",
+  "gasInStorage": "432.5348",
+  "workingGasVolume": "1131.8845",
+  "injection": "4473.73",
+  "withdrawal": "103.5",
+  "trend": "0.39"
+ },
+ {
+  "gasDayStart": "2026-05-23",
+  "full": "37.83",
+  "gasInStorage": "428.1555",
+  "workingGasVolume": "1131.8845",
+  "injection": "4355.59",
+  "withdrawal": "80.5",
+  "trend": "0.38"
+ },
+ {
+  "gasDayStart": "2026-05-22",
+  "full": "37.45",
+  "gasInStorage": "423.8875",
+  "workingGasVolume": "1131.8845",
+  "injection": "3247.85",
+  "withdrawal": "147",
+  "trend": "0.27"
+ },
+ {
+  "gasDayStart": "2026-05-21",
+  "full": "37.18",
+  "gasInStorage": "420.8071",
+  "workingGasVolume": "1131.8845",
+  "injection": "2610.62",
+  "withdrawal": "424.8",
+  "trend": "0.19"
+ },
+ {
+  "gasDayStart": "2026-05-20",
+  "full": "36.99",
+  "gasInStorage": "418.6346",
+  "workingGasVolume": "1131.8845",
+  "injection": "1923.92",
+  "withdrawal": "690.8",
+  "trend": "0.11"
+ },
+ {
+  "gasDayStart": "2026-05-19",
+  "full": "36.87",
+  "gasInStorage": "417.3713",
+  "workingGasVolume": "1131.8845",
+  "injection": "2278.07",
+  "withdrawal": "474.7",
+  "trend": "0.15"
+ },
+ {
+  "gasDayStart": "2026-05-18",
+  "full": "36.72",
+  "gasInStorage": "415.6689",
+  "workingGasVolume": "1131.8845",
+  "injection": "2112.98",
+  "withdrawal": "421",
+  "trend": "0.17"
+ },
+ {
+  "gasDayStart": "2026-05-17",
+  "full": "36.56",
+  "gasInStorage": "413.7895",
+  "workingGasVolume": "1131.8845",
+  "injection": "2716.95",
+  "withdrawal": "246.2",
+  "trend": "0.22"
+ },
+ {
+  "gasDayStart": "2026-05-16",
+  "full": "36.34",
+  "gasInStorage": "411.3285",
+  "workingGasVolume": "1131.8845",
+  "injection": "2583.41",
+  "withdrawal": "280.7",
+  "trend": "0.2"
+ },
+ {
+  "gasDayStart": "2026-05-15",
+  "full": "36.14",
+  "gasInStorage": "409.0593",
+  "workingGasVolume": "1131.8845",
+  "injection": "2227.11",
+  "withdrawal": "465.8",
+  "trend": "0.16"
+ },
+ {
+  "gasDayStart": "2026-05-14",
+  "full": "35.98",
+  "gasInStorage": "407.3007",
+  "workingGasVolume": "1131.8845",
+  "injection": "2149.3",
+  "withdrawal": "435.4",
+  "trend": "0.15"
+ },
+ {
+  "gasDayStart": "2026-05-13",
+  "full": "35.83",
+  "gasInStorage": "405.5868",
+  "workingGasVolume": "1131.8845",
+  "injection": "2167.97",
+  "withdrawal": "781.9",
+  "trend": "0.12"
+ },
+ {
+  "gasDayStart": "2026-05-12",
+  "full": "35.71",
+  "gasInStorage": "404.1957",
+  "workingGasVolume": "1131.8845",
+  "injection": "2176.96",
+  "withdrawal": "531",
+  "trend": "0.15"
+ },
+ {
+  "gasDayStart": "2026-05-11",
+  "full": "35.56",
+  "gasInStorage": "402.5463",
+  "workingGasVolume": "1131.8845",
+  "injection": "2673.26",
+  "withdrawal": "239",
+  "trend": "0.22"
+ },
+ {
+  "gasDayStart": "2026-05-10",
+  "full": "35.35",
+  "gasInStorage": "400.0892",
+  "workingGasVolume": "1131.8845",
+  "injection": "3665.59",
+  "withdrawal": "135.9",
+  "trend": "0.31"
+ },
+ {
+  "gasDayStart": "2026-05-09",
+  "full": "35.04",
+  "gasInStorage": "396.5856",
+  "workingGasVolume": "1131.8689",
+  "injection": "3556.07",
+  "withdrawal": "107.5",
+  "trend": "0.3"
+ },
+ {
+  "gasDayStart": "2026-05-08",
+  "full": "34.73",
+  "gasInStorage": "393.1524",
+  "workingGasVolume": "1132.1539",
+  "injection": "2716.31",
+  "withdrawal": "134.4",
+  "trend": "0.23"
+ },
+ {
+  "gasDayStart": "2026-05-07",
+  "full": "34.5",
+  "gasInStorage": "390.5793",
+  "workingGasVolume": "1132.1539",
+  "injection": "1993.71",
+  "withdrawal": "658.5",
+  "trend": "0.12"
+ },
+ {
+  "gasDayStart": "2026-05-06",
+  "full": "34.38",
+  "gasInStorage": "389.2507",
+  "workingGasVolume": "1132.1539",
+  "injection": "2087.6",
+  "withdrawal": "494.1",
+  "trend": "0.14"
+ },
+ {
+  "gasDayStart": "2026-05-05",
+  "full": "34.24",
+  "gasInStorage": "387.6695",
+  "workingGasVolume": "1132.1539",
+  "injection": "2965.23",
+  "withdrawal": "595.6",
+  "trend": "0.19"
+ },
+ {
+  "gasDayStart": "2026-05-04",
+  "full": "34.05",
+  "gasInStorage": "385.5517",
+  "workingGasVolume": "1132.1539",
+  "injection": "3238.84",
+  "withdrawal": "138.7",
+  "trend": "0.28"
+ },
+ {
+  "gasDayStart": "2026-05-03",
+  "full": "33.78",
+  "gasInStorage": "382.4172",
+  "workingGasVolume": "1132.1209",
+  "injection": "4092.37",
+  "withdrawal": "78.5",
+  "trend": "0.35"
+ },
+ {
+  "gasDayStart": "2026-05-02",
+  "full": "33.43",
+  "gasInStorage": "378.4168",
+  "workingGasVolume": "1132.1209",
+  "injection": "4187.18",
+  "withdrawal": "63.9",
+  "trend": "0.36"
+ },
+ {
+  "gasDayStart": "2026-05-01",
+  "full": "33.06",
+  "gasInStorage": "374.3047",
+  "workingGasVolume": "1132.1209",
+  "injection": "3927.06",
+  "withdrawal": "85.2",
+  "trend": "0.32"
+ }
+]

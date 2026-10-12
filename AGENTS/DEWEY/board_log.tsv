@@ -31,3 +31,5 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-10T15:48:46Z	SIG-W-20261008-033	deferred	INBOX_WALTER	WQ-399 receipt-form change noted; corrections_boot_check DEWEY rc=0 today (no receipt owed). Own-charter fix of CLAUDE.md step 5b receipt line (C4) NOT done this session - owed at next touch; file left in lane.
 2026-10-10T15:48:46Z	2026-10-01_from-HANS_rerun-DR4-for-HNS-07	deferred	INBOX_TOPLEVEL	Still QUEUED: DOCKET L566 (10/12) is not today's task per PROME; owed at Monday wake, before HANS's 10/15 checkpoint.
 2026-10-10T15:48:46Z	2026-10-01_from-PROME_CARL-DR-1-card-leg	deferred	INBOX_TOPLEVEL	Still QUEUED: DOCKET L567, after L566; deliver by 11/13.
+2026-10-12T17:45:35.478545+00:00	2026-10-01_from-HANS_rerun-DR4-for-HNS-07	acted	INBOX_TOPLEVEL	Delivered current DR-4 rerun, source evidence and stubs; HANS owns checkpoint grade.
+2026-10-12T17:45:35.478545+00:00	SIG-W-20261008-033	acted	INBOX_WALTER	Own charter WQ399 receipt-form fix committed c0f9933f8; corrections check rc0.

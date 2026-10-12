@@ -1,7 +1,10 @@
 # DR-4 — European energy aggregate baseline: what supplies Europe, what's impaired, and where storage breaks
 **Date:** 2026-08-12 | **Mode:** Thesis | **Confidence:** High (storage/LNG/price arithmetic — all PRIMARY, reproducible) / **NOT ANSWERED** (channel-by-channel pipeline attribution — see §Gaps)
+**FROZEN 2026-10-12 — historical report; trajectory arithmetic is superseded by the correction below and the 2026-10-12 rerun. Do not cite its projections as current.**
 **Commission:** WALTER DR-4, `REQ-DEWEY-20260731-004` | **Consumers:** BRENT action; AEOLUS/HANS/CARL/MARCO info; DAEDALUS (org question)
 **Engine:** primary-pull only (Will-ruled 2026-08-12 for this session's work). The `/deep-research` fan-out is re-gated to user-invoked, not removed — available had Will typed it.
+
+> **CORRECTION — 2026-10-12:** The four historical peak dates printed below imply a median of **October 29**, not November 6: the Aug-11 horizons are 94, 87, 71 and 62 days, with median **79**, not 87. The 87-day projection window, required-pace calculations and dependent landing range below are superseded. With the rounded inputs printed here, the original 7/14/30-day continuation estimates over 79 days would be approximately **75.4/77.0/77.8%**, rather than 77.1/78.8/79.7%. These are corrected arithmetic on the August inputs, not current readings. The new, source-refreshed November-1 and physical-peak estimates are in `output/2026-10-12_dr4-storage-rerun-hns07.md`. No historical maximum pace is a physical ceiling; the old categorical sentence "Europe will not refill" exceeds what continuation arithmetic establishes. Current HNS-07 outcome grading belongs to HANS on gas day November 1.
 
 ---
 
