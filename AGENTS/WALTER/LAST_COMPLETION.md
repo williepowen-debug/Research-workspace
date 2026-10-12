@@ -43,6 +43,8 @@ WQ401 set sub-question remains Will’s (dueOctober14). WQ388 unattended WALTER 
 
 ## FOLLOW-UP
 
+**Follow-up persistence/notification 2026-10-12T21:46:44Z:** resultbf00c875c9506c18179a16dc7b10a84a1d3db267 committed,42 paths/0 unexpected. PROME and YURI exact-thread queues accepted the committed pointers; no recipient consumption inferred. Immutable task result is in PROME/inbox; owned queue receipt outbox/2026-10-12_prome-directed-followup-queue-receipt.md and proofJSON carry exact acknowledgments. New publication still pending at the saved observation; no own push or lifecycle closeout.
+
 **PROME-directed follow-up:** assignment0cb6d515f and YURI packet6db3b1ded consumed; BM09 CLOSED9/9. SIG031/COR31 withdraws only the broad scheduled-exercise-absence premise, three new handoffs pending publication/owner consumption. No new mobilisation/NATO grade; original peer card untouched. SHADE L673 first eligibleOctober13 post-close: LIQUID dated owner inputs + six closes, withhold on missing inputs/unsupported branch; DEWEY dieselPARTIAL dueOctober14, YURI nextOctober16. Eight published source packets lack a matching inspected receipt; consequential LIQUID/DEWEY/HAWK gaps named in the PROME result. Report research/2026-10-12_prome-directed-followup/REPORT.md. No MIDAS redispatch, X retry, charter activation or lifecycle shutdown.
 
 **Late MIDAS context:** packet/review read; BM08 CLOSED5/5 with1 NOTE/3 FOLD/1 DUP,0 new dispatches. Current registry context refreshed with author-commit caveat. Resolved2026-10-12T21:19:31Z: author60815a590 verified, exact original Git-moved and consume declaration appended. Proof: research/2026-10-12_resume-2057/midas-intake-proof.json.
@@ -102,7 +104,7 @@ SessionACTIVE; bootPARTIAL. Routine full checkpoint at2026-10-12T21:06:26Z clear
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-12T21:41:37Z",
+  "as_of": "2026-10-12T21:46:44Z",
   "publication": [
     {
       "commit": "3cacce310",
@@ -231,6 +233,10 @@ SessionACTIVE; bootPARTIAL. Routine full checkpoint at2026-10-12T21:06:26Z clear
     {
       "commit": "f7bb2b20c61e6969236ef9e2510fbc5ae2e00321",
       "state": "published"
+    },
+    {
+      "commit": "bf00c875c9506c18179a16dc7b10a84a1d3db267",
+      "state": "pending"
     }
   ],
   "delivery": {
@@ -325,6 +331,16 @@ SessionACTIVE; bootPARTIAL. Routine full checkpoint at2026-10-12T21:06:26Z clear
         "path": "AGENTS/WALTER/research/2026-10-12_prome-directed-followup/publication-latest.json",
         "sha256": "c8017eb9c4f44b573671516d943d90117a9db1e3d144ac7ed7c06bb58e118870",
         "note": "Bounded manually reviewed follow-up evidence; source truth, current price/physical observation, publication and owner consumption remain separate."
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-12_prome-directed-followup/persistence-and-notification.json",
+        "sha256": "207dab5e649d3168dcbc6f72547dfd9708a2df5aba4ca88b9dce913235f5dee4",
+        "note": "Actual persistence and current-pair queue acknowledgments only; recipient artifact consumption and lifecycle remain separate."
+      },
+      {
+        "path": "AGENTS/WALTER/outbox/2026-10-12_prome-directed-followup-queue-receipt.md",
+        "sha256": "5c6399baefd24961e647351453eb83c4a080be82dd5311a5c3cbb36320a0ad1f",
+        "note": "Actual persistence and current-pair queue acknowledgments only; recipient artifact consumption and lifecycle remain separate."
       }
     ]
   },
@@ -353,7 +369,7 @@ SessionACTIVE; bootPARTIAL. Routine full checkpoint at2026-10-12T21:06:26Z clear
     "Tier1": "Affected live lead refreshed; all20:58Z dated market observations and unavailable current/official evidence retained. SHADE/YURI header context surgically refreshed.",
     "15": "Prior duties conserved; DEWEYOctober14, LIQUID/SHADEOctober13, YUROctober16 and inherited dates preserved. X reauthorization carried without retry.",
     "root.retirement": "Prior585-path Git-age review retained as dated evidence; new follow-up artifacts authored today are not older than60days. No eligible move discovered in this bounded pass.",
-    "16": "Exact-path result commit and notification follow; no own push. Previous5a0/f7bb publication reconciled at latest fresh read-only origin; current signal/three handoffs still uncommitted at this observation.",
+    "16": "Actual exact42-path result commitbf00c875c,0 unexpected; previous5a0/f7bb published. Supported queues accepted exact artifact pointers for verified current PROME/YURI threads; notification not consumption. New publication pending at saved origin; no own push.",
     "Tier1.breadcrumb": "One light/full-deferred breadcrumb. Prior evidenced21:06 Tier-2 checkpoint header aligned with existing literal stack reader:1 deferred, not3. No new full/lifecycle checkpoint or code change."
   },
   "selected_checks": "Final receipt PASS107/110; R1-WRITE0 OK; archive2 exact moves/weekday PASS. Read-cap REVIEW unchanged explicit charter. Doctor initial0HIGH/6MED, false stack warning reconciled by evidenced prior-checkpoint header/targeted check1 deferred; effective5MED retained. Ledger-nudge precommit cadence accounted, no fabricated kill event."
