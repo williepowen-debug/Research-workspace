@@ -1,0 +1,72 @@
+{
+  "retrieved_at": "2026-10-12T12:56:05.289134-04:00",
+  "basis": "Single-vendor snapshots; intraday diagnostics, not official settlements or management grades",
+  "series": {
+    "USO": {
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/USO?range=5d&interval=1m",
+      "longName": "United States Oil Fund, LP",
+      "currency": "USD",
+      "regularMarketPrice": 151.795,
+      "previousClose": 148.2,
+      "regularMarketTime": 1791824161
+    },
+    "CLX26.NYM": {
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/CLX26.NYM?range=5d&interval=1m",
+      "longName": "Crude Oil Nov 26",
+      "currency": "USD",
+      "regularMarketPrice": 93.69,
+      "previousClose": 91.85,
+      "regularMarketTime": 1791823553
+    },
+    "CLZ26.NYM": {
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/CLZ26.NYM?range=5d&interval=1m",
+      "longName": "Crude Oil Dec 26",
+      "currency": "USD",
+      "regularMarketPrice": 92.87,
+      "previousClose": 91.01,
+      "regularMarketTime": 1791823563
+    },
+    "HOX26.NYM": {
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/HOX26.NYM?range=5d&interval=1m",
+      "longName": "Heating Oil Nov 26",
+      "currency": "USD",
+      "regularMarketPrice": 4.7645,
+      "previousClose": 4.7384,
+      "regularMarketTime": 1791823525
+    },
+    "HOZ26.NYM": {
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/HOZ26.NYM?range=5d&interval=1m",
+      "longName": "Heating Oil Dec 26",
+      "currency": "USD",
+      "regularMarketPrice": 4.6226,
+      "previousClose": 4.5884,
+      "regularMarketTime": 1791823558
+    }
+  },
+  "paired_minute": {
+    "CLX26.NYM": {
+      "timestamp": "2026-10-12T12:44:00-04:00",
+      "epoch": 1791823440,
+      "close": 93.7300033569336,
+      "volume": 137
+    },
+    "CLZ26.NYM": {
+      "timestamp": "2026-10-12T12:44:00-04:00",
+      "epoch": 1791823440,
+      "close": 92.91000366210938,
+      "volume": 142
+    },
+    "HOX26.NYM": {
+      "timestamp": "2026-10-12T12:44:00-04:00",
+      "epoch": 1791823440,
+      "close": 4.771599769592285,
+      "volume": 32
+    },
+    "HOZ26.NYM": {
+      "timestamp": "2026-10-12T12:44:00-04:00",
+      "epoch": 1791823440,
+      "close": 4.6280999183654785,
+      "volume": 14
+    }
+  }
+}

@@ -8,6 +8,7 @@
 - L694 approval/context-transition amendment survives; no new substantive energy stage found/delivered. L689/TERRY PASS preserved.
 
 ## WHAT I DID THIS SESSION
+- **Will USO directional question:** saved `research/2026-10-12_USO-view/REPORT.md` and selected exact quote inputs. Elevated-price support/credible upside risk persists; no demonstrated material undervaluation. Cushing limb weakened, product/crude scope retained. No new target/phase/probability/capital or afternoon grade.
 - **12:48EDT Will diesel/USO question:** fresh vendor pull saved at `research/2026-10-12_diesel-reaction/NOTE.md`/quotes.json. No durable crude selloff visible; Friday product-specific response partly recovered. No causal null, delivery proof or afternoon grade.
 - Explicit root/local/runtime/spec loading; recovered morning L633/L689, COT#9, eightCSV inspection and approved L694 without repeating them. Verified replacement identity from native environment.
 - Required boot rerun with network after sandbox DNS failures:10checks8OK/1WARNINGS/1FINDINGS/0FAIL,rc2. Ledger dispositions in receipt. Corrections13receipts/0unreceipted; due/pending scans clear within scope. Inbox empty at scan.
