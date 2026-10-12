@@ -1,0 +1,103 @@
+8-K
+false
+false
+0001820878
+0000922864
+0000922864
+aiv:AimcoPropertiesLpMember
+2026-10-01
+2026-10-01
+0000922864
+2026-10-01
+2026-10-01
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+WASHINGTON, D.C. 20549
+FORM
+8-K
+CURRENT REPORT
+PURSUANT TO SECTION 13 OR 15(d) OF THE
+SECURITIES EXCHANGE ACT OF 1934
+Date of Report (Date of earliest event reported):
+October 1, 2026
+APARTMENT INVESTMENT AND MANAGEMENT CO
+MPANY
+AIMCO OP L.P.
+(Exact name of registrant as specified in its charter)
+Maryland
+(
+Apartment Investment and Management Company
+)
+1-13232
+84-1259577
+Delaware
+(Aimco OP L.P.)
+0-56223
+85-2460835
+(State or other jurisdiction
+(Commission
+(I.R.S. Employer
+of incorporation or organization)
+File Number)
+Identification No.)
+4582 SOUTH ULSTER STREET
+SUITE 1450
+,
+DENVER
+,
+CO
+80237
+(Address of principal executive offices) (Zip Code)
+Registrant’s telephone number, including area code: (
+833
+)
+373-1300
+NOT APPLICABLE
+(Former name or Former Address, if changed since last report)
+Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:
+☐
+Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+☐
+Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+☐
+Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+☐
+Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+Securities registered pursuant to section 12(b) of the Act:
+Title of each class
+Trading Symbol(s)
+Name of each exchange on which registered
+Apartment Investment and Management Company
+Class A Common Stock
+AIV
+New York Stock Exchange
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+Emerging growth company
+☐
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the exchange act.  ☐
+Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers.
+On October 1, 2026, Jennifer Johnson, the Executive Vice President and Chief Administrative Officer of Apartment Investment and Management Company (“Aimco” or the “Company”), notified the Company of her intent to resign, effective as of November 1, 2026 (the “Resignation Date”), from all positions held with the Company and its subsidiaries for “Good Reason” under the terms of the Company’s Executive Severance Policy, dated October 22, 2018, as amended (the “Executive Severance Policy”). The Company has accepted Ms. Johnson’s resignation for Good Reason based on the diminution in her responsibilities and duties in connection with the Plan of Sale and Liquidation approved by the Company's shareholders on February 6, 2026 (the “Plan of Sale and Liquidation”).
+Ms. Johnson’s resignation on the Resignation Date will constitute a severance-qualifying resignation for Good Reason following a “Change in Control” (or similar term) under the Executive Severance Policy and the Company’s other compensation and benefit plans, which “Change in Control” (or similar term) is also occurring in connection with the sale or disposition of the Company’s assets pursuant to the Plan of Sale and Liquidation. She will therefore be eligible to receive the payments and benefits to which she is entitled under the Executive Severance Policy, the cash award letter agreement by and between Ms. Johnson and the Company, dated April 16, 2026, and the applicable equity award agreements to which she is party, in each case, subject to the terms and conditions thereof, including the execution and non-revocation of a standard release of claims in favor of the Company.
+To ensure an orderly transition of her responsibilities, Ms. Johnson has agreed to remain available to Aimco as a consultant on an as-needed basis following the Resignation Date. Pursuant to the separation agreement entered into in connection with her resignation on October 1, 2026 (the “Separation Agreement”), Ms. Johnson will provide limited transitional services to Aimco until May 2, 2027, assisting with the transfer of her duties and providing strategic transitional advice on pending matters for up to ten (10) hours per month at an hourly rate of $750, plus reasonable expenses (the “Consulting Arrangement”). The Consulting Arrangement is terminable by either Ms. Johnson or Aimco for any reason or no reason upon thirty (30) days’ written notice.
+The foregoing summary does not purport to be complete and is qualified in its entirety by reference to the full text of the Separation Agreement, a copy of which is attached hereto as Exhibit 10.1 and incorporated herein by reference.
+Item 9.01. Financial Statements and Exhibits.
+(d) The following exhibits are filed with this report:
+Exhibit No.
+Description
+10.1
+Separation Agreement, dated October 1, 2026, by and between the Company and Jennifer Johnson (filed herewith)
+104
+Cover Page Interactive Data File (embedded within the Inline XBRL document)
+SIGNATURES
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.
+Dated: October 2, 2026
+APARTMENT INVESTMENT AND MANAGEMENT COMPANY
+/s/ H. Lynn C. Stanfield
+H. Lynn C. Stanfield
+Executive Vice President and Chief Financial Officer
+AIMCO OP L.P.
+By: Aimco OP GP, LLC, its general partner
+By: Apartment Investment and Management Company, its managing member
+/s/ H. Lynn C. Stanfield
+H. Lynn C. Stanfield
+Executive Vice President and Chief Financial Officer

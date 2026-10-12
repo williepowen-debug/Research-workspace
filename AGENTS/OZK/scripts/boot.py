@@ -39,7 +39,7 @@ CATALYSTS = [
     ("2026-11-02", False, "🟡", "Sub-notes Jan-1-2027 par-call holder-notice window opens (10-60d; closes 12/22) — flng_watch + press"),
     ("2026-10-06", False, "🟡", "Bluerock BPRE roadmap webinar — IQHQ mark/exit talk (context, not a grade)"),
     ("2026-10-21", False, "🔴", "Q3 2026 earnings (Tue 10/20 after close) + call Wed 10/21 8:30 ET [OZK release 9/30] — mgmt's self-set \"~92 day\" RaDD report-back"),
-    ("2026-10-31", True,  "⚪", "UNVERIFIED EVENT — Affinius \"$2.7B bond maturity\": issuer/amount/date unsourced (TODO C5); not actionable"),
+    ("2026-10-20", False, "🟡", "NEA/USRE2021-1 original expected repayment (ARD); legal final 2061; amendments/payoff UNKNOWN, trustee sign-in; not automatic Affinius corporate default (C5 read 10/12)"),
     ("2026-11-05", False, "🟠", "FFIEC JWT EXPIRES — renewal is a Will action (PWS login); blocks the Q3 pull"),
     ("2026-11-07", True,  "🟠", "Q3 2026 Call Report (REPDTE 20260930) — LOG-ONLY, Z6 never re-grades"),
     ("2027-01-19", True,  "🔴", "Q4'26 print — resolves OZK-02/03/04; closes OZK-09 Option-2 window (Q4 prints Jan 16-20, 2023-26)"),

@@ -1,0 +1,334 @@
+false
+0001677576
+0001677576
+2026-09-28
+2026-09-28
+0001677576
+us-gaap:CommonStockMember
+2026-09-28
+2026-09-28
+0001677576
+us-gaap:SeriesAPreferredStockMember
+2026-09-28
+2026-09-28
+iso4217:USD
+xbrli:shares
+iso4217:USD
+xbrli:shares
+UNITED STATES
+SECURITIES AND
+EXCHANGE COMMISSION
+WASHINGTON,
+D.C. 20549
+FORM
+8-K
+CURRENT REPORT
+Pursuant to
+Section 13 or 15(d)
+of the Securities
+Exchange Act of 1934
+Date of
+Report (Date of earliest event reported):
+September 28, 2026
+Innovative Industrial
+Properties, Inc.
+(Exact name
+of registrant as specified in its charter)
+Maryland
+001-37949
+81-2963381
+(State
+                                            or Other Jurisdiction
+of
+                                            Incorporation)
+(Commission
+File
+        No.)
+(I.R.S.
+                                            Employer
+Identification
+        No.)
+1389 Center
+Drive
+,
+Suite 200
+Park City
+,
+Utah
+84098
+(Address of
+principal executive offices, including zip code)
+Registrant’s
+telephone number, including area code: (
+858
+)
+997-3332
+Check the
+appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any
+of the following provisions (see General Instruction A.2. below):
+¨
+Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+¨
+Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+¨
+Pre-commencement communications pursuant
+    to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+¨
+Pre-commencement communications pursuant to Rule 13e-4(c) under
+the Exchange Act (17 CFR 240.13e-4(c))
+Indicate
+by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405
+of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+Emerging growth company
+¨
+If an emerging growth company, indicate by check mark if the
+registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards
+provided pursuant to Section 13(a) of the Exchange Act.
+¨
+Securities Registered pursuant to Section 12(b) of the Act:
+Title of each class
+Trading Symbol(s)
+Name of each exchange on which registered
+Common Stock, par value $0.001 per share
+IIPR
+New York Stock Exchange
+Series A Preferred Stock, par value $0.001 per share
+IIPR-PA
+New York Stock Exchange
+Item 1.01 Entry into a Material Definitive Agreement.
+Sixth Amendment to Amended and Restated Mezzanine Loan Agreement
+On September 28, 2026 (the “
+Closing Date
+”),
+Innovative Industrial Properties, Inc. (the “
+Company
+”) through IIP Life Science Investments II LLC (“
+IIP Life
+Science II
+”), a wholly owned subsidiary of IIP Operating Partnership, LP, the Company’s operating partnership, entered
+into the Sixth Amendment (the “
+Sixth Amendment
+”) to Amended and Restated Mezzanine Loan and Security Agreement, dated
+as of September 30, 2025 (as previously amended, the “
+Loan Agreement
+”), by and among IQHQ-Alewife Holdings, LLC, a
+Delaware limited liability company (the “
+Borrower
+”), the administrative agent thereunder (the “
+Administrative
+Agent
+”), IIP Life Science II, as a lender, and the existing mezzanine lender party thereto, which, together with certain agreements
+entered into in connection therewith, collectively sets forth the terms and conditions of the transactions pursuant to which the parties
+have agreed to:
+·
+increase the maximum principal amount of the mezzanine loan under the Loan Agreement (the “
+Loan
+”) by $267.0 million
+(the “
+Loan Increase
+”), bringing the total maximum principal amount of the Loan to $400.0 million, with IIP Life Science
+II providing up to $245.0 million under a new Mezzanine Promissory Note B (“
+Note B
+”) and the existing mezzanine lender
+providing up to $22.0 million under a new Mezzanine Promissory Note C (“
+Note C
+”); and
+·
+enter into related agreements, including the Co-Lender Agreement, the Right of First Offer for Purchase or Finance
+of Alewife Park Center (the “
+ROFO
+”), and an amendment to an intercreditor agreement.
+The Borrower is a wholly owned subsidiary of IQHQ,
+LP, a Delaware limited partnership, which is the operating partnership of IQHQ, Inc., a Maryland corporation (“
+IQHQ
+”).
+On the Closing Date, IIP Life Science II funded
+an initial advance under Note B (the “
+September Loan Advance
+”) in an aggregate amount of approximately $111.0 million,
+the proceeds of which were used to repay in full the Borrower’s existing $85.0 million bridge loan, together with accrued interest,
+fees, minimum return payment and other amounts due thereunder. A portion of the Note B and Note C Loan Increase proceeds were also used
+to pay closing fees, costs and expenses, including origination and underwriting fees paid to each increasing lender. Note C was also used
+to fund the payment of an extension fee to the existing mezzanine lender to extend the maturity date of the Loan Agreement from February
+2027 to February 2028. Subject to the terms and conditions of the Loan Agreement, the remaining unfunded amounts under Note B and Note
+C are available for debt service, and fees, costs and expenses, and the remaining unfunded amounts under Note B may, subject to satisfaction
+or waiver of conditions precedent set forth in the Loan Agreement, including requirements relating to construction budgets, draw requests,
+and the absence of defaults, be used to fund tenant improvement work, landlord work and  campus amenity, outdoor and infrastructure work
+related to certain leases by Lila Sciences, Inc. of premises at Alewife Park, a master-planned, transit-oriented life science campus located
+on approximately 27 acres in West Cambridge, Massachusetts (the “
+Alewife Park Property
+”).
+The Loan is secured by a pledge of the Borrower’s
+limited liability company interests in IQHQ-Alewife Member, LLC and a pledge by IQHQ-Alewife Member, LLC of its limited liability company
+interests in IQHQ-Alewife, LLC (the “
+Mortgage Borrower
+”), the fee owner of the Alewife Park Property. The Loan also
+receives the benefit of a completion guaranty, an environmental guaranty and a guaranty of recourse obligations by IQHQ, LP.
+The Loan bears interest at a rate per annum equal
+to the Applicable Rate (defined below) and is calculated by multiplying the daily interest rate based on the Applicable Rate, or the default
+rate if applicable, by the aggregate principal amount of the Loan and the senior mortgage loan, and then subtracting the amount of interest
+actually paid by Borrower on the senior mortgage loan for the applicable period. The Applicable Rate is a per annum rate equal to the
+greater of (a) 14% per annum and (b) the applicable interest rate benchmark, which is initially the one-month Term Secured Overnight Financing
+Rate, plus a spread of 9.0% per annum, and which may be converted by the Administrative Agent to an alternate floating rate index or the
+prime rate publicly announced by JPMorgan Chase Bank, National Association, in each case plus an adjusted spread (the “
+Applicable
+Rate
+”), each as more fully described in the Loan Agreement.
+The maturity date of the
+Loan has been extended to February 9, 2028, pursuant to the exercise of the first extension option under the Loan Agreement, with a second
+one year extension option available to the Borrower subject to the satisfaction or waiver of certain conditions set forth in the Loan
+Agreement, including the extension of the maturity date of the senior mortgage loan (currently February 2027, subject to extension on
+the terms and conditions therein).
+The foregoing description
+of the Sixth Amendment is not complete and is qualified in its entirety by reference to the full text of the Sixth Amendment, a copy of
+which is filed as Exhibit 10.1 to this Current Report on Form 8-K and is incorporated herein by reference.
+Amended and Restated Mezzanine Loan and
+Security Agreement
+The following
+description of the Loan Agreement is provided because the Loan Agreement is the underlying agreement amended by the Sixth Amendment,
+and its terms are incorporated into the Sixth Amendment, to which IIP Life Science II is a party. As a result of the Sixth
+Amendment, IIP Life Science II’s rights and obligations as a lender with respect to the Loan are governed by the terms of the
+Loan Agreement, as amended by the Sixth Amendment. The Company did not enter into the Loan Agreement as a separate transaction. As
+originally executed, the Loan Agreement amended and restated the Mezzanine Loan and Security Agreement, dated as of January 26,
+2024, pursuant to which the lenders made a loan to the Borrower in the maximum principal amount of $218.0 million. Pursuant to the
+Loan Agreement, that loan was bifurcated into a senior mortgage loan in the maximum principal amount of $85.0 million and the Loan,
+in an original maximum principal amount of $133.0 million with an initial maturity date of February 9, 2027. The Loan Agreement was
+subsequently amended by a First Amendment dated March 31, 2026, a Second Amendment dated April 16, 2026, a Third Amendment dated
+April 24, 2026, a Fourth Amendment dated May 1, 2026, and a Fifth Amendment dated May 15, 2026.
+The Loan Agreement, as amended by the Sixth Amendment, provides
+for a mezzanine construction loan facility to fund, among other things, the construction and development of the Alewife Park Property,
+including certain tenant improvement work, landlord work and campus amenity, outdoor and infrastructure work related to certain leases
+by Lila Sciences, Inc. of premises at the Alewife Park Property. Interest is calculated on a 360-day year basis on the outstanding principal
+balance of the Loan plus the outstanding principal balance of the senior mortgage loan, less interest actually paid on the senior mortgage
+loan and is payable monthly. The Loan is nonrecourse to the Borrower, subject to customary recourse carve-outs and guaranties provided
+by IQHQ, LP, including a guaranty of recourse obligations, an environmental guaranty and a completion guaranty.
+The Loan Agreement, as amended by the Sixth Amendment, contains customary representations,
+warranties, affirmative and negative covenants and events of default, including special purpose entity covenants, covenants relating to
+construction milestones, insurance, transfers of interests, key person requirements, and compliance with the senior mortgage loan documents.
+The Loan Agreement also grants the lenders a right of first negotiation with respect to new construction loan financing for the Alewife
+Park Property, and as a condition to the Loan Increase, IQHQ and certain of its affiliates executed and delivered the Right of First Offer
+Agreement described below.
+The Loan Agreement is subject to an intercreditor
+agreement with the senior lenders under the senior mortgage loan for the Alewife Park Property (collectively, the “
+Senior Lenders
+”),
+which was amended in connection with the Sixth Amendment to add IIP Life Science II as a party. The intercreditor agreement, as amended,
+limits, among other things, the amount of additional mezzanine debt and extensions of maturity, and subordinates certain mezzanine enforcement
+rights to those of the Senior Lenders.
+The foregoing
+description of the Loan Agreement is not complete and is qualified in its entirety by reference to the full text of the Loan
+Agreement, a copy of which is filed as Exhibit 10.2 to this Current Report on Form 8-K and is incorporated herein by reference. The
+Loan Agreement is filed because its terms are incorporated into, and should be read together with, the Sixth Amendment, which is
+filed as Exhibit 10.1.
+Co-Lender Agreement
+In connection with the Sixth
+Amendment, on the Closing Date, the Administrative Agent, the existing mezzanine lender and IIP Life Science II entered into a Co-Lender
+Agreement (the “
+Co-Lender Agreement
+”) establishing the relative rights, benefits, obligations and priorities of the
+noteholders with respect to the Loan.
+Under the Co-Lender Agreement,
+the existing mezzanine lender serves as the Directing Mezzanine Lender (as defined in the Co-Lender Agreement) and is authorized to act
+on behalf of the noteholders with respect to the Loan, subject to specified consent requirements. Certain key actions, including the purchase
+of the Senior Loan, the replacement of the Senior Lenders, the cure of defaults under the Senior Loan, and the making or authorization
+of advances under Note B, require the prior written consent of IIP Life Science II. In addition, IIP Life Science II may direct the Administrative
+Agent’s exercise of certain rights under the intercreditor agreement, including cure, purchase and replacement rights, as reasonably
+necessary to preserve the REIT mezzanine loan safe harbor or its qualification as a REIT.
+Certain material actions
+under the Co-Lender Agreement require the unanimous consent of all noteholders, including modifications to the maturity date, releases
+of collateral or guarantor liability, acceleration of the Loan, exercise of remedies under the pledge agreements, amendments to the intercreditor
+agreement, and approval of new or modified leases. No waiver of any condition to an advance under Note B may be granted without the prior
+written consent of IIP Life Science II.
+Under the Co-Lender Agreement
+governing the Loan, the Company also has the option, but not the obligation, to purchase all or a portion of the existing mezzanine lender's
+notes (aggregating up to approximately $155 million in maximum principal amount) at a price equal to the outstanding principal balance
+plus accrued interest, fees, and other amounts, including the selling noteholder’s share of certain minimum return amounts and exit
+fees whether or not then due and payable by the Borrower. Any such purchase would be subject to conditions set forth in the Co-Lender
+Agreement, including limitations necessary to preserve the Company’s qualification as a REIT.
+The foregoing description
+of the Co-Lender Agreement is not complete and is qualified in its entirety by reference to the full text of the Co-Lender Agreement,
+a copy of which is filed as Exhibit 10.3 to this Current Report on Form 8-K and is incorporated herein by reference.
+Right of First Offer for Purchase or Finance of Alewife Park Center
+As a condition to the Loan
+Increase, on the Closing Date, IIP Life Science II entered into the ROFO with the Mortgage Borrower, IQHQ and certain of its affiliates
+named therein, which grants IIP Life Science II a right of first offer to purchase, finance or refinance the Alewife Park Property.
+The ROFO includes a right
+of first offer in favor of IIP Life Science II to purchase the Alewife Park Property or interests in it in connection with a proposed
+sale, and a right of first offer to provide financing or refinancing for the Alewife Park Property, in each case within a specified period.
+Pursuant to the Loan
+Agreement, IIP Life Science II’s right of first offer does not become effective until the total amount funded under Note B
+equals or exceeds $155,000,000, including the payoff of the Borrower’s indebtedness at closing, advances to fund the fees,
+costs and expenses of IIP Life Science II and interest as it accrues (the “
+ROFO
+Effective Date
+”). Until then, the mezzanine lenders’ right of first negotiation for new construction loan
+financing for the Alewife Park Property, as granted under the Loan Agreement, remains in effect. From and after the ROFO Effective
+Date, that right of first negotiation in the Loan Agreement is subordinated to IIP Life Science II’s ROFO rights. Any exercise
+of the ROFO, and any sale, financing, refinancing or transfer of the Alewife Park Property, remains subject to any lender consent or
+approval required under the Loan Agreement.
+The foregoing description
+of the ROFO is not complete and is qualified in its entirety by reference to the full text of the ROFO, a copy of which is filed as Exhibit
+10.4 to this Current Report on Form 8-K and is incorporated herein by reference.
+Item 7.01 Regulation FD
+Disclosure.
+On October 1, 2026,
+the Company issued a press release announcing the closing of its mezzanine loan investment in connection with the Sixth Amendment. A copy
+of the press release is furnished as Exhibit 99.1 hereto.
+On October 1, 2026, the Company
+posted an investor presentation on its website located at www.innovativeindustrialproperties.com. A copy of the investor presentation
+is attached hereto as Exhibit 99.2 and is incorporated by reference herein.
+The information in this Item
+7.01, including Exhibits 99.1 and 99.2 furnished herewith, shall not be deemed “filed” for purposes of Section 18 of the Securities
+Exchange Act of 1934, as amended (the “
+Exchange Act
+”), or otherwise subject to the liabilities of that section, nor
+shall it be deemed incorporated by reference in any filing under the Securities Act of 1933, as amended, or the Exchange Act, whether
+made before or after the date hereof, regardless of any general incorporation language in such filing.
+Item 9.01. Financial Statements and Exhibits.
+(d) Exhibits.
+Exhibit
+Description of Exhibit
+10.1*
+Sixth Amendment to Amended and Restated Mezzanine Loan and Security Agreement, dated as of September 28, 2026, by and among IQHQ-Alewife Holdings, LLC, as borrower, NREF OP IV REIT SUB, LLC, as administrative agent, IIP Life Science Investments II LLC, as a lender, and NREF OP IV SUBHOLDCO, LLC, as a lender.
+10.2*
+Amended and Restated Mezzanine Loan and Security Agreement, dated as of September 30, 2025, by and among IQHQ-Alewife Holdings, LLC, as borrower, NREF OP IV REIT SUB, LLC, as administrative agent, NREF OP IV SUBHOLDCO, LLC, as the initial lender, and the lenders from time to time party thereto (as amended through the Fifth Amendment to Amended and Restated Mezzanine Loan and Security Agreement, dated as of May 15, 2026).
+10.3*
+Co-Lender Agreement, dated as of September 28, 2026, by and among NREF OP IV REIT SUB, LLC, as administrative agent, NREF OP IV SUBHOLDCO, LLC, as the Initial A-1 Noteholder and Initial A-3 Noteholder, and IIP Life Science Investments II LLC, as the Initial A-2 Noteholder.
+10.4*
+Side Letter Regarding Right of First Offer for Alewife Park, dated as of September 28, 2026, by and among IIP Life Science Investments II LLC, IQHQ, LP, IQHQ, Inc., IQHQ Holdings, LP, IQHQ-Alewife, LLC, IQHQ-Alewife Member, LLC, and IQHQ-Alewife Holdings, LLC.
+99.1
+Press release dated October 1, 2026.
+99.2
+Innovative Industrial Properties, Inc. investor presentation, dated
+October 1, 2026.
+104
+Cover Page Interactive Data File (embedded within the XBRL document).
+*Certain schedules and exhibits omitted pursuant to Item
+601(a)(5) of Regulation S-K. The Company agrees to furnish supplementally a copy of any omitted schedule or exhibit to the SEC upon request.
+Forward-Looking Statements
+This Current Report on Form 8-K contains statements
+that the Company believes to be “forward-looking statements” within the meaning of the safe harbor provisions of the Private
+Securities Litigation Reform Act of 1995. All statements other than historical facts are forward-looking statements. When used in this
+report, words such as the Company “expects,” “intends,” “plans,” “estimates,” “anticipates,”
+“believes” or “should” or the negative thereof or similar terminology are generally intended to identify forward-looking
+statements, and they include, but are not limited to, statements regarding the expected benefits or impact of the transactions described
+in this report, including the Sixth Amendment, the Co-Lender Agreement, and the ROFO; the Company’s ability to fund future advances
+under Note B and anticipated funding sources; the anticipated use of proceeds from the Loan Increase; the Company’s ability to realize
+the anticipated benefits of the ROFO; and the Borrower’s ability to satisfy its obligations under the Loan. These forward-looking
+statements are based on current expectations and are subject to risks and uncertainties that could cause actual results to differ materially
+from those expressed in, or implied by, such statements. Factors that could cause results to differ from those projected or assumed in
+any forward-looking statement include, but are not limited to, the risk factors discussed in the Company’s most recent Annual Report
+on Form 10-K for the year ended December 31, 2025, as updated by the Company’s subsequent reports filed with the SEC. Investors
+should not place undue reliance upon forward-looking statements. The Company disclaims any obligation to update or revise any forward-looking
+statements, whether as a result of new information, future events or otherwise.
+SIGNATURES
+Pursuant to the requirements of the Securities
+Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.
+Date: October 1, 2026
+INNOVATIVE INDUSTRIAL PROPERTIES, INC.
+By:
+/s/ David Smith
+Name:
+David Smith
+Title:
+Chief Financial Officer

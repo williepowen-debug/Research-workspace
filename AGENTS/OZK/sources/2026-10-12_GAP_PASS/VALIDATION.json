@@ -1,0 +1,17 @@
+{
+  "kb_rows": 256,
+  "groups": 37,
+  "columns": 13,
+  "unique_ids": true,
+  "source_hashes_verified": true,
+  "arithmetic": "PASS",
+  "inlined_original_ARD": "2026-10-20",
+  "status_price_tokens_match": true,
+  "status_lines": 149,
+  "memory_lines": 84,
+  "thesis_predictions_positions_unchanged": true,
+  "court_published_index_only": "two no-result responses; full docket unknown",
+  "index_current_header_exact": "256 / 37",
+  "authored_whitespace_check": "PASS",
+  "raw_source_whitespace": "Preserved byte-for-byte; excluded from authored whitespace policy"
+}

@@ -172,7 +172,7 @@ Channel 2 (NDFI) ←—— fund stress ——→ fewer bridge/mezz originations
 ## What Would Prove the Thesis Wrong
 
 - Q1 2026 repayment velocity stays at or above Q4 2025's $3.0B → takeout market still open
-- Affinius refinances $2.7B bonds before Oct 2026 → largest stressed counterparty stabilizes
+- **Corrected October12:** NEA/USRE2021-1 original ARD **October20,2026**, legal final2061, current payoff/amendments UNKNOWN. A verified refinance/cash-service outcome would inform this warehouse-vehicle risk; it **cannot by itself establish Affinius corporate stabilization or default**. Sponsor/entity and direct OZK exposure must be linked separately → `../research/threads/2026-10-12_AIMCO_AFFINIUS_CHECK.md`.
 - Blue Owl resumes normal bridge origination → key exit counterparty restored
 - NDFI noncurrent stays near zero through 2026 → fund-level stress not reaching OZK
 - No JPM/GS collateral markdowns on CRE warehouse lines → cascade doesn't fire

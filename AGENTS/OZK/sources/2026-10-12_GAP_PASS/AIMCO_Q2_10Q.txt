@@ -1,0 +1,4927 @@
+10-Q
+0000926660
+--12-31
+0000922864
+None
+--12-31
+Q2
+Q2
+None
+None
+false
+false
+None
+http://fasb.org/us-gaap/2026#RelatedPartyMember
+http://fasb.org/us-gaap/2026#RelatedPartyMember
+http://fasb.org/us-gaap/2026#RelatedPartyMember
+http://fasb.org/us-gaap/2026#RelatedPartyMember
+0000922864
+us-gaap:OperatingSegmentsMember
+aiv:OperatingPortfolioSegmentMember
+2025-04-01
+2025-06-30
+0000922864
+aiv:NoncontrollingInterestsInConsolidatedRealEstatePartnershipsMember
+aiv:AIMCOOPLPMember
+2026-01-31
+0000922864
+aiv:UnconsolidatedRealEstatePartnershipMember
+aiv:AIMCOOPLPMember
+2025-01-01
+2025-06-30
+0000922864
+aiv:NoncontrollingInterestsInConsolidatedRealEstatePartnershipsMember
+2025-06-30
+0000922864
+aiv:OperatingPortfolioSegmentMember
+us-gaap:OperatingSegmentsMember
+2025-01-01
+2025-06-30
+0000922864
+aiv:UnconsolidatedInvestmentInIqhqAndMezzanineInvestmentMember
+2026-06-30
+0000922864
+aiv:RevenueRecognizedExpenseIncurredMember
+aiv:LiquidationBasisMember
+2026-06-30
+0000922864
+2026-04-01
+2026-06-30
+0000922864
+aiv:RETVenturesMember
+aiv:CommitmentsrelatedtodevelopmentredevelopmentandcapitalimprovementactivitiesMember
+2026-01-01
+2026-06-30
+0000922864
+aiv:RemeasurementMember
+2026-06-30
+0000922864
+us-gaap:OperatingSegmentsMember
+aiv:OtherRealEstateMember
+2025-11-01
+2026-01-31
+0000922864
+aiv:AIMCOOperatingPartnershipMember
+2026-01-01
+2026-06-30
+0000922864
+us-gaap:AdditionalPaidInCapitalMember
+2025-06-30
+0000922864
+us-gaap:AdditionalPaidInCapitalMember
+2025-12-31
+0000922864
+us-gaap:OperatingSegmentsMember
+aiv:OtherRealEstateMember
+2025-04-01
+2025-06-30
+0000922864
+aiv:UnconsolidatedRealEstatePartnershipMember
+2025-01-01
+2025-06-30
+0000922864
+aiv:AimcoMember
+2026-06-30
+0000922864
+aiv:NoncontrollingInterestsInConsolidatedRealEstatePartnershipsMember
+2025-01-01
+2025-06-30
+0000922864
+us-gaap:ParentMember
+2025-01-01
+2025-06-30
+0000922864
+aiv:NoncontrollingInterestsInConsolidatedRealEstatePartnershipsMember
+aiv:AIMCOOPLPMember
+2025-04-01
+2025-06-30
+0000922864
+2025-11-01
+2026-01-31
+0000922864
+aiv:CommonNoncontrollingInterestsInAimcoOperatingPartnershipMember
+2025-04-01
+2025-06-30
+0000922864
+aiv:TimeBasedRestrictedStockAwardsMember
+2026-06-30
+0000922864
+aiv:NoncontrollingInterestsInConsolidatedRealEstatePartnershipsMember
+aiv:AIMCOOPLPMember
+2025-03-31
+0000922864
+us-gaap:RetainedEarningsMember
+2025-01-01
+2025-06-30
+0000922864
+stpr:NY
+2026-06-30
+0000922864
+us-gaap:OperatingSegmentsMember
+aiv:RedevelopmentandDevelopmentMember
+2025-11-01
+2026-01-31
+0000922864
+srt:SubsidiariesMember
+2026-04-01
+2026-06-30
+0000922864
+aiv:NoncontrollingInterestsAimcoOperatingPartnershipMember
+2026-02-01
+2026-06-30
+0000922864
+us-gaap:RetainedEarningsMember
+2025-06-30
+0000922864
+us-gaap:CommonStockMember
+2025-01-01
+2025-06-30
+0000922864
+us-gaap:AdditionalPaidInCapitalMember
+2026-01-01
+2026-01-31
+0000922864
+aiv:CommonNoncontrollingInterestsInAimcoOperatingPartnershipMember
+2025-01-01
+2025-06-30
+0000922864
+us-gaap:ParentMember
+2025-12-31
+0000922864
+us-gaap:CommonStockMember
+2025-12-31
+0000922864
+us-gaap:ParentMember
+2026-01-01
+2026-01-31
+0000922864
+aiv:ChicagoPortfolioMember
+2026-03-31
+0000922864
+aiv:AIMCOOPLPMember
+2026-06-30
+0000922864
+aiv:AIMCOOPLPMember
+2025-06-30
+0000922864
+aiv:LTIPTwoUnitsMember
+2026-06-30
+0000922864
+aiv:AIMCOOPLPMember
+aiv:GeneralPartnerAndSpecialLimitedPartnerMember
+2025-03-31
+0000922864
+aiv:NoncontrollingInterestsInConsolidatedRealEstatePartnershipsMember
+aiv:AIMCOOPLPMember
+2025-12-31
+0000922864
+aiv:AIMCOOPLPMember
+us-gaap:LimitedPartnerMember
+2025-04-01
+2025-06-30
+0000922864
+aiv:NoncontrollingInterestsInConsolidatedRealEstatePartnershipsMember
+2026-01-01
+2026-01-31
+0000922864
+aiv:NoncontrollingInterestsAimcoOperatingPartnershipMember
+2026-01-31
+0000922864
+aiv:CommonNoncontrollingInterestsInAimcoOperatingPartnershipMember
+2026-01-31
+0000922864
+aiv:OperatingPortfolioSegmentMember
+us-gaap:OperatingSegmentsMember
+2025-04-01
+2025-06-30
+0000922864
+us-gaap:MaterialReconcilingItemsMember
+2025-04-01
+2025-06-30
+0000922864
+aiv:ChicagoPortfolioMember
+2026-03-01
+2026-03-31
+0000922864
+us-gaap:ParentMember
+2025-06-30
+0000922864
+aiv:SanDiegoCaliforniaMember
+us-gaap:UnconsolidatedPropertiesMember
+2026-04-01
+2026-06-30
+0000922864
+aiv:NoncontrollingInterestsInConsolidatedRealEstatePartnershipsMember
+2025-12-31
+0000922864
+aiv:NoncontrollingInterestsInConsolidatedRealEstatePartnershipsMember
+aiv:AIMCOOPLPMember
+2024-12-31
+0000922864
+aiv:AIMCOOPLPMember
+us-gaap:LimitedPartnerMember
+2026-01-01
+2026-01-31
+0000922864
+aiv:PartnersCapitalAttributableToPartnershipMember
+2026-01-31
+2026-01-31
+0000922864
+us-gaap:RetainedEarningsMember
+2025-12-31
+0000922864
+us-gaap:MaterialReconcilingItemsMember
+2025-01-01
+2025-06-30
+0000922864
+2019-11-01
+2019-11-30
+0000922864
+aiv:OtherRealEstateMember
+us-gaap:OperatingSegmentsMember
+2025-01-01
+2025-06-30
+0000922864
+us-gaap:ParentMember
+2024-12-31
+0000922864
+aiv:NonRecourseConstructionLoansMember
+2026-06-30
+0000922864
+aiv:MarketBasedRestrictedStockAwardsMember
+2026-06-30
+0000922864
+aiv:NoncontrollingInterestsInConsolidatedRealEstatePartnershipsMember
+2026-01-31
+0000922864
+aiv:OperatingPartnershipUnitEquivalentsMember
+2026-01-01
+2026-01-31
+0000922864
+us-gaap:CommonStockMember
+2026-01-01
+2026-01-31
+0000922864
+aiv:AIMCOOPLPMember
+aiv:GeneralPartnerAndSpecialLimitedPartnerMember
+2026-01-31
+0000922864
+aiv:AIMCOOPLPMember
+2026-01-01
+2026-06-30
+0000922864
+aiv:AimcoMember
+2026-06-30
+0000922864
+aiv:NonRecoursePropertyDebtMember
+2026-06-30
+0000922864
+us-gaap:RetainedEarningsMember
+2026-01-01
+2026-01-31
+0000922864
+aiv:OtherRealEstateMember
+us-gaap:OperatingSegmentsMember
+2025-11-01
+2026-01-31
+0000922864
+aiv:AIMCOOPLPMember
+2023-06-01
+2023-06-30
+0000922864
+aiv:AIMCOOPLPMember
+us-gaap:LimitedPartnerMember
+2024-12-31
+0000922864
+aiv:AIMCOOPLPMember
+aiv:GeneralPartnerAndSpecialLimitedPartnerMember
+2025-04-01
+2025-06-30
+0000922864
+us-gaap:CommonStockMember
+2025-04-01
+2025-06-30
+0000922864
+2026-01-01
+2026-01-31
+0000922864
+aiv:MassachusettsNewHampshireAndRhodeIslandMember
+2025-07-01
+2025-12-31
+0000922864
+2025-01-01
+2025-03-31
+0000922864
+aiv:NoncontrollingInterestsInConsolidatedRealEstatePartnershipsMember
+2024-12-31
+0000922864
+aiv:LiquidationBasisMember
+2026-02-01
+0000922864
+aiv:NewYorkCityAndAtlantaGeorgiaMember
+2026-04-01
+2026-06-30
+0000922864
+us-gaap:ParentMember
+2025-03-31
+0000922864
+us-gaap:CorporateNonSegmentMember
+2025-01-01
+2025-06-30
+0000922864
+2026-06-30
+0000922864
+aiv:AimcoMember
+2026-01-31
+0000922864
+us-gaap:OperatingSegmentsMember
+aiv:OtherRealEstateMember
+2025-01-01
+2025-06-30
+0000922864
+aiv:PartnersCapitalAttributableToPartnershipMember
+aiv:AIMCOOPLPMember
+2025-06-30
+0000922864
+aiv:SanDiegoCaliforniaMember
+us-gaap:UnconsolidatedPropertiesMember
+2026-06-30
+0000922864
+aiv:AIMCOOPLPMember
+us-gaap:LimitedPartnerMember
+2025-01-01
+2025-06-30
+0000922864
+aiv:CommonNoncontrollingInterestsInAimcoOperatingPartnershipMember
+2025-03-31
+0000922864
+2023-06-01
+2023-06-30
+0000922864
+aiv:AIMCOOPLPMember
+aiv:GeneralPartnerAndSpecialLimitedPartnerMember
+2025-06-30
+0000922864
+us-gaap:AdditionalPaidInCapitalMember
+2024-12-31
+0000922864
+aiv:AtlantaGeorgiaMember
+2026-06-30
+0000922864
+us-gaap:ParentMember
+2026-01-31
+0000922864
+aiv:OperatingPortfolioSegmentMember
+2025-01-01
+0000922864
+aiv:CommitmentsrelatedtooperationsMember
+srt:MaximumMember
+2026-01-01
+2026-06-30
+0000922864
+aiv:AIMCOOPLPMember
+2025-11-01
+2026-01-31
+0000922864
+aiv:PartnersCapitalAttributableToPartnershipMember
+aiv:AIMCOOPLPMember
+2025-12-31
+0000922864
+aiv:CommonNoncontrollingInterestsInAimcoOperatingPartnershipMember
+2024-12-31
+0000922864
+aiv:AIMCOOPLPMember
+us-gaap:LimitedPartnerMember
+2025-03-31
+0000922864
+aiv:RealEstateInvestmentsMember
+2026-01-31
+0000922864
+aiv:NoncontrollingInterestsInConsolidatedRealEstatePartnershipsMember
+aiv:AIMCOOPLPMember
+2025-01-01
+2025-06-30
+0000922864
+aiv:CommonNoncontrollingInterestsInAimcoOperatingPartnershipMember
+2025-06-30
+0000922864
+2019-11-30
+0000922864
+aiv:NoncontrollingInterestsInConsolidatedRealEstatePartnershipsMember
+aiv:AIMCOOPLPMember
+2025-06-30
+0000922864
+us-gaap:CorporateNonSegmentMember
+2025-04-01
+2025-06-30
+0000922864
+aiv:PartnersCapitalAttributableToPartnershipMember
+aiv:AIMCOOPLPMember
+2025-04-01
+2025-06-30
+0000922864
+2024-12-31
+0000922864
+aiv:PartnersCapitalAttributableToPartnershipMember
+aiv:AIMCOOPLPMember
+2025-03-31
+0000922864
+aiv:OperatingPortfolioSegmentMember
+us-gaap:OperatingSegmentsMember
+2025-11-01
+2026-01-31
+0000922864
+us-gaap:AdditionalPaidInCapitalMember
+2026-01-31
+0000922864
+aiv:UnconsolidatedRealEstatePartnershipMember
+aiv:AIMCOOPLPMember
+2026-01-01
+2026-01-31
+0000922864
+us-gaap:RetainedEarningsMember
+2026-01-31
+0000922864
+aiv:NoncontrollingInterestsAimcoOperatingPartnershipMember
+2026-06-30
+0000922864
+aiv:CommonNoncontrollingInterestsInAimcoOperatingPartnershipMember
+2025-12-31
+0000922864
+aiv:OperatingPortfolioSegmentMember
+2026-01-01
+2026-06-30
+0000922864
+aiv:PartnersCapitalAttributableToPartnershipMember
+aiv:AIMCOOPLPMember
+2026-01-01
+2026-01-31
+0000922864
+aiv:LTIPTwoUnitsMember
+us-gaap:SubsequentEventMember
+2026-07-31
+0000922864
+us-gaap:AdditionalPaidInCapitalMember
+2025-03-31
+0000922864
+us-gaap:AdditionalPaidInCapitalMember
+2025-01-01
+2025-06-30
+0000922864
+aiv:ThirdPartiesMember
+2026-06-30
+0000922864
+aiv:S2026Q2DividendsMember
+2026-06-30
+0000922864
+aiv:AIMCOOPLPMember
+2026-01-01
+2026-01-31
+0000922864
+aiv:AIMCOOPLPMember
+aiv:GeneralPartnerAndSpecialLimitedPartnerMember
+2025-12-31
+0000922864
+us-gaap:CommonStockMember
+2025-03-31
+0000922864
+2026-06-03
+2026-06-03
+0000922864
+2026-03-13
+2026-03-13
+0000922864
+us-gaap:ParentMember
+aiv:PartnersCapitalAttributableToPartnershipMember
+2026-01-31
+0000922864
+aiv:NoncontrollingInterestsInConsolidatedRealEstatePartnershipsMember
+2025-03-31
+0000922864
+aiv:AIMCOOPLPMember
+2025-04-01
+2025-06-30
+0000922864
+aiv:AIMCOOPLPMember
+aiv:GeneralPartnerAndSpecialLimitedPartnerMember
+2025-01-01
+2025-06-30
+0000922864
+aiv:PlanOfSaleAndLiquidationMember
+2026-02-06
+0000922864
+us-gaap:MaterialReconcilingItemsMember
+2025-11-01
+2026-01-31
+0000922864
+2026-01-01
+2026-06-30
+0000922864
+aiv:AIMCOOPLPMember
+us-gaap:LimitedPartnerMember
+2025-06-30
+0000922864
+aiv:CommonNoncontrollingInterestsInAimcoOperatingPartnershipMember
+2026-01-01
+2026-01-31
+0000922864
+aiv:AIMCOOPLPMember
+2026-02-01
+2026-06-30
+0000922864
+2025-01-01
+2025-06-30
+0000922864
+aiv:PartnersCapitalAttributableToPartnershipMember
+aiv:AIMCOOPLPMember
+2025-01-01
+2025-06-30
+0000922864
+us-gaap:RetainedEarningsMember
+2025-04-01
+2025-06-30
+0000922864
+aiv:AIMCOOPLPMember
+aiv:GeneralPartnerAndSpecialLimitedPartnerMember
+2024-12-31
+0000922864
+us-gaap:OperatingSegmentsMember
+aiv:RedevelopmentandDevelopmentMember
+2025-04-01
+2025-06-30
+0000922864
+us-gaap:AdditionalPaidInCapitalMember
+2025-04-01
+2025-06-30
+0000922864
+aiv:PartnersCapitalAttributableToPartnershipMember
+aiv:AIMCOOPLPMember
+2024-12-31
+0000922864
+2026-02-01
+2026-06-30
+0000922864
+aiv:AIMCOOPLPMember
+2025-01-01
+2025-06-30
+0000922864
+us-gaap:SubsequentEventMember
+2026-07-31
+0000922864
+aiv:AIMCOOPLPMember
+2025-12-31
+0000922864
+us-gaap:RetainedEarningsMember
+2024-12-31
+0000922864
+2026-01-31
+2026-01-31
+0000922864
+us-gaap:RetainedEarningsMember
+2025-03-31
+0000922864
+2025-06-30
+0000922864
+aiv:AimcoMember
+2026-02-01
+2026-06-30
+0000922864
+aiv:MassachusettsNewHampshireAndRhodeIslandMember
+2025-12-31
+0000922864
+us-gaap:ParentMember
+2025-04-01
+2025-06-30
+0000922864
+aiv:PartnersCapitalAttributableToPartnershipMember
+aiv:AIMCOOPLPMember
+2026-01-31
+0000922864
+aiv:AIMCOOPLPMember
+us-gaap:LimitedPartnerMember
+2026-01-31
+0000922864
+2025-06-01
+2025-06-30
+0000922864
+us-gaap:OperatingSegmentsMember
+aiv:RedevelopmentandDevelopmentMember
+2025-04-01
+2025-06-30
+0000922864
+us-gaap:OperatingSegmentsMember
+aiv:RedevelopmentandDevelopmentMember
+2025-11-01
+2026-01-31
+0000922864
+aiv:AIMCOOPLPMember
+aiv:GeneralPartnerAndSpecialLimitedPartnerMember
+2026-01-01
+2026-01-31
+0000922864
+us-gaap:CorporateNonSegmentMember
+2025-04-01
+2025-06-30
+0000922864
+aiv:NoncontrollingInterestsInConsolidatedRealEstatePartnershipsMember
+aiv:AIMCOOPLPMember
+2026-01-01
+2026-01-31
+0000922864
+us-gaap:OperatingSegmentsMember
+aiv:OperatingPortfolioSegmentMember
+2025-01-01
+2025-06-30
+0000922864
+us-gaap:CommonStockMember
+2025-06-30
+0000922864
+us-gaap:CommonStockMember
+2026-01-31
+0000922864
+us-gaap:CommonStockMember
+2024-12-31
+0000922864
+aiv:NoncontrollingInterestsInConsolidatedRealEstatePartnershipsMember
+2025-04-01
+2025-06-30
+0000922864
+aiv:OtherRealEstateMember
+us-gaap:OperatingSegmentsMember
+2025-04-01
+2025-06-30
+0000922864
+aiv:LiquidationBasisMember
+2026-06-30
+0000922864
+2025-04-01
+2025-06-30
+0000922864
+2026-08-06
+0000922864
+aiv:AIMCOOPLPMember
+2025-03-31
+0000922864
+aiv:UnconsolidatedRealEstatePartnershipMember
+2026-01-01
+2026-01-31
+0000922864
+us-gaap:CorporateNonSegmentMember
+2025-11-01
+2026-01-31
+0000922864
+aiv:AIMCOOPLPMember
+2024-12-31
+0000922864
+us-gaap:OperatingSegmentsMember
+aiv:RedevelopmentandDevelopmentMember
+2025-01-01
+2025-06-30
+0000922864
+2026-01-31
+0000922864
+us-gaap:CorporateNonSegmentMember
+2025-11-01
+2026-01-31
+0000922864
+us-gaap:OperatingSegmentsMember
+aiv:RedevelopmentandDevelopmentMember
+2025-01-01
+2025-06-30
+0000922864
+aiv:AIMCOOPLPMember
+2025-01-01
+2025-03-31
+0000922864
+2025-12-31
+0000922864
+2026-02-06
+2026-02-06
+0000922864
+us-gaap:OperatingSegmentsMember
+aiv:OperatingPortfolioSegmentMember
+2025-11-01
+2026-01-31
+0000922864
+us-gaap:CorporateNonSegmentMember
+2025-01-01
+2025-06-30
+0000922864
+aiv:AIMCOOPLPMember
+2026-01-31
+0000922864
+2025-03-31
+0000922864
+aiv:AIMCOOPLPMember
+us-gaap:LimitedPartnerMember
+2025-12-31
+iso4217:USD
+xbrli:shares
+aiv:Community
+xbrli:pure
+xbrli:shares
+aiv:ApartmentHome
+aiv:Property
+aiv:Apartments
+iso4217:USD
+aiv:Segment
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+Form
+10-Q
+(Mark One)
+☒
+QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+For the quarterly period ended
+June 30,
+2026
+OR
+☐
+TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+For the transition period from
+to
+Commission File Number:
+1-13232
+(Apartment Investment and Management Company)
+Commission File Number:
+0-56223
+(Aimco OP L.P.)
+Apartment Investment and Management Company
+Aimco OP L.P.
+(Exact name of registrant as specified in its charter)
+Maryland
+(Apartment Investment and Management Company)
+84-1259577
+Delaware
+(Aimco OP L.P.)
+85-2460835
+(State or other jurisdiction of
+(I.R.S. Employer
+incorporation or organization)
+Identification No.)
+4582 South Ulster Street
+,
+Suite 1450
+Denver
+,
+Colorado
+80237
+(Address of principal executive offices)
+(Zip Code)
+(
+833
+)
+373-1300
+(Registrant’s telephone number, including area code)
+Not Applicable
+(Former name, former address, and former fiscal year, if changed since last report)
+Securities registered pursuant to Section 12(b) of the Act:
+Title of Each Class
+Trading Symbol(s)
+Name of Each Exchange on Which Registered
+Class A Common Stock (Apartment Investment and Management Company)
+AIV
+New York Stock Exchange
+Securities registered pursuant to Section 12(g) of the Act:
+None (Apartment Investment and Management Company)
+Partnership Common Units (Aimco OP L.P.)
+(title of each class)
+Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days.
+Apartment Investment and Management Company
+:
+Yes
+☒    No  ☐
+Aimco OP L.P.
+:
+Yes
+☒    No  ☐
+Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files).
+Apartment Investment and Management Company
+:
+Yes
+☒    No  ☐
+Aimco OP L.P.
+:
+Yes
+☒    No  ☐
+Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act.
+Apartment Investment and Management Company
+:
+Large accelerated filer
+☒
+Accelerated filer
+☐
+Non-accelerated filer
+☐
+Smaller reporting company
+☐
+Emerging growth company
+☐
+Aimco OP L.P.
+:
+Large accelerated filer
+☐
+Accelerated filer
+☒
+Non-accelerated filer
+☐
+Smaller reporting company
+☐
+Emerging growth company
+☐
+f
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.
+Apartment Investment and Management Company
+:
+☐
+Aimco OP L.P.
+:
+☐
+Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act).
+Apartment Investment and Management Company
+:  Yes  ☐    No
+☒
+Aimco OP L.P.
+:  Yes    ☐    No
+☒
+The number of shares of Apartment Investment and Management Company Class A common stock (“Common Stock”) outstanding as of August 5, 2026
+:
+145,236,898
+EXPLANATORY NOTE
+Apartment Investment and Management Company (“Aimco” or “the Company”), a Maryland corporation, is a self-administered and self-managed real estate investment trust, or REIT. On December 15, 2020, Aimco completed the separation of its businesses (the “Separation”), creating two, separate and distinct, publicly traded companies, Aimco and Apartment Income REIT Corp. (“AIR”) (Aimco and AIR together, as they existed prior to the Separation, “Aimco Predecessor”). Events noted in this filing as occurring before December 15, 2020, were those entered into by Aimco Predecessor.
+Aimco, through a wholly-owned subsidiary, is the general partner and is, directly, the special limited partner of Aimco OP L.P. (“Aimco Operating Partnership”). As of June 30, 2026, Aimco owned 95.1% of the legal interest in the common partnership units of Aimco Operating Partnership and 95.8% of the dilutive economic interest in Aimco Operating Partnership. The remaining 4.9% legal interest is owned by limited partners. The common partnership units of Aimco Operating Partnership are referred to as “OP Units”. As the sole general partner of Aimco Operating Partnership, Aimco has exclusive control of Aimco Operating Partnership’s day-to-day management.
+Aimco Operating Partnership holds all of Aimco’s assets and manages the daily operations of Aimco’s business. Pursuant to the Aimco Operating Partnership Agreement, Aimco is required to contribute to Aimco Operating Partnership all proceeds from the offerings of its securities. In exchange for the contribution of such proceeds, Aimco receives additional interests in Aimco Operating Partnership with similar terms (e.g., if Aimco contributes proceeds of a stock offering, Aimco receives partnership units with terms substantially similar to the stock issued by Aimco).
+This filing combines the quarterly reports on Form 10-Q for the quarterly period ended June 30, 2026, of Aimco and Aimco Operating Partnership. Where it is important to distinguish between the two entities, we refer to them specifically. Otherwise, references to “we,” “us,” or “our” mean, collectively, Aimco, Aimco Operating Partnership, and their consolidated entities.
+We believe combining the periodic reports of Aimco and Aimco Operating Partnership into this single report provides the following benefits:
+•
+We present our business as a whole, in the same manner our management views and operates the business;
+•
+We eliminate duplicative disclosure and provide a more streamlined and readable presentation because a substantial portion of the disclosures apply to both Aimco and Aimco Operating Partnership; and
+•
+We save time and cost through the preparation of a single combined report rather than two separate reports.
+We operate Aimco and Aimco Operating Partnership as one enterprise; the management of Aimco directs the management and operations of Aimco Operating Partnership; and Aimco OP GP, LLC, Aimco Operating Partnership’s general partner, is managed by Aimco.
+We believe it is important to understand the few differences between Aimco and Aimco Operating Partnership in the context of how Aimco and Aimco Operating Partnership operate as a consolidated company. Aimco has no assets or liabilities other than its investment in Aimco Operating Partnership. Also, Aimco is a corporation that has issued publicly traded equity from time to time, whereas Aimco Operating Partnership is a partnership that has no publicly traded equity. Except for the net proceeds from stock offerings by Aimco, which are contributed to Aimco Operating Partnership in exchange for additional limited partnership interests (of a similar type and in an amount equal to the shares of stock sold in the offering), Aimco Operating Partnership generates all remaining capital required by its business. These sources include Aimco Operating Partnership’s working capital, net cash provided by operating activities, the issuance of debt and equity securities, including additional partnership units, and proceeds received from the sale of real estate.
+Prior to the adoption of the plan of sale and liquidation of Aimco and its subsidiaries (the “Plan of Sale and Liquidation”), equity, partners’ capital, and noncontrolling interests were the main areas of difference between the condensed consolidated financial statements of Aimco and those of Aimco Operating Partnership. Interests in Aimco Operating Partnership held by entities other than Aimco were classified within partners’ capital in Aimco Operating Partnership’s condensed consolidated financial statements and as noncontrolling interests in Aimco’s condensed consolidated financial statements.
+After the adoption of the Plan of Sale and Liquidation, the allocations of net assets in liquidation are the main areas of difference between the condensed consolidated financial statements of Aimco and those of Aimco Operating Partnership. Net assets in liquidation allocated to interests in Aimco Operating Partnership held by entities other than Aimco are classified within
+Net assets in liquidation
+in Aimco Operating Partnership’s condensed consolidated financial statements and classified within
+Net assets in liquidation attributable to noncontrolling interests in Aimco Operating Partnership
+in Aimco’s condensed consolidated financial statements.
+1
+To help investors understand the differences between Aimco and Aimco Operating Partnership, this report provides: separate condensed consolidated financial statements for Aimco and Aimco Operating Partnership; a single set of condensed consolidated notes to such financial statements that includes separate discussions of each entity’s stockholders’ equity or partners’ capital, and earnings per share or earnings per unit, as applicable; and a combined Management’s Discussion and Analysis of Financial Condition and Results of Operations section that includes discrete information related to each entity, where appropriate.
+This report also includes separate Part I, Item 4. Controls and Procedures sections and separate Exhibits 31 and 32 certifications for Aimco and Aimco Operating Partnership in order to establish that the requisite certifications have been made and that Aimco and Aimco Operating Partnership are both compliant with Rule 13a-15 or Rule 15d-15 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), and 18 U.S.C. §1350.
+2
+APARTMENT INVESTMENT AND MANAGEMENT COMPANY
+AIMCO OP L.P.
+TABLE OF
+CONTENTS
+FORM 10-Q
+Page
+PART I.     FINANCIAL INFORMATION
+ITEM 1.
+FINANCIAL STATEMENTS
+Apartment Investment and Management Company:
+Condensed Consolidated Statement of Net Assets (Liquidation Basis) (Unaudited)
+4
+Condensed Consolidated Balance Sheet (Going Concern Basis) (Unaudited)
+5
+Condensed Consolidated Statement of Changes in Net Assets (Liquidation Basis) (Unaudited)
+6
+Condensed Consolidated Statements of Operations (Going Concern Basis) (Unaudited)
+7
+Condensed Consolidated Statements of Equity (Going Concern Basis) (Unaudited)
+8
+Condensed Consolidated Statements of Cash Flows (Going Concern Basis) (Unaudited)
+9
+Aimco OP L.P.:
+Condensed Consolidated Statement of Net Assets (Liquidation Basis) (Unaudited)
+10
+Condensed Consolidated Balance Sheet (Going Concern Basis) (Unaudited)
+11
+Condensed Consolidated Statement of Changes in Net Assets (Liquidation Basis) (Unaudited)
+12
+Condensed Consolidated Statements of Operations (Going Concern Basis) (Unaudited)
+13
+Condensed Consolidated Statements of Partners’ Capital (Going Concern Basis) (Unaudited)
+14
+Condensed Consolidated Statements of Cash Flows (Going Concern Basis) (Unaudited)
+15
+Notes to Condensed Consolidated Financial Statements of Apartment Investment and Management Company and Aimco OP L.P. (Unaudited)
+16
+ITEM 2.
+MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS
+32
+ITEM 3.
+QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK
+38
+ITEM 4.
+CONTROLS AND PROCEDURES
+38
+PART II.     OTHER INFORMATION
+ITEM 1A.
+RISK FACTORS
+39
+ITEM 2.
+UNREGISTERED SALES OF EQUITY SECURITIES, USE OF PROCEEDS, AND ISSUER PURCHASES OF EQUITY SECURITIES
+39
+ITEM 6.
+EXHIBITS
+42
+Signatures
+43
+3
+Table of Contents
+PART I. FINANCI
+AL INFORMATION
+ITEM 1. FINANCIAL
+STATEMENTS
+APARTMENT INVESTMENT AND MANAGEMENT COMPANY
+CONDENSED CONSOLIDATED STATEMENT OF NET ASSETS
+(Liquidation Basis)
+(In thousands)
+(Unaudited)
+June 30, 2026
+ASSETS
+Real estate
+$
+1,055,463
+Cash, cash equivalents, and restricted cash
+78,728
+Notes receivable and other investments
+91,430
+Rents and other receivables
+13,961
+Total assets
+$
+1,239,582
+LIABILITIES
+Non-recourse property debt, construction loans, and bridge financing
+$
+430,139
+Lease liabilities - finance leases
+10,743
+Liabilities for noncontrolling interests in consolidated real estate partnerships
+55,282
+Liabilities for estimated costs in excess of estimated receipts during liquidation
+145,228
+Mezzanine investment - participation sold
+33,500
+Dividends payable
+3,841
+Accounts payable and accrued expenses
+46,231
+Total liabilities
+$
+724,964
+Commitments and contingencies (Note 6)
+Net assets in liquidation attributable to Aimco
+492,980
+Net assets in liquidation attributable to noncontrolling interests in Aimco Operating Partnership
+21,638
+Net assets in liquidation
+$
+514,618
+See notes to condensed consolidated financial statements.
+4
+Table of Contents
+APARTMENT INVESTMENT A
+ND MANAGEMENT COMPANY
+CONDENSED CONSOLIDA
+TED BALANCE SHEET
+(Going Concern Basis)
+(In thousands, except share data)
+(Unaudited)
+December 31, 2025
+ASSETS
+Buildings and improvements
+$
+744,941
+Land
+199,187
+Total real estate
+944,128
+Accumulated depreciation
+(
+111,585
+)
+Net real estate
+832,543
+Cash and cash equivalents
+394,891
+Restricted cash
+10,131
+Notes receivable
+103,863
+Right-of-use lease assets - finance leases
+106,438
+Other assets, net
+81,720
+Assets from discontinued operations and held for sale, net
+146,147
+Total assets
+$
+1,675,733
+LIABILITIES AND EQUITY
+Non-recourse property debt, net
+$
+58,180
+Non-recourse construction loans and bridge financing, net
+399,142
+Total indebtedness
+457,322
+Lease liabilities - finance leases
+124,794
+Dividends payable
+4,320
+Accrued liabilities and other
+136,459
+Liabilities related to discontinued operations and assets held for sale, net
+399,953
+Total liabilities
+1,122,848
+Redeemable noncontrolling interests in consolidated real estate partnerships
+158,292
+Commitments and contingencies (Note 6)
+Equity (
+510,587,500
+shares authorized at December 31, 2025):
+Common Stock, $
+0.01
+par value,
+140,158,784
+shares issued and outstanding at December 31, 2025
+1,402
+Additional paid-in capital
+429,144
+Retained earnings (deficit)
+(
+68,693
+)
+Total Aimco equity
+361,853
+Noncontrolling interests in consolidated real estate partnerships
+20,000
+Common noncontrolling interests in Aimco Operating Partnership
+12,740
+Total equity
+394,593
+Total liabilities and equity
+$
+1,675,733
+See notes to condensed consolidated financial statements.
+5
+Table of Contents
+APARTMENT INVESTMENT AND MANAGEMENT COMPANY
+CONDENSED CONSOLIDATED STATEMENT OF CHANGES IN NET ASSETS
+(Liquidation Basis)
+(In thousands)
+(Unaudited)
+For the Period from February 1, 2026, to June 30, 2026
+Attributable to Aimco
+Attributable to Noncontrolling Interests in Aimco Operating Partnership
+Total Net Assets in Liquidation
+Net assets in liquidation, beginning of period
+$
+879,596
+$
+41,616
+$
+921,212
+Changes in net assets in liquidation
+Remeasurement of estimated net realizable value of real estate
+72,926
+—
+72,926
+Remeasurement of estimated costs in excess of estimated receipts
+(
+71,383
+)
+—
+(
+71,383
+)
+Liquidating distributions to stockholders
+(
+393,690
+)
+—
+(
+393,690
+)
+Liquidating distributions to noncontrolling interests in Aimco Operating Partnership
+—
+(
+15,094
+)
+(
+15,094
+)
+Redemption of OP Units held by third parties and reallocation of noncontrolling interests in Aimco Operating Partnership
+4,884
+(
+4,884
+)
+—
+Exercise of stock options
+647
+—
+647
+Changes in net assets in liquidation
+(
+386,616
+)
+(
+19,978
+)
+(
+406,594
+)
+Net assets in liquidation, end of period
+$
+492,980
+$
+21,638
+$
+514,618
+See notes to condensed consolidated financial statements.
+6
+Table of Contents
+APARTMENT INVESTMENT AND MANAGEMENT COMPANY
+CONDENSED CONSOLIDATED S
+TATEMENTS OF OPERATIONS
+(Going Concern Basis)
+(In thousands, except per share data)
+(Unaudited)
+Month Ended
+January 31,
+Three Months Ended
+June 30,
+Six Months Ended
+June 30,
+2026
+2025
+2025
+REVENUES
+Rental and other property revenues
+$
+6,159
+$
+23,352
+$
+46,234
+OPERATING EXPENSES
+Property operating expenses
+4,132
+12,748
+25,886
+Depreciation and amortization
+3,272
+11,938
+23,993
+General and administrative expenses
+3,295
+7,798
+15,978
+Total operating expenses
+10,699
+32,484
+65,857
+Interest income
+2,247
+1,546
+3,631
+Interest expense
+(
+3,253
+)
+(
+12,196
+)
+(
+23,891
+)
+Realized and unrealized gains (losses) on interest rate contracts
+(
+8
+)
+(
+72
+)
+(
+333
+)
+Realized and unrealized gains (losses) on equity investments
+258
+(
+210
+)
+(
+607
+)
+Other income (expense), net
+(
+1,242
+)
+(
+72
+)
+(
+551
+)
+Income (loss) from continuing operations before income tax
+(
+6,538
+)
+(
+20,136
+)
+(
+41,374
+)
+Income tax benefit (expense)
+—
+(
+5,571
+)
+(
+5,486
+)
+Net income (loss) from continuing operations
+(
+6,538
+)
+(
+25,707
+)
+(
+46,860
+)
+Income (loss) from discontinued operations, net of taxes
+863
+8,731
+18,172
+Net income (loss)
+(
+5,675
+)
+(
+16,976
+)
+(
+28,688
+)
+Net (income) loss attributable to redeemable noncontrolling
+interests in consolidated real estate partnerships
+(
+2,243
+)
+(
+3,156
+)
+(
+5,829
+)
+Net (income) loss attributable to noncontrolling interests
+in consolidated real estate partnerships
+(
+96
+)
+(
+232
+)
+(
+528
+)
+Net (income) loss attributable to common noncontrolling
+interests in Aimco Operating Partnership
+271
+1,059
+1,824
+Net income (loss) attributable to Aimco
+$
+(
+7,743
+)
+$
+(
+19,305
+)
+$
+(
+33,221
+)
+Earnings (loss) per common share - basic
+Income (loss) from continuing operations attributable to Aimco per common share
+$
+(
+0.06
+)
+$
+(
+0.20
+)
+$
+(
+0.37
+)
+Income (loss) from discontinued operations attributable to Aimco per common share
+0.01
+0.06
+0.13
+Net income (loss) attributable to Aimco per common
+share – basic (Note 8)
+$
+(
+0.05
+)
+$
+(
+0.14
+)
+$
+(
+0.24
+)
+Earnings (loss) per common share - diluted
+Income (loss) from continuing operations attributable to Aimco per common share
+$
+(
+0.06
+)
+$
+(
+0.20
+)
+$
+(
+0.37
+)
+Income (loss) from discontinued operations attributable to Aimco per common share
+0.01
+0.06
+0.13
+Net income (loss) attributable to Aimco per common
+share – diluted (Note 8)
+$
+(
+0.05
+)
+$
+(
+0.14
+)
+$
+(
+0.24
+)
+Weighted-average common shares outstanding – basic
+140,446
+137,341
+137,123
+Weighted-average common shares outstanding – diluted
+140,446
+137,341
+137,123
+See notes to condensed consolidated financial statements.
+7
+Table of Contents
+APARTMENT INVESTMENT A
+ND MANAGEMENT COMPANY
+CONDENSED CONSOLIDATED STATEMENTS OF EQUITY
+For the Month Ended January 31, 2026 and the Three and Six Months Ended June 30, 2025
+(Going Concern Basis)
+(In thousands)
+(Unaudited)
+Common Stock
+Noncontrolling
+Interests in
+Common
+Noncontrolling
+Interests in
+Shares
+Issued
+Amount
+Additional
+Paid-
+in Capital
+Retained Earnings (Accumulated Deficit)
+Total Aimco
+Equity
+Consolidated
+Real Estate
+Partnerships
+Aimco
+Operating
+Partnership
+Total
+Equity
+Balances at December 31, 2025
+140,159
+$
+1,402
+$
+429,144
+$
+(
+68,693
+)
+$
+361,853
+$
+20,000
+$
+12,740
+$
+394,593
+Net income (loss)
+—
+—
+—
+(
+7,743
+)
+(
+7,743
+)
+96
+(
+271
+)
+(
+7,918
+)
+Share-based compensation expense
+—
+—
+596
+—
+596
+—
+—
+596
+Distributions to noncontrolling interests in consolidated real estate partnerships
+—
+—
+—
+—
+—
+(
+96
+)
+—
+(
+96
+)
+Other common stock issuances, net of withholding taxes
+671
+7
+1,653
+—
+1,660
+—
+—
+1,660
+Other, net
+—
+—
+(
+12
+)
+—
+(
+12
+)
+—
+(
+9
+)
+(
+21
+)
+Balances at January 31, 2026
+140,830
+$
+1,409
+$
+431,381
+$
+(
+76,436
+)
+$
+356,354
+$
+20,000
+$
+12,460
+$
+388,814
+Balances at March 31, 2025
+137,161
+$
+1,372
+$
+426,309
+$
+(
+317,195
+)
+$
+110,486
+$
+39,600
+$
+6,077
+$
+156,163
+Net income (loss)
+—
+—
+—
+(
+19,305
+)
+(
+19,305
+)
+232
+(
+1,059
+)
+(
+20,132
+)
+Share-based compensation expense
+—
+—
+1,584
+38
+1,622
+—
+—
+1,622
+Contributions from noncontrolling interests in consolidated real estate partnerships
+—
+—
+—
+—
+—
+177
+—
+177
+Distributions to noncontrolling interests in consolidated real estate partnerships
+—
+—
+—
+—
+—
+(
+344
+)
+—
+(
+344
+)
+Redemption of OP Units held by third parties and reallocation of noncontrolling interests in Aimco Operating Partnership
+—
+—
+(
+79
+)
+—
+(
+79
+)
+—
+9
+(
+70
+)
+Purchase of redeemable noncontrolling interests in consolidated real estate partnerships
+—
+—
+323
+—
+323
+—
+—
+323
+Other common stock issuances, net of withholding taxes
+216
+2
+(
+1,407
+)
+—
+(
+1,405
+)
+—
+—
+(
+1,405
+)
+Other, net
+—
+—
+—
+8
+8
+—
+—
+8
+Balances at June 30, 2025
+137,377
+$
+1,374
+$
+426,730
+$
+(
+336,454
+)
+$
+91,650
+$
+39,665
+$
+5,027
+$
+136,342
+Balances at December 31, 2024
+136,352
+$
+1,364
+$
+425,002
+$
+(
+303,409
+)
+$
+122,957
+$
+39,560
+$
+6,849
+$
+169,366
+Net income (loss)
+—
+—
+—
+(
+33,221
+)
+(
+33,221
+)
+528
+(
+1,824
+)
+(
+34,517
+)
+Share-based compensation expense
+—
+—
+2,806
+151
+2,957
+—
+2
+2,959
+Contributions from noncontrolling interests in consolidated real estate partnerships
+—
+—
+—
+—
+—
+351
+—
+351
+Distributions to noncontrolling interests in consolidated real estate partnerships
+—
+—
+—
+—
+—
+(
+774
+)
+—
+(
+774
+)
+Redemption of OP Units held by third parties and reallocation of noncontrolling interests in Aimco Operating Partnership
+—
+—
+(
+224
+)
+—
+(
+224
+)
+—
+48
+(
+176
+)
+Purchase of redeemable noncontrolling interests in consolidated real estate partnerships
+—
+—
+323
+—
+323
+—
+—
+323
+Common stock repurchased
+(
+29
+)
+—
+(
+256
+)
+—
+(
+256
+)
+—
+—
+(
+256
+)
+Other common stock issuances, net of withholding taxes
+1,054
+10
+(
+863
+)
+—
+(
+853
+)
+—
+—
+(
+853
+)
+Other, net
+—
+—
+(
+58
+)
+25
+(
+33
+)
+—
+(
+48
+)
+(
+81
+)
+Balances at June 30, 2025
+137,377
+$
+1,374
+$
+426,730
+$
+(
+336,454
+)
+$
+91,650
+$
+39,665
+$
+5,027
+$
+136,342
+See notes to condensed consolidated financial statements.
+8
+Table of Contents
+APARTMENT INVESTMENT AND MANAGEMENT COMPANY
+CONDENSED CONSOLIDATED S
+TATEMENTS OF CASH FLOWS
+(Going Concern Basis)
+(In thousands)
+(Unaudited
+)
+Month Ended
+January 31,
+Six Months Ended
+June 30,
+2026
+2025
+CASH FLOWS FROM OPERATING ACTIVITIES:
+Net income (loss)
+$
+(
+5,675
+)
+$
+(
+28,688
+)
+Adjustments to reconcile net income (loss) to net cash provided by (used in)
+operating activities:
+Depreciation and amortization
+3,272
+23,993
+Realized and unrealized (gains) losses on interest rate contracts
+8
+333
+Realized and unrealized (gains) losses on equity investments
+(
+258
+)
+607
+Income tax expense (benefit)
+—
+5,486
+Share-based compensation expense
+581
+2,542
+Loss (income) from unconsolidated real estate partnerships
+(
+148
+)
+(
+925
+)
+Other, including amortization of debt issuance costs
+450
+4,078
+Discontinued operations:
+Depreciation and amortization
+398
+8,791
+Other adjustments to income (loss) from discontinued operations
+24
+202
+Changes in operating assets and operating liabilities:
+Operating assets, net
+(
+1,788
+)
+(
+2,734
+)
+Operating liabilities, net
+(
+36,211
+)
+(
+191
+)
+Total adjustments
+(
+33,672
+)
+42,182
+Net cash provided by (used in) operating activities
+(
+39,347
+)
+13,494
+CASH FLOWS FROM INVESTING ACTIVITIES:
+Capital expenditures
+(1)
+(
+7,535
+)
+(
+45,617
+)
+Proceeds from repayment of seller financing receivable
+18,500
+—
+Other investing activities
+(
+532
+)
+(
+120
+)
+Net cash provided by (used in) investing activities
+10,433
+(
+45,737
+)
+CASH FLOWS FROM FINANCING ACTIVITIES:
+Proceeds from non-recourse construction loans and bridge financing
+4,920
+22,337
+Proceeds from revolving credit facility
+—
+42,800
+Principal repayments on non-recourse property debt
+—
+(
+1,629
+)
+Principal repayments on non-recourse construction loans
+—
+(
+42,081
+)
+Proceeds from interest rate contracts
+6
+1,116
+Purchase of interest rate contracts
+—
+(
+576
+)
+Common stock repurchased
+—
+(
+256
+)
+Payments related to withholding taxes for share-based compensation
+(
+192
+)
+(
+3,545
+)
+Dividends paid on common stock and distributions paid on OP Units
+(
+991
+)
+(
+88,213
+)
+Contributions from redeemable noncontrolling interests
+1,700
+6,911
+Distributions to redeemable noncontrolling interests
+(
+749
+)
+(
+4,067
+)
+Contributions from noncontrolling interests in consolidated real estate partnerships
+—
+351
+Distributions to noncontrolling interests in consolidated real estate partnerships
+(
+96
+)
+(
+774
+)
+Redemption of OP Units held by third parties
+—
+(
+176
+)
+Redemption of redeemable noncontrolling interests in consolidated real estate partnerships
+(
+52,182
+)
+—
+Purchase of redeemable noncontrolling interests in consolidated real estate partnerships
+—
+(
+5,096
+)
+Other financing activities
+1,844
+450
+Net cash used in financing activities
+(
+45,740
+)
+(
+72,448
+)
+NET DECREASE IN CASH, CASH EQUIVALENTS,
+AND RESTRICTED CASH
+(
+74,654
+)
+(
+104,691
+)
+CASH, CASH EQUIVALENTS, AND RESTRICTED CASH AT
+BEGINNING OF YEAR
+407,196
+172,956
+CASH, CASH EQUIVALENTS AND RESTRICTED CASH AT
+END OF PERIOD
+$
+332,542
+$
+68,265
+(1)
+Accrued capital expenditures were
+$
+14.9
+million and $
+15.0
+million as of
+January 31, 2026, and June 30, 2025
+, respectively.
+See notes to condensed consolidated financial statements.
+9
+Table of Contents
+AIMCO OP L.P.
+CONDENSED CONSOLIDATED STATEMENT OF NET ASSETS
+(Liquidation Basis)
+(In thousands)
+(Unaudited)
+June 30, 2026
+ASSETS
+Real estate
+$
+1,055,463
+Cash, cash equivalents, and restricted cash
+78,728
+Notes receivable and other investments
+91,430
+Rents and other receivables
+13,961
+Total assets
+$
+1,239,582
+LIABILITIES
+Non-recourse property debt, construction loans, and bridge financing
+$
+430,139
+Lease liabilities - finance leases
+10,743
+Liabilities for noncontrolling interests in consolidated real estate partnerships
+55,282
+Liabilities for estimated costs in excess of estimated receipts during liquidation
+145,228
+Mezzanine investment - participation sold
+33,500
+Dividends payable
+3,841
+Accounts payable and accrued expenses
+46,231
+Total liabilities
+$
+724,964
+Commitments and contingencies (Note 6)
+Net assets in liquidation
+$
+514,618
+See notes to condensed consolidated financial statements.
+10
+Table of Contents
+AIMCO OP L.P.
+CONDENSED CONSOLIDA
+TED BALANCE SHEET
+(Going Concern Basis)
+(In thousands, except unit data)
+(Unaudited)
+December 31, 2025
+ASSETS
+Buildings and improvements
+$
+744,941
+Land
+199,187
+Total real estate
+944,128
+Accumulated depreciation
+(
+111,585
+)
+Net real estate
+832,543
+Cash and cash equivalents
+394,891
+Restricted cash
+10,131
+Notes receivable
+103,863
+Right-of-use lease assets - finance leases
+106,438
+Other assets, net
+81,720
+Assets from discontinued operations and held for sale, net
+146,147
+Total assets
+$
+1,675,733
+LIABILITIES AND EQUITY
+Non-recourse property debt, net
+$
+58,180
+Non-recourse construction loans and bridge financing, net
+399,142
+Total indebtedness
+457,322
+Lease liabilities - finance leases
+124,794
+Dividends payable
+4,320
+Accrued liabilities and other
+136,459
+Liabilities related to discontinued operations and assets held for sale, net
+399,953
+Total liabilities
+1,122,848
+Redeemable noncontrolling interests in consolidated real estate partnerships
+158,292
+Commitments and contingencies (Note 6)
+Partners’ capital:
+General Partner and Special Limited Partner (
+140,158,784
+OP Units issued and outstanding at December 31, 2025)
+361,853
+Limited Partners (
+4,924,401
+OP Units issued and outstanding at December 31, 2025)
+12,740
+Partners’ capital attributable to Aimco Operating Partnership
+374,593
+Noncontrolling interests in consolidated real estate partnerships
+20,000
+Total partners’ capital
+394,593
+Total liabilities and partners’ capital
+$
+1,675,733
+See notes to condensed consolidated financial statements.
+11
+Table of Contents
+AIMCO OP L.P.
+CONDENSED CONSOLIDATED STATEMENT OF CHANGES IN NET ASSETS
+(Liquidation Basis)
+(In thousands)
+(Unaudited)
+For the Period from February 1, 2026, to June 30, 2026
+Net assets in liquidation attributable to Aimco Operating Partnership, beginning of period
+$
+921,212
+Changes in net assets in liquidation
+Remeasurement of estimated net realizable value of real estate
+72,926
+Remeasurement of estimated costs in excess of estimated receipts
+(
+71,383
+)
+Liquidating distributions to OP Unit holders
+(
+408,784
+)
+Exercise of stock options
+647
+Changes in net assets in liquidation
+(
+406,594
+)
+Net assets in liquidation attributable to Aimco Operating Partnership, end of period
+$
+514,618
+See notes to condensed consolidated financial statements.
+12
+Table of Contents
+AIMCO OP L.P.
+CONDENSED CONSOLIDATED S
+TATEMENTS OF OPERATIONS
+(Going Concern Basis)
+(In thousands, except per unit data)
+(Unaudited)
+Month Ended
+January 31,
+Three Months Ended
+June 30,
+Six Months Ended
+June 30,
+2026
+2025
+2025
+REVENUES
+Rental and other property revenues
+$
+6,159
+$
+23,352
+$
+46,234
+OPERATING EXPENSES
+Property operating expenses
+4,132
+12,748
+25,886
+Depreciation and amortization
+3,272
+11,938
+23,993
+General and administrative expenses
+3,295
+7,798
+15,978
+Total operating expenses
+10,699
+32,484
+65,857
+Interest income
+2,247
+1,546
+3,631
+Interest expense
+(
+3,253
+)
+(
+12,196
+)
+(
+23,891
+)
+Realized and unrealized gains (losses) on interest rate contracts
+(
+8
+)
+(
+72
+)
+(
+333
+)
+Realized and unrealized gains (losses) on equity investments
+258
+(
+210
+)
+(
+607
+)
+Other income (expense), net
+(
+1,242
+)
+(
+72
+)
+(
+551
+)
+Income (loss) from continuing operations before income tax
+(
+6,538
+)
+(
+20,136
+)
+(
+41,374
+)
+Income tax benefit (expense)
+—
+(
+5,571
+)
+(
+5,486
+)
+Net income (loss) from continuing operations
+(
+6,538
+)
+(
+25,707
+)
+(
+46,860
+)
+Income (loss) from discontinued operations, net of taxes
+863
+8,731
+18,172
+Net income (loss)
+(
+5,675
+)
+(
+16,976
+)
+(
+28,688
+)
+Net (income) loss attributable to redeemable noncontrolling
+interests in consolidated real estate partnerships
+(
+2,243
+)
+(
+3,156
+)
+(
+5,829
+)
+Net (income) loss attributable to noncontrolling interests
+in consolidated real estate partnerships
+(
+96
+)
+(
+232
+)
+(
+528
+)
+Net income (loss) attributable to Aimco Operating
+Partnership
+$
+(
+8,014
+)
+$
+(
+20,364
+)
+$
+(
+35,045
+)
+Earnings (loss) per common unit - basic
+Income (loss) from continuing operations attributable to Aimco Operating Partnership per common unit
+$
+(
+0.06
+)
+$
+(
+0.20
+)
+$
+(
+0.37
+)
+Income (loss) from discontinued operations attributable to Aimco Operating Partnership per common unit
+0.01
+0.06
+0.13
+Net income (loss) attributable to Aimco Operating Partnership per common
+unit – basic (Note 8)
+$
+(
+0.05
+)
+$
+(
+0.14
+)
+$
+(
+0.24
+)
+Earnings (loss) per common unit - diluted
+Income (loss) from continuing operations attributable to Aimco Operating Partnership per common unit
+$
+(
+0.06
+)
+$
+(
+0.20
+)
+$
+(
+0.37
+)
+Income (loss) from discontinued operations attributable to Aimco Operating Partnership per common unit
+0.01
+0.06
+0.13
+Net income (loss) attributable to Aimco Operating Partnership per common
+unit – diluted (Note 8)
+$
+(
+0.05
+)
+$
+(
+0.14
+)
+$
+(
+0.24
+)
+Weighted-average common units outstanding – basic
+145,370
+144,883
+144,671
+Weighted-average common units outstanding – diluted
+145,370
+144,883
+144,671
+See notes to condensed consolidated financial statements.
+13
+Table of Contents
+AIMCO OP L.P.
+CONDENSED CONSOLIDATED S
+TATEMENTS OF PARTNERS’ CAPITAL
+For the Month Ended January 31, 2026 and the Three and Six Months Ended June 30, 2025
+(Going Concern Basis)
+(In thousands)
+(Unaudited)
+General Partner
+and Special
+Limited Partner
+Limited
+Partners
+Partners’ Capital
+Attributable to
+Aimco Operating
+Partnership
+Noncontrolling
+Interests
+in Consolidated Real
+Estate Partnerships
+Total
+Partners’
+Capital
+Balances at December 31, 2025
+$
+361,853
+$
+12,740
+$
+374,593
+$
+20,000
+$
+394,593
+Net income (loss)
+(
+7,743
+)
+(
+271
+)
+(
+8,014
+)
+96
+(
+7,918
+)
+Share-based compensation expense
+596
+—
+596
+—
+596
+Distributions to noncontrolling interests in consolidated real estate partnerships
+—
+—
+—
+(
+96
+)
+(
+96
+)
+Other OP Unit issuances
+1,660
+—
+1,660
+—
+1,660
+Other, net
+(
+12
+)
+(
+9
+)
+(
+21
+)
+—
+(
+21
+)
+Balances at January 31, 2026
+$
+356,354
+$
+12,460
+$
+368,814
+$
+20,000
+$
+388,814
+Balances at March 31, 2025
+$
+110,486
+$
+6,077
+$
+116,563
+$
+39,600
+$
+156,163
+Net income (loss)
+(
+19,305
+)
+(
+1,059
+)
+(
+20,364
+)
+232
+(
+20,132
+)
+Share-based compensation expense
+1,622
+—
+1,622
+—
+1,622
+Contributions from noncontrolling interests in consolidated real estate partnerships
+—
+—
+—
+177
+177
+Distributions to noncontrolling interests in consolidated real estate partnerships
+—
+—
+—
+(
+344
+)
+(
+344
+)
+Redemption of OP Units held by third parties and reallocation of limited partners' interests in Aimco Operating Partnership
+(
+79
+)
+9
+(
+70
+)
+—
+(
+70
+)
+Purchase of redeemable noncontrolling interests in consolidated real estate partnerships
+323
+—
+323
+—
+323
+Other OP Unit issuances
+(
+1,405
+)
+—
+(
+1,405
+)
+—
+(
+1,405
+)
+Other, net
+8
+—
+8
+—
+8
+Balances at June 30, 2025
+$
+91,650
+$
+5,027
+$
+96,677
+$
+39,665
+$
+136,342
+Balances at December 31, 2024
+$
+122,957
+$
+6,849
+$
+129,806
+$
+39,560
+$
+169,366
+Net income (loss)
+(
+33,221
+)
+(
+1,824
+)
+(
+35,045
+)
+528
+(
+34,517
+)
+Share-based compensation expense
+2,957
+2
+2,959
+—
+2,959
+Contributions from noncontrolling interests in consolidated real estate partnerships
+—
+—
+—
+351
+351
+Distributions to noncontrolling interests in consolidated real estate partnerships
+—
+—
+—
+(
+774
+)
+(
+774
+)
+Redemption of OP Units held by third parties and reallocation of limited partners' interests in Aimco Operating Partnership
+(
+224
+)
+48
+(
+176
+)
+—
+(
+176
+)
+Purchase of redeemable noncontrolling interests in consolidated real estate partnerships
+323
+—
+323
+—
+323
+Redemption of OP Units held by Aimco
+(
+256
+)
+—
+(
+256
+)
+—
+(
+256
+)
+Other OP Unit issuances
+(
+853
+)
+—
+(
+853
+)
+—
+(
+853
+)
+Other, net
+(
+33
+)
+(
+48
+)
+(
+81
+)
+—
+(
+81
+)
+Balances at June 30, 2025
+$
+91,650
+$
+5,027
+$
+96,677
+$
+39,665
+$
+136,342
+See notes to condensed consolidated financial statements.
+14
+Table of Contents
+AIMCO OP L.P.
+CONDENSED CONSOLIDATED S
+TATEMENTS OF CASH FLOWS
+(Going Concern Basis)
+(In thousands)
+(Unaudited)
+Month Ended
+January 31,
+Six Months Ended
+June 30,
+2026
+2025
+CASH FLOWS FROM OPERATING ACTIVITIES:
+Net income (loss)
+$
+(
+5,675
+)
+$
+(
+28,688
+)
+Adjustments to reconcile net income (loss) to net cash provided by (used in)
+operating activities:
+Depreciation and amortization
+3,272
+23,993
+Realized and unrealized (gains) losses on interest rate contracts
+8
+333
+Realized and unrealized (gains) losses on equity investments
+(
+258
+)
+607
+Income tax expense (benefit)
+—
+5,486
+Share-based compensation expense
+581
+2,542
+Loss (income) from unconsolidated real estate partnerships
+(
+148
+)
+(
+925
+)
+Other, including amortization of debt issuance costs
+450
+4,078
+Discontinued operations:
+Depreciation and amortization
+398
+8,791
+Other adjustments to income (loss) from discontinued operations
+24
+202
+Changes in operating assets and operating liabilities:
+Operating assets, net
+(
+1,788
+)
+(
+2,734
+)
+Operating liabilities, net
+(
+36,211
+)
+(
+191
+)
+Total adjustments
+(
+33,672
+)
+42,182
+Net cash provided by (used in) operating activities
+(
+39,347
+)
+13,494
+CASH FLOWS FROM INVESTING ACTIVITIES:
+Capital expenditures
+(1)
+(
+7,535
+)
+(
+45,617
+)
+Proceeds from repayment of seller financing receivable
+18,500
+—
+Other investing activities
+(
+532
+)
+(
+120
+)
+Net cash provided by (used in) investing activities
+10,433
+(
+45,737
+)
+CASH FLOWS FROM FINANCING ACTIVITIES:
+Proceeds from non-recourse construction loans and bridge financing
+4,920
+22,337
+Proceeds from revolving credit facility
+—
+42,800
+Principal repayments on non-recourse property debt
+—
+(
+1,629
+)
+Principal repayments on non-recourse construction loans
+—
+(
+42,081
+)
+Proceeds from interest rate contracts
+6
+1,116
+Purchase of interest rate contracts
+—
+(
+576
+)
+Common stock repurchased
+—
+(
+256
+)
+Payments related to withholding taxes for share-based compensation
+(
+192
+)
+(
+3,545
+)
+Dividends paid on common stock and distributions paid on OP Units
+(
+991
+)
+(
+88,213
+)
+Contributions from redeemable noncontrolling interests
+1,700
+6,911
+Distributions to redeemable noncontrolling interests
+(
+749
+)
+(
+4,067
+)
+Contributions from noncontrolling interests in consolidated real estate partnerships
+—
+351
+Distributions to noncontrolling interests in consolidated real estate partnerships
+(
+96
+)
+(
+774
+)
+Redemption of OP Units held by third parties
+—
+(
+176
+)
+Redemption of redeemable noncontrolling interests in consolidated real estate partnerships
+(
+52,182
+)
+—
+Purchase of redeemable noncontrolling interests in consolidated real estate partnerships
+—
+(
+5,096
+)
+Other financing activities
+1,844
+450
+Net cash used in financing activities
+(
+45,740
+)
+(
+72,448
+)
+NET DECREASE IN CASH, CASH EQUIVALENTS,
+AND RESTRICTED CASH
+(
+74,654
+)
+(
+104,691
+)
+CASH, CASH EQUIVALENTS, AND RESTRICTED CASH AT
+BEGINNING OF YEAR
+407,196
+172,956
+CASH, CASH EQUIVALENTS AND RESTRICTED CASH AT
+END OF PERIOD
+$
+332,542
+$
+68,265
+(1)
+Accrued capital expenditures were
+$
+14.9
+million and $
+15.0
+million as of
+January 31, 2026, and June 30, 2025
+, respectively.
+See notes to condensed consolidated financial statements.
+15
+Table of Contents
+APARTMENT INVESTMENT AND MANAGEMENT COMPANY
+AIMCO OP L.P.
+NOTES TO CONDENSED CONSOLID
+ATED FINANCIAL STATEMENTS
+June 30, 2026
+(Unaudited)
+Note 1 — Organization
+Apartment Investment and Management Company (“Aimco” or “the Company”), a Maryland corporation, is a self-administered and self-managed real estate investment trust (“REIT”). On December 15, 2020, Aimco completed the separation of its businesses (the “Separation”), creating two, separate and distinct, publicly traded companies, Aimco and Apartment Income REIT Corp. (“AIR”) (Aimco and AIR together, as they existed prior to the Separation, “Aimco Predecessor”). Events noted in this filing as occurring before December 15, 2020, were those entered into by Aimco Predecessor.
+Aimco, through a wholly owned subsidiary, is the general partner and is, directly, the special limited partner of Aimco OP L.P. (“Aimco Operating Partnership”). As of June 30, 2026, Aimco owned
+95.1
+%
+of the legal interest in the common partnership units of Aimco Operating Partnership and
+95.8
+%
+of the dilutive economic interest in Aimco Operating Partnership. The remaining
+4.9
+%
+legal interest is owned by limited partners. As the sole general partner of Aimco Operating Partnership, Aimco has exclusive control of Aimco Operating Partnership’s day-to-day management.
+This filing combines the quarterly reports on Form 10-Q for the quarterly period ended June 30, 2026, of Aimco and Aimco Operating Partnership. Where it is important to distinguish between the two entities, each is referred to specifically. Otherwise, references to “we,” “us,” or “our” mean, collectively, Aimco, Aimco Operating Partnership, and their consolidated entities.
+We own or lease a portfolio of real estate investments focused primarily on the U.S. multifamily sector. At June 30, 2026, our portfolio includes two consolidated stabilized operating properties, two completed development properties in lease-up, a completed single family rental community, a waterfront ground-up development under construction, and undeveloped land parcels. In addition, we hold seller financing notes receivable related to the December 2025 sale of the Brickell Assemblage and other alternative investments, including our Mezzanine Investment, our investment in IQHQ Holdings, LP (“IQHQ”), and our investment in real estate technology funds. See
+Note 3
+for further information regarding our Mezzanine Investment and our investment in IQHQ.
+On November 10, 2025, our Board of Directors (the “Board”) determined advisable and approved a Plan of Sale and Liquidation, subject to stockholder approval. The Plan of Sale and Liquidation provides for the Company’s complete liquidation and dissolution in accordance with Section 331, Section 336 and Section 346(a) of the Internal Revenue Code of 1986 (the “Code”), as amended, and the Maryland General Corporation Law (“MGCL”).
+On February 6, 2026, holders of Common Shares representing approximately
+83
+% of the outstanding Common Shares voted in favor of the adoption of the Plan of Sale and Liquidation. As a result, the Plan of Sale and Liquidation was adopted.
+Note 2 — Plan of Sale and Liquidation
+In accordance with the Plan of Sale and Liquidation, our objectives are to pursue an orderly liquidation by selling or otherwise disposing of our remaining assets, paying or otherwise settling our debts and our known liabilities, providing for the payment of unknown or contingent liabilities, when appropriate and in the Board’s discretion, distributing the net proceeds from liquidation to our stockholders, subject to the creation of necessary reserves for, and the payment or other satisfaction of, expenses and other liabilities and obligations, and winding up our operations and dissolving our Company. The Company is aiming to complete the sales of the remaining assets of the Company and its subsidiaries within 24 months after February 6, 2026, the stockholder approval of the Plan of Sale and Liquidation. There can be no assurance that the Plan of Sale and Liquidation will result in any transaction or that the Plan of Sale and Liquidation will be completed
+. In connection with the Plan of Sale and Liquidation, we paid special liquidating distributions of $
+2.75
+per share including $
+1.45
+per share on March 13, 2026, to shareholders of record at the close of business on February 27, 2026, and $
+1.30
+per share on June 3, 2026, to shareholders of record at the close of business on May 15, 2026.
+The Plan of Sale and Liquidation enables us to sell any and all of our assets without further approval of Aimco's stockholders and provides that the amounts and timing of liquidating distributions will be determined by the Board in its discretion. Pursuant to applicable REIT rules, liquidating distributions we pay pursuant to the Plan of Sale and Liquidation will qualify for the
+16
+Table of Contents
+dividends paid deduction, provided that they are paid within 24 months of the approval of the Plan of Sale and Liquidation by Aimco's stockholders. However, if we have not sold all of our assets and paid all of our liabilities within such time period, or if the Board otherwise determines that it is advantageous to do so earlier, we may transfer our remaining assets and liabilities to a liquidating trust or other liquidating entity.
+The liquidating trust or other liquidating entity would pay or provide for our liabilities and distribute any remaining net proceeds from liquidation to the holders of beneficial interests in the liquidating trust or other liquidating entity. If we are not able to sell our properties and pay our debt within the 24-month period and the remaining assets are not transferred to a liquidating trust or other liquidating entity, any distributions made during the 24 months may not qualify for the dividends paid deduction and may increase our tax liability.
+No assurance can be given that any liquidating distributions the Company pays to its shareholders will equal or exceed the estimate of net assets in liquidation presented on the
+Condensed Consolidated Statement of Net Assets
+as of June 30, 2026
+. For a discussion of risks related to the Plan of Sale and Liquidation, refer to the section entitled “Risk Factors” described in Item 1A of Aimco’s and Aimco Operating Partnership’s combined Annual Report on Form 10-K for the year ended December 31, 2025. We expect to comply with the requirements necessary to continue to qualify as a REIT through the completion of the liquidation process, or until such time as Aimco terminates its status as a REIT and/or any remaining assets are transferred into a liquidating trust or other liquidating entity. The Board shall use commercially reasonable efforts to continue to cause Aimco to maintain its REIT status; provided, however, that the Board may elect to terminate Aimco’s status as a REIT if it determines that such termination would be in the best interest of the stockholders.
+Note 3 — Basis of Prese
+ntation and Summary of Significant Accounting Policies
+Basis of presentation
+The accompanying unaudited condensed consolidated financial statements have been prepared in accordance with the instructions to Form 10-Q and Article 10 of Regulation S-X. Certain information and footnote disclosures normally included in financial statements prepared in accordance with generally accepted accounting principles in the U.S. (“GAAP”) have been condensed or omitted in accordance with such rules and regulations, although management believes the disclosures are adequate to prevent the information presented from being misleading. In the opinion of management, all adjustments, consisting of normal recurring items, considered necessary for a fair presentation have been included.
+The accompanying condensed consolidated financial statements include the accounts of Aimco, Aimco Operating Partnership, and their consolidated entities. Aimco Operating Partnership’s condensed consolidated financial statements include the accounts of Aimco Operating Partnership and its consolidated entities. All significant intercompany balances and transactions have been eliminated in consolidation.
+As used herein, and except where the context otherwise requires, “partnership” refers to a limited partnership or a limited liability company and “partner” refers to a partner in a limited partnership or a member of a limited liability company.
+Going Concern Basis
+The
+Condensed Consolidated Balance Sheet
+of Aimco and Aimco Operating Partnership as of December 31, 2025 have been derived from their respective audited financial statements at that date, but do not include all of the information and disclosures required by GAAP for complete financial statements. For further information, refer to the financial statements and notes thereto included in Aimco’s and Aimco Operating Partnership’s combined Annual Report on Form 10-K for the year ended December 31, 2025. Except where indicated, the footnotes refer to both Aimco and Aimco Operating Partnership.
+We no longer present a condensed consolidated balance sheet, a condensed consolidated statement of operations, a condensed consolidated statement of equity, or a condensed consolidated statement of cash flows subsequent to January 31, 2026. All financial results and disclosure through January 31, 2026, prior to the adoption of the liquidation basis of accounting, are presented on a going concern basis. As a result, the
+Condensed Consolidated Balance Sheet
+as of December 31, 2025, as well as the
+Condensed Consolidated Statements of Operations
+, the
+Condensed Consolidated Statements of Equity (Partners Capital)
+and the
+Condensed Consolidated Statements of Cash Flow
+for the month ended January 31, 2026, and the periods ended June 30, 2025, are presented using the going concern basis of accounting.
+Liquidation Basis
+We have prepared the accompanying unaudited condensed consolidated financial statements as of June 30, 2026 and for the period from February 1, 2026 to June 30, 2026, in accordance with GAAP, as contained within the Accounting Standards Codification (“ASC”), including Subtopic 205-30, “
+Liquidation Basis of Accounting
+,” as indicated, and pursuant to the rules and regulations of the Securities and Exchange Commission.
+17
+Table of Contents
+We determined that liquidation became imminent as defined in ASC 205-30, “
+Liquidation Basis of Accounting,
+” based on the results of the Company's solicitation of proxies from its shareholders for their approval of the Plan of Sale and Liquidation. Although shareholder approval of the Plan occurred on February 6, 2026, we adopted the liquidation basis of accounting as of and for the periods subsequent to February 1, 2026. Any activity between February 1, 2026, and February 6, 2026, would not be materially different under the liquidation basis of accounting. Accordingly, on February 1, 2026, assets were adjusted to their estimated net realizable value, also referred to as liquidation value, which represents the estimated amount of cash or other consideration that we expect to collect through the disposal of assets. The liquidation values of our remaining assets are presented on an undiscounted basis. Liabilities are generally carried at their contractual amounts due or estimated settlement amounts.
+We accrue costs and income that we expect to incur and earn as we carry out our liquidation activities through the end of the projected liquidation period to the extent we have a reasonable basis for estimation. These amounts are classified within
+Liabilities for estimated costs in excess of estimated receipts during liquidation
+on the
+Condensed Consolidated Statement of Net Assets
+. The valuation of these amounts represent estimates based on present facts and circumstances of the net realizable value of the costs and income associated with carrying out the Plan of Sale and Liquidation. Actual costs and income may differ from amounts reflected in the financial statements because of the inherent uncertainty in estimating future events. These differences may be material. See
+Note 4
+for further discussion.
+Actual costs incurred but unpaid are included in
+Accounts payable and accrued expenses
+at June 30, 2026, on the
+Condensed Consolidated Statement of Net Assets
+. All our liabilities, under either the going concern basis of accounting or the liquidation basis of accounting, are derecognized when we pay the obligation or when we are legally released from being the primary obligor under the liability.
+Net assets in liquidation at June 30, 2026
+, represents the remaining estimated liquidation value available to stockholders upon liquidation. Due to the uncertainty in the estimated cash flows from operations and the time required to complete the Plan of Sale and Liquidation, actual liquidation costs and sale proceeds may differ materially from the amounts estimated.
+Principles of consolidation
+We account for joint ventures and other similar entities in which we hold an ownership interest in accordance with the consolidation guidance. We first evaluate whether each entity is a variable interest entity (“VIE”). Under the VIE model, we consolidate an entity in which we are considered the primary beneficiary. The primary beneficiary is the entity that has (i) the power to direct the activities that most significantly impact the entity’s economic performance and (ii) the obligation to absorb losses of the VIE or the right to receive benefits from the VIE that could be significant to the VIE. Significant judgments and assumptions related to these determinations include, but are not limited to, estimates about the current and future fair values and performance of real estate held by these VIEs and general market conditions. In addition, when an entity is not a VIE, we consolidate under the voting model when we control an entity through ownership of a majority voting interest.
+Aimco consolidates Aimco Operating Partnership, a VIE of which Aimco is the primary beneficiary. Through Aimco Operating Partnership, Aimco consolidates all VIEs for which we are the primary beneficiary. Substantially all of our assets and liabilities are those of Aimco Operating Partnership.
+Aimco Operating Partnership is the primary beneficiary of, and therefore consolidates, three VIEs that own interests in real estate. Assets of our consolidated VIEs must first be used to settle the liabilities of those VIEs. The consolidated VIEs' creditors do not have recourse to the general credit of Aimco Operating Partnership.
+In addition, we have three unconsolidated VIEs for which we are not the primary beneficiary because we are not their primary decision maker. The three unconsolidated VIEs include the Mezzanine Investment, our passive equity investment in IQHQ, and an unconsolidated investment in land held for development in Bethesda, Maryland. Our maximum exposure to loss, because of our involvement with the unconsolidated VIEs, is limited to the carrying value of their assets.
+During the three months ended June 30, 2026, we sold
+four
+unconsolidated real estate partnerships that hold
+four
+apartment communities in San Diego, California, with our share of the net proceeds totaling $
+41.9
+million, net of transaction costs of $
+0.9
+million.
+18
+Table of Contents
+Real Estate
+Liquidation Basis
+Upon adoption of the liquidation basis of accounting, our investments in real estate were adjusted to their estimated net realizable value. The liquidation value represents the estimated amount of cash that we expect to receive through the disposal of our assets as we carry out the Plan of Sale and Liquidation. We estimated the liquidation value of our real estate investments generally based on either contractual purchase prices or offers received on the properties or, if no contracts or offers had been received yet, on management’s estimate of a property’s liquidation value, taking into account information obtained during the marketing and sale process for the properties, including broker opinions of value, initial market feedback, and market comparables. The liquidation values of our investments in real estate are presented on an undiscounted basis and investments in real estate are no longer depreciated. Subsequent to February 1, 2026, all changes in the estimated liquidation value of the investments in real estate are reflected as a change to our net assets in liquidation.
+Subsequent to February 1, 2026, the estimated liquidation value of our investments in real estate increased by
+$
+72.9
+million, primarily due to the increase in the liquidation value of our one multifamily development project under construction in Miami, Florida. The increase in the estimated liquidation value of our investments in real estate is largely offset by the increase in estimated costs in excess of estimated receipts of $
+71.4
+million, primarily driven by the inclusion of costs through completion of the multifamily development project, resulting in a combined impact on net assets in liquidation of $
+1.5
+million. Refer to
+Note 4
+for additional information regarding the liabilities for costs in excess of estimated receipts during liquidation.
+During the three months ended June 30, 2026
+, we sold
+three
+consolidated properties in New York City and
+one
+consolidated property in Atlanta, Georgia, for a combined sales price of $
+79.4
+million.
+Non-recourse property debt, construction loans, and bridge financing
+Liquidation Basis
+Our non-recourse property debt, construction loans, and bridge financing are recognized at the estimated amount we expect to pay in cash, excluding future accrued interest and principal drawdown amounts, which are recognized within
+Liabilities for estimated costs in excess of estimated receipts during liquidation
+in our
+Condensed Consolidated Statement of Net Assets.
+Debt issuance costs were written off as a result of the adoption of the liquidation basis of accounting.
+As of June 30, 2026, we have non-recourse property debt of
+$
+18.5
+million and non-recourse construction loans and bridge financing of
+$
+411.6
+million presented within
+Non-recourse property debt, construction loans, and bridge financing
+in our
+Condensed Consolidated Statement of Net Assets
+.
+Common noncontrolling interests in Aimco Operating Partnership
+Liquidation Basis
+Common noncontrolling interests in Aimco Operating Partnership consist of OP Units held by third parties and are reflected in Aimco's accompanying
+Condensed Consolidated Statement of Net Assets
+as
+Net assets attributable to noncontrolling interests in Aimco Operating Partnership
+. The net assets in liquidation is allocated to the holders of OP Units, other than Aimco, based on the number of OP Units (including OP Units held by Aimco) outstanding at the end of the period. As of June 30, 2026, the holders of OP Units had a dilutive economic ownership interest in Aimco Operating Partnership of approximately
+4.2
+%
+.
+Going Concern Basis
+Common noncontrolling interests in Aimco Operating Partnership are reflected in Aimco’s accompanying
+Condensed Consolidated Balance Sheet
+as
+Common noncontrolling interests in Aimco Operating Partnership
+. Aimco Operating Partnership’s income or loss is allocated to the holders of OP Units, other than Aimco, based on the weighted-average number of OP Units (including OP Units held by Aimco) outstanding during the period. For the periods ended January 31, 2026, and June 30, 2025, the holders of OP Units had a weighted-average economic ownership interest in Aimco Operating Partnership of approximately
+3.4
+%
+, and
+5.2
+%, respectively. Substantially all of the assets and liabilities of Aimco are held by Aimco Operating Partnership.
+Redeemable noncontrolling interests in consolidated real estate partnerships
+Redeemable noncontrolling interests consist of equity interests held by a limited partner in a consolidated real estate partnership that generally, after a specified holding period, has the right to require such partnership to redeem all or a portion of the noncontrolling interest in accordance with the partnership agreement. The assets of our consolidated real estate partnerships
+19
+Table of Contents
+must first be used to settle the liabilities of the consolidated real estate partnerships. The consolidated real estate partnership’s creditors do not have recourse to the general credit of Aimco Operating Partnership.
+As of June 30, 2026, redeemable noncontrolling interests in consolidated real estate partnerships consists of the
+preferred equity interest accruing
+14.5
+% preferred return per annum in an entity that owns a waterfront ground-up development
+. The preferred equity contributions received and the accrued preferred return through June 30, 2026 are included within
+Liabilities for noncontrolling interests in consolidated real estate partnerships
+in Aimco's
+Condensed Consolidated Statement of Net Assets.
+The preferred return expected to accrue in future periods through the estimated sale date of our interest in the development is included within
+Liabilities for estimated costs in excess of estimated receipts during liquidation
+in our
+Condensed Consolidated Statement of Net Assets.
+Noncontrolling interests in consolidated real estate partnerships
+As of June 30, 2026
+, noncontrolling interests in consolidated real estate partnerships consists of the $
+20.0
+million third-party equity interest in a consolidated entity that holds a limited partner interest in a subsidiary that holds our Upton Place property. As of
+June 30, 2026, the third-party equity interest is presented in
+Liabilities for noncontrolling interests in consolidated real estate partnerships
+in our
+Condensed Consolidated Statement of Net Assets.
+The third-party equity interest earns approximately $
+1.2
+million annually, distributed monthly.
+The distributions expected to occur in future periods through the estimated sale date of the property are included in
+Liabilities for estimated costs in excess of estimated receipts during liquidation
+in our
+Condensed Consolidated Statement of Net Assets.
+Mezzanine Investment
+In November 2019, Aimco Predecessor made a
+five-year
+, $
+275.0
+million mezzanine loan to the partnership owning the “Parkmerced Apartments” located in southwest San Francisco (the “Mezzanine Investment”). The loan bears interest at a
+10
+% annual rate, accruing if not paid from property operations. While legal ownership of the subsidiaries that originated and hold the Mezzanine Investment was retained by AIR following the Separation, AIR is obligated to pass payments received on the Mezzanine Investment to us, and we are obligated to indemnify AIR against any costs and expenses related thereto. We have the risks and rewards of ownership of the Mezzanine Investment.
+In June 2023, we closed on the sale of a
+20
+% non-controlling participation in the Mezzanine Investment for $
+33.5
+million. The partial
+sale and transfer of the financial interest did not qualify for sale accounting and therefore, we recorded the cash received from the purchaser as a liability, which is included in
+Accrued liabilities and other
+in our
+Condensed Consolidated Balance Sheet
+as of December 31, 2025 and
+Mezzanine investment - participation sold
+in our
+Condensed Consolidated Statement of Net Assets
+as of June 30, 2026
+. Although the cash received is accounted for as a liability, no amount is due to the purchaser until after we receive $
+134.0
+million plus an annualized return. While the Mezzanine Investment had not been repaid and was in maturity default as of
+June 30, 2026, we are precluded from derecognizing the liability under both the liquidation basis and going concern basis of accounting
+until it has been deemed to be extinguished in accordance with GAAP.
+Income tax
+Liquidation Basis
+Certain aspects of our operations are conducted through taxable REIT subsidiaries, or “TRS entities”. Additionally, our TRS entities hold an investment in Oak Shore.
+Income taxes we expect to incur during the execution of the Plan of Sale and Liquidation are included in
+Liabilities for estimated costs in excess of estimated receipts during liquidation
+in our
+Condensed Consolidated Statement of Net Assets.
+Use of estimates
+The preparation of our condensed consolidated financial statements in conformity with GAAP requires management to make estimates and assumptions that affect the reported amounts included in the financial statements and accompanying notes thereto. Actual results could differ from those estimates.
+Assets held for sale and discontinued operations
+Going Concern Basis
+We classify properties as held for sale when they meet the GAAP criteria, which include (among others): (a) management commits to and initiates a plan to sell the asset; (b) the sale is probable and expected to be completed within one year under terms that are usual and customary for sales of such assets; and (c) actions required to complete the plan indicate that it is unlikely that
+20
+Table of Contents
+significant changes to the plan will be made or that the plan will be withdrawn, which is typically indicated by receipt of a significant, non-refundable deposit from the buyer pursuant to a sales contract. We present the assets and liabilities of any properties held for sale separately in the
+Condensed Consolidated Balance Sheet
+as of December 31, 2025. Properties held for sale are measured at the lower of the carrying amount or the fair value less the cost to sell. Upon the classification of an asset as held for sale, no further depreciation is recorded.
+In connection with the held for sale evaluation, if the disposal or intended disposal represents a strategic shift in operations (e.g., a disposal of a major geographic area or a major line of business) that has, or will have, a major effect on our consolidated financial statements, then the property is presented as discontinued operations. For any property qualifying for classification as  discontinued operations, the components of net income (loss) presented as discontinued operations are primarily comprised of rental and other property revenues, property operating expenses, depreciation and amortization, and interest expense. We reclassify interest expense related to property debt within discontinued operations when the related property is sold or classified as held for sale. For periods prior to the property qualifying for discontinued operations, we reclassify the results of operations to discontinued operations. The net gain on sale is presented in discontinued operations when recognized. We combine the operating, investing, and financing portions of cash flows attributable to discontinued operations with respective cash flows from continuing operations in the accompanying
+Condensed Consolidated Statements of Cash Flows
+. See
+Note 10
+for additional information regarding assets held for sale and discontinued operations. Unless otherwise noted or separately presented, the information disclosed in
+Note 6
+through
+Note 11
+(with the exception of
+Note 10
+) refer only to our continuing operations and do not include discussion of balances or activity related to the properties presented withi
+n discontinued operations.
+Cash equivalents
+We classify highly liquid investments with an original maturity of three months or less as cash equivalents. We maintain cash and cash equivalents in financial institutions in excess of insured limits. We have not experienced any losses in these accounts in the past and believe that we are not exposed to significant credit risk because our accounts are deposited with major financial institutions.
+Restricted cash
+Restricted cash consists of tenant security deposits, cash restricted as required by our debt agreements, and cash restricted in association with legal, municipal, federal, or tax requirements. As of June 30, 2026, we had
+$
+69.8
+million of cash and cash equivalents and
+$
+8.9
+million of restricted cash included within
+Cash, cash equivalents, and restricted cash
+in our
+Condensed Consolidated Statement of Net Assets.
+The reconciliation of cash flow information is as follows (
+in thousands
+):
+January 31, 2026
+December 31, 2025
+Cash and cash equivalents
+$
+320,360
+$
+394,891
+Restricted cash
+9,611
+10,131
+Restricted cash from discontinued operations and held for sale
+2,571
+2,174
+Cash, cash equivalents, and restricted cash
+$
+332,542
+$
+407,196
+Notes receivable and other investments
+Liquidation Basis
+Upon adoption of the liquidation basis of accounting, our notes receivable and other investments, including our unconsolidated real estate partnership, were adjusted to their estimated net realizable value. We estimated the liquidation value of the notes receivable at their face value of
+$
+85.0
+million based on information obtained during the marketing and sale process for the notes.
+As of June 30, 2026, other investments of
+$
+4.5
+million are included within
+Notes receivable and other investments
+in our
+Condensed Consolidated Statement of Net Assets
+. The remaining unfunded commitments related to our investments in property technology funds are reflected within
+Liabilities for estimated costs in excess of estimated receipts during liquidation
+in our
+Condensed Consolidated Statement of Net Assets.
+As of June 30, 2026, our unconsolidated real estate partnership of
+$
+1.9
+million, is included within
+Notes receivable and other investments
+in our
+Condensed Consolidated Statement of Net Assets.
+21
+Table of Contents
+Other assets, net
+Liquidation Basis
+Upon adoption of the liquidation basis of accounting, deferred costs that will not be converted to cash, such as deferred leasing costs, were written off. Additionally, prepaid expenses and real estate taxes that will not be converted to cash are written off. Corporate fixed assets, and accounts receivable were adjusted to their estimated net realizable value. Our intangible assets were also adjusted to their estimated net realizable value; as the tax abatement contract will be realized in connection with the sale of the associated real estate, it is presented in
+Real Estate
+in the
+Condensed Consolidated Statement of Net Assets.
+Dividends payable
+At the time of a declaration, we accrue for dividends on our Common Stock and distributions on OP units held by third parties in
+Dividends payable
+in our
+Condensed Consolidated Balance Sheet
+as of December 31, 2025 or
+Condensed Consolidated Statement of Net Assets
+as of June 30, 2026. The amount accrued includes non-forfeitable and forfeitable dividends on our share-based compensation awards. Forfeitable dividends are not paid unless and until the underlying share-based compensation award vests. As of June 30, 2026, we have a liability of
+$
+3.8
+million related to certain unvested share-based compensation awards, which will be paid when the requisite service-based and market-based conditions have been achieved or the dual-trigger vesting conditions are met in accordance with the Plan of Sale and Liquidation.
+Note 4 — Liabilities for Estimated Costs in Excess of Estimated Receipts During Liquidation
+Liquidation Basis
+The liquidation basis of accounting requires us to estimate net cash flows from operations and to accrue all costs associated with implementing and completing the Plan of Sale and Liquidation. As of June 30, 2026, we estimated that we will have costs in excess of estimated receipts during the liquidation process. These amounts can vary significantly due to, among other things, the timing and estimates for executing and renewing leases, estimates of tenant improvement costs and capital expenditures, the timing and value of property sales, estimates of direct costs incurred to complete the sales, the timing and estimated amounts associated with discharging known and contingent liabilities, and the estimated costs associated with the winding up of operations. These costs are estimated and are anticipated to be paid out over the liquidation period based on the estimated disposal date of each asset; however, no assurances can be provided that the dates used in estimation will be met.
+Upon transition to the liquidation basis of accounting on February 1, 2026, we accrued the following revenues and expenses expected to be incurred during liquidation (
+in thousands):
+As of February 1, 2026
+Rental and other property revenues
+$
+69,958
+Property operating expenses
+(
+26,266
+)
+General and administrative expenses
+(
+22,854
+)
+Interest income
+3,828
+Interest expense
+(
+32,773
+)
+Capital expenditures
+(
+2,762
+)
+Capital expenditures for active construction
+(1)
+(
+72,821
+)
+Liquidation transaction costs
+(2)
+(
+51,600
+)
+Distributions and returns to noncontrolling interests
+(
+7,674
+)
+Income tax
+(
+326
+)
+Other estimated (costs), net of receipts
+(
+2,384
+)
+Liabilities for estimated costs in excess of estimated receipts during liquidation
+$
+(
+145,674
+)
+(1)
+Capital expenditures for our one multifamily development project under construction in Miami, Florida is primarily funded through a construction loan and preferred equit
+y draws.
+(2)
+Liquidation transaction costs primarily include disposal costs related to the sale of the Company's assets, severance expenses, and advisory expenses related to the Plan of Sale and Liquidation.
+22
+Table of Contents
+The change in the liabilities for estimated costs in excess of estimated receipts during liquidation as of
+June 30, 2026 is as follows (
+in thousands
+):
+As of February 1, 2026
+Revenue Recognized / Expense Incurred
+Remeasurement
+As of June 30, 2026
+ASSETS
+Estimated net inflows from real estate
+(1)
+$
+43,692
+$
+(
+12,450
+)
+$
+(
+2,758
+)
+$
+28,484
+Interest income
+3,828
+(
+2,847
+)
+558
+1,539
+Total estimated assets
+47,520
+(
+15,297
+)
+(
+2,200
+)
+30,023
+LIABILITIES
+General and administrative expenses
+(
+22,854
+)
+12,281
+(
+378
+)
+(
+10,951
+)
+Interest expense
+(
+32,773
+)
+12,086
+(
+1,274
+)
+(
+21,961
+)
+Capital expenditures
+(
+2,762
+)
+2,050
+(
+113
+)
+(
+825
+)
+Capital expenditures for active construction
+(
+72,821
+)
+31,578
+(
+46,093
+)
+(
+87,336
+)
+Distributions and returns to noncontrolling interests
+(
+7,674
+)
+3,412
+(
+14,908
+)
+(
+19,170
+)
+Liquidation transaction costs
+(
+51,600
+)
+24,885
+(
+5,837
+)
+(
+32,552
+)
+Income tax
+(
+326
+)
+(
+374
+)
+—
+(
+700
+)
+Other estimated (costs), net of receipts
+(
+2,384
+)
+1,208
+(
+580
+)
+(
+1,756
+)
+Total estimated liabilities
+(
+193,194
+)
+87,126
+(
+69,183
+)
+(
+175,251
+)
+Liabilities for estimated costs in excess of estimated receipts during liquidation
+$
+(
+145,674
+)
+$
+71,829
+$
+(
+71,383
+)
+$
+(
+145,228
+)
+(1)
+Estimated net inflows from real estate include estimated future rental and other property revenues during liquidation less estimated future property operating expenses during liquidation.
+Note 5 — Net Assets in Liquidation
+The following is a reconciliation of total Aimco equity under the going concern basis of accounting as of January 31, 2026, to net assets in liquidation under the liquidation basis of accounting as of February 1, 2026 (
+in thousands
+):
+Total Aimco equity as of January 31, 2026:
+$
+356,354
+Increase due to estimated net realizable value of real estate
+596,664
+Increase due to estimated net realizable value of unconsolidated partnerships
+29,403
+Decrease due to estimated net realizable value of notes receivable
+(
+1,512
+)
+Decrease due to estimated net realizable value of other assets, net
+(1)
+(
+10,953
+)
+Increase due to remeasurement of liabilities
+114,154
+Decrease due to write-off of prepaid assets and deferred costs
+(
+29,684
+)
+Decrease due to liabilities for estimated costs in excess of estimated receipts during liquidation
+(
+145,674
+)
+Decrease due to allocation to noncontrolling interest in Aimco Operating Partnership
+(
+29,156
+)
+Adjustment to reflect the change to the liquidation basis of accounting
+523,242
+Estimated value of net assets in liquidation attributable to Aimco as of February 1, 2026
+879,596
+Total noncontrolling interest in Aimco Operating Partnership as of January 31, 2026:
+12,460
+Increase due to allocation of noncontrolling interest in Aimco Operating Partnership
+29,156
+Estimated value of net assets in liquidation attributable to noncontrolling interest in Aimco Operating Partnership as of February 1, 2026
+41,616
+Estimated value of net assets in liquidation as of February 1, 2026
+$
+921,212
+(1) Other assets, net primarily include other investments and corporate fixed assets.
+23
+Table of Contents
+The following is a reconciliation of total partners' capital attributable to Aimco Operating Partnership under the going concern basis of accounting as of January 31, 2026, to net assets in liquidation under the liquidation basis of accounting as of February 1, 2026 (
+in thousands
+):
+Partners' capital attributable to Aimco Operating Partnership as of January 31, 2026:
+$
+368,814
+Increase due to estimated net realizable value of real estate
+596,664
+Increase due to estimated net realizable value of unconsolidated partnerships
+29,403
+Decrease due to estimated net realizable value of notes receivable
+(
+1,512
+)
+Decrease due to estimated net realizable value of other assets, net
+(1)
+(
+10,953
+)
+Increase due to remeasurement of liabilities
+114,154
+Decrease due to write-off of prepaid assets and deferred costs
+(
+29,684
+)
+Decrease due to liabilities for estimated costs in excess of estimated receipts during liquidation
+(
+145,674
+)
+Adjustment to reflect the change to the liquidation basis of accounting
+552,398
+Estimated value of net assets in liquidation as of February 1, 2026
+$
+921,212
+(1) Other assets, net primarily include other investments and corporate fixed assets.
+Net assets in liquidation decreased by
+$
+406.6
+million during the period from February 1, 2026, to June 30, 2026,
+primarily due to Aimco's declaration and payment of $
+1.45
+and $
+1.30
+per share and per unit liquidating distributions totaling $
+408.8
+million. This is partially o
+ffset by a net increase of $
+1.5
+million related to the remeasurement of net realizable value of real estate and estimated costs in excess of estimated receipts.
+Note 6 — Commitments and Contingencies
+Commitments
+In connection with our development activities, we have entered into various construction-related contracts, and have made commitments to complete development of certain real estate, pursuant to financing or other arrangements. As of June 30, 2026, we had remaining commitments for construction-related contracts of
+$
+57.4
+million, with
+$
+75.9
+million undrawn on our non-recourse construction loans.
+As of June 30, 2026, we have remaining unfunded commitments of
+$
+0.9
+million related to our investments in property technology funds invested in entities that develop technology related to the real estate industry. The timing of the remaining funding of these commitments is uncertain.
+We also enter into certain commitments for future purchases of goods and services in connection with the operations of our apartment communities. Those commitments generally have terms of
+one year
+or less and reflect expenditure levels comparable to our historical expenditures.
+Legal Matters
+From time to time, we may be a party to certain legal proceedings, incidental to the normal course of business. While the outcome of the legal proceedings cannot be predicted with certainty, we believe there are no legal proceedings pending that would have a material effect upon our financial condition or results of operations.
+Note 7
+— Common Stock, OP Units, and Equivalents
+Liquidation Basis
+Aimco Equity
+As of June 30, 2026, Aimco has
+143.3
+million shares of
+Common Stock outstanding
+,
+0.8
+million unvested time-based restricted stock awards, and a maximum of
+1.3
+million shares of unvested market-based restricted stock awards, with
+0.7
+million shares of the market-based awards expected to vest based on stock price performance through June 30, 2026. Additionally, as of June 30, 2026, Aimco has
+4.0
+million exercisable stock options with a weighted-average exercise price of
+$
+2.41
+per share, reflecting the equitable adjustments as a result of the special dividends paid during the prior year and the liquidating distributions paid during the current year.
+24
+Table of Contents
+Aimco Operating Partnership Partners' Capital
+As of June 30, 2026, Aimco Operating Partnership has
+148.2
+million OP Units outstanding, including
+143.3
+million held by Aimco and
+4.9
+million held by third parties. In addition to the OP Units that may be issued to Aimco upon vesting of the restricted stock awards or exercise of stock options discussed above, Aimco Operating Partnership has
+2.6
+million LTIP II units with a weighted-average conversion metric of
+$
+1.43
+per unit, reflecting the equitable adjustments as a result of the special dividends paid during the prior year and the liquidating distributions paid during the current year.
+During the three months ended June 30, 2026
+,
+1,524,343
+OP Units were redeemed for an equal number of shares of Common Stock on a one-for-one basis and
+2,196
+OP Units were redeemed for an aggregate weighted-average price of
+$
+4.15
+per unit. Subsequent to quarter end, in July 2026,
+2.5
+million LTIP II units with a weighted-average conversion metric of
+$
+1.43
+per unit were converted into
+1.3
+million OP Units.
+Note 8 — Earnings per Share and per Unit
+Going Concern Basis
+Aimco and Aimco Operating Partnership calculate basic earnings per share and basic earnings per unit based on the weighted-average number of shares of Common Stock and OP Units outstanding. We calculate diluted earnings per share and diluted earnings per unit taking into consideration dilutive shares of Common Stock and OP Unit equivalents and dilutive convertible securities outstanding during the period.
+Aimco’s Common Stock and OP Unit equivalents include options to purchase shares of Common Stock, which, if exercised, would result in Aimco’s issuance of additional shares of Common Stock and Aimco Operating Partnership’s issuance to Aimco of additional OP Units equal to the number of shares of Common Stock purchased under the options. These equivalents also include unvested market-based restricted stock awards that do not meet the definition of participating securities, which would result in an increase in the number of shares of Common Stock and OP Units outstanding equal to the number of the shares that vest. OP Unit equivalents also include unvested long-term incentive partnership units. The Common Stock and OP Unit equivalents were not included in the computation of diluted earnings per share and unit for the month ended January 31, 2026, and three and six months ended June 30, 2025, because the effect of their inclusion would have been antidilutive. As of January 31, 2026, the Common Stock and OP Unit equivalents that could potentially dilute basic earnings per share or unit in future periods totaled
+3.9
+million and
+8.1
+million, respectively.
+Aimco’s time-based restricted stock awards receive non-forfeitable dividends similar to shares of Common Stock and OP Units prior to vesting, and our market-based long-term incentive partnership units (“LTIP Units”) receive non-forfeitable distributions based on specified percentages of the distributions paid to OP Units prior to vesting and conversion. The unvested restricted shares and units related to these awards are participating securities. We include the effect of participating securities in basic and diluted earnings per share and unit computations using the two-class method of allocating distributed and undistributed earnings when the two-class method is more dilutive than the treasury stock method. Participating securities were not included in the computation of diluted earnings per share and unit for the month ended January 31, 2026, and three and six months ended June 30, 2025, because the effect of their inclusion would have been antidilutive. As of January 31, 2026, participating securities that could potentially dilute basic earnings per share or unit in future periods totaled
+1.5
+million.
+25
+Table of Contents
+Reconciliations of the numerator and denominator in the calculations of basic and
+diluted earnings per share and per unit for the month ended January 31, 2026, and the three and six months ended June 30, 2025, are as follows (
+in thousands, except per share and per unit data
+):
+Month Ended
+January 31,
+Three Months Ended
+June 30,
+Six Months Ended
+June 30,
+2026
+2025
+2025
+Earnings per share
+Numerator:
+Income (loss) from continuing operations
+$
+(
+6,538
+)
+$
+(
+25,707
+)
+$
+(
+46,860
+)
+Less: Net (income) loss attributable to redeemable noncontrolling
+interests in consolidated real estate partnerships
+(
+2,243
+)
+(
+3,156
+)
+(
+5,829
+)
+Less: Net (income) loss attributable to noncontrolling interests
+in consolidated real estate partnerships
+(
+96
+)
+(
+232
+)
+(
+528
+)
+Less: Net (income) loss from continuing operations attributable to common noncontrolling
+interests in Aimco Operating Partnership
+300
+1,513
+2,772
+Less: Net (income) loss allocated to Aimco participating securities
+—
+—
+—
+Income (loss) from continuing operations attributable to Aimco common stockholders
+(
+8,577
+)
+(
+27,582
+)
+(
+50,445
+)
+Income (loss) from discontinued operations, net of taxes
+863
+8,731
+18,172
+Less: Net (income) loss from discontinued operations attributable to common noncontrolling
+interests in Aimco Operating Partnership
+(
+29
+)
+(
+454
+)
+(
+948
+)
+Income (loss) from discontinued operations attributable to Aimco common stockholders
+834
+8,277
+17,224
+Net income (loss) attributable to Aimco common stockholders
+$
+(
+7,743
+)
+$
+(
+19,305
+)
+$
+(
+33,221
+)
+Denominator - shares:
+Basic weighted-average common stock outstanding
+140,446
+137,341
+137,123
+Diluted share equivalents outstanding
+—
+—
+—
+Diluted weighted-average common stock outstanding
+140,446
+137,341
+137,123
+Earnings (loss) per share - basic
+Income (loss) from continuing operations attributable to Aimco per common share
+$
+(
+0.06
+)
+$
+(
+0.20
+)
+$
+(
+0.37
+)
+Income (loss) from discontinued operations attributable to Aimco per common share
+0.01
+0.06
+0.13
+Net income (loss) attributable to Aimco per common share – basic
+$
+(
+0.05
+)
+$
+(
+0.14
+)
+$
+(
+0.24
+)
+Earnings (loss) per share - diluted
+Income (loss) from continuing operations attributable to Aimco per common share
+$
+(
+0.06
+)
+$
+(
+0.20
+)
+$
+(
+0.37
+)
+Income (loss) from discontinued operations attributable to Aimco per common share
+0.01
+0.06
+0.13
+Net income (loss) attributable to Aimco per common share – diluted
+$
+(
+0.05
+)
+$
+(
+0.14
+)
+$
+(
+0.24
+)
+26
+Table of Contents
+Month Ended
+January 31,
+Three Months Ended
+June 30,
+Six Months Ended
+June 30,
+2026
+2025
+2025
+Earnings per unit
+Numerator:
+Income (loss) from continuing operations
+$
+(
+6,538
+)
+$
+(
+25,707
+)
+$
+(
+46,860
+)
+Less: Net (income) loss attributable to redeemable noncontrolling
+interests in consolidated real estate partnerships
+(
+2,243
+)
+(
+3,156
+)
+(
+5,829
+)
+Less: Net (income) loss attributable to noncontrolling interests
+in consolidated real estate partnerships
+(
+96
+)
+(
+232
+)
+(
+528
+)
+Less: Net (income) loss allocated to Aimco participating securities
+—
+—
+—
+Income (loss) from continuing operations attributable to Aimco Operating Partnership's common unitholders
+(
+8,877
+)
+(
+29,095
+)
+(
+53,217
+)
+Income (loss) from discontinued operations attributable to Aimco Operating Partnership's common unitholders
+863
+8,731
+18,172
+Net income (loss) attributable to Aimco Operating Partnership's common unitholders
+$
+(
+8,014
+)
+$
+(
+20,364
+)
+$
+(
+35,045
+)
+Denominator - units
+Basic weighted-average OP Units outstanding
+145,370
+144,883
+144,671
+Diluted OP Unit equivalents outstanding
+—
+—
+—
+Diluted weighted-average OP Units outstanding
+145,370
+144,883
+144,671
+Earnings (loss) per unit - basic
+Income (loss) from continuing operations attributable to Aimco Operating Partnership per unit
+$
+(
+0.06
+)
+$
+(
+0.20
+)
+$
+(
+0.37
+)
+Income (loss) from discontinued operations attributable to Aimco Operating Partnership per unit
+0.01
+0.06
+0.13
+Net income (loss) attributable to Aimco per unit – basic
+$
+(
+0.05
+)
+$
+(
+0.14
+)
+$
+(
+0.24
+)
+Earnings (loss) per unit - diluted
+Income (loss) from continuing operations attributable to Aimco Operating Partnership per unit
+$
+(
+0.06
+)
+$
+(
+0.20
+)
+$
+(
+0.37
+)
+Income (loss)from discontinued operations attributable to Aimco Operating Partnership per unit
+0.01
+0.06
+0.13
+Net income (loss) attributable to Aimco Operating Partnership per unit – diluted
+$
+(
+0.05
+)
+$
+(
+0.14
+)
+$
+(
+0.24
+)
+Note 9 — Lease Ar
+rangements
+Liquidation Basis
+Aimco as Lessor
+We accrue all income that we expect to earn through the completion of our liquidation based on the estimated disposal date of each asset, to the extent we have a reasonable basis for estimation. Rental and other property revenues are estimated based on projected multifamily operations and contractual in-place leases for commercial space through the anticipated disposition date of the properties. Sublease income is estimated based on the contractual in-place sublease arrangements. These amounts are recognized within
+Liabilities for estimated costs in excess of estimated receipts during liquidation
+in the
+Condensed Consolidated Statement of Net Assets.
+See
+Note 4
+for additional information regarding the liabilities for costs in excess of estimated receipts during liquidation.
+Aimco as Lessee
+We are lessee to finance leases for the land underlying our properties at Upton Place, Strathmore Square, and Oak Shore. We have operating leases primarily for corporate office space. Future lease obligations for our ground leases are recognized within
+Lease liabilities - finance leases,
+while future lease obligations for our corporate office space are included within
+Accounts payable and accrued expenses
+in the
+Condensed Consolidated Statement of Net Assets.
+These lease liabilities are measured at the present value of the expected future lease payments over the liquidation period at discount rates equivalent to the rates we would have paid on a secured borrowing with terms similar to the leases at commencement.
+27
+Table of Contents
+Note 10 — Assets Held fo
+r Sale and Discontinued Operations
+During the third and fourth quarters of 2025, we sold
+five
+properties located in the suburban Boston area in Massachusetts, New Hampshire, and Rhode Island (the
+“Boston Portfolio”
+) for $
+740.0
+million. In connection with the sale of the Boston portfolio, $
+173.4
+million of non-recourse property debt was assumed by the purchaser.
+In March
+2026, we completed the sale of our portfolio of seven apartment properties located in the Chicago market (the "Chicago Portfolio") for $
+455.0
+million. In connection with the sale of the Chicago Portfolio, $
+282.5
+million of non-recourse property debt was assumed by the purchaser.
+We determined that the Boston Portfolio and Chicago Portfolio were each disposal groups that met the criteria of discontinued operations as the sales of these properties represented strategic shifts that had significant effects on our operations and, as such, the results, assets, and liabilities of these properties are classified as discontinued operations for all periods presented in accordance with ASC 205-20 “
+Presentation of Financial Statements: Discontinued Operations
+”.
+The following table summarizes income from discontinued operations for the
+month ended January 31, 2026, and the three and six months ended June 30, 2025:
+Month Ended
+January 31,
+Three Months Ended
+June 30,
+Six Months Ended
+June 30,
+2026
+2025
+2025
+REVENUES
+Rental and other property revenues
+$
+3,994
+$
+29,406
+$
+58,876
+OPERATING EXPENSES
+Property operating expenses
+1,647
+10,444
+20,371
+Depreciation and amortization
+398
+4,425
+8,791
+Total operating expenses
+2,045
+14,869
+29,162
+Interest income
+—
+—
+7
+Interest expense
+(
+1,086
+)
+(
+5,806
+)
+(
+11,549
+)
+Income (loss) from discontinued operations before income tax
+863
+8,731
+18,172
+Income tax benefit (expense)
+—
+—
+—
+Income (loss) from discontinued operations, net of taxes
+863
+8,731
+18,172
+(Income) loss from discontinued operations attributable to common noncontrolling
+interests in Aimco Operating Partnership
+(
+29
+)
+(
+454
+)
+(
+948
+)
+Net income (loss) from discontinued operations attributable to Aimco
+$
+834
+$
+8,277
+$
+17,224
+The following table summarizes cash flow information related to the discontinued operation for the
+month ended January 31, 2026, and six months ended June 30, 2025:
+Month Ended
+January 31,
+Six Months Ended
+June 30,
+2026
+2025
+Total operating cash flows from (used in) discontinued operations
+$
+1,696
+$
+26,871
+Total investing cash flows from (used in) discontinued operations
+(
+340
+)
+(
+5,006
+)
+Note 11 — Business Segment
+s
+Prior to the adoption of the Plan of Sale and Liquidation, we had
+three
+segments: (i) Development; (ii) Operating; and (iii) Other.
+Subsequent to the adoption of the Plan of Sale and Liquidation, we no longer make operating decisions or assess performance in separate segments as all assets are considered held for sale.
+28
+Table of Contents
+Our Development segment consisted of rental communities that were under construction or had not achieved stabilization, as well as land held for development. As of January 31, 2026
+, our Development segment consisted of
+9
+properties, including one under construction, two
+completed and in lease-up, one that had completed lease-up and was stabilizing operations, and five undeveloped land parcels.
+As of January 31, 2026
+, our Operating segment included
+8
+residential apartment communities with
+1,029
+apartment homes that had achieved a stabilized level of operations as of January 1, 2025 and maintained it throughout the current year and comparable period.
+Two
+of the communities, Hillmeade and Plantation Gardens, met the held for sale criteria in accordance with GAAP as described in
+Note 3.
+We aggregated all our apartment communities that had reached stabilization into our Operating segment.
+Our Other segment consisted of owned properties that were not included in our Development or Operating segments. Our Other segment included The Benson Hotel, our only hotel.
+Prior period segment information has been recast based upon the segment population as of January 31, 2026, and is consistent with how our President and Chief Executive Officer, the chief operating decision maker (“CODM”) evaluated the business prior to adoption of the Plan of Sale and Liquidation. During the month ended January 31, 2026, we reclassified and recast as discontinued operations the seven properties within our Chicago Portfolio, which was previously reported within the Operating segment. Refer to
+Note 10
+for the operating results of our discontinued operations, which consists of both the Chicago Portfolio and Boston Portfolio.
+Prior to the adoption of the Plan of Sale and Liquidation, o
+ur CODM evaluated performance and allocated resources for all of our segments using historical and projected property net operating income (
+“PNOI”), which was our measure of segment profit or loss. PNOI is defined as rental and other property revenues, excluding utility reimbursem
+ents, less direct property operating expenses, including utility reimbursements, for the consolidated communities
+; but excluding
+•
+the results of
+four
+apartment communities with an aggregate
+142
+apartment homes that we neither manage nor consolidate, our investment in IQHQ, the Mezzanine Investment, and investments in real estate technology funds; and
+•
+property management costs and casualty gains or losses, reported in consolidated amounts, in our assessment of segment performance.
+Prior to the adoption of the Plan of Sale and Liquidation, our CODM used historical and projected PNOI to allocate resources (including employees, property, and financial or capital resources) for each segment predominantly in the annual budget process. PNOI was used to review operating trends, perform analytical comparisons between periods, and to monitor budget-to-actual variances on at least a quarterly basis in order to assess performance and allocate resources. The corporate goals, which impacted short term incentive compensation for employees, also previously included consideration of PNOI.
+The accounting policies of segments were the same as those under the going concern basis of accounting described in the summary of significant accounting policies in
+Note 3.
+29
+Table of Contents
+The following tables present the results of operations of consolidated properties within our segments for the
+month ended January 31, 2026, and the three and six months ended June 30, 2025 (
+in thousands
+):
+Development
+Operating
+Other
+Adjustments
+(1)
+Corporate and Amounts Not Allocated to Segments
+(2)
+Consolidated
+Month Ended January 31, 2026
+Rental and other property revenues
+$
+2,838
+$
+2,476
+$
+428
+$
+417
+$
+—
+$
+6,159
+Controllable operating expenses
+(3)
+604
+472
+512
+—
+—
+1,588
+Real estate taxes, net of capitalized amounts
+491
+411
+64
+—
+—
+966
+Utilities expense, net of utility reimbursements
+130
+80
+29
+417
+—
+656
+Property insurance expense, net of capitalized amounts
+45
+78
+9
+—
+—
+132
+Other property operating expenses
+(4)
+—
+—
+—
+—
+790
+790
+Property operating expenses
+1,270
+1,041
+614
+417
+790
+4,132
+Property net operating income (loss)
+1,568
+1,435
+(
+186
+)
+—
+n/a
+n/a
+Other operating expenses not allocated to segments
+(5)
+—
+—
+—
+—
+(
+6,567
+)
+(
+6,567
+)
+Other items included in income (loss) from continuing operations before income tax
+(6)
+—
+—
+—
+—
+(
+1,998
+)
+(
+1,998
+)
+Income (loss) from continuing operations before income tax
+$
+1,568
+$
+1,435
+$
+(
+186
+)
+$
+—
+$
+(
+9,355
+)
+$
+(
+6,538
+)
+Development
+Operating
+Other
+Adjustments
+(1)
+Corporate and Amounts Not Allocated to Segments
+(2)
+Consolidated
+Three Months Ended June 30, 2025
+Rental and other property revenues
+$
+6,124
+$
+7,375
+$
+2,084
+$
+843
+$
+6,926
+$
+23,352
+Controllable operating expenses
+(3)
+1,490
+1,298
+1,768
+—
+818
+5,374
+Real estate taxes, net of capitalized amounts
+1,124
+1,345
+560
+—
+936
+3,965
+Utilities expense, net of utility reimbursements
+331
+110
+63
+843
+338
+1,685
+Property insurance expense, net of capitalized amounts
+145
+250
+33
+—
+398
+826
+Other property operating expenses
+(4)
+—
+—
+—
+—
+898
+898
+Property operating expenses
+3,090
+3,003
+2,424
+843
+3,388
+12,748
+Property net operating income (loss)
+3,034
+4,372
+(
+340
+)
+—
+n/a
+n/a
+Other operating expenses not allocated to segments
+(5)
+—
+—
+—
+—
+(
+19,736
+)
+(
+19,736
+)
+Other items included in income (loss) from continuing operations before income tax
+(6)
+—
+—
+—
+—
+(
+11,004
+)
+(
+11,004
+)
+Income (loss) from continuing operations before income tax
+$
+3,034
+$
+4,372
+$
+(
+340
+)
+$
+—
+$
+(
+27,202
+)
+$
+(
+20,136
+)
+Development and Redevelopment
+Operating
+Other
+Adjustments
+(1)
+Corporate and Amounts Not Allocated to Segments
+(2)
+Consolidated
+Six Months Ended June 30, 2025
+Rental and other property revenues
+$
+11,333
+$
+14,915
+$
+3,530
+$
+1,473
+$
+14,983
+$
+46,234
+Controllable operating expenses
+(3)
+2,918
+2,464
+3,484
+—
+1,548
+10,414
+Real estate taxes, net of capitalized amounts
+2,224
+2,504
+829
+—
+3,001
+8,558
+Utilities expense, net of utility reimbursements
+930
+374
+135
+1,473
+595
+3,507
+Property insurance expense, net of capitalized amounts
+504
+465
+66
+—
+778
+1,813
+Other property operating expenses
+(4)
+—
+—
+—
+—
+1,594
+1,594
+Property operating expenses
+6,576
+5,807
+4,514
+1,473
+7,516
+25,886
+Property net operating income (loss)
+4,757
+9,108
+(
+984
+)
+—
+n/a
+n/a
+Other operating expenses not allocated to segments
+(5)
+—
+—
+—
+—
+(
+39,971
+)
+(
+39,971
+)
+Other items included in income (loss) from continuing operations before income tax
+(6)
+—
+—
+—
+—
+(
+21,751
+)
+(
+21,751
+)
+Income (loss) from continuing operations before income tax
+$
+4,757
+$
+9,108
+$
+(
+984
+)
+$
+—
+$
+(
+54,255
+)
+$
+(
+41,374
+)
+30
+Table of Contents
+(1)
+Represents the reclassification of utility reimbursements, which were included in
+Rental and other property revenues
+in our
+Condensed Consolidated Statements of Operations
+, in accordance with GAAP, from revenues to property operating expenses for the purpose of evaluating segment results.
+(2)
+Includes the operating results of apartment communities sold during or subsequent to the period. Also includes property management expenses and casualty gains and losses, which were included in consolidated property operating expenses and were not part of our segment performance measure.
+(3)
+Controllable operating expenses primarily consisted of property personnel costs, marketing, repairs and maintenance, and contract services.
+(4)
+Other property operating expenses included property management costs and casualty gains or losses, which were included in consolidated property operating expenses and were not part of our segment performance measure.
+(5)
+Other operating expenses not allocated to segments consisted of depreciation and amortization, and general and administrative expenses.
+(6)
+Other items included in
+Income (loss) before income tax
+consisted primarily of interest income, interest expense, realized and unrealized gains (losses) on interest rate contracts, realized and unrealized gains (losses) on equity investments, other income (expense), and gain on dispositions of real estate, if any.
+Capital additions with
+in our segments for the month ended January 31, 2026, and the three and six months ended June 30, 2025, were as follows (
+in thousands
+):
+Month Ended
+January 31,
+Three Months Ended
+June 30,
+Six Months Ended
+June 30,
+2026
+2025
+2025
+Development
+$
+6,378
+$
+22,134
+$
+42,393
+Operating
+115
+1,689
+2,616
+Other
+—
+—
+160
+Corporate and Amounts Not Allocated to Segments
+(1)
+—
+105
+211
+Total capital additions
+$
+6,493
+$
+23,928
+$
+45,380
+(1)
+During the three and six months ended June 30, 2025, certain capital additions pertained to properties that were sold or reclassified as held for sale and therefore are not included in our segments as capital additions at those respective period ends. We added a row to the table above for presentation purposes to display these capital additions for the three and six months ended June 30, 2025
+.
+31
+Table of Contents
+ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS
+Forward Looking Statements
+The Private Securities Litigation Reform Act of 1995 provides a “safe harbor” for forward-looking statements in certain circumstances. Certain information included in this Quarterly Report on Form 10-Q contains or may contain information that is forward-looking within the meaning of the federal securities laws. Forward-looking statements include all statements that are not historical statements of fact and those regarding our intent, belief, or expectations. Words such as “anticipate(s),” “expect(s),” “intend(s),” “plan(s),” “believe(s),” “may,” “will,” “would,” “could,” “should,” “seek(s)” and similar expressions, or the negative of these terms, are intended to identify such forward-looking statements. The forward-looking statements in this Quarterly Report on Form 10-Q include, without limitation, statements regarding: our future plans and goals, including the timing and amount of capital expected to be returned to our stockholders, our pipeline investments and projects, our plans to eliminate certain near term debt maturities, our estimated value creation and potential, our timing, scheduling and budgeting, projections regarding revenue and expense growth, our plans for dispositions, our strategic partnerships and value added therefrom, the potential for adverse economic and geopolitical conditions, which negatively impact our operations, including on our ability to maintain current or meet projected occupancy, rental rate and property operating results; the effect of acquisitions, dispositions, developments; our ability to meet budgeted costs and timelines, and achieve budgeted rental rates related to our development investments; expectations regarding sales of our apartment communities and the use of proceeds thereof; the availability and cost of corporate debt; and our ability to comply with debt covenants, including financial coverage ratios. We caution investors not to place undue reliance on any such forward-looking statements.
+These forward-looking statements are based on management’s judgment as of this date, which is subject to risks and uncertainties that could cause actual results to differ materially from our expectations, including, but not limited to: our ability to complete the plan of sale and liquidation of Aimco and its subsidiaries, including our ability to successfully market and/or sell the remaining assets, on the terms and timeline anticipated, or at all; our ability to close sales following the execution of purchase and sale agreements on the terms and timeline anticipated, or at all, including the satisfaction or waiver of the conditions to closing the sales transactions currently under contract and any other sales transactions Aimco may undertake (the “Portfolio Sales Transactions”);  changes in the amount and timing of the total liquidating distributions resulting from the Plan of Sale and Liquidation and the Portfolio Sales Transactions, including as a result of unexpected levels of transaction costs, delayed or terminated closings, liquidation costs, unpaid or additional liabilities and obligations, changes in the net asset sales proceeds for the sale of the remaining properties from prior estimates or other unanticipated difficulties; the possibility of converting to a liquidating trust or other liquidating entity; the ability of our board of directors to terminate the Plan of Sale and Liquidation; the response of our residents, tenants and business partners to the Plan of Sale and Liquidation and/or Portfolio Sales Transactions; difficulties in employee retention as a result of the ongoing Plan of Sale and Liquidation and/or Portfolio Sales Transactions; the occurrence of any event, change or other circumstances that could give rise to the termination of the Plan of Sale and Liquidation and/or the Portfolio Sales Transactions; the outcome of legal proceedings that may be instituted against Aimco, our subsidiaries, our and their directors and others related to the Plan of Sale and Liquidation and/or Portfolio Sales Transactions; the risk that disruptions caused by or relating to the Plan of Sale and Liquidation and/or Portfolio Sales Transactions will harm our business, including current plans and operations; the possibility that we do not reserve adequate funds to cover expenses and liabilities, and the possibility that our creditors, in that instance, could seek repayment from our stockholders up to the amount of the total liquidating distributions; risks relating to the market value of Aimco’s common stock; risks associated with contracts or other instruments containing consent and/or other provisions that may be triggered by the Plan of Sale and Liquidation and/or Portfolio Sales Transactions; restrictions during the pendency of the Portfolio Sale Transactions that may impact our ability to pursue certain business opportunities or strategic transactions; our ability to remain listed on the NYSE; geopolitical events which may adversely affect the markets in which our securities trade, and other macro-economic conditions, including, among other things, rising interest rates and inflation, which heightens the impact of the other risks and factors described herein; real estate and operating risks, including fluctuations in real estate values and the general economic climate in the markets in which we operate and competition for residents in such markets; national and local economic conditions, including the pace of job growth and the level of unemployment; the amount, location and quality of competitive new housing supply; the timing and effects of dispositions and developments; expectations regarding sales of apartment communities; insurance risks, including the cost of insurance, and natural disasters and severe weather such as hurricanes; supply chain disruptions, particularly with respect to raw materials such as lumber, steel, and concrete; the impact of tariffs and global trade disruptions on us; financing risks, including the availability and cost of financing; the risk that cash flows from operations may be insufficient to meet required payments of principal and interest; the risk that earnings may not be sufficient to maintain compliance with debt covenants, including financial coverage ratios; legal and regulatory risks, including costs associated with prosecuting or defending claims and any adverse outcomes; the terms of laws and governmental regulations that affect us and interpretations of those laws and regulations; and possible environmental liabilities, including costs, fines or penalties that may be incurred due to necessary remediation of contamination of apartment communities presently owned by us.
+In addition, our current and continuing qualification as a real estate investment trust involves the application of highly technical and complex provisions of the Internal Revenue Code of 1986, as amended (“Code”) and depends on our ability to meet the various requirements imposed by the Code through actual operating results, distribution levels and diversity of stock ownership.
+Readers should carefully review our financial statements and the notes thereto, as well as Item 1A. Risk Factors in Part II of this report. These risk factors should not be construed as exhaustive and should be read in conjunction with the other cautionary statements that are included elsewhere in this Quarterly Report on Form 10-Q. We undertake no obligation to publicly update or review any forward-looking statement, whether as a result of new information, future developments or otherwise, except as required by law.
+32
+Table of Contents
+Readers should also carefully review the section entitled “Risk Factors” described in Item 1A of Apartment Investment and Management Company’s and Aimco OP L.P.’s combined Annual Report on Form 10-K for the year ended December 31, 2025, and subsequent documents we file from time to time with the SEC.
+As used herein and except as the context otherwise requires, “we,” “our,” and “us” refer to Apartment Investment and Management Company (which we refer to as Aimco), Aimco OP L.P. (which we refer to as Aimco Operating Partnership) and their consolidated entities, collectively.
+33
+Table of Contents
+Executive Overview
+We provide Management’s Discussion and Analysis of Financial Condition and Results of Operations (“MD&A”) in addition to the accompanying consolidated financial statements and notes to assist readers in understanding our results of operations and financial condition.
+Prior to the adoption of the Plan of Sale and Liquidation, our mission was to make real estate investments, primarily focused on the multifamily sector within targeted U.S. markets, where outcomes were enhanced through our human capital and substantial value was created for investors, teammates, and the communities in which we operated.
+Plan of Sale and Liquidation
+On November 10, 2025, the Board approved a Plan of Sale and Liquidation, which contemplates the sale or disposition of all the Company’s assets, the wind-down of the Company’s business and affairs and the termination of the Company’s existence by voluntary dissolution in accordance with the MGCL, and directed that the Plan of Sale and Liquidation be submitted for approval to the Company’s stockholders. On February 6, 2026, our stockholders adopted the Plan of Sale and Liquidation. Pursuant to the Plan of Sale and Liquidation and in accordance with the applicable provisions of law, the Company is authorized to do all other things reasonably necessary or desirable to complete the liquidation and dissolution of the Company and its subsidiaries, including Aimco Operating Partnership. In furtherance of the Plan of Sale and Liquidation, on March 6, 2026, the general partner of the Aimco Operating Partnership exercised its authority to elect to dissolve the Aimco Operating Partnership in its sole and absolute discretion, and such dissolution is taking place in accordance with the Plan of Sale and Liquidation and the Aimco Operating Partnership's Partnership Agreement. The Company is not required to obtain any further stockholder approval with respect to the liquidation and dissolution of the Company. Until the filing of the articles of dissolution with the Maryland State Department of Assessments and Taxation, the Board may modify, amend or terminate the Plan of Sale and Liquidation (and authorize us to seek to dispose of all our assets through a merger, business combination or similar transaction) without approval by the stockholders if it determines that such action would be advisable and in the best interests of the Company. The Company has no present plans or intentions to modify, amend or abandon the Plan of Sale and Liquidation. The Plan of Sale and Liquidation presents certain risks, and there can be no assurance that the Plan of Sale and Liquidation will result in any transaction or that the Plan of Sale and Liquidation will be completed. Refer to the section entitled “Risk Factors” described in Item 1A of Aimco’s and Aimco Operating Partnership’s combined Annual Report on Form 10-K for the year ended December 31, 2025.
+Subsequent to the adoption of the Plan of Sale and Liquidation, we plan to sell our assets in an orderly fashion and return net proceeds from asset sales and cash on hand to our stockholders, subject to payment of our liabilities and obligations. We will continue to manage each of our properties, together with our property managers, until such time as such property is sold, for purposes of achieving the orderly winding up of the business and affairs of the Company and its subsidiaries in accordance with the Plan of Sale and Liquidation. Additional information regarding the Plan of Sale and Liquidation is available in the Company’s filings with the U.S. Securities and Exchange Commission.
+Disposition activity for the three months ended June 30, 2026
+•
+In April 2026, we sold two properties in New York City and one in Atlanta, Georgia for a combined $56.5 million, as well as four properties located in San Diego, California, held by four unconsolidated real estate partnerships, with our share of the net proceeds totaling $41.9 million, net of transaction costs of $0.9 million.
+•
+In June 2026, we sold our remaining property in New York City for a sales price of $22.9 million.
+Liquidating Distributions
+In accordance with the Plan of Sale and Liquidation, the Board approved special liquidating distributions of $1.45 and $1.30 per share and unit paid on March 13, 2026 and June 3, 2026, respectively.
+Net Assets in Liquidation
+As of June 30, 2026, our $514.6 million of
+Net assets in liquidation,
+as presented in our condensed consolidated financial  statements included in Item 1, included $33.5 million of excess liabilities which we do not believe are represented at their estimated fair value but cannot be derecognized under GAAP at this time.
+34
+Table of Contents
+Balance Sheet and Financing Activities
+We are highly focused on maintaining a strong balance sheet, prudent simplification, and appropriate liquidity while promptly returning capital to stockholders. As of June 30, 2026, we had $69.8 million of cash on hand and $8.9 million of restricted cash. Refer to the Liquidity and Capital Resources section for additional information regarding our leverage.
+As of June 30, 2026, 100% of our total debt was either fixed rate or hedged with interest rate cap protection. Considering investments under contract to sell and including contractual extensions, we have no debt maturing prior to December 2027.
+Active Construction and Lease-up Assets
+We plan to fulfill our contractual obligations and maximize value at our one multifamily development project under construction in Miami, Florida and complete the lease-up of, and market for sale, our two recently completed Washington, D.C. Metro Area multifamily communities. We have ceased planning and predevelopment efforts for future projects.
+During the three and six months ended June 30, 2026, we invested $17.0 million and $39.1 million, respectively, in development activities compared to $22.1 million and $42.4 million, respectively, during the same period in 2025. Updates on our one active development project and two lease-ups include:
+•
+In Miami, construction remains on schedule and on budget at 34th Street, an ultra-luxury waterfront residential tower. Initial occupancy is scheduled for 3Q 2027 with stabilized occupancy in 4Q 2028.
+•
+In Bethesda, Maryland, we expect to complete the lease up of 220 of the highly tailored apartment homes at the first phase of Strathmore Square in the third quarter 2026. As of June 30, 2026, 197 (90%) units had been leased or pre-leased. The property is currently being broadly marketed for sale.
+•
+In Upper Northwest Washington, D.C., we expect to complete the lease up of 689 apartment homes at Upton Place during the fourth quarter 2026. As of June 30, 2026, 578 (84%) units were leased or pre-leased. Additionally, as of June 30, 2026, 97% of the project's 105,000 square feet of retail space has been leased. The property is scheduled to be broadly marketed for sale in the third quarter.
+Remaining Assets
+As of June 30, 2026, we continue to pursue an orderly liquidation of our remaining assets:
+Property / Investment
+Property / Investment Type
+Location
+Units/Acres
+Bank Lofts
+Stabilized
+Denver, CO
+125
+Bluffs at Pacifica, The
+Stabilized
+Pacifica, CA
+64
+Oak Shore
+Stabilizing
+Corte Madera, CA
+24
+Upton Place
+Lease-Up
+Washington, DC
+689
+Strathmore Square Phase 1
+Lease-Up
+Bethesda, MD
+220
+34th Street
+Active Construction
+Miami, FL
+114
+300 Broward
+Land
+Fort Lauderdale, FL
+2.31
+One Edgewater
+Land
+Miami, FL
+0.5
+Fitzsimons 4
+Land
+Aurora, CO
+1.77
+Flagler Village
+Land
+Fort Lauderdale, FL
+8.8
+Flying Horse
+Land
+Colorado Springs, CO
+7.45
+Strathmore Square Phase 2
+Passive Investment in Development JV
+CU Anschutz Campus Holdings
+Controlled Options for Development
+Brickell Assemblage Notes
+Seller Financing
+IQHQ
+Passive Equity
+Parkmerced
+Mezzanine Loan
+RE Tech Funds
+Passive Equity
+35
+Table of Contents
+Financial Results of Operations
+In light of the adoption of liquidation basis accounting as of February 1, 2026 and our liquidation pursuant to the Plan of Sale and Liquidation, the results of operations for the current year period are not comparable to the prior year period. The sale of assets under the Plan of Sale and Liquidation will have a significant impact on our operations. See “— Executive Overview — Plan of Sale and Liquidation”.
+Changes in Net Assets in Liquidation
+Period from February 1, 2026, through June 30, 2026
+Net assets in liquidation decreased by $406.6 million during the period from February 1, 2026, to June 30, 2026, primarily due to Aimco's declaration and payment of $1.45 and $1.30 per share and per unit liquidating distributions totaling $408.8 million. This is partially offset by a net increase of $1.5 million related to the remeasurement of net realizable value of real estate and estimated costs in excess of estimated receipts.
+Critical Accounting Estimates
+We prepare o
+ur consolidated financial statements in accordance with GAAP, which requires us to make estimates and assumptions.
+Liquidation Basis
+Real Estate
+Upon adoption of the liquidation basis of accounting, our investments in real estate were adjusted to their estimated net realizable value. The liquidation value represents the estimated amount of cash that we expect to receive through the disposal of our assets as we carry out the Plan of Sale and Liquidation. We estimated the liquidation value of our real estate investments generally based on either contractual purchase prices or offers received on the properties or, if no contracts or offers had been received yet, on management’s estimate of a property’s liquidation value, taking into account information obtained during the marketing and sale process for the properties, including broker opinions of value. The estimated liquidation value of properties without contractual purchase prices or offers received require considerable management judgment and are sensitive to changes in underlying assumptions and market factors, the most significant being projected operational cash flow and capitalization rates. We determine capitalization rates using third-party market research analytics. Property operational cash flows are based on historical, current, and expected future operating results and take into consideration our intended operational strategies. No assurances can be provided that the estimated liquidation value of our properties will be met.
+Estimated Costs in Excess of Estimated Receipts
+The liquidation basis of accounting requires us to estimate net cash flows from operations and to accrue all costs associated with implementing and completing the Plan of Sale and Liquidation. As of June 30, 2026, we are estimating that we will have costs in excess of estimated receipts during the liquidation process. These amounts can vary significantly due to, among other things, the timing and estimates for executing and renewing leases, estimates of tenant improvement costs and capital expenditures, the timing and value of property sales, estimates of direct costs incurred to complete the sales, the timing and estimated amounts associated with discharging known and contingent liabilities, and the estimated costs associated with the winding up of operations. These costs are estimated and are anticipated to be paid out over the liquidation period; however, no assurances can be provided that the dates used in estimation will be met.
+Going Concern Basis
+Under a going concern basis, the critical accounting estimates that involve our more significant judgments and estimates used in the preparation of our consolidated financial statements are detailed in Item 7,
+Management’s Discussion and Analysis of Financial Condition and Results of Operations
+, of Aimco’s and Aimco Operating Partnership’s combined Annual Report on Form 10-K for the year ended December 31, 2025. There have been no other significant changes in our critical accounting estimates on a going concern basis from those reported in our Form 10-K and we believe that the related judgments and assessments have been consistently applied and produce financial information that fairly depicts the financial condition, results of operations, and cash flows for all periods presented.
+36
+Table of Contents
+Non-GAAP Measures
+Due to the adoption of the Plan of Sale and Liquidation, we are no longer reporting EBITDAre, Adjusted EBITDAre, or other non-GAAP measures as we no longer consider these to be key financial indicators. Property net operating income is presented solely as the ASC 280 segment measure for prior periods.
+Liquidity and Capital Resources
+Liquidity
+Liquidity is the ability to meet present and future financial obligations.
+As of June 30, 2026, our available liquidity was $78.7 million, which consisted of:
+•
+$69.8 million in cash and cash equivalents; and
+•
+$8.9 million of restricted cash, including amounts related to tenant security deposits and escrows held by lenders for capital additions, property taxes, and insurance.
+As of June 30, 2026, we had sufficient capacity on our non-recourse construction loans to cover our remaining commitments on our multifamily development project of approximately $57.4 million. We also have unfunded commitments in the amount of $0.9 million related to our investments in entities that develop technology related to the real estate industry. Our principal uses for liquidity include operating activities, payments of principal and interest on outstanding debt, ground lease payments, and capital expenditures. Additionally, our third-party property managers may enter into commitments on our behalf to purchase goods and services in connection with the operation of our apartment communities and our office building. Those commitments generally have terms of one year or less and reflect expenditure levels comparable to historical levels.
+We believe, based on information available at this time, cash and cash equivalents, cash generated from operations, and proceeds from sales of property pursuant to the Plan of Sale and Liquidation are sufficient sources of liquidity for the next twelve months and through liquidation to meet operational needs as well as remaining commitments on our one remaining development project.  We also have limited debt maturities over the next two years. After giving effect to available extension options, we have no scheduled maturities until December 2027. Our use of low‑leverage, property‑level financing provides flexibility to refinance existing debt, if necessary.
+Liquidating Distributions
+Pursuant to the Plan of Sale and Liquidation, Aimco intends to return net proceeds from asset sales and cash on hand to our stockholders, subject to the payment of our liabilities and obligations and estimated reserves based on the best available information regarding operational needs as well as projected transaction and wind-down costs.
+Leverage and Capital Resources
+The availability and cost of credit and its related effect on the overall economy may affect our liquidity and future financing activities, both through changes in interest rates and access to financing. Any adverse changes in the lending environment, declines in our share price, and the effects of the announced Plan of Sale and Liquidation could negatively affect our liquidity.
+As of June 30, 2026, our outstanding non-recourse property debt had a fixed interest rate. In addition, the rate on our non-recourse debt was 4.6%, and the remaining term to maturity was 5.9 years. Our use of interest rate caps may vary from quarter to quarter depending on lender requirements, recycling of interest rate caps between projects, and our view on forecasted interest rates. Our primary sources of leverage are non-recourse property-level debt, non-recourse construction loans, and bridge financing. As of June 30, 2026, we have unused outstanding capacity on our construction loans of $75.9 million.
+Changes in Cash, Cash Equivalents, and Restricted Cash
+The following discussion relates to changes in consolidated cash, cash equivalents, and restricted cash due to operating, investing and financing activities, which are presented in our
+Condensed Consolidated Statements of Cash Flows
+in Item 1 of this report.
+Operating Activities
+For the month ended January 31, 2026, net cash used in operating activities was $39.3 million, primarily related to income tax payments associated with the sale of 1001 Brickell in the fourth quarter of 2025.
+37
+Table of Contents
+Investing Activities
+For the month ended January 31, 2026, net cash provided by investing activities was $10.4 million, primarily related to the modification and repayment of our seller financing receivable, offset by capital expenditures.
+Financing Activities
+For the month ended January 31, 2026, net cash used in financing activities was $45.7 million, primarily due to the redemption of 50% of the outstanding redeemable noncontrolling interest in a portfolio of operating apartment communities, offset by proceeds from non-recourse construction loans and contributions from redeemable noncontrolling interests.
+ITEM 3. QUANTITATIVE AND QUALITATI
+VE DISCLOSURES ABOUT MARKET RISK
+Our chief market risks are refunding risk, that is the availability of property debt or other cash sources to refund maturing property debt, and repricing risk, that is the possibility of increases in base interest rates and credit risk spreads. We primarily use long-dated, fixed-rate, non-recourse property debt on stabilized properties in order to manage the refunding and repricing risks of short-term borrowings.
+We use working capital primarily to fund short-term uses. We use derivative financial instruments as a risk management tool and do not use them for trading or other speculative purposes.
+Market Risk
+As of June 30, 2026, on a consolidated basis, we had no variable-rate property-level debt outstanding and $190.1 million of variable-rate construction loans outstanding. The impact of elevated interest rates is mitigated by our use of interest rate caps, which as of June 30, 2026, provided protection for our variable interest rate debt. Our use of interest rate caps may vary from quarter to quarter depending on lender requirements, recycling of interest rate caps between projects, and our view on forecasted interest rates. As of June 30, 2026, we estimate an increase or decrease in our variable rate indices of 100 basis points with constant credit risk spreads, would have no material impact on interest expense.
+As of
+June 30, 2026, we held interest rate caps with a maximum notional value of $266.0 million. These instruments were acquired for $0.3 million and at June 30, 2026, were valued at $0.1 million.
+As of June 30, 2026, we had $78.7 million in cash and cash equivalents and restricted cash, a portion of which earns interest at variable rates.
+ITEM 4. CONTROLS AND
+PROCEDURES
+Aimco
+Disclosure Controls and Procedures
+Aimco’s management, with the participation of Aimco’s Chief Executive Officer and Chief Financial Officer, has evaluated the effectiveness of Aimco’s disclosure controls and procedures (as defined in Rules 13a-15(e) and 15d-15(e) under the Exchange Act) as of the end of the period covered by this report. Based on such evaluation, Aimco’s Chief Executive Officer and Chief Financial Officer have concluded that, as of the end of such period, Aimco’s disclosure controls and procedures were effective.
+Changes in Internal Control Over Financial Reporting
+There were no changes in Aimco’s internal control over financial reporting (as defined in Rules 13a-15(f) and 15d-15(f) under the Exchange Act) during the quarter ended June 30, 2026, that has materially affected, or is reasonably likely to materially affect, Aimco’s internal control over financial reporting.
+38
+Table of Contents
+Aimco Operating Partnership
+Disclosure Controls and Procedures
+Aimco Operating Partnership’s management, with the participation of the Chief Executive Officer and Chief Financial Officer of both Aimco and Aimco OP GP, LLC, Aimco Operating Partnership’s general partner, has evaluated the effectiveness of Aimco Operating Partnership’s disclosure controls and procedures (as defined in Rules 13a-15(e) and 15d-15(e) under the Exchange) as of the end of the period covered by this report. Based on such evaluation, the Chief Executive Officer and Chief Financial Officer of Aimco OP GP, LLC have concluded that, as of the end of such period, Aimco Operating Partnership’s disclosure controls and procedures are effective.
+Changes in Internal Control Over Financial Reporting
+There were no changes in Aimco Operating Partnership's internal control over financial reporting (as defined in Rules 13a-15(f) and 15d-15(f) under the Exchange Act) during the quarter ended June 30, 2026, that has materially affected, or is reasonably likely to materially affect, Aimco Operating Partnership's internal control over financial reporting.
+PART II. OTHE
+R INFORMATION
+ITEM 1A. RISK F
+ACTORS
+As of the date of this report, there have been no material changes from the risk factors in Aimco’s and Aimco Operating Partnership’s combined Annual Report on Form 10-K for the year ended December 31, 2025. We may disclose changes to such factors or disclose additional factors from time to time in our filings with the SEC.
+ITEM 2. UNREGISTERED SALES OF EQUITY S
+ECURITIES, USE OF PROCEEDS, AND ISSUER PURCHASES OF EQUITY SECURITIES
+Aimco
+Aimco’s Common Stock is listed and traded on the NYSE under the symbol “AIV”.
+On August 5, 2026, there were 145,236,898 shares of Common Stock outstanding, held by 840 stockholders of record. The number of holders does not include individuals or entities who beneficially own shares but whose shares are held of record by a broker or clearing agency but does include each such broker or clearing agency as one record holder.
+Unregistered Sales of Equity Securities
+From time to time, Aimco may issue shares of its Common Stock in exchange for OP Units, defined under the Aimco Operating Partnership heading below. Such shares are issued based on an exchange ratio of one share for each OP Unit. Aimco may also issue shares of its Common Stock in exchange for limited partnership interests in consolidated real estate partnerships.
+During the three months ended June 30, 2026, 1,524,343 shares of Common Stock were issued in exchange for OP Units. Such shares were issued in reliance on Section 4(a)(2) of the Securities Act of 1933, as amended.
+In addition to any issuances pursuant to transactions of the types discussed above, there were no unregistered sales of equity securities made by Aimco during the three months ended June 30, 2026.
+39
+Table of Contents
+Repurchases of Equity Securities
+On July 28, 2022, Aimco announced that its Board authorized Aimco to repurchase up to 15 million shares of its outstanding Common Stock. On November 6, 2023, Aimco announced that the Board authorized Aimco to repurchase up to an additional 15 million shares of its outstanding Common Stock, for a total of 30 million shares. As of June 30, 2026, Aimco was authorized to repurchase up to 16.2 million shares of its outstanding Common Stock. Subject to certain blackout restrictions, these repurchases may be made from time to time in the open market or in privately negotiated transactions. These share repurchase authorizations have no expiration date.
+Since Aimco's Board of Directors announced the expansion of its strategic review process on January 9, 2025, no shares of common stock have been repurchased by Aimco.
+Aimco Operating Partnership
+There is no public market for OP Units, and Aimco Operating Partnership has no intention of listing OP Units on any securities exchange. In addition, Aimco Operating Partnership’s Partnership Agreement restricts the transferability of OP Units.
+On August 5, 2026, there were 151,530,553 OP Units and equivalents outstanding (of which 145,236,898 were held by Aimco), that were held by 1,774 unitholders of record.
+Unregistered Sales of Equity Securities
+Aimco Operating Partnership did not issue any unregistered OP Units during the three months ended June 30, 2026.
+Repurchases of Equity Securities
+Aimco Operating Partnership’s Partnership Agreement generally provides that after holding OP Units for one year, limited partners other than Aimco have the right to redeem their OP Units for cash or, at Aimco’s election, shares of Aimco Common Stock on a one-for-one basis (subject to customary antidilution adjustments). During the three months ended June 30, 2026, 1,524,343 OP Units were redeemed in exchange for shares of Common Stock on a one-for-one basis and 2,196 OP Units were redeemed in exchange for cash at an aggregate weighted average price per unit of $4.15.
+The following table summarizes repurchases, or redemptions in exchange for cash, of the Aimco Operating Partnership’s equity securities held by third parties for the three months ended June 30, 2026:
+Fiscal Period
+Total Number of Units Repurchased
+Weighted Average Price Paid per Unit
+Total Number of Units Purchased as Part of Publicly Announced Plans or Programs
+Maximum Number of Units That May Yet Be Purchased Under Plans or Programs
+(1)
+April 1 - 30, 2026
+—
+$
+—
+NA
+NA
+May 1 - 31, 2026
+—
+—
+NA
+NA
+June 1 - 30, 2026
+2,196
+4.15
+NA
+NA
+Total
+2,196
+$
+4.15
+(1)
+The terms of the Aimco Operating Partnership’s Partnership Agreement do not provide for a maximum number of units that may be repurchased, and other than the express terms of its Partnership Agreement, the Aimco Operating Partnership has no publicly announced plans or programs of repurchase. However, for Aimco to repurchase shares of its Common Stock, the Aimco Operating Partnership must make a concurrent repurchase of its OP Units held by Aimco at a price per unit that is equal to the price per share Aimco pays for its Common Stock.
+Dividend and Distribution Payments
+As a REIT, Aimco is required to distribute annually to holders of its Common Stock at least 90.0% of its “real estate investment trust taxable income,” which, as defined by the Code and United States Department of Treasury regulations, is generally equivalent to net taxable ordinary income. Aimco’s Board determines and declares Aimco’s dividends. In making a dividend determination, Aimco’s Board considers a variety of factors, including REIT distribution requirements, current market conditions, liquidity needs, and other uses of cash, such as deleveraging.
+In connection with the Plan of Sale and Liquidation, United States stockholders may receive one or more liquidating distributions. The amount of any liquidating distribution will be applied first to reduce a United States stockholder’s adjusted tax basis in its Common Stock, but not below zero. A United States stockholder’s adjusted tax basis in its Common Stock will generally be equal to the stockholder’s cost of its shares, reduced by any prior distributions that were treated as reductions in basis rather than taxable dividends. To the extent that distributions pursuant to the Plan of Sale and Liquidation exceed a United States stockholder’s basis in its Common Stock, the excess will constitute taxable gain and be recognized in the year in which the distribution is received. If the total amount of liquidating distributions received by a United States stockholder is less than the
+40
+Table of Contents
+adjusted tax basis of its shares, the United States stockholder will generally recognize a loss in the year in which the final liquidating distribution is received. However, a future abandonment of the Plan of Sale and Liquidation subsequent to the payment of liquidating distributions could complicate the tax consequences to our stockholders, as described in greater detail in our definitive proxy statement, filed with the SEC on January 2, 2026.
+The Board of Aimco Operating Partnership’s general partner determines and declares distributions on OP Units. Aimco, through a wholly-owned subsidiary, is the sole general partner of Aimco Operating Partnership. As of June 30, 2026, Aimco owned 95.1% of the legal interest in the OP Units of Aimco Operating Partnership and 95.8% of the dilutive economic interest of Aimco Operating Partnership. Aimco Operating Partnership holds all of our assets and manages the daily operations of our business. The distributions paid by Aimco Operating Partnership to Aimco are used to fund the dividends paid to Aimco's stockholders. Accordingly, the per share dividends Aimco pays to its stockholders generally equal the per unit distributions paid by Aimco Operating Partnership to holders of its OP Units.
+41
+Table of Contents
+ITEM 6. E
+XHIBITS
+The following exhibits are filed with this report:
+EXHIBIT
+NO.
+DESCRIPTION
+2.1
+Plan of Sale and Liquidation (Exhibit 2.1 to Aimco's Current Report on Form 8-K, dated November 10, 2025, is incorporated herein by this reference)
+3.1
+Charter – Articles of Amendment and Restatement (Exhibit 3.1 to Aimco’s Current Report on Form 8-K, dated October 2, 2023, is incorporated herein by this reference)
+3.2
+Amended and Restated Bylaws (Exhibit 3.1 to Aimco
+’
+s Current Report on Form 8-K, dated April 28, 2023, is incorporated herein by this reference)
+3.3
+Articles Supplementary of Apartment Investment Management Company (Exhibit 3.1 to Aimco’s Current Report on Form 8-K, dated December 15, 2020, is incorporated herein by this reference)
+10.1
+Amended and Restated Agreement of Limited Partnership of Aimco OP L.P., effective as of December 14, 2020 (Exhibit 10.1 to Aimco's Quarterly Report on Form 10-Q for the quarterly period ended March 31, 2025, filed May 8, 2025, is incorporated herein by this reference)
+31.1
+Certification of Chief Executive Officer pursuant to Securities Exchange Act Rules 13a-14(a)/15d-14(a), as Adopted Pursuant to Section 302 of the Sarbanes-Oxley Act of 2002 – Aimco
+31.2
+Certification of Chief Financial Officer pursuant to Securities Exchange Act Rules 13a-14(a)/15d-14(a), as Adopted Pursuant to Section 302 of the Sarbanes-Oxley Act of 2002 – Aimco
+31.3
+Certification of Chief Executive Officer pursuant to Securities Exchange Act Rules 13a-14(a)/15d-14(a), as Adopted Pursuant to Section 302 of the Sarbanes-Oxley Act of 2002 – Aimco Operating Partnership
+31.4
+Certification of Chief Financial Officer pursuant to Securities Exchange Act Rules 13a-14(a)/15d-14(a), as Adopted Pursuant to Section 302 of the Sarbanes-Oxley Act of 2002 – Aimco Operating Partnership
+32.1
+Certifications of Chief Executive Officer and Chief Financial Officer Pursuant to 18 U.S.C. Section 1350, as Adopted Pursuant to Section 906 of the Sarbanes-Oxley Act of 2002 – Aimco
+32.2
+Certifications of Chief Executive Officer and Chief Financial Officer Pursuant to 18 U.S.C. Section 1350, as Adopted Pursuant to Section 906 of the Sarbanes-Oxley Act of 2002 – Aimco Operating Partnership
+EXHIBIT
+NO.
+DESCRIPTION
+101
+The following materials from Aimco’s and Aimco Operating Partnership’s combined Quarterly Report on Form 10-Q for the quarterly period ended June 30, 2026, formatted in iXBRL (Inline Extensible Business Reporting Language): (i) condensed consolidated statement of net assets; (ii) condensed consolidated balance sheet; (iii) condensed consolidated statement of changes in net assets (iv) condensed consolidated statements of operations; (v) condensed consolidated statements of equity and partners’ capital; (vi) condensed consolidated statements of cash flows; and (vii) notes to condensed consolidated financial statements.
+104
+Cover Page Interactive Data File (embedded within the Inline XBRL document).
+42
+Table of Contents
+SIGNATURES
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized.
+APARTMENT INVESTMENT AND
+MANAGEMENT COMPANY
+By:
+/s/ H. Lynn C. Stanfield
+H. Lynn C. Stanfield
+Executive Vice President and Chief Financial Officer
+By:
+/s/ Kellie E. Dreyer
+Kellie E. Dreyer
+Senior Vice President and Chief Accounting Officer
+AIMCO OP L.P.
+By:
+Aimco OP GP, LLC, its General Partner
+By:
+/s/ H. Lynn C. Stanfield
+H. Lynn C. Stanfield
+Executive Vice President and Chief Financial Officer
+By:
+/s/ Kellie E. Dreyer
+Kellie E. Dreyer
+Senior Vice President and Chief Accounting Officer
+Date: August 6, 2026
+43

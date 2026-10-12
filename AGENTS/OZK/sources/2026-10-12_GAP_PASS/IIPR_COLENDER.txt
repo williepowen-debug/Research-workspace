@@ -1,0 +1,1930 @@
+EX-10.3
+4
+tm2626535d1_ex10-3.htm
+EXHIBIT 10.3
+Exhibit 10.3
+EXECUTION
+VERSION
+CO-LENDER AGREEMENT
+Dated as of September 28, 2026
+by and among
+NREF
+OP IV REIT SUB, LLC
+,
+in its capacity as Administrative Agent,
+NREF
+OP IV SUBHOLDCO, LLC
+,
+as Initial Note A-1 Holder,
+IIP
+LIFE SCIENCE INVESTMENTS II LLC
+,
+as Initial Note A-2 Holder, and
+NREF
+OP IV SUBHOLDCO, LLC
+,
+as Initial Note A-3 Holder
+TABLE
+OF CONTENTS
+Page
+Article I DEFINITIONS
+2
+1.1
+Terms Defined in this Agreement
+2
+1.2
+Definitions Incorporated from Other Agreements
+7
+Article II THE ADMINISTRATIVE AGENT AND SERVICER
+7
+2.1
+Appointment and Authorization
+7
+2.2
+Actions Requiring Consent and Approval
+7
+2.3
+Liability of Administrative Agent
+13
+2.4
+Reliance by Administrative Agent
+13
+2.5
+Representations and Warranties
+14
+2.6
+Noteholder Indemnification
+15
+2.7
+Expenses of Noteholders
+16
+2.8
+Administrative Agent, Servicer, Noteholders and Affiliates in Individual Capacity
+16
+2.9
+Successor Administrative Agent and Servicer
+17
+2.10
+Additional Administrative Agent Duties
+17
+2.11
+Bankruptcy of Borrower; Return of Funds
+18
+Article III REPLACEMENT NOTES
+19
+3.1
+Replacement Notes
+19
+Article IV PRIORITY; DISTRIBUTIONS
+19
+4.1
+Priority
+19
+4.2
+Distributions
+19
+4.3
+Priority of Payments
+20
+4.4
+Other Distributions
+20
+Article V DISTRIBUTIONS AFTER WORKOUTS
+21
+5.1
+Distributions after Workouts
+21
+Article VI PROTECTIVE ADVANCES
+21
+6.1
+Protective Advances
+21
+Article VII SUBSEQUENT FUNDING
+22
+7.1
+Subsequent Funding
+22
+7.2
+Intercreditor Payments
+23
+Article VIII MISCELLANEOUS
+24
+8.1
+Terms of Agreement
+24
+8.2
+Modifications
+24
+8.3
+Successors and Assigns
+24
+8.4
+Notices
+24
+8.5
+Prior Agreements
+24
+8.6
+Conflict; Construction of Documents
+24
+8.7
+Governing Law
+24
+i
+8.8
+Submission to Jurisdiction
+25
+8.9
+WAIVER OF JURY TRIAL
+25
+8.10
+Counterparts
+25
+8.11
+Third-Party Beneficiaries
+26
+8.12
+A-2 Noteholder Right of First Offer
+26
+Article IX REIT PROTECTIONS
+26
+9.1
+Definitions
+26
+9.2
+Safe Harbor Acknowledgment
+26
+9.3
+Administration and Remedies Consistent with Safe Harbor
+27
+9.4
+IIP Control Rights to Protect REIT Status
+28
+9.5
+A-2 Noteholder Purchase Option
+28
+9.6
+Additional Requirements
+29
+9.7
+Control; Conflicts
+30
+Exhibit A
+Loan Documents
+Exhibit B
+Notice Addresses
+Exhibit C
+Commitment Percentages
+ii
+CO-LENDER
+AGREEMENT
+THIS
+CO-LENDER AGREEMENT
+dated as of September 28, 2026 (as amended, restated, replaced, supplemented or otherwise modified
+from time to time, this “
+Agreement
+”), is made between
+NREF OP IV REIT SUB, LLC
+, a Delaware limited liability
+company, having a place of business at 300 Crescent Court, Suite 700, Dallas, Texas 75201, as Administrative Agent (in such capacity,
+“
+Initial Administrative Agent
+”),
+NREF OP IV SUBHOLDCO, LLC
+, a Delaware limited liability company, having
+an office at 300 Crescent Court, Suite 700 Dallas, Texas 75201, (in such capacity, “
+Initial A-1 Noteholder
+”),
+IIP
+LIFE SCIENCE INVESTMENTS II LLC
+, a Delaware limited liability company, having an office at 11440 W. Bernardo Court, San Diego, California
+92127 (in such capacity, “
+Initial A-2 Noteholder
+”), and
+NREF OP IV SUBHOLDCO, LLC
+, a Delaware limited
+liability company, having an office at 300 Crescent Court, Suite 700, Dallas, Texas 75201, (in such capacity, “
+Initial
+A-3 Noteholder
+”) and the other Persons (as defined herein) that become Noteholders (as defined herein) and parties to this
+Agreement from time to time in accordance with the terms hereof.
+W I
+T N E S S E T H:
+WHEREAS
+,
+IQHQ-ALEWIFE
+HOLDINGS, LLC
+, a Delaware limited liability company (“
+Borrower
+”), Initial Administrative Agent and
+Initial
+A-1
+Noteholder entered into that certain Amended and Restated Mezzanine Loan and
+Security Agreement dated as of September 30, 2025, that certain First Amendment to Amended and Restated Mezzanine Loan and Security
+Agreement dated as of March 31, 2026, that certain Second Amendment to Amended and Restated Mezzanine Loan and Security Agreement
+dated as of April 16, 2026, that certain Third Amendment to Amended and Restated Mezzanine Loan and Security Agreement dated as of
+April 24, 2026 and that certain Fourth Amendment to Amended and Restated Mezzanine Loan and Security Agreement dated as of May 1,
+2026, and that certain Fifth Amendment to Amended and Restated Mezzanine Loan and Security Agreement dated as of May 15, 2026 (as
+so amended, and as the same may be amended, supplemented or otherwise modified from time to time, the “
+Existing Loan Agreement
+”),
+whereby Lenders (as defined in the Existing Loan Agreement) made a loan (the “
+Initial Loan
+”) to Borrower in
+the maximum amount of ONE HUNDRED THIRTY-THREE MILLION and 00/100 Dollars ($133,000,000.00) for the purposes as set forth in the Loan
+Agreement;
+WHEREAS
+,
+to evidence the Loan, the Borrower executed and delivered that certain Mezzanine Promissory Note (“
+Note A-1
+”)
+in the maximum principal amount of up to $133,000,000 in favor of Initial A-1 Noteholder, dated as of September 30, 2025;
+WHEREAS
+,
+to secure the Note A-1, Borrower granted for the benefit of the Initial Administrative Agent and Initial A-1 Noteholder that certain Mezzanine
+Pledge and Security Agreement (Sole Member) dated as of January 26, 2024 (as amended, modified, supplemented, restated or replaced
+from time to time, the “
+Sole Member Pledge Agreement
+”) pledging 100% of the direct membership interests in
+IQHQ-ALEWIFE
+MEMBER, LLC
+, a Delaware limited liability company, which owns one hundred percent (100%) of the limited liability company interests
+in
+IQHQ-ALEWIFE, LLC
+, a Delaware limited liability company (“
+Mortgage Borrower
+”);
+WHEREAS
+,
+to secure the Note A-1,
+IQHQ-ALEWIFE MEMBER, LLC
+, a Delaware limited liability
+company, granted for the benefit of the Initial Administrative Agent and Initial A-1 Noteholder, that certain Mezzanine Pledge and Security
+Agreement (Mortgage Borrower), dated as of January 26, 2024 (as amended, modified, supplemented, restated or replaced from time to
+time, the “
+Mortgage Borrower Pledge Agreement
+” and together with the Sole Member Pledge Agreement, the “
+Pledge
+Agreements
+”) pledging 100% of the direct membership interests in Mortgage Borrower, which Mortgage Borrower owns certain
+real property in Cambridge, Massachusetts (the “
+Property
+”);
+WHEREAS
+,
+the A-1 Note and the obligations of Borrower contained therein are and shall continue to remain secured by the Pledge Agreement;
+WHEREAS
+,
+to further evidence the Loan, the Borrower additionally executed or caused to be executed and delivered in favor of Initial A-1 Noteholder
+the documents listed on
+Exhibit A
+attached hereto and made a part hereof (such documents listed on
+Exhibit A
+,
+collectively, the “
+Loan Documents
+”);
+WHEREAS
+,
+the Initial A-1 Noteholder appointed the Initial Administrative Agent as the administrative agent pursuant to the Existing Loan Agreement.
+WHEREAS
+,
+the Borrower has requested that the Lenders increase the Loan by the maximum principal amount of $267,000,000 (the “
+Loan Increase
+”).
+The Lenders are willing to increase the Loan pursuant to, and in accordance with, the terms of that certain Sixth Amendment to Amended
+and Restated Mezzanine Loan and Security Agreement of even date herewith by and between Borrower and Initial Administrative Agent and
+the Lenders (the “
+Sixth Amendment
+”). Concurrently herewith, Borrower is executing and delivering to Initial
+Administrative Agent on behalf of the Lenders (1) that certain Mezzanine Promissory Note B (“
+Note A-2
+”)
+in the maximum principal amount of $245,000,000.00 made by Borrower in favor of Initial A-2 Noteholder, and (2) that certain Mezzanine
+Promissory Note C (“
+Note A-3
+”) (each of Note A-1, Note A-2 and Note A-3 is referred to herein as a “
+Note
+”
+and collectively, as the “
+Notes
+”) in the maximum principal amount of $22,000,000.00 made by Borrower in favor
+of Initial A-3 Noteholder. (The Existing Loan Agreement, as amended by the Sixth Amendment, is referred to herein as the “
+Loan
+Agreement
+”). Capitalized terms used but not otherwise defined herein shall have the respective meanings given thereto in the
+Loan Agreement.
+WHEREAS
+,
+the Lenders desire to establish the relative rights, benefits, obligations and priorities of the Noteholders (as defined herein) with
+respect to the Loan.
+NOW
+THEREFORE
+, for valuable consideration, the receipt and adequacy of which are hereby acknowledged, the parties hereto hereby
+agree as follows:
+Article I
+DEFINITIONS
+1.1
+Terms
+Defined in this Agreement
+. As used herein, the following capitalized terms shall have the following meanings:
+“
+A-1 Noteholder
+”
+means the Initial A-1 Noteholder and any subsequent holder of Note A-1 that becomes a party to this Agreement.
+-
+2
+-
+“
+A-2 Noteholder
+”
+means the Initial A-2 Noteholder and any subsequent holder of Note A-2 that becomes a party to this Agreement.
+“
+A-3 Noteholder
+”
+means the Initial A-3 Noteholder and any subsequent holder of Note A-3 that becomes a party to this Agreement.
+“
+Accepted Servicing
+Practices
+” means to service, manage and administer the Loan using good faith business judgment and the same degree of care
+and diligence with which Administrative Agent services and administers loans similar to the Loan that Administrative Agent owns for its
+own account, acting in accordance with applicable law, the terms of this Agreement and the Loan Documents.
+“
+Administrative
+Agent
+” means Initial Administrative Agent and any successor Administrative Agent appointed pursuant to the terms of this
+Agreement and the Loan Agreement.
+“
+Affiliate
+”
+means, as to any particular Person, any Person directly or indirectly, through one or more intermediaries, Controlling, Controlled by
+or under common Control with the Person or Persons in question.
+“
+Agreement
+”
+is defined in the Preamble hereto.
+“
+Bankruptcy Proceeding
+”
+means any case, proceeding or other action against the applicable Person under any existing or future law of any applicable jurisdiction
+relating to bankruptcy, insolvency, reorganization or relief of debtors.
+“
+Borrower
+”
+is defined in the Recitals hereto.
+“
+Borrower Party
+”
+means any Person that, directly or indirectly, (1) owns more than ten percent (10%) of, or (2) is in control of, is controlled
+by or is under common ownership or control with, Borrower or Guarantor, where “control” means the possession, directly or
+indirectly, of the power to direct or cause the direction of the management and policies of such Person, whether through the ownership
+of voting securities, by contract or otherwise.
+“
+Closing Date
+Advance
+” has the meaning set forth in
+Section 2.7
+.
+“
+Commitment
+”
+or “
+Commitments
+” means, with respect to a given Noteholder, such Noteholder’s undivided legal and beneficial
+interest in the Loan, the interest thereon, and any fees and other sums payable under the Loan Documents with respect thereto, and any
+proceeds of the foregoing. The Commitment of each Noteholder shall be equal to the percentages specified in
+Exhibit C
+to this
+Agreement with respect to a Noteholder, subject to any Transfers of portions of the Loan made in accordance with the terms of this Agreement.
+For the avoidance of doubt, the funding of any Protective Advance by any Noteholder shall not increase the Commitment of such funding
+Noteholder.
+“
+Control
+”
+with respect to any Person, means either (i) the ownership, directly or indirectly, of more than fifty percent (50%) (except where
+the word “control” is otherwise defined in this Agreement) of the beneficial interests in such Person or (ii) the possession,
+directly or indirectly, of the power to direct or cause the direction of the management and policies of such Person, through the ownership
+of voting securities, by contract or otherwise. “Controlled by,” “controlling” and “under common control
+with” shall (except where the word “control” is otherwise defined in this Agreement) have the respective correlative
+meanings thereto.
+-
+3
+-
+“
+Costs
+”
+is defined in
+Section 4.4
+.
+“
+Directing Mezzanine
+Lender
+” has the meaning assigned to such term in the Intercreditor Agreement.
+“
+Existing Loan
+Agreement
+” is defined in the Recitals.
+“
+IIP
+”
+means IIP Life Science Investments II LLC and Innovative Industrial Properties, Inc. and any of their direct or indirect subsidiaries.
+“
+IIP Lender Obligations
+”
+means all Debt and all other obligations, indebtedness and liabilities of Borrower under the Agreement and the other Loan Documents that
+are evidenced by, or arise in respect of, Note A-2, or that are otherwise owing to any IIP Lender in its capacity as such, provided, however,
+that, notwithstanding the foregoing or anything in the Loan Documents to the contrary, the IIP Lender Obligations shall not include, and
+expressly exclude, any obligations, indebtedness or liabilities under or in respect of the Carry Guaranty, all of which shall constitute
+Non-IIP Lender Obligations, as more particularly set forth in Section 19(f) of the Sixth Amendment. The IIP Lender Obligations
+constitute the “REIT Lender Obligations”, and the Non-IIP Lender Obligations constitute the “Non-REIT Lender Obligations”
+in each case as defined in the Sixth Amendment.
+“
+Indemnified Liabilities
+”
+is defined in Section 2.6.
+“
+Intercreditor
+Agreement
+” means that certain Intercreditor Agreement dated as of September 30, 2025, by and among the Senior Lenders
+and the Mezzanine Lenders, as amended by the First Amendment to Intercreditor Agreement of even date herewith and as the same may be further
+amended, restated, supplemented or otherwise modified from time to time.
+“
+Initial Administrative
+Agent
+” shall have the meaning assigned to such term in the Preamble hereto.
+“
+Initial A-1 Noteholder
+”
+is defined in the Preamble hereto.
+“
+Initial A-2 Noteholder
+”
+is defined in the Preamble hereto.
+“
+Initial A-3 Noteholder
+”
+is defined in the Preamble hereto.
+“
+Initial Loan
+”
+is defined in the Recitals.
+“
+Loan
+”
+means the Initial Loan as modified by the Loan Increase.
+-
+4
+-
+“
+Loan Increase
+”
+is defined in the Recitals.
+“
+Loan Agreement
+”
+is defined in the Recitals.
+“
+Loan Documents
+”
+is defined in the Recitals.
+“
+Mortgage Borrower
+”
+is defined in the Recitals.
+“
+Mortgage Borrower
+Pledge Agreement
+” is defined in the Recitals.
+“
+Non-IIP Lender
+Obligations
+” means all Debt and all other obligations, indebtedness and liabilities of Borrower under the Agreement and
+the other Loan Documents, other than the IIP Lender Obligations.
+“
+Non-IIP Lender
+”
+means any Lender that is not IIP.
+“
+Pledge
+Agreements
+” is defined in the Recitals.
+“
+Note
+”
+and “
+Notes
+” are defined in the Recitals and shall also refer to any Replacement Note(s) given in replacement
+or substitution therefor. For the avoidance of doubt, Note A-1, Note A-2 and Note A-3 correspond to, and are the same instruments as,
+“Note A,” “Note B” and “Note C”, respectively, as such terms are defined in the Loan Agreement.
+“
+Note A-1
+”
+is defined in the Recitals.
+“
+Note A-2
+”
+is defined in the Recitals.
+“
+Note A-3
+”
+is defined in the Recitals.
+“
+Noteholder
+”
+means each of (i) A-1 Noteholder, (ii) A-2 Noteholder, (iii) A-3 Noteholder and (iii) the holder of any Replacement
+Note(s).
+“
+Noteholder Reply
+Period
+” is defined in
+Section 2.2(e)
+.
+“
+Note Principal
+Balance
+” means, with respect to a Note, at any time of determination, the outstanding amount of Loan proceeds advanced under
+such Note (including any Loan Increase Closing Fees and interest payments advanced by the Noteholders in accordance with the Loan Agreement)
+less any payments of principal thereon received or made on or before the applicable time of determination; provided that the “Note
+Principal Balance” shall not include any amounts funded by a Noteholder as a Protective Advance.
+“
+Note Purchase
+Price
+” has the meaning set forth in
+Section 9.5(a)
+.
+“
+Person
+”
+shall mean any individual, corporation, limited liability company, partnership, joint venture, association, joint-stock company, trust,
+unincorporated organization or government or any agency or political subdivision thereof.
+“
+Pledge Agreements
+”
+is defined in the Recitals.
+-
+5
+-
+“
+Pro Rata Share
+”
+means, as of any date, the ratio (expressed as a percentage) of the Commitment of a Noteholder to the aggregate of all Commitments of
+all of the Noteholders, which is initially as set forth on
+Exhibit C
+attached hereto.
+“
+Pro Rata Share
+(Loan Increase)
+” means, as of any date, the ratio (expressed as a percentage) of the Commitment of A-2 Noteholder and A-3
+Noteholder to the aggregate of all Commitments of both A-2 Noteholder and A-3 Noteholder.
+“
+Property
+”
+is defined in the Recitals.
+“
+Protective Advance
+”
+means all sums required to be expended in respect of any (or all) of the following: (i) to remove any lien or security interest on
+the pledged collateral that is senior to the lien of the Pledge Agreements, (ii) to pay real property taxes, insurance premiums or
+other operating expenses or capital expenses not paid by the Borrower or Mortgage Borrower, (iii) to protect and preserve the value
+or safety of the security of any collateral given as security for the Loan, (iv) to pay for expenditures which are emergency in nature,
+or which are necessary to prevent personal injury, the occurrence of life safety or health issues and/or material damage or substantial
+economic harm to the Property, or which are required by applicable law and (v) to cure any default under the Senior Loan.
+“
+Repayment Pro
+Rata Share
+” means, as of any date, the ratio (expressed as a percentage) of (x) the aggregate of the Commitment funded
+by a Noteholder to (y) the aggregate of all advances funded by the Noteholders, on account of their respective Commitments.
+“
+Removal Notice
+”
+is defined in Section 2.9.
+“
+Replacement Note
+”
+or “Replacement Notes” shall have the meanings assigned to such terms in
+Section 3.1
+.
+“
+Required Noteholders
+”
+means Noteholders who, in the aggregate, hold a Pro Rata Share equal to one hundred percent (100%).
+“
+Securities Act
+”
+means the Securities Act of 1933, as amended.
+“
+Servicer
+”
+means NREF OP IV REIT SUB, LLC, and any other servicer or special servicer engaged by Administrative Agent to perform servicing and/or
+special servicing duties with respect to the Loan.
+“
+Servicing Fee
+”
+means the fee payable to any Servicer for servicing the Loan.
+“
+Sixth Amendment
+”
+is defined in the Recitals.
+“
+Transfer
+”
+means any assignment, pledge, conveyance, sale, transfer, mortgage, encumbrance, grant of a security interest in, issuance of a participation
+interest, or other disposition, either directly or indirectly, by operation of law or otherwise.
+“
+Unanimous Decision
+”
+shall have the meaning assigned to such term in
+Section 2.2(b)
+.
+-
+6
+-
+“
+Unfunded Commitment
+”
+means the obligation of a Noteholder to make future advances pursuant to such Noteholder’s Commitment under any Loan Agreement.
+“
+Unfunded Pro
+Rata Share
+” means, as of any date, the ratio (expressed as a percentage) of the Unfunded Commitment of a Noteholder to the
+aggregate of all Unfunded Commitments of all of the Noteholders, which is initially as set forth on
+Exhibit C
+attached hereto.
+1.2
+Definitions
+Incorporated from Other Agreements
+. Capitalized terms not otherwise defined herein shall have the meanings ascribed to such terms
+in the Loan Agreement.
+Article II
+THE
+ADMINISTRATIVE AGENT AND SERVICER
+2.1
+Appointment
+and Authorization
+.
+(a)
+Each
+Noteholder hereby irrevocably reaffirms and ratifies the appointment of Administrative Agent as the Administrative Agent under the Loan
+Agreement.
+(b)
+Subject
+to
+Sections 2.2
+and
+Article IX
+to the duty of the Administrative Agent to comply with the terms of the Loan Agreement,
+each Noteholder authorizes Administrative Agent to take such actions on its behalf under the provisions of the Loan Agreement and the
+Loan Documents and to exercise such powers and perform such duties as are expressly delegated to it by the terms of the Loan Agreement
+and the Loan Documents, together with such powers as are reasonably incidental thereto, and each Noteholder agrees that it shall be bound
+by the terms of the Loan Agreement, this Agreement and the Loan Documents and by any actions or decisions taken by Administrative Agent
+under the Loan Agreement, this Agreement and/or the Loan Documents pursuant to their respective terms.
+(c)
+Each
+Noteholder expressly and irrevocably waives for itself and any Person claiming through or under any such Noteholder any and all rights
+that it may have under Article 9 of the Uniform Commercial Code or the provisions of any similar law that would permit a Noteholder
+to independently enforce any remedies against the pledged collateral or initiate any UCC foreclosure or other enforcement proceedings.
+(d)
+Each
+Noteholder and Administrative Agent hereby acknowledges and agrees that the rights and obligations of the Noteholders and Administrative
+Agent hereunder shall be subject to
+Article IX
+and the terms and provisions of this Agreement, the Loan Agreement and the
+Loan Documents.
+2.2
+Actions
+Requiring Consent and Approval
+. The rights, duties and powers granted to Administrative Agent in this Agreement are intended by
+the Noteholders to be exclusive and broad, subject to the duty of Administrative Agent to comply with Accepted Servicing Practices, the
+Loan Documents and all applicable laws and the consent requirements expressed in this
+Section 2.2
+in connection with any action
+under the Loan Documents that is taken by Administrative Agent.
+-
+7
+-
+(a)
+Administrative
+Agent shall not take any of the following actions and shall not authorize Servicer to take any of the following actions, unless Administrative
+Agent has first received the written consent of A-2 Noteholder (it being agreed that if the “Lender” is required to be reasonable
+with respect to approving or consenting to a given action or item under the Loan Agreement or other Loan Documents, then the A-2 Noteholder
+shall be reasonable in providing its consent or approval of such action or item hereunder):
+(i)
+to
+purchase the Senior Loan;
+(ii)
+to
+replace Senior Lender;
+(iii)
+to
+cure defaults under the Senior Loan; and
+(iv)
+make
+or authorize any Advance of Loan proceeds under Note A-2 (other than an Advance to pay interest on a Note, a Protective Advance, or the
+September Loan Advance or Loan Increase Closing Fees expressly contemplated by the Sixth Amendment) without the prior written consent
+of the A-2 Noteholder, provided that the A-2 Noteholder shall be subject to any applicable Defaulting Lender provisions in the Loan Agreement
+if it fails to make Advances under Note A-2 to the extent that the conditions to such advance in the Loan Agreement are satisfied;
+provided, however, that (x) unless A-1 Noteholder
+and the A-2 Noteholder agree to any of the foregoing actions described in clauses (i), (ii) and (iii), A-2 Noteholder shall fund
+the entire amount necessary to cause such action(s) and (y) if A-2 Noteholder does not timely consummate any of the foregoing
+actions, A-1 Noteholder may unilaterally take such action if A-1 Noteholder funds the entire amount necessary to cause such action.
+(b)
+Administrative
+Agent shall not take any of the following actions and shall not authorize Servicer to take any of the following actions, unless Administrative
+Agent has first received the written consent of all Noteholders (a “
+Unanimous Decision
+”) (it being agreed that
+if the “Lender” is required to be reasonable with respect to approving or consenting to a given action or item under the Loan
+Agreement or other Loan Documents, then the Noteholders shall be reasonable in providing their consent or approval of such action or item
+hereunder):
+(i)
+extend
+or shorten the Maturity Date (except in accordance with the terms and conditions of any extension options contained in the Loan Documents)
+or the date on which any monthly payment of principal and interest on the Loan is due and payable to Noteholders (except in accordance
+with the terms and conditions of any extension options contained in the Loan Documents);
+(ii)
+cross-default
+the Loan with any other loan;
+(iii)
+consent
+to or waive any provision of the Loan Documents relating to the sale, transfer or encumbrance of any portion of the Property (or any interest
+therein) or any direct or indirect ownership interest therein or any direct or indirect ownership interest in Borrower (or any interest
+therein), except as may be expressly provided for in the Loan Documents without Lender’s consent, or amend, modify or waive any
+provision of the Loan Agreement relating to the foregoing;
+-
+8
+-
+(iv)
+release,
+in whole or in part, the liability of any party for the payment of the indebtedness evidenced by the Notes or for the performance of any
+monetary or material non-monetary obligations under the Loan Documents (including, without limitation, releasing any guarantor from any
+obligations under any Loan Documents);
+(v)
+determine
+the amount of any credit bid to be made by Administrative Agent in any UCC foreclosure;
+(vi)
+modify
+the terms and provisions of any “Event of Default” under the Loan Documents;
+(vii)
+(A) consent
+to any additional indebtedness of Borrower (whether or not secured by all or any portion of the Property), except indebtedness that is
+expressly permitted to be incurred by Borrower pursuant to the Loan Documents and/or trade payables and other indebtedness incurred by
+Borrower in the ordinary course of its business or (B) amend, modify or waive any material provision of the Loan Agreement or other
+Loan Documents relating to the foregoing;
+(viii)
+except
+as otherwise provided in
+Section 2.2(d)
+below, accelerate the Loan, sue on the Notes evidencing the Loan, exercise remedies
+under the Pledge Agreements, including through a UCC foreclosure or other sale of the pledged collateral, or sue or make demand on any
+guaranty or any environmental indemnity;
+(ix)
+take
+any action with respect to any environmental condition on the Property;
+(x)
+accept,
+receive or apply any prepayment of all or any portion of the principal of the Loan other than as is expressly permitted under the terms
+of the Loan Documents;
+(xi)
+agree
+to any forbearance arrangements in connection with any monetary or material non-monetary Default or Event of Default of any Borrower Party
+under the Loan Documents which contemplates a forbearance of more than thirty (30) consecutive days (provided that the foregoing shall
+not prohibit Administrative Agent from entering into any pre-negotiation agreements with any Borrower Party);
+(xii)
+approve
+changes in zoning of the Property;
+(xiii)
+approve
+any Affiliate (as defined in the Loan Agreement) transactions that are otherwise prohibited by the terms of the Loan Agreement;
+(xiv)
+solely
+to the extent approval of Administrative Agent or Lender is required pursuant to the Loan Documents, approve any new Leases or any modifications,
+terminations or assignments of any new or existing Leases;
+(xv)
+waive
+the payment of any late charge or interest accruing at the Default Rate (or reduce the rate of the Default Rate at which interest accrues)
+for a period of more than five (5) consecutive days;
+-
+9
+-
+(xvi)
+consent
+to any material modification of any of the Senior Loan Documents or Mortgage Loan Documents (other than as described in Section 2.2(a) above);
+(xvii)
+the
+making of any Protective Advance;
+(xviii)
+modify
+the terms of the Intercreditor Agreement; or
+(xix)
+exercise
+any rights, consents or approvals under the Intercreditor Agreement (other than to purchase the Senior Loan and take the other actions
+described in
+Section 2.2(a)
+).
+(xx)
+agree
+to reduce, waive, defer or forgive all or any portion of the principal amount of the Loan (including, without limitation, in connection
+with the acceptance of a discounted payoff of the Loan) or any accrued non-default interest thereon, or enter into any other amendment,
+forbearance, modification or waiver of the Loan Agreement or the other Loan Documents, which amendment, forbearance, modification or waiver
+would reduce payment of the underlying principal amount or reduce the non-default interest rate;
+(xxi)
+increase
+the principal amount of the Loan, other than in connection with any Protective Advances made by Administrative Agent or any of the Noteholders
+in accordance with this Agreement or the Loan Agreement;
+(xxii)
+release,
+substitute or subordinate, in whole or in part, any material portion of any collateral for the Loan to any lien that secures borrowed
+money, except as may be expressly permitted in the Loan Documents without Lender’s consent;
+(xxiii)
+consent
+to or accept any cancellation or termination of any of the Loan Documents;
+(xxiv)
+waive
+any monetary Event of Default or material non-monetary Event of Default on the part of the Borrower or Guarantor;
+(xxv)
+file
+or consent to filing of any bankruptcy or insolvency petition with respect to the Borrower or any member or partner of the Borrower or
+any guarantor or vote on any plan of reorganization, restructuring or similar event in any bankruptcy or similar proceeding of the Borrower
+or any partner or member of the Borrower or any guarantor or take any other material action in any such proceeding (including buying claims
+of third-party creditors); or
+(xxvi)
+consent
+to any Transfers other than a Transfer permitted under the Loan Agreement.
+(c)
+In
+addition to the required consents or approvals referred to in subsections (a) and (b) of this
+Section 2.2
+above,
+Administrative Agent may, but shall not be required to, in Administrative Agent’s sole discretion, at any time request instructions
+or approval from the Required Noteholders with respect to any actions or approvals which, by the terms of this Agreement or of any of
+the Loan Documents, Administrative Agent would otherwise be permitted or required to take or to grant without consent from the Required
+Noteholders, and if such instructions are promptly requested, Administrative Agent shall be absolutely entitled to refrain from taking
+any action or to withhold any consent or approval and shall not be under any liability whatsoever for refraining from taking any action
+or withholding any consent or approval under any of the Loan Documents until it shall have received such instructions from the Required
+Noteholders, in which case, Administrative Agent shall act upon such direction from the Required Noteholders, so long as such action (i) does
+not violate applicable law or any provisions of the Loan Documents, and (ii) is reasonable under the circumstances and Administrative
+Agent shall be relieved from the requirement to follow Accepted Servicing Practices to the extent it has received instructions from the
+Required Noteholders. Without limiting the foregoing, no Noteholder shall have any right of action whatsoever against Administrative Agent
+as a result of Administrative Agent acting or refraining from acting under this Agreement or any of the other Loan Documents in accordance
+with the instructions of the Required Noteholders (except to the extent that Administrative Agent takes an action without the unanimous
+consent of the Noteholders with respect to a Unanimous Decision).
+-
+10
+-
+(d)
+If
+an Event of Default occurs under any of the Loan Documents, unless Administrative Agent has received a contrary direction from the Required
+Noteholders, Administrative Agent may, in accordance with Acceptable Servicing Practices, but without the consent of the Noteholders (except
+to the extent Noteholder consent is expressly required under
+Section 2.2(a)
+or
+(b)
+) exercise or refrain from exercising
+rights and remedies under the Loan Documents; provided, however, if (i) such Event of Default constitutes a monetary Event of Default
+or a material non-monetary Event of Default, (ii) such Event of Default remains uncured for a period of more than ninety (90) consecutive
+days and (iii) Administrative Agent has not otherwise received written direction from the Required Noteholders with respect to commencing
+the enforcement of remedies or otherwise effectuating a consensual work-out of the Loan, then Administrative Agent shall, and is hereby
+authorized by the Noteholders to, (x) if it has not already done so, accelerate the Loan and (y) commence and prosecute to completion
+a UCC foreclosure of the pledged collateral and exercise of any other remedies it determines are appropriate in accordance with Accepted
+Servicing Practices; provided, further, that in the event the Required Noteholders provide Administrative Agent with a contrary direction
+at any time (including after Administrative Agent has commenced enforcing any remedies under the Loan Documents), then Administrative
+Agent shall follow such direction. At all times from and after the occurrence of such Event of Default, Administrative Agent shall keep
+the Noteholders fully apprised of all such actions and any actions thereafter taken or proposed to be taken by Administrative Agent shall
+remain subject to the further consent and approval of the Required Noteholders as may be applicable pursuant to the applicable provisions
+of this
+Section 2.2
+.
+(e)
+Each
+Noteholder acknowledges it has received and has approved the Loan Documents. Each Noteholder agrees that any action taken by Administrative
+Agent that is permitted hereunder without the consent of the Noteholders (provided, such action is in accordance with Accepted Servicing
+Practices), and the exercise by Administrative Agent of other powers as are reasonably incidental thereto, shall be authorized and binding
+upon all of the Noteholders. All communications from Administrative Agent to the Noteholders requesting a Noteholder’s determination,
+consent, approval or disapproval (i) shall be given in the form of a written notice to each Noteholder, but may be given by email
+to the email address set forth on
+Exhibit B
+, (ii) shall be delivered in accordance with
+Section 8.4
+, (iii) shall
+be accompanied by a reasonably detailed description of the matter or item as to which such determination, approval, consent or disapproval
+is requested, or shall advise each Noteholder where such matter or item may be inspected, or shall otherwise describe the matter or issue
+to be resolved, (iv) shall include, to the extent not previously provided to the Noteholders, all written materials (to the extent
+necessary to make an informed decision) provided to the Administrative Agent with respect of the matter or issue to be resolved, and (v) shall
+include Administrative Agent’s recommended course of action or determination in respect thereof. Each Noteholder shall reply promptly,
+but in any event within the earlier of (x) five (5) Business Days after receipt of the request therefor from Administrative
+Agent and (y) two (2) Business Days less than the period given to respond to such request under the Loan Documents, as the case
+may be (the “
+Noteholder Reply Period
+”); provided, that the Administrative Agent may, in its sole discretion,
+shorten the Noteholder Reply Period if the Loan Documents, any third party agreements (including, without limitation, insurance policies)
+benefiting the Borrower, Guarantor or the Property, emergency or life safety issues affecting the Property or any Governmental Authority
+with jurisdiction over the Borrower, Guarantor or Property impose or require a shorter time period to respond. Each request for Noteholder
+consent under
+Section 2.2(a)
+or
+(b)
+or elsewhere in this Agreement shall be marked in bold lettering with
+the following language: “NOTEHOLDER’S RESPONSE IS REQUIRED WITHIN [___] (__) BUSINESS DAYS AFTER RECEIPT OF THIS NOTICE IN
+ACCORDANCE WITH THE TERMS OF THE CO-LENDER AGREEMENT,” with the blank in such language replaced by the applicable number. Unless
+a Noteholder delivers written notice to Administrative Agent, within the Noteholder Reply Period, that the Noteholder objects to the recommendation
+or determination of Administrative Agent, the Noteholder shall be deemed to have approved of or consented to such recommendation or determination.
+With respect to Unanimous Decisions, Administrative Agent shall submit its recommendation or determination for approval of or consent
+to such recommendation or determination to each Noteholder along with such request for Noteholder consent and upon receiving the required
+approval or consent shall follow the course of action or determination recommended by Administrative Agent or such other course of action
+recommended in a single instrument executed by the Required Noteholders or all of the Noteholders, as applicable, and each non-responding
+Noteholder shall be deemed to have concurred with such recommended course of action.
+-
+11
+-
+(f)
+Notwithstanding
+anything to the contrary set forth in
+Section 2.2(a)
+or
+(b)
+above, Administrative Agent may grant waivers
+of conditions to future funding draws or the release of escrows under the Loan Documents on a case-by-case basis in accordance with Accepted
+Servicing Practices but only (x) with respect to future funding draws with respect to the Note A-2, with the consent of the A-2 Noteholder,
+and (y) with respect to future funding draws with respect to Note A-3, with the consent of the A-3 Noteholder; provided, however,
+that no waiver of any condition to an Advance under Note A-2 or release of escrows under the Loan Documents, whether or not such condition
+is material, may be granted without the prior written consent of the A-2 Noteholder.
+(g)
+Administrative
+Agent shall forward to each Noteholder, within five (5) Business Days after receipt, any request for approval under Section 5.1.25
+of the Loan Agreement together with all materials accompanying such request. Notwithstanding anything to the contrary in this Agreement
+or the Loan Agreement, Administrative Agent shall not permit any approval of a new Lease or any amendment, modification, renewal or extension
+of a Lease to be deemed given under Section 19.31 of the Loan Agreement (or any comparable deemed-approval provision) with respect
+to any Lila Lease or any Major Lease without first obtaining the written consent of the Noteholders required under this
+Section 2.2
+.
+The Noteholder Reply Period with respect to any such request shall be measured against the full period available to Administrative Agent
+under Section 19.31 of the Loan Agreement, and not against any shortened second-request period.
+-
+12
+-
+2.3
+Liability
+of Administrative Agent
+. Neither Administrative Agent, nor any of its directors, officers, employees or agents shall (a) be
+liable for any action taken or omitted to be taken by any of them under or in connection with this Agreement or any other Loan Document
+or the transactions contemplated hereby or thereby (except to the extent resulting from its own gross negligence, fraud or willful misconduct),
+or (b) be responsible in any manner to any of the Noteholders for any recital, statement, representation or warranty made by Borrower,
+Guarantor, or any member, partner, shareholder or officer of Borrower or Guarantor, contained in any Loan Document, or in any certificate,
+report, statement or other document referred to or provided for in, or received by the Administrative Agent or Servicer under or in connection
+with, this Agreement or any other Loan Document, or the validity, effectiveness, genuineness, enforceability or sufficiency of this Agreement
+or any other Loan Document (or the creation, perfection or priority of any lien, pledge or security interest therein), or for any failure
+of Borrower, Guarantor or any other party to any Loan Document to perform its obligations hereunder or thereunder. Administrative Agent
+shall not be under any obligation to any Noteholder to ascertain or to inquire as to the observance or performance of any of the terms
+or agreements contained in, or conditions of, any Loan Document, or to inspect the properties, books or records of Borrower or Guarantor,
+but this statement shall not be construed to limit Administrative Agent’s duties to deliver notices and information as and to the
+extent provided in the other provisions of this Agreement. None of Administrative Agent or any of its directors, officers, employees or
+agents shall be liable for any action taken or omitted to be taken by Servicer (except to the extent resulting solely from Administrative
+Agent’s gross negligence, fraud or willful misconduct).
+2.4
+Reliance
+by Administrative Agent
+. Administrative Agent shall be entitled to rely, and shall be fully protected in relying, upon any writing,
+resolution, notice, consent, certificate, affidavit, letter, facsimile or telephone message, statement or other document or conversation
+believed by it in good faith to be genuine and correct and to have been signed, sent or made by the proper person or party, and upon advice
+and statements of legal counsel (including legal counsel to Borrower), independent accountants and other experts selected by Administrative
+Agent or Servicer, and upon advice and statements of legal counsel, independent accountants and other experts selected by Administrative
+Agent. Administrative Agent shall be fully justified in failing or refusing to take any action or make any decision under this Agreement
+or any other Loan Document unless it shall first receive such advice or concurrence of the Required Noteholders. Administrative Agent
+shall in all cases be fully protected in acting, or in refraining from acting or making decisions, under this Agreement or any other Loan
+Document in accordance with a request, consent or direction of the Required Noteholders, and such request and any action taken or decision
+made or failure to act or make a decision pursuant thereto shall be binding upon all of the Noteholders, and Administrative Agent shall
+in all cases not involving matters addressed in
+Section 2.2
+, be fully protected in acting, or in refraining from acting, under
+this Agreement or any other Loan Document;
+provided
+same is taken in accordance with Accepted Servicing Practices.
+-
+13
+-
+2.5
+Representations
+and Warranties
+.
+(a)
+Administrative
+Agent represents and warrants to the Noteholders that: (i) the execution, delivery and performance of this Agreement is within Administrative
+Agent’s organizational powers, has been duly authorized by all necessary organizational action, and does not contravene in any material
+respect Administrative Agent’s organizational documents or any law or contractual restriction binding upon Administrative Agent;
+(ii) this Agreement is the legal, valid and binding obligation of Administrative Agent, enforceable against Administrative Agent
+in accordance with the terms hereof, except as such enforcement may be limited by bankruptcy, insolvency, reorganization, moratorium or
+other similar laws affecting the enforcement of creditors’ rights generally, and by general principles of equity (regardless of
+whether such enforceability is considered in a proceeding in equity or at law), and except that the enforcement of rights with respect
+to indemnification and contribution obligations may be limited by applicable law; (iii) the individual or individuals executing this
+Agreement and any and all documents contemplated hereby on behalf of Administrative Agent has or have the legal right and actual authority
+to bind Administrative Agent to the terms and conditions contained in this Agreement and in such documents; (iv) Administrative Agent
+is duly organized, validly existing, and in good standing under the laws of the jurisdiction of its formation and possesses all applicable
+licenses and authorizations necessary to carry on its business as currently conducted, the failure of which to possess would materially
+and adversely affect its performance under this Agreement; (v) all consents, approvals, authorizations, orders or filings of or with
+any court or governmental agency or body, if any, required for the execution, delivery and performance of this Agreement by Administrative
+Agent have been obtained or made; (vi) there is no action, suit, proceeding, arbitration or governmental investigation pending against
+Administrative Agent, an adverse outcome of which would materially and adversely affect its performance under this Agreement; (vii) the
+execution and delivery of this Agreement by Administrative Agent, and performance of, and compliance with, the terms of this Agreement
+by Administrative Agent, will not violate Administrative Agent’s organizational documents or constitute a default (or an event which,
+with notice or lapse of time, or both, would constitute a default) under, or result in the breach of, any material agreement or other
+instrument to which Administrative Agent is a party or that is applicable to Administrative Agent or any of Administrative Agent’s
+assets; (viii) Administrative Agent is not a Prohibited Person; or (ix) Administrative Agent has not dealt with any broker,
+investment banker, agent or other person or entity that may be entitled to any commission or compensation in connection with the consummation
+of any of the transactions contemplated hereby.
+(b)
+Each
+of the Noteholders represents and warrants to Administrative Agent and each of the other Noteholders, as to itself only, that: (i) the
+execution, delivery and performance of this Agreement is within its organizational powers of such Noteholder, has been duly authorized
+by all necessary organizational action by, or relating to such Noteholder, and does not contravene in any material respect its organizational
+documents of such Noteholder or any law or contractual restriction binding upon such Noteholder; (ii) this Agreement is the legal,
+valid and binding obligation of such Noteholder, enforceable against such Noteholder in accordance with the terms hereof, except as such
+enforcement may be limited by bankruptcy, insolvency, reorganization, moratorium or other similar laws affecting the enforcement of creditors’
+rights generally, and by general principles of equity (regardless of whether such enforceability is considered in a proceeding in equity
+or at law), and except that the enforcement of rights with respect to indemnification and contribution obligations may be limited by applicable
+law; (iii) the individual or individuals executing this Agreement and any and all documents contemplated hereby on behalf of such
+Noteholder has or have the legal right and actual authority to bind such Noteholder to the terms and conditions contained in this Agreement
+and in such documents; (iv) such Noteholder is duly organized, validly existing, and in good standing under the laws of the jurisdiction
+of its formation and possesses all applicable licenses and authorizations necessary to carry on its business as currently conducted, the
+failure of which to possess would materially and adversely affect its performance under this Agreement; (v) all consents, approvals,
+authorizations, orders or filings of or with any court or governmental agency or body, if any, required for the execution, delivery and
+performance of this Agreement by such Noteholder have been obtained or made; (vi) there is no action, suit, proceeding, arbitration
+or governmental investigation pending against such Noteholder, an adverse outcome of which would materially and adversely affect its performance
+under this Agreement; (vii) the execution and delivery of this Agreement by such Noteholder, and performance of, and compliance with,
+the terms of this Agreement by such Noteholder, will not violate such Noteholder’s organizational documents or constitute a default
+(or an event which, with notice or lapse of time, or both, would constitute a default) under, or result in the breach of, any material
+agreement or other instrument to which such Noteholder is a party or that is applicable to such Noteholder or any of such Noteholder’s
+assets; (viii) such Noteholder is not a Prohibited Person; and (ix) such Noteholder has not dealt with any broker, investment
+banker, agent or other person or entity that may be entitled to any commission or compensation in connection with the consummation of
+any of the transactions contemplated hereby other than Administrative Agent.
+-
+14
+-
+2.6
+Noteholder
+Indemnification
+. The Noteholders shall indemnify and hold harmless upon demand Administrative Agent, Servicer, and their respective
+directors, officers, employees and agents (to the extent not reimbursed by or on behalf of Borrower and without limiting the obligation
+of Borrower to do so), pro rata (based on each Noteholder’s Pro Rata Share), from and against any and all actions, causes of action,
+suits, losses, liabilities, damages and expenses, including reasonable and documented attorneys’ fees and expenses arising from
+or relating to the exercise of rights and performance of obligations under the Loan Agreement, the other Loan Documents and this Agreement
+(collectively, the “
+Indemnified Liabilities
+”);
+provided
+that no Noteholder shall be liable for any payment
+to Administrative Agent of any portion of the Indemnified Liabilities to the extent such liability or payment resulted from Administrative
+Agent’s gross negligence or fraud, as determined by a final, non-appealable judgment by a court of competent jurisdiction, and no
+Noteholder shall be liable for any payment to Servicer of any portion of the Indemnified Liabilities to the extent such liability or payment
+resulted from Servicer’s gross negligence or fraud, as determined by a final, non- appealable judgment by a court of competent jurisdiction.
+Administrative Agent shall not be liable for, and shall be indemnified by the Noteholders from and against any and all actions, causes
+of action, suits, losses, liabilities, damages and expenses, including reasonable and documented attorneys’ fees and actual and
+documented out-of-pocket expenses arising from or relating to any delays in responding to the Borrower resulting from delays under this
+Agreement in obtaining direction or consent from the Required Noteholders to act under this Agreement. Without limitation of the foregoing,
+and to the extent that the Administrative Agent or Servicer, as applicable, is not reimbursed for such expenses by or on behalf of Borrower,
+each Noteholder shall reimburse Administrative Agent or Servicer, as applicable, upon demand for its ratable share (based on each Noteholder’s
+Pro Rata Share) of any reasonable and customary out-of-pocket expenses actually incurred by the Administrative Agent or Servicer in connection
+with (a) the preparation, execution, delivery, administration, modification, amendment or enforcement (whether through negotiations,
+legal proceedings or otherwise) of, or legal advice in respect of rights or responsibilities under, any other Loan Document, or any other
+document contemplated by or referred to therein, and (b) the administration, modification, amendment or enforcement (whether through
+negotiations, legal proceedings or otherwise) of, or legal advice in respect of rights or responsibilities under this Agreement or any
+other document contemplated by or referred to herein. The undertakings in this Section shall survive repayment of the Loan, cancellation
+of the Notes, any UCC foreclosure under, or modification, release or discharge of, any or all of the Loan Documents, termination of this
+Agreement, and the resignation or replacement of Administrative Agent or Servicer.
+-
+15
+-
+2.7
+Expenses
+of Noteholders
+. Notwithstanding anything to the contrary contained in this Agreement, and except with respect to the Advance of
+Loan proceeds funded on the date hereof in connection with the closing of the Loan Increase (the “
+Closing Date Advance
+”),
+each Noteholder shall be solely responsible for, and shall bear, the fees and expenses of its own legal counsel, financial advisors and
+other professionals retained by such Noteholder in connection with the Loan, the Loan Increase, the Loan Documents and the transactions
+contemplated hereby and thereby, and no such fees or expenses shall constitute Indemnified Liabilities or be subject to reimbursement
+by, or allocation among, the other Noteholders. The fees and expenses of legal counsel, financial advisors and other professionals retained
+by the Noteholders that are paid from the proceeds of the Closing Date Advance shall be funded by A-2 Noteholder and A-3 Noteholder based
+on each such Noteholder’s Pro Rata Share (Loan Increase). From and after the date hereof, no Advance of Loan proceeds shall be applied
+to pay the fees or expenses of counsel or other professionals retained by any Noteholder other than the Noteholder against whose Note
+such Advance is funded, and no such fees or expenses shall be charged against, allocated to or reimbursed from any other Noteholder’s
+Note, Commitment or share of distributions hereunder. From and after the date hereof, to the extent Borrower pays to Administrative Agent
+a single aggregate amount on account of the fees and expenses of counsel to the Administrative Agent and the Noteholders, Administrative
+Agent shall allocate and distribute such payment to the Administrative Agent or the Noteholder, as applicable, whose counsel incurred
+such fees and expenses and shall not distribute any portion thereof to any other Noteholder. Nothing in this
+Section 2.7
+shall
+limit the obligation of the Noteholders to reimburse Administrative Agent or Servicer under
+Section 2.6
+for out-of-pocket
+expenses incurred by Administrative Agent or Servicer in such capacity.
+2.8
+Administrative
+Agent, Servicer, Noteholders and Affiliates in Individual Capacity
+. Administrative Agent, Servicer, Noteholders and their respective
+Affiliates may make loans to, issue letters of credit for the account of, accept deposits from, acquire equity interests in and generally
+engage in any kind of banking, trust, financial advisory, underwriting or other business with Guarantor or any member, partner, shareholder,
+or officer of Borrower or Guarantor, as though Administrative Agent were not Administrative Agent hereunder, Servicer were not Servicer
+hereunder and the Noteholders were not Noteholders hereunder, as applicable, and without notice to or consent of the other parties hereto.
+Each party hereto acknowledges that, pursuant to such activities, Administrative Agent, Servicer, Noteholders and their respective Affiliates
+may receive information regarding Borrower or Guarantor (including information that may be subject to confidentiality obligations in favor
+of Borrower or Guarantor) and acknowledge that Administrative Agent, the Noteholders and Servicer shall be under no obligation to provide
+such information to each other. With respect to their Notes (if any), Administrative Agent, Servicer, and their Affiliates shall have
+the same rights and powers under this Agreement as any other Noteholder and may exercise the same as though Administrative Agent and Servicer
+were not the Administrative Agent and Servicer, respectively, and the terms “Noteholder” and “Noteholders” shall
+include Administrative Agent, Servicer and their respective Affiliates, to the extent applicable, in their individual capacities.
+-
+16
+-
+2.9
+Successor
+Administrative Agent and Servicer
+. Administrative Agent may resign as Administrative Agent upon thirty (30) days’ prior
+written notice to the Noteholders. Additionally, and subject to
+Section 9.5(e)
+, the Administrative Agent may be removed as
+Administrative Agent hereunder and under the Loan Documents at any time by the Required Noteholders (determined without taking into account
+the Commitments and the vote of any Noteholder who is then acting as Administrative Agent or is an Affiliate of Administrative Agent)
+upon thirty (30) days’ prior written notice (the “
+Removal Notice
+”); provided, however, that Administrative
+Agent, in the event of a material breach of its duties hereunder, shall have been provided with (a) written notice of any such material
+breach and (b) thirty (30) days to cure such material breach and shall have failed to cure such material breach within such thirty
+(30) day period prior to the Required Noteholders sending Administrative Agent the Removal Notice. If Administrative Agent resigns or
+is removed under this Agreement, then the Required Noteholders shall appoint, from among the Noteholders, a successor Administrative Agent
+for the Noteholders. Upon the acceptance of its appointment as successor Administrative Agent hereunder, such successor Administrative
+Agent shall succeed to all the rights, powers and duties of the retiring Administrative Agent, and the term “Administrative Agent”
+shall mean such successor Administrative Agent, and the retiring Administrative Agent’s appointment, powers and duties as Administrative
+Agent shall be terminated, other than any liabilities accrued prior to the date of termination. After any retiring Administrative Agent’s
+resignation or removal hereunder as Administrative Agent, the provisions of
+Section 2.6
+shall inure to its benefit as to any
+actions taken or omitted to be taken by it while it was Administrative Agent under this Agreement. The Noteholders agree that, subject
+to the provisos below, if Initial Administrative Agent either resigns as Administrative Agent or is removed as Administrative Agent, Initial
+Administrative Agent shall have the unilateral right to terminate any servicing agreement entered into by Initial Administrative Agent
+as it relates to the Loan. All Servicing Fees will be split pro rata by the Noteholders based on their respective Pro Rata Shares.
+2.10
+Additional
+Administrative Agent Duties
+. Administrative Agent shall promptly send (or shall use commercially reasonable efforts to cause Servicer
+promptly to send) to each Noteholder at their respective address set forth on
+Exhibit B
+: (i) copies of all financial
+statements, rent rolls, reports and budgets of the Borrower and Guarantor received by Administrative Agent under the terms of the Loan
+Agreement or the Guaranty; (ii) any written estoppel or certificate received by Administrative Agent pursuant to the Loan Agreement;
+(iii) notice of any Event of Default that Administrative Agent delivers to the Borrower; (iv) copies of all written requests
+for consent, waiver or approval from Borrower or Guarantor; and (v) copies of all requests for advances of further fundings of Loan
+Proceeds. Notwithstanding the foregoing provisions of this
+Section 2.10
+, no failure on Administrative Agent’s part to
+furnish any such documents shall result in any liability on Administrative Agent’s part in the absence of gross negligence, fraud
+or willful misconduct. In addition, Administrative Agent shall make available to each Noteholder, promptly upon demand, such other reports
+and information reasonably requested in writing by such Noteholders and in Administrative Agent’s or Servicer’s possession
+or reasonably obtainable by Administrative Agent. Except for notices, reports and other documents expressly herein required to be furnished
+to the Noteholders by Administrative Agent, Administrative Agent shall not have any duty or responsibility to provide any Noteholder with
+any credit or other information concerning the business, prospects, operations, property, financial or other condition or creditworthiness
+of Borrower or Guarantor which may come into the possession of the Administrative Agent, unless obtained by Administrative Agent in its
+capacity as Administrative Agent hereunder and under the Loan Agreement.
+-
+17
+-
+2.11
+Bankruptcy
+of Borrower; Return of Funds
+. This Agreement shall be applicable both before and after the commencement, whether voluntary or
+involuntary, of any Bankruptcy Proceeding by or against Borrower, and all references herein to Mortgage Borrower shall be deemed to apply
+to the fee title owner of the Property as a debtor-in-possession and to any trustee in bankruptcy for the estate of the fee title owner
+of the Property. Anything in the Loan Documents to the contrary notwithstanding, in the event of any distribution, division or application,
+in whole or in part, voluntary or involuntary, by operation of law or otherwise, of the assets of Borrower or the proceeds thereof, to
+or for the benefit of any of Borrower’s creditors arising by reason of a Bankruptcy Proceeding or after the occurrence of an Event
+of Default, then all amounts due the Noteholders shall be paid in accordance with Article IV of this Agreement. If a court of competent
+jurisdiction orders, at any time, that any amount received or collected in respect of the Loan must, pursuant to any insolvency, bankruptcy,
+fraudulent conveyance, preference or similar law, be returned to the Borrower, or paid to any other Person, then, notwithstanding any
+other provision of this Agreement to the contrary, Administrative Agent shall not be required to distribute any portion thereof to any
+Noteholder (unless otherwise so directed by such court), and, to the extent necessary to comply with such court order, each applicable
+Noteholder will promptly on demand (which demand shall include a copy of such court order and a statement containing the amount Administrative
+Agent is seeking to be returned (exclusive of interest, which shall be the responsibility of the Noteholder to calculate)) by Administrative
+Agent repay to Administrative Agent any portion of any such amounts that Administrative Agent shall have theretofore distributed to such
+Noteholder, together with interest thereon, which Administrative Agent shall have been required to pay to Borrower, or such other Person.
+If, for any reason, Administrative Agent makes any payment to any Noteholder before Administrative Agent has received the corresponding
+payment (it being understood that Administrative Agent is under no obligation to do so), and Administrative Agent does not receive the
+corresponding payment within one (1) Business Day of its prior payment to the applicable Noteholder, the applicable Noteholder will,
+at Administrative Agent’s request, promptly and, in any event, within three (3) Business Days of Administrative Agent’s
+request, return such payment to the Administrative Agent (together with interest on such payment paid at the interest rate actually received
+by such Noteholder for such advance for each day from the making of such payment to the Noteholder until such amount is returned to Administrative
+Agent). Each Noteholder agrees that if at any time it shall receive from any sources whatsoever any payment on account of the Loan in
+excess of its distributable share thereof, it will promptly after written notice from Administrative Agent remit such excess to Administrative
+Agent. Upon prior written notice, Administrative Agent shall have the right to offset such amounts against any future payments due to
+the applicable Noteholder under the Loan;
+provided
+, that Administrative Agent shall have no right to deduct or set-off any amounts
+which may be owed on account of other dealings between Administrative Agent and any Noteholder which are unrelated to the Loan or this
+Agreement; and provided, further, that each such Noteholder’s obligations under this
+Section 2.11
+are separate and distinct
+obligations from one another and in no event shall Administrative Agent enforce the obligations of any Noteholder against any other Noteholder.
+Each Noteholder’s obligations under this
+Section 2.11
+constitute absolute, unconditional and continuing obligations.
+-
+18
+-
+Article III
+REPLACEMENT
+NOTES
+3.1
+Replacement
+Notes
+. In connection with any sale or assignment of a Note or a portion thereof or an interest therein, the Noteholder effecting
+such Transfer may request Administrative Agent to exercise the Lender’s rights under the Loan Documents to cause Borrower to replace,
+sever and/or split such Note, and to issue in lieu thereof one or more replacement notes (each, a “
+Replacement Note
+”
+and, collectively, the “
+Replacement Notes
+”), which Replacement Note or Replacement Notes, as applicable, shall
+have an aggregate principal balance equal to that of the Note being relinquished and shall entitle the respective holders thereof to the
+same aggregate rights as the subject Noteholder that submitted such Note. Once issued, and provided that the applicable assigning Noteholder
+shall have entered into an assignment and assumption agreement, in form and substance reasonably acceptable to Administrative Agent, with
+its proposed assignee, then each of the Replacement Notes shall be deemed to be a Note under this Agreement, and the holder(s) of
+such Replacement Notes shall be deemed to be Noteholders under this Agreement.
+Article IV
+PRIORITY;
+DISTRIBUTIONS
+4.1
+Priority
+.
+Each Noteholder hereby acknowledges and agrees that each Note hereunder shall, subject to the terms and provisions of
+Section 4.2
+hereof, be of equal priority and pari passu with the other Note(s), and no Note shall have any payment priority or preference over the
+other Note(s).
+4.2
+Distributions
+.
+Except as provided in this Article IV, all payments received by Administrative Agent or Servicer with respect to the Loan, including,
+without limitation, voluntary payments, voluntary prepayments, interest, principal, proceeds from any Interest Rate Cap Agreement, any
+Proceeds not being applied for the Restoration of the Property in accordance with the Loan Documents and any other amounts payable to
+the Administrative Agent or for the benefit of the Lender pursuant to the Loan Agreement, shall be promptly distributed by the Administrative
+Agent or Servicer, but no later than five (5) Business Days after the later to occur of (a) receipt thereof (and proper identification
+of funds) and (b) the Payment Date under the Loan Agreement (
+provided
+,
+however
+, that any principal prepayments shall
+always be distributed no later than two (2) Business Days after the receipt thereof), pursuant to the wiring instructions provided
+by each Noteholder in writing to Administrative Agent (as from time to time may be updated by notice in writing). All payments of Origination
+Fees, Underwriting Fees, Loan Increase Additional Interest and Loan Increase Closing Fees shall be paid to A-2 Noteholder and Note A-3
+Noteholder each in an amount equal to such Noteholder’s Pro Rata Share (Loan Increase). All payments of the Extension Fee for the
+First Extension Option and Additional Interest under the Loan shall be paid to A-1 Noteholder only. The Exit Fee shall be paid to the
+Noteholders in an amount equal to such Noteholder’s Pro Rata Share thereof. The distribution rights described above are listed on
+Schedule 1
+attached hereto.
+-
+19
+-
+4.3
+Priority
+of Payments
+. All other payments under the Loan shall be paid in the following order and priority, and, in each case, without duplication:
+(a)
+first
+,
+to Administrative Agent in the amount of any unreimbursed reasonable out-of-pocket costs and expenses incurred by Administrative Agent
+(i) in servicing and administering the Loan (other than the Servicing Fee) and (ii) pursuing remedies under the Loan Documents,
+including any such costs and expenses which are reimbursable by Borrower pursuant to the terms of the Loan Documents which remain unpaid;
+(b)
+second
+,
+to Administrative Agent for the payment to Servicer the amount of any Servicing Fees owed to any Servicer(s) engaged by the Administrative
+Agent in connection with the servicing of the Loan;
+(c)
+third
+,
+to the Noteholders that made Protective Advances (including any deficiency amount under
+Section 6.1(a)
+or
+Section 7.2
+),
+in the amount of any such Protective Advances, made by each such Noteholder on a pro rata and pari passu basis (based on a ratio where
+the numerator is the amount so advanced by any such Noteholder which has made such a Protective Advance and the denominator is the aggregate
+of all Protective Advances made by the all of the Noteholders, together with all accrued and unpaid interest at the Default Rate with
+respect to such Protective Advances, with such Protective Advances being reimbursed in chronological order (with the first Protective
+Advance, and interest thereon to be reimbursed first);
+(d)
+fourth
+,
+to the Noteholders, pro rata based on its Repayment Pro Rata Share in an amount equal to the accrued and unpaid interest on each Noteholder’s
+Note Principal Balance at the Applicable Rate;
+(e)
+fifth,
+with respect to any payments received on account of the outstanding principal balance of the Loan (including any capitalized interest
+and fees), whether scheduled or extraordinary (including any payment of principal payable on the Maturity Date and any prepayment amounts)
+to each Noteholder an amount equal to such Noteholder’s respective Repayment Pro Rata Share;
+(f)
+sixth
+,
+to each Noteholder, without duplication of any amounts previously paid pursuant to
+Section 4.2
+, an amount equal to any fees
+(including, without limitation, any extension fees), premium, default interest, late charges and other excess amounts owed by the Borrower,
+up to the amount actually owed to such Noteholder, based on its Repayment Pro Rata Share (but only to the extent not duplicative of any
+amounts previously paid to each such Noteholder pursuant to any of clauses (a) through (g) of this
+Section 4.3
+);
+and
+(g)
+lastly,
+any other amounts from any source whatsoever (including proceeds from a sale of the Property), to each Noteholder in a ratio of all amounts
+funded by such Noteholder on account of their respective Commitments to all amounts so funded by all Noteholders.
+4.4
+Other
+Distributions
+. In the event that any Noteholder incurs any loss, cost or other expense to which it is entitled to reimbursement
+or indemnification under the Loan Agreement (“
+Costs
+”), which Costs have been incurred in accordance with the
+applicable provisions of the Loan Agreement, such Noteholder shall promptly notify Administrative Agent that it has incurred such Costs.
+Administrative Agent shall then apprise Borrower that such Noteholder has incurred any Costs, and, on behalf of such Noteholder, demand
+reimbursement or indemnification thereof from Borrower. Notwithstanding anything to the contrary contained in this Article IV, in
+the event that any Noteholder incurs any Costs and Borrower disburses the amount of such Costs to Administrative Agent on behalf of such
+Noteholder, Administrative Agent shall then disburse any such amount directly to such Noteholder promptly upon receipt of any such amount
+from Borrower, it being acknowledged and agreed that such amounts shall be paid pursuant to this
+Section 4.4
+and shall not
+be disbursed pursuant to
+Section 4.3
+hereunder.
+-
+20
+-
+Article V
+DISTRIBUTIONS
+AFTER WORKOUTS
+5.1
+Distributions
+after Workouts
+. If the terms or conditions of the Loan are modified, waived or amended in accordance with this Agreement such
+that (a) the principal balance is decreased, (b) the interest rate is reduced, (c) payments of interest or principal are
+deferred, reduced, or waived, or (d) any other adjustment is made to any of the payment terms of the Loan, the economic effect of
+such waivers, amendments and modifications shall be borne by the Noteholders on a pari passu and pro rata basis in accordance with their
+Repayment Pro Rata Shares.
+Article VI
+PROTECTIVE
+ADVANCES
+6.1
+Protective
+Advances
+.
+(a)
+Subject
+to the provisions of
+Section 2.2
+above, if, Administrative Agent determines that it is necessary or desirable to make a Protective
+Advance, then Administrative Agent shall give written notice thereof to the Noteholder(s), which notice shall set forth the aggregate
+amount of such Protective Advance, the portion thereof payable by each Noteholder (which shall be determined based on each of the Noteholder’s
+respective Pro Rata Shares) and the date (which shall not be less than five (5) Business Days after delivery of such notice) on which
+each Noteholder shall be required to remit its Pro Rata Share thereof to Administrative Agent (or Servicer, if so directed by Administrative
+Agent), and shall describe in reasonable detail the purpose(s) of such Protective Advance. Neither Administrative Agent (in its capacity
+as Administrative Agent) nor Servicer shall be required to fund any Protective Advances out of its own funds. If any Noteholder fails
+to fund its Pro Rata Share of a Protective Advance, the other Noteholders may fund the deficiency. If more than one Noteholder desires
+to fund the deficiency, they may do so pro rata based on their respective Commitments, excluding the Noteholder that failed to fund. The
+Noteholder(s) that fund any deficiency hereunder shall be entitled to the return of such funding under
+Section 4.3(c).
+(b)
+Upon
+receipt of the entire amount of any Protective Advance from the Noteholders, Administrative Agent or Servicer shall take all commercially
+reasonable action to remedy the event for which the Protective Advance is being made on behalf of the Noteholders.
+-
+21
+-
+(c)
+All
+Protective Advances shall be reimbursed to the Noteholder(s) which made such Protective Advances in accordance with the applicable
+provisions of
+Section 4.2
+and shall not change the Pro Rata Share of any Noteholder.
+Article VII
+SUBSEQUENT
+FUNDING
+7.1
+Subsequent
+Funding
+.
+(a)
+Note
+A-1 is fully funded and therefore A-1 Noteholder shall have no further obligations to make advances under the Loan.
+(b)
+The
+Loan Increase Closing Fees due to each of A-2 Noteholder and A-3 Noteholder shall be funded in draws against A-2 Noteholder and A-3 Noteholder
+based their Pro Rata Share (Loan Increase), including the fees and expenses of legal counsel, financial advisors and other professionals
+retained by the Noteholders that are paid from the proceeds of the Closing Date Advance, except that the Origination Fee, Underwriting
+Fee and any other fees, costs and expenses attributable to a Noteholder (other than such fees and expenses paid from the proceeds of the
+Closing Date Advance), including, without limitation, the fees, costs and expenses of counsel or other professionals retained by any Noteholder
+in connection with the Loan after the date hereof shall be funded against such Noteholder’s Note rather than pro rata.
+(c)
+Advances
+to pay interest on the Mortgage Loan shall be funded by A-2 Noteholder and A-3 Noteholder based on their Pro Rata Share (Loan Increase).
+Advances to pay interest on Note A-2 shall be funded A-2 Noteholder. Advances to pay interest on Note A-1 and Note A-3 shall be funded
+by A-3 Noteholder.
+(d)
+A-3
+Noteholder shall make advances under Note A-3 for the purpose of payment of the Extension Fee for the First Extension Option
+(e)
+A-2
+Noteholder shall make advances under Note A-2 for the purpose of payment all amounts other than the amounts described in
+Section 7.1(a)
+,
+(b)
+,
+(c)
+and
+(d)
+when Administrative Agent or its agents or advisors on its behalf, shall (i) advise
+A-2 Noteholder of each request received by Administrative Agent for an advance under the Loan Agreement for non-interest amounts within
+two (2) Business Days of receipt thereof, and (ii) on such date provide A-2 Noteholder with prior notice of the date upon which
+such advance is to occur hereunder (which shall in no event be earlier than the final date on which such funding is required to occur
+pursuant to the applicable provisions of the Loan Agreement), together with a copy of the Borrower’s request for the advance (if
+so received by Administrative Agent) and a confirmation that Administrative Agent has determined, in accordance with the Loan Agreement,
+that all conditions to such advance have been satisfied. Administrative Agent or its agents or advisors shall promptly furnish to A-2
+Noteholder a copy of the supporting documents and instruments furnished by Borrower in connection with its request. A-2 Noteholder, to
+the extent of its Unfunded Commitment, hereby agrees that it is obligated to make such advance by payment thereof to Administrative Agent
+not later than 12:00 p.m. (New York time) on the date established by Administrative Agent as the Business Day immediately prior to
+the date that such advance is to be made to Borrower under the Loan Documents. Notwithstanding anything to the contrary in this Agreement
+or the Loan Documents, in no event shall the A-2 Noteholder be required to make any advance under Note A-2 unless all conditions to the
+Advance have been satisfied or waived by the A-2 Noteholder or the A-2 Noteholder has otherwise approved such advance and in no event
+shall the Note A-3 Noteholder be required to make any advance under Note A-3 unless all conditions to the Advance have been satisfied
+or waived by the A-3 Noteholder or the A-3 Noteholder has otherwise approved such advance. provided that each of the A-2 Noteholder and
+the A-3 Noteholder shall be subject to any applicable Defaulting Lender provisions in the Loan Agreement if it fails to make Advances
+under Note A-2 or Note A-3, as applicable, to the extent that the conditions to such advance in the Loan Agreement are satisfied.
+-
+22
+-
+(f)
+For
+purposes of this
+Section 7.1
+, Administrative Agent or its agents or advisors shall provide each Noteholder with any notices
+or other communications required pursuant to this
+Section 7.1
+via email at the email addresses provided by each Noteholder
+as set forth on
+Exhibit B
+hereto. Each Noteholder agrees to use commercially reasonable efforts to acknowledge receipt of
+such email by reply email to Administrative Agent, and Administrative Agent agrees that, if a Noteholder does not timely so acknowledge
+receipt, Administrative Agent will use commercially reasonable efforts to send a subsequent email request to such Noteholder and to contact
+such Noteholder by telephone at one or more of the phone numbers set forth on
+Exhibit B
+hereto. Further, Administrative Agent
+(or its advisors or agents) may use, for purposes of providing supporting documentation or other materials or communications under this
+Section 7.1
+(but not a notice or request for an advance), Intralinks or other program used for syndication of the Loan.
+(g)
+The
+Noteholders’ obligations for advances is listed on
+Schedule 1
+attached hereto.
+7.2
+Intercreditor
+Payments
+. Administrative Agent or its agents or advisors on its behalf, shall (i) advise each Noteholder of each request
+by Administrative Agent for a payment to cure a default under the Senior Loan or to purchase the Senior Loan, and (ii) if approved
+under
+Section 2.2(a)
+, on such date provide each Noteholder with prior notice of the date upon which such payment is to occur
+hereunder. Except as provided in
+Section 2.2(a)
+, each Noteholder, to the extent of its Unfunded Commitment, hereby agrees
+that it is obligated to advance its Pro Rata Share of such payment by payment thereof to Administrative Agent not later than 12:00 p.m. (New
+York time) on the date established by Administrative Agent as the Business Day immediately prior to the date that such payment is to be
+made under the Intercreditor Agreement. If any Noteholder fails to fund its Pro Rata Share of a payment to cure a default under the Senior
+Loan if required to do so, the other Noteholders may fund the deficiency. If more than one Noteholder desires to fund the deficiency,
+they may do so pro rata based on their respective Commitments, excluding the Noteholder that failed to fund. The Noteholder(s) that
+fund any deficiency with respect to a cure of the Senior Loan shall be entitled to the return of such funding under
+Section 4.3(c)
+.
+If a Noteholder or Noteholders purchase the Senior Loan, they shall own and hold the Senior Loan in the same percentages that they funded
+the purchase price for the Loan.
+-
+23
+-
+Article VIII
+MISCELLANEOUS
+8.1
+Terms
+of Agreement
+. This Agreement shall remain in full force and effect unless and until the Loan is repaid in full or Administrative
+Agent notifies all Noteholders that it has determined that all amounts that can be recovered with respect to the Loan and the collateral,
+through the exercise of commercially reasonable efforts on a cost-effective basis, have been recovered. The terms and conditions of this
+Agreement by which Administrative Agent and Servicer are indemnified by the Noteholders shall survive termination of the Agreement.
+8.2
+Modifications
+.
+Notwithstanding anything contained herein to the contrary, this Agreement shall not be modified, cancelled or terminated except by an
+instrument in writing signed by the parties hereto.
+8.3
+Successors
+and Assigns
+. This Agreement shall inure to the benefit of and be binding on the parties hereto and each of their respective successors
+and permitted assigns, provided that none of Borrower, Guarantor or any of their respective Affiliates shall ever become a Noteholder
+nor a beneficiary hereunder.
+8.4
+Notices
+.
+Except as otherwise expressly provided herein, all notices, requests and demands to or upon the respective parties hereto to be effective
+shall be in writing, and shall be deemed to have been duly given or made if made by hand or by nationally recognized overnight courier
+service, in each case when delivered or when delivery is refused, and addressed to the address specified on
+Exhibit B
+hereto
+as updated and distributed to all parties hereto from time to time in accordance with these notice provisions.
+8.5
+Prior
+Agreements
+. This Agreement contains the entire agreement of the parties hereto and thereto in respect of the transactions contemplated
+hereby, and all prior agreements, understandings and negotiations among or between such parties, whether oral or written, are superseded
+by the terms of this Agreement.
+8.6
+Conflict;
+Construction of Documents
+. As between or among the parties hereto, the event of any conflict between the provisions of this Agreement
+and any of the Loan Documents, as between or among the parties hereto, the provisions of this Agreement shall control. Without limiting
+the foregoing, as between or among the parties hereto, the authority of the Directing Mezzanine Lender under the Intercreditor Agreement
+is exercised subject to this Agreement, and the Administrative Agent shall not cause or permit the Directing Mezzanine Lender to exercise,
+or to refrain from exercising, any right, consent or approval under the Intercreditor Agreement except in accordance with the consent
+and approval requirements of
+Section 2.2
+; provided that nothing herein shall be construed to limit the rights of any Noteholder
+under
+Article IX
+. The parties hereto acknowledge that each such party is represented by separate legal counsel in connection
+with the negotiation and drafting of this Agreement, and that this Agreement shall not be subject to the principle of construing its meaning
+against the party that drafted it.
+8.7
+Governing
+Law
+. THIS AGREEMENT WAS NEGOTIATED AND MADE BY THE PARTIES HERETO IN THE STATE OF NEW YORK, WHICH STATE THE PARTIES AGREE HAS
+A SUBSTANTIAL RELATIONSHIP TO THE PARTIES AND TO THE UNDERLYING TRANSACTION EMBODIED HEREBY. THE PARTIES HERETO HEREBY AGREE THAT IN ALL
+RESPECTS, INCLUDING MATTERS OF CONSTRUCTION, VALIDITY AND PERFORMANCE, THIS AGREEMENT AND THE OBLIGATIONS ARISING HEREUNDER SHALL
+BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAWS OF THE STATE OF NEW YORK APPLICABLE TO CONTRACTS MADE AND PERFORMED IN SUCH
+STATE AND ANY APPLICABLE LAW OF THE UNITED STATES OF AMERICA. EACH OF THE PARTIES HERETO HEREBY UNCONDITIONALLY AND IRREVOCABLY WAIVES
+ANY CLAIM TO ASSERT THAT THE LAW OF ANY OTHER JURISDICTION GOVERNS THIS AGREEMENT, AND THIS AGREEMENT SHALL BE GOVERNED BY AND CONSTRUED
+IN ACCORDANCE WITH THE LAWS OF THE STATE OF NEW YORK PURSUANT TO SECTION 5-1401 OF THE NEW YORK GENERAL OBLIGATIONS LAW.
+-
+24
+-
+8.8
+Submission
+to Jurisdiction
+. ANY LEGAL SUIT, ACTION OR PROCEEDING AGAINST ANY PARTY HERETO ARISING OUT OF OR RELATING TO THIS AGREEMENT SHALL
+BE INSTITUTED IN ANY FEDERAL OR STATE COURT IN NEW YORK COUNTY, NEW YORK, AND EACH PARTY HEREBY WAIVES ANY OBJECTION WHICH IT MAY NOW
+OR HEREAFTER HAVE TO THE LAYING OF VENUE OF ANY SUCH SUIT, ACTION OR PROCEEDING, AND EACH PARTY HERETO HEREBY IRREVOCABLY SUBMITS TO THE
+JURISDICTION OF ANY SUCH COURT IN ANY SUIT, ACTION OR PROCEEDING.
+8.9
+WAIVER
+OF JURY TRIAL
+. EACH PARTY HERETO HEREBY AGREES NOT TO ELECT A TRIAL BY JURY OF ANY ISSUE TRIABLE OF RIGHT BY JURY AND WAIVES ANY
+RIGHT TO TRIAL BY JURY FULLY TO THE EXTENT THAT ANY SUCH RIGHT SHALL NOW OR HEREAFTER MAY EXIST WITH REGARD TO THIS AGREEMENT, OR
+ANY CLAIM, COUNTERCLAIM OR OTHER ACTION ARISING IN CONNECTION THEREWITH. THIS WAIVER OF RIGHT TO TRIAL BY JURY IS GIVEN KNOWINGLY AND
+VOLUNTARILY BY EACH OF THE PARTIES HERETO AND IS INTENDED TO ENCOMPASS INDIVIDUALLY EACH INSTANCE AND EACH ISSUE AS TO WHICH THE RIGHT
+TO A TRIAL BY JURY WOULD OTHERWISE ACCRUE. EACH PARTY HERETO IS HEREBY AUTHORIZED TO FILE A COPY OF THIS PARAGRAPH IN ANY PROCEEDING AS
+CONCLUSIVE EVIDENCE OF THIS WAIVER BY THE OTHER PARTIES.
+8.10
+Counterparts
+.
+This Agreement may be executed in any number of counterparts, each of which when so executed and delivered shall be an original, but all
+of which shall together constitute one and the same instrument. The words “execution,” signed,” “signature,”
+and words of like import in this Agreement or in any other certificate, agreement or document related to this Agreement shall include
+images of manually executed signatures transmitted by facsimile or other electronic format (including, without limitation, “pdf”,
+“tif” or “jpg”) and other electronic signatures (including, without limitation, DocuSign and AdobeSign). The use
+of electronic signatures and electronic records (including, without limitation, any contract or other record created, generated, sent,
+communicated, received, or stored by electronic means) shall be of the same legal effect, validity and enforceability as a manually executed
+signature or use of a paper-based record-keeping system to the fullest extent permitted by applicable law, including the Federal Electronic
+Signatures in Global and National Commerce Act, the New York State Electronic Signatures and Records Act and any other applicable law,
+including, without limitation, any state law based on the Uniform Electronic Transactions Act or the Uniform Commercial Code. The parties
+hereby waive any defenses to the enforcement of the terms of this Agreement based on the form of the signature and hereby agree that such
+electronically transmitted or signed signatures shall be conclusive proof, admissible in judicial proceedings, of the parties’ execution
+of this Agreement.
+-
+25
+-
+8.11
+Third-Party
+Beneficiaries
+. No Person other than a party to this Agreement (and any Noteholder that becomes a party to this Agreement after
+the date hereof) shall have any rights with respect to the enforcement of any of the rights or obligations hereunder.
+8.12
+A-2
+Noteholder Right of First Offer
+. Concurrently herewith, A-2 Noteholder or an affiliate of A-2 Noteholder may be entering into
+an agreement with Mortgage Borrower granting A-2 Noteholder or an affiliate a right to purchase, finance or refinance all or any portion
+of the Property upon terms and conditions set forth in such agreement. Notwithstanding anything in this Agreement or any other document
+to the contrary, any exercise by A-2 Noteholder or its affiliate of any rights under such agreement shall be subject to the prior consent
+or approval of the Noteholders to the extent such consent or approval is required under the Mezzanine Loan Documents and no waiver or
+impairment of any such consent or approval rights shall be deemed to have occurred by reason of the Loan Increase Amendment or the amendment
+to the Intercreditor Agreement entered into concurrently herewith.
+Article IX
+REIT
+PROTECTIONS
+9.1
+Definitions
+.
+As used in this Article IX:
+(a)
+“
+Code
+”
+means the Internal Revenue Code of 1986, as amended.
+(b)
+“
+REIT
+”
+means a real estate investment trust within the meaning of Sections 856 through 860 of the Code
+(c)
+“
+REIT
+Noteholder
+” means any Noteholder that is, or that is directly or indirectly owned by, a REIT, including IIP Life Science Investments
+II LLC (“
+IIP
+”), the Initial Note A-2 Holder, and Innovative Industrial Properties, Inc.
+(d)
+“
+Mezzanine
+Loan Safe Harbor
+” means the safe harbor for mezzanine loans set forth in Revenue Procedure 2003-65 (and any successor or supplementary
+guidance).
+9.2
+Safe
+Harbor Acknowledgment
+.
+(a)
+The
+Noteholders acknowledge and agree that a REIT Noteholder intends that the Loan qualify for the Mezzanine Loan Safe Harbor, and that the
+Loan is structured, and shall be administered by the Administrative Agent and the Servicer, consistent with the Mezzanine Loan Safe Harbor,
+including that: (a) the Loan is nonrecourse to Borrower except as expressly set forth in the Loan Documents, including, without limitation,
+the Guaranties and the Environmental Indemnity, provided, however that, as more particularly set forth in Section 19(f) of the
+Sixth Amendment the Carry Guaranty does not guarantee, apply to, secure or otherwise constitute or create recourse for any IIP Lender
+Obligations and guarantees solely the Non-IIP Lender Obligation and is secured solely by a first priority security interest in the Collateral
+consisting of the pledged equity interests and proceeds thereof under the Pledge Agreements and solely with respect to the Non-IIP Lender
+Obligations, the Hypothec (it being acknowledged and agreed, as more particularly set forth in Section 19(e) of the Sixth Amendment,
+that the Hypothec does not secure the IIP Lender Obligations and that no IIP Lender has, holds or is entitled to the benefit of any hypothec,
+security interest or other lien in respect of the property charged by the Hypothec); (b) Administrative Agent, for the benefit of
+the Noteholders, holds a first priority security interest in the Collateral pledged under the Pledge Agreements; and (iv) in no event
+shall Administrative Agent or any Noteholder have, hold or be granted any mortgage, deed of trust, lien on, security interest in, or direct
+or indirect ownership interest in, the Property (other than, solely in the case of the Non-IIP Lenders, the materials described in the
+Hypothec) or any other real property owned by the Mortgage Borrower, other than indirectly through succession to the pledged limited liability
+company interests upon an exercise of remedies against the Collateral in accordance with Section 20 of the Sixth Amendment.
+-
+26
+-
+(b)
+Notwithstanding
+anything to the contrary in the Carry Guaranty, the Loan Agreement or any other Loan Document, the parties acknowledge and agree that:
+(i) the Carry Guaranty guarantees solely the Non-IIP Lender Obligations and does not guarantee, apply to, secure or otherwise constitute
+or create recourse for any IIP Lender Obligations, including any Debt or other obligations evidenced by or arising in respect of Note
+A-2; (ii) no IIP Lender is or shall be a beneficiary of, or entitled to enforce, direct or receive any payment or other benefit under,
+the Carry Guaranty, and no amount paid or payable under the Carry Guaranty shall be applied to or on account of any IIP Lender Obligations;
+(iii) the exclusion set forth in Section 19(f) of the Sixth Amendment is intended to ensure that the Carry Guaranty does
+not cause the Loan (or any portion thereof held by, or owing to, IPP) to be treated as other than nonrecourse for purposes of the
+Mezzanine Loan Safe Harbor, and nothing in the Carry Guaranty shall be construed to render any IIP Lender Obligation recourse to Borrower
+or Guarantor; and (iv) nothing in this Section shall reduce, impair, release or otherwise affect the obligations of Guarantor
+under the Carry Guaranty with respect to the Non-IIP Lender Obligations, all of which remain in full force and effect in accordance with
+their terms. For the avoidance of doubt, this Section shall control over any conflicting provision of the Carry Guaranty, the Loan
+Agreement and the other Loan Documents as to the Carry Guaranty.
+9.3
+Administration
+and Remedies Consistent with Safe Harbor
+. Notwithstanding anything in this Agreement to the contrary, the Administrative Agent
+shall exercise remedies upon an Event of Default solely against the Collateral (i.e., the pledged equity interests) as a secured party
+under the Uniform Commercial Code and the Pledge Agreements and shall not foreclose upon or take direct title to the Property. Upon foreclosure
+or other exercise of remedies, the Administrative Agent shall cause the acquiring Noteholder(s) or their designee to succeed to the
+pledged equity interests and replace the applicable borrower as member. At the direction of any REIT Noteholder, the Administrative Agent
+shall structure any acquisition, holding, or disposition of the Collateral or, upon acquisition, the Property so that title is taken and
+held by a taxable REIT subsidiary, a qualified REIT subsidiary, or another Qualified Transferee designated by such REIT Noteholder, and
+so that any real property acquired is operated through an independent contractor or taxable REIT subsidiary, in each case to preserve
+the Mezzanine Loan Safe Harbor and such Noteholder’s qualification as a REIT.
+-
+27
+-
+9.4
+IIP
+Control Rights to Protect REIT Status
+. Notwithstanding the consent, direction and control provisions of Article II (including
+Sections 2.2
+and
+2.9
+), the Loan Documents, or any provision designating NREF OP IV SUBHOLDCO, LLC or the Administrative
+Agent as the directing or controlling party: (a) no action constituting a Unanimous Decision, and no acceleration of the Loan, exercise
+of remedies, foreclosure, credit bid, deed-in-lieu, workout, forbearance, or acquisition or disposition of Collateral or the Property,
+shall be taken without the prior written consent of IIP to the extent IIP reasonably determines such action, or its manner or timing,
+could cause IIP to fail to satisfy the Mezzanine Loan Safe Harbor or its qualification as a REIT; (b) IIP shall have the right to
+direct the Administrative Agent to exercise, or refrain from exercising, any right or remedy (including cure rights, the right to purchase
+the Senior Loan, and the manner and timing of any foreclosure or disposition), and to exercise the Mezzanine Lender’s rights under
+the Intercreditor Agreement (including the Innovative Industrial Properties control rights thereunder), in each case to the extent IIP
+reasonably determines necessary to preserve the Mezzanine Loan Safe Harbor or its REIT status; (c) if the Administrative Agent fails
+to act on any such matter within five (5) Business Days after IIP’s written request (or such shorter period as is necessary
+to preserve the right in question), IIP may act directly and take such action in its own name; and (d) any deferral, modification
+or forbearance directed by IIP under this
+Section 9.4
+shall not constitute a waiver of any Event of Default or of any right
+or remedy.
+9.5
+A-2
+Noteholder Purchase Option
+.
+(a)
+Purchase
+Option
+. So long as A-2 Noteholder is not in material breach of this Agreement (as to which written notice and a reasonable cure period
+have been provided), A-2 Noteholder shall have the right, but not the obligation, exercisable upon not less than ten (10) Business
+Days’ prior written notice to Administrative Agent and the applicable Noteholder, to purchase all or any portion of the Note A-1
+and Note A-3 for a purchase price equal to the Note Purchase Price. The closing of any such purchase shall occur on the date specified
+in such notice, and shall be effected by an assignment and assumption agreement in form and substance reasonably acceptable to A-2 Noteholder
+and the selling Noteholder, together with delivery of the original Note if the Note is purchased in full or an allonge in the case of
+a partial purchase, the Loan Documents in the selling Noteholder’s possession if the Note is purchased in full, and such other instruments
+of transfer as A-2 Noteholder may reasonably request, in each case without recourse to, or representation or warranty by, the selling
+Noteholder other than as to its title to such Note, its authority to effect such Transfer, the outstanding Note Principal Balance thereof,
+and the absence of liens or participations created by such Noteholder. Any purchase of less than the entire Note Principal Balance of
+a Note shall be in a minimum principal amount of $5,000,000, and in integral multiples of $5,000,000 in excess thereof (or, if less, the
+entire remaining Note Principal Balance of such Note). Any purchase pursuant to this
+Section 9.5
+shall constitute a permitted
+Transfer under this Agreement and shall not require the consent of Administrative Agent, Servicer or any other Noteholder.
+(b)
+Note
+Purchase Price
+. “
+Note Purchase Price
+” means, with respect to any Note (or portion thereof) purchased pursuant
+to this
+Section 9.5
+, an amount equal to the sum of the following (or applicable portion thereof based on the percentage of
+the applicable Note being purchased): (i) the outstanding Note Principal Balance of such Note, (ii) all accrued interest and
+unpaid interest thereof at the Applicable Rate through and including the closing date of such purchase, (iii) all late charges and
+interest accruing at the Default Rate thereon, (iv)  such selling Noteholder’s share of Additional Interest, Loan Increase
+Additional Interest and Exit Fees, (regardless of whether Additional Interest, Loan Increase Additional Interest or Exit Fees are then
+due and payable by the Borrower), (v) such Noteholder’s share of any Extension Fee, Origination Fee, and Underwriting Fee,
+(vi) all other fees, costs, expenses, advances (including, without limitation, any Protective Advances funded by the selling Noteholder,
+together with interest thereon at the Default Rate) and (vii) any interest or other amounts accruing with respect to such Note following
+the commencement of a Bankruptcy Proceeding.
+-
+28
+-
+(c)
+REIT
+Matters
+. Any purchase pursuant to this
+Section 9.5
+shall be structured, documented and consummated in a manner that preserves
+the Mezzanine Loan Safe Harbor and the qualification of each REIT Noteholder as a REIT, and the provisions of this
+Article IX
+shall apply to any such purchase, including with respect to the resulting adjustment of the Pro Rata Shares of the Noteholders. Notwithstanding
+the foregoing, in no event shall A-1 Noteholder or A-3 Noteholder have any obligation to sell any portion of Note A-1 or Note A-3 if the
+sale would result in the retained Note A-1 or retained Note A-3 failing the Mezzanine Loan Safe Harbor or cause any REIT Noteholder to
+fail to qualify as a REIT or would cause any REIT compliance or exemption issues or adverse tax, 40 Act or regulatory consequences to
+any REIT Noteholder.
+(d)
+Retention
+of Control
+. So long as the A-1 Noteholder or the A-3 Noteholder retains any interest in the Note A-1 or Note A-3, as applicable, such
+Noteholder shall retain all consent, approval and control rights under the applicable Note under this Agreement, regardless of percentage
+interest owned by A-2 Noteholder or its affiliates. A-2 Noteholder shall acquire such consent, approval and control rights with respect
+to a Note only upon acquisition of one hundred percent (100%) of such Note.
+(e)
+Replacement
+of Administrative Agent and Lender
+. Upon the acquisition by A-2 Noteholder of one hundred percent (100%) of each of Note A-1 and Note
+A-3 pursuant to this
+Section 9.5
+, A-2 Noteholder shall have the right, exercisable by written notice to Administrative Agent,
+(i) to remove the then-acting Administrative Agent, without regard to the notice, cure and Required Noteholder requirements of
+Section 2.9
+,
+and (ii) to appoint itself or its designee (which shall be a Qualified Transferee) as successor Administrative Agent and as the replacement
+“Lender” under the Loan Agreement and the other Loan Documents, and the retiring Administrative Agent shall promptly execute
+and deliver such assignments, notices, resignations and other instruments, and take such other actions, as are reasonably necessary to
+effect such replacement and to cause the Borrower and any other party to the Loan Documents to recognize A-2 Noteholder or its designee
+as the Lender and Administrative Agent thereunder. Except as provided in this Section 9.5(e), no Noteholder shall have any right
+to cause itself or any other Person to be substituted as, or to designate a replacement, “Lender” or Administrative Agent
+under the Loan Agreement.
+9.6
+Additional
+Requirements
+.
+(a)
+No
+Noteholder shall agree to any modification of the Loan Documents that would provide for any interest or other amount contingent on, or
+determined by reference to, the income or profits of any Person (other than a permitted fixed percentage of receipts or sales), any equity
+participation or “kicker,” or any provision of services to tenants that would generate impermissible tenant service income
+for a REIT Noteholder.
+-
+29
+-
+(b)
+The
+Administrative Agent shall furnish to each REIT Noteholder, promptly upon request, such financial and other information regarding the
+Loan, the Collateral, the Borrower and the Property as such Noteholder reasonably requires to determine or confirm compliance with the
+REIT asset and income tests and the Mezzanine Loan Safe Harbor and shall provide tax information reporting reasonably requested by such
+Noteholder.
+(c)
+The
+Administrative Agent and each Noteholder shall reasonably cooperate with any Noteholder to preserve the Mezzanine Loan Safe Harbor and
+any REIT Noteholder’s qualification as a REIT.
+9.7
+Control;
+Conflicts
+. To the extent any provision of this Agreement or any other Loan Document would, if enforced as written, cause the Loan
+to fail the Mezzanine Loan Safe Harbor or cause any REIT Noteholder to fail to qualify as a REIT, such provision shall be applied and
+enforced only in the manner, and to the extent, that preserves such Mezzanine Loan Safe Harbor and such REIT qualification, and the provisions
+of this Article IX shall control over any conflicting provision of this Agreement. The rights of IIP under this Article IX are
+intended to be, and shall be administered consistently with, the Innovative Industrial Properties control rights under the Intercreditor
+Agreement.
+[SIGNATURE PAGE FOLLOWS]
+-
+30
+-
+In witness whereof, the Initial
+Noteholders and Administrative Agent have caused this Agreement to be duly executed as of the day and year first above written.
+ADMINISTRATIVE AGENT:
+NREF OP IV REIT SUB, LLC,
+a Delaware limited
+liability company
+By:
+/s/ Paul A. Richards
+Name:
+Paul
+Richards
+Title:
+Authorized Signatory
+INITIAL NOTEHOLDERS:
+NREF OP IV SUBHOLDCO, LLC,
+a Delaware limited liability company
+By:
+/s/
+Paul A. Richards
+Name:
+Paul Richards
+Title:
+Authorized Signatory
+IIP LIFE SCIENCE INVESTMENTS II LLC,
+a Delaware limited liability company
+By:
+/s/
+David Smith
+Name:
+David Smith
+Title:
+Authorized Signatory
+Signature
+Page to Co-Lender Agreement
+SCHEDULE
+1*
+*Omitted pursuant to Item 601(a)(5) of Regulation S-K. The Company
+agrees to furnish supplementally a copy of any omitted schedule or exhibit to the SEC upon request.
+Exhibit A*
+LOAN DOCUMENTS
+*Omitted pursuant to Item 601(a)(5) of Regulation
+S-K. The Company agrees to furnish supplementally a copy of any omitted schedule or exhibit to the SEC upon request.
+Exhibit B*
+Notices
+*Omitted pursuant to Item 601(a)(5) of Regulation S-K. The Company
+agrees to furnish supplementally a copy of any omitted schedule or exhibit to the SEC upon request.
+Exhibit C
+COMMITMENTS AND PRO RATA SHARES
+Funded
+Commitment
+Unfunded
+Commitment
+Total
+Commitment
+Pro Rata
+Share
+A-1
+    Noteholder
+$
+133,000,000
+$
+0
+$
+133,000,000
+33.25
+%
+A-2
+    Noteholder
+$
+0
+$
+245,000,000
+$
+245,000,000
+61.25
+%
+A-3
+    Noteholder
+$
+0
+$
+22,000,000
+$
+22,000,000
+5.50
+%

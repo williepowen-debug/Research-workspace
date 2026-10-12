@@ -1,0 +1,31 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/OZK/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── Affinius/NEA original bond event, amount vs entity/date · superseded 2.7 → current NEA original $2.691B ARD, not corporate maturity
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (907)
+        AGENTS/CORAL/LESSONS.md:78  [2.7]  (needle <5 sig digits)
+           **The primary settled it against me** (FL Realtors July condo summary): **average sale price +2.7% against a flat median** = a fattening rig
+        AGENTS/CORAL/MEMORY.md:49  [2.7]  (needle <5 sig digits)
+           | 2026-08-23 | **⭐ THE SESSION'S REAL LESSON, n=2 in one day: a reading that CUTS MY WAY gets adopted without the test that could kill it — 
+        AGENTS/CORAL/STATUS.md:41  [2.7]  (needle <5 sig digits)
+           | **Bankruptcy (instrument built 9/28)** | M.D.+S.D. **217.1/100k, +21.2% YoY** (12 mo to 6/30/26); FL/US **1.231×** widening. Criterion-5 l
+        AGENTS/CORAL/STATUS_DETAIL.md:39  [2.7]  (needle <5 sig digits)
+           | Sargassum (SE FL Atlantic) — *2nd-order overlay* | **~38M MT July outlook — CROSSES the >37.5M record-tier bar** (Jun 33.6M → Jul ~38M; ca
+        AGENTS/DAEDALUS/HARNESS_AUDIT_2026-07-07.md:36  [2.7]  (needle <5 sig digits)
+           | R1 | **OTTO CLAUDE.md (539 ln, 33 steps — fleet's largest)** | 3-way version-stamp drift (v2.5 header / v2.7 footer / unversioned 7/4 edit
+        AGENTS/DAEDALUS/PATTERNS.tsv:64  [2.7]  (needle <5 sig digits)
+           PAT-062	2026-07-27	STALE-AND-DIRECTIONALLY-FLATTERING IS THE DANGEROUS SUBSET OF LEDGER ROT — a stale decision surface whose numbers err on 
+        AGENTS/DAEDALUS/PATTERNS.tsv:163  [2.7]  (needle <5 sig digits)
+           PAT-161	2026-09-12	ON A CAPPED SURFACE THE REMEDY IS ROTATION, NEVER REWORDING ALREADY-COMPRESSED TEXT — AND REWORDING RELIABLY MAKES IT BIG
+        AGENTS/DAEDALUS/PATTERNS.tsv:167  [2.7]  (needle <5 sig digits)
+           PAT-165	2026-09-12	WHEN A THRESHOLD SITS INSIDE A DISTRIBUTION, A SUMMARY STATISTIC MANUFACTURES A VERDICT THAT IS TRUE OF SOME MEMBERS AND 
+        … +899 more 🟠 hit(s) on [2.7] across 443 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟡 in MAIL, point-in-time — usually no action (28: BOND, BRENT, BROCK, CARL, CORAL, CRUISE, FALCON, HANS, HENRY, REGINALD, ZHAO)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (113)  [--show-handled to audit]
+
+  🟠 907 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+

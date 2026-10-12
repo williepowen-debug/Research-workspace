@@ -1,0 +1,83 @@
+DOR
+            
+            
+            RETR status update
+Skip to main content
+Wisconsin.Gov
+Agency Directory
+Online Services
+State of Wisconsin
+Department Of Revenue
+Search
+MENU
+ONLINE SERVICES
+BUSINESSES
+INDIVIDUALS
+TAX PROFESSIONALS
+GOVERNMENTS
+UNCLAIMED PROPERTY
+RETR status update
+Content_Area1
+February 24, 2026
+To: Statutory Assessors, Assessors
+The Wisconsin Department of Revenue (DOR), State and Local Finance Division is providing you with the below real estate transfer return (RETR) update.
+RETR Status Update
+The new RETR filing system is available in
+My Tax Account (MTA)
+, under Real Estate Transfer Return (RETR) in the lower right corner.
+Provide Assessment Data (PAD) and 2025 RETRs
+PAD system and 2025 RETRs prior to January 9, 2026 –
+continue to be accessible from the
+Assessor
+page by clicking
+System login
+under "Provide Assessment Data" in the "Online Services" box
+Sales conveyed in 2025 and recorded after January 8, 2026 –
+will be sent to assessors via email; they cannot be loaded into the PAD system
+RETR Sales Public Search
+The Wisconsin property sales information search is available in MTA. To access the public search, follow these steps:
+Go to
+My Tax Account
+Scroll down to the Real Estate Transfer Return section (lower right corner)
+Select "Search Wisconsin Property Data"
+Important note
+2026 RETR data –
+can only be accessed through the Public Search portal in MTA. The portal does not include email addresses and phone numbers for grantors and grantees
+Schema file
+The Office of Technical and Assessment Services (OTAS) will have a schema file ready soon
+Reach out to your software vendor and let them know to contact
+OTAS
+to access this schema file
+When your software vendor updates the schema file, you will be able to continue e-transfer of RETR information
+Resources
+DOR training and resources
+Visit our
+RETR
+web page for links
+Coming soon – new PAD system (opening June 1, 2026) along with account creation in MTA are being developed
+Stay informed – sign up for RETR email updates on our
+Subscribe to DOR E-News
+page
+Questions?
+Contact the
+Equalization Supervisor
+in your area.
+​
+Back to top button
+About Us
+Contact Us
+Employment
+Media Room
+Privacy
+Legal
+Training
+Español
+Hmong
+中文
+русский
+More...
+X-Twitter
+YouTube
+Linkedin
+Facebook
+Copyright © State of Wisconsin All Rights Reserved

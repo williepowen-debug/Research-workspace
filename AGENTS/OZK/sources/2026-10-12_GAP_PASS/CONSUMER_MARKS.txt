@@ -1,0 +1,31 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/OZK/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── IQHQ historical per-share mark basis; newer BPRE common valuation · superseded 6.28 → current common fair value $270.6M; class-specific unit mark unknown
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (52)
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:210  [6.28]  (needle <5 sig digits)
+           2026-09-03,Monthly,2019-12-01,2019-12-31,Metro,"Fort Lauderdale, FL metro area",Condo/Co-op,Buyer's Market,3979,-0.65,8171,-3.6,0.49,1.44,10
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:597  [6.28]  (needle <5 sig digits)
+           2026-09-03,Monthly,2019-09-01,2019-09-30,Metro,"Jacksonville, FL metro area",All Residential,Buyer's Market,8632,-10.22,11783,-6.28,0.73,-3.
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:1079  [6.28]  (needle <5 sig digits)
+           2026-09-03,Monthly,2022-03-01,2022-03-31,Metro,"Miami, FL metro area",All Residential,Balanced Market,13013,-24.81,13830,-24.08,0.94,-0.91,6
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:1165  [6.28]  (needle <5 sig digits)
+           2026-09-03,Monthly,2025-09-01,2025-09-30,Metro,"Miami, FL metro area",Condo/Co-op,Buyer's Market,3774,32.9,11501,6.28,0.33,6.57,204.76,-76.3
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:1489  [6.28]  (needle <5 sig digits)
+           2026-09-03,Monthly,2020-01-01,2020-01-31,Metro,"Miami, FL metro area",Townhouse,Buyer's Market,1358,17.34,1568,-6.28,0.87,17.44,15.41,-29.08
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:2130  [6.28]  (needle <5 sig digits)
+           2026-09-03,Monthly,2019-12-01,2019-12-31,Metro,"Tampa, FL metro area",All Residential,Balanced Market,20322,-7.28,21598,-11.49,0.94,4.27,6.2
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:2185  [6.28]  (needle <5 sig digits)
+           2026-09-03,Monthly,2026-01-01,2026-01-31,Metro,"Tampa, FL metro area",Condo/Co-op,Buyer's Market,1928,30.84,5197,6.28,0.37,6.96,169.54,-62.2
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:2318  [6.28]  (needle <5 sig digits)
+           2026-09-03,Monthly,2025-08-01,2025-08-31,Metro,"Tampa, FL metro area",Single Family Residential,Buyer's Market,10664,8.5,18458,6.28,0.58,1.1
+        … +44 more 🟠 hit(s) on [6.28] across 26 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟡 in MAIL, point-in-time — usually no action (3: BRENT, CARL, MIDAS)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (13)  [--show-handled to audit]
+
+  🟠 52 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+

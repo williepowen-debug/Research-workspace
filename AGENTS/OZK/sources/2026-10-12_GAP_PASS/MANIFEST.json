@@ -1,0 +1,411 @@
+{
+  "owner": "OZK",
+  "date": "2026-10-12",
+  "files": [
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/AIMCO_OCT02_8K.html",
+      "bytes": 72351,
+      "sha256": "9516613882c11a9256d5caaa353d82a1780b52910a7bfa553b3452257760c8bc"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/AIMCO_OCT02_8K.txt",
+      "bytes": 6068,
+      "sha256": "a47719a172d9ac095af97f08802893452b1bb6f4093cca3c7d51576ff121d34d"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/AIMCO_Q2_10Q.html",
+      "bytes": 3441541,
+      "sha256": "f7a2faf44a60f810d1fbd4320fd6956f0668bde0cd5f923176d9dade6e2b8016"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/AIMCO_Q2_10Q.txt",
+      "bytes": 153048,
+      "sha256": "edbf4f3187dabfb6147de002b138de5fb8a2a066b0df47989dc9f42f7bc8a758"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/AIMCO_SUBMISSIONS.html",
+      "bytes": 168557,
+      "sha256": "b97185d82df88d0190bf1f63c8522c942f48aa2469eeb59d68343366fa068cea"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/AIMCO_SUBMISSIONS.txt",
+      "bytes": 168557,
+      "sha256": "b97185d82df88d0190bf1f63c8522c942f48aa2469eeb59d68343366fa068cea"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/BOOT_CONTINUATION.txt",
+      "bytes": 3975,
+      "sha256": "d707ccac5301625bb6cd912fd83bee7807b54266f633d806551045e0dde39a30"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/BPRE_AUG28_INDEX.html",
+      "bytes": 7588,
+      "sha256": "54c47849df83cfa10fc53258448c25b7a23976c4e5db3fedbbe83a766343b5d4"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/BPRE_AUG28_INDEX.txt",
+      "bytes": 1099,
+      "sha256": "93463a6ef5b3322c7950b9b4bf65e546a62c8aabd6882eb51fc6e5ca85f7c1d7"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/BPRE_FACT_Q2.pdf",
+      "bytes": 198569,
+      "sha256": "9224182dc92039af6cbfc50490861cfa8776153a67c205964fa3af25649eb03b"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/BPRE_FACT_Q2.txt",
+      "bytes": 10933,
+      "sha256": "465ae2ed0779a43b4d19d5064a07629ea5f30c4b0efa6c1192a045408c7513c3"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/BPRE_HOME.html",
+      "bytes": 148610,
+      "sha256": "4ee4a93afe31c188317d31af975ad76c7b52ea46c0b842d6ad7ffd2a18632db7"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/BPRE_HOME.txt",
+      "bytes": 13488,
+      "sha256": "0f3c23aa3ca67cdcfd69bddde384269ee357699ceca1362608499d4b93a4acfb"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/BPRE_IR.html",
+      "bytes": 108877,
+      "sha256": "414bb672a47dd79aea233cd575d0f3b0994510c3168a18d21a700cee4908f23e"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/BPRE_IR.txt",
+      "bytes": 7157,
+      "sha256": "c19e994a6116ad4587101ede2a910a6d4182c353a239a4c9dcb3fc9eb4f58708"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/BPRE_JUN30_HOLDINGS.pdf",
+      "bytes": 201081,
+      "sha256": "4bb3580e7341b41a9311a258993a9ed0d35e4d8ea915875031f1fce2da9660aa"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/BPRE_JUN30_HOLDINGS.txt",
+      "bytes": 40627,
+      "sha256": "a02dd4405edcd7a2c13521876035e1a3b92003f70c306beb0bb0007c0082de92"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/BPRE_JUN30_SEC_EXHIBIT.html",
+      "bytes": 134083,
+      "sha256": "4e9950ea168b79245e9fce9da3846557ba53dd278448eba717dfc1a5d61cfb05"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/BPRE_JUN30_SEC_EXHIBIT.txt",
+      "bytes": 38339,
+      "sha256": "84a368f23978ae8c209302f7b5c252f85df2f77d1f1372d22aed860d35b7365a"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/BPRE_MAR31_REPORT.pdf",
+      "bytes": 4541404,
+      "sha256": "1ee607af5cd2ebd37d2d130fea1e39b1a16c633b2c6c71996e939e1541f7e492"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/BPRE_MAR31_REPORT.txt",
+      "bytes": 103590,
+      "sha256": "08c071d05091a1a682cfa27f47b3d7dc721d24cb63faafe17a0ffa6422db2dfc"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/BPRE_REPLAY_PAGE.html",
+      "bytes": 85308,
+      "sha256": "c8363191a3e7c0908a6960fe27a4d405ebcd398ad5e8582cbc901bb06b5802ba"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/BPRE_REPLAY_PAGE.txt",
+      "bytes": 8692,
+      "sha256": "779f17b9eaa215b005ff64b7da81c2c610da19e598d727a3faf9ab1cda25f5e0"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/BPRE_SUBMISSIONS.html",
+      "bytes": 68843,
+      "sha256": "3ed797245e98951b223e0ac15b1f23ae3e11b1f68a05de273769e4c78cbf81b4"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/BPRE_SUBMISSIONS.txt",
+      "bytes": 68843,
+      "sha256": "3ed797245e98951b223e0ac15b1f23ae3e11b1f68a05de273769e4c78cbf81b4"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/BPRE_VIMEO_CONFIG.html",
+      "bytes": 3478,
+      "sha256": "2db076beaa80b7abbc80b417a3b3e66d1c232a4644426d5f7979d2933cd3a881"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/CONSUMER_AFFINIUS.txt",
+      "bytes": 3072,
+      "sha256": "f3de9a35b6ead38b9a6c064bccb25869c0816268ddacdfe2fb2527041d4ce850"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/CONSUMER_MARKS.txt",
+      "bytes": 3419,
+      "sha256": "fb8266e7d442fa15214d2bb1f3b497cf19850505518fe3cb48bbb6c9f06e526f"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/DE_CHANCERY.html",
+      "bytes": 59339,
+      "sha256": "6248350c272ff096d19dfc587c9ca6553dc58e427a836e532254e06e9d5f6751"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/DE_CHANCERY.txt",
+      "bytes": 8945,
+      "sha256": "2c2506bc4232e647a7e9929d483e81059e2fc78992c2be0909173d55170d69ab"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/DE_CIVIL_SEARCH_GUIDE.html",
+      "bytes": 25878,
+      "sha256": "4efeb0bc5d7f10efdc9198acd3d8aa3c075b61bd252a2a23bd4459d4c1b11b29"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/DE_CIVIL_SEARCH_GUIDE.txt",
+      "bytes": 2664,
+      "sha256": "aa71d4c016922fa90c8743089e4e1ca3212a9c23c48b89df4681dd07afb2f0aa"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/DE_OPINIONS.html",
+      "bytes": 130584,
+      "sha256": "4593541629eb9b32320526fab10687372ab879d76d0f439ab4872cdaf1918063"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/DE_OPINIONS.txt",
+      "bytes": 7528,
+      "sha256": "3fb5eb94bc04ccc46cf4f4d8cf31b6c998c3850234479be0f3560266eb19cb1b"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/DE_OPINIONS_AIMCO.html",
+      "bytes": 33141,
+      "sha256": "e60f761e15b408052ea1d0c17f7499aea85bf446645a485519be1ec210bde1ee"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/DE_OPINIONS_AIMCO.txt",
+      "bytes": 2747,
+      "sha256": "f6790574d640c6f37f60c7469d36090c78fccba3a94333ab1cf0fa172b31695f"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/DE_OPINIONS_IQHQ.html",
+      "bytes": 33138,
+      "sha256": "ecb53164f918d7363dba26c19c2a8a867413f7aeea0fdc17ce2b5743f9c0157a"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/DE_OPINIONS_IQHQ.txt",
+      "bytes": 2747,
+      "sha256": "f6790574d640c6f37f60c7469d36090c78fccba3a94333ab1cf0fa172b31695f"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/FETCH_RECEIPTS.jsonl",
+      "bytes": 14226,
+      "sha256": "4b1e3b7d0e784ad31825ad2bb5157bf785333cfee6b06d255000224e74696da5"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/FSX_PUBLIC.html",
+      "bytes": 129679,
+      "sha256": "e08e0dcffd057cf0e9a79fb2b637cd0f3d74ab67f068afe8d5407ae099c58f81"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/FSX_PUBLIC.txt",
+      "bytes": 4723,
+      "sha256": "919b7c77b8503826e0c102c0b57ad0eb7d569853a31ddcaea03ed998669ef474"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/HUNTER_OCT05.html",
+      "bytes": 61693,
+      "sha256": "a2ee8a950c8c9593dcac3196c62f288111f78fd211fc953940693223e155e08d"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/HUNTER_OCT05.txt",
+      "bytes": 4615,
+      "sha256": "ab754c8f09f0f1f5820efba632411bfb54fcb055388cec8da68d47fc0653035f"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/HUNTER_SEP02.html",
+      "bytes": 61011,
+      "sha256": "db2625786c0f35932539f24bcc85aa8298f31c88907e3d3d13ea388ae4e49e0e"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/HUNTER_SEP02.txt",
+      "bytes": 3383,
+      "sha256": "6a520c737f199642e85a02db17388fe1e25e33680c7b99181aa04fd758220006"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/IIPR_ALEWIFE_SIXTH.html",
+      "bytes": 173779,
+      "sha256": "2a4d97259c3d31f4f729a92e919d99e4f9068c5b7c937935ccd75ba1b68bfec6"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/IIPR_ALEWIFE_SIXTH.txt",
+      "bytes": 83591,
+      "sha256": "001b48d417edb3c9191d0e7afbec95a19be1b3a53b04a2c611c897cc38f4306d"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/IIPR_COLENDER.html",
+      "bytes": 240078,
+      "sha256": "c29b7e7b5b3e70f416ca641b5b5e026c1919fb638523bd004d36b8a2cee43a27"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/IIPR_COLENDER.txt",
+      "bytes": 104536,
+      "sha256": "5d52c062588d2216077164f1b18039ef83b388fa3c0888afc53d8e7cf3306e9a"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/IIPR_OCT01_8K.html",
+      "bytes": 64539,
+      "sha256": "8760aa6041bdc7c3963eaf15a908fff208b3f5b58e8b68144eeeff54e2ec9de5"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/IIPR_OCT01_8K.txt",
+      "bytes": 21215,
+      "sha256": "7dea2222ba14c5a2eaef1931bffe90b9e61f411fe8611c8ef55e806b665e97c1"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/IIPR_OCT01_RELEASE.html",
+      "bytes": 10668,
+      "sha256": "ce3f91f0379d811ff53a0f789893795edc4d1267edcf321ccf39f9c8808596ab"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/IIPR_OCT01_RELEASE.txt",
+      "bytes": 5902,
+      "sha256": "67980c12c296eefa4c4de52bf749bea0647cd1aff153d8373b2a1092b3b35eea"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/IIPR_OCT07_PROSPECTUS.html",
+      "bytes": 897590,
+      "sha256": "fdea47a7fe5dba84645423a075538867e38ba8aa5c0344718efe6ea0ccacc064"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/IIPR_OCT07_PROSPECTUS.txt",
+      "bytes": 450401,
+      "sha256": "815698f6317b9c60af71a0af4d40eb71f0317df619de252e62b5cc950ba42f55"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/IIPR_SUBMISSIONS.html",
+      "bytes": 96993,
+      "sha256": "aee86b55abb7c3ff87ef03bed811c54c8fb936ca1533c6d2c5ff2588829dc255"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/IIPR_SUBMISSIONS.txt",
+      "bytes": 96993,
+      "sha256": "aee86b55abb7c3ff87ef03bed811c54c8fb936ca1533c6d2c5ff2588829dc255"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/JACK_REGISTRY_OCT.html",
+      "bytes": 337611,
+      "sha256": "be5b89cbac92f2cff2d489c4a6d92dda461166e3d1b526cfe3bcfb1dca86ab8d"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/JACK_REGISTRY_OCT.txt",
+      "bytes": 5491,
+      "sha256": "965bed8f6f89120295c32b51b9aa8bc6756574a1061c618499c80093ac8627a0"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/LEG1_URLS.json",
+      "bytes": 863,
+      "sha256": "acc55d3f2032e9013f836224001e3f8c15194e00fc5ca548f9cf9f81edd01f75"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/LEG2_FINAL_URLS.json",
+      "bytes": 276,
+      "sha256": "6bb590722d5e15a60ecfd44559c8c5d017e372e221280e33faeb29cc9bd5c8a3"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/LEG2_MORE_URLS.json",
+      "bytes": 587,
+      "sha256": "10ae36eb4fd8e4a8e5b14c6da10b27b832c1be48891e377d8e59a0dcd0870177"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/LEG2_URLS.json",
+      "bytes": 1041,
+      "sha256": "167a4325d2b8e79e92b5294d0ac1caaed2a845f292feedc69c7dacd51cb9e4ee"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/LEG3_AIMCO_URLS.json",
+      "bytes": 240,
+      "sha256": "fa80473688d045bb9f7258ec590d37ef059c6eb8f4ec2e481056cbfcf5d242e6"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/LEG3_COURT_SEARCH_URLS.json",
+      "bytes": 306,
+      "sha256": "e8cb9785b803a0b20d26ee64553afc8ab029bc3641fe91f028609a8c745c7bd3"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/LEG3_URLS.json",
+      "bytes": 777,
+      "sha256": "c1598daf2b9f99d9837137cfe695a9334b760d09d65c609f8ef05c809e783385"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/NEA_AAM_JUN30_SEC.html",
+      "bytes": 1975440,
+      "sha256": "bef3dd27aa6e3b478b016cc08fed96594922e6b34430e9796922be1b91d82895"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/NEA_AAM_JUN30_SEC.txt",
+      "bytes": 276825,
+      "sha256": "7f1fec1dd6ed837be79c4dfdbdd24d4e5039954a5e1f6884d0754fae50f08e12"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/NEA_CTSLINK_PUBLIC.html",
+      "bytes": 17407,
+      "sha256": "b4b46b1af20d0c58a4a0b78fe0f20536d8c74e01f671d39512b8bd0ea6d6567c"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/NEA_CTSLINK_PUBLIC.txt",
+      "bytes": 2073,
+      "sha256": "95551679bfee0ac9ed7d4c21ba066a86b6debec39bff85a00ddd2d80ecae60dd"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/NEA_SP_PRESALE_2021.html",
+      "bytes": 589297,
+      "sha256": "55a155674291f05b6579110e6240383214309560ec87f8f710e6519705cce255"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/NEA_SP_PRESALE_2021.txt",
+      "bytes": 399,
+      "sha256": "56d26289566cfd4567942fe67a2fb61f22378cd335e46ebe156fd406feee41f1"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/READ_RECEIPT.md",
+      "bytes": 3031,
+      "sha256": "0c3f327e0eba9c09ffff1019a2cf3da47de2077e1c3d0fb8d8d4a088935bc0d6"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/USQ_PREDICTA_SEP24.pdf",
+      "bytes": 218141,
+      "sha256": "bc7869a5fa58bcc3992ca3eeb739f539442a52c252b371c21cc84a681e4227d8"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/USQ_PREDICTA_SEP24.txt",
+      "bytes": 6169,
+      "sha256": "b1c4bd5edf77aa75fd01ecaa27dc7b0cdb7670e007f565134b5dea8676726f2d"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/VALIDATION.json",
+      "bytes": 565,
+      "sha256": "27c891117254742b8a2f686df6266ea71c5b7111519ed2f7402bb8a8c658e3e0"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/WIDOR_GUIDE.html",
+      "bytes": 49030,
+      "sha256": "7d45467c32bb5b0a6577fcd65117b678529e2a87bac538080d1a1d9423c329d7"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/WIDOR_GUIDE.txt",
+      "bytes": 2357,
+      "sha256": "a3fc3aca2ec156409405ef661f8dacd9d9be85f74fbb4b04885bca5c0f93dd91"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/WIDOR_PUBLIC.html",
+      "bytes": 4829,
+      "sha256": "9e082c332778c8f97d89561dd5438f4a5c3c0baf660448ef6c2f509e676b20bb"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/WIDOR_PUBLIC.txt",
+      "bytes": 296,
+      "sha256": "e5d28b7045394d20e71eecb65f2b0b2bdefac15050e9505ab4a0c590ed30f205"
+    },
+    {
+      "path": "AGENTS/OZK/sources/2026-10-12_GAP_PASS/fetch_public.py",
+      "bytes": 1543,
+      "sha256": "0dc6fdcae47cbd3f6ae826b743c9e44556f7c2acea75f48283b0d18718cf18fa"
+    }
+  ]
+}

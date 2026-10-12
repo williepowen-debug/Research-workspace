@@ -16,9 +16,9 @@
 - **Relationship:** RESG co-lending — most frequent partner (7+ deals)
 - **Example Deals:** $135M Perris Gateway industrial (Sep 2024); $250M Bronx industrial with PIMCO (May 2023); multiple industrial/multifamily $500M+
 - **Estimated Exposure:** Not quantified — but highest deal count of any counterparty
-- **Stress Indicators:** 🔴 **$2.7B in Amazon-warehouse-backed bonds** (issued 2021 at ~2%) trading at **81 cents on the dollar**. Mandatory principal repayment deadline: **October 2026**. Hard interest step-up clauses activate on miss. Fortress faced identical structure on $2B and missed its July 2025 deadline.
+- **October12 correction:** identifiable bonds are **New Economy Assets–Phase1 Issuer LLC / USRE2021-1**, original $2.691B warehouse lease ABS sponsored by funds/accounts under USAA Real Estate's former brand. **Original ARD October20,2026; legal final October20,2061**. Presale table indexed, executed/current documents unread; trustee report sign-in. **81 cents is a 2025 reported trade**, not a current quote. Early amortization/added-interest risk after original ARD is not automatically corporate default. Source → `../research/threads/2026-10-12_AIMCO_AFFINIUS_CHECK.md`.
 - **CRE Linkage:** Direct — if Affinius is also a back-leverage borrower (Sub-variant B, not just co-lender), this becomes direct NDFI credit exposure to OZK
-- **Catalyst Date:** October 2026 bond maturity [KB-OZK-024]
+- **Catalyst Date:** **October20,2026 original anticipated repayment**, current amendments/payoff UNKNOWN [KB-OZK-255]; supersedes corporate-maturity reading in024/165/166. Direct OZK holding/guarantee of the ABS not established.
 
 ### Square Mile Capital
 - **Relationship:** RESG co-lending — most prolific *historical* partner (5 deals, $1.5B+ total)
@@ -57,10 +57,10 @@
 ## 🟡 MONITORED COUNTERPARTIES
 
 ### Bluerock Total Income+ Real Estate Fund (TI+) — IQHQ leading-indicator node
-- **Relationship:** **NOT an OZK co-lender** — subordinate capital in the *shared IQHQ/RaDD stack*, first-loss to OZK's senior RaDD loan. Tracked as a leading indicator, not a counterparty exposure.
-- **Exposure:** IQHQ's largest shareholder, **>$700M** = $246M PIK loans ($160M@13.5% Dec'27 + $86M@14% Aug'28, interest unpaid, accruing ~$8-9M/qtr) + large first-loss equity (~$488M reported, indicative).
-- **Stress Indicators:** 🔴 $3.6B interval fund **listed at ~38% below NAV**; **9 straight negative quarters; redemption queue.** IQHQ NAV mark −4.4%→$6.28 (H2'25 vintage; peers Highland −23%→$7.72, T.Rowe $4.92, Altegris $2.26).
-- **CRE Linkage / why watch:** Bluerock's equity is first-loss on IQHQ, so its **next TI+ NAV mark moves BEFORE OZK's senior RaDD credit** — a leading indicator into the Aug 2026 RaDD maturity. Entity = **TI+ interval fund, NOT "Bluerock Homes Trust"/BHM** (corrected 7/4). BROCK notified 7/4. [KB-OZK-197]
+- **Relationship:** Sponsor-capital evidence, **not a direct OZK counterparty claim**. Corporate common equity/preferences/credit and RaDD-parent PIK are different instruments/legal claims; no identical collateral waterfall presumed.
+- **Exposure [June30 primary, read10/12]:** **$777.17M combined**: common equity $317.37M, RaDD ParentI/II14%PIK $95.60M (August2028), SeriesE16.5%PIK $196.68M, corporate12%Current+1.5%PIK $167.53M (December2027). Subsequently common marked **$270.61M**, exact valuation day undisclosed; known by August28. No later total inferred.
+- **Valuation signal:** **Common-equity −14.73% vs June30**, replacing H2'25-only desk state. **Not an October event or OZK loan loss**. September30 homepage equity weights5.3%+2.6% gross assets; weights cannot establish price direction. Prior per-share6.28 and listing-day38% remain historical, not comparable current marks. Whole webinar/Q&A unread; written summary read.
+- **CRE Linkage / why watch:** Common-equity erosion affects sponsor support risk, while actual new Alewife financing is contrary capital-access evidence. RaDD's $100M provider/legal form still unknown. **BPRE is a listed closed-end fund**, same CIK1551047 as former TI+; not BHM. Source → `../research/threads/2026-10-12_IQHQ_FUNDING_AND_MARKS.md`; evidence to BROCK/WALTER, no trade gate automatically re-armed.
 
 ### Blackstone (BREDS)
 - **Relationship:** Co-operator in large urban markets
@@ -135,7 +135,7 @@ When BROCK escalates these signals, check for OZK counterparty overlap:
 | Affinius bond maturity outcome (Oct 2026) | Bloomberg, trade press | If missed → escalate to 🔴, check OZK back-leverage exposure |
 | Blue Owl new fund gates or bridge lending freeze | SEC filings, BROCK | If freeze → reflexive channel activated, flag maturity wall acceleration |
 | Any new counterparty NAV markdown >10% | Fund quarterly reports | Log here, cross-check BROCK |
-| **Next Bluerock TI+ NAV mark on IQHQ** (last −4.4%→$6.28, H2'25) | TI+ fund reports / BROCK | Fresh IQHQ writedown → leading signal for OZK RaDD (Aug'26); escalate + flag REGINALD/BROCK |
+| **BPRE IQHQ common markdown obtained10/12**, post-June and disclosedAugust28; exact new effective day unknown | SEC NPORT exhibit / BPRE original holdings / BROCK | June $317.37M→subsequent$270.61M; senior loss not inferred. Next genuinely newer dated class-specific mark, actual debt performance and sponsor obligations remain useful |
 | New OZK co-lending deals with stressed partners | Commercial Observer, perecredit | Update deal count and exposure estimates |
 | Quarterly FFIEC Call Report NDFI line (RCONJ454) | FFIEC CDR | Track growth/decline of $2.74B total |
 | New SEC 8-K filings mentioning OZK as lender | EDGAR full-text search | Identify new counterparties |

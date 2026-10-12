@@ -1,4 +1,6 @@
 # PRIVATE CREDIT STATUS
+
+> **October12 bounded update (Will's three-gap pass):** BPRE June/subsequent IQHQ common equity **$317.4M→$270.6M** (−14.73%, disclosedAugust28), actual Alewife September28 IIPR advance **~$111M**, and NEA/USRE2021-1 **original ARD October20,2026 / legal final2061** now sourced. Neither corporate maturity/default nor OZK senior loss follows. Exact instrument/date/access limits → `../research/threads/2026-10-12_IQHQ_FUNDING_AND_MARKS.md` and `../research/threads/2026-10-12_AIMCO_AFFINIUS_CHECK.md`. Remaining general subdomain narrative is historical; no broad refresh or vector/score move.
 **Updated:** 2026-08-28 (**★ THIS BOOK IS NOW THE THESIS'S NAMED SECOND PILLAR** — Will-ruled 8/23, verbatim "approved" — replacing the retracted 37.6% MI3 ratio in "what makes OZK special." Plus the Q2-26 Call Report data this file was missing for 21 days: `RIAD5409` **$42,437K — the first nonzero in 18 quarters.**) Prior: 2026-07-18 (Q1'26 10-Q READ — debt-on-debt ~$490M primary-confirmed [KB-210]; The Jack = first debt-on-debt casualty; NDFI-contagion regime channel flagged to REGINALD+BROCK [C8/KB-215])
 
 > ### ★ PILLAR STATUS (Will-ruled 2026-08-23, encoded here 2026-08-28)
@@ -50,7 +52,7 @@
 
 ## Key Catalysts
 - **Q1 2026 10-Q — ✅ READ 7/18** (`../raw/Q1_2026_10Q.pdf`): debt-on-debt sized (~$490M, KB-210); collateral-dependent marking methodology quantified (KB-211). *(Note: written Fund-Finance-pullback asymmetry question — the 10-Q MD&A NDFI/CIB narrative is high-level; the spoken-only pullback disclosure asymmetry appears to persist — worth a dedicated pass vs the MD&A if it matters.)* Bluerock **TI+ interval fund** node → `COUNTERPARTY_WATCH.md` — next TI+ NAV mark leads OZK RaDD credit.
-- Affinius $2.7B bond maturity: Oct 2026 — if missed, largest stressed counterparty defaults. **7/6: asset-level co-lending CONFIRMED** — OZK holds $95M of the Affinius/Square-Mile-originated 777 Industrial note (Square Mile rebranded → Affinius 2023; "Sm Tactical Finance III LLC"), as-market underwater per Atrium; plus SqMile ~$100M junior under OZK's $279.75M Southline senior [KB-203]. Corporate-level exposure still unverified. BROCK signaled 7/6.
+- **NEA/USRE2021-1 original expected repayment October20,2026** — original $2.691B Amazon warehouse lease securitization; **legal final October20,2061**, current amendments/payoff UNKNOWN. Unpaid ARD cash-flow restrictions/added-interest mechanics are **not automatic Affinius corporate default**. S&P indexed2021 primary/June2026 SEC holder/trustee-public-index → bounded check above. **Asset-level co-lending remains distinct:** 777 Industrial $95M assigned OZK note and Southline senior/junior history [KB-203]; direct exposure to this ABS not established.
 - Blue Owl bridge origination freeze — would directly accelerate maturity wall
 - Q2 26 repayment velocity — if drops materially vs Q1 26, reflexive channel is activating
 - Any JPM/GS CRE collateral markdown — triggers Channel 4
@@ -62,7 +64,7 @@
 ## Next
 - Monitor Q1 2026 10-Q (~May 5) for written Fund Finance pullback disclosure — durability of the asymmetry
 - Cross-reference BROCK escalations against counterparty list
-- Verify Affinius $2.7B Oct 2026 exposure (TODO #5) — not discussed on Q1 call
+- C5 identity/date verification DONE10/12; obtain current NEA amendments/payoff/servicing evidence within existing October follow-through if accessible. Trustee report requires sign-in; no corporate-default inference.
 - Track sub-variant A/B split (still unknown); JVP $800M loan status
 
 ---

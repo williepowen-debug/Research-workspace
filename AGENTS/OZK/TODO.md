@@ -4,6 +4,8 @@
 **Dated items also live in `CALENDAR.md`; this file is the research queue.**
 **▶ WORK ORDER (L690, Will-approved 10/12):** run the ready Q3 card at L520; review Horton unresolved disposition at original 10/14 checkpoint. Broader reserve-model rebuild **DEFERRED** pending decision-relevant Q3 inputs; no general subdomain refresh.
 
+**Will's later direct three-gap pass DONE10/12 in order:** public workout outcomes; IQHQ funding/BPRE marks; Aimco/Affinius checks → `research/threads/2026-10-12_THREE_GAP_DELIVERY.md`. Remaining unknowns are bank accounting/payoffs, FSX docket, trustee execution and video-only Q&A; no duplicate L635/Horton search.
+
 ⛔ **Standing fence:** **D1 / OZK-salvage is RULED-CLOSED.** Do not re-present, re-litigate, or propose a successor position. Any future OZK expression is a **new** trade — TERRY builds, Will approves.
 
 ---
@@ -26,9 +28,9 @@
 |---|---|---|---|
 | C1 | **Horton current leasing/occupancy evidence** | **Bounded search DONE 10/12; result UNRESOLVED** · original CHECK-BY **10/14** retained | `research/threads/2026-10-12_HORTON_BOUNDED_CHECK.md`: no dated current operator occupancy measure; dated forecast/undated listing/old retail announcements insufficient. Next owner/tenant/city evidence path, no indefinite search |
 | C2 | **SD County Recorder — signed RaDD extension/covenants** | 10/12 403; instrument unread | Issuer establishes 10/9 execution to Dec-2029. Independent recorder number/title, covenants, redraw terms remain UNKNOWN; no claimed Sixth Modification |
-| C3 | **Aimco v. IQHQ** motion-to-dismiss ruling | 🟡 none found (as of 9/27, web only) | Direct docket pull (courts.delaware.gov) |
+| C3 | **Aimco v. IQHQ** motion/ruling | **Public checks DONE10/12; outcome UNKNOWN** | Official2026 IQHQ/Aimco opinions searches no results; full Chancery docket via **FSX**, access unavailable. CourtConnect is a different court universe; motion existence/case number not verified |
 | C4 | **Severity comp refresh** (KB-OZK-177 bands) | 🟠 stale since 7/31 | Q2-Q3 distressed CRE transactions; Spur deed-in-lieu (9/17) is a new data point |
-| C5 | **Affinius $2.7B bond maturity — verify or remove** (Oct 2026) | 🟠 open since Apr 22 | Possible Affinius / USAA Capital conflation; CREED asked 4/22, no reply found. CUSIP search or drop from CALENDAR |
+| C5 | **DONE10/12 — identify/correct Affinius event** | NEA/USRE2021-1 original expected repayment **October20**, legal final **2061** | Original $2.691B warehouse lease ABS, not corporate maturity/default. Original ratings index + SEC holder corroboration; current amendments/payoff UNKNOWN, trustee report sign-in. Narrow October follow-through remains; no automatic default inference |
 
 ## 3. Research threads
 
@@ -37,7 +39,7 @@
 | R1 | **Re-derive SEVEN_CREDIT's $150-300M reserve-build estimate** on the **Q2 roster** (`Q2_2026_10Q_READ.md` §2) + SM concentration (5 credits $529M) | **DEFERRED by L690** | Rebuild only if Q3 supplies decision-relevant new classifications/cash prices/retained balances; not commissioned now. Single-supported since the 37.6% input died; the Q1 roster it used has turned over (Sullivan cured; Chapter I/II + Atlanta foreclosed) |
 | R2 | **Refresh the 4 subdomain STATUS files** — LIFE_SCI · GEOGRAPHY · INSIDERS · PRIVATE_CREDIT (was S2) | 🟠 | All pre-Q2-print; INSIDERS/SELLING got the 9/24 pull only. Largest body of work |
 | R4 | **Does OZK populate MI3 from the debt-on-debt book only?** | 🟡 | MI3 ≡ PV09 every quarter ⇒ zero CRE-purpose ever reported from item 4 |
-| R5 | **Bluerock BPRE / IQHQ marks** | 🟡 | Last marks H2'25 vintage; BPRE webinar held 10/6 4 PM ET (after the close); replay posted 10/7 is video, content UNKNOWN; IQHQ = 5.1% warrant equity + 2.6% equity of BPRE gross assets at 8/31. **BPRE ~47% below NAV @9/3 (derived, KB-239), widened from ~38% at the Dec-25 listing.** A Bluerock trade idea is a **TERRY/BROCK** question, not this desk's |
+| R5 | **Primary BPRE marks/Alewife funding refresh DONE10/12** | Video Q&A access gap remains | June common mark $317.4M, subsequent $270.6M (−14.73%, disclosedAugust28); September30 equity weights5.3%+2.6%. Alewife fundedSeptember28 terms verified. Written replay summary consumed; no video transcript. Source artifact preserves instrument/date/denominator limits. Trade construction remains TERRY/BROCK/Will |
 | R6 | **OZK-04 roster freshness** — its numerator is our own SEVEN_CREDIT roster | 🟡 before Q4 print | Gradeable at the Q4'26 print only if the roster is current |
 | R7 | MI3 path (a): Q3'25 transcript | ⚪ optional | Only an explicit statement on the Q3'25 debt-on-debt change would move "reclassification not excluded" |
 | R8 | Consumer RV/Marine NCO tracking (0.42%, super-prime) → PREDICTIONS row? | ⚪ low | Inflection = consumer-channel leading indicator |

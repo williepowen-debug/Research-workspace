@@ -1,0 +1,1395 @@
+EX-10.1
+2
+tm2626535d1_ex10-1.htm
+EXHIBIT 10.1
+Exhibit 10.1
+Execution
+Version
+SIXTH AMENDMENT TO AMENDED AND RESTATED
+MEZZANINE LOAN AND SECURITY AGREEMENT
+This
+SIXTH AMENDMENT TO AMENDED AND RESTATED MEZZANINE LOAN AND SECURITY AGREEMENT (the “
+Loan Increase Amendment
+”
+or this “
+Amendment
+”) is executed as of September 28, 2026 by
+IQHQ-ALEWIFE HOLDINGS, LLC
+,
+a Delaware limited liability company (“
+Borrower
+”)
+, and NREF OP IV REIT SUB, LLC, a Delaware limited liability
+company (together with its successors and assigns, “
+Administrative Agent
+”), and the undersigned Lenders.
+RECITALS
+:
+A.
+Borrower,
+Administrative Agent and NREF OP IV SUBHOLDCO, LLC, a Delaware limited liability company, entered into that certain Amended and Restated
+Mezzanine Loan and Security Agreement dated as of September 30, 2025, that certain First Amendment to Amended and Restated Mezzanine
+Loan and Security Agreement dated as of March 31, 2026, that certain Second Amendment to Amended and Restated Mezzanine Loan and
+Security Agreement dated as of April 16, 2026, that certain Third Amendment to Amended and Restated Mezzanine Loan and Security Agreement
+dated as of April 24, 2026, that certain Fourth Amendment to Amended and Restated Mezzanine Loan and Security Agreement dated as
+of May 1, 2026, and that certain Fifth Amendment to Amended and Restated Mezzanine Loan and Security Agreement dated as of May 15,
+2026 (as so amended, and as the same may be amended, supplemented or otherwise modified from time to time, the “
+Agreement
+”),
+whereby Lenders made a loan (the “
+Initial Loan
+”) to Borrower in the maximum amount of ONE HUNDRED THIRTY-THREE
+MILLION and 00/100 Dollars ($133,000,000.00) (plus an additional B Loan described below) for the purposes as set forth in the Agreement.
+The parties acknowledge and agree that the signature page to each of the Amendments to the Agreement contains a scrivener’s
+error in that each signature page erroneously lists NREF OP IV REIT SUB, LLC, a Delaware limited liability company, as the Lender.
+The Initial Lender under the Agreement is NREF OP IV SUBHOLDCO, LLC, a Delaware limited liability company. By its execution of this Amendment,
+NREF OP IV SUBHOLDCO, LLC, a Delaware limited liability company, the Initial Lender under the Agreement, hereby ratifies and affirms each
+Amendment to the Agreement.  Capitalized terms used but not otherwise defined herein shall have the respective meanings given thereto
+in the Agreement.
+B.
+In
+connection with the Initial Loan, the Guarantor executed and delivered the Guaranties (as defined in the Agreement).
+C.
+Borrower,
+Administrative Agent and the Lenders acknowledge and agree that the B Loan, as advanced pursuant to and in accordance with the terms set
+forth in the First Amendment to Amended and Restated Mezzanine Loan and Security Agreement dated as of March 31, 2026, has been paid
+off in full.
+D.
+Borrower
+entered into that certain Bridge Loan and Security Agreement dated as of May 22, 2026 (as amended from time to time, the “
+Bridge
+Loan Agreement
+”), by and among Borrower, NREF OP IV SUBHOLDCO, LLC, a Delaware limited liability company, and NEW WAVE MEZZ
+IV, LLC, a Delaware limited liability company (the “
+Bridge Loan Lenders
+”), and NREF OP IV REIT SUB, LLC, a Delaware
+limited liability company, as Administrative Agent, pursuant to which the Bridge Loan Lenders made a loan to Borrower in the maximum principal
+sum of Eighty-Five Million and No/100ths ($85,000,000.00) (the “
+Bridge Loan
+”).
+E.
+The
+Borrower has requested that the Lenders increase the Loan by the maximum principal amount of $267,000,000 (the “
+Loan Increase
+”).
+The Lenders are willing to increase the Loan pursuant to, and in accordance with, the terms of this Amendment. Concurrently herewith,
+Borrower is executing and delivering to Administrative Agent on behalf of the Lenders (1) that certain Mezzanine Promissory Note
+B in the maximum principal amount of $245,000,000.00 made by Borrower in favor of IIP LIFE SCIENCE INVESTMENTS II LLC, a Delaware limited
+liability company, and (2) that certain Mezzanine Promissory Note C in the maximum principal amount of $22,000,000.00 made by Borrower
+in favor of NREF OP IV SUBHOLDCO, LLC, a Delaware limited liability company.
+NOW, THEREFORE, for good and valuable consideration,
+the receipt and sufficiency of which are hereby acknowledged, Borrower, Administrative Agent and the Lenders agree as follows:
+1.
+New
+Defined Terms
+. The following new definitions are hereby added to
+Section 1.1
+of the Agreement in appropriate alphabetical
+order, to read in their entirety as follows:
+“
+IIP
+” means
+IIP Life Science Investments II LLC, Innovative Industrial Properties, Inc. and any of their direct or indirect subsidiaries.
+“
+IIP Lender
+”
+means (a) the Loan Increase Note B Lender, (b) IIP, and (c) any other Person that holds, directly or by participation,
+all or any part of Note B or that is IIP, together with their successors and assigns.
+“
+IIP Lender Obligations
+”
+means all Debt and all other obligations, indebtedness and liabilities of Borrower under the Agreement and the other Loan Documents that
+are evidenced by, or arise in respect of, Note B, provided, however, that, notwithstanding the foregoing or anything in the Loan Documents
+to the contrary, the IIP Lender Obligations shall not include, and expressly exclude, any obligations, indebtedness or liabilities under
+or in respect of the Carry Guaranty, all of which shall constitute Non-IIP Lender Obligations, as more particularly set forth in
+Section 19(f)
+of
+the Loan Increase Amendment.
+“
+Lila
+”
+means Lila Sciences, Inc., a Delaware corporation.
+“
+Lila Lease
+”
+means, collectively, (i) that certain Lease dated as of September 19, 2025 by and between Mortgage Borrower, as Landlord, and
+Lila, as Tenant, for premises located within the three story building located at 5 Alewife Park, Cambridge Massachusetts as amended by
+that certain First Amendment to Lease, dated as of August 11, 2026, as the same may be further amended, restated, supplemented or
+otherwise modified from time to time, and (ii) that certain Amended and Restated Lease, dated as of August ___, 2026, by and
+between Mortgage Borrower, as landlord, and Lila, as tenant, for premises located within the four-story building located at 1 Alewife
+Park, Cambridge, Massachusetts, as the same may be further amended, restated, supplemented or otherwise modified from time to time.
+SIXTH AMENDMENT TO MEZZANINE LOAN AGREEMENT
+-
+2
+-
+“
+Loan Increase
+”
+means Two Hundred Sixty-Seven Million and 00/100 Dollars ($267,000,000.00).
+“
+Loan Increase Amendment
+”
+means the Sixth Amendment to Amended and Restated Mezzanine Loan and Security Agreement dated as of September __, 2026 by and among
+the NREF OP IV SUBHOLDCO, LLC, as the Initial Lender and the Loan Increase Note C Lender, the Loan Increase Note B Lender, the Agent and
+the Borrower.
+“
+Loan Increase Closing
+Fees
+” is defined in
+Section 3(d)
+of the Loan Increase Amendment.
+“
+Loan Increase Effective
+Date
+” means the date on which all of the conditions set forth in
+Section 4
+of the Loan Increase Amendment are satisfied
+or waived in writing by the Agent and the Lenders.
+“
+Loan
+Increase Lenders
+” means, collectively, the Loan Increase Note B Lender and the Loan Increase Note C Lender
+.
+“
+Loan Increase MRP
+Amount
+” means the product of (i) 1.175 and (ii) the Loan Increase.
+“
+Loan
+Increase Note B Lender
+” means
+IIP LIFE SCIENCE INVESTMENTS II LLC, a Delaware limited liability company, and its successors
+and assigns.
+“
+Loan
+Increase Note C Lender
+” means
+NREF OP IV SUBHOLDCO, LLC, a Delaware limited liability company, and its successors and
+assigns.
+“
+Maturity Extension
+Debt Yield (Aggregate)
+” means, solely for purposes of
+Section 2.5(b)(vi)
+, the quotient (expressed as a percentage)
+obtained by dividing (a) Underwritten NOI as of December 31, 2027 by (b) the sum of (i) the outstanding principal
+amount of the Loan as of December 31, 2027 and (ii) the outstanding principal amount of the Mortgage Loan as of December 31,
+2027. For purposes of this definition, Underwritten NOI shall be determined based on the rent roll as of December 31, 2027, and Underwritten
+Operating Income shall include the annualized contractual base rent payable under each Lease then in effect with a Tenant in occupancy
+of its premises, notwithstanding clause (iii) of the definition of “Operating Income” and any rent abatement or free
+rent period under such Lease. Administrative Agent’s calculation of the Maturity Extension Debt Yield (Aggregate), and all component
+calculations, shall be conclusive and binding on Borrower absent manifest error. For the avoidance of doubt, the Maturity Extension Debt
+Yield (Aggregate) is a separate and distinct measure from the Debt Yield (Aggregate), is used solely for purposes of
+Section 2.5(b)(vi)
+,
+and neither this definition nor the Loan Increase Amendment modifies the definition of Debt Yield (Aggregate) or its application under
+any other provision of the Agreement or any other Loan Document.
+“
+Mezzanine Loan Safe
+Harbor
+” means the safe harbor for mezzanine loans set forth in Revenue Procedure 2003-65 (and any successor, supplementary or
+amplifying guidance, including Revenue Procedure 2011-16, as modified by Revenue Procedure 2014-51).
+“
+Non-IIP Lender
+”
+means any Lender that is not an IIP Lender.
+SIXTH AMENDMENT TO MEZZANINE LOAN AGREEMENT
+-
+3
+-
+“
+Non-IIP Lender Obligations
+”
+means all Debt and all other obligations, indebtedness and liabilities of Borrower under the Agreement and the other Loan Documents, other
+than the IIP Lender Obligations.
+“
+Note A
+”
+means that certain Mezzanine Promissory Note dated as of September 30, 2025 in the maximum amount of $133,000,000 made by Borrower
+in favor of NREF OP IV SUBHOLDCO, LLC, a Delaware limited liability company, as the same may be amended, replaced, supplemented or otherwise
+modified from time to time.
+“
+Note B
+”
+means that certain Mezzanine Promissory Note B dated as of the Loan Increase Effective Date in the maximum principal amount of $245,000,000.00
+made by Borrower in favor of the Loan Increase Note B Lender, as the same may be amended, replaced, supplemented or otherwise modified
+from time to time.
+“
+Note C
+”
+means that certain Mezzanine Promissory Note C dated as of the Loan Increase Effective Date in the maximum principal amount of $22,000,000.00
+made by Borrower in favor of the Loan Increase Note C Lender, as the same may be amended, replaced, supplemented or otherwise modified
+from time to time.
+2.
+Revised
+Defined Terms
+. The following definitions in the Agreement are hereby amended as follows:
+“
+Applicable Rate
+”
+means the greater of (A) fourteen percent (14%) per annum, and (B)(i) the SOFR Rate for so long as the Loan is a SOFR Rate Loan,
+(ii) the Alternate Rate for so long as the Loan is an Alternate Rate Loan or (iii) the Prime Rate for so long as the Loan is
+a Prime Rate Loan.
+“
+Architect of Record
+”
+is hereby amended by adding the following new clause at the end thereof: “, and (iv) with respect to the TI Component, each
+Architect engaged by (or on behalf of) Mortgage Borrower with respect to the TI Component, as identified on
+Schedule VII
+, together
+with any successor, replacement or additional Architect engaged by (or on behalf of) Mortgage Borrower with respect thereto, in each case,
+subject to the requirements set forth in
+Section 5.8.12
+.”
+“
+Budget
+”
+is hereby amended by deleting the last sentence thereof in its entirety and inserting in lieu thereof the following: “The Budget
+prepared by, or on behalf of, Borrower for the construction and development of the Required Improvements described in clause (iii) of
+the definition thereof, as the same may be adjusted due to changes or reallocations made in accordance with
+Section 2.24
+or
+Section 5.8.3
+of this Agreement, which Budget has been approved by Administrative Agent and the Lenders as of the Loan Increase
+Effective Date, attached to the Loan Increase Amendment and inserted in lieu of
+Exhibit D
+to the Agreement pursuant to
+Section 3
+of the Loan Increase Amendment.”
+“
+Component
+”
+means, individually and/or collectively, as the context may require, (i) the Conversion Component, (ii) the Construction Component
+and (iii) the TI Component, which Components collectively constitute the entirety of the Required Improvements.
+“
+Component Substantial
+Completion
+” is hereby amended by adding the following new clause at the end thereof: “, or (d) with respect to the
+TI Component, the occurrence of each of the conditions set forth in clauses (a)(i), (a)(iii) and (a)(iv) above with respect
+to the Required Improvements comprising the TI Component, together with the issuance of a permanent or temporary certificate of occupancy
+(or the equivalent customarily issued by the applicable Governmental Authorities) for the premises demised under the Lila Lease to the
+extent required by applicable Legal Requirements; provided, however, that the dates by which the foregoing conditions must be satisfied
+with respect to any portion of the TI Component shall be extended on a day-for-day basis to the extent of any delays attributable to Tenant
+Change Requests, Tenant Delays, or events of Force Majeure (each as defined in the applicable Lila Lease), so that completion deadlines
+under this Agreement align with the delivery requirements under the applicable Lila Lease.”
+SIXTH AMENDMENT TO MEZZANINE LOAN AGREEMENT
+-
+4
+-
+“
+Debt
+”
+is hereby amended to delete all references to “B Note”.
+“
+Default Rate
+”
+means, with respect to the Loan, a rate per annum equal to the lesser of (a) the Applicable Rate plus five percent (5%) per annum
+and (b) the Maximum Legal Rate, all of which shall be payable currently.
+“
+Exit Fee
+”
+means an amount equal to 1.0% of the amount of the Loan that is being or is required to be repaid, due and payable from time to time upon
+the earlier to occur of repayment or prepayment of any portion of the Principal Amount in accordance with the terms of this Agreement
+or when due (including on the Maturity Date).
+“
+Extension LC
+”
+is hereby amended by deleting the last sentence thereof in its entirety and inserting in lieu thereof the following: “Each Extension
+LC shall be in an amount that, if applied to the outstanding principal balance of the Loan on the first day of the Extension Term with
+respect to which it is delivered pursuant to (i)
+Section 2.5(b)(iv)
+, would result in satisfaction of the applicable As-Stabilized
+Loan-to-Value Ratio (Aggregate), As-Stabilized Loan-to-Value Ratio (Mortgage Only), As-Is Loan-to-Value Ratio (Aggregate) and/or As-Is
+Loan-to-Value Ratio (Mortgage Only) requirement for the Extension Term as to which it is delivered and (ii)
+Section 2.5(b)(vi)
+,
+would result in satisfaction of (A) with respect to the First Extension Option, the applicable Debt-Service Coverage Ratio (Aggregate)
+and Debt-Service Coverage Ratio (Mortgage Only) requirements and (B) with respect to the Second Extension Option, the Maturity Extension
+Debt Yield (Aggregate) requirement, in each case for the Extension Term as to which it is delivered, as applicable.” All references
+in
+Section 2.5(e)
+and
+Section 2.5(f)
+of the Agreement to the conditions specified in
+Section 2.5(b)(vi)
+shall
+be deemed to refer to such conditions as amended pursuant to
+Section 3(h)
+of this Amendment.
+“
+First Extended Maturity Date
+”
+means February 9, 2028.
+“
+General Contractor
+”
+is hereby amended by adding the following new clause at the end thereof: “and (III), with respect to the TI Component, each general
+contractor engaged by (or on behalf of) Mortgage Borrower with respect to the TI Component, as identified on
+Schedule III
+, and
+any successor or additional general contractor engaged by (or on behalf of) Mortgage Borrower with respect to such portion of the Project,
+subject to the requirements of
+Section 5.8
+.”
+“
+General Contractor
+Agreement
+” is hereby amended by adding the following new clause at the end thereof: “; and (C) with respect to the
+TI Component, (i) each agreement between Mortgage Borrower and a General Contractor with respect to the TI Component, as identified
+on
+Schedule III
+, together with (a) any GMP Agreement between Mortgage Borrower and such General Contractor, (b) any other
+documentation executed by and between Mortgage Borrower and such General Contractor evidencing or relating to the guaranteed maximum price
+thereunder and (c) any guaranty of such General Contractor’s obligations under such General Contractor Agreement provided by
+any Person, and (ii) any general contractor or other agreement which may be entered into by (or on behalf of) Mortgage Borrower with
+any successor or additional or other General Contractor with respect to the TI Component, subject to the requirements of
+Section 5.8
+,
+as each of the foregoing in (i) and (ii) may be amended, replaced, supplemented or otherwise modified from time to time in accordance
+with the terms hereof.”
+SIXTH AMENDMENT TO MEZZANINE LOAN AGREEMENT
+-
+5
+-
+“
+Key
+Persons
+” means Jamie Graff, John Bonanno, Jonathan Praw, Preston Puryear, Matt McGraner, and Ryan McDonald; and in the event
+that fewer than two such Key Persons are officers and/or executive chairmen of IQHQ Inc. or IQHQ Inc. ceases to directly or indirectly
+Control Borrower, such Pre-Approved Officers who are reasonably
+approved by Administrative Agent that are officers and/or executive
+chairmen of IQHQ Inc. or such other Affiliate of Borrower that directly or indirectly Controls Borrower.
+“
+Loan
+”
+is hereby amended to mean loans made under the Agreement.
+“
+Loan Amount
+”
+is hereby amended to delete all references to the “B Note”.
+“
+Loan Documents
+”
+is hereby amended to delete all references to the “B Note”.
+“
+Maximum Legal Rate
+”
+is hereby amended to delete all references to the “B Note”.
+“
+Maximum Loan Amount
+”
+means Four Hundred Million and 00/100 Dollars ($400,000,000.00).
+“
+MRP Amount
+”
+means the product of (i) 1.30 and (ii) $133,000,000 plus the Maximum Mortgage Loan Amount.
+“
+Note
+”
+means Note A, Note B, Note C and any additional promissory note(s) made by Borrower in favor of a Lender, as the same may be amended,
+replaced, supplemented or otherwise modified from time to time.
+“
+Permitted
+Indebtedness
+” is
+hereby amended to delete all references to the “B Note”.
+“
+Plans and Specifications
+”
+is hereby amended by deleting the last sentence thereof in its entirety and inserting in lieu thereof the following: “The term ‘Plans
+and Specifications’ shall include (a) the plans and specifications for the construction of the Required Improvements described
+in clauses (ii) and (iii) of the definition thereof (including, without limitation, any plans and specifications relating to
+Building Four and Building Five to the extent the work shown thereon constitutes Required Improvements), as the same may be amended, supplemented
+or otherwise modified pursuant to the terms of
+Section 5.8.6
+, and (b) all Change Orders applicable thereto, whether or
+not the approval of Administrative Agent is required therefor; provided, however, that the inclusion of any Change Order in the Plans
+and Specifications shall not constitute the approval thereof by Administrative Agent and shall not limit or waive any requirement for
+the approval of, or the delivery to Administrative Agent of, such Change Order under
+Section 5.8.6
+,
+Section 5.8.7
+or
+Section 5.8.12
+of the Agreement.”
+SIXTH AMENDMENT TO MEZZANINE LOAN AGREEMENT
+-
+6
+-
+“
+Required Improvements
+”
+means (i) the following work on the Land in substantial accordance with the Plans and Specifications, the Zoning Documents, the Special
+Permit and all applicable Legal Requirements: (A) the conversion and renovation of Building One together with the Building One Amenities
+(the “
+Building One Component
+”), (B) the conversion and renovation of Building Two together with the Building Two
+Amenities (the “
+Building Two Component
+”; and together with the Building One Component, the “
+Conversion Component
+”),
+(C) the construction to a warm shell of Building Three totaling approximately 191,815 net rentable square feet of office and laboratory
+space (the “
+Construction Component
+”), (ii) the additional work with respect to Building Four, Building Five, a
+parking garage and other site improvements more particularly described on
+Schedule XX
+, in each case in accordance with all applicable
+Legal Requirements, and (iii) the tenant improvement work, landlord work and campus amenity, outdoor and infrastructure work identified
+on the Initial Budget attached hereto and made a part hereof as
+Exhibit D
+which are to be constructed on the Land by Mortgage
+Borrower in substantial accordance with (a) the Plans and Specifications relating thereto as approved by Administrative Agent and
+the Lenders (which plans and specifications shall constitute Plans and Specifications for all purposes under the Agreement and the Loan
+Documents), (b) the Zoning Documents, the Special Permit and all applicable Legal Requirements, and (c) the Lila Lease (collectively,
+the items in clause (iii), the “
+TI Component
+”).
+The
+terms “
+B Loan,
+” “
+B Note,
+”
+“
+B
+Note Exit Fee,
+” “
+B Note Maturity Date,
+”
+“
+B Note Origination Fee
+,”
+“
+B
+Note SOFR Rate
+,” and
+“
+B Note Spread
+” are hereby deleted in their entirety.
+3.
+Additional
+Terms of the Loan Increase
+. Notwithstanding anything contained in the Agreement and the Loan Documents to the contrary, the parties
+acknowledge and agree to the following terms and conditions:
+a.
+It
+shall be a condition to the Loan Increase and the Loan Increase Effective Date that Borrower use a portion of the proceeds of the Loan
+to fully and indefeasibly repay (and obtain the release of) on such date the Bridge Loan, and Lenders hereby consent to the use of the
+proceeds of the Loan for this purpose. On the Loan Increase Effective Date, and subject to the terms and conditions of the Agreement and
+the Loan Documents, the Loan Increase Note B Lender will Advance from the Loan under Note B an amount requested by Borrower and certified
+by Borrower that such amount is sufficient to fully repay the Bridge Loan (the “
+September Loan Advance
+”), including,
+without limitation, interest, costs and charges (including, without limitation, the MRP Amount (as defined in the Bridge Loan Agreement))
+as more particularly set forth in the Bridge Loan Agreement, all as more fully described in the payoff letter. Borrower shall use these
+funds solely for the payoff of the Bridge Loan pursuant to and in accordance with the Bridge Loan Agreement and shall, within five (5) Business
+Days after the Loan Increase Effective Date, deliver to Administrative Agent evidence reasonably satisfactory to Administrative Agent
+and the Lenders that the Bridge Loan has been paid in full and that all liens, pledges, security interests and other encumbrances securing
+the Bridge Loan have been released and terminated effective upon such repayment.
+SIXTH AMENDMENT TO MEZZANINE LOAN AGREEMENT
+-
+7
+-
+b.
+An
+Origination Fee equal to 0.50% of the Loan Increase shall be due and payable by Borrower to Administrative Agent, for the account of the
+Loan Increase Lenders pro rata based upon the face principal amount of Note B and Note C, as applicable, compared to the total Loan Increase,
+upon execution of this Amendment, and shall be fully earned on such date.
+c.
+An
+Underwriting Fee equal to 0.50% of the Loan Increase shall be due and payable by Borrower to Administrative Agent, for the account of
+the Loan Increase Lenders pro rata based upon the face principal amount of Note B and Note C, as applicable, compared to the total Loan
+Increase, upon execution of this Amendment, and shall be fully earned on such date.
+d.
+Section 2.1.4
+of the Agreement is hereby amended by adding the following text at the end thereof:
+“In addition, the Loan Increase
+may be used (I) to make one or more equity contributions to Mortgage Borrower, which Mortgage Borrower shall use to fund the Required
+Improvements set forth in clause (iii) of the definition thereof, as set forth in the Budget, the Loan Documents and the Mortgage
+Loan Documents, (II) to pay the Initial Lender the Extension Fee for the First Extension Option, and (III) to pay the fees,
+costs and expenses of Borrower, including the Origination Fee, the Underwriting Fee, and the fees, costs and expenses of Administrative
+Agent and Lenders (including reasonable attorneys’ fees) (collectively, the “
+Loan Increase Closing Fees
+”). Notwithstanding
+anything in the Agreement to the contrary, (a) the Extension Fee shall be funded as a draw from Note C; and (b) the Loan Increase
+Closing Fees due to each Loan Increase Lender shall be funded as draws against the applicable Loan Increase Lenders’ Note pro rata
+based on their funding of the Loan Increase, including the fees, costs and expenses of counsel and other professionals retained by Administrative
+Agent or any Lender that are included in the Loan Increase Closing Fees, except that the Origination Fee and the Underwriting Fee shall
+be funded as draws against such Lender’s Note rather than pro rata. For the avoidance of doubt, the reasonable fees, costs and expenses
+of counsel or other professionals retained by any Lender in connection with the Loan after the Loan Increase Effective Date shall be paid
+by Borrower or, at such Lender’s election, as an Advance against such Lender’s Note.”
+e.
+A
+new
+Section 2.1.6
+of the Agreement is hereby inserted as if fully set forth therein:
+“2.1.6
+Additional
+Interest (Loan Increase)
+. If the sum (such sum, the “
+Required Loan Increase Payments
+”) of (i) the total amount
+of regular monthly interest calculated based on the Applicable Rate accrued on the principal amount of the Loan Increase (specifically
+excluding (A) interest on any protective advances or other similar amounts funded by Administrative Agent, or any Lender and added
+to the principal amount of the Loan, (B) interest paid on the Loan Increase at the Default Rate in excess of interest paid on the
+Loan Increase at the Applicable Rate, (C) any Late Payment Charge in connection with the Loan, (D) any processing, underwriting,
+structuring or other fees paid to Administrative Agent or Lenders in connection with the Loan, and (E) the Exit Fee payable in connection
+with the Loan), from the Loan Increase Effective Date to the earlier of (x) the Maturity Date (which, as of the Loan Increase Effective
+Date, is the First Extended Maturity Date, and as the same may be further extended pursuant to
+Section 2.5(b)
+) and (y) the
+date on which Borrower prepays the Debt in full (such earlier date, the “Applicable Date”), plus (ii) the Origination
+Fee paid to the Loan Increase Lenders in connection with the Loan Increase, plus (iii) any Extension Fee (not including the Extension
+Fee for the First Extension Option paid on the Loan Increase Effective Date) paid in connection with the Loan Increase, plus (iv) the
+Loan Increase, shall be less than the Loan Increase MRP Amount, then, on the Applicable Date, Borrower shall pay to Administrative Agent,
+for the account of the Loan Increase Lenders pro rata based upon the face principal amount of Note B and Note C, as additional interest
+under the Loan, the amount of the difference between the Loan Increase MRP Amount and the Required Loan Increase Payments (such difference,
+the “
+Loan Increase Additional Interest
+”). It is acknowledged and agreed that (1) the Loan Increase Additional
+Interest shall be deemed earned on the Loan Increase Effective Date, (2) the Loan Increase Additional Interest shall constitute Debt
+hereunder and under the other Loan Documents for all purposes, and (3) the Loan Increase Additional Interest shall be due and payable
+on the Applicable Date (and, for the avoidance of doubt, shall not be payable before the Applicable Date, including upon any partial prepayment
+of the Debt (including, without limitation, any Extension Prepayment)).”
+SIXTH AMENDMENT TO MEZZANINE LOAN AGREEMENT
+-
+8
+-
+f.
+The
+parties acknowledge and agree that, effective as of the Loan Increase Effective Date, Borrower has exercised its First Extension Option
+under
+Section 2.5(b)
+of the Agreement to extend the Initial Maturity Date to the First Extended Maturity Date, and Agent
+and Lenders acknowledge and agree that all conditions to such exercise contained in
+Section 2.5(b)
+of the Agreement have
+been satisfied or waived, provided that Borrower shall pay the Extension Fee for the exercise of the First Extension Option to Initial
+Lender on or before the Loan Increase Effective Date. Notwithstanding the foregoing, on or before February 28, 2027, Borrower shall
+be required to fund the Tax Reserve Amount under
+Section 16.1(a)(iii)
+of the Agreement, the Insurance Reserve Amount
+under
+Section 16.2(a)(iii)
+of the Agreement, the Debt Service Reserve Amount under
+Section 16.3(a)(iii)
+of
+the Agreement, and the Operating Expense Reserve Amount under
+Section 16.4(a)(iii)
+of the Agreement, provided, however,
+that (1) Administrative Agent’s good faith estimate of Operating Income which will be available to Borrower during the First
+Extension Option may be applied to offset the amounts required to be deposited for the Tax Reserve Amount, the Insurance Reserve Amount,
+and the Operating Expense Reserve Amount; and (2) if, on February 28, 2027, there are sufficient unfunded Loan proceeds to pay
+Debt Service for the Loan and the Mortgage Loan due and owing during the First Extension Term, Borrower shall not be required to fund
+the Debt Service Reserve Amount (provided, however, that such Loan proceeds shall thereafter be reserved for the payment of Debt Service).
+Borrower shall retain its right to exercise its Second Extension Option pursuant to and in accordance with the provisions and requirements
+of the Agreement, including, without limitation, the provisions of
+Section 2.5(b)
+, as amended hereby.
+g.
+Section 2.5(b)
+of
+the Agreement is hereby amended as follows: (1) the requirement to deliver a First Extension Notice and the timing requirements applicable
+thereto are waived, and Borrower’s exercise of the First Extension Option pursuant to
+Section 3(f)
+above shall
+be irrevocable; (2) clause (ii)(B) is hereby amended to require, with respect to the Second Extension Option, evidence satisfactory
+to Administrative Agent that Completion of the Conversion Component and the Construction Component, and Component Substantial Completion
+of the TI Component, shall have occurred, in each case subject to Borrower’s right to contest Liens in accordance with
+Section 7.3
+of the Agreement; (3) clause (viii) is hereby amended to provide that the Extension Fee payable in connection with the Second
+Extension Option shall be paid to Administrative Agent for the account of the Lenders pro rata based upon the outstanding principal amount
+of each Note; and (4) the provisos set forth in
+Section 3(f)
+above permitting Administrative Agent’s good
+faith estimate of Operating Income, and sufficient unfunded Loan proceeds, to be applied in lieu of funding the applicable Reserve Amounts
+shall apply to the Second Extension Option in the same manner as they apply to the First Extension Option.
+SIXTH AMENDMENT TO MEZZANINE LOAN AGREEMENT
+-
+9
+-
+h.
+Section 2.5(b)
+of
+the Agreement is hereby amended, solely with respect to the Second Extension Option, as follows: (1) in clause (iv), the maximum
+As-Is Loan-to-Value Ratio (Aggregate) applicable to the Second Extension Option is increased from sixty percent (60%) to seventy-five
+percent (75%); and (2) clause (vi) is amended and restated to read as follows: “(vi) the Maturity Extension Debt
+Yield (Aggregate) shall be not less than six and three-quarters percent (6.75%); provided that, if such requirement is not satisfied,
+Borrower may satisfy the same by (x) prepaying a portion of the Loan, or causing Mortgage Borrower to prepay a portion of the Mortgage
+Loan, in an amount sufficient to cause such requirement to be satisfied (any such prepayment constituting an Extension Prepayment), or
+(y) causing Mortgage Borrower to deliver to Administrative Agent an Extension LC or Extension Collateral in an amount that, if applied
+to the outstanding principal balance of the Loan, would cause such requirement to be satisfied.”
+i.
+Section 2.5(d)
+of
+the Agreement is hereby amended to provide that, the First Extension Option having been exercised as of the Loan Increase Effective Date,
+no Unfunded Loan Amount shall be required to be Advanced into the Loan Advance Reserve Account on the Initial Maturity Date, and the undrawn
+portion of the Loan Increase shall remain available to be Advanced in accordance with the Budget and the applicable conditions precedent
+set forth in this Amendment and the Agreement.
+j.
+Section 2.22(e)
+of
+the Agreement is hereby amended by the addition of the following text as the last sentence. “Notwithstanding anything to the contrary
+in the Agreement, (1) Advances to pay interest on the Mortgage Loan shall be funded, pro rata, by the Loan Increase Lenders based
+on their pro rata loan amounts, (2) Advances to pay interest on Note B shall be funded from Note B; and (3) Advances to pay
+interest on Note A and Note C shall be funded from Note C.”
+k.
+Subject
+to
+Section 2.22(e)
+, and except for protective advances, all Advances of the proceeds of the Loan (other than the September Loan
+Advance and the Loan Increase Closing Fees) shall be made upon satisfaction of the terms and conditions precedent set forth in the Agreement
+including
+Section 2.30
+of the Agreement, and, if applicable (and in addition to the conditions set forth in
+Section 2.30
+),
+upon satisfaction of the conditions set forth in
+Section 2.31
+, and
+Section 2.32
+, except to the extent that Administrative
+Agent may elect to waive any such conditions precedent in its sole and absolute discretion; provided, however, that any waiver of a condition
+precedent to an Advance to be made by Loan Increase Note B Lender shall require the consent of the Loan Increase Note B Lender.
+SIXTH AMENDMENT TO MEZZANINE LOAN AGREEMENT
+-
+10
+-
+l.
+Section 5.9
+of the Agreement is hereby amended by inserting the words “and/or executive chairmen” after the words “shall remain
+as officers”, such that at all times during the term of the Loan at least two (2) of the Key Persons shall remain as officers
+and/or executive chairmen of IQHQ Inc. or such other Affiliate of Borrower that directly or indirectly Controls Borrower in compliance
+with the Agreement.
+m.
+Section 12.8
+of the Agreement is hereby amended by inserting in clause (x) of the first sentence the words “the Loan Increase Note B Lender
+or” after the word “appoint.”
+n.
+Section 17.1(a)(xxiii)
+of
+the Agreement is hereby deleted in its entirety and replaced with “Reserved.”
+o.
+Lender
+Expenses
+. Notwithstanding anything in the Agreement or the other Loan Documents to the contrary, (i) the actual and reasonable
+out-of-pocket fees, costs and expenses of counsel and other professionals retained by Administrative Agent and the Lenders in connection
+with the Loan, the Loan Increase, this Amendment and the transactions contemplated hereby that are due and payable on or as of the Loan
+Increase Effective Date shall constitute Loan Increase Closing Fees, shall be paid by Borrower on the Loan Increase Effective Date and
+shall be funded as draws against the Loan Increase Lenders’ Notes pro rata based upon their respective funding of the Loan Increase,
+and not solely against the Note of the Lender whose counsel or other professional incurred the same, and (ii) from and after the
+Loan Increase Effective Date, the actual and reasonable out-of-pocket fees, costs and expenses of counsel or other professionals retained
+by any Lender in connection with the Loan shall be paid by Borrower or, at such Lender’s election, as an Advance against such Lender’s
+Note.
+p.
+Notwithstanding
+the satisfaction or waiver of the condition set forth in
+Section 2.5(b)(ii)(A)
+or anything in this Amendment or the Agreement
+to the contrary, Borrower shall cause Component Substantial Completion of the Conversion Component (including the Building Two Amenities)
+to occur on or before December 31, 2026, which date shall be extended on a day-by-day basis to the extent of any delays attributable
+to Tenant Change Requests, Tenant Delays, or events of Force Majeure (each as defined in the applicable Lila Lease), and the failure to
+do so shall constitute an Event of Default.
+q.
+The
+following exhibits and schedules attached to the Agreement are hereby deleted in their entirety and the replacement exhibits and schedules
+attached hereto and made a part hereof shall be inserted in lieu thereof:
+i.
+Exhibit D: Initial Budget
+ii.
+Schedule II: Commitment Amounts
+iii.
+Schedule III: List of Construction Agreements and Construction Permits
+iv.
+Schedule IV: List of Sub-Contractors
+v.
+Schedule VII: List of Design Professionals
+vi.
+Schedule XII: Organization Chart
+vii.
+Schedule XIV: Unpaid Amounts
+SIXTH AMENDMENT TO MEZZANINE LOAN AGREEMENT
+-
+11
+-
+All references, representations,
+warranties, covenants and other provisions in the Agreement and the other Loan Documents that refer to, incorporate or are based upon
+any of the exhibits or schedules being replaced pursuant to
+Section 3(q)
+of this Amendment shall be deemed to refer to,
+incorporate and be based upon such replacement exhibits and schedules, as applicable, as of the later of (i) the Loan Increase Effective
+Date or (ii) the date of any Advance, as the context may require.
+r.
+From
+and after the date hereof, IIP Life Science Investments II LLC and its successors and assigns is a “Lender” and the “Loan
+Increase Note B Lender” under the Agreement.
+s.
+Construction
+Agreements; Consents and Related Deliverables
+. Within thirty (30) days after the Loan Increase Effective Date, Borrower shall deliver,
+or cause Mortgage Borrower to deliver, to Administrative Agent a true, correct and complete copy of each Construction Agreement, and each
+amendment, change order, supplement or other modification thereto, entered into after September 30, 2025, to the extent not previously
+delivered to Administrative Agent. With respect to each Construction Agreement entered into prior to the Loan Increase Effective Date
+(to the extent not previously delivered) and each Construction Agreement entered into after the Loan Increase Effective Date, Borrower
+shall use, and shall cause Mortgage Borrower to use, commercially reasonable efforts to obtain and deliver to Administrative Agent, as
+soon as reasonably practicable following the execution thereof, in each case to the extent reasonably requested by Administrative Agent
+or otherwise required under the Loan Documents or the Mortgage Loan Documents: (i) the Construction Permits and Plans and Specifications
+relating to the work thereunder; (ii)  Consent of General Contractor, and any other consent to collateral assignment, collateral
+assignment or subordination of lien rights from the applicable contractor, subcontractor, architect, engineer, design professional or
+other Work Provider requested by Administrative Agent; (iii) lien waivers in the forms required under the Agreement; (iv) evidence
+of payment and performance bonds, subguard coverage or other completion assurance required under the Loan Documents; and (v) a reliance
+letter in favor of Administrative Agent and the Lenders from each applicable Design Professional and third-party consultant. Notwithstanding
+anything in the Agreement to the contrary, the deliveries described in this clause with respect to any Construction Agreement shall in
+all events be made on or prior to the date of any Draw Request for an Advance (other than the September Loan Advance, the Advance
+of the Loan Increase Closing Fees, and any Advances to cover Debt Service under the Loan or the Mortgage Loan) that includes, in whole
+or in part, funds to be applied to any payment to or for the benefit of the applicable contractor, subcontractor, architect, engineer,
+design professional or other Work Provider, or to any work performed or to be performed under such Construction Agreement, and satisfaction
+of this requirement shall be a condition precedent to such Advance. The requirements of this clause apply to each such Person engaged
+with respect to the Project at any time, whether before or after the Loan Increase Effective Date, and neither the making of the September Loan
+Advance nor Administrative Agent’s election not to require any such deliverable as a condition to the Loan Increase Effective Date
+shall constitute a waiver of the right to require the same as a condition to any subsequent Advance. For the avoidance of doubt, the obligations
+of Borrower under this
+Section 3(s)
+supplement, and do not limit, replace or reduce, Borrower’s obligations under
+Section 5.4.1
+(Contingent Assignment of Subcontracts),
+Section 5.8.11
+(General Contractor Agreement) and
+Section 5.8.12
+(Changes in Material Construction Agreements) of the Agreement, and nothing in this
+Section 3(s)
+shall be construed to
+relieve Borrower of any obligation to deliver any consent, collateral assignment or subordination prior to, or concurrently with, the
+execution of the applicable agreement to the extent required thereunder.
+SIXTH AMENDMENT TO MEZZANINE LOAN AGREEMENT
+-
+12
+-
+t.
+Leases;
+Subordinations and Estoppels
+. Borrower shall deliver, or cause Mortgage Borrower to deliver, to Administrative Agent a true, correct
+and complete copy of each Lease (and each amendment, restatement, supplement or other modification of any Lease) hereafter entered into
+by Mortgage Borrower with respect to Building 2, Building 3, Building 4 or any other portion of the Property, including any Lease hereafter
+entered into between Mortgage Borrower and Lila (including any Lease with respect to Building 3), promptly following the execution thereof.
+Once approved in accordance with the Loan Documents, any Lease hereafter entered into between Mortgage Borrower and Lila (including any
+Lease with respect to Building 3) shall, upon execution, constitute a Lila Lease for all purposes under the Agreement and the Loan Documents.
+With respect to each such Lease, Borrower shall use, and shall cause Mortgage Borrower to use, commercially reasonable efforts to obtain
+and deliver to Administrative Agent, as soon as reasonably practicable following the Loan Increase Effective Date or, if later, the execution
+of such Lease, (i) a subordination, non-disturbance and attornment agreement executed by the applicable tenant, substantially in
+the form attached to the Agreement as
+Exhibit C
+or in such other commercially reasonable form as the parties thereto may agree,
+and (ii) a tenant estoppel certificate from the applicable tenant in the form required or contemplated by such Lease or in such other
+commercially reasonable form as Administrative Agent may reasonably request. Notwithstanding anything in the Agreement to the contrary,
+the deliveries described in clauses (i) and (ii) above with respect to any Lease shall in all events be made on or prior to
+the date of any Draw Request for an Advance (other than the September Loan Advance, the Advance of the Loan Increase Closing Fees,
+and any Advances to cover Debt Service under the Loan or the Mortgage Loan) that includes, in whole or in part, funds to be applied to
+any tenant improvement allowance, landlord work or other payment to or for the benefit of the tenant under such Lease, or to any work
+or improvements within the premises demised thereunder, and satisfaction of this requirement shall be a condition precedent to such Advance.
+u.
+Deemed
+Approval; Lila Lease and Major Lease Approvals
+. Notwithstanding
+Section 5.1.25(a)
+or
+Section 19.31
+of
+the Agreement or anything in this Amendment to the contrary: (i) Administrative Agent shall deliver to each Lender a copy of each
+request for approval or consent submitted by Borrower or Mortgage Borrower under
+Section 5.1.25
+of the Agreement (including
+any request relating to any Lila Lease or any other Major Lease, or any amendment, modification, termination or assignment thereof), together
+with all materials delivered therewith, within five (5) Business Days after Administrative Agent’s receipt thereof; and (ii)
+Section 19.31
+of the Agreement is hereby amended by (1) changing the reference to “ten (10) Business Days” in the 10
+th
+line of said
+Section 19.31
+to “fifteen (15) Business Days,” and the reference to “ten (10) Business
+Day period” in the 19
+th
+line of said
+Section 19.31
+to “fifteen (15) Business Day period”; and
+(2) changing the reference to “five (5) Business Days” in the third to the last line of said
+Section 19.31
+to “ten (10) Business Days,” and the reference to “five (5) Business Day period” in the last line of
+said
+Section 19.31
+to “ten (10) Business Day period.”
+SIXTH AMENDMENT TO MEZZANINE LOAN AGREEMENT
+-
+13
+-
+v.
+Loan
+Increase Note B Lender Right of First Offer
+. Concurrently herewith, the Loan Increase Note B Lender or an affiliate of the Loan Increase
+Note B Lender is entering into an agreement with Mortgage Borrower (the “
+ROFO Agreement
+”) granting the Loan
+Increase Note B Lender or such affiliate a right to purchase, finance or refinance all or any portion of the Property upon the terms and
+conditions set forth in such agreement, and, subject to the terms and conditions of this
+Section 3(v)
+, Borrower hereby consents
+to, and acknowledges and agrees to the execution, delivery and performance of, such agreement. From and after the date on which the Loan
+Increase Note B Lender has fully advanced One Hundred Fifty-Five Million and 00/100 Dollars ($155,000,000.00) under Note B (the “
+ROFO
+Effective Date
+”), the Lenders’ Right of First Negotiation under
+Section 19.32
+of the Agreement shall be
+subordinated to the rights granted to the Loan Increase Note B Lender or its affiliates under the ROFO Agreement. For purposes of determining
+whether the ROFO Effective Date has occurred, the aggregate amount funded by the Loan Increase Note B Lender under Note B shall include,
+without limitation, (i) the September Loan Advance, (ii) all Loan Increase Closing Fees funded as draws against Note B
+(including the Origination Fee, the Underwriting Fee and all fees, costs and expenses of counsel and other professionals), (iii) all
+Advances funded from Note B to pay interest or other Debt Service under the Loan or the Mortgage Loan, (iv) all protective advances
+and other similar amounts funded by the Loan Increase Note B Lender and added to the principal amount of Note B, and (v) all other
+Advances and other amounts funded or advanced under or against Note B, in each case whether or not disbursed to or for the account of
+Borrower or Mortgage Borrower. Prior to the ROFO Effective Date, the rights granted to the Loan Increase Note B Lender or its affiliates
+under the ROFO Agreement shall not be effective, and
+Section 19.32
+of the Agreement shall remain in full force and effect
+in accordance with its terms. It is acknowledged and agreed that, prior to the ROFO Effective Date, except as expressly provided in this
+Section 3(v)
+or in the Loan Documents to the contrary, any Lender may negotiate, offer, bid for, or execute any sale,
+finance, refinance or transfer of the Property at any time. Any exercise by the Loan Increase Note B Lender or its affiliate of any rights
+under the ROFO Agreement and/or any sale, finance, refinance or transfer of the Property or any portion thereof by Borrower or Mortgage
+Borrower shall be subject to the prior consent or approval of the Lenders (including the Initial Lender and the Loan Increase Note C Lender
+but not Administrative Agent in such party’s capacity as Administrative Agent) to the extent such consent or approval is required
+under the Loan Documents, and no waiver or impairment of any such consent or approval rights shall be deemed to have occurred by reason
+of this Amendment, the Loan Increase, the amendment to the Intercreditor Agreement executed concurrently herewith and/or the ROFO Agreement.
+w.
+Notwithstanding
+anything to the contrary in the Loan Documents, the parties acknowledge and agree that amounts advanced by Loan Increase Note B Lender
+pursuant to a draw request on the Loan Increase Effective Date may be funded prior to the completion of the Administrative Agent’s
+and/or Loan Increase Note B Lender’s construction consultant’s final review and may thereafter be allocated or reallocated
+among the various Project costs, line items, requirements and other uses contemplated by the Loan Documents, as reasonably determined
+by the Administrative Agent and/or Loan Increase Note B Lender following such review. The funding of any such amounts shall not constitute
+the Administrative Agent’s or Loan Increase Note B Lender’s approval or acceptance of any particular cost, work item, completion
+status or allocation. To the extent the Administrative Agent or Loan Increase Note B Lender or its construction consultant subsequently
+determines that any Project cost, requirement or line item has not been satisfactorily completed, funded or otherwise resolved, Administrative
+Agent and/or Loan Increase Note B Lender may allocate or reallocate the various Project costs, requirements and line items in the Loan
+Increase Note B Lender’s sole discretion, and in the event following such allocation or reallocation there remains a deficiency
+in any such Project cost, requirement or line item, Borrower shall promptly fund to the Project from equity such amounts as are reasonably
+necessary to cure any such deficiency.
+SIXTH AMENDMENT TO MEZZANINE LOAN AGREEMENT
+-
+14
+-
+4.
+Conditions
+to Amendment
+. This Amendment and the agreements of Lenders described herein will not be effective unless and until all of the following
+have occurred or have been satisfied:
+a.
+Borrower
+shall have delivered to Agent and Lenders a payoff letter from the Bridge Loan Lenders in form and substance satisfactory to Agent and
+the Lenders.
+b.
+Administrative
+Agent and the Lenders shall have received a fully executed copy of this Amendment.
+c.
+Borrower
+shall have paid Administrative Agent, for the account of the Loan Increase Lenders, the Origination Fee and Underwriting Fee due and payable
+under
+Sections 3(b)
+and 3(c) above.
+d.
+Borrower
+shall have paid the Administrative Agent, for the account of the Initial Lender, the Extension Fee for the First Extension Option.
+e.
+The
+consent to this Amendment by the Guarantor by execution of the rider to this Amendment and the reaffirmation by Guarantor of the guarantees.
+f.
+The
+payment by Borrower of Administrative Agent’s and the Lenders’ fees and expenses arising in connection with the preparation
+and delivery of this Amendment and any documents, agreements or instruments referred to herein, including without limitation, the reasonable
+fees and expenses of the consultants, attorneys or other professionals retained by Lenders or Administrative Agent in connection with
+the negotiation and preparation of this Amendment, all of which shall constitute Loan Increase Closing Fees and shall be funded pro rata
+in accordance with
+Section 3(d)
+above.
+g.
+All
+representations and warranties of the Borrower contained in the Loan Increase Amendment, the Agreement and the Loan Documents shall be
+true and correct in all material respects at and as of the date hereof as though then made, except for such representations and warranties
+as by their terms expressly speak as of an earlier date, in which case such representations and warranties shall be true and correct in
+all material respects as of such earlier date, and except to the extent that such representation or warranty contains a materiality or
+similar qualifier, in which event, such representation or warranty that is so qualified shall be true and correct.
+h.
+No
+Default or Event of Default shall have occurred and be continuing under the Loan Documents.
+i.
+Administrative
+Agent and the Lenders shall have received such other amendments to Loan Documents and other documents, instruments and agreements as they
+shall reasonably request in connection with the Loan Increase, including, without limitation, (i) fully executed amendments to the
+Pledge Agreements, the Guaranties and the Environmental Indemnity Agreement, (ii) the final Budget, Plans and Specifications, construction
+contracts, permits and schedules relating to the Required Improvements, (iii) all required organizational documents, and (iv) evidence
+of any required UCC filings, title endorsements and other perfection deliverables. Notwithstanding the foregoing, (i) within fifteen
+(15) days after the Loan Increase Effective Date, Borrower shall deliver to Administrative Agent such legal opinions as may be reasonably
+required by Administrative Agent in connection with the Loan Increase, including, without limitation, opinions that under New York law,
+the Loan Documents (as amended by the amendments entered into on the Loan Increase Effective Date) are enforceable against Borrower, Guarantor
+and Pledgors, that the Lender’s interest in the Collateral has been perfected, that the Borrower, Guarantor and each Pledgor have
+been duly formed, are in good standing under DE law, and have duly authorized and executed Note B, Note C, and the amendments to the Loan
+Documents executed on the Loan Effective Date, and such other matters as may be reasonably requested in connection therewith; and (ii) within
+thirty (30) days after the Loan Increase Effective Date, Borrower shall deliver, or cause Mortgage Borrower to deliver, to Administrative
+Agent a replacement or supplemental Interest Rate Cap Agreement reflecting the Loan, as increased by the Loan Increase, in form and substance
+reasonably acceptable to Administrative Agent and the Lenders.
+SIXTH AMENDMENT TO MEZZANINE LOAN AGREEMENT
+-
+15
+-
+j.
+Approval
+by Mortgage Lenders of the Loan Increase and this Amendment, and receipt by Administrative Agent and the Lenders of evidence satisfactory
+to them that any required amendment to the Intercreditor Agreement has been duly executed and is in full force and effect, together with
+such other matters as the Administrative Agent and the Lenders require.
+k.
+The
+Loan Increase Note B Lender shall have received a satisfactory right of first offer agreement from Mortgage Borrower giving the Loan Increase
+Note B Lender a right to purchase, finance or refinance all or any portion of the Property on the terms and conditions of such agreement.
+Notwithstanding the foregoing, the parties acknowledge and agree that any sale, finance or refinance of the Property shall be subject
+to the approval of the Initial Lender and the Loan Increase Note C Lender in accordance with the terms and provisions contained in the
+Agreement.
+5.
+Representations
+and Warranties
+.
+Borrower hereby represents and warrants to the Administrative Agent and Lenders as follows:
+a.
+All
+representations and warranties set forth in the Agreement and the other Loan Documents are true, correct and complete in all material
+respects as of the date of this Amendment as though then made, except for such representations and warranties as by their terms expressly
+speak as of an earlier date, in which case such representations and warranties shall be true and correct in all material respects as of
+such earlier date, and except to the extent that such representation or warranty contains a materiality or similar qualifier, in which
+event, such representation or warranty that is so qualified shall be true and correct.
+b.
+Each
+of the Required Improvements described in clauses (i) and (ii) of the definition thereof (as amended in the Loan Increase Amendment)
+has been completed in accordance with the Loan Documents, all Plans and Specifications, Zoning Documents, the Special Permit and all applicable
+Legal Requirements.
+SIXTH AMENDMENT TO MEZZANINE LOAN AGREEMENT
+-
+16
+-
+c.
+No
+event has occurred and is continuing, and no condition exists, which constitutes or which after notice or lapse of time, or both, would
+constitute a Default or Event of Default under the Loan Documents.
+d.
+The
+Lila Lease is in full force and effect and the Lila Lease represents the entire agreement between the parties as to Building 1 and Building
+5. Lila has not sent Mortgage Borrower written notice of any default under the Lila Lease, and, to the best of Borrower’s knowledge,
+no event has occurred which, with notice or lapse of time or both, would result in a default by Mortgage Borrower under the Lila Lease.
+To Borrower’s actual knowledge, no event has occurred which authorizes or, with the giving of notice or the passage of time or both,
+will authorize Lila to terminate the Lila Lease. To Borrower’s actual knowledge, as of the date hereof, Lila and Mortgage Borrower
+have complied with all of their respective obligations under the Lila Lease.
+e.
+The
+execution and delivery by Borrower of this Amendment and all other documents, instruments, and agreements executed in connection with
+this Amendment and the performance by it of the transactions herein contemplated (i) are and will be within its powers, (ii) have
+been authorized by all necessary organizational action, and (iii) are not and will not be in contravention of any order of any court
+or other agency of government, of law or any other indenture, agreement or undertaking to which Borrower is a party or by which the property
+of Borrower is bound, or be in conflict with, result in a breach of, or constitute (with due notice and/or lapse of time) a default under
+any such indenture, agreement or undertaking or result in the imposition of any lien, charge or encumbrance of any nature on any of the
+properties of Borrower.
+f.
+This
+Amendment and all other documents, instruments and agreements executed in connection with this Amendment and any assignment, instrument,
+document, or agreement executed and delivered in connection herewith, are valid, binding and enforceable in accordance with its respective
+terms.
+6.
+Reaffirmation
+. 
+Except as expressly modified hereby, all of the terms, covenants and conditions of the Loan Documents remain unmodified and in full force
+and effect and are hereby ratified and confirmed by Borrower.  Any waiver of the requirements of the Loan with respect to the specific
+matters set forth herein does not constitute a waiver of such requirements for future matters.
+7.
+Conforming
+Agreements
+. It is the intention of the parties to this Amendment that this Amendment shall be deemed to form a part of the Loan Documents,
+and it shall constitute a Loan Document as referred to herein and therein. Any breach of the representations, warranties, covenants and
+agreements set forth in this Amendment shall constitute an Event of Default to the extent provided in the Agreement. Except as otherwise
+specifically provided in this Amendment, the rights, powers, authorities, remedies, interests and benefits conferred upon Lenders by and
+as provided in this Amendment are intended to supplement, and be in addition to (and shall not in any way replace, supersede, amend, limit
+or restrict), the rights, powers, authorities, remedies, interests, and benefits conferred by the Loan Documents.
+SIXTH AMENDMENT TO MEZZANINE LOAN AGREEMENT
+-
+17
+-
+8.
+Borrower
+and Guarantor Release
+.
+a.
+In
+consideration of the accommodations being made available by Lenders to or for the benefit of Borrower and Guarantor under this Amendment, 
+Borrower and Guarantors, for themselves and their respective agents, employees, members, successors and assigns, do hereby unconditionally
+remise, release and discharge Lenders and their employees, agents, representatives, officers, and their respective successors and assigns
+(the “
+Released Parties
+”) of and from any and all claims, counterclaims, demands, actions and causes of action
+of any nature whatsoever, whether at law or in equity, arising out of or relating to any of the Loan Documents, any acts or omissions
+of any Released Party in connection therewith, the transactions described in this Amendment, which any of them, now has or hereafter can
+or may have against any of the Released Parties, from the beginning of the world to the date hereof.
+b.
+Borrower
+and Guarantor hereby waive the provisions of any applicable laws restricting the release of claims which the releasing parties do not
+know or suspect to exist at the time of release, which, if known, would have materially affected the decision to agree to these releases.
+In this connection, Borrower and Guarantor hereby agree, represent and warrant to the Lenders that they realize and acknowledge that factual
+matters now unknown may have given or may hereafter give rise to causes of action, claims, demands, debts, controversies, damages, costs,
+losses and expenses which are presently unknown, unanticipated and unsuspected, and Borrower and Guarantor further agree, represent and
+warrant that the releases provided herein have been negotiated and agreed upon in light of that realization and that Borrower and Guarantor
+nevertheless hereby intend to release, discharge and acquit the parties set forth hereinabove from any such unknown causes of action,
+claims, demands, debts, controversies, damages, costs, losses and expenses which are in any manner set forth in or related to the Loan
+or the Loan Increase and all dealings in connection therewith. In making this waiver, Borrower and Guarantor understand and acknowledge
+that they may hereafter discover facts in addition to or different from those that are currently known or believed to be true with respect
+to the subject matter of this release, but agree that they have taken that possibility into account in accepting the Loan Increase and
+that, notwithstanding the discovery or existence of any such additional or different facts, as to which Borrower and Guarantor expressly
+assume the risk, they fully, finally and forever settle and release any and all claims released hereunder, known or unknown, suspected
+or unsuspected, which now exist, or heretofore existed, and without regard to the subsequent discovery or existence of such additional
+or different facts.
+c.
+Borrower
+and Guarantor hereby acknowledge that they have not relied upon any representation of any kind made by the Lenders or any affiliate of
+the Lenders in making the foregoing release.
+d.
+Borrower
+and Guarantor represent and warrant to the Lenders that they have not heretofore assigned or transferred, or purported to assign or to
+transfer, to any person or entity any matter released by such party hereunder or any portion thereof or interest therein, and each Borrower
+and Guarantor agrees to indemnify, protect, defend and hold each of the Lenders harmless from and against any and all claims based on
+or arising out of any such assignment or transfer or purported assignment or transfer by such party.
+9.
+Ratification
+and Reaffirmation
+.  Except as modified by this Amendment, each of the Loan Documents and the respective obligations, indebtedness
+and liabilities of the Borrower and Guarantors thereunder are hereby ratified, reaffirmed and confirmed by the Borrower and Guarantors.
+Each Guarantor hereby acknowledges and consents to the foregoing amendments to the Agreement and all of the other Loan Documents. Each
+Guarantor hereby ratifies, confirms, reaffirms and covenants that the Guaranty is validly existing and binding against Guarantors. Each
+Guarantor hereby reaffirms and restates, as of the date hereof, all covenants, representations and warranties set forth in the Guaranty.
+SIXTH AMENDMENT TO MEZZANINE LOAN AGREEMENT
+-
+18
+-
+10.
+Obligations
+Remain in Full Force and Effect
+.  The obligations of Borrower under the Loan Documents shall, except as expressly modified herein,
+remain in full force and effect, and shall not be released, impaired, diminished or in any other way modified or amended as a result of
+the execution and delivery of this Amendment or by the agreements and undertakings of the parties contained herein. Borrower hereby ratifies
+and confirms each of the Loan Documents to which it is a party and the rights granted thereunder in favor of Lenders.
+11.
+No
+Waiver
+.  Except as otherwise specifically provided in this Amendment, Lenders’ execution of or performance under this Amendment
+does not (and it shall not be construed so as to) waive, relinquish, restrict or limit in any way any of the rights, remedies, claims
+or causes of action that Lenders have or may have under or with respect to the Loan Documents, or applicable law (all of which are expressly
+reserved) regardless of whether any of the foregoing relate to or arise out of acts, omissions, events or transactions occurring before
+or after the date hereof. Except as otherwise specifically provided in this Amendment, Lenders hereby expressly reserve all rights to
+take any and all actions, and exercise any and all remedies, authorized under any Loan Document or at law or in equity as a result of
+or with respect to the occurrence and continuance of any defaults, violations or events of default that have or may have heretofore occurred
+thereunder and any defaults, violations or events of default that may hereafter occur or exist thereunder.  Nothing contained herein,
+and no action taken by Lenders pursuant hereto or as provided herein, shall be deemed to be a waiver of any of such defaults, violations
+or events of default.
+12.
+Governing
+Law
+. This Amendment shall be governed in accordance with the terms and provisions of
+Section 19.3
+of the Agreement.
+13.
+Counterparts
+.
+This Amendment may be executed and delivered (including by DocuSign or similar electronic transmission) in any number of counterparts,
+each of which shall be an original, but all of which shall, together, constitute one and the same instrument.
+14.
+Entire
+Agreement
+. This Amendment together with the Agreement and the other Loan Documents contains all of the agreements of the parties hereto
+with respect to the matters contained herein and therein and all prior or contemporaneous agreements or understandings, oral or written,
+pertaining to any such matters are merged herein and shall not be effective for any purpose.
+15.
+Successors
+and Assigns
+. This Amendment shall inure to the benefit of and shall be binding on the parties hereto and their respective successors
+and permitted assigns.
+16.
+Accommodations
+. 
+These amendments are one-time accommodations to Borrower and shall not be construed to grant any further accommodations to Borrower or
+any other amendments or modifications or constitute a course of conduct in granting future accommodations, consents or approvals.
+SIXTH AMENDMENT TO MEZZANINE LOAN AGREEMENT
+-
+19
+-
+17.
+Exculpation
+.
+Article XVIII
+of the Agreement is hereby incorporated herein by reference.
+18.
+Tax
+Representation
+. Borrower represents, warrants and covenants that (i) each of Borrower, IQHQ-Alewife Member, LLC (the “
+Issuer
+”)
+and IQHQ-ALEWIFE, LLC (the “
+Mortgage Borrower
+”) is, and shall remain at all times while the Loan is outstanding, either
+a partnership or an entity disregarded as separate from its owner for U.S. federal income tax purposes, and none has made or shall make
+an election under Treasury Regulations Section 301.7701-3 to be treated as an association taxable as a corporation; and (ii) the
+Mortgage Borrower is the owner of the Property.
+19.
+REIT
+Mezzanine Loan Safe Harbor
+. The parties acknowledge that one or more Lenders is, or is directly or indirectly owned by, a REIT, and
+that each such Lender intends that the Loan qualify for the Mezzanine Loan Safe Harbor. In furtherance thereof, and notwithstanding anything
+in the Agreement or the other Loan Documents to the contrary:
+a.
+The
+parties acknowledge and agree that (i) the Loan is nonrecourse to Borrower except for the recourse obligations expressly set forth
+in the Loan Documents including, without limitation, the Guaranties and the Environmental Indemnity; provided, however, that, as more
+particularly set forth in
+Section 19(f),
+the Carry Guaranty does not guarantee, apply to, secure or otherwise constitute or
+create recourse for any IIP Lender Obligations, and guarantees solely the Non-IIP Lender Obligations; (ii) the Loan is secured solely
+by the Collateral described in the Pledge Agreements, consisting of the pledged limited liability company interests and the proceeds thereof,
+and, solely with respect to the Non-IIP Lender Obligations, the Hypothec (it being acknowledged and agreed, as more particularly set forth
+in
+Section 19(e)
+, that the Hypothec does not secure the IIP Lender Obligations and that no IIP Lender has, holds or is entitled
+to the benefit of the Hypothec or any security interest or other lien in respect of the property charged by the Hypothec); (iii) Administrative
+Agent, for the benefit of the Lenders, holds a first priority security interest in the Collateral pledged under the Pledge Agreements;
+and (iv) in no event shall Administrative Agent or any Lender have, hold or be granted any mortgage, deed of trust, hypothec, lien
+on, security interest in, or direct or indirect ownership interest in, the Property (other than, solely in the case of the Non-IIP Lenders,
+the property charged pursuant to the Hypothec) or any other real property owned by the Mortgage Borrower, other than indirectly through
+succession to the pledged limited liability company interests upon an exercise of remedies against the Collateral in accordance with
+Section 20
+.
+b.
+Borrower
+represents and warrants that, as of the Loan Increase Effective Date, (i) at least eighty-five percent (85%) of the value of the
+assets of the Mortgage Borrower consists of real property (within the meaning of Section 856 of the Code), and (ii) the fair
+market value of the Property (as reduced by the amount of any senior liens or liabilities, including the Mortgage Loan) is at least equal
+to the outstanding principal amount of the Loan (as increased by the Loan Increase). Borrower shall, upon request, deliver to Administrative
+Agent such information and certifications as any Lender reasonably requires to confirm continued compliance with the foregoing. Borrower
+covenants that on each “testing date” (as such term is defined in the Mezzanine Loan Safe Harbor) while the Loan is outstanding,
+at least eighty-five percent (85%) of the value of the assets of the Mortgage Borrower shall consist of real property (within the meaning
+of Section 856 of the Code).
+SIXTH AMENDMENT TO MEZZANINE LOAN AGREEMENT
+-
+20
+-
+c.
+Upon
+any sale, conveyance, transfer or other disposition of all or any portion of the Property (or any direct or indirect interest therein)
+by the Mortgage Borrower, other than as expressly permitted under the Loan Documents, the entire Debt shall, at Administrative Agent’s
+election, become immediately due and payable.
+d.
+Interest
+and all other amounts payable under the Loan Documents constitute solely compensation for the use or forbearance of money, and no such
+amount is determined, in whole or in part, by reference to the income or profits of any Person (other than, if and to the extent applicable,
+an amount based on a fixed percentage of receipts or sales).
+e.
+Notwithstanding
+anything to the contrary in the Hypothec (including, for greater certainty, the provisions of section 8.7 (
+Paramountcy
+) thereof),
+the Agreement or any other Loan Document, the parties acknowledge and agree that: (i) the “Secured Obligations” secured
+by the Hypothec, and the obligations for the payment and performance of which the Administrative Agent (in its capacity as hypothecary
+representative under the Hypothec) holds and may enforce the Hypothec, exclude, and the Hypothec does not secure, any IIP Lender Obligations,
+including any Debt or other obligations evidenced by or arising in respect of Note B; (ii) the Hypothec secures solely the Non-IIP
+Lender Obligations and is held by the Administrative Agent (in its capacity as hypothecary representative under the Hypothec) solely for
+the benefit of the Non-IIP Lenders; (iii) no IIP Lender shall have, hold, or be entitled to the benefit of the Hypothec, or any security
+interest or other lien under or in respect of the Hypothec or the property charged thereby, and no proceeds of such charged property shall
+be applied to or on account of any IIP Lender Obligations; and (iv) promptly following the Loan Increase Effective Date, the Administrative
+Agent and the Lenders shall, and Borrower shall cause Mortgage Borrower, as grantor under the Hypothec to execute, deliver and record
+such amendments to the Hypothec and such other instruments as any IIP Lender may reasonably request to evidence and give effect to the
+foregoing. For the avoidance of doubt, this
+Section 19(e)
+(i) shall control over any conflicting provision of the
+Hypothec (including the definition of “Secured Obligations” therein), the Agreement and the other Loan Documents as to the
+Hypothec, and (ii) does not constitute a novation of any obligation secured by the Hypothec or a replacement of the Hypothec, and
+it does not affect the validity, rank or opposability of the Hypothec with respect to the Non-IIP Lender Obligations, all of which are
+hereby expressly reserved.
+f.
+Notwithstanding
+anything to the contrary in the Carry Guaranty, the Agreement or any other Loan Document, the parties acknowledge and agree that: (i) the
+Carry Guaranty guarantees solely the Non-IIP Lender Obligations and does not guarantee, apply to, secure or otherwise constitute or create
+recourse for any IIP Lender Obligations, including any Debt or other obligations evidenced by or arising in respect of Note B; (ii) no
+IIP Lender is or shall be a beneficiary of, or entitled to enforce, direct or receive any payment or other benefit under, the Carry Guaranty,
+and no amount paid or payable under the Carry Guaranty shall be applied to or on account of any IIP Lender Obligations; (iii) nothing
+in the Carry Guaranty shall be construed to render any IIP Lender Obligation recourse to Borrower or Guarantor; and (iv) nothing
+in this
+Section 19(f)
+shall reduce, impair, release or otherwise affect the obligations of Guarantor under the Carry
+Guaranty with respect to the Non-IIP Lender Obligations, all of which remain in full force and effect in accordance with their terms.
+For the avoidance of doubt, this
+Section 19(f)
+shall control over any conflicting provision of the Carry Guaranty, the
+Agreement and the other Loan Documents as to the Carry Guaranty.
+SIXTH AMENDMENT TO MEZZANINE LOAN AGREEMENT
+-
+21
+-
+20.
+Exercise
+of Remedies; Preservation of Safe Harbor and REIT Status
+. Notwithstanding anything to the contrary in the Agreement or any other Loan
+Document:
+a.
+Upon
+the occurrence and during the continuance of an Event of Default, the rights and remedies of Administrative Agent and the Lenders shall
+be exercised solely against (i) the Collateral (including the pledged limited liability company interests) as a secured party under
+the Uniform Commercial Code and the Pledge Agreements, and (ii) the property charged pursuant to the Hypothec, and neither Administrative
+Agent nor any Lender shall have any right to foreclose upon, take title to, or otherwise realize directly upon the Property (other than,
+solely in the case of the Non-IIP Lenders, the property charged pursuant to the Hypothec as such actions may be taken outside of those
+related to this Loan).
+b.
+Upon
+foreclosure or other exercise of remedies against the Collateral, Administrative Agent, the applicable Lender, or their designee shall
+succeed to the pledged limited liability company interests and thereby replace Borrower as the member of the applicable entity. To the
+extent any such entity is a partnership, the other partners of such partnership shall be deemed to have agreed not to unreasonably oppose
+or withhold consent to the admission of Administrative Agent, such Lender or their designee as a substitute partner.
+c.
+To
+the extent permitted by the Co-Lender Agreement, the IIP Lender shall have the right to request, provided such request does not unreasonably
+prejudice the other Lenders, to direct, structure, defer, decline, or modify the exercise of any remedy with respect to that portion of
+the Loan held by the IIP Lender (including any foreclosure upon or retention of the Collateral, exercise of voting or consent rights,
+or receipt of distributions) to the extent that the IIP Lender reasonably determines that such exercise, or its manner or timing, could
+cause the IIP Lender (or any direct or indirect owner thereof that is a REIT) to fail to satisfy the Mezzanine Loan Safe Harbor or any
+requirement applicable to a REIT under Sections 856 through 860 of the Code, including by causing title to the Collateral (or, upon any
+subsequent realization, the Property) to be taken and held by a taxable REIT subsidiary, a qualified REIT subsidiary, or another qualified
+transferee designated by the IIP Lender. No such direction, deferral, modification or forbearance shall constitute a waiver of any Default
+or Event of Default or of any right or remedy under the Loan Documents; provided that any such deferral or forbearance by the IIP Lender
+shall be without prejudice to Borrower and shall not extend, toll or otherwise modify any cure or performance period applicable to Borrower
+under the Loan Documents. Notwithstanding the foregoing, in no event shall the Administrative Agent be required to act (or fail to act)
+in any way which it determines, in its reasonable discretion, may be detrimental to the rights and remedies of the other Lenders under
+the Loan Documents.
+21.
+Additional
+Requirements
+. Notwithstanding anything in the Agreement or the other Loan Documents to the contrary:
+a.
+Administrative
+Agent and each Lender shall reasonably cooperate with any Lender to structure the Loan, any exercise of remedies, and any acquisition,
+holding or disposition of the Collateral or the Property so as to preserve the Mezzanine Loan Safe Harbor, including permitting the use
+of a taxable REIT subsidiary, qualified REIT subsidiary, servicer or independent contractor (within the meaning of Section 856(d)(3) of
+the Code) to hold or operate any real property acquired through an exercise of remedies.
+SIXTH AMENDMENT TO MEZZANINE LOAN AGREEMENT
+-
+22
+-
+b.
+Any
+Lender may assign, participate or otherwise transfer all or any portion of its Note, its Loan and its interest in the Loan Documents to
+the extent such Lender reasonably determines necessary or advisable to preserve its status as a REIT or to comply with the Mezzanine Loan
+Safe Harbor or Sections 856 through 860 of the Code, subject to and in accordance with the applicable transfer provisions of the Agreement,
+the Co-Lender Agreement and the Intercreditor Agreement.
+c.
+Borrower
+shall not take, and shall cause the Issuer and the Mortgage Borrower not to take, any action that would cause the Issuer or the Mortgage
+Borrower to be treated as an association, or as a publicly traded partnership, taxable as a corporation for U.S. federal income tax purposes,
+and shall promptly furnish to Administrative Agent and any Lender such financial and other information as such Lender reasonably requests
+to determine or confirm compliance with the REIT asset and income tests and the Mezzanine Loan Safe Harbor.
+d.
+To
+the extent any provision of the Loan Documents would, if enforced as written, cause the Loan to fail the Mezzanine Loan Safe Harbor, such
+provision shall be applied and enforced only in the manner, and to the extent, that preserves the Mezzanine Loan Safe Harbor, and the
+provisions of this
+Section 21
+and
+Sections 18
+,
+19
+and
+20
+above (the “
+REIT Compliance Provisions
+”)
+shall control over any conflicting provision of the Loan Documents as to the Loan; provided, that no application or enforcement of the
+REIT Compliance Provisions shall, without Borrower’s consent, (i) increase the principal amount of, or the interest rate or
+other amounts payable by Borrower under, the Loan, (ii) shorten the Maturity Date or the term of the Loan, or (iii) impose any
+material out-of-pocket cost or expense on Borrower for which the requesting IIP Lender does not reimburse Borrower; provided further,
+that a failure to satisfy the Mezzanine Loan Safe Harbor shall not, in itself, constitute a Default or Event of Default under the Agreement
+for so long as the affected IIP Lender has received a reasoned written opinion of tax counsel to the effect that the Loan should be treated
+as a “real estate asset” within the meaning of Section 856(c)(5)(B) of the Code notwithstanding such failure; provided
+that the foregoing shall not relieve Borrower of any of its representations, warranties, covenants or cooperation obligations under the
+REIT Compliance Provisions.
+[REMAINDER OF PAGE INTENTIONALLY LEFT BLANK]
+SIXTH AMENDMENT TO MEZZANINE LOAN AGREEMENT
+-
+23
+-
+IN WITNESS WHEREOF, this Amendment has been executed
+as of the day and year first above written.
+ADMINISTRATIVE AGENT:
+NREF OP IV REIT SUB, LLC,
+a Delaware limited liability company
+By:
+/s/ Paul A. Richards
+Name:
+Paul Richards
+Title:
+Authorized Signatory
+LENDERS:
+NREF OP IV SUBHOLDCO, LLC,
+a Delaware limited liability company
+By:
+/s/ Paul A. Richards
+Name:
+Paul Richards
+Title:
+Authorized Signatory
+IIP LIFE SCIENCE INVESTMENTS
+    II LLC
+a Delaware limited liability company
+By:
+/s/ David Smith
+Name:
+David Smith
+Title:
+Chief Financial Officer and Treasurer
+BORROWER:
+IQHQ-ALEWIFE HOLDINGS, LLC,
+a Delaware limited liability company
+By:
+/s/ Preston Puryear
+Name:
+Preston Puryear
+Title:
+Authorized Signatory
+CONSENT
+AND REAFFIRMATION
+The
+undersigned hereby (a) consents to this Amendment and to the transactions contemplated thereby, even if no such consent is in fact
+required; (b) reaffirms its representations and warranties (subject to the Representation Remaking Qualifications) covenants, liabilities,
+obligations and agreements under each of the Loan Documents to which it is a party, with the same force and effect as if each were separately
+stated herein and made as of the date hereof, as may be modified, amended or affected by this Amendment and (c) joins in the releases
+in
+Section 8
+hereof as if separately signed by Guarantor.
+GUARANTOR:
+IQHQ, LP,
+a Delaware limited partnership
+By:
+IQHQ GP, LLC,
+a Delaware limited liability company,
+its general partner
+By:
+/s/ Preston Puryear
+Name: Preston Puryear
+Title:   Authorized Signatory
+The following schedules and exhibits were omitted pursuant to Item
+601(a)(5) of Regulation S-K. The Company agrees to furnish supplementally a copy of any omitted schedule or exhibit to the SEC upon request.
+Exhibit D – Initial Budget
+Schedule III – List of Construction Agreements and Construction
+Permits
+Schedule IV – List of Sub-Contractors
+Schedule VII – List of Design Professionals
+Schedule XII – Organizational Chart
+Schedule XIV – Unpaid Amounts

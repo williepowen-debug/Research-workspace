@@ -191,7 +191,7 @@ EV similar to Aug $45 but lower delta. Profits only in bear/tail. Pure downside 
 3. **C&I reclassification flatters CRE ratios** — 37.6% MI3 not discussed by sellside
 4. **Record EPS $6.18 anchors narrative** — earnings lag credit reality by 2-3 quarters
 5. **"CIB diversification" narrative** — NDFI counterparties are overwhelmingly CRE debt funds
-6. **Exit counterparty risk invisible** — Blue Owl gated, Affinius is private/opaque (no public bonds — "81¢" ref was WRONG per Prompt #9 research; likely conflation with USAA Cap Corp or securitization vehicle). Columbus Center $69M foreclosure = isolated office walk-away.
+6. **Exit counterparty risk** — **October12 source correction:** the identifiable $2.691B bonds are NEA/USRE2021-1 warehouse lease ABS, original ARDOctober20,2026/legal final2061. The “no such bonds” rejection was overbroad; **81¢ is historical2025 reporting**, not current corporate pricing. Direct OZK ABS exposure and automatic Affinius corporate default unproved. Current servicing terms/payoff UNKNOWN. → `research/threads/2026-10-12_AIMCO_AFFINIUS_CHECK.md`. No scenario number changed.
 
 ---
 

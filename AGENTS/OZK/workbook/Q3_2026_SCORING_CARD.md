@@ -56,6 +56,8 @@ After the L690 delivery, an owed-task inventory found Hunter Advisors' September
 
 ## Portfolio / earnings / retained risk — diagnostics, not new scored predictions
 
+**October12 ordered public follow-up:** W7 Jack/Muckleshoot new partnership reported; W8 property sale supported with secondary$14.25M unread-deed price lead (reconcile issuer's earlier net-proceeds expectation); W9 first lab tenant **Predicta10,500SF** signed at USQ September24 primary, actualOctober occupancy/rent and sale-financing stillUNKNOWN. Bank payoff/retained debt/rating/loss unknown for all three. **BPRE common markdown and Alewife financing belong to different instruments/assets**, not RaDD R1 recognition or R4 identified capital. Sources/limits → `research/threads/2026-10-12_WORKOUT_PUBLIC_OUTCOMES.md` and `research/threads/2026-10-12_IQHQ_FUNDING_AND_MARKS.md`. No Q3 accounting observation or prediction grade added; W1–W14/R1–R6 resolver unchanged.
+
 | Question and Q2 basis | Source | Strengthen / weaken / unresolved |
 |---|---|---|
 | Combined classified/criticized **$1,282M** vs RESG total commitments **$25.7B** | MC printed combined-total line and RESG commitments; Q2 MC p.22 and portfolio tables | Strict rise vs fall signs describe new quarter's concentration; both fall is contrary evidence. **Do not re-grade OZK-07** (Q2 TRUE) or import its conviction consequence into a new Q3 prediction. Ties at printed precision flat; loan-only total is different object |
